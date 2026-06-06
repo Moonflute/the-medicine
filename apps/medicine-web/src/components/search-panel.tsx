@@ -18,16 +18,14 @@ export function SearchPanel({ entries }: { entries: SearchEntry[] }) {
 
   const results = useMemo(() => {
     const term = query.trim().toLowerCase();
-    if (!term) return entries.slice(0, 8);
+    if (!term) return entries.slice(0, 5);
 
     return entries
       .filter((entry) => {
-        const haystack = [entry.title, entry.category, ...entry.aliases]
-          .join(" ")
-          .toLowerCase();
+        const haystack = [entry.title, entry.category, ...entry.aliases].join(" ").toLowerCase();
         return haystack.includes(term);
       })
-      .slice(0, 12);
+      .slice(0, 8);
   }, [entries, query]);
 
   return (
@@ -36,10 +34,7 @@ export function SearchPanel({ entries }: { entries: SearchEntry[] }) {
         <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-amber-100 text-amber-700">
           <Search className="h-5 w-5" />
         </div>
-        <div>
-          <h2 className="font-serif text-2xl font-semibold tracking-tight">Quick search</h2>
-          <p className="text-sm text-stone-600">질병명, alias, CC로 바로 찾을 수 있게 붙여뒀습니다.</p>
-        </div>
+        <h2 className="font-serif text-2xl font-semibold tracking-tight">Quick search</h2>
       </div>
       <input
         type="text"

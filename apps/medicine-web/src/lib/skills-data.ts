@@ -1,0 +1,368 @@
+import type { ClinicalSkill } from "./types";
+import {
+    Droplet,
+    TestTube,
+    ActivitySquare,
+    Stethoscope,
+    HeartPulse,
+    GitCommit,
+    Pill,
+    Bandage,
+    ClipboardList
+} from 'lucide-react';
+
+export const MOCK_SKILLS: Record<string, ClinicalSkill> = {
+    // 1. 채혈
+    'venipuncture': {
+        id: 'venipuncture', name: '정맥채혈 (Venipuncture)', categoryId: 'blood', categoryName: '1. 채혈',
+        videoUrl: 'https://www.youtube.com/embed/NnrS4ghYlLo',
+        indications: ['혈액검사'],
+        supplies: ['토니켓 (압박대)', '알콜 솜', '채혈 바늘 (Vacutainer 또는 butterfly needle)', '검체 병 (혈액 튜브)', '거즈', '반창고'],
+        complications: ['혈종 (Hematoma)', '실신 (Vasovagal syncope)'],
+        precautions: ['투석 환자는 양팔 채혈 금지 여부 확인', '항응고제 복용 환자는 충분한 지혈 필요', '관절 부위 가급적 피함'],
+        steps: [
+            { stepNumber: 1, title: '환자 및 채혈 준비물 확인', description: '환자 이름·등록번호 확인 후 처방된 검사 항목에 맞는 혈액 튜브를 준비한다. 손위생 후 장갑 착용.' },
+            { stepNumber: 2, title: '압박대 묶은 후 혈관 확인', description: '주와(elbow) 상부 약 5~7cm 위에 압박대를 묶는다. 환자에게 주먹을 쥐게 하여 혈관을 촉진하고 적절한 채혈 부위를 선택한다.' },
+            { stepNumber: 3, title: '채혈 부위 소독', description: '알콜 솜으로 중심에서 바깥쪽으로 원을 그리며 소독한다. 소독 후 30초 이상 건조시키며 손으로 다시 만지지 않는다.' },
+            { stepNumber: 4, title: '15도 각도로 천자 및 압박대 제거', description: '바늘을 피부면에 대해 약 15도 각도로 사면(bevel)이 위를 향하게 하여 천자한다. 혈액 역류가 확인되면 즉시 압박대를 제거한 뒤 필요한 혈액량을 채취한다.', warning: '압박대를 2분 이상 묶으면 혈액 응고 결과에 영향을 줄 수 있으므로, 혈액 역류 확인 즉시 제거한다.' },
+            { stepNumber: 5, title: '채혈 후 거즈로 5분간 압박', description: '채혈이 완료되면 바늘을 뽑으면서 즉시 거즈를 댄다. 환자에게 팔을 구부리지 않고 5분간 직접 압박하도록 교육한다.' },
+            { stepNumber: 6, title: '검체 라벨링 및 사용 물품 정리', description: '채취한 혈액 튜브에 환자 정보 라벨을 즉시 부착한다. 사용한 바늘은 즉시 안전하게 폐기하고 사용 물품을 정리한다.' }
+        ]
+    },
+
+    'abga': {
+        id: 'abga', name: '동맥채혈 (ABGA)', categoryId: 'blood', categoryName: '1. 채혈',
+        indications: ['산염기 균형 확인'], supplies: ['헤파린 주사기', '거즈'], complications: ['동맥손상'], precautions: ['Allen test'],
+        steps: [{ stepNumber: 1, title: '채혈', description: '요골동맥 천자 및 지혈' }]
+    },
+    'femoral-puncture': {
+        id: 'femoral-puncture', name: '대퇴동맥/정맥 천자 (Femoral)', categoryId: 'blood', categoryName: '1. 채혈',
+        indications: ['말초 혈관 없음'], supplies: ['주사기'], complications: ['대퇴신경 손상'], precautions: ['NAVEL 구조 숙지'],
+        steps: [{ stepNumber: 1, title: '천자', description: '서혜인대 아래에서 천자' }]
+    },
+    'blood-culture': {
+        id: 'blood-culture', name: '혈액 배양 (Blood culture)', categoryId: 'blood', categoryName: '1. 채혈',
+        indications: ['패혈증 의심'], supplies: ['배양 보틀', '베타딘'], complications: ['컨테미네이션'], precautions: ['무균술 철저'],
+        steps: [{ stepNumber: 1, title: '소독', description: '베타딘 소독 후 채혈' }]
+    },
+    'needle-stick-injury': {
+        id: 'needle-stick-injury', name: '주사침 찔림 (NSI)', categoryId: 'blood', categoryName: '1. 채혈',
+        indications: ['찔림 사고'], supplies: ['소독액'], complications: ['[보고] 감염실 보고'], precautions: [],
+        steps: [{ stepNumber: 1, title: '씻어내기', description: '흐르는 물에 즉시 씻어냄' }]
+    },
+
+    // 2. 관 튜브
+    'ng-tube': {
+        id: 'ng-tube', name: '위관 삽입 (Nasogastric tube)', categoryId: 'tubes', categoryName: '2. 관·튜브',
+        indications: ['위 압력 완화', '영양 공급'], supplies: ['L-tube', '윤활제'], complications: ['[보고] 저항 심함'], precautions: [],
+        steps: [{ stepNumber: 1, title: '삽입', description: '침 삼키는 동작에 맞춰 삽입' }]
+    },
+    't-tube': {
+        id: 't-tube', name: '기관절개관 (Tracheostomy tube)', categoryId: 'tubes', categoryName: '2. 관·튜브',
+        indications: ['보조 호흡로'], supplies: ['석션기', '생리식염수'], complications: ['[보고] 출혈, 관 빠짐'], precautions: [],
+        steps: [{ stepNumber: 1, title: '관리', description: '상처 소독 및 드레싱' }]
+    },
+    'drainage-tube': {
+        id: 'drainage-tube', name: '배액관 일반 (Drainage tube)', categoryId: 'tubes', categoryName: '2. 관·튜브',
+        indications: ['수술부위 체액 배출'], supplies: ['알콜솜'], complications: ['감염'], precautions: [],
+        steps: [{ stepNumber: 1, title: '비우기', description: '용량 확인 후 비움' }]
+    },
+    'enema': {
+        id: 'enema', name: '관장 (Rectal tube/Enema)', categoryId: 'tubes', categoryName: '2. 관·튜브',
+        indications: ['장결정, 변비 등'], supplies: ['관장용 시린지', '글리세린'], complications: ['직장 손상'], precautions: ['좌측 와위 유지'],
+        steps: [{ stepNumber: 1, title: '주입', description: '부드럽게 주입 후 대기 교육' }]
+    },
+    'chest-tube': {
+        id: 'chest-tube', name: '흉관 (Chest tube)', categoryId: 'tubes', categoryName: '2. 관·튜브',
+        indications: ['기흉, 농흉'], supplies: ['흉관', '메스', '봉합사'], complications: ['[보고] 과다출혈'], precautions: [],
+        steps: [{ stepNumber: 1, title: '삽입 보조', description: '무균 보조 및 X-ray 확인' }]
+    },
+    'foley': {
+        id: 'foley', name: '도뇨관 (Foley catheter)', categoryId: 'tubes', categoryName: '2. 관·튜브',
+        indications: ['요폐, I&O 측정'], supplies: ['Foley 세트', '윤활제', '증류수'], complications: ['[보고] 진행 안됨'], precautions: ['저항 무리하게 넘지 않음'],
+        steps: [{ stepNumber: 1, title: '삽입', description: '요도 소독 및 윤활제 도포 후 삽입' }]
+    },
+    'jp-drain': {
+        id: 'jp-drain', name: 'J/P Drain', categoryId: 'tubes', categoryName: '2. 관·튜브',
+        indications: ['수술부위 배액'], supplies: ['알콜솜'], complications: ['[보고] 배액량 급증'], precautions: ['음압유지'],
+        steps: [{ stepNumber: 1, title: '비우기', description: '비우고 꽉 쥐어 음압 생성 후 닫음' }]
+    },
+    'peg-tube': {
+        id: 'peg-tube', name: '위루관 (PEG tube)', categoryId: 'tubes', categoryName: '2. 관·튜브',
+        indications: ['장기 영양'], supplies: ['일회용 시린지'], complications: ['감염', '주입불량'], precautions: [],
+        steps: [{ stepNumber: 1, title: '드레싱 및 주입', description: '사용 전후 물로 씻어내고 드레싱' }]
+    },
+    'evd': {
+        id: 'evd', name: '체외뇌실배액 (EVD)', categoryId: 'tubes', categoryName: '2. 관·튜브',
+        indications: ['뇌압 강하, 뇌척수액 배출'], supplies: ['드레싱세트'], complications: ['[보고] 뇌척수액 색 변화, 뇌압 상승 소견'], precautions: ['모터의 높이 고정 유지'],
+        steps: [{ stepNumber: 1, title: '배액 조절', description: '처방된 압력 기준점 확인' }]
+    },
+    'suction-catheter': {
+        id: 'suction-catheter', name: '가래 흡인 (Suction catheter)', categoryId: 'tubes', categoryName: '2. 관·튜브',
+        indications: ['비자발적 가래 배출 시'], supplies: ['흡인 카테터', '크린조'], complications: ['저산소증'], precautions: ['15초 제한'],
+        steps: [{ stepNumber: 1, title: '흡인', description: '돌리면서 부드럽게 흡인' }]
+    },
+
+    // 3. 환자 감시
+    'ekg': {
+        id: 'ekg', name: '심전도 (EKG)', categoryId: 'monitoring', categoryName: '3. 환자 감시',
+        indications: ['흉통 등 심장 이상 의심'], supplies: ['EKG 전극'], complications: ['[보고] STEMI 소견 시 즉시 보고'], precautions: ['전자제품 제거'],
+        steps: [{ stepNumber: 1, title: '리드 부착 및 캡처', description: '12리드 흉부 및 사지 부착' }]
+    },
+    'patient-monitoring': {
+        id: 'patient-monitoring', name: 'Patient monitoring (웹모니터)', categoryId: 'monitoring', categoryName: '3. 환자 감시',
+        indications: ['V/S 지속 모니터링'], supplies: ['SPO2 센서', 'EKG 패드', 'BP 커프'], complications: ['[보고] V/S 급변'], precautions: [],
+        steps: [{ stepNumber: 1, title: '기기 연결', description: '각 센서를 환자에게 부착하고 알람 한계값 설정' }]
+    },
+    'brain-monitoring': {
+        id: 'brain-monitoring', name: 'Brain monitoring', categoryId: 'monitoring', categoryName: '3. 환자 감시',
+        indications: ['두개내압(ICP) 및 뇌파 감시'], supplies: ['EEG/ICP 센서'], complications: ['[보고] ICP 상승, 발작파'], precautions: ['환자 두부 상승 확인'],
+        steps: [{ stepNumber: 1, title: '모니터 확인', description: '수치 및 파형 상태 정기적 점검' }]
+    },
+    'intra-monitor': {
+        id: 'intra-monitor', name: 'Intraoperative monitoring', categoryId: 'monitoring', categoryName: '3. 환자 감시',
+        indications: ['수술 중 신경 보호'], supplies: [], complications: ['[보고] 모터 유발전위 등 변화 시 즉시 보고'], precautions: [],
+        steps: [{ stepNumber: 1, title: '수술 중 감시', description: '마취과 및 수술의와 신경 상태 파형 소통' }]
+    },
+    'nst': {
+        id: 'nst', name: '태동 검사 (NST)', categoryId: 'monitoring', categoryName: '3. 환자 감시',
+        indications: ['산모 및 태아 안녕 평가'], supplies: ['초음파 젤', '태아 모니터용 벨트'], complications: ['[보고] 태아 심박수 저하(Deceleration)'], precautions: [],
+        steps: [{ stepNumber: 1, title: '벨트 부착', description: '산모 복부에 자궁수축 센서와 태아 심박수 센서 부착' }]
+    },
+    'ct-keep': {
+        id: 'ct-keep', name: 'CT keep (촬영 시 환자 관리)', categoryId: 'monitoring', categoryName: '3. 환자 감시',
+        indications: ['중환자 CT 등 이동 및 촬영 시 동행'], supplies: ['Ambu bag', '이동형 모니터', '응급약'], complications: ['[보고] 이동 중 환자 상태 악화 시 주치의 보고'], precautions: ['산소와 라인이 꼬이지 않게 주의'],
+        steps: [{ stepNumber: 1, title: '환자 이동 및 V/S 주시', description: '촬영실에서 모니터링 끊기지 않게 연결' }]
+    },
+
+    // 4. 고급 술기
+    'paracentesis': {
+        id: 'paracentesis', name: '복수 천자 (Paracentesis)', categoryId: 'advanced', categoryName: '4. 고급 술기',
+        indications: ['치료적/진단적 배액'], supplies: ['척추천자침/엔지오', '베타딘'], complications: ['[보고] 배액 중 혈압 저하'], precautions: ['천자 전 배뇨'],
+        steps: [{ stepNumber: 1, title: '천자', description: '좌측하복부 마취 후 천자 및 배액통 연결' }]
+    },
+    'pap-smear': {
+        id: 'pap-smear', name: '세포진 검사 (Pap smear)', categoryId: 'advanced', categoryName: '4. 고급 술기',
+        indications: ['자궁경부암 조기 검진'], supplies: ['질경', '브러쉬', '슬라이드/고정액'], complications: ['출혈'], precautions: [],
+        steps: [{ stepNumber: 1, title: '도말', description: '자궁경부 점막 브러싱 후 슬라이드 도말 및 즉시 고정' }]
+    },
+    'lumbar-puncture': {
+        id: 'lumbar-puncture', name: '요추 천자 (Lumbar puncture)', categoryId: 'advanced', categoryName: '4. 고급 술기',
+        indications: ['CSF 분석'], supplies: ['척추침', '검체통'], complications: ['[보고] 두통/상승된 ICP 소견'], precautions: ['사전 CT 등 확보 여부'],
+        steps: [{ stepNumber: 1, title: '자세 및 천자', description: '새우 자세 후 국소마취, L3/4에서 천자 및 채액' }]
+    },
+
+    // 5. CPR
+    'oxygen': {
+        id: 'oxygen', name: '산소요법', categoryId: 'cpr', categoryName: '5. CPR',
+        indications: ['기능적 저산소증'], supplies: ['비강캐뉼라', '마스크'], complications: ['산소독성', '[보고] 산소 줘도 SPO2 안오름'], precautions: ['COPD 환자는 너무 높은 산소농도 주의'],
+        steps: [{ stepNumber: 1, title: '산소 공급', description: '목표 SpO2에 맞는 디바이스 및 유량 설정' }]
+    },
+    'cpr': {
+        id: 'cpr', name: 'CPR', categoryId: 'cpr', categoryName: '5. CPR',
+        indications: ['심정지'], supplies: ['제세동기', '응급약'], complications: ['[보고] ROSC'], precautions: ['중단 없는 흉부압박'],
+        steps: [{ stepNumber: 1, title: '압박 및 제세동', description: '100~120회 압박, Shockable 리듬이면 쇼크 준비' }]
+    },
+    'sellick': {
+        id: 'sellick', name: 'Sellick maneuver (윤상연골 압박)', categoryId: 'cpr', categoryName: '5. CPR',
+        indications: ['삽관 시 기도로의 위내용물 역류 방지'], supplies: [], complications: ['기도 손상'], precautions: ['지시가 있을 때까지 고정'],
+        steps: [{ stepNumber: 1, title: '압박 유지', description: '갑상연골 하단 윤상연골 부위를 지속적으로 누름' }]
+    },
+
+    // 6. 혈관 라인
+    'a-line': {
+        id: 'a-line', name: 'Arterial line (A-line)', categoryId: 'line', categoryName: '6. 혈관 라인',
+        indications: ['지속 혈압 모니터링'], supplies: ['Angio', '트랜스듀서'], complications: ['[보고] 빠진 경우 출혈 위험이 큼'], precautions: ['Allen test 수행'],
+        steps: [{ stepNumber: 1, title: '삽입', description: '요골동맥 천자 후 관 연결' }]
+    },
+    'sheath': {
+        id: 'sheath', name: 'Sheath', categoryId: 'line', categoryName: '6. 혈관 라인',
+        indications: ['혈관 시술 후 도관, 동맥/정맥 루트 유지'], supplies: ['제거용 거즈', '모래주머니'], complications: ['[보고] 제거 후 피가 솟구치거나 혈종 생김'], precautions: ['제거 후 확실한 지혈 필수'],
+        steps: [{ stepNumber: 1, title: '제거 및 압박', description: '부드럽게 뽑아낸 뒤 15~20분 이상 강하게 압박 후 모래주머니 유지' }]
+    },
+    'c-line': {
+        id: 'c-line', name: 'C-line (중심정맥관)', categoryId: 'line', categoryName: '6. 혈관 라인',
+        indications: ['수액, 비경구영양, CVP 측정'], supplies: ['C-line 세트', '초음파'], complications: ['기흉', '[보고] 선 연결부 혈액 역류시 즉시 콜'], precautions: ['Maximal barrier precautions'],
+        steps: [{ stepNumber: 1, title: '보조', description: '무균 상태 세팅 후 의사 보조, 삽입 후 X-ray 촬영' }]
+    },
+    'iv-line': {
+        id: 'iv-line', name: 'Peripheral line (말초정맥 로트)', categoryId: 'line', categoryName: '6. 혈관 라인',
+        indications: ['약물/수액 주입 목적'], supplies: ['IV 젤코', '토니켓', '테이프'], complications: ['[보고] 항암/강한 약물 Extravasation 시 즉각 콜'], precautions: ['관절 부위 가급적 피함'],
+        steps: [{ stepNumber: 1, title: '삽입', description: '혈관을 찾아 천자 및 젤코 삽입' }]
+    },
+
+    // 7. 주사 및 약물 투여
+    'ampule': {
+        id: 'ampule', name: '앰플, 바이알 조제', categoryId: 'injection', categoryName: '7. 주사 및 약물 투여',
+        indications: ['주사 투여 전 약품 준비'], supplies: ['주사기', '생리식염수'], complications: ['유리파편 혼입', '컨테미네이션'], precautions: ['앰플 목의 유리 파편 조심'],
+        steps: [{ stepNumber: 1, title: '드로잉', description: '알콜로 닦은 후 따고 무균 상태로 용액 흡인' }]
+    },
+    'abx-injection': {
+        id: 'abx-injection', name: '항생제 주사 / AST', categoryId: 'injection', categoryName: '7. 주사 및 약물 투여',
+        indications: ['항생제 피부 반응 테스트'], supplies: ['Tuberculin 주사기'], complications: ['[보고] 10mm 이상 발적 및 양성 시 콜'], precautions: ['반드시 15분 후 비교'],
+        steps: [{ stepNumber: 1, title: 'AST', description: '전완 내측 ID 주사 15분 관찰' }]
+    },
+    'narcotics': {
+        id: 'narcotics', name: '마약 주사', categoryId: 'injection', categoryName: '7. 주사 및 약물 투여',
+        indications: ['심한 통증 조절 (펜타닐, 몰핀, 페치딘 등)'], supplies: ['열쇠', '이중잠금 약장'], complications: ['호흡 억제', '[보고] 약 처방 및 투여 대장 기입, 잔반량 관련 엄격한 관리'], precautions: ['이중서명 필수'],
+        steps: [{ stepNumber: 1, title: '투여 및 기록', description: '더블 체킹 후 투여, 반납 절차 엄수' }]
+    },
+    'chemo': {
+        id: 'chemo', name: '항암제 주사', categoryId: 'injection', categoryName: '7. 주사 및 약물 투여',
+        indications: ['항암치료'], supplies: ['항암용 가운, 라텍스 장갑, 보안경'], complications: ['[보고] Extravasation 즉각 응급 처치 필요', '투여자 노출'], precautions: ['절대 일반 수액줄이나 맨손으로 다루지 말 것'],
+        steps: [{ stepNumber: 1, title: '안전 투여', description: '방호구 착용 후 C-line 확인 또는 굵은 IV 잡은 후 천천히 주입' }]
+    },
+    'contrast-media': {
+        id: 'contrast-media', name: '조영제 주사', categoryId: 'injection', categoryName: '7. 주사 및 약물 투여',
+        indications: ['CT/MRI 조영 촬영'], supplies: ['굵은 IV (18~20G)'], complications: ['[보고] 알러지 쇼크나 혈관 외 유출 시 즉시 콜'], precautions: ['신장 수치 확인'],
+        steps: [{ stepNumber: 1, title: 'IV 전처치', description: '막히지 않고 식염수가 잘 들어가는 단단한 라인 잡기' }]
+    },
+    'ped-sedation': {
+        id: 'ped-sedation', name: '소아진정', categoryId: 'injection', categoryName: '7. 주사 및 약물 투여',
+        indications: ['수면 MRI, 소아 처치 협조 및 안정'], supplies: ['포크랄(Pocral), 미다졸람', '모니터링 장치'], complications: ['[보고] 호흡수 감소 등 호흡억제 소견'], precautions: ['의식 상태와 호흡 지속 관찰'],
+        steps: [{ stepNumber: 1, title: '약물 투여', description: '체중(kg)당 적정량(Dosage) 계산 후 경구 또는 IV 투여' }]
+    },
+    'infusion-pump': {
+        id: 'infusion-pump', name: 'Infusion pump (수액 펌프)', categoryId: 'injection', categoryName: '7. 주사 및 약물 투여',
+        indications: ['승압제 등 미세 용량 투여 지속'], supplies: ['인퓨전 펌프 기기'], complications: ['[보고] 기포(Air) 알람, 막힘 알람 해결 안될때'], precautions: ['속도 셋팅 이중 확인'],
+        steps: [{ stepNumber: 1, title: '셋팅 및 가동', description: 'cc/hr 속도 셋팅 및 기포 제거 후 시작 버튼 클릭' }]
+    },
+
+    // 8. 드레싱
+    'wound-care': {
+        id: 'wound-care', name: '상처 관리 (Wound care)', categoryId: 'wound', categoryName: '8. 드레싱 및 상처관리',
+        indications: ['수술부위 및 욕창 관리'], supplies: ['드레싱세트', '베타딘'], complications: ['[보고] 배액 액체 악취나 화농성 등 감염 징후'], precautions: [],
+        steps: [{ stepNumber: 1, title: '교체', description: '기존의 젖은 폼 제거 후 소독하고 덮기' }]
+    },
+    'burn-care': {
+        id: 'burn-care', name: '화상 처치', categoryId: 'wound', categoryName: '8. 드레싱 및 상처관리',
+        indications: ['2도 이상 화상 부위 감염 예방'], supplies: ['실바딘 폼', '바세린 거즈', '생리식염수'], complications: ['[보고] 화상 부위가 괴사되거나 환자 감각에 문제 생길 경우 콜'], precautions: ['초기 물집은 무리해서 터뜨리지 않는다'],
+        steps: [{ stepNumber: 1, title: '냉각 및 드레싱', description: '열기를 식힌 후 처방된 항생연고 거즈를 환부에 두껍게 도포' }]
+    },
+
+    // 9. 분동
+    'htn-call': {
+        id: 'htn-call', name: '고혈압(Hyper-TN) 콜', categoryId: 'ward', categoryName: '9. 기타 병동 업무',
+        indications: ['SBP 기준 160~180 이상'], supplies: ['니페디핀', '페르디핀 등'], complications: ['[보고] 두통, 심전도 이상, 의식저하 등 동반시 즉시 콜 (Hypertensive emergency)'], precautions: ['증상 유무 먼저 Assessment'],
+        steps: [{ stepNumber: 1, title: '재확인 및 문진', description: '휴식 후 반대쪽 팔에서 다시 BP 재기. 증상 파악 문진.' }, { stepNumber: 2, title: '처치', description: 'PRN 오더대로 경구용 강압제 투여 또는 주치의 노티 후 IV 항고혈압제 투여.' }]
+    },
+    'sugar-call': {
+        id: 'sugar-call', name: '고/저혈당 콜', categoryId: 'ward', categoryName: '9. 기타 병동 업무',
+        indications: ['BST 기준 미달/오버'], supplies: ['RI', '50% Dextrose'], complications: ['[보고] 호출에도 반응이 없는 경우 의식저하 즉시 콜'], precautions: ['처치 후 30분~1시간 뒤 f/u'],
+        steps: [{ stepNumber: 1, title: '조치', description: 'Sliding scale에 따라 인슐린 투여하거나 식은땀 흘리면 50% 포도당 투여' }]
+    },
+    'vasopressor': {
+        id: 'vasopressor', name: '승압제 사용 (NorEpi, Dopamine 등)', categoryId: 'ward', categoryName: '9. 기타 병동 업무',
+        indications: ['저혈압(쇼크) 교정 시'], supplies: ['인퓨전 펌프', 'C-line (권장)'], complications: ['[보고] 승압제 달아도 혈압 복구 안될 시 V/S 콜'], precautions: ['Peripheral로 투여 시 조직괴사 주의. C-line 필수 지향'],
+        steps: [{ stepNumber: 1, title: '용량 셋팅', description: 'mcg/kg/min 단위로 계산하여 정확한 속도 조절' }]
+    },
+    'transfusion': {
+        id: 'transfusion', name: '수혈 (Transfusion)', categoryId: 'ward', categoryName: '9. 기타 병동 업무',
+        indications: ['Hb 7.0 미만 등 빈혈 치료'], supplies: ['혈액', '수혈세트', '18~20G IV'], complications: ['[보고] 수혈 중 오한, 발열, 발진, 혈뇨 발생 시 즉시 콜 (수혈 부작용)'], precautions: ['시작 시 의사+간호사 교차 서명 필수'],
+        steps: [{ stepNumber: 1, title: '시작 및 부작용 감시', description: '혈액형 이중 체크 후 연결. 15분간 부작용 발생(발열, 오한) 지켜봄.' }]
+    },
+    'death-pronouncement': {
+        id: 'death-pronouncement', name: '사망선고 (Death Pronouncement)', categoryId: 'ward', categoryName: '9. 기타 병동 업무',
+        indications: ['심정지 발생/임종'], supplies: ['청진기', '펜라이트'], complications: ['[보고] 사망진단서 내용 주치의 확인 필수'], precautions: [],
+        steps: [{ stepNumber: 1, title: '사망선언', description: '호흡, 맥박 정지 및 라이트 리플렉스 확인 후 시간 읽으며 선고' }]
+    },
+    'lstd': {
+        id: 'lstd', name: '연명의료중단 (LSTD)', categoryId: 'ward', categoryName: '9. 기타 병동 업무',
+        indications: ['DNR, 사전연명의료의향서 작성 환자'], supplies: ['관련 동의서류 확인'], complications: ['[보고] 서류 불충분 시 섣부른 조치 중단 금지'], precautions: ['윤리위, 2인 이상 전문의 확인 등 절차 엄수'],
+        steps: [{ stepNumber: 1, title: '문서 확인 및 DNR 실행', description: '심정지 시 CPR 및 침습적 치료를 시행하지 않는 등 결정 범위 내에서 편안하게 케어' }]
+    }
+};
+
+export const SKILL_CATEGORIES = [
+    {
+        id: 'blood', name: '1. 채혈', icon: Droplet,
+        items: [
+            { id: 'venipuncture', name: '정맥채혈 (Venipuncture)' },
+            { id: 'abga', name: 'Arterial puncture (ABGA)' },
+            { id: 'femoral-puncture', name: 'Femoral puncture' },
+            { id: 'blood-culture', name: 'Blood culture' },
+            { id: 'needle-stick-injury', name: 'Needle stick injury' }
+        ]
+    },
+    {
+        id: 'tubes', name: '2. 관·튜브', icon: TestTube,
+        items: [
+            { id: 'ng-tube', name: 'Nasogastric (NG) tube' },
+            { id: 't-tube', name: 'Tracheostomy tube (T-tube)' },
+            { id: 'drainage-tube', name: 'Drainage tube' },
+            { id: 'enema', name: 'Rectal tube (enema)' },
+            { id: 'chest-tube', name: 'Chest tube' },
+            { id: 'foley', name: 'Foley catheter' },
+            { id: 'jp-drain', name: 'J/P drain' },
+            { id: 'peg-tube', name: 'PEG tube' },
+            { id: 'evd', name: 'EVD' },
+            { id: 'suction-catheter', name: 'Suction catheter' }
+        ]
+    },
+    {
+        id: 'monitoring', name: '3. 환자 감시', icon: ActivitySquare,
+        items: [
+            { id: 'ekg', name: 'EKG' },
+            { id: 'patient-monitoring', name: 'Patient monitoring' },
+            { id: 'brain-monitoring', name: 'Brain monitoring' },
+            { id: 'intra-monitor', name: 'Intraoperative monitoring' },
+            { id: 'nst', name: 'NST' },
+            { id: 'ct-keep', name: 'CT keep' }
+        ]
+    },
+    {
+        id: 'advanced', name: '4. 고급 술기', icon: Stethoscope,
+        items: [
+            { id: 'paracentesis', name: 'Paracentesis' },
+            { id: 'pap-smear', name: 'Pap smear' },
+            { id: 'lumbar-puncture', name: 'Lumbar puncture' }
+        ]
+    },
+    {
+        id: 'cpr', name: '5. CPR', icon: HeartPulse,
+        items: [
+            { id: 'oxygen', name: '산소요법' },
+            { id: 'cpr', name: 'CPR' },
+            { id: 'sellick', name: 'Sellick maneuver (Cricoid)' }
+        ]
+    },
+    {
+        id: 'line', name: '6. 혈관 라인', icon: GitCommit,
+        items: [
+            { id: 'a-line', name: 'Arterial line (A-line)' },
+            { id: 'sheath', name: 'Sheath' },
+            { id: 'c-line', name: 'C-line' },
+            { id: 'iv-line', name: 'Peripheral line' }
+        ]
+    },
+    {
+        id: 'injection', name: '7. 주사 및 약물 투여', icon: Pill,
+        items: [
+            { id: 'ampule', name: '앰플, 바이알' },
+            { id: 'abx-injection', name: '항생제 주사 / AST' },
+            { id: 'narcotics', name: '마약 주사' },
+            { id: 'chemo', name: '항암제 주사' },
+            { id: 'contrast-media', name: '조영제 주사' },
+            { id: 'ped-sedation', name: '소아진정' },
+            { id: 'infusion-pump', name: 'Infusion pump' }
+        ]
+    },
+    {
+        id: 'wound', name: '8. 드레싱 및 상처관리', icon: Bandage,
+        items: [
+            { id: 'wound-care', name: '상처 관리' },
+            { id: 'burn-care', name: '화상 처치' }
+        ]
+    },
+    {
+        id: 'ward', name: '9. 기타 병동 업무', icon: ClipboardList,
+        items: [
+            { id: 'htn-call', name: '고혈압 콜' },
+            { id: 'sugar-call', name: '고혈당 콜' },
+            { id: 'vasopressor', name: '승압제 사용' },
+            { id: 'transfusion', name: '수혈' },
+            { id: 'death-pronouncement', name: '사망선고' },
+            { id: 'lstd', name: '연명의료중단' }
+        ]
+    },
+];

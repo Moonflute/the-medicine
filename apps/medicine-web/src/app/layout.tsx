@@ -4,7 +4,7 @@ import { AppShell } from "@/components/app-shell";
 
 export const metadata: Metadata = {
   title: "The Medicine",
-  description: "Read-only web shell for Obsidian disease notes",
+  description: "Medicine study web app",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

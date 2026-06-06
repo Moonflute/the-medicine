@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Bookmark, BookmarkCheck, ChevronDown, ChevronUp, FileText } from "lucide-react";
 import type { DiseaseNote } from "@/lib/webdb";
+import { RichTextLines } from "@/components/rich-text-lines";
 
 const STORAGE_KEY = "medicine-web-review";
 
@@ -73,11 +74,7 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
       {overview.length > 0 ? (
         <div className="mt-5 rounded-2xl bg-stone-50 p-4">
           <div className="mb-2 text-xs uppercase tracking-[0.22em] text-stone-500">Overview</div>
-          <div className="space-y-2 text-sm leading-6 text-stone-700">
-            {overview.map((line) => (
-              <p key={line}>{line}</p>
-            ))}
-          </div>
+          <RichTextLines lines={overview} />
         </div>
       ) : null}
 
@@ -89,11 +86,7 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
                 <FileText className="h-4 w-4 text-stone-500" />
                 {section.title}
               </div>
-              <div className="space-y-2 text-sm leading-6 text-stone-700">
-                {section.content.slice(0, compact ? 6 : section.content.length).map((line) => (
-                  <p key={line}>{line}</p>
-                ))}
-              </div>
+              <RichTextLines lines={section.content.slice(0, compact ? 6 : section.content.length)} />
             </section>
           ))}
         </div>
@@ -102,7 +95,7 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
       <div className="mt-5 flex flex-wrap items-center gap-3">
         <Link
           href={`/disease/${note.slug}`}
-          className="inline-flex items-center rounded-full bg-stone-900 px-4 py-2 text-sm text-stone-50"
+          className="inline-flex items-center rounded-full bg-stone-900 px-4 py-2 text-sm font-medium text-white shadow-sm shadow-stone-900/20"
         >
           Open detail
         </Link>

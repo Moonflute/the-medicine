@@ -19,11 +19,8 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
   return (
     <div className="space-y-6">
       <header className="rounded-[32px] border border-stone-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
-        <div className="text-xs uppercase tracking-[0.24em] text-stone-500">Specialty view</div>
+        <div className="text-xs uppercase tracking-[0.24em] text-stone-500">Specialty</div>
         <h1 className="mt-3 font-serif text-4xl font-semibold tracking-tight">{title}</h1>
-        <p className="mt-3 text-base leading-7 text-stone-600">
-          이 과에 들어 있는 질병 노트를 카드 형태로 바로 볼 수 있게 정리했습니다.
-        </p>
       </header>
 
       <div className="grid gap-6">

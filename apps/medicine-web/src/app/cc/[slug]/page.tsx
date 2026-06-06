@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { ChiefComplaintCard } from "@/components/chief-complaint-card";
+import { RichTextLines } from "@/components/rich-text-lines";
 import { getChiefComplaintBySlug, getChiefComplaints } from "@/lib/webdb";
 
 export function generateStaticParams() {
@@ -21,11 +22,7 @@ export default async function ChiefComplaintDetailPage(props: { params: Promise<
           {note.sections.map((section) => (
             <section key={section.title} className="rounded-2xl border border-stone-200 p-4">
               <h3 className="font-medium text-stone-900">{section.title}</h3>
-              <div className="mt-2 space-y-2 text-sm leading-6 text-stone-700">
-                {section.content.map((line) => (
-                  <p key={line}>{line}</p>
-                ))}
-              </div>
+              <RichTextLines lines={section.content} className="mt-2 space-y-2 text-sm leading-6 text-stone-700" />
             </section>
           ))}
         </div>

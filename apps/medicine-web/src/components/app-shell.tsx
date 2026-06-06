@@ -38,7 +38,6 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               </div>
               <div>
                 <div className="font-serif text-xl font-semibold tracking-tight">The Medicine</div>
-                <div className="text-xs text-stone-500">Obsidian notes, web shell</div>
               </div>
             </Link>
           </div>
@@ -51,7 +50,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                   href={item.href}
                   className={`flex items-center gap-3 rounded-2xl px-4 py-3 text-sm transition ${
                     active
-                      ? "bg-stone-900 text-stone-50 shadow-lg shadow-stone-900/10"
+                      ? "bg-stone-900 font-medium text-white shadow-lg shadow-stone-900/10 [&_svg]:text-white"
                       : "text-stone-600 hover:bg-white hover:text-stone-900"
                   }`}
                 >
@@ -61,12 +60,6 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               );
             })}
           </nav>
-          <div className="mt-8 rounded-[28px] border border-stone-200 bg-white/80 p-5">
-            <p className="text-sm font-medium text-stone-900">Read-only note source</p>
-            <p className="mt-2 text-sm leading-6 text-stone-600">
-              This app reads from <code>vault_medicine/02 Diseases</code> and does not modify your Obsidian notes.
-            </p>
-          </div>
         </aside>
 
         <div className="flex min-h-screen flex-1 flex-col">
@@ -81,7 +74,6 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                   {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
                 </button>
                 <div>
-                  <div className="text-xs uppercase tracking-[0.24em] text-stone-500">Study shell</div>
                   <div className="font-serif text-xl font-semibold tracking-tight">{title}</div>
                 </div>
               </div>
@@ -104,7 +96,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                         href={item.href}
                         onClick={() => setOpen(false)}
                         className={`flex items-center gap-3 rounded-2xl px-4 py-3 text-sm transition ${
-                          active ? "bg-stone-900 text-stone-50" : "bg-white text-stone-700"
+                          active ? "bg-stone-900 font-medium text-white [&_svg]:text-white" : "bg-white text-stone-700"
                         }`}
                       >
                         <item.icon className="h-4 w-4" />
@@ -134,7 +126,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                     key={item.href}
                     href={item.href}
                     className={`flex flex-col items-center justify-center gap-1 rounded-2xl px-2 py-2 text-[11px] ${
-                      active ? "bg-stone-900 text-stone-50" : "bg-white text-stone-600"
+                      active ? "bg-stone-900 font-medium text-white [&_svg]:text-white" : "bg-white text-stone-600"
                     }`}
                   >
                     <item.icon className="h-4 w-4" />

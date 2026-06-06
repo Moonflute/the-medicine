@@ -1,4 +1,5 @@
 import type { ChiefComplaintNote } from "@/lib/webdb";
+import { RichTextLines } from "@/components/rich-text-lines";
 
 export function ChiefComplaintCard({
   note,
@@ -14,19 +15,11 @@ export function ChiefComplaintCard({
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         <section>
           <div className="mb-2 text-xs uppercase tracking-[0.18em] text-stone-500">Concept</div>
-          <div className="space-y-2 text-sm leading-6 text-stone-700">
-            {note.concept.slice(0, 4).map((line) => (
-              <p key={line}>{line}</p>
-            ))}
-          </div>
+          <RichTextLines lines={note.concept.slice(0, 4)} />
         </section>
         <section>
           <div className="mb-2 text-xs uppercase tracking-[0.18em] text-stone-500">Differentials</div>
-          <div className="space-y-2 text-sm leading-6 text-stone-700">
-            {note.differentials.slice(0, 6).map((line) => (
-              <p key={line}>{line}</p>
-            ))}
-          </div>
+          <RichTextLines lines={note.differentials.slice(0, 6)} />
         </section>
       </div>
     </article>

@@ -27,11 +27,6 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
       </Link>
 
       <DiseaseCard note={note} />
-
-      <section className="rounded-[28px] border border-stone-200 bg-white/80 p-5 text-sm text-stone-600 shadow-sm">
-        Source file:
-        <div className="mt-2 break-all font-mono text-xs text-stone-500">{note.sourcePath}</div>
-      </section>
     </div>
   );
 }
