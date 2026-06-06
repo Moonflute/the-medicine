@@ -1,0 +1,112 @@
+[
+  {
+    "name": "01 순환기",
+    "slug": "MDEg7Iic7ZmY6riw",
+    "count": 53
+  },
+  {
+    "name": "02 호흡기",
+    "slug": "MDIg7Zi47Z2h6riw",
+    "count": 55
+  },
+  {
+    "name": "03 소화기",
+    "slug": "MDMg7IaM7ZmU6riw",
+    "count": 114
+  },
+  {
+    "name": "04 내분비",
+    "slug": "MDQg64K067aE67mE",
+    "count": 56
+  },
+  {
+    "name": "05 신장",
+    "slug": "MDUg7Iug7J6l",
+    "count": 46
+  },
+  {
+    "name": "06 알레르기",
+    "slug": "MDYg7JWM66CI66W06riw",
+    "count": 23
+  },
+  {
+    "name": "07 류마티스",
+    "slug": "MDcg66WY66eI7Yuw7Iqk",
+    "count": 14
+  },
+  {
+    "name": "08 감염",
+    "slug": "MDgg6rCQ7Je8",
+    "count": 73
+  },
+  {
+    "name": "09 혈액",
+    "slug": "MDkg7ZiI7JWh",
+    "count": 43
+  },
+  {
+    "name": "10 종양",
+    "slug": "MTAg7KKF7JaR",
+    "count": 5
+  },
+  {
+    "name": "11 외과",
+    "slug": "MTEg7Jm46rO8",
+    "count": 59
+  },
+  {
+    "name": "12 산과",
+    "slug": "MTIg7IKw6rO8",
+    "count": 69
+  },
+  {
+    "name": "13 부인과",
+    "slug": "MTMg67aA7J246rO8",
+    "count": 83
+  },
+  {
+    "name": "14 소아청소년과",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8",
+    "count": 144
+  },
+  {
+    "name": "15 정신건강의학과",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8",
+    "count": 31
+  },
+  {
+    "name": "16 신경과-신경외과",
+    "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvA",
+    "count": 59
+  },
+  {
+    "name": "17 이비인후과",
+    "slug": "MTcg7J2067mE7J247ZuE6rO8",
+    "count": 27
+  },
+  {
+    "name": "18 안과",
+    "slug": "MTgg7JWI6rO8",
+    "count": 36
+  },
+  {
+    "name": "19 피부과",
+    "slug": "MTkg7ZS867aA6rO8",
+    "count": 37
+  },
+  {
+    "name": "20 비뇨기과",
+    "slug": "MjAg67mE64eo6riw6rO8",
+    "count": 34
+  },
+  {
+    "name": "21 응급의학",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZ",
+    "count": 1
+  },
+  {
+    "name": "22 정형외과",
+    "slug": "MjIg7KCV7ZiV7Jm46rO8",
+    "count": 31
+  }
+]

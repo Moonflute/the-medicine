@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-06-06T15:35:44.337Z",
+  "sourceRoot": "vault_medicine",
+  "outputRoot": "apps/medicine-web/generated",
+  "domains": {
+    "diseases": {
+      "count": 1093,
+      "source": "02 Diseases"
+    },
+    "chiefComplaints": {
+      "count": 59,
+      "source": "01 Chief Complaint"
+    },
+    "drugs": {
+      "count": 471,
+      "source": "04 Pharmacology"
+    },
+    "physiology": {
+      "count": 9,
+      "source": "05 Physiology"
+    },
+    "pathology": {
+      "count": 0,
+      "source": "03 Pathology"
+    },
+    "skills": {
+      "count": 0,
+      "source": "manual placeholder"
+    },
+    "specialties": {
+      "count": 22,
+      "source": "derived from diseases"
+    }
+  }
+}
