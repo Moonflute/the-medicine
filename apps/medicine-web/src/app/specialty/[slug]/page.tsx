@@ -166,9 +166,13 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
             <div className="space-y-5">
               {group.secondLevel.map((secondGroup) => (
                 <div key={`${group.title}-${secondGroup.title}`} className="space-y-3">
-                  <div className="rounded-2xl border border-stone-200/80 bg-stone-50/70 px-4 py-3">
-                    <h3 className="font-serif text-lg font-semibold tracking-tight text-stone-900">{secondGroup.title}</h3>
-                  </div>
+                  {!(secondGroup.title === group.title && secondGroup.thirdLevel.length === 0) ? (
+                    <div className="rounded-2xl border border-stone-200/80 bg-stone-50/70 px-4 py-3">
+                      <h3 className="font-serif text-lg font-semibold tracking-tight text-stone-900">
+                        {secondGroup.title}
+                      </h3>
+                    </div>
+                  ) : null}
 
                   {secondGroup.notes.length > 0 ? <DiseaseLinks notes={secondGroup.notes} /> : null}
 
