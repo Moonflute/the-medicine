@@ -5,7 +5,6 @@
     "title": "가성 동맥류 (Pseudoaneurysm)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "떨림/운동이상",
       "심박수이상",
       "피부 괴사"
@@ -18,7 +17,6 @@
     "title": "감염 심내막염 (Infective Endocarditis)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "발열",
       "오한",
       "야간 발한",
@@ -48,7 +46,6 @@
     "title": "교착 심막염 (Constrictive Pericarditis)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "부종",
       "피로",
       "호흡곤란"
@@ -61,7 +58,6 @@
     "title": "급성 동맥 폐색 (Acute Arterial Occlusion)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "심박수이상",
       "저림",
       "근력/감각이상"
@@ -74,7 +70,6 @@
     "title": "급성 심막염 (Acute Pericarditis)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "가슴통증",
       "기침"
     ],
@@ -86,7 +81,6 @@
     "title": "급성 심부전 (Acute Heart Failure)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "피로",
       "부종"
@@ -99,7 +93,6 @@
     "title": "기립성 저혈압 (Orthostatic Hypotension)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "혈압저하",
       "어지러움증",
       "시야 흐림",
@@ -115,7 +108,6 @@
     "title": "긴 QT 증후군 (Long QT Syndrome)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "무증상",
       "두근거림",
       "실신",
@@ -129,7 +121,6 @@
     "title": "다카야수 동맥염 (Takayasu's Arteritis)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "발열",
       "피로",
       "체중감소/식욕부진",
@@ -145,7 +136,6 @@
     "title": "다형성 심실 빈맥 (TdP) (Torsades de Pointes (TdP)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "심박수이상",
       "어지러움증",
       "실신",
@@ -159,7 +149,6 @@
     "title": "대동맥 박리 (Aortic Dissection)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "가슴통증",
       "허리 통증"
     ],
@@ -171,7 +160,6 @@
     "title": "대동맥-엉덩동맥 폐색 (Aortoiliac Occlusion)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "심박수이상"
     ],
     "href": "/disease/MDEg7Iic7ZmY6riwL-uMgOuPmeunpS3sl4nrjanrj5nrp6Ug7Y-Q7IOJIChBb3J0b2lsaWFjIE9jY2x1c2lvbikubWQ"
@@ -182,7 +170,6 @@
     "title": "대동맥판막 역류 (Aortic Regurgitation)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "음식물 역류",
       "호흡곤란",
       "경련",
@@ -197,7 +184,6 @@
     "title": "대동맥판막 협착 (Aortic Stenosis)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "실신",
       "호흡곤란"
     ],
@@ -209,7 +195,6 @@
     "title": "동기능부전증후군 (Sick Sinus Syndrome)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "무증상",
       "어지러움증",
       "실신",
@@ -223,7 +208,6 @@
     "title": "동맥경화성 만성 동맥 폐색 (Atherosclerotic Chronic Arterial Occlusion)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "피부 괴사"
     ],
     "href": "/disease/MDEg7Iic7ZmY6riwL-uPmeunpeqyve2ZlOyEsSDrp4zshLEg64-Z66elIO2PkOyDiSAoQXRoZXJvc2NsZXJvdGljIENocm9uaWMgQXJ0ZXJpYWwgT2NjbHVzaW9uKS5tZA"
@@ -234,7 +218,6 @@
     "title": "디기탈리스 (Digitalis)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "구토",
       "체중감소/식욕부진"
     ],
@@ -246,7 +229,6 @@
     "title": "만성 심부전 (박출률 감소) (Chronic Heart Failure with Reduced Ejection Fraction (HFrEF))",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "경련",
       "피로",
@@ -260,7 +242,6 @@
     "title": "만성 심부전 (박출률 보존) (Chronic Heart Failure with Preserved Ejection Fraction (HFpEF))",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "피로",
       "부종",
@@ -274,7 +255,6 @@
     "title": "발작성 상심실성 빈맥 (Paroxysmal Supraventricular Tachycardia (PSVT)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "경련",
       "심박수이상",
       "두근거림",
@@ -291,7 +271,6 @@
     "title": "방실차단 (AV block)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "어지러움증",
       "실신",
       "피로",
@@ -307,7 +286,6 @@
     "title": "변이형 협심증 (Variant Angina)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "가슴통증"
     ],
     "href": "/disease/MDEg7Iic7ZmY6riwL-uzgOydtO2YlSDtmJHsi6zspp0gKFZhcmlhbnQgQW5naW5hKS5tZA"
@@ -318,7 +296,6 @@
     "title": "복부 대동맥류 (Abdominal Aortic Aneurysm)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상",
       "복통",
@@ -333,7 +310,6 @@
     "title": "불안정 협심증 (Unstable Angina)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "가슴통증",
       "호흡곤란",
       "구토"
@@ -346,7 +322,6 @@
     "title": "브루가다 증후군 (Brugada Syndrome)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "무증상",
       "실신",
       "발열"
@@ -359,7 +334,6 @@
     "title": "비후성 심근병증 (Hypertrophic Cardiomyopathy)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "가슴통증",
       "두근거림",
@@ -384,7 +358,6 @@
     "title": "삼첨판막 역류 (Tricuspid Regurgitation)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "음식물 역류",
       "무증상",
       "피로",
@@ -399,7 +372,6 @@
     "title": "생리적 폐동맥 분지 협착 (Physiologic Pulmonary Artery Branch Stenosis)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상"
     ],
@@ -411,8 +383,7 @@
     "title": "순환기",
     "category": "01 순환기",
     "aliases": [
-      "CV",
-      "[]"
+      "CV"
     ],
     "href": "/disease/MDEg7Iic7ZmY6riwL-yInO2ZmOq4sC5tZA"
   },
@@ -422,7 +393,6 @@
     "title": "스틸 잡음 (Still's Murmur)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상"
     ],
@@ -434,7 +404,6 @@
     "title": "승모판막 역류 (Mitral Regurgitation)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "음식물 역류",
       "호흡곤란",
       "피로",
@@ -448,7 +417,6 @@
     "title": "승모판막 일탈증 (Mitral Valve Prolapse)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "무증상",
       "가슴통증",
       "호흡곤란",
@@ -463,7 +431,6 @@
     "title": "승모판막 협착 (Mitral Stenosis)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "경련",
       "피로",
@@ -479,7 +446,6 @@
     "title": "심근염 (Myocarditis)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "무증상",
       "부정맥",
       "가슴통증"
@@ -492,7 +458,6 @@
     "title": "심방 조동-세동 (Atrial Flutter-Fibrillation)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "두근거림",
       "피로",
       "호흡곤란",
@@ -508,7 +473,6 @@
     "title": "심방-심실 조기박동 (Atrial-Ventricular premature beat)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "두근거림",
       "어지러움증",
       "호흡곤란",
@@ -534,7 +498,6 @@
     "title": "심실 빈맥 (Ventricular Tachycardia)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "심박수이상",
       "어지러움증",
       "실신",
@@ -551,7 +514,6 @@
     "title": "심실 조동,세동 (Ventricular flutter, fibrillation)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "혈압저하",
       "의식장애",
       "심박수이상",
@@ -565,7 +527,6 @@
     "title": "심장 눌림증 (Cardiac Tamponade)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "가슴통증",
       "어지러움증"
@@ -589,7 +550,6 @@
     "title": "우심실 경색 (RV Infarct)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "혈압저하"
     ],
     "href": "/disease/MDEg7Iic7ZmY6riwL-yasOyLrOyLpCDqsr3sg4kgKFJWIEluZmFyY3QpLm1k"
@@ -600,7 +560,6 @@
     "title": "울프-파킨슨-화이트 증후군 (WPW Syndrome)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "경련",
       "심박수이상",
       "두근거림",
@@ -617,7 +576,6 @@
     "title": "정맥 잡음 (Venous Hum)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상"
     ],
@@ -629,7 +587,6 @@
     "title": "제한성 심근병증 (Restrictive Cardiomyopathy)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "피로",
       "부종"
@@ -642,7 +599,6 @@
     "title": "폐동맥판막 협착 (Pulmonary Stenosis)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "무증상",
       "실신",
       "가슴통증",
@@ -656,7 +612,6 @@
     "title": "폐쇄혈관 혈전염 (버거병) (Thromboangiitis Obliterans (Buerger's Disease))",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "피부 괴사"
     ],
     "href": "/disease/MDEg7Iic7ZmY6riwL-2PkOyHhO2YiOq0gCDtmIjsoITsl7wgKOuyhOqxsOuzkSkgKFRocm9tYm9hbmdpaXRpcyBPYmxpdGVyYW5zIChCdWVyZ2VyJ3MgRGlzZWFzZSkpLm1k"
@@ -667,7 +622,6 @@
     "title": "하지 정맥류 (Varicose Vein)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "피로",
       "출혈"
     ],
@@ -679,7 +633,6 @@
     "title": "혈관미주신경성 실신 (Vasovagal Syncope)",
     "category": "01 순환기",
     "aliases": [
-      "[]",
       "실신",
       "어지러움증",
       "멍",
@@ -741,7 +694,6 @@
     "title": "결핵성 흉막염 (Tuberculous Pleurisy)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "발열",
       "기침",
       "가슴통증",
@@ -755,7 +707,6 @@
     "title": "과민성 폐장염 (Hypersensitivity Pneumonitis)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "발열",
       "오한",
       "기침",
@@ -772,7 +723,6 @@
     "title": "과호흡 (Hyperventilation)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "가슴통증",
       "어지러움증",
@@ -787,7 +737,6 @@
     "title": "규폐증 (Silicosis)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "기침",
       "체중감소/식욕부진",
@@ -801,7 +750,6 @@
     "title": "급성 (-3주) (Acute (-3 Weeks))",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "기침",
       "가래",
       "콧물/코막힘",
@@ -831,7 +779,6 @@
     "title": "기관지 결핵 (Bronchial Tuberculosis)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "기침",
       "객혈",
       "호흡곤란",
@@ -845,7 +792,6 @@
     "title": "기관지 확장증 (Bronchiectasis)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "기침",
       "가래",
       "호흡곤란",
@@ -859,7 +805,6 @@
     "title": "긴장성 기흉 (Tension Pneumothorax)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "가슴통증",
       "심박수이상",
@@ -886,7 +831,6 @@
     "title": "마이코플라스마 폐렴 (Mycoplasma Pneumonia)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "두통",
       "근육통",
       "기침"
@@ -899,7 +843,6 @@
     "title": "만성 (-8주) (Chronic (-8 Weeks))",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "기침",
       "콧물/코막힘",
       "인후통",
@@ -931,7 +874,6 @@
     "title": "부폐렴성 흉수 (Parapneumonic Effusion)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "발열",
       "기침",
       "가슴통증",
@@ -945,7 +887,6 @@
     "title": "비정형 폐렴 (Atypical Pneumonia)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "두통",
       "근육통",
       "인후통",
@@ -974,7 +915,6 @@
     "title": "석면폐증 (Asbestosis)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "기침",
       "피로"
@@ -987,7 +927,6 @@
     "title": "세로칸 기종 (Mediastinal Emphysema)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "가슴통증",
       "호흡곤란"
     ],
@@ -999,7 +938,6 @@
     "title": "세로칸염 (Mediastinitis)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "가슴통증",
       "호흡곤란",
       "발열"
@@ -1012,7 +950,6 @@
     "title": "아급성 (3주~8주) (Subacute (3-8 Weeks))",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "기침"
     ],
     "href": "/disease/MDIg7Zi47Z2h6riwL-yVhOq4ieyEsSAoM-yjvH447KO8KSAoU3ViYWN1dGUgKDMtOCBXZWVrcykpLm1k"
@@ -1023,7 +960,6 @@
     "title": "아스피린 과민성 천식",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "경련"
     ],
     "href": "/disease/MDIg7Zi47Z2h6riwL-yVhOyKpO2UvOumsCDqs7zrr7zshLEg7LKc7IudLm1k"
@@ -1034,7 +970,6 @@
     "title": "악성 흉수 (Malignant Pleural Effusion)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "가슴통증",
       "기침",
@@ -1064,7 +999,6 @@
     "title": "암죽가슴증 (Chylothorax)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "가슴통증"
     ],
@@ -1076,7 +1010,6 @@
     "title": "운동 유발 천식 (Exercise-Induced Asthma)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "쌕쌕거림",
       "호흡곤란",
       "기침",
@@ -1090,7 +1023,6 @@
     "title": "원발성 기흉 (Primary Spontaneous Pneumothorax)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "가슴통증",
       "호흡곤란",
       "심박수이상"
@@ -1103,7 +1035,6 @@
     "title": "유육종증 (Sarcoidosis)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "기침",
       "호흡곤란",
       "피로",
@@ -1118,7 +1049,6 @@
     "title": "이차성 기흉 (Secondary Spontaneous Pneumothorax)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "가슴통증",
       "호흡곤란",
       "심박수이상"
@@ -1131,7 +1061,6 @@
     "title": "잠복 결핵 (성인) (Latent Tuberculosis (Adult))",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "무증상"
     ],
     "href": "/disease/MDIg7Zi47Z2h6riwL-yeoOuztSDqsrDtlbUgKOyEseyduCkgKExhdGVudCBUdWJlcmN1bG9zaXMgKEFkdWx0KSkubWQ"
@@ -1142,7 +1071,6 @@
     "title": "잠복 결핵 (소아) (Latent Tuberculosis (Child))",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "무증상"
     ],
     "href": "/disease/MDIg7Zi47Z2h6riwL-yeoOuztSDqsrDtlbUgKOyGjOyVhCkgKExhdGVudCBUdWJlcmN1bG9zaXMgKENoaWxkKSkubWQ"
@@ -1153,7 +1081,6 @@
     "title": "저호흡 (Hypoventilation)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "피로",
       "두통",
       "호흡곤란"
@@ -1166,7 +1093,6 @@
     "title": "정형 폐렴 (Typical Pneumonia)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "발열",
       "오한",
       "가래",
@@ -1182,7 +1108,6 @@
     "title": "조직화 폐렴 (COP) (Cryptogenic Organizing Pneumonia)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "기침",
       "호흡곤란",
       "발열",
@@ -1196,7 +1121,6 @@
     "title": "좁쌀 결핵 (Miliary Tuberculosis)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "발열",
       "체중감소/식욕부진",
       "피로",
@@ -1213,7 +1137,6 @@
     "title": "종격동 종괴 (Mediastinal Mass)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "무증상",
       "가슴통증",
       "체중감소/식욕부진",
@@ -1227,7 +1150,6 @@
     "title": "직업성 천식 (Occupational Asthma)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "기침",
       "쌕쌕거림",
@@ -1241,7 +1163,6 @@
     "title": "진균종 (Fungus Ball)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "무증상",
       "기침",
       "객혈",
@@ -1255,7 +1176,6 @@
     "title": "처그-스트라우스 증후군 (Churg-Strauss Syndrome)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "피부 변화",
       "멍"
     ],
@@ -1267,7 +1187,6 @@
     "title": "천식 (Asthma)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "가슴통증",
       "기침",
@@ -1281,7 +1200,6 @@
     "title": "클렙시엘라 폐렴 (Klebsiella Pneumonia)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "발열",
       "오한",
       "가슴통증",
@@ -1309,7 +1227,6 @@
     "title": "폐 농양 (Lung Abscess)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "기침",
       "발열",
       "야간 발한",
@@ -1326,7 +1243,6 @@
     "title": "폐 선암 (Adenocarcinoma)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상",
       "기침",
@@ -1342,7 +1258,6 @@
     "title": "폐 소세포암 (Small Cell Carcinoma)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "기침",
       "호흡곤란",
       "가슴통증",
@@ -1357,7 +1272,6 @@
     "title": "폐 편평상피암 (Squamous Cell Carcinoma)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "기침",
       "객혈",
       "호흡곤란",
@@ -1372,7 +1286,6 @@
     "title": "폐결핵 (Pulmonary Tuberculosis)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "기침",
       "객혈",
       "피로",
@@ -1387,7 +1300,6 @@
     "title": "폐고혈압 (Pulmonary Hypertension)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "고혈압",
       "호흡곤란",
       "피로"
@@ -1400,7 +1312,6 @@
     "title": "폐색전증 (Pulmonary Embolism)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "가슴통증",
       "실신",
@@ -1417,7 +1328,6 @@
     "title": "폐암 (Lung Cancer)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "기침",
       "객혈",
       "가슴통증",
@@ -1434,7 +1344,6 @@
     "title": "폐포자충 폐렴 (Pneumocystis Pneumonia)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "기침",
       "발열",
       "호흡곤란"
@@ -1447,7 +1356,6 @@
     "title": "폐흡충증 (Pulmonary Paragonimiasis)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "발열",
       "기침",
       "객혈",
@@ -1463,7 +1371,6 @@
     "title": "호산구 폐렴 (Eosinophilic Pneumonia)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "발열",
       "기침",
       "호흡곤란",
@@ -1479,8 +1386,7 @@
     "title": "호흡기",
     "category": "02 호흡기",
     "aliases": [
-      "CM",
-      "[]"
+      "CM"
     ],
     "href": "/disease/MDIg7Zi47Z2h6riwL-2YuO2doeq4sC5tZA"
   },
@@ -1490,7 +1396,6 @@
     "title": "COPD의 급성 악화 (Acute Exacerbation of COPD)",
     "category": "02 호흡기",
     "aliases": [
-      "[]",
       "호흡곤란",
       "기침",
       "가래"
@@ -1503,7 +1408,6 @@
     "title": "간 농양 (아메바성) (Amoebic Liver Abscess)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "발열",
       "오한",
       "우상복부 통증",
@@ -1520,7 +1424,6 @@
     "title": "간 농양 (Liver Abscess)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "발열",
       "오한",
       "상복부 통증",
@@ -1537,7 +1440,6 @@
     "title": "간 혈관종 (Hepatic Hemangioma)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "우상복부 통증",
       "복부 불편감",
@@ -1552,7 +1454,6 @@
     "title": "간경변증 (Liver Cirrhosis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "피로",
       "체중감소/식욕부진",
       "황달",
@@ -1568,7 +1469,6 @@
     "title": "간성 뇌증 (Hepatic Encephalopathy)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "의식장애"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLEg64eM7KadIChIZXBhdGljIEVuY2VwaGFsb3BhdGh5KS5tZA"
@@ -1579,7 +1479,6 @@
     "title": "간세포 선종 (Hepatocellular Adenoma)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상",
       "우상복부 통증",
@@ -1594,7 +1493,6 @@
     "title": "간세포암 (Hepatocellular Carcinoma)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상",
       "복부 불편감",
@@ -1610,7 +1508,6 @@
     "title": "간신 증후군 (Hepatorenal Syndrome)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "핍뇨",
       "황달",
       "피로",
@@ -1624,7 +1521,6 @@
     "title": "감염성 췌장 괴사 (Infected Pancreatic Necrosis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "피부 괴사",
       "복통",
       "발열",
@@ -1641,7 +1537,6 @@
     "title": "구역성 췌장 괴사 (Localized Pancreatic Necrosis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "구토",
       "피부 괴사",
       "복통",
@@ -1657,7 +1552,6 @@
     "title": "국소 결절 과형성 (Focal Nodular Hyperplasia)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상",
       "우상복부 통증",
@@ -1672,7 +1566,6 @@
     "title": "급성 쓸개염 (Acute Cholecystitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "우상복부 통증",
       "복통",
       "구토",
@@ -1686,7 +1579,6 @@
     "title": "급성 췌장염 (Acute Pancreatitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "구토",
       "발열",
       "심박수이상",
@@ -1702,7 +1594,6 @@
     "title": "급성 A형 간염 (Acute Hepatitis A)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "황달",
       "구토",
       "피로",
@@ -1717,7 +1608,6 @@
     "title": "급성 B형 간염 (Acute Hepatitis B)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "황달",
       "피로",
       "구토",
@@ -1734,7 +1624,6 @@
     "title": "급성 C형 간염 (HCV) (Acute Hepatitis C)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "피로",
       "구토",
@@ -1749,7 +1638,6 @@
     "title": "길버트 증후군 (Gilbert's Syndrome)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "황달",
       "탈수"
@@ -1762,7 +1650,6 @@
     "title": "담관암 (Cholangiocarcinoma)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "황달",
       "가려움증",
       "복통",
@@ -1777,7 +1664,6 @@
     "title": "담낭암 (Gallbladder Cancer)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "우상복부 통증",
       "복통",
       "황달",
@@ -1794,7 +1680,6 @@
     "title": "담즙 누출 (Biliary Leak)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복통",
       "복부 팽만",
       "발열",
@@ -1809,7 +1694,6 @@
     "title": "독성 간염 (Toxic Hepatitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "피로",
       "구토",
       "황달",
@@ -1824,7 +1708,6 @@
     "title": "만성 쓸개염 (Chronic Cholecystitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "발열"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEg7JO46rCc7Je8IChDaHJvbmljIENob2xlY3lzdGl0aXMpLm1k"
@@ -1835,7 +1718,6 @@
     "title": "만성 췌장염 (Chronic Pancreatitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복통",
       "지방변",
       "설사",
@@ -1850,7 +1732,6 @@
     "title": "만성 B형 간염 (Chronic Hepatitis B (HBV))",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "피로",
       "황달",
       "출혈",
@@ -1864,7 +1745,6 @@
     "title": "만성 C형 간염 (Chronic Hepatitis C (HCV))",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "피로",
       "체중감소/식욕부진",
@@ -1879,7 +1759,6 @@
     "title": "복수 (간경변) (Ascites (Cirrhosis))",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복부 팽만",
       "체중증가",
       "복부 불편감",
@@ -1893,7 +1772,6 @@
     "title": "복수 (결핵) (Ascites (Tuberculosis))",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "피로",
       "복통",
       "복부 팽만",
@@ -1910,7 +1788,6 @@
     "title": "복수 (암) (Ascites (Cancer))",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복부 팽만",
       "복부 불편감",
       "체중감소/식욕부진",
@@ -1925,7 +1802,6 @@
     "title": "비알코올성 지방간 (Non-alcoholic Fatty Liver Disease)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "피로",
       "복부 불편감"
@@ -1938,7 +1814,6 @@
     "title": "비알코올성 지방간염 (Non-alcoholic Steatohepatitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "피로",
       "복부 불편감",
@@ -1952,7 +1827,6 @@
     "title": "식도 정맥류 (Esophageal Varices)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "토혈",
       "혈변",
@@ -1967,7 +1841,6 @@
     "title": "쓸개 용종형 병변 (Gallbladder Polypoid Lesion)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상",
       "우상복부 통증",
@@ -1981,7 +1854,6 @@
     "title": "쓸개관 낭종 (Choledochal Cyst)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복통",
       "황달",
       "발열",
@@ -1996,7 +1868,6 @@
     "title": "쓸개관돌 (Common Bile Duct Stone)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "우상복부 통증",
       "복통",
       "황달",
@@ -2013,7 +1884,6 @@
     "title": "쓸개관염 (Cholangitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "우상복부 통증",
       "복통",
       "발열",
@@ -2029,7 +1899,6 @@
     "title": "쓸개돌 (Gallstone)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상",
       "우상복부 통증",
@@ -2045,7 +1914,6 @@
     "title": "알코올성 간질환 (Alcoholic Liver Disease)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "피로",
       "구토",
       "복부 불편감",
@@ -2060,7 +1928,6 @@
     "title": "원발성 경화성 담관염 (PSC) (Primary Sclerosing Cholangitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "피로",
       "가려움증",
       "황달",
@@ -2092,7 +1959,6 @@
     "title": "위 정맥류 (Gastric Varices)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "토혈",
       "혈변",
       "심박수이상",
@@ -2107,7 +1973,6 @@
     "title": "윌슨병 (Wilson's Disease)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "피로",
       "황달",
       "떨림/운동이상",
@@ -2122,7 +1987,6 @@
     "title": "자가면역 간염 (Autoimmune Hepatitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "피로",
       "황달",
       "복통",
@@ -2137,7 +2001,6 @@
     "title": "자발성 세균 복막염 (Spontaneous Bacterial Peritonitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "발열",
       "피로",
       "복부 불편감",
@@ -2151,7 +2014,6 @@
     "title": "전격성 간염 (Fulminant Hepatitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "황달",
       "피로",
       "구토",
@@ -2165,7 +2027,6 @@
     "title": "췌관내 유두상 점액성 종양 (IPMN) (Intraductal Papillary Mucinous Neoplasm (IPMN))",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "검진 이상",
       "복통",
       "허리 통증",
@@ -2181,7 +2042,6 @@
     "title": "췌장 가성낭종 (Pancreatic Pseudocyst)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복통",
       "복부 종괴",
       "조기 포만감",
@@ -2197,7 +2057,6 @@
     "title": "췌장 낭성 종양 (Pancreatic Cystic Neoplasm)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상",
       "복통",
@@ -2213,7 +2072,6 @@
     "title": "췌장암 (Pancreatic Cancer)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복통",
       "체중감소/식욕부진",
       "황달",
@@ -2230,7 +2088,6 @@
     "title": "크리글러-나자르 증후군 (Crigler-Najjar Syndrome)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "황달",
       "경련",
       "발달 지연"
@@ -2243,7 +2100,6 @@
     "title": "팽대부 주위암 (Periampullary Carcinoma)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "황달",
       "체중감소/식욕부진",
       "구토",
@@ -2259,7 +2115,6 @@
     "title": "D형 간염 (HDV) (Hepatitis D (HDV))",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "황달",
       "피로",
       "구토",
@@ -2274,8 +2129,7 @@
     "title": "소화기",
     "category": "03 소화기",
     "aliases": [
-      "GE",
-      "[]"
+      "GE"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-yGjO2ZlOq4sC5tZA"
   },
@@ -2285,7 +2139,6 @@
     "title": "가스트린종 (Gastrinoma)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복통",
       "설사"
     ],
@@ -2309,7 +2162,6 @@
     "title": "게실 (Diverticulum)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "설사",
       "발열",
@@ -2324,7 +2176,6 @@
     "title": "게실 출혈 (Diverticular Bleeding)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "혈변"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6Qg7Lac7ZiIIChEaXZlcnRpY3VsYXIgQmxlZWRpbmcpLm1k"
@@ -2335,7 +2186,6 @@
     "title": "게실염 (Diverticulitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "골반통",
       "복통"
     ],
@@ -2347,7 +2197,6 @@
     "title": "결장직장암 (Colorectal Cancer)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "혈변",
       "복부 종괴",
       "체중감소/식욕부진",
@@ -2363,7 +2212,6 @@
     "title": "과민성 장 증후군 (IBS) (Irritable Bowel Syndrome (IBS))",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복통",
       "경련",
       "설사",
@@ -2380,7 +2228,6 @@
     "title": "구불창자 꼬임 (Sigmoid Volvulus)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복통",
       "복부 팽만",
       "구토",
@@ -2394,7 +2241,6 @@
     "title": "구인두 삼킴곤란 (Oropharyngeal Dysphagia)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "삼킴곤란",
       "기침",
       "음식물 역류",
@@ -2410,7 +2256,6 @@
     "title": "궤양성 대장염 (UC) (Ulcerative Colitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "혈변",
       "설사",
       "복통",
@@ -2425,7 +2270,6 @@
     "title": "급성 장간막 허혈 (Acute Mesenteric Ischemia)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복통",
       "검진 이상"
     ],
@@ -2437,7 +2281,6 @@
     "title": "날창자 증후군 (Efferent Loop Syndrome)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복부 팽만",
       "경련",
       "구토",
@@ -2451,7 +2294,6 @@
     "title": "내치핵 (Internal Hemorrhoid)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "출혈",
       "가려움증"
     ],
@@ -2463,7 +2305,6 @@
     "title": "대장 용종 (Colonic Polyp)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상",
       "혈변",
@@ -2477,7 +2318,6 @@
     "title": "대장 폐쇄 (Large Bowel Obstruction)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복부 팽만",
       "복통",
       "구토"
@@ -2490,7 +2330,6 @@
     "title": "들창자 증후군 (Afferent Loop Syndrome)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복부 팽만",
       "경련",
       "구토",
@@ -2504,7 +2343,6 @@
     "title": "만성 장간막 허혈 (Chronic Mesenteric Ischemia)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복통",
       "체중감소/식욕부진",
       "구토",
@@ -2518,7 +2356,6 @@
     "title": "말로리-바이스 증후군 (MW Syndrome) (Mallory-Weiss Syndrome (MW Syndrome))",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "토혈",
       "혈변",
       "구토",
@@ -2532,7 +2369,6 @@
     "title": "미만성 식도 연축 (Diffuse Esophageal Spasm)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "가슴통증",
       "삼킴곤란",
       "음식물 역류"
@@ -2545,7 +2381,6 @@
     "title": "변비 (Constipation)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "변비",
       "복통",
       "항문통증",
@@ -2560,7 +2395,6 @@
     "title": "뵈르하브 증후군 (Boerhaave Syndrome)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "가슴통증",
       "복통",
       "삼킴곤란",
@@ -2574,7 +2408,6 @@
     "title": "부식 식도염 (Corrosive Esophagitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "가슴통증",
       "삼킴곤란"
     ],
@@ -2586,7 +2419,6 @@
     "title": "빠른 비움 증후군 (Dumping Syndrome)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "떨림/운동이상",
       "심박수이상"
     ],
@@ -2598,7 +2430,6 @@
     "title": "상부 위장관 출혈 (Upper Gastrointestinal Tract)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "토혈",
       "구토",
       "혈변"
@@ -2611,7 +2442,6 @@
     "title": "상장간막동맥 증후군 (SMA Syndrome) (Superior Mesenteric Artery Syndrome)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "구토",
       "복통",
       "복부 팽만",
@@ -2626,7 +2456,6 @@
     "title": "설사 (Diarrhea)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "설사",
       "발열",
       "혈변"
@@ -2639,7 +2468,6 @@
     "title": "세균 과다증식 증후군 (Small Intestinal Bacterial Overgrowth Syndrome)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복부 불편감",
       "복부 팽만",
       "설사",
@@ -2654,7 +2482,6 @@
     "title": "소장 폐쇄 (Small Bowel Obstruction)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복통",
       "구토",
       "복부 팽만"
@@ -2667,7 +2494,6 @@
     "title": "소장암 (Small Bowel Cancer)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복통",
       "체중감소/식욕부진",
       "구토"
@@ -2680,7 +2506,6 @@
     "title": "식도 삼킴곤란 (Esophageal Dysphagia)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "삼킴곤란",
       "체중감소/식욕부진"
     ],
@@ -2692,7 +2517,6 @@
     "title": "식도 이완불능증 (Achalasia)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "삼킴곤란",
       "음식물 역류",
       "가슴통증",
@@ -2707,7 +2531,6 @@
     "title": "식도 협착 (Esophageal Stricture)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "삼킴곤란",
       "가슴통증",
       "체중감소/식욕부진"
@@ -2720,7 +2543,6 @@
     "title": "식도암 (Esophageal Cancer)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "삼킴곤란",
       "체중감소/식욕부진",
       "가슴통증",
@@ -2737,7 +2559,6 @@
     "title": "십이지장 궤양 (Duodenal Ulcer)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "상복부 통증",
       "복통",
       "구토",
@@ -2751,7 +2572,6 @@
     "title": "알칼리 역류 증후군 (Alkaline Reflux Syndrome)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "음식물 역류",
       "상복부 통증",
       "복통",
@@ -2765,7 +2585,6 @@
     "title": "열공 탈장 (Hiatal Hernia)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "음식물 역류",
       "속쓰림",
@@ -2779,7 +2598,6 @@
     "title": "외치핵 (External Hemorrhoid)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "항문통증",
       "출혈",
       "가려움증",
@@ -2793,7 +2611,6 @@
     "title": "위 용종 (Gastric Polyp)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상",
       "복통",
@@ -2807,7 +2624,6 @@
     "title": "위궤양 (Gastric Ulcer)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "소화불량/만성 복통",
       "조기 포만감",
       "구토",
@@ -2823,7 +2639,6 @@
     "title": "위식도 역류 질환 (GERD) (Gastroesophageal Reflux Disease)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "음식물 역류",
       "속쓰림",
       "기침",
@@ -2839,7 +2654,6 @@
     "title": "위암 (Gastric Cancer)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "체중감소/식욕부진",
       "복통",
       "속쓰림",
@@ -2856,7 +2670,6 @@
     "title": "위장관 기질 종양 (GIST) (Gastrointestinal Stromal Tumor)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "출혈",
       "복통",
       "소화불량/만성 복통",
@@ -2881,7 +2694,6 @@
     "title": "장결핵 (Intestinal Tuberculosis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복통",
       "발열",
       "체중감소/식욕부진",
@@ -2896,7 +2708,6 @@
     "title": "젠커 게실 (Zenker's Diverticulum)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "삼킴곤란",
       "음식물 역류",
       "기침",
@@ -2910,7 +2721,6 @@
     "title": "지방변 (Steatorrhea)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "지방변",
       "체중감소/식욕부진",
       "복부 팽만"
@@ -2923,7 +2733,6 @@
     "title": "지연 위배출 (Delayed Gastric Emptying)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복부 불편감",
       "조기 포만감",
       "구토",
@@ -2937,7 +2746,6 @@
     "title": "직장 탈출증 (Rectal Prolapse)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "변비",
       "출혈"
     ],
@@ -2949,7 +2757,6 @@
     "title": "짧은창자 증후군 (Short Bowel Syndrome)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "설사"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sp6fsnYDssL3snpAg7Kad7ZuE6rWwIChTaG9ydCBCb3dlbCBTeW5kcm9tZSkubWQ"
@@ -2960,7 +2767,6 @@
     "title": "충수염 (Appendicitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "구토"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_stqnsiJjsl7wgKEFwcGVuZGljaXRpcykubWQ"
@@ -2971,7 +2777,6 @@
     "title": "치루 (Anal Fistula)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "부종",
       "가려움증"
     ],
@@ -2983,7 +2788,6 @@
     "title": "치열 (Anal Fissure)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "출혈"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_suZjsl7QgKEFuYWwgRmlzc3VyZSkubWQ"
@@ -2994,7 +2798,6 @@
     "title": "칸디다 식도염 (Candida Esophagitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "삼킴곤란",
       "가슴통증",
       "무증상"
@@ -3007,7 +2810,6 @@
     "title": "크론병 (CD) (Crohn's Disease (CD))",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "설사",
       "체중감소/식욕부진",
       "골반통",
@@ -3024,7 +2826,6 @@
     "title": "하부 위장관 출혈 (Lower Gastrointestinal Tract)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "혈변"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tlZjrtoAg7JyE7J6l6rSAIOy2nO2YiCAoTG93ZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ"
@@ -3035,7 +2836,6 @@
     "title": "항문암 (Anal Cancer)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "출혈",
       "항문통증"
     ],
@@ -3047,7 +2847,6 @@
     "title": "항문직장 농양 (Anorectal Abscess)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "부종",
       "발열",
       "오한"
@@ -3060,7 +2859,6 @@
     "title": "허혈성 대장염 (Ischemic Colitis)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "골반통",
       "복통",
       "혈변"
@@ -3073,7 +2871,6 @@
     "title": "혈관형성이상 (Angiodysplasia)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "무증상",
       "혈변"
     ],
@@ -3085,7 +2882,6 @@
     "title": "H.pylori 감염 (H.pylori Infection)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "상복부 통증",
       "복통",
       "소화불량/만성 복통",
@@ -3100,7 +2896,6 @@
     "title": "PUD 천공 (Perforation)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복통"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQg7LKc6rO1IChQZXJmb3JhdGlvbikubWQ"
@@ -3111,7 +2906,6 @@
     "title": "PUD 협착 (Stricture)",
     "category": "03 소화기",
     "aliases": [
-      "[]",
       "복부 팽만",
       "조기 포만감",
       "구토"
@@ -3124,7 +2918,6 @@
     "title": "가족성 고콜레스테롤혈증 (Familial Hypercholesterolemia)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "무증상"
     ],
     "href": "/disease/MDQg64K067aE67mEL-qwgOyhseyEsSDqs6DsvZzroIjsiqTthYzroaTtmIjspp0gKEZhbWlsaWFsIEh5cGVyY2hvbGVzdGVyb2xlbWlhKS5tZA"
@@ -3135,7 +2928,6 @@
     "title": "갑상샘 결절 (Thyroid Nodule)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "무증상",
       "목 통증",
       "삼킴곤란",
@@ -3150,7 +2942,6 @@
     "title": "갑상샘 기능저하증 (Hypothyroidism)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "피로",
       "체중증가",
       "변비",
@@ -3167,7 +2958,6 @@
     "title": "갑상샘 기능항진증 (Hyperthyroidism)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "두근거림",
       "피로",
       "체중감소/식욕부진",
@@ -3182,7 +2972,6 @@
     "title": "갑상샘 속질암 (Thyroid Medullary Carcinoma)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "쉰목소리",
       "삼킴곤란",
       "호흡곤란"
@@ -3195,7 +2984,6 @@
     "title": "갑상샘 여포암 (Thyroid Follicular Carcinoma)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "무증상",
       "삼킴곤란"
     ],
@@ -3207,7 +2995,6 @@
     "title": "갑상샘 역형성암 (Thyroid Anaplastic Carcinoma)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "삼킴곤란",
       "호흡곤란",
       "쉰목소리",
@@ -3221,7 +3008,6 @@
     "title": "갑상샘 유두암 (Thyroid Papillary Carcinoma)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "무증상",
       "삼킴곤란",
       "근력/감각이상",
@@ -3235,7 +3021,6 @@
     "title": "갑상샘암 (Thyroid Cancer)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "기침",
       "호흡곤란",
       "삼킴곤란",
@@ -3252,7 +3037,6 @@
     "title": "고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "다뇨",
       "체중감소/식욕부진",
       "의식장애",
@@ -3266,7 +3050,6 @@
     "title": "고칼슘혈증 (Hypercalcemia)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "무증상",
       "변비",
       "구토",
@@ -3281,7 +3064,6 @@
     "title": "고프로락틴혈증 (Hyperprolactinemia)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "월경이상",
       "두통",
       "근력/감각이상"
@@ -3294,7 +3076,6 @@
     "title": "골다공증 (Osteoporosis)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "무증상",
       "호흡곤란"
     ],
@@ -3306,7 +3087,6 @@
     "title": "그레이브스병 (Graves' Disease)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "체중감소/식욕부진",
       "피로",
       "두근거림",
@@ -3323,8 +3103,7 @@
     "title": "내분비",
     "category": "04 내분비",
     "aliases": [
-      "ED",
-      "[]"
+      "ED"
     ],
     "href": "/disease/MDQg64K067aE67mEL-uCtOu2hOu5hC5tZA"
   },
@@ -3334,7 +3113,6 @@
     "title": "뇌하수체 기능저하증 (Hypopituitarism)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "월경이상",
       "부종",
       "심박수이상",
@@ -3351,7 +3129,6 @@
     "title": "뇌하수체 샘종 (Pituitary Adenoma)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "두통",
       "시야 장애",
       "근력/감각이상",
@@ -3365,7 +3142,6 @@
     "title": "당뇨병 (Diabetes Mellitus)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "다뇨",
       "체중감소/식욕부진",
       "피로",
@@ -3379,7 +3155,6 @@
     "title": "당뇨병성 망막병증 (Diabetic Retinopathy)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "무증상",
       "시력 저하"
     ],
@@ -3391,7 +3166,6 @@
     "title": "당뇨병성 신경병증 (Diabetic Neuropathy)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "저림"
     ],
     "href": "/disease/MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k"
@@ -3402,7 +3176,6 @@
     "title": "당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "다뇨",
       "구토",
       "복통"
@@ -3415,7 +3188,6 @@
     "title": "당뇨병성 콩팥병증 (Diabetic Nephropathy)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "무증상",
       "단백뇨",
       "부종",
@@ -3429,7 +3201,6 @@
     "title": "독성 주기 마비 (Thyrotoxic Periodic Paralysis)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "근력/감각이상"
     ],
     "href": "/disease/MDQg64K067aE67mEL-uPheyEsSDso7zquLAg66eI67mEIChUaHlyb3RveGljIFBlcmlvZGljIFBhcmFseXNpcykubWQ"
@@ -3440,7 +3211,6 @@
     "title": "딴곳 부신겉질자극호르몬 증후군 (Ectopic ACTH Syndrome)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "체중증가",
       "피부 변화"
     ],
@@ -3452,7 +3222,6 @@
     "title": "말단비대증 (Acromegaly)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "두통",
       "고혈압",
       "호흡이상"
@@ -3465,7 +3234,6 @@
     "title": "무증상 갑상샘 기능저하증 (Subclinical Hypothyroidism)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "무증상",
       "피로",
       "체중증가"
@@ -3478,7 +3246,6 @@
     "title": "무통성 산후 갑상샘염 (Painless Postpartum Thyroiditis)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "피로"
     ],
     "href": "/disease/MDQg64K067aE67mEL-ustO2GteyEsSDsgrDtm4Qg6rCR7IOB7IOY7Je8IChQYWlubGVzcyBQb3N0cGFydHVtIFRoeXJvaWRpdGlzKS5tZA"
@@ -3489,7 +3256,6 @@
     "title": "병적 갑상샘 기능 정상 증후군 (Sick Euthyroid Syndrome)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "검진 이상"
     ],
     "href": "/disease/MDQg64K067aE67mEL-uzkeyggSDqsJHsg4Hsg5gg6riw64qlIOygleyDgSDspp3tm4TqtbAgKFNpY2sgRXV0aHlyb2lkIFN5bmRyb21lKS5tZA"
@@ -3500,7 +3266,6 @@
     "title": "부갑상샘 기능저하증 (Hypoparathyroidism)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "저림",
       "경련"
     ],
@@ -3512,7 +3277,6 @@
     "title": "부갑상샘 기능항진증 (Hyperparathyroidism)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상"
     ],
@@ -3524,7 +3288,6 @@
     "title": "부신 기능저하증 (Adrenal Insufficiency)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "피로",
       "체중감소/식욕부진",
       "구토",
@@ -3539,7 +3302,6 @@
     "title": "부신 우연종 (Adrenal Incidentaloma)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "고혈압",
       "무증상"
     ],
@@ -3551,7 +3313,6 @@
     "title": "부신 종양 (Adrenal Tumor)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상"
     ],
@@ -3563,7 +3324,6 @@
     "title": "새벽 현상 (Dawn Phenomenon)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "검진 이상"
     ],
     "href": "/disease/MDQg64K067aE67mEL-yDiOuyvSDtmITsg4EgKERhd24gUGhlbm9tZW5vbikubWQ"
@@ -3574,7 +3334,6 @@
     "title": "소모기 현상 (Somogyi Phenomenon)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "야간 발한",
       "두통"
     ],
@@ -3586,7 +3345,6 @@
     "title": "아급성 갑상샘염 (Subacute Thyroiditis)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "목 통증",
       "발열"
     ],
@@ -3598,7 +3356,6 @@
     "title": "알도스테론증 (Aldosteronism)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "고혈압",
       "근력/감각이상"
     ],
@@ -3610,7 +3367,6 @@
     "title": "요붕증 (Diabetes Insipidus)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "다뇨",
       "탈수"
     ],
@@ -3622,7 +3378,6 @@
     "title": "원발성 부신 기능저하증(Primary Adrenal Insufficiency)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "피로",
       "혈압저하",
       "구토",
@@ -3636,7 +3391,6 @@
     "title": "원발성 알도스테론증 (Primary Aldosteronism)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "고혈압",
       "근력/감각이상",
       "다뇨",
@@ -3650,7 +3404,6 @@
     "title": "의인성 쿠싱 증후군 (Iatrogenic Cushing's Syndrome)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "체중증가",
       "피부 변화"
     ],
@@ -3662,7 +3415,6 @@
     "title": "이상지질혈증 (Dyslipidemia)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "피부 발진",
       "가슴통증"
     ],
@@ -3674,7 +3426,6 @@
     "title": "이차성 부신 기능저하증 (Secondary Adrenal Insufficiency)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "피로",
       "체중감소/식욕부진",
       "구토",
@@ -3688,7 +3439,6 @@
     "title": "이차성 알도스테론증 (Secondary Aldosteronism)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "고혈압",
       "근력/감각이상",
       "부종"
@@ -3701,7 +3451,6 @@
     "title": "일차 다음증 (Primary Polydipsia)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "다뇨",
       "구토",
       "경련"
@@ -3714,7 +3463,6 @@
     "title": "저칼슘혈증 (Hypocalcemia)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "무증상",
       "경련",
       "근력/감각이상",
@@ -3729,7 +3477,6 @@
     "title": "저혈당 (Hypoglycemia)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "두근거림",
       "야간 발한",
       "불안",
@@ -3746,7 +3493,6 @@
     "title": "중추성 요붕증 (Central Diabetes Insipidus)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "다뇨"
     ],
     "href": "/disease/MDQg64K067aE67mEL-ykkey2lOyEsSDsmpTrtpXspp0gKENlbnRyYWwgRGlhYmV0ZXMgSW5zaXBpZHVzKS5tZA"
@@ -3757,7 +3503,6 @@
     "title": "콩팥기원 요붕증 (Nephrogenic Diabetes Insipidus)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "다뇨"
     ],
     "href": "/disease/MDQg64K067aE67mEL-y9qe2Mpeq4sOybkCDsmpTrtpXspp0gKE5lcGhyb2dlbmljIERpYWJldGVzIEluc2lwaWR1cykubWQ"
@@ -3768,7 +3513,6 @@
     "title": "쿠싱 증후군 (Cushing's Syndrome)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "멍",
       "고혈압",
       "부종",
@@ -3785,7 +3529,6 @@
     "title": "쿠싱병 (Cushing's Disease)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "체중증가",
       "피로"
     ],
@@ -3814,7 +3557,6 @@
     "title": "포르피린증 (Porphyria)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "복통",
       "구토",
       "물집"
@@ -3827,7 +3569,6 @@
     "title": "프로락틴 분비 종양 (Prolactinoma)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "월경이상",
       "두통",
       "시야 장애"
@@ -3840,7 +3581,6 @@
     "title": "하시모토 갑상샘염 (Hashimoto's Thyroiditis)",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "삼킴곤란",
       "호흡곤란",
       "피로",
@@ -3857,7 +3597,6 @@
     "title": "항이뇨호르몬 부적절 분비 증후군 (SIADH) (Syndrome of Inappropriate Antidiuretic Hormone Secretion (SIADH))",
     "category": "04 내분비",
     "aliases": [
-      "[]",
       "구토",
       "피로",
       "두통",
@@ -3874,7 +3613,6 @@
     "title": "고나트륨혈증 (Hypernatremia)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "의식장애",
       "경련"
     ],
@@ -3886,7 +3624,6 @@
     "title": "고칼륨혈증 (Hyperkalemia)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "무증상",
       "근육 약화"
     ],
@@ -3898,7 +3635,6 @@
     "title": "국소 토리굳음증 (Focal Segmental Glomerulosclerosis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "단백뇨",
       "부종",
       "고혈압"
@@ -3911,7 +3647,6 @@
     "title": "급성 방광염 (Acute Cystitis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "빈뇨",
       "배뇨통",
       "골반통",
@@ -3925,7 +3660,6 @@
     "title": "급성 신우신염 (Acute Pyelonephritis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "오한",
       "옆구리 통증",
       "구토",
@@ -3942,7 +3676,6 @@
     "title": "급성 콩팥 손상 (AKI) (Acute Kidney Injury)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "핍뇨",
       "부종",
       "체중증가"
@@ -3955,7 +3688,6 @@
     "title": "급속 진행 토리콩팥염 (Rapidly Progressive Glomerulonephritis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "피로",
       "발열",
       "구토",
@@ -3972,7 +3704,6 @@
     "title": "기립성 단백뇨 (Orthostatic Proteinuria)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "단백뇨",
       "무증상",
       "검진 이상"
@@ -3985,7 +3716,6 @@
     "title": "기종성 신우신염 (Emphysematous Pyelonephritis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "발열",
       "오한",
       "옆구리 통증",
@@ -4001,7 +3731,6 @@
     "title": "다낭성 콩팥 질환 (Polycystic Kidney Disease)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "복통",
       "혈뇨",
       "고혈압",
@@ -4015,7 +3744,6 @@
     "title": "루푸스 콩팥염 (Lupus Nephritis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "부종",
       "고혈압",
       "혈뇨",
@@ -4029,7 +3757,6 @@
     "title": "리들 증후군 (Liddle Syndrome)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "고혈압"
     ],
     "href": "/disease/MDUg7Iug7J6lL-umrOuTpCDspp3tm4TqtbAgKExpZGRsZSBTeW5kcm9tZSkubWQ"
@@ -4040,7 +3767,6 @@
     "title": "막성 사구체신염 (Membranous Nephropathy)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "부종",
       "단백뇨"
     ],
@@ -4052,7 +3778,6 @@
     "title": "막증식 토리콩팥염 (Membranoproliferative Glomerulonephritis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "혈뇨",
       "단백뇨",
       "고혈압"
@@ -4065,7 +3790,6 @@
     "title": "만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD))",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "피로",
       "체중감소/식욕부진",
       "다뇨"
@@ -4078,7 +3802,6 @@
     "title": "무증상 세균뇨 (Asymptomatic Bacteriuria)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "무증상"
     ],
     "href": "/disease/MDUg7Iug7J6lL-ustOymneyDgSDshLjqt6Drh6ggKEFzeW1wdG9tYXRpYyBCYWN0ZXJpdXJpYSkubWQ"
@@ -4089,7 +3812,6 @@
     "title": "미세변화병 (Minimal Change Disease)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "부종",
       "단백뇨"
     ],
@@ -4101,7 +3823,6 @@
     "title": "바터 증후군 (Bartter Syndrome)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "다뇨",
       "성장 지연",
       "근육 약화",
@@ -4115,7 +3836,6 @@
     "title": "산증 (Acidosis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "혈압저하"
     ],
     "href": "/disease/MDUg7Iug7J6lL-yCsOymnSAoQWNpZG9zaXMpLm1k"
@@ -4126,7 +3846,6 @@
     "title": "세관사이질 콩팥염 (Tubulointerstitial Nephritis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "핍뇨",
       "피로",
       "단백뇨",
@@ -4141,7 +3860,6 @@
     "title": "신동맥 혈전색전증 (Renal Artery Thromboembolism)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "복통",
       "옆구리 통증"
     ],
@@ -4153,8 +3871,7 @@
     "title": "신장",
     "category": "05 신장",
     "aliases": [
-      "N",
-      "[]"
+      "N"
     ],
     "href": "/disease/MDUg7Iug7J6lL-yLoOyepS5tZA"
   },
@@ -4164,7 +3881,6 @@
     "title": "신정맥 혈전증 (Renal Vein Thrombosis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "옆구리 통증",
       "구토"
     ],
@@ -4176,7 +3892,6 @@
     "title": "신증후군 (Nephrotic Syndrome)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "부종",
       "호흡곤란",
       "단백뇨",
@@ -4192,7 +3907,6 @@
     "title": "신혈관성 고혈압 (Renovascular Hypertension)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "고혈압",
       "무증상"
     ],
@@ -4204,7 +3918,6 @@
     "title": "알레르기성 세관사이질 콩팥염 (Allergic Interstitial Nephritis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "핍뇨"
     ],
     "href": "/disease/MDUg7Iug7J6lL-yVjOugiOultOq4sOyEsSDshLjqtIDsgqzsnbTsp4gg7L2p7Yyl7Je8IChBbGxlcmdpYyBJbnRlcnN0aXRpYWwgTmVwaHJpdGlzKS5tZA"
@@ -4215,7 +3928,6 @@
     "title": "알칼리증 (Alkalosis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "두통",
       "경련",
       "부정맥"
@@ -4228,7 +3940,6 @@
     "title": "알포트 증후군 (Alport Syndrome)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "혈뇨",
       "단백뇨",
       "무증상",
@@ -4243,7 +3954,6 @@
     "title": "얕은 토리바닥막병 (Thin Basement Membrane Disease)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "무증상",
       "검진 이상",
       "혈뇨"
@@ -4256,7 +3966,6 @@
     "title": "연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "혈뇨"
     ],
     "href": "/disease/MDUg7Iug7J6lL-yXsOyHhOyDgeq1rOq3oCDqsJDsl7wg7ZuEIOyCrOq1rOyytOyLoOyXvCAoUFNHTikgKFBvc3QtU3RyZXB0b2NvY2NhbCBHbG9tZXJ1bG9uZXBocml0aXMpLm1k"
@@ -4267,7 +3976,6 @@
     "title": "요로 폐색 (Urinary Tract Obstruction)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "빈뇨"
     ],
     "href": "/disease/MDUg7Iug7J6lL-yalOuhnCDtj5Dsg4kgKFVyaW5hcnkgVHJhY3QgT2JzdHJ1Y3Rpb24pLm1k"
@@ -4278,7 +3986,6 @@
     "title": "요로결석 (Urolithiasis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "옆구리 통증",
       "혈뇨",
       "구토",
@@ -4295,7 +4002,6 @@
     "title": "저나트륨혈증 (Hyponatremia)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "두통",
       "구토",
       "경련"
@@ -4308,7 +4014,6 @@
     "title": "저칼륨혈증 (Hypokalemia)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "근육 약화",
       "근력/감각이상",
       "부정맥",
@@ -4323,7 +4028,6 @@
     "title": "지텔만 증후군 (Gitelman Syndrome)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "무증상",
       "경련",
       "피로",
@@ -4338,7 +4042,6 @@
     "title": "콩팥 농양 (Renal Abscess)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "발열",
       "오한",
       "복통",
@@ -4352,7 +4055,6 @@
     "title": "콩팥성 급성 콩팥 손상 (Intrinsic Renal Acute Kidney Injury)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "핍뇨",
       "부종",
       "근육통",
@@ -4368,7 +4070,6 @@
     "title": "콩팥세관 산증 1형 (Renal Tubular Acidosis Type 1)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "근력/감각이상"
     ],
     "href": "/disease/MDUg7Iug7J6lL-y9qe2MpeyEuOq0gCDsgrDspp0gMe2YlSAoUmVuYWwgVHVidWxhciBBY2lkb3NpcyBUeXBlIDEpLm1k"
@@ -4379,7 +4080,6 @@
     "title": "콩팥세관 산증 2형 (Renal Tubular Acidosis Type 2)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "피로"
     ],
     "href": "/disease/MDUg7Iug7J6lL-y9qe2MpeyEuOq0gCDsgrDspp0gMu2YlSAoUmVuYWwgVHVidWxhciBBY2lkb3NpcyBUeXBlIDIpLm1k"
@@ -4390,7 +4090,6 @@
     "title": "콩팥세관 산증 4형 (Renal Tubular Acidosis Type 4)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "무증상",
       "부정맥"
     ],
@@ -4402,7 +4101,6 @@
     "title": "콩팥전 급성 콩팥 손상 (Prerenal Acute Kidney Injury)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "핍뇨"
     ],
     "href": "/disease/MDUg7Iug7J6lL-y9qe2MpeyghCDquInshLEg7L2p7YylIOyGkOyDgSAoUHJlcmVuYWwgQWN1dGUgS2lkbmV5IEluanVyeSkubWQ"
@@ -4413,7 +4111,6 @@
     "title": "콩팥후 급성 콩팥 손상 (Postrenal Acute Kidney Injury)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "핍뇨",
       "옆구리 통증"
     ],
@@ -4425,7 +4122,6 @@
     "title": "특발성 부종 (Idiopathic Edema)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "부종",
       "복부 팽만"
     ],
@@ -4437,7 +4133,6 @@
     "title": "호두까기 증후군 (Nutcracker Syndrome)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "혈뇨",
       "옆구리 통증",
       "단백뇨"
@@ -4450,7 +4145,6 @@
     "title": "횡문근융해증 (Rhabdomyolysis)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "근육통"
     ],
     "href": "/disease/MDUg7Iug7J6lL-2aoeusuOq3vOycte2VtOymnSAoUmhhYmRvbXlvbHlzaXMpLm1k"
@@ -4461,7 +4155,6 @@
     "title": "IgA 콩팥병증 (IgAN) (IgA Nephropathy)",
     "category": "05 신장",
     "aliases": [
-      "[]",
       "혈뇨",
       "무증상",
       "단백뇨"
@@ -4474,7 +4167,6 @@
     "title": "그레이브스병 (Graves' Disease)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "두근거림",
       "체중감소/식욕부진",
       "떨림/운동이상",
@@ -4491,7 +4183,6 @@
     "title": "두드러기 (Urticaria)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "두드러기",
       "가려움증"
     ],
@@ -4503,7 +4194,6 @@
     "title": "스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "피부 괴사",
       "발열",
       "인후통"
@@ -4516,7 +4206,6 @@
     "title": "아나필락시스 (Anaphylaxis)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "두드러기",
       "부종",
       "호흡곤란",
@@ -4533,7 +4222,6 @@
     "title": "아나필락시스양 반응 (Anaphylactoid Reaction)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "두드러기",
       "부종",
       "호흡곤란",
@@ -4547,7 +4235,6 @@
     "title": "알레르기 비염 (Allergic Rhinitis)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "콧물/코막힘",
       "비폐색",
       "기침",
@@ -4563,10 +4250,7 @@
     "slug": "MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sC5tZA",
     "title": "알레르기",
     "category": "06 알레르기",
-    "aliases": [
-      "[]",
-      "[]"
-    ],
+    "aliases": [],
     "href": "/disease/MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sC5tZA"
   },
   {
@@ -4575,7 +4259,6 @@
     "title": "압박 두드러기 (Pressure Urticaria)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "두드러기",
       "가려움증",
       "부종"
@@ -4588,7 +4271,6 @@
     "title": "약물 발진 호산구증 및 전신 증상 (DRESS) (Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS))",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "피부 발진",
       "발열",
       "부종",
@@ -4602,7 +4284,6 @@
     "title": "약물 알레르기 (Drug Allergy)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "두드러기",
       "부종"
     ],
@@ -4614,7 +4295,6 @@
     "title": "연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis (PSGN))",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "혈뇨",
       "단백뇨",
       "부종",
@@ -4628,7 +4308,6 @@
     "title": "용혈성 빈혈 (Hemolytic Anemia)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "피로",
       "황달"
     ],
@@ -4640,7 +4319,6 @@
     "title": "음식 알레르기 (Food Allergy)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "두드러기",
       "부종",
       "구토",
@@ -4657,7 +4335,6 @@
     "title": "음식 의존 운동 유발 아나필락시스 (Food-Dependent Exercise-Induced Anaphylaxis)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "두드러기",
       "부종",
       "호흡곤란",
@@ -4671,7 +4348,6 @@
     "title": "전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "발열",
       "피부 발진",
       "관절 통증/붓기",
@@ -4688,7 +4364,6 @@
     "title": "접촉 피부염 (Contact Dermatitis)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "가려움증"
     ],
     "href": "/disease/MDYg7JWM66CI66W06riwL-ygkey0iSDtlLzrtoDsl7wgKENvbnRhY3QgRGVybWF0aXRpcykubWQ"
@@ -4699,7 +4374,6 @@
     "title": "콜린성 두드러기 (Cholinergic Urticaria)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "두드러기",
       "가려움증",
       "발열"
@@ -4712,7 +4386,6 @@
     "title": "피부묘기증 (Dermatographism)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "가려움증"
     ],
     "href": "/disease/MDYg7JWM66CI66W06riwL-2UvOu2gOusmOq4sOymnSAoRGVybWF0b2dyYXBoaXNtKS5tZA"
@@ -4723,7 +4396,6 @@
     "title": "한랭 두드러기 (Cold Urticaria)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "두드러기",
       "가려움증",
       "부종"
@@ -4736,7 +4408,6 @@
     "title": "혈관부종 (유전성) (Hereditary Angioedema)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "부종"
     ],
     "href": "/disease/MDYg7JWM66CI66W06riwL-2YiOq0gOu2gOyihSAo7Jyg7KCE7ISxKSAoSGVyZWRpdGFyeSBBbmdpb2VkZW1hKS5tZA"
@@ -4747,7 +4418,6 @@
     "title": "혈관부종 (후천성) (Acquired Angioedema)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "부종"
     ],
     "href": "/disease/MDYg7JWM66CI66W06riwL-2YiOq0gOu2gOyihSAo7ZuE7LKc7ISxKSAoQWNxdWlyZWQgQW5naW9lZGVtYSkubWQ"
@@ -4758,7 +4428,6 @@
     "title": "혈관염 (Vasculitis)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "발열",
       "야간 발한",
       "피로",
@@ -4775,7 +4444,6 @@
     "title": "혈청병 (Serum Sickness)",
     "category": "06 알레르기",
     "aliases": [
-      "[]",
       "발열",
       "관절 통증/붓기",
       "두드러기",
@@ -4791,7 +4459,6 @@
     "title": "감염 관절염 (Infectious Arthritis)",
     "category": "07 류마티스",
     "aliases": [
-      "[]",
       "관절 통증/붓기",
       "부종",
       "발열"
@@ -4804,7 +4471,6 @@
     "title": "강직성 척추염 (Ankylosing Spondylitis)",
     "category": "07 류마티스",
     "aliases": [
-      "[]",
       "허리 통증",
       "관절 통증/붓기",
       "부종",
@@ -4818,7 +4484,6 @@
     "title": "골관절염 (Osteoarthritis)",
     "category": "07 류마티스",
     "aliases": [
-      "[]",
       "관절 통증/붓기"
     ],
     "href": "/disease/MDcg66WY66eI7Yuw7IqkL-qzqOq0gOygiOyXvCAoT3N0ZW9hcnRocml0aXMpLm1k"
@@ -4829,7 +4494,6 @@
     "title": "기쿠치병 (Kikuchi Disease)",
     "category": "07 류마티스",
     "aliases": [
-      "[]",
       "림프절 비대",
       "발열",
       "피로",
@@ -4846,7 +4510,6 @@
     "title": "류마티스 관절염 (Rheumatoid Arthritis)",
     "category": "07 류마티스",
     "aliases": [
-      "[]",
       "관절 통증/붓기",
       "부종",
       "멍",
@@ -4861,10 +4524,7 @@
     "slug": "MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpC5tZA",
     "title": "류마티스",
     "category": "07 류마티스",
-    "aliases": [
-      "[]",
-      "[]"
-    ],
+    "aliases": [],
     "href": "/disease/MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpC5tZA"
   },
   {
@@ -4873,7 +4533,6 @@
     "title": "반응성 관절염 (Reactive Arthritis)",
     "category": "07 류마티스",
     "aliases": [
-      "[]",
       "관절 통증/붓기",
       "부종",
       "피부 변화"
@@ -4886,7 +4545,6 @@
     "title": "베체트병 (Behçet's Disease)",
     "category": "07 류마티스",
     "aliases": [
-      "[]",
       "피부 변화",
       "관절 통증/붓기",
       "부정맥"
@@ -4899,7 +4557,6 @@
     "title": "쇼그렌 증후군 (Sjögren's Syndrome)",
     "category": "07 류마티스",
     "aliases": [
-      "[]",
       "관절 통증/붓기",
       "피로"
     ],
@@ -4911,7 +4568,6 @@
     "title": "염증성 근병증 (Inflammatory Myopathy)",
     "category": "07 류마티스",
     "aliases": [
-      "[]",
       "근육통",
       "피부 발진",
       "부종",
@@ -4928,7 +4584,6 @@
     "title": "전신 경화증 (Systemic Sclerosis)",
     "category": "07 류마티스",
     "aliases": [
-      "[]",
       "청색증",
       "피부 괴사",
       "피부 변화",
@@ -4945,7 +4600,6 @@
     "title": "전신 홍반 루푸스 (Systemic Lupus Erythematosus)",
     "category": "07 류마티스",
     "aliases": [
-      "[]",
       "관절 통증/붓기",
       "피부 발진",
       "탈모",
@@ -4961,7 +4615,6 @@
     "title": "통풍 (Gout)",
     "category": "07 류마티스",
     "aliases": [
-      "[]",
       "부종",
       "관절 통증/붓기"
     ],
@@ -4973,7 +4626,6 @@
     "title": "항인지질 증후군 (Antiphospholipid Syndrome)",
     "category": "07 류마티스",
     "aliases": [
-      "[]",
       "피부 괴사"
     ],
     "href": "/disease/MDcg66WY66eI7Yuw7IqkL-2VreyduOyngOyniCDspp3tm4TqtbAgKEFudGlwaG9zcGhvbGlwaWQgU3luZHJvbWUpLm1k"
@@ -4984,7 +4636,6 @@
     "title": "가스 괴저 (Gas Gangrene)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "오한"
     ],
@@ -4996,7 +4647,6 @@
     "title": "간흡충증 (Clonorchiasis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "우상복부 통증",
       "복통",
       "소화불량/만성 복통",
@@ -5011,7 +4661,6 @@
     "title": "감기 (Common Cold)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "인후통",
       "콧물/코막힘",
       "비폐색",
@@ -5026,8 +4675,7 @@
     "title": "감염",
     "category": "08 감염",
     "aliases": [
-      "ID",
-      "[]"
+      "ID"
     ],
     "href": "/disease/MDgg6rCQ7Je8L-qwkOyXvC5tZA"
   },
@@ -5037,7 +4685,6 @@
     "title": "거대세포바이러스 감염 (CMV) (Cytomegalovirus Infection (CMV))",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "인후통",
       "발열",
       "피로",
@@ -5052,7 +4699,6 @@
     "title": "거짓막 결장염 (Pseudomembranous Colitis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "설사",
       "발열",
       "복통"
@@ -5065,7 +4711,6 @@
     "title": "고래회충 유충증 (Anisakiasis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "상복부 통증",
       "복통",
       "구토",
@@ -5079,7 +4724,6 @@
     "title": "골수염 (Osteomyelitis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "체중감소/식욕부진",
       "피로",
       "발열",
@@ -5095,7 +4739,6 @@
     "title": "공수병 (Rabies)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "두통",
       "피로",
@@ -5111,7 +4754,6 @@
     "title": "괴사성 근막염 (Necrotizing Fasciitis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "피부 괴사",
       "피부 변화"
     ],
@@ -5123,7 +4765,6 @@
     "title": "괴저병 (Gangrene)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "부종",
       "발열"
     ],
@@ -5135,7 +4776,6 @@
     "title": "노카르디아증 (Nocardiosis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "기침",
       "발열",
       "가슴통증",
@@ -5149,7 +4789,6 @@
     "title": "녹농균 (Pseudomonas Aeruginosa)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "검진 이상"
     ],
     "href": "/disease/MDgg6rCQ7Je8L-uFueuGjeq3oCAoUHNldWRvbW9uYXMgQWVydWdpbm9zYSkubWQ"
@@ -5160,7 +4799,6 @@
     "title": "단독 (Erysipelas)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "피부 변화"
     ],
     "href": "/disease/MDgg6rCQ7Je8L-uLqOuPhSAoRXJ5c2lwZWxhcykubWQ"
@@ -5171,7 +4809,6 @@
     "title": "단순포진 감염 (Herpes Simplex Infection)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "물집",
       "가려움증",
       "발열",
@@ -5185,7 +4822,6 @@
     "title": "대장균 (E. coli)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "설사",
       "혈변",
       "복통"
@@ -5198,7 +4834,6 @@
     "title": "뎅기열 (Dengue Fever)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "두통",
       "근육통",
@@ -5213,7 +4848,6 @@
     "title": "도관 관련 감염 (Catheter-Related Infection)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "오한"
     ],
@@ -5225,7 +4859,6 @@
     "title": "라임병 (Lyme Disease)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "피부 발진",
       "발열",
       "두통",
@@ -5242,7 +4875,6 @@
     "title": "레지오넬라 (Legionella)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "오한",
       "근육통",
@@ -5259,7 +4891,6 @@
     "title": "렙토스피라증 (Leptospirosis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "두통",
       "근육통",
@@ -5276,7 +4907,6 @@
     "title": "리스테리아 (Listeria)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "근육통",
       "두통",
@@ -5290,7 +4920,6 @@
     "title": "리케차 병 (Rickettsial Disease)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "두통",
       "근육통",
@@ -5304,7 +4933,6 @@
     "title": "말라리아 (Malaria)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "오한",
       "두통",
@@ -5319,7 +4947,6 @@
     "title": "매독 (Syphilis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "림프절 비대",
       "피부 발진",
       "발열",
@@ -5334,7 +4961,6 @@
     "title": "면역저하자 감염 (Immunocompromised Host Infection)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "복통",
       "피부 변화"
@@ -5347,7 +4973,6 @@
     "title": "묘소병 (Cat Scratch Disease)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "피로",
       "두통"
@@ -5360,7 +4985,6 @@
     "title": "미코플라스마 (Mycoplasma)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "기침",
       "발열",
       "두통",
@@ -5376,7 +5000,6 @@
     "title": "방선균증 (Actinomycosis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "부종",
       "골반통"
     ],
@@ -5388,7 +5011,6 @@
     "title": "불명열 (Fever of Unknown Origin)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열"
     ],
     "href": "/disease/MDgg6rCQ7Je8L-u2iOuqheyXtCAoRmV2ZXIgb2YgVW5rbm93biBPcmlnaW4pLm1k"
@@ -5399,7 +5021,6 @@
     "title": "브루셀라증 (Brucellosis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "피로",
       "관절 통증/붓기",
       "근육통",
@@ -5413,7 +5034,6 @@
     "title": "비장티푸스 살모넬라 (Non-typhoidal Salmonella)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "구토",
       "설사",
       "복통",
@@ -5427,7 +5047,6 @@
     "title": "사슬알균 인두염 (Streptococcal Pharyngitis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "인후통",
       "발열",
       "두통",
@@ -5441,7 +5060,6 @@
     "title": "설사 (비염증성) (Diarrhea (Non-inflammatory))",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "설사"
     ],
     "href": "/disease/MDgg6rCQ7Je8L-yEpOyCrCAo67mE7Je87Kad7ISxKSAoRGlhcnJoZWEgKE5vbi1pbmZsYW1tYXRvcnkpKS5tZA"
@@ -5452,7 +5070,6 @@
     "title": "설사 (염증성) (Diarrhea (Inflammatory))",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "설사",
       "혈변",
       "발열",
@@ -5466,7 +5083,6 @@
     "title": "수두-대상포진 바이러스 감염 (Varicella-Zoster Virus Infection)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "피로",
       "물집",
@@ -5480,7 +5096,6 @@
     "title": "수막알균 (Meningococcus)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "두통",
       "목 경직",
@@ -5496,7 +5111,6 @@
     "title": "신증후군 출혈열 (Hemorrhagic Fever with Renal Syndrome)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "출혈",
       "발열",
       "근육통",
@@ -5512,7 +5126,6 @@
     "title": "아데노바이러스 감염 (Adenovirus Infection)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "설사",
       "출혈",
@@ -5526,7 +5139,6 @@
     "title": "아메바 장염 (Amebic Colitis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "복통",
       "설사",
       "혈변",
@@ -5540,7 +5152,6 @@
     "title": "아메바증 (Amebiasis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "무증상",
       "구토",
       "설사",
@@ -5554,7 +5165,6 @@
     "title": "아스페르길루스증 (Aspergillosis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "기침",
       "객혈",
       "가슴통증",
@@ -5571,7 +5181,6 @@
     "title": "엡스타인-바 바이러스 감염 (EBV) (Epstein-Barr Virus Infection (EBV))",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "림프절 비대"
     ],
@@ -5583,7 +5192,6 @@
     "title": "연조직염 (Cellulitis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "부종"
     ],
     "href": "/disease/MDgg6rCQ7Je8L-yXsOyhsOyngeyXvCAoQ2VsbHVsaXRpcykubWQ"
@@ -5594,7 +5202,6 @@
     "title": "요충증 (Enterobiasis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "가려움증",
       "수면장애"
     ],
@@ -5606,7 +5213,6 @@
     "title": "이질 (Dysentery)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "혈변",
       "발열",
       "복통"
@@ -5619,7 +5225,6 @@
     "title": "인플루엔자 (Influenza)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "기침",
       "인후통",
@@ -5636,7 +5241,6 @@
     "title": "임균 감염 (Gonococcal Infection)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "배뇨통"
     ],
     "href": "/disease/MDgg6rCQ7Je8L-yehOq3oCDqsJDsl7wgKEdvbm9jb2NjYWwgSW5mZWN0aW9uKS5tZA"
@@ -5647,7 +5251,6 @@
     "title": "자유 아메바 감염 (Free-Living Amebic Infection)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "두통",
       "구토",
@@ -5663,7 +5266,6 @@
     "title": "장티푸스 (Typhoid Fever)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "두통",
       "복통",
@@ -5679,7 +5281,6 @@
     "title": "재귀열 (Relapsing Fever)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "오한",
       "두통",
       "근육통",
@@ -5696,7 +5297,6 @@
     "title": "중동 호흡기 증후군 (MERS) (Middle East Respiratory Syndrome (MERS))",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "오한",
       "근육통",
@@ -5713,7 +5313,6 @@
     "title": "중증열성 혈소판감소 증후군 (SFTS) (Severe Fever with Thrombocytopenia Syndrome (SFTS))",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "구토",
       "설사",
@@ -5727,7 +5326,6 @@
     "title": "지카바이러스 감염 (Zika Virus Infection)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "무증상",
       "발열",
       "피부 발진",
@@ -5742,7 +5340,6 @@
     "title": "쯔쯔가무시병 (Tsutsugamushi Disease)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "오한",
       "두통",
@@ -5757,7 +5354,6 @@
     "title": "치쿤구니아열 (Chikungunya Fever)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "관절 통증/붓기",
       "두통",
@@ -5772,7 +5368,6 @@
     "title": "칸디다증 (Candidiasis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "피부 변화",
       "출혈",
       "가려움증",
@@ -5787,7 +5382,6 @@
     "title": "캄필로박터 (Campylobacter)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "복통",
       "골반통",
       "발열",
@@ -5804,7 +5398,6 @@
     "title": "코로나바이러스감염증-19 (COVID-19)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "기침",
       "인후통",
@@ -5821,7 +5414,6 @@
     "title": "콜레라 (Cholera)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "설사",
       "구토"
     ],
@@ -5833,7 +5425,6 @@
     "title": "큐열 (Q Fever)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "두통",
       "오한",
@@ -5849,7 +5440,6 @@
     "title": "크립토코쿠스증 (Cryptococcosis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "기침",
       "가슴통증",
       "두통",
@@ -5864,7 +5454,6 @@
     "title": "털곰팡이증 (Mucormycosis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "피부 괴사",
       "발열",
       "근력/감각이상",
@@ -5880,7 +5469,6 @@
     "title": "톡소플라즈마증 (Toxoplasmosis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "무증상",
       "발열",
       "근육통"
@@ -5893,7 +5481,6 @@
     "title": "파상풍 (Tetanus)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "경련"
     ],
     "href": "/disease/MDgg6rCQ7Je8L-2MjOyDge2SjSAoVGV0YW51cykubWQ"
@@ -5904,7 +5491,6 @@
     "title": "폐포자충 폐렴 (Pneumocystis Pneumonia)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "호흡곤란",
       "기침",
       "발열"
@@ -5917,7 +5503,6 @@
     "title": "폐흡충증 (Paragonimiasis)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "기침",
       "객혈",
       "가슴통증",
@@ -5931,7 +5516,6 @@
     "title": "포도알균 (Staphylococcus)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "혈압저하"
     ],
@@ -5943,7 +5527,6 @@
     "title": "푸르니에 괴저 (Fournier's Gangrene)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "오한"
     ],
@@ -5955,7 +5538,6 @@
     "title": "한센병 (Leprosy)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "피부 변화",
       "근육 약화"
     ],
@@ -5967,7 +5549,6 @@
     "title": "혐기성균 감염 (Anaerobic Bacteria Infection)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "피부 괴사"
     ],
     "href": "/disease/MDgg6rCQ7Je8L-2YkOq4sOyEseq3oCDqsJDsl7wgKEFuYWVyb2JpYyBCYWN0ZXJpYSBJbmZlY3Rpb24pLm1k"
@@ -5978,7 +5559,6 @@
     "title": "호중구감소증 (Neutropenia)",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열"
     ],
     "href": "/disease/MDgg6rCQ7Je8L-2YuOykkeq1rOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k"
@@ -5989,7 +5569,6 @@
     "title": "후천성 면역결핍 증후군 (AIDS) (Acquired Immunodeficiency Syndrome (AIDS))",
     "category": "08 감염",
     "aliases": [
-      "[]",
       "발열",
       "인후통",
       "근육통",
@@ -6004,7 +5583,6 @@
     "title": "거대적혈모구 빈혈 (Megaloblastic Anemia)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "피로",
       "호흡곤란",
       "어지러움증",
@@ -6033,7 +5611,6 @@
     "title": "급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "피로",
       "호흡곤란",
       "출혈",
@@ -6048,7 +5625,6 @@
     "title": "급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "피로",
       "멍",
       "출혈",
@@ -6062,7 +5638,6 @@
     "title": "급성 백혈병 (Acute Leukemia)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "피로",
       "발열",
       "출혈",
@@ -6076,7 +5651,6 @@
     "title": "급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "피로",
       "발열",
       "출혈"
@@ -6089,7 +5663,6 @@
     "title": "다발골수종 (MM) (Multiple Myeloma (MM))",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "뼈 통증",
       "피로"
     ],
@@ -6101,7 +5674,6 @@
     "title": "림프모구성 림프종 (Lymphoblastic Lymphoma)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "림프절 비대",
       "호흡곤란"
     ],
@@ -6113,7 +5685,6 @@
     "title": "림프종 (Lymphoma)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "발열",
       "체중감소/식욕부진",
       "야간 발한"
@@ -6126,7 +5697,6 @@
     "title": "만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "무증상",
       "피로",
       "체중감소/식욕부진",
@@ -6141,7 +5711,6 @@
     "title": "만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "검진 이상",
       "피로",
       "발열",
@@ -6157,7 +5726,6 @@
     "title": "만성 백혈병 (Chronic Leukemia)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "무증상",
       "피로",
       "체중감소/식욕부진",
@@ -6172,7 +5740,6 @@
     "title": "만성 질환 빈혈 (Anemia of Chronic Disease)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "피로"
     ],
     "href": "/disease/MDkg7ZiI7JWhL-unjOyEsSDsp4jtmZgg67mI7ZiIIChBbmVtaWEgb2YgQ2hyb25pYyBEaXNlYXNlKS5tZA"
@@ -6195,7 +5762,6 @@
     "title": "발작성 야간 혈색소뇨증 (Paroxysmal Nocturnal Hemoglobinuria)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "경련",
       "피로",
       "황달",
@@ -6212,7 +5778,6 @@
     "title": "백혈병 (Leukemia)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "피로",
       "발열",
       "출혈",
@@ -6226,7 +5791,6 @@
     "title": "버킷 림프종 (Burkitt's Lymphoma)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "복부 종괴",
       "발열",
       "체중감소/식욕부진",
@@ -6240,7 +5804,6 @@
     "title": "버킷 유사 미만성 거대 B세포 림프종 (Burkitt-like Diffuse Large B-cell Lymphoma)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "발열",
       "체중감소/식욕부진",
       "야간 발한"
@@ -6253,7 +5816,6 @@
     "title": "본태성 혈소판증가증 (ET) (Essential Thrombocythemia (ET))",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "무증상",
       "두통",
       "시야 장애",
@@ -6267,7 +5829,6 @@
     "title": "비타민 K 결핍 (Vitamin K Deficiency)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "멍",
       "비출혈",
       "혈뇨"
@@ -6280,7 +5841,6 @@
     "title": "비호지킨 림프종 (Non-Hodgkin Lymphoma)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "림프절 비대",
       "발열",
       "체중감소/식욕부진",
@@ -6294,7 +5854,6 @@
     "title": "소림프구 림프종 (Small Lymphocytic Lymphoma)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "림프절 비대",
       "발열",
       "야간 발한",
@@ -6308,7 +5867,6 @@
     "title": "악성 빈혈 (Pernicious Anemia)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "무증상"
     ],
     "href": "/disease/MDkg7ZiI7JWhL-yVheyEsSDruYjtmIggKFBlcm5pY2lvdXMgQW5lbWlhKS5tZA"
@@ -6319,7 +5877,6 @@
     "title": "여포성 림프종 (Follicular Lymphoma)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "림프절 비대",
       "발열",
       "야간 발한",
@@ -6333,7 +5890,6 @@
     "title": "용혈성 빈혈 (Hemolytic Anemia)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "피로",
       "어지러움증"
     ],
@@ -6362,7 +5918,6 @@
     "title": "유전 구혈적혈구증 (Hereditary Spherocytosis)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "황달"
     ],
     "href": "/disease/MDkg7ZiI7JWhL-ycoOyghCDqtaztmIjsoIHtmIjqtazspp0gKEhlcmVkaXRhcnkgU3BoZXJvY3l0b3NpcykubWQ"
@@ -6373,7 +5928,6 @@
     "title": "자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "피로",
       "가슴통증",
       "실신"
@@ -6386,7 +5940,6 @@
     "title": "재생불량성 빈혈 (AA) (Aplastic Anemia (AA))",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "멍",
       "비출혈",
       "피로",
@@ -6402,7 +5955,6 @@
     "title": "지중해 빈혈 (Thalassemia)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "피로"
     ],
     "href": "/disease/MDkg7ZiI7JWhL-yngOykke2VtCDruYjtmIggKFRoYWxhc3NlbWlhKS5tZA"
@@ -6413,7 +5965,6 @@
     "title": "진성 적혈구증가증 (PV) (Polycythemia Vera (PV))",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "두통",
       "어지러움증",
       "시야 흐림",
@@ -6442,7 +5993,6 @@
     "title": "특발성 골수섬유증 (PMF) (Primary Myelofibrosis (PMF))",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "무증상",
       "야간 발한",
       "피로",
@@ -6508,7 +6058,6 @@
     "title": "혈관 내 용혈 (Intravascular Hemolysis)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "피로"
     ],
     "href": "/disease/MDkg7ZiI7JWhL-2YiOq0gCDrgrQg7Jqp7ZiIIChJbnRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ"
@@ -6519,7 +6068,6 @@
     "title": "혈관 외 용혈 (Extravascular Hemolysis)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "황달"
     ],
     "href": "/disease/MDkg7ZiI7JWhL-2YiOq0gCDsmbgg7Jqp7ZiIIChFeHRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ"
@@ -6529,10 +6077,7 @@
     "slug": "MDkg7ZiI7JWhL-2YiOyVoS5tZA",
     "title": "혈액",
     "category": "09 혈액",
-    "aliases": [
-      "[]",
-      "[]"
-    ],
+    "aliases": [],
     "href": "/disease/MDkg7ZiI7JWhL-2YiOyVoS5tZA"
   },
   {
@@ -6541,7 +6086,6 @@
     "title": "혈우병 (Hemophilia)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "멍",
       "출혈"
     ],
@@ -6566,7 +6110,6 @@
     "title": "호지킨 림프종 (Hodgkin Lymphoma)",
     "category": "09 혈액",
     "aliases": [
-      "[]",
       "림프절 비대",
       "발열",
       "체중감소/식욕부진",
@@ -6597,7 +6140,6 @@
     "title": "상대정맥 증후군 (Superior Vena Cava Syndrome)",
     "category": "10 종양",
     "aliases": [
-      "[]",
       "호흡곤란",
       "기침",
       "부종",
@@ -6612,7 +6154,6 @@
     "title": "종양 용해 증후군 (Tumor Lysis Syndrome)",
     "category": "10 종양",
     "aliases": [
-      "[]",
       "핍뇨",
       "부정맥",
       "두근거림",
@@ -6628,10 +6169,7 @@
     "slug": "MTAg7KKF7JaRL-yiheyWkS5tZA",
     "title": "종양",
     "category": "10 종양",
-    "aliases": [
-      "[]",
-      "[]"
-    ],
+    "aliases": [],
     "href": "/disease/MTAg7KKF7JaRL-yiheyWkS5tZA"
   },
   {
@@ -6640,7 +6178,6 @@
     "title": "척수 압박 증후군 (Spinal Cord Compression Syndrome)",
     "category": "10 종양",
     "aliases": [
-      "[]",
       "허리 통증"
     ],
     "href": "/disease/MTAg7KKF7JaRL-yymeyImCDslZXrsJUg7Kad7ZuE6rWwIChTcGluYWwgQ29yZCBDb21wcmVzc2lvbiBTeW5kcm9tZSkubWQ"
@@ -7179,10 +6716,7 @@
     "slug": "MTEg7Jm46rO8L-yZuOqzvC5tZA",
     "title": "외과",
     "category": "11 외과",
-    "aliases": [
-      "[]",
-      "[]"
-    ],
+    "aliases": [],
     "href": "/disease/MTEg7Jm46rO8L-yZuOqzvC5tZA"
   },
   {
@@ -7574,8 +7108,7 @@
     "title": "산과",
     "category": "12 산과",
     "aliases": [
-      "OB",
-      "[]"
+      "OB"
     ],
     "href": "/disease/MTIg7IKw6rO8L-yCsOqzvC5tZA"
   },
@@ -8553,8 +8086,7 @@
     "title": "부인과",
     "category": "13 부인과",
     "aliases": [
-      "GY",
-      "[]"
+      "GY"
     ],
     "href": "/disease/MTMg67aA7J246rO8L-u2gOyduOqzvC5tZA"
   },
@@ -11232,8 +10764,7 @@
     "title": "소아청소년과",
     "category": "14 소아청소년과",
     "aliases": [
-      "PD",
-      "[]"
+      "PD"
     ],
     "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOyyreyGjOuFhOqzvC5tZA"
   },
@@ -11514,8 +11045,7 @@
     "title": "정신건강의학과",
     "category": "15 정신건강의학과",
     "aliases": [
-      "NP",
-      "[]"
+      "NP"
     ],
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ygleyLoOqxtOqwleydmO2VmeqzvC5tZA"
   },
@@ -12053,8 +11583,7 @@
     "category": "16 신경과-신경외과",
     "aliases": [
       "NS",
-      "NR",
-      "[]"
+      "NR"
     ],
     "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_si6Dqsr3qs7wt7Iug6rK97Jm46rO8Lm1k"
   },
@@ -12594,8 +12123,7 @@
     "title": "이비인후과",
     "category": "17 이비인후과",
     "aliases": [
-      "ENT",
-      "[]"
+      "ENT"
     ],
     "href": "/disease/MTcg7J2067mE7J247ZuE6rO8L-ydtOu5hOyduO2bhOqzvC5tZA"
   },
@@ -13059,8 +12587,7 @@
     "title": "안과",
     "category": "18 안과",
     "aliases": [
-      "OT",
-      "[]"
+      "OT"
     ],
     "href": "/disease/MTgg7JWI6rO8L-yViOqzvC5tZA"
   },
@@ -13583,8 +13110,7 @@
     "title": "피부과",
     "category": "19 피부과",
     "aliases": [
-      "DM",
-      "[]"
+      "DM"
     ],
     "href": "/disease/MTkg7ZS867aA6rO8L-2UvOu2gOqzvC5tZA"
   },
@@ -13777,10 +13303,7 @@
     "slug": "MjAg67mE64eo6riw6rO8L-u5hOuHqOq4sOqzvC5tZA",
     "title": "비뇨기과",
     "category": "20 비뇨기과",
-    "aliases": [
-      "[]",
-      "[]"
-    ],
+    "aliases": [],
     "href": "/disease/MjAg67mE64eo6riw6rO8L-u5hOuHqOq4sOqzvC5tZA"
   },
   {
@@ -14037,8 +13560,7 @@
     "title": "응급의학",
     "category": "21 응급의학",
     "aliases": [
-      "EM",
-      "[]"
+      "EM"
     ],
     "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-ydkeq4ieydmO2VmS5tZA"
   },
@@ -14279,8 +13801,7 @@
     "title": "정형외과",
     "category": "22 정형외과",
     "aliases": [
-      "OS",
-      "[]"
+      "OS"
     ],
     "href": "/disease/MjIg7KCV7ZiV7Jm46rO8L-ygle2YleyZuOqzvC5tZA"
   },
@@ -14409,7 +13930,7 @@
     "aliases": [
       "Chest pain"
     ],
-    "href": "/cc/6rCA7Iq07Ya17Kad"
+    "href": "/cc/category/7Iic7ZmY6riw/6rCA7Iq07Ya17Kad"
   },
   {
     "type": "chiefComplaint",
@@ -14419,7 +13940,7 @@
     "aliases": [
       "Intimate partner violence"
     ],
-    "href": "/cc/6rCA7KCV7Y-t66Cl"
+    "href": "/cc/category/7IOB64u0/6rCA7KCV7Y-t66Cl"
   },
   {
     "type": "chiefComplaint",
@@ -14429,7 +13950,7 @@
     "aliases": [
       "Hemoptysis"
     ],
-    "href": "/cc/6rCd7ZiI"
+    "href": "/cc/category/7Zi47Z2h6riw/6rCd7ZiI"
   },
   {
     "type": "chiefComplaint",
@@ -14439,7 +13960,7 @@
     "aliases": [
       "Seizure (adult)"
     ],
-    "href": "/cc/6rK966CoICjshLHsnbgp"
+    "href": "/cc/category/7Iug6rK9/6rK966CoICjshLHsnbgp"
   },
   {
     "type": "chiefComplaint",
@@ -14449,7 +13970,7 @@
     "aliases": [
       "Seizure (pediatric)"
     ],
-    "href": "/cc/6rK966CoICjshozslYQp"
+    "href": "/cc/category/7Iug6rK9/6rK966CoICjshozslYQp"
   },
   {
     "type": "chiefComplaint",
@@ -14459,7 +13980,7 @@
     "aliases": [
       "Hypertension"
     ],
-    "href": "/cc/6rOg7ZiI7JWV"
+    "href": "/cc/category/7Iic7ZmY6riw/6rOg7ZiI7JWV"
   },
   {
     "type": "chiefComplaint",
@@ -14469,7 +13990,7 @@
     "aliases": [
       "Arthralgia; joint swelling"
     ],
-    "href": "/cc/6rSA7KCIIO2Gteymne-8j-u2k-q4sA"
+    "href": "/cc/category/6re86rOo6rKpL-2UvOu2gA/6rSA7KCIIO2Gteymne-8j-u2k-q4sA"
   },
   {
     "type": "chiefComplaint",
@@ -14479,7 +14000,7 @@
     "aliases": [
       "Vomiting"
     ],
-    "href": "/cc/6rWs7Yag"
+    "href": "/cc/category/7IaM7ZmU6riw/6rWs7Yag"
   },
   {
     "type": "chiefComplaint",
@@ -14489,7 +14010,7 @@
     "aliases": [
       "Weakness; sensory deficit"
     ],
-    "href": "/cc/6re866Cl77yP6rCQ6rCB7J207IOB"
+    "href": "/cc/category/7Iug6rK9/6re866Cl77yP6rCQ6rCB7J207IOB"
   },
   {
     "type": "chiefComplaint",
@@ -14499,7 +14020,7 @@
     "aliases": [
       "Acute abdominal pain"
     ],
-    "href": "/cc/6riJ7ISx67O17Ya1"
+    "href": "/cc/category/7IaM7ZmU6riw/6riJ7ISx67O17Ya1"
   },
   {
     "type": "chiefComplaint",
@@ -14509,7 +14030,7 @@
     "aliases": [
       "Mood disturbance"
     ],
-    "href": "/cc/6riw67aE67OA7ZmU"
+    "href": "/cc/category/7KCV7Iug/6riw67aE67OA7ZmU"
   },
   {
     "type": "chiefComplaint",
@@ -14519,7 +14040,7 @@
     "aliases": [
       "Memory impairment"
     ],
-    "href": "/cc/6riw7Ja166ClIOyggO2VmA"
+    "href": "/cc/category/7KCV7Iug/6riw7Ja166ClIOyggO2VmA"
   },
   {
     "type": "chiefComplaint",
@@ -14529,7 +14050,7 @@
     "aliases": [
       "Cough"
     ],
-    "href": "/cc/6riw7Lmo"
+    "href": "/cc/category/7Zi47Z2h6riw/6riw7Lmo"
   },
   {
     "type": "chiefComplaint",
@@ -14539,7 +14060,7 @@
     "aliases": [
       "Breaking bad news"
     ],
-    "href": "/cc/64KY7IGcIOyGjOyLnSDsoITtlZjquLA"
+    "href": "/cc/category/7IOB64u0/64KY7IGcIOyGjOyLnSDsoITtlZjquLA"
   },
   {
     "type": "chiefComplaint",
@@ -14549,7 +14070,7 @@
     "aliases": [
       "Polyuria"
     ],
-    "href": "/cc/64uk64eo"
+    "href": "/cc/category/7Iug7J6lL-u5hOuHqOq4sA/64uk64eo"
   },
   {
     "type": "chiefComplaint",
@@ -14559,7 +14080,7 @@
     "aliases": [
       "Palpitations"
     ],
-    "href": "/cc/65GQ6re86rGw66a8"
+    "href": "/cc/category/7Iic7ZmY6riw/65GQ6re86rGw66a8"
   },
   {
     "type": "chiefComplaint",
@@ -14569,7 +14090,7 @@
     "aliases": [
       "Headache"
     ],
-    "href": "/cc/65GQ7Ya1"
+    "href": "/cc/category/7Iug6rK9/65GQ7Ya1"
   },
   {
     "type": "chiefComplaint",
@@ -14579,7 +14100,7 @@
     "aliases": [
       "Tremor; movement disorder"
     ],
-    "href": "/cc/65ao66a877yP7Jq064-Z7J207IOB"
+    "href": "/cc/category/7Iug6rK9/65ao66a877yP7Jq064-Z7J207IOB"
   },
   {
     "type": "chiefComplaint",
@@ -14589,7 +14110,7 @@
     "aliases": [
       "Easy bruising; ecchymosis"
     ],
-    "href": "/cc/66mN"
+    "href": "/cc/category/7KCE7Iug7Kad7IOB/66mN"
   },
   {
     "type": "chiefComplaint",
@@ -14599,7 +14120,7 @@
     "aliases": [
       "Neck pain"
     ],
-    "href": "/cc/66qpIO2GteymnQ"
+    "href": "/cc/category/6re86rOo6rKpL-2UvOu2gA/66qpIO2GteymnQ"
   },
   {
     "type": "chiefComplaint",
@@ -14609,7 +14130,7 @@
     "aliases": [
       "Substance use disorder"
     ],
-    "href": "/cc/66y87KeIIOyYpOuCqOyaqQ"
+    "href": "/cc/category/7IOB64u0/66y87KeIIOyYpOuCqOyaqQ"
   },
   {
     "type": "chiefComplaint",
@@ -14619,7 +14140,7 @@
     "aliases": [
       "Developmental delay"
     ],
-    "href": "/cc/67Cc64usIOyngOyXsA"
+    "href": "/cc/category/7IaM7JWE/67Cc64usIOyngOyXsA"
   },
   {
     "type": "chiefComplaint",
@@ -14629,7 +14150,7 @@
     "aliases": [
       "Fever"
     ],
-    "href": "/cc/67Cc7Je0"
+    "href": "/cc/category/7KCE7Iug7Kad7IOB/67Cc7Je0"
   },
   {
     "type": "chiefComplaint",
@@ -14639,7 +14160,7 @@
     "aliases": [
       "Urinary frequency; dysuria"
     ],
-    "href": "/cc/67Cw64eo7J207IOBICjruYjrh6gp"
+    "href": "/cc/category/7Iug7J6lL-u5hOuHqOq4sA/67Cw64eo7J207IOBICjruYjrh6gp"
   },
   {
     "type": "chiefComplaint",
@@ -14649,7 +14170,7 @@
     "aliases": [
       "Constipation"
     ],
-    "href": "/cc/67OA67mE"
+    "href": "/cc/category/7IaM7ZmU6riw/67OA67mE"
   },
   {
     "type": "chiefComplaint",
@@ -14659,7 +14180,7 @@
     "aliases": [
       "Anxiety"
     ],
-    "href": "/cc/67aI7JWI"
+    "href": "/cc/category/7KCV7Iug/67aI7JWI"
   },
   {
     "type": "chiefComplaint",
@@ -14669,7 +14190,7 @@
     "aliases": [
       "Prenatal care visit"
     ],
-    "href": "/cc/7IKw7KCEIOynhOywsA"
+    "href": "/cc/category/7IKw67aA/7IKw7KCEIOynhOywsA"
   },
   {
     "type": "chiefComplaint",
@@ -14679,7 +14200,7 @@
     "aliases": [
       "Diarrhea"
     ],
-    "href": "/cc/7ISk7IKs"
+    "href": "/cc/category/7IaM7ZmU6riw/7ISk7IKs"
   },
   {
     "type": "chiefComplaint",
@@ -14689,7 +14210,7 @@
     "aliases": [
       "Growth delay"
     ],
-    "href": "/cc/7ISx7J6lIOyngOyXsA"
+    "href": "/cc/category/7IaM7JWE/7ISx7J6lIOyngOyXsA"
   },
   {
     "type": "chiefComplaint",
@@ -14699,7 +14220,7 @@
     "aliases": [
       "Sexual violence"
     ],
-    "href": "/cc/7ISx7Y-t66Cl"
+    "href": "/cc/category/7IOB64u0/7ISx7Y-t66Cl"
   },
   {
     "type": "chiefComplaint",
@@ -14709,7 +14230,7 @@
     "aliases": [
       "Dyspepsia; chronic abdominal pain"
     ],
-    "href": "/cc/7IaM7ZmU67aI65-J77yP66eM7ISxIOuzte2GtQ"
+    "href": "/cc/category/7IaM7ZmU6riw/7IaM7ZmU67aI65-J77yP66eM7ISxIOuzte2GtQ"
   },
   {
     "type": "chiefComplaint",
@@ -14719,7 +14240,7 @@
     "aliases": [
       "Sleep disorder"
     ],
-    "href": "/cc/7IiY66m07J6l7JWg"
+    "href": "/cc/category/7KCV7Iug/7IiY66m07J6l7JWg"
   },
   {
     "type": "chiefComplaint",
@@ -14729,7 +14250,7 @@
     "aliases": [
       "Syncope"
     ],
-    "href": "/cc/7Iuk7Iug"
+    "href": "/cc/category/7Iic7ZmY6riw/7Iuk7Iug"
   },
   {
     "type": "chiefComplaint",
@@ -14739,7 +14260,7 @@
     "aliases": [
       "Dizziness"
     ],
-    "href": "/cc/7Ja07KeA65-87Kad"
+    "href": "/cc/category/7Iug6rK9/7Ja07KeA65-87Kad"
   },
   {
     "type": "chiefComplaint",
@@ -14749,7 +14270,7 @@
     "aliases": [
       "Immunization"
     ],
-    "href": "/cc/7JiI67Cp7KCR7KKF"
+    "href": "/cc/category/7IaM7JWE/7JiI67Cp7KCR7KKF"
   },
   {
     "type": "chiefComplaint",
@@ -14759,7 +14280,7 @@
     "aliases": [
       "Urinary incontinence"
     ],
-    "href": "/cc/7JqU7Iuk6riI"
+    "href": "/cc/category/7Iug7J6lL-u5hOuHqOq4sA/7JqU7Iuk6riI"
   },
   {
     "type": "chiefComplaint",
@@ -14769,7 +14290,7 @@
     "aliases": [
       "Menstrual disorder; amenorrhea"
     ],
-    "href": "/cc/7JuU6rK97J207IOBICjrrLTsm5Tqsr0p"
+    "href": "/cc/category/7IKw67aA/7JuU6rK97J207IOBICjrrLTsm5Tqsr0p"
   },
   {
     "type": "chiefComplaint",
@@ -14779,7 +14300,7 @@
     "aliases": [
       "Dysmenorrhea; menorrhagia"
     ],
-    "href": "/cc/7JuU6rK97Ya1ICjsm5Tqsr3qs7zri6Qp"
+    "href": "/cc/category/7IKw67aA/7JuU6rK97Ya1ICjsm5Tqsr3qs7zri6Qp"
   },
   {
     "type": "chiefComplaint",
@@ -14789,7 +14310,7 @@
     "aliases": [
       "Breast lump"
     ],
-    "href": "/cc/7Jyg67Cp642p7J20"
+    "href": "/cc/category/7IKw67aA/7Jyg67Cp642p7J20"
   },
   {
     "type": "chiefComplaint",
@@ -14799,7 +14320,7 @@
     "aliases": [
       "Mastalgia; breast pain"
     ],
-    "href": "/cc/7Jyg67Cp7Ya1"
+    "href": "/cc/category/7IKw67aA/7Jyg67Cp7Ya1"
   },
   {
     "type": "chiefComplaint",
@@ -14809,7 +14330,7 @@
     "aliases": [
       "Alcohol use counseling"
     ],
-    "href": "/cc/7J2M7KO8IOyDgeuLtA"
+    "href": "/cc/category/7IOB64u0/7J2M7KO8IOyDgeuLtA"
   },
   {
     "type": "chiefComplaint",
@@ -14819,7 +14340,7 @@
     "aliases": [
       "Altered mental status"
     ],
-    "href": "/cc/7J2Y7Iud7J6l7JWg"
+    "href": "/cc/category/7Iug6rK9/7J2Y7Iud7J6l7JWg"
   },
   {
     "type": "chiefComplaint",
@@ -14829,7 +14350,7 @@
     "aliases": [
       "Dyslipidemia"
     ],
-    "href": "/cc/7J207IOB7KeA7KeI7ZiI7Kad"
+    "href": "/cc/category/7Iic7ZmY6riw/7J207IOB7KeA7KeI7ZiI7Kad"
   },
   {
     "type": "chiefComplaint",
@@ -14839,7 +14360,7 @@
     "aliases": [
       "Suicidal ideation"
     ],
-    "href": "/cc/7J6Q7IK0"
+    "href": "/cc/category/7IOB64u0/7J6Q7IK0"
   },
   {
     "type": "chiefComplaint",
@@ -14849,7 +14370,7 @@
     "aliases": [
       "Vaginal discharge"
     ],
-    "href": "/cc/7KeI67aE67mE66y8"
+    "href": "/cc/category/7IKw67aA/7KeI67aE67mE66y8"
   },
   {
     "type": "chiefComplaint",
@@ -14859,7 +14380,7 @@
     "aliases": [
       "Vaginal bleeding"
     ],
-    "href": "/cc/7KeI7Lac7ZiI"
+    "href": "/cc/category/7IKw67aA/7KeI7Lac7ZiI"
   },
   {
     "type": "chiefComplaint",
@@ -14869,7 +14390,7 @@
     "aliases": [
       "Weight loss"
     ],
-    "href": "/cc/7LK07KSR6rCQ7IaM"
+    "href": "/cc/category/7KCE7Iug7Kad7IOB/7LK07KSR6rCQ7IaM"
   },
   {
     "type": "chiefComplaint",
@@ -14879,7 +14400,7 @@
     "aliases": [
       "Weight gain"
     ],
-    "href": "/cc/7LK07KSR7Kad6rCA"
+    "href": "/cc/category/7KCE7Iug7Kad7IOB/7LK07KSR7Kad6rCA"
   },
   {
     "type": "chiefComplaint",
@@ -14889,7 +14410,7 @@
     "aliases": [
       "Rhinorrhea; nasal congestion"
     ],
-    "href": "/cc/7L2n66y877yP7L2U66eJ7Z6Y"
+    "href": "/cc/category/7Zi47Z2h6riw/7L2n66y877yP7L2U66eJ7Z6Y"
   },
   {
     "type": "chiefComplaint",
@@ -14899,7 +14420,7 @@
     "aliases": [
       "Hematemesis"
     ],
-    "href": "/cc/7Yag7ZiI"
+    "href": "/cc/category/7IaM7ZmU6riw/7Yag7ZiI"
   },
   {
     "type": "chiefComplaint",
@@ -14909,7 +14430,7 @@
     "aliases": [
       "Fatigue"
     ],
-    "href": "/cc/7ZS866Gc"
+    "href": "/cc/category/7KCE7Iug7Kad7IOB/7ZS866Gc"
   },
   {
     "type": "chiefComplaint",
@@ -14919,7 +14440,7 @@
     "aliases": [
       "Skin rash"
     ],
-    "href": "/cc/7ZS867aAIOuwnOynhA"
+    "href": "/cc/category/6re86rOo6rKpL-2UvOu2gA/7ZS867aAIOuwnOynhA"
   },
   {
     "type": "chiefComplaint",
@@ -14929,7 +14450,7 @@
     "aliases": [
       "Oliguria"
     ],
-    "href": "/cc/7ZWN64eo"
+    "href": "/cc/category/7Iug7J6lL-u5hOuHqOq4sA/7ZWN64eo"
   },
   {
     "type": "chiefComplaint",
@@ -14939,7 +14460,7 @@
     "aliases": [
       "Low back pain"
     ],
-    "href": "/cc/7ZeI66asIO2GteymnQ"
+    "href": "/cc/category/6re86rOo6rKpL-2UvOu2gA/7ZeI66asIO2GteymnQ"
   },
   {
     "type": "chiefComplaint",
@@ -14949,7 +14470,7 @@
     "aliases": [
       "Hematuria"
     ],
-    "href": "/cc/7ZiI64eo"
+    "href": "/cc/category/7Iug7J6lL-u5hOuHqOq4sA/7ZiI64eo"
   },
   {
     "type": "chiefComplaint",
@@ -14959,7 +14480,7 @@
     "aliases": [
       "Hematochezia; melena"
     ],
-    "href": "/cc/7ZiI67OA"
+    "href": "/cc/category/7IaM7ZmU6riw/7ZiI67OA"
   },
   {
     "type": "chiefComplaint",
@@ -14969,7 +14490,7 @@
     "aliases": [
       "Dyspnea"
     ],
-    "href": "/cc/7Zi47Z2h6rOk656A"
+    "href": "/cc/category/7Zi47Z2h6riw/7Zi47Z2h6rOk656A"
   },
   {
     "type": "chiefComplaint",
@@ -14979,7 +14500,7 @@
     "aliases": [
       "Jaundice"
     ],
-    "href": "/cc/7Zmp64us"
+    "href": "/cc/category/7IaM7ZmU6riw/7Zmp64us"
   },
   {
     "type": "chiefComplaint",
@@ -14989,7 +14510,7 @@
     "aliases": [
       "Smoking cessation counseling"
     ],
-    "href": "/cc/7Z2h7JewIOyDgeuLtA"
+    "href": "/cc/category/7IOB64u0/7Z2h7JewIOyDgeuLtA"
   },
   {
     "type": "drug",

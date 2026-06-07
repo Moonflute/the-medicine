@@ -3,7 +3,7 @@ import path from "node:path";
 import vm from "node:vm";
 import { createRequire } from "node:module";
 
-const APP_ROOT = process.cwd();
+const APP_ROOT = process.env.INIT_CWD || process.cwd();
 const WORKSPACE_ROOT = path.resolve(APP_ROOT, "..", "..");
 const VAULT_ROOT = path.join(WORKSPACE_ROOT, "vault_medicine");
 const OUTPUT_ROOT = path.join(WORKSPACE_ROOT, "_webapp");
@@ -57,12 +57,14 @@ function readList(value) {
     .split(/\r?\n/)
     .map((line) => line.replace(/^- /, "").replace(/^["']|["']$/g, "").trim())
     .filter(Boolean)
-    .map((line) => line.replace(/^\-\s*/, "").trim());
+    .map((line) => line.replace(/^\-\s*/, "").trim())
+    .filter((line) => line !== "[]");
 }
 
 function readScalar(value) {
   if (!value) return "";
-  return value.replace(/^["']|["']$/g, "").trim();
+  const normalized = value.replace(/^["']|["']$/g, "").trim();
+  return normalized === "[]" ? "" : normalized;
 }
 
 function cleanupHeading(heading) {
@@ -127,6 +129,140 @@ function listMarkdownFiles(root, options = {}) {
   return results.sort((a, b) => a.localeCompare(b, "ko"));
 }
 
+function stripInlineFormatting(line) {
+  return line
+    .replace(/^\u2022\s*/, "")
+    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
+    .replace(/\[\[([^\]]+)\]\]/g, "$1")
+    .replace(/\*\*/g, "")
+    .trim();
+}
+
+function isPureLabelLine(line) {
+  const plain = stripInlineFormatting(line);
+  return /^[^:]+:\s*$/.test(plain);
+}
+
+function isEditorialLine(line) {
+  const plain = stripInlineFormatting(line);
+  return (
+    /^last updated\b/i.test(plain) ||
+    /^출처\b/.test(plain) ||
+    /^\d{4}[-./]/.test(plain)
+  );
+}
+
+function isLowValueOverviewLine(line) {
+  const plain = stripInlineFormatting(line);
+  return /^(정의|원인|기전|병태생리|역학|분류|유전|위험인자|risk factors?|출처|위치|기타)\b/i.test(plain);
+}
+
+function scoreSectionTitle(title) {
+  const normalized = title.toLowerCase();
+  if (/(임상 양상|clinical features|증상)/.test(normalized)) return 90;
+  if (/(진단|diagnosis)/.test(normalized)) return 100;
+  if (/(검사|lab|imaging)/.test(normalized)) return 95;
+  if (/(치료|treatment|management)/.test(normalized)) return 92;
+  if (/(예후|합병증|prognosis)/.test(normalized)) return 45;
+  if (/(개요|overview)/.test(normalized)) return 40;
+  return 20;
+}
+
+function scoreOverviewLine(line, sectionTitle) {
+  const plain = stripInlineFormatting(line);
+  if (!plain || isEditorialLine(plain) || isPureLabelLine(line)) return Number.NEGATIVE_INFINITY;
+
+  let score = scoreSectionTitle(sectionTitle);
+
+  if (/진단 기준|criteria|확진|score|분류기준|asas|wells|mcn?connell/i.test(plain)) score += 45;
+  if (/1차 치료|초기|치료 목표|항응고|혈전용해|인슐린|수액|nsaids|acei|ace 억제제|arb|ccb|생물학적 제제|수술|heparin|doac|warfarin/i.test(plain)) score += 45;
+  if (/ct|mri|x-ray|초음파|심초음파|도플러|혈액검사|abga|d-dimer|troponin|bnp|hla|esr|crp|혈당|pH|HCO3|케톤|anion gap/i.test(plain)) score += 35;
+  if (/주호소|특징|전형|무증상|흉통|호흡곤란|객혈|실신|조조강직|복통|쿠스마울|저혈압|쇼크/i.test(plain)) score += 30;
+  if (/표적 장기 손상|우심실 부전|뇌부종|응급|critical|fatal|치명/i.test(plain)) score += 15;
+
+  if (isLowValueOverviewLine(line)) score -= 80;
+  if (plain.length > 220) score -= 10;
+
+  return score;
+}
+
+function buildStudyOverview(sections) {
+  const preferredOrder = [
+    /임상 양상|clinical features|증상/i,
+    /진단|diagnosis/i,
+    /검사|lab|imaging/i,
+    /치료|treatment|management/i,
+    /개요|overview/i,
+  ];
+
+  const buckets = preferredOrder.map((matcher) =>
+    sections.filter((section) => matcher.test(section.title)),
+  );
+
+  const selected = [];
+  const seen = new Set();
+
+  for (const bucket of buckets) {
+    for (const section of bucket) {
+      const scored = section.content
+        .map((line, index) => ({
+          line,
+          index,
+          score: scoreOverviewLine(line, section.title),
+        }))
+        .filter((item) => Number.isFinite(item.score) && item.score > 55)
+        .sort((a, b) => b.score - a.score || a.index - b.index);
+
+      const takeLimit = /임상 양상|clinical features|증상/i.test(section.title) ? 2 : 1;
+      let taken = 0;
+
+      for (const item of scored) {
+        const plain = stripInlineFormatting(item.line);
+        if (seen.has(plain)) continue;
+        selected.push(item.line);
+        seen.add(plain);
+        taken += 1;
+        if (selected.length >= 5 || taken >= takeLimit) break;
+      }
+
+      if (selected.length >= 5) break;
+    }
+    if (selected.length >= 5) break;
+  }
+
+  if (selected.length >= 3) return selected;
+
+  const fallback = [];
+  for (const section of sections) {
+    for (const line of section.content) {
+      const plain = stripInlineFormatting(line);
+      if (!plain || isEditorialLine(line) || isPureLabelLine(line) || isLowValueOverviewLine(line)) continue;
+      if (seen.has(plain)) continue;
+      fallback.push(line);
+      seen.add(plain);
+      if (selected.length + fallback.length >= 5) break;
+    }
+    if (selected.length + fallback.length >= 5) break;
+  }
+
+  return [...selected, ...fallback].slice(0, 5);
+}
+
+function extractDefinition(body) {
+  const patterns = [
+    /(?:-|\*)\s*\*\*정의\*\*:\s*(.+)/,
+    /(?:•\s*)?\*\*정의\*\*:\s*(.+)/,
+    /(?:-|\*)\s*정의:\s*(.+)/,
+  ];
+
+  for (const pattern of patterns) {
+    const match = body.match(pattern);
+    if (match?.[1]) return match[1].trim();
+  }
+
+  return "";
+}
+
 function buildDiseases() {
   const root = path.join(VAULT_ROOT, "02 Diseases");
   const files = listMarkdownFiles(root, {
@@ -147,12 +283,12 @@ function buildDiseases() {
       title: fileName,
       sourcePath: path.relative(WORKSPACE_ROOT, filePath).replaceAll("\\", "/"),
       specialty,
-      category: readScalar(frontmatter["계통"]) || specialty.replace(/^\d+\s*/, ""),
+      category: readScalar(frontmatter["계통"]) || readScalar(frontmatter["category"]) || specialty.replace(/^\d+\s*/, ""),
       classification: readList(frontmatter["분류"]),
       aliases: readList(frontmatter["aliases"]),
       chiefComplaints: readList(frontmatter["CC"]),
-      definition: (body.match(/(?:-|\*)\s*\*\*정의\*\*:\s*(.+)/)?.[1] ?? "").trim(),
-      overview: firstSectionText(sections, "개요"),
+      definition: extractDefinition(body),
+      overview: buildStudyOverview(sections),
       sections,
       updatedAt: stat.mtime.toISOString(),
     };
@@ -177,7 +313,7 @@ function buildChiefComplaints() {
       slug: toSlug(title),
       title,
       aliases: readList(frontmatter["aliases"]),
-      category: readScalar(frontmatter["계통"]),
+      category: readScalar(frontmatter["계통"]) || readScalar(frontmatter["category"]),
       sourcePath: path.relative(WORKSPACE_ROOT, filePath).replaceAll("\\", "/"),
       concept: firstSectionText(sections, "concept"),
       differentials: firstSectionText(sections, "감별"),
@@ -212,7 +348,7 @@ function buildGenericNotes(domainFolder, domainKey) {
       sourcePath: path.relative(WORKSPACE_ROOT, filePath).replaceAll("\\", "/"),
       folder: folders.length > 1 ? folders[0] : "",
       aliases: readList(frontmatter["aliases"]),
-      category: readScalar(frontmatter["계통"]) || (folders.length > 1 ? folders[0] : domainFolder),
+      category: readScalar(frontmatter["계통"]) || readScalar(frontmatter["category"]) || (folders.length > 1 ? folders[0] : domainFolder),
       summary: body
         .split(/\r?\n/)
         .map(normalizeLine)
@@ -307,7 +443,7 @@ function buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathol
       title: item.title,
       category: item.category,
       aliases: item.aliases,
-      href: `/cc/${item.slug}`,
+      href: `/cc/category/${toSlug(item.category || "기타")}/${item.slug}`,
     })),
     ...drugs.map((item) => ({
       type: "drug",
