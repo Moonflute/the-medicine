@@ -12,19 +12,19 @@
         },
         {
           "id": "abga",
-          "name": "Arterial puncture (ABGA)"
+          "name": "동맥채혈 (ABGA)"
         },
         {
           "id": "femoral-puncture",
-          "name": "Femoral puncture"
+          "name": "대퇴혈관 천자 (Femoral Access)"
         },
         {
           "id": "blood-culture",
-          "name": "Blood culture"
+          "name": "혈액배양 (Blood Culture)"
         },
         {
           "id": "needle-stick-injury",
-          "name": "Needle stick injury"
+          "name": "주사침 찔림 (Needlestick Injury)"
         }
       ]
     },
@@ -35,43 +35,43 @@
       "items": [
         {
           "id": "ng-tube",
-          "name": "Nasogastric (NG) tube"
+          "name": "비위관 삽입 (Nasogastric Tube)"
         },
         {
           "id": "t-tube",
-          "name": "Tracheostomy tube (T-tube)"
+          "name": "기관절개관 관리 (Tracheostomy Tube)"
         },
         {
           "id": "drainage-tube",
-          "name": "Drainage tube"
+          "name": "일반 배액관 관리 (Drainage Tube)"
         },
         {
           "id": "enema",
-          "name": "Rectal tube (enema)"
+          "name": "관장 (Enema)"
         },
         {
           "id": "chest-tube",
-          "name": "Chest tube"
+          "name": "흉관 (Chest Tube)"
         },
         {
           "id": "foley",
-          "name": "Foley catheter"
+          "name": "도뇨관 (Foley Catheter)"
         },
         {
           "id": "jp-drain",
-          "name": "J/P drain"
+          "name": "J/P Drain 관리"
         },
         {
           "id": "peg-tube",
-          "name": "PEG tube"
+          "name": "위루관 (PEG Tube)"
         },
         {
           "id": "evd",
-          "name": "EVD"
+          "name": "체외뇌실배액 (EVD)"
         },
         {
           "id": "suction-catheter",
-          "name": "Suction catheter"
+          "name": "기도 흡인 (Suction Catheter)"
         }
       ]
     },
@@ -82,27 +82,27 @@
       "items": [
         {
           "id": "ekg",
-          "name": "EKG"
+          "name": "심전도 (EKG)"
         },
         {
           "id": "patient-monitoring",
-          "name": "Patient monitoring"
+          "name": "기본 환자 모니터링"
         },
         {
           "id": "brain-monitoring",
-          "name": "Brain monitoring"
+          "name": "뇌신경계 모니터링"
         },
         {
           "id": "intra-monitor",
-          "name": "Intraoperative monitoring"
+          "name": "수술 중 신경 모니터링 (IONM)"
         },
         {
           "id": "nst",
-          "name": "NST"
+          "name": "태동 검사 (NST)"
         },
         {
           "id": "ct-keep",
-          "name": "CT keep"
+          "name": "중환자 CT 동행 관리"
         }
       ]
     },
@@ -113,21 +113,21 @@
       "items": [
         {
           "id": "paracentesis",
-          "name": "Paracentesis"
+          "name": "복수 천자 (Paracentesis)"
         },
         {
           "id": "pap-smear",
-          "name": "Pap smear"
+          "name": "자궁경부 세포검사 (Pap Smear)"
         },
         {
           "id": "lumbar-puncture",
-          "name": "Lumbar puncture"
+          "name": "요추천자 (Lumbar Puncture)"
         }
       ]
     },
     {
       "id": "cpr",
-      "name": "5. CPR",
+      "name": "5. CPR·호흡",
       "iconName": "HeartPulse",
       "items": [
         {
@@ -136,11 +136,11 @@
         },
         {
           "id": "cpr",
-          "name": "CPR"
+          "name": "심폐소생술 (CPR)"
         },
         {
           "id": "sellick",
-          "name": "Sellick maneuver (Cricoid)"
+          "name": "윤상연골 압박 (Sellick Maneuver)"
         }
       ]
     },
@@ -151,19 +151,19 @@
       "items": [
         {
           "id": "a-line",
-          "name": "Arterial line (A-line)"
+          "name": "동맥라인 (Arterial Line)"
         },
         {
           "id": "sheath",
-          "name": "Sheath"
+          "name": "혈관 Sheath 관리"
         },
         {
           "id": "c-line",
-          "name": "C-line"
+          "name": "중심정맥관 (C-line)"
         },
         {
           "id": "iv-line",
-          "name": "Peripheral line"
+          "name": "말초정맥라인 (Peripheral IV)"
         }
       ]
     },
@@ -174,31 +174,31 @@
       "items": [
         {
           "id": "ampule",
-          "name": "앰플, 바이알"
+          "name": "앰플·바이알 조제"
         },
         {
           "id": "abx-injection",
-          "name": "항생제 주사 / AST"
+          "name": "항생제 투여 / AST 확인"
         },
         {
           "id": "narcotics",
-          "name": "마약 주사"
+          "name": "마약성 진통제 투여"
         },
         {
           "id": "chemo",
-          "name": "항암제 주사"
+          "name": "항암제 투여"
         },
         {
           "id": "contrast-media",
-          "name": "조영제 주사"
+          "name": "조영제 투여"
         },
         {
           "id": "ped-sedation",
-          "name": "소아진정"
+          "name": "소아 진정"
         },
         {
           "id": "infusion-pump",
-          "name": "Infusion pump"
+          "name": "Infusion Pump 사용"
         }
       ]
     },
@@ -209,7 +209,7 @@
       "items": [
         {
           "id": "wound-care",
-          "name": "상처 관리"
+          "name": "상처 드레싱"
         },
         {
           "id": "burn-care",
@@ -219,20 +219,20 @@
     },
     {
       "id": "ward",
-      "name": "9. 기타 병동 업무",
+      "name": "9. 병동 대응",
       "iconName": "ClipboardList",
       "items": [
         {
           "id": "htn-call",
-          "name": "고혈압 콜"
+          "name": "고혈압 악화 보고"
         },
         {
           "id": "sugar-call",
-          "name": "고혈당 콜"
+          "name": "혈당 이상 대응"
         },
         {
           "id": "vasopressor",
-          "name": "승압제 사용"
+          "name": "혈관수축제 사용 감시"
         },
         {
           "id": "transfusion",
@@ -240,11 +240,11 @@
         },
         {
           "id": "death-pronouncement",
-          "name": "사망선고"
+          "name": "사망 확인과 초기 문서화"
         },
         {
           "id": "lstd",
-          "name": "연명의료중단"
+          "name": "연명의료결정제도 대응"
         }
       ]
     }
@@ -255,58 +255,67 @@
       "name": "정맥채혈 (Venipuncture)",
       "categoryId": "blood",
       "categoryName": "1. 채혈",
-      "videoUrl": "https://www.youtube.com/embed/NnrS4ghYlLo",
+      "summary": [
+        "가장 기본적인 채혈 술기지만 환자 확인, 검체 라벨링, 지혈이 빠지면 오류와 합병증이 바로 생깁니다.",
+        "실전에서는 '올바른 튜브 준비, 소독 후 재촉지 금지, 채혈 직후 라벨링' 세 가지를 습관처럼 가져가는 게 핵심입니다."
+      ],
       "indications": [
-        "혈액검사"
+        "혈액검사",
+        "혈청·혈장 검체 확보",
+        "혈액배양을 제외한 일반 정맥 채혈"
       ],
       "supplies": [
-        "토니켓 (압박대)",
-        "알콜 솜",
-        "채혈 바늘 (Vacutainer 또는 butterfly needle)",
-        "검체 병 (혈액 튜브)",
-        "거즈",
-        "반창고"
+        "토니켓",
+        "알코올 또는 클로르헥시딘 소독제",
+        "Vacutainer 또는 butterfly needle",
+        "검체 튜브",
+        "거즈와 반창고",
+        "날카로운 물품 폐기통"
       ],
       "complications": [
-        "혈종 (Hematoma)",
-        "실신 (Vasovagal syncope)"
+        "혈종",
+        "미주신경성 실신",
+        "동맥 오천자",
+        "검체 용혈 또는 라벨 오류"
       ],
       "precautions": [
-        "투석 환자는 양팔 채혈 금지 여부 확인",
-        "항응고제 복용 환자는 충분한 지혈 필요",
-        "관절 부위 가급적 피함"
+        "투석루, AV fistula, 림프부종 쪽 팔은 피합니다.",
+        "소독 후에는 다시 만지지 않고 완전히 건조시킵니다.",
+        "채혈 직후 환자 앞에서 라벨링하고 팔을 구부리게 하지 않습니다."
       ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: How To Do Venous Blood Sampling",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-peripheral-vascular-procedures/how-to-do-venous-blood-sampling"
+        }
+      ],
+      "videoUrl": "https://www.youtube.com/embed/NnrS4ghYlLo",
       "steps": [
         {
           "stepNumber": 1,
-          "title": "환자 및 채혈 준비물 확인",
-          "description": "환자 이름·등록번호 확인 후 처방된 검사 항목에 맞는 혈액 튜브를 준비한다. 손위생 후 장갑 착용."
+          "title": "환자와 검사 항목 확인",
+          "description": "이름과 등록번호를 두 가지 이상으로 확인하고 필요한 튜브 종류와 순서를 준비합니다."
         },
         {
           "stepNumber": 2,
-          "title": "압박대 묶은 후 혈관 확인",
-          "description": "주와(elbow) 상부 약 5~7cm 위에 압박대를 묶는다. 환자에게 주먹을 쥐게 하여 혈관을 촉진하고 적절한 채혈 부위를 선택한다."
+          "title": "혈관 선택",
+          "description": "토니켓을 묶고 촉진해 탄력 있고 고정이 잘 되는 정맥을 고릅니다. 필요하면 손을 아래로 내리거나 온찜질을 사용합니다."
         },
         {
           "stepNumber": 3,
-          "title": "채혈 부위 소독",
-          "description": "알콜 솜으로 중심에서 바깥쪽으로 원을 그리며 소독한다. 소독 후 30초 이상 건조시키며 손으로 다시 만지지 않는다."
+          "title": "소독 후 천자",
+          "description": "피부를 바깥쪽으로 넓혀 닦고 건조시킨 뒤 bevel up 상태로 천자합니다."
         },
         {
           "stepNumber": 4,
-          "title": "15도 각도로 천자 및 압박대 제거",
-          "description": "바늘을 피부면에 대해 약 15도 각도로 사면(bevel)이 위를 향하게 하여 천자한다. 혈액 역류가 확인되면 즉시 압박대를 제거한 뒤 필요한 혈액량을 채취한다.",
-          "warning": "압박대를 2분 이상 묶으면 혈액 응고 결과에 영향을 줄 수 있으므로, 혈액 역류 확인 즉시 제거한다."
+          "title": "검체 채취와 토니켓 해제",
+          "description": "혈액 역류가 보이면 채혈을 진행하고 가능한 빨리 토니켓을 풀어 검체 농축을 줄입니다.",
+          "warning": "채혈 중 바늘 각도를 좌우로 비틀면 혈관 손상과 용혈 위험이 커집니다."
         },
         {
           "stepNumber": 5,
-          "title": "채혈 후 거즈로 5분간 압박",
-          "description": "채혈이 완료되면 바늘을 뽑으면서 즉시 거즈를 댄다. 환자에게 팔을 구부리지 않고 5분간 직접 압박하도록 교육한다."
-        },
-        {
-          "stepNumber": 6,
-          "title": "검체 라벨링 및 사용 물품 정리",
-          "description": "채취한 혈액 튜브에 환자 정보 라벨을 즉시 부착한다. 사용한 바늘은 즉시 안전하게 폐기하고 사용 물품을 정리한다."
+          "title": "지혈과 라벨링",
+          "description": "바늘을 뺀 즉시 압박하고, 환자 앞에서 라벨을 붙입니다. 항응고제 복용 환자는 지혈 시간을 더 길게 둡니다."
         }
       ]
     },
@@ -315,308 +324,778 @@
       "name": "동맥채혈 (ABGA)",
       "categoryId": "blood",
       "categoryName": "1. 채혈",
+      "summary": [
+        "ABGA는 산소화, 환기, 산염기 상태를 빠르게 평가하는 검사입니다.",
+        "정맥채혈보다 통증과 출혈 위험이 크므로 적응증과 지혈 확인이 중요합니다."
+      ],
       "indications": [
-        "산염기 균형 확인"
+        "급성 호흡부전 평가",
+        "산소치료 또는 인공호흡기 조정",
+        "대사성·호흡성 산염기 이상 확인"
       ],
       "supplies": [
-        "헤파린 주사기",
-        "거즈"
+        "헤파린 처리 주사기",
+        "멸균 장갑",
+        "거즈",
+        "얼음 운반 용기 또는 즉시 분석 경로",
+        "맥박산소측정기"
       ],
       "complications": [
-        "동맥손상"
+        "혈종",
+        "동맥경련 또는 혈전",
+        "신경 손상",
+        "감염"
       ],
       "precautions": [
-        "Allen test"
+        "가능하면 요골동맥을 우선 고려하고 손의 말초 순환을 미리 확인합니다.",
+        "채혈 뒤 최소 5분 이상 강하게 압박합니다. 항응고 환자는 더 오래 압박합니다.",
+        "기포가 남으면 가스 수치 왜곡이 생기므로 즉시 제거합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: How To Insert a Radial Artery Catheter",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-peripheral-vascular-procedures/how-to-insert-a-radial-artery-catheter"
+        },
+        {
+          "label": "Merck Manual Professional: Acute Hypoxemic Respiratory Failure",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/respiratory-failure-and-mechanical-ventilation/acute-hypoxemic-respiratory-failure-ahrf-ards"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "채혈",
-          "description": "요골동맥 천자 및 지혈"
+          "title": "적응증과 산소 상태 확인",
+          "description": "현재 산소장치, FiO2, 환기 설정을 같이 기록해 해석 가능하게 만듭니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "채혈 부위 준비",
+          "description": "맥박이 잘 만져지는 동맥을 고르고 멸균 소독 후 자세를 안정시킵니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "동맥 천자",
+          "description": "혈액이 스스로 밀려 들어오도록 천천히 채혈하고 필요량만 확보합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "기포 제거와 즉시 전달",
+          "description": "주사기 내 공기를 빼고 마개를 닫아 지체 없이 분석기로 보냅니다."
+        },
+        {
+          "stepNumber": 5,
+          "title": "강한 지혈",
+          "description": "채혈 후 충분히 압박하고 손가락 색, 통증, 저림을 다시 확인합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "femoral-puncture",
-      "name": "대퇴동맥/정맥 천자 (Femoral)",
+      "name": "대퇴혈관 천자 (Femoral Access)",
       "categoryId": "blood",
       "categoryName": "1. 채혈",
+      "summary": [
+        "말초 접근이 어렵거나 응급 혈관 접근이 필요한 상황에서 고려하는 술기입니다.",
+        "출혈과 감염 부담이 커서 초음파 사용과 해부학적 방향 확인이 중요합니다."
+      ],
       "indications": [
-        "말초 혈관 없음"
+        "말초 혈관 확보 실패",
+        "응급 동맥혈 채취",
+        "시술 전 대퇴 접근 준비"
       ],
       "supplies": [
-        "주사기"
+        "초음파",
+        "천자 바늘",
+        "주사기",
+        "소독 세트",
+        "압박 드레싱"
       ],
       "complications": [
+        "대량 출혈",
+        "가성동맥류",
+        "감염",
         "대퇴신경 손상"
       ],
       "precautions": [
-        "NAVEL 구조 숙지"
+        "동맥, 정맥, 신경 위치를 NAVEL 원칙과 초음파로 함께 확인합니다.",
+        "접근 뒤에는 혈종과 원위부 허혈을 반복 평가합니다.",
+        "항응고 상태면 지혈 계획을 먼저 세웁니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: How To Do Femoral Artery Cannulation, Ultrasound-Guided",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-central-vascular-procedures/how-to-do-femoral-artery-cannulation-ultrasound-guided"
+        },
+        {
+          "label": "Merck Manual Professional: Vascular Access",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/vascular-access"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "천자",
-          "description": "서혜인대 아래에서 천자"
+          "title": "초음파와 해부학 확인",
+          "description": "대퇴동맥과 대퇴정맥의 위치 관계를 확인하고 천자 지점을 표시합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "멸균 준비",
+          "description": "넓게 소독하고 드레이핑한 뒤 바늘과 주사기를 준비합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "실시간 천자",
+          "description": "가능하면 초음파 가이드를 보며 혈관 내 진입을 확인합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "시술 후 압박",
+          "description": "바늘 제거 후 충분히 압박하고 출혈, 혈종, 원위부 순환을 확인합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "blood-culture",
-      "name": "혈액 배양 (Blood culture)",
+      "name": "혈액배양 (Blood Culture)",
       "categoryId": "blood",
       "categoryName": "1. 채혈",
+      "summary": [
+        "혈액배양은 진짜 균혈증을 잡는 검사인 동시에 오염이 매우 흔한 검사입니다.",
+        "무균술, 채혈 부위 선택, 배양 보틀 소독이 결과의 질을 좌우합니다."
+      ],
       "indications": [
-        "패혈증 의심"
+        "패혈증 의심",
+        "원인 불명 발열",
+        "심내막염 의심",
+        "항생제 시작 전 균 동정 필요"
       ],
       "supplies": [
-        "배양 보틀",
-        "베타딘"
+        "혈액배양 보틀",
+        "클로르헥시딘 또는 적절한 피부 소독제",
+        "멸균 바늘과 주사기 또는 채혈 세트",
+        "장갑",
+        "라벨"
       ],
       "complications": [
-        "컨테미네이션"
+        "오염으로 인한 위양성",
+        "불필요한 항생제 사용",
+        "채혈 부위 감염",
+        "혈종"
       ],
       "precautions": [
-        "무균술 철저"
+        "항생제 투여 전에 채혈하는 것이 원칙입니다.",
+        "가능하면 새로운 정맥천자로 채혈하고 기존 라인 채혈은 적응증이 있을 때만 고려합니다.",
+        "보틀 고무마개도 소독하고 충분히 건조시킵니다."
+      ],
+      "sources": [
+        {
+          "label": "CDC: Blood Culture Contamination Overview",
+          "url": "https://www.cdc.gov/antibiotic-use/core-elements/pdfs/FS-BloodCulture-508.pdf"
+        },
+        {
+          "label": "Merck Manual Professional: How To Do Venous Blood Sampling",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-peripheral-vascular-procedures/how-to-do-venous-blood-sampling"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "소독",
-          "description": "베타딘 소독 후 채혈"
+          "title": "채혈 타이밍 정하기",
+          "description": "오한이나 발열 시점과 무관하게 가능한 한 항생제 투여 전에 채혈합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "보틀과 피부 소독",
+          "description": "보틀 마개와 피부를 각각 소독하고 마를 때까지 기다립니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "무균 채혈",
+          "description": "정맥천자로 권장량을 채혈해 지시에 맞는 순서로 보틀에 나눠 담습니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "즉시 라벨링과 이송",
+          "description": "채혈 부위와 시간, 세트 번호를 기록하고 지체 없이 검사실로 보냅니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "needle-stick-injury",
-      "name": "주사침 찔림 (NSI)",
+      "name": "주사침 찔림 (Needlestick Injury)",
       "categoryId": "blood",
       "categoryName": "1. 채혈",
+      "summary": [
+        "주사침 손상은 술기 자체보다 사고 후 초기 대응 속도가 더 중요합니다.",
+        "상처 세척, 즉시 보고, 노출원 평가, PEP 필요성 판단이 표준 흐름입니다."
+      ],
       "indications": [
-        "찔림 사고"
+        "오염된 바늘 또는 sharps에 피부가 찔린 경우",
+        "혈액·체액이 점막이나 손상 피부에 노출된 경우"
       ],
       "supplies": [
-        "소독액"
+        "흐르는 물과 비누",
+        "점막 세척용 생리식염수",
+        "노출 보고 체계",
+        "기초 검사 및 PEP 경로"
       ],
       "complications": [
-        "[보고] 감염실 보고"
+        "HBV/HCV/HIV 노출",
+        "보고 지연으로 인한 PEP 지연",
+        "심리적 스트레스"
       ],
-      "precautions": [],
+      "precautions": [
+        "상처를 짜내거나 자극하지 않습니다.",
+        "바늘 재캡, 분리, 꺾기 같은 행동은 금지합니다.",
+        "노출원과 본인의 기초 혈액검사를 기관 프로토콜에 맞춰 즉시 진행합니다."
+      ],
+      "sources": [
+        {
+          "label": "CDC: Sharps Safety Program Resources",
+          "url": "https://www.cdc.gov/infection-control/hcp/sharps-safety/index.html"
+        },
+        {
+          "label": "CDC: Management of Potentially Infectious Exposures and Illnesses",
+          "url": "https://www.cdc.gov/infection-control/hcp/healthcare-personnel-infrastructure-routine-practices/exposure-managment.html"
+        }
+      ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "씻어내기",
-          "description": "흐르는 물에 즉시 씻어냄"
+          "title": "즉시 세척",
+          "description": "피부는 비누와 물로 씻고, 눈이나 점막은 충분히 관류합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "즉시 보고",
+          "description": "상급자와 감염관리 또는 산업보건 체계에 바로 알립니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "위험도 평가",
+          "description": "노출 종류, 깊이, 노출원 감염 여부를 평가해 PEP 필요성을 판단합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "추적 관리",
+          "description": "기초 검사, 추적 검사, 백신 또는 PEP 일정을 놓치지 않게 등록합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "ng-tube",
-      "name": "위관 삽입 (Nasogastric tube)",
+      "name": "비위관 삽입 (Nasogastric Tube)",
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
+      "summary": [
+        "NG tube는 감압, 위 내용물 배출, 영양 또는 약물 투여에 쓰이는 기본 관 술기입니다.",
+        "삽입보다 더 중요한 건 '기관으로 들어가지 않았는지'와 '사용 전 위치 확인'입니다."
+      ],
       "indications": [
-        "위 압력 완화",
-        "영양 공급"
+        "위 감압",
+        "장폐색 또는 마비성 장폐색",
+        "위 내용물 배출",
+        "경관 영양 또는 약물 투여"
       ],
       "supplies": [
-        "L-tube",
-        "윤활제"
+        "NG tube",
+        "윤활제",
+        "장갑",
+        "물컵 또는 빨대",
+        "흡인 연결 장치",
+        "고정 테이프"
       ],
       "complications": [
-        "[보고] 저항 심함"
+        "기관 삽입",
+        "비출혈",
+        "흡인",
+        "점막 손상"
       ],
-      "precautions": [],
+      "precautions": [
+        "두개저 골절 의심이나 심한 안면 외상은 비강 접근을 피합니다.",
+        "투여 또는 흡인 전에는 기관 삽입 여부와 위 위치를 반드시 확인합니다.",
+        "기침, 산소포화도 저하, 심한 저항이 있으면 즉시 중단합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Nasogastric Intubation or Intestinal Intubation",
+          "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/diagnostic-and-therapeutic-gastrointestinal-procedures/nasogastric-intubation-or-intestinal-intubation"
+        }
+      ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "삽입",
-          "description": "침 삼키는 동작에 맞춰 삽입"
+          "title": "길이 측정과 자세 잡기",
+          "description": "코끝-귓불-검상돌기 길이를 재고 반좌위로 앉힙니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "윤활 후 삽입",
+          "description": "통과가 더 좋은 콧구멍을 선택하고 윤활 후 비인두까지 부드럽게 전진합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "삼킴에 맞춰 진행",
+          "description": "환자가 물을 삼키는 타이밍에 맞춰 표시선까지 넣습니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "위치 확인",
+          "description": "기관 삽입 소견이 없는지 확인하고 기관 프로토콜에 맞는 위치 확인을 마친 뒤 사용합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "t-tube",
-      "name": "기관절개관 (Tracheostomy tube)",
+      "name": "기관절개관 관리 (Tracheostomy Tube)",
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
+      "summary": [
+        "기관절개관은 기도 확보 장치라서 막힘, 빠짐, 출혈이 모두 응급상황이 될 수 있습니다.",
+        "정기적인 분비물 관리와 피부·고정 상태 확인이 핵심입니다."
+      ],
       "indications": [
-        "보조 호흡로"
+        "장기 기도 확보",
+        "분비물 배출 보조",
+        "상기도 폐쇄 우회",
+        "기계환기 연결"
       ],
       "supplies": [
-        "석션기",
-        "생리식염수"
+        "흡인 장비",
+        "여분의 기관절개관",
+        "드레싱",
+        "생리식염수",
+        "산소 공급 장치"
       ],
       "complications": [
-        "[보고] 출혈, 관 빠짐"
+        "관 막힘",
+        "탈관",
+        "출혈",
+        "주위 피부 손상 또는 감염"
       ],
-      "precautions": [],
+      "precautions": [
+        "산소, 흡인기, 예비 관은 항상 침상 옆에 준비합니다.",
+        "고정끈이 너무 느슨하면 탈관, 너무 조이면 피부 손상이 생깁니다.",
+        "새로 만든 기관절개창은 재삽입이 어려울 수 있어 즉시 도움을 요청해야 합니다."
+      ],
+      "sources": [
+        {
+          "label": "UCLH NHS: About Artificial Breathing Tubes (Tracheostomy Tubes)",
+          "url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/about-artificial-breathing-tracheostomy-tubes"
+        }
+      ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "관리",
-          "description": "상처 소독 및 드레싱"
+          "title": "호흡 상태와 고정 확인",
+          "description": "호흡음, 산소포화도, 분비물 양, 고정 상태를 먼저 봅니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "필요 시 흡인",
+          "description": "무산소 위험이 없는 범위에서 필요한 만큼만 흡인합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "피부와 드레싱 관리",
+          "description": "분비물과 피부 자극을 제거하고 건조한 드레싱으로 교체합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "응급 대비 점검",
+          "description": "여분의 관, 더 작은 크기의 관, 흡인 장비, 산소 라인이 준비돼 있는지 확인합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "drainage-tube",
-      "name": "배액관 일반 (Drainage tube)",
+      "name": "일반 배액관 관리 (Drainage Tube)",
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
+      "summary": [
+        "배액관 관리의 기본은 '막히지 않게 유지하고, 배액 양상 변화를 놓치지 않는 것'입니다.",
+        "종류가 달라도 공통적으로 삽입 부위, 배액 성상, 음압 유지 여부를 봅니다."
+      ],
       "indications": [
-        "수술부위 체액 배출"
+        "수술 후 체액 배출",
+        "농양 또는 체강 배액",
+        "누출 감시"
       ],
       "supplies": [
-        "알콜솜"
+        "배액백 또는 저장기",
+        "장갑",
+        "측정컵",
+        "드레싱",
+        "기록지"
       ],
       "complications": [
-        "감염"
+        "감염",
+        "배액관 막힘",
+        "우발적 탈락",
+        "갑작스러운 출혈성 배액"
       ],
-      "precautions": [],
+      "precautions": [
+        "배액 시스템은 가능하면 삽입 부위보다 아래에 둡니다.",
+        "배액량이 갑자기 증가하거나 선홍색으로 바뀌면 바로 보고합니다.",
+        "불필요한 분리와 역류를 피합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: How To Cleanse, Irrigate, Debride, and Dress Wounds",
+          "url": "https://www.merckmanuals.com/professional/injuries-poisoning/how-to-care-for-wounds-and-lacerations/how-to-cleanse-irrigate-debride-and-dress-wounds"
+        }
+      ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "비우기",
-          "description": "용량 확인 후 비움"
+          "title": "삽입 부위 확인",
+          "description": "홍반, 통증, 누출, 고정 상태를 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "배액 양상 측정",
+          "description": "양, 색, 점도, 냄새를 정해진 시간마다 기록합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "라인 정리",
+          "description": "꺾임, 눌림, 응고로 인한 폐색이 없는지 확인합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "배액 비우기와 재설정",
+          "description": "기관 지침에 따라 무균적으로 비우고 시스템을 다시 닫습니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "enema",
-      "name": "관장 (Rectal tube/Enema)",
+      "name": "관장 (Enema)",
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
+      "summary": [
+        "관장은 변비 완화나 장 정결에 쓰이지만, 무리하게 시행하면 점막 손상과 통증을 유발합니다.",
+        "윤활, 좌측 와위, 천천한 주입이 기본입니다."
+      ],
       "indications": [
-        "장결정, 변비 등"
+        "심한 변비",
+        "시술 전 장 정결",
+        "직장 내 약물 또는 용액 투여"
       ],
       "supplies": [
-        "관장용 시린지",
-        "글리세린"
+        "관장액",
+        "관장 세트",
+        "윤활제",
+        "장갑",
+        "방수포",
+        "휴지 또는 패드"
       ],
       "complications": [
-        "직장 손상"
+        "직장 점막 손상",
+        "복통",
+        "전해질 이상",
+        "미주신경 반응"
       ],
       "precautions": [
-        "좌측 와위 유지"
+        "복통이 심하거나 장천공, 장폐색이 의심되면 시행하지 않습니다.",
+        "저항이 있으면 억지로 밀지 않습니다.",
+        "노인과 탈수 환자는 대량 인산염 관장에 더 취약할 수 있습니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Nasogastric Intubation or Intestinal Intubation",
+          "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/diagnostic-and-therapeutic-gastrointestinal-procedures/nasogastric-intubation-or-intestinal-intubation"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "주입",
-          "description": "부드럽게 주입 후 대기 교육"
+          "title": "설명과 자세",
+          "description": "좌측 와위로 눕히고 시술 중 불편감이 있을 수 있음을 설명합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "윤활과 삽입",
+          "description": "튜브 끝에 충분히 윤활제를 바르고 천천히 삽입합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "용액 주입",
+          "description": "너무 빠르지 않게 주입하고 통증이나 경련이 심하면 잠시 멈춥니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "배변 유도와 관찰",
+          "description": "가능한 유지 시간을 안내하고 배변 후 효과와 이상 증상을 확인합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "chest-tube",
-      "name": "흉관 (Chest tube)",
+      "name": "흉관 (Chest Tube)",
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
+      "summary": [
+        "흉관은 기흉, 혈흉, 농흉 등에서 생명을 구하는 술기이지만 삽입 후 관리가 equally 중요합니다.",
+        "물봉, 공기 누출, 배액량, 튜브 고정 상태를 반복적으로 확인해야 합니다."
+      ],
       "indications": [
-        "기흉, 농흉"
+        "기흉",
+        "혈흉",
+        "농흉",
+        "대량 흉수 또는 수술 후 흉막 배액"
       ],
       "supplies": [
-        "흉관",
-        "메스",
-        "봉합사"
+        "흉관 세트",
+        "물봉 배액 시스템",
+        "멸균 드레싱",
+        "고정용 봉합 또는 테이프",
+        "흡인 연결"
       ],
       "complications": [
-        "[보고] 과다출혈"
+        "폐 손상",
+        "출혈",
+        "피하기종",
+        "감염",
+        "재팽창 폐부종"
       ],
-      "precautions": [],
+      "precautions": [
+        "튜브를 임의로 클램프하지 않습니다.",
+        "배액 장치는 항상 흉부보다 낮게 유지합니다.",
+        "급격한 대량 배액, 지속적 공기 누출, 호흡곤란 악화는 즉시 보고합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: How To Do Tube and Catheter Thoracostomy",
+          "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/how-to-do-pulmonary-procedures/how-to-do-tube-and-catheter-thoracostomy"
+        }
+      ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "삽입 보조",
-          "description": "무균 보조 및 X-ray 확인"
+          "title": "삽입 후 초기 확인",
+          "description": "호흡 상태, 통증, 삽입부 드레싱, 배액 시스템 연결 상태를 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "물봉과 공기 누출 확인",
+          "description": "tidaling과 air leak 여부를 관찰하고 변화 양상을 기록합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "배액량 추적",
+          "description": "시간당 배액량과 색 변화를 보고 급격한 증가 여부를 확인합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "고정과 안전 유지",
+          "description": "라인이 꼬이거나 당겨지지 않도록 정리하고, 필요 시 영상 확인을 시행합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "foley",
-      "name": "도뇨관 (Foley catheter)",
+      "name": "도뇨관 (Foley Catheter)",
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
+      "summary": [
+        "유치도뇨관은 편리하지만 CAUTI 위험이 커서 적응증이 분명할 때만 사용해야 합니다.",
+        "삽입은 멸균, 유지 관리는 폐쇄 시스템 유지와 의존성 최소화가 핵심입니다."
+      ],
       "indications": [
-        "요폐, I&O 측정"
+        "급성 요폐",
+        "정확한 소변량 모니터링",
+        "수술 전후 방광 관리",
+        "장시간 움직임 제한 환자 중 명확한 필요가 있는 경우"
       ],
       "supplies": [
-        "Foley 세트",
+        "Foley catheter 세트",
+        "멸균 장갑",
+        "소독제",
         "윤활제",
-        "증류수"
+        "풍선용 멸균수",
+        "폐쇄 배액백"
       ],
       "complications": [
-        "[보고] 진행 안됨"
+        "CAUTI",
+        "요도 손상",
+        "거짓 통로 형성",
+        "혈뇨",
+        "자극성 방광경련"
       ],
       "precautions": [
-        "저항 무리하게 넘지 않음"
+        "명확한 적응증이 없으면 삽입하지 않고 가능한 빨리 제거합니다.",
+        "삽입 후 시스템은 닫힌 상태를 유지하고 불필요한 분리를 피합니다.",
+        "저항이 있거나 요도 손상 가능성이 있으면 무리하지 말고 도움을 요청합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Bladder Catheterization",
+          "url": "https://www.merckmanuals.com/professional/genitourinary-disorders/genitourinary-tests-and-procedures/bladder-catheterization"
+        },
+        {
+          "label": "Merck Manual Professional: How To Do Urethral Catheterization in a Male",
+          "url": "https://www.merckmanuals.com/professional/genitourinary-disorders/how-to-do-genitourinary-procedures/how-to-do-urethral-catheterization-in-a-male"
+        },
+        {
+          "label": "CDC: CAUTI TAP Facility Assessment Tool",
+          "url": "https://www.cdc.gov/healthcare-associated-infections/media/pdfs/CAUTI-TAP-Facility-Assessment-Tool-v3-508.pdf"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "삽입",
-          "description": "요도 소독 및 윤활제 도포 후 삽입"
+          "title": "적응증과 금기 확인",
+          "description": "요도 손상 의심, 골반 외상, 최근 비뇨기 수술 여부를 먼저 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "멸균 삽입",
+          "description": "요도구를 소독하고 충분히 윤활한 뒤 무리 없이 전진합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "풍선 팽창과 배액 연결",
+          "description": "소변이 확인된 뒤에만 풍선을 팽창시키고 폐쇄 배액백을 연결합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "유지 관리",
+          "description": "백은 방광보다 아래에 두고, 소변량·색·통증·누출 여부를 모니터링합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "jp-drain",
-      "name": "J/P Drain",
+      "name": "J/P Drain 관리",
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
+      "summary": [
+        "J/P drain은 음압 배액이므로 '압축 상태 유지'가 술기의 핵심입니다.",
+        "배액량보다도 양상 변화와 흡인 유지 실패를 빨리 잡는 것이 중요합니다."
+      ],
       "indications": [
-        "수술부위 배액"
+        "수술 후 체액 배출",
+        "혈종·장액종 예방",
+        "수술 부위 누출 감시"
       ],
       "supplies": [
-        "알콜솜"
+        "J/P bulb",
+        "장갑",
+        "알코올 패드",
+        "측정컵",
+        "드레싱"
       ],
       "complications": [
-        "[보고] 배액량 급증"
+        "배액관 막힘",
+        "음압 소실",
+        "삽입부 감염",
+        "갑작스러운 출혈성 배액"
       ],
       "precautions": [
-        "음압유지"
+        "bulb가 다시 펴져 있으면 음압이 풀린 것입니다.",
+        "배액량이 갑자기 많아지거나 선홍색이 되면 즉시 보고합니다.",
+        "라인을 과도하게 당기지 않게 안전하게 고정합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: How To Cleanse, Irrigate, Debride, and Dress Wounds",
+          "url": "https://www.merckmanuals.com/professional/injuries-poisoning/how-to-care-for-wounds-and-lacerations/how-to-cleanse-irrigate-debride-and-dress-wounds"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "비우기",
-          "description": "비우고 꽉 쥐어 음압 생성 후 닫음"
+          "title": "삽입부와 bulb 상태 확인",
+          "description": "드레싱 상태, 누출 여부, bulb 압축 유지 여부를 봅니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "배액 비우기",
+          "description": "배액구를 열어 측정컵에 비우고 양상과 양을 기록합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "음압 재형성",
+          "description": "bulb를 완전히 눌러 압축한 상태에서 마개를 닫습니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "고정과 기록",
+          "description": "라인이 꼬이거나 깔리지 않게 정리하고 수술팀 기준에 맞춰 보고합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "peg-tube",
-      "name": "위루관 (PEG tube)",
+      "name": "위루관 (PEG Tube)",
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
+      "summary": [
+        "PEG는 장기 경관영양을 위한 접근로라서 일상 관리의 질이 합병증을 좌우합니다.",
+        "튜브 위치 표시, stoma 청결, 주입 전후 flush가 가장 기본입니다."
+      ],
       "indications": [
-        "장기 영양"
+        "장기 경관영양",
+        "경구 섭취가 어려운 환자의 약물 투여",
+        "영양 보충"
       ],
       "supplies": [
-        "일회용 시린지"
+        "PEG tube",
+        "물 주입용 시린지",
+        "드레싱 용품",
+        "미온수",
+        "고정 장치"
       ],
       "complications": [
-        "감염",
-        "주입불량"
+        "stoma 감염",
+        "누출",
+        "튜브 막힘",
+        "튜브 이탈",
+        "주입 시 통증 또는 흡인"
       ],
-      "precautions": [],
+      "precautions": [
+        "피부 수준 표시를 매일 확인해 위치 변화를 놓치지 않습니다.",
+        "주입 전후로 물로 flush해 막힘을 줄입니다.",
+        "통증, 신선한 출혈, 새 누출, 이탈은 즉시 보고합니다."
+      ],
+      "sources": [
+        {
+          "label": "NHS: Care of a PEG Feeding Tube",
+          "url": "https://www.kentcht.nhs.uk/leaflet/care-of-a-peg-feeding-tube/"
+        }
+      ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "드레싱 및 주입",
-          "description": "사용 전후 물로 씻어내고 드레싱"
+          "title": "위치와 피부 확인",
+          "description": "튜브 길이 표시와 stoma 주변의 발적, 삼출, 냄새를 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "주입 전 준비",
+          "description": "손위생 후 튜브를 flush하고 처방된 영양 또는 약물을 준비합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "주입",
+          "description": "환자를 가능한 상체 올린 자세로 두고 천천히 주입합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "주입 후 관리",
+          "description": "다시 flush하고 clamp 상태, 피부 건조, 환자 불편감을 확인합니다."
         }
       ],
       "videoUrl": null
@@ -626,50 +1105,127 @@
       "name": "체외뇌실배액 (EVD)",
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
+      "summary": [
+        "EVD는 ICP와 CSF 배액을 동시에 다루는 고위험 장치입니다.",
+        "레벨링, 배액량 기록, 무균성 유지, clamp 상태 확인이 기본입니다."
+      ],
       "indications": [
-        "뇌압 강하, 뇌척수액 배출"
+        "두개내압 상승",
+        "수두증",
+        "뇌실내 출혈 후 CSF 배액",
+        "ICP 모니터링"
       ],
       "supplies": [
-        "드레싱세트"
+        "EVD 시스템",
+        "레벨링 기준기",
+        "멸균 드레싱",
+        "장갑",
+        "배액 기록지"
       ],
       "complications": [
-        "[보고] 뇌척수액 색 변화, 뇌압 상승 소견"
+        "뇌실염",
+        "과배액",
+        "배액 폐색",
+        "재출혈",
+        "두개내압 상승"
       ],
       "precautions": [
-        "모터의 높이 고정 유지"
+        "트랜스듀서와 chamber 높이는 처방된 기준점에 정확히 맞춥니다.",
+        "환자 머리나 침상 높이를 바꾸기 전 clamp 및 레벨 상태를 확인합니다.",
+        "갑작스러운 의식 저하, 동공 변화, 배액 정지 또는 과다 배액은 즉시 대응합니다."
+      ],
+      "sources": [
+        {
+          "label": "NCBI Bookshelf: Intracranial Pressure Monitoring",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK542298/"
+        },
+        {
+          "label": "Merck Manual Professional: Monitoring and Testing the Critical Care Patient",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/monitoring-and-testing-the-critical-care-patient"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "배액 조절",
-          "description": "처방된 압력 기준점 확인"
+          "title": "기준점 맞추기",
+          "description": "tragus 또는 기관 지침 기준점에 맞춰 chamber 높이를 재설정합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "배액과 파형 확인",
+          "description": "시간당 배액량, 색, ICP 수치와 파형 변화를 확인합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "무균 관리",
+          "description": "불필요한 sampling이나 연결 분리를 피하고 드레싱을 청결하게 유지합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "환자 상태 재평가",
+          "description": "의식, 동공, 두통, 구토, 활력징후를 함께 봐서 장치 이상을 조기에 잡습니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "suction-catheter",
-      "name": "가래 흡인 (Suction catheter)",
+      "name": "기도 흡인 (Suction Catheter)",
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
+      "summary": [
+        "흡인은 필요한 때만 짧게 시행하는 술기입니다.",
+        "과도한 흡인은 저산소증, 점막 손상, 서맥을 만들 수 있어 '짧고 필요한 만큼'이 원칙입니다."
+      ],
       "indications": [
-        "비자발적 가래 배출 시"
+        "자가 배출이 어려운 기도 분비물",
+        "산소포화도 저하와 분비물 정체",
+        "기관절개관 또는 기관내관 내 분비물 제거"
       ],
       "supplies": [
+        "흡인기",
         "흡인 카테터",
-        "크린조"
+        "장갑",
+        "산소 공급 장치",
+        "필요 시 멸균 생리식염수"
       ],
       "complications": [
-        "저산소증"
+        "저산소증",
+        "서맥",
+        "점막 손상과 출혈",
+        "기관지경련"
       ],
       "precautions": [
-        "15초 제한"
+        "흡인은 카테터 삽입 시가 아니라 빼면서 적용합니다.",
+        "한 번의 흡인 시간은 짧게 유지합니다.",
+        "심한 저산소증, 부정맥, 혈압 변화가 생기면 즉시 중단합니다."
+      ],
+      "sources": [
+        {
+          "label": "UCLH NHS: About Artificial Breathing Tubes (Tracheostomy Tubes)",
+          "url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/about-artificial-breathing-tracheostomy-tubes"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "흡인",
-          "description": "돌리면서 부드럽게 흡인"
+          "title": "필요성 판단",
+          "description": "거친 호흡음, 가시 분비물, 산소포화도 저하, 기침 약화를 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "산소화와 준비",
+          "description": "환자 상태에 맞게 산소를 보조하고 카테터와 압력을 확인합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "삽입 후 흡인",
+          "description": "흡인 없이 삽입한 뒤 빼면서 회전시키며 짧게 흡인합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "재평가",
+          "description": "호흡음, SpO2, 심박수, 분비물 양상을 다시 확인합니다."
         }
       ],
       "videoUrl": null
@@ -679,97 +1235,244 @@
       "name": "심전도 (EKG)",
       "categoryId": "monitoring",
       "categoryName": "3. 환자 감시",
+      "summary": [
+        "12유도 심전도는 흉통, 실신, 부정맥, 전해질 이상 평가의 기본 검사입니다.",
+        "붙이는 위치가 틀리면 해석이 완전히 달라질 수 있어 전극 위치 정확도가 중요합니다."
+      ],
       "indications": [
-        "흉통 등 심장 이상 의심"
+        "흉통",
+        "부정맥 의심",
+        "실신",
+        "전해질 이상 또는 약물 영향 평가"
       ],
       "supplies": [
-        "EKG 전극"
+        "EKG 기계",
+        "전극 패드",
+        "면도기 또는 알코올 솜",
+        "환자 정보 입력 장치"
       ],
       "complications": [
-        "[보고] STEMI 소견 시 즉시 보고"
+        "피부 자극",
+        "유도 위치 오류로 인한 해석 오류"
       ],
       "precautions": [
-        "전자제품 제거"
+        "전극 위치를 외우기보다 매번 landmarks를 다시 확인합니다.",
+        "움직임, 떨림, 전기 간섭은 artifact를 만듭니다.",
+        "흉통 환자에서 STEMI 소견이 보이면 지체 없이 보고합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Electrocardiography",
+          "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/cardiovascular-tests-and-procedures/electrocardiography"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "리드 부착 및 캡처",
-          "description": "12리드 흉부 및 사지 부착"
+          "title": "환자 준비",
+          "description": "상체를 노출하고 피부 기름기와 땀을 닦아 전극 접촉을 좋게 만듭니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "전극 부착",
+          "description": "사지 유도와 흉부 유도를 정확한 위치에 붙입니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "기록",
+          "description": "환자가 움직이지 않게 하고 baseline artifact가 적은 상태에서 기록합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "즉시 확인",
+          "description": "리듬, ST 변화, 심박수, artifact 여부를 먼저 보고 이상 시 바로 전달합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "patient-monitoring",
-      "name": "Patient monitoring (웹모니터)",
+      "name": "기본 환자 모니터링",
       "categoryId": "monitoring",
       "categoryName": "3. 환자 감시",
+      "summary": [
+        "모니터는 숫자를 보여주는 기계가 아니라 환자 악화의 조기 신호를 잡는 도구입니다.",
+        "알람을 끄는 것보다 알람의 의미를 해석하고 환자에게 가는 습관이 더 중요합니다."
+      ],
       "indications": [
-        "V/S 지속 모니터링"
+        "응급실·병동·중환자실 활력징후 감시",
+        "산소치료 또는 부정맥 위험 환자",
+        "시술 전후 관찰"
       ],
       "supplies": [
-        "SPO2 센서",
-        "EKG 패드",
-        "BP 커프"
+        "ECG 리드",
+        "SpO2 센서",
+        "비침습 혈압 커프",
+        "체온계",
+        "알람 설정"
       ],
       "complications": [
-        "[보고] V/S 급변"
+        "알람 피로",
+        "센서 부착 오류",
+        "허위 안심 또는 허위 경보"
       ],
-      "precautions": [],
+      "precautions": [
+        "숫자가 이상하면 먼저 환자를 보고, 다음으로 리드와 센서를 확인합니다.",
+        "알람 한계값은 환자 상태에 맞게 개별화합니다.",
+        "추세 변화가 한 번의 절대값보다 중요할 때가 많습니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Monitoring and Testing the Critical Care Patient",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/monitoring-and-testing-the-critical-care-patient"
+        }
+      ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "기기 연결",
-          "description": "각 센서를 환자에게 부착하고 알람 한계값 설정"
+          "title": "기본 센서 부착",
+          "description": "리드, 센서, 커프를 올바르게 붙이고 기준 활력징후를 기록합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "알람 설정",
+          "description": "환자 상태에 맞는 상·하한을 설정합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "추세 확인",
+          "description": "단발성 수치보다 시간에 따른 변화와 환자 증상을 함께 봅니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "이상 시 재확인",
+          "description": "리드 오류를 배제한 뒤 즉시 bedside assessment와 보고를 합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "brain-monitoring",
-      "name": "Brain monitoring",
+      "name": "뇌신경계 모니터링",
       "categoryId": "monitoring",
       "categoryName": "3. 환자 감시",
+      "summary": [
+        "뇌 모니터링은 숫자보다 임상 상태와 함께 해석해야 의미가 있습니다.",
+        "ICP, EEG, 동공, 의식, CPP를 한 묶음으로 보는 습관이 중요합니다."
+      ],
       "indications": [
-        "두개내압(ICP) 및 뇌파 감시"
+        "중증 두부외상",
+        "ICP 상승 위험",
+        "발작 감시",
+        "중환자 신경계 추적"
       ],
       "supplies": [
-        "EEG/ICP 센서"
+        "신경계 모니터 장비",
+        "동공 평가 도구",
+        "ICP 또는 EEG 시스템",
+        "기록지"
       ],
       "complications": [
-        "[보고] ICP 상승, 발작파"
+        "센서 오류",
+        "기준점 불일치",
+        "ICP 상승 징후 지연 발견"
       ],
       "precautions": [
-        "환자 두부 상승 확인"
+        "숫자가 정상이어도 의식과 동공이 나빠지면 즉시 재평가합니다.",
+        "레벨링과 transducer zeroing이 틀리면 ICP 해석이 무의미해집니다.",
+        "흡인, 체위변경, 통증이 ICP를 올릴 수 있어 전후 변화를 봅니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Monitoring and Testing the Critical Care Patient",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/monitoring-and-testing-the-critical-care-patient"
+        },
+        {
+          "label": "NCBI Bookshelf: Intracranial Pressure Monitoring",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK542298/"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "모니터 확인",
-          "description": "수치 및 파형 상태 정기적 점검"
+          "title": "기본 신경학적 평가",
+          "description": "GCS, 동공, 사지 움직임, 호흡 양상을 baseline으로 잡습니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "장치와 기준점 확인",
+          "description": "ICP 또는 EEG 장비가 정확히 연결되고 기준점이 맞는지 확인합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "추세 감시",
+          "description": "ICP, CPP, 발작파, 의식 변화를 시간대별로 확인합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "악화 신호 대응",
+          "description": "의식 저하, 동공 변화, ICP 상승 시 즉시 보고하고 airway·hemodynamics를 같이 봅니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "intra-monitor",
-      "name": "Intraoperative monitoring",
+      "name": "수술 중 신경 모니터링 (IONM)",
       "categoryId": "monitoring",
       "categoryName": "3. 환자 감시",
+      "summary": [
+        "IONM은 수술 중 신경 손상을 조기에 감지해 회복 가능한 시점에 알리기 위한 팀 술기입니다.",
+        "기술자 혼자 하는 검사가 아니라 수술팀·마취팀과 실시간 소통하는 프로세스입니다."
+      ],
       "indications": [
-        "수술 중 신경 보호"
+        "척추 수술",
+        "뇌수술",
+        "말초신경 또는 뇌신경 손상 위험 수술",
+        "혈관성 신경 합병증 위험 수술"
       ],
-      "supplies": [],
+      "supplies": [
+        "IONM 장비",
+        "자극·기록 전극",
+        "artifact 관리 장치",
+        "환자 기록"
+      ],
       "complications": [
-        "[보고] 모터 유발전위 등 변화 시 즉시 보고"
+        "위양성 또는 위음성 해석",
+        "전극 관련 피부 손상",
+        "MEP 관련 경련 가능성"
       ],
-      "precautions": [],
+      "precautions": [
+        "마취 방식이 파형에 큰 영향을 주므로 마취팀과 사전 조율이 필요합니다.",
+        "baseline 확보 없이 변화만 보면 해석 오류가 커집니다.",
+        "유의한 파형 변화는 지체 없이 수술팀에 전달합니다."
+      ],
+      "sources": [
+        {
+          "label": "NCBI Bookshelf: Intraoperative Neurophysiological Monitoring",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK563203/"
+        }
+      ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "수술 중 감시",
-          "description": "마취과 및 수술의와 신경 상태 파형 소통"
+          "title": "사전 계획",
+          "description": "수술 종류와 위험 구조에 맞는 modality를 정하고 baseline 확보 계획을 세웁니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "전극과 장비 세팅",
+          "description": "자극·기록 전극을 정확히 부착하고 artifact를 최소화합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "수술 중 추적",
+          "description": "SSEP, MEP, EMG, EEG 등 필요한 파형을 지속 감시합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "변화 보고",
+          "description": "파형 저하나 소실이 있으면 체위, 혈압, 마취, 수술 조작을 함께 점검하도록 즉시 알립니다."
         }
       ],
       "videoUrl": null
@@ -779,50 +1482,116 @@
       "name": "태동 검사 (NST)",
       "categoryId": "monitoring",
       "categoryName": "3. 환자 감시",
+      "summary": [
+        "NST는 태아 심박수와 태동의 관계를 보는 비침습적 안녕 평가입니다.",
+        "검사 시간이 길어질 수 있고 비반응성 결과는 추가 평가가 필요합니다."
+      ],
       "indications": [
-        "산모 및 태아 안녕 평가"
+        "고위험 임신의 태아 안녕 평가",
+        "태동 감소",
+        "임신성 고혈압·당뇨 등 합병 임신 추적"
       ],
       "supplies": [
-        "초음파 젤",
-        "태아 모니터용 벨트"
+        "태아 심박수 모니터",
+        "자궁수축 센서",
+        "벨트",
+        "초음파 젤"
       ],
       "complications": [
-        "[보고] 태아 심박수 저하(Deceleration)"
+        "직접 합병증은 드물지만 비반응성 결과 해석 오류가 문제일 수 있음"
       ],
-      "precautions": [],
+      "precautions": [
+        "태아가 수면 상태면 더 오래 관찰하거나 보조 자극이 필요할 수 있습니다.",
+        "late deceleration이나 지속적 서맥은 즉시 보고합니다.",
+        "단독 결과보다 임상 맥락과 추가 검사와 함께 해석합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Fetal Monitoring During Labor and Delivery",
+          "url": "https://www.merckmanuals.com/professional/gynecology-and-obstetrics/labor-and-delivery/fetal-monitoring-during-labor-and-delivery"
+        }
+      ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "벨트 부착",
-          "description": "산모 복부에 자궁수축 센서와 태아 심박수 센서 부착"
+          "title": "산모 자세와 센서 부착",
+          "description": "산모를 편한 자세로 두고 태아 심박과 자궁수축 센서를 복부에 고정합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "기록 시작",
+          "description": "태동과 연관된 심박 가속 여부를 최소 20분 이상 관찰합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "결과 해석",
+          "description": "반응성, 비반응성, 감속 여부를 기준에 맞춰 판단합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "이상 시 추가 평가",
+          "description": "비반응성이면 연장 관찰, biophysical profile 등 추가 평가로 연결합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "ct-keep",
-      "name": "CT keep (촬영 시 환자 관리)",
+      "name": "중환자 CT 동행 관리",
       "categoryId": "monitoring",
       "categoryName": "3. 환자 감시",
+      "summary": [
+        "중환자 이동은 검사보다 이동 자체가 더 위험할 수 있습니다.",
+        "출발 전 체크리스트와 이동 중 끊기지 않는 모니터링이 핵심입니다."
+      ],
       "indications": [
-        "중환자 CT 등 이동 및 촬영 시 동행"
+        "중환자실 환자 CT 이동",
+        "기도 확보 또는 다수 라인이 있는 환자의 영상 검사 동행"
       ],
       "supplies": [
-        "Ambu bag",
         "이동형 모니터",
-        "응급약"
+        "산소통",
+        "Ambu bag",
+        "응급약",
+        "라인 고정 도구"
       ],
       "complications": [
-        "[보고] 이동 중 환자 상태 악화 시 주치의 보고"
+        "이동 중 저산소증",
+        "라인 탈락",
+        "혈압 저하",
+        "기도 문제"
       ],
       "precautions": [
-        "산소와 라인이 꼬이지 않게 주의"
+        "출발 전에 산소 잔량과 배터리부터 확인합니다.",
+        "기도, 혈압, 라인, 약물 주입이 이동 중에도 유지돼야 합니다.",
+        "촬영실에서 모니터가 잠깐이라도 끊기지 않게 계획합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Monitoring and Testing the Critical Care Patient",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/monitoring-and-testing-the-critical-care-patient"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "환자 이동 및 V/S 주시",
-          "description": "촬영실에서 모니터링 끊기지 않게 연결"
+          "title": "출발 전 체크",
+          "description": "환자 상태, 산소, 약물 주입, 배터리, suction, Ambu bag을 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "이동 중 감시",
+          "description": "심전도, SpO2, 호흡, 혈압을 지속 확인합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "촬영실 인계",
+          "description": "검사팀에 기도 상태와 주의사항을 전달하고 모니터 연결을 유지합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "복귀 후 재평가",
+          "description": "검사 전후 활력징후와 라인 상태 변화를 기록합니다."
         }
       ],
       "videoUrl": null
@@ -832,77 +1601,188 @@
       "name": "복수 천자 (Paracentesis)",
       "categoryId": "advanced",
       "categoryName": "4. 고급 술기",
+      "summary": [
+        "복수 천자는 진단과 치료를 동시에 수행할 수 있는 대표적 bedside procedure입니다.",
+        "초음파 위치 확인과 시술 후 혈역학 관찰이 중요합니다."
+      ],
       "indications": [
-        "치료적/진단적 배액"
+        "새로 생긴 복수 평가",
+        "복막염 또는 SBP 의심",
+        "긴장성 복수로 인한 호흡곤란·통증 완화"
       ],
       "supplies": [
-        "척추천자침/엔지오",
-        "베타딘"
+        "초음파",
+        "멸균 천자 키트",
+        "국소마취제",
+        "검체통",
+        "배액백"
       ],
       "complications": [
-        "[보고] 배액 중 혈압 저하"
+        "출혈",
+        "장 천공",
+        "지속 누출",
+        "시술 후 저혈압"
       ],
       "precautions": [
-        "천자 전 배뇨"
+        "수술 흉터와 혈관이 많은 부위는 피합니다.",
+        "치료적 대량 배액 후에는 저혈압과 신기능 변화를 관찰합니다.",
+        "복벽 혈관과 장 위치를 초음파로 다시 확인합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: How To Do Paracentesis",
+          "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/how-to-do-gastrointestinal-procedures/how-to-do-paracentesis"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "천자",
-          "description": "좌측하복부 마취 후 천자 및 배액통 연결"
+          "title": "적응증 확인과 초음파",
+          "description": "복수 양과 안전한 천자 경로를 초음파로 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "멸균 세팅과 국소마취",
+          "description": "넓게 소독하고 마취 후 바늘을 계획한 경로로 진행합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "검체 또는 배액",
+          "description": "진단용 검체를 먼저 확보하고 필요한 경우 치료적 배액을 연결합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "시술 후 관찰",
+          "description": "누출, 출혈, 혈압 저하, 복통을 확인합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "pap-smear",
-      "name": "세포진 검사 (Pap smear)",
+      "name": "자궁경부 세포검사 (Pap Smear)",
       "categoryId": "advanced",
       "categoryName": "4. 고급 술기",
+      "summary": [
+        "Pap smear는 자궁경부암 선별의 기본 검사입니다.",
+        "정확한 채취 부위와 검체 보존이 결과의 질을 좌우합니다."
+      ],
       "indications": [
-        "자궁경부암 조기 검진"
+        "자궁경부암 선별검사",
+        "이상 세포 추적 검사",
+        "HPV와 함께 시행하는 선별"
       ],
       "supplies": [
         "질경",
-        "브러쉬",
-        "슬라이드/고정액"
+        "cervical brush 또는 broom",
+        "액상세포보존 용기 또는 슬라이드",
+        "라벨"
       ],
       "complications": [
-        "출혈"
+        "경미한 출혈",
+        "통증 또는 불편감",
+        "부적절 검체"
       ],
-      "precautions": [],
+      "precautions": [
+        "과도한 혈액이나 윤활제는 검체 질을 떨어뜨릴 수 있습니다.",
+        "채취 전 환자에게 검사 목적과 경미한 출혈 가능성을 설명합니다.",
+        "기관 선별 지침에 맞춰 시행 주기와 판독 후속조치를 연결합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: How To Cleanse, Irrigate, Debride, and Dress Wounds",
+          "url": "https://www.merckmanuals.com/professional/injuries-poisoning/how-to-care-for-wounds-and-lacerations/how-to-cleanse-irrigate-debride-and-dress-wounds"
+        }
+      ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "도말",
-          "description": "자궁경부 점막 브러싱 후 슬라이드 도말 및 즉시 고정"
+          "title": "검사 설명과 준비",
+          "description": "프라이버시를 보장하고 질경 삽입 전 자세와 불편감을 설명합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "질경 삽입",
+          "description": "자궁경부가 잘 보이도록 질경을 위치시킵니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "변환대 채취",
+          "description": "자궁경부 외구와 변환대를 포함하도록 brush로 검체를 채취합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "검체 보존",
+          "description": "액상세포보존 용기에 바로 넣거나 슬라이드에 즉시 고정합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "lumbar-puncture",
-      "name": "요추 천자 (Lumbar puncture)",
+      "name": "요추천자 (Lumbar Puncture)",
       "categoryId": "advanced",
       "categoryName": "4. 고급 술기",
+      "summary": [
+        "LP는 CSF 분석과 압력 측정에 쓰이는 대표 술기입니다.",
+        "두개내압 상승 위험, 항응고 상태, 감염 위치를 먼저 평가해야 안전합니다."
+      ],
       "indications": [
-        "CSF 분석"
+        "중추신경계 감염 평가",
+        "지주막하출혈 보조 평가",
+        "CSF 압력 측정",
+        "특정 약물의 척수강 내 투여"
       ],
       "supplies": [
-        "척추침",
-        "검체통"
+        "LP needle",
+        "opening pressure manometer",
+        "멸균 세트",
+        "국소마취제",
+        "검체 튜브"
       ],
       "complications": [
-        "[보고] 두통/상승된 ICP 소견"
+        "시술 후 두통",
+        "출혈",
+        "감염",
+        "신경근 자극",
+        "드물게 뇌탈출"
       ],
       "precautions": [
-        "사전 CT 등 확보 여부"
+        "focal neurologic deficit, papilledema, mass effect 의심 시 선행 평가가 필요할 수 있습니다.",
+        "항응고·혈소판 이상은 먼저 확인합니다.",
+        "needle 방향을 바꾸려면 대부분 후퇴 후 재정렬하지, 조직 안에서 크게 휘지 않습니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: How To Do Lumbar Puncture",
+          "url": "https://www.merckmanuals.com/professional/neurologic-disorders/how-to-do-lumbar-puncture/how-to-do-lumbar-puncture"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "자세 및 천자",
-          "description": "새우 자세 후 국소마취, L3/4에서 천자 및 채액"
+          "title": "위험도 평가",
+          "description": "금기와 영상 필요성을 먼저 판단합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "자세 잡기",
+          "description": "옆으로 누운 자세나 앉은 자세에서 요추 간격을 최대한 벌립니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "멸균 천자",
+          "description": "국소마취 후 L3-4 또는 L4-5 공간으로 천천히 진입합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "압력 측정과 검체 채취",
+          "description": "필요하면 opening pressure를 재고 튜브 순서대로 CSF를 받습니다."
+        },
+        {
+          "stepNumber": 5,
+          "title": "시술 후 관찰",
+          "description": "두통, 신경학적 변화, 출혈 여부를 관찰합니다."
         }
       ],
       "videoUrl": null
@@ -911,400 +1791,950 @@
       "id": "oxygen",
       "name": "산소요법",
       "categoryId": "cpr",
-      "categoryName": "5. CPR",
+      "categoryName": "5. CPR·호흡",
+      "summary": [
+        "산소는 쉽게 쓰지만 과소·과잉 투여 모두 문제가 될 수 있습니다.",
+        "장치 선택보다 환자의 호흡 일, 의식, 산소포화도 추세를 함께 보는 게 중요합니다."
+      ],
       "indications": [
-        "기능적 저산소증"
+        "저산소혈증",
+        "호흡곤란",
+        "쇼크 또는 급성 심폐 상태 악화",
+        "시술 중 호흡 보조"
       ],
       "supplies": [
-        "비강캐뉼라",
-        "마스크"
+        "비강 캐뉼라",
+        "단순/비재호흡 마스크",
+        "산소 공급원",
+        "pulse oximeter"
       ],
       "complications": [
-        "산소독성",
-        "[보고] 산소 줘도 SPO2 안오름"
+        "산소 부족 또는 과다",
+        "건조감",
+        "CO2 저류 악화 가능성",
+        "장치 이탈"
       ],
       "precautions": [
-        "COPD 환자는 너무 높은 산소농도 주의"
+        "산소포화도가 정상처럼 보여도 환자 상태가 나쁘면 더 넓게 평가합니다.",
+        "COPD 등 CO2 저류 위험 환자는 목표 범위를 팀과 맞춥니다.",
+        "말하거나 이동할 때 장치가 자주 빠지는지 확인합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Acute Hypoxemic Respiratory Failure",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/respiratory-failure-and-mechanical-ventilation/acute-hypoxemic-respiratory-failure-ahrf-ards"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "산소 공급",
-          "description": "목표 SpO2에 맞는 디바이스 및 유량 설정"
+          "title": "저산소 징후 확인",
+          "description": "SpO2, 호흡수, 노력호흡, 의식 변화를 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "적절한 장치 선택",
+          "description": "가벼운 저산소증은 캐뉼라, 더 심하면 마스크 등으로 escalation합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "재평가",
+          "description": "장치 적용 후 수치뿐 아니라 호흡곤란과 work of breathing 변화를 봅니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "원인 치료 연결",
+          "description": "산소만 주고 끝내지 말고 폐렴, 폐부종, 기도폐쇄 등 원인 평가로 이어갑니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "cpr",
-      "name": "CPR",
+      "name": "심폐소생술 (CPR)",
       "categoryId": "cpr",
-      "categoryName": "5. CPR",
+      "categoryName": "5. CPR·호흡",
+      "summary": [
+        "CPR은 알고리즘보다 '즉시 시작된 질 좋은 압박'이 성패를 좌우합니다.",
+        "압박 깊이, 속도, recoil, 중단 최소화, 제세동 지연 최소화가 핵심입니다."
+      ],
       "indications": [
+        "의식 없고 정상 호흡이 없는 환자",
         "심정지"
       ],
       "supplies": [
+        "단단한 바닥 또는 보드",
         "제세동기",
-        "응급약"
+        "산소·ambu bag",
+        "응급약과 모니터"
       ],
       "complications": [
-        "[보고] ROSC"
+        "늑골 골절",
+        "압박 중단 과다",
+        "제세동 지연",
+        "ROSC 후 재악화"
       ],
       "precautions": [
-        "중단 없는 흉부압박"
+        "압박은 분당 100-120회, 깊이는 성인 기준 약 5-6 cm를 목표로 합니다.",
+        "맥박 확인과 리듬 확인 때문에 압박이 길게 중단되지 않게 합니다.",
+        "가역적 원인(Hs and Ts) 탐색을 병행합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Shock",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/shock-and-fluid-resuscitation/shock"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "압박 및 제세동",
-          "description": "100~120회 압박, Shockable 리듬이면 쇼크 준비"
+          "title": "반응과 호흡 확인",
+          "description": "도움 요청과 코드 호출을 동시에 진행하고 바로 흉부압박을 시작합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "질 좋은 압박",
+          "description": "중앙 흉골에 양손을 두고 충분한 깊이와 완전한 recoil을 유지합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "리듬 분석과 제세동",
+          "description": "장비가 오면 빠르게 패드를 붙이고 shockable 리듬이면 즉시 제세동합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "기도·약물·원인 교정",
+          "description": "팀 역할을 나누어 환기, 약물, reversible causes를 병행합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "sellick",
-      "name": "Sellick maneuver (윤상연골 압박)",
+      "name": "윤상연골 압박 (Sellick Maneuver)",
       "categoryId": "cpr",
-      "categoryName": "5. CPR",
-      "indications": [
-        "삽관 시 기도로의 위내용물 역류 방지"
+      "categoryName": "5. CPR·호흡",
+      "summary": [
+        "윤상연골 압박은 삽관 보조 술기로 언급되지만, 무조건적인 적용보다는 팀 판단이 필요합니다.",
+        "시야를 나쁘게 만들거나 환기를 방해하면 즉시 조정하거나 해제해야 합니다."
       ],
-      "supplies": [],
+      "indications": [
+        "흡인 위험이 큰 환자에서 rapid sequence airway management를 보조할 때"
+      ],
+      "supplies": [
+        "기도관리 팀",
+        "흡인 장치",
+        "삽관 장비"
+      ],
       "complications": [
-        "기도 손상"
+        "후두 시야 악화",
+        "환기 방해",
+        "식도·기도 압박으로 인한 합병증"
       ],
       "precautions": [
-        "지시가 있을 때까지 고정"
+        "독립 술기가 아니라 기도관리 팀의 지시에 맞춰 적용합니다.",
+        "삽관 시야가 나빠지면 계속 고집하지 않습니다.",
+        "압박 위치를 갑상연골이 아니라 윤상연골에 정확히 맞춥니다."
+      ],
+      "sources": [
+        {
+          "label": "NCBI Bookshelf: Procedural Sedation",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK551685/"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "압박 유지",
-          "description": "갑상연골 하단 윤상연골 부위를 지속적으로 누름"
+          "title": "팀과 역할 확인",
+          "description": "기도관리 주도자의 요청이 있는지 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "윤상연골 촉지",
+          "description": "갑상연골 아래의 윤상연골을 촉지합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "적절한 압박",
+          "description": "환기를 방해하지 않는 범위에서 지속 압박합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "시야나 환기 문제 시 조정",
+          "description": "삽관 시야가 나쁘거나 bagging이 어려우면 즉시 압박 강도 또는 적용 여부를 재논의합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "a-line",
-      "name": "Arterial line (A-line)",
+      "name": "동맥라인 (Arterial Line)",
       "categoryId": "line",
       "categoryName": "6. 혈관 라인",
+      "summary": [
+        "A-line은 지속 혈압 모니터링과 반복 ABG에 유리하지만 감염·허혈·출혈 위험이 있습니다.",
+        "삽입 후에는 파형과 말초 순환을 반복 확인해야 합니다."
+      ],
       "indications": [
-        "지속 혈압 모니터링"
+        "혈역학적으로 불안정한 환자",
+        "연속 혈압 감시",
+        "반복 동맥혈 가스검사가 필요한 경우"
       ],
       "supplies": [
-        "Angio",
-        "트랜스듀서"
+        "arterial catheter",
+        "압력백과 transducer",
+        "멸균 세트",
+        "고정 드레싱"
       ],
       "complications": [
-        "[보고] 빠진 경우 출혈 위험이 큼"
+        "출혈",
+        "혈종",
+        "혈전·말초 허혈",
+        "감염",
+        "가성동맥류"
       ],
       "precautions": [
-        "Allen test 수행"
+        "라인이 빠지면 출혈이 매우 빠를 수 있어 연결부를 자주 확인합니다.",
+        "말초 냉감, 창백, 통증, 모세혈관 재충만 지연이 있으면 즉시 평가합니다.",
+        "채혈 후 flush와 zeroing 상태를 확인합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: How To Insert a Radial Artery Catheter",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-peripheral-vascular-procedures/how-to-insert-a-radial-artery-catheter"
+        },
+        {
+          "label": "Merck Manual Professional: Monitoring and Testing the Critical Care Patient",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/monitoring-and-testing-the-critical-care-patient"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "삽입",
-          "description": "요골동맥 천자 후 관 연결"
+          "title": "삽입 적응증과 위치 확인",
+          "description": "요골동맥을 우선 고려하고 손 순환을 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "삽입 후 시스템 연결",
+          "description": "압력백과 transducer를 연결하고 파형이 제대로 잡히는지 확인합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "zeroing과 레벨링",
+          "description": "phlebostatic axis 기준으로 맞추고 측정값이 신뢰 가능한지 봅니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "지속 감시",
+          "description": "파형, MAP, 연결부 출혈, 삽입부 감염, 손 관류를 반복 점검합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "sheath",
-      "name": "Sheath",
+      "name": "혈관 Sheath 관리",
       "categoryId": "line",
       "categoryName": "6. 혈관 라인",
+      "summary": [
+        "시술 후 sheath는 제거 전보다 제거 후 관리에서 사고가 더 많이 납니다.",
+        "지혈, 출혈 감시, 다리 고정, 원위부 순환 확인이 핵심입니다."
+      ],
       "indications": [
-        "혈관 시술 후 도관, 동맥/정맥 루트 유지"
+        "혈관 조영술·시술 후 동맥 또는 정맥 접근 유지",
+        "중재시술 후 계획된 sheath 유지"
       ],
       "supplies": [
-        "제거용 거즈",
-        "모래주머니"
+        "멸균 장갑",
+        "거즈",
+        "압박 도구",
+        "드레싱",
+        "모래주머니 또는 기관 프로토콜 장비"
       ],
       "complications": [
-        "[보고] 제거 후 피가 솟구치거나 혈종 생김"
+        "출혈",
+        "혈종",
+        "가성동맥류",
+        "후복막 출혈",
+        "하지 허혈"
       ],
       "precautions": [
-        "제거 후 확실한 지혈 필수"
+        "제거 직후 활력징후와 puncture site를 더 자주 봅니다.",
+        "요통, 저혈압, 빈맥은 후복막 출혈을 의심해야 합니다.",
+        "다리 굴곡은 재출혈을 유발할 수 있어 제한합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: How To Do Femoral Artery Cannulation, Ultrasound-Guided",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-central-vascular-procedures/how-to-do-femoral-artery-cannulation-ultrasound-guided"
+        },
+        {
+          "label": "Merck Manual Professional: Vascular Access",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/vascular-access"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "제거 및 압박",
-          "description": "부드럽게 뽑아낸 뒤 15~20분 이상 강하게 압박 후 모래주머니 유지"
+          "title": "제거 전 준비",
+          "description": "응고 상태와 제거 지시를 확인하고 환자에게 움직임 제한을 설명합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "제거와 직접 압박",
+          "description": "sheath를 부드럽게 제거하면서 충분한 시간 압박합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "지혈 확인",
+          "description": "출혈이 멈췄는지 보고 드레싱 또는 기관 장치를 적용합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "사후 감시",
+          "description": "삽입부, 활력징후, 통증, 하지 색과 맥박을 반복 확인합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "c-line",
-      "name": "C-line (중심정맥관)",
+      "name": "중심정맥관 (C-line)",
       "categoryId": "line",
       "categoryName": "6. 혈관 라인",
+      "summary": [
+        "중심정맥관은 고농도 약물, TPN, vasopressor, 장기 치료에 필수적입니다.",
+        "삽입 성공보다 더 중요한 건 line-associated infection과 기계적 합병증 예방입니다."
+      ],
       "indications": [
-        "수액, 비경구영양, CVP 측정"
+        "고농도 자극성 약물 투여",
+        "vasopressor",
+        "장기 정맥영양",
+        "중심정맥압 또는 중심정맥 산소포화도 평가"
       ],
       "supplies": [
-        "C-line 세트",
-        "초음파"
+        "CVC 세트",
+        "초음파",
+        "최대 멸균 차단 세트",
+        "드레싱",
+        "flush syringe"
       ],
       "complications": [
+        "동맥 천자",
         "기흉",
-        "[보고] 선 연결부 혈액 역류시 즉시 콜"
+        "공기색전",
+        "CLABSI",
+        "부정맥"
       ],
       "precautions": [
-        "Maximal barrier precautions"
+        "가능하면 초음파 유도와 maximal barrier precautions를 사용합니다.",
+        "삽입 후 위치 확인과 흉부 합병증 평가를 합니다.",
+        "매일 필요성을 재평가해 불필요하면 제거합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: How To Do Internal Jugular Vein Cannulation",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-central-vascular-procedures/how-to-do-internal-jugular-vein-cannulation"
+        },
+        {
+          "label": "Merck Manual Professional: Vascular Access",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/vascular-access"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "보조",
-          "description": "무균 상태 세팅 후 의사 보조, 삽입 후 X-ray 촬영"
+          "title": "적응증과 site 선택",
+          "description": "환자 상태에 맞는 정맥과 line 종류를 결정합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "멸균 삽입",
+          "description": "초음파와 Seldinger 원칙으로 삽입하고 guidewire를 놓치지 않습니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "flush와 고정",
+          "description": "각 lumen이 잘 작동하는지 확인하고 드레싱을 합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "삽입 후 확인",
+          "description": "흉부영상, 파형, 감염 징후, line necessity를 추적합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "iv-line",
-      "name": "Peripheral line (말초정맥 로트)",
+      "name": "말초정맥라인 (Peripheral IV)",
       "categoryId": "line",
       "categoryName": "6. 혈관 라인",
+      "summary": [
+        "말초 IV는 가장 흔하지만 가장 자주 실패하는 라인입니다.",
+        "좋은 혈관 선택과 securement, 약물 독성에 따른 적절한 site 선택이 중요합니다."
+      ],
       "indications": [
-        "약물/수액 주입 목적"
+        "수액 주입",
+        "일반 정주 약물 투여",
+        "조영제 또는 응급 약물 투여용 단기 접근"
       ],
       "supplies": [
-        "IV 젤코",
+        "angiocatheter",
         "토니켓",
-        "테이프"
+        "소독제",
+        "드레싱",
+        "extension line 또는 saline lock"
       ],
       "complications": [
-        "[보고] 항암/강한 약물 Extravasation 시 즉각 콜"
+        "침윤",
+        "정맥염",
+        "혈종",
+        "혈관외유출",
+        "감염"
       ],
       "precautions": [
-        "관절 부위 가급적 피함"
+        "고장성 용액, TPN, vasopressor 등은 말초 유지 한계를 빨리 판단합니다.",
+        "관절 부위나 손등은 움직임 많은 환자에서 조기 실패가 흔합니다.",
+        "통증, 부종, blanching은 침윤·유출을 의심합니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: How To Insert a Peripheral Intravenous Catheter",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-peripheral-vascular-procedures/how-to-insert-a-peripheral-intravenous-catheter"
+        },
+        {
+          "label": "Merck Manual Professional: How To Do Peripheral Vein Cannulation",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-peripheral-vascular-procedures/how-to-do-peripheral-vein-cannulation"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "삽입",
-          "description": "혈관을 찾아 천자 및 젤코 삽입"
+          "title": "혈관 선택",
+          "description": "탄력 있고 고정이 잘 되는 정맥을 고르고 필요한 굵기를 결정합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "소독과 천자",
+          "description": "충분히 건조시킨 뒤 얕은 각도로 천자합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "카테터 전진과 연결",
+          "description": "flashback 확인 뒤 catheter만 전진시키고 saline lock을 연결합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "고정과 재평가",
+          "description": "드레싱 후 통증, 부종, 역류, flush 저항을 확인합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "ampule",
-      "name": "앰플, 바이알 조제",
+      "name": "앰플·바이알 조제",
       "categoryId": "injection",
       "categoryName": "7. 주사 및 약물 투여",
+      "summary": [
+        "약물 준비는 투여보다 먼저 일어나는 안전 사고 지점입니다.",
+        "환자에게 가기 전에 약 이름, 농도, 용량, 희석액, 경로를 끝까지 맞추는 습관이 중요합니다."
+      ],
       "indications": [
-        "주사 투여 전 약품 준비"
+        "정주·근주·피하 약물 준비",
+        "희석이 필요한 약물 조제"
       ],
       "supplies": [
         "주사기",
-        "생리식염수"
+        "필터 니들 또는 적절한 drawing needle",
+        "알코올 패드",
+        "희석액",
+        "라벨"
       ],
       "complications": [
-        "유리파편 혼입",
-        "컨테미네이션"
+        "잘못된 약물 또는 농도",
+        "유리 파편 혼입",
+        "오염",
+        "약물 상호교체"
       ],
       "precautions": [
-        "앰플 목의 유리 파편 조심"
+        "앰플은 가능한 필터 니들 사용을 고려합니다.",
+        "바이알은 고무마개를 소독하고 필요한 공기량을 맞춰 뽑습니다.",
+        "조제 후에는 이름·농도·시간·작성자를 라벨에 남깁니다."
+      ],
+      "sources": [
+        {
+          "label": "FDA: Infusion Pumps",
+          "url": "https://www.fda.gov/medical-devices/general-hospital-devices-and-supplies/infusion-pumps"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "드로잉",
-          "description": "알콜로 닦은 후 따고 무균 상태로 용액 흡인"
+          "title": "처방 대조",
+          "description": "약 이름, 용량, 용매, 경로, 환자 정보를 다시 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "무균 조제",
+          "description": "앰플 또는 바이알을 소독하고 필요한 양을 정확히 흡인합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "희석과 혼합",
+          "description": "기관 지침에 맞는 용매와 최종 농도를 맞춥니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "라벨링",
+          "description": "준비가 끝난 즉시 syringe 또는 bag에 식별 라벨을 붙입니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "abx-injection",
-      "name": "항생제 주사 / AST",
+      "name": "항생제 투여 / AST 확인",
       "categoryId": "injection",
       "categoryName": "7. 주사 및 약물 투여",
+      "summary": [
+        "항생제 투여는 첫 용량에서 과민반응을 놓치지 않는 것이 중요합니다.",
+        "기관마다 AST 운영 방식이 다르므로 로컬 프로토콜을 우선 따릅니다."
+      ],
       "indications": [
-        "항생제 피부 반응 테스트"
+        "처방된 항생제 정주 또는 근주",
+        "기관 프로토콜상 필요한 과민반응 확인"
       ],
       "supplies": [
-        "Tuberculin 주사기"
+        "희석된 항생제",
+        "주사기 또는 수액 세트",
+        "응급 알레르기 대응 약물 및 장비",
+        "관찰 기록"
       ],
       "complications": [
-        "[보고] 10mm 이상 발적 및 양성 시 콜"
+        "발진",
+        "기관지경련",
+        "저혈압",
+        "아나필락시스",
+        "혈관외유출"
       ],
       "precautions": [
-        "반드시 15분 후 비교"
+        "과거 약물 알레르기와 교차반응 가능성을 먼저 확인합니다.",
+        "첫 투여 후 초기 반응을 가까이서 관찰합니다.",
+        "호흡곤란, 혈압 저하, 전신 두드러기는 즉시 투여 중단과 응급 대응 대상입니다."
+      ],
+      "sources": [
+        {
+          "label": "NCBI Bookshelf: Procedural Sedation",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK551685/"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "AST",
-          "description": "전완 내측 ID 주사 15분 관찰"
+          "title": "병력 확인",
+          "description": "알레르기와 과거 약물 부작용을 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "희석 및 속도 확인",
+          "description": "약물별 희석법과 infusion rate를 지침대로 맞춥니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "투여 시작",
+          "description": "line patency를 확인한 뒤 투여합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "관찰과 기록",
+          "description": "초기 이상 반응을 특히 유심히 보고 이상 시 즉시 중단·보고합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "narcotics",
-      "name": "마약 주사",
+      "name": "마약성 진통제 투여",
       "categoryId": "injection",
       "categoryName": "7. 주사 및 약물 투여",
+      "summary": [
+        "오피오이드는 진통 효과만큼 호흡억제와 기록 관리가 중요합니다.",
+        "투여 전 통증 평가와 투여 후 sedation·호흡 감시가 반드시 따라와야 합니다."
+      ],
       "indications": [
-        "심한 통증 조절 (펜타닐, 몰핀, 페치딘 등)"
+        "중등도 이상 급성 통증",
+        "시술 전 진통·진정 보조",
+        "암성 통증 조절"
       ],
       "supplies": [
-        "열쇠",
-        "이중잠금 약장"
+        "처방된 약물",
+        "이중 확인 체계",
+        "산소 및 naloxone 대응 장비",
+        "통증·진정 평가 도구"
       ],
       "complications": [
-        "호흡 억제",
-        "[보고] 약 처방 및 투여 대장 기입, 잔반량 관련 엄격한 관리"
+        "호흡억제",
+        "과도한 진정",
+        "오심·구토",
+        "저혈압",
+        "기록 누락"
       ],
       "precautions": [
-        "이중서명 필수"
+        "다른 진정제와 병용 시 호흡억제 위험이 커집니다.",
+        "투여 전후 호흡수, 의식, 통증 점수를 같이 기록합니다.",
+        "반납·폐기 절차는 기관 규정대로 정확히 남깁니다."
+      ],
+      "sources": [
+        {
+          "label": "NCBI Bookshelf: Procedural Sedation",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK551685/"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "투여 및 기록",
-          "description": "더블 체킹 후 투여, 반납 절차 엄수"
+          "title": "이중 확인",
+          "description": "환자·약물·용량·경로·시간을 다른 인력과 함께 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "기본 평가",
+          "description": "통증점수, 호흡수, 의식 상태를 baseline으로 기록합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "투여",
+          "description": "line patency를 확인하고 처방 속도대로 투여합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "재평가",
+          "description": "진통 효과와 호흡억제, 과진정 여부를 반복 확인합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "chemo",
-      "name": "항암제 주사",
+      "name": "항암제 투여",
       "categoryId": "injection",
       "categoryName": "7. 주사 및 약물 투여",
+      "summary": [
+        "항암제는 환자와 투여자 모두에게 고위험 약물입니다.",
+        "약물 확인, PPE, line 안정성, 유출 대응 경로를 투여 전부터 준비해야 합니다."
+      ],
       "indications": [
-        "항암치료"
+        "정주 항암치료",
+        "세포독성 또는 고위험 항암제 투여"
       ],
       "supplies": [
-        "항암용 가운, 라텍스 장갑, 보안경"
+        "PPE",
+        "항암용 세트",
+        "신뢰 가능한 혈관 접근",
+        "유출 대응 키트",
+        "투여 확인 문서"
       ],
       "complications": [
-        "[보고] Extravasation 즉각 응급 처치 필요",
-        "투여자 노출"
+        "혈관외유출",
+        "아나필락시스 또는 과민반응",
+        "투여자 노출",
+        "line failure"
       ],
       "precautions": [
-        "절대 일반 수액줄이나 맨손으로 다루지 말 것"
+        "가능하면 안정적인 중심정맥 접근을 우선 고려합니다.",
+        "항암제는 일반 약물보다 line patency 확인을 더 엄격히 합니다.",
+        "유출 의심 시 즉시 주입을 멈추고 약제별 프로토콜을 따릅니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Vascular Access",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/vascular-access"
+        },
+        {
+          "label": "FDA: Infusion Pumps",
+          "url": "https://www.fda.gov/medical-devices/general-hospital-devices-and-supplies/infusion-pumps"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "안전 투여",
-          "description": "방호구 착용 후 C-line 확인 또는 굵은 IV 잡은 후 천천히 주입"
+          "title": "투여 전 이중 삼중 확인",
+          "description": "환자, 약명, 용량, 체표면적, 주기, 동의 여부를 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "PPE와 line 확인",
+          "description": "보호구를 착용하고 line 역류와 flush를 확인합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "투여 중 관찰",
+          "description": "주입 부위 통증, 부종, 발적, 환자 전신 반응을 지속 관찰합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "종료 후 정리",
+          "description": "line flush, 폐기물 처리, 이상반응 기록을 마무리합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "contrast-media",
-      "name": "조영제 주사",
+      "name": "조영제 투여",
       "categoryId": "injection",
       "categoryName": "7. 주사 및 약물 투여",
+      "summary": [
+        "조영제 투여는 짧은 순간 끝나지만 알레르기·유출·신기능 이슈를 동시에 봐야 합니다.",
+        "촬영실로 보내기 전에 line quality와 위험 병력을 먼저 정리해야 합니다."
+      ],
       "indications": [
-        "CT/MRI 조영 촬영"
+        "조영증강 CT/MRI",
+        "혈관 촬영 전후 조영제 주입"
       ],
       "supplies": [
-        "굵은 IV (18~20G)"
+        "굵은 말초라인 또는 적절한 line",
+        "조영제",
+        "응급약",
+        "신기능 정보"
       ],
       "complications": [
-        "[보고] 알러지 쇼크나 혈관 외 유출 시 즉시 콜"
+        "과민반응",
+        "혈관외유출",
+        "조영제 관련 신손상 위험",
+        "불편감과 통증"
       ],
       "precautions": [
-        "신장 수치 확인"
+        "이전 조영제 반응, 천식, 신기능, metformin 복용 여부를 확인합니다.",
+        "고압 주입이 필요한 경우 line 굵기와 위치를 확인합니다.",
+        "주입 중 통증이나 부종이 생기면 즉시 중단합니다."
+      ],
+      "sources": [
+        {
+          "label": "FDA: Infusion Pumps",
+          "url": "https://www.fda.gov/medical-devices/general-hospital-devices-and-supplies/infusion-pumps"
+        },
+        {
+          "label": "Merck Manual Professional: How To Insert a Peripheral Intravenous Catheter",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-peripheral-vascular-procedures/how-to-insert-a-peripheral-intravenous-catheter"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "IV 전처치",
-          "description": "막히지 않고 식염수가 잘 들어가는 단단한 라인 잡기"
+          "title": "위험도 확인",
+          "description": "과거 반응, 신기능, 약물 병력을 점검합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "line 확인",
+          "description": "flush가 잘 되고 굵기와 위치가 적절한 라인을 확보합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "투여 중 관찰",
+          "description": "열감은 설명하되 통증·부종·호흡곤란은 즉시 보고하게 합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "이상반응 대응",
+          "description": "유출 또는 과민반응 발생 시 촬영을 중단하고 프로토콜대로 대응합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "ped-sedation",
-      "name": "소아진정",
+      "name": "소아 진정",
       "categoryId": "injection",
       "categoryName": "7. 주사 및 약물 투여",
+      "summary": [
+        "소아 진정은 약물 선택보다 기도 준비와 모니터링 준비가 더 중요합니다.",
+        "아이를 움직이지 않게 만드는 과정이 아니라 안전하게 회복까지 보는 과정입니다."
+      ],
       "indications": [
-        "수면 MRI, 소아 처치 협조 및 안정"
+        "고통스럽거나 불안을 크게 유발하는 시술",
+        "CT·MRI 등 움직임이 결과를 해치는 검사",
+        "상처 봉합, 정복술 등"
       ],
       "supplies": [
-        "포크랄(Pocral), 미다졸람",
-        "모니터링 장치"
+        "연령 맞는 산소·기도 장비",
+        "흡인기",
+        "ECG·SpO2·혈압·capnography",
+        "진정제와 reversal agent",
+        "응급소생 장비"
       ],
       "complications": [
-        "[보고] 호흡수 감소 등 호흡억제 소견"
+        "기도 폐쇄",
+        "무호흡",
+        "저산소증",
+        "저혈압",
+        "회복 지연"
       ],
       "precautions": [
-        "의식 상태와 호흡 지속 관찰"
+        "시술자 외에 환자 모니터링만 맡는 인력이 필요합니다.",
+        "ASA risk, 금식 여부, 기도 평가를 먼저 합니다.",
+        "진정 중뿐 아니라 회복기 관찰까지 포함해 계획합니다."
+      ],
+      "sources": [
+        {
+          "label": "NCBI Bookshelf: Pediatric Procedural Sedation",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK572100/"
+        },
+        {
+          "label": "NCBI Bookshelf: Procedural Sedation",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK551685/"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "약물 투여",
-          "description": "체중(kg)당 적정량(Dosage) 계산 후 경구 또는 IV 투여"
+          "title": "사전 평가",
+          "description": "병력, 기도, 금식, 체중, 알레르기, 진정 필요 깊이를 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "장비와 인력 준비",
+          "description": "흡인·산소·BVM·reversal agent·monitor를 모두 준비합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "투여와 지속 감시",
+          "description": "약물 투여 후 capnography와 호흡 상태를 연속 감시합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "회복 확인",
+          "description": "기저 수준 의식과 기도 보호 반사가 돌아올 때까지 관찰합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "infusion-pump",
-      "name": "Infusion pump (수액 펌프)",
+      "name": "Infusion Pump 사용",
       "categoryId": "injection",
       "categoryName": "7. 주사 및 약물 투여",
+      "summary": [
+        "펌프는 정밀한 투여를 돕지만 설정 오류가 나면 과소·과량 투여가 바로 발생합니다.",
+        "약물, 농도, 속도, 채널, line tracing을 시작 전과 알람 후에 다시 확인해야 합니다."
+      ],
       "indications": [
-        "승압제 등 미세 용량 투여 지속"
+        "정확한 속도 조절이 필요한 수액·약물",
+        "고위험 약물",
+        "장시간 지속 주입"
       ],
       "supplies": [
-        "인퓨전 펌프 기기"
+        "infusion pump",
+        "적합한 세트",
+        "전원 또는 배터리",
+        "약물 라벨",
+        "line tracing 체계"
       ],
       "complications": [
-        "[보고] 기포(Air) 알람, 막힘 알람 해결 안될때"
+        "속도 설정 오류",
+        "occlusion",
+        "free flow",
+        "배터리 고갈",
+        "라인 혼선"
       ],
       "precautions": [
-        "속도 셋팅 이중 확인"
+        "smart pump 라이브러리가 있으면 적극 사용합니다.",
+        "약물 교체 시 채널과 line을 끝까지 tracing합니다.",
+        "알람을 끄기 전에 먼저 원인을 확인합니다."
+      ],
+      "sources": [
+        {
+          "label": "FDA: Infusion Pumps",
+          "url": "https://www.fda.gov/medical-devices/general-hospital-devices-and-supplies/infusion-pumps"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "셋팅 및 가동",
-          "description": "cc/hr 속도 셋팅 및 기포 제거 후 시작 버튼 클릭"
+          "title": "약물과 농도 확인",
+          "description": "주입할 약물, 농도, 처방 속도, 환자를 다시 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "세트와 라인 프라이밍",
+          "description": "공기와 누출이 없도록 세팅합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "프로그래밍",
+          "description": "속도, VTBI, 채널을 입력하고 가능하면 독립 이중 확인을 합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "주입 중 감시",
+          "description": "알람, 잔량, 배터리, 삽입 부위, 환자 반응을 추적합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "wound-care",
-      "name": "상처 관리 (Wound care)",
+      "name": "상처 드레싱",
       "categoryId": "wound",
       "categoryName": "8. 드레싱 및 상처관리",
+      "summary": [
+        "상처관리는 소독보다 평가가 먼저입니다.",
+        "오염, 깊이, 출혈, 신경·혈관 손상, 감염 징후를 확인한 뒤 적절한 세정과 드레싱을 선택합니다."
+      ],
       "indications": [
-        "수술부위 및 욕창 관리"
+        "급성 상처",
+        "수술 상처",
+        "삼출이 있는 상처",
+        "드레싱 교환"
       ],
       "supplies": [
-        "드레싱세트",
-        "베타딘"
+        "생리식염수 또는 세정액",
+        "비점착 드레싱",
+        "흡수 드레싱",
+        "장갑",
+        "필요 시 소독도구"
       ],
       "complications": [
-        "[보고] 배액 액체 악취나 화농성 등 감염 징후"
+        "감염",
+        "과도한 건조 또는 maceration",
+        "통증",
+        "지혈 실패"
       ],
-      "precautions": [],
+      "precautions": [
+        "건조하게 붙어 버리는 드레싱은 치유 조직을 함께 떼어낼 수 있습니다.",
+        "상처가 깊거나 힘줄·신경·혈관 노출이 있으면 단순 드레싱으로 끝내지 않습니다.",
+        "발적·열감·악취·고름·통증 증가는 감염 신호입니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: How To Cleanse, Irrigate, Debride, and Dress Wounds",
+          "url": "https://www.merckmanuals.com/professional/injuries-poisoning/how-to-care-for-wounds-and-lacerations/how-to-cleanse-irrigate-debride-and-dress-wounds"
+        }
+      ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "교체",
-          "description": "기존의 젖은 폼 제거 후 소독하고 덮기"
+          "title": "상처 평가",
+          "description": "위치, 깊이, 오염 정도, 출혈, 통증, 주변 피부를 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "세정",
+          "description": "생리식염수 등으로 충분히 씻어 이물과 분비물을 제거합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "적절한 드레싱 선택",
+          "description": "상처면은 촉촉하게 유지하고 주변 피부는 과습하지 않게 합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "재평가 계획",
+          "description": "교환 주기와 악화 시 보고 기준을 정합니다."
         }
       ],
       "videoUrl": null
@@ -1314,190 +2744,443 @@
       "name": "화상 처치",
       "categoryId": "wound",
       "categoryName": "8. 드레싱 및 상처관리",
+      "summary": [
+        "화상은 깊이와 면적 평가가 치료 방향을 정합니다.",
+        "작은 화상도 위치가 손, 얼굴, 회음부면 더 적극적인 평가가 필요합니다."
+      ],
       "indications": [
-        "2도 이상 화상 부위 감염 예방"
+        "경도~중등도 화상 초기 처치",
+        "드레싱 교환",
+        "외래 추적 화상 관리"
       ],
       "supplies": [
-        "실바딘 폼",
-        "바세린 거즈",
-        "생리식염수"
+        "미온수 또는 식염수",
+        "비점착 드레싱",
+        "압박 또는 고정 재료",
+        "통증 조절 약물"
       ],
       "complications": [
-        "[보고] 화상 부위가 괴사되거나 환자 감각에 문제 생길 경우 콜"
+        "감염",
+        "심한 통증",
+        "깊이 진행",
+        "탈수",
+        "관절 구축"
       ],
       "precautions": [
-        "초기 물집은 무리해서 터뜨리지 않는다"
+        "얼음 직접 적용은 피하고, 화상 원인 물질부터 제거합니다.",
+        "큰 화상, 얼굴·손·발·회음부 화상, 전층화상은 burn center 상의가 필요합니다.",
+        "수포 관리와 드레싱 종류는 기관 프로토콜을 따릅니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Burns",
+          "url": "https://www.merckmanuals.com/professional/injuries-poisoning/burns/burns"
+        },
+        {
+          "label": "Merck Manual Professional: How To Debride and Dress a Burn",
+          "url": "https://www.merckmanuals.com/professional/injuries-poisoning/how-to-do-skin-soft-tissue-and-minor-surgical-procedures/how-to-debride-and-dress-a-burn"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "냉각 및 드레싱",
-          "description": "열기를 식힌 후 처방된 항생연고 거즈를 환부에 두껍게 도포"
+          "title": "화상 원인 제거",
+          "description": "열원이나 화학물질 노출을 중단하고 추가 손상을 막습니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "깊이와 범위 평가",
+          "description": "부분층인지 전층인지, 체표면적이 어느 정도인지 확인합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "세정과 드레싱",
+          "description": "부드럽게 세정한 뒤 비점착 드레싱으로 덮습니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "전원 기준 확인",
+          "description": "특수 부위, 광범위 화상, 감염 징후, 통증 조절 불량이면 상급 진료로 연결합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "htn-call",
-      "name": "고혈압(Hyper-TN) 콜",
+      "name": "고혈압 악화 보고",
       "categoryId": "ward",
-      "categoryName": "9. 기타 병동 업무",
+      "categoryName": "9. 병동 대응",
+      "summary": [
+        "고혈압 콜은 숫자만 보고하는 게 아니라 장기 손상 징후가 있는지 같이 보고하는 업무입니다.",
+        "재측정, 증상 확인, 신경·심폐 평가, 현재 약물과 baseline 비교가 기본입니다."
+      ],
       "indications": [
-        "SBP 기준 160~180 이상"
+        "중증 혈압 상승",
+        "증상을 동반한 혈압 상승",
+        "평소와 다른 급격한 혈압 변동"
       ],
       "supplies": [
-        "니페디핀",
-        "페르디핀 등"
+        "정확한 혈압 커프",
+        "수동 혈압계",
+        "신경학적 평가",
+        "ECG 또는 기본 모니터링"
       ],
       "complications": [
-        "[보고] 두통, 심전도 이상, 의식저하 등 동반시 즉시 콜 (Hypertensive emergency)"
+        "장기 손상 신호 지연 발견",
+        "과도한 혈압 급강하",
+        "부정확한 측정에 의한 잘못된 대응"
       ],
       "precautions": [
-        "증상 유무 먼저 Assessment"
+        "커프 크기와 환자 자세가 맞는지 먼저 확인합니다.",
+        "흉통, 호흡곤란, 신경학적 증상, 시야 변화가 있으면 hypertensive emergency를 의심합니다.",
+        "기관 별 콜 기준과 약물 프로토콜이 다르므로 로컬 기준을 우선 따릅니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Hypertensive Emergencies",
+          "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/hypertension/hypertensive-emergencies"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "재확인 및 문진",
-          "description": "휴식 후 반대쪽 팔에서 다시 BP 재기. 증상 파악 문진."
+          "title": "재측정",
+          "description": "5분 안정 후 필요하면 수동 혈압으로 다시 잽니다."
         },
         {
           "stepNumber": 2,
-          "title": "처치",
-          "description": "PRN 오더대로 경구용 강압제 투여 또는 주치의 노티 후 IV 항고혈압제 투여."
+          "title": "증상·장기손상 평가",
+          "description": "두통, 시야 변화, 흉통, 호흡곤란, 신경학적 이상을 확인합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "맥락 정리",
+          "description": "현재 약물, baseline BP, 체액 상태, 통증·불안 여부를 함께 정리합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "구조화된 보고",
+          "description": "수치와 증상, 재측정 결과, 환자 상태를 묶어서 보고합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "sugar-call",
-      "name": "고/저혈당 콜",
+      "name": "혈당 이상 대응",
       "categoryId": "ward",
-      "categoryName": "9. 기타 병동 업무",
+      "categoryName": "9. 병동 대응",
+      "summary": [
+        "혈당 콜은 수치 확인과 증상 확인이 동시에 가야 합니다.",
+        "저혈당은 즉시 교정이 우선이고, 고혈당은 탈수·케톤증·의식 상태를 같이 봐야 합니다."
+      ],
       "indications": [
-        "BST 기준 미달/오버"
+        "저혈당 의심 또는 확인",
+        "고혈당 악화",
+        "의식 변화와 동반된 혈당 이상"
       ],
       "supplies": [
-        "RI",
-        "50% Dextrose"
+        "POCT 혈당측정기",
+        "경구 당분 또는 IV glucose 경로",
+        "인슐린 프로토콜",
+        "ketone 또는 기본 검사 경로"
       ],
       "complications": [
-        "[보고] 호출에도 반응이 없는 경우 의식저하 즉시 콜"
+        "경련·혼수",
+        "재발성 저혈당",
+        "DKA/HHS 지연 발견"
       ],
       "precautions": [
-        "처치 후 30분~1시간 뒤 f/u"
+        "저혈당 환자는 먼저 증상과 swallow safety를 확인합니다.",
+        "증상이 심한데 혈당이 말이 안 되면 재측정합니다.",
+        "기관 별 insulin correction scale과 저혈당 프로토콜을 따릅니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Hypoglycemia",
+          "url": "https://www.merckmanuals.com/en-us/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/hypoglycemia"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "조치",
-          "description": "Sliding scale에 따라 인슐린 투여하거나 식은땀 흘리면 50% 포도당 투여"
+          "title": "수치 확인",
+          "description": "POCT 결과가 임상과 맞는지 보고 필요하면 재측정합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "저혈당 여부 판단",
+          "description": "저혈당이면 의식과 경구 섭취 가능 여부에 따라 즉시 교정합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "고혈당 위험 평가",
+          "description": "고혈당이면 탈수, 빈호흡, 복통, 의식 변화, 케톤 위험을 봅니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "보고와 추적",
+          "description": "교정 후 재측정 시점을 정하고 결과까지 이어서 보고합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "vasopressor",
-      "name": "승압제 사용 (NorEpi, Dopamine 등)",
+      "name": "혈관수축제 사용 감시",
       "categoryId": "ward",
-      "categoryName": "9. 기타 병동 업무",
+      "categoryName": "9. 병동 대응",
+      "summary": [
+        "vasopressor는 혈압을 올리는 약이지만 tissue perfusion을 함께 보지 않으면 의미가 없습니다.",
+        "MAP, 소변량, 말초 관류, lactate 추세, line 안정성을 같이 봐야 합니다."
+      ],
       "indications": [
-        "저혈압(쇼크) 교정 시"
+        "쇼크에서 목표 MAP 유지",
+        "충분한 수액 후에도 저혈압 지속",
+        "중환자 혈역학 지지"
       ],
       "supplies": [
-        "인퓨전 펌프",
-        "C-line (권장)"
+        "신뢰 가능한 line",
+        "infusion pump",
+        "연속 혈압 모니터링",
+        "응급 line 관리 세트"
       ],
       "complications": [
-        "[보고] 승압제 달아도 혈압 복구 안될 시 V/S 콜"
+        "혈관외유출",
+        "부정맥",
+        "과도한 혈관수축으로 인한 말초 허혈",
+        "용량 설정 오류"
       ],
       "precautions": [
-        "Peripheral로 투여 시 조직괴사 주의. C-line 필수 지향"
+        "지속 또는 고농도 투여는 가능한 중심정맥 경로를 우선 고려합니다.",
+        "주입 부위 통증, 창백, 부종은 즉시 유출 평가 대상입니다.",
+        "목표는 숫자 혈압 하나가 아니라 임상적 관류 회복입니다."
+      ],
+      "sources": [
+        {
+          "label": "Merck Manual Professional: Shock",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/shock-and-fluid-resuscitation/shock"
+        },
+        {
+          "label": "FDA: Infusion Pumps",
+          "url": "https://www.fda.gov/medical-devices/general-hospital-devices-and-supplies/infusion-pumps"
+        },
+        {
+          "label": "Merck Manual Professional: Vascular Access",
+          "url": "https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/vascular-access"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "용량 셋팅",
-          "description": "mcg/kg/min 단위로 계산하여 정확한 속도 조절"
+          "title": "처방과 라인 확인",
+          "description": "농도, 목표 MAP, 투여 경로, pump 설정을 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "기본 혈역학 평가",
+          "description": "혈압, 맥박, 소변량, 정신상태, 피부 관류를 baseline으로 잡습니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "주입 중 감시",
+          "description": "line site와 MAP 추세를 보며 필요한 경우 즉시 조정·보고합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "관류 재평가",
+          "description": "MAP이 올라도 소변량·의식·젖산 등 관류 지표가 개선되는지 확인합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "transfusion",
-      "name": "수혈 (Transfusion)",
+      "name": "수혈",
       "categoryId": "ward",
-      "categoryName": "9. 기타 병동 업무",
+      "categoryName": "9. 병동 대응",
+      "summary": [
+        "수혈 사고의 많은 부분은 혈액 자체보다 확인 과정에서 발생합니다.",
+        "환자 확인, 제품 확인, 시작 직후 관찰, 이상반응 즉시 중단 원칙이 핵심입니다."
+      ],
       "indications": [
-        "Hb 7.0 미만 등 빈혈 치료"
+        "임상적으로 필요한 혈액 성분 보충",
+        "급성 출혈",
+        "증상성 빈혈 또는 특정 혈액성분 결핍"
       ],
       "supplies": [
-        "혈액",
-        "수혈세트",
-        "18~20G IV"
+        "혈액제제",
+        "전용 수혈 세트",
+        "활력징후 모니터",
+        "응급 약물 및 보고 체계"
       ],
       "complications": [
-        "[보고] 수혈 중 오한, 발열, 발진, 혈뇨 발생 시 즉시 콜 (수혈 부작용)"
+        "급성 용혈반응",
+        "발열성 반응",
+        "알레르기 반응",
+        "TRALI",
+        "TACO"
       ],
       "precautions": [
-        "시작 시 의사+간호사 교차 서명 필수"
+        "침상 옆에서 환자 ID와 혈액백 정보를 두 명이 함께 확인합니다.",
+        "수혈 시작 직후가 반응이 많이 생기는 시간이라 가까이서 관찰합니다.",
+        "오한, 발열, 호흡곤란, 요통, 흉통이 생기면 즉시 중단하고 보고합니다."
+      ],
+      "sources": [
+        {
+          "label": "WHO: Clinical Transfusion Process and Patient Safety",
+          "url": "https://www.who.int/publications/i/item/WHO-EHT-10.05"
+        },
+        {
+          "label": "NCBI Bookshelf: Blood Transfusion",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK499824/"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "시작 및 부작용 감시",
-          "description": "혈액형 이중 체크 후 연결. 15분간 부작용 발생(발열, 오한) 지켜봄."
+          "title": "사전 확인",
+          "description": "적응증, 동의, 혈액형·교차시험, 제품 만료와 외관을 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "침상 옆 double check",
+          "description": "환자 wristband와 혈액백 정보를 독립적으로 대조합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "수혈 시작과 관찰",
+          "description": "처음에는 천천히 시작하고 초기 활력징후와 증상을 봅니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "이상반응 대응",
+          "description": "반응 의심 시 즉시 중단하고 라인은 유지한 채 기관 프로토콜로 보고합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "death-pronouncement",
-      "name": "사망선고 (Death Pronouncement)",
+      "name": "사망 확인과 초기 문서화",
       "categoryId": "ward",
-      "categoryName": "9. 기타 병동 업무",
+      "categoryName": "9. 병동 대응",
+      "summary": [
+        "사망 확인은 감정적으로도 무거운 업무라서, 침착한 신체 확인과 정확한 시간 기록이 필요합니다.",
+        "법적 문서와 가족 설명은 기관과 국가 규정을 따라야 합니다."
+      ],
       "indications": [
-        "심정지 발생/임종"
+        "환자 사망 의심 시 법적 확인과 기록이 필요한 경우"
       ],
       "supplies": [
         "청진기",
-        "펜라이트"
+        "손전등",
+        "기록 시스템",
+        "가족·장례 절차 안내 경로"
       ],
       "complications": [
-        "[보고] 사망진단서 내용 주치의 확인 필수"
+        "시간·원인 기록 오류",
+        "법적 절차 누락",
+        "가족 소통 지연"
       ],
-      "precautions": [],
+      "precautions": [
+        "심폐소생 중단 기준과 사망 확인 권한은 기관 정책을 따릅니다.",
+        "사망 시간과 사망 발견 시간은 다를 수 있어 문서 의미를 구분합니다.",
+        "사인 기재는 '심정지' 같은 기전 표현만으로 끝내지 않습니다."
+      ],
+      "sources": [
+        {
+          "label": "NCBI Bookshelf: Death Certification",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK526015/"
+        }
+      ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "사망선언",
-          "description": "호흡, 맥박 정지 및 라이트 리플렉스 확인 후 시간 읽으며 선고"
+          "title": "환자 확인",
+          "description": "대상 환자 신원을 다시 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "신체 확인",
+          "description": "호흡, 맥박, 심음, 동공 반응 등 기관 규정에 맞는 항목을 확인합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "시간 기록",
+          "description": "법적 사망 확인 시각과 상황을 정확히 남깁니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "후속 절차 연결",
+          "description": "주치의, 가족, 장기기증·검안·문서 체계를 기관 규정에 따라 연결합니다."
         }
       ],
       "videoUrl": null
     },
     {
       "id": "lstd",
-      "name": "연명의료중단 (LSTD)",
+      "name": "연명의료결정제도 대응",
       "categoryId": "ward",
-      "categoryName": "9. 기타 병동 업무",
+      "categoryName": "9. 병동 대응",
+      "summary": [
+        "연명의료결정은 단순 서류 작업이 아니라 환자 의사, 법적 요건, 임종기 돌봄을 함께 다루는 과정입니다.",
+        "대한민국에서는 공식 서식과 지정 기관 체계를 따라야 법적 효력이 생깁니다."
+      ],
       "indications": [
-        "DNR, 사전연명의료의향서 작성 환자"
+        "말기 또는 임종과정 환자에서 연명의료계획서·사전연명의료의향서 확인 또는 이행이 필요한 경우"
       ],
       "supplies": [
-        "관련 동의서류 확인"
+        "기관 윤리위원회·연명의료 담당 체계",
+        "공식 서식",
+        "환자 의사 확인 경로",
+        "가족 상담과 완화의료 연계"
       ],
       "complications": [
-        "[보고] 서류 불충분 시 섣부른 조치 중단 금지"
+        "법적 요건 누락",
+        "환자 의사와 다른 결정",
+        "가족 갈등",
+        "통증·증상 완화 지연"
       ],
       "precautions": [
-        "윤리위, 2인 이상 전문의 확인 등 절차 엄수"
+        "환자 본인의 의사가 가장 우선이며 공식 서식과 절차가 필요합니다.",
+        "연명의료 중단 여부와 별개로 통증 완화, 영양·수분, 기본 돌봄은 별도로 검토해야 합니다.",
+        "병원 윤리위원회와 국가 시스템 입력 요건은 기관 담당자와 함께 확인합니다."
+      ],
+      "sources": [
+        {
+          "label": "국립연명의료관리기관: 연명의료결정제도",
+          "url": "https://www.lst.go.kr/main/main.do"
+        },
+        {
+          "label": "National Agency for Management of Life-Sustaining Treatment",
+          "url": "https://lst.go.kr/eng/decn/maincontent.do"
+        },
+        {
+          "label": "WHO: Palliative Care",
+          "url": "https://www.who.int/teams/integrated-health-services/clinical-services-and-systems/palliative-care"
+        }
       ],
       "steps": [
         {
           "stepNumber": 1,
-          "title": "문서 확인 및 DNR 실행",
-          "description": "심정지 시 CPR 및 침습적 치료를 시행하지 않는 등 결정 범위 내에서 편안하게 케어"
+          "title": "환자 상태와 의사 확인",
+          "description": "말기 또는 임종과정 판단이 있었는지, 환자 본인 의사 문서가 있는지 확인합니다."
+        },
+        {
+          "stepNumber": 2,
+          "title": "공식 절차 검토",
+          "description": "연명의료계획서, 사전연명의료의향서, 가족 진술 요건 등 법적 경로를 확인합니다."
+        },
+        {
+          "stepNumber": 3,
+          "title": "돌봄 계획 연계",
+          "description": "완화의료, 증상조절, 가족 상담, 임종기 계획을 함께 정리합니다."
+        },
+        {
+          "stepNumber": 4,
+          "title": "이행과 기록",
+          "description": "기관 규정과 국가 시스템 요건에 맞춰 기록과 이행 통보를 완료합니다."
         }
       ],
       "videoUrl": null

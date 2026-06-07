@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { AlertTriangle, CheckSquare, ChevronRight, Info, ListOrdered, Stethoscope, VideoOff } from "lucide-react";
+import { AlertTriangle, CheckSquare, ChevronRight, Info, Link2, ListOrdered, Stethoscope, VideoOff } from "lucide-react";
 import { getAllSkills, getSkillById } from "@/lib/webdb";
 
 export function generateStaticParams() {
@@ -30,6 +30,13 @@ export default async function SkillDetailPage(props: { params: Promise<{ id: str
           <Stethoscope className="h-8 w-8 text-amber-700" />
           {skill.name}
         </h1>
+        {skill.summary.length > 0 ? (
+          <div className="mt-4 space-y-2 text-sm leading-6 text-stone-700">
+            {skill.summary.map((line) => (
+              <p key={line}>{line}</p>
+            ))}
+          </div>
+        ) : null}
       </header>
 
       <div className="w-full overflow-hidden rounded-[32px] border border-stone-200 bg-stone-950 shadow-sm">
@@ -51,6 +58,29 @@ export default async function SkillDetailPage(props: { params: Promise<{ id: str
 
       <div className="grid gap-6 lg:grid-cols-[1.4fr_0.8fr]">
         <div className="space-y-4">
+          {skill.sources.length > 0 ? (
+            <section className="rounded-[28px] border border-amber-200 bg-amber-50/80 p-5 shadow-sm">
+              <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold text-amber-900">
+                <Link2 className="h-5 w-5" />
+                Trusted Sources
+              </h2>
+              <ul className="space-y-2 text-sm text-amber-900">
+                {skill.sources.map((source) => (
+                  <li key={source.url}>
+                    <a
+                      href={source.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="underline decoration-amber-400 underline-offset-2 transition hover:text-amber-700"
+                    >
+                      {source.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
+
           <section className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
             <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold text-stone-900">
               <Info className="h-5 w-5 text-sky-600" />
