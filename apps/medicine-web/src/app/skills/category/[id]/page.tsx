@@ -1,15 +1,16 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
-import { SKILL_CATEGORIES } from "@/lib/skills-data";
+import { SkillCategoryIcon } from "@/components/skill-category-icon";
+import { getSkillCategoryById, getSkillsCategories } from "@/lib/webdb";
 
 export function generateStaticParams() {
-  return SKILL_CATEGORIES.map((category) => ({ id: category.id }));
+  return getSkillsCategories().map((category) => ({ id: category.id }));
 }
 
 export default async function SkillCategoryDetailPage(props: { params: Promise<{ id: string }> }) {
   const params = await props.params;
-  const category = SKILL_CATEGORIES.find((item) => item.id === params.id);
+  const category = getSkillCategoryById(params.id);
 
   if (!category) notFound();
 
@@ -26,7 +27,7 @@ export default async function SkillCategoryDetailPage(props: { params: Promise<{
       <header className="rounded-[32px] border border-stone-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
         <div className="flex items-center gap-4">
           <div className="rounded-2xl bg-amber-100 p-3 text-amber-700">
-            <category.icon className="h-7 w-7" />
+            <SkillCategoryIcon iconName={category.iconName} className="h-7 w-7" />
           </div>
           <h1 className="font-serif text-4xl font-semibold tracking-tight">{category.name}</h1>
         </div>

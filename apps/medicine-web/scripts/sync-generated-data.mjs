@@ -1,11 +1,15 @@
 import fs from "node:fs";
 import path from "node:path";
+import vm from "node:vm";
+import { createRequire } from "node:module";
 
 const APP_ROOT = process.cwd();
 const WORKSPACE_ROOT = path.resolve(APP_ROOT, "..", "..");
 const VAULT_ROOT = path.join(WORKSPACE_ROOT, "vault_medicine");
-const OUTPUT_ROOT = path.join(APP_ROOT, "generated");
-const DATA_ROOT = OUTPUT_ROOT;
+const OUTPUT_ROOT = path.join(WORKSPACE_ROOT, "_webapp");
+const DATA_ROOT = path.join(OUTPUT_ROOT, "data");
+const require = createRequire(import.meta.url);
+const ts = require("typescript");
 
 function ensureDir(dirPath) {
   fs.mkdirSync(dirPath, { recursive: true });
@@ -221,10 +225,69 @@ function buildGenericNotes(domainFolder, domainKey) {
 }
 
 function buildSkillsPlaceholder() {
+  const sourceFile = path.join(APP_ROOT, "src", "lib", "skills-data.ts");
+  const sourceCode = readText(sourceFile);
+  const transpiled = ts.transpileModule(sourceCode, {
+    compilerOptions: {
+      module: ts.ModuleKind.CommonJS,
+      target: ts.ScriptTarget.ES2020,
+      esModuleInterop: true,
+    },
+  }).outputText;
+
+  const dummyIcon = () => null;
+  const sandbox = {
+    module: { exports: {} },
+    exports: {},
+    require: (specifier) => {
+      if (specifier === "lucide-react") {
+        return new Proxy(
+          {},
+          {
+            get: () => dummyIcon,
+          },
+        );
+      }
+
+      throw new Error(`Unsupported import in skills source: ${specifier}`);
+    },
+  };
+  sandbox.exports = sandbox.module.exports;
+
+  vm.runInNewContext(transpiled, sandbox, { filename: sourceFile });
+
+  const iconByCategoryId = {
+    blood: "Droplet",
+    tubes: "TestTube",
+    monitoring: "ActivitySquare",
+    advanced: "Stethoscope",
+    cpr: "HeartPulse",
+    line: "GitCommit",
+    injection: "Pill",
+    wound: "Bandage",
+    ward: "ClipboardList",
+  };
+
+  const { MOCK_SKILLS = {}, SKILL_CATEGORIES = [] } = sandbox.module.exports;
+  const items = Object.values(MOCK_SKILLS).map((skill) => ({
+    ...skill,
+    videoUrl: skill.videoUrl ?? null,
+  }));
+
+  const categories = SKILL_CATEGORIES.map((category) => ({
+    id: category.id,
+    name: category.name,
+    iconName: iconByCategoryId[category.id] ?? "Stethoscope",
+    items: category.items.map((item) => ({
+      id: item.id,
+      name: item.name,
+    })),
+  }));
+
   return {
-    items: [],
-    source: "manual",
-    note: "Clinical skills are not yet synced from vault source. Reserve this domain for later migration from legacy app/manual data.",
+    source: "legacy-manual",
+    categories,
+    items,
   };
 }
 
@@ -292,14 +355,14 @@ function main() {
   const manifest = {
     generatedAt: new Date().toISOString(),
     sourceRoot: "vault_medicine",
-    outputRoot: "apps/medicine-web/generated",
+    outputRoot: "_webapp/data",
     domains: {
       diseases: { count: diseases.length, source: "02 Diseases" },
       chiefComplaints: { count: chiefComplaints.length, source: "01 Chief Complaint" },
       drugs: { count: drugs.length, source: "04 Pharmacology" },
       physiology: { count: physiology.length, source: "05 Physiology" },
       pathology: { count: pathology.length, source: "03 Pathology" },
-      skills: { count: skills.items.length, source: "manual placeholder" },
+      skills: { count: skills.items.length, source: "legacy skills source" },
       specialties: { count: specialties.length, source: "derived from diseases" },
     },
   };
@@ -320,13 +383,14 @@ function main() {
   fs.writeFileSync(
     path.join(OUTPUT_ROOT, "README.md"),
     [
-      "# generated",
+      "# _webapp",
       "",
-      "Generated web-app data derived from `vault_medicine`.",
+      "Generated web-app data derived from `vault_medicine` and web-only manual sources.",
       "",
       "- Source of truth: markdown files in `vault_medicine/*`",
-      "- Output: committed JSON for GitHub Pages build",
+      "- Output: committed JSON for GitHub Pages build under `_webapp/data`",
       "- Direction: source markdown -> generated JSON only",
+      "- Keep `vault_medicine` itself free of web-app artifacts",
       "- Do not hand-edit JSON here unless explicitly treating it as manual-only data",
       "",
       "Regenerate with:",

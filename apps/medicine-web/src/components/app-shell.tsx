@@ -18,6 +18,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.0.1";
+  const activeNavStyle = { color: "#fafaf9" };
 
   const title = useMemo(() => {
     if (pathname === "/") return "The Medicine";
@@ -48,14 +49,15 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                 <Link
                   key={item.href}
                   href={item.href}
+                  style={active ? activeNavStyle : undefined}
                   className={`flex items-center gap-3 rounded-2xl px-4 py-3 text-sm transition ${
                     active
-                      ? "bg-stone-900 font-medium text-white shadow-lg shadow-stone-900/10 [&_svg]:text-white"
+                      ? "bg-stone-900 font-medium shadow-lg shadow-stone-900/10"
                       : "text-stone-600 hover:bg-white hover:text-stone-900"
                   }`}
                 >
-                  <item.icon className="h-4 w-4" />
-                  {item.label}
+                  <item.icon className={`h-4 w-4 ${active ? "text-stone-50" : ""}`} />
+                  <span className={active ? "text-stone-50" : ""}>{item.label}</span>
                 </Link>
               );
             })}
@@ -95,12 +97,13 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                         key={item.href}
                         href={item.href}
                         onClick={() => setOpen(false)}
+                        style={active ? activeNavStyle : undefined}
                         className={`flex items-center gap-3 rounded-2xl px-4 py-3 text-sm transition ${
-                          active ? "bg-stone-900 font-medium text-white [&_svg]:text-white" : "bg-white text-stone-700"
+                          active ? "bg-stone-900 font-medium" : "bg-white text-stone-700"
                         }`}
                       >
-                        <item.icon className="h-4 w-4" />
-                        {item.label}
+                        <item.icon className={`h-4 w-4 ${active ? "text-stone-50" : ""}`} />
+                        <span className={active ? "text-stone-50" : ""}>{item.label}</span>
                       </Link>
                     );
                   })}
@@ -125,12 +128,13 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                   <Link
                     key={item.href}
                     href={item.href}
+                    style={active ? activeNavStyle : undefined}
                     className={`flex flex-col items-center justify-center gap-1 rounded-2xl px-2 py-2 text-[11px] ${
-                      active ? "bg-stone-900 font-medium text-white [&_svg]:text-white" : "bg-white text-stone-600"
+                      active ? "bg-stone-900 font-medium" : "bg-white text-stone-600"
                     }`}
                   >
-                    <item.icon className="h-4 w-4" />
-                    {item.label}
+                    <item.icon className={`h-4 w-4 ${active ? "text-stone-50" : ""}`} />
+                    <span className={active ? "text-stone-50" : ""}>{item.label}</span>
                   </Link>
                 );
               })}

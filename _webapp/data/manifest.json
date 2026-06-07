@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-06T15:35:44.337Z",
+  "generatedAt": "2026-06-06T19:05:58.476Z",
   "sourceRoot": "vault_medicine",
-  "outputRoot": "apps/medicine-web/generated",
+  "outputRoot": "_webapp/data",
   "domains": {
     "diseases": {
       "count": 1093,
@@ -24,8 +24,8 @@
       "source": "03 Pathology"
     },
     "skills": {
-      "count": 0,
-      "source": "manual placeholder"
+      "count": 46,
+      "source": "legacy skills source"
     },
     "specialties": {
       "count": 22,

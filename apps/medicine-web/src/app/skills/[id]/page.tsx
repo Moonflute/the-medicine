@@ -1,15 +1,15 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AlertTriangle, CheckSquare, ChevronRight, Info, ListOrdered, Stethoscope, VideoOff } from "lucide-react";
-import { MOCK_SKILLS } from "@/lib/skills-data";
+import { getAllSkills, getSkillById } from "@/lib/webdb";
 
 export function generateStaticParams() {
-  return Object.keys(MOCK_SKILLS).map((id) => ({ id }));
+  return getAllSkills().map((skill) => ({ id: skill.id }));
 }
 
 export default async function SkillDetailPage(props: { params: Promise<{ id: string }> }) {
   const params = await props.params;
-  const skill = MOCK_SKILLS[params.id];
+  const skill = getSkillById(params.id);
 
   if (!skill) notFound();
 

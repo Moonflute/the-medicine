@@ -2,7 +2,8 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { Bookmark, BookmarkCheck, ChevronDown, ChevronUp, FileText } from "lucide-react";
+import { Bookmark, BookmarkCheck, ChevronDown, ChevronUp } from "lucide-react";
+import { DiseaseSectionIcon } from "@/components/disease-section-icon";
 import type { DiseaseNote } from "@/lib/webdb";
 import { RichTextLines } from "@/components/rich-text-lines";
 
@@ -83,7 +84,7 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
           {note.sections.slice(0, compact ? 2 : note.sections.length).map((section) => (
             <section key={section.title} className="rounded-2xl border border-stone-200 p-4">
               <div className="mb-3 flex items-center gap-2 text-sm font-medium text-stone-900">
-                <FileText className="h-4 w-4 text-stone-500" />
+                <DiseaseSectionIcon title={section.title} className="h-4 w-4 text-stone-500" />
                 {section.title}
               </div>
               <RichTextLines lines={section.content.slice(0, compact ? 6 : section.content.length)} />
@@ -95,9 +96,10 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
       <div className="mt-5 flex flex-wrap items-center gap-3">
         <Link
           href={`/disease/${note.slug}`}
-          className="inline-flex items-center rounded-full bg-stone-900 px-4 py-2 text-sm font-medium text-white shadow-sm shadow-stone-900/20"
+          style={{ color: "#fafaf9" }}
+          className="inline-flex items-center rounded-full bg-stone-900 px-4 py-2 text-sm font-medium shadow-sm shadow-stone-900/20"
         >
-          Open detail
+          <span className="text-stone-50">Open detail</span>
         </Link>
         <button
           type="button"

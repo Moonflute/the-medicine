@@ -1,8 +1,11 @@
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
-import { SKILL_CATEGORIES } from "@/lib/skills-data";
+import { SkillCategoryIcon } from "@/components/skill-category-icon";
+import { getSkillsCategories } from "@/lib/webdb";
 
 export default function SkillsPage() {
+  const categories = getSkillsCategories();
+
   return (
     <div className="space-y-6">
       <header className="rounded-[32px] border border-stone-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
@@ -11,7 +14,7 @@ export default function SkillsPage() {
       </header>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {SKILL_CATEGORIES.map((category) => (
+        {categories.map((category) => (
           <Link
             key={category.id}
             href={`/skills/category/${category.id}`}
@@ -20,7 +23,7 @@ export default function SkillsPage() {
             <div className="flex items-center justify-between gap-4">
               <div className="flex items-center gap-4">
                 <div className="rounded-2xl bg-amber-100 p-3 text-amber-700">
-                  <category.icon className="h-6 w-6" />
+                  <SkillCategoryIcon iconName={category.iconName} className="h-6 w-6" />
                 </div>
                 <div>
                   <h2 className="font-serif text-xl font-semibold tracking-tight text-stone-900">{category.name}</h2>

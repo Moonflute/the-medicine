@@ -13,23 +13,23 @@ type SearchEntry = {
   href: string;
 };
 
-export function SearchPanel({ entries }: { entries: SearchEntry[] }) {
+export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[]; className?: string }) {
   const [query, setQuery] = useState("");
 
   const results = useMemo(() => {
     const term = query.trim().toLowerCase();
-    if (!term) return entries.slice(0, 5);
+    if (!term) return entries.slice(0, 4);
 
     return entries
       .filter((entry) => {
         const haystack = [entry.title, entry.category, ...entry.aliases].join(" ").toLowerCase();
         return haystack.includes(term);
       })
-      .slice(0, 8);
+      .slice(0, 6);
   }, [entries, query]);
 
   return (
-    <section className="rounded-[32px] border border-stone-200 bg-white/80 p-5 shadow-sm backdrop-blur sm:p-6">
+    <section className={`rounded-[32px] border border-stone-200 bg-white/80 p-5 shadow-sm backdrop-blur sm:p-6 ${className}`.trim()}>
       <div className="mb-4 flex items-center gap-3">
         <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-amber-100 text-amber-700">
           <Search className="h-5 w-5" />
@@ -43,12 +43,12 @@ export function SearchPanel({ entries }: { entries: SearchEntry[] }) {
         placeholder="예: 고혈압, 흉통, STEMI"
         className="w-full rounded-2xl border border-stone-200 bg-stone-50 px-4 py-3 text-sm outline-none ring-0 transition focus:border-stone-400"
       />
-      <div className="mt-4 grid gap-3">
+      <div className="mt-4 grid gap-3 xl:max-h-[calc(100vh-19rem)] xl:overflow-y-auto xl:pr-1">
         {results.map((entry) => (
           <Link
             key={`${entry.type}:${entry.slug}`}
             href={entry.href}
-            className="rounded-2xl border border-stone-200 bg-stone-50/80 px-4 py-3 transition hover:border-stone-300 hover:bg-white"
+            className="rounded-2xl border border-stone-200 bg-stone-50/80 px-4 py-2.5 transition hover:border-stone-300 hover:bg-white"
           >
             <div className="font-medium text-stone-900">{entry.title}</div>
             <div className="mt-1 text-sm text-stone-600">
