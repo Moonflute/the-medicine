@@ -6,8 +6,35 @@ import { Bookmark, BookmarkCheck, ChevronDown, ChevronUp } from "lucide-react";
 import { DiseaseSectionIcon } from "@/components/disease-section-icon";
 import type { DiseaseNote } from "@/lib/webdb";
 import { RichTextLines } from "@/components/rich-text-lines";
+import { formatKoreanDate } from "@/lib/format";
 
 const STORAGE_KEY = "medicine-web-review";
+
+function stripEditorialLines(lines: string[]) {
+  const cleaned: string[] = [];
+  let skippingUpdateBlock = false;
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+
+    if (/^last updated\b/i.test(trimmed)) {
+      skippingUpdateBlock = true;
+      continue;
+    }
+
+    if (skippingUpdateBlock) {
+      if (/^\d{4}[-./]/.test(trimmed)) {
+        continue;
+      }
+
+      skippingUpdateBlock = false;
+    }
+
+    cleaned.push(line);
+  }
+
+  return cleaned;
+}
 
 function useBookmarks() {
   const [ids, setIds] = useState<string[]>(() => {
@@ -44,6 +71,7 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
   const [expanded, setExpanded] = useState(!compact);
   const bookmarks = useBookmarks();
   const overview = note.overview?.slice(0, compact ? 3 : 6) ?? [];
+  const lastUpdated = formatKoreanDate(note.updatedAt);
 
   return (
     <article className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm backdrop-blur sm:p-6">
@@ -52,6 +80,7 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
           <div className="text-xs uppercase tracking-[0.22em] text-stone-500">{note.specialty}</div>
           <h2 className="mt-2 font-serif text-2xl font-semibold tracking-tight text-stone-900">{note.title}</h2>
           {note.definition ? <p className="mt-3 text-sm leading-6 text-stone-700">{note.definition}</p> : null}
+          {!compact ? <p className="mt-3 text-xs uppercase tracking-[0.18em] text-stone-500">Last updated {lastUpdated}</p> : null}
         </div>
         <button
           type="button"
@@ -73,9 +102,14 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
       ) : null}
 
       {overview.length > 0 ? (
-        <div className="mt-5 rounded-2xl bg-stone-50 p-4">
-          <div className="mb-2 text-xs uppercase tracking-[0.22em] text-stone-500">Overview</div>
-          <RichTextLines lines={overview} />
+        <div className="mt-5 overflow-hidden rounded-[24px] border border-amber-200 bg-gradient-to-br from-amber-50 via-white to-rose-50 p-4 shadow-sm">
+          <div className="mb-2 inline-flex rounded-full bg-amber-100 px-3 py-1 text-xs uppercase tracking-[0.22em] text-amber-800">
+            Overview
+          </div>
+          <RichTextLines
+            lines={overview}
+            className="space-y-2 text-sm leading-6 text-stone-800"
+          />
         </div>
       ) : null}
 
@@ -87,7 +121,7 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
                 <DiseaseSectionIcon title={section.title} className="h-4 w-4 text-stone-500" />
                 {section.title}
               </div>
-              <RichTextLines lines={section.content.slice(0, compact ? 6 : section.content.length)} />
+              <RichTextLines lines={stripEditorialLines(section.content).slice(0, compact ? 6 : section.content.length)} />
             </section>
           ))}
         </div>

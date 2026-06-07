@@ -11,6 +11,10 @@ function readJson(fileName: string) {
   return JSON.parse(fs.readFileSync(filePath, "utf-8"));
 }
 
+function toBase64Url(value: string) {
+  return Buffer.from(value, "utf-8").toString("base64url");
+}
+
 export type DiseaseSection = {
   title: string;
   content: string[];
@@ -137,7 +141,7 @@ export function getSpecialties(): SpecialtySummary[] {
 }
 
 export function getDiseasesBySpecialty(slug: string): DiseaseNote[] {
-  return getAllDiseases().filter((note) => Buffer.from(note.specialty, "utf-8").toString("base64url") === slug);
+  return getAllDiseases().filter((note) => toBase64Url(note.specialty) === slug);
 }
 
 export function getDiseaseSearchIndex(): SearchEntry[] {
@@ -150,6 +154,37 @@ export function getChiefComplaints(): ChiefComplaintNote[] {
 
 export function getChiefComplaintBySlug(slug: string): ChiefComplaintNote | undefined {
   return getChiefComplaints().find((note) => note.slug === slug);
+}
+
+export type ChiefComplaintCategorySummary = {
+  name: string;
+  slug: string;
+  count: number;
+};
+
+export function getChiefComplaintCategories(): ChiefComplaintCategorySummary[] {
+  const counts = new Map<string, number>();
+
+  for (const note of getChiefComplaints()) {
+    const key = note.category || "기타";
+    counts.set(key, (counts.get(key) ?? 0) + 1);
+  }
+
+  return [...counts.entries()]
+    .sort((a, b) => a[0].localeCompare(b[0], "ko"))
+    .map(([name, count]) => ({
+      name,
+      slug: toBase64Url(name),
+      count,
+    }));
+}
+
+export function getChiefComplaintsByCategory(slug: string): ChiefComplaintNote[] {
+  return getChiefComplaints().filter((note) => toBase64Url(note.category || "기타") === slug);
+}
+
+export function getChiefComplaintByCategoryAndSlug(categorySlug: string, slug: string): ChiefComplaintNote | undefined {
+  return getChiefComplaints().find((note) => note.slug === slug && toBase64Url(note.category || "기타") === categorySlug);
 }
 
 export function getDrugs(): DomainNote[] {
