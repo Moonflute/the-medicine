@@ -67,6 +67,32 @@ function useBookmarks() {
   return api;
 }
 
+function getSectionTone(title: string) {
+  const normalized = title.toLowerCase();
+
+  if (normalized.includes("검사") || normalized.includes("evaluation") || normalized.includes("workup")) {
+    return "border-sky-200 bg-sky-50/65";
+  }
+
+  if (normalized.includes("진단") || normalized.includes("diagn")) {
+    return "border-violet-200 bg-violet-50/65";
+  }
+
+  if (normalized.includes("치료") || normalized.includes("처치") || normalized.includes("management") || normalized.includes("treatment")) {
+    return "border-emerald-200 bg-emerald-50/65";
+  }
+
+  if (normalized.includes("합병증") || normalized.includes("경고") || normalized.includes("응급") || normalized.includes("warning")) {
+    return "border-rose-200 bg-rose-50/65";
+  }
+
+  if (normalized.includes("임상") || normalized.includes("증상") || normalized.includes("양상") || normalized.includes("presentation")) {
+    return "border-amber-200 bg-amber-50/65";
+  }
+
+  return "border-stone-200 bg-white";
+}
+
 export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; compact?: boolean }) {
   const [expanded, setExpanded] = useState(!compact);
   const bookmarks = useBookmarks();
@@ -78,9 +104,13 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
       <div className="flex items-start justify-between gap-4">
         <div className="min-w-0">
           <div className="text-xs uppercase tracking-[0.22em] text-stone-500">{note.specialty}</div>
-          <h2 className="mt-2 font-serif text-2xl font-semibold tracking-tight text-stone-900">{note.title}</h2>
-          {note.definition ? <p className="mt-3 text-sm leading-6 text-stone-700">{note.definition}</p> : null}
-          {!compact ? <p className="mt-3 text-xs uppercase tracking-[0.18em] text-stone-500">Last updated {lastUpdated}</p> : null}
+          <h2 className="mt-2 font-serif text-3xl font-semibold tracking-tight text-stone-950 sm:text-[2.1rem]">{note.title}</h2>
+          {note.definition ? (
+            <p className="mt-3 max-w-3xl rounded-2xl border border-stone-200/80 bg-stone-50/70 px-4 py-3 text-sm leading-7 text-stone-700">
+              {note.definition}
+            </p>
+          ) : null}
+          {!compact ? <p className="mt-4 text-xs uppercase tracking-[0.18em] text-stone-500">Last updated {lastUpdated}</p> : null}
         </div>
         <button
           type="button"
@@ -102,26 +132,29 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
       ) : null}
 
       {overview.length > 0 ? (
-        <div className="mt-5 overflow-hidden rounded-[24px] border border-amber-200 bg-gradient-to-br from-amber-50 via-white to-rose-50 p-4 shadow-sm">
-          <div className="mb-2 inline-flex rounded-full bg-amber-100 px-3 py-1 text-xs uppercase tracking-[0.22em] text-amber-800">
-            Overview
+        <div className="mt-6 overflow-hidden rounded-[26px] border border-stone-900/10 bg-[linear-gradient(135deg,_rgba(251,191,36,0.18),_rgba(255,255,255,1)_30%,_rgba(191,219,254,0.28)_100%)] p-5 shadow-sm">
+          <div className="mb-3 flex items-center justify-between gap-3">
+            <div className="inline-flex rounded-full bg-stone-900 px-3 py-1 text-xs uppercase tracking-[0.22em] text-stone-50">
+              High-yield overview
+            </div>
+            {!compact ? <div className="text-xs uppercase tracking-[0.18em] text-stone-500">Exam-first summary</div> : null}
           </div>
-          <RichTextLines
-            lines={overview}
-            className="space-y-2 text-sm leading-6 text-stone-800"
-          />
+          <RichTextLines lines={overview} className="grid gap-2.5 lg:grid-cols-2" />
         </div>
       ) : null}
 
       {expanded ? (
-        <div className="mt-5 space-y-4">
+        <div className="mt-6 space-y-4">
           {note.sections.slice(0, compact ? 2 : note.sections.length).map((section) => (
-            <section key={section.title} className="rounded-2xl border border-stone-200 p-4">
-              <div className="mb-3 flex items-center gap-2 text-sm font-medium text-stone-900">
+            <section key={section.title} className={`rounded-[24px] border p-4 sm:p-5 ${getSectionTone(section.title)}`}>
+              <div className="mb-4 flex items-center gap-2 text-sm font-semibold tracking-[0.02em] text-stone-900">
                 <DiseaseSectionIcon title={section.title} className="h-4 w-4 text-stone-500" />
                 {section.title}
               </div>
-              <RichTextLines lines={stripEditorialLines(section.content).slice(0, compact ? 6 : section.content.length)} />
+              <RichTextLines
+                lines={stripEditorialLines(section.content).slice(0, compact ? 6 : section.content.length)}
+                className="space-y-2.5"
+              />
             </section>
           ))}
         </div>
