@@ -1,0 +1,132 @@
+from pathlib import Path
+
+from PIL import Image, ImageDraw
+
+
+ROOT = Path(__file__).resolve().parents[1]
+PUBLIC_DIR = ROOT / "public"
+ICONS_DIR = PUBLIC_DIR / "icons"
+
+
+def draw_skull(size: int) -> Image.Image:
+    image = Image.new("RGBA", (size, size), (245, 236, 221, 255))
+    draw = ImageDraw.Draw(image)
+
+    outline = (35, 29, 26, 255)
+    bone = (246, 241, 231, 255)
+    shadow = (224, 210, 190, 255)
+    blush = (214, 171, 122, 255)
+
+    pad = int(size * 0.08)
+    draw.rounded_rectangle((pad, pad, size - pad, size - pad), radius=int(size * 0.22), fill=(245, 236, 221, 255))
+
+    head = (
+        int(size * 0.18),
+        int(size * 0.12),
+        int(size * 0.82),
+        int(size * 0.7),
+    )
+    jaw = (
+        int(size * 0.28),
+        int(size * 0.56),
+        int(size * 0.72),
+        int(size * 0.84),
+    )
+
+    draw.ellipse(head, fill=bone, outline=outline, width=max(3, size // 64))
+    draw.rounded_rectangle(jaw, radius=int(size * 0.08), fill=bone, outline=outline, width=max(3, size // 64))
+    draw.ellipse((int(size * 0.24), int(size * 0.18), int(size * 0.76), int(size * 0.52)), fill=shadow)
+
+    horn_y = int(size * 0.15)
+    draw.polygon(
+        [
+            (int(size * 0.27), horn_y),
+            (int(size * 0.18), int(size * 0.05)),
+            (int(size * 0.34), int(size * 0.12)),
+        ],
+        fill=blush,
+        outline=outline,
+    )
+    draw.polygon(
+        [
+            (int(size * 0.73), horn_y),
+            (int(size * 0.82), int(size * 0.05)),
+            (int(size * 0.66), int(size * 0.12)),
+        ],
+        fill=blush,
+        outline=outline,
+    )
+
+    eye_left = [
+        (int(size * 0.33), int(size * 0.3)),
+        (int(size * 0.42), int(size * 0.26)),
+        (int(size * 0.45), int(size * 0.38)),
+        (int(size * 0.36), int(size * 0.42)),
+    ]
+    eye_right = [
+        (int(size * 0.67), int(size * 0.3)),
+        (int(size * 0.58), int(size * 0.26)),
+        (int(size * 0.55), int(size * 0.38)),
+        (int(size * 0.64), int(size * 0.42)),
+    ]
+    draw.polygon(eye_left, fill=outline)
+    draw.polygon(eye_right, fill=outline)
+
+    nose = [
+        (int(size * 0.5), int(size * 0.39)),
+        (int(size * 0.46), int(size * 0.48)),
+        (int(size * 0.54), int(size * 0.48)),
+    ]
+    draw.polygon(nose, fill=outline)
+
+    draw.arc((int(size * 0.36), int(size * 0.5), int(size * 0.64), int(size * 0.68)), start=15, end=165, fill=outline, width=max(3, size // 80))
+
+    tooth_top = int(size * 0.66)
+    tooth_bottom = int(size * 0.79)
+    draw.line((int(size * 0.4), tooth_top, int(size * 0.4), tooth_bottom), fill=outline, width=max(2, size // 100))
+    draw.line((int(size * 0.5), tooth_top, int(size * 0.5), tooth_bottom), fill=outline, width=max(2, size // 100))
+    draw.line((int(size * 0.6), tooth_top, int(size * 0.6), tooth_bottom), fill=outline, width=max(2, size // 100))
+
+    draw.ellipse((int(size * 0.22), int(size * 0.52), int(size * 0.29), int(size * 0.59)), fill=(255, 255, 255, 120))
+    draw.ellipse((int(size * 0.71), int(size * 0.56), int(size * 0.77), int(size * 0.62)), fill=(255, 255, 255, 100))
+
+    return image
+
+
+def write_svg(target: Path) -> None:
+    target.write_text(
+        """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#f5ecdd"/>
+  <path d="M148 136c0-57 48-104 108-104s108 47 108 104v102c0 7-3 13-8 18l-17 16v66H173v-66l-17-16a25 25 0 0 1-8-18V136Z" fill="#f6f1e7" stroke="#231d1a" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M183 149c16-31 49-53 86-53s70 22 86 53v76c0 17-14 31-31 31H188c-17 0-31-14-31-31v-76Z" fill="#e0d2be"/>
+  <path d="m138 88 40 33-60 15 20-48Z" fill="#d6ab7a" stroke="#231d1a" stroke-width="14" stroke-linejoin="round"/>
+  <path d="m374 88-40 33 60 15-20-48Z" fill="#d6ab7a" stroke="#231d1a" stroke-width="14" stroke-linejoin="round"/>
+  <path d="m185 191 49-18 10 57-51 20-8-59Z" fill="#231d1a"/>
+  <path d="m327 191-49-18-10 57 51 20 8-59Z" fill="#231d1a"/>
+  <path d="m256 220-24 48h48l-24-48Z" fill="#231d1a"/>
+  <path d="M200 286c18 18 39 27 56 27s38-9 56-27" stroke="#231d1a" stroke-width="16" stroke-linecap="round"/>
+  <path d="M202 334v72M256 334v72M310 334v72" stroke="#231d1a" stroke-width="14" stroke-linecap="round"/>
+  <ellipse cx="146" cy="294" rx="18" ry="18" fill="#ffffff" fill-opacity=".45"/>
+  <ellipse cx="362" cy="320" rx="15" ry="15" fill="#ffffff" fill-opacity=".35"/>
+</svg>
+""",
+        encoding="utf-8",
+    )
+
+
+def main() -> None:
+    ICONS_DIR.mkdir(parents=True, exist_ok=True)
+
+    icon_192 = draw_skull(192)
+    icon_512 = draw_skull(512)
+    apple = draw_skull(180)
+
+    icon_192.save(ICONS_DIR / "icon-192.png")
+    icon_512.save(ICONS_DIR / "icon-512.png")
+    apple.save(PUBLIC_DIR / "apple-touch-icon.png")
+    icon_512.save(PUBLIC_DIR / "icon.png")
+    write_svg(PUBLIC_DIR / "icon.svg")
+
+
+if __name__ == "__main__":
+    main()

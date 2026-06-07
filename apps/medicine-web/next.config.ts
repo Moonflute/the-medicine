@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
   assetPrefix: isGitHubPages ? `${basePath}/` : undefined,
   env: {
     NEXT_PUBLIC_APP_VERSION: packageJson.version,
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
 };
 
