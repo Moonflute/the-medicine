@@ -1,4 +1,4 @@
-import type { ClinicalSkill } from "./types";
+import { ClinicalSkill } from './types';
 import {
     Droplet,
     TestTube,
