@@ -62,6 +62,19 @@ export type DomainNote = {
   summary: string[];
   sections: DiseaseSection[];
   updatedAt: string;
+  drugMeta?: {
+    type: string;
+    categoryPath: string;
+    topClass: string;
+    middleClass: string;
+    detailClass: string;
+    clinicalCore: boolean;
+    priority: string;
+    brands: string[];
+    doses: string[];
+    relatedDiseases: string[];
+    profile: string;
+  };
 };
 
 export type ChiefComplaintNote = {

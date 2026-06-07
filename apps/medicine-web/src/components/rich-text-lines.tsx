@@ -1,7 +1,8 @@
 import React from "react";
 
 function normalizeInline(text: string) {
-  return text.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2").replace(/\[\[([^\]]+)\]\]/g, "$1");
+  const safeText = typeof text === "string" ? text : String(text ?? "");
+  return safeText.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2").replace(/\[\[([^\]]+)\]\]/g, "$1");
 }
 
 function renderInline(text: string) {
@@ -21,7 +22,7 @@ function renderInline(text: string) {
   });
 }
 
-function renderLeadLabel(text: string) {
+function splitLeadLabel(text: string) {
   const normalized = normalizeInline(text).trim();
   const match = normalized.match(/^([^:]{1,24}):\s+(.+)$/);
 
@@ -29,16 +30,29 @@ function renderLeadLabel(text: string) {
     return null;
   }
 
+  return {
+    label: match[1],
+    body: match[2],
+  };
+}
+
+function renderParagraph(text: string, className: string) {
+  const labeled = splitLeadLabel(text);
+
+  if (!labeled) {
+    return <p className={className}>{renderInline(text)}</p>;
+  }
+
   return (
-    <>
-      <span className="font-semibold text-stone-900">{match[1]}:</span>{" "}
-      <span>{renderInline(match[2])}</span>
-    </>
+    <p className={className}>
+      <span className="font-semibold text-stone-900">{labeled.label}:</span>{" "}
+      {renderInline(labeled.body)}
+    </p>
   );
 }
 
 function renderLine(line: string) {
-  const trimmed = line.trim();
+  const trimmed = (typeof line === "string" ? line : String(line ?? "")).trim();
 
   if (!trimmed) {
     return <div className="h-1" />;
@@ -56,19 +70,18 @@ function renderLine(line: string) {
     return <h4 className="font-medium text-stone-900">{renderInline(trimmed.slice(4))}</h4>;
   }
 
-  if (/^[•?-]\s+/.test(trimmed)) {
-    const body = trimmed.replace(/^[•?-]\s+/, "");
-    const labeled = renderLeadLabel(body);
+  if (/^(?:•|-|\?\?)\s+/.test(trimmed)) {
+    const body = trimmed.replace(/^(?:•|-|\?\?)\s+/, "");
 
     return (
       <div className="flex gap-3 rounded-2xl border border-stone-200/80 bg-stone-50/60 px-3 py-2.5">
         <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-amber-500" />
-        <p className="min-w-0 text-[15px] leading-7 text-stone-700">{labeled ?? renderInline(body)}</p>
+        {renderParagraph(body, "min-w-0 text-[15px] leading-7 text-stone-700")}
       </div>
     );
   }
 
-  return <p className="text-[15px] leading-7 text-stone-700">{renderLeadLabel(trimmed) ?? renderInline(trimmed)}</p>;
+  return renderParagraph(trimmed, "text-[15px] leading-7 text-stone-700");
 }
 
 export function RichTextLines({
@@ -78,5 +91,5 @@ export function RichTextLines({
   lines: string[];
   className?: string;
 }) {
-  return <div className={className}>{lines.map((line, index) => <div key={`${line}-${index}`}>{renderLine(line)}</div>)}</div>;
+  return <div className={className}>{lines.map((line, index) => <div key={`${String(line)}-${index}`}>{renderLine(line)}</div>)}</div>;
 }

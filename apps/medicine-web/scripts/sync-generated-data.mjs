@@ -102,6 +102,23 @@ function firstSectionText(sections, titleIncludes) {
   return section?.content ?? [];
 }
 
+function extractSummaryCallout(body) {
+  const lines = body.split(/\r?\n/);
+  const start = lines.findIndex((line) => line.trim() === "> [!summary]");
+  if (start === -1) return [];
+
+  const summary = [];
+  for (let index = start + 1; index < lines.length; index += 1) {
+    const line = lines[index];
+    if (!line.trim().startsWith(">")) break;
+    const cleaned = line.replace(/^>\s?/, "").trim();
+    if (!cleaned) continue;
+    summary.push(cleaned);
+  }
+
+  return summary;
+}
+
 function listMarkdownFiles(root, options = {}) {
   const {
     recursive = true,
@@ -360,6 +377,61 @@ function buildGenericNotes(domainFolder, domainKey) {
   });
 }
 
+function buildDrugs() {
+  const root = path.join(VAULT_ROOT, "04 Pharmacology");
+  const files = listMarkdownFiles(root, {
+    ignoreDirs: new Set(["_templates", "_webapp", ".obsidian", "images", "_index"]),
+    ignoreFiles: new Set(["index.md", "계통_규칙.md", "분류체계.md", "약리학.md", "일반원례_및_교과서색인.md", "참고_RangDale10_구조매핑.md"]),
+  }).filter((filePath) => path.relative(root, filePath).split(path.sep).length > 1);
+
+  return files.map((filePath) => {
+    const raw = readText(filePath);
+    const { frontmatter, body } = splitFrontmatter(raw);
+    const sections = splitSections(body);
+    const rel = path.relative(root, filePath);
+    const folders = rel.split(path.sep);
+    const title = path.basename(filePath, ".md");
+    const stat = fs.statSync(filePath);
+
+    const categoryPath = readScalar(frontmatter["계통"]) || readScalar(frontmatter["category"]);
+    const topClass = readScalar(frontmatter["분류_대분류"]);
+    const middleClass = readScalar(frontmatter["분류_중분류"]);
+    const detailClass = readScalar(frontmatter["분류_세부"]);
+    const brands = readList(frontmatter["상품명"]);
+    const doses = readList(frontmatter["용량"]);
+    const relatedDiseases = readList(frontmatter["related_diseases"]).filter((item) => item !== "-");
+    const calloutSummary = extractSummaryCallout(body);
+    const clinicalSection = firstSectionText(sections, "임상 사용");
+    const fallbackSummary = clinicalSection.slice(0, 5);
+
+    return {
+      id: `drug:${rel.replaceAll("\\", "/")}`,
+      slug: toSlug(`drug:${rel.replaceAll("\\", "/")}`),
+      title,
+      sourcePath: path.relative(WORKSPACE_ROOT, filePath).replaceAll("\\", "/"),
+      folder: folders[0] ?? "",
+      aliases: readList(frontmatter["aliases"]),
+      category: categoryPath || folders[0] || "약물",
+      summary: (calloutSummary.length > 0 ? calloutSummary : fallbackSummary).slice(0, 5),
+      sections,
+      updatedAt: stat.mtime.toISOString(),
+      drugMeta: {
+        type: readScalar(frontmatter["유형"]) || "drug",
+        categoryPath,
+        topClass,
+        middleClass,
+        detailClass,
+        clinicalCore: /^true$/i.test(readScalar(frontmatter["임상_핵심"])),
+        priority: readScalar(frontmatter["임상_우선순위"]),
+        brands,
+        doses,
+        relatedDiseases,
+        profile: readScalar(frontmatter["검증_프로파일"]),
+      },
+    };
+  });
+}
+
 function buildSkillsPlaceholder() {
   const sourceFile = path.join(APP_ROOT, "src", "lib", "skills-data.ts");
   const sourceCode = readText(sourceFile);
@@ -477,7 +549,7 @@ function main() {
 
   const diseases = buildDiseases();
   const chiefComplaints = buildChiefComplaints();
-  const drugs = buildGenericNotes("04 Pharmacology", "drug");
+  const drugs = buildDrugs();
   const physiology = buildGenericNotes("05 Physiology", "physiology");
   const pathology = buildGenericNotes("03 Pathology", "pathology");
   const skills = buildSkillsPlaceholder();
