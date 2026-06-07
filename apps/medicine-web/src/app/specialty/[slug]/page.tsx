@@ -3,8 +3,135 @@ import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import { getDiseasesBySpecialty, getSpecialties } from "@/lib/webdb";
 
+const THIRD_LEVEL_MIN_ITEMS = 4;
+
+type DiseaseNote = ReturnType<typeof getDiseasesBySpecialty>[number];
+
+type ThirdLevelGroup = {
+  title: string;
+  notes: DiseaseNote[];
+};
+
+type SecondLevelGroup = {
+  title: string;
+  notes: DiseaseNote[];
+  thirdLevel: ThirdLevelGroup[];
+};
+
+type FirstLevelGroup = {
+  title: string;
+  secondLevel: SecondLevelGroup[];
+};
+
 export function generateStaticParams() {
   return getSpecialties().map((specialty) => ({ slug: specialty.slug }));
+}
+
+function sortLabels(a: string, b: string) {
+  return a.localeCompare(b, "ko");
+}
+
+function cleanClassification(note: DiseaseNote) {
+  return note.classification
+    .map((item) => item.trim())
+    .filter((item) => item.length > 0);
+}
+
+function buildGroups(notes: DiseaseNote[], specialtyLabel: string): FirstLevelGroup[] {
+  const firstLevel = new Map<string, DiseaseNote[]>();
+
+  for (const note of notes) {
+    const classification = cleanClassification(note);
+    const primary = classification[0] || note.category || specialtyLabel;
+    const bucket = firstLevel.get(primary) ?? [];
+    bucket.push(note);
+    firstLevel.set(primary, bucket);
+  }
+
+  return [...firstLevel.entries()]
+    .sort(([a], [b]) => {
+      const aIsTop = a === specialtyLabel;
+      const bIsTop = b === specialtyLabel;
+      if (aIsTop && !bIsTop) return -1;
+      if (!aIsTop && bIsTop) return 1;
+      return sortLabels(a, b);
+    })
+    .map(([title, items]) => {
+      const secondLevelMap = new Map<string, DiseaseNote[]>();
+
+      for (const note of items) {
+        const classification = cleanClassification(note);
+        const secondary = classification[1] || "";
+        const bucket = secondLevelMap.get(secondary) ?? [];
+        bucket.push(note);
+        secondLevelMap.set(secondary, bucket);
+      }
+
+      const secondLevel = [...secondLevelMap.entries()]
+        .sort(([a], [b]) => {
+          if (!a && b) return -1;
+          if (a && !b) return 1;
+          return sortLabels(a || title, b || title);
+        })
+        .map(([secondaryTitle, secondLevelItems]) => {
+          const parentNotes: DiseaseNote[] = [];
+          const thirdLevelMap = new Map<string, DiseaseNote[]>();
+
+          for (const note of secondLevelItems) {
+            const classification = cleanClassification(note);
+            const tertiary = classification[2];
+
+            if (!tertiary) {
+              parentNotes.push(note);
+              continue;
+            }
+
+            const bucket = thirdLevelMap.get(tertiary) ?? [];
+            bucket.push(note);
+            thirdLevelMap.set(tertiary, bucket);
+          }
+
+          const thirdLevel = [...thirdLevelMap.entries()]
+            .sort(([a], [b]) => sortLabels(a, b))
+            .reduce<ThirdLevelGroup[]>((groups, [thirdTitle, thirdItems]) => {
+              if (thirdItems.length >= THIRD_LEVEL_MIN_ITEMS) {
+                groups.push({
+                  title: thirdTitle,
+                  notes: thirdItems.slice().sort((a, b) => sortLabels(a.title, b.title)),
+                });
+              } else {
+                parentNotes.push(...thirdItems);
+              }
+
+              return groups;
+            }, []);
+
+          return {
+            title: secondaryTitle || title,
+            notes: parentNotes.slice().sort((a, b) => sortLabels(a.title, b.title)),
+            thirdLevel,
+          };
+        });
+
+      return { title, secondLevel };
+    });
+}
+
+function DiseaseLinks({ notes }: { notes: DiseaseNote[] }) {
+  return (
+    <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
+      {notes.map((note) => (
+        <Link
+          key={note.slug}
+          href={`/disease/${note.slug}`}
+          className="flex items-center justify-between rounded-2xl border border-stone-200 bg-stone-50/70 px-4 py-3 transition hover:border-stone-300 hover:bg-white"
+        >
+          <span className="pr-3 text-sm font-medium text-stone-900">{note.title}</span>
+          <ChevronRight className="h-4 w-4 shrink-0 text-stone-400" />
+        </Link>
+      ))}
+    </div>
+  );
 }
 
 export default async function SpecialtyDetailPage(props: { params: Promise<{ slug: string }> }) {
@@ -17,14 +144,8 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
     notFound();
   }
 
-  const grouped = new Map<string, typeof notes>();
-
-  for (const note of notes) {
-    const groupKey = note.classification[0]?.trim() || note.category || "기타";
-    const bucket = grouped.get(groupKey) ?? [];
-    bucket.push(note);
-    grouped.set(groupKey, bucket);
-  }
+  const specialtyLabel = title.replace(/^\d+\s*/, "").trim();
+  const grouped = buildGroups(notes, specialtyLabel);
 
   return (
     <div className="space-y-6">
@@ -34,28 +155,37 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
       </header>
 
       <div className="space-y-5">
-        {[...grouped.entries()].map(([groupName, items]) => (
-          <section key={groupName} className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
+        {grouped.map((group) => (
+          <section key={group.title} className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
             <div className="mb-4 flex items-center gap-3">
               <div className="h-px flex-1 bg-stone-200" />
-              <h2 className="shrink-0 font-serif text-xl font-semibold tracking-tight text-stone-900">{groupName}</h2>
+              <h2 className="shrink-0 font-serif text-xl font-semibold tracking-tight text-stone-900">{group.title}</h2>
               <div className="h-px flex-1 bg-stone-200" />
             </div>
 
-            <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
-              {items
-                .slice()
-                .sort((a, b) => a.title.localeCompare(b.title, "ko"))
-                .map((note) => (
-                  <Link
-                    key={note.slug}
-                    href={`/disease/${note.slug}`}
-                    className="flex items-center justify-between rounded-2xl border border-stone-200 bg-stone-50/70 px-4 py-3 transition hover:border-stone-300 hover:bg-white"
-                  >
-                    <span className="pr-3 text-sm font-medium text-stone-900">{note.title}</span>
-                    <ChevronRight className="h-4 w-4 shrink-0 text-stone-400" />
-                  </Link>
-                ))}
+            <div className="space-y-5">
+              {group.secondLevel.map((secondGroup) => (
+                <div key={`${group.title}-${secondGroup.title}`} className="space-y-3">
+                  <div className="rounded-2xl border border-stone-200/80 bg-stone-50/70 px-4 py-3">
+                    <h3 className="font-serif text-lg font-semibold tracking-tight text-stone-900">{secondGroup.title}</h3>
+                  </div>
+
+                  {secondGroup.notes.length > 0 ? <DiseaseLinks notes={secondGroup.notes} /> : null}
+
+                  {secondGroup.thirdLevel.map((thirdGroup) => (
+                    <div key={`${group.title}-${secondGroup.title}-${thirdGroup.title}`} className="space-y-3 pl-1">
+                      <div className="flex items-center gap-3 px-1">
+                        <div className="h-px flex-1 bg-stone-200" />
+                        <h4 className="shrink-0 text-sm font-semibold uppercase tracking-[0.18em] text-stone-500">
+                          {thirdGroup.title}
+                        </h4>
+                        <div className="h-px flex-1 bg-stone-200" />
+                      </div>
+                      <DiseaseLinks notes={thirdGroup.notes} />
+                    </div>
+                  ))}
+                </div>
+              ))}
             </div>
           </section>
         ))}
