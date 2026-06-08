@@ -51,7 +51,7 @@ function renderParagraph(text: string, className: string) {
   );
 }
 
-function renderLine(line: string) {
+function renderLine(line: string, bulletStyle: "plain" | "card") {
   const trimmed = (typeof line === "string" ? line : String(line ?? "")).trim();
 
   if (!trimmed) {
@@ -73,6 +73,15 @@ function renderLine(line: string) {
   if (/^(?:•|-|\?\?)\s+/.test(trimmed)) {
     const body = trimmed.replace(/^(?:•|-|\?\?)\s+/, "");
 
+    if (bulletStyle === "plain") {
+      return (
+        <div className="flex gap-3">
+          <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-stone-400" />
+          {renderParagraph(body, "min-w-0 text-[15px] leading-7 text-stone-700")}
+        </div>
+      );
+    }
+
     return (
       <div className="flex gap-3 rounded-2xl border border-stone-200/80 bg-stone-50/60 px-3 py-2.5">
         <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-amber-500" />
@@ -87,9 +96,17 @@ function renderLine(line: string) {
 export function RichTextLines({
   lines,
   className = "space-y-2.5 text-sm text-stone-700",
+  bulletStyle = "card",
 }: {
   lines: string[];
   className?: string;
+  bulletStyle?: "plain" | "card";
 }) {
-  return <div className={className}>{lines.map((line, index) => <div key={`${String(line)}-${index}`}>{renderLine(line)}</div>)}</div>;
+  return (
+    <div className={className}>
+      {lines.map((line, index) => (
+        <div key={`${String(line)}-${index}`}>{renderLine(line, bulletStyle)}</div>
+      ))}
+    </div>
+  );
 }

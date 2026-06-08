@@ -154,6 +154,7 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
               <RichTextLines
                 lines={stripEditorialLines(section.content).slice(0, compact ? 6 : section.content.length)}
                 className="space-y-2.5"
+                bulletStyle="plain"
               />
             </section>
           ))}
