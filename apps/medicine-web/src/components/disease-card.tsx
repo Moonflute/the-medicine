@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Bookmark, BookmarkCheck, ChevronDown, ChevronUp } from "lucide-react";
 import { DiseaseSectionIcon } from "@/components/disease-section-icon";
-import type { DiseaseNote } from "@/lib/webdb";
+import type { DiseaseNote, TermLink } from "@/lib/webdb";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { formatKoreanDate } from "@/lib/format";
 
@@ -93,11 +93,20 @@ function getSectionTone(title: string) {
   return "border-stone-200 bg-white";
 }
 
-export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; compact?: boolean }) {
+export function DiseaseCard({
+  note,
+  compact = false,
+  ccLinks = [],
+}: {
+  note: DiseaseNote;
+  compact?: boolean;
+  ccLinks?: TermLink[];
+}) {
   const [expanded, setExpanded] = useState(!compact);
   const bookmarks = useBookmarks();
   const overview = note.overview?.slice(0, compact ? 3 : 6) ?? [];
   const lastUpdated = formatKoreanDate(note.updatedAt);
+  const hrefByTerm = useMemo(() => new Map(ccLinks.map((item) => [item.term, item.href])), [ccLinks]);
 
   return (
     <article className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm backdrop-blur sm:p-6">
@@ -124,9 +133,19 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
       {note.chiefComplaints.length > 0 ? (
         <div className="mt-4 flex flex-wrap gap-2">
           {note.chiefComplaints.slice(0, 6).map((item) => (
-            <span key={item} className="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-600">
-              {item}
-            </span>
+            hrefByTerm.get(item) ? (
+              <Link
+                key={item}
+                href={hrefByTerm.get(item)!}
+                className="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-700 underline decoration-stone-300 underline-offset-2"
+              >
+                {item}
+              </Link>
+            ) : (
+              <span key={item} className="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-600">
+                {item}
+              </span>
+            )
           ))}
         </div>
       ) : null}
@@ -139,7 +158,7 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
             </div>
             {!compact ? <div className="text-xs uppercase tracking-[0.18em] text-stone-500">Exam-first summary</div> : null}
           </div>
-          <RichTextLines lines={overview} className="grid gap-2.5 lg:grid-cols-2" />
+          <RichTextLines lines={overview} className="grid gap-2.5 lg:grid-cols-2" termLinks={ccLinks} />
         </div>
       ) : null}
 
@@ -155,6 +174,7 @@ export function DiseaseCard({ note, compact = false }: { note: DiseaseNote; comp
                 lines={stripEditorialLines(section.content).slice(0, compact ? 6 : section.content.length)}
                 className="space-y-2.5"
                 bulletStyle="plain"
+                termLinks={ccLinks}
               />
             </section>
           ))}

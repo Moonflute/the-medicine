@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { DiseaseCard } from "@/components/disease-card";
-import { getAllDiseases, getDiseaseBySlug } from "@/lib/webdb";
+import { getAllDiseases, getChiefComplaintLinksForTerms, getDiseaseBySlug } from "@/lib/webdb";
 
 export function generateStaticParams() {
   return getAllDiseases().map((note) => ({ slug: note.slug }));
@@ -16,6 +16,8 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
     notFound();
   }
 
+  const ccLinks = getChiefComplaintLinksForTerms(note.chiefComplaints);
+
   return (
     <div className="space-y-6">
       <Link
@@ -26,7 +28,7 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
         Back to {note.specialty}
       </Link>
 
-      <DiseaseCard note={note} />
+      <DiseaseCard note={note} ccLinks={ccLinks} />
     </div>
   );
 }

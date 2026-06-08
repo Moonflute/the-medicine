@@ -93,6 +93,17 @@ export type ChiefComplaintNote = {
   updatedAt: string;
 };
 
+export type ChiefComplaintCategorySummary = {
+  name: string;
+  slug: string;
+  count: number;
+};
+
+export type TermLink = {
+  term: string;
+  href: string;
+};
+
 export type SkillStep = {
   stepNumber: number;
   title: string;
@@ -169,12 +180,6 @@ export function getChiefComplaintBySlug(slug: string): ChiefComplaintNote | unde
   return getChiefComplaints().find((note) => note.slug === slug);
 }
 
-export type ChiefComplaintCategorySummary = {
-  name: string;
-  slug: string;
-  count: number;
-};
-
 export function getChiefComplaintCategories(): ChiefComplaintCategorySummary[] {
   const counts = new Map<string, number>();
 
@@ -198,6 +203,24 @@ export function getChiefComplaintsByCategory(slug: string): ChiefComplaintNote[]
 
 export function getChiefComplaintByCategoryAndSlug(categorySlug: string, slug: string): ChiefComplaintNote | undefined {
   return getChiefComplaints().find((note) => note.slug === slug && toBase64Url(note.category || "기타") === categorySlug);
+}
+
+export function getChiefComplaintLinksForTerms(terms: string[]): TermLink[] {
+  const cleanedTerms = [...new Set(terms.map((term) => term.trim()).filter(Boolean))];
+  const links = new Map<string, string>();
+
+  for (const note of getChiefComplaints()) {
+    const href = `/cc/category/${toBase64Url(note.category || "기타")}/${note.slug}`;
+    const candidates = [note.title, ...note.aliases].map((value) => value.trim()).filter(Boolean);
+
+    for (const candidate of candidates) {
+      if (cleanedTerms.includes(candidate) && !links.has(candidate)) {
+        links.set(candidate, href);
+      }
+    }
+  }
+
+  return [...links.entries()].map(([term, href]) => ({ term, href }));
 }
 
 export function getDrugs(): DomainNote[] {
