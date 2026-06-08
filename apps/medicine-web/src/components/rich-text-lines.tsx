@@ -8,6 +8,24 @@ type ParsedBlock =
   | { type: "line"; line: string }
   | { type: "group"; label: string; items: string[] };
 
+const EMPHASIS_LABELS = [
+  "임상 정보",
+  "용법/용량",
+  "적응증",
+  "금기증",
+  "부작용",
+  "이상반응",
+  "주의사항",
+  "상호작용",
+  "모니터링",
+  "기전",
+  "약동학",
+  "투여",
+  "복약지도",
+  "신장 조절",
+  "간 조절",
+];
+
 function stripWikiMarkup(text: string) {
   return text.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2").replace(/\[\[([^\]]+)\]\]/g, "$1");
 }
@@ -36,6 +54,11 @@ function stripBulletPrefix(text: string) {
 function isSpecialLine(text: string) {
   const trimmed = text.trim();
   return !trimmed || trimmed === "---" || trimmed.startsWith("### ") || trimmed.startsWith("#### ");
+}
+
+function isEmphasisLabelLine(text: string) {
+  const normalized = normalizeInline(text).trim().replace(/[:：]\s*$/, "");
+  return EMPHASIS_LABELS.includes(normalized);
 }
 
 function getLabelOnly(body: string) {
@@ -235,6 +258,16 @@ function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[
 
   if (trimmed === "---") {
     return <hr className="border-stone-200" />;
+  }
+
+  if (isEmphasisLabelLine(trimmed)) {
+    return (
+      <div className="pt-1">
+        <div className="text-[17px] font-semibold tracking-tight text-stone-950">
+          {renderInline(trimmed.replace(/[:：]\s*$/, ""), termLinks, wikiLinks)}
+        </div>
+      </div>
+    );
   }
 
   if (trimmed.startsWith("#### ")) {
