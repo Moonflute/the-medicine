@@ -45,7 +45,7 @@ function renderParagraph(text: string, className: string) {
 
   return (
     <p className={className}>
-      <span className="font-semibold text-stone-900">{labeled.label}:</span>{" "}
+      <span className="font-semibold text-stone-900">{renderInline(labeled.label)}:</span>{" "}
       {renderInline(labeled.body)}
     </p>
   );
