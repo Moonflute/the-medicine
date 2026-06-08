@@ -18,7 +18,7 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
 
   const results = useMemo(() => {
     const term = query.trim().toLowerCase();
-    if (!term) return entries.slice(0, 4);
+    if (!term) return [];
 
     return entries
       .filter((entry) => {
@@ -43,20 +43,22 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
         placeholder="예: 고혈압, 흉통, STEMI"
         className="w-full rounded-2xl border border-stone-200 bg-stone-50 px-4 py-3 text-sm outline-none ring-0 transition focus:border-stone-400"
       />
-      <div className="mt-4 grid gap-3 xl:max-h-[calc(100vh-19rem)] xl:overflow-y-auto xl:pr-1">
-        {results.map((entry) => (
-          <Link
-            key={`${entry.type}:${entry.slug}`}
-            href={entry.href}
-            className="rounded-2xl border border-stone-200 bg-stone-50/80 px-4 py-2.5 transition hover:border-stone-300 hover:bg-white"
-          >
-            <div className="font-medium text-stone-900">{entry.title}</div>
-            <div className="mt-1 text-sm text-stone-600">
-              {entry.type} · {entry.category}
-            </div>
-          </Link>
-        ))}
-      </div>
+      {results.length > 0 ? (
+        <div className="mt-4 grid gap-3 xl:max-h-[calc(100vh-19rem)] xl:overflow-y-auto xl:pr-1">
+          {results.map((entry) => (
+            <Link
+              key={`${entry.type}:${entry.slug}`}
+              href={entry.href}
+              className="rounded-2xl border border-stone-200 bg-stone-50/80 px-4 py-2.5 transition hover:border-stone-300 hover:bg-white"
+            >
+              <div className="font-medium text-stone-900">{entry.title}</div>
+              <div className="mt-1 text-sm text-stone-600">
+                {entry.type} · {entry.category}
+              </div>
+            </Link>
+          ))}
+        </div>
+      ) : null}
     </section>
   );
 }
