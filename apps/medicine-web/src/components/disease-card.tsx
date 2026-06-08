@@ -97,10 +97,14 @@ export function DiseaseCard({
   note,
   compact = false,
   ccLinks = [],
+  diseaseLinks = [],
+  hideOverview = false,
 }: {
   note: DiseaseNote;
   compact?: boolean;
   ccLinks?: TermLink[];
+  diseaseLinks?: TermLink[];
+  hideOverview?: boolean;
 }) {
   const [expanded, setExpanded] = useState(!compact);
   const bookmarks = useBookmarks();
@@ -150,12 +154,12 @@ export function DiseaseCard({
         </div>
       ) : null}
 
-      {overview.length > 0 ? (
+      {!hideOverview && overview.length > 0 ? (
         <div className="mt-6 overflow-hidden rounded-[26px] border border-stone-900/10 bg-[linear-gradient(135deg,_rgba(251,191,36,0.18),_rgba(255,255,255,1)_30%,_rgba(191,219,254,0.28)_100%)] p-5 shadow-sm">
           <div className="mb-3 inline-flex rounded-full bg-stone-900 px-3 py-1 text-xs uppercase tracking-[0.22em] text-stone-50">
             Overview
           </div>
-          <RichTextLines lines={overview} className="grid gap-2.5 lg:grid-cols-2" termLinks={ccLinks} />
+          <RichTextLines lines={overview} className="grid gap-2.5 lg:grid-cols-2" termLinks={ccLinks} wikiLinks={diseaseLinks} />
         </div>
       ) : null}
 
@@ -172,6 +176,7 @@ export function DiseaseCard({
                 className="space-y-2.5"
                 bulletStyle="plain"
                 termLinks={ccLinks}
+                wikiLinks={diseaseLinks}
               />
             </section>
           ))}

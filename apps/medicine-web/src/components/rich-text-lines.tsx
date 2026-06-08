@@ -8,9 +8,13 @@ type ParsedBlock =
   | { type: "line"; line: string }
   | { type: "group"; label: string; items: string[] };
 
+function stripWikiMarkup(text: string) {
+  return text.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2").replace(/\[\[([^\]]+)\]\]/g, "$1");
+}
+
 function normalizeInline(text: string) {
   const safeText = typeof text === "string" ? text : String(text ?? "");
-  return safeText.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2").replace(/\[\[([^\]]+)\]\]/g, "$1");
+  return stripWikiMarkup(safeText);
 }
 
 function plainText(text: string) {
@@ -95,7 +99,40 @@ function parseBlocks(lines: string[], bulletStyle: BulletStyle): ParsedBlock[] {
   return blocks;
 }
 
-function renderLinkedText(text: string, termLinks: TermLink[]) {
+function renderWikiText(text: string, wikiLinks: TermLink[]) {
+  const safeText = typeof text === "string" ? text : String(text ?? "");
+
+  if (wikiLinks.length === 0 || !safeText.includes("[[")) {
+    return stripWikiMarkup(safeText);
+  }
+
+  const hrefByTerm = new Map(wikiLinks.map((item) => [item.term, item.href]));
+  const parts = safeText.split(/(\[\[[^\]]+\]\])/g).filter(Boolean);
+
+  return parts.map((part, index) => {
+    const match = part.match(/^\[\[([^\]|]+)(?:\|([^\]]+))?\]\]$/);
+
+    if (!match) {
+      return <React.Fragment key={`${part}-${index}`}>{part}</React.Fragment>;
+    }
+
+    const rawTarget = match[1].trim();
+    const display = (match[2] ?? rawTarget).trim();
+    const href = hrefByTerm.get(rawTarget) ?? hrefByTerm.get(display);
+
+    if (!href) {
+      return <React.Fragment key={`${part}-${index}`}>{display}</React.Fragment>;
+    }
+
+    return (
+      <Link key={`${part}-${index}`} href={href} className="font-medium text-sky-700 underline decoration-sky-300 underline-offset-2">
+        {display}
+      </Link>
+    );
+  });
+}
+
+function linkPlainTerms(text: string, termLinks: TermLink[]) {
   if (termLinks.length === 0) {
     return text;
   }
@@ -128,20 +165,35 @@ function renderLinkedText(text: string, termLinks: TermLink[]) {
   });
 }
 
-function renderInline(text: string, termLinks: TermLink[]) {
-  const normalized = normalizeInline(text);
-  const parts = normalized.split(/(\*\*[^*]+\*\*)/g).filter(Boolean);
+function renderLinkedText(text: string, termLinks: TermLink[], wikiLinks: TermLink[]) {
+  const wikiRendered = renderWikiText(text, wikiLinks);
+
+  if (!Array.isArray(wikiRendered)) {
+    return linkPlainTerms(wikiRendered, termLinks);
+  }
+
+  return wikiRendered.map((node, nodeIndex) => {
+    if (typeof node !== "string") {
+      return <React.Fragment key={nodeIndex}>{node}</React.Fragment>;
+    }
+
+    return <React.Fragment key={nodeIndex}>{linkPlainTerms(node, termLinks)}</React.Fragment>;
+  });
+}
+
+function renderInline(text: string, termLinks: TermLink[], wikiLinks: TermLink[]) {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g).filter(Boolean);
 
   return parts.map((part, index) => {
     if (part.startsWith("**") && part.endsWith("**")) {
       return (
         <strong key={`${part}-${index}`} className="font-semibold text-stone-900">
-          {renderLinkedText(part.slice(2, -2), termLinks)}
+          {renderLinkedText(part.slice(2, -2), termLinks, wikiLinks)}
         </strong>
       );
     }
 
-    return <React.Fragment key={`${part}-${index}`}>{renderLinkedText(part, termLinks)}</React.Fragment>;
+    return <React.Fragment key={`${part}-${index}`}>{renderLinkedText(part, termLinks, wikiLinks)}</React.Fragment>;
   });
 }
 
@@ -159,22 +211,22 @@ function splitLeadLabel(text: string) {
   };
 }
 
-function renderParagraph(text: string, className: string, termLinks: TermLink[]) {
+function renderParagraph(text: string, className: string, termLinks: TermLink[], wikiLinks: TermLink[]) {
   const labeled = splitLeadLabel(text);
 
   if (!labeled) {
-    return <p className={className}>{renderInline(text, termLinks)}</p>;
+    return <p className={className}>{renderInline(text, termLinks, wikiLinks)}</p>;
   }
 
   return (
     <p className={className}>
-      <span className="font-semibold text-stone-900">{renderInline(labeled.label, termLinks)}:</span>{" "}
-      {renderInline(labeled.body, termLinks)}
+      <span className="font-semibold text-stone-900">{renderInline(labeled.label, termLinks, wikiLinks)}:</span>{" "}
+      {renderInline(labeled.body, termLinks, wikiLinks)}
     </p>
   );
 }
 
-function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[]) {
+function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[], wikiLinks: TermLink[]) {
   const trimmed = (typeof line === "string" ? line : String(line ?? "")).trim();
 
   if (!trimmed) {
@@ -186,11 +238,11 @@ function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[
   }
 
   if (trimmed.startsWith("#### ")) {
-    return <h5 className="font-medium text-stone-900">{renderInline(trimmed.slice(5), termLinks)}</h5>;
+    return <h5 className="font-medium text-stone-900">{renderInline(trimmed.slice(5), termLinks, wikiLinks)}</h5>;
   }
 
   if (trimmed.startsWith("### ")) {
-    return <h4 className="font-medium text-stone-900">{renderInline(trimmed.slice(4), termLinks)}</h4>;
+    return <h4 className="font-medium text-stone-900">{renderInline(trimmed.slice(4), termLinks, wikiLinks)}</h4>;
   }
 
   if (isBulletLine(trimmed)) {
@@ -200,7 +252,7 @@ function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[
       return (
         <div className="flex gap-3">
           <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-stone-400" />
-          {renderParagraph(body, "min-w-0 text-[15px] leading-7 text-stone-700", termLinks)}
+          {renderParagraph(body, "min-w-0 text-[15px] leading-7 text-stone-700", termLinks, wikiLinks)}
         </div>
       );
     }
@@ -208,21 +260,23 @@ function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[
     return (
       <div className="flex gap-3 rounded-2xl border border-stone-200/80 bg-stone-50/60 px-3 py-2.5">
         <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-amber-500" />
-        {renderParagraph(body, "min-w-0 text-[15px] leading-7 text-stone-700", termLinks)}
+        {renderParagraph(body, "min-w-0 text-[15px] leading-7 text-stone-700", termLinks, wikiLinks)}
       </div>
     );
   }
 
-  return renderParagraph(trimmed, "text-[15px] leading-7 text-stone-700", termLinks);
+  return renderParagraph(trimmed, "text-[15px] leading-7 text-stone-700", termLinks, wikiLinks);
 }
 
-function renderGroup(label: string, items: string[], termLinks: TermLink[]) {
+function renderGroup(label: string, items: string[], termLinks: TermLink[], wikiLinks: TermLink[]) {
   return (
     <div className="space-y-2 rounded-2xl bg-white/45 px-3 py-2">
-      <div className="text-[15px] font-semibold leading-7 text-stone-900">{renderInline(label.replace(/:\s*$/, ""), termLinks)}</div>
+      <div className="text-[15px] font-semibold leading-7 text-stone-900">
+        {renderInline(label.replace(/:\s*$/, ""), termLinks, wikiLinks)}
+      </div>
       <div className="space-y-2 border-l border-stone-200 pl-4">
         {items.map((item, index) => (
-          <div key={`${item}-${index}`}>{renderLine(item, "plain", termLinks)}</div>
+          <div key={`${item}-${index}`}>{renderLine(item, "plain", termLinks, wikiLinks)}</div>
         ))}
       </div>
     </div>
@@ -234,11 +288,13 @@ export function RichTextLines({
   className = "space-y-2.5 text-sm text-stone-700",
   bulletStyle = "card",
   termLinks = [],
+  wikiLinks = [],
 }: {
   lines: string[];
   className?: string;
   bulletStyle?: BulletStyle;
   termLinks?: TermLink[];
+  wikiLinks?: TermLink[];
 }) {
   const blocks = parseBlocks(lines, bulletStyle);
 
@@ -247,8 +303,8 @@ export function RichTextLines({
       {blocks.map((block, index) => (
         <div key={index}>
           {block.type === "group"
-            ? renderGroup(block.label, block.items, termLinks)
-            : renderLine(block.line, bulletStyle, termLinks)}
+            ? renderGroup(block.label, block.items, termLinks, wikiLinks)
+            : renderLine(block.line, bulletStyle, termLinks, wikiLinks)}
         </div>
       ))}
     </div>

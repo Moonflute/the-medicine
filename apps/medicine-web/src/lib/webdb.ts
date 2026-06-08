@@ -15,6 +15,10 @@ function toBase64Url(value: string) {
   return Buffer.from(value, "utf-8").toString("base64url");
 }
 
+function normalizeSpecialtyLabel(value: string) {
+  return value.replace(/^\d+\s*/, "").trim();
+}
+
 export type DiseaseSection = {
   title: string;
   content: string[];
@@ -158,6 +162,27 @@ export function getAllDiseases(): DiseaseNote[] {
 
 export function getDiseaseBySlug(slug: string): DiseaseNote | undefined {
   return getAllDiseases().find((note) => note.slug === slug);
+}
+
+export function isSpecialtyIndexDisease(note: DiseaseNote) {
+  return normalizeSpecialtyLabel(note.title) === normalizeSpecialtyLabel(note.specialty);
+}
+
+export function getDiseaseLinks(): TermLink[] {
+  const links = new Map<string, string>();
+
+  for (const note of getAllDiseases()) {
+    const href = `/disease/${note.slug}`;
+    const candidates = [note.title, ...note.aliases].map((value) => value.trim()).filter(Boolean);
+
+    for (const candidate of candidates) {
+      if (!links.has(candidate)) {
+        links.set(candidate, href);
+      }
+    }
+  }
+
+  return [...links.entries()].map(([term, href]) => ({ term, href }));
 }
 
 export function getSpecialties(): SpecialtySummary[] {
