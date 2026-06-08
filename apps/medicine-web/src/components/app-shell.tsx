@@ -17,7 +17,7 @@ const navItems = [
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.0.20";
+  const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.0.21";
   const activeNavStyle = { color: "#fafaf9" };
 
   const title = useMemo(() => {
