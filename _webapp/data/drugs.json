@@ -49,12 +49,8 @@
       "detailClass": "항바이러스(HBV)",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "B형간염"
       ],
@@ -110,15 +106,9 @@
       "detailClass": "항바이러스(HBV/HIV)",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -171,12 +161,8 @@
       "detailClass": "항바이러스(HCV)",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "C형간염"
       ],
@@ -232,12 +218,8 @@
       "detailClass": "항바이러스(HCV)",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "C형간염"
       ],
@@ -294,12 +276,8 @@
       "detailClass": "항바이러스(HBV)",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "B형간염"
       ],
@@ -355,15 +333,9 @@
       "detailClass": "담산제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -430,9 +402,7 @@
       "doses": [
         "200-400mg Tab. 1일 여러 회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -487,15 +457,9 @@
       "detailClass": "구충제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -563,9 +527,7 @@
       "doses": [
         "500mg Cap. 1일 3회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -633,9 +595,7 @@
       "doses": [
         "625mg Tab. 1일 2-3회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -690,15 +650,9 @@
       "detailClass": "폴리엔",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -751,15 +705,9 @@
       "detailClass": "항말라리아",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -828,9 +776,7 @@
       "doses": [
         "250mg Tab. 1일 1회, 요법별 상이."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -884,15 +830,9 @@
       "detailClass": "페니실린",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -947,15 +887,9 @@
       "detailClass": "에키노캔딘",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1013,15 +947,9 @@
       "detailClass": "세팔로스포린",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1077,15 +1005,9 @@
       "detailClass": "세팔로스포린",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1143,15 +1065,9 @@
       "detailClass": "세팔로스포린",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1211,15 +1127,9 @@
       "detailClass": "세팔로스포린",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1277,15 +1187,9 @@
       "detailClass": "세팔로스포린",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1338,15 +1242,9 @@
       "detailClass": "항말라리아",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1413,9 +1311,7 @@
       "doses": [
         "250-500mg Tab. 1일 2회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1483,9 +1379,7 @@
       "doses": [
         "250-500mg Tab. 1일 2회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1541,15 +1435,9 @@
       "detailClass": "리포펩타이드",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1617,9 +1505,7 @@
       "doses": [
         "100mg Tab. 1일 1-2회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1675,15 +1561,9 @@
       "detailClass": "마크롤라이드",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1737,15 +1617,9 @@
       "detailClass": "페니실린",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1813,9 +1687,7 @@
       "doses": [
         "50-150mg Cap. 적응증별 조절."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1871,15 +1743,9 @@
       "detailClass": "포스포마이신",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1931,15 +1797,9 @@
       "detailClass": "CMV",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -1995,15 +1855,9 @@
       "detailClass": "아미노글리코사이드",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2057,15 +1911,9 @@
       "detailClass": "카바페넴",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2120,15 +1968,9 @@
       "detailClass": "구충제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2186,15 +2028,9 @@
       "detailClass": "옥사졸리디논",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2251,15 +2087,9 @@
       "detailClass": "카바페넴",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2327,9 +2157,7 @@
       "doses": [
         "250-500mg Tab. 1일 2-3회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2385,15 +2213,9 @@
       "detailClass": "요로",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2457,9 +2279,7 @@
       "doses": [
         "75mg Cap. 1일 2회 5일."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2517,15 +2337,9 @@
       "detailClass": "우레이도페니실린",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2580,15 +2394,9 @@
       "detailClass": "구충제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2640,15 +2448,9 @@
       "detailClass": "HIV 프로테아제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2706,15 +2508,9 @@
       "detailClass": "설폰아미드",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2766,15 +2562,9 @@
       "detailClass": "HBV/HIV",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2831,15 +2621,9 @@
       "detailClass": "알릴라민",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2895,15 +2679,9 @@
       "detailClass": "글리실사이클린",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -2961,15 +2739,9 @@
       "detailClass": "항균(요로)",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -3024,15 +2796,9 @@
       "detailClass": "헤르페스",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -3090,15 +2856,9 @@
       "detailClass": "글리코펩타이드",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -3154,15 +2914,9 @@
       "detailClass": "아졸계",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -3217,15 +2971,9 @@
       "detailClass": "",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -3279,15 +3027,9 @@
       "detailClass": "전신마취",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -3344,15 +3086,9 @@
       "detailClass": "국소마취",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -3408,15 +3144,9 @@
       "detailClass": "전신마취",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -3471,15 +3201,9 @@
       "detailClass": "근이완(비탈축)",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -3534,15 +3258,9 @@
       "detailClass": "흡입 마취",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -3594,15 +3312,9 @@
       "detailClass": "알파글루코시다제 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -3654,15 +3366,9 @@
       "detailClass": "비스포스포네이트",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -3719,12 +3425,8 @@
       "detailClass": "SGLT2 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "제2형 당뇨병",
         "심부전"
@@ -3870,9 +3572,7 @@
       "doses": [
         "0.5mg Tab. 용량은 적응증별 조절."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -3929,12 +3629,8 @@
       "detailClass": "GLP-1 수용체 작용제",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "제2형 당뇨병"
       ],
@@ -4062,15 +3758,9 @@
       "detailClass": "광물코르티코이드",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -4257,15 +3947,9 @@
       "detailClass": "인슐린",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -4330,9 +4014,7 @@
       "doses": [
         "25-100mcg Tab. 1일 1회 공복."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -4389,12 +4071,8 @@
       "detailClass": "GLP-1 수용체 작용제",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "제2형 당뇨병"
       ],
@@ -4589,15 +4267,9 @@
       "detailClass": "지방 흡수 억제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -4661,9 +4333,7 @@
       "doses": [
         "15-30mg Tab. 1일 1회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -4733,9 +4403,7 @@
       "doses": [
         "5mg Tab. 용량은 적응증별 조절."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -4855,15 +4523,9 @@
       "detailClass": "SERM",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -4915,15 +4577,9 @@
       "detailClass": "메글리티나이드",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -5112,15 +4768,9 @@
       "detailClass": "안드로겐",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -5180,12 +4830,8 @@
       "detailClass": "TNF 억제제",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -5255,9 +4901,7 @@
       "doses": [
         "100mg Tab. 1일 1회 시작."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -5313,12 +4957,8 @@
       "detailClass": "JAK 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -5388,9 +5028,7 @@
       "doses": [
         "100-200mg Cap. 1일 1-2회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -5448,12 +5086,8 @@
       "detailClass": "TNF 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -5523,9 +5157,7 @@
       "doses": [
         "0.6mg Tab. 통풍 발작 시 요법별 조절."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -5583,12 +5215,8 @@
       "detailClass": "TNF 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -5656,9 +5284,7 @@
       "doses": [
         "40mg Tab. 1일 1회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -5716,12 +5342,8 @@
       "detailClass": "TNF 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -5792,9 +5414,7 @@
       "doses": [
         "200-400mg Tab. 필요 시."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -5852,12 +5472,8 @@
       "detailClass": "TNF 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -5915,12 +5531,8 @@
       "detailClass": "",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -6057,9 +5669,7 @@
       "doses": [
         "250mg Tab. 1일 2회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -6114,15 +5724,9 @@
       "detailClass": "항IgE",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -6179,15 +5783,9 @@
       "detailClass": "CD20",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -6242,12 +5840,8 @@
       "detailClass": "",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -6305,15 +5899,9 @@
       "detailClass": "IL-6 억제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -6369,12 +5957,8 @@
       "detailClass": "JAK 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -6433,12 +6017,8 @@
       "detailClass": "JAK 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -6494,12 +6074,8 @@
       "detailClass": "α1 차단제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "전립선비대증"
       ],
@@ -6755,15 +6331,9 @@
       "detailClass": "경구피임",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -6819,15 +6389,9 @@
       "detailClass": "자궁수축",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -6880,15 +6444,9 @@
       "detailClass": "자극성 완하",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -7079,15 +6637,9 @@
       "detailClass": "5-HT3 길항제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -7152,9 +6704,7 @@
       "doses": [
         "15-30mL Syr. 1일 1-2회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -7210,12 +6760,8 @@
       "detailClass": "PPI",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "GERD",
         "소화성 궤양"
@@ -7282,9 +6828,7 @@
       "doses": [
         "2mg Cap. 설사 시, 최대용량 확인."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -7339,15 +6883,9 @@
       "detailClass": "완하",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -7400,15 +6938,9 @@
       "detailClass": "5-ASA",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -7473,9 +7005,7 @@
       "doses": [
         "5-10mg Tab. 1일 3회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -7528,15 +7058,9 @@
       "detailClass": "PGE1 유사체",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -7675,9 +7199,7 @@
       "doses": [
         "4-8mg Tab. 필요 시."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -7805,12 +7327,8 @@
       "detailClass": "PPI",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "GERD",
         "소화성 궤양"
@@ -7868,12 +7386,8 @@
       "detailClass": "H2 수용체 길항제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "소화성 궤양",
         "GERD"
@@ -7930,15 +7444,9 @@
       "detailClass": "점막 보호",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -7994,15 +7502,9 @@
       "detailClass": "중독치료",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -8071,9 +7573,7 @@
       "doses": [
         "0.25mg Tab. 1일 2-3회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -8195,15 +7695,9 @@
       "detailClass": "ADHD",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -8263,15 +7757,9 @@
       "detailClass": "부분 아편 작용제",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -8331,15 +7819,9 @@
       "detailClass": "중독치료",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -8392,15 +7874,9 @@
       "detailClass": "NDRI",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -8455,15 +7931,9 @@
       "detailClass": "나트륨채널",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -8522,15 +7992,9 @@
       "detailClass": "벤조디아제핀",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -8587,12 +8051,8 @@
       "detailClass": "항정신병",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "조현병"
       ],
@@ -8666,9 +8126,7 @@
       "doses": [
         "2mg Tab. 필요 시."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -8733,9 +8191,7 @@
       "doses": [
         "5mg Tab. 1일 1회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -8864,15 +8320,9 @@
       "detailClass": "아편유사제",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -8999,15 +8449,9 @@
       "detailClass": "가바펜티노이드",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -9269,15 +8713,9 @@
       "detailClass": "도파민 전구체",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -9348,9 +8786,7 @@
       "doses": [
         "0.5-1mg Tab. 1일 1-3회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -9413,9 +8849,7 @@
       "doses": [
         "5mg 시작 후 증량."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -9470,15 +8904,9 @@
       "detailClass": "ADHD",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -9539,15 +8967,9 @@
       "detailClass": "벤조디아제핀",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -9600,15 +9022,9 @@
       "detailClass": "NaSSA",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -9668,15 +9084,9 @@
       "detailClass": "아편유사제",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -9737,15 +9147,9 @@
       "detailClass": "중독치료",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -9872,12 +9276,8 @@
       "detailClass": "",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "뇌전증"
       ],
@@ -9938,15 +9338,9 @@
       "detailClass": "아편유사제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -10002,15 +9396,9 @@
       "detailClass": "아세트아미노펜",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -10065,15 +9453,9 @@
       "detailClass": "나트륨채널",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -10129,15 +9511,9 @@
       "detailClass": "가바펜티노이드",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -10406,15 +9782,9 @@
       "detailClass": "트립탄",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -10543,15 +9913,9 @@
       "detailClass": "아편유사제",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -10616,9 +9980,7 @@
       "doses": [
         "서방정. 용량은 혈중농도/적응증별 조절."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -10675,12 +10037,8 @@
       "detailClass": "SNRI",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "우울장애"
       ],
@@ -10739,15 +10097,9 @@
       "detailClass": "Z-drug",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -10801,15 +10153,9 @@
       "detailClass": "PCSK9 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -10862,15 +10208,9 @@
       "detailClass": "렌인 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -10933,9 +10273,7 @@
       "doses": [
         "200mg Tab. 유지 1일 1회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -11079,9 +10417,7 @@
       "doses": [
         "100mg Tab. 1일 1회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -11227,9 +10563,7 @@
       "doses": [
         "10-20mg Tab. 1일 1회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -11365,12 +10699,8 @@
       "detailClass": "루프 이뇨제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "심부전"
       ],
@@ -11434,12 +10764,8 @@
       "detailClass": "ARB",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]",
         "심부전"
@@ -11506,12 +10832,8 @@
       "detailClass": "ACE 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]",
         "심부전",
@@ -11651,12 +10973,8 @@
       "detailClass": "티아지드계 이뇨제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]"
       ],
@@ -11712,15 +11030,9 @@
       "detailClass": "PDE 억제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -11789,9 +11101,7 @@
       "doses": [
         "75mg Tab. 1일 1회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -11854,9 +11164,7 @@
       "doses": [
         "0.125-0.25mg Tab. 1일 1회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -11984,15 +11292,9 @@
       "detailClass": "항혈소판",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -12045,15 +11347,9 @@
       "detailClass": "III류 항부정맥",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -12263,12 +11559,8 @@
       "detailClass": "베타차단제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]",
         "협심증"
@@ -12331,12 +11623,8 @@
       "detailClass": "루프 이뇨제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "심부전"
       ],
@@ -12393,15 +11681,9 @@
       "detailClass": "PCSK9 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -12466,9 +11748,7 @@
       "doses": [
         "10mg Tab. 1일 1회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -12527,12 +11807,8 @@
       "detailClass": "칼슘채널차단제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]",
         "협심증"
@@ -12591,15 +11867,9 @@
       "detailClass": "피브레이트",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -12652,15 +11922,9 @@
       "detailClass": "I류 항부정맥",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -12716,15 +11980,9 @@
       "detailClass": "HMG-CoA 환원효소 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -12787,12 +12045,8 @@
       "detailClass": "ACE 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]",
         "심부전",
@@ -12927,15 +12181,9 @@
       "detailClass": "피브레이트",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -13065,12 +12313,8 @@
       "detailClass": "티아지드계 이뇨제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]"
       ],
@@ -13134,12 +12378,8 @@
       "detailClass": "ARB",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]",
         "심부전"
@@ -13200,12 +12440,8 @@
       "detailClass": "질산염",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "협심증"
       ],
@@ -13261,15 +12497,9 @@
       "detailClass": "If 채널 억제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -13331,12 +12561,8 @@
       "detailClass": "베타차단제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]",
         "협심증"
@@ -13550,15 +12776,9 @@
       "detailClass": "HMG-CoA 환원효소 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -13616,12 +12836,8 @@
       "detailClass": "티아지드계 이뇨제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]"
       ],
@@ -13689,12 +12905,8 @@
       "detailClass": "베타차단제",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]",
         "협심증"
@@ -13760,12 +12972,8 @@
       "detailClass": "베타차단제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]",
         "협심증"
@@ -13828,12 +13036,8 @@
       "detailClass": "칼슘채널차단제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]",
         "협심증"
@@ -14043,12 +13247,8 @@
       "detailClass": "ACE 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]",
         "심부전",
@@ -14109,15 +13309,9 @@
       "detailClass": "HMG-CoA 환원효소 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -14173,15 +13367,9 @@
       "detailClass": "P2Y12 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -14237,15 +13425,9 @@
       "detailClass": "HMG-CoA 환원효소 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -14298,15 +13480,9 @@
       "detailClass": "Ic류 항부정맥",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -14446,12 +13622,8 @@
       "detailClass": "ACE 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "[[고혈압]]",
         "심부전",
@@ -14588,15 +13760,9 @@
       "detailClass": "항협심(기타)",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -14665,9 +13831,7 @@
       "doses": [
         "5-10mg Tab. 1일 1회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -14720,15 +13884,9 @@
       "detailClass": "ARNI(성분)",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -14794,9 +13952,7 @@
       "doses": [
         "20mg Tab. 1일 1회 저녁."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -14849,15 +14005,9 @@
       "detailClass": "III류 항부정맥",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -15057,15 +14207,9 @@
       "detailClass": "P2Y12 억제제",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -15124,12 +14268,8 @@
       "detailClass": "루프 이뇨제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "심부전"
       ],
@@ -15333,15 +14473,9 @@
       "detailClass": "국소 코르티코스테로이드",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -15394,12 +14528,8 @@
       "detailClass": "안압 강하",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "녹내장"
       ],
@@ -15523,12 +14653,8 @@
       "detailClass": "안압 강하",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "녹내장"
       ],
@@ -15583,15 +14709,9 @@
       "detailClass": "국소 스테로이드",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -15643,15 +14763,9 @@
       "detailClass": "국소 코르티코스테로이드",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -15834,15 +14948,9 @@
       "detailClass": "국소 코르티코스테로이드",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -15957,15 +15065,9 @@
       "detailClass": "간독성(아세트아미노펜)",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16015,15 +15117,9 @@
       "detailClass": "흡착",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16073,15 +15169,9 @@
       "detailClass": "벤조 길항제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16133,15 +15223,9 @@
       "detailClass": "아편 길항제",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16193,15 +15277,9 @@
       "detailClass": "칼륨 보충",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16254,15 +15332,9 @@
       "detailClass": "항VEGF",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16329,9 +15401,7 @@
       "doses": [
         "주사제. AUC 기반 투여."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16398,9 +15468,7 @@
       "doses": [
         "주사제. 항암 프로토콜별 투여."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16453,15 +15521,9 @@
       "detailClass": "알킬화제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16514,15 +15576,9 @@
       "detailClass": "안트라사이클린",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16585,9 +15641,7 @@
       "doses": [
         "400mg Tab. 1일 1회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16650,9 +15704,7 @@
       "doses": [
         "2.5mg Tab. 1일 1회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16707,15 +15759,9 @@
       "detailClass": "PD-1 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16768,15 +15814,9 @@
       "detailClass": "EGFR TKI",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16833,15 +15873,9 @@
       "detailClass": "플라티넘",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16894,15 +15928,9 @@
       "detailClass": "미세관억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -16957,15 +15985,9 @@
       "detailClass": "PD-1 억제제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -17028,9 +16050,7 @@
       "doses": [
         "20mg Tab. 1일 1회."
       ],
-      "relatedDiseases": [
-        ""
-      ],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -17083,15 +16103,9 @@
       "detailClass": "항체",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -17147,15 +16161,9 @@
       "detailClass": "tPA",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -17209,15 +16217,9 @@
       "detailClass": "항섬유소용해",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -17416,15 +16418,9 @@
       "detailClass": "VWF 방출 촉진",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -17480,12 +16476,8 @@
       "detailClass": "직접 경구 항응고제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "심방세동",
         "심부정맥혈전증",
@@ -17546,15 +16538,9 @@
       "detailClass": "저분자 헤파린",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -17608,15 +16594,9 @@
       "detailClass": "ESA",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -17670,15 +16650,9 @@
       "detailClass": "G-CSF",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -17732,15 +16706,9 @@
       "detailClass": "Xa 선택적 억제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -17796,15 +16764,9 @@
       "detailClass": "헤파린계",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -17860,12 +16822,8 @@
       "detailClass": "비타민 K 길항제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "심방세동"
       ],
@@ -17995,15 +16953,9 @@
       "detailClass": "스트렙토키나제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -18059,15 +17011,9 @@
       "detailClass": "항섬유소용해",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
-      "relatedDiseases": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
+      "relatedDiseases": [],
       "profile": "drug_core_global_v1"
     }
   },
@@ -18191,12 +17137,8 @@
       "detailClass": "LAMA",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "COPD"
       ],
@@ -18252,12 +17194,8 @@
       "detailClass": "흡입 코르티코스테로이드",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "천식"
       ],
@@ -18381,12 +17319,8 @@
       "detailClass": "흡입 코르티코스테로이드",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "천식"
       ],
@@ -18512,12 +17446,8 @@
       "detailClass": "LABA",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "COPD"
       ],
@@ -18574,12 +17504,8 @@
       "detailClass": "LABA",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "COPD"
       ],
@@ -18639,12 +17565,8 @@
       "detailClass": "SAMA",
       "clinicalCore": true,
       "priority": "tier_2",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "천식",
         "COPD"
@@ -18773,12 +17695,8 @@
       "detailClass": "PDE4 억제",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "천식",
         "COPD"
@@ -18907,12 +17825,8 @@
       "detailClass": "LABA",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "COPD"
       ],
@@ -19103,12 +18017,8 @@
       "detailClass": "LAMA",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "COPD"
       ],
@@ -19165,12 +18075,8 @@
       "detailClass": "LABA",
       "clinicalCore": false,
       "priority": "general",
-      "brands": [
-        ""
-      ],
-      "doses": [
-        ""
-      ],
+      "brands": [],
+      "doses": [],
       "relatedDiseases": [
         "COPD"
       ],

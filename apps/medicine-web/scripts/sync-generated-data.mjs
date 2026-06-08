@@ -58,6 +58,7 @@ function readList(value) {
     .map((line) => line.replace(/^- /, "").replace(/^["']|["']$/g, "").trim())
     .filter(Boolean)
     .map((line) => line.replace(/^\-\s*/, "").trim())
+    .filter(Boolean)
     .filter((line) => line !== "[]");
 }
 
@@ -399,7 +400,7 @@ function buildDrugs() {
     const detailClass = readScalar(frontmatter["분류_세부"]);
     const brands = readList(frontmatter["상품명"]);
     const doses = readList(frontmatter["용량"]);
-    const relatedDiseases = readList(frontmatter["related_diseases"]).filter((item) => item !== "-");
+    const relatedDiseases = readList(frontmatter["related_diseases"]).filter((item) => item && item !== "-");
     const calloutSummary = extractSummaryCallout(body);
     const clinicalSection = firstSectionText(sections, "임상 사용");
     const fallbackSummary = clinicalSection.slice(0, 5);
