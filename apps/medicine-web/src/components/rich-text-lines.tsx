@@ -2,13 +2,97 @@ import React from "react";
 import Link from "next/link";
 import type { TermLink } from "@/lib/webdb";
 
+type BulletStyle = "plain" | "card";
+
+type ParsedBlock =
+  | { type: "line"; line: string }
+  | { type: "group"; label: string; items: string[] };
+
 function normalizeInline(text: string) {
   const safeText = typeof text === "string" ? text : String(text ?? "");
   return safeText.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2").replace(/\[\[([^\]]+)\]\]/g, "$1");
 }
 
+function plainText(text: string) {
+  return normalizeInline(text).replace(/\*\*/g, "").trim();
+}
+
 function escapeRegex(value: string) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function isBulletLine(text: string) {
+  return /^(?:•|-|\?\?)\s+/.test(text.trim());
+}
+
+function stripBulletPrefix(text: string) {
+  return text.trim().replace(/^(?:•|-|\?\?)\s+/, "");
+}
+
+function isSpecialLine(text: string) {
+  const trimmed = text.trim();
+  return !trimmed || trimmed === "---" || trimmed.startsWith("### ") || trimmed.startsWith("#### ");
+}
+
+function getLabelOnly(body: string) {
+  const plain = plainText(body);
+  const match = plain.match(/^([^:]{1,32}):\s*$/);
+  return match ? match[1] : null;
+}
+
+function parseBlocks(lines: string[], bulletStyle: BulletStyle): ParsedBlock[] {
+  if (bulletStyle !== "plain") {
+    return lines.map((line) => ({ type: "line", line }));
+  }
+
+  const blocks: ParsedBlock[] = [];
+  let currentGroup: ParsedBlock | null = null;
+
+  const flushGroup = () => {
+    if (currentGroup?.type === "group") {
+      blocks.push(currentGroup);
+      currentGroup = null;
+    }
+  };
+
+  for (const line of lines) {
+    const trimmed = (typeof line === "string" ? line : String(line ?? "")).trim();
+
+    if (isSpecialLine(trimmed)) {
+      flushGroup();
+      blocks.push({ type: "line", line: trimmed });
+      continue;
+    }
+
+    if (isBulletLine(trimmed)) {
+      const body = stripBulletPrefix(trimmed);
+      const labelOnly = getLabelOnly(body);
+
+      if (labelOnly) {
+        flushGroup();
+        currentGroup = { type: "group", label: body, items: [] };
+        continue;
+      }
+
+      if (currentGroup?.type === "group") {
+        currentGroup.items.push(trimmed);
+        continue;
+      }
+
+      blocks.push({ type: "line", line: trimmed });
+      continue;
+    }
+
+    if (currentGroup?.type === "group") {
+      currentGroup.items.push(trimmed);
+      continue;
+    }
+
+    blocks.push({ type: "line", line: trimmed });
+  }
+
+  flushGroup();
+  return blocks;
 }
 
 function renderLinkedText(text: string, termLinks: TermLink[]) {
@@ -90,7 +174,7 @@ function renderParagraph(text: string, className: string, termLinks: TermLink[])
   );
 }
 
-function renderLine(line: string, bulletStyle: "plain" | "card", termLinks: TermLink[]) {
+function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[]) {
   const trimmed = (typeof line === "string" ? line : String(line ?? "")).trim();
 
   if (!trimmed) {
@@ -109,8 +193,8 @@ function renderLine(line: string, bulletStyle: "plain" | "card", termLinks: Term
     return <h4 className="font-medium text-stone-900">{renderInline(trimmed.slice(4), termLinks)}</h4>;
   }
 
-  if (/^(?:•|-|\?\?)\s+/.test(trimmed)) {
-    const body = trimmed.replace(/^(?:•|-|\?\?)\s+/, "");
+  if (isBulletLine(trimmed)) {
+    const body = stripBulletPrefix(trimmed);
 
     if (bulletStyle === "plain") {
       return (
@@ -132,6 +216,19 @@ function renderLine(line: string, bulletStyle: "plain" | "card", termLinks: Term
   return renderParagraph(trimmed, "text-[15px] leading-7 text-stone-700", termLinks);
 }
 
+function renderGroup(label: string, items: string[], termLinks: TermLink[]) {
+  return (
+    <div className="space-y-2 rounded-2xl bg-white/45 px-3 py-2">
+      <div className="text-[15px] font-semibold leading-7 text-stone-900">{renderInline(label.replace(/:\s*$/, ""), termLinks)}</div>
+      <div className="space-y-2 border-l border-stone-200 pl-4">
+        {items.map((item, index) => (
+          <div key={`${item}-${index}`}>{renderLine(item, "plain", termLinks)}</div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export function RichTextLines({
   lines,
   className = "space-y-2.5 text-sm text-stone-700",
@@ -140,13 +237,19 @@ export function RichTextLines({
 }: {
   lines: string[];
   className?: string;
-  bulletStyle?: "plain" | "card";
+  bulletStyle?: BulletStyle;
   termLinks?: TermLink[];
 }) {
+  const blocks = parseBlocks(lines, bulletStyle);
+
   return (
     <div className={className}>
-      {lines.map((line, index) => (
-        <div key={`${String(line)}-${index}`}>{renderLine(line, bulletStyle, termLinks)}</div>
+      {blocks.map((block, index) => (
+        <div key={index}>
+          {block.type === "group"
+            ? renderGroup(block.label, block.items, termLinks)
+            : renderLine(block.line, bulletStyle, termLinks)}
+        </div>
       ))}
     </div>
   );
