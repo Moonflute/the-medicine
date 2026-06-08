@@ -89,7 +89,11 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
           {note.sections.map((section) => (
             <section key={section.title} className="rounded-2xl border border-stone-200 p-4">
               <h3 className="font-medium text-stone-900">{section.title}</h3>
-              <RichTextLines lines={section.content} className="mt-2 space-y-2 text-sm leading-6 text-stone-700" />
+              <RichTextLines
+                lines={section.content}
+                className="mt-2 space-y-2 text-sm leading-6 text-stone-700"
+                bulletStyle="plain"
+              />
             </section>
           ))}
         </div>
