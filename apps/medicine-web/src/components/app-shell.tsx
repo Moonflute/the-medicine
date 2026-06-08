@@ -17,7 +17,7 @@ const navItems = [
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.0.18";
+  const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.0.19";
   const activeNavStyle = { color: "#fafaf9" };
 
   const title = useMemo(() => {
@@ -39,6 +39,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               </div>
               <div>
                 <div className="font-serif text-xl font-semibold tracking-tight">The Medicine</div>
+                <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-stone-500">v {version}</div>
               </div>
             </Link>
           </div>
@@ -77,6 +78,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                 </button>
                 <div>
                   <div className="font-serif text-xl font-semibold tracking-tight">{title}</div>
+                  {pathname === "/" ? (
+                    <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-stone-500 xl:hidden">v {version}</div>
+                  ) : null}
                 </div>
               </div>
               <Link
@@ -115,11 +119,6 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           <main className="flex-1 px-4 py-6 sm:px-6 xl:px-8">
             <div className="mx-auto max-w-7xl">{children}</div>
           </main>
-
-          <div className="pointer-events-none fixed bottom-24 right-3 z-30 rounded-full border border-stone-200 bg-white/85 px-3 py-1 text-[11px] text-stone-500 shadow-sm backdrop-blur xl:bottom-4 xl:right-4">
-            v {version}
-          </div>
-
           <nav className="sticky bottom-0 z-40 border-t border-stone-200 bg-[#faf7f1]/95 px-3 py-3 backdrop-blur xl:hidden">
             <div className="grid grid-cols-3 gap-2">
               {navItems.map((item) => {
