@@ -1,12 +1,28 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
-import { DomainNoteCard } from "@/components/domain-note-card";
+import { ArrowLeft, ChevronRight } from "lucide-react";
 import { buildDrugGroups } from "@/lib/drug-groups";
 import { getDrugs } from "@/lib/webdb";
 
 export function generateStaticParams() {
   return buildDrugGroups(getDrugs()).map((group) => ({ slug: group.slug }));
+}
+
+function DrugLinks({ notes }: { notes: ReturnType<typeof getDrugs> }) {
+  return (
+    <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
+      {notes.map((note) => (
+        <Link
+          key={note.slug}
+          href={`/drugs/${note.slug}`}
+          className="flex items-center justify-between rounded-2xl border border-stone-200 bg-stone-50/70 px-4 py-3 transition hover:border-stone-300 hover:bg-white"
+        >
+          <span className="pr-3 text-sm font-medium text-stone-900">{note.title}</span>
+          <ChevronRight className="h-4 w-4 shrink-0 text-stone-400" />
+        </Link>
+      ))}
+    </div>
+  );
 }
 
 export default async function DrugCategoryPage(props: { params: Promise<{ slug: string }> }) {
@@ -43,11 +59,7 @@ export default async function DrugCategoryPage(props: { params: Promise<{ slug: 
 
             <div className="space-y-5">
               {middleGroup.notes.length > 0 ? (
-                <div className="grid gap-4 lg:grid-cols-2">
-                  {middleGroup.notes.map((note) => (
-                    <DomainNoteCard key={note.slug} note={note} href={`/drugs/${note.slug}`} />
-                  ))}
-                </div>
+                <DrugLinks notes={middleGroup.notes} />
               ) : null}
 
               {middleGroup.detailGroups.map((detailGroup) => (
@@ -60,11 +72,7 @@ export default async function DrugCategoryPage(props: { params: Promise<{ slug: 
                     <div className="h-px flex-1 bg-stone-200" />
                   </div>
 
-                  <div className="grid gap-4 lg:grid-cols-2">
-                    {detailGroup.notes.map((note) => (
-                      <DomainNoteCard key={note.slug} note={note} href={`/drugs/${note.slug}`} />
-                    ))}
-                  </div>
+                  <DrugLinks notes={detailGroup.notes} />
                 </div>
               ))}
             </div>
