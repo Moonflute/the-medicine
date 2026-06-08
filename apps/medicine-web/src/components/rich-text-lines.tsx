@@ -8,23 +8,8 @@ type ParsedBlock =
   | { type: "line"; line: string }
   | { type: "group"; label: string; items: string[] };
 
-const EMPHASIS_LABELS = [
-  "임상 정보",
-  "용법/용량",
-  "적응증",
-  "금기증",
-  "부작용",
-  "이상반응",
-  "주의사항",
-  "상호작용",
-  "모니터링",
-  "기전",
-  "약동학",
-  "투여",
-  "복약지도",
-  "신장 조절",
-  "간 조절",
-];
+const EMPHASIS_LABEL_PATTERN =
+  /^(임상 정보|용법\/용량|적응증|금기증|부작용|이상반응|주의사항|주의|상호작용|모니터링|기전|약동학|투여|복약지도|신장 조절|간 조절)$/;
 
 function stripWikiMarkup(text: string) {
   return text.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2").replace(/\[\[([^\]]+)\]\]/g, "$1");
@@ -56,9 +41,16 @@ function isSpecialLine(text: string) {
   return !trimmed || trimmed === "---" || trimmed.startsWith("### ") || trimmed.startsWith("#### ");
 }
 
+function normalizeLabelText(text: string) {
+  return normalizeInline(text)
+    .trim()
+    .replace(/^#{3,4}\s*/, "")
+    .replace(/[:：]\s*$/, "")
+    .trim();
+}
+
 function isEmphasisLabelLine(text: string) {
-  const normalized = normalizeInline(text).trim().replace(/[:：]\s*$/, "");
-  return EMPHASIS_LABELS.includes(normalized);
+  return EMPHASIS_LABEL_PATTERN.test(normalizeLabelText(text));
 }
 
 function getLabelOnly(body: string) {
@@ -249,6 +241,16 @@ function renderParagraph(text: string, className: string, termLinks: TermLink[],
   );
 }
 
+function renderEmphasisLabel(text: string, termLinks: TermLink[], wikiLinks: TermLink[]) {
+  return (
+    <div className="pt-1">
+      <div className="text-[17px] font-semibold tracking-tight text-stone-950">
+        {renderInline(normalizeLabelText(text), termLinks, wikiLinks)}
+      </div>
+    </div>
+  );
+}
+
 function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[], wikiLinks: TermLink[]) {
   const trimmed = (typeof line === "string" ? line : String(line ?? "")).trim();
 
@@ -261,21 +263,23 @@ function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[
   }
 
   if (isEmphasisLabelLine(trimmed)) {
-    return (
-      <div className="pt-1">
-        <div className="text-[17px] font-semibold tracking-tight text-stone-950">
-          {renderInline(trimmed.replace(/[:：]\s*$/, ""), termLinks, wikiLinks)}
-        </div>
-      </div>
-    );
+    return renderEmphasisLabel(trimmed, termLinks, wikiLinks);
   }
 
   if (trimmed.startsWith("#### ")) {
-    return <h5 className="font-medium text-stone-900">{renderInline(trimmed.slice(5), termLinks, wikiLinks)}</h5>;
+    const heading = trimmed.slice(5);
+    if (isEmphasisLabelLine(heading)) {
+      return renderEmphasisLabel(heading, termLinks, wikiLinks);
+    }
+    return <h5 className="font-medium text-stone-900">{renderInline(heading, termLinks, wikiLinks)}</h5>;
   }
 
   if (trimmed.startsWith("### ")) {
-    return <h4 className="font-medium text-stone-900">{renderInline(trimmed.slice(4), termLinks, wikiLinks)}</h4>;
+    const heading = trimmed.slice(4);
+    if (isEmphasisLabelLine(heading)) {
+      return renderEmphasisLabel(heading, termLinks, wikiLinks);
+    }
+    return <h4 className="font-medium text-stone-900">{renderInline(heading, termLinks, wikiLinks)}</h4>;
   }
 
   if (isBulletLine(trimmed)) {
