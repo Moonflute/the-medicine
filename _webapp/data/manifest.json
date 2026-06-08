@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T00:48:10.429Z",
+  "generatedAt": "2026-06-08T08:36:13.034Z",
   "sourceRoot": "vault_medicine",
   "outputRoot": "_webapp/data",
   "domains": {
@@ -12,7 +12,7 @@
       "source": "01 Chief Complaint"
     },
     "drugs": {
-      "count": 291,
+      "count": 319,
       "source": "04 Pharmacology"
     },
     "physiology": {

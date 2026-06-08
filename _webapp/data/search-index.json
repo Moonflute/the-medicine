@@ -14513,6 +14513,78 @@
     "href": "/cc/category/7IOB64u0/7Z2h7JewIOyDgeuLtA"
   },
   {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDFfMSBDZWxsdWxhciBQaHlzaW9sb2d5Lm1k",
+    "title": "001_1 Cellular Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDFfMSBDZWxsdWxhciBQaHlzaW9sb2d5Lm1k"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDJfMiBBdXRvbm9taWMgTmVydm91cyBTeXN0ZW0ubWQ",
+    "title": "002_2 Autonomic Nervous System",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDJfMiBBdXRvbm9taWMgTmVydm91cyBTeXN0ZW0ubWQ"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDNfMyBOZXVyb3BoeXNpb2xvZ3kubWQ",
+    "title": "003_3 Neurophysiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDNfMyBOZXVyb3BoeXNpb2xvZ3kubWQ"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDRfNCBDYXJkaW92YXNjdWxhciBQaHlzaW9sb2d5Lm1k",
+    "title": "004_4 Cardiovascular Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDRfNCBDYXJkaW92YXNjdWxhciBQaHlzaW9sb2d5Lm1k"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDVfNSBSZXNwaXJhdG9yeSBQaHlzaW9sb2d5Lm1k",
+    "title": "005_5 Respiratory Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDVfNSBSZXNwaXJhdG9yeSBQaHlzaW9sb2d5Lm1k"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDZfNiBSZW5hbCBQaHlzaW9sb2d5Lm1k",
+    "title": "006_6 Renal Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDZfNiBSZW5hbCBQaHlzaW9sb2d5Lm1k"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDdfNyBBY2lkLUJhc2UgUGh5c2lvbG9neS5tZA",
+    "title": "007_7 Acid-Base Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDdfNyBBY2lkLUJhc2UgUGh5c2lvbG9neS5tZA"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDhfOCBHYXN0cm9pbnRlc3RpbmFsIFBoeXNpb2xvZ3kubWQ",
+    "title": "008_8 Gastrointestinal Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDhfOCBHYXN0cm9pbnRlc3RpbmFsIFBoeXNpb2xvZ3kubWQ"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDlfOSBFbmRvY3JpbmUgUGh5c2lvbG9neS5tZA",
+    "title": "009_9 Endocrine Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDlfOSBFbmRvY3JpbmUgUGh5c2lvbG9neS5tZA"
+  },
+  {
     "type": "drug",
     "slug": "ZHJ1ZzrqsITri7Tst4wvRW50ZWNhdmlyLm1k",
     "title": "Entecavir",
@@ -14767,6 +14839,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvQ2xpbmRhbXljaW4ubWQ",
+    "title": "Clindamycin",
+    "category": "감염 > 항균 > 린코사마이드",
+    "aliases": [
+      "clindamycin",
+      "클린다마이신"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2xpbmRhbXljaW4ubWQ"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrqsJDsl7wvRGFwdG9teWNpbi5tZA",
     "title": "Daptomycin",
     "category": "감염 > 항균 > 리포펩타이드",
@@ -14877,6 +14960,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvTGV2b2Zsb3hhY2luLm1k",
+    "title": "Levofloxacin",
+    "category": "감염 > 항균 > 퀴놀론",
+    "aliases": [
+      "levofloxacin",
+      "레보플록사신"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvTGV2b2Zsb3hhY2luLm1k"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrqsJDsl7wvTGluZXpvbGlkLm1k",
     "title": "Linezolid",
     "category": "감염 > 항균 > 옥사졸리디논",
@@ -14907,6 +15001,17 @@
       "메트로니다졸"
     ],
     "href": "/drugs/ZHJ1ZzrqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvTW94aWZsb3hhY2luLm1k",
+    "title": "Moxifloxacin",
+    "category": "감염 > 항균 > 퀴놀론",
+    "aliases": [
+      "moxifloxacin",
+      "목시플록사신"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvTW94aWZsb3hhY2luLm1k"
   },
   {
     "type": "drug",
@@ -15031,6 +15136,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvVmFsZ2FuY2ljbG92aXIubWQ",
+    "title": "Valganciclovir",
+    "category": "감염 > 항바이러스 > CMV",
+    "aliases": [
+      "valganciclovir",
+      "발간시클로비르"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvVmFsZ2FuY2ljbG92aXIubWQ"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrqsJDsl7wvVmFuY29teWNpbi5tZA",
     "title": "Vancomycin",
     "category": "감염 > 항균 > 글리코펩타이드",
@@ -15072,6 +15188,17 @@
       "케타민"
     ],
     "href": "/drugs/ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldGFtaW5lLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldG9yb2xhYy5tZA",
+    "title": "Ketorolac",
+    "category": "근골격·통증·마취 > 진통 > NSAID",
+    "aliases": [
+      "ketorolac",
+      "케토롤락"
+    ],
+    "href": "/drugs/ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldG9yb2xhYy5tZA"
   },
   {
     "type": "drug",
@@ -15229,6 +15356,28 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluQXNwYXJ0Lm1k",
+    "title": "InsulinAspart",
+    "category": "내분비·대사 > 당뇨 > 인슐린",
+    "aliases": [
+      "insulin aspart",
+      "인슐린 아스파트"
+    ],
+    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluQXNwYXJ0Lm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluRGVnbHVkZWMubWQ",
+    "title": "InsulinDegludec",
+    "category": "내분비·대사 > 당뇨 > 인슐린",
+    "aliases": [
+      "insulin degludec",
+      "인슐린 데글루덱"
+    ],
+    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluRGVnbHVkZWMubWQ"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluR2xhcmdpbmUubWQ",
     "title": "InsulinGlargine",
     "category": "내분비·대사 > 당뇨 > 인슐린",
@@ -15237,6 +15386,39 @@
       "인슐린 글라진"
     ],
     "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluR2xhcmdpbmUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTGlzcHJvLm1k",
+    "title": "InsulinLispro",
+    "category": "내분비·대사 > 당뇨 > 인슐린",
+    "aliases": [
+      "insulin lispro",
+      "인슐린 리스프로"
+    ],
+    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTGlzcHJvLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTnBoLm1k",
+    "title": "InsulinNph",
+    "category": "내분비·대사 > 당뇨 > 인슐린",
+    "aliases": [
+      "insulin nph",
+      "인슐린 NPH"
+    ],
+    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTnBoLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluUmVndWxhci5tZA",
+    "title": "InsulinRegular",
+    "category": "내분비·대사 > 당뇨 > 인슐린",
+    "aliases": [
+      "insulin regular",
+      "인슐린 regular"
+    ],
+    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluUmVndWxhci5tZA"
   },
   {
     "type": "drug",
@@ -15878,6 +16060,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k",
+    "title": "Amitriptyline",
+    "category": "신경·정신 > 정신 > TCA",
+    "aliases": [
+      "amitriptyline",
+      "아미트립틸린"
+    ],
+    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BcmlwaXByYXpvbGUubWQ",
     "title": "Aripiprazole",
     "category": "신경·정신 > 정신 > 항정신병",
@@ -15999,6 +16192,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Fc2NpdGFsb3ByYW0ubWQ",
+    "title": "Escitalopram",
+    "category": "신경·정신 > 정신 > SSRI",
+    "aliases": [
+      "escitalopram",
+      "에스시탈로프람"
+    ],
+    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Fc2NpdGFsb3ByYW0ubWQ"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9GZW50YW55bC5tZA",
     "title": "Fentanyl",
     "category": "신경·정신 > 진통 > 아편유사제",
@@ -16073,6 +16277,17 @@
       "레보도파"
     ],
     "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k",
+    "title": "Lithium",
+    "category": "신경·정신 > 정신 > 기분안정제",
+    "aliases": [
+      "lithium",
+      "리튬"
+    ],
+    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k"
   },
   {
     "type": "drug",
@@ -16318,6 +16533,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQWRlbm9zaW5lLm1k",
+    "title": "Adenosine",
+    "category": "심혈계 > 부정맥 > 기타 항부정맥",
+    "aliases": [
+      "adenosine",
+      "아데노신"
+    ],
+    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQWRlbm9zaW5lLm1k"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQWxpcm9jdW1hYi5tZA",
     "title": "Alirocumab",
     "category": "심혈계 > 지질 > PCSK9 억제제",
@@ -16516,6 +16742,28 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRG9idXRhbWluZS5tZA",
+    "title": "Dobutamine",
+    "category": "심혈계 > 쇼크·응급 > 강심제",
+    "aliases": [
+      "dobutamine",
+      "도부타민"
+    ],
+    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRG9idXRhbWluZS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRG9wYW1pbmUubWQ",
+    "title": "Dopamine",
+    "category": "심혈계 > 쇼크·응급 > 카테콜아민",
+    "aliases": [
+      "dopamine",
+      "도파민"
+    ],
+    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRG9wYW1pbmUubWQ"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRHJvbmVkYXJvbmUubWQ",
     "title": "Dronedarone",
     "category": "심혈계 > 부정맥 > III류 항부정맥",
@@ -16535,6 +16783,17 @@
       "에날라프릴"
     ],
     "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRW5hbGFwcmlsLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ",
+    "title": "Epinephrine",
+    "category": "심혈계 > 쇼크·응급 > 카테콜아민",
+    "aliases": [
+      "epinephrine",
+      "에피네프린"
+    ],
+    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ"
   },
   {
     "type": "drug",
@@ -16670,6 +16929,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1Zzrsi6ztmIjqs4QvSHlkcmFsYXppbmUubWQ",
+    "title": "Hydralazine",
+    "category": "심혈계 > 혈압·심부전·신 > 직접 혈관확장제",
+    "aliases": [
+      "hydralazine",
+      "하이드랄라진"
+    ],
+    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvSHlkcmFsYXppbmUubWQ"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA",
     "title": "Hydrochlorothiazide",
     "category": "심혈계 > 혈압·심부전·신 > 티아지드계 이뇨제",
@@ -16802,6 +17072,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1Zzrsi6ztmIjqs4QvTmljYXJkaXBpbmUubWQ",
+    "title": "Nicardipine",
+    "category": "심혈계 > 혈압·심부전·신 > 칼슘채널차단제",
+    "aliases": [
+      "nicardipine",
+      "니카르디핀"
+    ],
+    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvTmljYXJkaXBpbmUubWQ"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA",
     "title": "Nifedipine",
     "category": "심혈계 > 혈압·심부전·신 > 칼슘채널차단제",
@@ -16824,6 +17105,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1Zzrsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ",
+    "title": "Norepinephrine",
+    "category": "심혈계 > 쇼크·응급 > 카테콜아민",
+    "aliases": [
+      "norepinephrine",
+      "노르에피네프린"
+    ],
+    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvT2xtZXNhcnRhbi5tZA",
     "title": "Olmesartan",
     "category": "심혈계 > 혈압·심부전·신 > ARB",
@@ -16843,6 +17135,17 @@
       "페린도프릴"
     ],
     "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvUGVyaW5kb3ByaWwubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1Zzrsi6ztmIjqs4QvUGhlbnlsZXBocmluZS5tZA",
+    "title": "Phenylephrine",
+    "category": "심혈계 > 쇼크·응급 > 혈관작용제",
+    "aliases": [
+      "phenylephrine",
+      "페닐에프린"
+    ],
+    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvUGhlbnlsZXBocmluZS5tZA"
   },
   {
     "type": "drug",
@@ -16956,6 +17259,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1Zzrsi6ztmIjqs4QvU2FjdWJpdHJpbFZhbHNhcnRhbi5tZA",
+    "title": "SacubitrilValsartan",
+    "category": "심혈계 > 혈압·심부전·신 > ARNI",
+    "aliases": [
+      "sacubitril valsartan",
+      "사쿠비트릴·발사르탄"
+    ],
+    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvU2FjdWJpdHJpbFZhbHNhcnRhbi5tZA"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvU2ltdmFzdGF0aW4ubWQ",
     "title": "Simvastatin",
     "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
@@ -17030,6 +17344,17 @@
       "발사르탄"
     ],
     "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvVmFsc2FydGFuLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1Zzrsi6ztmIjqs4QvVmFzb3ByZXNzaW4ubWQ",
+    "title": "Vasopressin",
+    "category": "심혈계 > 쇼크·응급 > 혈관작용제",
+    "aliases": [
+      "vasopressin",
+      "바소프레신"
+    ],
+    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvVmFzb3ByZXNzaW4ubWQ"
   },
   {
     "type": "drug",
@@ -17176,6 +17501,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQ2FsY2l1bUdsdWNvbmF0ZS5tZA",
+    "title": "CalciumGluconate",
+    "category": "전해질·영양·독성·기타 > 전해질·산염기 > 칼슘 보충/응급교정",
+    "aliases": [
+      "calcium gluconate",
+      "글루콘산칼슘"
+    ],
+    "href": "/drugs/ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQ2FsY2l1bUdsdWNvbmF0ZS5tZA"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvRmx1bWF6ZW5pbC5tZA",
     "title": "Flumazenil",
     "category": "전해질·영양·독성·기타 > 해독·중독 > 벤조 길항제",
@@ -17184,6 +17520,17 @@
       "플루마제닐"
     ],
     "href": "/drugs/ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvRmx1bWF6ZW5pbC5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA",
+    "title": "MagnesiumSulfate",
+    "category": "전해질·영양·독성·기타 > 전해질·산염기 > 마그네슘 보충/응급교정",
+    "aliases": [
+      "magnesium sulfate",
+      "황산마그네슘"
+    ],
+    "href": "/drugs/ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA"
   },
   {
     "type": "drug",
@@ -17484,6 +17831,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9Jcm9uU3Vjcm9zZS5tZA",
+    "title": "IronSucrose",
+    "category": "혈액·응고 > 빈혈 > 철분보충",
+    "aliases": [
+      "iron sucrose",
+      "철 sucrose"
+    ],
+    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9Jcm9uU3Vjcm9zZS5tZA"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9QaGVuaW5kaW9uZS5tZA",
     "title": "Phenindione",
     "category": "혈액·응고 > 항응고 > 비타민 K 길항제",
@@ -17572,6 +17930,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrtmLjtnaHquLAvQnVkZXNvbmlkZUZvcm1vdGVyb2wubWQ",
+    "title": "BudesonideFormoterol",
+    "category": "호흡기 > 염증 조절 > ICS/LABA 복합제",
+    "aliases": [
+      "budesonide formoterol",
+      "부데소니드·포르모테롤"
+    ],
+    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvQnVkZXNvbmlkZUZvcm1vdGVyb2wubWQ"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvQ2ljbGVzb25pZGUubWQ",
     "title": "Ciclesonide",
     "category": "호흡기 > 염증 조절 > 흡입 코르티코스테로이드",
@@ -17591,6 +17960,17 @@
       "플루티카손"
     ],
     "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrtmLjtnaHquLAvRmx1dGljYXNvbmVTYWxtZXRlcm9sLm1k",
+    "title": "FluticasoneSalmeterol",
+    "category": "호흡기 > 염증 조절 > ICS/LABA 복합제",
+    "aliases": [
+      "fluticasone salmeterol",
+      "플루티카손·살메테롤"
+    ],
+    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvRmx1dGljYXNvbmVTYWxtZXRlcm9sLm1k"
   },
   {
     "type": "drug",
@@ -17712,77 +18092,5 @@
       "빌란테롤"
     ],
     "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvVmlsYW50ZXJvbC5tZA"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDFfMSBDZWxsdWxhciBQaHlzaW9sb2d5Lm1k",
-    "title": "001_1 Cellular Physiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDFfMSBDZWxsdWxhciBQaHlzaW9sb2d5Lm1k"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDJfMiBBdXRvbm9taWMgTmVydm91cyBTeXN0ZW0ubWQ",
-    "title": "002_2 Autonomic Nervous System",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDJfMiBBdXRvbm9taWMgTmVydm91cyBTeXN0ZW0ubWQ"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDNfMyBOZXVyb3BoeXNpb2xvZ3kubWQ",
-    "title": "003_3 Neurophysiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDNfMyBOZXVyb3BoeXNpb2xvZ3kubWQ"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDRfNCBDYXJkaW92YXNjdWxhciBQaHlzaW9sb2d5Lm1k",
-    "title": "004_4 Cardiovascular Physiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDRfNCBDYXJkaW92YXNjdWxhciBQaHlzaW9sb2d5Lm1k"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDVfNSBSZXNwaXJhdG9yeSBQaHlzaW9sb2d5Lm1k",
-    "title": "005_5 Respiratory Physiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDVfNSBSZXNwaXJhdG9yeSBQaHlzaW9sb2d5Lm1k"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDZfNiBSZW5hbCBQaHlzaW9sb2d5Lm1k",
-    "title": "006_6 Renal Physiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDZfNiBSZW5hbCBQaHlzaW9sb2d5Lm1k"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDdfNyBBY2lkLUJhc2UgUGh5c2lvbG9neS5tZA",
-    "title": "007_7 Acid-Base Physiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDdfNyBBY2lkLUJhc2UgUGh5c2lvbG9neS5tZA"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDhfOCBHYXN0cm9pbnRlc3RpbmFsIFBoeXNpb2xvZ3kubWQ",
-    "title": "008_8 Gastrointestinal Physiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDhfOCBHYXN0cm9pbnRlc3RpbmFsIFBoeXNpb2xvZ3kubWQ"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDlfOSBFbmRvY3JpbmUgUGh5c2lvbG9neS5tZA",
-    "title": "009_9 Endocrine Physiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDlfOSBFbmRvY3JpbmUgUGh5c2lvbG9neS5tZA"
   }
 ]
