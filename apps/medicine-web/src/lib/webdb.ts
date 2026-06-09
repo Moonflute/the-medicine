@@ -19,6 +19,25 @@ function normalizeSpecialtyLabel(value: string) {
   return value.replace(/^\d+\s*/, "").trim();
 }
 
+const CHIEF_COMPLAINT_CATEGORY_ORDER = [
+  "전신증상",
+  "순환기",
+  "호흡기",
+  "소화기",
+  "신장/비뇨기",
+  "근골격/피부",
+  "정신",
+  "신경",
+  "산부",
+  "소아",
+  "상담",
+];
+
+function getChiefComplaintCategoryRank(name: string) {
+  const rank = CHIEF_COMPLAINT_CATEGORY_ORDER.indexOf(name);
+  return rank === -1 ? Number.MAX_SAFE_INTEGER : rank;
+}
+
 export type DiseaseSection = {
   title: string;
   content: string[];
@@ -214,7 +233,7 @@ export function getChiefComplaintCategories(): ChiefComplaintCategorySummary[] {
   }
 
   return [...counts.entries()]
-    .sort((a, b) => a[0].localeCompare(b[0], "ko"))
+    .sort((a, b) => getChiefComplaintCategoryRank(a[0]) - getChiefComplaintCategoryRank(b[0]) || a[0].localeCompare(b[0], "ko"))
     .map(([name, count]) => ({
       name,
       slug: toBase64Url(name),
