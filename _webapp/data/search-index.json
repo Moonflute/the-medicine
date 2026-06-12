@@ -14674,6 +14674,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvQW1pa2FjaW4ubWQ",
+    "title": "Amikacin",
+    "category": "감염 > 항균 > 아미노글리코사이드",
+    "aliases": [
+      "amikacin",
+      "아미카신"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQW1pa2FjaW4ubWQ"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrqsJDsl7wvQW1veGljaWxsaW4ubWQ",
     "title": "Amoxicillin",
     "category": "감염 > 항균 > 베타락탐",
@@ -14707,6 +14718,39 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvQW1waWNpbGxpbi5tZA",
+    "title": "Ampicillin",
+    "category": "감염 > 항균 > 페니실린",
+    "aliases": [
+      "ampicillin",
+      "암피실린"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQW1waWNpbGxpbi5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvQW1waWNpbGxpblN1bGJhY3RhbS5tZA",
+    "title": "AmpicillinSulbactam",
+    "category": "감염 > 항균 > 베타락탐·베타락타마제 억제제",
+    "aliases": [
+      "ampicillin sulbactam",
+      "암피실린·설박탐"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQW1waWNpbGxpblN1bGJhY3RhbS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvQW5pZHVsYWZ1bmdpbi5tZA",
+    "title": "Anidulafungin",
+    "category": "감염 > 항진균 > 에키노캔딘",
+    "aliases": [
+      "anidulafungin",
+      "아니둘라펀진"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQW5pZHVsYWZ1bmdpbi5tZA"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrqsJDsl7wvQXJ0ZW1ldGhlckx1bWVmYW50cmluZS5tZA",
     "title": "ArtemetherLumefantrine",
     "category": "감염 > 기생충 > 항말라리아",
@@ -14729,11 +14773,23 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvQXp0cmVvbmFtLm1k",
+    "title": "Aztreonam",
+    "category": "감염 > 항균 > 모노박탐",
+    "aliases": [
+      "aztreonam",
+      "아즈트레오남"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQXp0cmVvbmFtLm1k"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrqsJDsl7wvQmVuenlscGVuaWNpbGxpbi5tZA",
     "title": "Benzylpenicillin",
     "category": "감염 > 항균 > 페니실린",
     "aliases": [
       "benzylpenicillin",
+      "penicillin G",
       "벤질페니실린"
     ],
     "href": "/drugs/ZHJ1ZzrqsJDsl7wvQmVuenlscGVuaWNpbGxpbi5tZA"
@@ -14759,6 +14815,28 @@
       "세파졸린"
     ],
     "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2VmYXpvbGluLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvQ2VmZXBpbWUubWQ",
+    "title": "Cefepime",
+    "category": "감염 > 항균 > 세팔로스포린",
+    "aliases": [
+      "cefepime",
+      "세페핌"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2VmZXBpbWUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvQ2VmaWRlcm9jb2wubWQ",
+    "title": "Cefiderocol",
+    "category": "감염 > 항균 > 세팔로스포린",
+    "aliases": [
+      "cefiderocol",
+      "세피데로콜"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2VmaWRlcm9jb2wubWQ"
   },
   {
     "type": "drug",
@@ -14806,6 +14884,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvQ2VwaGFsZXhpbi5tZA",
+    "title": "Cephalexin",
+    "category": "감염 > 항균 > 세팔로스포린",
+    "aliases": [
+      "cephalexin",
+      "세팔렉신"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2VwaGFsZXhpbi5tZA"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2hsb3JvcXVpbmUubWQ",
     "title": "Chloroquine",
     "category": "감염 > 기생충 > 항말라리아",
@@ -14850,6 +14939,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvQ29saXN0aW4ubWQ",
+    "title": "Colistin",
+    "category": "감염 > 항균 > polymyxin",
+    "aliases": [
+      "colistin",
+      "콜리스틴"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ29saXN0aW4ubWQ"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrqsJDsl7wvRGFwdG9teWNpbi5tZA",
     "title": "Daptomycin",
     "category": "감염 > 항균 > 리포펩타이드",
@@ -14872,6 +14972,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvRXJ0YXBlbmVtLm1k",
+    "title": "Ertapenem",
+    "category": "감염 > 항균 > 카바페넴",
+    "aliases": [
+      "ertapenem",
+      "에르타페넴"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvRXJ0YXBlbmVtLm1k"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrqsJDsl7wvRXJ5dGhyb215Y2luLm1k",
     "title": "Erythromycin",
     "category": "감염 > 항균 > 마크롤라이드",
@@ -14880,6 +14991,28 @@
       "에리스로마이신"
     ],
     "href": "/drugs/ZHJ1ZzrqsJDsl7wvRXJ5dGhyb215Y2luLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvRXRoYW1idXRvbC5tZA",
+    "title": "Ethambutol",
+    "category": "감염 > 항결핵 > 1차 항결핵제",
+    "aliases": [
+      "ethambutol",
+      "에탐부톨"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvRXRoYW1idXRvbC5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvRmlkYXhvbWljaW4ubWQ",
+    "title": "Fidaxomicin",
+    "category": "감염 > 항균 > C. difficile",
+    "aliases": [
+      "fidaxomicin",
+      "피닥소마이신"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvRmlkYXhvbWljaW4ubWQ"
   },
   {
     "type": "drug",
@@ -14949,6 +15082,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvSXNvbmlhemlkLm1k",
+    "title": "Isoniazid",
+    "category": "감염 > 항결핵 > 1차 항결핵제",
+    "aliases": [
+      "isoniazid",
+      "이소니아지드"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvSXNvbmlhemlkLm1k"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrqsJDsl7wvSXZlcm1lY3Rpbi5tZA",
     "title": "Ivermectin",
     "category": "감염 > 기생충 > 구충제",
@@ -15004,6 +15148,28 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvTWljYWZ1bmdpbi5tZA",
+    "title": "Micafungin",
+    "category": "감염 > 항진균 > 에키노캔딘",
+    "aliases": [
+      "micafungin",
+      "미카펀진"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvTWljYWZ1bmdpbi5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvTWlub2N5Y2xpbmUubWQ",
+    "title": "Minocycline",
+    "category": "감염 > 항균 > 테트라사이클린",
+    "aliases": [
+      "minocycline",
+      "미노사이클린"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvTWlub2N5Y2xpbmUubWQ"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrqsJDsl7wvTW94aWZsb3hhY2luLm1k",
     "title": "Moxifloxacin",
     "category": "감염 > 항균 > 퀴놀론",
@@ -15012,6 +15178,17 @@
       "목시플록사신"
     ],
     "href": "/drugs/ZHJ1ZzrqsJDsl7wvTW94aWZsb3hhY2luLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvTmFmY2lsbGluLm1k",
+    "title": "Nafcillin",
+    "category": "감염 > 항균 > 페니실린",
+    "aliases": [
+      "nafcillin",
+      "나프실린"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvTmFmY2lsbGluLm1k"
   },
   {
     "type": "drug",
@@ -15037,6 +15214,17 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvT3hhY2lsbGluLm1k",
+    "title": "Oxacillin",
+    "category": "감염 > 항균 > 페니실린",
+    "aliases": [
+      "oxacillin",
+      "옥사실린"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvT3hhY2lsbGluLm1k"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrqsJDsl7wvUGlwZXJhY2lsbGluVGF6b2JhY3RhbS5tZA",
     "title": "PiperacillinTazobactam",
     "category": "감염 > 항균 > 우레이도페니실린",
@@ -15048,6 +15236,28 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvUG9seW15eGluQi5tZA",
+    "title": "PolymyxinB",
+    "category": "감염 > 항균 > polymyxin",
+    "aliases": [
+      "polymyxin b",
+      "폴리믹신 B"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvUG9seW15eGluQi5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvUG9zYWNvbmF6b2xlLm1k",
+    "title": "Posaconazole",
+    "category": "감염 > 항진균 > 아졸계",
+    "aliases": [
+      "posaconazole",
+      "포사코나졸"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvUG9zYWNvbmF6b2xlLm1k"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrqsJDsl7wvUHJhemlxdWFudGVsLm1k",
     "title": "Praziquantel",
     "category": "감염 > 기생충 > 구충제",
@@ -15056,6 +15266,28 @@
       "프라지콴텔"
     ],
     "href": "/drugs/ZHJ1ZzrqsJDsl7wvUHJhemlxdWFudGVsLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvUHlyYXppbmFtaWRlLm1k",
+    "title": "Pyrazinamide",
+    "category": "감염 > 항결핵 > 1차 항결핵제",
+    "aliases": [
+      "pyrazinamide",
+      "피라진아마이드"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvUHlyYXppbmFtaWRlLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvUmlmYW1waW4ubWQ",
+    "title": "Rifampin",
+    "category": "감염 > 항결핵 > 리팜이신",
+    "aliases": [
+      "rifampin",
+      "리팜핀"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvUmlmYW1waW4ubWQ"
   },
   {
     "type": "drug",
@@ -15086,6 +15318,7 @@
     "category": "감염 > 항바이러스 > HBV/HIV",
     "aliases": [
       "tenofovir alafenamide",
+      "TAF",
       "테노포비르 알라페나마이드"
     ],
     "href": "/drugs/ZHJ1ZzrqsJDsl7wvVGVub2ZvdmlyQWxhZmVuYW1pZGUubWQ"
@@ -15122,6 +15355,17 @@
       "트리메토프림"
     ],
     "href": "/drugs/ZHJ1ZzrqsJDsl7wvVHJpbWV0aG9wcmltLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrqsJDsl7wvVHJpbWV0aG9wcmltU3VsZmFtZXRob3hhem9sZS5tZA",
+    "title": "TrimethoprimSulfamethoxazole",
+    "category": "감염 > 항균 > 설폰아미드",
+    "aliases": [
+      "trimethoprim sulfamethoxazole",
+      "트리메토프림·설파메톡사졸"
+    ],
+    "href": "/drugs/ZHJ1ZzrqsJDsl7wvVHJpbWV0aG9wcmltU3VsZmFtZXRob3hhem9sZS5tZA"
   },
   {
     "type": "drug",
@@ -15177,6 +15421,17 @@
       "박로펜"
     ],
     "href": "/drugs/ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0JhY2xvZmVuLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0RleG1lZGV0b21pZGluZS5tZA",
+    "title": "Dexmedetomidine",
+    "category": "근골격·통증·마취 > 진정 > alpha2 작용제",
+    "aliases": [
+      "dexmedetomidine",
+      "덱스메데토미딘"
+    ],
+    "href": "/drugs/ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0RleG1lZGV0b21pZGluZS5tZA"
   },
   {
     "type": "drug",
@@ -15356,6 +15611,14 @@
   },
   {
     "type": "drug",
+    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluLm1k",
+    "title": "Insulin",
+    "category": "내분비·대사",
+    "aliases": [],
+    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluLm1k"
+  },
+  {
+    "type": "drug",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluQXNwYXJ0Lm1k",
     "title": "InsulinAspart",
     "category": "내분비·대사 > 당뇨 > 인슐린",
@@ -15416,7 +15679,7 @@
     "category": "내분비·대사 > 당뇨 > 인슐린",
     "aliases": [
       "insulin regular",
-      "인슐린 regular"
+      "인슐린 레귤러"
     ],
     "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluUmVndWxhci5tZA"
   },
@@ -15944,6 +16207,7 @@
     "category": "소화기 > 염증성 장질환 > 5-ASA",
     "aliases": [
       "mesalazine",
+      "mesalamine",
       "메살라진"
     ],
     "href": "/drugs/ZHJ1ZzrshoztmZTquLAvTWVzYWxhemluZS5tZA"
@@ -16244,6 +16508,17 @@
       "할로페리돌"
     ],
     "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MYWNvc2FtaWRlLm1k",
+    "title": "Lacosamide",
+    "category": "신경·정신 > 항경련 > 나트륨채널",
+    "aliases": [
+      "lacosamide",
+      "라코사미드"
+    ],
+    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MYWNvc2FtaWRlLm1k"
   },
   {
     "type": "drug",
@@ -17520,6 +17795,17 @@
       "플루마제닐"
     ],
     "href": "/drugs/ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvRmx1bWF6ZW5pbC5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ",
+    "title": "Glucagon",
+    "category": "전해질·영양·독성·기타 > 해독·중독 > 저혈당 역전",
+    "aliases": [
+      "glucagon",
+      "글루카곤"
+    ],
+    "href": "/drugs/ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ"
   },
   {
     "type": "drug",
