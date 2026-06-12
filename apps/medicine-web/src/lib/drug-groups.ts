@@ -50,6 +50,14 @@ function getTopOrderRank(title: string) {
   return index === -1 ? Number.MAX_SAFE_INTEGER : index;
 }
 
+function formatTopTitle(title: string) {
+  const rank = getTopOrderRank(title);
+  if (rank === Number.MAX_SAFE_INTEGER) {
+    return title;
+  }
+  return `${String(rank + 1).padStart(2, "0")} ${title}`;
+}
+
 function getMappedTopTitle(note: DomainNote) {
   const originalTop = note.drugMeta?.topClass || note.folder || "기타";
   const middle = note.drugMeta?.middleClass?.trim() || "";
@@ -160,8 +168,8 @@ export function buildDrugGroups(notes: DomainNote[]): DrugTopGroup[] {
         });
 
       return {
-        title: topTitle,
-        slug: toBase64Url(topTitle),
+        title: formatTopTitle(topTitle),
+        slug: toBase64Url(formatTopTitle(topTitle)),
         notes: sortDrugNotes(topNotes),
         middleGroups,
       };
