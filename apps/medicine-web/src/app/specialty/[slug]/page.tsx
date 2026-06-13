@@ -156,12 +156,23 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
 
   const specialtyLabel = title.replace(/^\d+\s*/, "").trim();
   const grouped = buildGroups(notes, specialtyLabel);
+  const specialtyOverviewNote = grouped.find((group) => group.title === specialtyLabel)?.overviewNote;
 
   return (
     <div className="space-y-6">
       <header className="rounded-[32px] border border-stone-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
         <div className="text-xs uppercase tracking-[0.24em] text-stone-500">Specialty</div>
-        <h1 className="mt-3 font-serif text-4xl font-semibold tracking-tight">{title}</h1>
+        <div className="mt-3 flex flex-wrap items-center gap-3">
+          <h1 className="font-serif text-4xl font-semibold tracking-tight">{title}</h1>
+          {specialtyOverviewNote ? (
+            <Link
+              href={`/disease/${specialtyOverviewNote.slug}`}
+              className="inline-flex items-center rounded-full border border-stone-200 bg-stone-50 px-3 py-1.5 text-xs font-medium uppercase tracking-[0.16em] text-stone-600 transition hover:border-stone-300 hover:bg-white hover:text-stone-900"
+            >
+              {specialtyLabel} overview
+            </Link>
+          ) : null}
+        </div>
       </header>
 
       <div className="space-y-5">
@@ -169,17 +180,7 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
           <section key={group.title} className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
             <div className="mb-4 flex items-center gap-3">
               <div className="h-px flex-1 bg-stone-200" />
-              <div className="flex items-center gap-3">
-                <h2 className="shrink-0 font-serif text-xl font-semibold tracking-tight text-stone-900">{group.title}</h2>
-                {group.overviewNote ? (
-                  <Link
-                    href={`/disease/${group.overviewNote.slug}`}
-                    className="inline-flex shrink-0 items-center rounded-full border border-stone-200 bg-stone-50 px-3 py-1 text-xs font-medium uppercase tracking-[0.14em] text-stone-600 transition hover:border-stone-300 hover:bg-white hover:text-stone-900"
-                  >
-                    {group.title} overview
-                  </Link>
-                ) : null}
-              </div>
+              <h2 className="shrink-0 font-serif text-xl font-semibold tracking-tight text-stone-900">{group.title}</h2>
               <div className="h-px flex-1 bg-stone-200" />
             </div>
 
