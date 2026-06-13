@@ -20,6 +20,7 @@ type SecondLevelGroup = {
 
 type FirstLevelGroup = {
   title: string;
+  overviewNote?: DiseaseNote;
   secondLevel: SecondLevelGroup[];
 };
 
@@ -35,6 +36,10 @@ function cleanClassification(note: DiseaseNote) {
   return note.classification
     .map((item) => item.trim())
     .filter((item) => item.length > 0);
+}
+
+function isOverviewNoteForLabel(note: DiseaseNote, label: string) {
+  return note.title.trim() === label.trim();
 }
 
 function buildGroups(notes: DiseaseNote[], specialtyLabel: string): FirstLevelGroup[] {
@@ -57,9 +62,14 @@ function buildGroups(notes: DiseaseNote[], specialtyLabel: string): FirstLevelGr
       return sortLabels(a, b);
     })
     .map(([title, items]) => {
+      const overviewNote = items.find((note) => isOverviewNoteForLabel(note, title));
       const secondLevelMap = new Map<string, DiseaseNote[]>();
 
       for (const note of items) {
+        if (overviewNote && note.slug === overviewNote.slug) {
+          continue;
+        }
+
         const classification = cleanClassification(note);
         const secondary = classification[1] || "";
         const bucket = secondLevelMap.get(secondary) ?? [];
@@ -113,7 +123,7 @@ function buildGroups(notes: DiseaseNote[], specialtyLabel: string): FirstLevelGr
           };
         });
 
-      return { title, secondLevel };
+      return { title, overviewNote, secondLevel };
     });
 }
 
@@ -159,7 +169,17 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
           <section key={group.title} className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
             <div className="mb-4 flex items-center gap-3">
               <div className="h-px flex-1 bg-stone-200" />
-              <h2 className="shrink-0 font-serif text-xl font-semibold tracking-tight text-stone-900">{group.title}</h2>
+              <div className="flex items-center gap-3">
+                <h2 className="shrink-0 font-serif text-xl font-semibold tracking-tight text-stone-900">{group.title}</h2>
+                {group.overviewNote ? (
+                  <Link
+                    href={`/disease/${group.overviewNote.slug}`}
+                    className="inline-flex shrink-0 items-center rounded-full border border-stone-200 bg-stone-50 px-3 py-1 text-xs font-medium uppercase tracking-[0.14em] text-stone-600 transition hover:border-stone-300 hover:bg-white hover:text-stone-900"
+                  >
+                    {group.title} overview
+                  </Link>
+                ) : null}
+              </div>
               <div className="h-px flex-1 bg-stone-200" />
             </div>
 
