@@ -5,6 +5,10 @@ import { RichTextLines } from "@/components/rich-text-lines";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
 import { getLabImgNotes } from "@/lib/webdb";
 
+function isReferenceSection(title: string) {
+  return /참고|reference|references|bibliography|출처/i.test(title);
+}
+
 export function generateStaticParams() {
   return buildLabImgGroups(getLabImgNotes()).map((group) => ({ slug: group.slug }));
 }
@@ -55,11 +59,13 @@ function InlineNote({
   title?: string;
   sections: Array<{ title: string; content: string[] }>;
 }) {
+  const visibleSections = sections.filter((section) => !isReferenceSection(section.title));
+
   return (
     <section className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
       {title ? <h2 className="mb-4 font-serif text-2xl font-semibold tracking-tight text-stone-900">{title}</h2> : null}
       <div className="space-y-6">
-        {sections.map((section) => (
+        {visibleSections.map((section) => (
           <section key={section.title} className="space-y-3">
             <h3 className="font-medium text-stone-900">{section.title}</h3>
             <RichTextLines lines={section.content} className="space-y-2 text-sm leading-6 text-stone-700" bulletStyle="plain" />
