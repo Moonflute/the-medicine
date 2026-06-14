@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T06:49:13.507Z",
+  "generatedAt": "2026-06-14T13:21:19.939Z",
   "sourceRoot": "vault_medicine",
   "outputRoot": "_webapp/data",
   "domains": {
@@ -22,6 +22,10 @@
     "pathology": {
       "count": 0,
       "source": "03 Pathology"
+    },
+    "labImg": {
+      "count": 109,
+      "source": "06 Lab & Img"
     },
     "skills": {
       "count": 46,

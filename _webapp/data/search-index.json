@@ -14513,78 +14513,6 @@
     "href": "/cc/category/7IOB64u0/7Z2h7JewIOyDgeuLtA"
   },
   {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDFfMSBDZWxsdWxhciBQaHlzaW9sb2d5Lm1k",
-    "title": "001_1 Cellular Physiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDFfMSBDZWxsdWxhciBQaHlzaW9sb2d5Lm1k"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDJfMiBBdXRvbm9taWMgTmVydm91cyBTeXN0ZW0ubWQ",
-    "title": "002_2 Autonomic Nervous System",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDJfMiBBdXRvbm9taWMgTmVydm91cyBTeXN0ZW0ubWQ"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDNfMyBOZXVyb3BoeXNpb2xvZ3kubWQ",
-    "title": "003_3 Neurophysiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDNfMyBOZXVyb3BoeXNpb2xvZ3kubWQ"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDRfNCBDYXJkaW92YXNjdWxhciBQaHlzaW9sb2d5Lm1k",
-    "title": "004_4 Cardiovascular Physiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDRfNCBDYXJkaW92YXNjdWxhciBQaHlzaW9sb2d5Lm1k"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDVfNSBSZXNwaXJhdG9yeSBQaHlzaW9sb2d5Lm1k",
-    "title": "005_5 Respiratory Physiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDVfNSBSZXNwaXJhdG9yeSBQaHlzaW9sb2d5Lm1k"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDZfNiBSZW5hbCBQaHlzaW9sb2d5Lm1k",
-    "title": "006_6 Renal Physiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDZfNiBSZW5hbCBQaHlzaW9sb2d5Lm1k"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDdfNyBBY2lkLUJhc2UgUGh5c2lvbG9neS5tZA",
-    "title": "007_7 Acid-Base Physiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDdfNyBBY2lkLUJhc2UgUGh5c2lvbG9neS5tZA"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDhfOCBHYXN0cm9pbnRlc3RpbmFsIFBoeXNpb2xvZ3kubWQ",
-    "title": "008_8 Gastrointestinal Physiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDhfOCBHYXN0cm9pbnRlc3RpbmFsIFBoeXNpb2xvZ3kubWQ"
-  },
-  {
-    "type": "physiology",
-    "slug": "cGh5c2lvbG9neTowMDlfOSBFbmRvY3JpbmUgUGh5c2lvbG9neS5tZA",
-    "title": "009_9 Endocrine Physiology",
-    "category": "05 Physiology",
-    "aliases": [],
-    "href": "/physiology/cGh5c2lvbG9neTowMDlfOSBFbmRvY3JpbmUgUGh5c2lvbG9neS5tZA"
-  },
-  {
     "type": "drug",
     "slug": "ZHJ1ZzrqsITri7Tst4wvRW50ZWNhdmlyLm1k",
     "title": "Entecavir",
@@ -14864,7 +14792,7 @@
     "type": "drug",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2VmdHJpYXhvbmUubWQ",
     "title": "Ceftriaxone",
-    "category": "감염 > 항균 > 세팔로스포린",
+    "category": "감염 > 베타락탐 > 3세대 cephalosporin",
     "aliases": [
       "ceftriaxone",
       "세프트리악손"
@@ -18378,5 +18306,1236 @@
       "빌란테롤"
     ],
     "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvVmlsYW50ZXJvbC5tZA"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDFfMSBDZWxsdWxhciBQaHlzaW9sb2d5Lm1k",
+    "title": "001_1 Cellular Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDFfMSBDZWxsdWxhciBQaHlzaW9sb2d5Lm1k"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDJfMiBBdXRvbm9taWMgTmVydm91cyBTeXN0ZW0ubWQ",
+    "title": "002_2 Autonomic Nervous System",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDJfMiBBdXRvbm9taWMgTmVydm91cyBTeXN0ZW0ubWQ"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDNfMyBOZXVyb3BoeXNpb2xvZ3kubWQ",
+    "title": "003_3 Neurophysiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDNfMyBOZXVyb3BoeXNpb2xvZ3kubWQ"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDRfNCBDYXJkaW92YXNjdWxhciBQaHlzaW9sb2d5Lm1k",
+    "title": "004_4 Cardiovascular Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDRfNCBDYXJkaW92YXNjdWxhciBQaHlzaW9sb2d5Lm1k"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDVfNSBSZXNwaXJhdG9yeSBQaHlzaW9sb2d5Lm1k",
+    "title": "005_5 Respiratory Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDVfNSBSZXNwaXJhdG9yeSBQaHlzaW9sb2d5Lm1k"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDZfNiBSZW5hbCBQaHlzaW9sb2d5Lm1k",
+    "title": "006_6 Renal Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDZfNiBSZW5hbCBQaHlzaW9sb2d5Lm1k"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDdfNyBBY2lkLUJhc2UgUGh5c2lvbG9neS5tZA",
+    "title": "007_7 Acid-Base Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDdfNyBBY2lkLUJhc2UgUGh5c2lvbG9neS5tZA"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDhfOCBHYXN0cm9pbnRlc3RpbmFsIFBoeXNpb2xvZ3kubWQ",
+    "title": "008_8 Gastrointestinal Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDhfOCBHYXN0cm9pbnRlc3RpbmFsIFBoeXNpb2xvZ3kubWQ"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDlfOSBFbmRvY3JpbmUgUGh5c2lvbG9neS5tZA",
+    "title": "009_9 Endocrine Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "href": "/physiology/cGh5c2lvbG9neTowMDlfOSBFbmRvY3JpbmUgUGh5c2lvbG9neS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwv7ZiI7JWh6rKA7IKsLm1k",
+    "title": "혈액검사",
+    "category": "01 혈액검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwv7ZiI7JWh6rKA7IKsLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQWN0aXZhdGVkIFBhcnRpYWwgVGhyb21ib3BsYXN0aW4gVGltZSAoYVBUVCkubWQ",
+    "title": "Activated Partial Thromboplastin Time (aPTT)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "aPTT",
+      "PTT",
+      "Activated Partial Thromboplastin Time"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQWN0aXZhdGVkIFBhcnRpYWwgVGhyb21ib3BsYXN0aW4gVGltZSAoYVBUVCkubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQWxhbmluZSBBbWlub3RyYW5zZmVyYXNlIChBTFQpLm1k",
+    "title": "Alanine Aminotransferase (ALT)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "ALT",
+      "Alanine Aminotransferase"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQWxhbmluZSBBbWlub3RyYW5zZmVyYXNlIChBTFQpLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQWxidW1pbi5tZA",
+    "title": "Albumin",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Albumin"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQWxidW1pbi5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQWxrYWxpbmUgUGhvc3BoYXRhc2UgKEFMUCkubWQ",
+    "title": "Alkaline Phosphatase (ALP)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "ALP",
+      "Alkaline Phosphatase"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQWxrYWxpbmUgUGhvc3BoYXRhc2UgKEFMUCkubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQXJ0ZXJpYWwgQmxvb2QgR2FzIEFuYWx5c2lzIChBQkdBKS5tZA",
+    "title": "Arterial Blood Gas Analysis (ABGA)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "ABGA",
+      "ABG",
+      "Arterial Blood Gas"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQXJ0ZXJpYWwgQmxvb2QgR2FzIEFuYWx5c2lzIChBQkdBKS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQXNwYXJ0YXRlIEFtaW5vdHJhbnNmZXJhc2UgKEFTVCkubWQ",
+    "title": "Aspartate Aminotransferase (AST)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "AST",
+      "Aspartate Aminotransferase"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQXNwYXJ0YXRlIEFtaW5vdHJhbnNmZXJhc2UgKEFTVCkubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQmV0YS1odW1hbiBDaG9yaW9uaWMgR29uYWRvdHJvcGluIChiZXRhLWhDRykubWQ",
+    "title": "Beta-human Chorionic Gonadotropin (beta-hCG)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "beta-hCG",
+      "hCG",
+      "Beta-human Chorionic Gonadotropin"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQmV0YS1odW1hbiBDaG9yaW9uaWMgR29uYWRvdHJvcGluIChiZXRhLWhDRykubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQmljYXJib25hdGUgKFRvdGFsIENPMikubWQ",
+    "title": "Bicarbonate (Total CO2)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Bicarbonate",
+      "Total CO2",
+      "HCO3"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQmljYXJib25hdGUgKFRvdGFsIENPMikubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQmxvb2QgR2x1Y29zZS5tZA",
+    "title": "Blood Glucose",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Glucose",
+      "Blood Glucose",
+      "Blood Sugar"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQmxvb2QgR2x1Y29zZS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQmxvb2QgVXJlYSBOaXRyb2dlbiAoQlVOKS5tZA",
+    "title": "Blood Urea Nitrogen (BUN)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "BUN",
+      "Blood Urea Nitrogen"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQmxvb2QgVXJlYSBOaXRyb2dlbiAoQlVOKS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQy1SZWFjdGl2ZSBQcm90ZWluIChDUlApLm1k",
+    "title": "C-Reactive Protein (CRP)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "CRP",
+      "C-Reactive Protein"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQy1SZWFjdGl2ZSBQcm90ZWluIChDUlApLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ2FsY2l1bS5tZA",
+    "title": "Calcium",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Calcium",
+      "Ca"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ2FsY2l1bS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ2FyZGlhYyBtYXJrZXJzIG92ZXJ2aWV3Lm1k",
+    "title": "Cardiac markers overview",
+    "category": "01 혈액검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ2FyZGlhYyBtYXJrZXJzIG92ZXJ2aWV3Lm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL0NCQyBvdmVydmlldy5tZA",
+    "title": "CBC overview",
+    "category": "01 혈액검사",
+    "aliases": [
+      "CBC overview"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL0NCQyBvdmVydmlldy5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL0hlbWF0b2NyaXQubWQ",
+    "title": "Hematocrit",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Hct",
+      "Hematocrit"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL0hlbWF0b2NyaXQubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL0hlbW9nbG9iaW4ubWQ",
+    "title": "Hemoglobin",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Hb",
+      "Hemoglobin"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL0hlbW9nbG9iaW4ubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL01lYW4gQ29ycHVzY3VsYXIgSGVtb2dsb2JpbiBhbmQgTUNIQyAoTUNILU1DSEMpLm1k",
+    "title": "Mean Corpuscular Hemoglobin and MCHC (MCH-MCHC)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "MCH",
+      "MCHC",
+      "Mean Corpuscular Hemoglobin",
+      "Mean Corpuscular Hemoglobin Concentration"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL01lYW4gQ29ycHVzY3VsYXIgSGVtb2dsb2JpbiBhbmQgTUNIQyAoTUNILU1DSEMpLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL01lYW4gQ29ycHVzY3VsYXIgVm9sdW1lIChNQ1YpLm1k",
+    "title": "Mean Corpuscular Volume (MCV)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "MCV",
+      "Mean Corpuscular Volume"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL01lYW4gQ29ycHVzY3VsYXIgVm9sdW1lIChNQ1YpLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL1BsYXRlbGV0IENvdW50Lm1k",
+    "title": "Platelet Count",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Platelet",
+      "PLT",
+      "Platelet Count"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL1BsYXRlbGV0IENvdW50Lm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL1JlZCBCbG9vZCBDZWxsIENvdW50IChSQkMpLm1k",
+    "title": "Red Blood Cell Count (RBC)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "RBC",
+      "Red Blood Cell Count"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL1JlZCBCbG9vZCBDZWxsIENvdW50IChSQkMpLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL1JlZCBDZWxsIERpc3RyaWJ1dGlvbiBXaWR0aCAoUkRXKS5tZA",
+    "title": "Red Cell Distribution Width (RDW)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "RDW",
+      "Red Cell Distribution Width"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL1JlZCBDZWxsIERpc3RyaWJ1dGlvbiBXaWR0aCAoUkRXKS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL1doaXRlIEJsb29kIENlbGwgQ291bnQgKFdCQykubWQ",
+    "title": "White Blood Cell Count (WBC)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "WBC",
+      "White Blood Cell Count"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL1doaXRlIEJsb29kIENlbGwgQ291bnQgKFdCQykubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL1doaXRlIEJsb29kIENlbGwgRGlmZmVyZW50aWFsLm1k",
+    "title": "White Blood Cell Differential",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Differential",
+      "WBC differential"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ0JDL1doaXRlIEJsb29kIENlbGwgRGlmZmVyZW50aWFsLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ2hsb3JpZGUubWQ",
+    "title": "Chloride",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Chloride",
+      "Cl"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ2hsb3JpZGUubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ2hvbGVzdGVyb2wgTGV2ZWxzIChMaXBpZCBQYW5lbCkubWQ",
+    "title": "Cholesterol Levels (Lipid Panel)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Lipid Panel",
+      "Lipid Profile"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ2hvbGVzdGVyb2wgTGV2ZWxzIChMaXBpZCBQYW5lbCkubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ29hZ3VsYXRpb24gb3ZlcnZpZXcubWQ",
+    "title": "Coagulation overview",
+    "category": "01 혈액검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ29hZ3VsYXRpb24gb3ZlcnZpZXcubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ29tcGxlbWVudCBDMy5tZA",
+    "title": "Complement C3",
+    "category": "01 혈액검사",
+    "aliases": [
+      "C3",
+      "Complement C3"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ29tcGxlbWVudCBDMy5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ29tcGxlbWVudCBDNC5tZA",
+    "title": "Complement C4",
+    "category": "01 혈액검사",
+    "aliases": [
+      "C4",
+      "Complement C4"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ29tcGxlbWVudCBDNC5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ29tcGxldGUgQmxvb2QgQ291bnQgKENCQykubWQ",
+    "title": "Complete Blood Count (CBC)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "CBC",
+      "Complete Blood Count"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ29tcGxldGUgQmxvb2QgQ291bnQgKENCQykubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ29tcHJlaGVuc2l2ZSBNZXRhYm9saWMgUGFuZWwgKENNUCkubWQ",
+    "title": "Comprehensive Metabolic Panel (CMP)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "CMP",
+      "Comprehensive Metabolic Panel"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ29tcHJlaGVuc2l2ZSBNZXRhYm9saWMgUGFuZWwgKENNUCkubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ29ydGlzb2wubWQ",
+    "title": "Cortisol",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Cortisol"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ29ydGlzb2wubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ3JlYXRpbmluZS5tZA",
+    "title": "Creatinine",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Creatinine",
+      "Serum creatinine"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvQ3JlYXRpbmluZS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvRC1kaW1lci5tZA",
+    "title": "D-dimer",
+    "category": "01 혈액검사",
+    "aliases": [
+      "D-dimer"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvRC1kaW1lci5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvRWxlY3Ryb2x5dGVzIG92ZXJ2aWV3Lm1k",
+    "title": "Electrolytes overview",
+    "category": "01 혈액검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvRWxlY3Ryb2x5dGVzIG92ZXJ2aWV3Lm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvRXJ5dGhyb2N5dGUgU2VkaW1lbnRhdGlvbiBSYXRlIChFU1IpLm1k",
+    "title": "Erythrocyte Sedimentation Rate (ESR)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "ESR",
+      "Erythrocyte Sedimentation Rate"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvRXJ5dGhyb2N5dGUgU2VkaW1lbnRhdGlvbiBSYXRlIChFU1IpLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvRXN0aW1hdGVkIEdsb21lcnVsYXIgRmlsdHJhdGlvbiBSYXRlIChlR0ZSKS5tZA",
+    "title": "Estimated Glomerular Filtration Rate (eGFR)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "eGFR",
+      "Estimated GFR"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvRXN0aW1hdGVkIEdsb21lcnVsYXIgRmlsdHJhdGlvbiBSYXRlIChlR0ZSKS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvRmVycml0aW4ubWQ",
+    "title": "Ferritin",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Ferritin"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvRmVycml0aW4ubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvRmlicmlub2dlbi5tZA",
+    "title": "Fibrinogen",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Fibrinogen",
+      "Factor I"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvRmlicmlub2dlbi5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvRnJlZSBUaHlyb3hpbmUgKEZyZWUgVDQpLm1k",
+    "title": "Free Thyroxine (Free T4)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Free T4",
+      "FT4"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvRnJlZSBUaHlyb3hpbmUgKEZyZWUgVDQpLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvR2x1Y29zZSBtZXRhYm9saXNtIG92ZXJ2aWV3Lm1k",
+    "title": "Glucose metabolism overview",
+    "category": "01 혈액검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvR2x1Y29zZSBtZXRhYm9saXNtIG92ZXJ2aWV3Lm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSGVtb2dsb2JpbiBBMUMgKEhiQTFjKS5tZA",
+    "title": "Hemoglobin A1C (HbA1c)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "HbA1c",
+      "A1c",
+      "Hemoglobin A1C"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSGVtb2dsb2JpbiBBMUMgKEhiQTFjKS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSG9ybW9uZXMgb3ZlcnZpZXcubWQ",
+    "title": "Hormones overview",
+    "category": "01 혈액검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSG9ybW9uZXMgb3ZlcnZpZXcubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSW1tdW5vZ2xvYnVsaW4gQSAoSWdBKS5tZA",
+    "title": "Immunoglobulin A (IgA)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "IgA",
+      "Immunoglobulin A"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSW1tdW5vZ2xvYnVsaW4gQSAoSWdBKS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSW1tdW5vZ2xvYnVsaW4gRSAoSWdFKS5tZA",
+    "title": "Immunoglobulin E (IgE)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "IgE",
+      "Immunoglobulin E"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSW1tdW5vZ2xvYnVsaW4gRSAoSWdFKS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSW1tdW5vZ2xvYnVsaW4gRyAoSWdHKS5tZA",
+    "title": "Immunoglobulin G (IgG)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "IgG",
+      "Immunoglobulin G"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSW1tdW5vZ2xvYnVsaW4gRyAoSWdHKS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSW1tdW5vZ2xvYnVsaW4gTSAoSWdNKS5tZA",
+    "title": "Immunoglobulin M (IgM)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "IgM",
+      "Immunoglobulin M"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSW1tdW5vZ2xvYnVsaW4gTSAoSWdNKS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSW1tdW5vbG9neSBvdmVydmlldy5tZA",
+    "title": "Immunology overview",
+    "category": "01 혈액검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSW1tdW5vbG9neSBvdmVydmlldy5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSXJvbiBzdGF0dXMgb3ZlcnZpZXcubWQ",
+    "title": "Iron status overview",
+    "category": "01 혈액검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvSXJvbiBzdGF0dXMgb3ZlcnZpZXcubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTGFjdGF0ZSBEZWh5ZHJvZ2VuYXNlIChMREgpLm1k",
+    "title": "Lactate Dehydrogenase (LDH)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "LDH"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTGFjdGF0ZSBEZWh5ZHJvZ2VuYXNlIChMREgpLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTGFjdGF0ZS5tZA",
+    "title": "Lactate",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Lactate",
+      "Lactic acid"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTGFjdGF0ZS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTGlwYXNlLm1k",
+    "title": "Lipase",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Lipase"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTGlwYXNlLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTGlwaWQgb3ZlcnZpZXcubWQ",
+    "title": "Lipid overview",
+    "category": "01 혈액검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTGlwaWQgb3ZlcnZpZXcubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTGl2ZXIgRnVuY3Rpb24gVGVzdHMgKExGVCkubWQ",
+    "title": "Liver Function Tests (LFT)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "LFT",
+      "Liver Function Tests",
+      "Liver panel"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTGl2ZXIgRnVuY3Rpb24gVGVzdHMgKExGVCkubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTGl2ZXItUGFuY3JlYXMgb3ZlcnZpZXcubWQ",
+    "title": "Liver-Pancreas overview",
+    "category": "01 혈액검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTGl2ZXItUGFuY3JlYXMgb3ZlcnZpZXcubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTWFnbmVzaXVtLm1k",
+    "title": "Magnesium",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Magnesium",
+      "Mg"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTWFnbmVzaXVtLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTmF0cml1cmV0aWMgUGVwdGlkZSBUZXN0cyAoQk5QLCBOVC1wcm9CTlApLm1k",
+    "title": "Natriuretic Peptide Tests (BNP, NT-proBNP)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "BNP",
+      "NT-proBNP",
+      "Natriuretic Peptide Tests"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvTmF0cml1cmV0aWMgUGVwdGlkZSBUZXN0cyAoQk5QLCBOVC1wcm9CTlApLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvUGhvc3BoYXRlLm1k",
+    "title": "Phosphate",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Phosphate",
+      "Phosphorus"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvUGhvc3BoYXRlLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvUG90YXNzaXVtLm1k",
+    "title": "Potassium",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Potassium",
+      "K"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvUG90YXNzaXVtLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvUHJvY2FsY2l0b25pbi5tZA",
+    "title": "Procalcitonin",
+    "category": "01 혈액검사",
+    "aliases": [
+      "PCT"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvUHJvY2FsY2l0b25pbi5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvUHJvbGFjdGluLm1k",
+    "title": "Prolactin",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Prolactin"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvUHJvbGFjdGluLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvUHJvdGhyb21iaW4gVGltZSBhbmQgSU5SIChQVC1JTlIpLm1k",
+    "title": "Prothrombin Time and INR (PT-INR)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "PT",
+      "INR",
+      "Prothrombin Time"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvUHJvdGhyb21iaW4gVGltZSBhbmQgSU5SIChQVC1JTlIpLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvUmVuYWwgb3ZlcnZpZXcubWQ",
+    "title": "Renal overview",
+    "category": "01 혈액검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvUmVuYWwgb3ZlcnZpZXcubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvU2VydW0gT3Ntb2xhbGl0eS5tZA",
+    "title": "Serum Osmolality",
+    "category": "01 혈액검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvU2VydW0gT3Ntb2xhbGl0eS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvU29kaXVtLm1k",
+    "title": "Sodium",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Sodium",
+      "Na"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvU29kaXVtLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvVGh5cm9pZC1TdGltdWxhdGluZyBIb3Jtb25lIChUU0gpLm1k",
+    "title": "Thyroid-Stimulating Hormone (TSH)",
+    "category": "01 혈액검사",
+    "aliases": [
+      "TSH",
+      "Thyroid-Stimulating Hormone"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvVGh5cm9pZC1TdGltdWxhdGluZyBIb3Jtb25lIChUU0gpLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvVG90YWwgQmlsaXJ1YmluLm1k",
+    "title": "Total Bilirubin",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Total Bilirubin",
+      "Bilirubin"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvVG90YWwgQmlsaXJ1YmluLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvVHJvcG9uaW4ubWQ",
+    "title": "Troponin",
+    "category": "01 혈액검사",
+    "aliases": [
+      "Cardiac Troponin"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMSDtmIjslaHqsoDsgqwvVHJvcG9uaW4ubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwv7IaM67OA6rKA7IKsLm1k",
+    "title": "소변검사",
+    "category": "02 소변검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwv7IaM67OA6rKA7IKsLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy5tZA",
+    "title": "Urinalysis",
+    "category": "02 소변검사",
+    "aliases": [
+      "UA",
+      "Urinalysis"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluYXJ5IENhc3RzLm1k",
+    "title": "Urinary Casts",
+    "category": "02 소변검사",
+    "aliases": [
+      "Casts",
+      "Urinary casts"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluYXJ5IENhc3RzLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluYXJ5IENyeXN0YWxzLm1k",
+    "title": "Urinary Crystals",
+    "category": "02 소변검사",
+    "aliases": [
+      "Urinary crystals",
+      "Crystals"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluYXJ5IENyeXN0YWxzLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBCaWxpcnViaW4ubWQ",
+    "title": "Urine Bilirubin",
+    "category": "02 소변검사",
+    "aliases": [
+      "Urine bilirubin"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBCaWxpcnViaW4ubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBCbG9vZCBhbmQgSGVtb2dsb2Jpbi5tZA",
+    "title": "Urine Blood and Hemoglobin",
+    "category": "02 소변검사",
+    "aliases": [
+      "Blood on dipstick",
+      "Urine blood"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBCbG9vZCBhbmQgSGVtb2dsb2Jpbi5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBHbHVjb3NlLm1k",
+    "title": "Urine Glucose",
+    "category": "02 소변검사",
+    "aliases": [
+      "Glycosuria",
+      "Urine glucose"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBHbHVjb3NlLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBLZXRvbmUubWQ",
+    "title": "Urine Ketone",
+    "category": "02 소변검사",
+    "aliases": [
+      "Ketonuria",
+      "Urine ketone"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBLZXRvbmUubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBMZXVrb2N5dGUgRXN0ZXJhc2UubWQ",
+    "title": "Urine Leukocyte Esterase",
+    "category": "02 소변검사",
+    "aliases": [
+      "Leukocyte esterase"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBMZXVrb2N5dGUgRXN0ZXJhc2UubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBNaWNyb3Njb3B5Lm1k",
+    "title": "Urine Microscopy",
+    "category": "02 소변검사",
+    "aliases": [
+      "Urine microscopy",
+      "Urine sediment"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBNaWNyb3Njb3B5Lm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBOaXRyaXRlLm1k",
+    "title": "Urine Nitrite",
+    "category": "02 소변검사",
+    "aliases": [
+      "Nitrite",
+      "Urine nitrite"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBOaXRyaXRlLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBwSC5tZA",
+    "title": "Urine pH",
+    "category": "02 소변검사",
+    "aliases": [
+      "Urine pH"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBwSC5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBQcm90ZWluLm1k",
+    "title": "Urine Protein",
+    "category": "02 소변검사",
+    "aliases": [
+      "Protein in urine",
+      "Proteinuria"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBQcm90ZWluLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBSZWQgQmxvb2QgQ2VsbHMgKFVyaW5lIFJCQykubWQ",
+    "title": "Urine Red Blood Cells (Urine RBC)",
+    "category": "02 소변검사",
+    "aliases": [
+      "Urine RBC",
+      "Hematuria"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBSZWQgQmxvb2QgQ2VsbHMgKFVyaW5lIFJCQykubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBTcGVjaWZpYyBHcmF2aXR5Lm1k",
+    "title": "Urine Specific Gravity",
+    "category": "02 소변검사",
+    "aliases": [
+      "Specific gravity",
+      "Urine specific gravity"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBTcGVjaWZpYyBHcmF2aXR5Lm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBVcm9iaWxpbm9nZW4ubWQ",
+    "title": "Urine Urobilinogen",
+    "category": "02 소변검사",
+    "aliases": [
+      "Urobilinogen",
+      "Urine urobilinogen"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBVcm9iaWxpbm9nZW4ubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBXaGl0ZSBCbG9vZCBDZWxscyAoVXJpbmUgV0JDKS5tZA",
+    "title": "Urine White Blood Cells (Urine WBC)",
+    "category": "02 소변검사",
+    "aliases": [
+      "Urine WBC",
+      "Pyuria"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmFseXNpcy9VcmluZSBXaGl0ZSBCbG9vZCBDZWxscyAoVXJpbmUgV0JDKS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmUgQWxidW1pbi1DcmVhdGluaW5lIFJhdGlvIChVQUNSKS5tZA",
+    "title": "Urine Albumin-Creatinine Ratio (UACR)",
+    "category": "02 소변검사",
+    "aliases": [
+      "UACR",
+      "ACR",
+      "Microalbumin creatinine ratio"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmUgQWxidW1pbi1DcmVhdGluaW5lIFJhdGlvIChVQUNSKS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmUgT3Ntb2xhbGl0eS5tZA",
+    "title": "Urine Osmolality",
+    "category": "02 소변검사",
+    "aliases": [
+      "Urine osmolality",
+      "Uosm"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmUgT3Ntb2xhbGl0eS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmUgUHJvdGVpbi1DcmVhdGluaW5lIFJhdGlvIChVUENSKS5tZA",
+    "title": "Urine Protein-Creatinine Ratio (UPCR)",
+    "category": "02 소변검사",
+    "aliases": [
+      "UPCR",
+      "PCR",
+      "Urine protein creatinine ratio"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmUgUHJvdGVpbi1DcmVhdGluaW5lIFJhdGlvIChVUENSKS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmUgU29kaXVtLm1k",
+    "title": "Urine Sodium",
+    "category": "02 소변검사",
+    "aliases": [
+      "Urine sodium",
+      "UNa"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMiDshozrs4DqsoDsgqwvVXJpbmUgU29kaXVtLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowMyDsi6zsoITrj4Qv7Ius7KCE64-ELm1k",
+    "title": "심전도",
+    "category": "03 심전도",
+    "aliases": [
+      "EKG",
+      "ECG",
+      "Electrocardiogram",
+      "12-lead ECG"
+    ],
+    "href": "/lab-img/bGFiLWltZzowMyDsi6zsoITrj4Qv7Ius7KCE64-ELm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowNCDsmIHsg4HqsoDsgqwv7JiB7IOB6rKA7IKsLm1k",
+    "title": "영상검사",
+    "category": "04 영상검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzowNCDsmIHsg4HqsoDsgqwv7JiB7IOB6rKA7IKsLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowNCDsmIHsg4HqsoDsgqwvQ29tcHV0ZWQgVG9tb2dyYXBoeSAoQ1QpLm1k",
+    "title": "Computed Tomography (CT)",
+    "category": "04 영상검사",
+    "aliases": [
+      "CT",
+      "Computed Tomography",
+      "CAT scan"
+    ],
+    "href": "/lab-img/bGFiLWltZzowNCDsmIHsg4HqsoDsgqwvQ29tcHV0ZWQgVG9tb2dyYXBoeSAoQ1QpLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowNCDsmIHsg4HqsoDsgqwvRWNob2NhcmRpb2dyYXBoeS5tZA",
+    "title": "Echocardiography",
+    "category": "04 영상검사",
+    "aliases": [
+      "Echo",
+      "Echocardiography",
+      "Cardiac ultrasound"
+    ],
+    "href": "/lab-img/bGFiLWltZzowNCDsmIHsg4HqsoDsgqwvRWNob2NhcmRpb2dyYXBoeS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowNCDsmIHsg4HqsoDsgqwvTWFnbmV0aWMgUmVzb25hbmNlIEltYWdpbmcgKE1SSSkubWQ",
+    "title": "Magnetic Resonance Imaging (MRI)",
+    "category": "04 영상검사",
+    "aliases": [
+      "MRI",
+      "Magnetic Resonance Imaging"
+    ],
+    "href": "/lab-img/bGFiLWltZzowNCDsmIHsg4HqsoDsgqwvTWFnbmV0aWMgUmVzb25hbmNlIEltYWdpbmcgKE1SSSkubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowNCDsmIHsg4HqsoDsgqwvVWx0cmFzb25vZ3JhcGh5Lm1k",
+    "title": "Ultrasonography",
+    "category": "04 영상검사",
+    "aliases": [
+      "Ultrasound",
+      "Sonography",
+      "Ultrasonography"
+    ],
+    "href": "/lab-img/bGFiLWltZzowNCDsmIHsg4HqsoDsgqwvVWx0cmFzb25vZ3JhcGh5Lm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzowNCDsmIHsg4HqsoDsgqwvWC1yYXkubWQ",
+    "title": "X-ray",
+    "category": "04 영상검사",
+    "aliases": [
+      "Plain radiography",
+      "Radiography",
+      "X-ray",
+      "Chest X-ray"
+    ],
+    "href": "/lab-img/bGFiLWltZzowNCDsmIHsg4HqsoDsgqwvWC1yYXkubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzAxIO2PkOq4sOuKpeqygOyCrC_tj5DquLDriqXqsoDsgqwubWQ",
+    "title": "폐기능검사",
+    "category": "99 기타 검사",
+    "aliases": [
+      "PFT",
+      "Pulmonary Function Test",
+      "Pulmonary Function Testing"
+    ],
+    "href": "/lab-img/bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzAxIO2PkOq4sOuKpeqygOyCrC_tj5DquLDriqXqsoDsgqwubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzAyIOuCtOyLnOqyveqygOyCrC_rgrTsi5zqsr3qsoDsgqwubWQ",
+    "title": "내시경검사",
+    "category": "99 기타 검사",
+    "aliases": [
+      "Endoscopy"
+    ],
+    "href": "/lab-img/bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzAyIOuCtOyLnOqyveqygOyCrC_rgrTsi5zqsr3qsoDsgqwubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzAyIOuCtOyLnOqyveqygOyCrC9Ccm9uY2hvc2NvcHkubWQ",
+    "title": "Bronchoscopy",
+    "category": "99 기타 검사",
+    "aliases": [
+      "Bronchoscopy"
+    ],
+    "href": "/lab-img/bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzAyIOuCtOyLnOqyveqygOyCrC9Ccm9uY2hvc2NvcHkubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzAyIOuCtOyLnOqyveqygOyCrC9Db2xvbm9zY29weS5tZA",
+    "title": "Colonoscopy",
+    "category": "99 기타 검사",
+    "aliases": [
+      "Colonoscopy"
+    ],
+    "href": "/lab-img/bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzAyIOuCtOyLnOqyveqygOyCrC9Db2xvbm9zY29weS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzAyIOuCtOyLnOqyveqygOyCrC9DeXN0b3Njb3B5Lm1k",
+    "title": "Cystoscopy",
+    "category": "99 기타 검사",
+    "aliases": [
+      "Cystoscopy"
+    ],
+    "href": "/lab-img/bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzAyIOuCtOyLnOqyveqygOyCrC9DeXN0b3Njb3B5Lm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzAyIOuCtOyLnOqyveqygOyCrC9FR0QgKEVzb3BoYWdvZ2FzdHJvZHVvZGVub3Njb3B5KS5tZA",
+    "title": "EGD (Esophagogastroduodenoscopy)",
+    "category": "99 기타 검사",
+    "aliases": [
+      "EGD",
+      "Esophagogastroduodenoscopy",
+      "Upper endoscopy",
+      "Gastroscopy"
+    ],
+    "href": "/lab-img/bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzAyIOuCtOyLnOqyveqygOyCrC9FR0QgKEVzb3BoYWdvZ2FzdHJvZHVvZGVub3Njb3B5KS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzAzIOuzkeumrMK37IS47Y-s6rKA7IKsL-uzkeumrMK37IS47Y-s6rKA7IKsLm1k",
+    "title": "병리·세포검사",
+    "category": "99 기타 검사",
+    "aliases": [
+      "Pathology",
+      "Histopathology",
+      "Cytology"
+    ],
+    "href": "/lab-img/bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzAzIOuzkeumrMK37IS47Y-s6rKA7IKsL-uzkeumrMK37IS47Y-s6rKA7IKsLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzA0IOyLoOqyveyDneumrMK36riw64ql6rKA7IKsL-yLoOqyveyDneumrMK36riw64ql6rKA7IKsLm1k",
+    "title": "신경생리·기능검사",
+    "category": "99 기타 검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzA0IOyLoOqyveyDneumrMK36riw64ql6rKA7IKsL-yLoOqyveyDneumrMK36riw64ql6rKA7IKsLm1k"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzA0IOyLoOqyveyDneumrMK36riw64ql6rKA7IKsL0VsZWN0cm9lbmNlcGhhbG9ncmFwaHkgKEVFRykubWQ",
+    "title": "Electroencephalography (EEG)",
+    "category": "99 기타 검사",
+    "aliases": [
+      "EEG",
+      "Electroencephalography"
+    ],
+    "href": "/lab-img/bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzA0IOyLoOqyveyDneumrMK36riw64ql6rKA7IKsL0VsZWN0cm9lbmNlcGhhbG9ncmFwaHkgKEVFRykubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzA0IOyLoOqyveyDneumrMK36riw64ql6rKA7IKsL0VsZWN0cm9teW9ncmFwaHkgKEVNRykubWQ",
+    "title": "Electromyography (EMG)",
+    "category": "99 기타 검사",
+    "aliases": [
+      "EMG",
+      "Electromyography"
+    ],
+    "href": "/lab-img/bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzA0IOyLoOqyveyDneumrMK36riw64ql6rKA7IKsL0VsZWN0cm9teW9ncmFwaHkgKEVNRykubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzA0IOyLoOqyveyDneumrMK36riw64ql6rKA7IKsL05lcnZlIENvbmR1Y3Rpb24gU3R1ZHkgKE5DUykubWQ",
+    "title": "Nerve Conduction Study (NCS)",
+    "category": "99 기타 검사",
+    "aliases": [
+      "NCS",
+      "Nerve conduction study"
+    ],
+    "href": "/lab-img/bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzA0IOyLoOqyveyDneumrMK36riw64ql6rKA7IKsL05lcnZlIENvbmR1Y3Rpb24gU3R1ZHkgKE5DUykubWQ"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzA0IOyLoOqyveyDneumrMK36riw64ql6rKA7IKsL1BvbHlzb21ub2dyYXBoeS5tZA",
+    "title": "Polysomnography",
+    "category": "99 기타 검사",
+    "aliases": [
+      "PSG",
+      "Polysomnography"
+    ],
+    "href": "/lab-img/bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsLzA0IOyLoOqyveyDneumrMK36riw64ql6rKA7IKsL1BvbHlzb21ub2dyYXBoeS5tZA"
+  },
+  {
+    "type": "labImg",
+    "slug": "bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsL-q4sO2DgCDqsoDsgqwubWQ",
+    "title": "기타 검사",
+    "category": "99 기타 검사",
+    "aliases": [],
+    "href": "/lab-img/bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsL-q4sO2DgCDqsoDsgqwubWQ"
   }
 ]

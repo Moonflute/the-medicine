@@ -344,10 +344,10 @@ function buildChiefComplaints() {
   });
 }
 
-function buildGenericNotes(domainFolder, domainKey) {
+function buildGenericNotes(domainFolder, domainKey, options = {}) {
   const root = path.join(VAULT_ROOT, domainFolder);
   const files = listMarkdownFiles(root, {
-    ignoreFiles: new Set(["index.md"]),
+    ignoreFiles: new Set(["index.md", ...(options.ignoreFiles ?? [])]),
   });
 
   return files.map((filePath) => {
@@ -364,6 +364,8 @@ function buildGenericNotes(domainFolder, domainKey) {
       slug: toSlug(`${domainKey}:${rel.replaceAll("\\", "/")}`),
       title,
       sourcePath: path.relative(WORKSPACE_ROOT, filePath).replaceAll("\\", "/"),
+      relativePath: rel.replaceAll("\\", "/"),
+      pathSegments: folders.slice(0, -1),
       folder: folders.length > 1 ? folders[0] : "",
       aliases: readList(frontmatter["aliases"]),
       category: readScalar(frontmatter["계통"]) || readScalar(frontmatter["category"]) || (folders.length > 1 ? folders[0] : domainFolder),
@@ -500,7 +502,7 @@ function buildSkillsPlaceholder() {
   };
 }
 
-function buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology }) {
+function buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology, labImg }) {
   return [
     ...diseases.map((item) => ({
       type: "disease",
@@ -542,6 +544,14 @@ function buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathol
       aliases: item.aliases,
       href: `/pathology/${item.slug}`,
     })),
+    ...labImg.map((item) => ({
+      type: "labImg",
+      slug: item.slug,
+      title: item.title,
+      category: item.category,
+      aliases: item.aliases,
+      href: `/lab-img/${item.slug}`,
+    })),
   ];
 }
 
@@ -553,6 +563,9 @@ function main() {
   const drugs = buildDrugs();
   const physiology = buildGenericNotes("05 Physiology", "physiology");
   const pathology = buildGenericNotes("03 Pathology", "pathology");
+  const labImg = buildGenericNotes("06 Lab & Img", "lab-img", {
+    ignoreFiles: ["Lab & Img.md", "분류체계.md"],
+  });
   const skills = buildSkillsPlaceholder();
 
   const specialties = [...new Map(diseases.map((item) => [item.specialty, item])).keys()].map((name) => ({
@@ -571,6 +584,7 @@ function main() {
       drugs: { count: drugs.length, source: "04 Pharmacology" },
       physiology: { count: physiology.length, source: "05 Physiology" },
       pathology: { count: pathology.length, source: "03 Pathology" },
+      labImg: { count: labImg.length, source: "06 Lab & Img" },
       skills: { count: skills.items.length, source: "legacy skills source" },
       specialties: { count: specialties.length, source: "derived from diseases" },
     },
@@ -582,11 +596,12 @@ function main() {
   writeJson("drugs.json", drugs);
   writeJson("physiology.json", physiology);
   writeJson("pathology.json", pathology);
+  writeJson("lab-img.json", labImg);
   writeJson("skills.json", skills);
   writeJson("specialties.json", specialties);
   writeJson(
     "search-index.json",
-    buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology }),
+    buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology, labImg }),
   );
 
   fs.writeFileSync(

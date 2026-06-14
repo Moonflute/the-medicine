@@ -79,6 +79,8 @@ export type DomainNote = {
   slug: string;
   title: string;
   sourcePath: string;
+  relativePath: string;
+  pathSegments: string[];
   folder: string;
   aliases: string[];
   category: string;
@@ -289,6 +291,14 @@ export function getPathologyNotes(): DomainNote[] {
 
 export function getPathologyNoteBySlug(slug: string): DomainNote | undefined {
   return getPathologyNotes().find((note) => note.slug === slug);
+}
+
+export function getLabImgNotes(): DomainNote[] {
+  return readJson("lab-img.json");
+}
+
+export function getLabImgNoteBySlug(slug: string): DomainNote | undefined {
+  return getLabImgNotes().find((note) => note.slug === slug);
 }
 
 export function getSkillsManifest(): SkillsManifest {

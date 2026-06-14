@@ -3,28 +3,28 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Activity, BookOpen, HeartPulse, House, Menu, Pill, Search, Stethoscope, X } from "lucide-react";
+import { Activity, FlaskConical, HeartPulse, House, Menu, Pill, Search, Stethoscope, X } from "lucide-react";
 
 const navItems = [
   { href: "/", label: "Home", icon: House },
   { href: "/cc", label: "CC", icon: HeartPulse },
   { href: "/specialties", label: "Specialties", icon: Activity },
   { href: "/drugs", label: "Drugs", icon: Pill },
+  { href: "/lab-img", label: "Lab & Img", icon: FlaskConical },
   { href: "/skills", label: "Skills", icon: Stethoscope },
-  { href: "/review", label: "Review", icon: BookOpen },
 ];
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.0.32";
+  const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.0.33";
   const activeNavStyle = { color: "#fafaf9" };
 
   const title = useMemo(() => {
     if (pathname === "/") return "The Medicine";
     if (pathname.startsWith("/specialty")) return "Specialty";
     if (pathname.startsWith("/disease")) return "Disease";
-    if (pathname.startsWith("/review")) return "Review";
+    if (pathname.startsWith("/lab-img")) return "Lab & Img";
     return "The Medicine";
   }, [pathname]);
 
