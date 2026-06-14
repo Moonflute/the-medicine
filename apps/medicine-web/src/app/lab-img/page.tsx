@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ChevronRight } from "lucide-react";
+import { Calculator, ChevronRight } from "lucide-react";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
 import { getLabImgNotes } from "@/lib/webdb";
 
@@ -24,6 +24,19 @@ export default function LabImgPage() {
       <section className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm sm:p-6">
         <div className="mb-4 text-xs uppercase tracking-[0.22em] text-stone-500">Top-level categories</div>
         <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+          <Link
+            href="/lab-img/medcalc"
+            className="flex items-center justify-between rounded-2xl border border-stone-200 bg-amber-50/70 px-4 py-4 transition hover:border-stone-300 hover:bg-white"
+          >
+            <div>
+              <div className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-stone-900 text-stone-50">
+                <Calculator className="h-4 w-4" />
+              </div>
+              <div className="mt-3 font-serif text-lg font-semibold tracking-tight text-stone-900">MedCalc</div>
+              <div className="mt-1 text-xs uppercase tracking-[0.16em] text-stone-500">quick calculators</div>
+            </div>
+            <ChevronRight className="h-4 w-4 shrink-0 text-stone-400" />
+          </Link>
           {groups.map((group) => (
             <Link
               key={group.slug}
