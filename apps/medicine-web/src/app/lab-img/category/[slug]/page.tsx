@@ -2,8 +2,9 @@ import Link from "next/link";
 import { ArrowLeft, ChevronRight } from "lucide-react";
 import { notFound } from "next/navigation";
 import { RichTextLines } from "@/components/rich-text-lines";
+import { buildLabImgOverviewRows, isLabImgOverviewNote } from "@/lib/lab-img-overview";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
-import { getLabImgNotes } from "@/lib/webdb";
+import { getLabImgNotes, type DomainNote } from "@/lib/webdb";
 
 function isReferenceSection(title: string) {
   return /참고|reference|references|bibliography|출처/i.test(title);
@@ -54,31 +55,63 @@ function NoteLinks({
 
 function InlineNote({
   title,
-  sections,
+  note,
+  allNotes,
 }: {
   title?: string;
-  sections: Array<{ title: string; content: string[] }>;
+  note: DomainNote;
+  allNotes: DomainNote[];
 }) {
-  const visibleSections = sections.filter((section) => !isReferenceSection(section.title));
+  const visibleSections = note.sections.filter((section) => !isReferenceSection(section.title));
+  const overviewRows = buildLabImgOverviewRows(note, allNotes);
+  const showOverviewTable = isLabImgOverviewNote(note) && overviewRows.length > 0;
 
   return (
     <section className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
       {title ? <h2 className="mb-4 font-serif text-2xl font-semibold tracking-tight text-stone-900">{title}</h2> : null}
-      <div className="space-y-6">
-        {visibleSections.map((section) => (
-          <section key={section.title} className="space-y-3">
-            <h3 className="font-medium text-stone-900">{section.title}</h3>
-            <RichTextLines lines={section.content} className="space-y-2 text-sm leading-6 text-stone-700" bulletStyle="plain" />
-          </section>
-        ))}
-      </div>
+      {showOverviewTable ? (
+        <div className="overflow-hidden rounded-2xl border border-stone-200">
+          <table className="min-w-full divide-y divide-stone-200 text-sm">
+            <thead className="bg-stone-50/80">
+              <tr className="text-left text-stone-600">
+                <th className="px-4 py-3 font-medium">항목명</th>
+                <th className="px-4 py-3 font-medium">하한치</th>
+                <th className="px-4 py-3 font-medium">상한치</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-200 bg-white">
+              {overviewRows.map((row) => (
+                <tr key={row.slug}>
+                  <td className="px-4 py-3 font-medium text-stone-900">
+                    <Link href={`/lab-img/${row.slug}`} className="transition hover:text-sky-700">
+                      {row.title}
+                    </Link>
+                  </td>
+                  <td className="px-4 py-3 text-stone-700">{row.lower || "-"}</td>
+                  <td className="px-4 py-3 text-stone-700">{row.upper || "-"}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ) : (
+        <div className="space-y-6">
+          {visibleSections.map((section) => (
+            <section key={section.title} className="space-y-3">
+              <h3 className="font-medium text-stone-900">{section.title}</h3>
+              <RichTextLines lines={section.content} className="space-y-2 text-sm leading-6 text-stone-700" bulletStyle="plain" />
+            </section>
+          ))}
+        </div>
+      )}
     </section>
   );
 }
 
 export default async function LabImgCategoryPage(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params;
-  const group = buildLabImgGroups(getLabImgNotes()).find((item) => item.slug === params.slug);
+  const allNotes = getLabImgNotes();
+  const group = buildLabImgGroups(allNotes).find((item) => item.slug === params.slug);
 
   if (!group) {
     notFound();
@@ -111,7 +144,7 @@ export default async function LabImgCategoryPage(props: { params: Promise<{ slug
         <h1 className="mt-3 font-serif text-4xl font-semibold tracking-tight">{group.title}</h1>
       </header>
 
-      {shouldInlineOverview && group.overviewNote ? <InlineNote sections={group.overviewNote.sections} /> : null}
+      {shouldInlineOverview && group.overviewNote ? <InlineNote note={group.overviewNote} allNotes={allNotes} /> : null}
 
       {group.directNotes.length > 0 ? (
         <section className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
