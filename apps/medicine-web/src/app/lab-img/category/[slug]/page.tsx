@@ -80,8 +80,8 @@ function InlineNote({
                 <thead className="bg-white">
                   <tr className="text-left text-stone-500">
                     <th className="px-4 py-3 font-medium">Item</th>
-                    <th className="px-4 py-3 font-medium">Low</th>
-                    <th className="px-4 py-3 font-medium">High</th>
+                    <th className="px-4 py-3 font-medium text-sky-700">Low</th>
+                    <th className="px-4 py-3 font-medium text-rose-700">High</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-stone-200 bg-white">
@@ -92,8 +92,12 @@ function InlineNote({
                           {row.title}
                         </Link>
                       </td>
-                      <td className="px-4 py-3 font-medium text-sky-700">{row.lower || "-"}</td>
-                      <td className="px-4 py-3 font-medium text-rose-700">{row.upper || "-"}</td>
+                      <td className="px-4 py-3 font-medium" style={{ color: "#0369a1" }}>
+                        {row.lower || "-"}
+                      </td>
+                      <td className="px-4 py-3 font-medium" style={{ color: "#be123c" }}>
+                        {row.upper || "-"}
+                      </td>
                     </tr>
                   ))}
                 </tbody>
