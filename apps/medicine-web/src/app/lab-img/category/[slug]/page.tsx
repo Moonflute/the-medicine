@@ -2,8 +2,8 @@ import Link from "next/link";
 import { ArrowLeft, ChevronRight } from "lucide-react";
 import { notFound } from "next/navigation";
 import { RichTextLines } from "@/components/rich-text-lines";
-import { buildLabImgOverviewRows, isLabImgOverviewNote } from "@/lib/lab-img-overview";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
+import { buildLabImgOverviewGroups, isLabImgOverviewNote } from "@/lib/lab-img-overview";
 import { getLabImgNotes, type DomainNote } from "@/lib/webdb";
 
 function isReferenceSection(title: string) {
@@ -63,36 +63,43 @@ function InlineNote({
   allNotes: DomainNote[];
 }) {
   const visibleSections = note.sections.filter((section) => !isReferenceSection(section.title));
-  const overviewRows = buildLabImgOverviewRows(note, allNotes);
-  const showOverviewTable = isLabImgOverviewNote(note) && overviewRows.length > 0;
+  const overviewGroups = buildLabImgOverviewGroups(note, allNotes);
+  const showOverviewTable = isLabImgOverviewNote(note) && overviewGroups.length > 0;
 
   return (
     <section className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
       {title ? <h2 className="mb-4 font-serif text-2xl font-semibold tracking-tight text-stone-900">{title}</h2> : null}
       {showOverviewTable ? (
-        <div className="overflow-hidden rounded-2xl border border-stone-200">
-          <table className="min-w-full divide-y divide-stone-200 text-sm">
-            <thead className="bg-stone-50/80">
-              <tr className="text-left text-stone-600">
-                <th className="px-4 py-3 font-medium">항목명</th>
-                <th className="px-4 py-3 font-medium">하한치</th>
-                <th className="px-4 py-3 font-medium">상한치</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-stone-200 bg-white">
-              {overviewRows.map((row) => (
-                <tr key={row.slug}>
-                  <td className="px-4 py-3 font-medium text-stone-900">
-                    <Link href={`/lab-img/${row.slug}`} className="transition hover:text-sky-700">
-                      {row.title}
-                    </Link>
-                  </td>
-                  <td className="px-4 py-3 text-stone-700">{row.lower || "-"}</td>
-                  <td className="px-4 py-3 text-stone-700">{row.upper || "-"}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        <div className="space-y-5">
+          {overviewGroups.map((group) => (
+            <section key={group.title} className="overflow-hidden rounded-2xl border border-stone-200">
+              <div className="border-b border-stone-200 bg-stone-50/80 px-4 py-3 text-sm font-semibold tracking-[0.08em] text-stone-700">
+                {group.title}
+              </div>
+              <table className="min-w-full divide-y divide-stone-200 text-sm">
+                <thead className="bg-white">
+                  <tr className="text-left text-stone-500">
+                    <th className="px-4 py-3 font-medium">Item</th>
+                    <th className="px-4 py-3 font-medium">Low</th>
+                    <th className="px-4 py-3 font-medium">High</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-stone-200 bg-white">
+                  {group.rows.map((row) => (
+                    <tr key={`${group.title}-${row.slug}-${row.title}`}>
+                      <td className="px-4 py-3 font-medium text-stone-900">
+                        <Link href={`/lab-img/${row.slug}`} className="transition hover:text-sky-700">
+                          {row.title}
+                        </Link>
+                      </td>
+                      <td className="px-4 py-3 text-stone-700">{row.lower || "-"}</td>
+                      <td className="px-4 py-3 text-stone-700">{row.upper || "-"}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </section>
+          ))}
         </div>
       ) : (
         <div className="space-y-6">
