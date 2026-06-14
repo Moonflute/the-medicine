@@ -81,6 +81,13 @@ function normalizeLine(line) {
     .trim();
 }
 
+function normalizeSummaryLine(line) {
+  const normalized = normalizeLine(line).replace(/^#{1,6}\s+/, "").trim();
+  if (!normalized) return "";
+  if (/^#{1,6}$/.test(normalized)) return "";
+  return normalized;
+}
+
 function splitSections(body) {
   const matches = [...body.matchAll(/^##\s+(.+)$/gm)];
   if (matches.length === 0) {
@@ -371,7 +378,7 @@ function buildGenericNotes(domainFolder, domainKey, options = {}) {
       category: readScalar(frontmatter["계통"]) || readScalar(frontmatter["category"]) || (folders.length > 1 ? folders[0] : domainFolder),
       summary: body
         .split(/\r?\n/)
-        .map(normalizeLine)
+        .map(normalizeSummaryLine)
         .filter(Boolean)
         .slice(0, 8),
       sections,
