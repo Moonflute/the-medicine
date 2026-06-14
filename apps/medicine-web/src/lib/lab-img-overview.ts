@@ -293,27 +293,37 @@ function isLabImgOverviewByTitle(note: DomainNote) {
   return cleanText(note.title).toLowerCase().includes("overview");
 }
 
-function rowsFromRelatedLinks(note: DomainNote, lookup: Map<string, DomainNote>, allNotes: DomainNote[]) {
+function rowsFromRelatedLinks(
+  note: DomainNote,
+  lookup: Map<string, DomainNote>,
+  allNotes: DomainNote[],
+  visited: Set<string>,
+) {
   const links = note.sections.flatMap((section) => section.content.flatMap((line) => extractWikiLinks(line)));
   const rows: LabImgRangeRow[] = [];
 
   for (const link of links) {
     const linked = resolveNote(link, lookup);
-    if (!linked || linked.slug === note.slug) continue;
-    rows.push(...extractRowsFromNote(linked, lookup, allNotes));
+    if (!linked || linked.slug === note.slug || visited.has(linked.slug)) continue;
+    rows.push(...extractRowsFromNote(linked, lookup, allNotes, new Set([...visited, linked.slug])));
   }
 
   return dedupeRows(rows);
 }
 
-function extractRowsFromNote(note: DomainNote, lookup: Map<string, DomainNote>, allNotes: DomainNote[]): LabImgRangeRow[] {
+function extractRowsFromNote(
+  note: DomainNote,
+  lookup: Map<string, DomainNote>,
+  allNotes: DomainNote[],
+  visited = new Set<string>([note.slug]),
+): LabImgRangeRow[] {
   const tableRows = parseTableRows(note, lookup);
   if (tableRows.length > 0) return tableRows;
 
   const sectionRanges = parseRangesFromNormalSection(note);
   if (sectionRanges.length > 1) return sectionRanges;
 
-  const relatedRows = rowsFromRelatedLinks(note, lookup, allNotes);
+  const relatedRows = rowsFromRelatedLinks(note, lookup, allNotes, visited);
   if (relatedRows.length > 0) return relatedRows;
 
   const single = parseSingleRangeRow(note);
