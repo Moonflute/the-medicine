@@ -127,6 +127,40 @@ function extractSummaryCallout(body) {
   return summary;
 }
 
+function extractLeadingSummaryBlock(body) {
+  const lines = body.split(/\r?\n/);
+  const summary = [];
+  let started = false;
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+
+    if (!started) {
+      if (!line || /^#\s+/.test(line)) {
+        continue;
+      }
+      started = true;
+    }
+
+    if (!line) {
+      break;
+    }
+
+    if (/^##\s+/.test(line)) {
+      break;
+    }
+
+    const normalizedParts = line
+      .split(/\s+>\s+/)
+      .map((part, index) => (index === 0 ? part.replace(/^>\s?/, "") : part).trim())
+      .filter(Boolean);
+
+    summary.push(...normalizedParts);
+  }
+
+  return summary;
+}
+
 function listMarkdownFiles(root, options = {}) {
   const {
     recursive = true,
@@ -361,6 +395,8 @@ function buildGenericNotes(domainFolder, domainKey, options = {}) {
     const raw = readText(filePath);
     const { frontmatter, body } = splitFrontmatter(raw);
     const sections = splitSections(body);
+    const summaryCallout = extractSummaryCallout(body);
+    const leadingSummaryBlock = extractLeadingSummaryBlock(body);
     const rel = path.relative(root, filePath);
     const folders = rel.split(path.sep);
     const title = path.basename(filePath, ".md");
@@ -376,11 +412,16 @@ function buildGenericNotes(domainFolder, domainKey, options = {}) {
       folder: folders.length > 1 ? folders[0] : "",
       aliases: readList(frontmatter["aliases"]),
       category: readScalar(frontmatter["계통"]) || readScalar(frontmatter["category"]) || (folders.length > 1 ? folders[0] : domainFolder),
-      summary: body
-        .split(/\r?\n/)
-        .map(normalizeSummaryLine)
-        .filter(Boolean)
-        .slice(0, 8),
+      summary: (
+        summaryCallout.length > 0
+          ? summaryCallout
+          : leadingSummaryBlock.length > 0
+            ? leadingSummaryBlock
+            : body
+                .split(/\r?\n/)
+                .map(normalizeSummaryLine)
+                .filter(Boolean)
+      ).slice(0, 8),
       sections,
       updatedAt: stat.mtime.toISOString(),
     };

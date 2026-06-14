@@ -12,14 +12,7 @@
     "aliases": [],
     "category": "01 혈액검사",
     "summary": [
-      "혈액검사",
-      "혈액검사는 가장 넓은 screening 및 monitoring 도구이며, `06 Lab & Img`에서 가장 큰 축으로 관리합니다.",
-      "하위 묶음",
-      "• CBC·Differential·Platelet: [[Complete Blood Count (CBC)]]",
-      "• Electrolytes: [[Electrolytes overview]], [[Comprehensive Metabolic Panel (CMP)]], [[Serum Osmolality]]",
-      "• Renal: [[Renal overview]], [[Creatinine]], [[Estimated Glomerular Filtration Rate (eGFR)]], [[Blood Urea Nitrogen (BUN)]]",
-      "• Glucose metabolism: [[Glucose metabolism overview]], [[Blood Glucose]], [[Hemoglobin A1C (HbA1c)]]",
-      "• Liver·Pancreas: [[Liver-Pancreas overview]], [[Liver Function Tests (LFT)]], [[Aspartate Aminotransferase (AST)]], [[Alanine Aminotransferase (ALT)]], [[Alkaline Phosphatase (ALP)]], [[Albumin]], [[Total Bilirubin]], [[Lipase]]"
+      "혈액검사는 가장 넓은 screening 및 monitoring 도구이며, `06 Lab & Img`에서 가장 큰 축으로 관리합니다."
     ],
     "sections": [
       {
@@ -69,14 +62,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Activated Partial Thromboplastin Time (aPTT)",
-      "> Activated Partial Thromboplastin Time (aPTT) : intrinsic/common coagulation pathway의 clotting time을 보는 검사",
-      "> 정상범위: 대략 `25-35 sec`",
-      "1. 개요",
-      "• aPTT는 intrinsic pathway와 common pathway의 기능을 보는 기본 응고검사다.",
-      "• heparin effect 평가, factor deficiency, inhibitor 존재, lupus anticoagulant 평가의 출발점이 된다.",
-      "2. 검사 원리",
-      "• citrated plasma는 calcium이 제거되어 일시적으로 응고가 멈춘 상태다."
+      "Activated Partial Thromboplastin Time (aPTT) : intrinsic/common coagulation pathway의 clotting time을 보는 검사",
+      "정상범위: 대략 `25-35 sec`"
     ],
     "sections": [
       {
@@ -161,14 +148,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Alanine Aminotransferase (ALT)",
-      "> Alanine Aminotransferase (ALT) : hepatocellular injury에 더 특이적인 liver enzyme",
-      "> 정상범위: 대략 `7-56 U/L`",
-      "1. 개요",
-      "• ALT는 liver injury 해석에서 AST보다 더 liver-specific한 경향이 있다.",
-      "2. 검사 원리",
-      "• serum ALT enzyme activity를 측정한다.",
-      "• hepatocyte 손상 시 혈중으로 유리되어 상승한다."
+      "Alanine Aminotransferase (ALT) : hepatocellular injury에 더 특이적인 liver enzyme",
+      "정상범위: 대략 `7-56 U/L`"
     ],
     "sections": [
       {
@@ -227,14 +208,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Albumin",
-      "> Albumin : liver가 만드는 주요 혈장 단백질로 oncotic pressure와 binding capacity를 반영",
-      "> 정상범위: 대략 `3.5-5.0 g/dL`",
-      "1. 개요",
-      "• albumin은 plasma oncotic pressure 유지와 여러 물질의 운반에 중요하다.",
-      "2. 검사 원리",
-      "• serum albumin concentration을 정량한다.",
-      "• 합성 감소, 손실 증가, 희석 상태가 값에 영향을 준다."
+      "Albumin : liver가 만드는 주요 혈장 단백질로 oncotic pressure와 binding capacity를 반영",
+      "정상범위: 대략 `3.5-5.0 g/dL`"
     ],
     "sections": [
       {
@@ -294,14 +269,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Alkaline Phosphatase (ALP)",
-      "> Alkaline Phosphatase (ALP) : cholestasis와 bone turnover에서 상승할 수 있는 enzyme",
-      "> 정상범위: 대략 `44-147 U/L`",
-      "1. 개요",
-      "• ALP는 liver/bile duct와 bone에서 중요한 enzyme이다.",
-      "2. 검사 원리",
-      "• serum ALP enzyme activity를 측정한다.",
-      "3. 정상범위"
+      "Alkaline Phosphatase (ALP) : cholestasis와 bone turnover에서 상승할 수 있는 enzyme",
+      "정상범위: 대략 `44-147 U/L`"
     ],
     "sections": [
       {
@@ -361,14 +330,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Arterial Blood Gas Analysis (ABGA)",
-      "> Arterial Blood Gas Analysis (ABGA) : oxygenation, ventilation, acid-base status를 동시에 평가하는 검사",
-      "> 정상범위: `pH` `7.38-7.42`, `PaCO2` `38-42 mmHg`, `PaO2` `75-100 mmHg`",
-      "1. 개요",
-      "• ABGA는 oxygenation, ventilation, acid-base status를 동시에 평가하는 핵심 검사이다.",
-      "• 응급실, ICU, respiratory failure 평가에서 특히 중요하다.",
-      "• 실제 임상에서는 “산소가 부족한가?”, “이산화탄소를 못 내보내는가?”, “대사성 산-염기 이상이 있는가?”, “보상이 적절한가?”를 한 번에 읽기 위해 사용한다.",
-      "2. 검사 원리"
+      "Arterial Blood Gas Analysis (ABGA) : oxygenation, ventilation, acid-base status를 동시에 평가하는 검사",
+      "정상범위: `pH` `7.38-7.42`, `PaCO2` `38-42 mmHg`, `PaO2` `75-100 mmHg`"
     ],
     "sections": [
       {
@@ -562,14 +525,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Aspartate Aminotransferase (AST)",
-      "> Aspartate Aminotransferase (AST) : liver를 포함한 여러 조직 손상에서 상승할 수 있는 enzyme",
-      "> 정상범위: 대략 `10-40 U/L`",
-      "1. 개요",
-      "• AST는 liver뿐 아니라 muscle, heart 등에도 존재한다.",
-      "2. 검사 원리",
-      "• serum AST enzyme activity를 측정한다.",
-      "• 세포 손상이 생기면 intracellular enzyme이 혈중으로 유리되어 상승한다."
+      "Aspartate Aminotransferase (AST) : liver를 포함한 여러 조직 손상에서 상승할 수 있는 enzyme",
+      "정상범위: 대략 `10-40 U/L`"
     ],
     "sections": [
       {
@@ -631,14 +588,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Beta-human Chorionic Gonadotropin (beta-hCG)",
-      "> Beta-human Chorionic Gonadotropin (beta-hCG) : pregnancy와 일부 germ cell/trophoblastic tumor에서 상승하는 hormone",
-      "> 정상범위: 비임신 상태에서 대개 `0-5 mIU/mL`",
-      "1. 개요",
-      "• beta-hCG는 trophoblastic tissue에서 생성되는 hormone이다.",
-      "• 초기 pregnancy 확인과 일부 종양 평가에 사용한다.",
-      "2. 검사 원리",
-      "• beta subunit을 immunoassay로 측정한다."
+      "Beta-human Chorionic Gonadotropin (beta-hCG) : pregnancy와 일부 germ cell/trophoblastic tumor에서 상승하는 hormone",
+      "정상범위: 비임신 상태에서 대개 `0-5 mIU/mL`"
     ],
     "sections": [
       {
@@ -700,14 +651,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Bicarbonate (Total CO2)",
-      "> Bicarbonate (Total CO2) : 대사성 산-염기 상태를 반영하는 주요 buffer 성분",
-      "> 정상범위: 대략 `22-29 mmol/L`",
-      "1. 개요",
-      "• serum bicarbonate는 metabolic acid-base balance 해석의 핵심 축이다.",
-      "• chemistry panel의 `CO2`는 실제로는 대부분 bicarbonate를 반영한다.",
-      "2. 검사 원리",
-      "• serum total CO2는 dissolved CO2, carbonic acid, bicarbonate를 포함하지만 대부분이 bicarbonate 형태다."
+      "Bicarbonate (Total CO2) : 대사성 산-염기 상태를 반영하는 주요 buffer 성분",
+      "정상범위: 대략 `22-29 mmol/L`"
     ],
     "sections": [
       {
@@ -771,14 +716,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Blood Glucose",
-      "> Blood Glucose : 현재 시점의 혈당 농도를 보는 검사",
-      "> 정상범위: fasting 기준 대략 `70-99 mg/dL`",
-      "1. 개요",
-      "• glucose는 body의 주요 에너지원이다.",
-      "• 임상적으로 hyperglycemia와 hypoglycemia를 즉시 평가할 때 매우 중요하다.",
-      "2. 검사 원리",
-      "• 혈중 glucose 농도를 정량한다."
+      "Blood Glucose : 현재 시점의 혈당 농도를 보는 검사",
+      "정상범위: fasting 기준 대략 `70-99 mg/dL`"
     ],
     "sections": [
       {
@@ -840,14 +779,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Blood Urea Nitrogen (BUN)",
-      "> Blood Urea Nitrogen (BUN) : protein metabolism에서 생긴 urea nitrogen 축적 정도를 보는 검사",
-      "> 정상범위: 대략 `7-20 mg/dL`",
-      "1. 개요",
-      "• BUN은 liver에서 만들어진 urea가 blood에 얼마나 남아 있는지를 본다.",
-      "• kidney filtration뿐 아니라 hydration, catabolic state 영향도 받는다.",
-      "2. 검사 원리",
-      "• 혈중 urea nitrogen 농도를 정량한다."
+      "Blood Urea Nitrogen (BUN) : protein metabolism에서 생긴 urea nitrogen 축적 정도를 보는 검사",
+      "정상범위: 대략 `7-20 mg/dL`"
     ],
     "sections": [
       {
@@ -908,14 +841,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "C-Reactive Protein (CRP)",
-      "> C-Reactive Protein (CRP) : 전신 inflammation burden를 반영하는 acute-phase protein",
-      "> 정상범위: `0.8-1.0 mg/dL` 이하",
-      "1. 개요",
-      "• CRP는 liver에서 생성되는 acute-phase protein으로, 전신 inflammation의 정도를 반영하는 비특이적 marker이다.",
-      "2. 검사 원리",
-      "• `CRP`는 `C-reactive protein`의 약자로, 원래 **폐렴구균(pneumococcus)의 C-polysaccharide와 반응하는 단백질**로 처음 기술되었기 때문에 이런 이름이 붙었다.",
-      "• 구조적으로는 **pentraxin family**에 속하는 acute-phase protein이며, 주된 생성 부위는 liver이다."
+      "C-Reactive Protein (CRP) : 전신 inflammation burden를 반영하는 acute-phase protein",
+      "정상범위: `0.8-1.0 mg/dL` 이하"
     ],
     "sections": [
       {
@@ -1008,14 +935,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Calcium",
-      "> Calcium : 신경근 기능, 뼈 대사, 호르몬 신호에 중요한 전해질",
-      "> 정상범위: total calcium 대략 `8.5-10.2 mg/dL`",
-      "1. 개요",
-      "• calcium은 뼈에 저장되지만 혈중에서는 neuromuscular function과 signal transduction에 중요하다.",
-      "• total calcium과 ionized calcium은 의미가 다를 수 있다.",
-      "2. 검사 원리",
-      "• 보통 total calcium을 측정하며, 이는 protein-bound fraction과 free fraction을 모두 포함한다."
+      "Calcium : 신경근 기능, 뼈 대사, 호르몬 신호에 중요한 전해질",
+      "정상범위: total calcium 대략 `8.5-10.2 mg/dL`"
     ],
     "sections": [
       {
@@ -1082,12 +1003,8 @@
     "aliases": [],
     "category": "01 혈액검사",
     "summary": [
-      "Cardiac markers overview",
-      "> Cardiac markers overview : myocardial injury와 heart failure burden를 평가하는 혈액검사 묶음",
-      "> 정상범위: `Troponin`은 assay-specific, `BNP/NT-proBNP`는 age/sex/clinical context dependent",
-      "1. 하위 문서",
-      "• [[Troponin]]",
-      "• [[Natriuretic Peptide Tests (BNP, NT-proBNP)]]"
+      "Cardiac markers overview : myocardial injury와 heart failure burden를 평가하는 혈액검사 묶음",
+      "정상범위: `Troponin`은 assay-specific, `BNP/NT-proBNP`는 age/sex/clinical context dependent"
     ],
     "sections": [
       {
@@ -1116,14 +1033,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "CBC overview",
-      "> CBC overview : CBC를 구성하는 세포 수, 적혈구 지표, platelet, differential의 전체 해석 허브",
-      "> 정상범위: 개별 항목별 reference range를 각각 확인",
-      "1. 개요",
-      "• CBC는 blood의 **cellular component**를 여러 하위 항목으로 분해해서 읽는 검사이다.",
-      "• 실제 해석은 한 숫자보다 `RBC 계열`, `WBC 계열`, `Platelet 계열`, `RBC indices`를 함께 보는 방식으로 진행한다.",
-      "2. 하위 항목",
-      "• [[White Blood Cell Count (WBC)]]"
+      "CBC overview : CBC를 구성하는 세포 수, 적혈구 지표, platelet, differential의 전체 해석 허브",
+      "정상범위: 개별 항목별 reference range를 각각 확인"
     ],
     "sections": [
       {
@@ -1212,14 +1123,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Hematocrit",
-      "> Hematocrit : whole blood 중 적혈구가 차지하는 비율을 보는 항목",
-      "> 정상범위: 여성 약 `36-48%`, 남성 약 `40-55%`",
-      "1. 개요",
-      "• Hematocrit은 whole blood volume 중 RBC volume의 비율이다.",
-      "• 전통적으로 “packed cell volume”과 유사한 개념으로 이해한다.",
-      "2. 검사 원리",
-      "• 현대 analyzer에서는 보통 `RBC count x MCV`를 바탕으로 계산되거나 유도된다."
+      "Hematocrit : whole blood 중 적혈구가 차지하는 비율을 보는 항목",
+      "정상범위: 여성 약 `36-48%`, 남성 약 `40-55%`"
     ],
     "sections": [
       {
@@ -1304,14 +1209,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Hemoglobin",
-      "> Hemoglobin : 적혈구 안의 oxygen-carrying protein 농도를 반영하는 항목",
-      "> 정상범위: 여성 약 `11.5-15.5 g/dL`, 남성 약 `13.0-17.0 g/dL`",
-      "1. 개요",
-      "• Hemoglobin은 iron을 포함한 단백질로, 폐에서 조직으로 oxygen을 운반한다.",
-      "• 임상적으로 anemia를 정의할 때 가장 핵심적인 수치 중 하나다.",
-      "2. 검사 원리",
-      "• 적혈구를 용해한 뒤 hemoglobin의 농도를 광학적/흡광도 기반 방법으로 측정한다."
+      "Hemoglobin : 적혈구 안의 oxygen-carrying protein 농도를 반영하는 항목",
+      "정상범위: 여성 약 `11.5-15.5 g/dL`, 남성 약 `13.0-17.0 g/dL`"
     ],
     "sections": [
       {
@@ -1399,14 +1298,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Mean Corpuscular Hemoglobin and MCHC (MCH-MCHC)",
-      "> Mean Corpuscular Hemoglobin and MCHC (MCH-MCHC) : 적혈구 1개당 hemoglobin 양과 그 농도를 보는 지표",
-      "> 정상범위: `MCH` 약 `27-31 pg`, `MCHC` 약 `32-36 g/dL`",
-      "1. 개요",
-      "• `MCH`는 적혈구 1개에 들어 있는 hemoglobin의 평균 양이다.",
-      "• `MCHC`는 적혈구 일정 부피 안의 hemoglobin 평균 농도다.",
-      "2. 검사 원리",
-      "• 두 값 모두 직접 현미경으로 측정하는 값이 아니라 `Hemoglobin`, `RBC count`, `Hematocrit`으로부터 계산된다."
+      "Mean Corpuscular Hemoglobin and MCHC (MCH-MCHC) : 적혈구 1개당 hemoglobin 양과 그 농도를 보는 지표",
+      "정상범위: `MCH` 약 `27-31 pg`, `MCHC` 약 `32-36 g/dL`"
     ],
     "sections": [
       {
@@ -1491,14 +1384,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Mean Corpuscular Volume (MCV)",
-      "> Mean Corpuscular Volume (MCV) : 적혈구 1개의 평균 크기를 보는 항목",
-      "> 정상범위: 약 `80-100 fL`",
-      "1. 개요",
-      "• MCV는 적혈구의 평균 부피를 나타낸다.",
-      "• anemia를 `microcytic`, `normocytic`, `macrocytic` pattern으로 나누는 핵심 지표다.",
-      "2. 검사 원리",
-      "• analyzer가 적혈구 하나하나의 volume을 측정하고 그 평균값을 계산한다."
+      "Mean Corpuscular Volume (MCV) : 적혈구 1개의 평균 크기를 보는 항목",
+      "정상범위: 약 `80-100 fL`"
     ],
     "sections": [
       {
@@ -1582,14 +1469,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Platelet Count",
-      "> Platelet Count : circulating platelet의 총수를 보는 항목",
-      "> 정상범위: 약 `150-400 x10^9/L`",
-      "1. 개요",
-      "• Platelet은 megakaryocyte 유래의 세포 조각으로, primary hemostasis의 핵심이다.",
-      "• 혈관 손상 시 가장 먼저 plug 형성에 관여한다.",
-      "2. 검사 원리",
-      "• analyzer가 platelet 크기 범위에 해당하는 입자를 계수해 단위 혈액당 platelet 수를 계산한다."
+      "Platelet Count : circulating platelet의 총수를 보는 항목",
+      "정상범위: 약 `150-400 x10^9/L`"
     ],
     "sections": [
       {
@@ -1674,14 +1555,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Red Blood Cell Count (RBC)",
-      "> Red Blood Cell Count (RBC) : circulating erythrocyte의 총수를 보는 항목",
-      "> 정상범위: 여성 약 `4.0-5.4 x10^12/L`, 남성 약 `4.5-6.1 x10^12/L`",
-      "1. 개요",
-      "• RBC count는 blood 속 적혈구 수를 의미한다.",
-      "• 적혈구는 bone marrow에서 만들어지고 hemoglobin을 운반해 산소 전달을 담당한다.",
-      "2. 검사 원리",
-      "• analyzer가 적혈구를 개별 입자로 계수해 단위 혈액당 적혈구 수를 계산한다."
+      "Red Blood Cell Count (RBC) : circulating erythrocyte의 총수를 보는 항목",
+      "정상범위: 여성 약 `4.0-5.4 x10^12/L`, 남성 약 `4.5-6.1 x10^12/L`"
     ],
     "sections": [
       {
@@ -1766,14 +1641,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Red Cell Distribution Width (RDW)",
-      "> Red Cell Distribution Width (RDW) : 적혈구 크기 변이도의 정도를 보는 항목",
-      "> 정상범위: 약 `12-15%`",
-      "1. 개요",
-      "• RDW는 적혈구 크기가 서로 얼마나 균일한지, 또는 얼마나 들쭉날쭉한지를 나타낸다.",
-      "• 수치가 높을수록 anisocytosis가 크다는 뜻이다.",
-      "2. 검사 원리",
-      "• analyzer가 적혈구 volume distribution histogram을 만들고, 그 분포의 폭을 백분율 또는 절대값으로 계산한다."
+      "Red Cell Distribution Width (RDW) : 적혈구 크기 변이도의 정도를 보는 항목",
+      "정상범위: 약 `12-15%`"
     ],
     "sections": [
       {
@@ -1856,14 +1725,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "White Blood Cell Count (WBC)",
-      "> White Blood Cell Count (WBC) : circulating leukocyte의 총수를 보는 항목",
-      "> 정상범위: 성인 약 `4.0-10.0 x10^9/L`",
-      "1. 개요",
-      "• WBC는 blood 내 전체 white blood cell 수를 뜻한다.",
-      "• 개별 세포 종류를 구분하기 전의 **총 leukocyte burden**를 보여준다.",
-      "2. 검사 원리",
-      "• analyzer가 nucleated cell을 optical scatter 또는 impedance 방식으로 계수해 총 white blood cell 수를 계산한다."
+      "White Blood Cell Count (WBC) : circulating leukocyte의 총수를 보는 항목",
+      "정상범위: 성인 약 `4.0-10.0 x10^9/L`"
     ],
     "sections": [
       {
@@ -1949,14 +1812,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "White Blood Cell Differential",
-      "> White Blood Cell Differential : WBC를 neutrophil, lymphocyte, monocyte, eosinophil, basophil 등으로 나누어 보는 항목",
-      "> 정상범위: 기관마다 다르며 absolute count 기준 해석이 중요",
-      "1. 개요",
-      "• Differential은 총 WBC를 세부 leukocyte subset으로 분해해 보여준다.",
-      "• 퍼센트보다 **absolute count**가 임상적으로 더 중요하다.",
-      "2. 검사 원리",
-      "• analyzer는 세포 크기, 과립, 핵 특성에 따른 scatter pattern을 이용해 각 leukocyte subset을 분류한다."
+      "White Blood Cell Differential : WBC를 neutrophil, lymphocyte, monocyte, eosinophil, basophil 등으로 나누어 보는 항목",
+      "정상범위: 기관마다 다르며 absolute count 기준 해석이 중요"
     ],
     "sections": [
       {
@@ -2045,14 +1902,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Chloride",
-      "> Chloride : extracellular fluid의 주요 음이온으로 sodium 및 acid-base 상태와 함께 움직이는 전해질",
-      "> 정상범위: 대략 `98-107 mmol/L`",
-      "1. 개요",
-      "• chloride는 sodium과 함께 extracellular fluid의 중요한 anion이다.",
-      "• acid-base disorder와 volume status 해석에서 생각보다 중요하다.",
-      "2. 검사 원리",
-      "• ion-selective electrode로 측정한다."
+      "Chloride : extracellular fluid의 주요 음이온으로 sodium 및 acid-base 상태와 함께 움직이는 전해질",
+      "정상범위: 대략 `98-107 mmol/L`"
     ],
     "sections": [
       {
@@ -2114,14 +1965,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Cholesterol Levels (Lipid Panel)",
-      "> Cholesterol Levels (Lipid Panel) : 혈중 cholesterol과 triglycerides를 측정해 cardiovascular risk를 평가하는 검사",
-      "> 정상범위: `Total Cholesterol <200 mg/dL`, `LDL <100 mg/dL`, `HDL >=40 mg/dL(낮으면 이상)`, `Triglycerides <150 mg/dL`",
-      "1. 개요",
-      "• `Lipid Panel`은 dyslipidemia와 atherosclerotic cardiovascular disease risk 평가의 기본 검사이다.",
-      "• 입원과 외래 모두에서 자주 사용되며, statin 치료 시작이나 강도 결정의 중요한 기초 자료가 된다.",
-      "2. 검사 원리",
-      "• 이 검사는 혈액 안에 있는 **lipoprotein에 실려 다니는 cholesterol과 triglycerides의 양**을 측정하거나 계산한다."
+      "Cholesterol Levels (Lipid Panel) : 혈중 cholesterol과 triglycerides를 측정해 cardiovascular risk를 평가하는 검사",
+      "정상범위: `Total Cholesterol <200 mg/dL`, `LDL <100 mg/dL`, `HDL >=40 mg/dL(낮으면 이상)`, `Triglycerides <150 mg/dL`"
     ],
     "sections": [
       {
@@ -2219,14 +2064,8 @@
     "aliases": [],
     "category": "01 혈액검사",
     "summary": [
-      "Coagulation overview",
-      "> Coagulation overview : 응고 경로와 fibrin 형성/분해를 평가하는 혈액검사 묶음",
-      "> 정상범위: 항목별로 다르며 `PT/INR`, `aPTT`, `fibrinogen`, `D-dimer`를 함께 해석",
-      "1. 개요",
-      "• coagulation 검사들은 출혈성 질환, 혈전성 질환, liver dysfunction, DIC, anticoagulant effect를 평가할 때 핵심적이다.",
-      "• 하나의 검사만으로 coagulation 전체를 설명하지 못하므로 여러 항목을 묶어서 봐야 한다.",
-      "2. 하위 문서",
-      "• [[Prothrombin Time and INR (PT-INR)]]"
+      "Coagulation overview : 응고 경로와 fibrin 형성/분해를 평가하는 혈액검사 묶음",
+      "정상범위: 항목별로 다르며 `PT/INR`, `aPTT`, `fibrinogen`, `D-dimer`를 함께 해석"
     ],
     "sections": [
       {
@@ -2285,14 +2124,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Complement C3",
-      "> Complement C3 : complement cascade 중심에 있는 핵심 단백질",
-      "> 정상범위: 대략 `90-180 mg/dL`",
-      "1. 개요",
-      "• C3는 complement system의 중심 단백질이다.",
-      "• innate immunity와 immune complex handling에 중요하다.",
-      "2. 검사 원리",
-      "• serum C3 농도를 정량한다."
+      "Complement C3 : complement cascade 중심에 있는 핵심 단백질",
+      "정상범위: 대략 `90-180 mg/dL`"
     ],
     "sections": [
       {
@@ -2354,14 +2187,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Complement C4",
-      "> Complement C4 : classical complement pathway와 관련된 단백질",
-      "> 정상범위: 대략 `10-40 mg/dL`",
-      "1. 개요",
-      "• C4는 classical pathway와 lectin pathway 쪽 해석에 중요하다.",
-      "2. 검사 원리",
-      "• serum C4 농도를 정량한다.",
-      "3. 정상범위"
+      "Complement C4 : classical complement pathway와 관련된 단백질",
+      "정상범위: 대략 `10-40 mg/dL`"
     ],
     "sections": [
       {
@@ -2421,14 +2248,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Complete Blood Count (CBC)",
-      "> Complete Blood Count (CBC) : blood cell count와 기본 혈액학 상태를 평가하는 검사",
-      "> 정상범위: `WBC` 약 `3.6-10.6 x10^9/L`, `Hemoglobin` 남성 약 `13.5-18.0 g/dL` / 여성 약 `12.0-15.0 g/dL`, `Platelet` 약 `150-450 x10^9/L`",
-      "1. 개요",
-      "• CBC는 blood cell의 수와 크기를 평가하는 기본 혈액검사이다.",
-      "• 주로 `RBC`, `WBC`, `Platelet`, `Hemoglobin`, `Hematocrit`, `MCV`를 포함하며, 필요 시 `Differential count`가 함께 보고된다.",
-      "1-1. 하위 문서",
-      "• [[CBC/CBC overview]]"
+      "Complete Blood Count (CBC) : blood cell count와 기본 혈액학 상태를 평가하는 검사",
+      "정상범위: `WBC` 약 `3.6-10.6 x10^9/L`, `Hemoglobin` 남성 약 `13.5-18.0 g/dL` / 여성 약 `12.0-15.0 g/dL`, `Platelet` 약 `150-450 x10^9/L`"
     ],
     "sections": [
       {
@@ -2549,14 +2370,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Comprehensive Metabolic Panel (CMP)",
-      "> Comprehensive Metabolic Panel (CMP) : electrolyte, renal function, liver-related chemistry를 함께 보는 panel",
-      "> 정상범위: `Sodium` 약 `136-145 mmol/L`, `Potassium` 약 `3.5-5.1 mmol/L`, `Creatinine` 약 `0.6-1.3 mg/dL`",
-      "1. 개요",
-      "• CMP는 electrolyte balance, renal function, liver-related chemistry, glucose, protein status를 한 번에 보는 panel이다.",
-      "• 병원 현장에서는 broad screening, 입원 초기 평가, drug monitoring에 매우 자주 사용된다.",
-      "2. 검사 원리",
-      "• CMP는 하나의 병태생리를 직접 보는 단일 marker 검사가 아니라, **체액 전해질 상태, glucose 대사, renal filtration, protein 상태, hepatobiliary chemistry**를 묶어서 보는 chemistry panel이다."
+      "Comprehensive Metabolic Panel (CMP) : electrolyte, renal function, liver-related chemistry를 함께 보는 panel",
+      "정상범위: `Sodium` 약 `136-145 mmol/L`, `Potassium` 약 `3.5-5.1 mmol/L`, `Creatinine` 약 `0.6-1.3 mg/dL`"
     ],
     "sections": [
       {
@@ -2665,14 +2480,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Cortisol",
-      "> Cortisol : adrenal cortex에서 분비되는 glucocorticoid hormone",
-      "> 정상범위: 시간대 의존적이며 morning cortisol은 대략 `5-25 ug/dL`",
-      "1. 개요",
-      "• cortisol은 stress response, glucose metabolism, 혈압 유지에 중요한 hormone이다.",
-      "2. 검사 원리",
-      "• serum cortisol을 immunoassay 등으로 정량한다.",
-      "• 분비가 circadian rhythm을 가지므로 sampling time이 해석에 매우 중요하다."
+      "Cortisol : adrenal cortex에서 분비되는 glucocorticoid hormone",
+      "정상범위: 시간대 의존적이며 morning cortisol은 대략 `5-25 ug/dL`"
     ],
     "sections": [
       {
@@ -2735,14 +2544,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Creatinine",
-      "> Creatinine : 근육 대사에서 생기는 waste product로 kidney filtration 상태를 추정하는 검사",
-      "> 정상범위: 대략 `0.6-1.3 mg/dL`",
-      "1. 개요",
-      "• creatinine은 muscle use와 tissue breakdown 과정에서 생기는 노폐물이다.",
-      "• 정상적으로 kidney가 혈액에서 걸러 소변으로 배출한다.",
-      "2. 검사 원리",
-      "• 혈중 creatinine 농도를 정량한다."
+      "Creatinine : 근육 대사에서 생기는 waste product로 kidney filtration 상태를 추정하는 검사",
+      "정상범위: 대략 `0.6-1.3 mg/dL`"
     ],
     "sections": [
       {
@@ -2812,14 +2615,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "D-dimer",
-      "> D-dimer : fibrin clot formation과 fibrinolysis의 흔적을 반영하는 검사",
-      "> 정상범위: 많은 검사실에서 `FEU 기준 0.50 ug/mL` 이하를 negative cutoff로 사용",
-      "1. 개요",
-      "• D-dimer는 cross-linked fibrin이 분해될 때 생성되는 degradation product로, 체내 clot formation과 fibrinolysis의 흔적을 반영한다.",
-      "2. 검사 원리",
-      "• `D-dimer`는 fibrinogen이 thrombin에 의해 fibrin으로 바뀌고, 이어 `Factor XIII`에 의해 **cross-linking**된 뒤, 그 clot이 plasmin에 의해 분해될 때 생기는 분해 산물이다.",
-      "• 즉 D-dimer가 존재한다는 것은 단순히 coagulation factor가 활성화됐다는 뜻이 아니라, **실제로 cross-linked fibrin clot이 형성되었다가 분해되었다**는 의미다."
+      "D-dimer : fibrin clot formation과 fibrinolysis의 흔적을 반영하는 검사",
+      "정상범위: 많은 검사실에서 `FEU 기준 0.50 ug/mL` 이하를 negative cutoff로 사용"
     ],
     "sections": [
       {
@@ -2906,14 +2703,8 @@
     "aliases": [],
     "category": "01 혈액검사",
     "summary": [
-      "Electrolytes overview",
-      "> Electrolytes overview : 체액의 전해질과 산-염기 균형을 평가하는 혈액검사 묶음",
-      "> 정상범위: `Sodium`, `Potassium`, `Chloride`, `HCO3/CO2`, `Calcium`, `Magnesium`, `Phosphate`를 함께 본다",
-      "1. 개요",
-      "• 전해질 검사는 cell membrane potential, 체액 균형, 신장 기능, 산-염기 상태를 해석하는 핵심 축이다.",
-      "• 실전에서는 isolated value보다 패턴과 임상 맥락이 더 중요하다.",
-      "2. 하위 문서",
-      "• [[Sodium]]"
+      "Electrolytes overview : 체액의 전해질과 산-염기 균형을 평가하는 혈액검사 묶음",
+      "정상범위: `Sodium`, `Potassium`, `Chloride`, `HCO3/CO2`, `Calcium`, `Magnesium`, `Phosphate`를 함께 본다"
     ],
     "sections": [
       {
@@ -2978,14 +2769,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Erythrocyte Sedimentation Rate (ESR)",
-      "> Erythrocyte Sedimentation Rate (ESR) : 비특이적 inflammation을 반영하는 적혈구 침강속도 검사",
-      "> 정상범위: 대표 성인 기준 `남성 0-15 mm/hr`, `여성 0-20 mm/hr`",
-      "1. 개요",
-      "• ESR은 red blood cell이 일정 시간 동안 가라앉는 속도를 측정하는 비특이적 inflammation marker이다.",
-      "• CRP보다 변화가 느리고, 다양한 비염증성 요인의 영향을 더 많이 받는다.",
-      "2. 검사 원리",
-      "• ESR은 적혈구 자체를 화학적으로 측정하는 검사가 아니라, **적혈구가 혈장 안에서 얼마나 빨리 가라앉는지**를 보는 물리적 검사이다."
+      "Erythrocyte Sedimentation Rate (ESR) : 비특이적 inflammation을 반영하는 적혈구 침강속도 검사",
+      "정상범위: 대표 성인 기준 `남성 0-15 mm/hr`, `여성 0-20 mm/hr`"
     ],
     "sections": [
       {
@@ -3077,14 +2862,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Estimated Glomerular Filtration Rate (eGFR)",
-      "> Estimated Glomerular Filtration Rate (eGFR) : creatinine 기반으로 추정한 kidney filtration capacity",
-      "> 정상범위: 대개 `90 mL/min/1.73 m2` 이상",
-      "1. 개요",
-      "• eGFR는 creatinine alone보다 kidney function을 더 잘 보여주기 위해 만든 계산값이다.",
-      "2. 검사 원리",
-      "• serum creatinine에 age와 sex 같은 인자를 넣어 계산한다.",
-      "• 본질은 “분당 얼마나 혈액을 여과할 수 있는가”를 추정하는 것이다."
+      "Estimated Glomerular Filtration Rate (eGFR) : creatinine 기반으로 추정한 kidney filtration capacity",
+      "정상범위: 대개 `90 mL/min/1.73 m2` 이상"
     ],
     "sections": [
       {
@@ -3153,14 +2932,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Ferritin",
-      "> Ferritin : body iron storage를 가장 잘 반영하는 핵심 iron-related 단백질 검사",
-      "> 정상범위: 검사실마다 다르며 성인에서 대략 `남성 24-336 ng/mL`, `여성 11-307 ng/mL`",
-      "1. 개요",
-      "• ferritin은 iron을 저장하는 단백질이다.",
-      "• MedlinePlus는 ferritin이 blood에서 body iron stores를 보여줄 수 있다고 설명한다.",
-      "2. 검사 원리",
-      "• serum ferritin concentration을 정량한다."
+      "Ferritin : body iron storage를 가장 잘 반영하는 핵심 iron-related 단백질 검사",
+      "정상범위: 검사실마다 다르며 성인에서 대략 `남성 24-336 ng/mL`, `여성 11-307 ng/mL`"
     ],
     "sections": [
       {
@@ -3225,14 +2998,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Fibrinogen",
-      "> Fibrinogen : thrombin에 의해 fibrin으로 전환되는 응고 기질 단백질",
-      "> 정상범위: 대략 `200-400 mg/dL`",
-      "1. 개요",
-      "• fibrinogen은 liver에서 생성되는 soluble plasma protein이며 coagulation factor I이다.",
-      "• 응고 cascade의 마지막 단계에서 thrombin에 의해 fibrin으로 전환되어 clot의 뼈대를 만든다.",
-      "• 동시에 acute-phase reactant이기도 하다.",
-      "2. 검사 원리"
+      "Fibrinogen : thrombin에 의해 fibrin으로 전환되는 응고 기질 단백질",
+      "정상범위: 대략 `200-400 mg/dL`"
     ],
     "sections": [
       {
@@ -3315,14 +3082,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Free Thyroxine (Free T4)",
-      "> Free Thyroxine (Free T4) : 단백질에 결합되지 않은 순환 thyroid hormone의 활성 fraction",
-      "> 정상범위: 대략 `0.8-1.8 ng/dL`",
-      "1. 개요",
-      "• Free T4는 순환하는 thyroid hormone 중 biologically available fraction을 반영한다.",
-      "2. 검사 원리",
-      "• free fraction을 immunoassay로 측정한다.",
-      "• total T4보다 binding protein 변화의 영향을 덜 받아 실제 thyroid state를 더 잘 반영할 수 있다."
+      "Free Thyroxine (Free T4) : 단백질에 결합되지 않은 순환 thyroid hormone의 활성 fraction",
+      "정상범위: 대략 `0.8-1.8 ng/dL`"
     ],
     "sections": [
       {
@@ -3379,14 +3140,8 @@
     "aliases": [],
     "category": "01 혈액검사",
     "summary": [
-      "Glucose metabolism overview",
-      "> Glucose metabolism overview : 현재 혈당과 최근 수개월 평균 혈당을 평가하는 혈액검사 묶음",
-      "> 정상범위: `Blood glucose`와 `HbA1c`를 함께 해석",
-      "1. 하위 문서",
-      "• [[Blood Glucose]]",
-      "• [[Hemoglobin A1C (HbA1c)]]",
-      "2. 대표 정상범위 표",
-      "| 항목 | 하한값 | 상한값 |"
+      "Glucose metabolism overview : 현재 혈당과 최근 수개월 평균 혈당을 평가하는 혈액검사 묶음",
+      "정상범위: `Blood glucose`와 `HbA1c`를 함께 해석"
     ],
     "sections": [
       {
@@ -3425,14 +3180,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Hemoglobin A1C (HbA1c)",
-      "> Hemoglobin A1C (HbA1c) : 지난 2-3개월 평균 혈당 노출을 반영하는 glycated hemoglobin 검사",
-      "> 정상범위: `5.7%` 미만",
-      "1. 개요",
-      "• HbA1c는 평균 혈당 control 상태를 보는 핵심 검사다.",
-      "2. 검사 원리",
-      "• glucose가 적혈구 hemoglobin에 달라붙으면 glycated hemoglobin이 된다.",
-      "• 적혈구가 약 3개월 정도 생존하므로, HbA1c는 최근 2-3개월 평균 혈당 노출을 반영한다."
+      "Hemoglobin A1C (HbA1c) : 지난 2-3개월 평균 혈당 노출을 반영하는 glycated hemoglobin 검사",
+      "정상범위: `5.7%` 미만"
     ],
     "sections": [
       {
@@ -3498,14 +3247,8 @@
     "aliases": [],
     "category": "01 혈액검사",
     "summary": [
-      "Hormones overview",
-      "> Hormones overview : endocrine gland의 신호 전달 물질을 측정하는 혈액검사 묶음",
-      "> 정상범위: 항목마다 차이가 크며 시간대, 성별, 임신 여부, 약물 영향까지 함께 본다",
-      "1. 개요",
-      "• hormone 검사는 endocrine axis를 해석하는 검사다.",
-      "• 단일 hormone 수치만 보지 않고 upstream/downstream hormone 관계를 같이 봐야 한다.",
-      "2. 하위 문서",
-      "• [[Thyroid-Stimulating Hormone (TSH)]]"
+      "Hormones overview : endocrine gland의 신호 전달 물질을 측정하는 혈액검사 묶음",
+      "정상범위: 항목마다 차이가 크며 시간대, 성별, 임신 여부, 약물 영향까지 함께 본다"
     ],
     "sections": [
       {
@@ -3566,14 +3309,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Immunoglobulin A (IgA)",
-      "> Immunoglobulin A (IgA) : mucosal surface immunity에 중요한 항체 class",
-      "> 정상범위: 대략 `70-400 mg/dL`",
-      "1. 개요",
-      "• IgA는 mucosal immunity와 secretory defense에 중요하다.",
-      "• serum level은 total IgA status를 보여주며, selective IgA deficiency 평가에 중요하다.",
-      "2. 검사 원리",
-      "• serum IgA 농도를 정량한다."
+      "Immunoglobulin A (IgA) : mucosal surface immunity에 중요한 항체 class",
+      "정상범위: 대략 `70-400 mg/dL`"
     ],
     "sections": [
       {
@@ -3634,14 +3371,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Immunoglobulin E (IgE)",
-      "> Immunoglobulin E (IgE) : allergy와 parasite response에 연관되는 항체 class",
-      "> 정상범위: 대략 `0-100 IU/mL`",
-      "1. 개요",
-      "• IgE는 mast cell, basophil mediated allergic response와 연관이 깊다.",
-      "2. 검사 원리",
-      "• serum total IgE를 정량한다.",
-      "3. 정상범위"
+      "Immunoglobulin E (IgE) : allergy와 parasite response에 연관되는 항체 class",
+      "정상범위: 대략 `0-100 IU/mL`"
     ],
     "sections": [
       {
@@ -3694,14 +3425,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Immunoglobulin G (IgG)",
-      "> Immunoglobulin G (IgG) : 혈청에서 가장 풍부한 주요 항체 class",
-      "> 정상범위: 대략 `700-1600 mg/dL`",
-      "1. 개요",
-      "• IgG는 가장 풍부한 circulating immunoglobulin이다.",
-      "• 장기 면역 기억과 opsonization, neutralization에 중요한 역할을 한다.",
-      "2. 검사 원리",
-      "• serum IgG 농도를 immunoassay 또는 nephelometry 등으로 정량한다."
+      "Immunoglobulin G (IgG) : 혈청에서 가장 풍부한 주요 항체 class",
+      "정상범위: 대략 `700-1600 mg/dL`"
     ],
     "sections": [
       {
@@ -3763,14 +3488,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Immunoglobulin M (IgM)",
-      "> Immunoglobulin M (IgM) : 초기 면역 반응에서 중요한 큰 pentameric 항체 class",
-      "> 정상범위: 대략 `40-230 mg/dL`",
-      "1. 개요",
-      "• IgM은 primary immune response 초기에 중요한 항체다.",
-      "2. 검사 원리",
-      "• serum IgM 농도를 정량한다.",
-      "3. 정상범위"
+      "Immunoglobulin M (IgM) : 초기 면역 반응에서 중요한 큰 pentameric 항체 class",
+      "정상범위: 대략 `40-230 mg/dL`"
     ],
     "sections": [
       {
@@ -3820,14 +3539,8 @@
     "aliases": [],
     "category": "01 혈액검사",
     "summary": [
-      "Immunology overview",
-      "> Immunology overview : immunoglobulin과 complement를 포함한 체액성 면역 관련 혈액검사 묶음",
-      "> 정상범위: 항목마다 크게 다르며 age, infection status, immune deficiency 여부를 고려한다",
-      "1. 개요",
-      "• 면역 관련 혈액검사는 humoral immunity 상태, chronic infection, immune deficiency, autoimmune disease 단서를 준다.",
-      "• immunoglobulin은 antibody pool을, complement는 innate/humoral immune activation의 일부를 반영한다.",
-      "2. 하위 문서",
-      "• [[Immunoglobulin G (IgG)]]"
+      "Immunology overview : immunoglobulin과 complement를 포함한 체액성 면역 관련 혈액검사 묶음",
+      "정상범위: 항목마다 크게 다르며 age, infection status, immune deficiency 여부를 고려한다"
     ],
     "sections": [
       {
@@ -3885,11 +3598,8 @@
     "aliases": [],
     "category": "01 혈액검사",
     "summary": [
-      "Iron status overview",
-      "> Iron status overview : body iron storage와 iron deficiency/overload를 평가하는 혈액검사 묶음",
-      "> 정상범위: `Ferritin`을 기본으로 보고 필요 시 iron panel을 확장",
-      "1. 하위 문서",
-      "• [[Ferritin]]"
+      "Iron status overview : body iron storage와 iron deficiency/overload를 평가하는 혈액검사 묶음",
+      "정상범위: `Ferritin`을 기본으로 보고 필요 시 iron panel을 확장"
     ],
     "sections": [
       {
@@ -3916,14 +3626,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Lactate Dehydrogenase (LDH)",
-      "> Lactate Dehydrogenase (LDH) : 조직 손상과 cell turnover를 반영하는 비특이적 enzyme marker",
-      "> 정상범위: assay-specific이며 보통 `140-280 U/L` 전후",
-      "1. 개요",
-      "• `LDH`는 조직 손상 여부를 넓게 반영하는 비특이적 검사이다.",
-      "• hemolysis, liver injury, malignancy burden, tissue necrosis, severe infection 등 다양한 상황에서 상승할 수 있다.",
-      "2. 검사 원리",
-      "• `Lactate Dehydrogenase`는 **pyruvate와 lactate 사이의 전환을 촉매하는 세포 내 효소**이다."
+      "Lactate Dehydrogenase (LDH) : 조직 손상과 cell turnover를 반영하는 비특이적 enzyme marker",
+      "정상범위: assay-specific이며 보통 `140-280 U/L` 전후"
     ],
     "sections": [
       {
@@ -4016,14 +3720,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Lactate",
-      "> Lactate : tissue hypoperfusion 또는 altered metabolism에서 상승하는 대사 산물",
-      "> 정상범위: 대략 `0.5-2.2 mmol/L`",
-      "1. 개요",
-      "• lactate는 응급실과 중환자실에서 매우 자주 보는 핵심 지표다.",
-      "• shock, sepsis, hypoperfusion, severe metabolic stress 평가에 중요하다.",
-      "2. 검사 원리",
-      "• MedlinePlus에 따르면 lactate는 주로 muscle과 RBC에서 에너지 대사 과정 중 생성된다."
+      "Lactate : tissue hypoperfusion 또는 altered metabolism에서 상승하는 대사 산물",
+      "정상범위: 대략 `0.5-2.2 mmol/L`"
     ],
     "sections": [
       {
@@ -4085,14 +3783,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Lipase",
-      "> Lipase : pancreatic injury에서 상승하는 주요 pancreatic enzyme",
-      "> 정상범위: 검사실마다 다르나 대략 `0-160 U/L`",
-      "1. 개요",
-      "• lipase는 acute pancreatitis 평가에서 매우 자주 쓰인다.",
-      "2. 검사 원리",
-      "• serum lipase enzyme activity를 측정한다.",
-      "• pancreatic acinar cell injury가 있으면 상승할 수 있다."
+      "Lipase : pancreatic injury에서 상승하는 주요 pancreatic enzyme",
+      "정상범위: 검사실마다 다르나 대략 `0-160 U/L`"
     ],
     "sections": [
       {
@@ -4149,14 +3841,8 @@
     "aliases": [],
     "category": "01 혈액검사",
     "summary": [
-      "Lipid overview",
-      "> Lipid overview : atherosclerotic cardiovascular risk와 hypertriglyceridemia를 평가하는 혈액검사 묶음",
-      "> 정상범위: `Total Cholesterol`, `LDL`, `HDL`, `Triglycerides`를 함께 본다",
-      "1. 개요",
-      "• `Lipid Panel`은 outpatient screening뿐 아니라 입원 환자에서도 cardiovascular risk 파악, statin 치료 결정, severe hypertriglyceridemia 평가에 중요하다.",
-      "• 단일 수치보다 `LDL`, `HDL`, `Triglycerides`, 전체 위험도와 함께 해석해야 한다.",
-      "2. 하위 문서",
-      "• [[Cholesterol Levels (Lipid Panel)]]"
+      "Lipid overview : atherosclerotic cardiovascular risk와 hypertriglyceridemia를 평가하는 혈액검사 묶음",
+      "정상범위: `Total Cholesterol`, `LDL`, `HDL`, `Triglycerides`를 함께 본다"
     ],
     "sections": [
       {
@@ -4228,14 +3914,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Liver Function Tests (LFT)",
-      "> Liver Function Tests (LFT) : liver-related protein, enzyme, bilirubin을 묶어 보는 패널 검사",
-      "> 정상범위: 항목별로 다르며 `AST`, `ALT`, `ALP`, `Albumin`, `bilirubin` 패턴으로 해석",
-      "1. 개요",
-      "• LFT는 liver에서 만들어지거나 liver injury에서 변하는 여러 물질을 묶어서 본다.",
-      "2. 검사 원리",
-      "• albumin, total protein, AST, ALT, ALP, bilirubin 등을 함께 측정한다.",
-      "• MedlinePlus는 일부 항목은 liver가 얼마나 잘 작동하는지, 일부는 손상 여부를 보여준다고 설명한다."
+      "Liver Function Tests (LFT) : liver-related protein, enzyme, bilirubin을 묶어 보는 패널 검사",
+      "정상범위: 항목별로 다르며 `AST`, `ALT`, `ALP`, `Albumin`, `bilirubin` 패턴으로 해석"
     ],
     "sections": [
       {
@@ -4292,14 +3972,8 @@
     "aliases": [],
     "category": "01 혈액검사",
     "summary": [
-      "Liver-Pancreas overview",
-      "> Liver-Pancreas overview : hepatocellular injury, cholestasis, synthetic function, pancreatic injury를 평가하는 혈액검사 묶음",
-      "> 정상범위: `AST`, `ALT`, `ALP`, `Albumin`, `Total bilirubin`, `Lipase`를 함께 해석",
-      "1. 하위 문서",
-      "• [[Liver Function Tests (LFT)]]",
-      "• [[Aspartate Aminotransferase (AST)]]",
-      "• [[Alanine Aminotransferase (ALT)]]",
-      "• [[Alkaline Phosphatase (ALP)]]"
+      "Liver-Pancreas overview : hepatocellular injury, cholestasis, synthetic function, pancreatic injury를 평가하는 혈액검사 묶음",
+      "정상범위: `AST`, `ALT`, `ALP`, `Albumin`, `Total bilirubin`, `Lipase`를 함께 해석"
     ],
     "sections": [
       {
@@ -4346,14 +4020,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Magnesium",
-      "> Magnesium : neuromuscular stability와 potassium/calcium 항상성에 중요한 전해질",
-      "> 정상범위: 대략 `1.7-2.2 mg/dL`",
-      "1. 개요",
-      "• magnesium은 enzyme activity와 membrane stability에 중요하다.",
-      "• potassium, calcium disorder와 함께 이상이 나타나는 경우가 많다.",
-      "2. 검사 원리",
-      "• serum magnesium 농도를 정량한다."
+      "Magnesium : neuromuscular stability와 potassium/calcium 항상성에 중요한 전해질",
+      "정상범위: 대략 `1.7-2.2 mg/dL`"
     ],
     "sections": [
       {
@@ -4417,14 +4085,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Natriuretic Peptide Tests (BNP, NT-proBNP)",
-      "> Natriuretic Peptide Tests (BNP, NT-proBNP) : heart failure에서 심장 wall stress 증가를 반영하는 peptide 검사",
-      "> 정상범위: 연령·성별·assay·질환 맥락에 따라 다름",
-      "1. 개요",
-      "• BNP와 NT-proBNP는 heart failure 평가에서 매우 자주 쓰인다.",
-      "• dyspnea 환자에서 heart failure 가능성을 가늠하는 데 특히 유용하다.",
-      "2. 검사 원리",
-      "• natriuretic peptide는 heart와 blood vessel이 만드는 단백질이다."
+      "Natriuretic Peptide Tests (BNP, NT-proBNP) : heart failure에서 심장 wall stress 증가를 반영하는 peptide 검사",
+      "정상범위: 연령·성별·assay·질환 맥락에 따라 다름"
     ],
     "sections": [
       {
@@ -4490,14 +4152,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Phosphate",
-      "> Phosphate : 뼈 대사, ATP, 세포 기능에 중요한 인산염",
-      "> 정상범위: 대략 `2.5-4.5 mg/dL`",
-      "1. 개요",
-      "• phosphate는 energy metabolism과 bone mineralization에 중요하다.",
-      "• kidney, parathyroid hormone, vitamin D 상태에 영향을 많이 받는다.",
-      "2. 검사 원리",
-      "• serum inorganic phosphate를 정량한다."
+      "Phosphate : 뼈 대사, ATP, 세포 기능에 중요한 인산염",
+      "정상범위: 대략 `2.5-4.5 mg/dL`"
     ],
     "sections": [
       {
@@ -4559,14 +4215,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Potassium",
-      "> Potassium : 세포내 주된 양이온으로 neuromuscular excitability와 cardiac conduction에 중요한 전해질",
-      "> 정상범위: 대략 `3.5-5.1 mmol/L`",
-      "1. 개요",
-      "• potassium은 주로 intracellular fluid에 존재한다.",
-      "• 아주 작은 변화도 심전도와 근육 기능에 큰 영향을 줄 수 있다.",
-      "2. 검사 원리",
-      "• 대부분 ion-selective electrode로 측정한다."
+      "Potassium : 세포내 주된 양이온으로 neuromuscular excitability와 cardiac conduction에 중요한 전해질",
+      "정상범위: 대략 `3.5-5.1 mmol/L`"
     ],
     "sections": [
       {
@@ -4635,14 +4285,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Procalcitonin",
-      "> Procalcitonin : systemic bacterial infection과 sepsis 위험도를 반영하는 biomarker",
-      "> 정상범위: 보통 `0.05-0.1 ng/mL` 미만, 해석 cutoff는 assay와 임상 상황에 따라 다름",
-      "1. 개요",
-      "• `Procalcitonin`은 중증 bacterial infection과 sepsis 문맥에서 자주 쓰이는 혈액검사이다.",
-      "• CRP보다 더 빠르게 bacterial systemic response를 반영하는 경우가 있어 ICU, ED, pneumonia, sepsis 평가에서 활용된다.",
-      "2. 검사 원리",
-      "• `Procalcitonin`은 본래 **calcitonin의 precursor peptide**이다."
+      "Procalcitonin : systemic bacterial infection과 sepsis 위험도를 반영하는 biomarker",
+      "정상범위: 보통 `0.05-0.1 ng/mL` 미만, 해석 cutoff는 assay와 임상 상황에 따라 다름"
     ],
     "sections": [
       {
@@ -4736,14 +4380,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Prolactin",
-      "> Prolactin : pituitary에서 분비되며 lactation과 reproductive axis에 영향을 주는 hormone",
-      "> 정상범위: 여성 비임신 대략 `5-25 ng/mL`, 남성 대략 `5-20 ng/mL`",
-      "1. 개요",
-      "• prolactin은 lactation 관련 hormone이지만 reproductive axis에도 영향을 준다.",
-      "2. 검사 원리",
-      "• serum prolactin을 immunoassay로 측정한다.",
-      "• prolactin은 stress, 수면, 흉벽 자극, 약물에 의해 올라갈 수 있다."
+      "Prolactin : pituitary에서 분비되며 lactation과 reproductive axis에 영향을 주는 hormone",
+      "정상범위: 여성 비임신 대략 `5-25 ng/mL`, 남성 대략 `5-20 ng/mL`"
     ],
     "sections": [
       {
@@ -4806,14 +4444,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Prothrombin Time and INR (PT-INR)",
-      "> Prothrombin Time and INR (PT-INR) : extrinsic/common coagulation pathway를 평가하는 검사",
-      "> 정상범위: `PT` 약 `11-13.5 sec`, `INR` 약 `0.8-1.1`",
-      "1. 개요",
-      "• `PT`와 `INR`은 extrinsic pathway와 common pathway의 coagulation function을 평가하는 기본 검사이다.",
-      "• warfarin monitoring, liver dysfunction 평가, bleeding tendency workup에 중요하다.",
-      "2. 검사 원리",
-      "• `PT`는 coagulation cascade 중 **extrinsic pathway와 common pathway**가 얼마나 빨리 clot을 형성하는지 보는 기능 검사이다."
+      "Prothrombin Time and INR (PT-INR) : extrinsic/common coagulation pathway를 평가하는 검사",
+      "정상범위: `PT` 약 `11-13.5 sec`, `INR` 약 `0.8-1.1`"
     ],
     "sections": [
       {
@@ -4902,14 +4534,8 @@
     "aliases": [],
     "category": "01 혈액검사",
     "summary": [
-      "Renal overview",
-      "> Renal overview : kidney filtration과 질소성 노폐물 축적을 평가하는 혈액검사 묶음",
-      "> 정상범위: `Creatinine`, `eGFR`, `BUN`을 함께 해석",
-      "1. 개요",
-      "• 신장 관련 혈액검사는 filtration, perfusion, catabolic state를 보는 기본 축이다.",
-      "• 단일 수치보다 `Creatinine`, `eGFR`, `BUN`, 소변검사를 함께 해석해야 한다.",
-      "2. 하위 문서",
-      "• [[Creatinine]]"
+      "Renal overview : kidney filtration과 질소성 노폐물 축적을 평가하는 혈액검사 묶음",
+      "정상범위: `Creatinine`, `eGFR`, `BUN`을 함께 해석"
     ],
     "sections": [
       {
@@ -4953,14 +4579,8 @@
     "aliases": [],
     "category": "01 혈액검사",
     "summary": [
-      "Serum Osmolality",
-      "> Serum Osmolality : 혈액 내 water 대비 용질 농도를 정량해 체액 균형과 osmotic gap을 평가하는 검사",
-      "> 정상범위: `275-295 mOsm/kg`",
-      "1. 개요",
-      "• `Serum Osmolality`는 혈액 속에 녹아 있는 입자들의 총 농도를 반영한다.",
-      "• hyponatremia 평가, dehydration/overhydration 평가, toxic alcohol ingestion 의심 상황에서 매우 중요하다.",
-      "2. 검사 원리",
-      "• `Osmolality`는 **용매 1 kg당 녹아 있는 osmotically active particle 수**를 뜻한다."
+      "Serum Osmolality : 혈액 내 water 대비 용질 농도를 정량해 체액 균형과 osmotic gap을 평가하는 검사",
+      "정상범위: `275-295 mOsm/kg`"
     ],
     "sections": [
       {
@@ -5056,14 +4676,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Sodium",
-      "> Sodium : extracellular fluid의 주된 양이온으로 free water balance를 반영하는 전해질",
-      "> 정상범위: 대략 `135-145 mmol/L`",
-      "1. 개요",
-      "• sodium은 extracellular compartment의 주된 cation이다.",
-      "• 임상적으로 serum sodium은 body sodium 총량보다 **물의 상대적 과잉/부족**을 더 잘 반영한다.",
-      "2. 검사 원리",
-      "• 대부분 ion-selective electrode로 serum sodium 농도를 측정한다."
+      "Sodium : extracellular fluid의 주된 양이온으로 free water balance를 반영하는 전해질",
+      "정상범위: 대략 `135-145 mmol/L`"
     ],
     "sections": [
       {
@@ -5133,14 +4747,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Thyroid-Stimulating Hormone (TSH)",
-      "> Thyroid-Stimulating Hormone (TSH) : pituitary에서 분비되어 thyroid hormone 생산을 조절하는 hormone",
-      "> 정상범위: 대략 `0.4-4.0 uIU/mL`",
-      "1. 개요",
-      "• TSH는 pituitary가 분비하는 thyroid axis의 핵심 조절 hormone이다.",
-      "• thyroid function screening의 기본 검사다.",
-      "2. 검사 원리",
-      "• serum TSH를 immunoassay로 정량한다."
+      "Thyroid-Stimulating Hormone (TSH) : pituitary에서 분비되어 thyroid hormone 생산을 조절하는 hormone",
+      "정상범위: 대략 `0.4-4.0 uIU/mL`"
     ],
     "sections": [
       {
@@ -5202,14 +4810,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Total Bilirubin",
-      "> Total Bilirubin : heme breakdown 산물의 혈중 축적 정도를 보는 검사",
-      "> 정상범위: 대략 `0.2-1.2 mg/dL`",
-      "1. 개요",
-      "• bilirubin은 old RBC breakdown에서 생기는 waste product다.",
-      "2. 검사 원리",
-      "• serum total bilirubin을 정량한다.",
-      "• liver가 bilirubin을 처리하고 배설하는 과정에 이상이 있으면 상승한다."
+      "Total Bilirubin : heme breakdown 산물의 혈중 축적 정도를 보는 검사",
+      "정상범위: 대략 `0.2-1.2 mg/dL`"
     ],
     "sections": [
       {
@@ -5270,14 +4872,8 @@
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Troponin",
-      "> Troponin : myocardial injury를 반영하는 cardiac biomarker",
-      "> 정상범위: assay-specific이며 보통 각 검사실의 `99th percentile upper reference limit` 이하",
-      "1. 개요",
-      "• Troponin은 myocardial injury를 반영하는 핵심 cardiac biomarker이다.",
-      "• chest pain, acute coronary syndrome, myocarditis, supply-demand mismatch 평가에서 중요하다.",
-      "2. 검사 원리",
-      "• `Troponin`은 근육 수축 조절에 관여하는 단백 복합체의 일부이며, 임상적으로는 주로 **cardiac-specific troponin I 또는 troponin T**를 측정한다."
+      "Troponin : myocardial injury를 반영하는 cardiac biomarker",
+      "정상범위: assay-specific이며 보통 각 검사실의 `99th percentile upper reference limit` 이하"
     ],
     "sections": [
       {
@@ -5432,14 +5028,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urinalysis",
-      "> Urinalysis : 소변의 물리적 성상, dipstick chemistry, microscopic sediment를 함께 보는 기본 소변검사",
-      "> 정상범위: 항목별로 다르며 보통 protein/glucose/ketone/blood/nitrite/leukocyte esterase는 `negative`",
-      "1. 개요",
-      "• Urinalysis는 소변검사의 기본 패널이다.",
-      "• 보통 `color/clarity`, `specific gravity`, `pH`, dipstick chemical test, microscopic sediment examination으로 구성된다.",
-      "2. 검사 원리",
-      "• 소변의 육안적 성상은 색, 탁도, 거품 등을 관찰한다."
+      "Urinalysis : 소변의 물리적 성상, dipstick chemistry, microscopic sediment를 함께 보는 기본 소변검사",
+      "정상범위: 항목별로 다르며 보통 protein/glucose/ketone/blood/nitrite/leukocyte esterase는 `negative`"
     ],
     "sections": [
       {
@@ -5522,14 +5112,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urinary Casts",
-      "> Urinary Casts : tubule 안에서 형성된 단백질 원주 구조물을 보는 항목",
-      "> 정상범위: hyaline cast 소량 외에는 대체로 `없음`",
-      "1. 개요",
-      "• cast는 distal tubule/collecting duct에서 단백질 matrix 안에 세포나 물질이 갇혀 형성된다.",
-      "• kidney 내부에서 형성되므로 renal parenchymal process를 시사하는 경우가 많다.",
-      "2. 검사 원리",
-      "• sediment microscopy에서 원주형 구조물을 관찰한다."
+      "Urinary Casts : tubule 안에서 형성된 단백질 원주 구조물을 보는 항목",
+      "정상범위: hyaline cast 소량 외에는 대체로 `없음`"
     ],
     "sections": [
       {
@@ -5588,14 +5172,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urinary Crystals",
-      "> Urinary Crystals : 소변 sediment 내 결정체를 보는 항목",
-      "> 정상범위: 일부 결정은 소량 가능, 병적 결정은 `없음`",
-      "1. 개요",
-      "• urine crystal은 소변의 pH와 용질 농도에 따라 형성된다.",
-      "• stone risk, 약물 침전, 대사질환 단서를 줄 수 있다.",
-      "2. 검사 원리",
-      "• sediment microscopy에서 결정의 모양과 색, birefringence를 관찰한다."
+      "Urinary Crystals : 소변 sediment 내 결정체를 보는 항목",
+      "정상범위: 일부 결정은 소량 가능, 병적 결정은 `없음`"
     ],
     "sections": [
       {
@@ -5652,14 +5230,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Bilirubin",
-      "> Urine Bilirubin : conjugated bilirubin이 소변으로 배출되는지 보는 항목",
-      "> 정상범위: `negative`",
-      "1. 개요",
-      "• 정상적으로 urine bilirubin은 검출되지 않는다.",
-      "• unconjugated bilirubin은 물에 잘 녹지 않아 urine으로 나오지 않는다.",
-      "2. 검사 원리",
-      "• dipstick은 diazo 반응 기반으로 urine 내 bilirubin을 확인한다."
+      "Urine Bilirubin : conjugated bilirubin이 소변으로 배출되는지 보는 항목",
+      "정상범위: `negative`"
     ],
     "sections": [
       {
@@ -5720,14 +5292,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Blood and Hemoglobin",
-      "> Urine Blood and Hemoglobin : 소변에서 heme 반응이 검출되는지 보는 항목",
-      "> 정상범위: `negative`",
-      "1. 개요",
-      "• dipstick의 blood 항목은 실제 intact RBC만 보는 것이 아니다.",
-      "• hemoglobin이나 myoglobin이 있어도 양성이 될 수 있다.",
-      "2. 검사 원리",
-      "• heme의 peroxidase-like activity를 이용한 색 반응으로 측정한다."
+      "Urine Blood and Hemoglobin : 소변에서 heme 반응이 검출되는지 보는 항목",
+      "정상범위: `negative`"
     ],
     "sections": [
       {
@@ -5791,14 +5357,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Glucose",
-      "> Urine Glucose : 소변으로 glucose가 배출되는지 보는 항목",
-      "> 정상범위: `negative`",
-      "1. 개요",
-      "• 정상적으로 filtered glucose는 대부분 proximal tubule에서 재흡수되므로 소변에는 glucose가 거의 없다.",
-      "2. 검사 원리",
-      "• dipstick은 glucose oxidase 기반 반응으로 glucose 존재를 확인한다.",
-      "• glucose가 일정 threshold를 넘거나 tubular reabsorption이 떨어지면 glycosuria가 생긴다."
+      "Urine Glucose : 소변으로 glucose가 배출되는지 보는 항목",
+      "정상범위: `negative`"
     ],
     "sections": [
       {
@@ -5859,14 +5419,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Ketone",
-      "> Urine Ketone : 소변 내 ketone body 존재를 보는 항목",
-      "> 정상범위: `negative`",
-      "1. 개요",
-      "• ketone body는 지방 대사가 증가할 때 생성된다.",
-      "• 당 공급 부족 또는 insulin deficiency 상황에서 증가한다.",
-      "2. 검사 원리",
-      "• dipstick은 주로 `acetoacetate`를 검출한다."
+      "Urine Ketone : 소변 내 ketone body 존재를 보는 항목",
+      "정상범위: `negative`"
     ],
     "sections": [
       {
@@ -5927,14 +5481,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Leukocyte Esterase",
-      "> Urine Leukocyte Esterase : 소변 내 백혈구 효소를 통해 pyuria를 추정하는 항목",
-      "> 정상범위: `negative`",
-      "1. 개요",
-      "• leukocyte esterase는 소변 속 WBC 존재를 간접적으로 반영한다.",
-      "• UTI screening에서 nitrite와 함께 자주 본다.",
-      "2. 검사 원리",
-      "• neutrophil 등 백혈구가 가진 esterase 효소가 dipstick 기질과 반응해 색 변화를 일으킨다."
+      "Urine Leukocyte Esterase : 소변 내 백혈구 효소를 통해 pyuria를 추정하는 항목",
+      "정상범위: `negative`"
     ],
     "sections": [
       {
@@ -5996,14 +5544,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Microscopy",
-      "> Urine Microscopy : urine sediment를 현미경으로 직접 관찰하는 검사",
-      "> 정상범위: RBC/WBC/cast/crystal/bacteria는 항목별로 별도 해석",
-      "1. 개요",
-      "• urine microscopy는 dipstick으로 볼 수 없는 구조적 정보를 준다.",
-      "• RBC morphology, WBC, epithelial cell, cast, crystal, bacteria를 직접 확인할 수 있다.",
-      "2. 검사 원리",
-      "• 소변을 원심분리해 sediment를 농축한 뒤 현미경으로 관찰한다."
+      "Urine Microscopy : urine sediment를 현미경으로 직접 관찰하는 검사",
+      "정상범위: RBC/WBC/cast/crystal/bacteria는 항목별로 별도 해석"
     ],
     "sections": [
       {
@@ -6071,14 +5613,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Nitrite",
-      "> Urine Nitrite : nitrate를 nitrite로 환원하는 세균 존재를 간접 추정하는 항목",
-      "> 정상범위: `negative`",
-      "1. 개요",
-      "• nitrite는 일부 gram-negative bacteria가 urine nitrate를 nitrite로 바꿀 때 양성이 된다.",
-      "2. 검사 원리",
-      "• dipstick은 nitrite와 반응하는 시약 패드를 이용한다.",
-      "• 따라서 nitrite 양성은 **bacteriuria 가능성**을 높이지만, 모든 UTI를 잡는 것은 아니다."
+      "Urine Nitrite : nitrate를 nitrite로 환원하는 세균 존재를 간접 추정하는 항목",
+      "정상범위: `negative`"
     ],
     "sections": [
       {
@@ -6139,14 +5675,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine pH",
-      "> Urine pH : 소변의 산성도/알칼리도를 보는 항목",
-      "> 정상범위: 대략 `5.0-8.0`",
-      "1. 개요",
-      "• Urine pH는 신장의 acid excretion 상태와 식이, 감염, stone risk를 반영할 수 있다.",
-      "2. 검사 원리",
-      "• dipstick의 pH-sensitive indicator dye가 수소 이온 농도에 따라 색을 바꾸는 원리를 이용한다.",
-      "• 혈액 pH와 달리 소변 pH는 식이와 시간대에 따라 변동이 크다."
+      "Urine pH : 소변의 산성도/알칼리도를 보는 항목",
+      "정상범위: 대략 `5.0-8.0`"
     ],
     "sections": [
       {
@@ -6208,14 +5738,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Protein",
-      "> Urine Protein : 소변으로 빠져나오는 protein의 존재를 보는 항목",
-      "> 정상범위: 보통 `negative` 또는 `trace`",
-      "1. 개요",
-      "• 정상적으로는 소변에 protein이 거의 없다.",
-      "• proteinuria는 glomerular barrier 손상, tubular dysfunction, overflow 상태 등을 시사할 수 있다.",
-      "2. 검사 원리",
-      "• dipstick protein pad는 주로 **albumin**에 민감하다."
+      "Urine Protein : 소변으로 빠져나오는 protein의 존재를 보는 항목",
+      "정상범위: 보통 `negative` 또는 `trace`"
     ],
     "sections": [
       {
@@ -6280,14 +5804,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Red Blood Cells (Urine RBC)",
-      "> Urine Red Blood Cells (Urine RBC) : 소변 sediment 내 적혈구를 보는 항목",
-      "> 정상범위: 보통 `0-2` 또는 `0-3 /HPF`",
-      "1. 개요",
-      "• urine RBC 증가는 hematuria를 의미한다.",
-      "2. 검사 원리",
-      "• 원심분리한 urine sediment를 현미경으로 보고 high power field당 RBC 수를 센다.",
-      "• morphology가 dysmorphic하면 glomerular source를 시사할 수 있다."
+      "Urine Red Blood Cells (Urine RBC) : 소변 sediment 내 적혈구를 보는 항목",
+      "정상범위: 보통 `0-2` 또는 `0-3 /HPF`"
     ],
     "sections": [
       {
@@ -6342,14 +5860,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Specific Gravity",
-      "> Urine Specific Gravity : 소변 농축 정도를 보는 항목",
-      "> 정상범위: 대략 `1.003-1.030`",
-      "1. 개요",
-      "• Specific gravity는 소변이 물에 비해 얼마나 농축되어 있는지를 나타낸다.",
-      "• hydration status와 kidney concentrating ability를 간접 반영한다.",
-      "2. 검사 원리",
-      "• specific gravity는 소변의 밀도를 물과 비교한 상대값이다."
+      "Urine Specific Gravity : 소변 농축 정도를 보는 항목",
+      "정상범위: 대략 `1.003-1.030`"
     ],
     "sections": [
       {
@@ -6414,14 +5926,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Urobilinogen",
-      "> Urine Urobilinogen : bilirubin 대사산물인 urobilinogen의 소변 배출을 보는 항목",
-      "> 정상범위: 소량 존재 가능, 대개 `0.2-1.0 mg/dL` 범위",
-      "1. 개요",
-      "• urobilinogen은 장내에서 bilirubin이 대사되어 형성되는 물질이다.",
-      "• 일부는 재흡수되어 다시 소변으로 배출된다.",
-      "2. 검사 원리",
-      "• dipstick 또는 Ehrlich 반응 기반으로 urobilinogen을 정성/반정량 평가한다."
+      "Urine Urobilinogen : bilirubin 대사산물인 urobilinogen의 소변 배출을 보는 항목",
+      "정상범위: 소량 존재 가능, 대개 `0.2-1.0 mg/dL` 범위"
     ],
     "sections": [
       {
@@ -6482,14 +5988,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine White Blood Cells (Urine WBC)",
-      "> Urine White Blood Cells (Urine WBC) : 소변 sediment 내 백혈구를 보는 항목",
-      "> 정상범위: 보통 `0-5 /HPF` 이하",
-      "1. 개요",
-      "• urine WBC 증가는 pyuria를 의미한다.",
-      "2. 검사 원리",
-      "• urine sediment에서 WBC를 현미경으로 직접 확인한다.",
-      "3. 정상범위"
+      "Urine White Blood Cells (Urine WBC) : 소변 sediment 내 백혈구를 보는 항목",
+      "정상범위: 보통 `0-5 /HPF` 이하"
     ],
     "sections": [
       {
@@ -6548,14 +6048,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Albumin-Creatinine Ratio (UACR)",
-      "> Urine Albumin-Creatinine Ratio (UACR) : spot urine에서 albumin 배설을 creatinine으로 보정해 보는 검사",
-      "> 정상범위: 대개 `30 mg/g creatinine` 미만",
-      "1. 개요",
-      "• UACR은 소량의 albuminuria를 민감하게 잡는 검사다.",
-      "• diabetic kidney disease와 CKD screening에 매우 중요하다.",
-      "2. 검사 원리",
-      "• urine albumin 농도만 보면 소변이 묽은지 진한지에 따라 값이 흔들린다."
+      "Urine Albumin-Creatinine Ratio (UACR) : spot urine에서 albumin 배설을 creatinine으로 보정해 보는 검사",
+      "정상범위: 대개 `30 mg/g creatinine` 미만"
     ],
     "sections": [
       {
@@ -6621,14 +6115,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Osmolality",
-      "> Urine Osmolality : 소변 속 용질 입자 농도를 직접 반영하는 검사",
-      "> 정상범위: 상황에 따라 넓게 변하며 대략 `50-1200 mOsm/kg` 범위 가능",
-      "1. 개요",
-      "• urine osmolality는 소변의 “진함/묽음”을 specific gravity보다 더 직접적으로 반영한다.",
-      "• ADH 작용, concentrating ability, hyponatremia/polyuria 해석에 중요하다.",
-      "2. 검사 원리",
-      "• 삼투압은 용질 입자 수에 의해 결정된다."
+      "Urine Osmolality : 소변 속 용질 입자 농도를 직접 반영하는 검사",
+      "정상범위: 상황에 따라 넓게 변하며 대략 `50-1200 mOsm/kg` 범위 가능"
     ],
     "sections": [
       {
@@ -6701,14 +6189,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Protein-Creatinine Ratio (UPCR)",
-      "> Urine Protein-Creatinine Ratio (UPCR) : spot urine의 total protein 배설량을 creatinine으로 보정해 보는 검사",
-      "> 정상범위: 대개 `150-200 mg/g creatinine` 미만 수준",
-      "1. 개요",
-      "• UPCR은 total proteinuria를 정량적으로 추정하는 데 쓴다.",
-      "2. 검사 원리",
-      "• urine total protein과 urine creatinine을 함께 측정해 농축/희석 효과를 줄인다.",
-      "• 24시간 urine protein을 대체하는 간편한 방법으로 자주 사용된다."
+      "Urine Protein-Creatinine Ratio (UPCR) : spot urine의 total protein 배설량을 creatinine으로 보정해 보는 검사",
+      "정상범위: 대개 `150-200 mg/g creatinine` 미만 수준"
     ],
     "sections": [
       {
@@ -6767,14 +6249,8 @@
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urine Sodium",
-      "> Urine Sodium : 소변으로 배설되는 sodium 양을 보는 검사",
-      "> 정상범위: 정상범위보다 임상 상황에 따른 해석이 중요",
-      "1. 개요",
-      "• urine sodium은 kidney가 sodium을 얼마나 보존하거나 버리고 있는지를 반영한다.",
-      "• volume depletion, AKI, hyponatremia 해석에 중요하다.",
-      "2. 검사 원리",
-      "• spot urine 또는 24시간 urine에서 sodium 농도를 측정한다."
+      "Urine Sodium : 소변으로 배설되는 sodium 양을 보는 검사",
+      "정상범위: 정상범위보다 임상 상황에 따른 해석이 중요"
     ],
     "sections": [
       {
@@ -6832,14 +6308,8 @@
     ],
     "category": "03 심전도",
     "summary": [
-      "심전도",
-      "> 심전도 : 심장의 전기적 활동을 body surface에서 12개 방향으로 기록하는 검사",
-      "> 정상범위: `PR interval` 약 `0.10-0.20 sec`, `QRS` 약 `0.07-0.10 sec`, `QTc` 남성 약 `350-450 ms` / 여성 약 `360-460 ms`",
-      "1. 개요",
-      "• 심전도는 심장의 electrical activity를 비침습적으로 기록하는 기본 검사다.",
-      "• 빠르고 간단하며, chest pain, palpitations, syncope, dyspnea, electrolyte disorder, drug effect 평가에서 핵심적이다.",
-      "• 특히 arrhythmia, conduction block, chamber enlargement, ischemia/infarction, 일부 유전성 전기질환 단서를 준다.",
-      "2. 검사 원리"
+      "심전도 : 심장의 전기적 활동을 body surface에서 12개 방향으로 기록하는 검사",
+      "정상범위: `PR interval` 약 `0.10-0.20 sec`, `QRS` 약 `0.07-0.10 sec`, `QTc` 남성 약 `350-450 ms` / 여성 약 `360-460 ms`"
     ],
     "sections": [
       {
@@ -7135,14 +6605,8 @@
     ],
     "category": "04 영상검사",
     "summary": [
-      "Computed Tomography (CT)",
-      "> Computed Tomography (CT) : 회전하는 X-ray와 detector 데이터를 컴퓨터가 재구성해 단면 영상을 만드는 검사",
-      "> 정상범위: 정상범위보다는 attenuation pattern, enhancement pattern, lesion/bleeding/air/fluid 유무로 해석",
-      "1. 개요",
-      "• CT는 body를 단면으로 잘라 본 듯한 영상을 빠르게 제공하는 검사다.",
-      "• 응급 영상에서 매우 중요하며, 출혈, 외상, 폐질환, 종양, 혈관질환 평가에 널리 쓰인다.",
-      "2. 검사 원리",
-      "• CT는 기본적으로 X-ray를 사용하지만, 일반 X-ray와 달리 X-ray tube와 detector가 환자 주위를 **회전**한다."
+      "Computed Tomography (CT) : 회전하는 X-ray와 detector 데이터를 컴퓨터가 재구성해 단면 영상을 만드는 검사",
+      "정상범위: 정상범위보다는 attenuation pattern, enhancement pattern, lesion/bleeding/air/fluid 유무로 해석"
     ],
     "sections": [
       {
@@ -7272,14 +6736,8 @@
     ],
     "category": "04 영상검사",
     "summary": [
-      "Echocardiography",
-      "> Echocardiography : ultrasound를 이용해 심장의 구조, 움직임, 혈류를 실시간으로 평가하는 검사",
-      "> 정상범위: 정상범위보다는 chamber size, systolic function, valvular lesion, Doppler pattern으로 해석",
-      "1. 개요",
-      "• Echocardiography는 심장 초음파 검사다.",
-      "• 구조, 수축 기능, 이완 기능, 판막 질환, 심낭삼출, 혈류 역학을 bedside에서 평가할 수 있어 cardiology에서 핵심 검사다.",
-      "2. 검사 원리",
-      "• Echocardiography는 기본적으로 ultrasonography와 같은 원리를 쓴다."
+      "Echocardiography : ultrasound를 이용해 심장의 구조, 움직임, 혈류를 실시간으로 평가하는 검사",
+      "정상범위: 정상범위보다는 chamber size, systolic function, valvular lesion, Doppler pattern으로 해석"
     ],
     "sections": [
       {
@@ -7411,14 +6869,8 @@
     ],
     "category": "04 영상검사",
     "summary": [
-      "Magnetic Resonance Imaging (MRI)",
-      "> Magnetic Resonance Imaging (MRI) : strong magnetic field와 radiofrequency signal을 이용해 proton 신호를 영상으로 바꾸는 검사",
-      "> 정상범위: 정상범위보다는 signal intensity, enhancement, diffusion restriction, anatomy distortion 유무로 해석",
-      "1. 개요",
-      "• MRI는 soft tissue contrast가 매우 뛰어난 영상검사다.",
-      "• brain, spine, musculoskeletal system, liver, pelvis, cardiac tissue characterization 등에서 강력하다.",
-      "• X-ray나 CT와 달리 ionizing radiation을 사용하지 않는다.",
-      "2. 검사 원리"
+      "Magnetic Resonance Imaging (MRI) : strong magnetic field와 radiofrequency signal을 이용해 proton 신호를 영상으로 바꾸는 검사",
+      "정상범위: 정상범위보다는 signal intensity, enhancement, diffusion restriction, anatomy distortion 유무로 해석"
     ],
     "sections": [
       {
@@ -7541,14 +6993,8 @@
     ],
     "category": "04 영상검사",
     "summary": [
-      "Ultrasonography",
-      "> Ultrasonography : high-frequency sound wave와 echo를 이용해 실시간 영상을 만드는 검사",
-      "> 정상범위: 정상범위보다는 organ echogenicity, contour, flow, lesion 유무로 해석",
-      "1. 개요",
-      "• Ultrasonography는 방사선을 쓰지 않고 실시간으로 장기와 혈류를 볼 수 있는 영상검사다.",
-      "• bedside evaluation이 가능하고, 특히 복부, 갑상선, 유방, 혈관, 산과, 심장, 시술 유도에서 중요하다.",
-      "2. 검사 원리",
-      "• 초음파 probe 안의 **piezoelectric crystal**에 전기 자극을 주면 crystal이 진동하며 high-frequency sound wave를 만든다."
+      "Ultrasonography : high-frequency sound wave와 echo를 이용해 실시간 영상을 만드는 검사",
+      "정상범위: 정상범위보다는 organ echogenicity, contour, flow, lesion 유무로 해석"
     ],
     "sections": [
       {
@@ -7687,14 +7133,8 @@
     ],
     "category": "04 영상검사",
     "summary": [
-      "X-ray",
-      "> X-ray : ionizing radiation을 이용해 조직의 attenuation 차이를 2차원 영상으로 만드는 기본 영상검사",
-      "> 정상범위: 정상범위보다는 정상 해부학적 음영과 이상 음영 유무로 해석",
-      "1. 개요",
-      "• X-ray는 가장 기본적인 영상검사로, 빠르고 접근성이 좋으며 응급실과 병동, 외래에서 폭넓게 사용된다.",
-      "• 골절, 폐질환, 장폐색, 기흉, 심장 크기 평가 등에서 1차 검사로 자주 선택된다.",
-      "2. 검사 원리",
-      "• X-ray는 **high-energy electromagnetic radiation**을 이용한다."
+      "X-ray : ionizing radiation을 이용해 조직의 attenuation 차이를 2차원 영상으로 만드는 기본 영상검사",
+      "정상범위: 정상범위보다는 정상 해부학적 음영과 이상 음영 유무로 해석"
     ],
     "sections": [
       {
@@ -7811,14 +7251,8 @@
     ],
     "category": "99 기타 검사",
     "summary": [
-      "폐기능검사",
-      "> 폐기능검사 : airflow, lung volume, gas transfer를 측정해 obstructive/restrictive pattern을 평가하는 검사",
-      "> 정상범위: 항목별로 다르며 대표적으로 `FEV1/FVC`와 `% predicted`, `DLCO`를 함께 해석",
-      "1. 개요",
-      "• 폐기능검사(PFT)는 “검사법이 여러 개 따로 존재한다”기보다, **호흡기 기능을 여러 지표로 측정하는 하나의 검사 체계**로 이해하는 것이 더 적절하다.",
-      "• 실제 보고서는 보통 `spirometry`, 필요 시 `bronchodilator response`, `lung volume`, `diffusing capacity (DLCO)`를 함께 묶어 해석한다.",
-      "• 목적은 단순히 숫자를 얻는 것이 아니라, 환자가 **airflow obstruction**이 있는지, **restriction**이 있는지, **gas exchange problem**이 있는지를 분류하는 데 있다.",
-      "2. 검사 원리"
+      "폐기능검사 : airflow, lung volume, gas transfer를 측정해 obstructive/restrictive pattern을 평가하는 검사",
+      "정상범위: 항목별로 다르며 대표적으로 `FEV1/FVC`와 `% predicted`, `DLCO`를 함께 해석"
     ],
     "sections": [
       {
@@ -7999,14 +7433,8 @@
     ],
     "category": "99 기타 검사",
     "summary": [
-      "내시경검사",
-      "> 내시경검사 : 카메라가 달린 유연한 또는 강직성 기구를 체내 관강에 넣어 점막을 직접 관찰하고 biopsy/시술까지 수행하는 검사",
-      "> 정상범위: 정상범위보다는 점막의 색, 혈관상, 궤양, 종괴, 협착, 출혈, 분비물 유무로 해석",
-      "1. 개요",
-      "• 내시경검사는 lumen을 가진 장기를 직접 보는 검사다.",
-      "• 영상검사가 간접적으로 구조를 보여준다면, 내시경은 **점막 표면을 직접 보고 필요하면 조직을 떼거나 치료까지 하는 검사**라는 점이 핵심이다.",
-      "2. 검사 원리",
-      "• 내시경 끝에는 light source와 camera가 달려 있어 내부 영상을 실시간으로 화면에 전달한다."
+      "내시경검사 : 카메라가 달린 유연한 또는 강직성 기구를 체내 관강에 넣어 점막을 직접 관찰하고 biopsy/시술까지 수행하는 검사",
+      "정상범위: 정상범위보다는 점막의 색, 혈관상, 궤양, 종괴, 협착, 출혈, 분비물 유무로 해석"
     ],
     "sections": [
       {
@@ -8095,14 +7523,8 @@
     ],
     "category": "99 기타 검사",
     "summary": [
-      "Bronchoscopy",
-      "> Bronchoscopy : 기도 내강을 직접 관찰하고 세포/조직 검체를 얻는 호흡기 내시경검사",
-      "> 정상범위: 정상범위보다는 기도 점막, 분비물, 출혈, 종괴, 협착, 이물 유무로 해석",
-      "1. 개요",
-      "• Bronchoscopy는 trachea와 bronchial tree를 직접 보는 검사다.",
-      "• persistent atelectasis, hemoptysis, suspected endobronchial lesion, infection workup, foreign body evaluation에 중요하다.",
-      "2. 검사 원리",
-      "• 보통 flexible bronchoscope를 nose 또는 mouth를 통해 넣어 larynx를 지나 trachea와 bronchi를 관찰한다."
+      "Bronchoscopy : 기도 내강을 직접 관찰하고 세포/조직 검체를 얻는 호흡기 내시경검사",
+      "정상범위: 정상범위보다는 기도 점막, 분비물, 출혈, 종괴, 협착, 이물 유무로 해석"
     ],
     "sections": [
       {
@@ -8181,14 +7603,8 @@
     ],
     "category": "99 기타 검사",
     "summary": [
-      "Colonoscopy",
-      "> Colonoscopy : colon과 rectum의 내강과 점막을 직접 관찰하는 하부위장관 내시경검사",
-      "> 정상범위: 정상범위보다는 정상 장점막 구조 유지, polyp/출혈/염증/종괴 없음으로 해석",
-      "1. 개요",
-      "• Colonoscopy는 대장과 직장을 보는 핵심 검사다.",
-      "• colorectal cancer screening, polyp evaluation, hematochezia, chronic diarrhea, iron deficiency anemia, IBD 평가에 중요하다.",
-      "2. 검사 원리",
-      "• flexible colonoscope를 anus를 통해 넣어 rectum에서 colon을 따라 진행시킨다."
+      "Colonoscopy : colon과 rectum의 내강과 점막을 직접 관찰하는 하부위장관 내시경검사",
+      "정상범위: 정상범위보다는 정상 장점막 구조 유지, polyp/출혈/염증/종괴 없음으로 해석"
     ],
     "sections": [
       {
@@ -8267,14 +7683,8 @@
     ],
     "category": "99 기타 검사",
     "summary": [
-      "Cystoscopy",
-      "> Cystoscopy : urethra를 통해 bladder 내부를 직접 관찰하는 비뇨기 내시경검사",
-      "> 정상범위: 정상범위보다는 urethra와 bladder mucosa의 염증, 종괴, 결석, 출혈, 폐색 유무로 해석",
-      "1. 개요",
-      "• Cystoscopy는 방광과 요도의 내강을 직접 보는 검사다.",
-      "• hematuria, recurrent UTI, bladder tumor suspicion, lower urinary tract symptom, stone/foreign body 평가에 쓰인다.",
-      "2. 검사 원리",
-      "• cystoscope를 urethra를 통해 bladder 안으로 넣어 내부를 직접 관찰한다."
+      "Cystoscopy : urethra를 통해 bladder 내부를 직접 관찰하는 비뇨기 내시경검사",
+      "정상범위: 정상범위보다는 urethra와 bladder mucosa의 염증, 종괴, 결석, 출혈, 폐색 유무로 해석"
     ],
     "sections": [
       {
@@ -8346,14 +7756,8 @@
     ],
     "category": "99 기타 검사",
     "summary": [
-      "EGD (Esophagogastroduodenoscopy)",
-      "> EGD (Esophagogastroduodenoscopy) : esophagus, stomach, duodenum의 점막을 직접 관찰하는 상부위장관 내시경검사",
-      "> 정상범위: 정상범위보다는 점막이 매끈하고 정상 색조를 유지하며 출혈, 궤양, 종괴, 염증이 없는 상태로 해석",
-      "1. 개요",
-      "• EGD는 상부위장관 점막을 보는 기본 검사다.",
-      "• dysphagia, upper GI bleeding, epigastric pain, refractory reflux, anemia, 체중감소 평가에 중요하다.",
-      "2. 검사 원리",
-      "• 유연한 endoscope를 입으로 넣어 esophagus를 지나 stomach, duodenum까지 전진시킨다."
+      "EGD (Esophagogastroduodenoscopy) : esophagus, stomach, duodenum의 점막을 직접 관찰하는 상부위장관 내시경검사",
+      "정상범위: 정상범위보다는 점막이 매끈하고 정상 색조를 유지하며 출혈, 궤양, 종괴, 염증이 없는 상태로 해석"
     ],
     "sections": [
       {
@@ -8439,13 +7843,7 @@
     "category": "99 기타 검사",
     "summary": [
       "g",
-      "병리·세포검사",
-      "> 병리·세포검사 : 조직과 세포를 현미경 수준에서 평가해 질환의 형태학적 진단을 내리는 검사",
-      "> 정상범위: 정상범위보다는 정상 조직 구조 유지 여부, atypia, inflammation, necrosis, malignancy 유무로 해석",
-      "1. 개요",
-      "• 병리검사는 조직이나 세포를 직접 관찰해 최종 진단에 가까운 정보를 주는 검사다.",
-      "• 영상검사나 혈액검사가 “질환을 의심하게 하는 단서”를 준다면, 병리검사는 실제로 **무슨 세포가 어떻게 변했는지**를 보여준다.",
-      "• 특히 tumor, inflammatory disease, infection, organ rejection, chronic tissue injury 평가에서 매우 중요하다."
+      "# 병리·세포검사"
     ],
     "sections": [
       {
@@ -8683,14 +8081,8 @@
     ],
     "category": "99 기타 검사",
     "summary": [
-      "Electroencephalography (EEG)",
-      "> Electroencephalography (EEG) : 두피 전극으로 뇌의 전기 활동을 기록하는 검사",
-      "> 정상범위: 정상범위보다는 background rhythm, epileptiform discharge, focal slowing 유무로 해석",
-      "1. 개요",
-      "• EEG는 뇌의 피질 전기활동을 body surface에서 기록하는 검사다.",
-      "• seizure, encephalopathy, altered mental status 평가에 중요하다.",
-      "2. 검사 원리",
-      "• 두피에 붙인 전극이 대뇌 피질의 동기화된 전기 활동을 감지한다."
+      "Electroencephalography (EEG) : 두피 전극으로 뇌의 전기 활동을 기록하는 검사",
+      "정상범위: 정상범위보다는 background rhythm, epileptiform discharge, focal slowing 유무로 해석"
     ],
     "sections": [
       {
@@ -8742,14 +8134,8 @@
     ],
     "category": "99 기타 검사",
     "summary": [
-      "Electromyography (EMG)",
-      "> Electromyography (EMG) : 근육 안에 needle electrode를 넣어 근육의 전기활동을 기록하는 검사",
-      "> 정상범위: 정상범위보다는 spontaneous activity, motor unit pattern 이상 유무로 해석",
-      "1. 개요",
-      "• EMG는 근육과 motor unit의 기능을 평가하는 검사다.",
-      "• neuropathic lesion과 myopathic lesion을 구분하는 데 도움을 준다.",
-      "2. 검사 원리",
-      "• needle electrode를 근육에 삽입해 휴식 시와 수축 시 electrical activity를 기록한다."
+      "Electromyography (EMG) : 근육 안에 needle electrode를 넣어 근육의 전기활동을 기록하는 검사",
+      "정상범위: 정상범위보다는 spontaneous activity, motor unit pattern 이상 유무로 해석"
     ],
     "sections": [
       {
@@ -8802,14 +8188,8 @@
     ],
     "category": "99 기타 검사",
     "summary": [
-      "Nerve Conduction Study (NCS)",
-      "> Nerve Conduction Study (NCS) : 말초신경을 전기 자극해 전도 속도와 반응 크기를 측정하는 검사",
-      "> 정상범위: 정상범위보다는 latency, amplitude, conduction velocity 이상 유무로 해석",
-      "1. 개요",
-      "• NCS는 말초신경 기능을 보는 검사다.",
-      "• neuropathy, entrapment neuropathy, demyelinating process 평가에 쓴다.",
-      "2. 검사 원리",
-      "• 피부 위에서 신경을 전기적으로 자극하고, 다른 지점에서 반응을 기록한다."
+      "Nerve Conduction Study (NCS) : 말초신경을 전기 자극해 전도 속도와 반응 크기를 측정하는 검사",
+      "정상범위: 정상범위보다는 latency, amplitude, conduction velocity 이상 유무로 해석"
     ],
     "sections": [
       {
@@ -8862,14 +8242,8 @@
     ],
     "category": "99 기타 검사",
     "summary": [
-      "Polysomnography",
-      "> Polysomnography : 수면 중 뇌파, 호흡, 산소포화도, 근전도 등을 동시에 기록하는 검사",
-      "> 정상범위: 정상범위보다는 apnea-hypopnea index, oxygen desaturation, sleep architecture 이상 유무로 해석",
-      "1. 개요",
-      "• Polysomnography는 수면장애 평가의 표준 검사다.",
-      "• obstructive sleep apnea, periodic limb movement, parasomnia 평가에 중요하다.",
-      "2. 검사 원리",
-      "• EEG, eye movement, chin EMG, airflow, respiratory effort, oxygen saturation 등을 동시에 기록한다."
+      "Polysomnography : 수면 중 뇌파, 호흡, 산소포화도, 근전도 등을 동시에 기록하는 검사",
+      "정상범위: 정상범위보다는 apnea-hypopnea index, oxygen desaturation, sleep architecture 이상 유무로 해석"
     ],
     "sections": [
       {
@@ -8917,13 +8291,7 @@
     "aliases": [],
     "category": "99 기타 검사",
     "summary": [
-      "기타 검사",
-      "직접적인 핵심 루트 검사군 외에, 별도의 검사 파트로 관리하는 항목들입니다.",
-      "검사군",
-      "• [[01 폐기능검사/폐기능검사]]",
-      "• [[02 내시경검사/내시경검사]]",
-      "• [[03 병리·세포검사/병리·세포검사]]",
-      "• [[04 신경생리·기능검사/신경생리·기능검사]]"
+      "직접적인 핵심 루트 검사군 외에, 별도의 검사 파트로 관리하는 항목들입니다."
     ],
     "sections": [
       {
