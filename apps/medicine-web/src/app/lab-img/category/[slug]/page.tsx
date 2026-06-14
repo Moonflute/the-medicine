@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowLeft, ChevronRight } from "lucide-react";
 import { notFound } from "next/navigation";
+import { RichTextLines } from "@/components/rich-text-lines";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
 import { getLabImgNotes } from "@/lib/webdb";
 
@@ -47,6 +48,28 @@ function NoteLinks({
   );
 }
 
+function InlineNote({
+  title,
+  sections,
+}: {
+  title?: string;
+  sections: Array<{ title: string; content: string[] }>;
+}) {
+  return (
+    <section className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
+      {title ? <h2 className="mb-4 font-serif text-2xl font-semibold tracking-tight text-stone-900">{title}</h2> : null}
+      <div className="space-y-6">
+        {sections.map((section) => (
+          <section key={section.title} className="space-y-3">
+            <h3 className="font-medium text-stone-900">{section.title}</h3>
+            <RichTextLines lines={section.content} className="space-y-2 text-sm leading-6 text-stone-700" bulletStyle="plain" />
+          </section>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 export default async function LabImgCategoryPage(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params;
   const group = buildLabImgGroups(getLabImgNotes()).find((item) => item.slug === params.slug);
@@ -54,6 +77,8 @@ export default async function LabImgCategoryPage(props: { params: Promise<{ slug
   if (!group) {
     notFound();
   }
+
+  const shouldInlineOverview = Boolean(group.overviewNote && group.directNotes.length === 0 && group.childGroups.length === 0);
 
   return (
     <div className="space-y-6">
@@ -68,7 +93,7 @@ export default async function LabImgCategoryPage(props: { params: Promise<{ slug
       <header className="rounded-[32px] border border-stone-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
         <div className="flex flex-wrap items-center gap-3">
           <div className="text-xs uppercase tracking-[0.24em] text-stone-500">Lab & Img</div>
-          {group.overviewNote ? (
+          {group.overviewNote && !shouldInlineOverview ? (
             <Link
               href={`/lab-img/${group.overviewNote.slug}`}
               className="inline-flex items-center rounded-full border border-stone-200 bg-stone-50/80 px-4 py-2 text-xs uppercase tracking-[0.18em] text-stone-700 transition hover:border-stone-300 hover:bg-white"
@@ -79,6 +104,8 @@ export default async function LabImgCategoryPage(props: { params: Promise<{ slug
         </div>
         <h1 className="mt-3 font-serif text-4xl font-semibold tracking-tight">{group.title}</h1>
       </header>
+
+      {shouldInlineOverview && group.overviewNote ? <InlineNote sections={group.overviewNote.sections} /> : null}
 
       {group.directNotes.length > 0 ? (
         <section className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
