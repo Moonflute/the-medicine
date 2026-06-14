@@ -92,8 +92,8 @@ function InlineNote({
                           {row.title}
                         </Link>
                       </td>
-                      <td className="px-4 py-3 text-stone-700">{row.lower || "-"}</td>
-                      <td className="px-4 py-3 text-stone-700">{row.upper || "-"}</td>
+                      <td className="px-4 py-3 font-medium text-sky-700">{row.lower || "-"}</td>
+                      <td className="px-4 py-3 font-medium text-rose-700">{row.upper || "-"}</td>
                     </tr>
                   ))}
                 </tbody>
