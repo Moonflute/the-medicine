@@ -1,0 +1,112 @@
+---
+aliases:
+- 태반조기박리
+유형:
+- disease
+계통: 산과
+분류:
+- 산과
+- 산과적출혈
+CC:
+- 출혈
+- 복통
+preprocessing_required: x
+last_studied: '2026-06-06'
+---
+분과 : [[산과]]
+
+## 1. 개요
+- **정의**: 분만 전 태반이 자궁벽에서 조기에 분리되는 것
+
+- **원인**: 고혈압, 흡연, 코카인 사용, 고령(35세 이상), 이전 임신 시 태반조기박리 과거력, 다태임신, 양수과다증, 자궁 내 감압, 복부 외상
+
+- **기전**:
+  태반과 자궁벽 사이의 혈관 구조가 파열되어 혈종이 형성되고, 이로 인해 태반이 자궁벽에서 분리됨.
+  태반의 산소 및 영양 공급 기능이 차단되어 태아 가사 및 사망을 초래할 수 있음
+
+## 2. 임상 양상 (Clinical Features)
+* **CC**: 질 출혈(보이지 않을 수도 있음), 복통, 자궁 압통
+* **P/E**: 자궁의 강직성 수축(board-like rigidity), 태아 심박동 이상, 산모의 저혈압 및 빈맥(쇼크 징후)
+
+## 3. 검사 (Lab & Imaging)
+- 임상 증상 및 초음파 검사(태반 위치 확인 및 전치태반 배제), 태아 심박동 감시, 혈액 응고 검사(DIC 확인)
+
+## 4. 진단 (Diagnosis)
+- 임상적 진단이 우선이며, 분만 후 태반 후면의 혈종 확인을 통해 확진함
+
+## 5. 치료 (Treatment)
+- **일반 원칙**: 즉각적인 산모 안정화(수액 및 수혈), 태아 상태 및 임신 주수에 따른 분만 결정
+- **34주 이전**: 산모와 태아가 안정적인 경우 입원 후 경과 관찰 및 태아 성숙 유도
+- **34주 이후 또는 태아 불안정 시**: 즉각적인 분만(대개 제왕절개술 고려)
+- **태아 사망 시**: 질식 분만 우선 고려(응고 장애 위험 관리)
+- **합병증 관리**: DIC 동반 시 혈액 성분 보충 등 적극적 치료
+
+## 6. 예후 및 합병증 (Prognosis)
+- 산모: 출혈성 쇼크, DIC, 신부전, 자궁-태반 혈종(uteroplacental apoplexy), Sheehan 증후군
+  태아: 조산, 저체중아, 태아 가사, 사산
+
+출처 : StatPearls (Placental Abruption)
+Last updated :
+---
+## 통합 전 원문
+---
+aliases: ["placental abruption"]
+유형:
+- disease
+계통: "산과"
+분류: "["산과", "양수, 태반, 탯줄 이상"]"
+CC: []
+---
+## 1. 개요
+- **정의** 분만 전 태반이 자궁벽에서 분리되는 것.
+- **원인** 과거력, 다산, 연령, 불량 산과력, 약물 장기 복용력, HTN, PPROM, trauma, smoking.
+- **기전**
+## 2. 임상 양상 (Clinical Features)
+* **CC** 복통, 질출혈.
+* **P/E**
+## 3. 검사 (Lab & Imaging)
+* US (초음파).
+## 4. 진단 (Diagnosis)
+* 임상 증상 + US.
+## 5. 치료 (Treatment)
+* 34주 전: stable 하면 입원 후 경과 관찰.
+* Fetus unstable: 제왕절개술.
+* Fetus head: 유도분만.
+* 적절한 수액, 수혈 투여.
+* DIC 있으면 치료.
+## 6. 예후 및 합병증 (Prognosis)
+* Shock, renal failure, DIC, uteroplacental apoplexy (멍든 모습).
+출처 : 
+Last updated :
+---
+## Merged source from 11 외과
+---
+aliases: ["placental abruption"]
+유형:
+- disease
+계통: "외과"
+분류: "["외과", "산과", "산과적출혈"]"
+CC: []
+---
+## 1. 개요
+- **정의**
+- **원인**: HTN, PPROM, trauma, smoking
+- **기전**
+- **의미**: 분만전태반이분리되는것
+- **요인**: 과거력, 다산, 연력, 분량산과력, 약물장기복용력
+- **동반**: shock, renal failure, DIC, uteroplacental apoplexy (멍든모습)
+## 2. 임상 양상 (Clinical Features)
+* **CC**: 복통, 질출혈
+* **P/E**
+## 3. 검사 (Lab & Imaging)
+## 4. 진단 (Diagnosis)
+- 임상증상+ US
+## 5. 치료 (Treatment)
+- 34주전: stable 하면입원후경과관찰.
+  fetus unstable: 제왕절개술.
+  fetus head: 유도분만.
+  적절한수액, 수혈투여/ DIC 있으면치료.
+## 6. 예후 및 합병증 (Prognosis)
+출처 : 
+Last updated :
+2026-05-18 — 본문 갱신 (codex fill)

@@ -4,12 +4,17 @@ import { ChevronRight } from "lucide-react";
 import { SkillCategoryIcon } from "@/components/skill-category-icon";
 import { getSkillCategoryById, getSkillsCategories } from "@/lib/webdb";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
-  return getSkillsCategories().map((category) => ({ id: category.id }));
+  const categories = getSkillsCategories();
+  return categories.length > 0 ? categories.map((category) => ({ id: category.id })) : [{ id: "__empty__" }];
 }
 
 export default async function SkillCategoryDetailPage(props: { params: Promise<{ id: string }> }) {
   const params = await props.params;
+  if (params.id === "__empty__") return null;
+
   const category = getSkillCategoryById(params.id);
 
   if (!category) notFound();

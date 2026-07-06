@@ -1,11 +1,11 @@
 # medicine-web
 
-Read-only Next.js shell for the Obsidian disease vault.
+Read-only Next.js shell for the source markdown notes.
 
 ## Data source
 
-- Reads source notes from `../../vault_medicine/*`
-- Generates committed web DB files into `./generated`
+- Reads source notes from `../../source_notes/*`
+- Generates web DB files into `../../_webapp/data`
 - Does not edit the source markdown notes
 
 ## Local run

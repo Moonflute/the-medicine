@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T13:43:24.803Z",
-  "sourceRoot": "vault_medicine",
+  "generatedAt": "2026-07-06T12:26:24.169Z",
+  "sourceRoot": "source_notes",
   "outputRoot": "_webapp/data",
   "domains": {
     "diseases": {
@@ -28,7 +28,7 @@
       "source": "06 Lab & Img"
     },
     "skills": {
-      "count": 46,
+      "count": 0,
       "source": "legacy skills source"
     },
     "specialties": {

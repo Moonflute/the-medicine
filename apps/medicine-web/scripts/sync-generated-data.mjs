@@ -5,7 +5,7 @@ import { createRequire } from "node:module";
 
 const APP_ROOT = process.env.INIT_CWD || process.cwd();
 const WORKSPACE_ROOT = path.resolve(APP_ROOT, "..", "..");
-const VAULT_ROOT = path.join(WORKSPACE_ROOT, "vault_medicine");
+const SOURCE_NOTES_ROOT = path.join(WORKSPACE_ROOT, "source_notes");
 const OUTPUT_ROOT = path.join(WORKSPACE_ROOT, "_webapp");
 const DATA_ROOT = path.join(OUTPUT_ROOT, "data");
 const require = createRequire(import.meta.url);
@@ -323,7 +323,7 @@ function extractDefinition(body) {
 }
 
 function buildDiseases() {
-  const root = path.join(VAULT_ROOT, "02 Diseases");
+  const root = path.join(SOURCE_NOTES_ROOT, "02 Diseases");
   const files = listMarkdownFiles(root, {
     ignoreFiles: new Set(["index.md", "Disease_index.md"]),
   });
@@ -337,7 +337,7 @@ function buildDiseases() {
     const stat = fs.statSync(filePath);
 
     return {
-      id: path.relative(VAULT_ROOT, filePath).replaceAll("\\", "/"),
+      id: path.relative(SOURCE_NOTES_ROOT, filePath).replaceAll("\\", "/"),
       slug: toSlug(path.relative(root, filePath).replaceAll("\\", "/")),
       title: fileName,
       sourcePath: path.relative(WORKSPACE_ROOT, filePath).replaceAll("\\", "/"),
@@ -355,7 +355,7 @@ function buildDiseases() {
 }
 
 function buildChiefComplaints() {
-  const root = path.join(VAULT_ROOT, "01 Chief Complaint");
+  const root = path.join(SOURCE_NOTES_ROOT, "01 Chief Complaint");
   const files = listMarkdownFiles(root, {
     ignoreFiles: new Set(["index.md", "CC_index.md", "chief_complaints_master.md"]),
   });
@@ -386,7 +386,7 @@ function buildChiefComplaints() {
 }
 
 function buildGenericNotes(domainFolder, domainKey, options = {}) {
-  const root = path.join(VAULT_ROOT, domainFolder);
+  const root = path.join(SOURCE_NOTES_ROOT, domainFolder);
   const files = listMarkdownFiles(root, {
     ignoreFiles: new Set(["index.md", ...(options.ignoreFiles ?? [])]),
   });
@@ -429,7 +429,7 @@ function buildGenericNotes(domainFolder, domainKey, options = {}) {
 }
 
 function buildDrugs() {
-  const root = path.join(VAULT_ROOT, "04 Pharmacology");
+  const root = path.join(SOURCE_NOTES_ROOT, "04 Pharmacology");
   const files = listMarkdownFiles(root, {
     ignoreDirs: new Set(["_templates", "_webapp", ".obsidian", "images", "_index"]),
     ignoreFiles: new Set(["index.md", "계통_규칙.md", "분류체계.md", "약리학.md", "일반원례_및_교과서색인.md", "참고_RangDale10_구조매핑.md"]),
@@ -624,7 +624,7 @@ function main() {
 
   const manifest = {
     generatedAt: new Date().toISOString(),
-    sourceRoot: "vault_medicine",
+    sourceRoot: "source_notes",
     outputRoot: "_webapp/data",
     domains: {
       diseases: { count: diseases.length, source: "02 Diseases" },
@@ -657,12 +657,12 @@ function main() {
     [
       "# _webapp",
       "",
-      "Generated web-app data derived from `vault_medicine` and web-only manual sources.",
+      "Generated web-app data derived from `source_notes` markdown files and web-only manual sources.",
       "",
-      "- Source of truth: markdown files in `vault_medicine/*`",
+      "- Source of truth: markdown files in `source_notes/*`",
       "- Output: committed JSON for GitHub Pages build under `_webapp/data`",
       "- Direction: source markdown -> generated JSON only",
-      "- Keep `vault_medicine` itself free of web-app artifacts",
+      "- Keep `source_notes` itself free of web-app artifacts",
       "- Do not hand-edit JSON here unless explicitly treating it as manual-only data",
       "",
       "Regenerate with:",

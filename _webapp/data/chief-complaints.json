@@ -7,7 +7,7 @@
       "Chest pain"
     ],
     "category": "순환기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/가슴통증.md",
+    "sourcePath": "source_notes/01 Chief Complaint/가슴통증.md",
     "concept": [
       "'통증’, 악화/완화 인자 중심으로, PTE, 맥박 잊지말것"
     ],
@@ -148,7 +148,7 @@
       "Intimate partner violence"
     ],
     "category": "상담",
-    "sourcePath": "vault_medicine/01 Chief Complaint/가정폭력.md",
+    "sourcePath": "source_notes/01 Chief Complaint/가정폭력.md",
     "concept": [
       "‘상담’, 환자 CC 충분히 문진, 결혼생활 충분히 문진",
       "<종류>",
@@ -262,7 +262,7 @@
       "Hemoptysis"
     ],
     "category": "호흡기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/객혈.md",
+    "sourcePath": "source_notes/01 Chief Complaint/객혈.md",
     "concept": [
       "'출혈’, 토혈은 아닌지 확인"
     ],
@@ -385,7 +385,7 @@
       "Seizure (adult)"
     ],
     "category": "신경",
-    "sourcePath": "vault_medicine/01 Chief Complaint/경련 (성인).md",
+    "sourcePath": "source_notes/01 Chief Complaint/경련 (성인).md",
     "concept": [
       "실신 감별"
     ],
@@ -506,7 +506,7 @@
       "Seizure (pediatric)"
     ],
     "category": "신경",
-    "sourcePath": "vault_medicine/01 Chief Complaint/경련 (소아).md",
+    "sourcePath": "source_notes/01 Chief Complaint/경련 (소아).md",
     "concept": [
       "실신 감별"
     ],
@@ -619,7 +619,7 @@
       "Hypertension"
     ],
     "category": "순환기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/고혈압.md",
+    "sourcePath": "source_notes/01 Chief Complaint/고혈압.md",
     "concept": [
       "'FM’, 고혈압에 의한 영향평가도 해야함"
     ],
@@ -759,7 +759,7 @@
       "Arthralgia; joint swelling"
     ],
     "category": "근골격/피부",
-    "sourcePath": "vault_medicine/01 Chief Complaint/관절 통증／붓기.md",
+    "sourcePath": "source_notes/01 Chief Complaint/관절 통증／붓기.md",
     "concept": [
       "‘PEx’, 증상에 따른 신체진찰을 빠르게 진행해야 함"
     ],
@@ -975,7 +975,7 @@
       "Vomiting"
     ],
     "category": "소화기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/구토.md",
+    "sourcePath": "source_notes/01 Chief Complaint/구토.md",
     "concept": [
       "‘탈수’, 크게 신경계문제 or 위장관문제"
     ],
@@ -1111,7 +1111,7 @@
       "Weakness; sensory deficit"
     ],
     "category": "신경",
-    "sourcePath": "vault_medicine/01 Chief Complaint/근력／감각이상.md",
+    "sourcePath": "source_notes/01 Chief Complaint/근력／감각이상.md",
     "concept": [
       "‘NEx’, 원인 구조별 종류를 생각하며 문진"
     ],
@@ -1313,7 +1313,7 @@
       "Acute abdominal pain"
     ],
     "category": "소화기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/급성복통.md",
+    "sourcePath": "source_notes/01 Chief Complaint/급성복통.md",
     "concept": [
       "‘통증’, 동반증상과 factor로 감별, 복부 장기들 감별"
     ],
@@ -1523,7 +1523,7 @@
       "Mood disturbance"
     ],
     "category": "정신",
-    "sourcePath": "vault_medicine/01 Chief Complaint/기분변화.md",
+    "sourcePath": "source_notes/01 Chief Complaint/기분변화.md",
     "concept": [
       "'정신’, 상담에 가까워서 PPI 잘 챙길 것, MDD 기준 암기"
     ],
@@ -1652,7 +1652,7 @@
       "Memory impairment"
     ],
     "category": "정신",
-    "sourcePath": "vault_medicine/01 Chief Complaint/기억력 저하.md",
+    "sourcePath": "source_notes/01 Chief Complaint/기억력 저하.md",
     "concept": [
       "‘정신’, MMSE+PE 까지 빠르게, ‘보호자에게 확인하겠다’ ‘ 학력‘"
     ],
@@ -1787,7 +1787,7 @@
       "Cough"
     ],
     "category": "호흡기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/기침.md",
+    "sourcePath": "source_notes/01 Chief Complaint/기침.md",
     "concept": [
       "‘CM+ENT’, 기간에 따라서 나눠 생각 ‘GERD’"
     ],
@@ -1920,7 +1920,7 @@
       "Breaking bad news"
     ],
     "category": "상담",
-    "sourcePath": "vault_medicine/01 Chief Complaint/나쁜 소식 전하기.md",
+    "sourcePath": "source_notes/01 Chief Complaint/나쁜 소식 전하기.md",
     "concept": [
       "'상담’, 준비하기도 애매한.. 모호한 문항.. 공감에 중점, SPIKES"
     ],
@@ -2004,7 +2004,7 @@
       "Polyuria"
     ],
     "category": "신장/비뇨기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/다뇨.md",
+    "sourcePath": "source_notes/01 Chief Complaint/다뇨.md",
     "concept": [
       "비뇨기 문제인지 조절 문제인지 잘 문진"
     ],
@@ -2129,7 +2129,7 @@
       "Palpitations"
     ],
     "category": "순환기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/두근거림.md",
+    "sourcePath": "source_notes/01 Chief Complaint/두근거림.md",
     "concept": [
       "‘CV+ EM + NP’ PEx에서 맥박 잊지 말 것"
     ],
@@ -2270,7 +2270,7 @@
       "Headache"
     ],
     "category": "신경",
-    "sourcePath": "vault_medicine/01 Chief Complaint/두통.md",
+    "sourcePath": "source_notes/01 Chief Complaint/두통.md",
     "concept": [
       "‘응급?’, 질환의 특징적 증상으로 감별"
     ],
@@ -2405,7 +2405,7 @@
       "Tremor; movement disorder"
     ],
     "category": "신경",
-    "sourcePath": "vault_medicine/01 Chief Complaint/떨림／운동이상.md",
+    "sourcePath": "source_notes/01 Chief Complaint/떨림／운동이상.md",
     "concept": [
       "tremor 맞나 확인, 기본 PE도 해야 함, 2분 전까지 NEx 최대한"
     ],
@@ -2597,7 +2597,7 @@
       "Easy bruising; ecchymosis"
     ],
     "category": "전신증상",
-    "sourcePath": "vault_medicine/01 Chief Complaint/멍.md",
+    "sourcePath": "source_notes/01 Chief Complaint/멍.md",
     "concept": [
       "'출혈’, ITP 진단을 위해 나머지를 배제하는 방향으로"
     ],
@@ -2736,7 +2736,7 @@
       "Neck pain"
     ],
     "category": "근골격/피부",
-    "sourcePath": "vault_medicine/01 Chief Complaint/목 통증.md",
+    "sourcePath": "source_notes/01 Chief Complaint/목 통증.md",
     "concept": [
       "‘PEx’, 신경쪽인지 근육쪽인지감별"
     ],
@@ -2873,7 +2873,7 @@
       "Substance use disorder"
     ],
     "category": "상담",
-    "sourcePath": "vault_medicine/01 Chief Complaint/물질 오남용.md",
+    "sourcePath": "source_notes/01 Chief Complaint/물질 오남용.md",
     "concept": [
       "‘상담’, 금연 금주와 유사"
     ],
@@ -3008,7 +3008,7 @@
       "Developmental delay"
     ],
     "category": "소아",
-    "sourcePath": "vault_medicine/01 Chief Complaint/발달 지연.md",
+    "sourcePath": "source_notes/01 Chief Complaint/발달 지연.md",
     "concept": [
       "‘소아’, PEx 없음"
     ],
@@ -3147,7 +3147,7 @@
       "Fever"
     ],
     "category": "전신증상",
-    "sourcePath": "vault_medicine/01 Chief Complaint/발열.md",
+    "sourcePath": "source_notes/01 Chief Complaint/발열.md",
     "concept": [
       "‘전신’ ‘탈수’ 모든 계통 확인, PEx 적절히"
     ],
@@ -3282,7 +3282,7 @@
       "Urinary frequency; dysuria"
     ],
     "category": "신장/비뇨기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/배뇨이상 (빈뇨).md",
+    "sourcePath": "source_notes/01 Chief Complaint/배뇨이상 (빈뇨).md",
     "concept": [
       "대부분 빈뇨"
     ],
@@ -3405,7 +3405,7 @@
       "Constipation"
     ],
     "category": "소화기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/변비.md",
+    "sourcePath": "source_notes/01 Chief Complaint/변비.md",
     "concept": [
       "'배변’ 배변습관 확인, 소화기 관련 추가 문진"
     ],
@@ -3527,7 +3527,7 @@
       "Anxiety"
     ],
     "category": "정신",
-    "sourcePath": "vault_medicine/01 Chief Complaint/불안.md",
+    "sourcePath": "source_notes/01 Chief Complaint/불안.md",
     "concept": [
       "＇정신’, 정신과 질환과 내과적 질환 문진, 맥박!"
     ],
@@ -3722,7 +3722,7 @@
       "Prenatal care visit"
     ],
     "category": "산부",
-    "sourcePath": "vault_medicine/01 Chief Complaint/산전 진찰.md",
+    "sourcePath": "source_notes/01 Chief Complaint/산전 진찰.md",
     "concept": [
       "‘산과‘ 시간이 매우 부족하니 주의, 그냥 PE도 해야"
     ],
@@ -3855,7 +3855,7 @@
       "Diarrhea"
     ],
     "category": "소화기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/설사.md",
+    "sourcePath": "source_notes/01 Chief Complaint/설사.md",
     "concept": [
       "‘탈수, 배변’, 소화기 관련 추가 문진, HB시 시간 매우 부족"
     ],
@@ -3983,7 +3983,7 @@
       "Growth delay"
     ],
     "category": "소아",
-    "sourcePath": "vault_medicine/01 Chief Complaint/성장 지연.md",
+    "sourcePath": "source_notes/01 Chief Complaint/성장 지연.md",
     "concept": [
       "‘소아’, PEx 없음"
     ],
@@ -4113,7 +4113,7 @@
       "Sexual violence"
     ],
     "category": "상담",
-    "sourcePath": "vault_medicine/01 Chief Complaint/성폭력.md",
+    "sourcePath": "source_notes/01 Chief Complaint/성폭력.md",
     "concept": [
       "’상담‘"
     ],
@@ -4224,7 +4224,7 @@
       "Dyspepsia; chronic abdominal pain"
     ],
     "category": "소화기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/소화불량／만성 복통.md",
+    "sourcePath": "source_notes/01 Chief Complaint/소화불량／만성 복통.md",
     "concept": [
       "‘통증’, 동반증상과 factor로 감별, 급성과 달리 거의 소화기 문제"
     ],
@@ -4351,7 +4351,7 @@
       "Sleep disorder"
     ],
     "category": "정신",
-    "sourcePath": "vault_medicine/01 Chief Complaint/수면장애.md",
+    "sourcePath": "source_notes/01 Chief Complaint/수면장애.md",
     "concept": [
       "‘환자교육’ 수면 양상 잘 물어보고 계통 한번 긁기"
     ],
@@ -4490,7 +4490,7 @@
       "Syncope"
     ],
     "category": "순환기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/실신.md",
+    "sourcePath": "source_notes/01 Chief Complaint/실신.md",
     "concept": [
       "'CV+NR’ 경련 아닌지 확인, 전-중-후 중심으로 문진"
     ],
@@ -4633,7 +4633,7 @@
       "Dizziness"
     ],
     "category": "신경",
-    "sourcePath": "vault_medicine/01 Chief Complaint/어지럼증.md",
+    "sourcePath": "source_notes/01 Chief Complaint/어지럼증.md",
     "concept": [
       "PEx 시간 많이 걸림, 진단은 증상 지속시간을 우선으로"
     ],
@@ -4776,7 +4776,7 @@
       "Immunization"
     ],
     "category": "소아",
-    "sourcePath": "vault_medicine/01 Chief Complaint/예방접종.md",
+    "sourcePath": "source_notes/01 Chief Complaint/예방접종.md",
     "concept": [
       "‘상담’, 예방접종표 있는지 확인, 예방접종을 공부"
     ],
@@ -4884,7 +4884,7 @@
       "Urinary incontinence"
     ],
     "category": "신장/비뇨기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/요실금.md",
+    "sourcePath": "source_notes/01 Chief Complaint/요실금.md",
     "concept": [
       "요실금 상황을 잘 문진해서 감별, 신경인성 체크"
     ],
@@ -4999,7 +4999,7 @@
       "Menstrual disorder; amenorrhea"
     ],
     "category": "산부",
-    "sourcePath": "vault_medicine/01 Chief Complaint/월경이상 (무월경).md",
+    "sourcePath": "source_notes/01 Chief Complaint/월경이상 (무월경).md",
     "concept": [
       "'부인과’, 무월경 관련 기전 잘 생각하면서 질문.."
     ],
@@ -5138,7 +5138,7 @@
       "Dysmenorrhea; menorrhagia"
     ],
     "category": "산부",
-    "sourcePath": "vault_medicine/01 Chief Complaint/월경통 (월경과다).md",
+    "sourcePath": "source_notes/01 Chief Complaint/월경통 (월경과다).md",
     "concept": [
       "'부인과’, 보통 월경과다가 동반됨"
     ],
@@ -5251,7 +5251,7 @@
       "Breast lump"
     ],
     "category": "산부",
-    "sourcePath": "vault_medicine/01 Chief Complaint/유방덩이.md",
+    "sourcePath": "source_notes/01 Chief Complaint/유방덩이.md",
     "concept": [
       "‘부인과’ 두 CC의 질환이 매우 겹치므로 함께 고려한다"
     ],
@@ -5394,7 +5394,7 @@
       "Mastalgia; breast pain"
     ],
     "category": "산부",
-    "sourcePath": "vault_medicine/01 Chief Complaint/유방통.md",
+    "sourcePath": "source_notes/01 Chief Complaint/유방통.md",
     "concept": [
       "‘부인과’ 두 CC의 질환이 매우 겹치므로 함께 고려한다"
     ],
@@ -5537,7 +5537,7 @@
       "Alcohol use counseling"
     ],
     "category": "상담",
-    "sourcePath": "vault_medicine/01 Chief Complaint/음주 상담.md",
+    "sourcePath": "source_notes/01 Chief Complaint/음주 상담.md",
     "concept": [
       "‘상담’ 변형 문진을 잘 숙지, 지시문에 PE 시행 여부 확인"
     ],
@@ -5671,7 +5671,7 @@
       "Altered mental status"
     ],
     "category": "신경",
-    "sourcePath": "vault_medicine/01 Chief Complaint/의식장애.md",
+    "sourcePath": "source_notes/01 Chief Complaint/의식장애.md",
     "concept": [
       "'NEx’, 환자가 누워있고 보호자 문진할 수도 있음, 처치부터"
     ],
@@ -5893,7 +5893,7 @@
       "Dyslipidemia"
     ],
     "category": "순환기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/이상지질혈증.md",
+    "sourcePath": "source_notes/01 Chief Complaint/이상지질혈증.md",
     "concept": [
       "‘FM’, 교육에 중점을 두고, 체중 증가와 비슷한 느낌이기도?"
     ],
@@ -6011,7 +6011,7 @@
       "Suicidal ideation"
     ],
     "category": "상담",
-    "sourcePath": "vault_medicine/01 Chief Complaint/자살.md",
+    "sourcePath": "source_notes/01 Chief Complaint/자살.md",
     "concept": [
       "'상담’",
       "<원인질환> : 감별 필요 없음",
@@ -6109,7 +6109,7 @@
       "Vaginal discharge"
     ],
     "category": "산부",
-    "sourcePath": "vault_medicine/01 Chief Complaint/질분비물.md",
+    "sourcePath": "source_notes/01 Chief Complaint/질분비물.md",
     "concept": [
       "‘부인과’, 분비물 양상을 잘 문진"
     ],
@@ -6230,7 +6230,7 @@
       "Vaginal bleeding"
     ],
     "category": "산부",
-    "sourcePath": "vault_medicine/01 Chief Complaint/질출혈.md",
+    "sourcePath": "source_notes/01 Chief Complaint/질출혈.md",
     "concept": [
       "‘부인과’, 거의근종?"
     ],
@@ -6357,7 +6357,7 @@
       "Weight loss"
     ],
     "category": "전신증상",
-    "sourcePath": "vault_medicine/01 Chief Complaint/체중감소.md",
+    "sourcePath": "source_notes/01 Chief Complaint/체중감소.md",
     "concept": [
       "‘전신’, 정작 체중감소가 CC일때 암을 빼먹지 않게 주의"
     ],
@@ -6490,7 +6490,7 @@
       "Weight gain"
     ],
     "category": "전신증상",
-    "sourcePath": "vault_medicine/01 Chief Complaint/체중증가.md",
+    "sourcePath": "source_notes/01 Chief Complaint/체중증가.md",
     "concept": [
       "부종 원인 체크하고 나머지 체크"
     ],
@@ -6625,7 +6625,7 @@
       "Rhinorrhea; nasal congestion"
     ],
     "category": "호흡기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/콧물／코막힘.md",
+    "sourcePath": "source_notes/01 Chief Complaint/콧물／코막힘.md",
     "concept": [
       "‘ENT’ 악화인자를 잘 문진"
     ],
@@ -6756,7 +6756,7 @@
       "Hematemesis"
     ],
     "category": "소화기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/토혈.md",
+    "sourcePath": "source_notes/01 Chief Complaint/토혈.md",
     "concept": [
       "'출혈’, 토혈 상황 확인, 음주 관련 체크"
     ],
@@ -6880,7 +6880,7 @@
       "Fatigue"
     ],
     "category": "전신증상",
-    "sourcePath": "vault_medicine/01 Chief Complaint/피로.md",
+    "sourcePath": "source_notes/01 Chief Complaint/피로.md",
     "concept": [
       "'전신’, 만성 피로증후군 진단기준 숙지, 생활습관 교정"
     ],
@@ -7025,7 +7025,7 @@
       "Skin rash"
     ],
     "category": "근골격/피부",
-    "sourcePath": "vault_medicine/01 Chief Complaint/피부 발진.md",
+    "sourcePath": "source_notes/01 Chief Complaint/피부 발진.md",
     "concept": [
       "‘DM’, 전신 증상 질환과 피부 국한 질환으로 나눠 생각, 약물도"
     ],
@@ -7160,7 +7160,7 @@
       "Oliguria"
     ],
     "category": "신장/비뇨기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/핍뇨.md",
+    "sourcePath": "source_notes/01 Chief Complaint/핍뇨.md",
     "concept": [
       "pre – renal – post 순으로 체크, 체액 감소일수도, 막힌거일수도"
     ],
@@ -7293,7 +7293,7 @@
       "Low back pain"
     ],
     "category": "근골격/피부",
-    "sourcePath": "vault_medicine/01 Chief Complaint/허리 통증.md",
+    "sourcePath": "source_notes/01 Chief Complaint/허리 통증.md",
     "concept": [
       "‘PEx’, 신경 이상인지 근육 이상인지 감별"
     ],
@@ -7422,7 +7422,7 @@
       "Hematuria"
     ],
     "category": "신장/비뇨기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/혈뇨.md",
+    "sourcePath": "source_notes/01 Chief Complaint/혈뇨.md",
     "concept": [
       "'출혈’, 가성 배제하고 감염도 확인"
     ],
@@ -7551,7 +7551,7 @@
       "Hematochezia; melena"
     ],
     "category": "소화기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/혈변.md",
+    "sourcePath": "source_notes/01 Chief Complaint/혈변.md",
     "concept": [
       "'출혈’, 혈변 양상을 잘 문진"
     ],
@@ -7676,7 +7676,7 @@
       "Dyspnea"
     ],
     "category": "호흡기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/호흡곤란.md",
+    "sourcePath": "source_notes/01 Chief Complaint/호흡곤란.md",
     "concept": [
       "'CV+CM+EM+NP’, 힘들지는 않은지 한마디, PTE 잊지말것"
     ],
@@ -7817,7 +7817,7 @@
       "Jaundice"
     ],
     "category": "소화기",
-    "sourcePath": "vault_medicine/01 Chief Complaint/황달.md",
+    "sourcePath": "source_notes/01 Chief Complaint/황달.md",
     "concept": [
       "‘탈수, 출혈’  주로 간담췌지만 시간이 부족하고 진단도 애매.."
     ],
@@ -7960,7 +7960,7 @@
       "Smoking cessation counseling"
     ],
     "category": "상담",
-    "sourcePath": "vault_medicine/01 Chief Complaint/흡연 상담.md",
+    "sourcePath": "source_notes/01 Chief Complaint/흡연 상담.md",
     "concept": [
       "‘상담’, OLDCoEx 변형 문진을 잘 숙지, 칭찬과 지지 보낼 것"
     ],

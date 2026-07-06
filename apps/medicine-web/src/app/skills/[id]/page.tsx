@@ -3,12 +3,17 @@ import { notFound } from "next/navigation";
 import { AlertTriangle, CheckSquare, ChevronRight, Info, Link2, ListOrdered, Stethoscope, VideoOff } from "lucide-react";
 import { getAllSkills, getSkillById } from "@/lib/webdb";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
-  return getAllSkills().map((skill) => ({ id: skill.id }));
+  const skills = getAllSkills();
+  return skills.length > 0 ? skills.map((skill) => ({ id: skill.id })) : [{ id: "__empty__" }];
 }
 
 export default async function SkillDetailPage(props: { params: Promise<{ id: string }> }) {
   const params = await props.params;
+  if (params.id === "__empty__") return null;
+
   const skill = getSkillById(params.id);
 
   if (!skill) notFound();

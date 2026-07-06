@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
@@ -70,29 +70,28 @@ function useBookmarks() {
 function getSectionTone(title: string) {
   const normalized = title.toLowerCase();
 
-  if (normalized.includes("검사") || normalized.includes("evaluation") || normalized.includes("workup")) {
+  if (/evaluation|workup|lab|test|image|exam/.test(normalized)) {
     return "border-sky-200 bg-sky-50/65";
   }
 
-  if (normalized.includes("진단") || normalized.includes("diagn")) {
+  if (/diagn|assessment|criteria/.test(normalized)) {
     return "border-violet-200 bg-violet-50/65";
   }
 
-  if (normalized.includes("치료") || normalized.includes("처치") || normalized.includes("management") || normalized.includes("treatment")) {
+  if (/management|treatment|therapy|plan|procedure/.test(normalized)) {
     return "border-emerald-200 bg-emerald-50/65";
   }
 
-  if (normalized.includes("합병증") || normalized.includes("경고") || normalized.includes("응급") || normalized.includes("warning")) {
+  if (/warning|complication|risk|red flag|emergency/.test(normalized)) {
     return "border-rose-200 bg-rose-50/65";
   }
 
-  if (normalized.includes("임상") || normalized.includes("증상") || normalized.includes("양상") || normalized.includes("presentation")) {
+  if (/presentation|history|symptom|clinical/.test(normalized)) {
     return "border-amber-200 bg-amber-50/65";
   }
 
   return "border-stone-200 bg-white";
 }
-
 export function DiseaseCard({
   note,
   compact = false,
@@ -203,3 +202,4 @@ export function DiseaseCard({
     </article>
   );
 }
+

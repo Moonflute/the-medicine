@@ -3,7 +3,7 @@ import path from "node:path";
 
 const APP_ROOT = process.env.INIT_CWD || process.cwd();
 const WORKSPACE_ROOT = path.resolve(APP_ROOT, "..", "..");
-const VAULT_ROOT = path.join(WORKSPACE_ROOT, "vault_medicine");
+const SOURCE_NOTES_ROOT = path.join(WORKSPACE_ROOT, "source_notes");
 const OUTPUT_ROOT = path.join(WORKSPACE_ROOT, "_webapp");
 const DATA_ROOT = path.join(OUTPUT_ROOT, "data");
 
@@ -143,7 +143,7 @@ function listMarkdownFiles(root, options = {}) {
 }
 
 function buildDrugs() {
-  const root = path.join(VAULT_ROOT, "04 Pharmacology");
+  const root = path.join(SOURCE_NOTES_ROOT, "04 Pharmacology");
   const files = listMarkdownFiles(root).filter((filePath) => path.relative(root, filePath).split(path.sep).length > 1);
 
   return files.map((filePath) => {

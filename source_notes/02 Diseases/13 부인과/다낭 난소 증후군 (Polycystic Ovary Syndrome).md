@@ -1,0 +1,78 @@
+---
+aliases:
+- PCOS
+- polycystic ovarian syndrome
+- 다낭 난소 증후군
+유형:
+- disease
+계통: 부인과
+분류:
+- 부인과
+- 월경 관련 질환
+CC:
+- 월경이상
+- 탈모
+preprocessing_required: x
+last_studied: '2026-06-06'
+---
+분과 : [[부인과]]
+
+## 1. 개요
+- **정의**: 가임기 여성에서 흔한 내분비 질환으로, 만성 무배란, 고안드로겐증, 다낭성 난소 형태를 특징으로 함
+- **원인**: 유전적 요인과 인슐린 저항성이 복합적으로 작용하며, 시상하부-뇌하수체-난소 축의 조절 이상이 관여함
+- **기전**: 인슐린 저항성으로 인한 고인슐린혈증이 난소의 안드로겐 생성을 촉진하고, LH 과분비가 이를 지속시켜 배란 장애 및 안드로겐 과다 상태를 유발함
+
+## 2. 임상 양상 (Clinical Features)
+* **CC**: 무월경, 희발월경, 불임, 다모증, 여드름, 탈모, 비만
+* **P/E**: 다모증(Ferriman-Gallwey 점수 활용), 여드름, 비만(특히 복부 비만)
+
+## 3. 검사 (Lab & Imaging)
+- **혈액 검사**: 혈청 총/유리 테스토스테론 증가, LH/FSH 비 증가(일부 환자), 17-OHP(선천성 부신 과형성증 배제용)
+- **초음파**: 난소의 다낭성 변화(PCOM) 확인
+- **기타**: 인슐린 저항성 및 대사 증후군 평가(공복 혈당, 지질 검사 등)
+
+## 4. 진단 (Diagnosis)
+- 다음 3가지 기준 중 2가지 이상 만족 시 진단 (단, 유사 증상을 유발하는 타 질환 배제 필수):
+  1) 희발월경 또는 무배란
+  2) 임상적 또는 생화학적 고안드로겐증
+  3) 초음파상 다낭성 난소 형태
+
+## 5. 치료 (Treatment)
+- **생활 습관 개선**: 체중 감량(인슐린 저항성 및 호르몬 불균형 개선에 핵심)
+- **월경 주기 조절 및 고안드로겐증 완화**: 경구 피임약(OC) 또는 프로게스틴 주기적 투여
+- **배란 유도(임신 희망 시)**: Letrozole(1차 선택), Clomiphene citrate
+- **인슐린 저항성 개선**: Metformin 고려
+
+## 6. 예후 및 합병증 (Prognosis)
+- 대사 증후군, 제2형 당뇨병, 심혈관 질환, 자궁 내막암, 비알코올성 지방간 질환 위험 증가
+
+출처 : StatPearls (Polycystic Ovarian Syndrome)
+Last updated :
+---
+---
+aliases: ["PCOS", "polycystic ovarian syndrome"]
+유형:
+- - disease
+계통: "부인과"
+분류: ["부인과", "월경관련질환"]
+CC: []
+---
+## 1. 개요
+- **정의**:
+- **원인**:
+- **기전**: LH 과분비로 androgen 축적
+## 2. 임상 양상 (Clinical Features)
+* **CC**: 무월경, 불임, 질출혈, 다모증, 인슐린저하증, 이상지질혈증
+* **P/E**:
+## 3. 검사 (Lab & Imaging)
+- LH / FSH > 2, testosterone 증가
+## 4. 진단 (Diagnosis)
+- 3개 중 2개 이상 만족 시 진단 (1) 희발월경, 무월경 (2) 고안드로겐증(여드름, 다모증) (3) PCOS 확인, 나머지 r/o
+## 5. 치료 (Treatment)
+- estrogen effect 차단을 위해 P 투여(or E+P OC), 배란유도(clomiphene citrate, letrozole, metformin, gonadotropin)
+- 임신을 원함: clomiphene citrate, letrozole
+- 통증 등이 문제: Progesterone
+## 6. 예후 및 합병증 (Prognosis)
+출처 : 
+Last updated :
+2026-05-18 — 본문 갱신 (codex fill)

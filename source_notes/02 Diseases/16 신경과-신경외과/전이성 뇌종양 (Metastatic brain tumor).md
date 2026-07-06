@@ -1,0 +1,49 @@
+---
+aliases:
+- 전이성 뇌종양
+유형:
+- disease
+계통: 신경과-신경외과
+분류:
+- 신경과-신경외과
+- Neurology
+- Neurology/Neurosurgery
+- Brain Tumors
+CC:
+- 두통
+- 경련
+preprocessing_required: x
+last_studied: '2026-06-06'
+---
+분과 : [[신경과-신경외과]]
+
+## 1. 개요
+- **정의**: 다른 부위에서 뇌로 전이된 종양
+- **원인**: 폐암 > 유방암 > 피부암 순으로 흔함
+- **기전**: 주로 혈행성 전파를 통해 뇌 실질 내로 유입되며, 종양 세포가 분비하는 VEGF(Vascular Endothelial Growth Factor) 등이 혈액-뇌 장벽(BBB)의 구조적 붕괴와 비정상적인 신생 혈관 형성을 유도하여 종양의 성장을 촉진함
+
+## 2. 임상 양상 (Clinical Features)
+* **CC**: 두통, 발작, 국소 신경학적 결손, 인지 기능 저하 등
+* **P/E**: 종양의 위치와 크기에 따른 신경학적 검사 이상, 뇌압 상승 징후
+
+## 3. 검사 (Lab & Imaging)
+- MRI – 조영 증강 시 잘 관찰되며, 다발성 병변인 경우가 많음.
+  주위 부종(edema)이 동반되는 경우가 흔함
+
+## 4. 진단 (Diagnosis)
+- 원발암에 대한 전신 검사(CT, PET 등)와 뇌 MRI를 종합하여 진단.
+  필요 시 조직 검사 시행
+
+## 5. 치료 (Treatment)
+- **약물 치료**: 뇌부종 조절을 위한 스테로이드(Corticosteroid) 투여
+- **수술**: 단일 병변이거나 증상 완화가 필요한 경우 수술적 제거 고려
+- **방사선 치료**: 전뇌 방사선 치료(WBRT) 또는 정위적 방사선 수술(SRS)
+- **항암 화학 요법**: 원발암의 종류 및 항암제 투과도에 따라 결정
+
+## 6. 예후 및 합병증 (Prognosis)
+- 원발암의 종류, 전이 병변의 개수, 환자의 전신 상태(KPS 점수 등)에 따라 예후가 크게 달라짐.
+  뇌부종으로 인한 뇌압 상승 및 신경학적 기능 저하가 주요 합병증임
+
+출처 : StatPearls (Anatomy, Head and Neck: Blood Brain Barrier)
+Last updated :
+2026-05-18 — 본문 갱신 (codex fill)

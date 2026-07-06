@@ -1,6 +1,12 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import type { DomainNote } from "@/lib/webdb";
 import { RichTextLines } from "@/components/rich-text-lines";
+
+const PRIORITY_LABELS: Record<string, string> = {
+  tier_1: "Core",
+  tier_2: "Important",
+  general: "General",
+};
 
 export function DomainNoteCard({
   note,
@@ -9,15 +15,7 @@ export function DomainNoteCard({
   note: DomainNote;
   href?: string;
 }) {
-  const priorityLabel =
-    note.drugMeta?.priority === "tier_1"
-      ? "최우선"
-      : note.drugMeta?.priority === "tier_2"
-        ? "중요"
-        : note.drugMeta?.priority === "general"
-          ? "일반"
-          : "";
-
+  const priorityLabel = note.drugMeta?.priority ? (PRIORITY_LABELS[note.drugMeta.priority] ?? note.drugMeta.priority) : "";
   const brands = note.drugMeta?.brands?.filter(Boolean) ?? [];
 
   const body = (
@@ -32,7 +30,7 @@ export function DomainNoteCard({
             <span className="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-600">{note.drugMeta.detailClass}</span>
           ) : null}
           {note.drugMeta.clinicalCore ? (
-            <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-medium text-amber-800">핵심 약물</span>
+            <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-medium text-amber-800">Clinical core</span>
           ) : null}
           {priorityLabel ? <span className="rounded-full bg-sky-100 px-3 py-1 text-xs font-medium text-sky-800">{priorityLabel}</span> : null}
         </div>
@@ -40,7 +38,7 @@ export function DomainNoteCard({
 
       {brands.length > 0 ? (
         <p className="mt-3 text-sm leading-6 text-stone-600">
-          대표 상품명: <span className="font-medium text-stone-800">{brands.slice(0, 2).join(", ")}</span>
+          Brands <span className="font-medium text-stone-800">{brands.slice(0, 2).join(", ")}</span>
         </p>
       ) : null}
 

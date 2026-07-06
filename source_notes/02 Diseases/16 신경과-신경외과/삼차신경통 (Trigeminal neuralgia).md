@@ -1,0 +1,52 @@
+---
+aliases:
+- 삼차신경통
+유형:
+- disease
+계통: 신경과-신경외과
+분류:
+- 신경과-신경외과
+- Neurology
+- Neurology/Neurosurgery
+- Headache
+- Cranial Nerve Disorders
+CC:
+- 안면 통증
+preprocessing_required: x
+last_studied: '2026-06-06'
+---
+분과 : [[신경과-신경외과]]
+
+## 1. 개요
+- **정의**: 삼차신경(CN V)의 지배 영역에서 발생하는 일측성, 돌발성, 전기 충격 같은 통증.
+- **원인**: 대부분 삼차신경근의 혈관 압박(주로 상소뇌동맥)에 의한 신경 탈수초화. 드물게 다발성 경화증, 종양, 동정맥 기형 등.
+- **기전**: 신경 압박 부위의 탈수초화로 인한 이소성 신경 충격 발생 및 인접 신경 섬유 간의 비시냅스성 신호 전달(ephaptic transmission).
+
+## 2. 임상 양상 (Clinical Features)
+* **CC**:
+  일측성으로 갑자기 나타나는 날카로운 전기 충격 같은 통증.
+  수 초에서 2분 이내로 짧게 지속.
+* **P/E**:
+  안면의 특정 부위(trigger zone)를 가볍게 건드리는 자극(세수, 칫솔질, 말하기 등)에 의해 통증 유발.
+  신경학적 결손은 대개 없음.
+
+## 3. 검사 (Lab & Imaging)
+- **MRI/MRA**: 혈관 압박 확인 및 이차적 원인(종양, 다발성 경화증 등) 감별을 위해 필수적.
+- **FIESTA 시퀀스**: 삼차신경과 주변 혈관의 상세 구조 확인에 유용.
+
+## 4. 진단 (Diagnosis)
+- ICHD-3 진단 기준에 따라 일측성 돌발 통증, 특정 자극에 의한 유발, 다른 질환으로 설명되지 않는 경우 진단.
+
+## 5. 치료 (Treatment)
+- **약물 치료**:
+  Carbamazepine 또는 Oxcarbazepine이 1차 선택제.
+  효과 부족 시 Gabapentin, Baclofen 등 병용 고려.
+- **수술적 치료**: 약물 치료에 반응하지 않는 경우 미세혈관 감압술(Microvascular decompression)이 가장 효과적인 장기적 치료법.
+
+## 6. 예후 및 합병증 (Prognosis)
+- 약물 치료로 초기 통증 조절은 가능하나 시간이 지나며 효과가 감소할 수 있음.
+  수술적 치료는 높은 성공률을 보이나 청력 저하, 안면 마비 등의 합병증 위험 존재.
+
+출처 : StatPearls (Trigeminal Neuralgia)
+Last updated :
+2026-05-18 — 본문 갱신 (codex fill)

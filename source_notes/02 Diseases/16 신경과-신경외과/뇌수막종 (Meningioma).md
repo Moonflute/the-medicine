@@ -1,0 +1,67 @@
+---
+aliases:
+- 뇌수막종
+유형:
+- disease
+계통: 신경과-신경외과
+분류:
+- 신경과-신경외과
+- Neurology
+- Neurology/Neurosurgery
+- Brain Tumors
+CC:
+- 무증상
+- 두통
+- 경련
+- 근력/감각이상
+- 시야 장애
+preprocessing_required: x
+last_studied: '2026-06-06'
+---
+분과 : [[신경과-신경외과]]
+
+## 1. 개요
+- **정의**: 뇌와 척수를 둘러싼 수막(arachnoid cap cells)에서 발생하는 종양으로, 원발성 중추신경계 종양 중 가장 흔함.
+- **원인**: 대부분 산발적(sporadic)이나, 신경섬유종증 2형(NF2)과 같은 유전적 질환, 방사선 노출, 호르몬 요인(프로게스테론 수용체 발현) 등이 위험 인자로 작용함.
+- **기전**: 주로 22번 염색체 결손과 관련이 있으며, 서서히 성장하는 양성 종양(WHO grade 1)이 대다수이나 드물게 악성으로 변형될 수 있음.
+
+
+
+## 2. 임상 양상 (Clinical Features)
+* **CC**: 종양의 위치와 크기에 따라 무증상일 수도 있고, 두통, 발작, 국소 신경학적 결손(편마비, 시야 장애, 뇌신경 마비 등)이 나타날 수 있음.
+
+* **P/E**:
+  종양에 의한 뇌압 상승(IICP) 및 주변 뇌 조직 압박(mass effect) 징후 확인.
+  시야 검사 및 신경학적 검진 필수.
+
+
+
+## 3. 검사 (Lab & Imaging)
+- **MRI (Gold standard)**:
+  조영 증강 시 균일하게 조영되며, dural tail sign이 특징적임.
+  T1/T2 강조 영상에서 주변 뇌 조직과 구별되는 extra-axial mass로 관찰됨.
+- **CT**: 석회화나 인접 골조직의 과골증(hyperostosis) 확인에 유용함.
+
+
+
+## 4. 진단 (Diagnosis)
+- 영상학적 소견(MRI)을 바탕으로 진단하며, 필요 시 조직검사를 통해 WHO 등급(Grade 1~3)을 분류함.
+
+
+
+## 5. 치료 (Treatment)
+- **관찰**: 증상이 없는 작은 종양은 정기적인 영상 추적 관찰.
+- **수술**: 증상이 있거나 크기가 큰 경우 완전 절제(Gross total resection)가 원칙.
+- **방사선 치료**: 수술적 절제가 어렵거나 재발한 경우, 혹은 고등급(Grade 2, 3) 종양에서 보조 요법으로 고려.
+
+
+
+## 6. 예후 및 합병증 (Prognosis)
+- 대부분 양성(Grade 1)으로 예후가 좋으나, 종양의 등급과 절제 범위에 따라 재발률이 달라짐.
+  고등급 종양은 재발 및 악성 변형 위험이 높음.
+
+
+
+출처 : StatPearls (Meningioma, Intraventricular Meningioma)
+Last updated :
+2026-05-18 — 본문 갱신 (codex fill)

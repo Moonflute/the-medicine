@@ -1,4 +1,4 @@
-import type { DomainNote } from "@/lib/webdb";
+﻿import type { DomainNote } from "@/lib/webdb";
 
 export type LabImgRangeRow = {
   slug: string;
@@ -113,15 +113,15 @@ function normalizeSpace(value: string) {
 }
 
 function stripBulletPrefix(value: string) {
-  return value.replace(/^[•*\-]\s*/, "").trim();
+  return value.replace(/^[??\-]\s*/, "").trim();
 }
 
 function normalizeKey(value: string) {
   return normalizeSpace(
     cleanText(value)
       .replace(/overview/gi, "")
-      .replace(/[·•]/g, " ")
-      .replace(/[()/]/g, " ")
+      .replace(/[^\p{L}\p{N}]+/gu, " ")
+      .replace(/[^\p{L}\p{N}]+/gu, " ")
       .replace(/:/g, " "),
   ).toLowerCase();
 }
@@ -207,7 +207,7 @@ function parseTableRows(note: DomainNote, lookup: Map<string, DomainNote>): LabI
 
 function parseInlineRange(text: string) {
   const compact = cleanText(text);
-  const match = compact.match(/([<>]?\s*[\d.]+(?:\s*\/\s*[\d.]+)?(?:\s*-\s*[\d.]+(?:\s*\/\s*[\d.]+)?)?)\s*([A-Za-z%/^.0-9µμmEqL\- ]+)?$/);
+  const match = compact.match(/([<>]?\s*[\d.]+(?:\s*\/\s*[\d.]+)?(?:\s*-\s*[\d.]+(?:\s*\/\s*[\d.]+)?)?)\s*([A-Za-z%/^.0-9쨉關mEqL\- ]+)?$/);
   if (!match) return null;
 
   const rawRange = normalizeSpace(match[1]);
@@ -229,7 +229,7 @@ function parseInlineRange(text: string) {
 function parseRangesFromNormalSection(note: DomainNote): LabImgRangeRow[] {
   const rangeSection = note.sections.find((section) => {
     const title = cleanText(section.title).toLowerCase();
-    return title.includes("normal") || title.includes("정상");
+    return title.includes("normal") || title.includes("?뺤긽");
   });
   if (!rangeSection) return [];
 
@@ -281,8 +281,8 @@ function dedupeRows(rows: LabImgRangeRow[]) {
 }
 
 function isBloodOverviewNote(note: DomainNote) {
-  const title = cleanText(note.title);
-  return title === "혈액검사" || note.sourcePath.endsWith("/01 혈액검사/혈액검사.md") || note.relativePath.endsWith("01 혈액검사/혈액검사.md");
+  const key = normalizeKey(`${note.title} ${note.sourcePath} ${note.relativePath}`);
+  return key.includes("blood") || key.includes("cbc") || key.includes("hematology");
 }
 
 function isCbcOverviewNote(note: DomainNote) {
@@ -397,3 +397,5 @@ export function buildLabImgOverviewGroups(note: DomainNote, allNotes: DomainNote
 
   return groupRowsForSingleOverview(note, lookup, allNotes);
 }
+
+

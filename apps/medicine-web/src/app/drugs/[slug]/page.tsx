@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+﻿import { notFound } from "next/navigation";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { getDrugBySlug, getDrugs } from "@/lib/webdb";
 
@@ -7,9 +7,9 @@ export function generateStaticParams() {
 }
 
 function getPriorityLabel(priority: string | undefined) {
-  if (priority === "tier_1") return "최우선";
-  if (priority === "tier_2") return "중요";
-  if (priority === "general") return "일반";
+  if (priority === "tier_1") return "Core";
+  if (priority === "tier_2") return "Important";
+  if (priority === "general") return "General";
   return "";
 }
 
@@ -19,9 +19,10 @@ function dedupeSummaryLines(lines: string[], meta: NonNullable<ReturnType<typeof
   const categoryPath = meta?.categoryPath?.trim() ?? "";
 
   return lines.filter((line) => {
-    const normalized = line.replace(/^\s*[•-]\s*/, "").trim();
+    const normalized = line.replace(/^\s*[-*]\s*/, "").trim();
+    const lower = normalized.toLowerCase();
 
-    if (/^(계통|대표 상품명|대표 용량|용량|세부 분류)\s*:/.test(normalized)) {
+    if (/^(brand|brands|dose|doses|category|class|classification)\s*:/.test(lower)) {
       return false;
     }
 
@@ -40,7 +41,6 @@ function dedupeSummaryLines(lines: string[], meta: NonNullable<ReturnType<typeof
     return true;
   });
 }
-
 export default async function DrugDetailPage(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params;
   const note = getDrugBySlug(params.slug);
@@ -69,7 +69,7 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
             <span className="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-600">{note.drugMeta.detailClass}</span>
           ) : null}
           {note.drugMeta?.clinicalCore ? (
-            <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-medium text-amber-800">핵심 약물</span>
+            <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-medium text-amber-800">Clinical core</span>
           ) : null}
           {priorityLabel ? <span className="rounded-full bg-sky-100 px-3 py-1 text-xs font-medium text-sky-800">{priorityLabel}</span> : null}
         </div>
@@ -126,3 +126,5 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
     </div>
   );
 }
+
+

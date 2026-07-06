@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 import type { TermLink } from "@/lib/webdb";
 
@@ -8,8 +8,7 @@ type ParsedBlock =
   | { type: "line"; line: string }
   | { type: "group"; label: string; items: string[] };
 
-const EMPHASIS_LABEL_PATTERN =
-  /^(임상 정보|용법\/용량|적응증|금기증|부작용|이상반응|주의사항|주의|상호작용|모니터링|기전|약동학|투여|복약지도|신장 조절|간 조절)$/;
+const BULLET_PATTERN = /^(?:[-*]|[0-9]+\.)\s+/;
 
 function stripWikiMarkup(text: string) {
   return text.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2").replace(/\[\[([^\]]+)\]\]/g, "$1");
@@ -29,11 +28,11 @@ function escapeRegex(value: string) {
 }
 
 function isBulletLine(text: string) {
-  return /^(?:•|-|\?\?)\s+/.test(text.trim());
+  return BULLET_PATTERN.test(text.trim());
 }
 
 function stripBulletPrefix(text: string) {
-  return text.trim().replace(/^(?:•|-|\?\?)\s+/, "");
+  return text.trim().replace(BULLET_PATTERN, "");
 }
 
 function isSpecialLine(text: string) {
@@ -50,12 +49,13 @@ function normalizeLabelText(text: string) {
 }
 
 function isEmphasisLabelLine(text: string) {
-  return EMPHASIS_LABEL_PATTERN.test(normalizeLabelText(text));
+  const normalized = normalizeLabelText(text);
+  return normalized.length > 0 && normalized.length <= 32 && /[:：]\s*$/.test(normalizeInline(text).trim());
 }
 
 function getLabelOnly(body: string) {
   const plain = plainText(body);
-  const match = plain.match(/^([^:]{1,32}):\s*$/);
+  const match = plain.match(/^([^:：]{1,32})[:：]\s*$/);
   return match ? match[1] : null;
 }
 
@@ -214,7 +214,7 @@ function renderInline(text: string, termLinks: TermLink[], wikiLinks: TermLink[]
 
 function splitLeadLabel(text: string) {
   const normalized = normalizeInline(text).trim();
-  const match = normalized.match(/^([^:]{1,24}):\s+(.+)$/);
+  const match = normalized.match(/^([^:：]{1,24})[:：]\s+(.+)$/);
 
   if (!match) {
     return null;
@@ -309,7 +309,7 @@ function renderGroup(label: string, items: string[], termLinks: TermLink[], wiki
   return (
     <div className="space-y-2 rounded-2xl bg-white/45 px-3 py-2">
       <div className="text-[15px] font-semibold leading-7 text-stone-900">
-        {renderInline(label.replace(/:\s*$/, ""), termLinks, wikiLinks)}
+        {renderInline(label.replace(/[:：]\s*$/, ""), termLinks, wikiLinks)}
       </div>
       <div className="space-y-2 border-l border-stone-200 pl-4">
         {items.map((item, index) => (

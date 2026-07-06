@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { getSpecialties } from "@/lib/webdb";
 
 type SpecialtyGroup = {
@@ -13,7 +13,7 @@ export default function SpecialtiesPage() {
 
   const groups: SpecialtyGroup[] = [
     {
-      title: "내과",
+      title: "Internal medicine",
       description: "01-10",
       items: specialties.filter((specialty) => {
         const index = parseIndex(specialty.name);
@@ -21,7 +21,7 @@ export default function SpecialtiesPage() {
       }),
     },
     {
-      title: "외산소",
+      title: "Core specialties",
       description: "11-14",
       items: specialties.filter((specialty) => {
         const index = parseIndex(specialty.name);
@@ -29,7 +29,7 @@ export default function SpecialtiesPage() {
       }),
     },
     {
-      title: "마이너",
+      title: "Other specialties",
       description: "15+",
       items: specialties.filter((specialty) => {
         const index = parseIndex(specialty.name);

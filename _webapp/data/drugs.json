@@ -3,7 +3,7 @@
     "id": "drug:간담췌/Entecavir.md",
     "slug": "ZHJ1ZzrqsITri7Tst4wvRW50ZWNhdmlyLm1k",
     "title": "Entecavir",
-    "sourcePath": "vault_medicine/04 Pharmacology/간담췌/Entecavir.md",
+    "sourcePath": "source_notes/04 Pharmacology/간담췌/Entecavir.md",
     "folder": "간담췌",
     "aliases": [
       "entecavir",
@@ -85,7 +85,7 @@
     "id": "drug:간담췌/Lamivudine.md",
     "slug": "ZHJ1ZzrqsITri7Tst4wvTGFtaXZ1ZGluZS5tZA",
     "title": "Lamivudine",
-    "sourcePath": "vault_medicine/04 Pharmacology/간담췌/Lamivudine.md",
+    "sourcePath": "source_notes/04 Pharmacology/간담췌/Lamivudine.md",
     "folder": "간담췌",
     "aliases": [
       "lamivudine",
@@ -160,7 +160,7 @@
     "id": "drug:간담췌/LedipasvirSofosbuvir.md",
     "slug": "ZHJ1ZzrqsITri7Tst4wvTGVkaXBhc3ZpclNvZm9zYnV2aXIubWQ",
     "title": "LedipasvirSofosbuvir",
-    "sourcePath": "vault_medicine/04 Pharmacology/간담췌/LedipasvirSofosbuvir.md",
+    "sourcePath": "source_notes/04 Pharmacology/간담췌/LedipasvirSofosbuvir.md",
     "folder": "간담췌",
     "aliases": [
       "ledipasvir sofosbuvir",
@@ -247,7 +247,7 @@
     "id": "drug:간담췌/Sofosbuvir.md",
     "slug": "ZHJ1ZzrqsITri7Tst4wvU29mb3NidXZpci5tZA",
     "title": "Sofosbuvir",
-    "sourcePath": "vault_medicine/04 Pharmacology/간담췌/Sofosbuvir.md",
+    "sourcePath": "source_notes/04 Pharmacology/간담췌/Sofosbuvir.md",
     "folder": "간담췌",
     "aliases": [
       "sofosbuvir",
@@ -335,7 +335,7 @@
     "id": "drug:간담췌/TenofovirDisoproxil.md",
     "slug": "ZHJ1ZzrqsITri7Tst4wvVGVub2ZvdmlyRGlzb3Byb3hpbC5tZA",
     "title": "TenofovirDisoproxil",
-    "sourcePath": "vault_medicine/04 Pharmacology/간담췌/TenofovirDisoproxil.md",
+    "sourcePath": "source_notes/04 Pharmacology/간담췌/TenofovirDisoproxil.md",
     "folder": "간담췌",
     "aliases": [
       "tenofovir disoproxil",
@@ -412,7 +412,7 @@
     "id": "drug:간담췌/UrsodeoxycholicAcid.md",
     "slug": "ZHJ1ZzrqsITri7Tst4wvVXJzb2Rlb3h5Y2hvbGljQWNpZC5tZA",
     "title": "UrsodeoxycholicAcid",
-    "sourcePath": "vault_medicine/04 Pharmacology/간담췌/UrsodeoxycholicAcid.md",
+    "sourcePath": "source_notes/04 Pharmacology/간담췌/UrsodeoxycholicAcid.md",
     "folder": "간담췌",
     "aliases": [
       "ursodeoxycholic acid",
@@ -508,7 +508,7 @@
     "id": "drug:감염/Acyclovir.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQWN5Y2xvdmlyLm1k",
     "title": "Acyclovir",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Acyclovir.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Acyclovir.md",
     "folder": "감염",
     "aliases": [
       "acyclovir",
@@ -591,7 +591,7 @@
     "id": "drug:감염/Albendazole.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQWxiZW5kYXpvbGUubWQ",
     "title": "Albendazole",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Albendazole.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Albendazole.md",
     "folder": "감염",
     "aliases": [
       "albendazole",
@@ -686,7 +686,7 @@
     "id": "drug:감염/Amikacin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQW1pa2FjaW4ubWQ",
     "title": "Amikacin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Amikacin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Amikacin.md",
     "folder": "감염",
     "aliases": [
       "amikacin",
@@ -775,7 +775,7 @@
     "id": "drug:감염/Amoxicillin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQW1veGljaWxsaW4ubWQ",
     "title": "Amoxicillin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Amoxicillin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Amoxicillin.md",
     "folder": "감염",
     "aliases": [
       "amoxicillin",
@@ -864,7 +864,7 @@
     "id": "drug:감염/AmoxicillinClavulanate.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQW1veGljaWxsaW5DbGF2dWxhbmF0ZS5tZA",
     "title": "AmoxicillinClavulanate",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/AmoxicillinClavulanate.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/AmoxicillinClavulanate.md",
     "folder": "감염",
     "aliases": [
       "amoxicillin clavulanate",
@@ -963,7 +963,7 @@
     "id": "drug:감염/AmphotericinB.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQW1waG90ZXJpY2luQi5tZA",
     "title": "AmphotericinB",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/AmphotericinB.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/AmphotericinB.md",
     "folder": "감염",
     "aliases": [
       "amphotericin B",
@@ -1060,7 +1060,7 @@
     "id": "drug:감염/Ampicillin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQW1waWNpbGxpbi5tZA",
     "title": "Ampicillin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Ampicillin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Ampicillin.md",
     "folder": "감염",
     "aliases": [
       "ampicillin",
@@ -1142,7 +1142,7 @@
     "id": "drug:감염/AmpicillinSulbactam.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQW1waWNpbGxpblN1bGJhY3RhbS5tZA",
     "title": "AmpicillinSulbactam",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/AmpicillinSulbactam.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/AmpicillinSulbactam.md",
     "folder": "감염",
     "aliases": [
       "ampicillin sulbactam",
@@ -1233,7 +1233,7 @@
     "id": "drug:감염/Anidulafungin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQW5pZHVsYWZ1bmdpbi5tZA",
     "title": "Anidulafungin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Anidulafungin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Anidulafungin.md",
     "folder": "감염",
     "aliases": [
       "anidulafungin",
@@ -1321,7 +1321,7 @@
     "id": "drug:감염/ArtemetherLumefantrine.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQXJ0ZW1ldGhlckx1bWVmYW50cmluZS5tZA",
     "title": "ArtemetherLumefantrine",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/ArtemetherLumefantrine.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/ArtemetherLumefantrine.md",
     "folder": "감염",
     "aliases": [
       "artemether lumefantrine",
@@ -1407,7 +1407,7 @@
     "id": "drug:감염/Azithromycin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQXppdGhyb215Y2luLm1k",
     "title": "Azithromycin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Azithromycin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Azithromycin.md",
     "folder": "감염",
     "aliases": [
       "azithromycin",
@@ -1497,7 +1497,7 @@
     "id": "drug:감염/Aztreonam.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQXp0cmVvbmFtLm1k",
     "title": "Aztreonam",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Aztreonam.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Aztreonam.md",
     "folder": "감염",
     "aliases": [
       "aztreonam",
@@ -1584,7 +1584,7 @@
     "id": "drug:감염/Benzylpenicillin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQmVuenlscGVuaWNpbGxpbi5tZA",
     "title": "Benzylpenicillin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Benzylpenicillin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Benzylpenicillin.md",
     "folder": "감염",
     "aliases": [
       "benzylpenicillin",
@@ -1679,7 +1679,7 @@
     "id": "drug:감염/Caspofungin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2FzcG9mdW5naW4ubWQ",
     "title": "Caspofungin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Caspofungin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Caspofungin.md",
     "folder": "감염",
     "aliases": [
       "caspofungin",
@@ -1772,7 +1772,7 @@
     "id": "drug:감염/Cefazolin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2VmYXpvbGluLm1k",
     "title": "Cefazolin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Cefazolin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Cefazolin.md",
     "folder": "감염",
     "aliases": [
       "cefazolin",
@@ -1864,7 +1864,7 @@
     "id": "drug:감염/Cefepime.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2VmZXBpbWUubWQ",
     "title": "Cefepime",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Cefepime.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Cefepime.md",
     "folder": "감염",
     "aliases": [
       "cefepime",
@@ -1948,7 +1948,7 @@
     "id": "drug:감염/Cefiderocol.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2VmaWRlcm9jb2wubWQ",
     "title": "Cefiderocol",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Cefiderocol.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Cefiderocol.md",
     "folder": "감염",
     "aliases": [
       "cefiderocol",
@@ -2032,7 +2032,7 @@
     "id": "drug:감염/Cefotaxime.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2Vmb3RheGltZS5tZA",
     "title": "Cefotaxime",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Cefotaxime.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Cefotaxime.md",
     "folder": "감염",
     "aliases": [
       "cefotaxime",
@@ -2124,7 +2124,7 @@
     "id": "drug:감염/Ceftazidime.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2VmdGF6aWRpbWUubWQ",
     "title": "Ceftazidime",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Ceftazidime.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Ceftazidime.md",
     "folder": "감염",
     "aliases": [
       "ceftazidime",
@@ -2216,7 +2216,7 @@
     "id": "drug:감염/Ceftriaxone.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2VmdHJpYXhvbmUubWQ",
     "title": "Ceftriaxone",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Ceftriaxone.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Ceftriaxone.md",
     "folder": "감염",
     "aliases": [
       "ceftriaxone",
@@ -2321,7 +2321,7 @@
     "id": "drug:감염/Cefuroxime.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2VmdXJveGltZS5tZA",
     "title": "Cefuroxime",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Cefuroxime.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Cefuroxime.md",
     "folder": "감염",
     "aliases": [
       "cefuroxime",
@@ -2414,7 +2414,7 @@
     "id": "drug:감염/Cephalexin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2VwaGFsZXhpbi5tZA",
     "title": "Cephalexin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Cephalexin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Cephalexin.md",
     "folder": "감염",
     "aliases": [
       "cephalexin",
@@ -2505,7 +2505,7 @@
     "id": "drug:감염/Chloroquine.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2hsb3JvcXVpbmUubWQ",
     "title": "Chloroquine",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Chloroquine.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Chloroquine.md",
     "folder": "감염",
     "aliases": [
       "chloroquine",
@@ -2585,7 +2585,7 @@
     "id": "drug:감염/Ciprofloxacin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA",
     "title": "Ciprofloxacin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Ciprofloxacin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Ciprofloxacin.md",
     "folder": "감염",
     "aliases": [
       "ciprofloxacin",
@@ -2672,7 +2672,7 @@
     "id": "drug:감염/Clarithromycin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2xhcml0aHJvbXljaW4ubWQ",
     "title": "Clarithromycin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Clarithromycin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Clarithromycin.md",
     "folder": "감염",
     "aliases": [
       "clarithromycin",
@@ -2772,7 +2772,7 @@
     "id": "drug:감염/Clindamycin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQ2xpbmRhbXljaW4ubWQ",
     "title": "Clindamycin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Clindamycin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Clindamycin.md",
     "folder": "감염",
     "aliases": [
       "clindamycin",
@@ -2856,7 +2856,7 @@
     "id": "drug:감염/Colistin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvQ29saXN0aW4ubWQ",
     "title": "Colistin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Colistin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Colistin.md",
     "folder": "감염",
     "aliases": [
       "colistin",
@@ -2943,7 +2943,7 @@
     "id": "drug:감염/Daptomycin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvRGFwdG9teWNpbi5tZA",
     "title": "Daptomycin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Daptomycin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Daptomycin.md",
     "folder": "감염",
     "aliases": [
       "daptomycin",
@@ -3033,7 +3033,7 @@
     "id": "drug:감염/Doxycycline.md",
     "slug": "ZHJ1ZzrqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
     "title": "Doxycycline",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Doxycycline.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Doxycycline.md",
     "folder": "감염",
     "aliases": [
       "doxycycline",
@@ -3127,7 +3127,7 @@
     "id": "drug:감염/Ertapenem.md",
     "slug": "ZHJ1ZzrqsJDsl7wvRXJ0YXBlbmVtLm1k",
     "title": "Ertapenem",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Ertapenem.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Ertapenem.md",
     "folder": "감염",
     "aliases": [
       "ertapenem",
@@ -3209,7 +3209,7 @@
     "id": "drug:감염/Erythromycin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvRXJ5dGhyb215Y2luLm1k",
     "title": "Erythromycin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Erythromycin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Erythromycin.md",
     "folder": "감염",
     "aliases": [
       "erythromycin",
@@ -3293,7 +3293,7 @@
     "id": "drug:감염/Ethambutol.md",
     "slug": "ZHJ1ZzrqsJDsl7wvRXRoYW1idXRvbC5tZA",
     "title": "Ethambutol",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Ethambutol.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Ethambutol.md",
     "folder": "감염",
     "aliases": [
       "ethambutol",
@@ -3380,7 +3380,7 @@
     "id": "drug:감염/Fidaxomicin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvRmlkYXhvbWljaW4ubWQ",
     "title": "Fidaxomicin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Fidaxomicin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Fidaxomicin.md",
     "folder": "감염",
     "aliases": [
       "fidaxomicin",
@@ -3463,7 +3463,7 @@
     "id": "drug:감염/Flucloxacillin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvRmx1Y2xveGFjaWxsaW4ubWQ",
     "title": "Flucloxacillin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Flucloxacillin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Flucloxacillin.md",
     "folder": "감염",
     "aliases": [
       "flucloxacillin",
@@ -3556,7 +3556,7 @@
     "id": "drug:감염/Fluconazole.md",
     "slug": "ZHJ1ZzrqsJDsl7wvRmx1Y29uYXpvbGUubWQ",
     "title": "Fluconazole",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Fluconazole.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Fluconazole.md",
     "folder": "감염",
     "aliases": [
       "fluconazole",
@@ -3650,7 +3650,7 @@
     "id": "drug:감염/Fosfomycin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvRm9zZm9teWNpbi5tZA",
     "title": "Fosfomycin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Fosfomycin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Fosfomycin.md",
     "folder": "감염",
     "aliases": [
       "fosfomycin",
@@ -3734,7 +3734,7 @@
     "id": "drug:감염/Ganciclovir.md",
     "slug": "ZHJ1ZzrqsJDsl7wvR2FuY2ljbG92aXIubWQ",
     "title": "Ganciclovir",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Ganciclovir.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Ganciclovir.md",
     "folder": "감염",
     "aliases": [
       "ganciclovir",
@@ -3826,7 +3826,7 @@
     "id": "drug:감염/Gentamicin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvR2VudGFtaWNpbi5tZA",
     "title": "Gentamicin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Gentamicin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Gentamicin.md",
     "folder": "감염",
     "aliases": [
       "gentamicin",
@@ -3913,7 +3913,7 @@
     "id": "drug:감염/ImipenemCilastatin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvSW1pcGVuZW1DaWxhc3RhdGluLm1k",
     "title": "ImipenemCilastatin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/ImipenemCilastatin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/ImipenemCilastatin.md",
     "folder": "감염",
     "aliases": [
       "imipenem cilastatin",
@@ -4009,7 +4009,7 @@
     "id": "drug:감염/Isoniazid.md",
     "slug": "ZHJ1ZzrqsJDsl7wvSXNvbmlhemlkLm1k",
     "title": "Isoniazid",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Isoniazid.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Isoniazid.md",
     "folder": "감염",
     "aliases": [
       "isoniazid",
@@ -4094,7 +4094,7 @@
     "id": "drug:감염/Ivermectin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvSXZlcm1lY3Rpbi5tZA",
     "title": "Ivermectin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Ivermectin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Ivermectin.md",
     "folder": "감염",
     "aliases": [
       "ivermectin",
@@ -4177,7 +4177,7 @@
     "id": "drug:감염/Levofloxacin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvTGV2b2Zsb3hhY2luLm1k",
     "title": "Levofloxacin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Levofloxacin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Levofloxacin.md",
     "folder": "감염",
     "aliases": [
       "levofloxacin",
@@ -4260,7 +4260,7 @@
     "id": "drug:감염/Linezolid.md",
     "slug": "ZHJ1ZzrqsJDsl7wvTGluZXpvbGlkLm1k",
     "title": "Linezolid",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Linezolid.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Linezolid.md",
     "folder": "감염",
     "aliases": [
       "linezolid",
@@ -4348,7 +4348,7 @@
     "id": "drug:감염/Meropenem.md",
     "slug": "ZHJ1ZzrqsJDsl7wvTWVyb3BlbmVtLm1k",
     "title": "Meropenem",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Meropenem.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Meropenem.md",
     "folder": "감염",
     "aliases": [
       "meropenem",
@@ -4432,7 +4432,7 @@
     "id": "drug:감염/Metronidazole.md",
     "slug": "ZHJ1ZzrqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA",
     "title": "Metronidazole",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Metronidazole.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Metronidazole.md",
     "folder": "감염",
     "aliases": [
       "metronidazole",
@@ -4530,7 +4530,7 @@
     "id": "drug:감염/Micafungin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvTWljYWZ1bmdpbi5tZA",
     "title": "Micafungin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Micafungin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Micafungin.md",
     "folder": "감염",
     "aliases": [
       "micafungin",
@@ -4618,7 +4618,7 @@
     "id": "drug:감염/Minocycline.md",
     "slug": "ZHJ1ZzrqsJDsl7wvTWlub2N5Y2xpbmUubWQ",
     "title": "Minocycline",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Minocycline.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Minocycline.md",
     "folder": "감염",
     "aliases": [
       "minocycline",
@@ -4708,7 +4708,7 @@
     "id": "drug:감염/Moxifloxacin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvTW94aWZsb3hhY2luLm1k",
     "title": "Moxifloxacin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Moxifloxacin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Moxifloxacin.md",
     "folder": "감염",
     "aliases": [
       "moxifloxacin",
@@ -4799,7 +4799,7 @@
     "id": "drug:감염/Nafcillin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvTmFmY2lsbGluLm1k",
     "title": "Nafcillin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Nafcillin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Nafcillin.md",
     "folder": "감염",
     "aliases": [
       "nafcillin",
@@ -4881,7 +4881,7 @@
     "id": "drug:감염/Nitrofurantoin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvTml0cm9mdXJhbnRvaW4ubWQ",
     "title": "Nitrofurantoin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Nitrofurantoin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Nitrofurantoin.md",
     "folder": "감염",
     "aliases": [
       "nitrofurantoin",
@@ -4965,7 +4965,7 @@
     "id": "drug:감염/Oseltamivir.md",
     "slug": "ZHJ1ZzrqsJDsl7wvT3NlbHRhbWl2aXIubWQ",
     "title": "Oseltamivir",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Oseltamivir.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Oseltamivir.md",
     "folder": "감염",
     "aliases": [
       "oseltamivir",
@@ -5048,7 +5048,7 @@
     "id": "drug:감염/Oxacillin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvT3hhY2lsbGluLm1k",
     "title": "Oxacillin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Oxacillin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Oxacillin.md",
     "folder": "감염",
     "aliases": [
       "oxacillin",
@@ -5130,7 +5130,7 @@
     "id": "drug:감염/PiperacillinTazobactam.md",
     "slug": "ZHJ1ZzrqsJDsl7wvUGlwZXJhY2lsbGluVGF6b2JhY3RhbS5tZA",
     "title": "PiperacillinTazobactam",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/PiperacillinTazobactam.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/PiperacillinTazobactam.md",
     "folder": "감염",
     "aliases": [
       "piperacillin tazobactam",
@@ -5234,7 +5234,7 @@
     "id": "drug:감염/PolymyxinB.md",
     "slug": "ZHJ1ZzrqsJDsl7wvUG9seW15eGluQi5tZA",
     "title": "PolymyxinB",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/PolymyxinB.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/PolymyxinB.md",
     "folder": "감염",
     "aliases": [
       "polymyxin b",
@@ -5318,7 +5318,7 @@
     "id": "drug:감염/Posaconazole.md",
     "slug": "ZHJ1ZzrqsJDsl7wvUG9zYWNvbmF6b2xlLm1k",
     "title": "Posaconazole",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Posaconazole.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Posaconazole.md",
     "folder": "감염",
     "aliases": [
       "posaconazole",
@@ -5402,7 +5402,7 @@
     "id": "drug:감염/Praziquantel.md",
     "slug": "ZHJ1ZzrqsJDsl7wvUHJhemlxdWFudGVsLm1k",
     "title": "Praziquantel",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Praziquantel.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Praziquantel.md",
     "folder": "감염",
     "aliases": [
       "praziquantel",
@@ -5491,7 +5491,7 @@
     "id": "drug:감염/Pyrazinamide.md",
     "slug": "ZHJ1ZzrqsJDsl7wvUHlyYXppbmFtaWRlLm1k",
     "title": "Pyrazinamide",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Pyrazinamide.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Pyrazinamide.md",
     "folder": "감염",
     "aliases": [
       "pyrazinamide",
@@ -5578,7 +5578,7 @@
     "id": "drug:감염/Rifampin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvUmlmYW1waW4ubWQ",
     "title": "Rifampin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Rifampin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Rifampin.md",
     "folder": "감염",
     "aliases": [
       "rifampin",
@@ -5656,7 +5656,7 @@
     "id": "drug:감염/Ritonavir.md",
     "slug": "ZHJ1ZzrqsJDsl7wvUml0b25hdmlyLm1k",
     "title": "Ritonavir",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Ritonavir.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Ritonavir.md",
     "folder": "감염",
     "aliases": [
       "ritonavir",
@@ -5735,7 +5735,7 @@
     "id": "drug:감염/Sulfamethoxazole.md",
     "slug": "ZHJ1ZzrqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA",
     "title": "Sulfamethoxazole",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Sulfamethoxazole.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Sulfamethoxazole.md",
     "folder": "감염",
     "aliases": [
       "sulfamethoxazole",
@@ -5827,7 +5827,7 @@
     "id": "drug:감염/TenofovirAlafenamide.md",
     "slug": "ZHJ1ZzrqsJDsl7wvVGVub2ZvdmlyQWxhZmVuYW1pZGUubWQ",
     "title": "TenofovirAlafenamide",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/TenofovirAlafenamide.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/TenofovirAlafenamide.md",
     "folder": "감염",
     "aliases": [
       "tenofovir alafenamide",
@@ -5918,7 +5918,7 @@
     "id": "drug:감염/Terbinafine.md",
     "slug": "ZHJ1ZzrqsJDsl7wvVGVyYmluYWZpbmUubWQ",
     "title": "Terbinafine",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Terbinafine.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Terbinafine.md",
     "folder": "감염",
     "aliases": [
       "terbinafine",
@@ -5998,7 +5998,7 @@
     "id": "drug:감염/Tigecycline.md",
     "slug": "ZHJ1ZzrqsJDsl7wvVGlnZWN5Y2xpbmUubWQ",
     "title": "Tigecycline",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Tigecycline.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Tigecycline.md",
     "folder": "감염",
     "aliases": [
       "tigecycline",
@@ -6087,7 +6087,7 @@
     "id": "drug:감염/Trimethoprim.md",
     "slug": "ZHJ1ZzrqsJDsl7wvVHJpbWV0aG9wcmltLm1k",
     "title": "Trimethoprim",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Trimethoprim.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Trimethoprim.md",
     "folder": "감염",
     "aliases": [
       "trimethoprim",
@@ -6171,7 +6171,7 @@
     "id": "drug:감염/TrimethoprimSulfamethoxazole.md",
     "slug": "ZHJ1ZzrqsJDsl7wvVHJpbWV0aG9wcmltU3VsZmFtZXRob3hhem9sZS5tZA",
     "title": "TrimethoprimSulfamethoxazole",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/TrimethoprimSulfamethoxazole.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/TrimethoprimSulfamethoxazole.md",
     "folder": "감염",
     "aliases": [
       "trimethoprim sulfamethoxazole",
@@ -6263,7 +6263,7 @@
     "id": "drug:감염/Valacyclovir.md",
     "slug": "ZHJ1ZzrqsJDsl7wvVmFsYWN5Y2xvdmlyLm1k",
     "title": "Valacyclovir",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Valacyclovir.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Valacyclovir.md",
     "folder": "감염",
     "aliases": [
       "valacyclovir",
@@ -6346,7 +6346,7 @@
     "id": "drug:감염/Valganciclovir.md",
     "slug": "ZHJ1ZzrqsJDsl7wvVmFsZ2FuY2ljbG92aXIubWQ",
     "title": "Valganciclovir",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Valganciclovir.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Valganciclovir.md",
     "folder": "감염",
     "aliases": [
       "valganciclovir",
@@ -6433,7 +6433,7 @@
     "id": "drug:감염/Vancomycin.md",
     "slug": "ZHJ1ZzrqsJDsl7wvVmFuY29teWNpbi5tZA",
     "title": "Vancomycin",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Vancomycin.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Vancomycin.md",
     "folder": "감염",
     "aliases": [
       "vancomycin",
@@ -6530,7 +6530,7 @@
     "id": "drug:감염/Voriconazole.md",
     "slug": "ZHJ1ZzrqsJDsl7wvVm9yaWNvbmF6b2xlLm1k",
     "title": "Voriconazole",
-    "sourcePath": "vault_medicine/04 Pharmacology/감염/Voriconazole.md",
+    "sourcePath": "source_notes/04 Pharmacology/감염/Voriconazole.md",
     "folder": "감염",
     "aliases": [
       "voriconazole",
@@ -6620,7 +6620,7 @@
     "id": "drug:근골격·통증·마취/Baclofen.md",
     "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0JhY2xvZmVuLm1k",
     "title": "Baclofen",
-    "sourcePath": "vault_medicine/04 Pharmacology/근골격·통증·마취/Baclofen.md",
+    "sourcePath": "source_notes/04 Pharmacology/근골격·통증·마취/Baclofen.md",
     "folder": "근골격·통증·마취",
     "aliases": [
       "baclofen",
@@ -6697,7 +6697,7 @@
     "id": "drug:근골격·통증·마취/Dexmedetomidine.md",
     "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0RleG1lZGV0b21pZGluZS5tZA",
     "title": "Dexmedetomidine",
-    "sourcePath": "vault_medicine/04 Pharmacology/근골격·통증·마취/Dexmedetomidine.md",
+    "sourcePath": "source_notes/04 Pharmacology/근골격·통증·마취/Dexmedetomidine.md",
     "folder": "근골격·통증·마취",
     "aliases": [
       "dexmedetomidine",
@@ -6775,7 +6775,7 @@
     "id": "drug:근골격·통증·마취/Ketamine.md",
     "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldGFtaW5lLm1k",
     "title": "Ketamine",
-    "sourcePath": "vault_medicine/04 Pharmacology/근골격·통증·마취/Ketamine.md",
+    "sourcePath": "source_notes/04 Pharmacology/근골격·통증·마취/Ketamine.md",
     "folder": "근골격·통증·마취",
     "aliases": [
       "ketamine",
@@ -6866,7 +6866,7 @@
     "id": "drug:근골격·통증·마취/Ketorolac.md",
     "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldG9yb2xhYy5tZA",
     "title": "Ketorolac",
-    "sourcePath": "vault_medicine/04 Pharmacology/근골격·통증·마취/Ketorolac.md",
+    "sourcePath": "source_notes/04 Pharmacology/근골격·통증·마취/Ketorolac.md",
     "folder": "근골격·통증·마취",
     "aliases": [
       "ketorolac",
@@ -6943,7 +6943,7 @@
     "id": "drug:근골격·통증·마취/Lidocaine.md",
     "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0xpZG9jYWluZS5tZA",
     "title": "Lidocaine",
-    "sourcePath": "vault_medicine/04 Pharmacology/근골격·통증·마취/Lidocaine.md",
+    "sourcePath": "source_notes/04 Pharmacology/근골격·통증·마취/Lidocaine.md",
     "folder": "근골격·통증·마취",
     "aliases": [
       "lidocaine",
@@ -7038,7 +7038,7 @@
     "id": "drug:근골격·통증·마취/Propofol.md",
     "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Byb3BvZm9sLm1k",
     "title": "Propofol",
-    "sourcePath": "vault_medicine/04 Pharmacology/근골격·통증·마취/Propofol.md",
+    "sourcePath": "source_notes/04 Pharmacology/근골격·통증·마취/Propofol.md",
     "folder": "근골격·통증·마취",
     "aliases": [
       "propofol",
@@ -7115,7 +7115,7 @@
     "id": "drug:근골격·통증·마취/Rocuronium.md",
     "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1JvY3Vyb25pdW0ubWQ",
     "title": "Rocuronium",
-    "sourcePath": "vault_medicine/04 Pharmacology/근골격·통증·마취/Rocuronium.md",
+    "sourcePath": "source_notes/04 Pharmacology/근골격·통증·마취/Rocuronium.md",
     "folder": "근골격·통증·마취",
     "aliases": [
       "rocuronium",
@@ -7200,7 +7200,7 @@
     "id": "drug:근골격·통증·마취/Sevoflurane.md",
     "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Nldm9mbHVyYW5lLm1k",
     "title": "Sevoflurane",
-    "sourcePath": "vault_medicine/04 Pharmacology/근골격·통증·마취/Sevoflurane.md",
+    "sourcePath": "source_notes/04 Pharmacology/근골격·통증·마취/Sevoflurane.md",
     "folder": "근골격·통증·마취",
     "aliases": [
       "sevoflurane",
@@ -7288,7 +7288,7 @@
     "id": "drug:내분비·대사/Acarbose.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9BY2FyYm9zZS5tZA",
     "title": "Acarbose",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Acarbose.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Acarbose.md",
     "folder": "내분비·대사",
     "aliases": [
       "acarbose",
@@ -7375,7 +7375,7 @@
     "id": "drug:내분비·대사/Alendronate.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9BbGVuZHJvbmF0ZS5tZA",
     "title": "Alendronate",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Alendronate.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Alendronate.md",
     "folder": "내분비·대사",
     "aliases": [
       "alendronate",
@@ -7467,7 +7467,7 @@
     "id": "drug:내분비·대사/Canagliflozin.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9DYW5hZ2xpZmxvemluLm1k",
     "title": "Canagliflozin",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Canagliflozin.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Canagliflozin.md",
     "folder": "내분비·대사",
     "aliases": [
       "canagliflozin",
@@ -7560,7 +7560,7 @@
     "id": "drug:내분비·대사/Dapagliflozin.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9EYXBhZ2xpZmxvemluLm1k",
     "title": "Dapagliflozin",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Dapagliflozin.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Dapagliflozin.md",
     "folder": "내분비·대사",
     "aliases": [
       "dapagliflozin",
@@ -7657,7 +7657,7 @@
     "id": "drug:내분비·대사/Dexamethasone.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k",
     "title": "Dexamethasone",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Dexamethasone.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Dexamethasone.md",
     "folder": "내분비·대사",
     "aliases": [
       "dexamethasone",
@@ -7738,7 +7738,7 @@
     "id": "drug:내분비·대사/Dulaglutide.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9EdWxhZ2x1dGlkZS5tZA",
     "title": "Dulaglutide",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Dulaglutide.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Dulaglutide.md",
     "folder": "내분비·대사",
     "aliases": [
       "dulaglutide",
@@ -7831,7 +7831,7 @@
     "id": "drug:내분비·대사/Empagliflozin.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9FbXBhZ2xpZmxvemluLm1k",
     "title": "Empagliflozin",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Empagliflozin.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Empagliflozin.md",
     "folder": "내분비·대사",
     "aliases": [
       "empagliflozin",
@@ -7934,7 +7934,7 @@
     "id": "drug:내분비·대사/Fludrocortisone.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9GbHVkcm9jb3J0aXNvbmUubWQ",
     "title": "Fludrocortisone",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Fludrocortisone.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Fludrocortisone.md",
     "folder": "내분비·대사",
     "aliases": [
       "fludrocortisone",
@@ -8026,7 +8026,7 @@
     "id": "drug:내분비·대사/Gliclazide.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9HbGljbGF6aWRlLm1k",
     "title": "Gliclazide",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Gliclazide.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Gliclazide.md",
     "folder": "내분비·대사",
     "aliases": [
       "gliclazide",
@@ -8113,7 +8113,7 @@
     "id": "drug:내분비·대사/Glimepiride.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9HbGltZXBpcmlkZS5tZA",
     "title": "Glimepiride",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Glimepiride.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Glimepiride.md",
     "folder": "내분비·대사",
     "aliases": [
       "glimepiride",
@@ -8202,7 +8202,7 @@
     "id": "drug:내분비·대사/Insulin.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluLm1k",
     "title": "Insulin",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Insulin.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Insulin.md",
     "folder": "내분비·대사",
     "aliases": [],
     "category": "내분비·대사",
@@ -8275,7 +8275,7 @@
     "id": "drug:내분비·대사/InsulinAspart.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluQXNwYXJ0Lm1k",
     "title": "InsulinAspart",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/InsulinAspart.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/InsulinAspart.md",
     "folder": "내분비·대사",
     "aliases": [
       "insulin aspart",
@@ -8361,7 +8361,7 @@
     "id": "drug:내분비·대사/InsulinDegludec.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluRGVnbHVkZWMubWQ",
     "title": "InsulinDegludec",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/InsulinDegludec.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/InsulinDegludec.md",
     "folder": "내분비·대사",
     "aliases": [
       "insulin degludec",
@@ -8456,7 +8456,7 @@
     "id": "drug:내분비·대사/InsulinGlargine.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluR2xhcmdpbmUubWQ",
     "title": "InsulinGlargine",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/InsulinGlargine.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/InsulinGlargine.md",
     "folder": "내분비·대사",
     "aliases": [
       "insulin glargine",
@@ -8550,7 +8550,7 @@
     "id": "drug:내분비·대사/InsulinLispro.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTGlzcHJvLm1k",
     "title": "InsulinLispro",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/InsulinLispro.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/InsulinLispro.md",
     "folder": "내분비·대사",
     "aliases": [
       "insulin lispro",
@@ -8636,7 +8636,7 @@
     "id": "drug:내분비·대사/InsulinNph.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTnBoLm1k",
     "title": "InsulinNph",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/InsulinNph.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/InsulinNph.md",
     "folder": "내분비·대사",
     "aliases": [
       "insulin nph",
@@ -8729,7 +8729,7 @@
     "id": "drug:내분비·대사/InsulinRegular.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluUmVndWxhci5tZA",
     "title": "InsulinRegular",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/InsulinRegular.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/InsulinRegular.md",
     "folder": "내분비·대사",
     "aliases": [
       "insulin regular",
@@ -8825,7 +8825,7 @@
     "id": "drug:내분비·대사/Levothyroxine.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k",
     "title": "Levothyroxine",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Levothyroxine.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Levothyroxine.md",
     "folder": "내분비·대사",
     "aliases": [
       "levothyroxine",
@@ -8914,7 +8914,7 @@
     "id": "drug:내분비·대사/Liraglutide.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9MaXJhZ2x1dGlkZS5tZA",
     "title": "Liraglutide",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Liraglutide.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Liraglutide.md",
     "folder": "내분비·대사",
     "aliases": [
       "liraglutide",
@@ -9004,7 +9004,7 @@
     "id": "drug:내분비·대사/Metformin.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ",
     "title": "Metformin",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Metformin.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Metformin.md",
     "folder": "내분비·대사",
     "aliases": [
       "metformin",
@@ -9101,7 +9101,7 @@
     "id": "drug:내분비·대사/Methimazole.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9NZXRoaW1hem9sZS5tZA",
     "title": "Methimazole",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Methimazole.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Methimazole.md",
     "folder": "내분비·대사",
     "aliases": [
       "methimazole",
@@ -9188,7 +9188,7 @@
     "id": "drug:내분비·대사/Orlistat.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9Pcmxpc3RhdC5tZA",
     "title": "Orlistat",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Orlistat.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Orlistat.md",
     "folder": "내분비·대사",
     "aliases": [
       "orlistat",
@@ -9277,7 +9277,7 @@
     "id": "drug:내분비·대사/Pioglitazone.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9QaW9nbGl0YXpvbmUubWQ",
     "title": "Pioglitazone",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Pioglitazone.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Pioglitazone.md",
     "folder": "내분비·대사",
     "aliases": [
       "pioglitazone",
@@ -9367,7 +9367,7 @@
     "id": "drug:내분비·대사/Prednisolone.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ",
     "title": "Prednisolone",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Prednisolone.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Prednisolone.md",
     "folder": "내분비·대사",
     "aliases": [
       "prednisolone",
@@ -9449,7 +9449,7 @@
     "id": "drug:내분비·대사/Propylthiouracil.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9Qcm9weWx0aGlvdXJhY2lsLm1k",
     "title": "Propylthiouracil",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Propylthiouracil.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Propylthiouracil.md",
     "folder": "내분비·대사",
     "aliases": [
       "propylthiouracil",
@@ -9535,7 +9535,7 @@
     "id": "drug:내분비·대사/Raloxifene.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9SYWxveGlmZW5lLm1k",
     "title": "Raloxifene",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Raloxifene.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Raloxifene.md",
     "folder": "내분비·대사",
     "aliases": [
       "raloxifene",
@@ -9622,7 +9622,7 @@
     "id": "drug:내분비·대사/Repaglinide.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9SZXBhZ2xpbmlkZS5tZA",
     "title": "Repaglinide",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Repaglinide.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Repaglinide.md",
     "folder": "내분비·대사",
     "aliases": [
       "repaglinide",
@@ -9715,7 +9715,7 @@
     "id": "drug:내분비·대사/Semaglutide.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9TZW1hZ2x1dGlkZS5tZA",
     "title": "Semaglutide",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Semaglutide.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Semaglutide.md",
     "folder": "내분비·대사",
     "aliases": [
       "semaglutide",
@@ -9814,7 +9814,7 @@
     "id": "drug:내분비·대사/Sitagliptin.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA",
     "title": "Sitagliptin",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Sitagliptin.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Sitagliptin.md",
     "folder": "내분비·대사",
     "aliases": [
       "sitagliptin",
@@ -9901,7 +9901,7 @@
     "id": "drug:내분비·대사/Testosterone.md",
     "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9UZXN0b3N0ZXJvbmUubWQ",
     "title": "Testosterone",
-    "sourcePath": "vault_medicine/04 Pharmacology/내분비·대사/Testosterone.md",
+    "sourcePath": "source_notes/04 Pharmacology/내분비·대사/Testosterone.md",
     "folder": "내분비·대사",
     "aliases": [
       "testosterone",
@@ -9978,7 +9978,7 @@
     "id": "drug:면역·염증·류마티스/Adalimumab.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FkYWxpbXVtYWIubWQ",
     "title": "Adalimumab",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Adalimumab.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Adalimumab.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "adalimumab",
@@ -10080,7 +10080,7 @@
     "id": "drug:면역·염증·류마티스/Allopurinol.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FsbG9wdXJpbm9sLm1k",
     "title": "Allopurinol",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Allopurinol.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Allopurinol.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "allopurinol",
@@ -10171,7 +10171,7 @@
     "id": "drug:면역·염증·류마티스/Baricitinib.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0JhcmljaXRpbmliLm1k",
     "title": "Baricitinib",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Baricitinib.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Baricitinib.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "baricitinib",
@@ -10250,7 +10250,7 @@
     "id": "drug:면역·염증·류마티스/Celecoxib.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NlbGVjb3hpYi5tZA",
     "title": "Celecoxib",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Celecoxib.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Celecoxib.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "celecoxib",
@@ -10349,7 +10349,7 @@
     "id": "drug:면역·염증·류마티스/CertolizumabPegol.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NlcnRvbGl6dW1hYlBlZ29sLm1k",
     "title": "CertolizumabPegol",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/CertolizumabPegol.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/CertolizumabPegol.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "certolizumab pegol",
@@ -10446,7 +10446,7 @@
     "id": "drug:면역·염증·류마티스/Colchicine.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NvbGNoaWNpbmUubWQ",
     "title": "Colchicine",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Colchicine.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Colchicine.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "colchicine",
@@ -10534,7 +10534,7 @@
     "id": "drug:면역·염증·류마티스/Etanercept.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0V0YW5lcmNlcHQubWQ",
     "title": "Etanercept",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Etanercept.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Etanercept.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "etanercept",
@@ -10620,7 +10620,7 @@
     "id": "drug:면역·염증·류마티스/Febuxostat.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0ZlYnV4b3N0YXQubWQ",
     "title": "Febuxostat",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Febuxostat.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Febuxostat.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "febuxostat",
@@ -10701,7 +10701,7 @@
     "id": "drug:면역·염증·류마티스/Golimumab.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0dvbGltdW1hYi5tZA",
     "title": "Golimumab",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Golimumab.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Golimumab.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "golimumab",
@@ -10803,7 +10803,7 @@
     "id": "drug:면역·염증·류마티스/Ibuprofen.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA",
     "title": "Ibuprofen",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Ibuprofen.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Ibuprofen.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "ibuprofen",
@@ -10897,7 +10897,7 @@
     "id": "drug:면역·염증·류마티스/Infliximab.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0luZmxpeGltYWIubWQ",
     "title": "Infliximab",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Infliximab.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Infliximab.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "infliximab",
@@ -10994,7 +10994,7 @@
     "id": "drug:면역·염증·류마티스/Leflunomide.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0xlZmx1bm9taWRlLm1k",
     "title": "Leflunomide",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Leflunomide.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Leflunomide.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "leflunomide",
@@ -11085,7 +11085,7 @@
     "id": "drug:면역·염증·류마티스/Methotrexate.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA",
     "title": "Methotrexate",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Methotrexate.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Methotrexate.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "methotrexate",
@@ -11184,7 +11184,7 @@
     "id": "drug:면역·염증·류마티스/Naproxen.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k",
     "title": "Naproxen",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Naproxen.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Naproxen.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "naproxen",
@@ -11278,7 +11278,7 @@
     "id": "drug:면역·염증·류마티스/Omalizumab.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL09tYWxpenVtYWIubWQ",
     "title": "Omalizumab",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Omalizumab.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Omalizumab.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "omalizumab",
@@ -11369,7 +11369,7 @@
     "id": "drug:면역·염증·류마티스/Rituximab.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1JpdHV4aW1hYi5tZA",
     "title": "Rituximab",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Rituximab.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Rituximab.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "rituximab",
@@ -11446,7 +11446,7 @@
     "id": "drug:면역·염증·류마티스/Sulfasalazine.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1N1bGZhc2FsYXppbmUubWQ",
     "title": "Sulfasalazine",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Sulfasalazine.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Sulfasalazine.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "sulfasalazine",
@@ -11526,7 +11526,7 @@
     "id": "drug:면역·염증·류마티스/Tocilizumab.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1RvY2lsaXp1bWFiLm1k",
     "title": "Tocilizumab",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Tocilizumab.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Tocilizumab.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "tocilizumab",
@@ -11617,7 +11617,7 @@
     "id": "drug:면역·염증·류마티스/Tofacitinib.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1RvZmFjaXRpbmliLm1k",
     "title": "Tofacitinib",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Tofacitinib.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Tofacitinib.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "tofacitinib",
@@ -11698,7 +11698,7 @@
     "id": "drug:면역·염증·류마티스/Upadacitinib.md",
     "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1VwYWRhY2l0aW5pYi5tZA",
     "title": "Upadacitinib",
-    "sourcePath": "vault_medicine/04 Pharmacology/면역·염증·류마티스/Upadacitinib.md",
+    "sourcePath": "source_notes/04 Pharmacology/면역·염증·류마티스/Upadacitinib.md",
     "folder": "면역·염증·류마티스",
     "aliases": [
       "upadacitinib",
@@ -11797,7 +11797,7 @@
     "id": "drug:비뇨·신장/Alfuzosin.md",
     "slug": "ZHJ1ZzrruYTrh6jCt-yLoOyepS9BbGZ1em9zaW4ubWQ",
     "title": "Alfuzosin",
-    "sourcePath": "vault_medicine/04 Pharmacology/비뇨·신장/Alfuzosin.md",
+    "sourcePath": "source_notes/04 Pharmacology/비뇨·신장/Alfuzosin.md",
     "folder": "비뇨·신장",
     "aliases": [
       "alfuzosin",
@@ -11885,7 +11885,7 @@
     "id": "drug:비뇨·신장/Dutasteride.md",
     "slug": "ZHJ1ZzrruYTrh6jCt-yLoOyepS9EdXRhc3RlcmlkZS5tZA",
     "title": "Dutasteride",
-    "sourcePath": "vault_medicine/04 Pharmacology/비뇨·신장/Dutasteride.md",
+    "sourcePath": "source_notes/04 Pharmacology/비뇨·신장/Dutasteride.md",
     "folder": "비뇨·신장",
     "aliases": [
       "dutasteride",
@@ -11974,7 +11974,7 @@
     "id": "drug:비뇨·신장/Finasteride.md",
     "slug": "ZHJ1ZzrruYTrh6jCt-yLoOyepS9GaW5hc3RlcmlkZS5tZA",
     "title": "Finasteride",
-    "sourcePath": "vault_medicine/04 Pharmacology/비뇨·신장/Finasteride.md",
+    "sourcePath": "source_notes/04 Pharmacology/비뇨·신장/Finasteride.md",
     "folder": "비뇨·신장",
     "aliases": [
       "finasteride",
@@ -12063,7 +12063,7 @@
     "id": "drug:비뇨·신장/Tamsulosin.md",
     "slug": "ZHJ1ZzrruYTrh6jCt-yLoOyepS9UYW1zdWxvc2luLm1k",
     "title": "Tamsulosin",
-    "sourcePath": "vault_medicine/04 Pharmacology/비뇨·신장/Tamsulosin.md",
+    "sourcePath": "source_notes/04 Pharmacology/비뇨·신장/Tamsulosin.md",
     "folder": "비뇨·신장",
     "aliases": [
       "tamsulosin",
@@ -12153,7 +12153,7 @@
     "id": "drug:산부인과·소아/Ethinylestradiol.md",
     "slug": "ZHJ1ZzrsgrDrtoDsnbjqs7zCt-yGjOyVhC9FdGhpbnlsZXN0cmFkaW9sLm1k",
     "title": "Ethinylestradiol",
-    "sourcePath": "vault_medicine/04 Pharmacology/산부인과·소아/Ethinylestradiol.md",
+    "sourcePath": "source_notes/04 Pharmacology/산부인과·소아/Ethinylestradiol.md",
     "folder": "산부인과·소아",
     "aliases": [
       "ethinylestradiol",
@@ -12240,7 +12240,7 @@
     "id": "drug:산부인과·소아/Oxytocin.md",
     "slug": "ZHJ1ZzrsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA",
     "title": "Oxytocin",
-    "sourcePath": "vault_medicine/04 Pharmacology/산부인과·소아/Oxytocin.md",
+    "sourcePath": "source_notes/04 Pharmacology/산부인과·소아/Oxytocin.md",
     "folder": "산부인과·소아",
     "aliases": [
       "oxytocin",
@@ -12315,7 +12315,7 @@
     "id": "drug:소화기/Bisacodyl.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvQmlzYWNvZHlsLm1k",
     "title": "Bisacodyl",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Bisacodyl.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Bisacodyl.md",
     "folder": "소화기",
     "aliases": [
       "bisacodyl",
@@ -12403,7 +12403,7 @@
     "id": "drug:소화기/Esomeprazole.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvRXNvbWVwcmF6b2xlLm1k",
     "title": "Esomeprazole",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Esomeprazole.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Esomeprazole.md",
     "folder": "소화기",
     "aliases": [
       "esomeprazole",
@@ -12491,7 +12491,7 @@
     "id": "drug:소화기/Famotidine.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvRmFtb3RpZGluZS5tZA",
     "title": "Famotidine",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Famotidine.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Famotidine.md",
     "folder": "소화기",
     "aliases": [
       "famotidine",
@@ -12580,7 +12580,7 @@
     "id": "drug:소화기/Granisetron.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvR3JhbmlzZXRyb24ubWQ",
     "title": "Granisetron",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Granisetron.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Granisetron.md",
     "folder": "소화기",
     "aliases": [
       "granisetron",
@@ -12661,7 +12661,7 @@
     "id": "drug:소화기/Lactulose.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvTGFjdHVsb3NlLm1k",
     "title": "Lactulose",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Lactulose.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Lactulose.md",
     "folder": "소화기",
     "aliases": [
       "lactulose",
@@ -12753,7 +12753,7 @@
     "id": "drug:소화기/Lansoprazole.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvTGFuc29wcmF6b2xlLm1k",
     "title": "Lansoprazole",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Lansoprazole.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Lansoprazole.md",
     "folder": "소화기",
     "aliases": [
       "lansoprazole",
@@ -12850,7 +12850,7 @@
     "id": "drug:소화기/Loperamide.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvTG9wZXJhbWlkZS5tZA",
     "title": "Loperamide",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Loperamide.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Loperamide.md",
     "folder": "소화기",
     "aliases": [
       "loperamide",
@@ -12938,7 +12938,7 @@
     "id": "drug:소화기/Macrogol.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvTWFjcm9nb2wubWQ",
     "title": "Macrogol",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Macrogol.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Macrogol.md",
     "folder": "소화기",
     "aliases": [
       "macrogol",
@@ -13015,7 +13015,7 @@
     "id": "drug:소화기/Mesalazine.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvTWVzYWxhemluZS5tZA",
     "title": "Mesalazine",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Mesalazine.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Mesalazine.md",
     "folder": "소화기",
     "aliases": [
       "mesalazine",
@@ -13111,7 +13111,7 @@
     "id": "drug:소화기/Metoclopramide.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvTWV0b2Nsb3ByYW1pZGUubWQ",
     "title": "Metoclopramide",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Metoclopramide.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Metoclopramide.md",
     "folder": "소화기",
     "aliases": [
       "metoclopramide",
@@ -13206,7 +13206,7 @@
     "id": "drug:소화기/Misoprostol.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvTWlzb3Byb3N0b2wubWQ",
     "title": "Misoprostol",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Misoprostol.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Misoprostol.md",
     "folder": "소화기",
     "aliases": [
       "misoprostol",
@@ -13293,7 +13293,7 @@
     "id": "drug:소화기/Omeprazole.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvT21lcHJhem9sZS5tZA",
     "title": "Omeprazole",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Omeprazole.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Omeprazole.md",
     "folder": "소화기",
     "aliases": [
       "omeprazole",
@@ -13382,7 +13382,7 @@
     "id": "drug:소화기/Ondansetron.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvT25kYW5zZXRyb24ubWQ",
     "title": "Ondansetron",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Ondansetron.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Ondansetron.md",
     "folder": "소화기",
     "aliases": [
       "ondansetron",
@@ -13473,7 +13473,7 @@
     "id": "drug:소화기/Pantoprazole.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvUGFudG9wcmF6b2xlLm1k",
     "title": "Pantoprazole",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Pantoprazole.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Pantoprazole.md",
     "folder": "소화기",
     "aliases": [
       "pantoprazole",
@@ -13569,7 +13569,7 @@
     "id": "drug:소화기/Rabeprazole.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvUmFiZXByYXpvbGUubWQ",
     "title": "Rabeprazole",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Rabeprazole.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Rabeprazole.md",
     "folder": "소화기",
     "aliases": [
       "rabeprazole",
@@ -13663,7 +13663,7 @@
     "id": "drug:소화기/Ranitidine.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvUmFuaXRpZGluZS5tZA",
     "title": "Ranitidine",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Ranitidine.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Ranitidine.md",
     "folder": "소화기",
     "aliases": [
       "ranitidine",
@@ -13745,7 +13745,7 @@
     "id": "drug:소화기/Sucralfate.md",
     "slug": "ZHJ1ZzrshoztmZTquLAvU3VjcmFsZmF0ZS5tZA",
     "title": "Sucralfate",
-    "sourcePath": "vault_medicine/04 Pharmacology/소화기/Sucralfate.md",
+    "sourcePath": "source_notes/04 Pharmacology/소화기/Sucralfate.md",
     "folder": "소화기",
     "aliases": [
       "sucralfate",
@@ -13823,7 +13823,7 @@
     "id": "drug:신경·정신/Acamprosate.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BY2FtcHJvc2F0ZS5tZA",
     "title": "Acamprosate",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Acamprosate.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Acamprosate.md",
     "folder": "신경·정신",
     "aliases": [
       "acamprosate",
@@ -13909,7 +13909,7 @@
     "id": "drug:신경·정신/Alprazolam.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BbHByYXpvbGFtLm1k",
     "title": "Alprazolam",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Alprazolam.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Alprazolam.md",
     "folder": "신경·정신",
     "aliases": [
       "alprazolam",
@@ -14004,7 +14004,7 @@
     "id": "drug:신경·정신/Amitriptyline.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k",
     "title": "Amitriptyline",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Amitriptyline.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Amitriptyline.md",
     "folder": "신경·정신",
     "aliases": [
       "amitriptyline",
@@ -14094,7 +14094,7 @@
     "id": "drug:신경·정신/Aripiprazole.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BcmlwaXByYXpvbGUubWQ",
     "title": "Aripiprazole",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Aripiprazole.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Aripiprazole.md",
     "folder": "신경·정신",
     "aliases": [
       "aripiprazole",
@@ -14189,7 +14189,7 @@
     "id": "drug:신경·정신/Atomoxetine.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BdG9tb3hldGluZS5tZA",
     "title": "Atomoxetine",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Atomoxetine.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Atomoxetine.md",
     "folder": "신경·정신",
     "aliases": [
       "atomoxetine",
@@ -14281,7 +14281,7 @@
     "id": "drug:신경·정신/Buprenorphine.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9CdXByZW5vcnBoaW5lLm1k",
     "title": "Buprenorphine",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Buprenorphine.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Buprenorphine.md",
     "folder": "신경·정신",
     "aliases": [
       "buprenorphine",
@@ -14363,7 +14363,7 @@
     "id": "drug:신경·정신/BuprenorphineNaloxone.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9CdXByZW5vcnBoaW5lTmFsb3hvbmUubWQ",
     "title": "BuprenorphineNaloxone",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/BuprenorphineNaloxone.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/BuprenorphineNaloxone.md",
     "folder": "신경·정신",
     "aliases": [
       "buprenorphine naloxone",
@@ -14461,7 +14461,7 @@
     "id": "drug:신경·정신/Bupropion.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ",
     "title": "Bupropion",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Bupropion.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Bupropion.md",
     "folder": "신경·정신",
     "aliases": [
       "bupropion",
@@ -14550,7 +14550,7 @@
     "id": "drug:신경·정신/Carbamazepine.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9DYXJiYW1hemVwaW5lLm1k",
     "title": "Carbamazepine",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Carbamazepine.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Carbamazepine.md",
     "folder": "신경·정신",
     "aliases": [
       "carbamazepine",
@@ -14645,7 +14645,7 @@
     "id": "drug:신경·정신/Clonazepam.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9DbG9uYXplcGFtLm1k",
     "title": "Clonazepam",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Clonazepam.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Clonazepam.md",
     "folder": "신경·정신",
     "aliases": [
       "clonazepam",
@@ -14732,7 +14732,7 @@
     "id": "drug:신경·정신/Clozapine.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ",
     "title": "Clozapine",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Clozapine.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Clozapine.md",
     "folder": "신경·정신",
     "aliases": [
       "clozapine",
@@ -14822,7 +14822,7 @@
     "id": "drug:신경·정신/Diazepam.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA",
     "title": "Diazepam",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Diazepam.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Diazepam.md",
     "folder": "신경·정신",
     "aliases": [
       "diazepam",
@@ -14925,7 +14925,7 @@
     "id": "drug:신경·정신/Donepezil.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Eb25lcGV6aWwubWQ",
     "title": "Donepezil",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Donepezil.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Donepezil.md",
     "folder": "신경·정신",
     "aliases": [
       "donepezil",
@@ -15008,7 +15008,7 @@
     "id": "drug:신경·정신/Duloxetine.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9EdWxveGV0aW5lLm1k",
     "title": "Duloxetine",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Duloxetine.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Duloxetine.md",
     "folder": "신경·정신",
     "aliases": [
       "duloxetine",
@@ -15107,7 +15107,7 @@
     "id": "drug:신경·정신/Escitalopram.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Fc2NpdGFsb3ByYW0ubWQ",
     "title": "Escitalopram",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Escitalopram.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Escitalopram.md",
     "folder": "신경·정신",
     "aliases": [
       "escitalopram",
@@ -15200,7 +15200,7 @@
     "id": "drug:신경·정신/Fentanyl.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9GZW50YW55bC5tZA",
     "title": "Fentanyl",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Fentanyl.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Fentanyl.md",
     "folder": "신경·정신",
     "aliases": [
       "fentanyl",
@@ -15289,7 +15289,7 @@
     "id": "drug:신경·정신/Fluoxetine.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k",
     "title": "Fluoxetine",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Fluoxetine.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Fluoxetine.md",
     "folder": "신경·정신",
     "aliases": [
       "fluoxetine",
@@ -15386,7 +15386,7 @@
     "id": "drug:신경·정신/Gabapentin.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9HYWJhcGVudGluLm1k",
     "title": "Gabapentin",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Gabapentin.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Gabapentin.md",
     "folder": "신경·정신",
     "aliases": [
       "gabapentin",
@@ -15477,7 +15477,7 @@
     "id": "drug:신경·정신/Haloperidol.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA",
     "title": "Haloperidol",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Haloperidol.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Haloperidol.md",
     "folder": "신경·정신",
     "aliases": [
       "haloperidol",
@@ -15568,7 +15568,7 @@
     "id": "drug:신경·정신/Lacosamide.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MYWNvc2FtaWRlLm1k",
     "title": "Lacosamide",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Lacosamide.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Lacosamide.md",
     "folder": "신경·정신",
     "aliases": [
       "lacosamide",
@@ -15651,7 +15651,7 @@
     "id": "drug:신경·정신/Lamotrigine.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MYW1vdHJpZ2luZS5tZA",
     "title": "Lamotrigine",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Lamotrigine.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Lamotrigine.md",
     "folder": "신경·정신",
     "aliases": [
       "lamotrigine",
@@ -15745,7 +15745,7 @@
     "id": "drug:신경·정신/Levetiracetam.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MZXZldGlyYWNldGFtLm1k",
     "title": "Levetiracetam",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Levetiracetam.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Levetiracetam.md",
     "folder": "신경·정신",
     "aliases": [
       "levetiracetam",
@@ -15835,7 +15835,7 @@
     "id": "drug:신경·정신/Levodopa.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA",
     "title": "Levodopa",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Levodopa.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Levodopa.md",
     "folder": "신경·정신",
     "aliases": [
       "levodopa",
@@ -15930,7 +15930,7 @@
     "id": "drug:신경·정신/Lithium.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k",
     "title": "Lithium",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Lithium.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Lithium.md",
     "folder": "신경·정신",
     "aliases": [
       "lithium",
@@ -16009,7 +16009,7 @@
     "id": "drug:신경·정신/Lorazepam.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ",
     "title": "Lorazepam",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Lorazepam.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Lorazepam.md",
     "folder": "신경·정신",
     "aliases": [
       "lorazepam",
@@ -16108,7 +16108,7 @@
     "id": "drug:신경·정신/Memantine.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9NZW1hbnRpbmUubWQ",
     "title": "Memantine",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Memantine.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Memantine.md",
     "folder": "신경·정신",
     "aliases": [
       "memantine",
@@ -16196,7 +16196,7 @@
     "id": "drug:신경·정신/Methylphenidate.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9NZXRoeWxwaGVuaWRhdGUubWQ",
     "title": "Methylphenidate",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Methylphenidate.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Methylphenidate.md",
     "folder": "신경·정신",
     "aliases": [
       "methylphenidate",
@@ -16285,7 +16285,7 @@
     "id": "drug:신경·정신/Midazolam.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9NaWRhem9sYW0ubWQ",
     "title": "Midazolam",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Midazolam.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Midazolam.md",
     "folder": "신경·정신",
     "aliases": [
       "midazolam",
@@ -16380,7 +16380,7 @@
     "id": "drug:신경·정신/Mirtazapine.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9NaXJ0YXphcGluZS5tZA",
     "title": "Mirtazapine",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Mirtazapine.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Mirtazapine.md",
     "folder": "신경·정신",
     "aliases": [
       "mirtazapine",
@@ -16469,7 +16469,7 @@
     "id": "drug:신경·정신/Morphine.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA",
     "title": "Morphine",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Morphine.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Morphine.md",
     "folder": "신경·정신",
     "aliases": [
       "morphine",
@@ -16561,7 +16561,7 @@
     "id": "drug:신경·정신/Naltrexone.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9OYWx0cmV4b25lLm1k",
     "title": "Naltrexone",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Naltrexone.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Naltrexone.md",
     "folder": "신경·정신",
     "aliases": [
       "naltrexone",
@@ -16654,7 +16654,7 @@
     "id": "drug:신경·정신/Olanzapine.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9PbGFuemFwaW5lLm1k",
     "title": "Olanzapine",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Olanzapine.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Olanzapine.md",
     "folder": "신경·정신",
     "aliases": [
       "olanzapine",
@@ -16745,7 +16745,7 @@
     "id": "drug:신경·정신/Oxcarbazepine.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9PeGNhcmJhemVwaW5lLm1k",
     "title": "Oxcarbazepine",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Oxcarbazepine.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Oxcarbazepine.md",
     "folder": "신경·정신",
     "aliases": [
       "oxcarbazepine",
@@ -16834,7 +16834,7 @@
     "id": "drug:신경·정신/Oxycodone.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9PeHljb2RvbmUubWQ",
     "title": "Oxycodone",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Oxycodone.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Oxycodone.md",
     "folder": "신경·정신",
     "aliases": [
       "oxycodone",
@@ -16920,7 +16920,7 @@
     "id": "drug:신경·정신/Paracetamol.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9QYXJhY2V0YW1vbC5tZA",
     "title": "Paracetamol",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Paracetamol.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Paracetamol.md",
     "folder": "신경·정신",
     "aliases": [
       "paracetamol",
@@ -17006,7 +17006,7 @@
     "id": "drug:신경·정신/Phenytoin.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ",
     "title": "Phenytoin",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Phenytoin.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Phenytoin.md",
     "folder": "신경·정신",
     "aliases": [
       "phenytoin",
@@ -17098,7 +17098,7 @@
     "id": "drug:신경·정신/Pregabalin.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9QcmVnYWJhbGluLm1k",
     "title": "Pregabalin",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Pregabalin.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Pregabalin.md",
     "folder": "신경·정신",
     "aliases": [
       "pregabalin",
@@ -17186,7 +17186,7 @@
     "id": "drug:신경·정신/Quetiapine.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9RdWV0aWFwaW5lLm1k",
     "title": "Quetiapine",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Quetiapine.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Quetiapine.md",
     "folder": "신경·정신",
     "aliases": [
       "quetiapine",
@@ -17288,7 +17288,7 @@
     "id": "drug:신경·정신/Risperidone.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA",
     "title": "Risperidone",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Risperidone.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Risperidone.md",
     "folder": "신경·정신",
     "aliases": [
       "risperidone",
@@ -17387,7 +17387,7 @@
     "id": "drug:신경·정신/Sertraline.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9TZXJ0cmFsaW5lLm1k",
     "title": "Sertraline",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Sertraline.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Sertraline.md",
     "folder": "신경·정신",
     "aliases": [
       "sertraline",
@@ -17486,7 +17486,7 @@
     "id": "drug:신경·정신/Sumatriptan.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9TdW1hdHJpcHRhbi5tZA",
     "title": "Sumatriptan",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Sumatriptan.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Sumatriptan.md",
     "folder": "신경·정신",
     "aliases": [
       "sumatriptan",
@@ -17584,7 +17584,7 @@
     "id": "drug:신경·정신/Topiramate.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Ub3BpcmFtYXRlLm1k",
     "title": "Topiramate",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Topiramate.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Topiramate.md",
     "folder": "신경·정신",
     "aliases": [
       "topiramate",
@@ -17674,7 +17674,7 @@
     "id": "drug:신경·정신/Tramadol.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9UcmFtYWRvbC5tZA",
     "title": "Tramadol",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Tramadol.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Tramadol.md",
     "folder": "신경·정신",
     "aliases": [
       "tramadol",
@@ -17766,7 +17766,7 @@
     "id": "drug:신경·정신/Valproate.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9WYWxwcm9hdGUubWQ",
     "title": "Valproate",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Valproate.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Valproate.md",
     "folder": "신경·정신",
     "aliases": [
       "valproate",
@@ -17862,7 +17862,7 @@
     "id": "drug:신경·정신/Venlafaxine.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA",
     "title": "Venlafaxine",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Venlafaxine.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Venlafaxine.md",
     "folder": "신경·정신",
     "aliases": [
       "venlafaxine",
@@ -17951,7 +17951,7 @@
     "id": "drug:신경·정신/Zolpidem.md",
     "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9ab2xwaWRlbS5tZA",
     "title": "Zolpidem",
-    "sourcePath": "vault_medicine/04 Pharmacology/신경·정신/Zolpidem.md",
+    "sourcePath": "source_notes/04 Pharmacology/신경·정신/Zolpidem.md",
     "folder": "신경·정신",
     "aliases": [
       "zolpidem",
@@ -18041,7 +18041,7 @@
     "id": "drug:심혈계/Adenosine.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQWRlbm9zaW5lLm1k",
     "title": "Adenosine",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Adenosine.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Adenosine.md",
     "folder": "심혈계",
     "aliases": [
       "adenosine",
@@ -18121,7 +18121,7 @@
     "id": "drug:심혈계/Alirocumab.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQWxpcm9jdW1hYi5tZA",
     "title": "Alirocumab",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Alirocumab.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Alirocumab.md",
     "folder": "심혈계",
     "aliases": [
       "alirocumab",
@@ -18203,7 +18203,7 @@
     "id": "drug:심혈계/Aliskiren.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQWxpc2tpcmVuLm1k",
     "title": "Aliskiren",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Aliskiren.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Aliskiren.md",
     "folder": "심혈계",
     "aliases": [
       "aliskiren",
@@ -18286,7 +18286,7 @@
     "id": "drug:심혈계/Amiodarone.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQW1pb2Rhcm9uZS5tZA",
     "title": "Amiodarone",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Amiodarone.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Amiodarone.md",
     "folder": "심혈계",
     "aliases": [
       "amiodarone",
@@ -18385,7 +18385,7 @@
     "id": "drug:심혈계/Amlodipine.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA",
     "title": "Amlodipine",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Amlodipine.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Amlodipine.md",
     "folder": "심혈계",
     "aliases": [
       "amlodipine",
@@ -18479,7 +18479,7 @@
     "id": "drug:심혈계/Aspirin.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQXNwaXJpbi5tZA",
     "title": "Aspirin",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Aspirin.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Aspirin.md",
     "folder": "심혈계",
     "aliases": [
       "aspirin",
@@ -18573,7 +18573,7 @@
     "id": "drug:심혈계/Atenolol.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQXRlbm9sb2wubWQ",
     "title": "Atenolol",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Atenolol.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Atenolol.md",
     "folder": "심혈계",
     "aliases": [
       "atenolol",
@@ -18674,7 +18674,7 @@
     "id": "drug:심혈계/Atorvastatin.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k",
     "title": "Atorvastatin",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Atorvastatin.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Atorvastatin.md",
     "folder": "심혈계",
     "aliases": [
       "atorvastatin",
@@ -18768,7 +18768,7 @@
     "id": "drug:심혈계/Bisoprolol.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQmlzb3Byb2xvbC5tZA",
     "title": "Bisoprolol",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Bisoprolol.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Bisoprolol.md",
     "folder": "심혈계",
     "aliases": [
       "bisoprolol",
@@ -18865,7 +18865,7 @@
     "id": "drug:심혈계/Bumetanide.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQnVtZXRhbmlkZS5tZA",
     "title": "Bumetanide",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Bumetanide.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Bumetanide.md",
     "folder": "심혈계",
     "aliases": [
       "bumetanide",
@@ -18954,7 +18954,7 @@
     "id": "drug:심혈계/Candesartan.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQ2FuZGVzYXJ0YW4ubWQ",
     "title": "Candesartan",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Candesartan.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Candesartan.md",
     "folder": "심혈계",
     "aliases": [
       "candesartan",
@@ -19046,7 +19046,7 @@
     "id": "drug:심혈계/Captopril.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQ2FwdG9wcmlsLm1k",
     "title": "Captopril",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Captopril.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Captopril.md",
     "folder": "심혈계",
     "aliases": [
       "captopril",
@@ -19141,7 +19141,7 @@
     "id": "drug:심혈계/Carvedilol.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQ2FydmVkaWxvbC5tZA",
     "title": "Carvedilol",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Carvedilol.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Carvedilol.md",
     "folder": "심혈계",
     "aliases": [
       "carvedilol",
@@ -19246,7 +19246,7 @@
     "id": "drug:심혈계/Chlorthalidone.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQ2hsb3J0aGFsaWRvbmUubWQ",
     "title": "Chlorthalidone",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Chlorthalidone.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Chlorthalidone.md",
     "folder": "심혈계",
     "aliases": [
       "chlorthalidone",
@@ -19339,7 +19339,7 @@
     "id": "drug:심혈계/Cilostazol.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQ2lsb3N0YXpvbC5tZA",
     "title": "Cilostazol",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Cilostazol.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Cilostazol.md",
     "folder": "심혈계",
     "aliases": [
       "cilostazol",
@@ -19421,7 +19421,7 @@
     "id": "drug:심혈계/Clopidogrel.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvQ2xvcGlkb2dyZWwubWQ",
     "title": "Clopidogrel",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Clopidogrel.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Clopidogrel.md",
     "folder": "심혈계",
     "aliases": [
       "clopidogrel",
@@ -19512,7 +19512,7 @@
     "id": "drug:심혈계/Digoxin.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRGlnb3hpbi5tZA",
     "title": "Digoxin",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Digoxin.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Digoxin.md",
     "folder": "심혈계",
     "aliases": [
       "digoxin",
@@ -19606,7 +19606,7 @@
     "id": "drug:심혈계/Diltiazem.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRGlsdGlhemVtLm1k",
     "title": "Diltiazem",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Diltiazem.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Diltiazem.md",
     "folder": "심혈계",
     "aliases": [
       "diltiazem",
@@ -19706,7 +19706,7 @@
     "id": "drug:심혈계/Dipyridamole.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRGlweXJpZGFtb2xlLm1k",
     "title": "Dipyridamole",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Dipyridamole.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Dipyridamole.md",
     "folder": "심혈계",
     "aliases": [
       "dipyridamole",
@@ -19783,7 +19783,7 @@
     "id": "drug:심혈계/Dobutamine.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRG9idXRhbWluZS5tZA",
     "title": "Dobutamine",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Dobutamine.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Dobutamine.md",
     "folder": "심혈계",
     "aliases": [
       "dobutamine",
@@ -19864,7 +19864,7 @@
     "id": "drug:심혈계/Dopamine.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRG9wYW1pbmUubWQ",
     "title": "Dopamine",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Dopamine.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Dopamine.md",
     "folder": "심혈계",
     "aliases": [
       "dopamine",
@@ -19945,7 +19945,7 @@
     "id": "drug:심혈계/Dronedarone.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRHJvbmVkYXJvbmUubWQ",
     "title": "Dronedarone",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Dronedarone.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Dronedarone.md",
     "folder": "심혈계",
     "aliases": [
       "dronedarone",
@@ -20035,7 +20035,7 @@
     "id": "drug:심혈계/Enalapril.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRW5hbGFwcmlsLm1k",
     "title": "Enalapril",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Enalapril.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Enalapril.md",
     "folder": "심혈계",
     "aliases": [
       "enalapril",
@@ -20137,7 +20137,7 @@
     "id": "drug:심혈계/Epinephrine.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ",
     "title": "Epinephrine",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Epinephrine.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Epinephrine.md",
     "folder": "심혈계",
     "aliases": [
       "epinephrine",
@@ -20231,7 +20231,7 @@
     "id": "drug:심혈계/Eplerenone.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRXBsZXJlbm9uZS5tZA",
     "title": "Eplerenone",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Eplerenone.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Eplerenone.md",
     "folder": "심혈계",
     "aliases": [
       "eplerenone",
@@ -20323,7 +20323,7 @@
     "id": "drug:심혈계/Esmolol.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRXNtb2xvbC5tZA",
     "title": "Esmolol",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Esmolol.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Esmolol.md",
     "folder": "심혈계",
     "aliases": [
       "esmolol",
@@ -20425,7 +20425,7 @@
     "id": "drug:심혈계/EthacrynicAcid.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRXRoYWNyeW5pY0FjaWQubWQ",
     "title": "EthacrynicAcid",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/EthacrynicAcid.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/EthacrynicAcid.md",
     "folder": "심혈계",
     "aliases": [
       "ethacrynic acid",
@@ -20523,7 +20523,7 @@
     "id": "drug:심혈계/Evolocumab.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRXZvbG9jdW1hYi5tZA",
     "title": "Evolocumab",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Evolocumab.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Evolocumab.md",
     "folder": "심혈계",
     "aliases": [
       "evolocumab",
@@ -20605,7 +20605,7 @@
     "id": "drug:심혈계/Ezetimibe.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRXpldGltaWJlLm1k",
     "title": "Ezetimibe",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Ezetimibe.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Ezetimibe.md",
     "folder": "심혈계",
     "aliases": [
       "ezetimibe",
@@ -20699,7 +20699,7 @@
     "id": "drug:심혈계/Felodipine.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRmVsb2RpcGluZS5tZA",
     "title": "Felodipine",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Felodipine.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Felodipine.md",
     "folder": "심혈계",
     "aliases": [
       "felodipine",
@@ -20789,7 +20789,7 @@
     "id": "drug:심혈계/Fenofibrate.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRmVub2ZpYnJhdGUubWQ",
     "title": "Fenofibrate",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Fenofibrate.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Fenofibrate.md",
     "folder": "심혈계",
     "aliases": [
       "fenofibrate",
@@ -20882,7 +20882,7 @@
     "id": "drug:심혈계/Flecainide.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRmxlY2FpbmlkZS5tZA",
     "title": "Flecainide",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Flecainide.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Flecainide.md",
     "folder": "심혈계",
     "aliases": [
       "flecainide",
@@ -20975,7 +20975,7 @@
     "id": "drug:심혈계/Fluvastatin.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRmx1dmFzdGF0aW4ubWQ",
     "title": "Fluvastatin",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Fluvastatin.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Fluvastatin.md",
     "folder": "심혈계",
     "aliases": [
       "fluvastatin",
@@ -21071,7 +21071,7 @@
     "id": "drug:심혈계/Fosinopril.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRm9zaW5vcHJpbC5tZA",
     "title": "Fosinopril",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Fosinopril.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Fosinopril.md",
     "folder": "심혈계",
     "aliases": [
       "fosinopril",
@@ -21170,7 +21170,7 @@
     "id": "drug:심혈계/Furosemide.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvRnVyb3NlbWlkZS5tZA",
     "title": "Furosemide",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Furosemide.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Furosemide.md",
     "folder": "심혈계",
     "aliases": [
       "furosemide",
@@ -21267,7 +21267,7 @@
     "id": "drug:심혈계/Gemfibrozil.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvR2VtZmlicm96aWwubWQ",
     "title": "Gemfibrozil",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Gemfibrozil.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Gemfibrozil.md",
     "folder": "심혈계",
     "aliases": [
       "gemfibrozil",
@@ -21350,7 +21350,7 @@
     "id": "drug:심혈계/Hydralazine.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvSHlkcmFsYXppbmUubWQ",
     "title": "Hydralazine",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Hydralazine.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Hydralazine.md",
     "folder": "심혈계",
     "aliases": [
       "hydralazine",
@@ -21429,7 +21429,7 @@
     "id": "drug:심혈계/Hydrochlorothiazide.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA",
     "title": "Hydrochlorothiazide",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Hydrochlorothiazide.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Hydrochlorothiazide.md",
     "folder": "심혈계",
     "aliases": [
       "hydrochlorothiazide",
@@ -21521,7 +21521,7 @@
     "id": "drug:심혈계/Indapamide.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvSW5kYXBhbWlkZS5tZA",
     "title": "Indapamide",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Indapamide.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Indapamide.md",
     "folder": "심혈계",
     "aliases": [
       "indapamide",
@@ -21607,7 +21607,7 @@
     "id": "drug:심혈계/Irbesartan.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvSXJiZXNhcnRhbi5tZA",
     "title": "Irbesartan",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Irbesartan.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Irbesartan.md",
     "folder": "심혈계",
     "aliases": [
       "irbesartan",
@@ -21698,7 +21698,7 @@
     "id": "drug:심혈계/IsosorbideMononitrate.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvSXNvc29yYmlkZU1vbm9uaXRyYXRlLm1k",
     "title": "IsosorbideMononitrate",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/IsosorbideMononitrate.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/IsosorbideMononitrate.md",
     "folder": "심혈계",
     "aliases": [
       "isosorbide mononitrate",
@@ -21785,7 +21785,7 @@
     "id": "drug:심혈계/Ivabradine.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvSXZhYnJhZGluZS5tZA",
     "title": "Ivabradine",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Ivabradine.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Ivabradine.md",
     "folder": "심혈계",
     "aliases": [
       "ivabradine",
@@ -21876,7 +21876,7 @@
     "id": "drug:심혈계/Labetalol.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvTGFiZXRhbG9sLm1k",
     "title": "Labetalol",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Labetalol.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Labetalol.md",
     "folder": "심혈계",
     "aliases": [
       "labetalol",
@@ -21969,7 +21969,7 @@
     "id": "drug:심혈계/Lisinopril.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA",
     "title": "Lisinopril",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Lisinopril.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Lisinopril.md",
     "folder": "심혈계",
     "aliases": [
       "lisinopril",
@@ -22069,7 +22069,7 @@
     "id": "drug:심혈계/Losartan.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvTG9zYXJ0YW4ubWQ",
     "title": "Losartan",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Losartan.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Losartan.md",
     "folder": "심혈계",
     "aliases": [
       "losartan",
@@ -22166,7 +22166,7 @@
     "id": "drug:심혈계/Lovastatin.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvTG92YXN0YXRpbi5tZA",
     "title": "Lovastatin",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Lovastatin.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Lovastatin.md",
     "folder": "심혈계",
     "aliases": [
       "lovastatin",
@@ -22264,7 +22264,7 @@
     "id": "drug:심혈계/Metolazone.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvTWV0b2xhem9uZS5tZA",
     "title": "Metolazone",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Metolazone.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Metolazone.md",
     "folder": "심혈계",
     "aliases": [
       "metolazone",
@@ -22354,7 +22354,7 @@
     "id": "drug:심혈계/Metoprolol.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA",
     "title": "Metoprolol",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Metoprolol.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Metoprolol.md",
     "folder": "심혈계",
     "aliases": [
       "metoprolol",
@@ -22448,7 +22448,7 @@
     "id": "drug:심혈계/Nebivolol.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvTmViaXZvbG9sLm1k",
     "title": "Nebivolol",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Nebivolol.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Nebivolol.md",
     "folder": "심혈계",
     "aliases": [
       "nebivolol",
@@ -22546,7 +22546,7 @@
     "id": "drug:심혈계/Nicardipine.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvTmljYXJkaXBpbmUubWQ",
     "title": "Nicardipine",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Nicardipine.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Nicardipine.md",
     "folder": "심혈계",
     "aliases": [
       "nicardipine",
@@ -22636,7 +22636,7 @@
     "id": "drug:심혈계/Nifedipine.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA",
     "title": "Nifedipine",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Nifedipine.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Nifedipine.md",
     "folder": "심혈계",
     "aliases": [
       "nifedipine",
@@ -22725,7 +22725,7 @@
     "id": "drug:심혈계/Nitroglycerin.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA",
     "title": "Nitroglycerin",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Nitroglycerin.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Nitroglycerin.md",
     "folder": "심혈계",
     "aliases": [
       "nitroglycerin",
@@ -22823,7 +22823,7 @@
     "id": "drug:심혈계/Norepinephrine.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ",
     "title": "Norepinephrine",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Norepinephrine.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Norepinephrine.md",
     "folder": "심혈계",
     "aliases": [
       "norepinephrine",
@@ -22910,7 +22910,7 @@
     "id": "drug:심혈계/Olmesartan.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvT2xtZXNhcnRhbi5tZA",
     "title": "Olmesartan",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Olmesartan.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Olmesartan.md",
     "folder": "심혈계",
     "aliases": [
       "olmesartan",
@@ -23006,7 +23006,7 @@
     "id": "drug:심혈계/Perindopril.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvUGVyaW5kb3ByaWwubWQ",
     "title": "Perindopril",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Perindopril.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Perindopril.md",
     "folder": "심혈계",
     "aliases": [
       "perindopril",
@@ -23105,7 +23105,7 @@
     "id": "drug:심혈계/Phenylephrine.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvUGhlbnlsZXBocmluZS5tZA",
     "title": "Phenylephrine",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Phenylephrine.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Phenylephrine.md",
     "folder": "심혈계",
     "aliases": [
       "phenylephrine",
@@ -23196,7 +23196,7 @@
     "id": "drug:심혈계/Pitavastatin.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvUGl0YXZhc3RhdGluLm1k",
     "title": "Pitavastatin",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Pitavastatin.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Pitavastatin.md",
     "folder": "심혈계",
     "aliases": [
       "pitavastatin",
@@ -23288,7 +23288,7 @@
     "id": "drug:심혈계/Prasugrel.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvUHJhc3VncmVsLm1k",
     "title": "Prasugrel",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Prasugrel.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Prasugrel.md",
     "folder": "심혈계",
     "aliases": [
       "prasugrel",
@@ -23379,7 +23379,7 @@
     "id": "drug:심혈계/Pravastatin.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvUHJhdmFzdGF0aW4ubWQ",
     "title": "Pravastatin",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Pravastatin.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Pravastatin.md",
     "folder": "심혈계",
     "aliases": [
       "pravastatin",
@@ -23473,7 +23473,7 @@
     "id": "drug:심혈계/Propafenone.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvUHJvcGFmZW5vbmUubWQ",
     "title": "Propafenone",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Propafenone.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Propafenone.md",
     "folder": "심혈계",
     "aliases": [
       "propafenone",
@@ -23574,7 +23574,7 @@
     "id": "drug:심혈계/Propranolol.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ",
     "title": "Propranolol",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Propranolol.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Propranolol.md",
     "folder": "심혈계",
     "aliases": [
       "propranolol",
@@ -23685,7 +23685,7 @@
     "id": "drug:심혈계/Quinapril.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvUXVpbmFwcmlsLm1k",
     "title": "Quinapril",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Quinapril.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Quinapril.md",
     "folder": "심혈계",
     "aliases": [
       "quinapril",
@@ -23783,7 +23783,7 @@
     "id": "drug:심혈계/Ramipril.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvUmFtaXByaWwubWQ",
     "title": "Ramipril",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Ramipril.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Ramipril.md",
     "folder": "심혈계",
     "aliases": [
       "ramipril",
@@ -23883,7 +23883,7 @@
     "id": "drug:심혈계/Ranolazine.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvUmFub2xhemluZS5tZA",
     "title": "Ranolazine",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Ranolazine.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Ranolazine.md",
     "folder": "심혈계",
     "aliases": [
       "ranolazine",
@@ -23971,7 +23971,7 @@
     "id": "drug:심혈계/Rosuvastatin.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvUm9zdXZhc3RhdGluLm1k",
     "title": "Rosuvastatin",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Rosuvastatin.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Rosuvastatin.md",
     "folder": "심혈계",
     "aliases": [
       "rosuvastatin",
@@ -24071,7 +24071,7 @@
     "id": "drug:심혈계/Sacubitril.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvU2FjdWJpdHJpbC5tZA",
     "title": "Sacubitril",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Sacubitril.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Sacubitril.md",
     "folder": "심혈계",
     "aliases": [
       "sacubitril",
@@ -24164,7 +24164,7 @@
     "id": "drug:심혈계/SacubitrilValsartan.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvU2FjdWJpdHJpbFZhbHNhcnRhbi5tZA",
     "title": "SacubitrilValsartan",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/SacubitrilValsartan.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/SacubitrilValsartan.md",
     "folder": "심혈계",
     "aliases": [
       "sacubitril valsartan",
@@ -24261,7 +24261,7 @@
     "id": "drug:심혈계/Simvastatin.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvU2ltdmFzdGF0aW4ubWQ",
     "title": "Simvastatin",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Simvastatin.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Simvastatin.md",
     "folder": "심혈계",
     "aliases": [
       "simvastatin",
@@ -24361,7 +24361,7 @@
     "id": "drug:심혈계/Sotalol.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvU290YWxvbC5tZA",
     "title": "Sotalol",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Sotalol.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Sotalol.md",
     "folder": "심혈계",
     "aliases": [
       "sotalol",
@@ -24453,7 +24453,7 @@
     "id": "drug:심혈계/Spironolactone.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvU3Bpcm9ub2xhY3RvbmUubWQ",
     "title": "Spironolactone",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Spironolactone.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Spironolactone.md",
     "folder": "심혈계",
     "aliases": [
       "spironolactone",
@@ -24554,7 +24554,7 @@
     "id": "drug:심혈계/Telmisartan.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvVGVsbWlzYXJ0YW4ubWQ",
     "title": "Telmisartan",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Telmisartan.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Telmisartan.md",
     "folder": "심혈계",
     "aliases": [
       "telmisartan",
@@ -24650,7 +24650,7 @@
     "id": "drug:심혈계/Ticagrelor.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvVGljYWdyZWxvci5tZA",
     "title": "Ticagrelor",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Ticagrelor.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Ticagrelor.md",
     "folder": "심혈계",
     "aliases": [
       "ticagrelor",
@@ -24746,7 +24746,7 @@
     "id": "drug:심혈계/Torsemide.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvVG9yc2VtaWRlLm1k",
     "title": "Torsemide",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Torsemide.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Torsemide.md",
     "folder": "심혈계",
     "aliases": [
       "torsemide",
@@ -24840,7 +24840,7 @@
     "id": "drug:심혈계/Valsartan.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvVmFsc2FydGFuLm1k",
     "title": "Valsartan",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Valsartan.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Valsartan.md",
     "folder": "심혈계",
     "aliases": [
       "valsartan",
@@ -24940,7 +24940,7 @@
     "id": "drug:심혈계/Vasopressin.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvVmFzb3ByZXNzaW4ubWQ",
     "title": "Vasopressin",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Vasopressin.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Vasopressin.md",
     "folder": "심혈계",
     "aliases": [
       "vasopressin",
@@ -25021,7 +25021,7 @@
     "id": "drug:심혈계/Verapamil.md",
     "slug": "ZHJ1Zzrsi6ztmIjqs4QvVmVyYXBhbWlsLm1k",
     "title": "Verapamil",
-    "sourcePath": "vault_medicine/04 Pharmacology/심혈계/Verapamil.md",
+    "sourcePath": "source_notes/04 Pharmacology/심혈계/Verapamil.md",
     "folder": "심혈계",
     "aliases": [
       "verapamil",
@@ -25120,7 +25120,7 @@
     "id": "drug:안과·이비인후·피부/Betamethasone.md",
     "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JldGFtZXRoYXNvbmUubWQ",
     "title": "Betamethasone",
-    "sourcePath": "vault_medicine/04 Pharmacology/안과·이비인후·피부/Betamethasone.md",
+    "sourcePath": "source_notes/04 Pharmacology/안과·이비인후·피부/Betamethasone.md",
     "folder": "안과·이비인후·피부",
     "aliases": [
       "betamethasone",
@@ -25194,7 +25194,7 @@
     "id": "drug:안과·이비인후·피부/Brinzolamide.md",
     "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JyaW56b2xhbWlkZS5tZA",
     "title": "Brinzolamide",
-    "sourcePath": "vault_medicine/04 Pharmacology/안과·이비인후·피부/Brinzolamide.md",
+    "sourcePath": "source_notes/04 Pharmacology/안과·이비인후·피부/Brinzolamide.md",
     "folder": "안과·이비인후·피부",
     "aliases": [
       "brinzolamide",
@@ -25281,7 +25281,7 @@
     "id": "drug:안과·이비인후·피부/Cetirizine.md",
     "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0NldGlyaXppbmUubWQ",
     "title": "Cetirizine",
-    "sourcePath": "vault_medicine/04 Pharmacology/안과·이비인후·피부/Cetirizine.md",
+    "sourcePath": "source_notes/04 Pharmacology/안과·이비인후·피부/Cetirizine.md",
     "folder": "안과·이비인후·피부",
     "aliases": [
       "cetirizine",
@@ -25373,7 +25373,7 @@
     "id": "drug:안과·이비인후·피부/Dorzolamide.md",
     "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0RvcnpvbGFtaWRlLm1k",
     "title": "Dorzolamide",
-    "sourcePath": "vault_medicine/04 Pharmacology/안과·이비인후·피부/Dorzolamide.md",
+    "sourcePath": "source_notes/04 Pharmacology/안과·이비인후·피부/Dorzolamide.md",
     "folder": "안과·이비인후·피부",
     "aliases": [
       "dorzolamide",
@@ -25461,7 +25461,7 @@
     "id": "drug:안과·이비인후·피부/FluticasonePropionate.md",
     "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0ZsdXRpY2Fzb25lUHJvcGlvbmF0ZS5tZA",
     "title": "FluticasonePropionate",
-    "sourcePath": "vault_medicine/04 Pharmacology/안과·이비인후·피부/FluticasonePropionate.md",
+    "sourcePath": "source_notes/04 Pharmacology/안과·이비인후·피부/FluticasonePropionate.md",
     "folder": "안과·이비인후·피부",
     "aliases": [
       "fluticasone propionate",
@@ -25534,7 +25534,7 @@
     "id": "drug:안과·이비인후·피부/Hydrocortisone.md",
     "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0h5ZHJvY29ydGlzb25lLm1k",
     "title": "Hydrocortisone",
-    "sourcePath": "vault_medicine/04 Pharmacology/안과·이비인후·피부/Hydrocortisone.md",
+    "sourcePath": "source_notes/04 Pharmacology/안과·이비인후·피부/Hydrocortisone.md",
     "folder": "안과·이비인후·피부",
     "aliases": [
       "hydrocortisone",
@@ -25605,7 +25605,7 @@
     "id": "drug:안과·이비인후·피부/Latanoprost.md",
     "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xhdGFub3Byb3N0Lm1k",
     "title": "Latanoprost",
-    "sourcePath": "vault_medicine/04 Pharmacology/안과·이비인후·피부/Latanoprost.md",
+    "sourcePath": "source_notes/04 Pharmacology/안과·이비인후·피부/Latanoprost.md",
     "folder": "안과·이비인후·피부",
     "aliases": [
       "latanoprost",
@@ -25692,7 +25692,7 @@
     "id": "drug:안과·이비인후·피부/Loratadine.md",
     "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xvcmF0YWRpbmUubWQ",
     "title": "Loratadine",
-    "sourcePath": "vault_medicine/04 Pharmacology/안과·이비인후·피부/Loratadine.md",
+    "sourcePath": "source_notes/04 Pharmacology/안과·이비인후·피부/Loratadine.md",
     "folder": "안과·이비인후·피부",
     "aliases": [
       "loratadine",
@@ -25775,7 +25775,7 @@
     "id": "drug:안과·이비인후·피부/Mometasone.md",
     "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL01vbWV0YXNvbmUubWQ",
     "title": "Mometasone",
-    "sourcePath": "vault_medicine/04 Pharmacology/안과·이비인후·피부/Mometasone.md",
+    "sourcePath": "source_notes/04 Pharmacology/안과·이비인후·피부/Mometasone.md",
     "folder": "안과·이비인후·피부",
     "aliases": [
       "mometasone",
@@ -25849,7 +25849,7 @@
     "id": "drug:안과·이비인후·피부/Timolol.md",
     "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL1RpbW9sb2wubWQ",
     "title": "Timolol",
-    "sourcePath": "vault_medicine/04 Pharmacology/안과·이비인후·피부/Timolol.md",
+    "sourcePath": "source_notes/04 Pharmacology/안과·이비인후·피부/Timolol.md",
     "folder": "안과·이비인후·피부",
     "aliases": [
       "timolol",
@@ -25940,7 +25940,7 @@
     "id": "drug:전해질·영양·독성·기타/Acetylcysteine.md",
     "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWNldHlsY3lzdGVpbmUubWQ",
     "title": "Acetylcysteine",
-    "sourcePath": "vault_medicine/04 Pharmacology/전해질·영양·독성·기타/Acetylcysteine.md",
+    "sourcePath": "source_notes/04 Pharmacology/전해질·영양·독성·기타/Acetylcysteine.md",
     "folder": "전해질·영양·독성·기타",
     "aliases": [
       "acetylcysteine",
@@ -26028,7 +26028,7 @@
     "id": "drug:전해질·영양·독성·기타/ActivatedCharcoal.md",
     "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWN0aXZhdGVkQ2hhcmNvYWwubWQ",
     "title": "ActivatedCharcoal",
-    "sourcePath": "vault_medicine/04 Pharmacology/전해질·영양·독성·기타/ActivatedCharcoal.md",
+    "sourcePath": "source_notes/04 Pharmacology/전해질·영양·독성·기타/ActivatedCharcoal.md",
     "folder": "전해질·영양·독성·기타",
     "aliases": [
       "activated charcoal",
@@ -26115,7 +26115,7 @@
     "id": "drug:전해질·영양·독성·기타/CalciumGluconate.md",
     "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQ2FsY2l1bUdsdWNvbmF0ZS5tZA",
     "title": "CalciumGluconate",
-    "sourcePath": "vault_medicine/04 Pharmacology/전해질·영양·독성·기타/CalciumGluconate.md",
+    "sourcePath": "source_notes/04 Pharmacology/전해질·영양·독성·기타/CalciumGluconate.md",
     "folder": "전해질·영양·독성·기타",
     "aliases": [
       "calcium gluconate",
@@ -26207,7 +26207,7 @@
     "id": "drug:전해질·영양·독성·기타/Flumazenil.md",
     "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvRmx1bWF6ZW5pbC5tZA",
     "title": "Flumazenil",
-    "sourcePath": "vault_medicine/04 Pharmacology/전해질·영양·독성·기타/Flumazenil.md",
+    "sourcePath": "source_notes/04 Pharmacology/전해질·영양·독성·기타/Flumazenil.md",
     "folder": "전해질·영양·독성·기타",
     "aliases": [
       "flumazenil",
@@ -26280,7 +26280,7 @@
     "id": "drug:전해질·영양·독성·기타/Glucagon.md",
     "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ",
     "title": "Glucagon",
-    "sourcePath": "vault_medicine/04 Pharmacology/전해질·영양·독성·기타/Glucagon.md",
+    "sourcePath": "source_notes/04 Pharmacology/전해질·영양·독성·기타/Glucagon.md",
     "folder": "전해질·영양·독성·기타",
     "aliases": [
       "glucagon",
@@ -26353,7 +26353,7 @@
     "id": "drug:전해질·영양·독성·기타/MagnesiumSulfate.md",
     "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA",
     "title": "MagnesiumSulfate",
-    "sourcePath": "vault_medicine/04 Pharmacology/전해질·영양·독성·기타/MagnesiumSulfate.md",
+    "sourcePath": "source_notes/04 Pharmacology/전해질·영양·독성·기타/MagnesiumSulfate.md",
     "folder": "전해질·영양·독성·기타",
     "aliases": [
       "magnesium sulfate",
@@ -26443,7 +26443,7 @@
     "id": "drug:전해질·영양·독성·기타/Naloxone.md",
     "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTmFsb3hvbmUubWQ",
     "title": "Naloxone",
-    "sourcePath": "vault_medicine/04 Pharmacology/전해질·영양·독성·기타/Naloxone.md",
+    "sourcePath": "source_notes/04 Pharmacology/전해질·영양·독성·기타/Naloxone.md",
     "folder": "전해질·영양·독성·기타",
     "aliases": [
       "naloxone",
@@ -26516,7 +26516,7 @@
     "id": "drug:전해질·영양·독성·기타/PotassiumChloride.md",
     "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvUG90YXNzaXVtQ2hsb3JpZGUubWQ",
     "title": "PotassiumChloride",
-    "sourcePath": "vault_medicine/04 Pharmacology/전해질·영양·독성·기타/PotassiumChloride.md",
+    "sourcePath": "source_notes/04 Pharmacology/전해질·영양·독성·기타/PotassiumChloride.md",
     "folder": "전해질·영양·독성·기타",
     "aliases": [
       "potassium chloride",
@@ -26605,7 +26605,7 @@
     "id": "drug:종양/Bevacizumab.md",
     "slug": "ZHJ1ZzrsooXslpEvQmV2YWNpenVtYWIubWQ",
     "title": "Bevacizumab",
-    "sourcePath": "vault_medicine/04 Pharmacology/종양/Bevacizumab.md",
+    "sourcePath": "source_notes/04 Pharmacology/종양/Bevacizumab.md",
     "folder": "종양",
     "aliases": [
       "bevacizumab",
@@ -26681,7 +26681,7 @@
     "id": "drug:종양/Carboplatin.md",
     "slug": "ZHJ1ZzrsooXslpEvQ2FyYm9wbGF0aW4ubWQ",
     "title": "Carboplatin",
-    "sourcePath": "vault_medicine/04 Pharmacology/종양/Carboplatin.md",
+    "sourcePath": "source_notes/04 Pharmacology/종양/Carboplatin.md",
     "folder": "종양",
     "aliases": [
       "carboplatin",
@@ -26776,7 +26776,7 @@
     "id": "drug:종양/Cisplatin.md",
     "slug": "ZHJ1ZzrsooXslpEvQ2lzcGxhdGluLm1k",
     "title": "Cisplatin",
-    "sourcePath": "vault_medicine/04 Pharmacology/종양/Cisplatin.md",
+    "sourcePath": "source_notes/04 Pharmacology/종양/Cisplatin.md",
     "folder": "종양",
     "aliases": [
       "cisplatin",
@@ -26877,7 +26877,7 @@
     "id": "drug:종양/Cyclophosphamide.md",
     "slug": "ZHJ1ZzrsooXslpEvQ3ljbG9waG9zcGhhbWlkZS5tZA",
     "title": "Cyclophosphamide",
-    "sourcePath": "vault_medicine/04 Pharmacology/종양/Cyclophosphamide.md",
+    "sourcePath": "source_notes/04 Pharmacology/종양/Cyclophosphamide.md",
     "folder": "종양",
     "aliases": [
       "cyclophosphamide",
@@ -26970,7 +26970,7 @@
     "id": "drug:종양/Doxorubicin.md",
     "slug": "ZHJ1ZzrsooXslpEvRG94b3J1YmljaW4ubWQ",
     "title": "Doxorubicin",
-    "sourcePath": "vault_medicine/04 Pharmacology/종양/Doxorubicin.md",
+    "sourcePath": "source_notes/04 Pharmacology/종양/Doxorubicin.md",
     "folder": "종양",
     "aliases": [
       "doxorubicin",
@@ -27073,7 +27073,7 @@
     "id": "drug:종양/Imatinib.md",
     "slug": "ZHJ1ZzrsooXslpEvSW1hdGluaWIubWQ",
     "title": "Imatinib",
-    "sourcePath": "vault_medicine/04 Pharmacology/종양/Imatinib.md",
+    "sourcePath": "source_notes/04 Pharmacology/종양/Imatinib.md",
     "folder": "종양",
     "aliases": [
       "imatinib",
@@ -27153,7 +27153,7 @@
     "id": "drug:종양/Letrozole.md",
     "slug": "ZHJ1ZzrsooXslpEvTGV0cm96b2xlLm1k",
     "title": "Letrozole",
-    "sourcePath": "vault_medicine/04 Pharmacology/종양/Letrozole.md",
+    "sourcePath": "source_notes/04 Pharmacology/종양/Letrozole.md",
     "folder": "종양",
     "aliases": [
       "letrozole",
@@ -27240,7 +27240,7 @@
     "id": "drug:종양/Nivolumab.md",
     "slug": "ZHJ1ZzrsooXslpEvTml2b2x1bWFiLm1k",
     "title": "Nivolumab",
-    "sourcePath": "vault_medicine/04 Pharmacology/종양/Nivolumab.md",
+    "sourcePath": "source_notes/04 Pharmacology/종양/Nivolumab.md",
     "folder": "종양",
     "aliases": [
       "nivolumab",
@@ -27318,7 +27318,7 @@
     "id": "drug:종양/Osimertinib.md",
     "slug": "ZHJ1ZzrsooXslpEvT3NpbWVydGluaWIubWQ",
     "title": "Osimertinib",
-    "sourcePath": "vault_medicine/04 Pharmacology/종양/Osimertinib.md",
+    "sourcePath": "source_notes/04 Pharmacology/종양/Osimertinib.md",
     "folder": "종양",
     "aliases": [
       "osimertinib",
@@ -27407,7 +27407,7 @@
     "id": "drug:종양/Oxaliplatin.md",
     "slug": "ZHJ1ZzrsooXslpEvT3hhbGlwbGF0aW4ubWQ",
     "title": "Oxaliplatin",
-    "sourcePath": "vault_medicine/04 Pharmacology/종양/Oxaliplatin.md",
+    "sourcePath": "source_notes/04 Pharmacology/종양/Oxaliplatin.md",
     "folder": "종양",
     "aliases": [
       "oxaliplatin",
@@ -27496,7 +27496,7 @@
     "id": "drug:종양/Paclitaxel.md",
     "slug": "ZHJ1ZzrsooXslpEvUGFjbGl0YXhlbC5tZA",
     "title": "Paclitaxel",
-    "sourcePath": "vault_medicine/04 Pharmacology/종양/Paclitaxel.md",
+    "sourcePath": "source_notes/04 Pharmacology/종양/Paclitaxel.md",
     "folder": "종양",
     "aliases": [
       "paclitaxel",
@@ -27591,7 +27591,7 @@
     "id": "drug:종양/Pembrolizumab.md",
     "slug": "ZHJ1ZzrsooXslpEvUGVtYnJvbGl6dW1hYi5tZA",
     "title": "Pembrolizumab",
-    "sourcePath": "vault_medicine/04 Pharmacology/종양/Pembrolizumab.md",
+    "sourcePath": "source_notes/04 Pharmacology/종양/Pembrolizumab.md",
     "folder": "종양",
     "aliases": [
       "pembrolizumab",
@@ -27669,7 +27669,7 @@
     "id": "drug:종양/Tamoxifen.md",
     "slug": "ZHJ1ZzrsooXslpEvVGFtb3hpZmVuLm1k",
     "title": "Tamoxifen",
-    "sourcePath": "vault_medicine/04 Pharmacology/종양/Tamoxifen.md",
+    "sourcePath": "source_notes/04 Pharmacology/종양/Tamoxifen.md",
     "folder": "종양",
     "aliases": [
       "tamoxifen",
@@ -27762,7 +27762,7 @@
     "id": "drug:종양/Trastuzumab.md",
     "slug": "ZHJ1ZzrsooXslpEvVHJhc3R1enVtYWIubWQ",
     "title": "Trastuzumab",
-    "sourcePath": "vault_medicine/04 Pharmacology/종양/Trastuzumab.md",
+    "sourcePath": "source_notes/04 Pharmacology/종양/Trastuzumab.md",
     "folder": "종양",
     "aliases": [
       "trastuzumab",
@@ -27845,7 +27845,7 @@
     "id": "drug:혈액·응고/Alteplase.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9BbHRlcGxhc2UubWQ",
     "title": "Alteplase",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/Alteplase.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/Alteplase.md",
     "folder": "혈액·응고",
     "aliases": [
       "alteplase",
@@ -27927,7 +27927,7 @@
     "id": "drug:혈액·응고/AminocaproicAcid.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9BbWlub2NhcHJvaWNBY2lkLm1k",
     "title": "AminocaproicAcid",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/AminocaproicAcid.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/AminocaproicAcid.md",
     "folder": "혈액·응고",
     "aliases": [
       "aminocaproic acid",
@@ -28001,7 +28001,7 @@
     "id": "drug:혈액·응고/Apixaban.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9BcGl4YWJhbi5tZA",
     "title": "Apixaban",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/Apixaban.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/Apixaban.md",
     "folder": "혈액·응고",
     "aliases": [
       "apixaban",
@@ -28097,7 +28097,7 @@
     "id": "drug:혈액·응고/Dabigatran.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9EYWJpZ2F0cmFuLm1k",
     "title": "Dabigatran",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/Dabigatran.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/Dabigatran.md",
     "folder": "혈액·응고",
     "aliases": [
       "dabigatran",
@@ -28196,7 +28196,7 @@
     "id": "drug:혈액·응고/Desmopressin.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9EZXNtb3ByZXNzaW4ubWQ",
     "title": "Desmopressin",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/Desmopressin.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/Desmopressin.md",
     "folder": "혈액·응고",
     "aliases": [
       "desmopressin",
@@ -28283,7 +28283,7 @@
     "id": "drug:혈액·응고/Edoxaban.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9FZG94YWJhbi5tZA",
     "title": "Edoxaban",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/Edoxaban.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/Edoxaban.md",
     "folder": "혈액·응고",
     "aliases": [
       "edoxaban",
@@ -28373,7 +28373,7 @@
     "id": "drug:혈액·응고/Enoxaparin.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9Fbm94YXBhcmluLm1k",
     "title": "Enoxaparin",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/Enoxaparin.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/Enoxaparin.md",
     "folder": "혈액·응고",
     "aliases": [
       "enoxaparin",
@@ -28461,7 +28461,7 @@
     "id": "drug:혈액·응고/EpoetinAlfa.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9FcG9ldGluQWxmYS5tZA",
     "title": "EpoetinAlfa",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/EpoetinAlfa.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/EpoetinAlfa.md",
     "folder": "혈액·응고",
     "aliases": [
       "epoetin alfa",
@@ -28537,7 +28537,7 @@
     "id": "drug:혈액·응고/Filgrastim.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9GaWxncmFzdGltLm1k",
     "title": "Filgrastim",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/Filgrastim.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/Filgrastim.md",
     "folder": "혈액·응고",
     "aliases": [
       "filgrastim",
@@ -28613,7 +28613,7 @@
     "id": "drug:혈액·응고/Fondaparinux.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9Gb25kYXBhcmludXgubWQ",
     "title": "Fondaparinux",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/Fondaparinux.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/Fondaparinux.md",
     "folder": "혈액·응고",
     "aliases": [
       "fondaparinux",
@@ -28706,7 +28706,7 @@
     "id": "drug:혈액·응고/Heparin.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k",
     "title": "Heparin",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/Heparin.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/Heparin.md",
     "folder": "혈액·응고",
     "aliases": [
       "heparin",
@@ -28804,7 +28804,7 @@
     "id": "drug:혈액·응고/IronSucrose.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9Jcm9uU3Vjcm9zZS5tZA",
     "title": "IronSucrose",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/IronSucrose.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/IronSucrose.md",
     "folder": "혈액·응고",
     "aliases": [
       "iron sucrose",
@@ -28880,7 +28880,7 @@
     "id": "drug:혈액·응고/Phenindione.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9QaGVuaW5kaW9uZS5tZA",
     "title": "Phenindione",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/Phenindione.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/Phenindione.md",
     "folder": "혈액·응고",
     "aliases": [
       "phenindione",
@@ -28975,7 +28975,7 @@
     "id": "drug:혈액·응고/Rivaroxaban.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9SaXZhcm94YWJhbi5tZA",
     "title": "Rivaroxaban",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/Rivaroxaban.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/Rivaroxaban.md",
     "folder": "혈액·응고",
     "aliases": [
       "rivaroxaban",
@@ -29078,7 +29078,7 @@
     "id": "drug:혈액·응고/Streptokinase.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9TdHJlcHRva2luYXNlLm1k",
     "title": "Streptokinase",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/Streptokinase.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/Streptokinase.md",
     "folder": "혈액·응고",
     "aliases": [
       "streptokinase",
@@ -29176,7 +29176,7 @@
     "id": "drug:혈액·응고/TranexamicAcid.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9UcmFuZXhhbWljQWNpZC5tZA",
     "title": "TranexamicAcid",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/TranexamicAcid.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/TranexamicAcid.md",
     "folder": "혈액·응고",
     "aliases": [
       "tranexamic acid",
@@ -29252,7 +29252,7 @@
     "id": "drug:혈액·응고/Warfarin.md",
     "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA",
     "title": "Warfarin",
-    "sourcePath": "vault_medicine/04 Pharmacology/혈액·응고/Warfarin.md",
+    "sourcePath": "source_notes/04 Pharmacology/혈액·응고/Warfarin.md",
     "folder": "혈액·응고",
     "aliases": [
       "warfarin",
@@ -29357,7 +29357,7 @@
     "id": "drug:호흡기/Aclidinium.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvQWNsaWRpbml1bS5tZA",
     "title": "Aclidinium",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Aclidinium.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Aclidinium.md",
     "folder": "호흡기",
     "aliases": [
       "aclidinium",
@@ -29437,7 +29437,7 @@
     "id": "drug:호흡기/Beclometasone.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvQmVjbG9tZXRhc29uZS5tZA",
     "title": "Beclometasone",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Beclometasone.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Beclometasone.md",
     "folder": "호흡기",
     "aliases": [
       "beclometasone",
@@ -29529,7 +29529,7 @@
     "id": "drug:호흡기/Budesonide.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvQnVkZXNvbmlkZS5tZA",
     "title": "Budesonide",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Budesonide.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Budesonide.md",
     "folder": "호흡기",
     "aliases": [
       "budesonide",
@@ -29613,7 +29613,7 @@
     "id": "drug:호흡기/BudesonideFormoterol.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvQnVkZXNvbmlkZUZvcm1vdGVyb2wubWQ",
     "title": "BudesonideFormoterol",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/BudesonideFormoterol.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/BudesonideFormoterol.md",
     "folder": "호흡기",
     "aliases": [
       "budesonide formoterol",
@@ -29707,7 +29707,7 @@
     "id": "drug:호흡기/Ciclesonide.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvQ2ljbGVzb25pZGUubWQ",
     "title": "Ciclesonide",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Ciclesonide.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Ciclesonide.md",
     "folder": "호흡기",
     "aliases": [
       "ciclesonide",
@@ -29794,7 +29794,7 @@
     "id": "drug:호흡기/Fluticasone.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ",
     "title": "Fluticasone",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Fluticasone.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Fluticasone.md",
     "folder": "호흡기",
     "aliases": [
       "fluticasone",
@@ -29877,7 +29877,7 @@
     "id": "drug:호흡기/FluticasoneSalmeterol.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvRmx1dGljYXNvbmVTYWxtZXRlcm9sLm1k",
     "title": "FluticasoneSalmeterol",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/FluticasoneSalmeterol.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/FluticasoneSalmeterol.md",
     "folder": "호흡기",
     "aliases": [
       "fluticasone salmeterol",
@@ -29969,7 +29969,7 @@
     "id": "drug:호흡기/Formoterol.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvRm9ybW90ZXJvbC5tZA",
     "title": "Formoterol",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Formoterol.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Formoterol.md",
     "folder": "호흡기",
     "aliases": [
       "formoterol",
@@ -30062,7 +30062,7 @@
     "id": "drug:호흡기/Indacaterol.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvSW5kYWNhdGVyb2wubWQ",
     "title": "Indacaterol",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Indacaterol.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Indacaterol.md",
     "folder": "호흡기",
     "aliases": [
       "indacaterol",
@@ -30157,7 +30157,7 @@
     "id": "drug:호흡기/Ipratropium.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvSXByYXRyb3BpdW0ubWQ",
     "title": "Ipratropium",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Ipratropium.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Ipratropium.md",
     "folder": "호흡기",
     "aliases": [
       "ipratropium",
@@ -30238,7 +30238,7 @@
     "id": "drug:호흡기/Montelukast.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvTW9udGVsdWthc3QubWQ",
     "title": "Montelukast",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Montelukast.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Montelukast.md",
     "folder": "호흡기",
     "aliases": [
       "montelukast",
@@ -30331,7 +30331,7 @@
     "id": "drug:호흡기/Roflumilast.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvUm9mbHVtaWxhc3QubWQ",
     "title": "Roflumilast",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Roflumilast.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Roflumilast.md",
     "folder": "호흡기",
     "aliases": [
       "roflumilast",
@@ -30413,7 +30413,7 @@
     "id": "drug:호흡기/Salbutamol.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvU2FsYnV0YW1vbC5tZA",
     "title": "Salbutamol",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Salbutamol.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Salbutamol.md",
     "folder": "호흡기",
     "aliases": [
       "salbutamol",
@@ -30509,7 +30509,7 @@
     "id": "drug:호흡기/Salmeterol.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvU2FsbWV0ZXJvbC5tZA",
     "title": "Salmeterol",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Salmeterol.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Salmeterol.md",
     "folder": "호흡기",
     "aliases": [
       "salmeterol",
@@ -30590,7 +30590,7 @@
     "id": "drug:호흡기/Theophylline.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvVGhlb3BoeWxsaW5lLm1k",
     "title": "Theophylline",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Theophylline.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Theophylline.md",
     "folder": "호흡기",
     "aliases": [
       "theophylline",
@@ -30681,7 +30681,7 @@
     "id": "drug:호흡기/Tiotropium.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvVGlvdHJvcGl1bS5tZA",
     "title": "Tiotropium",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Tiotropium.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Tiotropium.md",
     "folder": "호흡기",
     "aliases": [
       "tiotropium",
@@ -30772,7 +30772,7 @@
     "id": "drug:호흡기/Umeclidinium.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvVW1lY2xpZGluaXVtLm1k",
     "title": "Umeclidinium",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Umeclidinium.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Umeclidinium.md",
     "folder": "호흡기",
     "aliases": [
       "umeclidinium",
@@ -30858,7 +30858,7 @@
     "id": "drug:호흡기/Vilanterol.md",
     "slug": "ZHJ1ZzrtmLjtnaHquLAvVmlsYW50ZXJvbC5tZA",
     "title": "Vilanterol",
-    "sourcePath": "vault_medicine/04 Pharmacology/호흡기/Vilanterol.md",
+    "sourcePath": "source_notes/04 Pharmacology/호흡기/Vilanterol.md",
     "folder": "호흡기",
     "aliases": [
       "vilanterol",

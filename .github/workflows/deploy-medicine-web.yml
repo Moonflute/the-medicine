@@ -41,6 +41,9 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Generate web DB
+        run: npm run sync:data
+
       - name: Build static site
         run: npm run build -- --webpack
 
