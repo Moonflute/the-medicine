@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: deploy-medicine-web-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -38,11 +38,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Lint
-        run: npm run lint
-
       - name: Generate web DB
         run: npm run sync:data
+
+      - name: Lint
+        run: npm run lint
 
       - name: Build static site
         run: npm run build -- --webpack
