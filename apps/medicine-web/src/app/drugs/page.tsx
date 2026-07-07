@@ -20,7 +20,6 @@ export default function DrugsPage() {
             <Link key={group.slug} href={`/drugs/category/${group.slug}`} className="list-tile flex items-center justify-between gap-4 px-4 py-4">
               <div className="min-w-0">
                 <div className="truncate text-lg font-semibold text-slate-950">{group.title}</div>
-                <div className="mt-1 text-xs font-semibold uppercase text-slate-500">{group.notes.length} drugs</div>
               </div>
               <ChevronRight className="h-4 w-4 shrink-0 text-slate-400" />
             </Link>

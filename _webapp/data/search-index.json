@@ -14514,1623 +14514,1129 @@
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsITri7Tst4wvRW50ZWNhdmlyLm1k",
-    "title": "Entecavir",
-    "category": "간담췌 > 간 > 항바이러스(HBV)",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQWRlbm9zaW5lLm1k",
+    "title": "Adenosine",
+    "category": "심혈계 > 부정맥 > 기타 항부정맥",
     "aliases": [
-      "entecavir",
-      "엔테카비르"
+      "adenosine",
+      "아데노신"
     ],
-    "href": "/drugs/ZHJ1ZzrqsITri7Tst4wvRW50ZWNhdmlyLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQWRlbm9zaW5lLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsITri7Tst4wvTGFtaXZ1ZGluZS5tZA",
-    "title": "Lamivudine",
-    "category": "간담췌 > 간 > 항바이러스(HBV/HIV)",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQWxpcm9jdW1hYi5tZA",
+    "title": "Alirocumab",
+    "category": "심혈계 > 지질 > PCSK9 억제제",
     "aliases": [
-      "lamivudine",
-      "라미부딘"
+      "alirocumab",
+      "알리로쿠맙"
     ],
-    "href": "/drugs/ZHJ1ZzrqsITri7Tst4wvTGFtaXZ1ZGluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQWxpcm9jdW1hYi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsITri7Tst4wvTGVkaXBhc3ZpclNvZm9zYnV2aXIubWQ",
-    "title": "LedipasvirSofosbuvir",
-    "category": "간담췌 > 간 > 항바이러스(HCV)",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQWxpc2tpcmVuLm1k",
+    "title": "Aliskiren",
+    "category": "심혈계 > 혈압·심부전·신 > 렌인 억제제",
     "aliases": [
-      "ledipasvir sofosbuvir",
-      "레디파스비르·소포스부비르"
+      "aliskiren",
+      "알리스키렌"
     ],
-    "href": "/drugs/ZHJ1ZzrqsITri7Tst4wvTGVkaXBhc3ZpclNvZm9zYnV2aXIubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQWxpc2tpcmVuLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsITri7Tst4wvU29mb3NidXZpci5tZA",
-    "title": "Sofosbuvir",
-    "category": "간담췌 > 간 > 항바이러스(HCV)",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQW1pb2Rhcm9uZS5tZA",
+    "title": "Amiodarone",
+    "category": "심혈계 > 부정맥 > III류 항부정맥",
     "aliases": [
-      "sofosbuvir",
-      "소포스부비르"
+      "amiodarone",
+      "아미오다론"
     ],
-    "href": "/drugs/ZHJ1ZzrqsITri7Tst4wvU29mb3NidXZpci5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQW1pb2Rhcm9uZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsITri7Tst4wvVGVub2ZvdmlyRGlzb3Byb3hpbC5tZA",
-    "title": "TenofovirDisoproxil",
-    "category": "간담췌 > 간 > 항바이러스(HBV)",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA",
+    "title": "Amlodipine",
+    "category": "심혈계 > 혈압·심부전·신 > 칼슘채널차단제",
     "aliases": [
-      "tenofovir disoproxil",
-      "테노포비르 디소프록실"
+      "amlodipine",
+      "암로디핀"
     ],
-    "href": "/drugs/ZHJ1ZzrqsITri7Tst4wvVGVub2ZvdmlyRGlzb3Byb3hpbC5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsITri7Tst4wvVXJzb2Rlb3h5Y2hvbGljQWNpZC5tZA",
-    "title": "UrsodeoxycholicAcid",
-    "category": "간담췌 > 담즙·쓸담 > 담산제",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA",
+    "title": "Aspirin",
+    "category": "심혈계 > 동맥혈전 예방 > 항혈소판",
     "aliases": [
-      "ursodeoxycholic acid",
-      "우르소데옥시콜산"
+      "aspirin",
+      "아스피린"
     ],
-    "href": "/drugs/ZHJ1ZzrqsITri7Tst4wvVXJzb2Rlb3h5Y2hvbGljQWNpZC5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQWN5Y2xvdmlyLm1k",
-    "title": "Acyclovir",
-    "category": "감염 > 항바이러스 > 헤르페스",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQXRlbm9sb2wubWQ",
+    "title": "Atenolol",
+    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
     "aliases": [
-      "acyclovir",
-      "아시클로버"
+      "atenolol",
+      "아테놀롤"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQWN5Y2xvdmlyLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQXRlbm9sb2wubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQWxiZW5kYXpvbGUubWQ",
-    "title": "Albendazole",
-    "category": "감염 > 기생충 > 구충제",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k",
+    "title": "Atorvastatin",
+    "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
     "aliases": [
-      "albendazole",
-      "알벤다졸"
+      "atorvastatin",
+      "아토르바스타틴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQWxiZW5kYXpvbGUubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQW1pa2FjaW4ubWQ",
-    "title": "Amikacin",
-    "category": "감염 > 항균 > 아미노글리코사이드",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQmlzb3Byb2xvbC5tZA",
+    "title": "Bisoprolol",
+    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
     "aliases": [
-      "amikacin",
-      "아미카신"
+      "bisoprolol",
+      "비소프롤롤"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQW1pa2FjaW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQmlzb3Byb2xvbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQW1veGljaWxsaW4ubWQ",
-    "title": "Amoxicillin",
-    "category": "감염 > 항균 > 베타락탐",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQnVtZXRhbmlkZS5tZA",
+    "title": "Bumetanide",
+    "category": "심혈계 > 혈압·심부전·신 > 루프 이뇨제",
     "aliases": [
-      "amoxicillin",
-      "아목시실린"
+      "bumetanide",
+      "부메타나이드"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQW1veGljaWxsaW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQnVtZXRhbmlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQW1veGljaWxsaW5DbGF2dWxhbmF0ZS5tZA",
-    "title": "AmoxicillinClavulanate",
-    "category": "감염 > 항균 > 베타락탐·베타락타마제 억제제",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQ2FuZGVzYXJ0YW4ubWQ",
+    "title": "Candesartan",
+    "category": "심혈계 > 혈압·심부전·신 > ARB",
     "aliases": [
-      "amoxicillin clavulanate",
-      "아목시실린·클라불란산"
+      "candesartan",
+      "칸데사르탄"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQW1veGljaWxsaW5DbGF2dWxhbmF0ZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQ2FuZGVzYXJ0YW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQW1waG90ZXJpY2luQi5tZA",
-    "title": "AmphotericinB",
-    "category": "감염 > 항진균 > 폴리엔",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQ2FwdG9wcmlsLm1k",
+    "title": "Captopril",
+    "category": "심혈계 > 혈압·심부전·신 > ACE 억제제",
     "aliases": [
-      "amphotericin B",
-      "암포테리신 B"
+      "captopril",
+      "카프토프릴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQW1waG90ZXJpY2luQi5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQ2FwdG9wcmlsLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQW1waWNpbGxpbi5tZA",
-    "title": "Ampicillin",
-    "category": "감염 > 항균 > 페니실린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQ2FydmVkaWxvbC5tZA",
+    "title": "Carvedilol",
+    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
     "aliases": [
-      "ampicillin",
-      "암피실린"
+      "carvedilol",
+      "카르베디롤"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQW1waWNpbGxpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQ2FydmVkaWxvbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQW1waWNpbGxpblN1bGJhY3RhbS5tZA",
-    "title": "AmpicillinSulbactam",
-    "category": "감염 > 항균 > 베타락탐·베타락타마제 억제제",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQ2hsb3J0aGFsaWRvbmUubWQ",
+    "title": "Chlorthalidone",
+    "category": "심혈계 > 혈압·심부전·신 > 티아지드계 이뇨제",
     "aliases": [
-      "ampicillin sulbactam",
-      "암피실린·설박탐"
+      "chlorthalidone",
+      "클로르탈리돈"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQW1waWNpbGxpblN1bGJhY3RhbS5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQ2hsb3J0aGFsaWRvbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQW5pZHVsYWZ1bmdpbi5tZA",
-    "title": "Anidulafungin",
-    "category": "감염 > 항진균 > 에키노캔딘",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQ2lsb3N0YXpvbC5tZA",
+    "title": "Cilostazol",
+    "category": "심혈계 > 동맥혈전 예방 > PDE 억제",
     "aliases": [
-      "anidulafungin",
-      "아니둘라펀진"
+      "cilostazol",
+      "실로스타졸"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQW5pZHVsYWZ1bmdpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQ2lsb3N0YXpvbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQXJ0ZW1ldGhlckx1bWVmYW50cmluZS5tZA",
-    "title": "ArtemetherLumefantrine",
-    "category": "감염 > 기생충 > 항말라리아",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQ2xvcGlkb2dyZWwubWQ",
+    "title": "Clopidogrel",
+    "category": "심혈계 > 동맥혈전 예방 > P2Y12 억제제",
     "aliases": [
-      "artemether lumefantrine",
-      "아르테메터·루메판트린"
+      "clopidogrel",
+      "클로피도그렐"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQXJ0ZW1ldGhlckx1bWVmYW50cmluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvQ2xvcGlkb2dyZWwubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQXppdGhyb215Y2luLm1k",
-    "title": "Azithromycin",
-    "category": "감염 > 항균 > 마크롤라이드",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRGlnb3hpbi5tZA",
+    "title": "Digoxin",
+    "category": "심혈계 > 부정맥·심부전 > 강심 배당체",
     "aliases": [
-      "azithromycin",
-      "아지스로마이신"
+      "digoxin",
+      "디곡신"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQXppdGhyb215Y2luLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRGlnb3hpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQXp0cmVvbmFtLm1k",
-    "title": "Aztreonam",
-    "category": "감염 > 항균 > 모노박탐",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRGlsdGlhemVtLm1k",
+    "title": "Diltiazem",
+    "category": "심혈계 > 혈압·심부전·신 > 칼슘채널차단제",
     "aliases": [
-      "aztreonam",
-      "아즈트레오남"
+      "diltiazem",
+      "딜티아젬"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQXp0cmVvbmFtLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRGlsdGlhemVtLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQmVuenlscGVuaWNpbGxpbi5tZA",
-    "title": "Benzylpenicillin",
-    "category": "감염 > 항균 > 페니실린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRGlweXJpZGFtb2xlLm1k",
+    "title": "Dipyridamole",
+    "category": "심혈계 > 동맥혈전 예방 > 항혈소판",
     "aliases": [
-      "benzylpenicillin",
-      "penicillin G",
-      "벤질페니실린"
+      "dipyridamole",
+      "디피리다몰"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQmVuenlscGVuaWNpbGxpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRGlweXJpZGFtb2xlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQ2FzcG9mdW5naW4ubWQ",
-    "title": "Caspofungin",
-    "category": "감염 > 항진균 > 에키노캔딘",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRG9idXRhbWluZS5tZA",
+    "title": "Dobutamine",
+    "category": "심혈계 > 쇼크·응급 > 강심제",
     "aliases": [
-      "caspofungin",
-      "카스포펀진"
+      "dobutamine",
+      "도부타민"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2FzcG9mdW5naW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRG9idXRhbWluZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQ2VmYXpvbGluLm1k",
-    "title": "Cefazolin",
-    "category": "감염 > 항균 > 세팔로스포린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ",
+    "title": "Dopamine",
+    "category": "심혈계 > 쇼크·응급 > 카테콜아민",
     "aliases": [
-      "cefazolin",
-      "세파졸린"
+      "dopamine",
+      "도파민"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2VmYXpvbGluLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQ2VmZXBpbWUubWQ",
-    "title": "Cefepime",
-    "category": "감염 > 항균 > 세팔로스포린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRHJvbmVkYXJvbmUubWQ",
+    "title": "Dronedarone",
+    "category": "심혈계 > 부정맥 > III류 항부정맥",
     "aliases": [
-      "cefepime",
-      "세페핌"
+      "dronedarone",
+      "드로네다론"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2VmZXBpbWUubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRHJvbmVkYXJvbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQ2VmaWRlcm9jb2wubWQ",
-    "title": "Cefiderocol",
-    "category": "감염 > 항균 > 세팔로스포린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k",
+    "title": "Enalapril",
+    "category": "심혈계 > 혈압·심부전·신 > ACE 억제제",
     "aliases": [
-      "cefiderocol",
-      "세피데로콜"
+      "enalapril",
+      "에날라프릴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2VmaWRlcm9jb2wubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQ2Vmb3RheGltZS5tZA",
-    "title": "Cefotaxime",
-    "category": "감염 > 항균 > 세팔로스포린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ",
+    "title": "Epinephrine",
+    "category": "심혈계 > 쇼크·응급 > 카테콜아민",
     "aliases": [
-      "cefotaxime",
-      "세포탁심"
+      "epinephrine",
+      "에피네프린"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2Vmb3RheGltZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQ2VmdGF6aWRpbWUubWQ",
-    "title": "Ceftazidime",
-    "category": "감염 > 항균 > 세팔로스포린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRXBsZXJlbm9uZS5tZA",
+    "title": "Eplerenone",
+    "category": "심혈계 > 혈압·심부전·신 > 알도스테론 길항제",
     "aliases": [
-      "ceftazidime",
-      "세프타지딤"
+      "eplerenone",
+      "에플레레논"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2VmdGF6aWRpbWUubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRXBsZXJlbm9uZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQ2VmdHJpYXhvbmUubWQ",
-    "title": "Ceftriaxone",
-    "category": "감염 > 베타락탐 > 3세대 cephalosporin",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRXNtb2xvbC5tZA",
+    "title": "Esmolol",
+    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
     "aliases": [
-      "ceftriaxone",
-      "세프트리악손"
+      "esmolol",
+      "에스몰롤"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2VmdHJpYXhvbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRXNtb2xvbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQ2VmdXJveGltZS5tZA",
-    "title": "Cefuroxime",
-    "category": "감염 > 항균 > 세팔로스포린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRXRoYWNyeW5pY0FjaWQubWQ",
+    "title": "EthacrynicAcid",
+    "category": "심혈계 > 혈압·심부전·신 > 루프 이뇨제",
     "aliases": [
-      "cefuroxime",
-      "세푸록심"
+      "ethacrynic acid",
+      "에타크린산"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2VmdXJveGltZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRXRoYWNyeW5pY0FjaWQubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQ2VwaGFsZXhpbi5tZA",
-    "title": "Cephalexin",
-    "category": "감염 > 항균 > 세팔로스포린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRXZvbG9jdW1hYi5tZA",
+    "title": "Evolocumab",
+    "category": "심혈계 > 지질 > PCSK9 억제제",
     "aliases": [
-      "cephalexin",
-      "세팔렉신"
+      "evolocumab",
+      "에볼로쿠맙"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2VwaGFsZXhpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRXZvbG9jdW1hYi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQ2hsb3JvcXVpbmUubWQ",
-    "title": "Chloroquine",
-    "category": "감염 > 기생충 > 항말라리아",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRXpldGltaWJlLm1k",
+    "title": "Ezetimibe",
+    "category": "심혈계 > 지질 > 콜레스테론 흡수 억제제",
     "aliases": [
-      "chloroquine",
-      "클로로퀸"
+      "ezetimibe",
+      "에제티미브"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2hsb3JvcXVpbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRXpldGltaWJlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA",
-    "title": "Ciprofloxacin",
-    "category": "감염 > 항균 > 퀴놀론",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRmVsb2RpcGluZS5tZA",
+    "title": "Felodipine",
+    "category": "심혈계 > 혈압·심부전·신 > 칼슘채널차단제",
     "aliases": [
-      "ciprofloxacin",
-      "시프로플록사신"
+      "felodipine",
+      "펠로디핀"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRmVsb2RpcGluZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQ2xhcml0aHJvbXljaW4ubWQ",
-    "title": "Clarithromycin",
-    "category": "감염 > 항균 > 마크롤라이드",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRmVub2ZpYnJhdGUubWQ",
+    "title": "Fenofibrate",
+    "category": "심혈계 > 지질 > 피브레이트",
     "aliases": [
-      "clarithromycin",
-      "클래리스로마이신"
+      "fenofibrate",
+      "페노피브레이트"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2xhcml0aHJvbXljaW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRmVub2ZpYnJhdGUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQ2xpbmRhbXljaW4ubWQ",
-    "title": "Clindamycin",
-    "category": "감염 > 항균 > 린코사마이드",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRmxlY2FpbmlkZS5tZA",
+    "title": "Flecainide",
+    "category": "심혈계 > 부정맥 > I류 항부정맥",
     "aliases": [
-      "clindamycin",
-      "클린다마이신"
+      "flecainide",
+      "플레카이니드"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ2xpbmRhbXljaW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRmxlY2FpbmlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvQ29saXN0aW4ubWQ",
-    "title": "Colistin",
-    "category": "감염 > 항균 > polymyxin",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRmx1dmFzdGF0aW4ubWQ",
+    "title": "Fluvastatin",
+    "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
     "aliases": [
-      "colistin",
-      "콜리스틴"
+      "fluvastatin",
+      "플루바스타틴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvQ29saXN0aW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRmx1dmFzdGF0aW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvRGFwdG9teWNpbi5tZA",
-    "title": "Daptomycin",
-    "category": "감염 > 항균 > 리포펩타이드",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRm9zaW5vcHJpbC5tZA",
+    "title": "Fosinopril",
+    "category": "심혈계 > 혈압·심부전·신 > ACE 억제제",
     "aliases": [
-      "daptomycin",
-      "답토마이신"
+      "fosinopril",
+      "포시노프릴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvRGFwdG9teWNpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRm9zaW5vcHJpbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
-    "title": "Doxycycline",
-    "category": "감염 > 항균 > 테트라사이클린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRnVyb3NlbWlkZS5tZA",
+    "title": "Furosemide",
+    "category": "심혈계 > 혈압·심부전·신 > 루프 이뇨제",
     "aliases": [
-      "doxycycline",
-      "독시사이클린"
+      "furosemide",
+      "푸로세마이드"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvRG94eWN5Y2xpbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvRnVyb3NlbWlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvRXJ0YXBlbmVtLm1k",
-    "title": "Ertapenem",
-    "category": "감염 > 항균 > 카바페넴",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvR2VtZmlicm96aWwubWQ",
+    "title": "Gemfibrozil",
+    "category": "심혈계 > 지질 > 피브레이트",
     "aliases": [
-      "ertapenem",
-      "에르타페넴"
+      "gemfibrozil",
+      "젬피브로질"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvRXJ0YXBlbmVtLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvR2VtZmlicm96aWwubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvRXJ5dGhyb215Y2luLm1k",
-    "title": "Erythromycin",
-    "category": "감염 > 항균 > 마크롤라이드",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcmFsYXppbmUubWQ",
+    "title": "Hydralazine",
+    "category": "심혈계 > 혈압·심부전·신 > 직접 혈관확장제",
     "aliases": [
-      "erythromycin",
-      "에리스로마이신"
+      "hydralazine",
+      "하이드랄라진"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvRXJ5dGhyb215Y2luLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcmFsYXppbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvRXRoYW1idXRvbC5tZA",
-    "title": "Ethambutol",
-    "category": "감염 > 항결핵 > 1차 항결핵제",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA",
+    "title": "Hydrochlorothiazide",
+    "category": "심혈계 > 혈압·심부전·신 > 티아지드계 이뇨제",
     "aliases": [
-      "ethambutol",
-      "에탐부톨"
+      "hydrochlorothiazide",
+      "히드로클로로티아지드"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvRXRoYW1idXRvbC5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvRmlkYXhvbWljaW4ubWQ",
-    "title": "Fidaxomicin",
-    "category": "감염 > 항균 > C. difficile",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvSW5kYXBhbWlkZS5tZA",
+    "title": "Indapamide",
+    "category": "심혈계 > 혈압·심부전·신 > 티아지드계 이뇨제",
     "aliases": [
-      "fidaxomicin",
-      "피닥소마이신"
+      "indapamide",
+      "인다파마이드"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvRmlkYXhvbWljaW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvSW5kYXBhbWlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvRmx1Y2xveGFjaWxsaW4ubWQ",
-    "title": "Flucloxacillin",
-    "category": "감염 > 항균 > 페니실린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvSXJiZXNhcnRhbi5tZA",
+    "title": "Irbesartan",
+    "category": "심혈계 > 혈압·심부전·신 > ARB",
     "aliases": [
-      "flucloxacillin",
-      "플루클록사실린"
+      "irbesartan",
+      "이르베사르탄"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvRmx1Y2xveGFjaWxsaW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvSXJiZXNhcnRhbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvRmx1Y29uYXpvbGUubWQ",
-    "title": "Fluconazole",
-    "category": "감염 > 항진균 > 아졸계",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvSXNvc29yYmlkZU1vbm9uaXRyYXRlLm1k",
+    "title": "IsosorbideMononitrate",
+    "category": "심혈계 > 관상동맥·혈관 > 질산염",
     "aliases": [
-      "fluconazole",
-      "플루코나졸"
+      "isosorbide mononitrate",
+      "이소소르비드 모노니트레이트"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvRmx1Y29uYXpvbGUubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvSXNvc29yYmlkZU1vbm9uaXRyYXRlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvRm9zZm9teWNpbi5tZA",
-    "title": "Fosfomycin",
-    "category": "감염 > 항균 > 포스포마이신",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvSXZhYnJhZGluZS5tZA",
+    "title": "Ivabradine",
+    "category": "심혈계 > 부정맥·협심 > If 채널 억제",
     "aliases": [
-      "fosfomycin",
-      "포스포마이신"
+      "ivabradine",
+      "이바브라딘"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvRm9zZm9teWNpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvSXZhYnJhZGluZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvR2FuY2ljbG92aXIubWQ",
-    "title": "Ganciclovir",
-    "category": "감염 > 항바이러스 > CMV",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTGFiZXRhbG9sLm1k",
+    "title": "Labetalol",
+    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
     "aliases": [
-      "ganciclovir",
-      "간시클로버"
+      "labetalol",
+      "라베타롤"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvR2FuY2ljbG92aXIubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvTGFiZXRhbG9sLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvR2VudGFtaWNpbi5tZA",
-    "title": "Gentamicin",
-    "category": "감염 > 항균 > 아미노글리코사이드",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA",
+    "title": "Lisinopril",
+    "category": "심혈계 > 혈압·심부전·신 > ACE 억제제",
     "aliases": [
-      "gentamicin",
-      "겐타마이신"
+      "lisinopril",
+      "리시노프릴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvR2VudGFtaWNpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvSW1pcGVuZW1DaWxhc3RhdGluLm1k",
-    "title": "ImipenemCilastatin",
-    "category": "감염 > 항균 > 카바페넴",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTG9zYXJ0YW4ubWQ",
+    "title": "Losartan",
+    "category": "심혈계 > 혈압·심부전·신 > ARB",
     "aliases": [
-      "imipenem cilastatin",
-      "이미페넴·실라스타틴"
+      "losartan",
+      "로사르탄"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvSW1pcGVuZW1DaWxhc3RhdGluLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvTG9zYXJ0YW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvSXNvbmlhemlkLm1k",
-    "title": "Isoniazid",
-    "category": "감염 > 항결핵 > 1차 항결핵제",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTG92YXN0YXRpbi5tZA",
+    "title": "Lovastatin",
+    "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
     "aliases": [
-      "isoniazid",
-      "이소니아지드"
+      "lovastatin",
+      "로바스타틴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvSXNvbmlhemlkLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvTG92YXN0YXRpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvSXZlcm1lY3Rpbi5tZA",
-    "title": "Ivermectin",
-    "category": "감염 > 기생충 > 구충제",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b2xhem9uZS5tZA",
+    "title": "Metolazone",
+    "category": "심혈계 > 혈압·심부전·신 > 티아지드계 이뇨제",
     "aliases": [
-      "ivermectin",
-      "이버멕틴"
+      "metolazone",
+      "메톨라존"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvSXZlcm1lY3Rpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b2xhem9uZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvTGV2b2Zsb3hhY2luLm1k",
-    "title": "Levofloxacin",
-    "category": "감염 > 항균 > 퀴놀론",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA",
+    "title": "Metoprolol",
+    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
     "aliases": [
-      "levofloxacin",
-      "레보플록사신"
+      "metoprolol",
+      "메토프롤롤"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvTGV2b2Zsb3hhY2luLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvTGluZXpvbGlkLm1k",
-    "title": "Linezolid",
-    "category": "감염 > 항균 > 옥사졸리디논",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTmViaXZvbG9sLm1k",
+    "title": "Nebivolol",
+    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
     "aliases": [
-      "linezolid",
-      "리네졸리드"
+      "nebivolol",
+      "네비볼롤"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvTGluZXpvbGlkLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvTmViaXZvbG9sLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvTWVyb3BlbmVtLm1k",
-    "title": "Meropenem",
-    "category": "감염 > 항균 > 카바페넴",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTmljYXJkaXBpbmUubWQ",
+    "title": "Nicardipine",
+    "category": "심혈계 > 혈압·심부전·신 > 칼슘채널차단제",
     "aliases": [
-      "meropenem",
-      "메로페넴"
+      "nicardipine",
+      "니카르디핀"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvTWVyb3BlbmVtLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvTmljYXJkaXBpbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA",
-    "title": "Metronidazole",
-    "category": "감염 > 항균 > 니트로이미다졸",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA",
+    "title": "Nifedipine",
+    "category": "심혈계 > 혈압·심부전·신 > 칼슘채널차단제",
     "aliases": [
-      "metronidazole",
-      "메트로니다졸"
+      "nifedipine",
+      "니페디핀"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvTWljYWZ1bmdpbi5tZA",
-    "title": "Micafungin",
-    "category": "감염 > 항진균 > 에키노캔딘",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA",
+    "title": "Nitroglycerin",
+    "category": "심혈계 > 관상동맥·혈관 > 질산염",
     "aliases": [
-      "micafungin",
-      "미카펀진"
+      "nitroglycerin",
+      "니트로글리세린"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvTWljYWZ1bmdpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvTWlub2N5Y2xpbmUubWQ",
-    "title": "Minocycline",
-    "category": "감염 > 항균 > 테트라사이클린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ",
+    "title": "Norepinephrine",
+    "category": "심혈계 > 쇼크·응급 > 카테콜아민",
     "aliases": [
-      "minocycline",
-      "미노사이클린"
+      "norepinephrine",
+      "노르에피네프린"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvTWlub2N5Y2xpbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvTW94aWZsb3hhY2luLm1k",
-    "title": "Moxifloxacin",
-    "category": "감염 > 항균 > 퀴놀론",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvT2xtZXNhcnRhbi5tZA",
+    "title": "Olmesartan",
+    "category": "심혈계 > 혈압·심부전·신 > ARB",
     "aliases": [
-      "moxifloxacin",
-      "목시플록사신"
+      "olmesartan",
+      "올메사르탄"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvTW94aWZsb3hhY2luLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvT2xtZXNhcnRhbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvTmFmY2lsbGluLm1k",
-    "title": "Nafcillin",
-    "category": "감염 > 항균 > 페니실린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUGVyaW5kb3ByaWwubWQ",
+    "title": "Perindopril",
+    "category": "심혈계 > 혈압·심부전·신 > ACE 억제제",
     "aliases": [
-      "nafcillin",
-      "나프실린"
+      "perindopril",
+      "페린도프릴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvTmFmY2lsbGluLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvUGVyaW5kb3ByaWwubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvTml0cm9mdXJhbnRvaW4ubWQ",
-    "title": "Nitrofurantoin",
-    "category": "감염 > 항균 > 요로",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUGhlbnlsZXBocmluZS5tZA",
+    "title": "Phenylephrine",
+    "category": "심혈계 > 쇼크·응급 > 혈관작용제",
     "aliases": [
-      "nitrofurantoin",
-      "니트로퓨란토인"
+      "phenylephrine",
+      "페닐에프린"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvTml0cm9mdXJhbnRvaW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvUGhlbnlsZXBocmluZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvT3NlbHRhbWl2aXIubWQ",
-    "title": "Oseltamivir",
-    "category": "감염 > 항바이러스 > 네우라미니다제 억제",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUGl0YXZhc3RhdGluLm1k",
+    "title": "Pitavastatin",
+    "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
     "aliases": [
-      "oseltamivir",
-      "오셀타미비르"
+      "pitavastatin",
+      "피타바스타틴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvT3NlbHRhbWl2aXIubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvUGl0YXZhc3RhdGluLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvT3hhY2lsbGluLm1k",
-    "title": "Oxacillin",
-    "category": "감염 > 항균 > 페니실린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUHJhc3VncmVsLm1k",
+    "title": "Prasugrel",
+    "category": "심혈계 > 동맥혈전 예방 > P2Y12 억제제",
     "aliases": [
-      "oxacillin",
-      "옥사실린"
+      "prasugrel",
+      "프라수그렐"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvT3hhY2lsbGluLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvUHJhc3VncmVsLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvUGlwZXJhY2lsbGluVGF6b2JhY3RhbS5tZA",
-    "title": "PiperacillinTazobactam",
-    "category": "감염 > 항균 > 우레이도페니실린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUHJhdmFzdGF0aW4ubWQ",
+    "title": "Pravastatin",
+    "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
     "aliases": [
-      "piperacillin tazobactam",
-      "피페라실린·타조박탐"
+      "pravastatin",
+      "프라바스타틴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvUGlwZXJhY2lsbGluVGF6b2JhY3RhbS5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvUHJhdmFzdGF0aW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvUG9seW15eGluQi5tZA",
-    "title": "PolymyxinB",
-    "category": "감염 > 항균 > polymyxin",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcGFmZW5vbmUubWQ",
+    "title": "Propafenone",
+    "category": "심혈계 > 부정맥 > Ic류 항부정맥",
     "aliases": [
-      "polymyxin b",
-      "폴리믹신 B"
+      "propafenone",
+      "프로파페논"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvUG9seW15eGluQi5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcGFmZW5vbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvUG9zYWNvbmF6b2xlLm1k",
-    "title": "Posaconazole",
-    "category": "감염 > 항진균 > 아졸계",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ",
+    "title": "Propranolol",
+    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
     "aliases": [
-      "posaconazole",
-      "포사코나졸"
+      "propranolol",
+      "프로프라놀롤"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvUG9zYWNvbmF6b2xlLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvUHJhemlxdWFudGVsLm1k",
-    "title": "Praziquantel",
-    "category": "감염 > 기생충 > 구충제",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUXVpbmFwcmlsLm1k",
+    "title": "Quinapril",
+    "category": "심혈계 > 혈압·심부전·신 > ACE 억제제",
     "aliases": [
-      "praziquantel",
-      "프라지콴텔"
+      "quinapril",
+      "퀴나프릴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvUHJhemlxdWFudGVsLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvUXVpbmFwcmlsLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvUHlyYXppbmFtaWRlLm1k",
-    "title": "Pyrazinamide",
-    "category": "감염 > 항결핵 > 1차 항결핵제",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUmFtaXByaWwubWQ",
+    "title": "Ramipril",
+    "category": "심혈계 > 혈압·심부전·신 > ACE 억제제",
     "aliases": [
-      "pyrazinamide",
-      "피라진아마이드"
+      "ramipril",
+      "라미프릴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvUHlyYXppbmFtaWRlLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvUmFtaXByaWwubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvUmlmYW1waW4ubWQ",
-    "title": "Rifampin",
-    "category": "감염 > 항결핵 > 리팜이신",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUmFub2xhemluZS5tZA",
+    "title": "Ranolazine",
+    "category": "심혈계 > 관상동맥·혈관 > 항협심(기타)",
     "aliases": [
-      "rifampin",
-      "리팜핀"
+      "ranolazine",
+      "라노라진"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvUmlmYW1waW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvUmFub2xhemluZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvUml0b25hdmlyLm1k",
-    "title": "Ritonavir",
-    "category": "감염 > 항바이러스 > HIV 프로테아제",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUm9zdXZhc3RhdGluLm1k",
+    "title": "Rosuvastatin",
+    "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
     "aliases": [
-      "ritonavir",
-      "리토나비르"
+      "rosuvastatin",
+      "로수바스타틴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvUml0b25hdmlyLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvUm9zdXZhc3RhdGluLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA",
-    "title": "Sulfamethoxazole",
-    "category": "감염 > 항균 > 설폰아미드",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvU2FjdWJpdHJpbC5tZA",
+    "title": "Sacubitril",
+    "category": "심혈계 > 혈압·심부전·신 > ARNI(성분)",
     "aliases": [
-      "sulfamethoxazole",
-      "설파메톡사졸"
+      "sacubitril",
+      "사쿠비트릴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvU2FjdWJpdHJpbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvVGVub2ZvdmlyQWxhZmVuYW1pZGUubWQ",
-    "title": "TenofovirAlafenamide",
-    "category": "감염 > 항바이러스 > HBV/HIV",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvU2FjdWJpdHJpbFZhbHNhcnRhbi5tZA",
+    "title": "SacubitrilValsartan",
+    "category": "심혈계 > 혈압·심부전·신 > ARNI",
     "aliases": [
-      "tenofovir alafenamide",
-      "TAF",
-      "테노포비르 알라페나마이드"
+      "sacubitril valsartan",
+      "사쿠비트릴·발사르탄"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvVGVub2ZvdmlyQWxhZmVuYW1pZGUubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvU2FjdWJpdHJpbFZhbHNhcnRhbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvVGVyYmluYWZpbmUubWQ",
-    "title": "Terbinafine",
-    "category": "감염 > 항진균 > 알릴라민",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvU2ltdmFzdGF0aW4ubWQ",
+    "title": "Simvastatin",
+    "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
     "aliases": [
-      "terbinafine",
-      "테르비나핀"
+      "simvastatin",
+      "시머바스타틴"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvVGVyYmluYWZpbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvU2ltdmFzdGF0aW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvVGlnZWN5Y2xpbmUubWQ",
-    "title": "Tigecycline",
-    "category": "감염 > 항균 > 글리실사이클린",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvU290YWxvbC5tZA",
+    "title": "Sotalol",
+    "category": "심혈계 > 부정맥 > III류 항부정맥",
     "aliases": [
-      "tigecycline",
-      "타이게사이클린"
+      "sotalol",
+      "소타롤"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvVGlnZWN5Y2xpbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvU290YWxvbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvVHJpbWV0aG9wcmltLm1k",
-    "title": "Trimethoprim",
-    "category": "감염 > 항균 > 항균(요로)",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvU3Bpcm9ub2xhY3RvbmUubWQ",
+    "title": "Spironolactone",
+    "category": "심혈계 > 혈압·심부전·신 > 알도스테론 길항제",
     "aliases": [
-      "trimethoprim",
-      "트리메토프림"
+      "spironolactone",
+      "스피로노락톤"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvVHJpbWV0aG9wcmltLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvU3Bpcm9ub2xhY3RvbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvVHJpbWV0aG9wcmltU3VsZmFtZXRob3hhem9sZS5tZA",
-    "title": "TrimethoprimSulfamethoxazole",
-    "category": "감염 > 항균 > 설폰아미드",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvVGVsbWlzYXJ0YW4ubWQ",
+    "title": "Telmisartan",
+    "category": "심혈계 > 혈압·심부전·신 > ARB",
     "aliases": [
-      "trimethoprim sulfamethoxazole",
-      "트리메토프림·설파메톡사졸"
+      "telmisartan",
+      "텔미사르탄"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvVHJpbWV0aG9wcmltU3VsZmFtZXRob3hhem9sZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvVGVsbWlzYXJ0YW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvVmFsYWN5Y2xvdmlyLm1k",
-    "title": "Valacyclovir",
-    "category": "감염 > 항바이러스 > 헤르페스",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvVGljYWdyZWxvci5tZA",
+    "title": "Ticagrelor",
+    "category": "심혈계 > 동맥혈전 예방 > P2Y12 억제제",
     "aliases": [
-      "valacyclovir",
-      "발라시클로버"
+      "ticagrelor",
+      "티카그렐로"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvVmFsYWN5Y2xvdmlyLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvVGljYWdyZWxvci5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvVmFsZ2FuY2ljbG92aXIubWQ",
-    "title": "Valganciclovir",
-    "category": "감염 > 항바이러스 > CMV",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvVG9yc2VtaWRlLm1k",
+    "title": "Torsemide",
+    "category": "심혈계 > 혈압·심부전·신 > 루프 이뇨제",
     "aliases": [
-      "valganciclovir",
-      "발간시클로비르"
+      "torsemide",
+      "토르세마이드"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvVmFsZ2FuY2ljbG92aXIubWQ"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvVG9yc2VtaWRlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvVmFuY29teWNpbi5tZA",
-    "title": "Vancomycin",
-    "category": "감염 > 항균 > 글리코펩타이드",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvVmFsc2FydGFuLm1k",
+    "title": "Valsartan",
+    "category": "심혈계 > 혈압·심부전·신 > ARB",
     "aliases": [
-      "vancomycin",
-      "반코마이신"
+      "valsartan",
+      "발사르탄"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvVmFuY29teWNpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvVmFsc2FydGFuLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrqsJDsl7wvVm9yaWNvbmF6b2xlLm1k",
-    "title": "Voriconazole",
-    "category": "감염 > 항진균 > 아졸계",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvVmFzb3ByZXNzaW4ubWQ",
+    "title": "Vasopressin",
+    "category": "심혈계 > 쇼크·응급 > 혈관작용제",
     "aliases": [
-      "voriconazole",
-      "보리코나졸"
+      "vasopressin",
+      "바소프레신"
     ],
-    "href": "/drugs/ZHJ1ZzrqsJDsl7wvVm9yaWNvbmF6b2xlLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvVmFzb3ByZXNzaW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0JhY2xvZmVuLm1k",
-    "title": "Baclofen",
-    "category": "근골격·통증·마취 > 근이완",
+    "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvVmVyYXBhbWlsLm1k",
+    "title": "Verapamil",
+    "category": "심혈계 > 혈압·심부전·신 > 칼슘채널차단제",
     "aliases": [
-      "baclofen",
-      "박로펜"
+      "verapamil",
+      "베라파밀"
     ],
-    "href": "/drugs/ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0JhY2xvZmVuLm1k"
+    "href": "/drugs/ZHJ1ZzowMSDsi6ztmIjqs4QvVmVyYXBhbWlsLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0RleG1lZGV0b21pZGluZS5tZA",
-    "title": "Dexmedetomidine",
-    "category": "근골격·통증·마취 > 진정 > alpha2 작용제",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvQWNsaWRpbml1bS5tZA",
+    "title": "Aclidinium",
+    "category": "호흡기 > 기도 확장 > LAMA",
     "aliases": [
-      "dexmedetomidine",
-      "덱스메데토미딘"
+      "aclidinium",
+      "아클리디니움"
     ],
-    "href": "/drugs/ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0RleG1lZGV0b21pZGluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvQWNsaWRpbml1bS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldGFtaW5lLm1k",
-    "title": "Ketamine",
-    "category": "근골격·통증·마취 > 마취 > 전신마취",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvQmVjbG9tZXRhc29uZS5tZA",
+    "title": "Beclometasone",
+    "category": "호흡기 > 염증 조절 > 흡입 코르티코스테로이드",
     "aliases": [
-      "ketamine",
-      "케타민"
+      "beclometasone",
+      "베클로메타손"
     ],
-    "href": "/drugs/ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldGFtaW5lLm1k"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvQmVjbG9tZXRhc29uZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldG9yb2xhYy5tZA",
-    "title": "Ketorolac",
-    "category": "근골격·통증·마취 > 진통 > NSAID",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvQnVkZXNvbmlkZS5tZA",
+    "title": "Budesonide",
+    "category": "호흡기 > 염증 조절 > 흡입 코르티코스테로이드",
     "aliases": [
-      "ketorolac",
-      "케토롤락"
+      "budesonide",
+      "부데소니드"
     ],
-    "href": "/drugs/ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldG9yb2xhYy5tZA"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvQnVkZXNvbmlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0xpZG9jYWluZS5tZA",
-    "title": "Lidocaine",
-    "category": "근골격·통증·마취 > 마취 > 국소마취",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvQnVkZXNvbmlkZUZvcm1vdGVyb2wubWQ",
+    "title": "BudesonideFormoterol",
+    "category": "호흡기 > 염증 조절 > ICS/LABA 복합제",
     "aliases": [
-      "lidocaine",
-      "리도카인"
+      "budesonide formoterol",
+      "부데소니드·포르모테롤"
     ],
-    "href": "/drugs/ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0xpZG9jYWluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvQnVkZXNvbmlkZUZvcm1vdGVyb2wubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Byb3BvZm9sLm1k",
-    "title": "Propofol",
-    "category": "근골격·통증·마취 > 마취 > 전신마취",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvQ2ljbGVzb25pZGUubWQ",
+    "title": "Ciclesonide",
+    "category": "호흡기 > 염증 조절 > 흡입 코르티코스테로이드",
     "aliases": [
-      "propofol",
-      "프로포폴"
+      "ciclesonide",
+      "시클레소니드"
     ],
-    "href": "/drugs/ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Byb3BvZm9sLm1k"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvQ2ljbGVzb25pZGUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1JvY3Vyb25pdW0ubWQ",
-    "title": "Rocuronium",
-    "category": "근골격·통증·마취 > 마취 > 근이완(비탈축)",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ",
+    "title": "Fluticasone",
+    "category": "호흡기 > 염증 조절 > 흡입 코르티코스테로이드",
     "aliases": [
-      "rocuronium",
-      "로쿠로니움"
+      "fluticasone",
+      "플루티카손"
     ],
-    "href": "/drugs/ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1JvY3Vyb25pdW0ubWQ"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Nldm9mbHVyYW5lLm1k",
-    "title": "Sevoflurane",
-    "category": "근골격·통증·마취 > 마취 > 흡입 마취",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmVTYWxtZXRlcm9sLm1k",
+    "title": "FluticasoneSalmeterol",
+    "category": "호흡기 > 염증 조절 > ICS/LABA 복합제",
     "aliases": [
-      "sevoflurane",
-      "세보플루란"
+      "fluticasone salmeterol",
+      "플루티카손·살메테롤"
     ],
-    "href": "/drugs/ZHJ1Zzrqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Nldm9mbHVyYW5lLm1k"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmVTYWxtZXRlcm9sLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9BY2FyYm9zZS5tZA",
-    "title": "Acarbose",
-    "category": "내분비·대사 > 당뇨 > 알파글루코시다제 억제제",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvRm9ybW90ZXJvbC5tZA",
+    "title": "Formoterol",
+    "category": "호흡기 > 기도 확장 > LABA",
     "aliases": [
-      "acarbose",
-      "아카보스"
+      "formoterol",
+      "포모테롤"
     ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9BY2FyYm9zZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvRm9ybW90ZXJvbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9BbGVuZHJvbmF0ZS5tZA",
-    "title": "Alendronate",
-    "category": "내분비·대사 > 골대사 > 비스포스포네이트",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvSW5kYWNhdGVyb2wubWQ",
+    "title": "Indacaterol",
+    "category": "호흡기 > 기도 확장 > LABA",
     "aliases": [
-      "alendronate",
-      "알렌드로네이트"
+      "indacaterol",
+      "인다카테롤"
     ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9BbGVuZHJvbmF0ZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvSW5kYWNhdGVyb2wubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9DYW5hZ2xpZmxvemluLm1k",
-    "title": "Canagliflozin",
-    "category": "내분비·대사 > 당뇨 > SGLT2 억제제",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvSXByYXRyb3BpdW0ubWQ",
+    "title": "Ipratropium",
+    "category": "호흡기 > 기도 확장 > SAMA",
     "aliases": [
-      "canagliflozin",
-      "카나글리플로진"
+      "ipratropium",
+      "이프라트로피움"
     ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9DYW5hZ2xpZmxvemluLm1k"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvSXByYXRyb3BpdW0ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9EYXBhZ2xpZmxvemluLm1k",
-    "title": "Dapagliflozin",
-    "category": "내분비·대사 > 당뇨 > SGLT2 억제제",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvTW9udGVsdWthc3QubWQ",
+    "title": "Montelukast",
+    "category": "호흡기 > 염증 조절 > LTRA",
     "aliases": [
-      "dapagliflozin",
-      "다파글리플로진"
+      "montelukast",
+      "몬테루카스트"
     ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9EYXBhZ2xpZmxvemluLm1k"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvTW9udGVsdWthc3QubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k",
-    "title": "Dexamethasone",
-    "category": "내분비·대사 > 부신·뇌하수체 > 글루코코르티코이드",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvUm9mbHVtaWxhc3QubWQ",
+    "title": "Roflumilast",
+    "category": "호흡기 > 염증 조절 > PDE4 억제",
     "aliases": [
-      "dexamethasone",
-      "덱사메타손"
+      "roflumilast",
+      "로플루밀라스트"
     ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvUm9mbHVtaWxhc3QubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9EdWxhZ2x1dGlkZS5tZA",
-    "title": "Dulaglutide",
-    "category": "내분비·대사 > 당뇨·비만 > GLP-1 수용체 작용제",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvU2FsYnV0YW1vbC5tZA",
+    "title": "Salbutamol",
+    "category": "호흡기 > 기도 확장 > SABA",
     "aliases": [
-      "dulaglutide",
-      "듀라글루타이드"
+      "salbutamol",
+      "살부타몰"
     ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9EdWxhZ2x1dGlkZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvU2FsYnV0YW1vbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9FbXBhZ2xpZmxvemluLm1k",
-    "title": "Empagliflozin",
-    "category": "내분비·대사 > 당뇨 > SGLT2 억제제",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvU2FsbWV0ZXJvbC5tZA",
+    "title": "Salmeterol",
+    "category": "호흡기 > 기도 확장 > LABA",
     "aliases": [
-      "empagliflozin",
-      "엠파글리플로진"
+      "salmeterol",
+      "살메테롤"
     ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9FbXBhZ2xpZmxvemluLm1k"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvU2FsbWV0ZXJvbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9GbHVkcm9jb3J0aXNvbmUubWQ",
-    "title": "Fludrocortisone",
-    "category": "내분비·대사 > 부신·뇌하수체 > 광물코르티코이드",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvVGhlb3BoeWxsaW5lLm1k",
+    "title": "Theophylline",
+    "category": "호흡기 > 기도 확장 > 메틸크산틴",
     "aliases": [
-      "fludrocortisone",
-      "플루드로코르티손"
+      "theophylline",
+      "테오필린"
     ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9GbHVkcm9jb3J0aXNvbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvVGhlb3BoeWxsaW5lLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9HbGljbGF6aWRlLm1k",
-    "title": "Gliclazide",
-    "category": "내분비·대사 > 당뇨 > 술포닐유레아",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvVGlvdHJvcGl1bS5tZA",
+    "title": "Tiotropium",
+    "category": "호흡기 > 기도 확장 > LAMA",
     "aliases": [
-      "gliclazide",
-      "글리클라지드"
+      "tiotropium",
+      "티오트로피움"
     ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9HbGljbGF6aWRlLm1k"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvVGlvdHJvcGl1bS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9HbGltZXBpcmlkZS5tZA",
-    "title": "Glimepiride",
-    "category": "내분비·대사 > 당뇨 > 술포닐유레아",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvVW1lY2xpZGluaXVtLm1k",
+    "title": "Umeclidinium",
+    "category": "호흡기 > 기도 확장 > LAMA",
     "aliases": [
-      "glimepiride",
-      "글리메피리드"
+      "umeclidinium",
+      "우메클리디니움"
     ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9HbGltZXBpcmlkZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvVW1lY2xpZGluaXVtLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluLm1k",
-    "title": "Insulin",
-    "category": "내분비·대사",
-    "aliases": [],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluQXNwYXJ0Lm1k",
-    "title": "InsulinAspart",
-    "category": "내분비·대사 > 당뇨 > 인슐린",
-    "aliases": [
-      "insulin aspart",
-      "인슐린 아스파트"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluQXNwYXJ0Lm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluRGVnbHVkZWMubWQ",
-    "title": "InsulinDegludec",
-    "category": "내분비·대사 > 당뇨 > 인슐린",
-    "aliases": [
-      "insulin degludec",
-      "인슐린 데글루덱"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluRGVnbHVkZWMubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluR2xhcmdpbmUubWQ",
-    "title": "InsulinGlargine",
-    "category": "내분비·대사 > 당뇨 > 인슐린",
-    "aliases": [
-      "insulin glargine",
-      "인슐린 글라진"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluR2xhcmdpbmUubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTGlzcHJvLm1k",
-    "title": "InsulinLispro",
-    "category": "내분비·대사 > 당뇨 > 인슐린",
-    "aliases": [
-      "insulin lispro",
-      "인슐린 리스프로"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTGlzcHJvLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTnBoLm1k",
-    "title": "InsulinNph",
-    "category": "내분비·대사 > 당뇨 > 인슐린",
-    "aliases": [
-      "insulin nph",
-      "인슐린 NPH"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTnBoLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluUmVndWxhci5tZA",
-    "title": "InsulinRegular",
-    "category": "내분비·대사 > 당뇨 > 인슐린",
-    "aliases": [
-      "insulin regular",
-      "인슐린 레귤러"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluUmVndWxhci5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k",
-    "title": "Levothyroxine",
-    "category": "내분비·대사 > 갑상샘 > 갑상선호르몬",
-    "aliases": [
-      "levothyroxine",
-      "레보티록신"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9MaXJhZ2x1dGlkZS5tZA",
-    "title": "Liraglutide",
-    "category": "내분비·대사 > 당뇨·비만 > GLP-1 수용체 작용제",
-    "aliases": [
-      "liraglutide",
-      "리라글루타이드"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9MaXJhZ2x1dGlkZS5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ",
-    "title": "Metformin",
-    "category": "내분비·대사 > 당뇨 > 비구아나이드",
-    "aliases": [
-      "metformin",
-      "메트포민"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9NZXRoaW1hem9sZS5tZA",
-    "title": "Methimazole",
-    "category": "내분비·대사 > 갑상샘 > 항갑상제",
-    "aliases": [
-      "methimazole",
-      "메티마졸"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9NZXRoaW1hem9sZS5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9Pcmxpc3RhdC5tZA",
-    "title": "Orlistat",
-    "category": "내분비·대사 > 비만·대사 > 지방 흡수 억제",
-    "aliases": [
-      "orlistat",
-      "오르리스타트"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9Pcmxpc3RhdC5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9QaW9nbGl0YXpvbmUubWQ",
-    "title": "Pioglitazone",
-    "category": "내분비·대사 > 당뇨 > 티아졸리딘디온",
-    "aliases": [
-      "pioglitazone",
-      "피오글리타존"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9QaW9nbGl0YXpvbmUubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ",
-    "title": "Prednisolone",
-    "category": "내분비·대사 > 부신·뇌하수체 > 글루코코르티코이드",
-    "aliases": [
-      "prednisolone",
-      "프레드니솔론"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9Qcm9weWx0aGlvdXJhY2lsLm1k",
-    "title": "Propylthiouracil",
-    "category": "내분비·대사 > 갑상샘 > 항갑상제",
-    "aliases": [
-      "propylthiouracil",
-      "프로필티오우라실"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9Qcm9weWx0aGlvdXJhY2lsLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9SYWxveGlmZW5lLm1k",
-    "title": "Raloxifene",
-    "category": "내분비·대사 > 골대사 > SERM",
-    "aliases": [
-      "raloxifene",
-      "랄록시펜"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9SYWxveGlmZW5lLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9SZXBhZ2xpbmlkZS5tZA",
-    "title": "Repaglinide",
-    "category": "내분비·대사 > 당뇨 > 메글리티나이드",
-    "aliases": [
-      "repaglinide",
-      "레파글리니드"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9SZXBhZ2xpbmlkZS5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9TZW1hZ2x1dGlkZS5tZA",
-    "title": "Semaglutide",
-    "category": "내분비·대사 > 당뇨·비만 > GLP-1 수용체 작용제",
-    "aliases": [
-      "semaglutide",
-      "세마글루타이드"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9TZW1hZ2x1dGlkZS5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA",
-    "title": "Sitagliptin",
-    "category": "내분비·대사 > 당뇨 > DPP-4 억제제",
-    "aliases": [
-      "sitagliptin",
-      "시타글립틴"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9UZXN0b3N0ZXJvbmUubWQ",
-    "title": "Testosterone",
-    "category": "내분비·대사 > 생식·내분비 > 안드로겐",
-    "aliases": [
-      "testosterone",
-      "테스토스테론"
-    ],
-    "href": "/drugs/ZHJ1ZzrrgrTrtoTruYTCt-uMgOyCrC9UZXN0b3N0ZXJvbmUubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FkYWxpbXVtYWIubWQ",
-    "title": "Adalimumab",
-    "category": "면역·염증·류마티스 > 생물학적제제 > TNF 억제제",
-    "aliases": [
-      "adalimumab",
-      "아달리무맙"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FkYWxpbXVtYWIubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FsbG9wdXJpbm9sLm1k",
-    "title": "Allopurinol",
-    "category": "면역·염증·류마티스 > 통풍 > 요산 저하",
-    "aliases": [
-      "allopurinol",
-      "알로푸리놀"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FsbG9wdXJpbm9sLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0JhcmljaXRpbmliLm1k",
-    "title": "Baricitinib",
-    "category": "면역·염증·류마티스 > 합성 DMARD > JAK 억제제",
-    "aliases": [
-      "baricitinib",
-      "바리시티닙"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0JhcmljaXRpbmliLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NlbGVjb3hpYi5tZA",
-    "title": "Celecoxib",
-    "category": "면역·염증·류마티스 > NSAID > 선택적 COX-2 억제",
-    "aliases": [
-      "celecoxib",
-      "셀레콕시브"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NlbGVjb3hpYi5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NlcnRvbGl6dW1hYlBlZ29sLm1k",
-    "title": "CertolizumabPegol",
-    "category": "면역·염증·류마티스 > 생물학적제제 > TNF 억제제",
-    "aliases": [
-      "certolizumab pegol",
-      "세르톨리주맙 페골"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NlcnRvbGl6dW1hYlBlZ29sLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NvbGNoaWNpbmUubWQ",
-    "title": "Colchicine",
-    "category": "면역·염증·류마티스 > 통풍",
-    "aliases": [
-      "colchicine",
-      "콜히친"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NvbGNoaWNpbmUubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0V0YW5lcmNlcHQubWQ",
-    "title": "Etanercept",
-    "category": "면역·염증·류마티스 > 생물학적제제 > TNF 억제제",
-    "aliases": [
-      "etanercept",
-      "에타너셉트"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0V0YW5lcmNlcHQubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0ZlYnV4b3N0YXQubWQ",
-    "title": "Febuxostat",
-    "category": "면역·염증·류마티스 > 통풍 > 요산 저하",
-    "aliases": [
-      "febuxostat",
-      "페부크소스타트"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0ZlYnV4b3N0YXQubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0dvbGltdW1hYi5tZA",
-    "title": "Golimumab",
-    "category": "면역·염증·류마티스 > 생물학적제제 > TNF 억제제",
-    "aliases": [
-      "golimumab",
-      "골리무맙"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0dvbGltdW1hYi5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA",
-    "title": "Ibuprofen",
-    "category": "면역·염증·류마티스 > NSAID > 비선택적 COX 억제",
-    "aliases": [
-      "ibuprofen",
-      "이부프로펜"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0luZmxpeGltYWIubWQ",
-    "title": "Infliximab",
-    "category": "면역·염증·류마티스 > 생물학적제제 > TNF 억제제",
-    "aliases": [
-      "infliximab",
-      "인플릭시맙"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0luZmxpeGltYWIubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0xlZmx1bm9taWRlLm1k",
-    "title": "Leflunomide",
-    "category": "면역·염증·류마티스 > 합성 DMARD",
-    "aliases": [
-      "leflunomide",
-      "레플루노마이드"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0xlZmx1bm9taWRlLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA",
-    "title": "Methotrexate",
-    "category": "면역·염증·류마티스 > 합성 DMARD",
-    "aliases": [
-      "methotrexate",
-      "메토트렉세이트"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k",
-    "title": "Naproxen",
-    "category": "면역·염증·류마티스 > NSAID > 비선택적 COX 억제",
-    "aliases": [
-      "naproxen",
-      "나프록센"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL09tYWxpenVtYWIubWQ",
-    "title": "Omalizumab",
-    "category": "면역·염증·류마티스 > 알레르기 > 항IgE",
-    "aliases": [
-      "omalizumab",
-      "오말리주맙"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL09tYWxpenVtYWIubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1JpdHV4aW1hYi5tZA",
-    "title": "Rituximab",
-    "category": "면역·염증·류마티스 > 생물학적제제 > CD20",
-    "aliases": [
-      "rituximab",
-      "리툭시맙"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1JpdHV4aW1hYi5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1N1bGZhc2FsYXppbmUubWQ",
-    "title": "Sulfasalazine",
-    "category": "면역·염증·류마티스 > 합성 DMARD",
-    "aliases": [
-      "sulfasalazine",
-      "설파살라진"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1N1bGZhc2FsYXppbmUubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1RvY2lsaXp1bWFiLm1k",
-    "title": "Tocilizumab",
-    "category": "면역·염증·류마티스 > 생물학적제제 > IL-6 억제",
-    "aliases": [
-      "tocilizumab",
-      "토실리주맙"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1RvY2lsaXp1bWFiLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1RvZmFjaXRpbmliLm1k",
-    "title": "Tofacitinib",
-    "category": "면역·염증·류마티스 > 합성 DMARD > JAK 억제제",
-    "aliases": [
-      "tofacitinib",
-      "토파시티닙"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1RvZmFjaXRpbmliLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1VwYWRhY2l0aW5pYi5tZA",
-    "title": "Upadacitinib",
-    "category": "면역·염증·류마티스 > 합성 DMARD > JAK 억제제",
-    "aliases": [
-      "upadacitinib",
-      "우파다시티닙"
-    ],
-    "href": "/drugs/ZHJ1ZzrrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1VwYWRhY2l0aW5pYi5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrruYTrh6jCt-yLoOyepS9BbGZ1em9zaW4ubWQ",
-    "title": "Alfuzosin",
-    "category": "비뇨·신장 > 전립선·배뇨 > α1 차단제",
-    "aliases": [
-      "alfuzosin",
-      "알푸조신"
-    ],
-    "href": "/drugs/ZHJ1ZzrruYTrh6jCt-yLoOyepS9BbGZ1em9zaW4ubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrruYTrh6jCt-yLoOyepS9EdXRhc3RlcmlkZS5tZA",
-    "title": "Dutasteride",
-    "category": "비뇨·신장 > 전립선·배뇨 > 5α 환원효소 억제제",
-    "aliases": [
-      "dutasteride",
-      "두타스테라이드"
-    ],
-    "href": "/drugs/ZHJ1ZzrruYTrh6jCt-yLoOyepS9EdXRhc3RlcmlkZS5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrruYTrh6jCt-yLoOyepS9GaW5hc3RlcmlkZS5tZA",
-    "title": "Finasteride",
-    "category": "비뇨·신장 > 전립선·배뇨 > 5α 환원효소 억제제",
-    "aliases": [
-      "finasteride",
-      "피나스테라이드"
-    ],
-    "href": "/drugs/ZHJ1ZzrruYTrh6jCt-yLoOyepS9GaW5hc3RlcmlkZS5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrruYTrh6jCt-yLoOyepS9UYW1zdWxvc2luLm1k",
-    "title": "Tamsulosin",
-    "category": "비뇨·신장 > 전립선·배뇨 > α1 차단제",
-    "aliases": [
-      "tamsulosin",
-      "탐술로신"
-    ],
-    "href": "/drugs/ZHJ1ZzrruYTrh6jCt-yLoOyepS9UYW1zdWxvc2luLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrsgrDrtoDsnbjqs7zCt-yGjOyVhC9FdGhpbnlsZXN0cmFkaW9sLm1k",
-    "title": "Ethinylestradiol",
-    "category": "산부인과·소아 > 산부인 > 경구피임",
-    "aliases": [
-      "ethinylestradiol",
-      "에티닐에스트라디올"
-    ],
-    "href": "/drugs/ZHJ1ZzrsgrDrtoDsnbjqs7zCt-yGjOyVhC9FdGhpbnlsZXN0cmFkaW9sLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1ZzrsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA",
-    "title": "Oxytocin",
-    "category": "산부인과·소아 > 산부인 > 자궁수축",
+    "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvVmlsYW50ZXJvbC5tZA",
+    "title": "Vilanterol",
+    "category": "호흡기 > 기도 확장 > LABA",
     "aliases": [
-      "oxytocin",
-      "옥시토신"
+      "vilanterol",
+      "빌란테롤"
     ],
-    "href": "/drugs/ZHJ1ZzrsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA"
+    "href": "/drugs/ZHJ1ZzowMiDtmLjtnaHquLAvVmlsYW50ZXJvbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvQmlzYWNvZHlsLm1k",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvQmlzYWNvZHlsLm1k",
     "title": "Bisacodyl",
     "category": "소화기 > 배변 조절 > 자극성 완하",
     "aliases": [
       "bisacodyl",
       "비사코딜"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvQmlzYWNvZHlsLm1k"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvQmlzYWNvZHlsLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvRXNvbWVwcmF6b2xlLm1k",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvRXNvbWVwcmF6b2xlLm1k",
     "title": "Esomeprazole",
     "category": "소화기 > 위산·점막 > PPI",
     "aliases": [
       "esomeprazole",
       "에소메프라졸"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvRXNvbWVwcmF6b2xlLm1k"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvRXNvbWVwcmF6b2xlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvRmFtb3RpZGluZS5tZA",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvRmFtb3RpZGluZS5tZA",
     "title": "Famotidine",
     "category": "소화기 > 위산·점막 > H2 수용체 길항제",
     "aliases": [
       "famotidine",
       "파모티딘"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvRmFtb3RpZGluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvRmFtb3RpZGluZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvR3JhbmlzZXRyb24ubWQ",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvR3JhbmlzZXRyb24ubWQ",
     "title": "Granisetron",
     "category": "소화기 > 구토·항구토 > 5-HT3 길항제",
     "aliases": [
       "granisetron",
       "그라니세트론"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvR3JhbmlzZXRyb24ubWQ"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvR3JhbmlzZXRyb24ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvTGFjdHVsb3NlLm1k",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvTGFjdHVsb3NlLm1k",
     "title": "Lactulose",
     "category": "소화기 > 배변 조절 > 삼투성 완하",
     "aliases": [
       "lactulose",
       "락툴로오스"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvTGFjdHVsb3NlLm1k"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvTGFjdHVsb3NlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvTGFuc29wcmF6b2xlLm1k",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvTGFuc29wcmF6b2xlLm1k",
     "title": "Lansoprazole",
     "category": "소화기 > 위산·점막 > PPI",
     "aliases": [
       "lansoprazole",
       "란소프라졸"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvTGFuc29wcmF6b2xlLm1k"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvTGFuc29wcmF6b2xlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvTG9wZXJhbWlkZS5tZA",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvTG9wZXJhbWlkZS5tZA",
     "title": "Loperamide",
     "category": "소화기 > 배변 조절 > 지사",
     "aliases": [
       "loperamide",
       "로페라마이드"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvTG9wZXJhbWlkZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvTG9wZXJhbWlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvTWFjcm9nb2wubWQ",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvTWFjcm9nb2wubWQ",
     "title": "Macrogol",
     "category": "소화기 > 배변 조절 > 완하",
     "aliases": [
       "macrogol",
       "마크로골"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvTWFjcm9nb2wubWQ"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvTWFjcm9nb2wubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvTWVzYWxhemluZS5tZA",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvTWVzYWxhemluZS5tZA",
     "title": "Mesalazine",
     "category": "소화기 > 염증성 장질환 > 5-ASA",
     "aliases": [
@@ -16138,2174 +15644,2668 @@
       "mesalamine",
       "메살라진"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvTWVzYWxhemluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvTWVzYWxhemluZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvTWV0b2Nsb3ByYW1pZGUubWQ",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvTWV0b2Nsb3ByYW1pZGUubWQ",
     "title": "Metoclopramide",
     "category": "소화기 > 운동 > 프로키네틱",
     "aliases": [
       "metoclopramide",
       "메토클로프라마이드"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvTWV0b2Nsb3ByYW1pZGUubWQ"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvTWV0b2Nsb3ByYW1pZGUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvTWlzb3Byb3N0b2wubWQ",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvTWlzb3Byb3N0b2wubWQ",
     "title": "Misoprostol",
     "category": "소화기 > 위산·점막 > PGE1 유사체",
     "aliases": [
       "misoprostol",
       "미소프로스톨"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvTWlzb3Byb3N0b2wubWQ"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvTWlzb3Byb3N0b2wubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvT21lcHJhem9sZS5tZA",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA",
     "title": "Omeprazole",
     "category": "소화기 > 위산·점막 > PPI",
     "aliases": [
       "omeprazole",
       "오메프라졸"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvT21lcHJhem9sZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvT25kYW5zZXRyb24ubWQ",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvT25kYW5zZXRyb24ubWQ",
     "title": "Ondansetron",
     "category": "소화기 > 구토·항구토 > 세로토닌 5-HT3 길항제",
     "aliases": [
       "ondansetron",
       "온단세트론"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvT25kYW5zZXRyb24ubWQ"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvT25kYW5zZXRyb24ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvUGFudG9wcmF6b2xlLm1k",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k",
     "title": "Pantoprazole",
     "category": "소화기 > 위산·점막 > PPI",
     "aliases": [
       "pantoprazole",
       "판토프라졸"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvUGFudG9wcmF6b2xlLm1k"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvUmFiZXByYXpvbGUubWQ",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvUmFiZXByYXpvbGUubWQ",
     "title": "Rabeprazole",
     "category": "소화기 > 위산·점막 > PPI",
     "aliases": [
       "rabeprazole",
       "라베프라졸"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvUmFiZXByYXpvbGUubWQ"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvUmFiZXByYXpvbGUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvUmFuaXRpZGluZS5tZA",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvUmFuaXRpZGluZS5tZA",
     "title": "Ranitidine",
     "category": "소화기 > 위산·점막 > H2 수용체 길항제",
     "aliases": [
       "ranitidine",
       "라니티딘"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvUmFuaXRpZGluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvUmFuaXRpZGluZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrshoztmZTquLAvU3VjcmFsZmF0ZS5tZA",
+    "slug": "ZHJ1ZzowMyDshoztmZTquLAvU3VjcmFsZmF0ZS5tZA",
     "title": "Sucralfate",
     "category": "소화기 > 위산·점막 > 점막 보호",
     "aliases": [
       "sucralfate",
       "수크랄페이트"
     ],
-    "href": "/drugs/ZHJ1ZzrshoztmZTquLAvU3VjcmFsZmF0ZS5tZA"
+    "href": "/drugs/ZHJ1ZzowMyDshoztmZTquLAvU3VjcmFsZmF0ZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BY2FtcHJvc2F0ZS5tZA",
-    "title": "Acamprosate",
-    "category": "신경·정신 > 진통·중독 > 중독치료",
+    "slug": "ZHJ1ZzowNCDqsITri7Tst4wvRW50ZWNhdmlyLm1k",
+    "title": "Entecavir",
+    "category": "간담췌 > 간 > 항바이러스(HBV)",
     "aliases": [
-      "acamprosate",
-      "아캄프로세이트"
+      "entecavir",
+      "엔테카비르"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BY2FtcHJvc2F0ZS5tZA"
+    "href": "/drugs/ZHJ1ZzowNCDqsITri7Tst4wvRW50ZWNhdmlyLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BbHByYXpvbGFtLm1k",
-    "title": "Alprazolam",
-    "category": "신경·정신 > 정신 > 벤조디아제핀",
+    "slug": "ZHJ1ZzowNCDqsITri7Tst4wvTGFtaXZ1ZGluZS5tZA",
+    "title": "Lamivudine",
+    "category": "간담췌 > 간 > 항바이러스(HBV/HIV)",
     "aliases": [
-      "alprazolam",
-      "알프라졸람"
+      "lamivudine",
+      "라미부딘"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BbHByYXpvbGFtLm1k"
+    "href": "/drugs/ZHJ1ZzowNCDqsITri7Tst4wvTGFtaXZ1ZGluZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k",
-    "title": "Amitriptyline",
-    "category": "신경·정신 > 정신 > TCA",
+    "slug": "ZHJ1ZzowNCDqsITri7Tst4wvTGVkaXBhc3ZpclNvZm9zYnV2aXIubWQ",
+    "title": "LedipasvirSofosbuvir",
+    "category": "간담췌 > 간 > 항바이러스(HCV)",
     "aliases": [
-      "amitriptyline",
-      "아미트립틸린"
+      "ledipasvir sofosbuvir",
+      "레디파스비르·소포스부비르"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k"
+    "href": "/drugs/ZHJ1ZzowNCDqsITri7Tst4wvTGVkaXBhc3ZpclNvZm9zYnV2aXIubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BcmlwaXByYXpvbGUubWQ",
-    "title": "Aripiprazole",
-    "category": "신경·정신 > 정신 > 항정신병",
+    "slug": "ZHJ1ZzowNCDqsITri7Tst4wvU29mb3NidXZpci5tZA",
+    "title": "Sofosbuvir",
+    "category": "간담췌 > 간 > 항바이러스(HCV)",
     "aliases": [
-      "aripiprazole",
-      "아리피프라졸"
+      "sofosbuvir",
+      "소포스부비르"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BcmlwaXByYXpvbGUubWQ"
+    "href": "/drugs/ZHJ1ZzowNCDqsITri7Tst4wvU29mb3NidXZpci5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BdG9tb3hldGluZS5tZA",
-    "title": "Atomoxetine",
-    "category": "신경·정신 > 정신 > ADHD",
+    "slug": "ZHJ1ZzowNCDqsITri7Tst4wvVGVub2ZvdmlyRGlzb3Byb3hpbC5tZA",
+    "title": "TenofovirDisoproxil",
+    "category": "간담췌 > 간 > 항바이러스(HBV)",
     "aliases": [
-      "atomoxetine",
-      "아토목세틴"
+      "tenofovir disoproxil",
+      "테노포비르 디소프록실"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9BdG9tb3hldGluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowNCDqsITri7Tst4wvVGVub2ZvdmlyRGlzb3Byb3hpbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9CdXByZW5vcnBoaW5lLm1k",
-    "title": "Buprenorphine",
-    "category": "신경·정신 > 진통·중독 > 부분 아편 작용제",
+    "slug": "ZHJ1ZzowNCDqsITri7Tst4wvVXJzb2Rlb3h5Y2hvbGljQWNpZC5tZA",
+    "title": "UrsodeoxycholicAcid",
+    "category": "간담췌 > 담즙·쓸담 > 담산제",
     "aliases": [
-      "buprenorphine",
-      "부프레노르핀"
+      "ursodeoxycholic acid",
+      "우르소데옥시콜산"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9CdXByZW5vcnBoaW5lLm1k"
+    "href": "/drugs/ZHJ1ZzowNCDqsITri7Tst4wvVXJzb2Rlb3h5Y2hvbGljQWNpZC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9CdXByZW5vcnBoaW5lTmFsb3hvbmUubWQ",
-    "title": "BuprenorphineNaloxone",
-    "category": "신경·정신 > 진통·중독 > 중독치료",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9BY2FyYm9zZS5tZA",
+    "title": "Acarbose",
+    "category": "내분비·대사 > 당뇨 > 알파글루코시다제 억제제",
     "aliases": [
-      "buprenorphine naloxone",
-      "부프레노르핀·날록손"
+      "acarbose",
+      "아카보스"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9CdXByZW5vcnBoaW5lTmFsb3hvbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9BY2FyYm9zZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ",
-    "title": "Bupropion",
-    "category": "신경·정신 > 정신 > NDRI",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9BbGVuZHJvbmF0ZS5tZA",
+    "title": "Alendronate",
+    "category": "내분비·대사 > 골대사 > 비스포스포네이트",
     "aliases": [
-      "bupropion",
-      "부프로피온"
+      "alendronate",
+      "알렌드로네이트"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9BbGVuZHJvbmF0ZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9DYXJiYW1hemVwaW5lLm1k",
-    "title": "Carbamazepine",
-    "category": "신경·정신 > 항경련 > 나트륨채널",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9DYW5hZ2xpZmxvemluLm1k",
+    "title": "Canagliflozin",
+    "category": "내분비·대사 > 당뇨 > SGLT2 억제제",
     "aliases": [
-      "carbamazepine",
-      "카르바마제핀"
+      "canagliflozin",
+      "카나글리플로진"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9DYXJiYW1hemVwaW5lLm1k"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9DYW5hZ2xpZmxvemluLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9DbG9uYXplcGFtLm1k",
-    "title": "Clonazepam",
-    "category": "신경·정신 > 정신 > 벤조디아제핀",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EYXBhZ2xpZmxvemluLm1k",
+    "title": "Dapagliflozin",
+    "category": "내분비·대사 > 당뇨 > SGLT2 억제제",
     "aliases": [
-      "clonazepam",
-      "클로나제팜"
+      "dapagliflozin",
+      "다파글리플로진"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9DbG9uYXplcGFtLm1k"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EYXBhZ2xpZmxvemluLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ",
-    "title": "Clozapine",
-    "category": "신경·정신 > 정신 > 항정신병",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k",
+    "title": "Dexamethasone",
+    "category": "내분비·대사 > 부신·뇌하수체 > 글루코코르티코이드",
     "aliases": [
-      "clozapine",
-      "클로자핀"
+      "dexamethasone",
+      "덱사메타손"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA",
-    "title": "Diazepam",
-    "category": "신경·정신 > 정신 > 벤조디아제핀",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EdWxhZ2x1dGlkZS5tZA",
+    "title": "Dulaglutide",
+    "category": "내분비·대사 > 당뇨·비만 > GLP-1 수용체 작용제",
     "aliases": [
-      "diazepam",
-      "디아제팜"
+      "dulaglutide",
+      "듀라글루타이드"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EdWxhZ2x1dGlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Eb25lcGV6aWwubWQ",
-    "title": "Donepezil",
-    "category": "신경·정신 > 퇴행성 > 콜린에스테라제 억제",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9FbXBhZ2xpZmxvemluLm1k",
+    "title": "Empagliflozin",
+    "category": "내분비·대사 > 당뇨 > SGLT2 억제제",
     "aliases": [
-      "donepezil",
-      "도네페질"
+      "empagliflozin",
+      "엠파글리플로진"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Eb25lcGV6aWwubWQ"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9FbXBhZ2xpZmxvemluLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9EdWxveGV0aW5lLm1k",
-    "title": "Duloxetine",
-    "category": "신경·정신 > 정신 > SNRI",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9GbHVkcm9jb3J0aXNvbmUubWQ",
+    "title": "Fludrocortisone",
+    "category": "내분비·대사 > 부신·뇌하수체 > 광물코르티코이드",
     "aliases": [
-      "duloxetine",
-      "둘록세틴"
+      "fludrocortisone",
+      "플루드로코르티손"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9EdWxveGV0aW5lLm1k"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9GbHVkcm9jb3J0aXNvbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Fc2NpdGFsb3ByYW0ubWQ",
-    "title": "Escitalopram",
-    "category": "신경·정신 > 정신 > SSRI",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9HbGljbGF6aWRlLm1k",
+    "title": "Gliclazide",
+    "category": "내분비·대사 > 당뇨 > 술포닐유레아",
     "aliases": [
-      "escitalopram",
-      "에스시탈로프람"
+      "gliclazide",
+      "글리클라지드"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Fc2NpdGFsb3ByYW0ubWQ"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9HbGljbGF6aWRlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9GZW50YW55bC5tZA",
-    "title": "Fentanyl",
-    "category": "신경·정신 > 진통 > 아편유사제",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9HbGltZXBpcmlkZS5tZA",
+    "title": "Glimepiride",
+    "category": "내분비·대사 > 당뇨 > 술포닐유레아",
     "aliases": [
-      "fentanyl",
-      "펜타닐"
+      "glimepiride",
+      "글리메피리드"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9GZW50YW55bC5tZA"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9HbGltZXBpcmlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k",
-    "title": "Fluoxetine",
-    "category": "신경·정신 > 정신 > SSRI",
-    "aliases": [
-      "fluoxetine",
-      "플루옥세틴"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9HYWJhcGVudGluLm1k",
-    "title": "Gabapentin",
-    "category": "신경·정신 > 진통 > 가바펜티노이드",
-    "aliases": [
-      "gabapentin",
-      "가바펜틴"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9HYWJhcGVudGluLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA",
-    "title": "Haloperidol",
-    "category": "신경·정신 > 정신 > 항정신병",
-    "aliases": [
-      "haloperidol",
-      "할로페리돌"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MYWNvc2FtaWRlLm1k",
-    "title": "Lacosamide",
-    "category": "신경·정신 > 항경련 > 나트륨채널",
-    "aliases": [
-      "lacosamide",
-      "라코사미드"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MYWNvc2FtaWRlLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MYW1vdHJpZ2luZS5tZA",
-    "title": "Lamotrigine",
-    "category": "신경·정신 > 항경련",
-    "aliases": [
-      "lamotrigine",
-      "라모트리진"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MYW1vdHJpZ2luZS5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MZXZldGlyYWNldGFtLm1k",
-    "title": "Levetiracetam",
-    "category": "신경·정신 > 항경련",
-    "aliases": [
-      "levetiracetam",
-      "레베티라세탐"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MZXZldGlyYWNldGFtLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA",
-    "title": "Levodopa",
-    "category": "신경·정신 > 파킨슨 > 도파민 전구체",
-    "aliases": [
-      "levodopa",
-      "레보도파"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k",
-    "title": "Lithium",
-    "category": "신경·정신 > 정신 > 기분안정제",
-    "aliases": [
-      "lithium",
-      "리튬"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ",
-    "title": "Lorazepam",
-    "category": "신경·정신 > 정신 > 벤조디아제핀",
-    "aliases": [
-      "lorazepam",
-      "로라제팜"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9NZW1hbnRpbmUubWQ",
-    "title": "Memantine",
-    "category": "신경·정신 > 퇴행성 > NMDA 길항제",
-    "aliases": [
-      "memantine",
-      "메만틴"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9NZW1hbnRpbmUubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9NZXRoeWxwaGVuaWRhdGUubWQ",
-    "title": "Methylphenidate",
-    "category": "신경·정신 > 정신 > ADHD",
-    "aliases": [
-      "methylphenidate",
-      "메틸페니데이트"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9NZXRoeWxwaGVuaWRhdGUubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9NaWRhem9sYW0ubWQ",
-    "title": "Midazolam",
-    "category": "신경·정신 > 정신 > 벤조디아제핀",
-    "aliases": [
-      "midazolam",
-      "미다졸람"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9NaWRhem9sYW0ubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9NaXJ0YXphcGluZS5tZA",
-    "title": "Mirtazapine",
-    "category": "신경·정신 > 정신 > NaSSA",
-    "aliases": [
-      "mirtazapine",
-      "미르타자핀"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9NaXJ0YXphcGluZS5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA",
-    "title": "Morphine",
-    "category": "신경·정신 > 진통 > 아편유사제",
-    "aliases": [
-      "morphine",
-      "모르핀"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9OYWx0cmV4b25lLm1k",
-    "title": "Naltrexone",
-    "category": "신경·정신 > 진통·중독 > 중독치료",
-    "aliases": [
-      "naltrexone",
-      "날트렉손"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9OYWx0cmV4b25lLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9PbGFuemFwaW5lLm1k",
-    "title": "Olanzapine",
-    "category": "신경·정신 > 정신 > 항정신병",
-    "aliases": [
-      "olanzapine",
-      "올란자핀"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9PbGFuemFwaW5lLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9PeGNhcmJhemVwaW5lLm1k",
-    "title": "Oxcarbazepine",
-    "category": "신경·정신 > 항경련",
-    "aliases": [
-      "oxcarbazepine",
-      "옥스카르바제핀"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9PeGNhcmJhemVwaW5lLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9PeHljb2RvbmUubWQ",
-    "title": "Oxycodone",
-    "category": "신경·정신 > 진통 > 아편유사제",
-    "aliases": [
-      "oxycodone",
-      "옥시코돈"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9PeHljb2RvbmUubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9QYXJhY2V0YW1vbC5tZA",
-    "title": "Paracetamol",
-    "category": "신경·정신 > 진통 > 아세트아미노펜",
-    "aliases": [
-      "paracetamol",
-      "파라세타몰"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9QYXJhY2V0YW1vbC5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ",
-    "title": "Phenytoin",
-    "category": "신경·정신 > 항경련 > 나트륨채널",
-    "aliases": [
-      "phenytoin",
-      "페니토인"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9QcmVnYWJhbGluLm1k",
-    "title": "Pregabalin",
-    "category": "신경·정신 > 진통 > 가바펜티노이드",
-    "aliases": [
-      "pregabalin",
-      "프레가발린"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9QcmVnYWJhbGluLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9RdWV0aWFwaW5lLm1k",
-    "title": "Quetiapine",
-    "category": "신경·정신 > 정신 > 항정신병",
-    "aliases": [
-      "quetiapine",
-      "퀘티아핀"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9RdWV0aWFwaW5lLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA",
-    "title": "Risperidone",
-    "category": "신경·정신 > 정신 > 항정신병",
-    "aliases": [
-      "risperidone",
-      "리스페리돈"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9TZXJ0cmFsaW5lLm1k",
-    "title": "Sertraline",
-    "category": "신경·정신 > 정신 > SSRI",
-    "aliases": [
-      "sertraline",
-      "세르트랄린"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9TZXJ0cmFsaW5lLm1k"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9TdW1hdHJpcHRhbi5tZA",
-    "title": "Sumatriptan",
-    "category": "신경·정신 > 두통 > 트립탄",
-    "aliases": [
-      "sumatriptan",
-      "스마트립탄"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9TdW1hdHJpcHRhbi5tZA"
-  },
-  {
-    "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Ub3BpcmFtYXRlLm1k",
-    "title": "Topiramate",
-    "category": "신경·정신 > 항경련",
-    "aliases": [
-      "topiramate",
-      "토피라메이트"
-    ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9Ub3BpcmFtYXRlLm1k"
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluLm1k",
+    "title": "Insulin",
+    "category": "05 내분비·대사",
+    "aliases": [],
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9UcmFtYWRvbC5tZA",
-    "title": "Tramadol",
-    "category": "신경·정신 > 진통 > 아편유사제",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluQXNwYXJ0Lm1k",
+    "title": "InsulinAspart",
+    "category": "내분비·대사 > 당뇨 > 인슐린",
     "aliases": [
-      "tramadol",
-      "트라마돌"
+      "insulin aspart",
+      "인슐린 아스파트"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9UcmFtYWRvbC5tZA"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluQXNwYXJ0Lm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9WYWxwcm9hdGUubWQ",
-    "title": "Valproate",
-    "category": "신경·정신 > 항경련 > 다작용",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluRGVnbHVkZWMubWQ",
+    "title": "InsulinDegludec",
+    "category": "내분비·대사 > 당뇨 > 인슐린",
     "aliases": [
-      "valproate",
-      "발프로에이트"
+      "insulin degludec",
+      "인슐린 데글루덱"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9WYWxwcm9hdGUubWQ"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluRGVnbHVkZWMubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA",
-    "title": "Venlafaxine",
-    "category": "신경·정신 > 정신 > SNRI",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluR2xhcmdpbmUubWQ",
+    "title": "InsulinGlargine",
+    "category": "내분비·대사 > 당뇨 > 인슐린",
     "aliases": [
-      "venlafaxine",
-      "벤라팍신"
+      "insulin glargine",
+      "인슐린 글라진"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluR2xhcmdpbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9ab2xwaWRlbS5tZA",
-    "title": "Zolpidem",
-    "category": "신경·정신 > 정신 > Z-drug",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTGlzcHJvLm1k",
+    "title": "InsulinLispro",
+    "category": "내분비·대사 > 당뇨 > 인슐린",
     "aliases": [
-      "zolpidem",
-      "졸피뎀"
+      "insulin lispro",
+      "인슐린 리스프로"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6Dqsr3Ct-ygleyLoC9ab2xwaWRlbS5tZA"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTGlzcHJvLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQWRlbm9zaW5lLm1k",
-    "title": "Adenosine",
-    "category": "심혈계 > 부정맥 > 기타 항부정맥",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTnBoLm1k",
+    "title": "InsulinNph",
+    "category": "내분비·대사 > 당뇨 > 인슐린",
     "aliases": [
-      "adenosine",
-      "아데노신"
+      "insulin nph",
+      "인슐린 NPH"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQWRlbm9zaW5lLm1k"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTnBoLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQWxpcm9jdW1hYi5tZA",
-    "title": "Alirocumab",
-    "category": "심혈계 > 지질 > PCSK9 억제제",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluUmVndWxhci5tZA",
+    "title": "InsulinRegular",
+    "category": "내분비·대사 > 당뇨 > 인슐린",
     "aliases": [
-      "alirocumab",
-      "알리로쿠맙"
+      "insulin regular",
+      "인슐린 레귤러"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQWxpcm9jdW1hYi5tZA"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluUmVndWxhci5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQWxpc2tpcmVuLm1k",
-    "title": "Aliskiren",
-    "category": "심혈계 > 혈압·심부전·신 > 렌인 억제제",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k",
+    "title": "Levothyroxine",
+    "category": "내분비·대사 > 갑상샘 > 갑상선호르몬",
     "aliases": [
-      "aliskiren",
-      "알리스키렌"
+      "levothyroxine",
+      "레보티록신"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQWxpc2tpcmVuLm1k"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQW1pb2Rhcm9uZS5tZA",
-    "title": "Amiodarone",
-    "category": "심혈계 > 부정맥 > III류 항부정맥",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MaXJhZ2x1dGlkZS5tZA",
+    "title": "Liraglutide",
+    "category": "내분비·대사 > 당뇨·비만 > GLP-1 수용체 작용제",
     "aliases": [
-      "amiodarone",
-      "아미오다론"
+      "liraglutide",
+      "리라글루타이드"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQW1pb2Rhcm9uZS5tZA"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MaXJhZ2x1dGlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA",
-    "title": "Amlodipine",
-    "category": "심혈계 > 혈압·심부전·신 > 칼슘채널차단제",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ",
+    "title": "Metformin",
+    "category": "내분비·대사 > 당뇨 > 비구아나이드",
     "aliases": [
-      "amlodipine",
-      "암로디핀"
+      "metformin",
+      "메트포민"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQXNwaXJpbi5tZA",
-    "title": "Aspirin",
-    "category": "심혈계 > 동맥혈전 예방 > 항혈소판",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRoaW1hem9sZS5tZA",
+    "title": "Methimazole",
+    "category": "내분비·대사 > 갑상샘 > 항갑상제",
     "aliases": [
-      "aspirin",
-      "아스피린"
+      "methimazole",
+      "메티마졸"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQXNwaXJpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRoaW1hem9sZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQXRlbm9sb2wubWQ",
-    "title": "Atenolol",
-    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9Pcmxpc3RhdC5tZA",
+    "title": "Orlistat",
+    "category": "내분비·대사 > 비만·대사 > 지방 흡수 억제",
     "aliases": [
-      "atenolol",
-      "아테놀롤"
+      "orlistat",
+      "오르리스타트"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQXRlbm9sb2wubWQ"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9Pcmxpc3RhdC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k",
-    "title": "Atorvastatin",
-    "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QaW9nbGl0YXpvbmUubWQ",
+    "title": "Pioglitazone",
+    "category": "내분비·대사 > 당뇨 > 티아졸리딘디온",
     "aliases": [
-      "atorvastatin",
-      "아토르바스타틴"
+      "pioglitazone",
+      "피오글리타존"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QaW9nbGl0YXpvbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQmlzb3Byb2xvbC5tZA",
-    "title": "Bisoprolol",
-    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ",
+    "title": "Prednisolone",
+    "category": "내분비·대사 > 부신·뇌하수체 > 글루코코르티코이드",
     "aliases": [
-      "bisoprolol",
-      "비소프롤롤"
+      "prednisolone",
+      "프레드니솔론"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQmlzb3Byb2xvbC5tZA"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQnVtZXRhbmlkZS5tZA",
-    "title": "Bumetanide",
-    "category": "심혈계 > 혈압·심부전·신 > 루프 이뇨제",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9Qcm9weWx0aGlvdXJhY2lsLm1k",
+    "title": "Propylthiouracil",
+    "category": "내분비·대사 > 갑상샘 > 항갑상제",
     "aliases": [
-      "bumetanide",
-      "부메타나이드"
+      "propylthiouracil",
+      "프로필티오우라실"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQnVtZXRhbmlkZS5tZA"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9Qcm9weWx0aGlvdXJhY2lsLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQ2FuZGVzYXJ0YW4ubWQ",
-    "title": "Candesartan",
-    "category": "심혈계 > 혈압·심부전·신 > ARB",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9SYWxveGlmZW5lLm1k",
+    "title": "Raloxifene",
+    "category": "내분비·대사 > 골대사 > SERM",
     "aliases": [
-      "candesartan",
-      "칸데사르탄"
+      "raloxifene",
+      "랄록시펜"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQ2FuZGVzYXJ0YW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9SYWxveGlmZW5lLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQ2FwdG9wcmlsLm1k",
-    "title": "Captopril",
-    "category": "심혈계 > 혈압·심부전·신 > ACE 억제제",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9SZXBhZ2xpbmlkZS5tZA",
+    "title": "Repaglinide",
+    "category": "내분비·대사 > 당뇨 > 메글리티나이드",
     "aliases": [
-      "captopril",
-      "카프토프릴"
+      "repaglinide",
+      "레파글리니드"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQ2FwdG9wcmlsLm1k"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9SZXBhZ2xpbmlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQ2FydmVkaWxvbC5tZA",
-    "title": "Carvedilol",
-    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TZW1hZ2x1dGlkZS5tZA",
+    "title": "Semaglutide",
+    "category": "내분비·대사 > 당뇨·비만 > GLP-1 수용체 작용제",
     "aliases": [
-      "carvedilol",
-      "카르베디롤"
+      "semaglutide",
+      "세마글루타이드"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQ2FydmVkaWxvbC5tZA"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TZW1hZ2x1dGlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQ2hsb3J0aGFsaWRvbmUubWQ",
-    "title": "Chlorthalidone",
-    "category": "심혈계 > 혈압·심부전·신 > 티아지드계 이뇨제",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA",
+    "title": "Sitagliptin",
+    "category": "내분비·대사 > 당뇨 > DPP-4 억제제",
     "aliases": [
-      "chlorthalidone",
-      "클로르탈리돈"
+      "sitagliptin",
+      "시타글립틴"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQ2hsb3J0aGFsaWRvbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQ2lsb3N0YXpvbC5tZA",
-    "title": "Cilostazol",
-    "category": "심혈계 > 동맥혈전 예방 > PDE 억제",
+    "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9UZXN0b3N0ZXJvbmUubWQ",
+    "title": "Testosterone",
+    "category": "내분비·대사 > 생식·내분비 > 안드로겐",
     "aliases": [
-      "cilostazol",
-      "실로스타졸"
+      "testosterone",
+      "테스토스테론"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQ2lsb3N0YXpvbC5tZA"
+    "href": "/drugs/ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9UZXN0b3N0ZXJvbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvQ2xvcGlkb2dyZWwubWQ",
-    "title": "Clopidogrel",
-    "category": "심혈계 > 동맥혈전 예방 > P2Y12 억제제",
+    "slug": "ZHJ1ZzowNiDruYTrh6jCt-yLoOyepS9BbGZ1em9zaW4ubWQ",
+    "title": "Alfuzosin",
+    "category": "비뇨·신장 > 전립선·배뇨 > α1 차단제",
     "aliases": [
-      "clopidogrel",
-      "클로피도그렐"
+      "alfuzosin",
+      "알푸조신"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvQ2xvcGlkb2dyZWwubWQ"
+    "href": "/drugs/ZHJ1ZzowNiDruYTrh6jCt-yLoOyepS9BbGZ1em9zaW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRGlnb3hpbi5tZA",
-    "title": "Digoxin",
-    "category": "심혈계 > 부정맥·심부전 > 강심 배당체",
+    "slug": "ZHJ1ZzowNiDruYTrh6jCt-yLoOyepS9EdXRhc3RlcmlkZS5tZA",
+    "title": "Dutasteride",
+    "category": "비뇨·신장 > 전립선·배뇨 > 5α 환원효소 억제제",
     "aliases": [
-      "digoxin",
-      "디곡신"
+      "dutasteride",
+      "두타스테라이드"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRGlnb3hpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowNiDruYTrh6jCt-yLoOyepS9EdXRhc3RlcmlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRGlsdGlhemVtLm1k",
-    "title": "Diltiazem",
-    "category": "심혈계 > 혈압·심부전·신 > 칼슘채널차단제",
+    "slug": "ZHJ1ZzowNiDruYTrh6jCt-yLoOyepS9GaW5hc3RlcmlkZS5tZA",
+    "title": "Finasteride",
+    "category": "비뇨·신장 > 전립선·배뇨 > 5α 환원효소 억제제",
     "aliases": [
-      "diltiazem",
-      "딜티아젬"
+      "finasteride",
+      "피나스테라이드"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRGlsdGlhemVtLm1k"
+    "href": "/drugs/ZHJ1ZzowNiDruYTrh6jCt-yLoOyepS9GaW5hc3RlcmlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRGlweXJpZGFtb2xlLm1k",
-    "title": "Dipyridamole",
-    "category": "심혈계 > 동맥혈전 예방 > 항혈소판",
+    "slug": "ZHJ1ZzowNiDruYTrh6jCt-yLoOyepS9UYW1zdWxvc2luLm1k",
+    "title": "Tamsulosin",
+    "category": "비뇨·신장 > 전립선·배뇨 > α1 차단제",
     "aliases": [
-      "dipyridamole",
-      "디피리다몰"
+      "tamsulosin",
+      "탐술로신"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRGlweXJpZGFtb2xlLm1k"
+    "href": "/drugs/ZHJ1ZzowNiDruYTrh6jCt-yLoOyepS9UYW1zdWxvc2luLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRG9idXRhbWluZS5tZA",
-    "title": "Dobutamine",
-    "category": "심혈계 > 쇼크·응급 > 강심제",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FkYWxpbXVtYWIubWQ",
+    "title": "Adalimumab",
+    "category": "면역·염증·류마티스 > 생물학적제제 > TNF 억제제",
     "aliases": [
-      "dobutamine",
-      "도부타민"
+      "adalimumab",
+      "아달리무맙"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRG9idXRhbWluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FkYWxpbXVtYWIubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRG9wYW1pbmUubWQ",
-    "title": "Dopamine",
-    "category": "심혈계 > 쇼크·응급 > 카테콜아민",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FsbG9wdXJpbm9sLm1k",
+    "title": "Allopurinol",
+    "category": "면역·염증·류마티스 > 통풍 > 요산 저하",
     "aliases": [
-      "dopamine",
-      "도파민"
+      "allopurinol",
+      "알로푸리놀"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRG9wYW1pbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FsbG9wdXJpbm9sLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRHJvbmVkYXJvbmUubWQ",
-    "title": "Dronedarone",
-    "category": "심혈계 > 부정맥 > III류 항부정맥",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0JhcmljaXRpbmliLm1k",
+    "title": "Baricitinib",
+    "category": "면역·염증·류마티스 > 합성 DMARD > JAK 억제제",
     "aliases": [
-      "dronedarone",
-      "드로네다론"
+      "baricitinib",
+      "바리시티닙"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRHJvbmVkYXJvbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0JhcmljaXRpbmliLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRW5hbGFwcmlsLm1k",
-    "title": "Enalapril",
-    "category": "심혈계 > 혈압·심부전·신 > ACE 억제제",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NlbGVjb3hpYi5tZA",
+    "title": "Celecoxib",
+    "category": "면역·염증·류마티스 > NSAID > 선택적 COX-2 억제",
     "aliases": [
-      "enalapril",
-      "에날라프릴"
+      "celecoxib",
+      "셀레콕시브"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRW5hbGFwcmlsLm1k"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NlbGVjb3hpYi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ",
-    "title": "Epinephrine",
-    "category": "심혈계 > 쇼크·응급 > 카테콜아민",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NlcnRvbGl6dW1hYlBlZ29sLm1k",
+    "title": "CertolizumabPegol",
+    "category": "면역·염증·류마티스 > 생물학적제제 > TNF 억제제",
     "aliases": [
-      "epinephrine",
-      "에피네프린"
+      "certolizumab pegol",
+      "세르톨리주맙 페골"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NlcnRvbGl6dW1hYlBlZ29sLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRXBsZXJlbm9uZS5tZA",
-    "title": "Eplerenone",
-    "category": "심혈계 > 혈압·심부전·신 > 알도스테론 길항제",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NvbGNoaWNpbmUubWQ",
+    "title": "Colchicine",
+    "category": "면역·염증·류마티스 > 통풍",
     "aliases": [
-      "eplerenone",
-      "에플레레논"
+      "colchicine",
+      "콜히친"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRXBsZXJlbm9uZS5tZA"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NvbGNoaWNpbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRXNtb2xvbC5tZA",
-    "title": "Esmolol",
-    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0V0YW5lcmNlcHQubWQ",
+    "title": "Etanercept",
+    "category": "면역·염증·류마티스 > 생물학적제제 > TNF 억제제",
     "aliases": [
-      "esmolol",
-      "에스몰롤"
+      "etanercept",
+      "에타너셉트"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRXNtb2xvbC5tZA"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0V0YW5lcmNlcHQubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRXRoYWNyeW5pY0FjaWQubWQ",
-    "title": "EthacrynicAcid",
-    "category": "심혈계 > 혈압·심부전·신 > 루프 이뇨제",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0ZlYnV4b3N0YXQubWQ",
+    "title": "Febuxostat",
+    "category": "면역·염증·류마티스 > 통풍 > 요산 저하",
     "aliases": [
-      "ethacrynic acid",
-      "에타크린산"
+      "febuxostat",
+      "페부크소스타트"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRXRoYWNyeW5pY0FjaWQubWQ"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0ZlYnV4b3N0YXQubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRXZvbG9jdW1hYi5tZA",
-    "title": "Evolocumab",
-    "category": "심혈계 > 지질 > PCSK9 억제제",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0dvbGltdW1hYi5tZA",
+    "title": "Golimumab",
+    "category": "면역·염증·류마티스 > 생물학적제제 > TNF 억제제",
     "aliases": [
-      "evolocumab",
-      "에볼로쿠맙"
+      "golimumab",
+      "골리무맙"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRXZvbG9jdW1hYi5tZA"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0dvbGltdW1hYi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRXpldGltaWJlLm1k",
-    "title": "Ezetimibe",
-    "category": "심혈계 > 지질 > 콜레스테론 흡수 억제제",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA",
+    "title": "Ibuprofen",
+    "category": "면역·염증·류마티스 > NSAID > 비선택적 COX 억제",
     "aliases": [
-      "ezetimibe",
-      "에제티미브"
+      "ibuprofen",
+      "이부프로펜"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRXpldGltaWJlLm1k"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRmVsb2RpcGluZS5tZA",
-    "title": "Felodipine",
-    "category": "심혈계 > 혈압·심부전·신 > 칼슘채널차단제",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0luZmxpeGltYWIubWQ",
+    "title": "Infliximab",
+    "category": "면역·염증·류마티스 > 생물학적제제 > TNF 억제제",
     "aliases": [
-      "felodipine",
-      "펠로디핀"
+      "infliximab",
+      "인플릭시맙"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRmVsb2RpcGluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0luZmxpeGltYWIubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRmVub2ZpYnJhdGUubWQ",
-    "title": "Fenofibrate",
-    "category": "심혈계 > 지질 > 피브레이트",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0xlZmx1bm9taWRlLm1k",
+    "title": "Leflunomide",
+    "category": "면역·염증·류마티스 > 합성 DMARD",
     "aliases": [
-      "fenofibrate",
-      "페노피브레이트"
+      "leflunomide",
+      "레플루노마이드"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRmVub2ZpYnJhdGUubWQ"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0xlZmx1bm9taWRlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRmxlY2FpbmlkZS5tZA",
-    "title": "Flecainide",
-    "category": "심혈계 > 부정맥 > I류 항부정맥",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA",
+    "title": "Methotrexate",
+    "category": "면역·염증·류마티스 > 합성 DMARD",
     "aliases": [
-      "flecainide",
-      "플레카이니드"
+      "methotrexate",
+      "메토트렉세이트"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRmxlY2FpbmlkZS5tZA"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRmx1dmFzdGF0aW4ubWQ",
-    "title": "Fluvastatin",
-    "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k",
+    "title": "Naproxen",
+    "category": "면역·염증·류마티스 > NSAID > 비선택적 COX 억제",
     "aliases": [
-      "fluvastatin",
-      "플루바스타틴"
+      "naproxen",
+      "나프록센"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRmx1dmFzdGF0aW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRm9zaW5vcHJpbC5tZA",
-    "title": "Fosinopril",
-    "category": "심혈계 > 혈압·심부전·신 > ACE 억제제",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL09tYWxpenVtYWIubWQ",
+    "title": "Omalizumab",
+    "category": "면역·염증·류마티스 > 알레르기 > 항IgE",
     "aliases": [
-      "fosinopril",
-      "포시노프릴"
+      "omalizumab",
+      "오말리주맙"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRm9zaW5vcHJpbC5tZA"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL09tYWxpenVtYWIubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvRnVyb3NlbWlkZS5tZA",
-    "title": "Furosemide",
-    "category": "심혈계 > 혈압·심부전·신 > 루프 이뇨제",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1JpdHV4aW1hYi5tZA",
+    "title": "Rituximab",
+    "category": "면역·염증·류마티스 > 생물학적제제 > CD20",
     "aliases": [
-      "furosemide",
-      "푸로세마이드"
+      "rituximab",
+      "리툭시맙"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvRnVyb3NlbWlkZS5tZA"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1JpdHV4aW1hYi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvR2VtZmlicm96aWwubWQ",
-    "title": "Gemfibrozil",
-    "category": "심혈계 > 지질 > 피브레이트",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1N1bGZhc2FsYXppbmUubWQ",
+    "title": "Sulfasalazine",
+    "category": "면역·염증·류마티스 > 합성 DMARD",
     "aliases": [
-      "gemfibrozil",
-      "젬피브로질"
+      "sulfasalazine",
+      "설파살라진"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvR2VtZmlicm96aWwubWQ"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1N1bGZhc2FsYXppbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvSHlkcmFsYXppbmUubWQ",
-    "title": "Hydralazine",
-    "category": "심혈계 > 혈압·심부전·신 > 직접 혈관확장제",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1RvY2lsaXp1bWFiLm1k",
+    "title": "Tocilizumab",
+    "category": "면역·염증·류마티스 > 생물학적제제 > IL-6 억제",
     "aliases": [
-      "hydralazine",
-      "하이드랄라진"
+      "tocilizumab",
+      "토실리주맙"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvSHlkcmFsYXppbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1RvY2lsaXp1bWFiLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA",
-    "title": "Hydrochlorothiazide",
-    "category": "심혈계 > 혈압·심부전·신 > 티아지드계 이뇨제",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1RvZmFjaXRpbmliLm1k",
+    "title": "Tofacitinib",
+    "category": "면역·염증·류마티스 > 합성 DMARD > JAK 억제제",
     "aliases": [
-      "hydrochlorothiazide",
-      "히드로클로로티아지드"
+      "tofacitinib",
+      "토파시티닙"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1RvZmFjaXRpbmliLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvSW5kYXBhbWlkZS5tZA",
-    "title": "Indapamide",
-    "category": "심혈계 > 혈압·심부전·신 > 티아지드계 이뇨제",
+    "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1VwYWRhY2l0aW5pYi5tZA",
+    "title": "Upadacitinib",
+    "category": "면역·염증·류마티스 > 합성 DMARD > JAK 억제제",
     "aliases": [
-      "indapamide",
-      "인다파마이드"
+      "upadacitinib",
+      "우파다시티닙"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvSW5kYXBhbWlkZS5tZA"
+    "href": "/drugs/ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1VwYWRhY2l0aW5pYi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvSXJiZXNhcnRhbi5tZA",
-    "title": "Irbesartan",
-    "category": "심혈계 > 혈압·심부전·신 > ARB",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k",
+    "title": "Acyclovir",
+    "category": "감염 > 항바이러스 > 헤르페스",
     "aliases": [
-      "irbesartan",
-      "이르베사르탄"
+      "acyclovir",
+      "아시클로버"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvSXJiZXNhcnRhbi5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvSXNvc29yYmlkZU1vbm9uaXRyYXRlLm1k",
-    "title": "IsosorbideMononitrate",
-    "category": "심혈계 > 관상동맥·혈관 > 질산염",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQWxiZW5kYXpvbGUubWQ",
+    "title": "Albendazole",
+    "category": "감염 > 기생충 > 구충제",
     "aliases": [
-      "isosorbide mononitrate",
-      "이소소르비드 모노니트레이트"
+      "albendazole",
+      "알벤다졸"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvSXNvc29yYmlkZU1vbm9uaXRyYXRlLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQWxiZW5kYXpvbGUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvSXZhYnJhZGluZS5tZA",
-    "title": "Ivabradine",
-    "category": "심혈계 > 부정맥·협심 > If 채널 억제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQW1pa2FjaW4ubWQ",
+    "title": "Amikacin",
+    "category": "감염 > 항균 > 아미노글리코사이드",
     "aliases": [
-      "ivabradine",
-      "이바브라딘"
+      "amikacin",
+      "아미카신"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvSXZhYnJhZGluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQW1pa2FjaW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvTGFiZXRhbG9sLm1k",
-    "title": "Labetalol",
-    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ",
+    "title": "Amoxicillin",
+    "category": "감염 > 항균 > 베타락탐",
     "aliases": [
-      "labetalol",
-      "라베타롤"
+      "amoxicillin",
+      "아목시실린"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvTGFiZXRhbG9sLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA",
-    "title": "Lisinopril",
-    "category": "심혈계 > 혈압·심부전·신 > ACE 억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW5DbGF2dWxhbmF0ZS5tZA",
+    "title": "AmoxicillinClavulanate",
+    "category": "감염 > 항균 > 베타락탐·베타락타마제 억제제",
     "aliases": [
-      "lisinopril",
-      "리시노프릴"
+      "amoxicillin clavulanate",
+      "아목시실린·클라불란산"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW5DbGF2dWxhbmF0ZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvTG9zYXJ0YW4ubWQ",
-    "title": "Losartan",
-    "category": "심혈계 > 혈압·심부전·신 > ARB",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQW1waG90ZXJpY2luQi5tZA",
+    "title": "AmphotericinB",
+    "category": "감염 > 항진균 > 폴리엔",
     "aliases": [
-      "losartan",
-      "로사르탄"
+      "amphotericin B",
+      "암포테리신 B"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvTG9zYXJ0YW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQW1waG90ZXJpY2luQi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvTG92YXN0YXRpbi5tZA",
-    "title": "Lovastatin",
-    "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA",
+    "title": "Ampicillin",
+    "category": "감염 > 항균 > 페니실린",
     "aliases": [
-      "lovastatin",
-      "로바스타틴"
+      "ampicillin",
+      "암피실린"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvTG92YXN0YXRpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvTWV0b2xhem9uZS5tZA",
-    "title": "Metolazone",
-    "category": "심혈계 > 혈압·심부전·신 > 티아지드계 이뇨제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpblN1bGJhY3RhbS5tZA",
+    "title": "AmpicillinSulbactam",
+    "category": "감염 > 항균 > 베타락탐·베타락타마제 억제제",
     "aliases": [
-      "metolazone",
-      "메톨라존"
+      "ampicillin sulbactam",
+      "암피실린·설박탐"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvTWV0b2xhem9uZS5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpblN1bGJhY3RhbS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA",
-    "title": "Metoprolol",
-    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQW5pZHVsYWZ1bmdpbi5tZA",
+    "title": "Anidulafungin",
+    "category": "감염 > 항진균 > 에키노캔딘",
     "aliases": [
-      "metoprolol",
-      "메토프롤롤"
+      "anidulafungin",
+      "아니둘라펀진"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQW5pZHVsYWZ1bmdpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvTmViaXZvbG9sLm1k",
-    "title": "Nebivolol",
-    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQXJ0ZW1ldGhlckx1bWVmYW50cmluZS5tZA",
+    "title": "ArtemetherLumefantrine",
+    "category": "감염 > 기생충 > 항말라리아",
     "aliases": [
-      "nebivolol",
-      "네비볼롤"
+      "artemether lumefantrine",
+      "아르테메터·루메판트린"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvTmViaXZvbG9sLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQXJ0ZW1ldGhlckx1bWVmYW50cmluZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvTmljYXJkaXBpbmUubWQ",
-    "title": "Nicardipine",
-    "category": "심혈계 > 혈압·심부전·신 > 칼슘채널차단제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k",
+    "title": "Azithromycin",
+    "category": "감염 > 항균 > 마크롤라이드",
     "aliases": [
-      "nicardipine",
-      "니카르디핀"
+      "azithromycin",
+      "아지스로마이신"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvTmljYXJkaXBpbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA",
-    "title": "Nifedipine",
-    "category": "심혈계 > 혈압·심부전·신 > 칼슘채널차단제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQXp0cmVvbmFtLm1k",
+    "title": "Aztreonam",
+    "category": "감염 > 항균 > 모노박탐",
     "aliases": [
-      "nifedipine",
-      "니페디핀"
+      "aztreonam",
+      "아즈트레오남"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQXp0cmVvbmFtLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA",
-    "title": "Nitroglycerin",
-    "category": "심혈계 > 관상동맥·혈관 > 질산염",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQmVuenlscGVuaWNpbGxpbi5tZA",
+    "title": "Benzylpenicillin",
+    "category": "감염 > 항균 > 페니실린",
     "aliases": [
-      "nitroglycerin",
-      "니트로글리세린"
+      "benzylpenicillin",
+      "penicillin G",
+      "벤질페니실린"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQmVuenlscGVuaWNpbGxpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ",
-    "title": "Norepinephrine",
-    "category": "심혈계 > 쇼크·응급 > 카테콜아민",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2FzcG9mdW5naW4ubWQ",
+    "title": "Caspofungin",
+    "category": "감염 > 항진균 > 에키노캔딘",
     "aliases": [
-      "norepinephrine",
-      "노르에피네프린"
+      "caspofungin",
+      "카스포펀진"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQ2FzcG9mdW5naW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvT2xtZXNhcnRhbi5tZA",
-    "title": "Olmesartan",
-    "category": "심혈계 > 혈압·심부전·신 > ARB",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmYXpvbGluLm1k",
+    "title": "Cefazolin",
+    "category": "감염 > 항균 > 세팔로스포린",
     "aliases": [
-      "olmesartan",
-      "올메사르탄"
+      "cefazolin",
+      "세파졸린"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvT2xtZXNhcnRhbi5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQ2VmYXpvbGluLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvUGVyaW5kb3ByaWwubWQ",
-    "title": "Perindopril",
-    "category": "심혈계 > 혈압·심부전·신 > ACE 억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmZXBpbWUubWQ",
+    "title": "Cefepime",
+    "category": "감염 > 항균 > 세팔로스포린",
     "aliases": [
-      "perindopril",
-      "페린도프릴"
+      "cefepime",
+      "세페핌"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvUGVyaW5kb3ByaWwubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQ2VmZXBpbWUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvUGhlbnlsZXBocmluZS5tZA",
-    "title": "Phenylephrine",
-    "category": "심혈계 > 쇼크·응급 > 혈관작용제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmaWRlcm9jb2wubWQ",
+    "title": "Cefiderocol",
+    "category": "감염 > 항균 > 세팔로스포린",
     "aliases": [
-      "phenylephrine",
-      "페닐에프린"
+      "cefiderocol",
+      "세피데로콜"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvUGhlbnlsZXBocmluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQ2VmaWRlcm9jb2wubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvUGl0YXZhc3RhdGluLm1k",
-    "title": "Pitavastatin",
-    "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2Vmb3RheGltZS5tZA",
+    "title": "Cefotaxime",
+    "category": "감염 > 항균 > 세팔로스포린",
     "aliases": [
-      "pitavastatin",
-      "피타바스타틴"
+      "cefotaxime",
+      "세포탁심"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvUGl0YXZhc3RhdGluLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQ2Vmb3RheGltZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvUHJhc3VncmVsLm1k",
-    "title": "Prasugrel",
-    "category": "심혈계 > 동맥혈전 예방 > P2Y12 억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdGF6aWRpbWUubWQ",
+    "title": "Ceftazidime",
+    "category": "감염 > 항균 > 세팔로스포린",
     "aliases": [
-      "prasugrel",
-      "프라수그렐"
+      "ceftazidime",
+      "세프타지딤"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvUHJhc3VncmVsLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQ2VmdGF6aWRpbWUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvUHJhdmFzdGF0aW4ubWQ",
-    "title": "Pravastatin",
-    "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ",
+    "title": "Ceftriaxone",
+    "category": "감염 > 베타락탐 > 3세대 cephalosporin",
     "aliases": [
-      "pravastatin",
-      "프라바스타틴"
+      "ceftriaxone",
+      "세프트리악손"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvUHJhdmFzdGF0aW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvUHJvcGFmZW5vbmUubWQ",
-    "title": "Propafenone",
-    "category": "심혈계 > 부정맥 > Ic류 항부정맥",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdXJveGltZS5tZA",
+    "title": "Cefuroxime",
+    "category": "감염 > 항균 > 세팔로스포린",
     "aliases": [
-      "propafenone",
-      "프로파페논"
+      "cefuroxime",
+      "세푸록심"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvUHJvcGFmZW5vbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQ2VmdXJveGltZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ",
-    "title": "Propranolol",
-    "category": "심혈계 > 혈압·심부전·신 > 베타차단제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VwaGFsZXhpbi5tZA",
+    "title": "Cephalexin",
+    "category": "감염 > 항균 > 세팔로스포린",
     "aliases": [
-      "propranolol",
-      "프로프라놀롤"
+      "cephalexin",
+      "세팔렉신"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQ2VwaGFsZXhpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvUXVpbmFwcmlsLm1k",
-    "title": "Quinapril",
-    "category": "심혈계 > 혈압·심부전·신 > ACE 억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2hsb3JvcXVpbmUubWQ",
+    "title": "Chloroquine",
+    "category": "감염 > 기생충 > 항말라리아",
     "aliases": [
-      "quinapril",
-      "퀴나프릴"
+      "chloroquine",
+      "클로로퀸"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvUXVpbmFwcmlsLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQ2hsb3JvcXVpbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvUmFtaXByaWwubWQ",
-    "title": "Ramipril",
-    "category": "심혈계 > 혈압·심부전·신 > ACE 억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA",
+    "title": "Ciprofloxacin",
+    "category": "감염 > 항균 > 퀴놀론",
     "aliases": [
-      "ramipril",
-      "라미프릴"
+      "ciprofloxacin",
+      "시프로플록사신"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvUmFtaXByaWwubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvUmFub2xhemluZS5tZA",
-    "title": "Ranolazine",
-    "category": "심혈계 > 관상동맥·혈관 > 항협심(기타)",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2xhcml0aHJvbXljaW4ubWQ",
+    "title": "Clarithromycin",
+    "category": "감염 > 항균 > 마크롤라이드",
     "aliases": [
-      "ranolazine",
-      "라노라진"
+      "clarithromycin",
+      "클래리스로마이신"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvUmFub2xhemluZS5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQ2xhcml0aHJvbXljaW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvUm9zdXZhc3RhdGluLm1k",
-    "title": "Rosuvastatin",
-    "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ",
+    "title": "Clindamycin",
+    "category": "감염 > 항균 > 린코사마이드",
     "aliases": [
-      "rosuvastatin",
-      "로수바스타틴"
+      "clindamycin",
+      "클린다마이신"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvUm9zdXZhc3RhdGluLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvU2FjdWJpdHJpbC5tZA",
-    "title": "Sacubitril",
-    "category": "심혈계 > 혈압·심부전·신 > ARNI(성분)",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ29saXN0aW4ubWQ",
+    "title": "Colistin",
+    "category": "감염 > 항균 > polymyxin",
     "aliases": [
-      "sacubitril",
-      "사쿠비트릴"
+      "colistin",
+      "콜리스틴"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvU2FjdWJpdHJpbC5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvQ29saXN0aW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvU2FjdWJpdHJpbFZhbHNhcnRhbi5tZA",
-    "title": "SacubitrilValsartan",
-    "category": "심혈계 > 혈압·심부전·신 > ARNI",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvRGFwdG9teWNpbi5tZA",
+    "title": "Daptomycin",
+    "category": "감염 > 항균 > 리포펩타이드",
     "aliases": [
-      "sacubitril valsartan",
-      "사쿠비트릴·발사르탄"
+      "daptomycin",
+      "답토마이신"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvU2FjdWJpdHJpbFZhbHNhcnRhbi5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvRGFwdG9teWNpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvU2ltdmFzdGF0aW4ubWQ",
-    "title": "Simvastatin",
-    "category": "심혈계 > 지질 > HMG-CoA 환원효소 억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+    "title": "Doxycycline",
+    "category": "감염 > 항균 > 테트라사이클린",
     "aliases": [
-      "simvastatin",
-      "시머바스타틴"
+      "doxycycline",
+      "독시사이클린"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvU2ltdmFzdGF0aW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvU290YWxvbC5tZA",
-    "title": "Sotalol",
-    "category": "심혈계 > 부정맥 > III류 항부정맥",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvRXJ0YXBlbmVtLm1k",
+    "title": "Ertapenem",
+    "category": "감염 > 항균 > 카바페넴",
     "aliases": [
-      "sotalol",
-      "소타롤"
+      "ertapenem",
+      "에르타페넴"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvU290YWxvbC5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvRXJ0YXBlbmVtLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvU3Bpcm9ub2xhY3RvbmUubWQ",
-    "title": "Spironolactone",
-    "category": "심혈계 > 혈압·심부전·신 > 알도스테론 길항제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvRXJ5dGhyb215Y2luLm1k",
+    "title": "Erythromycin",
+    "category": "감염 > 항균 > 마크롤라이드",
     "aliases": [
-      "spironolactone",
-      "스피로노락톤"
+      "erythromycin",
+      "에리스로마이신"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvU3Bpcm9ub2xhY3RvbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvRXJ5dGhyb215Y2luLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvVGVsbWlzYXJ0YW4ubWQ",
-    "title": "Telmisartan",
-    "category": "심혈계 > 혈압·심부전·신 > ARB",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvRXRoYW1idXRvbC5tZA",
+    "title": "Ethambutol",
+    "category": "감염 > 항결핵 > 1차 항결핵제",
     "aliases": [
-      "telmisartan",
-      "텔미사르탄"
+      "ethambutol",
+      "에탐부톨"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvVGVsbWlzYXJ0YW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvRXRoYW1idXRvbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvVGljYWdyZWxvci5tZA",
-    "title": "Ticagrelor",
-    "category": "심혈계 > 동맥혈전 예방 > P2Y12 억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvRmlkYXhvbWljaW4ubWQ",
+    "title": "Fidaxomicin",
+    "category": "감염 > 항균 > C. difficile",
     "aliases": [
-      "ticagrelor",
-      "티카그렐로"
+      "fidaxomicin",
+      "피닥소마이신"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvVGljYWdyZWxvci5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvRmlkYXhvbWljaW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvVG9yc2VtaWRlLm1k",
-    "title": "Torsemide",
-    "category": "심혈계 > 혈압·심부전·신 > 루프 이뇨제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvRmx1Y2xveGFjaWxsaW4ubWQ",
+    "title": "Flucloxacillin",
+    "category": "감염 > 항균 > 페니실린",
     "aliases": [
-      "torsemide",
-      "토르세마이드"
+      "flucloxacillin",
+      "플루클록사실린"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvVG9yc2VtaWRlLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvRmx1Y2xveGFjaWxsaW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvVmFsc2FydGFuLm1k",
-    "title": "Valsartan",
-    "category": "심혈계 > 혈압·심부전·신 > ARB",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvRmx1Y29uYXpvbGUubWQ",
+    "title": "Fluconazole",
+    "category": "감염 > 항진균 > 아졸계",
     "aliases": [
-      "valsartan",
-      "발사르탄"
+      "fluconazole",
+      "플루코나졸"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvVmFsc2FydGFuLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvRmx1Y29uYXpvbGUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvVmFzb3ByZXNzaW4ubWQ",
-    "title": "Vasopressin",
-    "category": "심혈계 > 쇼크·응급 > 혈관작용제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvRm9zZm9teWNpbi5tZA",
+    "title": "Fosfomycin",
+    "category": "감염 > 항균 > 포스포마이신",
     "aliases": [
-      "vasopressin",
-      "바소프레신"
+      "fosfomycin",
+      "포스포마이신"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvVmFzb3ByZXNzaW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvRm9zZm9teWNpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1Zzrsi6ztmIjqs4QvVmVyYXBhbWlsLm1k",
-    "title": "Verapamil",
-    "category": "심혈계 > 혈압·심부전·신 > 칼슘채널차단제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvR2FuY2ljbG92aXIubWQ",
+    "title": "Ganciclovir",
+    "category": "감염 > 항바이러스 > CMV",
     "aliases": [
-      "verapamil",
-      "베라파밀"
+      "ganciclovir",
+      "간시클로버"
     ],
-    "href": "/drugs/ZHJ1Zzrsi6ztmIjqs4QvVmVyYXBhbWlsLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvR2FuY2ljbG92aXIubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JldGFtZXRoYXNvbmUubWQ",
-    "title": "Betamethasone",
-    "category": "안과·이비인후·피부 > 피부 > 국소 코르티코스테로이드",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA",
+    "title": "Gentamicin",
+    "category": "감염 > 항균 > 아미노글리코사이드",
     "aliases": [
-      "betamethasone",
-      "베타메타손"
+      "gentamicin",
+      "겐타마이신"
     ],
-    "href": "/drugs/ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JldGFtZXRoYXNvbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JyaW56b2xhbWlkZS5tZA",
-    "title": "Brinzolamide",
-    "category": "안과·이비인후·피부 > 안과 > 안압 강하",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvSW1pcGVuZW1DaWxhc3RhdGluLm1k",
+    "title": "ImipenemCilastatin",
+    "category": "감염 > 항균 > 카바페넴",
     "aliases": [
-      "brinzolamide",
-      "브린졸라마이드"
+      "imipenem cilastatin",
+      "이미페넴·실라스타틴"
     ],
-    "href": "/drugs/ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JyaW56b2xhbWlkZS5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvSW1pcGVuZW1DaWxhc3RhdGluLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0NldGlyaXppbmUubWQ",
-    "title": "Cetirizine",
-    "category": "안과·이비인후·피부 > 이비인후 > 항히스타민",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvSXNvbmlhemlkLm1k",
+    "title": "Isoniazid",
+    "category": "감염 > 항결핵 > 1차 항결핵제",
     "aliases": [
-      "cetirizine",
-      "세티리진"
+      "isoniazid",
+      "이소니아지드"
     ],
-    "href": "/drugs/ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0NldGlyaXppbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvSXNvbmlhemlkLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0RvcnpvbGFtaWRlLm1k",
-    "title": "Dorzolamide",
-    "category": "안과·이비인후·피부 > 안과 > 안압 강하",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvSXZlcm1lY3Rpbi5tZA",
+    "title": "Ivermectin",
+    "category": "감염 > 기생충 > 구충제",
     "aliases": [
-      "dorzolamide",
-      "도르졸라마이드"
+      "ivermectin",
+      "이버멕틴"
     ],
-    "href": "/drugs/ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0RvcnpvbGFtaWRlLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvSXZlcm1lY3Rpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0ZsdXRpY2Fzb25lUHJvcGlvbmF0ZS5tZA",
-    "title": "FluticasonePropionate",
-    "category": "안과·이비인후·피부 > 이비인후 > 국소 스테로이드",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k",
+    "title": "Levofloxacin",
+    "category": "감염 > 항균 > 퀴놀론",
     "aliases": [
-      "fluticasone propionate",
-      "플루티카손 프로피온산염"
+      "levofloxacin",
+      "레보플록사신"
     ],
-    "href": "/drugs/ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0ZsdXRpY2Fzb25lUHJvcGlvbmF0ZS5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0h5ZHJvY29ydGlzb25lLm1k",
-    "title": "Hydrocortisone",
-    "category": "안과·이비인후·피부 > 피부 > 국소 코르티코스테로이드",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvTGluZXpvbGlkLm1k",
+    "title": "Linezolid",
+    "category": "감염 > 항균 > 옥사졸리디논",
     "aliases": [
-      "hydrocortisone",
-      "히드로코르티손"
+      "linezolid",
+      "리네졸리드"
     ],
-    "href": "/drugs/ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0h5ZHJvY29ydGlzb25lLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvTGluZXpvbGlkLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xhdGFub3Byb3N0Lm1k",
-    "title": "Latanoprost",
-    "category": "안과·이비인후·피부 > 안과 > 안압 강하",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvTWVyb3BlbmVtLm1k",
+    "title": "Meropenem",
+    "category": "감염 > 항균 > 카바페넴",
     "aliases": [
-      "latanoprost",
-      "라타노프로스트"
+      "meropenem",
+      "메로페넴"
     ],
-    "href": "/drugs/ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xhdGFub3Byb3N0Lm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvTWVyb3BlbmVtLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xvcmF0YWRpbmUubWQ",
-    "title": "Loratadine",
-    "category": "안과·이비인후·피부 > 이비인후 > 항히스타민",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA",
+    "title": "Metronidazole",
+    "category": "감염 > 항균 > 니트로이미다졸",
     "aliases": [
-      "loratadine",
-      "로라타딘"
+      "metronidazole",
+      "메트로니다졸"
     ],
-    "href": "/drugs/ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xvcmF0YWRpbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL01vbWV0YXNvbmUubWQ",
-    "title": "Mometasone",
-    "category": "안과·이비인후·피부 > 피부 > 국소 코르티코스테로이드",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvTWljYWZ1bmdpbi5tZA",
+    "title": "Micafungin",
+    "category": "감염 > 항진균 > 에키노캔딘",
     "aliases": [
-      "mometasone",
-      "모메타손"
+      "micafungin",
+      "미카펀진"
     ],
-    "href": "/drugs/ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL01vbWV0YXNvbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvTWljYWZ1bmdpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL1RpbW9sb2wubWQ",
-    "title": "Timolol",
-    "category": "안과·이비인후·피부 > 안과 > 안압 강하",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvTWlub2N5Y2xpbmUubWQ",
+    "title": "Minocycline",
+    "category": "감염 > 항균 > 테트라사이클린",
     "aliases": [
-      "timolol",
-      "티몰롤"
+      "minocycline",
+      "미노사이클린"
     ],
-    "href": "/drugs/ZHJ1ZzrslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL1RpbW9sb2wubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvTWlub2N5Y2xpbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWNldHlsY3lzdGVpbmUubWQ",
-    "title": "Acetylcysteine",
-    "category": "전해질·영양·독성·기타 > 해독·중독 > 간독성(아세트아미노펜)",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvTW94aWZsb3hhY2luLm1k",
+    "title": "Moxifloxacin",
+    "category": "감염 > 항균 > 퀴놀론",
     "aliases": [
-      "acetylcysteine",
-      "아세틸시스테인"
+      "moxifloxacin",
+      "목시플록사신"
     ],
-    "href": "/drugs/ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWNldHlsY3lzdGVpbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvTW94aWZsb3hhY2luLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWN0aXZhdGVkQ2hhcmNvYWwubWQ",
-    "title": "ActivatedCharcoal",
-    "category": "전해질·영양·독성·기타 > 해독·중독 > 흡착",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvTmFmY2lsbGluLm1k",
+    "title": "Nafcillin",
+    "category": "감염 > 항균 > 페니실린",
     "aliases": [
-      "activated charcoal",
-      "활성탄"
+      "nafcillin",
+      "나프실린"
     ],
-    "href": "/drugs/ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWN0aXZhdGVkQ2hhcmNvYWwubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvTmFmY2lsbGluLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQ2FsY2l1bUdsdWNvbmF0ZS5tZA",
-    "title": "CalciumGluconate",
-    "category": "전해질·영양·독성·기타 > 전해질·산염기 > 칼슘 보충/응급교정",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvTml0cm9mdXJhbnRvaW4ubWQ",
+    "title": "Nitrofurantoin",
+    "category": "감염 > 항균 > 요로",
     "aliases": [
-      "calcium gluconate",
-      "글루콘산칼슘"
+      "nitrofurantoin",
+      "니트로퓨란토인"
     ],
-    "href": "/drugs/ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQ2FsY2l1bUdsdWNvbmF0ZS5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvTml0cm9mdXJhbnRvaW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvRmx1bWF6ZW5pbC5tZA",
-    "title": "Flumazenil",
-    "category": "전해질·영양·독성·기타 > 해독·중독 > 벤조 길항제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvT3NlbHRhbWl2aXIubWQ",
+    "title": "Oseltamivir",
+    "category": "감염 > 항바이러스 > 네우라미니다제 억제",
     "aliases": [
-      "flumazenil",
-      "플루마제닐"
+      "oseltamivir",
+      "오셀타미비르"
     ],
-    "href": "/drugs/ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvRmx1bWF6ZW5pbC5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvT3NlbHRhbWl2aXIubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ",
-    "title": "Glucagon",
-    "category": "전해질·영양·독성·기타 > 해독·중독 > 저혈당 역전",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvT3hhY2lsbGluLm1k",
+    "title": "Oxacillin",
+    "category": "감염 > 항균 > 페니실린",
     "aliases": [
-      "glucagon",
-      "글루카곤"
+      "oxacillin",
+      "옥사실린"
     ],
-    "href": "/drugs/ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvT3hhY2lsbGluLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA",
-    "title": "MagnesiumSulfate",
-    "category": "전해질·영양·독성·기타 > 전해질·산염기 > 마그네슘 보충/응급교정",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvUGlwZXJhY2lsbGluVGF6b2JhY3RhbS5tZA",
+    "title": "PiperacillinTazobactam",
+    "category": "감염 > 항균 > 우레이도페니실린",
     "aliases": [
-      "magnesium sulfate",
-      "황산마그네슘"
+      "piperacillin tazobactam",
+      "피페라실린·타조박탐"
     ],
-    "href": "/drugs/ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvUGlwZXJhY2lsbGluVGF6b2JhY3RhbS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTmFsb3hvbmUubWQ",
-    "title": "Naloxone",
-    "category": "전해질·영양·독성·기타 > 해독·중독 > 아편 길항제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvUG9seW15eGluQi5tZA",
+    "title": "PolymyxinB",
+    "category": "감염 > 항균 > polymyxin",
     "aliases": [
-      "naloxone",
-      "날록손"
+      "polymyxin b",
+      "폴리믹신 B"
     ],
-    "href": "/drugs/ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTmFsb3hvbmUubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvUG9seW15eGluQi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvUG90YXNzaXVtQ2hsb3JpZGUubWQ",
-    "title": "PotassiumChloride",
-    "category": "전해질·영양·독성·기타 > 전해질·산염기 > 칼륨 보충",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvUG9zYWNvbmF6b2xlLm1k",
+    "title": "Posaconazole",
+    "category": "감염 > 항진균 > 아졸계",
     "aliases": [
-      "potassium chloride",
-      "염화칼륨"
+      "posaconazole",
+      "포사코나졸"
     ],
-    "href": "/drugs/ZHJ1ZzrsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvUG90YXNzaXVtQ2hsb3JpZGUubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvUG9zYWNvbmF6b2xlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsooXslpEvQmV2YWNpenVtYWIubWQ",
-    "title": "Bevacizumab",
-    "category": "종양 > 면역항암 > 항VEGF",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvUHJhemlxdWFudGVsLm1k",
+    "title": "Praziquantel",
+    "category": "감염 > 기생충 > 구충제",
     "aliases": [
-      "bevacizumab",
-      "베바시주맙"
+      "praziquantel",
+      "프라지콴텔"
     ],
-    "href": "/drugs/ZHJ1ZzrsooXslpEvQmV2YWNpenVtYWIubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvUHJhemlxdWFudGVsLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsooXslpEvQ2FyYm9wbGF0aW4ubWQ",
-    "title": "Carboplatin",
-    "category": "종양 > 세포독성 > 플라티넘",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvUHlyYXppbmFtaWRlLm1k",
+    "title": "Pyrazinamide",
+    "category": "감염 > 항결핵 > 1차 항결핵제",
     "aliases": [
-      "carboplatin",
-      "카보플라틴"
+      "pyrazinamide",
+      "피라진아마이드"
     ],
-    "href": "/drugs/ZHJ1ZzrsooXslpEvQ2FyYm9wbGF0aW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvUHlyYXppbmFtaWRlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsooXslpEvQ2lzcGxhdGluLm1k",
-    "title": "Cisplatin",
-    "category": "종양 > 세포독성 > 플라티넘",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvUmlmYW1waW4ubWQ",
+    "title": "Rifampin",
+    "category": "감염 > 항결핵 > 리팜이신",
     "aliases": [
-      "cisplatin",
-      "시스플라틴"
+      "rifampin",
+      "리팜핀"
     ],
-    "href": "/drugs/ZHJ1ZzrsooXslpEvQ2lzcGxhdGluLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvUmlmYW1waW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsooXslpEvQ3ljbG9waG9zcGhhbWlkZS5tZA",
-    "title": "Cyclophosphamide",
-    "category": "종양 > 세포독성 > 알킬화제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvUml0b25hdmlyLm1k",
+    "title": "Ritonavir",
+    "category": "감염 > 항바이러스 > HIV 프로테아제",
     "aliases": [
-      "cyclophosphamide",
-      "사이클로포스파마이드"
+      "ritonavir",
+      "리토나비르"
     ],
-    "href": "/drugs/ZHJ1ZzrsooXslpEvQ3ljbG9waG9zcGhhbWlkZS5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvUml0b25hdmlyLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsooXslpEvRG94b3J1YmljaW4ubWQ",
-    "title": "Doxorubicin",
-    "category": "종양 > 세포독성 > 안트라사이클린",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA",
+    "title": "Sulfamethoxazole",
+    "category": "감염 > 항균 > 설폰아미드",
     "aliases": [
-      "doxorubicin",
-      "독소루비신"
+      "sulfamethoxazole",
+      "설파메톡사졸"
     ],
-    "href": "/drugs/ZHJ1ZzrsooXslpEvRG94b3J1YmljaW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsooXslpEvSW1hdGluaWIubWQ",
-    "title": "Imatinib",
-    "category": "종양 > 표적 > TK 억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvVGVub2ZvdmlyQWxhZmVuYW1pZGUubWQ",
+    "title": "TenofovirAlafenamide",
+    "category": "감염 > 항바이러스 > HBV/HIV",
     "aliases": [
-      "imatinib",
-      "이마티닙"
+      "tenofovir alafenamide",
+      "TAF",
+      "테노포비르 알라페나마이드"
     ],
-    "href": "/drugs/ZHJ1ZzrsooXslpEvSW1hdGluaWIubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvVGVub2ZvdmlyQWxhZmVuYW1pZGUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsooXslpEvTGV0cm96b2xlLm1k",
-    "title": "Letrozole",
-    "category": "종양 > 호르몬 > 항호르몬(유방)",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvVGVyYmluYWZpbmUubWQ",
+    "title": "Terbinafine",
+    "category": "감염 > 항진균 > 알릴라민",
     "aliases": [
-      "letrozole",
-      "레트로졸"
+      "terbinafine",
+      "테르비나핀"
     ],
-    "href": "/drugs/ZHJ1ZzrsooXslpEvTGV0cm96b2xlLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvVGVyYmluYWZpbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsooXslpEvTml2b2x1bWFiLm1k",
-    "title": "Nivolumab",
-    "category": "종양 > 면역항암 > PD-1 억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvVGlnZWN5Y2xpbmUubWQ",
+    "title": "Tigecycline",
+    "category": "감염 > 항균 > 글리실사이클린",
     "aliases": [
-      "nivolumab",
-      "니볼루맙"
+      "tigecycline",
+      "타이게사이클린"
     ],
-    "href": "/drugs/ZHJ1ZzrsooXslpEvTml2b2x1bWFiLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvVGlnZWN5Y2xpbmUubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsooXslpEvT3NpbWVydGluaWIubWQ",
-    "title": "Osimertinib",
-    "category": "종양 > 표적 > EGFR TKI",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k",
+    "title": "Trimethoprim",
+    "category": "감염 > 항균 > 항균(요로)",
     "aliases": [
-      "osimertinib",
-      "오시머티닙"
+      "trimethoprim",
+      "트리메토프림"
     ],
-    "href": "/drugs/ZHJ1ZzrsooXslpEvT3NpbWVydGluaWIubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsooXslpEvT3hhbGlwbGF0aW4ubWQ",
-    "title": "Oxaliplatin",
-    "category": "종양 > 세포독성 > 플라티넘",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltU3VsZmFtZXRob3hhem9sZS5tZA",
+    "title": "TrimethoprimSulfamethoxazole",
+    "category": "감염 > 항균 > 설폰아미드",
     "aliases": [
-      "oxaliplatin",
-      "옥살리플라틴"
+      "trimethoprim sulfamethoxazole",
+      "트리메토프림·설파메톡사졸"
     ],
-    "href": "/drugs/ZHJ1ZzrsooXslpEvT3hhbGlwbGF0aW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltU3VsZmFtZXRob3hhem9sZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsooXslpEvUGFjbGl0YXhlbC5tZA",
-    "title": "Paclitaxel",
-    "category": "종양 > 세포독성 > 미세관억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvVmFsYWN5Y2xvdmlyLm1k",
+    "title": "Valacyclovir",
+    "category": "감염 > 항바이러스 > 헤르페스",
     "aliases": [
-      "paclitaxel",
-      "파클리탁셀"
+      "valacyclovir",
+      "발라시클로버"
     ],
-    "href": "/drugs/ZHJ1ZzrsooXslpEvUGFjbGl0YXhlbC5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvVmFsYWN5Y2xvdmlyLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsooXslpEvUGVtYnJvbGl6dW1hYi5tZA",
-    "title": "Pembrolizumab",
-    "category": "종양 > 면역항암 > PD-1 억제제",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvVmFsZ2FuY2ljbG92aXIubWQ",
+    "title": "Valganciclovir",
+    "category": "감염 > 항바이러스 > CMV",
     "aliases": [
-      "pembrolizumab",
-      "펨브롤리주맙"
+      "valganciclovir",
+      "발간시클로비르"
     ],
-    "href": "/drugs/ZHJ1ZzrsooXslpEvUGVtYnJvbGl6dW1hYi5tZA"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvVmFsZ2FuY2ljbG92aXIubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsooXslpEvVGFtb3hpZmVuLm1k",
-    "title": "Tamoxifen",
-    "category": "종양 > 호르몬 > SERM",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA",
+    "title": "Vancomycin",
+    "category": "감염 > 항균 > 글리코펩타이드",
     "aliases": [
-      "tamoxifen",
-      "타목시펜"
+      "vancomycin",
+      "반코마이신"
     ],
-    "href": "/drugs/ZHJ1ZzrsooXslpEvVGFtb3hpZmVuLm1k"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrsooXslpEvVHJhc3R1enVtYWIubWQ",
-    "title": "Trastuzumab",
-    "category": "종양 > 면역항암 > 항체",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvVm9yaWNvbmF6b2xlLm1k",
+    "title": "Voriconazole",
+    "category": "감염 > 항진균 > 아졸계",
     "aliases": [
-      "trastuzumab",
-      "트라스투주맙"
+      "voriconazole",
+      "보리코나졸"
     ],
-    "href": "/drugs/ZHJ1ZzrsooXslpEvVHJhc3R1enVtYWIubWQ"
+    "href": "/drugs/ZHJ1ZzowOCDqsJDsl7wvVm9yaWNvbmF6b2xlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9BbHRlcGxhc2UubWQ",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9BbHRlcGxhc2UubWQ",
     "title": "Alteplase",
     "category": "혈액·응고 > 섬유소용해 > tPA",
     "aliases": [
       "alteplase",
       "알테플라제"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9BbHRlcGxhc2UubWQ"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9BbHRlcGxhc2UubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9BbWlub2NhcHJvaWNBY2lkLm1k",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9BbWlub2NhcHJvaWNBY2lkLm1k",
     "title": "AminocaproicAcid",
     "category": "혈액·응고 > 지혈 > 항섬유소용해",
     "aliases": [
       "aminocaproic acid",
       "아미노카프로산"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9BbWlub2NhcHJvaWNBY2lkLm1k"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9BbWlub2NhcHJvaWNBY2lkLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9BcGl4YWJhbi5tZA",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9BcGl4YWJhbi5tZA",
     "title": "Apixaban",
     "category": "혈액·응고 > 항응고 > 직접 경구 항응고제",
     "aliases": [
       "apixaban",
       "아픽사반"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9BcGl4YWJhbi5tZA"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9BcGl4YWJhbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9EYWJpZ2F0cmFuLm1k",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EYWJpZ2F0cmFuLm1k",
     "title": "Dabigatran",
     "category": "혈액·응고 > 항응고 > 직접 경구 항응고제",
     "aliases": [
       "dabigatran",
       "다비가트란"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9EYWJpZ2F0cmFuLm1k"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EYWJpZ2F0cmFuLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9EZXNtb3ByZXNzaW4ubWQ",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EZXNtb3ByZXNzaW4ubWQ",
     "title": "Desmopressin",
     "category": "혈액·응고 > 출혈질환 > VWF 방출 촉진",
     "aliases": [
       "desmopressin",
       "데스모프레신"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9EZXNtb3ByZXNzaW4ubWQ"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EZXNtb3ByZXNzaW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9FZG94YWJhbi5tZA",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9FZG94YWJhbi5tZA",
     "title": "Edoxaban",
     "category": "혈액·응고 > 항응고 > 직접 경구 항응고제",
     "aliases": [
       "edoxaban",
       "에독사반"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9FZG94YWJhbi5tZA"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9FZG94YWJhbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9Fbm94YXBhcmluLm1k",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Fbm94YXBhcmluLm1k",
     "title": "Enoxaparin",
     "category": "혈액·응고 > 항응고 > 저분자 헤파린",
     "aliases": [
       "enoxaparin",
       "에녹사파린"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9Fbm94YXBhcmluLm1k"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Fbm94YXBhcmluLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9FcG9ldGluQWxmYS5tZA",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9FcG9ldGluQWxmYS5tZA",
     "title": "EpoetinAlfa",
     "category": "혈액·응고 > 빈혈 > ESA",
     "aliases": [
       "epoetin alfa",
       "에포에틴 알파"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9FcG9ldGluQWxmYS5tZA"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9FcG9ldGluQWxmYS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9GaWxncmFzdGltLm1k",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9GaWxncmFzdGltLm1k",
     "title": "Filgrastim",
     "category": "혈액·응고 > 조혈 > G-CSF",
     "aliases": [
       "filgrastim",
       "필그라스팀"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9GaWxncmFzdGltLm1k"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9GaWxncmFzdGltLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9Gb25kYXBhcmludXgubWQ",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Gb25kYXBhcmludXgubWQ",
     "title": "Fondaparinux",
     "category": "혈액·응고 > 항응고 > Xa 선택적 억제",
     "aliases": [
       "fondaparinux",
       "폰다파리눅스"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9Gb25kYXBhcmludXgubWQ"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Gb25kYXBhcmludXgubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k",
     "title": "Heparin",
     "category": "혈액·응고 > 항응고 > 헤파린계",
     "aliases": [
       "heparin",
       "헤파린"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9Jcm9uU3Vjcm9zZS5tZA",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Jcm9uU3Vjcm9zZS5tZA",
     "title": "IronSucrose",
     "category": "혈액·응고 > 빈혈 > 철분보충",
     "aliases": [
       "iron sucrose",
       "철 sucrose"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9Jcm9uU3Vjcm9zZS5tZA"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Jcm9uU3Vjcm9zZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9QaGVuaW5kaW9uZS5tZA",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9QaGVuaW5kaW9uZS5tZA",
     "title": "Phenindione",
     "category": "혈액·응고 > 항응고 > 비타민 K 길항제",
     "aliases": [
       "phenindione",
       "페닌디온"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9QaGVuaW5kaW9uZS5tZA"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9QaGVuaW5kaW9uZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9SaXZhcm94YWJhbi5tZA",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9SaXZhcm94YWJhbi5tZA",
     "title": "Rivaroxaban",
     "category": "혈액·응고 > 항응고 > 직접 경구 항응고제",
     "aliases": [
       "rivaroxaban",
       "리바록사반"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9SaXZhcm94YWJhbi5tZA"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9SaXZhcm94YWJhbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9TdHJlcHRva2luYXNlLm1k",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9TdHJlcHRva2luYXNlLm1k",
     "title": "Streptokinase",
     "category": "혈액·응고 > 섬유소용해 > 스트렙토키나제",
     "aliases": [
       "streptokinase",
       "스트렙토키나제"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9TdHJlcHRva2luYXNlLm1k"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9TdHJlcHRva2luYXNlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9UcmFuZXhhbWljQWNpZC5tZA",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9UcmFuZXhhbWljQWNpZC5tZA",
     "title": "TranexamicAcid",
     "category": "혈액·응고 > 지혈 > 항섬유소용해",
     "aliases": [
       "tranexamic acid",
       "트라넥삼산"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9UcmFuZXhhbWljQWNpZC5tZA"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9UcmFuZXhhbWljQWNpZC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA",
+    "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA",
     "title": "Warfarin",
     "category": "혈액·응고 > 항응고 > 비타민 K 길항제",
     "aliases": [
       "warfarin",
       "와파린"
     ],
-    "href": "/drugs/ZHJ1ZzrtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA"
+    "href": "/drugs/ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvQWNsaWRpbml1bS5tZA",
-    "title": "Aclidinium",
-    "category": "호흡기 > 기도 확장 > LAMA",
+    "slug": "ZHJ1ZzoxMCDsooXslpEvQmV2YWNpenVtYWIubWQ",
+    "title": "Bevacizumab",
+    "category": "종양 > 면역항암 > 항VEGF",
     "aliases": [
-      "aclidinium",
-      "아클리디니움"
+      "bevacizumab",
+      "베바시주맙"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvQWNsaWRpbml1bS5tZA"
+    "href": "/drugs/ZHJ1ZzoxMCDsooXslpEvQmV2YWNpenVtYWIubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvQmVjbG9tZXRhc29uZS5tZA",
-    "title": "Beclometasone",
-    "category": "호흡기 > 염증 조절 > 흡입 코르티코스테로이드",
+    "slug": "ZHJ1ZzoxMCDsooXslpEvQ2FyYm9wbGF0aW4ubWQ",
+    "title": "Carboplatin",
+    "category": "종양 > 세포독성 > 플라티넘",
     "aliases": [
-      "beclometasone",
-      "베클로메타손"
+      "carboplatin",
+      "카보플라틴"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvQmVjbG9tZXRhc29uZS5tZA"
+    "href": "/drugs/ZHJ1ZzoxMCDsooXslpEvQ2FyYm9wbGF0aW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvQnVkZXNvbmlkZS5tZA",
-    "title": "Budesonide",
-    "category": "호흡기 > 염증 조절 > 흡입 코르티코스테로이드",
+    "slug": "ZHJ1ZzoxMCDsooXslpEvQ2lzcGxhdGluLm1k",
+    "title": "Cisplatin",
+    "category": "종양 > 세포독성 > 플라티넘",
     "aliases": [
-      "budesonide",
-      "부데소니드"
+      "cisplatin",
+      "시스플라틴"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvQnVkZXNvbmlkZS5tZA"
+    "href": "/drugs/ZHJ1ZzoxMCDsooXslpEvQ2lzcGxhdGluLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvQnVkZXNvbmlkZUZvcm1vdGVyb2wubWQ",
-    "title": "BudesonideFormoterol",
-    "category": "호흡기 > 염증 조절 > ICS/LABA 복합제",
+    "slug": "ZHJ1ZzoxMCDsooXslpEvQ3ljbG9waG9zcGhhbWlkZS5tZA",
+    "title": "Cyclophosphamide",
+    "category": "종양 > 세포독성 > 알킬화제",
     "aliases": [
-      "budesonide formoterol",
-      "부데소니드·포르모테롤"
+      "cyclophosphamide",
+      "사이클로포스파마이드"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvQnVkZXNvbmlkZUZvcm1vdGVyb2wubWQ"
+    "href": "/drugs/ZHJ1ZzoxMCDsooXslpEvQ3ljbG9waG9zcGhhbWlkZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvQ2ljbGVzb25pZGUubWQ",
-    "title": "Ciclesonide",
-    "category": "호흡기 > 염증 조절 > 흡입 코르티코스테로이드",
+    "slug": "ZHJ1ZzoxMCDsooXslpEvRG94b3J1YmljaW4ubWQ",
+    "title": "Doxorubicin",
+    "category": "종양 > 세포독성 > 안트라사이클린",
     "aliases": [
-      "ciclesonide",
-      "시클레소니드"
+      "doxorubicin",
+      "독소루비신"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvQ2ljbGVzb25pZGUubWQ"
+    "href": "/drugs/ZHJ1ZzoxMCDsooXslpEvRG94b3J1YmljaW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ",
-    "title": "Fluticasone",
-    "category": "호흡기 > 염증 조절 > 흡입 코르티코스테로이드",
+    "slug": "ZHJ1ZzoxMCDsooXslpEvSW1hdGluaWIubWQ",
+    "title": "Imatinib",
+    "category": "종양 > 표적 > TK 억제제",
     "aliases": [
-      "fluticasone",
-      "플루티카손"
+      "imatinib",
+      "이마티닙"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ"
+    "href": "/drugs/ZHJ1ZzoxMCDsooXslpEvSW1hdGluaWIubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvRmx1dGljYXNvbmVTYWxtZXRlcm9sLm1k",
-    "title": "FluticasoneSalmeterol",
-    "category": "호흡기 > 염증 조절 > ICS/LABA 복합제",
+    "slug": "ZHJ1ZzoxMCDsooXslpEvTGV0cm96b2xlLm1k",
+    "title": "Letrozole",
+    "category": "종양 > 호르몬 > 항호르몬(유방)",
     "aliases": [
-      "fluticasone salmeterol",
-      "플루티카손·살메테롤"
+      "letrozole",
+      "레트로졸"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvRmx1dGljYXNvbmVTYWxtZXRlcm9sLm1k"
+    "href": "/drugs/ZHJ1ZzoxMCDsooXslpEvTGV0cm96b2xlLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvRm9ybW90ZXJvbC5tZA",
-    "title": "Formoterol",
-    "category": "호흡기 > 기도 확장 > LABA",
+    "slug": "ZHJ1ZzoxMCDsooXslpEvTml2b2x1bWFiLm1k",
+    "title": "Nivolumab",
+    "category": "종양 > 면역항암 > PD-1 억제제",
     "aliases": [
-      "formoterol",
-      "포모테롤"
+      "nivolumab",
+      "니볼루맙"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvRm9ybW90ZXJvbC5tZA"
+    "href": "/drugs/ZHJ1ZzoxMCDsooXslpEvTml2b2x1bWFiLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvSW5kYWNhdGVyb2wubWQ",
-    "title": "Indacaterol",
-    "category": "호흡기 > 기도 확장 > LABA",
+    "slug": "ZHJ1ZzoxMCDsooXslpEvT3NpbWVydGluaWIubWQ",
+    "title": "Osimertinib",
+    "category": "종양 > 표적 > EGFR TKI",
     "aliases": [
-      "indacaterol",
-      "인다카테롤"
+      "osimertinib",
+      "오시머티닙"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvSW5kYWNhdGVyb2wubWQ"
+    "href": "/drugs/ZHJ1ZzoxMCDsooXslpEvT3NpbWVydGluaWIubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvSXByYXRyb3BpdW0ubWQ",
-    "title": "Ipratropium",
-    "category": "호흡기 > 기도 확장 > SAMA",
+    "slug": "ZHJ1ZzoxMCDsooXslpEvT3hhbGlwbGF0aW4ubWQ",
+    "title": "Oxaliplatin",
+    "category": "종양 > 세포독성 > 플라티넘",
     "aliases": [
-      "ipratropium",
-      "이프라트로피움"
+      "oxaliplatin",
+      "옥살리플라틴"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvSXByYXRyb3BpdW0ubWQ"
+    "href": "/drugs/ZHJ1ZzoxMCDsooXslpEvT3hhbGlwbGF0aW4ubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvTW9udGVsdWthc3QubWQ",
-    "title": "Montelukast",
-    "category": "호흡기 > 염증 조절 > LTRA",
+    "slug": "ZHJ1ZzoxMCDsooXslpEvUGFjbGl0YXhlbC5tZA",
+    "title": "Paclitaxel",
+    "category": "종양 > 세포독성 > 미세관억제제",
     "aliases": [
-      "montelukast",
-      "몬테루카스트"
+      "paclitaxel",
+      "파클리탁셀"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvTW9udGVsdWthc3QubWQ"
+    "href": "/drugs/ZHJ1ZzoxMCDsooXslpEvUGFjbGl0YXhlbC5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvUm9mbHVtaWxhc3QubWQ",
-    "title": "Roflumilast",
-    "category": "호흡기 > 염증 조절 > PDE4 억제",
+    "slug": "ZHJ1ZzoxMCDsooXslpEvUGVtYnJvbGl6dW1hYi5tZA",
+    "title": "Pembrolizumab",
+    "category": "종양 > 면역항암 > PD-1 억제제",
     "aliases": [
-      "roflumilast",
-      "로플루밀라스트"
+      "pembrolizumab",
+      "펨브롤리주맙"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvUm9mbHVtaWxhc3QubWQ"
+    "href": "/drugs/ZHJ1ZzoxMCDsooXslpEvUGVtYnJvbGl6dW1hYi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvU2FsYnV0YW1vbC5tZA",
-    "title": "Salbutamol",
-    "category": "호흡기 > 기도 확장 > SABA",
+    "slug": "ZHJ1ZzoxMCDsooXslpEvVGFtb3hpZmVuLm1k",
+    "title": "Tamoxifen",
+    "category": "종양 > 호르몬 > SERM",
     "aliases": [
-      "salbutamol",
-      "살부타몰"
+      "tamoxifen",
+      "타목시펜"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvU2FsYnV0YW1vbC5tZA"
+    "href": "/drugs/ZHJ1ZzoxMCDsooXslpEvVGFtb3hpZmVuLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvU2FsbWV0ZXJvbC5tZA",
-    "title": "Salmeterol",
-    "category": "호흡기 > 기도 확장 > LABA",
+    "slug": "ZHJ1ZzoxMCDsooXslpEvVHJhc3R1enVtYWIubWQ",
+    "title": "Trastuzumab",
+    "category": "종양 > 면역항암 > 항체",
     "aliases": [
-      "salmeterol",
-      "살메테롤"
+      "trastuzumab",
+      "트라스투주맙"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvU2FsbWV0ZXJvbC5tZA"
+    "href": "/drugs/ZHJ1ZzoxMCDsooXslpEvVHJhc3R1enVtYWIubWQ"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvVGhlb3BoeWxsaW5lLm1k",
-    "title": "Theophylline",
-    "category": "호흡기 > 기도 확장 > 메틸크산틴",
+    "slug": "ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9FdGhpbnlsZXN0cmFkaW9sLm1k",
+    "title": "Ethinylestradiol",
+    "category": "산부인과·소아 > 산부인 > 경구피임",
     "aliases": [
-      "theophylline",
-      "테오필린"
+      "ethinylestradiol",
+      "에티닐에스트라디올"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvVGhlb3BoeWxsaW5lLm1k"
+    "href": "/drugs/ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9FdGhpbnlsZXN0cmFkaW9sLm1k"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvVGlvdHJvcGl1bS5tZA",
-    "title": "Tiotropium",
-    "category": "호흡기 > 기도 확장 > LAMA",
+    "slug": "ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA",
+    "title": "Oxytocin",
+    "category": "산부인과·소아 > 산부인 > 자궁수축",
     "aliases": [
-      "tiotropium",
-      "티오트로피움"
+      "oxytocin",
+      "옥시토신"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvVGlvdHJvcGl1bS5tZA"
+    "href": "/drugs/ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvVW1lY2xpZGluaXVtLm1k",
-    "title": "Umeclidinium",
-    "category": "호흡기 > 기도 확장 > LAMA",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BY2FtcHJvc2F0ZS5tZA",
+    "title": "Acamprosate",
+    "category": "신경·정신 > 진통·중독 > 중독치료",
     "aliases": [
-      "umeclidinium",
-      "우메클리디니움"
+      "acamprosate",
+      "아캄프로세이트"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvVW1lY2xpZGluaXVtLm1k"
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BY2FtcHJvc2F0ZS5tZA"
   },
   {
     "type": "drug",
-    "slug": "ZHJ1ZzrtmLjtnaHquLAvVmlsYW50ZXJvbC5tZA",
-    "title": "Vilanterol",
-    "category": "호흡기 > 기도 확장 > LABA",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbHByYXpvbGFtLm1k",
+    "title": "Alprazolam",
+    "category": "신경·정신 > 정신 > 벤조디아제핀",
     "aliases": [
-      "vilanterol",
-      "빌란테롤"
+      "alprazolam",
+      "알프라졸람"
     ],
-    "href": "/drugs/ZHJ1ZzrtmLjtnaHquLAvVmlsYW50ZXJvbC5tZA"
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbHByYXpvbGFtLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k",
+    "title": "Amitriptyline",
+    "category": "신경·정신 > 정신 > TCA",
+    "aliases": [
+      "amitriptyline",
+      "아미트립틸린"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BcmlwaXByYXpvbGUubWQ",
+    "title": "Aripiprazole",
+    "category": "신경·정신 > 정신 > 항정신병",
+    "aliases": [
+      "aripiprazole",
+      "아리피프라졸"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BcmlwaXByYXpvbGUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BdG9tb3hldGluZS5tZA",
+    "title": "Atomoxetine",
+    "category": "신경·정신 > 정신 > ADHD",
+    "aliases": [
+      "atomoxetine",
+      "아토목세틴"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BdG9tb3hldGluZS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByZW5vcnBoaW5lLm1k",
+    "title": "Buprenorphine",
+    "category": "신경·정신 > 진통·중독 > 부분 아편 작용제",
+    "aliases": [
+      "buprenorphine",
+      "부프레노르핀"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByZW5vcnBoaW5lLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByZW5vcnBoaW5lTmFsb3hvbmUubWQ",
+    "title": "BuprenorphineNaloxone",
+    "category": "신경·정신 > 진통·중독 > 중독치료",
+    "aliases": [
+      "buprenorphine naloxone",
+      "부프레노르핀·날록손"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByZW5vcnBoaW5lTmFsb3hvbmUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ",
+    "title": "Bupropion",
+    "category": "신경·정신 > 정신 > NDRI",
+    "aliases": [
+      "bupropion",
+      "부프로피온"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DYXJiYW1hemVwaW5lLm1k",
+    "title": "Carbamazepine",
+    "category": "신경·정신 > 항경련 > 나트륨채널",
+    "aliases": [
+      "carbamazepine",
+      "카르바마제핀"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DYXJiYW1hemVwaW5lLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG9uYXplcGFtLm1k",
+    "title": "Clonazepam",
+    "category": "신경·정신 > 정신 > 벤조디아제핀",
+    "aliases": [
+      "clonazepam",
+      "클로나제팜"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG9uYXplcGFtLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ",
+    "title": "Clozapine",
+    "category": "신경·정신 > 정신 > 항정신병",
+    "aliases": [
+      "clozapine",
+      "클로자핀"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA",
+    "title": "Diazepam",
+    "category": "신경·정신 > 정신 > 벤조디아제핀",
+    "aliases": [
+      "diazepam",
+      "디아제팜"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Eb25lcGV6aWwubWQ",
+    "title": "Donepezil",
+    "category": "신경·정신 > 퇴행성 > 콜린에스테라제 억제",
+    "aliases": [
+      "donepezil",
+      "도네페질"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Eb25lcGV6aWwubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EdWxveGV0aW5lLm1k",
+    "title": "Duloxetine",
+    "category": "신경·정신 > 정신 > SNRI",
+    "aliases": [
+      "duloxetine",
+      "둘록세틴"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EdWxveGV0aW5lLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Fc2NpdGFsb3ByYW0ubWQ",
+    "title": "Escitalopram",
+    "category": "신경·정신 > 정신 > SSRI",
+    "aliases": [
+      "escitalopram",
+      "에스시탈로프람"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Fc2NpdGFsb3ByYW0ubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GZW50YW55bC5tZA",
+    "title": "Fentanyl",
+    "category": "신경·정신 > 진통 > 아편유사제",
+    "aliases": [
+      "fentanyl",
+      "펜타닐"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GZW50YW55bC5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k",
+    "title": "Fluoxetine",
+    "category": "신경·정신 > 정신 > SSRI",
+    "aliases": [
+      "fluoxetine",
+      "플루옥세틴"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9HYWJhcGVudGluLm1k",
+    "title": "Gabapentin",
+    "category": "신경·정신 > 진통 > 가바펜티노이드",
+    "aliases": [
+      "gabapentin",
+      "가바펜틴"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9HYWJhcGVudGluLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA",
+    "title": "Haloperidol",
+    "category": "신경·정신 > 정신 > 항정신병",
+    "aliases": [
+      "haloperidol",
+      "할로페리돌"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MYWNvc2FtaWRlLm1k",
+    "title": "Lacosamide",
+    "category": "신경·정신 > 항경련 > 나트륨채널",
+    "aliases": [
+      "lacosamide",
+      "라코사미드"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MYWNvc2FtaWRlLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MYW1vdHJpZ2luZS5tZA",
+    "title": "Lamotrigine",
+    "category": "신경·정신 > 항경련",
+    "aliases": [
+      "lamotrigine",
+      "라모트리진"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MYW1vdHJpZ2luZS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZldGlyYWNldGFtLm1k",
+    "title": "Levetiracetam",
+    "category": "신경·정신 > 항경련",
+    "aliases": [
+      "levetiracetam",
+      "레베티라세탐"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZldGlyYWNldGFtLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA",
+    "title": "Levodopa",
+    "category": "신경·정신 > 파킨슨 > 도파민 전구체",
+    "aliases": [
+      "levodopa",
+      "레보도파"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k",
+    "title": "Lithium",
+    "category": "신경·정신 > 정신 > 기분안정제",
+    "aliases": [
+      "lithium",
+      "리튬"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ",
+    "title": "Lorazepam",
+    "category": "신경·정신 > 정신 > 벤조디아제핀",
+    "aliases": [
+      "lorazepam",
+      "로라제팜"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NZW1hbnRpbmUubWQ",
+    "title": "Memantine",
+    "category": "신경·정신 > 퇴행성 > NMDA 길항제",
+    "aliases": [
+      "memantine",
+      "메만틴"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NZW1hbnRpbmUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NZXRoeWxwaGVuaWRhdGUubWQ",
+    "title": "Methylphenidate",
+    "category": "신경·정신 > 정신 > ADHD",
+    "aliases": [
+      "methylphenidate",
+      "메틸페니데이트"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NZXRoeWxwaGVuaWRhdGUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NaWRhem9sYW0ubWQ",
+    "title": "Midazolam",
+    "category": "신경·정신 > 정신 > 벤조디아제핀",
+    "aliases": [
+      "midazolam",
+      "미다졸람"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NaWRhem9sYW0ubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NaXJ0YXphcGluZS5tZA",
+    "title": "Mirtazapine",
+    "category": "신경·정신 > 정신 > NaSSA",
+    "aliases": [
+      "mirtazapine",
+      "미르타자핀"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NaXJ0YXphcGluZS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA",
+    "title": "Morphine",
+    "category": "신경·정신 > 진통 > 아편유사제",
+    "aliases": [
+      "morphine",
+      "모르핀"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9OYWx0cmV4b25lLm1k",
+    "title": "Naltrexone",
+    "category": "신경·정신 > 진통·중독 > 중독치료",
+    "aliases": [
+      "naltrexone",
+      "날트렉손"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9OYWx0cmV4b25lLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PbGFuemFwaW5lLm1k",
+    "title": "Olanzapine",
+    "category": "신경·정신 > 정신 > 항정신병",
+    "aliases": [
+      "olanzapine",
+      "올란자핀"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PbGFuemFwaW5lLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PeGNhcmJhemVwaW5lLm1k",
+    "title": "Oxcarbazepine",
+    "category": "신경·정신 > 항경련",
+    "aliases": [
+      "oxcarbazepine",
+      "옥스카르바제핀"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PeGNhcmJhemVwaW5lLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PeHljb2RvbmUubWQ",
+    "title": "Oxycodone",
+    "category": "신경·정신 > 진통 > 아편유사제",
+    "aliases": [
+      "oxycodone",
+      "옥시코돈"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PeHljb2RvbmUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QYXJhY2V0YW1vbC5tZA",
+    "title": "Paracetamol",
+    "category": "신경·정신 > 진통 > 아세트아미노펜",
+    "aliases": [
+      "paracetamol",
+      "파라세타몰"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QYXJhY2V0YW1vbC5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ",
+    "title": "Phenytoin",
+    "category": "신경·정신 > 항경련 > 나트륨채널",
+    "aliases": [
+      "phenytoin",
+      "페니토인"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QcmVnYWJhbGluLm1k",
+    "title": "Pregabalin",
+    "category": "신경·정신 > 진통 > 가바펜티노이드",
+    "aliases": [
+      "pregabalin",
+      "프레가발린"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QcmVnYWJhbGluLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9RdWV0aWFwaW5lLm1k",
+    "title": "Quetiapine",
+    "category": "신경·정신 > 정신 > 항정신병",
+    "aliases": [
+      "quetiapine",
+      "퀘티아핀"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9RdWV0aWFwaW5lLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA",
+    "title": "Risperidone",
+    "category": "신경·정신 > 정신 > 항정신병",
+    "aliases": [
+      "risperidone",
+      "리스페리돈"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9TZXJ0cmFsaW5lLm1k",
+    "title": "Sertraline",
+    "category": "신경·정신 > 정신 > SSRI",
+    "aliases": [
+      "sertraline",
+      "세르트랄린"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9TZXJ0cmFsaW5lLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9TdW1hdHJpcHRhbi5tZA",
+    "title": "Sumatriptan",
+    "category": "신경·정신 > 두통 > 트립탄",
+    "aliases": [
+      "sumatriptan",
+      "스마트립탄"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9TdW1hdHJpcHRhbi5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Ub3BpcmFtYXRlLm1k",
+    "title": "Topiramate",
+    "category": "신경·정신 > 항경련",
+    "aliases": [
+      "topiramate",
+      "토피라메이트"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Ub3BpcmFtYXRlLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9UcmFtYWRvbC5tZA",
+    "title": "Tramadol",
+    "category": "신경·정신 > 진통 > 아편유사제",
+    "aliases": [
+      "tramadol",
+      "트라마돌"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9UcmFtYWRvbC5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WYWxwcm9hdGUubWQ",
+    "title": "Valproate",
+    "category": "신경·정신 > 항경련 > 다작용",
+    "aliases": [
+      "valproate",
+      "발프로에이트"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WYWxwcm9hdGUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA",
+    "title": "Venlafaxine",
+    "category": "신경·정신 > 정신 > SNRI",
+    "aliases": [
+      "venlafaxine",
+      "벤라팍신"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9ab2xwaWRlbS5tZA",
+    "title": "Zolpidem",
+    "category": "신경·정신 > 정신 > Z-drug",
+    "aliases": [
+      "zolpidem",
+      "졸피뎀"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9ab2xwaWRlbS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JldGFtZXRoYXNvbmUubWQ",
+    "title": "Betamethasone",
+    "category": "안과·이비인후·피부 > 피부 > 국소 코르티코스테로이드",
+    "aliases": [
+      "betamethasone",
+      "베타메타손"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JldGFtZXRoYXNvbmUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JyaW56b2xhbWlkZS5tZA",
+    "title": "Brinzolamide",
+    "category": "안과·이비인후·피부 > 안과 > 안압 강하",
+    "aliases": [
+      "brinzolamide",
+      "브린졸라마이드"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JyaW56b2xhbWlkZS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0NldGlyaXppbmUubWQ",
+    "title": "Cetirizine",
+    "category": "안과·이비인후·피부 > 이비인후 > 항히스타민",
+    "aliases": [
+      "cetirizine",
+      "세티리진"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0NldGlyaXppbmUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0RvcnpvbGFtaWRlLm1k",
+    "title": "Dorzolamide",
+    "category": "안과·이비인후·피부 > 안과 > 안압 강하",
+    "aliases": [
+      "dorzolamide",
+      "도르졸라마이드"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0RvcnpvbGFtaWRlLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0ZsdXRpY2Fzb25lUHJvcGlvbmF0ZS5tZA",
+    "title": "FluticasonePropionate",
+    "category": "안과·이비인후·피부 > 이비인후 > 국소 스테로이드",
+    "aliases": [
+      "fluticasone propionate",
+      "플루티카손 프로피온산염"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0ZsdXRpY2Fzb25lUHJvcGlvbmF0ZS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0h5ZHJvY29ydGlzb25lLm1k",
+    "title": "Hydrocortisone",
+    "category": "안과·이비인후·피부 > 피부 > 국소 코르티코스테로이드",
+    "aliases": [
+      "hydrocortisone",
+      "히드로코르티손"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0h5ZHJvY29ydGlzb25lLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xhdGFub3Byb3N0Lm1k",
+    "title": "Latanoprost",
+    "category": "안과·이비인후·피부 > 안과 > 안압 강하",
+    "aliases": [
+      "latanoprost",
+      "라타노프로스트"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xhdGFub3Byb3N0Lm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xvcmF0YWRpbmUubWQ",
+    "title": "Loratadine",
+    "category": "안과·이비인후·피부 > 이비인후 > 항히스타민",
+    "aliases": [
+      "loratadine",
+      "로라타딘"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xvcmF0YWRpbmUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL01vbWV0YXNvbmUubWQ",
+    "title": "Mometasone",
+    "category": "안과·이비인후·피부 > 피부 > 국소 코르티코스테로이드",
+    "aliases": [
+      "mometasone",
+      "모메타손"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL01vbWV0YXNvbmUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL1RpbW9sb2wubWQ",
+    "title": "Timolol",
+    "category": "안과·이비인후·피부 > 안과 > 안압 강하",
+    "aliases": [
+      "timolol",
+      "티몰롤"
+    ],
+    "href": "/drugs/ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL1RpbW9sb2wubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0JhY2xvZmVuLm1k",
+    "title": "Baclofen",
+    "category": "근골격·통증·마취 > 근이완",
+    "aliases": [
+      "baclofen",
+      "박로펜"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0JhY2xvZmVuLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0RleG1lZGV0b21pZGluZS5tZA",
+    "title": "Dexmedetomidine",
+    "category": "근골격·통증·마취 > 진정 > alpha2 작용제",
+    "aliases": [
+      "dexmedetomidine",
+      "덱스메데토미딘"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0RleG1lZGV0b21pZGluZS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldGFtaW5lLm1k",
+    "title": "Ketamine",
+    "category": "근골격·통증·마취 > 마취 > 전신마취",
+    "aliases": [
+      "ketamine",
+      "케타민"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldGFtaW5lLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldG9yb2xhYy5tZA",
+    "title": "Ketorolac",
+    "category": "근골격·통증·마취 > 진통 > NSAID",
+    "aliases": [
+      "ketorolac",
+      "케토롤락"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldG9yb2xhYy5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0xpZG9jYWluZS5tZA",
+    "title": "Lidocaine",
+    "category": "근골격·통증·마취 > 마취 > 국소마취",
+    "aliases": [
+      "lidocaine",
+      "리도카인"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0xpZG9jYWluZS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Byb3BvZm9sLm1k",
+    "title": "Propofol",
+    "category": "근골격·통증·마취 > 마취 > 전신마취",
+    "aliases": [
+      "propofol",
+      "프로포폴"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Byb3BvZm9sLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1JvY3Vyb25pdW0ubWQ",
+    "title": "Rocuronium",
+    "category": "근골격·통증·마취 > 마취 > 근이완(비탈축)",
+    "aliases": [
+      "rocuronium",
+      "로쿠로니움"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1JvY3Vyb25pdW0ubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Nldm9mbHVyYW5lLm1k",
+    "title": "Sevoflurane",
+    "category": "근골격·통증·마취 > 마취 > 흡입 마취",
+    "aliases": [
+      "sevoflurane",
+      "세보플루란"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Nldm9mbHVyYW5lLm1k"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWNldHlsY3lzdGVpbmUubWQ",
+    "title": "Acetylcysteine",
+    "category": "전해질·영양·독성·기타 > 해독·중독 > 간독성(아세트아미노펜)",
+    "aliases": [
+      "acetylcysteine",
+      "아세틸시스테인"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWNldHlsY3lzdGVpbmUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWN0aXZhdGVkQ2hhcmNvYWwubWQ",
+    "title": "ActivatedCharcoal",
+    "category": "전해질·영양·독성·기타 > 해독·중독 > 흡착",
+    "aliases": [
+      "activated charcoal",
+      "활성탄"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWN0aXZhdGVkQ2hhcmNvYWwubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQ2FsY2l1bUdsdWNvbmF0ZS5tZA",
+    "title": "CalciumGluconate",
+    "category": "전해질·영양·독성·기타 > 전해질·산염기 > 칼슘 보충/응급교정",
+    "aliases": [
+      "calcium gluconate",
+      "글루콘산칼슘"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQ2FsY2l1bUdsdWNvbmF0ZS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvRmx1bWF6ZW5pbC5tZA",
+    "title": "Flumazenil",
+    "category": "전해질·영양·독성·기타 > 해독·중독 > 벤조 길항제",
+    "aliases": [
+      "flumazenil",
+      "플루마제닐"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvRmx1bWF6ZW5pbC5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ",
+    "title": "Glucagon",
+    "category": "전해질·영양·독성·기타 > 해독·중독 > 저혈당 역전",
+    "aliases": [
+      "glucagon",
+      "글루카곤"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA",
+    "title": "MagnesiumSulfate",
+    "category": "전해질·영양·독성·기타 > 전해질·산염기 > 마그네슘 보충/응급교정",
+    "aliases": [
+      "magnesium sulfate",
+      "황산마그네슘"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTmFsb3hvbmUubWQ",
+    "title": "Naloxone",
+    "category": "전해질·영양·독성·기타 > 해독·중독 > 아편 길항제",
+    "aliases": [
+      "naloxone",
+      "날록손"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTmFsb3hvbmUubWQ"
+  },
+  {
+    "type": "drug",
+    "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvUG90YXNzaXVtQ2hsb3JpZGUubWQ",
+    "title": "PotassiumChloride",
+    "category": "전해질·영양·독성·기타 > 전해질·산염기 > 칼륨 보충",
+    "aliases": [
+      "potassium chloride",
+      "염화칼륨"
+    ],
+    "href": "/drugs/ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvUG90YXNzaXVtQ2hsb3JpZGUubWQ"
   },
   {
     "type": "physiology",
