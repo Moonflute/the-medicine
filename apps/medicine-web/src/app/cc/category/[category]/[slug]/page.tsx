@@ -40,17 +40,31 @@ export default async function ChiefComplaintDetailByCategoryPage(props: { params
       <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
         <div className="mb-3 text-xs uppercase  text-slate-500">Full sections</div>
         <div className="space-y-4">
-          {note.sections.map((section) => (
-            <div key={section.title} className="space-y-4">
-              <section className="rounded-lg border border-slate-200 p-4">
-                <h3 className="font-medium text-slate-950">{section.title}</h3>
-                <RichTextLines lines={section.content} className="mt-2 space-y-2 text-sm leading-6 text-slate-700" />
+          {note.sections.map((section) => {
+            const isPatientEducation = section.title.includes("환자교육");
+
+            return (
+              <section key={section.title} className="rounded-lg border border-slate-200 p-4">
+                <h3 className="font-medium text-slate-950">{isPatientEducation ? "감별진단" : section.title}</h3>
+                {isPatientEducation ? (
+                  <div className="mt-3 space-y-4">
+                    <details className="rounded-md border border-slate-200 bg-slate-50/70">
+                      <summary className="cursor-pointer px-3 py-2 text-sm font-medium text-slate-700 transition hover:text-slate-950">
+                        상세
+                      </summary>
+                      <RichTextLines
+                        lines={section.content}
+                        className="border-t border-slate-200 px-3 py-3 text-sm leading-6 text-slate-700"
+                      />
+                    </details>
+                    <ChiefComplaintRecommendationPicker recommendations={note.recommendations} />
+                  </div>
+                ) : (
+                  <RichTextLines lines={section.content} className="mt-2 space-y-2 text-sm leading-6 text-slate-700" />
+                )}
               </section>
-              {section.title.includes("환자교육") ? (
-                <ChiefComplaintRecommendationPicker recommendations={note.recommendations} />
-              ) : null}
-            </div>
-          ))}
+            );
+          })}
         </div>
       </section>
     </div>

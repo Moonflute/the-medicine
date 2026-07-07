@@ -56,9 +56,9 @@ export function ChiefComplaintRecommendationPicker({
   }
 
   return (
-    <section className="rounded-lg border border-teal-200 bg-teal-50/70 p-4 sm:p-5">
-      <div className="mb-3 text-xs font-semibold uppercase text-teal-700">Symptom matcher</div>
-      <div className="flex flex-wrap gap-2">
+    <section className="rounded-lg border border-teal-200 bg-teal-50/70 p-3 sm:p-4">
+      <div className="mb-2 text-[11px] font-semibold uppercase text-teal-700">Symptom matcher</div>
+      <div className="flex flex-wrap gap-1.5">
         {symptoms.map((symptom) => {
           const selected = selectedSet.has(symptom);
           return (
@@ -67,7 +67,7 @@ export function ChiefComplaintRecommendationPicker({
               type="button"
               onClick={() => toggleSymptom(symptom)}
               className={[
-                "rounded-full border px-3 py-1.5 text-xs font-medium transition",
+                "rounded-full border px-2 py-1 text-[11px] font-medium leading-none transition",
                 selected
                   ? "border-teal-700 bg-teal-700 text-white shadow-sm"
                   : "border-slate-200 bg-white text-slate-700 hover:border-teal-400 hover:text-teal-800",
@@ -80,7 +80,7 @@ export function ChiefComplaintRecommendationPicker({
       </div>
 
       {selectedRecommendation ? (
-        <div className="mt-5 rounded-lg border border-slate-200 bg-white p-4 text-center shadow-sm">
+        <div className="mt-4 rounded-lg border border-slate-200 bg-white p-4 text-center shadow-sm">
           <div className="text-xs font-medium text-slate-500">의심되는 질환은</div>
           <div className="mt-1 text-2xl font-semibold text-slate-950">{selectedRecommendation.disease}</div>
           <div className="mt-4 grid gap-3 text-left sm:grid-cols-2">
