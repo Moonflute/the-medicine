@@ -25359,7 +25359,10 @@
       "detailClass": "항히스타민",
       "clinicalCore": false,
       "priority": "",
-      "brands": [],
+      "brands": [
+        "세트린정(세티리진염산염)(수출명:ANTIRIZINtab)",
+        "지르텍정"
+      ],
       "doses": [
         "10mg Tab. 1일 1회."
       ],
@@ -25761,7 +25764,10 @@
       "detailClass": "항히스타민",
       "clinicalCore": false,
       "priority": "",
-      "brands": [],
+      "brands": [
+        "대우로라타딘정(수출명:로미딘정,라틴정,필미딘정)",
+        "클라리틴정"
+      ],
       "doses": [
         "10mg Tab. 1일 1회."
       ],

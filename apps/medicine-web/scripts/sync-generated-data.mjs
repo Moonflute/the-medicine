@@ -1,15 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
-import vm from "node:vm";
-import { createRequire } from "node:module";
 
 const APP_ROOT = process.env.INIT_CWD || process.cwd();
 const WORKSPACE_ROOT = path.resolve(APP_ROOT, "..", "..");
 const SOURCE_NOTES_ROOT = path.join(WORKSPACE_ROOT, "source_notes");
 const OUTPUT_ROOT = path.join(WORKSPACE_ROOT, "_webapp");
 const DATA_ROOT = path.join(OUTPUT_ROOT, "data");
-const require = createRequire(import.meta.url);
-const ts = require("typescript");
 
 function ensureDir(dirPath) {
   fs.mkdirSync(dirPath, { recursive: true });
@@ -36,15 +32,15 @@ function splitFrontmatter(raw) {
   let currentKey = "";
 
   for (const line of yaml.split(/\r?\n/)) {
+    if (currentKey && (line.startsWith("- ") || line.startsWith("  - "))) {
+      frontmatter[currentKey] = `${frontmatter[currentKey]}\n${line.trim()}`;
+      continue;
+    }
+
     const keyMatch = line.match(/^([^:]+):\s*(.*)$/);
     if (keyMatch) {
       currentKey = keyMatch[1].trim();
       frontmatter[currentKey] = keyMatch[2].trim();
-      continue;
-    }
-
-    if (currentKey && (line.startsWith("- ") || line.startsWith("  - "))) {
-      frontmatter[currentKey] = `${frontmatter[currentKey]}\n${line.trim()}`;
     }
   }
 
@@ -483,71 +479,121 @@ function buildDrugs() {
   });
 }
 
-function buildSkillsPlaceholder() {
-  const sourceFile = path.join(APP_ROOT, "src", "lib", "skills-data.ts");
-  const sourceCode = readText(sourceFile);
-  const transpiled = ts.transpileModule(sourceCode, {
-    compilerOptions: {
-      module: ts.ModuleKind.CommonJS,
-      target: ts.ScriptTarget.ES2020,
-      esModuleInterop: true,
-    },
-  }).outputText;
+function parseSkillSources(value) {
+  return readList(value)
+    .map((line) => {
+      const [label, ...urlParts] = line.split("|").map((part) => part.trim());
+      return { label, url: urlParts.join("|").trim() };
+    })
+    .filter((item) => item.label && item.url);
+}
 
-  const dummyIcon = () => null;
-  const sandbox = {
-    module: { exports: {} },
-    exports: {},
-    require: (specifier) => {
-      if (specifier === "lucide-react") {
-        return new Proxy(
-          {},
-          {
-            get: () => dummyIcon,
-          },
-        );
-      }
+function firstSkillSection(body, title) {
+  const lines = body.split(/\r?\n/);
+  const result = [];
+  let inSection = false;
 
-      throw new Error(`Unsupported import in skills source: ${specifier}`);
-    },
-  };
-  sandbox.exports = sandbox.module.exports;
+  for (const rawLine of lines) {
+    const headingMatch = rawLine.match(/^##\s+(.+)$/);
+    if (headingMatch) {
+      if (inSection) break;
+      inSection = headingMatch[1].trim().toLowerCase() === title.toLowerCase();
+      continue;
+    }
 
-  vm.runInNewContext(transpiled, sandbox, { filename: sourceFile });
+    if (!inSection) continue;
+    const line = rawLine.trim().replace(/^[-*]\s+/, "").trim();
+    if (line && !/^###\s+/.test(line) && line !== "[]") result.push(line);
+  }
 
-  const iconByCategoryId = {
-    blood: "Droplet",
-    tubes: "TestTube",
-    monitoring: "ActivitySquare",
-    advanced: "Stethoscope",
-    cpr: "HeartPulse",
-    line: "GitCommit",
-    injection: "Pill",
-    wound: "Bandage",
-    ward: "ClipboardList",
-  };
+  return result;
+}
 
-  const { MOCK_SKILLS = {}, SKILL_CATEGORIES = [] } = sandbox.module.exports;
-  const items = Object.values(MOCK_SKILLS).map((skill) => ({
-    ...skill,
-    videoUrl: skill.videoUrl ?? null,
-  }));
+function extractSkillSteps(body) {
+  const stepSectionMatch = body.match(/^##\s+Steps\s*\r?\n([\s\S]*)$/m);
+  if (!stepSectionMatch) return [];
 
-  const categories = SKILL_CATEGORIES.map((category) => ({
-    id: category.id,
-    name: category.name,
-    iconName: iconByCategoryId[category.id] ?? "Stethoscope",
-    items: category.items.map((item) => ({
-      id: item.id,
-      name: item.name,
-    })),
-  }));
+  const stepBody = stepSectionMatch[1].split(/^##\s+/m)[0].trim();
+  const matches = [...stepBody.matchAll(/^###\s+(\d+)\.\s+(.+)$/gm)];
+  return matches.map((match, index) => {
+    const start = (match.index ?? 0) + match[0].length;
+    const end = index + 1 < matches.length ? matches[index + 1].index ?? stepBody.length : stepBody.length;
+    const chunk = stepBody.slice(start, end).trim();
+    const warningMatch = chunk.match(/(?:^|\r?\n)Warning:\s*([\s\S]*)$/);
+    const description = (warningMatch ? chunk.slice(0, warningMatch.index).trim() : chunk).trim();
+    const warning = warningMatch?.[1]?.trim() || undefined;
+    return {
+      stepNumber: Number(match[1]),
+      title: match[2].trim(),
+      description,
+      ...(warning ? { warning } : {}),
+    };
+  });
+}
 
-  return {
-    source: "legacy-manual",
-    categories,
-    items,
-  };
+function buildSkills() {
+  const skillsRoot = path.join(SOURCE_NOTES_ROOT, "07 Skills");
+  if (!fs.existsSync(skillsRoot)) {
+    return { source: "07 Skills", categories: [], items: [] };
+  }
+
+  const categoryDirs = fs
+    .readdirSync(skillsRoot, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => path.join(skillsRoot, entry.name))
+    .sort((a, b) => path.basename(a).localeCompare(path.basename(b), "ko"));
+
+  const categories = [];
+  const items = [];
+
+  for (const categoryDir of categoryDirs) {
+    const files = listMarkdownFiles(categoryDir, { recursive: false, ignoreDirs: new Set(), ignoreFiles: new Set() });
+    const parsedSkills = [];
+    let categoryId = "";
+    let categoryName = path.basename(categoryDir);
+    let iconName = "Stethoscope";
+
+    for (const filePath of files) {
+      const { frontmatter, body } = splitFrontmatter(readText(filePath));
+      const id = readScalar(frontmatter.id) || path.basename(filePath, ".md");
+      const name = readScalar(frontmatter.name) || path.basename(filePath, ".md");
+      const skillCategoryId = readScalar(frontmatter.category_id) || toSlug(categoryName);
+      const skillCategoryName = readScalar(frontmatter.category_name) || categoryName;
+      const skillIconName = readScalar(frontmatter.icon_name) || iconName;
+      const order = Number(readScalar(frontmatter.order)) || Number.MAX_SAFE_INTEGER;
+      categoryId = categoryId || skillCategoryId;
+      categoryName = skillCategoryName;
+      iconName = skillIconName;
+
+      parsedSkills.push({
+        order,
+        skill: {
+          id,
+          name,
+          categoryId: skillCategoryId,
+          categoryName: skillCategoryName,
+          summary: extractSummaryCallout(body),
+          indications: firstSkillSection(body, "Indications"),
+          supplies: firstSkillSection(body, "Supplies"),
+          complications: firstSkillSection(body, "Complications"),
+          precautions: firstSkillSection(body, "Precautions"),
+          sources: parseSkillSources(frontmatter.sources),
+          videoUrl: readScalar(frontmatter.video_url) || null,
+          steps: extractSkillSteps(body),
+        },
+      });
+    }
+
+    parsedSkills.sort((a, b) => a.order - b.order || a.skill.name.localeCompare(b.skill.name, "ko"));
+    const categoryItems = parsedSkills.map(({ skill }) => ({ id: skill.id, name: skill.name }));
+    items.push(...parsedSkills.map(({ skill }) => skill));
+
+    if (categoryItems.length > 0) {
+      categories.push({ id: categoryId, name: categoryName, iconName, items: categoryItems });
+    }
+  }
+
+  return { source: "07 Skills", categories, items };
 }
 
 function buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology, labImg }) {
@@ -614,7 +660,7 @@ function main() {
   const labImg = buildGenericNotes("06 Lab & Img", "lab-img", {
     ignoreFiles: ["Lab & Img.md", "분류체계.md"],
   });
-  const skills = buildSkillsPlaceholder();
+  const skills = buildSkills();
 
   const specialties = [...new Map(diseases.map((item) => [item.specialty, item])).keys()].map((name) => ({
     name,
@@ -633,7 +679,7 @@ function main() {
       physiology: { count: physiology.length, source: "05 Physiology" },
       pathology: { count: pathology.length, source: "03 Pathology" },
       labImg: { count: labImg.length, source: "06 Lab & Img" },
-      skills: { count: skills.items.length, source: "legacy skills source" },
+      skills: { count: skills.items.length, source: "07 Skills" },
       specialties: { count: specialties.length, source: "derived from diseases" },
     },
   };
