@@ -9,19 +9,18 @@ import {
   CircleDot,
   Droplet,
   Droplets,
-  Dumbbell,
   Ear,
   Eye,
   HeartPulse,
-  Ribbon,
   ScanFace,
   Scissors,
   ShieldAlert,
   ShieldPlus,
+  Siren,
+  UserRound,
   Utensils,
   Venus,
   Wind,
-  Siren,
   type LucideIcon,
 } from "lucide-react";
 import { getSpecialties } from "@/lib/webdb";
@@ -38,23 +37,22 @@ const iconByIndex: Record<number, LucideIcon> = {
   3: Utensils,
   4: Activity,
   5: Droplets,
-  6: Bug,
+  6: ShieldAlert,
   7: Bone,
-  8: ShieldAlert,
+  8: Bug,
   9: Droplet,
-  10: Ribbon,
-  11: Baby,
-  12: Venus,
-  13: Scissors,
-  14: Brain,
-  15: BrainCircuit,
-  16: ScanFace,
-  17: Eye,
-  18: Ear,
-  19: CircleDot,
-  20: Siren,
-  21: Bone,
-  22: Dumbbell,
+  11: Scissors,
+  12: Baby,
+  13: Venus,
+  14: UserRound,
+  15: Brain,
+  16: BrainCircuit,
+  17: Ear,
+  18: Eye,
+  19: ScanFace,
+  20: CircleDot,
+  21: Siren,
+  22: Bone,
 };
 
 export default function SpecialtiesPage() {
@@ -105,7 +103,8 @@ export default function SpecialtiesPage() {
 
             <div className="grid gap-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
               {group.items.map((specialty) => {
-                const SpecialtyIcon = iconByIndex[parseIndex(specialty.name)] ?? ShieldPlus;
+                const index = parseIndex(specialty.name);
+                const SpecialtyIcon = iconByIndex[index] ?? ShieldPlus;
 
                 return (
                   <Link
@@ -113,7 +112,13 @@ export default function SpecialtiesPage() {
                     href={`/specialty/${specialty.slug}`}
                     className="list-tile flex min-h-10 items-center gap-2 px-3 py-2 text-sm font-semibold text-slate-950"
                   >
-                    <SpecialtyIcon className="h-4 w-4 shrink-0 text-teal-700" />
+                    {index === 10 ? (
+                      <span className="flex h-4 w-4 shrink-0 items-center justify-center text-sm leading-none" aria-hidden="true">
+                        🦀
+                      </span>
+                    ) : (
+                      <SpecialtyIcon className="h-4 w-4 shrink-0 text-teal-700" />
+                    )}
                     <span className="truncate">{specialty.name}</span>
                   </Link>
                 );
