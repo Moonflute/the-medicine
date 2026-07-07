@@ -356,7 +356,7 @@ function buildChiefComplaints() {
     ignoreFiles: new Set(["index.md", "CC_index.md", "chief_complaints_master.md"]),
   });
 
-  return files.map((filePath) => {
+  const notes = files.map((filePath) => {
     const raw = readText(filePath);
     const { frontmatter, body } = splitFrontmatter(raw);
     const sections = splitSections(body);
@@ -379,6 +379,12 @@ function buildChiefComplaints() {
       updatedAt: stat.mtime.toISOString(),
     };
   });
+
+  return notes.sort((a, b) =>
+    String(a.category).localeCompare(String(b.category), "ko", { numeric: true }) ||
+    String(a.id).localeCompare(String(b.id), "ko", { numeric: true }) ||
+    a.title.localeCompare(b.title, "ko"),
+  );
 }
 
 function buildGenericNotes(domainFolder, domainKey, options = {}) {

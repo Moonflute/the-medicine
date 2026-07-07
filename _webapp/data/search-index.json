@@ -13924,593 +13924,593 @@
   },
   {
     "type": "chiefComplaint",
-    "slug": "6rCA7Iq07Ya17Kad",
-    "title": "가슴통증",
-    "category": "순환기",
-    "aliases": [
-      "Chest pain"
-    ],
-    "href": "/cc/category/7Iic7ZmY6riw/6rCA7Iq07Ya17Kad"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "6rCA7KCV7Y-t66Cl",
-    "title": "가정폭력",
-    "category": "상담",
-    "aliases": [
-      "Intimate partner violence"
-    ],
-    "href": "/cc/category/7IOB64u0/6rCA7KCV7Y-t66Cl"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "6rCd7ZiI",
-    "title": "객혈",
-    "category": "호흡기",
-    "aliases": [
-      "Hemoptysis"
-    ],
-    "href": "/cc/category/7Zi47Z2h6riw/6rCd7ZiI"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "6rK966CoICjshLHsnbgp",
-    "title": "경련 (성인)",
-    "category": "신경",
-    "aliases": [
-      "Seizure (adult)"
-    ],
-    "href": "/cc/category/7Iug6rK9/6rK966CoICjshLHsnbgp"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "6rK966CoICjshozslYQp",
-    "title": "경련 (소아)",
-    "category": "신경",
-    "aliases": [
-      "Seizure (pediatric)"
-    ],
-    "href": "/cc/category/7Iug6rK9/6rK966CoICjshozslYQp"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "6rOg7ZiI7JWV",
-    "title": "고혈압",
-    "category": "순환기",
-    "aliases": [
-      "Hypertension"
-    ],
-    "href": "/cc/category/7Iic7ZmY6riw/6rOg7ZiI7JWV"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "6rSA7KCIIO2Gteymne-8j-u2k-q4sA",
-    "title": "관절 통증／붓기",
-    "category": "근골격/피부",
-    "aliases": [
-      "Arthralgia; joint swelling"
-    ],
-    "href": "/cc/category/6re86rOo6rKpL-2UvOu2gA/6rSA7KCIIO2Gteymne-8j-u2k-q4sA"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "6rWs7Yag",
-    "title": "구토",
-    "category": "소화기",
-    "aliases": [
-      "Vomiting"
-    ],
-    "href": "/cc/category/7IaM7ZmU6riw/6rWs7Yag"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "6re866Cl77yP6rCQ6rCB7J207IOB",
-    "title": "근력／감각이상",
-    "category": "신경",
-    "aliases": [
-      "Weakness; sensory deficit"
-    ],
-    "href": "/cc/category/7Iug6rK9/6re866Cl77yP6rCQ6rCB7J207IOB"
-  },
-  {
-    "type": "chiefComplaint",
     "slug": "6riJ7ISx67O17Ya1",
     "title": "급성복통",
-    "category": "소화기",
+    "category": "01 소화기",
     "aliases": [
       "Acute abdominal pain"
     ],
-    "href": "/cc/category/7IaM7ZmU6riw/6riJ7ISx67O17Ya1"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "6riw67aE67OA7ZmU",
-    "title": "기분변화",
-    "category": "정신",
-    "aliases": [
-      "Mood disturbance"
-    ],
-    "href": "/cc/category/7KCV7Iug/6riw67aE67OA7ZmU"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "6riw7Ja166ClIOyggO2VmA",
-    "title": "기억력 저하",
-    "category": "정신",
-    "aliases": [
-      "Memory impairment"
-    ],
-    "href": "/cc/category/7KCV7Iug/6riw7Ja166ClIOyggO2VmA"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "6riw7Lmo",
-    "title": "기침",
-    "category": "호흡기",
-    "aliases": [
-      "Cough"
-    ],
-    "href": "/cc/category/7Zi47Z2h6riw/6riw7Lmo"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "64KY7IGcIOyGjOyLnSDsoITtlZjquLA",
-    "title": "나쁜 소식 전하기",
-    "category": "상담",
-    "aliases": [
-      "Breaking bad news"
-    ],
-    "href": "/cc/category/7IOB64u0/64KY7IGcIOyGjOyLnSDsoITtlZjquLA"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "64uk64eo",
-    "title": "다뇨",
-    "category": "신장/비뇨기",
-    "aliases": [
-      "Polyuria"
-    ],
-    "href": "/cc/category/7Iug7J6lL-u5hOuHqOq4sA/64uk64eo"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "65GQ6re86rGw66a8",
-    "title": "두근거림",
-    "category": "순환기",
-    "aliases": [
-      "Palpitations"
-    ],
-    "href": "/cc/category/7Iic7ZmY6riw/65GQ6re86rGw66a8"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "65GQ7Ya1",
-    "title": "두통",
-    "category": "신경",
-    "aliases": [
-      "Headache"
-    ],
-    "href": "/cc/category/7Iug6rK9/65GQ7Ya1"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "65ao66a877yP7Jq064-Z7J207IOB",
-    "title": "떨림／운동이상",
-    "category": "신경",
-    "aliases": [
-      "Tremor; movement disorder"
-    ],
-    "href": "/cc/category/7Iug6rK9/65ao66a877yP7Jq064-Z7J207IOB"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "66mN",
-    "title": "멍",
-    "category": "전신증상",
-    "aliases": [
-      "Easy bruising; ecchymosis"
-    ],
-    "href": "/cc/category/7KCE7Iug7Kad7IOB/66mN"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "66qpIO2GteymnQ",
-    "title": "목 통증",
-    "category": "근골격/피부",
-    "aliases": [
-      "Neck pain"
-    ],
-    "href": "/cc/category/6re86rOo6rKpL-2UvOu2gA/66qpIO2GteymnQ"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "66y87KeIIOyYpOuCqOyaqQ",
-    "title": "물질 오남용",
-    "category": "상담",
-    "aliases": [
-      "Substance use disorder"
-    ],
-    "href": "/cc/category/7IOB64u0/66y87KeIIOyYpOuCqOyaqQ"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "67Cc64usIOyngOyXsA",
-    "title": "발달 지연",
-    "category": "소아",
-    "aliases": [
-      "Developmental delay"
-    ],
-    "href": "/cc/category/7IaM7JWE/67Cc64usIOyngOyXsA"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "67Cc7Je0",
-    "title": "발열",
-    "category": "전신증상",
-    "aliases": [
-      "Fever"
-    ],
-    "href": "/cc/category/7KCE7Iug7Kad7IOB/67Cc7Je0"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "67Cw64eo7J207IOBICjruYjrh6gp",
-    "title": "배뇨이상 (빈뇨)",
-    "category": "신장/비뇨기",
-    "aliases": [
-      "Urinary frequency; dysuria"
-    ],
-    "href": "/cc/category/7Iug7J6lL-u5hOuHqOq4sA/67Cw64eo7J207IOBICjruYjrh6gp"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "67OA67mE",
-    "title": "변비",
-    "category": "소화기",
-    "aliases": [
-      "Constipation"
-    ],
-    "href": "/cc/category/7IaM7ZmU6riw/67OA67mE"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "67aI7JWI",
-    "title": "불안",
-    "category": "정신",
-    "aliases": [
-      "Anxiety"
-    ],
-    "href": "/cc/category/7KCV7Iug/67aI7JWI"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7IKw7KCEIOynhOywsA",
-    "title": "산전 진찰",
-    "category": "산부",
-    "aliases": [
-      "Prenatal care visit"
-    ],
-    "href": "/cc/category/7IKw67aA/7IKw7KCEIOynhOywsA"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7ISk7IKs",
-    "title": "설사",
-    "category": "소화기",
-    "aliases": [
-      "Diarrhea"
-    ],
-    "href": "/cc/category/7IaM7ZmU6riw/7ISk7IKs"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7ISx7J6lIOyngOyXsA",
-    "title": "성장 지연",
-    "category": "소아",
-    "aliases": [
-      "Growth delay"
-    ],
-    "href": "/cc/category/7IaM7JWE/7ISx7J6lIOyngOyXsA"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7ISx7Y-t66Cl",
-    "title": "성폭력",
-    "category": "상담",
-    "aliases": [
-      "Sexual violence"
-    ],
-    "href": "/cc/category/7IOB64u0/7ISx7Y-t66Cl"
+    "href": "/cc/category/MDEg7IaM7ZmU6riw/6riJ7ISx67O17Ya1"
   },
   {
     "type": "chiefComplaint",
     "slug": "7IaM7ZmU67aI65-J77yP66eM7ISxIOuzte2GtQ",
     "title": "소화불량／만성 복통",
-    "category": "소화기",
+    "category": "01 소화기",
     "aliases": [
       "Dyspepsia; chronic abdominal pain"
     ],
-    "href": "/cc/category/7IaM7ZmU6riw/7IaM7ZmU67aI65-J77yP66eM7ISxIOuzte2GtQ"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7IiY66m07J6l7JWg",
-    "title": "수면장애",
-    "category": "정신",
-    "aliases": [
-      "Sleep disorder"
-    ],
-    "href": "/cc/category/7KCV7Iug/7IiY66m07J6l7JWg"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7Iuk7Iug",
-    "title": "실신",
-    "category": "순환기",
-    "aliases": [
-      "Syncope"
-    ],
-    "href": "/cc/category/7Iic7ZmY6riw/7Iuk7Iug"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7Ja07KeA65-87Kad",
-    "title": "어지럼증",
-    "category": "신경",
-    "aliases": [
-      "Dizziness"
-    ],
-    "href": "/cc/category/7Iug6rK9/7Ja07KeA65-87Kad"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7JiI67Cp7KCR7KKF",
-    "title": "예방접종",
-    "category": "소아",
-    "aliases": [
-      "Immunization"
-    ],
-    "href": "/cc/category/7IaM7JWE/7JiI67Cp7KCR7KKF"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7JqU7Iuk6riI",
-    "title": "요실금",
-    "category": "신장/비뇨기",
-    "aliases": [
-      "Urinary incontinence"
-    ],
-    "href": "/cc/category/7Iug7J6lL-u5hOuHqOq4sA/7JqU7Iuk6riI"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7JuU6rK97J207IOBICjrrLTsm5Tqsr0p",
-    "title": "월경이상 (무월경)",
-    "category": "산부",
-    "aliases": [
-      "Menstrual disorder; amenorrhea"
-    ],
-    "href": "/cc/category/7IKw67aA/7JuU6rK97J207IOBICjrrLTsm5Tqsr0p"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7JuU6rK97Ya1ICjsm5Tqsr3qs7zri6Qp",
-    "title": "월경통 (월경과다)",
-    "category": "산부",
-    "aliases": [
-      "Dysmenorrhea; menorrhagia"
-    ],
-    "href": "/cc/category/7IKw67aA/7JuU6rK97Ya1ICjsm5Tqsr3qs7zri6Qp"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7Jyg67Cp642p7J20",
-    "title": "유방덩이",
-    "category": "산부",
-    "aliases": [
-      "Breast lump"
-    ],
-    "href": "/cc/category/7IKw67aA/7Jyg67Cp642p7J20"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7Jyg67Cp7Ya1",
-    "title": "유방통",
-    "category": "산부",
-    "aliases": [
-      "Mastalgia; breast pain"
-    ],
-    "href": "/cc/category/7IKw67aA/7Jyg67Cp7Ya1"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7J2M7KO8IOyDgeuLtA",
-    "title": "음주 상담",
-    "category": "상담",
-    "aliases": [
-      "Alcohol use counseling"
-    ],
-    "href": "/cc/category/7IOB64u0/7J2M7KO8IOyDgeuLtA"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7J2Y7Iud7J6l7JWg",
-    "title": "의식장애",
-    "category": "신경",
-    "aliases": [
-      "Altered mental status"
-    ],
-    "href": "/cc/category/7Iug6rK9/7J2Y7Iud7J6l7JWg"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7J207IOB7KeA7KeI7ZiI7Kad",
-    "title": "이상지질혈증",
-    "category": "순환기",
-    "aliases": [
-      "Dyslipidemia"
-    ],
-    "href": "/cc/category/7Iic7ZmY6riw/7J207IOB7KeA7KeI7ZiI7Kad"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7J6Q7IK0",
-    "title": "자살",
-    "category": "상담",
-    "aliases": [
-      "Suicidal ideation"
-    ],
-    "href": "/cc/category/7IOB64u0/7J6Q7IK0"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7KeI67aE67mE66y8",
-    "title": "질분비물",
-    "category": "산부",
-    "aliases": [
-      "Vaginal discharge"
-    ],
-    "href": "/cc/category/7IKw67aA/7KeI67aE67mE66y8"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7KeI7Lac7ZiI",
-    "title": "질출혈",
-    "category": "산부",
-    "aliases": [
-      "Vaginal bleeding"
-    ],
-    "href": "/cc/category/7IKw67aA/7KeI7Lac7ZiI"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7LK07KSR6rCQ7IaM",
-    "title": "체중감소",
-    "category": "전신증상",
-    "aliases": [
-      "Weight loss"
-    ],
-    "href": "/cc/category/7KCE7Iug7Kad7IOB/7LK07KSR6rCQ7IaM"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7LK07KSR7Kad6rCA",
-    "title": "체중증가",
-    "category": "전신증상",
-    "aliases": [
-      "Weight gain"
-    ],
-    "href": "/cc/category/7KCE7Iug7Kad7IOB/7LK07KSR7Kad6rCA"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7L2n66y877yP7L2U66eJ7Z6Y",
-    "title": "콧물／코막힘",
-    "category": "호흡기",
-    "aliases": [
-      "Rhinorrhea; nasal congestion"
-    ],
-    "href": "/cc/category/7Zi47Z2h6riw/7L2n66y877yP7L2U66eJ7Z6Y"
+    "href": "/cc/category/MDEg7IaM7ZmU6riw/7IaM7ZmU67aI65-J77yP66eM7ISxIOuzte2GtQ"
   },
   {
     "type": "chiefComplaint",
     "slug": "7Yag7ZiI",
     "title": "토혈",
-    "category": "소화기",
+    "category": "01 소화기",
     "aliases": [
       "Hematemesis"
     ],
-    "href": "/cc/category/7IaM7ZmU6riw/7Yag7ZiI"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7ZS866Gc",
-    "title": "피로",
-    "category": "전신증상",
-    "aliases": [
-      "Fatigue"
-    ],
-    "href": "/cc/category/7KCE7Iug7Kad7IOB/7ZS866Gc"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7ZS867aAIOuwnOynhA",
-    "title": "피부 발진",
-    "category": "근골격/피부",
-    "aliases": [
-      "Skin rash"
-    ],
-    "href": "/cc/category/6re86rOo6rKpL-2UvOu2gA/7ZS867aAIOuwnOynhA"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7ZWN64eo",
-    "title": "핍뇨",
-    "category": "신장/비뇨기",
-    "aliases": [
-      "Oliguria"
-    ],
-    "href": "/cc/category/7Iug7J6lL-u5hOuHqOq4sA/7ZWN64eo"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7ZeI66asIO2GteymnQ",
-    "title": "허리 통증",
-    "category": "근골격/피부",
-    "aliases": [
-      "Low back pain"
-    ],
-    "href": "/cc/category/6re86rOo6rKpL-2UvOu2gA/7ZeI66asIO2GteymnQ"
-  },
-  {
-    "type": "chiefComplaint",
-    "slug": "7ZiI64eo",
-    "title": "혈뇨",
-    "category": "신장/비뇨기",
-    "aliases": [
-      "Hematuria"
-    ],
-    "href": "/cc/category/7Iug7J6lL-u5hOuHqOq4sA/7ZiI64eo"
+    "href": "/cc/category/MDEg7IaM7ZmU6riw/7Yag7ZiI"
   },
   {
     "type": "chiefComplaint",
     "slug": "7ZiI67OA",
     "title": "혈변",
-    "category": "소화기",
+    "category": "01 소화기",
     "aliases": [
       "Hematochezia; melena"
     ],
-    "href": "/cc/category/7IaM7ZmU6riw/7ZiI67OA"
+    "href": "/cc/category/MDEg7IaM7ZmU6riw/7ZiI67OA"
   },
   {
     "type": "chiefComplaint",
-    "slug": "7Zi47Z2h6rOk656A",
-    "title": "호흡곤란",
-    "category": "호흡기",
+    "slug": "6rWs7Yag",
+    "title": "구토",
+    "category": "01 소화기",
     "aliases": [
-      "Dyspnea"
+      "Vomiting"
     ],
-    "href": "/cc/category/7Zi47Z2h6riw/7Zi47Z2h6rOk656A"
+    "href": "/cc/category/MDEg7IaM7ZmU6riw/6rWs7Yag"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "67OA67mE",
+    "title": "변비",
+    "category": "01 소화기",
+    "aliases": [
+      "Constipation"
+    ],
+    "href": "/cc/category/MDEg7IaM7ZmU6riw/67OA67mE"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7ISk7IKs",
+    "title": "설사",
+    "category": "01 소화기",
+    "aliases": [
+      "Diarrhea"
+    ],
+    "href": "/cc/category/MDEg7IaM7ZmU6riw/7ISk7IKs"
   },
   {
     "type": "chiefComplaint",
     "slug": "7Zmp64us",
     "title": "황달",
-    "category": "소화기",
+    "category": "01 소화기",
     "aliases": [
       "Jaundice"
     ],
-    "href": "/cc/category/7IaM7ZmU6riw/7Zmp64us"
+    "href": "/cc/category/MDEg7IaM7ZmU6riw/7Zmp64us"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "6rCA7Iq07Ya17Kad",
+    "title": "가슴통증",
+    "category": "02 순환기",
+    "aliases": [
+      "Chest pain"
+    ],
+    "href": "/cc/category/MDIg7Iic7ZmY6riw/6rCA7Iq07Ya17Kad"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7Iuk7Iug",
+    "title": "실신",
+    "category": "02 순환기",
+    "aliases": [
+      "Syncope"
+    ],
+    "href": "/cc/category/MDIg7Iic7ZmY6riw/7Iuk7Iug"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "65GQ6re86rGw66a8",
+    "title": "두근거림",
+    "category": "02 순환기",
+    "aliases": [
+      "Palpitations"
+    ],
+    "href": "/cc/category/MDIg7Iic7ZmY6riw/65GQ6re86rGw66a8"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "6rOg7ZiI7JWV",
+    "title": "고혈압",
+    "category": "02 순환기",
+    "aliases": [
+      "Hypertension"
+    ],
+    "href": "/cc/category/MDIg7Iic7ZmY6riw/6rOg7ZiI7JWV"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7J207IOB7KeA7KeI7ZiI7Kad",
+    "title": "이상지질혈증",
+    "category": "02 순환기",
+    "aliases": [
+      "Dyslipidemia"
+    ],
+    "href": "/cc/category/MDIg7Iic7ZmY6riw/7J207IOB7KeA7KeI7ZiI7Kad"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "6riw7Lmo",
+    "title": "기침",
+    "category": "03 호흡기",
+    "aliases": [
+      "Cough"
+    ],
+    "href": "/cc/category/MDMg7Zi47Z2h6riw/6riw7Lmo"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7L2n66y877yP7L2U66eJ7Z6Y",
+    "title": "콧물／코막힘",
+    "category": "03 호흡기",
+    "aliases": [
+      "Rhinorrhea; nasal congestion"
+    ],
+    "href": "/cc/category/MDMg7Zi47Z2h6riw/7L2n66y877yP7L2U66eJ7Z6Y"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "6rCd7ZiI",
+    "title": "객혈",
+    "category": "03 호흡기",
+    "aliases": [
+      "Hemoptysis"
+    ],
+    "href": "/cc/category/MDMg7Zi47Z2h6riw/6rCd7ZiI"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7Zi47Z2h6rOk656A",
+    "title": "호흡곤란",
+    "category": "03 호흡기",
+    "aliases": [
+      "Dyspnea"
+    ],
+    "href": "/cc/category/MDMg7Zi47Z2h6riw/7Zi47Z2h6rOk656A"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "64uk64eo",
+    "title": "다뇨",
+    "category": "04 신장/비뇨기",
+    "aliases": [
+      "Polyuria"
+    ],
+    "href": "/cc/category/MDQg7Iug7J6lL-u5hOuHqOq4sA/64uk64eo"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7ZWN64eo",
+    "title": "핍뇨",
+    "category": "04 신장/비뇨기",
+    "aliases": [
+      "Oliguria"
+    ],
+    "href": "/cc/category/MDQg7Iug7J6lL-u5hOuHqOq4sA/7ZWN64eo"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7ZiI64eo",
+    "title": "혈뇨",
+    "category": "04 신장/비뇨기",
+    "aliases": [
+      "Hematuria"
+    ],
+    "href": "/cc/category/MDQg7Iug7J6lL-u5hOuHqOq4sA/7ZiI64eo"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "67Cw64eo7J207IOBICjruYjrh6gp",
+    "title": "배뇨이상 (빈뇨)",
+    "category": "04 신장/비뇨기",
+    "aliases": [
+      "Urinary frequency; dysuria"
+    ],
+    "href": "/cc/category/MDQg7Iug7J6lL-u5hOuHqOq4sA/67Cw64eo7J207IOBICjruYjrh6gp"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7JqU7Iuk6riI",
+    "title": "요실금",
+    "category": "04 신장/비뇨기",
+    "aliases": [
+      "Urinary incontinence"
+    ],
+    "href": "/cc/category/MDQg7Iug7J6lL-u5hOuHqOq4sA/7JqU7Iuk6riI"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "67Cc7Je0",
+    "title": "발열",
+    "category": "05 전신증상",
+    "aliases": [
+      "Fever"
+    ],
+    "href": "/cc/category/MDUg7KCE7Iug7Kad7IOB/67Cc7Je0"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "66mN",
+    "title": "멍",
+    "category": "05 전신증상",
+    "aliases": [
+      "Easy bruising; ecchymosis"
+    ],
+    "href": "/cc/category/MDUg7KCE7Iug7Kad7IOB/66mN"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7ZS866Gc",
+    "title": "피로",
+    "category": "05 전신증상",
+    "aliases": [
+      "Fatigue"
+    ],
+    "href": "/cc/category/MDUg7KCE7Iug7Kad7IOB/7ZS866Gc"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7LK07KSR6rCQ7IaM",
+    "title": "체중감소",
+    "category": "05 전신증상",
+    "aliases": [
+      "Weight loss"
+    ],
+    "href": "/cc/category/MDUg7KCE7Iug7Kad7IOB/7LK07KSR6rCQ7IaM"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7LK07KSR7Kad6rCA",
+    "title": "체중증가",
+    "category": "05 전신증상",
+    "aliases": [
+      "Weight gain"
+    ],
+    "href": "/cc/category/MDUg7KCE7Iug7Kad7IOB/7LK07KSR7Kad6rCA"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "6rSA7KCIIO2Gteymne-8j-u2k-q4sA",
+    "title": "관절 통증／붓기",
+    "category": "06 근골격/피부",
+    "aliases": [
+      "Arthralgia; joint swelling"
+    ],
+    "href": "/cc/category/MDYg6re86rOo6rKpL-2UvOu2gA/6rSA7KCIIO2Gteymne-8j-u2k-q4sA"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "66qpIO2GteymnQ",
+    "title": "목 통증",
+    "category": "06 근골격/피부",
+    "aliases": [
+      "Neck pain"
+    ],
+    "href": "/cc/category/MDYg6re86rOo6rKpL-2UvOu2gA/66qpIO2GteymnQ"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7ZeI66asIO2GteymnQ",
+    "title": "허리 통증",
+    "category": "06 근골격/피부",
+    "aliases": [
+      "Low back pain"
+    ],
+    "href": "/cc/category/MDYg6re86rOo6rKpL-2UvOu2gA/7ZeI66asIO2GteymnQ"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7ZS867aAIOuwnOynhA",
+    "title": "피부 발진",
+    "category": "06 근골격/피부",
+    "aliases": [
+      "Skin rash"
+    ],
+    "href": "/cc/category/MDYg6re86rOo6rKpL-2UvOu2gA/7ZS867aAIOuwnOynhA"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "6riw67aE67OA7ZmU",
+    "title": "기분변화",
+    "category": "07 정신",
+    "aliases": [
+      "Mood disturbance"
+    ],
+    "href": "/cc/category/MDcg7KCV7Iug/6riw67aE67OA7ZmU"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "67aI7JWI",
+    "title": "불안",
+    "category": "07 정신",
+    "aliases": [
+      "Anxiety"
+    ],
+    "href": "/cc/category/MDcg7KCV7Iug/67aI7JWI"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7IiY66m07J6l7JWg",
+    "title": "수면장애",
+    "category": "07 정신",
+    "aliases": [
+      "Sleep disorder"
+    ],
+    "href": "/cc/category/MDcg7KCV7Iug/7IiY66m07J6l7JWg"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "6riw7Ja166ClIOyggO2VmA",
+    "title": "기억력 저하",
+    "category": "07 정신",
+    "aliases": [
+      "Memory impairment"
+    ],
+    "href": "/cc/category/MDcg7KCV7Iug/6riw7Ja166ClIOyggO2VmA"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7Ja07KeA65-87Kad",
+    "title": "어지럼증",
+    "category": "08 신경",
+    "aliases": [
+      "Dizziness"
+    ],
+    "href": "/cc/category/MDgg7Iug6rK9/7Ja07KeA65-87Kad"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "65GQ7Ya1",
+    "title": "두통",
+    "category": "08 신경",
+    "aliases": [
+      "Headache"
+    ],
+    "href": "/cc/category/MDgg7Iug6rK9/65GQ7Ya1"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "6rK966CoICjshozslYQp",
+    "title": "경련 (소아)",
+    "category": "08 신경",
+    "aliases": [
+      "Seizure (pediatric)"
+    ],
+    "href": "/cc/category/MDgg7Iug6rK9/6rK966CoICjshozslYQp"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "6rK966CoICjshLHsnbgp",
+    "title": "경련 (성인)",
+    "category": "08 신경",
+    "aliases": [
+      "Seizure (adult)"
+    ],
+    "href": "/cc/category/MDgg7Iug6rK9/6rK966CoICjshLHsnbgp"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "6re866Cl77yP6rCQ6rCB7J207IOB",
+    "title": "근력／감각이상",
+    "category": "08 신경",
+    "aliases": [
+      "Weakness; sensory deficit"
+    ],
+    "href": "/cc/category/MDgg7Iug6rK9/6re866Cl77yP6rCQ6rCB7J207IOB"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7J2Y7Iud7J6l7JWg",
+    "title": "의식장애",
+    "category": "08 신경",
+    "aliases": [
+      "Altered mental status"
+    ],
+    "href": "/cc/category/MDgg7Iug6rK9/7J2Y7Iud7J6l7JWg"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "65ao66a877yP7Jq064-Z7J207IOB",
+    "title": "떨림／운동이상",
+    "category": "08 신경",
+    "aliases": [
+      "Tremor; movement disorder"
+    ],
+    "href": "/cc/category/MDgg7Iug6rK9/65ao66a877yP7Jq064-Z7J207IOB"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7Jyg67Cp7Ya1",
+    "title": "유방통",
+    "category": "09 산부",
+    "aliases": [
+      "Mastalgia; breast pain"
+    ],
+    "href": "/cc/category/MDkg7IKw67aA/7Jyg67Cp7Ya1"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7Jyg67Cp642p7J20",
+    "title": "유방덩이",
+    "category": "09 산부",
+    "aliases": [
+      "Breast lump"
+    ],
+    "href": "/cc/category/MDkg7IKw67aA/7Jyg67Cp642p7J20"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7KeI67aE67mE66y8",
+    "title": "질분비물",
+    "category": "09 산부",
+    "aliases": [
+      "Vaginal discharge"
+    ],
+    "href": "/cc/category/MDkg7IKw67aA/7KeI67aE67mE66y8"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7KeI7Lac7ZiI",
+    "title": "질출혈",
+    "category": "09 산부",
+    "aliases": [
+      "Vaginal bleeding"
+    ],
+    "href": "/cc/category/MDkg7IKw67aA/7KeI7Lac7ZiI"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7JuU6rK97J207IOBICjrrLTsm5Tqsr0p",
+    "title": "월경이상 (무월경)",
+    "category": "09 산부",
+    "aliases": [
+      "Menstrual disorder; amenorrhea"
+    ],
+    "href": "/cc/category/MDkg7IKw67aA/7JuU6rK97J207IOBICjrrLTsm5Tqsr0p"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7JuU6rK97Ya1ICjsm5Tqsr3qs7zri6Qp",
+    "title": "월경통 (월경과다)",
+    "category": "09 산부",
+    "aliases": [
+      "Dysmenorrhea; menorrhagia"
+    ],
+    "href": "/cc/category/MDkg7IKw67aA/7JuU6rK97Ya1ICjsm5Tqsr3qs7zri6Qp"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7IKw7KCEIOynhOywsA",
+    "title": "산전 진찰",
+    "category": "09 산부",
+    "aliases": [
+      "Prenatal care visit"
+    ],
+    "href": "/cc/category/MDkg7IKw67aA/7IKw7KCEIOynhOywsA"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7ISx7J6lIOyngOyXsA",
+    "title": "성장 지연",
+    "category": "10 소아",
+    "aliases": [
+      "Growth delay"
+    ],
+    "href": "/cc/category/MTAg7IaM7JWE/7ISx7J6lIOyngOyXsA"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "67Cc64usIOyngOyXsA",
+    "title": "발달 지연",
+    "category": "10 소아",
+    "aliases": [
+      "Developmental delay"
+    ],
+    "href": "/cc/category/MTAg7IaM7JWE/67Cc64usIOyngOyXsA"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7JiI67Cp7KCR7KKF",
+    "title": "예방접종",
+    "category": "10 소아",
+    "aliases": [
+      "Immunization"
+    ],
+    "href": "/cc/category/MTAg7IaM7JWE/7JiI67Cp7KCR7KKF"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7J2M7KO8IOyDgeuLtA",
+    "title": "음주 상담",
+    "category": "11 상담",
+    "aliases": [
+      "Alcohol use counseling"
+    ],
+    "href": "/cc/category/MTEg7IOB64u0/7J2M7KO8IOyDgeuLtA"
   },
   {
     "type": "chiefComplaint",
     "slug": "7Z2h7JewIOyDgeuLtA",
     "title": "흡연 상담",
-    "category": "상담",
+    "category": "11 상담",
     "aliases": [
       "Smoking cessation counseling"
     ],
-    "href": "/cc/category/7IOB64u0/7Z2h7JewIOyDgeuLtA"
+    "href": "/cc/category/MTEg7IOB64u0/7Z2h7JewIOyDgeuLtA"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "66y87KeIIOyYpOuCqOyaqQ",
+    "title": "물질 오남용",
+    "category": "11 상담",
+    "aliases": [
+      "Substance use disorder"
+    ],
+    "href": "/cc/category/MTEg7IOB64u0/66y87KeIIOyYpOuCqOyaqQ"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "64KY7IGcIOyGjOyLnSDsoITtlZjquLA",
+    "title": "나쁜 소식 전하기",
+    "category": "11 상담",
+    "aliases": [
+      "Breaking bad news"
+    ],
+    "href": "/cc/category/MTEg7IOB64u0/64KY7IGcIOyGjOyLnSDsoITtlZjquLA"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "6rCA7KCV7Y-t66Cl",
+    "title": "가정폭력",
+    "category": "11 상담",
+    "aliases": [
+      "Intimate partner violence"
+    ],
+    "href": "/cc/category/MTEg7IOB64u0/6rCA7KCV7Y-t66Cl"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7ISx7Y-t66Cl",
+    "title": "성폭력",
+    "category": "11 상담",
+    "aliases": [
+      "Sexual violence"
+    ],
+    "href": "/cc/category/MTEg7IOB64u0/7ISx7Y-t66Cl"
+  },
+  {
+    "type": "chiefComplaint",
+    "slug": "7J6Q7IK0",
+    "title": "자살",
+    "category": "11 상담",
+    "aliases": [
+      "Suicidal ideation"
+    ],
+    "href": "/cc/category/MTEg7IOB64u0/7J6Q7IK0"
   },
   {
     "type": "drug",
