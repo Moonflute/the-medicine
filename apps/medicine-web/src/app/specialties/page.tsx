@@ -45,20 +45,22 @@ export default function SpecialtiesPage() {
         <h1 className="page-title">Specialties</h1>
       </header>
 
-      <div className="space-y-8">
+      <div className="space-y-7">
         {groups.map((group) => (
           <section key={group.title}>
-            <div className="mb-3 flex items-end justify-between gap-4">
-              <h2 className="text-lg font-semibold text-slate-950">{group.title}</h2>
+            <div className="mb-2 flex items-end justify-between gap-4">
+              <h2 className="text-base font-semibold text-slate-950">{group.title}</h2>
               <div className="text-xs font-semibold text-slate-500">{group.description}</div>
             </div>
 
-            <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+            <div className="grid gap-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
               {group.items.map((specialty) => (
-                <Link key={specialty.slug} href={`/specialty/${specialty.slug}`} className="list-tile block p-4">
-                  <div className="eyebrow">Specialty</div>
-                  <div className="mt-2 text-lg font-semibold text-slate-950">{specialty.name}</div>
-                  <div className="mt-2 text-sm text-slate-600">{specialty.count} notes</div>
+                <Link
+                  key={specialty.slug}
+                  href={`/specialty/${specialty.slug}`}
+                  className="list-tile flex min-h-10 items-center px-3 py-2 text-sm font-semibold text-slate-950"
+                >
+                  <span className="truncate">{specialty.name}</span>
                 </Link>
               ))}
             </div>
@@ -68,4 +70,3 @@ export default function SpecialtiesPage() {
     </div>
   );
 }
-
