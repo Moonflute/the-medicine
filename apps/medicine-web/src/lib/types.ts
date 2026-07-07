@@ -74,8 +74,16 @@ export type ChiefComplaintNote = {
   history: string[];
   exam: string[];
   plan: string[];
+  recommendations: ChiefComplaintRecommendation[];
   sections: DiseaseSection[];
   updatedAt: string;
+};
+
+export type ChiefComplaintRecommendation = {
+  symptoms: string[];
+  disease: string;
+  tests: string;
+  treatment: string;
 };
 
 export type ChiefComplaintCategorySummary = {
@@ -132,3 +140,6 @@ export type SkillsManifest = {
   categories: SkillCategorySummary[];
   items: ClinicalSkill[];
 };
+
+
+

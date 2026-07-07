@@ -1,7 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import { ChiefComplaintCard } from "@/components/chief-complaint-card";
+import { ChiefComplaintRecommendationPicker } from "@/components/chief-complaint-recommendation-picker";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { getChiefComplaintByCategoryAndSlug, getChiefComplaintCategories, getChiefComplaintsByCategory } from "@/lib/webdb";
 
@@ -40,13 +41,20 @@ export default async function ChiefComplaintDetailByCategoryPage(props: { params
         <div className="mb-3 text-xs uppercase  text-slate-500">Full sections</div>
         <div className="space-y-4">
           {note.sections.map((section) => (
-            <section key={section.title} className="rounded-lg border border-slate-200 p-4">
-              <h3 className="font-medium text-slate-950">{section.title}</h3>
-              <RichTextLines lines={section.content} className="mt-2 space-y-2 text-sm leading-6 text-slate-700" />
-            </section>
+            <div key={section.title} className="space-y-4">
+              <section className="rounded-lg border border-slate-200 p-4">
+                <h3 className="font-medium text-slate-950">{section.title}</h3>
+                <RichTextLines lines={section.content} className="mt-2 space-y-2 text-sm leading-6 text-slate-700" />
+              </section>
+              {section.title.includes("환자교육") ? (
+                <ChiefComplaintRecommendationPicker recommendations={note.recommendations} />
+              ) : null}
+            </div>
           ))}
         </div>
       </section>
     </div>
   );
 }
+
+

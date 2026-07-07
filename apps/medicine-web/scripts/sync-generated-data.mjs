@@ -350,6 +350,56 @@ function buildDiseases() {
   });
 }
 
+function normalizeRecommendationText(value) {
+  return value
+    .replace(/^[:\s]+/, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function splitRecommendationSymptoms(value) {
+  return value
+    .split("+")
+    .map((item) => normalizeRecommendationText(item).replace(/^[-*=]\s*/, ""))
+    .filter(Boolean)
+    .filter((item) => !/^(검사|치료|교육)\s*[:：]/.test(item));
+}
+
+function parseChiefComplaintRecommendations(sections) {
+  const education = sections.find((section) => section.title.includes("환자교육"));
+  if (!education) return [];
+
+  const recommendations = [];
+  let pendingSymptoms = "";
+
+  for (const rawLine of education.content) {
+    const line = normalizeRecommendationText(rawLine);
+    if (!line) continue;
+    if (/^(검사|치료|교육)\s*[:：]/.test(line)) continue;
+
+    const equalIndex = line.indexOf("=");
+    if (equalIndex === -1) {
+      if (line.includes("+") && !line.includes("/")) pendingSymptoms = line;
+      continue;
+    }
+
+    const lhs = normalizeRecommendationText(line.slice(0, equalIndex)) || pendingSymptoms;
+    const rhs = normalizeRecommendationText(line.slice(equalIndex + 1));
+    pendingSymptoms = "";
+
+    if (!lhs || !rhs || !lhs.includes("+")) continue;
+
+    const symptoms = [...new Set(splitRecommendationSymptoms(lhs))];
+    const [disease = "", tests = "", ...treatmentParts] = rhs.split("/").map((part) => normalizeRecommendationText(part));
+    const treatment = treatmentParts.join(" / ").trim();
+
+    if (symptoms.length === 0 || !disease) continue;
+    recommendations.push({ symptoms, disease, tests, treatment });
+  }
+
+  return recommendations;
+}
+
 function buildChiefComplaints() {
   const root = path.join(SOURCE_NOTES_ROOT, "01 Chief Complaint");
   const files = listMarkdownFiles(root, {
@@ -375,6 +425,7 @@ function buildChiefComplaints() {
       history: firstSectionText(sections, "hx"),
       exam: firstSectionText(sections, "pex"),
       plan: firstSectionText(sections, "plan"),
+      recommendations: parseChiefComplaintRecommendations(sections),
       sections,
       updatedAt: stat.mtime.toISOString(),
     };

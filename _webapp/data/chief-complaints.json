@@ -47,6 +47,130 @@
       "DRE (필요 시)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "명치부 통증",
+          "식후 악화",
+          "메스꺼움",
+          "구토",
+          "속쓰림",
+          "복부 압통"
+        ],
+        "disease": "위염, 위궤양",
+        "tests": "위내시경, 요소날숨검사, RUT",
+        "treatment": "PPI, 제산제, 제균치료"
+      },
+      {
+        "symptoms": [
+          "명치부 통증",
+          "공복 악화",
+          "메스꺼움",
+          "구토",
+          "속쓰림",
+          "복부 압통"
+        ],
+        "disease": "십이지장궤양",
+        "tests": "위내시경",
+        "treatment": "PPI, 제산제"
+      },
+      {
+        "symptoms": [
+          "위궤양 증상",
+          "두근거림",
+          "어지럼",
+          "복부 전반적 압통",
+          "반발 압통"
+        ],
+        "disease": "소화 천공 궤양",
+        "tests": "AXR, CT",
+        "treatment": "응급 수술"
+      },
+      {
+        "symptoms": [
+          "찌르는 통증",
+          "식후 악화",
+          "구역",
+          "구토",
+          "굽히면 완화",
+          "과음",
+          "압통"
+        ],
+        "disease": "급성 췌장염",
+        "tests": "amylase, lipase, CT",
+        "treatment": "수분 공급, 진통제, 비위관 삽입"
+      },
+      {
+        "symptoms": [
+          "RUQ 통증",
+          "황달",
+          "발열",
+          "Murphy (",
+          ")"
+        ],
+        "disease": "급성 담낭염, 담석증, 담관염",
+        "tests": "CT, US, LFT",
+        "treatment": "담낭절제술, 항생제"
+      },
+      {
+        "symptoms": [
+          "RUQ 불쾌감",
+          "황달",
+          "메스꺼움",
+          "피로",
+          "근골격계 통증",
+          "간비대"
+        ],
+        "disease": "급성 간염",
+        "tests": "US, LFT",
+        "treatment": "황달 치료"
+      },
+      {
+        "symptoms": [
+          "극심한 찢어지는 통증",
+          "호흡곤란",
+          "복부 박동성 종괴"
+        ],
+        "disease": "복부 대동맥류 파열",
+        "tests": "CT",
+        "treatment": "응급개복수술"
+      },
+      {
+        "symptoms": [
+          "명치에서 RLQ로 이동",
+          "구역구토",
+          "압통",
+          "Rovsing, Obturator, Psoas (",
+          ")"
+        ],
+        "disease": "급성 충수염",
+        "tests": "US, CT",
+        "treatment": "충수절제술, 항생제"
+      },
+      {
+        "symptoms": [
+          "복통",
+          "혈변",
+          "설사",
+          "체중감소",
+          "항문통증",
+          "DRE 혈변"
+        ],
+        "disease": "크론병",
+        "tests": "대장내시경",
+        "treatment": "설파살라진, steroid, infliximab, 영양 공급"
+      },
+      {
+        "symptoms": [
+          "배꼽 주위 통증",
+          "복부 수술력",
+          "장음 항진"
+        ],
+        "disease": "장폐색증",
+        "tests": "AXR",
+        "treatment": "비위관 삽입"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -249,6 +373,128 @@
       "DRE"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "명치부 타는 통증",
+          "식후, 누우면 완화",
+          "제산제로 완화"
+        ],
+        "disease": "위식도역류병",
+        "tests": "위내시경, 24hr 식도 pH 검사",
+        "treatment": "PPI, 제산제"
+      },
+      {
+        "symptoms": [
+          "명치부 통증",
+          "공복 악화",
+          "메스꺼움",
+          "구토",
+          "속쓰림",
+          "복부 압통"
+        ],
+        "disease": "십이지장궤양",
+        "tests": "위내시경",
+        "treatment": "PPI, 제산제"
+      },
+      {
+        "symptoms": [
+          "위궤양 증상",
+          "두근거림",
+          "어지럼",
+          "복부 전반적 압통",
+          "반발 압통"
+        ],
+        "disease": "소화 천공 궤양",
+        "tests": "AXR, CT",
+        "treatment": "응급 수술"
+      },
+      {
+        "symptoms": [
+          "복통",
+          "체중 감소",
+          "소화불량"
+        ],
+        "disease": "위암",
+        "tests": "위내시경, 복부 CT",
+        "treatment": "위절제술, EMR, 항암 치료"
+      },
+      {
+        "symptoms": [
+          "상복부 불편감",
+          "구토",
+          "식후 속쓰림",
+          "DM 장기력"
+        ],
+        "disease": "당뇨병 위마비",
+        "tests": "혈중 포도당, HbA1c",
+        "treatment": "당뇨 조절"
+      },
+      {
+        "symptoms": [
+          "RUQ 통증",
+          "오심",
+          "구토",
+          "담석 진단력",
+          "압통",
+          "Murphy (",
+          ")"
+        ],
+        "disease": "만성 담낭염, 담석증",
+        "tests": "CT, US, LFT",
+        "treatment": "담낭절제술, 항생제"
+      },
+      {
+        "symptoms": [
+          "상복부 통증",
+          "등으로 뻗침",
+          "숙이면 완화",
+          "음주 후 악화",
+          "지방변"
+        ],
+        "disease": "만성 췌장염",
+        "tests": "U, CT, MRI, MRCP",
+        "treatment": "췌장효소 보충, 식이조절, 통증조절"
+      },
+      {
+        "symptoms": [
+          "식욕 저하",
+          "황달",
+          "구역",
+          "구토",
+          "피로",
+          "근골격계 통증",
+          "간비대"
+        ],
+        "disease": "만성 간염",
+        "tests": "HBsAg, anti-HAV, LFT",
+        "treatment": "항바이러스제, 보존적 치료"
+      },
+      {
+        "symptoms": [
+          "만성 복통",
+          "배변 후 완화",
+          "복부 팽만",
+          "소화불량",
+          "스트레스로 악화"
+        ],
+        "disease": "과민대장증후군",
+        "tests": "대변검사, 대장내시경, CBC",
+        "treatment": "심리적 안정, 생활 습관 교정, 완화제"
+      },
+      {
+        "symptoms": [
+          "상복부 통증",
+          "식후 충만감",
+          "조기 포만감",
+          "불규칙한 생활",
+          "기질 배제"
+        ],
+        "disease": "기능 소화불량",
+        "tests": "배제를 위한 검사",
+        "treatment": "PPI or 운동 촉진 약물 등"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -377,6 +623,86 @@
       "DRE (필요 시 시행)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "소량 토혈",
+          "신물",
+          "속쓰림"
+        ],
+        "disease": "역류 식도염",
+        "tests": "위내시경, 24hr 식도 pH",
+        "treatment": "PPI, 제산제, 생활 습관"
+      },
+      {
+        "symptoms": [
+          "토혈",
+          "체중감소",
+          "연하곤란",
+          "고령",
+          "흡연"
+        ],
+        "disease": "식도암",
+        "tests": "위내시경, 흉부 CT",
+        "treatment": "수술, RTx"
+      },
+      {
+        "symptoms": [
+          "다량 토혈",
+          "황달",
+          "복부 팽만",
+          "간경변",
+          "erythema, tremor, angioma"
+        ],
+        "disease": "식도정맥류",
+        "tests": "위내시경, 간기능검사",
+        "treatment": "수액 정주, 정맥류결찰술, BB"
+      },
+      {
+        "symptoms": [
+          "다량 토혈",
+          "속쓰림",
+          "소화불량",
+          "상복부 압통"
+        ],
+        "disease": "위궤양, 십이지장궤양",
+        "tests": "위내시경, 신속요소분해효소검사",
+        "treatment": "내시경지혈, PPI, 제균, 교육"
+      },
+      {
+        "symptoms": [
+          "다량 토혈",
+          "속쓰림",
+          "소화불량",
+          "발열",
+          "오한",
+          "복통",
+          "복부 전체 압통"
+        ],
+        "disease": "소화성 궤양 천공",
+        "tests": "흉부 X-ray, 복부 CT",
+        "treatment": "응급 개복 수술"
+      },
+      {
+        "symptoms": [
+          "토혈",
+          "체중 감소",
+          "소화불량"
+        ],
+        "disease": "위암",
+        "tests": "위내시경, 복부 CT",
+        "treatment": "위절제술, EMR, 항암치료"
+      },
+      {
+        "symptoms": [
+          "출혈 경향",
+          "출혈성 약제 복용"
+        ],
+        "disease": "응고장애",
+        "tests": "…",
+        "treatment": "…"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -501,6 +827,98 @@
       "하이브리드 : DRE"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "무통성 선홍색 혈변",
+          "학동전기 소아"
+        ],
+        "disease": "소아 폴립",
+        "tests": "대장내시경",
+        "treatment": "내시경 폴립절제술"
+      },
+      {
+        "symptoms": [
+          "무통성 대량 혈변",
+          "기타 정상"
+        ],
+        "disease": "메켈 게실",
+        "tests": "99mTc 적혈구 스캔, 대장내시경",
+        "treatment": "수액, 게실절제술"
+      },
+      {
+        "symptoms": [
+          "대량 혈변",
+          "흑색변",
+          "변 굵기 변화",
+          "변비",
+          "체중 감소",
+          "종괴 촉진"
+        ],
+        "disease": "결장암, 직장암",
+        "tests": "대장내시경, CT, MRI",
+        "treatment": "대장절제술, RTx, 수술"
+      },
+      {
+        "symptoms": [
+          "혈변",
+          "발열",
+          "복통",
+          "변비",
+          "RLQ Td (or 무증상 혈변)"
+        ],
+        "disease": "게실 출혈",
+        "tests": "대장내시경, 복부 CT",
+        "treatment": "경과관찰, 수액, 항생제, 소작술"
+      },
+      {
+        "symptoms": [
+          "혈변",
+          "복통",
+          "심혈관계 기저질환",
+          "LQ Td"
+        ],
+        "disease": "허혈 결장염",
+        "tests": "대장내시경, AXR",
+        "treatment": "수액, 항생제, 금식"
+      },
+      {
+        "symptoms": [
+          "혈변",
+          "설사",
+          "복통",
+          "상한 음식 섭취력",
+          "복부 Td"
+        ],
+        "disease": "감염성 대장염",
+        "tests": "대장내시경, 대변배양, AXR",
+        "treatment": "수액, 항생제, 금식"
+      },
+      {
+        "symptoms": [
+          "혈변",
+          "복통",
+          "체중 감소",
+          "탈수",
+          "복부 압통",
+          "DRE 혈변"
+        ],
+        "disease": "염증 장질환",
+        "tests": "대장내시경, 대장조영술, CT",
+        "treatment": "설파살라진, steroid, 영양"
+      },
+      {
+        "symptoms": [
+          "혈변",
+          "소화불량",
+          "속쓰림",
+          "상복부 압통"
+        ],
+        "disease": "소화성 궤양 출혈",
+        "tests": "위내시경",
+        "treatment": "PPI, NSAID, 제균치료, 금주"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -629,6 +1047,141 @@
       "복부 : 시 – 청 – 타 – 촉 (← 소화기 증상 시)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "소아",
+          "분출성 구토",
+          "토하고 먹으려 함"
+        ],
+        "disease": "날문협착증",
+        "tests": "US",
+        "treatment": "날문근절개술, 복부초음파"
+      },
+      {
+        "symptoms": [
+          "소아",
+          "구토",
+          "복통",
+          "딸기잼같은 분변",
+          "올리브 종괴"
+        ],
+        "disease": "장중첩증",
+        "tests": "복부초음파",
+        "treatment": "공기정복술, 바륨정복술, 응급 수술"
+      },
+      {
+        "symptoms": [
+          "구토",
+          "메스꺼움",
+          "어지럼증",
+          "Dix-Hallpike (",
+          ")"
+        ],
+        "disease": "양성돌발체위현기증",
+        "tests": "Dix",
+        "treatment": "Epley maneuver"
+      },
+      {
+        "symptoms": [
+          "구토",
+          "두통",
+          "발열",
+          "경부 강직",
+          "수막 자극 징후"
+        ],
+        "disease": "뇌수막염",
+        "tests": "뇌 CT, CSF 천자",
+        "treatment": "Cefotaxime + Vancomycin"
+      },
+      {
+        "symptoms": [
+          "구토",
+          "두통",
+          "의식저하",
+          "외상",
+          "수막 자극 징후",
+          "신경학적 이상"
+        ],
+        "disease": "뇌출혈, 거미막밑출혈",
+        "tests": "뇌 CT, CSF 천자",
+        "treatment": "개두술, 혈종제거술"
+      },
+      {
+        "symptoms": [
+          "고의적 구토",
+          "젊은 여성",
+          "체형에 대한 인식"
+        ],
+        "disease": "신경성 폭식증, 식욕부진",
+        "tests": "…",
+        "treatment": "인지 행동 치료, SSRI"
+      },
+      {
+        "symptoms": [
+          "구토",
+          "발열",
+          "복통",
+          "설사",
+          "탈수",
+          "상한음식",
+          "복부 압통",
+          "주변인도"
+        ],
+        "disease": "식중독, 급성 위장염",
+        "tests": "CBC, 전해질검사, 대변배양검사",
+        "treatment": "수액, 항생제"
+      },
+      {
+        "symptoms": [
+          "구토",
+          "발열",
+          "복통",
+          "소화불량",
+          "식후 악화",
+          "Murphy (",
+          ")"
+        ],
+        "disease": "급성 담낭염",
+        "tests": "CT, US, LFT",
+        "treatment": "담낭절제술, 항생제, 경피적 담낭배액술"
+      },
+      {
+        "symptoms": [
+          "구토",
+          "복통",
+          "속쓰림",
+          "신물",
+          "식후 악화",
+          "식사와 관련"
+        ],
+        "disease": "소화기 궤양",
+        "tests": "위내시경, 요소날숨검사",
+        "treatment": "PPI, 제산제, 위점막보호제"
+      },
+      {
+        "symptoms": [
+          "구토",
+          "체중 감소",
+          "빈혈",
+          "흑색변",
+          "림프절 비대"
+        ],
+        "disease": "위암",
+        "tests": "위내시경",
+        "treatment": "위절제술, EMR"
+      },
+      {
+        "symptoms": [
+          "구토",
+          "식후 복통",
+          "복부 수술력"
+        ],
+        "disease": "장폐색증",
+        "tests": "AXR",
+        "treatment": "코위관, 전해질 교정, 수술"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -762,6 +1315,82 @@
       "골반내진"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "만성 변비",
+          "평소 건강",
+          "저섬유성 식사",
+          "저수분 식사",
+          "젋은 여자"
+        ],
+        "disease": "기능성 변비",
+        "tests": "AXR, 대장통과시간, 항문압",
+        "treatment": "생활 습관 교정"
+      },
+      {
+        "symptoms": [
+          "변비",
+          "설사",
+          "혈변",
+          "대변 가늘어짐",
+          "체중 감소",
+          "피로",
+          "DRE 종괴"
+        ],
+        "disease": "결장암, 직장암",
+        "tests": "대장내시경, US, CT, MRI",
+        "treatment": "수술, RTx, CTx"
+      },
+      {
+        "symptoms": [
+          "변비",
+          "설사",
+          "복부 팽만",
+          "소화불량",
+          "배변 후 호전",
+          "점액질 변"
+        ],
+        "disease": "과민 대장증후군",
+        "tests": "대변검사, 대장내시경, CBC",
+        "treatment": "생활 습관 교정, 완하제"
+      },
+      {
+        "symptoms": [
+          "변비",
+          "잔변감",
+          "밀려나오는 느낌",
+          "골반 내진 상 질쪽으로 덩이 내려옴"
+        ],
+        "disease": "직장류",
+        "tests": "배변조영술, 대장내시경",
+        "treatment": "케겔 운동, 페서리 수술"
+      },
+      {
+        "symptoms": [
+          "변비",
+          "피로",
+          "체중 증가",
+          "추위불내성",
+          "하지 부종",
+          "갑상샘 종대"
+        ],
+        "disease": "갑상샘저하증",
+        "tests": "TFT",
+        "treatment": "갑상샘호르몬"
+      },
+      {
+        "symptoms": [
+          "변비",
+          "치매",
+          "파킨슨병",
+          "NEx 이상"
+        ],
+        "disease": "신경 이상 변비",
+        "tests": "신경계 검사",
+        "treatment": "변비약"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -885,6 +1514,104 @@
       "DRE (하이브리드 가능)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "설사",
+          "구토",
+          "복통",
+          "발열",
+          "탈수",
+          "음식섭취 관련",
+          "복부 압통"
+        ],
+        "disease": "식중독, 급성 위장염",
+        "tests": "대변배양검사",
+        "treatment": "수액, 항생제"
+      },
+      {
+        "symptoms": [
+          "설사",
+          "혈변",
+          "복통",
+          "체중 감소",
+          "탈수",
+          "복부 압통",
+          "장음 감소"
+        ],
+        "disease": "염증성 장질환",
+        "tests": "대장내시경, 대장조영술, CT",
+        "treatment": "steroid, 영양공급"
+      },
+      {
+        "symptoms": [
+          "혈변",
+          "복통",
+          "심혈관계 기저질환",
+          "LQ Td"
+        ],
+        "disease": "허혈 결장염",
+        "tests": "대장내시경, AXR",
+        "treatment": "수액, 항생제, 금식"
+      },
+      {
+        "symptoms": [
+          "설사",
+          "변비",
+          "혈변",
+          "대변 가늘어짐",
+          "체중 감소",
+          "피로",
+          "DRE 종괴"
+        ],
+        "disease": "결장암, 직장암",
+        "tests": "대장내시경, US, CT, MRI",
+        "treatment": "수술, RTx, CTx"
+      },
+      {
+        "symptoms": [
+          "설사",
+          "장절제 수술력",
+          "기타 정상"
+        ],
+        "disease": "단장증후군",
+        "tests": "US, AXR",
+        "treatment": "TPN, 지사제, cholestyramine"
+      },
+      {
+        "symptoms": [
+          "설사",
+          "변비",
+          "복부 팽만",
+          "소화불량",
+          "배변 후 호전",
+          "점액질 변"
+        ],
+        "disease": "과민 대장증후군",
+        "tests": "대변검사, 대장내시경, CBC",
+        "treatment": "생활 습관 교정, 완하제"
+      },
+      {
+        "symptoms": [
+          "설사",
+          "우유 마시면 속이 불편"
+        ],
+        "disease": "젖당불내성",
+        "tests": "수소날숨검사, 젖당부하검사",
+        "treatment": "유당회피요법"
+      },
+      {
+        "symptoms": [
+          "설사",
+          "체중감소",
+          "심계항진",
+          "더위불내성"
+        ],
+        "disease": "갑상샘항진증",
+        "tests": "TFT",
+        "treatment": "propylthiouracil, methimazole"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -1019,6 +1746,96 @@
       "하지 부종"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "피로",
+          "체중감소",
+          "복수",
+          "음주",
+          "RUQ pain",
+          "angioma",
+          "tremor"
+        ],
+        "disease": "알코올성 간염-간경화증-간암",
+        "tests": "LFT, CT, 혈액검사",
+        "treatment": "금주, 영양 공급, 복수 조절, 간이식"
+      },
+      {
+        "symptoms": [
+          "신경학적 이상",
+          "어린 나이",
+          "가족령",
+          "KF ring"
+        ],
+        "disease": "윌슨병",
+        "tests": "혈중 셀룰로플라스민, 소변 Cu",
+        "treatment": "약물, 간이식, 섭취제한"
+      },
+      {
+        "symptoms": [
+          "스트레스 상황 (운동, 피로, 금식)",
+          "가족성"
+        ],
+        "disease": "길버트 증후군",
+        "tests": "LFT",
+        "treatment": "안심시키기, 원인 요소 관리"
+      },
+      {
+        "symptoms": [
+          "발열",
+          "오한",
+          "RUQ pain",
+          "Murphy’s sign (",
+          ")"
+        ],
+        "disease": "급성 담낭염",
+        "tests": "LFT, US, CT",
+        "treatment": "항생제, 담낭절제술, 경피적담낭배액술"
+      },
+      {
+        "symptoms": [
+          "발열",
+          "오한",
+          "RUQ pain",
+          "민물고기 섭취"
+        ],
+        "disease": "담관염",
+        "tests": "LFT, US, MRI, ERCP",
+        "treatment": "항생제 내시경, 경피적담관배액술"
+      },
+      {
+        "symptoms": [
+          "체중 감소",
+          "Courvoisier’s sign"
+        ],
+        "disease": "담관암, 췌두부암",
+        "tests": "내시경역행담췌관조영, CT, MRI",
+        "treatment": "수술, 항암"
+      },
+      {
+        "symptoms": [
+          "복통 (숙이면 완화)",
+          "소화불량",
+          "지방변",
+          "음주",
+          "담석"
+        ],
+        "disease": "만성 췌장염",
+        "tests": "CT, US, amylase, lipase",
+        "treatment": "금주, 진통제, 췌장 효소 공급"
+      },
+      {
+        "symptoms": [
+          "호흡곤란",
+          "어지럼",
+          "쉽게 멍듬"
+        ],
+        "disease": "용혈성 질환",
+        "tests": "CBC, LFT, 말초혈액도말검사",
+        "treatment": "비장절제술, 스테로이드"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -1160,6 +1977,98 @@
       "PTE 의심 시 Homan’s"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "갑작스러운 흉통",
+          "과음",
+          "젊은 나이"
+        ],
+        "disease": "변형협심증",
+        "tests": "EKG, 운동부하, 심근효소검사, SPECT",
+        "treatment": "CCB, NTG"
+      },
+      {
+        "symptoms": [
+          "찌르는 통증",
+          "숙이면 완화",
+          "숨쉬면 악화",
+          "심음에서 마찰음"
+        ],
+        "disease": "심장막염",
+        "tests": "Echo, EKG, CXR",
+        "treatment": "NSAID, aspirin, 심장막 천자"
+      },
+      {
+        "symptoms": [
+          "찢어지는 통증",
+          "등 방사",
+          "심한 호흡곤란",
+          "말판증후군",
+          "대동맥 잡음"
+        ],
+        "disease": "대동맥 박리",
+        "tests": "CXR, CT",
+        "treatment": "응급수술"
+      },
+      {
+        "symptoms": [
+          "찌르는 통증",
+          "호흡기 감염 증상",
+          "호흡음 crackle",
+          "타진 탁음"
+        ],
+        "disease": "폐렴",
+        "tests": "CXR, 객담배양검사, 혈액 배양, 혈구검사",
+        "treatment": "경험적 항생제, 수액"
+      },
+      {
+        "symptoms": [
+          "들숨 시 통증",
+          "감염 증상",
+          "성음진탕 감소",
+          "호흡음 감소"
+        ],
+        "disease": "흉막염",
+        "tests": "CXR, CBC, 가슴막 천자, 혈액배양",
+        "treatment": "NSAID, acetaminophen"
+      },
+      {
+        "symptoms": [
+          "급성 호흡곤란",
+          "흉통",
+          "객혈",
+          "누워있는 이력",
+          "Homan (",
+          ")",
+          "목정맥 확장",
+          "부종"
+        ],
+        "disease": "폐색전증",
+        "tests": "CT, ECG, echo",
+        "treatment": "heparin, 혈전용해제, IVC 필터"
+      },
+      {
+        "symptoms": [
+          "쓰린 통증 (명치)",
+          "공복, 식후 악화",
+          "상복부 압통"
+        ],
+        "disease": "소화기 궤양",
+        "tests": "위내시경, 요소날숨검사, 신속요소분해효소",
+        "treatment": "PPI, 제균"
+      },
+      {
+        "symptoms": [
+          "피부 발진 (띠 모양)",
+          "고령",
+          "면역억제"
+        ],
+        "disease": "대상포진",
+        "tests": "불필요",
+        "treatment": "항바이러스제, 통증 조절"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -1302,6 +2211,117 @@
       "사지 (근력/감각/DTR)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "전구 증상",
+          "덥거나 오래 서 있는 스트레스 상황 실신"
+        ],
+        "disease": "혈관미주신경실신",
+        "tests": "심전도, 기립경사검사",
+        "treatment": "상활 회피, BB, 혈관수축제"
+      },
+      {
+        "symptoms": [
+          "갑자기 일어서다가 실신 (",
+          "저혈량 증상)"
+        ],
+        "disease": "기립 저혈압",
+        "tests": "기립경사검사 (3분)",
+        "treatment": "천천히 일어나기, 수분 섭취, 약제"
+      },
+      {
+        "symptoms": [
+          "흉통",
+          "호흡곤란",
+          "심잡음",
+          "경정맥 확장",
+          "수포음"
+        ],
+        "disease": "심근경색증",
+        "tests": "EKG, 심근효소검사, angio",
+        "treatment": "관상동맥재개통술, aspirin, BB"
+      },
+      {
+        "symptoms": [
+          "운동 중 실신",
+          "호흡곤란",
+          "젊은 나이",
+          "급사력",
+          "valsalva 심잡음 증가"
+        ],
+        "disease": "비대심근병증",
+        "tests": "EKG, echo",
+        "treatment": "BB, CCB, 운동 금지, 수술"
+      },
+      {
+        "symptoms": [
+          "두근거림 후 실신",
+          "맥박 이상"
+        ],
+        "disease": "부정맥",
+        "tests": "EKG, 24hr holter",
+        "treatment": "BB, CCB"
+      },
+      {
+        "symptoms": [
+          "피로",
+          "어지럼",
+          "호흡곤란",
+          "위절제술 병력",
+          "결막 창백"
+        ],
+        "disease": "빈혈",
+        "tests": "CBC, PBS, ferritin",
+        "treatment": "빈혈 원인 치료"
+      },
+      {
+        "symptoms": [
+          "의식소실",
+          "찢어지는 흉통",
+          "어지럼",
+          "호흡곤란"
+        ],
+        "disease": "대동맥박리",
+        "tests": "CT, X-ray",
+        "treatment": "응급수술, BB"
+      },
+      {
+        "symptoms": [
+          "의식소실",
+          "극심한 두통",
+          "구토",
+          "고혈압"
+        ],
+        "disease": "지주막하출혈",
+        "tests": "CT, CSF, brain angio",
+        "treatment": "뇌동맥결찰술, 혈압 조절, shunt"
+      },
+      {
+        "symptoms": [
+          "의식소실",
+          "마비",
+          "저림",
+          "언어장애",
+          "24시간 내 회복"
+        ],
+        "disease": "일과성 허혈 발작",
+        "tests": "CT, MRI, echo, EKG",
+        "treatment": "항혈소판제, 항응고제"
+      },
+      {
+        "symptoms": [
+          "실신",
+          "두근거림",
+          "떨림",
+          "식은땀",
+          "당뇨병 병력"
+        ],
+        "disease": "저혈당 쇼크",
+        "tests": "혈당, 전해질검사, 요중 케톤",
+        "treatment": "사탕, 5% dextrose 용액"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -1444,6 +2464,146 @@
       "경정맥 시진"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "두근거림",
+          "호흡곤란",
+          "흉통",
+          "불규칙한 맥박"
+        ],
+        "disease": "심방세동,조동",
+        "tests": "EKG, Holter, echo",
+        "treatment": "BB, CCB, warfarin"
+      },
+      {
+        "symptoms": [
+          "갑작스러운 규칙적인 두근거림",
+          "갑자기 종료",
+          "이후 요의"
+        ],
+        "disease": "돌발심실상빈맥",
+        "tests": "EKG, Holter",
+        "treatment": "미주신경자극법, 발살바법, adenosine"
+      },
+      {
+        "symptoms": [
+          "불규칙한 두근거림",
+          "쿵 내려앉는 느낌",
+          "어지럼"
+        ],
+        "disease": "조기심실수축",
+        "tests": "ECG, Holter",
+        "treatment": "BB, CCB, radiofrequency ablation"
+      },
+      {
+        "symptoms": [
+          "두근거림",
+          "어지럼",
+          "실십",
+          "호흡곤란",
+          "흉통",
+          "심잡음 청진"
+        ],
+        "disease": "판막 질환",
+        "tests": "ECG, echo",
+        "treatment": "이뇨제, 원인별 치료"
+      },
+      {
+        "symptoms": [
+          "두근거림",
+          "호흡곤란",
+          "피로",
+          "하지 부종",
+          "호흡 수포음"
+        ],
+        "disease": "심부전",
+        "tests": "ECG, echo",
+        "treatment": "ACEi, ARB, BB, diuretics, Digoxin"
+      },
+      {
+        "symptoms": [
+          "두근거림",
+          "호흡곤란",
+          "피로",
+          "어지럼",
+          "결막 창백"
+        ],
+        "disease": "빈혈",
+        "tests": "CBC, ferrtin",
+        "treatment": "철분 보충, 코발라민, 엽산 보충"
+      },
+      {
+        "symptoms": [
+          "두근거림",
+          "구토",
+          "설사",
+          "탈수 소견",
+          "피부 긴장도 저하"
+        ],
+        "disease": "저혈량증",
+        "tests": "전해질검사",
+        "treatment": "수액 정주"
+      },
+      {
+        "symptoms": [
+          "두근거림",
+          "두통",
+          "식은땀",
+          "기립성 저혈압"
+        ],
+        "disease": "크롬친화세포종",
+        "tests": "24hr urine 메타네프린, CT",
+        "treatment": "AB, BB, 부신절제술"
+      },
+      {
+        "symptoms": [
+          "두근거림",
+          "더위불내성",
+          "체중 감소",
+          "피로",
+          "설사",
+          "Goiter"
+        ],
+        "disease": "갑상샘항진증",
+        "tests": "TFT, ECG",
+        "treatment": "항갑상샘제, BB, 방사성 요오드 치료"
+      },
+      {
+        "symptoms": [
+          "두근거림",
+          "어지럼",
+          "실신",
+          "인슐린 복용력",
+          "당뇨병력",
+          "굶음"
+        ],
+        "disease": "저혈당",
+        "tests": "혈당검사",
+        "treatment": "경구 당 공급, 포도당 용액, 교육"
+      },
+      {
+        "symptoms": [
+          "두근거림",
+          "얼굴 화끈거림",
+          "식은땀",
+          "정서적 불안정"
+        ],
+        "disease": "폐경기 증후군",
+        "tests": "FST, estradiol",
+        "treatment": "HRT, 생활 습관 교정"
+      },
+      {
+        "symptoms": [
+          "두근거림",
+          "죽을 것 같은 공포감",
+          "예기불안"
+        ],
+        "disease": "불안장애, 공황장애",
+        "tests": "기질적 질환 감별",
+        "treatment": "SSRI, 인지 행동 치료"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -1586,6 +2746,119 @@
       "혈압측정 하이브리드 가능"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "고혈압",
+          "비만",
+          "운동 부족",
+          "나머지 정상"
+        ],
+        "disease": "본태 고혈압",
+        "tests": "…",
+        "treatment": "생활 습관 교정"
+      },
+      {
+        "symptoms": [
+          "고혈압",
+          "집에서는 정상"
+        ],
+        "disease": "백의 고혈압",
+        "tests": "…",
+        "treatment": "집에서 혈압 측정"
+      },
+      {
+        "symptoms": [
+          "고혈압",
+          "거품뇨",
+          "소변 감소",
+          "하지 부종"
+        ],
+        "disease": "만성 신부전",
+        "tests": "신장초음파, BUN",
+        "treatment": "Cr, 소변검사 / ACEi, ARB, 신대체요법"
+      },
+      {
+        "symptoms": [
+          "고혈압",
+          "소변 감소",
+          "신동맥 잡음",
+          "신동맥 bruit"
+        ],
+        "disease": "신동맥 협착증",
+        "tests": "US, renal scan",
+        "treatment": "ACEi, ARB, 풍선혈관성형술"
+      },
+      {
+        "symptoms": [
+          "고혈압",
+          "두근거림",
+          "체중 감소",
+          "발한",
+          "더위불내성"
+        ],
+        "disease": "갑상샘항진증",
+        "tests": "TFT",
+        "treatment": "메티마졸, 방사성 요오드"
+      },
+      {
+        "symptoms": [
+          "고혈압",
+          "근력 약화",
+          "피로",
+          "경련",
+          "젊은 나이"
+        ],
+        "disease": "일차 알도스테론증",
+        "tests": "plasma renin activity, CT",
+        "treatment": "부신절제술,"
+      },
+      {
+        "symptoms": [
+          "고혈압",
+          "자색선조",
+          "비만",
+          "다모증",
+          "멍",
+          "스테로이드"
+        ],
+        "disease": "쿠싱증후군",
+        "tests": "cortisol, dexa 억제검사",
+        "treatment": "원인 치료"
+      },
+      {
+        "symptoms": [
+          "고혈압",
+          "두통",
+          "빈맥",
+          "기립성 저혈압"
+        ],
+        "disease": "크롬친화세포종",
+        "tests": "24hr 메타네프린검사, CT",
+        "treatment": "AB, BB, 부신절제술"
+      },
+      {
+        "symptoms": [
+          "고혈압",
+          "얼굴 화끈거림",
+          "수면장애",
+          "기타 정상"
+        ],
+        "disease": "폐경에 의한 고혈압",
+        "tests": "FSH, estradiol",
+        "treatment": "안정, 호르몬 대체요법"
+      },
+      {
+        "symptoms": [
+          "고혈압",
+          "약물 복용(steroid, NSAIDs, 한약)",
+          "기타 정상"
+        ],
+        "disease": "약물에 의한 고혈압",
+        "tests": "…",
+        "treatment": "약물 중단"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -1720,6 +2993,27 @@
       "복부 : 시 – 청 – 타 – 촉"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "대사증후군",
+          "건강하지 않은 식습관",
+          "나머지 이상 없음"
+        ],
+        "disease": "일차성 고콜레스테롤혈증",
+        "tests": "LFT, BUN.Cr…",
+        "treatment": "생활습관 개선"
+      },
+      {
+        "symptoms": [
+          "고지혈증, 심질환 가족력",
+          "발목에 황색종"
+        ],
+        "disease": "가족성 고콜레스테롤혈증",
+        "tests": "분자유전학적 검사",
+        "treatment": "생활습관 개선"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -1840,6 +3134,124 @@
       "흉부 : 시 – 촉 – 타 – 청(심음, 호흡음)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "급성 기침",
+          "가래",
+          "코막힘",
+          "인후통",
+          "목 부음"
+        ],
+        "disease": "상기도 감염",
+        "tests": "후두경, CBC, CXR",
+        "treatment": "휴식과 수분 섭취, NSAID, 항생제"
+      },
+      {
+        "symptoms": [
+          "급성 기침",
+          "발열",
+          "콧물",
+          "가래",
+          "호흡곤란",
+          "객혈",
+          "수포음 청진"
+        ],
+        "disease": "폐렴",
+        "tests": "CBC, CXR, 가래 배양",
+        "treatment": "ciprofloxacin, ceftriaxone.."
+      },
+      {
+        "symptoms": [
+          "아급성 기침",
+          "최근 감기력"
+        ],
+        "disease": "감염 후 기침",
+        "tests": "CBC, CXR, 가래 배양",
+        "treatment": "휴식과 수분 섭취, ipratropium"
+      },
+      {
+        "symptoms": [
+          "만성 기침",
+          "후비루 증상",
+          "인후통",
+          "시진상 후비루 확인"
+        ],
+        "disease": "후비루 증후군",
+        "tests": "부비동 방사선 촬영",
+        "treatment": "원인 질환 치료"
+      },
+      {
+        "symptoms": [
+          "만성 기침",
+          "쌕쌕거림",
+          "가래",
+          "흡연력",
+          "고령"
+        ],
+        "disease": "만성폐쇄성폐질환",
+        "tests": "PFT, CXR, ABGA",
+        "treatment": "SABA, LAMA"
+      },
+      {
+        "symptoms": [
+          "만성 기침",
+          "발열",
+          "피로",
+          "체중 감소",
+          "야간 발한",
+          "객혈"
+        ],
+        "disease": "폐결핵",
+        "tests": "tuberculin 검사, AFB",
+        "treatment": "항결핵제"
+      },
+      {
+        "symptoms": [
+          "만성 기침",
+          "체중 감소",
+          "흡연",
+          "객혈",
+          "고령"
+        ],
+        "disease": "폐암",
+        "tests": "CXR, CT, PFT",
+        "treatment": "수술, RTx, 항암제"
+      },
+      {
+        "symptoms": [
+          "만성 기침",
+          "속쓰림",
+          "신물 역류",
+          "누우면 악화"
+        ],
+        "disease": "위식도역류병",
+        "tests": "위내시경, 24hr 식도 pH 검사",
+        "treatment": "PPI, 제산제, 수술"
+      },
+      {
+        "symptoms": [
+          "만성 기침",
+          "피로",
+          "부종",
+          "기저 심질환",
+          "경정맥 확장"
+        ],
+        "disease": "울혈 심부전",
+        "tests": "echo, EKG",
+        "treatment": "ACEi, BB"
+      },
+      {
+        "symptoms": [
+          "만성 기침",
+          "고혈압 약 복용 (-pril)",
+          "기타 정상"
+        ],
+        "disease": "ACEi에 의한 기침",
+        "tests": "…",
+        "treatment": "약물 변경"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -1974,6 +3386,84 @@
       "사지 : 곤봉지, 청색증"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "맑은 콧물",
+          "재채기",
+          "가려움",
+          "코막힘",
+          "비점막 부음"
+        ],
+        "disease": "알레르기 비염",
+        "tests": "코내시경, prick test, IgE",
+        "treatment": ""
+      },
+      {
+        "symptoms": [
+          "발열",
+          "기침",
+          "가래",
+          "인후통",
+          "코막힘",
+          "목 부음"
+        ],
+        "disease": "상기도 감염",
+        "tests": "후두경, CBC, CXR",
+        "treatment": "휴식과 수분 섭취, NSAID, 항생제"
+      },
+      {
+        "symptoms": [
+          "코막힘",
+          "호흡곤란",
+          "후각 저하",
+          "두통",
+          "부비동 압통"
+        ],
+        "disease": "부비동염",
+        "tests": "코내시경, water’s view, CT",
+        "treatment": "코세척, 충혈제거제, 항생제"
+      },
+      {
+        "symptoms": [
+          "맑은 콧물",
+          "뜨거운 음식 먹을 때 악화"
+        ],
+        "disease": "혈관 운동 비염",
+        "tests": "Water’s view, skin prick test",
+        "treatment": ""
+      },
+      {
+        "symptoms": [
+          "편측 콧물",
+          "피 섞임",
+          "RTx 이력",
+          "코담배",
+          "신경 이상 등"
+        ],
+        "disease": "부비동 종양",
+        "tests": "코내시경, CT, MRI",
+        "treatment": "수술, 방사선조사, 항암 치료"
+      },
+      {
+        "symptoms": [
+          "두부외상력",
+          "신경학적 이상 소견"
+        ],
+        "disease": "뇌척수액 콧물",
+        "tests": "두경부 CT, MRI",
+        "treatment": "수술, 방사선조사, 항암 치료"
+      },
+      {
+        "symptoms": [
+          "ACEi, NSAIDs, 국소혈관수축제 복용 중",
+          "특이 소견 없음"
+        ],
+        "disease": "약물유발 비염",
+        "tests": "불필요",
+        "treatment": "약물 중단 및 교체"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -2102,6 +3592,100 @@
       "PTE 의심 시 Homan’s"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "객혈",
+          "기침",
+          "가래",
+          "발열",
+          "흉통",
+          "수포음 청진",
+          "성음진탕 증가"
+        ],
+        "disease": "폐렴",
+        "tests": "CXR, 객담 배양, 혈액 배양, CBC",
+        "treatment": "경험적 항생제, 수액"
+      },
+      {
+        "symptoms": [
+          "객혈",
+          "기침",
+          "가래",
+          "피로",
+          "체중감소",
+          "야간 발한"
+        ],
+        "disease": "폐결핵",
+        "tests": "Tb 검사, AFB",
+        "treatment": "항결핵제"
+      },
+      {
+        "symptoms": [
+          "대량 객혈",
+          "가래",
+          "민물게장 섭취력"
+        ],
+        "disease": "폐흡충증",
+        "tests": "ELISA",
+        "treatment": "Praziquantel"
+      },
+      {
+        "symptoms": [
+          "소량 객혈",
+          "양치 중 출혈",
+          "구강 시진에서 피"
+        ],
+        "disease": "상기도, 단순 구강 출혈",
+        "tests": "불필요",
+        "treatment": "경과 관찰"
+      },
+      {
+        "symptoms": [
+          "소량 객혈",
+          "기침",
+          "가래"
+        ],
+        "disease": "만성 기관지염",
+        "tests": "CBC, CXR, 객담배양",
+        "treatment": "항생제, 진해제"
+      },
+      {
+        "symptoms": [
+          "대량 객혈",
+          "가래",
+          "잦은 상기도 감염력",
+          "수포음 청진"
+        ],
+        "disease": "기관지확장증",
+        "tests": "CXR, CT",
+        "treatment": "기관지동맥색전술, 폐절제술"
+      },
+      {
+        "symptoms": [
+          "객혈",
+          "호흡곤란",
+          "흉통",
+          "누워지냄",
+          "수포음 청진",
+          "목정맥 확장",
+          "부종"
+        ],
+        "disease": "폐색전증",
+        "tests": "CT angio, EKG",
+        "treatment": "heparin, 혈전용해제, IVC filter"
+      },
+      {
+        "symptoms": [
+          "객혈",
+          "체중 감소",
+          "오랜 흡연력"
+        ],
+        "disease": "폐암",
+        "tests": "기관지내시경, 경피적 미세침습",
+        "treatment": "폐절제술, 방사선 치료, 항암제"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -2230,6 +3814,139 @@
       "Homan’s sign (PTE 의심 시)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "호흡곤란",
+          "피로",
+          "부종",
+          "누우면 악화",
+          "기저 심질환",
+          "경정맥 확장"
+        ],
+        "disease": "울혈 심부전",
+        "tests": "echo, EKG",
+        "treatment": "ACEi, BB, spironolactone"
+      },
+      {
+        "symptoms": [
+          "호흡곤란",
+          "어지럼",
+          "피로 (",
+          "소화기 수술력)",
+          "결막 창백"
+        ],
+        "disease": "빈혈",
+        "tests": "CBC, PBS, ferritin",
+        "treatment": "철분 보충 등"
+      },
+      {
+        "symptoms": [
+          "호흡곤란",
+          "가래",
+          "기침",
+          "흡연력",
+          "고령"
+        ],
+        "disease": "만성 폐쇄성 폐질환",
+        "tests": "PFT, CXR, ABGA",
+        "treatment": "SABA, LABA"
+      },
+      {
+        "symptoms": [
+          "호흡곤란",
+          "찌르는 통증",
+          "호흡 시 악화",
+          "젊은 남성",
+          "공명음 감소"
+        ],
+        "disease": "기흉",
+        "tests": "CXR",
+        "treatment": "산소마스크, 흉관 삽입, 수술"
+      },
+      {
+        "symptoms": [
+          "호흡곤란",
+          "가래",
+          "객혈",
+          "감염력",
+          "수포음 청진"
+        ],
+        "disease": "기관지 확장증",
+        "tests": "CXR, CT",
+        "treatment": "기관지동맥색전술, 폐절제술"
+      },
+      {
+        "symptoms": [
+          "호흡곤란",
+          "누워 지냄",
+          "수포음 청진",
+          "목정맥 확장",
+          "부종"
+        ],
+        "disease": "폐색전증",
+        "tests": "CT, EKG",
+        "treatment": "heparin, 혈전용해제, IVC filter"
+      },
+      {
+        "symptoms": [
+          "호흡곤란",
+          "발열",
+          "기침",
+          "가래",
+          "흉통",
+          "수포음 청진"
+        ],
+        "disease": "폐렴",
+        "tests": "CXR, CBC, 객담 배양",
+        "treatment": "경험적 항생제"
+      },
+      {
+        "symptoms": [
+          "호흡곤란",
+          "만성 마른기침",
+          "피로",
+          "수포음",
+          "곤봉지"
+        ],
+        "disease": "사이질 폐질환",
+        "tests": "CT, PFT",
+        "treatment": "steroid, pirfenidone, 산소 치료"
+      },
+      {
+        "symptoms": [
+          "호흡곤란",
+          "두근거림",
+          "더위불내성",
+          "설사",
+          "피로"
+        ],
+        "disease": "갑상샘항진증",
+        "tests": "TFT",
+        "treatment": "PTU, 방사성 요오드 치료"
+      },
+      {
+        "symptoms": [
+          "호흡곤란",
+          "예기불안",
+          "발작에 대한 걱정"
+        ],
+        "disease": "공황장애",
+        "tests": "…",
+        "treatment": "BZD, BB, 인지 행동 치료"
+      },
+      {
+        "symptoms": [
+          "호흡곤란",
+          "빈호흡",
+          "어지럼",
+          "기타 정상"
+        ],
+        "disease": "과다환기증후군",
+        "tests": "ABGA, 전해질검사",
+        "treatment": "비닐봉지"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -2367,6 +4084,84 @@
       "복부 : 시 – 청 – 타 – 촉 + 신동맥 bruit, 방광 비대"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "수분 과다 섭취",
+          "기타 정상"
+        ],
+        "disease": "원발 다음증",
+        "tests": "전해질검사, 소변검사",
+        "treatment": "수분 섭취 제한, 필요 시 입원"
+      },
+      {
+        "symptoms": [
+          "다뇨",
+          "빈뇨",
+          "아갼뇨",
+          "시야장애",
+          "뇌수술력",
+          "두부외상력"
+        ],
+        "disease": "중추 요붕증",
+        "tests": "전해질검사, 소변검사, MRI",
+        "treatment": "desmopressin, 수술"
+      },
+      {
+        "symptoms": [
+          "다뇨",
+          "비뇨기 과거력",
+          "리튬 복용력"
+        ],
+        "disease": "신장 요붕증",
+        "tests": "전해질검사, 소변검사",
+        "treatment": "thiazide, amiloride, 인도메타신"
+      },
+      {
+        "symptoms": [
+          "다뇨",
+          "다음",
+          "다갈",
+          "체중 감소",
+          "소변 단내"
+        ],
+        "disease": "당뇨병",
+        "tests": "혈중 포도당, 당화혈색소, 소변검사",
+        "treatment": "혈당강하제, 식습관 조절"
+      },
+      {
+        "symptoms": [
+          "다뇨",
+          "피로",
+          "부종",
+          "가려움증",
+          "고혈압"
+        ],
+        "disease": "만성 신부전",
+        "tests": "BUN",
+        "treatment": "Cr, 전해질검사, 소변검사 / ACEi, ARB, 혈액 투석"
+      },
+      {
+        "symptoms": [
+          "다뇨",
+          "배뇨통",
+          "질분비물"
+        ],
+        "disease": "요로 감염",
+        "tests": "소변검사, 소변배양검사, CBC",
+        "treatment": "ciprofloxacin, ampicillin"
+      },
+      {
+        "symptoms": [
+          "다뇨",
+          "도뇨관 삽입력",
+          "나머지 정상"
+        ],
+        "disease": "폐쇄 후 이뇨",
+        "tests": "소변검사, 소변배양검사",
+        "treatment": "경과 관찰"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -2493,6 +4288,130 @@
       "복부 : 시 – 청 – 타 – 촉 + 신동맥 bruit, 방광 비대 + DRE (남자인 경우)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "핍뇨",
+          "혈액소실 증상",
+          "탈수 소견"
+        ],
+        "disease": "혈량저하에 의한 급성 신손상",
+        "tests": "소변검사, 전해질검사, CBC",
+        "treatment": "수액 공급"
+      },
+      {
+        "symptoms": [
+          "핍뇨",
+          "피로",
+          "호흡곤란",
+          "부종",
+          "수포음 청진"
+        ],
+        "disease": "심부전에 의한 급성 신손상",
+        "tests": "echo, EKG, CXR",
+        "treatment": "ACEi, ARB, BB"
+      },
+      {
+        "symptoms": [
+          "핍뇨",
+          "약물 복용 중 (ACEi, ARB, NSAID)",
+          "나머지 정상"
+        ],
+        "disease": "약물 유발 급성 신손상",
+        "tests": "소변검사, BUN",
+        "treatment": "Cr, 신장초음파 / 약물 중단"
+      },
+      {
+        "symptoms": [
+          "핍뇨",
+          "혈뇨",
+          "최근 감염력",
+          "근육통",
+          "옆구리 통증",
+          "CVAT(",
+          ")",
+          "부종"
+        ],
+        "disease": "PSGN",
+        "tests": "소변검사, BUN",
+        "treatment": "Cr, 신장초음파 / 수액, 이뇨제"
+      },
+      {
+        "symptoms": [
+          "핍뇨",
+          "배뇨통",
+          "질분비물"
+        ],
+        "disease": "요로 감염",
+        "tests": "소변검사, 소변배양검사, CBC",
+        "treatment": "Ciprofloxacin, Ampicillin"
+      },
+      {
+        "symptoms": [
+          "핍뇨",
+          "최근 조영제, aminoglycoside, cisplatin 복용력",
+          "하지 오목 부종"
+        ],
+        "disease": "약제 유발 급성 신독성",
+        "tests": "소변검사, BUN",
+        "treatment": "Cr / 약물 중단, 수액 공급"
+      },
+      {
+        "symptoms": [
+          "핍뇨",
+          "적색뇨",
+          "과도한 운동",
+          "근육통",
+          "감전 등"
+        ],
+        "disease": "횡문근융해증",
+        "tests": "소변검사, BUN",
+        "treatment": "Cr / 수액 공급, 이뇨제"
+      },
+      {
+        "symptoms": [
+          "핍뇨",
+          "신장 이식 병력",
+          "하지 오목 부종"
+        ],
+        "disease": "이식 거부 반응",
+        "tests": "소변검사, BUN",
+        "treatment": "Cr, 신장초음파 / 면역억제제 강화"
+      },
+      {
+        "symptoms": [
+          "핍뇨",
+          "심한 고혈압",
+          "망막 출혈",
+          "유두 부종"
+        ],
+        "disease": "악성 고혈압",
+        "tests": "소변검사, echo, 신장초음파",
+        "treatment": "nitrate, BB"
+      },
+      {
+        "symptoms": [
+          "핍뇨",
+          "소아",
+          "대장염 증상 후 발병",
+          "탈수"
+        ],
+        "disease": "용혈요독증후군",
+        "tests": "소변검사, BUN",
+        "treatment": "Cr, PBS / 혈액 투석, 수혈"
+      },
+      {
+        "symptoms": [
+          "핍뇨",
+          "전립샘 비대증",
+          "요도 협착",
+          "아랫배 통증"
+        ],
+        "disease": "양성 전립샘 비대, 전립샘암",
+        "tests": "염",
+        "treatment": "US, PSA / AB, androgen 억제제"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -2625,6 +4544,109 @@
       "외성기 진찰 (증상 있는 경우)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "붉은뇨",
+          "결핵약 복용력",
+          "기타 정상"
+        ],
+        "disease": "리팜핀에 의한 가성 혈뇨",
+        "tests": "소변검사",
+        "treatment": "안심시키기"
+      },
+      {
+        "symptoms": [
+          "혈뇨",
+          "2~3일 전 상기도 감염",
+          "기타 정상"
+        ],
+        "disease": "IgA 신병증",
+        "tests": "소변검사, 신장 조직검사",
+        "treatment": "혈압 조절, 수분 염분 제한"
+      },
+      {
+        "symptoms": [
+          "혈뇨",
+          "1~2주 전 상기도 감염",
+          "부종",
+          "체중 증가"
+        ],
+        "disease": "사슬알균 감염 후 토리콩팥염",
+        "tests": "소변검사, 신장 조직검사",
+        "treatment": "염분 제한, 항생제"
+      },
+      {
+        "symptoms": [
+          "혈뇨",
+          "발열",
+          "오한",
+          "배뇨통",
+          "CVAT(",
+          ")"
+        ],
+        "disease": "급성 신우신염",
+        "tests": "소변검사, 신장초음파, CBC",
+        "treatment": "항생제"
+      },
+      {
+        "symptoms": [
+          "혈뇨",
+          "체중 감소",
+          "종괴 총진"
+        ],
+        "disease": "신장암",
+        "tests": "CT, US",
+        "treatment": "신장절제술"
+      },
+      {
+        "symptoms": [
+          "혈뇨",
+          "날카로운 옆구리 통증",
+          "재발",
+          "CVAT(",
+          ")"
+        ],
+        "disease": "요로 결석",
+        "tests": "KUB, CT, 소변검사",
+        "treatment": "대기, 쇄석술, 수술"
+      },
+      {
+        "symptoms": [
+          "혈뇨",
+          "발열",
+          "배뇨통",
+          "질문비물",
+          "가려움증",
+          "골반 내진"
+        ],
+        "disease": "요로 감염",
+        "tests": "소변검사, 배양검사",
+        "treatment": "항생제"
+      },
+      {
+        "symptoms": [
+          "혈뇨",
+          "체중 감소",
+          "잔뇨감",
+          "소변줄기 가늘어짐",
+          "DRE 전립샘 비대"
+        ],
+        "disease": "전립샘염,암",
+        "tests": "소변검사, US",
+        "treatment": "정맥항생제, AB, cystostomy"
+      },
+      {
+        "symptoms": [
+          "소변 초반에 혈뇨",
+          "외상력",
+          "외성기 진찰 상 회상"
+        ],
+        "disease": "요도 손상",
+        "tests": "골반 CT",
+        "treatment": "수술"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -2751,6 +4773,130 @@
       "사지 검사?"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "옆구리 통증",
+          "혈뇨",
+          "발열",
+          "CVAT(",
+          ")"
+        ],
+        "disease": "급성 신우신염",
+        "tests": "소변검사, 소변배양검사",
+        "treatment": "항생제"
+      },
+      {
+        "symptoms": [
+          "다뇨",
+          "다음",
+          "다갈",
+          "체중 감소",
+          "소변 단내"
+        ],
+        "disease": "당뇨병",
+        "tests": "혈중 포도당, 당화혈색소, 소변검사",
+        "treatment": "혈당강하제, 식습관 조절"
+      },
+      {
+        "symptoms": [
+          "빈뇨",
+          "야뇨",
+          "배뇨곤란",
+          "신경계 질환으로 인한 마비"
+        ],
+        "disease": "신경성 방광",
+        "tests": "소변검사, 요역동학검사, 방광요도조영술",
+        "treatment": "케겔 운동, 요도 도뇨관 삽입"
+      },
+      {
+        "symptoms": [
+          "빈뇨",
+          "요절박",
+          "배뇨통",
+          "잔뇨",
+          "치골 상부 압통"
+        ],
+        "disease": "방광염",
+        "tests": "소변검사, 소변배양검사",
+        "treatment": "ciprofloxacin, TMP-STX"
+      },
+      {
+        "symptoms": [
+          "빈뇨",
+          "혈뇨",
+          "긴급뇨",
+          "배뇨통",
+          "무통",
+          "덩어리 촉진"
+        ],
+        "disease": "방광암",
+        "tests": "요세포검사, CT, 방광경",
+        "treatment": "요도경유절제술, 방광절제술"
+      },
+      {
+        "symptoms": [
+          "빈뇨",
+          "가는 소변",
+          "요주저",
+          "복압뇨",
+          "잔뇨감",
+          "아갼뇨",
+          "전립샘 커짐"
+        ],
+        "disease": "양성 전립샘 비대",
+        "tests": "소변검사, PSA, 직장경유초음파",
+        "treatment": "AB, 안드로겐 억제제, 전립샘절제술"
+      },
+      {
+        "symptoms": [
+          "빈뇨",
+          "뇨절박",
+          "야간뇨",
+          "오한",
+          "권태감",
+          "전립샘 커짐",
+          "회음부 통증"
+        ],
+        "disease": "전립샘염",
+        "tests": "소변검사, 3배분 요검사, 직장경유초음파",
+        "treatment": "항생제, NSAIDs"
+      },
+      {
+        "symptoms": [
+          "빈뇨",
+          "혈뇨",
+          "요폐",
+          "요실금",
+          "체중 감소",
+          "전립샘 커짐"
+        ],
+        "disease": "전립샘암",
+        "tests": "PSA, 직장경유초음파",
+        "treatment": "전립샘절제술, RTx, HTx, CTx"
+      },
+      {
+        "symptoms": [
+          "빈뇨",
+          "배뇨통",
+          "가려움증",
+          "성관계력"
+        ],
+        "disease": "요도염",
+        "tests": "소변검사, 소변배양검사",
+        "treatment": "ceftriaxone, azithromycin"
+      },
+      {
+        "symptoms": [
+          "배뇨통",
+          "혈뇨",
+          "요로 결석 진단"
+        ],
+        "disease": "요도 결석",
+        "tests": "HUB, CT, 소변검사",
+        "treatment": "대기요법, 체외충격파쇄석술"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -2876,6 +5022,31 @@
       "사지 검사 (신경인성)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "요실금",
+          "소변이 마려울 때 참지 못함",
+          "빈뇨",
+          "야뇨",
+          "방광 결석"
+        ],
+        "disease": "절박 요실금",
+        "tests": "소변검사, 요역동학검사, 방광내압 측정술",
+        "treatment": "행동 치료, 약물 치료"
+      },
+      {
+        "symptoms": [
+          "빈뇨",
+          "추운 날씨에서 악화",
+          "절박뇨",
+          "야간뇨"
+        ],
+        "disease": "과민 방광",
+        "tests": "소변검사, 요역동학검사",
+        "treatment": "케겔 운동, 방광 훈련"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -2995,6 +5166,109 @@
       "뇌신경검사, 사지검사, 수막 자극 징후 (신경계 의심 시)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "소화기 증상",
+          "피부 발진",
+          "복부 압통"
+        ],
+        "disease": "장티푸스",
+        "tests": "혈액, 대변, 소변 배양검시",
+        "treatment": "항생제 (Cefa)"
+      },
+      {
+        "symptoms": [
+          "소화기 증상",
+          "피부 수포",
+          "해산물 섭취력"
+        ],
+        "disease": "비브리오 위장염",
+        "tests": "혈액, 대변 배양, PCR",
+        "treatment": "Cefa Doxy, 배농"
+      },
+      {
+        "symptoms": [
+          "호흡기 증상",
+          "특정 지역 (조치원)"
+        ],
+        "disease": "인플루엔자",
+        "tests": "객담검사, PCR",
+        "treatment": "수분 보충"
+      },
+      {
+        "symptoms": [
+          "비뇨기 증상",
+          "옆구리 통증",
+          "CVAT (",
+          ")"
+        ],
+        "disease": "급성 신우신염",
+        "tests": "소변검사, 소변배양검사",
+        "treatment": "항생제"
+      },
+      {
+        "symptoms": [
+          "신경계 증상",
+          "구토",
+          "수막자극징후 (",
+          ")"
+        ],
+        "disease": "뇌수막염",
+        "tests": "뇌척수액검사, brain CT",
+        "treatment": "항생제"
+      },
+      {
+        "symptoms": [
+          "피부 병변",
+          "압통",
+          "발적"
+        ],
+        "disease": "연조직염",
+        "tests": "CBC, 혈액 배양, 조직생검",
+        "treatment": "항생제, 소염제, steroid"
+      },
+      {
+        "symptoms": [
+          "피부 가피",
+          "발한",
+          "소화기 질환"
+        ],
+        "disease": "쯔쯔가무시",
+        "tests": "CBC, CXR, LFT",
+        "treatment": "Tetra, doxycline"
+      },
+      {
+        "symptoms": [
+          "삼일열,사일열",
+          "여행력 (연천군, 북부)",
+          "황달",
+          "간비대"
+        ],
+        "disease": "말라리아",
+        "tests": "말초혈액도말",
+        "treatment": "항말라리아제"
+      },
+      {
+        "symptoms": [
+          "약물 섭취력",
+          "기타 배제됨"
+        ],
+        "disease": "약물 유발열",
+        "tests": "CBC, LFT",
+        "treatment": "약물 중단"
+      },
+      {
+        "symptoms": [
+          "체중 감소",
+          "야간 발한",
+          "림프절 종대"
+        ],
+        "disease": "림프종, 백혈병",
+        "tests": "CBC, CT, 골수검사, PET",
+        "treatment": "항암제"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -3131,6 +5405,133 @@
       "복부 : 시 – 청 – 타 – 촉"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "자색선조",
+          "둥근 얼굴",
+          "목 뒤 덩이",
+          "한약",
+          "복부 자색선조"
+        ],
+        "disease": "쿠싱증후군",
+        "tests": "24hr 소변 코티솔",
+        "treatment": "스테로이드 중단, 뇌하수체절제술"
+      },
+      {
+        "symptoms": [
+          "종아리 자색반",
+          "복통",
+          "구토",
+          "관절통",
+          "소아"
+        ],
+        "disease": "헤노흐 쇤라인 자반병",
+        "tests": "CBC, 소변검사, 피부 생검",
+        "treatment": "steroid"
+      },
+      {
+        "symptoms": [
+          "황달",
+          "복수",
+          "음주력",
+          "만성 간염"
+        ],
+        "disease": "간질환, 간경화증",
+        "tests": "LFT, US",
+        "treatment": "항바이러스제, 인터페론"
+      },
+      {
+        "symptoms": [
+          "출혈 경향",
+          "피부 자반",
+          "기타 증상 없음 (",
+          "항응고제)"
+        ],
+        "disease": "vit K 결핍, 항응고제",
+        "tests": "PT, aPTT",
+        "treatment": "vit K, protamine sulfate"
+      },
+      {
+        "symptoms": [
+          "어릴적부터 잦은 코피",
+          "관절 통증",
+          "부종",
+          "남아"
+        ],
+        "disease": "혈우병",
+        "tests": "PT, aPTT, 응고인자검사",
+        "treatment": "결핍된 응고인자 투여"
+      },
+      {
+        "symptoms": [
+          "피부 점상 출혈반",
+          "구강, 잇몸 출혈",
+          "상기도 감염력",
+          "기타 배제"
+        ],
+        "disease": "특발혈소판감소자반병",
+        "tests": "CBC, PBS, PT, 골수검사",
+        "treatment": "경과관찰, 수혈, Steroid, Ig, 비장절제술"
+      },
+      {
+        "symptoms": [
+          "감염, 염증력",
+          "호흡곤란",
+          "두근거림",
+          "빈맥, 빈호흡",
+          "저혈압"
+        ],
+        "disease": "파종혈관내응고",
+        "tests": "CBC, PT, fibrinogen",
+        "treatment": "Vit K, FFP, 항응고제, 항혈소판제"
+      },
+      {
+        "symptoms": [
+          "어지럼",
+          "체중 감소",
+          "피로",
+          "식욕 부진",
+          "발열",
+          "빈혈",
+          "림프절 종대"
+        ],
+        "disease": "골수기능저하",
+        "tests": "CBC, PBS, 염색체",
+        "treatment": "항암치료, 방사선치료, 골수 이식"
+      },
+      {
+        "symptoms": [
+          "점상 출혈",
+          "잇몸 출혈",
+          "코피",
+          "과다월경"
+        ],
+        "disease": "본빌레브란드병",
+        "tests": "CBC, PT, vWF",
+        "treatment": "desmopressin, vWF"
+      },
+      {
+        "symptoms": [
+          "핍뇨",
+          "설사"
+        ],
+        "disease": "용혈요독증후군",
+        "tests": "소변검사, BUN,Cr, PBS",
+        "treatment": "보존적, 혈액 투석, 수혈"
+      },
+      {
+        "symptoms": [
+          "점상 출혈",
+          "정신신경계 증상",
+          "발열",
+          "신장이상"
+        ],
+        "disease": "혈전혈소판감소자반병",
+        "tests": "CBC, PBS, PT, 골수검사",
+        "treatment": "혈장교환,, 보존적"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -3273,6 +5674,129 @@
       "복부 : 시 – 청 – 타 – 촉 (필요시)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "무리해서 피로함",
+          "휴식으로 완화",
+          "나머지 정상"
+        ],
+        "disease": "일과성 피로",
+        "tests": "…",
+        "treatment": "휴식"
+      },
+      {
+        "symptoms": [
+          "피로",
+          "MDD 기준 만족",
+          "기타 정상"
+        ],
+        "disease": "주요 우울증",
+        "tests": "Beck 우울척도검사",
+        "treatment": "SSRI, 중증이면 입원치료"
+      },
+      {
+        "symptoms": [
+          "피로",
+          "만성 피로증후군 기준 만족",
+          "기타 정상"
+        ],
+        "disease": "만성 피로증후군",
+        "tests": "나머지 배제",
+        "treatment": "생활 습관 교정"
+      },
+      {
+        "symptoms": [
+          "피로",
+          "체중 증가",
+          "변비",
+          "추위불내성",
+          "갑상샘 종대"
+        ],
+        "disease": "갑상샘저하증",
+        "tests": "TFT",
+        "treatment": "Levothyroxine"
+      },
+      {
+        "symptoms": [
+          "피로",
+          "체중 감소",
+          "설사",
+          "더위불내성",
+          "갑상샘 종대"
+        ],
+        "disease": "갑상샘항진증",
+        "tests": "TFT",
+        "treatment": "propylthiouracil, methimazole"
+      },
+      {
+        "symptoms": [
+          "피로",
+          "다음",
+          "다뇨",
+          "다갈"
+        ],
+        "disease": "당뇨",
+        "tests": "혈당검사",
+        "treatment": "혈당조절"
+      },
+      {
+        "symptoms": [
+          "피로",
+          "얼굴 화끈거림, 홍조",
+          "폐경력"
+        ],
+        "disease": "폐경에 의한 피로",
+        "tests": "호르몬 검사",
+        "treatment": "호르몬제"
+      },
+      {
+        "symptoms": [
+          "피로",
+          "황달",
+          "복수",
+          "간비대"
+        ],
+        "disease": "만성 간염",
+        "tests": "LFT, 간염 바이러스 검사",
+        "treatment": "rivavirin, entecarvir"
+      },
+      {
+        "symptoms": [
+          "피로",
+          "발열",
+          "체중 감소",
+          "객혈",
+          "야간 발한"
+        ],
+        "disease": "폐결핵",
+        "tests": "AFB, 투베르쿨린 검사",
+        "treatment": "항결핵제"
+      },
+      {
+        "symptoms": [
+          "피로",
+          "심부전",
+          "호흡곤란",
+          "오목 부종",
+          "경정맥 확장"
+        ],
+        "disease": "울혈 심부전",
+        "tests": "echo, EKG",
+        "treatment": "nitrate, 이뇨제"
+      },
+      {
+        "symptoms": [
+          "피로",
+          "체중 감소",
+          "암 가족력",
+          "종괴 촉진"
+        ],
+        "disease": "암",
+        "tests": "혈액검사, CT",
+        "treatment": "RTx, CTx, 수술"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -3412,6 +5936,125 @@
       "복부 : 시 – 청 – 타 – 촉"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "우울",
+          "의욕 저하",
+          "식욕부진",
+          "수면장애 … (MDD 기준 만족)"
+        ],
+        "disease": "우울증",
+        "tests": "Beck 우울척도검사",
+        "treatment": "SSRI, TCA, 전기경련요법"
+      },
+      {
+        "symptoms": [
+          "본인이 살쪘다고 생각",
+          "구토제 사용",
+          "젊은 여성",
+          "타의로 내원"
+        ],
+        "disease": "신경성 식욕부진",
+        "tests": "전해질검사",
+        "treatment": "영양 공급, 입원 치료"
+      },
+      {
+        "symptoms": [
+          "체중 감소",
+          "피로",
+          "종괴 촉진",
+          "암 가족력"
+        ],
+        "disease": "종양",
+        "tests": "CT, MRI",
+        "treatment": "수술, RTx, CTx"
+      },
+      {
+        "symptoms": [
+          "장 절제력",
+          "기타 정상"
+        ],
+        "disease": "짧은장증후군",
+        "tests": "US, AXR",
+        "treatment": "TPN, 지사제, cholestyramine"
+      },
+      {
+        "symptoms": [
+          "체중 감소",
+          "설사",
+          "혈변",
+          "복통",
+          "탈수",
+          "복부 압통",
+          "장음 감소"
+        ],
+        "disease": "염증성 장질환",
+        "tests": "대장내시경, 대장조영술, CT",
+        "treatment": "steroid, 영양공급"
+      },
+      {
+        "symptoms": [
+          "체중감소",
+          "객혈",
+          "기침",
+          "가래",
+          "피로",
+          "야간 발한"
+        ],
+        "disease": "폐결핵",
+        "tests": "Tb 검사, AFB",
+        "treatment": "항결핵제"
+      },
+      {
+        "symptoms": [
+          "체중 감소",
+          "만성 기침",
+          "쌕쌕거림",
+          "가래",
+          "흡연력",
+          "고령"
+        ],
+        "disease": "만성폐쇄성폐질환",
+        "tests": "PFT, CXR, ABGA",
+        "treatment": "SABA, LAMA"
+      },
+      {
+        "symptoms": [
+          "체중 감소",
+          "다뇨",
+          "다음",
+          "다갈",
+          "소변 단내"
+        ],
+        "disease": "당뇨병",
+        "tests": "혈중 포도당, 당화혈색소, 소변검사",
+        "treatment": "혈당강하제, 식습관 조절"
+      },
+      {
+        "symptoms": [
+          "설사",
+          "체중감소",
+          "심계항진",
+          "더위불내성"
+        ],
+        "disease": "갑상샘항진증",
+        "tests": "TFT",
+        "treatment": "propylthiouracil, methimazole"
+      },
+      {
+        "symptoms": [
+          "체중감소",
+          "두근거림",
+          "두통",
+          "식은땀",
+          "기립성 저혈압"
+        ],
+        "disease": "크롬친화세포종",
+        "tests": "24hr urine 메타네프린, CT",
+        "treatment": "AB, BB, 부신절제술"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -3546,6 +6189,95 @@
       "복부 : 시 – 청 – 타 – 촉"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "건강하지 않은 식습관",
+          "운동 부종",
+          "기질 원인 배제"
+        ],
+        "disease": "일차성 체중 증가",
+        "tests": "LFT, 포도당 검사, BUN",
+        "treatment": "Cr / 식습관 개선, 운동"
+      },
+      {
+        "symptoms": [
+          "MDD 기준 만족",
+          "2주 이상",
+          "조증 등 없음"
+        ],
+        "disease": "주요 우울증",
+        "tests": "Beck의 우울척도검사",
+        "treatment": "SSRI, 정신사회적 치료, 입원, ECT"
+      },
+      {
+        "symptoms": [
+          "부종",
+          "황달",
+          "복수",
+          "음주",
+          "간염"
+        ],
+        "disease": "간경화",
+        "tests": "LFT, CT, 혈액검사",
+        "treatment": "금주, 영양 공급, 복수 조절, 간이식"
+      },
+      {
+        "symptoms": [
+          "부종",
+          "호흡곤란",
+          "피로",
+          "기저 심질환",
+          "경정맥 확장"
+        ],
+        "disease": "울혈 심부전",
+        "tests": "echo, EKG",
+        "treatment": "ACEi, BB, spironolactone"
+      },
+      {
+        "symptoms": [
+          "체중 증가",
+          "추위불내성",
+          "변비",
+          "갑상샘 종대",
+          "하지 부종"
+        ],
+        "disease": "갑상샘저하증",
+        "tests": "TFT",
+        "treatment": "levothyroxine"
+      },
+      {
+        "symptoms": [
+          "자색선조",
+          "둥근 얼굴",
+          "steroid 복용",
+          "복부 비만"
+        ],
+        "disease": "쿠싱 증후군",
+        "tests": "24hr 소변 cortisol 농도",
+        "treatment": "부신절제술, 뇌수술"
+      },
+      {
+        "symptoms": [
+          "안면 홍조",
+          "화끈거림",
+          "예민한"
+        ],
+        "disease": "폐경후증후군",
+        "tests": "FSH, estradiol",
+        "treatment": "운동"
+      },
+      {
+        "symptoms": [
+          "다모증",
+          "여드름",
+          "월경 불규칙"
+        ],
+        "disease": "다낭성난소증후군",
+        "tests": "골반 U, FST, LH",
+        "treatment": "체중 감량, 클로미펜, 메트포민"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -3686,6 +6418,89 @@
       "허리 : Schober, SLRT, Patrick"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "발 통증",
+          "과음",
+          "압통",
+          "부종",
+          "발적"
+        ],
+        "disease": "통풍",
+        "tests": "관절 천자, 혈청 요산 농도",
+        "treatment": "콜히친, NSAIDs, steroid, -purinol"
+      },
+      {
+        "symptoms": [
+          "무릎, 손목 통증",
+          "압통",
+          "부종",
+          "발적"
+        ],
+        "disease": "가성 통풍",
+        "tests": "관절 천자, PXR",
+        "treatment": "콜히친, NSAIDs, steroid"
+      },
+      {
+        "symptoms": [
+          "압통",
+          "부종",
+          "발적",
+          "발열",
+          "오한",
+          "관절주사력"
+        ],
+        "disease": "감염 관절염",
+        "tests": "관절 천자, 활액 그람염색, 배양, PXR",
+        "treatment": "항생제"
+      },
+      {
+        "symptoms": [
+          "압통",
+          "부종",
+          "운동제한",
+          "관절외상력"
+        ],
+        "disease": "외상 관절염",
+        "tests": "PXR",
+        "treatment": "NSAIDs, 재활 및 운동"
+      },
+      {
+        "symptoms": [
+          "손 관절 대칭적 통증",
+          "조조강직 > 1hr",
+          "관절 외 증상",
+          "Swan neck"
+        ],
+        "disease": "류마티스 관절염",
+        "tests": "RA, 염증 수치, 자가항체",
+        "treatment": "NSAIDs, steroid, MTX.."
+      },
+      {
+        "symptoms": [
+          "압통",
+          "구강 궤양",
+          "레이노 현상",
+          "뺨 발진",
+          "광과민성",
+          "유산력"
+        ],
+        "disease": "루푸스 관절염",
+        "tests": "CBC, 소변검사, 항체검사",
+        "treatment": "NSAIDs, steroid.."
+      },
+      {
+        "symptoms": [
+          "눈입 건조증",
+          "침샘 비대",
+          "레이노 현상"
+        ],
+        "disease": "쇼그렌 증후군",
+        "tests": "쉬르머, 항체검사, 침샘스캔",
+        "treatment": "NSAIDs, HCQ, 인공눈물"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -3899,6 +6714,81 @@
       "수막 자극 징후"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "뒷목 통증",
+          "움직이면 악화",
+          "쉬면 완화",
+          "방사통 x"
+        ],
+        "disease": "경추 염좌",
+        "tests": "X-ray, CT, MRI",
+        "treatment": "경추 보조기, 침상 안정, 스트레칭"
+      },
+      {
+        "symptoms": [
+          "교통 사고 등 외상 후 목 통증",
+          "두통",
+          "어깨 통증",
+          "구역",
+          "두토"
+        ],
+        "disease": "채찍질 손상",
+        "tests": "X-ray, CT, MRI",
+        "treatment": "경추 보조기, 침상 안정, 스트레칭"
+      },
+      {
+        "symptoms": [
+          "목 통증",
+          "활동성 유발점으로 ANS 증상",
+          "단단한 띠 형태"
+        ],
+        "disease": "근막통증 증후군",
+        "tests": "임상 증상으로",
+        "treatment": "마사지, 진통제, 온열 치료"
+      },
+      {
+        "symptoms": [
+          "체중 감소",
+          "배뇨장애",
+          "신경학적 이상 증상"
+        ],
+        "disease": "척추 종양",
+        "tests": "X-ray, CT, MRI",
+        "treatment": "수술, 항암화학요법, RTx"
+      },
+      {
+        "symptoms": [
+          "발열",
+          "감기 증상",
+          "수막 자극 징후 양성"
+        ],
+        "disease": "수막염",
+        "tests": "CSF 검사, MRI, CT",
+        "treatment": "항생제, dexamethasone"
+      },
+      {
+        "symptoms": [
+          "체중 감소",
+          "목소리 변화",
+          "연하곤란",
+          "발음 곤란"
+        ],
+        "disease": "전방 구조물",
+        "tests": "Neck CT",
+        "treatment": "수술"
+      },
+      {
+        "symptoms": [
+          "아침에 뻣뻣함",
+          "손관절 등도 통증"
+        ],
+        "disease": "류마티스 관절염",
+        "tests": "X-ray, RA, CCP",
+        "treatment": "NSAIDs, glucocorticoid"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -4034,6 +6924,41 @@
       "말초동맥 맥박 촉진"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "허리 통증",
+          "운동 or 무거운 짐 듬",
+          "운동시 악화",
+          "압통점"
+        ],
+        "disease": "요추염좌",
+        "tests": "X-ray",
+        "treatment": "침상 안정, 물리 치료, 요추 보조기"
+      },
+      {
+        "symptoms": [
+          "허리 통증",
+          "넘어짐",
+          "골다골증",
+          "요추부 운동 제한",
+          "신경학적 이상"
+        ],
+        "disease": "요추압박골절",
+        "tests": "X-ray, CT, MRI",
+        "treatment": "요추보조기, 골다공증 치료, 수술"
+      },
+      {
+        "symptoms": [
+          "30분 미만 조조강직",
+          "고령",
+          "ROM 감소"
+        ],
+        "disease": "골관절염",
+        "tests": "X-ray",
+        "treatment": "NSAIDs, 재활, 운동, 생활 습관 개선"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -4162,6 +7087,110 @@
       "피부 : 시 - 촉 (+ 피부묘기증, 니콜스키 징후)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "전신 발진",
+          "발열",
+          "감기 증상 (",
+          "홍역 3C, 수두 다양한 형태로)"
+        ],
+        "disease": "바이러스 발진 (홍역, 수두)",
+        "tests": "CBC, 혈청검사",
+        "treatment": "대증 치료, 항바이러스제"
+      },
+      {
+        "symptoms": [
+          "무릎 앞 발진",
+          "여러 개의 큰 홍반"
+        ],
+        "disease": "결절 홍반",
+        "tests": "바이러스 등 검사",
+        "treatment": "NSAIDs, 소실될 것 교육"
+      },
+      {
+        "symptoms": [
+          "dermatome 위치 발진",
+          "통증 뒤따름",
+          "노인, 면역억제자"
+        ],
+        "disease": "대상포진",
+        "tests": "…",
+        "treatment": "항바이러스제, 스테로이드, 통증 조절"
+      },
+      {
+        "symptoms": [
+          "malar rash, discoid rash",
+          "광과민성",
+          "구강 궤양",
+          "관절염",
+          "거품뇨"
+        ],
+        "disease": "전신홍반 루푸스",
+        "tests": "CBC, 항핵항체, anti-dsDNA",
+        "treatment": "국소 스테로이드"
+      },
+      {
+        "symptoms": [
+          "구강 궤양",
+          "생식기 궤양",
+          "포도막염",
+          "관절염"
+        ],
+        "disease": "베체트병",
+        "tests": "pathery test, 결절 홍반",
+        "treatment": "콜히친, glucocorticoid"
+      },
+      {
+        "symptoms": [
+          "사타구니, 하복부, 겨드랑이 가려움",
+          "잘 때 더 가려움",
+          "가족 유사 증상"
+        ],
+        "disease": "옴",
+        "tests": "병변 부위 현미경 검사, 굴 확인",
+        "treatment": "가족도 치료, 연고"
+      },
+      {
+        "symptoms": [
+          "땀이 나는 부위 반점",
+          "경한 소양증"
+        ],
+        "disease": "어루러기",
+        "tests": "우드등검사, KOH 도말검사, 진균배양검사",
+        "treatment": "건조, 시원하게"
+      },
+      {
+        "symptoms": [
+          "구진과 판",
+          "은백색 비늘",
+          "손발톱 변화"
+        ],
+        "disease": "건선",
+        "tests": "피부조직검사",
+        "treatment": "보습, 스테로이드, 광선 치료, retinoid"
+      },
+      {
+        "symptoms": [
+          "가려움",
+          "피부 건조",
+          "피부염"
+        ],
+        "disease": "아토피 피부염",
+        "tests": "피부바늘따끔검사, IgE",
+        "treatment": "피부 보습, 국소 스테로이드"
+      },
+      {
+        "symptoms": [
+          "전신 발진",
+          "약물 복용력",
+          "동일 약물에는 동일 부위"
+        ],
+        "disease": "약물 발진",
+        "tests": "의심되는 약 사용 금지",
+        "treatment": "steroid, 항히스타민제"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -4296,6 +7325,92 @@
       "팔다리 : 감각/근력/DTR"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "MDD 기준 만족",
+          "2주 이상",
+          "조증 등 없음"
+        ],
+        "disease": "주요 우울장애",
+        "tests": "Beck의 우울척도검사",
+        "treatment": "SSRI, 정신사회적치료, 입원"
+      },
+      {
+        "symptoms": [
+          "조증 삽화",
+          "1주 이상"
+        ],
+        "disease": "양극성 장애 I형",
+        "tests": "TFT, LFT, ECG, BUN",
+        "treatment": "Cr / 리튬, Valproate, 입원, 인지 행동 치료"
+      },
+      {
+        "symptoms": [
+          "경조증 삽화",
+          "4일 이상"
+        ],
+        "disease": "양극성 장애 II형",
+        "tests": "TFT, LFT, ECG, BUN",
+        "treatment": "Cr / 리튬, Valproate, 입원, 인지 행동 치료"
+      },
+      {
+        "symptoms": [
+          "MDD 기준 불만족 우울",
+          "경조증 삽화",
+          "2년 이상"
+        ],
+        "disease": "순환기분장애",
+        "tests": "TFT, LFT, ECG, BUN",
+        "treatment": "Cr / Carbamazepine, Valproate"
+      },
+      {
+        "symptoms": [
+          "심하지 않은 우울",
+          "2년 이상"
+        ],
+        "disease": "지속성 우울장애",
+        "tests": "불필요",
+        "treatment": "SSRI, 인지 행동 치료"
+      },
+      {
+        "symptoms": [
+          "망상, 환시, 환청",
+          "정돈되지 않은 말이나 행동"
+        ],
+        "disease": "조현병",
+        "tests": "TFT, 전해질검사",
+        "treatment": "항정신병약물, 입원"
+      },
+      {
+        "symptoms": [
+          "일상적 스트레스로 인한 문제",
+          "3개월 이내"
+        ],
+        "disease": "적응장애",
+        "tests": "불필요",
+        "treatment": "스트레스 대처 훈련, 단기 약물 치료"
+      },
+      {
+        "symptoms": [
+          "의욕 저하",
+          "추위불내성",
+          "체중 증가"
+        ],
+        "disease": "갑상샘저하증",
+        "tests": "TFT",
+        "treatment": "Levotyroxine"
+      },
+      {
+        "symptoms": [
+          "우울",
+          "약물 복용 중 (알코올, 스테로이드, 항정신병약)"
+        ],
+        "disease": "약물 유발 우울증",
+        "tests": "약물 중단",
+        "treatment": "약물 중단, 변경"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -4426,6 +7541,57 @@
       "흉부 : 심음, 호흡음 청진"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "반복적인 공황 발작",
+          "예기불안",
+          "발작에 대한 걱정",
+          "행동 변화"
+        ],
+        "disease": "공황장애",
+        "tests": "…",
+        "treatment": "BZD, SSRI, 인지 행동 치료"
+      },
+      {
+        "symptoms": [
+          "일상생활 중의 일에 대한 걱정과 불안",
+          "6개월 이상"
+        ],
+        "disease": "범불안장애",
+        "tests": "…",
+        "treatment": "buspirone, BZD, SSRI, 인지 행동 치료"
+      },
+      {
+        "symptoms": [
+          "심각한 사건을 접한 후 발생",
+          "침습증상",
+          "1개월 이상"
+        ],
+        "disease": "외상 후 스트레스 장애",
+        "tests": "…",
+        "treatment": "SSRI, TCA, 인지 행동 치료"
+      },
+      {
+        "symptoms": [
+          "심각한 사건을 접한 후 발생",
+          "침습증상",
+          "1개월 이내"
+        ],
+        "disease": "급성 스트레스 장애",
+        "tests": "…",
+        "treatment": "SSRI, TCA, 인지 행동 치료"
+      },
+      {
+        "symptoms": [
+          "일상에서 겪는 스트레스에 대한 불안",
+          "3개월 이내"
+        ],
+        "disease": "적응장애",
+        "tests": "나머지 배제",
+        "treatment": "BZD, 인지 행동 치료, 단기 정신 치료"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -4624,6 +7790,82 @@
       "흉부 : 시 - 촉 – 타 – 청"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "(수면장애",
+          "주간증상) x 1주 3회 이상, 3개월 이상 지속"
+        ],
+        "disease": "불면장애",
+        "tests": "수면다원검사",
+        "treatment": "수면 위생 개선, 인지행동 치료, BZD"
+      },
+      {
+        "symptoms": [
+          "코골이",
+          "개운하지 않음",
+          "주간 졸림",
+          "비만",
+          "좁은 기도"
+        ],
+        "disease": "폐쇄수면무호흡",
+        "tests": "수면다원검사",
+        "treatment": "CPAP, 옆으로 자기, 다이어트, 수술"
+      },
+      {
+        "symptoms": [
+          "자기 전에 다리가 불편",
+          "고령",
+          "다양한 기저질환"
+        ],
+        "disease": "하지 불안증후군",
+        "tests": "수면다원검사, 철분검사",
+        "treatment": "철분 보충, 도파민제"
+      },
+      {
+        "symptoms": [
+          "입면장애",
+          "자다가 깸",
+          "주간 졸림",
+          "수면 중 사지운동"
+        ],
+        "disease": "주기성 사지 운동장애",
+        "tests": "수면다원장애",
+        "treatment": "철분 보충, 도파민제"
+      },
+      {
+        "symptoms": [
+          "수면 발작",
+          "탈력 발작",
+          "자거나 깰 때 환각이나 마비"
+        ],
+        "disease": "기면병",
+        "tests": "야간수면다원검사, CSF hypocretin",
+        "treatment": "Modafinil, SSRI"
+      },
+      {
+        "symptoms": [
+          "우울",
+          "의욕 저하",
+          "식용 저하",
+          "죄책감",
+          "피로 (우울증 증상)"
+        ],
+        "disease": "주요 우울장애",
+        "tests": "Beck 우울척도검사",
+        "treatment": "SSRI"
+      },
+      {
+        "symptoms": [
+          "얼굴 화끈거림",
+          "예민",
+          "무기력 (폐경 증상)"
+        ],
+        "disease": "폐경으로 유도된 수면장애",
+        "tests": "혈중 FSH, estradiol",
+        "treatment": "호르몬 대체요법"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -4761,6 +8003,81 @@
       "사지 검사, 보행 검사"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "서서히 진행됨",
+          "최근 기억 저하",
+          "약속 잊음",
+          "시각 지남력 저하"
+        ],
+        "disease": "알츠하이머 치매",
+        "tests": "MRI, PET, 신경심리검사",
+        "treatment": "인지기능개선제, 인지재활"
+      },
+      {
+        "symptoms": [
+          "성격 변화",
+          "충동 행동",
+          "부적적한 사회적 행동",
+          "실어증"
+        ],
+        "disease": "전두측두엽 치매",
+        "tests": "MRI, PET",
+        "treatment": "SSRI, 언어 치료"
+      },
+      {
+        "symptoms": [
+          "기복이 있는 인지 기능",
+          "환시",
+          "파킨슨 증후군 증상"
+        ],
+        "disease": "레비소체 치매",
+        "tests": "MRI, PET",
+        "treatment": "인지기능개선제, 약물"
+      },
+      {
+        "symptoms": [
+          "우울",
+          "의욕 저하",
+          "검사 귀찮아함"
+        ],
+        "disease": "가성 치매",
+        "tests": "Beck 우울척도검사, 정신상태검사",
+        "treatment": "SSRI, TCA"
+      },
+      {
+        "symptoms": [
+          "만성 알코올 중독",
+          "새로 발생하는 일을 기억하지 못함",
+          "작화증"
+        ],
+        "disease": "코르사코프 증후군",
+        "tests": "…",
+        "treatment": "Vit B, 영양 공급"
+      },
+      {
+        "symptoms": [
+          "보행장애",
+          "요실금",
+          "인지장애"
+        ],
+        "disease": "정상압 수두증",
+        "tests": "CT, MRI",
+        "treatment": "뇌실복막강 shunt"
+      },
+      {
+        "symptoms": [
+          "추위불내성",
+          "체중 증가",
+          "의욕 저하",
+          "변비"
+        ],
+        "disease": "갑상샘저하증",
+        "tests": "TFT",
+        "treatment": "levothyroxine"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -4900,6 +8217,103 @@
       "여유 있으면 팔다리 감각검사"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "30초 가량 어지럼증",
+          "오심,구토",
+          "움직일 시 악화",
+          "Dix (",
+          ")"
+        ],
+        "disease": "양성돌발체위현기증",
+        "tests": "Dix (+)",
+        "treatment": "Epley 수기"
+      },
+      {
+        "symptoms": [
+          "수 분,시간 어지럼증",
+          "난청",
+          "이명",
+          "이충만감"
+        ],
+        "disease": "메니에르병",
+        "tests": "청력검사, 전정기능검사, MRI, CT",
+        "treatment": "약물치료, 감압술"
+      },
+      {
+        "symptoms": [
+          "수 시간,일 어지럼증",
+          "구역",
+          "구토",
+          "상기도 감염",
+          "안진"
+        ],
+        "disease": "전정신경염",
+        "tests": "전정기능검사, 청력검사",
+        "treatment": "BZD, 항구토제, 재활운동"
+      },
+      {
+        "symptoms": [
+          "가만히 있어도 어지럼증",
+          "자세 불균형",
+          "신경학적 이상",
+          "안진"
+        ],
+        "disease": "소뇌 경색",
+        "tests": "brain CT, MRI",
+        "treatment": "혈전용해제, 항혈소판제, 항응고제"
+      },
+      {
+        "symptoms": [
+          "손떨림",
+          "균형장애",
+          "보행장애",
+          "행동 느려짐"
+        ],
+        "disease": "파킨슨병",
+        "tests": "뇌 MRI, PET",
+        "treatment": "levodopa"
+      },
+      {
+        "symptoms": [
+          "수 시간 어지럼증",
+          "편두통"
+        ],
+        "disease": "전정편두통",
+        "tests": "불필요",
+        "treatment": "급성기 NSAIDs, Triptan"
+      },
+      {
+        "symptoms": [
+          "일어날 때 나타남",
+          "출혈",
+          "탈수"
+        ],
+        "disease": "기립 저혈압",
+        "tests": "3 position",
+        "treatment": "천천히 움직일 것, 약제 중단"
+      },
+      {
+        "symptoms": [
+          "아찔한 어지럼증",
+          "DM, anemia"
+        ],
+        "disease": "저혈당, 빈혈",
+        "tests": "혈당검사, 혈액검사",
+        "treatment": "당류 공급, 철분 보충"
+      },
+      {
+        "symptoms": [
+          "어지럼증",
+          "불안",
+          "답답"
+        ],
+        "disease": "불안장애, 과호흡증후군",
+        "tests": "불필요",
+        "treatment": "SSRI, BZD, 인지행동치료"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -5039,6 +8453,85 @@
       "수막 자극 징후 (열이 있는 경우만)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "일측성",
+          "박동성",
+          "전조 증상",
+          "메스꺼움",
+          "구토",
+          "빛과 소리에 민감"
+        ],
+        "disease": "편두통",
+        "tests": "…",
+        "treatment": "NSAID, Triptan - BB, TCA"
+      },
+      {
+        "symptoms": [
+          "양측성",
+          "조이는",
+          "뒷목 뻐근",
+          "저녁 악화",
+          "진통제가 들음"
+        ],
+        "disease": "긴장 두통",
+        "tests": "…",
+        "treatment": "목 스트레칭, 운동, NSAIDs, 마사지"
+      },
+      {
+        "symptoms": [
+          "편측성",
+          "찌릿한 통증",
+          "얼굴 건드리면 통증 유발됨"
+        ],
+        "disease": "삼차 신경통",
+        "tests": "…",
+        "treatment": "항경련제, 필요 시 수술"
+      },
+      {
+        "symptoms": [
+          "관자놀이 두통",
+          "발열",
+          "근육통",
+          "턱관절 통증"
+        ],
+        "disease": "측두동맥염",
+        "tests": "ESR, CRP",
+        "treatment": "고용량 스테로이드"
+      },
+      {
+        "symptoms": [
+          "만성 두통",
+          "만성 약물 복용력",
+          "편두통 유사 증상"
+        ],
+        "disease": "약물 과용 두통",
+        "tests": "…",
+        "treatment": "약물 중단"
+      },
+      {
+        "symptoms": [
+          "두부 외상력",
+          "이후 증상 발생"
+        ],
+        "disease": "외상 후 두통",
+        "tests": "CT, MRI",
+        "treatment": "혈압 조절, 뇌압 조절, 두개골 감압술"
+      },
+      {
+        "symptoms": [
+          "두통",
+          "두근거림",
+          "식은 땀",
+          "불안",
+          "고혈압"
+        ],
+        "disease": "크롬친화세포종",
+        "tests": "24hr 소변 메타네프린, CT",
+        "treatment": "AB, 부신절제술"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -5168,6 +8661,68 @@
       "소아는 신체진찰 하지 않음"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "잠에 들거나 깰 때 근수축",
+          "3~9개월"
+        ],
+        "disease": "영아 연축",
+        "tests": "EEG, CT, MRI",
+        "treatment": "ACTH, prednisone, ketogenic diet"
+      },
+      {
+        "symptoms": [
+          "상기도 감염 후 열이 갑자기 오르며 발작",
+          "3개월~5세"
+        ],
+        "disease": "열성 경련",
+        "tests": "비전형적이면 검사",
+        "treatment": "발열 원인 치료"
+      },
+      {
+        "symptoms": [
+          "울다가 정지하며 발작",
+          "30초 지속",
+          "피부 청색증"
+        ],
+        "disease": "호흡 중지 발작",
+        "tests": "불필요",
+        "treatment": "부모 안심"
+      },
+      {
+        "symptoms": [
+          "수면 중 얼굴에 증상",
+          "1~3분 지속",
+          "3~13세"
+        ],
+        "disease": "양성 롤란딕 뇌전증",
+        "tests": "EEG",
+        "treatment": "carbamazepine, gabapentin"
+      },
+      {
+        "symptoms": [
+          "갑자기 멍해짐",
+          "5~15초 지속",
+          "과호흡 나타남",
+          "빛으로 유발",
+          "5~10세"
+        ],
+        "disease": "소아기 소발작뇌전증",
+        "tests": "EEG, CT, MRI",
+        "treatment": "ethosuximide, valproate"
+      },
+      {
+        "symptoms": [
+          "잠에서 깰 때 상지 근간대발작",
+          "수면 부족, 음주로 유발",
+          "10세~"
+        ],
+        "disease": "청소년 근간대뇌전증",
+        "tests": "EEG, CT, MRI",
+        "treatment": "ethosuximide, valproate"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -5286,6 +8841,63 @@
       "수막자극 징후"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "잠에서 깰 때 상지 근간대발작",
+          "수면 부족, 음주로 유발",
+          "10세~"
+        ],
+        "disease": "청소견 근간대뇌전증",
+        "tests": "EEG, CT, MRI",
+        "treatment": "ethosuximide, valproate"
+      },
+      {
+        "symptoms": [
+          "치밀어오르는 전조 증상",
+          "발작 중 인식 소실, 자동증",
+          "발작 후 혼돈"
+        ],
+        "disease": "측두엽 뇌전증",
+        "tests": "EEG, CT, MRI, PET",
+        "treatment": "carbamazepine, valproate"
+      },
+      {
+        "symptoms": [
+          "경련",
+          "뇌졸중 증상"
+        ],
+        "disease": "뇌졸중",
+        "tests": "EEG, CT, MRI",
+        "treatment": "항경련제, 수술"
+      },
+      {
+        "symptoms": [
+          "경련",
+          "두통",
+          "시야 이상",
+          "체중 감소",
+          "오심, 구토"
+        ],
+        "disease": "뇌종양",
+        "tests": "EEG, CT, MRI",
+        "treatment": "수술, RTx"
+      },
+      {
+        "symptoms": [
+          "경련",
+          "발열",
+          "두통",
+          "구토",
+          "피로감",
+          "경부 강직",
+          "수막자극징후"
+        ],
+        "disease": "뇌수막염",
+        "tests": "CSF, CT",
+        "treatment": "cefotzxime, vancomycin"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -5410,6 +9022,88 @@
       "Tinel sign, Phalen test (증상 시)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "급성 국소 신경학적 이상",
+          "HTN, DM, HL",
+          "심질환"
+        ],
+        "disease": "뇌경색증, 일과성 허혈발작",
+        "tests": "CT, MRI, angio",
+        "treatment": "혈전용해제, 항응고제"
+      },
+      {
+        "symptoms": [
+          "국소 신경학적 이상",
+          "두통",
+          "오심",
+          "구토",
+          "고혈압",
+          "수막 자극 징후"
+        ],
+        "disease": "거미막밑출혈, 뇌내출혈",
+        "tests": "brain CT, MRI, angio",
+        "treatment": "뇌압, 혈압 조절, 수술"
+      },
+      {
+        "symptoms": [
+          "체중 감소",
+          "두통",
+          "구토",
+          "경련",
+          "의식변화",
+          "시야 이상",
+          "유두 부종"
+        ],
+        "disease": "뇌종양",
+        "tests": "brain CT, MRI",
+        "treatment": "glucocorticoid, 수술, RTx"
+      },
+      {
+        "symptoms": [
+          "특정 분절 아래 감각, 근력 변화",
+          "배변, 배뇨장애",
+          "DTR 증가"
+        ],
+        "disease": "척수염",
+        "tests": "whole spine MRI, CSF검사",
+        "treatment": "glucocorticoid, 면역억제제"
+      },
+      {
+        "symptoms": [
+          "시력 저하",
+          "시야 이상",
+          "감각, 운동이상",
+          "배변, 배뇨장애"
+        ],
+        "disease": "다발경화증",
+        "tests": "MRI, CSF",
+        "treatment": "high dose glucocorticoid, b-IF"
+      },
+      {
+        "symptoms": [
+          "대칭성 상행 사지마비",
+          "김긱이상",
+          "당뇨",
+          "발끝 감각 저하",
+          "DTR 감소"
+        ],
+        "disease": "당뇨병성 신경병증",
+        "tests": "혈당검사, 신경전도속도",
+        "treatment": "혈당 조절, TCA"
+      },
+      {
+        "symptoms": [
+          "손팔 저림",
+          "팔이 오래 눌리는 자세",
+          "wrist drop"
+        ],
+        "disease": "노신경 마비",
+        "tests": "신경 전도 속도, 근전도",
+        "treatment": "안심, 경과 관찰"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -5614,6 +9308,79 @@
       "사지 : 근긴장도, DTR, 바빈스키 징후"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "급성 국소신경학적 이상",
+          "기저질환",
+          "DTR 증상"
+        ],
+        "disease": "뇌경색증",
+        "tests": "CT, MRI, angio",
+        "treatment": "혈전용해제, 항응고제, 항혈소판제"
+      },
+      {
+        "symptoms": [
+          "급성 국소신경학적 이상",
+          "두통",
+          "오심",
+          "구토",
+          "고혈압",
+          "수막 자극"
+        ],
+        "disease": "거미막밑출혈, 뇌내출혈",
+        "tests": "CT, MRI, angio, CSF",
+        "treatment": "혈압 뇌압 조절, 수술"
+      },
+      {
+        "symptoms": [
+          "두통",
+          "발열",
+          "최근 감기 증상",
+          "경련",
+          "수막 자극 징후"
+        ],
+        "disease": "뇌수막염",
+        "tests": "안저 검사, CSF 검사",
+        "treatment": "경험적 항생제, mannitol, steroid"
+      },
+      {
+        "symptoms": [
+          "의식소실",
+          "식은땀",
+          "인슐린 투여력 or 무리한 운동력 or 결식"
+        ],
+        "disease": "저혈당 혼수",
+        "tests": "혈당검사",
+        "treatment": "glucose, glucagon 주사, 당분 섭취"
+      },
+      {
+        "symptoms": [
+          "의식소실",
+          "오심",
+          "구토",
+          "탈수증상",
+          "DM",
+          "아세톤 냄새",
+          "Kussmaul"
+        ],
+        "disease": "당뇨병 케톤산증",
+        "tests": "혈당검사, ABGA, 소변 ketone",
+        "treatment": "입원 치료, NS 정주"
+      },
+      {
+        "symptoms": [
+          "의식소실 (서서히 진행, 정도가 심함)",
+          "다뇨",
+          "체중 감소",
+          "DM",
+          "탈수"
+        ],
+        "disease": "고삼투압 고혈압 상태",
+        "tests": "혈당검사, ABGA, 소변 ketone",
+        "treatment": "입원 치료, NS"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -5830,6 +9597,42 @@
       "파킨슨 신체검사 – rigidity 확인"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "안정 떨림",
+          "한쪽 손에서 다른 쪽으로 진행",
+          "뻣뻣 ,종종걸음",
+          "자세 불안"
+        ],
+        "disease": "파킨슨병",
+        "tests": "CT, MRI, PET",
+        "treatment": "levodopa"
+      },
+      {
+        "symptoms": [
+          "활동, 체위 떨림",
+          "양쪽",
+          "글 쓰는 등 자세에서 심화"
+        ],
+        "disease": "본태 떨림",
+        "tests": "임상적",
+        "treatment": "BB, 항뇌전증제, BZD"
+      },
+      {
+        "symptoms": [
+          "떨림",
+          "더위불내성",
+          "두근거림",
+          "체중 감소",
+          "설사",
+          "종괴 촉진"
+        ],
+        "disease": "갑상샘 항진증",
+        "tests": "TFT",
+        "treatment": "항갑상샘제"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -6027,6 +9830,131 @@
       "하이브리드 : 유방진찰"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "단단 덩이",
+          "월경 전 유방통"
+        ],
+        "disease": "섬유낭병",
+        "tests": "유방촬영술, 유방초음파",
+        "treatment": "경과 관찰, 절제 생검"
+      },
+      {
+        "symptoms": [
+          "물렁 덩이",
+          "월경 주기 유방통"
+        ],
+        "disease": "유방낭종",
+        "tests": "유방촬영술, 유방초음파",
+        "treatment": "경과 관찰, 절제 생검"
+      },
+      {
+        "symptoms": [
+          "단단 덩이",
+          "주기 무관",
+          "무통성",
+          "미끄러짐"
+        ],
+        "disease": "섬유선종",
+        "tests": "유방촬영술, 유방초음파, 세침 흡인, 절제 생검",
+        "treatment": "절제 생검"
+      },
+      {
+        "symptoms": [
+          "단단 덩이",
+          "주기 무관",
+          "종양 소견"
+        ],
+        "disease": "유방암",
+        "tests": "유방촬영술, 유방초음파, CNB",
+        "treatment": "수술, RTx, CTx"
+      },
+      {
+        "symptoms": [
+          "작은 덩이",
+          "혈성 분비물"
+        ],
+        "disease": "관내유두종",
+        "tests": "유방촬영술, 유방초음파, 세침 흡인",
+        "treatment": "전절제"
+      },
+      {
+        "symptoms": [
+          "물렁 덩이",
+          "최근 수유력"
+        ],
+        "disease": "젖낭종",
+        "tests": "유방촬영술, 유방초음파, 세침 흡인",
+        "treatment": "세침 흡인"
+      },
+      {
+        "symptoms": [
+          "다발 덩이",
+          "월경 시작 통증",
+          "기타 배제됨"
+        ],
+        "disease": "주기유방병증",
+        "tests": "유방촬영술, 유방초음파",
+        "treatment": "안심"
+      },
+      {
+        "symptoms": [
+          "유방통",
+          "호르몬제 투약",
+          "PEx 정상"
+        ],
+        "disease": "호르몬에 의한 유방통",
+        "tests": "유방촬영술, 유방초음파",
+        "treatment": "안심"
+      },
+      {
+        "symptoms": [
+          "유방통",
+          "열감",
+          "양측 발적",
+          "최근 출산"
+        ],
+        "disease": "유방울혈",
+        "tests": "필요 없음",
+        "treatment": "마사지, 찜질"
+      },
+      {
+        "symptoms": [
+          "유방통",
+          "발열",
+          "한측 발적",
+          "압통",
+          "수유중"
+        ],
+        "disease": "유선염",
+        "tests": "유방촬영술, 유방초음파",
+        "treatment": "수유 자주, 찜질"
+      },
+      {
+        "symptoms": [
+          "유방통",
+          "열감",
+          "발열",
+          "오한",
+          "압통",
+          "fluctation"
+        ],
+        "disease": "유방 농양",
+        "tests": "유방촬영술, 유방초음파",
+        "treatment": "절개 배농, 항생제"
+      },
+      {
+        "symptoms": [
+          "유방통",
+          "카페인 과다 섭취",
+          "기타 정상"
+        ],
+        "disease": "카페인성 유방통",
+        "tests": "유방촬영술, 유방초음파",
+        "treatment": "카페인 끊기"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -6170,6 +10098,131 @@
       "하이브리드 : 유방진찰"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "단단 덩이",
+          "월경 전 유방통"
+        ],
+        "disease": "섬유낭병",
+        "tests": "유방촬영술, 유방초음파",
+        "treatment": "경과 관찰, 절제 생검"
+      },
+      {
+        "symptoms": [
+          "물렁 덩이",
+          "월경 주기 유방통"
+        ],
+        "disease": "유방낭종",
+        "tests": "유방촬영술, 유방초음파",
+        "treatment": "경과 관찰, 절제 생검"
+      },
+      {
+        "symptoms": [
+          "단단 덩이",
+          "주기 무관",
+          "무통성",
+          "미끄러짐"
+        ],
+        "disease": "섬유선종",
+        "tests": "유방촬영술, 유방초음파, 세침 흡인, 절제 생검",
+        "treatment": "절제 생검"
+      },
+      {
+        "symptoms": [
+          "단단 덩이",
+          "주기 무관",
+          "종양 소견"
+        ],
+        "disease": "유방암",
+        "tests": "유방촬영술, 유방초음파, CNB",
+        "treatment": "수술, RTx, CTx"
+      },
+      {
+        "symptoms": [
+          "작은 덩이",
+          "혈성 분비물"
+        ],
+        "disease": "관내유두종",
+        "tests": "유방촬영술, 유방초음파, 세침 흡인",
+        "treatment": "전절제"
+      },
+      {
+        "symptoms": [
+          "물렁 덩이",
+          "최근 수유력"
+        ],
+        "disease": "젖낭종",
+        "tests": "유방촬영술, 유방초음파, 세침 흡인",
+        "treatment": "세침 흡인"
+      },
+      {
+        "symptoms": [
+          "다발 덩이",
+          "월경 시작 통증",
+          "기타 배제됨"
+        ],
+        "disease": "주기유방병증",
+        "tests": "유방촬영술, 유방초음파",
+        "treatment": "안심"
+      },
+      {
+        "symptoms": [
+          "유방통",
+          "호르몬제 투약",
+          "PEx 정상"
+        ],
+        "disease": "호르몬에 의한 유방통",
+        "tests": "유방촬영술, 유방초음파",
+        "treatment": "안심"
+      },
+      {
+        "symptoms": [
+          "유방통",
+          "열감",
+          "양측 발적",
+          "최근 출산"
+        ],
+        "disease": "유방울혈",
+        "tests": "필요 없음",
+        "treatment": "마사지, 찜질"
+      },
+      {
+        "symptoms": [
+          "유방통",
+          "발열",
+          "한측 발적",
+          "압통",
+          "수유중"
+        ],
+        "disease": "유선염",
+        "tests": "유방촬영술, 유방초음파",
+        "treatment": "수유 자주, 찜질"
+      },
+      {
+        "symptoms": [
+          "유방통",
+          "열감",
+          "발열",
+          "오한",
+          "압통",
+          "fluctation"
+        ],
+        "disease": "유방 농양",
+        "tests": "유방촬영술, 유방초음파",
+        "treatment": "절개 배농, 항생제"
+      },
+      {
+        "symptoms": [
+          "유방통",
+          "카페인 과다 섭취",
+          "기타 정상"
+        ],
+        "disease": "카페인성 유방통",
+        "tests": "유방촬영술, 유방초음파",
+        "treatment": "카페인 끊기"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -6308,6 +10361,55 @@
       "하이브리드 : 골반내진, wet smear"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "화농성, 찌르는 냄새, 기포 분비물",
+          "소양증",
+          "딸기 모양 질경부"
+        ],
+        "disease": "편모충 질염",
+        "tests": "wet smear, 배양",
+        "treatment": "metronidazole (파트너도)"
+      },
+      {
+        "symptoms": [
+          "치즈 형태의 분비물",
+          "화끈거림",
+          "외음부 소양감",
+          "배뇨통"
+        ],
+        "disease": "칸디다 질염",
+        "tests": "wet smear, 배양",
+        "treatment": "fluconazole"
+      },
+      {
+        "symptoms": [
+          "출혈",
+          "식은땀",
+          "얼굴 화끈거림",
+          "성교통",
+          "수축된 질경부"
+        ],
+        "disease": "위축성 질염",
+        "tests": "wet smear",
+        "treatment": "topical estrogen cream"
+      },
+      {
+        "symptoms": [
+          "골반통",
+          "움직일 때 통증",
+          "발열",
+          "배뇨통",
+          "복통",
+          "NV",
+          "하복부 압통"
+        ],
+        "disease": "골반염",
+        "tests": "CBC, 질분비물 배양, 골반초음파",
+        "treatment": "안정, 수액, 진통제, 항생제"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -6430,6 +10532,70 @@
       "하이브리드 : wet/pap smear"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "질출혈",
+          "월경 과다",
+          "월경통"
+        ],
+        "disease": "자궁근종",
+        "tests": "골반초음파, 자궁난관조영술",
+        "treatment": "GnRH agonist, 절제술"
+      },
+      {
+        "symptoms": [
+          "성교 후 질출혈",
+          "체중 감소"
+        ],
+        "disease": "자궁경부암",
+        "tests": "pap smear, biopsy",
+        "treatment": "수술, RTx, CTx"
+      },
+      {
+        "symptoms": [
+          "폐경 후 질출혈",
+          "폐경 전에 월경 과다"
+        ],
+        "disease": "자궁내막암",
+        "tests": "endometrial aspiration, pap smear",
+        "treatment": "수술, RTx"
+      },
+      {
+        "symptoms": [
+          "복통",
+          "무월경",
+          "질출혈",
+          "임신 가능성 (",
+          ")"
+        ],
+        "disease": "자궁 외 임신",
+        "tests": "임신반응검사, 질초음파, 복강경",
+        "treatment": "salpingectomy, MTX"
+      },
+      {
+        "symptoms": [
+          "월경 이상",
+          "월경량 이상",
+          "전신 질환"
+        ],
+        "disease": "기능성 자궁 출혈",
+        "tests": "임신반응검사, 호르몬 검사",
+        "treatment": "NSAIDs, 호르몬, 체중"
+      },
+      {
+        "symptoms": [
+          "월경 과다",
+          "만성 피로",
+          "추위불내성",
+          "변비",
+          "체중 증가"
+        ],
+        "disease": "갑상샘저하증",
+        "tests": "TFT",
+        "treatment": "levothyroxine"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -6561,6 +10727,96 @@
       "복부 : 시 – 청 – 타 – 촉"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "임신 가능성 있음",
+          "기타 소견 정상"
+        ],
+        "disease": "임신",
+        "tests": "소변 hCG 검사",
+        "treatment": "임신 교육"
+      },
+      {
+        "symptoms": [
+          "이차성 무월경",
+          "안면홍조",
+          "화끈거림",
+          "열감",
+          "두근거림"
+        ],
+        "disease": "조기 폐경",
+        "tests": "혈중 FSH LH",
+        "treatment": "호르몬 대체요법"
+      },
+      {
+        "symptoms": [
+          "원발성 무월경",
+          "작은 키",
+          "작은 턱",
+          "기형"
+        ],
+        "disease": "터너 증후군",
+        "tests": "혈중 FSH LH",
+        "treatment": "E, P 공급"
+      },
+      {
+        "symptoms": [
+          "무월경",
+          "유즙 분비",
+          "두통",
+          "시야장애"
+        ],
+        "disease": "뇌하수체 질환 (종양, 뇌하수체저하증)",
+        "tests": "혈중 프로락틴",
+        "treatment": "bromocriptine, cabergoline"
+      },
+      {
+        "symptoms": [
+          "식사 적게 함",
+          "젊은 여성",
+          "체중에 대한 부정적 인식",
+          "3회 이상 무월경"
+        ],
+        "disease": "신경성 식욕부진증",
+        "tests": "전해질검사",
+        "treatment": "입원 치료, 영양 공급, 정신 치료"
+      },
+      {
+        "symptoms": [
+          "두근거림",
+          "더위불내성",
+          "체중 감소",
+          "피로",
+          "설사",
+          "Goiter"
+        ],
+        "disease": "갑상샘항진증",
+        "tests": "TFT, ECG",
+        "treatment": "항갑상샘제, BB, 방사성 요오드 치료"
+      },
+      {
+        "symptoms": [
+          "다모증",
+          "여드름",
+          "월경 불규칙"
+        ],
+        "disease": "다낭성난소증후군",
+        "tests": "골반 U, FST, LH",
+        "treatment": "체중 감량, 클로미펜, 메트포민"
+      },
+      {
+        "symptoms": [
+          "자색선조",
+          "둥근 얼굴",
+          "steroid 복용",
+          "복부 비만"
+        ],
+        "disease": "쿠싱 증후군",
+        "tests": "24hr 소변 cortisol 농도",
+        "treatment": "부신절제술, 뇌수술"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -6693,6 +10949,55 @@
       "골반 내진 시행 (for 자궁내막증)"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "월경통이 초경 후 1~2년 후부터 지속",
+          "오심",
+          "구토",
+          "하복부 압통"
+        ],
+        "disease": "원발 월경통",
+        "tests": "임상적 진단",
+        "treatment": "진통제, 운동, 경구피임제"
+      },
+      {
+        "symptoms": [
+          "월경통",
+          "월경과다",
+          "성교통",
+          "자궁 후굴",
+          "운동성 감소",
+          "25~35세"
+        ],
+        "disease": "자궁내막증",
+        "tests": "자궁난관조영술, CA-125, 골반초음파",
+        "treatment": "수술, progestin"
+      },
+      {
+        "symptoms": [
+          "월경통",
+          "월경과다",
+          "성교통",
+          "30~45세",
+          "빈뇨"
+        ],
+        "disease": "자궁근종",
+        "tests": "골반 US, 자궁난관조영술",
+        "treatment": "GnRH agonist, 자궁근종절제술"
+      },
+      {
+        "symptoms": [
+          "월경통",
+          "월경과다",
+          "성교통",
+          "40세~"
+        ],
+        "disease": "자궁샘근육증",
+        "tests": "골반초음파",
+        "treatment": "임신 계획중이면 약물, 아니면 자궁절제술"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -6811,6 +11116,87 @@
       "⭐ 임상 술기 : 산전진찰 ⭐"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "임신",
+          "구역",
+          "구토"
+        ],
+        "disease": "입덧",
+        "tests": "전해질검사",
+        "treatment": "식습관 교정, 탈수 심하면 수액 치료"
+      },
+      {
+        "symptoms": [
+          "임신",
+          "산모 35세 이상"
+        ],
+        "disease": "고령 임신",
+        "tests": "융모악 융모 표본채취, 양수천자",
+        "treatment": "산전 관리 잘"
+      },
+      {
+        "symptoms": [
+          "임신",
+          "질출혈 (전반기에 자궁 개대가 없는 상태에서)"
+        ],
+        "disease": "유산",
+        "tests": "질초음파, 혈중 hCG 검사, serum FSH",
+        "treatment": "절대 안정, D&C"
+      },
+      {
+        "symptoms": [
+          "임신",
+          "부종",
+          "두통",
+          "RUQ pain",
+          "시력 변화"
+        ],
+        "disease": "임신 고혈압, 전자간증",
+        "tests": "소변검사, LFT, CBC",
+        "treatment": "hydralazine, 유도분만"
+      },
+      {
+        "symptoms": [
+          "임신",
+          "부종",
+          "기타 특이소견 적음"
+        ],
+        "disease": "양수과다증",
+        "tests": "소변검사, LFT, CBC",
+        "treatment": "안정 및 경과관찰, 원인치료"
+      },
+      {
+        "symptoms": [
+          "임신",
+          "소변에서 당 확인"
+        ],
+        "disease": "임신 당뇨병",
+        "tests": "경구당부하검사, HbA1C 검사",
+        "treatment": "식이요법, 인슐린"
+      },
+      {
+        "symptoms": [
+          "임신",
+          "과도한 질출혈",
+          "복통"
+        ],
+        "disease": "태반조기박리, 전치태반",
+        "tests": "질초음파, 복부초음파, CBC",
+        "treatment": "수혈, 제왕절개"
+      },
+      {
+        "symptoms": [
+          "임신",
+          "질분비물",
+          "조기 산통"
+        ],
+        "disease": "조기 양막 파수, 조기 산통",
+        "tests": "자궁경부검사, 니트라진검사",
+        "treatment": "안정, 출산"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -6942,6 +11328,66 @@
       "시행하지 않음"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "성장 속도 감소",
+          "익상경, 작은턱, 외반주, 기형",
+          "골연령 정상"
+        ],
+        "disease": "염색체 이상 (터너증후군)",
+        "tests": "염색체검사",
+        "treatment": "성장호르몬"
+      },
+      {
+        "symptoms": [
+          "난산력",
+          "NICU 입원력",
+          "임신 시 문제"
+        ],
+        "disease": "자궁 내 성장 지연",
+        "tests": "brain US, MRI",
+        "treatment": "상태에 맞춰 치료"
+      },
+      {
+        "symptoms": [
+          "부모님 저신장",
+          "성장 곡선 이탈 없음"
+        ],
+        "disease": "가족성 저신장",
+        "tests": "손목 x-ray, IGF-1",
+        "treatment": "경과 관찰"
+      },
+      {
+        "symptoms": [
+          "성장 속도 느림",
+          "왜소증"
+        ],
+        "disease": "성장 호르몬 결핍증",
+        "tests": "IGF-1, 저혈당검사",
+        "treatment": "성장 호르몬 검사"
+      },
+      {
+        "symptoms": [
+          "황달",
+          "변비",
+          "수유 지연",
+          "얼룩덜룩"
+        ],
+        "disease": "갑상샘저하증",
+        "tests": "감상샘기능검사",
+        "treatment": "Levo"
+      },
+      {
+        "symptoms": [
+          "부모님 성장 느림",
+          "성장 속도 정상"
+        ],
+        "disease": "체질성 성장 지연",
+        "tests": "손목 X-ray, IGF-1",
+        "treatment": "안심시키기"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -7076,6 +11522,109 @@
       "시행하지 않음"
     ],
     "plan": [],
+    "recommendations": [
+      {
+        "symptoms": [
+          "전반적 지연",
+          "난산 병력",
+          "NICU"
+        ],
+        "disease": "저산소뇌병증",
+        "tests": "brain US, MRI",
+        "treatment": "보존적 치료"
+      },
+      {
+        "symptoms": [
+          "전반적 지연",
+          "코가 짧고 위로 향함",
+          "윗입술 얇음",
+          "음주력"
+        ],
+        "disease": "태아 알코올 증후군",
+        "tests": "임신 시 검사?",
+        "treatment": "예방을 해야.."
+      },
+      {
+        "symptoms": [
+          "전반적 지연",
+          "둥글고 납작한 얼굴",
+          "낮은 코",
+          "지능 저하",
+          "비만"
+        ],
+        "disease": "다운 증후군",
+        "tests": "염색체검사",
+        "treatment": "주기적 검진, 예방접종"
+      },
+      {
+        "symptoms": [
+          "전반적 지연",
+          "3년 이후 느려짐",
+          "작은턱",
+          "외반주"
+        ],
+        "disease": "터너 증후군",
+        "tests": "염색체검사",
+        "treatment": "성장호르몬, E, P 공급"
+      },
+      {
+        "symptoms": [
+          "언어 지연",
+          "발음 부정확"
+        ],
+        "disease": "발음장애",
+        "tests": "성대 이상 확인",
+        "treatment": "언어 치료"
+      },
+      {
+        "symptoms": [
+          "언어 지연",
+          "큰 소리 반응 저하"
+        ],
+        "disease": "청력장애",
+        "tests": "청력검사",
+        "treatment": "중이염 관련 수술, 언어 교육"
+      },
+      {
+        "symptoms": [
+          "언어 지연",
+          "사회성 저하",
+          "특이 행동 반복"
+        ],
+        "disease": "자폐 스팩트럼 장애",
+        "tests": "청력검사, 뇌파검사",
+        "treatment": "부모 교육, 행동 치료"
+      },
+      {
+        "symptoms": [
+          "언어 지연",
+          "부모 사춘기 느렸음"
+        ],
+        "disease": "체질 지연",
+        "tests": "손목 X-ray, IGF-1",
+        "treatment": "안심"
+      },
+      {
+        "symptoms": [
+          "운동 지연",
+          "보행 이상",
+          "경직성 양측 운동 마비"
+        ],
+        "disease": "뇌성마비",
+        "tests": "뇌초음파, 자기공명영상",
+        "treatment": "재활 운동, 후방신경근절개술"
+      },
+      {
+        "symptoms": [
+          "운동 지연",
+          "심한 대칭적 근력 저하",
+          "개구리 다리 장애"
+        ],
+        "disease": "척수근위축증",
+        "tests": "혈액 유전자결손 확인",
+        "treatment": "보존적 요법"
+      }
+    ],
     "sections": [
       {
         "title": "Concept",
@@ -7203,6 +11752,7 @@
       "신체진찰 없음"
     ],
     "plan": [],
+    "recommendations": [],
     "sections": [
       {
         "title": "Concept",
@@ -7324,6 +11874,7 @@
       "손(angioma, flapping tremor), 복부 (시 촉 전도만)"
     ],
     "plan": [],
+    "recommendations": [],
     "sections": [
       {
         "title": "Concept",
@@ -7459,6 +12010,7 @@
       "손(angioma, flapping tremor), 복부 (시 촉 전도만)"
     ],
     "plan": [],
+    "recommendations": [],
     "sections": [
       {
         "title": "Concept",
@@ -7585,6 +12137,7 @@
       "사지 : 점상 출혈, 하지 부종, 자살 시도 흔적 + 감각/신경/DTR"
     ],
     "plan": [],
+    "recommendations": [],
     "sections": [
       {
         "title": "Concept",
@@ -7718,6 +12271,7 @@
     "history": [],
     "exam": [],
     "plan": [],
+    "recommendations": [],
     "sections": [
       {
         "title": "Concept",
@@ -7806,6 +12360,7 @@
       "보통 하지 않음"
     ],
     "plan": [],
+    "recommendations": [],
     "sections": [
       {
         "title": "Concept",
@@ -7914,6 +12469,7 @@
       "하이브리드 : 산부인과 진찰 (골반 내진, 질분비물검사), DRE"
     ],
     "plan": [],
+    "recommendations": [],
     "sections": [
       {
         "title": "Concept",
@@ -8027,6 +12583,7 @@
       "신체진찰 하지 않음"
     ],
     "plan": [],
+    "recommendations": [],
     "sections": [
       {
         "title": "Concept",
