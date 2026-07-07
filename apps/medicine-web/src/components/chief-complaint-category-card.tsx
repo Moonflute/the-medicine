@@ -9,18 +9,10 @@ export function ChiefComplaintCategoryCard({
   notes: ChiefComplaintNote[];
 }) {
   return (
-    <section className="list-tile p-5">
-      <div className="flex items-start justify-between gap-3">
-        <div>
-          <div className="eyebrow">Chief Complaint</div>
-          <h2 className="mt-2 text-xl font-semibold text-slate-950">{category.name}</h2>
-        </div>
-        <span className="shrink-0 rounded-full bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-600">
-          {category.count}
-        </span>
-      </div>
+    <section className="list-tile p-4">
+      <h2 className="text-lg font-semibold text-slate-950">{category.name}</h2>
 
-      <div className="mt-4 flex flex-wrap gap-2">
+      <div className="mt-3 flex flex-wrap gap-2">
         {notes.map((note) => (
           <Link
             key={note.slug}
