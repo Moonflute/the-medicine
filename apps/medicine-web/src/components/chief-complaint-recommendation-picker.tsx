@@ -58,7 +58,7 @@ export function ChiefComplaintRecommendationPicker({
   return (
     <section className="rounded-lg border border-teal-200 bg-teal-50/70 p-3 sm:p-4">
       <div className="mb-2 text-[11px] font-semibold uppercase text-teal-700">Symptom matcher</div>
-      <div className="flex flex-wrap gap-1.5">
+      <div className="flex flex-wrap gap-1">
         {symptoms.map((symptom) => {
           const selected = selectedSet.has(symptom);
           return (
@@ -67,7 +67,7 @@ export function ChiefComplaintRecommendationPicker({
               type="button"
               onClick={() => toggleSymptom(symptom)}
               className={[
-                "rounded-full border px-2 py-1 text-[11px] font-medium leading-none transition",
+                "rounded-full border px-1.5 py-0.5 text-[10px] font-medium leading-none transition",
                 selected
                   ? "border-teal-700 bg-teal-700 text-white shadow-sm"
                   : "border-slate-200 bg-white text-slate-700 hover:border-teal-400 hover:text-teal-800",
