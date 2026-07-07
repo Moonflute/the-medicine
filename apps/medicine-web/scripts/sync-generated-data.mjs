@@ -357,10 +357,39 @@ function normalizeRecommendationText(value) {
     .trim();
 }
 
+function splitOutsideParentheses(value, separator) {
+  const parts = [];
+  let current = "";
+  let depth = 0;
+
+  for (const char of value) {
+    if (char === "(") depth += 1;
+    if (char === ")" && depth > 0) depth -= 1;
+
+    if (char === separator && depth === 0) {
+      parts.push(current);
+      current = "";
+      continue;
+    }
+
+    current += char;
+  }
+
+  parts.push(current);
+  return parts;
+}
+
+function normalizeSymptomLabel(value) {
+  return normalizeRecommendationText(value)
+    .replace(/^[-*=]\s*/, "")
+    .replace(/\s*\([+-]\)\s*$/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function splitRecommendationSymptoms(value) {
-  return value
-    .split("+")
-    .map((item) => normalizeRecommendationText(item).replace(/^[-*=]\s*/, ""))
+  return splitOutsideParentheses(value, "+")
+    .map(normalizeSymptomLabel)
     .filter(Boolean)
     .filter((item) => !/^(검사|치료|교육)\s*[:：]/.test(item));
 }
