@@ -21,6 +21,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   const title = useMemo(() => {
     if (pathname === "/") return "The Medicine";
+    if (pathname.startsWith("/search")) return "Search";
     if (pathname.startsWith("/cc")) return "Chief Complaint";
     if (pathname.startsWith("/specialty") || pathname.startsWith("/disease")) return "Disease Library";
     if (pathname.startsWith("/drugs")) return "Pharmacology";
@@ -81,9 +82,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                   {pathname === "/" ? <div className="text-xs text-slate-500 xl:hidden">v {version}</div> : null}
                 </div>
               </div>
-              <Link href="/specialties" className="secondary-action whitespace-nowrap">
+              <Link href="/search" className="secondary-action whitespace-nowrap">
                 <Search className="h-4 w-4" />
-                Browse
+                Search
               </Link>
             </div>
             {open && (
@@ -140,4 +141,3 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     </div>
   );
 }
-
