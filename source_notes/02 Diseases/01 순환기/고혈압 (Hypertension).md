@@ -63,6 +63,7 @@ last_studied: '2026-06-06'
 ## 6. 예후 및 합병증
 - 지속적인 고혈압은 뇌졸중, 심근경색, 심부전, 만성 신부전, 사망 위험 증가
 - 조기 진단과 적극적인 혈압 조절이 합병증 예방의 핵심
+- 합병증 : 당뇨병성 신경병증, 망막병증, 콩팥병증, 당뇨발
 
 출처 : Merck Manual Professional (Hypertension, Medications for Hypertension, Renovascular Hypertension)
 Last updated :
