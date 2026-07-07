@@ -23,9 +23,9 @@ function Card({
   children: React.ReactNode;
 }) {
   return (
-    <section className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
-      <div className="text-xs uppercase tracking-[0.18em] text-stone-500">{subtitle}</div>
-      <h2 className="mt-2 font-serif text-2xl font-semibold tracking-tight text-stone-950">{title}</h2>
+    <section className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm">
+      <div className="text-xs uppercase  text-slate-500">{subtitle}</div>
+      <h2 className="mt-2 text-2xl font-semibold  text-slate-950">{title}</h2>
       <div className="mt-5 space-y-4">{children}</div>
     </section>
   );
@@ -44,13 +44,13 @@ function InputRow({
 }) {
   return (
     <label className="grid gap-2">
-      <span className="text-sm font-medium text-stone-700">{label}</span>
+      <span className="text-sm font-medium text-slate-700">{label}</span>
       <input
         value={value}
         onChange={(event) => onChange(event.target.value)}
         inputMode="decimal"
         placeholder={placeholder}
-        className="rounded-2xl border border-stone-200 bg-stone-50/70 px-4 py-3 text-sm text-stone-900 outline-none transition focus:border-stone-400 focus:bg-white"
+        className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-950 outline-none transition focus:border-stone-400 focus:bg-white"
       />
     </label>
   );
@@ -66,9 +66,9 @@ function ToggleRow({
   onChange: (checked: boolean) => void;
 }) {
   return (
-    <label className="flex items-center justify-between rounded-2xl border border-stone-200 bg-stone-50/70 px-4 py-3">
-      <span className="text-sm font-medium text-stone-700">{label}</span>
-      <input type="checkbox" checked={checked} onChange={(event) => onChange(event.target.checked)} className="h-4 w-4 accent-stone-900" />
+    <label className="flex items-center justify-between rounded-lg border border-slate-200 bg-slate-50 px-4 py-3">
+      <span className="text-sm font-medium text-slate-700">{label}</span>
+      <input type="checkbox" checked={checked} onChange={(event) => onChange(event.target.checked)} className="h-4 w-4 accent-teal-700" />
     </label>
   );
 }
@@ -86,11 +86,11 @@ function SelectRow({
 }) {
   return (
     <label className="grid gap-2">
-      <span className="text-sm font-medium text-stone-700">{label}</span>
+      <span className="text-sm font-medium text-slate-700">{label}</span>
       <select
         value={value}
         onChange={(event) => onChange(event.target.value)}
-        className="rounded-2xl border border-stone-200 bg-stone-50/70 px-4 py-3 text-sm text-stone-900 outline-none transition focus:border-stone-400 focus:bg-white"
+        className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-950 outline-none transition focus:border-stone-400 focus:bg-white"
       >
         {options.map((option) => (
           <option key={option.value} value={option.value}>
@@ -112,10 +112,10 @@ function ResultBox({
   note?: string;
 }) {
   return (
-    <div className="rounded-2xl border border-stone-200 bg-stone-50/70 px-4 py-4">
-      <div className="text-xs uppercase tracking-[0.18em] text-stone-500">{label}</div>
-      <div className="mt-2 text-lg font-semibold text-stone-950">{value}</div>
-      {note ? <div className="mt-2 text-sm leading-6 text-stone-600">{note}</div> : null}
+    <div className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-4">
+      <div className="text-xs uppercase  text-slate-500">{label}</div>
+      <div className="mt-2 text-lg font-semibold text-slate-950">{value}</div>
+      {note ? <div className="mt-2 text-sm leading-6 text-slate-600">{note}</div> : null}
     </div>
   );
 }
@@ -531,16 +531,16 @@ function WellsDvtCard() {
 export function MedCalcPageClient() {
   return (
     <div className="space-y-6">
-      <header className="rounded-[32px] border border-stone-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
-        <div className="text-xs uppercase tracking-[0.24em] text-stone-500">MedCalc</div>
-        <h1 className="mt-3 font-serif text-4xl font-semibold tracking-tight">Quick Medical Calculators</h1>
-        <p className="mt-4 max-w-3xl text-sm leading-7 text-stone-600">
+      <header className="rounded-lg border border-slate-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
+        <div className="text-xs uppercase  text-slate-500">MedCalc</div>
+        <h1 className="mt-3 text-4xl font-semibold ">Quick Medical Calculators</h1>
+        <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
           Expanded with bedside scores and formula calculators commonly used in wards, ER, ICU, nephrology, hepatology, and cardiology.
         </p>
       </header>
 
       <section className="space-y-4">
-        <div className="text-xs uppercase tracking-[0.22em] text-stone-500">Lab / Acid-Base / Renal</div>
+        <div className="text-xs uppercase  text-slate-500">Lab / Acid-Base / Renal</div>
         <div className="grid gap-6 xl:grid-cols-2">
           <CorrectedCalciumCard />
           <AnionGapCard />
@@ -554,7 +554,7 @@ export function MedCalcPageClient() {
       </section>
 
       <section className="space-y-4">
-        <div className="text-xs uppercase tracking-[0.22em] text-stone-500">Liver / Cardiology</div>
+        <div className="text-xs uppercase  text-slate-500">Liver / Cardiology</div>
         <div className="grid gap-6 xl:grid-cols-2">
           <ChildPughCard />
           <MeldNaCard />
@@ -563,7 +563,7 @@ export function MedCalcPageClient() {
       </section>
 
       <section className="space-y-4">
-        <div className="text-xs uppercase tracking-[0.22em] text-stone-500">Infection / VTE</div>
+        <div className="text-xs uppercase  text-slate-500">Infection / VTE</div>
         <div className="grid gap-6 xl:grid-cols-2">
           <QsofaCard />
           <Curb65Card />
@@ -574,3 +574,4 @@ export function MedCalcPageClient() {
     </div>
   );
 }
+

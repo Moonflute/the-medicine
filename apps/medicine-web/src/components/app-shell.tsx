@@ -18,82 +18,77 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.1.0";
-  const activeNavStyle = { color: "#fafaf9" };
 
   const title = useMemo(() => {
     if (pathname === "/") return "The Medicine";
-    if (pathname.startsWith("/specialty")) return "Specialty";
-    if (pathname.startsWith("/disease")) return "Disease";
-    if (pathname.startsWith("/lab-img")) return "Lab & Img";
+    if (pathname.startsWith("/cc")) return "Chief Complaint";
+    if (pathname.startsWith("/specialty") || pathname.startsWith("/disease")) return "Disease Library";
+    if (pathname.startsWith("/drugs")) return "Pharmacology";
+    if (pathname.startsWith("/lab-img")) return "Lab & Imaging";
+    if (pathname.startsWith("/skills")) return "Clinical Skills";
     return "The Medicine";
   }, [pathname]);
 
   return (
-    <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(204,228,255,0.55),_transparent_40%),linear-gradient(180deg,_#fcf9f3_0%,_#f8f5ef_45%,_#f2efe7_100%)] text-stone-900">
-      <div className="mx-auto flex min-h-screen max-w-[1600px]">
-        <aside className="hidden w-72 border-r border-stone-200/80 bg-white/70 p-6 backdrop-blur xl:block">
-          <div className="mb-8">
-            <Link href="/" className="inline-flex items-center gap-3">
-              <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-stone-900 text-stone-50 shadow-lg shadow-stone-900/10">
-                <Activity className="h-5 w-5" />
-              </div>
-              <div>
-                <div className="font-serif text-xl font-semibold tracking-tight">The Medicine</div>
-                <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-stone-500">v {version}</div>
-              </div>
-            </Link>
-          </div>
-          <nav className="space-y-2">
+    <div className="min-h-screen bg-slate-100 text-slate-950">
+      <div className="mx-auto flex min-h-screen max-w-[1680px]">
+        <aside className="hidden w-64 shrink-0 border-r border-slate-200 bg-slate-950 px-4 py-5 text-slate-100 xl:block">
+          <Link href="/" className="mb-7 flex items-center gap-3 px-2">
+            <div className="flex h-10 w-10 items-center justify-center bg-teal-500 text-white" style={{ borderRadius: 8 }}>
+              <Activity className="h-5 w-5" />
+            </div>
+            <div className="min-w-0">
+              <div className="text-base font-semibold">The Medicine</div>
+              <div className="mt-0.5 text-xs text-slate-400">v {version}</div>
+            </div>
+          </Link>
+
+          <nav className="space-y-1">
             {navItems.map((item) => {
               const active = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
               return (
                 <Link
                   key={item.href}
                   href={item.href}
-                  style={active ? activeNavStyle : undefined}
-                  className={`flex items-center gap-3 rounded-2xl px-4 py-3 text-sm transition ${
-                    active
-                      ? "bg-stone-900 font-medium shadow-lg shadow-stone-900/10"
-                      : "text-stone-600 hover:bg-white hover:text-stone-900"
+                  className={`flex items-center gap-3 px-3 py-2.5 text-sm font-medium transition ${
+                    active ? "bg-teal-500 text-white" : "text-slate-300 hover:bg-slate-800 hover:text-white"
                   }`}
+                  style={{ borderRadius: 8 }}
                 >
-                  <item.icon className={`h-4 w-4 ${active ? "text-stone-50" : ""}`} />
-                  <span className={active ? "text-stone-50" : ""}>{item.label}</span>
+                  <item.icon className="h-4 w-4" />
+                  <span>{item.label}</span>
                 </Link>
               );
             })}
           </nav>
         </aside>
 
-        <div className="flex min-h-screen flex-1 flex-col">
-          <header className="sticky top-0 z-40 border-b border-stone-200/70 bg-[#faf7f1]/90 backdrop-blur">
-            <div className="flex items-center justify-between px-4 py-3 sm:px-6 xl:px-8">
-              <div className="flex items-center gap-3">
+        <div className="flex min-h-screen min-w-0 flex-1 flex-col">
+          <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
+            <div className="flex h-16 items-center justify-between gap-3 px-4 sm:px-6 xl:px-8">
+              <div className="flex min-w-0 items-center gap-3">
                 <button
                   type="button"
                   onClick={() => setOpen((value) => !value)}
-                  className="inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-stone-200 bg-white text-stone-700 xl:hidden"
+                  className="inline-flex h-10 w-10 items-center justify-center border border-slate-300 bg-white text-slate-700 xl:hidden"
+                  style={{ borderRadius: 8 }}
+                  aria-label="Toggle navigation"
                 >
                   {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
                 </button>
-                <div>
-                  <div className="font-serif text-xl font-semibold tracking-tight">{title}</div>
-                  {pathname === "/" ? (
-                    <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-stone-500 xl:hidden">v {version}</div>
-                  ) : null}
+                <div className="min-w-0">
+                  <div className="truncate text-lg font-semibold text-slate-950">{title}</div>
+                  {pathname === "/" ? <div className="text-xs text-slate-500 xl:hidden">v {version}</div> : null}
                 </div>
               </div>
-              <Link
-                href="/specialties"
-                className="inline-flex items-center gap-2 rounded-full border border-stone-200 bg-white px-4 py-2 text-sm text-stone-600 shadow-sm"
-              >
+              <Link href="/specialties" className="secondary-action whitespace-nowrap">
                 <Search className="h-4 w-4" />
-                Browse diseases
+                Browse
               </Link>
             </div>
             {open && (
-              <div className="border-t border-stone-200 bg-[#faf7f1] px-4 py-4 xl:hidden">
-                <nav className="space-y-2">
+              <div className="border-t border-slate-200 bg-white px-4 py-3 xl:hidden">
+                <nav className="grid grid-cols-2 gap-2 sm:grid-cols-3">
                   {navItems.map((item) => {
                     const active = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
                     return (
@@ -101,13 +96,13 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                         key={item.href}
                         href={item.href}
                         onClick={() => setOpen(false)}
-                        style={active ? activeNavStyle : undefined}
-                        className={`flex items-center gap-3 rounded-2xl px-4 py-3 text-sm transition ${
-                          active ? "bg-stone-900 font-medium" : "bg-white text-stone-700"
+                        className={`flex items-center gap-2 px-3 py-2 text-sm font-medium ${
+                          active ? "bg-teal-600 text-white" : "border border-slate-200 bg-slate-50 text-slate-700"
                         }`}
+                        style={{ borderRadius: 8 }}
                       >
-                        <item.icon className={`h-4 w-4 ${active ? "text-stone-50" : ""}`} />
-                        <span className={active ? "text-stone-50" : ""}>{item.label}</span>
+                        <item.icon className="h-4 w-4" />
+                        <span>{item.label}</span>
                       </Link>
                     );
                   })}
@@ -119,21 +114,22 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           <main className="flex-1 px-4 py-6 sm:px-6 xl:px-8">
             <div className="mx-auto max-w-7xl">{children}</div>
           </main>
-          <nav className="sticky bottom-0 z-40 border-t border-stone-200 bg-[#faf7f1]/95 px-3 py-3 backdrop-blur xl:hidden">
-            <div className="grid grid-cols-3 gap-2">
+
+          <nav className="sticky bottom-0 z-40 border-t border-slate-200 bg-white/95 px-3 py-2 backdrop-blur xl:hidden">
+            <div className="grid grid-cols-6 gap-1">
               {navItems.map((item) => {
                 const active = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
                 return (
                   <Link
                     key={item.href}
                     href={item.href}
-                    style={active ? activeNavStyle : undefined}
-                    className={`flex flex-col items-center justify-center gap-1 rounded-2xl px-2 py-2 text-[11px] ${
-                      active ? "bg-stone-900 font-medium" : "bg-white text-stone-600"
+                    className={`flex h-12 flex-col items-center justify-center gap-0.5 text-[10px] font-medium ${
+                      active ? "bg-teal-600 text-white" : "text-slate-600"
                     }`}
+                    style={{ borderRadius: 8 }}
                   >
-                    <item.icon className={`h-4 w-4 ${active ? "text-stone-50" : ""}`} />
-                    <span className={active ? "text-stone-50" : ""}>{item.label}</span>
+                    <item.icon className="h-4 w-4" />
+                    <span className="max-w-full truncate px-1">{item.label}</span>
                   </Link>
                 );
               })}
@@ -144,3 +140,4 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     </div>
   );
 }
+

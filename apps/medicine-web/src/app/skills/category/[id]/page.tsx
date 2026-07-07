@@ -21,20 +21,20 @@ export default async function SkillCategoryDetailPage(props: { params: Promise<{
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center gap-2 text-sm text-stone-500">
-        <Link href="/skills" className="transition hover:text-stone-900">
+      <div className="flex items-center gap-2 text-sm text-slate-500">
+        <Link href="/skills" className="transition hover:text-slate-950">
           Clinical Skills
         </Link>
         <ChevronRight className="h-4 w-4" />
-        <span className="font-medium text-stone-900">{category.name}</span>
+        <span className="font-medium text-slate-950">{category.name}</span>
       </div>
 
-      <header className="rounded-[32px] border border-stone-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
+      <header className="rounded-lg border border-slate-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
         <div className="flex items-center gap-4">
-          <div className="rounded-2xl bg-amber-100 p-3 text-amber-700">
+          <div className="rounded-lg bg-teal-50 p-3 text-teal-700">
             <SkillCategoryIcon iconName={category.iconName} className="h-7 w-7" />
           </div>
-          <h1 className="font-serif text-4xl font-semibold tracking-tight">{category.name}</h1>
+          <h1 className="text-4xl font-semibold ">{category.name}</h1>
         </div>
       </header>
 
@@ -43,15 +43,15 @@ export default async function SkillCategoryDetailPage(props: { params: Promise<{
           <Link
             key={skill.id}
             href={`/skills/${skill.id}`}
-            className="flex items-center justify-between rounded-2xl border border-stone-200 bg-white/85 px-4 py-4 shadow-sm transition hover:border-stone-300"
+            className="flex items-center justify-between rounded-lg border border-slate-200 bg-white/85 px-4 py-4 shadow-sm transition hover:border-slate-300"
           >
             <div className="flex items-center gap-3 overflow-hidden">
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-stone-100 text-xs font-semibold text-stone-600">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-100 text-xs font-semibold text-slate-600">
                 {index + 1}
               </span>
-              <span className="truncate font-medium text-stone-900">{skill.name}</span>
+              <span className="truncate font-medium text-slate-950">{skill.name}</span>
             </div>
-            <ChevronRight className="h-4 w-4 shrink-0 text-stone-400" />
+            <ChevronRight className="h-4 w-4 shrink-0 text-slate-400" />
           </Link>
         ))}
       </div>

@@ -134,10 +134,10 @@ function DiseaseLinks({ notes }: { notes: DiseaseNote[] }) {
         <Link
           key={note.slug}
           href={`/disease/${note.slug}`}
-          className="flex items-center justify-between rounded-2xl border border-stone-200 bg-stone-50/70 px-4 py-3 transition hover:border-stone-300 hover:bg-white"
+          className="flex items-center justify-between rounded-lg border border-slate-200 bg-slate-50 px-4 py-3 transition hover:border-slate-300 hover:bg-white"
         >
-          <span className="pr-3 text-sm font-medium text-stone-900">{note.title}</span>
-          <ChevronRight className="h-4 w-4 shrink-0 text-stone-400" />
+          <span className="pr-3 text-sm font-medium text-slate-950">{note.title}</span>
+          <ChevronRight className="h-4 w-4 shrink-0 text-slate-400" />
         </Link>
       ))}
     </div>
@@ -160,14 +160,14 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
 
   return (
     <div className="space-y-6">
-      <header className="rounded-[32px] border border-stone-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
-        <div className="text-xs uppercase tracking-[0.24em] text-stone-500">Specialty</div>
+      <header className="rounded-lg border border-slate-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
+        <div className="text-xs uppercase  text-slate-500">Specialty</div>
         <div className="mt-3 flex flex-wrap items-center gap-3">
-          <h1 className="font-serif text-4xl font-semibold tracking-tight">{title}</h1>
+          <h1 className="text-4xl font-semibold ">{title}</h1>
           {specialtyOverviewNote ? (
             <Link
               href={`/disease/${specialtyOverviewNote.slug}`}
-              className="inline-flex items-center rounded-full border border-stone-200 bg-stone-50 px-3 py-1.5 text-xs font-medium uppercase tracking-[0.16em] text-stone-600 transition hover:border-stone-300 hover:bg-white hover:text-stone-900"
+              className="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-medium uppercase  text-slate-600 transition hover:border-slate-300 hover:bg-white hover:text-slate-950"
             >
               {specialtyLabel} overview
             </Link>
@@ -177,10 +177,10 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
 
       <div className="space-y-5">
         {grouped.map((group) => (
-          <section key={group.title} className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
+          <section key={group.title} className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm">
             <div className="mb-4 flex items-center gap-3">
               <div className="h-px flex-1 bg-stone-200" />
-              <h2 className="shrink-0 font-serif text-xl font-semibold tracking-tight text-stone-900">{group.title}</h2>
+              <h2 className="shrink-0 text-xl font-semibold  text-slate-950">{group.title}</h2>
               <div className="h-px flex-1 bg-stone-200" />
             </div>
 
@@ -188,8 +188,8 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
               {group.secondLevel.map((secondGroup) => (
                 <div key={`${group.title}-${secondGroup.title}`} className="space-y-3">
                   {!(secondGroup.title === group.title && secondGroup.thirdLevel.length === 0) ? (
-                    <div className="rounded-2xl border border-stone-200/80 bg-stone-50/70 px-4 py-3">
-                      <h3 className="font-serif text-lg font-semibold tracking-tight text-stone-900">
+                    <div className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3">
+                      <h3 className="text-lg font-semibold  text-slate-950">
                         {secondGroup.title}
                       </h3>
                     </div>
@@ -201,7 +201,7 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
                     <div key={`${group.title}-${secondGroup.title}-${thirdGroup.title}`} className="space-y-3 pl-1">
                       <div className="flex items-center gap-3 px-1">
                         <div className="h-px flex-1 bg-stone-200" />
-                        <h4 className="shrink-0 text-sm font-semibold uppercase tracking-[0.18em] text-stone-500">
+                        <h4 className="shrink-0 text-sm font-semibold uppercase  text-slate-500">
                           {thirdGroup.title}
                         </h4>
                         <div className="h-px flex-1 bg-stone-200" />

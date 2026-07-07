@@ -27,26 +27,26 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
   return (
     <div className="space-y-6">
       <DomainNoteCard note={note} />
-      <section className="rounded-[28px] border border-stone-200 bg-white/80 p-5 shadow-sm">
+      <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
         {showOverviewTable ? (
           <div className="space-y-5">
             {overviewGroups.map((group) => (
-              <section key={group.title} className="overflow-hidden rounded-2xl border border-stone-200">
-                <div className="border-b border-stone-200 bg-stone-50/80 px-4 py-3 text-sm font-semibold tracking-[0.08em] text-stone-700">
+              <section key={group.title} className="overflow-hidden rounded-lg border border-slate-200">
+                <div className="border-b border-slate-200 bg-slate-50 px-4 py-3 text-sm font-semibold  text-slate-700">
                   {group.title}
                 </div>
-                <table className="min-w-full divide-y divide-stone-200 text-sm">
+                <table className="min-w-full divide-y divide-slate-200 text-sm">
                   <thead className="bg-white">
-                    <tr className="text-left text-stone-500">
+                    <tr className="text-left text-slate-500">
                       <th className="px-4 py-3 font-medium">Item</th>
                       <th className="px-4 py-3 font-medium text-sky-700">Low</th>
                       <th className="px-4 py-3 font-medium text-rose-700">High</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-stone-200 bg-white">
+                  <tbody className="divide-y divide-slate-200 bg-white">
                     {group.rows.map((row) => (
                       <tr key={`${group.title}-${row.slug}-${row.title}`}>
-                        <td className="px-4 py-3 font-medium text-stone-900">
+                        <td className="px-4 py-3 font-medium text-slate-950">
                           <Link href={`/lab-img/${row.slug}`} className="transition hover:text-sky-700">
                             {row.title}
                           </Link>
@@ -68,8 +68,8 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
           <div className="space-y-6">
             {visibleSections.map((section) => (
               <section key={section.title} className="space-y-3">
-                <h3 className="font-medium text-stone-900">{section.title}</h3>
-                <RichTextLines lines={section.content} className="space-y-2 text-sm leading-6 text-stone-700" bulletStyle="plain" />
+                <h3 className="font-medium text-slate-950">{section.title}</h3>
+                <RichTextLines lines={section.content} className="space-y-2 text-sm leading-6 text-slate-700" bulletStyle="plain" />
               </section>
             ))}
           </div>

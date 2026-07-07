@@ -1,4 +1,4 @@
-﻿import { notFound } from "next/navigation";
+import { notFound } from "next/navigation";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { getDrugBySlug, getDrugs } from "@/lib/webdb";
 
@@ -55,21 +55,21 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
 
   return (
     <div className="space-y-6">
-      <section className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm backdrop-blur sm:p-6">
-        <div className="text-xs tracking-[0.12em] text-stone-500">
+      <section className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm backdrop-blur sm:p-6">
+        <div className="text-xs  text-slate-500">
           {note.drugMeta?.categoryPath || note.category}
           {note.drugMeta?.detailClass ? ` > ${note.drugMeta.detailClass}` : ""}
         </div>
 
-        <h1 className="mt-3 font-serif text-4xl font-semibold tracking-tight text-stone-950">{note.title}</h1>
+        <h1 className="mt-3 text-4xl font-semibold  text-slate-950">{note.title}</h1>
 
         <div className="mt-4 flex flex-wrap gap-2">
-          {note.folder ? <span className="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-600">{note.folder}</span> : null}
+          {note.folder ? <span className="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-600">{note.folder}</span> : null}
           {note.drugMeta?.detailClass ? (
-            <span className="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-600">{note.drugMeta.detailClass}</span>
+            <span className="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-600">{note.drugMeta.detailClass}</span>
           ) : null}
           {note.drugMeta?.clinicalCore ? (
-            <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-medium text-amber-800">Clinical core</span>
+            <span className="rounded-full bg-teal-50 px-3 py-1 text-xs font-medium text-teal-800">Clinical core</span>
           ) : null}
           {priorityLabel ? <span className="rounded-full bg-sky-100 px-3 py-1 text-xs font-medium text-sky-800">{priorityLabel}</span> : null}
         </div>
@@ -77,16 +77,16 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
         {brands.length > 0 || doses.length > 0 ? (
           <div className="mt-5 grid gap-3 md:grid-cols-2">
             {brands.length > 0 ? (
-              <div className="rounded-2xl border border-stone-200 bg-stone-50/70 px-4 py-3">
-                <div className="text-xs uppercase tracking-[0.18em] text-stone-500">Brand</div>
-                <div className="mt-2 text-sm font-medium text-stone-900">{brands.join(", ")}</div>
+              <div className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3">
+                <div className="text-xs uppercase  text-slate-500">Brand</div>
+                <div className="mt-2 text-sm font-medium text-slate-950">{brands.join(", ")}</div>
               </div>
             ) : null}
 
             {doses.length > 0 ? (
-              <div className="rounded-2xl border border-stone-200 bg-stone-50/70 px-4 py-3">
-                <div className="text-xs uppercase tracking-[0.18em] text-stone-500">Dose</div>
-                <div className="mt-2 text-sm font-medium text-stone-900">{doses.join(", ")}</div>
+              <div className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3">
+                <div className="text-xs uppercase  text-slate-500">Dose</div>
+                <div className="mt-2 text-sm font-medium text-slate-950">{doses.join(", ")}</div>
               </div>
             ) : null}
           </div>
@@ -94,14 +94,14 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
 
         {summaryLines.length > 0 ? (
           <div className="mt-5">
-            <RichTextLines lines={summaryLines} className="space-y-2 text-sm leading-6 text-stone-700" bulletStyle="plain" />
+            <RichTextLines lines={summaryLines} className="space-y-2 text-sm leading-6 text-slate-700" bulletStyle="plain" />
           </div>
         ) : null}
 
         {relatedDiseases.length > 0 ? (
           <div className="mt-5 flex flex-wrap gap-2">
             {relatedDiseases.map((item) => (
-              <span key={item} className="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-700">
+              <span key={item} className="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-700">
                 {item}
               </span>
             ))}
@@ -109,14 +109,14 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
         ) : null}
       </section>
 
-      <section className="rounded-[28px] border border-stone-200 bg-white/80 p-5 shadow-sm">
+      <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
         <div className="space-y-4">
           {note.sections.map((section) => (
-            <section key={section.title} className="rounded-2xl border border-stone-200 p-4">
-              <h3 className="font-medium text-stone-900">{section.title}</h3>
+            <section key={section.title} className="rounded-lg border border-slate-200 p-4">
+              <h3 className="font-medium text-slate-950">{section.title}</h3>
               <RichTextLines
                 lines={section.content}
-                className="mt-2 space-y-2 text-sm leading-6 text-stone-700"
+                className="mt-2 space-y-2 text-sm leading-6 text-slate-700"
                 bulletStyle="plain"
               />
             </section>

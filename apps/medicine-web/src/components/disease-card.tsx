@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
@@ -71,27 +71,28 @@ function getSectionTone(title: string) {
   const normalized = title.toLowerCase();
 
   if (/evaluation|workup|lab|test|image|exam/.test(normalized)) {
-    return "border-sky-200 bg-sky-50/65";
+    return "border-l-sky-500";
   }
 
   if (/diagn|assessment|criteria/.test(normalized)) {
-    return "border-violet-200 bg-violet-50/65";
+    return "border-l-indigo-500";
   }
 
   if (/management|treatment|therapy|plan|procedure/.test(normalized)) {
-    return "border-emerald-200 bg-emerald-50/65";
+    return "border-l-emerald-500";
   }
 
   if (/warning|complication|risk|red flag|emergency/.test(normalized)) {
-    return "border-rose-200 bg-rose-50/65";
+    return "border-l-rose-500";
   }
 
   if (/presentation|history|symptom|clinical/.test(normalized)) {
-    return "border-amber-200 bg-amber-50/65";
+    return "border-l-amber-500";
   }
 
-  return "border-stone-200 bg-white";
+  return "border-l-slate-300";
 }
+
 export function DiseaseCard({
   note,
   compact = false,
@@ -112,62 +113,56 @@ export function DiseaseCard({
   const hrefByTerm = useMemo(() => new Map(ccLinks.map((item) => [item.term, item.href])), [ccLinks]);
 
   return (
-    <article className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm backdrop-blur sm:p-6">
-      <div className="flex items-start justify-between gap-4">
-        <div className="min-w-0">
-          <div className="text-xs uppercase tracking-[0.22em] text-stone-500">{note.specialty}</div>
-          <h2 className="mt-2 font-serif text-3xl font-semibold tracking-tight text-stone-950 sm:text-[2.1rem]">{note.title}</h2>
-          {note.definition ? (
-            <p className="mt-3 max-w-3xl rounded-2xl border border-stone-200/80 bg-stone-50/70 px-4 py-3 text-sm leading-7 text-stone-700">
-              {note.definition}
-            </p>
-          ) : null}
-          {!compact ? <p className="mt-4 text-xs uppercase tracking-[0.18em] text-stone-500">Last updated {lastUpdated}</p> : null}
+    <article className="surface overflow-hidden">
+      <div className="border-b border-slate-200 p-5 sm:p-6">
+        <div className="flex items-start justify-between gap-4">
+          <div className="min-w-0">
+            <div className="eyebrow">{note.specialty}</div>
+            <h2 className="mt-2 text-2xl font-semibold text-slate-950 sm:text-3xl">{note.title}</h2>
+            {note.definition ? <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-700">{note.definition}</p> : null}
+            {!compact ? <p className="mt-3 text-xs text-slate-500">Last updated {lastUpdated}</p> : null}
+          </div>
+          <button
+            type="button"
+            onClick={() => bookmarks.toggle(note.slug)}
+            className="inline-flex h-10 w-10 shrink-0 items-center justify-center border border-slate-300 bg-white text-slate-700 hover:border-teal-500 hover:text-teal-700"
+            style={{ borderRadius: 8 }}
+            aria-label="Toggle review bookmark"
+          >
+            {bookmarks.has(note.slug) ? <BookmarkCheck className="h-5 w-5" /> : <Bookmark className="h-5 w-5" />}
+          </button>
         </div>
-        <button
-          type="button"
-          onClick={() => bookmarks.toggle(note.slug)}
-          className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-stone-200 bg-stone-50 text-stone-700"
-        >
-          {bookmarks.has(note.slug) ? <BookmarkCheck className="h-5 w-5" /> : <Bookmark className="h-5 w-5" />}
-        </button>
+
+        {note.chiefComplaints.length > 0 ? (
+          <div className="mt-4 flex flex-wrap gap-2">
+            {note.chiefComplaints.slice(0, 6).map((item) =>
+              hrefByTerm.get(item) ? (
+                <Link key={item} href={hrefByTerm.get(item)!} className="pill hover:border-teal-500 hover:text-teal-700">
+                  {item}
+                </Link>
+              ) : (
+                <span key={item} className="pill">
+                  {item}
+                </span>
+              ),
+            )}
+          </div>
+        ) : null}
       </div>
 
-      {note.chiefComplaints.length > 0 ? (
-        <div className="mt-4 flex flex-wrap gap-2">
-          {note.chiefComplaints.slice(0, 6).map((item) => (
-            hrefByTerm.get(item) ? (
-              <Link
-                key={item}
-                href={hrefByTerm.get(item)!}
-                className="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-700 underline decoration-stone-300 underline-offset-2"
-              >
-                {item}
-              </Link>
-            ) : (
-              <span key={item} className="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-600">
-                {item}
-              </span>
-            )
-          ))}
-        </div>
-      ) : null}
-
       {!hideOverview && overview.length > 0 ? (
-        <div className="mt-6 overflow-hidden rounded-[26px] border border-stone-900/10 bg-[linear-gradient(135deg,_rgba(251,191,36,0.18),_rgba(255,255,255,1)_30%,_rgba(191,219,254,0.28)_100%)] p-5 shadow-sm">
-          <div className="mb-3 inline-flex rounded-full bg-stone-900 px-3 py-1 text-xs uppercase tracking-[0.22em] text-stone-50">
-            Overview
-          </div>
+        <div className="border-b border-slate-200 bg-teal-50/60 p-5 sm:p-6">
+          <div className="mb-3 text-sm font-semibold text-teal-900">Overview</div>
           <RichTextLines lines={overview} className="grid gap-2.5 lg:grid-cols-2" termLinks={ccLinks} wikiLinks={diseaseLinks} />
         </div>
       ) : null}
 
       {expanded ? (
-        <div className="mt-6 space-y-4">
+        <div className="grid gap-3 bg-slate-50/70 p-4 sm:p-5">
           {note.sections.slice(0, compact ? 2 : note.sections.length).map((section) => (
-            <section key={section.title} className={`rounded-[24px] border p-4 sm:p-5 ${getSectionTone(section.title)}`}>
-              <div className="mb-4 flex items-center gap-2 text-sm font-semibold tracking-[0.02em] text-stone-900">
-                <DiseaseSectionIcon title={section.title} className="h-4 w-4 text-stone-500" />
+            <section key={section.title} className={`border border-l-4 border-slate-200 bg-white p-4 ${getSectionTone(section.title)}`} style={{ borderRadius: 8 }}>
+              <div className="mb-3 flex items-center gap-2 text-sm font-semibold text-slate-950">
+                <DiseaseSectionIcon title={section.title} className="h-4 w-4 text-slate-500" />
                 {section.title}
               </div>
               <RichTextLines
@@ -182,19 +177,11 @@ export function DiseaseCard({
         </div>
       ) : null}
 
-      <div className="mt-5 flex flex-wrap items-center gap-3">
-        <Link
-          href={`/disease/${note.slug}`}
-          style={{ color: "#fafaf9" }}
-          className="inline-flex items-center rounded-full bg-stone-900 px-4 py-2 text-sm font-medium shadow-sm shadow-stone-900/20"
-        >
-          <span className="text-stone-50">Open detail</span>
+      <div className="flex flex-wrap items-center gap-2 border-t border-slate-200 bg-white p-4 sm:p-5">
+        <Link href={`/disease/${note.slug}`} className="primary-action">
+          Open detail
         </Link>
-        <button
-          type="button"
-          onClick={() => setExpanded((value) => !value)}
-          className="inline-flex items-center gap-2 rounded-full border border-stone-200 bg-white px-4 py-2 text-sm text-stone-700"
-        >
+        <button type="button" onClick={() => setExpanded((value) => !value)} className="secondary-action">
           {expanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
           {expanded ? "Hide sections" : "Show sections"}
         </button>

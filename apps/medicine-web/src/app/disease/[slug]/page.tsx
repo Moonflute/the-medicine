@@ -23,7 +23,7 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
     <div className="space-y-6">
       <Link
         href={`/specialty/${Buffer.from(note.specialty, "utf-8").toString("base64url")}`}
-        className="inline-flex items-center gap-2 rounded-full border border-stone-200 bg-white px-4 py-2 text-sm text-stone-700"
+        className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700"
       >
         <ArrowLeft className="h-4 w-4" />
         Back to {note.specialty}

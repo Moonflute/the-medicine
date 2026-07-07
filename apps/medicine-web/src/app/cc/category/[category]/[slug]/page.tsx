@@ -22,27 +22,27 @@ export default async function ChiefComplaintDetailByCategoryPage(props: { params
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center gap-2 text-sm text-stone-500">
-        <Link href="/cc" className="transition hover:text-stone-900">
+      <div className="flex items-center gap-2 text-sm text-slate-500">
+        <Link href="/cc" className="transition hover:text-slate-950">
           CC
         </Link>
         <ChevronRight className="h-4 w-4" />
-        <Link href={`/cc/category/${params.category}`} className="transition hover:text-stone-900">
+        <Link href={`/cc/category/${params.category}`} className="transition hover:text-slate-950">
           {note.category}
         </Link>
         <ChevronRight className="h-4 w-4" />
-        <span className="font-medium text-stone-900">{note.title}</span>
+        <span className="font-medium text-slate-950">{note.title}</span>
       </div>
 
       <ChiefComplaintCard note={note} />
 
-      <section className="rounded-[28px] border border-stone-200 bg-white/80 p-5 shadow-sm">
-        <div className="mb-3 text-xs uppercase tracking-[0.18em] text-stone-500">Full sections</div>
+      <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
+        <div className="mb-3 text-xs uppercase  text-slate-500">Full sections</div>
         <div className="space-y-4">
           {note.sections.map((section) => (
-            <section key={section.title} className="rounded-2xl border border-stone-200 p-4">
-              <h3 className="font-medium text-stone-900">{section.title}</h3>
-              <RichTextLines lines={section.content} className="mt-2 space-y-2 text-sm leading-6 text-stone-700" />
+            <section key={section.title} className="rounded-lg border border-slate-200 p-4">
+              <h3 className="font-medium text-slate-950">{section.title}</h3>
+              <RichTextLines lines={section.content} className="mt-2 space-y-2 text-sm leading-6 text-slate-700" />
             </section>
           ))}
         </div>

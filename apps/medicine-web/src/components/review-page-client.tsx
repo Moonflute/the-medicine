@@ -26,8 +26,8 @@ export function ReviewPageClient({ notes }: { notes: DiseaseNote[] }) {
 
   if (savedNotes.length === 0) {
     return (
-      <div className="rounded-[32px] border border-dashed border-stone-300 bg-white/70 p-10 text-center text-stone-600">
-        북마크한 질병이 아직 없습니다. 질병 카드에서 북마크를 누르면 여기로 모입니다.
+      <div className="rounded-lg border border-dashed border-slate-300 bg-white/70 p-10 text-center text-slate-600">
+        遺곷쭏?ы븳 吏덈퀝???꾩쭅 ?놁뒿?덈떎. 吏덈퀝 移대뱶?먯꽌 遺곷쭏?щ? ?꾨Ⅴ硫??ш린濡?紐⑥엯?덈떎.
       </div>
     );
   }
@@ -40,3 +40,4 @@ export function ReviewPageClient({ notes }: { notes: DiseaseNote[] }) {
     </div>
   );
 }
+

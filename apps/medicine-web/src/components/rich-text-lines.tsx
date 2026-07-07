@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import Link from "next/link";
 import type { TermLink } from "@/lib/webdb";
 
@@ -202,7 +202,7 @@ function renderInline(text: string, termLinks: TermLink[], wikiLinks: TermLink[]
   return parts.map((part, index) => {
     if (part.startsWith("**") && part.endsWith("**")) {
       return (
-        <strong key={`${part}-${index}`} className="font-semibold text-stone-900">
+        <strong key={`${part}-${index}`} className="font-semibold text-slate-950">
           {renderLinkedText(part.slice(2, -2), termLinks, wikiLinks)}
         </strong>
       );
@@ -235,7 +235,7 @@ function renderParagraph(text: string, className: string, termLinks: TermLink[],
 
   return (
     <p className={className}>
-      <span className="font-semibold text-stone-900">{renderInline(labeled.label, termLinks, wikiLinks)}:</span>{" "}
+      <span className="font-semibold text-slate-950">{renderInline(labeled.label, termLinks, wikiLinks)}:</span>{" "}
       {renderInline(labeled.body, termLinks, wikiLinks)}
     </p>
   );
@@ -244,7 +244,7 @@ function renderParagraph(text: string, className: string, termLinks: TermLink[],
 function renderEmphasisLabel(text: string, termLinks: TermLink[], wikiLinks: TermLink[]) {
   return (
     <div className="pt-1">
-      <div className="text-[17px] font-semibold tracking-tight text-stone-950">
+      <div className="text-[17px] font-semibold  text-slate-950">
         {renderInline(normalizeLabelText(text), termLinks, wikiLinks)}
       </div>
     </div>
@@ -259,7 +259,7 @@ function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[
   }
 
   if (trimmed === "---") {
-    return <hr className="border-stone-200" />;
+    return <hr className="border-slate-200" />;
   }
 
   if (isEmphasisLabelLine(trimmed)) {
@@ -271,7 +271,7 @@ function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[
     if (isEmphasisLabelLine(heading)) {
       return renderEmphasisLabel(heading, termLinks, wikiLinks);
     }
-    return <h5 className="font-medium text-stone-900">{renderInline(heading, termLinks, wikiLinks)}</h5>;
+    return <h5 className="font-medium text-slate-950">{renderInline(heading, termLinks, wikiLinks)}</h5>;
   }
 
   if (trimmed.startsWith("### ")) {
@@ -279,7 +279,7 @@ function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[
     if (isEmphasisLabelLine(heading)) {
       return renderEmphasisLabel(heading, termLinks, wikiLinks);
     }
-    return <h4 className="font-medium text-stone-900">{renderInline(heading, termLinks, wikiLinks)}</h4>;
+    return <h4 className="font-medium text-slate-950">{renderInline(heading, termLinks, wikiLinks)}</h4>;
   }
 
   if (isBulletLine(trimmed)) {
@@ -288,30 +288,30 @@ function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[
     if (bulletStyle === "plain") {
       return (
         <div className="flex gap-3">
-          <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-stone-400" />
-          {renderParagraph(body, "min-w-0 text-[15px] leading-7 text-stone-700", termLinks, wikiLinks)}
+          <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-slate-400" />
+          {renderParagraph(body, "min-w-0 text-[15px] leading-7 text-slate-700", termLinks, wikiLinks)}
         </div>
       );
     }
 
     return (
-      <div className="flex gap-3 rounded-2xl border border-stone-200/80 bg-stone-50/60 px-3 py-2.5">
-        <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-amber-500" />
-        {renderParagraph(body, "min-w-0 text-[15px] leading-7 text-stone-700", termLinks, wikiLinks)}
+      <div className="flex gap-3 rounded-lg border border-slate-200/80 bg-slate-50 px-3 py-2.5">
+        <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-teal-600" />
+        {renderParagraph(body, "min-w-0 text-[15px] leading-7 text-slate-700", termLinks, wikiLinks)}
       </div>
     );
   }
 
-  return renderParagraph(trimmed, "text-[15px] leading-7 text-stone-700", termLinks, wikiLinks);
+  return renderParagraph(trimmed, "text-[15px] leading-7 text-slate-700", termLinks, wikiLinks);
 }
 
 function renderGroup(label: string, items: string[], termLinks: TermLink[], wikiLinks: TermLink[]) {
   return (
-    <div className="space-y-2 rounded-2xl bg-white/45 px-3 py-2">
-      <div className="text-[15px] font-semibold leading-7 text-stone-900">
+    <div className="space-y-2 rounded-lg bg-white/45 px-3 py-2">
+      <div className="text-[15px] font-semibold leading-7 text-slate-950">
         {renderInline(label.replace(/[:：]\s*$/, ""), termLinks, wikiLinks)}
       </div>
-      <div className="space-y-2 border-l border-stone-200 pl-4">
+      <div className="space-y-2 border-l border-slate-200 pl-4">
         {items.map((item, index) => (
           <div key={`${item}-${index}`}>{renderLine(item, "plain", termLinks, wikiLinks)}</div>
         ))}
@@ -322,7 +322,7 @@ function renderGroup(label: string, items: string[], termLinks: TermLink[], wiki
 
 export function RichTextLines({
   lines,
-  className = "space-y-2.5 text-sm text-stone-700",
+  className = "space-y-2.5 text-sm text-slate-700",
   bulletStyle = "card",
   termLinks = [],
   wikiLinks = [],
@@ -347,3 +347,5 @@ export function RichTextLines({
     </div>
   );
 }
+
+

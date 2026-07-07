@@ -29,7 +29,7 @@ function NoteLinks({
         <div className="flex justify-start">
           <Link
             href={overviewHref}
-            className="inline-flex items-center rounded-full border border-stone-200 bg-stone-50/80 px-4 py-2 text-xs uppercase tracking-[0.18em] text-stone-700 transition hover:border-stone-300 hover:bg-white"
+            className="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-xs uppercase  text-slate-700 transition hover:border-slate-300 hover:bg-white"
           >
             {overviewLabel} overview
           </Link>
@@ -41,10 +41,10 @@ function NoteLinks({
             <Link
               key={note.slug}
               href={`/lab-img/${note.slug}`}
-              className="flex items-center justify-between rounded-2xl border border-stone-200 bg-stone-50/70 px-4 py-3 transition hover:border-stone-300 hover:bg-white"
+              className="flex items-center justify-between rounded-lg border border-slate-200 bg-slate-50 px-4 py-3 transition hover:border-slate-300 hover:bg-white"
             >
-              <span className="pr-3 text-sm font-medium text-stone-900">{note.title}</span>
-              <ChevronRight className="h-4 w-4 shrink-0 text-stone-400" />
+              <span className="pr-3 text-sm font-medium text-slate-950">{note.title}</span>
+              <ChevronRight className="h-4 w-4 shrink-0 text-slate-400" />
             </Link>
           ))}
         </div>
@@ -67,27 +67,27 @@ function InlineNote({
   const showOverviewTable = isLabImgOverviewNote(note) && overviewGroups.length > 0;
 
   return (
-    <section className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
-      {title ? <h2 className="mb-4 font-serif text-2xl font-semibold tracking-tight text-stone-900">{title}</h2> : null}
+    <section className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm">
+      {title ? <h2 className="mb-4 text-2xl font-semibold  text-slate-950">{title}</h2> : null}
       {showOverviewTable ? (
         <div className="space-y-5">
           {overviewGroups.map((group) => (
-            <section key={group.title} className="overflow-hidden rounded-2xl border border-stone-200">
-              <div className="border-b border-stone-200 bg-stone-50/80 px-4 py-3 text-sm font-semibold tracking-[0.08em] text-stone-700">
+            <section key={group.title} className="overflow-hidden rounded-lg border border-slate-200">
+              <div className="border-b border-slate-200 bg-slate-50 px-4 py-3 text-sm font-semibold  text-slate-700">
                 {group.title}
               </div>
-              <table className="min-w-full divide-y divide-stone-200 text-sm">
+              <table className="min-w-full divide-y divide-slate-200 text-sm">
                 <thead className="bg-white">
-                  <tr className="text-left text-stone-500">
+                  <tr className="text-left text-slate-500">
                     <th className="px-4 py-3 font-medium">Item</th>
                     <th className="px-4 py-3 font-medium text-sky-700">Low</th>
                     <th className="px-4 py-3 font-medium text-rose-700">High</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-stone-200 bg-white">
+                <tbody className="divide-y divide-slate-200 bg-white">
                   {group.rows.map((row) => (
                     <tr key={`${group.title}-${row.slug}-${row.title}`}>
-                      <td className="px-4 py-3 font-medium text-stone-900">
+                      <td className="px-4 py-3 font-medium text-slate-950">
                         <Link href={`/lab-img/${row.slug}`} className="transition hover:text-sky-700">
                           {row.title}
                         </Link>
@@ -109,8 +109,8 @@ function InlineNote({
         <div className="space-y-6">
           {visibleSections.map((section) => (
             <section key={section.title} className="space-y-3">
-              <h3 className="font-medium text-stone-900">{section.title}</h3>
-              <RichTextLines lines={section.content} className="space-y-2 text-sm leading-6 text-stone-700" bulletStyle="plain" />
+              <h3 className="font-medium text-slate-950">{section.title}</h3>
+              <RichTextLines lines={section.content} className="space-y-2 text-sm leading-6 text-slate-700" bulletStyle="plain" />
             </section>
           ))}
         </div>
@@ -134,41 +134,41 @@ export default async function LabImgCategoryPage(props: { params: Promise<{ slug
     <div className="space-y-6">
       <Link
         href="/lab-img"
-        className="inline-flex items-center gap-2 rounded-full border border-stone-200 bg-white px-4 py-2 text-sm text-stone-700"
+        className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700"
       >
         <ArrowLeft className="h-4 w-4" />
         Back to lab categories
       </Link>
 
-      <header className="rounded-[32px] border border-stone-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
+      <header className="rounded-lg border border-slate-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
         <div className="flex flex-wrap items-center gap-3">
-          <div className="text-xs uppercase tracking-[0.24em] text-stone-500">Lab & Img</div>
+          <div className="text-xs uppercase  text-slate-500">Lab & Img</div>
           {group.overviewNote && !shouldInlineOverview ? (
             <Link
               href={`/lab-img/${group.overviewNote.slug}`}
-              className="inline-flex items-center rounded-full border border-stone-200 bg-stone-50/80 px-4 py-2 text-xs uppercase tracking-[0.18em] text-stone-700 transition hover:border-stone-300 hover:bg-white"
+              className="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-xs uppercase  text-slate-700 transition hover:border-slate-300 hover:bg-white"
             >
               {group.title} overview
             </Link>
           ) : null}
         </div>
-        <h1 className="mt-3 font-serif text-4xl font-semibold tracking-tight">{group.title}</h1>
+        <h1 className="mt-3 text-4xl font-semibold ">{group.title}</h1>
       </header>
 
       {shouldInlineOverview && group.overviewNote ? <InlineNote note={group.overviewNote} allNotes={allNotes} /> : null}
 
       {group.directNotes.length > 0 ? (
-        <section className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
+        <section className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm">
           <NoteLinks notes={group.directNotes} />
         </section>
       ) : null}
 
       <div className="space-y-5">
         {group.childGroups.map((childGroup) => (
-          <section key={`${group.rawTitle}-${childGroup.rawTitle}`} className="rounded-[28px] border border-stone-200 bg-white/85 p-5 shadow-sm">
+          <section key={`${group.rawTitle}-${childGroup.rawTitle}`} className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm">
             <div className="mb-4 flex items-center gap-3">
               <div className="h-px flex-1 bg-stone-200" />
-              <h2 className="shrink-0 text-sm font-semibold uppercase tracking-[0.18em] text-stone-500">{childGroup.title}</h2>
+              <h2 className="shrink-0 text-sm font-semibold uppercase  text-slate-500">{childGroup.title}</h2>
               <div className="h-px flex-1 bg-stone-200" />
             </div>
 

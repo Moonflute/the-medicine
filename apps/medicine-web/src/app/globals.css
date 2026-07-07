@@ -2,6 +2,15 @@
 
 :root {
   color-scheme: light;
+  --background: #f5f7fb;
+  --foreground: #111827;
+  --muted: #5b6472;
+  --line: #d8dee8;
+  --surface: #ffffff;
+  --surface-subtle: #f8fafc;
+  --primary: #0f766e;
+  --primary-strong: #115e59;
+  --accent: #2563eb;
 }
 
 * {
@@ -14,9 +23,11 @@ html {
 
 body {
   margin: 0;
-  font-family: "Iowan Old Style", "Palatino Linotype", "Noto Serif KR", serif;
-  color: #1c1917;
-  background: #f8f5ef;
+  font-family: Inter, "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  color: var(--foreground);
+  background: var(--background);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -31,4 +42,54 @@ input {
 
 code {
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+@layer components {
+  .page-stack {
+    @apply space-y-6;
+  }
+
+  .page-header {
+    @apply border-b border-slate-200 pb-5;
+  }
+
+  .eyebrow {
+    @apply text-xs font-semibold uppercase text-slate-500;
+    letter-spacing: 0;
+  }
+
+  .page-title {
+    @apply mt-2 text-3xl font-semibold text-slate-950 sm:text-4xl;
+    letter-spacing: 0;
+  }
+
+  .surface {
+    @apply border border-slate-200 bg-white shadow-sm;
+    border-radius: 8px;
+  }
+
+  .surface-subtle {
+    @apply border border-slate-200 bg-slate-50;
+    border-radius: 8px;
+  }
+
+  .list-tile {
+    @apply border border-slate-200 bg-white transition hover:border-teal-500 hover:shadow-sm;
+    border-radius: 8px;
+  }
+
+  .pill {
+    @apply inline-flex items-center border border-slate-200 bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700;
+    border-radius: 999px;
+  }
+
+  .primary-action {
+    @apply inline-flex items-center justify-center gap-2 bg-teal-700 px-3.5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-teal-800;
+    border-radius: 8px;
+  }
+
+  .secondary-action {
+    @apply inline-flex items-center justify-center gap-2 border border-slate-300 bg-white px-3.5 py-2 text-sm font-medium text-slate-700 transition hover:border-slate-400 hover:bg-slate-50;
+    border-radius: 8px;
+  }
 }
