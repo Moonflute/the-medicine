@@ -13,7 +13,7 @@ export default function SpecialtiesPage() {
 
   const groups: SpecialtyGroup[] = [
     {
-      title: "Internal medicine",
+      title: "내과",
       description: "01-10",
       items: specialties.filter((specialty) => {
         const index = parseIndex(specialty.name);
@@ -21,7 +21,7 @@ export default function SpecialtiesPage() {
       }),
     },
     {
-      title: "Core specialties",
+      title: "외산소",
       description: "11-14",
       items: specialties.filter((specialty) => {
         const index = parseIndex(specialty.name);
@@ -29,7 +29,7 @@ export default function SpecialtiesPage() {
       }),
     },
     {
-      title: "Other specialties",
+      title: "마이너",
       description: "15+",
       items: specialties.filter((specialty) => {
         const index = parseIndex(specialty.name);
