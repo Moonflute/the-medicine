@@ -101,7 +101,7 @@ export default function SpecialtiesPage() {
               <div className="text-xs font-semibold text-slate-500">{group.description}</div>
             </div>
 
-            <div className="grid gap-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+            <div className="grid grid-cols-3 gap-2 lg:grid-cols-4 xl:grid-cols-6">
               {group.items.map((specialty) => {
                 const index = parseIndex(specialty.name);
                 const SpecialtyIcon = iconByIndex[index] ?? ShieldPlus;
@@ -110,7 +110,7 @@ export default function SpecialtiesPage() {
                   <Link
                     key={specialty.slug}
                     href={`/specialty/${specialty.slug}`}
-                    className="list-tile flex min-h-10 items-center gap-2 px-3 py-2 text-sm font-semibold text-slate-950"
+                    className="list-tile flex min-h-10 items-center gap-1.5 px-2 py-2 text-xs font-semibold text-slate-950 sm:gap-2 sm:px-3 sm:text-sm"
                   >
                     {index === 10 ? (
                       <span className="flex h-4 w-4 shrink-0 items-center justify-center text-sm leading-none" aria-hidden="true">
