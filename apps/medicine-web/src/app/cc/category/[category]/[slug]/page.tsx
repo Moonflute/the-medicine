@@ -1,10 +1,10 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import { ChiefComplaintCard } from "@/components/chief-complaint-card";
 import { ChiefComplaintRecommendationPicker } from "@/components/chief-complaint-recommendation-picker";
 import { RichTextLines } from "@/components/rich-text-lines";
-import { getChiefComplaintByCategoryAndSlug, getChiefComplaintCategories, getChiefComplaintsByCategory } from "@/lib/webdb";
+import { getChiefComplaintByCategoryAndSlug, getChiefComplaintCategories, getChiefComplaintsByCategory, getDiseaseLinks } from "@/lib/webdb";
 
 export function generateStaticParams() {
   return getChiefComplaintCategories().flatMap((category) =>
@@ -18,6 +18,7 @@ export function generateStaticParams() {
 export default async function ChiefComplaintDetailByCategoryPage(props: { params: Promise<{ category: string; slug: string }> }) {
   const params = await props.params;
   const note = getChiefComplaintByCategoryAndSlug(params.category, params.slug);
+  const diseaseLinks = getDiseaseLinks();
 
   if (!note) notFound();
 
@@ -55,12 +56,17 @@ export default async function ChiefComplaintDetailByCategoryPage(props: { params
                       <RichTextLines
                         lines={section.content}
                         className="border-t border-slate-200 px-3 py-3 text-sm leading-6 text-slate-700"
+                        wikiLinks={diseaseLinks}
                       />
                     </details>
                     <ChiefComplaintRecommendationPicker recommendations={note.recommendations} />
                   </div>
                 ) : (
-                  <RichTextLines lines={section.content} className="mt-2 space-y-2 text-sm leading-6 text-slate-700" />
+                  <RichTextLines
+                    lines={section.content}
+                    className="mt-2 space-y-2 text-sm leading-6 text-slate-700"
+                    wikiLinks={diseaseLinks}
+                  />
                 )}
               </section>
             );
@@ -70,5 +76,3 @@ export default async function ChiefComplaintDetailByCategoryPage(props: { params
     </div>
   );
 }
-
-
