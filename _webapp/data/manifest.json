@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-07T09:39:30.535Z",
+  "generatedAt": "2026-07-08T18:04:40.578Z",
   "sourceRoot": "source_notes",
   "outputRoot": "_webapp/data",
   "domains": {
     "diseases": {
-      "count": 1093,
+      "count": 1094,
       "source": "02 Diseases"
     },
     "chiefComplaints": {
@@ -30,6 +30,10 @@
     "skills": {
       "count": 46,
       "source": "07 Skills"
+    },
+    "specialtyRoadmaps": {
+      "count": 2,
+      "source": "08 Specialty Roadmaps"
     },
     "specialties": {
       "count": 22,

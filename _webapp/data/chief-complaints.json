@@ -5337,12 +5337,13 @@
       {
         "title": "입원관리",
         "content": [
+          "검사 : 혈액배양검사 최소 2쌍 (피부상재균 감염 의심 시 3쌍), 요배양검사",
           "### 관련질환",
           "[[급성 신우신염 (Acute Pyelonephritis)]], [[뇌수막염 (Meningoencephalitis)]], [[림프종 (Lymphoma)]], [[말라리아 (Malaria)]], [[백혈병 (Leukemia)]], [[연조직염 (Cellulitis)]], [[인플루엔자 (Influenza)]], [[장티푸스 (Typhoid Fever)]], [[쯔쯔가무시병 (Tsutsugamushi Disease)]]"
         ]
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.700Z"
+    "updatedAt": "2026-07-08T14:00:37.195Z"
   },
   {
     "id": "502",

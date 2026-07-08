@@ -1,7 +1,7 @@
-import { notFound } from "next/navigation";
+﻿import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ChevronRight } from "lucide-react";
-import { getDiseasesBySpecialty, getSpecialties } from "@/lib/webdb";
+import { CalendarDays, CheckCircle2, ChevronRight } from "lucide-react";
+import { getDiseasesBySpecialty, getSpecialties, getSpecialtyRoadmap } from "@/lib/webdb";
 
 const THIRD_LEVEL_MIN_ITEMS = 4;
 
@@ -127,6 +127,64 @@ function buildGroups(notes: DiseaseNote[], specialtyLabel: string): FirstLevelGr
     });
 }
 
+
+function SpecialtyRoadmapSection({ roadmap }: { roadmap: NonNullable<ReturnType<typeof getSpecialtyRoadmap>> }) {
+  return (
+    <section className="rounded-lg border border-slate-200 bg-white/90 p-5 shadow-sm">
+      <div className="mb-5 flex flex-wrap items-start justify-between gap-3">
+        <div>
+          <div className="flex items-center gap-2 text-xs font-semibold uppercase text-teal-700">
+            <CalendarDays className="h-4 w-4" />
+            Roadmap
+          </div>
+          <h2 className="mt-2 text-2xl font-semibold text-slate-950">{roadmap.title}</h2>
+          <p className="mt-1 max-w-3xl text-sm leading-6 text-slate-600">{roadmap.description}</p>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          {roadmap.sources.map((source) => (
+            <a
+              key={source.url}
+              href={source.url}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-medium text-slate-600 transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800"
+            >
+              {source.label}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <div className="space-y-5">
+        {roadmap.lanes.map((lane) => (
+          <div key={lane.title} className="space-y-3">
+            <h3 className="text-sm font-semibold text-slate-700">{lane.title}</h3>
+            <div className="overflow-x-auto pb-2">
+              <div className="relative flex min-w-[760px] gap-3 pr-2">
+                <div className="absolute left-4 right-4 top-5 h-px bg-slate-200" aria-hidden="true" />
+                {lane.items.map((item) => (
+                  <article key={`${lane.title}-${item.time}-${item.title}`} className="relative z-10 w-56 shrink-0 rounded-lg border border-slate-200 bg-white p-3 shadow-sm">
+                    <div className="mb-3 inline-flex items-center gap-1.5 rounded-full border border-teal-100 bg-teal-50 px-2.5 py-1 text-xs font-semibold text-teal-800">
+                      <CheckCircle2 className="h-3.5 w-3.5" />
+                      {item.time}
+                    </div>
+                    <h4 className="text-sm font-semibold leading-5 text-slate-950">{item.title}</h4>
+                    <ul className="mt-2 space-y-1.5 text-xs leading-5 text-slate-600">
+                      {item.points.map((point) => (
+                        <li key={point}>{point}</li>
+                      ))}
+                    </ul>
+                  </article>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function DiseaseLinks({ notes }: { notes: DiseaseNote[] }) {
   return (
     <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
@@ -157,6 +215,7 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
   const specialtyLabel = title.replace(/^\d+\s*/, "").trim();
   const grouped = buildGroups(notes, specialtyLabel);
   const specialtyOverviewNote = grouped.find((group) => group.title === specialtyLabel)?.overviewNote;
+  const roadmap = getSpecialtyRoadmap(slug);
 
   return (
     <div className="space-y-6">
@@ -174,6 +233,9 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
           ) : null}
         </div>
       </header>
+
+      
+      {roadmap ? <SpecialtyRoadmapSection roadmap={roadmap} /> : null}
 
       <div className="space-y-5">
         {grouped.map((group) => (
@@ -218,3 +280,7 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
     </div>
   );
 }
+
+
+
+

@@ -9,6 +9,7 @@ import type {
   SearchEntry,
   SkillCategorySummary,
   SkillsManifest,
+  SpecialtyRoadmap,
   SpecialtySummary,
   TermLink,
 } from "@/lib/types";
@@ -23,6 +24,7 @@ export type {
   SearchEntry,
   SkillCategorySummary,
   SkillsManifest,
+  SpecialtyRoadmap,
   SpecialtySummary,
   TermLink,
 } from "@/lib/types";
@@ -93,6 +95,10 @@ export function getDiseaseLinks(): TermLink[] {
 
 export function getSpecialties(): SpecialtySummary[] {
   return readJson("specialties.json");
+}
+
+export function getSpecialtyRoadmap(slug: string): SpecialtyRoadmap | undefined {
+  return readJson<SpecialtyRoadmap[]>("specialty-roadmaps.json").find((roadmap) => roadmap.specialtySlug === slug);
 }
 
 export function getDiseasesBySpecialty(slug: string): DiseaseNote[] {
@@ -205,3 +211,7 @@ export function getAllSkills(): ClinicalSkill[] {
 export function getSkillById(id: string): ClinicalSkill | undefined {
   return getAllSkills().find((skill) => skill.id === id);
 }
+
+
+
+

@@ -25,6 +25,24 @@ export type SpecialtySummary = {
   count: number;
 };
 
+export type SpecialtyRoadmapItem = {
+  time: string;
+  title: string;
+  points: string[];
+};
+
+export type SpecialtyRoadmapLane = {
+  title: string;
+  items: SpecialtyRoadmapItem[];
+};
+
+export type SpecialtyRoadmap = {
+  specialtySlug: string;
+  title: string;
+  description: string;
+  sources: SkillSource[];
+  lanes: SpecialtyRoadmapLane[];
+};
 export type SearchEntry = {
   type: string;
   slug: string;
@@ -140,6 +158,8 @@ export type SkillsManifest = {
   categories: SkillCategorySummary[];
   items: ClinicalSkill[];
 };
+
+
 
 
 

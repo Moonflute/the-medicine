@@ -1,0 +1,168 @@
+[
+  {
+    "specialtySlug": "MTIg7IKw6rO8",
+    "title": "산과 시기별 체크 로드맵",
+    "description": "임신 전부터 산후까지, 시기와 함께 떠올려야 하는 선별검사·초음파·분만 준비 포인트를 빠르게 훑는 섹션입니다. 세부 주수와 시행 여부는 환자 위험도와 기관 지침에 맞춰 확인하세요.",
+    "sources": [
+      {
+        "label": "ACOG prenatal testing",
+        "url": "https://www.acog.org/womens-health/infographics/prenatal-testing"
+      },
+      {
+        "label": "CDC pregnancy vaccines",
+        "url": "https://www.cdc.gov/vaccines-pregnancy/"
+      }
+    ],
+    "lanes": [
+      {
+        "title": "임신 전-1삼분기",
+        "items": [
+          {
+            "time": "임신 전",
+            "title": "위험도 정리",
+            "points": [
+              "기저질환·약물·가족력 확인",
+              "엽산, 예방접종력, 유전상담 필요성 점검"
+            ]
+          },
+          {
+            "time": "첫 방문",
+            "title": "기본 산전평가",
+            "points": [
+              "임신 주수와 분만예정일 확인",
+              "혈액형, 빈혈, 감염, 소변검사 등 기본 검사"
+            ]
+          },
+          {
+            "time": "10-13주",
+            "title": "염색체 선별검사",
+            "points": [
+              "cfDNA/NIPT 또는 통합 선별검사 상담",
+              "NT 초음파 시행 여부 확인"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2-3삼분기",
+        "items": [
+          {
+            "time": "18-22주",
+            "title": "정밀 초음파",
+            "points": [
+              "태아 구조 평가",
+              "태반 위치와 양수, 성장 기준 확인"
+            ]
+          },
+          {
+            "time": "24-28주",
+            "title": "대사·혈액 체크",
+            "points": [
+              "임신성 당뇨 선별검사",
+              "빈혈 재평가와 Rh 관련 처치 여부 확인"
+            ]
+          },
+          {
+            "time": "27-36주",
+            "title": "후기 예방·준비",
+            "points": [
+              "Tdap 등 임신 중 접종 권고 확인",
+              "조산 위험, 태동, 전자간증 경고증상 교육"
+            ]
+          },
+          {
+            "time": "35-37주",
+            "title": "분만 전 점검",
+            "points": [
+              "GBS 선별검사",
+              "태위, 분만계획, 응급 내원 기준 확인"
+            ]
+          },
+          {
+            "time": "산후",
+            "title": "산모·신생아 연결",
+            "points": [
+              "출혈, 감염, 우울, 수유 문제 확인",
+              "피임과 만성질환 추적 계획"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "specialtySlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8",
+    "title": "소아청소년 성장·예방 로드맵",
+    "description": "나이대별로 성장·발달, 예방접종, 선별검사에서 빠뜨리기 쉬운 체크포인트를 묶은 섹션입니다. 예방접종은 최신 국가/기관 스케줄과 금기사항을 별도로 대조하세요.",
+    "sources": [
+      {
+        "label": "CDC immunization schedule",
+        "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/child-adolescent-age.html"
+      },
+      {
+        "label": "AAP periodicity schedule",
+        "url": "https://www.aap.org/en/practice-management/care-delivery-approaches/periodicity-schedule/"
+      }
+    ],
+    "lanes": [
+      {
+        "title": "영유아",
+        "items": [
+          {
+            "time": "출생",
+            "title": "신생아 기본 체크",
+            "points": [
+              "Apgar, 선천성 대사이상, 청각 선별",
+              "황달, 수유, 체중 감소 추적"
+            ]
+          },
+          {
+            "time": "0-6개월",
+            "title": "성장·수유·접종",
+            "points": [
+              "성장곡선과 두위 확인",
+              "월령별 예방접종과 발달 이정표 확인"
+            ]
+          },
+          {
+            "time": "9-18개월",
+            "title": "발달 선별 강화",
+            "points": [
+              "언어, 사회성, 운동 발달 확인",
+              "빈혈·납 노출 등 위험도 기반 선별"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "소아-청소년",
+        "items": [
+          {
+            "time": "2-5세",
+            "title": "행동·안전·시력",
+            "points": [
+              "수면, 배변훈련, 안전사고 예방",
+              "시력·청력·구강 건강 체크"
+            ]
+          },
+          {
+            "time": "6-10세",
+            "title": "학령기 건강관리",
+            "points": [
+              "성장속도, 비만, 혈압 추적",
+              "학습·주의력·사회 적응 문제 확인"
+            ]
+          },
+          {
+            "time": "11-18세",
+            "title": "청소년 선별",
+            "points": [
+              "사춘기, 정신건강, 물질사용, 성건강 상담",
+              "HPV, Tdap, 수막구균 등 연령별 접종 확인"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -617,6 +617,65 @@ function extractSkillSteps(body) {
   });
 }
 
+
+
+function extractRoadmapLanes(body) {
+  const laneMatches = [...body.matchAll(/^##\s+(.+)$/gm)];
+  if (laneMatches.length === 0) return [];
+
+  return laneMatches.map((laneMatch, laneIndex) => {
+    const laneStart = (laneMatch.index ?? 0) + laneMatch[0].length;
+    const laneEnd = laneIndex + 1 < laneMatches.length ? laneMatches[laneIndex + 1].index ?? body.length : body.length;
+    const laneBody = body.slice(laneStart, laneEnd).trim();
+    const itemMatches = [...laneBody.matchAll(/^###\s+(.+)$/gm)];
+
+    const items = itemMatches.map((itemMatch, itemIndex) => {
+      const itemStart = (itemMatch.index ?? 0) + itemMatch[0].length;
+      const itemEnd = itemIndex + 1 < itemMatches.length ? itemMatches[itemIndex + 1].index ?? laneBody.length : laneBody.length;
+      const itemBody = laneBody.slice(itemStart, itemEnd).trim();
+      const headingParts = itemMatch[1].split(/\s+\|\s+|\s+-\s+/).map((part) => part.trim()).filter(Boolean);
+      const points = itemBody
+        .split(/\r?\n/)
+        .map((line) => line.trim().replace(/^[-*]\s+/, "").trim())
+        .filter(Boolean);
+
+      return {
+        time: headingParts[0] || itemMatch[1].trim(),
+        title: headingParts.slice(1).join(" - ") || itemMatch[1].trim(),
+        points,
+      };
+    });
+
+    return {
+      title: cleanupHeading(laneMatch[1]),
+      items: items.filter((item) => item.time && item.title),
+    };
+  }).filter((lane) => lane.items.length > 0);
+}
+
+function buildSpecialtyRoadmaps() {
+  const root = path.join(SOURCE_NOTES_ROOT, "08 Specialty Roadmaps");
+  if (!fs.existsSync(root)) return [];
+
+  return listMarkdownFiles(root, { recursive: false, ignoreDirs: new Set(), ignoreFiles: new Set(["index.md"]) })
+    .map((filePath) => {
+      const { frontmatter, body } = splitFrontmatter(readText(filePath));
+      const specialty = readScalar(frontmatter.specialty);
+      const specialtySlug = readScalar(frontmatter.specialty_slug) || (specialty ? toSlug(specialty) : "");
+      const title = readScalar(frontmatter.title) || path.basename(filePath, ".md");
+      const description = readScalar(frontmatter.description);
+
+      return {
+        specialtySlug,
+        title,
+        description,
+        sources: parseSkillSources(frontmatter.sources),
+        lanes: extractRoadmapLanes(body),
+      };
+    })
+    .filter((roadmap) => roadmap.specialtySlug && roadmap.lanes.length > 0);
+}
+
 function buildSkills() {
   const skillsRoot = path.join(SOURCE_NOTES_ROOT, "07 Skills");
   if (!fs.existsSync(skillsRoot)) {
@@ -747,6 +806,7 @@ function main() {
     ignoreFiles: ["Lab & Img.md", "분류체계.md"],
   });
   const skills = buildSkills();
+  const specialtyRoadmaps = buildSpecialtyRoadmaps();
 
   const specialties = [...new Map(diseases.map((item) => [item.specialty, item])).keys()].map((name) => ({
     name,
@@ -766,6 +826,7 @@ function main() {
       pathology: { count: pathology.length, source: "03 Pathology" },
       labImg: { count: labImg.length, source: "06 Lab & Img" },
       skills: { count: skills.items.length, source: "07 Skills" },
+      specialtyRoadmaps: { count: specialtyRoadmaps.length, source: "08 Specialty Roadmaps" },
       specialties: { count: specialties.length, source: "derived from diseases" },
     },
   };
@@ -779,6 +840,7 @@ function main() {
   writeJson("lab-img.json", labImg);
   writeJson("skills.json", skills);
   writeJson("specialties.json", specialties);
+  writeJson("specialty-roadmaps.json", specialtyRoadmaps);
   writeJson(
     "search-index.json",
     buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology, labImg }),
