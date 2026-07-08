@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ChevronRight } from "lucide-react";
+import { Pill } from "lucide-react";
 import { buildDrugGroups } from "@/lib/drug-groups";
 import { getDrugs } from "@/lib/webdb";
 
@@ -14,14 +14,16 @@ export default function DrugsPage() {
       </header>
 
       <section>
-        <div className="mb-3 text-sm font-semibold text-slate-700">Top-level categories</div>
-        <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+        <div className="mb-2 text-base font-semibold text-slate-950">Categories</div>
+        <div className="grid grid-cols-3 gap-2 lg:grid-cols-4 xl:grid-cols-6">
           {groups.map((group) => (
-            <Link key={group.slug} href={`/drugs/category/${group.slug}`} className="list-tile flex items-center justify-between gap-4 px-4 py-4">
-              <div className="min-w-0">
-                <div className="truncate text-lg font-semibold text-slate-950">{group.title}</div>
-              </div>
-              <ChevronRight className="h-4 w-4 shrink-0 text-slate-400" />
+            <Link
+              key={group.slug}
+              href={`/drugs/category/${group.slug}`}
+              className="list-tile flex min-h-10 items-center gap-1.5 px-2 py-2 text-xs font-semibold text-slate-950 sm:gap-2 sm:px-3 sm:text-sm"
+            >
+              <Pill className="h-4 w-4 shrink-0 text-teal-700" />
+              <span className="truncate">{group.title}</span>
             </Link>
           ))}
         </div>
@@ -29,4 +31,3 @@ export default function DrugsPage() {
     </div>
   );
 }
-
