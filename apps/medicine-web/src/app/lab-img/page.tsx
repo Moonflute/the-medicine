@@ -15,23 +15,23 @@ export default function LabImgPage() {
 
       <section>
         <div className="mb-2 text-base font-semibold text-slate-950">Categories</div>
-        <div className="grid grid-cols-3 gap-2 lg:grid-cols-4 xl:grid-cols-6">
+        <div className="grid grid-cols-3 gap-2 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8">
           <Link
             href="/lab-img/medcalc"
-            className="list-tile flex min-h-10 items-center gap-1.5 border-teal-200 bg-teal-50 px-2 py-2 text-xs font-semibold text-slate-950 sm:gap-2 sm:px-3 sm:text-sm"
+            className="list-tile flex min-h-10 items-center gap-1.5 border-teal-200 bg-teal-50 px-2 py-2 text-xs font-semibold text-slate-950 sm:gap-2 sm:px-3 sm:text-sm md:min-h-24 md:flex-col md:justify-center md:px-2 md:py-3 md:text-center lg:min-h-28"
           >
-            <Calculator className="h-4 w-4 shrink-0 text-teal-700" />
-            <span className="truncate">01 MedCalc</span>
+            <Calculator className="h-4 w-4 shrink-0 text-teal-700 md:h-7 md:w-7 lg:h-8 lg:w-8" />
+            <span className="min-w-0 truncate md:overflow-visible md:whitespace-normal md:text-center md:leading-tight">01 MedCalc</span>
           </Link>
 
           {groups.map((group, index) => (
             <Link
               key={group.slug}
               href={`/lab-img/category/${group.slug}`}
-              className="list-tile flex min-h-10 items-center gap-1.5 px-2 py-2 text-xs font-semibold text-slate-950 sm:gap-2 sm:px-3 sm:text-sm"
+              className="list-tile flex min-h-10 items-center gap-1.5 px-2 py-2 text-xs font-semibold text-slate-950 sm:gap-2 sm:px-3 sm:text-sm md:min-h-24 md:flex-col md:justify-center md:px-2 md:py-3 md:text-center lg:min-h-28"
             >
-              <FlaskConical className="h-4 w-4 shrink-0 text-teal-700" />
-              <span className="truncate">{String(index + 2).padStart(2, "0")} {group.title}</span>
+              <FlaskConical className="h-4 w-4 shrink-0 text-teal-700 md:h-7 md:w-7 lg:h-8 lg:w-8" />
+              <span className="min-w-0 truncate md:overflow-visible md:whitespace-normal md:text-center md:leading-tight">{String(index + 2).padStart(2, "0")} {group.title}</span>
             </Link>
           ))}
         </div>

@@ -1,6 +1,6 @@
 {
   "name": "medicine-web",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "private": true,
   "scripts": {
     "sync:data": "node scripts/sync-generated-data.mjs",
