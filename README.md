@@ -13,6 +13,45 @@ cd apps/medicine-web
 npm run sync:data
 ```
 
+## 로드맵 작성
+
+분과 페이지 상단에 보이는 로드맵은 `source_notes/08 Specialty Roadmaps` 아래의 `.md` 파일에서 생성됩니다. 파일 하나가 분과 하나의 로드맵입니다.
+
+```txt
+source_notes/08 Specialty Roadmaps/산과.md
+source_notes/08 Specialty Roadmaps/소아청소년과.md
+```
+
+frontmatter에는 어떤 분과에 붙일지와 화면에 보일 제목, 설명, 출처를 적습니다.
+
+```md
+---
+specialty: 12 산과
+title: 산과 시기별 체크 로드맵
+description: 임신 전부터 산후까지 시기별 체크포인트를 빠르게 훑는 섹션입니다.
+sources:
+  - ACOG prenatal testing | https://www.acog.org/womens-health/infographics/prenatal-testing
+  - CDC pregnancy vaccines | https://www.cdc.gov/vaccines-pregnancy/
+---
+```
+
+본문은 `##`가 로드맵 줄(lane), `### 시기 | 제목`이 각 카드입니다. 카드 안의 bullet은 체크포인트로 표시됩니다.
+
+```md
+## 임신 전-1삼분기
+
+### 10-13주 | 염색체 선별검사
+- cfDNA/NIPT 또는 통합 선별검사 상담
+- NT 초음파 시행 여부 확인
+```
+
+작성 규칙:
+
+- `specialty`는 분과 이름과 번호를 정확히 씁니다. 예: `12 산과`, `14 소아청소년과`
+- 제목 구분자는 `### 시기 | 제목` 형식을 권장합니다.
+- lane을 여러 개 만들면 화면에서도 여러 줄의 로드맵으로 표시됩니다.
+- 수정 후 `npm run sync:data`를 실행하면 `_webapp/data/specialty-roadmaps.json`이 다시 생성됩니다.
+
 ## 질병 분류
 
 각 질병 페이지는 해당 질병 `.md` 파일의 frontmatter `분류` 목록으로 분과 페이지에 배치됩니다.
