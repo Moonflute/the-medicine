@@ -43,6 +43,18 @@ export type SpecialtyRoadmap = {
   sources: SkillSource[];
   lanes: SpecialtyRoadmapLane[];
 };
+
+export type SpecialtyTocItem = {
+  title: string;
+  path: string[];
+};
+
+export type SpecialtyToc = {
+  specialty: string;
+  specialtySlug: string;
+  sourcePath: string;
+  items: SpecialtyTocItem[];
+};
 export type SearchEntry = {
   type: string;
   slug: string;

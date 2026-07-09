@@ -161,7 +161,7 @@ function listMarkdownFiles(root, options = {}) {
   const {
     recursive = true,
     ignoreDirs = new Set(["_templates", "_webapp", ".obsidian", "images"]),
-    ignoreFiles = new Set(["index.md", "Disease_index.md", "CC_index.md", "chief_complaints_master.md"]),
+    ignoreFiles = new Set(["index.md", "Disease_index.md", "CC_index.md", "chief_complaints_master.md", "_\uBAA9\uCC28.md"]),
   } = options;
 
   const results = [];
@@ -321,7 +321,7 @@ function extractDefinition(body) {
 function buildDiseases() {
   const root = path.join(SOURCE_NOTES_ROOT, "02 Diseases");
   const files = listMarkdownFiles(root, {
-    ignoreFiles: new Set(["index.md", "Disease_index.md"]),
+    ignoreFiles: new Set(["index.md", "Disease_index.md", "_\uBAA9\uCC28.md"]),
   });
 
   return files.map((filePath) => {
@@ -348,6 +348,49 @@ function buildDiseases() {
       updatedAt: stat.mtime.toISOString(),
     };
   });
+}
+
+function parseSpecialtyTocMarkdown(raw) {
+  const items = [];
+  const stack = [];
+
+  for (const line of raw.split(/\r?\n/)) {
+    const match = line.match(/^(\s*)-\s+(.+)$/);
+    if (!match) continue;
+
+    const depth = Math.floor(match[1].replace(/\t/g, "  ").length / 2);
+    const title = match[2]
+      .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
+      .replace(/\[\[([^\]]+)\]\]/g, "$1")
+      .trim();
+    if (!title) continue;
+
+    stack[depth] = title;
+    stack.length = depth + 1;
+    items.push({ title, path: stack.slice() });
+  }
+
+  return items;
+}
+
+function buildSpecialtyToc() {
+  const root = path.join(SOURCE_NOTES_ROOT, "02 Diseases");
+  if (!fs.existsSync(root)) return [];
+
+  return fs
+    .readdirSync(root, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory() && !entry.name.startsWith("_"))
+    .map((entry) => {
+      const specialty = entry.name;
+      const tocPath = path.join(root, specialty, "_\uBAA9\uCC28.md");
+      return {
+        specialty,
+        specialtySlug: toSlug(specialty),
+        sourcePath: fs.existsSync(tocPath) ? path.relative(WORKSPACE_ROOT, tocPath).replaceAll("\\", "/") : "",
+        items: fs.existsSync(tocPath) ? parseSpecialtyTocMarkdown(readText(tocPath)) : [],
+      };
+    })
+    .filter((toc) => toc.items.length > 0);
 }
 
 function normalizeRecommendationText(value) {
@@ -807,6 +850,7 @@ function main() {
   });
   const skills = buildSkills();
   const specialtyRoadmaps = buildSpecialtyRoadmaps();
+  const specialtyToc = buildSpecialtyToc();
 
   const specialties = [...new Map(diseases.map((item) => [item.specialty, item])).keys()].map((name) => ({
     name,
@@ -827,6 +871,7 @@ function main() {
       labImg: { count: labImg.length, source: "06 Lab & Img" },
       skills: { count: skills.items.length, source: "07 Skills" },
       specialtyRoadmaps: { count: specialtyRoadmaps.length, source: "08 Specialty Roadmaps" },
+      specialtyToc: { count: specialtyToc.length, source: "02 Diseases/*/_\uBAA9\uCC28.md" },
       specialties: { count: specialties.length, source: "derived from diseases" },
     },
   };
@@ -841,6 +886,7 @@ function main() {
   writeJson("skills.json", skills);
   writeJson("specialties.json", specialties);
   writeJson("specialty-roadmaps.json", specialtyRoadmaps);
+  writeJson("specialty-toc.json", specialtyToc);
   writeJson(
     "search-index.json",
     buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology, labImg }),

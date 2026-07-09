@@ -1,4 +1,4 @@
-﻿import fs from "node:fs";
+import fs from "node:fs";
 import path from "node:path";
 import type {
   ChiefComplaintCategorySummary,
@@ -11,6 +11,7 @@ import type {
   SkillsManifest,
   SpecialtyRoadmap,
   SpecialtySummary,
+  SpecialtyToc,
   TermLink,
 } from "@/lib/types";
 
@@ -26,6 +27,7 @@ export type {
   SkillsManifest,
   SpecialtyRoadmap,
   SpecialtySummary,
+  SpecialtyToc,
   TermLink,
 } from "@/lib/types";
 
@@ -101,6 +103,9 @@ export function getSpecialtyRoadmap(slug: string): SpecialtyRoadmap | undefined 
   return readJson<SpecialtyRoadmap[]>("specialty-roadmaps.json").find((roadmap) => roadmap.specialtySlug === slug);
 }
 
+export function getSpecialtyToc(slug: string): SpecialtyToc | undefined {
+  return readJson<SpecialtyToc[]>("specialty-toc.json").find((toc) => toc.specialtySlug === slug);
+}
 export function getDiseasesBySpecialty(slug: string): DiseaseNote[] {
   return getAllDiseases().filter((note) => toBase64Url(note.specialty) === slug);
 }

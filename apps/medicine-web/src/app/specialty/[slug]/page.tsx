@@ -1,7 +1,7 @@
 ﻿import { notFound } from "next/navigation";
 import Link from "next/link";
 import { CalendarDays, CheckCircle2, ChevronRight } from "lucide-react";
-import { getDiseasesBySpecialty, getSpecialties, getSpecialtyRoadmap } from "@/lib/webdb";
+import { getDiseasesBySpecialty, getSpecialties, getSpecialtyRoadmap, getSpecialtyToc } from "@/lib/webdb";
 
 const THIRD_LEVEL_MIN_ITEMS = 4;
 
@@ -24,12 +24,42 @@ type FirstLevelGroup = {
   secondLevel: SecondLevelGroup[];
 };
 
+type TocOrder = {
+  first: Map<string, number>;
+  second: Map<string, number>;
+  third: Map<string, number>;
+};
+
 export function generateStaticParams() {
   return getSpecialties().map((specialty) => ({ slug: specialty.slug }));
 }
 
 function sortLabels(a: string, b: string) {
   return a.localeCompare(b, "ko");
+}
+
+function buildTocOrder(toc: ReturnType<typeof getSpecialtyToc>): TocOrder {
+  const first = new Map<string, number>();
+  const second = new Map<string, number>();
+  const third = new Map<string, number>();
+
+  toc?.items.forEach((item, index) => {
+    const [a, b, c] = item.path;
+    if (a && !first.has(a)) first.set(a, index);
+    if (a && b && !second.has(`${a}\u0000${b}`)) second.set(`${a}\u0000${b}`, index);
+    if (a && b && c && !third.has(`${a}\u0000${b}\u0000${c}`)) third.set(`${a}\u0000${b}\u0000${c}`, index);
+  });
+
+  return { first, second, third };
+}
+
+function compareWithOrder(a: string, b: string, order: Map<string, number>, fallbackA = a, fallbackB = b) {
+  const aOrder = order.get(a);
+  const bOrder = order.get(b);
+  if (aOrder !== undefined && bOrder !== undefined) return aOrder - bOrder;
+  if (aOrder !== undefined) return -1;
+  if (bOrder !== undefined) return 1;
+  return sortLabels(fallbackA, fallbackB);
 }
 
 function cleanClassification(note: DiseaseNote) {
@@ -42,7 +72,7 @@ function isOverviewNoteForLabel(note: DiseaseNote, label: string) {
   return note.title.trim() === label.trim();
 }
 
-function buildGroups(notes: DiseaseNote[], specialtyLabel: string): FirstLevelGroup[] {
+function buildGroups(notes: DiseaseNote[], specialtyLabel: string, tocOrder: TocOrder): FirstLevelGroup[] {
   const firstLevel = new Map<string, DiseaseNote[]>();
 
   for (const note of notes) {
@@ -59,7 +89,7 @@ function buildGroups(notes: DiseaseNote[], specialtyLabel: string): FirstLevelGr
       const bIsTop = b === specialtyLabel;
       if (aIsTop && !bIsTop) return -1;
       if (!aIsTop && bIsTop) return 1;
-      return sortLabels(a, b);
+      return compareWithOrder(a, b, tocOrder.first);
     })
     .map(([title, items]) => {
       const overviewNote = items.find((note) => isOverviewNoteForLabel(note, title));
@@ -81,7 +111,7 @@ function buildGroups(notes: DiseaseNote[], specialtyLabel: string): FirstLevelGr
         .sort(([a], [b]) => {
           if (!a && b) return -1;
           if (a && !b) return 1;
-          return sortLabels(a || title, b || title);
+          return compareWithOrder(`${title}\u0000${a || title}`, `${title}\u0000${b || title}`, tocOrder.second, a || title, b || title);
         })
         .map(([secondaryTitle, secondLevelItems]) => {
           const parentNotes: DiseaseNote[] = [];
@@ -102,7 +132,7 @@ function buildGroups(notes: DiseaseNote[], specialtyLabel: string): FirstLevelGr
           }
 
           const thirdLevel = [...thirdLevelMap.entries()]
-            .sort(([a], [b]) => sortLabels(a, b))
+            .sort(([a], [b]) => compareWithOrder(`${title}\u0000${secondaryTitle || title}\u0000${a}`, `${title}\u0000${secondaryTitle || title}\u0000${b}`, tocOrder.third))
             .reduce<ThirdLevelGroup[]>((groups, [thirdTitle, thirdItems]) => {
               if (thirdItems.length >= THIRD_LEVEL_MIN_ITEMS) {
                 groups.push({
@@ -213,7 +243,8 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
   }
 
   const specialtyLabel = title.replace(/^\d+\s*/, "").trim();
-  const grouped = buildGroups(notes, specialtyLabel);
+  const toc = getSpecialtyToc(slug);
+  const grouped = buildGroups(notes, specialtyLabel, buildTocOrder(toc));
   const specialtyOverviewNote = grouped.find((group) => group.title === specialtyLabel)?.overviewNote;
   const roadmap = getSpecialtyRoadmap(slug);
 

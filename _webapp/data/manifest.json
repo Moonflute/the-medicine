@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T13:29:34.725Z",
+  "generatedAt": "2026-07-09T14:25:46.838Z",
   "sourceRoot": "source_notes",
   "outputRoot": "_webapp/data",
   "domains": {
@@ -34,6 +34,10 @@
     "specialtyRoadmaps": {
       "count": 2,
       "source": "08 Specialty Roadmaps"
+    },
+    "specialtyToc": {
+      "count": 22,
+      "source": "02 Diseases/*/_목차.md"
     },
     "specialties": {
       "count": 22,
