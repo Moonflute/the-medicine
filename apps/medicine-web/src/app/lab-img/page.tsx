@@ -1,15 +1,7 @@
 import Link from "next/link";
-import { Calculator, ChevronRight } from "lucide-react";
+import { Calculator, FlaskConical } from "lucide-react";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
 import { getLabImgNotes } from "@/lib/webdb";
-
-function countNotes(group: ReturnType<typeof buildLabImgGroups>[number]) {
-  return (
-    group.directNotes.length +
-    group.childGroups.reduce((sum, child) => sum + child.notes.length + (child.overviewNote ? 1 : 0), 0) +
-    (group.overviewNote ? 1 : 0)
-  );
-}
 
 export default function LabImgPage() {
   const groups = buildLabImgGroups(getLabImgNotes());
@@ -22,25 +14,24 @@ export default function LabImgPage() {
       </header>
 
       <section>
-        <div className="mb-3 text-sm font-semibold text-slate-700">Top-level categories</div>
-        <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-          <Link href="/lab-img/medcalc" className="list-tile flex items-center justify-between gap-4 border-teal-200 bg-teal-50 px-4 py-4">
-            <div className="min-w-0">
-              <div className="inline-flex h-9 w-9 items-center justify-center bg-teal-700 text-white" style={{ borderRadius: 8 }}>
-                <Calculator className="h-4 w-4" />
-              </div>
-              <div className="mt-3 text-lg font-semibold text-slate-950">MedCalc</div>
-              <div className="mt-1 text-xs font-semibold uppercase text-slate-500">quick calculators</div>
-            </div>
-            <ChevronRight className="h-4 w-4 shrink-0 text-slate-400" />
+        <div className="mb-2 text-base font-semibold text-slate-950">Categories</div>
+        <div className="grid grid-cols-3 gap-2 lg:grid-cols-4 xl:grid-cols-6">
+          <Link
+            href="/lab-img/medcalc"
+            className="list-tile flex min-h-10 items-center gap-1.5 border-teal-200 bg-teal-50 px-2 py-2 text-xs font-semibold text-slate-950 sm:gap-2 sm:px-3 sm:text-sm"
+          >
+            <Calculator className="h-4 w-4 shrink-0 text-teal-700" />
+            <span className="truncate">01 MedCalc</span>
           </Link>
-          {groups.map((group) => (
-            <Link key={group.slug} href={`/lab-img/category/${group.slug}`} className="list-tile flex items-center justify-between gap-4 px-4 py-4">
-              <div className="min-w-0">
-                <div className="truncate text-lg font-semibold text-slate-950">{group.title}</div>
-                <div className="mt-1 text-xs font-semibold uppercase text-slate-500">{countNotes(group)} notes</div>
-              </div>
-              <ChevronRight className="h-4 w-4 shrink-0 text-slate-400" />
+
+          {groups.map((group, index) => (
+            <Link
+              key={group.slug}
+              href={`/lab-img/category/${group.slug}`}
+              className="list-tile flex min-h-10 items-center gap-1.5 px-2 py-2 text-xs font-semibold text-slate-950 sm:gap-2 sm:px-3 sm:text-sm"
+            >
+              <FlaskConical className="h-4 w-4 shrink-0 text-teal-700" />
+              <span className="truncate">{String(index + 2).padStart(2, "0")} {group.title}</span>
             </Link>
           ))}
         </div>
@@ -48,4 +39,3 @@ export default function LabImgPage() {
     </div>
   );
 }
-
