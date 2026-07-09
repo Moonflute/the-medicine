@@ -5,7 +5,7 @@ aliases:
 - disease
 계통: 소화기 (위장관)
 분류:
-- '* 암'
+- 암
 CC:
 - 무증상
 preprocessing_required: x

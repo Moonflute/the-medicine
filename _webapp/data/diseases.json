@@ -1,5 +1,45 @@
 [
   {
+    "id": "02 Diseases/01 순환기/(급사증후군).md",
+    "slug": "MDEg7Iic7ZmY6riwLyjquInsgqzspp3tm4TqtbApLm1k",
+    "title": "(급사증후군)",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/(급사증후군).md",
+    "specialty": "01 순환기",
+    "category": "순환기",
+    "classification": [
+      "(급사증후군)"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• (급사증후군)는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[긴 QT 증후군 (Long QT Syndrome)]], [[다형성 심실 빈맥 (TdP) (Torsades de Pointes (TdP)]], [[브루가다 증후군 (Brugada Syndrome)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[긴 QT 증후군 (Long QT Syndrome)]]",
+      "• [[다형성 심실 빈맥 (TdP) (Torsades de Pointes (TdP)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• (급사증후군)는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[긴 QT 증후군 (Long QT Syndrome)]], [[다형성 심실 빈맥 (TdP) (Torsades de Pointes (TdP)]], [[브루가다 증후군 (Brugada Syndrome)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[긴 QT 증후군 (Long QT Syndrome)]]",
+          "• [[다형성 심실 빈맥 (TdP) (Torsades de Pointes (TdP)]]",
+          "• [[브루가다 증후군 (Brugada Syndrome)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.503Z"
+  },
+  {
     "id": "02 Diseases/01 순환기/가성 동맥류 (Pseudoaneurysm).md",
     "slug": "MDEg7Iic7ZmY6riwL-qwgOyEsSDrj5nrp6XrpZggKFBzZXVkb2FuZXVyeXNtKS5tZA",
     "title": "가성 동맥류 (Pseudoaneurysm)",
@@ -1040,6 +1080,46 @@
     "updatedAt": "2026-06-06T12:07:12.587Z"
   },
   {
+    "id": "02 Diseases/01 순환기/대동맥 질환.md",
+    "slug": "MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDsp4jtmZgubWQ",
+    "title": "대동맥 질환",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/대동맥 질환.md",
+    "specialty": "01 순환기",
+    "category": "순환기",
+    "classification": [
+      "대동맥 질환"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[가성 동맥류 (Pseudoaneurysm)]], [[대동맥 박리 (Aortic Dissection)]], [[복부 대동맥류 (Abdominal Aortic Aneurysm)]]",
+      "• 대동맥 질환는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[가성 동맥류 (Pseudoaneurysm)]]",
+      "• [[대동맥 박리 (Aortic Dissection)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 대동맥 질환는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[가성 동맥류 (Pseudoaneurysm)]], [[대동맥 박리 (Aortic Dissection)]], [[복부 대동맥류 (Abdominal Aortic Aneurysm)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[가성 동맥류 (Pseudoaneurysm)]]",
+          "• [[대동맥 박리 (Aortic Dissection)]]",
+          "• [[복부 대동맥류 (Abdominal Aortic Aneurysm)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.497Z"
+  },
+  {
     "id": "02 Diseases/01 순환기/대동맥-엉덩동맥 폐색 (Aortoiliac Occlusion).md",
     "slug": "MDEg7Iic7ZmY6riwL-uMgOuPmeunpS3sl4nrjanrj5nrp6Ug7Y-Q7IOJIChBb3J0b2lsaWFjIE9jY2x1c2lvbikubWQ",
     "title": "대동맥-엉덩동맥 폐색 (Aortoiliac Occlusion)",
@@ -1711,6 +1791,46 @@
     "updatedAt": "2026-06-06T12:07:12.628Z"
   },
   {
+    "id": "02 Diseases/01 순환기/무해성 심잡음.md",
+    "slug": "MDEg7Iic7ZmY6riwL-ustO2VtOyEsSDsi6zsnqHsnYwubWQ",
+    "title": "무해성 심잡음",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/무해성 심잡음.md",
+    "specialty": "01 순환기",
+    "category": "순환기",
+    "classification": [
+      "무해성 심잡음"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[생리적 폐동맥 분지 협착 (Physiologic Pulmonary Artery Branch Stenosis)]], [[스틸 잡음 (Still's Murmur)]], [[정맥 잡음 (Venous Hum)]]",
+      "• 무해성 심잡음는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[생리적 폐동맥 분지 협착 (Physiologic Pulmonary Artery Branch Stenosis)]]",
+      "• [[스틸 잡음 (Still's Murmur)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 무해성 심잡음는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[생리적 폐동맥 분지 협착 (Physiologic Pulmonary Artery Branch Stenosis)]], [[스틸 잡음 (Still's Murmur)]], [[정맥 잡음 (Venous Hum)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[생리적 폐동맥 분지 협착 (Physiologic Pulmonary Artery Branch Stenosis)]]",
+          "• [[스틸 잡음 (Still's Murmur)]]",
+          "• [[정맥 잡음 (Venous Hum)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.510Z"
+  },
+  {
     "id": "02 Diseases/01 순환기/발작성 상심실성 빈맥 (Paroxysmal Supraventricular Tachycardia (PSVT).md",
     "slug": "MDEg7Iic7ZmY6riwL-uwnOyekeyEsSDsg4Hsi6zsi6TshLEg67mI66elIChQYXJveHlzbWFsIFN1cHJhdmVudHJpY3VsYXIgVGFjaHljYXJkaWEgKFBTVlQpLm1k",
     "title": "발작성 상심실성 빈맥 (Paroxysmal Supraventricular Tachycardia (PSVT)",
@@ -2066,6 +2186,51 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:12.646Z"
+  },
+  {
+    "id": "02 Diseases/01 순환기/부정맥.md",
+    "slug": "MDEg7Iic7ZmY6riwL-u2gOygleunpS5tZA",
+    "title": "부정맥",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/부정맥.md",
+    "specialty": "01 순환기",
+    "category": "순환기",
+    "classification": [
+      "부정맥"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 부정맥는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[동기능부전증후군 (Sick Sinus Syndrome)]], [[발작성 상심실성 빈맥 (Paroxysmal Supraventricular Tachycardia (PSVT)]], [[방실차단 (AV block)]], [[심방 조동-세동 (Atrial Flutter-Fibrillation)]], [[심방-심실 조기박동 (Atrial-Ventricular premature beat)]], [[심실 빈맥 (Ventricular Tachycardia)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[동기능부전증후군 (Sick Sinus Syndrome)]]",
+      "• [[발작성 상심실성 빈맥 (Paroxysmal Supraventricular Tachycardia (PSVT)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 부정맥는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[동기능부전증후군 (Sick Sinus Syndrome)]], [[발작성 상심실성 빈맥 (Paroxysmal Supraventricular Tachycardia (PSVT)]], [[방실차단 (AV block)]], [[심방 조동-세동 (Atrial Flutter-Fibrillation)]], [[심방-심실 조기박동 (Atrial-Ventricular premature beat)]], [[심실 빈맥 (Ventricular Tachycardia)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[동기능부전증후군 (Sick Sinus Syndrome)]]",
+          "• [[발작성 상심실성 빈맥 (Paroxysmal Supraventricular Tachycardia (PSVT)]]",
+          "• [[방실차단 (AV block)]]",
+          "• [[심방 조동-세동 (Atrial Flutter-Fibrillation)]]",
+          "• [[심방-심실 조기박동 (Atrial-Ventricular premature beat)]]",
+          "• [[심실 빈맥 (Ventricular Tachycardia)]]",
+          "• [[심실 조동,세동 (Ventricular flutter, fibrillation)]]",
+          "• [[울프-파킨슨-화이트 증후군 (WPW Syndrome)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.506Z"
   },
   {
     "id": "02 Diseases/01 순환기/불안정 협심증 (Unstable Angina).md",
@@ -3066,6 +3231,45 @@
     "updatedAt": "2026-06-06T12:07:12.698Z"
   },
   {
+    "id": "02 Diseases/01 순환기/실신.md",
+    "slug": "MDEg7Iic7ZmY6riwL-yLpOyLoC5tZA",
+    "title": "실신",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/실신.md",
+    "specialty": "01 순환기",
+    "category": "순환기",
+    "classification": [
+      "실신"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 실신는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[기립성 저혈압 (Orthostatic Hypotension)]], [[혈관미주신경성 실신 (Vasovagal Syncope)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[기립성 저혈압 (Orthostatic Hypotension)]]",
+      "• [[혈관미주신경성 실신 (Vasovagal Syncope)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 실신는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[기립성 저혈압 (Orthostatic Hypotension)]], [[혈관미주신경성 실신 (Vasovagal Syncope)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[기립성 저혈압 (Orthostatic Hypotension)]]",
+          "• [[혈관미주신경성 실신 (Vasovagal Syncope)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.502Z"
+  },
+  {
     "id": "02 Diseases/01 순환기/심근염 (Myocarditis).md",
     "slug": "MDEg7Iic7ZmY6riwL-yLrOq3vOyXvCAoTXlvY2FyZGl0aXMpLm1k",
     "title": "심근염 (Myocarditis)",
@@ -3148,6 +3352,87 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:12.703Z"
+  },
+  {
+    "id": "02 Diseases/01 순환기/심근질환.md",
+    "slug": "MDEg7Iic7ZmY6riwL-yLrOq3vOyniO2ZmC5tZA",
+    "title": "심근질환",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/심근질환.md",
+    "specialty": "01 순환기",
+    "category": "순환기",
+    "classification": [
+      "심근질환"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[비후성 심근병증 (Hypertrophic Cardiomyopathy)]], [[심근염 (Myocarditis)]], [[제한성 심근병증 (Restrictive Cardiomyopathy)]], [[확장성 심근병증 (Dilated Cardiomyopathy)]]",
+      "• 심근질환는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[비후성 심근병증 (Hypertrophic Cardiomyopathy)]]",
+      "• [[심근염 (Myocarditis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 심근질환는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[비후성 심근병증 (Hypertrophic Cardiomyopathy)]], [[심근염 (Myocarditis)]], [[제한성 심근병증 (Restrictive Cardiomyopathy)]], [[확장성 심근병증 (Dilated Cardiomyopathy)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[비후성 심근병증 (Hypertrophic Cardiomyopathy)]]",
+          "• [[심근염 (Myocarditis)]]",
+          "• [[제한성 심근병증 (Restrictive Cardiomyopathy)]]",
+          "• [[확장성 심근병증 (Dilated Cardiomyopathy)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.509Z"
+  },
+  {
+    "id": "02 Diseases/01 순환기/심막질환.md",
+    "slug": "MDEg7Iic7ZmY6riwL-yLrOunieyniO2ZmC5tZA",
+    "title": "심막질환",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/심막질환.md",
+    "specialty": "01 순환기",
+    "category": "순환기",
+    "classification": [
+      "심막질환"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[교착 심막염 (Constrictive Pericarditis)]], [[급성 심막염 (Acute Pericarditis)]], [[심장 눌림증 (Cardiac Tamponade)]]",
+      "• 심막질환는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[교착 심막염 (Constrictive Pericarditis)]]",
+      "• [[급성 심막염 (Acute Pericarditis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 심막질환는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[교착 심막염 (Constrictive Pericarditis)]], [[급성 심막염 (Acute Pericarditis)]], [[심장 눌림증 (Cardiac Tamponade)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[교착 심막염 (Constrictive Pericarditis)]]",
+          "• [[급성 심막염 (Acute Pericarditis)]]",
+          "• [[심장 눌림증 (Cardiac Tamponade)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.498Z"
   },
   {
     "id": "02 Diseases/01 순환기/심방 조동-세동 (Atrial Flutter-Fibrillation).md",
@@ -3424,6 +3709,46 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:12.717Z"
+  },
+  {
+    "id": "02 Diseases/01 순환기/심부전.md",
+    "slug": "MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA",
+    "title": "심부전",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/심부전.md",
+    "specialty": "01 순환기",
+    "category": "순환기",
+    "classification": [
+      "심부전"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[급성 심부전 (Acute Heart Failure)]], [[만성 심부전 (박출률 감소) (Chronic Heart Failure with Reduced Ejection Fraction (HFrEF))]], [[만성 심부전 (박출률 보존) (Chronic Heart Failure with Preserved Ejection Fraction (HFpEF))]]",
+      "• 심부전는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[급성 심부전 (Acute Heart Failure)]]",
+      "• [[만성 심부전 (박출률 감소) (Chronic Heart Failure with Reduced Ejection Fraction (HFrEF))]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 심부전는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[급성 심부전 (Acute Heart Failure)]], [[만성 심부전 (박출률 감소) (Chronic Heart Failure with Reduced Ejection Fraction (HFrEF))]], [[만성 심부전 (박출률 보존) (Chronic Heart Failure with Preserved Ejection Fraction (HFpEF))]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[급성 심부전 (Acute Heart Failure)]]",
+          "• [[만성 심부전 (박출률 감소) (Chronic Heart Failure with Reduced Ejection Fraction (HFrEF))]]",
+          "• [[만성 심부전 (박출률 보존) (Chronic Heart Failure with Preserved Ejection Fraction (HFpEF))]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.501Z"
   },
   {
     "id": "02 Diseases/01 순환기/심실 빈맥 (Ventricular Tachycardia).md",
@@ -4108,6 +4433,50 @@
     "updatedAt": "2026-06-06T12:07:12.755Z"
   },
   {
+    "id": "02 Diseases/01 순환기/판막질환.md",
+    "slug": "MDEg7Iic7ZmY6riwL-2MkOunieyniO2ZmC5tZA",
+    "title": "판막질환",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/판막질환.md",
+    "specialty": "01 순환기",
+    "category": "순환기",
+    "classification": [
+      "판막질환"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 판막질환는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[대동맥판막 역류 (Aortic Regurgitation)]], [[대동맥판막 협착 (Aortic Stenosis)]], [[삼첨판막 역류 (Tricuspid Regurgitation)]], [[승모판막 역류 (Mitral Regurgitation)]], [[승모판막 일탈증 (Mitral Valve Prolapse)]], [[승모판막 협착 (Mitral Stenosis)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[대동맥판막 역류 (Aortic Regurgitation)]]",
+      "• [[대동맥판막 협착 (Aortic Stenosis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 판막질환는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[대동맥판막 역류 (Aortic Regurgitation)]], [[대동맥판막 협착 (Aortic Stenosis)]], [[삼첨판막 역류 (Tricuspid Regurgitation)]], [[승모판막 역류 (Mitral Regurgitation)]], [[승모판막 일탈증 (Mitral Valve Prolapse)]], [[승모판막 협착 (Mitral Stenosis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[대동맥판막 역류 (Aortic Regurgitation)]]",
+          "• [[대동맥판막 협착 (Aortic Stenosis)]]",
+          "• [[삼첨판막 역류 (Tricuspid Regurgitation)]]",
+          "• [[승모판막 역류 (Mitral Regurgitation)]]",
+          "• [[승모판막 일탈증 (Mitral Valve Prolapse)]]",
+          "• [[승모판막 협착 (Mitral Stenosis)]]",
+          "• [[폐동맥판막 협착 (Pulmonary Stenosis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.505Z"
+  },
+  {
     "id": "02 Diseases/01 순환기/폐동맥판막 협착 (Pulmonary Stenosis).md",
     "slug": "MDEg7Iic7ZmY6riwL-2PkOuPmeunpe2MkOuniSDtmJHssKkgKFB1bG1vbmFyeSBTdGVub3NpcykubWQ",
     "title": "폐동맥판막 협착 (Pulmonary Stenosis)",
@@ -4350,6 +4719,49 @@
     "updatedAt": "2026-06-06T12:07:12.769Z"
   },
   {
+    "id": "02 Diseases/01 순환기/허혈성 심질환.md",
+    "slug": "MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ",
+    "title": "허혈성 심질환",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/허혈성 심질환.md",
+    "specialty": "01 순환기",
+    "category": "순환기",
+    "classification": [
+      "허혈성 심질환"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[변이형 협심증 (Variant Angina)]], [[불안정 협심증 (Unstable Angina)]], [[비ST분절 상승 심근경색증 (NSTEMI) (Non-ST-Elevation Myocardial Infarction)]], [[안정 협심증 (Stable Angina)]], [[우심실 경색 (RV Infarct)]], [[ST분절 상승 심근경색증 (STEMI) (ST-Elevation Myocardial Infarction)]]",
+      "• 허혈성 심질환는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[변이형 협심증 (Variant Angina)]]",
+      "• [[불안정 협심증 (Unstable Angina)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 허혈성 심질환는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[변이형 협심증 (Variant Angina)]], [[불안정 협심증 (Unstable Angina)]], [[비ST분절 상승 심근경색증 (NSTEMI) (Non-ST-Elevation Myocardial Infarction)]], [[안정 협심증 (Stable Angina)]], [[우심실 경색 (RV Infarct)]], [[ST분절 상승 심근경색증 (STEMI) (ST-Elevation Myocardial Infarction)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[변이형 협심증 (Variant Angina)]]",
+          "• [[불안정 협심증 (Unstable Angina)]]",
+          "• [[비ST분절 상승 심근경색증 (NSTEMI) (Non-ST-Elevation Myocardial Infarction)]]",
+          "• [[안정 협심증 (Stable Angina)]]",
+          "• [[우심실 경색 (RV Infarct)]]",
+          "• [[ST분절 상승 심근경색증 (STEMI) (ST-Elevation Myocardial Infarction)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.507Z"
+  },
+  {
     "id": "02 Diseases/01 순환기/혈관미주신경성 실신 (Vasovagal Syncope).md",
     "slug": "MDEg7Iic7ZmY6riwL-2YiOq0gOuvuOyjvOyLoOqyveyEsSDsi6Tsi6AgKFZhc292YWdhbCBTeW5jb3BlKS5tZA",
     "title": "혈관미주신경성 실신 (Vasovagal Syncope)",
@@ -4446,6 +4858,50 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:12.775Z"
+  },
+  {
+    "id": "02 Diseases/01 순환기/혈관질환.md",
+    "slug": "MDEg7Iic7ZmY6riwL-2YiOq0gOyniO2ZmC5tZA",
+    "title": "혈관질환",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/혈관질환.md",
+    "specialty": "01 순환기",
+    "category": "순환기",
+    "classification": [
+      "혈관질환"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 혈관질환는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[급성 동맥 폐색 (Acute Arterial Occlusion)]], [[다카야수 동맥염 (Takayasu's Arteritis)]], [[대동맥-엉덩동맥 폐색 (Aortoiliac Occlusion)]], [[동맥경화성 만성 동맥 폐색 (Atherosclerotic Chronic Arterial Occlusion)]], [[심부 정맥 혈전증 (Deep Vein Thrombosis)]], [[폐쇄혈관 혈전염 (버거병) (Thromboangiitis Obliterans (Buerger's Disease))]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[급성 동맥 폐색 (Acute Arterial Occlusion)]]",
+      "• [[다카야수 동맥염 (Takayasu's Arteritis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 혈관질환는 순환기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[급성 동맥 폐색 (Acute Arterial Occlusion)]], [[다카야수 동맥염 (Takayasu's Arteritis)]], [[대동맥-엉덩동맥 폐색 (Aortoiliac Occlusion)]], [[동맥경화성 만성 동맥 폐색 (Atherosclerotic Chronic Arterial Occlusion)]], [[심부 정맥 혈전증 (Deep Vein Thrombosis)]], [[폐쇄혈관 혈전염 (버거병) (Thromboangiitis Obliterans (Buerger's Disease))]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[급성 동맥 폐색 (Acute Arterial Occlusion)]]",
+          "• [[다카야수 동맥염 (Takayasu's Arteritis)]]",
+          "• [[대동맥-엉덩동맥 폐색 (Aortoiliac Occlusion)]]",
+          "• [[동맥경화성 만성 동맥 폐색 (Atherosclerotic Chronic Arterial Occlusion)]]",
+          "• [[심부 정맥 혈전증 (Deep Vein Thrombosis)]]",
+          "• [[폐쇄혈관 혈전염 (버거병) (Thromboangiitis Obliterans (Buerger's Disease))]]",
+          "• [[하지 정맥류 (Varicose Vein)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.500Z"
   },
   {
     "id": "02 Diseases/01 순환기/확장성 심근병증 (Dilated Cardiomyopathy).md",
@@ -5447,6 +5903,86 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:12.831Z"
+  },
+  {
+    "id": "02 Diseases/02 호흡기/기침.md",
+    "slug": "MDIg7Zi47Z2h6riwL-q4sOy5qC5tZA",
+    "title": "기침",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/기침.md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "기침"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 기침는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[급성 (-3주) (Acute (-3 Weeks))]], [[만성 (-8주) (Chronic (-8 Weeks))]], [[아급성 (3주~8주) (Subacute (3-8 Weeks))]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[급성 (-3주) (Acute (-3 Weeks))]]",
+      "• [[만성 (-8주) (Chronic (-8 Weeks))]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 기침는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[급성 (-3주) (Acute (-3 Weeks))]], [[만성 (-8주) (Chronic (-8 Weeks))]], [[아급성 (3주~8주) (Subacute (3-8 Weeks))]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[급성 (-3주) (Acute (-3 Weeks))]]",
+          "• [[만성 (-8주) (Chronic (-8 Weeks))]]",
+          "• [[아급성 (3주~8주) (Subacute (3-8 Weeks))]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.517Z"
+  },
+  {
+    "id": "02 Diseases/02 호흡기/기흉.md",
+    "slug": "MDIg7Zi47Z2h6riwL-q4sO2diS5tZA",
+    "title": "기흉",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/기흉.md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "기흉"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 기흉는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[긴장성 기흉 (Tension Pneumothorax)]], [[원발성 기흉 (Primary Spontaneous Pneumothorax)]], [[이차성 기흉 (Secondary Spontaneous Pneumothorax)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[긴장성 기흉 (Tension Pneumothorax)]]",
+      "• [[원발성 기흉 (Primary Spontaneous Pneumothorax)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 기흉는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[긴장성 기흉 (Tension Pneumothorax)]], [[원발성 기흉 (Primary Spontaneous Pneumothorax)]], [[이차성 기흉 (Secondary Spontaneous Pneumothorax)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[긴장성 기흉 (Tension Pneumothorax)]]",
+          "• [[원발성 기흉 (Primary Spontaneous Pneumothorax)]]",
+          "• [[이차성 기흉 (Secondary Spontaneous Pneumothorax)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.519Z"
   },
   {
     "id": "02 Diseases/02 호흡기/긴장성 기흉 (Tension Pneumothorax).md",
@@ -7644,6 +8180,46 @@
     "updatedAt": "2026-06-06T12:07:12.960Z"
   },
   {
+    "id": "02 Diseases/02 호흡기/종격동.md",
+    "slug": "MDIg7Zi47Z2h6riwL-yiheqyqeuPmS5tZA",
+    "title": "종격동",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/종격동.md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "종격동"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[세로칸 기종 (Mediastinal Emphysema)]], [[세로칸염 (Mediastinitis)]], [[종격동 종괴 (Mediastinal Mass)]]",
+      "• 종격동는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[세로칸 기종 (Mediastinal Emphysema)]]",
+      "• [[세로칸염 (Mediastinitis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 종격동는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[세로칸 기종 (Mediastinal Emphysema)]], [[세로칸염 (Mediastinitis)]], [[종격동 종괴 (Mediastinal Mass)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[세로칸 기종 (Mediastinal Emphysema)]]",
+          "• [[세로칸염 (Mediastinitis)]]",
+          "• [[종격동 종괴 (Mediastinal Mass)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.523Z"
+  },
+  {
     "id": "02 Diseases/02 호흡기/직업성 천식 (Occupational Asthma).md",
     "slug": "MDIg7Zi47Z2h6riwL-yngeyXheyEsSDsspzsi50gKE9jY3VwYXRpb25hbCBBc3RobWEpLm1k",
     "title": "직업성 천식 (Occupational Asthma)",
@@ -7962,6 +8538,48 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:12.979Z"
+  },
+  {
+    "id": "02 Diseases/02 호흡기/천식.md",
+    "slug": "MDIg7Zi47Z2h6riwL-yynOyLnS5tZA",
+    "title": "천식",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/천식.md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "천식"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 천식는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[아스피린 과민성 천식]], [[운동 유발 천식 (Exercise-Induced Asthma)]], [[직업성 천식 (Occupational Asthma)]], [[천식 (Asthma)]], [[COPD의 급성 악화 (Acute Exacerbation of COPD)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[아스피린 과민성 천식]]",
+      "• [[운동 유발 천식 (Exercise-Induced Asthma)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 천식는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[아스피린 과민성 천식]], [[운동 유발 천식 (Exercise-Induced Asthma)]], [[직업성 천식 (Occupational Asthma)]], [[천식 (Asthma)]], [[COPD의 급성 악화 (Acute Exacerbation of COPD)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[아스피린 과민성 천식]]",
+          "• [[운동 유발 천식 (Exercise-Induced Asthma)]]",
+          "• [[직업성 천식 (Occupational Asthma)]]",
+          "• [[천식 (Asthma)]]",
+          "• [[COPD의 급성 악화 (Acute Exacerbation of COPD)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.524Z"
   },
   {
     "id": "02 Diseases/02 호흡기/클렙시엘라 폐렴 (Klebsiella Pneumonia).md",
@@ -8560,6 +9178,49 @@
     "updatedAt": "2026-06-06T12:07:13.012Z"
   },
   {
+    "id": "02 Diseases/02 호흡기/폐결핵.md",
+    "slug": "MDIg7Zi47Z2h6riwL-2PkOqysO2VtS5tZA",
+    "title": "폐결핵",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/폐결핵.md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "폐결핵"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 폐결핵는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[기관지 결핵 (Bronchial Tuberculosis)]], [[잠복 결핵 (성인) (Latent Tuberculosis (Adult))]], [[잠복 결핵 (소아) (Latent Tuberculosis (Child))]], [[좁쌀 결핵 (Miliary Tuberculosis)]], [[진균종 (Fungus Ball)]], [[폐결핵 (Pulmonary Tuberculosis)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[기관지 결핵 (Bronchial Tuberculosis)]]",
+      "• [[잠복 결핵 (성인) (Latent Tuberculosis (Adult))]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 폐결핵는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[기관지 결핵 (Bronchial Tuberculosis)]], [[잠복 결핵 (성인) (Latent Tuberculosis (Adult))]], [[잠복 결핵 (소아) (Latent Tuberculosis (Child))]], [[좁쌀 결핵 (Miliary Tuberculosis)]], [[진균종 (Fungus Ball)]], [[폐결핵 (Pulmonary Tuberculosis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[기관지 결핵 (Bronchial Tuberculosis)]]",
+          "• [[잠복 결핵 (성인) (Latent Tuberculosis (Adult))]]",
+          "• [[잠복 결핵 (소아) (Latent Tuberculosis (Child))]]",
+          "• [[좁쌀 결핵 (Miliary Tuberculosis)]]",
+          "• [[진균종 (Fungus Ball)]]",
+          "• [[폐결핵 (Pulmonary Tuberculosis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.518Z"
+  },
+  {
     "id": "02 Diseases/02 호흡기/폐고혈압 (Pulmonary Hypertension).md",
     "slug": "MDIg7Zi47Z2h6riwL-2PkOqzoO2YiOyVlSAoUHVsbW9uYXJ5IEh5cGVydGVuc2lvbikubWQ",
     "title": "폐고혈압 (Pulmonary Hypertension)",
@@ -8637,6 +9298,48 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:13.017Z"
+  },
+  {
+    "id": "02 Diseases/02 호흡기/폐렴.md",
+    "slug": "MDIg7Zi47Z2h6riwL-2PkOugtC5tZA",
+    "title": "폐렴",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/폐렴.md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "폐렴"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 폐렴는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[마이코플라스마 폐렴 (Mycoplasma Pneumonia)]], [[비정형 폐렴 (Atypical Pneumonia)]], [[정형 폐렴 (Typical Pneumonia)]], [[클렙시엘라 폐렴 (Klebsiella Pneumonia)]], [[폐포자충 폐렴 (Pneumocystis Pneumonia)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[마이코플라스마 폐렴 (Mycoplasma Pneumonia)]]",
+      "• [[비정형 폐렴 (Atypical Pneumonia)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 폐렴는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[마이코플라스마 폐렴 (Mycoplasma Pneumonia)]], [[비정형 폐렴 (Atypical Pneumonia)]], [[정형 폐렴 (Typical Pneumonia)]], [[클렙시엘라 폐렴 (Klebsiella Pneumonia)]], [[폐포자충 폐렴 (Pneumocystis Pneumonia)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[마이코플라스마 폐렴 (Mycoplasma Pneumonia)]]",
+          "• [[비정형 폐렴 (Atypical Pneumonia)]]",
+          "• [[정형 폐렴 (Typical Pneumonia)]]",
+          "• [[클렙시엘라 폐렴 (Klebsiella Pneumonia)]]",
+          "• [[폐포자충 폐렴 (Pneumocystis Pneumonia)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.522Z"
   },
   {
     "id": "02 Diseases/02 호흡기/폐색전증 (Pulmonary Embolism).md",
@@ -8831,6 +9534,48 @@
     "updatedAt": "2026-06-06T12:07:13.028Z"
   },
   {
+    "id": "02 Diseases/02 호흡기/폐종양.md",
+    "slug": "MDIg7Zi47Z2h6riwL-2PkOyiheyWkS5tZA",
+    "title": "폐종양",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/폐종양.md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "폐종양"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 폐종양는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[단일 폐결절 (SPN) (Solitary Pulmonary Nodule)]], [[폐 선암 (Adenocarcinoma)]], [[폐 소세포암 (Small Cell Carcinoma)]], [[폐 편평상피암 (Squamous Cell Carcinoma)]], [[폐암 (Lung Cancer)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[단일 폐결절 (SPN) (Solitary Pulmonary Nodule)]]",
+      "• [[폐 선암 (Adenocarcinoma)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 폐종양는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[단일 폐결절 (SPN) (Solitary Pulmonary Nodule)]], [[폐 선암 (Adenocarcinoma)]], [[폐 소세포암 (Small Cell Carcinoma)]], [[폐 편평상피암 (Squamous Cell Carcinoma)]], [[폐암 (Lung Cancer)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[단일 폐결절 (SPN) (Solitary Pulmonary Nodule)]]",
+          "• [[폐 선암 (Adenocarcinoma)]]",
+          "• [[폐 소세포암 (Small Cell Carcinoma)]]",
+          "• [[폐 편평상피암 (Squamous Cell Carcinoma)]]",
+          "• [[폐암 (Lung Cancer)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.520Z"
+  },
+  {
     "id": "02 Diseases/02 호흡기/폐포자충 폐렴 (Pneumocystis Pneumonia).md",
     "slug": "MDIg7Zi47Z2h6riwL-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k",
     "title": "폐포자충 폐렴 (Pneumocystis Pneumonia)",
@@ -8914,6 +9659,45 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:13.032Z"
+  },
+  {
+    "id": "02 Diseases/02 호흡기/폐혈관.md",
+    "slug": "MDIg7Zi47Z2h6riwL-2PkO2YiOq0gC5tZA",
+    "title": "폐혈관",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/폐혈관.md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "폐혈관"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 폐혈관는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[폐고혈압 (Pulmonary Hypertension)]], [[폐색전증 (Pulmonary Embolism)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[폐고혈압 (Pulmonary Hypertension)]]",
+      "• [[폐색전증 (Pulmonary Embolism)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 폐혈관는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[폐고혈압 (Pulmonary Hypertension)]], [[폐색전증 (Pulmonary Embolism)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[폐고혈압 (Pulmonary Hypertension)]]",
+          "• [[폐색전증 (Pulmonary Embolism)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.527Z"
   },
   {
     "id": "02 Diseases/02 호흡기/폐흡충증 (Pulmonary Paragonimiasis).md",
@@ -9085,6 +9869,47 @@
     "updatedAt": "2026-06-06T12:07:13.041Z"
   },
   {
+    "id": "02 Diseases/02 호흡기/호산구 폐렴.md",
+    "slug": "MDIg7Zi47Z2h6riwL-2YuOyCsOq1rCDtj5DroLQubWQ",
+    "title": "호산구 폐렴",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/호산구 폐렴.md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "호산구 폐렴"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)]], [[처그-스트라우스 증후군 (Churg-Strauss Syndrome)]], [[폐흡충증 (Pulmonary Paragonimiasis)]], [[호산구 폐렴 (Eosinophilic Pneumonia)]]",
+      "• 호산구 폐렴는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)]]",
+      "• [[처그-스트라우스 증후군 (Churg-Strauss Syndrome)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 호산구 폐렴는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)]], [[처그-스트라우스 증후군 (Churg-Strauss Syndrome)]], [[폐흡충증 (Pulmonary Paragonimiasis)]], [[호산구 폐렴 (Eosinophilic Pneumonia)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)]]",
+          "• [[처그-스트라우스 증후군 (Churg-Strauss Syndrome)]]",
+          "• [[폐흡충증 (Pulmonary Paragonimiasis)]]",
+          "• [[호산구 폐렴 (Eosinophilic Pneumonia)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.525Z"
+  },
+  {
     "id": "02 Diseases/02 호흡기/호흡기.md",
     "slug": "MDIg7Zi47Z2h6riwL-2YuO2doeq4sC5tZA",
     "title": "호흡기",
@@ -9246,6 +10071,87 @@
     "updatedAt": "2026-05-05T15:12:02.705Z"
   },
   {
+    "id": "02 Diseases/02 호흡기/환기장애.md",
+    "slug": "MDIg7Zi47Z2h6riwL-2ZmOq4sOyepeyVoC5tZA",
+    "title": "환기장애",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/환기장애.md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "환기장애"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[과호흡 (Hyperventilation)]], [[급성 호흡곤란 증후군 (ARDS) (Acute Respiratory Distress Syndrome)]], [[저호흡 (Hypoventilation)]]",
+      "• 환기장애는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[과호흡 (Hyperventilation)]]",
+      "• [[급성 호흡곤란 증후군 (ARDS) (Acute Respiratory Distress Syndrome)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 환기장애는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[과호흡 (Hyperventilation)]], [[급성 호흡곤란 증후군 (ARDS) (Acute Respiratory Distress Syndrome)]], [[저호흡 (Hypoventilation)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[과호흡 (Hyperventilation)]]",
+          "• [[급성 호흡곤란 증후군 (ARDS) (Acute Respiratory Distress Syndrome)]]",
+          "• [[저호흡 (Hypoventilation)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.514Z"
+  },
+  {
+    "id": "02 Diseases/02 호흡기/흉수.md",
+    "slug": "MDIg7Zi47Z2h6riwL-2dieyImC5tZA",
+    "title": "흉수",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/흉수.md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "흉수"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 흉수는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[결핵성 흉막염 (Tuberculous Pleurisy)]], [[부폐렴성 흉수 (Parapneumonic Effusion)]], [[악성 흉수 (Malignant Pleural Effusion)]], [[암죽가슴증 (Chylothorax)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[결핵성 흉막염 (Tuberculous Pleurisy)]]",
+      "• [[부폐렴성 흉수 (Parapneumonic Effusion)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 흉수는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[결핵성 흉막염 (Tuberculous Pleurisy)]], [[부폐렴성 흉수 (Parapneumonic Effusion)]], [[악성 흉수 (Malignant Pleural Effusion)]], [[암죽가슴증 (Chylothorax)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[결핵성 흉막염 (Tuberculous Pleurisy)]]",
+          "• [[부폐렴성 흉수 (Parapneumonic Effusion)]]",
+          "• [[악성 흉수 (Malignant Pleural Effusion)]]",
+          "• [[암죽가슴증 (Chylothorax)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.512Z"
+  },
+  {
     "id": "02 Diseases/02 호흡기/COPD의 급성 악화 (Acute Exacerbation of COPD).md",
     "slug": "MDIg7Zi47Z2h6riwL0NPUETsnZgg6riJ7ISxIOyVhe2ZlCAoQWN1dGUgRXhhY2VyYmF0aW9uIG9mIENPUEQpLm1k",
     "title": "COPD의 급성 악화 (Acute Exacerbation of COPD)",
@@ -9324,6 +10230,87 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:12.789Z"
+  },
+  {
+    "id": "02 Diseases/02 호흡기/ILD – 직업성.md",
+    "slug": "MDIg7Zi47Z2h6riwL0lMRCDigJMg7KeB7JeF7ISxLm1k",
+    "title": "ILD – 직업성",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/ILD – 직업성.md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "ILD – 직업성"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• ILD – 직업성는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[규폐증 (Silicosis)]], [[석면폐증 (Asbestosis)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[규폐증 (Silicosis)]]",
+      "• [[석면폐증 (Asbestosis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• ILD – 직업성는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[규폐증 (Silicosis)]], [[석면폐증 (Asbestosis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[규폐증 (Silicosis)]]",
+          "• [[석면폐증 (Asbestosis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.515Z"
+  },
+  {
+    "id": "02 Diseases/02 호흡기/ILD.md",
+    "slug": "MDIg7Zi47Z2h6riwL0lMRC5tZA",
+    "title": "ILD",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/ILD.md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "ILD"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• ILD는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[간질성 폐질환 (Interstitial lung disease)]], [[비특이 간질성 폐렴 (NSIP) (Nonspecific Interstitial Pneumonia)]], [[유육종증 (Sarcoidosis)]], [[조직화 폐렴 (COP) (Cryptogenic Organizing Pneumonia)]], [[특발성 폐섬유증 (IPF) (Idiopathic Pulmonary Fibrosis)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[간질성 폐질환 (Interstitial lung disease)]]",
+      "• [[비특이 간질성 폐렴 (NSIP) (Nonspecific Interstitial Pneumonia)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• ILD는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[간질성 폐질환 (Interstitial lung disease)]], [[비특이 간질성 폐렴 (NSIP) (Nonspecific Interstitial Pneumonia)]], [[유육종증 (Sarcoidosis)]], [[조직화 폐렴 (COP) (Cryptogenic Organizing Pneumonia)]], [[특발성 폐섬유증 (IPF) (Idiopathic Pulmonary Fibrosis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[간질성 폐질환 (Interstitial lung disease)]]",
+          "• [[비특이 간질성 폐렴 (NSIP) (Nonspecific Interstitial Pneumonia)]]",
+          "• [[유육종증 (Sarcoidosis)]]",
+          "• [[조직화 폐렴 (COP) (Cryptogenic Organizing Pneumonia)]]",
+          "• [[특발성 폐섬유증 (IPF) (Idiopathic Pulmonary Fibrosis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.511Z"
   },
   {
     "id": "02 Diseases/03 소화기/간담췌/간 농양 (아메바성) (Amoebic Liver Abscess).md",
@@ -9624,6 +10611,72 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:13.065Z"
+  },
+  {
+    "id": "02 Diseases/03 소화기/간담췌/간.md",
+    "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQubWQ",
+    "title": "간",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/간.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "간"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[간 농양 (아메바성) (Amoebic Liver Abscess)]], [[간 농양 (Liver Abscess)]], [[간 혈관종 (Hepatic Hemangioma)]], [[간경변증 (Liver Cirrhosis)]], [[간성 뇌증 (Hepatic Encephalopathy)]], [[간세포 선종 (Hepatocellular Adenoma)]]",
+      "• 간는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[간 농양 (아메바성) (Amoebic Liver Abscess)]]",
+      "• [[간 농양 (Liver Abscess)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 간는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[간 농양 (아메바성) (Amoebic Liver Abscess)]], [[간 농양 (Liver Abscess)]], [[간 혈관종 (Hepatic Hemangioma)]], [[간경변증 (Liver Cirrhosis)]], [[간성 뇌증 (Hepatic Encephalopathy)]], [[간세포 선종 (Hepatocellular Adenoma)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[간 농양 (아메바성) (Amoebic Liver Abscess)]]",
+          "• [[간 농양 (Liver Abscess)]]",
+          "• [[간 혈관종 (Hepatic Hemangioma)]]",
+          "• [[간경변증 (Liver Cirrhosis)]]",
+          "• [[간성 뇌증 (Hepatic Encephalopathy)]]",
+          "• [[간세포 선종 (Hepatocellular Adenoma)]]",
+          "• [[간세포암 (Hepatocellular Carcinoma)]]",
+          "• [[간신 증후군 (Hepatorenal Syndrome)]]",
+          "• [[국소 결절 과형성 (Focal Nodular Hyperplasia)]]",
+          "• [[급성 A형 간염 (Acute Hepatitis A)]]",
+          "• [[급성 B형 간염 (Acute Hepatitis B)]]",
+          "• [[급성 C형 간염 (HCV) (Acute Hepatitis C)]]",
+          "• [[독성 간염 (Toxic Hepatitis)]]",
+          "• [[만성 B형 간염 (Chronic Hepatitis B (HBV))]]",
+          "• [[만성 C형 간염 (Chronic Hepatitis C (HCV))]]",
+          "• [[복수 (간경변) (Ascites (Cirrhosis))]]",
+          "• [[복수 (결핵) (Ascites (Tuberculosis))]]",
+          "• [[복수 (암) (Ascites (Cancer))]]",
+          "• [[비알코올성 지방간 (Non-alcoholic Fatty Liver Disease)]]",
+          "• [[비알코올성 지방간염 (Non-alcoholic Steatohepatitis)]]",
+          "• [[식도 정맥류 (Esophageal Varices)]]",
+          "• [[알코올성 간질환 (Alcoholic Liver Disease)]]",
+          "• [[원발성 경화성 담관염 (PSC) (Primary Sclerosing Cholangitis)]]",
+          "• [[원발성 담즙성 담관염 (PBC) (Primary Biliary Cholangitis)]]",
+          "• [[위 정맥류 (Gastric Varices)]]",
+          "• [[자가면역 간염 (Autoimmune Hepatitis)]]",
+          "• [[자발성 세균 복막염 (Spontaneous Bacterial Peritonitis)]]",
+          "• [[전격성 간염 (Fulminant Hepatitis)]]",
+          "• [[D형 간염 (HDV) (Hepatitis D (HDV))]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.528Z"
   },
   {
     "id": "02 Diseases/03 소화기/간담췌/간경변증 (Liver Cirrhosis).md",
@@ -10207,6 +11260,45 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:13.095Z"
+  },
+  {
+    "id": "02 Diseases/03 소화기/간담췌/고빌리루빈증.md",
+    "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qs6DruYzrpqzro6jruYjspp0ubWQ",
+    "title": "고빌리루빈증",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/고빌리루빈증.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "고빌리루빈증"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 고빌리루빈증는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[길버트 증후군 (Gilbert's Syndrome)]], [[크리글러-나자르 증후군 (Crigler-Najjar Syndrome)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[길버트 증후군 (Gilbert's Syndrome)]]",
+      "• [[크리글러-나자르 증후군 (Crigler-Najjar Syndrome)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 고빌리루빈증는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[길버트 증후군 (Gilbert's Syndrome)]], [[크리글러-나자르 증후군 (Crigler-Najjar Syndrome)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[길버트 증후군 (Gilbert's Syndrome)]]",
+          "• [[크리글러-나자르 증후군 (Crigler-Najjar Syndrome)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.533Z"
   },
   {
     "id": "02 Diseases/03 소화기/간담췌/구역성 췌장 괴사 (Localized Pancreatic Necrosis).md",
@@ -10974,6 +12066,53 @@
     "updatedAt": "2026-06-06T12:07:13.130Z"
   },
   {
+    "id": "02 Diseases/03 소화기/간담췌/담.md",
+    "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7QubWQ",
+    "title": "담",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/담.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "담"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 담는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[급성 쓸개염 (Acute Cholecystitis)]], [[담관암 (Cholangiocarcinoma)]], [[담낭암 (Gallbladder Cancer)]], [[담즙 누출 (Biliary Leak)]], [[만성 쓸개염 (Chronic Cholecystitis)]], [[쓸개 용종형 병변 (Gallbladder Polypoid Lesion)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[급성 쓸개염 (Acute Cholecystitis)]]",
+      "• [[담관암 (Cholangiocarcinoma)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 담는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[급성 쓸개염 (Acute Cholecystitis)]], [[담관암 (Cholangiocarcinoma)]], [[담낭암 (Gallbladder Cancer)]], [[담즙 누출 (Biliary Leak)]], [[만성 쓸개염 (Chronic Cholecystitis)]], [[쓸개 용종형 병변 (Gallbladder Polypoid Lesion)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[급성 쓸개염 (Acute Cholecystitis)]]",
+          "• [[담관암 (Cholangiocarcinoma)]]",
+          "• [[담낭암 (Gallbladder Cancer)]]",
+          "• [[담즙 누출 (Biliary Leak)]]",
+          "• [[만성 쓸개염 (Chronic Cholecystitis)]]",
+          "• [[쓸개 용종형 병변 (Gallbladder Polypoid Lesion)]]",
+          "• [[쓸개관 낭종 (Choledochal Cyst)]]",
+          "• [[쓸개관돌 (Common Bile Duct Stone)]]",
+          "• [[쓸개관염 (Cholangitis)]]",
+          "• [[쓸개돌 (Gallstone)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.531Z"
+  },
+  {
     "id": "02 Diseases/03 소화기/간담췌/담관암 (Cholangiocarcinoma).md",
     "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7TqtIDslZQgKENob2xhbmdpb2NhcmNpbm9tYSkubWQ",
     "title": "담관암 (Cholangiocarcinoma)",
@@ -11209,7 +12348,7 @@
     "category": "소화기 (간담췌)",
     "classification": [
       "담",
-      "* 담낭절제술"
+      "담낭절제술"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -11295,7 +12434,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.146Z"
+    "updatedAt": "2026-07-09T13:24:28.984Z"
   },
   {
     "id": "02 Diseases/03 소화기/간담췌/독성 간염 (Toxic Hepatitis).md",
@@ -13635,6 +14774,52 @@
     "updatedAt": "2026-06-06T12:07:13.265Z"
   },
   {
+    "id": "02 Diseases/03 소화기/간담췌/췌.md",
+    "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4wubWQ",
+    "title": "췌",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/췌.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "췌"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[감염성 췌장 괴사 (Infected Pancreatic Necrosis)]], [[구역성 췌장 괴사 (Localized Pancreatic Necrosis)]], [[급성 췌장염 (Acute Pancreatitis)]], [[만성 췌장염 (Chronic Pancreatitis)]], [[췌관내 유두상 점액성 종양 (IPMN) (Intraductal Papillary Mucinous Neoplasm (IPMN))]], [[췌장 가성낭종 (Pancreatic Pseudocyst)]]",
+      "• 췌는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[감염성 췌장 괴사 (Infected Pancreatic Necrosis)]]",
+      "• [[구역성 췌장 괴사 (Localized Pancreatic Necrosis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 췌는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[감염성 췌장 괴사 (Infected Pancreatic Necrosis)]], [[구역성 췌장 괴사 (Localized Pancreatic Necrosis)]], [[급성 췌장염 (Acute Pancreatitis)]], [[만성 췌장염 (Chronic Pancreatitis)]], [[췌관내 유두상 점액성 종양 (IPMN) (Intraductal Papillary Mucinous Neoplasm (IPMN))]], [[췌장 가성낭종 (Pancreatic Pseudocyst)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[감염성 췌장 괴사 (Infected Pancreatic Necrosis)]]",
+          "• [[구역성 췌장 괴사 (Localized Pancreatic Necrosis)]]",
+          "• [[급성 췌장염 (Acute Pancreatitis)]]",
+          "• [[만성 췌장염 (Chronic Pancreatitis)]]",
+          "• [[췌관내 유두상 점액성 종양 (IPMN) (Intraductal Papillary Mucinous Neoplasm (IPMN))]]",
+          "• [[췌장 가성낭종 (Pancreatic Pseudocyst)]]",
+          "• [[췌장 낭성 종양 (Pancreatic Cystic Neoplasm)]]",
+          "• [[췌장암 (Pancreatic Cancer)]]",
+          "• [[팽대부 주위암 (Periampullary Carcinoma)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.530Z"
+  },
+  {
     "id": "02 Diseases/03 소화기/간담췌/췌관내 유두상 점액성 종양 (IPMN) (Intraductal Papillary Mucinous Neoplasm (IPMN)).md",
     "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zqtIDrgrQg7Jyg65GQ7IOBIOygkOyVoeyEsSDsooXslpEgKElQTU4pIChJbnRyYWR1Y3RhbCBQYXBpbGxhcnkgTXVjaW5vdXMgTmVvcGxhc20gKElQTU4pKS5tZA",
     "title": "췌관내 유두상 점액성 종양 (IPMN) (Intraductal Papillary Mucinous Neoplasm (IPMN))",
@@ -14485,7 +15670,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* PUD"
+      "PUD"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -14553,7 +15738,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.319Z"
+    "updatedAt": "2026-07-09T13:24:28.989Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/가족성 선종성 용종증 (FAP) (Familial Adenomatous Polyposis).md",
@@ -14563,7 +15748,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 암"
+      "암"
     ],
     "aliases": [
       "FAP"
@@ -14633,7 +15818,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.325Z"
+    "updatedAt": "2026-07-09T13:24:28.994Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/게실 (Diverticulum).md",
@@ -14643,7 +15828,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 게실"
+      "게실"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -14728,7 +15913,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.329Z"
+    "updatedAt": "2026-07-09T13:24:28.999Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/게실 출혈 (Diverticular Bleeding).md",
@@ -14738,7 +15923,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 게실"
+      "게실"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -14807,7 +15992,47 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.334Z"
+    "updatedAt": "2026-07-09T13:24:29.005Z"
+  },
+  {
+    "id": "02 Diseases/03 소화기/위장관/게실.md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6QubWQ",
+    "title": "게실",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/게실.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "게실"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 게실는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[게실 (Diverticulum)]], [[게실 출혈 (Diverticular Bleeding)]], [[게실염 (Diverticulitis)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[게실 (Diverticulum)]]",
+      "• [[게실 출혈 (Diverticular Bleeding)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 게실는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[게실 (Diverticulum)]], [[게실 출혈 (Diverticular Bleeding)]], [[게실염 (Diverticulitis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[게실 (Diverticulum)]]",
+          "• [[게실 출혈 (Diverticular Bleeding)]]",
+          "• [[게실염 (Diverticulitis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.537Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/게실염 (Diverticulitis).md",
@@ -14817,7 +16042,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 게실"
+      "게실"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -14887,7 +16112,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.338Z"
+    "updatedAt": "2026-07-09T13:24:29.010Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/결장직장암 (Colorectal Cancer).md",
@@ -14897,7 +16122,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 암"
+      "암"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -14989,7 +16214,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.342Z"
+    "updatedAt": "2026-07-09T13:24:29.016Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/과민성 장 증후군 (IBS) (Irritable Bowel Syndrome (IBS)).md",
@@ -15097,7 +16322,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 장폐색"
+      "장폐색"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -15174,7 +16399,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.351Z"
+    "updatedAt": "2026-07-09T13:24:29.021Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/구인두 삼킴곤란 (Oropharyngeal Dysphagia).md",
@@ -15272,7 +16497,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* IBD"
+      "IBD"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -15352,7 +16577,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.359Z"
+    "updatedAt": "2026-07-09T13:24:29.026Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/급성 장간막 허혈 (Acute Mesenteric Ischemia).md",
@@ -15362,7 +16587,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 위장관 혈관"
+      "위장관 혈관"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -15433,7 +16658,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.364Z"
+    "updatedAt": "2026-07-09T13:24:29.032Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/날창자 증후군 (Efferent Loop Syndrome).md",
@@ -15443,7 +16668,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 위 절제 부작용"
+      "위 절제 부작용"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -15516,7 +16741,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.370Z"
+    "updatedAt": "2026-07-09T13:24:29.037Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/내치핵 (Internal Hemorrhoid).md",
@@ -15603,7 +16828,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 암"
+      "암"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -15672,7 +16897,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.379Z"
+    "updatedAt": "2026-07-09T13:24:29.042Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/대장 폐쇄 (Large Bowel Obstruction).md",
@@ -15682,7 +16907,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 장폐색"
+      "장폐색"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -15750,7 +16975,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.384Z"
+    "updatedAt": "2026-07-09T13:24:29.047Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/들창자 증후군 (Afferent Loop Syndrome).md",
@@ -15760,7 +16985,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 위 절제 부작용"
+      "위 절제 부작용"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -15834,7 +17059,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.389Z"
+    "updatedAt": "2026-07-09T13:24:29.052Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/만성 장간막 허혈 (Chronic Mesenteric Ischemia).md",
@@ -15844,7 +17069,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 위장관 혈관"
+      "위장관 혈관"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -15920,7 +17145,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.394Z"
+    "updatedAt": "2026-07-09T13:24:29.057Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/말로리-바이스 증후군 (MW Syndrome) (Mallory-Weiss Syndrome (MW Syndrome)).md",
@@ -16079,6 +17304,45 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:13.404Z"
+  },
+  {
+    "id": "02 Diseases/03 소화기/위장관/배변이상.md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rsLDrs4DsnbTsg4EubWQ",
+    "title": "배변이상",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/배변이상.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "배변이상"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 배변이상는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[변비 (Constipation)]], [[설사 (Diarrhea)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[변비 (Constipation)]]",
+      "• [[설사 (Diarrhea)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 배변이상는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[변비 (Constipation)]], [[설사 (Diarrhea)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[변비 (Constipation)]]",
+          "• [[설사 (Diarrhea)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.548Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/변비 (Constipation).md",
@@ -16343,7 +17607,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 위 절제 부작용"
+      "위 절제 부작용"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -16419,7 +17683,46 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.423Z"
+    "updatedAt": "2026-07-09T13:24:29.064Z"
+  },
+  {
+    "id": "02 Diseases/03 소화기/위장관/삼킴곤란.md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sgrztgrTqs6TrnoAubWQ",
+    "title": "삼킴곤란",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/삼킴곤란.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "삼킴곤란"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[구인두 삼킴곤란 (Oropharyngeal Dysphagia)]], [[식도 삼킴곤란 (Esophageal Dysphagia)]]",
+      "• 삼킴곤란는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[구인두 삼킴곤란 (Oropharyngeal Dysphagia)]]",
+      "• [[식도 삼킴곤란 (Esophageal Dysphagia)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 삼킴곤란는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[구인두 삼킴곤란 (Oropharyngeal Dysphagia)]], [[식도 삼킴곤란 (Esophageal Dysphagia)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[구인두 삼킴곤란 (Oropharyngeal Dysphagia)]]",
+          "• [[식도 삼킴곤란 (Esophageal Dysphagia)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.540Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/상부 위장관 출혈 (Upper Gastrointestinal Tract).md",
@@ -16513,7 +17816,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 위장관 혈관"
+      "위장관 혈관"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -16586,7 +17889,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.434Z"
+    "updatedAt": "2026-07-09T13:24:29.069Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/설사 (Diarrhea).md",
@@ -16787,7 +18090,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 장폐색"
+      "장폐색"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -16854,7 +18157,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.450Z"
+    "updatedAt": "2026-07-09T13:24:29.074Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/소장암 (Small Bowel Cancer).md",
@@ -16864,7 +18167,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 암"
+      "암"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -16934,7 +18237,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.455Z"
+    "updatedAt": "2026-07-09T13:24:29.079Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/식도 삼킴곤란 (Esophageal Dysphagia).md",
@@ -17183,6 +18486,54 @@
     "updatedAt": "2026-06-06T12:07:13.472Z"
   },
   {
+    "id": "02 Diseases/03 소화기/위장관/식도.md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4QubWQ",
+    "title": "식도",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/식도.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "식도"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[말로리-바이스 증후군 (MW Syndrome) (Mallory-Weiss Syndrome (MW Syndrome))]], [[미만성 식도 연축 (Diffuse Esophageal Spasm)]], [[뵈르하브 증후군 (Boerhaave Syndrome)]], [[부식 식도염 (Corrosive Esophagitis)]], [[식도 이완불능증 (Achalasia)]], [[식도 협착 (Esophageal Stricture)]]",
+      "• 식도는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[말로리-바이스 증후군 (MW Syndrome) (Mallory-Weiss Syndrome (MW Syndrome))]]",
+      "• [[미만성 식도 연축 (Diffuse Esophageal Spasm)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 식도는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[말로리-바이스 증후군 (MW Syndrome) (Mallory-Weiss Syndrome (MW Syndrome))]], [[미만성 식도 연축 (Diffuse Esophageal Spasm)]], [[뵈르하브 증후군 (Boerhaave Syndrome)]], [[부식 식도염 (Corrosive Esophagitis)]], [[식도 이완불능증 (Achalasia)]], [[식도 협착 (Esophageal Stricture)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[말로리-바이스 증후군 (MW Syndrome) (Mallory-Weiss Syndrome (MW Syndrome))]]",
+          "• [[미만성 식도 연축 (Diffuse Esophageal Spasm)]]",
+          "• [[뵈르하브 증후군 (Boerhaave Syndrome)]]",
+          "• [[부식 식도염 (Corrosive Esophagitis)]]",
+          "• [[식도 이완불능증 (Achalasia)]]",
+          "• [[식도 협착 (Esophageal Stricture)]]",
+          "• [[식도암 (Esophageal Cancer)]]",
+          "• [[열공 탈장 (Hiatal Hernia)]]",
+          "• [[위식도 역류 질환 (GERD) (Gastroesophageal Reflux Disease)]]",
+          "• [[젠커 게실 (Zenker's Diverticulum)]]",
+          "• [[칸디다 식도염 (Candida Esophagitis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.546Z"
+  },
+  {
     "id": "02 Diseases/03 소화기/위장관/식도암 (Esophageal Cancer).md",
     "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4TslZQgKEVzb3BoYWdlYWwgQ2FuY2VyKS5tZA",
     "title": "식도암 (Esophageal Cancer)",
@@ -17288,7 +18639,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* PUD"
+      "PUD"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -17367,7 +18718,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.483Z"
+    "updatedAt": "2026-07-09T13:24:29.084Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/알칼리 역류 증후군 (Alkaline Reflux Syndrome).md",
@@ -17377,7 +18728,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 위 절제 부작용"
+      "위 절제 부작용"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -17445,7 +18796,49 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.489Z"
+    "updatedAt": "2026-07-09T13:24:29.089Z"
+  },
+  {
+    "id": "02 Diseases/03 소화기/위장관/암.md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_slZQubWQ",
+    "title": "암",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/암.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "암"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[가족성 선종성 용종증 (FAP) (Familial Adenomatous Polyposis)]], [[결장직장암 (Colorectal Cancer)]], [[대장 용종 (Colonic Polyp)]], [[소장암 (Small Bowel Cancer)]], [[유전성 비용종증 대장암 (HNPCC) (Hereditary Nonpolyposis Colorectal Cancer)]]",
+      "• 암는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[가족성 선종성 용종증 (FAP) (Familial Adenomatous Polyposis)]]",
+      "• [[결장직장암 (Colorectal Cancer)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 암는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[가족성 선종성 용종증 (FAP) (Familial Adenomatous Polyposis)]], [[결장직장암 (Colorectal Cancer)]], [[대장 용종 (Colonic Polyp)]], [[소장암 (Small Bowel Cancer)]], [[유전성 비용종증 대장암 (HNPCC) (Hereditary Nonpolyposis Colorectal Cancer)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[가족성 선종성 용종증 (FAP) (Familial Adenomatous Polyposis)]]",
+          "• [[결장직장암 (Colorectal Cancer)]]",
+          "• [[대장 용종 (Colonic Polyp)]]",
+          "• [[소장암 (Small Bowel Cancer)]]",
+          "• [[유전성 비용종증 대장암 (HNPCC) (Hereditary Nonpolyposis Colorectal Cancer)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.536Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/열공 탈장 (Hiatal Hernia).md",
@@ -17690,6 +19083,88 @@
     "updatedAt": "2026-06-06T12:07:13.506Z"
   },
   {
+    "id": "02 Diseases/03 소화기/위장관/위 절제 부작용.md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snIQg7KCI7KCcIOu2gOyekeyaqS5tZA",
+    "title": "위 절제 부작용",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/위 절제 부작용.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "위 절제 부작용"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 위 절제 부작용는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[날창자 증후군 (Efferent Loop Syndrome)]], [[들창자 증후군 (Afferent Loop Syndrome)]], [[빠른 비움 증후군 (Dumping Syndrome)]], [[알칼리 역류 증후군 (Alkaline Reflux Syndrome)]], [[지연 위배출 (Delayed Gastric Emptying)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[날창자 증후군 (Efferent Loop Syndrome)]]",
+      "• [[들창자 증후군 (Afferent Loop Syndrome)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 위 절제 부작용는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[날창자 증후군 (Efferent Loop Syndrome)]], [[들창자 증후군 (Afferent Loop Syndrome)]], [[빠른 비움 증후군 (Dumping Syndrome)]], [[알칼리 역류 증후군 (Alkaline Reflux Syndrome)]], [[지연 위배출 (Delayed Gastric Emptying)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[날창자 증후군 (Efferent Loop Syndrome)]]",
+          "• [[들창자 증후군 (Afferent Loop Syndrome)]]",
+          "• [[빠른 비움 증후군 (Dumping Syndrome)]]",
+          "• [[알칼리 역류 증후군 (Alkaline Reflux Syndrome)]]",
+          "• [[지연 위배출 (Delayed Gastric Emptying)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.543Z"
+  },
+  {
+    "id": "02 Diseases/03 소화기/위장관/위.md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snIQubWQ",
+    "title": "위",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/위.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "위"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 위는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[위 용종 (Gastric Polyp)]], [[위암 (Gastric Cancer)]], [[위장관 기질 종양 (GIST) (Gastrointestinal Stromal Tumor)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[위 용종 (Gastric Polyp)]]",
+      "• [[위암 (Gastric Cancer)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 위는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[위 용종 (Gastric Polyp)]], [[위암 (Gastric Cancer)]], [[위장관 기질 종양 (GIST) (Gastrointestinal Stromal Tumor)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[위 용종 (Gastric Polyp)]]",
+          "• [[위암 (Gastric Cancer)]]",
+          "• [[위장관 기질 종양 (GIST) (Gastrointestinal Stromal Tumor)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.552Z"
+  },
+  {
     "id": "02 Diseases/03 소화기/위장관/위궤양 (Gastric Ulcer).md",
     "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITqtqTslpEgKEdhc3RyaWMgVWxjZXIpLm1k",
     "title": "위궤양 (Gastric Ulcer)",
@@ -17697,7 +19172,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* PUD"
+      "PUD"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -17770,7 +19245,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.511Z"
+    "updatedAt": "2026-07-09T13:24:29.093Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/위식도 역류 질환 (GERD) (Gastroesophageal Reflux Disease).md",
@@ -18051,6 +19526,87 @@
     "updatedAt": "2026-06-06T12:07:13.526Z"
   },
   {
+    "id": "02 Diseases/03 소화기/위장관/위장관 출혈.md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsnqXqtIAg7Lac7ZiILm1k",
+    "title": "위장관 출혈",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/위장관 출혈.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "위장관 출혈"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[상부 위장관 출혈 (Upper Gastrointestinal Tract)]], [[하부 위장관 출혈 (Lower Gastrointestinal Tract)]]",
+      "• 위장관 출혈는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[상부 위장관 출혈 (Upper Gastrointestinal Tract)]]",
+      "• [[하부 위장관 출혈 (Lower Gastrointestinal Tract)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 위장관 출혈는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[상부 위장관 출혈 (Upper Gastrointestinal Tract)]], [[하부 위장관 출혈 (Lower Gastrointestinal Tract)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[상부 위장관 출혈 (Upper Gastrointestinal Tract)]]",
+          "• [[하부 위장관 출혈 (Lower Gastrointestinal Tract)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.549Z"
+  },
+  {
+    "id": "02 Diseases/03 소화기/위장관/위장관 혈관.md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsnqXqtIAg7ZiI6rSALm1k",
+    "title": "위장관 혈관",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/위장관 혈관.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "위장관 혈관"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 위장관 혈관는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[급성 장간막 허혈 (Acute Mesenteric Ischemia)]], [[만성 장간막 허혈 (Chronic Mesenteric Ischemia)]], [[상장간막동맥 증후군 (SMA Syndrome) (Superior Mesenteric Artery Syndrome)]], [[허혈성 대장염 (Ischemic Colitis)]], [[혈관형성이상 (Angiodysplasia)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[급성 장간막 허혈 (Acute Mesenteric Ischemia)]]",
+      "• [[만성 장간막 허혈 (Chronic Mesenteric Ischemia)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 위장관 혈관는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[급성 장간막 허혈 (Acute Mesenteric Ischemia)]], [[만성 장간막 허혈 (Chronic Mesenteric Ischemia)]], [[상장간막동맥 증후군 (SMA Syndrome) (Superior Mesenteric Artery Syndrome)]], [[허혈성 대장염 (Ischemic Colitis)]], [[혈관형성이상 (Angiodysplasia)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[급성 장간막 허혈 (Acute Mesenteric Ischemia)]]",
+          "• [[만성 장간막 허혈 (Chronic Mesenteric Ischemia)]]",
+          "• [[상장간막동맥 증후군 (SMA Syndrome) (Superior Mesenteric Artery Syndrome)]]",
+          "• [[허혈성 대장염 (Ischemic Colitis)]]",
+          "• [[혈관형성이상 (Angiodysplasia)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.542Z"
+  },
+  {
     "id": "02 Diseases/03 소화기/위장관/유전성 비용종증 대장암 (HNPCC) (Hereditary Nonpolyposis Colorectal Cancer).md",
     "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snKDsoITshLEg67mE7Jqp7KKF7KadIOuMgOyepeyVlCAoSE5QQ0MpIChIZXJlZGl0YXJ5IE5vbnBvbHlwb3NpcyBDb2xvcmVjdGFsIENhbmNlcikubWQ",
     "title": "유전성 비용종증 대장암 (HNPCC) (Hereditary Nonpolyposis Colorectal Cancer)",
@@ -18058,7 +19614,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 암"
+      "암"
     ],
     "aliases": [
       "HNPCC"
@@ -18125,7 +19681,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.530Z"
+    "updatedAt": "2026-07-09T13:24:29.099Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/장결핵 (Intestinal Tuberculosis).md",
@@ -18135,7 +19691,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* IBD"
+      "IBD"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -18206,7 +19762,47 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.534Z"
+    "updatedAt": "2026-07-09T13:24:29.103Z"
+  },
+  {
+    "id": "02 Diseases/03 소화기/위장관/장폐색.md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snqXtj5Dsg4kubWQ",
+    "title": "장폐색",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/장폐색.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "장폐색"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[구불창자 꼬임 (Sigmoid Volvulus)]], [[대장 폐쇄 (Large Bowel Obstruction)]], [[소장 폐쇄 (Small Bowel Obstruction)]]",
+      "• 장폐색는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[구불창자 꼬임 (Sigmoid Volvulus)]]",
+      "• [[대장 폐쇄 (Large Bowel Obstruction)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 장폐색는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[구불창자 꼬임 (Sigmoid Volvulus)]], [[대장 폐쇄 (Large Bowel Obstruction)]], [[소장 폐쇄 (Small Bowel Obstruction)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[구불창자 꼬임 (Sigmoid Volvulus)]]",
+          "• [[대장 폐쇄 (Large Bowel Obstruction)]]",
+          "• [[소장 폐쇄 (Small Bowel Obstruction)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.538Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/젠커 게실 (Zenker's Diverticulum).md",
@@ -18377,7 +19973,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 위 절제 부작용"
+      "위 절제 부작용"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -18446,7 +20042,51 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.549Z"
+    "updatedAt": "2026-07-09T13:24:29.108Z"
+  },
+  {
+    "id": "02 Diseases/03 소화기/위장관/직장 및 항문.md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sp4HsnqUg67CPIO2VreusuC5tZA",
+    "title": "직장 및 항문",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/직장 및 항문.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "직장 및 항문"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[내치핵 (Internal Hemorrhoid)]], [[외치핵 (External Hemorrhoid)]], [[직장 탈출증 (Rectal Prolapse)]], [[치루 (Anal Fistula)]], [[치열 (Anal Fissure)]], [[항문암 (Anal Cancer)]]",
+      "• 직장 및 항문는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[내치핵 (Internal Hemorrhoid)]]",
+      "• [[외치핵 (External Hemorrhoid)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 직장 및 항문는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[내치핵 (Internal Hemorrhoid)]], [[외치핵 (External Hemorrhoid)]], [[직장 탈출증 (Rectal Prolapse)]], [[치루 (Anal Fistula)]], [[치열 (Anal Fissure)]], [[항문암 (Anal Cancer)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[내치핵 (Internal Hemorrhoid)]]",
+          "• [[외치핵 (External Hemorrhoid)]]",
+          "• [[직장 탈출증 (Rectal Prolapse)]]",
+          "• [[치루 (Anal Fistula)]]",
+          "• [[치열 (Anal Fissure)]]",
+          "• [[항문암 (Anal Cancer)]]",
+          "• [[항문직장 농양 (Anorectal Abscess)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.545Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/직장 탈출증 (Rectal Prolapse).md",
@@ -18610,7 +20250,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* IBD"
+      "IBD"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -18686,7 +20326,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.561Z"
+    "updatedAt": "2026-07-09T13:24:29.113Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/치루 (Anal Fistula).md",
@@ -18935,7 +20575,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* IBD"
+      "IBD"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -19004,7 +20644,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.582Z"
+    "updatedAt": "2026-07-09T13:24:29.117Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/하부 위장관 출혈 (Lower Gastrointestinal Tract).md",
@@ -19238,7 +20878,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 위장관 혈관"
+      "위장관 혈관"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -19304,7 +20944,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.601Z"
+    "updatedAt": "2026-07-09T13:24:29.122Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/혈관형성이상 (Angiodysplasia).md",
@@ -19314,7 +20954,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* 위장관 혈관"
+      "위장관 혈관"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -19379,7 +21019,47 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.605Z"
+    "updatedAt": "2026-07-09T13:24:29.126Z"
+  },
+  {
+    "id": "02 Diseases/03 소화기/위장관/흡수장애.md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tnaHsiJjsnqXslaAubWQ",
+    "title": "흡수장애",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/흡수장애.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "흡수장애"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[세균 과다증식 증후군 (Small Intestinal Bacterial Overgrowth Syndrome)]], [[지방변 (Steatorrhea)]], [[짧은창자 증후군 (Short Bowel Syndrome)]]",
+      "• 흡수장애는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[세균 과다증식 증후군 (Small Intestinal Bacterial Overgrowth Syndrome)]]",
+      "• [[지방변 (Steatorrhea)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 흡수장애는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[세균 과다증식 증후군 (Small Intestinal Bacterial Overgrowth Syndrome)]], [[지방변 (Steatorrhea)]], [[짧은창자 증후군 (Short Bowel Syndrome)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[세균 과다증식 증후군 (Small Intestinal Bacterial Overgrowth Syndrome)]]",
+          "• [[지방변 (Steatorrhea)]]",
+          "• [[짧은창자 증후군 (Short Bowel Syndrome)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.550Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/H.pylori 감염 (H.pylori Infection).md",
@@ -19464,6 +21144,47 @@
     "updatedAt": "2026-06-06T12:07:13.306Z"
   },
   {
+    "id": "02 Diseases/03 소화기/위장관/IBD.md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC9JQkQubWQ",
+    "title": "IBD",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/IBD.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "IBD"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• IBD는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[궤양성 대장염 (UC) (Ulcerative Colitis)]], [[장결핵 (Intestinal Tuberculosis)]], [[충수염 (Appendicitis)]], [[크론병 (CD) (Crohn's Disease (CD))]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[궤양성 대장염 (UC) (Ulcerative Colitis)]]",
+      "• [[장결핵 (Intestinal Tuberculosis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• IBD는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[궤양성 대장염 (UC) (Ulcerative Colitis)]], [[장결핵 (Intestinal Tuberculosis)]], [[충수염 (Appendicitis)]], [[크론병 (CD) (Crohn's Disease (CD))]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[궤양성 대장염 (UC) (Ulcerative Colitis)]]",
+          "• [[장결핵 (Intestinal Tuberculosis)]]",
+          "• [[충수염 (Appendicitis)]]",
+          "• [[크론병 (CD) (Crohn's Disease (CD))]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.541Z"
+  },
+  {
     "id": "02 Diseases/03 소화기/위장관/PUD 천공 (Perforation).md",
     "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQg7LKc6rO1IChQZXJmb3JhdGlvbikubWQ",
     "title": "PUD 천공 (Perforation)",
@@ -19471,7 +21192,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* PUD"
+      "PUD"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -19536,7 +21257,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.310Z"
+    "updatedAt": "2026-07-09T13:24:29.131Z"
   },
   {
     "id": "02 Diseases/03 소화기/위장관/PUD 협착 (Stricture).md",
@@ -19546,7 +21267,7 @@
     "specialty": "03 소화기",
     "category": "소화기 (위장관)",
     "classification": [
-      "* PUD"
+      "PUD"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -19612,7 +21333,49 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.315Z"
+    "updatedAt": "2026-07-09T13:24:29.136Z"
+  },
+  {
+    "id": "02 Diseases/03 소화기/위장관/PUD.md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ",
+    "title": "PUD",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/PUD.md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "PUD"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[가스트린종 (Gastrinoma)]], [[십이지장 궤양 (Duodenal Ulcer)]], [[위궤양 (Gastric Ulcer)]], [[PUD 천공 (Perforation)]], [[PUD 협착 (Stricture)]]",
+      "• PUD는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[가스트린종 (Gastrinoma)]]",
+      "• [[십이지장 궤양 (Duodenal Ulcer)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• PUD는 소화기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[가스트린종 (Gastrinoma)]], [[십이지장 궤양 (Duodenal Ulcer)]], [[위궤양 (Gastric Ulcer)]], [[PUD 천공 (Perforation)]], [[PUD 협착 (Stricture)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[가스트린종 (Gastrinoma)]]",
+          "• [[십이지장 궤양 (Duodenal Ulcer)]]",
+          "• [[위궤양 (Gastric Ulcer)]]",
+          "• [[PUD 천공 (Perforation)]]",
+          "• [[PUD 협착 (Stricture)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.534Z"
   },
   {
     "id": "02 Diseases/04 내분비/가족성 고콜레스테롤혈증 (Familial Hypercholesterolemia).md",
@@ -20274,6 +22037,58 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:13.652Z"
+  },
+  {
+    "id": "02 Diseases/04 내분비/갑상샘.md",
+    "slug": "MDQg64K067aE67mEL-qwkeyDgeyDmC5tZA",
+    "title": "갑상샘",
+    "sourcePath": "source_notes/02 Diseases/04 내분비/갑상샘.md",
+    "specialty": "04 내분비",
+    "category": "내분비",
+    "classification": [
+      "갑상샘"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 갑상샘는 내분비 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[갑상샘 결절 (Thyroid Nodule)]], [[갑상샘 기능저하증 (Hypothyroidism)]], [[갑상샘 기능항진증 (Hyperthyroidism)]], [[갑상샘 속질암 (Thyroid Medullary Carcinoma)]], [[갑상샘 여포암 (Thyroid Follicular Carcinoma)]], [[갑상샘 역형성암 (Thyroid Anaplastic Carcinoma)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[갑상샘 결절 (Thyroid Nodule)]]",
+      "• [[갑상샘 기능저하증 (Hypothyroidism)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 갑상샘는 내분비 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[갑상샘 결절 (Thyroid Nodule)]], [[갑상샘 기능저하증 (Hypothyroidism)]], [[갑상샘 기능항진증 (Hyperthyroidism)]], [[갑상샘 속질암 (Thyroid Medullary Carcinoma)]], [[갑상샘 여포암 (Thyroid Follicular Carcinoma)]], [[갑상샘 역형성암 (Thyroid Anaplastic Carcinoma)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[갑상샘 결절 (Thyroid Nodule)]]",
+          "• [[갑상샘 기능저하증 (Hypothyroidism)]]",
+          "• [[갑상샘 기능항진증 (Hyperthyroidism)]]",
+          "• [[갑상샘 속질암 (Thyroid Medullary Carcinoma)]]",
+          "• [[갑상샘 여포암 (Thyroid Follicular Carcinoma)]]",
+          "• [[갑상샘 역형성암 (Thyroid Anaplastic Carcinoma)]]",
+          "• [[갑상샘 유두암 (Thyroid Papillary Carcinoma)]]",
+          "• [[갑상샘암 (Thyroid Cancer)]]",
+          "• [[그레이브스병 (Graves' Disease)]]",
+          "• [[독성 주기 마비 (Thyrotoxic Periodic Paralysis)]]",
+          "• [[무증상 갑상샘 기능저하증 (Subclinical Hypothyroidism)]]",
+          "• [[무통성 산후 갑상샘염 (Painless Postpartum Thyroiditis)]]",
+          "• [[병적 갑상샘 기능 정상 증후군 (Sick Euthyroid Syndrome)]]",
+          "• [[아급성 갑상샘염 (Subacute Thyroiditis)]]",
+          "• [[하시모토 갑상샘염 (Hashimoto's Thyroiditis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.554Z"
   },
   {
     "id": "02 Diseases/04 내분비/갑상샘암 (Thyroid Cancer).md",
@@ -21178,6 +22993,99 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:13.687Z"
+  },
+  {
+    "id": "02 Diseases/04 내분비/뇌하수체.md",
+    "slug": "MDQg64K067aE67mEL-uHjO2VmOyImOyytC5tZA",
+    "title": "뇌하수체",
+    "sourcePath": "source_notes/02 Diseases/04 내분비/뇌하수체.md",
+    "specialty": "04 내분비",
+    "category": "내분비",
+    "classification": [
+      "뇌하수체"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[고프로락틴혈증 (Hyperprolactinemia)]], [[뇌하수체 기능저하증 (Hypopituitarism)]], [[뇌하수체 샘종 (Pituitary Adenoma)]], [[말단비대증 (Acromegaly)]], [[요붕증 (Diabetes Insipidus)]], [[일차 다음증 (Primary Polydipsia)]]",
+      "• 뇌하수체는 내분비 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[고프로락틴혈증 (Hyperprolactinemia)]]",
+      "• [[뇌하수체 기능저하증 (Hypopituitarism)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 뇌하수체는 내분비 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[고프로락틴혈증 (Hyperprolactinemia)]], [[뇌하수체 기능저하증 (Hypopituitarism)]], [[뇌하수체 샘종 (Pituitary Adenoma)]], [[말단비대증 (Acromegaly)]], [[요붕증 (Diabetes Insipidus)]], [[일차 다음증 (Primary Polydipsia)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[고프로락틴혈증 (Hyperprolactinemia)]]",
+          "• [[뇌하수체 기능저하증 (Hypopituitarism)]]",
+          "• [[뇌하수체 샘종 (Pituitary Adenoma)]]",
+          "• [[말단비대증 (Acromegaly)]]",
+          "• [[요붕증 (Diabetes Insipidus)]]",
+          "• [[일차 다음증 (Primary Polydipsia)]]",
+          "• [[중추성 요붕증 (Central Diabetes Insipidus)]]",
+          "• [[콩팥기원 요붕증 (Nephrogenic Diabetes Insipidus)]]",
+          "• [[프로락틴 분비 종양 (Prolactinoma)]]",
+          "• [[항이뇨호르몬 부적절 분비 증후군 (SIADH) (Syndrome of Inappropriate Antidiuretic Hormone Secretion (SIADH))]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.561Z"
+  },
+  {
+    "id": "02 Diseases/04 내분비/당.md",
+    "slug": "MDQg64K067aE67mEL-uLuS5tZA",
+    "title": "당",
+    "sourcePath": "source_notes/02 Diseases/04 내분비/당.md",
+    "specialty": "04 내분비",
+    "category": "내분비",
+    "classification": [
+      "당"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)]], [[당뇨병 (Diabetes Mellitus)]], [[당뇨병성 망막병증 (Diabetic Retinopathy)]], [[당뇨병성 신경병증 (Diabetic Neuropathy)]], [[당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)]], [[당뇨병성 콩팥병증 (Diabetic Nephropathy)]]",
+      "• 당는 내분비 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)]]",
+      "• [[당뇨병 (Diabetes Mellitus)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 당는 내분비 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)]], [[당뇨병 (Diabetes Mellitus)]], [[당뇨병성 망막병증 (Diabetic Retinopathy)]], [[당뇨병성 신경병증 (Diabetic Neuropathy)]], [[당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)]], [[당뇨병성 콩팥병증 (Diabetic Nephropathy)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)]]",
+          "• [[당뇨병 (Diabetes Mellitus)]]",
+          "• [[당뇨병성 망막병증 (Diabetic Retinopathy)]]",
+          "• [[당뇨병성 신경병증 (Diabetic Neuropathy)]]",
+          "• [[당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)]]",
+          "• [[당뇨병성 콩팥병증 (Diabetic Nephropathy)]]",
+          "• [[새벽 현상 (Dawn Phenomenon)]]",
+          "• [[소모기 현상 (Somogyi Phenomenon)]]",
+          "• [[저혈당 (Hypoglycemia)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.556Z"
   },
   {
     "id": "02 Diseases/04 내분비/당뇨병 (Diabetes Mellitus).md",
@@ -22517,6 +24425,55 @@
     "updatedAt": "2026-06-06T12:07:13.757Z"
   },
   {
+    "id": "02 Diseases/04 내분비/부신(피질).md",
+    "slug": "MDQg64K067aE67mEL-u2gOyLoCjtlLzsp4gpLm1k",
+    "title": "부신(피질)",
+    "sourcePath": "source_notes/02 Diseases/04 내분비/부신(피질).md",
+    "specialty": "04 내분비",
+    "category": "내분비",
+    "classification": [
+      "부신(피질)"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[딴곳 부신겉질자극호르몬 증후군 (Ectopic ACTH Syndrome)]], [[부신 기능저하증 (Adrenal Insufficiency)]], [[부신 우연종 (Adrenal Incidentaloma)]], [[부신 종양 (Adrenal Tumor)]], [[알도스테론증 (Aldosteronism)]], [[원발성 부신 기능저하증(Primary Adrenal Insufficiency)]]",
+      "• 부신(피질)는 내분비 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[딴곳 부신겉질자극호르몬 증후군 (Ectopic ACTH Syndrome)]]",
+      "• [[부신 기능저하증 (Adrenal Insufficiency)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 부신(피질)는 내분비 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[딴곳 부신겉질자극호르몬 증후군 (Ectopic ACTH Syndrome)]], [[부신 기능저하증 (Adrenal Insufficiency)]], [[부신 우연종 (Adrenal Incidentaloma)]], [[부신 종양 (Adrenal Tumor)]], [[알도스테론증 (Aldosteronism)]], [[원발성 부신 기능저하증(Primary Adrenal Insufficiency)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[딴곳 부신겉질자극호르몬 증후군 (Ectopic ACTH Syndrome)]]",
+          "• [[부신 기능저하증 (Adrenal Insufficiency)]]",
+          "• [[부신 우연종 (Adrenal Incidentaloma)]]",
+          "• [[부신 종양 (Adrenal Tumor)]]",
+          "• [[알도스테론증 (Aldosteronism)]]",
+          "• [[원발성 부신 기능저하증(Primary Adrenal Insufficiency)]]",
+          "• [[원발성 알도스테론증 (Primary Aldosteronism)]]",
+          "• [[의인성 쿠싱 증후군 (Iatrogenic Cushing's Syndrome)]]",
+          "• [[이차성 부신 기능저하증 (Secondary Adrenal Insufficiency)]]",
+          "• [[이차성 알도스테론증 (Secondary Aldosteronism)]]",
+          "• [[쿠싱 증후군 (Cushing's Syndrome)]]",
+          "• [[쿠싱병 (Cushing's Disease)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.563Z"
+  },
+  {
     "id": "02 Diseases/04 내분비/새벽 현상 (Dawn Phenomenon).md",
     "slug": "MDQg64K067aE67mEL-yDiOuyvSDtmITsg4EgKERhd24gUGhlbm9tZW5vbikubWQ",
     "title": "새벽 현상 (Dawn Phenomenon)",
@@ -23781,6 +25738,87 @@
     "updatedAt": "2026-06-06T12:07:13.837Z"
   },
   {
+    "id": "02 Diseases/04 내분비/지질.md",
+    "slug": "MDQg64K067aE67mEL-yngOyniC5tZA",
+    "title": "지질",
+    "sourcePath": "source_notes/02 Diseases/04 내분비/지질.md",
+    "specialty": "04 내분비",
+    "category": "내분비",
+    "classification": [
+      "지질"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 지질는 내분비 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[가족성 고콜레스테롤혈증 (Familial Hypercholesterolemia)]], [[이상지질혈증 (Dyslipidemia)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[가족성 고콜레스테롤혈증 (Familial Hypercholesterolemia)]]",
+      "• [[이상지질혈증 (Dyslipidemia)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 지질는 내분비 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[가족성 고콜레스테롤혈증 (Familial Hypercholesterolemia)]], [[이상지질혈증 (Dyslipidemia)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[가족성 고콜레스테롤혈증 (Familial Hypercholesterolemia)]]",
+          "• [[이상지질혈증 (Dyslipidemia)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.553Z"
+  },
+  {
+    "id": "02 Diseases/04 내분비/칼슘.md",
+    "slug": "MDQg64K067aE67mEL-y5vOyKmC5tZA",
+    "title": "칼슘",
+    "sourcePath": "source_notes/02 Diseases/04 내분비/칼슘.md",
+    "specialty": "04 내분비",
+    "category": "내분비",
+    "classification": [
+      "칼슘"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 칼슘는 내분비 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[고칼슘혈증 (Hypercalcemia)]], [[골다공증 (Osteoporosis)]], [[부갑상샘 기능저하증 (Hypoparathyroidism)]], [[부갑상샘 기능항진증 (Hyperparathyroidism)]], [[저칼슘혈증 (Hypocalcemia)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[고칼슘혈증 (Hypercalcemia)]]",
+      "• [[골다공증 (Osteoporosis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 칼슘는 내분비 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[고칼슘혈증 (Hypercalcemia)]], [[골다공증 (Osteoporosis)]], [[부갑상샘 기능저하증 (Hypoparathyroidism)]], [[부갑상샘 기능항진증 (Hyperparathyroidism)]], [[저칼슘혈증 (Hypocalcemia)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[고칼슘혈증 (Hypercalcemia)]]",
+          "• [[골다공증 (Osteoporosis)]]",
+          "• [[부갑상샘 기능저하증 (Hypoparathyroidism)]]",
+          "• [[부갑상샘 기능항진증 (Hyperparathyroidism)]]",
+          "• [[저칼슘혈증 (Hypocalcemia)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.557Z"
+  },
+  {
     "id": "02 Diseases/04 내분비/콩팥기원 요붕증 (Nephrogenic Diabetes Insipidus).md",
     "slug": "MDQg64K067aE67mEL-y9qe2Mpeq4sOybkCDsmpTrtpXspp0gKE5lcGhyb2dlbmljIERpYWJldGVzIEluc2lwaWR1cykubWQ",
     "title": "콩팥기원 요붕증 (Nephrogenic Diabetes Insipidus)",
@@ -24757,7 +26795,7 @@
     "specialty": "05 신장",
     "category": "신장",
     "classification": [
-      "* 요로감염"
+      "요로감염"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -24835,7 +26873,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.908Z"
+    "updatedAt": "2026-07-09T13:24:29.141Z"
   },
   {
     "id": "02 Diseases/05 신장/급성 신우신염 (Acute Pyelonephritis).md",
@@ -24845,7 +26883,7 @@
     "specialty": "05 신장",
     "category": "신장",
     "classification": [
-      "* 요로감염"
+      "요로감염"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -24933,7 +26971,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.915Z"
+    "updatedAt": "2026-07-09T13:24:29.146Z"
   },
   {
     "id": "02 Diseases/05 신장/급성 콩팥 손상 (AKI) (Acute Kidney Injury).md",
@@ -25209,7 +27247,7 @@
     "specialty": "05 신장",
     "category": "신장",
     "classification": [
-      "* 요로감염"
+      "요로감염"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -25289,7 +27327,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:13.955Z"
+    "updatedAt": "2026-07-09T13:24:29.151Z"
   },
   {
     "id": "02 Diseases/05 신장/다낭성 콩팥 질환 (Polycystic Kidney Disease).md",
@@ -25375,6 +27413,45 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:13.961Z"
+  },
+  {
+    "id": "02 Diseases/05 신장/단백뇨.md",
+    "slug": "MDUg7Iug7J6lL-uLqOuwseuHqC5tZA",
+    "title": "단백뇨",
+    "sourcePath": "source_notes/02 Diseases/05 신장/단백뇨.md",
+    "specialty": "05 신장",
+    "category": "신장",
+    "classification": [
+      "단백뇨"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 단백뇨는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[기립성 단백뇨 (Orthostatic Proteinuria)]], [[특발성 부종 (Idiopathic Edema)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[기립성 단백뇨 (Orthostatic Proteinuria)]]",
+      "• [[특발성 부종 (Idiopathic Edema)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 단백뇨는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[기립성 단백뇨 (Orthostatic Proteinuria)]], [[특발성 부종 (Idiopathic Edema)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[기립성 단백뇨 (Orthostatic Proteinuria)]]",
+          "• [[특발성 부종 (Idiopathic Edema)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.570Z"
   },
   {
     "id": "02 Diseases/05 신장/루푸스 콩팥염 (Lupus Nephritis).md",
@@ -25826,7 +27903,7 @@
     "specialty": "05 신장",
     "category": "신장",
     "classification": [
-      "* 요로감염"
+      "요로감염"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -25896,7 +27973,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:14.008Z"
+    "updatedAt": "2026-07-09T13:24:29.156Z"
   },
   {
     "id": "02 Diseases/05 신장/미세변화병 (Minimal Change Disease).md",
@@ -26070,6 +28147,93 @@
     "updatedAt": "2026-06-06T12:07:14.022Z"
   },
   {
+    "id": "02 Diseases/05 신장/사구체질환.md",
+    "slug": "MDUg7Iug7J6lL-yCrOq1rOyytOyniO2ZmC5tZA",
+    "title": "사구체질환",
+    "sourcePath": "source_notes/02 Diseases/05 신장/사구체질환.md",
+    "specialty": "05 신장",
+    "category": "신장",
+    "classification": [
+      "사구체질환"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[국소 토리굳음증 (Focal Segmental Glomerulosclerosis)]], [[급속 진행 토리콩팥염 (Rapidly Progressive Glomerulonephritis)]], [[루푸스 콩팥염 (Lupus Nephritis)]], [[막성 사구체신염 (Membranous Nephropathy)]], [[막증식 토리콩팥염 (Membranoproliferative Glomerulonephritis)]], [[미세변화병 (Minimal Change Disease)]]",
+      "• 사구체질환는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[국소 토리굳음증 (Focal Segmental Glomerulosclerosis)]]",
+      "• [[급속 진행 토리콩팥염 (Rapidly Progressive Glomerulonephritis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 사구체질환는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[국소 토리굳음증 (Focal Segmental Glomerulosclerosis)]], [[급속 진행 토리콩팥염 (Rapidly Progressive Glomerulonephritis)]], [[루푸스 콩팥염 (Lupus Nephritis)]], [[막성 사구체신염 (Membranous Nephropathy)]], [[막증식 토리콩팥염 (Membranoproliferative Glomerulonephritis)]], [[미세변화병 (Minimal Change Disease)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[국소 토리굳음증 (Focal Segmental Glomerulosclerosis)]]",
+          "• [[급속 진행 토리콩팥염 (Rapidly Progressive Glomerulonephritis)]]",
+          "• [[루푸스 콩팥염 (Lupus Nephritis)]]",
+          "• [[막성 사구체신염 (Membranous Nephropathy)]]",
+          "• [[막증식 토리콩팥염 (Membranoproliferative Glomerulonephritis)]]",
+          "• [[미세변화병 (Minimal Change Disease)]]",
+          "• [[신증후군 (Nephrotic Syndrome)]]",
+          "• [[알포트 증후군 (Alport Syndrome)]]",
+          "• [[얕은 토리바닥막병 (Thin Basement Membrane Disease)]]",
+          "• [[연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis)]]",
+          "• [[IgA 콩팥병증 (IgAN) (IgA Nephropathy)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.566Z"
+  },
+  {
+    "id": "02 Diseases/05 신장/산염기 질환.md",
+    "slug": "MDUg7Iug7J6lL-yCsOyXvOq4sCDsp4jtmZgubWQ",
+    "title": "산염기 질환",
+    "sourcePath": "source_notes/02 Diseases/05 신장/산염기 질환.md",
+    "specialty": "05 신장",
+    "category": "신장",
+    "classification": [
+      "산염기 질환"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 산염기 질환는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[산증 (Acidosis)]], [[알칼리증 (Alkalosis)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[산증 (Acidosis)]]",
+      "• [[알칼리증 (Alkalosis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 산염기 질환는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[산증 (Acidosis)]], [[알칼리증 (Alkalosis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[산증 (Acidosis)]]",
+          "• [[알칼리증 (Alkalosis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.573Z"
+  },
+  {
     "id": "02 Diseases/05 신장/산증 (Acidosis).md",
     "slug": "MDUg7Iug7J6lL-yCsOymnSAoQWNpZG9zaXMpLm1k",
     "title": "산증 (Acidosis)",
@@ -26163,6 +28327,89 @@
     "updatedAt": "2026-06-06T12:07:14.027Z"
   },
   {
+    "id": "02 Diseases/05 신장/세관기능장애.md",
+    "slug": "MDUg7Iug7J6lL-yEuOq0gOq4sOuKpeyepeyVoC5tZA",
+    "title": "세관기능장애",
+    "sourcePath": "source_notes/02 Diseases/05 신장/세관기능장애.md",
+    "specialty": "05 신장",
+    "category": "신장",
+    "classification": [
+      "세관기능장애"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 세관기능장애는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[다낭성 콩팥 질환 (Polycystic Kidney Disease)]], [[리들 증후군 (Liddle Syndrome)]], [[바터 증후군 (Bartter Syndrome)]], [[지텔만 증후군 (Gitelman Syndrome)]], [[콩팥세관 산증 1형 (Renal Tubular Acidosis Type 1)]], [[콩팥세관 산증 2형 (Renal Tubular Acidosis Type 2)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[다낭성 콩팥 질환 (Polycystic Kidney Disease)]]",
+      "• [[리들 증후군 (Liddle Syndrome)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 세관기능장애는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[다낭성 콩팥 질환 (Polycystic Kidney Disease)]], [[리들 증후군 (Liddle Syndrome)]], [[바터 증후군 (Bartter Syndrome)]], [[지텔만 증후군 (Gitelman Syndrome)]], [[콩팥세관 산증 1형 (Renal Tubular Acidosis Type 1)]], [[콩팥세관 산증 2형 (Renal Tubular Acidosis Type 2)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[다낭성 콩팥 질환 (Polycystic Kidney Disease)]]",
+          "• [[리들 증후군 (Liddle Syndrome)]]",
+          "• [[바터 증후군 (Bartter Syndrome)]]",
+          "• [[지텔만 증후군 (Gitelman Syndrome)]]",
+          "• [[콩팥세관 산증 1형 (Renal Tubular Acidosis Type 1)]]",
+          "• [[콩팥세관 산증 2형 (Renal Tubular Acidosis Type 2)]]",
+          "• [[콩팥세관 산증 4형 (Renal Tubular Acidosis Type 4)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.572Z"
+  },
+  {
+    "id": "02 Diseases/05 신장/세관사이질 질환.md",
+    "slug": "MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsp4jtmZgubWQ",
+    "title": "세관사이질 질환",
+    "sourcePath": "source_notes/02 Diseases/05 신장/세관사이질 질환.md",
+    "specialty": "05 신장",
+    "category": "신장",
+    "classification": [
+      "세관사이질 질환"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[세관사이질 콩팥염 (Tubulointerstitial Nephritis)]], [[알레르기성 세관사이질 콩팥염 (Allergic Interstitial Nephritis)]]",
+      "• 세관사이질 질환는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[세관사이질 콩팥염 (Tubulointerstitial Nephritis)]]",
+      "• [[알레르기성 세관사이질 콩팥염 (Allergic Interstitial Nephritis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 세관사이질 질환는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[세관사이질 콩팥염 (Tubulointerstitial Nephritis)]], [[알레르기성 세관사이질 콩팥염 (Allergic Interstitial Nephritis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[세관사이질 콩팥염 (Tubulointerstitial Nephritis)]]",
+          "• [[알레르기성 세관사이질 콩팥염 (Allergic Interstitial Nephritis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.574Z"
+  },
+  {
     "id": "02 Diseases/05 신장/세관사이질 콩팥염 (Tubulointerstitial Nephritis).md",
     "slug": "MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsvantjKXsl7wgKFR1YnVsb2ludGVyc3RpdGlhbCBOZXBocml0aXMpLm1k",
     "title": "세관사이질 콩팥염 (Tubulointerstitial Nephritis)",
@@ -26254,6 +28501,48 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:14.033Z"
+  },
+  {
+    "id": "02 Diseases/05 신장/신기능 이상.md",
+    "slug": "MDUg7Iug7J6lL-yLoOq4sOuKpSDsnbTsg4EubWQ",
+    "title": "신기능 이상",
+    "sourcePath": "source_notes/02 Diseases/05 신장/신기능 이상.md",
+    "specialty": "05 신장",
+    "category": "신장",
+    "classification": [
+      "신기능 이상"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 신기능 이상는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[급성 콩팥 손상 (AKI) (Acute Kidney Injury)]], [[만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD))]], [[콩팥성 급성 콩팥 손상 (Intrinsic Renal Acute Kidney Injury)]], [[콩팥전 급성 콩팥 손상 (Prerenal Acute Kidney Injury)]], [[콩팥후 급성 콩팥 손상 (Postrenal Acute Kidney Injury)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[급성 콩팥 손상 (AKI) (Acute Kidney Injury)]]",
+      "• [[만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD))]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 신기능 이상는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[급성 콩팥 손상 (AKI) (Acute Kidney Injury)]], [[만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD))]], [[콩팥성 급성 콩팥 손상 (Intrinsic Renal Acute Kidney Injury)]], [[콩팥전 급성 콩팥 손상 (Prerenal Acute Kidney Injury)]], [[콩팥후 급성 콩팥 손상 (Postrenal Acute Kidney Injury)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[급성 콩팥 손상 (AKI) (Acute Kidney Injury)]]",
+          "• [[만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD))]]",
+          "• [[콩팥성 급성 콩팥 손상 (Intrinsic Renal Acute Kidney Injury)]]",
+          "• [[콩팥전 급성 콩팥 손상 (Prerenal Acute Kidney Injury)]]",
+          "• [[콩팥후 급성 콩팥 손상 (Postrenal Acute Kidney Injury)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.569Z"
   },
   {
     "id": "02 Diseases/05 신장/신동맥 혈전색전증 (Renal Artery Thromboembolism).md",
@@ -26662,6 +28951,47 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:14.054Z"
+  },
+  {
+    "id": "02 Diseases/05 신장/신혈관 질환.md",
+    "slug": "MDUg7Iug7J6lL-yLoO2YiOq0gCDsp4jtmZgubWQ",
+    "title": "신혈관 질환",
+    "sourcePath": "source_notes/02 Diseases/05 신장/신혈관 질환.md",
+    "specialty": "05 신장",
+    "category": "신장",
+    "classification": [
+      "신혈관 질환"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 신혈관 질환는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[신동맥 혈전색전증 (Renal Artery Thromboembolism)]], [[신정맥 혈전증 (Renal Vein Thrombosis)]], [[신혈관성 고혈압 (Renovascular Hypertension)]], [[호두까기 증후군 (Nutcracker Syndrome)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[신동맥 혈전색전증 (Renal Artery Thromboembolism)]]",
+      "• [[신정맥 혈전증 (Renal Vein Thrombosis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 신혈관 질환는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[신동맥 혈전색전증 (Renal Artery Thromboembolism)]], [[신정맥 혈전증 (Renal Vein Thrombosis)]], [[신혈관성 고혈압 (Renovascular Hypertension)]], [[호두까기 증후군 (Nutcracker Syndrome)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[신동맥 혈전색전증 (Renal Artery Thromboembolism)]]",
+          "• [[신정맥 혈전증 (Renal Vein Thrombosis)]]",
+          "• [[신혈관성 고혈압 (Renovascular Hypertension)]]",
+          "• [[호두까기 증후군 (Nutcracker Syndrome)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.575Z"
   },
   {
     "id": "02 Diseases/05 신장/신혈관성 고혈압 (Renovascular Hypertension).md",
@@ -27248,6 +29578,48 @@
     "updatedAt": "2026-06-06T12:07:14.097Z"
   },
   {
+    "id": "02 Diseases/05 신장/요로감염.md",
+    "slug": "MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA",
+    "title": "요로감염",
+    "sourcePath": "source_notes/02 Diseases/05 신장/요로감염.md",
+    "specialty": "05 신장",
+    "category": "신장",
+    "classification": [
+      "요로감염"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[급성 방광염 (Acute Cystitis)]], [[급성 신우신염 (Acute Pyelonephritis)]], [[기종성 신우신염 (Emphysematous Pyelonephritis)]], [[무증상 세균뇨 (Asymptomatic Bacteriuria)]], [[콩팥 농양 (Renal Abscess)]]",
+      "• 요로감염는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[급성 방광염 (Acute Cystitis)]]",
+      "• [[급성 신우신염 (Acute Pyelonephritis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 요로감염는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[급성 방광염 (Acute Cystitis)]], [[급성 신우신염 (Acute Pyelonephritis)]], [[기종성 신우신염 (Emphysematous Pyelonephritis)]], [[무증상 세균뇨 (Asymptomatic Bacteriuria)]], [[콩팥 농양 (Renal Abscess)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[급성 방광염 (Acute Cystitis)]]",
+          "• [[급성 신우신염 (Acute Pyelonephritis)]]",
+          "• [[기종성 신우신염 (Emphysematous Pyelonephritis)]]",
+          "• [[무증상 세균뇨 (Asymptomatic Bacteriuria)]]",
+          "• [[콩팥 농양 (Renal Abscess)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.567Z"
+  },
+  {
     "id": "02 Diseases/05 신장/요로결석 (Urolithiasis).md",
     "slug": "MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA",
     "title": "요로결석 (Urolithiasis)",
@@ -27340,6 +29712,45 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:14.103Z"
+  },
+  {
+    "id": "02 Diseases/05 신장/요로질환.md",
+    "slug": "MDUg7Iug7J6lL-yalOuhnOyniO2ZmC5tZA",
+    "title": "요로질환",
+    "sourcePath": "source_notes/02 Diseases/05 신장/요로질환.md",
+    "specialty": "05 신장",
+    "category": "신장",
+    "classification": [
+      "요로질환"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[요로 폐색 (Urinary Tract Obstruction)]], [[요로결석 (Urolithiasis)]]",
+      "• 요로질환는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[요로 폐색 (Urinary Tract Obstruction)]]",
+      "• [[요로결석 (Urolithiasis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 요로질환는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[요로 폐색 (Urinary Tract Obstruction)]], [[요로결석 (Urolithiasis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[요로 폐색 (Urinary Tract Obstruction)]]",
+          "• [[요로결석 (Urolithiasis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.577Z"
   },
   {
     "id": "02 Diseases/05 신장/저나트륨혈증 (Hyponatremia).md",
@@ -27524,6 +29935,47 @@
     "updatedAt": "2026-06-06T12:07:14.114Z"
   },
   {
+    "id": "02 Diseases/05 신장/전해질 이상.md",
+    "slug": "MDUg7Iug7J6lL-yghO2VtOyniCDsnbTsg4EubWQ",
+    "title": "전해질 이상",
+    "sourcePath": "source_notes/02 Diseases/05 신장/전해질 이상.md",
+    "specialty": "05 신장",
+    "category": "신장",
+    "classification": [
+      "전해질 이상"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 전해질 이상는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[고나트륨혈증 (Hypernatremia)]], [[고칼륨혈증 (Hyperkalemia)]], [[저나트륨혈증 (Hyponatremia)]], [[저칼륨혈증 (Hypokalemia)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[고나트륨혈증 (Hypernatremia)]]",
+      "• [[고칼륨혈증 (Hyperkalemia)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 전해질 이상는 신장 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[고나트륨혈증 (Hypernatremia)]], [[고칼륨혈증 (Hyperkalemia)]], [[저나트륨혈증 (Hyponatremia)]], [[저칼륨혈증 (Hypokalemia)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[고나트륨혈증 (Hypernatremia)]]",
+          "• [[고칼륨혈증 (Hyperkalemia)]]",
+          "• [[저나트륨혈증 (Hyponatremia)]]",
+          "• [[저칼륨혈증 (Hypokalemia)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.565Z"
+  },
+  {
     "id": "02 Diseases/05 신장/지텔만 증후군 (Gitelman Syndrome).md",
     "slug": "MDUg7Iug7J6lL-yngO2FlOunjCDspp3tm4TqtbAgKEdpdGVsbWFuIFN5bmRyb21lKS5tZA",
     "title": "지텔만 증후군 (Gitelman Syndrome)",
@@ -27622,7 +30074,7 @@
     "specialty": "05 신장",
     "category": "신장",
     "classification": [
-      "* 요로감염"
+      "요로감염"
     ],
     "aliases": [],
     "chiefComplaints": [
@@ -27696,7 +30148,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-06T12:07:14.124Z"
+    "updatedAt": "2026-07-09T13:24:29.161Z"
   },
   {
     "id": "02 Diseases/05 신장/콩팥성 급성 콩팥 손상 (Intrinsic Renal Acute Kidney Injury).md",
@@ -29065,63 +31517,38 @@
     "specialty": "06 알레르기",
     "category": "알레르기",
     "classification": [
-      "[\"알레르기\"]"
+      "알레르기"
     ],
     "aliases": [],
     "chiefComplaints": [],
     "definition": "",
     "overview": [
-      "• [[아나필락시스 (Anaphylaxis)]]",
-      "• [[아나필락시스양 반응 (Anaphylactoid Reaction)]]",
-      "• [[음식 의존 운동 유발 아나필락시스 (Food-Dependent Exercise-Induced Anaphylaxis)]]",
-      "• [[두드러기 (Urticaria)]]",
-      "• [[피부묘기증 (Dermatographism)]]"
+      "• 알레르기는 알레르기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[Type I]], [[Type II]], [[Type III]], [[Type IV]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[Type I]]",
+      "• [[Type II]]"
     ],
     "sections": [
       {
-        "title": "Type I",
+        "title": "개요",
         "content": [
-          "• [[아나필락시스 (Anaphylaxis)]]",
-          "• [[아나필락시스양 반응 (Anaphylactoid Reaction)]]",
-          "• [[음식 의존 운동 유발 아나필락시스 (Food-Dependent Exercise-Induced Anaphylaxis)]]",
-          "• [[두드러기 (Urticaria)]]",
-          "• [[피부묘기증 (Dermatographism)]]",
-          "• [[압박 두드러기 (Pressure Urticaria)]]",
-          "• [[콜린성 두드러기 (Cholinergic Urticaria)]]",
-          "• [[한랭 두드러기 (Cold Urticaria)]]",
-          "• [[혈관부종 (유전성) (Hereditary Angioedema)]]",
-          "• [[혈관부종 (후천성) (Acquired Angioedema)]]",
-          "• [[알레르기 비염 (Allergic Rhinitis)]]",
-          "• [[약물 알레르기 (Drug Allergy)]]",
-          "• [[음식 알레르기 (Food Allergy)]]"
+          "• 알레르기는 알레르기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[Type I]], [[Type II]], [[Type III]], [[Type IV]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
         ]
       },
       {
-        "title": "Type II",
+        "title": "포함 질환",
         "content": [
-          "• [[그레이브스병 (Graves' Disease)]]",
-          "• [[용혈성 빈혈 (Hemolytic Anemia)]]"
-        ]
-      },
-      {
-        "title": "Type III",
-        "content": [
-          "• [[연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis)]]",
-          "• [[혈청병 (Serum Sickness)]]",
-          "• [[전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))]]",
-          "• [[혈관염 (Vasculitis)]]"
-        ]
-      },
-      {
-        "title": "Type IV",
-        "content": [
-          "• [[접촉 피부염 (Contact Dermatitis)]]",
-          "• [[스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))]]",
-          "• [[약물 발진 호산구증 및 전신 증상 (DRESS) (Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS))]]"
+          "• [[Type I]]",
+          "• [[Type II]]",
+          "• [[Type III]]",
+          "• [[Type IV]]"
         ]
       }
     ],
-    "updatedAt": "2026-05-06T12:11:06.601Z"
+    "updatedAt": "2026-07-09T13:29:16.583Z"
   },
   {
     "id": "02 Diseases/06 알레르기/압박 두드러기 (Pressure Urticaria).md",
@@ -30484,6 +32911,176 @@
     "updatedAt": "2026-06-06T12:07:14.325Z"
   },
   {
+    "id": "02 Diseases/06 알레르기/Type I.md",
+    "slug": "MDYg7JWM66CI66W06riwL1R5cGUgSS5tZA",
+    "title": "Type I",
+    "sourcePath": "source_notes/02 Diseases/06 알레르기/Type I.md",
+    "specialty": "06 알레르기",
+    "category": "알레르기",
+    "classification": [
+      "Type I"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[두드러기 (Urticaria)]], [[아나필락시스 (Anaphylaxis)]], [[아나필락시스양 반응 (Anaphylactoid Reaction)]], [[알레르기 비염 (Allergic Rhinitis)]], [[압박 두드러기 (Pressure Urticaria)]], [[약물 알레르기 (Drug Allergy)]]",
+      "• Type I는 알레르기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[두드러기 (Urticaria)]]",
+      "• [[아나필락시스 (Anaphylaxis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• Type I는 알레르기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[두드러기 (Urticaria)]], [[아나필락시스 (Anaphylaxis)]], [[아나필락시스양 반응 (Anaphylactoid Reaction)]], [[알레르기 비염 (Allergic Rhinitis)]], [[압박 두드러기 (Pressure Urticaria)]], [[약물 알레르기 (Drug Allergy)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[두드러기 (Urticaria)]]",
+          "• [[아나필락시스 (Anaphylaxis)]]",
+          "• [[아나필락시스양 반응 (Anaphylactoid Reaction)]]",
+          "• [[알레르기 비염 (Allergic Rhinitis)]]",
+          "• [[압박 두드러기 (Pressure Urticaria)]]",
+          "• [[약물 알레르기 (Drug Allergy)]]",
+          "• [[음식 알레르기 (Food Allergy)]]",
+          "• [[음식 의존 운동 유발 아나필락시스 (Food-Dependent Exercise-Induced Anaphylaxis)]]",
+          "• [[콜린성 두드러기 (Cholinergic Urticaria)]]",
+          "• [[피부묘기증 (Dermatographism)]]",
+          "• [[한랭 두드러기 (Cold Urticaria)]]",
+          "• [[혈관부종 (유전성) (Hereditary Angioedema)]]",
+          "• [[혈관부종 (후천성) (Acquired Angioedema)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.579Z"
+  },
+  {
+    "id": "02 Diseases/06 알레르기/Type II.md",
+    "slug": "MDYg7JWM66CI66W06riwL1R5cGUgSUkubWQ",
+    "title": "Type II",
+    "sourcePath": "source_notes/02 Diseases/06 알레르기/Type II.md",
+    "specialty": "06 알레르기",
+    "category": "알레르기",
+    "classification": [
+      "Type II"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• Type II는 알레르기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[그레이브스병 (Graves' Disease)]], [[용혈성 빈혈 (Hemolytic Anemia)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[그레이브스병 (Graves' Disease)]]",
+      "• [[용혈성 빈혈 (Hemolytic Anemia)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• Type II는 알레르기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[그레이브스병 (Graves' Disease)]], [[용혈성 빈혈 (Hemolytic Anemia)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[그레이브스병 (Graves' Disease)]]",
+          "• [[용혈성 빈혈 (Hemolytic Anemia)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.578Z"
+  },
+  {
+    "id": "02 Diseases/06 알레르기/Type III.md",
+    "slug": "MDYg7JWM66CI66W06riwL1R5cGUgSUlJLm1k",
+    "title": "Type III",
+    "sourcePath": "source_notes/02 Diseases/06 알레르기/Type III.md",
+    "specialty": "06 알레르기",
+    "category": "알레르기",
+    "classification": [
+      "Type III"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis (PSGN))]], [[전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))]], [[혈관염 (Vasculitis)]], [[혈청병 (Serum Sickness)]]",
+      "• Type III는 알레르기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis (PSGN))]]",
+      "• [[전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• Type III는 알레르기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis (PSGN))]], [[전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))]], [[혈관염 (Vasculitis)]], [[혈청병 (Serum Sickness)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis (PSGN))]]",
+          "• [[전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))]]",
+          "• [[혈관염 (Vasculitis)]]",
+          "• [[혈청병 (Serum Sickness)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.584Z"
+  },
+  {
+    "id": "02 Diseases/06 알레르기/Type IV.md",
+    "slug": "MDYg7JWM66CI66W06riwL1R5cGUgSVYubWQ",
+    "title": "Type IV",
+    "sourcePath": "source_notes/02 Diseases/06 알레르기/Type IV.md",
+    "specialty": "06 알레르기",
+    "category": "알레르기",
+    "classification": [
+      "Type IV"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))]], [[약물 발진 호산구증 및 전신 증상 (DRESS) (Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS))]], [[접촉 피부염 (Contact Dermatitis)]]",
+      "• Type IV는 알레르기 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))]]",
+      "• [[약물 발진 호산구증 및 전신 증상 (DRESS) (Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS))]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• Type IV는 알레르기 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))]], [[약물 발진 호산구증 및 전신 증상 (DRESS) (Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS))]], [[접촉 피부염 (Contact Dermatitis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))]]",
+          "• [[약물 발진 호산구증 및 전신 증상 (DRESS) (Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS))]]",
+          "• [[접촉 피부염 (Contact Dermatitis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.581Z"
+  },
+  {
     "id": "02 Diseases/07 류마티스/감염 관절염 (Infectious Arthritis).md",
     "slug": "MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA",
     "title": "감염 관절염 (Infectious Arthritis)",
@@ -30939,40 +33536,47 @@
     "specialty": "07 류마티스",
     "category": "류마티스",
     "classification": [
-      "[\"류마티스\"]"
+      "류마티스"
     ],
     "aliases": [],
     "chiefComplaints": [],
     "definition": "",
     "overview": [
-      "# 류마티스",
-      "• [[전신 홍반 루푸스 (Systemic Lupus Erythematosus)]]",
-      "• [[항인지질 증후군 (Antiphospholipid Syndrome)]]",
-      "• [[전신 경화증 (Systemic Sclerosis)]]",
-      "• [[염증성 근병증 (Inflammatory Myopathy)]]"
+      "• 대표 질환: [[감염 관절염 (Infectious Arthritis)]], [[강직성 척추염 (Ankylosing Spondylitis)]], [[골관절염 (Osteoarthritis)]], [[기쿠치병 (Kikuchi Disease)]], [[류마티스 관절염 (Rheumatoid Arthritis)]], [[반응성 관절염 (Reactive Arthritis)]]",
+      "• 류마티스는 류마티스 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[감염 관절염 (Infectious Arthritis)]]",
+      "• [[강직성 척추염 (Ankylosing Spondylitis)]]"
     ],
     "sections": [
       {
-        "title": "본문",
+        "title": "개요",
         "content": [
-          "# 류마티스",
-          "• [[전신 홍반 루푸스 (Systemic Lupus Erythematosus)]]",
-          "• [[항인지질 증후군 (Antiphospholipid Syndrome)]]",
-          "• [[전신 경화증 (Systemic Sclerosis)]]",
-          "• [[염증성 근병증 (Inflammatory Myopathy)]]",
-          "• [[쇼그렌 증후군 (Sjögren's Syndrome)]]",
-          "• [[베체트병 (Behçet's Disease)]]",
-          "• [[강직성 척추염 (Ankylosing Spondylitis)]]",
-          "• [[반응성 관절염 (Reactive Arthritis)]]",
-          "• [[류마티스 관절염 (Rheumatoid Arthritis)]]",
-          "• [[골관절염 (Osteoarthritis)]]",
-          "• [[통풍 (Gout)]]",
+          "• 류마티스는 류마티스 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[감염 관절염 (Infectious Arthritis)]], [[강직성 척추염 (Ankylosing Spondylitis)]], [[골관절염 (Osteoarthritis)]], [[기쿠치병 (Kikuchi Disease)]], [[류마티스 관절염 (Rheumatoid Arthritis)]], [[반응성 관절염 (Reactive Arthritis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
           "• [[감염 관절염 (Infectious Arthritis)]]",
-          "• [[기쿠치병 (Kikuchi Disease)]]"
+          "• [[강직성 척추염 (Ankylosing Spondylitis)]]",
+          "• [[골관절염 (Osteoarthritis)]]",
+          "• [[기쿠치병 (Kikuchi Disease)]]",
+          "• [[류마티스 관절염 (Rheumatoid Arthritis)]]",
+          "• [[반응성 관절염 (Reactive Arthritis)]]",
+          "• [[베체트병 (Behçet's Disease)]]",
+          "• [[쇼그렌 증후군 (Sjögren's Syndrome)]]",
+          "• [[염증성 근병증 (Inflammatory Myopathy)]]",
+          "• [[전신 경화증 (Systemic Sclerosis)]]",
+          "• [[전신 홍반 루푸스 (Systemic Lupus Erythematosus)]]",
+          "• [[통풍 (Gout)]]",
+          "• [[항인지질 증후군 (Antiphospholipid Syndrome)]]"
         ]
       }
     ],
-    "updatedAt": "2026-05-10T17:24:37.721Z"
+    "updatedAt": "2026-07-09T13:29:16.585Z"
   },
   {
     "id": "02 Diseases/07 류마티스/반응성 관절염 (Reactive Arthritis).md",
@@ -32659,6 +35263,97 @@
     "updatedAt": "2026-06-06T12:07:14.450Z"
   },
   {
+    "id": "02 Diseases/08 감염/기생충.md",
+    "slug": "MDgg6rCQ7Je8L-q4sOyDney2qS5tZA",
+    "title": "기생충",
+    "sourcePath": "source_notes/02 Diseases/08 감염/기생충.md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "기생충"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 기생충는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[간흡충증 (Clonorchiasis)]], [[고래회충 유충증 (Anisakiasis)]], [[요충증 (Enterobiasis)]], [[폐흡충증 (Paragonimiasis)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[간흡충증 (Clonorchiasis)]]",
+      "• [[고래회충 유충증 (Anisakiasis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 기생충는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[간흡충증 (Clonorchiasis)]], [[고래회충 유충증 (Anisakiasis)]], [[요충증 (Enterobiasis)]], [[폐흡충증 (Paragonimiasis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[간흡충증 (Clonorchiasis)]]",
+          "• [[고래회충 유충증 (Anisakiasis)]]",
+          "• [[요충증 (Enterobiasis)]]",
+          "• [[폐흡충증 (Paragonimiasis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.588Z"
+  },
+  {
+    "id": "02 Diseases/08 감염/기타.md",
+    "slug": "MDgg6rCQ7Je8L-q4sO2DgC5tZA",
+    "title": "기타",
+    "sourcePath": "source_notes/02 Diseases/08 감염/기타.md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "기타"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[골수염 (Osteomyelitis)]], [[노카르디아증 (Nocardiosis)]], [[라임병 (Lyme Disease)]], [[렙토스피라증 (Leptospirosis)]], [[리케차 병 (Rickettsial Disease)]], [[매독 (Syphilis)]]",
+      "• 기타는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[골수염 (Osteomyelitis)]]",
+      "• [[노카르디아증 (Nocardiosis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 기타는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[골수염 (Osteomyelitis)]], [[노카르디아증 (Nocardiosis)]], [[라임병 (Lyme Disease)]], [[렙토스피라증 (Leptospirosis)]], [[리케차 병 (Rickettsial Disease)]], [[매독 (Syphilis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[골수염 (Osteomyelitis)]]",
+          "• [[노카르디아증 (Nocardiosis)]]",
+          "• [[라임병 (Lyme Disease)]]",
+          "• [[렙토스피라증 (Leptospirosis)]]",
+          "• [[리케차 병 (Rickettsial Disease)]]",
+          "• [[매독 (Syphilis)]]",
+          "• [[미코플라스마 (Mycoplasma)]]",
+          "• [[방선균증 (Actinomycosis)]]",
+          "• [[재귀열 (Relapsing Fever)]]",
+          "• [[쯔쯔가무시병 (Tsutsugamushi Disease)]]",
+          "• [[큐열 (Q Fever)]]",
+          "• [[한센병 (Leprosy)]]",
+          "• [[혐기성균 감염 (Anaerobic Bacteria Infection)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.592Z"
+  },
+  {
     "id": "02 Diseases/08 감염/노카르디아증 (Nocardiosis).md",
     "slug": "MDgg6rCQ7Je8L-uFuOy5tOultOuUlOyVhOymnSAoTm9jYXJkaW9zaXMpLm1k",
     "title": "노카르디아증 (Nocardiosis)",
@@ -34044,6 +36739,59 @@
     "updatedAt": "2026-06-06T12:07:14.540Z"
   },
   {
+    "id": "02 Diseases/08 감염/바이러스.md",
+    "slug": "MDgg6rCQ7Je8L-uwlOydtOufrOyKpC5tZA",
+    "title": "바이러스",
+    "sourcePath": "source_notes/02 Diseases/08 감염/바이러스.md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "바이러스"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[감기 (Common Cold)]], [[거대세포바이러스 감염 (CMV) (Cytomegalovirus Infection (CMV))]], [[공수병 (Rabies)]], [[단순포진 감염 (Herpes Simplex Infection)]], [[뎅기열 (Dengue Fever)]], [[수두-대상포진 바이러스 감염 (Varicella-Zoster Virus Infection)]]",
+      "• 바이러스는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[감기 (Common Cold)]]",
+      "• [[거대세포바이러스 감염 (CMV) (Cytomegalovirus Infection (CMV))]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 바이러스는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[감기 (Common Cold)]], [[거대세포바이러스 감염 (CMV) (Cytomegalovirus Infection (CMV))]], [[공수병 (Rabies)]], [[단순포진 감염 (Herpes Simplex Infection)]], [[뎅기열 (Dengue Fever)]], [[수두-대상포진 바이러스 감염 (Varicella-Zoster Virus Infection)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[감기 (Common Cold)]]",
+          "• [[거대세포바이러스 감염 (CMV) (Cytomegalovirus Infection (CMV))]]",
+          "• [[공수병 (Rabies)]]",
+          "• [[단순포진 감염 (Herpes Simplex Infection)]]",
+          "• [[뎅기열 (Dengue Fever)]]",
+          "• [[수두-대상포진 바이러스 감염 (Varicella-Zoster Virus Infection)]]",
+          "• [[신증후군 출혈열 (Hemorrhagic Fever with Renal Syndrome)]]",
+          "• [[아데노바이러스 감염 (Adenovirus Infection)]]",
+          "• [[엡스타인-바 바이러스 감염 (EBV) (Epstein-Barr Virus Infection (EBV))]]",
+          "• [[인플루엔자 (Influenza)]]",
+          "• [[중동 호흡기 증후군 (MERS) (Middle East Respiratory Syndrome (MERS))]]",
+          "• [[중증열성 혈소판감소 증후군 (SFTS) (Severe Fever with Thrombocytopenia Syndrome (SFTS))]]",
+          "• [[지카바이러스 감염 (Zika Virus Infection)]]",
+          "• [[치쿤구니아열 (Chikungunya Fever)]]",
+          "• [[코로나바이러스감염증-19 (COVID-19)]]",
+          "• [[후천성 면역결핍 증후군 (AIDS) (Acquired Immunodeficiency Syndrome (AIDS))]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.589Z"
+  },
+  {
     "id": "02 Diseases/08 감염/방선균증 (Actinomycosis).md",
     "slug": "MDgg6rCQ7Je8L-uwqeyEoOq3oOymnSAoQWN0aW5vbXljb3NpcykubWQ",
     "title": "방선균증 (Actinomycosis)",
@@ -35412,6 +38160,88 @@
     "updatedAt": "2026-06-06T12:07:14.634Z"
   },
   {
+    "id": "02 Diseases/08 감염/원내감염.md",
+    "slug": "MDgg6rCQ7Je8L-ybkOuCtOqwkOyXvC5tZA",
+    "title": "원내감염",
+    "sourcePath": "source_notes/02 Diseases/08 감염/원내감염.md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "원내감염"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[거짓막 결장염 (Pseudomembranous Colitis)]], [[도관 관련 감염 (Catheter-Related Infection)]], [[면역저하자 감염 (Immunocompromised Host Infection)]]",
+      "• 원내감염는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[거짓막 결장염 (Pseudomembranous Colitis)]]",
+      "• [[도관 관련 감염 (Catheter-Related Infection)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 원내감염는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[거짓막 결장염 (Pseudomembranous Colitis)]], [[도관 관련 감염 (Catheter-Related Infection)]], [[면역저하자 감염 (Immunocompromised Host Infection)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[거짓막 결장염 (Pseudomembranous Colitis)]]",
+          "• [[도관 관련 감염 (Catheter-Related Infection)]]",
+          "• [[면역저하자 감염 (Immunocompromised Host Infection)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.590Z"
+  },
+  {
+    "id": "02 Diseases/08 감염/원생돌물.md",
+    "slug": "MDgg6rCQ7Je8L-ybkOyDneuPjOusvC5tZA",
+    "title": "원생돌물",
+    "sourcePath": "source_notes/02 Diseases/08 감염/원생돌물.md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "원생돌물"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[말라리아 (Malaria)]], [[아메바 장염 (Amebic Colitis)]], [[아메바증 (Amebiasis)]], [[자유 아메바 감염 (Free-Living Amebic Infection)]], [[톡소플라즈마증 (Toxoplasmosis)]]",
+      "• 원생돌물는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[말라리아 (Malaria)]]",
+      "• [[아메바 장염 (Amebic Colitis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 원생돌물는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[말라리아 (Malaria)]], [[아메바 장염 (Amebic Colitis)]], [[아메바증 (Amebiasis)]], [[자유 아메바 감염 (Free-Living Amebic Infection)]], [[톡소플라즈마증 (Toxoplasmosis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[말라리아 (Malaria)]]",
+          "• [[아메바 장염 (Amebic Colitis)]]",
+          "• [[아메바증 (Amebiasis)]]",
+          "• [[자유 아메바 감염 (Free-Living Amebic Infection)]]",
+          "• [[톡소플라즈마증 (Toxoplasmosis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.594Z"
+  },
+  {
     "id": "02 Diseases/08 감염/이질 (Dysentery).md",
     "slug": "MDgg6rCQ7Je8L-ydtOyniCAoRHlzZW50ZXJ5KS5tZA",
     "title": "이질 (Dysentery)",
@@ -36057,6 +38887,49 @@
     "updatedAt": "2026-06-06T12:07:14.675Z"
   },
   {
+    "id": "02 Diseases/08 감염/지역사회.md",
+    "slug": "MDgg6rCQ7Je8L-yngOyXreyCrO2ajC5tZA",
+    "title": "지역사회",
+    "sourcePath": "source_notes/02 Diseases/08 감염/지역사회.md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "지역사회"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[비장티푸스 살모넬라 (Non-typhoidal Salmonella)]], [[설사 (비염증성) (Diarrhea (Non-inflammatory))]], [[설사 (염증성) (Diarrhea (Inflammatory))]], [[이질 (Dysentery)]], [[캄필로박터 (Campylobacter)]], [[콜레라 (Cholera)]]",
+      "• 지역사회는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[비장티푸스 살모넬라 (Non-typhoidal Salmonella)]]",
+      "• [[설사 (비염증성) (Diarrhea (Non-inflammatory))]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 지역사회는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[비장티푸스 살모넬라 (Non-typhoidal Salmonella)]], [[설사 (비염증성) (Diarrhea (Non-inflammatory))]], [[설사 (염증성) (Diarrhea (Inflammatory))]], [[이질 (Dysentery)]], [[캄필로박터 (Campylobacter)]], [[콜레라 (Cholera)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[비장티푸스 살모넬라 (Non-typhoidal Salmonella)]]",
+          "• [[설사 (비염증성) (Diarrhea (Non-inflammatory))]]",
+          "• [[설사 (염증성) (Diarrhea (Inflammatory))]]",
+          "• [[이질 (Dysentery)]]",
+          "• [[캄필로박터 (Campylobacter)]]",
+          "• [[콜레라 (Cholera)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.596Z"
+  },
+  {
     "id": "02 Diseases/08 감염/지카바이러스 감염 (Zika Virus Infection).md",
     "slug": "MDgg6rCQ7Je8L-yngOy5tOuwlOydtOufrOyKpCDqsJDsl7wgKFppa2EgVmlydXMgSW5mZWN0aW9uKS5tZA",
     "title": "지카바이러스 감염 (Zika Virus Infection)",
@@ -36134,6 +39007,48 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:14.682Z"
+  },
+  {
+    "id": "02 Diseases/08 감염/진균.md",
+    "slug": "MDgg6rCQ7Je8L-ynhOq3oC5tZA",
+    "title": "진균",
+    "sourcePath": "source_notes/02 Diseases/08 감염/진균.md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "진균"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 진균는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[아스페르길루스증 (Aspergillosis)]], [[칸디다증 (Candidiasis)]], [[크립토코쿠스증 (Cryptococcosis)]], [[털곰팡이증 (Mucormycosis)]], [[폐포자충 폐렴 (Pneumocystis Pneumonia)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[아스페르길루스증 (Aspergillosis)]]",
+      "• [[칸디다증 (Candidiasis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 진균는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[아스페르길루스증 (Aspergillosis)]], [[칸디다증 (Candidiasis)]], [[크립토코쿠스증 (Cryptococcosis)]], [[털곰팡이증 (Mucormycosis)]], [[폐포자충 폐렴 (Pneumocystis Pneumonia)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[아스페르길루스증 (Aspergillosis)]]",
+          "• [[칸디다증 (Candidiasis)]]",
+          "• [[크립토코쿠스증 (Cryptococcosis)]]",
+          "• [[털곰팡이증 (Mucormycosis)]]",
+          "• [[폐포자충 폐렴 (Pneumocystis Pneumonia)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.597Z"
   },
   {
     "id": "02 Diseases/08 감염/쯔쯔가무시병 (Tsutsugamushi Disease).md",
@@ -37663,6 +40578,99 @@
     "updatedAt": "2026-06-06T12:07:14.771Z"
   },
   {
+    "id": "02 Diseases/08 감염/G(-).md",
+    "slug": "MDgg6rCQ7Je8L0coLSkubWQ",
+    "title": "G(-)",
+    "sourcePath": "source_notes/02 Diseases/08 감염/G(-).md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "G(-)"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• G(-)는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[괴저병 (Gangrene)]], [[녹농균 (Pseudomonas Aeruginosa)]], [[대장균 (E. coli)]], [[레지오넬라 (Legionella)]], [[묘소병 (Cat Scratch Disease)]], [[브루셀라증 (Brucellosis)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[괴저병 (Gangrene)]]",
+      "• [[녹농균 (Pseudomonas Aeruginosa)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• G(-)는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[괴저병 (Gangrene)]], [[녹농균 (Pseudomonas Aeruginosa)]], [[대장균 (E. coli)]], [[레지오넬라 (Legionella)]], [[묘소병 (Cat Scratch Disease)]], [[브루셀라증 (Brucellosis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[괴저병 (Gangrene)]]",
+          "• [[녹농균 (Pseudomonas Aeruginosa)]]",
+          "• [[대장균 (E. coli)]]",
+          "• [[레지오넬라 (Legionella)]]",
+          "• [[묘소병 (Cat Scratch Disease)]]",
+          "• [[브루셀라증 (Brucellosis)]]",
+          "• [[수막알균 (Meningococcus)]]",
+          "• [[임균 감염 (Gonococcal Infection)]]",
+          "• [[장티푸스 (Typhoid Fever)]]",
+          "• [[호중구감소증 (Neutropenia)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.593Z"
+  },
+  {
+    "id": "02 Diseases/08 감염/G(+).md",
+    "slug": "MDgg6rCQ7Je8L0coKykubWQ",
+    "title": "G(+)",
+    "sourcePath": "source_notes/02 Diseases/08 감염/G(+).md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "G(+)"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[가스 괴저 (Gas Gangrene)]], [[괴사성 근막염 (Necrotizing Fasciitis)]], [[단독 (Erysipelas)]], [[리스테리아 (Listeria)]], [[사슬알균 인두염 (Streptococcal Pharyngitis)]], [[연조직염 (Cellulitis)]]",
+      "• G(+)는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[가스 괴저 (Gas Gangrene)]]",
+      "• [[괴사성 근막염 (Necrotizing Fasciitis)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• G(+)는 감염 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[가스 괴저 (Gas Gangrene)]], [[괴사성 근막염 (Necrotizing Fasciitis)]], [[단독 (Erysipelas)]], [[리스테리아 (Listeria)]], [[사슬알균 인두염 (Streptococcal Pharyngitis)]], [[연조직염 (Cellulitis)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[가스 괴저 (Gas Gangrene)]]",
+          "• [[괴사성 근막염 (Necrotizing Fasciitis)]]",
+          "• [[단독 (Erysipelas)]]",
+          "• [[리스테리아 (Listeria)]]",
+          "• [[사슬알균 인두염 (Streptococcal Pharyngitis)]]",
+          "• [[연조직염 (Cellulitis)]]",
+          "• [[파상풍 (Tetanus)]]",
+          "• [[포도알균 (Staphylococcus)]]",
+          "• [[푸르니에 괴저 (Fournier's Gangrene)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.586Z"
+  },
+  {
     "id": "02 Diseases/09 혈액/거대적혈모구 빈혈 (Megaloblastic Anemia).md",
     "slug": "MDkg7ZiI7JWhL-qxsOuMgOygge2YiOuqqOq1rCDruYjtmIggKE1lZ2Fsb2JsYXN0aWMgQW5lbWlhKS5tZA",
     "title": "거대적혈모구 빈혈 (Megaloblastic Anemia)",
@@ -38187,6 +41195,47 @@
     "updatedAt": "2026-06-06T12:07:14.809Z"
   },
   {
+    "id": "02 Diseases/09 혈액/기타.md",
+    "slug": "MDkg7ZiI7JWhL-q4sO2DgC5tZA",
+    "title": "기타",
+    "sourcePath": "source_notes/02 Diseases/09 혈액/기타.md",
+    "specialty": "09 혈액",
+    "category": "혈액",
+    "classification": [
+      "기타"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 기타는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[다발골수종 (MM) (Multiple Myeloma (MM))]], [[본태성 혈소판증가증 (ET) (Essential Thrombocythemia (ET))]], [[진성 적혈구증가증 (PV) (Polycythemia Vera (PV))]], [[특발성 골수섬유증 (PMF) (Primary Myelofibrosis (PMF))]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[다발골수종 (MM) (Multiple Myeloma (MM))]]",
+      "• [[본태성 혈소판증가증 (ET) (Essential Thrombocythemia (ET))]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 기타는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[다발골수종 (MM) (Multiple Myeloma (MM))]], [[본태성 혈소판증가증 (ET) (Essential Thrombocythemia (ET))]], [[진성 적혈구증가증 (PV) (Polycythemia Vera (PV))]], [[특발성 골수섬유증 (PMF) (Primary Myelofibrosis (PMF))]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[다발골수종 (MM) (Multiple Myeloma (MM))]]",
+          "• [[본태성 혈소판증가증 (ET) (Essential Thrombocythemia (ET))]]",
+          "• [[진성 적혈구증가증 (PV) (Polycythemia Vera (PV))]]",
+          "• [[특발성 골수섬유증 (PMF) (Primary Myelofibrosis (PMF))]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.603Z"
+  },
+  {
     "id": "02 Diseases/09 혈액/다발골수종 (MM) (Multiple Myeloma (MM)).md",
     "slug": "MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k",
     "title": "다발골수종 (MM) (Multiple Myeloma (MM))",
@@ -38266,6 +41315,51 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:14.814Z"
+  },
+  {
+    "id": "02 Diseases/09 혈액/림프구.md",
+    "slug": "MDkg7ZiI7JWhL-umvO2UhOq1rC5tZA",
+    "title": "림프구",
+    "sourcePath": "source_notes/02 Diseases/09 혈액/림프구.md",
+    "specialty": "09 혈액",
+    "category": "혈액",
+    "classification": [
+      "림프구"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[림프모구성 림프종 (Lymphoblastic Lymphoma)]], [[림프종 (Lymphoma)]], [[버킷 림프종 (Burkitt's Lymphoma)]], [[버킷 유사 미만성 거대 B세포 림프종 (Burkitt-like Diffuse Large B-cell Lymphoma)]], [[비호지킨 림프종 (Non-Hodgkin Lymphoma)]], [[소림프구 림프종 (Small Lymphocytic Lymphoma)]]",
+      "• 림프구는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[림프모구성 림프종 (Lymphoblastic Lymphoma)]]",
+      "• [[림프종 (Lymphoma)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 림프구는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[림프모구성 림프종 (Lymphoblastic Lymphoma)]], [[림프종 (Lymphoma)]], [[버킷 림프종 (Burkitt's Lymphoma)]], [[버킷 유사 미만성 거대 B세포 림프종 (Burkitt-like Diffuse Large B-cell Lymphoma)]], [[비호지킨 림프종 (Non-Hodgkin Lymphoma)]], [[소림프구 림프종 (Small Lymphocytic Lymphoma)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[림프모구성 림프종 (Lymphoblastic Lymphoma)]]",
+          "• [[림프종 (Lymphoma)]]",
+          "• [[버킷 림프종 (Burkitt's Lymphoma)]]",
+          "• [[버킷 유사 미만성 거대 B세포 림프종 (Burkitt-like Diffuse Large B-cell Lymphoma)]]",
+          "• [[비호지킨 림프종 (Non-Hodgkin Lymphoma)]]",
+          "• [[소림프구 림프종 (Small Lymphocytic Lymphoma)]]",
+          "• [[여포성 림프종 (Follicular Lymphoma)]]",
+          "• [[호지킨 림프종 (Hodgkin Lymphoma)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.604Z"
   },
   {
     "id": "02 Diseases/09 혈액/림프모구성 림프종 (Lymphoblastic Lymphoma).md",
@@ -38922,6 +42016,51 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:14.862Z"
+  },
+  {
+    "id": "02 Diseases/09 혈액/백혈구.md",
+    "slug": "MDkg7ZiI7JWhL-uwse2YiOq1rC5tZA",
+    "title": "백혈구",
+    "sourcePath": "source_notes/02 Diseases/09 혈액/백혈구.md",
+    "specialty": "09 혈액",
+    "category": "혈액",
+    "classification": [
+      "백혈구"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia)]], [[급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)]], [[급성 백혈병 (Acute Leukemia)]], [[급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)]], [[만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)]], [[만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)]]",
+      "• 백혈구는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia)]]",
+      "• [[급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 백혈구는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia)]], [[급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)]], [[급성 백혈병 (Acute Leukemia)]], [[급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)]], [[만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)]], [[만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia)]]",
+          "• [[급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)]]",
+          "• [[급성 백혈병 (Acute Leukemia)]]",
+          "• [[급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)]]",
+          "• [[만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)]]",
+          "• [[만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)]]",
+          "• [[만성 백혈병 (Chronic Leukemia)]]",
+          "• [[백혈병 (Leukemia)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.600Z"
   },
   {
     "id": "02 Diseases/09 혈액/백혈병 (Leukemia).md",
@@ -39878,6 +43017,46 @@
     "updatedAt": "2026-06-06T12:07:14.923Z"
   },
   {
+    "id": "02 Diseases/09 혈액/응고인자.md",
+    "slug": "MDkg7ZiI7JWhL-ydkeqzoOyduOyekC5tZA",
+    "title": "응고인자",
+    "sourcePath": "source_notes/02 Diseases/09 혈액/응고인자.md",
+    "specialty": "09 혈액",
+    "category": "혈액",
+    "classification": [
+      "응고인자"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[비타민 K 결핍 (Vitamin K Deficiency)]], [[폰 빌레브란트병 (von Willebrand Disease, vWD)]], [[혈우병 (Hemophilia)]]",
+      "• 응고인자는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[비타민 K 결핍 (Vitamin K Deficiency)]]",
+      "• [[폰 빌레브란트병 (von Willebrand Disease, vWD)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 응고인자는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[비타민 K 결핍 (Vitamin K Deficiency)]], [[폰 빌레브란트병 (von Willebrand Disease, vWD)]], [[혈우병 (Hemophilia)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[비타민 K 결핍 (Vitamin K Deficiency)]]",
+          "• [[폰 빌레브란트병 (von Willebrand Disease, vWD)]]",
+          "• [[혈우병 (Hemophilia)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.607Z"
+  },
+  {
     "id": "02 Diseases/09 혈액/자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia).md",
     "slug": "MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k",
     "title": "자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia)",
@@ -40071,6 +43250,56 @@
       }
     ],
     "updatedAt": "2026-06-06T12:07:14.933Z"
+  },
+  {
+    "id": "02 Diseases/09 혈액/적혈구.md",
+    "slug": "MDkg7ZiI7JWhL-ygge2YiOq1rC5tZA",
+    "title": "적혈구",
+    "sourcePath": "source_notes/02 Diseases/09 혈액/적혈구.md",
+    "specialty": "09 혈액",
+    "category": "혈액",
+    "classification": [
+      "적혈구"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[거대적혈모구 빈혈 (Megaloblastic Anemia)]], [[골수형성이상 증후군 (Myelodysplastic Syndrome, MDS)]], [[만성 질환 빈혈 (Anemia of Chronic Disease)]], [[발작성 야간 혈색소뇨증 (Paroxysmal Nocturnal Hemoglobinuria)]], [[악성 빈혈 (Pernicious Anemia)]], [[용혈성 빈혈 (Hemolytic Anemia)]]",
+      "• 적혈구는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[거대적혈모구 빈혈 (Megaloblastic Anemia)]]",
+      "• [[골수형성이상 증후군 (Myelodysplastic Syndrome, MDS)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 적혈구는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[거대적혈모구 빈혈 (Megaloblastic Anemia)]], [[골수형성이상 증후군 (Myelodysplastic Syndrome, MDS)]], [[만성 질환 빈혈 (Anemia of Chronic Disease)]], [[발작성 야간 혈색소뇨증 (Paroxysmal Nocturnal Hemoglobinuria)]], [[악성 빈혈 (Pernicious Anemia)]], [[용혈성 빈혈 (Hemolytic Anemia)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[거대적혈모구 빈혈 (Megaloblastic Anemia)]]",
+          "• [[골수형성이상 증후군 (Myelodysplastic Syndrome, MDS)]]",
+          "• [[만성 질환 빈혈 (Anemia of Chronic Disease)]]",
+          "• [[발작성 야간 혈색소뇨증 (Paroxysmal Nocturnal Hemoglobinuria)]]",
+          "• [[악성 빈혈 (Pernicious Anemia)]]",
+          "• [[용혈성 빈혈 (Hemolytic Anemia)]]",
+          "• [[유전 구혈적혈구증 (Hereditary Spherocytosis)]]",
+          "• [[자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia)]]",
+          "• [[재생불량성 빈혈 (AA) (Aplastic Anemia (AA))]]",
+          "• [[지중해 빈혈 (Thalassemia)]]",
+          "• [[철 결핍 빈혈 (Iron Deficiency Anemia)]]",
+          "• [[혈관 내 용혈 (Intravascular Hemolysis)]]",
+          "• [[혈관 외 용혈 (Extravascular Hemolysis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.599Z"
   },
   {
     "id": "02 Diseases/09 혈액/지중해 빈혈 (Thalassemia).md",
@@ -40885,6 +44114,86 @@
     "updatedAt": "2026-06-06T12:07:14.978Z"
   },
   {
+    "id": "02 Diseases/09 혈액/혈관벽.md",
+    "slug": "MDkg7ZiI7JWhL-2YiOq0gOuyvS5tZA",
+    "title": "혈관벽",
+    "sourcePath": "source_notes/02 Diseases/09 혈액/혈관벽.md",
+    "specialty": "09 혈액",
+    "category": "혈액",
+    "classification": [
+      "혈관벽"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 혈관벽는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[미세혈관병성 용혈 빈혈 (Microangiopathic Hemolytic Anemia, MAHA)]], [[용혈성 요독 증후군 (Hemolytic Uremic Syndrome, HUS)]], [[파종 혈관내 응고 (Disseminated Intravascular Coagulation, DIC)]], [[혈전성 혈소판감소 자색반 (Thrombotic Thrombocytopenic Purpura, TTP)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[미세혈관병성 용혈 빈혈 (Microangiopathic Hemolytic Anemia, MAHA)]]",
+      "• [[용혈성 요독 증후군 (Hemolytic Uremic Syndrome, HUS)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 혈관벽는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[미세혈관병성 용혈 빈혈 (Microangiopathic Hemolytic Anemia, MAHA)]], [[용혈성 요독 증후군 (Hemolytic Uremic Syndrome, HUS)]], [[파종 혈관내 응고 (Disseminated Intravascular Coagulation, DIC)]], [[혈전성 혈소판감소 자색반 (Thrombotic Thrombocytopenic Purpura, TTP)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[미세혈관병성 용혈 빈혈 (Microangiopathic Hemolytic Anemia, MAHA)]]",
+          "• [[용혈성 요독 증후군 (Hemolytic Uremic Syndrome, HUS)]]",
+          "• [[파종 혈관내 응고 (Disseminated Intravascular Coagulation, DIC)]]",
+          "• [[혈전성 혈소판감소 자색반 (Thrombotic Thrombocytopenic Purpura, TTP)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.605Z"
+  },
+  {
+    "id": "02 Diseases/09 혈액/혈소판.md",
+    "slug": "MDkg7ZiI7JWhL-2YiOyGjO2MkC5tZA",
+    "title": "혈소판",
+    "sourcePath": "source_notes/02 Diseases/09 혈액/혈소판.md",
+    "specialty": "09 혈액",
+    "category": "혈액",
+    "classification": [
+      "혈소판"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 대표 질환: [[특발성 혈소판감소성 자반증 (Idiopathic Thrombocytopenic Purpura, ITP)]], [[헤파린 유발 혈소판감소증 (Heparin-Induced Thrombocytopenia, HIT)]]",
+      "• 혈소판는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[특발성 혈소판감소성 자반증 (Idiopathic Thrombocytopenic Purpura, ITP)]]",
+      "• [[헤파린 유발 혈소판감소증 (Heparin-Induced Thrombocytopenia, HIT)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 혈소판는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[특발성 혈소판감소성 자반증 (Idiopathic Thrombocytopenic Purpura, ITP)]], [[헤파린 유발 혈소판감소증 (Heparin-Induced Thrombocytopenia, HIT)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[특발성 혈소판감소성 자반증 (Idiopathic Thrombocytopenic Purpura, ITP)]]",
+          "• [[헤파린 유발 혈소판감소증 (Heparin-Induced Thrombocytopenia, HIT)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.608Z"
+  },
+  {
     "id": "02 Diseases/09 혈액/혈액.md",
     "slug": "MDkg7ZiI7JWhL-2YiOyVoS5tZA",
     "title": "혈액",
@@ -40892,99 +44201,41 @@
     "specialty": "09 혈액",
     "category": "혈액",
     "classification": [
-      "[\"혈액\"]"
+      "혈액"
     ],
     "aliases": [],
     "chiefComplaints": [],
     "definition": "",
     "overview": [
-      "• [[철 결핍 빈혈 (Iron Deficiency Anemia)]]",
-      "• [[만성 질환 빈혈 (Anemia of Chronic Disease)]]",
-      "• [[지중해 빈혈 (Thalassemia)]]",
-      "• [[거대적혈모구 빈혈 (Megaloblastic Anemia)]]",
-      "• [[악성 빈혈 (Pernicious Anemia)]]"
+      "• 혈액는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[기타]], [[림프구]], [[백혈구]], [[응고인자]], [[적혈구]], [[혈관벽]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[기타]]",
+      "• [[림프구]]"
     ],
     "sections": [
       {
-        "title": "적혈구",
+        "title": "개요",
         "content": [
-          "• [[철 결핍 빈혈 (Iron Deficiency Anemia)]]",
-          "• [[만성 질환 빈혈 (Anemia of Chronic Disease)]]",
-          "• [[지중해 빈혈 (Thalassemia)]]",
-          "• [[거대적혈모구 빈혈 (Megaloblastic Anemia)]]",
-          "• [[악성 빈혈 (Pernicious Anemia)]]",
-          "• [[용혈성 빈혈 (Hemolytic Anemia)]]",
-          "• [[혈관 내 용혈 (Intravascular Hemolysis)]]",
-          "• [[혈관 외 용혈 (Extravascular Hemolysis)]]",
-          "• [[발작성 야간 혈색소뇨증 (Paroxysmal Nocturnal Hemoglobinuria)]]",
-          "• [[자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia)]]",
-          "• [[유전 구혈적혈구증 (Hereditary Spherocytosis)]]",
-          "• [[자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia)]]",
-          "• [[재생불량성 빈혈 (AA) (Aplastic Anemia (AA))]]",
-          "• [[골수형성이상 증후군 (Myelodysplastic Syndrome, MDS)]]"
+          "• 혈액는 혈액 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[기타]], [[림프구]], [[백혈구]], [[응고인자]], [[적혈구]], [[혈관벽]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
         ]
       },
       {
-        "title": "혈소판",
+        "title": "포함 질환",
         "content": [
-          "• [[특발성 혈소판감소성 자반증 (Idiopathic Thrombocytopenic Purpura, ITP)]]",
-          "• [[헤파린 유발 혈소판감소증 (Heparin-Induced Thrombocytopenia, HIT)]]"
-        ]
-      },
-      {
-        "title": "응고인자",
-        "content": [
-          "• [[혈우병 (Hemophilia)]]",
-          "• [[폰 빌레브란트병 (von Willebrand Disease, vWD)]]",
-          "• [[비타민 K 결핍 (Vitamin K Deficiency)]]"
-        ]
-      },
-      {
-        "title": "혈관벽/미세혈관",
-        "content": [
-          "• [[미세혈관병성 용혈 빈혈 (Microangiopathic Hemolytic Anemia, MAHA)]]",
-          "• [[혈전성 혈소판감소 자색반 (Thrombotic Thrombocytopenic Purpura, TTP)]]",
-          "• [[용혈성 요독 증후군 (Hemolytic Uremic Syndrome, HUS)]]",
-          "• [[파종 혈관내 응고 (Disseminated Intravascular Coagulation, DIC)]]"
-        ]
-      },
-      {
-        "title": "백혈구",
-        "content": [
-          "• [[백혈병 (Leukemia)]]",
-          "• [[급성 백혈병 (Acute Leukemia)]]",
-          "• [[급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia)]]",
-          "• [[급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)]]",
-          "• [[급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)]]",
-          "• [[만성 백혈병 (Chronic Leukemia)]]",
-          "• [[만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)]]",
-          "• [[만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)]]"
-        ]
-      },
-      {
-        "title": "림프구",
-        "content": [
-          "• [[림프종 (Lymphoma)]]",
-          "• [[호지킨 림프종 (Hodgkin Lymphoma)]]",
-          "• [[비호지킨 림프종 (Non-Hodgkin Lymphoma)]]",
-          "• [[여포성 림프종 (Follicular Lymphoma)]]",
-          "• [[소림프구 림프종 (Small Lymphocytic Lymphoma)]]",
-          "• [[림프모구성 림프종 (Lymphoblastic Lymphoma)]]",
-          "• [[버킷 림프종 (Burkitt's Lymphoma)]]",
-          "• [[버킷 유사 미만성 거대 B세포 림프종 (Burkitt-like Diffuse Large B-cell Lymphoma)]]"
-        ]
-      },
-      {
-        "title": "기타",
-        "content": [
-          "• [[다발골수종 (MM) (Multiple Myeloma (MM))]]",
-          "• [[진성 적혈구증가증 (PV) (Polycythemia Vera (PV))]]",
-          "• [[본태성 혈소판증가증 (ET) (Essential Thrombocythemia (ET))]]",
-          "• [[특발성 골수섬유증 (PMF) (Primary Myelofibrosis (PMF))]]"
+          "• [[기타]]",
+          "• [[림프구]]",
+          "• [[백혈구]]",
+          "• [[응고인자]]",
+          "• [[적혈구]]",
+          "• [[혈관벽]]",
+          "• [[혈소판]]"
         ]
       }
     ],
-    "updatedAt": "2026-05-10T17:41:33.239Z"
+    "updatedAt": "2026-07-09T13:29:16.602Z"
   },
   {
     "id": "02 Diseases/09 혈액/혈우병 (Hemophilia).md",
@@ -41613,6 +44864,47 @@
       }
     ],
     "updatedAt": "2026-05-05T14:28:55.143Z"
+  },
+  {
+    "id": "02 Diseases/10 종양/종양내과.md",
+    "slug": "MTAg7KKF7JaRL-yiheyWkeuCtOqzvC5tZA",
+    "title": "종양내과",
+    "sourcePath": "source_notes/02 Diseases/10 종양/종양내과.md",
+    "specialty": "10 종양",
+    "category": "종양",
+    "classification": [
+      "종양내과"
+    ],
+    "aliases": [],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 종양내과는 종양 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 대표 질환: [[부종양 증후군 (Paraneoplastic Syndrome)]], [[상대정맥 증후군 (Superior Vena Cava Syndrome)]], [[종양 용해 증후군 (Tumor Lysis Syndrome)]], [[척수 압박 증후군 (Spinal Cord Compression Syndrome)]]",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[부종양 증후군 (Paraneoplastic Syndrome)]]",
+      "• [[상대정맥 증후군 (Superior Vena Cava Syndrome)]]"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 종양내과는 종양 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[부종양 증후군 (Paraneoplastic Syndrome)]], [[상대정맥 증후군 (Superior Vena Cava Syndrome)]], [[종양 용해 증후군 (Tumor Lysis Syndrome)]], [[척수 압박 증후군 (Spinal Cord Compression Syndrome)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[부종양 증후군 (Paraneoplastic Syndrome)]]",
+          "• [[상대정맥 증후군 (Superior Vena Cava Syndrome)]]",
+          "• [[종양 용해 증후군 (Tumor Lysis Syndrome)]]",
+          "• [[척수 압박 증후군 (Spinal Cord Compression Syndrome)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-09T13:29:16.609Z"
   },
   {
     "id": "02 Diseases/10 종양/척수 압박 증후군 (Spinal Cord Compression Syndrome).md",
@@ -45909,148 +49201,92 @@
     "specialty": "11 외과",
     "category": "외과",
     "classification": [
-      "[\"외과\"]"
+      "외과"
     ],
     "aliases": [],
     "chiefComplaints": [],
     "definition": "",
     "overview": [
-      "• [[신경성 쇼크 (Neurogenic Shock)]]",
-      "• [[패혈성 쇼크 (Septic Shock)]]",
-      "• [[Rh 용혈성질환 (Rh 용혈성질환)]]",
-      "• [[급성 용혈성 수혈 반응 (Acute Hemolytic Transfusion Reaction)]]",
-      "• [[알레르기 비용혈성 수혈 반응 (Allergic Non-hemolytic Transfusion Reaction)]]"
+      "• 대표 질환: [[가로막손상 (Diaphragmatic Injury)]], [[간 손상 (Liver Injury)]], [[갈비뼈 골절 (Rib Fracture)]], [[결장 손상 (Colon Injury)]], [[경부외상 (Cervical Trauma)]], [[골반외상 (Pelvic Trauma)]]",
+      "• 외과는 외과 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[가로막손상 (Diaphragmatic Injury)]]",
+      "• [[간 손상 (Liver Injury)]]"
     ],
     "sections": [
       {
-        "title": "쇼크",
+        "title": "개요",
         "content": [
-          "• [[신경성 쇼크 (Neurogenic Shock)]]",
-          "• [[패혈성 쇼크 (Septic Shock)]]"
+          "• 외과는 외과 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[가로막손상 (Diaphragmatic Injury)]], [[간 손상 (Liver Injury)]], [[갈비뼈 골절 (Rib Fracture)]], [[결장 손상 (Colon Injury)]], [[경부외상 (Cervical Trauma)]], [[골반외상 (Pelvic Trauma)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
         ]
       },
       {
-        "title": "수혈",
-        "content": [
-          "• [[Rh 용혈성질환 (Rh 용혈성질환)]]",
-          "• [[급성 용혈성 수혈 반응 (Acute Hemolytic Transfusion Reaction)]]",
-          "• [[알레르기 비용혈성 수혈 반응 (Allergic Non-hemolytic Transfusion Reaction)]]",
-          "• [[비용혈성 발열 수혈 반응 (Non-hemolytic Febrile Transfusion Reaction)]]",
-          "• [[수혈 관련 급성 폐 손상 (Transfusion-Related Acute Lung Injury)]]",
-          "• [[수혈 후 자반증 (Post-Transfusion Purpura)]]",
-          "• [[수혈 관련 이식편 대 숙주 반응 (Transfusion-Associated Graft-versus-Host Disease)]]",
-          "• [[수혈 관련 순환량 과다 (Transfusion-Associated Circulatory Overload)]]"
-        ]
-      },
-      {
-        "title": "외상",
+        "title": "포함 질환",
         "content": [
           "• [[가로막손상 (Diaphragmatic Injury)]]",
-          "• [[동요 가슴 (Flail Chest)]]",
-          "• [[가로막손상 (Diaphragmatic Injury)]]",
-          "• [[둔상 복부외상 (Blunt Abdominal Trauma)|둔상]]",
-          "• [[십이지장 손상 (Duodenal Injury)]]",
           "• [[간 손상 (Liver Injury)]]",
-          "• [[지라손상 (Spleen Injury)|지라 손상 (Spleen Injury)]]",
-          "• [[췌장 손상 (Pancreatic Injury)]]",
+          "• [[갈비뼈 골절 (Rib Fracture)]]",
           "• [[결장 손상 (Colon Injury)]]",
-          "• [[신 손상 (Kidney Injury)]]",
-          "• [[비장 손상 (Splenic Injury)]]",
           "• [[경부외상 (Cervical Trauma)]]",
           "• [[골반외상 (Pelvic Trauma)]]",
-          "• [[엉덩관절 탈구 (Hip Dislocation)]]",
+          "• [[공기 색전증 (Air Embolism)]]",
           "• [[관통상 복부외상 (Penetrating Abdominal Injury)]]",
-          "• [[갈비뼈 골절 (Rib Fracture)]]"
-        ]
-      },
-      {
-        "title": "화상",
-        "content": [
-          "• [[화상 (Burn)]]",
-          "• [[흡입화상 (Inhalation Burn)]]",
-          "• [[전기 화상 (Electrical Burn)]]",
-          "• [[화학물질화상 (Chemical Burn)]]"
-        ]
-      },
-      {
-        "title": "물림",
-        "content": [
-          "• [[동물 물림 (Animal Bite)]]",
-          "• [[뱀 물림 (Snake Bite)]]",
-          "• [[벌 쏘임 (Bee Sting)]]"
-        ]
-      },
-      {
-        "title": "유방",
-        "content": [
-          "• [[유방 낭종 (Breast Cyst)]]",
-          "• [[섬유선종 (Fibroadenoma)]]",
-          "• [[엽상 종양 (Phyllodes Tumor)]]",
-          "• [[관내 유두종 (Intraductal Papilloma)]]",
-          "• [[젖낭종 (Galactocele)]]",
-          "• [[수유기 유방염 (Lactational Mastitis)]]",
-          "• [[유방 농양 (Breast Abscess)]]",
-          "• [[비수유기 유방염 (Non-puerperal Mastitis)]]",
-          "• [[섬유낭성변화 (Fibrocystic Change)]]",
-          "• [[몬도르병 (Mondor's Disease)]]"
-        ]
-      },
-      {
-        "title": "유방암",
-        "content": [
-          "• 유방암 검진 (문서 없음)",
-          "• [[유방암 (Breast Cancer)]]",
-          "• [[소엽 상피내암 (Lobular Carcinoma In Situ)]]",
-          "• [[관상피내암 (Intraductal Carcinoma)]]",
-          "• [[파제트병 (Paget's Disease)]]",
-          "• [[비침윤성 유방암 (Non-invasive Breast Cancer)]]",
-          "• [[침윤성 유방암 (Invasive Breast Cancer)]]",
-          "• [[염증성 유방암 (Inflammatory Breast Cancer)]]",
-          "• [[국소 진행성 유방암 (Locally Advanced Breast Cancer)]]"
-        ]
-      },
-      {
-        "title": "탈장",
-        "content": [
-          "• [[탈장 (Hernia)]]",
-          "• [[샅굴 탈장 (Inguinal Hernia)]]",
-          "• [[대퇴 탈장 (Femoral Hernia)]]",
-          "• [[배꼽 탈장 (Umbilical Hernia)]]",
-          "• [[장루 주위 탈장 (Parastomal Hernia)]]"
-        ]
-      },
-      {
-        "title": "기타",
-        "content": [
           "• [[급성 복증 (Acute Abdomen)]]",
-          "• [[창상 감염 (Wound Infection)]]"
-        ]
-      },
-      {
-        "title": "Post - op",
-        "content": [
-          "• [[수술 후 발열 (Postoperative Fever)]]",
-          "• [[지방 색전증 (Fat Embolism)]]",
-          "• [[담도 손상 (Bile Duct Injury)]]",
-          "• [[문합부 누출 (Anastomotic Leak)]]",
+          "• [[급성 신우신염 (Acute Pyelonephritis)]]",
+          "• [[급성 용혈성 수혈 반응 (Acute Hemolytic Transfusion Reaction)]]",
+          "• [[급성 충수염 (Acute Appendicitis)]]",
           "• [[기타 수술 후 합병증 (Other Postoperative Complications)]]",
+          "• [[담도 손상 (Bile Duct Injury)]]",
+          "• [[대퇴 탈장 (Femoral Hernia)]]",
+          "• [[동물 물림 (Animal Bite)]]",
+          "• [[동요 가슴 (Flail Chest)]]",
+          "• [[둔상 복부외상 (Blunt Abdominal Trauma)]]",
+          "• [[문합부 누출 (Anastomotic Leak)]]",
+          "• [[배꼽 탈장 (Umbilical Hernia)]]",
+          "• [[뱀 물림 (Snake Bite)]]",
+          "• [[벌 쏘임 (Bee Sting)]]",
+          "• [[복강 구획 증후군 (Abdominal Compartment Syndrome)]]",
+          "• [[비용혈성 발열 수혈 반응 (Non-hemolytic Febrile Transfusion Reaction)]]",
+          "• [[비장 손상 (Splenic Injury)]]",
+          "• [[샅굴 탈장 (Inguinal Hernia)]]",
+          "• [[수술 후 발열 (Postoperative Fever)]]",
+          "• [[수혈 관련 급성 폐 손상 (Transfusion-Related Acute Lung Injury)]]",
+          "• [[수혈 관련 순환량 과다 (Transfusion-Associated Circulatory Overload)]]",
+          "• [[수혈 관련 이식편 대 숙주 반응 (Transfusion-Associated Graft-versus-Host Disease)]]",
+          "• [[수혈 후 자반증 (Post-Transfusion Purpura)]]",
+          "• [[스토마합병증 (Ischemic Necrosis)]]",
+          "• [[스트레스성 궤양 (Stress Ulcer)]]",
+          "• [[신 손상 (Kidney Injury)]]",
+          "• [[신경성 쇼크 (Neurogenic Shock)]]",
+          "• [[심부 정맥 혈전증 및 폐색전증 (Deep Vein Thrombosis and Pulmonary Embolism)]]",
+          "• [[십이지장 손상 (Duodenal Injury)]]",
+          "• [[알레르기 비용혈성 수혈 반응 (Allergic Non-hemolytic Transfusion Reaction)]]",
           "• [[암죽 복수 (Chylous Ascites)]]",
+          "• [[엉덩관절 탈구 (Hip Dislocation)]]",
+          "• [[위장관 출혈 (Gastrointestinal Bleeding)]]",
+          "• [[인플루엔자 (Influenza)]]",
+          "• [[장 누공 (Enterocutaneous Fistula)]]",
           "• [[장 폐색 (Bowel Obstruction)]]",
-          "• [[복강 구획 증후군 (Abdominal Compartment Syndrome)]]"
-        ]
-      },
-      {
-        "title": "기타",
-        "content": [
-          "• [[스토마합병증 (Ischemic Necrosis)]]*",
-          "• [[스트레스성 궤양 (Stress Ulcer)]]*",
-          "• [[심부 정맥 혈전증 및 폐색전증 (Deep Vein Thrombosis and Pulmonary Embolism)]]*",
-          "• [[장 누공 (Enterocutaneous Fistula)]]*",
-          "• [[장액종 (Seroma)]]"
+          "• [[장루 주위 탈장 (Parastomal Hernia)]]",
+          "• [[장액종 (Seroma)]]",
+          "• [[전기 화상 (Electrical Burn)]]",
+          "• [[지라손상 (Spleen Injury)]]",
+          "• [[지방 색전증 (Fat Embolism)]]",
+          "• [[창상 감염 (Wound Infection)]]",
+          "• [[췌장 손상 (Pancreatic Injury)]]",
+          "• [[탈장 (Hernia)]]",
+          "• [[패혈성 쇼크 (Septic Shock)]]",
+          "• [[폐색전증 (Pulmonary Embolism)]]",
+          "• [[화상 (Burn)]]",
+          "• [[화학물질화상 (Chemical Burn)]]",
+          "• [[흡입화상 (Inhalation Burn)]]",
+          "• [[Rh 용혈성질환 (Rh 용혈성질환)]]"
         ]
       }
     ],
-    "updatedAt": "2026-05-18T06:40:37.070Z"
+    "updatedAt": "2026-07-09T13:29:16.611Z"
   },
   {
     "id": "02 Diseases/11 외과/위장관 출혈 (Gastrointestinal Bleeding).md",
@@ -95529,90 +98765,67 @@
     "specialty": "20 비뇨기과",
     "category": "비뇨기과",
     "classification": [
-      "[\"비뇨기과\"]"
+      "비뇨기과"
     ],
     "aliases": [],
     "chiefComplaints": [],
     "definition": "",
     "overview": [
-      "• [[요석 (Urinary tract stone)|요석]]",
-      "• [[감염석 (Struvite stone)]]",
-      "• [[전립샘염 (Prostatitis)]]",
-      "• [[요도염 (Urethritis)]]",
-      "• [[방광요관역류 (VesicoUreteral Reflux)]]"
+      "• 대표 질환: [[감돈 포경 (Paraphimosis)]], [[감염석 (Struvite stone)]], [[고환 수염전 (Appendix testis torsion)]], [[고환 종양 (Testicular cancer)]], [[고환 파열 (Testicular rupture)]], [[고환염전 (Testicular torsion)]]",
+      "• 비뇨기과는 비뇨기과 분과에서 함께 검토하는 하위 질환군입니다.",
+      "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다.",
+      "• [[감돈 포경 (Paraphimosis)]]",
+      "• [[감염석 (Struvite stone)]]"
     ],
     "sections": [
       {
-        "title": "요석",
+        "title": "개요",
         "content": [
-          "• [[요석 (Urinary tract stone)|요석]]",
-          "• [[감염석 (Struvite stone)]]"
+          "• 비뇨기과는 비뇨기과 분과에서 함께 검토하는 하위 질환군입니다.",
+          "• 대표 질환: [[감돈 포경 (Paraphimosis)]], [[감염석 (Struvite stone)]], [[고환 수염전 (Appendix testis torsion)]], [[고환 종양 (Testicular cancer)]], [[고환 파열 (Testicular rupture)]], [[고환염전 (Testicular torsion)]]",
+          "• 세부 감별, 검사, 치료는 각 질환 문서에서 확인합니다."
         ]
       },
       {
-        "title": "감염",
+        "title": "포함 질환",
         "content": [
-          "• [[전립샘염 (Prostatitis)]]",
-          "• [[요도염 (Urethritis)]]",
-          "• [[방광요관역류 (VesicoUreteral Reflux)]]",
-          "• [[임균요도염 (Gonococcal urethritis)]]",
+          "• [[감돈 포경 (Paraphimosis)]]",
+          "• [[감염석 (Struvite stone)]]",
+          "• [[고환 수염전 (Appendix testis torsion)]]",
+          "• [[고환 종양 (Testicular cancer)]]",
+          "• [[고환 파열 (Testicular rupture)]]",
+          "• [[고환염전 (Testicular torsion)]]",
+          "• [[귀두 포피염 (Balanoposthitis)]]",
+          "• [[급성 부고환염 (Acute epididymitis)]]",
           "• [[단순포진 (Genital herpes)]]",
+          "• [[덩굴정맥류 (Varicocele)]]",
+          "• [[물음낭증 (Hydrocele)]]",
+          "• [[방광 파열 (Bladder rupture)]]",
+          "• [[방광암 (Bladder cancer)]]",
+          "• [[방광요관역류 (VesicoUreteral Reflux)]]",
           "• [[비임균요도염 (Nongonococcal urethritis)]]",
           "• [[생식기 인간 유두종 바이러스 (Genital warts)]]",
           "• [[성병림프육아종 (Lymphogranuloma venereum)]]",
-          "• [[연성하감 (Chancroid)]]"
-        ]
-      },
-      {
-        "title": "고환/음낭",
-        "content": [
-          "• [[고환염전 (Testicular torsion)]]",
-          "• [[고환 수염전 (Appendix testis torsion)]]",
-          "• [[고환염 (Orchitis)]]",
-          "• [[급성 부고환염 (Acute epididymitis)]]",
-          "• [[잠복고환증 (Cryptorchidism)]]",
-          "• [[물음낭증 (Hydrocele)]]",
-          "• [[덩굴정맥류 (Varicocele)]]",
-          "• [[고환 파열 (Testicular rupture)]]",
-          "• [[음낭 열상 (Scrotal laceration)]]"
-        ]
-      },
-      {
-        "title": "음경",
-        "content": [
-          "• [[귀두 포피염 (Balanoposthitis)]]",
-          "• [[감돈 포경 (Paraphimosis)]]",
-          "• [[음경 골절 (Penile fracture)]]",
-          "• [[포경 (Phimosis)]]"
-        ]
-      },
-      {
-        "title": "종양",
-        "content": [
-          "• [[양성 전립샘 비대증 (Benign Prostatic Hyperplasia)]]",
-          "• [[전립샘암 (Prostate cancer)]]",
-          "• [[방광암 (Bladder cancer)]]",
-          "• [[콩팥암 (Renal Cell Carcinoma)]]",
-          "• [[고환 종양 (Testicular cancer)]]"
-        ]
-      },
-      {
-        "title": "요로폐쇄",
-        "content": [
-          "• [[요로 폐색 (Urinary tract obstruction)]]"
-        ]
-      },
-      {
-        "title": "외상",
-        "content": [
           "• [[신장 손상 (Kidney injury)]]",
+          "• [[양성 전립샘 비대증 (Benign Prostatic Hyperplasia)]]",
+          "• [[연성하감 (Chancroid)]]",
           "• [[요관 손상 (Ureteral injury)]]",
-          "• [[방광 파열 (Bladder rupture)]]",
-          "• [[요도 손상 (Urethral injury)]]"
+          "• [[요도 손상 (Urethral injury)]]",
+          "• [[요도염 (Urethritis)]]",
+          "• [[요로 폐색 (Urinary tract obstruction)]]",
+          "• [[요석 (Urinary tract stone)]]",
+          "• [[음경 골절 (Penile fracture)]]",
+          "• [[음낭 열상 (Scrotal laceration)]]",
+          "• [[임균요도염 (Gonococcal urethritis)]]",
+          "• [[잠복고환증 (Cryptorchidism)]]",
+          "• [[전립샘암 (Prostate cancer)]]",
+          "• [[전립샘염 (Prostatitis)]]",
+          "• [[콩팥암 (Renal Cell Carcinoma)]]",
+          "• [[포경 (Phimosis)]]"
         ]
       }
     ],
-    "updatedAt": "2026-05-18T04:05:55.345Z"
+    "updatedAt": "2026-07-09T13:29:16.613Z"
   },
   {
     "id": "02 Diseases/20 비뇨기과/비임균요도염 (Nongonococcal urethritis).md",

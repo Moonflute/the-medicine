@@ -4,7 +4,7 @@ aliases: []
 - disease
 계통: 신장
 분류:
-- '* 요로감염'
+- 요로감염
 CC:
 - 무증상
 preprocessing_required: x

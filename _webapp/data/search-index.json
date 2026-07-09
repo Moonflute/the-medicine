@@ -1,6 +1,14 @@
 [
   {
     "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwLyjquInsgqzspp3tm4TqtbApLm1k",
+    "title": "(급사증후군)",
+    "category": "01 순환기",
+    "aliases": [],
+    "href": "/disease/MDEg7Iic7ZmY6riwLyjquInsgqzspp3tm4TqtbApLm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MDEg7Iic7ZmY6riwL-qwgOyEsSDrj5nrp6XrpZggKFBzZXVkb2FuZXVyeXNtKS5tZA",
     "title": "가성 동맥류 (Pseudoaneurysm)",
     "category": "01 순환기",
@@ -156,6 +164,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDsp4jtmZgubWQ",
+    "title": "대동맥 질환",
+    "category": "01 순환기",
+    "aliases": [],
+    "href": "/disease/MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDsp4jtmZgubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MDEg7Iic7ZmY6riwL-uMgOuPmeunpS3sl4nrjanrj5nrp6Ug7Y-Q7IOJIChBb3J0b2lsaWFjIE9jY2x1c2lvbikubWQ",
     "title": "대동맥-엉덩동맥 폐색 (Aortoiliac Occlusion)",
     "category": "01 순환기",
@@ -251,6 +267,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-ustO2VtOyEsSDsi6zsnqHsnYwubWQ",
+    "title": "무해성 심잡음",
+    "category": "01 순환기",
+    "aliases": [],
+    "href": "/disease/MDEg7Iic7ZmY6riwL-ustO2VtOyEsSDsi6zsnqHsnYwubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MDEg7Iic7ZmY6riwL-uwnOyekeyEsSDsg4Hsi6zsi6TshLEg67mI66elIChQYXJveHlzbWFsIFN1cHJhdmVudHJpY3VsYXIgVGFjaHljYXJkaWEgKFBTVlQpLm1k",
     "title": "발작성 상심실성 빈맥 (Paroxysmal Supraventricular Tachycardia (PSVT)",
     "category": "01 순환기",
@@ -303,6 +327,14 @@
       "심박수이상"
     ],
     "href": "/disease/MDEg7Iic7ZmY6riwL-uzteu2gCDrjIDrj5nrp6XrpZggKEFiZG9taW5hbCBBb3J0aWMgQW5ldXJ5c20pLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-u2gOygleunpS5tZA",
+    "title": "부정맥",
+    "category": "01 순환기",
+    "aliases": [],
+    "href": "/disease/MDEg7Iic7ZmY6riwL-u2gOygleunpS5tZA"
   },
   {
     "type": "disease",
@@ -442,6 +474,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-yLpOyLoC5tZA",
+    "title": "실신",
+    "category": "01 순환기",
+    "aliases": [],
+    "href": "/disease/MDEg7Iic7ZmY6riwL-yLpOyLoC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDEg7Iic7ZmY6riwL-yLrOq3vOyXvCAoTXlvY2FyZGl0aXMpLm1k",
     "title": "심근염 (Myocarditis)",
     "category": "01 순환기",
@@ -451,6 +491,22 @@
       "가슴통증"
     ],
     "href": "/disease/MDEg7Iic7ZmY6riwL-yLrOq3vOyXvCAoTXlvY2FyZGl0aXMpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-yLrOq3vOyniO2ZmC5tZA",
+    "title": "심근질환",
+    "category": "01 순환기",
+    "aliases": [],
+    "href": "/disease/MDEg7Iic7ZmY6riwL-yLrOq3vOyniO2ZmC5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-yLrOunieyniO2ZmC5tZA",
+    "title": "심막질환",
+    "category": "01 순환기",
+    "aliases": [],
+    "href": "/disease/MDEg7Iic7ZmY6riwL-yLrOunieyniO2ZmC5tZA"
   },
   {
     "type": "disease",
@@ -491,6 +547,14 @@
       "부종"
     ],
     "href": "/disease/MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA",
+    "title": "심부전",
+    "category": "01 순환기",
+    "aliases": [],
+    "href": "/disease/MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA"
   },
   {
     "type": "disease",
@@ -595,6 +659,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-2MkOunieyniO2ZmC5tZA",
+    "title": "판막질환",
+    "category": "01 순환기",
+    "aliases": [],
+    "href": "/disease/MDEg7Iic7ZmY6riwL-2MkOunieyniO2ZmC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDEg7Iic7ZmY6riwL-2PkOuPmeunpe2MkOuniSDtmJHssKkgKFB1bG1vbmFyeSBTdGVub3NpcykubWQ",
     "title": "폐동맥판막 협착 (Pulmonary Stenosis)",
     "category": "01 순환기",
@@ -629,6 +701,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ",
+    "title": "허혈성 심질환",
+    "category": "01 순환기",
+    "aliases": [],
+    "href": "/disease/MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MDEg7Iic7ZmY6riwL-2YiOq0gOuvuOyjvOyLoOqyveyEsSDsi6Tsi6AgKFZhc292YWdhbCBTeW5jb3BlKS5tZA",
     "title": "혈관미주신경성 실신 (Vasovagal Syncope)",
     "category": "01 순환기",
@@ -642,6 +722,14 @@
       "심박수이상"
     ],
     "href": "/disease/MDEg7Iic7ZmY6riwL-2YiOq0gOuvuOyjvOyLoOqyveyEsSDsi6Tsi6AgKFZhc292YWdhbCBTeW5jb3BlKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-2YiOq0gOyniO2ZmC5tZA",
+    "title": "혈관질환",
+    "category": "01 순환기",
+    "aliases": [],
+    "href": "/disease/MDEg7Iic7ZmY6riwL-2YiOq0gOyniO2ZmC5tZA"
   },
   {
     "type": "disease",
@@ -798,6 +886,22 @@
       "쌕쌕거림"
     ],
     "href": "/disease/MDIg7Zi47Z2h6riwL-q4sOq0gOyngCDtmZXsnqXspp0gKEJyb25jaGllY3Rhc2lzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-q4sOy5qC5tZA",
+    "title": "기침",
+    "category": "02 호흡기",
+    "aliases": [],
+    "href": "/disease/MDIg7Zi47Z2h6riwL-q4sOy5qC5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-q4sO2diS5tZA",
+    "title": "기흉",
+    "category": "02 호흡기",
+    "aliases": [],
+    "href": "/disease/MDIg7Zi47Z2h6riwL-q4sO2diS5tZA"
   },
   {
     "type": "disease",
@@ -1146,6 +1250,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-yiheqyqeuPmS5tZA",
+    "title": "종격동",
+    "category": "02 호흡기",
+    "aliases": [],
+    "href": "/disease/MDIg7Zi47Z2h6riwL-yiheqyqeuPmS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDIg7Zi47Z2h6riwL-yngeyXheyEsSDsspzsi50gKE9jY3VwYXRpb25hbCBBc3RobWEpLm1k",
     "title": "직업성 천식 (Occupational Asthma)",
     "category": "02 호흡기",
@@ -1193,6 +1305,14 @@
       "쌕쌕거림"
     ],
     "href": "/disease/MDIg7Zi47Z2h6riwL-yynOyLnSAoQXN0aG1hKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-yynOyLnS5tZA",
+    "title": "천식",
+    "category": "02 호흡기",
+    "aliases": [],
+    "href": "/disease/MDIg7Zi47Z2h6riwL-yynOyLnS5tZA"
   },
   {
     "type": "disease",
@@ -1296,6 +1416,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-2PkOqysO2VtS5tZA",
+    "title": "폐결핵",
+    "category": "02 호흡기",
+    "aliases": [],
+    "href": "/disease/MDIg7Zi47Z2h6riwL-2PkOqysO2VtS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDIg7Zi47Z2h6riwL-2PkOqzoO2YiOyVlSAoUHVsbW9uYXJ5IEh5cGVydGVuc2lvbikubWQ",
     "title": "폐고혈압 (Pulmonary Hypertension)",
     "category": "02 호흡기",
@@ -1305,6 +1433,14 @@
       "피로"
     ],
     "href": "/disease/MDIg7Zi47Z2h6riwL-2PkOqzoO2YiOyVlSAoUHVsbW9uYXJ5IEh5cGVydGVuc2lvbikubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-2PkOugtC5tZA",
+    "title": "폐렴",
+    "category": "02 호흡기",
+    "aliases": [],
+    "href": "/disease/MDIg7Zi47Z2h6riwL-2PkOugtC5tZA"
   },
   {
     "type": "disease",
@@ -1340,6 +1476,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-2PkOyiheyWkS5tZA",
+    "title": "폐종양",
+    "category": "02 호흡기",
+    "aliases": [],
+    "href": "/disease/MDIg7Zi47Z2h6riwL-2PkOyiheyWkS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDIg7Zi47Z2h6riwL-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k",
     "title": "폐포자충 폐렴 (Pneumocystis Pneumonia)",
     "category": "02 호흡기",
@@ -1349,6 +1493,14 @@
       "호흡곤란"
     ],
     "href": "/disease/MDIg7Zi47Z2h6riwL-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-2PkO2YiOq0gC5tZA",
+    "title": "폐혈관",
+    "category": "02 호흡기",
+    "aliases": [],
+    "href": "/disease/MDIg7Zi47Z2h6riwL-2PkO2YiOq0gC5tZA"
   },
   {
     "type": "disease",
@@ -1382,6 +1534,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-2YuOyCsOq1rCDtj5DroLQubWQ",
+    "title": "호산구 폐렴",
+    "category": "02 호흡기",
+    "aliases": [],
+    "href": "/disease/MDIg7Zi47Z2h6riwL-2YuOyCsOq1rCDtj5DroLQubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MDIg7Zi47Z2h6riwL-2YuO2doeq4sC5tZA",
     "title": "호흡기",
     "category": "02 호흡기",
@@ -1389,6 +1549,22 @@
       "CM"
     ],
     "href": "/disease/MDIg7Zi47Z2h6riwL-2YuO2doeq4sC5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-2ZmOq4sOyepeyVoC5tZA",
+    "title": "환기장애",
+    "category": "02 호흡기",
+    "aliases": [],
+    "href": "/disease/MDIg7Zi47Z2h6riwL-2ZmOq4sOyepeyVoC5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-2dieyImC5tZA",
+    "title": "흉수",
+    "category": "02 호흡기",
+    "aliases": [],
+    "href": "/disease/MDIg7Zi47Z2h6riwL-2dieyImC5tZA"
   },
   {
     "type": "disease",
@@ -1401,6 +1577,22 @@
       "가래"
     ],
     "href": "/disease/MDIg7Zi47Z2h6riwL0NPUETsnZgg6riJ7ISxIOyVhe2ZlCAoQWN1dGUgRXhhY2VyYmF0aW9uIG9mIENPUEQpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL0lMRCDigJMg7KeB7JeF7ISxLm1k",
+    "title": "ILD – 직업성",
+    "category": "02 호흡기",
+    "aliases": [],
+    "href": "/disease/MDIg7Zi47Z2h6riwL0lMRCDigJMg7KeB7JeF7ISxLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL0lMRC5tZA",
+    "title": "ILD",
+    "category": "02 호흡기",
+    "aliases": [],
+    "href": "/disease/MDIg7Zi47Z2h6riwL0lMRC5tZA"
   },
   {
     "type": "disease",
@@ -1447,6 +1639,14 @@
       "복통"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7ZiI6rSA7KKFIChIZXBhdGljIEhlbWFuZ2lvbWEpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQubWQ",
+    "title": "간",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQubWQ"
   },
   {
     "type": "disease",
@@ -1530,6 +1730,14 @@
       "의식장애"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsJDsl7zshLEg7LeM7J6lIOq0tOyCrCAoSW5mZWN0ZWQgUGFuY3JlYXRpYyBOZWNyb3NpcykubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qs6DruYzrpqzro6jruYjspp0ubWQ",
+    "title": "고빌리루빈증",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qs6DruYzrpqzro6jruYjspp0ubWQ"
   },
   {
     "type": "disease",
@@ -1643,6 +1851,14 @@
       "탈수"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quLjrsoTtirgg7Kad7ZuE6rWwIChHaWxiZXJ0J3MgU3luZHJvbWUpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7QubWQ",
+    "title": "담",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7QubWQ"
   },
   {
     "type": "disease",
@@ -2023,6 +2239,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4wubWQ",
+    "title": "췌",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4wubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zqtIDrgrQg7Jyg65GQ7IOBIOygkOyVoeyEsSDsooXslpEgKElQTU4pIChJbnRyYWR1Y3RhbCBQYXBpbGxhcnkgTXVjaW5vdXMgTmVvcGxhc20gKElQTU4pKS5tZA",
     "title": "췌관내 유두상 점액성 종양 (IPMN) (Intraductal Papillary Mucinous Neoplasm (IPMN))",
     "category": "03 소화기",
@@ -2179,6 +2403,14 @@
       "혈변"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6Qg7Lac7ZiIIChEaXZlcnRpY3VsYXIgQmxlZWRpbmcpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6QubWQ",
+    "title": "게실",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6QubWQ"
   },
   {
     "type": "disease",
@@ -2377,6 +2609,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rsLDrs4DsnbTsg4EubWQ",
+    "title": "배변이상",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rsLDrs4DsnbTsg4EubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rs4DruYQgKENvbnN0aXBhdGlvbikubWQ",
     "title": "변비 (Constipation)",
     "category": "03 소화기",
@@ -2423,6 +2663,14 @@
       "심박수이상"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_ruaDrpbgg67mE7JuAIOymne2bhOq1sCAoRHVtcGluZyBTeW5kcm9tZSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sgrztgrTqs6TrnoAubWQ",
+    "title": "삼킴곤란",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sgrztgrTqs6TrnoAubWQ"
   },
   {
     "type": "disease",
@@ -2539,6 +2787,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4QubWQ",
+    "title": "식도",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4QubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4TslZQgKEVzb3BoYWdlYWwgQ2FuY2VyKS5tZA",
     "title": "식도암 (Esophageal Cancer)",
     "category": "03 소화기",
@@ -2581,6 +2837,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_slZQubWQ",
+    "title": "암",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_slZQubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sl7Tqs7Ug7YOI7J6lIChIaWF0YWwgSGVybmlhKS5tZA",
     "title": "열공 탈장 (Hiatal Hernia)",
     "category": "03 소화기",
@@ -2617,6 +2881,22 @@
       "출혈"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snIQg7Jqp7KKFIChHYXN0cmljIFBvbHlwKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snIQg7KCI7KCcIOu2gOyekeyaqS5tZA",
+    "title": "위 절제 부작용",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snIQg7KCI7KCcIOu2gOyekeyaqS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snIQubWQ",
+    "title": "위",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snIQubWQ"
   },
   {
     "type": "disease",
@@ -2679,6 +2959,22 @@
   },
   {
     "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsnqXqtIAg7Lac7ZiILm1k",
+    "title": "위장관 출혈",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsnqXqtIAg7Lac7ZiILm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsnqXqtIAg7ZiI6rSALm1k",
+    "title": "위장관 혈관",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsnqXqtIAg7ZiI6rSALm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snKDsoITshLEg67mE7Jqp7KKF7KadIOuMgOyepeyVlCAoSE5QQ0MpIChIZXJlZGl0YXJ5IE5vbnBvbHlwb3NpcyBDb2xvcmVjdGFsIENhbmNlcikubWQ",
     "title": "유전성 비용종증 대장암 (HNPCC) (Hereditary Nonpolyposis Colorectal Cancer)",
     "category": "03 소화기",
@@ -2701,6 +2997,14 @@
       "변비"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snqXqsrDtlbUgKEludGVzdGluYWwgVHViZXJjdWxvc2lzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snqXtj5Dsg4kubWQ",
+    "title": "장폐색",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snqXtj5Dsg4kubWQ"
   },
   {
     "type": "disease",
@@ -2739,6 +3043,14 @@
       "복통"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sp4Dsl7Ag7JyE67Cw7LacIChEZWxheWVkIEdhc3RyaWMgRW1wdHlpbmcpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sp4HsnqUg67CPIO2VreusuC5tZA",
+    "title": "직장 및 항문",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sp4HsnqUg67CPIO2VreusuC5tZA"
   },
   {
     "type": "disease",
@@ -2878,6 +3190,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tnaHsiJjsnqXslaAubWQ",
+    "title": "흡수장애",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tnaHsiJjsnqXslaAubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC9ILnB5bG9yaSDqsJDsl7wgKEgucHlsb3JpIEluZmVjdGlvbikubWQ",
     "title": "H.pylori 감염 (H.pylori Infection)",
     "category": "03 소화기",
@@ -2889,6 +3209,14 @@
       "구토"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC9ILnB5bG9yaSDqsJDsl7wgKEgucHlsb3JpIEluZmVjdGlvbikubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC9JQkQubWQ",
+    "title": "IBD",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC9JQkQubWQ"
   },
   {
     "type": "disease",
@@ -2911,6 +3239,14 @@
       "구토"
     ],
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQg7ZiR7LCpIChTdHJpY3R1cmUpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ",
+    "title": "PUD",
+    "category": "03 소화기",
+    "aliases": [],
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ"
   },
   {
     "type": "disease",
@@ -3014,6 +3350,14 @@
       "호흡곤란"
     ],
     "href": "/disease/MDQg64K067aE67mEL-qwkeyDgeyDmCDsnKDrkZDslZQgKFRoeXJvaWQgUGFwaWxsYXJ5IENhcmNpbm9tYSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDQg64K067aE67mEL-qwkeyDgeyDmC5tZA",
+    "title": "갑상샘",
+    "category": "04 내분비",
+    "aliases": [],
+    "href": "/disease/MDQg64K067aE67mEL-qwkeyDgeyDmC5tZA"
   },
   {
     "type": "disease",
@@ -3135,6 +3479,22 @@
       "월경이상"
     ],
     "href": "/disease/MDQg64K067aE67mEL-uHjO2VmOyImOyytCDsg5jsooUgKFBpdHVpdGFyeSBBZGVub21hKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDQg64K067aE67mEL-uHjO2VmOyImOyytC5tZA",
+    "title": "뇌하수체",
+    "category": "04 내분비",
+    "aliases": [],
+    "href": "/disease/MDQg64K067aE67mEL-uHjO2VmOyImOyytC5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDQg64K067aE67mEL-uLuS5tZA",
+    "title": "당",
+    "category": "04 내분비",
+    "aliases": [],
+    "href": "/disease/MDQg64K067aE67mEL-uLuS5tZA"
   },
   {
     "type": "disease",
@@ -3320,6 +3680,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDQg64K067aE67mEL-u2gOyLoCjtlLzsp4gpLm1k",
+    "title": "부신(피질)",
+    "category": "04 내분비",
+    "aliases": [],
+    "href": "/disease/MDQg64K067aE67mEL-u2gOyLoCjtlLzsp4gpLm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MDQg64K067aE67mEL-yDiOuyvSDtmITsg4EgKERhd24gUGhlbm9tZW5vbikubWQ",
     "title": "새벽 현상 (Dawn Phenomenon)",
     "category": "04 내분비",
@@ -3496,6 +3864,22 @@
       "다뇨"
     ],
     "href": "/disease/MDQg64K067aE67mEL-ykkey2lOyEsSDsmpTrtpXspp0gKENlbnRyYWwgRGlhYmV0ZXMgSW5zaXBpZHVzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDQg64K067aE67mEL-yngOyniC5tZA",
+    "title": "지질",
+    "category": "04 내분비",
+    "aliases": [],
+    "href": "/disease/MDQg64K067aE67mEL-yngOyniC5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDQg64K067aE67mEL-y5vOyKmC5tZA",
+    "title": "칼슘",
+    "category": "04 내분비",
+    "aliases": [],
+    "href": "/disease/MDQg64K067aE67mEL-y5vOyKmC5tZA"
   },
   {
     "type": "disease",
@@ -3740,6 +4124,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDUg7Iug7J6lL-uLqOuwseuHqC5tZA",
+    "title": "단백뇨",
+    "category": "05 신장",
+    "aliases": [],
+    "href": "/disease/MDUg7Iug7J6lL-uLqOuwseuHqC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDUg7Iug7J6lL-ujqO2RuOyKpCDsvantjKXsl7wgKEx1cHVzIE5lcGhyaXRpcykubWQ",
     "title": "루푸스 콩팥염 (Lupus Nephritis)",
     "category": "05 신장",
@@ -3832,6 +4224,22 @@
   },
   {
     "type": "disease",
+    "slug": "MDUg7Iug7J6lL-yCrOq1rOyytOyniO2ZmC5tZA",
+    "title": "사구체질환",
+    "category": "05 신장",
+    "aliases": [],
+    "href": "/disease/MDUg7Iug7J6lL-yCrOq1rOyytOyniO2ZmC5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDUg7Iug7J6lL-yCsOyXvOq4sCDsp4jtmZgubWQ",
+    "title": "산염기 질환",
+    "category": "05 신장",
+    "aliases": [],
+    "href": "/disease/MDUg7Iug7J6lL-yCsOyXvOq4sCDsp4jtmZgubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MDUg7Iug7J6lL-yCsOymnSAoQWNpZG9zaXMpLm1k",
     "title": "산증 (Acidosis)",
     "category": "05 신장",
@@ -3839,6 +4247,22 @@
       "혈압저하"
     ],
     "href": "/disease/MDUg7Iug7J6lL-yCsOymnSAoQWNpZG9zaXMpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDUg7Iug7J6lL-yEuOq0gOq4sOuKpeyepeyVoC5tZA",
+    "title": "세관기능장애",
+    "category": "05 신장",
+    "aliases": [],
+    "href": "/disease/MDUg7Iug7J6lL-yEuOq0gOq4sOuKpeyepeyVoC5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsp4jtmZgubWQ",
+    "title": "세관사이질 질환",
+    "category": "05 신장",
+    "aliases": [],
+    "href": "/disease/MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsp4jtmZgubWQ"
   },
   {
     "type": "disease",
@@ -3853,6 +4277,14 @@
       "피부 발진"
     ],
     "href": "/disease/MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsvantjKXsl7wgKFR1YnVsb2ludGVyc3RpdGlhbCBOZXBocml0aXMpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDUg7Iug7J6lL-yLoOq4sOuKpSDsnbTsg4EubWQ",
+    "title": "신기능 이상",
+    "category": "05 신장",
+    "aliases": [],
+    "href": "/disease/MDUg7Iug7J6lL-yLoOq4sOuKpSDsnbTsg4EubWQ"
   },
   {
     "type": "disease",
@@ -3900,6 +4332,14 @@
       "관절 통증/붓기"
     ],
     "href": "/disease/MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDUg7Iug7J6lL-yLoO2YiOq0gCDsp4jtmZgubWQ",
+    "title": "신혈관 질환",
+    "category": "05 신장",
+    "aliases": [],
+    "href": "/disease/MDUg7Iug7J6lL-yLoO2YiOq0gCDsp4jtmZgubWQ"
   },
   {
     "type": "disease",
@@ -3982,6 +4422,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA",
+    "title": "요로감염",
+    "category": "05 신장",
+    "aliases": [],
+    "href": "/disease/MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA",
     "title": "요로결석 (Urolithiasis)",
     "category": "05 신장",
@@ -3995,6 +4443,14 @@
       "발열"
     ],
     "href": "/disease/MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDUg7Iug7J6lL-yalOuhnOyniO2ZmC5tZA",
+    "title": "요로질환",
+    "category": "05 신장",
+    "aliases": [],
+    "href": "/disease/MDUg7Iug7J6lL-yalOuhnOyniO2ZmC5tZA"
   },
   {
     "type": "disease",
@@ -4021,6 +4477,14 @@
       "심박수이상"
     ],
     "href": "/disease/MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDUg7Iug7J6lL-yghO2VtOyniCDsnbTsg4EubWQ",
+    "title": "전해질 이상",
+    "category": "05 신장",
+    "aliases": [],
+    "href": "/disease/MDUg7Iug7J6lL-yghO2VtOyniCDsnbTsg4EubWQ"
   },
   {
     "type": "disease",
@@ -4455,6 +4919,38 @@
   },
   {
     "type": "disease",
+    "slug": "MDYg7JWM66CI66W06riwL1R5cGUgSS5tZA",
+    "title": "Type I",
+    "category": "06 알레르기",
+    "aliases": [],
+    "href": "/disease/MDYg7JWM66CI66W06riwL1R5cGUgSS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDYg7JWM66CI66W06riwL1R5cGUgSUkubWQ",
+    "title": "Type II",
+    "category": "06 알레르기",
+    "aliases": [],
+    "href": "/disease/MDYg7JWM66CI66W06riwL1R5cGUgSUkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDYg7JWM66CI66W06riwL1R5cGUgSUlJLm1k",
+    "title": "Type III",
+    "category": "06 알레르기",
+    "aliases": [],
+    "href": "/disease/MDYg7JWM66CI66W06riwL1R5cGUgSUlJLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDYg7JWM66CI66W06riwL1R5cGUgSVYubWQ",
+    "title": "Type IV",
+    "category": "06 알레르기",
+    "aliases": [],
+    "href": "/disease/MDYg7JWM66CI66W06riwL1R5cGUgSVYubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA",
     "title": "감염 관절염 (Infectious Arthritis)",
     "category": "07 류마티스",
@@ -4772,6 +5268,22 @@
   },
   {
     "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-q4sOyDney2qS5tZA",
+    "title": "기생충",
+    "category": "08 감염",
+    "aliases": [],
+    "href": "/disease/MDgg6rCQ7Je8L-q4sOyDney2qS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-q4sO2DgC5tZA",
+    "title": "기타",
+    "category": "08 감염",
+    "aliases": [],
+    "href": "/disease/MDgg6rCQ7Je8L-q4sO2DgC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDgg6rCQ7Je8L-uFuOy5tOultOuUlOyVhOymnSAoTm9jYXJkaW9zaXMpLm1k",
     "title": "노카르디아증 (Nocardiosis)",
     "category": "08 감염",
@@ -4996,6 +5508,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-uwlOydtOufrOyKpC5tZA",
+    "title": "바이러스",
+    "category": "08 감염",
+    "aliases": [],
+    "href": "/disease/MDgg6rCQ7Je8L-uwlOydtOufrOyKpC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDgg6rCQ7Je8L-uwqeyEoOq3oOymnSAoQWN0aW5vbXljb3NpcykubWQ",
     "title": "방선균증 (Actinomycosis)",
     "category": "08 감염",
@@ -5209,6 +5729,22 @@
   },
   {
     "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-ybkOuCtOqwkOyXvC5tZA",
+    "title": "원내감염",
+    "category": "08 감염",
+    "aliases": [],
+    "href": "/disease/MDgg6rCQ7Je8L-ybkOuCtOqwkOyXvC5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-ybkOyDneuPjOusvC5tZA",
+    "title": "원생돌물",
+    "category": "08 감염",
+    "aliases": [],
+    "href": "/disease/MDgg6rCQ7Je8L-ybkOyDneuPjOusvC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDgg6rCQ7Je8L-ydtOyniCAoRHlzZW50ZXJ5KS5tZA",
     "title": "이질 (Dysentery)",
     "category": "08 감염",
@@ -5322,6 +5858,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-yngOyXreyCrO2ajC5tZA",
+    "title": "지역사회",
+    "category": "08 감염",
+    "aliases": [],
+    "href": "/disease/MDgg6rCQ7Je8L-yngOyXreyCrO2ajC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDgg6rCQ7Je8L-yngOy5tOuwlOydtOufrOyKpCDqsJDsl7wgKFppa2EgVmlydXMgSW5mZWN0aW9uKS5tZA",
     "title": "지카바이러스 감염 (Zika Virus Infection)",
     "category": "08 감염",
@@ -5333,6 +5877,14 @@
       "두통"
     ],
     "href": "/disease/MDgg6rCQ7Je8L-yngOy5tOuwlOydtOufrOyKpCDqsJDsl7wgKFppa2EgVmlydXMgSW5mZWN0aW9uKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-ynhOq3oC5tZA",
+    "title": "진균",
+    "category": "08 감염",
+    "aliases": [],
+    "href": "/disease/MDgg6rCQ7Je8L-ynhOq3oC5tZA"
   },
   {
     "type": "disease",
@@ -5579,6 +6131,22 @@
   },
   {
     "type": "disease",
+    "slug": "MDgg6rCQ7Je8L0coLSkubWQ",
+    "title": "G(-)",
+    "category": "08 감염",
+    "aliases": [],
+    "href": "/disease/MDgg6rCQ7Je8L0coLSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDgg6rCQ7Je8L0coKykubWQ",
+    "title": "G(+)",
+    "category": "08 감염",
+    "aliases": [],
+    "href": "/disease/MDgg6rCQ7Je8L0coKykubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MDkg7ZiI7JWhL-qxsOuMgOygge2YiOuqqOq1rCDruYjtmIggKE1lZ2Fsb2JsYXN0aWMgQW5lbWlhKS5tZA",
     "title": "거대적혈모구 빈혈 (Megaloblastic Anemia)",
     "category": "09 혈액",
@@ -5659,6 +6227,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDkg7ZiI7JWhL-q4sO2DgC5tZA",
+    "title": "기타",
+    "category": "09 혈액",
+    "aliases": [],
+    "href": "/disease/MDkg7ZiI7JWhL-q4sO2DgC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k",
     "title": "다발골수종 (MM) (Multiple Myeloma (MM))",
     "category": "09 혈액",
@@ -5667,6 +6243,14 @@
       "피로"
     ],
     "href": "/disease/MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDkg7ZiI7JWhL-umvO2UhOq1rC5tZA",
+    "title": "림프구",
+    "category": "09 혈액",
+    "aliases": [],
+    "href": "/disease/MDkg7ZiI7JWhL-umvO2UhOq1rC5tZA"
   },
   {
     "type": "disease",
@@ -5771,6 +6355,14 @@
       "예방접종"
     ],
     "href": "/disease/MDkg7ZiI7JWhL-uwnOyekeyEsSDslbzqsIQg7ZiI7IOJ7IaM64eo7KadIChQYXJveHlzbWFsIE5vY3R1cm5hbCBIZW1vZ2xvYmludXJpYSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDkg7ZiI7JWhL-uwse2YiOq1rC5tZA",
+    "title": "백혈구",
+    "category": "09 혈액",
+    "aliases": [],
+    "href": "/disease/MDkg7ZiI7JWhL-uwse2YiOq1rC5tZA"
   },
   {
     "type": "disease",
@@ -5924,6 +6516,14 @@
   },
   {
     "type": "disease",
+    "slug": "MDkg7ZiI7JWhL-ydkeqzoOyduOyekC5tZA",
+    "title": "응고인자",
+    "category": "09 혈액",
+    "aliases": [],
+    "href": "/disease/MDkg7ZiI7JWhL-ydkeqzoOyduOyekC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k",
     "title": "자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia)",
     "category": "09 혈액",
@@ -5948,6 +6548,14 @@
       "발열"
     ],
     "href": "/disease/MDkg7ZiI7JWhL-yerOyDneu2iOufieyEsSDruYjtmIggKEFBKSAoQXBsYXN0aWMgQW5lbWlhIChBQSkpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDkg7ZiI7JWhL-ygge2YiOq1rC5tZA",
+    "title": "적혈구",
+    "category": "09 혈액",
+    "aliases": [],
+    "href": "/disease/MDkg7ZiI7JWhL-ygge2YiOq1rC5tZA"
   },
   {
     "type": "disease",
@@ -6074,6 +6682,22 @@
   },
   {
     "type": "disease",
+    "slug": "MDkg7ZiI7JWhL-2YiOq0gOuyvS5tZA",
+    "title": "혈관벽",
+    "category": "09 혈액",
+    "aliases": [],
+    "href": "/disease/MDkg7ZiI7JWhL-2YiOq0gOuyvS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDkg7ZiI7JWhL-2YiOyGjO2MkC5tZA",
+    "title": "혈소판",
+    "category": "09 혈액",
+    "aliases": [],
+    "href": "/disease/MDkg7ZiI7JWhL-2YiOyGjO2MkC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDkg7ZiI7JWhL-2YiOyVoS5tZA",
     "title": "혈액",
     "category": "09 혈액",
@@ -6171,6 +6795,14 @@
     "category": "10 종양",
     "aliases": [],
     "href": "/disease/MTAg7KKF7JaRL-yiheyWkS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTAg7KKF7JaRL-yiheyWkeuCtOqzvC5tZA",
+    "title": "종양내과",
+    "category": "10 종양",
+    "aliases": [],
+    "href": "/disease/MTAg7KKF7JaRL-yiheyWkeuCtOqzvC5tZA"
   },
   {
     "type": "disease",

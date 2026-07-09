@@ -4,7 +4,7 @@ aliases: []
 - disease
 계통: 소화기 (위장관)
 분류:
-- '* PUD'
+- PUD
 CC:
 - 상복부 통증
 - 복통

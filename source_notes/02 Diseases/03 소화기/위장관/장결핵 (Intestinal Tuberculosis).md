@@ -4,7 +4,7 @@ aliases: []
 - disease
 계통: 소화기 (위장관)
 분류:
-- '* IBD'
+- IBD
 CC:
 - 복통
 - 발열

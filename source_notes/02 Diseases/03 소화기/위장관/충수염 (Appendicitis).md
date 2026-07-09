@@ -4,7 +4,7 @@ aliases: []
 - disease
 계통: 소화기 (위장관)
 분류:
-- '* IBD'
+- IBD
 CC:
 - 구토
 preprocessing_required: x

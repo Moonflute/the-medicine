@@ -4,7 +4,7 @@ aliases: []
 - disease
 계통: 소화기 (위장관)
 분류:
-- '* 게실'
+- 게실
 CC:
 - 혈변
 preprocessing_required: x
