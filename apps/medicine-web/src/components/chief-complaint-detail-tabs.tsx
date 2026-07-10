@@ -19,7 +19,7 @@ function sectionMatches(section: DiseaseSection, names: string[]) {
 
 function getViewSections(note: ChiefComplaintNote, view: ViewKey) {
   if (view === "concept") {
-    return note.sections.filter((section) => sectionMatches(section, ["Concept", "\uAC10\uBCC4\uC9C4\uB2E8", "\uAD00\uB828\uC9C8\uD658"]));
+    return note.sections.filter((section) => sectionMatches(section, ["Concept", "\uAC10\uBCC4\uC9C4\uB2E8"]));
   }
 
   if (view === "outpatient") {
@@ -32,6 +32,30 @@ function getViewSections(note: ChiefComplaintNote, view: ViewKey) {
 function displayTitle(section: DiseaseSection, view: ViewKey) {
   if (view === "outpatient" && section.title.includes("\uD658\uC790\uAD50\uC721")) return "\uAC10\uBCC4\uC9C4\uB2E8";
   return section.title;
+}
+
+function getRelatedDiseaseLinks(note: ChiefComplaintNote, diseaseLinks: TermLink[]) {
+  const related = note.sections.find((section) => section.title.includes("\uAD00\uB828\uC9C8\uD658"));
+
+  if (!related) return diseaseLinks;
+
+  const hrefByTerm = new Map(diseaseLinks.map((item) => [item.term, item.href]));
+  const result = new Map(diseaseLinks.map((item) => [item.term, item.href]));
+  const text = related.content.join("\n");
+
+  for (const match of text.matchAll(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g)) {
+    const rawTarget = match[1].trim();
+    const display = (match[2] ?? rawTarget).trim();
+    const href = hrefByTerm.get(rawTarget) ?? hrefByTerm.get(display);
+
+    if (!href) continue;
+
+    for (const term of [rawTarget, display, rawTarget.replace(/\s*\([^)]*\)\s*$/, "").trim()]) {
+      if (term && !result.has(term)) result.set(term, href);
+    }
+  }
+
+  return [...result.entries()].map(([term, href]) => ({ term, href }));
 }
 
 function SectionContent({
@@ -69,10 +93,15 @@ function SectionContent({
     return <div className="mt-2 text-sm text-slate-400">{"\uC815\uB9AC\uB41C \uB0B4\uC6A9\uC774 \uC5C6\uC2B5\uB2C8\uB2E4."}</div>;
   }
 
+  const conceptTermLinks = view === "concept" && section.title.includes("\uAC10\uBCC4\uC9C4\uB2E8")
+    ? getRelatedDiseaseLinks(note, diseaseLinks)
+    : [];
+
   return (
     <RichTextLines
       lines={section.content}
       className="mt-2 space-y-2 text-sm leading-6 text-slate-700"
+      termLinks={conceptTermLinks}
       wikiLinks={diseaseLinks}
     />
   );
