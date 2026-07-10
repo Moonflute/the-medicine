@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { Bookmark, BookmarkCheck, ChevronDown, ChevronUp } from "lucide-react";
+import { Bookmark, BookmarkCheck } from "lucide-react";
 import { DiseaseSectionIcon } from "@/components/disease-section-icon";
 import type { DiseaseNote, TermLink } from "@/lib/webdb";
 import { RichTextLines } from "@/components/rich-text-lines";
@@ -106,7 +106,7 @@ export function DiseaseCard({
   diseaseLinks?: TermLink[];
   hideOverview?: boolean;
 }) {
-  const [expanded, setExpanded] = useState(!compact);
+  const expanded = !compact;
   const bookmarks = useBookmarks();
   const overview = note.overview?.slice(0, compact ? 3 : 6) ?? [];
   const lastUpdated = formatKoreanDate(note.updatedAt);
@@ -177,15 +177,6 @@ export function DiseaseCard({
         </div>
       ) : null}
 
-      <div className="flex flex-wrap items-center gap-2 border-t border-slate-200 bg-white p-4 sm:p-5">
-        <Link href={`/disease/${note.slug}`} className="primary-action">
-          Open detail
-        </Link>
-        <button type="button" onClick={() => setExpanded((value) => !value)} className="secondary-action">
-          {expanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
-          {expanded ? "Hide sections" : "Show sections"}
-        </button>
-      </div>
     </article>
   );
 }
