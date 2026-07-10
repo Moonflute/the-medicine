@@ -9,15 +9,39 @@
     "category": "01 소화기",
     "sourcePath": "source_notes/01 Chief Complaint/급성복통.md",
     "concept": [
+      "‘통증’, 동반증상과 factor로 감별, 복부 장기들 감별",
       "‘통증’, 동반증상과 factor로 감별, 복부 장기들 감별"
     ],
     "differentials": [
       "소화기 : 위장관 : 위염, 위/천공/십이지장궤양 / 충수염, 크론병, 장폐색증 / 간담췌 : 급성 간/담낭/담관/췌장염, 담석증",
       "순환기 : 복부 대동맥류 파열",
       "비뇨기 : 요관 결석, 급성 신우신염",
-      "생식기 : 자궁 외 임신, 난소 꼬임, 골반염증 질환"
+      "생식기 : 자궁 외 임신, 난소 꼬임, 골반염증 질환",
+      "소화기",
+      "위장관 : 위염, 위/천공/십이지장궤양 / 충수염, 크론병, 장폐색증",
+      "간담췌 : 급성 간/담낭/담관/췌장염, 담석증",
+      "순환기",
+      "복부 대동맥류 파열",
+      "비뇨기",
+      "요관 결석, 급성 신우신염",
+      "생식기",
+      "자궁 외 임신, 난소 꼬임, 골반염증 질환"
     ],
     "history": [
+      "O L D Co Ex",
+      "Character",
+      "통증의 양상 (찢어지는, 찌르는), NRS",
+      "Associated Sx",
+      "General  : Weight loss, Fatigue, FCC",
+      "AVNCD-B JD + 복부 팽만감, 복부 종괴",
+      "(가려움, 복수, 소변/대변 색 변화 확인)",
+      "D.P.P",
+      "배뇨통, 소변색 변화, 혈뇨, 빈뇨",
+      "질출혈, 질분비물",
+      "Factor",
+      "식후, 공복, 음주, 자세의 영향",
+      "E",
+      "외과약사가여 : 임신 가능성",
       "O L D Co Ex",
       "Character",
       "통증의 양상 (찢어지는, 찌르는), NRS",
@@ -34,6 +58,12 @@
       "외과약사가여 : 임신 가능성"
     ],
     "exam": [
+      "V/S 눈 입",
+      "흉부 : 심음, 호흡음 청진 (순환기/호흡기 의심 시)",
+      "CVAT",
+      "사지 (긴장도, 하지 부종)",
+      "복부 : 시 – 청 – 타 – 촉 (+ Murphy, Courvoisier, Psoas, Obturator)",
+      "DRE (필요 시)",
       "V/S 눈 입",
       "흉부 : 심음, 호흡음 청진 (순환기/호흡기 의심 시)",
       "CVAT",
@@ -162,12 +192,66 @@
         "disease": "장폐색증",
         "tests": "AXR",
         "treatment": "비위관 삽입"
+      },
+      {
+        "symptoms": [
+          "옆구리 통증",
+          "배뇨통",
+          "혈뇨",
+          "CVAT"
+        ],
+        "disease": "요관 결석",
+        "tests": "소변검사, KUB, CT",
+        "treatment": "수액 치료, 초음파쇄석술, 수술"
+      },
+      {
+        "symptoms": [
+          "옆구리 통증",
+          "혈뇨",
+          "발열",
+          "CVAT"
+        ],
+        "disease": "급성 신우신염",
+        "tests": "소변검사, 소변배양검사",
+        "treatment": "항생제"
+      },
+      {
+        "symptoms": [
+          "복통",
+          "임신가능성",
+          "생리 주기 변화"
+        ],
+        "disease": "자궁 외 임신",
+        "tests": "골반초음파검사, hCG",
+        "treatment": "MTX, 복강경술"
+      },
+      {
+        "symptoms": [
+          "극심한 통증",
+          "통증",
+          "여성"
+        ],
+        "disease": "난소 꼬임",
+        "tests": "질경유초음파",
+        "treatment": "복강경술"
+      },
+      {
+        "symptoms": [
+          "복통",
+          "발열",
+          "질분비물",
+          "산부인과 수술력"
+        ],
+        "disease": "PID",
+        "tests": "소변검사, CT, CBC",
+        "treatment": "항생제"
       }
     ],
     "sections": [
       {
         "title": "Concept",
         "content": [
+          "‘통증’, 동반증상과 factor로 감별, 복부 장기들 감별",
           "‘통증’, 동반증상과 factor로 감별, 복부 장기들 감별"
         ]
       },
@@ -177,12 +261,35 @@
           "소화기 : 위장관 : 위염, 위/천공/십이지장궤양 / 충수염, 크론병, 장폐색증 / 간담췌 : 급성 간/담낭/담관/췌장염, 담석증",
           "순환기 : 복부 대동맥류 파열",
           "비뇨기 : 요관 결석, 급성 신우신염",
-          "생식기 : 자궁 외 임신, 난소 꼬임, 골반염증 질환"
+          "생식기 : 자궁 외 임신, 난소 꼬임, 골반염증 질환",
+          "소화기",
+          "위장관 : 위염, 위/천공/십이지장궤양 / 충수염, 크론병, 장폐색증",
+          "간담췌 : 급성 간/담낭/담관/췌장염, 담석증",
+          "순환기",
+          "복부 대동맥류 파열",
+          "비뇨기",
+          "요관 결석, 급성 신우신염",
+          "생식기",
+          "자궁 외 임신, 난소 꼬임, 골반염증 질환"
         ]
       },
       {
         "title": "Hx",
         "content": [
+          "O L D Co Ex",
+          "Character",
+          "통증의 양상 (찢어지는, 찌르는), NRS",
+          "Associated Sx",
+          "General  : Weight loss, Fatigue, FCC",
+          "AVNCD-B JD + 복부 팽만감, 복부 종괴",
+          "(가려움, 복수, 소변/대변 색 변화 확인)",
+          "D.P.P",
+          "배뇨통, 소변색 변화, 혈뇨, 빈뇨",
+          "질출혈, 질분비물",
+          "Factor",
+          "식후, 공복, 음주, 자세의 영향",
+          "E",
+          "외과약사가여 : 임신 가능성",
           "O L D Co Ex",
           "Character",
           "통증의 양상 (찢어지는, 찌르는), NRS",
@@ -202,6 +309,12 @@
       {
         "title": "PEx",
         "content": [
+          "V/S 눈 입",
+          "흉부 : 심음, 호흡음 청진 (순환기/호흡기 의심 시)",
+          "CVAT",
+          "사지 (긴장도, 하지 부종)",
+          "복부 : 시 – 청 – 타 – 촉 (+ Murphy, Courvoisier, Psoas, Obturator)",
+          "DRE (필요 시)",
           "V/S 눈 입",
           "흉부 : 심음, 호흡음 청진 (순환기/호흡기 의심 시)",
           "CVAT",
@@ -236,12 +349,7 @@
           "= 크론병 / 대장내시경 / 설파살라진, steroid, infliximab, 영양 공급",
           "배꼽 주위 통증 + 복부 수술력 + 장음 항진",
           "= 장폐색증 / AXR / 비위관 삽입",
-          "• --"
-        ]
-      },
-      {
-        "title": "환자교육",
-        "content": [
+          "• --",
           "검사 : 혈액검사, 영상검사 / 위내시경, KUB, RUA 등",
           "치료 : 병바병",
           "교육 : 입원 가능성 설명, 수술 가능성 있는 경우 잘 설명",
@@ -258,68 +366,25 @@
         ]
       },
       {
-        "title": "Concept",
+        "title": "관련질환",
         "content": [
-          "‘통증’, 동반증상과 factor로 감별, 복부 장기들 감별"
+          "[[급성 신우신염 (Acute Pyelonephritis)]], [[급성 쓸개염 (Acute Cholecystitis)]], [[급성 충수염 (Acute Appendicitis)]], [[복부 대동맥류 (Abdominal Aortic Aneurysm)]], [[십이지장 궤양 (Duodenal Ulcer)]], [[위궤양 (Gastric Ulcer)]], [[자궁외 임신 (Ectopic Pregnancy)]], [[장 폐색 (Bowel Obstruction)]], [[PUD 천공 (Perforation)]], [[크론병 (CD) (Crohn's Disease (CD))]]"
         ]
       },
       {
-        "title": "감별진단",
-        "content": [
-          "소화기",
-          "위장관 : 위염, 위/천공/십이지장궤양 / 충수염, 크론병, 장폐색증",
-          "간담췌 : 급성 간/담낭/담관/췌장염, 담석증",
-          "순환기",
-          "복부 대동맥류 파열",
-          "비뇨기",
-          "요관 결석, 급성 신우신염",
-          "생식기",
-          "자궁 외 임신, 난소 꼬임, 골반염증 질환"
-        ]
-      },
-      {
-        "title": "Hx",
-        "content": [
-          "O L D Co Ex",
-          "Character",
-          "통증의 양상 (찢어지는, 찌르는), NRS",
-          "Associated Sx",
-          "General  : Weight loss, Fatigue, FCC",
-          "AVNCD-B JD + 복부 팽만감, 복부 종괴",
-          "(가려움, 복수, 소변/대변 색 변화 확인)",
-          "D.P.P",
-          "배뇨통, 소변색 변화, 혈뇨, 빈뇨",
-          "질출혈, 질분비물",
-          "Factor",
-          "식후, 공복, 음주, 자세의 영향",
-          "E",
-          "외과약사가여 : 임신 가능성"
-        ]
-      },
-      {
-        "title": "PEx",
-        "content": [
-          "V/S 눈 입",
-          "흉부 : 심음, 호흡음 청진 (순환기/호흡기 의심 시)",
-          "CVAT",
-          "사지 (긴장도, 하지 부종)",
-          "복부 : 시 – 청 – 타 – 촉 (+ Murphy, Courvoisier, Psoas, Obturator)",
-          "DRE (필요 시)"
-        ]
-      },
-      {
-        "title": "일차의료",
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[급성 신우신염 (Acute Pyelonephritis)]], [[급성 쓸개염 (Acute Cholecystitis)]], [[급성 충수염 (Acute Appendicitis)]], [[복부 대동맥류 (Abdominal Aortic Aneurysm)]], [[십이지장 궤양 (Duodenal Ulcer)]], [[위궤양 (Gastric Ulcer)]], [[자궁외 임신 (Ectopic Pregnancy)]], [[장 폐색 (Bowel Obstruction)]], [[PUD 천공 (Perforation)]], [[크론병 (CD) (Crohn's Disease (CD))]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.948Z"
+    "updatedAt": "2026-07-10T02:22:33.994Z"
   },
   {
     "id": "102",
@@ -550,18 +615,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[당뇨병 (Diabetes Mellitus)]], [[만성 췌장염 (Chronic Pancreatitis)]], [[십이지장 궤양 (Duodenal Ulcer)]], [[위암 (Gastric Cancer)]], [[PUD 천공 (Perforation)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[당뇨병 (Diabetes Mellitus)]], [[만성 췌장염 (Chronic Pancreatitis)]], [[십이지장 궤양 (Duodenal Ulcer)]], [[위암 (Gastric Cancer)]], [[PUD 천공 (Perforation)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.017Z"
+    "updatedAt": "2026-07-10T02:22:34.035Z"
   },
   {
     "id": "103",
@@ -750,18 +822,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[말로리-바이스 증후군 (MW Syndrome) (Mallory-Weiss Syndrome (MW Syndrome))]], [[식도 정맥류 (Esophageal Varices)]], [[식도암 (Esophageal Cancer)]], [[십이지장 궤양 (Duodenal Ulcer)]], [[위궤양 (Gastric Ulcer)]], [[위암 (Gastric Cancer)]], [[PUD 천공 (Perforation)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[말로리-바이스 증후군 (MW Syndrome) (Mallory-Weiss Syndrome (MW Syndrome))]], [[식도 정맥류 (Esophageal Varices)]], [[식도암 (Esophageal Cancer)]], [[십이지장 궤양 (Duodenal Ulcer)]], [[위궤양 (Gastric Ulcer)]], [[위암 (Gastric Cancer)]], [[PUD 천공 (Perforation)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.063Z"
+    "updatedAt": "2026-07-10T02:22:34.072Z"
   },
   {
     "id": "104",
@@ -961,18 +1040,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[게실 출혈 (Diverticular Bleeding)]], [[결장직장암 (Colorectal Cancer)]], [[메켈 게실 (Meckel's Diverticulum)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[게실 출혈 (Diverticular Bleeding)]], [[결장직장암 (Colorectal Cancer)]], [[메켈 게실 (Meckel's Diverticulum)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.083Z"
+    "updatedAt": "2026-07-10T02:22:34.083Z"
   },
   {
     "id": "105",
@@ -1222,18 +1308,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[급성 쓸개염 (Acute Cholecystitis)]], [[뇌내 출혈 (Intracerebral hemorrhage)]], [[뇌수막염 (Meningoencephalitis)]], [[비대 날문 협착증 (Hypertrophic Pyloric Stenosis)]], [[위암 (Gastric Cancer)]], [[장 폐색 (Bowel Obstruction)]], [[장중첩증 (Intussusception)]], [[중독 (Poisoning)]], [[지주막하 출혈 (Subarachnoid hemorrhage)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[급성 쓸개염 (Acute Cholecystitis)]], [[뇌내 출혈 (Intracerebral hemorrhage)]], [[뇌수막염 (Meningoencephalitis)]], [[비대 날문 협착증 (Hypertrophic Pyloric Stenosis)]], [[위암 (Gastric Cancer)]], [[장 폐색 (Bowel Obstruction)]], [[장중첩증 (Intussusception)]], [[중독 (Poisoning)]], [[지주막하 출혈 (Subarachnoid hemorrhage)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.942Z"
+    "updatedAt": "2026-07-10T02:22:33.989Z"
   },
   {
     "id": "106",
@@ -1416,18 +1509,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[결장직장암 (Colorectal Cancer)]], [[변비 (Constipation)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[결장직장암 (Colorectal Cancer)]], [[변비 (Constipation)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.991Z"
+    "updatedAt": "2026-07-10T02:22:34.022Z"
   },
   {
     "id": "107",
@@ -1634,18 +1734,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[결장직장암 (Colorectal Cancer)]], [[중독 (Poisoning)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[결장직장암 (Colorectal Cancer)]], [[중독 (Poisoning)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.008Z"
+    "updatedAt": "2026-07-10T02:22:34.029Z"
   },
   {
     "id": "108",
@@ -1858,18 +1965,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[Rh 용혈성질환 (Rh 용혈성질환)]], [[급성 쓸개염 (Acute Cholecystitis)]], [[길버트 증후군 (Gilbert's Syndrome)]], [[담관암 (Cholangiocarcinoma)]], [[독성 간염 (Toxic Hepatitis)]], [[만성 췌장염 (Chronic Pancreatitis)]], [[윌슨병 (Wilson's Disease)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[Rh 용혈성질환 (Rh 용혈성질환)]], [[급성 쓸개염 (Acute Cholecystitis)]], [[길버트 증후군 (Gilbert's Syndrome)]], [[담관암 (Cholangiocarcinoma)]], [[독성 간염 (Toxic Hepatitis)]], [[만성 췌장염 (Chronic Pancreatitis)]], [[윌슨병 (Wilson's Disease)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.089Z"
+    "updatedAt": "2026-07-10T02:22:34.086Z"
   },
   {
     "id": "201",
@@ -2080,18 +2194,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[결핵성 흉막염 (Tuberculous Pleurisy)]], [[대동맥 박리 (Aortic Dissection)]], [[대상 포진 (Herpes Zoster)]], [[불안정 협심증 (Unstable Angina)]], [[안정 협심증 (Stable Angina)]], [[폐렴 (Pneumonia)]], [[폐색전증 (Pulmonary Embolism)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[결핵성 흉막염 (Tuberculous Pleurisy)]], [[대동맥 박리 (Aortic Dissection)]], [[대상 포진 (Herpes Zoster)]], [[불안정 협심증 (Unstable Angina)]], [[안정 협심증 (Stable Angina)]], [[폐렴 (Pneumonia)]], [[폐색전증 (Pulmonary Embolism)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.925Z"
+    "updatedAt": "2026-07-10T02:22:33.976Z"
   },
   {
     "id": "202",
@@ -2325,18 +2446,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[ST분절 상승 심근경색증 (STEMI) (ST-Elevation Myocardial Infarction)]], [[대동맥 박리 (Aortic Dissection)]], [[심부 정맥 혈전증 (Deep Vein Thrombosis)]], [[일과성 허혈 발작 (Transient ischemic attack)]], [[저혈당 (Hypoglycemia)]], [[지주막하 출혈 (Subarachnoid hemorrhage)]], [[혈관미주신경성 실신 (Vasovagal Syncope)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[ST분절 상승 심근경색증 (STEMI) (ST-Elevation Myocardial Infarction)]], [[대동맥 박리 (Aortic Dissection)]], [[심부 정맥 혈전증 (Deep Vein Thrombosis)]], [[일과성 허혈 발작 (Transient ischemic attack)]], [[저혈당 (Hypoglycemia)]], [[지주막하 출혈 (Subarachnoid hemorrhage)]], [[혈관미주신경성 실신 (Vasovagal Syncope)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.024Z"
+    "updatedAt": "2026-07-10T02:22:34.039Z"
   },
   {
     "id": "203",
@@ -2596,18 +2724,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[불안 장애 (Anxiety Disorders)]], [[울프-파킨슨-화이트 증후군 + 심방세동 (WPW Syndrome + Atrial Fibrillation)]], [[저혈당 (Hypoglycemia)]], [[크롬친화세포종 (Pheochromocytoma)]], [[폐경 (Menopause)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[불안 장애 (Anxiety Disorders)]], [[울프-파킨슨-화이트 증후군 + 심방세동 (WPW Syndrome + Atrial Fibrillation)]], [[저혈당 (Hypoglycemia)]], [[크롬친화세포종 (Pheochromocytoma)]], [[폐경 (Menopause)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.963Z"
+    "updatedAt": "2026-07-10T02:22:34.004Z"
   },
   {
     "id": "204",
@@ -2849,18 +2984,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[고혈압 (Hypertension)]], [[알도스테론증 (Aldosteronism)]], [[쿠싱 증후군 (Cushing's Syndrome)]], [[크롬친화세포종 (Pheochromocytoma)]], [[PUD 협착 (Stricture)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[고혈압 (Hypertension)]], [[알도스테론증 (Aldosteronism)]], [[쿠싱 증후군 (Cushing's Syndrome)]], [[크롬친화세포종 (Pheochromocytoma)]], [[PUD 협착 (Stricture)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.623Z"
+    "updatedAt": "2026-07-10T02:22:33.986Z"
   },
   {
     "id": "205",
@@ -2986,18 +3128,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[가족성 고콜레스테롤혈증 (Familial Hypercholesterolemia)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[가족성 고콜레스테롤혈증 (Familial Hypercholesterolemia)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.045Z"
+    "updatedAt": "2026-07-10T02:22:34.059Z"
   },
   {
     "id": "301",
@@ -3229,18 +3378,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease)]], [[천식 (Asthma)]], [[폐결핵 (Pulmonary Tuberculosis)]], [[폐렴 (Pneumonia)]], [[폐암 (Lung Cancer)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease)]], [[천식 (Asthma)]], [[폐결핵 (Pulmonary Tuberculosis)]], [[폐렴 (Pneumonia)]], [[폐암 (Lung Cancer)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.955Z"
+    "updatedAt": "2026-07-10T02:22:33.999Z"
   },
   {
     "id": "302",
@@ -3432,18 +3588,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[부비동염 (Sinusitis)]], [[알레르기 비염 (Allergic Rhinitis)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[부비동염 (Sinusitis)]], [[알레르기 비염 (Allergic Rhinitis)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.059Z"
+    "updatedAt": "2026-07-10T02:22:34.070Z"
   },
   {
     "id": "303",
@@ -3643,18 +3806,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[기관지 확장증 (Bronchiectasis)]], [[폐결핵 (Pulmonary Tuberculosis)]], [[폐렴 (Pneumonia)]], [[폐색전증 (Pulmonary Embolism)]], [[폐암 (Lung Cancer)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[기관지 확장증 (Bronchiectasis)]], [[폐결핵 (Pulmonary Tuberculosis)]], [[폐렴 (Pneumonia)]], [[폐색전증 (Pulmonary Embolism)]], [[폐암 (Lung Cancer)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.929Z"
+    "updatedAt": "2026-07-10T02:22:33.980Z"
   },
   {
     "id": "304",
@@ -3908,18 +4078,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[기관지 확장증 (Bronchiectasis)]], [[만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease)]], [[이질 (Dysentery)]], [[천식 (Asthma)]], [[폐렴 (Pneumonia)]], [[폐색전증 (Pulmonary Embolism)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[기관지 확장증 (Bronchiectasis)]], [[만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease)]], [[이질 (Dysentery)]], [[천식 (Asthma)]], [[폐렴 (Pneumonia)]], [[폐색전증 (Pulmonary Embolism)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.086Z"
+    "updatedAt": "2026-07-10T02:22:34.084Z"
   },
   {
     "id": "401",
@@ -4105,18 +4282,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[당뇨병 (Diabetes Mellitus)]], [[요로 감염 (Urinary Tract Infection)]], [[요붕증 (Diabetes Insipidus)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[당뇨병 (Diabetes Mellitus)]], [[요로 감염 (Urinary Tract Infection)]], [[요붕증 (Diabetes Insipidus)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.959Z"
+    "updatedAt": "2026-07-10T02:22:34.002Z"
   },
   {
     "id": "402",
@@ -4351,18 +4535,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[고혈압 (Hypertension)]], [[신 손상 (Kidney Injury)]], [[양성 전립샘 비대증 (Benign Prostatic Hyperplasia)]], [[요로 감염 (Urinary Tract Infection)]], [[전립샘암 (Prostate cancer)]], [[횡문근융해증 (Rhabdomyolysis)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[고혈압 (Hypertension)]], [[신 손상 (Kidney Injury)]], [[양성 전립샘 비대증 (Benign Prostatic Hyperplasia)]], [[요로 감염 (Urinary Tract Infection)]], [[전립샘암 (Prostate cancer)]], [[횡문근융해증 (Rhabdomyolysis)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.074Z"
+    "updatedAt": "2026-07-10T02:22:34.078Z"
   },
   {
     "id": "403",
@@ -4575,18 +4766,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[급성 신우신염 (Acute Pyelonephritis)]], [[요도 손상 (Urethral injury)]], [[요로 감염 (Urinary Tract Infection)]], [[요로결석 (Urolithiasis)]], [[전립샘염 (Prostatitis)]], [[횡문근융해증 (Rhabdomyolysis)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[급성 신우신염 (Acute Pyelonephritis)]], [[요도 손상 (Urethral injury)]], [[요로 감염 (Urinary Tract Infection)]], [[요로결석 (Urolithiasis)]], [[전립샘염 (Prostatitis)]], [[횡문근융해증 (Rhabdomyolysis)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.080Z"
+    "updatedAt": "2026-07-10T02:22:34.082Z"
   },
   {
     "id": "404",
@@ -4815,18 +5013,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[급성 신우신염 (Acute Pyelonephritis)]], [[당뇨병 (Diabetes Mellitus)]], [[방광암 (Bladder cancer)]], [[방광염 (Cystitis)]], [[양성 전립샘 비대증 (Benign Prostatic Hyperplasia)]], [[요도염 (Urethritis)]], [[전립샘암 (Prostate cancer)]], [[전립샘염 (Prostatitis)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[급성 신우신염 (Acute Pyelonephritis)]], [[당뇨병 (Diabetes Mellitus)]], [[방광암 (Bladder cancer)]], [[방광염 (Cystitis)]], [[양성 전립샘 비대증 (Benign Prostatic Hyperplasia)]], [[요도염 (Urethritis)]], [[전립샘암 (Prostate cancer)]], [[전립샘염 (Prostatitis)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.988Z"
+    "updatedAt": "2026-07-10T02:22:34.020Z"
   },
   {
     "id": "405",
@@ -4949,18 +5154,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[요실금 (Urinary Incontinence)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[요실금 (Urinary Incontinence)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.030Z"
+    "updatedAt": "2026-07-10T02:22:34.045Z"
   },
   {
     "id": "501",
@@ -5181,18 +5393,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[급성 신우신염 (Acute Pyelonephritis)]], [[뇌수막염 (Meningoencephalitis)]], [[림프종 (Lymphoma)]], [[말라리아 (Malaria)]], [[백혈병 (Leukemia)]], [[연조직염 (Cellulitis)]], [[인플루엔자 (Influenza)]], [[장티푸스 (Typhoid Fever)]], [[쯔쯔가무시병 (Tsutsugamushi Disease)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[급성 신우신염 (Acute Pyelonephritis)]], [[뇌수막염 (Meningoencephalitis)]], [[림프종 (Lymphoma)]], [[말라리아 (Malaria)]], [[백혈병 (Leukemia)]], [[연조직염 (Cellulitis)]], [[인플루엔자 (Influenza)]], [[장티푸스 (Typhoid Fever)]], [[쯔쯔가무시병 (Tsutsugamushi Disease)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.985Z"
+    "updatedAt": "2026-07-10T02:22:34.018Z"
   },
   {
     "id": "502",
@@ -5440,18 +5659,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[알코올성 간질환 (Alcoholic Liver Disease)]], [[쿠싱 증후군 (Cushing's Syndrome)]], [[파종 혈관내 응고 (Disseminated Intravascular Coagulation, DIC)]], [[혈우병 (Hemophilia)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[알코올성 간질환 (Alcoholic Liver Disease)]], [[쿠싱 증후군 (Cushing's Syndrome)]], [[파종 혈관내 응고 (Disseminated Intravascular Coagulation, DIC)]], [[혈우병 (Hemophilia)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.976Z"
+    "updatedAt": "2026-07-10T02:22:34.010Z"
   },
   {
     "id": "503",
@@ -5700,18 +5926,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[폐결핵 (Pulmonary Tuberculosis)]], [[폐경 (Menopause)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[폐결핵 (Pulmonary Tuberculosis)]], [[폐경 (Menopause)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.066Z"
+    "updatedAt": "2026-07-10T02:22:34.073Z"
   },
   {
     "id": "504",
@@ -5952,18 +6185,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[노년기 우울증 (Geriatric Depression)]], [[당뇨병 (Diabetes Mellitus)]], [[만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease)]], [[크롬친화세포종 (Pheochromocytoma)]], [[폐결핵 (Pulmonary Tuberculosis)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[노년기 우울증 (Geriatric Depression)]], [[당뇨병 (Diabetes Mellitus)]], [[만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease)]], [[크롬친화세포종 (Pheochromocytoma)]], [[폐결핵 (Pulmonary Tuberculosis)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.792Z"
+    "updatedAt": "2026-07-10T02:22:34.066Z"
   },
   {
     "id": "505",
@@ -6168,18 +6408,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[다낭 난소 증후군 (Polycystic Ovary Syndrome)]], [[신증후군 (Nephrotic Syndrome)]], [[쿠싱 증후군 (Cushing's Syndrome)]], [[폐경 (Menopause)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[다낭 난소 증후군 (Polycystic Ovary Syndrome)]], [[신증후군 (Nephrotic Syndrome)]], [[쿠싱 증후군 (Cushing's Syndrome)]], [[폐경 (Menopause)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.057Z"
+    "updatedAt": "2026-07-10T02:22:34.068Z"
   },
   {
     "id": "601",
@@ -6191,14 +6438,39 @@
     "category": "06 근골격/피부",
     "sourcePath": "source_notes/01 Chief Complaint/관절 통증／붓기.md",
     "concept": [
+      "‘PEx’, 증상에 따른 신체진찰을 빠르게 진행해야 함",
       "‘PEx’, 증상에 따른 신체진찰을 빠르게 진행해야 함"
     ],
     "differentials": [
       "급성 관절 : 염증 : 통풍, 거짓 통풍, 감염 관절염, 반응 관절염 / 비염증 : 외상 관절염",
       "만성 관절 : 염증 : RA, 강직척추염, 루푸스 관절염, 쇼그렌, 베체트 / 비염증 : 골관절염, 섬유근통증후군",
-      "비관절 : 유착관절낭염 / 회전근개증후군, 상과염 / 무릎연골연화증, 반달연골 파열 / 내측 측부인대 손상, 전방십자인대 손상 / 윤활막염"
+      "비관절 : 유착관절낭염 / 회전근개증후군, 상과염 / 무릎연골연화증, 반달연골 파열 / 내측 측부인대 손상, 전방십자인대 손상 / 윤활막염",
+      "급성 관절",
+      "염증 : 통풍, 거짓 통풍, 감염 관절염, 반응 관절염",
+      "비염증 : 외상 관절염",
+      "만성 관절",
+      "염증 : RA, 강직척추염, 루푸스 관절염, 쇼그렌, 베체트",
+      "비염증 : 골관절염, 섬유근통증후군",
+      "비관절",
+      "유착관절낭염 / 회전근개증후군, 상과염",
+      "무릎연골연화증, 반달연골 파열",
+      "내측 측부인대 손상, 전방십자인대 손상 / 윤활막염"
     ],
     "history": [
+      "O L D Co Ex",
+      "Character",
+      "양상 (욱신, 깊음, 관절 주변)",
+      "동반 (압통, 발적, 종창, 열감, 비빔소리, 움직임 제한), NRS",
+      "Associated Sx",
+      "General  : Weight loss, Fatigue, Fever, Chill, Edema",
+      "발열, 오한",
+      "호흡곤란/마른기침 (류마티스)",
+      "피부 발진, 햇빛 알러지 (루푸스)",
+      "구강/성기 궤양, 안구 충혈/통증 (베체트)",
+      "눈마름, 입마름 (쇼그렌)",
+      "빈뇨, 배뇨통, 설사 (반응 관절염)",
+      "수면장애, 인지기능 저하, 불안, 우울 (섬유근통증후군)",
+      "FE 외과약사가여 : 스테로이드 주사력, 조조강직 시간",
       "O L D Co Ex",
       "Character",
       "양상 (욱신, 깊음, 관절 주변)",
@@ -6218,6 +6490,12 @@
       "V/S 눈(포도막염) 입(궤양)",
       "흉부 : 호흡음, 심음 (류마티스 의심 시)",
       "관절 : 시 - 촉 - 타 - 청 - 운동검사",
+      "무릎 : Valgus, Varus, Macmurray, Drawer",
+      "어깨 : Neer, Hawkins-kennedy, Empty can",
+      "허리 : Schober, SLRT, Patrick",
+      "V/S 눈(포도막염) 입(궤양)",
+      "흉부 : 호흡음, 심음 (류마티스 의심 시)",
+      "관절 : 시 - 촉 - 타 - 청 – 운동검사 / 기타 관절 시진",
       "무릎 : Valgus, Varus, Macmurray, Drawer",
       "어깨 : Neer, Hawkins-kennedy, Empty can",
       "허리 : Schober, SLRT, Patrick"
@@ -6304,12 +6582,107 @@
         "disease": "쇼그렌 증후군",
         "tests": "쉬르머, 항체검사, 침샘스캔",
         "treatment": "NSAIDs, HCQ, 인공눈물"
+      },
+      {
+        "symptoms": [
+          "손 관절 통증",
+          "압통",
+          "조조강직 < 30min",
+          "많이 움직이면 악화"
+        ],
+        "disease": "골관절염",
+        "tests": "PXR, bone scan, MRI",
+        "treatment": "NSAIDs, 재활 및 운동, 생활 습관"
+      },
+      {
+        "symptoms": [
+          "어깨 통증",
+          "야간 악화",
+          "수동 제한",
+          "능동 제한"
+        ],
+        "disease": "유착관절낭염",
+        "tests": "PXR, US, MRI",
+        "treatment": "스트레칭, 운동, 수술, steroid inj."
+      },
+      {
+        "symptoms": [
+          "어께 통증",
+          "수동 정상",
+          "능동 제한"
+        ],
+        "disease": "회전근개증후군",
+        "tests": "PXR, US, MRI",
+        "treatment": "NSAIDs, 스트레칭, 운동, 수술"
+      },
+      {
+        "symptoms": [
+          "팔꿈치 통증",
+          "압통점",
+          "손목 운동 통증"
+        ],
+        "disease": "상과염",
+        "tests": "PXR, US, MRI",
+        "treatment": "휴식, 스트레칭, NSAIDs, 수술"
+      },
+      {
+        "symptoms": [
+          "무릎 통증",
+          "계단 통증",
+          "비빔소리"
+        ],
+        "disease": "무릎연골연화증",
+        "tests": "PXR, MRI",
+        "treatment": "NSAIDs, 근력운동"
+      },
+      {
+        "symptoms": [
+          "무릎 통증",
+          "외상력",
+          "무릎 운동 제한",
+          "Mcmurray test"
+        ],
+        "disease": "반달연골 파열",
+        "tests": "PXR, MRI, 관절경검사",
+        "treatment": "NSAIDs, 부목, 수술"
+      },
+      {
+        "symptoms": [
+          "무릎 내측 통증",
+          "외반력 이력",
+          "Valguss stress"
+        ],
+        "disease": "내측 측부인대 손상",
+        "tests": "PXR, MRI",
+        "treatment": "휴식, NSAIDs, 찜질, 부목, 수술"
+      },
+      {
+        "symptoms": [
+          "무릎 통층",
+          "과한 힘 가해진 이력",
+          "ant. Drawer"
+        ],
+        "disease": "전방십자인대 손상",
+        "tests": "MRI",
+        "treatment": "휴식, 찜질, 부목, 수술"
+      },
+      {
+        "symptoms": [
+          "통증",
+          "종창",
+          "운동 악화",
+          "힘줄 압통"
+        ],
+        "disease": "윤활막염",
+        "tests": "염증 수치, MRI, 조직생검",
+        "treatment": "휴식, 찜질, 부목"
       }
     ],
     "sections": [
       {
         "title": "Concept",
         "content": [
+          "‘PEx’, 증상에 따른 신체진찰을 빠르게 진행해야 함",
           "‘PEx’, 증상에 따른 신체진찰을 빠르게 진행해야 함"
         ]
       },
@@ -6318,72 +6691,7 @@
         "content": [
           "급성 관절 : 염증 : 통풍, 거짓 통풍, 감염 관절염, 반응 관절염 / 비염증 : 외상 관절염",
           "만성 관절 : 염증 : RA, 강직척추염, 루푸스 관절염, 쇼그렌, 베체트 / 비염증 : 골관절염, 섬유근통증후군",
-          "비관절 : 유착관절낭염 / 회전근개증후군, 상과염 / 무릎연골연화증, 반달연골 파열 / 내측 측부인대 손상, 전방십자인대 손상 / 윤활막염"
-        ]
-      },
-      {
-        "title": "Hx",
-        "content": [
-          "O L D Co Ex",
-          "Character",
-          "양상 (욱신, 깊음, 관절 주변)",
-          "동반 (압통, 발적, 종창, 열감, 비빔소리, 움직임 제한), NRS",
-          "Associated Sx",
-          "General  : Weight loss, Fatigue, Fever, Chill, Edema",
-          "발열, 오한",
-          "호흡곤란/마른기침 (류마티스)",
-          "피부 발진, 햇빛 알러지 (루푸스)",
-          "구강/성기 궤양, 안구 충혈/통증 (베체트)",
-          "눈마름, 입마름 (쇼그렌)",
-          "빈뇨, 배뇨통, 설사 (반응 관절염)",
-          "수면장애, 인지기능 저하, 불안, 우울 (섬유근통증후군)",
-          "FE 외과약사가여 : 스테로이드 주사력, 조조강직 시간"
-        ]
-      },
-      {
-        "title": "PEx",
-        "content": [
-          "V/S 눈(포도막염) 입(궤양)",
-          "흉부 : 호흡음, 심음 (류마티스 의심 시)",
-          "관절 : 시 - 촉 - 타 - 청 - 운동검사",
-          "무릎 : Valgus, Varus, Macmurray, Drawer",
-          "어깨 : Neer, Hawkins-kennedy, Empty can",
-          "허리 : Schober, SLRT, Patrick"
-        ]
-      },
-      {
-        "title": "환자교육",
-        "content": [
-          "발 통증 + 과음 + 압통 + 부종 + 발적",
-          "= 통풍 / 관절 천자, 혈청 요산 농도 / 콜히친, NSAIDs, steroid, -purinol",
-          "무릎, 손목 통증 + 압통 + 부종 + 발적",
-          "= 가성 통풍 / 관절 천자, PXR / 콜히친, NSAIDs, steroid",
-          "압통 + 부종 + 발적 + 발열 + 오한 + 관절주사력",
-          "= 감염 관절염 / 관절 천자, 활액 그람염색, 배양, PXR /항생제",
-          "압통 + 부종 + 운동제한 + 관절외상력",
-          "= 외상 관절염 / PXR / NSAIDs, 재활 및 운동",
-          "손 관절 대칭적 통증 + 조조강직 > 1hr + 관절 외 증상 + Swan neck",
-          "= 류마티스 관절염 / RA, 염증 수치, 자가항체 / NSAIDs, steroid, MTX..",
-          "허리 통증 + 아침 악화/운동 완화 + 젊은 남성 + 포도막염 + Schober",
-          "= 강직성 척추염 / HLA-B27, XR, MRI / 재활 및 운동, NSAIDs, -ximab",
-          "압통 + 구강 궤양 + 레이노 현상 + 뺨 발진 + 광과민성 + 유산력",
-          "= 루푸스 관절염 / CBC, 소변검사, 항체검사 / NSAIDs, steroid..",
-          "눈입 건조증 + 침샘 비대 + 레이노 현상",
-          "= 쇼그렌 증후군 / 쉬르머, 항체검사, 침샘스캔 / NSAIDs, HCQ, 인공눈물",
-          "구강/성기 궤양 + 포도막염 + 피부 병변",
-          "= 베체트병 / 염증 수치, pathergy test / 콜히친, steroid,",
-          "• --"
-        ]
-      },
-      {
-        "title": "Concept",
-        "content": [
-          "‘PEx’, 증상에 따른 신체진찰을 빠르게 진행해야 함"
-        ]
-      },
-      {
-        "title": "감별진단",
-        "content": [
+          "비관절 : 유착관절낭염 / 회전근개증후군, 상과염 / 무릎연골연화증, 반달연골 파열 / 내측 측부인대 손상, 전방십자인대 손상 / 윤활막염",
           "급성 관절",
           "염증 : 통풍, 거짓 통풍, 감염 관절염, 반응 관절염",
           "비염증 : 외상 관절염",
@@ -6412,12 +6720,32 @@
           "눈마름, 입마름 (쇼그렌)",
           "빈뇨, 배뇨통, 설사 (반응 관절염)",
           "수면장애, 인지기능 저하, 불안, 우울 (섬유근통증후군)",
+          "FE 외과약사가여 : 스테로이드 주사력, 조조강직 시간",
+          "O L D Co Ex",
+          "Character",
+          "양상 (욱신, 깊음, 관절 주변)",
+          "동반 (압통, 발적, 종창, 열감, 비빔소리, 움직임 제한), NRS",
+          "Associated Sx",
+          "General  : Weight loss, Fatigue, Fever, Chill, Edema",
+          "발열, 오한",
+          "호흡곤란/마른기침 (류마티스)",
+          "피부 발진, 햇빛 알러지 (루푸스)",
+          "구강/성기 궤양, 안구 충혈/통증 (베체트)",
+          "눈마름, 입마름 (쇼그렌)",
+          "빈뇨, 배뇨통, 설사 (반응 관절염)",
+          "수면장애, 인지기능 저하, 불안, 우울 (섬유근통증후군)",
           "FE 외과약사가여 : 스테로이드 주사력, 조조강직 시간"
         ]
       },
       {
         "title": "PEx",
         "content": [
+          "V/S 눈(포도막염) 입(궤양)",
+          "흉부 : 호흡음, 심음 (류마티스 의심 시)",
+          "관절 : 시 - 촉 - 타 - 청 - 운동검사",
+          "무릎 : Valgus, Varus, Macmurray, Drawer",
+          "어깨 : Neer, Hawkins-kennedy, Empty can",
+          "허리 : Schober, SLRT, Patrick",
           "V/S 눈(포도막염) 입(궤양)",
           "흉부 : 호흡음, 심음 (류마티스 의심 시)",
           "관절 : 시 - 촉 - 타 - 청 – 운동검사 / 기타 관절 시진",
@@ -6429,6 +6757,25 @@
       {
         "title": "환자교육",
         "content": [
+          "발 통증 + 과음 + 압통 + 부종 + 발적",
+          "= 통풍 / 관절 천자, 혈청 요산 농도 / 콜히친, NSAIDs, steroid, -purinol",
+          "무릎, 손목 통증 + 압통 + 부종 + 발적",
+          "= 가성 통풍 / 관절 천자, PXR / 콜히친, NSAIDs, steroid",
+          "압통 + 부종 + 발적 + 발열 + 오한 + 관절주사력",
+          "= 감염 관절염 / 관절 천자, 활액 그람염색, 배양, PXR /항생제",
+          "압통 + 부종 + 운동제한 + 관절외상력",
+          "= 외상 관절염 / PXR / NSAIDs, 재활 및 운동",
+          "손 관절 대칭적 통증 + 조조강직 > 1hr + 관절 외 증상 + Swan neck",
+          "= 류마티스 관절염 / RA, 염증 수치, 자가항체 / NSAIDs, steroid, MTX..",
+          "허리 통증 + 아침 악화/운동 완화 + 젊은 남성 + 포도막염 + Schober",
+          "= 강직성 척추염 / HLA-B27, XR, MRI / 재활 및 운동, NSAIDs, -ximab",
+          "압통 + 구강 궤양 + 레이노 현상 + 뺨 발진 + 광과민성 + 유산력",
+          "= 루푸스 관절염 / CBC, 소변검사, 항체검사 / NSAIDs, steroid..",
+          "눈입 건조증 + 침샘 비대 + 레이노 현상",
+          "= 쇼그렌 증후군 / 쉬르머, 항체검사, 침샘스캔 / NSAIDs, HCQ, 인공눈물",
+          "구강/성기 궤양 + 포도막염 + 피부 병변",
+          "= 베체트병 / 염증 수치, pathergy test / 콜히친, steroid,",
+          "• --",
           "[2]",
           "손 관절 통증 + 압통 + 조조강직 < 30min + 많이 움직이면 악화",
           "= 골관절염 / PXR, bone scan, MRI / NSAIDs, 재활 및 운동, 생활 습관",
@@ -6453,18 +6800,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[감염 관절염 (Infectious Arthritis)]], [[강직성 척추염 (Ankylosing Spondylitis)]], [[류마티스 관절염 (Rheumatoid Arthritis)]], [[베체트병 (Behçet's Disease)]], [[쇼그렌 증후군 (Sjögren's Syndrome)]], [[통풍 (Gout)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[감염 관절염 (Infectious Arthritis)]], [[강직성 척추염 (Ankylosing Spondylitis)]], [[류마티스 관절염 (Rheumatoid Arthritis)]], [[베체트병 (Behçet's Disease)]], [[쇼그렌 증후군 (Sjögren's Syndrome)]], [[통풍 (Gout)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.939Z"
+    "updatedAt": "2026-07-10T02:22:33.987Z"
   },
   {
     "id": "602",
@@ -6659,18 +7013,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[뇌수막염 (Meningoencephalitis)]], [[류마티스 관절염 (Rheumatoid Arthritis)]], [[삼차신경통 (Trigeminal neuralgia)]], [[추간판탈출증 (Herniated Intervertebral Disc)]], [[PUD 협착 (Stricture)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[뇌수막염 (Meningoencephalitis)]], [[류마티스 관절염 (Rheumatoid Arthritis)]], [[삼차신경통 (Trigeminal neuralgia)]], [[추간판탈출증 (Herniated Intervertebral Disc)]], [[PUD 협착 (Stricture)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.979Z"
+    "updatedAt": "2026-07-10T02:22:34.012Z"
   },
   {
     "id": "603",
@@ -6817,18 +7178,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[골관절염 (Osteoarthritis)]], [[추간판탈출증 (Herniated Intervertebral Disc)]], [[PUD 협착 (Stricture)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[골관절염 (Osteoarthritis)]], [[추간판탈출증 (Herniated Intervertebral Disc)]], [[PUD 협착 (Stricture)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.077Z"
+    "updatedAt": "2026-07-10T02:22:34.079Z"
   },
   {
     "id": "604",
@@ -7047,18 +7415,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[건선 (Psoriasis)]], [[결절 홍반 (Erythema Nodosum)]], [[대상 포진 (Herpes Zoster)]], [[베체트병 (Behçet's Disease)]], [[수두 (Varicella)]], [[아토피 피부염 (Atopic Dermatitis)]], [[약물 발진 (Drug Eruption)]], [[어루러기 (Tinea Versicolor)]], [[옴 (Scabies)]], [[접촉피부염 (Contact Dermatitis)]], [[홍역 (Measles)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[건선 (Psoriasis)]], [[결절 홍반 (Erythema Nodosum)]], [[대상 포진 (Herpes Zoster)]], [[베체트병 (Behçet's Disease)]], [[수두 (Varicella)]], [[아토피 피부염 (Atopic Dermatitis)]], [[약물 발진 (Drug Eruption)]], [[어루러기 (Tinea Versicolor)]], [[옴 (Scabies)]], [[접촉피부염 (Contact Dermatitis)]], [[홍역 (Measles)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.070Z"
+    "updatedAt": "2026-07-10T02:22:34.076Z"
   },
   {
     "id": "701",
@@ -7256,18 +7631,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[기분 장애 (Bipolar and Related Disorders)]], [[조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders)]], [[허혈성 뇌졸중 (Ischemic stroke)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[기분 장애 (Bipolar and Related Disorders)]], [[조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders)]], [[허혈성 뇌졸중 (Ischemic stroke)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.950Z"
+    "updatedAt": "2026-07-10T02:22:33.996Z"
   },
   {
     "id": "702",
@@ -7279,13 +7661,35 @@
     "category": "07 정신",
     "sourcePath": "source_notes/01 Chief Complaint/불안.md",
     "concept": [
+      "＇정신’, 정신과 질환과 내과적 질환 문진, 맥박!",
       "＇정신’, 정신과 질환과 내과적 질환 문진, 맥박!"
     ],
     "differentials": [
       "원발성 : 공황장애, 광장공포증, 범불안장애, 사회불안장애 / 강박장애 / PTSD, 급성 스트레스 장애, 적응장애",
-      "속발성 : 허혈 심장병, 부정맥 / 천식 / 갑상샘항진증, 크롬친화세포종 / 기타 : 뇌전증, 약물"
+      "속발성 : 허혈 심장병, 부정맥 / 천식 / 갑상샘항진증, 크롬친화세포종 / 기타 : 뇌전증, 약물",
+      "원발성",
+      "공황장애, 광장공포증, 범불안장애, 사회불안장애 / 강박장애",
+      "PTSD, 급성 스트레스 장애, 적응장애",
+      "속발성",
+      "허혈 심장병, 부정맥 / 천식 / 갑상샘항진증, 크롬친화세포종",
+      "기타 : 뇌전증, 약물"
     ],
     "history": [
+      "O L D Co Ex",
+      "Character",
+      "불안한 상황, 불안한 이유, 양상과 정도 (죽고 싶은가?)",
+      "불안과 동반되는 증상은?",
+      "Associated Sx",
+      "죽을 것 같은 공포감, 숨막힘, 예기불안",
+      "넓은 장소/ 특정 상황이 두려움",
+      "대중 앞에 설 때 불안",
+      "쉽게 피곤, 매사에 불안, 안절부절, 잠을 잘 못잠",
+      "하지 않으려 해도 반복되는 생각이나 행동",
+      "D.P, 쌕쌕거림",
+      "더위불내성, 체중 감소 / 두통, 발한",
+      "뇌전증, 정신병적 증상",
+      "FE",
+      "외과약사가여 : 마약이나 불법 약물 복용 여부",
       "O L D Co Ex",
       "Character",
       "불안한 상황, 불안한 이유, 양상과 정도 (죽고 싶은가?)",
@@ -7303,6 +7707,9 @@
       "외과약사가여 : 마약이나 불법 약물 복용 여부"
     ],
     "exam": [
+      "V/S 눈(빈혈, 안구 돌출) 목 (갑상샘),",
+      "손 (맥박 촉진, 손떨림), 하지 부종",
+      "흉부 : 심음, 호흡음 청진",
       "V/S 눈(빈혈, 안구 돌출) 목 (갑상샘),",
       "손 (맥박 촉진, 손떨림), 하지 부종",
       "흉부 : 심음, 호흡음 청진"
@@ -7357,12 +7764,81 @@
         "disease": "적응장애",
         "tests": "나머지 배제",
         "treatment": "BZD, 인지 행동 치료, 단기 정신 치료"
+      },
+      {
+        "symptoms": [
+          "불안",
+          "흉통",
+          "호흡곤란",
+          "운동 시 악화"
+        ],
+        "disease": "허혈 심장병",
+        "tests": "EKG, 운동부하 심전도",
+        "treatment": "aspirin, 재개통술"
+      },
+      {
+        "symptoms": [
+          "불안",
+          "두근거림",
+          "심장쿵",
+          "맥박"
+        ],
+        "disease": "빠른 부정맥",
+        "tests": "EKG, 24hr holter",
+        "treatment": "항부정맥제"
+      },
+      {
+        "symptoms": [
+          "불안",
+          "기침",
+          "호흡곤란",
+          "쌕쌕거림",
+          "계절성"
+        ],
+        "disease": "천식",
+        "tests": "PFT",
+        "treatment": "SABA, ICS"
+      },
+      {
+        "symptoms": [
+          "불안",
+          "두근거림",
+          "체중 감소",
+          "더위불내성",
+          "갑상샘 비대"
+        ],
+        "disease": "갑상샘 항진증",
+        "tests": "TFT",
+        "treatment": "PTU, 방사성 요오드"
+      },
+      {
+        "symptoms": [
+          "불안",
+          "두통",
+          "안면홍조",
+          "식은땀",
+          "두근거림"
+        ],
+        "disease": "크롬친화세포종",
+        "tests": "24hr meta, CT",
+        "treatment": "propranolol, 부신절제술"
+      },
+      {
+        "symptoms": [
+          "불안",
+          "발작",
+          "신경학적 이상 소견"
+        ],
+        "disease": "뇌전증",
+        "tests": "EEG, MRI, 항뇌전증제",
+        "treatment": ""
       }
     ],
     "sections": [
       {
         "title": "Concept",
         "content": [
+          "＇정신’, 정신과 질환과 내과적 질환 문진, 맥박!",
           "＇정신’, 정신과 질환과 내과적 질환 문진, 맥박!"
         ]
       },
@@ -7370,12 +7846,33 @@
         "title": "감별진단",
         "content": [
           "원발성 : 공황장애, 광장공포증, 범불안장애, 사회불안장애 / 강박장애 / PTSD, 급성 스트레스 장애, 적응장애",
-          "속발성 : 허혈 심장병, 부정맥 / 천식 / 갑상샘항진증, 크롬친화세포종 / 기타 : 뇌전증, 약물"
+          "속발성 : 허혈 심장병, 부정맥 / 천식 / 갑상샘항진증, 크롬친화세포종 / 기타 : 뇌전증, 약물",
+          "원발성",
+          "공황장애, 광장공포증, 범불안장애, 사회불안장애 / 강박장애",
+          "PTSD, 급성 스트레스 장애, 적응장애",
+          "속발성",
+          "허혈 심장병, 부정맥 / 천식 / 갑상샘항진증, 크롬친화세포종",
+          "기타 : 뇌전증, 약물"
         ]
       },
       {
         "title": "Hx",
         "content": [
+          "O L D Co Ex",
+          "Character",
+          "불안한 상황, 불안한 이유, 양상과 정도 (죽고 싶은가?)",
+          "불안과 동반되는 증상은?",
+          "Associated Sx",
+          "죽을 것 같은 공포감, 숨막힘, 예기불안",
+          "넓은 장소/ 특정 상황이 두려움",
+          "대중 앞에 설 때 불안",
+          "쉽게 피곤, 매사에 불안, 안절부절, 잠을 잘 못잠",
+          "하지 않으려 해도 반복되는 생각이나 행동",
+          "D.P, 쌕쌕거림",
+          "더위불내성, 체중 감소 / 두통, 발한",
+          "뇌전증, 정신병적 증상",
+          "FE",
+          "외과약사가여 : 마약이나 불법 약물 복용 여부",
           "O L D Co Ex",
           "Character",
           "불안한 상황, 불안한 이유, 양상과 정도 (죽고 싶은가?)",
@@ -7396,6 +7893,9 @@
       {
         "title": "PEx",
         "content": [
+          "V/S 눈(빈혈, 안구 돌출) 목 (갑상샘),",
+          "손 (맥박 촉진, 손떨림), 하지 부종",
+          "흉부 : 심음, 호흡음 청진",
           "V/S 눈(빈혈, 안구 돌출) 목 (갑상샘),",
           "손 (맥박 촉진, 손떨림), 하지 부종",
           "흉부 : 심음, 호흡음 청진"
@@ -7423,57 +7923,7 @@
           "= 급성 스트레스 장애 / … / SSRI, TCA, 인지 행동 치료",
           "일상에서 겪는 스트레스에 대한 불안 + 3개월 이내",
           "= 적응장애 / 나머지 배제 / BZD, 인지 행동 치료, 단기 정신 치료",
-          "• --"
-        ]
-      },
-      {
-        "title": "Concept",
-        "content": [
-          "＇정신’, 정신과 질환과 내과적 질환 문진, 맥박!"
-        ]
-      },
-      {
-        "title": "감별진단",
-        "content": [
-          "원발성",
-          "공황장애, 광장공포증, 범불안장애, 사회불안장애 / 강박장애",
-          "PTSD, 급성 스트레스 장애, 적응장애",
-          "속발성",
-          "허혈 심장병, 부정맥 / 천식 / 갑상샘항진증, 크롬친화세포종",
-          "기타 : 뇌전증, 약물"
-        ]
-      },
-      {
-        "title": "Hx",
-        "content": [
-          "O L D Co Ex",
-          "Character",
-          "불안한 상황, 불안한 이유, 양상과 정도 (죽고 싶은가?)",
-          "불안과 동반되는 증상은?",
-          "Associated Sx",
-          "죽을 것 같은 공포감, 숨막힘, 예기불안",
-          "넓은 장소/ 특정 상황이 두려움",
-          "대중 앞에 설 때 불안",
-          "쉽게 피곤, 매사에 불안, 안절부절, 잠을 잘 못잠",
-          "하지 않으려 해도 반복되는 생각이나 행동",
-          "D.P, 쌕쌕거림",
-          "더위불내성, 체중 감소 / 두통, 발한",
-          "뇌전증, 정신병적 증상",
-          "FE",
-          "외과약사가여 : 마약이나 불법 약물 복용 여부"
-        ]
-      },
-      {
-        "title": "PEx",
-        "content": [
-          "V/S 눈(빈혈, 안구 돌출) 목 (갑상샘),",
-          "손 (맥박 촉진, 손떨림), 하지 부종",
-          "흉부 : 심음, 호흡음 청진"
-        ]
-      },
-      {
-        "title": "환자교육",
-        "content": [
+          "• --",
           "검사 : 정신상태검사, 우울척도검사, 혈액검사, EKG",
           "치료 : 약물, 인지 행동 치료",
           "교육 : 안심시키기, 꾸준한 치료 필요 설명",
@@ -7494,18 +7944,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[불안 장애 (Anxiety Disorders)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[불안 장애 (Anxiety Disorders)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.996Z"
+    "updatedAt": "2026-07-10T02:22:34.025Z"
   },
   {
     "id": "703",
@@ -7702,18 +8159,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[폐경 (Menopause)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[폐경 (Menopause)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.020Z"
+    "updatedAt": "2026-07-10T02:22:34.037Z"
   },
   {
     "id": "704",
@@ -7906,18 +8370,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[정상압 수두증 (Normal pressure hydrocephalus)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[정상압 수두증 (Normal pressure hydrocephalus)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.953Z"
+    "updatedAt": "2026-07-10T02:22:33.997Z"
   },
   {
     "id": "801",
@@ -8137,18 +8608,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[과호흡 (Hyperventilation)]], [[당뇨병 (Diabetes Mellitus)]], [[메니에르병 (Meniere's disease)]], [[불안 장애 (Anxiety Disorders)]], [[저혈당 (Hypoglycemia)]], [[전정신경염 (Vestibular neuritis)]], [[편두통 (Migraine)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[과호흡 (Hyperventilation)]], [[당뇨병 (Diabetes Mellitus)]], [[메니에르병 (Meniere's disease)]], [[불안 장애 (Anxiety Disorders)]], [[저혈당 (Hypoglycemia)]], [[전정신경염 (Vestibular neuritis)]], [[편두통 (Migraine)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.026Z"
+    "updatedAt": "2026-07-10T02:22:34.041Z"
   },
   {
     "id": "802",
@@ -8345,18 +8823,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[군발두통 (Cluster headache)]], [[뇌수막염 (Meningoencephalitis)]], [[뇌종양 (Brain tumor)]], [[삼차신경통 (Trigeminal neuralgia)]], [[크롬친화세포종 (Pheochromocytoma)]], [[편두통 (Migraine)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[군발두통 (Cluster headache)]], [[뇌수막염 (Meningoencephalitis)]], [[뇌종양 (Brain tumor)]], [[삼차신경통 (Trigeminal neuralgia)]], [[크롬친화세포종 (Pheochromocytoma)]], [[편두통 (Migraine)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.971Z"
+    "updatedAt": "2026-07-10T02:22:34.006Z"
   },
   {
     "id": "803",
@@ -8520,18 +9005,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[뇌전증 (Epilepsy)]], [[발작 (Seizure)]], [[양성 롤란딕 뇌전증 (Benign Rolandic Epilepsy)]], [[열성 경련 (Febrile Convulsion)]], [[영아 연축 (Infantile Spasm)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[뇌전증 (Epilepsy)]], [[발작 (Seizure)]], [[양성 롤란딕 뇌전증 (Benign Rolandic Epilepsy)]], [[열성 경련 (Febrile Convulsion)]], [[영아 연축 (Infantile Spasm)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.618Z"
+    "updatedAt": "2026-07-10T02:22:33.983Z"
   },
   {
     "id": "804",
@@ -8698,18 +9190,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[뇌수막염 (Meningoencephalitis)]], [[뇌전증 (Epilepsy)]], [[뇌종양 (Brain tumor)]], [[허혈성 뇌졸중 (Ischemic stroke)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[뇌수막염 (Meningoencephalitis)]], [[뇌전증 (Epilepsy)]], [[뇌종양 (Brain tumor)]], [[허혈성 뇌졸중 (Ischemic stroke)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.614Z"
+    "updatedAt": "2026-07-10T02:22:33.981Z"
   },
   {
     "id": "805",
@@ -8721,15 +9220,39 @@
     "category": "08 신경",
     "sourcePath": "source_notes/01 Chief Complaint/근력／감각이상.md",
     "concept": [
+      "‘NEx’, 원인 구조별 종류를 생각하며 문진",
       "‘NEx’, 원인 구조별 종류를 생각하며 문진"
     ],
     "differentials": [
       "CNS : 뇌출혈/뇌경색/뇌종양, 일과성 허혈발작 / 척수염, 다발경화증",
       "PNS : 추간판탈출증, GBS, 당뇨병 신경병증, 수근관증후군, 노신경마비",
       "NMJ, M : 중증근무력증, 염증성 근병증",
-      "기타 : 갑상샘 독성 주기 마비, Vit B 결핍"
+      "기타 : 갑상샘 독성 주기 마비, Vit B 결핍",
+      "CNS",
+      "뇌출혈/뇌경색/뇌종양, 일과성 허혈발작",
+      "척수염, 다발경화증",
+      "PNS",
+      "추간판탈출증, GBS, 당뇨병 신경병증, 수근관증후군, 노신경마비",
+      "NMJ, M",
+      "중증근무력증, 염증성 근병증",
+      "기타",
+      "갑상샘 독성 주기 마비, Vit B 결핍"
     ],
     "history": [
+      "O L D Co Ex",
+      "Character",
+      "힘이 빠지는 것의 의미, 심한 부위, 감각 이상 여부",
+      "Associated Sx",
+      "두통, 시야이상, 발음장애, 보행장애, 체중감소",
+      "목/허리 통증 - 배뇨/배변장애",
+      "최근 감기 증상",
+      "(근무력증) 안검하수, 복시",
+      "(염증성 근병증) 눈 주위 홍반, 손등 발진",
+      "더위불내성, 두근거림, 설사",
+      "Factor",
+      "시간대, 휴식, 운동, 과음, 과식 관련성",
+      "E",
+      "외과약사가여 : 두부 외상력, 예방접종력, 감기력",
       "O L D Co Ex",
       "Character",
       "힘이 빠지는 것의 의미, 심한 부위, 감각 이상 여부",
@@ -8746,6 +9269,10 @@
       "외과약사가여 : 두부 외상력, 예방접종력, 감기력"
     ],
     "exam": [
+      "V/S (눈) 갑상샘",
+      "뇌신경검사 소뇌기능검사 사지검사",
+      "Spurling's test / SLRT, Patrick test (증상 시)",
+      "Tinel sign, Phalen test (증상 시)",
       "V/S (눈) 갑상샘",
       "뇌신경검사 소뇌기능검사 사지검사",
       "Spurling's test / SLRT, Patrick test (증상 시)",
@@ -8832,12 +9359,59 @@
         "disease": "노신경 마비",
         "tests": "신경 전도 속도, 근전도",
         "treatment": "안심, 경과 관찰"
+      },
+      {
+        "symptoms": [
+          "상지 근위부 위약",
+          "피로",
+          "오후 악화",
+          "쉬면 호전",
+          "안검하수"
+        ],
+        "disease": "중증 근무력증",
+        "tests": "반복신경자극검사, CT",
+        "treatment": "pyridostigmine, steroid"
+      },
+      {
+        "symptoms": [
+          "진행성 근위약",
+          "호흡곤란",
+          "연하곤란",
+          "근위부 근력 약화"
+        ],
+        "disease": "염증성 근병증",
+        "tests": "CK, 근전도, 근육 생검",
+        "treatment": "glucocorticoid, 운동 치료"
+      },
+      {
+        "symptoms": [
+          "과식 후 아침에 근력저하",
+          "운동",
+          "과음",
+          "감각은 정상"
+        ],
+        "disease": "갑상샘 독성 주기 마비",
+        "tests": "전해질검사, 근전도, TFT",
+        "treatment": "K 보충, BB, 항갑상샘제"
+      },
+      {
+        "symptoms": [
+          "위절제력 or 크론병",
+          "빈혈",
+          "황달",
+          "보행이상",
+          "신경계 정상"
+        ],
+        "disease": "Vit B12 결핍",
+        "tests": "CBC, PBS",
+        "treatment": "vit B12 보충"
       }
     ],
     "sections": [
       {
         "title": "Concept",
         "content": [
+          "‘NEx’, 원인 구조별 종류를 생각하며 문진",
           "‘NEx’, 원인 구조별 종류를 생각하며 문진"
         ]
       },
@@ -8847,12 +9421,35 @@
           "CNS : 뇌출혈/뇌경색/뇌종양, 일과성 허혈발작 / 척수염, 다발경화증",
           "PNS : 추간판탈출증, GBS, 당뇨병 신경병증, 수근관증후군, 노신경마비",
           "NMJ, M : 중증근무력증, 염증성 근병증",
-          "기타 : 갑상샘 독성 주기 마비, Vit B 결핍"
+          "기타 : 갑상샘 독성 주기 마비, Vit B 결핍",
+          "CNS",
+          "뇌출혈/뇌경색/뇌종양, 일과성 허혈발작",
+          "척수염, 다발경화증",
+          "PNS",
+          "추간판탈출증, GBS, 당뇨병 신경병증, 수근관증후군, 노신경마비",
+          "NMJ, M",
+          "중증근무력증, 염증성 근병증",
+          "기타",
+          "갑상샘 독성 주기 마비, Vit B 결핍"
         ]
       },
       {
         "title": "Hx",
         "content": [
+          "O L D Co Ex",
+          "Character",
+          "힘이 빠지는 것의 의미, 심한 부위, 감각 이상 여부",
+          "Associated Sx",
+          "두통, 시야이상, 발음장애, 보행장애, 체중감소",
+          "목/허리 통증 - 배뇨/배변장애",
+          "최근 감기 증상",
+          "(근무력증) 안검하수, 복시",
+          "(염증성 근병증) 눈 주위 홍반, 손등 발진",
+          "더위불내성, 두근거림, 설사",
+          "Factor",
+          "시간대, 휴식, 운동, 과음, 과식 관련성",
+          "E",
+          "외과약사가여 : 두부 외상력, 예방접종력, 감기력",
           "O L D Co Ex",
           "Character",
           "힘이 빠지는 것의 의미, 심한 부위, 감각 이상 여부",
@@ -8872,6 +9469,10 @@
       {
         "title": "PEx",
         "content": [
+          "V/S (눈) 갑상샘",
+          "뇌신경검사 소뇌기능검사 사지검사",
+          "Spurling's test / SLRT, Patrick test (증상 시)",
+          "Tinel sign, Phalen test (증상 시)",
           "V/S (눈) 갑상샘",
           "뇌신경검사 소뇌기능검사 사지검사",
           "Spurling's test / SLRT, Patrick test (증상 시)",
@@ -8904,60 +9505,7 @@
           "= 수근관증후군 / 신경전도속도, 근전도, US / 진통제, steroid 주사, 수술",
           "손팔 저림 + 팔이 오래 눌리는 자세 + wrist drop",
           "= 노신경 마비 / 신경 전도 속도, 근전도 / 안심, 경과 관찰",
-          "• --"
-        ]
-      },
-      {
-        "title": "Concept",
-        "content": [
-          "‘NEx’, 원인 구조별 종류를 생각하며 문진"
-        ]
-      },
-      {
-        "title": "감별진단",
-        "content": [
-          "CNS",
-          "뇌출혈/뇌경색/뇌종양, 일과성 허혈발작",
-          "척수염, 다발경화증",
-          "PNS",
-          "추간판탈출증, GBS, 당뇨병 신경병증, 수근관증후군, 노신경마비",
-          "NMJ, M",
-          "중증근무력증, 염증성 근병증",
-          "기타",
-          "갑상샘 독성 주기 마비, Vit B 결핍"
-        ]
-      },
-      {
-        "title": "Hx",
-        "content": [
-          "O L D Co Ex",
-          "Character",
-          "힘이 빠지는 것의 의미, 심한 부위, 감각 이상 여부",
-          "Associated Sx",
-          "두통, 시야이상, 발음장애, 보행장애, 체중감소",
-          "목/허리 통증 - 배뇨/배변장애",
-          "최근 감기 증상",
-          "(근무력증) 안검하수, 복시",
-          "(염증성 근병증) 눈 주위 홍반, 손등 발진",
-          "더위불내성, 두근거림, 설사",
-          "Factor",
-          "시간대, 휴식, 운동, 과음, 과식 관련성",
-          "E",
-          "외과약사가여 : 두부 외상력, 예방접종력, 감기력"
-        ]
-      },
-      {
-        "title": "PEx",
-        "content": [
-          "V/S (눈) 갑상샘",
-          "뇌신경검사 소뇌기능검사 사지검사",
-          "Spurling's test / SLRT, Patrick test (증상 시)",
-          "Tinel sign, Phalen test (증상 시)"
-        ]
-      },
-      {
-        "title": "환자교육",
-        "content": [
+          "• --",
           "검사 : 뇌 CT, MRI + angio",
           "치료 : 혈전용해제, 항응고제, 항혈소판제, 뇌동맥류결찰술",
           "교육 : 생활습관 개선 필요 (금연, 금주), 규칙적인 운동",
@@ -8972,18 +9520,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[뇌내 출혈 (Intracerebral hemorrhage)]], [[뇌종양 (Brain tumor)]], [[당뇨병성 신경병증 (Diabetic Neuropathy)]], [[수근관 증후군 (Carpal Tunnel Syndrome)]], [[일과성 허혈 발작 (Transient ischemic attack)]], [[지주막하 출혈 (Subarachnoid hemorrhage)]], [[추간판탈출증 (Herniated Intervertebral Disc)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[뇌내 출혈 (Intracerebral hemorrhage)]], [[뇌종양 (Brain tumor)]], [[당뇨병성 신경병증 (Diabetic Neuropathy)]], [[수근관 증후군 (Carpal Tunnel Syndrome)]], [[일과성 허혈 발작 (Transient ischemic attack)]], [[지주막하 출혈 (Subarachnoid hemorrhage)]], [[추간판탈출증 (Herniated Intervertebral Disc)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.945Z"
+    "updatedAt": "2026-07-10T02:22:33.992Z"
   },
   {
     "id": "806",
@@ -8995,15 +9550,38 @@
     "category": "08 신경",
     "sourcePath": "source_notes/01 Chief Complaint/의식장애.md",
     "concept": [
+      "'NEx’, 환자가 누워있고 보호자 문진할 수도 있음, 처치부터",
       "'NEx’, 환자가 누워있고 보호자 문진할 수도 있음, 처치부터"
     ],
     "differentials": [
       "CNS : 뇌경색, 거미막밑출혈, 뇌내출혈, 뇌수막염",
       "내분비 : 저혈당 혼수, 당뇨병 케톤산증, 고삼투압고혈당",
       "전신 : 간성 혼수, 요독증, 저체온증, 저나트륨혈증, 베르니케증후군",
-      "중독 : 알코올 중독, 약물 중독, 일산화탄소 중독"
+      "중독 : 알코올 중독, 약물 중독, 일산화탄소 중독",
+      "CNS",
+      "뇌경색, 거미막밑출혈, 뇌내출혈, 뇌수막염",
+      "내분비",
+      "저혈당 혼수, 당뇨병 케톤산증, 고삼투압고혈당",
+      "전신",
+      "간성 혼수, 요독증, 저체온증, 저나트륨혈증, 베르니케증후군",
+      "중독",
+      "알코올 중독, 약물 중독, 일산화탄소 중독"
     ],
     "history": [
+      "환자 의식평가와 조치",
+      "V/S – ABC – 외상 – GCS(NVM) – 조치 - 안심",
+      "O",
+      "Location",
+      "발견 당시 상황",
+      "D Co Ex",
+      "Character",
+      "팔다리 떨림, 대소변, 출혈",
+      "Associated Sx",
+      "General",
+      "(신경) 두통, 말 어눌함, 시야장애, 힘빠짐, 구토 / 최근 감염",
+      "ANVCD-B JD",
+      "FE",
+      "외과약사가여 : 입에서 냄새",
       "환자 의식평가와 조치",
       "V/S – ABC – 외상 – GCS(NVM) – 조치 - 안심",
       "O",
@@ -9020,6 +9598,13 @@
       "외과약사가여 : 입에서 냄새"
     ],
     "exam": [
+      "V/S 두경부 시진",
+      "눈(동공반사) 입 (탈수, 호흡 양상, 날숨 냄새, Gag reflex) 목 (경동맥 청진)",
+      "수막 자극 징후",
+      "흉부 : 심음, 호흡음",
+      "복부 : 간비장 타진, 복수, 간비장 촉진 (간성 혼수 의심 시)",
+      "피부 : 긴장도, 하지 부종",
+      "사지 : 근긴장도, DTR, 바빈스키 징후",
       "V/S 두경부 시진",
       "눈(동공반사) 입 (탈수, 호흡 양상, 날숨 냄새, Gag reflex) 목 (경동맥 청진)",
       "수막 자극 징후",
@@ -9100,12 +9685,107 @@
         "disease": "고삼투압 고혈압 상태",
         "tests": "혈당검사, ABGA, 소변 ketone",
         "treatment": "입원 치료, NS"
+      },
+      {
+        "symptoms": [
+          "지남력장애",
+          "황달",
+          "복수",
+          "간질환",
+          "flapping tremor",
+          "부종"
+        ],
+        "disease": "간성 혼수",
+        "tests": "LFT, 전해질검사",
+        "treatment": "lactulose enema, BCAA, 항생제"
+      },
+      {
+        "symptoms": [
+          "피로",
+          "오심",
+          "구토",
+          "식욕 저하",
+          "CKD",
+          "투석력"
+        ],
+        "disease": "요독증",
+        "tests": "serum BUN",
+        "treatment": "Cr, US, 소변검사 / 혈액 투석, 신장 이식, 대증"
+      },
+      {
+        "symptoms": [
+          "체온 35도 이하",
+          "추운 환경 노출",
+          "떨림",
+          "청색증",
+          "맥박 호흡 저하"
+        ],
+        "disease": "저체온증",
+        "tests": "심부 체온 측정, EKG",
+        "treatment": "젖은 옷 제거, 담요 덮기, 따뜻한 수액"
+      },
+      {
+        "symptoms": [
+          "구토",
+          "설사",
+          "식사량 감소",
+          "이뇨제",
+          "경련",
+          "긴장도 감소"
+        ],
+        "disease": "저나트륨혈증",
+        "tests": "전해질검사, 혈중 Osm",
+        "treatment": "3% hypertonic saline"
+      },
+      {
+        "symptoms": [
+          "기억력 저하",
+          "작화증",
+          "전신 쇠약",
+          "알코올 사용장애력",
+          "운동 실조"
+        ],
+        "disease": "베르니케 증후군",
+        "tests": "MRI, 전해질검사",
+        "treatment": "Vit B, glucose, 전해질 교정"
+      },
+      {
+        "symptoms": [
+          "과음력",
+          "알코올 냄새",
+          "기타 정상"
+        ],
+        "disease": "알코올 중독",
+        "tests": "혈중 알코올",
+        "treatment": "glucose, 산소 공급, 혈액 투석"
+      },
+      {
+        "symptoms": [
+          "BZD, 마약성 진통제 사용력",
+          "호흡수 저하",
+          "동공 축소"
+        ],
+        "disease": "약물 중독",
+        "tests": "독성 선별검사",
+        "treatment": "해독제"
+      },
+      {
+        "symptoms": [
+          "화재 현장에 있었음 or 밀폐 공간에서 히터 사용",
+          "두통",
+          "어지럼",
+          "구역"
+        ],
+        "disease": "일산화탄소 중독",
+        "tests": "COHb, ABGA",
+        "treatment": "고압산소요법"
       }
     ],
     "sections": [
       {
         "title": "Concept",
         "content": [
+          "'NEx’, 환자가 누워있고 보호자 문진할 수도 있음, 처치부터",
           "'NEx’, 환자가 누워있고 보호자 문진할 수도 있음, 처치부터"
         ]
       },
@@ -9115,12 +9795,34 @@
           "CNS : 뇌경색, 거미막밑출혈, 뇌내출혈, 뇌수막염",
           "내분비 : 저혈당 혼수, 당뇨병 케톤산증, 고삼투압고혈당",
           "전신 : 간성 혼수, 요독증, 저체온증, 저나트륨혈증, 베르니케증후군",
-          "중독 : 알코올 중독, 약물 중독, 일산화탄소 중독"
+          "중독 : 알코올 중독, 약물 중독, 일산화탄소 중독",
+          "CNS",
+          "뇌경색, 거미막밑출혈, 뇌내출혈, 뇌수막염",
+          "내분비",
+          "저혈당 혼수, 당뇨병 케톤산증, 고삼투압고혈당",
+          "전신",
+          "간성 혼수, 요독증, 저체온증, 저나트륨혈증, 베르니케증후군",
+          "중독",
+          "알코올 중독, 약물 중독, 일산화탄소 중독"
         ]
       },
       {
         "title": "Hx",
         "content": [
+          "환자 의식평가와 조치",
+          "V/S – ABC – 외상 – GCS(NVM) – 조치 - 안심",
+          "O",
+          "Location",
+          "발견 당시 상황",
+          "D Co Ex",
+          "Character",
+          "팔다리 떨림, 대소변, 출혈",
+          "Associated Sx",
+          "General",
+          "(신경) 두통, 말 어눌함, 시야장애, 힘빠짐, 구토 / 최근 감염",
+          "ANVCD-B JD",
+          "FE",
+          "외과약사가여 : 입에서 냄새",
           "환자 의식평가와 조치",
           "V/S – ABC – 외상 – GCS(NVM) – 조치 - 안심",
           "O",
@@ -9140,6 +9842,13 @@
       {
         "title": "PEx",
         "content": [
+          "V/S 두경부 시진",
+          "눈(동공반사) 입 (탈수, 호흡 양상, 날숨 냄새, Gag reflex) 목 (경동맥 청진)",
+          "수막 자극 징후",
+          "흉부 : 심음, 호흡음",
+          "복부 : 간비장 타진, 복수, 간비장 촉진 (간성 혼수 의심 시)",
+          "피부 : 긴장도, 하지 부종",
+          "사지 : 근긴장도, DTR, 바빈스키 징후",
           "V/S 두경부 시진",
           "눈(동공반사) 입 (탈수, 호흡 양상, 날숨 냄새, Gag reflex) 목 (경동맥 청진)",
           "수막 자극 징후",
@@ -9174,62 +9883,7 @@
           "무반응 – 신음소리 – 동문서답 – 혼돈 – 지남력 있음",
           "Motor response (6)",
           "무반응 – 비정상 신전 – 비정상 굴곡 – 통증 피함 – 탁 침 - 수행가능",
-          "• --"
-        ]
-      },
-      {
-        "title": "Concept",
-        "content": [
-          "'NEx’, 환자가 누워있고 보호자 문진할 수도 있음, 처치부터"
-        ]
-      },
-      {
-        "title": "감별진단",
-        "content": [
-          "CNS",
-          "뇌경색, 거미막밑출혈, 뇌내출혈, 뇌수막염",
-          "내분비",
-          "저혈당 혼수, 당뇨병 케톤산증, 고삼투압고혈당",
-          "전신",
-          "간성 혼수, 요독증, 저체온증, 저나트륨혈증, 베르니케증후군",
-          "중독",
-          "알코올 중독, 약물 중독, 일산화탄소 중독"
-        ]
-      },
-      {
-        "title": "Hx",
-        "content": [
-          "환자 의식평가와 조치",
-          "V/S – ABC – 외상 – GCS(NVM) – 조치 - 안심",
-          "O",
-          "Location",
-          "발견 당시 상황",
-          "D Co Ex",
-          "Character",
-          "팔다리 떨림, 대소변, 출혈",
-          "Associated Sx",
-          "General",
-          "(신경) 두통, 말 어눌함, 시야장애, 힘빠짐, 구토 / 최근 감염",
-          "ANVCD-B JD",
-          "FE",
-          "외과약사가여 : 입에서 냄새"
-        ]
-      },
-      {
-        "title": "PEx",
-        "content": [
-          "V/S 두경부 시진",
-          "눈(동공반사) 입 (탈수, 호흡 양상, 날숨 냄새, Gag reflex) 목 (경동맥 청진)",
-          "수막 자극 징후",
-          "흉부 : 심음, 호흡음",
-          "복부 : 간비장 타진, 복수, 간비장 촉진 (간성 혼수 의심 시)",
-          "피부 : 긴장도, 하지 부종",
-          "사지 : 근긴장도, DTR, 바빈스키 징후"
-        ]
-      },
-      {
-        "title": "환자교육",
-        "content": [
+          "• --",
           "검사 : brain CT/MRT, 혈액검사, 소변검사, ECG",
           "치료 : ABC, 뇌압 상승시 mannitol",
           "교육 : 가능성으로 설명",
@@ -9259,18 +9913,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[고혈압 (Hypertension)]], [[뇌내 출혈 (Intracerebral hemorrhage)]], [[뇌수막염 (Meningoencephalitis)]], [[당뇨병 (Diabetes Mellitus)]], [[저혈당 (Hypoglycemia)]], [[지주막하 출혈 (Subarachnoid hemorrhage)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[고혈압 (Hypertension)]], [[뇌내 출혈 (Intracerebral hemorrhage)]], [[뇌수막염 (Meningoencephalitis)]], [[당뇨병 (Diabetes Mellitus)]], [[저혈당 (Hypoglycemia)]], [[지주막하 출혈 (Subarachnoid hemorrhage)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.043Z"
+    "updatedAt": "2026-07-10T02:22:34.057Z"
   },
   {
     "id": "807",
@@ -9282,13 +9943,31 @@
     "category": "08 신경",
     "sourcePath": "source_notes/01 Chief Complaint/떨림／운동이상.md",
     "concept": [
+      "tremor 맞나 확인, 기본 PE도 해야 함, 2분 전까지 NEx 최대한",
       "tremor 맞나 확인, 기본 PE도 해야 함, 2분 전까지 NEx 최대한"
     ],
     "differentials": [
       "떨림 : 안정떨림 : 파킨슨 병/증후군 / 의도떨림 : 소뇌 경색/출혈, 다발 경화증 / 활동떨림 : 본태 떨림, 생리적 떨림, 갑상샘항진증, 알코올/약물",
-      "기타 운동이상 : 반얼굴 연축, 근간대 경련, 근긴장이상증, 헌팅턴 병, 틱/뚜렛"
+      "기타 운동이상 : 반얼굴 연축, 근간대 경련, 근긴장이상증, 헌팅턴 병, 틱/뚜렛",
+      "떨림",
+      "안정떨림 : 파킨슨 병/증후군",
+      "의도떨림 : 소뇌 경색/출혈, 다발 경화증",
+      "활동떨림 : 본태 떨림, 생리적 떨림, 갑상샘항진증, 알코올/약물",
+      "기타 운동이상",
+      "반얼굴 연축, 근간대 경련, 근긴장이상증, 헌팅턴 병, 틱/뚜렛"
     ],
     "history": [
+      "O L D Co Ex",
+      "Character",
+      "resting/postural/action/intention/orthostatic, 정도",
+      "규칙적으로 떨리나요?",
+      "Associated Sx",
+      "(파킨슨) 말, 행동 느려짐, 자세불안정, 근육 뻣뻣, 무표정",
+      "(소뇌) 팔다리 힘빠짐, 걸음이상, 배뇨, 배변이상",
+      "더위불내성, 두근거림, 체중변화",
+      "우울, 불안, 수면장애",
+      "FE",
+      "외과약사가여",
       "O L D Co Ex",
       "Character",
       "resting/postural/action/intention/orthostatic, 정도",
@@ -9302,6 +9981,12 @@
       "외과약사가여"
     ],
     "exam": [
+      "V/S",
+      "떨림 관찰 (resting/postural/action/intention)",
+      "눈 목(갑상샘)",
+      "얼굴에 떨림이 있으면 뇌신경검사",
+      "소뇌기능검사 → 뭔가 있으면 사지검사",
+      "파킨슨 신체검사 – rigidity 확인",
       "V/S",
       "떨림 관찰 (resting/postural/action/intention)",
       "눈 목(갑상샘)",
@@ -9344,12 +10029,62 @@
         "disease": "갑상샘 항진증",
         "tests": "TFT",
         "treatment": "항갑상샘제"
+      },
+      {
+        "symptoms": [
+          "편측 안면근육의 불수의적 수축",
+          "점차 진행"
+        ],
+        "disease": "반언굴 연축",
+        "tests": "EMG, brain MRI",
+        "treatment": "약물, 수술"
+      },
+      {
+        "symptoms": [
+          "돌발적이고 짧은 근수축",
+          "스트레스"
+        ],
+        "disease": "근간대 경련",
+        "tests": "EMG, EEG, LFT, BUN",
+        "treatment": "Cr / 보존적, 원인 교정, 항경련제"
+      },
+      {
+        "symptoms": [
+          "춤추는 듯한 모습",
+          "일부에서 전체로 진행",
+          "정신 증상",
+          "가족력"
+        ],
+        "disease": "헌팅턴병",
+        "tests": "brain MRI, 유전자검사",
+        "treatment": "재활 치료, SSRI, TCA"
+      },
+      {
+        "symptoms": [
+          "운동 이상",
+          "약물 투여 중",
+          "기타 정상"
+        ],
+        "disease": "약물 유발 운동 이상 질환",
+        "tests": "…",
+        "treatment": "약물 조절"
+      },
+      {
+        "symptoms": [
+          "손떨림 식은땀",
+          "두근거림",
+          "인슐린 주사 or 식사 부족"
+        ],
+        "disease": "저혈당",
+        "tests": "혈당 측정",
+        "treatment": "포도당 정주, 경구포도당"
       }
     ],
     "sections": [
       {
         "title": "Concept",
         "content": [
+          "tremor 맞나 확인, 기본 PE도 해야 함, 2분 전까지 NEx 최대한",
           "tremor 맞나 확인, 기본 PE도 해야 함, 2분 전까지 NEx 최대한"
         ]
       },
@@ -9357,12 +10092,29 @@
         "title": "감별진단",
         "content": [
           "떨림 : 안정떨림 : 파킨슨 병/증후군 / 의도떨림 : 소뇌 경색/출혈, 다발 경화증 / 활동떨림 : 본태 떨림, 생리적 떨림, 갑상샘항진증, 알코올/약물",
-          "기타 운동이상 : 반얼굴 연축, 근간대 경련, 근긴장이상증, 헌팅턴 병, 틱/뚜렛"
+          "기타 운동이상 : 반얼굴 연축, 근간대 경련, 근긴장이상증, 헌팅턴 병, 틱/뚜렛",
+          "떨림",
+          "안정떨림 : 파킨슨 병/증후군",
+          "의도떨림 : 소뇌 경색/출혈, 다발 경화증",
+          "활동떨림 : 본태 떨림, 생리적 떨림, 갑상샘항진증, 알코올/약물",
+          "기타 운동이상",
+          "반얼굴 연축, 근간대 경련, 근긴장이상증, 헌팅턴 병, 틱/뚜렛"
         ]
       },
       {
         "title": "Hx",
         "content": [
+          "O L D Co Ex",
+          "Character",
+          "resting/postural/action/intention/orthostatic, 정도",
+          "규칙적으로 떨리나요?",
+          "Associated Sx",
+          "(파킨슨) 말, 행동 느려짐, 자세불안정, 근육 뻣뻣, 무표정",
+          "(소뇌) 팔다리 힘빠짐, 걸음이상, 배뇨, 배변이상",
+          "더위불내성, 두근거림, 체중변화",
+          "우울, 불안, 수면장애",
+          "FE",
+          "외과약사가여",
           "O L D Co Ex",
           "Character",
           "resting/postural/action/intention/orthostatic, 정도",
@@ -9379,6 +10131,12 @@
       {
         "title": "PEx",
         "content": [
+          "V/S",
+          "떨림 관찰 (resting/postural/action/intention)",
+          "눈 목(갑상샘)",
+          "얼굴에 떨림이 있으면 뇌신경검사",
+          "소뇌기능검사 → 뭔가 있으면 사지검사",
+          "파킨슨 신체검사 – rigidity 확인",
           "V/S",
           "떨림 관찰 (resting/postural/action/intention)",
           "눈 목(갑상샘)",
@@ -9407,56 +10165,7 @@
           "= 갑상샘 항진증 / TFT / 항갑상샘제",
           "떨림 + 불안/초조 + 두근거림 + 오심/구토 + 알코올/약물 남용력 + 환청/환시",
           "= 알코올/약물 금단 / 독성 선별검사 / BZD",
-          "• --"
-        ]
-      },
-      {
-        "title": "Concept",
-        "content": [
-          "tremor 맞나 확인, 기본 PE도 해야 함, 2분 전까지 NEx 최대한"
-        ]
-      },
-      {
-        "title": "감별진단",
-        "content": [
-          "떨림",
-          "안정떨림 : 파킨슨 병/증후군",
-          "의도떨림 : 소뇌 경색/출혈, 다발 경화증",
-          "활동떨림 : 본태 떨림, 생리적 떨림, 갑상샘항진증, 알코올/약물",
-          "기타 운동이상",
-          "반얼굴 연축, 근간대 경련, 근긴장이상증, 헌팅턴 병, 틱/뚜렛"
-        ]
-      },
-      {
-        "title": "Hx",
-        "content": [
-          "O L D Co Ex",
-          "Character",
-          "resting/postural/action/intention/orthostatic, 정도",
-          "규칙적으로 떨리나요?",
-          "Associated Sx",
-          "(파킨슨) 말, 행동 느려짐, 자세불안정, 근육 뻣뻣, 무표정",
-          "(소뇌) 팔다리 힘빠짐, 걸음이상, 배뇨, 배변이상",
-          "더위불내성, 두근거림, 체중변화",
-          "우울, 불안, 수면장애",
-          "FE",
-          "외과약사가여"
-        ]
-      },
-      {
-        "title": "PEx",
-        "content": [
-          "V/S",
-          "떨림 관찰 (resting/postural/action/intention)",
-          "눈 목(갑상샘)",
-          "얼굴에 떨림이 있으면 뇌신경검사",
-          "소뇌기능검사 → 뭔가 있으면 사지검사",
-          "파킨슨 신체검사 – rigidity 확인"
-        ]
-      },
-      {
-        "title": "환자교육",
-        "content": [
+          "• --",
           "검사 : brain CT, MRI, EMG, NCS, 혈액검사",
           "치료 : 약물 치료, 보조 치료, 수술 치료",
           "교육 : 안심시키기, 생활 습관 개선",
@@ -9479,18 +10188,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[알코올성 간질환 (Alcoholic Liver Disease)]], [[PUD 출혈 (Bleeding)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[알코올성 간질환 (Alcoholic Liver Disease)]], [[PUD 출혈 (Bleeding)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.974Z"
+    "updatedAt": "2026-07-10T02:22:34.008Z"
   },
   {
     "id": "901",
@@ -9737,18 +10453,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[관내 유두종 (Intraductal Papilloma)]], [[산욕기 유방 울혈 (Puerperal Breast Engorgement)]], [[섬유선종 (Fibroadenoma)]], [[유방 낭종 (Breast Cyst)]], [[유방 농양 (Breast Abscess)]], [[유방암 (Breast Cancer)]], [[젖낭종 (Galactocele)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[관내 유두종 (Intraductal Papilloma)]], [[산욕기 유방 울혈 (Puerperal Breast Engorgement)]], [[섬유선종 (Fibroadenoma)]], [[유방 낭종 (Breast Cyst)]], [[유방 농양 (Breast Abscess)]], [[유방암 (Breast Cancer)]], [[젖낭종 (Galactocele)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.040Z"
+    "updatedAt": "2026-07-10T02:22:34.053Z"
   },
   {
     "id": "902",
@@ -9995,18 +10718,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[관내 유두종 (Intraductal Papilloma)]], [[산욕기 유방 울혈 (Puerperal Breast Engorgement)]], [[섬유선종 (Fibroadenoma)]], [[유방 낭종 (Breast Cyst)]], [[유방 농양 (Breast Abscess)]], [[유방암 (Breast Cancer)]], [[젖낭종 (Galactocele)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[관내 유두종 (Intraductal Papilloma)]], [[산욕기 유방 울혈 (Puerperal Breast Engorgement)]], [[섬유선종 (Fibroadenoma)]], [[유방 낭종 (Breast Cyst)]], [[유방 농양 (Breast Abscess)]], [[유방암 (Breast Cancer)]], [[젖낭종 (Galactocele)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.037Z"
+    "updatedAt": "2026-07-10T02:22:34.051Z"
   },
   {
     "id": "903",
@@ -10165,18 +10895,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[자궁경부염 (Cervicitis)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[자궁경부염 (Cervicitis)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.785Z"
+    "updatedAt": "2026-07-10T02:22:34.063Z"
   },
   {
     "id": "904",
@@ -10349,18 +11086,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[경구피임약 (Oral Contraceptives)]], [[자궁 내막암 (Endometrial Cancer)]], [[자궁경부암 (Cervical Cancer)]], [[자궁근종 (Uterine Fibroids)]], [[자궁외 임신 (Ectopic Pregnancy)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[경구피임약 (Oral Contraceptives)]], [[자궁 내막암 (Endometrial Cancer)]], [[자궁경부암 (Cervical Cancer)]], [[자궁근종 (Uterine Fibroids)]], [[자궁외 임신 (Ectopic Pregnancy)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.050Z"
+    "updatedAt": "2026-07-10T02:22:34.065Z"
   },
   {
     "id": "905",
@@ -10572,18 +11316,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[다낭 난소 증후군 (Polycystic Ovary Syndrome)]], [[무월경 (Amenorrhea)]], [[자궁내막유착증 (Asherman Syndrome)]], [[쿠싱 증후군 (Cushing's Syndrome)]], [[터너 증후군 (Turner Syndrome)]], [[폐경 (Menopause)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[다낭 난소 증후군 (Polycystic Ovary Syndrome)]], [[무월경 (Amenorrhea)]], [[자궁내막유착증 (Asherman Syndrome)]], [[쿠싱 증후군 (Cushing's Syndrome)]], [[터너 증후군 (Turner Syndrome)]], [[폐경 (Menopause)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.033Z"
+    "updatedAt": "2026-07-10T02:22:34.046Z"
   },
   {
     "id": "906",
@@ -10734,18 +11485,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[월경통 (Dysmenorrhea)]], [[자궁 내막증 (Endometriosis)]], [[자궁근종 (Uterine Fibroids)]], [[자궁샘근육증 (Adenomyosis)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[월경통 (Dysmenorrhea)]], [[자궁 내막증 (Endometriosis)]], [[자궁근종 (Uterine Fibroids)]], [[자궁샘근육증 (Adenomyosis)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.761Z"
+    "updatedAt": "2026-07-10T02:22:34.048Z"
   },
   {
     "id": "907",
@@ -10942,18 +11700,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[고혈압 (Hypertension)]], [[당뇨병 (Diabetes Mellitus)]], [[양수과다증 (Polyhydramnios)]], [[전치태반 (Placenta Previa)]], [[조기 양막 파수 (Premature Rupture of Membranes)]], [[태반조기박리 (Placental Abruption)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[고혈압 (Hypertension)]], [[당뇨병 (Diabetes Mellitus)]], [[양수과다증 (Polyhydramnios)]], [[전치태반 (Placenta Previa)]], [[조기 양막 파수 (Premature Rupture of Membranes)]], [[태반조기박리 (Placental Abruption)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.005Z"
+    "updatedAt": "2026-07-10T02:22:34.027Z"
   },
   {
     "id": "1001",
@@ -11126,18 +11891,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[성장 지연 (Growth Retardation)]], [[저신장 (Short Stature)]], [[터너 증후군 (Turner Syndrome)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[성장 지연 (Growth Retardation)]], [[저신장 (Short Stature)]], [[터너 증후군 (Turner Syndrome)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:30.011Z"
+    "updatedAt": "2026-07-10T02:22:34.032Z"
   },
   {
     "id": "1002",
@@ -11362,18 +12134,25 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "관련질환",
+        "content": [
+          "[[뇌성 마비 (Cerebral Palsy)]], [[다운 증후군 (Down Syndrome)]], [[척수 근육 위축증 (Spinal Muscular Atrophy)]], [[터너 증후군 (Turner Syndrome)]]"
+        ]
+      },
+      {
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환",
-          "[[뇌성 마비 (Cerebral Palsy)]], [[다운 증후군 (Down Syndrome)]], [[척수 근육 위축증 (Spinal Muscular Atrophy)]], [[터너 증후군 (Turner Syndrome)]]"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-10T01:31:29.982Z"
+    "updatedAt": "2026-07-10T02:22:34.016Z"
   },
   {
     "id": "1003",
@@ -11472,17 +12251,19 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.748Z"
+    "updatedAt": "2026-07-10T02:22:34.043Z"
   },
   {
     "id": "1101",
@@ -11607,17 +12388,19 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.772Z"
+    "updatedAt": "2026-07-10T02:22:34.055Z"
   },
   {
     "id": "1102",
@@ -11743,17 +12526,19 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.839Z"
+    "updatedAt": "2026-07-10T02:22:34.089Z"
   },
   {
     "id": "1103",
@@ -11879,17 +12664,19 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.691Z"
+    "updatedAt": "2026-07-10T02:22:34.014Z"
   },
   {
     "id": "1104",
@@ -11964,17 +12751,19 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.662Z"
+    "updatedAt": "2026-07-10T02:22:34.000Z"
   },
   {
     "id": "1105",
@@ -12079,17 +12868,19 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.607Z"
+    "updatedAt": "2026-07-10T02:22:33.978Z"
   },
   {
     "id": "1106",
@@ -12191,17 +12982,19 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.728Z"
+    "updatedAt": "2026-07-10T02:22:34.034Z"
   },
   {
     "id": "1107",
@@ -12290,16 +13083,18 @@
         ]
       },
       {
-        "title": "일차의료",
+        "title": "접근",
         "content": []
       },
       {
-        "title": "입원관리",
-        "content": [
-          "### 관련질환"
-        ]
+        "title": "검사",
+        "content": []
+      },
+      {
+        "title": "치료",
+        "content": []
       }
     ],
-    "updatedAt": "2026-07-07T07:00:07.782Z"
+    "updatedAt": "2026-07-10T02:22:34.061Z"
   }
 ]
