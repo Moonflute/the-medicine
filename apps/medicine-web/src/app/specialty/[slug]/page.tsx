@@ -1,4 +1,4 @@
-﻿import { notFound } from "next/navigation";
+import { notFound } from "next/navigation";
 import Link from "next/link";
 import { CalendarDays, CheckCircle2, ChevronRight } from "lucide-react";
 import { getDiseasesBySpecialty, getSpecialties, getSpecialtyRoadmap, getSpecialtyToc } from "@/lib/webdb";
@@ -281,10 +281,8 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
               {group.secondLevel.map((secondGroup) => (
                 <div key={`${group.title}-${secondGroup.title}`} className="space-y-3">
                   {!(secondGroup.title === group.title && secondGroup.thirdLevel.length === 0) ? (
-                    <div className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3">
-                      <h3 className="text-lg font-semibold  text-slate-950">
-                        {secondGroup.title}
-                      </h3>
+                    <div className="border-l-4 border-teal-600 py-1 pl-3">
+                      <h3 className="text-sm font-semibold text-slate-700">{secondGroup.title}</h3>
                     </div>
                   ) : null}
 

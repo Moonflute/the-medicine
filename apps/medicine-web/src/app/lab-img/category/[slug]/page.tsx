@@ -166,10 +166,8 @@ export default async function LabImgCategoryPage(props: { params: Promise<{ slug
       <div className="space-y-5">
         {group.childGroups.map((childGroup) => (
           <section key={`${group.rawTitle}-${childGroup.rawTitle}`} className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm">
-            <div className="mb-4 flex items-center gap-3">
-              <div className="h-px flex-1 bg-stone-200" />
-              <h2 className="shrink-0 text-sm font-semibold uppercase  text-slate-500">{childGroup.title}</h2>
-              <div className="h-px flex-1 bg-stone-200" />
+            <div className="mb-4 border-l-4 border-teal-600 py-1 pl-3">
+              <h2 className="text-sm font-semibold text-slate-700">{childGroup.title}</h2>
             </div>
 
             <NoteLinks

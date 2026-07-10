@@ -52,8 +52,8 @@ export default async function DrugCategoryPage(props: { params: Promise<{ slug: 
         {group.middleGroups.map((middleGroup) => (
           <section key={`${group.title}-${middleGroup.title}`} className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm">
             {!(middleGroup.title === group.title && middleGroup.detailGroups.length === 0) ? (
-              <div className="mb-4 rounded-lg border border-slate-200 bg-slate-50 px-4 py-3">
-                <h2 className="text-xl font-semibold  text-slate-950">{middleGroup.title}</h2>
+              <div className="mb-4 border-l-4 border-teal-600 py-1 pl-3">
+                <h2 className="text-sm font-semibold text-slate-700">{middleGroup.title}</h2>
               </div>
             ) : null}
 
