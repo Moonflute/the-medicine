@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AlertTriangle, CheckSquare, ChevronRight, Info, Link2, ListOrdered, Stethoscope, VideoOff } from "lucide-react";
 import { getAllSkills, getSkillById } from "@/lib/webdb";
+import { ParentPageFab } from "@/components/parent-page-fab";
 
 export const dynamicParams = false;
 
@@ -168,6 +169,7 @@ export default async function SkillDetailPage(props: { params: Promise<{ id: str
           </section>
         </div>
       </div>
+      <ParentPageFab href={`/skills/category/${skill.categoryId}`} />
     </div>
   );
 }

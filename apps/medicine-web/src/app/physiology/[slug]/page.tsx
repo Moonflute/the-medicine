@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { DomainNoteCard } from "@/components/domain-note-card";
+import { ParentPageFab } from "@/components/parent-page-fab";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { getPhysiologyNoteBySlug, getPhysiologyNotes } from "@/lib/webdb";
 
@@ -26,6 +27,7 @@ export default async function PhysiologyDetailPage(props: { params: Promise<{ sl
           ))}
         </div>
       </section>
+      <ParentPageFab href="/physiology" />
     </div>
   );
 }

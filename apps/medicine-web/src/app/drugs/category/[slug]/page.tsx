@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ChevronRight } from "lucide-react";
 import { buildDrugGroups } from "@/lib/drug-groups";
+import { ParentPageFab } from "@/components/parent-page-fab";
 import { getDrugs } from "@/lib/webdb";
 
 export function generateStaticParams() {
@@ -79,6 +80,7 @@ export default async function DrugCategoryPage(props: { params: Promise<{ slug: 
           </section>
         ))}
       </div>
+      <ParentPageFab href="/drugs" />
     </div>
   );
 }

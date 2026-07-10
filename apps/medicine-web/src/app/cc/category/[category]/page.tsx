@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
+import { ParentPageFab } from "@/components/parent-page-fab";
 import { getChiefComplaintCategories, getChiefComplaintsByCategory } from "@/lib/webdb";
 
 export function generateStaticParams() {
@@ -46,6 +47,7 @@ export default async function ChiefComplaintCategoryPage(props: { params: Promis
           </Link>
         ))}
       </div>
+      <ParentPageFab href="/cc" />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import { ChiefComplaintDetailTabs } from "@/components/chief-complaint-detail-tabs";
+import { ParentPageFab } from "@/components/parent-page-fab";
 import { getChiefComplaintByCategoryAndSlug, getChiefComplaintCategories, getChiefComplaintsByCategory, getDiseaseLinks } from "@/lib/webdb";
 
 export function generateStaticParams() {
@@ -35,6 +36,7 @@ export default async function ChiefComplaintDetailByCategoryPage(props: { params
       </div>
 
       <ChiefComplaintDetailTabs note={note} diseaseLinks={diseaseLinks} />
+      <ParentPageFab href={`/cc/category/${params.category}`} />
     </div>
   );
 }

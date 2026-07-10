@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
+import { ParentPageFab } from "@/components/parent-page-fab";
 import { RichTextLines } from "@/components/rich-text-lines";
+import { buildDrugGroups } from "@/lib/drug-groups";
 import { getDrugBySlug, getDrugs } from "@/lib/webdb";
 
 export function generateStaticParams() {
@@ -52,6 +54,8 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
   const doses = note.drugMeta?.doses?.filter(Boolean) ?? [];
   const relatedDiseases = note.drugMeta?.relatedDiseases?.filter(Boolean) ?? [];
   const summaryLines = note.drugMeta ? dedupeSummaryLines(note.summary.slice(0, 5), note.drugMeta) : note.summary.slice(0, 5);
+  const parentGroup = buildDrugGroups(getDrugs()).find((group) => group.notes.some((item) => item.slug === note.slug));
+  const parentHref = parentGroup ? "/drugs/category/" + parentGroup.slug : "/drugs";
 
   return (
     <div className="space-y-6">
@@ -123,6 +127,7 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
           ))}
         </div>
       </section>
+      <ParentPageFab href={parentHref} />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowLeft, ChevronRight } from "lucide-react";
 import { notFound } from "next/navigation";
 import { RichTextLines } from "@/components/rich-text-lines";
+import { ParentPageFab } from "@/components/parent-page-fab";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
 import { buildLabImgOverviewGroups, isLabImgOverviewNote } from "@/lib/lab-img-overview";
 import { getLabImgNotes, type DomainNote } from "@/lib/webdb";
@@ -178,6 +179,7 @@ export default async function LabImgCategoryPage(props: { params: Promise<{ slug
           </section>
         ))}
       </div>
+      <ParentPageFab href="/lab-img" />
     </div>
   );
 }

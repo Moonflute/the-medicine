@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import { SkillCategoryIcon } from "@/components/skill-category-icon";
+import { ParentPageFab } from "@/components/parent-page-fab";
 import { getSkillCategoryById, getSkillsCategories } from "@/lib/webdb";
 
 export const dynamicParams = false;
@@ -55,6 +56,7 @@ export default async function SkillCategoryDetailPage(props: { params: Promise<{
           </Link>
         ))}
       </div>
+      <ParentPageFab href="/skills" />
     </div>
   );
 }

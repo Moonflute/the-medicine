@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { DomainNoteCard } from "@/components/domain-note-card";
+import { ParentPageFab } from "@/components/parent-page-fab";
 import { RichTextLines } from "@/components/rich-text-lines";
+import { buildLabImgGroups } from "@/lib/lab-img-groups";
 import { buildLabImgOverviewGroups, isLabImgOverviewNote } from "@/lib/lab-img-overview";
 import { getLabImgNoteBySlug, getLabImgNotes } from "@/lib/webdb";
 
@@ -23,6 +25,15 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
   const visibleSections = note.sections.filter((section) => !isReferenceSection(section.title));
   const overviewGroups = buildLabImgOverviewGroups(note, allNotes);
   const showOverviewTable = isLabImgOverviewNote(note) && overviewGroups.length > 0;
+  const parentGroup = buildLabImgGroups(allNotes).find(
+    (group) =>
+      group.overviewNote?.slug === note.slug ||
+      group.directNotes.some((item) => item.slug === note.slug) ||
+      group.childGroups.some(
+        (childGroup) => childGroup.overviewNote?.slug === note.slug || childGroup.notes.some((item) => item.slug === note.slug),
+      ),
+  );
+  const parentHref = parentGroup ? "/lab-img/category/" + parentGroup.slug : "/lab-img";
 
   return (
     <div className="space-y-6">
@@ -75,6 +86,7 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
           </div>
         )}
       </section>
+      <ParentPageFab href={parentHref} />
     </div>
   );
 }
