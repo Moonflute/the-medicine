@@ -153,7 +153,7 @@ export function DiseaseCard({
       {!hideOverview && overview.length > 0 ? (
         <div className="border-b border-slate-200 bg-teal-50/60 p-5 sm:p-6">
           <div className="mb-3 text-sm font-semibold text-teal-900">Overview</div>
-          <RichTextLines lines={overview} className="grid gap-2.5 lg:grid-cols-2" termLinks={ccLinks} wikiLinks={diseaseLinks} />
+          <RichTextLines lines={overview} className="space-y-2.5" termLinks={ccLinks} wikiLinks={diseaseLinks} />
         </div>
       ) : null}
 
