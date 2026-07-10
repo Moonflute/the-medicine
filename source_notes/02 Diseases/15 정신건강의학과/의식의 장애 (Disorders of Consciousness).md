@@ -6,7 +6,6 @@ aliases:
 계통: 정신건강의학과
 분류:
 - 정신건강의학과
-- 정신병리학
 CC:
 - 검진 이상
 preprocessing_required: x

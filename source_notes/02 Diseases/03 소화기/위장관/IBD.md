@@ -4,6 +4,7 @@ aliases: []
 - disease
 계통: 소화기
 분류:
+- 하부위장관
 - IBD
 CC: []
 preprocessing_required: x

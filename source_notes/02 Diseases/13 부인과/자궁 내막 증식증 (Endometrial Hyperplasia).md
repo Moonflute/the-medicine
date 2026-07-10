@@ -6,8 +6,7 @@ aliases:
 - disease
 계통: 부인과
 분류:
-- 부인과
-- 자궁 질환
+- 자궁질환
 CC:
 - 출혈
 preprocessing_required: x

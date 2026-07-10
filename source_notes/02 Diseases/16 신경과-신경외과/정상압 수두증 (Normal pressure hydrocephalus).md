@@ -6,11 +6,7 @@ aliases:
 - disease
 계통: 신경과-신경외과
 분류:
-- 신경과-신경외과
-- Neurology
-- Neurology/Neurosurgery
-- Movement Disorders
-- Hydrocephalus
+- IICP
 CC:
 - 요실금
 preprocessing_required: x

@@ -5,7 +5,6 @@ aliases: []
 계통: 순환기
 분류:
 - 부정맥
-- Premature beat
 CC:
 - 두근거림
 - 어지러움증

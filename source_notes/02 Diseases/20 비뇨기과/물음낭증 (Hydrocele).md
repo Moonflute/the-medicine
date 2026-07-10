@@ -5,9 +5,7 @@ aliases:
 - disease
 계통: 비뇨기과
 분류:
-- 비뇨기과
 - 고환/음낭 질환
-- 물음낭증
 CC:
 - 부종
 preprocessing_required: x

@@ -6,10 +6,7 @@ aliases:
 - disease
 계통: 신경과-신경외과
 분류:
-- 신경과-신경외과
-- Neurology
-- Neurology/Neurosurgery
-- Cerebrovascular Diseases
+- 허혈성 뇌졸중
 CC:
 - 두통
 preprocessing_required: x

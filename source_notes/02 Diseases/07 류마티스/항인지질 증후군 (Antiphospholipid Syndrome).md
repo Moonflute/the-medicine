@@ -3,7 +3,8 @@ aliases: []
 유형:
 - disease
 계통: 류마티스
-분류: []
+분류:
+- 류마티스
 CC:
 - 피부 괴사
 preprocessing_required: x

@@ -5,9 +5,7 @@ aliases:
 - disease
 계통: 외과
 분류:
-- 외과
 - 탈장및복벽질환
-- 탈장
 CC:
 - 기침
 preprocessing_required: x

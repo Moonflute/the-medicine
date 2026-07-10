@@ -6,10 +6,7 @@ aliases:
 - disease
 계통: 신경과-신경외과
 분류:
-- 신경과-신경외과
-- Neurology
-- Neurology/Neurosurgery
-- Brain
+- 뇌종양
 CC:
 - 두통
 - 구토

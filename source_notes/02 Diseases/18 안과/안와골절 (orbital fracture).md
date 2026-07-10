@@ -5,7 +5,6 @@ aliases:
 - disease
 계통: 안과
 분류:
-- 안과
 - 외상
 CC:
 - 부종

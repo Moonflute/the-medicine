@@ -5,9 +5,7 @@ aliases:
 - disease
 계통: 외과
 분류:
-- 외과
 - 외상
-- 골반외상
 CC:
 - 관절 통증/붓기
 preprocessing_required: x

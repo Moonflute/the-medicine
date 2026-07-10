@@ -5,11 +5,8 @@ aliases:
 - disease
 계통: 소아청소년과
 분류:
-- 소아청소년과
-- 소아과 각론
-- Pediatrics
-- Dermatology
-- Allergy
+- 소아과각론
+- 알레르기
 CC:
 - 가려움증
 - 피부 발진

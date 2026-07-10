@@ -6,9 +6,7 @@ aliases:
 - disease
 계통: 부인과
 분류:
-- 부인과
 - 질염
-- 감염
 CC:
 - 무증상
 preprocessing_required: x

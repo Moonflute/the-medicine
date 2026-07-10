@@ -5,10 +5,7 @@ aliases:
 - disease
 계통: 산과
 분류:
-- 산과
-- 외과
 - 내/외과적합병증
-- 비뇨기계
 CC:
 - 무증상
 preprocessing_required: x

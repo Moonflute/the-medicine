@@ -7,7 +7,6 @@ aliases:
 계통: 부인과
 분류:
 - 부인과
-- 구조 질환
 CC:
 - 검진 이상
 preprocessing_required: x

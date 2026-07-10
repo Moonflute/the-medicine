@@ -5,11 +5,7 @@ aliases:
 - disease
 계통: 신경과-신경외과
 분류:
-- 신경과-신경외과
-- Neurology
-- Neurology/Neurosurgery
-- Movement Disorders
-- Dystonia
+- 이상운동질환
 CC:
 - 경련
 preprocessing_required: x

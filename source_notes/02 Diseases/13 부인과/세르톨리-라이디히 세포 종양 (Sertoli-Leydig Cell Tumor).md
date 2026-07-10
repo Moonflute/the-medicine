@@ -5,10 +5,8 @@ aliases:
 - disease
 계통: 부인과
 분류:
-- 부인과
-- 난소종양
-- 비상피성난소암
-- Sex-cord stromal tumor
+- 부인과 종양
+- 비상피성 난소암
 CC:
 - 월경이상
 - 출혈

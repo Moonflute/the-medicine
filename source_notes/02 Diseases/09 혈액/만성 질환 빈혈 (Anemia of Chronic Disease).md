@@ -5,7 +5,6 @@ aliases: []
 계통: 혈액내과
 분류:
 - 적혈구
-- 절결핍빈혈
 CC:
 - 피로
 preprocessing_required: x

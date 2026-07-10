@@ -5,11 +5,7 @@ aliases:
 - disease
 계통: 신경과-신경외과
 분류:
-- 신경과-신경외과
-- Neurology
-- Neurology/Neurosurgery
-- Brain Tumors
-- Pituitary Gland Tumors
+- 뇌종양
 CC:
 - 두통
 - 시야 장애

@@ -6,10 +6,6 @@ aliases:
 계통: 부인과
 분류:
 - 부인과
-- 외과
-- 유방질환
-- 유방암
-- 비침윤성유방암
 CC:
 - 검진 이상
 preprocessing_required: x

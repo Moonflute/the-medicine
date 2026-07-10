@@ -5,7 +5,6 @@ aliases:
 - disease
 계통: 안과
 분류:
-- 안과
 - 녹내장
 CC:
 - 경련

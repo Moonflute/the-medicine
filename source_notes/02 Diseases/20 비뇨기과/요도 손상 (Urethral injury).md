@@ -5,9 +5,7 @@ aliases:
 - disease
 계통: 비뇨기과
 분류:
-- 비뇨기과
 - 비뇨기계 외상
-- 요도 손상
 CC:
 - 출혈
 preprocessing_required: x

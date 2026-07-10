@@ -6,7 +6,6 @@ aliases:
 계통: 안과
 분류:
 - 안과
-- 시신경질환
 CC:
 - 눈통증
 preprocessing_required: x

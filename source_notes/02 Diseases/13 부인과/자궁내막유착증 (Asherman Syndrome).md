@@ -5,9 +5,7 @@ aliases:
 - disease
 계통: 부인과
 분류:
-- 부인과
 - 불임
-- 자궁인자
 CC:
 - 월경이상
 preprocessing_required: x

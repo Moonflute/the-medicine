@@ -5,10 +5,7 @@ aliases:
 - disease
 계통: 소아청소년과
 분류:
-- 소아청소년과
-- 소아과 총론
-- Pediatrics
-- Neonatology
+- 소아과총론
 CC:
 - 검진 이상
 preprocessing_required: x

@@ -5,11 +5,7 @@ aliases:
 - disease
 계통: 신경과-신경외과
 분류:
-- 신경과-신경외과
-- Neurology
-- Neurology/Neurosurgery
-- Headache
-- Cranial Nerve Disorders
+- 신경근육질환
 CC:
 - 안면 통증
 preprocessing_required: x

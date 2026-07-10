@@ -5,9 +5,7 @@ aliases:
 - disease
 계통: 산과
 분류:
-- 산과
 - 산욕기 질환
-- 유방 질환
 CC:
 - 유방통
 preprocessing_required: x

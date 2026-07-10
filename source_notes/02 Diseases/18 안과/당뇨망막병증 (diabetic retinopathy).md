@@ -5,7 +5,6 @@ aliases:
 - disease
 계통: 안과
 분류:
-- 안과
 - 망막질환
 CC:
 - 무증상

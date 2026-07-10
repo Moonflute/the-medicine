@@ -5,10 +5,7 @@ aliases:
 - disease
 계통: 신경과-신경외과
 분류:
-- 신경과-신경외과
-- Neurology
-- Neurology/Neurosurgery
-- Spinal Cord Trauma
+- 척수 외상
 CC:
 - 근력/감각이상
 - 혈압저하

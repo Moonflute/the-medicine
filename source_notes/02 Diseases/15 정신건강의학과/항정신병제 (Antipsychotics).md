@@ -6,7 +6,6 @@ aliases:
 계통: 정신건강의학과
 분류:
 - 정신건강의학과
-- 약물 치료
 CC:
 - 환청/망상
 preprocessing_required: x

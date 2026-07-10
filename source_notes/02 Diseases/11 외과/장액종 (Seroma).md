@@ -5,9 +5,7 @@ aliases:
 - disease
 계통: 외과
 분류:
-- 외과
 - 수술후합병증
-- 외과적창상합병증
 CC:
 - 부종
 preprocessing_required: x

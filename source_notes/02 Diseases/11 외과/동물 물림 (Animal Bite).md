@@ -5,7 +5,6 @@ aliases:
 - disease
 계통: 외과
 분류:
-- 외과
 - 물림
 CC:
 - 부종

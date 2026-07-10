@@ -11706,6 +11706,17 @@
   },
   {
     "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k",
+    "title": "치매 (Dementia)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "신경인지장애",
+      "기억력 저하"
+    ],
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2MjOq0tOyggSDstqnrj5kg7KGw7KCIIOuwjyDtlonrj5kg7J6l7JWgIChEaXNydXB0aXZlLCBJbXB1bHNlLUNvbnRyb2wsIGFuZCBDb25kdWN0IERpc29yZGVycykubWQ",
     "title": "파괴적 충동 조절 및 행동 장애 (Disruptive, Impulse-Control, and Conduct Disorders)",
     "category": "15 정신건강의학과",

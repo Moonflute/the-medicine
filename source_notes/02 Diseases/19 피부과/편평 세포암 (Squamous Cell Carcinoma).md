@@ -6,7 +6,6 @@ aliases:
 계통: 피부과
 분류:
 - 피부과
-- 피부암
 CC:
 - 피부 변화
 preprocessing_required: x

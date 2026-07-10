@@ -5,7 +5,6 @@ aliases:
 - disease
 계통: 외과
 분류:
-- 외과
 - 쇼크
 CC:
 - 혈압저하

@@ -6,12 +6,8 @@ aliases:
 - disease
 계통: 소아청소년과
 분류:
-- 소아청소년과
-- 소아과 각론
-- Pediatrics
-- Gastroenterology
-- Dentistry
-- Infectious Diseases
+- 소아과각론
+- 감염
 CC:
 - 출혈
 preprocessing_required: x

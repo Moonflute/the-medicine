@@ -5,9 +5,7 @@ aliases:
 - disease
 계통: 비뇨기과
 분류:
-- 비뇨기과
 - 고환/음낭 질환
-- 잠복고환증
 CC:
 - 검진 이상
 preprocessing_required: x

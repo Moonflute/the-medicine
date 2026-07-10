@@ -5,10 +5,7 @@ aliases:
 - disease
 계통: 신경과-신경외과
 분류:
-- 신경과-신경외과
-- Neurology
-- Neurology/Neurosurgery
-- Neuromuscular Diseases
+- 신경근육질환
 CC:
 - 근력/감각이상
 - 저림

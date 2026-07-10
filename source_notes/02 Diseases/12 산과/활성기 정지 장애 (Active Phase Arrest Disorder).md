@@ -5,7 +5,6 @@ aliases:
 - disease
 계통: 산과
 분류:
-- 산과
 - 분만
 - 난산
 CC:

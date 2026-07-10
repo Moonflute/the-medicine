@@ -5,10 +5,8 @@ aliases:
 - disease
 계통: 소아청소년과
 분류:
-- 소아청소년과
-- 소아과 각론
-- Pediatrics
-- Gastroenterology
+- 소아과각론
+- 소화기
 CC:
 - 복부 팽만
 - 복통

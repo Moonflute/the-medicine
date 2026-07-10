@@ -6,9 +6,7 @@ aliases:
 - disease
 계통: 부인과
 분류:
-- 부인과
 - 질염
-- 진균 감염
 CC:
 - 가려움증
 preprocessing_required: x

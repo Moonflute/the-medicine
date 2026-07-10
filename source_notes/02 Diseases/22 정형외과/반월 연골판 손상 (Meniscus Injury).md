@@ -5,8 +5,6 @@ aliases:
 - disease
 계통: 정형외과
 분류:
-- 정형외과
-- Orthopedics
 - Knee
 CC:
 - 부종

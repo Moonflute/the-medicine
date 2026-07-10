@@ -5,7 +5,6 @@ aliases:
 - disease
 계통: 외과
 분류:
-- 외과
 - 화상
 CC:
 - 피부 변화

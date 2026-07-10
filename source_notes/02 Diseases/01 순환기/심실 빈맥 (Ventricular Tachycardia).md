@@ -5,7 +5,6 @@ aliases: []
 계통: 순환기
 분류:
 - 부정맥
-- Ventricular
 CC:
 - 심박수이상
 - 어지러움증

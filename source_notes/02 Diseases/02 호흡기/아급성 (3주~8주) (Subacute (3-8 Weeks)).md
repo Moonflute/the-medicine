@@ -5,7 +5,6 @@ aliases: []
 계통: 호흡기
 분류:
 - 기침
-- 급성 (<3주)
 CC:
 - 기침
 preprocessing_required: x

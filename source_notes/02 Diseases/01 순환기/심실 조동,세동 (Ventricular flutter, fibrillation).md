@@ -5,7 +5,6 @@ aliases: []
 계통: 순환기
 분류:
 - 부정맥
-- Ventricular
 CC:
 - 혈압저하
 - 의식장애

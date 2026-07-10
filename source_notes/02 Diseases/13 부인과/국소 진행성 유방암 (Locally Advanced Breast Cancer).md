@@ -6,9 +6,6 @@ aliases:
 계통: 부인과
 분류:
 - 부인과
-- 외과
-- 유방질환
-- 유방암
 CC:
 - 림프절 비대
 preprocessing_required: x

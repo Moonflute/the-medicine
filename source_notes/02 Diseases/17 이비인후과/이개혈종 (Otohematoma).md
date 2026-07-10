@@ -6,9 +6,7 @@ aliases:
 - disease
 계통: 이비인후과
 분류:
-- 이비인후과
 - 이과학
-- 외이도질환
 CC:
 - 부종
 preprocessing_required: x

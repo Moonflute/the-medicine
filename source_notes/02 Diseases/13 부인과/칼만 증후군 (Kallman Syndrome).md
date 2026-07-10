@@ -5,10 +5,7 @@ aliases:
 - disease
 계통: 부인과
 분류:
-- 부인과
 - 무월경
-- 이차성징X
-- Hypo-gonadotropic hypo-gonadism
 CC:
 - 월경이상
 - 후각장애

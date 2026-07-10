@@ -5,10 +5,7 @@ aliases:
 - disease
 계통: 비뇨기과
 분류:
-- 비뇨기과
 - 비뇨기계 감염
-- 요도염
-- 비임균요도염
 CC:
 - 배뇨통
 preprocessing_required: x

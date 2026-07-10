@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-10T01:38:35.540Z",
+  "generatedAt": "2026-07-10T15:36:15.015Z",
   "sourceRoot": "source_notes",
   "outputRoot": "_webapp/data",
   "domains": {
     "diseases": {
-      "count": 1172,
+      "count": 1173,
       "source": "02 Diseases"
     },
     "chiefComplaints": {

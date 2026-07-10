@@ -6,8 +6,6 @@ aliases:
 - disease
 계통: 정형외과
 분류:
-- 정형외과
-- Orthopedics
 - Spine
 CC:
 - 허리 통증

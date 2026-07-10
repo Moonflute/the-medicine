@@ -5,10 +5,8 @@ aliases:
 - disease
 계통: 소아청소년과
 분류:
-- 소아청소년과
-- 소아과 각론
-- Pediatrics
-- Hematology
+- 소아과각론
+- 혈액
 CC:
 - 피로
 - 호흡곤란

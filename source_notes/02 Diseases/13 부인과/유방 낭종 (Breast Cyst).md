@@ -6,8 +6,6 @@ aliases:
 계통: 부인과
 분류:
 - 부인과
-- 외과
-- 유방질환
 CC:
 - 유방통
 preprocessing_required: x

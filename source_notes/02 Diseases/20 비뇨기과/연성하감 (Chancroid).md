@@ -5,9 +5,7 @@ aliases:
 - disease
 계통: 비뇨기과
 분류:
-- 비뇨기과
 - 외성기 궤양
-- 연성하감
 CC:
 - 검진 이상
 preprocessing_required: x

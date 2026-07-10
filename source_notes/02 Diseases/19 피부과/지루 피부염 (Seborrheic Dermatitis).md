@@ -6,7 +6,6 @@ aliases:
 계통: 피부과
 분류:
 - 피부과
-- 그 외 습진성 피부질환
 CC:
 - 가려움증
 preprocessing_required: x

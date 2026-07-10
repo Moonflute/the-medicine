@@ -5,10 +5,7 @@ aliases:
 - disease
 계통: 신경과-신경외과
 분류:
-- 신경과-신경외과
-- Neurology
-- Neurology/Neurosurgery
-- Movement Disorders
+- 이상운동질환
 CC:
 - 떨림/운동이상
 - 혈압저하

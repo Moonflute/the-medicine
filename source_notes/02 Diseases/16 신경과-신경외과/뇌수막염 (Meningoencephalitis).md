@@ -5,10 +5,7 @@ aliases:
 - disease
 계통: 신경과-신경외과
 분류:
-- 신경과-신경외과
-- Neurology
-- Neurology/Neurosurgery
-- Brain Infections
+- 뇌수막염
 CC:
 - 발열
 - 두통

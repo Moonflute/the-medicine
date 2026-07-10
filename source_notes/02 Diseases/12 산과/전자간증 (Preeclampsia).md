@@ -5,7 +5,6 @@ aliases:
 - disease
 계통: 산과
 분류:
-- 산과
 - 임신 고혈압
 CC:
 - 두통

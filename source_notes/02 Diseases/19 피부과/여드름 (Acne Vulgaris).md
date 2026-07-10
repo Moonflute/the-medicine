@@ -6,7 +6,6 @@ aliases:
 계통: 피부과
 분류:
 - 피부과
-- 피지샘 및 땀샘 질환
 CC:
 - 피부 변화
 preprocessing_required: x

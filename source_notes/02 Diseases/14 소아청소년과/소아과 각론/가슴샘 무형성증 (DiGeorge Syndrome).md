@@ -6,11 +6,8 @@ aliases:
 - disease
 계통: 소아청소년과
 분류:
-- 소아청소년과
-- 소아과 각론
-- Pediatrics
-- Immunology
-- Genetics
+- 소아과각론
+- 면역계
 CC:
 - 경련
 - 발달 지연

@@ -5,11 +5,8 @@ aliases:
 - disease
 계통: 소아청소년과
 분류:
-- 소아청소년과
-- 소아과 각론
-- Pediatrics
-- Allergy
-- Otolaryngology
+- 소아과각론
+- 호흡기
 CC:
 - 비폐색
 - 콧물/코막힘

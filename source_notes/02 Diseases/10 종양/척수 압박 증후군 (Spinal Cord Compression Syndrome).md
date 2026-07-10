@@ -3,7 +3,8 @@ aliases: []
 유형:
 - disease
 계통: 종양내과
-분류: []
+분류:
+- 종양내과
 CC:
 - 허리 통증
 preprocessing_required: x

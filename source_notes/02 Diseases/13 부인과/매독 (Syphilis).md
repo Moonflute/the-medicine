@@ -6,11 +6,6 @@ aliases:
 계통: 부인과
 분류:
 - 부인과
-- 외과
-- 산과
-- 내/외과적합병증
-- 감염
-- TORCH
 CC:
 - 피부 발진
 preprocessing_required: x

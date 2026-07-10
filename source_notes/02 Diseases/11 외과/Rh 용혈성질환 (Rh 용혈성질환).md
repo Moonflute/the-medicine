@@ -6,9 +6,6 @@ aliases:
 계통: 외과
 분류:
 - 외과
-- 산과
-- 내/외과적합병증
-- 혈액
 CC:
 - 황달
 preprocessing_required: x

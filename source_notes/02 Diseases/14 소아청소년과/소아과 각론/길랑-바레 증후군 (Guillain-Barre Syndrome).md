@@ -5,10 +5,8 @@ aliases:
 - disease
 계통: 소아청소년과
 분류:
-- 소아청소년과
-- 소아과 각론
-- Pediatrics
-- Neurology
+- 소아과각론
+- 신경계
 CC:
 - 근력/감각이상
 - 저림
