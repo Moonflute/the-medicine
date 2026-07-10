@@ -246,6 +246,7 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
   const toc = getSpecialtyToc(slug);
   const grouped = buildGroups(notes, specialtyLabel, buildTocOrder(toc));
   const specialtyOverviewNote = grouped.find((group) => group.title === specialtyLabel)?.overviewNote;
+  const visibleGroups = grouped.filter((group) => !(group.title === specialtyLabel && group.secondLevel.length === 0));
   const roadmap = getSpecialtyRoadmap(slug);
 
   return (
@@ -269,7 +270,7 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
       {roadmap ? <SpecialtyRoadmapSection roadmap={roadmap} /> : null}
 
       <div className="space-y-5">
-        {grouped.map((group) => (
+        {visibleGroups.map((group) => (
           <section key={group.title} className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm">
             <div className="mb-4 flex items-center gap-3">
               <div className="h-px flex-1 bg-stone-200" />
