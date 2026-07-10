@@ -34,6 +34,37 @@ function displayTitle(section: DiseaseSection, view: ViewKey) {
   return section.title;
 }
 
+function getPatientEducationDetailLines(lines: string[]) {
+  const result: string[] = [];
+  let block: string[] = [];
+
+  function flushBlock() {
+    if (block.length === 0) return;
+    const isRecommendationBlock = block.some((line) => line.trim().startsWith("="));
+    if (!isRecommendationBlock) result.push(...block);
+    block = [];
+  }
+
+  for (const line of lines) {
+    if (line.trim() === "---") {
+      flushBlock();
+      continue;
+    }
+
+    if (line.trim() === "") {
+      flushBlock();
+      if (result.length > 0 && result[result.length - 1] !== "") result.push("");
+      continue;
+    }
+
+    block.push(line);
+  }
+
+  flushBlock();
+  while (result[result.length - 1] === "") result.pop();
+  return result;
+}
+
 function SectionContent({
   section,
   view,
@@ -48,18 +79,21 @@ function SectionContent({
   const isOutpatientMatcher = view === "outpatient" && section.title.includes("\uD658\uC790\uAD50\uC721");
 
   if (isOutpatientMatcher) {
+    const detailLines = getPatientEducationDetailLines(section.content);
     return (
       <div className="mt-3 space-y-4">
-        <details className="rounded-md border border-slate-200 bg-slate-50/70">
-          <summary className="cursor-pointer px-3 py-2 text-sm font-medium text-slate-700 transition hover:text-slate-950">
-            {"\uC0C1\uC138"}
-          </summary>
-          <RichTextLines
-            lines={section.content}
-            className="border-t border-slate-200 px-3 py-3 text-sm leading-6 text-slate-700"
-            wikiLinks={diseaseLinks}
-          />
-        </details>
+        {detailLines.length > 0 ? (
+          <details className="rounded-md border border-slate-200 bg-slate-50/70">
+            <summary className="cursor-pointer px-3 py-2 text-sm font-medium text-slate-700 transition hover:text-slate-950">
+              {"\uC0C1\uC138"}
+            </summary>
+            <RichTextLines
+              lines={detailLines}
+              className="border-t border-slate-200 px-3 py-3 text-sm leading-6 text-slate-700"
+              wikiLinks={diseaseLinks}
+            />
+          </details>
+        ) : null}
         <ChiefComplaintRecommendationPicker recommendations={note.recommendations} />
       </div>
     );
