@@ -11,10 +11,19 @@ aliases:
 상품명:
   - "erythromycin"
 용량:
-  - "-"
+  - '성인 경구 일반 감염: 250 mg every 6 hours 또는 500 mg every 12 hours; 중증도에 따라 최대 4 g/day'
+  - '1 g/day를 초과하는 경우 1일 2회 투여는 권장되지 않으며, 감염 종류별 권장 기간을 확인'
 related_diseases:
-  - "-"
+  - '연쇄구균성 인두염·편도염'
+  - '감수성 호흡기 감염'
+  - '백일해'
+  - '비뇨생식기 클라미디아 감염'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Erythromycin base tablets | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bceb1fe2-e40b-4d18-b9e9-0bcd55ec7ab6'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 에리스로마이신 (erythromycin)
@@ -55,7 +64,7 @@ sources_ref: "openFDA drug label API (US)"
 - QT 연장
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 배양 결과가 나오면 가능한 de-escalation 또는 중단 시점을 같이 판단한다.
 - 알레르기 병력, 신기능, 간기능, C. difficile 위험을 같이 본다.
 - 체온, 백혈구, CRP, 배양 결과, 임상적 호전 여부를 함께 본다.

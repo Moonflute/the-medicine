@@ -11,10 +11,20 @@ aliases:
 상품명:
   - "Rituxan Hycela"
 용량:
-  - "-"
+  - '류마티스관절염: methotrexate 병용으로 1,000 mg IV를 2주 간격으로 2회 투여(1 course); 이후 임상평가에 따라 보통 24주 간격, 최소 16주 이전 재투여 금지'
+  - '림프종·CLL·GPA/MPA·천포창은 적응증별 체표면적 기반 또는 별도 regimen을 사용하므로 해당 허가문서 확인'
 related_diseases:
-  - "-"
+  - '류마티스관절염'
+  - '비호지킨 B세포 림프종'
+  - '만성 림프구성 백혈병'
+  - '다발혈관염 동반 육아종증·현미경적 다발혈관염'
+  - '중등도-중증 심상성 천포창'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed RITUXAN (rituximab) injection | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b172773b-3905-4a1c-ad95-bab4b6126563&version=36'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 리툭시맙 (rituximab)
@@ -41,6 +51,9 @@ sources_ref: "openFDA drug label API (US)"
 
 #### 금기증
 
+- 미국 RITUXAN 허가문서상 별도 명시된 절대 금기 없음
+- 치명적 주입반응, HBV 재활성화, PML 등 boxed warning과 투여 전 선별을 별도로 확인
+
 #### 상호작용
 - 병용약이 많다면 CYP 대사, 진정, 출혈, 신기능 영향 축을 먼저 점검한다.
 
@@ -51,7 +64,7 @@ sources_ref: "openFDA drug label API (US)"
 - 혈액학적 이상
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 

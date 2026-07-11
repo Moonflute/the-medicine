@@ -15,6 +15,11 @@ aliases:
 related_diseases:
   - "저칼슘혈증"
   - "고칼륨혈증"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed CALCIUM GLUCONATE (calcium gluconate) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=787603c6-3f50-473a-8e3b-71dcf6d86964'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 글루콘산칼슘 (calcium gluconate)
@@ -62,7 +67,7 @@ related_diseases:
 - extravasation 시 조직 손상
 - hypercalcemia
 
-#### 주의
+#### 모니터링 및 주의
 - ECG와 임상 반응을 보며 재투여 여부를 판단합니다.
 - 고칼륨혈증에서는 insulin/dextrose, β2 agonist, potassium removal 전략을 함께 써야 합니다.
 - 혈관 외 유출을 주의하고, 반복 투여 시 calcium 수치를 추적합니다.

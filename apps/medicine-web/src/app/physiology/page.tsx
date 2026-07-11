@@ -1,4 +1,4 @@
-import { DomainNoteCard } from "@/components/domain-note-card";
+﻿import { DomainNoteCard } from "@/components/domain-note-card";
 import { getPhysiologyNotes } from "@/lib/webdb";
 
 export default function PhysiologyPage() {

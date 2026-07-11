@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "BACLOFEN"
 용량:
-  - "-"
+  - '성인 경구 적정 예: 5 mg 1일 3회 3일 → 10 mg 1일 3회 3일 → 15 mg 1일 3회 3일 → 20 mg 1일 3회 3일'
+  - '최적 반응의 최소 용량을 사용하고 최대 80 mg/day; 갑작스러운 중단을 피하고 신기능에 따라 보수적으로 조정'
 related_diseases:
-  - "-"
+  - '다발성경화증 관련 경직'
+  - '척수질환 관련 경직'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Baclofen tablets | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c87e116-871d-46b8-897b-fc27a17b988d&version=3'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 박로펜 (baclofen)
@@ -41,6 +48,8 @@ sources_ref: "openFDA drug label API (US)"
 
 #### 금기증
 
+- Baclofen 또는 제제 구성성분에 대한 과민반응
+
 #### 상호작용
 - 병용약이 많다면 CYP 대사, 진정, 출혈, 신기능 영향 축을 먼저 점검한다.
 
@@ -51,7 +60,7 @@ sources_ref: "openFDA drug label API (US)"
 - 근력저하
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 

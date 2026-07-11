@@ -14,8 +14,16 @@ aliases:
 용량:
   - "250-500mg Tab. 1일 2회."
 related_diseases:
-  - "-"
+  - '복잡성 요로감염'
+  - '감염성 설사'
+  - '탄저병 노출 후 예방·치료'
+  - '페스트'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed CIPROFLOXACIN (Ciprofloxacin) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=348e810c-e572-f3d2-e063-6394a90a0855'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 시프로플록사신 (ciprofloxacin)
@@ -55,7 +63,7 @@ sources_ref: "openFDA drug label API (US)"
 - 점안 시: 화끈거림, 불편감, 각막 궤양 환자의 백색 결정 침전물, 눈꺼풀 딱지, 가려움, 결막 충혈, 입안의 쓴맛.
 - 기타: 각막 염색, 각막염, 눈꺼풀 부종, 눈물 흘림, 광과민성, 시력 저하.
 
-#### 주의
+#### 모니터링 및 주의
 - 안구 내 직접 주사 금지.
 - 전신 투여 시 아나필락시스 등 심각한 과민반응 주의.
 - 점안액 사용 시 콘택트렌즈 제거 필요.

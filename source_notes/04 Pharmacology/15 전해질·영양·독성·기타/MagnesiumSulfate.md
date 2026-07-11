@@ -11,10 +11,20 @@ aliases:
 상품명:
   - "Magnesium Sulfate in Dextrose"
 용량:
-  - "-"
+  - '부하 용량(Loading dose): 15분간 4~6g 투여합니다.'
+  - '유지 용량(Maintenance dose): 시간당 1~2g 투여합니다.'
+  - '최대 용량: 24시간 동안 30~40g을 초과하지 않습니다.'
+  - '신장 기능 저하 환자: 부하 용량 4g 후 시간당 1g 유지하며, 48시간 동안 20g을 초과하지 않습니다.'
 related_diseases:
-  - "-"
+  - '저마그네슘혈증'
+  - '전자간증·자간증의 경련 예방·치료'
+  - 'Torsades de pointes'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed MAGNESIUM SULFATE (Magnesium Sulfate) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d4b5863a-efb9-4551-a9ad-2b06e8666d87'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 황산마그네슘 (magnesium sulfate)
@@ -62,7 +72,7 @@ sources_ref: "openFDA drug label API (US)"
 - 신경근육계: 심부건 반사 소실, 이완성 마비
 - 대사/기타: 저칼슘혈증, 안면 홍조, 발한, 폐부종
 
-#### 주의
+#### 모니터링 및 주의
 - 마그네슘 독성 모니터링: 호흡 억제, 심부건 반사 소실 등을 관찰하며, 필요 시 칼슘 제제를 즉시 사용할 수 있도록 준비합니다.
 - 태아/신생아 독성: 5~7일 이상의 장기 투여 시 태아의 저칼슘혈증 및 골격 이상 위험이 있습니다.
 - 당뇨 환자 주의: 포도당(dextrose) 함유 제제이므로 혈당 상승 위험이 있습니다.

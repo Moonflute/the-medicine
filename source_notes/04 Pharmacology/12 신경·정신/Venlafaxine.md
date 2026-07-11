@@ -11,7 +11,9 @@ aliases:
 상품명:
   - "Venlafaxine"
 용량:
-  - "-"
+  - '초기 권장량은 75 mg/day이며, 2~3회 분할 투여한다.'
+  - '내약성에 따라 150 mg/day까지 증량 가능하며, 필요 시 최대 225 mg/day까지 증량할 수 있다.'
+  - '증량 시 최소 4일 이상의 간격을 두고 75 mg/day 단위로 조절한다.'
 related_diseases:
   - "우울장애"
 sources_ref: "openFDA drug label API (US)"

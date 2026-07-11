@@ -9,12 +9,20 @@ aliases:
   - "oxytocin"
   - "옥시토신"
 상품명:
-  - "GUNA-GERIATRICS"
+  - 'Pitocin'
 용량:
-  - "-"
+  - '분만 유도·촉진: 1-2 mU/min IV로 시작, 1-2 mU/min 이하 단위로 점진 증량; 주입펌프와 지속 태아심박·자궁수축 감시 하 병원에서만 시행'
+  - '산후 자궁출혈: 10-40 units를 수액 1,000 mL에 혼합해 자궁이완이 조절되는 속도로 IV; 태반 만출 후 10 units IM도 허가문서에 제시'
 related_diseases:
-  - "-"
+  - '의학적 적응이 있는 분만 유도·촉진'
+  - '산후 자궁이완성 출혈'
+  - '불완전·불가피 유산 보조치료'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Oxytocin injection | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d16a48c5-6b71-40a0-bcda-204f043fe832'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 옥시토신 (oxytocin)
@@ -41,6 +49,9 @@ sources_ref: "openFDA drug label API (US)"
 
 #### 금기증
 
+- 질식분만이 금기인 중대한 아두골반불균형, 불리한 태위, 전치태반·전치혈관, 제대탈출 등
+- 분만이 임박하지 않은 태아곤란 또는 과도한 자궁수축 위험 상황
+
 #### 상호작용
 - 병용약이 많다면 CYP 대사, 진정, 출혈, 신기능 영향 축을 먼저 점검한다.
 
@@ -49,7 +60,7 @@ sources_ref: "openFDA drug label API (US)"
 - 두통
 - 혈전 위험 또는 자궁수축 과다
 
-#### 주의
+#### 모니터링 및 주의
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 

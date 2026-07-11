@@ -1,4 +1,4 @@
-﻿export type DiseaseSection = {
+export type DiseaseSection = {
   title: string;
   content: string[];
 };
@@ -61,7 +61,17 @@ export type SearchEntry = {
   title: string;
   category: string;
   aliases: string[];
+  keywords: string[];
+  quickSummary: string;
+  priority?: string;
   href: string;
+};
+
+export type ContentMeta = {
+  reviewedAt: string;
+  reviewStatus: "draft" | "reviewed" | "verified" | string;
+  guidelineYear: string;
+  sources: SkillSource[];
 };
 
 export type DomainNote = {
@@ -77,6 +87,7 @@ export type DomainNote = {
   summary: string[];
   sections: DiseaseSection[];
   updatedAt: string;
+  contentMeta?: ContentMeta;
   drugMeta?: {
     type: string;
     categoryPath: string;
@@ -88,6 +99,11 @@ export type DomainNote = {
     brands: string[];
     doses: string[];
     relatedDiseases: string[];
+    indications: string[];
+    contraindications: string[];
+    interactions: string[];
+    adverseEffects: string[];
+    monitoring: string[];
     profile: string;
   };
 };
@@ -122,6 +138,31 @@ export type ChiefComplaintCategorySummary = {
   count: number;
 };
 
+export type ClinicalRelation = {
+  sourceType: string;
+  sourceId: string;
+  sourceTitle: string;
+  sourceHref: string;
+  relation: string;
+  targetType: string;
+  targetId: string;
+  targetTitle: string;
+  targetHref: string;
+  provenance: "frontmatter" | "section" | "wikilink" | "generated" | string;
+  evidence: string;
+};
+
+export type ClinicalRelationIndex = {
+  generatedAt: string;
+  source: string;
+  nodeCount: number;
+  relationCount: number;
+  explicitRelationCount: number;
+  generatedRelationCount: number;
+  brokenTargetCount: number;
+  unresolvedReferenceCount: number;
+  relations: ClinicalRelation[];
+};
 export type TermLink = {
   term: string;
   href: string;
@@ -143,6 +184,7 @@ export type SkillSource = {
 export type ClinicalSkill = {
   id: string;
   name: string;
+  aliases: string[];
   categoryId: string;
   categoryName: string;
   summary: string[];

@@ -16,6 +16,11 @@ aliases:
 related_diseases:
   - "녹내장"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed LATANOPROST (LATANOPROST) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be74d517-7f73-a74c-e053-2a95a90a3819'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 라타노프로스트 (latanoprost)
@@ -54,7 +59,7 @@ sources_ref: "openFDA drug label API (US)"
 - 안과적 증상: 홍채 색소 침착 증가, 속눈썹 변화(길이, 두께, 색상 증가), 결막 충혈, 안구 자극감(따가움, 이물감), 점상 각막염, 가려움증, 시야 흐림
 - 전신적 증상: 상기도 감염, 근육통, 관절통, 발진, 두통, 어지러움, 천식 악화
 
-#### 주의
+#### 모니터링 및 주의
 - 홍채 색소 침착: 홍채의 멜라닌 함량 증가로 인해 홍채 색이 갈색으로 변할 수 있으며, 이는 대개 영구적이다.
 - 안구 주위 조직 변화: 눈꺼풀 피부의 색소 침착이나 속눈썹 변화가 나타날 수 있으며, 이는 가역적일 수 있다.
 - 염증 및 부종: 포도막염, 홍채염 등 안구 내 염증 병력이 있는 환자에게는 주의하여 사용하며, 황반부종(낭포성 황반부종 포함) 발생 가능성이 있으므로 주의가 필요하다.

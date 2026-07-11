@@ -11,12 +11,18 @@ aliases:
 상품명:
   - "SAVAYSA"
 용량:
-  - "-"
+  - '비판막성 심방세동: CrCl >50-95 mL/min이면 60 mg 경구 1일 1회, CrCl 15-50 mL/min이면 30 mg 1일 1회; CrCl >95 mL/min에서는 사용하지 않음'
+  - 'DVT/PE: 비경구 항응고제 5-10일 투여 후 60 mg 1일 1회; CrCl 15-50 mL/min, 체중 ≤60 kg 또는 특정 P-gp 억제제 병용 시 30 mg 1일 1회'
 related_diseases:
-  - "심방세동"
-  - "심부정맥혈전증"
-  - "폐색전증"
+  - '비판막성 심방세동의 뇌졸중·전신색전증 예방'
+  - '심부정맥혈전증'
+  - '폐색전증'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed SAVAYSA (edoxaban) tablets | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e77d3400-56ad-11e3-949a-0800200c9a66'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 에독사반 (edoxaban)
@@ -57,7 +63,7 @@ sources_ref: "openFDA drug label API (US)"
 - 주요 부작용: 출혈, 빈혈.
 - 기타: 발진, 간 기능 검사 이상.
 
-#### 주의
+#### 모니터링 및 주의
 - 출혈 위험: 중증 및 치명적 출혈 가능성이 있으므로 출혈 징후를 상시 관찰해야 함.
 - 신기능: CrCL > 95 mL/min인 NVAF 환자에게는 와파린 대비 뇌졸중 위험 증가로 사용 권장하지 않음.
 - 기계적 심장 판막, 중등도~중증 승모판 협착증, 삼중 양성 항인지질 증후군 환자에게는 사용 권장하지 않음.

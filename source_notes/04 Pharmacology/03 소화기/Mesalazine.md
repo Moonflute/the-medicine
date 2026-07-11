@@ -16,6 +16,11 @@ aliases:
   - "제형별 상이"
 related_diseases:
   - "궤양성 대장염"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Mesalamine delayed-release tablets | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9703f92d-1d15-4376-8b2b-51502c266012'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 메살라진 (mesalazine)
@@ -62,7 +67,7 @@ related_diseases:
 - 드물게 interstitial nephritis
 - 드물게 pancreatitis, myocarditis, pericarditis
 
-#### 주의
+#### 모니터링 및 주의
 - 시작 전과 치료 중 creatinine, eGFR을 주기적으로 확인합니다.
 - 증상이 악화되면 단순 flare인지 mesalazine intolerance syndrome인지 구분해야 합니다.
 - 제형에 따라 방출 위치가 달라 병변 위치와 맞지 않으면 효과가 떨어질 수 있습니다.

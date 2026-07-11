@@ -14,8 +14,13 @@ aliases:
 용량:
   - "15-30mg Tab. 1일 1회."
 related_diseases:
-  - "-"
+  - '제2형 당뇨병'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed PIOGLITAZONE (Pioglitazone) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72b46a1e-d9ea-4a47-95ef-5eae96ef1e7f'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 피오글리타존 (pioglitazone)
@@ -57,7 +62,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔한 부작용: 상기도 감염, 두통, 부비동염, 근육통, 인두염
 - 기타: 체중 증가, 부종, 저혈당(병용 시)
 
-#### 주의
+#### 모니터링 및 주의
 - 울혈성 심부전: 체액 저류를 유발하거나 악화시킬 수 있으므로 증상을 면밀히 관찰해야 합니다.
 - 간 기능: 투여 전 간 효소 수치를 확인하며, 간 손상 징후 발생 시 즉시 중단하고 원인을 조사해야 합니다.
 - 저혈당: 인슐린이나 인슐린 분비 촉진제와 병용 시 저혈당 위험이 증가하므로 병용 약물의 용량 조절이 필요할 수 있습니다.

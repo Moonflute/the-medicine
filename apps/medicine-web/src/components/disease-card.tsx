@@ -1,14 +1,12 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import Link from "next/link";
-import { Bookmark, BookmarkCheck } from "lucide-react";
 import { DiseaseSectionIcon } from "@/components/disease-section-icon";
 import type { DiseaseNote, TermLink } from "@/lib/webdb";
 import { RichTextLines } from "@/components/rich-text-lines";
+import { ReviewSaveButton } from "@/components/review-save-button";
 import { formatKoreanDate } from "@/lib/format";
-
-const STORAGE_KEY = "medicine-web-review";
 
 function stripEditorialLines(lines: string[]) {
   const cleaned: string[] = [];
@@ -16,57 +14,18 @@ function stripEditorialLines(lines: string[]) {
 
   for (const line of lines) {
     const trimmed = line.trim();
-
     if (/^last updated\b/i.test(trimmed)) {
       skippingUpdateBlock = true;
       continue;
     }
-
     if (skippingUpdateBlock) {
-      if (/^\d{4}[-./]/.test(trimmed)) {
-        continue;
-      }
-
+      if (/^\d{4}[-./]/.test(trimmed)) continue;
       skippingUpdateBlock = false;
     }
-
     cleaned.push(line);
   }
-
   return cleaned;
 }
-
-function useBookmarks() {
-  const [ids, setIds] = useState<string[]>(() => {
-    if (typeof window === "undefined") return [];
-    const raw = window.localStorage.getItem(STORAGE_KEY);
-    if (!raw) return [];
-    try {
-      return JSON.parse(raw) as string[];
-    } catch {
-      window.localStorage.removeItem(STORAGE_KEY);
-      return [];
-    }
-  });
-
-  const api = useMemo(
-    () => ({
-      ids,
-      has(id: string) {
-        return ids.includes(id);
-      },
-      toggle(id: string) {
-        const next = ids.includes(id) ? ids.filter((value) => value !== id) : [...ids, id];
-        setIds(next);
-        window.localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
-      },
-    }),
-    [ids],
-  );
-
-  return api;
-}
-
 function getSectionTone(title: string) {
   const normalized = title.toLowerCase();
 
@@ -107,10 +66,20 @@ export function DiseaseCard({
   hideOverview?: boolean;
 }) {
   const expanded = !compact;
-  const bookmarks = useBookmarks();
   const overview = note.overview?.slice(0, compact ? 3 : 6) ?? [];
   const lastUpdated = formatKoreanDate(note.updatedAt);
   const hrefByTerm = useMemo(() => new Map(ccLinks.map((item) => [item.term, item.href])), [ccLinks]);
+  const reviewItem = useMemo(
+    () => ({
+      type: "disease" as const,
+      id: note.slug,
+      title: note.title,
+      href: `/disease/${note.slug}`,
+      category: note.specialty,
+      summary: note.definition || note.overview?.[0] || "",
+    }),
+    [note],
+  );
 
   return (
     <article className="surface overflow-hidden">
@@ -122,15 +91,7 @@ export function DiseaseCard({
             {note.definition ? <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-700">{note.definition}</p> : null}
             {!compact ? <p className="mt-3 text-xs text-slate-500">Last updated {lastUpdated}</p> : null}
           </div>
-          <button
-            type="button"
-            onClick={() => bookmarks.toggle(note.slug)}
-            className="inline-flex h-10 w-10 shrink-0 items-center justify-center border border-slate-300 bg-white text-slate-700 hover:border-teal-500 hover:text-teal-700"
-            style={{ borderRadius: 8 }}
-            aria-label="Toggle review bookmark"
-          >
-            {bookmarks.has(note.slug) ? <BookmarkCheck className="h-5 w-5" /> : <Bookmark className="h-5 w-5" />}
-          </button>
+          <ReviewSaveButton item={reviewItem} trackView={!compact} compact />
         </div>
 
         {note.chiefComplaints.length > 0 ? (
@@ -152,7 +113,7 @@ export function DiseaseCard({
 
       {!hideOverview && overview.length > 0 ? (
         <div className="border-b border-slate-200 bg-teal-50/60 p-5 sm:p-6">
-          <div className="mb-3 text-sm font-semibold text-teal-900">Overview</div>
+          <div className="mb-3 text-sm font-semibold text-teal-900">Quick reference</div>
           <RichTextLines lines={overview} className="space-y-2.5" termLinks={ccLinks} wikiLinks={diseaseLinks} />
         </div>
       ) : null}

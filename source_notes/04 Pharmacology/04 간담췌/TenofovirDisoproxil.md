@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "Tenofovir Disoproxil Fumarate"
 용량:
-  - "-"
+  - '성인 및 35 kg 이상 청소년의 HIV-1 또는 만성 B형간염: tenofovir DF 300 mg 경구 1일 1회, 식사와 무관'
+  - 'CrCl 30-49 mL/min: 300 mg 48시간마다; CrCl 10-29: 72-96시간마다; 혈액투석: 7일마다 또는 누적 투석 약 12시간 후'
 related_diseases:
-  - "B형간염"
+  - '만성 B형간염'
+  - 'HIV 감염'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Tenofovir Disoproxil Fumarate | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08a30772-02fc-4f63-e063-6394a90afd43'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 테노포비르 디소프록실 (tenofovir disoproxil)
@@ -49,7 +56,7 @@ sources_ref: "openFDA drug label API (US)"
 - 젖산산증 드묾
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 

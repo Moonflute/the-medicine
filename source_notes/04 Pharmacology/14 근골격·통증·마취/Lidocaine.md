@@ -14,8 +14,14 @@ aliases:
 용량:
   - "제형·투여 경로별로 크게 다름"
 related_diseases:
-  - "-"
+  - '국소마취'
+  - '심실성 부정맥'
 sources_ref: "DailyMed official label (lidocaine injection; Xylocaine injection; lidocaine topical cream); 식약처 e약은요는 참고"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed LIDOCAINE (Lidocaine) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9dc3059c-3a3d-5810-e053-2a95a90ab0ba'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 리도카인 (lidocaine)
@@ -62,7 +68,7 @@ sources_ref: "DailyMed official label (lidocaine injection; Xylocaine injection;
 - 심혈관계: 저혈압, 서맥, 전도 장애, 부정맥, 심정지
 - 기타: 주사 부위 반응, 외용 부위 자극, 국소마취제 전신독성(LAST)
 
-#### 주의
+#### 모니터링 및 주의
 - 과량 투여 및 혈관 내 오주입으로 인한 국소마취제 전신독성(LAST) 발생을 가장 주의해야 함
 - 반복 투여 또는 고농도 사용 시 신경계 및 심혈관계 징후를 면밀히 모니터링함
 - 간 기능 저하, 심부전, 고령, 저체중 환자는 약물 축적 위험을 고려하여 용량을 조절함

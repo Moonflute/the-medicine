@@ -11,10 +11,18 @@ aliases:
 상품명:
   - "Sulfasalazine"
 용량:
-  - "-"
+  - '성인 류마티스관절염: 2 g/day를 2회 분할; 위장관 불내성을 줄이기 위해 0.5-1 g/day로 시작해 증량, 12주 반응 불충분 시 최대 3 g/day 고려'
+  - '성인 활동성 궤양성 대장염: 3-4 g/day를 8시간 이내 간격으로 분할; 유지 2 g/day'
 related_diseases:
-  - "류마티스관절염"
+  - '류마티스관절염'
+  - '궤양성 대장염'
+  - '다관절형 소아 특발성 관절염'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Sulfasalazine delayed-release tablets | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=257cee60-b68f-4c2b-b57d-8e4d73d17e09'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 설파살라진 (sulfasalazine)
@@ -52,7 +60,7 @@ sources_ref: "openFDA drug label API (US)"
 - 감염 위험
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 

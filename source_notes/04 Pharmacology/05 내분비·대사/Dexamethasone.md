@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "-"
 용량:
-  - "-"
+  - '경구 초기 총 0.75-9 mg/day; 질환 중증도와 반응에 따라 개별화'
+  - '반응 후 적절한 간격으로 감량하여 임상 반응을 유지하는 최소 유효 용량 사용'
 related_diseases:
-  - "-"
+  - '염증성 질환'
+  - '뇌부종'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Dexamethasone Tablets | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bfaa71cb-e517-8d94-f64b-8cdbf7b8fbf2'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 덱사메타손 (dexamethasone)
@@ -56,7 +63,7 @@ sources_ref: "openFDA drug label API (US)"
 - 부신축 억제
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 장기 추적이 필요한 경우가 많아 검사 수치와 생활습관 개입을 함께 본다.
 - 저혈당, 체중 변화, 전해질 이상, 골대사 영향 같은 class effect를 같이 평가한다.
 - 혈당, HbA1c, 체중, 신기능, 전해질, 호르몬 수치를 적응증에 맞게 추적한다.

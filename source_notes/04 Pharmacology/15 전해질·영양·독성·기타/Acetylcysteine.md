@@ -13,12 +13,18 @@ aliases:
 용량:
   - "이 약은 주사용염화나트륨용액, 흡입용염화나트륨용액, 주사용멸균증류수, 흡입용멸균증류수를 사용하여 더 낮은 농도로 희석하여 사용할 수 있습니다."
 related_diseases:
-  - "-"
+  - 'Acetaminophen 과량투여'
+  - '점액 정체성 호흡기질환'
 sources_ref: "식약처 e약은요(의약품개요정보) API getDrbEasyDrugList; 국내 허가는 의약품안전나라로 재확인"
 nedrug_item_seq: "198600267"
 nedrug_product_name: "누코미트액(아세틸시스테인)"
 nedrug_entp_name: "(주)셀트리온제약"
 easy_drug_update_de: "2026-04-28"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed ACETYLCYSTEINE (Acetylcysteine) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5558a5f5-e821-473b-7d8a-5d33d09f0586'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 아세틸시스테인 (acetylcysteine)
@@ -61,7 +67,7 @@ easy_drug_update_de: "2026-04-28"
 - 소화기계: 구역, 구토, 식욕부진, 구내염
 - 기타: 혈담, 비루, 졸음, 흉부압박감, 유황취
 
-#### 주의
+#### 모니터링 및 주의
 - 기관지천식, 호흡기능부전 환자, 임부, 수유부, 소아, 고령자는 투여 전 전문가와 상의
 - 주사제 또는 점안제로 사용 금지
 - 분무요법 후 안면 마스크 밀착 부위는 물로 세척하여 잔여물 제거

@@ -14,12 +14,18 @@ aliases:
 용량:
   - "15-30mL Syr. 1일 1-2회."
 related_diseases:
-  - "-"
+  - '변비'
+  - '간성뇌증'
 sources_ref: "식약처 e약은요(의약품개요정보) API getDrbEasyDrugList; 국내 허가는 의약품안전나라로 재확인"
 nedrug_item_seq: "201209553"
 nedrug_product_name: "장쾌락시럽(락툴로오스농축액)"
 nedrug_entp_name: "한미약품(주)"
 easy_drug_update_de: "2021-10-01"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed LACTULOSE (Lactulose) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ae4b6da-44df-419a-9f2b-8c4d79f635c8'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 락툴로오스 (lactulose)
@@ -67,7 +73,7 @@ easy_drug_update_de: "2021-10-01"
 - 기타: 식욕부진, 구역, 구토.
 - 설사 발생 시 즉시 복용을 중단하고 전문가와 상의해야 합니다.
 
-#### 주의
+#### 모니터링 및 주의
 - 당뇨병 환자는 혈당 수치 변화에 주의해야 합니다.
 - 임부, 수유부, 고령자, 체액 및 전해질 불균형 환자는 투여 전 의사와 상의하십시오.
 - 과당 불내성 환자는 주의가 필요합니다.

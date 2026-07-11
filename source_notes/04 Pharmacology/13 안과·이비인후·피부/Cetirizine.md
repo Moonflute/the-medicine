@@ -20,6 +20,11 @@ nedrug_item_seq: "199700120"
 nedrug_product_name: "세트린정(세티리진염산염)(수출명:ANTIRIZINtab)"
 nedrug_entp_name: "한국휴텍스제약(주)"
 easy_drug_update_de: "2022-08-19"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed CETIRIZINE (Cetirizine Hydrochloride) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=365cbabe-535b-4c34-852b-6cd63782e3e5'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 세티리진 (cetirizine)
@@ -66,7 +71,7 @@ easy_drug_update_de: "2022-08-19"
 - 기타: 빈맥, 부정맥, 혈압상승, 혈관부기, 광과민증, 배뇨곤란, 체중 증가
 - 복용 중단 후 반동성 가려움증이나 두드러기가 나타날 수 있음
 
-#### 주의
+#### 모니터링 및 주의
 - 신장애, 간장애, 노인 환자 투여 시 주의
 - 간질 환자 및 발작 위험군 주의
 - 전립선 비대증 등 소변고임 선행요인이 있는 환자 주의

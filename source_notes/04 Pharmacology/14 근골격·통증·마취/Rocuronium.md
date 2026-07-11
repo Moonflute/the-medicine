@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "Rocuronium Bromide"
 용량:
-  - "-"
+  - '일반 기관삽관 초기: 0.6 mg/kg IV; 마취기법과 환자 상태에 따라 0.45 mg/kg 고려'
+  - '신속연속삽관: 적절히 진정·마취된 환자에서 0.6-1.2 mg/kg IV; 반드시 진정·진통 및 환기·신경근 차단 모니터링 병행'
 related_diseases:
-  - "-"
+  - '전신마취 중 기관삽관 보조'
+  - '수술·기계환기 중 골격근 이완'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Rocuronium bromide injection | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a54a79f7-5207-43d8-a139-7d57557caa50&version=3'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 로쿠로니움 (rocuronium)
@@ -54,7 +61,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔함(≥2%): 일시적인 저혈압 및 고혈압
 - 기타: 부정맥, 빈맥, 오심, 구토, 기관지 경련, 발진, 주사 부위 부종, 악성 고열(드묾)
 
-#### 주의
+#### 모니터링 및 주의
 - 아나필락시스: 치명적일 수 있는 중증 과민반응 보고됨, 교차 반응 가능성 고려
 - 잔류 마비: 수술 후 잔류 마비 예방을 위해 충분한 회복 확인 후 발관(extubation) 권장
 - 의식 수준: 진정이나 통증 조절 효과가 없으므로 반드시 적절한 마취/진정과 병행

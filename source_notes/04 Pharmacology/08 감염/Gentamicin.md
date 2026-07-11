@@ -11,10 +11,20 @@ aliases:
 상품명:
   - "-"
 용량:
-  - "-"
+  - '정상 신기능 성인의 중증 감염: 3 mg/kg/day IV/IM을 8시간마다 3회 분할'
+  - '생명위협 감염: 최대 5 mg/kg/day를 3-4회 분할 후 가능한 빨리 3 mg/kg/day로 감량; 신기능·체중·혈중농도에 따라 조정'
 related_diseases:
-  - "-"
+  - '중증 그람음성균 감염'
+  - '패혈증'
+  - '하부 호흡기 감염'
+  - '복강내 감염'
+  - '복잡성 요로감염'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Gentamicin sulfate injection | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5113bfad-42ca-4bb8-9343-0b08c6cd03f0'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 겐타마이신 (gentamicin)
@@ -59,7 +69,7 @@ sources_ref: "openFDA drug label API (US)"
 - 크레아티닌 상승
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 배양 결과가 나오면 가능한 de-escalation 또는 중단 시점을 같이 판단한다.
 - 알레르기 병력, 신기능, 간기능, C. difficile 위험을 같이 본다.
 - 체온, 백혈구, CRP, 배양 결과, 임상적 호전 여부를 함께 본다.

@@ -1,8 +1,10 @@
 import { notFound } from "next/navigation";
 import { DomainNoteCard } from "@/components/domain-note-card";
 import { ParentPageFab } from "@/components/parent-page-fab";
+import { RelatedClinicalContent } from "@/components/related-clinical-content";
+import { ReviewSaveButton } from "@/components/review-save-button";
 import { RichTextLines } from "@/components/rich-text-lines";
-import { getPhysiologyNoteBySlug, getPhysiologyNotes } from "@/lib/webdb";
+import { getClinicalRelationsFor, getPhysiologyNoteBySlug, getPhysiologyNotes } from "@/lib/webdb";
 
 export function generateStaticParams() {
   return getPhysiologyNotes().map((note) => ({ slug: note.slug }));
@@ -13,9 +15,13 @@ export default async function PhysiologyDetailPage(props: { params: Promise<{ sl
   const note = getPhysiologyNoteBySlug(params.slug);
 
   if (!note) notFound();
+  const relations = getClinicalRelationsFor("physiology", note.id);
 
   return (
     <div className="space-y-6">
+      <div className="flex justify-end">
+        <ReviewSaveButton item={{ type: "physiology", id: note.id, title: note.title, href: `/physiology/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} />
+      </div>
       <DomainNoteCard note={note} />
       <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
         <div className="space-y-4">
@@ -27,6 +33,7 @@ export default async function PhysiologyDetailPage(props: { params: Promise<{ sl
           ))}
         </div>
       </section>
+      <RelatedClinicalContent relations={relations} />
       <ParentPageFab href="/physiology" />
     </div>
   );

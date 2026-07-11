@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "Acarbose"
 용량:
-  - "-"
+  - '초기: 25 mg 경구 1일 3회, 각 주식의 첫 한입과 함께 투여'
+  - '4-8주 간격으로 50 mg 1일 3회, 필요 시 100 mg 1일 3회까지 적정'
+  - '최대: 체중 60 kg 이하 50 mg 1일 3회; 60 kg 초과 100 mg 1일 3회'
 related_diseases:
-  - "-"
+  - '제2형 당뇨병'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Acarbose Tablets | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c445953d-c20a-4b70-8173-009bffc5777b'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 아카보스 (acarbose)
@@ -61,7 +68,7 @@ sources_ref: "openFDA drug label API (US)"
 - 기타: 간 수치 상승, 간염, 황달, 혈소판 감소증, 부종, 피부 과민반응
 - 드물게 장내 기종(pneumatosis cystoides intestinalis) 보고
 
-#### 주의
+#### 모니터링 및 주의
 - 소화기 부작용을 줄이기 위해 저용량에서 시작하여 점진적으로 증량합니다.
 - 치료 시작 및 증량 시 식후 1시간 혈당을 모니터링하고, 이후 약 3개월 간격으로 당화혈색소를 측정합니다.
 - 체중이 60kg 이하인 환자는 간 효소 수치 상승 위험이 있으므로 고용량 투여 시 주의합니다.

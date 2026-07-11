@@ -12,10 +12,17 @@ aliases:
   - "Dexmedetomidine"
   - "Dexmedetomidine in Dextrose"
 용량:
-  - "-"
+  - '성인 ICU 진정: 1 mcg/kg IV over 10 minutes loading 후 0.2-0.7 mcg/kg/hour 지속주입; 다른 진정제에서 전환 시 loading 생략 가능'
+  - '시술 진정: 1 mcg/kg over 10 minutes 후 0.6 mcg/kg/hour로 시작해 0.2-1 mcg/kg/hour 범위 적정; 고령·간기능저하 감량 고려'
 related_diseases:
-  - "-"
+  - '중환자실 삽관 환자 진정'
+  - '비삽관 시술 진정'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Dexmedetomidine injection | https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d2710f2-ee47-4114-ab5c-8dca74cdcb8d'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 덱스메데토미딘 (dexmedetomidine)
@@ -42,6 +49,9 @@ sources_ref: "openFDA drug label API (US)"
 
 #### 금기증
 
+- 미국 허가문서상 별도 명시된 절대 금기 없음
+- 중증 서맥·저혈압 위험을 고려해 지속 모니터링 및 환자별 감량
+
 #### 상호작용
 - 병용약이 많다면 CYP 대사, 진정, 출혈, 신기능 영향 축을 먼저 점검한다.
 
@@ -52,7 +62,7 @@ sources_ref: "openFDA drug label API (US)"
 - 근력저하
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 

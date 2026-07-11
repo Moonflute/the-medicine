@@ -16,6 +16,11 @@ aliases:
 related_diseases:
   - "심방세동"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed WARFARIN (Warfarin Sodium) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7fb4290-ed37-4ed3-ae51-c400191961dc'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 와파린 (warfarin)
@@ -66,7 +71,7 @@ sources_ref: "openFDA drug label API (US)"
 - 피부: 발진, 피부염, 탈모, 가려움증
 - 기타: 간염, 간 효소 수치 상승, 과민반응(아나필락시스 등)
 
-#### 주의
+#### 모니터링 및 주의
 - 출혈: 치명적인 대출혈 위험이 있으며, 특히 치료 초기 1개월 내 주의가 필요하다.
 - 조직 괴사: 드물지만 피부 괴사나 괴저가 발생할 수 있으며, 발생 시 투여 중단이 필요하다.
 - 칼시필락시스(Calciphylaxis): 치명적인 혈관 석회화가 보고된 바 있다.

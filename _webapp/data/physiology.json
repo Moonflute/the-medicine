@@ -387,7 +387,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-04-13T14:01:34.561Z"
+    "updatedAt": "2026-04-13T14:01:34.561Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "physiology:002_2 Autonomic Nervous System.md",
@@ -654,7 +660,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-04-17T17:33:07.303Z"
+    "updatedAt": "2026-04-17T17:33:07.303Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "physiology:003_3 Neurophysiology.md",
@@ -1218,7 +1230,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-04-13T14:03:02.540Z"
+    "updatedAt": "2026-04-13T14:03:02.540Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "physiology:004_4 Cardiovascular Physiology.md",
@@ -1705,7 +1723,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-04-13T14:04:05.862Z"
+    "updatedAt": "2026-04-13T14:04:05.862Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "physiology:005_5 Respiratory Physiology.md",
@@ -2138,7 +2162,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-04-13T14:04:57.893Z"
+    "updatedAt": "2026-04-13T14:04:57.893Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "physiology:006_6 Renal Physiology.md",
@@ -2577,7 +2607,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-04-13T14:05:51.398Z"
+    "updatedAt": "2026-04-13T14:05:51.398Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "physiology:007_7 Acid-Base Physiology.md",
@@ -2997,7 +3033,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-04-13T14:06:36.926Z"
+    "updatedAt": "2026-04-13T14:06:36.926Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "physiology:008_8 Gastrointestinal Physiology.md",
@@ -3286,7 +3328,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-04-13T14:07:19.139Z"
+    "updatedAt": "2026-04-13T14:07:19.139Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "physiology:009_9 Endocrine Physiology.md",
@@ -3649,6 +3697,12 @@
         ]
       }
     ],
-    "updatedAt": "2026-04-13T14:08:07.450Z"
+    "updatedAt": "2026-04-13T14:08:07.450Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   }
 ]

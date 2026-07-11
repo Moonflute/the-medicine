@@ -14,8 +14,14 @@ aliases:
 용량:
   - "0.125-0.25mg Tab. 1일 1회."
 related_diseases:
-  - "-"
+  - '심부전'
+  - '심방세동'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed DIGOXIN (DIGOXIN) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=75c99fc4-33b6-c3ce-e053-2991aa0a4d88'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 디곡신 (digoxin)
@@ -60,7 +66,7 @@ sources_ref: "openFDA drug label API (US)"
 - 심장 독성(부정맥), 위장관계 장애(오심, 구토, 복통), 중추신경계 증상(두통, 어지러움, 혼란, 환각)
 - 드물게 여성형 유방, 혈소판 감소증, 발진 등 발생 가능
 
-#### 주의
+#### 모니터링 및 주의
 - 부속 방실 전도로(WPW 증후군) 환자에서 심실세동 위험 증가함.
 - 동기능 부전 환자에서 심한 동서맥 또는 방실차단 유발 가능함.
 - 디곡신 독성(오심, 구토, 시각 장애, 부정맥 등) 위험: 고령, 저체중, 신기능 저하, 전해질 불균형(저칼륨혈증, 고칼슘혈증, 저마그네슘혈증) 시 증가함.

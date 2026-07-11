@@ -14,8 +14,13 @@ aliases:
 용량:
   - "5mg Tab. 1일 1회."
 related_diseases:
-  - "-"
+  - '알츠하이머병 치매'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed DONEPEZIL HYDROCHLORIDE (Donepezil Hydrochloride) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a085ed33-c262-44ab-e053-2a95a90a5557'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 도네페질 (donepezil)
@@ -53,7 +58,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔한 부작용: 구역, 설사, 불면, 구토, 근육 경련, 피로, 식욕 부진
 - 중대한 부작용: 서맥, 심차단 등 심혈관계 영향, 위장관 출혈, 체중 감소, 발작, 방광 유출 폐쇄
 
-#### 주의
+#### 모니터링 및 주의
 - 마취 시 석시닐콜린형 근이완 효과를 증폭시킬 수 있으므로 주의가 필요합니다.
 - 서맥이나 심차단 등 심혈관계 증상을 모니터링해야 합니다.
 - 위궤양 병력이 있거나 NSAIDs를 병용하는 환자는 위장관 출혈 징후를 면밀히 관찰해야 합니다.

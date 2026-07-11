@@ -16,6 +16,11 @@ aliases:
 related_diseases:
   - "류마티스관절염"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed METHOTREXATE (Trexall) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e942f8db-510f-44d6-acb5-b822196f5e8c'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 메토트렉세이트 (methotrexate)
@@ -62,7 +67,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔한 부작용: 구내염, 백혈구 감소, 오심, 복부 불편감
 - 기타: 탈모, 어지러움, 발진, 간 수치 상승, 폐렴, 감염, 피로감
 
-#### 주의
+#### 모니터링 및 주의
 - 골수억제: 빈혈, 백혈구 감소, 혈소판 감소 등 치명적 혈액학적 부작용 발생 가능
 - 간독성: 섬유화, 간경변 등 비가역적 간 손상 위험 (음주 시 위험 증가)
 - 폐독성: 간질성 폐렴 등 치명적 폐 질환 발생 가능

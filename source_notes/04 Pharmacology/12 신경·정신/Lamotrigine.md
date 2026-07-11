@@ -16,6 +16,11 @@ aliases:
 related_diseases:
   - "뇌전증"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed LAMOTRIGINE (Lamotrigine) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=55f41c7e-03a6-b84c-e063-6294a90a7d82'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 라모트리진 (lamotrigine)
@@ -58,7 +63,7 @@ sources_ref: "openFDA drug label API (US)"
 - 성인: 어지러움, 두통, 복시, 운동실조, 구역, 구토, 졸음, 발진
 - 소아: 감염, 구토, 발열, 설사, 복통, 떨림
 
-#### 주의
+#### 모니터링 및 주의
 - 치명적일 수 있는 중증 피부 발진(스티븐스-존슨 증후군, 독성 표피 괴사용해 등) 발생 시 즉시 투약 중단
 - 발프로산 병용 시 발진 위험 증가
 - 혈구탐식성 림프조직구증(HLH), 다기관 과민반응, 심장 전도 장애, 혈액 질환(호중구 감소증 등) 발생 가능성

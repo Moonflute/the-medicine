@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "-"
 용량:
-  - "-"
+  - '성인 시작: lithium carbonate 300 mg 경구 1일 3회; 3일 후 12시간 trough 혈중농도를 확인해 적정'
+  - '급성 조증 목표 0.8-1.2 mEq/L, 유지 목표 0.8-1.0 mEq/L; 용량은 혈중농도·신기능·수분/Na 상태·상호작용에 따라 개별화'
 related_diseases:
-  - "-"
+  - '양극성 I형 장애의 급성 조증·혼재성 삽화'
+  - '양극성 I형 장애 유지치료'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Lithium carbonate capsules | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=63b3790f-a9b5-47f4-bae1-ddf8b43c13c1'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 리튬 (lithium)
@@ -52,7 +59,7 @@ sources_ref: "openFDA drug label API (US)"
 - 약물별 특이 독성
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 진정, 낙상, 자살위험, 약물 순응도, substance use를 함께 평가한다.
 - 장기 복용 약물은 중단 증상과 taper 필요성을 항상 염두에 둔다.
 - 증상 호전뿐 아니라 진정, 체중, 대사이상, EPS, suicidality, misuse 가능성을 본다.

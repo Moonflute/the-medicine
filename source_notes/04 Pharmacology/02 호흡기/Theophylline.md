@@ -17,6 +17,11 @@ related_diseases:
   - "천식"
   - "COPD"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed THEOPHYLLINE (Theophylline (Anhydrous)) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aa80b9f4-8a5d-3e14-e053-2a95a90a8aab'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 테오필린 (theophylline)
@@ -57,7 +62,7 @@ sources_ref: "openFDA drug label API (US)"
 - 농도 20 mcg/mL 초과: 지속적 구토, 심각한 부정맥, 난치성 발작 등 독성 증상.
 - 기타: 복통, 어지러움, 떨림, 심계항진, 빈맥.
 
-#### 주의
+#### 모니터링 및 주의
 - 다음 질환 환자는 주의가 필요합니다: 활동성 소화성 궤양, 발작 질환, 부정맥(서맥 제외).
 - 테오필린 청소율을 감소시키는 요인(고령, 간질환, 심부전, 특정 약물 병용 등)이 있는 경우 독성 위험이 높으므로 주의가 필요합니다.
 - 흡연 중단 시 테오필린 대사가 변할 수 있으므로 모니터링이 필요합니다.

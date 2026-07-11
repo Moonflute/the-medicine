@@ -14,8 +14,15 @@ aliases:
 용량:
   - "250-500mg Tab. 1일 2-3회."
 related_diseases:
-  - "-"
+  - '혐기성 세균 감염'
+  - '세균성 질염'
+  - '트리코모나스증'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed METRONIDAZOLE (Metronidazole) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cfeab9e3-58b9-4890-9185-11b62904e2af'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 메트로니다졸 (metronidazole)
@@ -65,7 +72,7 @@ sources_ref: "openFDA drug label API (US)"
 - 신경계: 두통, 어지러움, 말초신경병증, 발작, 뇌병증
 - 기타: 소변 색 변화(어두운 색), 가역적 호중구 감소증, 칸디다 과증식
 
-#### 주의
+#### 모니터링 및 주의
 - 중증 피부 이상 반응(SJS, TEN, DRESS 등) 발생 시 즉시 투여 중단
 - 중추신경계 부작용(뇌병증, 말초신경병증, 발작, 무균성 뇌수막염) 발생 여부 모니터링
 - 알코올 및 프로필렌글리콜 함유 제품 섭취 금지(디설피람 유사 반응)

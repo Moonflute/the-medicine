@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Activity, FlaskConical, HeartPulse, House, Menu, Pill, Search, Stethoscope, X } from "lucide-react";
+import { Activity, BookOpenCheck, FlaskConical, HeartPulse, House, Menu, Pill, Search, Stethoscope, X } from "lucide-react";
 
 const navItems = [
   { href: "/", label: "Home", icon: House },
@@ -12,6 +12,7 @@ const navItems = [
   { href: "/drugs", label: "Drugs", icon: Pill },
   { href: "/lab-img", label: "Lab & Img", icon: FlaskConical },
   { href: "/skills", label: "Skills", icon: Stethoscope },
+  { href: "/review", label: "Review", icon: BookOpenCheck },
 ];
 
 export function AppShell({ children }: { children: React.ReactNode }) {
@@ -27,6 +28,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     if (pathname.startsWith("/drugs")) return "Pharmacology";
     if (pathname.startsWith("/lab-img")) return "Lab & Imaging";
     if (pathname.startsWith("/skills")) return "Clinical Skills";
+    if (pathname.startsWith("/review")) return "Review";
     return "The Medicine";
   }, [pathname]);
 
@@ -117,7 +119,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           </main>
 
           <nav className="sticky bottom-0 z-40 border-t border-slate-200 bg-white/95 px-3 py-2 backdrop-blur xl:hidden">
-            <div className="grid grid-cols-6 gap-1">
+            <div className="grid grid-cols-7 gap-1">
               {navItems.map((item) => {
                 const active = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
                 return (

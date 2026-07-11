@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T15:36:15.015Z",
+  "generatedAt": "2026-07-11T17:09:57.696Z",
   "sourceRoot": "source_notes",
   "outputRoot": "_webapp/data",
   "domains": {
@@ -24,7 +24,7 @@
       "source": "03 Pathology"
     },
     "labImg": {
-      "count": 109,
+      "count": 111,
       "source": "06 Lab & Img"
     },
     "skills": {
@@ -42,6 +42,12 @@
     "specialties": {
       "count": 22,
       "source": "derived from diseases"
+    },
+    "clinicalRelations": {
+      "count": 8805,
+      "explicit": 4874,
+      "generated": 3931,
+      "source": "derived from frontmatter, structured CC recommendations, and wikilinks"
     }
   }
 }

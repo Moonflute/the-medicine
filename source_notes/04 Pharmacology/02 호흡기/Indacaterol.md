@@ -15,6 +15,11 @@ aliases:
   - "75-150 mcg inhalation once daily"
 related_diseases:
   - "COPD"
+clinical_priority: tier_1
+sources:
+  - 'FDA ARCAPTA NEOHALER (indacaterol) prescribing information | https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/022383s009s010lbl.pdf'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 인다카테롤 (indacaterol)
@@ -61,7 +66,7 @@ related_diseases:
 - 저칼륨혈증
 - 두통
 
-#### 주의
+#### 모니터링 및 주의
 - 허혈성 심질환, 부정맥, uncontrolled hyperthyroidism 환자에서는 더 주의합니다.
 - 흡입기 사용법을 정확히 교육하지 않으면 효과가 크게 떨어집니다.
 - 증상 악화 시 약효 부족만 볼 것이 아니라 COPD exacerbation 여부를 따로 평가해야 합니다.

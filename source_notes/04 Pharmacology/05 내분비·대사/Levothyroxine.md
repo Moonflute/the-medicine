@@ -14,8 +14,14 @@ aliases:
 용량:
   - "25-100mcg Tab. 1일 1회 공복."
 related_diseases:
-  - "-"
+  - '갑상선기능저하증'
+  - '갑상선암의 TSH 억제요법'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed LEVOTHYROXINE SODIUM (Levothyroxine Sodium) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=55f67831-4680-edbf-e063-6294a90a1d36'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 레보티록신 (levothyroxine)
@@ -58,7 +64,7 @@ sources_ref: "openFDA drug label API (US)"
 - 소아: 가성 뇌종양, 대퇴골두 골단 분리증, 성장기 조기 골단 폐쇄 가능성
 - 과민 반응: 발진, 가려움, 두드러기 등(첨가제에 대한 반응일 수 있음)
 
-#### 주의
+#### 모니터링 및 주의
 - 과량 투여 시 심혈관계 부작용(빈맥, 부정맥, 협심증 등) 위험이 증가하므로 고령자나 심혈관 질환자는 저용량으로 시작한다.
 - 점액수종 혼수(Myxedema coma) 치료에는 경구제가 아닌 정맥 주사제를 사용해야 한다.
 - 당뇨병 환자의 경우 갑상샘 호르몬 투여로 혈당 조절이 악화될 수 있으므로 모니터링이 필요하다.

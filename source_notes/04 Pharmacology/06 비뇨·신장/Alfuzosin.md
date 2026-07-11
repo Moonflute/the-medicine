@@ -11,10 +11,16 @@ aliases:
 상품명:
   - "Alfuzosin Hydrochloride"
 용량:
-  - "-"
+  - '양성전립선비대증: 서방정 10 mg 경구 1일 1회, 매일 같은 식사 직후'
+  - '서방정은 씹거나 부수지 않음'
 related_diseases:
-  - "전립선비대증"
+  - '양성전립선비대증'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Alfuzosin ER | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=37e89394-af6e-4700-bfa8-2effba1a286b&version=2'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 알푸조신 (alfuzosin)
@@ -55,7 +61,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔한 부작용: 어지러움, 두통, 피로, 상기도 감염
 - 기타: 복통, 소화불량, 변비, 오심, 발기부전, 부종, 빈맥, 흉통, 협심증 악화, 비염, 두드러기, 혈관부종, 지속발기증(priapism)
 
-#### 주의
+#### 모니터링 및 주의
 - 기립성 저혈압 및 실신 위험: 혈압강하제나 질산염 제제와 병용 시 주의가 필요합니다.
 - 신장 기능 장애: 중증 신부전(크레아티닌 청소율 <30 mL/min) 환자는 주의해서 사용합니다.
 - 간 기능 장애: 경증 간 장애 환자에게는 주의가 필요하며, 중등도 이상은 금기입니다.

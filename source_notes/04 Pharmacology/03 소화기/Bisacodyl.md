@@ -13,12 +13,17 @@ aliases:
 용량:
   - "성인은 1일 1회 2정(10 mg)을 취침시에 복용합니다."
 related_diseases:
-  - "-"
+  - '일시적 변비'
 sources_ref: "식약처 e약은요(의약품개요정보) API getDrbEasyDrugList; 국내 허가는 의약품안전나라로 재확인"
 nedrug_item_seq: "197600483"
 nedrug_product_name: "신일비사코딜정"
 nedrug_entp_name: "신일제약(주)"
 easy_drug_update_de: "2021-12-21"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Bisacodyl 5 mg delayed-release tablet | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4fb4e630-875f-4c82-86d9-7696857e3c42'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 비사코딜 (bisacodyl)
@@ -65,7 +70,7 @@ easy_drug_update_de: "2021-12-21"
 - 어지러움, 두통, 실신
 - 혈관부종, 아나필락시스 반응
 
-#### 주의
+#### 모니터링 및 주의
 - 1주일 이상 연속 사용하지 마십시오.
 - 소아, 고령자, 황색4호 과민증 환자는 복용 전 전문가와 상의하십시오.
 - 복용 후 심한 복통이나 설사, 어지러움이 나타나면 즉시 중단하고 진료를 받으십시오.

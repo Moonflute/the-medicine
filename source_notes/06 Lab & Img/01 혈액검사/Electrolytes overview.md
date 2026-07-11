@@ -1,42 +1,83 @@
 ---
-유형: index
+유형: interpretation_hub
 검사_분류: 혈액검사
-상위_분류: Electrolytes
-검체: serum
+검체: serum 또는 plasma
+aliases:
+  - Electrolytes
+  - 전해질
+  - electrolyte panel
+clinical_priority: tier_1
+reviewed_at: 2026-07-11
+review_status: draft
+guideline_year: 2026
+sources:
+  - MedlinePlus Electrolyte Panel | https://medlineplus.gov/lab-tests/electrolyte-panel/
 ---
 
 # Electrolytes overview
 
-> Electrolytes overview : 체액의 전해질과 산-염기 균형을 평가하는 혈액검사 묶음
-> 정상범위: `Sodium`, `Potassium`, `Chloride`, `HCO3/CO2`, `Calcium`, `Magnesium`, `Phosphate`를 함께 본다
+> 전해질 이상은 결과 확인 → 증상·ECG → 체액·삼투 상태 → 약물·신장 → 원인검사의 순서로 접근한다.
 
-## 1. 개요
-- 전해질 검사는 cell membrane potential, 체액 균형, 신장 기능, 산-염기 상태를 해석하는 핵심 축이다.
-- 실전에서는 isolated value보다 패턴과 임상 맥락이 더 중요하다.
+## 1. 30초 해석 순서
 
-## 2. 하위 문서
-- [[Sodium]]
-- [[Potassium]]
-- [[Chloride]]
-- [[Bicarbonate (Total CO2)]]
-- [[Calcium]]
-- [[Magnesium]]
-- [[Phosphate]]
-- [[Comprehensive Metabolic Panel (CMP)]]
+1. 이전 값과 변화 속도를 확인하고 예상 밖 결과는 재검·검체 오류를 검토한다.
+2. 의식변화, 경련, 근력저하, 부정맥, 심전도 변화가 있는지 먼저 본다.
+3. Na 이상은 glucose 보정 필요성과 serum osmolality, 체액상태를 함께 평가한다.
+4. K 이상은 hemolysis 여부, 산염기, 신기능, Mg, 약물과 ECG를 확인한다.
+5. Ca는 albumin 영향 또는 ionized Ca를 고려하고 Mg·phosphate·PTH 맥락을 본다.
+6. 보정 속도와 목표는 급·만성, 증상, 원인에 따라 달라지므로 기관 프로토콜을 따른다.
 
-## 3. 대표 정상범위 표
-| 항목 | 하한값 | 상한값 |
-|---|---:|---:|
-| `Sodium` | `135 mmol/L` | `145 mmol/L` |
-| `Potassium` | `3.5 mmol/L` | `5.1 mmol/L` |
-| `Chloride` | `98 mmol/L` | `107 mmol/L` |
-| `HCO3 / Total CO2` | `22 mmol/L` | `29 mmol/L` |
-| `Calcium` | `8.5 mg/dL` | `10.2 mg/dL` |
-| `Magnesium` | `1.7 mg/dL` | `2.2 mg/dL` |
-| `Phosphate` | `2.5 mg/dL` | `4.5 mg/dL` |
+## 2. 검체·전처리 함정
 
-## 4. 해석의 큰 틀
-- `Sodium`는 총 body sodium보다 free water balance를 더 반영한다.
-- `Potassium`은 심장 전기생리와 직결된다.
-- `Chloride`와 `HCO3`는 산-염기 해석에서 중요하다.
-- `Calcium`, `Magnesium`, `Phosphate`는 근육, 신경, 뼈, 호르몬 대사와 밀접하다.
+- 용혈은 K, LDH 등을 가성 상승시킬 수 있다.
+- 지연 분리, fist clenching, line contamination, 수액 채혈은 결과를 왜곡할 수 있다.
+- 심한 고지혈증·고단백혈증에서는 측정법에 따라 pseudohyponatremia가 가능하다.
+- total Ca는 albumin 변화에 영향을 받으며 중증 환자에서는 ionized Ca가 더 직접적이다.
+
+## 3. 패턴별 접근
+
+### Sodium
+
+- 저Na: hypotonic인지 먼저 확인하고, urine osmolality와 urine Na를 체액상태·이뇨제 사용과 함께 해석한다.
+- 고Na: 자유수분 부족이 흔하며 섭취 불가, 신장·비신장 수분 소실, diabetes insipidus 가능성을 본다.
+
+### Potassium
+
+- 고K: hemolysis 배제, ECG, 신기능, 산증, 조직손상, ACEi/ARB·MRA·K 보충제 등을 확인한다.
+- 저K: GI loss, 이뇨제, insulin/β-agonist shift, Mg 결핍을 평가하고 urine K가 도움이 될 수 있다.
+
+### Calcium, magnesium, phosphate
+
+- 저Ca: ionized Ca 또는 albumin 맥락, Mg, phosphate, PTH, vitamin D를 확인한다.
+- 저Mg는 저K·저Ca 교정을 어렵게 하고 부정맥 위험을 높일 수 있다.
+- phosphate 이상은 신기능, 세포 이동, 영양·재급식, PTH/vitamin D 맥락을 본다.
+
+## 4. Red flags
+
+- 경련·의식저하를 동반한 Na 이상
+- K 이상과 ECG 변화, 부정맥 또는 근력마비
+- tetany, 심한 저Ca 증상 또는 QT 변화
+- 빠르게 변하는 전해질과 AKI/oliguria
+
+기관별 critical value 연락·처치 절차를 우선한다.
+
+## 5. 다음 검사와 행동
+
+- Basic metabolic panel 재확인, glucose, serum/urine osmolality, urine electrolytes
+- ECG, Mg, Ca/ionized Ca, phosphate, creatinine
+- 수액·영양·약물·투석 여부와 intake/output 확인
+- 원인 교정과 함께 과도하게 빠른 보정이 되지 않도록 serial monitoring
+
+## 6. 관련 검사
+
+- [[Sodium (Na)]]
+- [[Potassium (K)]]
+- [[Chloride (Cl)]]
+- [[Calcium (Ca)]]
+- [[Magnesium (Mg)]]
+- [[Renal overview]]
+- [[Arterial Blood Gas Analysis (ABGA)]]
+
+## 7. 출처
+
+- [MedlinePlus: Electrolyte Panel](https://medlineplus.gov/lab-tests/electrolyte-panel/)

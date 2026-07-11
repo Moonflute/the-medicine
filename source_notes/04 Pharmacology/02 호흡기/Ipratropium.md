@@ -11,11 +11,18 @@ aliases:
 상품명:
   - "Ipratropium Bromide"
 용량:
-  - "-"
+  - 'HFA 흡입제(COPD 유지): 17 mcg/actuation, 2회 흡입 1일 4회; 24시간 최대 12회 흡입'
+  - '네뷸라이저 용액: 500 mcg(2.5 mL) 1일 3-4회, 6-8시간 간격'
 related_diseases:
-  - "천식"
-  - "COPD"
+  - 'COPD'
+  - '천식'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Ipratropium Bromide HFA | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=133cc2ed-f018-4295-b84e-b24382299360&version=2'
+  - 'DailyMed Ipratropium Inhalation Solution | https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=231ae8f2-1ec9-4e0f-90a8-11d7b6222576'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 이프라트로피움 (ipratropium)
@@ -24,8 +31,7 @@ sources_ref: "openFDA drug label API (US)"
 > 호흡기 약물로, 기도 확장과 염증 조절 중 어느 축이 중심인지 구분해서 보는 것이 좋다.
 > 계통: `호흡기 > 기도 확장 > SAMA`
 > 대표 상품명(표기 기준): `Ipratropium Bromide`
-> 용량: `-`
-
+> 대표 용량: HFA 2회 흡입 1일 4회(24시간 최대 12회); 네뷸라이저 500 mcg 1일 3-4회
 ## 기전
 - 기관지 평활근 이완 또는 기도 염증 억제를 유도한다.
 
@@ -52,7 +58,7 @@ sources_ref: "openFDA drug label API (US)"
 - 구갈
 - 구강칸디다증 등 class 관련 부작용
 
-#### 주의
+#### 모니터링 및 주의
 - 흡입 technique가 틀리면 약효가 떨어지므로 교육과 재확인이 필요하다.
 - 급성 증상 완화제인지 유지 조절제인지 역할을 구분해야 한다.
 - 증상 빈도, rescue use, 야간 증상, 산소포화도, 악화 빈도를 추적한다.

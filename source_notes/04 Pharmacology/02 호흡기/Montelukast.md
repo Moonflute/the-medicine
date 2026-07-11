@@ -17,6 +17,11 @@ related_diseases:
   - "천식"
   - "COPD"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed MONTELUKAST (Montelukast) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=52c650cf-3081-7b2c-e063-6394a90a797f'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 몬테루카스트 (montelukast)
@@ -57,7 +62,7 @@ sources_ref: "openFDA drug label API (US)"
 - 상기도 감염, 발열, 두통, 인후염, 기침, 복통, 설사, 중이염, 부비동염 등
 - 드물게 신경정신과적 증상 보고
 
-#### 주의
+#### 모니터링 및 주의
 - 급성 천식 발작 치료제로 사용하지 말 것(속효성 베타 작용제 구비 필수)
 - 흡입용 스테로이드제를 갑자기 중단하거나 본 약물로 대체하지 말 것
 - 신경정신과적 이상 반응(초조, 공격성, 우울, 수면 장애, 자살 사고 등) 발생 가능성 주의

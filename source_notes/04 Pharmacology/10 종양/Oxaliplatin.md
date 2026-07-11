@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "Oxaliplatin"
 용량:
-  - "-"
+  - '결장암 FOLFOX 병용 대표 regimen: 85 mg/m² IV over 120 minutes every 2 weeks, leucovorin·fluorouracil과 병용'
+  - '골수억제·신경독성·신기능과 치료 protocol에 따라 지연 또는 감량; 단독 임의 투여가 아닌 regimen 원문 확인 필수'
 related_diseases:
-  - "-"
+  - '3기 결장암 수술 후 보조요법'
+  - '진행성 대장암'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Oxaliplatin injection | https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=ee5a5a1d-63f6-4d5a-901b-65be45ec6610'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 옥살리플라틴 (oxaliplatin)
@@ -58,7 +65,7 @@ sources_ref: "openFDA drug label API (US)"
 - 간 효소 수치 상승 및 피로감.
 - 과민반응 (아나필락시스 포함).
 
-#### 주의
+#### 모니터링 및 주의
 - 말초 신경병증: 급성 및 지연성 신경병증 발생 가능, 냉기 노출 피할 것.
 - 골수 억제: 투여 전 호중구 및 혈소판 수치 확인 후 투여 결정.
 - 가역적 후방 뇌병증 증후군(PRES): 발생 시 즉시 투여 중단.

@@ -14,8 +14,15 @@ aliases:
 용량:
   - "0.6mg Tab. 통풍 발작 시 요법별 조절."
 related_diseases:
-  - "-"
+  - '급성 통풍 발작'
+  - '통풍 발작 예방'
+  - '가족성 지중해열'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed COLCHICINE (colchicine) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4284783-fea6-4af2-9a8d-79c929176c05'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 콜히친 (colchicine)
@@ -58,7 +65,7 @@ sources_ref: "openFDA drug label API (US)"
 - 근골격계: 근육통, 근육병증, 횡문근융해증
 - 기타: 탈모, 발진, 신경병증, 간 효소 수치 상승
 
-#### 주의
+#### 모니터링 및 주의
 - 치명적인 과다복용 사례가 보고되었으므로 어린이의 손이 닿지 않는 곳에 보관
 - 골수억제, 백혈구 감소증, 혈소판 감소증 등 혈액학적 이상 반응 모니터링
 - 근육병증 및 횡문근융해증 발생 가능성 주의(특히 스타틴 계열 등과 병용 시)

@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "Entecavir"
 용량:
-  - "-"
+  - 'HBV 치료 경험 없는 보상성 간질환 성인·16세 이상: 0.5 mg 1일 1회'
+  - 'Lamivudine 불응/내성 또는 비대상성 간질환 성인: 1 mg 1일 1회'
+  - '공복 투여(식후 최소 2시간 및 다음 식사 최소 2시간 전); CrCl <50 mL/min이면 용량 또는 간격 조절'
 related_diseases:
-  - "B형간염"
+  - '만성 B형간염'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Entecavir Tablets | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d69451df-e204-4a5c-a2bb-9e6d4d519302'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 엔테카비르 (entecavir)
@@ -55,7 +62,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔한 부작용: 두통, 피로, 어지러움, 오심.
 - 중대한 부작용: 치료 중단 후 간염 급성 악화, 젖산산증(lactic acidosis), 중증 간비대 및 지방증.
 
-#### 주의
+#### 모니터링 및 주의
 - 투여 중단 시 간 기능 검사를 포함한 임상적 모니터링을 수개월간 지속할 것.
 - 젖산산증이나 간독성 징후(간비대, 지방증 등) 발생 시 투여 중단 고려.
 - HIV 동시 감염 여부를 확인하고, HIV 치료가 병행되지 않는 경우 투여를 권장하지 않음.

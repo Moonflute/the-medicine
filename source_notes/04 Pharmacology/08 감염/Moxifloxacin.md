@@ -11,7 +11,7 @@ aliases:
 상품명:
   - "MOXIFLOXACIN HYDROCHLORIDE"
 용량:
-  - "-"
+  - '성인 기준 400mg을 24시간마다 1회 경구 투여함.'
 related_diseases:
   - "-"
 sources_ref: "openFDA drug label API (US)"

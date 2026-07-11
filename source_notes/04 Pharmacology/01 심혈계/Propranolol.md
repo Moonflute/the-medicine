@@ -17,6 +17,11 @@ related_diseases:
   - "[[고혈압]]"
   - "협심증"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed PROPRANOLOL (PROPRANOLOL) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=54dd0fad-64ee-788f-e063-6394a90ac88e'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 프로프라놀롤 (propranolol)
@@ -73,7 +78,7 @@ sources_ref: "openFDA drug label API (US)"
 - 피부/알레르기: 발진, 스티븐스-존슨 증후군, 탈모
 - 기타: 남성 발기부전, 페이로니병
 
-#### 주의
+#### 모니터링 및 주의
 - 갑작스러운 투여 중단 시 협심증 악화 및 심근경색 위험이 있으므로 점진적 감량 필요
 - 울혈성 심부전 환자에게는 주의 깊은 모니터링 하에 사용
 - 당뇨 환자의 저혈당 증상(빈맥 등)을 은폐할 수 있음

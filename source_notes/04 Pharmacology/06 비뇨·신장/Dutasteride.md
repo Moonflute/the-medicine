@@ -9,13 +9,17 @@ aliases:
   - "dutasteride"
   - "두타스테라이드"
 상품명:
-  - "아보다트연질캡슐"
-  - "Dutasteride and Tamsulosin Hydrochloride"
+  - 'Avodart'
 용량:
   - "0.5mg Cap. 1일 1회."
 related_diseases:
   - "전립선비대증"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed DUTASTERIDE (Dutasteride) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=50924a17-b21d-40ca-b702-aa61bac7af90'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 두타스테라이드 (dutasteride)
@@ -56,7 +60,7 @@ sources_ref: "openFDA drug label API (US)"
 - 유방 장애: 유방 비대, 압통, 여성형 유방
 - 어지러움
 
-#### 주의
+#### 모니터링 및 주의
 - 기립성 저혈압 및 실신 위험이 있을 수 있으므로 주의가 필요합니다.
 - 혈청 전립선특이항원(PSA) 수치를 약 50% 감소시키므로, PSA 수치 해석 시 보정(2배 곱함)이 필요합니다.
 - 고등급 전립선암 발생 위험 증가 가능성에 대한 모니터링이 필요합니다.

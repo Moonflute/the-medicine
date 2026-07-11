@@ -108,3 +108,4 @@ export function buildDrugGroups(notes: DomainNote[]): DrugTopGroup[] {
       };
     });
 }
+

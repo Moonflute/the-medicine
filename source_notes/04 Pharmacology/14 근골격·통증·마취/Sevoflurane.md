@@ -11,10 +11,16 @@ aliases:
 상품명:
   - "Sevoflurane"
 용량:
-  - "-"
+  - '전신마취 유지: 보통 흡입농도 0.5-3%를 단독 또는 N₂O 병용으로 환자 반응에 맞춰 적정'
+  - 'MAC는 연령과 N₂O 병용에 따라 달라짐(40세 성인 산소 중 약 2.1%); 마취전문의 감시·전용 vaporizer 하 사용'
 related_diseases:
-  - "-"
+  - '전신마취 유도·유지'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Sevoflurane liquid | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bdde7502-6218-401c-9a4f-dd3bc3a80f72'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 세보플루란 (sevoflurane)
@@ -56,7 +62,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔한 부작용: 구역, 구토, 저혈압, 서맥, 빈맥, 초조, 기침, 호흡 억제
 - 중대한 부작용: 악성 고열증, 경련(특히 소아 및 청년층), 간 기능 이상, QT 연장, 아나필락시스 반응
 
-#### 주의
+#### 모니터링 및 주의
 - 신장 손상 위험: 저유량(low flow) 투여 시 신독성 가능성(Compound A 관련), 2 MAC·시간 초과 주의
 - 호흡 억제: 오피오이드 등 병용 시 호흡 억제 증강 가능성
 - QT 연장: 선천성 Long QT 증후군 환자 등 주의

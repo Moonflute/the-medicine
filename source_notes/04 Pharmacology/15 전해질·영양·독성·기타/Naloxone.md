@@ -9,12 +9,19 @@ aliases:
   - "naloxone"
   - "날록손"
 상품명:
-  - "PENTAZOCINE HYDROCHLORIDE AND NALOXONE HYDROCHLORIDE"
+  - 'Naloxone Hydrochloride Injection'
 용량:
-  - "-"
+  - '성인 의심 opioid 과량: 0.4-2 mg IV, 호흡 개선이 불충분하면 2-3분 간격 반복; IV 불가 시 IM/SC'
+  - '수술 후 opioid 호흡억제의 부분 역전: 0.1-0.2 mg IV씩 2-3분 간격 적정; opioid 작용이 더 길 수 있어 지속 관찰·재투여 또는 주입 고려'
 related_diseases:
-  - "-"
+  - 'Opioid 과량투여·호흡억제'
+  - '수술 후 opioid 유발 호흡억제'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Naloxone hydrochloride injection | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfa48492-d83b-48cc-9ad1-bdc0c2ac9931&version=10'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 날록손 (naloxone)
@@ -47,7 +54,7 @@ sources_ref: "openFDA drug label API (US)"
 - 약물별 특이 부작용
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 

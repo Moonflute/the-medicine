@@ -14,8 +14,15 @@ aliases:
 용량:
   - "250mg Tab. 1일 1회, 요법별 상이."
 related_diseases:
-  - "-"
+  - '지역사회획득폐렴'
+  - '인두염·편도염'
+  - '비뇨생식기 클라미디아 감염'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed AZITHROMYCIN (AZITHROMYCIN) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=76093152-e2d7-4fe1-8568-1f0fec1747c2'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 아지스로마이신 (azithromycin)
@@ -57,7 +64,7 @@ sources_ref: "openFDA drug label API (US)"
 - 소화기계: 설사, 구역, 복통, 구토
 - 기타: 어지러움, 두통, 발진, 광과민성, 간 기능 이상
 
-#### 주의
+#### 모니터링 및 주의
 - 심각한 알레르기 반응(아나필락시스, 스티븐스-존슨 증후군 등) 발생 시 즉시 중단
 - 간독성 보고가 있으므로 간염 증상 발생 시 투여 중단
 - 신생아(생후 42일까지) 사용 시 비후성 유문협착증(IHPS) 발생 가능성

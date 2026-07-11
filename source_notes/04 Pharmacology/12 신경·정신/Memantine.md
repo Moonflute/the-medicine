@@ -14,8 +14,13 @@ aliases:
 용량:
   - "5mg 시작 후 증량."
 related_diseases:
-  - "-"
+  - '중등도-중증 알츠하이머병 치매'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed MEMANTINE (memantine hydrochloride) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f73e0df0-4af4-42f1-bde6-3cccb47ca378'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 메만틴 (memantine)
@@ -55,7 +60,7 @@ sources_ref: "openFDA drug label API (US)"
 - 기타 보고된 부작용: 피로, 고혈압, 구토, 요통, 졸음, 환각, 기침, 호흡곤란
 - 시판 후 보고: 무과립구증, 백혈구감소증, 울혈성 심부전, 췌장염, 간염, 자살 사고, 급성 신부전, 스티븐스-존슨 증후군 등
 
-#### 주의
+#### 모니터링 및 주의
 - 소변을 알칼리화하는 상태(식이, 약물, 질환 등)는 메만틴의 배설을 감소시켜 혈중 농도를 높일 수 있으므로 주의 필요
 - 중증 간장애 환자 투여 시 주의
 - 경련 질환 환자에 대한 체계적인 평가가 부족하므로 주의 필요

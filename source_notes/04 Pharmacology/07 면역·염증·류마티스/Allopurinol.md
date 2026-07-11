@@ -14,8 +14,14 @@ aliases:
 용량:
   - "100mg Tab. 1일 1회 시작."
 related_diseases:
-  - "-"
+  - '통풍'
+  - '항암치료 관련 고요산혈증'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed ALLOPURINOL (Allopurinol) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8c0f5af5-a453-4641-933f-ccb2625fca39'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 알로푸리놀 (allopurinol)
@@ -60,7 +66,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔함: 피부 발진, 설사, 오심, 간기능 수치 상승, 통풍 발작
 - 드묾: 골수 억제, 간괴사, 신부전, 혈관염, 말초신경병증, 탈모
 
-#### 주의
+#### 모니터링 및 주의
 - 피부 발진 및 과민반응: SJS, TEN, DRESS 등 치명적인 피부 반응 보고, 발진 발생 시 즉시 투여 중단
 - HLA-B*58:01 유전자 보유자: 중증 피부 반응 위험이 높으므로 투여 전 검사 고려
 - 통풍 발작: 치료 초기 요산 수치 변화로 인해 발작이 발생할 수 있으나 투여를 중단하지 않음

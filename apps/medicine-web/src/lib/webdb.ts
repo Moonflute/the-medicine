@@ -3,6 +3,8 @@ import path from "node:path";
 import type {
   ChiefComplaintCategorySummary,
   ChiefComplaintNote,
+  ClinicalRelation,
+  ClinicalRelationIndex,
   ClinicalSkill,
   DiseaseNote,
   DomainNote,
@@ -18,6 +20,8 @@ import type {
 export type {
   ChiefComplaintCategorySummary,
   ChiefComplaintNote,
+  ClinicalRelation,
+  ClinicalRelationIndex,
   ClinicalSkill,
   DiseaseNote,
   DiseaseSection,
@@ -58,6 +62,15 @@ function compareKo(a: string, b: string) {
   return a.localeCompare(b, "ko");
 }
 
+export function getClinicalRelationIndex(): ClinicalRelationIndex {
+  return readJson<ClinicalRelationIndex>("clinical-relations.json");
+}
+
+export function getClinicalRelationsFor(sourceType: string, sourceId: string): ClinicalRelation[] {
+  return getClinicalRelationIndex().relations.filter(
+    (relation) => relation.sourceType === sourceType && relation.sourceId === sourceId,
+  );
+}
 export function getManifest() {
   return readJson("manifest.json");
 }

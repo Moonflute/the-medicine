@@ -14,12 +14,19 @@ aliases:
 용량:
   - "100mg Tab. 1일 1회."
 related_diseases:
-  - "-"
+  - '동맥경화성 심혈관질환의 항혈소판 치료'
+  - '급성 관상동맥증후군'
+  - '허혈성 뇌졸중·일과성 허혈발작'
 sources_ref: "식약처 e약은요(의약품개요정보) API getDrbEasyDrugList; 국내 허가는 의약품안전나라로 재확인"
 nedrug_item_seq: "199001012"
 nedrug_product_name: "보령아스트릭스캡슐100밀리그람(아스피린)"
 nedrug_entp_name: "(주)보령"
 easy_drug_update_de: "2022-08-19"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Aspirin 81 mg delayed-release tablet | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4064039-2345-4227-b83d-54dc13a838d3&version=24'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 아스피린 (aspirin)
@@ -66,7 +73,7 @@ easy_drug_update_de: "2022-08-19"
 - 혈액계: 재생불량성 빈혈, 혈소판 감소, 출혈 시간 지연.
 - 기타: 어지러움, 두통, 간장애, 신장애, 이명.
 
-#### 주의
+#### 모니터링 및 주의
 - 신장애, 간장애, 기관지 천식, 혈액 이상 환자 및 고령자 주의.
 - 수술(치과 수술 포함) 전 담당 의사에게 복용 사실 고지 필요.
 - 알코올 병용 시 위장관 점막 손상 및 출혈 시간 연장 위험.

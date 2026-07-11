@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "-"
 용량:
-  - "-"
+  - 'Hydrocortisone cream 1% 또는 2.5%: 병변에 얇게 1일 2-4회 도포; 중증도·제형에 따라 조정'
+  - '넓은 면적·장기간·밀봉요법은 전신흡수와 HPA axis 억제 위험이 있어 최소 유효량·기간 사용'
 related_diseases:
-  - "-"
+  - '스테로이드 반응성 염증성·소양성 피부질환'
+  - '습진·피부염 일부'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Hydrocortisone cream | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a84830ad-73dc-4a2e-b987-0a1103526535'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 히드로코르티손 (hydrocortisone)
@@ -47,7 +54,7 @@ sources_ref: "openFDA drug label API (US)"
 - 피부 위축 또는 점막 자극
 - 전신 흡수 부작용 일부
 
-#### 주의
+#### 모니터링 및 주의
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 

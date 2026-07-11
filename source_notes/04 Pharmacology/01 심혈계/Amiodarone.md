@@ -14,8 +14,14 @@ aliases:
 용량:
   - "200mg Tab. 유지 1일 1회."
 related_diseases:
-  - "-"
+  - '심실세동·혈역학적으로 불안정한 심실빈맥'
+  - '심방세동'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed AMIODARONE HYDROCHLORIDE (amiodarone hydrochloride) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f49d011f-5ca6-4f75-ba16-2099fe42f5aa'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 아미오다론 (amiodarone)
@@ -63,7 +69,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔함: 폐염증/섬유화, 간기능 이상, 갑상선 기능 이상, 서맥, 심부전 악화, 광과민성 피부염, 진전, 운동실조, 시력 장애.
 - 기타: 청색 피부 변색, 탈모, 저혈압, 근육병증, 신부전.
 
-#### 주의
+#### 모니터링 및 주의
 - 폐독성: 기침, 호흡곤란 발생 시 즉시 평가 필요(치명적일 수 있음).
 - 갑상선 기능 이상: 갑상선기능항진증 또는 저하증 유발 가능.
 - 간독성: 간효소 수치 상승 및 간 손상 위험.

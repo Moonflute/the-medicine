@@ -11,10 +11,18 @@ aliases:
 상품명:
   - "Gabapentin"
 용량:
-  - "-"
+  - '대상포진 후 신경통: 1일 최대 1,800mg까지 증량 가능'
+  - '뇌전증(12세 이상): 1일 900~2,400mg(3회 분할 투여)'
+  - '뇌전증(3~11세): 체중 기반 용량 산정(1일 25~40mg/kg, 3회 분할 투여)'
 related_diseases:
-  - "-"
+  - '부분발작'
+  - '대상포진후 신경통'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed GABAPENTIN (Gabapentin) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4ddcdff5-8f1f-bff3-e063-6294a90a1195'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 가바펜틴 (gabapentin)
@@ -57,7 +65,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔한 부작용: 어지러움, 졸음, 말초 부종, 운동실조, 피로, 안구진탕
 - 소아: 바이러스 감염, 발열, 구역/구토, 적대감
 
-#### 주의
+#### 모니터링 및 주의
 - DRESS 증후군(약물 발진, 호산구 증가증 및 전신 증상) 발생 가능성
 - 아나필락시스 및 혈관부종 발생 시 즉시 투여 중단 및 평가
 - 졸음, 어지러움, 운동실조 유발 가능하므로 운전 및 기계 조작 주의

@@ -16,6 +16,11 @@ aliases:
 related_diseases:
   - "침습성 진균감염"
   - "크립토코쿠스 수막염"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed AMPHOTERICIN B (Amphotericin B) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=593cffa0-c305-48b6-8ec7-331e0ff91d2b'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 암포테리신 B (amphotericin B)
@@ -65,7 +70,7 @@ related_diseases:
 - 빈혈
 - 주입 관련 반응
 
-#### 주의
+#### 모니터링 및 주의
 - creatinine, potassium, magnesium, CBC를 자주 추적합니다.
 - 수액 전처치와 전해질 보충이 실제 처방 운영의 핵심입니다.
 - liposomal formulation을 우선 고려하는 이유는 독성 감소 때문입니다.

@@ -17,6 +17,11 @@ related_diseases:
   - "천식"
   - "COPD"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Albuterol sulfate inhalation aerosol (salbutamol) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fd0389e0-3713-42e0-8ef2-3bb97676fded'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 살부타몰 (salbutamol)
@@ -60,7 +65,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔한 부작용: 인후 자극, 바이러스성 호흡기 감염, 상기도 염증, 기침, 근골격계 통증
 - 기타: 역설적 기관지수축, 심혈관계 영향(빈맥, 심계항진), 아나필락시스를 포함한 과민반응, 저칼륨혈증
 
-#### 주의
+#### 모니터링 및 주의
 - 역설적 기관지수축 발생 시 즉시 투여 중단 및 대체 요법 고려
 - 천식 악화의 징후(사용 빈도 증가) 시 치료 계획 재평가 필요
 - 심혈관 질환, 경련성 질환, 갑상선 기능 항진증, 당뇨병 환자에게 주의하여 사용

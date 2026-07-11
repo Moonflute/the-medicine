@@ -11,10 +11,16 @@ aliases:
 상품명:
   - "-"
 용량:
-  - "-"
+  - '고혈압 성인 경구: 10 mg 1일 4회로 시작(2-4일), 이후 25 mg 1일 4회, 2주차부터 50 mg 1일 4회로 적정; 최소 유효 용량 유지'
+  - '저항성 고혈압: 허가 라벨상 최대 300 mg/day까지 필요할 수 있으나 개별 적정'
 related_diseases:
-  - "-"
+  - '고혈압'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Hydralazine Hydrochloride Tablets | https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=f9f56326-6d72-47d3-89ac-3625b8a6d713&type=display'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 하이드랄라진 (hydralazine)
@@ -23,8 +29,7 @@ sources_ref: "openFDA drug label API (US)"
 > 직접 혈관확장제 계열 심혈관계 약물로, 혈압·심박수·혈전·지질 조절 중 어떤 축을 건드리는지 먼저 보는 약이다.
 > 계통: `심혈계 > 혈압·심부전·신 > 직접 혈관확장제`
 > 대표 상품명(표기 기준): `-`
-> 용량: `-`
-
+> 대표 용량: 고혈압 성인 경구는 10 mg 1일 4회로 시작해 반응에 따라 적정
 ## 기전
 - 혈관 긴장, 심장 전도, 응고 또는 지질 대사를 조절한다.
 
@@ -52,7 +57,7 @@ sources_ref: "openFDA drug label API (US)"
 - 출혈 또는 전해질 이상 등 class 관련 부작용
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 고령, 저혈압, CKD, 동반 심부전 여부에 따라 약효와 부작용 균형이 달라진다.
 - 다른 심혈관 약과 병용되는 경우가 많아 혈압, 심박수, 신기능을 함께 본다.
 - 혈압, 심박수, 출혈 여부 또는 부종 같은 임상 반응을 우선 추적한다.

@@ -13,12 +13,18 @@ aliases:
 용량:
   - "성인은 1회 0.5~1정(50~100 mg) 1일 3회 복용합니다."
 related_diseases:
-  - "-"
+  - '원발성 담즙성 담관염'
+  - '담즙정체성 간질환 일부'
 sources_ref: "식약처 e약은요(의약품개요정보) API getDrbEasyDrugList; 국내 허가는 의약품안전나라로 재확인"
 nedrug_item_seq: "198100119"
 nedrug_product_name: "우루사정100밀리그램(우르소데옥시콜산)"
 nedrug_entp_name: "(주)대웅제약"
 easy_drug_update_de: "2021-01-29"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Ursodiol tablets | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9d666bbc-98c4-445f-a5a2-cad1bcccde4e'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 우르소데옥시콜산 (ursodeoxycholic acid)
@@ -70,7 +76,7 @@ easy_drug_update_de: "2021-01-29"
 - 호흡기: 기침, 호흡곤란, 간질성 폐렴(흉부 X선 이상 동반)
 - 기타: 담석의 석회화, 간효소치(ALT, ALP, AST, γ-GT) 증가, 백혈구 감소
 
-#### 주의
+#### 모니터링 및 주의
 - 심한 췌장 질환, 담석증, 정맥류 출혈, 간성혼수, 복수 환자는 투여 전 전문가와 상의 필요
 - 정기적인 간효소 수치 모니터링 권장
 - 이상 반응 발생 시 즉시 복용을 중단하고 전문가와 상담

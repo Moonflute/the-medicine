@@ -13,12 +13,20 @@ aliases:
 용량:
   - "-"
 related_diseases:
-  - "소화성 궤양"
-  - "GERD"
+  - '소화성 궤양'
+  - 'GERD'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_3
+sources:
+  - 'FDA Ranitidine Market Withdrawal | https://www.fda.gov/news-events/press-announcements/fda-requests-removal-all-ranitidine-products-zantac-market'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 라니티딘 (ranitidine)
+
+> [!warning]
+> FDA는 NDMA 불순물 증가 위험으로 2020년 모든 ranitidine 제품의 시장 철수를 요청했다. 현재 처방용 핵심 약물로 취급하지 않고 역사적 참고로만 유지한다.
 
 > [!summary]
 > H2 수용체 길항제로, 위산 분비를 줄이는 약이지만 PPI보다 강도는 약한 편이다.

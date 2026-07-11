@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { DiseaseCard } from "@/components/disease-card";
 import { ParentPageFab } from "@/components/parent-page-fab";
-import { getAllDiseases, getChiefComplaintLinksForTerms, getDiseaseBySlug, getDiseaseLinks, isSpecialtyIndexDisease } from "@/lib/webdb";
+import { RelatedClinicalContent } from "@/components/related-clinical-content";
+import { getAllDiseases, getChiefComplaintLinksForTerms, getClinicalRelationsFor, getDiseaseBySlug, getDiseaseLinks, isSpecialtyIndexDisease } from "@/lib/webdb";
 
 export function generateStaticParams() {
   return getAllDiseases().map((note) => ({ slug: note.slug }));
@@ -20,6 +21,7 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
   const ccLinks = getChiefComplaintLinksForTerms(note.chiefComplaints);
   const diseaseLinks = isSpecialtyIndexDisease(note) ? getDiseaseLinks() : [];
   const parentHref = `/specialty/${Buffer.from(note.specialty, "utf-8").toString("base64url")}`;
+  const relations = getClinicalRelationsFor("disease", note.id);
 
   return (
     <div className="space-y-6">
@@ -32,6 +34,7 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
       </Link>
 
       <DiseaseCard note={note} ccLinks={ccLinks} diseaseLinks={diseaseLinks} hideOverview={isSpecialtyIndexDisease(note)} />
+      <RelatedClinicalContent relations={relations} />
       <ParentPageFab href={parentHref} />
     </div>
   );

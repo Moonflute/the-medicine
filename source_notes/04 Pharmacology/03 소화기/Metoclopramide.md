@@ -14,8 +14,14 @@ aliases:
 용량:
   - "5-10mg Tab. 1일 3회."
 related_diseases:
-  - "-"
+  - '당뇨병성 위마비'
+  - '위식도역류질환'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed METOCLOPRAMIDE (Metoclopramide) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5d31d815-50fa-4e78-8ebd-affc2514ce78'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 메토클로프라마이드 (metoclopramide)
@@ -62,7 +68,7 @@ sources_ref: "openFDA drug label API (US)"
 - 심혈관계: 저혈압, 고혈압, 빈맥, 서맥
 - 기타: 설사, 변비, 드물게 간독성 및 혈액학적 이상(호중구 감소증 등)
 
-#### 주의
+#### 모니터링 및 주의
 - 지연성 운동장애(Tardive Dyskinesia): 장기 투여 시 발생 위험 증가, 증상 발생 시 즉시 중단
 - 추체외로 증상(EPS): 급성 근긴장 이상 등 발생 가능, 특히 30세 미만 및 고용량 투여 시 주의
 - 우울증: 우울증 병력이 있는 경우 신중 투여

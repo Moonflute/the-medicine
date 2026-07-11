@@ -14,8 +14,16 @@ aliases:
 용량:
   - "100mg Tab. 1일 1-2회."
 related_diseases:
-  - "-"
+  - '리케차 감염'
+  - '클라미디아 감염'
+  - '여드름'
+  - '감수성 세균 감염'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed DOXYCYCLINE (DOXYCYCLINE) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa2d9328-b688-47af-8c4d-dc328cf35392'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 독시사이클린 (doxycycline)
@@ -62,7 +70,7 @@ sources_ref: "openFDA drug label API (US)"
 - 치아 변색
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 배양 결과가 나오면 가능한 de-escalation 또는 중단 시점을 같이 판단한다.
 - 알레르기 병력, 신기능, 간기능, C. difficile 위험을 같이 본다.
 - 체온, 백혈구, CRP, 배양 결과, 임상적 호전 여부를 함께 본다.

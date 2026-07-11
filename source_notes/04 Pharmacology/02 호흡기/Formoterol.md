@@ -16,6 +16,11 @@ aliases:
 related_diseases:
   - "천식"
   - "COPD"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed FORMOTEROL FUMARATE DIHYDRATE (Formoterol fumarate) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4dbb9620-5731-40d9-8258-2977ecc781c4'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 포모테롤 (formoterol)
@@ -62,7 +67,7 @@ related_diseases:
 - 두통
 - 드물게 역설적 기관지경련
 
-#### 주의
+#### 모니터링 및 주의
 - 흡입기 사용법과 ICS 병용 여부를 반드시 확인합니다.
 - 증상 악화 시 controller failure인지 exacerbation인지 구분해야 합니다.
 - 과용은 질환 악화 신호일 수 있어 rescue inhaler 사용 빈도도 함께 추적합니다.

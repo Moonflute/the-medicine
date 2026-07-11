@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "Carbidopa and Levodopa"
 용량:
-  - "-"
+  - 'Carbidopa/levodopa 즉방정 초기: 25/100 mg 1정 경구 1일 3회; 필요 시 매일 또는 격일로 1정씩 증량'
+  - '최적 일일 용량은 증상 반응·운동 합병증에 따라 개별 적정하며, 단독 levodopa·서방형·장내겔은 서로 다른 용법을 확인'
 related_diseases:
-  - "-"
+  - '파킨슨병'
+  - '파킨슨증후군'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Carbidopa and levodopa tablets | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=739b2f8d-8b5c-4b57-b5d4-5e6429c7c1ed'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 레보도파 (levodopa)
@@ -61,7 +68,7 @@ sources_ref: "openFDA drug label API (US)"
 - 기타: 기립성 저혈압, 불면, 변비, 구강 건조, 소변 색 변화
 - 충동 조절 장애(병적 도박, 성욕 항진 등) 보고 있음
 
-#### 주의
+#### 모니터링 및 주의
 - 이상운동증(dyskinesia) 발생 시 용량 감량 고려
 - 갑작스러운 수면 발작(sudden sleep onset) 보고 사례 있음 (운전 등 위험 활동 주의)
 - 심혈관, 폐, 신장, 간 질환 환자에게 신중 투여

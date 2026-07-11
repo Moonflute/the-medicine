@@ -14,8 +14,14 @@ aliases:
 용량:
   - "IM 0.3~0.5 mg 또는 IV infusion 0.05~2 mcg/kg/min"
 related_diseases:
-  - "-"
+  - '아나필락시스'
+  - '심정지'
 sources_ref: "DailyMed official label (Epinephrine injection: anaphylaxis, septic shock)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed EPINEPHRINE (Epinephrine) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=386519ba-7a44-4edd-9eb1-748419b7a71b'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 에피네프린 (epinephrine)
@@ -62,7 +68,7 @@ sources_ref: "DailyMed official label (Epinephrine injection: anaphylaxis, septi
 - 대사계: 고혈당, 저칼륨혈증, 젖산 상승
 - 기타: 창백, 발한, 혈관외유출 시 국소 허혈 및 괴사, 드물게 폐부종
 
-#### 주의
+#### 모니터링 및 주의
 - anaphylaxis 시 투여 지연은 예후를 악화시키므로 즉각적인 투여가 우선됨
 - IM 투여는 대퇴부 전외측을 원칙으로 하며 부적절한 부위 투여는 지양함
 - IV infusion 시 혈압, ECG, 말초관류, 소변량 모니터링

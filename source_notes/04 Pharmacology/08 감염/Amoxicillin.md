@@ -9,13 +9,18 @@ aliases:
   - "amoxicillin"
   - "아목시실린"
 상품명:
-  - "아목시실린캡슐"
-  - "AMOXICILLIN AND CLAVULANATE POTASSIUM"
+  - 'Amoxil'
 용량:
   - "500mg Cap. 1일 3회."
 related_diseases:
-  - "-"
+  - '감수성 세균 감염'
+  - 'Helicobacter pylori 감염'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed AMOXICILLIN (Amoxicillin) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=06e5c07d-d95c-4955-8d35-a4703ca2359e'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 아목시실린 (amoxicillin)
@@ -60,7 +65,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔한 부작용: 설사, 구역, 구토, 피부 발진, 질염.
 - 중증 부작용: 아나필락시스, 중증 피부 이상 반응(SJS, TEN, DRESS), 간 기능 장애, 클로스트리디오이데스 디피실리(C. difficile) 관련 설사.
 
-#### 주의
+#### 모니터링 및 주의
 - 전신성 단핵구증(mononucleosis) 환자에게 투여 시 발진 발생률이 높으므로 사용을 피함.
 - 설사가 지속될 경우 C. difficile 관련 장염 가능성을 고려하여 평가해야 함.
 - 간 기능 장애 환자는 정기적인 간 기능 검사가 필요함.

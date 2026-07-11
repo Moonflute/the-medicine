@@ -16,6 +16,11 @@ aliases:
 related_diseases:
   - "COPD"
   - "천식"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed BREO ELLIPTA (fluticasone furoate/vilanterol) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=96428df1-ea05-431a-98d3-1ec2c4b63878'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 빌란테롤 (vilanterol)
@@ -58,7 +63,7 @@ related_diseases:
 - 저칼륨혈증
 - 두통
 
-#### 주의
+#### 모니터링 및 주의
 - 흡입기 교육과 순응도 확인이 중요합니다.
 - 천식에서는 반드시 ICS 동반 여부를 확인합니다.
 - rescue inhaler를 대체하는 약이 아니라는 점을 환자에게 명확히 설명해야 합니다.

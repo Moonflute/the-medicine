@@ -1,55 +1,73 @@
 ---
-유형: lab_test
+유형: interpretation_hub
 검사_분류: 소변검사
-검체: urine
+검체: fresh clean-catch urine
 aliases:
   - UA
   - Urinalysis
+  - 요검사
+clinical_priority: tier_1
+reviewed_at: 2026-07-11
+review_status: draft
+guideline_year: 2026
+sources:
+  - MedlinePlus Urinalysis | https://medlineplus.gov/urinalysis.html
 ---
 
 # Urinalysis
 
-> Urinalysis : 소변의 물리적 성상, dipstick chemistry, microscopic sediment를 함께 보는 기본 소변검사
-> 정상범위: 항목별로 다르며 보통 protein/glucose/ketone/blood/nitrite/leukocyte esterase는 `negative`
+> dipstick과 microscopy를 함께 읽어 glomerular, tubular/interstitial, 감염, 대사 패턴을 구분한다. 오염과 채취·보관 오류를 먼저 점검한다.
 
-## 1. 개요
-- Urinalysis는 소변검사의 기본 패널이다.
-- 보통 `color/clarity`, `specific gravity`, `pH`, dipstick chemical test, microscopic sediment examination으로 구성된다.
+## 1. 30초 해석 순서
 
-## 2. 검사 원리
-- 소변의 육안적 성상은 색, 탁도, 거품 등을 관찰한다.
-- dipstick은 시험지에 포함된 화학 반응 패드가 소변 속 특정 물질과 반응해 색이 바뀌는 원리를 이용한다.
-- microscopy는 원심분리 후 sediment를 현미경으로 관찰해 cell, cast, crystal, bacteria 등을 본다.
-- 즉 urinalysis의 본질은 **소변이라는 filtrate의 화학 성분과 침전 성분을 함께 읽는 검사**다.
+1. clean-catch 여부, 월경·운동·도뇨관, 보관시간과 증상을 확인한다.
+2. specific gravity, pH, blood, protein, leukocyte esterase, nitrite, glucose, ketone을 훑는다.
+3. microscopy로 RBC/WBC, epithelial cell, bacteria/yeast, crystal, cast를 확인한다.
+4. hematuria는 dipstick heme와 실제 RBC가 일치하는지 본다.
+5. protein은 transient 원인을 배제하고 ACR/PCR로 정량한다.
+6. pyuria/bacteriuria는 증상과 culture indication을 함께 판단한다.
 
-## 3. 하위 문서
-- [[Urinalysis/Urine Specific Gravity]]
-- [[Urinalysis/Urine pH]]
-- [[Urinalysis/Urine Protein]]
-- [[Urinalysis/Urine Glucose]]
-- [[Urinalysis/Urine Ketone]]
-- [[Urinalysis/Urine Bilirubin]]
-- [[Urinalysis/Urine Urobilinogen]]
-- [[Urinalysis/Urine Blood and Hemoglobin]]
-- [[Urinalysis/Urine Leukocyte Esterase]]
-- [[Urinalysis/Urine Nitrite]]
-- [[Urinalysis/Urine Microscopy]]
-- [[Urinalysis/Urine Red Blood Cells (Urine RBC)]]
-- [[Urinalysis/Urine White Blood Cells (Urine WBC)]]
-- [[Urinalysis/Urinary Casts]]
-- [[Urinalysis/Urinary Crystals]]
+## 2. 검체·전처리 함정
 
-## 4. 임상적 활용
-- UTI 평가
-- hematuria/proteinuria screening
-- diabetes 및 ketosis 평가
-- kidney concentrating ability와 volume status 추정
-- glomerular vs nonglomerular disease 감별 보조
+- midstream clean-catch가 기본이며 squamous epithelial cell이 많으면 오염 가능성이 높다.
+- 실온 지연은 세포·cast 소실, 세균 증식, pH 변화를 일으킨다.
+- dipstick blood 양성인데 RBC가 없으면 hemoglobinuria/myoglobinuria 또는 용혈 검체를 고려한다.
+- vitamin C, 농축·희석뇨, 약물은 dipstick 결과에 영향을 줄 수 있다.
 
-## 5. 주의점 및 함정
-- contamination, menstruation, delay in analysis가 결과를 왜곡할 수 있다.
-- dipstick과 microscopy는 서로 보완 관계이며, 둘 중 하나만 보면 놓치는 정보가 있다.
+## 3. 패턴
 
-## 6. 참고문헌
-- MedlinePlus: Protein in Urine
-- 일반 urinalysis 표준 구성 요약
+| 패턴 | 방향 | 다음 확인 |
+|---|---|---|
+| Dysmorphic RBC/RBC cast + protein | glomerular | creatinine, ACR/PCR, serology, nephrology |
+| WBC/WBC cast | pyelonephritis 또는 interstitial | culture, 약물, 임상증상 |
+| Granular cast | tubular injury | hemodynamics, nephrotoxin, AKI trend |
+| Nitrite/LE + pyuria | UTI 가능 | 증상, culture 필요성 |
+| Glucose/ketone | hyperglycemia, starvation/DKA 등 | serum glucose, ketone, acid-base |
+| Crystal | pH·약물·결석 맥락 | 증상, imaging, stone analysis |
+
+## 4. Red flags
+
+- hematuria/proteinuria와 AKI, hypertension, edema
+- RBC cast 또는 rapidly progressive glomerulonephritis 의심
+- fever/flank pain와 sepsis 또는 obstruction 가능성
+- myoglobinuria 의심과 CK 상승, hyperkalemia
+- 임신·면역저하·남성 등 복잡성 요인의 감염
+
+## 5. 다음 검사와 행동
+
+- 반복 clean-catch UA, urine culture, ACR/PCR
+- CBC, creatinine/electrolyte, CK, hemolysis/serology를 맥락에 따라 선택
+- stone/obstruction 의심 시 ultrasound 또는 CT 선택
+- 지속 microscopic hematuria는 연령·위험에 맞는 비뇨기/신장 평가
+
+## 6. 관련 검사
+
+- [[Urine Protein]]
+- [[Urine Glucose]]
+- [[Urine pH]]
+- [[Renal overview]]
+- [[Complete Blood Count (CBC)]]
+
+## 7. 출처
+
+- [MedlinePlus: Urinalysis](https://medlineplus.gov/urinalysis.html)

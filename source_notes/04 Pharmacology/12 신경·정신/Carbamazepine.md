@@ -11,10 +11,18 @@ aliases:
 상품명:
   - "Carbamazepine"
 용량:
-  - "-"
+  - '성인·12세 초과 뇌전증: 200 mg 경구 1일 2회로 시작, 주 단위로 최대 200 mg/day씩 증량; 보통 유지 800-1,200 mg/day'
+  - '최적 반응 후 최소 유효 용량으로 감량하며 제형, 혈중농도, 상호작용, 간기능·혈구수에 따라 개별화'
 related_diseases:
-  - "-"
+  - '부분발작·전신 강직간대발작'
+  - '삼차신경통'
+  - '양극성장애 일부'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Carbamazepine tablets | https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=697f3e5a-c84b-44a6-b9f3-15e7d9bb6395&type=display'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 카르바마제핀 (carbamazepine)
@@ -62,7 +70,7 @@ sources_ref: "openFDA drug label API (US)"
 - 피부계: SJS, TEN, 발진, 광과민성 반응
 - 기타: 저나트륨혈증, 간 기능 이상, 부정맥, 방실차단
 
-#### 주의
+#### 모니터링 및 주의
 - 중증 피부 반응(SJS, TEN) 위험: 아시아인에서 HLA-B*1502 유전자 보유 시 위험 증가하므로 투여 전 유전자 검사 고려
 - 과민 반응: HLA-A*3101 유전자 보유 시 과민 반응 위험 증가
 - 발진 발생 시 즉시 투여 중단 고려

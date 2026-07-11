@@ -15,6 +15,11 @@ aliases:
 related_diseases:
   - "만성 C형간염"
 sources_ref: "openFDA 및 공식 sofosbuvir/HCV DAA 허가자료; HCV direct-acting antiviral 운용 원칙 반영"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed SOFOSBUVIR (Sovaldi) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 소포스부비르 (sofosbuvir)
@@ -58,7 +63,7 @@ sources_ref: "openFDA 및 공식 sofosbuvir/HCV DAA 허가자료; HCV direct-act
 - 오심
 - 병용 regimen에서는 빈혈 등 동반 약물 부작용이 더 중요할 수 있습니다.
 
-#### 주의
+#### 모니터링 및 주의
 - HBV coinfection이 있으면 HCV 치료 중 HBV reactivation 가능성을 평가해야 합니다.
 - cirrhosis 여부, 신기능, 이전 치료 실패력에 따라 regimen 선택이 달라집니다.
 - 완치율이 높아도 복약 순응도와 약물상호작용 관리가 중요합니다.

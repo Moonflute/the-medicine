@@ -14,8 +14,14 @@ aliases:
 용량:
   - "50-150mg Cap. 적응증별 조절."
 related_diseases:
-  - "-"
+  - '칸디다증'
+  - '크립토코쿠스 수막염'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed FLUCONAZOLE (FLUCONAZOLE) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8aa296e2-ad8d-42f6-8b41-468e2b9cdfb8'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 플루코나졸 (fluconazole)
@@ -64,7 +70,7 @@ sources_ref: "openFDA drug label API (US)"
 - 중증 부작용: 간염, 담즙울체, 간부전, QT 연장, 토르사드 드 포인트(Torsade de pointes), 아나필락시스, 스티븐스-존슨 증후군.
 - 혈액학적 이상: 백혈구 감소증, 중성구 감소증, 혈소판 감소증.
 
-#### 주의
+#### 모니터링 및 주의
 - 간독성: 간 기능 이상 환자에게 주의하며, 간 기능 수치(AST, ALT 등) 이상 발생 시 모니터링 필요.
 - 피부 반응: 박탈성 피부 질환 등 중증 피부 반응 발생 시 투여 중단.
 - 태아 위험: 임신 중 고용량 투여 시 태아 기형 보고가 있으므로 주의 필요.

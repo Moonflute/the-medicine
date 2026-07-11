@@ -11,7 +11,8 @@ aliases:
 상품명:
   - "PRAZIQUANTEL"
 용량:
-  - "-"
+  - '주혈흡충증: 20 mg/kg을 1일 3회, 4~6시간 간격으로 1일간 경구 투여'
+  - '간흡충증: 25 mg/kg을 1일 3회, 4~6시간 간격으로 1일간 경구 투여'
 related_diseases:
   - "-"
 sources_ref: "openFDA drug label API (US)"

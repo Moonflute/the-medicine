@@ -399,3 +399,4 @@ export function buildLabImgOverviewGroups(note: DomainNote, allNotes: DomainNote
 }
 
 
+

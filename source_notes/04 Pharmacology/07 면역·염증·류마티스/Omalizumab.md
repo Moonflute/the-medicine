@@ -13,10 +13,19 @@ aliases:
   - "Xolair PFS"
   - "Xolair"
 용량:
-  - "-"
+  - '천식, 비부비동염, 식품 알레르기: 치료 전 혈청 총 IgE 농도와 체중을 기준으로 용량(75~600mg) 및 투여 주기(2주 또는 4주) 결정'
+  - '만성 특발성 두드러기: IgE 농도나 체중과 무관하게 150mg 또는 300mg을 4주마다 투여'
 related_diseases:
-  - "-"
+  - '중등도-중증 알레르기 천식'
+  - '비용종 동반 만성 비부비동염'
+  - '만성 자발성 두드러기'
+  - 'IgE 매개 식품 알레르기'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed OMALIZUMAB (XOLAIR) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7f6a2191-adfb-48b9-9bfa-0d9920479f0d'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 오말리주맙 (omalizumab)
@@ -60,7 +69,7 @@ sources_ref: "openFDA drug label API (US)"
 - 비부비동염/식품 알레르기: 주사 부위 반응, 두통, 관절통, 상복부 통증
 - 만성 특발성 두드러기: 구역, 비인두염, 부비동염, 상기도 감염, 기침
 
-#### 주의
+#### 모니터링 및 주의
 - 아나필락시스 위험: 투여 후 적절한 관찰 필요, 의료진의 관리 하에 투여 시작
 - 악성 종양: 임상 시험에서 악성 종양 사례가 보고됨
 - 급성 증상: 급성 기관지 경련이나 아나필락시스 응급 처치용으로 사용 불가

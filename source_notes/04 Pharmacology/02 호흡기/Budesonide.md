@@ -16,6 +16,11 @@ aliases:
 related_diseases:
   - "천식"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed BUDESONIDE (Budesonide Inhalation Suspension) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 부데소니드 (budesonide)
@@ -53,7 +58,7 @@ sources_ref: "openFDA drug label API (US)"
 - 쉰목소리
 - 전신 흡수 시 부신억제 드묾
 
-#### 주의
+#### 모니터링 및 주의
 - 흡입 technique가 틀리면 약효가 떨어지므로 교육과 재확인이 필요하다.
 - 급성 증상 완화제인지 유지 조절제인지 역할을 구분해야 한다.
 - 증상 빈도, rescue use, 야간 증상, 산소포화도, 악화 빈도를 추적한다.

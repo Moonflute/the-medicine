@@ -16,6 +16,11 @@ aliases:
 related_diseases:
   - "전립선비대증"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed TAMSULOSIN HYDROCHLORIDE (Tamsulosin Hydrochloride) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e9372720-bd02-e4a6-0afd-42fe0c661c00'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 탐술로신 (tamsulosin)
@@ -59,7 +64,7 @@ sources_ref: "openFDA drug label API (US)"
 - 드물게 지속발기증(priapism) 발생 가능
 - 백내장 또는 녹내장 수술 시 '수술 중 홍채 이완 증후군(IFIS)' 발생 가능
 
-#### 주의
+#### 모니터링 및 주의
 - 기립성 저혈압 증상(어지러움, 현기증)이 나타날 수 있으므로 운전이나 위험한 기계 조작 시 주의합니다.
 - 치료 시작 전 및 정기적으로 전립선암 검진을 시행합니다.
 - 백내장이나 녹내장 수술 예정인 경우, 안과 의사에게 본제 복용 사실을 반드시 알립니다.

@@ -14,8 +14,15 @@ aliases:
 용량:
   - "400mg Tab. 1일 1회."
 related_diseases:
-  - "-"
+  - '만성 골수성 백혈병'
+  - '필라델피아 염색체 양성 급성 림프구성 백혈병'
+  - '위장관 기질종양'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed IMATINIB (Imatinib Mesylate) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9131b2ce-752d-3a30-e053-2a95a90adaab'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 이마티닙 (imatinib)
@@ -52,7 +59,7 @@ sources_ref: "openFDA drug label API (US)"
 - 간질성 폐질환 일부
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 

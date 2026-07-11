@@ -9,13 +9,17 @@ aliases:
   - "timolol"
   - "티몰롤"
 상품명:
-  - "티모프틱점안액"
-  - "DORZOLAMIDE HYDROCHLORIDE TIMOLOL MALEATE"
+  - 'Timoptic'
 용량:
   - "1일 1-2회 1방울."
 related_diseases:
   - "녹내장"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed TIMOLOL MALEATE (Timoptic in Ocudose) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16323b0e-78ae-40e5-be93-04f698dd672b'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 티몰롤 (timolol)
@@ -59,7 +63,7 @@ sources_ref: "openFDA drug label API (US)"
 - 안과적: 안구 작용/따가움, 결막 충혈, 시야 흐림, 각막염, 안구 가려움, 눈물 분비 증가
 - 전신적: 미각 이상(쓴맛 등), 서맥, 심부전, 호흡곤란, 기관지 경련, 어지러움, 피로, 우울감
 
-#### 주의
+#### 모니터링 및 주의
 - 호흡기: 천식이나 COPD 환자에게는 치명적인 기관지 경련을 유발할 수 있으므로 주의한다.
 - 심혈관계: 심부전 징후가 나타나면 즉시 투여를 중단하고 모니터링한다.
 - 당뇨병: 저혈당 증상(빈맥 등)을 은폐할 수 있으므로 주의가 필요하다.

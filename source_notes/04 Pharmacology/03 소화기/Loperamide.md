@@ -14,12 +14,18 @@ aliases:
 용량:
   - "2mg Cap. 설사 시, 최대용량 확인."
 related_diseases:
-  - "-"
+  - '급성 비특이성 설사'
+  - '만성 설사'
 sources_ref: "식약처 e약은요(의약품개요정보) API getDrbEasyDrugList; 국내 허가는 의약품안전나라로 재확인"
 nedrug_item_seq: "200001712"
 nedrug_product_name: "삼남로페라마이드캡슐(로페라미드염산염)"
 nedrug_entp_name: "삼남제약(주)"
 easy_drug_update_de: "2024-02-07"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed LOPERAMIDE HYDROCHLORIDE (Loperamide Hydrochloride) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ca8de42f-8aea-4e35-ab3a-75ecea718f4f'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 로페라마이드 (loperamide)
@@ -65,7 +71,7 @@ easy_drug_update_de: "2024-02-07"
 - 드문 부작용: 발진, 두드러기, 소양감, 장폐색증, 복부팽만, 소화불량, 졸음, 어지러움.
 - 매우 드문 부작용: 급성 췌장염, 혈관부종, 스티븐스-존슨 증후군, 아나필락시스 쇼크, 뇨저류.
 
-#### 주의
+#### 모니터링 및 주의
 - 간장애 환자, AIDS 환자, 임부 및 수유부, 고령자는 투여 전 전문가와 상의하십시오.
 - 복용 후 졸음, 어지러움이 나타날 수 있으므로 운전이나 기계 조작 시 주의가 필요합니다.
 - 증상 개선이 없는 경우 투여를 중단하고 원인 질환에 대한 재평가가 필요합니다.

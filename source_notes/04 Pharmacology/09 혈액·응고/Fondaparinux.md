@@ -11,10 +11,18 @@ aliases:
 상품명:
   - "Fondaparinux Sodium"
 용량:
-  - "-"
+  - 'DVT/PE 치료: 체중 <50 kg은 5 mg, 50-100 kg은 7.5 mg, >100 kg은 10 mg SC 1일 1회'
+  - '수술 후 DVT 예방: 2.5 mg SC 1일 1회; 수술 후 지혈이 확립된 뒤 시작하며 중증 신기능저하에서는 금기'
 related_diseases:
-  - "-"
+  - '심부정맥혈전증'
+  - '폐색전증'
+  - '수술 후 정맥혈전색전증 예방'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed ARIXTRA (fondaparinux) injection | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d3b30c68-cf45-4b46-8ba6-72090f7ba01a'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 폰다파리눅스 (fondaparinux)
@@ -60,7 +68,7 @@ sources_ref: "openFDA drug label API (US)"
 - 가장 흔한 부작용은 출혈 합병증
 - 빈혈, 혈소판 감소증, 주사 부위 반응
 
-#### 주의
+#### 모니터링 및 주의
 - 척추/경막외 마취 시 혈종 발생 및 영구적 마비 위험 (신경학적 증상 모니터링 필요)
 - 출혈 위험이 높은 환자(응고장애, 위장관 궤양, 최근 뇌/척추/안과 수술 등) 주의
 - 신장애 환자에서 출혈 위험 증가 (주기적 신기능 평가 필요)

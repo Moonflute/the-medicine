@@ -11,10 +11,19 @@ aliases:
 상품명:
   - "Desmopressin Acetate"
 용량:
-  - "-"
+  - '중추성 요붕증: 초기 0.05 mg을 1일 2회 투여하며, 반응에 따라 0.1~1.2 mg을 2~3회 분할 투여'
+  - '일차성 야뇨증: 6세 이상 소아 대상, 취침 전 0.2 mg으로 시작하여 최대 0.6 mg까지 증량 가능'
 related_diseases:
-  - "-"
+  - '중추성 요붕증'
+  - '혈우병 A'
+  - 'von Willebrand disease type 1'
+  - '야뇨증'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed DESMOPRESSIN ACETATE (Desmopressin Acetate) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d87168b9-f103-4ba5-b0b3-0656d1c81da2'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 데스모프레신 (desmopressin)
@@ -57,7 +66,7 @@ sources_ref: "openFDA drug label API (US)"
 - 기타: 체중 증가, 부종, 설사, 비정상적 사고
 - 드물게 저나트륨혈증성 경련 보고
 
-#### 주의
+#### 모니터링 및 주의
 - 수분 중독 및 저나트륨혈증 위험: 강력한 항이뇨 작용으로 인해 발생 가능하며 치명적일 수 있음
 - 수분 섭취 제한: 투여 중 수분 섭취를 조절하여 수분 중독 예방 필요
 - 저나트륨혈증 징후 관찰: 두통, 구역, 구토, 체중 증가, 혼란, 경련 등 발생 시 즉시 확인

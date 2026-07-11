@@ -16,6 +16,11 @@ aliases:
 related_diseases:
   - "심부전"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed FUROSEMIDE (Furosemide) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=febeaf8c-0f4b-cc40-e053-6394a90a873e'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 푸로세마이드 (furosemide)
@@ -62,7 +67,7 @@ sources_ref: "openFDA drug label API (US)"
 - 혈액계: 재생불량성 빈혈, 혈소판 감소증, 백혈구 감소증.
 - 대사/기타: 고혈당, 고요산혈증, 기립성 저혈압, 근육 경련.
 
-#### 주의
+#### 모니터링 및 주의
 - 과도한 이뇨로 인한 수분 및 전해질 고갈 위험.
 - 간경변 환자는 간성 혼수 예방을 위해 엄격한 관찰 필요.
 - 신질환 환자에서 질소혈증 및 핍뇨 발생 시 투여 중단.

@@ -14,12 +14,21 @@ aliases:
 용량:
   - "200-400mg Tab. 필요 시."
 related_diseases:
-  - "-"
+  - '경증-중등도 통증'
+  - '발열'
+  - '원발성 월경통'
+  - '류마티스관절염'
+  - '골관절염'
 sources_ref: "식약처 e약은요(의약품개요정보) API getDrbEasyDrugList; 국내 허가는 의약품안전나라로 재확인"
 nedrug_item_seq: "197700120"
 nedrug_product_name: "부루펜정200밀리그램(이부프로펜)"
 nedrug_entp_name: "삼일제약(주)"
 easy_drug_update_de: "2025-03-24"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed IBUPROFEN (Ibuprofen) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0a98cce4-f5c0-12a8-e063-6294a90a4e7e'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 이부프로펜 (ibuprofen)
@@ -67,7 +76,7 @@ easy_drug_update_de: "2025-03-24"
 - 피부/과민반응: 스티븐스-존슨증후군, 독성표피괴사용해, 아나필락시스, 발진
 - 기타: 급성 신부전, 간기능 이상, 심부전, 심근경색, 무균성 수막염, 시각/청각 장애
 
-#### 주의
+#### 모니터링 및 주의
 - 심혈관계 혈전 반응 및 위장관계 이상반응 위험이 있으므로 최소 유효 용량을 단기간 사용한다.
 - 매일 3잔 이상 정기적 음주자는 복용 전 의사/약사와 상의한다.
 - 감기 증상 시 5일 이내 복용 원칙, 통증 시 10일(성인) 또는 5일(소아) 이상 장기 복용을 금한다.

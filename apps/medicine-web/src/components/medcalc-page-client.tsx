@@ -537,6 +537,9 @@ export function MedCalcPageClient() {
         <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">
           Expanded with bedside scores and formula calculators commonly used in wards, ER, ICU, nephrology, hepatology, and cardiology.
         </p>
+        <div className="mt-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-900">
+          계산 결과는 보조 도구입니다. 입력 단위, 적용 대상, 최신 공식과 기관 protocol을 확인하고 임상 판단을 대체하지 마세요.
+        </div>
       </header>
 
       <section className="space-y-4">

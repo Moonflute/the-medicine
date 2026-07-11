@@ -14,12 +14,19 @@ aliases:
 용량:
   - "200-400mg Tab. 1일 여러 회."
 related_diseases:
-  - "-"
+  - '단순포진 감염'
+  - '대상포진'
+  - '수두'
 sources_ref: "식약처 e약은요(의약품개요정보) API getDrbEasyDrugList; 국내 허가는 의약품안전나라로 재확인"
 nedrug_item_seq: "199100156"
 nedrug_product_name: "메노바크림(아시클로버)"
 nedrug_entp_name: "동광제약(주)"
 easy_drug_update_de: "2021-10-01"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed ACYCLOVIR (ACYCLOVIR) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=85332671-0e3a-4445-a337-e1266886b9cf'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 아시클로버 (acyclovir)
@@ -58,7 +65,7 @@ easy_drug_update_de: "2021-10-01"
 - 도포 부위: 작열감, 자통, 가려움, 접촉피부염, 홍반, 피부 벗겨짐.
 - 전신 반응: 알레르기 반응, 안면 부종, 두드러기.
 
-#### 주의
+#### 모니터링 및 주의
 - 면역결핍 환자(에이즈, 골수이식 등)는 투여 전 의사와 상담해야 한다.
 - 외용제는 안과용(각막, 점막)으로 사용하지 않으며, 감염 확산 방지를 위해 도포 시 장갑 등을 착용한다.
 - 타인에게 감염 예방 목적으로 사용하지 않는다.

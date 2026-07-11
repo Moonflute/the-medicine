@@ -9,12 +9,21 @@ aliases:
   - "ampicillin"
   - "암피실린"
 상품명:
-  - "Ampicillin and Sulbactam"
+  - 'Ampicillin for Injection'
 용량:
-  - "-"
+  - '성인 주사제 일반 감염: 250-500 mg IV/IM every 6 hours; 감염 부위·중증도·균 감수성·신기능에 따라 조정'
+  - '성인 패혈증: 150-200 mg/kg/day IV, 3-4시간마다 분할 투여'
 related_diseases:
-  - "-"
+  - '감수성 세균 감염'
+  - '패혈증'
+  - '세균성 수막염'
+  - '호흡기·위장관·비뇨생식기 감염'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Ampicillin for Injection | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=38ec7b7a-9caf-45f2-88a1-0f78f089a1e4&version=25'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 암피실린 (ampicillin)
@@ -53,7 +62,7 @@ sources_ref: "openFDA drug label API (US)"
 - 설사
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 배양 결과가 나오면 가능한 de-escalation 또는 중단 시점을 같이 판단한다.
 - 알레르기 병력, 신기능, 간기능, C. difficile 위험을 같이 본다.
 - 체온, 백혈구, CRP, 배양 결과, 임상적 호전 여부를 함께 본다.

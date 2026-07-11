@@ -18,6 +18,11 @@ related_diseases:
   - "복강내 감염"
   - "요로감염"
 sources_ref: "DailyMed official labels (ceftriaxone injection; ceftriaxone sodium injection)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed CEFTRIAXONE (Ceftriaxone) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86ec0a92-a552-4a6d-9125-a54f95e43392'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 세프트리악손 (ceftriaxone)
@@ -73,7 +78,7 @@ sources_ref: "DailyMed official labels (ceftriaxone injection; ceftriaxone sodiu
 - C. difficile infection
 - 드물게 encephalopathy, seizure, myoclonus
 
-#### 주의
+#### 모니터링 및 주의
 - 항생제는 배양 채취 후 시작하되, 결과가 나오면 de-escalation 가능성을 항상 점검한다.
 - 신생아에서는 `bilirubin displacement`와 `ceftriaxone-calcium precipitation` 문제가 핵심이다.
 - 성인과 소아 일반군에서는 경증-중등도 renal/hepatic dysfunction에서 dose adjustment가 항상 필요한 것은 아니지만, 중증 신부전이나 신경학적 이상반응이 있으면 더 면밀히 본다.

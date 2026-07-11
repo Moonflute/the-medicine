@@ -14,8 +14,13 @@ aliases:
 용량:
   - "2.5mg Tab. 1일 1회."
 related_diseases:
-  - "-"
+  - '호르몬수용체 양성 유방암'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed LETROZOLE (Letrozole) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cb1da0ac-8db1-4482-824d-430511d1b7a0'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 레트로졸 (letrozole)
@@ -57,7 +62,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔한 부작용: 안면 홍조, 관절통, 피로, 부종, 두통, 어지러움, 고콜레스테롤혈증, 발한 증가, 근골격계 통증
 - 기타: 골다공증, 골절, 오심, 체중 변화, 질 출혈, 우울감
 
-#### 주의
+#### 모니터링 및 주의
 - 골밀도 감소 및 골절 위험이 있으므로 정기적인 골밀도(BMD) 모니터링을 고려합니다.
 - 고콜레스테롤혈증 발생 가능성이 있으므로 혈중 콜레스테롤 수치를 확인합니다.
 - 피로, 어지러움, 졸음이 나타날 수 있으므로 기계 조작이나 운전 시 주의가 필요합니다.

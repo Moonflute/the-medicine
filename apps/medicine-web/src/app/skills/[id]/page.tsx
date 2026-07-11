@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { AlertTriangle, CheckSquare, ChevronRight, Info, Link2, ListOrdered, Stethoscope, VideoOff } from "lucide-react";
 import { getAllSkills, getSkillById } from "@/lib/webdb";
 import { ParentPageFab } from "@/components/parent-page-fab";
+import { ReviewSaveButton } from "@/components/review-save-button";
 
 export const dynamicParams = false;
 
@@ -31,6 +32,9 @@ export default async function SkillDetailPage(props: { params: Promise<{ id: str
         <span className="font-medium text-slate-950">{skill.name}</span>
       </div>
 
+      <div className="flex justify-end">
+        <ReviewSaveButton item={{ type: "skill", id: `skill:${skill.id}`, title: skill.name, href: `/skills/${skill.id}`, category: skill.categoryName, summary: skill.summary[0] || skill.indications[0] || "" }} />
+      </div>
       <header className="rounded-lg border border-slate-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
         <h1 className="flex items-center gap-3 text-4xl font-semibold  text-slate-950">
           <Stethoscope className="h-8 w-8 text-teal-700" />

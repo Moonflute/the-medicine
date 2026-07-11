@@ -16,6 +16,11 @@ aliases:
 related_diseases:
   - "갑상선기능항진증"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed PROPYLTHIOURACIL (PROPYLTHIOURACIL) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a032648a-a6e4-4356-a483-8eee03779030'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 프로필티오우라실 (propylthiouracil)
@@ -55,7 +60,7 @@ sources_ref: "openFDA drug label API (US)"
 - 무과립구증
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 장기 추적이 필요한 경우가 많아 검사 수치와 생활습관 개입을 함께 본다.
 - 저혈당, 체중 변화, 전해질 이상, 골대사 영향 같은 class effect를 같이 평가한다.
 - 혈당, HbA1c, 체중, 신기능, 전해질, 호르몬 수치를 적응증에 맞게 추적한다.

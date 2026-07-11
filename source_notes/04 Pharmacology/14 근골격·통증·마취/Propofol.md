@@ -11,10 +11,18 @@ aliases:
 상품명:
   - "propofol"
 용량:
-  - "-"
+  - '성인 65세 미만 ASA I-II 전신마취 유도: 2-2.5 mg/kg IV를 임상 반응까지 적정'
+  - '고령·쇠약·ASA III-IV: 대개 1-1.5 mg/kg IV; 급속 bolus를 피하고 전문적인 기도·심폐 모니터링 하 투여'
 related_diseases:
-  - "-"
+  - '전신마취 유도·유지'
+  - '모니터 마취관리 진정'
+  - '삽관·기계환기 성인 ICU 진정'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Propofol injectable emulsion | https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=28d7ba00-f824-4e55-139a-03f509c099db'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 프로포폴 (propofol)
@@ -51,7 +59,7 @@ sources_ref: "openFDA drug label API (US)"
 - 회복 지연
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 

@@ -11,10 +11,18 @@ aliases:
 상품명:
   - "Phenytoin Sodium"
 용량:
-  - "-"
+  - '성인 부하 용량: 10~15 mg/kg (분당 50 mg 이하의 속도로 투여)'
+  - '소아 부하 용량: 15~20 mg/kg (분당 1~3 mg/kg 또는 50 mg 중 느린 속도로 투여)'
 related_diseases:
-  - "-"
+  - '전신 강직간대발작'
+  - '복합부분발작'
+  - '뇌전증 지속상태'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed PHENYTOIN (Phenytoin Infatabs) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3580e6a8-f7c3-44a0-a1eb-2a84ae589d21'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 페니토인 (phenytoin)
@@ -61,7 +69,7 @@ sources_ref: "openFDA drug label API (US)"
 - 심혈관계: 서맥, 부정맥, 저혈압
 - 기타: 피부 발진, 엽산 결핍성 빈혈, 고혈당, 안면 특징의 거칠어짐
 
-#### 주의
+#### 모니터링 및 주의
 - 급격한 정맥 투여 시 저혈압, 부정맥, 심정지 등 심혈관계 위험 증가
 - 갑작스러운 중단 시 발작 빈도 증가 및 뇌전증 지속상태 유발 가능(점진적 감량 필요)
 - 스티븐스-존슨 증후군(SJS), 독성 표피 괴사용해(TEN), DRESS 증후군 등 중증 피부 반응 위험(발진 시 즉시 중단)

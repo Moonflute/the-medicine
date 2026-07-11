@@ -16,6 +16,11 @@ aliases:
 related_diseases:
   - "심부전"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed SPIRONOLACTONE (Spironolactone) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=56050192-c499-64bd-e063-6294a90acbeb'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 스피로노락톤 (spironolactone)
@@ -66,7 +71,7 @@ sources_ref: "openFDA drug label API (US)"
 - 생식기계: 성욕 감퇴, 발기부전, 월경 불순
 - 기타: 근육 경련, 어지러움, 두통, 드물게 간독성 및 피부 발진(SJS/TEN 등)
 
-#### 주의
+#### 모니터링 및 주의
 - 고칼륨혈증 위험: 투여 시작 및 용량 변경 후 1주일 이내 혈청 칼륨 농도 모니터링 필수
 - 저혈압 및 신기능 악화: 과도한 이뇨로 인한 탈수 및 신기능 저하 주의
 - 전해질 불균형: 저나트륨혈증, 저마그네슘혈증, 저칼슘혈증, 고요산혈증 발생 가능

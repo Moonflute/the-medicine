@@ -13,12 +13,17 @@ aliases:
 용량:
   - "1일 1정씩 21일간 표시된 순서에 따라 복용하고, 7일간 휴약합니다."
 related_diseases:
-  - "-"
+  - '경구 호르몬 피임'
 sources_ref: "식약처 e약은요(의약품개요정보) API getDrbEasyDrugList; 국내 허가는 의약품안전나라로 재확인"
 nedrug_item_seq: "202106656"
 nedrug_product_name: "굿포미정"
 nedrug_entp_name: "조아제약(주)"
 easy_drug_update_de: "2023-08-18"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Levonorgestrel/ethinyl estradiol tablets | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=44fbc5ae-5682-471f-a12a-955e8b4d233a'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 에티닐에스트라디올 (ethinylestradiol)
@@ -63,7 +68,7 @@ easy_drug_update_de: "2023-08-18"
 - 생식기계: 월경외 출혈, 무월경, 유방통, 질염
 - 기타: 두통, 편두통, 우울증, 체중 변화, 기미, 부종
 
-#### 주의
+#### 모니터링 및 주의
 - 혈전증 위험이 있으므로 흡연자는 복용을 삼가야 하며, 특히 35세 이상 흡연자에게는 투여하지 않습니다.
 - 복용 중 심한 위장관계 질환 발생 시 흡수 저하로 피임 효과가 감소할 수 있으므로 주의가 필요합니다.
 - 고혈압, 비만, 간질, 편두통, 당뇨병 환자는 복용 전 의사와 충분히 상의해야 합니다.

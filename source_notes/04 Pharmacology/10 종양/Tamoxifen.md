@@ -14,8 +14,15 @@ aliases:
 용량:
   - "20mg Tab. 1일 1회."
 related_diseases:
-  - "-"
+  - '에스트로겐수용체 양성 유방암'
+  - '관상피내암'
+  - '유방암 위험 감소'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed TAMOXIFEN CITRATE (Tamoxifen Citrate) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=509f8ba3-214d-aec8-e063-6294a90af498'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 타목시펜 (tamoxifen)
@@ -58,7 +65,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔한 부작용: 안면 홍조(hot flashes), 기분 변화, 질 분비물, 질 출혈, 오심, 체액 저류
 - 기타: 자궁내막 변화(폴립, 증식증), 난소 낭종, 월경 불규칙, 혈전색전증, 간 기능 수치 상승
 
-#### 주의
+#### 모니터링 및 주의
 - 자궁내막암 및 자궁육종 위험 증가: 비정상적인 질 출혈 시 즉시 평가 필요
 - 혈전색전증 위험: 화학요법 병용 시 위험 증가
 - 태아 독성: 임신 중 투여 금지 및 가임기 여성의 효과적인 피임 권고

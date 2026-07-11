@@ -38,3 +38,4 @@ export function DiseaseSectionIcon({ title, className }: { title: string; classN
 
   return <Icon className={className} />;
 }
+

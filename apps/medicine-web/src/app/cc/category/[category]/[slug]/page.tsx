@@ -3,7 +3,9 @@ import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import { ChiefComplaintDetailTabs } from "@/components/chief-complaint-detail-tabs";
 import { ParentPageFab } from "@/components/parent-page-fab";
-import { getChiefComplaintByCategoryAndSlug, getChiefComplaintCategories, getChiefComplaintsByCategory, getDiseaseLinks } from "@/lib/webdb";
+import { ReviewSaveButton } from "@/components/review-save-button";
+import { RelatedClinicalContent } from "@/components/related-clinical-content";
+import { getChiefComplaintByCategoryAndSlug, getChiefComplaintCategories, getChiefComplaintsByCategory, getClinicalRelationsFor, getDiseaseLinks } from "@/lib/webdb";
 
 export function generateStaticParams() {
   return getChiefComplaintCategories().flatMap((category) =>
@@ -20,6 +22,7 @@ export default async function ChiefComplaintDetailByCategoryPage(props: { params
   const diseaseLinks = getDiseaseLinks();
 
   if (!note) notFound();
+  const relations = getClinicalRelationsFor("cc", note.id);
 
   return (
     <div className="space-y-6">
@@ -35,7 +38,11 @@ export default async function ChiefComplaintDetailByCategoryPage(props: { params
         <span className="font-medium text-slate-950">{note.title}</span>
       </div>
 
+      <div className="flex justify-end">
+        <ReviewSaveButton item={{ type: "cc", id: note.id, title: note.title, href: `/cc/category/${params.category}/${note.slug}`, category: note.category || "Chief Complaint", summary: note.concept[0] || note.differentials[0] || "" }} />
+      </div>
       <ChiefComplaintDetailTabs note={note} diseaseLinks={diseaseLinks} />
+      <RelatedClinicalContent relations={relations} />
       <ParentPageFab href={`/cc/category/${params.category}`} />
     </div>
   );

@@ -14,8 +14,16 @@ aliases:
 용량:
   - "서방정. 용량은 혈중농도/적응증별 조절."
 related_diseases:
-  - "-"
+  - '복합부분발작'
+  - '단순·복합 결신발작'
+  - '양극성장애 조증'
+  - '편두통 예방'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed VALPROATE SODIUM (Valproate Sodium) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8d5fc1c1-d3c0-497e-971b-6c4dba9a3fad'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 발프로에이트 (valproate)
@@ -63,7 +71,7 @@ sources_ref: "openFDA drug label API (US)"
 - 주사 부위 반응: 통증, 염증
 - 기타: 탈모, 체중 변화, 떨림, 시야 흐림, 혈소판 감소증
 
-#### 주의
+#### 모니터링 및 주의
 - 간독성: 치료 초기 6개월간 간 기능 검사 및 증상 모니터링 필수
 - 태아 기형: 임신 중 노출 시 지능 저하, 신경발달 장애, 신경관 결손 위험
 - 췌장염 발생 가능성

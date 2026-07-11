@@ -11,10 +11,16 @@ aliases:
 상품명:
   - "Glucagon"
 용량:
-  - "-"
+  - '중증 저혈당 성인·체중 >25 kg 소아: 1 mg SC/IM(IV는 의료감독 하); 15분 무반응 시 새 kit로 1 mg 추가 가능하며 즉시 응급지원 요청'
+  - '체중 <25 kg 소아: 0.5 mg SC/IM; 반응 후 의식과 연하가 회복되면 경구 탄수화물로 재저혈당 예방'
 related_diseases:
-  - "-"
+  - '당뇨병 환자의 중증 저혈당'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Glucagon emergency kit | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0845f53-edad-e28f-e053-2995a90a31cf'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 글루카곤 (glucagon)
@@ -47,7 +53,7 @@ sources_ref: "openFDA drug label API (US)"
 - 약물별 특이 부작용
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 

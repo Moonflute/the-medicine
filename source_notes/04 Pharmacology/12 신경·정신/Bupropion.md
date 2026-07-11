@@ -11,10 +11,19 @@ aliases:
 상품명:
   - "buPropion Hydrochloride XL"
 용량:
-  - "-"
+  - '주요 우울 장애(MDD): 150mg 1일 1회 시작, 4일 후 300mg 1일 1회로 증량 가능'
+  - '계절성 정동 장애(SAD): 150mg 1일 1회 시작, 7일 후 300mg 1일 1회로 증량 가능'
+  - '간 기능 장애: 중등도~중증 환자는 150mg 격일 투여, 경증은 용량 및 빈도 조절 고려'
 related_diseases:
-  - "-"
+  - '주요우울장애'
+  - '계절성 정동장애'
+  - '금연치료'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed BUPROPION HYDROCHLORIDE (Bupropion Hydrochloride) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=867d3876-6974-4e89-bc45-9e60e84b401c'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 부프로피온 (bupropion)
@@ -60,7 +69,7 @@ sources_ref: "openFDA drug label API (US)"
 #### 부작용
 - 흔한 부작용: 구강 건조, 오심, 불면, 어지러움, 복통, 초조, 불안, 진전, 두근거림, 발한, 이명, 식욕부진, 빈뇨, 발진
 
-#### 주의
+#### 모니터링 및 주의
 - 발작 위험: 용량 의존적이며 1일 최대 450mg 초과 금지
 - 신경정신학적 반응: 금연 치료 중 기분 변화, 정신병, 자살 사고 등 발생 가능성 모니터링
 - 혈압 상승: 치료 시작 전 및 치료 중 주기적 혈압 모니터링

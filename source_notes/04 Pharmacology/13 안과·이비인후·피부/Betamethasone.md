@@ -11,10 +11,16 @@ aliases:
 상품명:
   - "Betamethasone Dipropionate"
 용량:
-  - "-"
+  - 'Betamethasone dipropionate augmented cream 0.05%: 병변에 얇게 1일 1-2회 도포, 조절되면 중단'
+  - '고역가 국소 스테로이드로 50 g/week를 넘기지 않고 얼굴·서혜부·액와·피부위축 부위 및 임의 밀봉요법을 피함'
 related_diseases:
-  - "-"
+  - '스테로이드 반응성 염증성·소양성 피부질환'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Betamethasone dipropionate augmented cream | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7bd2646c-f34a-4824-8f66-c41e77db19d2'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 베타메타손 (betamethasone)
@@ -48,7 +54,7 @@ sources_ref: "openFDA drug label API (US)"
 - 전신 흡수 부작용 일부
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 

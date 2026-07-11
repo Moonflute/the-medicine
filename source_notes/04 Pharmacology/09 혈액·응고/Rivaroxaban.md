@@ -19,6 +19,11 @@ related_diseases:
   - "심부정맥혈전증"
   - "폐색전증"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed RIVAROXABAN (RIVAROXABAN) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=481b7802-5093-43e7-bbd9-1532197eb6e6'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 리바록사반 (rivaroxaban)
@@ -65,7 +70,7 @@ sources_ref: "openFDA drug label API (US)"
 - 가장 흔한 부작용은 출혈(위장관 출혈, 두개내 출혈 등)
 - 소아 환자에서 출혈, 기침, 구토, 위장염 보고
 
-#### 주의
+#### 모니터링 및 주의
 - 출혈 위험: 중대한 치명적 출혈을 유발할 수 있음
 - 조기 중단 시 혈전 발생 위험 증가
 - 척추/경막외 마취 또는 천자 시 척추 혈종 발생 위험(마비 가능성)

@@ -11,7 +11,8 @@ aliases:
 상품명:
   - "Naltrexone Hydrochloride"
 용량:
-  - "-"
+  - '알코올 의존증: 1일 1회 50 mg 투여'
+  - 'opioid 의존증: 초기 25 mg 투여 후 금단 증상이 없으면 1일 50 mg으로 증량'
 related_diseases:
   - "-"
 sources_ref: "openFDA drug label API (US)"

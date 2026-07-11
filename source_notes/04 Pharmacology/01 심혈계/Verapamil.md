@@ -17,6 +17,11 @@ related_diseases:
   - "[[고혈압]]"
   - "협심증"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed VERAPAMIL HYDROCHLORIDE (verapamil hydrochloride) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ce9ab27a-e03b-4e40-a0e0-b586cd75dead'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 베라파밀 (verapamil)
@@ -65,7 +70,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔한 부작용: 변비(7.3%), 어지러움, 구역, 두통, 서맥, 저혈압, 부종.
 - 드문 부작용: 방실차단, 호흡곤란, 발진, 간 효소 수치 상승, 치은 비대.
 
-#### 주의
+#### 모니터링 및 주의
 - 심부전: 음성 변력 작용이 있으므로 좌심실 기능 부전 환자에게는 주의 깊게 사용.
 - 저혈압: 투여 중 혈압이 정상 이하로 떨어질 수 있음.
 - 간 효소 수치 상승: 간 기능 모니터링 권장.

@@ -43,7 +43,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:50:16.288Z"
+    "updatedAt": "2026-06-13T17:50:16.288Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Activated Partial Thromboplastin Time (aPTT).md",
@@ -130,7 +136,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:51.734Z"
+    "updatedAt": "2026-06-13T16:02:51.734Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Alanine Aminotransferase (ALT).md",
@@ -191,7 +203,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:48.677Z"
+    "updatedAt": "2026-06-13T17:46:48.677Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Albumin.md",
@@ -251,7 +269,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:49.025Z"
+    "updatedAt": "2026-06-13T17:46:49.025Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Alkaline Phosphatase (ALP).md",
@@ -311,7 +335,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:48.853Z"
+    "updatedAt": "2026-06-13T17:46:48.853Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Arterial Blood Gas Analysis (ABGA).md",
@@ -326,188 +356,114 @@
     "aliases": [
       "ABGA",
       "ABG",
-      "Arterial Blood Gas"
+      "동맥혈가스검사",
+      "acid base"
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Arterial Blood Gas Analysis (ABGA) : oxygenation, ventilation, acid-base status를 동시에 평가하는 검사",
-      "정상범위: `pH` `7.38-7.42`, `PaCO2` `38-42 mmHg`, `PaO2` `75-100 mmHg`"
+      "pH → PaCO2와 HCO3−의 주된 방향 → 보상 → anion gap/delta → 산소화 순으로 읽는다. 수치 계산보다 임상 맥락과 혼합장애를 놓치지 않는 것이 핵심이다."
     ],
     "sections": [
       {
-        "title": "개요",
+        "title": "대표 참고값",
         "content": [
-          "• ABGA는 oxygenation, ventilation, acid-base status를 동시에 평가하는 핵심 검사이다.",
-          "• 응급실, ICU, respiratory failure 평가에서 특히 중요하다.",
-          "• 실제 임상에서는 “산소가 부족한가?”, “이산화탄소를 못 내보내는가?”, “대사성 산-염기 이상이 있는가?”, “보상이 적절한가?”를 한 번에 읽기 위해 사용한다."
+          "• pH 약 7.35–7.45",
+          "• PaCO2 약 35–45 mmHg",
+          "• HCO3− 약 22–26 mmol/L",
+          "기관·장비의 참고범위를 우선한다. 정맥혈가스는 많은 산염기 질문에 보조적으로 쓸 수 있으나 PaO2 평가는 대체하지 못한다."
         ]
       },
       {
-        "title": "검사 원리",
+        "title": "30초 해석 순서",
         "content": [
-          "• ABGA는 arterial blood 속 **gas tension**과 **acid-base balance**를 직접 평가하는 검사이다.",
-          "• `PaO2`는 arterial blood에 녹아 있는 oxygen의 partial pressure, `PaCO2`는 carbon dioxide의 partial pressure를 의미한다.",
-          "• `pH`는 수소 이온 농도의 로그 척도로 혈액의 산성도/알칼리도를 반영한다.",
-          "• `HCO3`는 대개 직접 측정보다는 `pH`와 `PaCO2`를 이용해 Henderson-Hasselbalch 관계식으로 계산되거나 analyzer에서 유도된다.",
-          "• 즉 ABGA의 핵심은 “산소가 충분히 들어오고 있는가”, “이산화탄소를 충분히 배출하고 있는가”, “대사와 호흡의 결과로 산-염기 균형이 어떻게 흔들렸는가”를 한 번에 읽는 것이다.",
-          "• arterial sample을 쓰는 이유는 venous blood보다 **폐를 통과한 뒤의 최종 oxygenation/ventilation 상태**를 더 정확히 반영하기 때문이다.",
-          "• `PaCO2`는 주로 **alveolar ventilation**의 결과를 반영하므로 환기가 떨어지면 올라가고, 과호흡하면 내려간다.",
-          "• `PaO2`는 inspired oxygen, alveolar gas exchange, V/Q mismatch, diffusion limitation, shunt의 영향을 받는다.",
-          "• 따라서 `PaCO2`는 주로 **ventilation marker**, `PaO2`는 주로 **oxygenation marker**로 읽는 것이 기본이다."
+          "1. pH로 acidemia 또는 alkalemia를 확인한다.",
+          "2. PaCO2와 HCO3− 중 pH 변화와 같은 방향으로 설명되는 주된 장애를 정한다.",
+          "3. 예상 보상과 실제 값을 비교해 혼합장애를 찾는다.",
+          "4. metabolic acidosis면 anion gap = Na − (Cl + HCO3−)를 계산하고 albumin 저하를 고려한다.",
+          "5. delta ratio로 고anion gap acidosis에 다른 metabolic disorder가 섞였는지 본다.",
+          "6. PaO2, pulse oximetry, FiO2, 필요 시 A–a gradient로 산소화를 별도 평가한다."
         ]
       },
       {
-        "title": "검체 및 측정 방법",
+        "title": "보상 공식",
         "content": [
-          "• 검체는 주로 `radial artery`에서 채혈한다.",
-          "• `femoral artery`, `brachial artery`를 사용할 수도 있다.",
-          "• 채혈 후 신속 분석이 중요하며, 산소치료 중이라면 동일한 산소 조건에서 해석해야 한다.",
-          "• heparinized syringe를 사용하며, 공기 혼입(air bubble)과 지연 분석은 결과를 왜곡할 수 있다.",
-          "• 산소투여 중이라면 `FiO2`, oxygen flow, device type을 같이 기록해야 해석 가치가 생긴다."
+          "• Metabolic acidosis: 예상 PaCO2 ≈ 1.5 × HCO3− + 8 ± 2",
+          "• Acute respiratory acidosis: PaCO2 10 상승당 HCO3− 약 1 상승",
+          "• Chronic respiratory acidosis: PaCO2 10 상승당 HCO3− 약 3.5–4 상승",
+          "• Acute respiratory alkalosis: PaCO2 10 감소당 HCO3− 약 2 감소",
+          "• Chronic respiratory alkalosis: PaCO2 10 감소당 HCO3− 약 4–5 감소",
+          "공식은 근사치다. 실제 값이 크게 벗어나면 혼합장애를 의심한다."
         ]
       },
       {
-        "title": "정상범위",
+        "title": "흔한 패턴",
         "content": [
-          "• MedlinePlus sea-level 기준 대표 성인 값:",
-          "• `PaO2`: `75-100 mmHg`",
-          "• `PaCO2`: `38-42 mmHg`",
-          "• `pH`: `7.38-7.42`",
-          "• `SaO2`: `94-100%`",
-          "• `HCO3`: `22-28 mmol/L`",
-          "• 실전에서는 `pH 7.35-7.45`, `PaCO2 35-45 mmHg`, `HCO3 22-26 mEq/L` 같은 범위도 널리 사용된다.",
-          "• 고지대에서는 `PaO2` 기준이 더 낮아질 수 있다."
+          "| 패턴 | 흔한 원인 방향 | 확인 |",
+          "|---|---|---|",
+          "| High AG metabolic acidosis | lactate, ketoacid, renal failure, toxin | lactate, ketone, renal function, exposure |",
+          "| Normal AG metabolic acidosis | diarrhea, RTA, saline load | urine studies, GI loss, chloride |",
+          "| Respiratory acidosis | hypoventilation, CNS/약물, COPD, neuromuscular | airway, ventilation, medication |",
+          "| Respiratory alkalosis | hypoxemia, sepsis, pain/anxiety, pregnancy | oxygenation, infection, PE context |",
+          "| Metabolic alkalosis | vomiting/NG loss, diuretic, mineralocorticoid | volume, urine chloride, medication |"
         ]
       },
       {
-        "title": "이상 소견의 해석",
+        "title": "검체·전처리 함정",
         "content": [
-          "• `PaO2 감소`는 hypoxemia를 의미한다.",
-          "• `PaCO2 증가`는 hypoventilation 또는 respiratory acidosis를 시사한다.",
-          "• `PaCO2 감소`는 hyperventilation 또는 respiratory alkalosis를 시사한다.",
-          "• `HCO3 감소`는 metabolic acidosis, `HCO3 증가`는 metabolic alkalosis 또는 chronic respiratory compensation을 시사한다.",
-          "• pH를 먼저 보고, 그 다음 primary disorder와 compensation을 판단하는 순서가 안전하다."
+          "• 공기방울을 제거하고 밀봉한다. 채혈 후 분석 지연과 실온 방치는 세포 대사로 결과를 바꾼다.",
+          "• heparin 과량은 희석오차를 만들 수 있다.",
+          "• 산소 공급 장치와 FiO2, 채혈 시각을 기록한다.",
+          "• pulse oximetry와 맞지 않으면 dyshemoglobinemia, 저관류, 검체 오류를 검토한다."
         ]
       },
       {
-        "title": "5-1. 해석 순서",
+        "title": "Red flags",
         "content": [
-          "1. `pH`를 먼저 보고 acidemia인지 alkalemia인지 판단한다.",
-          "2. `PaCO2`와 `HCO3` 중 어느 쪽 변화가 pH 방향과 맞는지 보고 primary disorder를 찾는다.",
-          "3. compensation이 적절한지 확인한다.",
-          "4. `PaO2`, 필요 시 `A-a gradient`를 이용해 oxygenation 문제를 평가한다.",
-          "5. 임상상과 함께 mixed disorder 가능성을 다시 본다."
+          "• 심한 acidemia/alkalemia와 혈역학 불안정, 부정맥, 의식변화",
+          "• 급성 hypercapnia와 호흡피로 또는 의식저하",
+          "• 산소 공급에도 지속되거나 빠르게 악화하는 저산소혈증",
+          "• lactate 상승과 shock/sepsis 맥락",
+          "• 독성알코올·salicylate 등 중독 의심"
         ]
       },
       {
-        "title": "5-2. 1차 산-염기 장애",
+        "title": "다음 행동",
         "content": [
-          "• `pH 감소 + PaCO2 증가`는 **respiratory acidosis**",
-          "• `pH 증가 + PaCO2 감소`는 **respiratory alkalosis**",
-          "• `pH 감소 + HCO3 감소`는 **metabolic acidosis**",
-          "• `pH 증가 + HCO3 증가`는 **metabolic alkalosis**"
-        ]
-      },
-      {
-        "title": "5-3. 보상(compensation) 해석",
-        "content": [
-          "• compensation은 pH를 완전히 정상화하려는 것이 아니라, **예상 범위 안에서 반대 방향으로 움직이는 생리적 반응**이다.",
-          "• 예상 보상 범위를 크게 벗어나면 mixed acid-base disorder를 의심한다.",
-          "### metabolic acidosis의 예상 보상",
-          "• bedside rule로 흔히 `Expected PaCO2 = 1.5 x HCO3 + 8 ± 2`를 사용한다.",
-          "• 실제 `PaCO2`가 이보다 높으면 동반된 respiratory acidosis, 더 낮으면 동반된 respiratory alkalosis 가능성이 있다.",
-          "### metabolic alkalosis의 예상 보상",
-          "• `Expected PaCO2 ≈ 0.7 x (HCO3 - 24) + 40 ± 2` 정도로 추정한다.",
-          "• 지나치게 높은 `PaCO2`는 추가적인 hypoventilation disorder를 시사할 수 있다.",
-          "### respiratory acidosis의 예상 보상",
-          "• **acute**: `PaCO2`가 10 mmHg 증가할 때 `HCO3`는 약 `1 mEq/L` 증가",
-          "• **chronic**: `PaCO2`가 10 mmHg 증가할 때 `HCO3`는 약 `3.5-4 mEq/L` 증가",
-          "### respiratory alkalosis의 예상 보상",
-          "• **acute**: `PaCO2`가 10 mmHg 감소할 때 `HCO3`는 약 `2 mEq/L` 감소",
-          "• **chronic**: `PaCO2`가 10 mmHg 감소할 때 `HCO3`는 약 `4-5 mEq/L` 감소"
-        ]
-      },
-      {
-        "title": "5-4. oxygenation 해석",
-        "content": [
-          "• `PaO2`가 낮으면 먼저 hypoxemia가 있는지 판단한다.",
-          "• 다만 `PaO2`는 환자가 room air인지, 산소를 얼마나 받고 있는지에 따라 의미가 달라진다.",
-          "• room air에서 `PaO2` 저하가 있으면 V/Q mismatch, diffusion limitation, shunt, hypoventilation 등을 감별해야 한다.",
-          "• `PaCO2`가 높으면서 `PaO2`도 낮다면 단순 hypoventilation 가능성이 있고, `PaCO2`가 정상이거나 낮은데도 `PaO2`가 낮으면 V/Q mismatch나 shunt 가능성을 더 본다."
-        ]
-      },
-      {
-        "title": "5-5. A-a gradient",
-        "content": [
-          "• `A-a gradient`는 alveolus의 산소와 arterial blood의 산소 차이를 보는 개념이다.",
-          "• 임상적으로는 hypoxemia가 단순 저환기 때문인지, 폐 실질/가스교환 문제 때문인지 구분하는 데 도움이 된다.",
-          "• 대략적으로 정상 `A-a gradient`는 나이에 따라 증가하며, bedside에서는 `나이/4 + 4` 정도를 대략적 기준으로 쓰기도 한다.",
-          "• `A-a gradient`가 정상에 가깝고 `PaO2`만 낮으면 hypoventilation이나 낮은 inspired oxygen를 생각하고, 증가돼 있으면 V/Q mismatch, diffusion limitation, shunt를 더 의심한다."
-        ]
-      },
-      {
-        "title": "임상적 활용",
-        "content": [
-          "• respiratory failure 평가",
-          "• oxygen therapy, non-invasive ventilation, mechanical ventilation 조정",
-          "• shock, sepsis, renal/metabolic disorder에서 acid-base assessment",
-          "• COPD exacerbation, asthma, pneumonia, pulmonary edema, DKA, lactic acidosis, poisoning 평가"
-        ]
-      },
-      {
-        "title": "6-1. 자주 보는 패턴",
-        "content": [
-          "• `PaCO2 상승 + pH 저하`: hypoventilation, COPD exacerbation, CNS depression",
-          "• `HCO3 저하 + pH 저하`: DKA, lactic acidosis, renal failure, diarrhea",
-          "• `PaCO2 저하 + pH 상승`: pain, anxiety, sepsis early phase, pregnancy, liver disease",
-          "• `HCO3 상승 + pH 상승`: vomiting, diuretic use, volume contraction"
-        ]
-      },
-      {
-        "title": "6-2. lactate와 함께 볼 때",
-        "content": [
-          "• ABGA 자체가 lactate를 포함하지 않는 경우도 있지만, 응급실/중환자실에서는 lactate를 함께 측정하는 경우가 많다.",
-          "• lactate는 tissue hypoperfusion과 anaerobic metabolism의 단서를 주므로, metabolic acidosis 해석에서 매우 중요하다."
-        ]
-      },
-      {
-        "title": "주의점 및 함정",
-        "content": [
-          "• altitude, supplemental oxygen, 채혈 지연, air bubble contamination이 결과에 영향을 줄 수 있다.",
-          "• VBG와 ABGA는 일부 항목에서 대체 가능성이 있지만, `PaO2` 평가는 ABGA가 표준이다.",
-          "• pulse oximetry가 정상처럼 보여도 산-염기 이상이나 hypercapnia는 놓칠 수 있다.",
-          "• 반대로 severe peripheral hypoperfusion에서는 pulse oximetry 신뢰도가 떨어질 수 있어 ABGA가 더 중요해진다.",
-          "• chronic hypercapnia 환자는 baseline `PaCO2`와 `HCO3`가 이미 높을 수 있으므로 이전 결과와 비교해야 한다.",
-          "• 채혈 중 정맥혈 혼입, 과도한 heparin dilution, 분석 지연은 잘못된 결과를 만들 수 있다."
-        ]
-      },
-      {
-        "title": "7-1. ABGA와 VBG의 차이",
-        "content": [
-          "• `VBG`는 pH와 `PaCO2` 추정에는 어느 정도 도움이 될 수 있지만, `PaO2` 평가에는 적합하지 않다.",
-          "• 따라서 oxygenation이 핵심이면 ABGA가 필요하다."
+          "• ABC, 호흡수·노력, 산소 장치, 활력징후를 즉시 확인한다.",
+          "• 전해질, glucose, lactate, ketone, creatinine과 원인별 검사를 연결한다.",
+          "• 결과가 임상과 맞지 않으면 검체·산소조건을 확인하고 재검한다.",
+          "• serial gas는 숫자 정상화보다 환기·산소화·원인 개선을 함께 추적한다."
         ]
       },
       {
         "title": "관련 검사",
         "content": [
-          "• Pulse oximetry",
-          "• Lactate",
-          "• [[Comprehensive Metabolic Panel (CMP)]]",
-          "• [[04 영상검사/X-ray]]",
-          "• Capnography",
-          "• Serum ketone",
-          "• Anion gap 계산"
+          "• [[Electrolytes overview]]",
+          "• [[Lactate]]",
+          "• [[Sodium (Na)]]",
+          "• [[Chloride (Cl)]]",
+          "• [[Renal overview]]"
         ]
       },
       {
-        "title": "참고문헌",
+        "title": "출처",
         "content": [
-          "• MedlinePlus Medical Encyclopedia: Blood gases"
+          "• [MedlinePlus: Blood Gases](https://medlineplus.gov/lab-tests/blood-gases/)"
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:10:05.282Z"
+    "updatedAt": "2026-07-11T11:59:47.585Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-11",
+      "reviewStatus": "draft",
+      "guidelineYear": "2026",
+      "sources": [
+        {
+          "label": "MedlinePlus Blood Gases",
+          "url": "https://medlineplus.gov/lab-tests/blood-gases/"
+        }
+      ]
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Aspartate Aminotransferase (AST).md",
@@ -569,7 +525,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:48.493Z"
+    "updatedAt": "2026-06-13T17:46:48.493Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Beta-human Chorionic Gonadotropin (beta-hCG).md",
@@ -632,7 +594,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:56.286Z"
+    "updatedAt": "2026-06-13T16:02:56.286Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Bicarbonate (Total CO2).md",
@@ -697,7 +665,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:52.972Z"
+    "updatedAt": "2026-06-13T16:02:52.972Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Blood Glucose.md",
@@ -761,7 +735,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:47.489Z"
+    "updatedAt": "2026-06-13T17:46:47.489Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Blood Urea Nitrogen (BUN).md",
@@ -823,7 +803,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:46.733Z"
+    "updatedAt": "2026-06-13T17:46:46.733Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/C-Reactive Protein (CRP).md",
@@ -917,7 +903,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:38:33.210Z"
+    "updatedAt": "2026-06-13T14:38:33.210Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Calcium.md",
@@ -988,7 +980,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:53.251Z"
+    "updatedAt": "2026-06-13T16:02:53.251Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Cardiac markers overview.md",
@@ -1015,7 +1013,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:49.551Z"
+    "updatedAt": "2026-06-13T17:46:49.551Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/CBC/CBC overview.md",
@@ -1104,7 +1108,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:52:45.650Z"
+    "updatedAt": "2026-06-13T14:52:45.650Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/CBC/Hematocrit.md",
@@ -1190,7 +1200,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:41:27.539Z"
+    "updatedAt": "2026-06-13T14:41:27.539Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/CBC/Hemoglobin.md",
@@ -1277,7 +1293,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:41:27.242Z"
+    "updatedAt": "2026-06-13T14:41:27.242Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/CBC/Mean Corpuscular Hemoglobin and MCHC (MCH-MCHC).md",
@@ -1365,7 +1387,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:41:28.016Z"
+    "updatedAt": "2026-06-13T14:41:28.016Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/CBC/Mean Corpuscular Volume (MCV).md",
@@ -1449,7 +1477,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:41:27.790Z"
+    "updatedAt": "2026-06-13T14:41:27.790Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/CBC/Platelet Count.md",
@@ -1536,7 +1570,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:41:28.492Z"
+    "updatedAt": "2026-06-13T14:41:28.492Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/CBC/Red Blood Cell Count (RBC).md",
@@ -1622,7 +1662,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:41:26.925Z"
+    "updatedAt": "2026-06-13T14:41:26.925Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/CBC/Red Cell Distribution Width (RDW).md",
@@ -1706,7 +1752,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:41:28.256Z"
+    "updatedAt": "2026-06-13T14:41:28.256Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/CBC/White Blood Cell Count (WBC).md",
@@ -1793,7 +1845,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:41:26.635Z"
+    "updatedAt": "2026-06-13T14:41:26.635Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/CBC/White Blood Cell Differential.md",
@@ -1884,7 +1942,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:41:28.836Z"
+    "updatedAt": "2026-06-13T14:41:28.836Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Chloride.md",
@@ -1947,7 +2011,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:52.722Z"
+    "updatedAt": "2026-06-13T16:02:52.722Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Cholesterol Levels (Lipid Panel).md",
@@ -2049,7 +2119,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:50:17.033Z"
+    "updatedAt": "2026-06-13T17:50:17.033Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Coagulation overview.md",
@@ -2061,52 +2137,104 @@
       "01 혈액검사"
     ],
     "folder": "01 혈액검사",
-    "aliases": [],
+    "aliases": [
+      "Coagulation tests",
+      "PT aPTT",
+      "응고검사"
+    ],
     "category": "01 혈액검사",
     "summary": [
-      "Coagulation overview : 응고 경로와 fibrin 형성/분해를 평가하는 혈액검사 묶음",
-      "정상범위: 항목별로 다르며 `PT/INR`, `aPTT`, `fibrinogen`, `D-dimer`를 함께 해석"
+      "PT/INR, aPTT, platelet, fibrinogen을 패턴으로 읽고 항응고제·간질환·소비·factor inhibitor를 구분한다. 비정상 수치와 실제 출혈 위험은 항상 일치하지 않는다."
     ],
     "sections": [
       {
-        "title": "개요",
+        "title": "30초 해석 순서",
         "content": [
-          "• coagulation 검사들은 출혈성 질환, 혈전성 질환, liver dysfunction, DIC, anticoagulant effect를 평가할 때 핵심적이다.",
-          "• 하나의 검사만으로 coagulation 전체를 설명하지 못하므로 여러 항목을 묶어서 봐야 한다."
+          "1. 출혈/혈전 증상, 시술 계획, 이전 결과와 항응고제 종류·마지막 투여시각을 확인한다.",
+          "2. platelet, PT/INR, aPTT, fibrinogen을 함께 보고 단독 연장인지 복합 연장인지 나눈다.",
+          "3. citrate tube 충전, clot, heparin contamination 등 전처리 오류를 배제한다.",
+          "4. 설명되지 않는 연장이 지속되면 mixing study와 thrombin time/anti-Xa 등 표적검사를 선택한다.",
+          "5. 출혈 중이면 검사와 동시에 source control, resuscitation, 약물 reversal 필요성을 평가한다."
         ]
       },
       {
-        "title": "하위 문서",
+        "title": "패턴",
         "content": [
-          "• [[Prothrombin Time and INR (PT-INR)]]",
+          "| 패턴 | 주요 방향 | 다음 확인 |",
+          "|---|---|---|",
+          "| PT만 연장 | warfarin/vitamin K, factor VII, 초기 간질환 | 약물, LFT, mixing |",
+          "| aPTT만 연장 | heparin, VIII/IX/XI 결핍, lupus anticoagulant, inhibitor | thrombin time/anti-Xa, mixing |",
+          "| PT+aPTT 연장 | DIC, 중증 간질환, 대량출혈/희석, 공통경로 결핍 | platelet, fibrinogen, D-dimer, LFT |",
+          "| 혈소판 감소+소비 | DIC/TMA 등 | smear, hemolysis, organ injury |",
+          "| fibrinogen 낮음 | 소비, 중증 간질환, 대량출혈 | D-dimer, 추세, 임상출혈 |"
+        ]
+      },
+      {
+        "title": "Mixing study",
+        "content": [
+          "• 정상 plasma와 혼합 후 교정되면 factor deficiency 방향을 지지한다.",
+          "• 즉시 또는 incubation 후 교정되지 않으면 inhibitor 또는 약물 영향을 의심한다.",
+          "• lupus anticoagulant는 혈전 위험과 연관될 수 있어 aPTT 연장만으로 출혈 경향이라 단정하지 않는다.",
+          "• anticoagulant 존재는 mixing study를 혼동하므로 검사실과 협의한다."
+        ]
+      },
+      {
+        "title": "검체·전처리 함정",
+        "content": [
+          "• citrate tube의 혈액:항응고제 비율이 중요하다. underfill은 PT/aPTT를 가성 연장시킬 수 있다.",
+          "• central line 채혈은 heparin contamination 가능성이 있다.",
+          "• 매우 높은 hematocrit에서는 citrate 조정이 필요할 수 있다.",
+          "• clot이 있는 검체는 재채혈한다."
+        ]
+      },
+      {
+        "title": "Red flags",
+        "content": [
+          "• 활동성 대량출혈 또는 혈역학 불안정",
+          "• DIC 의심: 혈소판 감소, PT/aPTT 연장, fibrinogen 감소, D-dimer 상승과 임상 원인",
+          "• 두통·신경학적 증상 또는 후복막/기도 등 critical-site bleeding",
+          "• TMA 의심: 혈소판감소, microangiopathic hemolysis, 장기손상"
+        ]
+      },
+      {
+        "title": "다음 검사와 행동",
+        "content": [
+          "• CBC/smear, fibrinogen, D-dimer, LFT, creatinine, hemolysis panel",
+          "• 투여 약물에 맞는 INR, anti-Xa, thrombin time 등 선택",
+          "• 원인 불명의 지속 연장 또는 inhibitor 의심은 혈액내과/검사실 협의",
+          "• 수혈·reversal threshold는 출혈 위치, 시술, 약물, 기관 protocol에 따른다."
+        ]
+      },
+      {
+        "title": "관련 검사",
+        "content": [
+          "• [[Prothrombin Time (PT)]]",
           "• [[Activated Partial Thromboplastin Time (aPTT)]]",
+          "• [[D-Dimer]]",
           "• [[Fibrinogen]]",
-          "• [[D-dimer]]"
+          "• [[Complete Blood Count (CBC)]]",
+          "• [[Liver Function Tests (LFT)]]"
         ]
       },
       {
-        "title": "대표 정상범위 표",
+        "title": "출처",
         "content": [
-          "| 항목 | 하한값 | 상한값 |",
-          "|---|---:|---:|",
-          "| `PT` | `11 sec` | `13.5 sec` |",
-          "| `INR` | `0.8` | `1.1` |",
-          "| `aPTT` | `25 sec` | `35 sec` |",
-          "| `Fibrinogen` | `200 mg/dL` | `400 mg/dL` |",
-          "| `D-dimer` | `0` | `0.50 ug/mL FEU` |"
-        ]
-      },
-      {
-        "title": "해석의 큰 틀",
-        "content": [
-          "• `PT/INR`는 extrinsic/common pathway를 본다.",
-          "• `aPTT`는 intrinsic/common pathway를 본다.",
-          "• `Fibrinogen`은 clot substrate와 acute-phase response를 함께 반영한다.",
-          "• `D-dimer`는 이미 형성된 cross-linked fibrin이 분해된 흔적을 본다."
+          "• [ARUP Consult: Prolonged Clotting Time Evaluation](https://arupconsult.com/content/prolonged-clotting-time-evaluation)"
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:51.422Z"
+    "updatedAt": "2026-07-11T12:00:45.154Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-11",
+      "reviewStatus": "draft",
+      "guidelineYear": "2026",
+      "sources": [
+        {
+          "label": "ARUP Prolonged Clotting Time Evaluation",
+          "url": "https://arupconsult.com/content/prolonged-clotting-time-evaluation"
+        }
+      ]
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Complement C3.md",
@@ -2169,7 +2297,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:58.869Z"
+    "updatedAt": "2026-06-13T16:02:58.869Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Complement C4.md",
@@ -2230,7 +2364,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:59.283Z"
+    "updatedAt": "2026-06-13T16:02:59.283Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Complete Blood Count (CBC).md",
@@ -2244,115 +2384,109 @@
     "folder": "01 혈액검사",
     "aliases": [
       "CBC",
-      "Complete Blood Count"
+      "Complete Blood Count",
+      "전혈구검사"
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Complete Blood Count (CBC) : blood cell count와 기본 혈액학 상태를 평가하는 검사",
-      "정상범위: `WBC` 약 `3.6-10.6 x10^9/L`, `Hemoglobin` 남성 약 `13.5-18.0 g/dL` / 여성 약 `12.0-15.0 g/dL`, `Platelet` 약 `150-450 x10^9/L`"
+      "빈혈·백혈구·혈소판을 한 번에 훑는 시작점. 단일 수치보다 이전 값, 세포계열 조합, 망상적혈구와 말초도말을 함께 해석한다."
     ],
     "sections": [
       {
-        "title": "개요",
+        "title": "30초 해석 순서",
         "content": [
-          "• CBC는 blood cell의 수와 크기를 평가하는 기본 혈액검사이다.",
-          "• 주로 `RBC`, `WBC`, `Platelet`, `Hemoglobin`, `Hematocrit`, `MCV`를 포함하며, 필요 시 `Differential count`가 함께 보고된다."
+          "1. Hb/Hct로 빈혈 또는 적혈구증을 확인하고 이전 값과 변화 속도를 본다.",
+          "2. 빈혈이면 MCV로 microcytic / normocytic / macrocytic으로 나눈다.",
+          "3. 망상적혈구 반응이 적절한지 확인해 생성 저하와 소실·용혈을 구분한다.",
+          "4. WBC는 총수치보다 differential과 절대호중구수(ANC)를 함께 본다.",
+          "5. Platelet 감소는 응집에 의한 가성저하를 먼저 배제하고 출혈·혈전 맥락을 확인한다.",
+          "6. 두 계열 이상 이상이면 약물, 감염, 골수질환, 비장비대 가능성을 함께 검토한다."
         ]
       },
       {
-        "title": "1-1. 하위 문서",
+        "title": "대표 참고범위와 주의",
         "content": [
-          "• [[CBC/CBC overview]]",
-          "• [[CBC/White Blood Cell Count (WBC)]]",
-          "• [[CBC/Red Blood Cell Count (RBC)]]",
-          "• [[CBC/Hemoglobin]]",
-          "• [[CBC/Hematocrit]]",
-          "• [[CBC/Mean Corpuscular Volume (MCV)]]",
-          "• [[CBC/Mean Corpuscular Hemoglobin and MCHC (MCH-MCHC)]]",
-          "• [[CBC/Red Cell Distribution Width (RDW)]]",
-          "• [[CBC/Platelet Count]]",
-          "• [[CBC/White Blood Cell Differential]]"
+          "• Hb, WBC, platelet 정상범위는 연령·성별·임신·고도와 검사실마다 다르다. 화면의 고정값보다 해당 기관 결과지 범위를 우선한다.",
+          "• 급성 출혈 초기에는 Hb가 즉시 크게 떨어지지 않을 수 있다.",
+          "• 수액, 탈수, 수혈은 농도와 추세를 바꾼다."
         ]
       },
       {
-        "title": "검사 원리",
+        "title": "검체·전처리 함정",
         "content": [
-          "• CBC는 혈액 속 **cellular component**를 정량하고 분류하는 검사이다. 즉 plasma가 아니라 `RBC`, `WBC`, `Platelet`라는 형성 성분의 수와 크기를 본다.",
-          "• 대부분 automated hematology analyzer는 cell이 좁은 통로를 지나갈 때 발생하는 **electrical impedance 변화**나 **laser/light scatter**를 이용해 cell count와 cell size를 측정한다.",
-          "• `WBC`는 종류에 따라 크기, 과립, 핵 구조가 달라 scatter pattern이 달라지므로, analyzer가 이를 이용해 `Neutrophil`, `Lymphocyte`, `Monocyte`, `Eosinophil`, `Basophil` 등을 구분한다.",
-          "• `Hemoglobin`은 적혈구를 용해한 뒤 색 변화 또는 흡광도를 이용해 광학적으로 측정한다.",
-          "• `Hematocrit`, `MCV`, `MCH`, `MCHC`, `RDW` 같은 index 일부는 직접 측정치가 아니라 `RBC count`, `cell volume`, `Hemoglobin`으로부터 계산된다.",
-          "• 따라서 CBC의 본질은 “혈액세포의 절대 수, 크기, 분포, 조성”을 보는 것이며, anemia, infection, marrow disorder, platelet disorder를 추론하는 출발점이 된다."
+          "• EDTA tube를 충분히 혼합하지 않거나 응고된 검체는 세포 수치를 왜곡한다.",
+          "• EDTA-dependent platelet clumping이 의심되면 smear 확인 후 citrate tube 등 기관 절차에 따라 재검한다.",
+          "• 오래 방치된 검체는 MCV와 형태가 변할 수 있다."
         ]
       },
       {
-        "title": "검체 및 측정 방법",
+        "title": "빈혈 패턴",
         "content": [
-          "• 검체는 보통 `EDTA anticoagulated whole blood`를 사용한다.",
-          "• 비정상 flag가 있으면 peripheral blood smear manual review가 추가될 수 있다."
+          "| 패턴 | 흔한 방향 | 다음 확인 |",
+          "|---|---|---|",
+          "| Microcytic | 철결핍, thalassemia, 만성염증 일부 | ferritin, iron/TIBC·TSAT, smear, 출혈원 |",
+          "| Normocytic + retic 낮음 | CKD, 염증, 골수 생성저하 | 신기능, 염증, smear, 필요 시 골수 평가 |",
+          "| Normocytic + retic 높음 | 출혈, 용혈 | bilirubin, LDH, haptoglobin, DAT, 출혈 평가 |",
+          "| Macrocytic | B12/folate 결핍, 알코올·간질환, 갑상선, 약물, MDS | smear, B12/folate, LFT, TSH, 약물 검토 |"
         ]
       },
       {
-        "title": "정상범위",
+        "title": "WBC·혈소판 패턴",
         "content": [
-          "• 아래 수치는 **대표 성인 기준**이며, 기관별 reference range가 우선이다.",
-          "• `WBC`: 약 `3.6-10.6 x10^9/L`",
-          "• `Hemoglobin`: 남성 약 `13.5-18.0 g/dL`, 여성 약 `12.0-15.0 g/dL`",
-          "• `Hematocrit`: 남성 약 `40-54%`, 여성 약 `35-49%`",
-          "• `MCV`: 약 `80-100 fL`",
-          "• `Platelet`: 약 `150-450 x10^9/L`"
+          "• Neutrophilia: 감염·염증, 스트레스, glucocorticoid, 흡연 등을 맥락과 함께 본다.",
+          "• Neutropenia: ANC와 발열 여부가 핵심이다. 약물, 감염, 항암치료, 골수질환을 검토한다.",
+          "• Thrombocytopenia: 가성저하 → 소비(DIC/TMA) → 파괴(면역/약물) → 생성저하 → 비장격리 순으로 좁힌다.",
+          "• Thrombocytosis: 감염·염증·철결핍 등 반응성과 지속되는 골수증식성 원인을 구분한다."
         ]
       },
       {
-        "title": "이상 소견의 해석",
+        "title": "Red flags",
         "content": [
-          "• `WBC 증가`는 infection, inflammation, steroid effect, leukemia 등을 시사할 수 있다.",
-          "• `WBC 감소`는 viral infection, marrow suppression, autoimmune disease, cytotoxic drug effect 등을 시사할 수 있다.",
-          "• `Hemoglobin/Hematocrit 감소`는 anemia를 의미하며, 출혈, hemolysis, iron deficiency, chronic disease, marrow disorder 등을 감별한다.",
-          "• `MCV 감소`는 microcytic anemia pattern으로 iron deficiency, thalassemia, sideroblastic process를 우선 고려한다.",
-          "• `MCV 증가`는 macrocytic anemia pattern으로 vitamin B12 deficiency, folate deficiency, alcohol use, liver disease, hypothyroidism, marrow disorder를 고려한다.",
-          "• `Platelet 증가`는 reactive thrombocytosis 또는 myeloproliferative neoplasm 가능성이 있다.",
-          "• `Platelet 감소`는 decreased production, increased destruction, sequestration, dilution을 구분해야 한다."
+          "• 발열을 동반한 중증 호중구감소",
+          "• 활동성 출혈과 현저한 혈소판감소",
+          "• schistocyte 의심, 용혈 소견, 혈소판감소와 장기손상",
+          "• blast 또는 급격한 범혈구감소",
+          "• 증상이 있는 급격한 Hb 저하",
+          "수치의 절대 임계값과 연락 기준은 환자 상태 및 기관 critical value 정책을 따른다."
         ]
       },
       {
-        "title": "임상적 활용",
+        "title": "다음 행동",
         "content": [
-          "• routine screening",
-          "• anemia, infection, bleeding tendency 평가",
-          "• chemotherapy, immunosuppressant, marrow-toxic drug monitoring",
-          "• inflammatory disease와 hematologic disease 추적"
-        ]
-      },
-      {
-        "title": "주의점 및 함정",
-        "content": [
-          "• dehydration는 `Hemoglobin/Hematocrit`를 상대적으로 높게 보이게 할 수 있다.",
-          "• large platelet, clumping, cold agglutinin, extreme leukocytosis는 기계 측정 오류를 만들 수 있다.",
-          "• CBC 이상은 diagnosis 자체가 아니라 추가 평가의 출발점이다."
+          "• 예상 밖 결과는 환자 확인, 이전 결과, 검체 상태를 확인하고 필요 시 재검한다.",
+          "• 빈혈은 [[Iron status overview]], 망상적혈구, 말초도말과 연결한다.",
+          "• 출혈·응고 이상은 [[Coagulation overview]]를 함께 본다.",
+          "• 여러 계열 이상이나 비정상 세포가 지속되면 혈액내과 평가를 고려한다."
         ]
       },
       {
         "title": "관련 검사",
         "content": [
-          "• [[C-Reactive Protein (CRP)]]",
-          "• Peripheral blood smear",
-          "• Reticulocyte count",
-          "• Iron study",
-          "• Vitamin B12",
-          "• Folate"
+          "• [[Reticulocyte]]",
+          "• [[Ferritin]]",
+          "• [[Peripheral Blood Smear]]",
+          "• [[Prothrombin Time (PT)]]"
         ]
       },
       {
-        "title": "참고문헌",
+        "title": "출처",
         "content": [
-          "• MedlinePlus Medical Test: Complete Blood Count (CBC)",
-          "• Mayo Clinic: Complete blood count (CBC)",
-          "• Merck Manual table: Complete Blood Count (CBC)"
+          "• [MedlinePlus: Complete Blood Count](https://medlineplus.gov/lab-tests/complete-blood-count-cbc/)"
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:41:25.885Z"
+    "updatedAt": "2026-07-11T11:59:00.333Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-11",
+      "reviewStatus": "draft",
+      "guidelineYear": "2026",
+      "sources": [
+        {
+          "label": "MedlinePlus CBC",
+          "url": "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"
+        }
+      ]
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Comprehensive Metabolic Panel (CMP).md",
@@ -2463,7 +2597,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:38:33.900Z"
+    "updatedAt": "2026-06-13T14:38:33.900Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Cortisol.md",
@@ -2526,7 +2666,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:55.617Z"
+    "updatedAt": "2026-06-13T16:02:55.617Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Creatinine.md",
@@ -2598,7 +2744,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:46.140Z"
+    "updatedAt": "2026-06-13T17:46:46.140Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/D-dimer.md",
@@ -2688,7 +2840,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:38:36.385Z"
+    "updatedAt": "2026-06-13T14:38:36.385Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Electrolytes overview.md",
@@ -2700,58 +2858,101 @@
       "01 혈액검사"
     ],
     "folder": "01 혈액검사",
-    "aliases": [],
+    "aliases": [
+      "Electrolytes",
+      "전해질",
+      "electrolyte panel"
+    ],
     "category": "01 혈액검사",
     "summary": [
-      "Electrolytes overview : 체액의 전해질과 산-염기 균형을 평가하는 혈액검사 묶음",
-      "정상범위: `Sodium`, `Potassium`, `Chloride`, `HCO3/CO2`, `Calcium`, `Magnesium`, `Phosphate`를 함께 본다"
+      "전해질 이상은 결과 확인 → 증상·ECG → 체액·삼투 상태 → 약물·신장 → 원인검사의 순서로 접근한다."
     ],
     "sections": [
       {
-        "title": "개요",
+        "title": "30초 해석 순서",
         "content": [
-          "• 전해질 검사는 cell membrane potential, 체액 균형, 신장 기능, 산-염기 상태를 해석하는 핵심 축이다.",
-          "• 실전에서는 isolated value보다 패턴과 임상 맥락이 더 중요하다."
+          "1. 이전 값과 변화 속도를 확인하고 예상 밖 결과는 재검·검체 오류를 검토한다.",
+          "2. 의식변화, 경련, 근력저하, 부정맥, 심전도 변화가 있는지 먼저 본다.",
+          "3. Na 이상은 glucose 보정 필요성과 serum osmolality, 체액상태를 함께 평가한다.",
+          "4. K 이상은 hemolysis 여부, 산염기, 신기능, Mg, 약물과 ECG를 확인한다.",
+          "5. Ca는 albumin 영향 또는 ionized Ca를 고려하고 Mg·phosphate·PTH 맥락을 본다.",
+          "6. 보정 속도와 목표는 급·만성, 증상, 원인에 따라 달라지므로 기관 프로토콜을 따른다."
         ]
       },
       {
-        "title": "하위 문서",
+        "title": "검체·전처리 함정",
         "content": [
-          "• [[Sodium]]",
-          "• [[Potassium]]",
-          "• [[Chloride]]",
-          "• [[Bicarbonate (Total CO2)]]",
-          "• [[Calcium]]",
-          "• [[Magnesium]]",
-          "• [[Phosphate]]",
-          "• [[Comprehensive Metabolic Panel (CMP)]]"
+          "• 용혈은 K, LDH 등을 가성 상승시킬 수 있다.",
+          "• 지연 분리, fist clenching, line contamination, 수액 채혈은 결과를 왜곡할 수 있다.",
+          "• 심한 고지혈증·고단백혈증에서는 측정법에 따라 pseudohyponatremia가 가능하다.",
+          "• total Ca는 albumin 변화에 영향을 받으며 중증 환자에서는 ionized Ca가 더 직접적이다."
         ]
       },
       {
-        "title": "대표 정상범위 표",
+        "title": "패턴별 접근",
         "content": [
-          "| 항목 | 하한값 | 상한값 |",
-          "|---|---:|---:|",
-          "| `Sodium` | `135 mmol/L` | `145 mmol/L` |",
-          "| `Potassium` | `3.5 mmol/L` | `5.1 mmol/L` |",
-          "| `Chloride` | `98 mmol/L` | `107 mmol/L` |",
-          "| `HCO3 / Total CO2` | `22 mmol/L` | `29 mmol/L` |",
-          "| `Calcium` | `8.5 mg/dL` | `10.2 mg/dL` |",
-          "| `Magnesium` | `1.7 mg/dL` | `2.2 mg/dL` |",
-          "| `Phosphate` | `2.5 mg/dL` | `4.5 mg/dL` |"
+          "### Sodium",
+          "• 저Na: hypotonic인지 먼저 확인하고, urine osmolality와 urine Na를 체액상태·이뇨제 사용과 함께 해석한다.",
+          "• 고Na: 자유수분 부족이 흔하며 섭취 불가, 신장·비신장 수분 소실, diabetes insipidus 가능성을 본다.",
+          "### Potassium",
+          "• 고K: hemolysis 배제, ECG, 신기능, 산증, 조직손상, ACEi/ARB·MRA·K 보충제 등을 확인한다.",
+          "• 저K: GI loss, 이뇨제, insulin/β-agonist shift, Mg 결핍을 평가하고 urine K가 도움이 될 수 있다.",
+          "### Calcium, magnesium, phosphate",
+          "• 저Ca: ionized Ca 또는 albumin 맥락, Mg, phosphate, PTH, vitamin D를 확인한다.",
+          "• 저Mg는 저K·저Ca 교정을 어렵게 하고 부정맥 위험을 높일 수 있다.",
+          "• phosphate 이상은 신기능, 세포 이동, 영양·재급식, PTH/vitamin D 맥락을 본다."
         ]
       },
       {
-        "title": "해석의 큰 틀",
+        "title": "Red flags",
         "content": [
-          "• `Sodium`는 총 body sodium보다 free water balance를 더 반영한다.",
-          "• `Potassium`은 심장 전기생리와 직결된다.",
-          "• `Chloride`와 `HCO3`는 산-염기 해석에서 중요하다.",
-          "• `Calcium`, `Magnesium`, `Phosphate`는 근육, 신경, 뼈, 호르몬 대사와 밀접하다."
+          "• 경련·의식저하를 동반한 Na 이상",
+          "• K 이상과 ECG 변화, 부정맥 또는 근력마비",
+          "• tetany, 심한 저Ca 증상 또는 QT 변화",
+          "• 빠르게 변하는 전해질과 AKI/oliguria",
+          "기관별 critical value 연락·처치 절차를 우선한다."
+        ]
+      },
+      {
+        "title": "다음 검사와 행동",
+        "content": [
+          "• Basic metabolic panel 재확인, glucose, serum/urine osmolality, urine electrolytes",
+          "• ECG, Mg, Ca/ionized Ca, phosphate, creatinine",
+          "• 수액·영양·약물·투석 여부와 intake/output 확인",
+          "• 원인 교정과 함께 과도하게 빠른 보정이 되지 않도록 serial monitoring"
+        ]
+      },
+      {
+        "title": "관련 검사",
+        "content": [
+          "• [[Sodium (Na)]]",
+          "• [[Potassium (K)]]",
+          "• [[Chloride (Cl)]]",
+          "• [[Calcium (Ca)]]",
+          "• [[Magnesium (Mg)]]",
+          "• [[Renal overview]]",
+          "• [[Arterial Blood Gas Analysis (ABGA)]]"
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• [MedlinePlus: Electrolyte Panel](https://medlineplus.gov/lab-tests/electrolyte-panel/)"
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:52.106Z"
+    "updatedAt": "2026-07-11T11:59:00.356Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-11",
+      "reviewStatus": "draft",
+      "guidelineYear": "2026",
+      "sources": [
+        {
+          "label": "MedlinePlus Electrolyte Panel",
+          "url": "https://medlineplus.gov/lab-tests/electrolyte-panel/"
+        }
+      ]
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Erythrocyte Sedimentation Rate (ESR).md",
@@ -2844,7 +3045,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:38:34.286Z"
+    "updatedAt": "2026-06-13T14:38:34.286Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Estimated Glomerular Filtration Rate (eGFR).md",
@@ -2915,7 +3122,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:46.371Z"
+    "updatedAt": "2026-06-13T17:46:46.371Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Ferritin.md",
@@ -2980,7 +3193,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:50.108Z"
+    "updatedAt": "2026-06-13T17:46:50.108Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Fibrinogen.md",
@@ -3064,7 +3283,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:51.928Z"
+    "updatedAt": "2026-06-13T16:02:51.928Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Free Thyroxine (Free T4).md",
@@ -3125,7 +3350,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:55.083Z"
+    "updatedAt": "2026-06-13T16:02:55.083Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Glucose metabolism overview.md",
@@ -3161,7 +3392,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:47.117Z"
+    "updatedAt": "2026-06-13T17:46:47.117Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Hemoglobin A1C (HbA1c).md",
@@ -3232,7 +3469,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:47.821Z"
+    "updatedAt": "2026-06-13T17:46:47.821Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Hormones overview.md",
@@ -3291,7 +3534,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:54.504Z"
+    "updatedAt": "2026-06-13T16:02:54.504Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Immunoglobulin A (IgA).md",
@@ -3353,7 +3602,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:57.347Z"
+    "updatedAt": "2026-06-13T16:02:57.347Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Immunoglobulin E (IgE).md",
@@ -3407,7 +3662,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:58.466Z"
+    "updatedAt": "2026-06-13T16:02:58.466Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Immunoglobulin G (IgG).md",
@@ -3470,7 +3731,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:56.867Z"
+    "updatedAt": "2026-06-13T16:02:56.867Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Immunoglobulin M (IgM).md",
@@ -3524,7 +3791,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:57.979Z"
+    "updatedAt": "2026-06-13T16:02:57.979Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Immunology overview.md",
@@ -3583,7 +3856,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:56.535Z"
+    "updatedAt": "2026-06-13T16:02:56.535Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Iron status overview.md",
@@ -3595,21 +3874,93 @@
       "01 혈액검사"
     ],
     "folder": "01 혈액검사",
-    "aliases": [],
+    "aliases": [
+      "Iron studies",
+      "Iron status",
+      "철대사검사"
+    ],
     "category": "01 혈액검사",
     "summary": [
-      "Iron status overview : body iron storage와 iron deficiency/overload를 평가하는 혈액검사 묶음",
-      "정상범위: `Ferritin`을 기본으로 보고 필요 시 iron panel을 확장"
+      "ferritin은 저장철의 출발점이지만 염증에서 올라갈 수 있다. serum iron 단독보다 ferritin, transferrin/TIBC, TSAT, CBC를 패턴으로 해석한다."
     ],
     "sections": [
       {
-        "title": "하위 문서",
+        "title": "30초 해석 순서",
         "content": [
-          "• [[Ferritin]]"
+          "1. CBC와 MCV, RDW, reticulocyte 및 출혈 위험을 확인한다.",
+          "2. ferritin이 낮으면 iron deficiency를 강하게 지지한다.",
+          "3. ferritin이 정상·높아도 염증, 간질환, CKD가 있으면 TSAT와 CRP 맥락을 함께 본다.",
+          "4. iron deficiency가 확인되면 원인을 찾는다: 월경·GI 출혈, 섭취, 흡수장애, 임신·수요 증가.",
+          "5. microcytosis가 설명되지 않으면 thalassemia 등 다른 원인을 검토한다."
+        ]
+      },
+      {
+        "title": "패턴",
+        "content": [
+          "| 패턴 | Ferritin | Iron/TSAT | TIBC/transferrin |",
+          "|---|---|---|---|",
+          "| 절대 iron deficiency | 낮음 | 낮음 | 흔히 높음 |",
+          "| 염증성 iron restriction | 정상/높음 | 낮음 | 낮거나 정상 |",
+          "| iron overload 방향 | 높음 | TSAT 높음 | 원인에 따라 다름 |",
+          "ferritin과 TSAT cut-off는 임신, CKD, 심부전, 염증 등 임상 상황별 guideline이 다르므로 해당 맥락 기준을 적용한다."
+        ]
+      },
+      {
+        "title": "검체·해석 함정",
+        "content": [
+          "• serum iron은 일중변동, 최근 섭취·보충제 영향을 받아 단독 진단에 부적합하다.",
+          "• ferritin은 acute-phase reactant라 감염·염증·간질환에서 상승할 수 있다.",
+          "• 최근 수혈과 IV iron은 수치를 크게 바꾼다.",
+          "• soluble transferrin receptor, reticulocyte hemoglobin 등은 혼합상황에서 보조적으로 고려한다."
+        ]
+      },
+      {
+        "title": "Red flags",
+        "content": [
+          "• 혈역학 불안정 또는 활동성 출혈과 동반된 빈혈",
+          "• 남성·폐경 후 여성의 새 iron deficiency 또는 GI alarm symptom",
+          "• 빠른 Hb 저하, 용혈 소견, 범혈구감소",
+          "• ferritin/TSAT 현저 상승과 장기손상 가능성"
+        ]
+      },
+      {
+        "title": "다음 검사와 행동",
+        "content": [
+          "• CBC, reticulocyte, ferritin, iron, transferrin/TIBC, TSAT, CRP",
+          "• 출혈원 평가: 병력·진찰 후 연령과 위험에 맞는 GI/부인과 평가",
+          "• 흡수장애 의심 시 celiac disease 등 원인검사",
+          "• 보충 후 Hb와 iron store 반응을 추적하고 지속 손실 여부를 재평가"
+        ]
+      },
+      {
+        "title": "관련 검사",
+        "content": [
+          "• [[Ferritin]]",
+          "• [[Transferrin]]",
+          "• [[Total Iron Binding Capacity (TIBC)]]",
+          "• [[Complete Blood Count (CBC)]]",
+          "• [[Reticulocyte]]"
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• [MedlinePlus: Iron Tests](https://medlineplus.gov/lab-tests/iron-tests/)"
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:49.938Z"
+    "updatedAt": "2026-07-11T12:02:12.300Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-11",
+      "reviewStatus": "draft",
+      "guidelineYear": "2026",
+      "sources": [
+        {
+          "label": "MedlinePlus Iron Tests",
+          "url": "https://medlineplus.gov/lab-tests/iron-tests/"
+        }
+      ]
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Lactate Dehydrogenase (LDH).md",
@@ -3702,7 +4053,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:50:17.228Z"
+    "updatedAt": "2026-06-13T17:50:17.228Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Lactate.md",
@@ -3766,7 +4123,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:50.281Z"
+    "updatedAt": "2026-06-13T17:46:50.281Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Lipase.md",
@@ -3826,7 +4189,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:49.373Z"
+    "updatedAt": "2026-06-13T17:46:49.373Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Lipid overview.md",
@@ -3895,7 +4264,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:50:16.842Z"
+    "updatedAt": "2026-06-13T17:50:16.842Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Liver Function Tests (LFT).md",
@@ -3910,34 +4285,66 @@
     "aliases": [
       "LFT",
       "Liver Function Tests",
-      "Liver panel"
+      "Liver panel",
+      "간기능검사"
     ],
     "category": "01 혈액검사",
     "summary": [
-      "Liver Function Tests (LFT) : liver-related protein, enzyme, bilirubin을 묶어 보는 패널 검사",
-      "정상범위: 항목별로 다르며 `AST`, `ALT`, `ALP`, `Albumin`, `bilirubin` 패턴으로 해석"
+      "AST/ALT·ALP의 손상 패턴, bilirubin 배설, albumin·PT/INR의 합성기능을 분리해서 읽는다. “LFT 정상”보다 어떤 축이 정상인지 명시한다."
     ],
     "sections": [
       {
-        "title": "개요",
+        "title": "30초 해석 순서",
         "content": [
-          "• LFT는 liver에서 만들어지거나 liver injury에서 변하는 여러 물질을 묶어서 본다."
+          "1. 이전 값, 증상, 약물·보충제·음주·감염 위험을 확인하고 예상 밖 결과는 반복검사로 확인한다.",
+          "2. AST/ALT 대 ALP의 상대적 상승으로 hepatocellular, cholestatic, mixed pattern을 정한다.",
+          "3. bilirubin을 direct/indirect로 나누고 hemolysis 가능성을 함께 본다.",
+          "4. PT/INR, albumin, glucose로 합성기능과 중증도를 평가한다.",
+          "5. 임신, 연령, 근육손상, 골질환 등 간 외 원인을 검토한다."
         ]
       },
       {
-        "title": "검사 원리",
+        "title": "R ratio",
         "content": [
-          "• albumin, total protein, AST, ALT, ALP, bilirubin 등을 함께 측정한다.",
-          "• MedlinePlus는 일부 항목은 liver가 얼마나 잘 작동하는지, 일부는 손상 여부를 보여준다고 설명한다.",
-          "• 따라서 단일 수치보다 panel pattern이 중요하다."
+          "R = (ALT / ALT 상한) ÷ (ALP / ALP 상한)",
+          "• R > 5: hepatocellular pattern",
+          "• R < 2: cholestatic pattern",
+          "• R 2–5: mixed pattern",
+          "각 검사실 정상상한에 대한 배수로 계산한다."
         ]
       },
       {
-        "title": "해석의 큰 틀",
+        "title": "패턴별 접근",
         "content": [
-          "• `AST/ALT 우세 상승`: hepatocellular injury pattern",
-          "• `ALP/bilirubin 우세 상승`: cholestatic pattern",
-          "• `Albumin 저하` 또는 `PT 연장`: synthetic dysfunction 단서"
+          "### Hepatocellular",
+          "• viral hepatitis, steatotic liver disease, alcohol, ischemia, autoimmune hepatitis, 약물·보충제를 검토한다.",
+          "• AST는 간 특이적이지 않아 CK와 근육손상 맥락이 필요할 수 있다.",
+          "### Cholestatic",
+          "• ALP가 간 기원인지 GGT 등으로 확인하고 bilirubin 및 우상복부 초음파로 담도폐쇄를 우선 평가한다.",
+          "• 골질환·임신 등 비간성 ALP 상승을 구분한다.",
+          "### Bilirubin과 합성기능",
+          "• 간접 우세: 용혈, ineffective erythropoiesis, Gilbert syndrome 등.",
+          "• 직접 우세: hepatocellular dysfunction 또는 cholestasis/obstruction 맥락.",
+          "• PT/INR 급성 연장은 vitamin K, warfarin, DIC를 함께 구분한다.",
+          "• albumin은 반감기가 길고 염증·영양·신장/장 손실에도 영향을 받는다."
+        ]
+      },
+      {
+        "title": "Red flags",
+        "content": [
+          "• 황달과 INR 연장, 저혈당, 의식변화: 급성 간부전 가능성",
+          "• 발열·우상복부 통증·황달 또는 sepsis: ascending cholangitis 가능성",
+          "• 매우 빠른 aminotransferase 상승과 shock/독성 노출",
+          "• 임신 중 간수치 이상과 고혈압·혈소판감소·용혈 소견"
+        ]
+      },
+      {
+        "title": "다음 검사와 행동",
+        "content": [
+          "• CBC, PT/INR, albumin, bilirubin fraction, GGT, viral serology, 약물/보충제 검토",
+          "• CK, hemolysis labs, autoimmune marker, iron study 등은 패턴과 맥락에 따라 선택",
+          "• cholestatic pattern은 ultrasound를 우선 고려하고 필요 시 CT/MRCP로 확장",
+          "• 이상 지속, 합성기능 저하, 원인 불명 또는 중증이면 전문 평가"
         ]
       },
       {
@@ -3947,17 +4354,34 @@
           "• [[Alanine Aminotransferase (ALT)]]",
           "• [[Alkaline Phosphatase (ALP)]]",
           "• [[Albumin]]",
-          "• [[Total Bilirubin]]"
+          "• [[Total Bilirubin]]",
+          "• [[Coagulation overview]]"
         ]
       },
       {
-        "title": "참고문헌",
+        "title": "출처",
         "content": [
-          "• [MedlinePlus: Liver Function Tests](https://medlineplus.gov/lab-tests/liver-function-tests/)"
+          "• [MedlinePlus: Liver Function Tests](https://medlineplus.gov/lab-tests/liver-function-tests/)",
+          "• [ACG: Evaluation of Abnormal Liver Chemistries](https://acgcdn.gi.org/wp-content/uploads/2018/04/ACG-Abnormal-Liver-Chemistries-Guideline-Summary.pdf)"
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:48.301Z"
+    "updatedAt": "2026-07-11T11:59:47.544Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-11",
+      "reviewStatus": "draft",
+      "guidelineYear": "2017",
+      "sources": [
+        {
+          "label": "MedlinePlus Liver Function Tests",
+          "url": "https://medlineplus.gov/lab-tests/liver-function-tests/"
+        },
+        {
+          "label": "ACG Abnormal Liver Chemistries Guideline",
+          "url": "https://acgcdn.gi.org/wp-content/uploads/2018/04/ACG-Abnormal-Liver-Chemistries-Guideline-Summary.pdf"
+        }
+      ]
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Liver-Pancreas overview.md",
@@ -4002,7 +4426,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:48.091Z"
+    "updatedAt": "2026-06-13T17:46:48.091Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Magnesium.md",
@@ -4066,7 +4496,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:53.504Z"
+    "updatedAt": "2026-06-13T16:02:53.504Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Natriuretic Peptide Tests (BNP, NT-proBNP).md",
@@ -4134,7 +4570,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:49.752Z"
+    "updatedAt": "2026-06-13T17:46:49.752Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Phosphate.md",
@@ -4197,7 +4639,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:54.015Z"
+    "updatedAt": "2026-06-13T16:02:54.015Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Potassium.md",
@@ -4268,7 +4716,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:52.457Z"
+    "updatedAt": "2026-06-13T16:02:52.457Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Procalcitonin.md",
@@ -4363,7 +4817,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:50:43.442Z"
+    "updatedAt": "2026-06-13T17:50:43.442Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Prolactin.md",
@@ -4425,7 +4885,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:55.969Z"
+    "updatedAt": "2026-06-13T16:02:55.969Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Prothrombin Time and INR (PT-INR).md",
@@ -4519,7 +4985,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:38:35.473Z"
+    "updatedAt": "2026-06-13T14:38:35.473Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Renal overview.md",
@@ -4531,40 +5003,100 @@
       "01 혈액검사"
     ],
     "folder": "01 혈액검사",
-    "aliases": [],
+    "aliases": [
+      "Renal function",
+      "Kidney function",
+      "AKI workup",
+      "신기능"
+    ],
     "category": "01 혈액검사",
     "summary": [
-      "Renal overview : kidney filtration과 질소성 노폐물 축적을 평가하는 혈액검사 묶음",
-      "정상범위: `Creatinine`, `eGFR`, `BUN`을 함께 해석"
+      "AKI는 creatinine 한 점이 아니라 baseline 대비 변화와 urine output으로 정의한다. 안정화 → 가역 원인 → 소변검사/침사 → 폐쇄 → 신장내 원인의 순서로 접근한다."
     ],
     "sections": [
       {
-        "title": "개요",
+        "title": "AKI 확인",
         "content": [
-          "• 신장 관련 혈액검사는 filtration, perfusion, catabolic state를 보는 기본 축이다.",
-          "• 단일 수치보다 `Creatinine`, `eGFR`, `BUN`, 소변검사를 함께 해석해야 한다."
+          "KDIGO 기준상 다음 중 하나면 AKI에 해당한다.",
+          "• serum creatinine이 48시간 내 0.3 mg/dL 이상 증가",
+          "• 7일 내 baseline의 1.5배 이상으로 증가",
+          "• urine output이 6시간 동안 0.5 mL/kg/h 미만",
+          "baseline이 불명확하면 이전 기록, 체격·근육량, 변화 추세를 함께 판단한다. eGFR은 급격히 변하는 creatinine에서 안정상태를 전제하지 못한다."
         ]
       },
       {
-        "title": "하위 문서",
+        "title": "30초 접근",
+        "content": [
+          "1. 활력, volume status, K, 산염기, 폐부종, 요독 증상으로 즉시 위험을 확인한다.",
+          "2. 정확한 intake/output와 Foley patency, 이전 creatinine을 확인한다.",
+          "3. 저혈압·탈수·sepsis, 조영제, NSAID, ACEi/ARB, 이뇨제, 항생제 등 노출을 검토한다.",
+          "4. urinalysis와 sediment로 혈뇨·단백뇨·pyuria·cast를 확인한다.",
+          "5. 폐쇄 위험이 있으면 bladder scan/renal ultrasound를 신속히 시행한다.",
+          "6. 원인 교정 후 creatinine, urine output, 전해질을 serial monitoring한다."
+        ]
+      },
+      {
+        "title": "패턴",
+        "content": [
+          "| 방향 | 단서 | 다음 확인 |",
+          "|---|---|---|",
+          "| Perfusion 저하 | 저혈압, 체액감소, sepsis | volume/hemodynamics, 약물 |",
+          "| Tubular injury | shock·독성노출, granular cast | sediment, 노출, 추세 |",
+          "| Interstitial | 약물, rash/fever, pyuria | 약물 중단 검토, nephrology |",
+          "| Glomerular | dysmorphic RBC, RBC cast, proteinuria | protein 정량, serology, nephrology |",
+          "| Obstruction | 배뇨증상, 전립선, 골반종괴, 단일신 | bladder scan, ultrasound |",
+          "FeNa와 FeUrea는 보조도구이며 이뇨제, CKD, sepsis 등에서 단독 결론을 내리지 않는다."
+        ]
+      },
+      {
+        "title": "Red flags",
+        "content": [
+          "• refractory hyperkalemia, severe acidosis, pulmonary edema/hypoxemia",
+          "• uremic pericarditis, encephalopathy, bleeding",
+          "• anuria/급격한 oliguria, 빠른 creatinine 상승",
+          "• TMA 또는 rapidly progressive glomerulonephritis 의심",
+          "• obstruction과 감염, 단일신 폐쇄",
+          "신대체요법 판단은 숫자 하나가 아니라 임상 합병증과 추세로 한다."
+        ]
+      },
+      {
+        "title": "다음 검사와 행동",
+        "content": [
+          "• BMP, Mg/phosphate, CBC, urinalysis/sediment, urine protein 정량",
+          "• 원인에 따라 CK, hemolysis, serology, culture, ultrasound",
+          "• 약물 용량을 현재 신기능에 맞추고 nephrotoxin·불필요한 contrast를 재검토",
+          "• 원인 불명, 진행성, red flag 또는 투석 고려 시 조기 신장내과 협진"
+        ]
+      },
+      {
+        "title": "관련 검사",
         "content": [
           "• [[Creatinine]]",
-          "• [[Estimated Glomerular Filtration Rate (eGFR)]]",
-          "• [[Blood Urea Nitrogen (BUN)]]"
+          "• [[Blood Urea Nitrogen (BUN)]]",
+          "• [[Urinalysis]]",
+          "• [[Electrolytes overview]]",
+          "• [[Arterial Blood Gas Analysis (ABGA)]]"
         ]
       },
       {
-        "title": "대표 정상범위 표",
+        "title": "출처",
         "content": [
-          "| 항목 | 하한값 | 상한값 |",
-          "|---|---:|---:|",
-          "| `Creatinine` | `0.6 mg/dL` | `1.3 mg/dL` |",
-          "| `eGFR` | `90 mL/min/1.73 m2` | `-` |",
-          "| `BUN` | `7 mg/dL` | `20 mg/dL` |"
+          "• [KDIGO: 2012 Clinical Practice Guideline for Acute Kidney Injury](https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf)"
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:45.917Z"
+    "updatedAt": "2026-07-11T12:00:45.183Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-11",
+      "reviewStatus": "draft",
+      "guidelineYear": "2012",
+      "sources": [
+        {
+          "label": "KDIGO 2012 AKI Guideline",
+          "url": "https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf"
+        }
+      ]
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Serum Osmolality.md",
@@ -4658,7 +5190,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:50:16.469Z"
+    "updatedAt": "2026-06-13T17:50:16.469Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Sodium.md",
@@ -4729,7 +5267,111 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:52.296Z"
+    "updatedAt": "2026-06-13T16:02:52.296Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
+  },
+  {
+    "id": "lab-img:01 혈액검사/Thyroid function overview.md",
+    "slug": "bGFiLWltZzowMSDtmIjslaHqsoDsgqwvVGh5cm9pZCBmdW5jdGlvbiBvdmVydmlldy5tZA",
+    "title": "Thyroid function overview",
+    "sourcePath": "source_notes/06 Lab & Img/01 혈액검사/Thyroid function overview.md",
+    "relativePath": "01 혈액검사/Thyroid function overview.md",
+    "pathSegments": [
+      "01 혈액검사"
+    ],
+    "folder": "01 혈액검사",
+    "aliases": [
+      "Thyroid function tests",
+      "TFT",
+      "갑상선기능검사"
+    ],
+    "category": "01 혈액검사",
+    "summary": [
+      "대부분은 TSH와 free T4의 조합으로 시작한다. 임신, 급성질환, pituitary disease, biotin·약물 간섭에서는 단순한 1차성 패턴이 깨질 수 있다."
+    ],
+    "sections": [
+      {
+        "title": "30초 해석 순서",
+        "content": [
+          "1. 임신, 중증 급성질환, pituitary 병력, 갑상선 약물과 biotin 사용을 확인한다.",
+          "2. TSH와 free T4를 함께 읽어 overt/subclinical 및 primary/central 방향을 정한다.",
+          "3. 결과가 임상과 맞지 않으면 assay interference와 약물, 회복기 nonthyroidal illness를 검토한다.",
+          "4. 원인 규명이 필요하면 TPOAb, TRAb/TSI, 초음파 또는 핵의학검사를 질문에 맞게 선택한다.",
+          "5. 치료 중에는 약제 변경 후 충분한 평형시간과 추세를 고려한다."
+        ]
+      },
+      {
+        "title": "기본 패턴",
+        "content": [
+          "| TSH | free T4 | 방향 |",
+          "|---|---|---|",
+          "| 높음 | 낮음 | primary hypothyroidism |",
+          "| 높음 | 정상 | subclinical hypothyroidism |",
+          "| 낮음 | 높음 | primary hyperthyroidism |",
+          "| 낮음 | 정상 | subclinical hyperthyroidism 또는 T3 toxicosis 등 |",
+          "| 낮거나 부적절하게 정상 | 낮음 | central hypothyroidism, 중증질환 등 |",
+          "central hypothyroidism 의심 시 TSH 단독으로 배제하지 않는다. adrenal insufficiency 가능성을 치료 순서와 함께 검토한다."
+        ]
+      },
+      {
+        "title": "함정",
+        "content": [
+          "• 고용량 biotin은 일부 면역측정에서 TSH를 낮고 thyroid hormone을 높게 보이게 할 수 있다. 중단 시점은 검사실/제품 지침을 확인한다.",
+          "• glucocorticoid, dopamine, amiodarone, lithium 등은 축 또는 검사값에 영향을 줄 수 있다.",
+          "• 급성 중증질환에서는 nonthyroidal illness pattern이 나타나며 회복 후 재평가가 필요할 수 있다.",
+          "• 임신은 trimester-specific reference와 total/free assay 특성을 고려한다."
+        ]
+      },
+      {
+        "title": "Red flags",
+        "content": [
+          "• fever, agitation/delirium, tachyarrhythmia, heart failure와 severe thyrotoxicosis",
+          "• hypothermia, altered mental status, bradycardia/hypoventilation과 severe hypothyroidism",
+          "• pituitary mass symptom 또는 여러 pituitary hormone 결핍",
+          "• 임신 중 overt dysfunction 의심"
+        ]
+      },
+      {
+        "title": "다음 검사와 행동",
+        "content": [
+          "• TSH, free T4; 필요 시 total/free T3",
+          "• autoimmune 원인: TPOAb, TRAb/TSI",
+          "• 결절·구조 질문: ultrasound; hyperthyroidism 원인 질문: 임신 여부 확인 후 uptake/scan 고려",
+          "• 비전형 결과는 동일 검체 재검 또는 다른 assay와 검사실 상담"
+        ]
+      },
+      {
+        "title": "관련 검사",
+        "content": [
+          "• [[Thyroid-Stimulating Hormone (TSH)]]",
+          "• [[Free T4 (fT4)]]",
+          "• [[Free T3 (fT3)]]"
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• [American Thyroid Association: Thyroid Function Tests](https://www.thyroid.org/thyroid-function-tests/)"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-11T12:02:12.232Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-11",
+      "reviewStatus": "draft",
+      "guidelineYear": "2026",
+      "sources": [
+        {
+          "label": "American Thyroid Association Thyroid Function Tests",
+          "url": "https://www.thyroid.org/thyroid-function-tests/"
+        }
+      ]
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Thyroid-Stimulating Hormone (TSH).md",
@@ -4792,7 +5434,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:54.823Z"
+    "updatedAt": "2026-06-13T16:02:54.823Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Total Bilirubin.md",
@@ -4855,7 +5503,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T17:46:49.194Z"
+    "updatedAt": "2026-06-13T17:46:49.194Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:01 혈액검사/Troponin.md",
@@ -4952,7 +5606,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:38:34.573Z"
+    "updatedAt": "2026-06-13T14:38:34.573Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/소변검사.md",
@@ -5010,7 +5670,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:33.813Z"
+    "updatedAt": "2026-06-13T14:49:33.813Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis.md",
@@ -5024,76 +5690,95 @@
     "folder": "02 소변검사",
     "aliases": [
       "UA",
-      "Urinalysis"
+      "Urinalysis",
+      "요검사"
     ],
     "category": "02 소변검사",
     "summary": [
-      "Urinalysis : 소변의 물리적 성상, dipstick chemistry, microscopic sediment를 함께 보는 기본 소변검사",
-      "정상범위: 항목별로 다르며 보통 protein/glucose/ketone/blood/nitrite/leukocyte esterase는 `negative`"
+      "dipstick과 microscopy를 함께 읽어 glomerular, tubular/interstitial, 감염, 대사 패턴을 구분한다. 오염과 채취·보관 오류를 먼저 점검한다."
     ],
     "sections": [
       {
-        "title": "개요",
+        "title": "30초 해석 순서",
         "content": [
-          "• Urinalysis는 소변검사의 기본 패널이다.",
-          "• 보통 `color/clarity`, `specific gravity`, `pH`, dipstick chemical test, microscopic sediment examination으로 구성된다."
+          "1. clean-catch 여부, 월경·운동·도뇨관, 보관시간과 증상을 확인한다.",
+          "2. specific gravity, pH, blood, protein, leukocyte esterase, nitrite, glucose, ketone을 훑는다.",
+          "3. microscopy로 RBC/WBC, epithelial cell, bacteria/yeast, crystal, cast를 확인한다.",
+          "4. hematuria는 dipstick heme와 실제 RBC가 일치하는지 본다.",
+          "5. protein은 transient 원인을 배제하고 ACR/PCR로 정량한다.",
+          "6. pyuria/bacteriuria는 증상과 culture indication을 함께 판단한다."
         ]
       },
       {
-        "title": "검사 원리",
+        "title": "검체·전처리 함정",
         "content": [
-          "• 소변의 육안적 성상은 색, 탁도, 거품 등을 관찰한다.",
-          "• dipstick은 시험지에 포함된 화학 반응 패드가 소변 속 특정 물질과 반응해 색이 바뀌는 원리를 이용한다.",
-          "• microscopy는 원심분리 후 sediment를 현미경으로 관찰해 cell, cast, crystal, bacteria 등을 본다.",
-          "• 즉 urinalysis의 본질은 **소변이라는 filtrate의 화학 성분과 침전 성분을 함께 읽는 검사**다."
+          "• midstream clean-catch가 기본이며 squamous epithelial cell이 많으면 오염 가능성이 높다.",
+          "• 실온 지연은 세포·cast 소실, 세균 증식, pH 변화를 일으킨다.",
+          "• dipstick blood 양성인데 RBC가 없으면 hemoglobinuria/myoglobinuria 또는 용혈 검체를 고려한다.",
+          "• vitamin C, 농축·희석뇨, 약물은 dipstick 결과에 영향을 줄 수 있다."
         ]
       },
       {
-        "title": "하위 문서",
+        "title": "패턴",
         "content": [
-          "• [[Urinalysis/Urine Specific Gravity]]",
-          "• [[Urinalysis/Urine pH]]",
-          "• [[Urinalysis/Urine Protein]]",
-          "• [[Urinalysis/Urine Glucose]]",
-          "• [[Urinalysis/Urine Ketone]]",
-          "• [[Urinalysis/Urine Bilirubin]]",
-          "• [[Urinalysis/Urine Urobilinogen]]",
-          "• [[Urinalysis/Urine Blood and Hemoglobin]]",
-          "• [[Urinalysis/Urine Leukocyte Esterase]]",
-          "• [[Urinalysis/Urine Nitrite]]",
-          "• [[Urinalysis/Urine Microscopy]]",
-          "• [[Urinalysis/Urine Red Blood Cells (Urine RBC)]]",
-          "• [[Urinalysis/Urine White Blood Cells (Urine WBC)]]",
-          "• [[Urinalysis/Urinary Casts]]",
-          "• [[Urinalysis/Urinary Crystals]]"
+          "| 패턴 | 방향 | 다음 확인 |",
+          "|---|---|---|",
+          "| Dysmorphic RBC/RBC cast + protein | glomerular | creatinine, ACR/PCR, serology, nephrology |",
+          "| WBC/WBC cast | pyelonephritis 또는 interstitial | culture, 약물, 임상증상 |",
+          "| Granular cast | tubular injury | hemodynamics, nephrotoxin, AKI trend |",
+          "| Nitrite/LE + pyuria | UTI 가능 | 증상, culture 필요성 |",
+          "| Glucose/ketone | hyperglycemia, starvation/DKA 등 | serum glucose, ketone, acid-base |",
+          "| Crystal | pH·약물·결석 맥락 | 증상, imaging, stone analysis |"
         ]
       },
       {
-        "title": "임상적 활용",
+        "title": "Red flags",
         "content": [
-          "• UTI 평가",
-          "• hematuria/proteinuria screening",
-          "• diabetes 및 ketosis 평가",
-          "• kidney concentrating ability와 volume status 추정",
-          "• glomerular vs nonglomerular disease 감별 보조"
+          "• hematuria/proteinuria와 AKI, hypertension, edema",
+          "• RBC cast 또는 rapidly progressive glomerulonephritis 의심",
+          "• fever/flank pain와 sepsis 또는 obstruction 가능성",
+          "• myoglobinuria 의심과 CK 상승, hyperkalemia",
+          "• 임신·면역저하·남성 등 복잡성 요인의 감염"
         ]
       },
       {
-        "title": "주의점 및 함정",
+        "title": "다음 검사와 행동",
         "content": [
-          "• contamination, menstruation, delay in analysis가 결과를 왜곡할 수 있다.",
-          "• dipstick과 microscopy는 서로 보완 관계이며, 둘 중 하나만 보면 놓치는 정보가 있다."
+          "• 반복 clean-catch UA, urine culture, ACR/PCR",
+          "• CBC, creatinine/electrolyte, CK, hemolysis/serology를 맥락에 따라 선택",
+          "• stone/obstruction 의심 시 ultrasound 또는 CT 선택",
+          "• 지속 microscopic hematuria는 연령·위험에 맞는 비뇨기/신장 평가"
         ]
       },
       {
-        "title": "참고문헌",
+        "title": "관련 검사",
         "content": [
-          "• MedlinePlus: Protein in Urine",
-          "• 일반 urinalysis 표준 구성 요약"
+          "• [[Urine Protein]]",
+          "• [[Urine Glucose]]",
+          "• [[Urine pH]]",
+          "• [[Renal overview]]",
+          "• [[Complete Blood Count (CBC)]]"
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• [MedlinePlus: Urinalysis](https://medlineplus.gov/urinalysis.html)"
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:34.031Z"
+    "updatedAt": "2026-07-11T12:02:12.272Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-11",
+      "reviewStatus": "draft",
+      "guidelineYear": "2026",
+      "sources": [
+        {
+          "label": "MedlinePlus Urinalysis",
+          "url": "https://medlineplus.gov/urinalysis.html"
+        }
+      ]
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urinary Casts.md",
@@ -5153,7 +5838,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:38.309Z"
+    "updatedAt": "2026-06-13T14:49:38.309Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urinary Crystals.md",
@@ -5212,7 +5903,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:38.576Z"
+    "updatedAt": "2026-06-13T14:49:38.576Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urine Bilirubin.md",
@@ -5273,7 +5970,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:36.249Z"
+    "updatedAt": "2026-06-13T14:49:36.249Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urine Blood and Hemoglobin.md",
@@ -5338,7 +6041,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:36.790Z"
+    "updatedAt": "2026-06-13T14:49:36.790Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urine Glucose.md",
@@ -5400,7 +6109,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:35.701Z"
+    "updatedAt": "2026-06-13T14:49:35.701Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urine Ketone.md",
@@ -5463,7 +6178,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:35.969Z"
+    "updatedAt": "2026-06-13T14:49:35.969Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urine Leukocyte Esterase.md",
@@ -5525,7 +6246,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:37.060Z"
+    "updatedAt": "2026-06-13T14:49:37.060Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urine Microscopy.md",
@@ -5594,7 +6321,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:37.569Z"
+    "updatedAt": "2026-06-13T14:49:37.569Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urine Nitrite.md",
@@ -5657,7 +6390,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:37.299Z"
+    "updatedAt": "2026-06-13T14:49:37.299Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urine pH.md",
@@ -5719,7 +6458,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:34.979Z"
+    "updatedAt": "2026-06-13T14:49:34.979Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urine Protein.md",
@@ -5785,7 +6530,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:35.382Z"
+    "updatedAt": "2026-06-13T14:49:35.382Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urine Red Blood Cells (Urine RBC).md",
@@ -5841,7 +6592,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:37.808Z"
+    "updatedAt": "2026-06-13T14:49:37.808Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urine Specific Gravity.md",
@@ -5907,7 +6664,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:34.624Z"
+    "updatedAt": "2026-06-13T14:49:34.624Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urine Urobilinogen.md",
@@ -5969,7 +6732,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:36.529Z"
+    "updatedAt": "2026-06-13T14:49:36.529Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urinalysis/Urine White Blood Cells (Urine WBC).md",
@@ -6029,7 +6798,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:38.033Z"
+    "updatedAt": "2026-06-13T14:49:38.033Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urine Albumin-Creatinine Ratio (UACR).md",
@@ -6097,7 +6872,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:38.821Z"
+    "updatedAt": "2026-06-13T14:49:38.821Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urine Osmolality.md",
@@ -6170,7 +6951,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:39.654Z"
+    "updatedAt": "2026-06-13T14:49:39.654Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urine Protein-Creatinine Ratio (UPCR).md",
@@ -6231,7 +7018,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:39.061Z"
+    "updatedAt": "2026-06-13T14:49:39.061Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:02 소변검사/Urine Sodium.md",
@@ -6288,7 +7081,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:49:39.330Z"
+    "updatedAt": "2026-06-13T14:49:39.330Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:03 심전도/심전도.md",
@@ -6308,242 +7107,122 @@
     ],
     "category": "03 심전도",
     "summary": [
-      "심전도 : 심장의 전기적 활동을 body surface에서 12개 방향으로 기록하는 검사",
-      "정상범위: `PR interval` 약 `0.10-0.20 sec`, `QRS` 약 `0.07-0.10 sec`, `QTc` 남성 약 `350-450 ms` / 여성 약 `360-460 ms`"
+      "먼저 환자 안정성과 증상을 보고, calibration/lead 오류 → rate → rhythm → axis → intervals → QRS morphology → ST-T-QT 순으로 읽는다. 정상 ECG 한 장은 간헐성 부정맥이나 ACS를 배제하지 않는다."
     ],
     "sections": [
       {
-        "title": "개요",
+        "title": "즉시 확인",
         "content": [
-          "• 심전도는 심장의 electrical activity를 비침습적으로 기록하는 기본 검사다.",
-          "• 빠르고 간단하며, chest pain, palpitations, syncope, dyspnea, electrolyte disorder, drug effect 평가에서 핵심적이다.",
-          "• 특히 arrhythmia, conduction block, chamber enlargement, ischemia/infarction, 일부 유전성 전기질환 단서를 준다."
+          "• 흉통, 실신, 호흡곤란, shock, 의식저하가 있으면 모니터·활력·ABC와 동시에 ECG를 읽는다.",
+          "• unstable tachy/bradyarrhythmia, wide-complex tachycardia, acute ischemia, hyperkalemia pattern을 먼저 찾는다.",
+          "• 증상이 지속되거나 변하면 이전 ECG 비교와 serial ECG가 중요하다."
         ]
       },
       {
-        "title": "검사 원리",
+        "title": "기록 품질",
         "content": [
-          "• 심근세포는 탈분극(depolarization)과 재분극(repolarization)을 반복하며 전기적 전위 변화를 만든다.",
-          "• 이 전위 변화는 몸 전체로 미세하게 전달되고, 피부에 붙인 전극이 그 전위 차이를 감지한다.",
-          "• 심전도는 **심장이 만들어낸 전기를 몸 바깥에서 측정**하는 검사이지, 심장에 전기를 넣는 검사가 아니다.",
-          "• 하나의 lead는 특정 두 지점 사이의 전위 차이 또는 특정 방향에서 본 전기 벡터를 기록한다.",
-          "• 따라서 심전도 파형은 “심장이 실제로 어떻게 보이는가”가 아니라, **전기 신호가 어느 방향으로 얼마나 움직이는가**를 12개 시점에서 본 결과다.",
-          "• depolarization wave가 어떤 lead의 positive electrode 쪽으로 향하면 위로(upward deflection), 멀어지면 아래로(downward deflection) 기록된다.",
-          "• repolarization은 전기적으로 depolarization과 다른 성질을 가지지만, 결과적으로 특정 상황에서는 depolarization과 비슷한 방향의 파형으로 보일 수 있다."
+          "• 표준 calibration: 보통 25 mm/s, 10 mm/mV인지 확인한다.",
+          "• limb/precordial lead 위치, 좌우 반전, poor contact, tremor·movement artifact를 확인한다.",
+          "• 큰 칸 0.20초, 작은 칸 0.04초(25 mm/s)다."
         ]
       },
       {
-        "title": "12 leads의 구성",
+        "title": "체계적 해석 순서",
         "content": [
-          "• 표준 12-lead 심전도는 심장의 electrical activity를 **12개의 서로 다른 벡터 시점**에서 본다.",
-          "• 6개는 frontal plane에서, 6개는 horizontal plane에서 본다.",
-          "### 3-1. Frontal plane leads",
-          "• `I`, `II`, `III`",
-          "• `aVR`, `aVL`, `aVF`",
-          "• 이들은 limb electrode를 이용해 심장을 정면 방향에서 본다.",
-          "### 3-2. Precordial leads",
-          "• `V1`, `V2`, `V3`, `V4`, `V5`, `V6`",
-          "• 이들은 chest wall에 붙이며 심장을 horizontal plane에서 본다."
+          "1. **Rate**: regular이면 300/큰 칸 수 또는 1500/작은 칸 수.",
+          "2. **Rhythm**: regularity, P wave, P:QRS 관계, AV dissociation.",
+          "3. **Axis**: I와 aVF를 먼저 보고 필요 시 II로 경계를 확인한다.",
+          "4. **Intervals**: PR, QRS, QT/QTc.",
+          "5. **QRS**: bundle branch block, ventricular origin, pathologic Q, R progression, voltage.",
+          "6. **ST-T**: 인접 lead 변화, reciprocal change, 이전 ECG 비교.",
+          "7. **Context**: 증상, 전해질, 약물, pacemaker, structural disease와 통합한다.",
+          "대표값은 PR 약 120–200 ms, QRS <120 ms가 흔히 쓰인다. QTc는 공식·성별·심박수 영향이 커 숫자 하나보다 추세와 위험약물/전해질을 함께 본다."
         ]
       },
       {
-        "title": "전극과 lead는 다르다",
+        "title": "Rhythm pattern",
         "content": [
-          "• 실제 전극은 10개를 붙이지만, 여기서 12개의 lead가 계산되어 나온다.",
-          "• 즉 전극 수와 lead 수는 동일 개념이 아니다."
+          "| 패턴 | ECG 단서 | 놓치지 않을 것 |",
+          "|---|---|---|",
+          "| Atrial fibrillation | irregularly irregular, 일관된 P wave 없음 | instability, stroke risk, trigger |",
+          "| Atrial flutter | flutter wave, 고정/가변 AV conduction | 2:1 conduction 시 규칙적 tachy 가능 |",
+          "| Regular narrow SVT | 갑작스러운 규칙적 narrow tachy | flutter 2:1, sinus tachy 원인 |",
+          "| Wide-complex tachycardia | QRS ≥120 ms의 tachy | 불명확하면 VT 가능성을 우선 고려 |",
+          "| Ventricular tachycardia | AV dissociation, capture/fusion 등 지지 소견 | pulse/instability 즉시 확인 |",
+          "| Sinus bradycardia | sinus P와 느린 rate | 약물, ischemia, hypothermia, K |",
+          "| Junctional/escape | P absent/retrograde, 느린 rhythm | underlying block/약물 |",
+          "불안정 환자의 처치는 진단명 확정 전에 소생술·기관 알고리즘을 따른다."
         ]
       },
       {
-        "title": "파형과 각 요소의 의미",
+        "title": "AV block",
         "content": [
-          "### 5-1. P wave",
-          "• atrial depolarization을 의미한다.",
-          "• 정상적으로 대부분의 lead에서 upright이며, atrial enlargement가 있으면 모양과 폭이 변할 수 있다.",
-          "### 5-2. PR interval",
-          "• atrial depolarization 시작부터 ventricular depolarization 시작까지의 시간이다.",
-          "• AV node와 His-Purkinje system을 통한 전도 시간을 반영한다.",
-          "### 5-3. QRS complex",
-          "• ventricular depolarization을 의미한다.",
-          "• 폭이 넓어지면 bundle branch block, ventricular rhythm, hyperkalemia, nonspecific intraventricular conduction delay 등을 생각한다.",
-          "### 5-4. ST segment",
-          "• ventricular depolarization이 완료된 뒤 재분극이 본격적으로 시작되기 전 구간이다.",
-          "• baseline에서 벗어나면 ischemia, infarction, pericarditis, electrolyte disturbance 등 가능성을 본다.",
-          "### 5-5. T wave",
-          "• ventricular repolarization을 의미한다.",
-          "• T wave inversion, flattening, peaking은 ischemia, electrolyte disorder, strain pattern 등을 시사할 수 있다.",
-          "### 5-6. QT interval",
-          "• ventricular depolarization 시작부터 repolarization 끝까지의 시간이다.",
-          "• heart rate 영향이 커서 보정 QT(`QTc`)로 해석한다.",
-          "• QT prolongation은 torsades de pointes 위험과 연결된다.",
-          "### 5-7. U wave",
-          "• 저칼륨혈증 등에서 두드러질 수 있는 작은 뒤이은 파형이다."
+          "• 1도: 모든 P가 전도되며 PR 연장.",
+          "• Mobitz I: PR이 점차 늘다가 QRS 탈락.",
+          "• Mobitz II: 일정한 PR에서 갑작스러운 QRS 탈락; infranodal disease 가능성이 높다.",
+          "• 3도: P와 QRS가 독립적인 AV dissociation.",
+          "• 2:1 block은 Mobitz I/II를 표면 ECG만으로 구분하기 어려울 수 있어 QRS 폭·임상 맥락과 전문 평가가 필요하다."
         ]
       },
       {
-        "title": "정상범위",
+        "title": "Ischemia/STEMI pattern",
         "content": [
-          "• `PR interval`: 약 `0.10-0.20 sec`",
-          "• `QRS duration`: 약 `0.07-0.10 sec`",
-          "• `QRS 0.10-0.11 sec`: incomplete bundle branch block 또는 nonspecific delay 가능",
-          "• `QRS >= 0.12 sec`: complete bundle branch block 또는 intraventricular conduction delay",
-          "• `QTc`: 남성 약 `350-450 ms`, 여성 약 `360-460 ms`"
+          "• ST elevation/depression과 T 변화는 인접 lead 분포와 reciprocal change, 시간 경과로 읽는다.",
+          "• inferior: II, III, aVF; lateral: I, aVL, V5–V6; anterior/septal: V1–V4.",
+          "• posterior/right ventricular involvement이 의심되면 추가 lead를 고려한다.",
+          "• LBBB, paced rhythm, LVH, early repolarization, pericarditis, electrolyte disorder가 해석을 어렵게 한다.",
+          "• ongoing ischemic symptom인데 초기 ECG가 비진단적이면 serial ECG와 troponin을 포함한 ACS pathway로 평가한다."
         ]
       },
       {
-        "title": "해석 순서",
+        "title": "Electrolyte와 약물",
         "content": [
-          "1. Calibration과 artifact를 먼저 본다.",
-          "2. Heart rate를 본다.",
-          "3. Rhythm이 sinus rhythm인지 본다.",
-          "4. P wave와 QRS의 관계를 본다.",
-          "5. PR interval을 본다.",
-          "6. QRS width를 본다.",
-          "7. Axis를 본다.",
-          "8. R wave progression과 chamber enlargement 소견을 본다.",
-          "9. ST segment와 T wave를 본다.",
-          "10. QT/QTc를 확인한다."
+          "• Hyperkalemia: peaked T → PR 연장/P 소실 → QRS widening 등으로 진행할 수 있으나 전형적 순서를 항상 따르지는 않는다.",
+          "• Hypokalemia: ST depression, T flattening/inversion, prominent U wave, QT처럼 보이는 QU 연장.",
+          "• Hypocalcemia는 QT 연장, hypercalcemia는 QT 단축 방향.",
+          "• QT-prolonging drug, bradycardia, 저K/저Mg, congenital long-QT가 겹치면 torsades 위험이 커진다.",
+          "• QRS widening과 독성 노출에서는 sodium-channel blocker 등 약물 원인을 검토한다."
         ]
       },
       {
-        "title": "Heart rate 계산",
+        "title": "Red flags와 다음 행동",
         "content": [
-          "• regular rhythm에서는 R-R interval을 이용해 계산한다.",
-          "• 큰 칸 1개가 `0.20 sec`, 작은 칸 1개가 `0.04 sec`다.",
-          "• 흔히 `300 / 큰 칸 수` 또는 `1500 / 작은 칸 수`를 사용한다."
+          "• pulse 없음, shock, ischemic chest pain, acute heart failure, altered mental status",
+          "• 지속 wide-complex tachycardia 또는 polymorphic VT",
+          "• high-grade AV block과 증상/저관류",
+          "• regional ST 변화와 ACS 증상",
+          "• hyperkalemia 의심 ECG 또는 현저한 QT prolongation과 syncope",
+          "즉시 모니터링, IV access, 전해질·glucose·troponin 및 원인검사를 준비하고, 기관 ACLS/ACS protocol과 전문 협진을 따른다."
         ]
       },
       {
-        "title": "Rhythm 해석의 기본",
+        "title": "한계와 후속검사",
         "content": [
-          "• **Sinus rhythm**은 보통 다음 특징을 가진다.",
-          "• 매 QRS 앞에 P wave가 있다.",
-          "• P wave morphology가 일정하다.",
-          "• PR interval이 비교적 일정하다.",
-          "• P wave가 `II`에서 upright, `aVR`에서 negative인 경우가 많다."
+          "• 간헐 증상: telemetry, Holter/event monitor.",
+          "• 구조 평가: [[Echocardiography]].",
+          "• 허혈 평가: 임상 위험에 따라 serial biomarker, coronary CT, stress imaging, angiography.",
+          "• ECG의 자동 판독은 보조이며 원파형과 임상 맥락을 직접 확인한다."
         ]
       },
       {
-        "title": "Axis",
+        "title": "출처",
         "content": [
-          "• QRS axis는 frontal plane에서 ventricular depolarization의 평균 방향을 뜻한다.",
-          "• 대략 정상 axis는 `-30°`에서 `+90°` 정도로 본다.",
-          "• left axis deviation, right axis deviation은 fascicular block, ventricular hypertrophy, infarction 등의 단서가 될 수 있다."
-        ]
-      },
-      {
-        "title": "Lead별로 주로 보는 영역",
-        "content": [
-          "• `II`, `III`, `aVF`: inferior",
-          "• `I`, `aVL`, `V5`, `V6`: lateral",
-          "• `V1`, `V2`: septal / right-sided anterior",
-          "• `V3`, `V4`: anterior",
-          "• 이 구분은 ischemia/infarction localization에서 특히 중요하다."
-        ]
-      },
-      {
-        "title": "흔한 이상 소견",
-        "content": [
-          "### 12-1. PR interval 연장",
-          "• first-degree AV block 가능",
-          "### 12-2. Wide QRS",
-          "• bundle branch block",
-          "• ventricular rhythm",
-          "• hyperkalemia",
-          "### 12-3. ST elevation",
-          "• acute myocardial infarction",
-          "• pericarditis",
-          "• early repolarization",
-          "• LV aneurysm",
-          "• hyperkalemia 등",
-          "### 12-4. ST depression",
-          "• myocardial ischemia",
-          "• reciprocal change",
-          "• digoxin effect",
-          "• ventricular hypertrophy strain",
-          "### 12-5. Tall peaked T wave",
-          "• hyperkalemia",
-          "• hyperacute ischemic change 가능",
-          "### 12-6. T wave inversion",
-          "• ischemia",
-          "• myocarditis",
-          "• strain pattern",
-          "• conduction disturbance"
-        ]
-      },
-      {
-        "title": "Chamber enlargement와 hypertrophy",
-        "content": [
-          "• P wave morphology 변화는 right/left atrial enlargement 단서를 줄 수 있다.",
-          "• QRS voltage와 repolarization 변화는 ventricular hypertrophy를 시사할 수 있다.",
-          "• 단, voltage criteria만으로 구조적 진단을 확정하면 안 되고 echo와 함께 봐야 한다."
-        ]
-      },
-      {
-        "title": "임상적 활용",
-        "content": [
-          "• chest pain의 초기 평가",
-          "• ACS triage",
-          "• arrhythmia 확인",
-          "• syncope/palpitations workup",
-          "• electrolyte disturbance 평가",
-          "• drug toxicity 평가",
-          "• preoperative baseline assessment"
-        ]
-      },
-      {
-        "title": "장점",
-        "content": [
-          "• 빠름",
-          "• 비침습적",
-          "• 저비용",
-          "• bedside 가능",
-          "• acute ischemia와 rhythm disturbance에서 즉시 정보 제공"
-        ]
-      },
-      {
-        "title": "한계",
-        "content": [
-          "• 아주 짧은 시간의 snapshot이다.",
-          "• 간헐적 arrhythmia는 놓칠 수 있다.",
-          "• 정상 EKG가 serious cardiac disease를 완전히 배제하지는 못한다.",
-          "• 구조적 질환의 확정 검사는 아니다."
-        ]
-      },
-      {
-        "title": "주의점 및 함정",
-        "content": [
-          "• lead misplacement는 해석을 완전히 왜곡할 수 있다.",
-          "• tremor, movement, poor skin contact는 artifact를 만든다.",
-          "• baseline wander와 muscle noise를 pathology로 오인하면 안 된다.",
-          "• bundle branch block, paced rhythm, LVH가 있으면 ischemic ST-T 해석이 더 어려워진다."
-        ]
-      },
-      {
-        "title": "추가 검사로 이어지는 경우",
-        "content": [
-          "• 증상이 간헐적이면 Holter monitor 또는 event monitor",
-          "• 구조적 평가가 필요하면 echocardiography",
-          "• ischemia 평가가 더 필요하면 stress test, coronary CT, angiography"
-        ]
-      },
-      {
-        "title": "관련 검사",
-        "content": [
-          "• [[04 영상검사/Echocardiography]]",
-          "• Troponin",
-          "• Holter monitoring",
-          "• Event monitoring"
-        ]
-      },
-      {
-        "title": "참고문헌",
-        "content": [
-          "• MedlinePlus Medical Test: Electrocardiogram",
-          "• Merck Manual Professional: Electrocardiography"
+          "• [American Heart Association: Electrocardiogram](https://www.heart.org/en/health-topics/heart-attack/diagnosing-a-heart-attack/electrocardiogram)"
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:10:05.072Z"
+    "updatedAt": "2026-07-11T12:11:20.199Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-11",
+      "reviewStatus": "draft",
+      "guidelineYear": "2025",
+      "sources": [
+        {
+          "label": "American Heart Association ECG",
+          "url": "https://www.heart.org/en/health-topics/heart-attack/diagnosing-a-heart-attack/electrocardiogram"
+        }
+      ]
+    }
   },
   {
     "id": "lab-img:04 영상검사/영상검사.md",
@@ -6555,38 +7234,137 @@
       "04 영상검사"
     ],
     "folder": "04 영상검사",
-    "aliases": [],
+    "aliases": [
+      "Imaging overview",
+      "영상검사 선택",
+      "radiology"
+    ],
     "category": "04 영상검사",
     "summary": [
-      "영상검사",
-      "개요",
-      "• radiography부터 CT, MRI, ultrasonography까지 구조적 평가를 담당하는 검사군이다.",
-      "• 각 modality는 서로 다른 에너지와 물리 원리를 사용하므로, **어떤 조직에 강한지**, **무엇이 약점인지**, **방사선 노출이 있는지**를 함께 이해해야 한다.",
-      "대표 검사",
-      "• [[X-ray]]",
-      "• [[Ultrasonography]]",
-      "• [[Computed Tomography (CT)]]"
+      "“어느 부위를 찍을까”보다 **어떤 임상 질문에 답해야 하는가**를 먼저 쓴다. modality, protocol, contrast, urgency는 질문·환자 위험·기관 절차에 맞춘다."
     ],
     "sections": [
       {
-        "title": "개요",
+        "title": "검사 선택 30초 체크",
         "content": [
-          "• radiography부터 CT, MRI, ultrasonography까지 구조적 평가를 담당하는 검사군이다.",
-          "• 각 modality는 서로 다른 에너지와 물리 원리를 사용하므로, **어떤 조직에 강한지**, **무엇이 약점인지**, **방사선 노출이 있는지**를 함께 이해해야 한다."
+          "1. 임상 질문과 do-not-miss diagnosis를 한 문장으로 정의한다.",
+          "2. 이전 영상과 날짜를 확인해 중복을 피하고 변화 비교가 가능한지 본다.",
+          "3. 환자 안정성, 이동 가능성, 임신 가능성, 신기능, 알레르기 유사 반응 병력을 확인한다.",
+          "4. X-ray/US/CT/MRI 중 질문에 가장 빠르고 정확하게 답할 검사를 고른다.",
+          "5. contrast가 진단에 무엇을 추가하는지, 위험과 지연을 정당화하는지 확인한다.",
+          "6. 적절한 protocol·phase가 불명확하면 영상의학과와 먼저 상의한다.",
+          "ACR Appropriateness Criteria는 임상 시나리오별 선택을 돕는 기준이며 로컬 protocol과 가용성을 함께 적용한다."
         ]
       },
       {
-        "title": "대표 검사",
+        "title": "Modality 비교",
+        "content": [
+          "| 검사 | 강점 | 주요 제한/주의 |",
+          "|---|---|---|",
+          "| X-ray | 빠름, 흉부·뼈, bedside 가능 | projection/position 영향, 낮은 연부조직 대비, 방사선 |",
+          "| Ultrasound | 방사선 없음, 실시간, 담도·골반·혈관·bedside | operator/체형·gas 영향 |",
+          "| CT | 빠름, 응급 출혈·폐·복부·골 평가 | 방사선, iodinated contrast 위험·protocol |",
+          "| MRI | 연부조직·뇌·척수·관절, 방사선 없음 | 시간, motion, implant/기기, claustrophobia, GBCA |",
+          "| Echo | 심장 구조·기능·혈류 bedside 평가 | acoustic window와 operator 영향 |"
+        ]
+      },
+      {
+        "title": "Chest X-ray 접근",
+        "content": [
+          "1. 환자/날짜와 AP·PA, upright/supine, rotation, inspiration, exposure를 확인한다.",
+          "2. Airway/mediastinum → lungs/pleura → cardiac silhouette → diaphragm → bones/soft tissue → lines/tubes 순으로 본다.",
+          "3. 이전 영상과 비교하고 focal opacity, edema, pneumothorax, effusion, device position을 확인한다.",
+          "4. portable AP/supine에서는 심장 크기와 pleural air/fluid 모양이 달라질 수 있다.",
+          "5. CXR가 정상이어도 PE, early pneumonia, aortic syndrome 등을 임상적으로 배제하지 못한다."
+        ]
+      },
+      {
+        "title": "CT 선택과 contrast",
+        "content": [
+          "### Brain CT acute",
+          "• noncontrast CT는 급성 두개내 출혈, 큰 mass effect, skull injury를 빠르게 보는 출발점이다.",
+          "• vascular occlusion/aneurysm 질문은 CTA/CTP 등 별도 protocol이 필요하다.",
+          "• 초기 ischemia는 subtle하거나 보이지 않을 수 있어 stroke pathway와 MRI/vascular imaging을 질문에 맞게 연결한다.",
+          "### Abdomen/pelvis CT",
+          "• pain 위치, onset, 수술력, pregnancy, infection/ischemia/bleeding/stone 질문을 명시한다.",
+          "• stone은 흔히 noncontrast protocol, infection/mass/vascular question은 contrast와 phase가 중요하다.",
+          "• “CT abdomen”만 주문하지 말고 의심진단과 필요한 phase를 전달한다.",
+          "### Iodinated contrast safety",
+          "• 과거 동일 계열 contrast 반응, asthma/알레르기 맥락, 현재 AKI/eGFR, dehydration과 약물을 확인한다.",
+          "• contrast-associated AKI 위험평가와 예방, metformin 처리는 ACR 매뉴얼 및 기관 기준을 따른다.",
+          "• extravasation·급성 반응 대응 장비와 훈련된 인력이 준비되어야 한다.",
+          "• 생명을 위협하는 진단에서 영상 지연 위험과 contrast 위험을 함께 비교한다."
+        ]
+      },
+      {
+        "title": "Ultrasound 선택",
+        "content": [
+          "• RUQ pain/담낭·담도, pelvic/obstetric, DVT compression, hydronephrosis, aorta, soft tissue/abscess, procedure guidance에 유용하다.",
+          "• POCUS는 질문 중심의 제한검사이며 comprehensive study를 대체하는지 명확히 구분한다.",
+          "• 음성 결과의 의미는 검사자 숙련도, 체형, gas, 질환의 pretest probability에 달려 있다.",
+          "• 저장 영상, 측정, side/landmark와 제한점을 기록한다."
+        ]
+      },
+      {
+        "title": "MRI 선택과 안전",
+        "content": [
+          "• acute brain ischemia, spinal cord, soft tissue, marrow, joint, tumor characterization 등에서 강점이 있다.",
+          "• 모든 implant·외부기기·patch·foreign body를 정확히 식별한다.",
+          "• MR Conditional 기기는 제조사 조건을 모두 충족할 때만 허용된다. 안전정보가 불명확한 기기는 안전하다고 가정하지 않는다.",
+          "• projectile, heating/burn, device malfunction, noise, claustrophobia, motion/sedation 위험을 screening한다.",
+          "• GBCA 필요성, 이전 반응, 임신, 신기능과 NSF 위험은 제제와 기관 정책에 따라 평가한다."
+        ]
+      },
+      {
+        "title": "Red flags와 즉시 상의할 상황",
+        "content": [
+          "• unstable patient가 장시간/원거리 검사로 이동해야 하는 경우",
+          "• stroke, aortic syndrome, active bleeding, cord compression, cauda equina, tension pneumothorax 등 시간민감 질환",
+          "• 임신, 소아, 반복 CT에서 방사선 최적화가 필요한 경우",
+          "• 중증 contrast 반응 병력, AKI, dialysis, 불명확한 MRI implant",
+          "• 주문 질문과 선택 protocol이 맞지 않거나 결과가 임상과 충돌하는 경우"
+        ]
+      },
+      {
+        "title": "관련 검사",
         "content": [
           "• [[X-ray]]",
           "• [[Ultrasonography]]",
           "• [[Computed Tomography (CT)]]",
           "• [[Magnetic Resonance Imaging (MRI)]]",
-          "• [[Echocardiography]]"
+          "• [[Echocardiography]]",
+          "• [[심전도]]"
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• [ACR: Appropriateness Criteria](https://www.acr.org/clinical-resources/clinical-tools-and-reference/appropriateness-criteria)",
+          "• [ACR: Manual on Contrast Media](https://cs.acr.org/Clinical-Resources/Contrast-Manual)",
+          "• [FDA: MRI Information for Professionals](https://www.fda.gov/radiation-emitting-products/mri-magnetic-resonance-imaging/information-professionals)"
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:45:55.052Z"
+    "updatedAt": "2026-07-11T12:11:20.168Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-11",
+      "reviewStatus": "draft",
+      "guidelineYear": "2024",
+      "sources": [
+        {
+          "label": "ACR Appropriateness Criteria",
+          "url": "https://www.acr.org/clinical-resources/clinical-tools-and-reference/appropriateness-criteria"
+        },
+        {
+          "label": "ACR Manual on Contrast Media",
+          "url": "https://cs.acr.org/Clinical-Resources/Contrast-Manual"
+        },
+        {
+          "label": "FDA MRI Information for Professionals",
+          "url": "https://www.fda.gov/radiation-emitting-products/mri-magnetic-resonance-imaging/information-professionals"
+        }
+      ]
+    }
   },
   {
     "id": "lab-img:04 영상검사/Computed Tomography (CT).md",
@@ -6717,7 +7495,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:45:56.003Z"
+    "updatedAt": "2026-06-13T14:45:56.003Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:04 영상검사/Echocardiography.md",
@@ -6851,7 +7635,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:45:56.661Z"
+    "updatedAt": "2026-06-13T14:45:56.661Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:04 영상검사/Magnetic Resonance Imaging (MRI).md",
@@ -6974,7 +7764,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:45:56.314Z"
+    "updatedAt": "2026-06-13T14:45:56.314Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:04 영상검사/Ultrasonography.md",
@@ -7113,7 +7909,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:45:55.671Z"
+    "updatedAt": "2026-06-13T14:45:55.671Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:04 영상검사/X-ray.md",
@@ -7231,7 +8033,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:10:05.772Z"
+    "updatedAt": "2026-06-13T16:10:05.772Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:99 기타 검사/01 폐기능검사/폐기능검사.md",
@@ -7415,7 +8223,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:10:05.532Z"
+    "updatedAt": "2026-06-13T16:10:05.532Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:99 기타 검사/02 내시경검사/내시경검사.md",
@@ -7505,7 +8319,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T15:55:10.743Z"
+    "updatedAt": "2026-06-13T15:55:10.743Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:99 기타 검사/02 내시경검사/Bronchoscopy.md",
@@ -7585,7 +8405,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T15:55:12.306Z"
+    "updatedAt": "2026-06-13T15:55:12.306Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:99 기타 검사/02 내시경검사/Colonoscopy.md",
@@ -7665,7 +8491,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T15:55:11.719Z"
+    "updatedAt": "2026-06-13T15:55:11.719Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:99 기타 검사/02 내시경검사/Cystoscopy.md",
@@ -7735,7 +8567,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T15:55:12.797Z"
+    "updatedAt": "2026-06-13T15:55:12.797Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:99 기타 검사/02 내시경검사/EGD (Esophagogastroduodenoscopy).md",
@@ -7822,7 +8660,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T15:55:11.090Z"
+    "updatedAt": "2026-06-13T15:55:11.090Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:99 기타 검사/03 병리·세포검사/병리·세포검사.md",
@@ -8020,7 +8864,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:02:55.523Z"
+    "updatedAt": "2026-06-13T16:02:55.523Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:99 기타 검사/04 신경생리·기능검사/신경생리·기능검사.md",
@@ -8062,7 +8912,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:55:38.434Z"
+    "updatedAt": "2026-06-13T14:55:38.434Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:99 기타 검사/04 신경생리·기능검사/Electroencephalography (EEG).md",
@@ -8115,7 +8971,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:55:38.629Z"
+    "updatedAt": "2026-06-13T14:55:38.629Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:99 기타 검사/04 신경생리·기능검사/Electromyography (EMG).md",
@@ -8169,7 +9031,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:55:39.061Z"
+    "updatedAt": "2026-06-13T14:55:39.061Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:99 기타 검사/04 신경생리·기능검사/Nerve Conduction Study (NCS).md",
@@ -8223,7 +9091,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:55:38.862Z"
+    "updatedAt": "2026-06-13T14:55:38.862Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:99 기타 검사/04 신경생리·기능검사/Polysomnography.md",
@@ -8276,7 +9150,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T14:55:39.260Z"
+    "updatedAt": "2026-06-13T14:55:39.260Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
   },
   {
     "id": "lab-img:99 기타 검사/기타 검사.md",
@@ -8304,6 +9184,122 @@
         ]
       }
     ],
-    "updatedAt": "2026-06-13T16:08:19.044Z"
+    "updatedAt": "2026-06-13T16:08:19.044Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
+    }
+  },
+  {
+    "id": "lab-img:99 기타 검사/CSF analysis.md",
+    "slug": "bGFiLWltZzo5OSDquLDtg4Ag6rKA7IKsL0NTRiBhbmFseXNpcy5tZA",
+    "title": "CSF analysis",
+    "sourcePath": "source_notes/06 Lab & Img/99 기타 검사/CSF analysis.md",
+    "relativePath": "99 기타 검사/CSF analysis.md",
+    "pathSegments": [
+      "99 기타 검사"
+    ],
+    "folder": "99 기타 검사",
+    "aliases": [
+      "CSF",
+      "Cerebrospinal fluid analysis",
+      "뇌척수액검사"
+    ],
+    "category": "99 기타 검사",
+    "summary": [
+      "opening pressure, cell count/differential, protein, CSF glucose와 동시 serum glucose, Gram stain/culture/PCR을 한 묶음으로 읽는다. 감염 의심 시 결과를 기다리느라 필요한 초기 치료를 지연하지 않는다."
+    ],
+    "sections": [
+      {
+        "title": "채취 전 확인",
+        "content": [
+          "• 적응증, 동의, 신경학적 진찰과 출혈위험을 확인한다.",
+          "• focal deficit, papilledema, 새 seizure, 현저한 의식저하, 면역저하 등에서는 LP 전 영상 필요성을 기관 지침에 따라 평가한다.",
+          "• 항응고제, platelet/coagulation 상태와 국소 감염을 확인한다.",
+          "• 가능하면 lateral decubitus에서 opening pressure를 정확히 측정한다."
+        ]
+      },
+      {
+        "title": "30초 해석 순서",
+        "content": [
+          "1. opening pressure와 외관을 기록한다.",
+          "2. tube별 RBC 감소 여부로 traumatic tap 가능성을 보되 SAH를 단순 배제하지 않는다.",
+          "3. WBC와 differential, protein을 확인한다.",
+          "4. CSF glucose를 비슷한 시점의 serum glucose와 비교한다.",
+          "5. Gram stain/culture, PCR 등 병원체 검사를 임상 맥락과 함께 읽는다.",
+          "6. 항생제 선투여와 면역상태가 전형적 패턴을 바꿀 수 있음을 고려한다."
+        ]
+      },
+      {
+        "title": "대표 패턴",
+        "content": [
+          "| 방향 | 세포 | Protein | Glucose |",
+          "|---|---|---|---|",
+          "| Bacterial meningitis | 흔히 neutrophil 우세 | 상승 | 낮음 |",
+          "| Viral meningitis | 흔히 lymphocyte 우세 | 정상~상승 | 대개 정상 |",
+          "| TB/fungal | 흔히 lymphocyte 우세 | 상승 | 낮음 |",
+          "| SAH | RBC/xanthochromia 맥락 | 변동 | 대개 정상 |",
+          "이 표는 전형적 경향일 뿐 배제 기준이 아니다. 초기·부분치료·면역저하에서는 중첩된다."
+        ]
+      },
+      {
+        "title": "검체·전처리 함정",
+        "content": [
+          "• tube 번호와 검사 배분을 명확히 하고 microbiology 검체를 지연하지 않는다.",
+          "• CSF cell은 빠르게 소실될 수 있어 신속히 분석한다.",
+          "• traumatic tap의 WBC 보정 공식은 보조적이며 임상 판단을 대체하지 않는다.",
+          "• oligoclonal band는 paired serum과 함께 해석한다."
+        ]
+      },
+      {
+        "title": "Red flags",
+        "content": [
+          "• meningitis/encephalitis 의심과 sepsis, shock, altered mental status",
+          "• 급격한 신경학적 악화 또는 raised intracranial pressure 가능성",
+          "• SAH 의심인데 초기 imaging이 비진단적",
+          "• 면역저하자의 비전형 감염",
+          "• LP 후 진행하는 severe headache, neurologic deficit 또는 출혈 의심"
+        ]
+      },
+      {
+        "title": "다음 검사와 행동",
+        "content": [
+          "• blood culture, CBC, glucose, inflammatory marker와 원인별 PCR/antigen",
+          "• bacterial meningitis 가능성이 있으면 기관 protocol에 따른 empiric antimicrobial ± adjunctive therapy를 지체하지 않는다.",
+          "• encephalitis, TB/fungal, malignancy, demyelination 등 질문에 맞춰 추가검사를 선택한다.",
+          "• 결과는 영상, 항생제 선투여, 면역상태, 시간 경과와 통합한다."
+        ]
+      },
+      {
+        "title": "관련 검사·술기",
+        "content": [
+          "• [[Complete Blood Count (CBC)]]",
+          "• [[Blood Culture]]",
+          "• [[Lumbar puncture]]",
+          "• [[CT]]",
+          "• [[MRI]]"
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• [MedlinePlus: Cerebrospinal Fluid Analysis](https://medlineplus.gov/lab-tests/cerebrospinal-fluid-csf-analysis/)"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-11T12:02:12.257Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-11",
+      "reviewStatus": "draft",
+      "guidelineYear": "2026",
+      "sources": [
+        {
+          "label": "MedlinePlus CSF Analysis",
+          "url": "https://medlineplus.gov/lab-tests/cerebrospinal-fluid-csf-analysis/"
+        }
+      ]
+    }
   }
 ]

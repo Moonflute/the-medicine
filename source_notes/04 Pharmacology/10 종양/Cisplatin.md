@@ -14,8 +14,15 @@ aliases:
 용량:
   - "주사제. 항암 프로토콜별 투여."
 related_diseases:
-  - "-"
+  - '전이성 고환암'
+  - '전이성 난소암'
+  - '진행성 방광암'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed CISPLATIN (Cisplatin) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=508496cb-3441-46b3-a4fe-e0d440e6adc6'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 시스플라틴 (cisplatin)
@@ -62,7 +69,7 @@ sources_ref: "openFDA drug label API (US)"
 - 소화기계: 심한 구역 및 구토(거의 모든 환자에서 발생).
 - 기타: 주사 부위 반응, 용혈성 빈혈.
 
-#### 주의
+#### 모니터링 및 주의
 - 누적 신독성 발생 가능 (아미노글리코사이드계 항생제 병용 시 악화).
 - 말초 신경병증(감각 이상, 반사 소실 등) 발생 가능.
 - 아나필락시스 유사 반응 보고됨.

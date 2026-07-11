@@ -11,10 +11,20 @@ aliases:
 상품명:
   - "Heparin Sodium"
 용량:
-  - "-"
+  - '성인 치료적 지속정주 예: 5,000 units IV loading 후 20,000-40,000 units/24 hours 지속주입; 응고검사 기반 개별 조정'
+  - '수술 후 VTE 예방: 5,000 units SC를 수술 2시간 전, 이후 8-12시간마다; 적응증·기관 protocol·aPTT 또는 anti-Xa에 따라 조정'
 related_diseases:
-  - "-"
+  - '정맥혈전색전증'
+  - '폐색전증'
+  - '색전 동반 심방세동'
+  - '파종성 혈관내 응고'
+  - '수술·체외순환·투석 중 항응고'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Heparin sodium injection | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3a998729-c912-4e21-8e49-d1e72ba6fe9e'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 헤파린 (heparin)
@@ -65,7 +75,7 @@ sources_ref: "openFDA drug label API (US)"
 - 과민반응: 오한, 발열, 두드러기, 아나필락시스
 - 기타: 간 효소(AST/ALT) 상승, 장기 투여 시 골다공증, 고칼륨혈증
 
-#### 주의
+#### 모니터링 및 주의
 - 치명적인 투약 오류 방지: 고농도 제제와 카테터 락 플러시 제제 혼동 주의
 - 출혈 위험: 고령(특히 60세 이상 여성), 수술 직후, 혈우병 등 출혈 경향이 있는 환자에게 주의
 - HIT/HITT: 혈소판 수치 급감 시 즉시 투여 중단 및 평가

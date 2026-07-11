@@ -1,6 +1,10 @@
 ---
 id: "c-line"
 name: "중심정맥관 (C-line)"
+aliases:
+- Central line
+- Central venous catheter
+- CVC
 category_id: "line"
 category_name: "6. 혈관 라인"
 icon_name: "GitCommit"

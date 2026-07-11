@@ -11,7 +11,8 @@ aliases:
 상품명:
   - "Methylphenidate Hydrochloride (LA)"
 용량:
-  - "-"
+  - '초기 용량은 1일 20mg 권장, 주 단위로 10mg씩 증량 가능'
+  - '1일 60mg 초과 투여는 권장되지 않음'
 related_diseases:
   - "-"
 sources_ref: "openFDA drug label API (US)"

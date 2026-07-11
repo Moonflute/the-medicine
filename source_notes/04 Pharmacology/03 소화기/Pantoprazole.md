@@ -17,6 +17,11 @@ related_diseases:
   - "GERD"
   - "소화성 궤양"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed PANTOPRAZOLE (PANTOPRAZOLE SODIUM) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b58c376e-616b-4970-a375-52ff630e7f09'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 판토프라졸 (pantoprazole)
@@ -60,7 +65,7 @@ sources_ref: "openFDA drug label API (US)"
 - 흔한 부작용: 두통, 설사, 구역, 복통, 구토, 가스참, 어지러움, 관절통.
 - 심각한 부작용: 아나필락시스, 중증 피부 이상 반응(SJS/TEN), 간 손상, 횡문근융해증, 범혈구감소증.
 
-#### 주의
+#### 모니터링 및 주의
 - 위 악성 종양: 증상 완화가 악성 종양의 가능성을 배제하지 않으므로 필요 시 추가 검사 시행.
 - 주사 부위 반응: 정맥 투여 시 혈전정맥염 발생 가능.
 - 급성 간질성 신염: 발생 시 즉시 투여 중단.

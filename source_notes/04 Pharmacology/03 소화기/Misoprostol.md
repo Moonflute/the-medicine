@@ -14,6 +14,11 @@ aliases:
   - "200 mcg PO qid"
 related_diseases:
   - "NSAID 유발 궤양 예방"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed MISOPROSTOL (misoprostol) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c842c35f-6a64-4ecc-95a1-41b6d056047e'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 미소프로스톨 (misoprostol)
@@ -56,7 +61,7 @@ related_diseases:
 - 오심
 - 자궁수축, 질출혈
 
-#### 주의
+#### 모니터링 및 주의
 - 가임기 환자에게 소화기 적응증으로 처방할 때는 임신 여부 확인이 중요합니다.
 - 산부인과 사용은 기관 프로토콜과 모니터링 체계 안에서 이뤄져야 합니다.
 - 단순 위장약으로만 기억하면 위험할 수 있습니다.

@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "-"
 용량:
-  - "-"
+  - '활동성 결핵 성인: 5 mg/kg(최대 300 mg) 경구 1일 1회 또는 15 mg/kg(최대 900 mg) 주 2-3회; 반드시 다른 유효 항결핵제와 병용'
+  - '잠복결핵 예방요법 성인 30 kg 초과: 300 mg 경구 1일 1회; regimen·기간은 병용약과 지침에 따라 결정'
 related_diseases:
-  - "-"
+  - '활동성 결핵'
+  - '잠복결핵감염'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Isoniazid tablets | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03bf3bd5-64f9-4491-89fd-96c5c10d0129'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 이소니아지드 (isoniazid)
@@ -57,7 +64,7 @@ sources_ref: "openFDA drug label API (US)"
 - 발진
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 배양 결과가 나오면 가능한 de-escalation 또는 중단 시점을 같이 판단한다.
 - 알레르기 병력, 신기능, 간기능, C. difficile 위험을 같이 본다.
 - 체온, 백혈구, CRP, 배양 결과, 임상적 호전 여부를 함께 본다.

@@ -11,10 +11,18 @@ aliases:
 상품명:
   - "Fludrocortisone Acetate"
 용량:
-  - "-"
+  - '애디슨병: 통상 1일 0.1 mg 투여 (범위: 주 3회 0.1 mg ~ 1일 0.2 mg)'
+  - '염분 소실성 부신성기 증후군: 1일 0.1~0.2 mg 투여'
+  - '고혈압 발생 시 1일 0.05 mg으로 감량 고려'
 related_diseases:
-  - "-"
+  - '원발성 부신기능저하증'
+  - '염분소실형 선천성 부신과형성증'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed FLUDROCORTISONE ACETATE (Fludrocortisone Acetate) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 플루드로코르티손 (fludrocortisone)
@@ -61,7 +69,7 @@ sources_ref: "openFDA drug label API (US)"
 - 내분비계: 쿠싱 증후군 양상, 성장 억제, 당내성 저하
 - 기타: 상처 치유 지연, 피부 위축, 정신 장애
 
-#### 주의
+#### 모니터링 및 주의
 - 강력한 나트륨 저류 효과로 인해 적응증 외 사용 금지
 - 혈압, 체중 증가, 부종 여부 모니터링
 - 혈청 전해질(특히 칼륨) 주기적 검사

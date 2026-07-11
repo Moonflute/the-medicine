@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "Testopel"
 용량:
-  - "-"
+  - 'Testosterone gel 1% 성인 남성 시작: 50 mg 국소 1일 1회'
+  - '치료 약 14일 후 아침 투여 전 testosterone 농도로 조절; 필요 시 100 mg 1일 1회까지'
+  - '국소 testosterone 제품은 농도·도포 부위가 달라 상호 대체하지 않음'
 related_diseases:
-  - "-"
+  - '남성 성선기능저하증'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Testosterone Gel | https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=a887020f-b41f-49fe-8379-f01147b2a796'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 테스토스테론 (testosterone)
@@ -40,6 +47,9 @@ sources_ref: "openFDA drug label API (US)"
 
 #### 금기증
 
+- 남성 유방암 또는 전립선암이 확인되었거나 의심되는 경우
+- 임신 중인 여성에게 사용 금기
+
 #### 상호작용
 - 저혈당을 유발하거나 혈당을 올리는 병용약을 같이 확인한다.
 - 효소 유도·억제제와 병용 시 호르몬 또는 대사 관련 약효 변화가 생길 수 있다.
@@ -50,7 +60,7 @@ sources_ref: "openFDA drug label API (US)"
 - 호르몬 관련 부작용
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 장기 추적이 필요한 경우가 많아 검사 수치와 생활습관 개입을 함께 본다.
 - 저혈당, 체중 변화, 전해질 이상, 골대사 영향 같은 class effect를 같이 평가한다.
 - 혈당, HbA1c, 체중, 신기능, 전해질, 호르몬 수치를 적응증에 맞게 추적한다.

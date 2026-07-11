@@ -11,7 +11,8 @@ aliases:
 상품명:
   - "MEROPENEM"
 용량:
-  - "-"
+  - '성인: 감염 종류에 따라 500mg~1g을 8시간 간격으로 정맥 주입(15~30분) 또는 정맥 볼루스 주사(3~5분).'
+  - '소아(3개월 이상): 감염 종류 및 체중에 따라 10~40mg/kg을 8시간 간격으로 투여.'
 related_diseases:
   - "-"
 sources_ref: "openFDA drug label API (US)"

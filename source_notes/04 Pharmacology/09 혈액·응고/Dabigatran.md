@@ -18,6 +18,11 @@ related_diseases:
   - "심부정맥혈전증"
   - "폐색전증"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed DABIGATRAN ETEXILATE (DABIGATRAN) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f7ea7e2c-ca54-4ecc-9fc7-bd3571b0ebc2'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 다비가트란 (dabigatran)
@@ -64,7 +69,7 @@ sources_ref: "openFDA drug label API (US)"
 - 위장관계 증상(소화불량, 구역, 복통, 설사)이 흔함
 - 출혈 위험(두개내 출혈 위험은 와파린 대비 낮으나 위장관 출혈 위험은 높을 수 있음)
 
-#### 주의
+#### 모니터링 및 주의
 - 조기 중단 시 혈전 발생 위험이 있으므로 다른 항응고제로 대체 없이 중단하지 말 것
 - 중증 또는 치명적 출혈 발생 가능성 상시 관찰(빈혈, 저혈압 징후 등)
 - 척추/경막외 마취 또는 천자 시 척추 혈종 및 영구적 마비 위험(신경학적 결손 징후 모니터링)

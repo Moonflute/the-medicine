@@ -103,3 +103,4 @@ export function buildLabImgGroups(notes: DomainNote[]): LabImgTopGroup[] {
       };
     });
 }
+

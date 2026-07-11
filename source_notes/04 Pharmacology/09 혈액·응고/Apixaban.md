@@ -18,6 +18,11 @@ related_diseases:
   - "심부정맥혈전증"
   - "폐색전증"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed APIXABAN (ELIQUIS) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a454cd24-0c6d-46e8-b1e4-197388606175'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 아픽사반 (apixaban)
@@ -60,7 +65,7 @@ sources_ref: "openFDA drug label API (US)"
 #### 부작용
 - 출혈 관련 증상(빈혈, 타박상, 비출혈, 위장관 출혈 등)
 
-#### 주의
+#### 모니터링 및 주의
 - 출혈 위험: 치명적일 수 있는 중증 출혈 발생 가능성. 항혈소판제, NSAIDs 등 지혈에 영향을 주는 약물과 병용 시 위험 증가
 - 척추/경막외 마취: 척추 혈종 및 영구적 마비 위험. 카테터 제거 후 최소 5시간 경과 후 투여
 - 인공 심장 판막 환자: 안전성 및 유효성 미확립으로 권장되지 않음

@@ -11,10 +11,16 @@ aliases:
 상품명:
   - "Ledipasvir and Sofosbuvir"
 용량:
-  - "-"
+  - '성인 HCV genotype 1, 4, 5, 6: ledipasvir 90 mg/sofosbuvir 400 mg 1정 경구 1일 1회, 식사와 무관'
+  - '치료기간 및 ribavirin 병용은 genotype, 치료력, 간경변·이식 상태에 따라 허가 라벨 표 확인'
 related_diseases:
-  - "C형간염"
+  - '만성 C형간염'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Ledipasvir/Sofosbuvir | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=46f4a73b-0cd6-4902-9092-3ac79e882c1a'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 레디파스비르·소포스부비르 (ledipasvir sofosbuvir)
@@ -58,7 +64,7 @@ sources_ref: "openFDA drug label API (US)"
 - 매우 흔함(≥10%): 피로, 두통, 무력증
 - 기타: 구역, 설사, 불면증, 근육통, 기침 등
 
-#### 주의
+#### 모니터링 및 주의
 - B형간염 재활성화: 치료 중 또는 치료 후 B형간염 재활성화 및 간염 악화 가능성이 있으므로 모니터링 필수
 - 서맥 모니터링: 아미오다론 병용이 불가피한 경우, 치료 초기 48시간 동안 입원하여 심장 모니터링 권장
 - 간 기능 변화: 항바이러스 치료로 간 기능이 개선되면서 병용 중인 다른 약물의 대사 속도가 변할 수 있으므로 INR, 혈당 등을 주기적으로 확인

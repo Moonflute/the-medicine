@@ -1,4 +1,4 @@
-import {
+﻿import {
   ActivitySquare,
   Bandage,
   ClipboardList,
@@ -26,3 +26,4 @@ export function SkillCategoryIcon({ iconName, className }: { iconName: string; c
   const Icon = iconMap[iconName as keyof typeof iconMap] ?? Stethoscope;
   return <Icon className={className} />;
 }
+

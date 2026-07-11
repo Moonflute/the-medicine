@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "Clozapine"
 용량:
-  - "-"
+  - '초기 용량: 1일 1~2회 12.5mg으로 시작한다.'
+  - '증량: 내약성이 좋은 경우 2주에 걸쳐 1일 150~225mg 2회 투여를 목표로 25~50mg씩 증량한다.'
+  - '유지 용량: 필요 시 1주 또는 2주 간격으로 100mg씩 증량 가능하며, 최대 용량은 1일 900mg이다.'
 related_diseases:
   - "조현병"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed CLOZAPINE (CLOZAPINE) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7c748f8a-73ce-4bd3-aa30-9c66657f06ec'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 클로자핀 (clozapine)
@@ -60,7 +67,7 @@ sources_ref: "openFDA drug label API (US)"
 - 대사계: 체중 증가, 고혈당, 당뇨, 이상지질혈증
 - 기타: 발열, 신경이완제 악성 증후군(NMS), 간독성
 
-#### 주의
+#### 모니터링 및 주의
 - 치료 시작 전 및 치료 기간 중 정기적인 ANC 모니터링을 통해 호중구 감소증을 감시한다.
 - 변비 발생 시 심각한 위장관 합병증 예방을 위해 즉각적인 조치와 면밀한 관찰이 필요하다.
 - 체중, 혈당, 지질 수치 등 대사 지표를 정기적으로 측정한다.

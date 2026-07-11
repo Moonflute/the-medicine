@@ -9,12 +9,18 @@ aliases:
   - "adenosine"
   - "아데노신"
 상품명:
-  - "PETITCOCHON TONE UP BODY SUN"
+  - 'Adenocard'
 용량:
-  - "-"
+  - '성인: 초기 6mg을 1~2초에 걸쳐 정맥 주사합니다.'
+  - '반응이 없으면 1~2분 후 12mg을 추가 투여할 수 있습니다.'
 related_diseases:
-  - "-"
+  - '발작성 상심실성 빈맥'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed ADENOSINE (adenosine) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=48d72391-b3d4-bd97-e063-6294a90a9d6f'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 아데노신 (adenosine)
@@ -56,7 +62,7 @@ sources_ref: "openFDA drug label API (US)"
 - 일시적인 서맥, 심정지, 방실차단
 - 메스꺼움, 두통, 어지러움
 
-#### 주의
+#### 모니터링 및 주의
 - 투여 중 심전도(ECG) 모니터링이 필수적이며, 심정지 발생 가능성에 대비하여 제세동기 등 응급 장비를 갖추어야 합니다.
 - 투여 후 일시적인 심정지나 부정맥이 나타날 수 있으나 반감기가 짧아 곧 회복됩니다.
 

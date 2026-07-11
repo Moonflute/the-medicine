@@ -11,10 +11,18 @@ aliases:
 상품명:
   - "NOREPINEPHRINE BITARTRATE"
 용량:
-  - "-"
+  - '초기 용량: 분당 8~12 mcg(base 기준)으로 시작하여 목표 혈압에 도달하도록 조절'
+  - '유지 용량: 일반적으로 분당 2~4 mcg 사용'
+  - '희석: 5% 포도당 주사액(D5W) 또는 5% 포도당 함유 생리식염수에 희석하여 사용(4 mcg/mL 농도 권장)'
 related_diseases:
-  - "-"
+  - '급성 저혈압'
+  - '패혈성 쇼크'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed NOREPINEPHRINE BITARTRATE (NOREPINEPHRINE BITARTRATE) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c90d875c-8e6e-284e-e053-2a95a90a334f'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 노르에피네프린 (norepinephrine)
@@ -54,7 +62,7 @@ sources_ref: "openFDA drug label API (US)"
 - 고혈압, 서맥
 - 주사 부위 조직 괴사, 불안, 두통, 호흡 곤란, 폐부종
 
-#### 주의
+#### 모니터링 및 주의
 - 조직 허혈 및 괴사: 혈관 외 유출(extravasation) 주의
 - 급격한 중단: 투여 갑자기 중단 시 심한 저혈압 발생 가능
 - 심부정맥: 심장 질환 환자에게 부정맥 유발 가능하므로 심장 기능 모니터링 필요

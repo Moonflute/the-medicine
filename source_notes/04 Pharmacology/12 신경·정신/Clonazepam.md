@@ -11,7 +11,8 @@ aliases:
 상품명:
   - "Clonazepam"
 용량:
-  - "-"
+  - '간질: 성인 초기 1.5mg/일(3회 분할), 최대 20mg/일. 소아는 체중 기반 용량 조절(0.01~0.03mg/kg/일 시작)'
+  - '공황 장애: 성인 초기 0.25mg 1일 2회, 3일 후 1mg/일로 증량. 최대 4mg/일 권장'
 related_diseases:
   - "-"
 sources_ref: "openFDA drug label API (US)"

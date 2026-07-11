@@ -253,6 +253,7 @@
     {
       "id": "venipuncture",
       "name": "정맥채혈 (Venipuncture)",
+      "aliases": [],
       "categoryId": "blood",
       "categoryName": "1. 채혈",
       "summary": [
@@ -322,6 +323,7 @@
     {
       "id": "abga",
       "name": "동맥채혈 (ABGA)",
+      "aliases": [],
       "categoryId": "blood",
       "categoryName": "1. 채혈",
       "summary": [
@@ -393,6 +395,7 @@
     {
       "id": "femoral-puncture",
       "name": "대퇴혈관 천자 (Femoral Access)",
+      "aliases": [],
       "categoryId": "blood",
       "categoryName": "1. 채혈",
       "summary": [
@@ -459,6 +462,7 @@
     {
       "id": "blood-culture",
       "name": "혈액배양 (Blood Culture)",
+      "aliases": [],
       "categoryId": "blood",
       "categoryName": "1. 채혈",
       "summary": [
@@ -526,6 +530,7 @@
     {
       "id": "needle-stick-injury",
       "name": "주사침 찔림 (Needlestick Injury)",
+      "aliases": [],
       "categoryId": "blood",
       "categoryName": "1. 채혈",
       "summary": [
@@ -589,6 +594,7 @@
     {
       "id": "ng-tube",
       "name": "비위관 삽입 (Nasogastric Tube)",
+      "aliases": [],
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
       "summary": [
@@ -653,6 +659,7 @@
     {
       "id": "t-tube",
       "name": "기관절개관 관리 (Tracheostomy Tube)",
+      "aliases": [],
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
       "summary": [
@@ -716,6 +723,7 @@
     {
       "id": "drainage-tube",
       "name": "일반 배액관 관리 (Drainage Tube)",
+      "aliases": [],
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
       "summary": [
@@ -778,6 +786,7 @@
     {
       "id": "enema",
       "name": "관장 (Enema)",
+      "aliases": [],
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
       "summary": [
@@ -841,6 +850,7 @@
     {
       "id": "chest-tube",
       "name": "흉관 (Chest Tube)",
+      "aliases": [],
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
       "summary": [
@@ -905,6 +915,7 @@
     {
       "id": "foley",
       "name": "도뇨관 (Foley Catheter)",
+      "aliases": [],
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
       "summary": [
@@ -978,6 +989,7 @@
     {
       "id": "jp-drain",
       "name": "J/P Drain 관리",
+      "aliases": [],
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
       "summary": [
@@ -1040,6 +1052,7 @@
     {
       "id": "peg-tube",
       "name": "위루관 (PEG Tube)",
+      "aliases": [],
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
       "summary": [
@@ -1103,6 +1116,7 @@
     {
       "id": "evd",
       "name": "체외뇌실배액 (EVD)",
+      "aliases": [],
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
       "summary": [
@@ -1171,6 +1185,7 @@
     {
       "id": "suction-catheter",
       "name": "기도 흡인 (Suction Catheter)",
+      "aliases": [],
       "categoryId": "tubes",
       "categoryName": "2. 관·튜브",
       "summary": [
@@ -1233,6 +1248,7 @@
     {
       "id": "ekg",
       "name": "심전도 (EKG)",
+      "aliases": [],
       "categoryId": "monitoring",
       "categoryName": "3. 환자 감시",
       "summary": [
@@ -1293,6 +1309,7 @@
     {
       "id": "patient-monitoring",
       "name": "기본 환자 모니터링",
+      "aliases": [],
       "categoryId": "monitoring",
       "categoryName": "3. 환자 감시",
       "summary": [
@@ -1354,6 +1371,7 @@
     {
       "id": "brain-monitoring",
       "name": "뇌신경계 모니터링",
+      "aliases": [],
       "categoryId": "monitoring",
       "categoryName": "3. 환자 감시",
       "summary": [
@@ -1419,6 +1437,7 @@
     {
       "id": "intra-monitor",
       "name": "수술 중 신경 모니터링 (IONM)",
+      "aliases": [],
       "categoryId": "monitoring",
       "categoryName": "3. 환자 감시",
       "summary": [
@@ -1480,6 +1499,7 @@
     {
       "id": "nst",
       "name": "태동 검사 (NST)",
+      "aliases": [],
       "categoryId": "monitoring",
       "categoryName": "3. 환자 감시",
       "summary": [
@@ -1538,6 +1558,7 @@
     {
       "id": "ct-keep",
       "name": "중환자 CT 동행 관리",
+      "aliases": [],
       "categoryId": "monitoring",
       "categoryName": "3. 환자 감시",
       "summary": [
@@ -1599,6 +1620,7 @@
     {
       "id": "paracentesis",
       "name": "복수 천자 (Paracentesis)",
+      "aliases": [],
       "categoryId": "advanced",
       "categoryName": "4. 고급 술기",
       "summary": [
@@ -1661,6 +1683,7 @@
     {
       "id": "pap-smear",
       "name": "자궁경부 세포검사 (Pap Smear)",
+      "aliases": [],
       "categoryId": "advanced",
       "categoryName": "4. 고급 술기",
       "summary": [
@@ -1721,6 +1744,7 @@
     {
       "id": "lumbar-puncture",
       "name": "요추천자 (Lumbar Puncture)",
+      "aliases": [],
       "categoryId": "advanced",
       "categoryName": "4. 고급 술기",
       "summary": [
@@ -1790,6 +1814,7 @@
     {
       "id": "oxygen",
       "name": "산소요법",
+      "aliases": [],
       "categoryId": "cpr",
       "categoryName": "5. CPR·호흡",
       "summary": [
@@ -1852,6 +1877,7 @@
     {
       "id": "cpr",
       "name": "심폐소생술 (CPR)",
+      "aliases": [],
       "categoryId": "cpr",
       "categoryName": "5. CPR·호흡",
       "summary": [
@@ -1912,6 +1938,7 @@
     {
       "id": "sellick",
       "name": "윤상연골 압박 (Sellick Maneuver)",
+      "aliases": [],
       "categoryId": "cpr",
       "categoryName": "5. CPR·호흡",
       "summary": [
@@ -1969,6 +1996,7 @@
     {
       "id": "a-line",
       "name": "동맥라인 (Arterial Line)",
+      "aliases": [],
       "categoryId": "line",
       "categoryName": "6. 혈관 라인",
       "summary": [
@@ -2035,6 +2063,7 @@
     {
       "id": "sheath",
       "name": "혈관 Sheath 관리",
+      "aliases": [],
       "categoryId": "line",
       "categoryName": "6. 혈관 라인",
       "summary": [
@@ -2101,6 +2130,11 @@
     {
       "id": "c-line",
       "name": "중심정맥관 (C-line)",
+      "aliases": [
+        "Central line",
+        "Central venous catheter",
+        "CVC"
+      ],
       "categoryId": "line",
       "categoryName": "6. 혈관 라인",
       "summary": [
@@ -2169,6 +2203,7 @@
     {
       "id": "iv-line",
       "name": "말초정맥라인 (Peripheral IV)",
+      "aliases": [],
       "categoryId": "line",
       "categoryName": "6. 혈관 라인",
       "summary": [
@@ -2236,6 +2271,7 @@
     {
       "id": "ampule",
       "name": "앰플·바이알 조제",
+      "aliases": [],
       "categoryId": "injection",
       "categoryName": "7. 주사 및 약물 투여",
       "summary": [
@@ -2297,6 +2333,7 @@
     {
       "id": "abx-injection",
       "name": "항생제 투여 / AST 확인",
+      "aliases": [],
       "categoryId": "injection",
       "categoryName": "7. 주사 및 약물 투여",
       "summary": [
@@ -2358,6 +2395,7 @@
     {
       "id": "narcotics",
       "name": "마약성 진통제 투여",
+      "aliases": [],
       "categoryId": "injection",
       "categoryName": "7. 주사 및 약물 투여",
       "summary": [
@@ -2420,6 +2458,7 @@
     {
       "id": "chemo",
       "name": "항암제 투여",
+      "aliases": [],
       "categoryId": "injection",
       "categoryName": "7. 주사 및 약물 투여",
       "summary": [
@@ -2485,6 +2524,7 @@
     {
       "id": "contrast-media",
       "name": "조영제 투여",
+      "aliases": [],
       "categoryId": "injection",
       "categoryName": "7. 주사 및 약물 투여",
       "summary": [
@@ -2549,6 +2589,7 @@
     {
       "id": "ped-sedation",
       "name": "소아 진정",
+      "aliases": [],
       "categoryId": "injection",
       "categoryName": "7. 주사 및 약물 투여",
       "summary": [
@@ -2616,6 +2657,7 @@
     {
       "id": "infusion-pump",
       "name": "Infusion Pump 사용",
+      "aliases": [],
       "categoryId": "injection",
       "categoryName": "7. 주사 및 약물 투여",
       "summary": [
@@ -2679,6 +2721,7 @@
     {
       "id": "wound-care",
       "name": "상처 드레싱",
+      "aliases": [],
       "categoryId": "wound",
       "categoryName": "8. 드레싱 및 상처관리",
       "summary": [
@@ -2742,6 +2785,7 @@
     {
       "id": "burn-care",
       "name": "화상 처치",
+      "aliases": [],
       "categoryId": "wound",
       "categoryName": "8. 드레싱 및 상처관리",
       "summary": [
@@ -2808,6 +2852,7 @@
     {
       "id": "htn-call",
       "name": "고혈압 악화 보고",
+      "aliases": [],
       "categoryId": "ward",
       "categoryName": "9. 병동 대응",
       "summary": [
@@ -2868,6 +2913,7 @@
     {
       "id": "sugar-call",
       "name": "혈당 이상 대응",
+      "aliases": [],
       "categoryId": "ward",
       "categoryName": "9. 병동 대응",
       "summary": [
@@ -2928,6 +2974,7 @@
     {
       "id": "vasopressor",
       "name": "혈관수축제 사용 감시",
+      "aliases": [],
       "categoryId": "ward",
       "categoryName": "9. 병동 대응",
       "summary": [
@@ -2997,6 +3044,7 @@
     {
       "id": "transfusion",
       "name": "수혈",
+      "aliases": [],
       "categoryId": "ward",
       "categoryName": "9. 병동 대응",
       "summary": [
@@ -3063,6 +3111,7 @@
     {
       "id": "death-pronouncement",
       "name": "사망 확인과 초기 문서화",
+      "aliases": [],
       "categoryId": "ward",
       "categoryName": "9. 병동 대응",
       "summary": [
@@ -3121,6 +3170,7 @@
     {
       "id": "lstd",
       "name": "연명의료결정제도 대응",
+      "aliases": [],
       "categoryId": "ward",
       "categoryName": "9. 병동 대응",
       "summary": [

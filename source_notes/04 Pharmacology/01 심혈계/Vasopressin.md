@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "VASOPRESSIN"
 용량:
-  - "-"
+  - '패혈성 쇼크 성인 지속정주: 0.01-0.07 units/min'
+  - '심장수술 후 쇼크 성인 지속정주: 0.03-0.1 units/min'
 related_diseases:
-  - "-"
+  - '패혈성 쇼크'
+  - '혈관확장성 쇼크'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Vasopressin Injection | https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=4e6c737d-65e8-4af4-b301-69a93affbc7f&type=pdf'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 바소프레신 (vasopressin)
@@ -23,8 +30,7 @@ sources_ref: "openFDA drug label API (US)"
 > 혈관작용제 계열 심혈관계 약물로, 혈압·심박수·혈전·지질 조절 중 어떤 축을 건드리는지 먼저 보는 약이다.
 > 계통: `심혈계 > 쇼크·응급 > 혈관작용제`
 > 대표 상품명(표기 기준): `VASOPRESSIN`
-> 용량: `-`
-
+> 대표 용량: 패혈성 쇼크 성인 지속정주 0.01-0.07 units/min
 ## 기전
 - 혈관 긴장, 심장 전도, 응고 또는 지질 대사를 조절한다.
 
@@ -52,7 +58,7 @@ sources_ref: "openFDA drug label API (US)"
 - 출혈 또는 전해질 이상 등 class 관련 부작용
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 고령, 저혈압, CKD, 동반 심부전 여부에 따라 약효와 부작용 균형이 달라진다.
 - 다른 심혈관 약과 병용되는 경우가 많아 혈압, 심박수, 신기능을 함께 본다.
 - 혈압, 심박수, 출혈 여부 또는 부종 같은 임상 반응을 우선 추적한다.

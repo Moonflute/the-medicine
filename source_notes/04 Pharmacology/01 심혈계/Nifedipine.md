@@ -11,11 +11,17 @@ aliases:
 상품명:
   - "Nifedipine"
 용량:
-  - "-"
+  - '고혈압 및 협심증 치료 시 1일 1회 30mg 또는 60mg으로 시작함.'
+  - '1일 최대 권장 용량은 120mg임.'
 related_diseases:
   - "[[고혈압]]"
   - "협심증"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed NIFEDIPINE (Nifedipine) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acb493a3-b8f2-41a9-8ab2-550d97c4592a'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 니페디핀 (nifedipine)
@@ -59,7 +65,7 @@ sources_ref: "openFDA drug label API (US)"
 - 드물게 발생: 안면 홍조, 심계항진, 저혈압, 빈맥, 발진, 잇몸 증식.
 - 서방정 제형의 경우 드물게 위장관 폐쇄나 궤양 보고가 있음.
 
-#### 주의
+#### 모니터링 및 주의
 - 초기 투여나 용량 증량 시 과도한 저혈압이 발생할 수 있으므로 모니터링 필요.
 - 심한 관상동맥 질환 환자에서 투여 시작 또는 증량 시 협심증 빈도나 강도가 증가할 수 있음.
 - 베타차단제를 중단해야 할 경우 갑작스러운 중단보다는 서서히 감량해야 함.

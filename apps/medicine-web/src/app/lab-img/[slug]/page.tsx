@@ -2,10 +2,12 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { DomainNoteCard } from "@/components/domain-note-card";
 import { ParentPageFab } from "@/components/parent-page-fab";
+import { ReviewSaveButton } from "@/components/review-save-button";
+import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
 import { buildLabImgOverviewGroups, isLabImgOverviewNote } from "@/lib/lab-img-overview";
-import { getLabImgNoteBySlug, getLabImgNotes } from "@/lib/webdb";
+import { getClinicalRelationsFor, getLabImgNoteBySlug, getLabImgNotes } from "@/lib/webdb";
 
 function isReferenceSection(title: string) {
   return /참고|reference|references|bibliography|출처/i.test(title);
@@ -34,9 +36,13 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
       ),
   );
   const parentHref = parentGroup ? "/lab-img/category/" + parentGroup.slug : "/lab-img";
+  const relations = getClinicalRelationsFor("lab", note.id);
 
   return (
     <div className="space-y-6">
+      <div className="flex justify-end">
+        <ReviewSaveButton item={{ type: "lab", id: note.id, title: note.title, href: `/lab-img/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} />
+      </div>
       <DomainNoteCard note={note} />
       <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
         {showOverviewTable ? (
@@ -86,6 +92,26 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
           </div>
         )}
       </section>
+      {note.contentMeta?.sources?.length ? (
+        <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
+          <h2 className="font-semibold text-slate-950">근거 및 검토 정보</h2>
+          <div className="mt-3 flex flex-wrap gap-2 text-sm text-slate-600">
+            {note.contentMeta.reviewStatus ? <span className="pill">상태 {note.contentMeta.reviewStatus}</span> : null}
+            {note.contentMeta.reviewedAt ? <span className="pill">검토일 {note.contentMeta.reviewedAt}</span> : null}
+            {note.contentMeta.guidelineYear ? <span className="pill">근거 연도 {note.contentMeta.guidelineYear}</span> : null}
+          </div>
+          <ul className="mt-4 space-y-2 text-sm">
+            {note.contentMeta.sources.map((source) => (
+              <li key={`${source.label}-${source.url}`}>
+                <a href={source.url} target="_blank" rel="noreferrer" className="font-medium text-sky-700 hover:underline">
+                  {source.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
+      <RelatedClinicalContent relations={relations} />
       <ParentPageFab href={parentHref} />
     </div>
   );

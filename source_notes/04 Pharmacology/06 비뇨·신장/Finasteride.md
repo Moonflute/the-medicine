@@ -16,6 +16,11 @@ aliases:
 related_diseases:
   - "전립선비대증"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed FINASTERIDE (Finasteride) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=03429cec-c6b5-47fe-bb11-6b42f977df7e'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 피나스테라이드 (finasteride)
@@ -55,7 +60,7 @@ sources_ref: "openFDA drug label API (US)"
 - 기타: 유방 압통 및 비대, 발진 등
 - 대부분의 성기능 관련 부작용은 투여 중단 시 회복되거나 지속 투여 시 빈도가 감소하는 경향을 보임
 
-#### 주의
+#### 모니터링 및 주의
 - 임신 중이거나 임신 가능성이 있는 여성은 파손된 정제를 만지지 말 것 (피부 흡수 위험)
 - 혈청 PSA 수치를 약 50% 감소시키므로 전립선암 검사 시 수치 해석에 주의 필요
 - PSA 수치가 지속적으로 상승하는 경우 전립선암 가능성을 고려하여 평가해야 함

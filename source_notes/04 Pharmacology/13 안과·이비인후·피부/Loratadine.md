@@ -20,6 +20,11 @@ nedrug_item_seq: "199700873"
 nedrug_product_name: "대우로라타딘정(수출명:로미딘정,라틴정,필미딘정)"
 nedrug_entp_name: "대우제약(주)"
 easy_drug_update_de: "2024-02-05"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed LORATADINE (Loratadine) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d74af21-3ef7-418b-a2ef-78737b0af288'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 로라타딘 (loratadine)
@@ -61,7 +66,7 @@ easy_drug_update_de: "2024-02-05"
 - 드물지만 주의해야 할 부작용: 빈맥, 두근거림, 어지러움, 경련, 간기능 장애, 탈모증, 아나필락시스(혈관부종 포함).
 - 이상 반응 발생 시 복용을 중단하고 전문가와 상의한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 간장애 또는 신부전 환자는 복용 전 의사 또는 약사와 상의한다.
 - 졸음이 나타날 수 있으므로 운전이나 기계 조작 시 주의한다.
 - 실온 보관하며 어린이의 손이 닿지 않는 곳에 보관한다.

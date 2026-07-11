@@ -11,10 +11,20 @@ aliases:
 상품명:
   - "CYCLOPHOSPHAMIDE"
 용량:
-  - "-"
+  - '정맥 주사: 초기 용량은 체중 kg당 40~50mg을 2~5일에 걸쳐 분할 투여'
+  - '경구 투여: 1일 체중 kg당 1~5mg을 초기 및 유지 용량으로 투여'
+  - '소아 신증후군: 1일 체중 kg당 2mg을 8~12주간 경구 투여 (최대 누적 용량 168mg/kg)'
 related_diseases:
-  - "-"
+  - '악성 림프종'
+  - '백혈병'
+  - '유방암'
+  - '소아 미세변화형 신증후군'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed CYCLOPHOSPHAMIDE (Cyclophosphamide) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d8057d1a-e8af-42ab-9da2-b545730b2655'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 사이클로포스파마이드 (cyclophosphamide)
@@ -60,7 +70,7 @@ sources_ref: "openFDA drug label API (US)"
 - 가장 흔한 부작용: 호중구감소증, 발열성 호중구감소증, 탈모, 오심, 구토, 설사
 - 기타: 출혈성 방광염, 심장 독성, 폐 독성, 이차성 악성 종양, 불임, 간정맥폐쇄질환
 
-#### 주의
+#### 모니터링 및 주의
 - 골수억제 및 면역억제: 중증 감염 위험이 있으므로 혈액학적 모니터링 필수
 - 요로 독성: 출혈성 방광염, 혈뇨 등이 발생할 수 있으며 치명적일 수 있음
 - 심장 독성: 심근염, 심부전 등이 보고됨

@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "-"
 용량:
-  - "-"
+  - '경구 초기 총 5-60 mg/day; 질환과 중증도에 따라 개별화'
+  - '반응 후 최소 유효 유지 용량으로 점진 감량; 장기·고용량 치료 중단 시 급격한 중단을 피함'
 related_diseases:
-  - "-"
+  - '염증성 질환'
+  - '자가면역질환'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Prednisolone Tablets | https://www.dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=16d4e064-66d3-4497-8c7d-3aa355f91e1d&type=pdf'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 프레드니솔론 (prednisolone)
@@ -57,7 +64,7 @@ sources_ref: "openFDA drug label API (US)"
 - 부신축 억제
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 장기 추적이 필요한 경우가 많아 검사 수치와 생활습관 개입을 함께 본다.
 - 저혈당, 체중 변화, 전해질 이상, 골대사 영향 같은 class effect를 같이 평가한다.
 - 혈당, HbA1c, 체중, 신기능, 전해질, 호르몬 수치를 적응증에 맞게 추적한다.

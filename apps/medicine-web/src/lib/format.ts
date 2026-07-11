@@ -1,4 +1,4 @@
-export function formatKoreanDate(value: string) {
+﻿export function formatKoreanDate(value: string) {
   const date = new Date(value);
 
   if (Number.isNaN(date.getTime())) return value;
@@ -9,3 +9,4 @@ export function formatKoreanDate(value: string) {
     day: "2-digit",
   }).format(date);
 }
+

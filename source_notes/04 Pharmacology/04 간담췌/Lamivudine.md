@@ -9,12 +9,20 @@ aliases:
   - "lamivudine"
   - "라미부딘"
 상품명:
-  - "LAMIVUDINE and ZIDOVUDINE"
+  - 'Epivir'
+  - 'Epivir-HBV'
 용량:
-  - "-"
+  - '만성 B형간염 성인: 100 mg 경구 1일 1회'
+  - 'HBV 제형은 HIV 치료용 고용량 제형과 혼용하지 않으며, HIV 동시감염 여부와 신기능에 따라 별도 확인'
 related_diseases:
-  - "-"
+  - '만성 B형간염'
+  - 'HIV 감염'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed Lamivudine Tablets (HBV) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6bd6b9da-df69-46db-813e-4e7f3bdecf95'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 라미부딘 (lamivudine)
@@ -40,6 +48,8 @@ sources_ref: "openFDA drug label API (US)"
 
 #### 금기증
 
+- 성분 또는 제제 구성성분에 대한 중증 과민반응
+
 #### 상호작용
 - 병용약이 많다면 CYP 대사, 진정, 출혈, 신기능 영향 축을 먼저 점검한다.
 
@@ -49,7 +59,7 @@ sources_ref: "openFDA drug label API (US)"
 - 신기능 이상 일부
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 동반질환, 고령, 신기능·간기능, 복용 순응도를 함께 본다.
 - 임상 반응과 주요 장기 독성 지표를 적응증에 맞게 추적한다.
 

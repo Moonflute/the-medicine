@@ -11,10 +11,17 @@ aliases:
 상품명:
   - "INFLECTRA"
 용량:
-  - "-"
+  - '류마티스관절염: 3 mg/kg을 0, 2, 6주차에 투여 후 8주 간격 유지'
+  - '크론병, 궤양성 대장염, 건선 등: 5 mg/kg을 0, 2, 6주차에 투여 후 8주 간격 유지'
+  - '강직성 척추염: 5 mg/kg을 0, 2, 6주차에 투여 후 6주 간격 유지'
 related_diseases:
   - "류마티스관절염"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed INFLIXIMAB (INFLIXIMAB) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b05c174f-832c-4321-b34f-2c4ad3742269'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 인플릭시맙 (infliximab)
@@ -60,7 +67,7 @@ sources_ref: "openFDA drug label API (US)"
 - 주입 관련 반응: 발열, 오한, 호흡곤란, 저혈압, 두드러기 등
 - 기타: 간독성, 혈구감소증, 루푸스 유사 증후군
 
-#### 주의
+#### 모니터링 및 주의
 - 중증 감염 위험: 활동성 감염 시 투여 금지, 기회감염 주의
 - 결핵: 투여 전 잠복 결핵 검사 및 필요 시 치료 시행
 - B형 간염 재활성화: 투여 전 검사 및 보균자 모니터링

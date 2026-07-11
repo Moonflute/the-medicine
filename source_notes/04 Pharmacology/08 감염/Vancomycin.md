@@ -15,6 +15,11 @@ aliases:
 related_diseases:
   - "MRSA 감염"
   - "C. difficile 감염"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed VANCOMYCIN HYDROCHLORIDE (Vancomycin Hydrochloride) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d6b8147b-5f93-49ee-8b27-78fe58987c90'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 반코마이신 (vancomycin)
@@ -64,7 +69,7 @@ related_diseases:
 - neutropenia, thrombocytopenia
 - 드물게 ototoxicity
 
-#### 주의
+#### 모니터링 및 주의
 - creatinine과 약물농도 모니터링이 핵심입니다.
 - bacteremia나 endocarditis에서는 혈액배양 추적, source control, MIC 추세를 함께 봅니다.
 - 단순한 "red man syndrome" 표현보다, 주입 속도 관련 infusion reaction으로 이해하는 편이 정확합니다.

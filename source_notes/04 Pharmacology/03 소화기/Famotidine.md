@@ -12,15 +12,22 @@ aliases:
   - "파미딘정(파모티딘)"
   - "가스터정"
 용량:
-  - "20mg Tab. 1일 1-2회."
+  - '성인·40 kg 이상 활동성 십이지장궤양: 40 mg 1일 1회 또는 20 mg 1일 2회'
+  - '성인·40 kg 이상 GERD: 20 mg 1일 2회'
+  - '신기능 저하에서는 CrCl에 따라 감량 또는 투여 간격 연장'
 related_diseases:
-  - "소화성 궤양"
-  - "GERD"
+  - '소화성 궤양'
+  - 'GERD'
 sources_ref: "식약처 e약은요(의약품개요정보) API getDrbEasyDrugList; 국내 허가는 의약품안전나라로 재확인"
 nedrug_item_seq: "201306176"
 nedrug_product_name: "파미딘정(파모티딘)"
 nedrug_entp_name: "(주)종근당"
 easy_drug_update_de: "2025-08-28"
+sources:
+  - 'DailyMed Famotidine Tablets | https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c133a9e1-ca48-4ee2-8768-01f44f5dd511'
+clinical_priority: tier_1
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 파모티딘 (famotidine)
@@ -60,7 +67,7 @@ easy_drug_update_de: "2025-08-28"
 - 혈액계: 백혈구·적혈구·혈소판 감소, 빈혈
 - 기타: 간기능장애, 횡문근융해증, 간질성 신염, 간질성 폐렴, 여성형 유방
 
-#### 주의
+#### 모니터링 및 주의
 - 신장애, 심질환, 간장애 환자 및 고령자는 용량 조절 및 세심한 관찰이 필요합니다.
 - 임부, 수유부, 황색5호 과민증 환자는 투여 전 주의가 필요합니다.
 - 삼킴 곤란, 토혈, 혈변, 체중 감소, 3개월 이상 지속되는 속쓰림 등 경고 증상 발생 시 즉시 의사와 상담해야 합니다.

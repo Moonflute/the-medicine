@@ -16,6 +16,11 @@ aliases:
 related_diseases:
   - "조현병"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed HALOPERIDOL (Haloperidol) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=54ee5fa9-e346-a1d0-e063-6294a90aef83'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 할로페리돌 (haloperidol)
@@ -58,7 +63,7 @@ sources_ref: "openFDA drug label API (US)"
 - 악성신경이완증후군
 - 라벨에는 빈도와 중증도가 더 세분되어 있으므로 중증 이상반응 병력은 별도 확인한다.
 
-#### 주의
+#### 모니터링 및 주의
 - 진정, 낙상, 자살위험, 약물 순응도, substance use를 함께 평가한다.
 - 장기 복용 약물은 중단 증상과 taper 필요성을 항상 염두에 둔다.
 - 증상 호전뿐 아니라 진정, 체중, 대사이상, EPS, suicidality, misuse 가능성을 본다.

@@ -106,6 +106,35 @@ function firstSectionText(sections, titleIncludes) {
   return section?.content ?? [];
 }
 
+function extractNestedSection(body, titlePattern) {
+  const result = [];
+  let active = false;
+  let targetLevel = 0;
+
+  for (const rawLine of body.split(/\r?\n/)) {
+    const heading = rawLine.match(/^(#{2,6})\s+(.+)$/);
+
+    if (heading) {
+      const level = heading[1].length;
+      const title = cleanupHeading(heading[2]);
+
+      if (active && level <= targetLevel) break;
+      if (!active && titlePattern.test(title)) {
+        active = true;
+        targetLevel = level;
+      }
+      continue;
+    }
+
+    if (active) {
+      const normalized = normalizeLine(rawLine);
+      if (normalized) result.push(normalized);
+    }
+  }
+
+  return result;
+}
+
 function extractSummaryCallout(body) {
   const lines = body.split(/\r?\n/);
   const start = lines.findIndex((line) => line.trim() === "> [!summary]");
@@ -549,6 +578,12 @@ function buildGenericNotes(domainFolder, domainKey, options = {}) {
       ).slice(0, 8),
       sections,
       updatedAt: stat.mtime.toISOString(),
+      contentMeta: {
+        reviewedAt: readScalar(frontmatter["reviewed_at"]),
+        reviewStatus: readScalar(frontmatter["review_status"]),
+        guidelineYear: readScalar(frontmatter["guideline_year"]),
+        sources: parseSkillSources(frontmatter.sources),
+      },
     };
   });
 }
@@ -579,6 +614,11 @@ function buildDrugs() {
     const calloutSummary = extractSummaryCallout(body);
     const clinicalSection = firstSectionText(sections, "임상 사용");
     const fallbackSummary = clinicalSection.slice(0, 5);
+    const indications = extractNestedSection(body, /적응증|indication/i);
+    const contraindications = extractNestedSection(body, /금기|contraindication/i);
+    const interactions = extractNestedSection(body, /상호작용|interaction/i);
+    const adverseEffects = extractNestedSection(body, /부작용|이상반응|adverse/i);
+    const monitoring = extractNestedSection(body, /모니터링|monitoring|주의/i);
 
     return {
       id: `drug:${rel.replaceAll("\\", "/")}`,
@@ -591,17 +631,28 @@ function buildDrugs() {
       summary: (calloutSummary.length > 0 ? calloutSummary : fallbackSummary).slice(0, 5),
       sections,
       updatedAt: stat.mtime.toISOString(),
+      contentMeta: {
+        reviewedAt: readScalar(frontmatter["reviewed_at"]),
+        reviewStatus: readScalar(frontmatter["review_status"]),
+        guidelineYear: readScalar(frontmatter["guideline_year"]),
+        sources: parseSkillSources(frontmatter.sources),
+      },
       drugMeta: {
         type: readScalar(frontmatter["유형"]) || "drug",
         categoryPath,
         topClass,
         middleClass,
         detailClass,
-        clinicalCore: /^true$/i.test(readScalar(frontmatter["임상_핵심"])),
-        priority: readScalar(frontmatter["임상_우선순위"]),
+        clinicalCore: /^true$/i.test(readScalar(frontmatter["임상_핵심"])) || readScalar(frontmatter["clinical_priority"]) === "tier_1",
+        priority: readScalar(frontmatter["clinical_priority"]) || readScalar(frontmatter["임상_우선순위"]),
         brands,
         doses,
         relatedDiseases,
+        indications,
+        contraindications,
+        interactions,
+        adverseEffects,
+        monitoring,
         profile: readScalar(frontmatter["검증_프로파일"]),
       },
     };
@@ -758,6 +809,7 @@ function buildSkills() {
         skill: {
           id,
           name,
+          aliases: readList(frontmatter.aliases),
           categoryId: skillCategoryId,
           categoryName: skillCategoryName,
           summary: extractSummaryCallout(body),
@@ -784,7 +836,18 @@ function buildSkills() {
   return { source: "07 Skills", categories, items };
 }
 
-function buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology, labImg }) {
+function buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology, labImg, skills }) {
+  const genericEntry = (type, item, href) => ({
+    type,
+    slug: item.slug,
+    title: item.title,
+    category: item.category,
+    aliases: item.aliases,
+    keywords: [...(item.pathSegments ?? []), ...item.sections.map((section) => section.title)].filter(Boolean),
+    quickSummary: item.summary[0] || "",
+    href,
+  });
+
   return [
     ...diseases.map((item) => ({
       type: "disease",
@@ -792,6 +855,8 @@ function buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathol
       title: item.title,
       category: item.specialty,
       aliases: [...item.aliases, ...item.chiefComplaints],
+      keywords: [...item.classification, ...item.chiefComplaints, ...item.sections.map((section) => section.title)].filter(Boolean),
+      quickSummary: item.definition || item.overview?.[0] || "",
       href: `/disease/${item.slug}`,
     })),
     ...chiefComplaints.map((item) => ({
@@ -800,39 +865,33 @@ function buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathol
       title: item.title,
       category: item.category,
       aliases: item.aliases,
+      keywords: [...item.differentials.slice(0, 12), ...item.sections.map((section) => section.title)].filter(Boolean),
+      quickSummary: item.concept[0] || item.differentials.slice(0, 3).join(" · "),
       href: `/cc/category/${toSlug(item.category || "기타")}/${item.slug}`,
     })),
     ...drugs.map((item) => ({
-      type: "drug",
-      slug: item.slug,
-      title: item.title,
-      category: item.category,
-      aliases: item.aliases,
-      href: `/drugs/${item.slug}`,
+      ...genericEntry("drug", item, `/drugs/${item.slug}`),
+      keywords: [
+        ...item.drugMeta.relatedDiseases,
+        item.drugMeta.topClass,
+        item.drugMeta.middleClass,
+        item.drugMeta.detailClass,
+        ...item.sections.map((section) => section.title),
+      ].filter(Boolean),
+      priority: item.drugMeta.priority,
     })),
-    ...physiology.map((item) => ({
-      type: "physiology",
-      slug: item.slug,
-      title: item.title,
-      category: item.category,
+    ...physiology.map((item) => genericEntry("physiology", item, `/physiology/${item.slug}`)),
+    ...pathology.map((item) => genericEntry("pathology", item, `/pathology/${item.slug}`)),
+    ...labImg.map((item) => genericEntry("labImg", item, `/lab-img/${item.slug}`)),
+    ...skills.items.map((item) => ({
+      type: "skill",
+      slug: item.id,
+      title: item.name,
+      category: item.categoryName,
       aliases: item.aliases,
-      href: `/physiology/${item.slug}`,
-    })),
-    ...pathology.map((item) => ({
-      type: "pathology",
-      slug: item.slug,
-      title: item.title,
-      category: item.category,
-      aliases: item.aliases,
-      href: `/pathology/${item.slug}`,
-    })),
-    ...labImg.map((item) => ({
-      type: "labImg",
-      slug: item.slug,
-      title: item.title,
-      category: item.category,
-      aliases: item.aliases,
-      href: `/lab-img/${item.slug}`,
+      keywords: [...item.indications, ...item.supplies].slice(0, 20),
+      quickSummary: item.summary[0] || item.indications[0] || "",
+      href: `/skills/${item.id}`,
     })),
   ];
 }
@@ -889,7 +948,7 @@ function main() {
   writeJson("specialty-toc.json", specialtyToc);
   writeJson(
     "search-index.json",
-    buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology, labImg }),
+    buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology, labImg, skills }),
   );
 
   fs.writeFileSync(

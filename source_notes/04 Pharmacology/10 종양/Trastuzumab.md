@@ -9,12 +9,19 @@ aliases:
   - "trastuzumab"
   - "트라스투주맙"
 상품명:
-  - "KADCYLA"
+  - 'Herceptin'
 용량:
-  - "-"
+  - 'HER2 양성 유방암 3주 요법: 8 mg/kg IV loading 후 6 mg/kg IV every 3 weeks; 보조요법 총 52주'
+  - '전이성 유방암 주간 요법: 4 mg/kg IV loading 후 2 mg/kg weekly; 제형·암종·병용 regimen별 용법 확인'
 related_diseases:
-  - "-"
+  - 'HER2 과발현 유방암'
+  - 'HER2 과발현 전이성 위암'
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed HERCEPTIN (trastuzumab) for injection | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=492dbdb2-077e-4064-bff3-372d6af0a7a2'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 트라스투주맙 (trastuzumab)
@@ -56,7 +63,7 @@ sources_ref: "openFDA drug label API (US)"
 - 골수 억제(백혈구 감소증 등)
 - 피로, 구역, 설사, 근육통
 
-#### 주의
+#### 모니터링 및 주의
 - 심장 기능: 치료 전 및 치료 중 정기적인 LVEF(좌심실 박출률) 모니터링 필수
 - 폐 독성: 호흡곤란, 기침 등 폐 증상 발생 시 즉시 평가
 - 주입 반응: 투여 중 및 투여 직후 과민반응 발생 여부 관찰

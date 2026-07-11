@@ -1,82 +1,84 @@
 ---
-유형: lab_test
+유형: interpretation_hub
 검사_분류: 혈액검사
-검체: whole blood
+검체: EDTA 전혈
 aliases:
   - CBC
   - Complete Blood Count
+  - 전혈구검사
+clinical_priority: tier_1
+reviewed_at: 2026-07-11
+review_status: draft
+guideline_year: 2026
+sources:
+  - MedlinePlus CBC | https://medlineplus.gov/lab-tests/complete-blood-count-cbc/
 ---
 
 # Complete Blood Count (CBC)
 
-> Complete Blood Count (CBC) : blood cell count와 기본 혈액학 상태를 평가하는 검사
-> 정상범위: `WBC` 약 `3.6-10.6 x10^9/L`, `Hemoglobin` 남성 약 `13.5-18.0 g/dL` / 여성 약 `12.0-15.0 g/dL`, `Platelet` 약 `150-450 x10^9/L`
+> 빈혈·백혈구·혈소판을 한 번에 훑는 시작점. 단일 수치보다 이전 값, 세포계열 조합, 망상적혈구와 말초도말을 함께 해석한다.
 
-## 1. 개요
-- CBC는 blood cell의 수와 크기를 평가하는 기본 혈액검사이다.
-- 주로 `RBC`, `WBC`, `Platelet`, `Hemoglobin`, `Hematocrit`, `MCV`를 포함하며, 필요 시 `Differential count`가 함께 보고된다.
+## 1. 30초 해석 순서
 
-## 1-1. 하위 문서
-- [[CBC/CBC overview]]
-- [[CBC/White Blood Cell Count (WBC)]]
-- [[CBC/Red Blood Cell Count (RBC)]]
-- [[CBC/Hemoglobin]]
-- [[CBC/Hematocrit]]
-- [[CBC/Mean Corpuscular Volume (MCV)]]
-- [[CBC/Mean Corpuscular Hemoglobin and MCHC (MCH-MCHC)]]
-- [[CBC/Red Cell Distribution Width (RDW)]]
-- [[CBC/Platelet Count]]
-- [[CBC/White Blood Cell Differential]]
+1. Hb/Hct로 빈혈 또는 적혈구증을 확인하고 이전 값과 변화 속도를 본다.
+2. 빈혈이면 MCV로 microcytic / normocytic / macrocytic으로 나눈다.
+3. 망상적혈구 반응이 적절한지 확인해 생성 저하와 소실·용혈을 구분한다.
+4. WBC는 총수치보다 differential과 절대호중구수(ANC)를 함께 본다.
+5. Platelet 감소는 응집에 의한 가성저하를 먼저 배제하고 출혈·혈전 맥락을 확인한다.
+6. 두 계열 이상 이상이면 약물, 감염, 골수질환, 비장비대 가능성을 함께 검토한다.
 
-## 2. 검사 원리
-- CBC는 혈액 속 **cellular component**를 정량하고 분류하는 검사이다. 즉 plasma가 아니라 `RBC`, `WBC`, `Platelet`라는 형성 성분의 수와 크기를 본다.
-- 대부분 automated hematology analyzer는 cell이 좁은 통로를 지나갈 때 발생하는 **electrical impedance 변화**나 **laser/light scatter**를 이용해 cell count와 cell size를 측정한다.
-- `WBC`는 종류에 따라 크기, 과립, 핵 구조가 달라 scatter pattern이 달라지므로, analyzer가 이를 이용해 `Neutrophil`, `Lymphocyte`, `Monocyte`, `Eosinophil`, `Basophil` 등을 구분한다.
-- `Hemoglobin`은 적혈구를 용해한 뒤 색 변화 또는 흡광도를 이용해 광학적으로 측정한다.
-- `Hematocrit`, `MCV`, `MCH`, `MCHC`, `RDW` 같은 index 일부는 직접 측정치가 아니라 `RBC count`, `cell volume`, `Hemoglobin`으로부터 계산된다.
-- 따라서 CBC의 본질은 “혈액세포의 절대 수, 크기, 분포, 조성”을 보는 것이며, anemia, infection, marrow disorder, platelet disorder를 추론하는 출발점이 된다.
+## 2. 대표 참고범위와 주의
 
-## 3. 검체 및 측정 방법
-- 검체는 보통 `EDTA anticoagulated whole blood`를 사용한다.
-- 비정상 flag가 있으면 peripheral blood smear manual review가 추가될 수 있다.
+- Hb, WBC, platelet 정상범위는 연령·성별·임신·고도와 검사실마다 다르다. 화면의 고정값보다 해당 기관 결과지 범위를 우선한다.
+- 급성 출혈 초기에는 Hb가 즉시 크게 떨어지지 않을 수 있다.
+- 수액, 탈수, 수혈은 농도와 추세를 바꾼다.
 
-## 4. 정상범위
-- 아래 수치는 **대표 성인 기준**이며, 기관별 reference range가 우선이다.
-- `WBC`: 약 `3.6-10.6 x10^9/L`
-- `Hemoglobin`: 남성 약 `13.5-18.0 g/dL`, 여성 약 `12.0-15.0 g/dL`
-- `Hematocrit`: 남성 약 `40-54%`, 여성 약 `35-49%`
-- `MCV`: 약 `80-100 fL`
-- `Platelet`: 약 `150-450 x10^9/L`
+## 3. 검체·전처리 함정
 
-## 5. 이상 소견의 해석
-- `WBC 증가`는 infection, inflammation, steroid effect, leukemia 등을 시사할 수 있다.
-- `WBC 감소`는 viral infection, marrow suppression, autoimmune disease, cytotoxic drug effect 등을 시사할 수 있다.
-- `Hemoglobin/Hematocrit 감소`는 anemia를 의미하며, 출혈, hemolysis, iron deficiency, chronic disease, marrow disorder 등을 감별한다.
-- `MCV 감소`는 microcytic anemia pattern으로 iron deficiency, thalassemia, sideroblastic process를 우선 고려한다.
-- `MCV 증가`는 macrocytic anemia pattern으로 vitamin B12 deficiency, folate deficiency, alcohol use, liver disease, hypothyroidism, marrow disorder를 고려한다.
-- `Platelet 증가`는 reactive thrombocytosis 또는 myeloproliferative neoplasm 가능성이 있다.
-- `Platelet 감소`는 decreased production, increased destruction, sequestration, dilution을 구분해야 한다.
+- EDTA tube를 충분히 혼합하지 않거나 응고된 검체는 세포 수치를 왜곡한다.
+- EDTA-dependent platelet clumping이 의심되면 smear 확인 후 citrate tube 등 기관 절차에 따라 재검한다.
+- 오래 방치된 검체는 MCV와 형태가 변할 수 있다.
 
-## 6. 임상적 활용
-- routine screening
-- anemia, infection, bleeding tendency 평가
-- chemotherapy, immunosuppressant, marrow-toxic drug monitoring
-- inflammatory disease와 hematologic disease 추적
+## 4. 빈혈 패턴
 
-## 7. 주의점 및 함정
-- dehydration는 `Hemoglobin/Hematocrit`를 상대적으로 높게 보이게 할 수 있다.
-- large platelet, clumping, cold agglutinin, extreme leukocytosis는 기계 측정 오류를 만들 수 있다.
-- CBC 이상은 diagnosis 자체가 아니라 추가 평가의 출발점이다.
+| 패턴 | 흔한 방향 | 다음 확인 |
+|---|---|---|
+| Microcytic | 철결핍, thalassemia, 만성염증 일부 | ferritin, iron/TIBC·TSAT, smear, 출혈원 |
+| Normocytic + retic 낮음 | CKD, 염증, 골수 생성저하 | 신기능, 염증, smear, 필요 시 골수 평가 |
+| Normocytic + retic 높음 | 출혈, 용혈 | bilirubin, LDH, haptoglobin, DAT, 출혈 평가 |
+| Macrocytic | B12/folate 결핍, 알코올·간질환, 갑상선, 약물, MDS | smear, B12/folate, LFT, TSH, 약물 검토 |
+
+## 5. WBC·혈소판 패턴
+
+- Neutrophilia: 감염·염증, 스트레스, glucocorticoid, 흡연 등을 맥락과 함께 본다.
+- Neutropenia: ANC와 발열 여부가 핵심이다. 약물, 감염, 항암치료, 골수질환을 검토한다.
+- Thrombocytopenia: 가성저하 → 소비(DIC/TMA) → 파괴(면역/약물) → 생성저하 → 비장격리 순으로 좁힌다.
+- Thrombocytosis: 감염·염증·철결핍 등 반응성과 지속되는 골수증식성 원인을 구분한다.
+
+## 6. Red flags
+
+- 발열을 동반한 중증 호중구감소
+- 활동성 출혈과 현저한 혈소판감소
+- schistocyte 의심, 용혈 소견, 혈소판감소와 장기손상
+- blast 또는 급격한 범혈구감소
+- 증상이 있는 급격한 Hb 저하
+
+수치의 절대 임계값과 연락 기준은 환자 상태 및 기관 critical value 정책을 따른다.
+
+## 7. 다음 행동
+
+- 예상 밖 결과는 환자 확인, 이전 결과, 검체 상태를 확인하고 필요 시 재검한다.
+- 빈혈은 [[Iron status overview]], 망상적혈구, 말초도말과 연결한다.
+- 출혈·응고 이상은 [[Coagulation overview]]를 함께 본다.
+- 여러 계열 이상이나 비정상 세포가 지속되면 혈액내과 평가를 고려한다.
 
 ## 8. 관련 검사
-- [[C-Reactive Protein (CRP)]]
-- Peripheral blood smear
-- Reticulocyte count
-- Iron study
-- Vitamin B12
-- Folate
 
-## 9. 참고문헌
-- MedlinePlus Medical Test: Complete Blood Count (CBC)
-- Mayo Clinic: Complete blood count (CBC)
-- Merck Manual table: Complete Blood Count (CBC)
+- [[Reticulocyte]]
+- [[Ferritin]]
+- [[Peripheral Blood Smear]]
+- [[Prothrombin Time (PT)]]
+
+## 9. 출처
+
+- [MedlinePlus: Complete Blood Count](https://medlineplus.gov/lab-tests/complete-blood-count-cbc/)

@@ -9,13 +9,17 @@ aliases:
   - "metformin"
   - "메트포민"
 상품명:
-  - "다이아벡스정"
-  - "ZITUVIMET"
+  - 'Glucophage'
 용량:
   - "500mg Tab. 1일 1-2회 식사와 함께."
 related_diseases:
   - "제2형 당뇨병"
 sources_ref: "openFDA drug label API (US)"
+clinical_priority: tier_1
+sources:
+  - 'DailyMed METFORMIN HYDROCHLORIDE (Metformin hydrochloride) | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=17050df5-9e95-4e1b-ac75-34add289b139'
+reviewed_at: 2026-07-11
+review_status: draft
 ---
 
 # 메트포민 (metformin)
@@ -60,7 +64,7 @@ sources_ref: "openFDA drug label API (US)"
 - 위장관 장애: 설사, 구역, 구토, 복통 (초기 투여 시 흔함)
 - 기타: 두통, 상기도 감염
 
-#### 주의
+#### 모니터링 및 주의
 - 젖산산증(Lactic Acidosis): 전신 권태, 근육통, 복통, 호흡곤란 발생 시 즉시 중단 및 의료진 상담
 - 비타민 B12 결핍: 장기 복용 시 수치 감소 가능성
 - 저혈당: 인슐린 또는 인슐린 분비 촉진제와 병용 시 위험 증가
