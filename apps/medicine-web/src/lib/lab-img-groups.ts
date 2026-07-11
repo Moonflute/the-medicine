@@ -1,106 +1,11 @@
-import type { DomainNote } from "@/lib/webdb";
-
-export type LabImgLeafGroup = {
-  rawTitle: string;
-  title: string;
-  overviewNote?: DomainNote;
-  notes: DomainNote[];
-};
-
-export type LabImgTopGroup = {
-  rawTitle: string;
-  title: string;
-  slug: string;
-  overviewNote?: DomainNote;
-  directNotes: DomainNote[];
-  childGroups: LabImgLeafGroup[];
-};
-
-function toBase64Url(value: string) {
-  return Buffer.from(value, "utf-8").toString("base64url");
-}
-
-function cleanLabel(value: string) {
-  return value.replace(/^\d+\s*/, "").trim();
-}
-
-function sortLabels(a: string, b: string) {
-  return a.localeCompare(b, "ko");
-}
-
-function sortNotes(notes: DomainNote[]) {
-  return notes.slice().sort((a, b) => sortLabels(a.title, b.title));
-}
-
-function isOverviewForLabel(note: DomainNote, label: string) {
-  const noteLabel = cleanLabel(note.title).toLowerCase();
-  const targetLabel = cleanLabel(label).toLowerCase();
-  return noteLabel === targetLabel || noteLabel === `${targetLabel} overview`;
-}
-
-export function buildLabImgGroups(notes: DomainNote[]): LabImgTopGroup[] {
-  const topMap = new Map<string, DomainNote[]>();
-
-  for (const note of notes) {
-    const topKey = note.pathSegments[0] || note.folder || "기타";
-    const bucket = topMap.get(topKey) ?? [];
-    bucket.push(note);
-    topMap.set(topKey, bucket);
-  }
-
-  return [...topMap.entries()]
-    .sort(([a], [b]) => sortLabels(a, b))
-    .map(([rawTitle, topNotes]) => {
-      const directNotes: DomainNote[] = [];
-      const childMap = new Map<string, DomainNote[]>();
-      let overviewNote: DomainNote | undefined;
-
-      for (const note of topNotes) {
-        if (note.pathSegments.length <= 1) {
-          if (!overviewNote && isOverviewForLabel(note, rawTitle)) {
-            overviewNote = note;
-          } else {
-            directNotes.push(note);
-          }
-          continue;
-        }
-
-        const childKey = note.pathSegments[1];
-        const bucket = childMap.get(childKey) ?? [];
-        bucket.push(note);
-        childMap.set(childKey, bucket);
-      }
-
-      const childGroups = [...childMap.entries()]
-        .sort(([a], [b]) => sortLabels(a, b))
-        .map(([childRawTitle, childNotes]) => {
-          let childOverviewNote: DomainNote | undefined;
-          const notesOnly: DomainNote[] = [];
-
-          for (const note of childNotes) {
-            if (!childOverviewNote && isOverviewForLabel(note, childRawTitle)) {
-              childOverviewNote = note;
-            } else {
-              notesOnly.push(note);
-            }
-          }
-
-          return {
-            rawTitle: childRawTitle,
-            title: cleanLabel(childRawTitle),
-            overviewNote: childOverviewNote,
-            notes: sortNotes(notesOnly),
-          };
-        });
-
-      return {
-        rawTitle,
-        title: cleanLabel(rawTitle),
-        slug: toBase64Url(rawTitle),
-        overviewNote,
-        directNotes: sortNotes(directNotes),
-        childGroups,
-      };
-    });
-}
-
+import type { DomainNote, DomainToc } from "@/lib/webdb";
+export type LabImgLeafGroup={rawTitle:string;title:string;overviewNote?:DomainNote;notes:DomainNote[]};
+export type LabImgTopGroup={rawTitle:string;title:string;slug:string;overviewNote?:DomainNote;directNotes:DomainNote[];childGroups:LabImgLeafGroup[]};
+function toBase64Url(v:string){return Buffer.from(v,"utf-8").toString("base64url");}
+function clean(v:string){return v.replace(/^\\d+\\s*/,"").trim();}
+function sortLabels(a:string,b:string){return a.localeCompare(b,"ko");}
+function tocOrder(toc:DomainToc|undefined,level:number){const m=new Map<string,number>();toc?.items.forEach((x,i)=>{const k=x.path.slice(0,level+1).join("\u0000");if(k&&!m.has(k))m.set(k,i);});return m;}
+function ordered(a:string,b:string,m:Map<string,number>,fa:string,fb:string){const x=m.get(a),y=m.get(b);if(x!==undefined&&y!==undefined)return x-y;if(x!==undefined)return-1;if(y!==undefined)return 1;return sortLabels(fa,fb);}
+function noteSort(ns:DomainNote[]){return ns.slice().sort((a,b)=>sortLabels(a.title,b.title));}
+function overview(n:DomainNote,label:string){const a=clean(n.title).toLowerCase(),b=clean(label).toLowerCase();return a===b||a===b+" overview";}
+export function buildLabImgGroups(notes:DomainNote[],toc?:DomainToc):LabImgTopGroup[]{const a=tocOrder(toc,0),b=tocOrder(toc,1),tops=new Map<string,DomainNote[]>();for(const n of notes){const k=n.pathSegments[0]||n.folder||"Other";const q=tops.get(k)||[];q.push(n);tops.set(k,q);}return [...tops.entries()].sort(([x],[y])=>ordered(x,y,a,x,y)).map(([raw,items])=>{const direct:DomainNote[]=[],children=new Map<string,DomainNote[]>();let ov:DomainNote|undefined;for(const n of items){if(n.pathSegments.length<=1){if(!ov&&overview(n,raw))ov=n;else direct.push(n);continue;}const k=n.pathSegments[1],q=children.get(k)||[];q.push(n);children.set(k,q);}const child=[...children.entries()].sort(([x],[y])=>ordered(raw+"\u0000"+x,raw+"\u0000"+y,b,x,y)).map(([cr,ci])=>{let co:DomainNote|undefined;const ns:DomainNote[]=[];for(const n of ci){if(!co&&overview(n,cr))co=n;else ns.push(n);}return{rawTitle:cr,title:clean(cr),overviewNote:co,notes:noteSort(ns)};});return{rawTitle:raw,title:clean(raw),slug:toBase64Url(raw),overviewNote:ov,directNotes:noteSort(direct),childGroups:child};});}

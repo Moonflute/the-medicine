@@ -5,14 +5,14 @@ import { RichTextLines } from "@/components/rich-text-lines";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
 import { buildLabImgOverviewGroups, isLabImgOverviewNote } from "@/lib/lab-img-overview";
-import { getLabImgNotes, type DomainNote } from "@/lib/webdb";
+import { getLabImgNotes, getLabImgToc, type DomainNote } from "@/lib/webdb";
 
 function isReferenceSection(title: string) {
   return /참고|reference|references|bibliography|출처/i.test(title);
 }
 
 export function generateStaticParams() {
-  return buildLabImgGroups(getLabImgNotes()).map((group) => ({ slug: group.slug }));
+  return buildLabImgGroups(getLabImgNotes(), getLabImgToc()).map((group) => ({ slug: group.slug }));
 }
 
 function NoteLinks({
@@ -123,7 +123,7 @@ function InlineNote({
 export default async function LabImgCategoryPage(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params;
   const allNotes = getLabImgNotes();
-  const group = buildLabImgGroups(allNotes).find((item) => item.slug === params.slug);
+  const group = buildLabImgGroups(allNotes, getLabImgToc()).find((item) => item.slug === params.slug);
 
   if (!group) {
     notFound();

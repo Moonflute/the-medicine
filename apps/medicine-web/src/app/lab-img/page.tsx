@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { Calculator, ExternalLink, FlaskConical } from "lucide-react";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
-import { getLabImgNotes } from "@/lib/webdb";
+import { getLabImgNotes, getLabImgToc } from "@/lib/webdb";
 
 export default function LabImgPage() {
-  const groups = buildLabImgGroups(getLabImgNotes());
+  const groups = buildLabImgGroups(getLabImgNotes(), getLabImgToc());
   const medCalcUrl = "https://chronic-disease-dun.vercel.app/";
 
   return (

@@ -55,6 +55,8 @@ export type SpecialtyToc = {
   sourcePath: string;
   items: SpecialtyTocItem[];
 };
+
+export type DomainToc = { domain: string; sourcePath: string; items: SpecialtyTocItem[]; };
 export type SearchEntry = {
   type: string;
   slug: string;

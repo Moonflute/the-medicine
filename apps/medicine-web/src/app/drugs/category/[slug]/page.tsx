@@ -3,10 +3,10 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ChevronRight } from "lucide-react";
 import { buildDrugGroups } from "@/lib/drug-groups";
 import { ParentPageFab } from "@/components/parent-page-fab";
-import { getDrugs } from "@/lib/webdb";
+import { getDrugs, getDrugToc } from "@/lib/webdb";
 
 export function generateStaticParams() {
-  return buildDrugGroups(getDrugs()).map((group) => ({ slug: group.slug }));
+  return buildDrugGroups(getDrugs(), getDrugToc()).map((group) => ({ slug: group.slug }));
 }
 
 function DrugLinks({ notes }: { notes: ReturnType<typeof getDrugs> }) {
@@ -28,7 +28,7 @@ function DrugLinks({ notes }: { notes: ReturnType<typeof getDrugs> }) {
 
 export default async function DrugCategoryPage(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params;
-  const group = buildDrugGroups(getDrugs()).find((item) => item.slug === params.slug);
+  const group = buildDrugGroups(getDrugs(), getDrugToc()).find((item) => item.slug === params.slug);
 
   if (!group) {
     notFound();

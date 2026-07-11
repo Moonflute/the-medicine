@@ -7,7 +7,7 @@ import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
 import { buildLabImgOverviewGroups, isLabImgOverviewNote } from "@/lib/lab-img-overview";
-import { getClinicalRelationsFor, getLabImgNoteBySlug, getLabImgNotes } from "@/lib/webdb";
+import { getClinicalRelationsFor, getLabImgNoteBySlug, getLabImgNotes, getLabImgToc } from "@/lib/webdb";
 
 function isReferenceSection(title: string) {
   return /참고|reference|references|bibliography|출처/i.test(title);
@@ -27,7 +27,7 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
   const visibleSections = note.sections.filter((section) => !isReferenceSection(section.title));
   const overviewGroups = buildLabImgOverviewGroups(note, allNotes);
   const showOverviewTable = isLabImgOverviewNote(note) && overviewGroups.length > 0;
-  const parentGroup = buildLabImgGroups(allNotes).find(
+  const parentGroup = buildLabImgGroups(allNotes, getLabImgToc()).find(
     (group) =>
       group.overviewNote?.slug === note.slug ||
       group.directNotes.some((item) => item.slug === note.slug) ||

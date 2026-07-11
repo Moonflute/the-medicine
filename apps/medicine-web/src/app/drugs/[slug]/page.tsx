@@ -5,7 +5,7 @@ import { ReviewSaveButton } from "@/components/review-save-button";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { buildDrugGroups } from "@/lib/drug-groups";
-import { getClinicalRelationsFor, getDiseaseLinks, getDrugBySlug, getDrugs } from "@/lib/webdb";
+import { getClinicalRelationsFor, getDiseaseLinks, getDrugBySlug, getDrugToc, getDrugs } from "@/lib/webdb";
 
 export function generateStaticParams() {
   return getDrugs().map((note) => ({ slug: note.slug }));
@@ -93,7 +93,7 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
   const monitoring = note.drugMeta?.monitoring?.filter(Boolean) ?? [];
   const diseaseLinks = getDiseaseLinks();
   const summaryLines = note.drugMeta ? dedupeSummaryLines(note.summary.slice(0, 5), note.drugMeta) : note.summary.slice(0, 5);
-  const parentGroup = buildDrugGroups(getDrugs()).find((group) => group.notes.some((item) => item.slug === note.slug));
+  const parentGroup = buildDrugGroups(getDrugs(), getDrugToc()).find((group) => group.notes.some((item) => item.slug === note.slug));
   const parentHref = parentGroup ? "/drugs/category/" + parentGroup.slug : "/drugs";
   const relations = getClinicalRelationsFor("drug", note.id);
 

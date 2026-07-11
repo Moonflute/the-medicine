@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T17:09:57.696Z",
+  "generatedAt": "2026-07-11T18:19:19.461Z",
   "sourceRoot": "source_notes",
   "outputRoot": "_webapp/data",
   "domains": {
@@ -48,6 +48,14 @@
       "explicit": 4874,
       "generated": 2809,
       "source": "derived from frontmatter, structured CC recommendations, and wikilinks"
+    },
+    "drugToc": {
+      "count": 15,
+      "source": "04 Pharmacology/_목차.md"
+    },
+    "labImgToc": {
+      "count": 11,
+      "source": "06 Lab & Img/_목차.md"
     }
   }
 }

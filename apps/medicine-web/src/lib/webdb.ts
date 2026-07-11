@@ -7,6 +7,7 @@ import type {
   ClinicalRelationIndex,
   ClinicalSkill,
   DiseaseNote,
+  DomainToc,
   DomainNote,
   SearchEntry,
   SkillCategorySummary,
@@ -25,6 +26,7 @@ export type {
   ClinicalSkill,
   DiseaseNote,
   DiseaseSection,
+  DomainToc,
   DomainNote,
   SearchEntry,
   SkillCategorySummary,
@@ -119,6 +121,9 @@ export function getSpecialtyRoadmap(slug: string): SpecialtyRoadmap | undefined 
 export function getSpecialtyToc(slug: string): SpecialtyToc | undefined {
   return readJson<SpecialtyToc[]>("specialty-toc.json").find((toc) => toc.specialtySlug === slug);
 }
+export function getDrugToc(): DomainToc { return readJson<DomainToc>("drug-toc.json"); }
+export function getLabImgToc(): DomainToc { return readJson<DomainToc>("lab-img-toc.json"); }
+
 export function getDiseasesBySpecialty(slug: string): DiseaseNote[] {
   return getAllDiseases().filter((note) => toBase64Url(note.specialty) === slug);
 }

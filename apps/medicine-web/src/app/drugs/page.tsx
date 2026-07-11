@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { Pill } from "lucide-react";
 import { buildDrugGroups } from "@/lib/drug-groups";
-import { getDrugs } from "@/lib/webdb";
+import { getDrugs, getDrugToc } from "@/lib/webdb";
 
 export default function DrugsPage() {
-  const groups = buildDrugGroups(getDrugs());
+  const groups = buildDrugGroups(getDrugs(), getDrugToc());
 
   return (
     <div className="page-stack">
