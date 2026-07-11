@@ -1,4 +1,4 @@
-export type ReviewDomain = "disease" | "cc" | "drug" | "lab" | "skill" | "physiology";
+export type ReviewDomain = "disease" | "cc" | "drug" | "lab" | "skill";
 
 export type ReviewConfidence = "again" | "hard" | "good";
 
@@ -27,6 +27,11 @@ const STORAGE_KEY = "medicine-web-review-v2";
 const LEGACY_STORAGE_KEY = "medicine-web-review";
 const RECENT_KEY = "medicine-web-recent-items";
 const CHANGE_EVENT = "medicine-web-review-change";
+const REVIEW_DOMAINS = new Set<ReviewDomain>(["disease", "cc", "drug", "lab", "skill"]);
+
+function isReviewDomain(value: unknown): value is ReviewDomain {
+  return typeof value === "string" && REVIEW_DOMAINS.has(value as ReviewDomain);
+}
 
 function readArray<T>(key: string): T[] {
   if (typeof window === "undefined") return [];
@@ -49,7 +54,8 @@ function catalogKey(type: string, id: string) {
 function enrichItems(items: ReviewItem[], catalog: ReviewCatalogItem[]) {
   const catalogByKey = new Map(catalog.map((item) => [catalogKey(item.type, item.id), item]));
   return items
-    .filter((item) => item && typeof item.id === "string" && typeof item.type === "string")
+    .filter((item) => item && typeof item.id === "string" && isReviewDomain(item.type))
+    .filter((item) => catalog.length === 0 || catalogByKey.has(catalogKey(item.type, item.id)))
     .map((item) => ({ ...item, ...(catalogByKey.get(catalogKey(item.type, item.id)) ?? {}) }));
 }
 
@@ -130,8 +136,11 @@ export function isDue(item: ReviewItem, now = new Date()) {
   return !item.nextReviewAt || new Date(item.nextReviewAt).getTime() <= now.getTime();
 }
 
-export function loadRecentItems(): RecentReviewItem[] {
-  return readArray<RecentReviewItem>(RECENT_KEY);
+export function loadRecentItems(catalog: ReviewCatalogItem[] = []): RecentReviewItem[] {
+  const allowed = new Set(catalog.map((item) => catalogKey(item.type, item.id)));
+  return readArray<RecentReviewItem>(RECENT_KEY).filter(
+    (item) => isReviewDomain(item.type) && (catalog.length === 0 || allowed.has(catalogKey(item.type, item.id))),
+  );
 }
 
 export function trackRecentItem(item: ReviewCatalogItem) {
@@ -158,7 +167,7 @@ export function importReviewData(value: unknown) {
   if (!value || typeof value !== "object") throw new Error("올바른 JSON 객체가 아닙니다.");
   const data = value as { version?: unknown; items?: unknown; recentItems?: unknown };
   if (data.version !== 2 || !Array.isArray(data.items)) throw new Error("지원하지 않는 복습 데이터 형식입니다.");
-  const items = data.items.filter((item): item is ReviewItem => Boolean(item && typeof item === "object" && "id" in item && "type" in item));
+  const items = data.items.filter((item): item is ReviewItem => Boolean(item && typeof item === "object" && "id" in item && "type" in item && isReviewDomain((item as { type?: unknown }).type)));
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
   if (Array.isArray(data.recentItems)) window.localStorage.setItem(RECENT_KEY, JSON.stringify(data.recentItems));
   emitChange();

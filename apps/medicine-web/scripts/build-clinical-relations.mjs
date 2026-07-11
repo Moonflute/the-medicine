@@ -13,7 +13,6 @@ const diseases = readJson("diseases.json");
 const ccs = readJson("chief-complaints.json");
 const drugs = readJson("drugs.json");
 const labs = readJson("lab-img.json");
-const physiology = readJson("physiology.json");
 const skillsManifest = readJson("skills.json");
 
 const nodes = [
@@ -21,7 +20,6 @@ const nodes = [
   ...ccs.map((item) => ({ type: "cc", id: item.id, title: item.title, aliases: item.aliases ?? [], href: `/cc/${item.slug}`, item })),
   ...drugs.map((item) => ({ type: "drug", id: item.id, title: item.title, aliases: item.aliases ?? [], href: `/drugs/${item.slug}`, item })),
   ...labs.map((item) => ({ type: "lab", id: item.id, title: item.title, aliases: item.aliases ?? [], href: `/lab-img/${item.slug}`, item })),
-  ...physiology.map((item) => ({ type: "physiology", id: item.id, title: item.title, aliases: item.aliases ?? [], href: `/physiology/${item.slug}`, item })),
   ...(skillsManifest.items ?? []).map((item) => ({ type: "skill", id: `skill:${item.id}`, title: item.name, aliases: item.aliases ?? [], href: `/skills/${item.id}`, item })),
 ];
 
@@ -135,8 +133,6 @@ function inverse(source, relation, target, evidence) {
     initial_test: "ordered_for",
     monitored_by: "monitors",
     related_skill: "used_for",
-    related_disease: "physiology",
-    physiology: "related_disease",
   };
   const inverseRelation = map[relation];
   if (inverseRelation) add(target, inverseRelation, source, "generated", evidence);
@@ -214,25 +210,6 @@ for (const node of nodes) {
   }
 }
 
-const physiologySpecialtyMap = [
-  [/cardiovascular/i, "01 순환기"],
-  [/respiratory/i, "02 호흡기"],
-  [/gastrointestinal/i, "03 소화기"],
-  [/endocrine/i, "04 내분비"],
-  [/renal/i, "05 신장"],
-  [/neuro/i, "16 신경과-신경외과"],
-  [/autonomic/i, "01 순환기"],
-  [/acid-base/i, "05 신장"],
-];
-for (const physiologyNode of nodes.filter((node) => node.type === "physiology")) {
-  const mapping = physiologySpecialtyMap.find(([pattern]) => pattern.test(physiologyNode.title));
-  if (!mapping) continue;
-  const specialty = mapping[1];
-  for (const disease of nodes.filter((node) => node.type === "disease" && node.item.specialty === specialty)) {
-    add(physiologyNode, "related_disease", disease, "generated", `title → specialty: ${specialty}`);
-    inverse(physiologyNode, "related_disease", disease, `title → specialty: ${specialty}`);
-  }
-}
 // Add conservative second-hop suggestions for CC pages. These remain visibly generated.
 const explicitRelations = [...relationMap.values()].filter((item) => item.provenance !== "generated");
 const nodeByKey = new Map(nodes.map((node) => [`${node.type}|${node.id}`, node]));

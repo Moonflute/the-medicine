@@ -350,7 +350,7 @@ function extractDefinition(body) {
 function buildDiseases() {
   const root = path.join(SOURCE_NOTES_ROOT, "02 Diseases");
   const files = listMarkdownFiles(root, {
-    ignoreFiles: new Set(["index.md", "Disease_index.md", "_\uBAA9\uCC28.md"]),
+    ignoreFiles: new Set(["index.md", "Disease_index.md", "_\uBAA9\uCC28.md", "_\uBAA9\uCC28.md"]),
   });
 
   return files.map((filePath) => {
@@ -400,6 +400,15 @@ function parseSpecialtyTocMarkdown(raw) {
   }
 
   return items;
+}
+
+function buildDomainToc(domainFolder) {
+  const tocPath = path.join(SOURCE_NOTES_ROOT, domainFolder, "_\uBAA9\uCC28.md");
+  return {
+    domain: domainFolder,
+    sourcePath: fs.existsSync(tocPath) ? path.relative(WORKSPACE_ROOT, tocPath).replaceAll("\\", "/") : "",
+    items: fs.existsSync(tocPath) ? parseSpecialtyTocMarkdown(readText(tocPath)) : [],
+  };
 }
 
 function buildSpecialtyToc() {
@@ -902,13 +911,15 @@ function main() {
   const diseases = buildDiseases();
   const chiefComplaints = buildChiefComplaints();
   const drugs = buildDrugs();
-  const physiology = buildGenericNotes("05 Physiology", "physiology");
+  const physiology = [];
   const pathology = buildGenericNotes("03 Pathology", "pathology");
   const labImg = buildGenericNotes("06 Lab & Img", "lab-img", {
-    ignoreFiles: ["Lab & Img.md", "분류체계.md"],
+    ignoreFiles: ["Lab & Img.md", "분류체계.md", "_\uBAA9\uCC28.md"],
   });
   const skills = buildSkills();
   const specialtyRoadmaps = buildSpecialtyRoadmaps();
+  const drugToc = buildDomainToc("04 Pharmacology");
+  const labImgToc = buildDomainToc("06 Lab & Img");
   const specialtyToc = buildSpecialtyToc();
 
   const specialties = [...new Map(diseases.map((item) => [item.specialty, item])).keys()].map((name) => ({
@@ -925,12 +936,14 @@ function main() {
       diseases: { count: diseases.length, source: "02 Diseases" },
       chiefComplaints: { count: chiefComplaints.length, source: "01 Chief Complaint" },
       drugs: { count: drugs.length, source: "04 Pharmacology" },
-      physiology: { count: physiology.length, source: "05 Physiology" },
+      physiology: { count: 0, source: "05 Physiology (excluded from web build)" },
       pathology: { count: pathology.length, source: "03 Pathology" },
       labImg: { count: labImg.length, source: "06 Lab & Img" },
       skills: { count: skills.items.length, source: "07 Skills" },
       specialtyRoadmaps: { count: specialtyRoadmaps.length, source: "08 Specialty Roadmaps" },
       specialtyToc: { count: specialtyToc.length, source: "02 Diseases/*/_\uBAA9\uCC28.md" },
+      drugToc: { count: drugToc.items.length, source: "04 Pharmacology/_\uBAA9\uCC28.md" },
+      labImgToc: { count: labImgToc.items.length, source: "06 Lab & Img/_\uBAA9\uCC28.md" },
       specialties: { count: specialties.length, source: "derived from diseases" },
     },
   };
@@ -946,6 +959,8 @@ function main() {
   writeJson("specialties.json", specialties);
   writeJson("specialty-roadmaps.json", specialtyRoadmaps);
   writeJson("specialty-toc.json", specialtyToc);
+  writeJson("drug-toc.json", drugToc);
+  writeJson("lab-img-toc.json", labImgToc);
   writeJson(
     "search-index.json",
     buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology, labImg, skills }),

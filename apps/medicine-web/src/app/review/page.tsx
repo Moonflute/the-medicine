@@ -5,7 +5,6 @@ import {
   getChiefComplaints,
   getDrugs,
   getLabImgNotes,
-  getPhysiologyNotes,
 } from "@/lib/webdb";
 import type { ReviewCatalogItem } from "@/lib/review-store";
 
@@ -55,14 +54,6 @@ export default function ReviewPage() {
       category: skill.categoryName,
       summary: skill.summary[0] || skill.indications[0] || "",
     })),
-    ...getPhysiologyNotes().map((note) => ({
-      type: "physiology" as const,
-      id: note.id,
-      title: note.title,
-      href: `/physiology/${note.slug}`,
-      category: note.category,
-      summary: note.summary[0] || "",
-    })),
   ];
 
   return (
@@ -71,7 +62,7 @@ export default function ReviewPage() {
         <div className="eyebrow">Review</div>
         <h1 className="page-title">통합 복습</h1>
         <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-600">
-          저장한 질병·증상·약물·검사·술기·생리학을 오늘 복습하고, 이해도에 따라 다음 복습일을 조정합니다.
+          Review saved disease, symptom, drug, lab, and skill notes today and adjust the next review date by confidence.
         </p>
       </header>
       <ReviewPageClient catalog={catalog} />

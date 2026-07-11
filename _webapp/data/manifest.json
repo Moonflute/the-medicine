@@ -16,8 +16,8 @@
       "source": "04 Pharmacology"
     },
     "physiology": {
-      "count": 9,
-      "source": "05 Physiology"
+      "count": 0,
+      "source": "05 Physiology (excluded from web build)"
     },
     "pathology": {
       "count": 0,
@@ -44,9 +44,9 @@
       "source": "derived from diseases"
     },
     "clinicalRelations": {
-      "count": 8805,
+      "count": 7683,
       "explicit": 4874,
-      "generated": 3931,
+      "generated": 2809,
       "source": "derived from frontmatter, structured CC recommendations, and wikilinks"
     }
   }

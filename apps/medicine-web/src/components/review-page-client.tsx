@@ -26,7 +26,6 @@ const TYPE_LABELS: Record<string, string> = {
   drug: "약물",
   lab: "검사",
   skill: "술기",
-  physiology: "생리학",
 };
 
 function formatDate(value?: string) {
@@ -45,7 +44,7 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
   useEffect(() => {
     const refresh = () => {
       setItems(loadReviewItems(catalog));
-      setRecent(loadRecentItems());
+      setRecent(loadRecentItems(catalog));
     };
     refresh();
     window.addEventListener(REVIEW_CHANGE_EVENT, refresh);

@@ -7,7 +7,6 @@ const GROUPS = [
   { type: "lab", label: "검사" },
   { type: "drug", label: "약물" },
   { type: "skill", label: "술기" },
-  { type: "physiology", label: "생리학" },
 ];
 
 function uniqueTargets(relations: ClinicalRelation[]) {

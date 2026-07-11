@@ -10,7 +10,6 @@ const TYPE_LABELS: Record<string, string> = {
   chiefComplaint: "CC",
   disease: "Disease",
   drug: "Drug",
-  physiology: "Physiology",
   pathology: "Pathology",
   labImg: "Lab / Img",
   skill: "Skill",
