@@ -120,11 +120,21 @@ export type ChiefComplaintNote = {
   concept: string[];
   differentials: string[];
   history: string[];
+  historyChecklist: ChiefComplaintHistorySlot[];
   exam: string[];
   plan: string[];
   recommendations: ChiefComplaintRecommendation[];
   sections: DiseaseSection[];
   updatedAt: string;
+};
+
+export type ChiefComplaintHistorySlot = {
+  key: string;
+  label: string;
+  groups: Array<{
+    label: string;
+    items: string[];
+  }>;
 };
 
 export type ChiefComplaintRecommendation = {

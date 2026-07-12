@@ -475,6 +475,80 @@ function splitRecommendationSymptoms(value) {
     .filter((item) => !/^(검사|치료|교육)\s*[:：]/.test(item));
 }
 
+function historySlotKey(label) {
+  const normalized = label.trim().toLowerCase();
+
+  if (/^o\s*\/\s*l\s*\/\s*d\s*\/\s*co\s*\/\s*ex/.test(normalized)) return "onset";
+  if (/^l\s*\/\s*d\s*\/\s*co\s*\/\s*ex/.test(normalized)) return "location";
+  if (/^d\s*\/\s*co\s*\/\s*ex/.test(normalized)) return "duration";
+  if (/^o\b|onset/.test(normalized)) return "onset";
+  if (/^l\b|location/.test(normalized)) return "location";
+  if (/^d\b|duration/.test(normalized)) return "duration";
+  if (/^co\b|course/.test(normalized)) return "course";
+  if (/^ex\b|experienced/.test(normalized)) return "experienced";
+  if (/^c\b|character/.test(normalized)) return "character";
+  if (/^a\b|associated/.test(normalized)) return "associated";
+  if (/^f\b|factor/.test(normalized)) return "factor";
+  if (/^e\b|event/.test(normalized)) return "event";
+  if (/^ppi\b/.test(normalized)) return "ppi";
+  if (/background|외과력/.test(normalized)) return "background";
+  if (/female|여성력/.test(normalized)) return "female";
+  if (/cc-specific|assessment|opening/.test(normalized)) return "custom";
+
+  return normalized.replace(/[^a-z0-9가-힣]+/g, "-").replace(/^-|-$/g, "") || "custom";
+}
+
+function parseHistoryChecklist(body) {
+  const header = body.match(/^##\s+Hx\s*\r?\n/m);
+  if (!header || header.index === undefined) return [];
+
+  const start = header.index + header[0].length;
+  const remainder = body.slice(start);
+  const nextSection = remainder.search(/^##\s+/m);
+  const hxBody = nextSection === -1 ? remainder : remainder.slice(0, nextSection);
+
+  const slots = [];
+  let currentSlot = null;
+  let currentGroup = "CC-specific";
+
+  for (const rawLine of hxBody.split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line) continue;
+
+    const slotHeading = line.match(/^###\s+(.+)$/);
+    if (slotHeading) {
+      currentSlot = {
+        key: historySlotKey(slotHeading[1]),
+        label: slotHeading[1].trim(),
+        groups: [],
+      };
+      slots.push(currentSlot);
+      currentGroup = "CC-specific";
+      continue;
+    }
+
+    const groupHeading = line.match(/^####\s+(.+)$/);
+    if (groupHeading) {
+      currentGroup = groupHeading[1].trim();
+      continue;
+    }
+
+    if (!currentSlot) continue;
+
+    const item = line.replace(/^[-*]\s+/, "").trim();
+    if (!item) continue;
+
+    let group = currentSlot.groups.find((entry) => entry.label === currentGroup);
+    if (!group) {
+      group = { label: currentGroup, items: [] };
+      currentSlot.groups.push(group);
+    }
+
+    group.items.push(item);
+  }
+
+  return slots.filter((slot) => slot.groups.some((group) => group.items.length > 0) || slot.label);
+}
 function parseChiefComplaintRecommendations(sections) {
   const education = sections.find((section) => section.title.includes("환자교육"));
   if (!education) return [];
@@ -533,6 +607,7 @@ function buildChiefComplaints() {
       concept: firstSectionText(sections, "concept"),
       differentials: firstSectionText(sections, "감별"),
       history: firstSectionText(sections, "hx"),
+      historyChecklist: parseHistoryChecklist(body),
       exam: firstSectionText(sections, "pex"),
       plan: firstSectionText(sections, "plan"),
       recommendations: parseChiefComplaintRecommendations(sections),

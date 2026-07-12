@@ -21,6 +21,7 @@ import type {
 export type {
   ChiefComplaintCategorySummary,
   ChiefComplaintNote,
+  ChiefComplaintHistorySlot,
   ClinicalRelation,
   ClinicalRelationIndex,
   ClinicalSkill,
