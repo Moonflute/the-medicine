@@ -35,16 +35,25 @@
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• General : Weight loss, Fatigue, FCC",
-      "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B JD (Jaundice) + 복부 팽만감, 복부 종괴",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• Jaundice",
+      "• B 복부 팽만감, 복부 종괴",
       "• (가려움, 복수, 소변/대변 색 변화 확인)",
-      "• D.P.P",
+      "• Dyspnea",
+      "• Palpitation",
+      "• P",
       "• 배뇨통, 소변색 변화, 혈뇨, 빈뇨",
       "• 질출혈, 질분비물",
       "### F (Factor)",
       "#### CC-specific",
       "• 식후, 공복, 음주, 자세의 영향",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 임신 가능성"
     ],
     "historyChecklist": [
@@ -73,9 +82,17 @@
             "label": "CC-specific",
             "items": [
               "General : Weight loss, Fatigue, FCC",
-              "AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B JD (Jaundice) + 복부 팽만감, 복부 종괴",
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "Jaundice",
+              "B 복부 팽만감, 복부 종괴",
               "(가려움, 복수, 소변/대변 색 변화 확인)",
-              "D.P.P",
+              "Dyspnea",
+              "Palpitation",
+              "P",
               "배뇨통, 소변색 변화, 혈뇨, 빈뇨",
               "질출혈, 질분비물"
             ]
@@ -100,8 +117,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -338,16 +355,25 @@
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• General : Weight loss, Fatigue, FCC",
-          "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B JD (Jaundice) + 복부 팽만감, 복부 종괴",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• Jaundice",
+          "• B 복부 팽만감, 복부 종괴",
           "• (가려움, 복수, 소변/대변 색 변화 확인)",
-          "• D.P.P",
+          "• Dyspnea",
+          "• Palpitation",
+          "• P",
           "• 배뇨통, 소변색 변화, 혈뇨, 빈뇨",
           "• 질출혈, 질분비물",
           "### F (Factor)",
           "#### CC-specific",
           "• 식후, 공복, 음주, 자세의 영향",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 임신 가능성"
         ]
       },
@@ -429,7 +455,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:43:57.271Z"
+    "updatedAt": "2026-07-12T03:23:43.313Z"
   },
   {
     "id": "102",
@@ -456,13 +482,20 @@
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• General : Weight loss, Fatigue",
-      "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B JD (Jaundice) + SSP, 복부 팽만, 연하곤란, 지방변",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• Jaundice",
+      "• B SSP, 복부 팽만, 연하곤란, 지방변",
       "• (가려움, 복수, 소변/대변 색 변화 확인)",
       "### F (Factor)",
       "#### CC-specific",
       "• 식사/공복/우유나 기름진 음식/배변/스트레스 영향, 자세",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• NSAIDs, 항생제, 여행력"
     ],
     "historyChecklist": [
@@ -491,7 +524,13 @@
             "label": "CC-specific",
             "items": [
               "General : Weight loss, Fatigue",
-              "AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B JD (Jaundice) + SSP, 복부 팽만, 연하곤란, 지방변",
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "Jaundice",
+              "B SSP, 복부 팽만, 연하곤란, 지방변",
               "(가려움, 복수, 소변/대변 색 변화 확인)"
             ]
           }
@@ -515,8 +554,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -680,13 +719,20 @@
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• General : Weight loss, Fatigue",
-          "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B JD (Jaundice) + SSP, 복부 팽만, 연하곤란, 지방변",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• Jaundice",
+          "• B SSP, 복부 팽만, 연하곤란, 지방변",
           "• (가려움, 복수, 소변/대변 색 변화 확인)",
           "### F (Factor)",
           "#### CC-specific",
           "• 식사/공복/우유나 기름진 음식/배변/스트레스 영향, 자세",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• NSAIDs, 항생제, 여행력"
         ]
       },
@@ -748,7 +794,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.264Z"
+    "updatedAt": "2026-07-12T03:23:43.402Z"
   },
   {
     "id": "103",
@@ -777,12 +823,18 @@
       "• General : Weight loss, Fatigue, Fever",
       "• 출혈 증상 : 어지럼증, 호흡곤란, 소변량 감소",
       "• 출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
-      "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B SSP, 황달",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• B SSP, 황달",
       "### F (Factor)",
       "#### CC-specific",
       "• 식사, 음주 관련 (과음 여부)",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 출혈 관련 약물 확인 (NSAIDs, 항응고제)"
     ],
     "historyChecklist": [
@@ -813,7 +865,12 @@
               "General : Weight loss, Fatigue, Fever",
               "출혈 증상 : 어지럼증, 호흡곤란, 소변량 감소",
               "출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
-              "AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B SSP, 황달"
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "B SSP, 황달"
             ]
           }
         ]
@@ -836,8 +893,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -963,12 +1020,18 @@
           "• General : Weight loss, Fatigue, Fever",
           "• 출혈 증상 : 어지럼증, 호흡곤란, 소변량 감소",
           "• 출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
-          "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B SSP, 황달",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• B SSP, 황달",
           "### F (Factor)",
           "#### CC-specific",
           "• 식사, 음주 관련 (과음 여부)",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 출혈 관련 약물 확인 (NSAIDs, 항응고제)"
         ]
       },
@@ -1026,7 +1089,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.299Z"
+    "updatedAt": "2026-07-12T03:23:43.478Z"
   },
   {
     "id": "104",
@@ -1055,11 +1118,17 @@
       "• General : Weight loss, Fatigue, Fever",
       "• 출혈 증상 : 어지럼증, 호흡곤란, 소변량 감소",
       "• 출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
-      "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) + B + 황달",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• B 황달",
       "• (종양 증상) 뒤무직, 복부 종괴",
       "• (항문 질환) 배변 시 항문 통증, 튀어나오는 덩이",
       "### F (Factor)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 피를 묽게 하는 약물"
     ],
     "historyChecklist": [
@@ -1090,7 +1159,12 @@
               "General : Weight loss, Fatigue, Fever",
               "출혈 증상 : 어지럼증, 호흡곤란, 소변량 감소",
               "출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
-              "AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) + B + 황달",
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "B 황달",
               "(종양 증상) 뒤무직, 복부 종괴",
               "(항문 질환) 배변 시 항문 통증, 튀어나오는 덩이"
             ]
@@ -1103,8 +1177,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -1241,11 +1315,17 @@
           "• General : Weight loss, Fatigue, Fever",
           "• 출혈 증상 : 어지럼증, 호흡곤란, 소변량 감소",
           "• 출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
-          "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) + B + 황달",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• B 황달",
           "• (종양 증상) 뒤무직, 복부 종괴",
           "• (항문 질환) 배변 시 항문 통증, 튀어나오는 덩이",
           "### F (Factor)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 피를 묽게 하는 약물"
         ]
       },
@@ -1303,7 +1383,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.309Z"
+    "updatedAt": "2026-07-12T03:23:43.502Z"
   },
   {
     "id": "105",
@@ -1332,14 +1412,20 @@
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill",
       "• 탈수: 목마름, 호흡곤란, 두근거림, 소변량 감소",
-      "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) – B SS P",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• – B SS P",
       "• 두통, 시야, 팔다리 힘빠짐, 보행장애, 경부강직",
       "• 소변색 변화, 거품뇨",
       "### F (Factor)",
       "#### CC-specific",
       "• 식사 전후 영향",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 상한 음식, 주변인 상태, 임신 가능성"
     ],
     "historyChecklist": [
@@ -1369,7 +1455,12 @@
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill",
               "탈수: 목마름, 호흡곤란, 두근거림, 소변량 감소",
-              "AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) – B SS P",
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "– B SS P",
               "두통, 시야, 팔다리 힘빠짐, 보행장애, 경부강직",
               "소변색 변화, 거품뇨"
             ]
@@ -1394,8 +1485,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -1573,14 +1664,20 @@
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill",
           "• 탈수: 목마름, 호흡곤란, 두근거림, 소변량 감소",
-          "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) – B SS P",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• – B SS P",
           "• 두통, 시야, 팔다리 힘빠짐, 보행장애, 경부강직",
           "• 소변색 변화, 거품뇨",
           "### F (Factor)",
           "#### CC-specific",
           "• 식사 전후 영향",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 상한 음식, 주변인 상태, 임신 가능성"
         ]
       },
@@ -1643,7 +1740,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.229Z"
+    "updatedAt": "2026-07-12T03:23:43.303Z"
   },
   {
     "id": "106",
@@ -1670,14 +1767,20 @@
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill",
-      "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B P + 팽만감, 복부 종괴, 항문 덩이/통증, 폐쇄",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• B P 팽만감, 복부 종괴, 항문 덩이/통증, 폐쇄",
       "• 추위불내성, 피부 푸석푸석",
       "• 우울, 불안, 기분저하 / 수면장애",
       "### F (Factor)",
       "#### CC-specific",
       "• 배변 후 호전 여부",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 맵거나 기름진 음식, 식이섬유, 채소류, 물"
     ],
     "historyChecklist": [
@@ -1707,7 +1810,12 @@
             "label": "CC-specific",
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill",
-              "AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B P + 팽만감, 복부 종괴, 항문 덩이/통증, 폐쇄",
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "B P 팽만감, 복부 종괴, 항문 덩이/통증, 폐쇄",
               "추위불내성, 피부 푸석푸석",
               "우울, 불안, 기분저하 / 수면장애"
             ]
@@ -1732,8 +1840,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -1853,14 +1961,20 @@
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill",
-          "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B P + 팽만감, 복부 종괴, 항문 덩이/통증, 폐쇄",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• B P 팽만감, 복부 종괴, 항문 덩이/통증, 폐쇄",
           "• 추위불내성, 피부 푸석푸석",
           "• 우울, 불안, 기분저하 / 수면장애",
           "### F (Factor)",
           "#### CC-specific",
           "• 배변 후 호전 여부",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 맵거나 기름진 음식, 식이섬유, 채소류, 물"
         ]
       },
@@ -1916,7 +2030,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.254Z"
+    "updatedAt": "2026-07-12T03:23:43.377Z"
   },
   {
     "id": "107",
@@ -1943,14 +2057,20 @@
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill",
       "• 탈수 평가 : 두근거림, 호흡곤란, 어지럼, 소변량 감소",
-      "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B + 복통, 변실금, 뒤무직",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• B 복통, 변실금, 뒤무직",
       "• 더위불내성, 두근거림",
       "• 우울, 불안, 기분저하",
       "### F (Factor)",
       "#### CC-specific",
       "• 음식(우유), 스트레스, 배변 영향",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 식사, 여행력, 약물 확인"
     ],
     "historyChecklist": [
@@ -1980,7 +2100,12 @@
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill",
               "탈수 평가 : 두근거림, 호흡곤란, 어지럼, 소변량 감소",
-              "AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B + 복통, 변실금, 뒤무직",
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "B 복통, 변실금, 뒤무직",
               "더위불내성, 두근거림",
               "우울, 불안, 기분저하"
             ]
@@ -2005,8 +2130,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -2147,14 +2272,20 @@
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill",
           "• 탈수 평가 : 두근거림, 호흡곤란, 어지럼, 소변량 감소",
-          "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B + 복통, 변실금, 뒤무직",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• B 복통, 변실금, 뒤무직",
           "• 더위불내성, 두근거림",
           "• 우울, 불안, 기분저하",
           "### F (Factor)",
           "#### CC-specific",
           "• 음식(우유), 스트레스, 배변 영향",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 식사, 여행력, 약물 확인"
         ]
       },
@@ -2213,7 +2344,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.259Z"
+    "updatedAt": "2026-07-12T03:23:43.389Z"
   },
   {
     "id": "108",
@@ -2243,7 +2374,14 @@
       "• Weight loss, Fatigue, Fever, Chill, Edema, 관절통, 근육통",
       "• 탈수 평가 : 두근거림, 호흡곤란, 어지럼, 소변량 감소",
       "• 출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
-      "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-BSS (bloody stool, acid regurgitation) + 지방변",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• bloody stool",
+      "• acid regurgitation",
+      "• 지방변",
       "• 가려움, 소변/대변색 변화, 복수",
       "### F (Factor)",
       "#### CC-specific",
@@ -2252,8 +2390,7 @@
       "• 앞으로 숙이면?",
       "### E (Event)",
       "#### CC-specific",
-      "• 건강검진 이력, A형/B형 간염 예방접종, 성관계력",
-      "### Background history (외과력)"
+      "• 건강검진 이력, A형/B형 간염 예방접종, 성관계력"
     ],
     "historyChecklist": [
       {
@@ -2283,7 +2420,14 @@
               "Weight loss, Fatigue, Fever, Chill, Edema, 관절통, 근육통",
               "탈수 평가 : 두근거림, 호흡곤란, 어지럼, 소변량 감소",
               "출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
-              "AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-BSS (bloody stool, acid regurgitation) + 지방변",
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "bloody stool",
+              "acid regurgitation",
+              "지방변",
               "가려움, 소변/대변색 변화, 복수"
             ]
           }
@@ -2314,11 +2458,6 @@
             ]
           }
         ]
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
-        "groups": []
       }
     ],
     "exam": [
@@ -2446,7 +2585,14 @@
           "• Weight loss, Fatigue, Fever, Chill, Edema, 관절통, 근육통",
           "• 탈수 평가 : 두근거림, 호흡곤란, 어지럼, 소변량 감소",
           "• 출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
-          "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-BSS (bloody stool, acid regurgitation) + 지방변",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• bloody stool",
+          "• acid regurgitation",
+          "• 지방변",
           "• 가려움, 소변/대변색 변화, 복수",
           "### F (Factor)",
           "#### CC-specific",
@@ -2455,8 +2601,7 @@
           "• 앞으로 숙이면?",
           "### E (Event)",
           "#### CC-specific",
-          "• 건강검진 이력, A형/B형 간염 예방접종, 성관계력",
-          "### Background history (외과력)"
+          "• 건강검진 이력, A형/B형 간염 예방접종, 성관계력"
         ]
       },
       {
@@ -2518,7 +2663,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.312Z"
+    "updatedAt": "2026-07-12T03:23:43.511Z"
   },
   {
     "id": "201",
@@ -2546,13 +2691,27 @@
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill, Edema",
-      "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-BSS (bloody stool, acid regurgitation)",
-      "• D.P (Dyspnea, Palpitation), 의식소실, 어지럼, 식은땀",
-      "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea)-B",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• bloody stool",
+      "• acid regurgitation",
+      "• Dyspnea",
+      "• Palpitation",
+      "• 의식소실, 어지럼, 식은땀",
+      "• Fever",
+      "• Chill",
+      "• Cough",
+      "• Sputum",
+      "• Rhinorrhea",
+      "• B",
       "• 피부 발진",
       "• 불안, 우울",
       "### F (Factor)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 입원/누워있는 시간"
     ],
     "historyChecklist": [
@@ -2581,9 +2740,22 @@
             "label": "CC-specific",
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill, Edema",
-              "AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-BSS (bloody stool, acid regurgitation)",
-              "D.P (Dyspnea, Palpitation), 의식소실, 어지럼, 식은땀",
-              "FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea)-B",
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "bloody stool",
+              "acid regurgitation",
+              "Dyspnea",
+              "Palpitation",
+              "의식소실, 어지럼, 식은땀",
+              "Fever",
+              "Chill",
+              "Cough",
+              "Sputum",
+              "Rhinorrhea",
+              "B",
               "피부 발진",
               "불안, 우울"
             ]
@@ -2596,8 +2768,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -2734,13 +2906,27 @@
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill, Edema",
-          "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-BSS (bloody stool, acid regurgitation)",
-          "• D.P (Dyspnea, Palpitation), 의식소실, 어지럼, 식은땀",
-          "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea)-B",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• bloody stool",
+          "• acid regurgitation",
+          "• Dyspnea",
+          "• Palpitation",
+          "• 의식소실, 어지럼, 식은땀",
+          "• Fever",
+          "• Chill",
+          "• Cough",
+          "• Sputum",
+          "• Rhinorrhea",
+          "• B",
           "• 피부 발진",
           "• 불안, 우울",
           "### F (Factor)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 입원/누워있는 시간"
         ]
       },
@@ -2806,7 +2992,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.218Z"
+    "updatedAt": "2026-07-12T03:23:43.274Z"
   },
   {
     "id": "202",
@@ -2835,14 +3021,17 @@
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• 두통, 구토, 말어눌, 힘빠짐",
-      "• D.P.P",
+      "• Dyspnea",
+      "• Palpitation",
+      "• P",
       "• 출혈, 탈수력",
       "• 불안, 숨헐떡임",
       "### F (Factor)",
       "#### CC-specific",
       "• 오래 서 있기, 소변 or 대변 중, 기침, 음식, 일어서다 / 누워서 호전",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 최근에 식사를 잘 못하지는 않았나"
     ],
     "historyChecklist": [
@@ -2873,7 +3062,9 @@
             "label": "CC-specific",
             "items": [
               "두통, 구토, 말어눌, 힘빠짐",
-              "D.P.P",
+              "Dyspnea",
+              "Palpitation",
+              "P",
               "출혈, 탈수력",
               "불안, 숨헐떡임"
             ]
@@ -2898,8 +3089,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -3057,14 +3248,17 @@
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• 두통, 구토, 말어눌, 힘빠짐",
-          "• D.P.P",
+          "• Dyspnea",
+          "• Palpitation",
+          "• P",
           "• 출혈, 탈수력",
           "• 불안, 숨헐떡임",
           "### F (Factor)",
           "#### CC-specific",
           "• 오래 서 있기, 소변 or 대변 중, 기침, 음식, 일어서다 / 누워서 호전",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 최근에 식사를 잘 못하지는 않았나"
         ]
       },
@@ -3131,7 +3325,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.268Z"
+    "updatedAt": "2026-07-12T03:23:43.410Z"
   },
   {
     "id": "203",
@@ -3160,14 +3354,17 @@
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill, Edema",
       "• (응급) 어지럼, 의식 소실",
-      "• D.P (Dyspnea, Palpitation) + B",
+      "• Dyspnea",
+      "• Palpitation",
+      "• B",
       "• 더위불내성 / 두통, 식은땀",
       "• 불안, 공포감",
       "### F (Factor)",
       "#### CC-specific",
       "• 숨참기, 찬물 세수 / 식사, 공복, 운동",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 폐경 여부"
     ],
     "historyChecklist": [
@@ -3197,7 +3394,9 @@
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill, Edema",
               "(응급) 어지럼, 의식 소실",
-              "D.P (Dyspnea, Palpitation) + B",
+              "Dyspnea",
+              "Palpitation",
+              "B",
               "더위불내성 / 두통, 식은땀",
               "불안, 공포감"
             ]
@@ -3222,8 +3421,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -3409,14 +3608,17 @@
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill, Edema",
           "• (응급) 어지럼, 의식 소실",
-          "• D.P (Dyspnea, Palpitation) + B",
+          "• Dyspnea",
+          "• Palpitation",
+          "• B",
           "• 더위불내성 / 두통, 식은땀",
           "• 불안, 공포감",
           "### F (Factor)",
           "#### CC-specific",
           "• 숨참기, 찬물 세수 / 식사, 공복, 운동",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 폐경 여부"
         ]
       },
@@ -3481,7 +3683,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.240Z"
+    "updatedAt": "2026-07-12T03:23:43.341Z"
   },
   {
     "id": "204",
@@ -3522,7 +3724,8 @@
       "• 체중증가, 배에 보라색 선, 얼굴이 동그래짐",
       "• 두근거림, 두통, 다한",
       "### F (Factor)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 스테로이드"
     ],
     "historyChecklist": [
@@ -3571,8 +3774,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -3743,7 +3946,8 @@
           "• 체중증가, 배에 보라색 선, 얼굴이 동그래짐",
           "• 두근거림, 두통, 다한",
           "### F (Factor)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 스테로이드"
         ]
       },
@@ -3805,7 +4009,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.226Z"
+    "updatedAt": "2026-07-12T03:23:43.295Z"
   },
   {
     "id": "205",
@@ -3828,19 +4032,20 @@
       "### O (Onset)",
       "#### CC-specific",
       "• 검사를 제대로 했는가? (공복 후 검사)",
-      "• L D Co Ex C",
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• BMI, 코골이, 수면, 낮에 피곤함",
       "• General : Weight loss, Fatigue",
-      "• (심) D.PP",
+      "• (심) Dyspnea",
+      "• Palpitation",
       "• (신) 두통, 시야장애, 힘빠짐",
       "• 추위불내성, 변비, 머리 푸석푸석",
       "• 자색선, moon face",
       "• 다음, 다뇨, 다갈, 단내",
       "• 거품뇨, 부종, 소변량 변화",
       "### F (Factor)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 심혈관 질환 가족력 (나이)"
     ],
     "historyChecklist": [
@@ -3851,8 +4056,7 @@
           {
             "label": "CC-specific",
             "items": [
-              "검사를 제대로 했는가? (공복 후 검사)",
-              "L D Co Ex C"
+              "검사를 제대로 했는가? (공복 후 검사)"
             ]
           }
         ]
@@ -3866,7 +4070,8 @@
             "items": [
               "BMI, 코골이, 수면, 낮에 피곤함",
               "General : Weight loss, Fatigue",
-              "(심) D.PP",
+              "(심) Dyspnea",
+              "Palpitation",
               "(신) 두통, 시야장애, 힘빠짐",
               "추위불내성, 변비, 머리 푸석푸석",
               "자색선, moon face",
@@ -3882,8 +4087,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -3943,19 +4148,20 @@
           "### O (Onset)",
           "#### CC-specific",
           "• 검사를 제대로 했는가? (공복 후 검사)",
-          "• L D Co Ex C",
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• BMI, 코골이, 수면, 낮에 피곤함",
           "• General : Weight loss, Fatigue",
-          "• (심) D.PP",
+          "• (심) Dyspnea",
+          "• Palpitation",
           "• (신) 두통, 시야장애, 힘빠짐",
           "• 추위불내성, 변비, 머리 푸석푸석",
           "• 자색선, moon face",
           "• 다음, 다뇨, 다갈, 단내",
           "• 거품뇨, 부종, 소변량 변화",
           "### F (Factor)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 심혈관 질환 가족력 (나이)"
         ]
       },
@@ -4006,7 +4212,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.286Z"
+    "updatedAt": "2026-07-12T03:23:43.450Z"
   },
   {
     "id": "301",
@@ -4034,15 +4240,22 @@
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill, Edema",
       "• 소화불량, 속쓰림, 신물",
-      "• D.P (Dyspnea, Palpitation)",
-      "• (호흡기계) FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) + 흉통/쌕쌕거림",
+      "• Dyspnea",
+      "• Palpitation",
+      "• Fever",
+      "• Chill",
+      "• Cough",
+      "• Sputum",
+      "• Rhinorrhea",
+      "• (호흡기계) 흉통/쌕쌕거림",
       "• (알레르기) 재채기, 눈코 소양증",
       "• (이비인후) 콧물/코막힘/후비루/인후통",
       "### F (Factor)",
       "#### CC-specific",
       "• 감기력, 악화 (야간, 찬바람 / 계절, 운동 / 자세, 식후)",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• ACEi, 예방접종"
     ],
     "historyChecklist": [
@@ -4072,8 +4285,14 @@
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill, Edema",
               "소화불량, 속쓰림, 신물",
-              "D.P (Dyspnea, Palpitation)",
-              "(호흡기계) FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) + 흉통/쌕쌕거림",
+              "Dyspnea",
+              "Palpitation",
+              "Fever",
+              "Chill",
+              "Cough",
+              "Sputum",
+              "Rhinorrhea",
+              "(호흡기계) 흉통/쌕쌕거림",
               "(알레르기) 재채기, 눈코 소양증",
               "(이비인후) 콧물/코막힘/후비루/인후통"
             ]
@@ -4098,8 +4317,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -4260,15 +4479,22 @@
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill, Edema",
           "• 소화불량, 속쓰림, 신물",
-          "• D.P (Dyspnea, Palpitation)",
-          "• (호흡기계) FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) + 흉통/쌕쌕거림",
+          "• Dyspnea",
+          "• Palpitation",
+          "• Fever",
+          "• Chill",
+          "• Cough",
+          "• Sputum",
+          "• Rhinorrhea",
+          "• (호흡기계) 흉통/쌕쌕거림",
           "• (알레르기) 재채기, 눈코 소양증",
           "• (이비인후) 콧물/코막힘/후비루/인후통",
           "### F (Factor)",
           "#### CC-specific",
           "• 감기력, 악화 (야간, 찬바람 / 계절, 운동 / 자세, 식후)",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• ACEi, 예방접종"
         ]
       },
@@ -4329,7 +4555,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.237Z"
+    "updatedAt": "2026-07-12T03:23:43.327Z"
   },
   {
     "id": "302",
@@ -4359,7 +4585,11 @@
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill, Edema",
-      "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea)",
+      "• Fever",
+      "• Chill",
+      "• Cough",
+      "• Sputum",
+      "• Rhinorrhea",
       "• (호흡기계) 호흡곤란, 쌕쌕거림",
       "• (알레르기) 재채기, 눈코 소양증",
       "• (이비인후) 콧물/코막힘/후비루/인후통/냄새",
@@ -4368,7 +4598,8 @@
       "#### CC-specific",
       "• 악화 (계절, 장소, 동물 / 찬바람, 뜨거운 음식)",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• ACEi, NSAIDs, 피임약, 국소혈관수축제"
     ],
     "historyChecklist": [
@@ -4414,7 +4645,11 @@
             "label": "CC-specific",
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill, Edema",
-              "FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea)",
+              "Fever",
+              "Chill",
+              "Cough",
+              "Sputum",
+              "Rhinorrhea",
               "(호흡기계) 호흡곤란, 쌕쌕거림",
               "(알레르기) 재채기, 눈코 소양증",
               "(이비인후) 콧물/코막힘/후비루/인후통/냄새",
@@ -4441,8 +4676,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -4565,7 +4800,11 @@
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill, Edema",
-          "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea)",
+          "• Fever",
+          "• Chill",
+          "• Cough",
+          "• Sputum",
+          "• Rhinorrhea",
           "• (호흡기계) 호흡곤란, 쌕쌕거림",
           "• (알레르기) 재채기, 눈코 소양증",
           "• (이비인후) 콧물/코막힘/후비루/인후통/냄새",
@@ -4574,7 +4813,8 @@
           "#### CC-specific",
           "• 악화 (계절, 장소, 동물 / 찬바람, 뜨거운 음식)",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• ACEi, NSAIDs, 피임약, 국소혈관수축제"
         ]
       },
@@ -4631,7 +4871,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.297Z"
+    "updatedAt": "2026-07-12T03:23:43.475Z"
   },
   {
     "id": "303",
@@ -4661,9 +4901,15 @@
       "• 출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
       "• 출혈 증상 : Hemoptysis, Melena, Hematochezia",
       "• 탈수 증상 : 목마름, 호흡곤란, 두근거림, 소변량 감소",
-      "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) + 흉통, 호흡곤란, 야간 발한",
+      "• Fever",
+      "• Chill",
+      "• Cough",
+      "• Sputum",
+      "• Rhinorrhea",
+      "• 흉통, 호흡곤란, 야간 발한",
       "### F (Factor)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 민물게장, 감기에 자주 걸리는가?"
     ],
     "historyChecklist": [
@@ -4695,7 +4941,12 @@
               "출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
               "출혈 증상 : Hemoptysis, Melena, Hematochezia",
               "탈수 증상 : 목마름, 호흡곤란, 두근거림, 소변량 감소",
-              "FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) + 흉통, 호흡곤란, 야간 발한"
+              "Fever",
+              "Chill",
+              "Cough",
+              "Sputum",
+              "Rhinorrhea",
+              "흉통, 호흡곤란, 야간 발한"
             ]
           }
         ]
@@ -4706,8 +4957,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -4848,9 +5099,15 @@
           "• 출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
           "• 출혈 증상 : Hemoptysis, Melena, Hematochezia",
           "• 탈수 증상 : 목마름, 호흡곤란, 두근거림, 소변량 감소",
-          "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) + 흉통, 호흡곤란, 야간 발한",
+          "• Fever",
+          "• Chill",
+          "• Cough",
+          "• Sputum",
+          "• Rhinorrhea",
+          "• 흉통, 호흡곤란, 야간 발한",
           "### F (Factor)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 민물게장, 감기에 자주 걸리는가?"
         ]
       },
@@ -4907,7 +5164,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.222Z"
+    "updatedAt": "2026-07-12T03:23:43.282Z"
   },
   {
     "id": "304",
@@ -4935,8 +5192,14 @@
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill, Edema",
-      "• D.P (Dyspnea, Palpitation)",
-      "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) + 쌕쌕거림",
+      "• Dyspnea",
+      "• Palpitation",
+      "• Fever",
+      "• Chill",
+      "• Cough",
+      "• Sputum",
+      "• Rhinorrhea",
+      "• 쌕쌕거림",
       "• 알레르기 (두드러기, 입술 부종)",
       "• 더위불내성, 설사",
       "• 스트레스, 불안, 공포감",
@@ -4944,7 +5207,8 @@
       "#### CC-specific",
       "• 악화 요인 (밤, 찬 날씨, 자세) 호전 요소",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 오래 누워 지냈는지?"
     ],
     "historyChecklist": [
@@ -4973,8 +5237,14 @@
             "label": "CC-specific",
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill, Edema",
-              "D.P (Dyspnea, Palpitation)",
-              "FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) + 쌕쌕거림",
+              "Dyspnea",
+              "Palpitation",
+              "Fever",
+              "Chill",
+              "Cough",
+              "Sputum",
+              "Rhinorrhea",
+              "쌕쌕거림",
               "알레르기 (두드러기, 입술 부종)",
               "더위불내성, 설사",
               "스트레스, 불안, 공포감"
@@ -5000,8 +5270,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -5178,8 +5448,14 @@
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill, Edema",
-          "• D.P (Dyspnea, Palpitation)",
-          "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) + 쌕쌕거림",
+          "• Dyspnea",
+          "• Palpitation",
+          "• Fever",
+          "• Chill",
+          "• Cough",
+          "• Sputum",
+          "• Rhinorrhea",
+          "• 쌕쌕거림",
           "• 알레르기 (두드러기, 입술 부종)",
           "• 더위불내성, 설사",
           "• 스트레스, 불안, 공포감",
@@ -5187,7 +5463,8 @@
           "#### CC-specific",
           "• 악화 요인 (밤, 찬 날씨, 자세) 호전 요소",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 오래 누워 지냈는지?"
         ]
       },
@@ -5252,7 +5529,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.310Z"
+    "updatedAt": "2026-07-12T03:23:43.506Z"
   },
   {
     "id": "401",
@@ -5280,14 +5557,22 @@
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill, Edema",
       "• 탈수 평가 : 두근거림, 어지럼, 호흡곤란, 갈증",
-      "• FUND (Frequency, Urgency, Nocturia, Dysuria)-HISR (Hematuria, Incontinence, Hesitancy, Retention)",
+      "• Frequency",
+      "• Urgency",
+      "• Nocturia",
+      "• Dysuria",
+      "• Hematuria",
+      "• Incontinence",
+      "• Hesitancy",
+      "• Retention",
       "• 두통, 시야장애, 근력 저하",
       "• 다음, 다갈, 다뇨, 거품뇨",
       "### F (Factor)",
       "#### CC-specific",
       "• 물을 얼마나 마시는가? 강박 때문인가?",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 이뇨제, 리튬, 고혈압약"
     ],
     "historyChecklist": [
@@ -5317,7 +5602,14 @@
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill, Edema",
               "탈수 평가 : 두근거림, 어지럼, 호흡곤란, 갈증",
-              "FUND (Frequency, Urgency, Nocturia, Dysuria)-HISR (Hematuria, Incontinence, Hesitancy, Retention)",
+              "Frequency",
+              "Urgency",
+              "Nocturia",
+              "Dysuria",
+              "Hematuria",
+              "Incontinence",
+              "Hesitancy",
+              "Retention",
               "두통, 시야장애, 근력 저하",
               "다음, 다갈, 다뇨, 거품뇨"
             ]
@@ -5342,8 +5634,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -5465,14 +5757,22 @@
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill, Edema",
           "• 탈수 평가 : 두근거림, 어지럼, 호흡곤란, 갈증",
-          "• FUND (Frequency, Urgency, Nocturia, Dysuria)-HISR (Hematuria, Incontinence, Hesitancy, Retention)",
+          "• Frequency",
+          "• Urgency",
+          "• Nocturia",
+          "• Dysuria",
+          "• Hematuria",
+          "• Incontinence",
+          "• Hesitancy",
+          "• Retention",
           "• 두통, 시야장애, 근력 저하",
           "• 다음, 다갈, 다뇨, 거품뇨",
           "### F (Factor)",
           "#### CC-specific",
           "• 물을 얼마나 마시는가? 강박 때문인가?",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 이뇨제, 리튬, 고혈압약"
         ]
       },
@@ -5528,7 +5828,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.239Z"
+    "updatedAt": "2026-07-12T03:23:43.336Z"
   },
   {
     "id": "402",
@@ -5558,10 +5858,19 @@
       "• 탈수 증상 : 두근거림, 어지럼, 호흡곤란, 갈증",
       "• + 출혈력",
       "• 최근 감기, 감염증상",
-      "• FUND (Frequency, Urgency, Nocturia, Dysuria)-HISR (Hematuria, Incontinence, Hesitancy, Retention) + P",
+      "• Frequency",
+      "• Urgency",
+      "• Nocturia",
+      "• Dysuria",
+      "• Hematuria",
+      "• Incontinence",
+      "• Hesitancy",
+      "• Retention",
+      "• P",
       "• 구역, 구토, 가려움증",
       "### F (Factor)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 진통제, 고혈압약, 항생제, 항암제, 조영제 영상검사, 운동"
     ],
     "historyChecklist": [
@@ -5593,7 +5902,15 @@
               "탈수 증상 : 두근거림, 어지럼, 호흡곤란, 갈증",
               "+ 출혈력",
               "최근 감기, 감염증상",
-              "FUND (Frequency, Urgency, Nocturia, Dysuria)-HISR (Hematuria, Incontinence, Hesitancy, Retention) + P",
+              "Frequency",
+              "Urgency",
+              "Nocturia",
+              "Dysuria",
+              "Hematuria",
+              "Incontinence",
+              "Hesitancy",
+              "Retention",
+              "P",
               "구역, 구토, 가려움증"
             ]
           }
@@ -5605,8 +5922,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -5775,10 +6092,19 @@
           "• 탈수 증상 : 두근거림, 어지럼, 호흡곤란, 갈증",
           "• + 출혈력",
           "• 최근 감기, 감염증상",
-          "• FUND (Frequency, Urgency, Nocturia, Dysuria)-HISR (Hematuria, Incontinence, Hesitancy, Retention) + P",
+          "• Frequency",
+          "• Urgency",
+          "• Nocturia",
+          "• Dysuria",
+          "• Hematuria",
+          "• Incontinence",
+          "• Hesitancy",
+          "• Retention",
+          "• P",
           "• 구역, 구토, 가려움증",
           "### F (Factor)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 진통제, 고혈압약, 항생제, 항암제, 조영제 영상검사, 운동"
         ]
       },
@@ -5840,7 +6166,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.304Z"
+    "updatedAt": "2026-07-12T03:23:43.489Z"
   },
   {
     "id": "403",
@@ -5869,13 +6195,20 @@
       "• General : Weight loss, Fatigue, Fever, Chill, Edema",
       "• 출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
       "• 탈수 증상 : 두근거림, 어지럼, 호흡곤란, 갈증",
-      "• FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy)",
+      "• Frequency",
+      "• Urgency",
+      "• Nocturia",
+      "• Dysuria",
+      "• Hematuria",
+      "• Incontinence",
+      "• Hesitancy",
       "• 최근 감기 증상",
       "### F (Factor)",
       "#### CC-specific",
       "• 심한 운동, 사우나, 근육통, 붉은 채소 섭취력",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 결핵약, 항응고제"
     ],
     "historyChecklist": [
@@ -5906,7 +6239,13 @@
               "General : Weight loss, Fatigue, Fever, Chill, Edema",
               "출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
               "탈수 증상 : 두근거림, 어지럼, 호흡곤란, 갈증",
-              "FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy)",
+              "Frequency",
+              "Urgency",
+              "Nocturia",
+              "Dysuria",
+              "Hematuria",
+              "Incontinence",
+              "Hesitancy",
               "최근 감기 증상"
             ]
           }
@@ -5930,8 +6269,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -6077,13 +6416,20 @@
           "• General : Weight loss, Fatigue, Fever, Chill, Edema",
           "• 출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
           "• 탈수 증상 : 두근거림, 어지럼, 호흡곤란, 갈증",
-          "• FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy)",
+          "• Frequency",
+          "• Urgency",
+          "• Nocturia",
+          "• Dysuria",
+          "• Hematuria",
+          "• Incontinence",
+          "• Hesitancy",
           "• 최근 감기 증상",
           "### F (Factor)",
           "#### CC-specific",
           "• 심한 운동, 사우나, 근육통, 붉은 채소 섭취력",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 결핵약, 항응고제"
         ]
       },
@@ -6143,7 +6489,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.307Z"
+    "updatedAt": "2026-07-12T03:23:43.498Z"
   },
   {
     "id": "404",
@@ -6170,11 +6516,16 @@
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill, Edema",
-      "• FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy)",
+      "• Frequency",
+      "• Urgency",
+      "• Nocturia",
+      "• Dysuria",
+      "• Hematuria",
+      "• Incontinence",
+      "• Hesitancy",
       "• 다음, 다뇨 다갈",
       "• 기타 신경증상",
-      "### F (Factor)",
-      "### Background history (외과력)"
+      "### F (Factor)"
     ],
     "historyChecklist": [
       {
@@ -6202,7 +6553,13 @@
             "label": "CC-specific",
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill, Edema",
-              "FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy)",
+              "Frequency",
+              "Urgency",
+              "Nocturia",
+              "Dysuria",
+              "Hematuria",
+              "Incontinence",
+              "Hesitancy",
               "다음, 다뇨 다갈",
               "기타 신경증상"
             ]
@@ -6212,11 +6569,6 @@
       {
         "key": "factor",
         "label": "F (Factor)",
-        "groups": []
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
         "groups": []
       }
     ],
@@ -6375,11 +6727,16 @@
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill, Edema",
-          "• FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy)",
+          "• Frequency",
+          "• Urgency",
+          "• Nocturia",
+          "• Dysuria",
+          "• Hematuria",
+          "• Incontinence",
+          "• Hesitancy",
           "• 다음, 다뇨 다갈",
           "• 기타 신경증상",
-          "### F (Factor)",
-          "### Background history (외과력)"
+          "### F (Factor)"
         ]
       },
       {
@@ -6438,7 +6795,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.252Z"
+    "updatedAt": "2026-07-12T03:23:43.373Z"
   },
   {
     "id": "405",
@@ -6465,13 +6822,18 @@
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill, Edema",
-      "• FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy)",
+      "• Frequency",
+      "• Urgency",
+      "• Nocturia",
+      "• Dysuria",
+      "• Hematuria",
+      "• Incontinence",
+      "• Hesitancy",
       "• 감각이상, 근력저하, 보행장애",
       "• + 통증, 외음부 증상, 감염증상",
       "• + 당뇨",
       "• + 우울, 수면장애",
-      "### F (Factor)",
-      "### Background history (외과력)"
+      "### F (Factor)"
     ],
     "historyChecklist": [
       {
@@ -6499,7 +6861,13 @@
             "label": "CC-specific",
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill, Edema",
-              "FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy)",
+              "Frequency",
+              "Urgency",
+              "Nocturia",
+              "Dysuria",
+              "Hematuria",
+              "Incontinence",
+              "Hesitancy",
               "감각이상, 근력저하, 보행장애",
               "+ 통증, 외음부 증상, 감염증상",
               "+ 당뇨",
@@ -6511,11 +6879,6 @@
       {
         "key": "factor",
         "label": "F (Factor)",
-        "groups": []
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
         "groups": []
       }
     ],
@@ -6576,13 +6939,18 @@
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill, Edema",
-          "• FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy)",
+          "• Frequency",
+          "• Urgency",
+          "• Nocturia",
+          "• Dysuria",
+          "• Hematuria",
+          "• Incontinence",
+          "• Hesitancy",
           "• 감각이상, 근력저하, 보행장애",
           "• + 통증, 외음부 증상, 감염증상",
           "• + 당뇨",
           "• + 우울, 수면장애",
-          "### F (Factor)",
-          "### Background history (외과력)"
+          "### F (Factor)"
         ]
       },
       {
@@ -6629,7 +6997,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.273Z"
+    "updatedAt": "2026-07-12T03:23:43.422Z"
   },
   {
     "id": "501",
@@ -6655,10 +7023,27 @@
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill, Edema",
       "• 탈수 평가 : 두근거림, 호흡곤란, 어지럼, 소변량 감소",
-      "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) - B",
-      "• D.P (Dyspnea, Palpitation)",
-      "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea)",
-      "• FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy) 단백뇨, 혈뇨",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• B",
+      "• Dyspnea",
+      "• Palpitation",
+      "• Fever",
+      "• Chill",
+      "• Cough",
+      "• Sputum",
+      "• Rhinorrhea",
+      "• Frequency",
+      "• Urgency",
+      "• Nocturia",
+      "• Dysuria",
+      "• Hematuria",
+      "• Incontinence",
+      "• Hesitancy",
+      "• 단백뇨, 혈뇨",
       "• 두통, 팔다리 힘빠짐",
       "• 피부 발진, 관절통",
       "• FE : 독감 예방접종",
@@ -6688,10 +7073,27 @@
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill, Edema",
               "탈수 평가 : 두근거림, 호흡곤란, 어지럼, 소변량 감소",
-              "AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) - B",
-              "D.P (Dyspnea, Palpitation)",
-              "FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea)",
-              "FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy) 단백뇨, 혈뇨",
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "B",
+              "Dyspnea",
+              "Palpitation",
+              "Fever",
+              "Chill",
+              "Cough",
+              "Sputum",
+              "Rhinorrhea",
+              "Frequency",
+              "Urgency",
+              "Nocturia",
+              "Dysuria",
+              "Hematuria",
+              "Incontinence",
+              "Hesitancy",
+              "단백뇨, 혈뇨",
               "두통, 팔다리 힘빠짐",
               "피부 발진, 관절통",
               "FE : 독감 예방접종",
@@ -6838,10 +7240,27 @@
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill, Edema",
           "• 탈수 평가 : 두근거림, 호흡곤란, 어지럼, 소변량 감소",
-          "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) - B",
-          "• D.P (Dyspnea, Palpitation)",
-          "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea)",
-          "• FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy) 단백뇨, 혈뇨",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• B",
+          "• Dyspnea",
+          "• Palpitation",
+          "• Fever",
+          "• Chill",
+          "• Cough",
+          "• Sputum",
+          "• Rhinorrhea",
+          "• Frequency",
+          "• Urgency",
+          "• Nocturia",
+          "• Dysuria",
+          "• Hematuria",
+          "• Incontinence",
+          "• Hesitancy",
+          "• 단백뇨, 혈뇨",
           "• 두통, 팔다리 힘빠짐",
           "• 피부 발진, 관절통",
           "• FE : 독감 예방접종",
@@ -6909,7 +7328,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.250Z"
+    "updatedAt": "2026-07-12T03:23:43.369Z"
   },
   {
     "id": "502",
@@ -6939,14 +7358,30 @@
       "• General : Weight loss, Fatigue, Fever, Chill, Edema",
       "• 출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
       "• 탈수 평가 : 목마름, 호흡곤란, 두근거림, 소변량 감소",
-      "• (HSP, 간) AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) - JD (Jaundice), 복수, 부종",
-      "• (DIC) D.P (Dyspnea, Palpitation)",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• Jaundice",
+      "• (HSP, 간) 복수, 부종",
+      "• Dyspnea",
+      "• Palpitation",
+      "• (DIC)",
       "• (ITP) 최근 감기",
-      "• (HUS) FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy)",
+      "• Frequency",
+      "• Urgency",
+      "• Nocturia",
+      "• Dysuria",
+      "• Hematuria",
+      "• Incontinence",
+      "• Hesitancy",
+      "• (HUS)",
       "• (TTP) 신경계 증상 (의식저하, 소실, 두통, 시야장애)",
       "• (쿠싱) 자색선조, 여드름, 월경",
       "### F (Factor)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 피를 묽게 하는 약물"
     ],
     "historyChecklist": [
@@ -6978,10 +7413,25 @@
               "General : Weight loss, Fatigue, Fever, Chill, Edema",
               "출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
               "탈수 평가 : 목마름, 호흡곤란, 두근거림, 소변량 감소",
-              "(HSP, 간) AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) - JD (Jaundice), 복수, 부종",
-              "(DIC) D.P (Dyspnea, Palpitation)",
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "Jaundice",
+              "(HSP, 간) 복수, 부종",
+              "Dyspnea",
+              "Palpitation",
+              "(DIC)",
               "(ITP) 최근 감기",
-              "(HUS) FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy)",
+              "Frequency",
+              "Urgency",
+              "Nocturia",
+              "Dysuria",
+              "Hematuria",
+              "Incontinence",
+              "Hesitancy",
+              "(HUS)",
               "(TTP) 신경계 증상 (의식저하, 소실, 두통, 시야장애)",
               "(쿠싱) 자색선조, 여드름, 월경"
             ]
@@ -6994,8 +7444,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -7168,14 +7618,30 @@
           "• General : Weight loss, Fatigue, Fever, Chill, Edema",
           "• 출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
           "• 탈수 평가 : 목마름, 호흡곤란, 두근거림, 소변량 감소",
-          "• (HSP, 간) AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) - JD (Jaundice), 복수, 부종",
-          "• (DIC) D.P (Dyspnea, Palpitation)",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• Jaundice",
+          "• (HSP, 간) 복수, 부종",
+          "• Dyspnea",
+          "• Palpitation",
+          "• (DIC)",
           "• (ITP) 최근 감기",
-          "• (HUS) FUND (Frequency, Urgency, Nocturia, Dysuria) HIS (Hematuria, Incontinence, Hesitancy)",
+          "• Frequency",
+          "• Urgency",
+          "• Nocturia",
+          "• Dysuria",
+          "• Hematuria",
+          "• Incontinence",
+          "• Hesitancy",
+          "• (HUS)",
           "• (TTP) 신경계 증상 (의식저하, 소실, 두통, 시야장애)",
           "• (쿠싱) 자색선조, 여드름, 월경",
           "### F (Factor)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 피를 묽게 하는 약물"
         ]
       },
@@ -7238,7 +7704,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.244Z"
+    "updatedAt": "2026-07-12T03:23:43.353Z"
   },
   {
     "id": "503",
@@ -7270,15 +7736,25 @@
       "• 잠은 잘 주무시나요, 수면 환경은 어떤가요, BMI, 코골이는?",
       "• 잠/운동 피로 + 기억 + 머/림/목/근/관절 통",
       "• MDD 기준",
-      "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B JD (Jaundice) SS",
-      "• D.P (Dyspnea, Palpitation)",
-      "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) 야간 발한",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• Jaundice",
+      "• B SS",
+      "• Dyspnea",
+      "• Palpitation",
+      "• Fever",
+      "• Chill",
+      "• Cough",
+      "• Sputum",
+      "• Rhinorrhea",
+      "• 야간 발한",
       "• 추위불내성, 변비 / 더위불내성",
-      "• F",
       "### E (Event)",
       "#### CC-specific",
-      "• 간염 예방접종?",
-      "### Background history (외과력)"
+      "• 간염 예방접종?"
     ],
     "historyChecklist": [
       {
@@ -7309,11 +7785,22 @@
               "잠은 잘 주무시나요, 수면 환경은 어떤가요, BMI, 코골이는?",
               "잠/운동 피로 + 기억 + 머/림/목/근/관절 통",
               "MDD 기준",
-              "AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B JD (Jaundice) SS",
-              "D.P (Dyspnea, Palpitation)",
-              "FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) 야간 발한",
-              "추위불내성, 변비 / 더위불내성",
-              "F"
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "Jaundice",
+              "B SS",
+              "Dyspnea",
+              "Palpitation",
+              "Fever",
+              "Chill",
+              "Cough",
+              "Sputum",
+              "Rhinorrhea",
+              "야간 발한",
+              "추위불내성, 변비 / 더위불내성"
             ]
           }
         ]
@@ -7329,11 +7816,6 @@
             ]
           }
         ]
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
-        "groups": []
       }
     ],
     "exam": [
@@ -7497,15 +7979,25 @@
           "• 잠은 잘 주무시나요, 수면 환경은 어떤가요, BMI, 코골이는?",
           "• 잠/운동 피로 + 기억 + 머/림/목/근/관절 통",
           "• MDD 기준",
-          "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B JD (Jaundice) SS",
-          "• D.P (Dyspnea, Palpitation)",
-          "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) 야간 발한",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• Jaundice",
+          "• B SS",
+          "• Dyspnea",
+          "• Palpitation",
+          "• Fever",
+          "• Chill",
+          "• Cough",
+          "• Sputum",
+          "• Rhinorrhea",
+          "• 야간 발한",
           "• 추위불내성, 변비 / 더위불내성",
-          "• F",
           "### E (Event)",
           "#### CC-specific",
-          "• 간염 예방접종?",
-          "### Background history (외과력)"
+          "• 간염 예방접종?"
         ]
       },
       {
@@ -7567,7 +8059,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.300Z"
+    "updatedAt": "2026-07-12T03:23:43.482Z"
   },
   {
     "id": "504",
@@ -7599,13 +8091,21 @@
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• General : Fatigue, Fever, Chill, Edema",
-      "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B",
-      "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea)",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• B",
+      "• Fever",
+      "• Chill",
+      "• Cough",
+      "• Sputum",
+      "• Rhinorrhea",
       "• 더위불내성, 두근거림 / 두통, 두근거림, 발한, 기립성 저혈압",
       "• 다음, 다갈, 다뇨",
       "• 우울, 불안, 의욕저하",
-      "### F (Factor)",
-      "### Background history (외과력)"
+      "### F (Factor)"
     ],
     "historyChecklist": [
       {
@@ -7635,8 +8135,17 @@
             "label": "CC-specific",
             "items": [
               "General : Fatigue, Fever, Chill, Edema",
-              "AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B",
-              "FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea)",
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "B",
+              "Fever",
+              "Chill",
+              "Cough",
+              "Sputum",
+              "Rhinorrhea",
               "더위불내성, 두근거림 / 두통, 두근거림, 발한, 기립성 저혈압",
               "다음, 다갈, 다뇨",
               "우울, 불안, 의욕저하"
@@ -7647,11 +8156,6 @@
       {
         "key": "factor",
         "label": "F (Factor)",
-        "groups": []
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
         "groups": []
       }
     ],
@@ -7811,13 +8315,21 @@
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• General : Fatigue, Fever, Chill, Edema",
-          "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B",
-          "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea)",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• B",
+          "• Fever",
+          "• Chill",
+          "• Cough",
+          "• Sputum",
+          "• Rhinorrhea",
           "• 더위불내성, 두근거림 / 두통, 두근거림, 발한, 기립성 저혈압",
           "• 다음, 다갈, 다뇨",
           "• 우울, 불안, 의욕저하",
-          "### F (Factor)",
-          "### Background history (외과력)"
+          "### F (Factor)"
         ]
       },
       {
@@ -7878,7 +8390,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.293Z"
+    "updatedAt": "2026-07-12T03:23:43.466Z"
   },
   {
     "id": "505",
@@ -7906,14 +8418,24 @@
       "• 우울, 불안, 기분저하",
       "• 수면장애, 코골이",
       "• General : General weakness, Weight loss, Fatigue",
-      "• (간경화) AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) + 황달, 복수",
-      "• (심부전) D.P (Dyspnea, Palpitation) + 호흡곤란, 가슴통증",
-      "• (신부전) FUND (Frequency, Urgency, Nocturia, Dysuria) + 거품뇨",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• (간경화) 황달, 복수",
+      "• Dyspnea",
+      "• Palpitation",
+      "• (심부전) 호흡곤란, 가슴통증",
+      "• Frequency",
+      "• Urgency",
+      "• Nocturia",
+      "• Dysuria",
+      "• (신부전) 거품뇨",
       "• 자색선조, 멍",
       "• 추위불내성, 변비, 머리 푸석푸석",
       "• 여드름, 다모증",
-      "### F (Factor)",
-      "### Background history (외과력)"
+      "### F (Factor)"
     ],
     "historyChecklist": [
       {
@@ -7943,9 +8465,20 @@
               "우울, 불안, 기분저하",
               "수면장애, 코골이",
               "General : General weakness, Weight loss, Fatigue",
-              "(간경화) AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) + 황달, 복수",
-              "(심부전) D.P (Dyspnea, Palpitation) + 호흡곤란, 가슴통증",
-              "(신부전) FUND (Frequency, Urgency, Nocturia, Dysuria) + 거품뇨",
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "(간경화) 황달, 복수",
+              "Dyspnea",
+              "Palpitation",
+              "(심부전) 호흡곤란, 가슴통증",
+              "Frequency",
+              "Urgency",
+              "Nocturia",
+              "Dysuria",
+              "(신부전) 거품뇨",
               "자색선조, 멍",
               "추위불내성, 변비, 머리 푸석푸석",
               "여드름, 다모증"
@@ -7956,11 +8489,6 @@
       {
         "key": "factor",
         "label": "F (Factor)",
-        "groups": []
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
         "groups": []
       }
     ],
@@ -8086,14 +8614,24 @@
           "• 우울, 불안, 기분저하",
           "• 수면장애, 코골이",
           "• General : General weakness, Weight loss, Fatigue",
-          "• (간경화) AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea) + 황달, 복수",
-          "• (심부전) D.P (Dyspnea, Palpitation) + 호흡곤란, 가슴통증",
-          "• (신부전) FUND (Frequency, Urgency, Nocturia, Dysuria) + 거품뇨",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• (간경화) 황달, 복수",
+          "• Dyspnea",
+          "• Palpitation",
+          "• (심부전) 호흡곤란, 가슴통증",
+          "• Frequency",
+          "• Urgency",
+          "• Nocturia",
+          "• Dysuria",
+          "• (신부전) 거품뇨",
           "• 자색선조, 멍",
           "• 추위불내성, 변비, 머리 푸석푸석",
           "• 여드름, 다모증",
-          "### F (Factor)",
-          "### Background history (외과력)"
+          "### F (Factor)"
         ]
       },
       {
@@ -8154,7 +8692,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.295Z"
+    "updatedAt": "2026-07-12T03:23:43.470Z"
   },
   {
     "id": "601",
@@ -8562,7 +9100,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:43:57.268Z"
+    "updatedAt": "2026-07-12T03:23:43.299Z"
   },
   {
     "id": "602",
@@ -8599,8 +9137,7 @@
       "### F (Factor)",
       "#### CC-specific",
       "• 자세, 운동 영향",
-      "### E (Event)",
-      "### Background history (외과력)"
+      "### E (Event)"
     ],
     "historyChecklist": [
       {
@@ -8654,11 +9191,6 @@
       {
         "key": "event",
         "label": "E (Event)",
-        "groups": []
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
         "groups": []
       }
     ],
@@ -8780,8 +9312,7 @@
           "### F (Factor)",
           "#### CC-specific",
           "• 자세, 운동 영향",
-          "### E (Event)",
-          "### Background history (외과력)"
+          "### E (Event)"
         ]
       },
       {
@@ -8841,7 +9372,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.245Z"
+    "updatedAt": "2026-07-12T03:23:43.357Z"
   },
   {
     "id": "603",
@@ -8876,8 +9407,7 @@
       "### F (Factor)",
       "#### CC-specific",
       "• 자세, 운동 영향",
-      "### E (Event)",
-      "### Background history (외과력)"
+      "### E (Event)"
     ],
     "historyChecklist": [
       {
@@ -8929,11 +9459,6 @@
       {
         "key": "event",
         "label": "E (Event)",
-        "groups": []
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
         "groups": []
       }
     ],
@@ -9013,8 +9538,7 @@
           "### F (Factor)",
           "#### CC-specific",
           "• 자세, 운동 영향",
-          "### E (Event)",
-          "### Background history (외과력)"
+          "### E (Event)"
         ]
       },
       {
@@ -9070,7 +9594,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.305Z"
+    "updatedAt": "2026-07-12T03:23:43.493Z"
   },
   {
     "id": "604",
@@ -9106,7 +9630,8 @@
       "#### CC-specific",
       "• 악화 요인 (접촉, 음식, 찬물, 땀), 성관계력",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 여행, 벌레"
     ],
     "historyChecklist": [
@@ -9162,8 +9687,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -9317,7 +9842,8 @@
           "#### CC-specific",
           "• 악화 요인 (접촉, 음식, 찬물, 땀), 성관계력",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 여행, 벌레"
         ]
       },
@@ -9380,7 +9906,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.302Z"
+    "updatedAt": "2026-07-12T03:23:43.486Z"
   },
   {
     "id": "701",
@@ -9416,7 +9942,8 @@
       "#### CC-specific",
       "• 계절에 따른 변화, 출산 후 우울, 심한 스트레스 event",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 월경 시기와 관련이 있는가?"
     ],
     "historyChecklist": [
@@ -9482,8 +10009,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -9621,7 +10148,8 @@
           "#### CC-specific",
           "• 계절에 따른 변화, 출산 후 우울, 심한 스트레스 event",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 월경 시기와 관련이 있는가?"
         ]
       },
@@ -9681,7 +10209,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.235Z"
+    "updatedAt": "2026-07-12T03:23:43.317Z"
   },
   {
     "id": "702",
@@ -9719,11 +10247,14 @@
       "• 대중 앞에 설 때 불안",
       "• 쉽게 피곤, 매사에 불안, 안절부절, 잠을 잘 못잠",
       "• 하지 않으려 해도 반복되는 생각이나 행동",
-      "• D.P (Dyspnea, Palpitation), 쌕쌕거림",
+      "• Dyspnea",
+      "• Palpitation",
+      "• 쌕쌕거림",
       "• 더위불내성, 체중 감소 / 두통, 발한",
       "• 뇌전증, 정신병적 증상",
       "### F (Factor)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 마약이나 불법 약물 복용 여부"
     ],
     "historyChecklist": [
@@ -9757,7 +10288,9 @@
               "대중 앞에 설 때 불안",
               "쉽게 피곤, 매사에 불안, 안절부절, 잠을 잘 못잠",
               "하지 않으려 해도 반복되는 생각이나 행동",
-              "D.P (Dyspnea, Palpitation), 쌕쌕거림",
+              "Dyspnea",
+              "Palpitation",
+              "쌕쌕거림",
               "더위불내성, 체중 감소 / 두통, 발한",
               "뇌전증, 정신병적 증상"
             ]
@@ -9770,8 +10303,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -9946,11 +10479,14 @@
           "• 대중 앞에 설 때 불안",
           "• 쉽게 피곤, 매사에 불안, 안절부절, 잠을 잘 못잠",
           "• 하지 않으려 해도 반복되는 생각이나 행동",
-          "• D.P (Dyspnea, Palpitation), 쌕쌕거림",
+          "• Dyspnea",
+          "• Palpitation",
+          "• 쌕쌕거림",
           "• 더위불내성, 체중 감소 / 두통, 발한",
           "• 뇌전증, 정신병적 증상",
           "### F (Factor)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 마약이나 불법 약물 복용 여부"
         ]
       },
@@ -10026,7 +10562,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:43:57.274Z"
+    "updatedAt": "2026-07-12T03:23:43.381Z"
   },
   {
     "id": "703",
@@ -10065,8 +10601,7 @@
       "• (내) 더위불내성, 두근거림",
       "### F (Factor)",
       "• 최근에 수면 패턴이 바뀔 일이 있었는가? (자세히)",
-      "### E (Event)",
-      "### Background history (외과력)"
+      "### E (Event)"
     ],
     "historyChecklist": [
       {
@@ -10124,11 +10659,6 @@
       {
         "key": "event",
         "label": "E (Event)",
-        "groups": []
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
         "groups": []
       }
     ],
@@ -10250,8 +10780,7 @@
           "• (내) 더위불내성, 두근거림",
           "### F (Factor)",
           "• 최근에 수면 패턴이 바뀔 일이 있었는가? (자세히)",
-          "### E (Event)",
-          "### Background history (외과력)"
+          "### E (Event)"
         ]
       },
       {
@@ -10311,7 +10840,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.266Z"
+    "updatedAt": "2026-07-12T03:23:43.406Z"
   },
   {
     "id": "704",
@@ -10349,7 +10878,8 @@
       "• (정상압) 요실금, 보행이상",
       "• 추위불내성",
       "### F (Factor)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 최종 학력 (조심스럽게 질문)"
     ],
     "historyChecklist": [
@@ -10408,8 +10938,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -10537,7 +11067,8 @@
           "• (정상압) 요실금, 보행이상",
           "• 추위불내성",
           "### F (Factor)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 최종 학력 (조심스럽게 질문)"
         ]
       },
@@ -10598,7 +11129,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.236Z"
+    "updatedAt": "2026-07-12T03:23:43.322Z"
   },
   {
     "id": "801",
@@ -10626,7 +11157,12 @@
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• 난청, 이명, 이충만감, 청력 저하",
-      "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea), NV",
+      "• Fever",
+      "• Chill",
+      "• Cough",
+      "• Sputum",
+      "• Rhinorrhea",
+      "• NV",
       "• 팔다리 감각 이상, 근력 저하, 시력 이상, 발음 이상, 보행장애",
       "• 손떨림, 몸뻣뻣, 행동 느려짐",
       "• 두통",
@@ -10636,7 +11172,8 @@
       "#### CC-specific",
       "• 자세에 따른 변화, 일어설 때 증상, 식사 변화",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 최근 약물 변화"
     ],
     "historyChecklist": [
@@ -10665,7 +11202,12 @@
             "label": "CC-specific",
             "items": [
               "난청, 이명, 이충만감, 청력 저하",
-              "FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea), NV",
+              "Fever",
+              "Chill",
+              "Cough",
+              "Sputum",
+              "Rhinorrhea",
+              "NV",
               "팔다리 감각 이상, 근력 저하, 시력 이상, 발음 이상, 보행장애",
               "손떨림, 몸뻣뻣, 행동 느려짐",
               "두통",
@@ -10693,8 +11235,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -10836,7 +11378,12 @@
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• 난청, 이명, 이충만감, 청력 저하",
-          "• FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea), NV",
+          "• Fever",
+          "• Chill",
+          "• Cough",
+          "• Sputum",
+          "• Rhinorrhea",
+          "• NV",
           "• 팔다리 감각 이상, 근력 저하, 시력 이상, 발음 이상, 보행장애",
           "• 손떨림, 몸뻣뻣, 행동 느려짐",
           "• 두통",
@@ -10846,7 +11393,8 @@
           "#### CC-specific",
           "• 자세에 따른 변화, 일어설 때 증상, 식사 변화",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 최근 약물 변화"
         ]
       },
@@ -10910,7 +11458,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.270Z"
+    "updatedAt": "2026-07-12T03:23:43.414Z"
   },
   {
     "id": "802",
@@ -10946,7 +11494,8 @@
       "#### CC-specific",
       "• 악화 요인, 완화 요인 (빛, 소리, 자세)",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 진통제 복용력"
     ],
     "historyChecklist": [
@@ -11002,8 +11551,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -11135,7 +11684,8 @@
           "#### CC-specific",
           "• 악화 요인, 완화 요인 (빛, 소리, 자세)",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 진통제 복용력"
         ]
       },
@@ -11198,7 +11748,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.241Z"
+    "updatedAt": "2026-07-12T03:23:43.345Z"
   },
   {
     "id": "803",
@@ -11237,7 +11787,8 @@
       "### E (Event)",
       "#### CC-specific",
       "• 예방접종력",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 출산력, 발달력"
     ],
     "historyChecklist": [
@@ -11312,8 +11863,8 @@
         ]
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -11427,7 +11978,8 @@
           "### E (Event)",
           "#### CC-specific",
           "• 예방접종력",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 출산력, 발달력"
         ]
       },
@@ -11476,7 +12028,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.225Z"
+    "updatedAt": "2026-07-12T03:23:43.290Z"
   },
   {
     "id": "804",
@@ -11512,8 +12064,7 @@
       "#### CC-specific",
       "• 과도한 빛 자극, 과호흡",
       "• 심한 스트레스, 수면장애",
-      "### E (Event)",
-      "### Background history (외과력)"
+      "### E (Event)"
     ],
     "historyChecklist": [
       {
@@ -11577,11 +12128,6 @@
       {
         "key": "event",
         "label": "E (Event)",
-        "groups": []
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
         "groups": []
       }
     ],
@@ -11686,8 +12232,7 @@
           "#### CC-specific",
           "• 과도한 빛 자극, 과호흡",
           "• 심한 스트레스, 수면장애",
-          "### E (Event)",
-          "### Background history (외과력)"
+          "### E (Event)"
         ]
       },
       {
@@ -11739,7 +12284,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.223Z"
+    "updatedAt": "2026-07-12T03:23:43.286Z"
   },
   {
     "id": "805",
@@ -11786,7 +12331,8 @@
       "#### CC-specific",
       "• 시간대, 휴식, 운동, 과음, 과식 관련성",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 두부 외상력, 예방접종력, 감기력"
     ],
     "historyChecklist": [
@@ -11842,8 +12388,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -12038,7 +12584,8 @@
           "#### CC-specific",
           "• 시간대, 휴식, 운동, 과음, 과식 관련성",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 두부 외상력, 예방접종력, 감기력"
         ]
       },
@@ -12114,7 +12661,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:43:57.270Z"
+    "updatedAt": "2026-07-12T03:23:43.308Z"
   },
   {
     "id": "806",
@@ -12160,9 +12707,15 @@
       "#### CC-specific",
       "• General",
       "• (신경) 두통, 말 어눌함, 시야장애, 힘빠짐, 구토 / 최근 감염",
-      "• ANVCD-B JD (Jaundice)",
+      "• Anorexia",
+      "• Nausea",
+      "• Vomiting",
+      "• Constipation",
+      "• Diarrhea",
+      "• Jaundice",
+      "• B",
       "### F (Factor)",
-      "### Background history (외과력)",
+      "### 외과력",
       "#### CC-specific",
       "• 입에서 냄새"
     ],
@@ -12223,7 +12776,13 @@
             "items": [
               "General",
               "(신경) 두통, 말 어눌함, 시야장애, 힘빠짐, 구토 / 최근 감염",
-              "ANVCD-B JD (Jaundice)"
+              "Anorexia",
+              "Nausea",
+              "Vomiting",
+              "Constipation",
+              "Diarrhea",
+              "Jaundice",
+              "B"
             ]
           }
         ]
@@ -12234,8 +12793,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -12474,9 +13033,15 @@
           "#### CC-specific",
           "• General",
           "• (신경) 두통, 말 어눌함, 시야장애, 힘빠짐, 구토 / 최근 감염",
-          "• ANVCD-B JD (Jaundice)",
+          "• Anorexia",
+          "• Nausea",
+          "• Vomiting",
+          "• Constipation",
+          "• Diarrhea",
+          "• Jaundice",
+          "• B",
           "### F (Factor)",
-          "### Background history (외과력)",
+          "### 외과력",
           "#### CC-specific",
           "• 입에서 냄새"
         ]
@@ -12573,7 +13138,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:46:31.488Z"
+    "updatedAt": "2026-07-12T03:23:43.446Z"
   },
   {
     "id": "807",
@@ -12610,8 +13175,7 @@
       "• (소뇌) 팔다리 힘빠짐, 걸음이상, 배뇨, 배변이상",
       "• 더위불내성, 두근거림, 체중변화",
       "• 우울, 불안, 수면장애",
-      "### F (Factor)",
-      "### Background history (외과력)"
+      "### F (Factor)"
     ],
     "historyChecklist": [
       {
@@ -12650,11 +13214,6 @@
       {
         "key": "factor",
         "label": "F (Factor)",
-        "groups": []
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
         "groups": []
       }
     ],
@@ -12793,8 +13352,7 @@
           "• (소뇌) 팔다리 힘빠짐, 걸음이상, 배뇨, 배변이상",
           "• 더위불내성, 두근거림, 체중변화",
           "• 우울, 불안, 수면장애",
-          "### F (Factor)",
-          "### Background history (외과력)"
+          "### F (Factor)"
         ]
       },
       {
@@ -12875,7 +13433,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:43:57.272Z"
+    "updatedAt": "2026-07-12T03:23:43.349Z"
   },
   {
     "id": "901",
@@ -12914,8 +13472,7 @@
       "• 정신 : 우울, 불안, 수면장애",
       "### Female history / Factor",
       "#### CC-specific",
-      "• Event : 건강검진 이력 (산부인과 검진)",
-      "### Background history (외과력)"
+      "• Event : 건강검진 이력 (산부인과 검진)"
     ],
     "historyChecklist": [
       {
@@ -12970,11 +13527,6 @@
             ]
           }
         ]
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
-        "groups": []
       }
     ],
     "exam": [
@@ -13144,8 +13696,7 @@
           "• 정신 : 우울, 불안, 수면장애",
           "### Female history / Factor",
           "#### CC-specific",
-          "• Event : 건강검진 이력 (산부인과 검진)",
-          "### Background history (외과력)"
+          "• Event : 건강검진 이력 (산부인과 검진)"
         ]
       },
       {
@@ -13206,7 +13757,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.281Z"
+    "updatedAt": "2026-07-12T03:23:43.438Z"
   },
   {
     "id": "902",
@@ -13245,8 +13796,7 @@
       "• 정신 : 우울, 불안, 수면장애",
       "### Female history / Factor",
       "#### CC-specific",
-      "• Event : 건강검진 이력 (산부인과 검진)",
-      "### Background history (외과력)"
+      "• Event : 건강검진 이력 (산부인과 검진)"
     ],
     "historyChecklist": [
       {
@@ -13301,11 +13851,6 @@
             ]
           }
         ]
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
-        "groups": []
       }
     ],
     "exam": [
@@ -13475,8 +14020,7 @@
           "• 정신 : 우울, 불안, 수면장애",
           "### Female history / Factor",
           "#### CC-specific",
-          "• Event : 건강검진 이력 (산부인과 검진)",
-          "### Background history (외과력)"
+          "• Event : 건강검진 이력 (산부인과 검진)"
         ]
       },
       {
@@ -13537,7 +14081,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.279Z"
+    "updatedAt": "2026-07-12T03:23:43.434Z"
   },
   {
     "id": "903",
@@ -13571,9 +14115,12 @@
       "• (칸디다) 화끈거림, 가려움, 따가움",
       "• (위축성) 안면홍조, 식은땀, 질건조증",
       "• (PID) 아랫배 통증, 오심 구토, 발열",
-      "• (방광염) FUND (Frequency, Urgency, Nocturia, Dysuria)",
-      "### F (Factor)",
-      "### Background history (외과력)"
+      "• Frequency",
+      "• Urgency",
+      "• Nocturia",
+      "• Dysuria",
+      "• (방광염)",
+      "### F (Factor)"
     ],
     "historyChecklist": [
       {
@@ -13613,7 +14160,11 @@
               "(칸디다) 화끈거림, 가려움, 따가움",
               "(위축성) 안면홍조, 식은땀, 질건조증",
               "(PID) 아랫배 통증, 오심 구토, 발열",
-              "(방광염) FUND (Frequency, Urgency, Nocturia, Dysuria)"
+              "Frequency",
+              "Urgency",
+              "Nocturia",
+              "Dysuria",
+              "(방광염)"
             ]
           }
         ]
@@ -13621,11 +14172,6 @@
       {
         "key": "factor",
         "label": "F (Factor)",
-        "groups": []
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
         "groups": []
       }
     ],
@@ -13718,9 +14264,12 @@
           "• (칸디다) 화끈거림, 가려움, 따가움",
           "• (위축성) 안면홍조, 식은땀, 질건조증",
           "• (PID) 아랫배 통증, 오심 구토, 발열",
-          "• (방광염) FUND (Frequency, Urgency, Nocturia, Dysuria)",
-          "### F (Factor)",
-          "### Background history (외과력)"
+          "• Frequency",
+          "• Urgency",
+          "• Nocturia",
+          "• Dysuria",
+          "• (방광염)",
+          "### F (Factor)"
         ]
       },
       {
@@ -13772,7 +14321,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.290Z"
+    "updatedAt": "2026-07-12T03:23:43.458Z"
   },
   {
     "id": "904",
@@ -13804,10 +14353,16 @@
       "• General : Weight loss, Fatigue, Fever, Chill, Edema",
       "• 출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
       "• 탈수 평가 : 두근거림, 호흡곤란, 어지럼, 소변량 감소",
-      "• FUND (Frequency, Urgency, Nocturia, Dysuria)-HIR (Hematuria, Incontinence, Retention) + 변비, 복부 덩이",
+      "• Frequency",
+      "• Urgency",
+      "• Nocturia",
+      "• Dysuria",
+      "• Hematuria",
+      "• Incontinence",
+      "• Retention",
+      "• 변비, 복부 덩이",
       "• 추위불내성, 변비",
-      "### F (Factor)",
-      "### Background history (외과력)"
+      "### F (Factor)"
     ],
     "historyChecklist": [
       {
@@ -13840,7 +14395,14 @@
               "General : Weight loss, Fatigue, Fever, Chill, Edema",
               "출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
               "탈수 평가 : 두근거림, 호흡곤란, 어지럼, 소변량 감소",
-              "FUND (Frequency, Urgency, Nocturia, Dysuria)-HIR (Hematuria, Incontinence, Retention) + 변비, 복부 덩이",
+              "Frequency",
+              "Urgency",
+              "Nocturia",
+              "Dysuria",
+              "Hematuria",
+              "Incontinence",
+              "Retention",
+              "변비, 복부 덩이",
               "추위불내성, 변비"
             ]
           }
@@ -13849,11 +14411,6 @@
       {
         "key": "factor",
         "label": "F (Factor)",
-        "groups": []
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
         "groups": []
       }
     ],
@@ -13957,10 +14514,16 @@
           "• General : Weight loss, Fatigue, Fever, Chill, Edema",
           "• 출혈 경향 : 코피, 출혈 후 잘 안 멎음, 멍이 잘 듦, 생리량 증가",
           "• 탈수 평가 : 두근거림, 호흡곤란, 어지럼, 소변량 감소",
-          "• FUND (Frequency, Urgency, Nocturia, Dysuria)-HIR (Hematuria, Incontinence, Retention) + 변비, 복부 덩이",
+          "• Frequency",
+          "• Urgency",
+          "• Nocturia",
+          "• Dysuria",
+          "• Hematuria",
+          "• Incontinence",
+          "• Retention",
+          "• 변비, 복부 덩이",
           "• 추위불내성, 변비",
-          "### F (Factor)",
-          "### Background history (외과력)"
+          "### F (Factor)"
         ]
       },
       {
@@ -14015,7 +14578,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.291Z"
+    "updatedAt": "2026-07-12T03:23:43.462Z"
   },
   {
     "id": "905",
@@ -14308,7 +14871,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.275Z"
+    "updatedAt": "2026-07-12T03:23:43.427Z"
   },
   {
     "id": "906",
@@ -14340,10 +14903,19 @@
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill, Edema",
-      "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)",
-      "• FUND (Frequency, Urgency, Nocturia, Dysuria), 잔뇨감, 변비, 복부 종괴",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• Frequency",
+      "• Urgency",
+      "• Nocturia",
+      "• Dysuria",
+      "• 잔뇨감, 변비, 복부 종괴",
       "### F (Factor)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 운동을 심하게 하지는 않았는가?"
     ],
     "historyChecklist": [
@@ -14380,8 +14952,16 @@
             "label": "CC-specific",
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill, Edema",
-              "AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)",
-              "FUND (Frequency, Urgency, Nocturia, Dysuria), 잔뇨감, 변비, 복부 종괴"
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "Frequency",
+              "Urgency",
+              "Nocturia",
+              "Dysuria",
+              "잔뇨감, 변비, 복부 종괴"
             ]
           }
         ]
@@ -14392,8 +14972,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -14490,10 +15070,19 @@
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill, Edema",
-          "• AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)",
-          "• FUND (Frequency, Urgency, Nocturia, Dysuria), 잔뇨감, 변비, 복부 종괴",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• Frequency",
+          "• Urgency",
+          "• Nocturia",
+          "• Dysuria",
+          "• 잔뇨감, 변비, 복부 종괴",
           "### F (Factor)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 운동을 심하게 하지는 않았는가?"
         ]
       },
@@ -14541,7 +15130,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.277Z"
+    "updatedAt": "2026-07-12T03:23:43.430Z"
   },
   {
     "id": "907",
@@ -14579,7 +15168,8 @@
       "• (당뇨병) 다음, 다갈, 다뇨, 부종",
       "• (갑상샘) 두근거림, 더위불내성, 체중 감소",
       "### F (Factor)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 성병, 성교통 / 철분, 엽산 / 방사선검사력"
     ],
     "historyChecklist": [
@@ -14641,8 +15231,8 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -14777,7 +15367,8 @@
           "• (당뇨병) 다음, 다갈, 다뇨, 부종",
           "• (갑상샘) 두근거림, 더위불내성, 체중 감소",
           "### F (Factor)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 성병, 성교통 / 철분, 엽산 / 방사선검사력"
         ]
       },
@@ -14835,7 +15426,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.257Z"
+    "updatedAt": "2026-07-12T03:23:43.385Z"
   },
   {
     "id": "1001",
@@ -14870,11 +15461,15 @@
       "• 옹알이(6개월) 마마빠빠 (12개월)",
       "• 눈맞춤, 또래와, 반복행동?",
       "• 소리가 나면 고개를 돌리는지?",
-      "### Background history (외과력)",
+      "### 외과력",
       "#### CC-specific",
       "• 외상력 : 입원/수술, 예방접종",
       "• 과약",
+      "### 사회력",
+      "#### CC-specific",
       "• 사회력 : 양육 환경, 식습관, 운동, 수면 습관",
+      "### 가족력",
+      "#### CC-specific",
       "• 가족력 : 부모의 발달이 늦음 여부"
     ],
     "historyChecklist": [
@@ -14904,15 +15499,37 @@
         ]
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
             "items": [
               "외상력 : 입원/수술, 예방접종",
-              "과약",
-              "사회력 : 양육 환경, 식습관, 운동, 수면 습관",
+              "과약"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "social",
+        "label": "사회력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "사회력 : 양육 환경, 식습관, 운동, 수면 습관"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "family",
+        "label": "가족력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
               "가족력 : 부모의 발달이 늦음 여부"
             ]
           }
@@ -15016,11 +15633,15 @@
           "• 옹알이(6개월) 마마빠빠 (12개월)",
           "• 눈맞춤, 또래와, 반복행동?",
           "• 소리가 나면 고개를 돌리는지?",
-          "### Background history (외과력)",
+          "### 외과력",
           "#### CC-specific",
           "• 외상력 : 입원/수술, 예방접종",
           "• 과약",
+          "### 사회력",
+          "#### CC-specific",
           "• 사회력 : 양육 환경, 식습관, 운동, 수면 습관",
+          "### 가족력",
+          "#### CC-specific",
           "• 가족력 : 부모의 발달이 늦음 여부"
         ]
       },
@@ -15076,7 +15697,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.260Z"
+    "updatedAt": "2026-07-12T03:23:43.394Z"
   },
   {
     "id": "1002",
@@ -15102,7 +15723,6 @@
       "• 성장 확인",
       "• 현재 키/체중/머리둘레 확인 → percentile 확인",
       "• 성장 속도 확인 (4cm/년), 2차 성징 확인",
-      "• O Co",
       "### C (Character)",
       "#### CC-specific",
       "• 발달이 느리다고 생각하는 이유?",
@@ -15116,11 +15736,15 @@
       "• 옹알이(6개월) 마마빠빠 (12개월)",
       "• 눈맞춤, 또래와, 반복행동?",
       "• 소리가 나면 고개를 돌리는지?",
-      "### Background history (외과력)",
+      "### 외과력",
       "#### CC-specific",
       "• 외상력 : 입원/수술, 예방접종",
       "• 과약",
+      "### 사회력",
+      "#### CC-specific",
       "• 사회력 : 양육 환경, 식습관, 운동, 수면 습관",
+      "### 가족력",
+      "#### CC-specific",
       "• 가족력 : 부모의 발달이 늦음 여부, 형제/자매?"
     ],
     "historyChecklist": [
@@ -15134,8 +15758,7 @@
               "생년월일 확인",
               "성장 확인",
               "현재 키/체중/머리둘레 확인 → percentile 확인",
-              "성장 속도 확인 (4cm/년), 2차 성징 확인",
-              "O Co"
+              "성장 속도 확인 (4cm/년), 2차 성징 확인"
             ]
           }
         ]
@@ -15163,15 +15786,37 @@
         ]
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
             "items": [
               "외상력 : 입원/수술, 예방접종",
-              "과약",
-              "사회력 : 양육 환경, 식습관, 운동, 수면 습관",
+              "과약"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "social",
+        "label": "사회력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "사회력 : 양육 환경, 식습관, 운동, 수면 습관"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "family",
+        "label": "가족력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
               "가족력 : 부모의 발달이 늦음 여부, 형제/자매?"
             ]
           }
@@ -15309,7 +15954,6 @@
           "• 성장 확인",
           "• 현재 키/체중/머리둘레 확인 → percentile 확인",
           "• 성장 속도 확인 (4cm/년), 2차 성징 확인",
-          "• O Co",
           "### C (Character)",
           "#### CC-specific",
           "• 발달이 느리다고 생각하는 이유?",
@@ -15323,11 +15967,15 @@
           "• 옹알이(6개월) 마마빠빠 (12개월)",
           "• 눈맞춤, 또래와, 반복행동?",
           "• 소리가 나면 고개를 돌리는지?",
-          "### Background history (외과력)",
+          "### 외과력",
           "#### CC-specific",
           "• 외상력 : 입원/수술, 예방접종",
           "• 과약",
+          "### 사회력",
+          "#### CC-specific",
           "• 사회력 : 양육 환경, 식습관, 운동, 수면 습관",
+          "### 가족력",
+          "#### CC-specific",
           "• 가족력 : 부모의 발달이 늦음 여부, 형제/자매?"
         ]
       },
@@ -15384,7 +16032,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.248Z"
+    "updatedAt": "2026-07-12T03:23:43.366Z"
   },
   {
     "id": "1003",
@@ -15526,7 +16174,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.272Z"
+    "updatedAt": "2026-07-12T03:23:43.418Z"
   },
   {
     "id": "1101",
@@ -15561,19 +16209,34 @@
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill",
-      "• 소화기 : AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B SS",
+      "• Anorexia",
+      "• Vomiting",
+      "• Nausea",
+      "• Constipation",
+      "• Diarrhea",
+      "• 소화기 : B SS",
       "• 정신적 : 기분장애, 불안장애, 기억장애",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
       "#### CC-specific",
       "• 외상력 : 입원/수술",
-      "• 과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
-      "• 약물력",
-      "• 사회력 : smoking, 직업/식습관/운동/스트레스",
-      "• 가족력 :가족 중 술담배 문제를 가진 사람",
-      "• 여성력",
       "• Risk : 음주 시 어떤 점이 위험할 수 있는지 아는가?",
-      "• Reward : 금주 시 어떤 좋은 점이 있는지 아는가?"
+      "• Reward : 금주 시 어떤 좋은 점이 있는지 아는가?",
+      "### 과거력",
+      "#### CC-specific",
+      "• 과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
+      "### 약물력",
+      "#### CC-specific",
+      "• 약물력",
+      "### 사회력",
+      "#### CC-specific",
+      "• 사회력 : smoking, 직업/식습관/운동/스트레스",
+      "### 가족력",
+      "#### CC-specific",
+      "• 가족력 :가족 중 술담배 문제를 가진 사람",
+      "### 여성력",
+      "#### CC-specific",
+      "• 여성력"
     ],
     "historyChecklist": [
       {
@@ -15606,7 +16269,12 @@
             "label": "CC-specific",
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill",
-              "소화기 : AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B SS",
+              "Anorexia",
+              "Vomiting",
+              "Nausea",
+              "Constipation",
+              "Diarrhea",
+              "소화기 : B SS",
               "정신적 : 기분장애, 불안장애, 기억장애"
             ]
           }
@@ -15618,20 +16286,75 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
             "items": [
               "외상력 : 입원/수술",
-              "과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
-              "약물력",
-              "사회력 : smoking, 직업/식습관/운동/스트레스",
-              "가족력 :가족 중 술담배 문제를 가진 사람",
-              "여성력",
               "Risk : 음주 시 어떤 점이 위험할 수 있는지 아는가?",
               "Reward : 금주 시 어떤 좋은 점이 있는지 아는가?"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "past",
+        "label": "과거력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "medication",
+        "label": "약물력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "약물력"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "social",
+        "label": "사회력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "사회력 : smoking, 직업/식습관/운동/스트레스"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "family",
+        "label": "가족력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "가족력 :가족 중 술담배 문제를 가진 사람"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "female",
+        "label": "여성력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "여성력"
             ]
           }
         ]
@@ -15677,19 +16400,34 @@
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill",
-          "• 소화기 : AVNCD (Anorexia, Vomiting, Nausea, Constipation, Diarrhea)-B SS",
+          "• Anorexia",
+          "• Vomiting",
+          "• Nausea",
+          "• Constipation",
+          "• Diarrhea",
+          "• 소화기 : B SS",
           "• 정신적 : 기분장애, 불안장애, 기억장애",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
           "#### CC-specific",
           "• 외상력 : 입원/수술",
-          "• 과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
-          "• 약물력",
-          "• 사회력 : smoking, 직업/식습관/운동/스트레스",
-          "• 가족력 :가족 중 술담배 문제를 가진 사람",
-          "• 여성력",
           "• Risk : 음주 시 어떤 점이 위험할 수 있는지 아는가?",
-          "• Reward : 금주 시 어떤 좋은 점이 있는지 아는가?"
+          "• Reward : 금주 시 어떤 좋은 점이 있는지 아는가?",
+          "### 과거력",
+          "#### CC-specific",
+          "• 과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
+          "### 약물력",
+          "#### CC-specific",
+          "• 약물력",
+          "### 사회력",
+          "#### CC-specific",
+          "• 사회력 : smoking, 직업/식습관/운동/스트레스",
+          "### 가족력",
+          "#### CC-specific",
+          "• 가족력 :가족 중 술담배 문제를 가진 사람",
+          "### 여성력",
+          "#### CC-specific",
+          "• 여성력"
         ]
       },
       {
@@ -15735,7 +16473,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.283Z"
+    "updatedAt": "2026-07-12T03:23:43.443Z"
   },
   {
     "id": "1102",
@@ -15770,19 +16508,34 @@
       "### A (Associated symptoms)",
       "#### CC-specific",
       "• General : Weight loss, Fatigue, Fever, Chill",
-      "• 호흡기 : FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) + 흉통 객혈 감기",
+      "• Fever",
+      "• Chill",
+      "• Cough",
+      "• Sputum",
+      "• Rhinorrhea",
+      "• 호흡기 : 흉통 객혈 감기",
       "• 구강 : 치아 변색, 구강 내 종양",
       "### E (Event)",
-      "### Background history (외과력)",
+      "### 외과력",
       "#### CC-specific",
       "• 외상력 : 입원/수술",
-      "• 과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
-      "• 약물력",
-      "• 사회력 : smoking/alcohol, 직업/식습관/운동/스트레스",
-      "• 가족력 :유사 증상 발생자, 유전질환",
-      "• 여성력",
       "• Risk : 흡연 시 어떤 점이 위험할 수 있는지 아는가?",
-      "• Reward : 금연 시 어떤 좋은 점이 있는지 아는가?"
+      "• Reward : 금연 시 어떤 좋은 점이 있는지 아는가?",
+      "### 과거력",
+      "#### CC-specific",
+      "• 과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
+      "### 약물력",
+      "#### CC-specific",
+      "• 약물력",
+      "### 사회력",
+      "#### CC-specific",
+      "• 사회력 : smoking/alcohol, 직업/식습관/운동/스트레스",
+      "### 가족력",
+      "#### CC-specific",
+      "• 가족력 :유사 증상 발생자, 유전질환",
+      "### 여성력",
+      "#### CC-specific",
+      "• 여성력"
     ],
     "historyChecklist": [
       {
@@ -15816,7 +16569,12 @@
             "label": "CC-specific",
             "items": [
               "General : Weight loss, Fatigue, Fever, Chill",
-              "호흡기 : FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) + 흉통 객혈 감기",
+              "Fever",
+              "Chill",
+              "Cough",
+              "Sputum",
+              "Rhinorrhea",
+              "호흡기 : 흉통 객혈 감기",
               "구강 : 치아 변색, 구강 내 종양"
             ]
           }
@@ -15828,20 +16586,75 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
             "items": [
               "외상력 : 입원/수술",
-              "과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
-              "약물력",
-              "사회력 : smoking/alcohol, 직업/식습관/운동/스트레스",
-              "가족력 :유사 증상 발생자, 유전질환",
-              "여성력",
               "Risk : 흡연 시 어떤 점이 위험할 수 있는지 아는가?",
               "Reward : 금연 시 어떤 좋은 점이 있는지 아는가?"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "past",
+        "label": "과거력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "medication",
+        "label": "약물력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "약물력"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "social",
+        "label": "사회력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "사회력 : smoking/alcohol, 직업/식습관/운동/스트레스"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "family",
+        "label": "가족력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "가족력 :유사 증상 발생자, 유전질환"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "female",
+        "label": "여성력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "여성력"
             ]
           }
         ]
@@ -15888,19 +16701,34 @@
           "### A (Associated symptoms)",
           "#### CC-specific",
           "• General : Weight loss, Fatigue, Fever, Chill",
-          "• 호흡기 : FCCSR (Fever, Chill, Cough, Sputum, Rhinorrhea) + 흉통 객혈 감기",
+          "• Fever",
+          "• Chill",
+          "• Cough",
+          "• Sputum",
+          "• Rhinorrhea",
+          "• 호흡기 : 흉통 객혈 감기",
           "• 구강 : 치아 변색, 구강 내 종양",
           "### E (Event)",
-          "### Background history (외과력)",
+          "### 외과력",
           "#### CC-specific",
           "• 외상력 : 입원/수술",
-          "• 과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
-          "• 약물력",
-          "• 사회력 : smoking/alcohol, 직업/식습관/운동/스트레스",
-          "• 가족력 :유사 증상 발생자, 유전질환",
-          "• 여성력",
           "• Risk : 흡연 시 어떤 점이 위험할 수 있는지 아는가?",
-          "• Reward : 금연 시 어떤 좋은 점이 있는지 아는가?"
+          "• Reward : 금연 시 어떤 좋은 점이 있는지 아는가?",
+          "### 과거력",
+          "#### CC-specific",
+          "• 과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
+          "### 약물력",
+          "#### CC-specific",
+          "• 약물력",
+          "### 사회력",
+          "#### CC-specific",
+          "• 사회력 : smoking/alcohol, 직업/식습관/운동/스트레스",
+          "### 가족력",
+          "#### CC-specific",
+          "• 가족력 :유사 증상 발생자, 유전질환",
+          "### 여성력",
+          "#### CC-specific",
+          "• 여성력"
         ]
       },
       {
@@ -15946,7 +16774,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.314Z"
+    "updatedAt": "2026-07-12T03:23:43.515Z"
   },
   {
     "id": "1103",
@@ -15983,8 +16811,7 @@
       "• NSAIDS : SS",
       "• steroid : 여드름, 여성형 유방, 발기부전, 탈모",
       "• 수면장애, 정신증, 우울",
-      "### F (Factor)",
-      "### Background history (외과력)"
+      "### F (Factor)"
     ],
     "historyChecklist": [
       {
@@ -16060,11 +16887,6 @@
         "key": "factor",
         "label": "F (Factor)",
         "groups": []
-      },
-      {
-        "key": "background",
-        "label": "Background history (외과력)",
-        "groups": []
       }
     ],
     "exam": [
@@ -16111,8 +16933,7 @@
           "• NSAIDS : SS",
           "• steroid : 여드름, 여성형 유방, 발기부전, 탈모",
           "• 수면장애, 정신증, 우울",
-          "### F (Factor)",
-          "### Background history (외과력)"
+          "### F (Factor)"
         ]
       },
       {
@@ -16177,7 +16998,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.247Z"
+    "updatedAt": "2026-07-12T03:23:43.362Z"
   },
   {
     "id": "1104",
@@ -16265,7 +17086,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-10T02:30:08.159Z"
+    "updatedAt": "2026-07-12T03:23:43.331Z"
   },
   {
     "id": "1105",
@@ -16301,13 +17122,23 @@
       "• 정신상태 평가 : 우울, 불안, 불면, 식욕저하, 집중력 저하",
       "• 자살 사고, 타살사고",
       "### F (Factor)",
-      "### Background history (외과력)",
+      "### 외과력",
       "#### CC-specific",
       "• 외상력 : 입원/수술",
+      "### 과거력",
+      "#### CC-specific",
       "• 과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
+      "### 약물력",
+      "#### CC-specific",
       "• 약물력",
+      "### 사회력",
+      "#### CC-specific",
       "• 사회력 : 결혼 과정 문제 여부, 경제적 어려움 여부",
+      "### 가족력",
+      "#### CC-specific",
       "• 가족력 : 가해자의 어릴 적 가정 폭력 여부",
+      "### 여성력",
+      "#### CC-specific",
       "• 여성력"
     ],
     "historyChecklist": [
@@ -16351,17 +17182,72 @@
         "groups": []
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
             "items": [
-              "외상력 : 입원/수술",
-              "과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
-              "약물력",
-              "사회력 : 결혼 과정 문제 여부, 경제적 어려움 여부",
-              "가족력 : 가해자의 어릴 적 가정 폭력 여부",
+              "외상력 : 입원/수술"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "past",
+        "label": "과거력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "medication",
+        "label": "약물력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "약물력"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "social",
+        "label": "사회력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "사회력 : 결혼 과정 문제 여부, 경제적 어려움 여부"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "family",
+        "label": "가족력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "가족력 : 가해자의 어릴 적 가정 폭력 여부"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "female",
+        "label": "여성력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
               "여성력"
             ]
           }
@@ -16403,13 +17289,23 @@
           "• 정신상태 평가 : 우울, 불안, 불면, 식욕저하, 집중력 저하",
           "• 자살 사고, 타살사고",
           "### F (Factor)",
-          "### Background history (외과력)",
+          "### 외과력",
           "#### CC-specific",
           "• 외상력 : 입원/수술",
+          "### 과거력",
+          "#### CC-specific",
           "• 과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
+          "### 약물력",
+          "#### CC-specific",
           "• 약물력",
+          "### 사회력",
+          "#### CC-specific",
           "• 사회력 : 결혼 과정 문제 여부, 경제적 어려움 여부",
+          "### 가족력",
+          "#### CC-specific",
           "• 가족력 : 가해자의 어릴 적 가정 폭력 여부",
+          "### 여성력",
+          "#### CC-specific",
           "• 여성력"
         ]
       },
@@ -16450,7 +17346,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.220Z"
+    "updatedAt": "2026-07-12T03:23:43.278Z"
   },
   {
     "id": "1106",
@@ -16481,10 +17377,14 @@
       "• 호소하는 증상 평가 + 기타 신체 불편한 증상",
       "• 정신상태 평가 : 우울, 불안, 불면, 식욕저하, 집중력 저하",
       "• 자살 사고, 타살 사고 확인",
-      "### Background history (외과력)",
+      "### 외과력",
       "#### CC-specific",
       "• 외상력 : 입원/수술",
+      "### 과거력",
+      "#### CC-specific",
       "• 과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
+      "### 여성력",
+      "#### CC-specific",
       "• 여성력 : 월경력, 피임, 성관계력 (위로)"
     ],
     "historyChecklist": [
@@ -16520,14 +17420,36 @@
         ]
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
             "items": [
-              "외상력 : 입원/수술",
-              "과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
+              "외상력 : 입원/수술"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "past",
+        "label": "과거력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
+              "과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "female",
+        "label": "여성력",
+        "groups": [
+          {
+            "label": "CC-specific",
+            "items": [
               "여성력 : 월경력, 피임, 성관계력 (위로)"
             ]
           }
@@ -16570,10 +17492,14 @@
           "• 호소하는 증상 평가 + 기타 신체 불편한 증상",
           "• 정신상태 평가 : 우울, 불안, 불면, 식욕저하, 집중력 저하",
           "• 자살 사고, 타살 사고 확인",
-          "### Background history (외과력)",
+          "### 외과력",
           "#### CC-specific",
           "• 외상력 : 입원/수술",
+          "### 과거력",
+          "#### CC-specific",
           "• 과거력 : HTN/DM/Hepatitis/Pul.Tb (+cancer, etc.)",
+          "### 여성력",
+          "#### CC-specific",
           "• 여성력 : 월경력, 피임, 성관계력 (위로)"
         ]
       },
@@ -16621,7 +17547,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.262Z"
+    "updatedAt": "2026-07-12T03:23:43.398Z"
   },
   {
     "id": "1107",
@@ -16658,7 +17584,8 @@
       "• 죄책감/자살사고",
       "• 환청, 환시, 조증삽화",
       "• 주변 관계 (family, friend)",
-      "### Background history (외과력)",
+      "### 외과력",
+      "#### CC-specific",
       "• 가족 중 자살 시도의 과거력"
     ],
     "historyChecklist": [
@@ -16700,8 +17627,8 @@
         ]
       },
       {
-        "key": "background",
-        "label": "Background history (외과력)",
+        "key": "surgical",
+        "label": "외과력",
         "groups": [
           {
             "label": "CC-specific",
@@ -16748,7 +17675,8 @@
           "• 죄책감/자살사고",
           "• 환청, 환시, 조증삽화",
           "• 주변 관계 (family, friend)",
-          "### Background history (외과력)",
+          "### 외과력",
+          "#### CC-specific",
           "• 가족 중 자살 시도의 과거력"
         ]
       },
@@ -16781,6 +17709,6 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T02:32:40.288Z"
+    "updatedAt": "2026-07-12T03:23:43.454Z"
   }
 ]

@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { BookOpenText, RotateCcw } from "lucide-react";
+import { BookOpenText, Maximize2, Minimize2, RotateCcw } from "lucide-react";
 import type { ChiefComplaintHistorySlot, ChiefComplaintNote, DiseaseSection, TermLink } from "@/lib/webdb";
 import { ChiefComplaintRecommendationPicker } from "@/components/chief-complaint-recommendation-picker";
 import { RichTextLines } from "@/components/rich-text-lines";
@@ -11,28 +11,33 @@ type ViewKey = "concept" | "outpatient" | "inpatient";
 type CommonHistoryFlow = {
   key: string;
   label: string;
+  shortLabel: string;
   prompt: string;
 };
 
 const COMMON_HISTORY_FLOW: CommonHistoryFlow[] = [
-  { key: "onset", label: "O (Onset)", prompt: "발생 시점과 당시 상황을 확인한다." },
-  { key: "location", label: "L (Location)", prompt: "증상이 발생한 부위 또는 범위를 확인한다." },
-  { key: "duration", label: "D (Duration)", prompt: "한 번 시작하면 얼마나 지속되는지 확인한다." },
-  { key: "course", label: "Co (Course)", prompt: "시간에 따른 증상 변화를 확인한다." },
-  { key: "experienced", label: "Ex (Experienced)", prompt: "과거에도 같은 증상이 있었는지 확인한다." },
-  { key: "character", label: "C (Character)", prompt: "증상의 구체적인 특징, 정도, 양상, 일상생활 영향을 확인한다." },
-  { key: "associated", label: "A (Associated symptoms)", prompt: "관련된 다른 증상을 계통별로 확인한다." },
-  { key: "factor", label: "F (Factor)", prompt: "증상을 악화하거나 완화하는 요인을 확인한다." },
-  { key: "event", label: "E (Event)", prompt: "증상과 관련된 사건, 유발 상황 또는 최근 변화를 확인한다." },
-  {
-    key: "background",
-    label: "Background history",
-    prompt: "외과력, 과거력, 약물력, 사회력, 가족력, 여성력을 확인한다.",
-  },
+  { key: "onset", label: "O (Onset)", shortLabel: "O", prompt: "\uBC1C\uC0DD \uC2DC\uC810\uACFC \uB2F9\uC2DC \uC0C1\uD669\uC744 \uD655\uC778\uD55C\uB2E4." },
+  { key: "location", label: "L (Location)", shortLabel: "L", prompt: "\uC99D\uC0C1\uC774 \uBC1C\uC0DD\uD55C \uBD80\uC704 \uB610\uB294 \uBC94\uC704\uB97C \uD655\uC778\uD55C\uB2E4." },
+  { key: "duration", label: "D (Duration)", shortLabel: "D", prompt: "\uD55C \uBC88 \uC2DC\uC791\uD558\uBA74 \uC5BC\uB9C8\uB098 \uC9C0\uC18D\uB418\uB294\uC9C0 \uD655\uC778\uD55C\uB2E4." },
+  { key: "course", label: "Co (Course)", shortLabel: "Co", prompt: "\uC2DC\uAC04\uC5D0 \uB530\uB978 \uC99D\uC0C1 \uBCC0\uD654\uB97C \uD655\uC778\uD55C\uB2E4." },
+  { key: "experienced", label: "Ex (Experienced)", shortLabel: "Ex", prompt: "\uACFC\uAC70\uC5D0\uB3C4 \uAC19\uC740 \uC99D\uC0C1\uC774 \uC788\uC5C8\uB294\uC9C0 \uD655\uC778\uD55C\uB2E4." },
+  { key: "character", label: "C (Character)", shortLabel: "C", prompt: "\uC99D\uC0C1\uC758 \uAD6C\uCCB4\uC801\uC778 \uD2B9\uC9D5, \uC815\uB3C4, \uC591\uC0C1, \uC77C\uC0C1\uC0DD\uD65C \uC601\uD5A5\uC744 \uD655\uC778\uD55C\uB2E4." },
+  { key: "associated", label: "A (Associated symptoms)", shortLabel: "A", prompt: "\uAD00\uB828\uB41C \uB2E4\uB978 \uC99D\uC0C1\uC744 \uACC4\uD1B5\uBCC4\uB85C \uD655\uC778\uD55C\uB2E4." },
+  { key: "factor", label: "F (Factor)", shortLabel: "F", prompt: "\uC99D\uC0C1\uC744 \uC545\uD654\uD558\uAC70\uB098 \uC644\uD654\uD558\uB294 \uC694\uC778\uC744 \uD655\uC778\uD55C\uB2E4." },
+  { key: "event", label: "E (Event)", shortLabel: "E", prompt: "\uC99D\uC0C1\uACFC \uAD00\uB828\uB41C \uC0AC\uAC74, \uC720\uBC1C \uC0C1\uD669 \uB610\uB294 \uCD5C\uADFC \uBCC0\uD654\uB97C \uD655\uC778\uD55C\uB2E4." },
+  { key: "surgical", label: "\uC678\uACFC\uB825", shortLabel: "\uC678\uACFC\uB825", prompt: "\uC218\uC220, \uC785\uC6D0, \uAC74\uAC15\uAC80\uC9C4\uB825\uC744 \uD655\uC778\uD55C\uB2E4." },
+  { key: "past", label: "\uACFC\uAC70\uB825", shortLabel: "\uACFC\uAC70\uB825", prompt: "\uACFC\uAC70\uB825\uACFC \uD604\uC7AC \uC9C8\uD658\uC744 \uD655\uC778\uD55C\uB2E4." },
+  { key: "medication", label: "\uC57D\uBB3C\uB825", shortLabel: "\uC57D\uBB3C\uB825", prompt: "\uBCF5\uC6A9 \uC911\uC778 \uC57D\uBB3C\uACFC \uCD5C\uADFC \uBCF5\uC6A9 \uC57D\uBB3C\uC744 \uD655\uC778\uD55C\uB2E4." },
+  { key: "social", label: "\uC0AC\uD68C\uB825", shortLabel: "\uC0AC\uD68C\uB825", prompt: "\uC74C\uC8FC, \uD761\uC5F0, \uC0DD\uD65C\uC2B5\uAD00\uACFC \uAD00\uB828 \uD658\uACBD\uC744 \uD655\uC778\uD55C\uB2E4." },
+  { key: "family", label: "\uAC00\uC871\uB825", shortLabel: "\uAC00\uC871\uB825", prompt: "\uAC00\uC871 \uC911 \uC720\uC0AC \uC9C8\uD658\uC774\uB098 \uAD00\uB828 \uC9C8\uD658\uC774 \uC788\uC5C8\uB294\uC9C0 \uD655\uC778\uD55C\uB2E4." },
+  { key: "female", label: "\uC5EC\uC131\uB825", shortLabel: "\uC5EC\uC131\uB825", prompt: "\uC5EC\uC131\uC9C8\uD658, \uC6D4\uACBD\uB825, \uC784\uC2E0\u00B7\uC0B0\uACFC\uB825\uC744 \uD655\uC778\uD55C\uB2E4." },
 ];
+
+const CORE_HISTORY_KEYS = new Set(COMMON_HISTORY_FLOW.slice(0, 9).map((flow) => flow.key));
 
 const HISTORY_EXPANSIONS = [
   ["AVNCD", "Anorexia, Vomiting, Nausea, Constipation, Diarrhea"],
+  ["ANVCD", "Anorexia, Nausea, Vomiting, Constipation, Diarrhea"],
   ["FCCSR", "Fever, Chill, Cough, Sputum, Rhinorrhea"],
   ["HISR", "Hematuria, Incontinence, Hesitancy, Retention"],
   ["FUND", "Frequency, Urgency, Nocturia, Dysuria"],
@@ -55,10 +60,10 @@ function mergeHistoryGroups(slots: ChiefComplaintHistorySlot[], key: string) {
   return slots.filter((slot) => slot.key === key).flatMap((slot) => slot.groups);
 }
 
-function buildHistoryChecklist(note: ChiefComplaintNote): ChiefComplaintHistorySlot[] {
+function buildHistoryChecklist(note: ChiefComplaintNote, compact: boolean): ChiefComplaintHistorySlot[] {
   const sourceSlots = note.historyChecklist ?? [];
   const commonKeys = new Set(COMMON_HISTORY_FLOW.map((flow) => flow.key));
-  const firstCommonIndex = sourceSlots.findIndex((slot) => commonKeys.has(slot.key));
+  const firstCommonIndex = sourceSlots.findIndex((slot) => CORE_HISTORY_KEYS.has(slot.key));
 
   if (firstCommonIndex === -1) {
     return sourceSlots;
@@ -66,9 +71,9 @@ function buildHistoryChecklist(note: ChiefComplaintNote): ChiefComplaintHistoryS
 
   const commonSlots = COMMON_HISTORY_FLOW.map((flow) => ({
     key: flow.key,
-    label: flow.label,
+    label: compact ? flow.shortLabel : flow.label,
     groups: [
-      { label: "Common", items: [flow.prompt] },
+      { label: "Common", items: [compact ? flow.shortLabel : flow.prompt] },
       ...mergeHistoryGroups(sourceSlots, flow.key),
     ],
   }));
@@ -95,7 +100,8 @@ function buildHistoryChecklist(note: ChiefComplaintNote): ChiefComplaintHistoryS
 function HistoryChecklist({ note }: { note: ChiefComplaintNote }) {
   const [checked, setChecked] = useState<Record<string, boolean>>({});
   const [showExpansions, setShowExpansions] = useState(false);
-  const slots = useMemo(() => buildHistoryChecklist(note), [note]);
+  const [compact, setCompact] = useState(false);
+  const slots = useMemo(() => buildHistoryChecklist(note, compact), [note, compact]);
   const items = slots.flatMap((slot) =>
     slot.groups.flatMap((group) => group.items.map((text, index) => ({
       id: slot.key + "-" + group.label + "-" + index,
@@ -105,23 +111,32 @@ function HistoryChecklist({ note }: { note: ChiefComplaintNote }) {
   const checkedCount = items.filter((item) => checked[item.id]).length;
 
   if (items.length === 0) {
-    return <div className="mt-2 text-sm text-slate-400">정리된 Hx 문진 항목이 없습니다.</div>;
+    return <div className="mt-2 text-sm text-slate-400">{"\uC815\uB9AC\uB41C Hx \uBB38\uC9C4 \uD56D\uBAA9\uC774 \uC5C6\uC2B5\uB2C8\uB2E4."}</div>;
   }
 
   return (
     <div className="mt-3 space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-200 pb-3">
         <div className="text-sm text-slate-600">
-          문진 확인 <span className="font-semibold text-slate-950">{checkedCount}</span> / {items.length}
+          {"\uBB38\uC9C4 \uD655\uC778"} <span className="font-semibold text-slate-950">{checkedCount}</span> / {items.length}
         </div>
         <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setCompact((value) => !value)}
+            aria-pressed={compact}
+            className="inline-flex items-center gap-1.5 rounded-md border border-slate-200 px-2.5 py-1.5 text-xs font-medium text-slate-600 transition hover:bg-slate-50 hover:text-slate-950"
+          >
+            {compact ? <Maximize2 size={14} aria-hidden="true" /> : <Minimize2 size={14} aria-hidden="true" />}
+            {compact ? "\uC804\uCCB4 \uBCF4\uAE30" : "\uAC04\uB7B5\uD654"}
+          </button>
           <button
             type="button"
             onClick={() => setShowExpansions((value) => !value)}
             className="inline-flex items-center gap-1.5 rounded-md border border-slate-200 px-2.5 py-1.5 text-xs font-medium text-slate-600 transition hover:bg-slate-50 hover:text-slate-950"
           >
             <BookOpenText size={14} aria-hidden="true" />
-            {showExpansions ? "약어 풀이 숨기기" : "약어 풀이"}
+            {showExpansions ? "\uC57D\uC5B4 \uD480\uC774 \uC228\uAE30\uAE30" : "\uC57D\uC5B4 \uD480\uC774"}
           </button>
           <button
             type="button"
@@ -129,7 +144,7 @@ function HistoryChecklist({ note }: { note: ChiefComplaintNote }) {
             className="inline-flex items-center gap-1.5 rounded-md border border-slate-200 px-2.5 py-1.5 text-xs font-medium text-slate-600 transition hover:bg-slate-50 hover:text-slate-950"
           >
             <RotateCcw size={14} aria-hidden="true" />
-            초기화
+            {"\uCD08\uAE30\uD654"}
           </button>
         </div>
       </div>
@@ -141,7 +156,7 @@ function HistoryChecklist({ note }: { note: ChiefComplaintNote }) {
             <div className="mt-2 divide-y divide-slate-100">
               {slot.groups.map((group) => (
                 <div key={slot.key + "-" + group.label} className="py-2 first:pt-0 last:pb-0">
-                  {group.label !== "CC-specific" && (
+                  {group.label !== "CC-specific" && !compact && (
                     <div className="mb-1 text-xs font-medium uppercase text-slate-500">{group.label}</div>
                   )}
                   {group.items.map((text, index) => {

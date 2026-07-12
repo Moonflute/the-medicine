@@ -491,8 +491,13 @@ function historySlotKey(label) {
   if (/^f\b|factor/.test(normalized)) return "factor";
   if (/^e\b|event/.test(normalized)) return "event";
   if (/^ppi\b/.test(normalized)) return "ppi";
-  if (/background|외과력/.test(normalized)) return "background";
-  if (/female|여성력/.test(normalized)) return "female";
+  if (/외과력|surgical/.test(normalized)) return "surgical";
+  if (/과거력|past/.test(normalized)) return "past";
+  if (/약물력|medication/.test(normalized)) return "medication";
+  if (/사회력|social/.test(normalized)) return "social";
+  if (/가족력|family/.test(normalized)) return "family";
+  if (/여성력|female/.test(normalized)) return "female";
+  if (/background/.test(normalized)) return "surgical";
   if (/cc-specific|assessment|opening/.test(normalized)) return "custom";
 
   return normalized.replace(/[^a-z0-9가-힣]+/g, "-").replace(/^-|-$/g, "") || "custom";
