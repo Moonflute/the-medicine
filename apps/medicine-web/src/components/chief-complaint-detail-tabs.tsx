@@ -193,15 +193,15 @@ type CommonPhysicalExamFlow = {
 };
 
 const COMMON_PHYSICAL_EXAM_FLOW: CommonPhysicalExamFlow[] = [
-  { key: "vitals", label: "V/S", shortLabel: "V/S", prompt: "Measure vital signs." },
-  { key: "eyes", label: "Eyes", shortLabel: "Eyes", prompt: "Inspect the eyes and pupils." },
-  { key: "mouth", label: "Mouth", shortLabel: "Mouth", prompt: "Inspect the oral cavity and pharynx." },
-  { key: "neck", label: "Neck", shortLabel: "Neck", prompt: "Inspect and palpate the neck." },
-  { key: "chest", label: "Chest", shortLabel: "Chest", prompt: "Perform chest inspection, palpation, percussion, and auscultation." },
-  { key: "abdomen", label: "Abdomen", shortLabel: "Abdomen", prompt: "Perform abdominal inspection, auscultation, percussion, and palpation." },
-  { key: "extremities", label: "Extremities", shortLabel: "Extremities", prompt: "Examine the extremities, pulses, and edema." },
-  { key: "skin", label: "Skin", shortLabel: "Skin", prompt: "Inspect and palpate the skin." },
-  { key: "neurologic", label: "Neurologic examination", shortLabel: "Neurologic", prompt: "Perform a focused neurologic examination." },
+  { key: "vitals", label: "V/S", shortLabel: "V/S", prompt: "활력징후를 측정한다." },
+  { key: "eyes", label: "눈", shortLabel: "눈", prompt: "눈과 동공을 관찰한다." },
+  { key: "mouth", label: "구강", shortLabel: "구강", prompt: "구강과 인두를 관찰한다." },
+  { key: "neck", label: "목", shortLabel: "목", prompt: "목을 시진하고 촉진한다." },
+  { key: "chest", label: "흉부", shortLabel: "흉부", prompt: "흉부를 시진, 촉진, 타진, 청진한다." },
+  { key: "abdomen", label: "복부", shortLabel: "복부", prompt: "복부를 시진, 청진, 타진, 촉진한다." },
+  { key: "extremities", label: "사지", shortLabel: "사지", prompt: "사지, 맥박, 부종을 확인한다." },
+  { key: "skin", label: "피부", shortLabel: "피부", prompt: "피부를 시진하고 촉진한다." },
+  { key: "neurologic", label: "신경학적 검사", shortLabel: "신경학적 검사", prompt: "필요한 신경학적 검사를 시행한다." },
 ];
 
 const COMMON_PHYSICAL_EXAM_KEYS = new Set(COMMON_PHYSICAL_EXAM_FLOW.map((flow) => flow.key));

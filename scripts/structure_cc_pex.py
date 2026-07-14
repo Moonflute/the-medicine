@@ -9,15 +9,15 @@ SKIP = {"CC_index.md", "chief_complaints_master.md"}
 
 SLOTS = (
     ("vitals", "V/S"),
-    ("eyes", "Eyes"),
-    ("mouth", "Mouth"),
-    ("neck", "Neck"),
-    ("chest", "Chest"),
-    ("abdomen", "Abdomen"),
-    ("extremities", "Extremities"),
-    ("skin", "Skin"),
-    ("neurologic", "Neurologic examination"),
-    ("special", "Special examination"),
+    ("eyes", "눈"),
+    ("mouth", "구강"),
+    ("neck", "목"),
+    ("chest", "흉부"),
+    ("abdomen", "복부"),
+    ("extremities", "사지"),
+    ("skin", "피부"),
+    ("neurologic", "신경학적 검사"),
+    ("special", "특수 진찰"),
 )
 
 SLOT_LABELS = dict(SLOTS)

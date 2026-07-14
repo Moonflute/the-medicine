@@ -144,7 +144,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -156,7 +156,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -167,8 +167,8 @@
         ]
       },
       {
-        "key": "chest",
-        "label": "Chest",
+        "key": "흉부",
+        "label": "흉부",
         "groups": [
           {
             "label": "CC-specific",
@@ -180,7 +180,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -192,7 +192,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -204,7 +204,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -220,22 +220,22 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Chest",
+      "### 흉부",
       "#### CC-specific",
       "• 흉부 : 심음, 호흡음 청진 (순환기/호흡기 의심 시)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉 (+ Murphy, Courvoisier, Psoas, Obturator)",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 사지 (긴장도, 하지 부종)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• CVAT",
       "• DRE (필요 시)"
@@ -480,22 +480,22 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Chest",
+          "### 흉부",
           "#### CC-specific",
           "• 흉부 : 심음, 호흡음 청진 (순환기/호흡기 의심 시)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉 (+ Murphy, Courvoisier, Psoas, Obturator)",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 사지 (긴장도, 하지 부종)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• CVAT",
           "• DRE (필요 시)"
@@ -562,7 +562,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.707Z"
+    "updatedAt": "2026-07-14T07:40:15.567Z"
   },
   {
     "id": "102",
@@ -688,7 +688,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -700,7 +700,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -712,7 +712,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -724,7 +724,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -736,7 +736,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -752,19 +752,19 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입(혀, 인두)",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(림프절)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타– 촉 (+ Murphy’s sign)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• CVAT (?)",
       "• DRE"
@@ -939,19 +939,19 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입(혀, 인두)",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(림프절)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타– 촉 (+ Murphy’s sign)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• CVAT (?)",
           "• DRE"
@@ -1006,7 +1006,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.908Z"
+    "updatedAt": "2026-07-14T07:40:15.680Z"
   },
   {
     "id": "103",
@@ -1132,7 +1132,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -1144,7 +1144,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -1156,7 +1156,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -1168,7 +1168,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -1180,7 +1180,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -1192,7 +1192,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -1209,22 +1209,22 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(림프절)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 손 (긴장도, Palmar erythema, Flapping tremor)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 흉부 : 시진",
       "• 코",
@@ -1359,22 +1359,22 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(림프절)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 손 (긴장도, Palmar erythema, Flapping tremor)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 흉부 : 시진",
           "• 코",
@@ -1425,7 +1425,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:58.021Z"
+    "updatedAt": "2026-07-14T07:40:15.774Z"
   },
   {
     "id": "104",
@@ -1540,7 +1540,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -1552,7 +1552,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -1564,7 +1564,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -1576,7 +1576,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -1588,7 +1588,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -1600,7 +1600,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -1615,22 +1615,22 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 손 (피부 긴장도)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 하이브리드 : DRE"
     ],
@@ -1774,22 +1774,22 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 손 (피부 긴장도)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 하이브리드 : DRE"
         ]
@@ -1839,7 +1839,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:58.083Z"
+    "updatedAt": "2026-07-14T07:40:15.801Z"
   },
   {
     "id": "105",
@@ -1968,7 +1968,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -1980,7 +1980,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -1992,7 +1992,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -2004,7 +2004,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -2016,7 +2016,7 @@
       },
       {
         "key": "skin",
-        "label": "Skin",
+        "label": "피부",
         "groups": [
           {
             "label": "CC-specific",
@@ -2028,7 +2028,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -2043,22 +2043,22 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(림프절)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉 (← 소화기 증상 시)",
-      "### Skin",
+      "### 피부",
       "#### CC-specific",
       "• 피부(긴장도)",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 뇌신경검사, 수막 자극 징후, 사지검사 (←신경계 증상 시)"
     ],
@@ -2246,22 +2246,22 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(림프절)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉 (← 소화기 증상 시)",
-          "### Skin",
+          "### 피부",
           "#### CC-specific",
           "• 피부(긴장도)",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 뇌신경검사, 수막 자극 징후, 사지검사 (←신경계 증상 시)"
         ]
@@ -2316,7 +2316,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.681Z"
+    "updatedAt": "2026-07-14T07:40:15.559Z"
   },
   {
     "id": "106",
@@ -2443,7 +2443,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -2455,7 +2455,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -2467,7 +2467,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -2479,7 +2479,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -2491,7 +2491,7 @@
       },
       {
         "key": "skin",
-        "label": "Skin",
+        "label": "피부",
         "groups": [
           {
             "label": "CC-specific",
@@ -2503,7 +2503,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -2519,22 +2519,22 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(갑상샘, 림프절)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉",
-      "### Skin",
+      "### 피부",
       "#### CC-specific",
       "• 피부 (긴장도, 부종)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• DRE",
       "• 골반내진"
@@ -2664,22 +2664,22 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(갑상샘, 림프절)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉",
-          "### Skin",
+          "### 피부",
           "#### CC-specific",
           "• 피부 (긴장도, 부종)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• DRE",
           "• 골반내진"
@@ -2727,7 +2727,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.825Z"
+    "updatedAt": "2026-07-14T07:40:15.649Z"
   },
   {
     "id": "107",
@@ -2854,7 +2854,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -2866,7 +2866,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -2878,7 +2878,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -2890,7 +2890,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -2902,7 +2902,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -2914,7 +2914,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -2929,22 +2929,22 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(갑상샘, 림프절)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 사지(피부긴장도, 하지부종)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• DRE (하이브리드 가능)"
     ],
@@ -3095,22 +3095,22 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(갑상샘, 림프절)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 사지(피부긴장도, 하지부종)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• DRE (하이브리드 가능)"
         ]
@@ -3161,7 +3161,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.848Z"
+    "updatedAt": "2026-07-14T07:40:15.664Z"
   },
   {
     "id": "108",
@@ -3292,7 +3292,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -3304,7 +3304,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -3316,7 +3316,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -3328,7 +3328,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -3340,7 +3340,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -3352,7 +3352,7 @@
       },
       {
         "key": "skin",
-        "label": "Skin",
+        "label": "피부",
         "groups": [
           {
             "label": "CC-specific",
@@ -3364,7 +3364,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -3379,25 +3379,25 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(림프절)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 하지 부종",
-      "### Skin",
+      "### 피부",
       "#### CC-specific",
       "• 손 : 피부 긴장도, Palmar erythema, Flapping tremor",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 흉부 : 시진"
     ],
@@ -3544,25 +3544,25 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(림프절)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 하지 부종",
-          "### Skin",
+          "### 피부",
           "#### CC-specific",
           "• 손 : 피부 긴장도, Palmar erythema, Flapping tremor",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 흉부 : 시진"
         ]
@@ -3616,7 +3616,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:58.095Z"
+    "updatedAt": "2026-07-14T07:40:15.811Z"
   },
   {
     "id": "201",
@@ -3748,7 +3748,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -3760,7 +3760,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -3772,8 +3772,8 @@
         ]
       },
       {
-        "key": "chest",
-        "label": "Chest",
+        "key": "흉부",
+        "label": "흉부",
         "groups": [
           {
             "label": "CC-specific",
@@ -3785,7 +3785,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -3797,7 +3797,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -3809,7 +3809,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -3824,23 +3824,23 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(경동맥 청진)",
       "• 경정맥 시진 (JVP)",
-      "### Chest",
+      "### 흉부",
       "#### CC-specific",
       "• 흉부 : 시 – 촉 – 타 – 청 (호흡, 심음)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉 (소화기 증상 시)",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 손목(맥박) 하지 부종",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• PTE 의심 시 Homan’s"
     ],
@@ -3992,23 +3992,23 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(경동맥 청진)",
           "• 경정맥 시진 (JVP)",
-          "### Chest",
+          "### 흉부",
           "#### CC-specific",
           "• 흉부 : 시 – 촉 – 타 – 청 (호흡, 심음)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉 (소화기 증상 시)",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 손목(맥박) 하지 부종",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• PTE 의심 시 Homan’s"
         ]
@@ -4064,7 +4064,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.640Z"
+    "updatedAt": "2026-07-14T07:40:15.525Z"
   },
   {
     "id": "202",
@@ -4188,7 +4188,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -4200,7 +4200,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -4212,7 +4212,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -4224,7 +4224,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -4236,7 +4236,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -4248,7 +4248,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -4262,7 +4262,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -4277,27 +4277,27 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(경동맥 청진)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉 (소화기 의심 시)",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 흉부 : 심음 청진, 맥박 측정 (순환기 의심 시)",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 사지 (근력/감각/DTR)",
       "• 뇌신경검사",
       "• 수막 자극 징후",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 두부 외상 시진"
     ],
@@ -4459,27 +4459,27 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(경동맥 청진)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉 (소화기 의심 시)",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 흉부 : 심음 청진, 맥박 측정 (순환기 의심 시)",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 사지 (근력/감각/DTR)",
           "• 뇌신경검사",
           "• 수막 자극 징후",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 두부 외상 시진"
         ]
@@ -4535,7 +4535,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.920Z"
+    "updatedAt": "2026-07-14T07:40:15.690Z"
   },
   {
     "id": "203",
@@ -4658,7 +4658,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -4670,7 +4670,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -4682,7 +4682,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -4695,7 +4695,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -4707,7 +4707,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -4719,7 +4719,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -4734,23 +4734,23 @@
       "### V/S",
       "#### CC-specific",
       "• V/S 손목 맥박 측정 (15s)",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(경동맥, 갑상샘)",
       "• 경정맥 시진",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉 (소화기 의심 시)",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 하지 부종",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 흉부 : 시 – 촉 – 타 – 청 (호흡기 의심 시 전부, 아니면 청진)"
     ],
@@ -4942,23 +4942,23 @@
           "### V/S",
           "#### CC-specific",
           "• V/S 손목 맥박 측정 (15s)",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(경동맥, 갑상샘)",
           "• 경정맥 시진",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉 (소화기 의심 시)",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 하지 부종",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 흉부 : 시 – 촉 – 타 – 청 (호흡기 의심 시 전부, 아니면 청진)"
         ]
@@ -5014,7 +5014,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.750Z"
+    "updatedAt": "2026-07-14T07:40:15.602Z"
   },
   {
     "id": "204",
@@ -5133,7 +5133,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -5145,7 +5145,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -5156,8 +5156,8 @@
         ]
       },
       {
-        "key": "chest",
-        "label": "Chest",
+        "key": "흉부",
+        "label": "흉부",
         "groups": [
           {
             "label": "CC-specific",
@@ -5169,7 +5169,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -5181,7 +5181,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -5197,19 +5197,19 @@
       "#### CC-specific",
       "• V/S",
       "• 혈압측정 하이브리드 가능",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(경동맥 청진-bell, 갑상샘 촉진)",
-      "### Chest",
+      "### 흉부",
       "#### CC-specific",
       "• 흉부 : 심음 청진",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 (신동맥 잡음)– 타 – 촉 (종괴)",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 사지 (하지부종, 긴장도)"
     ],
@@ -5378,19 +5378,19 @@
           "#### CC-specific",
           "• V/S",
           "• 혈압측정 하이브리드 가능",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(경동맥 청진-bell, 갑상샘 촉진)",
-          "### Chest",
+          "### 흉부",
           "#### CC-specific",
           "• 흉부 : 심음 청진",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 (신동맥 잡음)– 타 – 촉 (종괴)",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 사지 (하지부종, 긴장도)"
         ]
@@ -5443,7 +5443,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.668Z"
+    "updatedAt": "2026-07-14T07:40:15.548Z"
   },
   {
     "id": "205",
@@ -5548,7 +5548,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -5560,7 +5560,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -5571,8 +5571,8 @@
         ]
       },
       {
-        "key": "chest",
-        "label": "Chest",
+        "key": "흉부",
+        "label": "흉부",
         "groups": [
           {
             "label": "CC-specific",
@@ -5584,7 +5584,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -5596,7 +5596,7 @@
       },
       {
         "key": "skin",
-        "label": "Skin",
+        "label": "피부",
         "groups": [
           {
             "label": "CC-specific",
@@ -5611,19 +5611,19 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(갑상샘, 경동맥)",
-      "### Chest",
+      "### 흉부",
       "#### CC-specific",
       "• 흉부 : 심음 청진",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉",
-      "### Skin",
+      "### 피부",
       "#### CC-specific",
       "• 피부 (xanthoma, 부종)"
     ],
@@ -5693,19 +5693,19 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(갑상샘, 경동맥)",
-          "### Chest",
+          "### 흉부",
           "#### CC-specific",
           "• 흉부 : 심음 청진",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉",
-          "### Skin",
+          "### 피부",
           "#### CC-specific",
           "• 피부 (xanthoma, 부종)"
         ]
@@ -5748,7 +5748,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.980Z"
+    "updatedAt": "2026-07-14T07:40:15.740Z"
   },
   {
     "id": "301",
@@ -5880,7 +5880,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -5892,7 +5892,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -5904,7 +5904,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -5915,8 +5915,8 @@
         ]
       },
       {
-        "key": "chest",
-        "label": "Chest",
+        "key": "흉부",
+        "label": "흉부",
         "groups": [
           {
             "label": "CC-specific",
@@ -5928,7 +5928,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -5940,7 +5940,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -5956,22 +5956,22 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(림프절)",
-      "### Chest",
+      "### 흉부",
       "#### CC-specific",
       "• 흉부 : 시 – 촉 – 타 – 청(심음, 호흡음)",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 사지 (곤봉지, 청색증)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 코",
       "• 부비동(압통)"
@@ -6146,22 +6146,22 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(림프절)",
-          "### Chest",
+          "### 흉부",
           "#### CC-specific",
           "• 흉부 : 시 – 촉 – 타 – 청(심음, 호흡음)",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 사지 (곤봉지, 청색증)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 코",
           "• 부비동(압통)"
@@ -6216,7 +6216,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.727Z"
+    "updatedAt": "2026-07-14T07:40:15.581Z"
   },
   {
     "id": "302",
@@ -6364,7 +6364,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -6376,7 +6376,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -6388,7 +6388,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -6400,7 +6400,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -6412,7 +6412,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -6428,19 +6428,19 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(림프절)",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 사지 : 곤봉지, 청색증",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 흉부 : 시 – 촉 – 타 – 청",
       "• 코 부비동(압통)"
@@ -6576,19 +6576,19 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(림프절)",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 사지 : 곤봉지, 청색증",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 흉부 : 시 – 촉 – 타 – 청",
           "• 코 부비동(압통)"
@@ -6639,7 +6639,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:58.015Z"
+    "updatedAt": "2026-07-14T07:40:15.768Z"
   },
   {
     "id": "303",
@@ -6752,7 +6752,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -6764,7 +6764,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -6776,7 +6776,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -6788,7 +6788,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -6800,7 +6800,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -6812,7 +6812,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -6829,22 +6829,22 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(림프절)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉 (혈액응고 의심 시)",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 사지 (출혈, 부종, 곤봉지, 청색증)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 흉부 : 시 – 촉 – 타 – 청",
       "• 코",
@@ -6991,22 +6991,22 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(림프절)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉 (혈액응고 의심 시)",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 사지 (출혈, 부종, 곤봉지, 청색증)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 흉부 : 시 – 촉 – 타 – 청",
           "• 코",
@@ -7056,7 +7056,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.650Z"
+    "updatedAt": "2026-07-14T07:40:15.534Z"
   },
   {
     "id": "304",
@@ -7189,7 +7189,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -7201,7 +7201,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -7213,7 +7213,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -7225,8 +7225,8 @@
         ]
       },
       {
-        "key": "chest",
-        "label": "Chest",
+        "key": "흉부",
+        "label": "흉부",
         "groups": [
           {
             "label": "CC-specific",
@@ -7238,7 +7238,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -7250,7 +7250,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -7265,23 +7265,23 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(갑상샘)",
       "• 심부전 의심 시 경정맥 확장",
-      "### Chest",
+      "### 흉부",
       "#### CC-specific",
       "• 흉부 : 시 - 촉 - 타 - 청 (심음, 호흡음)",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 사지 (곤봉지, 하지 부종, 청색증)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• Homan’s sign (PTE 의심 시)"
     ],
@@ -7470,23 +7470,23 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(갑상샘)",
           "• 심부전 의심 시 경정맥 확장",
-          "### Chest",
+          "### 흉부",
           "#### CC-specific",
           "• 흉부 : 시 - 촉 - 타 - 청 (심음, 호흡음)",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 사지 (곤봉지, 하지 부종, 청색증)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• Homan’s sign (PTE 의심 시)"
         ]
@@ -7542,7 +7542,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:58.089Z"
+    "updatedAt": "2026-07-14T07:40:15.807Z"
   },
   {
     "id": "401",
@@ -7674,7 +7674,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -7686,7 +7686,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -7697,8 +7697,8 @@
         ]
       },
       {
-        "key": "chest",
-        "label": "Chest",
+        "key": "흉부",
+        "label": "흉부",
         "groups": [
           {
             "label": "CC-specific",
@@ -7710,7 +7710,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -7722,7 +7722,7 @@
       },
       {
         "key": "skin",
-        "label": "Skin",
+        "label": "피부",
         "groups": [
           {
             "label": "CC-specific",
@@ -7737,19 +7737,19 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈(빈혈, 시야검사)",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Chest",
+      "### 흉부",
       "#### CC-specific",
       "• (탈수 증상 시 호흡음, 심음 청진)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉 + 신동맥 bruit, 방광 비대",
-      "### Skin",
+      "### 피부",
       "#### CC-specific",
       "• 피부 (긴장도, 부종) CVAT"
     ],
@@ -7883,19 +7883,19 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈(빈혈, 시야검사)",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Chest",
+          "### 흉부",
           "#### CC-specific",
           "• (탈수 증상 시 호흡음, 심음 청진)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉 + 신동맥 bruit, 방광 비대",
-          "### Skin",
+          "### 피부",
           "#### CC-specific",
           "• 피부 (긴장도, 부종) CVAT"
         ]
@@ -7943,7 +7943,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.735Z"
+    "updatedAt": "2026-07-14T07:40:15.597Z"
   },
   {
     "id": "402",
@@ -8064,7 +8064,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -8076,7 +8076,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -8087,8 +8087,8 @@
         ]
       },
       {
-        "key": "chest",
-        "label": "Chest",
+        "key": "흉부",
+        "label": "흉부",
         "groups": [
           {
             "label": "CC-specific",
@@ -8100,7 +8100,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -8112,7 +8112,7 @@
       },
       {
         "key": "skin",
-        "label": "Skin",
+        "label": "피부",
         "groups": [
           {
             "label": "CC-specific",
@@ -8127,19 +8127,19 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈(빈혈)",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Chest",
+      "### 흉부",
       "#### CC-specific",
       "• 흉부 : 호흡음, 심음 청진",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉 + 신동맥 bruit, 방광 비대 + DRE (남자인 경우)",
-      "### Skin",
+      "### 피부",
       "#### CC-specific",
       "• 피부 부종 CVAT"
     ],
@@ -8317,19 +8317,19 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈(빈혈)",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Chest",
+          "### 흉부",
           "#### CC-specific",
           "• 흉부 : 호흡음, 심음 청진",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉 + 신동맥 bruit, 방광 비대 + DRE (남자인 경우)",
-          "### Skin",
+          "### 피부",
           "#### CC-specific",
           "• 피부 부종 CVAT"
         ]
@@ -8383,7 +8383,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:58.053Z"
+    "updatedAt": "2026-07-14T07:40:15.788Z"
   },
   {
     "id": "403",
@@ -8513,7 +8513,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -8525,7 +8525,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -8537,7 +8537,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -8549,7 +8549,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -8561,7 +8561,7 @@
       },
       {
         "key": "skin",
-        "label": "Skin",
+        "label": "피부",
         "groups": [
           {
             "label": "CC-specific",
@@ -8573,7 +8573,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -8588,22 +8588,22 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입(출혈 경향)",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(림프절)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉 + DRE (남자면 필수)",
-      "### Skin",
+      "### 피부",
       "#### CC-specific",
       "• 피부(긴장도, 부종) CVAT",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 외성기 진찰 (증상 있는 경우)"
     ],
@@ -8759,22 +8759,22 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입(출혈 경향)",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(림프절)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉 + DRE (남자면 필수)",
-          "### Skin",
+          "### 피부",
           "#### CC-specific",
           "• 피부(긴장도, 부종) CVAT",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 외성기 진찰 (증상 있는 경우)"
         ]
@@ -8826,7 +8826,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:58.078Z"
+    "updatedAt": "2026-07-14T07:40:15.797Z"
   },
   {
     "id": "404",
@@ -8924,7 +8924,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -8936,7 +8936,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -8948,7 +8948,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -8960,7 +8960,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -8972,7 +8972,7 @@
       },
       {
         "key": "skin",
-        "label": "Skin",
+        "label": "피부",
         "groups": [
           {
             "label": "CC-specific",
@@ -8987,19 +8987,19 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉 + DRE",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 사지 검사?",
-      "### Skin",
+      "### 피부",
       "#### CC-specific",
       "• 피부 (부종, 긴장도) CVAT"
     ],
@@ -9170,19 +9170,19 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉 + DRE",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 사지 검사?",
-          "### Skin",
+          "### 피부",
           "#### CC-specific",
           "• 피부 (부종, 긴장도) CVAT"
         ]
@@ -9234,7 +9234,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.819Z"
+    "updatedAt": "2026-07-14T07:40:15.643Z"
   },
   {
     "id": "405",
@@ -9336,7 +9336,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -9348,7 +9348,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -9360,7 +9360,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -9372,7 +9372,7 @@
       },
       {
         "key": "skin",
-        "label": "Skin",
+        "label": "피부",
         "groups": [
           {
             "label": "CC-specific",
@@ -9384,7 +9384,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -9399,19 +9399,19 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉 + DRE",
-      "### Skin",
+      "### 피부",
       "#### CC-specific",
       "• 피부 (긴장도, 부종) CVAT",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 사지 검사 (신경인성)"
     ],
@@ -9486,19 +9486,19 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉 + DRE",
-          "### Skin",
+          "### 피부",
           "#### CC-specific",
           "• 피부 (긴장도, 부종) CVAT",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 사지 검사 (신경인성)"
         ]
@@ -9538,7 +9538,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.936Z"
+    "updatedAt": "2026-07-14T07:40:15.703Z"
   },
   {
     "id": "501",
@@ -9661,7 +9661,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -9673,7 +9673,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -9685,7 +9685,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -9697,7 +9697,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -9709,7 +9709,7 @@
       },
       {
         "key": "skin",
-        "label": "Skin",
+        "label": "피부",
         "groups": [
           {
             "label": "CC-specific",
@@ -9721,7 +9721,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -9733,7 +9733,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -9750,25 +9750,25 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(림프절)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉 (소화기 증상 시)",
-      "### Skin",
+      "### 피부",
       "#### CC-specific",
       "• 피부(발진, 물림 확인, 긴장도, 부종),",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 뇌신경검사, 사지검사, 수막 자극 징후 (신경계 의심 시)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 흉부 : 시 – 촉 – 타 – 청 (호흡기 증상 시)",
       "• CVAT (비뇨기 증상 시)",
@@ -9935,25 +9935,25 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(림프절)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉 (소화기 증상 시)",
-          "### Skin",
+          "### 피부",
           "#### CC-specific",
           "• 피부(발진, 물림 확인, 긴장도, 부종),",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 뇌신경검사, 사지검사, 수막 자극 징후 (신경계 의심 시)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 흉부 : 시 – 촉 – 타 – 청 (호흡기 증상 시)",
           "• CVAT (비뇨기 증상 시)",
@@ -10007,7 +10007,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.810Z"
+    "updatedAt": "2026-07-14T07:40:15.638Z"
   },
   {
     "id": "502",
@@ -10150,7 +10150,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -10162,7 +10162,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -10174,7 +10174,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -10186,7 +10186,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -10198,7 +10198,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -10210,7 +10210,7 @@
       },
       {
         "key": "skin",
-        "label": "Skin",
+        "label": "피부",
         "groups": [
           {
             "label": "CC-specific",
@@ -10222,7 +10222,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -10237,25 +10237,25 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(림프절)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 팔다리(시진, 관절, 눌러보기, 겨드랑이 림프절)",
-      "### Skin",
+      "### 피부",
       "#### CC-specific",
       "• 피부 (부종, 긴장도)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 흉부 (← 호흡기 증상 시)"
     ],
@@ -10447,25 +10447,25 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(림프절)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 팔다리(시진, 관절, 눌러보기, 겨드랑이 림프절)",
-          "### Skin",
+          "### 피부",
           "#### CC-specific",
           "• 피부 (부종, 긴장도)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 흉부 (← 호흡기 증상 시)"
         ]
@@ -10519,7 +10519,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.773Z"
+    "updatedAt": "2026-07-14T07:40:15.618Z"
   },
   {
     "id": "503",
@@ -10648,7 +10648,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -10660,7 +10660,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -10672,7 +10672,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -10685,7 +10685,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -10697,7 +10697,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -10709,7 +10709,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -10724,23 +10724,23 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(갑상선, 림프절)",
       "• 피부 (겨드랑이 림프절 for 만성 피로증후군)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉 (필요시)",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 사지 : 하지 부종",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 흉부 : 시 – 촉 – 타 – 청 (필요시)"
     ],
@@ -10925,23 +10925,23 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(갑상선, 림프절)",
           "• 피부 (겨드랑이 림프절 for 만성 피로증후군)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉 (필요시)",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 사지 : 하지 부종",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 흉부 : 시 – 촉 – 타 – 청 (필요시)"
         ]
@@ -10995,7 +10995,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:58.030Z"
+    "updatedAt": "2026-07-14T07:40:15.779Z"
   },
   {
     "id": "504",
@@ -11110,7 +11110,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -11122,7 +11122,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -11134,7 +11134,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -11145,8 +11145,8 @@
         ]
       },
       {
-        "key": "chest",
-        "label": "Chest",
+        "key": "흉부",
+        "label": "흉부",
         "groups": [
           {
             "label": "CC-specific",
@@ -11158,7 +11158,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -11170,7 +11170,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -11182,7 +11182,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -11197,25 +11197,25 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(갑상샘, 림프절)",
-      "### Chest",
+      "### 흉부",
       "#### CC-specific",
       "• 흉부 : 심음, 호흡음",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 사지 (긴장도)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• BMI"
     ],
@@ -11392,25 +11392,25 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(갑상샘, 림프절)",
-          "### Chest",
+          "### 흉부",
           "#### CC-specific",
           "• 흉부 : 심음, 호흡음",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 사지 (긴장도)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• BMI"
         ]
@@ -11464,7 +11464,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:58.003Z"
+    "updatedAt": "2026-07-14T07:40:15.759Z"
   },
   {
     "id": "505",
@@ -11581,7 +11581,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -11593,7 +11593,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -11605,7 +11605,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -11616,8 +11616,8 @@
         ]
       },
       {
-        "key": "chest",
-        "label": "Chest",
+        "key": "흉부",
+        "label": "흉부",
         "groups": [
           {
             "label": "CC-specific",
@@ -11629,7 +11629,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -11641,7 +11641,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -11656,22 +11656,22 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(갑상샘)",
-      "### Chest",
+      "### 흉부",
       "#### CC-specific",
       "• 흉부 : 호흡음, 심음 청진",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 사지(부종)"
     ],
@@ -11817,22 +11817,22 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(갑상샘)",
-          "### Chest",
+          "### 흉부",
           "#### CC-specific",
           "• 흉부 : 호흡음, 심음 청진",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 사지(부종)"
         ]
@@ -11886,7 +11886,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:58.008Z"
+    "updatedAt": "2026-07-14T07:40:15.764Z"
   },
   {
     "id": "601",
@@ -11989,7 +11989,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -12001,7 +12001,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -12012,8 +12012,8 @@
         ]
       },
       {
-        "key": "chest",
-        "label": "Chest",
+        "key": "흉부",
+        "label": "흉부",
         "groups": [
           {
             "label": "CC-specific",
@@ -12025,7 +12025,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -12037,7 +12037,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -12055,19 +12055,19 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈(포도막염)",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입(궤양)",
-      "### Chest",
+      "### 흉부",
       "#### CC-specific",
       "• 흉부 : 호흡음, 심음 (류마티스 의심 시)",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 허리 : Schober, SLRT, Patrick",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 관절 : 시 - 촉 - 타 - 청 - 운동검사",
       "• 무릎 : Valgus, Varus, Macmurray, Drawer",
@@ -12305,19 +12305,19 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈(포도막염)",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입(궤양)",
-          "### Chest",
+          "### 흉부",
           "#### CC-specific",
           "• 흉부 : 호흡음, 심음 (류마티스 의심 시)",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 허리 : Schober, SLRT, Patrick",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 관절 : 시 - 촉 - 타 - 청 - 운동검사",
           "• 무릎 : Valgus, Varus, Macmurray, Drawer",
@@ -12389,7 +12389,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.674Z"
+    "updatedAt": "2026-07-14T07:40:15.554Z"
   },
   {
     "id": "602",
@@ -12498,7 +12498,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -12512,7 +12512,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -12527,12 +12527,12 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 상지 : 감각, 근력, DTR",
       "• Spurling test, Lhermitte sign",
       "• 수막 자극 징후",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 통증 부위 시진, 촉진, ROM (앞뒤 좌우 돌리기)"
     ],
@@ -12656,12 +12656,12 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 상지 : 감각, 근력, DTR",
           "• Spurling test, Lhermitte sign",
           "• 수막 자극 징후",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 통증 부위 시진, 촉진, ROM (앞뒤 좌우 돌리기)"
         ]
@@ -12713,7 +12713,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.780Z"
+    "updatedAt": "2026-07-14T07:40:15.622Z"
   },
   {
     "id": "603",
@@ -12818,7 +12818,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -12830,7 +12830,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -12843,7 +12843,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -12858,14 +12858,14 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 말초동맥 맥박 촉진",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 하지 : 감각, 근력, DTR, tip-toe gait",
       "• SLRT test, Patrick test, Schober test",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 통증 부위 시진, 촉진, ROM, 걸음 시진"
     ],
@@ -12947,14 +12947,14 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 말초동맥 맥박 촉진",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 하지 : 감각, 근력, DTR, tip-toe gait",
           "• SLRT test, Patrick test, Schober test",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 통증 부위 시진, 촉진, ROM, 걸음 시진"
         ]
@@ -13002,7 +13002,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:58.072Z"
+    "updatedAt": "2026-07-14T07:40:15.793Z"
   },
   {
     "id": "604",
@@ -13122,7 +13122,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -13134,7 +13134,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -13146,7 +13146,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -13158,7 +13158,7 @@
       },
       {
         "key": "skin",
-        "label": "Skin",
+        "label": "피부",
         "groups": [
           {
             "label": "CC-specific",
@@ -13170,7 +13170,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -13186,19 +13186,19 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(림프절)",
-      "### Skin",
+      "### 피부",
       "#### CC-specific",
       "• 피부 : 시 - 촉 (+ 피부묘기증, 니콜스키 징후)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 흉부 : 시 – 촉 – 타 – 청 (류마티스 질환 의심 시)",
       "• 다른 부위 시진"
@@ -13352,19 +13352,19 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(림프절)",
-          "### Skin",
+          "### 피부",
           "#### CC-specific",
           "• 피부 : 시 - 촉 (+ 피부묘기증, 니콜스키 징후)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 흉부 : 시 – 촉 – 타 – 청 (류마티스 질환 의심 시)",
           "• 다른 부위 시진"
@@ -13421,7 +13421,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:58.037Z"
+    "updatedAt": "2026-07-14T07:40:15.784Z"
   },
   {
     "id": "701",
@@ -13551,7 +13551,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -13563,7 +13563,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -13574,8 +13574,8 @@
         ]
       },
       {
-        "key": "chest",
-        "label": "Chest",
+        "key": "흉부",
+        "label": "흉부",
         "groups": [
           {
             "label": "CC-specific",
@@ -13587,7 +13587,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -13599,7 +13599,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -13614,19 +13614,19 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(갑상샘)",
-      "### Chest",
+      "### 흉부",
       "#### CC-specific",
       "• 흉부 : 심음, 호흡음 청진",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 하지 부종",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 팔다리 : 감각/근력/DTR"
     ],
@@ -13762,19 +13762,19 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(갑상샘)",
-          "### Chest",
+          "### 흉부",
           "#### CC-specific",
           "• 흉부 : 심음, 호흡음 청진",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 하지 부종",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 팔다리 : 감각/근력/DTR"
         ]
@@ -13826,7 +13826,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.715Z"
+    "updatedAt": "2026-07-14T07:40:15.571Z"
   },
   {
     "id": "702",
@@ -13947,7 +13947,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -13959,7 +13959,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -13971,8 +13971,8 @@
         ]
       },
       {
-        "key": "chest",
-        "label": "Chest",
+        "key": "흉부",
+        "label": "흉부",
         "groups": [
           {
             "label": "CC-specific",
@@ -13984,7 +13984,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -13999,17 +13999,17 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈(빈혈, 안구 돌출)",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목",
       "• (갑상샘),",
-      "### Chest",
+      "### 흉부",
       "#### CC-specific",
       "• 흉부 : 심음, 호흡음 청진",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 손 (맥박 촉진, 손떨림), 하지 부종"
     ],
@@ -14186,17 +14186,17 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈(빈혈, 안구 돌출)",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목",
           "• (갑상샘),",
-          "### Chest",
+          "### 흉부",
           "#### CC-specific",
           "• 흉부 : 심음, 호흡음 청진",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 손 (맥박 촉진, 손떨림), 하지 부종"
         ]
@@ -14262,7 +14262,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.833Z"
+    "updatedAt": "2026-07-14T07:40:15.653Z"
   },
   {
     "id": "703",
@@ -14377,7 +14377,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -14389,7 +14389,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -14401,7 +14401,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -14413,7 +14413,7 @@
       },
       {
         "key": "skin",
-        "label": "Skin",
+        "label": "피부",
         "groups": [
           {
             "label": "CC-specific",
@@ -14425,7 +14425,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -14440,19 +14440,19 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(갑상샘)",
-      "### Skin",
+      "### 피부",
       "#### CC-specific",
       "• 피부 (부종)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 흉부 : 시 - 촉 – 타 – 청"
     ],
@@ -14578,19 +14578,19 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(갑상샘)",
-          "### Skin",
+          "### 피부",
           "#### CC-specific",
           "• 피부 (부종)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 흉부 : 시 - 촉 – 타 – 청"
         ]
@@ -14644,7 +14644,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.914Z"
+    "updatedAt": "2026-07-14T07:40:15.685Z"
   },
   {
     "id": "704",
@@ -14769,7 +14769,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -14785,7 +14785,7 @@
       "### V/S",
       "#### CC-specific",
       "• V/S 간이 MMSE",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 뇌신경검사, 목(갑상샘), 손 (tremor)",
       "• 사지 검사, 보행 검사"
@@ -14913,7 +14913,7 @@
           "### V/S",
           "#### CC-specific",
           "• V/S 간이 MMSE",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 뇌신경검사, 목(갑상샘), 손 (tremor)",
           "• 사지 검사, 보행 검사"
@@ -14968,7 +14968,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.722Z"
+    "updatedAt": "2026-07-14T07:40:15.576Z"
   },
   {
     "id": "801",
@@ -15101,7 +15101,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -15114,7 +15114,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -15126,7 +15126,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -15138,7 +15138,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -15152,7 +15152,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -15168,22 +15168,22 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
       "• (안진)",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 여유 있으면 팔다리 감각검사",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 뇌신경검사 (동공 반사, 안구 운동, 얼굴 감각, 얼굴 운동)",
       "• 소뇌기능검사",
       "• Dix-Hallpike (BPPV 의심 시)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• (Head impulse)",
       "• 청력검사 (Rinne, Weber) - 메니에르 의심 시"
@@ -15337,22 +15337,22 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
           "• (안진)",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 여유 있으면 팔다리 감각검사",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 뇌신경검사 (동공 반사, 안구 운동, 얼굴 감각, 얼굴 운동)",
           "• 소뇌기능검사",
           "• Dix-Hallpike (BPPV 의심 시)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• (Head impulse)",
           "• 청력검사 (Rinne, Weber) - 메니에르 의심 시"
@@ -15407,7 +15407,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.925Z"
+    "updatedAt": "2026-07-14T07:40:15.695Z"
   },
   {
     "id": "802",
@@ -15527,7 +15527,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -15539,7 +15539,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -15553,7 +15553,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -15569,15 +15569,15 @@
       "### V/S",
       "#### CC-specific",
       "• V/S 두경부 (외상 시진, temporal artery)",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 뇌신경검사 : 동공 반사, 안구 운동, 얼굴 감각, 얼굴 운동",
       "• 소뇌기능검사 / 팔다리검사 (중추성 의심시)",
       "• 수막 자극 징후 (열이 있는 경우만)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• (충혈,",
       "• 물, 안검하수)"
@@ -15707,15 +15707,15 @@
           "### V/S",
           "#### CC-specific",
           "• V/S 두경부 (외상 시진, temporal artery)",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 뇌신경검사 : 동공 반사, 안구 운동, 얼굴 감각, 얼굴 운동",
           "• 소뇌기능검사 / 팔다리검사 (중추성 의심시)",
           "• 수막 자극 징후 (열이 있는 경우만)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• (충혈,",
           "• 물, 안검하수)"
@@ -15770,7 +15770,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.759Z"
+    "updatedAt": "2026-07-14T07:40:15.608Z"
   },
   {
     "id": "803",
@@ -15900,7 +15900,7 @@
     "examChecklist": [
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -15912,7 +15912,7 @@
       }
     ],
     "exam": [
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 소아는 신체진찰 하지 않음"
     ],
@@ -16024,7 +16024,7 @@
       {
         "title": "PEx",
         "content": [
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 소아는 신체진찰 하지 않음"
         ]
@@ -16068,7 +16068,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:13:25.626Z"
+    "updatedAt": "2026-07-14T07:40:15.543Z"
   },
   {
     "id": "804",
@@ -16186,7 +16186,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -16198,7 +16198,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -16210,7 +16210,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -16225,7 +16225,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -16240,19 +16240,19 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 사지 감각, 운동, DTR",
       "• 뇌신경검사",
       "• 소뇌기능검사",
       "• 수막자극 징후",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 두부외상 시진"
     ],
@@ -16357,19 +16357,19 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 사지 감각, 운동, DTR",
           "• 뇌신경검사",
           "• 소뇌기능검사",
           "• 수막자극 징후",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 두부외상 시진"
         ]
@@ -16411,7 +16411,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.655Z"
+    "updatedAt": "2026-07-14T07:40:15.538Z"
   },
   {
     "id": "805",
@@ -16542,7 +16542,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -16559,7 +16559,7 @@
       "### V/S",
       "#### CC-specific",
       "• V/S (눈) 갑상샘",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 뇌신경검사 소뇌기능검사 사지검사",
       "• Spurling's test / SLRT, Patrick test (증상 시)",
@@ -16750,7 +16750,7 @@
           "### V/S",
           "#### CC-specific",
           "• V/S (눈) 갑상샘",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 뇌신경검사 소뇌기능검사 사지검사",
           "• Spurling's test / SLRT, Patrick test (증상 시)",
@@ -16816,7 +16816,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.688Z"
+    "updatedAt": "2026-07-14T07:40:15.563Z"
   },
   {
     "id": "806",
@@ -16975,7 +16975,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -16987,7 +16987,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -17000,7 +17000,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -17011,8 +17011,8 @@
         ]
       },
       {
-        "key": "chest",
-        "label": "Chest",
+        "key": "흉부",
+        "label": "흉부",
         "groups": [
           {
             "label": "CC-specific",
@@ -17024,7 +17024,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -17036,7 +17036,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -17048,7 +17048,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -17061,7 +17061,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -17076,30 +17076,30 @@
       "### V/S",
       "#### CC-specific",
       "• V/S 두경부 시진",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈(동공반사)",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
       "• (탈수, 호흡 양상, 날숨 냄새, Gag reflex)",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목",
-      "### Chest",
+      "### 흉부",
       "#### CC-specific",
       "• 흉부 : 심음, 호흡음",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 간비장 타진, 복수, 간비장 촉진 (간성 혼수 의심 시)",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 피부 : 긴장도, 하지 부종",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 사지 : 근긴장도, DTR, 바빈스키 징후",
       "• 수막 자극 징후",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• (경동맥 청진)"
     ],
@@ -17334,30 +17334,30 @@
           "### V/S",
           "#### CC-specific",
           "• V/S 두경부 시진",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈(동공반사)",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
           "• (탈수, 호흡 양상, 날숨 냄새, Gag reflex)",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목",
-          "### Chest",
+          "### 흉부",
           "#### CC-specific",
           "• 흉부 : 심음, 호흡음",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 간비장 타진, 복수, 간비장 촉진 (간성 혼수 의심 시)",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 피부 : 긴장도, 하지 부종",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 사지 : 근긴장도, DTR, 바빈스키 징후",
           "• 수막 자극 징후",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• (경동맥 청진)"
         ]
@@ -17435,7 +17435,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.974Z"
+    "updatedAt": "2026-07-14T07:40:15.734Z"
   },
   {
     "id": "807",
@@ -17529,7 +17529,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -17541,7 +17541,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -17553,7 +17553,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -17566,7 +17566,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -17582,17 +17582,17 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(갑상샘)",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 소뇌기능검사 → 뭔가 있으면 사지검사",
       "• 얼굴에 떨림이 있으면 뇌신경검사",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 떨림 관찰 (resting/postural/action/intention)",
       "• 파킨슨 신체검사 – rigidity 확인"
@@ -17727,17 +17727,17 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(갑상샘)",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 소뇌기능검사 → 뭔가 있으면 사지검사",
           "• 얼굴에 떨림이 있으면 뇌신경검사",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 떨림 관찰 (resting/postural/action/intention)",
           "• 파킨슨 신체검사 – rigidity 확인"
@@ -17804,7 +17804,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.766Z"
+    "updatedAt": "2026-07-14T07:40:15.613Z"
   },
   {
     "id": "901",
@@ -17915,7 +17915,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -17930,7 +17930,7 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 하이브리드 : 유방진찰"
     ],
@@ -18106,7 +18106,7 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 하이브리드 : 유방진찰"
         ]
@@ -18162,7 +18162,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.960Z"
+    "updatedAt": "2026-07-14T07:40:15.725Z"
   },
   {
     "id": "902",
@@ -18273,7 +18273,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -18288,7 +18288,7 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 하이브리드 : 유방진찰"
     ],
@@ -18464,7 +18464,7 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 하이브리드 : 유방진찰"
         ]
@@ -18520,7 +18520,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.954Z"
+    "updatedAt": "2026-07-14T07:40:15.720Z"
   },
   {
     "id": "903",
@@ -18629,7 +18629,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -18641,7 +18641,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -18653,7 +18653,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -18665,7 +18665,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -18677,7 +18677,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -18694,19 +18694,19 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 진찰",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 사지",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• ,",
       "• CVAT",
@@ -18808,19 +18808,19 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 진찰",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 사지",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• ,",
           "• CVAT",
@@ -18866,7 +18866,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.991Z"
+    "updatedAt": "2026-07-14T07:40:15.749Z"
   },
   {
     "id": "904",
@@ -18974,7 +18974,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -18986,7 +18986,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -18998,7 +18998,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -19010,7 +19010,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -19022,7 +19022,7 @@
       },
       {
         "key": "skin",
-        "label": "Skin",
+        "label": "피부",
         "groups": [
           {
             "label": "CC-specific",
@@ -19034,7 +19034,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -19049,22 +19049,22 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(갑상샘)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉",
-      "### Skin",
+      "### 피부",
       "#### CC-specific",
       "• 피부",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 하이브리드 : wet/pap smear"
     ],
@@ -19180,22 +19180,22 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(갑상샘)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉",
-          "### Skin",
+          "### 피부",
           "#### CC-specific",
           "• 피부",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 하이브리드 : wet/pap smear"
         ]
@@ -19243,7 +19243,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.997Z"
+    "updatedAt": "2026-07-14T07:40:15.753Z"
   },
   {
     "id": "905",
@@ -19357,7 +19357,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -19369,7 +19369,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -19381,7 +19381,7 @@
       },
       {
         "key": "neck",
-        "label": "Neck",
+        "label": "목",
         "groups": [
           {
             "label": "CC-specific",
@@ -19393,7 +19393,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -19405,7 +19405,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -19420,19 +19420,19 @@
       "### V/S",
       "#### CC-specific",
       "• V/S prolactimona 의심 시 시야검사",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Neck",
+      "### 목",
       "#### CC-specific",
       "• 목(갑상샘)",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 사지(긴장도) 피부(다모증, 여드름 등..)"
     ],
@@ -19574,19 +19574,19 @@
           "### V/S",
           "#### CC-specific",
           "• V/S prolactimona 의심 시 시야검사",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Neck",
+          "### 목",
           "#### CC-specific",
           "• 목(갑상샘)",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 사지(긴장도) 피부(다모증, 여드름 등..)"
         ]
@@ -19638,7 +19638,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.941Z"
+    "updatedAt": "2026-07-14T07:40:15.710Z"
   },
   {
     "id": "906",
@@ -19766,7 +19766,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -19778,7 +19778,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -19790,7 +19790,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -19802,7 +19802,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -19818,16 +19818,16 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 흉부 : 시 – 촉 – 타 – 청",
       "• 골반 내진 시행 (for 자궁내막증)"
@@ -19934,16 +19934,16 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 흉부 : 시 – 촉 – 타 – 청",
           "• 골반 내진 시행 (for 자궁내막증)"
@@ -19984,7 +19984,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.949Z"
+    "updatedAt": "2026-07-14T07:40:15.715Z"
   },
   {
     "id": "907",
@@ -20112,7 +20112,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -20125,7 +20125,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -20137,7 +20137,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -20149,7 +20149,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -20165,17 +20165,17 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
       "• 목(갑상샘, 전자간증 의심 시 시야검사)",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 – 청 – 타 – 촉",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 흉부 : 시 – 촉 – 타 – 청",
       "• ⭐ 임상 술기 : 산전진찰 ⭐"
@@ -20309,17 +20309,17 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
           "• 목(갑상샘, 전자간증 의심 시 시야검사)",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 – 청 – 타 – 촉",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 흉부 : 시 – 촉 – 타 – 청",
           "• ⭐ 임상 술기 : 산전진찰 ⭐"
@@ -20370,7 +20370,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.840Z"
+    "updatedAt": "2026-07-14T07:40:15.659Z"
   },
   {
     "id": "1001",
@@ -20483,7 +20483,7 @@
     "examChecklist": [
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -20495,7 +20495,7 @@
       }
     ],
     "exam": [
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 시행하지 않음"
     ],
@@ -20608,7 +20608,7 @@
       {
         "title": "PEx",
         "content": [
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 시행하지 않음"
         ]
@@ -20659,7 +20659,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:13:25.657Z"
+    "updatedAt": "2026-07-14T07:40:15.668Z"
   },
   {
     "id": "1002",
@@ -20788,7 +20788,7 @@
     "examChecklist": [
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -20800,7 +20800,7 @@
       }
     ],
     "exam": [
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 시행하지 않음"
     ],
@@ -20960,7 +20960,7 @@
       {
         "title": "PEx",
         "content": [
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 시행하지 않음"
         ]
@@ -21012,7 +21012,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:13:25.646Z"
+    "updatedAt": "2026-07-14T07:40:15.633Z"
   },
   {
     "id": "1003",
@@ -21077,7 +21077,7 @@
     "examChecklist": [
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -21089,7 +21089,7 @@
       }
     ],
     "exam": [
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 신체진찰 없음"
     ],
@@ -21132,7 +21132,7 @@
       {
         "title": "PEx",
         "content": [
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 신체진찰 없음"
         ]
@@ -21172,7 +21172,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.931Z"
+    "updatedAt": "2026-07-14T07:40:15.699Z"
   },
   {
     "id": "1101",
@@ -21373,7 +21373,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -21385,7 +21385,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -21397,7 +21397,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -21409,7 +21409,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -21426,16 +21426,16 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 손(angioma, flapping tremor), 복부 (시 촉 전도만)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• , 흉부 (청진)",
       "• : 생략될 수 있음",
@@ -21512,16 +21512,16 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 손(angioma, flapping tremor), 복부 (시 촉 전도만)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• , 흉부 (청진)",
           "• : 생략될 수 있음",
@@ -21563,7 +21563,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.967Z"
+    "updatedAt": "2026-07-14T07:40:15.729Z"
   },
   {
     "id": "1102",
@@ -21765,7 +21765,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -21777,7 +21777,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -21789,7 +21789,7 @@
       },
       {
         "key": "extremities",
-        "label": "Extremities",
+        "label": "사지",
         "groups": [
           {
             "label": "CC-specific",
@@ -21801,7 +21801,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -21818,16 +21818,16 @@
       "### V/S",
       "#### CC-specific",
       "• V/S",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Extremities",
+      "### 사지",
       "#### CC-specific",
       "• 손(angioma, flapping tremor), 복부 (시 촉 전도만)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• , 흉부 (청진)",
       "• : 생략될 수 있음",
@@ -21904,16 +21904,16 @@
           "### V/S",
           "#### CC-specific",
           "• V/S",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Extremities",
+          "### 사지",
           "#### CC-specific",
           "• 손(angioma, flapping tremor), 복부 (시 촉 전도만)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• , 흉부 (청진)",
           "• : 생략될 수 있음",
@@ -21954,7 +21954,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:58.101Z"
+    "updatedAt": "2026-07-14T07:40:15.815Z"
   },
   {
     "id": "1103",
@@ -22084,7 +22084,7 @@
       },
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -22097,7 +22097,7 @@
       },
       {
         "key": "mouth",
-        "label": "Mouth",
+        "label": "구강",
         "groups": [
           {
             "label": "CC-specific",
@@ -22109,7 +22109,7 @@
       },
       {
         "key": "abdomen",
-        "label": "Abdomen",
+        "label": "복부",
         "groups": [
           {
             "label": "CC-specific",
@@ -22121,7 +22121,7 @@
       },
       {
         "key": "neurologic",
-        "label": "Neurologic examination",
+        "label": "신경학적 검사",
         "groups": [
           {
             "label": "CC-specific",
@@ -22133,7 +22133,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -22149,20 +22149,20 @@
       "### V/S",
       "#### CC-specific",
       "• V/S 의식 상태, 위생 상태 확인",
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈",
       "• (동공 산대/축소, 안구진탕, 빈혈, 충혈, 황달),",
-      "### Mouth",
+      "### 구강",
       "#### CC-specific",
       "• 입",
-      "### Abdomen",
+      "### 복부",
       "#### CC-specific",
       "• 복부 : 시 - 청 - 타 - 촉",
-      "### Neurologic examination",
+      "### 신경학적 검사",
       "#### CC-specific",
       "• 사지 : 점상 출혈, 하지 부종, 자살 시도 흔적 + 감각/신경/DTR",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 흉부 : 시 - 촉 - 타 - 청",
       "• ,"
@@ -22213,20 +22213,20 @@
           "### V/S",
           "#### CC-specific",
           "• V/S 의식 상태, 위생 상태 확인",
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈",
           "• (동공 산대/축소, 안구진탕, 빈혈, 충혈, 황달),",
-          "### Mouth",
+          "### 구강",
           "#### CC-specific",
           "• 입",
-          "### Abdomen",
+          "### 복부",
           "#### CC-specific",
           "• 복부 : 시 - 청 - 타 - 촉",
-          "### Neurologic examination",
+          "### 신경학적 검사",
           "#### CC-specific",
           "• 사지 : 점상 출혈, 하지 부종, 자살 시도 흔적 + 감각/신경/DTR",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 흉부 : 시 - 촉 - 타 - 청",
           "• ,"
@@ -22284,7 +22284,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.786Z"
+    "updatedAt": "2026-07-14T07:40:15.628Z"
   },
   {
     "id": "1104",
@@ -22373,7 +22373,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-12T03:23:43.331Z"
+    "updatedAt": "2026-07-14T07:32:40.046Z"
   },
   {
     "id": "1105",
@@ -22544,7 +22544,7 @@
     "examChecklist": [
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -22556,7 +22556,7 @@
       }
     ],
     "exam": [
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 보통 하지 않음"
     ],
@@ -22615,7 +22615,7 @@
       {
         "title": "PEx",
         "content": [
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 보통 하지 않음"
         ]
@@ -22651,7 +22651,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:13:25.621Z"
+    "updatedAt": "2026-07-14T07:40:15.529Z"
   },
   {
     "id": "1106",
@@ -22764,7 +22764,7 @@
     "examChecklist": [
       {
         "key": "eyes",
-        "label": "Eyes",
+        "label": "눈",
         "groups": [
           {
             "label": "CC-specific",
@@ -22776,7 +22776,7 @@
       },
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -22789,10 +22789,10 @@
       }
     ],
     "exam": [
-      "### Eyes",
+      "### 눈",
       "#### CC-specific",
       "• 눈입 사지 (외상)",
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 증거용 사진 촬영, 증거물 채취",
       "• 하이브리드 : 산부인과 진찰 (골반 내진, 질분비물검사), DRE"
@@ -22842,10 +22842,10 @@
       {
         "title": "PEx",
         "content": [
-          "### Eyes",
+          "### 눈",
           "#### CC-specific",
           "• 눈입 사지 (외상)",
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 증거용 사진 촬영, 증거물 채취",
           "• 하이브리드 : 산부인과 진찰 (골반 내진, 질분비물검사), DRE"
@@ -22887,7 +22887,7 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:00:57.888Z"
+    "updatedAt": "2026-07-14T07:40:15.673Z"
   },
   {
     "id": "1107",
@@ -22982,7 +22982,7 @@
     "examChecklist": [
       {
         "key": "special",
-        "label": "Special examination",
+        "label": "특수 진찰",
         "groups": [
           {
             "label": "CC-specific",
@@ -22994,7 +22994,7 @@
       }
     ],
     "exam": [
-      "### Special examination",
+      "### 특수 진찰",
       "#### CC-specific",
       "• 신체진찰 하지 않음"
     ],
@@ -23039,7 +23039,7 @@
       {
         "title": "PEx",
         "content": [
-          "### Special examination",
+          "### 특수 진찰",
           "#### CC-specific",
           "• 신체진찰 하지 않음"
         ]
@@ -23067,6 +23067,6 @@
         "content": []
       }
     ],
-    "updatedAt": "2026-07-14T07:13:25.678Z"
+    "updatedAt": "2026-07-14T07:40:15.744Z"
   }
 ]
