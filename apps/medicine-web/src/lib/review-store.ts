@@ -164,9 +164,9 @@ export function exportReviewData() {
 }
 
 export function importReviewData(value: unknown) {
-  if (!value || typeof value !== "object") throw new Error("????紐?JSON ?띠룇鍮섊뙼?롮쾸? ?熬곣뫀六???덈펲.");
+  if (!value || typeof value !== "object") throw new Error("올바른 JSON 객체가 아닙니다.");
   const data = value as { version?: unknown; items?: unknown; recentItems?: unknown };
-  if (data.version !== 2 || !Array.isArray(data.items)) throw new Error("嶺뚯솘???믨퀡由?춯?뼿 ???낅츎 ?곌랜踰????⑥щ턄???筌먦끇六???낅퉵??");
+  if (data.version !== 2 || !Array.isArray(data.items)) throw new Error("지원하지 않는 복습 데이터 형식입니다.");
   const items = data.items.filter((item): item is ReviewItem => Boolean(item && typeof item === "object" && "id" in item && "type" in item && isReviewDomain((item as { type?: unknown }).type)));
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
   if (Array.isArray(data.recentItems)) window.localStorage.setItem(RECENT_KEY, JSON.stringify(data.recentItems));
