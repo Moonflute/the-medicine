@@ -156,7 +156,7 @@ function HistoryChecklist({ note }: { note: ChiefComplaintNote }) {
             <div className="mt-2 divide-y divide-slate-100">
               {slot.groups.map((group) => (
                 <div key={slot.key + "-" + group.label} className="py-2 first:pt-0 last:pb-0">
-                  {group.label !== "CC-specific" && !compact && (
+                  {group.label !== "CC-specific" && group.label !== "Common" && !compact && (
                     <div className="mb-1 text-xs font-medium uppercase text-slate-500">{group.label}</div>
                   )}
                   {group.items.map((text, index) => {
