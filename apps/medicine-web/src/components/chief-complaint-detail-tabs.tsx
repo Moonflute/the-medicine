@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { BookOpenText, Maximize2, Minimize2, RotateCcw } from "lucide-react";
-import type { ChiefComplaintHistorySlot, ChiefComplaintNote, DiseaseSection, TermLink } from "@/lib/webdb";
+import type { ChiefComplaintExamSlot, ChiefComplaintHistorySlot, ChiefComplaintNote, DiseaseSection, TermLink } from "@/lib/webdb";
 import { ChiefComplaintRecommendationPicker } from "@/components/chief-complaint-recommendation-picker";
 import { RichTextLines } from "@/components/rich-text-lines";
 
@@ -184,6 +184,165 @@ function HistoryChecklist({ note }: { note: ChiefComplaintNote }) {
   );
 }
 
+
+type CommonPhysicalExamFlow = {
+  key: string;
+  label: string;
+  shortLabel: string;
+  prompt: string;
+};
+
+const COMMON_PHYSICAL_EXAM_FLOW: CommonPhysicalExamFlow[] = [
+  { key: "vitals", label: "V/S", shortLabel: "V/S", prompt: "Measure vital signs." },
+  { key: "eyes", label: "Eyes", shortLabel: "Eyes", prompt: "Inspect the eyes and pupils." },
+  { key: "mouth", label: "Mouth", shortLabel: "Mouth", prompt: "Inspect the oral cavity and pharynx." },
+  { key: "neck", label: "Neck", shortLabel: "Neck", prompt: "Inspect and palpate the neck." },
+  { key: "chest", label: "Chest", shortLabel: "Chest", prompt: "Perform chest inspection, palpation, percussion, and auscultation." },
+  { key: "abdomen", label: "Abdomen", shortLabel: "Abdomen", prompt: "Perform abdominal inspection, auscultation, percussion, and palpation." },
+  { key: "extremities", label: "Extremities", shortLabel: "Extremities", prompt: "Examine the extremities, pulses, and edema." },
+  { key: "skin", label: "Skin", shortLabel: "Skin", prompt: "Inspect and palpate the skin." },
+  { key: "neurologic", label: "Neurologic examination", shortLabel: "Neurologic", prompt: "Perform a focused neurologic examination." },
+];
+
+const COMMON_PHYSICAL_EXAM_KEYS = new Set(COMMON_PHYSICAL_EXAM_FLOW.map((flow) => flow.key));
+
+const GENERIC_PHYSICAL_EXAM_ITEMS: Record<string, string[]> = {
+  vitals: ["v/s", "vital signs"],
+  eyes: ["eyes", "\uB208"],
+  mouth: ["mouth", "\uC785"],
+  neck: ["neck", "\uBAA9"],
+  chest: ["chest", "\uD754\uBD80"],
+  abdomen: ["abdomen", "\uBCF5\uBD80"],
+  extremities: ["extremities", "\uC0AC\uC9C0"],
+  skin: ["skin", "\uD53C\uBD80"],
+  neurologic: ["neurologic examination"],
+};
+
+function mergePhysicalExamGroups(slots: ChiefComplaintExamSlot[], key: string) {
+  const genericItems = GENERIC_PHYSICAL_EXAM_ITEMS[key] ?? [];
+  return slots
+    .filter((slot) => slot.key === key)
+    .flatMap((slot) => slot.groups)
+    .map((group) => ({
+      ...group,
+      items: group.items.filter((item) => !genericItems.includes(item.trim().toLowerCase())),
+    }))
+    .filter((group) => group.items.length > 0);
+}
+
+function buildPhysicalExamChecklist(note: ChiefComplaintNote, compact: boolean): ChiefComplaintExamSlot[] {
+  const sourceSlots = note.examChecklist ?? [];
+  const firstCommonIndex = sourceSlots.findIndex((slot) => COMMON_PHYSICAL_EXAM_KEYS.has(slot.key));
+
+  if (firstCommonIndex === -1) {
+    return sourceSlots;
+  }
+
+  const commonSlots = COMMON_PHYSICAL_EXAM_FLOW.map((flow) => ({
+    key: flow.key,
+    label: compact ? flow.shortLabel : flow.label,
+    groups: [
+      { label: "Common", items: [compact ? flow.shortLabel : flow.prompt] },
+      ...mergePhysicalExamGroups(sourceSlots, flow.key),
+    ],
+  }));
+
+  const result: ChiefComplaintExamSlot[] = [];
+  sourceSlots.forEach((slot, index) => {
+    if (index === firstCommonIndex) {
+      result.push(...commonSlots);
+    }
+
+    if (!COMMON_PHYSICAL_EXAM_KEYS.has(slot.key)) {
+      const existing = result.find((item) => item.key === slot.key);
+      if (existing) {
+        existing.groups.push(...slot.groups);
+      } else {
+        result.push(slot);
+      }
+    }
+  });
+
+  return result;
+}
+
+function PhysicalExamChecklist({ note }: { note: ChiefComplaintNote }) {
+  const [checked, setChecked] = useState<Record<string, boolean>>({});
+  const [compact, setCompact] = useState(false);
+  const slots = useMemo(() => buildPhysicalExamChecklist(note, compact), [note, compact]);
+  const items = slots.flatMap((slot) =>
+    slot.groups.flatMap((group) => group.items.map((text, index) => ({
+      id: slot.key + "-" + group.label + "-" + index,
+      text,
+    }))),
+  );
+  const checkedCount = items.filter((item) => checked[item.id]).length;
+
+  if (items.length === 0) {
+    return <div className="mt-2 text-sm text-slate-400">{"\uC815\uB9AC\uB41C PEx \uC9C4\uCC30 \uD56D\uBAA9\uC774 \uC5C6\uC2B5\uB2C8\uB2E4."}</div>;
+  }
+
+  return (
+    <div className="mt-3 space-y-4">
+      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-200 pb-3">
+        <div className="text-sm text-slate-600">
+          {"\uC9C4\uCC30 \uD655\uC778"} <span className="font-semibold text-slate-950">{checkedCount}</span> / {items.length}
+        </div>
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setCompact((value) => !value)}
+            aria-pressed={compact}
+            className="inline-flex items-center gap-1.5 rounded-md border border-slate-200 px-2.5 py-1.5 text-xs font-medium text-slate-600 transition hover:bg-slate-50 hover:text-slate-950"
+          >
+            {compact ? <Maximize2 size={14} aria-hidden="true" /> : <Minimize2 size={14} aria-hidden="true" />}
+            {compact ? "\uC804\uCCB4 \uBCF4\uAE30" : "\uAC04\uB7B5\uD654"}
+          </button>
+          <button
+            type="button"
+            onClick={() => setChecked({})}
+            className="inline-flex items-center gap-1.5 rounded-md border border-slate-200 px-2.5 py-1.5 text-xs font-medium text-slate-600 transition hover:bg-slate-50 hover:text-slate-950"
+          >
+            <RotateCcw size={14} aria-hidden="true" />
+            {"\uCD08\uAE30\uD654"}
+          </button>
+        </div>
+      </div>
+
+      <div className="space-y-5">
+        {slots.map((slot) => (
+          <section key={slot.key}>
+            <h4 className="text-sm font-semibold text-slate-950">{slot.label}</h4>
+            <div className="mt-2 divide-y divide-slate-100">
+              {slot.groups.map((group) => (
+                <div key={slot.key + "-" + group.label} className="py-2 first:pt-0 last:pb-0">
+                  {group.label !== "CC-specific" && group.label !== "Common" && !compact && (
+                    <div className="mb-1 text-xs font-medium uppercase text-slate-500">{group.label}</div>
+                  )}
+                  {group.items.map((text, index) => {
+                    const id = slot.key + "-" + group.label + "-" + index;
+                    return (
+                      <label key={id} className="flex cursor-pointer items-start gap-3 py-2 text-sm leading-6 text-slate-700">
+                        <input
+                          type="checkbox"
+                          checked={Boolean(checked[id])}
+                          onChange={() => setChecked((current) => ({ ...current, [id]: !current[id] }))}
+                          className="mt-1 h-4 w-4 shrink-0 accent-teal-700"
+                        />
+                        <span className={checked[id] ? "text-slate-400 line-through" : ""}>{text}</span>
+                      </label>
+                    );
+                  })}
+                </div>
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 const VIEWS: Array<{ key: ViewKey; label: string }> = [
   { key: "concept", label: "\uAC1C\uB150" },
   { key: "outpatient", label: "\uC678\uB798" },
@@ -248,9 +407,14 @@ function SectionContent({
 }) {
   const isOutpatientMatcher = view === "outpatient" && section.title.includes("\uD658\uC790\uAD50\uC721");
   const isHistorySection = view === "outpatient" && section.title.trim().toLowerCase() === "hx";
+  const isPhysicalExamSection = view === "outpatient" && section.title.trim().toLowerCase() === "pex";
 
   if (isHistorySection) {
     return <HistoryChecklist note={note} />;
+  }
+
+  if (isPhysicalExamSection) {
+    return <PhysicalExamChecklist note={note} />;
   }
 
   if (isOutpatientMatcher) {

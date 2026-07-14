@@ -121,6 +121,7 @@ export type ChiefComplaintNote = {
   differentials: string[];
   history: string[];
   historyChecklist: ChiefComplaintHistorySlot[];
+  examChecklist: ChiefComplaintExamSlot[];
   exam: string[];
   plan: string[];
   recommendations: ChiefComplaintRecommendation[];
@@ -129,6 +130,15 @@ export type ChiefComplaintNote = {
 };
 
 export type ChiefComplaintHistorySlot = {
+  key: string;
+  label: string;
+  groups: Array<{
+    label: string;
+    items: string[];
+  }>;
+};
+
+export type ChiefComplaintExamSlot = {
   key: string;
   label: string;
   groups: Array<{

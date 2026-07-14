@@ -554,6 +554,89 @@ function parseHistoryChecklist(body) {
 
   return slots.filter((slot) => slot.groups.some((group) => group.items.length > 0) || slot.label);
 }
+const PHYSICAL_EXAM_LABELS = new Map([
+  ["vitals", "V/S"],
+  ["eyes", "Eyes"],
+  ["mouth", "Mouth"],
+  ["neck", "Neck"],
+  ["chest", "Chest"],
+  ["abdomen", "Abdomen"],
+  ["extremities", "Extremities"],
+  ["skin", "Skin"],
+  ["neurologic", "Neurologic examination"],
+  ["special", "Special examination"],
+]);
+
+function physicalExamSlotKey(label) {
+  const normalized = label.trim().toLowerCase();
+
+  if (/^v\/s\b|vital signs/.test(normalized)) return "vitals";
+  if (/eyes?|\uB208|\uB3D9\uACF5|\uC548\uC9C4/.test(normalized)) return "eyes";
+  if (/mouth|\uC785|\uAD6C\uAC15|\uC778\uB450/.test(normalized)) return "mouth";
+  if (/neck|\uBAA9|\uACBD\uC815\uB9E5|\uAC11\uC0C1\uC0D8|\uAC11\uC0C1\uC120|\uB9BC\uD504\uC808/.test(normalized)) return "neck";
+  if (/chest|\uD754\uBD80|\uC2EC\uC74C|\uD638\uD761\uC74C/.test(normalized)) return "chest";
+  if (/abdomen|\uBCF5\uBD80|\uC2E0\uB3D9\uB9E5|\uBC29\uAD11/.test(normalized)) return "abdomen";
+  if (/\uC2DC\uD589\uD558\uC9C0|\uC2E0\uCCB4\uC9C4\uCC30\s*\uC5C6\uC74C|\uC0DD\uB7B5|\uD558\uC9C0\s*\uC54A\uC74C/.test(normalized)) return "special";
+  if (/extremit|limb|\uC0AC\uC9C0|\uD314\uB2E4\uB9AC|\uC0C1\uC9C0|\uD558\uC9C0|\uC190|\uB9E5\uBC15/.test(normalized)) return "extremities";
+  if (/skin|\uD53C\uBD80|\uBC1C\uC9C4|\uACE4\uBD09\uC9C0|\uCCAD\uC0C9\uC99D|\uBD80\uC885/.test(normalized)) return "skin";
+  if (/neurolog|\uC2E0\uACBD|\uB1CC|\uC18C\uB1CC|\uC218\uB9C9|dtr|mmse|spurling|lhermitte|slrt|patrick|schober|dix-hallpike|tinel|phalen/.test(normalized)) return "neurologic";
+  if (/special|\uD2B9\uC218|dre|cvat|\uACE8\uBC18|\uC720\uBC29|homan|\uC678\uC131\uAE30|\uC2E0\uCCB4\uC9C4\uCC30/.test(normalized)) return "special";
+
+  return normalized.replace(/[^a-z0-9\uAC00-\uD7A3]+/g, "-").replace(/^-|-$/g, "") || "special";
+}
+
+function parsePhysicalExamChecklist(body) {
+  const header = body.match(/^##\s+PEx\s*\r?\n/m);
+  if (!header || header.index === undefined) return [];
+
+  const start = header.index + header[0].length;
+  const remainder = body.slice(start);
+  const nextSection = remainder.search(/^##\s+/m);
+  const pexBody = nextSection === -1 ? remainder : remainder.slice(0, nextSection);
+
+  const slots = [];
+  let currentSlot = null;
+  let currentGroup = "CC-specific";
+
+  for (const rawLine of pexBody.split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line) continue;
+
+    const slotHeading = line.match(/^###\s+(.+)$/);
+    if (slotHeading) {
+      const key = physicalExamSlotKey(slotHeading[1]);
+      currentSlot = { key, label: PHYSICAL_EXAM_LABELS.get(key) ?? slotHeading[1].trim(), groups: [] };
+      slots.push(currentSlot);
+      currentGroup = "CC-specific";
+      continue;
+    }
+
+    const groupHeading = line.match(/^####\s+(.+)$/);
+    if (groupHeading) {
+      currentGroup = groupHeading[1].trim();
+      continue;
+    }
+
+    const item = line.replace(/^[-*]\s+/, "").trim();
+    if (!item) continue;
+
+    if (!currentSlot) {
+      const key = physicalExamSlotKey(item);
+      currentSlot = { key, label: PHYSICAL_EXAM_LABELS.get(key) ?? item, groups: [] };
+      slots.push(currentSlot);
+    }
+
+    let group = currentSlot.groups.find((entry) => entry.label === currentGroup);
+    if (!group) {
+      group = { label: currentGroup, items: [] };
+      currentSlot.groups.push(group);
+    }
+    group.items.push(item);
+  }
+
+  return slots.filter((slot) => slot.groups.some((group) => group.items.length > 0) || slot.label);
+}
+
 function parseChiefComplaintRecommendations(sections) {
   const education = sections.find((section) => section.title.includes("환자교육"));
   if (!education) return [];
@@ -613,6 +696,9 @@ function buildChiefComplaints() {
       differentials: firstSectionText(sections, "감별"),
       history: firstSectionText(sections, "hx"),
       historyChecklist: parseHistoryChecklist(body),
+
+      examChecklist: parsePhysicalExamChecklist(body),
+
       exam: firstSectionText(sections, "pex"),
       plan: firstSectionText(sections, "plan"),
       recommendations: parseChiefComplaintRecommendations(sections),

@@ -22,6 +22,7 @@ export type {
   ChiefComplaintCategorySummary,
   ChiefComplaintNote,
   ChiefComplaintHistorySlot,
+  ChiefComplaintExamSlot,
   ClinicalRelation,
   ClinicalRelationIndex,
   ClinicalSkill,
