@@ -49,27 +49,31 @@ export default async function DrugCategoryPage(props: { params: Promise<{ slug: 
         <h1 className="mt-3 text-4xl font-semibold ">{group.title}</h1>
       </header>
 
-      <div className="space-y-5">
-        {group.middleGroups.map((middleGroup) => (
-          <section key={`${group.title}-${middleGroup.title}`} className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm">
-            {!(middleGroup.title === group.title && middleGroup.detailGroups.length === 0) ? (
-              <div className="mb-4 border-l-4 border-teal-600 py-1 pl-3">
-                <h2 className="text-sm font-semibold text-slate-700">{middleGroup.title}</h2>
-              </div>
-            ) : null}
+      <section className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm">
+        <div className="mb-5 flex items-center gap-3">
+          <div className="h-px flex-1 bg-stone-200" />
+          <h2 className="shrink-0 text-xl font-semibold text-slate-950">{group.title}</h2>
+          <div className="h-px flex-1 bg-stone-200" />
+        </div>
 
-            <div className="space-y-5">
-              {middleGroup.notes.length > 0 ? (
-                <DrugLinks notes={middleGroup.notes} />
+        <div className="space-y-5">
+          {group.middleGroups.map((middleGroup) => (
+            <div key={`${group.title}-${middleGroup.title}`} className="space-y-3">
+              {!(middleGroup.title === group.title && middleGroup.detailGroups.length === 0) ? (
+                <div className="border-l-4 border-teal-600 py-1 pl-3">
+                  <h3 className="text-sm font-semibold text-slate-700">{middleGroup.title}</h3>
+                </div>
               ) : null}
 
+              {middleGroup.notes.length > 0 ? <DrugLinks notes={middleGroup.notes} /> : null}
+
               {middleGroup.detailGroups.map((detailGroup) => (
-                <div key={`${group.title}-${middleGroup.title}-${detailGroup.title}`} className="space-y-3">
+                <div key={`${group.title}-${middleGroup.title}-${detailGroup.title}`} className="space-y-3 pl-1">
                   <div className="flex items-center gap-3 px-1">
                     <div className="h-px flex-1 bg-stone-200" />
-                    <h3 className="shrink-0 text-sm font-semibold uppercase  text-slate-500">
+                    <h4 className="shrink-0 text-sm font-semibold uppercase text-slate-500">
                       {detailGroup.title}
-                    </h3>
+                    </h4>
                     <div className="h-px flex-1 bg-stone-200" />
                   </div>
 
@@ -77,9 +81,9 @@ export default async function DrugCategoryPage(props: { params: Promise<{ slug: 
                 </div>
               ))}
             </div>
-          </section>
-        ))}
-      </div>
+          ))}
+        </div>
+      </section>
       <ParentPageFab href="/drugs" />
     </div>
   );
