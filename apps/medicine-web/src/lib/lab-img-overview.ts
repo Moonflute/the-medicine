@@ -207,7 +207,7 @@ function parseTableRows(note: DomainNote, lookup: Map<string, DomainNote>): LabI
 
 function parseInlineRange(text: string) {
   const compact = cleanText(text);
-  const match = compact.match(/([<>]?\s*[\d.]+(?:\s*\/\s*[\d.]+)?(?:\s*-\s*[\d.]+(?:\s*\/\s*[\d.]+)?)?)\s*([A-Za-z%/^.0-9쨉關mEqL\- ]+)?$/);
+  const match = compact.match(/([<>]?\s*[\d.]+(?:\s*\/\s*[\d.]+)?(?:\s*-\s*[\d.]+(?:\s*\/\s*[\d.]+)?)?)\s*([A-Za-z%/^.0-9µμmEqL\- ]+)?$/);
   if (!match) return null;
 
   const rawRange = normalizeSpace(match[1]);
