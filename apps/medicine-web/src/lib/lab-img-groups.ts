@@ -2,7 +2,7 @@ import type { DomainNote, DomainToc } from "@/lib/webdb";
 export type LabImgLeafGroup={rawTitle:string;title:string;overviewNote?:DomainNote;notes:DomainNote[]};
 export type LabImgTopGroup={rawTitle:string;title:string;slug:string;overviewNote?:DomainNote;directNotes:DomainNote[];childGroups:LabImgLeafGroup[]};
 function toBase64Url(v:string){return Buffer.from(v,"utf-8").toString("base64url");}
-function clean(v:string){return v.replace(/^\\d+\\s*/,"").trim();}
+function clean(v:string){return v.replace(/^\d+\s*/,"").trim();}
 function sortLabels(a:string,b:string){return a.localeCompare(b,"ko");}
 function tocOrder(toc:DomainToc|undefined,level:number){const m=new Map<string,number>();toc?.items.forEach((x,i)=>{const k=x.path.slice(0,level+1).join("\u0000");if(k&&!m.has(k))m.set(k,i);});return m;}
 function ordered(a:string,b:string,m:Map<string,number>,fa:string,fb:string){const x=m.get(a),y=m.get(b);if(x!==undefined&&y!==undefined)return x-y;if(x!==undefined)return-1;if(y!==undefined)return 1;return sortLabels(fa,fb);}
