@@ -14,7 +14,15 @@ CC:
 - 삼킴곤란
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: tier_2
+content_updated_at: '2026-07-15'
+guideline_year: '2022'
+sources:
+- 'ACG Clinical Guideline for Diagnosis and Management of GERD | https://pubmed.ncbi.nlm.nih.gov/34807007/'
+disease_family: gerd
+population: adult
 ---
+
 ## 1. 개요
 - **정의**: 위식도역류질환(GERD)은 하부 식도 조임근(LES)의 기능 부전으로 위 내용물이 식도로 역류하여 발생하는 질환
 - **원인**: 하부 식도 조임근의 긴장도 저하 또는 부적절한 일과성 이완이 주된 원인이다. 비만, 흡연, 고지방식, 카페인, 알코올, 특정 약물(항콜린제, 칼슘채널차단제 등)이 악화 요인이 된다.
@@ -41,6 +49,8 @@ last_studied: '2026-06-06'
 - **약물 치료**:
   PPI가 1차 치료제, 필요 시 P-CAB(칼륨 경쟁적 위산분비 억제제)을 고려한다.
   H2 차단제는 야간 증상 조절에 유용할 수 있다.
+  전형적 가슴쓰림·역류가 경고 증상 없이 있을 때는 PPI를 식전 일정한 시간에 적절한 기간 투여하여 반응을 확인한다. 반응이 없다고 즉시 용량만 올리기 전에 복용 시점, 순응도, 진단 자체를 재점검한다.
+- **경고 증상과 검사**: 연하곤란, 체중 감소, 위장관 출혈, 빈혈, 지속 구토 또는 바렛 식도 위험 인자가 있으면 경험적 치료만 지속하지 말고 내시경을 우선 고려한다.
 - **수술**: 약물 치료에 반응하지 않거나, 중증 식도염, 거대 열공탈장, 합병증이 있는 경우 위바닥주름술(fundoplication)을 고려한다.
 
 ## 6. 예후 및 합병증

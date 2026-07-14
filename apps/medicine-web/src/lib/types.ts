@@ -3,6 +3,14 @@ export type DiseaseSection = {
   content: string[];
 };
 
+export type DiseaseFamilyMeta = {
+  family: string;
+  parentDisease?: string;
+  relationToParent?: string;
+  population?: string;
+  canonicalDisease?: string;
+};
+
 export type DiseaseNote = {
   id: string;
   slug: string;
@@ -17,6 +25,9 @@ export type DiseaseNote = {
   overview?: string[];
   sections: DiseaseSection[];
   updatedAt: string;
+  clinicalPriority?: string;
+  contentMeta?: ContentMeta;
+  familyMeta?: DiseaseFamilyMeta;
 };
 
 export type SpecialtySummary = {
@@ -70,9 +81,10 @@ export type SearchEntry = {
 };
 
 export type ContentMeta = {
-  reviewedAt: string;
-  reviewStatus: "draft" | "reviewed" | "verified" | string;
-  guidelineYear: string;
+  reviewedAt?: string;
+  reviewStatus?: "draft" | "reviewed" | "verified" | string;
+  contentUpdatedAt?: string;
+  guidelineYear?: string;
   sources: SkillSource[];
 };
 

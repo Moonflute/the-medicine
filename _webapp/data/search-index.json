@@ -94,7 +94,7 @@
       "치료",
       "예후 및 합병증"
     ],
-    "quickSummary": "수축기 혈압 140 mmHg 이상 또는 이완기 혈압 90 mmHg 이상이 지속되는 상태",
+    "quickSummary": "• 대부분 무증상이며, 두통만으로 고혈압성 응급을 진단하지 않는다.",
     "href": "/disease/MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA"
   },
   {
@@ -121,6 +121,34 @@
     ],
     "quickSummary": "심막의 섬유화, 비후, 석회화로 인해 심막이 경직되어 심실의 이완기 충만을 제한하고 전신 정맥 울혈을 유발하는 질환",
     "href": "/disease/MDEg7Iic7ZmY6riwL-q1kOywqSDsi6zrp4nsl7wgKENvbnN0cmljdGl2ZSBQZXJpY2FyZGl0aXMpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k",
+    "title": "급성 관상동맥 증후군 (ACS)",
+    "category": "01 순환기",
+    "aliases": [
+      "ACS",
+      "가슴 통증",
+      "호흡곤란",
+      "식은땀",
+      "구토"
+    ],
+    "keywords": [
+      "허혈성 심장질환",
+      "가슴 통증",
+      "호흡곤란",
+      "식은땀",
+      "구토",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 지속되는 흉통, 저혈압·쇼크, 급성 폐부종, 치명적 부정맥, 의식 변화 또는 심정지는 즉시 재관류·소생 팀을 활성화해야 하는 고위험 소견이다.",
+    "href": "/disease/MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k"
   },
   {
     "type": "disease",
@@ -498,25 +526,26 @@
     "title": "만성 심부전 (박출률 감소) (Chronic Heart Failure with Reduced Ejection Fraction (HFrEF))",
     "category": "01 순환기",
     "aliases": [
+      "HFrEF",
       "호흡곤란",
-      "경련",
+      "흉부 압박감",
       "피로",
       "부종"
     ],
     "keywords": [
       "심부전",
       "호흡곤란",
-      "경련",
+      "흉부 압박감",
       "피로",
       "부종",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "심장의 구조적 또는 기능적 이상으로 인해 심장이 신체 요구량만큼의 혈액을 충분히 공급하지 못하는 상태가 만성적으로 지속되는 임상 증후군이다. 박출률 감소 심부전(HFrEF)은 좌심실 박출률(LVEF)이 40% 이하로 감소한 경우",
+    "quickSummary": "• 운동 시 호흡곤란, 기좌호흡, 발작성 야간호흡곤란, 피로, 운동능 저하, 체중 증가 및 말초부종이 흔하다.",
     "href": "/disease/MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDqsJDshowpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBSZWR1Y2VkIEVqZWN0aW9uIEZyYWN0aW9uIChIRnJFRikpLm1k"
   },
   {
@@ -525,6 +554,7 @@
     "title": "만성 심부전 (박출률 보존) (Chronic Heart Failure with Preserved Ejection Fraction (HFpEF))",
     "category": "01 순환기",
     "aliases": [
+      "HFpEF",
       "호흡곤란",
       "피로",
       "부종",
@@ -537,13 +567,13 @@
       "부종",
       "두근거림",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "좌심실 박출률(LVEF)이 50% 이상으로 보존되어 있으면서, 심실 이완 기능 장애와 좌심실 충만압 상승의 증거가 있는 만성 심부전",
+    "quickSummary": "• 급성 폐부종, 저산소증, 흉통, 저혈압, 실신 또는 새로 발생한 빠른 AF는 응급 평가가 필요한 소견이다.",
     "href": "/disease/MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDrs7TsobQpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBQcmVzZXJ2ZWQgRWplY3Rpb24gRnJhY3Rpb24gKEhGcEVGKSkubWQ"
   },
   {
@@ -1049,29 +1079,30 @@
     "title": "심방 조동-세동 (Atrial Flutter-Fibrillation)",
     "category": "01 순환기",
     "aliases": [
+      "심방세동",
+      "AF",
+      "Atrial Fibrillation",
       "두근거림",
-      "피로",
+      "어지러움",
       "호흡곤란",
-      "가슴통증",
-      "어지러움증",
+      "가슴 통증",
       "실신"
     ],
     "keywords": [
       "부정맥",
       "두근거림",
-      "피로",
+      "어지러움",
       "호흡곤란",
-      "가슴통증",
-      "어지러움증",
+      "가슴 통증",
       "실신",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "심방세동(atrial fibrillation, AF): 심방의 전기적 활동이 불규칙하고 매우 빠르게 나타나는 부정맥.",
+    "quickSummary": "• 빈맥성 AF/AFL은 저혈압, 급성 폐부종, 허혈성 흉통, 쇼크, 의식 변화와 동반될 수 있다. 이러한 혈역학적 불안정은 즉시 동기화 심율동전환을 포함한 응급 처치가 필요한 상황이다.",
     "href": "/disease/MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k"
   },
   {
@@ -1979,7 +2010,7 @@
       "치료",
       "예후 및 합병증"
     ],
-    "quickSummary": "흡입된 독성 물질(주로 담배 연기)에 대한 염증 반응으로 발생하는 만성적인 호흡기 증상과 비가역적인 기류 제한을 특징으로 하는 폐 질환. 폐기종과 만성 기관지염이 복합적으로 나타남.",
+    "quickSummary": "• 만성 기침·가래, 진행성 운동성 호흡곤란이 전형적이다. 천명, 흉부 답답함, 체중감소·피로가 동반될 수 있다.",
     "href": "/disease/MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ"
   },
   {
@@ -2677,13 +2708,27 @@
     "slug": "MDIg7Zi47Z2h6riwL-yynOyLnS5tZA",
     "title": "천식",
     "category": "02 호흡기",
-    "aliases": [],
+    "aliases": [
+      "Asthma",
+      "기침",
+      "천명",
+      "호흡곤란",
+      "흉부 답답함"
+    ],
     "keywords": [
       "천식",
+      "기침",
+      "천명",
+      "호흡곤란",
+      "흉부 답답함",
       "개요",
-      "포함 질환"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "• 천식는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+    "quickSummary": "• 말하기 어려움, 보조호흡근 사용, 청색증, 졸림·혼돈, silent chest, PEF 현저 저하는 중증 악화 소견으로 즉시 응급 처치가 필요하다.",
     "href": "/disease/MDIg7Zi47Z2h6riwL-yynOyLnS5tZA"
   },
   {
@@ -2936,13 +2981,29 @@
     "slug": "MDIg7Zi47Z2h6riwL-2PkOugtC5tZA",
     "title": "폐렴",
     "category": "02 호흡기",
-    "aliases": [],
+    "aliases": [
+      "CAP",
+      "기침",
+      "가래",
+      "발열",
+      "호흡곤란",
+      "흉통"
+    ],
     "keywords": [
       "폐렴",
+      "기침",
+      "가래",
+      "발열",
+      "호흡곤란",
+      "흉통",
       "개요",
-      "포함 질환"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "• 폐렴는 호흡기 분과에서 함께 검토하는 하위 질환군입니다.",
+    "quickSummary": "• 기침, 화농성 가래, 발열·오한, 호흡곤란, 흉막성 흉통, 빈호흡이 흔하다. 고령에서는 혼돈·기능저하·식욕저하가 주된 단서일 수 있다.",
     "href": "/disease/MDIg7Zi47Z2h6riwL-2PkOugtC5tZA"
   },
   {
@@ -2951,23 +3012,19 @@
     "title": "폐색전증 (Pulmonary Embolism)",
     "category": "02 호흡기",
     "aliases": [
+      "PE",
+      "Pulmonary Embolism",
       "호흡곤란",
-      "가슴통증",
+      "흉통",
       "실신",
-      "기침",
-      "객혈",
-      "부종",
-      "심박수이상"
+      "객혈"
     ],
     "keywords": [
       "폐혈관",
       "호흡곤란",
-      "가슴통증",
+      "흉통",
       "실신",
-      "기침",
       "객혈",
-      "부종",
-      "심박수이상",
       "개요",
       "임상 양상",
       "검사",
@@ -2975,7 +3032,7 @@
       "치료",
       "예후 및 합병증"
     ],
-    "quickSummary": "깊은정맥혈전증(DVT)에서 발생한 혈전이 폐동맥을 막아 혈류를 차단하는 질환.",
+    "quickSummary": "• 갑작스러운 호흡곤란, 흉막성 흉통, 빈호흡·빈맥, 실신, 객혈이 흔하다. 증상은 비특이적이므로 DVT 증상, 최근 수술·부동·암·임신/에스트로겐·과거 VTE를 함께 묻는다.",
     "href": "/disease/MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA"
   },
   {
@@ -6789,11 +6846,11 @@
       "불안",
       "떨림/운동이상",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
     "quickSummary": "갑상샘 호르몬의 과잉 생산 및 분비로 대사가 항진된 상태(갑상샘중독증)",
     "href": "/disease/MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ"
@@ -6969,7 +7026,14 @@
       "검사 (Lab & Imaging)",
       "진단 (Diagnosis)",
       "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "예후 및 합병증 (Prognosis)",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증",
+      "출처"
     ],
     "quickSummary": "인슐린의 상대적 결핍으로 인해 발생하는 심한 고혈당, 고삼투압, 탈수를 특징으로 하는 당뇨병의 치명적인 급성 합병증",
     "href": "/disease/MDQg64K067aE67mEL-qzoOyCvO2IrOyVleyEsSDqs6DtmIjri7kg7IOB7YOcIChISFMpIChIeXBlcm9zbW9sYXIgSHlwZXJnbHljZW1pYyBTdGF0ZSkubWQ"
@@ -7206,19 +7270,19 @@
       "시야 흐림"
     ],
     "keywords": [
-      "당",
+      "당뇨병",
       "다뇨",
       "체중감소/식욕부진",
       "피로",
       "시야 흐림",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "인슐린 분비 부족이나 작용 결함으로 인해 고혈당이 특징적으로 나타나는 대사 질환",
+    "quickSummary": "• 의식 변화, 쇼크·심한 탈수, 반복 구토·복통, 케톤 양성, 빠르고 깊은 호흡, 중증 저혈당 또는 경련은 응급실 평가가 필요하다.",
     "href": "/disease/MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
   },
   {
@@ -7235,13 +7299,14 @@
       "무증상",
       "시력 저하",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증",
+      "출처"
     ],
-    "quickSummary": "당뇨병의 합병증으로 발생하는 망막의 미세혈관 질환.",
+    "quickSummary": "• 초기에는 대개 무증상이다. 황반 침범 시 시력 저하·변시증이, 유리체출혈·견인망막박리에서는 비문증, 갑작스러운 시력 저하가 나타날 수 있다.",
     "href": "/disease/MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDrp53rp4nrs5Hspp0gKERpYWJldGljIFJldGlub3BhdGh5KS5tZA"
   },
   {
@@ -7256,14 +7321,43 @@
       "당",
       "저림",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증",
+      "출처"
     ],
-    "quickSummary": "당뇨병 환자에서 발생하는 신경계 손상으로, 대사성, 신경혈관성, 자가면역성 기전이 복합적으로 작용함.",
+    "quickSummary": "• 원위부 대칭성 다발신경병증은 발부터 시작하는 저림·화끈거림·통증·감각 저하와 야간 악화가 흔하며, 진행하면 균형 장애와 근력 저하가 동반될 수 있다.",
     "href": "/disease/MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsobHrtoDsp4jtmZgubWQ",
+    "title": "당뇨병성 족부질환",
+    "category": "04 내분비",
+    "aliases": [
+      "당뇨발",
+      "diabetic foot",
+      "피부 괴사",
+      "하지 통증",
+      "발열"
+    ],
+    "keywords": [
+      "당뇨",
+      "피부 괴사",
+      "하지 통증",
+      "발열",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증",
+      "출처"
+    ],
+    "quickSummary": "• 발열·패혈증, 빠르게 진행하는 괴사·봉와직염, 심한 허혈·휴식통, 가스·깊은 농양, 노출된 뼈·건, 급성 Charcot 발은 외래 단순 관찰 대상이 아니며 즉시 응급·다학제 평가가 필요하다.",
+    "href": "/disease/MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsobHrtoDsp4jtmZgubWQ"
   },
   {
     "type": "disease",
@@ -7285,7 +7379,14 @@
       "검사 (Lab & Imaging)",
       "진단 (Diagnosis)",
       "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "예후 및 합병증 (Prognosis)",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증",
+      "출처"
     ],
     "quickSummary": "인슐린 결핍과 길항 호르몬 증가로 인해 고혈당, 케톤혈증, 대사성 산증이 급격히 발생하는 당뇨병의 치명적 합병증",
     "href": "/disease/MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ"
@@ -7296,6 +7397,7 @@
     "title": "당뇨병성 콩팥병증 (Diabetic Nephropathy)",
     "category": "04 내분비",
     "aliases": [
+      "당뇨병신장질환",
       "무증상",
       "단백뇨",
       "부종",
@@ -7312,7 +7414,14 @@
       "검사 (Lab & Imaging)",
       "진단 (Diagnosis)",
       "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "예후 및 합병증 (Prognosis)",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증",
+      "출처"
     ],
     "quickSummary": "당뇨병의 대사 및 혈역학적 변화로 인해 발생하는 사구체 경화증 및 섬유화.",
     "href": "/disease/MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA"
@@ -7793,13 +7902,13 @@
     "title": "이상지질혈증 (Dyslipidemia)",
     "category": "04 내분비",
     "aliases": [
-      "피부 발진",
-      "가슴통증"
+      "무증상",
+      "가슴 통증"
     ],
     "keywords": [
       "지질",
-      "피부 발진",
-      "가슴통증",
+      "무증상",
+      "가슴 통증",
       "개요",
       "임상 양상",
       "검사",
@@ -7807,7 +7916,7 @@
       "치료",
       "예후 및 합병증"
     ],
-    "quickSummary": "혈중 콜레스테롤, 중성지방(TG)의 비정상적 증가 또는 HDL-콜레스테롤의 감소 상태로, 죽상동맥경화증 발생에 기여함",
+    "quickSummary": "• 대부분 무증상으로 건강검진 또는 심혈관 위험도 평가에서 발견된다. 협심증, 일과성 허혈발작·뇌졸중, 말초동맥질환 증상은 이미 동반된 ASCVD를 시사한다.",
     "href": "/disease/MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA"
   },
   {
@@ -7942,14 +8051,57 @@
       "시야 흐림",
       "경련",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증",
+      "출처"
     ],
-    "quickSummary": "혈장 포도당 수치가 70 mg/dL 이하인 상태를 말하며, 당뇨병 환자에서 흔히 발생한다. 비당뇨병 환자에서는 위플 삼징후(Whipple’s triad)를 통해 진단한다.",
+    "quickSummary": "• 의식 저하·경련, 스스로 탄수화물을 섭취할 수 없음, 반복되거나 지속되는 저혈당은 즉시 구조 처치와 응급 평가가 필요한 소견이다.",
     "href": "/disease/MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDQg64K067aE67mEL-ygnDHtmJUg64u564eo67ORIChUeXBlIDEgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k",
+    "title": "제1형 당뇨병 (Type 1 Diabetes Mellitus)",
+    "category": "04 내분비",
+    "aliases": [
+      "T1DM"
+    ],
+    "keywords": [
+      "당뇨병",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증",
+      "출처"
+    ],
+    "quickSummary": "• 케톤 양성, 복통·구토, 쿠스마울 호흡, 의식 변화, 심한 탈수는 [[당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)]]를 즉시 평가할 소견이다.",
+    "href": "/disease/MDQg64K067aE67mEL-ygnDHtmJUg64u564eo67ORIChUeXBlIDEgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k",
+    "title": "제2형 당뇨병 (Type 2 Diabetes Mellitus)",
+    "category": "04 내분비",
+    "aliases": [
+      "T2DM"
+    ],
+    "keywords": [
+      "당뇨병",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증",
+      "출처"
+    ],
+    "quickSummary": "• 무증상 선별검사에서 발견되기도 하며, 고혈당이 진행하면 다뇨·다음·체중 감소·피로·시야 흐림이 나타날 수 있다.",
+    "href": "/disease/MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
   },
   {
     "type": "disease",
@@ -8320,11 +8472,11 @@
       "골반통",
       "복통",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
     "quickSummary": "• **CC**",
     "href": "/disease/MDUg7Iug7J6lL-q4ieyEsSDrsKnqtJHsl7wgKEFjdXRlIEN5c3RpdGlzKS5tZA"
@@ -8621,23 +8773,23 @@
     "title": "만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD))",
     "category": "05 신장",
     "aliases": [
-      "피로",
+      "소변",
       "체중감소/식욕부진",
-      "다뇨"
+      "부종"
     ],
     "keywords": [
-      "신기능 이상",
-      "피로",
+      "후기 신장 이상",
+      "소변",
       "체중감소/식욕부진",
-      "다뇨",
+      "부종",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "• **CC**",
+    "quickSummary": "• 초기 CKD는 무증상인 경우가 많다. 진행하면 부종, 피로, 식욕저하, 소양감, 호흡곤란, 혈압 상승, 야간뇨 또는 소변량 변화가 나타날 수 있다.",
     "href": "/disease/MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k"
   },
   {
@@ -8961,13 +9113,14 @@
       "고혈압",
       "무증상",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증",
+      "출처"
     ],
-    "quickSummary": "• 대개 무증상이나, 고혈압이 조절되지 않거나 급격히 악화됨",
+    "quickSummary": "• ACEi/ARB 시작 뒤 뚜렷한 신기능 악화, 양측 협착 또는 단일 신장 협착 가능성, 복부 잡음, 신장 크기 비대칭도 단서가 될 수 있다. 저혈압·폐부종·AKI가 동반되면 긴급 평가한다.",
     "href": "/disease/MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k"
   },
   {
@@ -9620,31 +9773,26 @@
     "title": "아나필락시스 (Anaphylaxis)",
     "category": "06 알레르기",
     "aliases": [
+      "Anaphylaxis",
       "두드러기",
-      "부종",
       "호흡곤란",
-      "쌕쌕거림",
-      "혈압저하",
-      "심박수이상",
-      "복통"
+      "복통",
+      "어지러움"
     ],
     "keywords": [
-      "Type I",
+      "아나필락시스",
       "두드러기",
-      "부종",
       "호흡곤란",
-      "쌕쌕거림",
-      "혈압저하",
-      "심박수이상",
       "복통",
+      "어지러움",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "• **P/E** : 피부(두드러기, 혈관부종, 홍조), 호흡기(호흡곤란, 쌕쌕거림, 상기도 부종), 순환기(저혈압, 빈맥, 쇼크), 소화기(복통, 구토, 설사) 증상",
+    "quickSummary": "• 갑작스러운 두드러기·혈관부종, 목 조임·쉰목소리·stridor, 천명·호흡곤란, 저혈압·실신, 지속 구토·복통이 대표적이다.",
     "href": "/disease/MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k"
   },
   {
@@ -10528,11 +10676,11 @@
       "부종",
       "관절 통증/붓기",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
     "quickSummary": "고요산혈증으로 인해 요산 결정체(monosodium urate, MSU)가 관절 및 주위 조직에 침착되어 발생하는 염증성 관절염",
     "href": "/disease/MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ"
@@ -12439,6 +12587,34 @@
     ],
     "quickSummary": "클로스트리디움 테타니 (Clostridium tetani) 균이 생성하는 신경독소(tetanospasmin)에 의해 발생하는 급성 신경근육 질환",
     "href": "/disease/MDgg6rCQ7Je8L-2MjOyDge2SjSAoVGV0YW51cykubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA",
+    "title": "패혈증 (Sepsis)",
+    "category": "08 감염",
+    "aliases": [
+      "Sepsis",
+      "발열",
+      "저체온",
+      "의식 변화",
+      "저혈압"
+    ],
+    "keywords": [
+      "중환자 감염",
+      "발열",
+      "저체온",
+      "의식 변화",
+      "저혈압",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 발열 또는 저체온, 빈호흡, 빈맥, 저혈압, 혼돈, 소변량 감소, 피부 mottling, 저산소증, 젖산 상승이 단서다. 고령·면역저하에서는 발열이 없을 수 있다.",
+    "href": "/disease/MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA"
   },
   {
     "type": "disease",
@@ -16787,13 +16963,14 @@
       "무증상",
       "검진 이상",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증",
+      "출처"
     ],
-    "quickSummary": "임신 중 처음 발견되거나 발생한 당뇨병(glucose intolerance).",
+    "quickSummary": "• 대부분 무증상이며 산전 선별검사에서 발견된다. 다뇨·다음·체중 감소 등 뚜렷한 고혈당 증상이나 임신 초기의 현저한 고혈당은 기존 당뇨병 가능성을 재평가할 소견이다.",
     "href": "/disease/MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA"
   },
   {
@@ -16817,27 +16994,14 @@
       "상복부 통증",
       "복통",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)",
-      "통합 전 원문",
-      "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)",
-      "Merged source from 11 외과",
-      "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증",
+      "출처"
     ],
-    "quickSummary": "임신 20주 이후에 새로 발생한 고혈압(수축기 혈압 140 mmHg 이상 또는 이완기 혈압 90 mmHg 이상)으로, 단백뇨가 동반되지 않으며 산후 12주 이내에 혈압이 정상화되는 경우를 말함.",
+    "quickSummary": "• 무증상일 수 있으나, 지속 두통, 시야장애, 우상복부/상복부 통증, 호흡곤란, 급격한 부종·체중 증가, 태동 감소는 자간전증·폐부종·태반 문제를 의심할 위험 신호다.",
     "href": "/disease/MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA"
   },
   {
@@ -20729,13 +20893,14 @@
       "탈수",
       "시야 흐림",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증",
+      "출처"
     ],
-    "quickSummary": "혈당 조절 장애로 인한 만성 대사 질환",
+    "quickSummary": "• 구토·복통, 깊고 빠른 호흡, 케톤 냄새, 의식 변화는 [[당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)]]를 의심해 즉시 응급 평가한다. 비만·흑색가시세포증이 있어도 DKA·자가면역 제1형을 배제하지 않는다.",
     "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64u564eo67ORIChEaWFiZXRlcyBNZWxsaXR1cykubWQ"
   },
   {
@@ -26116,20 +26281,27 @@
     "title": "허혈성 뇌졸중 (Ischemic stroke)",
     "category": "16 신경과-신경외과",
     "aliases": [
-      "허혈성 뇌졸중",
-      "근력/감각이상"
+      "Ischemic Stroke",
+      "AIS",
+      "편측 마비",
+      "언어장애",
+      "시야장애",
+      "어지러움"
     ],
     "keywords": [
-      "허혈성 뇌졸중",
-      "근력/감각이상",
+      "뇌혈관",
+      "편측 마비",
+      "언어장애",
+      "시야장애",
+      "어지러움",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "뇌 혈류 감소로 인한 뇌 조직의 허혈 및 경색",
+    "quickSummary": "• 저혈당, 발작 후 마비, 편두통, 기능성 장애, 뇌출혈, 대동맥박리 등을 동시에 감별하지만 비조영 CT와 glucose 확인을 위해 재관류 평가를 지연하지 않는다.",
     "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k"
   },
   {
@@ -27128,13 +27300,14 @@
       "무증상",
       "시력 저하",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증",
+      "출처"
     ],
-    "quickSummary": "고혈압으로 인한 망막 혈관의 손상 및 변화",
+    "quickSummary": "• 급성 시력 저하, 심한 두통·신경학적 증상·흉통·호흡곤란과 함께 망막출혈·면화반·유두부종이 있으면 고혈압 응급 또는 다른 시신경·망막 응급질환을 배제하기 위해 응급 평가가 필요하다.",
     "href": "/disease/MTgg7JWI6rO8L-qzoO2YiOyVleunneunieuzkeymnSAoaHlwZXJ0ZW5zaXZlIHJldGlub3BhdGh5KS5tZA"
   },
   {
@@ -27417,11 +27590,11 @@
       "시력 저하",
       "시야 흐림",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
     "quickSummary": "당뇨병으로 인한 망막의 미세혈관 합병증으로, 당뇨병 환자에서 실명을 유발하는 가장 흔한 원인 중 하나임.",
     "href": "/disease/MTgg7JWI6rO8L-uLueuHqOunneunieuzkeymnSAoZGlhYmV0aWMgcmV0aW5vcGF0aHkpLm1k"
@@ -39511,6 +39684,114 @@
     "quickSummary": "- hypokalemia 교정을 위한 대표적 칼륨 보충제이며, 경구와 정맥 제형 모두 임상에서 매우 흔합니다.",
     "href": "/drugs/ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvUG90YXNzaXVtQ2hsb3JpZGUubWQ",
     "priority": ""
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDFfMSBDZWxsdWxhciBQaHlzaW9sb2d5Lm1k",
+    "title": "001_1 Cellular Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "keywords": [
+      "*세포 생리학*"
+    ],
+    "quickSummary": "xml 버전='1.0' 인코딩='utf-8'?",
+    "href": "/physiology/cGh5c2lvbG9neTowMDFfMSBDZWxsdWxhciBQaHlzaW9sb2d5Lm1k"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDJfMiBBdXRvbm9taWMgTmVydm91cyBTeXN0ZW0ubWQ",
+    "title": "002_2 Autonomic Nervous System",
+    "category": "05 Physiology",
+    "aliases": [],
+    "keywords": [
+      "*자율신경계*"
+    ],
+    "quickSummary": "xml 버전='1.0' 인코딩='utf-8'?",
+    "href": "/physiology/cGh5c2lvbG9neTowMDJfMiBBdXRvbm9taWMgTmVydm91cyBTeXN0ZW0ubWQ"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDNfMyBOZXVyb3BoeXNpb2xvZ3kubWQ",
+    "title": "003_3 Neurophysiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "keywords": [
+      "*신경생리학*"
+    ],
+    "quickSummary": "xml 버전='1.0' 인코딩='utf-8'?",
+    "href": "/physiology/cGh5c2lvbG9neTowMDNfMyBOZXVyb3BoeXNpb2xvZ3kubWQ"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDRfNCBDYXJkaW92YXNjdWxhciBQaHlzaW9sb2d5Lm1k",
+    "title": "004_4 Cardiovascular Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "keywords": [
+      "*심혈관 생리학*"
+    ],
+    "quickSummary": "xml 버전='1.0' 인코딩='utf-8'?",
+    "href": "/physiology/cGh5c2lvbG9neTowMDRfNCBDYXJkaW92YXNjdWxhciBQaHlzaW9sb2d5Lm1k"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDVfNSBSZXNwaXJhdG9yeSBQaHlzaW9sb2d5Lm1k",
+    "title": "005_5 Respiratory Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "keywords": [
+      "*호흡기 생리학*"
+    ],
+    "quickSummary": "xml 버전='1.0' 인코딩='utf-8'?",
+    "href": "/physiology/cGh5c2lvbG9neTowMDVfNSBSZXNwaXJhdG9yeSBQaHlzaW9sb2d5Lm1k"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDZfNiBSZW5hbCBQaHlzaW9sb2d5Lm1k",
+    "title": "006_6 Renal Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "keywords": [
+      "*신장 생리학*"
+    ],
+    "quickSummary": "xml 버전='1.0' 인코딩='utf-8'?",
+    "href": "/physiology/cGh5c2lvbG9neTowMDZfNiBSZW5hbCBQaHlzaW9sb2d5Lm1k"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDdfNyBBY2lkLUJhc2UgUGh5c2lvbG9neS5tZA",
+    "title": "007_7 Acid-Base Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "keywords": [
+      "*산성 생리학*"
+    ],
+    "quickSummary": "xml 버전='1.0' 인코딩='utf-8'?",
+    "href": "/physiology/cGh5c2lvbG9neTowMDdfNyBBY2lkLUJhc2UgUGh5c2lvbG9neS5tZA"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDhfOCBHYXN0cm9pbnRlc3RpbmFsIFBoeXNpb2xvZ3kubWQ",
+    "title": "008_8 Gastrointestinal Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "keywords": [
+      "*위장 생리학*"
+    ],
+    "quickSummary": "xml 버전='1.0' 인코딩='utf-8'?",
+    "href": "/physiology/cGh5c2lvbG9neTowMDhfOCBHYXN0cm9pbnRlc3RpbmFsIFBoeXNpb2xvZ3kubWQ"
+  },
+  {
+    "type": "physiology",
+    "slug": "cGh5c2lvbG9neTowMDlfOSBFbmRvY3JpbmUgUGh5c2lvbG9neS5tZA",
+    "title": "009_9 Endocrine Physiology",
+    "category": "05 Physiology",
+    "aliases": [],
+    "keywords": [
+      "*내분비 생리학*"
+    ],
+    "quickSummary": "xml 버전='1.0' 인코딩='utf-8'?",
+    "href": "/physiology/cGh5c2lvbG9neTowMDlfOSBFbmRvY3JpbmUgUGh5c2lvbG9neS5tZA"
   },
   {
     "type": "labImg",

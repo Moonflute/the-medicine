@@ -1,5 +1,7 @@
 ---
-aliases: []
+aliases:
+- PE
+- Pulmonary Embolism
 유형:
 - disease
 계통: 호흡기
@@ -7,62 +9,42 @@ aliases: []
 - 폐혈관
 CC:
 - 호흡곤란
-- 가슴통증
+- 흉통
 - 실신
-- 기침
 - 객혈
-- 부종
-- 심박수이상
-preprocessing_required: x
-last_studied: '2026-06-06'
+clinical_priority: tier_1
+content_updated_at: '2026-07-15'
+guideline_year: '2019'
+sources:
+- 'ESC Acute Pulmonary Embolism Guideline | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-pulmonary-embolism/'
+disease_family: pulmonary_embolism
+population: adult
 ---
+
 ## 1. 개요
-- 정의: 깊은정맥혈전증(DVT)에서 발생한 혈전이 폐동맥을 막아 혈류를 차단하는 질환.
-- 병태생리: 하지 정맥 등에서 생성된 혈전이 우심방, 우심실을 거쳐 폐동맥으로 이동하여 폐혈관을 폐쇄함. 폐 환기-관류 불일치(V/Q mismatch)로 저산소혈증 유발. 혈전이 클 경우 폐혈관 저항 증가 및 우심실 부하(RV stress)로 인한 급성 우심실 부전(RV failure), 쇼크 및 사망 가능.
-- 위험인자:
-  - 부동(immobilization): 수술, 외상, 장시간 비행, 와상 상태.
-  - 기저질환: 암, 심부전, COPD, 신증후군, 비만, 흡연, 임신/산욕기.
-  - 유전 및 기타: 항인지질증후군, Protein C/S 결핍증, Antithrombin III 결핍증, Factor V Leiden 변이 등 혈전성향증.
+- 폐색전증(PE)은 대부분 심부정맥혈전에서 기원한 혈전이 폐동맥을 막는 질환이다. 사망 위험은 혈압·우심실 기능·심근손상·동반질환에 따라 크게 다르다.
+- 치료의 핵심은 혈역학적 불안정 여부를 먼저 구분하고, 안정 환자에서는 사전확률 기반 검사와 신속한 항응고를 연결하는 것이다.
 
 ## 2. 임상 양상
-- 주호소: 급성 호흡곤란, 흉막성 흉통. 중증 시 실신, 쇼크, 심정지 발생 가능.
-- 기타 증상: 기침, 객혈, 다리 붓기 및 통증(DVT 동반 시).
-- 신체검사: 빈맥, 빈호흡, 저혈압. 우심실 부전 시 목정맥 확장, 삼첨판 역류, S3 심음 등이 관찰될 수 있음.
+- 갑작스러운 호흡곤란, 흉막성 흉통, 빈호흡·빈맥, 실신, 객혈이 흔하다. 증상은 비특이적이므로 DVT 증상, 최근 수술·부동·암·임신/에스트로겐·과거 VTE를 함께 묻는다.
+- 저혈압, 쇼크, 심정지, 의식 변화 또는 심한 저산소증은 high-risk PE를 시사하며 즉시 소생·재관류 팀 평가가 필요하다.
 
 ## 3. 검사
-- 혈액검사: D-dimer(음성 시 배제 목적), ABGA(저산소혈증, 호흡성 알칼리증), Troponin/BNP(우심실 부하 평가).
-- 영상 및 심전도:
-- CXR: 대부분 비특이적.
-  Westermark sign, Hampton hump 등은 드물게 관찰.
-- EKG: 빈맥이 가장 흔함.
-  S1Q3T3, V1~V4 T파 역전, 우각차단 등(RV strain 소견).
-- CT: CT 혈관 조영술(CT angio)이 확진 검사(1st line).
-- 폐 환기관류 스캔: CT 시행 불가 시 확진 검사(2nd line).
-- 심초음파: 우심실 기능 평가(RV 확장, hypokinesis, D-shaped LV, McConnell sign).
-- 하지정맥 도플러 초음파: DVT 확인.
+- 안정 환자는 Wells/Geneva 등 임상 사전확률을 먼저 정하고, 낮거나 중간 확률에서는 D-dimer로 영상 필요성을 줄인다. 높은 사전확률 또는 양성 D-dimer에서는 CTPA를 시행한다.
+- CTPA가 표준 진단검사지만 조영제 금기·중증 신부전·임신 등에서는 V/Q scan 또는 하지 압박초음파를 상황에 맞게 사용한다.
+- 심초음파는 불안정 환자에서 우심실부전과 대체 원인 평가에 특히 유용하며, 안정 환자에서는 prognostic stratification에 사용한다. troponin/BNP, RV/LV 비율은 위험도 평가 보조다.
 
 ## 4. 진단
-- 진단적 접근:
-- 임상적 의심이 중요하며, Wells score 등 예측 점수 활용.
-- 혈역학적 불안정(V/S unstable): 즉시 CT 시행(불가 시 침상 심초음파로 RV 부전 확인).
-- 혈역학적 안정(V/S stable): 임상적 가능성 평가 후 높으면 CT 시행, 낮으면 D-dimer 검사 후 양성 시 CT 시행.
+- 영상으로 폐동맥 혈전을 확인해 진단한다. 불안정 환자에서는 bedside echo의 우심실부전 소견과 임상 맥락이 즉시 치료 결정을 도울 수 있으나, 가능하면 확진 영상으로 보완한다.
+- 진단 뒤 고위험(쇼크/저혈압), intermediate-high/intermediate-low, low-risk를 구분해 치료 장소와 재관류 필요성을 정한다.
 
 ## 5. 치료
-- 항응고제: 대부분의 환자에게 사용(최소 3~6개월 유지).
-- Heparin(LMWH, UFH), DOAC(Rivaroxaban, Apixaban 등), Warfarin.
-- 혈전용해제(t-PA 등): 혈역학적으로 불안정한 환자에게 고려.
-- 색전제거술(embolectomy): 혈전용해제 금기이거나 실패 시 수술적 또는 카테터 제거술 시행.
-- 기타:
-- IVC filter: 항응고제 금기이거나 항응고치료 중 재발 시 고려.
-- 산소 투여: 저산소혈증 시.
-- 우심실 부전 시: 수액 주의 투여, 승압제(Norepinephrine 등), ECMO 고려.
-- 예방: 조기 보행, 항응고제 투여, 기계적 압박 장치.
+- 저산소증·저혈압에는 산소와 혈역학 지지를 제공한다. high-risk PE에서는 전신 혈전용해를 우선 고려하고, 금기 또는 실패 시 catheter-directed therapy 또는 수술적 embolectomy를 전문팀과 논의한다.
+- 안정 PE는 항응고가 기본이다. DOAC은 적절한 환자에서 우선 선택이며, 임신, 중증 신기능 장애, 항인지질증후군, 암·출혈 위험, 약물 상호작용에서는 LMWH/VKA 등 대안을 개별화한다.
+- intermediate-risk에서 routine thrombolysis는 출혈 위험 때문에 사용하지 않으며, 혈역학적 악화 시 rescue reperfusion을 준비한다. 항응고 시작 전후 신기능, 혈소판, 출혈, 시술 계획을 재평가한다.
+- 치료 기간은 유발 요인, 재발 위험, 출혈 위험과 선호를 반영해 정한다. 일시적 major risk factor와 관련된 첫 PE는 보통 최소 3개월 치료 후 재평가하며, 무유발·지속 위험인자·재발성 VTE는 연장 치료를 고려한다.
 
 ## 6. 예후 및 합병증
-- 합병증: 폐경색, 급성 우심실 부전, 쇼크, 심정지, 만성 혈전색전성 폐고혈압(CTEPH).
+- early death, 재발 VTE, major bleeding, chronic thromboembolic pulmonary hypertension(CTEPH)이 주요 합병증이다. 지속 호흡곤란·운동저하·실신은 CTEPH 또는 재발 PE 평가가 필요하다.
 
-출처 : Merck Manual Professional (Pulmonary Embolism, 2026)
-Last updated :
-2026-04-03 — 본문 갱신 (Gemini fill)
-2026-05-11 : 본문 갱신 (processed)
-2026-05-18 — 본문 갱신 (codex fill)
+출처: ESC, *2019 Guidelines on Acute Pulmonary Embolism*.

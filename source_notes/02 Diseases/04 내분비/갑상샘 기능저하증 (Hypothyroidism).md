@@ -15,7 +15,16 @@ CC:
 - 탈모
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: tier_2
+content_updated_at: '2026-07-15'
+guideline_year: '2014'
+sources:
+- 'AACE ATA Adult Hypothyroidism Clinical Practice Guideline | https://pubmed.ncbi.nlm.nih.gov/23246686/'
+- 'ATA Guidelines for Treatment of Hypothyroidism | https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/'
+disease_family: hypothyroidism
+population: adult
 ---
+
 분과 : [[내분비]]
 
 ## 1. 개요
@@ -41,8 +50,10 @@ last_studied: '2026-06-06'
 - 레보티록신(levothyroxine): 표준 치료제.
   공복에 복용하며, 칼슘/철분제 등 흡수 저해 약물과 시간 간격 유지
 - 용량 조절: 연령, 체중, 기저 심혈관 질환 여부에 따라 결정.
-  TSH가 정상 범위 중간에 오도록 조절
+  TSH가 정상 범위 중간에 오도록 조절. 고령 또는 관상동맥질환 환자는 낮은 용량으로 시작하여 협심증·부정맥과 검사값을 보며 천천히 조절한다.
 - 임산부: 임신 중에는 용량 증량이 필요하며, 태아 발달을 위해 적절한 호르몬 수치 유지가 필수적
+- 복용 교육: 공복에 일정하게 복용하며, 칼슘·철분·제산제 등 흡수 저해 약물과 시간 간격을 유지한다. 제형·복용 시간·병용약 변경은 TSH 변동의 원인이 될 수 있다.
+- 추적: 용량 또는 제형을 바꾼 뒤에는 TSH가 안정화될 시간을 두고 재평가하고, 안정 후에도 정기적으로 확인한다. 중추성 질환에서는 fT4를 중심으로 조절한다.
 - T3 제제: 단독 사용은 반감기가 짧고 혈중 농도 변동이 커 권장되지 않음
 
 ## 6. 예후 및 합병증

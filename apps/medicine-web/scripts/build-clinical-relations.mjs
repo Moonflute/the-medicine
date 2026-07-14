@@ -91,7 +91,7 @@ function wikiTargets(lines) {
 }
 function structuredTerms(value) {
   return String(value ?? "")
-    .split(/[,;/·]|\s+\+\s+/)
+    .split(/[,;/쨌]|\s+\+\s+/)
     .map((item) => item.replace(/\([^)]*\)/g, "").trim())
     .filter(Boolean);
 }
@@ -133,9 +133,28 @@ function inverse(source, relation, target, evidence) {
     initial_test: "ordered_for",
     monitored_by: "monitors",
     related_skill: "used_for",
+    child_of: "parent_of",
+    parent_of: "child_of",
+    canonical_reference: "canonical_for",
+    canonical_for: "canonical_reference",
   };
   const inverseRelation = map[relation];
   if (inverseRelation) add(target, inverseRelation, source, "generated", evidence);
+}
+
+function addFamilyResolved(source, rawTarget, relation, provenance, evidence) {
+  const key = normalize(rawTarget);
+  const candidates = (lookup.get(key) ?? []).filter((item) => item.type === "disease" && item.id !== source.id);
+  const sourcePopulation = source.item?.familyMeta?.population;
+  const target = candidates.find((item) => sourcePopulation === "pediatric" && item.item?.familyMeta?.population !== "pediatric")
+    ?? candidates.find((item) => item.item?.familyMeta?.population !== "pediatric")
+    ?? candidates[0];
+  if (!target) {
+    unresolved.push({ sourceType: source.type, sourceId: source.id, sourceTitle: source.title, rawTarget, relation, provenance, evidence });
+    return;
+  }
+  add(source, relation, target, provenance, evidence);
+  inverse(source, relation, target, evidence);
 }
 
 function addResolved(source, rawTarget, relation, provenance, preferredTypes, evidence) {
@@ -153,13 +172,21 @@ for (const node of nodes) {
 
   if (node.type === "disease") {
     for (const cc of item.chiefComplaints ?? []) addResolved(node, cc, "presents_as", "frontmatter", ["cc"], "chiefComplaints");
+    const familyMeta = item.familyMeta ?? {};
+    if (familyMeta.parentDisease) {
+      const relation = familyMeta.relationToParent === "subtype" ? "child_of" : "child_of";
+      addFamilyResolved(node, familyMeta.parentDisease, relation, "frontmatter", "parent_disease");
+    }
+    if (familyMeta.canonicalDisease && familyMeta.canonicalDisease !== item.title) {
+      addResolved(node, familyMeta.canonicalDisease, "canonical_reference", "frontmatter", ["disease"], "canonical_disease");
+    }
   }
 
   if (node.type === "drug") {
     for (const disease of item.drugMeta?.relatedDiseases ?? []) addResolved(node, disease, "indicated_for", "frontmatter", ["disease"], "related_diseases");
     for (const monitoringLine of item.drugMeta?.monitoring ?? []) {
-      if (!/검사|수치|기능|혈구|전해질|농도|모니터|monitor|추적|확인|ECG|EKG|CBC|PT|INR|aPTT/i.test(monitoringLine)) continue;
-      if (/권장되지|불필요|사용하지|대체하지|not recommended|not routinely/i.test(monitoringLine)) continue;
+      if (!/(monitor|monitoring|ECG|EKG|CBC|PT|INR|aPTT)/i.test(monitoringLine)) continue;
+      if (/(not recommended|not routinely)/i.test(monitoringLine)) continue;
       const exactTerms = structuredTerms(monitoringLine).map((term) => resolve(term, ["lab"])).filter(Boolean);
       const mentioned = mentionedNodes(monitoringLine, "lab");
       for (const target of [...new Map([...exactTerms, ...mentioned].map((item) => [item.id, item])).values()]) {
@@ -194,14 +221,14 @@ for (const node of nodes) {
 
       let relation = "related";
       if (node.type === "cc" && target.type === "disease") relation = "differential";
-      else if (node.type === "cc" && target.type === "lab") relation = /검사|test/.test(heading) ? "initial_test" : "related_test";
-      else if (node.type === "cc" && target.type === "drug") relation = /치료|treat/.test(heading) ? "immediate_treatment" : "related_drug";
+      else if (node.type === "cc" && target.type === "lab") relation = /test/.test(heading) ? "initial_test" : "related_test";
+      else if (node.type === "cc" && target.type === "drug") relation = /移섎즺|treat/.test(heading) ? "immediate_treatment" : "related_drug";
       else if ((node.type === "cc" || node.type === "disease") && target.type === "skill") relation = "related_skill";
-      else if (node.type === "disease" && target.type === "lab") relation = /검사|진단|diagnos|workup/.test(heading) ? "diagnosed_by" : "related_test";
-      else if (node.type === "disease" && target.type === "drug") relation = /치료|management|treat|약물/.test(heading) ? "treated_with" : "related_drug";
+      else if (node.type === "disease" && target.type === "lab") relation = /diagnos|workup/.test(heading) ? "diagnosed_by" : "related_test";
+      else if (node.type === "disease" && target.type === "drug") relation = /management|treat/.test(heading) ? "treated_with" : "related_drug";
       else if (node.type === "lab" && target.type === "disease") relation = "interprets";
-      else if (node.type === "lab" && target.type === "lab") relation = /다음|next/.test(heading) ? "next_test" : "related_test";
-      else if (node.type === "drug" && target.type === "lab") relation = /모니터|monitor/.test(heading) ? "monitored_by" : "related_test";
+      else if (node.type === "lab" && target.type === "lab") relation = /next/.test(heading) ? "next_test" : "related_test";
+      else if (node.type === "drug" && target.type === "lab") relation = /monitor/.test(heading) ? "monitored_by" : "related_test";
       else if (node.type === "drug" && target.type === "disease") relation = "indicated_for";
 
       add(node, relation, target, "wikilink", section.title);

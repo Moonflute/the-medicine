@@ -21,8 +21,8 @@ import {
 type Tab = "today" | "saved" | "recent";
 
 const TYPE_LABELS: Record<string, string> = {
-  disease: "질병",
-  cc: "CC",
+  disease: "질환",
+  cc: "증상 / CC",
   drug: "약물",
   lab: "검사",
   skill: "술기",
@@ -67,7 +67,7 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
 
   function rate(item: ReviewItem, confidence: ReviewConfidence) {
     rateReviewItem(item.type, item.id, confidence);
-    setMessage(`${item.title}: ${confidence}로 기록했습니다.`);
+    setMessage(`${item.title}: ${confidence}濡?湲곕줉?덉뒿?덈떎.`);
   }
 
   function downloadExport() {
@@ -78,16 +78,16 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
     anchor.download = `the-medicine-review-${new Date().toISOString().slice(0, 10)}.json`;
     anchor.click();
     URL.revokeObjectURL(url);
-    setMessage("복습 데이터를 내보냈습니다.");
+    setMessage("蹂듭뒿 ?곗씠?곕? ?대낫?덉뒿?덈떎.");
   }
 
   async function importFile(file?: File) {
     if (!file) return;
     try {
       importReviewData(JSON.parse(await file.text()));
-      setMessage("복습 데이터를 가져왔습니다.");
+      setMessage("蹂듭뒿 ?곗씠?곕? 媛?몄솕?듬땲??");
     } catch (error) {
-      setMessage(error instanceof Error ? error.message : "가져오기에 실패했습니다.");
+      setMessage(error instanceof Error ? error.message : "媛?몄삤湲곗뿉 ?ㅽ뙣?덉뒿?덈떎.");
     } finally {
       if (inputRef.current) inputRef.current.value = "";
     }
@@ -96,16 +96,16 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
   return (
     <div className="space-y-5">
       <section className="grid gap-3 sm:grid-cols-3">
-        <div className="rounded-lg border border-slate-200 bg-white p-4"><div className="text-xs text-slate-500">저장</div><div className="mt-1 text-2xl font-semibold">{items.length}</div></div>
+        <div className="rounded-lg border border-slate-200 bg-white p-4"><div className="text-xs text-slate-500">전체 항목</div><div className="mt-1 text-2xl font-semibold">{items.length}</div></div>
         <div className="rounded-lg border border-amber-200 bg-amber-50 p-4"><div className="text-xs text-amber-700">오늘 복습</div><div className="mt-1 text-2xl font-semibold text-amber-950">{due.length}</div></div>
-        <div className="rounded-lg border border-slate-200 bg-white p-4"><div className="text-xs text-slate-500">최근 본 항목</div><div className="mt-1 text-2xl font-semibold">{recent.length}</div></div>
+        <div className="rounded-lg border border-slate-200 bg-white p-4"><div className="text-xs text-slate-500">최근 복습</div><div className="mt-1 text-2xl font-semibold">{recent.length}</div></div>
       </section>
 
       <section className="flex flex-wrap items-center justify-between gap-3">
         <div className="inline-flex rounded-lg border border-slate-200 bg-white p-1">
           {([
-            ["today", `오늘 ${due.length}`],
-            ["saved", `저장 ${items.length}`],
+            ["today", `?ㅻ뒛 ${due.length}`],
+            ["saved", `???${items.length}`],
             ["recent", `최근 ${recent.length}`],
           ] as Array<[Tab, string]>).map(([key, label]) => (
             <button key={key} type="button" onClick={() => setTab(key)} className={`rounded-md px-3 py-2 text-sm font-medium ${tab === key ? "bg-teal-600 text-white" : "text-slate-600"}`}>
@@ -124,7 +124,7 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
 
       {current.length === 0 ? (
         <div className="rounded-lg border border-dashed border-slate-300 bg-white/70 p-10 text-center text-slate-600">
-          {tab === "recent" ? "최근 본 항목이 없습니다." : "복습할 항목이 없습니다. 상세 페이지의 복습 저장 버튼을 사용하세요."}
+          {tab === "recent" ? "理쒓렐 蹂???ぉ???놁뒿?덈떎." : "蹂듭뒿????ぉ???놁뒿?덈떎. ?곸꽭 ?섏씠吏??蹂듭뒿 ???踰꾪듉???ъ슜?섏꽭??"}
         </div>
       ) : (
         <div className="grid gap-4">
@@ -146,20 +146,20 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
                   <div className="flex gap-2">
                     <button type="button" onClick={() => toggleReveal(item)} className="secondary-action">
                       {isRevealed ? <Eye className="h-4 w-4" /> : <EyeOff className="h-4 w-4" />}
-                      {isRevealed ? "핵심 가리기" : "핵심 보기"}
+                      {isRevealed ? "핵심 숨기기" : "핵심 보기"}
                     </button>
                     <button type="button" onClick={() => toggleReviewItem(item)} className="secondary-action">{isSaved ? "저장 해제" : "저장"}</button>
                   </div>
                 </div>
 
                 <div className={`mt-4 rounded-lg border px-4 py-3 text-sm leading-6 ${isRevealed ? "border-slate-200 bg-slate-50 text-slate-700" : "border-dashed border-slate-300 bg-slate-100 text-slate-400"}`}>
-                  {isRevealed ? item.summary || "정리된 핵심 요약이 없습니다." : "핵심 내용을 먼저 떠올린 뒤 ‘핵심 보기’를 누르세요."}
+                  {isRevealed ? item.summary || "핵심 요약이 없습니다." : "핵심 내용을 보려면 핵심 보기 버튼을 사용하세요."}
                 </div>
 
                 {reviewItem ? (
                   <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-slate-200 pt-4">
                     <div className="text-xs text-slate-500">
-                      복습 {reviewItem.reviewCount}회 · 최근 {formatDate(reviewItem.lastReviewedAt)} · 다음 {formatDate(reviewItem.nextReviewAt)}
+                      蹂듭뒿 {reviewItem.reviewCount}??쨌 理쒓렐 {formatDate(reviewItem.lastReviewedAt)} 쨌 ?ㅼ쓬 {formatDate(reviewItem.nextReviewAt)}
                     </div>
                     <div className="flex gap-2">
                       <button type="button" onClick={() => rate(reviewItem, "again")} className="rounded-md border border-rose-200 bg-rose-50 px-3 py-2 text-xs font-medium text-rose-800">Again</button>

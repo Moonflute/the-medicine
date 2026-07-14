@@ -16,7 +16,15 @@ CC:
 - 절박뇨
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: tier_2
+content_updated_at: '2026-07-15'
+guideline_year: '2025'
+sources:
+- 'IDSA Guideline Update on Complicated Urinary Tract Infections | https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/'
+disease_family: urinary_tract_infection
+population: adult
 ---
+
 분과 : [[신장]]
 
 ## 1. 개요
@@ -39,7 +47,8 @@ last_studied: '2026-06-06'
 - **소변검사**:
   농뇨(가장 흔함), 세균뇨, 단백뇨, 혈뇨
   아질산염(nitrite) 양성은 요로 감염을 시사하나 음성이라도 배제할 수 없음.
-- **소변 배양검사**: 확진 및 항생제 감수성 확인(항생제 투여 전 채취 권장)
+- **소변 배양검사**: 확진 및 항생제 감수성 확인을 위해 항생제 투여 전 채취를 권장한다. 임상 악화·치료 실패 시 혈액배양 및 내성균 위험을 함께 재평가한다.
+- **영상검사 적응**: 모든 환자에게 즉시 반복 영상이 필요한 것은 아니다. 패혈증, 요로 폐쇄/결석 의심, 당뇨·면역저하, 신기능 악화 또는 적절한 항생제에도 호전이 없을 때 CT/초음파로 폐쇄·농양을 확인한다.
 - **영상검사**:
   - CT: 신장 부종, 조영증강 저하(wedge shape)
   - 99mTc-DMSA 신 스캔: 국소적 음영 결손(focal defect)
@@ -56,6 +65,8 @@ last_studied: '2026-06-06'
 - **입원 치료(중증/패혈증)**: 정맥용 항생제(fluoroquinolone, 3세대 cephalosporin, piperacillin-tazobactam, carbapenem 등)
 - **산모**: 3세대 cephalosporin 등 안전한 항생제 사용, fluoroquinolone과 tetracycline 금기
 - **주의**: 니트로푸란토인(nitrofurantoin)은 신장 조직 침투력이 낮아 신우신염 치료에 권장되지 않음
+- **입원·비뇨기 중재**: 저혈압/패혈증, 경구 복용 불가, 임신, 중증 통증·구토, 폐쇄 의심 또는 고위험 기저질환에서는 입원 치료를 고려한다. 감염된 폐쇄 요로는 항생제만으로 해결되지 않을 수 있으므로 긴급 배액을 비뇨기과와 상의한다.
+- **항생제 재평가**: 배양·감수성 결과와 임상 반응에 맞춰 경험적 광범위 요법을 좁히고, 경구 전환 가능 여부와 총 치료 기간을 개별화한다.
 
 ## 6. 예후 및 합병증
 - 신장 농양: 항생제 치료에도 증상 지속 시 의심, 경피적 배액술 고려.

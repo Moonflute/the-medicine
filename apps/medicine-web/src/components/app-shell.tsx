@@ -18,7 +18,7 @@ const navItems = [
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.1.0";
+  const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.2.5";
 
   const title = useMemo(() => {
     if (pathname === "/") return "The Medicine";

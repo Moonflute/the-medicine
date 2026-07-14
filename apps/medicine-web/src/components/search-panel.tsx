@@ -104,14 +104,13 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
     <section className={`w-full ${className}`.trim()}>
       <label className="surface flex items-center gap-3 px-4 py-3 focus-within:border-teal-600 focus-within:ring-2 focus-within:ring-teal-600/15 sm:px-5 sm:py-4">
         <Search className="h-5 w-5 shrink-0 text-slate-500" />
-        <input ref={inputRef} type="text" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="예: 가슴 통증, STEMI, metformin" className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" autoFocus />
+        <input ref={inputRef} type="text" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="?? 媛???듭쬆, STEMI, metformin" className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" autoFocus />
         <span className="hidden rounded border border-slate-200 bg-slate-50 px-2 py-1 text-[11px] text-slate-400 sm:inline">Ctrl K</span>
       </label>
 
       {!term && recentSearches.length > 0 ? (
         <div className="mt-4">
           <div className="mb-2 flex items-center gap-2 text-xs font-semibold uppercase text-slate-500"><Clock3 className="h-3.5 w-3.5" />최근 검색</div>
-          <div className="flex flex-wrap gap-2">{recentSearches.map((item) => <button key={item} type="button" onClick={() => setQuery(item)} className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm text-slate-700 hover:border-teal-300 hover:text-teal-800">{item}</button>)}</div>
         </div>
       ) : null}
 
@@ -131,7 +130,7 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
                 </Link>
               ))}</div>
             </section>
-          )) : <div className="surface-subtle p-5 text-sm text-slate-600">검색 결과가 없습니다.</div>}
+          )) : <div className="surface-subtle p-5 text-sm text-slate-600">寃??寃곌낵媛 ?놁뒿?덈떎.</div>}
         </div>
       ) : null}
     </section>

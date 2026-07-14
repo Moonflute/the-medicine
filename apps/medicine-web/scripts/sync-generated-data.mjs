@@ -360,6 +360,16 @@ function buildDiseases() {
     const specialty = path.relative(root, filePath).split(path.sep)[0];
     const fileName = path.basename(filePath, ".md");
     const stat = fs.statSync(filePath);
+    const contentUpdatedAt = readScalar(frontmatter["content_updated_at"]);
+    const guidelineYear = readScalar(frontmatter["guideline_year"]);
+    const sources = parseSkillSources(frontmatter.sources);
+    const family = readScalar(frontmatter["disease_family"]);
+    const parentDisease = readScalar(frontmatter["parent_disease"]);
+    const relationToParent = readScalar(frontmatter["relation_to_parent"]);
+    const population = readScalar(frontmatter["population"]);
+    const canonicalDisease = readScalar(frontmatter["canonical_disease"]);
+    const hasContentMeta = Boolean(contentUpdatedAt || guidelineYear || sources.length);
+    const hasFamilyMeta = Boolean(family || parentDisease || relationToParent || population || canonicalDisease);
 
     return {
       id: path.relative(SOURCE_NOTES_ROOT, filePath).replaceAll("\\", "/"),
@@ -375,6 +385,23 @@ function buildDiseases() {
       overview: buildStudyOverview(sections),
       sections,
       updatedAt: stat.mtime.toISOString(),
+      clinicalPriority: readScalar(frontmatter["clinical_priority"]) || readScalar(frontmatter["임상_우선순위"]),
+      ...(hasContentMeta ? {
+        contentMeta: {
+          contentUpdatedAt,
+          guidelineYear,
+          sources,
+        },
+      } : {}),
+      ...(hasFamilyMeta ? {
+        familyMeta: {
+          family,
+          parentDisease,
+          relationToParent,
+          population,
+          canonicalDisease,
+        },
+      } : {}),
     };
   });
 }
@@ -1077,7 +1104,7 @@ function main() {
   const diseases = buildDiseases();
   const chiefComplaints = buildChiefComplaints();
   const drugs = buildDrugs();
-  const physiology = [];
+  const physiology = buildGenericNotes("05 Physiology", "physiology");
   const pathology = buildGenericNotes("03 Pathology", "pathology");
   const labImg = buildGenericNotes("06 Lab & Img", "lab-img", {
     ignoreFiles: ["Lab & Img.md", "분류체계.md", "_\uBAA9\uCC28.md"],
@@ -1102,7 +1129,7 @@ function main() {
       diseases: { count: diseases.length, source: "02 Diseases" },
       chiefComplaints: { count: chiefComplaints.length, source: "01 Chief Complaint" },
       drugs: { count: drugs.length, source: "04 Pharmacology" },
-      physiology: { count: 0, source: "05 Physiology (excluded from web build)" },
+      physiology: { count: physiology.length, source: "05 Physiology" },
       pathology: { count: pathology.length, source: "03 Pathology" },
       labImg: { count: labImg.length, source: "06 Lab & Img" },
       skills: { count: skills.items.length, source: "07 Skills" },

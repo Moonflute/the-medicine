@@ -26,7 +26,7 @@ export default function ReviewPage() {
       type: "cc" as const,
       id: note.id,
       title: note.title,
-      href: `/cc/category/${toBase64Url(note.category || "기타")}/${note.slug}`,
+      href: `/cc/category/${toBase64Url(note.category || "湲고?")}/${note.slug}`,
       category: note.category || "Chief Complaint",
       summary: note.concept[0] || note.differentials[0] || "",
     })),
@@ -60,9 +60,9 @@ export default function ReviewPage() {
     <div className="page-stack">
       <header className="page-header">
         <div className="eyebrow">Review</div>
-        <h1 className="page-title">통합 복습</h1>
+        <h1 className="page-title">?듯빀 蹂듭뒿</h1>
         <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-600">
-          Review saved disease, symptom, drug, lab, and skill notes today and adjust the next review date by confidence.
+          ??ν븳 吏덈퀝쨌利앹긽쨌?쎈Ъ쨌寃??룹닠湲걔룹깮由ы븰???ㅻ뒛 蹂듭뒿?섍퀬, ?댄빐?꾩뿉 ?곕씪 ?ㅼ쓬 蹂듭뒿?쇱쓣 議곗젙?⑸땲??
         </p>
       </header>
       <ReviewPageClient catalog={catalog} />

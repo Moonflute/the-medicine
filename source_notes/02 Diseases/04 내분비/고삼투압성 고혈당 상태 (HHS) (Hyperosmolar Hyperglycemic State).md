@@ -12,6 +12,17 @@ CC:
 - 탈수
 preprocessing_required: x
 last_studied: '2026-06-06'
+sources:
+- '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
+- 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
+- '2024 Hyperglycemic Crises in Adults With Diabetes Consensus Report | https://pmc.ncbi.nlm.nih.gov/articles/PMC11272983/'
+clinical_priority: tier_1
+content_updated_at: '2026-07-14'
+guideline_year: '2026'
+disease_family: diabetes
+parent_disease: 당뇨병 (Diabetes Mellitus)
+relation_to_parent: acute_complication
+population: general
 ---
 분과 : [[내분비]]
 
@@ -63,3 +74,34 @@ last_studied: '2026-06-06'
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
+분과 : [[내분비]]
+
+## 1. 개요
+- 고삼투압성 고혈당 상태(HHS)는 심한 고혈당·고삼투압·탈수와 의식 변화를 특징으로 하는 당뇨병의 급성 합병증이다. 상대적으로 남아 있는 인슐린 작용 때문에 DKA보다 케톤산증은 경미하거나 없을 수 있다.
+- 고령의 제2형 당뇨병, 감염, 심뇌혈관 사건, 이뇨제·스테로이드 등 약물, 수분 섭취 저하가 흔한 맥락이다. DKA와 HHS가 겹치는 혼합형도 가능하다.
+
+## 2. 임상 양상
+- 다뇨·다음, 체중 감소, 심한 갈증과 탈수, 쇠약, 의식 변화가 흔하다. 피부·점막 건조, 빈맥, 기립성 저혈압과 신경학적 이상을 확인한다.
+- 저혈압·쇼크, 의식 저하, 경련·국소신경학적 이상, 심한 탈수 또는 패혈증·심근경색 같은 중증 유발 질환은 즉시 고도 치료가 필요한 소견이다.
+
+## 3. 검사
+- 혈당, 전해질·요소질소·크레아티닌, 정맥혈 pH/중탄산염, β-hydroxybutyrate와 혈청 삼투압을 초기 평가한다. HHS 치료 중 혈청 삼투압은 4시간마다 추적한다.
+- 혈청 나트륨은 고혈당과 수분 결핍의 영향을 받으므로 혈당 변화와 임상적 용적 상태를 함께 해석한다. 병력과 진찰에 따라 감염, 허혈, 약물, 치료 중단을 찾는다.
+
+## 4. 진단
+- 2024 성인 컨센서스는 혈당 ≥600 mg/dL, 유효 혈청 삼투압 >300 mOsm/kg 또는 총 삼투압 >320 mOsm/kg, 유의한 케톤혈증 부재(β-hydroxybutyrate <3.0 mmol/L), 산증 부재(pH ≥7.3 및 중탄산염 ≥15 mmol/L)를 함께 제시한다.
+- 케톤혈증·산증이 동반되면 DKA-HHS 혼합형으로 보고 DKA 치료 강도와 모니터링을 적용한다. 의식 변화의 다른 원인(뇌졸중, 감염, 약물 등)도 동시 평가한다.
+
+## 5. 치료
+- 수액으로 혈관 내 용적과 조직 관류를 회복하고, 인슐린·전해질 보충 및 유발 인자 치료를 병행한다. 등장성 생리식염수 또는 균형 결정질액을 초기 수액으로 사용할 수 있으며, 심부전·말기콩팥병·고령은 더 신중한 용적 재평가가 필요하다.
+- HHS에서는 혈당 감소가 시간당 90 mg/dL를 넘지 않도록 하고, 나트륨은 24시간에 10 mmol/L를 넘지 않게, 삼투압은 시간당 3–8 mOsm/kg 범위로 낮추어 급격한 삼투압 변화를 피한다.
+- 유의한 케톤산증이 없는 HHS는 정주 속효성 인슐린 0.05 units/kg/h를 사용한다. 혼합 DKA-HHS(유의한 케톤혈증 또는 산증 동반)는 0.1 units/kg/h를 적용한다. 혈당이 낮아져도 삼투압·대사 이상이 교정될 때까지 포도당 수액을 병용하며 치료를 이어간다.
+- 칼륨이 5.0 mmol/L 미만이면 보충을 시작해 4–5 mmol/L를 목표로 하고, <3.5 mmol/L이면 먼저 보충한 뒤 인슐린을 시작한다. 중증 HHS, 의식 변화, 중환자 유발 질환은 ICU에서 치료한다.
+
+## 6. 예후 및 합병증
+- HHS는 고령과 동반질환이 많은 환자에서 발생해 DKA보다 사망 위험이 높을 수 있다. 치료 중 저혈당·저칼륨혈증, 급성콩팥손상, 혈전, 급격한 삼투압 변화에 따른 신경학적 합병증을 감시한다.
+- 재발 예방을 위해 유발 질환, 수분 섭취와 sick-day plan, 혈당 모니터링, 약물·돌봄 접근성을 퇴원 전 재평가한다.
+
+## 출처
+- 2024 Hyperglycemic Crises in Adults With Diabetes: A Consensus Report: https://pmc.ncbi.nlm.nih.gov/articles/PMC11272983/
+- 대한당뇨병학회 2025 제9판 당뇨병 진료지침: https://diabetes.or.kr/bbs/?code=guide

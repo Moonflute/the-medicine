@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-11T18:19:19.461Z",
+  "generatedAt": "2026-07-14T23:32:00.245Z",
   "sourceRoot": "source_notes",
   "outputRoot": "_webapp/data",
   "domains": {
     "diseases": {
-      "count": 1173,
+      "count": 1178,
       "source": "02 Diseases"
     },
     "chiefComplaints": {
@@ -16,8 +16,8 @@
       "source": "04 Pharmacology"
     },
     "physiology": {
-      "count": 0,
-      "source": "05 Physiology (excluded from web build)"
+      "count": 9,
+      "source": "05 Physiology"
     },
     "pathology": {
       "count": 0,
@@ -39,16 +39,6 @@
       "count": 22,
       "source": "02 Diseases/*/_목차.md"
     },
-    "specialties": {
-      "count": 22,
-      "source": "derived from diseases"
-    },
-    "clinicalRelations": {
-      "count": 7683,
-      "explicit": 4874,
-      "generated": 2809,
-      "source": "derived from frontmatter, structured CC recommendations, and wikilinks"
-    },
     "drugToc": {
       "count": 15,
       "source": "04 Pharmacology/_목차.md"
@@ -56,6 +46,16 @@
     "labImgToc": {
       "count": 11,
       "source": "06 Lab & Img/_목차.md"
+    },
+    "specialties": {
+      "count": 22,
+      "source": "derived from diseases"
+    },
+    "clinicalRelations": {
+      "count": 6977,
+      "explicit": 4535,
+      "generated": 2442,
+      "source": "derived from frontmatter, structured CC recommendations, and wikilinks"
     }
   }
 }

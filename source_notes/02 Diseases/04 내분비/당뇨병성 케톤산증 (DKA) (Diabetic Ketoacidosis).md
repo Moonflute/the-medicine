@@ -11,6 +11,17 @@ CC:
 - 복통
 preprocessing_required: x
 last_studied: '2026-06-06'
+sources:
+- '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
+- 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
+- '2024 Hyperglycemic Crises in Adults With Diabetes Consensus Report | https://pmc.ncbi.nlm.nih.gov/articles/PMC11272983/'
+clinical_priority: tier_1
+content_updated_at: '2026-07-14'
+guideline_year: '2026'
+disease_family: diabetes
+parent_disease: 당뇨병 (Diabetes Mellitus)
+relation_to_parent: acute_complication
+population: general
 ---
 분과 : [[내분비]]
 
@@ -65,3 +76,36 @@ last_studied: '2026-06-06'
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
+분과 : [[내분비]]
+
+## 1. 개요
+- 당뇨병성 케톤산증(DKA)은 인슐린 결핍과 길항호르몬 증가로 고혈당, 케톤혈증 및 대사성 산증이 함께 생기는 급성 합병증이다.
+- 인슐린 투여 중단·부족, 감염, 심근경색·뇌졸중·수술 등 급성 질환이 흔한 유발 인자다. SGLT2 억제제 사용, 금식·구토, 임신에서는 혈당이 높지 않은 정상혈당 DKA도 가능하다.
+
+## 2. 임상 양상
+- 다뇨·다음·체중 감소 등 고혈당 증상과 오심·구토·복통·전신 쇠약이 흔하다. 쿠스마울 호흡, 아세톤 냄새, 점막 건조·빈맥·저혈압은 산증과 탈수를 시사한다.
+- 의식 변화, 쇼크, 심한 탈수, 호흡부전 또는 중증 유발 질환이 있으면 중환자 치료가 필요한 중증 DKA를 우선 의심한다.
+
+## 3. 검사
+- 혈당, 전해질·요소질소·크레아티닌, 정맥혈 pH/중탄산염, 혈중 β-hydroxybutyrate를 초기 평가에 포함한다. 케톤은 소변보다 혈중 β-hydroxybutyrate가 진단과 치료 반응 평가에 유용하다.
+- 심전도는 고칼륨혈증 관련 변화와 허혈을 확인하는 데 도움이 된다. 병력과 진찰에 따라 감염, 허혈, 약물, 인슐린 사용 중단 등 유발 인자를 찾는다.
+- 치료 중에는 병원 보정 혈당을 1–2시간마다, 전해질·크레아티닌·β-hydroxybutyrate·정맥혈 pH를 4시간마다 확인한다. 음이온차나 소변 케톤만으로 해소 여부를 판단하지 않는다.
+
+## 4. 진단
+- 고혈당 또는 당뇨병 병력, 유의한 케톤혈증, 대사성 산증의 세 요소를 함께 확인한다. 2024 성인 컨센서스는 혈당 ≥200 mg/dL 또는 당뇨병 병력, β-hydroxybutyrate ≥3.0 mmol/L, pH <7.3 또는 중탄산염 <18 mmol/L을 기준으로 제시한다.
+- 알코올성·기아성 케톤산증, 임신오조에 의한 케톤증, 젖산산증 등은 병력·혈당·산염기 상태를 함께 보아 감별한다.
+
+## 5. 치료
+- 수액, 인슐린, 전해질 보충과 유발 인자 치료를 동시에 시작한다. 초기 등장성 생리식염수 또는 균형 결정질액을 사용하며, 심부전·말기콩팥병·고령에서는 용적 과부하 위험을 고려해 속도와 재평가를 개별화한다.
+- 지속 정주 속효성 인슐린은 보통 0.1 units/kg/h로 시작한다. 혈당이 250 mg/dL 미만이면 5–10% 포도당을 수액에 추가하고 인슐린을 0.05 units/kg/h로 낮추되, 케톤산증이 해소될 때까지 인슐린을 유지한다. 단순 경증·중등도 DKA는 관찰 여건이 갖춰진 경우 피하 초속효성 인슐린 프로토콜을 고려할 수 있다.
+- 총 체내 칼륨은 대개 고갈되어 있다. 칼륨이 5.0 mmol/L 미만이면 보충을 시작해 4–5 mmol/L를 목표로 하며, 칼륨 <3.5 mmol/L이면 먼저 보충하고 3.5 mmol/L를 넘을 때까지 인슐린을 지연한다. 인슐린 시작 뒤 2시간에 칼륨을 재확인하고 이후 4시간마다 확인한다.
+- 중탄산염은 통상 투여하지 않으며 pH <7.0의 심한 산증에서만 고려한다. 중증 DKA, HHS 동반, 의식 변화 또는 패혈증·심근경색 등 중환자 유발 질환이 있으면 ICU에서 치료한다.
+- DKA 해소는 혈중 케톤 <0.6 mmol/L 및 pH ≥7.3 또는 중탄산염 ≥18 mmol/L로 판단한다. 정주 인슐린 중단 전에는 피하 기저 인슐린을 1–2시간 먼저 투여하여 치료 공백을 막는다.
+
+## 6. 예후 및 합병증
+- 치료 중 저혈당, 저칼륨혈증, 고염소성 비음이온차 산증, 급성콩팥손상, 혈전 및 드문 뇌부종·삼투압성 탈수초 증후군을 감시한다.
+- 퇴원 전에는 유발 인자, 인슐린 접근성·투여법, sick-day rule, 케톤 측정 및 응급 재내원 기준을 재교육하여 재발을 줄인다.
+
+## 출처
+- 2024 Hyperglycemic Crises in Adults With Diabetes: A Consensus Report: https://pmc.ncbi.nlm.nih.gov/articles/PMC11272983/
+- 대한당뇨병학회 2025 제9판 당뇨병 진료지침: https://diabetes.or.kr/bbs/?code=guide

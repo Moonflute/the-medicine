@@ -13,7 +13,15 @@ CC:
 - 떨림/운동이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: tier_2
+content_updated_at: '2026-07-15'
+guideline_year: '2016'
+sources:
+- 'ATA Guidelines for Hyperthyroidism and Other Causes of Thyrotoxicosis | https://www.thyroid.org/guidelines-hyperthyroidism-thyrotoxicosis/'
+disease_family: hyperthyroidism
+population: adult
 ---
+
 분과 : [[내분비]]
 
 ## 1. 개요
@@ -27,7 +35,7 @@ last_studied: '2026-06-06'
   그레이브스병에서는 TSH 수용체에 대한 자가항체(TSI)가 수용체를 지속적으로 자극
   갑상샘 호르몬 합성 및 분비 촉진
 
-## 2. 임상 양상 (Clinical Features)
+## 2. 임상 양상
 * **CC**:
   두근거림, 피로, 체중 감소, 열 불내성, 불안, 떨림, 잦은 배변
 
@@ -35,19 +43,23 @@ last_studied: '2026-06-06'
   빈맥, 고혈압, 떨림, 따뜻하고 습한 피부, 갑상샘 비대(종)
   그레이브스병에서는 안구 돌출, 전경골 점액부종 동반 가능
 
-## 3. 검사 (Lab & Imaging)
+## 3. 검사
 - **혈액 검사**: 혈청 TSH 수치 저하(가장 민감한 지표), 유리 T4 및 T3 수치 상승.
-- **기타**: 필요 시 방사성 요오드 섭취율(RAIU) 검사(원인 감별), TSH 수용체 항체(TSI) 측정.
+- **기타**: 그레이브스병이 의심되면 TSH 수용체 항체(TRAb/TSI)를 고려한다. 원인이 분명하지 않으면 방사성 요오드 섭취율(RAIU) 검사 또는 갑상샘 혈류 평가가 원인 감별에 도움이 된다.
+  임신·수유, 최근 요오드 조영제 노출, 아미오다론 복용은 검사 선택과 치료 방법에 영향을 준다.
 
-## 4. 진단 (Diagnosis)
+## 4. 진단
 - 병력 청취, 신체 검진, 갑상샘 기능 검사(TSH, Free T4, T3)로 진단
 - TSH 억제 + 유리 T4/T3 상승 시 확진
 
-## 5. 치료 (Treatment)
+## 5. 치료
 - **원인 치료**: 항갑상샘제(methimazole 등), 방사성 요오드 치료, 수술적 절제 고려
 - **증상 조절**: 베타차단제 사용 가능
+- **치료 선택**: 갑상샘 크기, 안병증, 임신 계획, 재발 위험, 환자 선호를 함께 고려한다. 방사성요오드 치료는 임신·수유 중 시행하지 않는다.
+- **항갑상샘제 안전 교육**: 발열·인후통·황달·진한 소변은 무과립구증 또는 간독성 신호일 수 있으므로 약을 중단하고 즉시 평가받도록 설명한다.
+- **추적**: 치료 변경 후에는 유리 T4/T3와 임상 증상을 중심으로 재평가하며, TSH 회복은 늦을 수 있다.
 
-## 6. 예후 및 합병증 (Prognosis)
+## 6. 예후 및 합병증
 - 적절한 치료가 이루어지지 않으면 갑상샘 폭풍(Thyroid storm) 등 치명적 합병증 발생 가능
 
 Last updated :

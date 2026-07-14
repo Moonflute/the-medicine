@@ -67,7 +67,13 @@ export function DiseaseCard({
 }) {
   const expanded = !compact;
   const overview = note.overview?.slice(0, compact ? 3 : 6) ?? [];
-  const lastUpdated = formatKoreanDate(note.updatedAt);
+  const contentMeta = note.contentMeta;
+  const lastUpdated = formatKoreanDate(contentMeta?.contentUpdatedAt || note.updatedAt);
+  const sourceLinks = contentMeta?.sources?.filter((source) => source.label && source.url) ?? [];
+  const familyLinks = [
+    { label: "상위 질환", value: note.familyMeta?.parentDisease },
+    { label: "기준 문서", value: note.familyMeta?.canonicalDisease },
+  ].filter((item) => item.value && item.value !== note.title);
   const hrefByTerm = useMemo(() => new Map(ccLinks.map((item) => [item.term, item.href])), [ccLinks]);
   const reviewItem = useMemo(
     () => ({
@@ -89,7 +95,13 @@ export function DiseaseCard({
             <div className="eyebrow">{note.specialty}</div>
             <h2 className="mt-2 text-2xl font-semibold text-slate-950 sm:text-3xl">{note.title}</h2>
             {note.definition ? <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-700">{note.definition}</p> : null}
-            {!compact ? <p className="mt-3 text-xs text-slate-500">Last updated {lastUpdated}</p> : null}
+            {!compact ? (
+              <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500">
+                <span>내용 갱신 {lastUpdated}</span>
+                {note.clinicalPriority ? <span className="pill">{note.clinicalPriority.replace("tier_", "Tier ")}</span> : null}
+                {contentMeta?.guidelineYear ? <span className="pill">근거 연도 {contentMeta.guidelineYear}</span> : null}
+              </div>
+            ) : null}
           </div>
           <ReviewSaveButton item={reviewItem} trackView={!compact} compact />
         </div>
@@ -110,6 +122,34 @@ export function DiseaseCard({
           </div>
         ) : null}
       </div>
+
+      {!compact && (familyLinks.length > 0 || sourceLinks.length > 0) ? (
+        <div className="border-b border-slate-200 bg-white p-5 sm:p-6">
+          {familyLinks.length > 0 ? (
+            <div className="flex flex-wrap gap-2">
+              {familyLinks.map((item) => {
+                const href = diseaseLinks.find((link) => link.term === item.value)?.href;
+                return href ? (
+                  <Link key={item.label} href={href} className="pill hover:border-teal-500 hover:text-teal-700">
+                    {item.label}: {item.value}
+                  </Link>
+                ) : (
+                  <span key={item.label} className="pill">{item.label}: {item.value}</span>
+                );
+              })}
+            </div>
+          ) : null}
+          {sourceLinks.length > 0 ? (
+            <div className="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-xs text-slate-500">
+              {sourceLinks.map((source) => (
+                <a key={`${source.label}-${source.url}`} href={source.url} target="_blank" rel="noreferrer" className="hover:text-teal-700 hover:underline">
+                  근거: {source.label}
+                </a>
+              ))}
+            </div>
+          ) : null}
+        </div>
+      ) : null}
 
       {!hideOverview && overview.length > 0 ? (
         <div className="border-b border-slate-200 bg-teal-50/60 p-5 sm:p-6">
