@@ -1,8 +1,8 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { Activity, BookOpenCheck, FlaskConical, HeartPulse, House, Menu, Pill, Search, Stethoscope, X } from "lucide-react";
 
 const navItems = [
@@ -17,8 +17,26 @@ const navItems = [
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.2.5";
+
+  useEffect(() => {
+    const openSearch = (event: KeyboardEvent) => {
+      const target = event.target as HTMLElement | null;
+      const isTyping = target?.tagName === "INPUT" || target?.tagName === "TEXTAREA" || target?.isContentEditable;
+      const isSearchShortcut = event.key === "/" || ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k");
+      if (!isSearchShortcut || isTyping) return;
+      event.preventDefault();
+      if (pathname === "/" || pathname.startsWith("/search")) {
+        window.dispatchEvent(new Event("medicine:focus-search"));
+      } else {
+        router.push("/search");
+      }
+    };
+    window.addEventListener("keydown", openSearch);
+    return () => window.removeEventListener("keydown", openSearch);
+  }, [pathname, router]);
 
   const title = useMemo(() => {
     if (pathname === "/") return "The Medicine";

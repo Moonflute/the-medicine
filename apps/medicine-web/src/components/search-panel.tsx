@@ -64,16 +64,9 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
   const compactTerm = normalizeSearchText(query.trim());
 
   useEffect(() => {
-    const focusSearch = (event: KeyboardEvent) => {
-      const target = event.target as HTMLElement | null;
-      const isTyping = target?.tagName === "INPUT" || target?.tagName === "TEXTAREA" || target?.isContentEditable;
-      if ((event.key === "/" && !isTyping) || ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k")) {
-        event.preventDefault();
-        inputRef.current?.focus();
-      }
-    };
-    window.addEventListener("keydown", focusSearch);
-    return () => window.removeEventListener("keydown", focusSearch);
+    const focusSearch = () => inputRef.current?.focus();
+    window.addEventListener("medicine:focus-search", focusSearch);
+    return () => window.removeEventListener("medicine:focus-search", focusSearch);
   }, []);
 
   const results = useMemo(() => {

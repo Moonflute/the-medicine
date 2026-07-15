@@ -230,11 +230,11 @@ function renderParagraph(text: string, className: string, termLinks: TermLink[],
   const labeled = splitLeadLabel(text);
 
   if (!labeled) {
-    return <p className={className}>{renderInline(text, termLinks, wikiLinks)}</p>;
+    return <p className={`${className} min-w-0 break-words`}>{renderInline(text, termLinks, wikiLinks)}</p>;
   }
 
   return (
-    <p className={className}>
+    <p className={`${className} min-w-0 break-words`}>
       <span className="font-semibold text-slate-950">{renderInline(labeled.label, termLinks, wikiLinks)}:</span>{" "}
       {renderInline(labeled.body, termLinks, wikiLinks)}
     </p>
@@ -336,7 +336,7 @@ export function RichTextLines({
   const blocks = parseBlocks(lines, bulletStyle);
 
   return (
-    <div className={className}>
+    <div className={`min-w-0 ${className}`.trim()}>
       {blocks.map((block, index) => (
         <div key={index}>
           {block.type === "group"
