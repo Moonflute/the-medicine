@@ -169,12 +169,12 @@ export function AntibioticExplorer({ dataset }: { dataset: AntibioticSpectrumDat
             <label className="ml-auto inline-flex items-center gap-2 text-xs font-medium text-slate-600"><input type="checkbox" checked={matchingOnly} onChange={(event) => setMatchingOnly(event.target.checked)} /> 활성 기대 이상만 강조</label>
           </div>
 
-          <div className="hidden max-h-[72vh] overflow-auto rounded-2xl border border-slate-200 bg-white shadow-sm lg:block">
+          <div className="max-h-[68vh] overflow-auto rounded-2xl border border-slate-200 bg-white shadow-sm">
             <table className="min-w-max border-separate border-spacing-0 text-xs">
               <thead className="sticky top-0 z-20 bg-slate-950 text-white">
                 <tr>
-                  <th className="sticky left-0 z-30 min-w-56 border-b border-r border-slate-700 bg-slate-950 px-4 py-3 text-left">Antibiotic</th>
-                  {visibleOrganisms.map((organism) => <th key={organism.id} className="min-w-24 max-w-28 border-b border-r border-slate-700 px-2 py-3 align-bottom"><span className="block -rotate-0 leading-4">{organism.label}</span></th>)}
+                  <th className="sticky left-0 z-30 min-w-40 border-b border-r border-slate-700 bg-slate-950 px-3 py-3 text-left sm:min-w-56 sm:px-4">Antibiotic</th>
+                  {visibleOrganisms.map((organism) => <th key={organism.id} className="min-w-20 max-w-24 border-b border-r border-slate-700 px-1.5 py-3 align-bottom sm:min-w-24 sm:max-w-28 sm:px-2"><span className="block leading-4">{organism.label}</span></th>)}
                 </tr>
               </thead>
               <tbody>
@@ -182,14 +182,14 @@ export function AntibioticExplorer({ dataset }: { dataset: AntibioticSpectrumDat
                   const matches = filteredDrugs.some((item) => item.id === entry.id);
                   return (
                     <tr key={entry.id} className={`transition ${matches ? "opacity-100" : matchingOnly ? "hidden" : "opacity-20"}`}>
-                      <th className="sticky left-0 z-10 border-b border-r border-slate-200 bg-white px-4 py-2 text-left">
+                      <th className="sticky left-0 z-10 border-b border-r border-slate-200 bg-white px-3 py-2 text-left sm:px-4">
                         <Link href={`/drugs/${entry.drugSlug}`} className="font-semibold text-slate-950 hover:text-teal-700">{entry.inn}</Link>
                         <span className="mt-0.5 block font-normal text-slate-400">{entry.routes.join("/")}</span>
                       </th>
                       {visibleOrganisms.map((organism) => {
                         const level = entry.coverage[organism.id] ?? "unknown";
                         const faded = matchingOnly && COVERAGE[level].rank < COVERAGE.active.rank;
-                        return <td key={organism.id} title={`${entry.inn} · ${organism.label}: ${COVERAGE[level].label}`} className={`border-b border-r border-slate-100 p-1.5 text-center ${faded ? "opacity-20" : ""}`}><CoverageBadge level={level} /></td>;
+                        return <td key={organism.id} title={`${entry.inn} · ${organism.label}: ${COVERAGE[level].label}`} className={`border-b border-r border-slate-100 p-1 text-center sm:p-1.5 ${faded ? "opacity-20" : ""}`}><CoverageBadge level={level} /></td>;
                       })}
                     </tr>
                   );
@@ -198,9 +198,7 @@ export function AntibioticExplorer({ dataset }: { dataset: AntibioticSpectrumDat
             </table>
           </div>
 
-          <div className="grid gap-3 lg:hidden">
-            {filteredDrugs.map((entry) => <DrugResult key={entry.id} entry={entry} />)}
-          </div>
+          <p className="text-center text-xs text-slate-500 lg:hidden">좌우로 밀어서 전체 균 coverage를 비교할 수 있습니다.</p>
         </section>
       ) : null}
 
