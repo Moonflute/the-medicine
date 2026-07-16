@@ -50,14 +50,12 @@ export default async function DrugCategoryPage(props: { params: Promise<{ slug: 
       </header>
 
       {group.title.includes("감염") ? (
-        <Link href="/drugs/antibiotics" className="group relative overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 p-6 text-white shadow-lg">
-          <div className="absolute -right-12 -top-16 h-44 w-44 rounded-full border-[24px] border-teal-400/20" />
-          <div className="relative max-w-2xl">
-            <div className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-300">Interactive reference</div>
-            <h2 className="mt-2 text-2xl font-bold">항생제 spectrum 탐색기</h2>
-            <p className="mt-2 text-sm leading-6 text-slate-300">균과 항생제를 양방향으로 검색하고 G(+), G(-), 투여 경로, 임신 관련 상태를 한 화면에서 비교합니다.</p>
-            <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-white">탐색기 열기 <ChevronRight className="h-4 w-4 transition group-hover:translate-x-1" /></span>
-          </div>
+        <Link
+          href="/drugs/antibiotics"
+          className="flex items-center justify-between rounded-xl border border-teal-200 bg-teal-50 px-4 py-3 text-sm font-semibold text-teal-950 transition hover:border-teal-400 hover:bg-teal-100"
+        >
+          <span>항생제 spectrum 탐색기</span>
+          <ChevronRight className="h-4 w-4" />
         </Link>
       ) : null}
 
