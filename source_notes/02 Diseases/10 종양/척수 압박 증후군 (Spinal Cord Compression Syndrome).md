@@ -9,6 +9,13 @@ CC:
 - 허리 통증
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["Radiological diagnosis of malignant spinal cord compression syndrome: Consensus document from SENR, SERAU, SERME, SERAM. | https://pubmed.ncbi.nlm.nih.gov/40412852/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[종양]]
 
@@ -30,10 +37,11 @@ last_studied: '2026-06-06'
 * MRI: 척수 압박 진단을 위한 표준 검사(Gold standard).
 * CT myelography: MRI 시행이 불가능한 경우 고려.
 * Spine X-ray/CT: 골절이나 척추 불안정성 평가에 유용.
+* 영상 보고 시 척수 압박 척도(ESCC scale) 및 척추 불안정성 척도(SINS score) 활용 권고. [Radiological diagnosis of malignant spinal cord compression syndrome: Consensus document from SENR, SERAU, SERME, SERAM.](https://pubmed.ncbi.nlm.nih.gov/40412852/)
 
 ## 4. 진단 (Diagnosis)
 * 임상 증상과 MRI 소견을 통해 진단한다.
-  신경학적 결손이 의심되는 경우 즉각적인 영상 검사가 필수적이다.
+* 신경학적 결손이 의심되는 경우 즉각적인 영상 검사가 필수적이며, 영상 판독 시 척수 압박 정도와 척추 불안정성 평가를 포함한 구조화된 보고서 작성을 권장한다. [Radiological diagnosis of malignant spinal cord compression syndrome: Consensus document from SENR, SERAU, SERME, SERAM.](https://pubmed.ncbi.nlm.nih.gov/40412852/)
 
 ## 5. 치료 (Treatment)
 * **원칙**:

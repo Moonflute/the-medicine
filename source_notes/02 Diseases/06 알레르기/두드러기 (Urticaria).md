@@ -10,6 +10,15 @@ CC:
 - 가려움증
 preprocessing_required: x
 last_studied: '2026-06-06'
+document_role: "canonical"
+population: "general"
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2022"
+sources: ["한국 만성두드러기 진료지침 | https://www.kaaaci.org/html/sub04_04_01.html?mode=view&idx=100", "The international EAACI/GA²LEN/EuroGuiDerm/APAAACI guideline for the definition, classification, diagnosis, and management of urticaria | https://onlinelibrary.wiley.com/doi/10.1111/all.15090"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[알레르기]]
 
@@ -33,9 +42,9 @@ last_studied: '2026-06-06'
 
 
 ## 3. 검사 (Lab & Imaging)
-- 일반적인 급성 두드러기는 검사가 필요하지 않다.
-  만성 두드러기나 기저 질환이 의심되는 경우 병력 청취를 바탕으로 갑상선 기능 검사, 자가항체 검사, 감염 선별 검사 등을 선별적으로 시행한다.
-
+- 급성 두드러기: 일반적으로 검사가 불필요함.
+- 만성 두드러기: 병력 청취를 바탕으로 갑상선 기능 검사, 자가항체 검사, 감염 선별 검사 등을 선별적으로 시행함.
+- 주의사항: 만성 자발성 두드러기(CSU) 환자의 최대 50%는 표준 치료에 반응하지 않을 수 있음을 인지해야 함 [Clinical practice guideline for H1 antihistamine-resistant Chronic Spontaneous Urticaria.](https://pubmed.ncbi.nlm.nih.gov/41182242/).
 
 ## 4. 진단 (Diagnosis)
 - 임상적 소견으로 진단한다.
@@ -43,10 +52,9 @@ last_studied: '2026-06-06'
 
 
 ## 5. 치료 (Treatment)
-- 원인 인자를 회피하는 것이 핵심.
-  2세대 H1 항히스타민제가 일차 치료제(TOC)이다.
-  반응이 불충분할 경우 용량을 증량하거나 다른 항히스타민제 또는 보조제를 추가할 수 있다.
-
+- 원칙: 원인 인자 회피가 핵심임.
+- 1차 치료: 2세대 H1 항히스타민제(sgAHs) 사용.
+- 저항성 환자 관리: 2세대 H1 항히스타민제에 반응하지 않는 경우 최대 4배 용량까지 증량 고려 가능함. 표준 치료에 반응하지 않는 만성 자발성 두드러기(CSU)에 대해서는 개인별 맞춤형 단계적 치료 알고리즘 적용이 권장됨 [Clinical practice guideline for H1 antihistamine-resistant Chronic Spontaneous Urticaria.](https://pubmed.ncbi.nlm.nih.gov/41182242/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성 두드러기는 수개월에서 수년까지 지속될 수 있으며 삶의 질에 큰 영향을 미칩니다.

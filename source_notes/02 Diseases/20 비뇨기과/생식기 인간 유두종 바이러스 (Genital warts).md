@@ -13,6 +13,12 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+content_updated_at: '2026-07-15'
+guideline_year: "2024"
+sources: ["Korean sexually transmitted infection guidelines 2023 revision, guideline update of viral infections: Genital herpes and anogenital warts. | https://pubmed.ncbi.nlm.nih.gov/38197746/"]
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 분과 : [[비뇨기과]]
 
@@ -38,13 +44,13 @@ last_studied: '2026-06-06'
 * 악성 의심 소견(출혈, 궤양, 색소 침착, 경결) 시 조직검사 필수.
 
 
-## 5. 치료 (Treatment)
+## 5. 치료
 * **원칙:** 바이러스 자체를 제거하는 치료법은 없으며, 가시적인 사마귀를 제거하여 증상을 완화하고 전파를 줄이는 것이 목적.
+* **파트너 관리:** 항문생식기 사마귀를 유발하는 HPV 유형은 파트너에게 전파될 수 있으므로, 환자는 현재 성 파트너에게 감염 사실을 알려야 함.
 * **방법:** 
 - 물리적 제거(절제, 소작, 레이저 등): 병변이 크거나 요도 입구 등에 위치할 때 효과적.
 - 국소 약물 치료(이미퀴모드 등): 자가 도포 가능하나 재발 가능성 있음.
 * **주의:** 치료 후에도 재발할 수 있으며, 성 파트너와 함께 검진 및 상담 필요.
-
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 자연 퇴행 가능성이 있으나 시간이 오래 걸림(약 2년 내 65% 자연 소실).
@@ -54,3 +60,4 @@ last_studied: '2026-06-06'
 출처 : StatPearls (Condylomata Acuminata)
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)
+2026-07-15 — 공식 지침 기반 Tier 2 보강

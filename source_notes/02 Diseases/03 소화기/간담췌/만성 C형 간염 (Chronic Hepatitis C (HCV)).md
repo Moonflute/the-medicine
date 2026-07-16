@@ -14,6 +14,12 @@ CC:
 - 황달
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2026"
+sources: ["Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain. | https://pubmed.ncbi.nlm.nih.gov/41825518/"]
+
 ---
 분과 : [[소화기]]
 

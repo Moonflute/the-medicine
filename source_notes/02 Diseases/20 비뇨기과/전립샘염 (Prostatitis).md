@@ -15,6 +15,13 @@ CC:
 - 골반통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["Male Chronic Pelvic Pain: AUA Guideline: Part II Treatment of Chronic Prostatitis/Chronic Pelvic Pain Syndrome. | https://pubmed.ncbi.nlm.nih.gov/40243102/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[비뇨기과]]
 
@@ -41,9 +48,7 @@ last_studied: '2026-06-06'
 
 ## 5. 치료 (Treatment)
 * **급성전립샘염:** 전립샘 조직 침투력이 좋은 항생제(Fluoroquinolone 등) 정맥 투여. 요폐 시 치골상부 도뇨 고려.
-* **만성전립샘염:** 배양 결과에 따른 항생제(2~6주), 필요 시 알파차단제 병용.
-* **참고:** 50세 이상에서 치료 후에도 PSA가 높으면 암 가능성 감별 필요.
-
+* **만성 골반통증 증후군(CP/CPPS):** 다학제적 접근(multimodal/multidisciplinary approach)이 권장됨. 생활 습관 교정, 행동 치료, 약물 및 식물성 제제, 필요 시 시술적 개입을 포함한 포괄적 치료 전략 수립. 타 전문의 및 관련 보건 전문가로의 의뢰 고려. [Male Chronic Pelvic Pain: AUA Guideline: Part II Treatment of Chronic Prostatitis/Chronic Pelvic Pain Syndrome.](https://pubmed.ncbi.nlm.nih.gov/40243102/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **합병증:** 전립샘 농양, 패혈증, 만성 골반통증 증후군으로의 이행, 부고환염.

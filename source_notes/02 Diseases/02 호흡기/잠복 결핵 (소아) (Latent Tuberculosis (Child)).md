@@ -9,6 +9,12 @@ CC:
 - 무증상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2026"
+sources: ["Joint position statement from the National Psoriasis Foundation Medical Board and the International Psoriasis Council on routine testing for latent tuberculosis infection prior to and during treatment of psoriasis patients with interleukin 17 or interleukin 23 inhibitors. | https://pubmed.ncbi.nlm.nih.gov/41260526/", "2024 결핵진료지침 5판 | https://www.lungkorea.org/bbs/index.html?code=guide&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=246", "2024 국가결핵관리지침 | https://www.koreatb.org/bbs/board.php?bo_table=data&wr_id=100"]
+
 ---
 분과 : [[호흡기]]
 

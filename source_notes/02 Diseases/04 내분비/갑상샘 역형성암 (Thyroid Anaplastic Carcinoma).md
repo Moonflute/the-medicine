@@ -12,6 +12,13 @@ CC:
 - 근력/감각이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+review_status: "guideline_enriched"
+reviewed_at: "2026-07-16"
+guideline_year: "2024"
+sources: ["Korean Thyroid Association Guidelines on the Management of Differentiated Thyroid Cancers 2024 | https://www.ijthyroid.org/journal/view.php?number=202400002"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[내분비]]
 
@@ -39,10 +46,11 @@ last_studied: '2026-06-06'
   모든 환자는 진단 시점에 4기(Stage IV)로 분류됨.
 
 ## 5. 치료 (Treatment)
-- **수술**: 절제 가능한 경우 근치적 갑상샘 절제술 및 림프절 곽청술 시행.
-- **항암 및 방사선**: 수술 후 보조 요법으로 외부 방사선 치료(EBRT)와 항암 화학 요법을 병행.
-- **표적 치료**: BRAF 변이 시 dabrafenib/trametinib 등 유전자 변이에 따른 표적 치료제 고려.
-- **기타**: 기도 폐쇄 위험 시 기관절개술(tracheostomy) 고려.
+- **치료 목표 설정**: 진단 시점에 치료 목표(근치적 vs 완화적)를 조기에 수립.
+- **국소 질환**: 수술, 방사선 치료(EBRT), 표적/전신 항암 요법의 다학제적 접근.
+- **진행성/전이성 질환**: 전신 치료 및 완화 의료(palliative care) 옵션 고려.
+- **기타**: 기도 폐쇄 위험 시 기관절개술 고려 및 장기 모니터링.
+[2021 American Thyroid Association Guidelines for Management of Patients with Anaplastic Thyroid Cancer.](https://pubmed.ncbi.nlm.nih.gov/33728999/)(https://pubmed.ncbi.nlm.nih.gov/33728999/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 매우 예후가 불량하며, 진단 후 1년 이내 사망률이 높음.

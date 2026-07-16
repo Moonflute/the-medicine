@@ -13,6 +13,13 @@ CC:
 - 복부 팽만
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["[Recommendations from the GBMHM and the Fi-LMC for the diagnosis and management of chronic myeloid leukemia]. | https://pubmed.ncbi.nlm.nih.gov/40908230/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[혈액]]
 
@@ -28,19 +35,17 @@ last_studied: '2026-06-06'
   진행 시 창백, 출혈 경향, 발열, 림프절 종대 등이 나타날 수 있음.
 
 ## 3. 검사 (Lab & Imaging)
-- 말초혈액 검사 (PBS) : 백혈구 증가(좌방 이동), 호염구 및 호산구 증가.
-  혈소판은 정상 또는 증가.
-  골수 검사 : 세포 충실도 증가, 골수 섬유화 평가.
-  세포유전학 검사 : 필라델피아 염색체 t(9;22) 확인.
-  분자유전학 검사 : BCR-ABL1 융합 유전자 확인 (FISH 또는 RT-PCR).
+- 진단 전 필수 검사: BCR::ABL1 융합 유전자 확인 및 예후와 관련된 세포유전학적 이상 유무 확인.
+- 치료 중 모니터링: 측정 가능한 잔존 질환(MRD)의 정기적 평가를 통해 최적 반응 확인 및 치료 저항성 조기 발견.
+- 저항성 발생 시: TKI 내성 유발 돌연변이 검사 필수 (치료 전략 변경을 위해). [[Recommendations from the GBMHM and the Fi-LMC for the diagnosis and management of chronic myeloid leukemia].](https://pubmed.ncbi.nlm.nih.gov/40908230/) [[Recommendations from the GBMHM and the Fi-LMC for the diagnosis and management of chronic myeloid leukemia].](https://pubmed.ncbi.nlm.nih.gov/40908230/)
 
 ## 4. 진단 (Diagnosis)
 - 말초혈액 및 골수 검사 소견과 필라델피아 염색체 또는 BCR-ABL1 융합 유전자 확인으로 진단.
 
 ## 5. 치료 (Treatment)
-- 티로신 키나아제 억제제 (TKI) : 이마티닙, 닐로티닙, 다사티닙, 보수티닙, 포나티닙 등 (1차 치료제).
-  기타 : 하이드록시우레아(증상 완화용), 조혈모세포 이식 (TKI 불응성 또는 가속기/급성기 진행 시).
-  반응 평가 : BCR-ABL1 수치 및 세포유전학적 반응을 3, 6, 12개월 단위로 모니터링.
+- 치료 원칙: TKI(티로신 키나아제 억제제)를 기반으로 하며, 분자생물학적 모니터링 결과에 따라 치료 전략을 결정함.
+- 모니터링 및 대응: 치료 중 MRD를 정기적으로 추적하여 최적 반응을 평가함. 치료 저항성이 의심되는 경우 내성 돌연변이 검사를 시행하여 약제 변경 등 치료 전략을 조정함.
+- 치료 중단 고려: 치료 중단 시에도 MRD 모니터링이 필수적으로 요구됨. [[Recommendations from the GBMHM and the Fi-LMC for the diagnosis and management of chronic myeloid leukemia].](https://pubmed.ncbi.nlm.nih.gov/40908230/) [[Recommendations from the GBMHM and the Fi-LMC for the diagnosis and management of chronic myeloid leukemia].](https://pubmed.ncbi.nlm.nih.gov/40908230/)
 
 ## 6. 예후 및 합병증 (Prognosis)
   **진행 단계** :

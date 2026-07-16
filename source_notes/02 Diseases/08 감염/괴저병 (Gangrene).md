@@ -10,6 +10,13 @@ CC:
 - 발열
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["Wound, pressure ulcer, and burn guidelines - 3: Guidelines for the diagnosis and treatment of diabetic ulcers and gangrene, second edition. | https://pubmed.ncbi.nlm.nih.gov/40292848/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[감염]]
 
@@ -36,9 +43,9 @@ last_studied: '2026-06-06'
   진단을 위해 수술적 탐색이 필요한 경우가 많다.
 
 ## 5. 치료 (Treatment)
-- **수술:** 괴사 조직의 즉각적인 외과적 절제(debridement)가 가장 필수적이며 예후를 결정짓는 핵심 요소이다.
-- **항생제:** 광범위 항생제 투여(원인균에 따라 조정). 비브리오 불니피쿠스는 독시사이클린(doxycycline)과 3세대 세팔로스포린 병용 요법을 고려한다.
-- **보조 요법:** 수액 소생술, 기저 질환 관리, 필요 시 고압 산소 치료 등을 고려할 수 있다.
+- **수술**: 괴사 조직의 즉각적인 외과적 절제(debridement)가 필수적임. 
+- **항생제**: 정맥 투여뿐만 아니라 경구 투여도 고려 가능함. 비브리오 불니피쿠스는 독시사이클린과 3세대 세팔로스포린 병용 요법을 고려한다. 
+- **보조 요법**: 수액 소생술, 기저 질환 관리, 필요 시 고압 산소 치료 등을 고려할 수 있다. [Wound, pressure ulcer, and burn guidelines - 3: Guidelines for the diagnosis and treatment of diabetic ulcers and gangrene, second edition.](https://pubmed.ncbi.nlm.nih.gov/40292848/)(https://pubmed.ncbi.nlm.nih.gov/40292848/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 패혈증, 다장기 부전, 사지 절단, 사망 등의 심각한 합병증이 발생할 수 있다.

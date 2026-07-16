@@ -15,6 +15,13 @@ CC:
 - 경련
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Management of patients with suspected but unidentified poisoning in the emergency department: a joint Royal College of Emergency Medicine and National Poisons Information Service best practice guideline. | https://pubmed.ncbi.nlm.nih.gov/42103461/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[소아청소년과]]
 
@@ -31,9 +38,9 @@ last_studied: '2026-06-06'
 * **독성 증후군(Toxidromes)**: 특정 독소군에 의한 특징적 증상 조합(예: 항콜린성, 콜린성, 오피오이드, 교감신경흥분성 등) 확인 필요
 
 ## 3. 검사 (Lab & Imaging)
-* **혈액 검사**: 독성 물질 농도(아세트아미노펜 등), 간 기능(AST/ALT), 신장 기능, 전해질, 혈당, 응고 검사(INR)
-* **독성 물질 확인**: 소변 독성 검사(정성적 결과에 주의), 혈중 농도 측정
-* **영상 검사**: 흉부 X-ray(흡인성 폐렴 확인), 복부 영상 등
+* **초기 평가**: 독성 증후군(Toxidromes) 기반의 임상적 접근 우선.
+* **검사 전략**: 독성 물질의 독성 동태학(toxicokinetics)을 고려하여 환자의 상태 변화 가능성을 염두에 두고 검사 시행.
+* **주의사항**: 본 가이드는 일반적인 접근법이며, 특정 독소에 대해서는 TOXBASE, NPIS 또는 지역 독극물 센터의 전문 지침을 우선적으로 참조할 것. [Management of patients with suspected but unidentified poisoning in the emergency department: a joint Royal College of Emergency Medicine and National Poisons Information Service best practice guideline.](https://pubmed.ncbi.nlm.nih.gov/42103461/)
 
 ## 4. 진단 (Diagnosis)
 * 임상 증상 및 징후, 섭취력 확인(환자 및 보호자 문진, 주변 환경 조사)
@@ -41,11 +48,9 @@ last_studied: '2026-06-06'
 * 검사 결과(간/신장 기능 이상 등) 종합 및 타 질환(대사성, 신경학적 질환)과의 감별
 
 ## 5. 치료 (Treatment)
-* **ABC (기도, 호흡, 순환) 안정화**: 우선적 조치
-* **위장관 제독**: 섭취 후 조기(활성탄 투여 등) 고려
-* **해독제 투여**: 특정 독소에 대한 해독제(예: 아세트아미노펜 중독 시 N-acetylcysteine) 사용
-* **대증 요법**: 수액 요법, 전해질 교정, 경련 조절 등
-* **기타**: 혈액 투석(중증 중독 시 고려), 독성 센터 상담 활용
+* **초기 관리**: ABC(기도, 호흡, 순환) 안정화 및 응급 처치 우선.
+* **임상적 접근**: 독성 증후군 기반의 평가를 통해 잠재적 독성 물질을 식별하고, 환자의 임상 상태 변화를 지속적으로 모니터링.
+* **전문 상담**: 특정 독소에 대한 구체적인 치료 지침은 TOXBASE, NPIS 또는 지역 독극물 센터의 자문을 활용할 것. [Management of patients with suspected but unidentified poisoning in the emergency department: a joint Royal College of Emergency Medicine and National Poisons Information Service best practice guideline.](https://pubmed.ncbi.nlm.nih.gov/42103461/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 독성 물질의 종류, 섭취량, 치료 시점에 따라 결정

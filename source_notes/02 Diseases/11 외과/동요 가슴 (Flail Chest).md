@@ -11,6 +11,9 @@ CC:
 - 호흡곤란
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[외과]]
 
@@ -45,28 +48,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Flail Chest)
 Last updated :
----
----
-aliases: ["동요가슴"]
-유형:
-- - disease
-계통: "외과"
-분류: ["외과", "외상", "흉부외상"]
-CC: []
----
-## 1. 개요
-- **정의** Rib cage가 부서지고 흉벽으로부터 분리된 상태
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 흡기 시 통증, 흉벽의 모순 호흡 운동, 호흡 부전, 흉통
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- Respiratory distress 발생 시 기관 삽관 및 인공 환기, 통증 조절.
-  정복은 안 함.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

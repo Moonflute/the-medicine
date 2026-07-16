@@ -13,6 +13,11 @@ CC:
 - 소화불량/만성 복통
 preprocessing_required: x
 last_studied: '2026-06-06'
+document_role: "canonical"
+population: "adult"
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - **정의**: 배변 횟수 감소, 배변 시 과도한 힘주기, 딱딱한 변, 잔변감, 항문 폐쇄감 등이 지속되는 상태.

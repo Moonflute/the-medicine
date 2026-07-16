@@ -12,14 +12,16 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 sources:
 - '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
-- 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
-clinical_priority: tier_2
+- 'ADA 2026 Retinopathy, Neuropathy, and Foot Care | https://diabetesjournals.org/care/article/49/Supplement_1/S261/163919/12-Retinopathy-Neuropathy-and-Foot-Care-Standards'
+clinical_priority: "tier_2"
 content_updated_at: '2026-07-14'
-guideline_year: '2026'
+guideline_year: "2026"
 disease_family: diabetes
 parent_disease: 당뇨병 (Diabetes Mellitus)
 relation_to_parent: chronic_complication
 population: general
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 
 ## 1. 개요
@@ -49,5 +51,5 @@ population: general
 - 치료 간격과 시력 예후는 병변 종류·중증도와 전신 대사 조절에 따라 달라지므로 안과 치료 계획을 중단하지 않도록 교육한다.
 
 ## 출처
-- ADA Standards of Care in Diabetes 2026, Retinopathy, Neuropathy, and Foot Care: https://professional.diabetes.org/standards-of-care
+- ADA Standards of Care in Diabetes 2026, Retinopathy, Neuropathy, and Foot Care: https://diabetesjournals.org/care/article/49/Supplement_1/S261/163919/12-Retinopathy-Neuropathy-and-Foot-Care-Standards
 - 대한당뇨병학회 2025 제9판 당뇨병 진료지침: https://diabetes.or.kr/bbs/?code=guide

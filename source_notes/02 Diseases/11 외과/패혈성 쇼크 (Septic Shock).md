@@ -12,6 +12,9 @@ CC:
 - 심박수이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[외과]]
 
@@ -53,30 +56,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Septic Shock)
 Last updated :
----
----
-aliases: ["패혈성쇼크"]
-유형:
-- - disease
-계통: "외과"
-분류: ["외과", "쇼크"]
-CC: []
----
-## 1. 개요
-- **정의** sepsis + shock
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 발열, vital unstable, IV fluid로 반응 안함
-* **P/E** qSOFA - 의식변화, SBP < 100, RR > 22
-## 3. 검사 (Lab & Imaging)
-- vasopressor 없이 bp 유지 안됨, lactate > 2mmol/L
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- CVP 8~12, MAP > 65 목표.
-  수액(NS, 하트만) → NE.
-  항생제 (건강: Piper/Tazo, cefepime, meropenem + vancomycin / 무비증: ceftriaxone + vancomycin)
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

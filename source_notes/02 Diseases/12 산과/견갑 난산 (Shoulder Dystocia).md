@@ -11,6 +11,13 @@ CC:
 - 검진 이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["Shoulder Dystocia. Guideline of the DGGG, OEGGG and SGGG (S2k-Level, AWMF Registry No. 015/098, 10/2024). | https://pubmed.ncbi.nlm.nih.gov/40494572/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -34,9 +41,8 @@ last_studied: '2026-06-06'
 
 
 ## 3. 검사 (Lab & Imaging)
-- 진단적 검사보다는 임상적 진단이 우선
-- 산전 초음파를 통해 태아 거대아 여부 등을 평가할 수 있으나, 예측력은 낮음
-
+- 진단적 영상 검사는 시행하지 않음. 임상적 진단이 우선임.
+- 산전 초음파를 통한 거대아 예측은 견갑 난산의 발생을 정확히 예측하기 어려움. [Shoulder Dystocia. Guideline of the DGGG, OEGGG and SGGG (S2k-Level, AWMF Registry No. 015/098, 10/2024).](https://pubmed.ncbi.nlm.nih.gov/40494572/)
 
 ## 4. 진단 (Diagnosis)
 - 임상적 진단: 태아 머리 만출 후 통상적인 하방 견인으로 어깨가 나오지 않을 때 진단
@@ -44,11 +50,11 @@ last_studied: '2026-06-06'
 
 
 ## 5. 치료 (Treatment)
-- 즉각적인 팀 대응 및 시간 기록
-- 맥로버트 수기 (McRoberts maneuver): 산모의 다리를 굴곡시켜 복부 쪽으로 붙임으로써 골반 경사를 변화시켜 치골 결합의 저항을 완화
-- 치골 상부 압박 (Suprapubic pressure): 태아의 전방 어깨를 치골 결합 뒤에서 밀어내기 위해 시행
-- 추가적인 산과적 수기(후방 어깨 만출, Woods corkscrew maneuver 등)가 필요할 수 있음
-
+- 즉각적인 팀 대응 및 시간 기록 필수.
+- 표준화된 알고리즘에 따른 단계적 수기 시행.
+- 맥로버트 수기(McRoberts maneuver) 및 치골 상부 압박(Suprapubic pressure)을 포함한 일차적 대응.
+- 추가적인 산과적 수기(후방 어깨 만출, Woods corkscrew maneuver 등) 시행.
+- 사건 발생 후 문서화, 디브리핑(debriefing), 산모와의 사후 상담(follow-up discussion) 권고. [Shoulder Dystocia. Guideline of the DGGG, OEGGG and SGGG (S2k-Level, AWMF Registry No. 015/098, 10/2024).](https://pubmed.ncbi.nlm.nih.gov/40494572/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 태아 가사, 뇌 손상, 상완신경총 손상(brachial plexus injury), 쇄골 골절 등
@@ -57,51 +63,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Shoulder Dystocia)
 Last updated :
----
----
-aliases: ["shoulder dystocia"]
-유형:
-- - disease
-계통: "산과"
-분류: ["산과", "분만", "난산"]
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-* 맥로버트 수기 (치골 상부 압박 + 다리를 들어줌).
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: []
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "난산", "태위로인한난산"]"
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 맥로버트수기(=치골상부압박+ 다리를들어줌)
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

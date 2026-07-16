@@ -11,6 +11,9 @@ CC:
 - 기침
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[외과]]
 
@@ -43,28 +46,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Congenital Diaphragmatic Hernia & Bochdalek Hernia)
 Last updated :
----
----
-aliases: ["장루주위탈장"]
-유형:
-- - disease
-계통: "외과"
-분류: ["외과", "탈장및복벽질환"]
-CC: []
----
-## 1. 개요
-- **정의** 장루 형성 후 가장 흔하게 나타나는 합병증
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 복통, 기침 시 장루 bulging
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 무증상은 경과 관찰, 장루 탈출/폐색/괴사 발생 시 수술 필요.
-  예방: 장루 복대, 복압 상승 상황 피하기.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

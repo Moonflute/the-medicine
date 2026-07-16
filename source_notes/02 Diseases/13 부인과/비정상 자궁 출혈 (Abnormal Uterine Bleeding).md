@@ -12,6 +12,13 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Visually Directed Hysteroscopic Biopsy in the Evaluation of Abnormal Uterine Bleeding and Postmenopausal Bleeding: A Joint Society Practice Guideline. | https://pubmed.ncbi.nlm.nih.gov/42336133/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[부인과]]
 
@@ -29,7 +36,10 @@ last_studied: '2026-06-06'
 ## 3. 검사 (Lab & Imaging)
 - **기본 검사**: 임신 반응 검사(필수), CBC(빈혈 및 혈소판 확인)
 - **추가 검사**: 갑상선 기능 검사, 호르몬 검사(필요시), 응고 장애 선별 검사(청소년기 등 고위험군)
-- **영상 및 조직**: 자궁 초음파(1차 선택), 필요시 자궁경 검사 및 내막 생검(45세 이상 또는 위험군)
+- **영상 및 조직 검사**:
+  - 1차 선택: 자궁 초음파
+  - 자궁내 병변 의심 시: 자궁경 검사(Hysteroscopy) 권고. 맹검 내막 생검(blind endometrial biopsy)보다 자궁내막암, 전암성 병변, 폴립, 점막하 근종 진단에 높은 정확도를 보임 [Visually Directed Hysteroscopic Biopsy in the Evaluation of Abnormal Uterine Bleeding and Postmenopausal Bleeding: A Joint Society Practice Guideline.](https://pubmed.ncbi.nlm.nih.gov/42336133/)
+  - 내막 조직 검사 필요 시: 맹검 생검보다는 자궁경 유도하 생검(visually directed biopsy) 우선 권고 [Visually Directed Hysteroscopic Biopsy in the Evaluation of Abnormal Uterine Bleeding and Postmenopausal Bleeding: A Joint Society Practice Guideline.](https://pubmed.ncbi.nlm.nih.gov/42336133/)
 
 ## 4. 진단 (Diagnosis)
 - PALM-COEIN 분류 체계에 따른 원인 감별 및 진단
@@ -37,7 +47,7 @@ last_studied: '2026-06-06'
 ## 5. 치료 (Treatment)
 - **원칙**: 기저 원인 교정 및 출혈 조절, 삶의 질 개선 및 빈혈 예방
 - **내과적**: 호르몬 요법(경구 피임약, 프로게스틴 등), NSAIDs, 항섬유소용해제 등
-- **외과적**: 내과적 치료 실패 시, 구조적 병변(폴립, 근종 등) 제거, 자궁내막 소파술(D&C), 자궁절제술 등
+- **외과적**: 내과적 치료 실패 시 또는 구조적 병변(폴립, 점막하 근종 등) 확인 시 제거술 시행. 내막 조직 평가가 필요한 경우 자궁경 유도하 생검 및 병변 제거를 우선 고려 [Visually Directed Hysteroscopic Biopsy in the Evaluation of Abnormal Uterine Bleeding and Postmenopausal Bleeding: A Joint Society Practice Guideline.](https://pubmed.ncbi.nlm.nih.gov/42336133/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 기저 원인에 따라 예후가 다름
@@ -45,29 +55,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Abnormal Uterine Bleeding)
 Last updated :
----
----
-aliases: ["AUB", "abnormal uterine bleeding"]
-유형:
-- - disease
-계통: "부인과"
-분류: ["부인과", "비정상자궁출혈"]
-CC: []
----
-## 1. 개요
-- **정의**:
-- **원인**: 사춘기전(foreign body, 성조숙증), 사춘기(HPO axis 미성숙으로 무배란), 가임기(임신, 배란일 근처 호르몬 주기 감소, E 파탄성, P 파탄성, 내막폴립), 폐경기(호르몬 치료 과다, 내막 생검으로 암 감별(정상 두께 4mm))
-- **기전**:
-## 2. 임상 양상 (Clinical Features)
-* **CC**:
-* **P/E**:
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-- 분류: PALM-COEIN (Polyp, Adenomyosis, Leiomyoma, Malignancy, Coagulopathy, Ovulatory, Endometrial, Iatrogenic, Not)
-## 5. 치료 (Treatment)
-- 내과: NSAIDs, OC (규칙적 월경 유도), E 충분 시 progestin
-- 외과: 내과적 치료 실패 시 D&C, 흡입소파술
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

@@ -11,6 +11,13 @@ CC:
 - 피로
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Who and how to screen for Cushing's syndrome: the position statement of the Italian Society of Endocrinology. | https://pubmed.ncbi.nlm.nih.gov/41364328/", "2024 Korean Endocrine Society Consensus Statement on the Diagnosis and Management of Cushing's Syndrome | https://www.endocrinology.or.kr/journal/view.php?number=1820"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[내분비]]
 
@@ -32,19 +39,18 @@ last_studied: '2026-06-06'
   고혈압, 당뇨.
 
 ## 3. 검사 (Lab & Imaging)
-- **선별 검사**: 24시간 소변 유리 코르티솔, 야간 타액 코르티솔, 저용량 덱사메타손 억제 검사(1mg DST).
-- **감별 검사**: 혈장 ACTH 측정(ACTH 의존성 확인), CRH 자극 검사, 고용량 덱사메타손 억제 검사.
-- **영상**: 뇌하수체 MRI(선종 확인, 단 40%에서 음성일 수 있음).
-- **확진**: 하추체정맥동 채혈(IPSS)이 가장 정확한 진단법(중심-말초 ACTH 비 > 3:1).
+- **선별 대상**: 제2형 당뇨병, 비만, 고혈압, 골다공증/골절, 기분 장애, 부신/뇌하수체 우연종 환자 등 고위험군에서 의심 시 시행 [Who and how to screen for Cushing's syndrome: the position statement of the Italian Society of Endocrinology.](https://pubmed.ncbi.nlm.nih.gov/41364328/).
+- **선별 검사**: 24시간 소변 유리 코르티솔, 야간 타액 코르티솔, 저용량 덱사메타손 억제 검사(1mg DST) 중 선택 [Who and how to screen for Cushing's syndrome: the position statement of the Italian Society of Endocrinology.](https://pubmed.ncbi.nlm.nih.gov/41364328/).
+- **감별 및 확진**: 혈장 ACTH 측정으로 ACTH 의존성 확인 후, 하추체정맥동 채혈(IPSS)을 통해 뇌하수체 기원임을 입증(중심-말초 ACTH 비 > 3:1). 뇌하수체 MRI는 선종 확인을 위해 시행하나 음성일 수 있음.
 
 ## 4. 진단 (Diagnosis)
 - 고코르티솔혈증 확인 후 ACTH 의존성 여부를 판단하고, 뇌하수체 기원임을 입증하는 과정이 필요함.
 
 ## 5. 치료 (Treatment)
-- **수술**: 나비뼈경유절제술(TSS)이 1차 치료.
-- **방사선**: 수술 실패 시 뇌하수체 방사선 치료 고려.
-- **약물**: 수술이 불가능하거나 재발 시 파시레오타이드(pasireotide), 카베르골린(cabergoline), 케토코나졸(ketoconazole) 등 사용.
-- **기타**: 양측 부신절제술은 최후의 수단으로 고려(넬슨 증후군 주의).
+- **1차 치료**: 나비뼈경유절제술(TSS)을 통한 선종 제거.
+- **2차 치료**: 수술 실패 또는 재발 시 방사선 치료 고려.
+- **약물 치료**: 수술이 불가능하거나 재발 시 파시레오타이드(pasireotide), 카베르골린(cabergoline), 케토코나졸(ketoconazole) 등 약물 요법 고려.
+- **기타**: 양측 부신절제술은 최후의 수단으로 고려하며, 수술 후 넬슨 증후군(Nelson's syndrome) 발생 가능성에 대한 모니터링 필수. [Who and how to screen for Cushing's syndrome: the position statement of the Italian Society of Endocrinology.](https://pubmed.ncbi.nlm.nih.gov/41364328/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 치명적일 수 있음.

@@ -13,6 +13,9 @@ CC:
 - 탈모
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[부인과]]
 
@@ -47,31 +50,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Polycystic Ovarian Syndrome)
 Last updated :
----
----
-aliases: ["PCOS", "polycystic ovarian syndrome"]
-유형:
-- - disease
-계통: "부인과"
-분류: ["부인과", "월경관련질환"]
-CC: []
----
-## 1. 개요
-- **정의**:
-- **원인**:
-- **기전**: LH 과분비로 androgen 축적
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 무월경, 불임, 질출혈, 다모증, 인슐린저하증, 이상지질혈증
-* **P/E**:
-## 3. 검사 (Lab & Imaging)
-- LH / FSH > 2, testosterone 증가
-## 4. 진단 (Diagnosis)
-- 3개 중 2개 이상 만족 시 진단 (1) 희발월경, 무월경 (2) 고안드로겐증(여드름, 다모증) (3) PCOS 확인, 나머지 r/o
-## 5. 치료 (Treatment)
-- estrogen effect 차단을 위해 P 투여(or E+P OC), 배란유도(clomiphene citrate, letrozole, metformin, gonadotropin)
-- 임신을 원함: clomiphene citrate, letrozole
-- 통증 등이 문제: Progesterone
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

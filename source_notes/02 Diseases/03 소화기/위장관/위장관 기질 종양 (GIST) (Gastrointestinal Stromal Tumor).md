@@ -12,6 +12,12 @@ CC:
 - 검진 이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+content_updated_at: '2026-07-15'
+guideline_year: "2024"
+sources: ["English version of Japanese Clinical Practice Guidelines 2022 for gastrointestinal stromal tumor (GIST) issued by the Japan Society of Clinical Oncology. | https://pubmed.ncbi.nlm.nih.gov/38609732/"]
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 분과 : [[소화기]]
 
@@ -32,33 +38,35 @@ last_studied: '2026-06-06'
 * **P/E**: 복부 종괴가 촉진될 수 있음.
 
 
-## 3. 검사 (Lab & Imaging)
-- 내시경, 내시경 초음파(EUS), CT(흉부/복부/골반), 면역조직화학검사(CD117/C-KIT 및 DOG-1 양성).
-
+## 3. 검사
+- **내시경 및 내시경 초음파(EUS)**: 점막하 종양(SMT)이 의심되는 경우 내시경 생검을 시행하며, 크기가 2cm 이상 5cm 미만이면서 불규칙한 경계, 궤양, 함몰이 있거나 커지는 양상인 경우 EUS 및 EUS-FNA를 시행함
+- **조영증강 CT**: 병기 설정(복막 파종 및 복수 감지)을 위해 상복부부터 골반까지 포함하여 촬영함. 단면 두께 및 간격은 5mm 이하가 표준이며, 2mm 이하의 3D 데이터가 권장됨
+- **면역조직화학검사**: CD117(C-KIT) 및 DOG-1 양성 확인
 
 ## 4. 진단 (Diagnosis)
 - 내시경 생검 및 영상 검사를 통해 진단하며, CD117(C-KIT) 및 DOG-1 발현이 병리 진단의 핵심임.
 
 
-## 5. 치료 (Treatment)
-- **수술**: 국소 GIST의 표준 치료는 완전 절제술임.
-- **약물 치료**: 수술이 불가능하거나 전이된 경우 티로신 키나아제 억제제(TKI) 사용.
-- Imatinib: KIT 양성인 경우 1차 치료제 및 고위험군 수술 후 보조 요법으로 사용.
-- 기타: Imatinib 불응 시 Sunitinib, Regorafenib 사용.
-  PDGFRA exon 18 돌연변이 시 Avapritinib 고려.
+## 5. 치료
+- **수술**: 국소 GIST의 표준 치료는 완전 절제술임. 종양 크기가 5.1cm 이상이거나, 증상이 있는 경우, 또는 생검으로 GIST가 진단된 경우 수술적 절제를 고려함
+- **수술 후 보조요법 (Adjuvant Therapy)**:
+  - 고위험군에서 Imatinib을 보조 요법으로 사용함. 단, 저위험 및 중간위험군 GIST에서는 보조적 Imatinib 치료의 효과가 확립되어 있지 않음
+- **수술 후 추적 관찰 (조영증강 CT)**:
+  - **재발 고위험군 및 종양 파열(Rupture) 환자**: 4~6개월 간격으로 조영증강 CT 시행
+  - **초저위험, 저위험, 중간위험군 환자**: 6~12개월 간격으로 조영증강 CT 시행
+- **약물 치료 (전이성/불응성)**:
+  - 수술이 불가능하거나 전이된 경우 티로신 키나아제 억제제(TKI) 사용.
+  - Imatinib 불응 시 Sunitinib, Regorafenib 사용. PDGFRA exon 18 돌연변이 시 Avapritinib 고려.
 
-
-## 6. 예후 및 합병증 (Prognosis)
+## 6. 예후 및 합병증
 * **특징**: 위장관 간엽 종양에 속하며, 악성 잠재력은 종양의 위치, 크기, 유사분열 수(mitotic rate)에 따라 결정됨.
-* **병기**:
-  2cm 미만은 악성 잠재력이 매우 낮아 관찰하기도 함.
-  크기가 크고 유사분열 수가 많을수록 예후가 불량함.
-* **수술 적응증**: 증상이 있거나 2cm 이상인 경우 절제 고려.
+* **크기별 관리 및 예후**:
+  - **2cm 미만**: 반구형의 매끄러운 윤곽을 가지고 궤양이나 함몰이 없는 경우, 연 1~2회 정기적인 내시경 추적 관찰을 시행함
+  - 크기가 크고 유사분열 수가 많을수록 예후가 불량함.
 * **치료 효과**: 방사선 치료는 효과가 제한적임.
-
-
 
 출처 : Merck Manual Professional (Gastrointestinal Stromal Tumors)
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 공식 지침 기반 Tier 2 보강

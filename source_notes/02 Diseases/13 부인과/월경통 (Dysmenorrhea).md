@@ -15,6 +15,9 @@ CC:
 - 피로
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[부인과]]
 
@@ -54,32 +57,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Dysmenorrhea)
 Last updated :
----
-## 통합 전 원문
----
-aliases: ["dysmenorrhea"]
-유형:
-- disease
-계통: "부인과"
-분류: "["부인과", "월경관련질환"]"
-CC: []
----
-## 1. 개요
-- **정의**: 일차성(구조적 이상이 없는 상태에서의 월경통), 이차성(자궁내막증, 자궁선근증, IUD 등)
-- **원인**: 이차성(자궁내막증, 자궁선근증, IUD 등)
-- **기전**: (일차성) 자궁내막의 PGE2a 합성 증가로 인한 자궁 과수축 → 허혈성
-## 2. 임상 양상 (Clinical Features)
-* **CC**:
-  (일차성) 통증(월경 첫날에 가장 심함), 오심, 구토, 설사.
-  통증은 마사지, 움직임에 의해 완화됨.
-* **P/E**:
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-- 일차성: 임상적 진단
-- 이차성: US, laparoscopy로 기저 병변 증명
-## 5. 치료 (Treatment)
-- 일차성: NSAIDs (합성 억제), 경구피임약
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

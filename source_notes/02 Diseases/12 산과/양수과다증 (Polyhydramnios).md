@@ -12,6 +12,9 @@ CC:
 - 복부 팽만
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -55,29 +58,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Polyhydramnios)
 Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["hydramnios"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "양수, 태반, 탯줄이상"]"
-CC: []
----
-## 1. 개요
-- **정의**: AFI > 24 or 단일최대양수깊이> 8cm
-- **원인**
-- **기전**
-- **동반**: 자궁이완증등
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 호흡곤란, 부종
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 무증상은경과관찰, 증상이있거나심하면양수천자술, indomethacin (이뇨제, 수분제한, 염분제한은효과없음)
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

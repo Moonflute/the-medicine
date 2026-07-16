@@ -12,6 +12,13 @@ CC:
 - 청색증
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Society of Critical Care Medicine Guidelines for the Administration of Neuromuscular Blockade in Adults With Acute Respiratory Distress Syndrome. | https://pubmed.ncbi.nlm.nih.gov/41773929/", "급성호흡곤란증후군(ARDS) 임상진료지침 | https://www.ksccm.org/bbs/index.html?code=guideline&category=&gubun=&page=1&mode=view&idx=12", "An Update on Management of Adult Patients with Acute Respiratory Distress Syndrome: An Official American Thoracic Society Clinical Practice Guideline | https://www.atsjournals.org/doi/full/10.1164/rccm.202309-1666ST"]
+
+content_updated_at: "2026-07-17"
 ---
 분과 : [[호흡기]]
 
@@ -36,6 +43,7 @@ last_studied: '2026-06-06'
 
 ## 4. 진단 (Diagnosis)
 - Berlin definition (베를린 정의) 기준:
+- **진단 확인**: 급성 발병 시점, 양측 폐침윤, 심인성 폐부종만으로 설명되지 않는 호흡부전, PEEP/CPAP 조건에서의 산소화 저하를 함께 확인하고, 패혈증·폐렴·흡인·수혈 관련 손상 등 촉발 원인을 동시에 찾는다.
 * 호흡 증상이 1주 이내에 발생하거나 악화됨.
 * CXR/CT상 양측 폐 음영 확인 (흉수, 폐허탈 등으로 완전히 설명되지 않음).
 * 심부전이나 체액 과부하로 완전히 설명되지 않는 호흡 부전.
@@ -46,6 +54,7 @@ last_studied: '2026-06-06'
     (모두 PEEP 또는 CPAP ≥ 5 cm H2O 조건 하에 측정)
 
 ## 5. 치료 (Treatment)
+- **환기·보조 전략**: 폐보호 환기와 plateau pressure 감시를 기본으로 하고, 중증 저산소혈증에서는 prone positioning을 조기에 검토한다. 신경근차단은 모든 환자에게 지속적으로 사용하지 말고, 환자-인공호흡기 비동조나 중증 ARDS에서 필요한 기간으로 제한한다. 쇼크가 안정된 뒤에는 보존적 체액 전략을 고려하고, 원인 감염·흡인·수혈반응을 병행 교정한다. [SCCM ARDS neuromuscular blockade guideline](https://pubmed.ncbi.nlm.nih.gov/41773929/)
 * **산소 요법**: 고유량 비강 캐뉼라(HFNC) 등 비침습적 산소 공급 고려 (단, 중증도에 따라 신중한 판단 필요).
 * **기계 환기**: 폐 보호 전략(Lung protective ventilation) 적용, 1회 환기량(tidal volume) 6 mL/kg (이상 체중 기준) 유지.
 * **기타**: 필요 시 복와위(prone position) 환기, ECMO 고려.

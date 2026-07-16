@@ -11,6 +11,13 @@ CC:
 - 보행장애
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Nontraumatic Osteonecrosis of the Femoral Head: An International Evidence-Based Clinical Practice Guideline. | https://pubmed.ncbi.nlm.nih.gov/41961916/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[정형외과]]
 
@@ -33,13 +40,9 @@ last_studied: '2026-06-06'
 
 
 ## 3. 검사 (Lab & Imaging)
-- **X-ray**:
-  초기에는 정상일 수 있음.
-  진행 시 경화(sclerosis), 낭종, 대퇴골두 함몰 및 관절 간격 감소 소견.
-- **MRI**:
-  초기 진단에 가장 민감한 검사.
-  이중 선(double line sign)이 특징적임.
-
+- **영상 검사 원칙**: 정확한 병기(staging) 결정이 치료 방침 결정의 핵심임. 
+- **MRI**: 초기 진단 및 병변 범위 평가에 가장 민감한 표준 검사.
+- **X-ray**: 진행 단계에서 경화, 낭종, 대퇴골두 함몰 및 관절 간격 감소 확인. [Nontraumatic Osteonecrosis of the Femoral Head: An International Evidence-Based Clinical Practice Guideline.](https://pubmed.ncbi.nlm.nih.gov/41961916/)
 
 ## 4. 진단 (Diagnosis)
 - 임상 증상과 MRI 소견을 종합하여 진단.
@@ -47,11 +50,12 @@ last_studied: '2026-06-06'
 
 
 ## 5. 치료 (Treatment)
-- **보존적 치료**: 초기 단계에서 통증 조절 및 체중 부하 제한(단, 진행 억제 효과는 제한적).
+- **치료 원칙**: ARCO 가이드라인에 따라 환자별 병기 및 증상 유무를 고려한 표준화된 접근 필요.
+- **보존적 치료**: 통증 조절 및 체중 부하 제한(증상 완화 목적).
 - **수술적 치료**: 
-- 관절 보존술: 중심 감압술(core decompression), 절골술(osteotomy) 등(초기 단계).
-- 인공 관절 치환술: 골두 함몰이 진행된 말기 단계에서 시행.
-
+  - **관절 보존술**: 초기 단계에서 시행하며, 적절한 환자 선별이 예후에 중요함.
+  - **인공 관절 치환술**: 골두 함몰이 진행된 말기 단계에서 시행.
+- **모니터링**: 치료 후 정기적인 영상 추적 관찰을 통해 병기 변화 및 관절 보존 여부 평가. [Nontraumatic Osteonecrosis of the Femoral Head: An International Evidence-Based Clinical Practice Guideline.](https://pubmed.ncbi.nlm.nih.gov/41961916/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견이 중요하며, 괴사 범위가 클수록 예후가 불량함.

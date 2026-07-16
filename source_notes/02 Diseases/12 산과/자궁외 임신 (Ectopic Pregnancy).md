@@ -16,6 +16,9 @@ CC:
 - 복통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -49,56 +52,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Ectopic Pregnancy, Ectopic Pregnancy Ultrasound)
 Last updated :
----
----
-aliases: ["ectopic pregnancy"]
-유형:
-- - disease
-계통: "산과"
-분류: ["산과", "기타 임신 기간 관련"]
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** Triad (통증, 무월경, 질출혈).
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-* US (초음파).
-* b-hCG: 48시간마다 측정했을 때 b-hCG가 66%보다는 적게 상승.
-## 4. 진단 (Diagnosis)
-* 위험인자 + triad (통증, 무월경, 질출혈).
-## 5. 치료 (Treatment)
-* 복강경 (TOC).
-* MTX (메토트렉세이트).
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["ectopic pregnancy"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과"]"
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-- 위험인자+ triad (통증, 무월경, 질출혈), US, b-hCG (48시간마다측정했을때b-hCG가66%보다는적게상승)
-## 5. 치료 (Treatment)
-- 복강경(TOC), MTX
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

@@ -13,6 +13,12 @@ CC:
 - 인후통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+content_updated_at: '2026-07-15'
+guideline_year: "2025"
+sources: ["Guidelines for the Treatment of Laryngeal Cancer from the Korean Society of Head and Neck Surgery. | https://pubmed.ncbi.nlm.nih.gov/40199514/"]
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 분과 : [[이비인후과]]
 
@@ -50,3 +56,4 @@ last_studied: '2026-06-06'
 
 Last updated :
 2026-05-20 — 본문 갱신 (codex fill)
+2026-07-15 — 공식 지침 기반 Tier 2 보강

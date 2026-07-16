@@ -12,6 +12,9 @@ CC:
 - 경련
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -55,50 +58,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Early Pregnancy Loss)
 Last updated :
----
----
-aliases: ["spontaneous abortion"]
-유형:
-- - disease
-계통: "산과"
-분류: ["산과", "기타 임신 기간 관련"]
-CC: []
----
-## 1. 개요
-- **정의** Viability를 가지기 전에 임신이 끝남.
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["spontaneous abortion"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "기타임신기간관련"]"
-CC: []
----
-## 1. 개요
-- **정의**: viability가지기전에임신이끝남
-- **원인**
-- **기전**
-- **종류**: 절박유산, 불가피유산, 불완전유산, 계류유산
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

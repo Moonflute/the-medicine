@@ -10,6 +10,12 @@ CC:
 - 근육 약화
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2023"
+sources: ["2023 Korean Society of Nephrology Consensus Guideline for the Management of Hyperkalemia | https://www.ksn.or.kr/journal/view.php?number=202300002"]
+
 ---
 분과 : [[신장]]
 

@@ -10,6 +10,13 @@ CC:
 - 피부 변화
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Japanese Dermatological Association Guidelines: Clinical Questions of Guidelines for Basal Cell Carcinoma 2025. | https://pubmed.ncbi.nlm.nih.gov/41243455/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[피부과]]
 
@@ -33,7 +40,7 @@ last_studied: '2026-06-06'
 ## 3. 검사 (Lab & Imaging)
 * 피부 생검(Biopsy): 확진을 위해 필수적 (Shave, Punch, Excisional biopsy).
 * 더모스코피(Dermoscopy): 나뭇가지 모양의 혈관(arborizing vessels) 관찰이 특징적.
-
+* 참고: 동양인 환자의 경우 색소성 기저 세포암의 비율이 매우 높으므로(일본인 환자의 88.3%) 임상적 진단 시 색소 침착 여부를 면밀히 관찰해야 함. [Japanese Dermatological Association Guidelines: Clinical Questions of Guidelines for Basal Cell Carcinoma 2025.](https://pubmed.ncbi.nlm.nih.gov/41243455/)
 
 ## 4. 진단 (Diagnosis)
 * 임상적 의심 후 피부 생검을 통해 조직학적으로 확진.
@@ -41,9 +48,11 @@ last_studied: '2026-06-06'
 
 ## 5. 치료 (Treatment)
 * 치료 목표: 완전 절제, 기능 보존 및 미용적 결과 최적화.
-* 외과적 시술: 모스 미세도식 수술(Mohs micrographic surgery)이 고위험군 및 재발성 병변의 표준 치료.
-* 기타: 일반적 외과적 절제, 소파술 및 전기소작술(EDC), 냉동 치료, 방사선 치료, 국소 도포제(Imiquimod, 5-FU), Hedgehog 경로 억제제(진행성/전이성).
-
+* 외과적 절제: 
+  - 일본인 대상 연구에서 2mm의 수술적 절제 마진이 대부분의 기저 세포암에 적절한 것으로 보고됨. [Japanese Dermatological Association Guidelines: Clinical Questions of Guidelines for Basal Cell Carcinoma 2025.](https://pubmed.ncbi.nlm.nih.gov/41243455/)
+  - 색소성 기저 세포암의 경우 좁은 마진(narrow-margin) 절제가 안전하고 신뢰할 수 있는 치료법으로 제시됨. [Japanese Dermatological Association Guidelines: Clinical Questions of Guidelines for Basal Cell Carcinoma 2025.](https://pubmed.ncbi.nlm.nih.gov/41243455/)
+* 모스 미세도식 수술(Mohs micrographic surgery): 고위험군 및 재발성 병변의 표준 치료.
+* 기타 치료: 일반적 외과적 절제, 소파술 및 전기소작술(EDC), 냉동 치료, 방사선 치료(재발성 병변 고려), 국소 도포제(Imiquimod, 5-FU), 전신 요법(면역관문억제제 등 진행성/전이성 병변). [Japanese Dermatological Association Guidelines: Clinical Questions of Guidelines for Basal Cell Carcinoma 2025.](https://pubmed.ncbi.nlm.nih.gov/41243455/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 전이율은 매우 낮으나, 국소 침습성이 강해 방치 시 조직 파괴 및 변형을 초래함.

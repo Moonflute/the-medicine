@@ -14,6 +14,13 @@ CC:
 - 복통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Colorectal cancer screening: An update to the American Cancer Society guideline, 2026. | https://pubmed.ncbi.nlm.nih.gov/42200680/"]
+
+content_updated_at: "2026-07-16"
 ---
 ## 1. 개요
 - 역학: 남성에서 약간 더 흔하며, 95%는 선암(adenocarcinoma). 40~50세 이후 발병률 급증
@@ -31,12 +38,16 @@ last_studied: '2026-06-06'
 - 신체검사: 직장수지검사(DRE)로 종괴 확인, 직장 선반(rectal shelf, 복막 전이 시 직장-방광/자궁와에 만져지는 종괴) 확인
 
 ## 3. 검사
-- 선별검사: 45세부터 시작 권고.
-  대장내시경(10년 주기, 표준), 분변면역화학검사(FIT, 매년), 분변 DNA 검사 등
-- 영상 및 내시경: 대장내시경(확진 및 조직검사), 복부/흉부/골반 CT(병기 결정), MRI, PET, 내시경초음파(EUS, 침윤 깊이 확인)
-- 바이오마커: 암태아성 항원(CEA, 수술 전후 및 재발 추적 관찰에 활용, 선별검사 용도는 아님)
-- 기타: 모든 용종은 조직검사를 위해 절제 권장.
-  절제 불가능한 용종은 악성 배제를 위해 수술적 절제 고려
+- 선별검사(평균 위험군): 45세부터 75세까지 시행. 기대여명이 10년 이상인 경우 권고.
+- 선별검사 옵션:
+  - 대장내시경: 10년 주기(표준).
+  - 분변 기반 검사: 고감도 분변면역화학검사(FIT), 고감도 구아이아크 기반 분변잠혈검사(매년), 차세대 다중표적 분변 DNA 검사(mt-sDNA), 다중표적 분변 RNA 검사(mt-sRNA)(3년 주기).
+  - 혈액 기반 검사: 선호되는 선별검사를 거부하거나 완료하지 못하는 경우에만 고려.
+- 주의사항: 비대장내시경 선별검사에서 양성 결과가 나온 경우, 6개월 이내에 대장내시경을 통한 확진 및 후속 조치가 필수적임.
+- 진단 및 병기 결정: 대장내시경(조직검사), 복부/흉부/골반 CT, MRI, PET, 내시경초음파(EUS).
+- 바이오마커: CEA(수술 전후 및 재발 추적 관찰용, 선별검사 용도 아님).
+
+[Colorectal cancer screening: An update to the American Cancer Society guideline, 2026.](https://pubmed.ncbi.nlm.nih.gov/42200680/)
 
 ## 4. 진단
 - 대장 용종 분류

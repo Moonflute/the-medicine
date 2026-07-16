@@ -9,6 +9,12 @@ CC:
 - 빈뇨
 preprocessing_required: x
 last_studied: '2026-06-06'
+document_role: "specialty_perspective"
+parent_disease: "요로 폐색 (Urinary tract obstruction)"
+relation_to_parent: "specialty_perspective"
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[신장]]
 

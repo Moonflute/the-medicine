@@ -10,6 +10,13 @@ CC:
 - 가려움증
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Generalized Pustular Psoriasis: Review and Consensus of the Psoriasis Group of the Spanish Academy of Dermatology and Venereology. | https://pubmed.ncbi.nlm.nih.gov/41371399/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[피부과]]
 
@@ -28,9 +35,8 @@ last_studied: '2026-06-06'
 
 ## 3. 검사 (Lab & Imaging)
 * **진단**: 주로 임상적 양상으로 진단.
-* **조직검사**:
-  진단이 불확실할 경우 시행.
-  이상 각질화, Munro 미세농양, 표피 돌기의 규칙적 연장 등이 관찰됨.
+* **조직검사**: 진단이 불확실할 경우 시행. 이상 각질화, Munro 미세농양, 표피 돌기의 규칙적 연장 등이 관찰됨.
+* **전신성 농포성 건선(GPP) 고려 시**: 급성기 발작 시 감염 선별 검사 필수. [Generalized Pustular Psoriasis: Review and Consensus of the Psoriasis Group of the Spanish Academy of Dermatology and Venereology.](https://pubmed.ncbi.nlm.nih.gov/41371399/)
 * **기타**: 중증 건선이나 전신 치료 전 CBC, 간/신장 기능 검사, 감염(결핵, 간염) 선별 검사 필요.
 
 ## 4. 진단 (Diagnosis)
@@ -40,9 +46,9 @@ last_studied: '2026-06-06'
 * **국소 치료**: 보습제, 스테로이드, 비타민 D 유도체, 레티노이드, 타르 제제.
 * **광선 치료**: 311nm 단일 파장 자외선 B(NBUVB)가 효과적.
 * **전신 치료**: 메토트렉세이트(MTX), 사이클로스포린, 아시트레틴.
-* **생물학제제**:
-  TNF-α 억제제(인플릭시맙, 아달리무맙, 에타너셉트), IL-17/23 억제제 등.
-  치료 전 잠복 결핵 및 간염 검사 필수.
+* **생물학제제**: TNF-α 억제제(인플릭시맙, 아달리무맙, 에타너셉트), IL-17/23 억제제 등.
+* **전신성 농포성 건선(GPP) 특이 치료**: 급성 발작의 치료 및 예방을 위해 스페솔리맙(Spesolimab) 사용 가능. [Generalized Pustular Psoriasis: Review and Consensus of the Psoriasis Group of the Spanish Academy of Dermatology and Venereology.](https://pubmed.ncbi.nlm.nih.gov/41371399/)
+* **주의사항**: 전신 치료 및 생물학제제 사용 전 잠복 결핵 및 간염 검사 필수. [Generalized Pustular Psoriasis: Review and Consensus of the Psoriasis Group of the Spanish Academy of Dermatology and Venereology.](https://pubmed.ncbi.nlm.nih.gov/41371399/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 완치가 어려운 만성 질환으로 호전과 악화를 반복함.

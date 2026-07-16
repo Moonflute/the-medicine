@@ -13,6 +13,13 @@ CC:
 - 야간 발한
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2024"
+sources: ["2024 결핵진료지침 5판 | https://www.lungkorea.org/bbs/index.html?code=guideline&category=&gubun=&page=1&idx=1000000000000000001"]
+
+content_updated_at: "2026-07-17"
 ---
 분과 : [[호흡기]]
 
@@ -48,8 +55,10 @@ last_studied: '2026-06-06'
 - AFB (+) : PCR (-)이면 비결핵항산균(NTM) 의심
 - 둘 다 음성이라도 임상증상 및 영상소견이 결핵을 강력히 시사하면 진단 가능
 - 배양검사 : 확진 및 약제 감수성 검사를 위해 필수적이나 결과 확인까지 시간 소요
+- **검체·감염관리**: 객담 AFB 도말·배양과 신속 분자검사를 확보해 결핵균 확인 및 약제내성 정보를 얻고, 객담을 못 내면 유도객담/기관지경을 임상 상황에 맞게 고려한다. 전염성 폐결핵이 의심되면 음압격리와 보건당국 신고·접촉자 조사를 병행한다.
 
 ## 5. 치료 (Treatment)
+- **치료·추적**: 약제감수성, 병변 중증도, 간질환·임신·HIV·약물상호작용을 확인한 뒤 국내 지침 또는 결핵 전문팀의 표준 병합요법을 시작한다. 배양·내성 결과가 나오면 요법을 조정하고, 간독성·시력·말초신경병증 등 약제 독성과 순응도를 정기 추적한다. [ATS/CDC/ERS/IDSA 2025 TB treatment update](https://www.idsociety.org/practice-guideline/treatment-of-drug-susceptible-tb/treatment-of-drug-resistant-and-drug-susceptible-tb-2025-update/)
   * **표준 치료:** 2개월간 HRZE (Isoniazid, Rifampin, Ethambutol, Pyrazinamide) + 4개월간 HR (Isoniazid, Rifampin)
   * **약제별 부작용**
 * INH (Isoniazid): 간독성, 말초신경병증 (피리독신 병용 권장).

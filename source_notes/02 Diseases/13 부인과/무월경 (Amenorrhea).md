@@ -11,6 +11,9 @@ CC:
 - 월경이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[부인과]]
 
@@ -65,38 +68,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Amenorrhea, Primary Amenorrhea)
 Last updated :
----
-## 통합 전 원문
----
-aliases: ["amenorrhea"]
-유형:
-- disease
-계통: "부인과"
-분류: "["부인과", "무월경"]"
-CC: []
----
-## 1. 개요
-- **정의**:
-- **원인**: 이차성징X(ovary 이상, 체질적 초경 지연, Kallman’s syndrome, CNS tumor), 이차성징O 구조이상(원발성 해부학적 이상(처녀막막힘증, 뮬러관발육부전, 안드로겐무감응), 속발성 해부학적 이상(Asherman’s syndrome))
-- **기전**:
-## 2. 임상 양상 (Clinical Features)
-* **CC**:
-* **P/E**:
-## 3. 검사 (Lab & Imaging)
-- Hypo-gonadotropic hypo-gonadism: FSH 감소
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- Hypo-gonadotropic hypo-gonadism: hMG (E+P)
-- 체질적 초경 지연: 경과 관찰
-- Kallman’s syndrome: hMG
-- CNS tumor: 수술, RTx, DA
-- Turner’s syndrome: GH, E, P
-- Swyer syndrome: 생식샘 제거술 (악성화 가능성)
-- 처녀막막힘증: 십자절개술
-- 뮬러관발육부전: 확대술 시행
-- 안드로겐무감응: 생식샘 제거술
-- Asherman’s syndrome: 자궁경 유착 제거
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

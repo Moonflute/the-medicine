@@ -13,6 +13,9 @@ CC:
 - 시야 흐림
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -57,51 +60,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Oligohydramnios)
 Last updated :
----
----
-aliases: ["oligohydramnios"]
-유형:
-- - disease
-계통: "산과"
-분류: ["산과", "양수, 태반, 탯줄 이상"]
-CC: []
----
-## 1. 개요
-- **정의** AFI < 5 or 단일 최대 양수 깊이 < 2cm.
-- **원인** FGR, congenital, 지연 임신, ROM, 산모 HTN.
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-* 양수 주입술 (2차성에서만, 그 외는 태아 상태 보며 관찰).
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["oligohydramnios"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "양수, 태반, 탯줄이상"]"
-CC: []
----
-## 1. 개요
-- **정의**: AFI < 5 or 단일최대양수깊이< 2cm
-- **원인**: FGR, congenital, 지연임신, ROM, 산모HTN
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 양수주입술(2차성에서만, 그외는태아상태보며관찰)
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

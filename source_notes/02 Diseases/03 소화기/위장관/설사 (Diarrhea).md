@@ -11,6 +11,11 @@ CC:
 - 혈변
 preprocessing_required: x
 last_studied: '2026-06-06'
+document_role: "canonical"
+population: "adult"
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - 정의: 배변 횟수 증가, 대변의 묽기 증가, 대변량 증가(>200g/일)를 동반하는 상태

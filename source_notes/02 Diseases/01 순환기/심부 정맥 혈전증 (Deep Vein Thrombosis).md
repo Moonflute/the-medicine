@@ -10,6 +10,14 @@ CC:
 - 부종
 preprocessing_required: x
 last_studied: '2026-06-06'
+document_role: "canonical"
+population: "adult"
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2021"
+sources: ["Adult Venous Thromboembolism (VTE) Guideline | https://www.ncbi.nlm.nih.gov/books/NBK574509/", "Management of Venous Thromboembolism: An Update of the ACCP Guidelines | https://ashpublications.org/thehematologist/article/13/3/10/10999/Management-of-Venous-Thromboembolism-An-Update-of"]
+
 ---
 분과 : [[순환기]]
 

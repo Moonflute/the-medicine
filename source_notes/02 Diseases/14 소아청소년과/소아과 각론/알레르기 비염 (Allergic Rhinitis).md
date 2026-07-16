@@ -14,6 +14,13 @@ CC:
 - 부종
 preprocessing_required: x
 last_studied: '2026-06-06'
+document_role: "special_population"
+parent_disease: "알레르기 비염 (Allergic Rhinitis)"
+relation_to_parent: "special_population"
+population: "pediatric"
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[소아청소년과]]
 

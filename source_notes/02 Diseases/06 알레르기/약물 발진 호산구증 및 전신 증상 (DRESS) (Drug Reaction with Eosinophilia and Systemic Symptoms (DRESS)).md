@@ -12,6 +12,12 @@ CC:
 - 림프절 비대
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2025"
+sources: ["French national protocol for diagnosis and management of drug reaction with eosinophilia and systemic symptoms (DRESS) in adults and children. | https://pubmed.ncbi.nlm.nih.gov/40398341/"]
+
 ---
 분과 : [[알레르기]]
 

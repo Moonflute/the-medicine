@@ -16,6 +16,9 @@ CC:
 - 쌕쌕거림
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[소아청소년과]]
 

@@ -12,6 +12,9 @@ CC:
 - 골반통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[부인과]]
 
@@ -45,29 +48,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Endometrial Cancer)
 Last updated :
----
----
-aliases: ["endometrial cancer"]
-유형:
-- - disease
-계통: "부인과"
-분류: ["부인과", "자궁내막암"]
-CC: []
----
-## 1. 개요
-- **정의**:
-- **원인**: unopposed estrogen 노출
-- **기전**:
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 비정상 질출혈
-* **P/E**:
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-- office endometrial aspiration biopsy (선별검사는 없음)
-- 병기: 수술로 병기 설정 (따라서 우연히 발견 시 재개복하거나 영상 평가)
-## 5. 치료 (Treatment)
-- TAH + BSO가 기본, 병기에 따라 CTx, RTx 시행 여부 결정
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

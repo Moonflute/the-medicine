@@ -11,6 +11,13 @@ CC:
 - 구토
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2023"
+sources: ["2020년 급성 심근경색증의 약물 치료법에 대한 전문가 합의문 | https://www.koreamed.org/SearchBasic.php?RID=0106KCJ/2020.50.10.875", "2023 ESC Guidelines for the management of acute coronary syndromes | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Coronary-Syndromes-ACS-in-patients-presenting-without-persistent-ST-segment-elevation"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[순환기]]
 
@@ -49,11 +56,16 @@ last_studied: '2026-06-06'
 
 ## 5. 치료 (Treatment)
 * **항허혈 치료**:
-  질산염(Nitrate), 베타차단제(BB)를 우선 사용
-  흉통 지속 시 추가 조절 필요
-* **항혈전 치료**: 아스피린(Aspirin)과 P2Y12 억제제(클로피도그렐, 티카그렐러 등)를 병용하며, 헤파린(또는 LMWH, 비발리루딘)을 투여한다.
-* **재관류 치료**: 관상동맥 조영술(CAG) 후 경피적 관상동맥 중재술(PCI) 또는 관상동맥 우회술(CABG)을 시행한다.
-* **장기 관리**: 스타틴(statin), ACE 억제제(또는 ARB), 베타차단제, 항혈소판제를 지속적으로 투여하며 생활 습관 교정을 병행한다.
+  질산염(Nitrate), 베타차단제(BB)를 우선 사용한다.
+* **항혈전 치료**:
+  아스피린(Aspirin)과 P2Y12 억제제를 병용하며, 헤파린(또는 LMWH, 비발리루딘)을 투여한다.
+* **재관류 치료**:
+  관상동맥 조영술(CAG) 후 PCI 또는 CABG를 시행한다.
+  - **접근 및 영상**: 요골동맥 접근(radial-first)을 우선하며, 복잡한 해부학적 구조나 병변 확인을 위해 혈관 내 영상(intravascular imaging) 활용을 확대한다.
+  - **다혈관 질환**: 혈역학적 상태, 허혈 부하, 신기능, 조영제 부하를 고려하여 즉시 또는 단계적 재관류를 결정한다.
+  - **특수 상황**: 비폐쇄성 관상동맥 질환(MINOCA)이나 자발성 관상동맥 박리(SCAD) 시 영상 검사 및 기능 검사를 시행하며, SCAD는 허혈이 지속되지 않는 한 보존적 치료를 우선한다. [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/)
+* **장기 관리**:
+  스타틴, ACE 억제제(또는 ARB), 베타차단제, 항혈소판제를 지속 투여한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심근경색(MI), 부정맥, 심부전으로 진행될 수 있으며, 병변의 위치와 좌심실 기능에 따라 예후가 결정된다.

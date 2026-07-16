@@ -12,6 +12,13 @@ CC:
 - 부종
 preprocessing_required: x
 last_studied: '2026-06-06'
+document_role: "special_population"
+parent_disease: "심부 정맥 혈전증 (Deep Vein Thrombosis)"
+relation_to_parent: "special_population"
+population: "pregnancy"
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 

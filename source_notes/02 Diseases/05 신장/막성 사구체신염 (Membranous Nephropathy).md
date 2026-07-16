@@ -10,6 +10,13 @@ CC:
 - 단백뇨
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2021"
+sources: ["KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[신장]]
 
@@ -33,11 +40,9 @@ last_studied: '2026-06-06'
 
 
 ## 3. 검사 (Lab & Imaging)
-- **조직**
-- LM: GBM의 미만성 비후(diffuse thickening).
-- EM: 상피하(sub-epithelial) 전자밀도 침착물, 기저막 돌기(spike) 형성.
-- IF: IgG, C3의 미만성 과립상 침착.
-
+- **필수 검사**: 혈청 항-PLA2R 항체(Anti-PLA2R antibody) 측정은 일차성 막성 신증후군 진단 및 질환 활성도 평가에 필수적임.
+- **이차성 감별**: 연령 및 임상 상황에 따른 암 선별검사(고형암 등), 감염(HBV, HCV, HIV, 매독), 자가면역질환(SLE) 관련 혈청학적 검사.
+- **주의사항**: 신생검은 항-PLA2R 항체 음성이거나 이차성 원인이 의심되는 경우, 또는 신기능이 급격히 악화될 때 시행함. [KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases](https://kdigo.org/guidelines/gd/)
 
 ## 4. 진단 (Diagnosis)
 - 신생검(Renal biopsy)으로 확진.
@@ -45,10 +50,11 @@ last_studied: '2026-06-06'
 
 
 ## 5. 치료 (Treatment)
-- 대증치료: 이뇨제(부종 조절), ACE 억제제 또는 ARB(단백뇨 감소 및 혈압 조절).
-- 면역치료: 진행 위험이 높은 특발성 환자에서 고려.
-  Rituximab, 스테로이드, 사이클로포스파마이드, 칼시뉴린 억제제 등을 질환 중증도에 따라 선택.
-
+- **보존적 치료**: 모든 환자에게 RAS 차단제(ACEi 또는 ARB)를 사용하여 단백뇨를 조절하고 혈압을 120/80 mmHg 이하로 유지함. 부종 조절을 위한 이뇨제 및 필요 시 스타틴 투여.
+- **면역억제 치료**: 진행 위험이 높은 환자(지속적 신증후군 범위 단백뇨, 신기능 저하)를 대상으로 함.
+  - **1차 치료**: 리툭시맙(Rituximab) 또는 칼시뉴린 억제제(CNI) 기반 요법을 우선 고려.
+  - **병용 요법**: 고위험군에서 CNI와 리툭시맙 병용 또는 사이클로포스파마이드 기반 요법 고려.
+- **모니터링**: 항-PLA2R 항체 역가 및 단백뇨 변화를 통해 치료 반응을 평가하고, 면역억제제 투여 시 감염 및 약물 부작용을 주기적으로 모니터링함. [KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases](https://kdigo.org/guidelines/gd/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 1/3은 자연 관해, 1/3은 안정적 만성 신질환, 1/3은 말기 신부전으로 진행.

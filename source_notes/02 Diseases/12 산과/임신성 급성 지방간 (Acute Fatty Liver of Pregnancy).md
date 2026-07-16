@@ -12,6 +12,13 @@ CC:
 - 황달
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2022"
+sources: ["[Clinical management guideline of acute fatty liver of pregnancy（2022）]. | https://pubmed.ncbi.nlm.nih.gov/37193591/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -28,12 +35,9 @@ last_studied: '2026-06-06'
 
 
 ## 3. 검사 (Lab & Imaging)
-- **혈액 검사**: AST/ALT 상승, 빌리루빈 상승, 저혈당, 혈소판 감소, 응고 장애(PT 연장, 피브리노겐 감소), 암모니아 상승, 요산 상승, 신기능 저하.
-- **영상 검사**:
-  초음파상 지방 침윤 소견이 보일 수 있으나 진단적이지 않음.
-  CT는 태아 방사선 노출 위험으로 권장되지 않음.
-- **진단 기준**: Swansea 기준(구토, 복통, 황달, 저혈당, 뇌증, 응고 장애, 신부전 등 6개 이상 항목 충족 시 진단).
-
+- **필수 검사**: 간 기능 검사(AST/ALT, 빌리루빈), 응고 검사(PT/APTT, 피브리노겐), 신기능 검사(Cr, BUN), 혈당, 암모니아, 요산.
+- **모니터링**: 다장기 부전 확인을 위한 지속적인 혈액학적 및 생화학적 지표 추적.
+- **주의사항**: 영상 검사(초음파)는 지방 침윤을 시사할 수 있으나 진단적 한계가 명확함. CT는 태아 방사선 노출 위험으로 권장되지 않음. [[Clinical management guideline of acute fatty liver of pregnancy（2022）].](https://pubmed.ncbi.nlm.nih.gov/37193591/) [[Clinical management guideline of acute fatty liver of pregnancy（2022）].](https://pubmed.ncbi.nlm.nih.gov/37193591/)
 
 ## 4. 진단 (Diagnosis)
 - 임상적 진단이 우선이며, 간 생검은 일반적으로 불필요함.
@@ -43,12 +47,11 @@ last_studied: '2026-06-06'
 
 ## 5. 치료 (Treatment)
 - **원칙**: 모체 안정화 및 즉각적인 태아 분만(Definitive treatment).
-- **대증 요법**: 전해질 교정, 저혈당 및 응고 장애 관리, 필요 시 수혈.
-- **분만**: 모체 및 태아 상태에 따라 결정하며, 상태 악화 시 제왕절개술 시행.
-- **산후 관리**:
-  분만 후에도 간 기능 및 응고 상태 모니터링 필요.
-  회복되지 않을 경우 간 이식 고려.
-
+- **치료 전략**: 
+  - **다학제 접근**: 산과, 소화기내과, 중환자의학, 마취과 협진 필수.
+  - **대증 요법**: 전해질 교정, 저혈당 및 응고 장애 관리, 필요 시 수혈 및 인공 간 치료(Artificial liver support) 고려.
+  - **분만**: 모체 상태 안정화 후 즉각적인 분만 시행. 분만 방식 및 마취 방법은 모체 및 태아 상태에 따라 개별화.
+- **모니터링**: 수술 전 위험 평가 및围产期(주산기) 합병증 발생 여부를 면밀히 감시. [[Clinical management guideline of acute fatty liver of pregnancy（2022）].](https://pubmed.ncbi.nlm.nih.gov/37193591/) [[Clinical management guideline of acute fatty liver of pregnancy（2022）].](https://pubmed.ncbi.nlm.nih.gov/37193591/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 분만 후 1주~10일 이내에 간 기능이 정상화되는 경우가 많음.

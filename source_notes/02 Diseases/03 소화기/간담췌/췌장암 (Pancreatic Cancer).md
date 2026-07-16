@@ -16,6 +16,9 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - **정의**: 췌장 세포에서 기원하는 악성 종양으로, 대부분 췌관 선암(ductal adenocarcinoma)이며 췌장 머리 부분(head)에 가장 흔하게 발생함.

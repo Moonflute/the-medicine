@@ -10,6 +10,9 @@ CC:
 - 검진 이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -46,28 +49,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Variable Decelerations)
 Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["Variable deceleration"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "임신중태아감시"]"
-CC: []
----
-## 1. 개요
-- **정의**: Nadir 30초미만
-- **원인**: 탯줄압박, 내진시박동성의물컹한덩이= cord depression
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- cord depression 확인시즉시C-sec, 아니면자세변화→C-sec
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

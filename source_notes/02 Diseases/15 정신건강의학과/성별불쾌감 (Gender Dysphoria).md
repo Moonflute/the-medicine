@@ -13,6 +13,13 @@ CC:
 - 자해/자살사고
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["Framework guidelines for the process of caring for the health of adolescent transgender (T) and non-binary (NB) people experiencing gender dysphoria - the position statement of the expert panel. | https://pubmed.ncbi.nlm.nih.gov/40071796/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[정신건강의학과]]
 
@@ -28,8 +35,8 @@ last_studied: '2026-06-06'
   동반 질환으로 성격 장애(특히 Cluster B)가 흔함.
 
 ## 3. 검사 (Lab & Imaging)
-- 진단을 위한 특이적 검사는 없으나, 성발달 장애(DSD) 감별을 위해 호르몬 검사 및 유전자 검사가 필요할 수 있음.
-- 정신건강의학적 평가를 통해 동반된 우울, 불안 및 기타 정신질환 여부를 확인해야 함.
+- 진단을 위한 특이적 검사는 없으나, 성발달 장애(DSD) 감별을 위해 호르몬 및 유전자 검사가 필요할 수 있음.
+- 정신건강의학적 평가 시 동반된 정신질환 및 신경다양성(neurodiversity) 여부를 포괄적으로 확인해야 함. [Framework guidelines for the process of caring for the health of adolescent transgender (T) and non-binary (NB) people experiencing gender dysphoria - the position statement of the expert panel.](https://pubmed.ncbi.nlm.nih.gov/40071796/)
 
 ## 4. 진단 (Diagnosis)
 - DSM-5 기준: 6개월 이상 지속되는 성별 불일치와 이로 인한 임상적으로 유의미한 고통 또는 기능 저하.
@@ -38,10 +45,10 @@ last_studied: '2026-06-06'
 - 성발달 장애(DSD) 동반 여부를 명시해야 함.
 
 ## 5. 치료 (Treatment)
-- 다학제적 접근(정신건강의학과, 내분비내과, 외과 등)이 필수적임.
-- 심리치료: 개인, 가족, 집단 상담을 통해 성별 정체성 탐색 및 정서적 지지 제공.
-- 호르몬 요법: 성별 확정적 호르몬 치료(성별 불일치 완화 목적).
-- 수술적 치료: 개인의 필요와 의학적 판단에 따라 성별 확정 수술 고려.
+- 다학제적 팀(정신건강의학과, 내분비내과, 외과 등)의 협력이 필수적임.
+- 치료 원칙: 개인의 자율성, 정체성, 권리를 존중하는 개별화된 긍정적(affirmative) 치료 제공.
+- 심리치료: 성별 정체성 탐색 및 정서적 지지를 제공하며, 가족의 참여를 포함한 포괄적 지원 체계 구축.
+- 의학적 개입: 성별 확정적 호르몬 치료(GAHI) 및 사춘기 억제 치료는 의학적 판단과 프로토콜에 따라 시행함. [Framework guidelines for the process of caring for the health of adolescent transgender (T) and non-binary (NB) people experiencing gender dysphoria - the position statement of the expert panel.](https://pubmed.ncbi.nlm.nih.gov/40071796/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 지지 체계와 치료가 제공되지 않을 경우 우울, 불안, 자살 위험이 높음.

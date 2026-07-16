@@ -11,6 +11,13 @@ CC:
 - 가슴통증
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["2025 ESC Guidelines for the management of myocarditis and pericarditis | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Myocarditis-and-Pericarditis"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[순환기]]
 
@@ -33,6 +40,7 @@ last_studied: '2026-06-06'
 
 ## 3. 검사 (Lab & Imaging)
 - 심근 손상 지표인 트로포닌(Troponin) 수치가 상승할 수 있다.
+- **초기 평가의 조합**: ECG·트로포닌·심초음파를 함께 해석하며, 검사가 정상이어도 임상 의심이 높으면 심근염을 배제하지 않는다. CMR은 부종·괴사/섬유화와 심실기능을 평가하는 핵심 검사이고, 생검은 거대세포성·호산구성·면역관문억제제 관련 등 원인 특이 치료가 달라질 가능성이 높거나 불안정한 경우에 선별한다. [2024 ACC myocarditis ECDP key points](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2024/12/09/21/53/2024-acc-ecdp-on-myocarditis)
   심전도(EKG)는 정상일 수도 있으나 ST 분절 변화, 부정맥, 전도 장애 등이 나타날 수 있다.
   심초음파는 심실 기능 이상이나 국소적 벽운동 장애를 확인하는 데 유용하다.
   심장 자기공명영상(MRI)은 심근 부종 및 지연 조영 증강(LGE) 패턴을 통해 진단적 가치가 높다.
@@ -44,6 +52,8 @@ last_studied: '2026-06-06'
 
 ## 5. 치료 (Treatment)
 - 원인에 따른 치료가 우선, 심부전 및 부정맥에 대한 표준적인 약물 및 기기 치료를 시행한다.
+- **중증도에 따른 처치**: 흉통, 부정맥, 심부전/쇼크 중 어떤 양상인지 먼저 분류한다. 혈역학적·전기적 불안정, 양심실 기능저하, 고위험 CMR 소견이 있으면 입원 모니터링 및 advanced HF/심장중환자 팀 평가가 필요하다. 심부전 증상이 있는 경우 NSAID·콜히친을 심막형 흉통과 구분 없이 사용하지 않는다.
+- **원인특이 치료와 추적**: 면역매개·호산구성·거대세포성 등은 전문팀과 면역치료를 판단한다. 증상성 환자는 격한 운동을 피하고, 회복 평가를 위해 심초음파/CMR·부정맥 모니터링을 계획한다. [2024 ACC myocarditis ECDP key points](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2024/12/09/21/53/2024-acc-ecdp-on-myocarditis)
   전격성 심근염의 경우 체외막 산소 공급(ECMO)이나 좌심실 보조장치(LVAD) 등 기계적 순환 보조가 필요할 수 있다.
   특정 유형(거대세포 심근염 등)에서는 면역억제제 치료가 고려된다.
 

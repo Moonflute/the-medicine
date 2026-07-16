@@ -8,6 +8,11 @@ const basePath = isGitHubPages ? `/${repoName}` : "";
 const nextConfig: NextConfig = {
   output: "export",
   trailingSlash: true,
+  experimental: {
+    // The static export generates a large number of note pages. Keep the
+    // worker count bounded so local/CI builds remain within memory.
+    cpus: 1,
+  },
   images: {
     unoptimized: true,
   },

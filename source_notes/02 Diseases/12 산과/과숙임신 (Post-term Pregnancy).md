@@ -10,6 +10,9 @@ CC:
 - 검진 이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -41,28 +44,4 @@ last_studied: '2026-06-06'
 
 출처 : ACOG Practice Bulletin, Merck Manual Professional
 Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["prolonged pregnancy"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "기타임신기간관련"]"
-CC: []
----
-## 1. 개요
-- **정의**: 42주이후출생
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 출산: 42주이상확신시, 양수과소증, 태동감소중1개이상시, 처치: 출산적응증아니면1주뒤추적관찰, 프로스타글란딘E2
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

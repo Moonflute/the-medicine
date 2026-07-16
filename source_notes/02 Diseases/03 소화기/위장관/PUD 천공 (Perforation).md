@@ -9,6 +9,13 @@ CC:
 - 복통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Contemporary algorithm for nasal septal perforation repair. | https://pubmed.ncbi.nlm.nih.gov/42285297/"]
+
+content_updated_at: "2026-07-17"
 ---
 분과 : [[소화기]]
 
@@ -29,6 +36,7 @@ last_studied: '2026-06-06'
 
 ## 3. 검사 (Lab & Imaging)
 - **복부 영상 검사**
+- **진단·위험도**: 복부 CT로 천공, 자유 공기/액체, 복막염 범위와 다른 급성복증을 평가한다. 쇼크·패혈증, 확산성 복막염, 증상 지속 시간, 동반질환을 동시에 평가하고, 영상이 지연되어도 전형적 복막염과 불안정성이 있으면 외과 평가를 늦추지 않는다. [WSES perforated peptic ulcer guideline](https://doi.org/10.1186/s13017-019-0283-9)
 - 복부 X-ray (AXR) 및 흉부 X-ray: 횡격막 하부의 유리 공기(free air) 확인
 - 복부 CT: 진단적 가치가 높으며, 유리 공기 및 천공 부위 확인에 유용
 
@@ -39,6 +47,7 @@ last_studied: '2026-06-06'
 
 ## 5. 치료 (Treatment)
 - **응급 처치**
+- **초기 처치와 수술 판단**: 금식, 정주 수액·통증조절, 광범위 항생제, 위산 억제와 필요 시 위장관 감압을 시작하며, 원인균·내성 위험과 신기능에 맞춰 항생제를 조정한다. 누출이 봉쇄되고 전신 상태가 안정적인 엄선된 환자만 비수술적 관찰을 고려하며, 복막염·불안정성·지속 누출은 긴급 수술/중재 평가 대상이다. 수술 후에는 H. pylori 검사·제균, NSAID 위험과 재발 예방을 계획한다. [WSES perforated peptic ulcer guideline](https://doi.org/10.1186/s13017-019-0283-9)
 - 금식, 비위관 삽입, 수액 소생술, 광범위 항생제 투여
 - **수술적 치료**
 - 즉각적인 응급 수술이 원칙

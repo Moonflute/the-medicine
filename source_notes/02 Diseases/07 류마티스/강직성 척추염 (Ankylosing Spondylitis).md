@@ -12,6 +12,9 @@ CC:
 - 음식물 역류
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - **정의**: 척추와 천장관절에 염증이 발생하여 강직을 유발하는 만성 염증성 질환으로, 척추관절염(spondyloarthritis, SpA) 중 가장 대표적인 질환.

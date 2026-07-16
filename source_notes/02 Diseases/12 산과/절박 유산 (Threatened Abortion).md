@@ -11,6 +11,9 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -53,51 +56,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Abortion, Abortion Complications)
 Last updated :
----
----
-aliases: ["threatened abortion"]
-유형:
-- - disease
-계통: "산과"
-분류: ["산과", "기타 임신 기간 관련", "자연유산"]
-CC: []
----
-## 1. 개요
-- **정의** 20주 이내에 혈성 질 분비물, 출혈이 닫힌 자궁경부에서 보이는 경우.
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 혈성 질 분비물, 출혈.
-* **P/E** 닫힌 자궁경부.
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-* 경과 관찰 (유산의 위험은 있지만 정상 임신이 진행 중인 것).
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["threatened abortion"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "기타임신기간관련", "자연유산"]"
-CC: []
----
-## 1. 개요
-- **정의**: 20주이내에혈성질분비물, 출혈이닫힌자궁경부에서보이는경우
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 경과관찰(유산의위험은있지만정상임신이진행중인것)
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

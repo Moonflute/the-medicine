@@ -17,13 +17,15 @@ last_studied: '2026-06-06'
 sources:
 - '대한고혈압학회 2026년 제6판 고혈압 진료지침 | https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read'
 - 'ACOG Gestational Hypertension and Preeclampsia | https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/gestational-hypertension-and-preeclampsia'
-clinical_priority: tier_2
+clinical_priority: "tier_2"
 content_updated_at: '2026-07-14'
-guideline_year: '2026'
+guideline_year: "2026"
 disease_family: hypertension
 parent_disease: 고혈압 (Hypertension)
 relation_to_parent: special_population
 population: pregnancy
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 
 ## 1. 개요
@@ -53,4 +55,4 @@ population: pregnancy
 
 ## 출처
 - ACOG Gestational Hypertension and Preeclampsia: https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/gestational-hypertension-and-preeclampsia
-- 2025 ACC/AHA High Blood Pressure Guideline: https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know
+- 대한고혈압학회 2026년 제6판 고혈압 진료지침: https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read

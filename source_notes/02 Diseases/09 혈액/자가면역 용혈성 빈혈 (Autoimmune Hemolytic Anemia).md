@@ -11,6 +11,12 @@ CC:
 - 실신
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+content_updated_at: '2026-07-15'
+guideline_year: "2023"
+sources: ["[Chinese guideline for the diagnosis and treatment of adult autoimmune hemolytic anemia (2023)]. | https://pubmed.ncbi.nlm.nih.gov/36987718/"]
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 분과 : [[혈액]]
 
@@ -54,3 +60,4 @@ last_studied: '2026-06-06'
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 공식 지침 기반 Tier 2 보강

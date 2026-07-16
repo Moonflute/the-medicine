@@ -10,6 +10,9 @@ CC:
 - 무증상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[부인과]]
 
@@ -43,28 +46,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Intraductal Papilloma)
 Last updated :
----
----
-aliases: ["관내유두종"]
-유형:
-- - disease
-계통: "부인과"
-분류: ["부인과", "외과", "유방질환"]
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 단일 유두관 혈성 분비물, 작은 종괴
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-- 유방 촬영술, 유방 초음파, 유관 조영술, 유관 내시경
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 유관의 국소적 절제
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

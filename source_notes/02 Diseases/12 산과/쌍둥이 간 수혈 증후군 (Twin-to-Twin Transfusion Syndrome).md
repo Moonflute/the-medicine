@@ -13,6 +13,9 @@ CC:
 - 체중증가
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -50,57 +53,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Twin-to-Twin Transfusion Syndrome)
 Last updated :
----
----
-aliases: ["TTTS", "twin-twin transfusion syndrome"]
-유형:
-- - disease
-계통: "산과"
-분류: ["산과", "태아 성장 지연", "쌍둥이"]
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E** MCDA (Monochorionic Diamniotic)에서 발생.
-## 3. 검사 (Lab & Imaging)
-* USG (초음파).
-## 4. 진단 (Diagnosis)
-* 최대 양수 수직 깊이가 각자 2cm 미만 / 8cm 초과.
-## 5. 치료 (Treatment)
-* 혈관문합 태아경 레이저 절제술.
-* 양수 감압술.
-* 34주 이후면 제왕절개.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["TTTS"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "쌍둥이"]"
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-- **특징**: MCDA에서발생
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-- 최대양수수직깊이가각자2cm 미만/ 8cm 초과
-## 5. 치료 (Treatment)
-- 혈관문합태아경레이저절제술, 양수감압술, 34주이후면제왕절개
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

@@ -14,6 +14,12 @@ CC:
 - 체중감소/식욕부진
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2026"
+sources: ["The Italian Society for Rheumatology guidelines for the treatment of patients with rheumatoid arthritis and interstitial lung disease. | https://pubmed.ncbi.nlm.nih.gov/41247141/"]
+
 ---
 ## 1. 개요
 - **정의**: 대칭적인 다발성 관절염(polyarthritis)이 특징인 만성 전신성 자가면역질환

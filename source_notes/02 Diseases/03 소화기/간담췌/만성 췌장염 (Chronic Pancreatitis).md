@@ -14,6 +14,9 @@ CC:
 - 체중감소/식욕부진
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - **정의**: 췌장의 만성적인 염증으로 인해 비가역적인 구조적 손상(섬유화, 췌관 협착)이 발생하고, 이로 인해 외분비 및 내분비 기능 부전이 나타나는 질환.

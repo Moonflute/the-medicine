@@ -10,6 +10,9 @@ CC:
 - 검진 이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[부인과]]
 
@@ -55,28 +58,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Phyllodes Tumor of the Breast)
 Last updated :
----
----
-aliases: ["엽상종양"]
-유형:
-- - disease
-계통: "부인과"
-분류: ["부인과", "외과", "유방질환"]
-CC: []
----
-## 1. 개요
-- **정의** 섬유선종의 아형?
-- **원인**
-- **기전** 종양 내부가 나뭇잎 모양으로 생김
-## 2. 임상 양상 (Clinical Features)
-* **CC** 5cm, 매끄러운 표면, 단단하고 유동적
-* **P/E** 주로 40대에서 호발
-## 3. 검사 (Lab & Imaging)
-- 촉진, 유방 촬영술, 유방 초음파, 조직 검사 (바늘 생검)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 광범위 국소 절제술 (BCS), 유방 절제술 (>5cm)
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

@@ -15,6 +15,9 @@ CC:
 - 발열
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - 정의: 신장, 요관, 방광, 요도 등 요로계에 소변 내 성분이 결정화되어 결석이 형성되는 질환

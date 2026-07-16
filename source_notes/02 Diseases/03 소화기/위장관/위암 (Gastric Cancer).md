@@ -15,6 +15,9 @@ CC:
 - 구토
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - **정의**: 위 샘암(gastric adenocarcinoma)을 지칭하며, 전체 위암의 85%를 차지함.

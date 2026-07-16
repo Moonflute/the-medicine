@@ -15,13 +15,15 @@ last_studied: '2026-06-06'
 sources:
 - '대한고혈압학회 2026년 제6판 고혈압 진료지침 | https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read'
 - 'American Academy of Ophthalmology EyeWiki: Hypertensive Retinopathy | https://eyewiki.aao.org/Hypertensive_retinopathy'
-clinical_priority: tier_2
+clinical_priority: "tier_2"
 content_updated_at: '2026-07-14'
-guideline_year: '2026'
+guideline_year: "2026"
 disease_family: hypertension
 parent_disease: 고혈압 (Hypertension)
 relation_to_parent: chronic_complication
 population: general
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 
 ## 1. 개요

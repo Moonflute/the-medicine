@@ -15,6 +15,12 @@ CC:
 - 의식장애
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2026"
+sources: ["EASL-AASLD Delphi consensus statement on surrogate endpoints and real-world evidence in primary biliary cholangitis. | https://pubmed.ncbi.nlm.nih.gov/42191456/"]
+
 ---
 분과 : [[소화기]]
 

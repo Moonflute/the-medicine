@@ -16,6 +16,9 @@ CC:
 - 체중감소/식욕부진
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - **정의**: 간 내에 세균, 아메바, 진균 감염으로 농이 축적되어 형성된 국소적 염증성 병변.

@@ -13,6 +13,13 @@ CC:
 - 배뇨통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Diagnosis of Endometriosis. | https://pubmed.ncbi.nlm.nih.gov/41712950/"]
+
+content_updated_at: "2026-07-17"
 ---
 분과 : [[부인과]]
 
@@ -30,6 +37,7 @@ last_studied: '2026-06-06'
 
 
 ## 3. 검사 (Lab & Imaging)
+- **진단 접근**: 월경통·만성 골반통·성교통·배변/배뇨 관련 통증과 난임을 병력에서 구조화해 묻고, 골반진찰과 초음파를 우선 사용한다. 깊은 침윤 또는 수술 계획에는 MRI를 선택적으로 추가하며, 정상 영상만으로 질환을 완전히 배제하지 않는다. 복강경은 모든 환자의 첫 진단 검사가 아니라 영상/경험적 치료와 치료 목표를 함께 고려해 결정한다. [ACOG Clinical Practice Guideline: Diagnosis of Endometriosis](https://pubmed.ncbi.nlm.nih.gov/41712950/)
 - 골반 내진 및 초음파
 - CA-125 (비특이적 상승 가능)
 - 진단적 복강경 (확진 및 병기 결정)
@@ -46,6 +54,7 @@ last_studied: '2026-06-06'
 - **통증 조절**: Progestin, GnRH agonist, 경구 피임약(OC), NSAIDs
 - **불임 및 병변 치료**: 수술적 절제술(난소 낭종 절제술, 유착 박리술 등)
 - **원칙**: 증상 완화 및 가임력 보존을 목표로 하며, 약물 치료는 증상 조절에 효과적이나 완치는 어려움
+- **목표별 치료**: 통증이 주된 경우 NSAID와 호르몬 치료를 효과·부작용·피임 필요성·임신 계획에 맞춰 단계적으로 선택한다. 난임이 주된 경우에는 장기 호르몬 억제로 자연임신 가능성을 높이려 하기보다 병변 범위, 연령, 난소예비력, ART 계획을 생식의학/부인과와 함께 결정한다. 난소내막종·깊은 침윤·장/요관 침범 의심, 지속 통증은 전문 수술팀 의뢰를 고려한다. [ACOG Clinical Practice Guideline: Diagnosis of Endometriosis](https://pubmed.ncbi.nlm.nih.gov/41712950/)
 
 
 
@@ -54,30 +63,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Endometriosis)
 Last updated :
----
----
-aliases: ["endometriosis"]
-유형:
-- - disease
-계통: "부인과"
-분류: ["부인과", "자궁질환"]
-CC: []
----
-## 1. 개요
-- **정의**: 자궁내막 조직이 자궁 밖에 있는 것 ('불임')
-- **원인**:
-- **기전**:
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 불임, 월경통, 성교통, 만성 골반통, 운동성 제한
-* **P/E**:
-## 3. 검사 (Lab & Imaging)
-- 골반 내진, 초음파, CA-125
-## 4. 진단 (Diagnosis)
-- 진단적 복강경(확진) - gunshot 소견
-## 5. 치료 (Treatment)
-- 통증(progestin, GnRH agonist), 불임(난소 낭종 절제술), 예방(OC)
-- 불임 치료를 하려면 수술을 해야만 한다
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

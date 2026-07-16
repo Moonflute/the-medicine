@@ -16,6 +16,12 @@ CC:
 - 오한
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+content_updated_at: '2026-07-15'
+guideline_year: "2025"
+sources: ["Best practice assessment and management of benign paroxysmal positional vertigo in older adults. | https://pubmed.ncbi.nlm.nih.gov/40819291/"]
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 분과 : [[이비인후과]], 소화기내과
 
@@ -34,16 +40,17 @@ last_studied: '2026-06-06'
 
 ## 2. 임상 양상
 - **이석증**
-    - 주호소: 머리 위치 변화 시 발생하는 수 초~1분 이내의 짧고 반복적인 회전성 어지럼증
-    - 특징: 아침에 심한 경향, 오심/구토 동반 가능, 증상 사이에는 무증상인 경우가 많음
+    - 주호소: 머리 위치 변화 시 발생하는 수 초~1분 이내의 짧고 반복적인 회전성 어지럼증. 고령층에서는 전형적인 현훈 대신 어지러움(unsteadiness)이나 낙상으로 나타날 수 있음.
+    - 특징: 아침에 심한 경향, 오심/구토 동반 가능, 증상 사이에는 무증상인 경우가 많음.
     - 신체검사: 
-        - 후반고리관 BPPV: Dix-Hallpike 검사 시 상향 및 회전성 안진
-        - 수평반고리관 BPPV: Head-roll 검사 시 수평 안진
+        - 후반고리관 BPPV: Dix-Hallpike 검사 시 상향 및 회전성 안진.
+        - 수평반고리관 BPPV: Head-roll 검사 시 수평 안진(apogeotropic 또는 geotropic).
+        - 전반고리관 BPPV: Dix-Hallpike 또는 Deep Head Hang 검사.
 - **담석증**
-    - 주호소: 급성 RUQ 통증(담도 산통), 30분~5시간 지속(5시간 이상 시 담낭염 의심)
-    - 방사통: 우측 어깨, 등 뒤
-    - 악화요인: 식사(과식, 고지방), 야간
-    - 기타: 오심, 구토, 발열, 오한(합병증 시사)
+    - 주호소: 급성 RUQ 통증(담도 산통), 30분~5시간 지속(5시간 이상 시 담낭염 의심).
+    - 방사통: 우측 어깨, 등 뒤.
+    - 악화요인: 식사(과식, 고지방), 야간.
+    - 기타: 오심, 구토, 발열, 오한(합병증 시사).
 
 ## 3. 검사
 - **이석증**:
@@ -64,13 +71,14 @@ last_studied: '2026-06-06'
 
 ## 5. 치료
 - **이석증**
-- 이석치환술(Canalith repositioning maneuvers): Epley maneuver(후반고리관), Barbeque maneuver(수평반고리관) 등
-- 약물: 전정억제제는 효과가 제한적이므로 권장되지 않음
-- 수술: 난치성인 경우 드물게 고려
+    - 이석치환술(Particle repositioning maneuvers): Epley(후반고리관), Gufoni(수평반고리관, BBQ roll 대안), Semont/Gans(경추 문제 시 대안) 등.
+    - 고령/허약 환자 고려사항: 경추/척추 문제, 관절염, 기동성 저하 시 베개 사용(흉추 신전 유도), 틸트 침대(Trendelenburg), 또는 Side lying test 등 변형 술기 적용.
+    - 주의사항: 술기 전 경추 불안정성, 척수병증, 중증 경동맥 협착, 척추동맥 부전, 불안정한 심장 질환 등 금기사항 확인. 금기 시 전문가 의뢰 고려.
+    - 약물: 전정억제제는 효과가 제한적이므로 권장되지 않음.
 - **담석증**
-- 경과관찰: 무증상 담석
-- 담낭절제술(복강경): 유증상, 담석 크기 > 2.5~3 cm, 합병증 과거력(담낭염, 담관염, 췌장염), Porcelain GB, 해부학적 이상(APBDU)
-- 기타: 약물치료(UDCA), 시술(레이저쇄석술, 체외충격파쇄석술)
+    - 경과관찰: 무증상 담석.
+    - 담낭절제술(복강경): 유증상, 담석 크기 > 2.5~3 cm, 합병증 과거력(담낭염, 담관염, 췌장염), Porcelain GB, 해부학적 이상(APBDU).
+    - 기타: 약물치료(UDCA), 시술(레이저쇄석술, 체외충격파쇄석술).
 
 ## 6. 예후 및 합병증
 - **이석증**: 재발 가능성 있음, 전정재활운동 도움
@@ -80,3 +88,4 @@ last_studied: '2026-06-06'
 Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 공식 지침 기반 Tier 2 보강

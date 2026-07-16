@@ -11,6 +11,9 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[외과]]
 
@@ -42,28 +45,4 @@ last_studied: '2026-06-06'
 
 출처 : UpToDate, 대한수혈학회 가이드라인
 Last updated :
----
----
-aliases: ["수혈후자반증"]
-유형:
-- - disease
-계통: "외과"
-분류: ["외과", "수혈부작용"]
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인** HPA-1a에 대한 동종항체
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 수혈 수일 후 전신 자반
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-- 혈소판 특이 항체 검출, 혈소판 감소 확인
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- IVIG, 혈장 교환
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

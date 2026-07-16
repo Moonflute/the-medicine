@@ -11,6 +11,12 @@ CC:
 - 혈변
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+content_updated_at: '2026-07-15'
+guideline_year: "2026"
+sources: ["Recommendations for Stress Ulcer Prophylaxis in Critically Ill Adults: A Contextualized Clinical Practice Guideline From the Saudi Critical Care Society and the Scandinavian Society of Anaesthesiology and Intensive Care Medicine, Endorsed by the Kuwait Anesthesia and Critical Care Society. | https://pubmed.ncbi.nlm.nih.gov/41655594/"]
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 분과 : [[외과]]
 
@@ -35,9 +41,20 @@ last_studied: '2026-06-06'
 ## 4. 진단 (Diagnosis)
 - 고위험군 환자에서 상부위장관 출혈 징후 발생 시 내시경을 통해 확진.
 
-## 5. 치료 (Treatment)
-- 예방: 고위험군 환자에서 PPI(Proton Pump Inhibitor) 또는 H2 수용체 길항제 투여.
-- 치료: 충분한 수액 요법 및 수혈, 내시경적 지혈술, PPI 정맥 투여.
+## 5. 치료
+- **예방(SUP) 적응증**
+  - 응고장애(coagulopathy), 쇼크, 또는 만성 간질환이 있는 중환자: SUP 권고.
+  - 경장 영양(enteral feeding)을 받는 고위험군: SUP 권고.
+  - 경장 영양을 받는 저위험군: SUP 사용 권고하지 않음.
+- **약제 선택 및 투여**
+  - PPI 또는 H2RA를 수크랄페이트(sucralfate)보다 우선 권고.
+  - 저용량 PPI 또는 H2RA 사용 권고(고용량 대비).
+  - 투여 경로(경장 vs 정맥)는 임상적 가용성에 따라 결정.
+- **중단(Deprescribing)**
+  - 상부위장관 출혈(UGIB) 위험 요인이 해소된 경우 SUP 중단.
+  - 중환자실 입원 전 SUP 적응증 없이 투여 중이던 환자에서 명확한 적응증이 없는 경우 중단.
+- **치료**
+  - 충분한 수액 요법 및 수혈, 내시경적 지혈술, PPI 정맥 투여.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 대량 출혈, 천공, 복막염.
@@ -46,3 +63,4 @@ last_studied: '2026-06-06'
 출처 : Merck Manual Professional
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 공식 지침 기반 Tier 2 보강

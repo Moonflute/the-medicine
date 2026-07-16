@@ -15,6 +15,9 @@ CC:
 - 혈뇨
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - 정의: 조직에 결합하는 자가항체와 면역복합체가 조직 및 세포 손상을 일으키는 전신성 자가면역질환.

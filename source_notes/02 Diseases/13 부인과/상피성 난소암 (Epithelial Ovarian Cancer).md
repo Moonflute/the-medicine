@@ -16,6 +16,12 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+content_updated_at: '2026-07-15'
+guideline_year: "2026"
+sources: ["ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer. | https://pubmed.ncbi.nlm.nih.gov/41741111/"]
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 분과 : [[부인과]]
 
@@ -35,10 +41,14 @@ last_studied: '2026-06-06'
 ## 4. 진단 (Diagnosis)
 - 수술적 병기 설정(Surgical staging)이 필수적이며, 임신 중이라도 의심 시 시행함
 
-## 5. 치료 (Treatment)
+## 5. 치료
 - **Borderline**: 원발 종양 제거(단측 난소 절제술 등)
 - **Stage I**: TAH+BSO(자궁 및 양측 난소 절제술) 및 병기 설정 수술 (+ 고위험군인 경우 항암화학요법 추가)
-- **Stage II, III, IV**: 종양 감축술(Debulking surgery) + 항암화학요법(주로 백금 기반)
+- **Stage III-IV (진행성)**:
+  - 1차 치료: 종양 감축술(Debulking surgery) + 백금 기반 항암화학요법
+  - 유지 요법(Maintenance): 1차 항암화학요법 후 완전/부분 관해 또는 무병 상태(NED)인 환자 대상 PARP 억제제(Olaparib, Rucaparib, Niraparib) 권고. BRCA 변이 여부 및 HRD 상태에 따라 약제 선택 및 베바시주맙 병용 여부 결정.
+- **재발성(Recurrent)**:
+  - 백금 저항성(PFI <6개월) 및 고 FRα 발현(≥75%) 환자: Mirvetuximab soravtansine-gynx (MIRV) 고려. 안구 독성(시야 흐림, 각막병증) 예방을 위해 인공눈물 사용 및 정기적 안과 검진 필수.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후: 진단 시 병기에 따라 생존율 차이가 큼.
@@ -46,32 +56,5 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Epithelial Ovarian Cancer)
 Last updated :
----
----
-aliases: ["epithelial ovarian cancer"]
-유형:
-- - disease
-계통: "부인과"
-분류: ["부인과", "난소종양", "상피성난소암"]
-CC: []
----
-## 1. 개요
-- **정의**:
-- **원인**: ovulation 횟수 / high risk = 난소암 가족력, 유방암 이환력
-- **기전**:
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 전체 난소암의 90%
-* **P/E**:
-## 3. 검사 (Lab & Imaging)
-- 선별 – TV-USG, CA-125
-## 4. 진단 (Diagnosis)
-- 의심 시 바로 병기 설정 위한 탐색 개복술 (임신이어도, surgical staging)
-## 5. 치료 (Treatment)
-- borderline: primary tumor 제거(단측 절제술)
-- stage I: TAH+BSO (+ high risk면 CTx 추가)
-- stage II,III,IV: 종양 감축술 + CTx
-## 6. 예후 및 합병증 (Prognosis)
-- CA-125 f/u
-출처 : 
-Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — ESMO 2026 지침 기반 Tier 2 보강

@@ -13,6 +13,12 @@ CC:
 - 근력/감각이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2026"
+sources: ["NCCN Guideline Updates on Radiopharmaceutical Therapy for Prostate Cancer. | https://pubmed.ncbi.nlm.nih.gov/42185202/"]
+
 ---
 분과 : [[비뇨기과]]
 

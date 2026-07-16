@@ -14,6 +14,13 @@ CC:
 - 어지러움증
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2024"
+sources: ["Guideline No. 454: Identification and Treatment of Perinatal Mood and Anxiety Disorders. | https://pubmed.ncbi.nlm.nih.gov/39424138/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[정신건강의학과]]
 
@@ -27,16 +34,18 @@ last_studied: '2026-06-06'
 * **P/E**: 자율신경계 항진 징후(빈맥, 혈압 상승), 불안정한 정서, 초조함.
 
 ## 3. 검사 (Lab & Imaging)
-- 신체 질환 감별을 위한 혈액 검사(갑상선 기능, 전해질 등), 심전도, 필요 시 뇌 영상 검사.
+- **주산기 선별**: 임신 및 산후 1년 이내 환자 대상 불안 장애 선별 검사 권고.
+- **감별 진단**: 신체 질환 배제를 위한 혈액 검사(갑상선 기능, 전해질 등), 심전도, 필요 시 뇌 영상 검사. [Guideline No. 454: Identification and Treatment of Perinatal Mood and Anxiety Disorders.](https://pubmed.ncbi.nlm.nih.gov/39424138/)
 
 ## 4. 진단 (Diagnosis)
 - DSM-5 진단 기준에 근거하여 증상의 기간, 강도, 일상생활의 기능 저하 정도를 평가.
 
 ## 5. 치료 (Treatment)
-- **약물 치료**:
-  SSRI(선택적 세로토닌 재흡수 억제제)가 1차 선택 약물.
-  필요 시 BZD(벤조디아제핀)를 급성기 단기 사용.
-- **정신 치료**: 인지행동치료(CBT)가 매우 효과적(노출 치료, 인지 재구조화).
+- **주산기 치료 원칙**: 임신 및 산후기 불안 장애 환자에게는 증거 기반의 개방적 상담 및 치료 제공. 치료 지연 시 환자와 가족에게 단기 및 장기적 부정적 결과 초래 가능.
+- **일반적 치료**: 
+  - 약물 치료: SSRI가 1차 선택 약물.
+  - 정신 치료: 인지행동치료(CBT)가 매우 효과적(노출 치료, 인지 재구조화).
+- **급성기**: 필요 시 BZD 단기 사용 고려. [Guideline No. 454: Identification and Treatment of Perinatal Mood and Anxiety Disorders.](https://pubmed.ncbi.nlm.nih.gov/39424138/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성적인 경과를 보일 수 있으나, 적절한 약물 및 인지행동치료 시 예후가 양호함.

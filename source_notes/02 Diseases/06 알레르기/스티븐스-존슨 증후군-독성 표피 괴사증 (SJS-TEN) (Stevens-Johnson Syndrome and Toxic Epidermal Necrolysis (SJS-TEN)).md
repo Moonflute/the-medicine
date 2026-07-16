@@ -11,6 +11,13 @@ CC:
 - 인후통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2024"
+sources: ["S3 guideline: Diagnosis and treatment of epidermal necrolysis (Stevens-Johnson syndrome and toxic epidermal necrolysis) - Part 1: Diagnosis, initial management, and immunomodulating systemic therapy. | https://pubmed.ncbi.nlm.nih.gov/39314017/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[알레르기]]
 
@@ -33,19 +40,20 @@ last_studied: '2026-06-06'
 - 구강, 안구, 생식기 등 점막 침범이 흔하며 통증이 매우 심하다.
 
 ## 3. 검사 (Lab & Imaging)
-- 피부 생검: 전층 표피 괴사 확인(진단적 가치 높음).
-- 중증도 평가: SCORTEN 점수 산정(연령, 암 동반 여부, 심박수, BUN, 박리 범위, 중탄산염, 혈당).
-- 전신 평가: CBC, 간/신장 기능, 전해질, 감염 여부 확인.
+- **피부 생검**: 전층 표피 괴사 확인을 위해 시행하며 진단적 가치가 높음.
+- **중증도 평가**: SCORTEN 점수 산정(연령, 암 동반 여부, 심박수, BUN, 박리 범위, 중탄산염, 혈당)을 통해 예후 예측 및 치료 강도 결정.
+- **전신 평가**: CBC, 간/신장 기능, 전해질, 감염 여부 확인. 필요 시 혈액 배양 및 병변부 배양 검사 시행.
+- **주의사항**: 감염 징후가 의심될 경우 즉각적인 미생물학적 검사 및 경험적 항생제 투여 고려. [S3 guideline: Diagnosis and treatment of epidermal necrolysis (Stevens-Johnson syndrome and toxic epidermal necrolysis) - Part 1: Diagnosis, initial management, and immunomodulating systemic therapy.](https://pubmed.ncbi.nlm.nih.gov/39314017/)
 
 ## 4. 진단 (Diagnosis)
 - 임상 양상과 병변의 진행 속도, 조직 소견을 종합하여 진단한다.
 - 감별 진단: 다형홍반(Erythema multiforme), 포도상구균 열상 피부 증후군(SSSS), 급성 전신 발진성 농포증(AGEP) 등.
 
 ## 5. 치료 (Treatment)
-- **원인 약물 즉시 중단**: 핵심.
-- **지지 요법**: 화상 전문 센터 또는 중환자실 입원, 수액 및 전해질 보충, 영양 공급, 통증 관리, 2차 감염 예방 및 상처 관리.
-- **면역조절치료**: 사이클로스포린, 전신 스테로이드, IVIG, TNF-알파 억제제 등이 사용될 수 있으나 치료 효과에 대해서는 논란이 있다.
-- **안과 협진**: 안구 침범 시 필수적이다.
+- **원인 약물 즉시 중단**: 가장 중요한 초기 조치.
+- **지지 요법**: 화상 전문 센터 또는 중환자실 입원. 수액 및 전해질 보충, 영양 공급, 통증 관리, 2차 감염 예방 및 상처 관리(비점착성 드레싱 등).
+- **면역조절치료**: 전신 스테로이드, 사이클로스포린, IVIG, TNF-알파 억제제 등이 고려될 수 있으나, 임상적 근거와 환자 상태를 고려하여 다학제적 결정 필요.
+- **안과 협진**: 안구 침범 시 조기 안과 협진 및 국소 치료 필수. [S3 guideline: Diagnosis and treatment of epidermal necrolysis (Stevens-Johnson syndrome and toxic epidermal necrolysis) - Part 1: Diagnosis, initial management, and immunomodulating systemic therapy.](https://pubmed.ncbi.nlm.nih.gov/39314017/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 사망률이 높으며, 패혈증 및 다장기 부전이 주요 사망 원인이다.

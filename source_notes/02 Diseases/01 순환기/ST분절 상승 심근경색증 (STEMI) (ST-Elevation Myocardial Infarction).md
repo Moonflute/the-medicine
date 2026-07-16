@@ -13,6 +13,13 @@ CC:
 - 무증상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2023"
+sources: ["2023 ESC Guidelines for the management of acute coronary syndromes | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Coronary-Syndromes-ACS"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[순환기]]
 
@@ -43,17 +50,9 @@ last_studied: '2026-06-06'
     - 기타: 심부전, 폐부종, 쇼크, 부정맥 징후.
 
 ## 3. 검사
-- **심전도(EKG)**:
-  10분 이내 시행.
-  2개 이상의 연속 유도에서 1mm 이상의 ST 분절 상승 확인.
-  우심실 경색 의심 시 우측 유도(V4-6R) 및 후벽 경색 확인을 위해 V8, V9 추가.
-- **심근 효소**:
-  트로포닌(cTn I 또는 T)이 가장 민감, 특이적임.
-  99분위 상한치 초과 시 진단적 가치.
-  고감도 트로포닌(hs-cTn) 검사 시 0시간 및 2~3시간 후 연속 측정.
-- **영상 검사**:
-  심초음파로 국소 벽 운동 이상 확인.
-  관상동맥 조영술로 폐쇄 부위 확인.
+- **심전도(EKG)**: 10분 이내 시행. 2개 이상의 연속 유도에서 1mm 이상의 ST 분절 상승 확인. 우심실 경색 의심 시 우측 유도(V4-6R) 및 후벽 경색 확인을 위해 V8, V9 추가.
+- **심근 효소**: 트로포닌(cTn I 또는 T)이 가장 민감, 특이적임. 99분위 상한치 초과 시 진단적 가치. 고감도 트로포닌(hs-cTn) 검사 시 0시간 및 2~3시간 후 연속 측정.
+- **영상 검사**: 심초음파로 국소 벽 운동 이상 확인. 관상동맥 조영술로 폐쇄 부위 확인. 복잡한 해부학적 구조나 불분명한 원인 병변 확인을 위해 혈관 내 영상(intravascular imaging) 활용 권장 [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/).
 
 ## 4. 진단
 - **진단 기준**: 심근 허혈 임상 증상과 함께 다음 중 하나 이상 충족.
@@ -66,16 +65,13 @@ last_studied: '2026-06-06'
 
 ## 5. 치료
 - **초기 처치**: 산소 투여(비강 캐뉼라 2L), 아스피린(160~325mg 씹어서 복용), 질산염(설하정 후 필요 시 정맥 투여).
-- **재관류 치료**:
-- STEMI: 즉각적인 PCI 우선(Door-to-balloon time < 90분).
-  PCI 불가능 시 혈전용해술(Door-to-needle time 30~60분).
-- NSTEMI: 불안정 시 즉각적 PCI, 안정 시 24~48시간 내 조영술.
-- **약물 치료**:
-- 항혈소판제: 아스피린, 클로피도그렐, 프라수그렐, 티카그렐러.
-- 항응고제: 헤파린(미분획 또는 저분자량), 비발리루딘.
-- 기타: 베타차단제, ACE 억제제, 스타틴.
-- 모르핀: 질산염 금기이거나 통증 지속 시 신중히 투여(P2Y12 억제제 효과 저하 가능성).
+- **재관류 치료**: 
+  - 즉각적인 PCI 우선(Door-to-balloon time < 90분). PCI 불가능 시 혈전용해술(Door-to-needle time 30~60분).
+  - **다혈관 질환(Multivessel disease)**: 완전 혈관 재개통(Complete revascularization) 권장. 혈역학적 상태, 허혈 부하, 신기능, 조영제 부하를 고려하여 즉시 또는 단계적 시술 결정 [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/).
+  - **심인성 쇼크**: Culprit-first 재개통 우선 시행 후 조기 재평가. 기계적 순환 보조(Mechanical circulatory support)는 쇼크 표현형과 악화 기준에 따라 선별적 적용 [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/).
+- **약물 치료**: 항혈소판제(아스피린, P2Y12 억제제), 항응고제(헤파린 등), 베타차단제, ACE 억제제, 스타틴.
 - **수술**: CABG는 좌주간지 병변, 좌심실 기능 부전, 당뇨병 환자 등에서 PCI보다 선호될 수 있음.
+- **특수 상황**: 비폐쇄성 관상동맥 심근경색(MINOCA) 및 자발적 관상동맥 박리(SCAD) 시 기전 기반 경로 적용. SCAD는 허혈이 지속되지 않는 한 보존적 치료 우선 [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/).
 
 ## 6. 예후 및 합병증
 - **합병증**: 심부전, 부정맥(심실세동 등), 심인성 쇼크, 심실 파열, 승모판 역류, 심실중격 결손.

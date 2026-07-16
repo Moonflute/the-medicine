@@ -13,6 +13,9 @@ CC:
 - 심박수이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[외과]]
 
@@ -52,29 +55,4 @@ last_studied: '2026-06-06'
 
 출처 : AABB(Association for the Advancement of Blood & Biotherapies) Technical Manual
 Last updated :
----
----
-aliases: ["TACO", "수혈관련순환량과다"]
-유형:
-- - disease
-계통: "외과"
-분류: ["외과", "수혈부작용"]
-CC: []
----
-## 1. 개요
-- **정의** 수혈로 인해 체액량이 과다하게 증가
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 12시간 내 호흡곤란, 폐부종, 고혈압
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 예방: 수혈 속도 및 부피 검사, 필요 시 diuretics
-## 6. 예후 및 합병증 (Prognosis)
-- 대량 수혈 시 지혈 장애 발생 가능.
-  그 외 저체온증, 고칼륨혈증, 저칼슘혈증, 철분 과부하, 저혈압 반응 발생 가능.
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

@@ -15,6 +15,12 @@ CC:
 - 삼킴곤란
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2026"
+sources: ["Guide from the Colegio Mexicano de Reumatología for the Pharmacological Treatment of Systemic Sclerosis Part 1: Cutaneous Involvement, Interstitial Lung Disease, and Pulmonary Arterial Hypertension. | https://pubmed.ncbi.nlm.nih.gov/42270533/"]
+
 ---
 ## 1. 개요
 - 정의: 혈관 침범 및 조직 섬유화를 특징으로 하는 만성 진행성 자가면역질환

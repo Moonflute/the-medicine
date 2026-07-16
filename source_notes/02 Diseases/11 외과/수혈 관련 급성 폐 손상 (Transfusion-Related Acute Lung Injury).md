@@ -13,6 +13,9 @@ CC:
 - 심박수이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[외과]]
 
@@ -45,28 +48,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Transfusion-Related Acute Lung Injury)
 Last updated :
----
----
-aliases: ["TRALI", "수혈관련급성폐손상"]
-유형:
-- - disease
-계통: "외과"
-분류: ["외과", "수혈부작용"]
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인** anti-HLA Ab가 high titer
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 6시간 내 호흡곤란, 양쪽 비심인성 폐부종
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-- 수혈 전 정상 + 6시간 내 발생 + 저산소증 + CXR 양측 침윤 + LV P 증가
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 대증 치료, 호흡 보조
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

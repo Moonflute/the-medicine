@@ -15,6 +15,14 @@ CC:
 - 충혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+document_role: "canonical"
+population: "general"
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2025"
+sources: ["2025 Korean Thyroid Association Management Guidelines for Radioactive Iodine Therapy in Patients with Hyperthyroidism | https://e-enm.org/journal/view.php?number=2464", "The Diagnosis and Management of Hyperthyroidism in Korea: Consensus Report of the Korean Thyroid Association | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3870960/"]
+
 ---
 분과 : [[내분비]]
 

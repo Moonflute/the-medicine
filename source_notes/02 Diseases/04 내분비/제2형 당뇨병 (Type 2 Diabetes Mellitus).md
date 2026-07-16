@@ -6,9 +6,9 @@ aliases:
 계통: 내분비
 분류:
 - 당뇨병
-clinical_priority: tier_2
+clinical_priority: "tier_2"
 content_updated_at: '2026-07-14'
-guideline_year: '2026'
+guideline_year: "2026"
 sources:
 - '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
 - 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
@@ -16,6 +16,8 @@ disease_family: diabetes
 parent_disease: 당뇨병 (Diabetes Mellitus)
 relation_to_parent: subtype
 population: adult
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 
 ## 1. 개요

@@ -16,6 +16,13 @@ CC:
 - 급성복통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["[Guidelines for the diagnosis and treatment of tracheobronchial tuberculosis (2025 Edition)]. | https://pubmed.ncbi.nlm.nih.gov/42108173/"]
+
+content_updated_at: "2026-07-17"
 ---
 분과 : [[소화기]]
 
@@ -39,6 +46,7 @@ last_studied: '2026-06-06'
   복부 압통이 있을 수 있으며, 복막 비후나 림프절 비대로 인해 덩어리(omentum cake)가 촉진되기도 한다.
 
 ## 3. 검사 (Lab & Imaging)
+- **복수 접근**: 진단적 복수천자로 세포수·분획, albumin/total protein, 세균 배양을 기본으로 확인하고, 결핵성 복막염이 의심되면 ADA, 결핵 배양/분자검사와 복부 CT를 조합한다. 음성 복수검사만으로 배제하지 말고 지속 의심 시 복막/림프절 조직검사를 전문팀과 검토한다.
 - 혈액 검사에서 염증 수치(ESR, CRP) 상승이 나타날 수 있다.
   복수 천자를 통해 채취한 복수는 SAAG < 1.1 g/dL인 삼출액(exudate)의 특징을 보, 단백질 함량이 높고 림프구 우세의 백혈구 증가가 관찰된다.
   복수 아데노신 탈아미노효소(ADA) 수치 상승은 진단에 매우 유용하다.
@@ -56,6 +64,7 @@ last_studied: '2026-06-06'
 - **감별진단**: 간경변증으로 인한 복수, 암성 복수, 세균성 복막염 등 다른 원인의 복수와 감별이 필요하다.
 
 ## 5. 치료 (Treatment)
+- **치료 원칙**: 약제감수성 결핵으로 확인되거나 강하게 의심되면 국가 결핵 프로그램·감염내과와 함께 표준 다제요법을 시작하고, 배양/내성 결과와 간기능·약물상호작용을 추적해 조정한다. 복수·영양·장폐쇄 같은 합병증을 병행 관리하며, 간경변·암성 복수·세균성 복막염과의 감별이 불확실하면 경험적 치료만으로 지연하지 않는다. [WHO consolidated TB treatment and care guideline 2025](https://www.who.int/publications/i/item/9789240107243)
 - 표준 항결핵제 요법(이소니아지드, 리팜피신, 에탐부톨, 피라진아미드)을 6~9개월간 투여한다.
   복수가 심하여 증상 완화가 필요한 경우 치료적 복수 천자를 시행할 수 있다.
   중증의 경우 코르티코스테로이드 사용을 고려할 수 있다.

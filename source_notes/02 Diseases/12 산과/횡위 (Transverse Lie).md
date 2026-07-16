@@ -11,6 +11,9 @@ CC:
 - 검진 이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -48,52 +51,4 @@ last_studied: '2026-06-06'
 
 출처 : Williams Obstetrics
 Last updated :
----
-## 통합 전 원문
----
-aliases: ["transverse lie"]
-유형:
-- disease
-계통: "산과"
-분류: "["산과", "분만", "난산"]"
-CC: []
----
-## 1. 개요
-- **정의** 태아가 자궁 내에서 가로로 누워있는 태위 이상.
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-* 진통 시작 시 C-sec.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: []
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "난산", "태위로인한난산"]"
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 진통시작시C-sec
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

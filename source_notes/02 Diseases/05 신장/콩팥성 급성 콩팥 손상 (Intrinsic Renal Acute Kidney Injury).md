@@ -14,6 +14,13 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+review_status: "guideline_enriched"
+reviewed_at: "2026-07-16"
+guideline_year: "2012"
+sources: ["KDIGO Clinical Practice Guideline for Acute Kidney Injury | https://kdigo.org/wp-content/uploads/2017/02/KDIGO_AKI_Guideline.pdf", "급성콩팥손상이란? (What is Acute Kidney Injury?) | https://www.ksn.or.kr/bbs/index.html?code=kidney_04&category=&gubun=&page=&idx=127909&mode=view"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[신장]]
 
@@ -44,7 +51,8 @@ last_studied: '2026-06-06'
 - 혈액검사: BUN/Cr 상승, 전해질 불균형
 - 신장초음파: 신장 크기 확인(급성 시 정상/비대, 만성 시 위축)
 - 기타: PBS(미세혈관병증 확인), 필요 시 신생검
-
+- 바이오마커: 혈청 크레아티닌 및 소변량 외에 추가적인 바이오마커의 일일 평가가 중환자 관리에서 권고됨 [International Delphi consensus on acute kidney injury: Foundations for AI-driven digital twin development in critical care nephrology.](https://pubmed.ncbi.nlm.nih.gov/41880297/)
+- 신생검 전 주의사항: 혈중 요소질소(BUN) 수치가 현저히 높은 환자에서 신생검 시행 전 데스모프레신(Desmopressin) 투여가 전문가 합의로 권고됨 [International Delphi consensus on acute kidney injury: Foundations for AI-driven digital twin development in critical care nephrology.](https://pubmed.ncbi.nlm.nih.gov/41880297/)
 
 ## 4. 진단 (Diagnosis)
 - KDIGO 기준: 48시간 내 Cr 0.3mg/dL 이상 상승 또는 7일 내 1.5배 상승, 6시간 이상 핍뇨
@@ -56,7 +64,7 @@ last_studied: '2026-06-06'
 - 보존적 치료: 수액 요법(체액 상태에 따라 조절), 이뇨제(필요 시)
 - 면역 매개 질환: 스테로이드 및 면역억제제
 - 신대체 요법: 혈액 투석(난치성 고칼륨혈증, 산증, 폐부종, 요독 증상 시)
-
+- 중환자 관리: 혈역학적 불안정성과 신독성 물질 노출을 주요 AKI 유발 요인으로 관리하며, 진행된 AKI 단계에서의 조영제 사용은 전문가 간 합의가 부족하므로 주의 요망 [International Delphi consensus on acute kidney injury: Foundations for AI-driven digital twin development in critical care nephrology.](https://pubmed.ncbi.nlm.nih.gov/41880297/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인 질환의 가역성에 따라 예후 결정

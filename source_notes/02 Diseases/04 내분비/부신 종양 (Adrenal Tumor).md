@@ -11,6 +11,12 @@ CC:
 - 검진 이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2022"
+sources: ["French AFU Cancer Committee Guidelines Update 2022-2024: Adrenal tumor -  Assessment of an adrenal incidetaloma and oncological management. | https://pubmed.ncbi.nlm.nih.gov/36400477/"]
+
 ---
 분과 : [[내분비]]
 

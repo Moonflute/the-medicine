@@ -13,6 +13,13 @@ CC:
 - 호흡곤란
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["[News in the diagnosis and management of pediatric asthma]. | https://pubmed.ncbi.nlm.nih.gov/40518895/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[소아청소년과]]
 
@@ -26,16 +33,12 @@ last_studied: '2026-06-06'
 * **신체 진찰**: 천명음, 호흡 곤란 시 늑간 함몰, 호흡 보조근 사용, 호기 연장
 
 ## 3. 검사 (Lab & Imaging)
-* **폐 기능 검사**:
-  폐활량 측정(Spirometry)이 진단의 핵심.
-  기관지 확장제 투여 후 FEV1의 유의미한 개선(12% 이상) 확인
-* **기타**: 흉부 X-ray(감별 진단용), 알레르기 피부 반응 검사(원인 항원 규명), 필요 시 기관지 유발 검사
+* **폐 기능 검사**: 진단의 핵심. 병력에만 의존한 진단은 과소 또는 과잉 진단의 위험이 있으므로 객관적인 폐 기능 평가 필수.
+* **기타**: 연령별로 적절한 진단 검사 프로토콜 적용 필요. [[News in the diagnosis and management of pediatric asthma].](https://pubmed.ncbi.nlm.nih.gov/40518895/) [[News in the diagnosis and management of pediatric asthma].](https://pubmed.ncbi.nlm.nih.gov/40518895/)
 
 ## 4. 진단 (Diagnosis)
-* 전형적인 임상 증상 및 징후 확인
-* 폐 기능 검사를 통한 가역적 기도 폐쇄 입증
-* 천식 및 아토피 질환의 가족력 및 개인력 평가
-* 유사 증상을 유발하는 타 질환(이물 흡인, 기관지 연화증, 낭성 섬유증 등) 배제
+* **진단 원칙**: 병력 청취만으로 진단하지 않도록 주의. 연령(소아/청소년)에 따른 최신 가이드라인에 기반한 객관적 검사 수행.
+* **감별**: 유사 증상을 유발하는 타 질환 배제 및 천식 표현형(phenotype) 고려. [[News in the diagnosis and management of pediatric asthma].](https://pubmed.ncbi.nlm.nih.gov/40518895/) [[News in the diagnosis and management of pediatric asthma].](https://pubmed.ncbi.nlm.nih.gov/40518895/)
 
 ## 5. 치료 (Treatment)
 * **완화제 (Reliever)**: 속효성 베타2 작용제(SABA) - 증상 발현 시 즉각적 완화 목적

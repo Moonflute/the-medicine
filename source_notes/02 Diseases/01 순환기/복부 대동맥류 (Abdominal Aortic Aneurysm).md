@@ -13,6 +13,13 @@ CC:
 - 심박수이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2019"
+sources: ["2019 AHA/ACC Guideline on the Management of Patients With Abdominal Aortic Aneurysm | https://www.ahajournals.org/doi/10.1161/CIR.0000000000000672"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[순환기]]
 
@@ -35,7 +42,9 @@ last_studied: '2026-06-06'
 
 ## 3. 검사 (Lab & Imaging)
 - 초음파(US)가 선별 검사로 유용하다.
-  CT 혈관조영술(CTA) 또는 MRI는 동맥류의 크기, 위치, 해부학적 구조를 정확히 평가하여 수술 계획을 세우는 데 필수적이다.
+- CT 혈관조영술(CTA) 또는 MRI는 동맥류의 크기, 위치, 해부학적 구조를 평가하여 수술 계획을 세우는 데 필수적이다.
+- 치료 전 영상이 없는 경우, 해부학적 구조를 완전히 파악하기 위해 흉부를 포함한 전체 대동맥을 평가해야 한다.
+- 수술 및 시술 후에는 합병증(특히 EVAR의 경우 재중재 필요성) 감시를 위해 추적 영상 검사가 필수적이다. [ACR Appropriateness Criteria® Abdominal Aortic Aneurysm or Dissection-Interventional Planning and Follow-Up: Update 2025.](https://pubmed.ncbi.nlm.nih.gov/41837923/)
 
 ## 4. 진단 (Diagnosis)
 - 초음파 또는 CT를 통해 진단한다.
@@ -45,13 +54,14 @@ last_studied: '2026-06-06'
 * **내과적 치료**:
   금연 및 혈압 조절 등 동맥경화 위험인자 관리가 필수적이다.
   작은 동맥류는 정기적인 초음파 또는 CT 추적 관찰을 시행한다.
-* **수술 또는 시술**: 다음의 경우 수술 또는 시술(EVAR)을 고려한다.
-* **적응증**: 남성 5.5cm 이상, 여성 5.0cm 이상, 6개월 내 0.5cm 이상 급격한 크기 증가, 유증상 동맥류, 합병증 동반 시.
-* **수술**: 동맥자루 절제 및 인조혈관 치환술(open repair).
-* **시술**: 스텐트 그라프트 삽입술(Endovascular Aneurysm Repair, EVAR).
+* **수술 또는 시술**:
+  다음의 경우 수술 또는 시술(EVAR)을 고려한다: 남성 5.5cm 이상, 여성 5.0cm 이상, 6개월 내 0.5cm 이상 급격한 크기 증가, 유증상 동맥류, 합병증 동반 시.
+  수술은 동맥자루 절제 및 인조혈관 치환술(open repair)을 시행하며, 시술은 스텐트 그라프트 삽입술(EVAR)을 시행한다.
 * **파열 시**:
   즉시 응급 수술 또는 EVAR을 시행한다.
   저혈압 시에는 과도한 혈압 상승을 피하는 허용적 저혈압(permissive hypotension) 전략을 고려한다.
+* **추적 관찰**:
+  성공적인 치료 후에도 동맥류가 안정적으로 유지되거나 크기가 감소하는지, 분지 혈관의 혈류가 보존되는지 확인하기 위해 정기적인 추적 영상 검사가 필요하다. [ACR Appropriateness Criteria® Abdominal Aortic Aneurysm or Dissection-Interventional Planning and Follow-Up: Update 2025.](https://pubmed.ncbi.nlm.nih.gov/41837923/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 파열은 치명적, 수술 후에는 심근경색, 이식편 감염, 장 허혈 등의 합병증이 발생할 수 있다.

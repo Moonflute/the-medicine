@@ -11,6 +11,9 @@ CC:
 - 검진 이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -54,29 +57,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Breech Presentation, Delivery: Face and Brow Presentation)
 Last updated :
----
-## 통합 전 원문
----
-aliases: ["compound presentation"]
-유형:
-- disease
-계통: "산과"
-분류: "["산과", "분만", "난산"]"
-CC: []
----
-## 1. 개요
-- **정의** 태아의 머리나 둔부와 함께 팔이나 다리 등 다른 신체 부위가 동시에 나오는 태위 이상.
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-* 경과 관찰.
-* 분만이 진행되지 않으면 C-sec.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

@@ -13,6 +13,13 @@ CC:
 - 림프절 비대
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["Guidelines for the management of drug-induced hypersensitivity syndrome 2023. | https://pubmed.ncbi.nlm.nih.gov/39895539/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[피부과]]
 
@@ -33,10 +40,10 @@ last_studied: '2026-06-06'
 
 
 ## 3. 검사 (Lab & Imaging)
-* 혈액 검사: CBC(호산구 수치 확인), 간기능 검사(LFT), 신기능 검사(BUN/Cr).
-* 영상 검사: 흉부 X-ray 또는 CT(폐 침범 확인).
-* 기타: 필요 시 피부 조직검사(림프구 침윤 확인), 바이러스 PCR(HHV-6 등).
-
+- 혈액 검사: CBC(호산구 수치 확인), 간기능 검사(LFT), 신기능 검사(BUN/Cr).
+- 바이러스 검사: HHV-6 재활성화 확인을 위한 PCR 또는 항체 역가 추적(DIHS의 핵심 병태생리).
+- 영상 검사: 흉부 X-ray 또는 CT(폐 침범 확인).
+- 기타: 필요 시 피부 조직검사(림프구 침윤 확인). [Guidelines for the management of drug-induced hypersensitivity syndrome 2023.](https://pubmed.ncbi.nlm.nih.gov/39895539/)
 
 ## 4. 진단 (Diagnosis)
 * 임상적 진단: 발열, 발진, 혈액학적 이상(호산구 증가 등), 장기 침범 여부를 종합하여 판단.
@@ -44,10 +51,10 @@ last_studied: '2026-06-06'
 
 
 ## 5. 치료 (Treatment)
-* 원인 약물 즉시 중단.
-* 보존적 치료: 수액 공급, 전해질 교정, 피부 간호.
-* 약물 치료: 전신 스테로이드(Systemic glucocorticoid) 투여가 표준 치료이나, 장기 침범 정도에 따라 용량 조절.
-
+- 원인 약물 즉시 중단: 가장 우선적인 조치.
+- 보존적 치료: 수액 공급, 전해질 교정, 피부 간호.
+- 약물 치료: 전신 스테로이드(Systemic glucocorticoid) 투여가 표준 치료이나, 장기 침범 정도에 따라 용량 조절. 
+- 모니터링: 임상 경과가 다양하므로 회복기에도 자가면역 질환 등 예상치 못한 합병증 발생 가능성을 염두에 두고 추적 관찰 필요. [Guidelines for the management of drug-induced hypersensitivity syndrome 2023.](https://pubmed.ncbi.nlm.nih.gov/39895539/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 약물 중단 후에도 증상이 수주에서 수개월간 지속될 수 있음.

@@ -14,6 +14,13 @@ CC:
 - 관절 통증/붓기
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["Steroid-sensitive nephrotic syndrome in children: Korean Society of Pediatric Nephrology clinical practice recommendations | https://www.krcp-ksn.org/journal/view.php?number=130", "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
+
+content_updated_at: "2026-07-16"
 ---
 ## 1. 개요
 - **정의**: 사구체 질환으로 인해 1일 3g 이상의 단백뇨, 저알부민혈증(<2.5g/dL), 부종을 동반하는 질환군.
@@ -36,13 +43,10 @@ last_studied: '2026-06-06'
 ## 3. 검사
 - **혈액 검사**: 알부민 < 2.5g/dL, 콜레스테롤 및 중성지방 상승, BUN/Cr은 초기 정상이나 진행 시 상승 가능.
 - **소변 검사**: 단백뇨(Spot urine protein/creatinine ratio ≥ 3 또는 24시간 소변 단백 ≥ 3g/일), 지방뇨(Maltese cross pattern).
-- **진단**:
-  성인 사구체 질환은 확진을 위해 신장생검 시행.
-  소아는 임상적 추정 후 스테로이드 반응 확인.
-- **생검 생략 고려 대상**:
-- 12세 미만 소아(MCD 의심 시 경험적 스테로이드 투여).
-- PLA2R-Ab 양성인 일차성 막사구체신염(MGN).
-- 전형적인 당뇨병성 신장병증(당뇨망막병증 동반, 긴 유병기간 등).
+- **진단 및 생검**: 
+  - 성인 사구체 질환은 확진을 위해 신장생검 시행.
+  - 12세 미만 소아는 임상적 추정 후 스테로이드 반응 확인을 우선함.
+  - **생검 생략 고려**: PLA2R-Ab 양성인 일차성 막사구체신염(MGN), 전형적인 당뇨병성 신장병증(당뇨망막병증 동반, 긴 유병기간 등). [KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases](https://kdigo.org/guidelines/gd/)
 
 ## 4. 진단 및 분류
 - **미세변화병(MCD)**:
@@ -64,11 +68,10 @@ last_studied: '2026-06-06'
 ## 5. 치료
 - **원인 질환 치료**: 각 질환별 면역억제제 및 기저질환 조절.
 - **단백뇨 조절**: ACEi, ARB 사용(혈압 및 사구체 내압 감소).
-- **부종 조절**:
-  염분 제한(<2g/일), Loop diuretics 사용.
-  반응 없을 시 IV 알부민 투여 후 이뇨제 병용 고려.
+- **부종 조절**: 염분 제한(<2g/일), Loop diuretics 사용. 반응 없을 시 IV 알부민 투여 후 이뇨제 병용 고려.
 - **합병증 예방**: 고지혈증 치료(statin), 혈전증 예방(항응고제는 혈전 발생 시 우선 고려), 폐렴구균 백신 접종.
 - **당뇨병성 신장병증**: 혈압 조절(ACEi/ARB), 혈당 조절(SGLT2i, GLP-1RA 등), 필요 시 Finerenone 추가.
+- **참고**: KDIGO 2021 가이드라인은 일반적인 사구체 질환 관리 원칙을 제시하며, 소아 신증후군 및 각 질환별(IgAN, LN, ANCA 등) 최신 가이드라인을 참조하여 개별화된 치료 계획 수립 필요. [KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases](https://kdigo.org/guidelines/gd/)
 
 ## 6. 예후 및 합병증
 - **신정맥 혈전증**: 혈전증 위험 증가로 인한 발생.

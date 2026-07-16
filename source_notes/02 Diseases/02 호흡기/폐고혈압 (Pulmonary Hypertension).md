@@ -11,6 +11,13 @@ CC:
 - 피로
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Guide from the Colegio Mexicano de Reumatología for the Pharmacological Treatment of Systemic Sclerosis Part 1: Cutaneous Involvement, Interstitial Lung Disease, and Pulmonary Arterial Hypertension. | https://pubmed.ncbi.nlm.nih.gov/42270533/", "2020 KSC/KATRD Guideline for the Diagnosis and Treatment of Pulmonary Hypertension: Executive Summary | https://www.e-trd.org/journal/view.php?number=1022"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[호흡기]]
 
@@ -33,6 +40,7 @@ last_studied: '2026-06-06'
 * 심도자술 (Right heart catheterization): 확진 및 혈역학적 프로파일 확인 (필수).
 * CXR, CT, EKG: 원인 질환 감별 및 우심 비대 확인.
 * 폐기능 검사: 폐질환 여부 확인.
+* 전신경화증(SSc) 환자: 폐동맥 고혈압(PAH) 선별검사 및 정기적 모니터링 필요 [Guide from the Colegio Mexicano de Reumatología for the Pharmacological Treatment of Systemic Sclerosis Part 1: Cutaneous Involvement, Interstitial Lung Disease, and Pulmonary Arterial Hypertension.](https://pubmed.ncbi.nlm.nih.gov/42270533/).
 
 ## 4. 진단 (Diagnosis)
 - 심초음파로 의심하고 심도자술을 통해 평균 폐동맥압 > 20mmHg 및 폐혈관 저항 상승을 확인하여 진단.
@@ -40,8 +48,9 @@ last_studied: '2026-06-06'
 
 ## 5. 치료 (Treatment)
 - 원인 질환 치료가 우선.
-  폐동맥 고혈압(PAH)의 경우 폐혈관 확장제(prostacyclin, endothelin receptor antagonists, PDE5 inhibitors 등) 및 이뇨제 사용.
-  중증 시 폐 이식 고려.
+- 폐동맥 고혈압(PAH): 혈관 확장제(prostacyclin, endothelin receptor antagonists, PDE5 inhibitors 등) 및 이뇨제 사용.
+- 전신경화증(SSc) 관련 PAH: 다학제적 접근 및 단계적 치료 알고리즘 적용 [Guide from the Colegio Mexicano de Reumatología for the Pharmacological Treatment of Systemic Sclerosis Part 1: Cutaneous Involvement, Interstitial Lung Disease, and Pulmonary Arterial Hypertension.](https://pubmed.ncbi.nlm.nih.gov/42270533/).
+- 중증 시 폐 이식 고려.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인 질환에 따라 다르며, 치료하지 않을 경우 우심부전으로 진행하여 예후가 불량함.

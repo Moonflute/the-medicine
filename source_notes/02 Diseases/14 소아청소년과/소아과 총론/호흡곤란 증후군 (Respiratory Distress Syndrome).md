@@ -14,6 +14,12 @@ CC:
 - 청색증
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+content_updated_at: '2026-07-15'
+guideline_year: "2026"
+sources: ["European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025. | https://pubmed.ncbi.nlm.nih.gov/41802129/"]
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 ## 1. 개요
 - **급성 호흡곤란 증후군(ARDS)**:
@@ -70,3 +76,4 @@ Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 공식 지침 기반 Tier 2 보강

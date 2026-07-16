@@ -12,6 +12,13 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["[Chinese guidelines on the diagnosis and treatment of adult essential thrombocythemia (2026)]. | https://pubmed.ncbi.nlm.nih.gov/42409729/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[혈액]]
 
@@ -25,17 +32,20 @@ last_studied: '2026-06-06'
 * **P/E**: 비장 비대 (경미하게).
 
 ## 3. 검사 (Lab & Imaging)
-- 혈소판 (PLT) 수 > 450,000/μL (지속적인 증가).
-  말초혈액 도말 (PBS) : 과다 혈소판, 혈소판 응집, 거대 혈소판, 이상한 모양의 혈소판.
-  골수 검사 : 과세포성 (hypercellularity), 거핵구 (megakaryocyte) 증식 및 이형성.
-  JAK2 V617F 돌연변이, CALR 돌연변이, MPL 돌연변이 확인.
+- 혈소판(PLT) 수 > 450,000/μL (지속적 증가).
+- 말초혈액 도말(PBS): 혈소판 과다, 응집, 거대 혈소판 및 이형성 관찰.
+- 골수 검사: 과세포성, 거핵구 증식 및 이형성 확인.
+- 분자 유전학적 검사: JAK2 V617F, CALR, MPL 돌연변이 확인 (필수).
+- 진단 시 분자 검사 및 골수 병리 진단의 표준화가 중요함 [[Chinese guidelines on the diagnosis and treatment of adult essential thrombocythemia (2026)].](https://pubmed.ncbi.nlm.nih.gov/42409729/). [[Chinese guidelines on the diagnosis and treatment of adult essential thrombocythemia (2026)].](https://pubmed.ncbi.nlm.nih.gov/42409729/)
 
 ## 4. 진단 (Diagnosis)
 - 지속적인 혈소판 증가, 특징적인 골수 소견, JAK2/CALR/MPL 돌연변이 확인, 다른 골수증식성 질환 배제하여 진단 (WHO 진단 기준).
 
 ## 5. 치료 (Treatment)
-- 저위험군 : 경과관찰, 저용량 아스피린 (혈전증 예방).
-  고위험군 (고령, 혈전증 기왕력, 혈소판 수 현저히 높음) : 하이드록시우레아 (hydroxyurea), 아나그렐리드 (anagrelide) 등 혈소판 수 감소 약물.
+- 치료 목표: 혈전 및 출혈 사건 예방, 질환 진행 억제.
+- 저위험군: 저용량 아스피린 투여 및 경과 관찰.
+- 고위험군: 혈소판 감소 약물(하이드록시우레아, 아나그렐리드 등) 투여.
+- 관리: 최신 분자 진단 및 신약 개발을 반영한 표준화된 임상 관리 필요 [[Chinese guidelines on the diagnosis and treatment of adult essential thrombocythemia (2026)].](https://pubmed.ncbi.nlm.nih.gov/42409729/). [[Chinese guidelines on the diagnosis and treatment of adult essential thrombocythemia (2026)].](https://pubmed.ncbi.nlm.nih.gov/42409729/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 주요 합병증은 혈전증 및 출혈.

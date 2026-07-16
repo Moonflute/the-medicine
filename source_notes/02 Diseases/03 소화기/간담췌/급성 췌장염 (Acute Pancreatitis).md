@@ -15,6 +15,9 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - 정의: 췌장의 소화 효소가 조기에 활성화되어 췌장 조직을 자가 소화시키며 발생하는 급성 염증 질환

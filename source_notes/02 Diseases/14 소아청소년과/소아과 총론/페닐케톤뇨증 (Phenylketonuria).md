@@ -13,6 +13,13 @@ CC:
 - 떨림/운동이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["European guidelines on diagnosis and treatment of phenylketonuria: First revision. | https://pubmed.ncbi.nlm.nih.gov/40378670/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[소아청소년과]]
 
@@ -29,8 +36,8 @@ last_studied: '2026-06-06'
 ## 3. 검사 (Lab & Imaging)
 * **신생아 선별 검사**: 생후 24~48시간 내 건조 혈액 여과지(DBS)를 이용한 페닐알라닌 농도 측정
 * **확진 검사**: 혈장 아미노산 분석(페닐알라닌/티로신 비율 확인)
-* **감별 진단**: BH4(테트라하이드로바이오프테린) 대사 이상 배제 필요
-* **유전자 검사**: PAH 유전자 돌연변이 확인(질환 중증도 예측 및 가족 상담)
+* **감별 진단**: BH4(테트라하이드로바이오프테린) 대사 이상 배제 필수
+* **유전자 검사**: PAH 유전자 돌연변이 확인(질환 중증도 예측 및 가족 상담) [European guidelines on diagnosis and treatment of phenylketonuria: First revision.](https://pubmed.ncbi.nlm.nih.gov/40378670/)
 
 ## 4. 진단 (Diagnosis)
 * 신생아 선별 검사상 고페닐알라닌혈증 확인
@@ -40,7 +47,7 @@ last_studied: '2026-06-06'
 * **식이 요법**: 페닐알라닌 제한 식단(고단백 식품 제한) 및 특수 분유 공급(평생 유지 권장)
 * **약물 치료**: 일부 환자에서 BH4 보충 요법(반응성 확인 필요)
 * **목표**: 혈중 페닐알라닌 농도를 120~360 μmol/L 범위로 유지
-* **관리**: 정기적인 혈액 검사 및 다학제적 추적 관찰
+* **관리**: 정기적인 혈액 검사 및 다학제적 추적 관찰(신경학적, 행동학적 평가 포함) [European guidelines on diagnosis and treatment of phenylketonuria: First revision.](https://pubmed.ncbi.nlm.nih.gov/40378670/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 엄격한 식이 요법 시 정상적인 지능 발달 가능

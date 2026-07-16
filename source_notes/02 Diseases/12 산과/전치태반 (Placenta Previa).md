@@ -10,6 +10,9 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -50,62 +53,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Placenta Previa)
 Last updated :
----
-## 통합 전 원문
----
-aliases: ["placenta previa"]
-유형:
-- disease
-계통: "산과"
-분류: "["산과", "산과적 출혈"]"
-CC: []
----
-## 1. 개요
-- **정의** 태반이 자궁경부의 자궁목내공에 있는 것.
-- **원인** Prior C-sec, induced abortion.
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 무통성 출혈 (산통은 있을 수 있음).
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-* US (초음파).
-## 4. 진단 (Diagnosis)
-* 내진은 금기.
-## 5. 치료 (Treatment)
-* 중증 출혈이면 주수 무관 응급 C-sec.
-* 전치태반이라 질식분만은 불가.
-* 36주 전: 분만 연장 (리토드린, 베타메타손).
-* 36주 후: C-sec.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["placenta previa"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "산과적출혈"]"
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**: prior C-sec, induced abortion
-- **기전**
-- **의미**: 태반이자궁경부의자궁목내공에있는것
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 무통성출혈산통은있을수있음
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-- US, 내진은금기
-## 5. 치료 (Treatment)
-- 중증출혈이면주수무관응급C-sec.
-  전치태반이라질식분만은불가.
-  36주전: 분만연장(리토드린, 베타메타손).
-  36주후: C-sec
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

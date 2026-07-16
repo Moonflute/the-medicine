@@ -14,6 +14,12 @@ CC:
 - 호흡곤란
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+review_status: "source_reviewed_no_change"
+reviewed_at: "2026-07-16"
+guideline_year: "2024"
+sources: ["지역사회획득 폐렴 진료지침 (2024) | https://www.ksid.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=199", "2024 Community-Acquired Pneumonia Guideline | https://www.lungkorea.org/bbs/index.html?code=guide&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=247"]
+
 ---
 분과 : [[호흡기]]
 

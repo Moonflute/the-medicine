@@ -10,6 +10,9 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -49,56 +52,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Embryology, Placenta; Physiology, Placenta)
 Last updated :
----
-## 통합 전 원문
----
-aliases: ["placenta retention"]
-유형:
-- disease
-계통: "산과"
-분류: "["산과", "산과적 출혈"]"
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 분만 후 지연 출혈.
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-* US (초음파)에서 보임.
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-* Gentle suction curettage.
-* Oxytocin.
-* 자궁내막 소파술.
-* 덩이 제거술.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["placenta retention"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "산과적출혈"]"
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 분만후지연출혈(US에서보임)
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- gentle suction curettage, oxytocin, 자궁내막소파술, 덩이제거술
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

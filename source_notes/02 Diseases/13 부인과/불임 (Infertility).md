@@ -10,6 +10,9 @@ CC:
 - 골반통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[부인과]]
 
@@ -68,32 +71,4 @@ last_studied: '2026-06-06'
 
 
 Last updated :
----
-## 통합 전 원문
----
-aliases: []
-유형:
-- disease
-계통: "부인과"
-분류: "["부인과", "불임"]"
-CC: []
----
-## 1. 개요
-- **정의**: 1년간 피임하지 않았으나 임신이 되지 않는 경우
-- **원인**: 남성인자(정액이상, 정계정맥류), 난소인자(PCOS, 조기폐경), 난관인자(PID, endometriosis, 난관수종), 자궁인자(자궁기형, 자궁근종, 자궁내막폴립, 자궁내유착), 경부인자(자궁경관점액이상, 항정자항체)
-- **기전**:
-## 2. 임상 양상 (Clinical Features)
-* **CC**:
-* **P/E**:
-## 3. 검사 (Lab & Imaging)
-- 남성인자: semen analysis (1.5mL, 39x10^6, 운동성32%, 형태4%)
-- 난소인자: serum FSH, CCCT, serum inhibin B, serum AMH, LH monitoring, 기초체온법, cervical mucus
-- 난관인자: HSG, laparoscopy
-- 자궁인자: HSG, hysterography, transvaginal sonography
-- 경부인자: cervical mucus, anti sperm antibody 검사
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

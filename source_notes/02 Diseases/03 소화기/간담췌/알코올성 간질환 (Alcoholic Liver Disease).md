@@ -14,6 +14,9 @@ CC:
 - 발열
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - 알코올성 간 질환(ALD): 과도한 알코올 섭취로 인한 간 손상 스펙트럼(지방간, 알코올성 간염, 간경변증).

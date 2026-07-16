@@ -14,6 +14,9 @@ CC:
 - 혈압저하
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[외과]]
 
@@ -52,29 +55,4 @@ last_studied: '2026-06-06'
 
 출처 : Merck Manual Professional
 Last updated :
----
----
-aliases: ["간손상"]
-유형:
-- - disease
-계통: "외과"
-분류: ["외과", "외상", "복부외상"]
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-- Stable: FAST → abdominal CT / Unstable: FAST → laparotomy
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- Stable: 비수술적 치료 (절대 안정 및 감시).
-  Unstable: 응급 개복술.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

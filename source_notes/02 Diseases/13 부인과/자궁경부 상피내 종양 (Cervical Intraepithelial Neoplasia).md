@@ -13,6 +13,9 @@ CC:
 - 검진 이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[부인과]]
 
@@ -50,39 +53,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Cervical Intraepithelial Neoplasia)
 Last updated :
----
----
-aliases: ["CIN", "CIS", "cervical intraepithelial neoplasia"]
-유형:
-- - disease
-계통: "부인과"
-분류: ["부인과", "자궁경부상피내종양"]
-CC: []
----
-## 1. 개요
-- **정의**:
-- **원인**: HPV-16, 18 (high risk)
-- **기전**:
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 자궁경부암으로 진행 가능
-* **P/E**:
-## 3. 검사 (Lab & Imaging)
-- 선별검사: pap smear
-- 질확대경검사(colposcopy): acetowhite epithelium, leukoplakia, punctation, mosaicism, atypical vascular pattern
-- 자궁경관내소파술(ECC)
-- 자궁경부생검(cervical biopsy)
-## 4. 진단 (Diagnosis)
-- ASC-US: HPV test, 6개월 후 pap 재검
-- ASC-H: Colposcopy + Bx
-- LSIL: Colposcopy + Bx / endocervical curettage
-- HSIL: (Colposcopy + Bx) or (loop excision/conization) / endometrial test
-- AGC: Colposcopy + Bx / HPV test, endometrial test (35세 이상)
-## 5. 치료 (Treatment)
-- CIN 1: 경과 관찰(80%는 저절로 좋아짐)
-- CIN 2,3: 치료가 원칙, ablation, conization(LEEP), hysterectomy
-- AIS: hysterectomy, conization (임신 계획)
-- 임산부: 침윤암이 아니면 출산 후 치료, 검사는 pap, colpo만, ECC 하지 않음
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

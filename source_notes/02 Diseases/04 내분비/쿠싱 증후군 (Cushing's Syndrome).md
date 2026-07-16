@@ -16,6 +16,13 @@ CC:
 - 기분변화
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Who and how to screen for Cushing's syndrome: the position statement of the Italian Society of Endocrinology. | https://pubmed.ncbi.nlm.nih.gov/41364328/", "2024 Korean Endocrine Society Consensus Statement on the Diagnosis and Management of Cushing's Syndrome | https://www.endocrinology.or.kr/journal/view.php?number=1820", "Cushing's Syndrome: An Endocrine Society Clinical Practice Guideline | https://www.endocrine.org/clinical-practice-guidelines/cushings-syndrome"]
+
+content_updated_at: "2026-07-17"
 ---
 분과 : [[내분비]]
 
@@ -41,6 +48,7 @@ last_studied: '2026-06-06'
 - 심야 침샘 코르티솔(late night salivary cortisol) > 0.18 µg/dL (5 nmol/L).
 - 저용량 덱사메타손 억제 검사(0.5mg 6시간마다 2일간) 후 혈장 코르티솔 > 1.8 µg/dL (50 nmol/L).
 - **주의**: 외인성 스테로이드 투여 여부를 먼저 배제해야 함(장기 투여 과거력, 코르티솔 저하, 부신기능저하증 증상 동반 시 의심).
+- **선별 대상의 우선순위**: 전형적 신체소견이 진행하거나, 젊은 연령의 불균형한 고혈압/당뇨·골다공증/골절·부신우연종·특이 감염/혈전·월경불순/고안드로겐 증상이 있을 때 선별의 문턱을 낮춘다. 단순 비만·우울만으로 광범위 선별하지 않고, 약물과 위양성 요인을 먼저 정리한다. [2026 Italian Endocrine Society screening statement](https://pubmed.ncbi.nlm.nih.gov/41364328/)
 
 ## 4. 진단
 - **감별 단계**: 혈중 ACTH 농도 측정.
@@ -55,6 +63,7 @@ last_studied: '2026-06-06'
   기저치(Petrosal/peripheral ACTH ratio > 2) 또는 CRH 자극 후(ratio > 3) 뇌하수체성 확인.
 
 ## 5. 치료
+- **치료 흐름**: 원인 병변이 확인되면 수술 가능성 평가가 우선이며, 수술 후에는 코르티솔 저하와 부신기능저하를 모니터링한다. 지속/재발 질환은 병변 위치·중증도·임신 가능성·동반질환에 따라 약물, 방사선, 양측 부신절제술을 다학제 내분비팀에서 개별화한다. 혈압·당대사·감염·혈전·골 건강은 진단 직후부터 병행 관리한다. [2024 Korean Endocrine Society Cushing consensus](https://www.endocrinology.or.kr/journal/view.php?number=1820)
 - **ACTH 비의존성**: 일측성 부신절제술(종양), 양측성 부신절제술(증식증).
 - **ACTH 의존성**:
 - **쿠싱병**: 나비뼈경유절제술(TSA).

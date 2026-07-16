@@ -14,6 +14,13 @@ CC:
 - 부종
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["[Clinical practice guidelines for the diagnosis and treatment of community-acquired bacterial meningitis in children (2025)]. | https://pubmed.ncbi.nlm.nih.gov/39844486/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[소아청소년과]]
 
@@ -28,27 +35,18 @@ last_studied: '2026-06-06'
 * **P/E**: 뇌막 자극 징후 (Kernig sign, Brudzinski sign), 유두 부종 (papilledema, 뇌압 상승 시)
 
 ## 3. 검사 (Lab & Imaging)
-* **뇌척수액 검사 (Lumbar puncture)**:
-  필수적 진단 도구.
-  백혈구 증가(다핵구 우세), 단백질 증가, 당 감소 확인
-* **혈액 검사**: 혈액 배양(53%에서 동반 균혈증), CRP 및 프로칼시토닌 상승
-* **뇌 CT/MRI**:
-  뇌 농양, 경막하 삼출 등 합병증 확인.
-  단, 유두 부종, 국소 신경학적 결손, 경련 등 뇌 탈출 위험 시 LP 전 시행
+* **뇌척수액(CSF) 검사**: 진단의 핵심. Gram 염색 및 배양을 통한 병원균 확인 필수.
+* **영상 검사**: 뇌압 상승 징후(유두 부종, 국소 신경학적 결손, 경련 등)가 있는 경우 LP 전 뇌 CT/MRI 시행하여 뇌 탈출 위험 평가.
+* **주의사항**: 조기 진단 및 병원균 확인을 위한 검체 채취의 신속성 강조. [[Clinical practice guidelines for the diagnosis and treatment of community-acquired bacterial meningitis in children (2025)].](https://pubmed.ncbi.nlm.nih.gov/39844486/) [[Clinical practice guidelines for the diagnosis and treatment of community-acquired bacterial meningitis in children (2025)].](https://pubmed.ncbi.nlm.nih.gov/39844486/)
 
 ## 4. 진단 (Diagnosis)
 * 뇌척수액 검사 결과(Gram stain, 배양)를 통한 확진
 * 임상 증상 및 징후를 바탕으로 조기 진단이 중요
 
 ## 5. 치료 (Treatment)
-* **경험적 항생제 즉시 투여**:
-  진단 지연 시 사망률 증가.
-  3세대 세팔로스포린(세프트리악손 등) + 반코마이신이 표준.
-  면역저하자나 고령자는 암피실린 추가 고려
-* **스테로이드**:
-  S.
-  pneumoniae 감염 시 뇌압 상승 및 합병증 감소를 위해 항생제 투여와 동시에 사용 고려
-* **접촉자 관리**: 수막구균성 뇌수막염의 경우 밀접 접촉자에게 예방적 항생제 투여
+* **항균제 치료**: 조기 투여가 예후 결정의 핵심. 지역사회 획득 세균성 뇌수막염(CABM)의 경우 가이드라인에 따른 표준 항균제 요법 시행.
+* **치료 원칙**: 조기 정밀 진단과 표준화된 항균제 치료를 통해 예후 개선 및 질병 부담 감소 도모.
+* **관리**: 임상적 경과에 따른 모니터링 및 합병증 관리. [[Clinical practice guidelines for the diagnosis and treatment of community-acquired bacterial meningitis in children (2025)].](https://pubmed.ncbi.nlm.nih.gov/39844486/) [[Clinical practice guidelines for the diagnosis and treatment of community-acquired bacterial meningitis in children (2025)].](https://pubmed.ncbi.nlm.nih.gov/39844486/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 치료가 예후를 결정함 (사망률 10-15%)

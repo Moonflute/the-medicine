@@ -10,13 +10,15 @@ CC:
 - 관절 통증/붓기
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: tier_2
+clinical_priority: "tier_2"
 content_updated_at: '2026-07-15'
-guideline_year: '2020'
+guideline_year: "2020"
 sources:
 - 'ACR Guideline for the Management of Gout | https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/'
 disease_family: gout
 population: adult
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 
 분과 : [[류마티스]]

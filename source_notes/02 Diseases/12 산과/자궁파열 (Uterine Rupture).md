@@ -11,6 +11,9 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -56,54 +59,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Uterine Rupture)
 Last updated :
----
-## 통합 전 원문
----
-aliases: ["uterine rupture"]
-유형:
-- disease
-계통: "산과"
-분류: "["산과", "산과적 출혈"]"
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인** 제왕절개력 있는 자궁.
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 자궁 수축 중 갑작스러운 날카로운 복통.
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-* 수혈.
-* 개복술.
-* 자궁 열상 (2cm 이상은 봉합).
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["uterine rupture"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "산과적출혈"]"
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**: 제왕절개력있는자궁
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 자궁수축중갑작스러운날카로운복통
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 수혈, 개복술, 자궁열상– 2cm 이상은봉합
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

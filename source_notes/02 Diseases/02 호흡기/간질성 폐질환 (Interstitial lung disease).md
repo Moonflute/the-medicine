@@ -16,6 +16,13 @@ CC:
 - 근육통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Guide from the Colegio Mexicano de Reumatología for the Pharmacological Treatment of Systemic Sclerosis Part 1: Cutaneous Involvement, Interstitial Lung Disease, and Pulmonary Arterial Hypertension. | https://pubmed.ncbi.nlm.nih.gov/42270533/", "Korean Guidelines for Diagnosis and Management of Interstitial Lung Diseases | https://www.lungkorea.org/journal/view.php?number=1000", "ERS/EULAR clinical practice guidelines for connective tissue disease-associated interstitial lung disease | https://ard.bmj.com/content/85/1/22"]
+
+content_updated_at: "2026-07-17"
 ---
 ## 1. 개요
 - **정의**: 폐 간질부의 증식, 염증 세포 침윤, 섬유화로 인한 비정상적 콜라겐 침착 질환군. 광범위폐사이질질환(DPLD)으로도 지칭.
@@ -51,6 +58,7 @@ last_studied: '2026-06-06'
 - HP 소견: 비섬유성(Diffuse GGO, mosaic attenuation), 섬유성(Reticular opacities, honeycombing).
 - IPF vs HP 감별: IPF는 늑막하 및 기저부 위주, HP는 폐 상부~중부 분포 경향.
 - **폐기능검사(PFT)**:
+- **분류 전 평가**: 약물·직업/가정 항원·방사선 노출과 결합조직질환 증상을 다시 묻고, HRCT 패턴과 PFT(특히 FVC·DLCO) 추세를 해석한다. 불확실하거나 진행성인 경우 호흡기·영상의학·류마티스·병리 다학제 논의에서 원인과 섬유화 진행 여부를 정리한다.
   제한성 폐기능 장애(FVC, TLC, RV, DLco 감소, FEV1/FVC 정상).
   HP 및 RBILD는 폐쇄성 패턴 동반 가능.
 - **동맥혈 가스검사(ABGA)**: 정상 또는 저산소혈증, 운동 시 저산소혈증 심화.
@@ -69,6 +77,7 @@ last_studied: '2026-06-06'
 
 ## 5. 치료
 - **일반적 치료**: 원인 제거(항원 회피, 금연), 보존적 치료(산소 치료, 호흡재활).
+- **질환별 치료**: 원인 노출을 제거하고 저산소증·호흡재활·예방접종·폐고혈압/역류 등 동반질환을 함께 관리한다. 면역억제·항섬유화제는 ILD 아형과 진행성 섬유화 여부에 따라 달라지므로 모든 ILD에 일률 적용하지 말고, CTD-ILD나 진행성 섬유화는 전문 다학제팀에 의뢰해 치료와 PFT/HRCT 추적 간격을 결정한다. [ERS/EULAR CTD-ILD clinical practice guideline](https://ard.bmj.com/content/85/1/22)
 - **IPF 치료**:
 - 항섬유화제: Pirfenidone, Nintedanib.
 - 폐 이식: 근본적 치료.

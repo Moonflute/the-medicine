@@ -11,6 +11,9 @@ CC:
 - 근력/감각이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - **정의**: 프로락티노마는 프로락틴(PRL)을 분비하는 뇌하수체 선종으로, 가장 흔한 기능성 뇌하수체 종양이다. 고프로락틴혈증은 혈중 프로락틴 농도가 정상 범위(보통 15-20 ng/mL 초과)를 넘어서는 상태

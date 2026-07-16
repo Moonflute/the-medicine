@@ -12,6 +12,12 @@ CC:
 - 쌕쌕거림
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2024"
+sources: ["2022 천식 진료지침 | https://www.lungkorea.org/bbs/index.html?code=guide&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=242", "Global Strategy for Asthma Management and Prevention (2024) | https://ginasthma.org/gina-reports/"]
+
 ---
 분과 : [[호흡기]]
 

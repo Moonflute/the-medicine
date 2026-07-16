@@ -15,14 +15,16 @@ CC:
 - 탈모
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: tier_2
+clinical_priority: "tier_2"
 content_updated_at: '2026-07-15'
-guideline_year: '2014'
+guideline_year: "2014"
 sources:
 - 'AACE ATA Adult Hypothyroidism Clinical Practice Guideline | https://pubmed.ncbi.nlm.nih.gov/23246686/'
 - 'ATA Guidelines for Treatment of Hypothyroidism | https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/'
 disease_family: hypothyroidism
 population: adult
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 
 분과 : [[내분비]]

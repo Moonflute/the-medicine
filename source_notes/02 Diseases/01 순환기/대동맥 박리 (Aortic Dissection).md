@@ -10,6 +10,13 @@ CC:
 - 허리 통증
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2022"
+sources: ["2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease | https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106"]
+
+content_updated_at: "2026-07-17"
 ---
 분과 : [[순환기]]
 
@@ -39,9 +46,11 @@ last_studied: '2026-06-06'
 
 ## 4. 진단 (Diagnosis)
 - 임상적 의심이 중요하며, CT, TEE, MRA를 통해 내막 피판(intimal flap)과 이중 내강을 확인하여 확진한다.
+- **영상 선택**: 혈역학적으로 안정적이면 흉복부 CTA로 박리 범위, 분지 혈관 침범·장기 관류저하, 심낭삼출을 신속히 평가한다. 불안정하여 이동이 어렵거나 대동맥판 역류·심낭눌림 평가가 급하면 TEE를 고려한다. 영상 보고에는 최대 직경, 진성/가성 내강, 분지 침범과 이전 영상 대비를 남긴다. [2022 ACC/AHA aortic disease guideline key perspectives](https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2022/11/01/12/17/2022-Guideline-on-Aortic-Disease-1-gl-ad)
 
 ## 5. 치료 (Treatment)
 - 즉각적인 혈압 및 심박수 조절이 필수적이다.
+- **초기·중재 흐름**: ICU 모니터링에서 통증 조절과 anti-impulse 치료(우선 심박수/수축력 억제 후 혈압 조절)를 시작하고, 장기 저관류·파열·심낭눌림·급성 AR을 반복 평가한다. 급성 Type A는 즉시 대동맥수술팀과 수술을 논의한다. 합병증 없는 Type B는 내과적 치료가 초기 원칙이지만, 파열·저관류·진행·조절 불가 통증/고혈압에서는 TEVAR/수술을 긴급 평가한다. 퇴원 후 CT 또는 MRI 추적을 계획한다. [2022 ACC/AHA aortic disease guideline key perspectives, Part 2](https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2022/11/01/12/21/2022-Guideline-on-Aortic-Disease-2-gl-ad)
   베타차단제를 우선 사용하며, 필요시 니트로프루시드 등을 병용한다.
   단, 혈관확장제 단독 사용은 반사성 빈맥을 유발하므로 반드시 베타차단제와 병용해야 한다.
 * **수술 적응증**:

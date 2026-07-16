@@ -10,6 +10,9 @@ CC:
 - 발열
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[부인과]]
 
@@ -52,29 +55,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Galactocele)
 Last updated :
----
-## 통합 전 원문
----
-aliases: ["galactocele"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "유방질환"]"
-CC: []
----
-## 1. 개요
-- **정의**: 유즙으로차있는낭종
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 경계가명확하고둥근양상, 수유중단6~10개월뒤발생
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-- 세침흡인- creamy material
-## 5. 치료 (Treatment)
-- 세침흡인→ 수술
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

@@ -13,6 +13,9 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[부인과]]
 
@@ -49,31 +52,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Gestational Trophoblastic Disease)
 Last updated :
----
----
-aliases: ["GTN", "gestational trophoblastic neoplasia"]
-유형:
-- - disease
-계통: "부인과"
-분류: ["부인과", "임신융모질환"]
-CC: []
----
-## 1. 개요
-- **정의**:
-- **원인**:
-- **기전**: 임신과 관련된 모든 이유로 생겨난 종양
-## 2. 임상 양상 (Clinical Features)
-* **CC**:
-* **P/E**:
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-- H-mole에서 치료 후에도 hCG가 감소하지 않거나 증가
-- 병기: 8점 이상이면 고위험으로 복합 CTx
-## 5. 치료 (Treatment)
-- 항암 화학 요법 (고위험이면 복합, 저위험이면 단일)
-- 관찰(b-hCG): 3주 연속 정상까지 매주 검사, 이후 12개월 연속 정상까지 매월 검사.
-  관찰 기간 동안 OC 복용.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

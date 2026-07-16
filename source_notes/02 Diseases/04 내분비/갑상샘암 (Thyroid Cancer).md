@@ -15,6 +15,13 @@ CC:
 - 두근거림
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["Korean Thyroid Association Guidelines on the Management of Differentiated Thyroid Cancers 2024 | https://www.ijthyroid.org/journal/view.php?number=202400002", "2025 Korean Thyroid Association Clinical Management Guideline on Active Surveillance for Low-Risk Papillary Thyroid Carcinoma | https://www.e-enm.org/journal/view.php?number=2461"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[내분비]]
 
@@ -57,6 +64,7 @@ last_studied: '2026-06-06'
 - RAIU 감소: 갑상샘염, 요오드 섭취 과다
 - **갑상샘염 검사 소견**: 아급성(ESR↑), 무통성(Anti-TPO Ab+), 급성(WBC/CRP↑, FNA상 호중구 침윤), 리델(절제생검)
 - **TPP 검사**: 혈중 K+, TFT
+- **열소작술(Thermal Ablation) 고려 시**: 초음파를 통한 결절의 위치 및 주변 중요 구조물(반회후두신경, 대혈관, 식도)과의 근접성 평가 필수 [2025 Korean Thyroid Association Clinical Management Guideline on Active Surveillance for Low-Risk Papillary Thyroid Carcinoma](https://www.e-enm.org/journal/view.php?number=2461)
 
 ## 4. 진단
 - **갑상샘암**: 초음파 소견 및 FNA 시행, 속질암은 RET 돌연변이 확인 및 갈색세포종 배제 필요
@@ -65,12 +73,14 @@ last_studied: '2026-06-06'
 
 ## 5. 치료
 - **갑상샘 분화암(PTC, FTC)**: 수술(엽절제술 또는 전절제술), 위험도에 따른 방사성요오드(RAI) 치료, TSH 억제 치료(레보티록신)
+- **갑상샘 미세유두암(PTMC)**: 저위험군인 경우 적극적 감시(Active Surveillance) 고려 가능
+- **열소작술(RFA/MWA)**: 수술이 불가능한 재발암, 전이성 림프절, 일부 미세유두암에서 최소 침습적 치료로 활용 가능. 시술 시 '위험 삼각형(danger triangle)' 내 반회후두신경 손상 주의 및 수분박리술(hydrodissection) 등 고급 초음파 기법 활용 권고
 - **갑상샘 속질암(MTC)**: 갑상샘전절제술 + 양측 중심경부 림프절절제술, 갈색세포종 동반 시 우선 제거
 - **갑상샘 역형성암(ATC)**: 표적치료(BRAF 변이 시), 수술, 방사선치료 등 다학제적 접근
 - **갑상샘염 치료**: 아급성(NSAID, β-blocker), 무통성(β-blocker), 급성(항생제, 배농), 리델(감압), 공통(항갑상샘제 사용 안 함)
 - **갑상샘중독주기적마비(TPP)**: β-blocker, 갑상샘중독증 치료, K+ 보충
 - **갑상샘중독발작(Thyroid storm)**: 고용량 항갑상샘제, β-blocker, 요오드, 스테로이드, 보존적 치료
-- **불현성 갑상샘중독증 치료 고려**: TSH < 0.1 mU/L, 유증상, 고령, 심장질환, 골다공증 환자
+- **불현성 갑상샘중독증 치료 고려**: TSH < 0.1 mU/L, 유증상, 고령, 심장질환, 골다공증 환자 [2025 Korean Thyroid Association Clinical Management Guideline on Active Surveillance for Low-Risk Papillary Thyroid Carcinoma](https://www.e-enm.org/journal/view.php?number=2461)
 
 ## 6. 예후 및 합병증
 - **갑상샘암 추적관찰**: 혈중 갑상샘글로불린(Tg), Tg 항체, 경부 초음파

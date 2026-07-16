@@ -11,6 +11,13 @@ CC:
 - 단백뇨
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2023"
+sources: ["2023 Korean Society of Nephrology Consensus Guideline for the Management of IgA Nephropathy | https://www.ksn.or.kr/journal/view.php?number=202300001", "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[신장]]
 
@@ -28,21 +35,18 @@ last_studied: '2026-06-06'
   - 고혈압, 부종(신증후군 동반 시).
 
 ## 3. 검사 (Lab & Imaging)
-- 혈청 IgA 농도 증가(일부 환자).
-- 혈청 보체(C3, C4) 농도는 대개 정상.
-- **조직 검사(확진)**
-- LM: 메산지움 증식 및 기질 확장.
-- EM: 메산지움 부위에 전자밀도가 높은 침착물(electron dense deposit).
-- IF: 메산지움에 IgA의 우세한 침착(주로 C3 동반).
+- **필수 검사**: 소변 검사(현미경적 혈뇨 및 단백뇨 정량), 혈청 크레아티닌(eGFR 산출), 혈압 측정.
+- **조직 검사(확진)**: 신장 조직 검사를 통해 확진하며, MEST-C 점수 체계를 사용하여 병리적 중증도를 평가함.
+- **주의사항**: 혈청 IgA 농도는 진단적 가치가 낮으므로 일상적인 선별 검사로 권장하지 않음. 보체 농도(C3, C4)는 다른 사구체 질환 감별을 위해 측정함. [KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases](https://kdigo.org/guidelines/gd/)
 
 ## 4. 진단 (Diagnosis)
 - 신장 조직 검사를 통해 확진.
 - 혈뇨와 단백뇨가 지속되는 환자에서 다른 사구체 질환을 배제한 후 시행.
 
 ## 5. 치료 (Treatment)
-- 보존적 치료: 혈압 조절(ACEi 또는 ARB 사용), 염분 제한.
-- 고위험군(단백뇨 > 1g/일, 신기능 저하 등): ACEi/ARB 최대 허용 용량 투여 후에도 단백뇨 지속 시 스테로이드 등 면역억제제 고려.
-- 위험인자(단백뇨, 고혈압, 신기능 저하)에 따른 개별화된 접근 필요.
+- **보존적 치료(기본)**: 최적의 혈압 조절(ACEi 또는 ARB 사용), 염분 제한, 금연 및 체중 관리. 모든 환자에게 적용.
+- **위험도 평가 및 치료**: 단백뇨가 지속되는 경우(보존적 치료 후에도 >0.5-1g/일) 위험도를 평가하여 면역억제제(스테로이드 등) 투여를 고려함.
+- **모니터링**: 단백뇨 수치, 혈압, eGFR을 정기적으로 추적 관찰하여 치료 반응을 평가하고, 신기능 악화 시 신장내과 전문의와 상의하여 치료를 재평가함. [KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases](https://kdigo.org/guidelines/gd/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후는 다양함.

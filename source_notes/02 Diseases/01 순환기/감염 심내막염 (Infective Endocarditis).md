@@ -14,6 +14,13 @@ CC:
 - 음식물 역류
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2023"
+sources: ["2023 ESC Guidelines for the management of endocarditis | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Endocarditis-Guidelines"]
+content_updated_at: "2026-07-16"
+
 ---
 분과 : [[순환기]]
 
@@ -49,6 +56,8 @@ last_studied: '2026-06-06'
   경흉부 심초음파(TTE)를 우선 시행하며, 불확실하거나 인공 판막/합병증 의심 시 경식도 심초음파(TEE)를 시행한다.
 - **혈액 검사**: 빈혈(Normocytic normochromic), ESR/CRP 증가, 류마티스 인자(RF) 양성 등이 나타날 수 있다.
 - **소변 검사**: 미세혈뇨, 단백뇨 등이 나타날 수 있다.
+- **실무 순서**: 혈역학적으로 안정적이면 항균제 전 서로 다른 채혈 부위에서 혈액배양을 확보한다. TTE를 먼저 시행하고, 음성·비진단적 TTE인데 의심이 높거나 인공판막/기기 관련 감염이 의심되면 TEE로 평가한다. 초기 영상이 음성이어도 임상 의심이 높거나 새 합병증이 의심되면 재검사를 서두른다.
+- **확장 영상**: 심초음파로 판막주위 병변을 충분히 평가하지 못하면 심장 CT를, 인공판막 또는 CIED 감염 의심에서는 핵의학 영상의 역할을 감염심내막염 팀과 논의한다. 색전·전이 병소가 의심되면 증상에 맞는 뇌/전신 영상을 추가한다. [ACC 2023 ESC endocarditis key points](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2023/08/29/20/49/2023-esc-guidelines-for-endocarditis-esc-2023)
 
 ## 4. 진단
 - **Modified Duke criteria**: 2 Major OR 1 Major + 3 Minor OR 5 Minor로 진단한다.
@@ -68,6 +77,8 @@ last_studied: '2026-06-06'
 - 인공 판막: Vancomycin + Gentamicin + Rifampin.
 - **수술적 치료**: 
 - 항생제 치료에도 조절되지 않는 감염, 심부전 동반, 진균 감염, 판막 주위 농양, 심차단, 반복되는 색전증 또는 큰 vegetation(> 10mm) 발생 시 고려한다.
+- **초기 의사결정**: 쇼크·패혈증에서는 배양 채취 직후 경험적 정주 항균제를 시작하고, 안정적 환자에서는 배양 및 감염원 평가를 확보한 뒤 가능한 한 빠르게 원인균·감수성·자연판막/인공판막/기기 여부에 맞춰 좁힌다. 정해진 단일 경험요법을 모든 환자에게 적용하지 않는다.
+- **팀 기반 치료**: 심부전, 조절되지 않는 감염, 색전 예방이 수술 판단의 핵심 축이다. 이 중 하나가 있거나 인공판막·기기 관련 감염, 판막주위 합병증, 뇌졸중 동반 시에는 심장판막센터/감염심내막염 팀에 조기 상의한다. 경구·외래 항균치료 전환은 임상 안정성, 배양 경과, TEE상 국소 진행·중증 판막기능장애 부재를 확인한 뒤 개별화한다. [ACC 2023 ESC endocarditis key points](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2023/08/29/20/49/2023-esc-guidelines-for-endocarditis-esc-2023)
 
 ## 6. 예후 및 합병증
 - **예후**: 심부전, 색전증(뇌졸중 등), 농양 형성, 판막 손상 등이 발생할 수 있다.

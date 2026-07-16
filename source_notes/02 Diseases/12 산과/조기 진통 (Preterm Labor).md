@@ -13,6 +13,13 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2023"
+sources: ["Management of preterm labor: Clinical practice guideline and recommendation by the WAPM-World Association of Perinatal Medicine and the PMF-Perinatal Medicine Foundation. | https://pubmed.ncbi.nlm.nih.gov/37913556/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -26,22 +33,22 @@ last_studied: '2026-06-06'
 - **신체 검진**: 자궁 수축 빈도 확인, 경부 상태 평가(내진 전 초음파로 태반 위치 및 양막 파수 여부 확인 필수)
 
 ## 3. 검사
-- **자궁 경부 초음파**: 경부 길이 측정(30mm 이상이면 조산 위험 낮음)
-- **태아 섬유나트겐(fetal fibronectin, fFN)**: 질 분비물 검사, 음성 예측도가 높아 조산 가능성이 낮은 환자 선별에 유용
-- **기타**: 양막 파수 확인 검사, GBS 배양 검사, 소변 검사(UTI 배제), 필요 시 성매개 감염 검사
+- **자궁 경부 초음파**: 경부 길이 측정은 조기 진통 진단 및 조산 위험 평가의 핵심 도구임.
+- **태아 섬유나트겐(fetal fibronectin, fFN)**: 질 분비물 검사로, 음성 예측도가 높아 불필요한 개입을 줄이는 데 유용함.
+- **기타**: 양막 파수 확인, GBS 배양, 소변 검사(UTI 배제) 및 필요 시 성매개 감염 검사를 통해 조기 진통의 유발 요인을 감별함. [Management of preterm labor: Clinical practice guideline and recommendation by the WAPM-World Association of Perinatal Medicine and the PMF-Perinatal Medicine Foundation.](https://pubmed.ncbi.nlm.nih.gov/37913556/)
 
 ## 4. 진단
 - 규칙적인 자궁 수축과 경부 변화(개대 2cm 이상 등)를 통해 임상적으로 진단
 - 조기 진통이 의심되는 경우 자궁 수축 빈도와 경부 변화를 최소 2시간 이상 관찰
 
 ## 5. 치료
-- **일반 원칙**: 임신 주수에 따른 개별화된 관리, 태아 폐 성숙 및 신생아 합병증 예방
+- **일반 원칙**: 임신 주수에 따른 개별화된 관리 및 신생아 합병증 예방을 목표로 함.
 - **주요 중재**:
-- **안테나탈 코르티코스테로이드**: 태아 폐 성숙 촉진
-- **자궁 수축 억제제(Tocolytics)**: 분만 지연을 통해 스테로이드 투여 시간 확보
-- **마그네슘 설페이트**: 신경 보호 목적
-- **GBS 예방적 항생제**: 감염 예방
-- **관리**: 임신 주수와 경부 상태에 따라 분만 여부 결정, 고위험군에 대한 다학제적 접근(산과, 신생아과 등)
+  - **안테나탈 코르티코스테로이드**: 태아 폐 성숙 촉진을 위해 투여.
+  - **자궁 수축 억제제(Tocolytics)**: 분만 지연을 통해 스테로이드 투여 및 전원 등 적절한 처치를 위한 시간을 확보함.
+  - **마그네슘 설페이트**: 태아 신경 보호 목적으로 사용.
+  - **GBS 예방적 항생제**: 감염 예방을 위해 투여.
+- **관리**: 불필요하거나 과도한 개입을 피하고, 임신 주수와 경부 상태를 종합적으로 고려하여 다학제적 접근을 시행함. [Management of preterm labor: Clinical practice guideline and recommendation by the WAPM-World Association of Perinatal Medicine and the PMF-Perinatal Medicine Foundation.](https://pubmed.ncbi.nlm.nih.gov/37913556/)
 
 ## 6. 예후 및 합병증
 - 조산은 신생아 이환율 및 사망률의 주요 원인

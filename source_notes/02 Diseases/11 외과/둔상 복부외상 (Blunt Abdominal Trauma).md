@@ -13,6 +13,13 @@ CC:
 - 혈변
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Conservative management of pediatric patients with solid organ injury after blunt abdominal trauma. Consensus sponsored by the Spanish Society of Pediatric Surgery. | https://pubmed.ncbi.nlm.nih.gov/41550051/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[외과]]
 
@@ -38,9 +45,10 @@ last_studied: '2026-06-06'
   복막염 징후나 명백한 출혈이 있는 경우 즉각적인 수술적 탐색 필요.
 
 ## 5. 치료 (Treatment)
-- **초기 처치**: 적극적인 수액 소생술 및 필요 시 수혈(O형 농축적혈구 등).
+- **초기 처치**: 적극적인 수액 소생술 및 필요 시 수혈.
 - **수술적 치료**: 복막염, 지속적인 혈역학적 불안정, 장기 파열 확인 시 즉각적인 개복술(laparotomy) 시행.
-- **비수술적 치료**: 혈역학적으로 안정된 환자에서 CT 결과에 따라 보존적 치료 또는 혈관 조영술을 통한 색전술(embolization) 고려.
+- **비수술적 치료**: 혈역학적으로 안정된 환자에서 CT 결과에 따라 보존적 치료 또는 혈관 조영술을 통한 색전술 고려.
+- **소아 환자**: 고형 장기 손상(solid organ injury) 시 보존적 치료가 표준이나, 병원별 관리 지침(입원 기준, 영상/혈액 검사 주기, 활동 제한 등)의 이질성이 존재하므로 표준화된 프로토콜 적용 권장. [Conservative management of pediatric patients with solid organ injury after blunt abdominal trauma. Consensus sponsored by the Spanish Society of Pediatric Surgery.](https://pubmed.ncbi.nlm.nih.gov/41550051/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 복강 내 패혈증, 지연성 비장 파열, 진단 및 치료 지연, 부적절한 소생술로 인한 장기 부전.

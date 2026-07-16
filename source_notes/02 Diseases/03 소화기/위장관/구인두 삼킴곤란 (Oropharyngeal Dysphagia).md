@@ -14,6 +14,12 @@ CC:
 - 체중감소/식욕부진
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+content_updated_at: '2026-07-15'
+guideline_year: "2025"
+sources: ["Esophageal and Oropharyngeal Dysphagia: Clinical Recommendations From the United European Gastroenterology and European Society for Neurogastroenterology and Motility. | https://pubmed.ncbi.nlm.nih.gov/40543044/"]
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 분과 : [[소화기]]
 
@@ -34,7 +40,9 @@ last_studied: '2026-06-06'
     - 기능적 원인: 초기부터 고형식과 유동식 모두 곤란.
 
 ## 3. 검사
-- **구인두 삼킴곤란**: 비디오투시삼킴검사(VFSS), 후두경, 뇌 MRI.
+- **구인두 삼킴곤란**:
+  - **기구적 평가 (Instrumental Assessment)**: 비디오투시삼킴검사(VFSS)와 내시경적 삼킴검사(FEES, fiberoptic endoscopic evaluation of swallowing)가 구인두 기능 장애 평가를 위한 표준 검사로 강력히 권장됨
+  - 후두경, 뇌 MRI.
 - **식도 삼킴곤란**: 식도위내시경(가장 중요), 바륨 식도조영술, 식도내압검사(기능적 원인 의심 시).
 
 ## 4. 진단
@@ -44,7 +52,9 @@ last_studied: '2026-06-06'
 
 ## 5. 치료
 - **공통**: 원인 질환 치료.
-- **구인두 삼킴곤란**: 보존적 치료(흡인 예방, 음식물 성상 조정, 삼킴 재활), 보존적 치료 실패 시 비위관 또는 위루관을 통한 경장영양.
+- **구인두 삼킴곤란**:
+  - **삼킴 치료 (Swallow Therapy)**: 삼킴 기전을 개선하고 증상을 완화하며 삶의 질을 높이기 위해 권장됨. 검증된 평가 도구와 일관된 치료 매개변수를 사용하고 장기 추적 관찰을 고려할 때 치료 효과가 더 높아질 수 있음
+  - **보존적 관리**: 흡인 예방, 음식물 성상 조정. 보존적 치료 실패 시 비위관 또는 위루관을 통한 경장영양 고려.
 - **식도 삼킴곤란**: 내시경적 시술(풍선확장술, 부지확장술, 식도 스텐트), 수술(식도암, 식도이완불능증 등).
 
 ## 6. 예후 및 합병증
@@ -56,3 +66,4 @@ Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 공식 지침 기반 Tier 2 보강

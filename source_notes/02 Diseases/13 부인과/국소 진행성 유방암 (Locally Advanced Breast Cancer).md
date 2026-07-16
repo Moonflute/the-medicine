@@ -10,6 +10,12 @@ CC:
 - 림프절 비대
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2025"
+sources: ["Appraisal of Clinical Practice Guideline: Early and locally advanced breast cancer: diagnosis and management. | https://pubmed.ncbi.nlm.nih.gov/40175234/"]
+
 ---
 분과 : [[부인과]]
 

@@ -14,6 +14,13 @@ CC:
 - 경련
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Diagnosis, treatment and monitoring of chronic nonbacterial osteomyelitis (CNO) and chronic recurrent multifocal osteomyelitis (CRMO) - Evidence, practice and consensus-based recommendations from the German pediatric rheumatology society (GKJR). | https://pubmed.ncbi.nlm.nih.gov/42155695/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[감염]]
 
@@ -34,19 +41,17 @@ last_studied: '2026-06-06'
   진행 시 신경근 압박으로 인한 방사통이나 위약감이 나타날 수 있음.
 
 ## 3. 검사 (Lab & Imaging)
-- **혈액 검사**: ESR, CRP 상승 (염증 지표).
-- **영상 검사**: X-ray(2~4주 후 변화 관찰 가능), MRI(가장 민감), CT, 골 스캔.
-- **확진**: 골 생검 및 배양 검사 (항생제 투여 전 시행 권장).
+- **영상 검사**: 전신 골격 영상(주로 MRI)을 포함한 영상 검사가 권장된다. 
+- **확진**: 골 생검 및 배양 검사 (항생제 투여 전 시행 권장). [Diagnosis, treatment and monitoring of chronic nonbacterial osteomyelitis (CNO) and chronic recurrent multifocal osteomyelitis (CRMO) - Evidence, practice and consensus-based recommendations from the German pediatric rheumatology society (GKJR).](https://pubmed.ncbi.nlm.nih.gov/42155695/)
 
 ## 4. 진단 (Diagnosis)
 - 임상 증상, 혈액 검사(ESR/CRP), 영상 검사(MRI 등)를 종합하여 진단한다.
   뼈까지 도달하는 상처(probe to bone)는 골수염을 강력히 시사한다.
 
 ## 5. 치료 (Treatment)
-- **항생제**:
-  배양 결과 확인 전까지 광범위 항생제(황색포도알균 및 그람 음성균 커버)를 투여하며, 이후 결과에 따라 조정한다.
-  보통 4~8주간 정맥 투여한다.
-- **수술**: 농양 배액, 괴사 조직 제거(debridement), 척추 불안정성 교정 등을 위해 필요할 수 있다.
+- **치료 원칙**: 1차 치료제로 NSAIDs 및 단기 스테로이드 사용. 2차 치료제로 전통적/생물학적 DMARDs 및 비스포스포네이트 사용. 
+- **척추 침범 시**: 비스포스포네이트 및/또는 TNF 억제제를 이용한 신속한 치료 권장. 
+- **모니터링**: 만성 질환이므로 치료 중단 후 추적 관찰을 포함한 장기 모니터링 필수. [Diagnosis, treatment and monitoring of chronic nonbacterial osteomyelitis (CNO) and chronic recurrent multifocal osteomyelitis (CRMO) - Evidence, practice and consensus-based recommendations from the German pediatric rheumatology society (GKJR).](https://pubmed.ncbi.nlm.nih.gov/42155695/)(https://pubmed.ncbi.nlm.nih.gov/42155695/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성 골수염으로의 이행, 관절 파괴, 기능 장애, 패혈증 등이 발생할 수 있다.

@@ -12,6 +12,13 @@ CC:
 - 시야 장애
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["[Diagnostic approach and treatment paradigm in atrophic age related macular degeneration: Recommendations of the France Macula Federation]. | https://pubmed.ncbi.nlm.nih.gov/40058064/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[안과]]
 
@@ -29,11 +36,9 @@ last_studied: '2026-06-06'
 
 
 ## 3. 검사 (Lab & Imaging)
-- **OCT (광간섭 단층 촬영):** 망막 하액, 망막 내액, RPE 박리 등 구조적 변화 확인
-- **형광안저혈관조영술 (FFA):** 신생혈관의 누출 확인 및 분류(전형적 vs 잠복성)
-- **인도시아닌그린혈관조영술 (ICGA):** 맥락막 혈관 구조 및 폴립형 맥락막 혈관병증(PCV) 진단에 유용
-- **암슬러 격자 검사:** 변시증 자가 진단
-
+- **1차 검사:** 컬러 안저 사진, 자가형광 안저 촬영(AFF), 구조적 OCT를 통해 병변 크기 및 중심와 보존 여부 평가
+- **추가 검사:** OCT-A(맥락막 신생혈관 진단), 형광안저혈관조영술(FFA) 및 인도시아닌그린혈관조영술(ICGA)은 감별 진단 시 시행
+- **기능 평가:** 시력 측정 외에 저휘도 시력(LLVA), 대비 감도, 독서 속도, 미세시야계 검사 고려 가능 [[Diagnostic approach and treatment paradigm in atrophic age related macular degeneration: Recommendations of the France Macula Federation].](https://pubmed.ncbi.nlm.nih.gov/40058064/) [[Diagnostic approach and treatment paradigm in atrophic age related macular degeneration: Recommendations of the France Macula Federation].](https://pubmed.ncbi.nlm.nih.gov/40058064/)
 
 ## 4. 진단 (Diagnosis)
 - 임상적 안저 검사 및 다중 영상 검사(OCT, FFA, ICGA)를 종합하여 진단
@@ -41,9 +46,8 @@ last_studied: '2026-06-06'
 
 
 ## 5. 치료 (Treatment)
-- **삼출성:** 항혈관내피세포성장인자(anti-VEGF) 유리체 내 주사(ranibizumab, aflibercept 등)가 표준 치료. 필요 시 레이저 광응고술 또는 광역학 치료(PDT) 병행
-- **비삼출성:** 금연, 항산화 비타민 및 미네랄 보충(AREDS 포뮬러)을 통한 진행 억제 시도
-
+- **다학제적 접근:** 정기적인 임상 모니터링, 의학적 치료, 심리적 지원, 시기능 재활 및 시각 보조기구 활용
+- **환자 지원:** 환자 지원 그룹(Support groups) 연계 권장 [[Diagnostic approach and treatment paradigm in atrophic age related macular degeneration: Recommendations of the France Macula Federation].](https://pubmed.ncbi.nlm.nih.gov/40058064/) [[Diagnostic approach and treatment paradigm in atrophic age related macular degeneration: Recommendations of the France Macula Federation].](https://pubmed.ncbi.nlm.nih.gov/40058064/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 없을 경우 비가역적인 중심 시력 상실 및 실명 위험

@@ -10,15 +10,18 @@ CC:
 - 체중감소/식욕부진
 - 피로
 - 시야 흐림
-clinical_priority: tier_2
+clinical_priority: "tier_2"
 content_updated_at: '2026-07-14'
-guideline_year: '2026'
+guideline_year: "2026"
 sources:
 - '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
 - 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
 - 'KDIGO 2024 CKD Guideline | https://kdigo.org/guidelines/ckd-evaluation-and-management/'
 disease_family: diabetes
-population: general
+population: "general"
+document_role: "canonical"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 
 ## 1. 개요
@@ -82,7 +85,7 @@ population: general
 
 - 신장: [[당뇨병성 콩팥병증 (Diabetic Nephropathy)]]
 - 신경: [[당뇨병성 신경병증 (Diabetic Neuropathy)]]
-- 눈: [[당뇨병성 망막병증 (Diabetic Retinopathy)]], [[당뇨망막병증 (diabetic retinopathy)]]
+- 눈: [[당뇨병성 망막병증 (Diabetic Retinopathy)]]
 - 족부: [[당뇨병성 족부질환]]
 - 특수 집단: 소아청소년과 당뇨병 문서, [[임신성 당뇨병 (Gestational Diabetes Mellitus)]]
 

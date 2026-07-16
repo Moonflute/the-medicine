@@ -13,13 +13,15 @@ CC:
 - 떨림/운동이상
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: tier_2
+clinical_priority: "tier_2"
 content_updated_at: '2026-07-15'
-guideline_year: '2016'
+guideline_year: "2016"
 sources:
 - 'ATA Guidelines for Hyperthyroidism and Other Causes of Thyrotoxicosis | https://www.thyroid.org/guidelines-hyperthyroidism-thyrotoxicosis/'
 disease_family: hyperthyroidism
 population: adult
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 
 분과 : [[내분비]]

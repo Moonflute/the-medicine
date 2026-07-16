@@ -11,6 +11,12 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+content_updated_at: '2026-07-15'
+guideline_year: "2024"
+sources: ["Updated European guidelines for clinical management of familial adenomatous polyposis (FAP), MUTYH-associated polyposis (MAP), gastric adenocarcinoma, proximal polyposis of the stomach (GAPPS) and other rare adenomatous polyposis syndromes: a joint EHTG-ESCP revision. | https://pubmed.ncbi.nlm.nih.gov/38722804/"]
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 분과 : [[소화기]]
 
@@ -29,12 +35,14 @@ last_studied: '2026-06-06'
 * **P/E**: 장외 증상(가드너 증후군 포함): 데스모이드 종양, 두개골 또는 하악골의 골종, 피지낭종, 십이지장/췌장/갑상선/뇌/간 종양 위험 증가
 
 
-## 3. 검사 (Lab & Imaging)
-- 대장내시경: 100개 이상의 용종 확인
-- 유전자 검사: 환자 및 1차 직계 가족 대상 APC 변이 확인
-- 상부위장관 내시경: 십이지장 샘종 감시
-- 갑상선 초음파: 연례 검진 권장
-
+## 3. 검사
+- **대장내시경 (감시 검사 시작 시기)**:
+  - **무증상 고전적 FAP** (APC 생식세포 변이 보유자 또는 유전자 검사가 불가능한 고전적 FAP 환자의 1차 직계가족): 만 12세부터 감시 검사 시작 권장
+  - **유증상 고전적 FAP** (APC 생식세포 변이 보유자 또는 고전적 FAP 환자의 1차 직계가족): 나이와 관계없이 가능한 한 빨리 대장내시경 시행
+  - **무증상 감약형 FAP (AFAP)** (AFAP 변이 보유자 또는 AFAP 환자의 1차 직계가족): 감시 검사를 더 늦게 시작할 수 있으나, 늦어도 만 18~20세 이전에는 시작해야 함
+- **유전자 검사**: 환자 및 1차 직계 가족 대상 APC 변이 확인
+- **상부위장관 내시경**: 십이지장 샘종 감시
+- **갑상선 초음파**: 연례 검진 권장
 
 ## 4. 진단 (Diagnosis)
 - 대장내시경에서 100개 이상의 샘종 확인
@@ -57,3 +65,4 @@ last_studied: '2026-06-06'
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 공식 지침 기반 Tier 2 보강

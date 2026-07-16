@@ -14,6 +14,12 @@ CC:
 - 복통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2025"
+sources: ["[Guideline for the prediction and prevention of pre‑eclampsia (2025)]. | https://pubmed.ncbi.nlm.nih.gov/40419347/"]
+
 ---
 분과 : [[산과]]
 
@@ -64,52 +70,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Eclampsia, Ocular Manifestations of Preeclampsia)
 Last updated :
----
-## 통합 전 원문
----
-aliases: ["eclampsia"]
-유형:
-- disease
-계통: "산과"
-분류: "["산과", "임신 고혈압"]"
-CC: []
----
-## 1. 개요
-- **정의** 전자간증 + 경련.
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 경련.
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-* 혈압/경련 조절 후 분만.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["eclampsia"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "임신고혈압"]"
-CC: []
----
-## 1. 개요
-- **정의**: 전자간증+ 경련
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 혈압/경련조절후분만
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

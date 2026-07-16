@@ -13,6 +13,13 @@ CC:
 - 관절 통증/붓기
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain. | https://pubmed.ncbi.nlm.nih.gov/41825518/"]
+
+content_updated_at: "2026-07-16"
 ---
 ## 1. 개요
 - **정의**: B형 간염 바이러스(HBV) 감염에 의한 간의 염증반응 및 간세포 손상이 6개월 이상 지속되는 질환.
@@ -36,32 +43,21 @@ last_studied: '2026-06-06'
 - **간외 합병증**: 항원-항체 복합체 침착에 의한 관절염, 관절통, 사구체신염, 전신 혈관염(polyarteritis nodosa), purpuric cutaneous lesions(leukocytoclastic vasculitis).
 
 ## 3. 검사
-- **혈액 검사**:
-- AST, ALT: 정상에서 1000 U/L까지 다양함.
-  간염 시 AST < ALT, 간경변 시 AST > ALT 경향.
-- 빌리루빈 상승, PT 연장, 알부민 감소(간기능 저하 시).
-- Globulin 정상, 자가항체 음성(자가면역 간염과 감별).
-- **영상 및 조직 검사**: 간 생검 또는 비침습적 방법(간 섬유화 스캔 등)을 통한 염증 및 섬유화 정도 평가.
-- **선별 검사**: HCC 고위험군(40세 이상, 간경변, 가족력, HDV 동반 등) 대상 6개월마다 복부 초음파 및 AFP 검사.
+- **혈액 검사**: AST, ALT(간염 시 AST < ALT, 간경변 시 AST > ALT 경향), 빌리루빈, PT, 알부민, HBsAg, HBeAg/anti-HBe, HBV DNA 정량.
+- **간 섬유화 평가**: 간 생검 또는 비침습적 방법(간 섬유화 스캔 등)을 통해 염증 및 섬유화 정도를 필수적으로 평가함 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
+- **선별 검사**: HCC 고위험군(간경변, 가족력, HDV 동반 등) 대상 6개월마다 복부 초음파 및 AFP 검사 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
+- **주의사항**: 만성 B형 간염 환자 내원 시 HDV(D형 간염) 동반 감염 여부를 반드시 확인해야 함 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
 
 ## 4. 진단
 - **진단 기준**: HBsAg 양성 6개월 이상 지속, HBV DNA 검출, AST/ALT 상승, 간 생검 소견.
 - **감별 진단**: C형 간염, 자가면역 간염, 비알코올성 지방간염, 알코올성 간 질환.
 
 ## 5. 치료
-- **치료 목표**: HBV 증식 억제, 염증 완화, 섬유화 방지, 간경변/간세포암 예방, 생존율 향상.
-- **치료 적응증 (ULN 기준: 남성 34, 여성 30)**:
-- HBeAg(+): HBV DNA ≥ 20,000 IU/mL이면서 ALT ≥ 2 ULN, 또는 ALT < 2 ULN이나 중등도 이상의 염증/섬유화 동반 시.
-- HBeAg(-): HBV DNA ≥ 2,000 IU/mL이면서 ALT ≥ 2 ULN, 또는 ALT 1~2 ULN이면서 중등도 이상의 염증/섬유화 동반 시.
-- 간경변: HBV DNA(+)인 경우 ALT 수치와 무관하게 치료.
-- 급성 악화로 인한 간부전: ALT ≥ 5~10 ULN, 황달, PT 연장, 복수, 간성 뇌증 동반 시.
-- **약물**:
-- 1차 약제: Tenofovir(TDF, TAF), Entecavir.
-- Peg-interferon-α: 주사제, 간경변 동반 시 부적합, 치료 기간 48주로 제한적.
-- **관리**: A형 간염 예방접종, 금주, 금연, 대사성 합병증 관리.
-- **추적 관찰**:
-- ALT, HBV DNA: 3~6개월 간격.
-- HBeAg, anti-HBe: 6~12개월 간격.
+- **치료 목표**: HBV 증식 억제, 염증 완화, 섬유화 방지, 간경변/간세포암 예방 및 생존율 향상 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
+- **치료 적응증**: HBeAg 양성/음성 여부, HBV DNA 수치, ALT 수치, 간 섬유화 정도를 종합적으로 고려하여 결정 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
+- **약물 요법**: 1차 약제로 Tenofovir(TDF, TAF) 또는 Entecavir 권고 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
+- **HDV 동반 시**: 만성 B형 간염에 HDV가 동반된 경우, 별도의 HDV 관리 전략 및 치료 계획을 수립해야 함 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
+- **관리 및 추적**: 1차 의료기관과 병원 간의 긴밀한 협진 체계를 통해 조기 진단, 치료 접근성 보장 및 정기적인 추적 관찰 수행 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
 
 ## 6. 예후 및 합병증
 - **예후**: 치료하지 않을 경우 간경변증, 간부전, 간세포암으로 진행 위험 높음.

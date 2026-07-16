@@ -13,14 +13,16 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 sources:
 - '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
-- 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
-clinical_priority: tier_2
-content_updated_at: '2026-07-14'
-guideline_year: '2026'
+- 'ADA 2026 Management of Diabetes in Pregnancy | https://diabetesjournals.org/care/article/49/Supplement_1/S321/163918/15-Management-of-Diabetes-in-Pregnancy-Standards'
+clinical_priority: "tier_2"
+content_updated_at: '2026-07-15'
+guideline_year: "2026"
 disease_family: diabetes
 parent_disease: 당뇨병 (Diabetes Mellitus)
 relation_to_parent: special_population
 population: pregnancy
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 
 ## 1. 개요
@@ -42,6 +44,7 @@ population: pregnancy
 
 ## 5. 치료
 - 의료영양치료, 임신에 안전한 신체활동, 적절한 체중 증가와 자가혈당 교육으로 시작한다. 혈당 목표와 식사 구성은 산과·당뇨팀의 개별 계획에 따르며, 케톤증·과도한 열량 제한을 피한다.
+- 일반적으로 공복 혈당 <95 mg/dL, 식후 1시간 <140 mg/dL 또는 식후 2시간 <120 mg/dL을 목표로 하되, 저혈당 위험과 태아 성장·모체 상태에 맞춰 개별화한다.
 - 생활요법만으로 목표에 도달하지 않거나 태아 과성장·고혈당이 지속되면 인슐린을 1차 약제로 사용한다. 용량은 공복·식후 패턴과 임신 주수에 따라 조정하며, 저혈당 교육을 함께 시행한다.
 - metformin·glyburide 등 경구약은 태반 통과와 장기 안전성·치료 실패 가능성을 고려해야 하므로, 기관 정책과 개별 위험을 검토한 뒤 인슐린을 대체하지 않는 원칙으로 신중히 사용한다.
 - 분만 시점과 태아 감시는 혈당, 약제 필요 여부, 태아 성장 및 산과 합병증에 따라 산과에서 결정한다. 인슐린 치료 중이거나 고혈당이 지속되면 모체-태아의학 및 당뇨팀과 협진한다.

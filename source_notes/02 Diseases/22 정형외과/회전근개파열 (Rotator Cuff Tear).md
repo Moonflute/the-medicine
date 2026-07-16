@@ -10,6 +10,13 @@ CC:
 - 어깨 통증
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2024"
+sources: ["Guidelines for the Diagnosis and Treatment of Rotator Cuff Tear with Integrated Traditional Chinese and Western Medicine. | https://pubmed.ncbi.nlm.nih.gov/38279748/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[정형외과]]
 
@@ -36,16 +43,21 @@ last_studied: '2026-06-06'
 - **X-ray**: 견봉하 골극 확인, 상완골두의 상방 이동(만성 파열 시).
 - **MRI**: 힘줄 파열의 정도, 위치, 근육 위축 및 지방 변성 정도를 평가하는 표준 검사.
 - **초음파**: 동적 평가가 가능, 부분/전층 파열 진단에 유용함.
+- **주의사항**: 코르티코스테로이드 주사는 재파열 및 재수술률을 높일 수 있으므로 주의가 필요함 [Guidelines for the Diagnosis and Treatment of Rotator Cuff Tear with Integrated Traditional Chinese and Western Medicine.](https://pubmed.ncbi.nlm.nih.gov/38279748/).
 
 ## 4. 진단 (Diagnosis)
 - 병력 청취와 신체 검진을 통해 의심하며, MRI를 통해 확진 및 수술 계획을 수립함.
   경추 질환과의 감별이 필요함.
 
 ## 5. 치료 (Treatment)
-- **보존적 치료**:
-  초기 치료로 NSAIDs, 물리치료(회전근개 및 견갑골 강화 운동), 활동 조절.
-  3개월 이상 증상 지속 시 수술 고려.
-- **수술적 치료**: 급성 파열, 기능적 장애가 심한 경우, 보존적 치료에 반응하지 않는 경우 관절경적 봉합술 시행.
+- **보존적 치료**: 
+  - 초기 치료로 NSAIDs, 활동 조절, 물리치료(회전근개 및 견갑골 강화 운동) 시행.
+  - 통합의학적 접근: 침술, 수기 요법, 한약 치료 등이 기능 회복 및 통증 완화에 보조적으로 활용될 수 있음.
+  - 3개월 이상 증상 지속 시 수술 고려.
+- **수술적 치료**: 
+  - 급성 파열, 기능적 장애가 심한 경우, 보존적 치료에 반응하지 않는 경우 관절경적 봉합술 시행.
+  - 수술 후 재활: 운동 요법 및 필요 시 한약/침술 병행을 통해 기능 회복 도모.
+- **모니터링**: 수술 후 재파열 방지를 위해 과도한 부하를 피하고 단계적 재활 운동을 수행함 [Guidelines for the Diagnosis and Treatment of Rotator Cuff Tear with Integrated Traditional Chinese and Western Medicine.](https://pubmed.ncbi.nlm.nih.gov/38279748/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 보존적 치료로 호전되나, 파열 크기가 크거나 근육 위축이 동반된 경우 수술적 치료가 필요함.

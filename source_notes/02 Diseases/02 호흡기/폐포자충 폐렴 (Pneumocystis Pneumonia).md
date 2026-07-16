@@ -11,6 +11,16 @@ CC:
 - 호흡곤란
 preprocessing_required: x
 last_studied: '2026-06-06'
+document_role: "specialty_perspective"
+parent_disease: "폐포자충 폐렴 (Pneumocystis Pneumonia)"
+relation_to_parent: "specialty_perspective"
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["Diagnosis of Pneumocystis jirovecii Pneumonia in Non-HIV Immunocompromised Patient in Korea: A Review and Algorithm Proposed by Expert Consensus Group | https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003191374"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[호흡기]]
 
@@ -30,18 +40,13 @@ last_studied: '2026-06-06'
   HIV 환자의 경우 구강 칸디다증이 동반되기도 함.
 
 ## 3. 검사 (Lab & Imaging)
-- **영상 검사**:
-  흉부 X-ray상 양측성 폐문 주위 간질성 침윤이 특징적.
-  진행 시 미만성 침윤으로 변함.
-  흉부 CT가 민감도가 더 높음.
-- **혈액 검사**: LDH 상승이 흔함(HIV 환자에서 유용).
-- **미생물 검사**:
-  객담 또는 기관지폐포세척액(BAL) 검체에서 methenamine silver stain, Giemsa stain 등을 통해 균 확인.
-  확진을 위해 PCR 검사 시행 가능.
+- **영상 검사**: 흉부 X-ray상 양측성 폐문 주위 간질성 침윤이 특징적이며, 진행 시 미만성 침윤으로 변함. 흉부 CT가 민감도가 더 높음.
+- **혈액 검사**: LDH 상승이 흔함. 혈청 β-D-glucan 검사가 진단적 가치가 있음.
+- **미생물 검사**: 객담 또는 기관지폐포세척액(BAL) 검체에서 현미경 검사(methenamine silver stain, Giemsa stain 등) 및 PCR 검사를 시행함. [Diagnosis of Pneumocystis jirovecii Pneumonia in Non-HIV Immunocompromised Patient in Korea: A Review and Algorithm Proposed by Expert Consensus Group](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003191374)(https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003191374)
 
 ## 4. 진단 (Diagnosis)
-- 면역저하 환자에서 특징적인 임상 양상과 영상 소견을 바탕으로 의심하며, 호흡기 검체에서 균을 검출하여 확진함.
-  진단이 지연될 경우 예후가 나쁘므로 의심 시 즉시 치료 시작.
+- 면역저하 환자에서 특징적인 임상 양상과 영상 소견을 바탕으로 의심함.
+- 비HIV 면역저하 환자의 경우, 국내 전문가 합의에 따른 진단 알고리즘을 고려하여 PCR 및 β-D-glucan 검사를 적극 활용함. [Diagnosis of Pneumocystis jirovecii Pneumonia in Non-HIV Immunocompromised Patient in Korea: A Review and Algorithm Proposed by Expert Consensus Group](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003191374)(https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003191374)
 
 ## 5. 치료 (Treatment)
 - **1차 치료**: Trimethoprim-sulfamethoxazole (TMP-SMX) 21일간 투여.

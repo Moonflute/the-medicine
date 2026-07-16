@@ -11,14 +11,16 @@ CC:
 - 무증상
 - 두통
 - 심박수이상
-clinical_priority: tier_2
+clinical_priority: "tier_2"
 content_updated_at: '2026-07-14'
-guideline_year: '2026'
+guideline_year: "2026"
 sources:
 - '대한고혈압학회 2026년 제6판 고혈압 진료지침 | https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read'
 - '2025 ACC/AHA High Blood Pressure Guideline | https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know'
 disease_family: hypertension
 population: adult
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 
 ## 1. 개요

@@ -10,6 +10,13 @@ CC:
 - 시야 장애
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Portuguese Consensus Guidelines for the Diagnosis and Treatment of Myasthenia Gravis. | https://pubmed.ncbi.nlm.nih.gov/41396134/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[신경과-신경외과]]
 
@@ -34,12 +41,8 @@ last_studied: '2026-06-06'
 
 
 ## 3. 검사 (Lab & Imaging)
-- **혈청 검사**: 항-AChR 항체(가장 특이적), 항-MuSK 항체, 항-LRP4 항체 확인.
-- **전기생리학적 검사**: 반복 신경 자극 검사(RNS, 10% 이상 감소), 단일 섬유 근전도(SFEMG, 가장 민감).
-- **기타**: 텐실론(Edrophonium) 검사, 얼음팩 검사(안검 하수 호전 확인).
-- **영상**: 가슴샘종 확인을 위한 흉부 CT/MRI.
-
-
+- **진단적 접근**: 피로성 근력 약화 확인이 필수적이며, 신경생리학적 검사 및 혈청 병원성 항체(AChR, MuSK 등) 검사를 병행하여 확진함. [Portuguese Consensus Guidelines for the Diagnosis and Treatment of Myasthenia Gravis.](https://pubmed.ncbi.nlm.nih.gov/41396134/)
+- **주의사항**: 보체 경로 및 B/T 세포군이 자가면역 과정에 관여하므로, 항체 음성인 경우에도 임상적 의심이 높다면 추가적인 신경생리학적 평가가 필요함. [Portuguese Consensus Guidelines for the Diagnosis and Treatment of Myasthenia Gravis.](https://pubmed.ncbi.nlm.nih.gov/41396134/)
 
 ## 4. 진단 (Diagnosis)
 - 임상적 증상과 함께 혈청 항체 검사 및 전기생리학적 검사를 통해 확진.
@@ -48,12 +51,9 @@ last_studied: '2026-06-06'
 
 
 ## 5. 치료 (Treatment)
-- **증상 완화**: 아세틸콜린에스테라제 억제제(Pyridostigmine).
-- **면역 조절**: 스테로이드(Prednisone), 아자티오프린 등 면역억제제.
-- **급성기/위기**: 혈장 교환술(Plasmapheresis), 정맥 면역글로불린(IVIG).
-- **수술**: 가슴샘종 동반 시 또는 비가슴샘종성 전신형 근무력증에서 가슴샘 절제술(Thymectomy) 고려.
-
-
+- **기본 치료**: 아세틸콜린에스테라제 억제제, 스테로이드 및 비스테로이드성 면역억제제 사용. [Portuguese Consensus Guidelines for the Diagnosis and Treatment of Myasthenia Gravis.](https://pubmed.ncbi.nlm.nih.gov/41396134/)
+- **최신 치료 전략**: 보체 경로 억제제(terminal complement pathway inhibitors) 및 신생아 Fc 수용체 길항제(neonatal Fc receptor antagonists)가 도입되어 치료 환경이 변화함. [Portuguese Consensus Guidelines for the Diagnosis and Treatment of Myasthenia Gravis.](https://pubmed.ncbi.nlm.nih.gov/41396134/)
+- **맞춤형 알고리즘**: 항체 아형(antibody subgroup) 및 임상적 중증도에 따라 치료 단계를 결정하며, 최신 가이드라인에 따른 단계적 접근이 권장됨. [Portuguese Consensus Guidelines for the Diagnosis and Treatment of Myasthenia Gravis.](https://pubmed.ncbi.nlm.nih.gov/41396134/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 호흡근 마비로 인한 '근무력성 위기(Myasthenic crisis)'는 응급 상황으로 인공호흡기 치료가 필요할 수 있음.

@@ -13,6 +13,9 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -56,56 +59,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Amniotic Fluid Embolism)
 Last updated :
----
-## 통합 전 원문
----
-aliases: ["amniotic fluid embolism"]
-유형:
-- disease
-계통: "산과"
-분류: "["산과", "산과적 출혈"]"
-CC: []
----
-## 1. 개요
-- **정의** 급성 저산소증, 저혈압, 혈액응고장애가 나타나는 질환.
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 급속 분만 후 발생, 답답함, 호흡곤란, 경련, 실신, 저혈압, DIC.
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-* 임상적 진단 (아나필락시스 같은 증상).
-## 5. 치료 (Treatment)
-* 즉시 소생술 시행.
-* 원칙적으로는 치료 불가능.
-## 6. 예후 및 합병증 (Prognosis)
-* 급성 저산소증, 저혈압, 혈액응고장애, DIC.
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: []
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "산과적출혈"]"
-CC: []
----
-## 1. 개요
-- **정의**: 급성저산소증, 저혈압, 혈액응고장애가나타나는질환
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 급속분만후발생, 답답함, 호흡곤란, 경련, 실신, 저혈압, DIC
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-- 임상적진단아나필락시스같은증상
-## 5. 치료 (Treatment)
-- 즉시소생술시행, 원칙적으로는치료불가능
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

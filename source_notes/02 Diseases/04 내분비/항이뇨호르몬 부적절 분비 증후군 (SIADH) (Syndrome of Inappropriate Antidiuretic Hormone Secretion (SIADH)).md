@@ -15,6 +15,13 @@ CC:
 - 혈압저하
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+review_status: "guideline_enriched"
+reviewed_at: "2026-07-16"
+guideline_year: "2024"
+sources: ["2024 Korean Endocrine Society Consensus Statement on the Diagnosis and Management of Syndrome of Inappropriate Antidiuretic Hormone Secretion (SIADH) | https://www.endocrinology.or.kr/journal/view.php?number=1821"]
+
+content_updated_at: "2026-07-16"
 ---
 ## 1. 개요
 - **정의**: 항이뇨호르몬(ADH, Vasopressin)이 부적절하게 분비되어 혈장 오스몰랄리티가 낮음에도 불구하고 소변이 충분히 희석되지 않는 상태.
@@ -40,20 +47,19 @@ last_studied: '2026-06-06'
 ## 3. 검사
 - **혈액검사**: 저나트륨혈증(Na+ < 135 mEq/L), 저오스몰랄리티(SOsm < 275 mOsmol/kgH2O), 낮은 혈청 요산 농도.
 - **소변검사**: 부적절하게 높은 소변 오스몰랄리티(> 100 mOsm/kg), 소변 나트륨 농도 상승(Urine Na+ > 30 mEq/L).
+- **모니터링**: 약물 유발성 SIADH 의심 시, 기저 및 주기적인 혈청 나트륨 농도 추적 관찰이 필요함 [Management of SIADH-related hyponatremia due to psychotropic medications - An expert consensus from the Association of Medicine and Psychiatry.](https://pubmed.ncbi.nlm.nih.gov/34739943/).
 
 ## 4. 진단
 - **진단 기준**: 정상 혈량성 저나트륨혈증 환자에서 부신, 갑상선, 신장, 심장, 간 기능이 정상임을 확인.
 - **감별진단**: 저혈량성 및 고혈량성 저나트륨혈증과 구별 필요.
 
 ## 5. 치료
-- **원인 질환 치료**: 기저 질환 교정 및 원인 약물 중단.
+- **원인 질환 및 약물 관리**: 기저 질환 교정 및 원인 약물(SSRI, SNRI, 항정신병약물, Carbamazepine 등) 중단 또는 감량 고려. 대체 가능한 약물로의 변경을 우선적으로 검토 [Management of SIADH-related hyponatremia due to psychotropic medications - An expert consensus from the Association of Medicine and Psychiatry.](https://pubmed.ncbi.nlm.nih.gov/34739943/).
 - **수분 제한**: 일차 치료로, 하루 250~500 mL 정도로 엄격한 수분 제한 시행.
-- **고장성 식염수(3% NaCl)**:
-  중증의 신경학적 증상이 동반된 경우 투여.
-  급격한 교정은 삼투성 탈수초 증후군(ODS) 위험이 있으므로 주의(첫 24시간 동안 8 mEq/L 이내 교정).
+- **고장성 식염수(3% NaCl)**: 중증의 신경학적 증상이 동반된 경우 투여. 급격한 교정은 삼투성 탈수초 증후군(ODS) 위험이 있으므로 주의(첫 24시간 동안 8 mEq/L 이내 교정).
 - **약물 요법**: 수분 제한이 불충분하거나 불가능한 경우 고려.
-- ADH 길항제: Tolvaptan, Conivaptan (수분 배출 유도).
-- 기타: Demeclocycline 또는 Urea 고려 가능.
+  - ADH 길항제: Tolvaptan, Conivaptan (수분 배출 유도).
+  - 기타: Demeclocycline 또는 Urea 고려 가능.
 
 ## 6. 예후 및 합병증
 - **예후**: 원인 질환의 교정 가능 여부에 따라 결정.

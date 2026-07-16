@@ -11,6 +11,13 @@ CC:
 - 고혈압
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["Indications for genetic testing in adults with focal segmental glomerulosclerosis. | https://pubmed.ncbi.nlm.nih.gov/39952830/", "2023 Korean Society of Nephrology Consensus Guideline for the Management of Glomerular Diseases | https://www.ksn.or.kr/journal/view.php?number=202300003", "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[신장]]
 
@@ -32,20 +39,22 @@ last_studied: '2026-06-06'
 
 ## 3. 검사 (Lab & Imaging)
 - **조직 (Renal Biopsy)**
-- LM: 사구체의 국소적 및 분절적 유리질화(hyalinization) 및 경화.
-- EM: 족세포 발돌기 소실(foot process effacement) (특발성에서 광범위함).
-- IF: 경화 부위에 IgM 및 C3의 결절성/과립성 침착.
+  - LM: 사구체의 국소적 및 분절적 유리질화(hyalinization) 및 경화.
+  - EM: 족세포 발돌기 소실(foot process effacement).
+  - IF: 경화 부위에 IgM 및 C3의 결절성/과립성 침착.
+- **유전자 검사**: 성인 FSGS 환자에서 유전적 원인 감별을 위해 고려. 특히 가족력이 있거나 임상적 변이가 큰 경우 진단 및 상담을 위해 중요함 [Indications for genetic testing in adults with focal segmental glomerulosclerosis.](https://pubmed.ncbi.nlm.nih.gov/39952830/).
 
 ## 4. 진단 (Diagnosis)
 - 신증후군, 단백뇨, 신기능 저하가 있으나 원인이 불분명할 때 의심.
 - 신생검을 통해 확진하며, 면역형광염색 및 전자현미경 검사 필수.
 
 ## 5. 치료 (Treatment)
-- 보존적 치료: ACEi 또는 ARB를 통한 혈압 조절 및 단백뇨 감소, 신증후군 환자에서 스타틴 투여.
-- 면역억제 치료 (특발성 FSGS): 단백뇨가 신증후군 범위이거나 신기능 악화 시 고려.
-- 고용량 스테로이드(최소 2개월 이상).
-- 반응 불충분/재발 시: 칼시뉴린 억제제(cyclosporine, tacrolimus) 또는 mycophenolate mofetil 고려.
-- 이차성 FSGS: 원인 질환 교정(약물 중단, 체중 감량 등)이 우선.
+- **분류 기반 접근**: KDIGO 2021 가이드라인에 따라 원발성, 이차성, 유전성, 원인 불명으로 분류하여 치료 계획 수립 [Indications for genetic testing in adults with focal segmental glomerulosclerosis.](https://pubmed.ncbi.nlm.nih.gov/39952830/).
+- **보존적 치료**: ACEi 또는 ARB를 통한 혈압 조절 및 단백뇨 감소, 신증후군 환자에서 스타틴 투여.
+- **면역억제 치료 (원발성 FSGS)**: 단백뇨가 신증후군 범위이거나 신기능 악화 시 고려.
+  - 1차: 고용량 스테로이드 (최소 2개월 이상).
+  - 2차: 반응 불충분/재발 시 칼시뉴린 억제제(cyclosporine, tacrolimus) 또는 mycophenolate mofetil 고려.
+- **이차성 FSGS**: 원인 질환 교정(약물 중단, 체중 감량 등)이 우선이며, 면역억제제 사용은 권장되지 않음 [Indications for genetic testing in adults with focal segmental glomerulosclerosis.](https://pubmed.ncbi.nlm.nih.gov/39952830/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후 불량, 자연 관해율 10% 미만.

@@ -13,6 +13,9 @@ CC:
 - 복통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -52,51 +55,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Abortion, Abortion Complications)
 Last updated :
----
----
-aliases: ["incomplete abortion"]
-유형:
-- - disease
-계통: "산과"
-분류: ["산과", "기타 임신 기간 관련", "자연유산"]
-CC: []
----
-## 1. 개요
-- **정의** 임신 10주 후에 유산하여 태반이 남아 출혈을 유발하는 것.
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 출혈.
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-* Curettage, medical abortion, expectant management 모두 가능.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["incomplete abortion"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "기타임신기간관련", "자연유산"]"
-CC: []
----
-## 1. 개요
-- **정의**: 임신10주후에유산하여태반이남아출혈을유발하는것
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- curettage, medical abortion, expectant 모두가능
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

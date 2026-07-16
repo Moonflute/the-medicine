@@ -10,6 +10,12 @@ CC:
 - 성장 지연
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2026"
+sources: ["Fetal Growth Restriction. Guideline of the DGGG, OEGGG and SGGG (S2k-Level, AWMF Registry No. 015/080, October 2024). | https://pubmed.ncbi.nlm.nih.gov/41534865/"]
+
 ---
 분과 : [[산과]]
 
@@ -68,62 +74,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Fetal Growth Restriction)
 Last updated :
----
----
-aliases: ["FGR", "fetal growth restriction"]
-유형:
-- - disease
-계통: "산과"
-분류: ["산과", "태아 성장 지연"]
-CC: []
----
-## 1. 개요
-- **정의** 임신 주수의 체중 10백분위수 미만.
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-    * 종류: symmetrical, asymmetrical.
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-* 34주 전: 이상 없으면 추적 검사.
-  reversed end-dia flow는 분만.
-* 34주 후: 양수과소증, reversed end-dia flow는 분만 / 1주마다 검사.
-* 분만 중 fetal compromise 보이면 C-sec.
-* 38주 후: 분만.
-* Reversed end-dia flow는 C/S 적응증.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["fetal growth restriction"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "태아성장"]"
-CC: []
----
-## 1. 개요
-- **정의**: 임신주수의체중10백분위수미만
-- **원인**
-- **기전**
-- **종류**: symmetrical, asymmetrical
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 34주전: 이상없으면추적검사, reversed end-dia flow는분만.
-  34주후: 양수과소증, reversed end-dia flow는분만/ 1주마다검사.
-  분만중fetal compromise 보이면C-sec.
-  38주후: 분만.
-  reversed = C/S 적응증
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

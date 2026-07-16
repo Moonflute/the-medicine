@@ -13,6 +13,13 @@ CC:
 - 부종
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["2025 ESC/EACTS Guidelines for the management of valvular heart disease | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Valvular-Heart-Disease"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[순환기]]
 
@@ -56,6 +63,7 @@ last_studied: '2026-06-06'
 - **원인 치료**: 폐동맥 고혈압, 좌심질환, 심방세동 등 기저 질환 교정이 우선
 - **약물 치료**: 울혈 증상 완화를 위해 이뇨제 사용
 - **수술/중재 치료**:
+- **수술/중재 치료**: 중증 TR로 우심부전 증상이 있거나 우심실 확장·기능저하가 진행되면, 비가역적 우심실·간신장 손상 전에 판막팀에 의뢰한다. 좌측 판막 수술을 계획하는 중증 TR에서는 동시 교정을 검토하며, 기능성 TR에서는 폐고혈압·좌심질환·심방세동을 함께 최적화한 뒤 중재 시점과 접근법을 결정한다. [2020 ACC/AHA valve guideline key perspectives, Part 2](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2020/12/16/22/00/2020-acc-aha-vhd-gl-pt-2-gl-vhd)
   중증 TR에서 증상이 지속되거나 우심실 확장, 기능 저하가 진행되면 판막 성형 또는 치환 고려
   최근에는 경피적 판막 중재 치료도 고려 가능
 

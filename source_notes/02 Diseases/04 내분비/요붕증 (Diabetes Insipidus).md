@@ -10,6 +10,13 @@ CC:
 - 탈수
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2023"
+sources: ["2023 Korean Endocrine Society Consensus Statement on the Diagnosis and Management of Diabetes Insipidus | https://www.endocrinology.or.kr/journal/view.php?number=1790", "Diagnosis and Management of Central Diabetes Insipidus in Adults: A Consensus Statement of the Endocrine Society | https://www.endocrine.org/clinical-practice-guidelines/central-diabetes-insipidus"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[내분비]]
 
@@ -32,10 +39,9 @@ last_studied: '2026-06-06'
 * **P/E**: 탈수 징후(피부 긴장도 저하, 점막 건조, 빈맥, 기립성 저혈압 등) 확인.
 
 ## 3. 검사 (Lab & Imaging)
-- 소변 검사: 소변 삼투압 < 200 mOsm/kg, 비중 < 1.005.
-- 혈액 검사: 혈장 삼투압 및 전해질 측정.
-- 수분 제한 검사(Water deprivation test): 진단적 표준 검사이나 엄격한 감독 하에 시행 필요.
-- 뇌 MRI: 중추성 요붕증 의심 시 시상하부-뇌하수체 부위 확인.
+- **기본 검사**: 소변 삼투압 < 200 mOsm/kg, 비중 < 1.005, 혈장 삼투압 및 전해질 측정.
+- **특수 검사**: 수분 제한 검사(엄격한 감독 하 시행).
+- **영상 및 추가 검사**: 뇌 MRI(시상하부-뇌하수체 확인). 특발성 뇌하수체 줄기 비대나 중추성 요붕증 환자에서는 악성 종양 배제를 위해 혈청 β-hCG, 알파태아단백(AFP), 흉부 X-선, 복부 초음파, 안과 검진 및 골격계 조사를 고려함.[Management of children and young people with idiopathic pituitary stalk thickening, central diabetes insipidus, or both: a national clinical practice consensus guideline.](https://pubmed.ncbi.nlm.nih.gov/34214482/)
 
 ## 4. 진단 (Diagnosis)
 - 분류: 중추성 요붕증, 콩팥기원 요붕증, 원발 다음증으로 분류.

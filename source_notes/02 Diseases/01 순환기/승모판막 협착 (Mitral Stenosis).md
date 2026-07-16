@@ -14,6 +14,13 @@ CC:
 - 쉰목소리
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+review_status: "guideline_enriched"
+reviewed_at: "2026-07-16"
+guideline_year: "2025"
+sources: ["2025 ESC/EACTS Guidelines for the management of valvular heart disease | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Valvular-Heart-Disease"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[순환기]]
 
@@ -59,6 +66,8 @@ last_studied: '2026-06-06'
   심박수 조절을 위해 베타차단제 또는 비디히드로피리딘계 CCB 고려
   심방세동 동반 시 와파린 항응고요법 필요
 - **시술/수술 치료**:
+- **내과적 치료**: 울혈에는 이뇨제를 사용하고, 동성 빈맥·심방세동에서는 심박수 조절로 이완기 충만 시간을 확보한다. 류마티스 MS와 심방세동에서는 항응고 전략을 별도로 평가하며, DOAC를 기계판막 또는 류마티스성 MS에 그대로 적용하지 않는다.
+- **시술/수술 치료**: 증상성 중증 류마티스 MS는 판막 형태, 좌심방 혈전, 동반 MR을 평가해 적합하면 경피적 승모판 풍선교련술을 우선 검토하고, 부적합하거나 다른 판막 수술이 필요하면 수술을 논의한다. 임신 계획·폐고혈압·새 심방세동은 중재 시점을 앞당길 수 있어 심장판막팀에 의뢰한다. [2020 ACC/AHA valve guideline key perspectives, Part 2](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2020/12/16/22/00/2020-acc-aha-vhd-gl-pt-2-gl-vhd)
   유증상 중증 MS에서는 경피적 승모판 풍선 교련절개술 우선 고려
   석회화가 심하거나 혈전, 중등도 이상 MR이 동반되면 수술적 치료 고려
 

@@ -11,6 +11,9 @@ CC:
 - 피부 변화
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - **정의**: 관절 내 결정 침착으로 발생하는 대사성 및 염증성 관절염

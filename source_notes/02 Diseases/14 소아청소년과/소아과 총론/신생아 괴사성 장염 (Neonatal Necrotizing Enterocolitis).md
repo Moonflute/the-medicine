@@ -15,6 +15,9 @@ CC:
 - 청색증
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - **정의**: 주로 미숙아에게 발생하는 치명적인 장 질환으로, 장벽의 염증과 세균 침범으로 인해 장 조직의 괴사가 일어나는 상태임.

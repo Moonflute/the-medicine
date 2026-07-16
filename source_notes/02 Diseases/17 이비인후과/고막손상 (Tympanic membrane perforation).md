@@ -14,6 +14,9 @@ CC:
 - 어지러움증
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - 정의: 고막의 물리적 결손(천공)으로 인해 외이도와 중이가 직접 연결된 상태

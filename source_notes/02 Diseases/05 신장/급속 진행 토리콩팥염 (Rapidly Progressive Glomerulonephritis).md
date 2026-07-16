@@ -15,6 +15,13 @@ CC:
 - 핍뇨
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2021"
+sources: ["KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[신장]]
 
@@ -42,11 +49,9 @@ last_studied: '2026-06-06'
 
 
 ## 3. 검사 (Lab & Imaging)
-- **혈액 검사**: 혈청 크레아티닌 상승, 빈혈, ANCA, Anti-GBM 항체, 항핵항체, 보체(C3, C4) 측정
-- **소변 검사**: 혈뇨, 적혈구 원주(RBC cast), 망원경형 침전물(telescopic sediment)
-- **조직 검사**: 사구체의 50% 이상에서 반월체 형성, 분절성 괴사
-- 면역형광검사: 선형(Anti-GBM), 과립형(면역복합체), 음성(소수면역성)
-
+- **혈액 검사**: 혈청 크레아티닌, ANCA, Anti-GBM 항체, 항핵항체(ANA), 보체(C3, C4) 수치 확인.
+- **소변 검사**: 혈뇨 및 적혈구 원주(RBC cast) 확인.
+- **조직 검사**: 사구체의 50% 이상에서 반월체(crescent) 형성 확인 필수. 면역형광검사를 통해 선형(Anti-GBM), 과립형(면역복합체), 또는 음성(소수면역성) 패턴을 분류하여 원인 질환을 감별함. [KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases](https://kdigo.org/guidelines/gd/)
 
 ## 4. 진단 (Diagnosis)
 - 급격한 신기능 저하와 혈뇨/적혈구 원주 확인
@@ -54,11 +59,12 @@ last_studied: '2026-06-06'
 
 
 ## 5. 치료 (Treatment)
-- **원칙**: 조기 진단 및 적극적인 면역억제 요법
-- **약물**: 고용량 스테로이드(Methylprednisolone pulse), Cyclophosphamide 또는 Rituximab
-- **보조 요법**: 혈장교환술(Plasma exchange) - Anti-GBM 질환이나 폐출혈 동반 시 고려
-- **투석**: 신부전 진행 시 신대체 요법 시행
-
+- **원칙**: 급속 진행 토리콩팥염(RPGN)은 응급 상황으로, 원인 질환(ANCA 혈관염, Anti-GBM 질환, 루푸스 신염 등)에 따른 KDIGO 최신 가이드라인을 준수하여 조기 면역억제 요법을 시행함.
+- **치료 전략**: 
+  - 원인 질환별로 스테로이드, Cyclophosphamide, Rituximab 등의 면역억제제 사용.
+  - Anti-GBM 질환이나 폐출혈 동반 시 혈장교환술(Plasma exchange) 고려.
+- **모니터링**: 신기능(eGFR, Cr) 및 소변 검사를 통한 질환 활성도 추적, 면역억제제 부작용 모니터링.
+- **투석**: 말기 신부전으로 진행 시 신대체 요법 시행. [KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases](https://kdigo.org/guidelines/gd/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 수 주 내 말기 신부전으로 진행

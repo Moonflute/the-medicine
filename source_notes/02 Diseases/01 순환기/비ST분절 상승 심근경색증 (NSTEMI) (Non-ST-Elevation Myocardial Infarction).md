@@ -10,6 +10,13 @@ CC:
 - 가슴통증
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+review_status: "guideline_enriched"
+reviewed_at: "2026-07-16"
+guideline_year: "2023"
+sources: ["2020년 급성 심근경색증의 약물 치료법에 대한 전문가 합의문 | https://www.koreamed.org/SearchBasic.php?RID=0106KCJ/2020.50.10.875", "2023 ESC Guidelines for the management of acute coronary syndromes | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Coronary-Syndromes-ACS-in-patients-presenting-without-persistent-ST-segment-elevation"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[순환기]]
 
@@ -26,16 +33,19 @@ last_studied: '2026-06-06'
 * **P/E**: 특이 소견이 없을 수 있으나, 심부전 징후(폐음, S3 심음)나 혈역학적 불안정성을 확인해야 한다.
 
 ## 3. 검사 (Lab & Imaging)
-- 심전도(EKG)에서 ST 분절 하강(ST depression)이나 T파 역전이 관찰될 수 있다.
-  심근 괴사의 지표인 심근 트로포닌(cardiac troponin) 수치가 상승하는 것이 진단의 핵심.
-  CK-MB보다 트로포닌 I(TnI)와 트로포닌 T(TnT)가 더 민감, 특이적이다.
+- 심전도(EKG): ST 분절 하강(ST depression)이나 T파 역전 확인.
+- 심근 표지자: 심근 트로포닌(cardiac troponin) 수치 상승 확인(진단의 핵심).
+- 추가 검사: 복잡한 해부학적 구조나 불분명한 원인 병변(culprit lesion) 확인을 위해 혈관 내 영상(intravascular imaging)을 적극 활용하여 스텐트 확장 최적화 고려. [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/)
 
 ## 4. 진단 (Diagnosis)
 - 임상 증상, 심전도 소견, 그리고 심근 트로포닌 수치의 상승을 종합하여 진단한다.
   ST 분절 상승이 없으면서 트로포닌이 상승한 경우 NSTEMI로 분류한다.
 
 ## 5. 치료 (Treatment)
-- 항허혈 치료(질산염, 베타차단제 등), 항혈전 치료(아스피린, P2Y12 억제제, 항응고제), 그리고 위험도 평가에 따른 조기 침습적 재관류 치료(경피적 관상동맥 중재술, PCI)를 시행한다.
+- 약물 치료: 항허혈제(질산염, 베타차단제 등) 및 항혈전제(아스피린, P2Y12 억제제, 항응고제) 투여.
+- 재관류 전략: 위험도 평가에 기반한 침습적 치료 시기 결정(urgent vs. early angiography). [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/)
+- 시술 원칙: 요골동맥 접근(radial-first access)을 우선 권고함. [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/)
+- 특수 상황: 관상동맥 비폐쇄성 심근경색(MINOCA)이나 자발성 관상동맥 박리(SCAD)의 경우 기전 기반 경로(mechanism-based pathway)를 따르며, SCAD는 허혈이 지속되지 않는 한 보존적 치료를 우선함. [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심부전, 부정맥, 재발성 심근경색, 심인성 쇼크 등이 발생할 수 있다.

@@ -9,6 +9,13 @@ CC:
 - 무증상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2022"
+sources: ["2022 Consensus statement on the management of familial hypercholesterolemia in Korea | https://www.kjim.org/journal/view.php?number=22121"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[내분비]]
 
@@ -29,8 +36,9 @@ last_studied: '2026-06-06'
 
 ## 3. 검사 (Lab & Imaging)
 - **혈액 검사**: 공복 지질 검사(LDL-C 상승, 중성지방은 대개 정상).
-- **유전자 검사**: 진단이 불확실할 때 시행 가능.
-- **기타**: 심장 초음파(동맥경화 평가).
+- **유전자 검사**: 진단 확진, 가족 내 선별 검사(cascade screening) 촉진 및 진단 불확실 시 시행.
+- **기타**: 심장 초음파 및 혈관 영상(동맥경화 평가 및 위험도 계층화).
+[Update on familial hypercholesterolemia: An expert clinical consensus from the National Lipid Association.](https://pubmed.ncbi.nlm.nih.gov/41741298/)(https://pubmed.ncbi.nlm.nih.gov/41741298/)
 
 ## 4. 진단 (Diagnosis)
 - 임상적 진단 기준(Dutch Lipid Clinic Criteria 등)을 주로 사용하며, LDL-C 수치, 가족력, 황색종 유무 등을 종합하여 평가한다.
@@ -38,11 +46,12 @@ last_studied: '2026-06-06'
 
 ## 5. 치료 (Treatment)
 - **생활 습관 개선**: 저콜레스테롤 식이, 체중 조절, 금연.
-- **약물 치료**:
-- 1차: 스타틴(최대 내약 용량).
-- 2차: 에제티미브(Ezetimibe).
-- 3차: PCSK9 억제제.
-- 치료 목표는 기저 LDL-C 수치 대비 50% 이상 감소를 권장하며, 심혈관 질환 동반 여부에 따라 목표 LDL-C 수치를 설정한다.
+- **약물 치료 단계적 접근**:
+  1. 1차: 최대 내약 용량 스타틴(statin) 및 에제티미브(ezetimibe).
+  2. 2차: PCSK9 억제제, 벰페도익산(bempedoic acid) 추가 고려.
+  3. 동형접합(Homozygous) FH: 로미타피드(lomitapide), 에비나쿠맙(evinacumab), 지질 성분 분리술(lipoprotein apheresis) 고려.
+- **치료 목표**: 심혈관 질환 예방을 위해 강화된 LDL-C 목표치 설정 및 지속적 모니터링.
+[Update on familial hypercholesterolemia: An expert clinical consensus from the National Lipid Association.](https://pubmed.ncbi.nlm.nih.gov/41741298/)(https://pubmed.ncbi.nlm.nih.gov/41741298/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 적극적인 LDL-C 저하 치료를 통해 관상동맥 죽상경화증의 진행을 늦추거나 예방할 수 있다.

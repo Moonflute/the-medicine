@@ -11,6 +11,12 @@ CC:
 - 기침
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+review_status: "source_reviewed_no_change"
+reviewed_at: "2026-07-16"
+guideline_year: "2023"
+sources: ["2023 간질성폐질환(ILD) 임상진료지침 (2023년 1차 개정판) | https://www.lungkorea.org/bbs/index.html?code=guide&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=243"]
+
 ---
 분과 : [[호흡기]]
 

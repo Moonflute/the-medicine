@@ -14,6 +14,9 @@ CC:
 - 복부 팽만
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[외과]]
 
@@ -55,28 +58,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Acute Abdomen)
 Last updated :
----
----
-aliases: ["급성복증"]
-유형:
-- - disease
-계통: "외과"
-분류: ["외과", "탈장및복벽질환"]
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 복막염 소견 (압통, 반발 압통, 복벽 경직), 패혈증 징후
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-- 영상 검사상 free air (천공 의심 소견) 보임
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 응급 수술
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

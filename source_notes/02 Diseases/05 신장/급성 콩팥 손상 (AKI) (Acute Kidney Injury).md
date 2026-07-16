@@ -11,6 +11,13 @@ CC:
 - 체중증가
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["Korean Society of Nephrology 2025 Evidence-Based Clinical Practice Guideline for Continuous Kidney Replacement Therapy | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10800000/", "KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury (AKI) and Acute Kidney Disease (AKD) | https://kdigo.org/guidelines/aki-akd/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[신장]]
 
@@ -42,12 +49,12 @@ last_studied: '2026-06-06'
 - 혈액: BUN, Cr, 전해질(K, Ca, P), CBC
 - 소변: 요분석, 요침사, 요 나트륨, 요 크레아티닌, 요 요소
 - BUN/Cr 비:
-- 신전성: > 20:1 (요소 재흡수 증가)
-- 신성: < 10~15:1 (세뇨관 손상으로 재흡수 기능 저하)
+  - 신전성: > 20:1 (요소 재흡수 증가)
+  - 신성: < 10~15:1 (세뇨관 손상으로 재흡수 기능 저하)
 - FE_Na (나트륨 분획 배설률):
-- 신전성: < 1% (나트륨 보존)
-- 신성: > 2% (나트륨 배설 장애)
-
+  - 신전성: < 1%
+  - 신성: > 2%
+- 추가 고려사항: 혈청 크레아티닌 및 뇨량 외에 신장 손상 바이오마커의 일일 평가를 고려할 수 있음 [International Delphi consensus on acute kidney injury: Foundations for AI-driven digital twin development in critical care nephrology.](https://pubmed.ncbi.nlm.nih.gov/41880297/)
 
 ## 4. 진단 (Diagnosis)
 - 병력 청취 및 약물 복용력 확인 (NSAIDs, 조영제 등)
@@ -61,7 +68,8 @@ last_studied: '2026-06-06'
 - 원인 교정: 신전성(수액 요법), 신후성(요로 폐쇄 해소)
 - 보존적 치료: 수분 및 전해질 관리, 산-염기 교정
 - 투석 적응증: 중증 요독증, 난치성 폐부종, 교정되지 않는 고칼륨혈증 및 대사성 산증
-
+- 특수 상황:
+  - 신생검 전: 혈중 요소질소(BUN)가 현저히 상승한 환자에서 데스모프레신(Desmopressin) 투여 고려 [International Delphi consensus on acute kidney injury: Foundations for AI-driven digital twin development in critical care nephrology.](https://pubmed.ncbi.nlm.nih.gov/41880297/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 고칼륨혈증, 대사성 산증, 폐부종, 요독성 심낭염

@@ -9,6 +9,12 @@ CC:
 - 핍뇨
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+review_status: "source_reviewed_no_change"
+reviewed_at: "2026-07-16"
+guideline_year: "2012"
+sources: ["KDIGO Clinical Practice Guideline for Acute Kidney Injury | https://kdigo.org/wp-content/uploads/2017/02/KDIGO_AKI_Guideline.pdf", "급성콩팥손상이란? (What is Acute Kidney Injury?) | https://www.ksn.or.kr/bbs/index.html?code=kidney_04&category=&gubun=&page=&idx=127909&mode=view"]
+
 ---
 분과 : [[신장]]
 

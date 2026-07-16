@@ -15,6 +15,13 @@ CC:
 - 근육통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["COVID-19 Vaccines for 2025-2026 in Adults Who Are Not Pregnant or Immunocompromised: Rapid Practice Points From the American College of Physicians. | https://pubmed.ncbi.nlm.nih.gov/41730216/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[감염]]
 
@@ -47,6 +54,10 @@ last_studied: '2026-06-06'
 - **대증 요법**: 해열제, 수액 공급 등 보존적 치료가 기본이다.
 - **약물 치료**: 중증도에 따라 항바이러스제(예: 렘데시비르, 니르마트렐비르/리토나비르) 및 코르티코스테로이드(덱사메타손) 등을 고려한다.
 - **중증 관리**: 저산소증 시 산소 요법 및 필요시 기계 환기 등 다학제적 접근이 필요하다.
+- **예방 접종 (2025-2026 시즌)**: 임신부 및 면역저하자를 제외한 성인 대상 권고 사항은 다음과 같다. [COVID-19 Vaccines for 2025-2026 in Adults Who Are Not Pregnant or Immunocompromised: Rapid Practice Points From the American College of Physicians.](https://pubmed.ncbi.nlm.nih.gov/41730216/)
+  - 65세 이상 성인: 2025-2026 mRNA 기반 백신 접종 권고.
+  - 18~64세 중증 위험군: 2025-2026 mRNA 기반 백신 접종 권고.
+  - 18~64세 일반 성인: 2025-2026 mRNA 기반 백신 접종 고려 가능.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: ARDS, 혈전색전증, 심근염, 패혈증, 다발성 장기 부전, 소아 다기관 염증 증후군(MIS-C) 등

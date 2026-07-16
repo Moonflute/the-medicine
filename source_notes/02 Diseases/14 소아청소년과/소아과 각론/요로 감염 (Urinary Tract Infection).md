@@ -17,6 +17,13 @@ CC:
 - 발열
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["Update and summary of the EAU/ESPU paediatric guidelines on urinary tract infection in children. | https://pubmed.ncbi.nlm.nih.gov/40615247/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[소아청소년과]]
 
@@ -34,26 +41,20 @@ last_studied: '2026-06-06'
 - **무증상 세균뇨**: 증상 없음(임산부나 비뇨기계 수술 전 등 특정 상황 외에는 치료 불필요)
 
 ## 3. 검사
-- **소변 검사**: 백혈구(WBC), 아질산염(nitrite), leukocyte esterase 확인
-- **소변 배양 검사**: 원인균 및 항생제 감수성 확인
-- 배양 필수 대상: 남성, 임산부, 신우신염 의심, 재발성, 최근 항생제 사용력
-- 배양 결과 대기 없이 임상적 판단에 따라 경험적 항생제 우선 투여
-- **영상 검사**:
-- 신장 초음파: 구조적 이상, 폐쇄, 결석 확인(신우신염 등 복잡 요로 감염 시 권장)
-- 99mTc-DMSA 신장 스캔: 신 반흔 확인(재발성 상부 요로 감염 시)
-- 방광 요관 역류 검사(VCUG): 요관 역류 확인(필요시)
+- **소변 채취**: 소변백, 청결 채뇨, 도뇨, 치골상부 천자 등 다양한 방법 존재(각 방법의 장단점 고려)
+- **분석 방법**: 요시험지봉(dipstick), 현미경 검사, 유세포 분석 기술 등 활용
+- **권장 사항**: 요시험지봉 검사 양성 시 현미경 검사 권장
+- **영상 검사**: 첫 발열성 요로 감염 후 신장 및 방광 초음파 검사 권장. 추가 검사는 환자 및 감염 특성에 따라 결정 [Update and summary of the EAU/ESPU paediatric guidelines on urinary tract infection in children.](https://pubmed.ncbi.nlm.nih.gov/40615247/)
 
 ## 4. 진단
 - 임상 증상과 소변 검사(농뇨, 세균뇨)를 종합하여 진단
 - 복잡 요로 감염이 의심되거나 치료 실패 시 추가적인 영상 검사 및 정밀 평가 필요
 
 ## 5. 치료
-- **항생제(방광염 기준)**:
-- 1st line: Nitrofurantoin, Fosfomycin, TMP-SMX(내성률 고려), Pivmecillinam
-- 2nd line: 2~3세대 Cephalosporin, Amoxicillin-clavulanate
-- Fluoroquinolone: 내성 및 부작용 고려하여 제한적 사용
-- **항생제(신우신염 기준)**: 경구 또는 정맥 항생제(세프트리악손 등) 사용, 충분한 기간 투여 필요
-- **원칙**: 배양 결과 확인 후 감수성 있는 좁은 범위 항생제로 변경(de-escalation)
+- **원칙**: 신속한 항생제 투여가 핵심
+- **항생제 선택**: 지역 내 항생제 감수성 패턴을 고려하여 선택하며, 배양 결과에 따라 조정(de-escalation)
+- **투여 경로**: 환자 상태 및 감염 특성에 따라 결정
+- **재발 방지**: 항생제 예방요법, 비항생제 예방요법 고려. 포경, 방광-장 기능 장애 및 하부 요로 기능 장애에 대한 치료 병행 [Update and summary of the EAU/ESPU paediatric guidelines on urinary tract infection in children.](https://pubmed.ncbi.nlm.nih.gov/40615247/)
 
 ## 6. 예후 및 합패증
 - 조기 치료 시 예후 양호

@@ -11,6 +11,9 @@ CC:
 - 부종
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[외과]]
 
@@ -45,27 +48,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Stingray Sting, 참고용)
 Last updated :
----
----
-aliases: ["벌쏘임"]
-유형:
-- - disease
-계통: "외과"
-분류: ["외과", "외상"]
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 가려움, 부풀어 오름, 통증
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 벌침 제거, 얼음찜질, Epi
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

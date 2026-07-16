@@ -11,6 +11,9 @@ CC:
 - 복통
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -46,66 +49,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Placental Abruption)
 Last updated :
----
-## 통합 전 원문
----
-aliases: ["placental abruption"]
-유형:
-- disease
-계통: "산과"
-분류: "["산과", "양수, 태반, 탯줄 이상"]"
-CC: []
----
-## 1. 개요
-- **정의** 분만 전 태반이 자궁벽에서 분리되는 것.
-- **원인** 과거력, 다산, 연령, 불량 산과력, 약물 장기 복용력, HTN, PPROM, trauma, smoking.
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 복통, 질출혈.
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-* US (초음파).
-## 4. 진단 (Diagnosis)
-* 임상 증상 + US.
-## 5. 치료 (Treatment)
-* 34주 전: stable 하면 입원 후 경과 관찰.
-* Fetus unstable: 제왕절개술.
-* Fetus head: 유도분만.
-* 적절한 수액, 수혈 투여.
-* DIC 있으면 치료.
-## 6. 예후 및 합병증 (Prognosis)
-* Shock, renal failure, DIC, uteroplacental apoplexy (멍든 모습).
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["placental abruption"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "산과적출혈"]"
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**: HTN, PPROM, trauma, smoking
-- **기전**
-- **의미**: 분만전태반이분리되는것
-- **요인**: 과거력, 다산, 연력, 분량산과력, 약물장기복용력
-- **동반**: shock, renal failure, DIC, uteroplacental apoplexy (멍든모습)
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 복통, 질출혈
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-- 임상증상+ US
-## 5. 치료 (Treatment)
-- 34주전: stable 하면입원후경과관찰.
-  fetus unstable: 제왕절개술.
-  fetus head: 유도분만.
-  적절한수액, 수혈투여/ DIC 있으면치료.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

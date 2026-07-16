@@ -14,6 +14,9 @@ CC:
 - 피로
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[부인과]]
 
@@ -49,28 +52,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Acute Mastitis)
 Last updated :
----
----
-aliases: ["수유기유방염"]
-유형:
-- - disease
-계통: "부인과"
-분류: ["부인과", "외과", "유방질환"]
-CC: []
----
-## 1. 개요
-- **정의** 유관을 통한 유엽 조직의 균 감염
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 발열, 오한, 일측성 유방통, 열감, 화농성 분비물
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 보존적 치료, 항생제 → 절개 배농 (농양).
-  모유 수유는 중단하지 않음.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

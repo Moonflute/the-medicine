@@ -15,6 +15,15 @@ CC:
 - 두드러기
 preprocessing_required: x
 last_studied: '2026-06-06'
+document_role: "canonical"
+population: "general"
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["임상의를 위한 진료지침 알레르기비염 | https://www.kaaaci.org/html/sub04_04_01.html?mode=view&idx=98", "Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines—2024–2025 Revision: Part I—Guidelines on Intranasal Treatments | https://onlinelibrary.wiley.com/doi/10.1111/all.17013"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[알레르기]]
 
@@ -39,21 +48,14 @@ last_studied: '2026-06-06'
     - 유전성/후천성 혈관부종: 얼굴/입술 부종, 위장관 부종(복통), 후두 부종(호흡곤란)
 
 ## 3. 검사
-- 알레르기 비염: 병력 청취가 핵심.
-  필요 시 피부따끔검사(skin prick test) 또는 특이 IgE 혈액 검사 시행.
-  코 점액 도말 검사로 호산구 확인 가능
-- 혈관부종
-- IgE 매개: 알레르기 피부 검사, allergen-specific IgE
-- 유전성 혈관부종(HAE): C4(선별), C1INH(확진) 측정
-- Type I: C4↓, C1INH↓, C1q 정상
-- Type II: C4↓, C1INH 정상, C1INH 기능↓, C1q 정상
-- 후천성 혈관부종: C4&C2↓, C1INH↓, C1q↓
-
-| 구분 | C4 | C1INH Antigen | C1INH Function | C1q level |
-| :--- | :--- | :--- | :--- | :--- |
-| Type 1 (85%) | Low | Low | Low | Normal |
-| Type 2 (15%) | Low | Normal | Low | Normal |
-| Acquired C1INH deficiency | Low | Low | Low | Low |
+- 알레르기 비염: 병력 청취가 핵심. 필요 시 피부따끔검사(skin prick test) 또는 특이 IgE 혈액 검사 시행. 코 점액 도말 검사로 호산구 확인 가능.
+- 혈관부종:
+  - IgE 매개: 알레르기 피부 검사, allergen-specific IgE
+  - 유전성 혈관부종(HAE): C4(선별), C1INH(확진) 측정
+  - Type I: C4↓, C1INH↓, C1q 정상
+  - Type II: C4↓, C1INH 정상, C1INH 기능↓, C1q 정상
+  - 후천성 혈관부종: C4&C2↓, C1INH↓, C1q↓
+- 여성 환자 고려사항: 실내 생활 비중이 높은 경우 실내 알레르겐 및 오염물질 노출 평가 필요 [Indian Expert Consensus on Allergic Rhinitis in Women: A Modified Delphi Survey.](https://pubmed.ncbi.nlm.nih.gov/42003159/)
 
 ## 4. 진단
 - 알레르기 비염: 병력 청취 및 비경 검사.
@@ -63,16 +65,13 @@ last_studied: '2026-06-06'
 
 ## 5. 치료
 - 알레르기 비염
-- 회피 요법: 집먼지진드기(고온 세탁, 습도 조절), 꽃가루(외출 자제)
-- 약물 요법: 비강 내 스테로이드(가장 효과적인 1차 치료), 경구/비강 항히스타민제, 경구 충혈제거제.
-  비강 내 충혈제거제는 3일 이내로 제한
-- 면역 요법: 회피 및 약물 요법 불응 시 시행
+  - 회피 요법: 집먼지진드기(고온 세탁, 습도 조절), 꽃가루(외출 자제). 실내 생활이 많은 환자는 실내 알레르겐 및 오염물질 관리 강화 [Indian Expert Consensus on Allergic Rhinitis in Women: A Modified Delphi Survey.](https://pubmed.ncbi.nlm.nih.gov/42003159/)
+  - 약물 요법: 비강 내 스테로이드(1차 치료), 경구/비강 항히스타민제, 경구 충혈제거제. 비강 내 충혈제거제는 3일 이내로 제한
+  - 면역 요법: 회피 및 약물 요법 불응 시 시행
 - 혈관부종
-- IgE 매개: H1 항히스타민제(경증), IV H1 항히스타민제 + IV 스테로이드(중증), 에피네프린(상기도 침범 시)
-- Bradykinin 매개: 에피네프린·항히스타민제·글루코코르티코이드 효과 없음.
-  C1INH 보충, Icatibant(B2 수용체 길항제), Ecallantide(Kallikrein 억제제) 사용.
-  예방적 치료로 C1INH, 안드로젠 고려
-- 특발성: 전신 스테로이드 보조적 사용 가능
+  - IgE 매개: H1 항히스타민제(경증), IV H1 항히스타민제 + IV 스테로이드(중증), 에피네프린(상기도 침범 시)
+  - Bradykinin 매개: 에피네프린·항히스타민제·글루코코르티코이드 효과 없음. C1INH 보충, Icatibant(B2 수용체 길항제), Ecallantide(Kallikrein 억제제) 사용. 예방적 치료로 C1INH, 안드로젠 고려
+  - 특발성: 전신 스테로이드 보조적 사용 가능
 
 ## 6. 예후 및 합병증
 - 알레르기 비염 합병증: 부비동염, 중이염, 비용종, 상기도감염, 꽃가루-음식 알레르기, 천식

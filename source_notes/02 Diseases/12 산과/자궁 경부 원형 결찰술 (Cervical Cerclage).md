@@ -11,6 +11,13 @@ CC:
 - 검진 이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2022"
+sources: ["Cervical Cerclage: Green-top Guideline No. 75. | https://pubmed.ncbi.nlm.nih.gov/35199905/"]
+
+content_updated_at: "2026-07-17"
 ---
 분과 : [[산과]]
 
@@ -27,6 +34,7 @@ last_studied: '2026-06-06'
 * **P/E**: 내진 및 초음파상 자궁경부 길이 단축 또는 개대 확인
 
 ## 3. 검사 (Lab & Imaging)
+- **시술 전 확인**: 경질초음파로 자궁경부 길이·개대와 양막 상태를 확인하고, 수축·출혈·양막파수·임상 감염을 먼저 평가한다. 과거 조산/중기 유산의 양상과 이전 자궁경부 수술력을 함께 검토해 history-indicated, ultrasound-indicated, rescue cerclage를 구분한다. [RCOG Green-top Guideline No. 75](https://pubmed.ncbi.nlm.nih.gov/35199905/)
 - 경질 초음파(Transvaginal ultrasound): 자궁경부 길이 측정 (24주 이전 25mm 미만 시 고려)
 
 ## 4. 진단 (Diagnosis)
@@ -35,6 +43,7 @@ last_studied: '2026-06-06'
 - 신체검사 기반: 응급(구조) 결찰술 대상(24주 이전, 진통 없는 자궁경부 개대)
 
 ## 5. 치료 (Treatment)
+- **선택과 추적**: 결찰술은 모든 짧은 자궁경부에 자동으로 시행하지 않는다. 위험군 분류와 임신 주수, 단태아/다태아 여부, 경부 길이 변화, 양막·감염 상태를 바탕으로 progesterone·경과관찰·결찰술을 선택한다. 시술 뒤에는 통증·출혈·양막파수·감염/조기진통을 교육하고, 진통·의인성 분만·상황별 양막파수에서는 제거 시점을 산과 전문팀과 결정한다. [RCOG Green-top Guideline No. 75](https://pubmed.ncbi.nlm.nih.gov/35199905/)
 - **수술 방법**
 - McDonald 결찰술: 자궁경부-질 접합부에 비흡수성 봉합사를 이용한 purse-string 봉합
 - Shirodkar 결찰술: 점막을 절개하여 더 높은 위치에 봉합

@@ -11,6 +11,13 @@ CC:
 - 부종
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2022"
+sources: ["2022 대한심부전학회 심부전 진료지침 | https://www.koreanhf.org/file/2022_KSHF_HF_Guideline.pdf", "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-and-Chronic-Heart-Failure"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[순환기]]
 
@@ -38,6 +45,7 @@ last_studied: '2026-06-06'
 - **기본 검사**: 심전도(EKG), 흉부 X-선(CXR), 심초음파(Echo)
 - **혈액 검사**: BNP/NT-proBNP, 전해질, 신기능, 간기능, CBC
 - **기타**: 흉부 초음파로 폐 울혈 평가 가능
+- **동시에 찾을 유발 인자**: 급성 관상동맥증후군, 부정맥, 감염, 고혈압성 응급, 약물·식이 순응도 문제, 신기능 악화, 폐색전증·판막질환을 병력·심전도·영상·혈액검사로 병행 평가한다. 산소포화도와 활력징후를 반복 확인하고, 저관류/쇼크가 의심되면 젖산과 장기 관류 지표를 추가한다.
 
 ## 4. 진단 (Diagnosis)
 - 임상 증상, 신체 검진, BNP 수치, 심초음파 결과를 종합하여 진단
@@ -49,6 +57,10 @@ last_studied: '2026-06-06'
 - **혈관확장제**: 질산염(nitrates) 등을 사용하여 전후부하를 조절한다.
 - **강심제**: 심인성 쇼크 등 저박출 상태에서 dobutamine, milrinone 등을 고려한다.
 - **기타**:
+- **초기 분기**: 산소저하·호흡부전, 저혈압/저관류, 의식저하가 있으면 즉시 모니터링·기도/호흡 보조와 중환자 수준의 처치를 우선한다. 울혈 우세·관류 유지, 고혈압성 폐부종, 저혈압성 저관류/심인성 쇼크를 구분해 같은 약을 일률적으로 쓰지 않는다.
+- **울혈 우세**: 정주 고리이뇨제로 감량·증상·소변량을 재평가하고 전해질·신기능을 추적한다. 수축기 혈압이 유지되는 고혈압성 울혈에서는 정주 혈관확장제를 고려할 수 있으나 저혈압·우심실경색·중증 판막질환에서는 피한다.
+- **저관류/쇼크**: 원인(급성 MI, 기계적 합병증, 중증 판막질환, 부정맥 등)을 즉시 찾아 교정한다. 지속 저관류에는 혈압·관류를 보며 혈관수축제/수축촉진제를 제한적으로 사용하고, 반응이 불충분하면 조기 심장중환자·advanced HF 팀과 기계적 순환보조 가능성을 논의한다.
+- **퇴원 전**: 울혈 해소, 경구 이뇨제 전환 가능 여부, 유발 인자와 재발 예방, 만성 심부전 약제 최적화·추적 계획을 확인한다. [2022 AHA/ACC/HFSA Heart Failure Guideline: Key Perspectives](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/03/29/19/53/2022-aha-acc-hfsa-heart-failure-guideline-gl-hf)
   원인 질환(허혈, 부정맥 등)에 대한 즉각적인 교정 필요
   급성기에는 상태에 따라 산소 공급 및 호흡 보조 시행
 

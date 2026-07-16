@@ -15,6 +15,13 @@ CC:
 - 근력/감각이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2024"
+sources: ["Diagnosis and management of congenital hypopituitarism in children. | https://pubmed.ncbi.nlm.nih.gov/38538470/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[내분비]]
 
@@ -35,11 +42,9 @@ last_studied: '2026-06-06'
 - 뇌하수체 졸중: 급성 두통, 시야장애, 안근마비, 의식저하, 부신 위기(저혈압).
 
 ## 3. 검사
-- 영상 검사: MRI(표준), 필요 시 CT.
-- 호르몬 검사:
-- 기저치 측정: TSH, Free T4, LH, FSH, 성호르몬(테스토스테론/에스트라디올), 프로락틴, 아침 코르티솔.
-- 자극 검사: ACTH 결핍 의심 시 ACTH 자극 검사(단기), GH 결핍 의심 시 IGF-1 측정 및 필요 시 자극 검사.
-- 주의: 인슐린 내성 검사는 위험성이 있어 제한적으로 시행.
+- 영상 검사: 시상하부-뇌하수체 부위를 중심으로 한 박절(thin slice) MRI가 표준이며, 신생아나 중증 호르몬 결핍 시 조기 시행이 필수적임.
+- 호르몬 검사: 모든 호르몬 축(GH, TSH, ACTH, LH, FSH, 프로락틴)에 대한 평가 필요. 요붕증 동반 여부 확인을 위해 ADH 결핍 평가 병행.
+- 유전 검사: 뇌하수체 발달 관련 유전자 차세대 염기서열 분석(NGS), 비교 유전체 보합법(aCGH) 등 고려. [Diagnosis and management of congenital hypopituitarism in children.](https://pubmed.ncbi.nlm.nih.gov/38538470/)
 
 ## 4. 진단
 - 임상적 의심 후 호르몬 기저치 및 영상 검사로 확진.
@@ -47,13 +52,8 @@ last_studied: '2026-06-06'
 - 타 질환(거식증, 간질환 등)과의 감별이 중요.
 
 ## 5. 치료
-- 원칙: 결핍된 표적 호르몬 보충 및 원인 질환(종양 등) 치료.
-- 보충 호르몬:
-- ACTH 결핍: 하이드로코르티손(부신피질호르몬).
-- TSH 결핍: 레보티록신.
-- 성호르몬: 테스토스테론(남성), 에스트로겐/프로게스테론(여성).
-- GH 결핍: 재조합 GH(성인에서 필요 시).
-- 뇌하수체 졸중: Mass effect 동반 시 응급 수술적 감압, 부신 위기 시 스테로이드 투여 및 보존적 치료.
+- 원칙: 결핍된 각 호르몬 축에 대한 대체 요법 시행. 증상 완화, 합병증 예방, 급성 위기 방지 및 사회적/교육적 통합을 목표로 함.
+- 관리: 내분비 전문의에 의한 평생 추적 관찰이 필수적이며, 증후군성 형태나 동반 질환이 있는 경우 다학제적 접근이 필요함. [Diagnosis and management of congenital hypopituitarism in children.](https://pubmed.ncbi.nlm.nih.gov/38538470/)
 
 ## 6. 예후 및 합병증
 - 조기 진단 및 적절한 호르몬 대체 요법 시 일상생활 가능.

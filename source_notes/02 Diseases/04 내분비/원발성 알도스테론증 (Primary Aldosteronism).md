@@ -13,6 +13,12 @@ CC:
 - 부종
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2025"
+sources: ["2023 Korean Endocrine Society Consensus Guidelines for the Diagnosis and Management of Primary Aldosteronism | https://www.endocrinology.or.kr/journal/view.php?number=1789", "Primary Aldosteronism: An Endocrine Society Clinical Practice Guideline | https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism"]
+
 ---
 ## 1. 개요
 - 정의: 부신겉질에서 레닌-안지오텐신 시스템(RAS)과 무관하게 알도스테론이 자율적으로 과잉 생성되는 상태

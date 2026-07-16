@@ -10,6 +10,13 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["The Diagnosis and Evaluation of Women and Girls with Hemophilia and Hemophilia Carriers: Guidance from the SSC of the ISTH. | https://pubmed.ncbi.nlm.nih.gov/42362028/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[혈액]]
 
@@ -32,15 +39,17 @@ last_studied: '2026-06-06'
   - 경증(Mild): 인자 활성도 5~49%, 수술이나 발치 등 침습적 처치 후 출혈.
 
 ## 3. 검사 (Lab & Imaging)
-- 활성화 부분 트롬보플라스틴 시간 (aPTT) 연장 (PT 및 혈소판 수치는 정상).
-  응고인자 VIII 또는 IX 정량 검사 (확진).
-  폰빌레브란트병 감별을 위한 VWF 검사 고려.
-  유전자 검사 (가족력 확인 및 산전 진단).
-  억제제(inhibitor) 선별 검사 (반복적 인자 투여 환자).
+- aPTT 연장 (PT 및 혈소판 수치는 정상).
+- 응고인자 VIII 또는 IX 정량 검사 (확진).
+- 폰빌레브란트병 감별을 위한 VWF 검사 고려.
+- 유전자 검사 (가족력 확인 및 산전 진단).
+- 억제제(inhibitor) 선별 검사 (반복적 인자 투여 환자).
+- 여성 및 여아(WG)의 경우: ISTH-BAT(Bleeding Assessment Tool)를 활용하여 출혈 표현형을 정량화하고, 인자 VIII/IX 검사 및 유전자 검사를 통해 진단 및 선별 검사 시행. [The Diagnosis and Evaluation of Women and Girls with Hemophilia and Hemophilia Carriers: Guidance from the SSC of the ISTH.](https://pubmed.ncbi.nlm.nih.gov/42362028/)
 
 ## 4. 진단 (Diagnosis)
 - 임상 양상, 가족력, aPTT 연장, 응고인자 활성도 측정으로 진단.
-  확진은 유전자 검사.
+- 확진은 유전자 검사.
+- 여성 및 여아(WG)의 경우, 기존의 진단 지연을 방지하기 위해 ISTH-BAT를 이용한 표준화된 선별 및 진단 절차를 적용함. [The Diagnosis and Evaluation of Women and Girls with Hemophilia and Hemophilia Carriers: Guidance from the SSC of the ISTH.](https://pubmed.ncbi.nlm.nih.gov/42362028/)
 
 ## 5. 치료 (Treatment)
 - 결핍된 응고인자 보충이 일차 치료.

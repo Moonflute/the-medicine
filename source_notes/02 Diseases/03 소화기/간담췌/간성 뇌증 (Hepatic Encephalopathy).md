@@ -10,6 +10,13 @@ CC:
 - 의식장애
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["ACG Clinical Guideline: Hepatic Encephalopathy. | https://pubmed.ncbi.nlm.nih.gov/41773757/"]
+
+content_updated_at: "2026-07-17"
 ---
 분과 : [[소화기]]
 
@@ -34,6 +41,7 @@ last_studied: '2026-06-06'
   급성 간부전의 경우 뇌부종으로 인한 두개내압 상승 징후가 나타날 수 있다.
 
 ## 3. 검사 (Lab & Imaging)
+- **실무적 감별**: HE는 임상 진단이며 암모니아 수치만으로 중증도·치료 반응을 판단하지 않는다. 의식저하에서는 저혈당, 뇌졸중/두개내 병변, 감염, 약물·알코올, 전해질·신부전, 위장관 출혈을 동시에 배제하고 유발 인자를 체계적으로 찾는다. [ACG Clinical Guideline: Hepatic Encephalopathy](https://pubmed.ncbi.nlm.nih.gov/41773757/)
 - 혈중 암모니아 수치 상승이 관찰되나, 수치와 중증도가 항상 비례하지는 않다.
   간 기능 검사 이상이 동반된다.
   뇌 CT, MRI 등 영상 검사는 뇌출혈, 뇌종양 등 다른 뇌 질환을 배제하는 데 필수적이다.
@@ -47,6 +55,7 @@ last_studied: '2026-06-06'
 ## 5. 치료 (Treatment)
 - 치료는 유발 요인 교정과 암모니아 수치 감소를 목표로 한다.
 - **약물 치료**:
+- **치료 흐름**: overt HE에서는 기도 보호가 필요한지 먼저 판단하고, 변비·감염·출혈·탈수/과이뇨·전해질 이상·진정제·TIPS 같은 유발 인자를 즉시 교정한다. lactulose는 임상 반응과 배변 양상을 보며 조절하고, 재발 예방은 이전 episode·순응도·유발 인자에 맞춰 rifaximin 병용 여부를 판단한다. 단백질을 과도하게 제한하지 말고 영양·근감소증을 함께 관리하며, 반복 HE/간경변 비대상화는 이식 평가와 연결한다. [ACG Clinical Guideline: Hepatic Encephalopathy](https://pubmed.ncbi.nlm.nih.gov/41773757/)
   락툴로스(lactulose)를 경구 또는 관장으로 투여하여 장내 암모니아 배설을 촉진한다.
   리팍시민(Rifaximin)은 장내 세균 억제를 통해 암모니아 생성을 줄이는 데 사용된다.
 - **지지 요법**: 유발 요인(감염, 출혈, 전해질 이상 등)을 적극적으로 관리한다.

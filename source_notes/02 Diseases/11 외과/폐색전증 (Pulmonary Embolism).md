@@ -15,6 +15,11 @@ CC:
 - 심박수이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+document_role: "compatibility"
+canonical_disease: "폐색전증 (Pulmonary Embolism)"
+relation_to_parent: "canonical_reference"
+review_status: "compatibility_reference"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[외과]]
 

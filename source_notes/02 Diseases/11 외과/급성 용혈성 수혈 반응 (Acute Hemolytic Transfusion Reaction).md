@@ -16,6 +16,9 @@ CC:
 - 불안
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[외과]]
 
@@ -64,30 +67,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls
 Last updated :
----
----
-aliases: ["급성용혈성수혈반응"]
-유형:
-- - disease
-계통: "외과"
-분류: ["외과", "수혈부작용"]
-CC: []
----
-## 1. 개요
-- **정의** 부적합한 혈액으로 수혈
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 15분 내 저혈압, 발열, 오한, 오심, DIC
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-- DAT (anti-Ig, anti-C3) 양성.
-  피브리노겐 감소, 합토글로빈 감소, 고빌리루빈혈증, LDH 증가
-## 4. 진단 (Diagnosis)
-- 15분 내 증상 발생 + 검사 소견 2개 이상 + DAT 양성
-## 5. 치료 (Treatment)
-- 즉시 수혈 중지, fluid, diuretics
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

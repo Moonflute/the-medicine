@@ -13,6 +13,12 @@ CC:
 - 부종
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "source_reviewed_no_change"
+guideline_year: "2023"
+sources: ["폐암 진료 가이드라인 2023 | https://www.lungcancer.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=10"]
+
 ---
 분과 : [[호흡기]]
 

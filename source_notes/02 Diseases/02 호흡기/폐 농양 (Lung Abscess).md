@@ -15,6 +15,11 @@ CC:
 - 객혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
+guideline_year: "2019"
+sources: ["폐 및 흉막 감염의 진단과 치료 임상진료지침 | https://www.ksid.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=195"]
 ---
 분과 : [[호흡기]]
 

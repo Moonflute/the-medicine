@@ -13,6 +13,13 @@ CC:
 - 피로
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["[Malaria diagnosis: French recommendations ANOFEL/LABAC]. | https://pubmed.ncbi.nlm.nih.gov/42153399/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[감염]]
 
@@ -32,13 +39,13 @@ last_studied: '2026-06-06'
 * **P/E**: 간비대, 비장비대, 황달, 빈혈 (anemia), 혈소판 감소증 (thrombocytopenia)
 
 ## 3. 검사 (Lab & Imaging)
-- 말초 혈액 도말 검사 (thick & thin smear): 원충 확인 및 종 감별
-- 신속 진단 검사 (RDT): 원충 항원 검출
-- 반복 검사: 초기 음성 시 12~24시간 간격으로 재검사 필요
+- **진단 기법**: 민감한 기법(분자생물학적 검사 또는 후층 도말 검사)을 통한 원충 또는 DNA 검출. 
+- **보조 검사**: 신속 진단 검사(RDT)는 보조적 도구이며 단독 사용 금지. 
+- **확진 후**: 박층 도말 검사를 통해 종 감별 및 기생충혈증(parasitemia) 정도 평가. [[Malaria diagnosis: French recommendations ANOFEL/LABAC].](https://pubmed.ncbi.nlm.nih.gov/42153399/)(https://pubmed.ncbi.nlm.nih.gov/42153399/) [[Malaria diagnosis: French recommendations ANOFEL/LABAC].](https://pubmed.ncbi.nlm.nih.gov/42153399/)
 
 ## 4. 진단 (Diagnosis)
-- 말초 혈액 도말 검사에서 말라리아 원충을 확인하여 진단한다.
-  감염 종에 따라 치료 및 예후가 달라지므로 종 감별이 중요하다.
+- 말라리아 유행 지역 여행 후 발열 시 즉각적인 검사 시행. 
+- 진단은 원충 또는 DNA 검출을 기반으로 하며, 확진 시 종과 기생충혈증 정도를 명시해야 함. [[Malaria diagnosis: French recommendations ANOFEL/LABAC].](https://pubmed.ncbi.nlm.nih.gov/42153399/)(https://pubmed.ncbi.nlm.nih.gov/42153399/) [[Malaria diagnosis: French recommendations ANOFEL/LABAC].](https://pubmed.ncbi.nlm.nih.gov/42153399/)
 
 ## 5. 치료 (Treatment)
 - 치료 원칙: 원충의 종, 약제 내성 여부, 환자의 임상 상태에 따라 결정

@@ -12,6 +12,9 @@ CC:
 - 설사
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[외과]]
 
@@ -45,29 +48,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Graft-Versus-Host Disease)
 Last updated :
----
----
-aliases: ["TA-GVHD", "수혈관련이식편대숙주반응"]
-유형:
-- - disease
-계통: "외과"
-분류: ["외과", "수혈부작용"]
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인** 면역력이 결핍된 수혜자가 viable T 수혈, 정상이 HLA antigen 공유
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 발열, 피부 발진, 설사, 간기능 이상
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-- 특이적인 발진, 설사, 발열, 간기능 이상, 범혈구 감소증 + 생검 소견
-## 4. 진단 (Diagnosis)
-- 수혈 수 2일 ~ 6주에 증상 발생
-## 5. 치료 (Treatment)
-- 방사선 조사 혈액 제제 사용으로 예방
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

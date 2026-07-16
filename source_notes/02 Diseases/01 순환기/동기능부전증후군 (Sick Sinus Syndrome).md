@@ -12,6 +12,9 @@ CC:
 - 심박수이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - **정의**: 동방결절(SA node)의 기능 부전으로 인해 생리적으로 부적절한 서맥이 발생하는 질환군.

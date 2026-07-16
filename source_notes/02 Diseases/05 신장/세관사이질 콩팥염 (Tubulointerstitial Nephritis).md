@@ -13,6 +13,9 @@ CC:
 - 피부 발진
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 ## 1. 개요
 - 정의: 사구체가 아닌 세관(tubule)과 사이질(interstitium)의 손상이 주된 원인이 되어 발생하는 질환군.

@@ -14,6 +14,12 @@ CC:
 - 부종
 preprocessing_required: x
 last_studied: '2026-06-06'
+document_role: "compatibility"
+canonical_disease: "전자간증 (Preeclampsia)"
+relation_to_parent: "canonical_reference"
+population: "pregnancy"
+review_status: "compatibility_reference"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 

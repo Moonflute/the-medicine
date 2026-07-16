@@ -12,6 +12,13 @@ CC:
 - 단백뇨
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2024"
+sources: ["KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis | https://kdigo.org/guidelines/gd/lupus-nephritis/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[신장]]
 
@@ -38,12 +45,11 @@ last_studied: '2026-06-06'
 
 ## 3. 검사 (Lab & Imaging)
 - **진단 검사**
-- 소변검사, 혈청 크레아티닌, 단백뇨 정량, 항-dsDNA, 보체 농도 측정.
-- **조직 검사 (Renal Biopsy)**
-- 확진 및 분류(Class I~VI)를 위해 필수적.
-- IF: Full house pattern (IgG, IgA, IgM, C3, C1q 등 모든 항체와 보체 양성).
-- LM/EM: 분류에 따라 메산지움 증식, 내피세포 증식, 기저막 비후, 초승달 형성 등 관찰.
-
+  - 소변검사(단백뇨, 혈뇨, 원주), 혈청 크레아티닌, eGFR, 항-dsDNA, 보체(C3, C4) 농도 측정.
+- **조직 검사 (Renal Biopsy)
+  - 확진 및 분류(Class I~VI)를 위해 필수적.
+  - IF: Full house pattern (IgG, IgA, IgM, C3, C1q 양성).
+  - LM/EM: 분류에 따라 메산지움 증식, 내피세포 증식, 기저막 비후, 초승달 형성 등 관찰. [KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis](https://kdigo.org/guidelines/gd/lupus-nephritis/)
 
 ## 4. 진단 (Diagnosis)
 - SLE 환자에서 단백뇨, 혈뇨, 고혈압, 신기능 저하 발생 시 의심.
@@ -52,12 +58,12 @@ last_studied: '2026-06-06'
 
 ## 5. 치료 (Treatment)
 - **일반 원칙**
-- 고혈압/단백뇨 시 ACE inhibitor 또는 ARB 투여.
+  - 고혈압/단백뇨 시 ACE inhibitor 또는 ARB 투여.
 - **면역억제 요법**
-- Class III, IV (증식성): 스테로이드 + Mycophenolate(MMF) 또는 Cyclophosphamide 유도 요법.
-- 유지 요법: MMF가 Azathioprine보다 재발률이 낮아 선호됨.
-- Class V (막성): 단백뇨 정도에 따라 치료 결정, 증식성 병변 동반 시 적극적 치료.
-
+  - Class III, IV (증식성): 스테로이드 + Mycophenolate(MMF) 또는 Cyclophosphamide 유도 요법.
+  - 유지 요법: MMF가 Azathioprine보다 재발률이 낮아 선호됨.
+  - 추가 요법: Belimumab 및 Voclosporin을 표준 면역억제제에 병용하는 요법이 KDIGO 2024 가이드라인에 따라 고려 가능.
+  - Class V (막성): 단백뇨 정도에 따라 치료 결정, 증식성 병변 동반 시 적극적 치료. [KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis](https://kdigo.org/guidelines/gd/lupus-nephritis/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조직학적 분류(Class)에 따라 예후가 다름 (Class VI는 불량).

@@ -15,6 +15,9 @@ CC:
 - 부종
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[외과]]
 
@@ -49,28 +52,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Managing Fresh-Frozen Plasma Transfusion Adverse Effects)
 Last updated :
----
----
-aliases: ["알레르기비용혈성수혈반응"]
-유형:
-- - disease
-계통: "외과"
-분류: ["외과", "수혈부작용"]
-CC: []
----
-## 1. 개요
-- **정의** 수혈제제 혈장 내 단백이나 알레르겐에 대한 반응
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** 발진, 두드러기, 가려움증 ~ 아나필락시스 (호흡곤란)
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-- 수혈 중, 후 4시간 이내 증상 발생
-## 5. 치료 (Treatment)
-- 수혈 잠시 중단, 항히스타민제 투여 / 아나필락시스 발생 시 수혈 중단, Epi
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

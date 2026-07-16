@@ -12,6 +12,13 @@ CC:
 - 야간 발한
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2026"
+sources: ["American Society of Transplantation and Cellular Therapy Clinical Practice Recommendations for Transplantation in Classical Hodgkin Lymphoma. | https://pubmed.ncbi.nlm.nih.gov/41478324/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[혈액]]
 
@@ -31,9 +38,9 @@ last_studied: '2026-06-06'
 
 ## 3. 검사 (Lab & Imaging)
 - 혈액 검사 (CBC, ESR, LDH, 간/신장 기능 검사).
-  림프구 감소증이나 빈혈이 나타날 수 있음.
-  림프절 생검 (절제 생검 권장, 세침흡인검사는 부적절할 수 있음).
-  병기 설정을 위해 FDG-PET/CT가 표준 영상 검사임.
+- 림프절 생검 (절제 생검 권장, 세침흡인검사는 부적절할 수 있음).
+- 병기 설정을 위해 FDG-PET/CT가 표준 영상 검사임.
+- 재발성/불응성(R/R) 환자에서는 치료 반응 평가 및 조혈모세포이식(HCT) 적격성 판단을 위한 정밀 검사가 필수적임. [American Society of Transplantation and Cellular Therapy Clinical Practice Recommendations for Transplantation in Classical Hodgkin Lymphoma.](https://pubmed.ncbi.nlm.nih.gov/41478324/)
 
 ## 4. 진단 (Diagnosis)
 - 조직 검사에서 리드-스턴버그 세포 확인으로 확진.
@@ -41,8 +48,12 @@ last_studied: '2026-06-06'
 
 ## 5. 치료 (Treatment)
 - 병기와 환자 상태에 따라 항암 화학요법(CTx)과 방사선 치료(RTx)를 조합함.
-  ABVD 요법 (아드리아마이신, 블레오마이신, 빈블라스틴, 다카르바진)이 표준적인 항암 요법임. 고령 환자에서는 폐 독성 위험으로 블레오마이신을 제외하기도 함.
-  최근에는 면역관문억제제, 항체-약물 접합체(ADC) 등 다양한 치료 옵션이 사용됨.
+- ABVD 요법이 표준적인 1차 항암 요법임. 고령 환자에서는 폐 독성 위험으로 블레오마이신을 제외할 수 있음.
+- 재발성/불응성(R/R) 고전적 호지킨 림프종(cHL) 치료:
+  - 항암 화학요법에 반응하는 재발 환자에서 자가 조혈모세포이식(auto-HCT)이 표준 치료임.
+  - 이식 전 구제 요법(salvage therapy) 시 신약(면역관문억제제, 항체-약물 접합체 등)을 우선적으로 고려함.
+  - auto-HCT 후 재발한 경우 동종 조혈모세포이식(allo-HCT)을 고려함.
+  - 최신 가이드라인에 따라 신약의 도입 및 이식 시기, 유지 요법에 대한 다학제적 접근이 필요함. [American Society of Transplantation and Cellular Therapy Clinical Practice Recommendations for Transplantation in Classical Hodgkin Lymphoma.](https://pubmed.ncbi.nlm.nih.gov/41478324/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 완치 가능한 질환임.

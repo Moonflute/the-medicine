@@ -11,6 +11,13 @@ CC:
 - 무증상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["Update of the guidelines on the management of adrenal incidentaloma from the adrenal group of the Spanish society of endocrinology and nutrition (SEEN). | https://pubmed.ncbi.nlm.nih.gov/40906030/", "Clinical Guidelines for the Management of Adrenal Incidentaloma | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5487108/"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[내분비]]
 
@@ -31,25 +38,23 @@ last_studied: '2026-06-06'
 
 ## 3. 검사
 - 기능성 평가:
-- Pheochromocytoma: 혈중/소변 metanephrine(필수)
-- Cortisol: 1mg 덱사메타손 억제검사(1차 선별검사, 1.8 mcg/dL 이하 시 정상)
-- Aldosterone: 고혈압/저칼륨혈증 동반 시 Aldosterone-Renin Ratio(ARR) 측정
+  - 모든 환자에서 1mg 덱사메타손 억제검사(DST)를 통한 경미한 자율적 코르티솔 분비(MACS) 평가 권고
+  - 갈색세포종 배제: 혈중 또는 소변 metanephrine 측정
+  - 원발성 알도스테론증: 고혈압 또는 저칼륨혈증 동반 시 Aldosterone-Renin Ratio(ARR) 측정
 - 양성/악성 감별:
-- Noncontrast CT: 10 HU 미만 시 양성 가능성 높음
-- 크기: 4 cm 이상 시 악성 가능성 고려
-- 추가 영상: 필요 시 조영제 washout 검사 또는 MRI 고려
-- 주의: 악성 의심 시 조직검사(FNA)는 pheochromocytoma 배제 전 금기
+  - 비조영 CT(Non-contrast CT): 양성/악성 감별을 위한 1차 영상 검사
+- 주의: 악성 의심 시 갈색세포종 배제 전 조직검사(FNA) 금기 [Update of the guidelines on the management of adrenal incidentaloma from the adrenal group of the Spanish society of endocrinology and nutrition (SEEN).](https://pubmed.ncbi.nlm.nih.gov/40906030/)
 
 ## 4. 진단
 - 기능성/비기능성 여부 및 양성/악성 여부를 각각 평가하여 수술 여부 결정
 - 영상 소견과 호르몬 검사 결과를 종합하여 다학제적 접근 필요
 
 ## 5. 치료
-- 기능성 종괴: 호르몬 과다 중증도에 따라 수술(Unilateral adrenalectomy) 우선 고려
-- 비기능성 종괴:
-- 악성 가능성 낮고 크기 작은 경우: 정기적 추적관찰
-- 악성 의심 또는 크기 4cm 이상: 수술적 절제 고려
-- 추적관찰: 기능성 여부 재평가 및 영상검사 반복
+- 수술적 절제(Adrenalectomy): 
+  - 영상학적으로 악성이 의심되는 경우
+  - 명백한 호르몬 과다 증후군(Overt hormonal syndromes)이 동반된 경우
+- 추적관찰:
+  - 기능성 및 악성 가능성을 종합적으로 평가하여 결정 [Update of the guidelines on the management of adrenal incidentaloma from the adrenal group of the Spanish society of endocrinology and nutrition (SEEN).](https://pubmed.ncbi.nlm.nih.gov/40906030/)
 
 ## 6. 예후 및 합병증
 - 악성 종양의 경우 전이 및 침습 가능성 존재

@@ -11,6 +11,9 @@ CC:
 - 호흡곤란
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[외과]]
 
@@ -55,29 +58,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Coral Snake Toxicity, Evaluation and Treatment of Snake Envenomations)
 Last updated :
----
----
-aliases: ["뱀물림"]
-유형:
-- - disease
-계통: "외과"
-분류: ["외과", "외상"]
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 현장: 상처 세척, immobilization, 압박 붕대, 부목.
-  병원: 항독소 치료, 상처 치료, 근막 절개술, 24시간 이상 관찰.
-* 금기: 냉찜질, 흡인, 과한 압박, 전기 충격 치료.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

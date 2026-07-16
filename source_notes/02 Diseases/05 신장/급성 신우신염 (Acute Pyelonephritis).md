@@ -16,13 +16,16 @@ CC:
 - 절박뇨
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: tier_2
+clinical_priority: "tier_2"
 content_updated_at: '2026-07-15'
-guideline_year: '2025'
+guideline_year: "2025"
 sources:
 - 'IDSA Guideline Update on Complicated Urinary Tract Infections | https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/'
 disease_family: urinary_tract_infection
-population: adult
+population: "adult"
+document_role: "canonical"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 
 분과 : [[신장]]

@@ -13,13 +13,15 @@ CC:
 - 혈압저하
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: tier_2
+clinical_priority: "tier_2"
 content_updated_at: '2026-07-15'
-guideline_year: '2021'
+guideline_year: "2021"
 sources:
 - 'ACG Clinical Guideline for Upper Gastrointestinal and Ulcer Bleeding | https://pubmed.ncbi.nlm.nih.gov/33929377/'
 disease_family: upper_gi_bleeding
 population: adult
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 
 ## 1. 개요

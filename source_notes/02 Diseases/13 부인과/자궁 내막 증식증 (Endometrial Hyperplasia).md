@@ -11,6 +11,9 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[부인과]]
 
@@ -48,29 +51,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Endometrial Hyperplasia)
 Last updated :
----
----
-aliases: ["endometrial hyperplasia"]
-유형:
-- - disease
-계통: "부인과"
-분류: ["부인과", "자궁내막증식증"]
-CC: []
----
-## 1. 개요
-- **정의**:
-- **원인**:
-- **기전**: 지속적인 에스트로겐 자극에 의한 자궁내막 증식에 의한 질환
-## 2. 임상 양상 (Clinical Features)
-* **CC**: 질출혈
-* **P/E**:
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-- 자궁내막 두께 > 14 or 4mm → 자궁내막 생검(정형/비정형)
-## 5. 치료 (Treatment)
-- 가임기: 지속 progestin 2~3mo → 자궁내막 생검 or D&C
-- 폐경 후: 정형은 progestin, 비정형은 자궁 절제술 or 고농도 P
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

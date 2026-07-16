@@ -9,13 +9,15 @@ CC:
 - 관절 통증/붓기
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: tier_2
+clinical_priority: "tier_2"
 content_updated_at: '2026-07-15'
-guideline_year: '2019'
+guideline_year: "2019"
 sources:
 - 'ACR AF Guideline for Management of Osteoarthritis | https://rheumatology.org/osteoarthritis-guideline'
 disease_family: osteoarthritis
 population: adult
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
 ---
 
 ## 1. 개요

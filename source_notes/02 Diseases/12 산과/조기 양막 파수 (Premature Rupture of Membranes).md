@@ -11,6 +11,9 @@ CC:
 - 심박수이상
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -60,66 +63,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Preterm and Term Prelabor Rupture of Membranes)
 Last updated :
----
----
-aliases: ["PROM", "premature rupture of membranes"]
-유형:
-- - disease
-계통: "산과"
-분류: ["산과", "양수, 태반, 탯줄 이상"]
-CC: []
----
-## 1. 개요
-- **정의** 진통 시작 전에 양막이 파수되는 것.
-- **원인**
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC** Leakage.
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-* Leakage 확인.
-* 니트라진 검사.
-* 초음파 검사.
-* 색소 주입 검사.
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-* **처치 (ACOG guideline)**:
-* ~24주: 경과 관찰, single corticosteroid, antimicrobials.
-* 24~31주: 경과 관찰, ampicillin, corticosteroid, (MgS).
-* 32~33주: 경과 관찰, ampicillin, corticosteroid.
-* 34주~: 유도분만 (IV oxytocin) + ampicillin → C-sec (+ corticosteroid).
-* **즉시 분만해야 하는 경우**: Labor, fetal distress, infection, lung maturation, malformation, GA 34w +.
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["premature rupture of membranes"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "양수, 태반, 탯줄이상"]"
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**
-- **기전**
-- **의미**: 진통시작전에양막이파수되는것
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-- leakage 확인, 니트라진검사, 초음파검사, 색소주입검사
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- ~24주: 경과관찰, single corticosteroid, antimicrobials.
-  24~31주: 경과관찰, ampicillin, corticosteroid, (MgS).
-  32~33주: 경과관찰, ampicillin, corticosteroid.
-  34주~: 유도분만(IV oxytocin) + ampicillin → C-sec (+ corticosteroid).
-  즉시분만해야하는경우: Labor, fetal distress, infection, lung maturation, malforation, GA 34w +
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리

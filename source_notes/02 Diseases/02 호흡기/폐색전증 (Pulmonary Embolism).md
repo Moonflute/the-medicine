@@ -18,7 +18,8 @@ guideline_year: '2019'
 sources:
 - 'ESC Acute Pulmonary Embolism Guideline | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-pulmonary-embolism/'
 disease_family: pulmonary_embolism
-population: adult
+population: "adult"
+document_role: "canonical"
 ---
 
 ## 1. 개요

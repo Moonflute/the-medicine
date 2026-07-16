@@ -11,6 +11,9 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_3"
+review_status: "stable_reference_only"
+reviewed_at: "2026-07-16"
 ---
 분과 : [[산과]]
 
@@ -53,54 +56,4 @@ last_studied: '2026-06-06'
 
 출처 : StatPearls (Uterine Inversion)
 Last updated :
----
-## 통합 전 원문
----
-aliases: ["uterine inversion"]
-유형:
-- disease
-계통: "산과"
-분류: "["산과", "산과적 출혈"]"
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인** 태반이 떨어지기 전 무리하게 탯줄을 당겨 발생.
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-* 도수 정복.
-* 리토드린.
-* 양손 자궁 압박 (자궁 원위치 되기 전에는 자궁 수축제 안 씀).
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
----
-## Merged source from 11 외과
----
-aliases: ["uterine inversion"]
-유형:
-- disease
-계통: "외과"
-분류: "["외과", "산과", "산과적출혈"]"
-CC: []
----
-## 1. 개요
-- **정의**
-- **원인**: 태반이떨어지기전무리하게탯줄을당겨발생
-- **기전**
-## 2. 임상 양상 (Clinical Features)
-* **CC**
-* **P/E**
-## 3. 검사 (Lab & Imaging)
-## 4. 진단 (Diagnosis)
-## 5. 치료 (Treatment)
-- 도수정복, 리토드린, 양손자궁압박자궁원위치되기전에는자궁수축제안씀
-## 6. 예후 및 합병증 (Prognosis)
-출처 : 
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-15 — 중복 본문 정리 (Tier 3)

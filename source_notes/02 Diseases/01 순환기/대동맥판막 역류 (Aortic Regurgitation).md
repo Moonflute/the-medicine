@@ -13,6 +13,13 @@ CC:
 - 가슴통증
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["2025 ESC/EACTS Guidelines for the management of valvular heart disease | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Valvular-Heart-Disease"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[순환기]]
 
@@ -51,6 +58,7 @@ last_studied: '2026-06-06'
 * 증상이 있는 중증 AR 환자.
 * 무증상이라도 좌심실 박출률(LVEF) ≤ 55%인 경우.
 * 좌심실 수축기말 직경(LVESD) > 50mm 또는 이완기말 직경(LVEDD) > 65mm인 경우.
+- **실무 흐름**: 급성 중증 AR(예: 심내막염·박리 관련)은 혈역학적 악화 위험이 높아 즉시 심장수술팀과 상의한다. 만성 AR은 증상, 좌심실 크기·기능, 대동맥근부 병변을 같은 영상 추적에서 함께 평가하고, 중재 시점은 단일 수치만이 아니라 반복 측정의 변화와 임상 상태를 통합해 판막팀에서 결정한다. [2020 ACC/AHA valve guideline key perspectives](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2020/12/16/21/58/2020-acc-aha-vhd-gl-pt-1-gl-vhd)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 시기의 수술적 치료 시 예후가 양호.

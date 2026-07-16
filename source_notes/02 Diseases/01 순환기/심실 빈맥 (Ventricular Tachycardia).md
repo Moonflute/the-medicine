@@ -15,6 +15,13 @@ CC:
 - 혈압저하
 preprocessing_required: x
 last_studied: '2026-06-06'
+clinical_priority: "tier_2"
+reviewed_at: "2026-07-16"
+review_status: "guideline_enriched"
+guideline_year: "2024"
+sources: ["2024 대한부정맥학회 심실성 부정맥 및 돌연 심장사 진료지침 | https://www.khrs.or.kr/html/sub03_01_01.html"]
+
+content_updated_at: "2026-07-16"
 ---
 분과 : [[순환기]]
 
@@ -45,6 +52,7 @@ last_studied: '2026-06-06'
 - Capture beat, Fusion beat 존재
 - 감별 진단: Supraventricular tachycardia with aberrancy (PSVT + BBB, accessory pathway 등)
 - VT 시사 소견: AV dissociation, aVR의 (+) QRS, V1-V6의 (-) QRS, Capture/fusion beat
+- 주의사항: STAR(Stereotactic arrhythmia radioablation) 고려 시, 표준 치료(약물 및 전극도자절제술) 불응성 환자에 대한 다학제적 접근 및 표적 용적 정의를 위한 영상 검사 필요 [Patient selection, ventricular tachycardia substrate delineation, and data transfer for stereotactic arrhythmia radioablation: a clinical consensus statement of the European Heart Rhythm Association of the European Society of Cardiology and the Heart Rhythm Society.](https://pubmed.ncbi.nlm.nih.gov/39177652/)
 
 ## 4. 진단
 - Wide QRS tachycardia는 VT가 아님이 증명되기 전까지 VT로 간주하고 접근
@@ -59,16 +67,17 @@ last_studied: '2026-06-06'
 ## 5. 치료
 - Nonsustained VT: 무증상 시 경과관찰, 유증상 시 원인 교정, BB, non-DHP CCB, amiodarone 투여, 적응증 시 ICD 삽입
 - Sustained Monomorphic VT
-- 혈액역학적 불안정: DC synchronized cardioversion
-- 혈액역학적 안정: DC cardioversion(1st line), 항부정맥제(Amiodarone, Procainamide, Sotalol)
+  - 혈액역학적 불안정: DC synchronized cardioversion
+  - 혈액역학적 안정: DC cardioversion(1st line), 항부정맥제(Amiodarone, Procainamide, Sotalol)
 - Sustained Polymorphic VT
-- 혈액역학적 상태 무관: Defibrillation(1st line)
-- 이후 치료: QT 정상 시 Amiodarone/Lidocaine, QT 연장(TdP) 시 Magnesium, 서맥 시 Isoproterenol/Pacing
+  - 혈액역학적 상태 무관: Defibrillation(1st line)
+  - 이후 치료: QT 정상 시 Amiodarone/Lidocaine, QT 연장(TdP) 시 Magnesium, 서맥 시 Isoproterenol/Pacing
 - 만성기 치료(재발 방지 및 심정지 예방)
-- ICD 삽입: 심정지 생존자, 구조적 심질환 동반, 원인 불명 실신 등
-- 약물치료: β-blocker(1st line), Amiodarone, Sotalol, CPVT 시 Flecainide 고려
-- 전극도자절제술(Catheter ablation): 약물 치료 후에도 ICD shock이 반복되는 경우
-- 기타: Stellate ganglion block, Cardiac denervation(치료 불응성 반복 VT 시)
+  - ICD 삽입: 심정지 생존자, 구조적 심질환 동반, 원인 불명 실신 등
+  - 약물치료: β-blocker(1st line), Amiodarone, Sotalol, CPVT 시 Flecainide 고려
+  - 전극도자절제술(Catheter ablation): 약물 치료 후에도 ICD shock이 반복되는 경우
+  - 구제 요법(Bailout): 약물 및 반복적 전극도자절제술로 조절되지 않는 난치성 심실 부정맥 환자에서 정위적 부정맥 방사선 절제술(STAR) 고려 가능 [Patient selection, ventricular tachycardia substrate delineation, and data transfer for stereotactic arrhythmia radioablation: a clinical consensus statement of the European Heart Rhythm Association of the European Society of Cardiology and the Heart Rhythm Society.](https://pubmed.ncbi.nlm.nih.gov/39177652/)
+  - 기타: Stellate ganglion block, Cardiac denervation(치료 불응성 반복 VT 시)
 
 ## 6. 예후 및 합병증
 - 심실세동(VF) 등 심정지 리듬으로 이행 가능
