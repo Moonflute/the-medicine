@@ -1,19 +1,12 @@
-﻿import { SearchPanel } from "@/components/search-panel";
+import { SearchPanel } from "@/components/search-panel";
 import { getDiseaseSearchIndex } from "@/lib/webdb";
 
 export default function SearchPage() {
   const searchIndex = getDiseaseSearchIndex();
 
   return (
-    <div className="page-stack">
-      <header className="page-header">
-        <div className="eyebrow">Search</div>
-        <h1 className="page-title">Search</h1>
-      </header>
-
-      <div className="max-w-3xl">
-        <SearchPanel entries={searchIndex} />
-      </div>
+    <div className="mx-auto flex min-h-[calc(100vh-12rem)] w-full max-w-3xl items-center justify-center py-8">
+      <SearchPanel entries={searchIndex} />
     </div>
   );
 }

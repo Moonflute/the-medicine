@@ -1,7 +1,9 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { ArrowRight, Clock3, Search } from "lucide-react";
 import type { SearchEntry } from "@/lib/types";
 
@@ -48,7 +50,9 @@ function scoreEntry(entry: SearchEntry, term: string, compactTerm: string) {
 }
 
 export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[]; className?: string }) {
+  const router = useRouter();
   const [query, setQuery] = useState("");
+  const [activeResultIndex, setActiveResultIndex] = useState(0);
   const [recentSearches, setRecentSearches] = useState<string[]>(() => {
     if (typeof window === "undefined") return [];
     try {
@@ -85,6 +89,10 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
     return groups;
   }, {}), [results]);
 
+  useEffect(() => {
+    setActiveResultIndex(0);
+  }, [term]);
+
   const rememberSearch = () => {
     const cleaned = query.trim();
     if (!cleaned) return;
@@ -93,11 +101,35 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
     window.localStorage.setItem(RECENT_SEARCHES_KEY, JSON.stringify(next));
   };
 
+  const openResult = (index: number) => {
+    const entry = results[index];
+    if (!entry) return;
+    rememberSearch();
+    router.push(entry.href);
+  };
+
+  const handleInputKeyDown = (event: ReactKeyboardEvent<HTMLInputElement>) => {
+    if (!results.length) return;
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      setActiveResultIndex((index) => (index + 1) % results.length);
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
+      setActiveResultIndex((index) => (index - 1 + results.length) % results.length);
+    } else if (event.key === "Enter") {
+      event.preventDefault();
+      openResult(activeResultIndex);
+    }
+  };
+
+  useEffect(() => {
+    document.getElementById(`search-result-${activeResultIndex}`)?.scrollIntoView({ block: "nearest" });
+  }, [activeResultIndex]);
   return (
     <section className={`w-full ${className}`.trim()}>
       <label className="surface flex items-center gap-3 px-4 py-3 focus-within:border-teal-600 focus-within:ring-2 focus-within:ring-teal-600/15 sm:px-5 sm:py-4">
         <Search className="h-5 w-5 shrink-0 text-slate-500" />
-        <input ref={inputRef} type="text" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="예: 가슴 통증, STEMI, metformin" className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" autoFocus />
+        <input ref={inputRef} type="text" value={query} onChange={(event) => setQuery(event.target.value)} onKeyDown={handleInputKeyDown} placeholder="예: 가슴 통증, STEMI, metformin" className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" autoFocus />
         <span className="hidden rounded border border-slate-200 bg-slate-50 px-2 py-1 text-[11px] text-slate-400 sm:inline">Ctrl K</span>
       </label>
 
@@ -113,8 +145,11 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
           {results.length > 0 ? Object.entries(resultGroups).map(([label, group]) => (
             <section key={label}>
               <div className="mb-2 text-xs font-semibold uppercase text-slate-500">{label}</div>
-              <div className="grid gap-2">{group.map((entry) => (
-                <Link key={`${entry.type}:${entry.slug}`} href={entry.href} onClick={rememberSearch} className="list-tile group flex items-center justify-between gap-4 px-4 py-3">
+              <div className="grid gap-2">{group.map((entry) => {
+                const resultIndex = results.indexOf(entry);
+                const isActive = resultIndex === activeResultIndex;
+                return (
+                <Link key={`${entry.type}:${entry.slug}`} id={`search-result-${resultIndex}`} href={entry.href} onClick={rememberSearch} onMouseEnter={() => setActiveResultIndex(resultIndex)} className={`list-tile group flex items-center justify-between gap-4 px-4 py-3 ${isActive ? "border-teal-500 bg-teal-50" : ""}`}>
                   <div className="min-w-0">
                     <div className="flex flex-wrap items-center gap-2"><div className="truncate font-semibold text-slate-950">{entry.title}</div><span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-600">{TYPE_LABELS[entry.type] ?? entry.type}</span></div>
                     <div className="mt-1 text-sm text-slate-500">{entry.category}</div>
@@ -122,7 +157,8 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
                   </div>
                   <ArrowRight className="h-4 w-4 shrink-0 text-slate-400 transition group-hover:text-teal-700" />
                 </Link>
-              ))}</div>
+                );
+              })}</div>
             </section>
           )) : <div className="surface-subtle p-5 text-sm text-slate-600">검색 결과가 없습니다.</div>}
         </div>
