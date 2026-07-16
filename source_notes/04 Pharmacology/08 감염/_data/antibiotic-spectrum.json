@@ -1,0 +1,2717 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-07-16",
+  "disclaimer": "일반적인 항균 spectrum을 요약한 교육·참고 자료입니다. 실제 치료에서는 감염 부위, 배양 및 감수성 결과, 환자 상태, 신기능, 기관 antibiogram과 최신 진료지침을 우선합니다.",
+  "coverageLevels": [
+    "preferred",
+    "active",
+    "conditional",
+    "variable",
+    "inactive",
+    "unknown"
+  ],
+  "organisms": [
+    {
+      "id": "mssa",
+      "label": "MSSA",
+      "group": "Gram-positive",
+      "aliases": [
+        "methicillin-susceptible Staphylococcus aureus"
+      ]
+    },
+    {
+      "id": "mrsa",
+      "label": "MRSA",
+      "group": "Gram-positive",
+      "aliases": [
+        "methicillin-resistant Staphylococcus aureus"
+      ]
+    },
+    {
+      "id": "streptococci",
+      "label": "Streptococcus spp.",
+      "group": "Gram-positive",
+      "aliases": [
+        "streptococci",
+        "연쇄상구균"
+      ]
+    },
+    {
+      "id": "pneumococcus",
+      "label": "Streptococcus pneumoniae",
+      "group": "Gram-positive",
+      "aliases": [
+        "pneumococcus",
+        "폐렴구균"
+      ]
+    },
+    {
+      "id": "e_faecalis",
+      "label": "Enterococcus faecalis",
+      "group": "Gram-positive",
+      "aliases": []
+    },
+    {
+      "id": "e_faecium",
+      "label": "Enterococcus faecium",
+      "group": "Gram-positive",
+      "aliases": []
+    },
+    {
+      "id": "vre",
+      "label": "VRE",
+      "group": "Resistance phenotype",
+      "aliases": [
+        "vancomycin-resistant Enterococcus"
+      ]
+    },
+    {
+      "id": "h_influenzae",
+      "label": "Haemophilus influenzae",
+      "group": "Gram-negative",
+      "aliases": []
+    },
+    {
+      "id": "neisseria",
+      "label": "Neisseria spp.",
+      "group": "Gram-negative",
+      "aliases": [
+        "N. meningitidis",
+        "N. gonorrhoeae"
+      ]
+    },
+    {
+      "id": "enterobacterales",
+      "label": "Enterobacterales",
+      "group": "Gram-negative",
+      "aliases": [
+        "E. coli",
+        "Klebsiella",
+        "Proteus"
+      ]
+    },
+    {
+      "id": "pseudomonas",
+      "label": "Pseudomonas aeruginosa",
+      "group": "Gram-negative",
+      "aliases": [
+        "녹농균"
+      ]
+    },
+    {
+      "id": "acinetobacter",
+      "label": "Acinetobacter baumannii complex",
+      "group": "Gram-negative",
+      "aliases": []
+    },
+    {
+      "id": "stenotrophomonas",
+      "label": "Stenotrophomonas maltophilia",
+      "group": "Gram-negative",
+      "aliases": []
+    },
+    {
+      "id": "oral_anaerobes",
+      "label": "Oral anaerobes",
+      "group": "Anaerobes",
+      "aliases": [
+        "구강 혐기성균"
+      ]
+    },
+    {
+      "id": "b_fragilis",
+      "label": "Bacteroides fragilis group",
+      "group": "Anaerobes",
+      "aliases": []
+    },
+    {
+      "id": "clostridia",
+      "label": "Clostridium spp.",
+      "group": "Anaerobes",
+      "aliases": [
+        "Clostridioides difficile"
+      ]
+    },
+    {
+      "id": "atypicals",
+      "label": "Atypical pathogens",
+      "group": "Atypicals",
+      "aliases": [
+        "Mycoplasma",
+        "Chlamydia",
+        "Legionella"
+      ]
+    },
+    {
+      "id": "esbl",
+      "label": "ESBL-producing Enterobacterales",
+      "group": "Resistance phenotype",
+      "aliases": [
+        "ESBL"
+      ]
+    },
+    {
+      "id": "ampc",
+      "label": "AmpC-producing Enterobacterales",
+      "group": "Resistance phenotype",
+      "aliases": [
+        "AmpC"
+      ]
+    },
+    {
+      "id": "cre",
+      "label": "Carbapenem-resistant Enterobacterales",
+      "group": "Resistance phenotype",
+      "aliases": [
+        "CRE",
+        "KPC"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "eucast-expert-rules",
+      "label": "EUCAST Expert Rules and Intrinsic Resistance",
+      "url": "https://www.eucast.org/expert_rules_and_expected_phenotypes"
+    },
+    {
+      "id": "idsa-amr",
+      "label": "IDSA Guidance on the Treatment of Antimicrobial Resistant Gram-Negative Infections",
+      "url": "https://www.idsociety.org/practice-guideline/amr-guidance/"
+    },
+    {
+      "id": "dailymed",
+      "label": "DailyMed official prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
+    }
+  ],
+  "antibiotics": [
+    {
+      "id": "benzylpenicillin",
+      "sourceFile": "Benzylpenicillin.md",
+      "inn": "Benzylpenicillin",
+      "displayName": "벤질페니실린",
+      "class": "Penicillin",
+      "routes": [
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "variable",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "variable",
+        "neisseria": "variable",
+        "enterobacterales": "variable",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "amoxicillin",
+      "sourceFile": "Amoxicillin.md",
+      "inn": "Amoxicillin",
+      "displayName": "아목시실린",
+      "class": "Aminopenicillin",
+      "routes": [
+        "PO"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "active",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "variable",
+        "neisseria": "variable",
+        "enterobacterales": "variable",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "ampicillin",
+      "sourceFile": "Ampicillin.md",
+      "inn": "Ampicillin",
+      "displayName": "암피실린",
+      "class": "Aminopenicillin",
+      "routes": [
+        "PO",
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "active",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "variable",
+        "neisseria": "variable",
+        "enterobacterales": "variable",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "amoxicillinclavulanate",
+      "sourceFile": "AmoxicillinClavulanate.md",
+      "inn": "Amoxicillin/clavulanate",
+      "displayName": "아목시실린/클라불란산",
+      "class": "Beta-lactam/BLI",
+      "routes": [
+        "PO",
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "variable",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "variable",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "active",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "ampicillinsulbactam",
+      "sourceFile": "AmpicillinSulbactam.md",
+      "inn": "Ampicillin/sulbactam",
+      "displayName": "암피실린/설박탐",
+      "class": "Beta-lactam/BLI",
+      "routes": [
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "active",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "variable",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "conditional",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "active",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "flucloxacillin",
+      "sourceFile": "Flucloxacillin.md",
+      "inn": "Flucloxacillin",
+      "displayName": "플루클록사실린",
+      "class": "Anti-staphylococcal penicillin",
+      "routes": [
+        "PO",
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "preferred",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "variable",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "inactive",
+        "neisseria": "variable",
+        "enterobacterales": "inactive",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "variable",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "nafcillin",
+      "sourceFile": "Nafcillin.md",
+      "inn": "Nafcillin",
+      "displayName": "나프실린",
+      "class": "Anti-staphylococcal penicillin",
+      "routes": [
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "preferred",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "variable",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "inactive",
+        "neisseria": "variable",
+        "enterobacterales": "inactive",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "oxacillin",
+      "sourceFile": "Oxacillin.md",
+      "inn": "Oxacillin",
+      "displayName": "옥사실린",
+      "class": "Anti-staphylococcal penicillin",
+      "routes": [
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "preferred",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "variable",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "inactive",
+        "neisseria": "variable",
+        "enterobacterales": "inactive",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "piperacillintazobactam",
+      "sourceFile": "PiperacillinTazobactam.md",
+      "inn": "Piperacillin/tazobactam",
+      "displayName": "피페라실린/타조박탐",
+      "class": "Antipseudomonal penicillin/BLI",
+      "routes": [
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "active",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "active",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "active",
+        "clostridia": "active",
+        "atypicals": "inactive",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [
+        "ESBL 중증 감염에서는 carbapenem이 일반적으로 우선된다."
+      ],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "cefazolin",
+      "sourceFile": "Cefazolin.md",
+      "inn": "Cefazolin",
+      "displayName": "세파졸린",
+      "class": "1st-generation cephalosporin",
+      "routes": [
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "preferred",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "variable",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "variable",
+        "neisseria": "inactive",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "variable",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "cephalexin",
+      "sourceFile": "Cephalexin.md",
+      "inn": "Cephalexin",
+      "displayName": "세팔렉신",
+      "class": "1st-generation cephalosporin",
+      "routes": [
+        "PO"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "variable",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "variable",
+        "neisseria": "inactive",
+        "enterobacterales": "variable",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "variable",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "cefuroxime",
+      "sourceFile": "Cefuroxime.md",
+      "inn": "Cefuroxime",
+      "displayName": "세푸록심",
+      "class": "2nd-generation cephalosporin",
+      "routes": [
+        "PO",
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "variable",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "cefoxitin",
+      "sourceFile": "Cefoxitin.md",
+      "inn": "Cefoxitin",
+      "displayName": "세폭시틴",
+      "class": "Cephamycin",
+      "routes": [
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "variable",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "active",
+        "clostridia": "active",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "cefotetan",
+      "sourceFile": "Cefotetan.md",
+      "inn": "Cefotetan",
+      "displayName": "세포테탄",
+      "class": "Cephamycin",
+      "routes": [
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "variable",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "active",
+        "clostridia": "active",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "cefotaxime",
+      "sourceFile": "Cefotaxime.md",
+      "inn": "Cefotaxime",
+      "displayName": "세포탁심",
+      "class": "3rd-generation cephalosporin",
+      "routes": [
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "preferred",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "preferred",
+        "neisseria": "preferred",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "variable",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "ceftriaxone",
+      "sourceFile": "Ceftriaxone.md",
+      "inn": "Ceftriaxone",
+      "displayName": "세프트리악손",
+      "class": "3rd-generation cephalosporin",
+      "routes": [
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "preferred",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "preferred",
+        "neisseria": "preferred",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "variable",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "cefixime",
+      "sourceFile": "Cefixime.md",
+      "inn": "Cefixime",
+      "displayName": "세픽심",
+      "class": "Oral 3rd-generation cephalosporin",
+      "routes": [
+        "PO"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "cefpodoxime",
+      "sourceFile": "Cefpodoxime.md",
+      "inn": "Cefpodoxime",
+      "displayName": "세프포독심",
+      "class": "Oral 3rd-generation cephalosporin",
+      "routes": [
+        "PO"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "ceftazidime",
+      "sourceFile": "Ceftazidime.md",
+      "inn": "Ceftazidime",
+      "displayName": "세프타지딤",
+      "class": "Antipseudomonal cephalosporin",
+      "routes": [
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "variable",
+        "pneumococcus": "variable",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "active",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "variable",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "cefepime",
+      "sourceFile": "Cefepime.md",
+      "inn": "Cefepime",
+      "displayName": "세페핌",
+      "class": "4th-generation cephalosporin",
+      "routes": [
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "active",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "conditional",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "ceftazidimeavibactam",
+      "sourceFile": "CeftazidimeAvibactam.md",
+      "inn": "Ceftazidime/avibactam",
+      "displayName": "세프타지딤/아비박탐",
+      "class": "Advanced cephalosporin/BLI",
+      "routes": [
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "variable",
+        "pneumococcus": "variable",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "active",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "active",
+        "ampc": "active",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [
+        "KPC 및 일부 OXA-48-like CRE에 활성이 있으나 metallo-beta-lactamase에는 단독 활성이 없다."
+      ],
+      "sourceIds": [
+        "idsa-amr",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "ceftolozanetazobactam",
+      "sourceFile": "CeftolozaneTazobactam.md",
+      "inn": "Ceftolozane/tazobactam",
+      "displayName": "세프톨로잔/타조박탐",
+      "class": "Advanced cephalosporin/BLI",
+      "routes": [
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "variable",
+        "pneumococcus": "variable",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "preferred",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "idsa-amr",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "cefiderocol",
+      "sourceFile": "Cefiderocol.md",
+      "inn": "Cefiderocol",
+      "displayName": "세피데로콜",
+      "class": "Siderophore cephalosporin",
+      "routes": [
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "inactive",
+        "mrsa": "inactive",
+        "streptococci": "inactive",
+        "pneumococcus": "inactive",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "active",
+        "acinetobacter": "active",
+        "stenotrophomonas": "active",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "active",
+        "ampc": "active",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "idsa-amr",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "aztreonam",
+      "sourceFile": "Aztreonam.md",
+      "inn": "Aztreonam",
+      "displayName": "아즈트레오남",
+      "class": "Monobactam",
+      "routes": [
+        "IV",
+        "IM",
+        "inhaled"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "inactive",
+        "mrsa": "inactive",
+        "streptococci": "inactive",
+        "pneumococcus": "inactive",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "active",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "variable",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "variable",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [
+        "Metallo-beta-lactamase 생성균에서는 avibactam과 병합 전략을 검토할 수 있다."
+      ],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "ertapenem",
+      "sourceFile": "Ertapenem.md",
+      "inn": "Ertapenem",
+      "displayName": "에르타페넴",
+      "class": "Carbapenem",
+      "routes": [
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "variable",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "preferred",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "active",
+        "clostridia": "active",
+        "atypicals": "inactive",
+        "esbl": "preferred",
+        "ampc": "active",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "imipenemcilastatin",
+      "sourceFile": "ImipenemCilastatin.md",
+      "inn": "Imipenem/cilastatin",
+      "displayName": "이미페넴/실라스타틴",
+      "class": "Carbapenem",
+      "routes": [
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "active",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "preferred",
+        "pseudomonas": "active",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "active",
+        "clostridia": "active",
+        "atypicals": "inactive",
+        "esbl": "preferred",
+        "ampc": "active",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "meropenem",
+      "sourceFile": "Meropenem.md",
+      "inn": "Meropenem",
+      "displayName": "메로페넴",
+      "class": "Carbapenem",
+      "routes": [
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "variable",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "preferred",
+        "pseudomonas": "active",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "active",
+        "clostridia": "active",
+        "atypicals": "inactive",
+        "esbl": "preferred",
+        "ampc": "active",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "teicoplanin",
+      "sourceFile": "Teicoplanin.md",
+      "inn": "Teicoplanin",
+      "displayName": "테이코플라닌",
+      "class": "Glycopeptide",
+      "routes": [
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "preferred",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "active",
+        "e_faecium": "variable",
+        "vre": "inactive",
+        "h_influenzae": "inactive",
+        "neisseria": "inactive",
+        "enterobacterales": "inactive",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "cefoperazonesulbactam",
+      "sourceFile": "CefoperazoneSulbactam.md",
+      "inn": "Cefoperazone/sulbactam",
+      "displayName": "세포페라존/설박탐",
+      "class": "Beta-lactam/BLI",
+      "routes": [
+        "IV",
+        "IM"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "variable",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "active",
+        "acinetobacter": "conditional",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "active",
+        "clostridia": "active",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "idsa-amr"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "meropenemvaborbactam",
+      "sourceFile": "MeropenemVaborbactam.md",
+      "inn": "Meropenem/vaborbactam",
+      "displayName": "메로페넴/바보르박탐",
+      "class": "Carbapenem/BLI",
+      "routes": [
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "variable",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "preferred",
+        "pseudomonas": "variable",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "active",
+        "clostridia": "active",
+        "atypicals": "inactive",
+        "esbl": "preferred",
+        "ampc": "active",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [
+        "KPC-producing CRE에서 중요하지만 MBL 또는 OXA-48-like carbapenemase에는 신뢰할 수 없다."
+      ],
+      "sourceIds": [
+        "idsa-amr",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "imipenemcilastatinrelebactam",
+      "sourceFile": "ImipenemCilastatinRelebactam.md",
+      "inn": "Imipenem/cilastatin/relebactam",
+      "displayName": "이미페넴/실라스타틴/렐레박탐",
+      "class": "Carbapenem/BLI",
+      "routes": [
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "inactive",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "active",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "preferred",
+        "pseudomonas": "conditional",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "active",
+        "clostridia": "active",
+        "atypicals": "inactive",
+        "esbl": "preferred",
+        "ampc": "active",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [
+        "KPC 및 일부 AmpC-mediated resistance를 극복하지만 MBL 생성균에는 활성이 없다."
+      ],
+      "sourceIds": [
+        "idsa-amr",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "amikacin",
+      "sourceFile": "Amikacin.md",
+      "inn": "Amikacin",
+      "displayName": "아미카신",
+      "class": "Aminoglycoside",
+      "routes": [
+        "IV",
+        "IM",
+        "inhaled"
+      ],
+      "pregnancy": {
+        "status": "avoid_if_possible",
+        "note": "태아 이독성 가능성을 고려해 대안이 없을 때 사용한다."
+      },
+      "coverage": {
+        "mssa": "conditional",
+        "mrsa": "conditional",
+        "streptococci": "inactive",
+        "pneumococcus": "inactive",
+        "e_faecalis": "conditional",
+        "e_faecium": "conditional",
+        "vre": "conditional",
+        "h_influenzae": "active",
+        "neisseria": "variable",
+        "enterobacterales": "active",
+        "pseudomonas": "active",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "gentamicin",
+      "sourceFile": "Gentamicin.md",
+      "inn": "Gentamicin",
+      "displayName": "겐타마이신",
+      "class": "Aminoglycoside",
+      "routes": [
+        "IV",
+        "IM",
+        "topical"
+      ],
+      "pregnancy": {
+        "status": "avoid_if_possible",
+        "note": "태아 이독성 가능성을 고려해 대안이 없을 때 사용한다."
+      },
+      "coverage": {
+        "mssa": "conditional",
+        "mrsa": "conditional",
+        "streptococci": "inactive",
+        "pneumococcus": "inactive",
+        "e_faecalis": "conditional",
+        "e_faecium": "conditional",
+        "vre": "conditional",
+        "h_influenzae": "active",
+        "neisseria": "variable",
+        "enterobacterales": "active",
+        "pseudomonas": "active",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "tobramycin",
+      "sourceFile": "Tobramycin.md",
+      "inn": "Tobramycin",
+      "displayName": "토브라마이신",
+      "class": "Aminoglycoside",
+      "routes": [
+        "IV",
+        "IM",
+        "inhaled",
+        "ophthalmic"
+      ],
+      "pregnancy": {
+        "status": "avoid_if_possible",
+        "note": "전신 투여는 태아 이독성 가능성을 고려한다."
+      },
+      "coverage": {
+        "mssa": "conditional",
+        "mrsa": "conditional",
+        "streptococci": "inactive",
+        "pneumococcus": "inactive",
+        "e_faecalis": "conditional",
+        "e_faecium": "conditional",
+        "vre": "conditional",
+        "h_influenzae": "active",
+        "neisseria": "variable",
+        "enterobacterales": "active",
+        "pseudomonas": "preferred",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "azithromycin",
+      "sourceFile": "Azithromycin.md",
+      "inn": "Azithromycin",
+      "displayName": "아지스로마이신",
+      "class": "Macrolide",
+      "routes": [
+        "PO",
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "variable",
+        "pneumococcus": "variable",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "variable",
+        "neisseria": "variable",
+        "enterobacterales": "inactive",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "variable",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "preferred",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "clarithromycin",
+      "sourceFile": "Clarithromycin.md",
+      "inn": "Clarithromycin",
+      "displayName": "클라리스로마이신",
+      "class": "Macrolide",
+      "routes": [
+        "PO",
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "variable",
+        "pneumococcus": "variable",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "variable",
+        "neisseria": "variable",
+        "enterobacterales": "inactive",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "variable",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "preferred",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "erythromycin",
+      "sourceFile": "Erythromycin.md",
+      "inn": "Erythromycin",
+      "displayName": "에리트로마이신",
+      "class": "Macrolide",
+      "routes": [
+        "PO",
+        "IV",
+        "topical"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "variable",
+        "pneumococcus": "variable",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "variable",
+        "neisseria": "variable",
+        "enterobacterales": "inactive",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "variable",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "preferred",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "ciprofloxacin",
+      "sourceFile": "Ciprofloxacin.md",
+      "inn": "Ciprofloxacin",
+      "displayName": "시프로플록사신",
+      "class": "Fluoroquinolone",
+      "routes": [
+        "PO",
+        "IV",
+        "ophthalmic"
+      ],
+      "pregnancy": {
+        "status": "avoid_if_possible",
+        "note": "대안이 있으면 피하고 감염 중증도에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "variable",
+        "pneumococcus": "variable",
+        "e_faecalis": "variable",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "active",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "variable",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "active",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "levofloxacin",
+      "sourceFile": "Levofloxacin.md",
+      "inn": "Levofloxacin",
+      "displayName": "레보플록사신",
+      "class": "Fluoroquinolone",
+      "routes": [
+        "PO",
+        "IV",
+        "ophthalmic"
+      ],
+      "pregnancy": {
+        "status": "avoid_if_possible",
+        "note": "대안이 있으면 피하고 감염 중증도에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "variable",
+        "pneumococcus": "active",
+        "e_faecalis": "variable",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "active",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "variable",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "active",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "moxifloxacin",
+      "sourceFile": "Moxifloxacin.md",
+      "inn": "Moxifloxacin",
+      "displayName": "목시플록사신",
+      "class": "Fluoroquinolone",
+      "routes": [
+        "PO",
+        "IV",
+        "ophthalmic"
+      ],
+      "pregnancy": {
+        "status": "avoid_if_possible",
+        "note": "대안이 있으면 피하고 감염 중증도에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "inactive",
+        "streptococci": "variable",
+        "pneumococcus": "active",
+        "e_faecalis": "variable",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "active",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "variable",
+        "oral_anaerobes": "active",
+        "b_fragilis": "variable",
+        "clostridia": "inactive",
+        "atypicals": "active",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "doxycycline",
+      "sourceFile": "Doxycycline.md",
+      "inn": "Doxycycline",
+      "displayName": "독시사이클린",
+      "class": "Tetracycline",
+      "routes": [
+        "PO",
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "avoid_if_possible",
+        "note": "치아 착색과 골 성장 영향을 고려해 일반적으로 피한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "active",
+        "streptococci": "variable",
+        "pneumococcus": "active",
+        "e_faecalis": "variable",
+        "e_faecium": "variable",
+        "vre": "variable",
+        "h_influenzae": "active",
+        "neisseria": "variable",
+        "enterobacterales": "variable",
+        "pseudomonas": "inactive",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "active",
+        "oral_anaerobes": "variable",
+        "b_fragilis": "variable",
+        "clostridia": "variable",
+        "atypicals": "active",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "minocycline",
+      "sourceFile": "Minocycline.md",
+      "inn": "Minocycline",
+      "displayName": "미노사이클린",
+      "class": "Tetracycline",
+      "routes": [
+        "PO",
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "avoid_if_possible",
+        "note": "치아 착색과 골 성장 영향을 고려해 일반적으로 피한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "active",
+        "streptococci": "variable",
+        "pneumococcus": "active",
+        "e_faecalis": "variable",
+        "e_faecium": "variable",
+        "vre": "variable",
+        "h_influenzae": "active",
+        "neisseria": "variable",
+        "enterobacterales": "variable",
+        "pseudomonas": "inactive",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "active",
+        "oral_anaerobes": "variable",
+        "b_fragilis": "variable",
+        "clostridia": "variable",
+        "atypicals": "active",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "tigecycline",
+      "sourceFile": "Tigecycline.md",
+      "inn": "Tigecycline",
+      "displayName": "티게사이클린",
+      "class": "Glycylcycline",
+      "routes": [
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "avoid_if_possible",
+        "note": "태아 치아와 골 발달 영향을 고려한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "active",
+        "streptococci": "variable",
+        "pneumococcus": "active",
+        "e_faecalis": "variable",
+        "e_faecium": "variable",
+        "vre": "variable",
+        "h_influenzae": "active",
+        "neisseria": "variable",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "conditional",
+        "stenotrophomonas": "active",
+        "oral_anaerobes": "variable",
+        "b_fragilis": "active",
+        "clostridia": "variable",
+        "atypicals": "active",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [
+        "낮은 혈중·요중 농도 때문에 균혈증과 UTI에는 적합하지 않다."
+      ],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "clindamycin",
+      "sourceFile": "Clindamycin.md",
+      "inn": "Clindamycin",
+      "displayName": "클린다마이신",
+      "class": "Lincosamide",
+      "routes": [
+        "PO",
+        "IV",
+        "IM",
+        "topical"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "variable",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "inactive",
+        "neisseria": "inactive",
+        "enterobacterales": "inactive",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "active",
+        "b_fragilis": "variable",
+        "clostridia": "active",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [
+        "Staphylococcus와 beta-hemolytic streptococci에서는 inducible resistance를 D-test로 확인한다."
+      ],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "metronidazole",
+      "sourceFile": "Metronidazole.md",
+      "inn": "Metronidazole",
+      "displayName": "메트로니다졸",
+      "class": "Nitroimidazole",
+      "routes": [
+        "PO",
+        "IV",
+        "topical",
+        "vaginal"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "inactive",
+        "mrsa": "inactive",
+        "streptococci": "inactive",
+        "pneumococcus": "inactive",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "inactive",
+        "neisseria": "inactive",
+        "enterobacterales": "inactive",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "preferred",
+        "b_fragilis": "preferred",
+        "clostridia": "active",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "vancomycin",
+      "sourceFile": "Vancomycin.md",
+      "inn": "Vancomycin",
+      "displayName": "반코마이신",
+      "class": "Glycopeptide",
+      "routes": [
+        "IV",
+        "PO"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "preferred",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "active",
+        "e_faecium": "variable",
+        "vre": "inactive",
+        "h_influenzae": "inactive",
+        "neisseria": "inactive",
+        "enterobacterales": "inactive",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "conditional",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [
+        "경구 제형은 전신 흡수가 거의 없어 C. difficile 장관 감염에 사용하고 전신 감염에는 IV로 투여한다."
+      ],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "daptomycin",
+      "sourceFile": "Daptomycin.md",
+      "inn": "Daptomycin",
+      "displayName": "답토마이신",
+      "class": "Lipopeptide",
+      "routes": [
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "preferred",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "active",
+        "e_faecium": "active",
+        "vre": "active",
+        "h_influenzae": "inactive",
+        "neisseria": "inactive",
+        "enterobacterales": "inactive",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [
+        "폐 surfactant에 의해 불활성화되므로 폐렴 치료에 사용하지 않는다."
+      ],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "linezolid",
+      "sourceFile": "Linezolid.md",
+      "inn": "Linezolid",
+      "displayName": "리네졸리드",
+      "class": "Oxazolidinone",
+      "routes": [
+        "PO",
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "active",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "active",
+        "e_faecium": "active",
+        "vre": "preferred",
+        "h_influenzae": "inactive",
+        "neisseria": "inactive",
+        "enterobacterales": "inactive",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "variable",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "tedizolid",
+      "sourceFile": "Tedizolid.md",
+      "inn": "Tedizolid",
+      "displayName": "테디졸리드",
+      "class": "Oxazolidinone",
+      "routes": [
+        "PO",
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "active",
+        "streptococci": "active",
+        "pneumococcus": "active",
+        "e_faecalis": "active",
+        "e_faecium": "active",
+        "vre": "conditional",
+        "h_influenzae": "inactive",
+        "neisseria": "inactive",
+        "enterobacterales": "inactive",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "variable",
+        "b_fragilis": "inactive",
+        "clostridia": "variable",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "trimethoprimsulfamethoxazole",
+      "sourceFile": "TrimethoprimSulfamethoxazole.md",
+      "inn": "Trimethoprim/sulfamethoxazole",
+      "displayName": "트리메토프림/설파메톡사졸",
+      "class": "Folate antagonist",
+      "routes": [
+        "PO",
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "trimester_caution",
+        "note": "엽산 길항과 신생아 kernicterus 우려 때문에 임신 시점별 위험을 평가한다."
+      },
+      "coverage": {
+        "mssa": "active",
+        "mrsa": "active",
+        "streptococci": "variable",
+        "pneumococcus": "variable",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "active",
+        "neisseria": "inactive",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "variable",
+        "stenotrophomonas": "preferred",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "trimethoprim",
+      "sourceFile": "Trimethoprim.md",
+      "inn": "Trimethoprim",
+      "displayName": "트리메토프림",
+      "class": "Folate antagonist",
+      "routes": [
+        "PO"
+      ],
+      "pregnancy": {
+        "status": "trimester_caution",
+        "note": "엽산 길항 작용 때문에 특히 임신 초기에는 대안을 우선 검토한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "variable",
+        "streptococci": "inactive",
+        "pneumococcus": "inactive",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "variable",
+        "neisseria": "inactive",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "variable",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "sulfamethoxazole",
+      "sourceFile": "Sulfamethoxazole.md",
+      "inn": "Sulfamethoxazole",
+      "displayName": "설파메톡사졸",
+      "class": "Sulfonamide",
+      "routes": [
+        "PO"
+      ],
+      "pregnancy": {
+        "status": "trimester_caution",
+        "note": "분만 근처에는 신생아 kernicterus 위험을 고려한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "variable",
+        "streptococci": "inactive",
+        "pneumococcus": "inactive",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "variable",
+        "neisseria": "inactive",
+        "enterobacterales": "variable",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "variable",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "variable",
+        "ampc": "variable",
+        "cre": "variable"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "nitrofurantoin",
+      "sourceFile": "Nitrofurantoin.md",
+      "inn": "Nitrofurantoin",
+      "displayName": "니트로푸란토인",
+      "class": "Nitrofuran",
+      "routes": [
+        "PO"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "variable",
+        "streptococci": "variable",
+        "pneumococcus": "inactive",
+        "e_faecalis": "active",
+        "e_faecium": "variable",
+        "vre": "variable",
+        "h_influenzae": "inactive",
+        "neisseria": "inactive",
+        "enterobacterales": "active",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [
+        "하부 UTI 전용 약물로 pyelonephritis·전립선염·균혈증에는 사용하지 않는다."
+      ],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "fosfomycin",
+      "sourceFile": "Fosfomycin.md",
+      "inn": "Fosfomycin",
+      "displayName": "포스포마이신",
+      "class": "Phosphonic acid derivative",
+      "routes": [
+        "PO",
+        "IV"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "variable",
+        "mrsa": "variable",
+        "streptococci": "variable",
+        "pneumococcus": "inactive",
+        "e_faecalis": "active",
+        "e_faecium": "variable",
+        "vre": "variable",
+        "h_influenzae": "inactive",
+        "neisseria": "inactive",
+        "enterobacterales": "active",
+        "pseudomonas": "variable",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [
+        "경구 fosfomycin trometamol은 주로 단순 하부 UTI에 사용하며 전신 감염을 치료하지 않는다."
+      ],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "fidaxomicin",
+      "sourceFile": "Fidaxomicin.md",
+      "inn": "Fidaxomicin",
+      "displayName": "피닥소마이신",
+      "class": "Macrocyclic antibiotic",
+      "routes": [
+        "PO"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "inactive",
+        "mrsa": "inactive",
+        "streptococci": "inactive",
+        "pneumococcus": "inactive",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "inactive",
+        "neisseria": "inactive",
+        "enterobacterales": "inactive",
+        "pseudomonas": "inactive",
+        "acinetobacter": "inactive",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "preferred",
+        "atypicals": "inactive",
+        "esbl": "inactive",
+        "ampc": "inactive",
+        "cre": "inactive"
+      },
+      "siteCaveats": [
+        "C. difficile infection에 사용하는 장관 선택적 약물로 전신 감염에는 사용하지 않는다."
+      ],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "eucast-expert-rules",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "colistin",
+      "sourceFile": "Colistin.md",
+      "inn": "Colistin",
+      "displayName": "콜리스틴",
+      "class": "Polymyxin",
+      "routes": [
+        "IV",
+        "inhaled"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "inactive",
+        "mrsa": "inactive",
+        "streptococci": "inactive",
+        "pneumococcus": "inactive",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "variable",
+        "neisseria": "inactive",
+        "enterobacterales": "conditional",
+        "pseudomonas": "conditional",
+        "acinetobacter": "conditional",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "idsa-amr",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "polymyxinb",
+      "sourceFile": "PolymyxinB.md",
+      "inn": "Polymyxin B",
+      "displayName": "폴리믹신 B",
+      "class": "Polymyxin",
+      "routes": [
+        "IV",
+        "topical"
+      ],
+      "pregnancy": {
+        "status": "use_if_needed",
+        "note": "개별 적응증과 임신 주수에 따라 benefit-risk를 평가한다."
+      },
+      "coverage": {
+        "mssa": "inactive",
+        "mrsa": "inactive",
+        "streptococci": "inactive",
+        "pneumococcus": "inactive",
+        "e_faecalis": "inactive",
+        "e_faecium": "inactive",
+        "vre": "inactive",
+        "h_influenzae": "variable",
+        "neisseria": "inactive",
+        "enterobacterales": "conditional",
+        "pseudomonas": "conditional",
+        "acinetobacter": "conditional",
+        "stenotrophomonas": "inactive",
+        "oral_anaerobes": "inactive",
+        "b_fragilis": "inactive",
+        "clostridia": "inactive",
+        "atypicals": "inactive",
+        "esbl": "conditional",
+        "ampc": "conditional",
+        "cre": "conditional"
+      },
+      "siteCaveats": [],
+      "resistanceNotes": [],
+      "sourceIds": [
+        "idsa-amr",
+        "dailymed"
+      ],
+      "reviewStatus": "draft"
+    }
+  ]
+}

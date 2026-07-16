@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type {
+  AntibioticSpectrumDataset,
   ChiefComplaintCategorySummary,
   ChiefComplaintNote,
   ClinicalRelation,
@@ -183,6 +184,10 @@ export function getChiefComplaintLinksForTerms(terms: string[]): TermLink[] {
   }
 
   return [...links.entries()].map(([term, href]) => ({ term, href }));
+}
+
+export function getAntibioticSpectrum(): AntibioticSpectrumDataset {
+  return readJson<AntibioticSpectrumDataset>("antibiotic-spectrum.json");
 }
 
 export function getDrugs(): DomainNote[] {

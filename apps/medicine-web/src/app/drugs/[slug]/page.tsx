@@ -5,7 +5,7 @@ import { ReviewSaveButton } from "@/components/review-save-button";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { buildDrugGroups } from "@/lib/drug-groups";
-import { getClinicalRelationsFor, getDiseaseLinks, getDrugBySlug, getDrugToc, getDrugs } from "@/lib/webdb";
+import { getAntibioticSpectrum, getClinicalRelationsFor, getDiseaseLinks, getDrugBySlug, getDrugToc, getDrugs } from "@/lib/webdb";
 
 export function generateStaticParams() {
   return getDrugs().map((note) => ({ slug: note.slug }));
@@ -96,6 +96,7 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
   const parentGroup = buildDrugGroups(getDrugs(), getDrugToc()).find((group) => group.notes.some((item) => item.slug === note.slug));
   const parentHref = parentGroup ? "/drugs/category/" + parentGroup.slug : "/drugs";
   const relations = getClinicalRelationsFor("drug", note.id);
+  const antibioticEntry = getAntibioticSpectrum().antibiotics.find((entry) => entry.drugSlug === note.slug);
 
   return (
     <div className="space-y-6">
@@ -109,6 +110,12 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
         </div>
 
         <h1 className="mt-3 text-4xl font-semibold  text-slate-950">{note.title}</h1>
+
+        {antibioticEntry ? (
+          <Link href={`/drugs/antibiotics?antibiotic=${antibioticEntry.id}`} className="mt-4 inline-flex items-center rounded-full bg-slate-950 px-4 py-2 text-sm font-semibold text-white hover:bg-teal-800">
+            항생제 스펙트럼에서 보기
+          </Link>
+        ) : null}
 
         <div className="mt-4 flex flex-wrap gap-2">
           {note.folder ? <span className="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-600">{note.folder}</span> : null}

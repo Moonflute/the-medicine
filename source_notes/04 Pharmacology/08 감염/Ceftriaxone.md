@@ -2,8 +2,8 @@
 유형: drug
 계통: "감염 > 베타락탐 > 3세대 cephalosporin"
 분류_대분류: "08 감염"
-분류_중분류: "베타락탐"
-분류_소분류: "3세대 cephalosporin"
+분류_중분류: "항균"
+분류_세부: "세팔로스포린"
 검증_프로파일: "drug_core_global_v1"
 aliases:
   - "ceftriaxone"

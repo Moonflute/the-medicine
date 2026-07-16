@@ -80,6 +80,50 @@ export type SearchEntry = {
   href: string;
 };
 
+
+export type CoverageLevel = "preferred" | "active" | "conditional" | "variable" | "inactive" | "unknown";
+export type PregnancyStatus =
+  | "generally_compatible"
+  | "use_if_needed"
+  | "trimester_caution"
+  | "avoid_if_possible"
+  | "contraindicated"
+  | "insufficient_data";
+
+export type AntibioticOrganism = {
+  id: string;
+  label: string;
+  group: string;
+  aliases: string[];
+};
+
+export type AntibioticEntry = {
+  id: string;
+  sourceFile: string;
+  inn: string;
+  displayName: string;
+  drugSlug: string;
+  drugTitle: string;
+  class: string;
+  routes: string[];
+  pregnancy: { status: PregnancyStatus; note: string };
+  coverage: Record<string, CoverageLevel>;
+  siteCaveats: string[];
+  resistanceNotes: string[];
+  sourceIds: string[];
+  reviewStatus: string;
+};
+
+export type AntibioticSpectrumDataset = {
+  schemaVersion: number;
+  reviewedAt: string;
+  disclaimer: string;
+  coverageLevels: CoverageLevel[];
+  organisms: AntibioticOrganism[];
+  sources: Array<{ id: string; label: string; url: string }>;
+  antibiotics: AntibioticEntry[];
+};
+
 export type ContentMeta = {
   reviewedAt?: string;
   reviewStatus?: "draft" | "reviewed" | "verified" | string;

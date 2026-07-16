@@ -809,7 +809,7 @@ function buildDrugs() {
     const categoryPath = readScalar(frontmatter["계통"]) || readScalar(frontmatter["category"]);
     const topClass = readScalar(frontmatter["분류_대분류"]);
     const middleClass = readScalar(frontmatter["분류_중분류"]);
-    const detailClass = readScalar(frontmatter["분류_세부"]);
+    const detailClass = readScalar(frontmatter["분류_세부"]) || readScalar(frontmatter["분류_소분류"]);
     const brands = readList(frontmatter["상품명"]);
     const doses = readList(frontmatter["용량"]);
     const relatedDiseases = readList(frontmatter["related_diseases"]).filter((item) => item && item !== "-");
@@ -859,6 +859,44 @@ function buildDrugs() {
       },
     };
   });
+}
+
+
+function buildAntibioticSpectrum(drugs) {
+  const sourcePath = path.join(SOURCE_NOTES_ROOT, "04 Pharmacology", "08 감염", "_data", "antibiotic-spectrum.json");
+  if (!fs.existsSync(sourcePath)) throw new Error(`Antibiotic spectrum source is missing: ${sourcePath}`);
+
+  const dataset = JSON.parse(readText(sourcePath));
+  const allowedCoverage = new Set(["preferred", "active", "conditional", "variable", "inactive", "unknown"]);
+  const allowedPregnancy = new Set([
+    "generally_compatible", "use_if_needed", "trimester_caution", "avoid_if_possible",
+    "contraindicated", "insufficient_data",
+  ]);
+  const organismIds = new Set(dataset.organisms.map((item) => item.id));
+  const antibioticIds = new Set();
+  const sourceIds = new Set(dataset.sources.map((item) => item.id));
+
+  const antibiotics = dataset.antibiotics.map((item) => {
+    if (antibioticIds.has(item.id)) throw new Error(`Duplicate antibiotic id: ${item.id}`);
+    antibioticIds.add(item.id);
+    if (!allowedPregnancy.has(item.pregnancy?.status)) {
+      throw new Error(`Invalid pregnancy status for ${item.id}: ${item.pregnancy?.status}`);
+    }
+    for (const [organismId, level] of Object.entries(item.coverage)) {
+      if (!organismIds.has(organismId)) throw new Error(`Unknown organism id for ${item.id}: ${organismId}`);
+      if (!allowedCoverage.has(level)) throw new Error(`Invalid coverage level for ${item.id}/${organismId}: ${level}`);
+    }
+    for (const sourceId of item.sourceIds) {
+      if (!sourceIds.has(sourceId)) throw new Error(`Unknown source id for ${item.id}: ${sourceId}`);
+    }
+
+    const sourceSuffix = `/08 감염/${item.sourceFile}`;
+    const drug = drugs.find((candidate) => candidate.sourcePath.replaceAll("\\", "/").endsWith(sourceSuffix));
+    if (!drug) throw new Error(`Antibiotic note is not linked to a generated drug: ${item.sourceFile}`);
+    return { ...item, drugSlug: drug.slug, drugTitle: drug.title };
+  });
+
+  return { ...dataset, antibiotics };
 }
 
 function parseSkillSources(value) {
@@ -1104,6 +1142,7 @@ function main() {
   const diseases = buildDiseases();
   const chiefComplaints = buildChiefComplaints();
   const drugs = buildDrugs();
+  const antibioticSpectrum = buildAntibioticSpectrum(drugs);
   const physiology = buildGenericNotes("05 Physiology", "physiology");
   const pathology = buildGenericNotes("03 Pathology", "pathology");
   const labImg = buildGenericNotes("06 Lab & Img", "lab-img", {
@@ -1129,6 +1168,7 @@ function main() {
       diseases: { count: diseases.length, source: "02 Diseases" },
       chiefComplaints: { count: chiefComplaints.length, source: "01 Chief Complaint" },
       drugs: { count: drugs.length, source: "04 Pharmacology" },
+      antibioticSpectrum: { count: antibioticSpectrum.antibiotics.length, source: "04 Pharmacology/08 감염/_data" },
       physiology: { count: physiology.length, source: "05 Physiology" },
       pathology: { count: pathology.length, source: "03 Pathology" },
       labImg: { count: labImg.length, source: "06 Lab & Img" },
@@ -1145,6 +1185,7 @@ function main() {
   writeJson("diseases.json", diseases);
   writeJson("chief-complaints.json", chiefComplaints);
   writeJson("drugs.json", drugs);
+  writeJson("antibiotic-spectrum.json", antibioticSpectrum);
   writeJson("physiology.json", physiology);
   writeJson("pathology.json", pathology);
   writeJson("lab-img.json", labImg);
