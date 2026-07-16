@@ -900,10 +900,23 @@ function buildAntibioticSpectrum(drugs) {
 }
 
 function parseSkillSources(value) {
-  return readList(value)
+  const lines = readList(value).flatMap((line) => {
+    const trimmed = line.trim();
+    if (trimmed.startsWith("[") && trimmed.endsWith("]")) {
+      try {
+        const parsed = JSON.parse(trimmed);
+        if (Array.isArray(parsed) && parsed.every((item) => typeof item === "string")) return parsed;
+      } catch {
+        // Keep non-JSON source text on the existing plain-text path.
+      }
+    }
+    return [line];
+  });
+
+  return lines
     .map((line) => {
       const [label, ...urlParts] = line.split("|").map((part) => part.trim());
-      return { label, url: urlParts.join("|").trim() };
+      return { label: label.replace(/^\[|\]$/g, "").trim(), url: urlParts.join("|").trim() };
     })
     .filter((item) => item.label && item.url);
 }
