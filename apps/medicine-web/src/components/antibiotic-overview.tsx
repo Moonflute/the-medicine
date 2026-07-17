@@ -136,9 +136,9 @@ export function AntibioticOverview({ dataset }: { dataset: AntibioticSpectrumDat
   const matrix = <SpectrumTable antibiotics={filteredDrugs} organisms={visibleOrganisms} matchingOnly={matchingOnly} />;
 
   return <div className="space-y-6">
-    <div className="flex items-center gap-2" role="tablist" aria-label="탐색 방식">
-      {([ ["matrix", "Spectrum matrix"], ["organism", "균 → 항생제"], ["antibiotic", "항생제 → 균"] ] as const).map(([value, label]) => <button key={value} type="button" role="tab" aria-selected={mode === value} onClick={() => setMode(value)} className={`rounded-full px-3 py-2 text-sm font-semibold transition sm:px-4 ${mode === value ? "bg-slate-950 text-white" : "border border-slate-200 bg-white text-slate-700 hover:border-teal-400"}`}>{label}</button>)}
-      <button type="button" aria-label="퀴즈 모드" title="퀴즈 모드" onClick={() => setMode("quiz")} className={`ml-auto inline-flex h-10 w-10 items-center justify-center rounded-full border transition ${mode === "quiz" ? "border-teal-700 bg-teal-700 text-white" : "border-slate-200 bg-white text-slate-700 hover:border-teal-400"}`}><GraduationCap className="h-5 w-5" /></button>
+    <div className="grid grid-cols-[repeat(3,minmax(0,1fr))_2.5rem] items-center gap-2 sm:flex" role="tablist" aria-label="탐색 방식">
+      {([ ["matrix", "Matrix", "Spectrum matrix"], ["organism", "균→약", "균 → 항생제"], ["antibiotic", "약→균", "항생제 → 균"] ] as const).map(([value, mobileLabel, desktopLabel]) => <button key={value} type="button" role="tab" aria-selected={mode === value} onClick={() => setMode(value)} className={`min-w-0 rounded-full px-2 py-2 text-xs font-semibold transition sm:px-4 sm:text-sm ${mode === value ? "bg-slate-950 text-white" : "border border-slate-200 bg-white text-slate-700 hover:border-teal-400"}`}><span className="sm:hidden">{mobileLabel}</span><span className="hidden sm:inline">{desktopLabel}</span></button>)}
+      <button type="button" aria-label="퀴즈 모드" title="퀴즈 모드" onClick={() => setMode("quiz")} className={`inline-flex h-10 w-10 items-center justify-center rounded-full border transition sm:ml-auto ${mode === "quiz" ? "border-teal-700 bg-teal-700 text-white" : "border-slate-200 bg-white text-slate-700 hover:border-teal-400"}`}><GraduationCap className="h-5 w-5" /></button>
     </div>
 
     {mode !== "quiz" ? <section className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
