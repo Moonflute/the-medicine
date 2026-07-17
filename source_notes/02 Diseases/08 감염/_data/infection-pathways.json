@@ -310,6 +310,153 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/38990709/",
       "tier": "A",
       "year": "2024"
+    },
+    {
+      "id": "cdc-strep-2025",
+      "label": "CDC Clinical Guidance for Group A Streptococcal Pharyngitis",
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+      "tier": "A",
+      "year": "2025"
+    },
+    {
+      "id": "cdc-lyme-2026",
+      "label": "CDC Clinical Care of Erythema Migrans",
+      "url": "https://www.cdc.gov/lyme/hcp/clinical-care/erythema-migrans-rash.html",
+      "tier": "A",
+      "year": "2026"
+    },
+    {
+      "id": "idsa-lyme-2020",
+      "label": "AAN/ACR/IDSA Lyme Disease Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/lyme-disease/",
+      "tier": "A",
+      "year": "2020"
+    },
+    {
+      "id": "cdc-leptospirosis-2026",
+      "label": "CDC Clinical Overview of Leptospirosis",
+      "url": "https://www.cdc.gov/leptospirosis/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "2026"
+    },
+    {
+      "id": "cdc-leptospirosis-yellowbook-2025",
+      "label": "CDC Yellow Book: Leptospirosis",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/leptospirosis.html",
+      "tier": "A",
+      "year": "2025"
+    },
+    {
+      "id": "cdc-rickettsial-2025",
+      "label": "CDC Yellow Book: Rickettsial Diseases",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/rickettsial-diseases.html",
+      "tier": "A",
+      "year": "2025"
+    },
+    {
+      "id": "cdc-rickettsial-mmw-2016",
+      "label": "CDC MMWR Tickborne Rickettsial Diseases",
+      "url": "https://www.cdc.gov/mmwr/volumes/65/rr/rr6502a1-2.htm",
+      "tier": "A",
+      "year": "2016"
+    },
+    {
+      "id": "cdc-cat-scratch-2026",
+      "label": "CDC Clinical Overview of Cat Scratch Disease",
+      "url": "https://www.cdc.gov/bartonella/hcp/clinical-overview/cat-scratch-disease.html",
+      "tier": "A",
+      "year": "2026"
+    },
+    {
+      "id": "cdc-salmonella-2024",
+      "label": "CDC Clinical Overview of Salmonellosis",
+      "url": "https://www.cdc.gov/salmonella/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "2024"
+    },
+    {
+      "id": "idsa-infectious-diarrhea-2017",
+      "label": "IDSA Infectious Diarrhea Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/infectious-diarrhea/",
+      "tier": "A",
+      "year": "2017"
+    },
+    {
+      "id": "cdc-shigella-2024",
+      "label": "CDC Clinical Care of Shigellosis",
+      "url": "https://www.cdc.gov/shigella/hcp/clinical-care/index.html",
+      "tier": "A",
+      "year": "2024"
+    },
+    {
+      "id": "cdc-typhoid-2024",
+      "label": "CDC Clinical Guidance for Typhoid and Paratyphoid Fever",
+      "url": "https://www.cdc.gov/typhoid-fever/hcp/clinical-guidance/index.html",
+      "tier": "A",
+      "year": "2024"
+    },
+    {
+      "id": "cdc-typhoid-yellowbook-2025",
+      "label": "CDC Yellow Book: Typhoid and Paratyphoid Fever",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html",
+      "tier": "A",
+      "year": "2025"
+    },
+    {
+      "id": "cdc-relapsing-fever-2024",
+      "label": "CDC Clinical Guidance for Hard Tick Relapsing Fever",
+      "url": "https://www.cdc.gov/relapsing-fever/hcp/hard-tick-relapsing-fever/index.html",
+      "tier": "A",
+      "year": "2024"
+    },
+    {
+      "id": "cdc-campylobacter-2024",
+      "label": "CDC Treatment of Campylobacter Infection",
+      "url": "https://www.cdc.gov/campylobacter/treatment/index.html",
+      "tier": "A",
+      "year": "2024"
+    },
+    {
+      "id": "cdc-campylobacter-resistance-2022",
+      "label": "CDC Campylobacter Antibiotic Resistance",
+      "url": "https://archive.cdc.gov/www_cdc_gov/campylobacter/campy-antibiotic-resistance.html",
+      "tier": "A",
+      "year": "2022"
+    },
+    {
+      "id": "cdc-cholera-2025",
+      "label": "CDC Yellow Book: Cholera",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/cholera.html",
+      "tier": "A",
+      "year": "2025"
+    },
+    {
+      "id": "cdc-cholera-who-2024",
+      "label": "CDC/WHO Cholera Treatment Reference",
+      "url": "https://www.cdc.gov/cholera/media/pdfs/2024/07/Chapter-5-Laboratory-methods-for-the-diagnosis-of-epidemic-dysentery-and-cholera_ENG-5.pdf",
+      "tier": "A",
+      "year": "2024"
+    },
+    {
+      "id": "cdc-q-fever-2025",
+      "label": "CDC Clinical Guidance for Q Fever",
+      "url": "https://www.cdc.gov/q-fever/hcp/clinical-guidance/index.html",
+      "tier": "A",
+      "year": "2025"
+    },
+    {
+      "id": "cdc-q-fever-mmw-2013",
+      "label": "CDC MMWR Diagnosis and Management of Q Fever",
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr6203a1.htm",
+      "tier": "A",
+      "year": "2013"
+    },
+    {
+      "id": "pubmed-cat-scratch-1998",
+      "label": "Azithromycin for Cat Scratch Disease Randomized Trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9655532/",
+      "tier": "B",
+      "year": "1998"
     }
   ],
   "pathways": [
@@ -4870,6 +5017,1258 @@
         "wses-appendicitis-2020",
         "sis-iai-2024"
       ]
+    },
+    {
+      "id": "erysipelas",
+      "displayName": "Erysipelas",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/단독 (Erysipelas).md",
+      "infectionSite": "skin-soft-tissue",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "uncomplicated",
+        "severe"
+      ],
+      "exclusions": [
+        "purulent-abscess"
+      ],
+      "diagnosticNotes": [
+        "Confirm the clinical syndrome and obtain appropriate microbiologic testing when it will change management."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "Use the narrowest effective agent and reassess once microbiology and clinical response are available."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-clinical-presentation",
+          "organisms": [
+            {
+              "organismId": "streptococci",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "mssa",
+              "likelihood": "uncommon",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "erysipelas-oral",
+          "context": "mild-outpatient",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "amoxicillin",
+                "cephalexin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "cdc-strep-2025"
+          ]
+        },
+        {
+          "id": "erysipelas-iv",
+          "context": "severe-or-unable-to-take-oral",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "cefazolin",
+                "ceftriaxone"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "cdc-strep-2025"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "idsa-ssti-2014",
+        "cdc-strep-2025"
+      ],
+      "quizQuestions": [
+        {
+          "id": "erysipelas-first-line",
+          "type": "disease-to-antibiotic",
+          "prompt": "For the typical outpatient presentation of Erysipelas, which listed agent is a preferred option when antimicrobial treatment is indicated?",
+          "choiceIds": [
+            "amoxicillin",
+            "cefepime",
+            "vancomycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "amoxicillin",
+          "explanation": "Select treatment only in the clinical context stated; microbiology, severity, patient factors, and local susceptibility can change the regimen.",
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "cdc-strep-2025"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18"
+    },
+    {
+      "id": "early-lyme-disease",
+      "displayName": "Early Lyme disease",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/라임병 (Lyme Disease).md",
+      "infectionSite": "tick-borne",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "uncomplicated",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "Confirm the clinical syndrome and obtain appropriate microbiologic testing when it will change management.",
+        "This pathway addresses localized erythema migrans. Neurologic, cardiac, or articular disease needs syndrome-specific assessment."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "Use the narrowest effective agent and reassess once microbiology and clinical response are available."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-clinical-presentation",
+          "organisms": [
+            {
+              "organismId": "borrelia_burgdorferi",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "lyme-erythema-migrans",
+          "context": "localized-erythema-migrans",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline",
+                "amoxicillin",
+                "cefuroxime"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-lyme-2026",
+            "idsa-lyme-2020"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-lyme-2026",
+        "idsa-lyme-2020"
+      ],
+      "quizQuestions": [
+        {
+          "id": "early-lyme-disease-first-line",
+          "type": "disease-to-antibiotic",
+          "prompt": "For the typical outpatient presentation of Early Lyme disease, which listed agent is a preferred option when antimicrobial treatment is indicated?",
+          "choiceIds": [
+            "doxycycline",
+            "cefepime",
+            "vancomycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "doxycycline",
+          "explanation": "Select treatment only in the clinical context stated; microbiology, severity, patient factors, and local susceptibility can change the regimen.",
+          "sourceIds": [
+            "cdc-lyme-2026",
+            "idsa-lyme-2020"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18"
+    },
+    {
+      "id": "leptospirosis",
+      "displayName": "Leptospirosis",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/렙토스피라증 (Leptospirosis).md",
+      "infectionSite": "zoonotic-systemic",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "uncomplicated",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "Confirm the clinical syndrome and obtain appropriate microbiologic testing when it will change management.",
+        "Start treatment promptly for high clinical suspicion; severe disease requires organ support and close monitoring."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "Use the narrowest effective agent and reassess once microbiology and clinical response are available."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-clinical-presentation",
+          "organisms": [
+            {
+              "organismId": "leptospira",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "lepto-mild",
+          "context": "mild-outpatient",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline",
+                "amoxicillin",
+                "ampicillin",
+                "azithromycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-leptospirosis-2026",
+            "cdc-leptospirosis-yellowbook-2025"
+          ]
+        },
+        {
+          "id": "lepto-severe",
+          "context": "severe-hospitalized",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "benzylpenicillin",
+                "ceftriaxone",
+                "cefotaxime"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-leptospirosis-2026",
+            "cdc-leptospirosis-yellowbook-2025"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-leptospirosis-2026",
+        "cdc-leptospirosis-yellowbook-2025"
+      ],
+      "quizQuestions": [
+        {
+          "id": "leptospirosis-first-line",
+          "type": "disease-to-antibiotic",
+          "prompt": "For the typical outpatient presentation of Leptospirosis, which listed agent is a preferred option when antimicrobial treatment is indicated?",
+          "choiceIds": [
+            "doxycycline",
+            "cefepime",
+            "vancomycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "doxycycline",
+          "explanation": "Select treatment only in the clinical context stated; microbiology, severity, patient factors, and local susceptibility can change the regimen.",
+          "sourceIds": [
+            "cdc-leptospirosis-2026",
+            "cdc-leptospirosis-yellowbook-2025"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18"
+    },
+    {
+      "id": "tickborne-rickettsial-disease",
+      "displayName": "Tick-borne rickettsial disease",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/리케차 병 (Rickettsial Disease).md",
+      "infectionSite": "tick-borne",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "uncomplicated",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "Confirm the clinical syndrome and obtain appropriate microbiologic testing when it will change management.",
+        "Do not delay doxycycline while awaiting confirmatory testing when the presentation is compatible."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "Use the narrowest effective agent and reassess once microbiology and clinical response are available."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-clinical-presentation",
+          "organisms": [
+            {
+              "organismId": "rickettsia",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "rickettsial-suspected",
+          "context": "suspected-rickettsiosis",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-rickettsial-2025",
+            "cdc-rickettsial-mmw-2016"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-rickettsial-2025",
+        "cdc-rickettsial-mmw-2016"
+      ],
+      "quizQuestions": [
+        {
+          "id": "tickborne-rickettsial-disease-first-line",
+          "type": "disease-to-antibiotic",
+          "prompt": "For the typical outpatient presentation of Tick-borne rickettsial disease, which listed agent is a preferred option when antimicrobial treatment is indicated?",
+          "choiceIds": [
+            "doxycycline",
+            "cefepime",
+            "vancomycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "doxycycline",
+          "explanation": "Select treatment only in the clinical context stated; microbiology, severity, patient factors, and local susceptibility can change the regimen.",
+          "sourceIds": [
+            "cdc-rickettsial-2025",
+            "cdc-rickettsial-mmw-2016"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18"
+    },
+    {
+      "id": "cat-scratch-disease",
+      "displayName": "Cat scratch disease",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/묘소병 (Cat Scratch Disease).md",
+      "infectionSite": "lymphatic",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "uncomplicated",
+        "severe"
+      ],
+      "exclusions": [
+        "culture-negative-endocarditis"
+      ],
+      "diagnosticNotes": [
+        "Confirm the clinical syndrome and obtain appropriate microbiologic testing when it will change management.",
+        "Typical disease is often self-limited. Treat severe, atypical, or immunocompromised presentations with specialist input."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "Use the narrowest effective agent and reassess once microbiology and clinical response are available."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-clinical-presentation",
+          "organisms": [
+            {
+              "organismId": "bartonella_henselae",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "csd-typical",
+          "context": "typical-lymphadenitis-when-treatment-selected",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "azithromycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-cat-scratch-2026",
+            "pubmed-cat-scratch-1998"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-cat-scratch-2026",
+        "pubmed-cat-scratch-1998"
+      ],
+      "quizQuestions": [
+        {
+          "id": "cat-scratch-disease-first-line",
+          "type": "disease-to-antibiotic",
+          "prompt": "For the typical outpatient presentation of Cat scratch disease, which listed agent is a preferred option when antimicrobial treatment is indicated?",
+          "choiceIds": [
+            "azithromycin",
+            "cefepime",
+            "vancomycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "azithromycin",
+          "explanation": "Select treatment only in the clinical context stated; microbiology, severity, patient factors, and local susceptibility can change the regimen.",
+          "sourceIds": [
+            "cdc-cat-scratch-2026",
+            "pubmed-cat-scratch-1998"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18"
+    },
+    {
+      "id": "nontyphoidal-salmonellosis",
+      "displayName": "Non-typhoidal salmonellosis",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/비장티푸스 살모넬라 (Non-typhoidal Salmonella).md",
+      "infectionSite": "gastrointestinal",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "uncomplicated",
+        "severe"
+      ],
+      "exclusions": [
+        "uncomplicated-immunocompetent-gastroenteritis"
+      ],
+      "diagnosticNotes": [
+        "Confirm the clinical syndrome and obtain appropriate microbiologic testing when it will change management.",
+        "Most uncomplicated diarrheal illness needs rehydration alone; use susceptibility testing when antibiotics are indicated."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "Use the narrowest effective agent and reassess once microbiology and clinical response are available."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-clinical-presentation",
+          "organisms": [
+            {
+              "organismId": "salmonella_nontyphoidal",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "nts-severe-or-invasive",
+          "context": "severe-or-high-risk-for-invasive-disease",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "azithromycin",
+                "ciprofloxacin",
+                "ceftriaxone"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-salmonella-2024",
+            "idsa-infectious-diarrhea-2017"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-salmonella-2024",
+        "idsa-infectious-diarrhea-2017"
+      ],
+      "quizQuestions": [
+        {
+          "id": "nontyphoidal-salmonellosis-first-line",
+          "type": "disease-to-antibiotic",
+          "prompt": "For the typical outpatient presentation of Non-typhoidal salmonellosis, which listed agent is a preferred option when antimicrobial treatment is indicated?",
+          "choiceIds": [
+            "azithromycin",
+            "cefepime",
+            "vancomycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "azithromycin",
+          "explanation": "Select treatment only in the clinical context stated; microbiology, severity, patient factors, and local susceptibility can change the regimen.",
+          "sourceIds": [
+            "cdc-salmonella-2024",
+            "idsa-infectious-diarrhea-2017"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18"
+    },
+    {
+      "id": "shigellosis",
+      "displayName": "Shigellosis",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/이질 (Dysentery).md",
+      "infectionSite": "gastrointestinal",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "uncomplicated",
+        "severe"
+      ],
+      "exclusions": [
+        "mild-self-limited-diarrhea"
+      ],
+      "diagnosticNotes": [
+        "Confirm the clinical syndrome and obtain appropriate microbiologic testing when it will change management.",
+        "Mild illness is often self-limited; choose therapy from susceptibility results because resistance is common."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "Use the narrowest effective agent and reassess once microbiology and clinical response are available."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-clinical-presentation",
+          "organisms": [
+            {
+              "organismId": "shigella",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "shigella-severe",
+          "context": "severe-or-prolonged-disease",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "azithromycin",
+                "ciprofloxacin",
+                "ceftriaxone"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-shigella-2024",
+            "idsa-infectious-diarrhea-2017"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-shigella-2024",
+        "idsa-infectious-diarrhea-2017"
+      ],
+      "quizQuestions": [
+        {
+          "id": "shigellosis-first-line",
+          "type": "disease-to-antibiotic",
+          "prompt": "For the typical outpatient presentation of Shigellosis, which listed agent is a preferred option when antimicrobial treatment is indicated?",
+          "choiceIds": [
+            "azithromycin",
+            "cefepime",
+            "vancomycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "azithromycin",
+          "explanation": "Select treatment only in the clinical context stated; microbiology, severity, patient factors, and local susceptibility can change the regimen.",
+          "sourceIds": [
+            "cdc-shigella-2024",
+            "idsa-infectious-diarrhea-2017"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18"
+    },
+    {
+      "id": "typhoid-paratyphoid-fever",
+      "displayName": "Typhoid and paratyphoid fever",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/장티푸스 (Typhoid Fever).md",
+      "infectionSite": "systemic-enteric",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "uncomplicated",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "Confirm the clinical syndrome and obtain appropriate microbiologic testing when it will change management.",
+        "Travel history and susceptibility data are essential; do not use fluoroquinolones empirically in this pathway."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "Use the narrowest effective agent and reassess once microbiology and clinical response are available."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-clinical-presentation",
+          "organisms": [
+            {
+              "organismId": "salmonella_typhi",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "typhoid-most-travel-regions",
+          "context": "uncomplicated-or-hospitalized-after-most-travel",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone",
+                "azithromycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-typhoid-2024",
+            "cdc-typhoid-yellowbook-2025"
+          ]
+        },
+        {
+          "id": "typhoid-iraq-pakistan-severe",
+          "context": "complicated-after-iraq-or-pakistan-travel",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "meropenem"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-typhoid-2024",
+            "cdc-typhoid-yellowbook-2025"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-typhoid-2024",
+        "cdc-typhoid-yellowbook-2025"
+      ],
+      "quizQuestions": [
+        {
+          "id": "typhoid-paratyphoid-fever-first-line",
+          "type": "disease-to-antibiotic",
+          "prompt": "For the typical outpatient presentation of Typhoid and paratyphoid fever, which listed agent is a preferred option when antimicrobial treatment is indicated?",
+          "choiceIds": [
+            "ceftriaxone",
+            "cefepime",
+            "vancomycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "ceftriaxone",
+          "explanation": "Select treatment only in the clinical context stated; microbiology, severity, patient factors, and local susceptibility can change the regimen.",
+          "sourceIds": [
+            "cdc-typhoid-2024",
+            "cdc-typhoid-yellowbook-2025"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18"
+    },
+    {
+      "id": "relapsing-fever",
+      "displayName": "Relapsing fever",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/재귀열 (Relapsing Fever).md",
+      "infectionSite": "tick-borne",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "uncomplicated",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "Confirm the clinical syndrome and obtain appropriate microbiologic testing when it will change management.",
+        "Observe for a Jarisch-Herxheimer reaction after antimicrobial initiation."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "Use the narrowest effective agent and reassess once microbiology and clinical response are available."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-clinical-presentation",
+          "organisms": [
+            {
+              "organismId": "borrelia_relapsing",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "relapsing-fever-oral",
+          "context": "uncomplicated",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline",
+                "amoxicillin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-relapsing-fever-2024",
+            "cdc-rickettsial-2025"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-relapsing-fever-2024",
+        "cdc-rickettsial-2025"
+      ],
+      "quizQuestions": [
+        {
+          "id": "relapsing-fever-first-line",
+          "type": "disease-to-antibiotic",
+          "prompt": "For the typical outpatient presentation of Relapsing fever, which listed agent is a preferred option when antimicrobial treatment is indicated?",
+          "choiceIds": [
+            "doxycycline",
+            "cefepime",
+            "vancomycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "doxycycline",
+          "explanation": "Select treatment only in the clinical context stated; microbiology, severity, patient factors, and local susceptibility can change the regimen.",
+          "sourceIds": [
+            "cdc-relapsing-fever-2024",
+            "cdc-rickettsial-2025"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18"
+    },
+    {
+      "id": "campylobacteriosis",
+      "displayName": "Campylobacter enteritis",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/캄필로박터 (Campylobacter).md",
+      "infectionSite": "gastrointestinal",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "uncomplicated",
+        "severe"
+      ],
+      "exclusions": [
+        "mild-self-limited-enteritis"
+      ],
+      "diagnosticNotes": [
+        "Confirm the clinical syndrome and obtain appropriate microbiologic testing when it will change management.",
+        "Most illness resolves without antibiotics; do not choose a fluoroquinolone empirically without local susceptibility support."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "Use the narrowest effective agent and reassess once microbiology and clinical response are available."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-clinical-presentation",
+          "organisms": [
+            {
+              "organismId": "campylobacter",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "campy-severe-or-high-risk",
+          "context": "severe-prolonged-or-high-risk",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "azithromycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-campylobacter-2024",
+            "cdc-campylobacter-resistance-2022"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-campylobacter-2024",
+        "cdc-campylobacter-resistance-2022"
+      ],
+      "quizQuestions": [
+        {
+          "id": "campylobacteriosis-first-line",
+          "type": "disease-to-antibiotic",
+          "prompt": "For the typical outpatient presentation of Campylobacter enteritis, which listed agent is a preferred option when antimicrobial treatment is indicated?",
+          "choiceIds": [
+            "azithromycin",
+            "cefepime",
+            "vancomycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "azithromycin",
+          "explanation": "Select treatment only in the clinical context stated; microbiology, severity, patient factors, and local susceptibility can change the regimen.",
+          "sourceIds": [
+            "cdc-campylobacter-2024",
+            "cdc-campylobacter-resistance-2022"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18"
+    },
+    {
+      "id": "cholera",
+      "displayName": "Cholera",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/콜레라 (Cholera).md",
+      "infectionSite": "gastrointestinal",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "uncomplicated",
+        "severe"
+      ],
+      "exclusions": [
+        "rehydration-alone-sufficient"
+      ],
+      "diagnosticNotes": [
+        "Confirm the clinical syndrome and obtain appropriate microbiologic testing when it will change management.",
+        "Rehydration is the cornerstone. Use susceptibility and local outbreak guidance when selecting antibiotics."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "Use the narrowest effective agent and reassess once microbiology and clinical response are available."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-clinical-presentation",
+          "organisms": [
+            {
+              "organismId": "v_cholerae",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "cholera-severe",
+          "context": "severe-or-high-output-diarrhea-after-rehydration",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline",
+                "azithromycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-cholera-2025",
+            "cdc-cholera-who-2024"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-cholera-2025",
+        "cdc-cholera-who-2024"
+      ],
+      "quizQuestions": [
+        {
+          "id": "cholera-first-line",
+          "type": "disease-to-antibiotic",
+          "prompt": "For the typical outpatient presentation of Cholera, which listed agent is a preferred option when antimicrobial treatment is indicated?",
+          "choiceIds": [
+            "doxycycline",
+            "cefepime",
+            "vancomycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "doxycycline",
+          "explanation": "Select treatment only in the clinical context stated; microbiology, severity, patient factors, and local susceptibility can change the regimen.",
+          "sourceIds": [
+            "cdc-cholera-2025",
+            "cdc-cholera-who-2024"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18"
+    },
+    {
+      "id": "acute-q-fever",
+      "displayName": "Acute Q fever",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/큐열 (Q Fever).md",
+      "infectionSite": "zoonotic-systemic",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "uncomplicated",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "Confirm the clinical syndrome and obtain appropriate microbiologic testing when it will change management.",
+        "Chronic Q fever, pregnancy, vascular infection, and endocarditis require specialist-directed regimens beyond this acute pathway."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "Use the narrowest effective agent and reassess once microbiology and clinical response are available."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-clinical-presentation",
+          "organisms": [
+            {
+              "organismId": "coxiella_burnetii",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "acute-q-fever",
+          "context": "symptomatic-suspected-or-confirmed-acute-disease",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-q-fever-2025",
+            "cdc-q-fever-mmw-2013"
+          ]
+        },
+        {
+          "id": "acute-q-fever-pregnancy",
+          "context": "pregnancy-before-32-weeks",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "trimethoprimsulfamethoxazole"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-q-fever-2025",
+            "cdc-q-fever-mmw-2013"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-q-fever-2025",
+        "cdc-q-fever-mmw-2013"
+      ],
+      "quizQuestions": [
+        {
+          "id": "acute-q-fever-first-line",
+          "type": "disease-to-antibiotic",
+          "prompt": "For the typical outpatient presentation of Acute Q fever, which listed agent is a preferred option when antimicrobial treatment is indicated?",
+          "choiceIds": [
+            "doxycycline",
+            "cefepime",
+            "vancomycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "doxycycline",
+          "explanation": "Select treatment only in the clinical context stated; microbiology, severity, patient factors, and local susceptibility can change the regimen.",
+          "sourceIds": [
+            "cdc-q-fever-2025",
+            "cdc-q-fever-mmw-2013"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18"
+    },
+    {
+      "id": "scrub-typhus",
+      "displayName": "Scrub typhus",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/쯔쯔가무시병 (Tsutsugamushi Disease).md",
+      "infectionSite": "mite-borne",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "uncomplicated",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "Confirm the clinical syndrome and obtain appropriate microbiologic testing when it will change management.",
+        "Treat promptly when compatible fever, exposure history, and eschar or rash raise suspicion; do not wait for confirmatory testing."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "Use the narrowest effective agent and reassess once microbiology and clinical response are available."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-clinical-presentation",
+          "organisms": [
+            {
+              "organismId": "rickettsia",
+              "likelihood": "common",
+              "notes": [
+                "Orientia tsutsugamushi is managed within the rickettsial treatment framework."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "scrub-typhus-suspected",
+          "context": "suspected-scrub-typhus",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-rickettsial-2025",
+            "cdc-rickettsial-mmw-2016"
+          ]
+        },
+        {
+          "id": "scrub-typhus-doxycycline-unsuitable",
+          "context": "pregnancy-or-doxycycline-unsuitable-with-specialist-input",
+          "rank": "alternative",
+          "components": [
+            {
+              "antibioticIds": [
+                "azithromycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-rickettsial-2025",
+            "cdc-rickettsial-mmw-2016"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-rickettsial-2025",
+        "cdc-rickettsial-mmw-2016"
+      ],
+      "quizQuestions": [
+        {
+          "id": "scrub-typhus-first-line",
+          "type": "disease-to-antibiotic",
+          "prompt": "For the typical outpatient presentation of Scrub typhus, which listed agent is a preferred option when antimicrobial treatment is indicated?",
+          "choiceIds": [
+            "doxycycline",
+            "cefepime",
+            "vancomycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "doxycycline",
+          "explanation": "Select treatment only in the clinical context stated; microbiology, severity, patient factors, and local susceptibility can change the regimen.",
+          "sourceIds": [
+            "cdc-rickettsial-2025",
+            "cdc-rickettsial-mmw-2016"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18"
     }
   ],
   "pathogens": [
@@ -4943,6 +6342,61 @@
       "aliases": [
         "M. genitalium"
       ]
+    },
+    {
+      "id": "borrelia_burgdorferi",
+      "label": "Borrelia burgdorferi",
+      "aliases": []
+    },
+    {
+      "id": "leptospira",
+      "label": "Leptospira spp.",
+      "aliases": []
+    },
+    {
+      "id": "rickettsia",
+      "label": "Rickettsia spp.",
+      "aliases": []
+    },
+    {
+      "id": "bartonella_henselae",
+      "label": "Bartonella henselae",
+      "aliases": []
+    },
+    {
+      "id": "salmonella_nontyphoidal",
+      "label": "Non-typhoidal Salmonella",
+      "aliases": []
+    },
+    {
+      "id": "shigella",
+      "label": "Shigella spp.",
+      "aliases": []
+    },
+    {
+      "id": "salmonella_typhi",
+      "label": "Salmonella Typhi/Paratyphi",
+      "aliases": []
+    },
+    {
+      "id": "borrelia_relapsing",
+      "label": "Relapsing fever Borrelia",
+      "aliases": []
+    },
+    {
+      "id": "campylobacter",
+      "label": "Campylobacter jejuni/coli",
+      "aliases": []
+    },
+    {
+      "id": "v_cholerae",
+      "label": "Vibrio cholerae",
+      "aliases": []
+    },
+    {
+      "id": "coxiella_burnetii",
+      "label": "Coxiella burnetii",
+      "aliases": []
     }
   ]
 }

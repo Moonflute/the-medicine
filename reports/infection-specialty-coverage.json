@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-07-17T18:34:52.511Z",
+  "markdownNotes": 83,
+  "categorySummary": {
+    "antibacterial-pathway": 20,
+    "organism-reference": 8,
+    "non-antibacterial-infection": 30,
+    "antimicrobial-model-gap": 4,
+    "specialist-pathway-review": 2,
+    "syndrome-or-host-context": 9,
+    "index-or-taxonomy": 10
+  },
+  "linkedClinicalNotes": 23,
+  "needsAntibacterialPathway": [],
+  "modelGaps": [
+    {
+      "sourceFile": "08 감염/매독 (Syphilis).md",
+      "title": "매독"
+    },
+    {
+      "sourceFile": "08 감염/브루셀라증 (Brucellosis).md",
+      "title": "브루셀라증"
+    },
+    {
+      "sourceFile": "08 감염/파상풍 (Tetanus).md",
+      "title": "파상풍"
+    },
+    {
+      "sourceFile": "08 감염/한센병 (Leprosy).md",
+      "title": "한센병"
+    }
+  ],
+  "specialistReviewQueue": [
+    {
+      "sourceFile": "08 감염/노카르디아증 (Nocardiosis).md",
+      "title": "노카르디아증"
+    },
+    {
+      "sourceFile": "08 감염/방선균증 (Actinomycosis).md",
+      "title": "방선균증"
+    }
+  ],
+  "exclusionRule": "Non-antibacterial infections, organism references, and taxonomy notes are intentionally not counted as antibiotic pathways."
+}

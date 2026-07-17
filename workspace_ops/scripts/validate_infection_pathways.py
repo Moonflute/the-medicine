@@ -12,6 +12,11 @@ OUTPUT = ROOT / "_webapp" / "data" / "infection-pathways.json"
 
 
 def main() -> None:
+    subprocess.run(
+        ["node", "workspace_ops/scripts/audit_infection_specialty.mjs"],
+        cwd=ROOT,
+        check=True,
+    )
     source = json.loads(SOURCE.read_text(encoding="utf-8"))
     assert source["schemaVersion"] == 1
     assert len(source["pathways"]) >= 10
@@ -34,6 +39,9 @@ def main() -> None:
     maintenance = json.loads((ROOT / "reports" / "infection-maintenance-audit.json").read_text(encoding="utf-8"))
     assert maintenance["clinicalAnchorAudit"] == {"missingAntibiotics": [], "missingOrganisms": []}
     assert maintenance["summary"]["reviewedQuizQuestions"] > 0
+    coverage = json.loads((ROOT / "reports" / "infection-specialty-coverage.json").read_text(encoding="utf-8"))
+    assert coverage["markdownNotes"] == 83
+    assert coverage["needsAntibacterialPathway"] == []
     print(json.dumps({"ok": True, "pathways": len(generated["pathways"])}, ensure_ascii=False))
 
 
