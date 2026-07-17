@@ -36,7 +36,7 @@ function normalizeMode(value: string | null | undefined, fallback: ExplorerMode)
 function UnifiedQuiz({ spectrum, pathways }: { spectrum: AntibioticSpectrumDataset; pathways: InfectionPathwayDataset }) {
   const [domain, setDomain] = useState<QuizDomain>("clinical");
   const verified = pathways.pathways.filter((item) => item.reviewStatus === "verified");
-  return <div className="space-y-4">
+  return <div className="space-y-3">
     <section className="grid gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:grid-cols-2">
       <button type="button" onClick={() => setDomain("clinical")} className={`rounded-xl border p-4 text-left ${domain === "clinical" ? "border-teal-600 bg-teal-50" : "border-slate-200"}`}><strong className="text-sm text-slate-950">{K.clinicalQuiz}</strong><p className="mt-1 text-xs leading-5 text-slate-600">{K.clinicalQuizHelp}</p></button>
       <button type="button" onClick={() => setDomain("spectrum")} className={`rounded-xl border p-4 text-left ${domain === "spectrum" ? "border-teal-600 bg-teal-50" : "border-slate-200"}`}><strong className="text-sm text-slate-950">{K.spectrumQuiz}</strong><p className="mt-1 text-xs leading-5 text-slate-600">{K.spectrumQuizHelp}</p></button>
@@ -54,9 +54,9 @@ export function InfectionTreatmentExplorer({ spectrum, pathways, initialMode = "
     url.searchParams.set("mode", nextMode);
     window.history.replaceState(null, "", url);
   };
-  return <div className="space-y-4">
-    <section className="rounded-2xl border border-slate-200 bg-white p-2 shadow-sm"><div className="grid grid-cols-5 gap-1" role="tablist" aria-label={K.aria}>
-      {MODES.map((item) => { const Icon = item.icon; return <button key={item.id} type="button" role="tab" aria-selected={mode === item.id} onClick={() => changeMode(item.id)} className={`flex min-w-0 flex-col items-center justify-center gap-1 rounded-xl px-1 py-2 text-[11px] font-semibold transition sm:flex-row sm:gap-2 sm:px-3 sm:text-sm ${mode === item.id ? "bg-slate-950 text-white" : "text-slate-600 hover:bg-slate-100"}`}><Icon className="h-4 w-4 shrink-0" /><span className="truncate"><span className="sm:hidden">{"shortLabel" in item ? item.shortLabel : item.label}</span><span className="hidden sm:inline">{item.label}</span></span></button>; })}
+  return <div className="space-y-3">
+    <section className="rounded-xl border border-slate-200 bg-white p-1.5 shadow-sm"><div className="grid grid-cols-5 gap-1" role="tablist" aria-label={K.aria}>
+      {MODES.map((item) => { const Icon = item.icon; return <button key={item.id} type="button" role="tab" aria-selected={mode === item.id} onClick={() => changeMode(item.id)} className={`flex min-w-0 flex-col items-center justify-center gap-0.5 rounded-lg px-1 py-1.5 text-[10px] font-semibold transition sm:flex-row sm:gap-1.5 sm:px-2.5 sm:py-2 sm:text-xs ${mode === item.id ? "bg-slate-950 text-white" : "text-slate-600 hover:bg-slate-100"}`}><Icon className="h-3.5 w-3.5 shrink-0 sm:h-4 sm:w-4" /><span className="truncate"><span className="sm:hidden">{"shortLabel" in item ? item.shortLabel : item.label}</span><span className="hidden sm:inline">{item.label}</span></span></button>; })}
     </div></section>
     {mode === "disease" ? <InfectionPathwayExplorer dataset={pathways} spectrum={spectrum} embedded /> : null}
     {mode === "matrix" || mode === "organism" || mode === "antibiotic" ? <AntibioticOverview key={mode} dataset={spectrum} pathways={pathways} initialMode={mode} embedded /> : null}
