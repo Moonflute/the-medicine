@@ -6,17 +6,13 @@ import { Bug, GraduationCap, Grid3X3, Pill, Stethoscope } from "lucide-react";
 import type { AntibioticSpectrumDataset } from "@/lib/types";
 import type { InfectionPathwayDataset } from "@/lib/infection-types";
 import { AntibioticOverview } from "@/components/antibiotic-overview";
-import { AntibioticQuiz } from "@/components/antibiotic-quiz";
-import { ClinicalInfectionQuiz } from "@/components/clinical-infection-quiz";
 import { InfectionPathwayExplorer } from "@/components/infection-pathway-explorer";
+import { UnifiedInfectionQuiz } from "@/components/unified-infection-quiz";
 
 type ExplorerMode = "disease" | "organism" | "antibiotic" | "matrix" | "quiz";
-type QuizDomain = "clinical" | "spectrum";
 
 const K = {
   disease: "\uc9c8\ud658\ubcc4", organism: "\uade0\ubcc4", antibiotic: "\ud56d\uc0dd\uc81c\ubcc4", quiz: "\ud034\uc988",
-  clinicalQuiz: "\uc9c8\ud658 \uae30\ubc18 \ubb38\uc81c", clinicalQuizHelp: "\uc9c8\ud658 \u2192 \uc6d0\uc778\uade0, \uc9c8\ud658 \u2192 \ud56d\uc0dd\uc81c, \uc790\ub3d9\uc644\uc131 \ub2e8\ub2f5\ud615",
-  spectrumQuiz: "Spectrum \uae30\ubc18 \ubb38\uc81c", spectrumQuizHelp: "\uade0 \u2192 \ud56d\uc0dd\uc81c, \ud56d\uc0dd\uc81c \u2192 \uade0, coverage \ud310\ub3c5",
   aria: "\uac10\uc5fc \uce58\ub8cc \ud0d0\uc0c9 \ubc29\uc2dd",
 };
 
@@ -31,18 +27,6 @@ const MODES = [
 function normalizeMode(value: string | null | undefined, fallback: ExplorerMode): ExplorerMode {
   if (value === "explore") return "disease";
   return MODES.some((item) => item.id === value) ? value as ExplorerMode : fallback;
-}
-
-function UnifiedQuiz({ spectrum, pathways }: { spectrum: AntibioticSpectrumDataset; pathways: InfectionPathwayDataset }) {
-  const [domain, setDomain] = useState<QuizDomain>("clinical");
-  const verified = pathways.pathways.filter((item) => item.reviewStatus === "verified");
-  return <div className="space-y-3">
-    <section className="grid gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:grid-cols-2">
-      <button type="button" onClick={() => setDomain("clinical")} className={`rounded-xl border p-4 text-left ${domain === "clinical" ? "border-teal-600 bg-teal-50" : "border-slate-200"}`}><strong className="text-sm text-slate-950">{K.clinicalQuiz}</strong><p className="mt-1 text-xs leading-5 text-slate-600">{K.clinicalQuizHelp}</p></button>
-      <button type="button" onClick={() => setDomain("spectrum")} className={`rounded-xl border p-4 text-left ${domain === "spectrum" ? "border-teal-600 bg-teal-50" : "border-slate-200"}`}><strong className="text-sm text-slate-950">{K.spectrumQuiz}</strong><p className="mt-1 text-xs leading-5 text-slate-600">{K.spectrumQuizHelp}</p></button>
-    </section>
-    {domain === "clinical" ? <ClinicalInfectionQuiz pathways={verified} spectrum={spectrum} sources={pathways.sources} /> : <AntibioticQuiz dataset={spectrum} />}
-  </div>;
 }
 
 export function InfectionTreatmentExplorer({ spectrum, pathways, initialMode = "disease" }: { spectrum: AntibioticSpectrumDataset; pathways: InfectionPathwayDataset; initialMode?: ExplorerMode }) {
@@ -60,6 +44,6 @@ export function InfectionTreatmentExplorer({ spectrum, pathways, initialMode = "
     </div></section>
     {mode === "disease" ? <InfectionPathwayExplorer dataset={pathways} spectrum={spectrum} embedded /> : null}
     {mode === "matrix" || mode === "organism" || mode === "antibiotic" ? <AntibioticOverview key={mode} dataset={spectrum} pathways={pathways} initialMode={mode} embedded /> : null}
-    {mode === "quiz" ? <UnifiedQuiz spectrum={spectrum} pathways={pathways} /> : null}
+    {mode === "quiz" ? <UnifiedInfectionQuiz pathways={pathways.pathways.filter((item) => item.reviewStatus === "verified")} spectrum={spectrum} sources={pathways.sources} /> : null}
   </div>;
 }
