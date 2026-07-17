@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-07-17",
+  "reviewedAt": "2026-07-18",
   "disclaimer": "이 자료는 교육·참조용 임상 경로다. 실제 치료는 환자 상태, 감염 부위, 배양·감수성 결과, 장기기능, 알레르기, 임신 여부, 기관 antibiogram과 최신 국내 지침을 우선한다.",
   "sources": [
     {
@@ -184,6 +184,132 @@
       "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/necrotizing-fasciitis.html",
       "tier": "A",
       "year": "2025"
+    },
+    {
+      "id": "idsa-cdi-2021",
+      "label": "SHEA/IDSA Clostridioides difficile Focused Update",
+      "url": "https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/",
+      "tier": "A",
+      "year": "2021"
+    },
+    {
+      "id": "acg-cdi-2021",
+      "label": "ACG Clinical Guideline for Clostridioides difficile Infection",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34003176/",
+      "tier": "B",
+      "year": "2021"
+    },
+    {
+      "id": "iwgdf-idsa-dfi-2023",
+      "label": "IWGDF/IDSA Diabetes-Related Foot Infection Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/diabetic-foot-infections/",
+      "tier": "A",
+      "year": "2023"
+    },
+    {
+      "id": "nice-dfi-2019",
+      "label": "NICE NG19 Diabetic Foot Infection",
+      "url": "https://www.nice.org.uk/guidance/ng19/chapter/Recommendations",
+      "tier": "A",
+      "year": "2019"
+    },
+    {
+      "id": "idsa-abrs-2012",
+      "label": "IDSA Acute Bacterial Rhinosinusitis Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/rhinosinusitis/",
+      "tier": "A",
+      "year": "2012"
+    },
+    {
+      "id": "nice-sinusitis-2017",
+      "label": "NICE NG79 Acute Sinusitis Antimicrobial Prescribing",
+      "url": "https://www.nice.org.uk/guidance/ng79/chapter/Recommendations",
+      "tier": "A",
+      "year": "2017"
+    },
+    {
+      "id": "aap-aom-2013",
+      "label": "AAP Diagnosis and Management of Acute Otitis Media",
+      "url": "https://publications.aap.org/pediatrics/article/131/3/e964/30912/The-Diagnosis-and-Management-of-Acute-Otitis-Media",
+      "tier": "A",
+      "year": "2013"
+    },
+    {
+      "id": "nice-aom-2022",
+      "label": "NICE NG91 Acute Otitis Media Antimicrobial Prescribing",
+      "url": "https://www.nice.org.uk/guidance/ng91",
+      "tier": "A",
+      "year": "2022"
+    },
+    {
+      "id": "nice-bites-2020",
+      "label": "NICE NG184 Human and Animal Bites Antimicrobial Prescribing",
+      "url": "https://www.nice.org.uk/guidance/ng184/chapter/Recommendations",
+      "tier": "A",
+      "year": "2020"
+    },
+    {
+      "id": "cdc-pid-2021",
+      "label": "CDC Pelvic Inflammatory Disease Treatment Guideline",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/pid.htm",
+      "tier": "A",
+      "year": "2021"
+    },
+    {
+      "id": "bashh-pid-2019",
+      "label": "BASHH Pelvic Inflammatory Disease Guideline",
+      "url": "https://www.bashh.org/resources/6/pid_2019/",
+      "tier": "A",
+      "year": "2019"
+    },
+    {
+      "id": "nice-diverticulitis-2019",
+      "label": "NICE NG147 Diverticular Disease Guideline",
+      "url": "https://www.nice.org.uk/guidance/ng147/chapter/Recommendations",
+      "tier": "A",
+      "year": "2019"
+    },
+    {
+      "id": "aga-diverticulitis-2021",
+      "label": "AGA Clinical Practice Update on Colonic Diverticulitis",
+      "url": "https://gastro.org/clinical-guidance/medical-management-of-colonic-diverticulitis/",
+      "tier": "B",
+      "year": "2021"
+    },
+    {
+      "id": "nice-prostatitis-2018",
+      "label": "NICE NG110 Acute Prostatitis Antimicrobial Prescribing",
+      "url": "https://www.nice.org.uk/guidance/ng110/chapter/Recommendations",
+      "tier": "A",
+      "year": "2018"
+    },
+    {
+      "id": "eau-urological-infections-2025",
+      "label": "EAU Urological Infections Guideline",
+      "url": "https://uroweb.org/guidelines/urological-infections/chapter/the-guideline",
+      "tier": "A",
+      "year": "2025"
+    },
+    {
+      "id": "cdc-epididymitis-2021",
+      "label": "CDC Epididymitis Treatment Guideline",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/epididymitis.htm",
+      "tier": "A",
+      "year": "2021"
+    },
+    {
+      "id": "wses-appendicitis-2020",
+      "label": "WSES Jerusalem Acute Appendicitis Guideline",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7386163/",
+      "tier": "A",
+      "year": "2020"
+    },
+    {
+      "id": "sis-iai-2024",
+      "label": "Surgical Infection Society Intra-Abdominal Infection Guideline",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38990709/",
+      "tier": "A",
+      "year": "2024"
     }
   ],
   "pathways": [
@@ -2958,6 +3084,1792 @@
           ]
         }
       ]
+    },
+    {
+      "aliases": [
+        "CDI",
+        "C. difficile colitis",
+        "거짓막 결장염"
+      ],
+      "severity": [
+        "nonsevere",
+        "severe",
+        "fulminant",
+        "recurrent"
+      ],
+      "exclusions": [
+        "asymptomatic-colonization",
+        "formed-stool-testing"
+      ],
+      "sourceControlNotes": [
+        "가능하면 유발 항생제를 중단하고 접촉주의, 비누와 물 손위생, 환경 포자 제거를 함께 시행한다."
+      ],
+      "stewardshipNotes": [
+        "초기 임상 반응만으로 치료를 조기 중단하지 않으며, 재발에서는 이전 치료와 재발 위험을 반영한다.",
+        "경구 vancomycin과 IV vancomycin은 CDI에서 서로 대체되지 않는다."
+      ],
+      "targetedTherapies": [],
+      "quizQuestions": [
+        {
+          "id": "cdi-initial-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "초기 nonfulminant CDI에서 지속 임상반응을 고려해 우선 제안되는 약물은?",
+          "choiceIds": [
+            "fidaxomicin",
+            "metronidazole",
+            "ceftriaxone",
+            "ciprofloxacin"
+          ],
+          "correctId": "fidaxomicin",
+          "explanation": "IDSA/SHEA는 초기 CDI에서 fidaxomicin을 경구 vancomycin보다 우선 제안하며, vancomycin도 허용 가능한 대안이다.",
+          "sourceIds": [
+            "idsa-cdi-2021",
+            "acg-cdi-2021"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18",
+      "id": "adult-clostridioides-difficile-infection",
+      "displayName": "성인 Clostridioides difficile infection",
+      "diseaseSourceFile": "08 감염/거짓막 결장염 (Pseudomembranous Colitis).md",
+      "infectionSite": "gastrointestinal",
+      "setting": "healthcare-associated",
+      "population": [
+        "adult",
+        "immunocompromised"
+      ],
+      "diagnosticNotes": [
+        "임상적으로 의미 있는 새 설사가 있는 환자에서만 독소 또는 다단계 검사를 시행하고 무증상 보균과 test of cure는 피한다.",
+        "백혈구 수, creatinine, 저혈압·ileus·toxic megacolon을 확인해 nonsevere, severe, fulminant disease를 구분한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "toxin-mediated-colitis",
+          "organisms": [
+            {
+              "organismId": "c_difficile",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "cdi-initial-fidaxomicin",
+          "context": "initial-nonfulminant-episode",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "fidaxomicin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "검사로 확인된 초기 nonfulminant CDI"
+          ],
+          "avoidWhen": [],
+          "notes": [
+            "자원과 접근성을 고려하며 경구 vancomycin도 허용 가능한 대안이다."
+          ],
+          "sourceIds": [
+            "idsa-cdi-2021",
+            "acg-cdi-2021"
+          ]
+        },
+        {
+          "id": "cdi-initial-oral-vancomycin",
+          "context": "initial-nonfulminant-episode",
+          "rank": "alternative",
+          "components": [
+            {
+              "antibioticIds": [
+                "vancomycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "fidaxomicin 사용이 어렵거나 적절하지 않음"
+          ],
+          "avoidWhen": [],
+          "notes": [
+            "반드시 경구 또는 위장관 내 투여 경로를 사용한다."
+          ],
+          "sourceIds": [
+            "idsa-cdi-2021",
+            "acg-cdi-2021"
+          ]
+        },
+        {
+          "id": "cdi-fulminant",
+          "context": "fulminant-disease",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "vancomycin"
+              ],
+              "selection": "all-of"
+            },
+            {
+              "antibioticIds": [
+                "metronidazole"
+              ],
+              "selection": "optional"
+            }
+          ],
+          "conditions": [
+            "저혈압, shock, ileus 또는 megacolon"
+          ],
+          "avoidWhen": [
+            "fidaxomicin 단독으로 fulminant CDI를 치료"
+          ],
+          "notes": [
+            "고용량 경구/비위관 vancomycin을 사용하며 ileus가 있으면 직장 투여와 IV metronidazole을 검토하고 조기 수술 자문을 시행한다."
+          ],
+          "sourceIds": [
+            "idsa-cdi-2021",
+            "acg-cdi-2021"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "idsa-cdi-2021",
+        "acg-cdi-2021"
+      ]
+    },
+    {
+      "aliases": [
+        "diabetic foot infection",
+        "DFI",
+        "당뇨병성 족부감염"
+      ],
+      "severity": [
+        "mild",
+        "moderate",
+        "severe",
+        "osteomyelitis-suspected"
+      ],
+      "exclusions": [
+        "clinically-uninfected-ulcer"
+      ],
+      "sourceControlNotes": [
+        "괴사조직 debridement, 배농, pressure off-loading, 혈류 평가와 필요 시 revascularization을 항생제와 병행한다."
+      ],
+      "stewardshipNotes": [
+        "임상적으로 감염되지 않은 ulcer에는 치유 촉진이나 예방 목적으로 항생제를 투여하지 않는다.",
+        "배양 결과가 나오면 감염 중증도와 조직 침범 범위에 맞춰 좁은 spectrum으로 전환한다."
+      ],
+      "targetedTherapies": [],
+      "quizQuestions": [
+        {
+          "id": "dfi-mild-pathogen",
+          "type": "disease-to-organism",
+          "prompt": "최근 항생제 노출이 없는 mild diabetic foot infection에서 우선 표적해야 할 균은?",
+          "choiceIds": [
+            "mssa",
+            "pseudomonas",
+            "cre",
+            "b_fragilis"
+          ],
+          "correctId": "mssa",
+          "explanation": "Mild DFI에서는 beta-hemolytic streptococci와 S. aureus가 핵심 표적이다.",
+          "sourceIds": [
+            "iwgdf-idsa-dfi-2023",
+            "nice-dfi-2019"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18",
+      "id": "adult-diabetes-related-foot-infection",
+      "displayName": "성인 diabetes-related foot infection",
+      "diseaseSourceFile": "04 내분비/당뇨병성 족부질환.md",
+      "infectionSite": "diabetic-foot",
+      "setting": "mixed",
+      "population": [
+        "adult",
+        "immunocompromised"
+      ],
+      "diagnosticNotes": [
+        "국소 또는 전신 염증 소견으로 감염을 임상 진단하고 IWGDF/IDSA 기준으로 중증도를 분류한다.",
+        "가능하면 세척 후 표재 swab보다 무균적으로 채취한 tissue specimen을 배양한다.",
+        "골수염이 의심되면 probe-to-bone, 단순 X-ray와 염증표지자를 먼저 평가하고 불확실하면 MRI와 bone culture를 고려한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "mild-acute-infection",
+          "organisms": [
+            {
+              "organismId": "mssa",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "streptococci",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "mrsa",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": "chronic-moderate-severe-or-previously-treated",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "b_fragilis",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "pseudomonas",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "dfi-mild-gram-positive",
+          "context": "mild-without-resistant-pathogen-risk",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "cephalexin",
+                "flucloxacillin",
+                "amoxicillinclavulanate"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "표재성 mild infection, 최근 항생제 노출과 MDR 위험 없음"
+          ],
+          "avoidWhen": [
+            "임상적으로 감염되지 않은 ulcer"
+          ],
+          "notes": [
+            "주로 streptococci와 S. aureus를 표적한다."
+          ],
+          "sourceIds": [
+            "iwgdf-idsa-dfi-2023",
+            "nice-dfi-2019"
+          ]
+        },
+        {
+          "id": "dfi-moderate-severe",
+          "context": "moderate-or-severe-polymicrobial-risk",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ampicillinsulbactam",
+                "piperacillintazobactam",
+                "ertapenem"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "깊은 조직 침범, chronic wound, 허혈, 괴사 또는 전신 소견"
+          ],
+          "avoidWhen": [],
+          "notes": [
+            "중증이면 수술 평가와 배양을 지연하지 않는다."
+          ],
+          "sourceIds": [
+            "iwgdf-idsa-dfi-2023",
+            "nice-dfi-2019"
+          ]
+        },
+        {
+          "id": "dfi-add-mrsa-coverage",
+          "context": "validated-mrsa-risk",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "vancomycin",
+                "linezolid",
+                "daptomycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "MRSA 과거력, 최근 보균·감염 또는 지역 역학상 의미 있는 위험"
+          ],
+          "avoidWhen": [
+            "구체적 위험 없이 모든 mild DFI에 routine MRSA coverage"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "iwgdf-idsa-dfi-2023",
+            "nice-dfi-2019"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "iwgdf-idsa-dfi-2023",
+        "nice-dfi-2019"
+      ]
+    },
+    {
+      "aliases": [
+        "ABRS",
+        "급성 세균성 부비동염"
+      ],
+      "severity": [
+        "outpatient",
+        "severe",
+        "complicated"
+      ],
+      "exclusions": [
+        "uncomplicated-viral-rhinosinusitis"
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "10일 이내의 전형적 acute viral rhinosinusitis에는 항생제를 투여하지 않는다.",
+        "지역 내성, 최근 항생제, 연령과 중증도에 따라 고용량 또는 대체 regimen 필요성을 평가한다."
+      ],
+      "targetedTherapies": [],
+      "quizQuestions": [
+        {
+          "id": "abrs-first-line-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "세균성 임상 기준을 충족한 ABRS에서 대표적인 초기 경구 치료는?",
+          "choiceIds": [
+            "amoxicillinclavulanate",
+            "vancomycin",
+            "nitrofurantoin",
+            "metronidazole"
+          ],
+          "correctId": "amoxicillinclavulanate",
+          "explanation": "Amoxicillin/clavulanate는 pneumococcus, H. influenzae와 M. catarrhalis를 고려한 대표적인 초기 선택이다.",
+          "sourceIds": [
+            "idsa-abrs-2012",
+            "nice-sinusitis-2017"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18",
+      "id": "acute-bacterial-rhinosinusitis",
+      "displayName": "acute bacterial rhinosinusitis",
+      "diseaseSourceFile": "17 이비인후과/급성 부비동염 (Acute sinusitis).md",
+      "infectionSite": "paranasal-sinus",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "diagnosticNotes": [
+        "10일 이상 호전 없이 지속, 고열과 화농성 분비물이 초기부터 지속, 또는 호전 후 재악화 중 하나일 때 세균성 가능성을 높게 본다.",
+        "안와·두개강 합병증, 심한 전신 감염 또는 국소 신경학적 이상이 있으면 즉시 영상과 전문 진료를 시행한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "community-abrs",
+          "organisms": [
+            {
+              "organismId": "pneumococcus",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "h_influenzae",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "moraxella_catarrhalis",
+              "likelihood": "important",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "abrs-first-line",
+          "context": "confirmed-or-highly-suspected-abrs",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "amoxicillinclavulanate"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "세균성 임상 기준 충족"
+          ],
+          "avoidWhen": [
+            "단순 감기 또는 10일 이내 호전 경과"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "idsa-abrs-2012",
+            "nice-sinusitis-2017"
+          ]
+        },
+        {
+          "id": "abrs-adult-beta-lactam-allergy",
+          "context": "adult-with-true-beta-lactam-allergy",
+          "rank": "alternative",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "비임신 성인, beta-lactam 사용 불가"
+          ],
+          "avoidWhen": [
+            "임신 또는 소아에서 연령·안전성 검토 없이 사용"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "idsa-abrs-2012",
+            "nice-sinusitis-2017"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "idsa-abrs-2012",
+        "nice-sinusitis-2017"
+      ]
+    },
+    {
+      "aliases": [
+        "AOM",
+        "급성 화농성 중이염"
+      ],
+      "severity": [
+        "nonsevere",
+        "severe",
+        "otorrhea"
+      ],
+      "exclusions": [
+        "otitis-media-with-effusion-without-acute-inflammation"
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "선별된 nonsevere AOM은 48–72시간 관찰 또는 delayed prescription이 가능하다.",
+        "최근 amoxicillin 사용, 화농성 결막염 또는 amoxicillin 불응 재발이면 beta-lactamase coverage를 강화한다."
+      ],
+      "targetedTherapies": [],
+      "quizQuestions": [
+        {
+          "id": "aom-first-line-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "항생제가 필요한 uncomplicated AOM에서 최근 amoxicillin 노출과 결막염이 없다면 우선 선택은?",
+          "choiceIds": [
+            "amoxicillin",
+            "cefepime",
+            "ciprofloxacin",
+            "vancomycin"
+          ],
+          "correctId": "amoxicillin",
+          "explanation": "대부분의 uncomplicated AOM에서 amoxicillin이 초기 선택이며 beta-lactamase 위험이 있으면 amoxicillin/clavulanate를 고려한다.",
+          "sourceIds": [
+            "aap-aom-2013",
+            "nice-aom-2022"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18",
+      "id": "pediatric-acute-otitis-media",
+      "displayName": "소아 acute otitis media",
+      "diseaseSourceFile": "17 이비인후과/급성화농성중이염 (Acute suppurative otitis media).md",
+      "infectionSite": "middle-ear",
+      "setting": "community",
+      "population": [
+        "pediatric"
+      ],
+      "diagnosticNotes": [
+        "중등도 이상의 고막 팽륜 또는 새 이류를 핵심으로 진단하며, 단순 middle-ear effusion만으로 AOM을 진단하지 않는다.",
+        "연령, 양측성, otorrhea, 심한 이통·고열과 추적 가능성을 바탕으로 관찰과 즉시 항생제를 구분한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-aom",
+          "organisms": [
+            {
+              "organismId": "pneumococcus",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "h_influenzae",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "moraxella_catarrhalis",
+              "likelihood": "important",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "aom-amoxicillin",
+          "context": "antibiotic-indicated-without-beta-lactamase-risk",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "amoxicillin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "즉시 항생제 적응증이며 최근 amoxicillin 노출·결막염 없음"
+          ],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "aap-aom-2013",
+            "nice-aom-2022"
+          ]
+        },
+        {
+          "id": "aom-amoxicillin-clavulanate",
+          "context": "beta-lactamase-risk-or-amoxicillin-failure",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "amoxicillinclavulanate"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "최근 amoxicillin, 화농성 결막염, 또는 적절한 amoxicillin 치료 후 불응"
+          ],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "aap-aom-2013",
+            "nice-aom-2022"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "aap-aom-2013",
+        "nice-aom-2022"
+      ]
+    },
+    {
+      "aliases": [
+        "dog bite",
+        "cat bite",
+        "human bite",
+        "교상 감염"
+      ],
+      "severity": [
+        "prophylaxis-eligible",
+        "infected",
+        "deep-structure-involvement"
+      ],
+      "exclusions": [],
+      "sourceControlNotes": [
+        "충분한 irrigation, 이물 제거와 필요 시 debridement를 시행하고 손상된 tendon·joint·bone은 조기 외과 평가한다."
+      ],
+      "stewardshipNotes": [
+        "피부가 손상되지 않은 bite에는 예방 항생제를 사용하지 않는다.",
+        "예방은 깊은 상처, 손·얼굴 등 고위험 부위, cat/human bite 또는 고위험 숙주에 제한한다."
+      ],
+      "targetedTherapies": [],
+      "quizQuestions": [
+        {
+          "id": "bite-first-line-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "고위험 dog/cat bite 예방 또는 경증 감염에서 대표적인 경구 1차 약물은?",
+          "choiceIds": [
+            "amoxicillinclavulanate",
+            "cephalexin",
+            "aztreonam",
+            "nitrofurantoin"
+          ],
+          "correctId": "amoxicillinclavulanate",
+          "explanation": "Amoxicillin/clavulanate는 Pasteurella, streptococci, staphylococci와 anaerobes를 함께 고려한다.",
+          "sourceIds": [
+            "nice-bites-2020",
+            "idsa-ssti-2014"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18",
+      "id": "human-or-animal-bite-wound-infection",
+      "displayName": "human or animal bite wound infection",
+      "diseaseSourceFile": "11 외과/동물 물림 (Animal Bite).md",
+      "infectionSite": "bite-wound",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric",
+        "immunocompromised"
+      ],
+      "diagnosticNotes": [
+        "동물 종류, 손·얼굴·생식기 등 고위험 위치, puncture·crush 손상, 관절·건·골 침범과 면역저하·무비장 여부를 평가한다.",
+        "tetanus, rabies와 human bite의 혈액매개감염 위험은 항균제 선택과 별도로 평가한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "polymicrobial-bite-flora",
+          "organisms": [
+            {
+              "organismId": "pasteurella_multocida",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "capnocytophaga",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            },
+            {
+              "organismId": "eikenella",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            },
+            {
+              "organismId": "mssa",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "streptococci",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "oral_anaerobes",
+              "likelihood": "important",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "bite-oral-first-line",
+          "context": "prophylaxis-eligible-or-mild-infection",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "amoxicillinclavulanate"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "고위험 예방 적응증 또는 경증 감염"
+          ],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "nice-bites-2020",
+            "idsa-ssti-2014"
+          ]
+        },
+        {
+          "id": "bite-iv-severe",
+          "context": "severe-or-deep-structure-infection",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ampicillinsulbactam",
+                "piperacillintazobactam"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "전신 중증, 심부 구조 침범 또는 경구 불가"
+          ],
+          "avoidWhen": [],
+          "notes": [
+            "48시간 내 임상 반응과 경구 전환 가능성을 재평가한다."
+          ],
+          "sourceIds": [
+            "nice-bites-2020",
+            "idsa-ssti-2014"
+          ]
+        },
+        {
+          "id": "bite-penicillin-allergy",
+          "context": "adult-penicillin-allergy",
+          "rank": "alternative",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline"
+              ],
+              "selection": "all-of"
+            },
+            {
+              "antibioticIds": [
+                "metronidazole"
+              ],
+              "selection": "all-of"
+            }
+          ],
+          "conditions": [
+            "성인에서 beta-lactam 사용 불가"
+          ],
+          "avoidWhen": [
+            "임신·수유·소아에서 안전성 평가 없이 적용"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "nice-bites-2020",
+            "idsa-ssti-2014"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nice-bites-2020",
+        "idsa-ssti-2014"
+      ]
+    },
+    {
+      "aliases": [
+        "PID",
+        "골반내 감염",
+        "골반염"
+      ],
+      "severity": [
+        "outpatient-mild-moderate",
+        "inpatient-severe",
+        "tubo-ovarian-abscess"
+      ],
+      "exclusions": [
+        "ectopic-pregnancy",
+        "surgical-abdomen-not-excluded"
+      ],
+      "sourceControlNotes": [
+        "tubo-ovarian abscess는 입원 관찰하고 임상 반응이 없거나 파열 위험이 있으면 영상 유도 배액 또는 수술을 평가한다."
+      ],
+      "stewardshipNotes": [
+        "치료 지연은 infertility, ectopic pregnancy와 chronic pelvic pain 위험을 높일 수 있다.",
+        "환자와 성 파트너의 검사·치료가 끝나고 증상이 해소될 때까지 성접촉을 피하도록 안내한다."
+      ],
+      "targetedTherapies": [],
+      "quizQuestions": [
+        {
+          "id": "pid-outpatient-regimen",
+          "type": "disease-to-antibiotic",
+          "prompt": "경증-중등도 outpatient PID의 권장 병합요법에 포함되는 주사 항생제는?",
+          "choiceIds": [
+            "ceftriaxone",
+            "vancomycin",
+            "nitrofurantoin",
+            "fidaxomicin"
+          ],
+          "correctId": "ceftriaxone",
+          "explanation": "Outpatient PID는 ceftriaxone에 doxycycline과 metronidazole을 병합해 gonococcus, chlamydia와 anaerobes를 포괄한다.",
+          "sourceIds": [
+            "cdc-pid-2021",
+            "bashh-pid-2019"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18",
+      "id": "acute-pelvic-inflammatory-disease",
+      "displayName": "acute pelvic inflammatory disease",
+      "diseaseSourceFile": "13 부인과/골반내 감염 (Pelvic Inflammatory Disease).md",
+      "infectionSite": "upper-female-genital-tract",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pregnant"
+      ],
+      "diagnosticNotes": [
+        "임신을 배제하고 하복부 통증과 cervical motion, uterine 또는 adnexal tenderness 중 하나 이상이면 다른 원인이 명확하지 않을 때 낮은 threshold로 경험적 치료한다.",
+        "gonorrhea와 chlamydia NAAT, HIV·syphilis 검사와 필요 시 M. genitalium 검사를 시행하되 음성 결과가 PID를 배제하지는 않는다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "polymicrobial-ascending-infection",
+          "organisms": [
+            {
+              "organismId": "n_gonorrhoeae",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "c_trachomatis",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "m_genitalium",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            },
+            {
+              "organismId": "b_fragilis",
+              "likelihood": "important",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "pid-outpatient",
+          "context": "mild-to-moderate-outpatient",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone"
+              ],
+              "selection": "all-of"
+            },
+            {
+              "antibioticIds": [
+                "doxycycline"
+              ],
+              "selection": "all-of"
+            },
+            {
+              "antibioticIds": [
+                "metronidazole"
+              ],
+              "selection": "all-of"
+            }
+          ],
+          "conditions": [
+            "외과적 응급질환이 배제되고 경구 치료·추적 가능"
+          ],
+          "avoidWhen": [
+            "임신, tubo-ovarian abscess, severe illness 또는 경구 불내약"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "cdc-pid-2021",
+            "bashh-pid-2019"
+          ]
+        },
+        {
+          "id": "pid-inpatient",
+          "context": "severe-inpatient-or-tubo-ovarian-abscess",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone"
+              ],
+              "selection": "all-of"
+            },
+            {
+              "antibioticIds": [
+                "doxycycline"
+              ],
+              "selection": "all-of"
+            },
+            {
+              "antibioticIds": [
+                "metronidazole"
+              ],
+              "selection": "all-of"
+            }
+          ],
+          "conditions": [
+            "severe illness, 임신, abscess, 경구 불가 또는 외과적 응급질환 미배제"
+          ],
+          "avoidWhen": [],
+          "notes": [
+            "임상 호전 후 경구 치료로 전환해 전체 치료 과정을 완료한다."
+          ],
+          "sourceIds": [
+            "cdc-pid-2021",
+            "bashh-pid-2019"
+          ]
+        },
+        {
+          "id": "pid-inpatient-alternative",
+          "context": "inpatient-alternative",
+          "rank": "alternative",
+          "components": [
+            {
+              "antibioticIds": [
+                "clindamycin"
+              ],
+              "selection": "all-of"
+            },
+            {
+              "antibioticIds": [
+                "gentamicin"
+              ],
+              "selection": "all-of"
+            }
+          ],
+          "conditions": [
+            "표준 cephalosporin regimen 사용이 부적절"
+          ],
+          "avoidWhen": [],
+          "notes": [
+            "aminoglycoside TDM과 신기능 모니터링이 필요하다."
+          ],
+          "sourceIds": [
+            "cdc-pid-2021",
+            "bashh-pid-2019"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cdc-pid-2021",
+        "bashh-pid-2019"
+      ]
+    },
+    {
+      "aliases": [
+        "급성 게실염",
+        "acute colonic diverticulitis"
+      ],
+      "severity": [
+        "uncomplicated-systemically-well",
+        "uncomplicated-high-risk",
+        "complicated"
+      ],
+      "exclusions": [
+        "asymptomatic-diverticulosis",
+        "diverticular-bleeding-without-infection"
+      ],
+      "sourceControlNotes": [
+        "배액 가능한 abscess, free perforation 또는 지속 sepsis에서는 percutaneous drainage나 수술 source control을 지연하지 않는다."
+      ],
+      "stewardshipNotes": [
+        "면역기능이 정상이고 전신적으로 안정된 CT-confirmed uncomplicated diverticulitis에는 항생제를 선택적으로 사용한다.",
+        "합병증이 없고 호전되면 IV 항생제를 48시간 내 재평가해 경구 전환과 단축 치료를 고려한다."
+      ],
+      "targetedTherapies": [],
+      "quizQuestions": [
+        {
+          "id": "diverticulitis-pathogen-group",
+          "type": "disease-to-organism",
+          "prompt": "항생제가 필요한 complicated diverticulitis에서 핵심 Gram-negative pathogen group은?",
+          "choiceIds": [
+            "enterobacterales",
+            "pneumococcus",
+            "mrsa",
+            "atypicals"
+          ],
+          "correctId": "enterobacterales",
+          "explanation": "Colonic source infection에서는 Enterobacterales와 B. fragilis group을 포함한 anaerobes를 함께 고려한다.",
+          "sourceIds": [
+            "nice-diverticulitis-2019",
+            "aga-diverticulitis-2021"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18",
+      "id": "adult-acute-diverticulitis",
+      "displayName": "성인 acute diverticulitis",
+      "diseaseSourceFile": "03 소화기/위장관/게실염 (Diverticulitis).md",
+      "infectionSite": "colonic-intra-abdominal",
+      "setting": "community",
+      "population": [
+        "adult",
+        "immunocompromised"
+      ],
+      "diagnosticNotes": [
+        "임상 소견만으로는 정확도가 제한되므로 첫 진단, 중증·비전형 경과 또는 합병증 의심 시 contrast CT로 확인한다.",
+        "abscess, perforation, obstruction, fistula와 sepsis 여부를 구분하고 면역저하·중요 동반질환을 확인한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "colonic-polymicrobial-infection",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "b_fragilis",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "e_faecalis",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "diverticulitis-oral-high-risk",
+          "context": "uncomplicated-but-systemically-unwell-or-high-risk",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "amoxicillinclavulanate"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "전신 증상, 면역저하 또는 중요한 동반질환"
+          ],
+          "avoidWhen": [
+            "전신적으로 안정된 low-risk uncomplicated diverticulitis에 routine 투여"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "nice-diverticulitis-2019",
+            "aga-diverticulitis-2021"
+          ]
+        },
+        {
+          "id": "diverticulitis-complicated-iv",
+          "context": "complicated-or-admitted",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "cefuroxime"
+              ],
+              "selection": "all-of"
+            },
+            {
+              "antibioticIds": [
+                "metronidazole"
+              ],
+              "selection": "all-of"
+            }
+          ],
+          "conditions": [
+            "abscess, perforation, obstruction, sepsis 또는 입원 치료 필요"
+          ],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "nice-diverticulitis-2019",
+            "aga-diverticulitis-2021"
+          ]
+        },
+        {
+          "id": "diverticulitis-complicated-broad",
+          "context": "severe-or-healthcare-exposed",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "piperacillintazobactam",
+                "ertapenem"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "중증도, 최근 항생제와 resistant Enterobacterales 위험을 반영"
+          ],
+          "avoidWhen": [
+            "구체적 MDR 위험 없이 carbapenem을 routine 사용"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "nice-diverticulitis-2019",
+            "aga-diverticulitis-2021"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nice-diverticulitis-2019",
+        "aga-diverticulitis-2021"
+      ]
+    },
+    {
+      "aliases": [
+        "ABP",
+        "급성 세균성 전립샘염",
+        "acute prostatitis"
+      ],
+      "severity": [
+        "outpatient-stable",
+        "systemically-unwell",
+        "abscess-or-retention"
+      ],
+      "exclusions": [
+        "chronic-pelvic-pain-syndrome",
+        "chronic-bacterial-prostatitis"
+      ],
+      "sourceControlNotes": [
+        "급성 요폐는 urethral instrumentation 위험을 고려해 urology와 배액 방법을 결정하고, prostatic abscess는 크기와 반응에 따라 배액한다."
+      ],
+      "stewardshipNotes": [
+        "배양과 감수성 결과가 나오면 전립선 침투가 가능한 가장 좁은 약제로 전환한다.",
+        "fluoroquinolone은 최근 노출, 지역 내성과 disabling adverse effect를 검토한 뒤 사용한다."
+      ],
+      "targetedTherapies": [],
+      "quizQuestions": [
+        {
+          "id": "abp-common-pathogen",
+          "type": "disease-to-organism",
+          "prompt": "acute bacterial prostatitis에서 가장 흔한 원인균군은?",
+          "choiceIds": [
+            "enterobacterales",
+            "pneumococcus",
+            "atypicals",
+            "mrsa"
+          ],
+          "correctId": "enterobacterales",
+          "explanation": "E. coli를 포함한 Enterobacterales가 가장 흔하며 최근 시술과 의료 노출에서는 내성 및 Pseudomonas 위험을 별도 평가한다.",
+          "sourceIds": [
+            "nice-prostatitis-2018",
+            "eau-urological-infections-2025"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18",
+      "id": "adult-acute-bacterial-prostatitis",
+      "displayName": "성인 acute bacterial prostatitis",
+      "diseaseSourceFile": "20 비뇨기과/전립샘염 (Prostatitis).md",
+      "infectionSite": "prostate-urinary-tract",
+      "setting": "mixed",
+      "population": [
+        "adult"
+      ],
+      "diagnosticNotes": [
+        "항생제 투여 전 midstream urine culture를 채취하고 sepsis, acute urinary retention과 prostatic abscess를 평가한다.",
+        "급성기 강한 prostate massage와 biopsy는 bacteremia·sepsis 위험 때문에 피한다.",
+        "48시간 내 호전이 없거나 악화되면 내성균, abscess, obstruction과 다른 진단을 재평가한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "ascending-urinary-pathogens",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "pseudomonas",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            },
+            {
+              "organismId": "e_faecalis",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "abp-stable-oral",
+          "context": "stable-outpatient-guided-by-local-susceptibility",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "ciprofloxacin",
+                "levofloxacin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "경구 가능, sepsis·요폐·abscess 없음, 지역 fluoroquinolone 감수성 허용"
+          ],
+          "avoidWhen": [
+            "최근 fluoroquinolone 노출 또는 내성 위험이 높음"
+          ],
+          "notes": [
+            "14일에 재평가해 임상·배양 결과에 따라 총 치료 기간을 결정한다."
+          ],
+          "sourceIds": [
+            "nice-prostatitis-2018",
+            "eau-urological-infections-2025"
+          ]
+        },
+        {
+          "id": "abp-stable-trimethoprim",
+          "context": "stable-outpatient-fluoroquinolone-unsuitable",
+          "rank": "alternative",
+          "components": [
+            {
+              "antibioticIds": [
+                "trimethoprim",
+                "trimethoprimsulfamethoxazole"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "감수성이 확인되거나 매우 유력하고 fluoroquinolone이 부적절"
+          ],
+          "avoidWhen": [
+            "감수성 근거 없는 경험적 사용"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "nice-prostatitis-2018",
+            "eau-urological-infections-2025"
+          ]
+        },
+        {
+          "id": "abp-severe-iv",
+          "context": "systemically-unwell-or-unable-to-take-oral",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone",
+                "cefuroxime",
+                "gentamicin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "sepsis 우려, 경구 불가 또는 합병증"
+          ],
+          "avoidWhen": [],
+          "notes": [
+            "48시간 내 IV-to-PO 전환 가능성을 재평가하며 aminoglycoside는 TDM과 신기능을 확인한다."
+          ],
+          "sourceIds": [
+            "nice-prostatitis-2018",
+            "eau-urological-infections-2025"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nice-prostatitis-2018",
+        "eau-urological-infections-2025"
+      ]
+    },
+    {
+      "aliases": [
+        "급성 부고환염",
+        "epididymo-orchitis"
+      ],
+      "severity": [
+        "outpatient",
+        "severe-or-complicated"
+      ],
+      "exclusions": [
+        "testicular-torsion",
+        "noninfectious-epididymal-pain"
+      ],
+      "sourceControlNotes": [
+        "abscess, infarction 또는 necrotizing infection이 의심되면 입원과 외과 평가를 시행한다."
+      ],
+      "stewardshipNotes": [
+        "성적으로 활동적인 환자는 검사 결과 전 presumptive STI treatment가 필요할 수 있으며 파트너 평가와 치료를 병행한다.",
+        "enteric-only regimen은 gonorrhea를 배제하고 배양 감수성을 확인한 경우에 사용한다."
+      ],
+      "targetedTherapies": [],
+      "quizQuestions": [
+        {
+          "id": "epididymitis-sti-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "gonorrhea와 chlamydia가 의심되는 acute epididymitis regimen의 주사 성분은?",
+          "choiceIds": [
+            "ceftriaxone",
+            "vancomycin",
+            "ertapenem",
+            "fidaxomicin"
+          ],
+          "correctId": "ceftriaxone",
+          "explanation": "Ceftriaxone에 doxycycline을 병합해 gonococcus와 chlamydia를 함께 치료한다.",
+          "sourceIds": [
+            "cdc-epididymitis-2021",
+            "eau-urological-infections-2025"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18",
+      "id": "adult-acute-epididymitis",
+      "displayName": "성인 acute epididymitis",
+      "diseaseSourceFile": "20 비뇨기과/급성 부고환염 (Acute epididymitis).md",
+      "infectionSite": "epididymis-genitourinary",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "diagnosticNotes": [
+        "갑작스러운 심한 unilateral scrotal pain에서는 testicular torsion을 우선 배제하고 불확실하면 즉시 urologic evaluation을 시행한다.",
+        "gonorrhea·chlamydia NAAT와 urine culture를 시행하고 성접촉, insertive anal sex, urinary instrumentation과 outlet obstruction을 확인한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "sexually-transmitted",
+          "organisms": [
+            {
+              "organismId": "n_gonorrhoeae",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "c_trachomatis",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "m_genitalium",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": "enteric-or-instrumentation-related",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "pseudomonas",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "epididymitis-sti",
+          "context": "likely-gonorrhea-or-chlamydia",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone"
+              ],
+              "selection": "all-of"
+            },
+            {
+              "antibioticIds": [
+                "doxycycline"
+              ],
+              "selection": "all-of"
+            }
+          ],
+          "conditions": [
+            "성매개 원인 가능성이 높음"
+          ],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-epididymitis-2021",
+            "eau-urological-infections-2025"
+          ]
+        },
+        {
+          "id": "epididymitis-sti-enteric",
+          "context": "sti-plus-enteric-risk",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone"
+              ],
+              "selection": "all-of"
+            },
+            {
+              "antibioticIds": [
+                "levofloxacin"
+              ],
+              "selection": "all-of"
+            }
+          ],
+          "conditions": [
+            "insertive anal sex 등 STI와 enteric pathogen을 함께 고려"
+          ],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "cdc-epididymitis-2021",
+            "eau-urological-infections-2025"
+          ]
+        },
+        {
+          "id": "epididymitis-enteric-only",
+          "context": "enteric-organisms-only",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "levofloxacin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "gonorrhea가 배제되고 urinary instrumentation 또는 bacteriuria가 뒷받침"
+          ],
+          "avoidWhen": [
+            "gonorrhea 배제 전 단독 사용"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "cdc-epididymitis-2021",
+            "eau-urological-infections-2025"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cdc-epididymitis-2021",
+        "eau-urological-infections-2025"
+      ]
+    },
+    {
+      "aliases": [
+        "급성 쓸개염",
+        "acute cholecystitis"
+      ],
+      "severity": [
+        "grade-I",
+        "grade-II",
+        "grade-III"
+      ],
+      "exclusions": [
+        "biliary-colic-without-inflammation",
+        "acute-cholangitis"
+      ],
+      "sourceControlNotes": [
+        "수술 가능한 환자에서는 조기 laparoscopic cholecystectomy가 핵심 source control이며, 고위험 중증 환자는 gallbladder drainage를 고려한다."
+      ],
+      "stewardshipNotes": [
+        "uncomplicated cholecystectomy로 source control이 완전하면 수술 후 항생제를 불필요하게 연장하지 않는다.",
+        "anaerobic coverage는 bilio-enteric anastomosis 등 구체적 위험이 있을 때 선택적으로 추가한다."
+      ],
+      "targetedTherapies": [],
+      "quizQuestions": [
+        {
+          "id": "cholecystitis-common-pathogen",
+          "type": "disease-to-organism",
+          "prompt": "acute cholecystitis에서 우선 고려하는 Gram-negative pathogen group은?",
+          "choiceIds": [
+            "enterobacterales",
+            "mrsa",
+            "pneumococcus",
+            "atypicals"
+          ],
+          "correctId": "enterobacterales",
+          "explanation": "E. coli와 Klebsiella spp.를 포함한 Enterobacterales가 대표적이며 healthcare exposure에서는 추가 위험을 평가한다.",
+          "sourceIds": [
+            "tokyo-cholangitis-2018",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18",
+      "id": "adult-acute-calculous-cholecystitis",
+      "displayName": "성인 acute calculous cholecystitis",
+      "diseaseSourceFile": "03 소화기/간담췌/급성 쓸개염 (Acute Cholecystitis).md",
+      "infectionSite": "gallbladder-biliary-tract",
+      "setting": "mixed",
+      "population": [
+        "adult"
+      ],
+      "diagnosticNotes": [
+        "국소 염증 소견, 전신 염증 반응과 imaging을 함께 사용해 진단하고 cholangitis·pancreatitis를 구분한다.",
+        "장기기능장애, 발병 기간, 국소 합병증과 Charlson/ASA 등 수술 위험을 반영해 중증도를 평가한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "biliary-enteric-pathogens",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "e_faecalis",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            },
+            {
+              "organismId": "b_fragilis",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            },
+            {
+              "organismId": "pseudomonas",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "cholecystitis-community",
+          "context": "community-acquired-grade-I-or-II",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone",
+                "cefotaxime",
+                "amoxicillinclavulanate"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "MDR 위험과 장기기능장애 없음"
+          ],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "tokyo-cholangitis-2018",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "id": "cholecystitis-severe",
+          "context": "grade-III-or-healthcare-associated",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "piperacillintazobactam",
+                "cefepime",
+                "meropenem"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "sepsis, 장기기능장애 또는 healthcare-associated resistant-pathogen risk"
+          ],
+          "avoidWhen": [
+            "구체적 ESBL/MDR 위험 없이 carbapenem routine 사용"
+          ],
+          "notes": [
+            "cefepime을 선택하고 anaerobic risk가 있으면 metronidazole을 별도 고려한다."
+          ],
+          "sourceIds": [
+            "tokyo-cholangitis-2018",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "tokyo-cholangitis-2018",
+        "kdca-antibiotic-practice-2026"
+      ]
+    },
+    {
+      "aliases": [
+        "급성 충수염",
+        "complicated appendicitis"
+      ],
+      "severity": [
+        "uncomplicated",
+        "perforated",
+        "abscess-or-phlegmon",
+        "sepsis"
+      ],
+      "exclusions": [
+        "noninfectious-right-lower-quadrant-pain"
+      ],
+      "sourceControlNotes": [
+        "appendectomy가 표준 source control이며, 선별된 periappendiceal abscess·phlegmon에서는 antibiotics와 percutaneous drainage를 포함한 비수술 접근을 고려할 수 있다."
+      ],
+      "stewardshipNotes": [
+        "uncomplicated appendicitis에서 수술 전 단회 항생제 후 routine postoperative antibiotics를 사용하지 않는다.",
+        "complicated appendicitis도 적절한 source control 후에는 임상 반응에 따라 짧은 치료 기간을 사용한다."
+      ],
+      "targetedTherapies": [],
+      "quizQuestions": [
+        {
+          "id": "appendicitis-coverage",
+          "type": "disease-to-organism",
+          "prompt": "complicated appendicitis에서 aerobic Gram-negative와 함께 반드시 고려할 균군은?",
+          "choiceIds": [
+            "b_fragilis",
+            "pneumococcus",
+            "mrsa",
+            "atypicals"
+          ],
+          "correctId": "b_fragilis",
+          "explanation": "Appendiceal source infection은 Enterobacterales와 B. fragilis group을 포함한 anaerobic coverage가 필요하다.",
+          "sourceIds": [
+            "wses-appendicitis-2020",
+            "sis-iai-2024"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-18",
+      "id": "adult-acute-appendicitis",
+      "displayName": "성인 acute appendicitis",
+      "diseaseSourceFile": "11 외과/급성 충수염 (Acute Appendicitis).md",
+      "infectionSite": "appendix-intra-abdominal",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "diagnosticNotes": [
+        "clinical score와 imaging으로 진단하고 uncomplicated와 gangrene, perforation, abscess·phlegmon을 구분한다.",
+        "sepsis, diffuse peritonitis와 임신 가능성 등 영상·수술 전략을 바꾸는 조건을 초기 평가한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "appendiceal-polymicrobial-infection",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "b_fragilis",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "e_faecalis",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "appendicitis-perioperative",
+          "context": "uncomplicated-preoperative",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "cefoxitin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "appendectomy 전 enteric Gram-negative와 anaerobic coverage"
+          ],
+          "avoidWhen": [],
+          "notes": [
+            "ceftriaxone과 metronidazole 병합도 기관 protocol에 따라 사용한다."
+          ],
+          "sourceIds": [
+            "wses-appendicitis-2020",
+            "sis-iai-2024"
+          ]
+        },
+        {
+          "id": "appendicitis-complicated",
+          "context": "perforated-abscess-or-sepsis",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone"
+              ],
+              "selection": "all-of"
+            },
+            {
+              "antibioticIds": [
+                "metronidazole"
+              ],
+              "selection": "all-of"
+            }
+          ],
+          "conditions": [
+            "complicated appendicitis"
+          ],
+          "avoidWhen": [],
+          "notes": [],
+          "sourceIds": [
+            "wses-appendicitis-2020",
+            "sis-iai-2024"
+          ]
+        },
+        {
+          "id": "appendicitis-severe-broad",
+          "context": "severe-or-resistant-pathogen-risk",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "piperacillintazobactam",
+                "meropenem"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "septic shock, healthcare exposure 또는 검증된 MDR 위험"
+          ],
+          "avoidWhen": [
+            "low-risk uncomplicated appendicitis"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "wses-appendicitis-2020",
+            "sis-iai-2024"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "wses-appendicitis-2020",
+        "sis-iai-2024"
+      ]
     }
   ],
   "pathogens": [
@@ -2979,6 +4891,58 @@
         "N. gonorrhoeae"
       ],
       "spectrumOrganismId": "neisseria"
+    },
+    {
+      "id": "c_difficile",
+      "label": "Clostridioides difficile",
+      "aliases": [
+        "C. difficile",
+        "CDI"
+      ],
+      "spectrumOrganismId": "clostridia"
+    },
+    {
+      "id": "moraxella_catarrhalis",
+      "label": "Moraxella catarrhalis",
+      "aliases": [
+        "M. catarrhalis"
+      ]
+    },
+    {
+      "id": "pasteurella_multocida",
+      "label": "Pasteurella multocida",
+      "aliases": [
+        "P. multocida"
+      ]
+    },
+    {
+      "id": "capnocytophaga",
+      "label": "Capnocytophaga spp.",
+      "aliases": [
+        "Capnocytophaga"
+      ]
+    },
+    {
+      "id": "eikenella",
+      "label": "Eikenella corrodens",
+      "aliases": [
+        "E. corrodens"
+      ]
+    },
+    {
+      "id": "c_trachomatis",
+      "label": "Chlamydia trachomatis",
+      "aliases": [
+        "C. trachomatis",
+        "chlamydia"
+      ]
+    },
+    {
+      "id": "m_genitalium",
+      "label": "Mycoplasma genitalium",
+      "aliases": [
+        "M. genitalium"
+      ]
     }
   ]
 }
