@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { useDeferredValue, useState } from "react";
-import { ArrowUpRight, ChevronRight, GraduationCap, Maximize2, RotateCw, Search, ShieldAlert, X } from "lucide-react";
+import { ArrowUpRight, GraduationCap, Maximize2, RotateCw, Search, ShieldAlert, X } from "lucide-react";
 import type { AntibioticEntry, AntibioticSpectrumDataset, CoverageLevel, PregnancyStatus } from "@/lib/types";
+import { AntibioticQuiz } from "@/components/antibiotic-quiz";
 
 type Mode = "matrix" | "organism" | "antibiotic" | "quiz";
 type OrganismGroup = "Gram-positive" | "Gram-negative" | "Anaerobes" | "Atypicals" | "Resistance phenotype";
@@ -99,25 +100,7 @@ function SpectrumTable({ antibiotics, organisms, matchingOnly }: { antibiotics: 
 }
 
 function QuizPanel({ dataset }: { dataset: AntibioticSpectrumDataset }) {
-  const questions = [
-    { organismId: "pseudomonas", correctId: "piperacillintazobactam", choices: ["piperacillintazobactam", "ceftriaxone", "linezolid", "metronidazole"] },
-    { organismId: "vre", correctId: "linezolid", choices: ["linezolid", "cefepime", "ceftriaxone", "metronidazole"] },
-    { organismId: "b_fragilis", correctId: "metronidazole", choices: ["metronidazole", "azithromycin", "cefepime", "gentamicin"] },
-  ].filter((question) => question.choices.every((id) => dataset.antibiotics.some((entry) => entry.id === id)));
-  const [index, setIndex] = useState(0);
-  const [answer, setAnswer] = useState<string | null>(null);
-  const question = questions[index] ?? questions[0];
-  if (!question) return null;
-  const organism = dataset.organisms.find((item) => item.id === question.organismId);
-  const entries = question.choices.map((id) => dataset.antibiotics.find((item) => item.id === id)).filter(Boolean) as AntibioticEntry[];
-  const correct = dataset.antibiotics.find((item) => item.id === question.correctId)!;
-  const next = () => { setAnswer(null); setIndex((value) => (value + 1) % questions.length); };
-  return <section className="mx-auto max-w-2xl rounded-3xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-    <div className="flex items-center justify-between gap-4"><div><div className="text-xs font-semibold uppercase tracking-[0.18em] text-teal-700">Quiz prototype</div><h2 className="mt-2 text-2xl font-bold text-slate-950">균 → 항생제 선택</h2></div><span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600">{index + 1} / {questions.length}</span></div>
-    <p className="mt-6 text-lg font-semibold leading-8 text-slate-900">다음 중 <span className="text-teal-700">{organism?.label}</span>에 대해 이 overview에서 <span className="underline decoration-teal-400 underline-offset-4">활성 기대 이상</span>으로 분류된 약물은?</p>
-    <div className="mt-6 grid gap-3">{entries.map((entry) => { const selected = answer === entry.id; const isCorrect = entry.id === correct.id; const status = answer ? (isCorrect ? "border-emerald-500 bg-emerald-50" : selected ? "border-rose-400 bg-rose-50" : "border-slate-200") : "border-slate-200 hover:border-teal-400 hover:bg-teal-50"; return <button key={entry.id} type="button" disabled={Boolean(answer)} onClick={() => setAnswer(entry.id)} className={`flex items-center justify-between rounded-xl border p-4 text-left transition ${status}`}><span><strong className="text-slate-950">{entry.inn}</strong><span className="ml-2 text-sm text-slate-500">{entry.displayName}</span></span>{answer ? <CoverageBadge level={coverage(entry, question.organismId)} /> : <ChevronRight className="h-4 w-4 text-slate-400" />}</button>; })}</div>
-    {answer ? <div className="mt-6 rounded-xl border border-slate-200 bg-slate-50 p-4"><p className="font-semibold text-slate-950">{answer === correct.id ? "정답입니다." : `정답은 ${correct.inn}입니다.`}</p><p className="mt-2 text-sm leading-6 text-slate-700">{organism?.label}에 대한 표시는 <b>{COVERAGE[coverage(correct, question.organismId)].label}</b>입니다. 실제 처방에서는 감수성, 감염 부위, 환자 상태와 기관 antibiogram을 함께 확인합니다.</p><button type="button" onClick={next} className="mt-4 rounded-full bg-slate-950 px-4 py-2 text-sm font-semibold text-white">다음 문제</button></div> : null}
-  </section>;
+  return <AntibioticQuiz dataset={dataset} />;
 }
 
 export function AntibioticOverview({ dataset }: { dataset: AntibioticSpectrumDataset }) {
