@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ChevronRight } from "lucide-react";
+import { ArrowLeft, ChevronRight, Table2 } from "lucide-react";
 import { buildDrugGroups } from "@/lib/drug-groups";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { getDrugs, getDrugToc } from "@/lib/webdb";
@@ -46,18 +46,17 @@ export default async function DrugCategoryPage(props: { params: Promise<{ slug: 
 
       <header className="rounded-lg border border-slate-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
         <div className="text-xs uppercase  text-slate-500">Drug category</div>
-        <h1 className="mt-3 text-4xl font-semibold ">{group.title}</h1>
+        <div className="mt-3 flex flex-wrap items-center gap-3">
+          <h1 className="text-4xl font-semibold ">{group.title}</h1>
+          {group.title.includes("감염") ? (
+            <Link href="/drugs/antibiotics" className="inline-flex items-center gap-2 rounded-xl bg-teal-700 px-4 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-teal-800">
+              <Table2 className="h-4 w-4" />
+              항생제 overview
+              <ChevronRight className="h-4 w-4" />
+            </Link>
+          ) : null}
+        </div>
       </header>
-
-      {group.title.includes("감염") ? (
-        <Link
-          href="/drugs/antibiotics"
-          className="flex items-center justify-between rounded-xl border border-teal-200 bg-teal-50 px-4 py-3 text-sm font-semibold text-teal-950 transition hover:border-teal-400 hover:bg-teal-100"
-        >
-          <span>항생제 spectrum 탐색기</span>
-          <ChevronRight className="h-4 w-4" />
-        </Link>
-      ) : null}
 
       <div className="space-y-5">
         {group.middleGroups.map((middleGroup) => (
