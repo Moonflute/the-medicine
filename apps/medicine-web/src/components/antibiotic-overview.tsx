@@ -110,7 +110,7 @@ function QuizPanel({ dataset }: { dataset: AntibioticSpectrumDataset }) {
   return <AntibioticQuiz dataset={dataset} />;
 }
 
-export function AntibioticOverview({ dataset, pathways, initialMode, initialOrganism, initialAntibiotic }: { dataset: AntibioticSpectrumDataset; pathways: InfectionPathwayDataset; initialMode?: string; initialOrganism?: string; initialAntibiotic?: string }) {
+export function AntibioticOverview({ dataset, pathways, initialMode, initialOrganism, initialAntibiotic, embedded = false }: { dataset: AntibioticSpectrumDataset; pathways: InfectionPathwayDataset; initialMode?: string; initialOrganism?: string; initialAntibiotic?: string; embedded?: boolean }) {
   const searchParams = useSearchParams();
   const resolvedMode = initialMode ?? searchParams.get("mode") ?? "";
   const resolvedOrganism = initialOrganism ?? searchParams.get("organism") ?? "";
@@ -136,10 +136,10 @@ export function AntibioticOverview({ dataset, pathways, initialMode, initialOrga
   const matrix = <SpectrumTable antibiotics={filteredDrugs} organisms={visibleOrganisms} matchingOnly={matchingOnly} />;
 
   return <div className="space-y-6">
-    <div className="grid grid-cols-[repeat(3,minmax(0,1fr))_2.5rem] items-center gap-2 sm:flex" role="tablist" aria-label="탐색 방식">
+    {!embedded ? <><div className="grid grid-cols-[repeat(3,minmax(0,1fr))_2.5rem] items-center gap-2 sm:flex" role="tablist" aria-label="탐색 방식">
       {([ ["matrix", "Matrix", "Spectrum matrix"], ["organism", "균→약", "균 → 항생제"], ["antibiotic", "약→균", "항생제 → 균"] ] as const).map(([value, mobileLabel, desktopLabel]) => <button key={value} type="button" role="tab" aria-selected={mode === value} onClick={() => setMode(value)} className={`min-w-0 rounded-full px-2 py-2 text-xs font-semibold transition sm:px-4 sm:text-sm ${mode === value ? "bg-slate-950 text-white" : "border border-slate-200 bg-white text-slate-700 hover:border-teal-400"}`}><span className="sm:hidden">{mobileLabel}</span><span className="hidden sm:inline">{desktopLabel}</span></button>)}
       <button type="button" aria-label="퀴즈 모드" title="퀴즈 모드" onClick={() => setMode("quiz")} className={`inline-flex h-10 w-10 items-center justify-center rounded-full border transition sm:ml-auto ${mode === "quiz" ? "border-teal-700 bg-teal-700 text-white" : "border-slate-200 bg-white text-slate-700 hover:border-teal-400"}`}><GraduationCap className="h-5 w-5" /></button>
-    </div>
+    </div></> : null}
 
     {mode !== "quiz" ? <section className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
       <div className="grid gap-3 lg:grid-cols-[minmax(220px,1.4fr)_repeat(3,minmax(150px,1fr))]"><label className="relative block"><Search className="pointer-events-none absolute left-3 top-3 h-4 w-4 text-slate-400" /><span className="sr-only">항생제 검색</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="성분명·한글명·class 검색" className="w-full rounded-xl border border-slate-200 bg-slate-50 py-2.5 pl-10 pr-3 text-sm outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-100" /></label><select value={drugClass} onChange={(event) => setDrugClass(event.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm"><option value="">모든 class</option>{classes.map((item) => <option key={item}>{item}</option>)}</select><select value={pregnancy} onChange={(event) => setPregnancy(event.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm"><option value="">임신 관련 상태 전체</option>{Object.entries(PREGNANCY_LABELS).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select><button type="button" onClick={reset} className="rounded-xl border border-slate-200 px-3 py-2.5 text-sm font-medium text-slate-600 hover:bg-slate-50">필터 초기화</button></div>

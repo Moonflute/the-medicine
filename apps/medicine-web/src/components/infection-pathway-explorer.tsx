@@ -22,7 +22,7 @@ function RegimenCard({ regimen, spectrum }: { regimen: InfectionPathway["empiric
   return <article className="rounded-xl border border-slate-200 bg-white p-4"><div className="flex flex-wrap items-center justify-between gap-2"><strong className="text-sm text-slate-950">{regimen.context}</strong><span className={`rounded-full px-2.5 py-1 text-[11px] font-bold ${regimen.rank === "preferred" ? "bg-emerald-100 text-emerald-900" : "bg-amber-100 text-amber-900"}`}>{RANK_LABELS[regimen.rank]}</span></div><div className="mt-3 space-y-2">{regimen.components.map((component, index) => <div key={`${regimen.id}-${index}`} className="flex flex-wrap items-center gap-2"><span className="text-[11px] font-bold uppercase text-slate-400">{index > 0 ? (component.selection === "optional" ? "필요 시 추가" : "AND") : component.selection === "one-of" ? "하나 선택" : "기본"}</span>{component.antibioticIds.map((id) => { const drug = spectrum.antibiotics.find((item) => item.id === id); return drug ? <Link key={id} href={`/drugs/antibiotics?mode=antibiotic&antibiotic=${id}`} className="rounded-full border border-teal-200 bg-teal-50 px-3 py-1 text-xs font-semibold text-teal-900 hover:border-teal-500">{drug.inn}</Link> : null; })}</div>)}</div>{regimen.conditions.length ? <ul className="mt-4 space-y-1 text-xs leading-5 text-slate-700">{regimen.conditions.map((item) => <li key={item}>• {item}</li>)}</ul> : null}{regimen.avoidWhen.length ? <div className="mt-3 rounded-lg bg-rose-50 p-3 text-xs leading-5 text-rose-900"><strong>피하거나 재평가:</strong> {regimen.avoidWhen.join(" · ")}</div> : null}{regimen.notes.map((item) => <p key={item} className="mt-2 text-xs leading-5 text-slate-600">{item}</p>)}</article>;
 }
 
-export function InfectionPathwayExplorer({ dataset, spectrum, initialPathway = "", initialOrganism = "", initialAntibiotic = "" }: { dataset: InfectionPathwayDataset; spectrum: AntibioticSpectrumDataset; initialPathway?: string; initialOrganism?: string; initialAntibiotic?: string }) {
+export function InfectionPathwayExplorer({ dataset, spectrum, initialPathway = "", initialOrganism = "", initialAntibiotic = "", embedded = false }: { dataset: InfectionPathwayDataset; spectrum: AntibioticSpectrumDataset; initialPathway?: string; initialOrganism?: string; initialAntibiotic?: string; embedded?: boolean }) {
   const searchParams = useSearchParams();
   const verified = dataset.pathways.filter((item) => item.reviewStatus === "verified");
   const resolvedPathway = initialPathway || searchParams.get("pathway") || "";
@@ -49,10 +49,10 @@ export function InfectionPathwayExplorer({ dataset, spectrum, initialPathway = "
   const reset = () => { setQuery(""); setSite(""); setSetting(""); setPopulation(""); };
 
   return <div className="space-y-3">
-    <div className="flex flex-wrap items-center justify-between gap-3">
+    {!embedded ? <><div className="flex flex-wrap items-center justify-between gap-3">
       <div className="inline-flex rounded-full border border-slate-200 bg-white p-1 shadow-sm"><button type="button" onClick={() => setMode("explore")} className={`rounded-full px-3 py-1.5 text-xs font-bold sm:px-4 sm:text-sm ${mode === "explore" ? "bg-slate-950 text-white" : "text-slate-600"}`}>{"\uc784\uc0c1 \uacbd\ub85c \ud0d0\uc0c9"}</button><button type="button" onClick={() => setMode("quiz")} className={`rounded-full px-3 py-1.5 text-xs font-bold sm:px-4 sm:text-sm ${mode === "quiz" ? "bg-teal-700 text-white" : "text-slate-600"}`}>{"\ud034\uc988"}</button></div>
       {mode === "explore" ? <span className="text-xs text-slate-500">{"\uac80\uc99d\ub41c \uacbd\ub85c"} {filtered.length}/{verified.length}{"\uac1c"}</span> : null}
-    </div>
+    </div></> : null}
     {mode === "quiz" ? <ClinicalInfectionQuiz pathways={verified} spectrum={spectrum} sources={dataset.sources} /> : <>
       <div className="grid gap-4 xl:grid-cols-[280px_minmax(0,1fr)]">
         <aside className="space-y-3 xl:sticky xl:top-4 xl:self-start">
