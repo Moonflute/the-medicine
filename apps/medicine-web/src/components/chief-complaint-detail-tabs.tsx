@@ -6,7 +6,7 @@ import type { ChiefComplaintExamSlot, ChiefComplaintHistorySlot, ChiefComplaintN
 import { ChiefComplaintRecommendationPicker } from "@/components/chief-complaint-recommendation-picker";
 import { RichTextLines } from "@/components/rich-text-lines";
 
-type ViewKey = "concept" | "outpatient" | "inpatient";
+type ViewKey = "concept" | "outpatient" | "inpatient" | "emergency";
 
 type CommonHistoryFlow = {
   key: string;
@@ -347,6 +347,7 @@ const VIEWS: Array<{ key: ViewKey; label: string }> = [
   { key: "concept", label: "\uAC1C\uB150" },
   { key: "outpatient", label: "\uC678\uB798" },
   { key: "inpatient", label: "\uC785\uC6D0" },
+  { key: "emergency", label: "ER" },
 ];
 
 function sectionMatches(section: DiseaseSection, names: string[]) {
@@ -360,6 +361,10 @@ function getViewSections(note: ChiefComplaintNote, view: ViewKey) {
 
   if (view === "outpatient") {
     return note.sections.filter((section) => sectionMatches(section, ["Hx", "PEx", "\uD658\uC790\uAD50\uC721"]));
+  }
+
+  if (view === "emergency") {
+    return note.sections.filter((section) => section.title.trim().toLowerCase() === "er");
   }
 
   return note.sections.filter((section) => sectionMatches(section, ["\uC811\uADFC", "\uAC80\uC0AC", "\uCE58\uB8CC"]));
@@ -461,6 +466,10 @@ export function ChiefComplaintDetailTabs({
   diseaseLinks: TermLink[];
 }) {
   const [activeView, setActiveView] = useState<ViewKey>("concept");
+  const views = useMemo(
+    () => VIEWS.filter((view) => view.key !== "emergency" || note.sections.some((section) => section.title.trim().toLowerCase() === "er")),
+    [note.sections],
+  );
   const sections = useMemo(() => getViewSections(note, activeView), [note, activeView]);
 
   return (
@@ -470,7 +479,7 @@ export function ChiefComplaintDetailTabs({
         <div className="mt-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <h1 className="text-2xl font-semibold text-slate-950 sm:text-3xl">{note.title}</h1>
           <div className="inline-flex rounded-lg border border-slate-200 bg-slate-50 p-1">
-            {VIEWS.map((view) => {
+            {views.map((view) => {
               const selected = activeView === view.key;
               return (
                 <button
@@ -493,7 +502,7 @@ export function ChiefComplaintDetailTabs({
       </article>
 
       <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
-        <div className="mb-3 text-xs uppercase text-slate-500">{VIEWS.find((view) => view.key === activeView)?.label}</div>
+        <div className="mb-3 text-xs uppercase text-slate-500">{views.find((view) => view.key === activeView)?.label}</div>
         <div className="space-y-4">
           {sections.map((section) => (
             <section key={activeView + "-" + section.title} className="rounded-lg border border-slate-200 p-4">

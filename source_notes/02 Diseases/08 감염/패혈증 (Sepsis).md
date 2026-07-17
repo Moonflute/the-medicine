@@ -18,6 +18,11 @@ sources:
 - 'Surviving Sepsis Campaign Adult Guidelines 2026 | https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines'
 disease_family: sepsis
 population: adult
+관련분과:
+- 응급의학
+응급의학_분류:
+- 주요 장기계 응급
+- 감염
 ---
 
 ## 1. 개요

@@ -18,6 +18,11 @@ guideline_year: "2022"
 sources: ["2022 대한심부전학회 심부전 진료지침 | https://www.koreanhf.org/file/2022_KSHF_HF_Guideline.pdf", "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-and-Chronic-Heart-Failure"]
 
 content_updated_at: "2026-07-16"
+관련분과:
+- 응급의학
+응급의학_분류:
+- 주요 장기계 응급
+- 심혈관
 ---
 분과 : [[순환기]]
 

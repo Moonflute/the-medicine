@@ -128,7 +128,14 @@ export function getDrugToc(): DomainToc { return readJson<DomainToc>("drug-toc.j
 export function getLabImgToc(): DomainToc { return readJson<DomainToc>("lab-img-toc.json"); }
 
 export function getDiseasesBySpecialty(slug: string): DiseaseNote[] {
-  return getAllDiseases().filter((note) => toBase64Url(note.specialty) === slug);
+  const specialty = getSpecialties().find((item) => item.slug === slug);
+  if (!specialty) return [];
+
+  const target = normalizeSpecialtyLabel(specialty.name);
+  return getAllDiseases().filter((note) => (
+    note.specialty === specialty.name
+    || note.relatedSpecialties?.some((item) => normalizeSpecialtyLabel(item) === target)
+  ));
 }
 
 export function getDiseaseSearchIndex(): SearchEntry[] {

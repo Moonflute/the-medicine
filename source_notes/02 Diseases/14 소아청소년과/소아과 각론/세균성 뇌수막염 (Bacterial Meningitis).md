@@ -21,6 +21,11 @@ guideline_year: "2025"
 sources: ["[Clinical practice guidelines for the diagnosis and treatment of community-acquired bacterial meningitis in children (2025)]. | https://pubmed.ncbi.nlm.nih.gov/39844486/"]
 
 content_updated_at: "2026-07-16"
+관련분과:
+- 응급의학
+응급의학_분류:
+- 주요 장기계 응급
+- 감염
 ---
 분과 : [[소아청소년과]]
 

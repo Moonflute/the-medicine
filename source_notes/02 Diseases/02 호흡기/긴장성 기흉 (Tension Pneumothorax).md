@@ -16,6 +16,11 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "stable_reference_only"
 reviewed_at: "2026-07-16"
+관련분과:
+- 응급의학
+응급의학_분류:
+- 주요 장기계 응급
+- 호흡기
 ---
 분과 : [[호흡기]]
 

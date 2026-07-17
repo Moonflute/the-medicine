@@ -17,6 +17,11 @@ guideline_year: "2023"
 sources: ["2020년 급성 심근경색증의 약물 치료법에 대한 전문가 합의문 | https://www.koreamed.org/SearchBasic.php?RID=0106KCJ/2020.50.10.875", "2023 ESC Guidelines for the management of acute coronary syndromes | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Coronary-Syndromes-ACS-in-patients-presenting-without-persistent-ST-segment-elevation"]
 
 content_updated_at: "2026-07-16"
+관련분과:
+- 응급의학
+응급의학_분류:
+- 주요 장기계 응급
+- 심혈관
 ---
 분과 : [[순환기]]
 

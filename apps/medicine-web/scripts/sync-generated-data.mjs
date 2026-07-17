@@ -379,6 +379,8 @@ function buildDiseases() {
       specialty,
       category: readScalar(frontmatter["계통"]) || readScalar(frontmatter["category"]) || specialty.replace(/^\d+\s*/, ""),
       classification: readList(frontmatter["분류"]),
+      relatedSpecialties: readList(frontmatter["\uAD00\uB828\uBD84\uACFC"]),
+      emergencyClassification: readList(frontmatter["\uC751\uAE09\uC758\uD559_\uBD84\uB958"]),
       aliases: readList(frontmatter["aliases"]),
       chiefComplaints: readList(frontmatter["CC"]),
       definition: extractDefinition(body),
@@ -1167,11 +1169,14 @@ function main() {
   const labImgToc = buildDomainToc("06 Lab & Img");
   const specialtyToc = buildSpecialtyToc();
 
-  const specialties = [...new Map(diseases.map((item) => [item.specialty, item])).keys()].map((name) => ({
-    name,
-    slug: toSlug(name),
-    count: diseases.filter((item) => item.specialty === name).length,
-  }));
+  const specialties = [...new Map(diseases.map((item) => [item.specialty, item])).keys()].map((name) => {
+    const normalizedName = name.replace(/^\d+\s*/, "").trim();
+    const count = diseases.filter((item) => (
+      item.specialty === name || item.relatedSpecialties.some((specialty) => specialty.replace(/^\d+\s*/, "").trim() === normalizedName)
+    )).length;
+
+    return { name, slug: toSlug(name), count };
+  });
 
   const manifest = {
     generatedAt: new Date().toISOString(),

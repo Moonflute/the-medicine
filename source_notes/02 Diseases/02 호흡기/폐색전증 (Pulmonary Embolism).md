@@ -20,6 +20,11 @@ sources:
 disease_family: pulmonary_embolism
 population: "adult"
 document_role: "canonical"
+관련분과:
+- 응급의학
+응급의학_분류:
+- 주요 장기계 응급
+- 호흡기
 ---
 
 ## 1. 개요

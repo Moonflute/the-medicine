@@ -1,0 +1,477 @@
+{
+  "ok": true,
+  "er_note_count": 36,
+  "failures": [],
+  "unresolved_disease_links": [],
+  "unexpected_excluded_files": [],
+  "rows": [
+    {
+      "title": "가슴통증",
+      "path": "source_notes/01 Chief Complaint/가슴통증.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "가정폭력",
+      "path": "source_notes/01 Chief Complaint/가정폭력.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "객혈",
+      "path": "source_notes/01 Chief Complaint/객혈.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "경련 (성인)",
+      "path": "source_notes/01 Chief Complaint/경련 (성인).md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "경련 (소아)",
+      "path": "source_notes/01 Chief Complaint/경련 (소아).md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "고혈압",
+      "path": "source_notes/01 Chief Complaint/고혈압.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "골반통",
+      "path": "source_notes/01 Chief Complaint/골반통.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "관절 통증／붓기",
+      "path": "source_notes/01 Chief Complaint/관절 통증／붓기.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "구토",
+      "path": "source_notes/01 Chief Complaint/구토.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "근력／감각이상",
+      "path": "source_notes/01 Chief Complaint/근력／감각이상.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "급성복통",
+      "path": "source_notes/01 Chief Complaint/급성복통.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "눈 통증／시력저하",
+      "path": "source_notes/01 Chief Complaint/눈 통증／시력저하.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "두근거림",
+      "path": "source_notes/01 Chief Complaint/두근거림.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "두통",
+      "path": "source_notes/01 Chief Complaint/두통.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "멍",
+      "path": "source_notes/01 Chief Complaint/멍.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "목 통증",
+      "path": "source_notes/01 Chief Complaint/목 통증.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "발열",
+      "path": "source_notes/01 Chief Complaint/발열.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "변비",
+      "path": "source_notes/01 Chief Complaint/변비.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "상처／외상",
+      "path": "source_notes/01 Chief Complaint/상처／외상.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "설사",
+      "path": "source_notes/01 Chief Complaint/설사.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "성폭력",
+      "path": "source_notes/01 Chief Complaint/성폭력.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "실신",
+      "path": "source_notes/01 Chief Complaint/실신.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "어지럼증",
+      "path": "source_notes/01 Chief Complaint/어지럼증.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "의식장애",
+      "path": "source_notes/01 Chief Complaint/의식장애.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "인후통／연하곤란",
+      "path": "source_notes/01 Chief Complaint/인후통／연하곤란.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "자살",
+      "path": "source_notes/01 Chief Complaint/자살.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "중독／과량복용",
+      "path": "source_notes/01 Chief Complaint/중독／과량복용.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "질출혈",
+      "path": "source_notes/01 Chief Complaint/질출혈.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "토혈",
+      "path": "source_notes/01 Chief Complaint/토혈.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "피부 발진",
+      "path": "source_notes/01 Chief Complaint/피부 발진.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "핍뇨",
+      "path": "source_notes/01 Chief Complaint/핍뇨.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "허리 통증",
+      "path": "source_notes/01 Chief Complaint/허리 통증.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "혈뇨",
+      "path": "source_notes/01 Chief Complaint/혈뇨.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "혈변",
+      "path": "source_notes/01 Chief Complaint/혈변.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "호흡곤란",
+      "path": "source_notes/01 Chief Complaint/호흡곤란.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    },
+    {
+      "title": "황달",
+      "path": "source_notes/01 Chief Complaint/황달.md",
+      "headings": [
+        "1. 즉시 평가 및 안정화",
+        "2. 놓치면 안 되는 질환",
+        "3. 초기 검사",
+        "4. 초기 처치 및 재평가",
+        "5. Disposition",
+        "6. ER 함정"
+      ],
+      "failures": []
+    }
+  ]
+}

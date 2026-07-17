@@ -20,6 +20,11 @@ guideline_year: "2026"
 sources: ["Conservative management of pediatric patients with solid organ injury after blunt abdominal trauma. Consensus sponsored by the Spanish Society of Pediatric Surgery. | https://pubmed.ncbi.nlm.nih.gov/41550051/"]
 
 content_updated_at: "2026-07-16"
+관련분과:
+- 응급의학
+응급의학_분류:
+- 외상 및 창상
+- 부위별 외상
 ---
 분과 : [[외과]]
 

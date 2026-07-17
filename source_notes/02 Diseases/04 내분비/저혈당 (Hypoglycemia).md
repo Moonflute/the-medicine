@@ -27,6 +27,11 @@ relation_to_parent: acute_complication
 population: general
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
+관련분과:
+- 응급의학
+응급의학_분류:
+- 주요 장기계 응급
+- 내분비
 ---
 
 ## 1. 개요

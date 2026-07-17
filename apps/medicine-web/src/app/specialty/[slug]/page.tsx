@@ -63,8 +63,12 @@ function compareWithOrder(a: string, b: string, order: Map<string, number>, fall
   return sortLabels(fallbackA, fallbackB);
 }
 
-function cleanClassification(note: DiseaseNote) {
-  return note.classification
+function cleanClassification(note: DiseaseNote, specialtyLabel: string) {
+  const classification = specialtyLabel === "응급의학" && note.emergencyClassification.length > 0
+    ? note.emergencyClassification
+    : note.classification;
+
+  return classification
     .map((item) => item.trim())
     .filter((item) => item.length > 0);
 }
@@ -77,7 +81,7 @@ function buildGroups(notes: DiseaseNote[], specialtyLabel: string, tocOrder: Toc
   const firstLevel = new Map<string, DiseaseNote[]>();
 
   for (const note of notes) {
-    const classification = cleanClassification(note);
+    const classification = cleanClassification(note, specialtyLabel);
     const primary = classification[0] || note.category || specialtyLabel;
     const bucket = firstLevel.get(primary) ?? [];
     bucket.push(note);
@@ -101,7 +105,7 @@ function buildGroups(notes: DiseaseNote[], specialtyLabel: string, tocOrder: Toc
           continue;
         }
 
-        const classification = cleanClassification(note);
+        const classification = cleanClassification(note, specialtyLabel);
         const secondary = classification[1] || "";
         const bucket = secondLevelMap.get(secondary) ?? [];
         bucket.push(note);
@@ -119,7 +123,7 @@ function buildGroups(notes: DiseaseNote[], specialtyLabel: string, tocOrder: Toc
           const thirdLevelMap = new Map<string, DiseaseNote[]>();
 
           for (const note of secondLevelItems) {
-            const classification = cleanClassification(note);
+            const classification = cleanClassification(note, specialtyLabel);
             const tertiary = classification[2];
 
             if (!tertiary) {
@@ -216,7 +220,7 @@ function SpecialtyRoadmapSection({ roadmap }: { roadmap: NonNullable<ReturnType<
   );
 }
 
-function DiseaseLinks({ notes }: { notes: DiseaseNote[] }) {
+function DiseaseLinks({ notes, specialtyLabel }: { notes: DiseaseNote[]; specialtyLabel: string }) {
   return (
     <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
       {notes.map((note) => (
@@ -225,7 +229,12 @@ function DiseaseLinks({ notes }: { notes: DiseaseNote[] }) {
           href={`/disease/${note.slug}`}
           className="flex items-center justify-between rounded-lg border border-slate-200 bg-slate-50 px-4 py-3 transition hover:border-slate-300 hover:bg-white"
         >
-          <span className="pr-3 text-sm font-medium text-slate-950">{note.title}</span>
+          <span className="min-w-0 pr-3">
+            <span className="block text-sm font-medium text-slate-950">{note.title}</span>
+            {note.specialty.replace(/^\d+\s*/, "").trim() !== specialtyLabel ? (
+              <span className="mt-1 block text-xs text-slate-500">{note.specialty.replace(/^\d+\s*/, "").trim()}</span>
+            ) : null}
+          </span>
           <ChevronRight className="h-4 w-4 shrink-0 text-slate-400" />
         </Link>
       ))}
@@ -237,9 +246,10 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
   const params = await props.params;
   const slug = params.slug;
   const notes = getDiseasesBySpecialty(slug);
-  const title = notes[0]?.specialty;
+  const specialty = getSpecialties().find((item) => item.slug === slug);
+  const title = specialty?.name;
 
-  if (notes.length === 0) {
+  if (notes.length === 0 || !title) {
     notFound();
   }
 
@@ -288,7 +298,7 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
                     </div>
                   ) : null}
 
-                  {secondGroup.notes.length > 0 ? <DiseaseLinks notes={secondGroup.notes} /> : null}
+                  {secondGroup.notes.length > 0 ? <DiseaseLinks notes={secondGroup.notes} specialtyLabel={specialtyLabel} /> : null}
 
                   {secondGroup.thirdLevel.map((thirdGroup) => (
                     <div key={`${group.title}-${secondGroup.title}-${thirdGroup.title}`} className="space-y-3 pl-1">
@@ -299,7 +309,7 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
                         </h4>
                         <div className="h-px flex-1 bg-stone-200" />
                       </div>
-                      <DiseaseLinks notes={thirdGroup.notes} />
+                      <DiseaseLinks notes={thirdGroup.notes} specialtyLabel={specialtyLabel} />
                     </div>
                   ))}
                 </div>

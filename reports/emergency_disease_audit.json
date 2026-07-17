@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "expected_new_diseases": 8,
+  "new_disease_failures": [],
+  "related_disease_count": 26,
+  "related_metadata_failures": []
+}

@@ -1,19 +1,23 @@
 {
-  "generatedAt": "2026-07-14T23:32:00.245Z",
+  "generatedAt": "2026-07-17T10:19:45.835Z",
   "sourceRoot": "source_notes",
   "outputRoot": "_webapp/data",
   "domains": {
     "diseases": {
-      "count": 1178,
+      "count": 1186,
       "source": "02 Diseases"
     },
     "chiefComplaints": {
-      "count": 59,
+      "count": 64,
       "source": "01 Chief Complaint"
     },
     "drugs": {
-      "count": 345,
+      "count": 357,
       "source": "04 Pharmacology"
+    },
+    "antibioticSpectrum": {
+      "count": 57,
+      "source": "04 Pharmacology/08 감염/_data"
     },
     "physiology": {
       "count": 9,
@@ -52,9 +56,9 @@
       "source": "derived from diseases"
     },
     "clinicalRelations": {
-      "count": 6977,
-      "explicit": 4535,
-      "generated": 2442,
+      "count": 7310,
+      "explicit": 4713,
+      "generated": 2597,
       "source": "derived from frontmatter, structured CC recommendations, and wikilinks"
     }
   }

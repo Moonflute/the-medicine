@@ -22,6 +22,11 @@ disease_family: diabetes
 parent_disease: 당뇨병 (Diabetes Mellitus)
 relation_to_parent: acute_complication
 population: general
+관련분과:
+- 응급의학
+응급의학_분류:
+- 주요 장기계 응급
+- 내분비
 ---
 분과 : [[내분비]]
 
