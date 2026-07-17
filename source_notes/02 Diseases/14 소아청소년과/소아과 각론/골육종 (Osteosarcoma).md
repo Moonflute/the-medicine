@@ -7,6 +7,11 @@ aliases:
 분류:
 - 소아과각론
 - 종양
+관련분과:
+- 종양
+종양_분류:
+- 종양 각론
+- 소아
 CC:
 - 부종
 preprocessing_required: x

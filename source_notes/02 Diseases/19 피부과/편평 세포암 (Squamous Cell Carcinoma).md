@@ -6,6 +6,11 @@ aliases:
 계통: 피부과
 분류:
 - 피부과
+관련분과:
+- 종양
+종양_분류:
+- 종양 각론
+- 피부
 CC:
 - 피부 변화
 preprocessing_required: x

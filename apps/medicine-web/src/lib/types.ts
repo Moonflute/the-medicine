@@ -21,6 +21,7 @@ export type DiseaseNote = {
   classification: string[];
   relatedSpecialties: string[];
   emergencyClassification: string[];
+  oncologyClassification: string[];
   aliases: string[];
   chiefComplaints: string[];
   definition?: string;

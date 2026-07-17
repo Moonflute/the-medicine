@@ -381,6 +381,7 @@ function buildDiseases() {
       classification: readList(frontmatter["분류"]),
       relatedSpecialties: readList(frontmatter["\uAD00\uB828\uBD84\uACFC"]),
       emergencyClassification: readList(frontmatter["\uC751\uAE09\uC758\uD559_\uBD84\uB958"]),
+      oncologyClassification: readList(frontmatter["\uC885\uC591_\uBD84\uB958"]),
       aliases: readList(frontmatter["aliases"]),
       chiefComplaints: readList(frontmatter["CC"]),
       definition: extractDefinition(body),

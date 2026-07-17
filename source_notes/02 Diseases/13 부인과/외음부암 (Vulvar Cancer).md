@@ -7,6 +7,11 @@ aliases:
 계통: 부인과
 분류:
 - 외음부 질환
+관련분과:
+- 종양
+종양_분류:
+- 종양 각론
+- 유방·부인과
 CC:
 - 가려움증
 preprocessing_required: x

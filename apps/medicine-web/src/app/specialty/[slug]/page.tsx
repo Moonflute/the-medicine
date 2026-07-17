@@ -67,7 +67,9 @@ function compareWithOrder(a: string, b: string, order: Map<string, number>, fall
 function cleanClassification(note: DiseaseNote, specialtyLabel: string) {
   const classification = specialtyLabel === "응급의학" && note.emergencyClassification.length > 0
     ? note.emergencyClassification
-    : note.classification;
+    : specialtyLabel === "종양" && note.oncologyClassification.length > 0
+      ? note.oncologyClassification
+      : note.classification;
 
   return classification
     .map((item) => item.trim())
