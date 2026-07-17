@@ -1,0 +1,511 @@
+{
+  "generatedAt": "2026-07-17",
+  "purpose": "Coverage audit for disease-to-treatment pathway expansion; triage labels are workflow labels, not clinical recommendations.",
+  "summary": {
+    "bacterial_pathway_candidate": 19,
+    "linked_pathway": 6,
+    "nonbacterial_treatment_axis": 26,
+    "reference_or_index": 2,
+    "requires_clinical_triage": 30
+  },
+  "entries": [
+    {
+      "file": "G(+).md",
+      "title": "G(+)",
+      "bucket": "reference_or_index",
+      "hasTreatmentSection": false
+    },
+    {
+      "file": "G(-).md",
+      "title": "G(-)",
+      "bucket": "reference_or_index",
+      "hasTreatmentSection": false
+    },
+    {
+      "file": "가스 괴저 (Gas Gangrene).md",
+      "title": "가스 괴저 (Gas Gangrene)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "간흡충증 (Clonorchiasis).md",
+      "title": "간흡충증 (Clonorchiasis)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "감기 (Common Cold).md",
+      "title": "감기 (Common Cold)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "감염.md",
+      "title": "감염내과",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": false
+    },
+    {
+      "file": "거대세포바이러스 감염 (CMV) (Cytomegalovirus Infection (CMV)).md",
+      "title": "거대세포바이러스 감염 (CMV) (Cytomegalovirus Infection (CMV))",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "거짓막 결장염 (Pseudomembranous Colitis).md",
+      "title": "거짓막 결장염 (Pseudomembranous Colitis)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "고래회충 유충증 (Anisakiasis).md",
+      "title": "고래회충 유충증 (Anisakiasis)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "골수염 (Osteomyelitis).md",
+      "title": "골수염 (Osteomyelitis)",
+      "bucket": "linked_pathway",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "공수병 (Rabies).md",
+      "title": "공수병 (Rabies)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "괴사성 근막염 (Necrotizing Fasciitis).md",
+      "title": "괴사성 근막염 (Necrotizing Fasciitis)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "괴저병 (Gangrene).md",
+      "title": "괴저병 (Gangrene)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "기생충.md",
+      "title": "기생충",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": false
+    },
+    {
+      "file": "기타.md",
+      "title": "기타",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": false
+    },
+    {
+      "file": "노카르디아증 (Nocardiosis).md",
+      "title": "노카르디아증 (Nocardiosis)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "녹농균 (Pseudomonas Aeruginosa).md",
+      "title": "녹농균 (Pseudomonas Aeruginosa)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "단독 (Erysipelas).md",
+      "title": "단독 (Erysipelas)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "단순포진 감염 (Herpes Simplex Infection).md",
+      "title": "단순포진 감염 (Herpes Simplex Infection)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "대장균 (E. coli).md",
+      "title": "대장균 (E. coli)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "뎅기열 (Dengue Fever).md",
+      "title": "뎅기열 (Dengue Fever)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "도관 관련 감염 (Catheter-Related Infection).md",
+      "title": "도관 관련 감염 (Catheter-Related Infection)",
+      "bucket": "linked_pathway",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "라임병 (Lyme Disease).md",
+      "title": "라임병 (Lyme Disease)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "레지오넬라 (Legionella).md",
+      "title": "레지오넬라 (Legionella)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "렙토스피라증 (Leptospirosis).md",
+      "title": "렙토스피라증 (Leptospirosis)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "리스테리아 (Listeria).md",
+      "title": "리스테리아 (Listeria)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "리케차 병 (Rickettsial Disease).md",
+      "title": "리케차 병 (Rickettsial Disease)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "말라리아 (Malaria).md",
+      "title": "말라리아 (Malaria)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "매독 (Syphilis).md",
+      "title": "매독 (Syphilis)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "면역저하자 감염 (Immunocompromised Host Infection).md",
+      "title": "면역저하자 감염 (Immunocompromised Host Infection)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "묘소병 (Cat Scratch Disease).md",
+      "title": "묘소병 (Cat Scratch Disease)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "미코플라스마 (Mycoplasma).md",
+      "title": "미코플라스마 (Mycoplasma)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "바이러스.md",
+      "title": "바이러스",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": false
+    },
+    {
+      "file": "방선균증 (Actinomycosis).md",
+      "title": "방선균증 (Actinomycosis)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "불명열 (Fever of Unknown Origin).md",
+      "title": "불명열 (Fever of Unknown Origin)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "브루셀라증 (Brucellosis).md",
+      "title": "브루셀라증 (Brucellosis)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "비장티푸스 살모넬라 (Non-typhoidal Salmonella).md",
+      "title": "비장티푸스 살모넬라 (Non-typhoidal Salmonella)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "사슬알균 인두염 (Streptococcal Pharyngitis).md",
+      "title": "사슬알균 인두염 (Streptococcal Pharyngitis)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "설사 (비염증성) (Diarrhea (Non-inflammatory)).md",
+      "title": "설사 (비염증성) (Diarrhea (Non-inflammatory))",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "설사 (염증성) (Diarrhea (Inflammatory)).md",
+      "title": "설사 (염증성) (Diarrhea (Inflammatory))",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "수두-대상포진 바이러스 감염 (Varicella-Zoster Virus Infection).md",
+      "title": "수두-대상포진 바이러스 감염 (Varicella-Zoster Virus Infection)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "수막알균 (Meningococcus).md",
+      "title": "수막알균 (Meningococcus)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "신증후군 출혈열 (Hemorrhagic Fever with Renal Syndrome).md",
+      "title": "신증후군 출혈열 (Hemorrhagic Fever with Renal Syndrome)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "아데노바이러스 감염 (Adenovirus Infection).md",
+      "title": "아데노바이러스 감염 (Adenovirus Infection)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "아메바 장염 (Amebic Colitis).md",
+      "title": "아메바 장염 (Amebic Colitis)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "아메바증 (Amebiasis).md",
+      "title": "아메바증 (Amebiasis)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "아스페르길루스증 (Aspergillosis).md",
+      "title": "아스페르길루스증 (Aspergillosis)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "엡스타인-바 바이러스 감염 (EBV) (Epstein-Barr Virus Infection (EBV)).md",
+      "title": "엡스타인-바 바이러스 감염 (EBV) (Epstein-Barr Virus Infection (EBV))",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "연조직염 (Cellulitis).md",
+      "title": "연조직염 (Cellulitis)",
+      "bucket": "linked_pathway",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "요충증 (Enterobiasis).md",
+      "title": "요충증 (Enterobiasis)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "원내감염.md",
+      "title": "원내감염",
+      "bucket": "linked_pathway",
+      "hasTreatmentSection": false
+    },
+    {
+      "file": "원생돌물.md",
+      "title": "원생동물",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": false
+    },
+    {
+      "file": "이질 (Dysentery).md",
+      "title": "이질 (Dysentery)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "인플루엔자 (Influenza).md",
+      "title": "인플루엔자 (Influenza)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "임균 감염 (Gonococcal Infection).md",
+      "title": "임균 감염 (Gonococcal Infection)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "자유 아메바 감염 (Free-Living Amebic Infection).md",
+      "title": "자유 아메바 감염 (Free-Living Amebic Infection)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "장티푸스 (Typhoid Fever).md",
+      "title": "장티푸스 (Typhoid Fever)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "재귀열 (Relapsing Fever).md",
+      "title": "재귀열 (Relapsing Fever)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "중동 호흡기 증후군 (MERS) (Middle East Respiratory Syndrome (MERS)).md",
+      "title": "중동 호흡기 증후군 (MERS) (Middle East Respiratory Syndrome (MERS))",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "중증열성 혈소판감소 증후군 (SFTS) (Severe Fever with Thrombocytopenia Syndrome (SFTS)).md",
+      "title": "중증열성 혈소판감소 증후군 (SFTS) (Severe Fever with Thrombocytopenia Syndrome (SFTS))",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "지역사회.md",
+      "title": "지역사회",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": false
+    },
+    {
+      "file": "지카바이러스 감염 (Zika Virus Infection).md",
+      "title": "지카바이러스 감염 (Zika Virus Infection)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "진균.md",
+      "title": "진균",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": false
+    },
+    {
+      "file": "쯔쯔가무시병 (Tsutsugamushi Disease).md",
+      "title": "쯔쯔가무시병 (Tsutsugamushi Disease)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "치쿤구니아열 (Chikungunya Fever).md",
+      "title": "치쿤구니아열 (Chikungunya Fever)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "칸디다증 (Candidiasis).md",
+      "title": "칸디다증 (Candidiasis)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "캄필로박터 (Campylobacter).md",
+      "title": "캄필로박터 (Campylobacter)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "코로나바이러스감염증-19 (COVID-19).md",
+      "title": "코로나바이러스감염증-19 (COVID-19)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "콜레라 (Cholera).md",
+      "title": "콜레라 (Cholera)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "큐열 (Q Fever).md",
+      "title": "큐열 (Q Fever)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "크립토코쿠스증 (Cryptococcosis).md",
+      "title": "크립토코쿠스증 (Cryptococcosis)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "털곰팡이증 (Mucormycosis).md",
+      "title": "털곰팡이증 (Mucormycosis)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": false
+    },
+    {
+      "file": "톡소플라즈마증 (Toxoplasmosis).md",
+      "title": "톡소플라즈마증 (Toxoplasmosis)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "파상풍 (Tetanus).md",
+      "title": "파상풍 (Tetanus)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "패혈증 (Sepsis).md",
+      "title": "패혈증 (Sepsis)",
+      "bucket": "linked_pathway",
+      "hasTreatmentSection": false
+    },
+    {
+      "file": "폐포자충 폐렴 (Pneumocystis Pneumonia).md",
+      "title": "폐포자충 폐렴 (Pneumocystis Pneumonia)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "폐흡충증 (Paragonimiasis).md",
+      "title": "폐흡충증 (Paragonimiasis)",
+      "bucket": "nonbacterial_treatment_axis",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "포도알균 (Staphylococcus).md",
+      "title": "포도알균 (Staphylococcus)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "푸르니에 괴저 (Fournier's Gangrene).md",
+      "title": "푸르니에 괴저 (Fournier's Gangrene)",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "한센병 (Leprosy).md",
+      "title": "한센병 (Leprosy)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "혐기성균 감염 (Anaerobic Bacteria Infection).md",
+      "title": "혐기성균 감염 (Anaerobic Bacteria Infection)",
+      "bucket": "bacterial_pathway_candidate",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "호중구감소증 (Neutropenia).md",
+      "title": "호중구감소증 (Neutropenia)",
+      "bucket": "linked_pathway",
+      "hasTreatmentSection": true
+    },
+    {
+      "file": "후천성 면역결핍 증후군 (AIDS) (Acquired Immunodeficiency Syndrome (AIDS)).md",
+      "title": "후천성 면역결핍 증후군 (AIDS) (Acquired Immunodeficiency Syndrome (AIDS))",
+      "bucket": "requires_clinical_triage",
+      "hasTreatmentSection": true
+    }
+  ]
+}

@@ -9,6 +9,7 @@ export type InfectionReviewStatus = "draft" | "reviewed" | "verified" | "retired
 export type InfectionQuizType = "disease-to-organism" | "disease-to-antibiotic" | "disease-to-antibiotic-short-answer";
 export type InfectionQuizQuestion = { id: string; type: InfectionQuizType; prompt: string; choiceIds: string[]; correctId: string; explanation: string; sourceIds: string[] };
 
+export type InfectionPathogenReference = { id: string; label: string; aliases: string[]; spectrumOrganismId?: string; noteSlug?: string; noteTitle?: string };
 export type InfectionPathogen = { organismId: string; likelihood: PathogenLikelihood; notes: string[] };
 export type InfectionPathogenGroup = { context: string; organisms: InfectionPathogen[] };
 export type InfectionRegimenComponent = { antibioticIds: string[]; selection: RegimenSelection };
@@ -59,6 +60,7 @@ export type InfectionPathwayDataset = {
   reviewedAt: string;
   disclaimer: string;
   sources: Array<{ id: string; label: string; url: string; tier: "A" | "B" | "C"; year: string }>;
+  pathogens: InfectionPathogenReference[];
   pathways: InfectionPathway[];
 };
 

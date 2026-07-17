@@ -142,6 +142,48 @@
       "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.518",
       "tier": "A",
       "year": "2018"
+    },
+    {
+      "id": "cdc-gas-pharyngitis",
+      "label": "CDC Group A Streptococcal Pharyngitis",
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+      "tier": "A",
+      "year": "2025"
+    },
+    {
+      "id": "idsa-gas-pharyngitis",
+      "label": "IDSA Group A Streptococcal Pharyngitis Guideline",
+      "url": "https://academic.oup.com/cid/article/55/10/e86/321183",
+      "tier": "A",
+      "year": "2012"
+    },
+    {
+      "id": "cdc-gonorrhea",
+      "label": "CDC Gonococcal Infection Treatment Guideline",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm",
+      "tier": "A",
+      "year": "2021"
+    },
+    {
+      "id": "cdc-gonorrhea-update",
+      "label": "CDC Gonorrhea Treatment Update",
+      "url": "https://www.cdc.gov/mmwr/volumes/69/wr/mm6950a6.htm",
+      "tier": "A",
+      "year": "2020"
+    },
+    {
+      "id": "idsa-ssti",
+      "label": "IDSA Skin and Soft Tissue Infection Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/",
+      "tier": "A",
+      "year": "2014"
+    },
+    {
+      "id": "cdc-necrotizing-fasciitis",
+      "label": "CDC Type II Necrotizing Fasciitis Guidance",
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/necrotizing-fasciitis.html",
+      "tier": "A",
+      "year": "2025"
     }
   ],
   "pathways": [
@@ -2602,6 +2644,341 @@
           ]
         }
       ]
+    },
+    {
+      "id": "gas-pharyngitis",
+      "displayName": "사슬알균 인두염 (GAS)",
+      "aliases": [
+        "strep throat",
+        "GAS pharyngitis"
+      ],
+      "diseaseSourceFile": "08 감염/사슬알균 인두염 (Streptococcal Pharyngitis).md",
+      "diseaseSlug": "MDgg6rCQ7Je8L-yCrOyKrOyVjOq3oCDsnbjrkZDsl7wgKFN0cmVwdG9jb2NjYWwgUGhhcnluZ2l0aXMpLm1k",
+      "diseaseTitle": "사슬알균 인두염 (Streptococcal Pharyngitis)",
+      "infectionSite": "upper-respiratory-tract",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "감염 질환 지침에 따라 진단을 확인하고, 세균성 원인이 확인된 경우에 항생제를 사용한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "배양·감수성, 알레르기, 환자 상태와 지역 내성 정보를 함께 평가한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-pathogen",
+          "organisms": [
+            {
+              "organismId": "gas",
+              "likelihood": "common",
+              "notes": [
+                "바이러스 증상이 명확하면 항생제를 사용하지 않는다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "gas-pharyngitis-first-line",
+          "context": "confirmed-gas-pharyngitis",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "amoxicillin",
+                "benzylpenicillin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "양성 RADT 또는 배양으로 GAS 확인"
+          ],
+          "avoidWhen": [
+            "바이러스 인두염 의심 만으로 항생제 사용"
+          ],
+          "notes": [
+            "Penicillin 내성 GAS는 보고된 바 없으며, macrolide·clindamycin 내성은 지역차가 있다."
+          ],
+          "sourceIds": [
+            "cdc-gas-pharyngitis",
+            "idsa-gas-pharyngitis"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-gas-pharyngitis",
+        "idsa-gas-pharyngitis"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [
+        {
+          "id": "gas-pharyngitis-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "GAS 인두염이 확인된 경우 1차 선택지에 포함되는 약물은?",
+          "choiceIds": [
+            "amoxicillin",
+            "vancomycin",
+            "nitrofurantoin",
+            "metronidazole"
+          ],
+          "correctId": "amoxicillin",
+          "explanation": "확인된 GAS 인두염에서 penicillin 또는 amoxicillin이 기본 선택지다.",
+          "sourceIds": [
+            "cdc-gas-pharyngitis",
+            "idsa-gas-pharyngitis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uncomplicated-gonorrhea",
+      "displayName": "단순 임균감염",
+      "aliases": [
+        "gonorrhea",
+        "uncomplicated gonococcal infection"
+      ],
+      "diseaseSourceFile": "08 감염/임균 감염 (Gonococcal Infection).md",
+      "diseaseSlug": "MDgg6rCQ7Je8L-yehOq3oCDqsJDsl7wgKEdvbm9jb2NjYWwgSW5mZWN0aW9uKS5tZA",
+      "diseaseTitle": "임균 감염 (Gonococcal Infection)",
+      "infectionSite": "genitourinary",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "감염 질환 지침에 따라 진단을 확인하고, 세균성 원인이 확인된 경우에 항생제를 사용한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "배양·감수성, 알레르기, 환자 상태와 지역 내성 정보를 함께 평가한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-pathogen",
+          "organisms": [
+            {
+              "organismId": "n_gonorrhoeae",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "gonorrhea-ceftriaxone",
+          "context": "uncomplicated-anogenital-or-pharyngeal-infection",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone"
+              ],
+              "selection": "all-of"
+            }
+          ],
+          "conditions": [
+            "클라미디아 평가 전이면 도시큐클린 병용 필요성을 평가"
+          ],
+          "avoidWhen": [
+            "파종성 감염이나 신생아 안감염은 별도 지침 적용"
+          ],
+          "notes": [
+            "내성 또는 치료 실패 의심 시 배양·감수성 검사와 전문가 상담이 필요하다."
+          ],
+          "sourceIds": [
+            "cdc-gonorrhea",
+            "cdc-gonorrhea-update"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-gonorrhea",
+        "cdc-gonorrhea-update"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [
+        {
+          "id": "gonorrhea-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "단순 임균감염의 검증된 기본 치료에 포함되는 약물은?",
+          "choiceIds": [
+            "ceftriaxone",
+            "amoxicillin",
+            "nitrofurantoin",
+            "vancomycin"
+          ],
+          "correctId": "ceftriaxone",
+          "explanation": "단순 임균감염은 ceftriaxone 기반 치료를 적용한다.",
+          "sourceIds": [
+            "cdc-gonorrhea",
+            "cdc-gonorrhea-update"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "necrotizing-fasciitis",
+      "displayName": "괴사성 근막염",
+      "aliases": [
+        "necrotizing soft tissue infection",
+        "NSTI"
+      ],
+      "diseaseSourceFile": "08 감염/괴사성 근막염 (Necrotizing Fasciitis).md",
+      "diseaseSlug": "MDgg6rCQ7Je8L-q0tOyCrOyEsSDqt7zrp4nsl7wgKE5lY3JvdGl6aW5nIEZhc2NpaXRpcykubWQ",
+      "diseaseTitle": "괴사성 근막염 (Necrotizing Fasciitis)",
+      "infectionSite": "skin-soft-tissue",
+      "setting": "community",
+      "population": [
+        "adult",
+        "pediatric"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "감염 질환 지침에 따라 진단을 확인하고, 세균성 원인이 확인된 경우에 항생제를 사용한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "배양·감수성, 알레르기, 환자 상태와 지역 내성 정보를 함께 평가한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-pathogen",
+          "organisms": [
+            {
+              "organismId": "streptococci",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "mrsa",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            },
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            },
+            {
+              "organismId": "oral_anaerobes",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "necrotizing-fasciitis-empiric",
+          "context": "suspected-necrotizing-infection",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "vancomycin",
+                "linezolid"
+              ],
+              "selection": "one-of"
+            },
+            {
+              "antibioticIds": [
+                "piperacillintazobactam",
+                "meropenem"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "즉시 수술 평가와 반복적 debridement 가능성 평가"
+          ],
+          "avoidWhen": [
+            "수술 상담을 항생제 투여 때문에 지연하는 경우"
+          ],
+          "notes": [
+            "단일 병원체와 다균성 감염 모두를 고려한 광범위 치료로 시작한다."
+          ],
+          "sourceIds": [
+            "idsa-ssti",
+            "cdc-necrotizing-fasciitis"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "idsa-ssti",
+        "cdc-necrotizing-fasciitis"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex official-guideline cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [
+        {
+          "id": "necrotizing-fasciitis-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "괴사성 근막염 의심 초기에 광범위 치료와 함께 필요한 조치는?",
+          "choiceIds": [
+            "piperacillintazobactam",
+            "nitrofurantoin",
+            "fosfomycin",
+            "amoxicillin"
+          ],
+          "correctId": "piperacillintazobactam",
+          "explanation": "괴사성 근막염은 즉시 수술 평가와 광범위 비경구 항생제가 필요하다.",
+          "sourceIds": [
+            "idsa-ssti",
+            "cdc-necrotizing-fasciitis"
+          ]
+        }
+      ]
+    }
+  ],
+  "pathogens": [
+    {
+      "id": "gas",
+      "label": "Streptococcus pyogenes (GAS)",
+      "aliases": [
+        "group A streptococcus",
+        "GAS",
+        "S. pyogenes"
+      ],
+      "spectrumOrganismId": "streptococci"
+    },
+    {
+      "id": "n_gonorrhoeae",
+      "label": "Neisseria gonorrhoeae",
+      "aliases": [
+        "gonococcus",
+        "N. gonorrhoeae"
+      ],
+      "spectrumOrganismId": "neisseria"
     }
   ]
 }
