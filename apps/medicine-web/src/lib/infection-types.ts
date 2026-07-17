@@ -6,7 +6,7 @@ export type PathogenLikelihood = "common" | "important" | "risk-factor-dependent
 export type RegimenRank = "preferred" | "alternative" | "conditional" | "salvage" | "not-recommended";
 export type RegimenSelection = "one-of" | "all-of" | "optional";
 export type InfectionReviewStatus = "draft" | "reviewed" | "verified" | "retired";
-export type InfectionQuizType = "disease-to-organism" | "disease-to-antibiotic";
+export type InfectionQuizType = "disease-to-organism" | "disease-to-antibiotic" | "disease-to-antibiotic-short-answer";
 export type InfectionQuizQuestion = { id: string; type: InfectionQuizType; prompt: string; choiceIds: string[]; correctId: string; explanation: string; sourceIds: string[] };
 
 export type InfectionPathogen = { organismId: string; likelihood: PathogenLikelihood; notes: string[] };

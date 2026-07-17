@@ -130,11 +130,17 @@ function main() {
     for (const question of pathway.quizQuestions) {
       assert(!quizIds.has(question.id), `Duplicate infection quiz id: ${question.id}`);
       quizIds.add(question.id);
-      assert(["disease-to-organism", "disease-to-antibiotic"].includes(question.type), `${question.id}: invalid quiz type`);
-      assert(Array.isArray(question.choiceIds) && new Set(question.choiceIds).size === 4, `${question.id}: four unique choices are required`);
-      assert(question.choiceIds.includes(question.correctId), `${question.id}: correctId must be one of choiceIds`);
+      assert(["disease-to-organism", "disease-to-antibiotic", "disease-to-antibiotic-short-answer"].includes(question.type), `${question.id}: invalid quiz type`);
+      const isShortAnswer = question.type === "disease-to-antibiotic-short-answer";
       const knownChoices = question.type === "disease-to-organism" ? organismIds : antibioticIds;
-      validateIdList(question.choiceIds, knownChoices, `${question.id}/choices`);
+      if (isShortAnswer) {
+        assert(Array.isArray(question.choiceIds) && question.choiceIds.length === 0, `${question.id}: short-answer questions must not include choices`);
+        assert(antibioticIds.has(question.correctId), `${question.id}: unknown short-answer antibiotic`);
+      } else {
+        assert(Array.isArray(question.choiceIds) && new Set(question.choiceIds).size === 4, `${question.id}: four unique choices are required`);
+        assert(question.choiceIds.includes(question.correctId), `${question.id}: correctId must be one of choiceIds`);
+        validateIdList(question.choiceIds, knownChoices, `${question.id}/choices`);
+      }
       validateSourceIds(question.sourceIds, sourceIds, `${question.id}/sources`);
       assert(question.sourceIds.every((id) => pathway.sourceIds.includes(id)), `${question.id}: quiz sources must belong to the pathway`);
     }

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-17T12:29:35.054Z",
+  "generatedAt": "2026-07-17T13:33:46.011Z",
   "summary": {
     "pathways": 14,
     "verifiedPathways": 11,
     "hiddenFromClinicalUi": 3,
-    "reviewedQuizQuestions": 20,
+    "reviewedQuizQuestions": 30,
     "organisms": 22,
     "organismNotesLinked": 6,
     "antibiotics": 57

@@ -399,6 +399,18 @@
             "idsa-cap-2019",
             "kdca-antibiotic-practice-2026"
           ]
+        },
+        {
+          "id": "cap-short-amoxicillin",
+          "type": "disease-to-antibiotic-short-answer",
+          "prompt": "동반질환과 내성 위험이 없는 성인 외래 CAP의 검수된 경험적 선택지 중 하나를 검색해 선택하세요.",
+          "choiceIds": [],
+          "correctId": "amoxicillin",
+          "explanation": "Amoxicillin은 표준 위험 외래 CAP의 선택지다. 환자 조건, allergy와 국내·기관 내성 자료를 함께 확인한다.",
+          "sourceIds": [
+            "idsa-cap-2019",
+            "kdca-antibiotic-practice-2026"
+          ]
         }
       ]
     },
@@ -562,6 +574,18 @@
             "azithromycin",
             "cefepime"
           ],
+          "correctId": "nitrofurantoin",
+          "explanation": "Nitrofurantoin은 lower UTI에 사용하는 선택지이며, 신우신염이나 전신감염에는 조직 농도 한계 때문에 사용하지 않는다.",
+          "sourceIds": [
+            "idsa-uti-2010",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "id": "cystitis-short-nitrofurantoin",
+          "type": "disease-to-antibiotic-short-answer",
+          "prompt": "신우신염 소견이 없는 급성 단순 방광염의 검수된 경구 선택지 중 하나를 검색해 선택하세요.",
+          "choiceIds": [],
           "correctId": "nitrofurantoin",
           "explanation": "Nitrofurantoin은 lower UTI에 사용하는 선택지이며, 신우신염이나 전신감염에는 조직 농도 한계 때문에 사용하지 않는다.",
           "sourceIds": [
@@ -775,6 +799,18 @@
             "idsa-cuti-2025",
             "kdca-antibiotic-practice-2026"
           ]
+        },
+        {
+          "id": "cuti-short-ceftriaxone",
+          "type": "disease-to-antibiotic-short-answer",
+          "prompt": "중증 패혈증과 명확한 내성 위험이 없는 입원 cUTI의 검수된 정주 선택지 중 하나를 검색해 선택하세요.",
+          "choiceIds": [],
+          "correctId": "ceftriaxone",
+          "explanation": "Ceftriaxone은 감수성이 예상되는 cUTI의 경험적 선택지다. 배양 후 반드시 좁히고 ESBL 위험에서는 별도 판단한다.",
+          "sourceIds": [
+            "idsa-cuti-2025",
+            "kdca-antibiotic-practice-2026"
+          ]
         }
       ]
     },
@@ -959,6 +995,18 @@
             "aztreonam",
             "colistin"
           ],
+          "correctId": "cefazolin",
+          "explanation": "Cefazolin은 streptococcal 및 MSSA coverage가 필요한 비화농성 cellulitis의 선택지다.",
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "id": "cellulitis-short-cefazolin",
+          "type": "disease-to-antibiotic-short-answer",
+          "prompt": "중증 전신 소견이 없고 입원 치료가 필요한 비화농성 cellulitis의 검수된 선택지 중 하나를 검색해 선택하세요.",
+          "choiceIds": [],
           "correctId": "cefazolin",
           "explanation": "Cefazolin은 streptococcal 및 MSSA coverage가 필요한 비화농성 cellulitis의 선택지다.",
           "sourceIds": [
@@ -1230,6 +1278,18 @@
             "ssc-2026",
             "nice-sepsis-2025"
           ]
+        },
+        {
+          "id": "sepsis-short-piptazo",
+          "type": "disease-to-antibiotic-short-answer",
+          "prompt": "septic shock, 감염원 불명, 내성 Gram-negative 위험이 있는 경우 검수된 경험적 선택지 중 하나를 검색해 선택하세요.",
+          "choiceIds": [],
+          "correctId": "piperacillintazobactam",
+          "explanation": "Piperacillin/tazobactam은 가능한 antipseudomonal beta-lactam 중 하나다. 감염원과 local antibiogram에 따라 cefepime 또는 meropenem 등이 더 적절할 수 있다.",
+          "sourceIds": [
+            "ssc-2026",
+            "nice-sepsis-2025"
+          ]
         }
       ]
     },
@@ -1397,6 +1457,18 @@
             "fidaxomicin",
             "daptomycin"
           ],
+          "correctId": "cefepime",
+          "explanation": "Cefepime은 기관 감수성과 환자 위험을 확인해 선택할 수 있는 antipseudomonal beta-lactam이다.",
+          "sourceIds": [
+            "idsa-hap-vap-2016",
+            "nice-pneumonia-2025"
+          ]
+        },
+        {
+          "id": "hap-short-cefepime",
+          "type": "disease-to-antibiotic-short-answer",
+          "prompt": "성인 HAP에서 기관 감수성과 환자 위험을 확인해 선택할 수 있는 antipseudomonal beta-lactam 중 하나를 검색해 선택하세요.",
+          "choiceIds": [],
           "correctId": "cefepime",
           "explanation": "Cefepime은 기관 감수성과 환자 위험을 확인해 선택할 수 있는 antipseudomonal beta-lactam이다.",
           "sourceIds": [
@@ -1711,6 +1783,18 @@
             "who-meningitis-2025",
             "nice-meningitis-2024"
           ]
+        },
+        {
+          "id": "meningitis-short-ceftriaxone",
+          "type": "disease-to-antibiotic-short-answer",
+          "prompt": "성인 community-acquired bacterial meningitis의 즉시 경험적 치료에 포함되는 3세대 cephalosporin을 검색해 선택하세요.",
+          "choiceIds": [],
+          "correctId": "ceftriaxone",
+          "explanation": "Ceftriaxone 또는 cefotaxime을 즉시 투여한다. 지역 pneumococcal resistance와 Listeria 위험에 따라 추가 약물이 필요하다.",
+          "sourceIds": [
+            "who-meningitis-2025",
+            "nice-meningitis-2024"
+          ]
         }
       ]
     },
@@ -1974,6 +2058,18 @@
             "azithromycin",
             "metronidazole"
           ],
+          "correctId": "cefepime",
+          "explanation": "Cefepime은 초기 antipseudomonal beta-lactam 선택지다. 환자 안정성, allergy와 기관 내성 자료에 따라 다른 선택지가 가능하다.",
+          "sourceIds": [
+            "idsa-neutropenia-2010",
+            "asco-idsa-neutropenia-2018"
+          ]
+        },
+        {
+          "id": "neutropenia-short-cefepime",
+          "type": "disease-to-antibiotic-short-answer",
+          "prompt": "고위험 febrile neutropenia의 초기 antipseudomonal beta-lactam 선택지 중 하나를 검색해 선택하세요.",
+          "choiceIds": [],
           "correctId": "cefepime",
           "explanation": "Cefepime은 초기 antipseudomonal beta-lactam 선택지다. 환자 안정성, allergy와 기관 내성 자료에 따라 다른 선택지가 가능하다.",
           "sourceIds": [
@@ -2269,6 +2365,18 @@
             "aasld-ascites-2021",
             "bsg-ascites-2021"
           ]
+        },
+        {
+          "id": "sbp-short-ceftriaxone",
+          "type": "disease-to-antibiotic-short-answer",
+          "prompt": "MDR 위험이 낮은 community-acquired SBP의 검수된 경험적 선택지 중 하나를 검색해 선택하세요.",
+          "choiceIds": [],
+          "correctId": "ceftriaxone",
+          "explanation": "Ceftriaxone 또는 cefotaxime은 MDR 위험이 낮은 community-acquired SBP의 선택지다. secondary peritonitis를 배제해야 한다.",
+          "sourceIds": [
+            "aasld-ascites-2021",
+            "bsg-ascites-2021"
+          ]
         }
       ]
     },
@@ -2474,6 +2582,18 @@
             "linezolid",
             "fidaxomicin"
           ],
+          "correctId": "ceftriaxone",
+          "explanation": "Ceftriaxone은 가능한 선택지 중 하나다. 폐쇄가 있으면 적절한 담도 배액이 항균제 선택만큼 중요하다.",
+          "sourceIds": [
+            "kdca-antibiotic-practice-2026",
+            "tokyo-cholangitis-2018"
+          ]
+        },
+        {
+          "id": "cholangitis-short-ceftriaxone",
+          "type": "disease-to-antibiotic-short-answer",
+          "prompt": "MDR 위험이 낮은 community-acquired acute cholangitis의 검수된 선택지 중 하나를 검색해 선택하세요.",
+          "choiceIds": [],
           "correctId": "ceftriaxone",
           "explanation": "Ceftriaxone은 가능한 선택지 중 하나다. 폐쇄가 있으면 적절한 담도 배액이 항균제 선택만큼 중요하다.",
           "sourceIds": [
