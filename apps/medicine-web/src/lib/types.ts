@@ -95,6 +95,7 @@ export type PregnancyStatus =
 export type AntibioticOrganism = {
   id: string;
   label: string;
+  matrixLabel?: string;
   group: string;
   aliases: string[];
   noteSourceFile?: string;

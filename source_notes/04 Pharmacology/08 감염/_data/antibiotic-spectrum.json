@@ -36,7 +36,8 @@
       "aliases": [
         "streptococci",
         "연쇄상구균"
-      ]
+      ],
+      "matrixLabel": "Strep. spp."
     },
     {
       "id": "pneumococcus",
@@ -45,19 +46,22 @@
       "aliases": [
         "pneumococcus",
         "폐렴구균"
-      ]
+      ],
+      "matrixLabel": "S. pneumoniae"
     },
     {
       "id": "e_faecalis",
       "label": "Enterococcus faecalis",
       "group": "Gram-positive",
-      "aliases": []
+      "aliases": [],
+      "matrixLabel": "E. faecalis"
     },
     {
       "id": "e_faecium",
       "label": "Enterococcus faecium",
       "group": "Gram-positive",
-      "aliases": []
+      "aliases": [],
+      "matrixLabel": "E. faecium"
     },
     {
       "id": "vre",
@@ -71,7 +75,8 @@
       "id": "h_influenzae",
       "label": "Haemophilus influenzae",
       "group": "Gram-negative",
-      "aliases": []
+      "aliases": [],
+      "matrixLabel": "H. influenzae"
     },
     {
       "id": "neisseria",
@@ -100,19 +105,22 @@
       "aliases": [
         "녹농균"
       ],
-      "noteSourceFile": "08 감염/녹농균 (Pseudomonas Aeruginosa).md"
+      "noteSourceFile": "08 감염/녹농균 (Pseudomonas Aeruginosa).md",
+      "matrixLabel": "P. aeruginosa"
     },
     {
       "id": "acinetobacter",
       "label": "Acinetobacter baumannii complex",
       "group": "Gram-negative",
-      "aliases": []
+      "aliases": [],
+      "matrixLabel": "A. baumannii complex"
     },
     {
       "id": "stenotrophomonas",
       "label": "Stenotrophomonas maltophilia",
       "group": "Gram-negative",
-      "aliases": []
+      "aliases": [],
+      "matrixLabel": "S. maltophilia"
     },
     {
       "id": "oral_anaerobes",
@@ -126,7 +134,8 @@
       "id": "b_fragilis",
       "label": "Bacteroides fragilis group",
       "group": "Anaerobes",
-      "aliases": []
+      "aliases": [],
+      "matrixLabel": "B. fragilis group"
     },
     {
       "id": "clostridia",
@@ -144,7 +153,8 @@
         "Mycoplasma",
         "Chlamydia",
         "Legionella"
-      ]
+      ],
+      "matrixLabel": "Atypicals"
     },
     {
       "id": "esbl",
@@ -152,7 +162,8 @@
       "group": "Resistance phenotype",
       "aliases": [
         "ESBL"
-      ]
+      ],
+      "matrixLabel": "ESBL Enterobacterales"
     },
     {
       "id": "ampc",
@@ -160,7 +171,8 @@
       "group": "Resistance phenotype",
       "aliases": [
         "AmpC"
-      ]
+      ],
+      "matrixLabel": "AmpC Enterobacterales"
     },
     {
       "id": "cre",
@@ -169,7 +181,8 @@
       "aliases": [
         "CRE",
         "KPC"
-      ]
+      ],
+      "matrixLabel": "CRE"
     },
     {
       "id": "n_meningitidis",
@@ -179,7 +192,8 @@
         "meningococcus",
         "수막알균"
       ],
-      "noteSourceFile": "08 감염/수막알균 (Meningococcus).md"
+      "noteSourceFile": "08 감염/수막알균 (Meningococcus).md",
+      "matrixLabel": "N. meningitidis"
     },
     {
       "id": "listeria",
@@ -189,7 +203,8 @@
         "Listeria",
         "리스테리아"
       ],
-      "noteSourceFile": "08 감염/리스테리아 (Listeria).md"
+      "noteSourceFile": "08 감염/리스테리아 (Listeria).md",
+      "matrixLabel": "L. monocytogenes"
     }
   ],
   "sources": [

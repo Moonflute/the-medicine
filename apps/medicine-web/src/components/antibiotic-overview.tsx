@@ -88,7 +88,7 @@ function SpectrumTable({ antibiotics, organisms, matchingOnly }: { antibiotics: 
         {groups.map(({ group, organisms: items }) => <th key={group} colSpan={items.length} className={`border-b border-r border-white/30 px-2 py-2 text-center font-semibold ${GROUP_META[group].table}`}>{GROUP_META[group].label}</th>)}
       </tr>
       <tr>
-        {groups.flatMap(({ organisms: items }) => items).map((organism) => <th key={organism.id} className="min-w-20 max-w-24 border-b border-r border-slate-700 bg-slate-950 px-1.5 py-2 align-bottom sm:min-w-24 sm:max-w-28 sm:px-2"><span className="block leading-4">{organism.label}</span></th>)}
+        {groups.flatMap(({ organisms: items }) => items).map((organism) => <th key={organism.id} title={organism.label} className="w-16 min-w-16 max-w-16 border-b border-r border-slate-700 bg-slate-950 px-1 py-2 align-bottom sm:w-[4.75rem] sm:min-w-[4.75rem] sm:max-w-[4.75rem]"><span className="block break-words leading-4">{organism.matrixLabel ?? organism.label}</span></th>)}
       </tr>
     </thead>
     {rows.map(({ meta, notes }) => <tbody key={meta.key}>
