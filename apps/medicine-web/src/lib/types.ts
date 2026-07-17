@@ -97,6 +97,9 @@ export type AntibioticOrganism = {
   label: string;
   group: string;
   aliases: string[];
+  noteSourceFile?: string;
+  noteSlug?: string;
+  noteTitle?: string;
 };
 
 export type AntibioticEntry = {

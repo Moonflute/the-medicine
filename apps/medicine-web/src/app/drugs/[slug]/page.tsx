@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ParentPageFab } from "@/components/parent-page-fab";
+import { AntibioticClinicalLinks } from "@/components/antibiotic-clinical-links";
 import { ReviewSaveButton } from "@/components/review-save-button";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { buildDrugGroups } from "@/lib/drug-groups";
-import { getAntibioticSpectrum, getClinicalRelationsFor, getDiseaseLinks, getDrugBySlug, getDrugToc, getDrugs } from "@/lib/webdb";
+import { getAntibioticSpectrum, getClinicalRelationsFor, getDiseaseLinks, getDrugBySlug, getDrugToc, getDrugs, getSpecialties } from "@/lib/webdb";
+import { getInfectionPathwaysForAntibiotic } from "@/lib/infection-db";
 
 export function generateStaticParams() {
   return getDrugs().map((note) => ({ slug: note.slug }));
@@ -97,6 +99,8 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
   const parentHref = parentGroup ? "/drugs/category/" + parentGroup.slug : "/drugs";
   const relations = getClinicalRelationsFor("drug", note.id);
   const antibioticEntry = getAntibioticSpectrum().antibiotics.find((entry) => entry.drugSlug === note.slug);
+  const infectionSpecialty = getSpecialties().find((item) => item.name.replace(/^\d+\s*/, "").trim() === "감염");
+  const infectionPathways = antibioticEntry ? getInfectionPathwaysForAntibiotic(antibioticEntry.id) : [];
 
   return (
     <div className="space-y-6">
@@ -248,6 +252,7 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
           ))}
         </div>
       </section>
+      {antibioticEntry && infectionSpecialty ? <AntibioticClinicalLinks antibioticId={antibioticEntry.id} pathways={infectionPathways} specialtySlug={infectionSpecialty.slug} /> : null}
       <RelatedClinicalContent relations={relations} />
       <ParentPageFab href={parentHref} />
     </div>

@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { CalendarDays, CheckCircle2, ChevronRight } from "lucide-react";
 import { ParentPageFab } from "@/components/parent-page-fab";
+import { InfectionToolEntry } from "@/components/infection-tool-entry";
 import { getDiseasesBySpecialty, getSpecialties, getSpecialtyRoadmap, getSpecialtyToc } from "@/lib/webdb";
 
 const THIRD_LEVEL_MIN_ITEMS = 4;
@@ -278,6 +279,7 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
       </header>
 
       
+      {specialtyLabel === "감염" ? <InfectionToolEntry specialtySlug={slug} /> : null}
       {roadmap ? <SpecialtyRoadmapSection roadmap={roadmap} /> : null}
 
       <div className="space-y-5">

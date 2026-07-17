@@ -864,7 +864,7 @@ function buildDrugs() {
 }
 
 
-function buildAntibioticSpectrum(drugs) {
+function buildAntibioticSpectrum(drugs, diseases) {
   const sourcePath = path.join(SOURCE_NOTES_ROOT, "04 Pharmacology", "08 감염", "_data", "antibiotic-spectrum.json");
   if (!fs.existsSync(sourcePath)) throw new Error(`Antibiotic spectrum source is missing: ${sourcePath}`);
 
@@ -875,6 +875,13 @@ function buildAntibioticSpectrum(drugs) {
     "contraindicated", "insufficient_data",
   ]);
   const organismIds = new Set(dataset.organisms.map((item) => item.id));
+  const organisms = dataset.organisms.map((item) => {
+    if (!item.noteSourceFile) return item;
+    const expected = `source_notes/02 Diseases/${item.noteSourceFile}`.replaceAll("\\", "/");
+    const note = diseases.find((candidate) => candidate.sourcePath.replaceAll("\\", "/") === expected);
+    if (!note) throw new Error(`Organism note is not linked to a generated disease: ${item.id}/${item.noteSourceFile}`);
+    return { ...item, noteSlug: note.slug, noteTitle: note.title };
+  });
   const antibioticIds = new Set();
   const sourceIds = new Set(dataset.sources.map((item) => item.id));
 
@@ -898,7 +905,7 @@ function buildAntibioticSpectrum(drugs) {
     return { ...item, drugSlug: drug.slug, drugTitle: drug.title };
   });
 
-  return { ...dataset, antibiotics };
+  return { ...dataset, organisms, antibiotics };
 }
 
 function parseSkillSources(value) {
@@ -1157,7 +1164,7 @@ function main() {
   const diseases = buildDiseases();
   const chiefComplaints = buildChiefComplaints();
   const drugs = buildDrugs();
-  const antibioticSpectrum = buildAntibioticSpectrum(drugs);
+  const antibioticSpectrum = buildAntibioticSpectrum(drugs, diseases);
   const physiology = buildGenericNotes("05 Physiology", "physiology");
   const pathology = buildGenericNotes("03 Pathology", "pathology");
   const labImg = buildGenericNotes("06 Lab & Img", "lab-img", {

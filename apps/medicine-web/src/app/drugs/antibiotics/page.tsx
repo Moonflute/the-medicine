@@ -1,6 +1,8 @@
 import Link from "next/link";
+import { Suspense } from "react";
 import { ArrowLeft } from "lucide-react";
 import { AntibioticOverview } from "@/components/antibiotic-overview";
+import { getInfectionPathways } from "@/lib/infection-db";
 import { getAntibioticSpectrum } from "@/lib/webdb";
 
 export default function AntibioticsPage() {
@@ -17,7 +19,7 @@ export default function AntibioticsPage() {
         <h1 className="text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl">항생제 overview</h1>
       </header>
 
-      <AntibioticOverview dataset={dataset} />
+      <Suspense fallback={<div className="rounded-xl border border-slate-200 bg-white p-6 text-sm text-slate-500">항생제 overview를 불러오는 중입니다.</div>}><AntibioticOverview dataset={dataset} pathways={getInfectionPathways()} /></Suspense>
     </div>
   );
 }

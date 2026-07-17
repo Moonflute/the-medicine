@@ -2,9 +2,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { DiseaseCard } from "@/components/disease-card";
+import { DiseaseInfectionPanel } from "@/components/disease-infection-panel";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
-import { getAllDiseases, getChiefComplaintLinksForTerms, getClinicalRelationsFor, getDiseaseBySlug, getDiseaseLinks, isSpecialtyIndexDisease } from "@/lib/webdb";
+import { getAllDiseases, getAntibioticSpectrum, getChiefComplaintLinksForTerms, getClinicalRelationsFor, getDiseaseBySlug, getDiseaseLinks, getSpecialties, isSpecialtyIndexDisease } from "@/lib/webdb";
+import { getInfectionPathwaysForDisease } from "@/lib/infection-db";
 
 export function generateStaticParams() {
   return getAllDiseases().map((note) => ({ slug: note.slug }));
@@ -22,6 +24,8 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
   const diseaseLinks = getDiseaseLinks();
   const parentHref = `/specialty/${Buffer.from(note.specialty, "utf-8").toString("base64url")}`;
   const relations = getClinicalRelationsFor("disease", note.id);
+  const infectionPathways = getInfectionPathwaysForDisease(note.slug);
+  const infectionSpecialty = getSpecialties().find((item) => item.name.replace(/^\d+\s*/, "").trim() === "감염");
 
   return (
     <div className="space-y-6">
@@ -34,6 +38,7 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
       </Link>
 
       <DiseaseCard note={note} ccLinks={ccLinks} diseaseLinks={diseaseLinks} hideOverview={isSpecialtyIndexDisease(note)} />
+      {infectionSpecialty && infectionPathways.length > 0 ? <DiseaseInfectionPanel pathways={infectionPathways} spectrum={getAntibioticSpectrum()} specialtySlug={infectionSpecialty.slug} /> : null}
       <RelatedClinicalContent relations={relations} />
       <ParentPageFab href={parentHref} />
     </div>

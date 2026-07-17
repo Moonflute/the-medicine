@@ -1,0 +1,120 @@
+{
+  "generatedAt": "2026-07-17T12:29:35.054Z",
+  "summary": {
+    "pathways": 14,
+    "verifiedPathways": 11,
+    "hiddenFromClinicalUi": 3,
+    "reviewedQuizQuestions": 20,
+    "organisms": 22,
+    "organismNotesLinked": 6,
+    "antibiotics": 57
+  },
+  "clinicalAnchorAudit": {
+    "missingAntibiotics": [],
+    "missingOrganisms": []
+  },
+  "hiddenPathways": [
+    {
+      "id": "adult-infective-endocarditis",
+      "status": "reviewed",
+      "sourceIds": [
+        "idsa-endocarditis-2015"
+      ]
+    },
+    {
+      "id": "adult-native-vertebral-osteomyelitis",
+      "status": "reviewed",
+      "sourceIds": [
+        "idsa-nvo-2015"
+      ]
+    },
+    {
+      "id": "catheter-related-bloodstream-infection",
+      "status": "reviewed",
+      "sourceIds": [
+        "idsa-crbsi-2009"
+      ]
+    }
+  ],
+  "sourceReviewDue": [
+    {
+      "id": "idsa-cap-2019",
+      "year": "2019",
+      "usedByVerifiedPathways": [
+        "adult-community-acquired-pneumonia"
+      ]
+    },
+    {
+      "id": "idsa-uti-2010",
+      "year": "2010",
+      "usedByVerifiedPathways": [
+        "acute-uncomplicated-cystitis"
+      ]
+    },
+    {
+      "id": "idsa-ssti-2014",
+      "year": "2014",
+      "usedByVerifiedPathways": [
+        "nonpurulent-cellulitis",
+        "purulent-skin-abscess"
+      ]
+    },
+    {
+      "id": "idsa-hap-vap-2016",
+      "year": "2016",
+      "usedByVerifiedPathways": [
+        "adult-hospital-acquired-pneumonia"
+      ]
+    },
+    {
+      "id": "idsa-nvo-2015",
+      "year": "2015",
+      "usedByVerifiedPathways": []
+    },
+    {
+      "id": "idsa-neutropenia-2010",
+      "year": "2010",
+      "usedByVerifiedPathways": [
+        "adult-febrile-neutropenia"
+      ]
+    },
+    {
+      "id": "asco-idsa-neutropenia-2018",
+      "year": "2018",
+      "usedByVerifiedPathways": [
+        "adult-febrile-neutropenia"
+      ]
+    },
+    {
+      "id": "idsa-crbsi-2009",
+      "year": "2009",
+      "usedByVerifiedPathways": []
+    },
+    {
+      "id": "aasld-ascites-2021",
+      "year": "2021",
+      "usedByVerifiedPathways": [
+        "spontaneous-bacterial-peritonitis"
+      ]
+    },
+    {
+      "id": "idsa-endocarditis-2015",
+      "year": "2015",
+      "usedByVerifiedPathways": []
+    },
+    {
+      "id": "bsg-ascites-2021",
+      "year": "2021",
+      "usedByVerifiedPathways": [
+        "spontaneous-bacterial-peritonitis"
+      ]
+    },
+    {
+      "id": "tokyo-cholangitis-2018",
+      "year": "2018",
+      "usedByVerifiedPathways": [
+        "adult-acute-cholangitis"
+      ]
+    }
+  ]
+}

@@ -2,8 +2,10 @@
 
 import Link from "next/link";
 import { useDeferredValue, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { ArrowUpRight, GraduationCap, Maximize2, RotateCw, Search, ShieldAlert, X } from "lucide-react";
 import type { AntibioticEntry, AntibioticSpectrumDataset, CoverageLevel, PregnancyStatus } from "@/lib/types";
+import type { InfectionPathway, InfectionPathwayDataset } from "@/lib/infection-types";
 import { AntibioticQuiz } from "@/components/antibiotic-quiz";
 
 type Mode = "matrix" | "organism" | "antibiotic" | "quiz";
@@ -99,15 +101,25 @@ function SpectrumTable({ antibiotics, organisms, matchingOnly }: { antibiotics: 
   </table>;
 }
 
+function PathwayLinks({ title, pathways, specialtySlug }: { title: string; pathways: InfectionPathway[]; specialtySlug: string }) {
+  if (pathways.length === 0) return null;
+  return <section className="rounded-xl border border-teal-200 bg-teal-50/60 p-4"><h3 className="text-sm font-bold text-slate-950">{title}</h3><div className="mt-3 flex flex-wrap gap-2">{pathways.map((item) => <Link key={item.id} href={`/specialty/${specialtySlug}/treatment-pathways?pathway=${item.id}`} className="rounded-full border border-teal-200 bg-white px-3 py-1.5 text-xs font-medium text-teal-900 hover:border-teal-500">{item.displayName}</Link>)}</div></section>;
+}
+
 function QuizPanel({ dataset }: { dataset: AntibioticSpectrumDataset }) {
   return <AntibioticQuiz dataset={dataset} />;
 }
 
-export function AntibioticOverview({ dataset }: { dataset: AntibioticSpectrumDataset }) {
-  const [mode, setMode] = useState<Mode>("matrix");
+export function AntibioticOverview({ dataset, pathways, initialMode, initialOrganism, initialAntibiotic }: { dataset: AntibioticSpectrumDataset; pathways: InfectionPathwayDataset; initialMode?: string; initialOrganism?: string; initialAntibiotic?: string }) {
+  const searchParams = useSearchParams();
+  const resolvedMode = initialMode ?? searchParams.get("mode") ?? "";
+  const resolvedOrganism = initialOrganism ?? searchParams.get("organism") ?? "";
+  const resolvedAntibiotic = initialAntibiotic ?? searchParams.get("antibiotic") ?? "";
+  const validMode = (["matrix", "organism", "antibiotic", "quiz"] as Mode[]).includes(resolvedMode as Mode) ? resolvedMode as Mode : "matrix";
+  const [mode, setMode] = useState<Mode>(validMode);
   const [query, setQuery] = useState(""); const deferredQuery = useDeferredValue(query);
   const [group, setGroup] = useState<OrganismGroup | "">(""); const [route, setRoute] = useState(""); const [drugClass, setDrugClass] = useState(""); const [pregnancy, setPregnancy] = useState(""); const [matchingOnly, setMatchingOnly] = useState(false);
-  const [organismId, setOrganismId] = useState(dataset.organisms[0]?.id ?? ""); const [antibioticId, setAntibioticId] = useState(dataset.antibiotics[0]?.id ?? ""); const [matrixFocus, setMatrixFocus] = useState(false);
+  const [organismId, setOrganismId] = useState(dataset.organisms.some((item) => item.id === resolvedOrganism) ? resolvedOrganism : dataset.organisms[0]?.id ?? ""); const [antibioticId, setAntibioticId] = useState(dataset.antibiotics.some((item) => item.id === resolvedAntibiotic) ? resolvedAntibiotic : dataset.antibiotics[0]?.id ?? ""); const [matrixFocus, setMatrixFocus] = useState(false);
   const classes = [...new Set(dataset.antibiotics.map((item) => item.class))].sort();
   const organisms = dataset.organisms.slice().sort((a, b) => GROUP_ORDER.indexOf(a.group as OrganismGroup) - GROUP_ORDER.indexOf(b.group as OrganismGroup));
   const visibleOrganisms = group ? organisms.filter((item) => item.group === group) : organisms;
@@ -115,6 +127,11 @@ export function AntibioticOverview({ dataset }: { dataset: AntibioticSpectrumDat
   const selectedOrganism = organisms.find((item) => item.id === organismId);
   const organismResults = dataset.antibiotics.filter((entry) => !route || entry.routes.includes(route)).sort((a, b) => COVERAGE[coverage(b, organismId)].rank - COVERAGE[coverage(a, organismId)].rank);
   const selectedDrug = dataset.antibiotics.find((item) => item.id === antibioticId);
+  const verifiedPathways = pathways.pathways.filter((item) => item.reviewStatus === "verified");
+  const organismPathways = verifiedPathways.filter((item) => item.pathogenGroups.some((group) => group.organisms.some((organism) => organism.organismId === organismId)));
+  const antibioticPathways = verifiedPathways.filter((item) => item.empiricRegimens.some((regimen) => regimen.components.some((component) => component.antibioticIds.includes(antibioticId))) || item.targetedTherapies.some((therapy) => therapy.antibioticIds.includes(antibioticId)));
+  const infectionSpecialtySlug = "MDgg6rCQ7Je8";
+
   const reset = () => { setQuery(""); setGroup(""); setRoute(""); setDrugClass(""); setPregnancy(""); setMatchingOnly(false); };
   const matrix = <SpectrumTable antibiotics={filteredDrugs} organisms={visibleOrganisms} matchingOnly={matchingOnly} />;
 
@@ -131,9 +148,11 @@ export function AntibioticOverview({ dataset }: { dataset: AntibioticSpectrumDat
 
     {mode === "matrix" ? <section className="space-y-4"><div className="flex flex-wrap items-center gap-3 rounded-xl border border-slate-200 bg-stone-50 px-4 py-3">{(Object.keys(COVERAGE) as CoverageLevel[]).map((level) => <span key={level} className="inline-flex items-center gap-1.5 text-xs text-slate-600"><CoverageBadge level={level} />{COVERAGE[level].label}</span>)}<label className="ml-auto inline-flex items-center gap-2 text-xs font-medium text-slate-600"><input type="checkbox" checked={matchingOnly} onChange={(event) => setMatchingOnly(event.target.checked)} /> 활성 기대 이상만 강조</label><button type="button" onClick={() => setMatrixFocus(true)} title="전체 화면으로 보기" aria-label="전체 화면으로 보기" className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-slate-300 bg-white text-slate-700 hover:border-teal-500 hover:text-teal-800"><Maximize2 className="h-4 w-4" /></button></div><div className="max-h-[68vh] overflow-auto rounded-2xl border border-slate-200 bg-white shadow-sm">{matrix}</div><p className="text-center text-xs text-slate-500">모바일에서는 좌우로 밀어 전체 균 coverage를 비교할 수 있습니다.</p></section> : null}
 
-    {mode === "organism" ? <section className="grid gap-5 lg:grid-cols-[280px_1fr]"><div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm"><label className="text-xs font-semibold uppercase tracking-wide text-slate-500">균 또는 phenotype 선택</label><select value={organismId} onChange={(event) => setOrganismId(event.target.value)} className="mt-2 w-full rounded-xl border border-slate-200 px-3 py-3 text-sm">{GROUP_ORDER.map((item) => <optgroup key={item} label={GROUP_META[item].label}>{organisms.filter((organism) => organism.group === item).map((organism) => <option key={organism.id} value={organism.id}>{organism.label}</option>)}</optgroup>)}</select><p className="mt-4 text-sm leading-6 text-slate-600">{selectedOrganism?.aliases.join(" · ") || "일반적인 in-vitro spectrum 기준"}</p></div><div className="space-y-3">{organismResults.filter((entry) => COVERAGE[coverage(entry, organismId)].rank >= (matchingOnly ? 4 : 2)).map((entry) => <DrugResult key={entry.id} entry={entry} organismId={organismId} />)}</div></section> : null}
+    {mode === "organism" ? <section className="grid gap-5 lg:grid-cols-[280px_1fr]"><div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm"><label className="text-xs font-semibold uppercase tracking-wide text-slate-500">균 또는 phenotype 선택</label><select value={organismId} onChange={(event) => setOrganismId(event.target.value)} className="mt-2 w-full rounded-xl border border-slate-200 px-3 py-3 text-sm">{GROUP_ORDER.map((item) => <optgroup key={item} label={GROUP_META[item].label}>{organisms.filter((organism) => organism.group === item).map((organism) => <option key={organism.id} value={organism.id}>{organism.label}</option>)}</optgroup>)}</select><p className="mt-4 text-sm leading-6 text-slate-600">{selectedOrganism?.aliases.join(" · ") || "일반적인 in-vitro spectrum 기준"}</p>{selectedOrganism?.noteSlug ? <Link href={`/disease/${selectedOrganism.noteSlug}`} className="mt-4 inline-flex items-center gap-2 rounded-full border border-teal-200 bg-teal-50 px-3 py-2 text-xs font-semibold text-teal-900">병원체 노트 <ArrowUpRight className="h-3.5 w-3.5" /></Link> : null}</div><div className="space-y-3">{organismResults.filter((entry) => COVERAGE[coverage(entry, organismId)].rank >= (matchingOnly ? 4 : 2)).map((entry) => <DrugResult key={entry.id} entry={entry} organismId={organismId} />)}</div></section> : null}
 
     {mode === "antibiotic" && selectedDrug ? <section className="space-y-5"><div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"><label className="text-xs font-semibold uppercase tracking-wide text-slate-500">항생제 선택</label><select value={antibioticId} onChange={(event) => setAntibioticId(event.target.value)} className="mt-2 w-full rounded-xl border border-slate-200 px-3 py-3 text-sm sm:max-w-xl">{classes.map((item) => <optgroup key={item} label={item}>{dataset.antibiotics.filter((entry) => entry.class === item).map((entry) => <option key={entry.id} value={entry.id}>{entry.inn} ({entry.displayName})</option>)}</optgroup>)}</select><div className="mt-5 flex flex-wrap items-start justify-between gap-4 border-t border-slate-100 pt-5"><div><h2 className="text-2xl font-bold text-slate-950">{selectedDrug.inn}</h2><p className="mt-1 text-sm text-slate-500">{selectedDrug.class} · {selectedDrug.routes.join(" / ")} · 임신: {PREGNANCY_LABELS[selectedDrug.pregnancy.status]}</p></div><Link href={`/drugs/${selectedDrug.drugSlug}`} className="inline-flex items-center gap-2 rounded-full bg-teal-700 px-4 py-2 text-sm font-semibold text-white">개별 약물 노트 <ArrowUpRight className="h-4 w-4" /></Link></div></div>{(selectedDrug.siteCaveats.length > 0 || selectedDrug.resistanceNotes.length > 0) ? <div className="rounded-xl border border-amber-200 bg-amber-50 p-4"><div className="flex gap-2 text-sm font-semibold text-amber-950"><ShieldAlert className="h-4 w-4" />임상적 예외</div>{[...selectedDrug.siteCaveats, ...selectedDrug.resistanceNotes].map((note) => <p key={note} className="mt-2 text-sm leading-6 text-amber-950">{note}</p>)}</div> : null}<div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">{organisms.map((organism) => { const level = coverage(selectedDrug, organism.id); return <article key={organism.id} className={`rounded-xl border border-slate-200 p-4 ${COVERAGE[level].cell}`}><div className="flex items-center justify-between gap-3"><strong className="text-sm">{organism.label}</strong><span className="text-lg font-black">{COVERAGE[level].short}</span></div><div className="mt-1 text-xs opacity-75">{COVERAGE[level].label}</div></article>; })}</div></section> : null}
+    {mode === "organism" ? <PathwayLinks title="이 병원체와 연결된 감염질환" pathways={organismPathways} specialtySlug={infectionSpecialtySlug} /> : null}
+    {mode === "antibiotic" ? <PathwayLinks title="이 항생제가 연결된 감염질환" pathways={antibioticPathways} specialtySlug={infectionSpecialtySlug} /> : null}
     {mode === "quiz" ? <QuizPanel dataset={dataset} /> : null}
     <footer className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-xs leading-5 text-slate-600"><strong className="text-slate-800">해석 주의:</strong> {dataset.disclaimer} · 검토일 {dataset.reviewedAt}</footer>
     {matrixFocus ? <div className="fixed inset-0 z-50 flex flex-col bg-slate-950 p-3 text-white sm:p-5"><div className="mb-3 flex items-center justify-between gap-3"><div><strong className="text-sm">항생제 overview · spectrum matrix</strong><span className="ml-2 hidden text-xs text-slate-400 sm:inline">화면을 가로로 돌리면 더 넓게 볼 수 있습니다.</span></div><div className="flex items-center gap-2"><RotateCw className="h-4 w-4 text-teal-300 sm:hidden" /><button type="button" onClick={() => setMatrixFocus(false)} className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-slate-600 text-white hover:bg-slate-800" aria-label="전체 화면 닫기"><X className="h-4 w-4" /></button></div></div><div className="min-h-0 flex-1 overflow-auto rounded-xl border border-slate-700 bg-white text-slate-950">{matrix}</div></div> : null}

@@ -1,9 +1,9 @@
 {
   "name": "medicine-web",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
   "scripts": {
-    "sync:data": "node scripts/sync-generated-data.mjs && node scripts/build-clinical-relations.mjs",
+    "sync:data": "node scripts/sync-generated-data.mjs && node scripts/build-infection-pathways.mjs && node scripts/build-clinical-relations.mjs",
     "audit:content": "python ../../workspace_ops/scripts/build_content_quality_report.py",
     "audit:disease": "python ../../workspace_ops/scripts/build_disease_quality_report.py",
     "audit:er": "python ../../workspace_ops/scripts/audit_cc_er_structure.py && python ../../workspace_ops/scripts/audit_emergency_disease_structure.py",
