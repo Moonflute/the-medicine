@@ -19,6 +19,7 @@ sources:
 - 'AHA/ASA 2026 Acute Ischemic Stroke Guideline | https://professional.heart.org/en/guidelines-statements/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-strokestr0000000000000513'
 disease_family: stroke
 population: adult
+
 관련분과:
 - 응급의학
 응급의학_분류:

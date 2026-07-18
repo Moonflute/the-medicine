@@ -1,0 +1,47 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-009638
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:3dea1609a20fc7dacdae676b02a684bfcb64822645d715f319b016b4483bb855
+exam: USMLE Step 2/3
+language: ko
+specialty: 15 정신건강의학과
+related_diseases:
+  - "autism spectrum disorder level 1"
+  - "자폐스펙트럼장애 1단계"
+  - "restricted interests"
+question_type: diagnosis
+difficulty: complex
+answer: A
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+10세 남아가 ‘이상한 행동’으로 부모와 내원했다. 만삭 정상 질식분만으로 태어났고 예방접종과 발달은 정상이다. 늘 혼자 지내고 친구가 많지 않았지만 최근 이유 없이 행동 문제가 잦아졌다. 벌이나 보상에 반응하지 않고 등하굣길에 주운 돌을 모으는 데 집착해 방이 돌로 가득하다. 교사는 멍하니 있는 시간이 많고 미술을 잘한다고 한다. 진찰에서 눈맞춤을 하지 않고 돌 수집에 대해 끊임없이 말한다. 문법과 어휘는 정상이나 말이 약간 힘들다. 가장 가능성 높은 진단은 무엇인가?
+
+## 선택지
+
+A. 자폐스펙트럼장애 1단계
+B. 자폐스펙트럼장애 3단계
+C. 뚜렛증후군
+D. 강박장애
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-009638

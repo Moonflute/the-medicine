@@ -1,0 +1,46 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-000924
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:ee026fb9ba51dd9fdac5418ade7387f4575fecc20ccafc8b9689f2b1b9ff93ae
+exam: USMLE Step 2/3
+language: ko
+specialty: 19 피부과
+related_diseases:
+  - "allergic contact dermatitis"
+  - "rhus dermatitis"
+question_type: management
+difficulty: simple
+answer: B
+translation_status: machine-verified
+explanation_status: missing
+translation_model: gemini-3.1-flash-lite
+translation_prompt_version: medqa-ko-v1
+translated_at: 2026-07-17
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+15세 소년이 1주일 동안 지속되는 가려움증을 동반한 발진으로 내원하였다. 발진은 오른쪽 아래팔에 있다(이미지 참조). 과거에 유사한 발진을 겪은 적은 없다. 알레르기 병력은 없으며, 복용 중인 약물도 없다. 환자는 뒷마당에서 정원 가꾸기를 즐겨 한다. 집에서 기르는 반려동물은 없다. 신체 검진상 다른 이상 소견은 없다. 가장 가능성이 높은 진단을 고려할 때, 이 사례에서 설명된 질환에 대한 가장 적절한 치료는 무엇인가?
+
+## 선택지
+
+A. 경구 아시트레틴(acitretin)
+B. 국소 클로트리마졸(clotrimazole)
+C. 국소 하이드로코르티손(hydrocortisone)
+D. 국소 살리실산(salicylic acid)
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-000924

@@ -16,6 +16,9 @@ import type {
   SpecialtyRoadmap,
   SpecialtySummary,
   SpecialtyToc,
+  QbankQuestionIndex,
+  QbankQuestion,
+  QbankSpecialtySummary,
   TermLink,
 } from "@/lib/types";
 
@@ -38,6 +41,9 @@ export type {
   SpecialtySummary,
   SpecialtyToc,
   TermLink,
+  QbankQuestionIndex,
+  QbankQuestion,
+  QbankSpecialtySummary,
 } from "@/lib/types";
 
 const DATA_ROOT = path.resolve(process.cwd(), "..", "..", "_webapp", "data");
@@ -249,6 +255,21 @@ export function getSkillById(id: string): ClinicalSkill | undefined {
   return getAllSkills().find((skill) => skill.id === id);
 }
 
+export function getQbankIndex(): QbankQuestionIndex[] {
+  return readJson("qbank-index.json");
+}
 
+export function getQbankSpecialties(): QbankSpecialtySummary[] {
+  return readJson("qbank-specialties.json");
+}
 
+export function getQbankQuestionsBySpecialty(specialtySlug: string): QbankQuestion[] {
+  return readJson(`qbank/${specialtySlug}.json`);
+}
+
+export function getQbankQuestionById(id: string): QbankQuestion | undefined {
+  const index = getQbankIndex().find((item) => item.id === id);
+  if (!index) return undefined;
+  return getQbankQuestionsBySpecialty(index.specialtySlug).find((item) => item.id === id);
+}
 

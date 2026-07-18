@@ -1,0 +1,48 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-003442
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:c52fee7163544977665aa1ddfa037c5c45b9a943d446608aaa2016d2b6b3587e
+exam: USMLE Step 2/3
+language: ko
+specialty: 09 혈액
+related_diseases:
+  - "paroxysmal nocturnal hemoglobinuria"
+  - "intravascular hemolysis"
+  - "Budd-Chiari syndrome"
+  - "flow cytometry"
+question_type: diagnosis
+difficulty: complex
+answer: B
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+27세 여성이 왼쪽 두통과 오른쪽 시야흐림으로 응급실에 왔다. 2주 전부터 짙은 소변과 복통이 있어 남아 있던 트리메토프림-설파메톡사졸을 복용했다. 검사에서 혈색소 7.0 g/dL, 망상적혈구 5.4%, LDH 3128 U/L, 간접 빌리루빈 1.4 mg/dL였다. 말초혈액도말에서 다염성이 보였고 간 도플러 초음파에서 오른쪽 간정맥 혈류가 감소했다. 다음 중 검사를 시행하면 진단을 확인할 가능성이 가장 높은 것은?
+
+## 선택지
+
+A. 항히스톤 항체
+B. 유세포분석
+C. 포도당-6-인산탈수소효소 수치
+D. 헤모글로빈 전기영동
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-003442

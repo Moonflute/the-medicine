@@ -1,0 +1,48 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-002793
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:7d24d69be1a1e944616b56e1020fd98bf5ee59f0b9b321afbafc390535893269
+exam: USMLE Step 2/3
+language: ko
+specialty: 15 정신건강의학과
+related_diseases:
+  - "Tourette syndrome"
+  - "motor and vocal tics"
+  - "tic disorder"
+  - "risperidone"
+question_type: management
+difficulty: standard
+answer: B
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+11세 남아가 학교 성적과 사회생활 부족을 걱정한 아버지와 함께 내원했다. 아버지는 수년간 지속된 욕설 폭발 때문에 아들이 괴롭힘을 당하는 것도 걱정한다. 이런 폭발이 있을 때 아이는 얼굴을 일그러뜨리고 반복해서 눈을 깜빡이며 끙끙거린다. 아버지는 괴롭힘이 심해질까 걱정하며 도움이 될 약물이 있는지 알고 싶어 한다. 다음 중 가장 도움이 될 가능성이 높은 약물은?
+
+## 선택지
+
+A. 발프로산
+B. 리스페리돈
+C. 클로나제팜
+D. 리튬
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-002793

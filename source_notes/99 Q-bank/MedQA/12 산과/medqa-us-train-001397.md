@@ -1,0 +1,46 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-001397
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:aa9a07311795dd1e15faba59aa39709b0c0323bc9d532562cf29d77efad7946a
+exam: USMLE Step 2/3
+language: ko
+specialty: 12 산과
+related_diseases:
+  - "breastfeeding contraindication"
+  - "cannabis exposure"
+question_type: prevention
+difficulty: simple
+answer: D
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+체중 3670 g (8 lb 1 oz)의 남아가 26세 초임부에게서 태어났다. 산전관리를 적절히 받았고 진통은 합병증이 없었다. 산모는 만성 B형간염과 위식도역류질환이 있으며 유일한 약은 라니티딘이다. 대마를 피우고 하루 반 갑의 담배를 피운다고 인정하며 주말에는 맥주 두 잔을 마신다. 아기 돌봄에 불안해하며 모유수유에 관한 정보를 요청한다. 다음 중 모유수유의 금기는 무엇인가?
+
+## 선택지
+
+A. 라니티딘 사용
+B. B형간염 감염
+C. 거대세포바이러스 혈청양성
+D. 대마 사용
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-001397

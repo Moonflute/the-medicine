@@ -69,8 +69,6 @@ function main() {
   const spectrum = readJson(path.join(DATA_ROOT, "antibiotic-spectrum.json"));
   const sourceIds = new Set(source.sources.map((item) => item.id));
   const organismIds = new Set(spectrum.organisms.map((item) => item.id));
-  const pathwayPathogenIds = new Set((source.pathogens ?? []).map((item) => item.id));
-  const knownPathogenIds = new Set([...organismIds, ...pathwayPathogenIds]);
   const antibioticIds = new Set(spectrum.antibiotics.map((item) => item.id));
   const requiredAntibiotics = new Set(["benzylpenicillin", "amoxicillin", "ampicillin", "amoxicillinclavulanate", "piperacillintazobactam", "cefazolin", "ceftriaxone", "cefotaxime", "cefepime", "ceftazidime", "meropenem", "aztreonam", "azithromycin", "doxycycline", "ciprofloxacin", "gentamicin", "metronidazole", "vancomycin", "linezolid", "daptomycin", "trimethoprimsulfamethoxazole", "nitrofurantoin", "fosfomycin"]);
   const requiredOrganisms = new Set(["mssa", "mrsa", "streptococci", "pneumococcus", "e_faecalis", "e_faecium", "enterobacterales", "pseudomonas", "b_fragilis", "atypicals", "esbl", "cre", "n_meningitidis", "listeria"]);
@@ -84,8 +82,6 @@ function main() {
 
   assert(source.schemaVersion === 1, `Unsupported infection pathway schema: ${source.schemaVersion}`);
   assert(sourceIds.size === source.sources.length, "Duplicate infection source id");
-  assert(pathwayPathogenIds.size === (source.pathogens ?? []).length, "Duplicate pathway pathogen id");
-  for (const pathogen of source.pathogens ?? []) assert(pathogen.label && Array.isArray(pathogen.aliases), `Invalid pathway pathogen: ${pathogen.id}`);
   for (const item of source.sources) {
     assert(item.label && /^https:\/\//.test(item.url), `Invalid source: ${item.id}`);
     assert(["A", "B", "C"].includes(item.tier), `Invalid source tier: ${item.id}`);
@@ -112,7 +108,7 @@ function main() {
     for (const group of pathway.pathogenGroups) {
       assert(group.context, `${pathway.id}: pathogen group context is required`);
       for (const organism of group.organisms) {
-        assert(knownPathogenIds.has(organism.organismId), `${pathway.id}: unknown organism ${organism.organismId}`);
+        assert(organismIds.has(organism.organismId), `${pathway.id}: unknown organism ${organism.organismId}`);
         assert(enums.likelihood.has(organism.likelihood), `${pathway.id}: invalid likelihood ${organism.likelihood}`);
       }
     }
@@ -134,17 +130,11 @@ function main() {
     for (const question of pathway.quizQuestions) {
       assert(!quizIds.has(question.id), `Duplicate infection quiz id: ${question.id}`);
       quizIds.add(question.id);
-      assert(["disease-to-organism", "disease-to-antibiotic", "disease-to-antibiotic-short-answer"].includes(question.type), `${question.id}: invalid quiz type`);
-      const isShortAnswer = question.type === "disease-to-antibiotic-short-answer";
+      assert(["disease-to-organism", "disease-to-antibiotic"].includes(question.type), `${question.id}: invalid quiz type`);
+      assert(Array.isArray(question.choiceIds) && new Set(question.choiceIds).size === 4, `${question.id}: four unique choices are required`);
+      assert(question.choiceIds.includes(question.correctId), `${question.id}: correctId must be one of choiceIds`);
       const knownChoices = question.type === "disease-to-organism" ? organismIds : antibioticIds;
-      if (isShortAnswer) {
-        assert(Array.isArray(question.choiceIds) && question.choiceIds.length === 0, `${question.id}: short-answer questions must not include choices`);
-        assert(antibioticIds.has(question.correctId), `${question.id}: unknown short-answer antibiotic`);
-      } else {
-        assert(Array.isArray(question.choiceIds) && new Set(question.choiceIds).size === 4, `${question.id}: four unique choices are required`);
-        assert(question.choiceIds.includes(question.correctId), `${question.id}: correctId must be one of choiceIds`);
-        validateIdList(question.choiceIds, knownChoices, `${question.id}/choices`);
-      }
+      validateIdList(question.choiceIds, knownChoices, `${question.id}/choices`);
       validateSourceIds(question.sourceIds, sourceIds, `${question.id}/sources`);
       assert(question.sourceIds.every((id) => pathway.sourceIds.includes(id)), `${question.id}: quiz sources must belong to the pathway`);
     }

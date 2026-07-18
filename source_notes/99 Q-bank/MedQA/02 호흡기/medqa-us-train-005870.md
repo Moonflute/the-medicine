@@ -1,0 +1,47 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-005870
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:94aeb9492ee486af03b534f60006cc3d01b2fef08e5457d1f44f223ca046f1c0
+exam: USMLE Step 2/3
+language: ko
+specialty: 02 호흡기
+related_diseases:
+  - "만성폐쇄성폐질환"
+  - "폐고혈압"
+  - "우심부전"
+question_type: diagnosis
+difficulty: complex
+answer: A
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+61세 남성이 점점 악화되는 호흡곤란과 흉부 불편감으로 내원했다. 5년 동안 운동 시 문제가 점점 심해져 이제 평지에서 50m 이상 걷지 못하고 대부분 집에서 쉰다. 40년 동안 하루 1~2갑을 흡연했다. 괴로워 보이며 맥박은 분당 85회, 혈압은 140/80 mmHg, 호흡수는 분당 25회이다. 얼굴이 다혈성이고 경정맥이 팽창되어 있으며 양측 폐에서 천명이 들린다. 오른손 손가락은 노랗게 변색되어 있고 하지에 2+ 부종이 있다. 다음 중 증상의 가장 가능성 높은 원인은 무엇인가?
+
+## 선택지
+
+A. 폐동맥압 상승
+B. 만성 호흡성 산증
+C. 관상동맥 죽상경화반
+D. 흉강 내 가스량 감소
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-005870

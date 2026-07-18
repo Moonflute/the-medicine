@@ -18,6 +18,7 @@ sources:
 - 'Resuscitation Council UK Emergency Treatment of Anaphylaxis | https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis/emergency-treatment-anaphylactic-reactions'
 disease_family: anaphylaxis
 population: adult
+
 관련분과:
 - 응급의학
 응급의학_분류:

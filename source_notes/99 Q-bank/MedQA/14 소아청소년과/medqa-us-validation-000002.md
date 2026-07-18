@@ -1,0 +1,47 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-validation-000002
+source: MedQA-US
+source_split: validation
+source_meta: step2&3
+source_hash: sha256:2b1e7b4e7e6c153e2839c424d33f49054e5ef53b8143be55abe78fcdc768a11a
+exam: USMLE Step 2/3
+language: ko
+specialty: 14 소아청소년과
+related_diseases:
+  - "주기성 구토 증후군"
+  - "반복 구토"
+  - "탈수"
+question_type: diagnosis
+difficulty: complex
+answer: A
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+5세 여아가 약 2시간 지속되는 오심과 담즙성 구토를 반복하여 응급실에 왔다. 이러한 증상 사이에는 건강하게 지내지만 지난 6개월 동안 탈수로 두 번 입원했고 체중은 30백분위수였다. 복부는 부드럽고 경도의 전반적 압통이 있었다. 가장 가능성 높은 진단은?
+
+## 선택지
+
+A. 주기성 구토 증후군
+B. 위장염
+C. 비대성 유문협착증
+D. 위식도 역류질환
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-validation-000002

@@ -1,0 +1,47 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-005277
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:cf75d1b990b07ceabd4204e7ada7d821e45c11adb260bdcd9f8620027460dbf2
+exam: USMLE Step 2/3
+language: ko
+specialty: 15 정신건강의학과
+related_diseases:
+  - "치료저항성 조현병"
+  - "클로자핀"
+  - "지속성 피해망상"
+question_type: management
+difficulty: standard
+answer: D
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+23세 남자가 지하철에서 소리를 지르다 경찰에 의해 응급실로 왔다. 작은 사람들이 자신을 죽이려 해 방어했다고 주장하며 과거 대마와 정맥주사 약물 사용, 여러 자살 시도가 있다. 할로페리돌과 디펜히드라민을 투여하고 일주일 동안 할로페리돌을 유지했으나 종이접시와 플라스틱 식기로 갑옷을 만들며 피해망상을 지속한다. 리스페리돈도 중단했다. 다음 중 가장 적절한 다음 단계는?
+
+## 선택지
+
+A. 플루페나진
+B. 티오리다진
+C. 올란자핀
+D. 클로자핀
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-005277

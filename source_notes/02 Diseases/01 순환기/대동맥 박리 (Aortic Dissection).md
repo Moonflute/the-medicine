@@ -17,6 +17,7 @@ guideline_year: "2022"
 sources: ["2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease | https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106"]
 
 content_updated_at: "2026-07-17"
+
 관련분과:
 - 응급의학
 응급의학_분류:

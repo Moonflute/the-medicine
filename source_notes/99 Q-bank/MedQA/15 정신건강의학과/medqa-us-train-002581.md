@@ -1,0 +1,48 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-002581
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:ff32d4a7e58872d69afde98816a63d700cf4f01d95697334432cc3085e93bdd8
+exam: USMLE Step 2/3
+language: ko
+specialty: 15 정신건강의학과
+related_diseases:
+  - "posttraumatic stress disorder"
+  - "SSRI"
+  - "escitalopram"
+  - "hyperarousal"
+question_type: management
+difficulty: standard
+answer: D
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+88세 남성이 불면으로 일차진료의를 방문했다. 전쟁 중 동료 병사들과 겪은 사건이 강한 기억으로 떠오르고, 작은 소리에도 놀라며 식은땀을 흘리며 깬다. 최근 친구의 장례식 후 악화되었고 수주간 양질의 수면을 취하지 못했다. 다음 중 가장 적절한 초기 약물치료는?
+
+## 선택지
+
+A. 부프로피온
+B. 부스피론
+C. 클로나제팜
+D. 에스시탈로프람
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-002581

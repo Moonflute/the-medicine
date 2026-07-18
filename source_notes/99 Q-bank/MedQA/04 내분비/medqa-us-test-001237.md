@@ -1,0 +1,48 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-test-001237
+source: MedQA-US
+source_split: test
+source_meta: step2&3
+source_hash: sha256:d4da4e84db49b4465f8e848f037564581e98c43b68a2dc53133d9e8406667ae0
+exam: USMLE Step 2/3
+language: ko
+specialty: 04 내분비
+related_diseases:
+  - "MEN 2A"
+  - "갈색세포종"
+  - "수질 갑상선암"
+  - "부갑상선기능항진증"
+question_type: diagnosis
+difficulty: complex
+answer: B
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+45세 여성이 두통, 심계항진, 발작성 발한으로 진료를 받으러 왔다. 고혈압으로 암로디핀을 복용하고 있고 4개월간 미만성 갑상선 비대, 3개월간 팔다리 장골 통증이 있었다. 마르고 불안하며 피부는 따뜻하고 촉촉했다. 혈압 196/102 mmHg, 맥박 116회/분, 24시간 요중 VMA와 메타네프린, 혈청 에피네프린·칼시토닌·부갑상선호르몬이 증가하고 고칼슘혈증과 고혈당이 있었다. 가장 가능성 높은 진단은?
+
+## 선택지
+
+A. 폰히펠-린다우 증후군
+B. 다발성 내분비 종양 2A형
+C. 다발성 내분비 종양 2B형
+D. 신경섬유종증
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-test-001237

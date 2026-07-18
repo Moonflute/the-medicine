@@ -1,0 +1,2515 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-07-17",
+  "disclaimer": "이 자료는 교육·참조용 임상 경로다. 실제 치료는 환자 상태, 감염 부위, 배양·감수성 결과, 장기기능, 알레르기, 임신 여부, 기관 antibiogram과 최신 국내 지침을 우선한다.",
+  "sources": [
+    {
+      "id": "idsa-cap-2019",
+      "label": "ATS/IDSA Adult CAP Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults",
+      "tier": "A",
+      "year": "2019"
+    },
+    {
+      "id": "idsa-cap-pathway",
+      "label": "IDSA CAP Clinical Pathway",
+      "url": "https://www.idsociety.org/globalassets/idsa/practice-guidelines/community-acquired-pneumonia-in-adults/cap-clinical-pathway-final-online.pdf",
+      "tier": "A",
+      "year": "2023"
+    },
+    {
+      "id": "idsa-cuti-2025",
+      "label": "IDSA Complicated UTI Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/",
+      "tier": "A",
+      "year": "2025"
+    },
+    {
+      "id": "idsa-uti-2010",
+      "label": "IDSA Uncomplicated Cystitis and Pyelonephritis Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/uncomplicated-cystitis-and-pyelonephritis-uti/",
+      "tier": "A",
+      "year": "2010"
+    },
+    {
+      "id": "idsa-ssti-2014",
+      "label": "IDSA Skin and Soft Tissue Infection Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/",
+      "tier": "A",
+      "year": "2014"
+    },
+    {
+      "id": "ssc-2026",
+      "label": "Surviving Sepsis Campaign Adult Guidelines",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines",
+      "tier": "A",
+      "year": "2026"
+    },
+    {
+      "id": "idsa-hap-vap-2016",
+      "label": "ATS/IDSA HAP/VAP Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/hap_vap/",
+      "tier": "A",
+      "year": "2016"
+    },
+    {
+      "id": "who-meningitis-2025",
+      "label": "WHO Meningitis Diagnosis, Treatment and Care Guideline",
+      "url": "https://www.who.int/publications/i/item/9789240108042",
+      "tier": "A",
+      "year": "2025"
+    },
+    {
+      "id": "idsa-nvo-2015",
+      "label": "IDSA Native Vertebral Osteomyelitis Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/vertebral-osteomyelitis/",
+      "tier": "A",
+      "year": "2015"
+    },
+    {
+      "id": "idsa-neutropenia-2010",
+      "label": "IDSA Fever and Neutropenia Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/neutropenic-patients-with-cancer/",
+      "tier": "A",
+      "year": "2010"
+    },
+    {
+      "id": "asco-idsa-neutropenia-2018",
+      "label": "ASCO/IDSA Outpatient Fever and Neutropenia Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/fever-and-neutropenia-in-adults-with-cancer/",
+      "tier": "A",
+      "year": "2018"
+    },
+    {
+      "id": "idsa-crbsi-2009",
+      "label": "IDSA Intravascular Catheter-Related Infection Guideline",
+      "url": "https://www.idsociety.org/practice-guideline/intravascular-catheter-related-infection/",
+      "tier": "A",
+      "year": "2009"
+    },
+    {
+      "id": "aasld-ascites-2021",
+      "label": "AASLD Ascites and Spontaneous Bacterial Peritonitis Guidance",
+      "url": "https://www.aasld.org/practice-guidelines/diagnosis-evaluation-and-management-ascites-spontaneous-bacterial-peritonitis",
+      "tier": "A",
+      "year": "2021"
+    },
+    {
+      "id": "kdca-antibiotic-practice-2026",
+      "label": "KDCA 2026 Practical Guidelines for Appropriate Antibiotic Use in Five Common Infections",
+      "url": "https://www.kdca.go.kr/kdca/2861/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjU1JTJGMzEwOTE2JTJGYXJ0Y2xWaWV3LmRvJTNG",
+      "tier": "A",
+      "year": "2026"
+    },
+    {
+      "id": "idsa-endocarditis-2015",
+      "label": "AHA/IDSA Infective Endocarditis in Adults",
+      "url": "https://www.idsociety.org/practice-guideline/endocarditis-management/",
+      "tier": "A",
+      "year": "2015"
+    },
+    {
+      "id": "nice-sepsis-2025",
+      "label": "NICE NG253 Suspected sepsis in people aged 16 or over",
+      "url": "https://www.nice.org.uk/guidance/ng253",
+      "tier": "A",
+      "year": "2025"
+    },
+    {
+      "id": "nice-pneumonia-2025",
+      "label": "NICE NG250 Pneumonia: diagnosis and management",
+      "url": "https://www.nice.org.uk/guidance/ng250",
+      "tier": "A",
+      "year": "2025"
+    },
+    {
+      "id": "nice-meningitis-2024",
+      "label": "NICE NG240 Bacterial meningitis and meningococcal disease",
+      "url": "https://www.nice.org.uk/guidance/ng240",
+      "tier": "A",
+      "year": "2024"
+    },
+    {
+      "id": "bsg-ascites-2021",
+      "label": "BSG/BASL Guidelines on the management of ascites in cirrhosis",
+      "url": "https://gut.bmj.com/content/70/1/9",
+      "tier": "B",
+      "year": "2021"
+    },
+    {
+      "id": "tokyo-cholangitis-2018",
+      "label": "Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.518",
+      "tier": "A",
+      "year": "2018"
+    }
+  ],
+  "pathways": [
+    {
+      "id": "adult-community-acquired-pneumonia",
+      "displayName": "성인 지역사회획득폐렴",
+      "aliases": [
+        "CAP",
+        "community-acquired pneumonia",
+        "지역사회 폐렴"
+      ],
+      "diseaseSourceFile": "02 호흡기/폐렴.md",
+      "infectionSite": "lower-respiratory-tract",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient",
+        "severe"
+      ],
+      "exclusions": [
+        "major-immunocompromise",
+        "hospital-acquired-pneumonia"
+      ],
+      "diagnosticNotes": [
+        "새 폐침윤과 호흡기 증상·감염 소견을 함께 확인한다.",
+        "중증도, 저산소증, MRSA/Pseudomonas의 검증된 위험인자와 최근 배양 결과를 평가한다.",
+        "배양 검사가 필요한 경우에도 항균제 투여를 불필요하게 지연하지 않는다."
+      ],
+      "sourceControlNotes": [
+        "농흉 또는 폐농양이 있으면 배액 등 source control을 평가한다."
+      ],
+      "stewardshipNotes": [
+        "HCAP이라는 명칭만으로 광범위 항균제를 추가하지 않는다.",
+        "임상적 안정성과 미생물 결과를 매일 평가해 spectrum과 치료 기간을 줄인다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "standard-risk",
+          "organisms": [
+            {
+              "organismId": "pneumococcus",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "h_influenzae",
+              "likelihood": "common",
+              "notes": [
+                "기저 폐질환과 흡연 등에서 중요도가 높아질 수 있다."
+              ]
+            },
+            {
+              "organismId": "atypicals",
+              "likelihood": "important",
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": "validated-resistant-pathogen-risk",
+          "organisms": [
+            {
+              "organismId": "mrsa",
+              "likelihood": "risk-factor-dependent",
+              "notes": [
+                "과거 호흡기 분리 또는 최근 입원·정주 항생제와 지역 역학을 함께 본다."
+              ]
+            },
+            {
+              "organismId": "pseudomonas",
+              "likelihood": "risk-factor-dependent",
+              "notes": [
+                "과거 호흡기 분리, 구조적 폐질환과 지역 역학을 함께 본다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "cap-outpatient-standard",
+          "context": "outpatient-without-major-comorbidity",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "amoxicillin",
+                "doxycycline"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "경구 치료와 추적이 가능하고 중증 소견이 없음"
+          ],
+          "avoidWhen": [
+            "해당 약제 금기 또는 지역 내성으로 신뢰하기 어려움"
+          ],
+          "notes": [
+            "macrolide 단독은 지역 pneumococcal resistance가 충분히 낮은 경우에만 고려한다."
+          ],
+          "sourceIds": [
+            "idsa-cap-2019",
+            "idsa-cap-pathway",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "id": "cap-outpatient-comorbidity",
+          "context": "outpatient-with-comorbidity",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "amoxicillinclavulanate",
+                "cefpodoxime",
+                "cefuroxime"
+              ],
+              "selection": "one-of"
+            },
+            {
+              "antibioticIds": [
+                "azithromycin",
+                "doxycycline"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "심폐·간·신장질환, 당뇨, 알코올 사용장애, 악성종양 또는 무비장 등 동반질환"
+          ],
+          "avoidWhen": [
+            "중증 CAP 또는 경구 섭취 불가"
+          ],
+          "notes": [
+            "호흡기 fluoroquinolone 단독은 대안이 될 수 있으나 개별 위해와 stewardship를 함께 평가한다."
+          ],
+          "sourceIds": [
+            "idsa-cap-2019",
+            "idsa-cap-pathway",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "id": "cap-inpatient-standard",
+          "context": "inpatient-without-mrsa-pseudomonas-risk",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone",
+                "cefotaxime",
+                "ampicillinsulbactam"
+              ],
+              "selection": "one-of"
+            },
+            {
+              "antibioticIds": [
+                "azithromycin",
+                "doxycycline"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "입원 필요, MRSA/Pseudomonas 위험인자 없음"
+          ],
+          "avoidWhen": [
+            "중증 beta-lactam 과민반응 또는 해당 약제 금기"
+          ],
+          "notes": [
+            "호흡기 fluoroquinolone 단독은 환자별 위험을 고려한 대안이다."
+          ],
+          "sourceIds": [
+            "idsa-cap-2019",
+            "idsa-cap-pathway",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "targetedTherapies": [
+        {
+          "organismId": "pneumococcus",
+          "susceptibilityCondition": "penicillin-susceptible isolate",
+          "rank": "preferred",
+          "antibioticIds": [
+            "benzylpenicillin",
+            "amoxicillin"
+          ],
+          "notes": [
+            "감염 부위와 중증도에 맞는 제형을 선택한다."
+          ],
+          "sourceIds": [
+            "idsa-cap-2019",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "organismId": "h_influenzae",
+          "susceptibilityCondition": "beta-lactamase-producing isolate",
+          "rank": "preferred",
+          "antibioticIds": [
+            "amoxicillinclavulanate",
+            "ceftriaxone"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "idsa-cap-2019",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "idsa-cap-2019",
+        "idsa-cap-pathway",
+        "kdca-antibiotic-practice-2026"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [
+        {
+          "id": "cap-common-pathogen",
+          "type": "disease-to-organism",
+          "prompt": "성인 지역사회획득폐렴에서 일반적으로 가장 우선 고려하는 세균은?",
+          "choiceIds": [
+            "pneumococcus",
+            "pseudomonas",
+            "b_fragilis",
+            "e_faecium"
+          ],
+          "correctId": "pneumococcus",
+          "explanation": "S. pneumoniae는 성인 CAP의 핵심 원인균이다. MRSA나 Pseudomonas coverage는 검증된 위험인자가 있을 때 추가한다.",
+          "sourceIds": [
+            "idsa-cap-2019",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "id": "cap-outpatient-standard-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "동반질환과 내성 위험이 없는 성인 외래 CAP의 검수된 경험적 선택지에 포함되는 약물은?",
+          "choiceIds": [
+            "amoxicillin",
+            "vancomycin",
+            "metronidazole",
+            "nitrofurantoin"
+          ],
+          "correctId": "amoxicillin",
+          "explanation": "Amoxicillin은 표준 위험 외래 CAP의 선택지다. 환자 조건, allergy와 국내·기관 내성 자료를 함께 확인한다.",
+          "sourceIds": [
+            "idsa-cap-2019",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDIg7Zi47Z2h6riwL-2PkOugtC5tZA",
+      "diseaseTitle": "폐렴"
+    },
+    {
+      "id": "acute-uncomplicated-cystitis",
+      "displayName": "급성 단순 방광염",
+      "aliases": [
+        "acute cystitis",
+        "하부 요로감염"
+      ],
+      "diseaseSourceFile": "05 신장/급성 방광염 (Acute Cystitis).md",
+      "infectionSite": "lower-urinary-tract",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient"
+      ],
+      "exclusions": [
+        "fever",
+        "flank-pain",
+        "systemic-illness",
+        "urinary-obstruction",
+        "pregnancy"
+      ],
+      "diagnosticNotes": [
+        "발열, 옆구리 통증, 전신증상이 있으면 pyelonephritis 또는 complicated UTI 경로를 적용한다.",
+        "재발, 비전형 증상 또는 내성 위험이 있으면 소변배양을 적극 고려한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "fluoroquinolone은 대안이 충분한 단순 방광염에서 우선 사용하지 않는다.",
+        "지역 내성과 최근 배양 결과를 우선한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-community-cystitis",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "common",
+              "notes": [
+                "E. coli가 대표적이다."
+              ]
+            },
+            {
+              "organismId": "e_faecalis",
+              "likelihood": "uncommon",
+              "notes": [
+                "환자 및 의료노출 조건에 따라 고려한다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "cystitis-first-line",
+          "context": "standard-risk",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "nitrofurantoin",
+                "fosfomycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "상부 요로 침범 소견이 없음"
+          ],
+          "avoidWhen": [
+            "pyelonephritis 의심",
+            "신기능 또는 개별 금기로 적절한 요중·조직 농도를 기대하기 어려움"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "idsa-uti-2010",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "id": "cystitis-tmpsmx",
+          "context": "susceptibility-likely",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "trimethoprimsulfamethoxazole"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "지역 내성률과 환자 과거 배양에서 감수성이 신뢰됨"
+          ],
+          "avoidWhen": [
+            "금기, 유의한 약물상호작용 또는 높은 내성 가능성"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "idsa-uti-2010",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "targetedTherapies": [
+        {
+          "organismId": "enterobacterales",
+          "susceptibilityCondition": "lower-tract susceptible isolate",
+          "rank": "preferred",
+          "antibioticIds": [
+            "nitrofurantoin",
+            "fosfomycin",
+            "trimethoprimsulfamethoxazole"
+          ],
+          "notes": [
+            "pyelonephritis 또는 bacteremia에는 단순 방광염 선택을 그대로 적용하지 않는다."
+          ],
+          "sourceIds": [
+            "idsa-uti-2010",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "idsa-uti-2010",
+        "idsa-cuti-2025",
+        "kdca-antibiotic-practice-2026"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [
+        {
+          "id": "cystitis-common-pathogen",
+          "type": "disease-to-organism",
+          "prompt": "급성 단순 방광염에서 가장 흔한 병원체 군은?",
+          "choiceIds": [
+            "enterobacterales",
+            "pneumococcus",
+            "mrsa",
+            "oral_anaerobes"
+          ],
+          "correctId": "enterobacterales",
+          "explanation": "E. coli를 포함한 Enterobacterales가 급성 단순 방광염의 주된 원인이다.",
+          "sourceIds": [
+            "idsa-uti-2010",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "id": "cystitis-lower-uti-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "신우신염 소견이 없는 급성 단순 방광염의 검수된 경구 선택지에 포함되는 약물은?",
+          "choiceIds": [
+            "nitrofurantoin",
+            "daptomycin",
+            "azithromycin",
+            "cefepime"
+          ],
+          "correctId": "nitrofurantoin",
+          "explanation": "Nitrofurantoin은 lower UTI에 사용하는 선택지이며, 신우신염이나 전신감염에는 조직 농도 한계 때문에 사용하지 않는다.",
+          "sourceIds": [
+            "idsa-uti-2010",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDUg7Iug7J6lL-q4ieyEsSDrsKnqtJHsl7wgKEFjdXRlIEN5c3RpdGlzKS5tZA",
+      "diseaseTitle": "급성 방광염 (Acute Cystitis)"
+    },
+    {
+      "id": "adult-complicated-uti-pyelonephritis",
+      "displayName": "성인 complicated UTI·급성 신우신염",
+      "aliases": [
+        "cUTI",
+        "acute pyelonephritis",
+        "상부 요로감염"
+      ],
+      "diseaseSourceFile": "05 신장/급성 신우신염 (Acute Pyelonephritis).md",
+      "infectionSite": "upper-urinary-tract",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient",
+        "sepsis"
+      ],
+      "exclusions": [
+        "prostatitis-needing-separate-duration",
+        "renal-abscess"
+      ],
+      "diagnosticNotes": [
+        "소변배양과 감수성 검사를 확보하고, sepsis에서는 혈액배양을 고려한다.",
+        "폐색, 농양, 결석 또는 기구 관련 감염 가능성을 평가한다.",
+        "경험적 선택은 중증도, 과거 배양, 최근 항생제, 지역 antibiogram 순으로 좁힌다."
+      ],
+      "sourceControlNotes": [
+        "요로 폐색과 농양은 긴급 배액 또는 비뇨기과적 source control이 필요할 수 있다."
+      ],
+      "stewardshipNotes": [
+        "임상 반응과 감수성 결과가 확인되면 가능한 좁은 유효 약제로 전환한다.",
+        "nitrofurantoin과 경구 fosfomycin은 신실질 감염 치료제로 사용하지 않는다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "standard-risk",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        },
+        {
+          "context": "resistance-or-healthcare-risk",
+          "organisms": [
+            {
+              "organismId": "esbl",
+              "likelihood": "risk-factor-dependent",
+              "notes": [
+                "과거 ESBL 분리와 최근 의료·항생제 노출을 확인한다."
+              ]
+            },
+            {
+              "organismId": "pseudomonas",
+              "likelihood": "risk-factor-dependent",
+              "notes": [
+                "기구, 구조적 요로질환, 과거 분리 등에서 고려한다."
+              ]
+            },
+            {
+              "organismId": "e_faecalis",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "cuti-stable",
+          "context": "hemodynamically-stable-without-resistant-pathogen-risk",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "중증 패혈증이 아니고 ESBL/Pseudomonas 위험이 낮음"
+          ],
+          "avoidWhen": [
+            "과거 내성균, 중증 beta-lactam 과민반응"
+          ],
+          "notes": [
+            "경구 선택은 감수성, 전신 상태와 신실질 농도를 확인한 뒤 결정한다."
+          ],
+          "sourceIds": [
+            "idsa-cuti-2025",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "id": "cuti-severe-resistant-risk",
+          "context": "sepsis-or-resistant-pathogen-risk",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "cefepime",
+                "piperacillintazobactam",
+                "meropenem"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "sepsis, 과거 내성균 또는 Pseudomonas 위험을 반영해 선택"
+          ],
+          "avoidWhen": [
+            "각 약제에 내성인 과거 분리주 또는 개별 금기"
+          ],
+          "notes": [
+            "carbapenem은 ESBL 위험이 높거나 중증이고 더 좁은 신뢰 가능한 선택이 없을 때 우선 고려한다."
+          ],
+          "sourceIds": [
+            "idsa-cuti-2025",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "targetedTherapies": [
+        {
+          "organismId": "enterobacterales",
+          "susceptibilityCondition": "susceptible isolate with adequate tissue exposure",
+          "rank": "preferred",
+          "antibioticIds": [
+            "ceftriaxone",
+            "ciprofloxacin",
+            "levofloxacin",
+            "trimethoprimsulfamethoxazole"
+          ],
+          "notes": [
+            "경구 전환은 임상 안정성과 적절한 흡수·조직농도를 확인한다."
+          ],
+          "sourceIds": [
+            "idsa-cuti-2025",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "organismId": "esbl",
+          "susceptibilityCondition": "ESBL pyelonephritis or cUTI",
+          "rank": "preferred",
+          "antibioticIds": [
+            "ertapenem",
+            "meropenem"
+          ],
+          "notes": [
+            "감수성이 확인된 적절한 경구 약제로 전환할 수 있는지 재평가한다."
+          ],
+          "sourceIds": [
+            "idsa-cuti-2025",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "idsa-cuti-2025",
+        "kdca-antibiotic-practice-2026"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [
+        {
+          "id": "cuti-common-pathogen",
+          "type": "disease-to-organism",
+          "prompt": "성인 complicated UTI·급성 신우신염에서 우선 고려하는 병원체 군은?",
+          "choiceIds": [
+            "enterobacterales",
+            "pneumococcus",
+            "oral_anaerobes",
+            "atypicals"
+          ],
+          "correctId": "enterobacterales",
+          "explanation": "Enterobacterales가 핵심이며, 중증도와 과거 배양에 따라 Pseudomonas와 내성 phenotype을 추가 평가한다.",
+          "sourceIds": [
+            "idsa-cuti-2025",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "id": "cuti-stable-parenteral-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "중증 패혈증과 명확한 내성 위험이 없는 입원 cUTI의 검수된 정주 선택지에 포함되는 약물은?",
+          "choiceIds": [
+            "ceftriaxone",
+            "fidaxomicin",
+            "clindamycin",
+            "daptomycin"
+          ],
+          "correctId": "ceftriaxone",
+          "explanation": "Ceftriaxone은 감수성이 예상되는 cUTI의 경험적 선택지다. 배양 후 반드시 좁히고 ESBL 위험에서는 별도 판단한다.",
+          "sourceIds": [
+            "idsa-cuti-2025",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA",
+      "diseaseTitle": "급성 신우신염 (Acute Pyelonephritis)"
+    },
+    {
+      "id": "nonpurulent-cellulitis",
+      "displayName": "비화농성 cellulitis",
+      "aliases": [
+        "nonpurulent cellulitis",
+        "연조직염"
+      ],
+      "diseaseSourceFile": "08 감염/연조직염 (Cellulitis).md",
+      "infectionSite": "skin-soft-tissue",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "exclusions": [
+        "abscess",
+        "necrotizing-infection",
+        "bite-wound",
+        "diabetic-foot-infection"
+      ],
+      "diagnosticNotes": [
+        "농양과 괴사성 감염을 구분한다.",
+        "빠른 진행, 통증 불균형, 수포·괴사, 독성 소견은 즉시 수술 평가가 필요한 red flag다."
+      ],
+      "sourceControlNotes": [
+        "농양이 없으면 배농 대상이 아니며, 피부 장벽 손상과 부종 등 재발 요인을 교정한다."
+      ],
+      "stewardshipNotes": [
+        "MRSA coverage를 모든 비화농성 cellulitis에 일률적으로 추가하지 않는다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-nonpurulent",
+          "organisms": [
+            {
+              "organismId": "streptococci",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "mssa",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "mrsa",
+              "likelihood": "risk-factor-dependent",
+              "notes": [
+                "penetrating trauma, MRSA 과거력, 주사약물사용, 화농 또는 중증 전신반응 등에서 고려한다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "cellulitis-mild",
+          "context": "mild-nonpurulent",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "cephalexin",
+                "amoxicillinclavulanate"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "경구 섭취와 추적 가능"
+          ],
+          "avoidWhen": [
+            "괴사성 감염 의심",
+            "중증 전신반응"
+          ],
+          "notes": [
+            "일반적으로 streptococci 중심으로 선택한다."
+          ],
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "id": "cellulitis-severe-mrsa-risk",
+          "context": "severe-or-mrsa-risk",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "vancomycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "MRSA 위험 또는 중증 전신반응"
+          ],
+          "avoidWhen": [
+            "괴사성 감염에서 수술 평가가 지연되는 경우"
+          ],
+          "notes": [
+            "중증 감염에서는 추가 Gram-negative/anaerobe coverage 필요성을 감염 맥락에 따라 결정한다."
+          ],
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "targetedTherapies": [
+        {
+          "organismId": "streptococci",
+          "susceptibilityCondition": "documented or clinically typical",
+          "rank": "preferred",
+          "antibioticIds": [
+            "benzylpenicillin",
+            "amoxicillin",
+            "cephalexin"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "organismId": "mssa",
+          "susceptibilityCondition": "susceptible isolate",
+          "rank": "preferred",
+          "antibioticIds": [
+            "cefazolin",
+            "nafcillin",
+            "oxacillin"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "idsa-ssti-2014",
+        "kdca-antibiotic-practice-2026"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [
+        {
+          "id": "cellulitis-common-pathogen",
+          "type": "disease-to-organism",
+          "prompt": "비화농성 cellulitis에서 우선 표적해야 하는 병원체 군은?",
+          "choiceIds": [
+            "streptococci",
+            "pseudomonas",
+            "b_fragilis",
+            "atypicals"
+          ],
+          "correctId": "streptococci",
+          "explanation": "비화농성 cellulitis는 beta-hemolytic streptococci가 핵심 표적이다. MRSA coverage는 위험인자와 임상상에 따라 추가한다.",
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "kdca-antibiotic-practice-2026"
+          ]
+        },
+        {
+          "id": "cellulitis-inpatient-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "중증 전신 소견이 없고 입원 치료가 필요한 비화농성 cellulitis의 검수된 선택지에 포함되는 약물은?",
+          "choiceIds": [
+            "cefazolin",
+            "metronidazole",
+            "aztreonam",
+            "colistin"
+          ],
+          "correctId": "cefazolin",
+          "explanation": "Cefazolin은 streptococcal 및 MSSA coverage가 필요한 비화농성 cellulitis의 선택지다.",
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDgg6rCQ7Je8L-yXsOyhsOyngeyXvCAoQ2VsbHVsaXRpcykubWQ",
+      "diseaseTitle": "연조직염 (Cellulitis)"
+    },
+    {
+      "id": "purulent-skin-abscess",
+      "displayName": "화농성 피부감염·농양",
+      "aliases": [
+        "skin abscess",
+        "purulent SSTI"
+      ],
+      "diseaseSourceFile": "08 감염/연조직염 (Cellulitis).md",
+      "infectionSite": "skin-soft-tissue",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "mild",
+        "moderate",
+        "severe"
+      ],
+      "exclusions": [
+        "necrotizing-infection",
+        "deep-organ-space-infection"
+      ],
+      "diagnosticNotes": [
+        "배농 가능한 농양인지 평가하고 가능하면 농을 배양한다.",
+        "항생제 필요성은 전신 염증, 저혈압, 면역저하, 다발성 병변과 치료 실패를 반영한다."
+      ],
+      "sourceControlNotes": [
+        "절개와 배농이 핵심 치료이며 항생제가 이를 대체하지 않는다."
+      ],
+      "stewardshipNotes": [
+        "충분히 배농된 경증 농양에서 항생제의 이득과 위해를 개별화한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "typical-purulent",
+          "organisms": [
+            {
+              "organismId": "mssa",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "mrsa",
+              "likelihood": "important",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "purulent-mrsa-active",
+          "context": "antibiotic-indicated-after-drainage",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "trimethoprimsulfamethoxazole",
+                "doxycycline",
+                "clindamycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "항생제 적응증이 있으며 지역 감수성에서 활성이 기대됨"
+          ],
+          "avoidWhen": [
+            "배농 없이 약물만 투여",
+            "중증 또는 심부 감염"
+          ],
+          "notes": [
+            "streptococcal coverage가 동시에 필요하면 regimen을 별도로 조정한다."
+          ],
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "targetedTherapies": [
+        {
+          "organismId": "mrsa",
+          "susceptibilityCondition": "susceptible uncomplicated skin isolate",
+          "rank": "preferred",
+          "antibioticIds": [
+            "trimethoprimsulfamethoxazole",
+            "doxycycline",
+            "clindamycin"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "idsa-ssti-2014",
+        "kdca-antibiotic-practice-2026"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [
+        {
+          "id": "abscess-important-pathogen",
+          "type": "disease-to-organism",
+          "prompt": "화농성 피부농양에서 특히 중요하게 고려하는 내성 phenotype은?",
+          "choiceIds": [
+            "mrsa",
+            "pneumococcus",
+            "esbl",
+            "atypicals"
+          ],
+          "correctId": "mrsa",
+          "explanation": "화농성 감염에서는 S. aureus가 핵심이며 지역 역학과 위험인자에 따라 MRSA를 고려한다. 치료의 기본은 적절한 절개·배농이다.",
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "kdca-antibiotic-practice-2026"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDgg6rCQ7Je8L-yXsOyhsOyngeyXvCAoQ2VsbHVsaXRpcykubWQ",
+      "diseaseTitle": "연조직염 (Cellulitis)"
+    },
+    {
+      "id": "adult-sepsis-suspected-bacterial-infection",
+      "displayName": "성인 sepsis·septic shock (의심 세균감염)",
+      "aliases": [
+        "sepsis",
+        "septic shock",
+        "패혈증"
+      ],
+      "diseaseSourceFile": "08 감염/패혈증 (Sepsis).md",
+      "infectionSite": "systemic",
+      "setting": "mixed",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "sepsis",
+        "septic-shock"
+      ],
+      "exclusions": [
+        "noninfectious-shock-with-low-infection-likelihood"
+      ],
+      "diagnosticNotes": [
+        "혈액배양과 의심 병소 검체를 가능하면 항균제 전에 채취하되 투여를 지연시키지 않는다.",
+        "감염 가능성, 쇼크 여부와 시간 민감도를 반복 평가한다.",
+        "항균제 선택은 추정 감염원, 숙주, 과거 배양, 최근 항생제와 기관 antibiogram을 기반으로 한다."
+      ],
+      "sourceControlNotes": [
+        "배액, 감염 기기 제거, 수술이 필요한 병소를 조기에 확인한다."
+      ],
+      "stewardshipNotes": [
+        "sepsis라는 이유만으로 동일한 광범위 조합을 모든 환자에게 적용하지 않는다.",
+        "배양과 임상 경과에 따라 매일 de-escalation 또는 중단을 평가한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "source-dependent",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "important",
+              "notes": [
+                "요로·복강·담도 등 감염원에서 중요하다."
+              ]
+            },
+            {
+              "organismId": "pseudomonas",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            },
+            {
+              "organismId": "mssa",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "mrsa",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            },
+            {
+              "organismId": "streptococci",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "b_fragilis",
+              "likelihood": "risk-factor-dependent",
+              "notes": [
+                "복강내 감염원에서 고려한다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "sepsis-unknown-source-high-resistance-risk",
+          "context": "shock-with-unknown-source-and-resistant-pathogen-risk",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "piperacillintazobactam",
+                "cefepime",
+                "meropenem"
+              ],
+              "selection": "one-of"
+            },
+            {
+              "antibioticIds": [
+                "vancomycin",
+                "linezolid"
+              ],
+              "selection": "optional"
+            }
+          ],
+          "conditions": [
+            "septic shock 또는 높은 즉시 치료 필요성",
+            "감염원과 내성 위험에 맞춰 각 component 필요성을 판단"
+          ],
+          "avoidWhen": [
+            "감염원과 내성 위험을 평가하지 않은 일률적 사용"
+          ],
+          "notes": [
+            "cefepime을 복강내 감염에 사용할 때는 적절한 anaerobe coverage가 별도로 필요하다.",
+            "MRSA 위험이 낮으면 anti-MRSA component를 일률적으로 추가하지 않는다."
+          ],
+          "sourceIds": [
+            "ssc-2026",
+            "nice-sepsis-2025"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "ssc-2026",
+        "nice-sepsis-2025"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [
+        {
+          "id": "sepsis-unknown-source-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "septic shock, 감염원 불명, 내성 Gram-negative 위험이 있는 경우 검수된 경험적 선택지에 포함되는 약물은?",
+          "choiceIds": [
+            "piperacillintazobactam",
+            "nitrofurantoin",
+            "fidaxomicin",
+            "cephalexin"
+          ],
+          "correctId": "piperacillintazobactam",
+          "explanation": "Piperacillin/tazobactam은 가능한 antipseudomonal beta-lactam 중 하나다. 감염원과 local antibiogram에 따라 cefepime 또는 meropenem 등이 더 적절할 수 있다.",
+          "sourceIds": [
+            "ssc-2026",
+            "nice-sepsis-2025"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA",
+      "diseaseTitle": "패혈증 (Sepsis)"
+    },
+    {
+      "id": "adult-hospital-acquired-pneumonia",
+      "displayName": "성인 HAP/VAP",
+      "aliases": [
+        "HAP",
+        "VAP",
+        "병원획득폐렴",
+        "인공호흡기연관폐렴"
+      ],
+      "diseaseSourceFile": "08 감염/원내감염.md",
+      "infectionSite": "lower-respiratory-tract",
+      "setting": "hospital-acquired",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "non-severe",
+        "severe"
+      ],
+      "exclusions": [
+        "community-acquired-pneumonia"
+      ],
+      "diagnosticNotes": [
+        "질 좋은 호흡기 검체와 혈액배양을 상황에 따라 확보한다.",
+        "기관 ICU antibiogram과 최근 90일 정주 항생제, 쇼크, ARDS, 장기입원 등 내성 위험을 평가한다."
+      ],
+      "sourceControlNotes": [
+        "농흉, 폐농양와 감염 기기의 source control 필요성을 평가한다."
+      ],
+      "stewardshipNotes": [
+        "모든 HAP/VAP에 이중 antipseudomonal 또는 anti-MRSA 치료를 일률적으로 적용하지 않는다.",
+        "배양 결과와 임상 반응에 따라 de-escalation한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "hospital-ecology",
+          "organisms": [
+            {
+              "organismId": "mssa",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "mrsa",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            },
+            {
+              "organismId": "pseudomonas",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "acinetobacter",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            },
+            {
+              "organismId": "stenotrophomonas",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "hap-antipseudomonal-beta-lactam",
+          "context": "empiric-based-on-local-antibiogram",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "piperacillintazobactam",
+                "cefepime",
+                "ceftazidime",
+                "meropenem",
+                "imipenemcilastatin"
+              ],
+              "selection": "one-of"
+            },
+            {
+              "antibioticIds": [
+                "vancomycin",
+                "linezolid"
+              ],
+              "selection": "optional"
+            }
+          ],
+          "conditions": [
+            "기관 antibiogram과 환자 내성 위험에 맞춰 선택",
+            "MRSA 위험 또는 높은 기관 유병률이면 anti-MRSA component 추가"
+          ],
+          "avoidWhen": [
+            "최근 분리주의 내성 또는 개별 금기"
+          ],
+          "notes": [
+            "높은 사망위험 또는 Gram-negative 내성 위험에서는 서로 다른 class의 두 antipseudomonal 약제를 고려할 수 있다."
+          ],
+          "sourceIds": [
+            "idsa-hap-vap-2016",
+            "nice-pneumonia-2025"
+          ]
+        }
+      ],
+      "targetedTherapies": [
+        {
+          "organismId": "mssa",
+          "susceptibilityCondition": "confirmed MSSA",
+          "rank": "preferred",
+          "antibioticIds": [
+            "oxacillin",
+            "nafcillin",
+            "cefazolin"
+          ],
+          "notes": [
+            "empiric broad-spectrum 약제에서 좁힌다."
+          ],
+          "sourceIds": [
+            "idsa-hap-vap-2016",
+            "nice-pneumonia-2025"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "idsa-hap-vap-2016",
+        "nice-pneumonia-2025"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [
+        {
+          "id": "hap-important-pathogen",
+          "type": "disease-to-organism",
+          "prompt": "성인 HAP/VAP에서 기관 antibiogram과 함께 중요하게 평가할 Gram-negative 병원체는?",
+          "choiceIds": [
+            "pseudomonas",
+            "pneumococcus",
+            "oral_anaerobes",
+            "clostridia"
+          ],
+          "correctId": "pseudomonas",
+          "explanation": "P. aeruginosa는 HAP/VAP에서 중요한 병원체다. 이중 antipseudomonal therapy는 모든 환자가 아니라 내성·사망 위험에 따라 결정한다.",
+          "sourceIds": [
+            "idsa-hap-vap-2016",
+            "nice-pneumonia-2025"
+          ]
+        },
+        {
+          "id": "hap-antipseudomonal-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "성인 HAP의 검수된 antipseudomonal beta-lactam 선택지에 포함되는 약물은?",
+          "choiceIds": [
+            "cefepime",
+            "amoxicillin",
+            "fidaxomicin",
+            "daptomycin"
+          ],
+          "correctId": "cefepime",
+          "explanation": "Cefepime은 기관 감수성과 환자 위험을 확인해 선택할 수 있는 antipseudomonal beta-lactam이다.",
+          "sourceIds": [
+            "idsa-hap-vap-2016",
+            "nice-pneumonia-2025"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDgg6rCQ7Je8L-ybkOuCtOqwkOyXvC5tZA",
+      "diseaseTitle": "원내감염"
+    },
+    {
+      "id": "adult-infective-endocarditis",
+      "displayName": "성인 infective endocarditis",
+      "aliases": [
+        "IE",
+        "감염심내막염"
+      ],
+      "diseaseSourceFile": "01 순환기/감염 심내막염 (Infective Endocarditis).md",
+      "infectionSite": "endovascular",
+      "setting": "healthcare-associated",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "stable",
+        "sepsis",
+        "heart-failure"
+      ],
+      "exclusions": [
+        "noninfective-endocarditis"
+      ],
+      "diagnosticNotes": [
+        "가능하면 항균제 전에 서로 다른 부위에서 여러 세트의 혈액배양을 확보한다.",
+        "자연판막, 인공판막, CIED, 지역사회/의료관련 발생과 과거 항생제를 구분한다.",
+        "TTE 후 임상 의심과 기기·인공판막 여부에 따라 TEE 및 추가 영상을 시행한다."
+      ],
+      "sourceControlNotes": [
+        "심부전, 조절되지 않는 감염, 판막주위 합병증, 반복 색전 또는 감염 기기는 Endocarditis Team과 조기 수술·제거를 논의한다."
+      ],
+      "stewardshipNotes": [
+        "고정된 한 가지 경험요법을 모든 IE에 적용하지 않는다.",
+        "균종, MIC, 판막/기기, 합병증과 배양 음성 원인을 확인해 표적치료한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "valve-and-exposure-dependent",
+          "organisms": [
+            {
+              "organismId": "mssa",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "mrsa",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "streptococci",
+              "likelihood": "common",
+              "notes": [
+                "oral streptococci와 S. gallolyticus group을 포함한다."
+              ]
+            },
+            {
+              "organismId": "e_faecalis",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "e_faecium",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [],
+      "targetedTherapies": [
+        {
+          "organismId": "mssa",
+          "susceptibilityCondition": "native-valve MSSA without severe beta-lactam allergy",
+          "rank": "preferred",
+          "antibioticIds": [
+            "oxacillin",
+            "nafcillin",
+            "cefazolin"
+          ],
+          "notes": [
+            "판막·기기 상태와 중추신경계 합병증에 따라 선택을 조정한다."
+          ],
+          "sourceIds": [
+            "idsa-endocarditis-2015"
+          ]
+        },
+        {
+          "organismId": "mrsa",
+          "susceptibilityCondition": "MRSA endocarditis",
+          "rank": "preferred",
+          "antibioticIds": [
+            "vancomycin",
+            "daptomycin"
+          ],
+          "notes": [
+            "MIC, 균혈증 지속과 전이 감염을 함께 평가한다."
+          ],
+          "sourceIds": [
+            "idsa-endocarditis-2015"
+          ]
+        },
+        {
+          "organismId": "e_faecalis",
+          "susceptibilityCondition": "susceptible Enterococcus faecalis",
+          "rank": "preferred",
+          "antibioticIds": [
+            "ampicillin",
+            "ceftriaxone"
+          ],
+          "notes": [
+            "이 조합은 병용요법이며 균종과 감수성을 확인해야 한다."
+          ],
+          "sourceIds": [
+            "idsa-endocarditis-2015"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "idsa-endocarditis-2015"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [],
+      "diseaseSlug": "MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k",
+      "diseaseTitle": "감염 심내막염 (Infective Endocarditis)"
+    },
+    {
+      "id": "community-acquired-bacterial-meningitis",
+      "displayName": "community-acquired acute bacterial meningitis",
+      "aliases": [
+        "세균성 수막염",
+        "bacterial meningitis"
+      ],
+      "diseaseSourceFile": "16 신경과-신경외과/뇌수막염 (Meningoencephalitis).md",
+      "infectionSite": "central-nervous-system",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "medical-emergency"
+      ],
+      "exclusions": [
+        "healthcare-associated-ventriculitis",
+        "post-neurosurgical-infection"
+      ],
+      "diagnosticNotes": [
+        "혈액배양과 lumbar puncture를 신속히 시행하되, 영상 또는 LP가 필요해도 항균제 투여를 지연하지 않는다.",
+        "연령, 면역저하와 Listeria 위험, 지역 pneumococcal resistance를 확인한다."
+      ],
+      "sourceControlNotes": [
+        "부비동·중이·두개내 합병증 또는 기기 관련 감염은 해당 source control을 평가한다."
+      ],
+      "stewardshipNotes": [
+        "CSF와 혈액 배양·분자검사 결과가 나오면 원인균별로 좁힌다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "community-acquired",
+          "organisms": [
+            {
+              "organismId": "pneumococcus",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "n_meningitidis",
+              "likelihood": "common",
+              "notes": [
+                "수막알균성 질환은 접촉자 예방과 공중보건 조치를 함께 평가한다."
+              ]
+            },
+            {
+              "organismId": "h_influenzae",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "listeria",
+              "likelihood": "risk-factor-dependent",
+              "notes": [
+                "60세 초과, 임신 또는 면역저하에서 별도로 고려한다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "meningitis-community-empiric",
+          "context": "suspected-acute-bacterial-meningitis",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone",
+                "cefotaxime"
+              ],
+              "selection": "one-of"
+            },
+            {
+              "antibioticIds": [
+                "vancomycin"
+              ],
+              "selection": "optional"
+            },
+            {
+              "antibioticIds": [
+                "ampicillin"
+              ],
+              "selection": "optional"
+            }
+          ],
+          "conditions": [
+            "ceftriaxone 또는 cefotaxime을 즉시 투여",
+            "penicillin/cephalosporin-resistant pneumococcus 위험이면 vancomycin 추가",
+            "고령·임신·면역저하 등 Listeria 위험이면 ampicillin 추가"
+          ],
+          "avoidWhen": [
+            "검사 또는 영상 때문에 투여가 지연되는 경우"
+          ],
+          "notes": [
+            "dexamethasone 등 adjunctive therapy는 별도 meningitis guideline에 따라 시점을 맞춘다."
+          ],
+          "sourceIds": [
+            "who-meningitis-2025",
+            "nice-meningitis-2024"
+          ]
+        }
+      ],
+      "targetedTherapies": [
+        {
+          "organismId": "n_meningitidis",
+          "susceptibilityCondition": "confirmed susceptible meningococcal disease",
+          "rank": "preferred",
+          "antibioticIds": [
+            "ceftriaxone",
+            "cefotaxime",
+            "benzylpenicillin"
+          ],
+          "notes": [
+            "공중보건 신고와 접촉자 예방을 함께 시행한다."
+          ],
+          "sourceIds": [
+            "who-meningitis-2025",
+            "nice-meningitis-2024"
+          ]
+        },
+        {
+          "organismId": "listeria",
+          "susceptibilityCondition": "confirmed Listeria monocytogenes meningitis",
+          "rank": "preferred",
+          "antibioticIds": [
+            "benzylpenicillin",
+            "ampicillin",
+            "amoxicillin"
+          ],
+          "notes": [
+            "cephalosporin은 Listeria 치료제로 사용하지 않는다."
+          ],
+          "sourceIds": [
+            "who-meningitis-2025",
+            "nice-meningitis-2024"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "who-meningitis-2025",
+        "nice-meningitis-2024"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [
+        {
+          "id": "meningitis-common-pathogen",
+          "type": "disease-to-organism",
+          "prompt": "성인 community-acquired bacterial meningitis에서 핵심 원인균은?",
+          "choiceIds": [
+            "pneumococcus",
+            "b_fragilis",
+            "stenotrophomonas",
+            "atypicals"
+          ],
+          "correctId": "pneumococcus",
+          "explanation": "S. pneumoniae는 성인 지역사회획득 세균성 수막염의 핵심 원인균이다. 연령과 면역상태에 따라 Listeria를 추가 고려한다.",
+          "sourceIds": [
+            "who-meningitis-2025",
+            "nice-meningitis-2024"
+          ]
+        },
+        {
+          "id": "meningitis-empiric-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "성인 community-acquired bacterial meningitis의 즉시 경험적 치료에 포함되는 3세대 cephalosporin은?",
+          "choiceIds": [
+            "ceftriaxone",
+            "cefazolin",
+            "cephalexin",
+            "cefixime"
+          ],
+          "correctId": "ceftriaxone",
+          "explanation": "Ceftriaxone 또는 cefotaxime을 즉시 투여한다. 지역 pneumococcal resistance와 Listeria 위험에 따라 추가 약물이 필요하다.",
+          "sourceIds": [
+            "who-meningitis-2025",
+            "nice-meningitis-2024"
+          ]
+        }
+      ],
+      "diseaseSlug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsl7wgKE1lbmluZ29lbmNlcGhhbGl0aXMpLm1k",
+      "diseaseTitle": "뇌수막염 (Meningoencephalitis)"
+    },
+    {
+      "id": "adult-native-vertebral-osteomyelitis",
+      "displayName": "성인 native vertebral osteomyelitis",
+      "aliases": [
+        "NVO",
+        "vertebral osteomyelitis",
+        "척추 골수염"
+      ],
+      "diseaseSourceFile": "08 감염/골수염 (Osteomyelitis).md",
+      "infectionSite": "bone-spine",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "stable",
+        "sepsis",
+        "neurologic-compromise"
+      ],
+      "exclusions": [
+        "prosthetic-joint-infection",
+        "diabetic-foot-osteomyelitis"
+      ],
+      "diagnosticNotes": [
+        "혈액배양, ESR/CRP와 spine MRI를 시행한다.",
+        "혈역학적으로 안정되고 신경학적 손상이 없다면 가능한 한 biopsy 또는 배양 진단 전까지 경험적 항균제를 보류한다.",
+        "sepsis, 혈역학 불안정 또는 진행하는 신경학적 손상에서는 배양 후 즉시 경험적 치료를 시작한다."
+      ],
+      "sourceControlNotes": [
+        "신경학적 결손, 불안정성, 큰 epidural/paraspinal abscess 또는 치료 실패는 spine surgery 평가가 필요하다."
+      ],
+      "stewardshipNotes": [
+        "배양과 감수성에 기반한 표적치료가 원칙이다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "hematogenous-native-vertebral",
+          "organisms": [
+            {
+              "organismId": "mssa",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "mrsa",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "streptococci",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            },
+            {
+              "organismId": "pseudomonas",
+              "likelihood": "risk-factor-dependent",
+              "notes": [
+                "주사약물사용 등 역학적 위험을 확인한다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "nvo-unstable-empiric",
+          "context": "sepsis-or-neurologic-compromise",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "vancomycin"
+              ],
+              "selection": "all-of"
+            },
+            {
+              "antibioticIds": [
+                "ceftriaxone",
+                "cefepime"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "배양을 확보했으며 치료를 미룰 수 없는 상태"
+          ],
+          "avoidWhen": [
+            "안정적이고 microbiologic diagnosis를 먼저 확보할 수 있는 상태에서 무조건 시작"
+          ],
+          "notes": [
+            "역학과 과거 배양에 따라 Gram-negative coverage를 조정한다."
+          ],
+          "sourceIds": [
+            "idsa-nvo-2015"
+          ]
+        }
+      ],
+      "targetedTherapies": [
+        {
+          "organismId": "mssa",
+          "susceptibilityCondition": "confirmed MSSA",
+          "rank": "preferred",
+          "antibioticIds": [
+            "nafcillin",
+            "oxacillin",
+            "cefazolin"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "idsa-nvo-2015"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "idsa-nvo-2015"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ",
+      "diseaseTitle": "골수염 (Osteomyelitis)"
+    },
+    {
+      "id": "adult-febrile-neutropenia",
+      "displayName": "성인 febrile neutropenia",
+      "aliases": [
+        "호중구감소성 발열",
+        "FN"
+      ],
+      "diseaseSourceFile": "08 감염/호중구감소증 (Neutropenia).md",
+      "infectionSite": "systemic",
+      "setting": "healthcare-associated",
+      "population": [
+        "adult",
+        "neutropenic",
+        "immunocompromised"
+      ],
+      "severity": [
+        "low-risk",
+        "high-risk"
+      ],
+      "exclusions": [
+        "non-neutropenic-fever"
+      ],
+      "diagnosticNotes": [
+        "ANC, 예상 호중구감소 기간, 혈역학 상태, 장기기능, 점막염과 감염 병소를 평가한다.",
+        "혈액배양을 포함한 적절한 검체를 확보하고 고위험 환자에서 경험적 항균제를 지연하지 않는다.",
+        "외래 치료는 검증된 risk tool과 임상·사회적 조건을 모두 충족할 때만 고려한다."
+      ],
+      "sourceControlNotes": [
+        "도관, 피부·연조직, 폐, 복강 등 확인된 병소의 source control을 평가한다."
+      ],
+      "stewardshipNotes": [
+        "vancomycin은 일률적으로 추가하지 않고 도관감염, 피부감염, 폐렴, 혈역학 불안정 또는 MRSA 위험 등 적응증이 있을 때 사용한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "high-risk-neutropenia",
+          "organisms": [
+            {
+              "organismId": "pseudomonas",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "streptococci",
+              "likelihood": "important",
+              "notes": [
+                "점막염에서 viridans group streptococci를 포함한다."
+              ]
+            },
+            {
+              "organismId": "mssa",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "mrsa",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "fn-high-risk-inpatient",
+          "context": "high-risk-inpatient",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "cefepime",
+                "piperacillintazobactam",
+                "meropenem",
+                "imipenemcilastatin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "고위험 호중구감소성 발열"
+          ],
+          "avoidWhen": [
+            "과거 내성 분리주에 비활성인 약제"
+          ],
+          "notes": [
+            "anti-MRSA, anaerobe 또는 antifungal 치료는 임상 적응증에 따라 추가한다."
+          ],
+          "sourceIds": [
+            "idsa-neutropenia-2010",
+            "asco-idsa-neutropenia-2018"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "idsa-neutropenia-2010",
+        "asco-idsa-neutropenia-2018"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [
+        {
+          "id": "neutropenic-fever-pathogen",
+          "type": "disease-to-organism",
+          "prompt": "고위험 febrile neutropenia의 초기 경험적 치료에서 반드시 고려해야 하는 Gram-negative 병원체는?",
+          "choiceIds": [
+            "pseudomonas",
+            "pneumococcus",
+            "oral_anaerobes",
+            "listeria"
+          ],
+          "correctId": "pseudomonas",
+          "explanation": "고위험 febrile neutropenia에서는 P. aeruginosa를 포함한 Gram-negative coverage가 지연되지 않아야 한다.",
+          "sourceIds": [
+            "idsa-neutropenia-2010",
+            "asco-idsa-neutropenia-2018"
+          ]
+        },
+        {
+          "id": "neutropenic-fever-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "고위험 febrile neutropenia의 검수된 antipseudomonal 단독 beta-lactam 선택지에 포함되는 약물은?",
+          "choiceIds": [
+            "cefepime",
+            "cephalexin",
+            "azithromycin",
+            "metronidazole"
+          ],
+          "correctId": "cefepime",
+          "explanation": "Cefepime은 초기 antipseudomonal beta-lactam 선택지다. 환자 안정성, allergy와 기관 내성 자료에 따라 다른 선택지가 가능하다.",
+          "sourceIds": [
+            "idsa-neutropenia-2010",
+            "asco-idsa-neutropenia-2018"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDgg6rCQ7Je8L-2YuOykkeq1rOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k",
+      "diseaseTitle": "호중구감소증 (Neutropenia)"
+    },
+    {
+      "id": "catheter-related-bloodstream-infection",
+      "displayName": "catheter-related bloodstream infection",
+      "aliases": [
+        "CRBSI",
+        "도관 관련 혈류감염"
+      ],
+      "diseaseSourceFile": "08 감염/도관 관련 감염 (Catheter-Related Infection).md",
+      "infectionSite": "bloodstream-catheter",
+      "setting": "procedure-associated",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "stable",
+        "sepsis"
+      ],
+      "exclusions": [
+        "peripheral-phlebitis-without-bacteremia"
+      ],
+      "diagnosticNotes": [
+        "항균제 전에 도관과 말초에서 적절한 혈액배양을 확보한다.",
+        "균종, 도관 종류, tunnel/pocket infection, 혈전, endocarditis와 지속 균혈증을 평가한다."
+      ],
+      "sourceControlNotes": [
+        "S. aureus, Pseudomonas, Candida, 중증 sepsis, suppurative thrombophlebitis, endocarditis 또는 지속 균혈증에서는 도관 제거 필요성이 높다."
+      ],
+      "stewardshipNotes": [
+        "오염 가능성이 있는 단일 배양과 진성 균혈증을 구분한다.",
+        "배양 결과가 나오면 균종별 표적치료와 도관 salvage 가능성을 재평가한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "intravascular-catheter",
+          "organisms": [
+            {
+              "organismId": "mssa",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "mrsa",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "e_faecalis",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "e_faecium",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "pseudomonas",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "crbsi-severe-empiric",
+          "context": "sepsis-or-high-resistant-pathogen-risk",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "vancomycin"
+              ],
+              "selection": "all-of"
+            },
+            {
+              "antibioticIds": [
+                "cefepime",
+                "piperacillintazobactam",
+                "meropenem"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "중증 sepsis 또는 Gram-negative 내성 위험"
+          ],
+          "avoidWhen": [
+            "배양과 임상 위험을 평가하지 않은 일률적 병용"
+          ],
+          "notes": [
+            "지역 MRSA와 Gram-negative 감수성 자료에 따라 선택한다."
+          ],
+          "sourceIds": [
+            "idsa-crbsi-2009"
+          ]
+        }
+      ],
+      "targetedTherapies": [
+        {
+          "organismId": "mssa",
+          "susceptibilityCondition": "confirmed MSSA bloodstream infection",
+          "rank": "preferred",
+          "antibioticIds": [
+            "nafcillin",
+            "oxacillin",
+            "cefazolin"
+          ],
+          "notes": [
+            "합병성 균혈증과 endocarditis를 평가한다."
+          ],
+          "sourceIds": [
+            "idsa-crbsi-2009"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "idsa-crbsi-2009"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-uPhOq0gCDqtIDroKgg6rCQ7Je8IChDYXRoZXRlci1SZWxhdGVkIEluZmVjdGlvbikubWQ",
+      "diseaseTitle": "도관 관련 감염 (Catheter-Related Infection)"
+    },
+    {
+      "id": "spontaneous-bacterial-peritonitis",
+      "displayName": "spontaneous bacterial peritonitis",
+      "aliases": [
+        "SBP",
+        "자발성 세균성 복막염"
+      ],
+      "diseaseSourceFile": "03 소화기/간담췌/자발성 세균 복막염 (Spontaneous Bacterial Peritonitis).md",
+      "infectionSite": "peritoneal",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "stable",
+        "sepsis"
+      ],
+      "exclusions": [
+        "secondary-peritonitis",
+        "postoperative-intraabdominal-infection"
+      ],
+      "diagnosticNotes": [
+        "간경변과 복수가 있는 입원 환자 또는 감염·신기능악화·뇌증·위장관출혈이 의심되는 환자에서 지체 없이 진단적 복수천자를 시행한다.",
+        "복수 PMN과 배양을 확인하고 secondary peritonitis 단서를 평가한다."
+      ],
+      "sourceControlNotes": [
+        "secondary peritonitis가 의심되면 영상과 수술·배액 평가가 필요하며 SBP 경로만 적용하지 않는다."
+      ],
+      "stewardshipNotes": [
+        "지역사회와 nosocomial 발생, 최근 beta-lactam 노출과 MDR 위험을 구분한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "cirrhosis-associated-sbp",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "streptococci",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "e_faecalis",
+              "likelihood": "risk-factor-dependent",
+              "notes": [
+                "병원 발생과 항생제 노출에서 중요도가 높아질 수 있다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "sbp-community",
+          "context": "community-acquired-without-mdr-risk",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "cefotaxime",
+                "ceftriaxone"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "secondary peritonitis가 아니며 MDR 위험이 낮음"
+          ],
+          "avoidWhen": [
+            "최근 해당 계열 노출 또는 과거 내성균"
+          ],
+          "notes": [
+            "albumin 병용 적응증은 간질환 guideline에 따라 별도로 평가한다."
+          ],
+          "sourceIds": [
+            "aasld-ascites-2021",
+            "bsg-ascites-2021"
+          ]
+        },
+        {
+          "id": "sbp-nosocomial-mdr-risk",
+          "context": "nosocomial-or-mdr-risk",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "piperacillintazobactam",
+                "meropenem"
+              ],
+              "selection": "one-of"
+            },
+            {
+              "antibioticIds": [
+                "vancomycin"
+              ],
+              "selection": "optional"
+            }
+          ],
+          "conditions": [
+            "기관 antibiogram, 과거 배양과 최근 항생제 노출에 따라 선택"
+          ],
+          "avoidWhen": [
+            "MDR 위험 평가 없이 일률적 광범위 치료"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "aasld-ascites-2021",
+            "bsg-ascites-2021"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "aasld-ascites-2021",
+        "bsg-ascites-2021"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [
+        {
+          "id": "sbp-common-pathogen",
+          "type": "disease-to-organism",
+          "prompt": "cirrhosis-associated spontaneous bacterial peritonitis에서 흔한 병원체 군은?",
+          "choiceIds": [
+            "enterobacterales",
+            "pneumococcus",
+            "atypicals",
+            "oral_anaerobes"
+          ],
+          "correctId": "enterobacterales",
+          "explanation": "Enterobacterales가 흔하며 병원 발생과 항생제 노출에서는 Enterococcus와 MDR 위험이 커질 수 있다.",
+          "sourceIds": [
+            "aasld-ascites-2021",
+            "bsg-ascites-2021"
+          ]
+        },
+        {
+          "id": "sbp-community-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "MDR 위험이 낮은 community-acquired SBP의 검수된 경험적 선택지에 포함되는 약물은?",
+          "choiceIds": [
+            "ceftriaxone",
+            "nitrofurantoin",
+            "daptomycin",
+            "azithromycin"
+          ],
+          "correctId": "ceftriaxone",
+          "explanation": "Ceftriaxone 또는 cefotaxime은 MDR 위험이 낮은 community-acquired SBP의 선택지다. secondary peritonitis를 배제해야 한다.",
+          "sourceIds": [
+            "aasld-ascites-2021",
+            "bsg-ascites-2021"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDrsJzshLEg7IS46regIOuzteunieyXvCAoU3BvbnRhbmVvdXMgQmFjdGVyaWFsIFBlcml0b25pdGlzKS5tZA",
+      "diseaseTitle": "자발성 세균 복막염 (Spontaneous Bacterial Peritonitis)"
+    },
+    {
+      "id": "adult-acute-cholangitis",
+      "displayName": "성인 acute cholangitis",
+      "aliases": [
+        "급성 담관염",
+        "ascending cholangitis",
+        "acute biliary infection"
+      ],
+      "diseaseSourceFile": "03 소화기/간담췌/쓸개관염 (Cholangitis).md",
+      "infectionSite": "biliary-tract",
+      "setting": "mixed",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "grade-I",
+        "grade-II",
+        "grade-III"
+      ],
+      "exclusions": [
+        "uncomplicated-cholecystitis-without-cholangitis",
+        "noninfectious-biliary-obstruction"
+      ],
+      "diagnosticNotes": [
+        "담도 감염과 폐쇄를 함께 평가하고, 혈액배양 및 배액 시 담즙배양을 확보한다.",
+        "중증도, 의료관련 노출, 최근 항생제, 과거 ESBL·Pseudomonas·Enterococcus 분리와 기관 antibiogram을 확인한다."
+      ],
+      "sourceControlNotes": [
+        "항균제만으로 폐쇄성 담관염을 해결하려 하지 않으며, 중증 또는 초기 치료 반응이 불충분하면 긴급 담도 배액을 시행한다."
+      ],
+      "stewardshipNotes": [
+        "배양과 감수성 결과 및 배액 후 임상 반응에 따라 좁은 항균제로 de-escalation한다.",
+        "혐기성균 추가 coverage는 bilio-enteric anastomosis 등 위험이 있을 때 선택적으로 고려한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "acute-biliary-infection",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "common",
+              "notes": [
+                "E. coli와 Klebsiella spp.가 주요 대상이다."
+              ]
+            },
+            {
+              "organismId": "e_faecalis",
+              "likelihood": "risk-factor-dependent",
+              "notes": [
+                "의료관련 감염, 기구 삽입과 반복 항생제 노출에서 중요도가 높아질 수 있다."
+              ]
+            },
+            {
+              "organismId": "pseudomonas",
+              "likelihood": "risk-factor-dependent",
+              "notes": [
+                "의료관련 감염과 과거 배양·항생제 노출을 확인한다."
+              ]
+            },
+            {
+              "organismId": "b_fragilis",
+              "likelihood": "risk-factor-dependent",
+              "notes": [
+                "bilio-enteric anastomosis 등 혐기성균 위험이 있는 상황에서 고려한다."
+              ]
+            },
+            {
+              "organismId": "esbl",
+              "likelihood": "risk-factor-dependent",
+              "notes": [
+                "과거 ESBL 보균·감염과 최근 광범위 항생제 노출을 확인한다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "cholangitis-community-non-severe",
+          "context": "community-acquired-grade-I-or-II-without-mdr-risk",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone",
+                "cefotaxime",
+                "piperacillintazobactam"
+              ],
+              "selection": "one-of"
+            },
+            {
+              "antibioticIds": [
+                "metronidazole"
+              ],
+              "selection": "optional"
+            }
+          ],
+          "conditions": [
+            "중증도와 국내·기관 감수성에 따라 선택",
+            "metronidazole은 bilio-enteric anastomosis 등 혐기성균 위험에서 선택적으로 추가"
+          ],
+          "avoidWhen": [
+            "과거 해당 계열 내성균 분리 또는 중증 beta-lactam 과민반응"
+          ],
+          "notes": [
+            "piperacillin/tazobactam 선택 시 metronidazole을 중복 추가하지 않는다."
+          ],
+          "sourceIds": [
+            "kdca-antibiotic-practice-2026",
+            "tokyo-cholangitis-2018"
+          ]
+        },
+        {
+          "id": "cholangitis-severe-or-healthcare-associated",
+          "context": "grade-III-or-healthcare-associated-with-resistant-pathogen-risk",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "piperacillintazobactam",
+                "cefepime",
+                "meropenem"
+              ],
+              "selection": "one-of"
+            },
+            {
+              "antibioticIds": [
+                "metronidazole"
+              ],
+              "selection": "optional"
+            }
+          ],
+          "conditions": [
+            "기관 antibiogram과 과거 배양에 따라 antipseudomonal 또는 ESBL coverage를 선택",
+            "cefepime을 선택하면서 혐기성균 위험이 있으면 metronidazole 추가"
+          ],
+          "avoidWhen": [
+            "구체적 내성 위험 평가 없이 carbapenem을 일률적으로 사용하는 경우"
+          ],
+          "notes": [
+            "배액과 배양 후 가능한 한 조기에 좁힌다."
+          ],
+          "sourceIds": [
+            "kdca-antibiotic-practice-2026",
+            "tokyo-cholangitis-2018"
+          ]
+        }
+      ],
+      "targetedTherapies": [
+        {
+          "organismId": "enterobacterales",
+          "susceptibilityCondition": "susceptible Enterobacterales after biliary drainage",
+          "rank": "preferred",
+          "antibioticIds": [
+            "ceftriaxone",
+            "cefotaxime",
+            "amoxicillinclavulanate"
+          ],
+          "notes": [
+            "감수성, 임상 안정성과 경구 전환 가능성을 함께 평가한다."
+          ],
+          "sourceIds": [
+            "kdca-antibiotic-practice-2026",
+            "tokyo-cholangitis-2018"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "kdca-antibiotic-practice-2026",
+        "tokyo-cholangitis-2018"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-17",
+      "quizQuestions": [
+        {
+          "id": "cholangitis-common-pathogen",
+          "type": "disease-to-organism",
+          "prompt": "성인 acute cholangitis에서 가장 흔한 병원체 군은?",
+          "choiceIds": [
+            "enterobacterales",
+            "pneumococcus",
+            "atypicals",
+            "mrsa"
+          ],
+          "correctId": "enterobacterales",
+          "explanation": "E. coli와 Klebsiella spp.를 포함한 Enterobacterales가 핵심이다. 의료관련 노출에서는 내성균을 별도로 평가한다.",
+          "sourceIds": [
+            "kdca-antibiotic-practice-2026",
+            "tokyo-cholangitis-2018"
+          ]
+        },
+        {
+          "id": "cholangitis-community-drug",
+          "type": "disease-to-antibiotic",
+          "prompt": "MDR 위험이 낮은 community-acquired acute cholangitis의 검수된 선택지에 포함되는 약물은?",
+          "choiceIds": [
+            "ceftriaxone",
+            "nitrofurantoin",
+            "linezolid",
+            "fidaxomicin"
+          ],
+          "correctId": "ceftriaxone",
+          "explanation": "Ceftriaxone은 가능한 선택지 중 하나다. 폐쇄가 있으면 적절한 담도 배액이 항균제 선택만큼 중요하다.",
+          "sourceIds": [
+            "kdca-antibiotic-practice-2026",
+            "tokyo-cholangitis-2018"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzqtIDsl7wgKENob2xhbmdpdGlzKS5tZA",
+      "diseaseTitle": "쓸개관염 (Cholangitis)"
+    }
+  ]
+}

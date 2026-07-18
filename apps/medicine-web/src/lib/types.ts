@@ -96,7 +96,6 @@ export type PregnancyStatus =
 export type AntibioticOrganism = {
   id: string;
   label: string;
-  matrixLabel?: string;
   group: string;
   aliases: string[];
   noteSourceFile?: string;
@@ -296,6 +295,38 @@ export type SkillsManifest = {
   source: string;
   categories: SkillCategorySummary[];
   items: ClinicalSkill[];
+};
+
+export type QbankAnswer = "A" | "B" | "C" | "D";
+
+export type QbankQuestion = {
+  id: string;
+  source: string;
+  sourceSplit: "train" | "validation" | "test" | string;
+  specialty: string;
+  specialtySlug: string;
+  relatedDiseaseTerms: string[];
+  relatedDiseaseSlugs: string[];
+  questionType: string;
+  difficulty: string;
+  question: string;
+  options: Record<QbankAnswer, string>;
+  answer: QbankAnswer;
+  explanation: string;
+  translationStatus: string;
+  explanationStatus: string;
+  reviewStatus: string;
+};
+
+export type QbankQuestionIndex = Pick<
+  QbankQuestion,
+  "id" | "specialty" | "specialtySlug" | "questionType" | "difficulty" | "translationStatus" | "explanationStatus"
+>;
+
+export type QbankSpecialtySummary = {
+  name: string;
+  slug: string;
+  count: number;
 };
 
 

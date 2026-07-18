@@ -16437,7 +16437,7 @@
       "categoryPath": "내분비·대사 > 당뇨 > 인슐린",
       "topClass": "05 내분비·대사",
       "middleClass": "당뇨",
-      "detailClass": "",
+      "detailClass": "인슐린",
       "clinicalCore": false,
       "priority": "",
       "brands": [
@@ -20200,7 +20200,7 @@
       "categoryPath": "면역·염증·류마티스 > 생물학적제제 > TNF 억제제",
       "topClass": "07 면역·염증·류마티스",
       "middleClass": "생물학적제제",
-      "detailClass": "",
+      "detailClass": "TNF 억제제",
       "clinicalCore": false,
       "priority": "",
       "brands": [
@@ -23830,6 +23830,254 @@
     }
   },
   {
+    "id": "drug:08 감염/Cefixime.md",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmaXhpbWUubWQ",
+    "title": "Cefixime",
+    "sourcePath": "source_notes/04 Pharmacology/08 감염/Cefixime.md",
+    "folder": "08 감염",
+    "aliases": [
+      "cefixime",
+      "세픽심"
+    ],
+    "category": "감염 > 항균 > 세팔로스포린",
+    "summary": [
+      "- 경구 3세대 cephalosporin으로 일부 respiratory pathogen과 Enterobacterales에 활성이 있다.",
+      "- staphylococci, Enterococcus, Pseudomonas, anaerobe에는 신뢰할 수 있는 활성이 없어 spectrum을 과대평가하면 안 된다.",
+      "- 대표 상품명: Suprax®"
+    ],
+    "sections": [
+      {
+        "title": "기전",
+        "content": [
+          "• PBP에 결합해 세포벽 합성을 억제하는 bactericidal beta-lactam이다."
+        ]
+      },
+      {
+        "title": "임상 정보",
+        "content": [
+          "• 감수성 있는 균에 의한 uncomplicated UTI, otitis media, pharyngitis/tonsillitis 등에 사용한다.",
+          "• 폐렴구균 감수성 저하와 지역 내성률을 고려하며 중증 감염의 경구 대체제로 자동 사용하지 않는다.",
+          "• 임질 치료는 최신 guideline의 권장 약제와 대체 regimen을 우선 확인한다.",
+          "#### 용법/용량",
+          "• 성인: 400 mg PO once daily 또는 200 mg PO every 12 hours.",
+          "• 소아는 체중 기반으로 투여한다.",
+          "• 신기능 저하에서는 감량이 필요할 수 있다.",
+          "#### 적응증",
+          "• uncomplicated urinary tract infection",
+          "• otitis media",
+          "• pharyngitis/tonsillitis",
+          "• chronic bronchitis acute exacerbation 일부",
+          "#### 금기증",
+          "• cefixime 또는 cephalosporin에 대한 중증 과민반응",
+          "#### 상호작용",
+          "• warfarin 병용 시 prothrombin time 증가 가능성을 확인한다.",
+          "• carbamazepine 농도가 증가할 수 있다.",
+          "#### 부작용",
+          "• 설사, 오심, 복통",
+          "• 발진과 과민반응",
+          "• C. difficile infection",
+          "• 드물게 혈구감소와 신기능 이상",
+          "#### 주의",
+          "• 중증 penicillin/cephalosporin allergy 병력을 확인한다.",
+          "• 경구 3세대라는 이유만으로 ESBL 감염에 사용하지 않는다.",
+          "• 배양 가능한 감염에서는 감수성 결과를 확인한다.",
+          "#### 비고",
+          "• 경구 bioavailability와 spectrum이 ceftriaxone과 같지 않으므로 단순 경구 대체제로 간주하지 않는다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• DailyMed. `CEFIXIME tablet`. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5a3c547-3bc7-4856-af9c-1bead294f5d9"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-15T16:29:38.019Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-16",
+      "reviewStatus": "draft",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "CEFIXIME tablet",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5a3c547-3bc7-4856-af9c-1bead294f5d9"
+        }
+      ]
+    },
+    "drugMeta": {
+      "type": "drug",
+      "categoryPath": "감염 > 항균 > 세팔로스포린",
+      "topClass": "08 감염",
+      "middleClass": "항균",
+      "detailClass": "세팔로스포린",
+      "clinicalCore": true,
+      "priority": "tier_1",
+      "brands": [
+        "Suprax®"
+      ],
+      "doses": [
+        "adult 400 mg PO daily or 200 mg PO every 12 hours"
+      ],
+      "relatedDiseases": [
+        "요로감염",
+        "인두염",
+        "중이염"
+      ],
+      "indications": [
+        "• uncomplicated urinary tract infection",
+        "• otitis media",
+        "• pharyngitis/tonsillitis",
+        "• chronic bronchitis acute exacerbation 일부"
+      ],
+      "contraindications": [
+        "• cefixime 또는 cephalosporin에 대한 중증 과민반응"
+      ],
+      "interactions": [
+        "• warfarin 병용 시 prothrombin time 증가 가능성을 확인한다.",
+        "• carbamazepine 농도가 증가할 수 있다."
+      ],
+      "adverseEffects": [
+        "• 설사, 오심, 복통",
+        "• 발진과 과민반응",
+        "• C. difficile infection",
+        "• 드물게 혈구감소와 신기능 이상"
+      ],
+      "monitoring": [
+        "• 중증 penicillin/cephalosporin allergy 병력을 확인한다.",
+        "• 경구 3세대라는 이유만으로 ESBL 감염에 사용하지 않는다.",
+        "• 배양 가능한 감염에서는 감수성 결과를 확인한다."
+      ],
+      "profile": "drug_core_global_v1"
+    }
+  },
+  {
+    "id": "drug:08 감염/CefoperazoneSulbactam.md",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2Vmb3BlcmF6b25lU3VsYmFjdGFtLm1k",
+    "title": "CefoperazoneSulbactam",
+    "sourcePath": "source_notes/04 Pharmacology/08 감염/CefoperazoneSulbactam.md",
+    "folder": "08 감염",
+    "aliases": [
+      "cefoperazone sulbactam",
+      "세포페라존 설박탐"
+    ],
+    "category": "감염 > 항균 > 베타락탐·베타락타마제 억제제",
+    "summary": [],
+    "sections": [
+      {
+        "title": "기전",
+        "content": [
+          "• cefoperazone은 PBP를 억제하고 sulbactam은 일부 serine beta-lactamase를 비가역적으로 억제한다.",
+          "• sulbactam 자체의 Acinetobacter 활성은 균주와 노출에 따라 달라지므로 감수성 확인이 필요하다."
+        ]
+      },
+      {
+        "title": "임상 정보",
+        "content": [
+          "• 복강내·담도·골반 및 감수성 Gram-negative 감염에서 사용하며 Pseudomonas 활성을 기대할 수 있다.",
+          "• MRSA, Enterococcus, atypical pathogen에는 신뢰할 수 있는 활성이 없다.",
+          "• ESBL bloodstream infection이나 중증 CRE에서는 IDSA guidance와 감수성 결과에 따라 더 적절한 표적 치료를 선택한다.",
+          "#### 용법/용량",
+          "• 투여량은 cefoperazone 성분 기준 감염 중증도와 간·신기능에 맞춰 조절한다.",
+          "• 중증 간담도 질환 또는 담즙 배설 저하에서는 누적을 고려한다.",
+          "• 제품별 sulbactam 최대용량과 혼합제 비율을 확인한다.",
+          "#### 적응증",
+          "• 복강내 감염",
+          "• 담도 감염",
+          "• 감수성 Gram-negative 감염",
+          "• 혼합 호기성·혐기성 감염",
+          "#### 금기증",
+          "• cephalosporin, sulbactam 또는 beta-lactam에 대한 중증 과민반응",
+          "#### 상호작용",
+          "• alcohol과 병용 시 disulfiram-like reaction 가능성을 고려한다.",
+          "• warfarin 등 출혈 위험 약물 병용 시 INR과 출혈을 관찰한다.",
+          "#### 부작용",
+          "• 설사와 C. difficile infection",
+          "• 과민반응",
+          "• 간효소 이상",
+          "• 응고장애와 출혈",
+          "• 주사부위 반응",
+          "#### 주의",
+          "• 영양불량, 담도폐쇄, 간질환에서는 vitamin K 결핍·저프로트롬빈혈증을 주의한다.",
+          "• 배양 결과가 나오면 불필요한 광범위 치료를 줄인다.",
+          "• 지역 antibiogram과 ESBL 위험요인을 함께 평가한다.",
+          "#### 비고",
+          "• Pseudomonas 표시는 감수성 확인을 대체하지 않는다.",
+          "• ceftazidime/avibactam 같은 신세대 BLI 복합제와 내성 기전 범위가 다르다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• MFDS 의약품안전나라 제품 허가정보 | https://nedrug.mfds.go.kr/",
+          "• EUCAST Expert Rules and Intrinsic Resistance | https://www.eucast.org/expert_rules_and_expected_phenotypes",
+          "• IDSA AMR Guidance | https://www.idsociety.org/practice-guideline/amr-guidance/"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-16T12:59:04.896Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-16",
+      "reviewStatus": "draft",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MFDS 의약품안전나라 제품 허가정보",
+          "url": "https://nedrug.mfds.go.kr/"
+        },
+        {
+          "label": "EUCAST Expert Rules and Intrinsic Resistance",
+          "url": "https://www.eucast.org/expert_rules_and_expected_phenotypes"
+        },
+        {
+          "label": "IDSA AMR Guidance",
+          "url": "https://www.idsociety.org/practice-guideline/amr-guidance/"
+        }
+      ]
+    },
+    "drugMeta": {
+      "type": "drug",
+      "categoryPath": "감염 > 항균 > 베타락탐·베타락타마제 억제제",
+      "topClass": "08 감염",
+      "middleClass": "항균",
+      "detailClass": "베타락탐·베타락타마제 억제제",
+      "clinicalCore": true,
+      "priority": "tier_1",
+      "brands": [
+        "Sulperazon®"
+      ],
+      "doses": [
+        "성인에서 성분 합계 2-4 g IV/IM every 12 hours가 흔하며 중증도와 허가사항에 따라 개별화"
+      ],
+      "relatedDiseases": [],
+      "indications": [
+        "• 복강내 감염",
+        "• 담도 감염",
+        "• 감수성 Gram-negative 감염",
+        "• 혼합 호기성·혐기성 감염"
+      ],
+      "contraindications": [
+        "• cephalosporin, sulbactam 또는 beta-lactam에 대한 중증 과민반응"
+      ],
+      "interactions": [
+        "• alcohol과 병용 시 disulfiram-like reaction 가능성을 고려한다.",
+        "• warfarin 등 출혈 위험 약물 병용 시 INR과 출혈을 관찰한다."
+      ],
+      "adverseEffects": [
+        "• 설사와 C. difficile infection",
+        "• 과민반응",
+        "• 간효소 이상",
+        "• 응고장애와 출혈",
+        "• 주사부위 반응"
+      ],
+      "monitoring": [
+        "• 영양불량, 담도폐쇄, 간질환에서는 vitamin K 결핍·저프로트롬빈혈증을 주의한다.",
+        "• 배양 결과가 나오면 불필요한 광범위 치료를 줄인다.",
+        "• 지역 antibiogram과 ESBL 위험요인을 함께 평가한다."
+      ],
+      "profile": ""
+    }
+  },
+  {
     "id": "drug:08 감염/Cefotaxime.md",
     "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2Vmb3RheGltZS5tZA",
     "title": "Cefotaxime",
@@ -23951,6 +24199,380 @@
         "• meningitis 의심 시에는 지연 없이 적절한 CNS penetration 항생제로 투여해야 합니다.",
         "• 배양 결과가 나오면 narrower agent로 줄일 수 있는지 항상 재평가합니다.",
         "• ESBL 위험이 높은 병원감염성 Gram-negative infection에는 불충분할 수 있습니다."
+      ],
+      "profile": "drug_core_global_v1"
+    }
+  },
+  {
+    "id": "drug:08 감염/Cefotetan.md",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2Vmb3RldGFuLm1k",
+    "title": "Cefotetan",
+    "sourcePath": "source_notes/04 Pharmacology/08 감염/Cefotetan.md",
+    "folder": "08 감염",
+    "aliases": [
+      "cefotetan",
+      "세포테탄"
+    ],
+    "category": "감염 > 항균 > 세팔로스포린",
+    "summary": [
+      "- 긴 반감기를 가진 cephamycin 계열 parenteral beta-lactam으로, 일부 Gram-negative와 anaerobe 감염에 사용한다.",
+      "- N-methylthiotetrazole side chain과 관련된 hypoprothrombinemia 및 alcohol interaction이 중요한 특징이다.",
+      "- 대표 상품명: Cefotan®"
+    ],
+    "sections": [
+      {
+        "title": "기전",
+        "content": [
+          "• PBP에 결합해 세균 세포벽 합성을 억제한다.",
+          "• cephamycin 구조로 일부 beta-lactamase에 안정적이지만 ESBL, AmpC, carbapenemase 감염의 신뢰 가능한 치료제는 아니다."
+        ]
+      },
+      {
+        "title": "임상 정보",
+        "content": [
+          "• 복강내·골반 감염과 colorectal 또는 gynecologic surgery prophylaxis에서 사용한다.",
+          "• MRSA, Enterococcus, Pseudomonas, atypical pathogen에는 효과가 없다.",
+          "• B. fragilis group의 지역 내성 때문에 중증 감염에서는 기관 antibiogram을 확인한다.",
+          "#### 용법/용량",
+          "• 성인 일반 감염: 1-2 g IV 또는 IM every 12 hours.",
+          "• 중증 감염에서는 라벨 범위 내에서 증량할 수 있다.",
+          "• 신기능 저하에서는 용량 또는 투여 간격을 조절한다.",
+          "#### 적응증",
+          "• 복강내 감염",
+          "• 부인과 감염",
+          "• 요로감염",
+          "• 피부 및 연조직 감염",
+          "• 수술 전 감염 예방",
+          "#### 금기증",
+          "• cephalosporin에 대한 중증 과민반응 병력",
+          "#### 상호작용",
+          "• 투여 중과 종료 후 일정 기간 alcohol을 섭취하면 disulfiram-like reaction이 생길 수 있다.",
+          "• warfarin 또는 출혈 위험 약물과 병용하면 coagulation abnormality를 주의한다.",
+          "#### 부작용",
+          "• 출혈과 hypoprothrombinemia",
+          "• disulfiram-like reaction",
+          "• 발진과 anaphylaxis",
+          "• 설사와 C. difficile infection",
+          "• CBC 및 간효소 이상",
+          "#### 주의",
+          "• 영양불량, 간질환, 신기능 저하, 장기 항생제 투여 환자에서는 PT/INR과 출혈을 관찰한다.",
+          "• alcohol 회피 기간은 제품 라벨을 확인한다.",
+          "• 배양과 감수성 결과에 따라 de-escalation한다.",
+          "#### 비고",
+          "• cefoxitin보다 투여 간격이 길 수 있지만 NMTT side chain 관련 출혈과 alcohol 주의가 더 두드러진다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• DailyMed. `CEFOTETAN injection`. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bd22c66b-8a1c-44c8-b5b6-3ab0ce5c800e"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-15T16:29:38.016Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-16",
+      "reviewStatus": "draft",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "CEFOTETAN injection",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bd22c66b-8a1c-44c8-b5b6-3ab0ce5c800e"
+        }
+      ]
+    },
+    "drugMeta": {
+      "type": "drug",
+      "categoryPath": "감염 > 항균 > 세팔로스포린",
+      "topClass": "08 감염",
+      "middleClass": "항균",
+      "detailClass": "세팔로스포린",
+      "clinicalCore": true,
+      "priority": "tier_1",
+      "brands": [
+        "Cefotan®"
+      ],
+      "doses": [
+        "adult usual dose 1-2 g IV/IM every 12 hours"
+      ],
+      "relatedDiseases": [
+        "복강내 감염",
+        "골반 감염",
+        "수술 예방"
+      ],
+      "indications": [
+        "• 복강내 감염",
+        "• 부인과 감염",
+        "• 요로감염",
+        "• 피부 및 연조직 감염",
+        "• 수술 전 감염 예방"
+      ],
+      "contraindications": [
+        "• cephalosporin에 대한 중증 과민반응 병력"
+      ],
+      "interactions": [
+        "• 투여 중과 종료 후 일정 기간 alcohol을 섭취하면 disulfiram-like reaction이 생길 수 있다.",
+        "• warfarin 또는 출혈 위험 약물과 병용하면 coagulation abnormality를 주의한다."
+      ],
+      "adverseEffects": [
+        "• 출혈과 hypoprothrombinemia",
+        "• disulfiram-like reaction",
+        "• 발진과 anaphylaxis",
+        "• 설사와 C. difficile infection",
+        "• CBC 및 간효소 이상"
+      ],
+      "monitoring": [
+        "• 영양불량, 간질환, 신기능 저하, 장기 항생제 투여 환자에서는 PT/INR과 출혈을 관찰한다.",
+        "• alcohol 회피 기간은 제품 라벨을 확인한다.",
+        "• 배양과 감수성 결과에 따라 de-escalation한다."
+      ],
+      "profile": "drug_core_global_v1"
+    }
+  },
+  {
+    "id": "drug:08 감염/Cefoxitin.md",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2Vmb3hpdGluLm1k",
+    "title": "Cefoxitin",
+    "sourcePath": "source_notes/04 Pharmacology/08 감염/Cefoxitin.md",
+    "folder": "08 감염",
+    "aliases": [
+      "cefoxitin",
+      "세폭시틴"
+    ],
+    "category": "감염 > 항균 > 세팔로스포린",
+    "summary": [
+      "- 2세대 cephalosporin 계열의 cephamycin으로, 일부 Enterobacterales와 anaerobe를 함께 겨냥할 수 있는 parenteral beta-lactam이다.",
+      "- Bacteroides fragilis group에 대한 활성이 계열의 특징이지만 지역 내성과 감수성 결과를 함께 봐야 한다.",
+      "- 대표 상품명: Mefoxin®"
+    ],
+    "sections": [
+      {
+        "title": "기전",
+        "content": [
+          "• PBP에 결합해 세균 세포벽 peptidoglycan 합성을 억제한다.",
+          "• 7-alpha-methoxy 구조로 일부 beta-lactamase에 안정적이지만 ESBL, AmpC, carbapenemase를 극복하는 약은 아니다."
+        ]
+      },
+      {
+        "title": "임상 정보",
+        "content": [
+          "• 복강내·골반 감염과 colorectal surgery prophylaxis에서 Gram-negative와 anaerobe를 함께 고려할 때 사용한다.",
+          "• MRSA, Enterococcus, Pseudomonas, atypical pathogen에는 활성을 기대하지 않는다.",
+          "• 중증 병원획득 복강내 감염에서는 내성률과 더 넓은 대안 필요성을 검토한다.",
+          "#### 용법/용량",
+          "• 성인 일반 감염: 1-2 g IV 또는 IM every 6-8 hours가 흔한 범위다.",
+          "• 중증 감염에서는 라벨과 신기능에 따라 고용량 또는 짧은 간격을 고려한다.",
+          "• 신기능 저하에서는 maintenance dose 또는 간격 조절이 필요하다.",
+          "#### 적응증",
+          "• 복강내 감염",
+          "• 부인과·골반 감염",
+          "• 피부 및 연조직 감염",
+          "• 수술 전 감염 예방",
+          "#### 금기증",
+          "• cephalosporin에 대한 중증 과민반응 병력",
+          "#### 상호작용",
+          "• probenecid는 renal tubular secretion을 억제해 cefoxitin 농도를 높일 수 있다.",
+          "• aminoglycoside 등 nephrotoxic agent와 병용 시 신기능을 관찰한다.",
+          "#### 부작용",
+          "• 발진과 과민반응",
+          "• 설사와 C. difficile infection",
+          "• 호중구감소 또는 혈소판감소",
+          "• 간효소 상승",
+          "• 주사부위 통증과 phlebitis",
+          "#### 주의",
+          "• 중증 immediate beta-lactam allergy 병력을 확인한다.",
+          "• 장기 투여 시 CBC, 간기능, 신기능을 추적한다.",
+          "• 배양 결과가 나오면 더 좁은 약제로 de-escalation한다.",
+          "#### 비고",
+          "• cefoxitin은 cephamycin이며 일반적인 2세대 cephalosporin과 anaerobe coverage가 다르다.",
+          "• ESBL 확인용 phenotypic test 맥락과 실제 치료 선택을 혼동하지 않는다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• DailyMed. `CEFOXITIN injection`. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=91ac4c14-8dd8-4efe-a462-d1c488a6184f"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-15T16:29:38.012Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-16",
+      "reviewStatus": "draft",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "CEFOXITIN injection",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=91ac4c14-8dd8-4efe-a462-d1c488a6184f"
+        }
+      ]
+    },
+    "drugMeta": {
+      "type": "drug",
+      "categoryPath": "감염 > 항균 > 세팔로스포린",
+      "topClass": "08 감염",
+      "middleClass": "항균",
+      "detailClass": "세팔로스포린",
+      "clinicalCore": true,
+      "priority": "tier_1",
+      "brands": [
+        "Mefoxin®"
+      ],
+      "doses": [
+        "adult usual dose 1-2 g IV/IM every 6-8 hours"
+      ],
+      "relatedDiseases": [
+        "복강내 감염",
+        "골반 감염",
+        "수술 예방"
+      ],
+      "indications": [
+        "• 복강내 감염",
+        "• 부인과·골반 감염",
+        "• 피부 및 연조직 감염",
+        "• 수술 전 감염 예방"
+      ],
+      "contraindications": [
+        "• cephalosporin에 대한 중증 과민반응 병력"
+      ],
+      "interactions": [
+        "• probenecid는 renal tubular secretion을 억제해 cefoxitin 농도를 높일 수 있다.",
+        "• aminoglycoside 등 nephrotoxic agent와 병용 시 신기능을 관찰한다."
+      ],
+      "adverseEffects": [
+        "• 발진과 과민반응",
+        "• 설사와 C. difficile infection",
+        "• 호중구감소 또는 혈소판감소",
+        "• 간효소 상승",
+        "• 주사부위 통증과 phlebitis"
+      ],
+      "monitoring": [
+        "• 중증 immediate beta-lactam allergy 병력을 확인한다.",
+        "• 장기 투여 시 CBC, 간기능, 신기능을 추적한다.",
+        "• 배양 결과가 나오면 더 좁은 약제로 de-escalation한다."
+      ],
+      "profile": "drug_core_global_v1"
+    }
+  },
+  {
+    "id": "drug:08 감염/Cefpodoxime.md",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmcG9kb3hpbWUubWQ",
+    "title": "Cefpodoxime",
+    "sourcePath": "source_notes/04 Pharmacology/08 감염/Cefpodoxime.md",
+    "folder": "08 감염",
+    "aliases": [
+      "cefpodoxime",
+      "세프포독심"
+    ],
+    "category": "감염 > 항균 > 세팔로스포린",
+    "summary": [
+      "- cefpodoxime proxetil 형태로 투여하는 경구 3세대 cephalosporin이다.",
+      "- 일부 respiratory pathogen과 Enterobacterales에 활성이 있지만 MRSA, Enterococcus, Pseudomonas, atypical pathogen은 대상으로 하지 않는다.",
+      "- 대표 상품명: Vantin®"
+    ],
+    "sections": [
+      {
+        "title": "기전",
+        "content": [
+          "• 흡수 후 cefpodoxime으로 전환되어 PBP를 억제하고 세균 세포벽 합성을 차단한다."
+        ]
+      },
+      {
+        "title": "임상 정보",
+        "content": [
+          "• 경증-중등도 지역사회획득 호흡기감염, uncomplicated UTI, 피부감염 등에 사용한다.",
+          "• 지역사회획득폐렴에서는 atypical coverage가 없어 환자와 guideline에 따라 다른 약과 병용할 수 있다.",
+          "• 중증 균혈증이나 CNS infection의 경구 대체제로 자동 사용하지 않는다.",
+          "#### 용법/용량",
+          "• 성인: 적응증에 따라 100-200 mg PO every 12 hours가 흔하다.",
+          "• tablet은 음식과 함께 복용하면 흡수가 증가한다.",
+          "• CrCl이 낮으면 투여 간격을 조절한다.",
+          "#### 적응증",
+          "• 지역사회획득폐렴",
+          "• pharyngitis/tonsillitis",
+          "• acute maxillary sinusitis",
+          "• uncomplicated UTI",
+          "• 피부 및 연조직 감염",
+          "#### 금기증",
+          "• cefpodoxime 또는 cephalosporin에 대한 중증 과민반응",
+          "#### 상호작용",
+          "• 위산을 낮추는 antacid 또는 H2 blocker는 흡수를 감소시킬 수 있다.",
+          "• probenecid는 cefpodoxime 농도를 증가시킨다.",
+          "#### 부작용",
+          "• 설사, 오심, 복통",
+          "• 발진과 과민반응",
+          "• C. difficile infection",
+          "• 드물게 혈액학적 이상",
+          "#### 주의",
+          "• 신기능 저하에서 투여 간격을 조절한다.",
+          "• beta-lactam allergy와 C. difficile 병력을 확인한다.",
+          "• 감염 부위와 배양 결과가 경구 step-down에 적합한지 평가한다.",
+          "#### 비고",
+          "• 경구 cephalosporin 중 하나이지만 ceftriaxone과 동일한 노출이나 CNS penetration을 제공하지 않는다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• DailyMed. `CEFPODOXIME PROXETIL tablet`. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dae9cbf2-65b5-49fa-898b-924c39b86c57"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-15T16:29:38.021Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-16",
+      "reviewStatus": "draft",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "CEFPODOXIME PROXETIL tablet",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dae9cbf2-65b5-49fa-898b-924c39b86c57"
+        }
+      ]
+    },
+    "drugMeta": {
+      "type": "drug",
+      "categoryPath": "감염 > 항균 > 세팔로스포린",
+      "topClass": "08 감염",
+      "middleClass": "항균",
+      "detailClass": "세팔로스포린",
+      "clinicalCore": true,
+      "priority": "tier_1",
+      "brands": [
+        "Vantin®"
+      ],
+      "doses": [
+        "adult commonly 100-200 mg PO every 12 hours by indication"
+      ],
+      "relatedDiseases": [
+        "지역사회획득폐렴",
+        "요로감염",
+        "피부감염"
+      ],
+      "indications": [
+        "• 지역사회획득폐렴",
+        "• pharyngitis/tonsillitis",
+        "• acute maxillary sinusitis",
+        "• uncomplicated UTI",
+        "• 피부 및 연조직 감염"
+      ],
+      "contraindications": [
+        "• cefpodoxime 또는 cephalosporin에 대한 중증 과민반응"
+      ],
+      "interactions": [
+        "• 위산을 낮추는 antacid 또는 H2 blocker는 흡수를 감소시킬 수 있다.",
+        "• probenecid는 cefpodoxime 농도를 증가시킨다."
+      ],
+      "adverseEffects": [
+        "• 설사, 오심, 복통",
+        "• 발진과 과민반응",
+        "• C. difficile infection",
+        "• 드물게 혈액학적 이상"
+      ],
+      "monitoring": [
+        "• 신기능 저하에서 투여 간격을 조절한다.",
+        "• beta-lactam allergy와 C. difficile 병력을 확인한다.",
+        "• 감염 부위와 배양 결과가 경구 step-down에 적합한지 평가한다."
       ],
       "profile": "drug_core_global_v1"
     }
@@ -24084,6 +24706,247 @@
     }
   },
   {
+    "id": "drug:08 감염/CeftazidimeAvibactam.md",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdGF6aWRpbWVBdmliYWN0YW0ubWQ",
+    "title": "CeftazidimeAvibactam",
+    "sourcePath": "source_notes/04 Pharmacology/08 감염/CeftazidimeAvibactam.md",
+    "folder": "08 감염",
+    "aliases": [
+      "ceftazidime/avibactam",
+      "세프타지딤/아비박탐"
+    ],
+    "category": "감염 > 항균 > 베타락탐·베타락타마제 억제제",
+    "summary": [
+      "- antipseudomonal cephalosporin인 ceftazidime과 non-beta-lactam beta-lactamase inhibitor인 avibactam의 IV 복합제다.",
+      "- KPC와 OXA-48-like carbapenemase를 포함한 일부 class A/C/D beta-lactamase에 활성이 있지만 metallo-beta-lactamase에는 효과가 없다.",
+      "- 대표 상품명: Avycaz®"
+    ],
+    "sections": [
+      {
+        "title": "기전",
+        "content": [
+          "• ceftazidime은 PBP를 억제하고, avibactam은 일부 class A, C, D beta-lactamase를 억제해 ceftazidime 활성을 복원한다."
+        ]
+      },
+      {
+        "title": "임상 정보",
+        "content": [
+          "• 감수성 있는 CRE와 일부 difficult-to-treat Pseudomonas 감염에서 중요한 표적 치료제다.",
+          "• NDM, VIM, IMP 같은 metallo-beta-lactamase 생성균에는 단독으로 신뢰할 수 없다.",
+          "• cIAI에서는 anaerobe coverage를 위해 metronidazole과 병용한다.",
+          "#### 용법/용량",
+          "• 성인 표준: 2.5 g IV every 8 hours, 2시간 infusion.",
+          "• CrCl에 따라 용량과 간격을 조절하며 급성 신기능 변화 시 자주 재평가한다.",
+          "• 소아는 연령과 체중 기반 라벨 용량을 적용한다.",
+          "#### 적응증",
+          "• complicated intra-abdominal infection",
+          "• complicated urinary tract infection",
+          "• hospital-acquired and ventilator-associated bacterial pneumonia",
+          "• 제한적 대안만 있는 감수성 Gram-negative 감염",
+          "#### 금기증",
+          "• ceftazidime, avibactam 또는 cephalosporin에 대한 중증 과민반응",
+          "#### 상호작용",
+          "• probenecid 등 OAT inhibitor가 avibactam 배설에 영향을 줄 수 있어 병용을 권장하지 않는다.",
+          "#### 부작용",
+          "• 오심, 설사, 변비",
+          "• 발진과 과민반응",
+          "• C. difficile infection",
+          "• 신기능 저하 시 encephalopathy 또는 seizure 위험",
+          "#### 주의",
+          "• 치료 전 carbapenemase mechanism과 susceptibility를 가능한 범위에서 확인한다.",
+          "• 치료 중 내성 출현과 microbiologic failure를 감시한다.",
+          "• 신기능이 빠르게 변하는 중환자는 매일 renal dose를 재평가한다.",
+          "#### 비고",
+          "• MBL 생성균에서는 aztreonam과의 조합 전략이 논의될 수 있으나 감염 전문의와 최신 guideline에 따라 적용한다.",
+          "• 단순히 모든 CRE에 유효한 약으로 표시하면 안 된다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• DailyMed. `AVYCAZ label`. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d9c2803f-dc9c-4b19-b4a3-8303bc8c15fd"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-15T16:29:38.023Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-16",
+      "reviewStatus": "draft",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "AVYCAZ label",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d9c2803f-dc9c-4b19-b4a3-8303bc8c15fd"
+        }
+      ]
+    },
+    "drugMeta": {
+      "type": "drug",
+      "categoryPath": "감염 > 항균 > 베타락탐·베타락타마제 억제제",
+      "topClass": "08 감염",
+      "middleClass": "항균",
+      "detailClass": "베타락탐·베타락타마제 억제제",
+      "clinicalCore": true,
+      "priority": "tier_1",
+      "brands": [
+        "Avycaz®"
+      ],
+      "doses": [
+        "adult 2.5 g IV every 8 hours infused over 2 hours; renal adjustment required"
+      ],
+      "relatedDiseases": [
+        "복잡성 복강내 감염",
+        "복잡성 요로감염",
+        "병원획득폐렴",
+        "CRE 감염"
+      ],
+      "indications": [
+        "• complicated intra-abdominal infection",
+        "• complicated urinary tract infection",
+        "• hospital-acquired and ventilator-associated bacterial pneumonia",
+        "• 제한적 대안만 있는 감수성 Gram-negative 감염"
+      ],
+      "contraindications": [
+        "• ceftazidime, avibactam 또는 cephalosporin에 대한 중증 과민반응"
+      ],
+      "interactions": [
+        "• probenecid 등 OAT inhibitor가 avibactam 배설에 영향을 줄 수 있어 병용을 권장하지 않는다."
+      ],
+      "adverseEffects": [
+        "• 오심, 설사, 변비",
+        "• 발진과 과민반응",
+        "• C. difficile infection",
+        "• 신기능 저하 시 encephalopathy 또는 seizure 위험"
+      ],
+      "monitoring": [
+        "• 치료 전 carbapenemase mechanism과 susceptibility를 가능한 범위에서 확인한다.",
+        "• 치료 중 내성 출현과 microbiologic failure를 감시한다.",
+        "• 신기능이 빠르게 변하는 중환자는 매일 renal dose를 재평가한다."
+      ],
+      "profile": "drug_core_global_v1"
+    }
+  },
+  {
+    "id": "drug:08 감염/CeftolozaneTazobactam.md",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdG9sb3phbmVUYXpvYmFjdGFtLm1k",
+    "title": "CeftolozaneTazobactam",
+    "sourcePath": "source_notes/04 Pharmacology/08 감염/CeftolozaneTazobactam.md",
+    "folder": "08 감염",
+    "aliases": [
+      "ceftolozane/tazobactam",
+      "세프톨로잔/타조박탐"
+    ],
+    "category": "감염 > 항균 > 베타락탐·베타락타마제 억제제",
+    "summary": [
+      "- Pseudomonas에 강한 cephalosporin인 ceftolozane과 tazobactam의 IV 복합제다.",
+      "- 일부 ESBL-producing Enterobacterales와 MDR Pseudomonas에 유용하지만 carbapenemase를 폭넓게 억제하는 약은 아니다.",
+      "- 대표 상품명: Zerbaxa®"
+    ],
+    "sections": [
+      {
+        "title": "기전",
+        "content": [
+          "• ceftolozane은 PBP를 억제하고, tazobactam은 일부 serine beta-lactamase를 억제한다."
+        ]
+      },
+      {
+        "title": "임상 정보",
+        "content": [
+          "• 감수성 있는 difficult-to-treat Pseudomonas 감염에서 중요한 선택지다.",
+          "• cIAI에서는 metronidazole과 병용한다.",
+          "• MRSA, Enterococcus, atypical pathogen을 대상으로 하지 않는다.",
+          "#### 용법/용량",
+          "• 성인 cUTI/cIAI: 1.5 g IV every 8 hours.",
+          "• 성인 HABP/VABP: 3 g IV every 8 hours.",
+          "• 신기능 저하에서는 감량하고 augmented renal clearance에서는 노출 부족 가능성을 고려한다.",
+          "#### 적응증",
+          "• complicated urinary tract infection",
+          "• complicated intra-abdominal infection",
+          "• hospital-acquired and ventilator-associated bacterial pneumonia",
+          "#### 금기증",
+          "• ceftolozane/tazobactam 또는 cephalosporin에 대한 중증 과민반응",
+          "#### 상호작용",
+          "• 임상적으로 중요한 CYP interaction은 제한적이지만 다른 nephrotoxic agent와 병용 시 신기능을 관찰한다.",
+          "#### 부작용",
+          "• 오심, 설사, 두통, 발열",
+          "• 간효소 상승",
+          "• 과민반응",
+          "• C. difficile infection",
+          "• 신기능 저하 시 신경독성 가능성",
+          "#### 주의",
+          "• Pseudomonas 감수성 결과와 이전 beta-lactam 노출을 확인한다.",
+          "• 치료 중 resistance emergence와 임상 반응을 추적한다.",
+          "• 신기능 변화에 따라 renal dose를 신속히 수정한다.",
+          "#### 비고",
+          "• Pseudomonas coverage가 강하다는 점과 carbapenemase coverage가 제한적이라는 점을 동시에 표시해야 한다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• DailyMed. `ZERBAXA label`. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=70ac1d90-eff3-4f0b-9f46-5846c571b32f"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-15T16:29:38.025Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-16",
+      "reviewStatus": "draft",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "ZERBAXA label",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=70ac1d90-eff3-4f0b-9f46-5846c571b32f"
+        }
+      ]
+    },
+    "drugMeta": {
+      "type": "drug",
+      "categoryPath": "감염 > 항균 > 베타락탐·베타락타마제 억제제",
+      "topClass": "08 감염",
+      "middleClass": "항균",
+      "detailClass": "베타락탐·베타락타마제 억제제",
+      "clinicalCore": true,
+      "priority": "tier_1",
+      "brands": [
+        "Zerbaxa®"
+      ],
+      "doses": [
+        "adult 1.5 g IV every 8 hours for cUTI/cIAI; 3 g IV every 8 hours for HABP/VABP"
+      ],
+      "relatedDiseases": [
+        "복잡성 복강내 감염",
+        "복잡성 요로감염",
+        "병원획득폐렴",
+        "MDR Pseudomonas 감염"
+      ],
+      "indications": [
+        "• complicated urinary tract infection",
+        "• complicated intra-abdominal infection",
+        "• hospital-acquired and ventilator-associated bacterial pneumonia"
+      ],
+      "contraindications": [
+        "• ceftolozane/tazobactam 또는 cephalosporin에 대한 중증 과민반응"
+      ],
+      "interactions": [
+        "• 임상적으로 중요한 CYP interaction은 제한적이지만 다른 nephrotoxic agent와 병용 시 신기능을 관찰한다."
+      ],
+      "adverseEffects": [
+        "• 오심, 설사, 두통, 발열",
+        "• 간효소 상승",
+        "• 과민반응",
+        "• C. difficile infection",
+        "• 신기능 저하 시 신경독성 가능성"
+      ],
+      "monitoring": [
+        "• Pseudomonas 감수성 결과와 이전 beta-lactam 노출을 확인한다.",
+        "• 치료 중 resistance emergence와 임상 반응을 추적한다.",
+        "• 신기능 변화에 따라 renal dose를 신속히 수정한다."
+      ],
+      "profile": "drug_core_global_v1"
+    }
+  },
+  {
     "id": "drug:08 감염/Ceftriaxone.md",
     "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ",
     "title": "Ceftriaxone",
@@ -24164,7 +25027,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-11T11:42:44.407Z",
+    "updatedAt": "2026-07-15T16:06:14.467Z",
     "contentMeta": {
       "reviewedAt": "2026-07-11",
       "reviewStatus": "draft",
@@ -24180,8 +25043,8 @@
       "type": "drug",
       "categoryPath": "감염 > 베타락탐 > 3세대 cephalosporin",
       "topClass": "08 감염",
-      "middleClass": "베타락탐",
-      "detailClass": "",
+      "middleClass": "항균",
+      "detailClass": "세팔로스포린",
       "clinicalCore": true,
       "priority": "tier_1",
       "brands": [
@@ -26622,6 +27485,123 @@
     }
   },
   {
+    "id": "drug:08 감염/ImipenemCilastatinRelebactam.md",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvSW1pcGVuZW1DaWxhc3RhdGluUmVsZWJhY3RhbS5tZA",
+    "title": "ImipenemCilastatinRelebactam",
+    "sourcePath": "source_notes/04 Pharmacology/08 감염/ImipenemCilastatinRelebactam.md",
+    "folder": "08 감염",
+    "aliases": [
+      "imipenem cilastatin relebactam",
+      "이미페넴 실라스타틴 렐레박탐"
+    ],
+    "category": "감염 > 항균 > 카바페넴·베타락타마제 억제제",
+    "summary": [],
+    "sections": [
+      {
+        "title": "기전",
+        "content": [
+          "• imipenem은 PBP를 억제하고 cilastatin은 renal dehydropeptidase-I 억제로 imipenem 분해를 줄인다.",
+          "• relebactam은 class A KPC와 class C AmpC beta-lactamase를 억제한다."
+        ]
+      },
+      {
+        "title": "임상 정보",
+        "content": [
+          "• 감수성 Gram-negative에 의한 cUTI, cIAI, HABP/VABP에 사용한다.",
+          "• KPC CRE와 일부 MDR Pseudomonas에서는 감수성 결과를 기반으로 표적 치료에 사용한다.",
+          "• NDM, VIM, IMP 같은 metallo-beta-lactamase 생성균에는 사용하지 않는다.",
+          "#### 용법/용량",
+          "• 성인 표준: 1.25 g IV every 6 hours, 30분 infusion.",
+          "• CrCl에 따라 용량을 줄이고 급성 신기능 변화 시 즉시 재평가한다.",
+          "• imipenem 관련 seizure 병력·CNS 질환이 있으면 위험을 평가한다.",
+          "#### 적응증",
+          "• complicated urinary tract infection",
+          "• complicated intra-abdominal infection",
+          "• hospital-acquired and ventilator-associated bacterial pneumonia",
+          "#### 금기증",
+          "• imipenem, cilastatin, relebactam 또는 beta-lactam에 대한 중증 과민반응",
+          "#### 상호작용",
+          "• valproate 농도를 감소시켜 seizure 위험을 높일 수 있다.",
+          "• ganciclovir 병용 시 seizure 가능성을 고려한다.",
+          "#### 부작용",
+          "• 설사, 오심, 간효소 상승",
+          "• 과민반응",
+          "• C. difficile infection",
+          "• seizure·confusion 등 CNS adverse effect",
+          "#### 주의",
+          "• carbapenemase 기전을 확인해 MBL을 배제한다.",
+          "• 신기능과 CNS 증상을 모니터링한다.",
+          "• 배양 및 감수성 결과에 맞춰 de-escalation 또는 대체를 검토한다.",
+          "#### 비고",
+          "• 기존 imipenem/cilastatin과 동등한 스펙트럼이라고만 보지 말고 relebactam이 복원하는 내성 기전을 함께 해석한다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• DailyMed. RECARBRIO prescribing information | https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=RECARBRIO",
+          "• IDSA AMR Guidance | https://www.idsociety.org/practice-guideline/amr-guidance/"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-16T12:59:04.900Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-16",
+      "reviewStatus": "draft",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "DailyMed. RECARBRIO prescribing information",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=RECARBRIO"
+        },
+        {
+          "label": "IDSA AMR Guidance",
+          "url": "https://www.idsociety.org/practice-guideline/amr-guidance/"
+        }
+      ]
+    },
+    "drugMeta": {
+      "type": "drug",
+      "categoryPath": "감염 > 항균 > 카바페넴·베타락타마제 억제제",
+      "topClass": "08 감염",
+      "middleClass": "항균",
+      "detailClass": "카바페넴·베타락타마제 억제제",
+      "clinicalCore": true,
+      "priority": "tier_1",
+      "brands": [
+        "Recarbrio®"
+      ],
+      "doses": [
+        "1.25 g IV every 6 hours, 30분 infusion; 신기능에 따라 조절"
+      ],
+      "relatedDiseases": [],
+      "indications": [
+        "• complicated urinary tract infection",
+        "• complicated intra-abdominal infection",
+        "• hospital-acquired and ventilator-associated bacterial pneumonia"
+      ],
+      "contraindications": [
+        "• imipenem, cilastatin, relebactam 또는 beta-lactam에 대한 중증 과민반응"
+      ],
+      "interactions": [
+        "• valproate 농도를 감소시켜 seizure 위험을 높일 수 있다.",
+        "• ganciclovir 병용 시 seizure 가능성을 고려한다."
+      ],
+      "adverseEffects": [
+        "• 설사, 오심, 간효소 상승",
+        "• 과민반응",
+        "• C. difficile infection",
+        "• seizure·confusion 등 CNS adverse effect"
+      ],
+      "monitoring": [
+        "• carbapenemase 기전을 확인해 MBL을 배제한다.",
+        "• 신기능과 CNS 증상을 모니터링한다.",
+        "• 배양 및 감수성 결과에 맞춰 de-escalation 또는 대체를 검토한다."
+      ],
+      "profile": ""
+    }
+  },
+  {
     "id": "drug:08 감염/Isoniazid.md",
     "slug": "ZHJ1ZzowOCDqsJDsl7wvSXNvbmlhemlkLm1k",
     "title": "Isoniazid",
@@ -27219,6 +28199,121 @@
         "• 모니터링: 신기능(CrCl), 간 기능 수치, 경련 등 신경계 증상, 설사 발생 시 C. difficile 감염 여부 확인."
       ],
       "profile": "drug_core_global_v1"
+    }
+  },
+  {
+    "id": "drug:08 감염/MeropenemVaborbactam.md",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvTWVyb3BlbmVtVmFib3JiYWN0YW0ubWQ",
+    "title": "MeropenemVaborbactam",
+    "sourcePath": "source_notes/04 Pharmacology/08 감염/MeropenemVaborbactam.md",
+    "folder": "08 감염",
+    "aliases": [
+      "meropenem vaborbactam",
+      "메로페넴 바보르박탐"
+    ],
+    "category": "감염 > 항균 > 카바페넴·베타락타마제 억제제",
+    "summary": [],
+    "sections": [
+      {
+        "title": "기전",
+        "content": [
+          "• meropenem은 PBP를 억제한다.",
+          "• vaborbactam은 주로 class A serine carbapenemase인 KPC를 억제해 meropenem 활성을 복원한다."
+        ]
+      },
+      {
+        "title": "임상 정보",
+        "content": [
+          "• 감수성 KPC-producing CRE, 특히 cUTI를 포함한 Enterobacterales 감염에서 고려한다.",
+          "• carbapenemase 유형을 확인하거나 지역 epidemiology를 반영해야 한다.",
+          "• Pseudomonas와 Acinetobacter에 대한 신뢰도는 내성 기전과 감수성 결과에 따라 별도로 판단한다.",
+          "#### 용법/용량",
+          "• 성인 표준: 4 g IV every 8 hours, 3시간 infusion.",
+          "• CrCl에 따라 용량을 조절하고 급성 신기능 변화 시 자주 재평가한다.",
+          "• 신경독성 위험이 있는 환자에서 과량 투여를 피한다.",
+          "#### 적응증",
+          "• complicated urinary tract infection including pyelonephritis",
+          "• 감수성 KPC-producing CRE 감염의 표적 치료",
+          "#### 금기증",
+          "• meropenem, vaborbactam 또는 다른 beta-lactam에 대한 중증 과민반응",
+          "#### 상호작용",
+          "• valproate 농도를 낮춰 seizure risk를 증가시킬 수 있으므로 가능하면 병용을 피한다.",
+          "• probenecid는 meropenem 배설을 줄일 수 있다.",
+          "#### 부작용",
+          "• 두통, 설사, infusion-site reaction",
+          "• 과민반응",
+          "• C. difficile infection",
+          "• 신기능 저하 시 seizure 또는 encephalopathy 위험",
+          "#### 주의",
+          "• KPC 여부와 MIC를 확인하고 MBL 가능성이 있으면 다른 전략을 선택한다.",
+          "• renal dose와 신경학적 증상을 모니터링한다.",
+          "• source control과 추적 배양을 병행한다.",
+          "#### 비고",
+          "• CRE는 하나의 균질한 범주가 아니다. carbapenemase type이 치료 선택을 바꾼다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• DailyMed. VABOMERE prescribing information | https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=VABOMERE",
+          "• IDSA AMR Guidance | https://www.idsociety.org/practice-guideline/amr-guidance/"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-16T12:59:04.898Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-16",
+      "reviewStatus": "draft",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "DailyMed. VABOMERE prescribing information",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=VABOMERE"
+        },
+        {
+          "label": "IDSA AMR Guidance",
+          "url": "https://www.idsociety.org/practice-guideline/amr-guidance/"
+        }
+      ]
+    },
+    "drugMeta": {
+      "type": "drug",
+      "categoryPath": "감염 > 항균 > 카바페넴·베타락타마제 억제제",
+      "topClass": "08 감염",
+      "middleClass": "항균",
+      "detailClass": "카바페넴·베타락타마제 억제제",
+      "clinicalCore": true,
+      "priority": "tier_1",
+      "brands": [
+        "Vabomere®"
+      ],
+      "doses": [
+        "4 g IV every 8 hours, 3시간 infusion; 신기능에 따라 조절"
+      ],
+      "relatedDiseases": [],
+      "indications": [
+        "• complicated urinary tract infection including pyelonephritis",
+        "• 감수성 KPC-producing CRE 감염의 표적 치료"
+      ],
+      "contraindications": [
+        "• meropenem, vaborbactam 또는 다른 beta-lactam에 대한 중증 과민반응"
+      ],
+      "interactions": [
+        "• valproate 농도를 낮춰 seizure risk를 증가시킬 수 있으므로 가능하면 병용을 피한다.",
+        "• probenecid는 meropenem 배설을 줄일 수 있다."
+      ],
+      "adverseEffects": [
+        "• 두통, 설사, infusion-site reaction",
+        "• 과민반응",
+        "• C. difficile infection",
+        "• 신기능 저하 시 seizure 또는 encephalopathy 위험"
+      ],
+      "monitoring": [
+        "• KPC 여부와 MIC를 확인하고 MBL 가능성이 있으면 다른 전략을 선택한다.",
+        "• renal dose와 신경학적 증상을 모니터링한다.",
+        "• source control과 추적 배양을 병행한다."
+      ],
+      "profile": ""
     }
   },
   {
@@ -29161,6 +30256,240 @@
     }
   },
   {
+    "id": "drug:08 감염/Tedizolid.md",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvVGVkaXpvbGlkLm1k",
+    "title": "Tedizolid",
+    "sourcePath": "source_notes/04 Pharmacology/08 감염/Tedizolid.md",
+    "folder": "08 감염",
+    "aliases": [
+      "tedizolid",
+      "테디졸리드"
+    ],
+    "category": "감염 > 항균 > 옥사졸리디논",
+    "summary": [
+      "- Gram-positive pathogen을 표적하는 oxazolidinone으로 PO와 IV bioavailability가 높아 경로 전환이 쉽다.",
+      "- MRSA를 포함한 ABSSSI에 사용하지만 Gram-negative coverage는 없다.",
+      "- 대표 상품명: Sivextro®"
+    ],
+    "sections": [
+      {
+        "title": "기전",
+        "content": [
+          "• 23S rRNA가 포함된 50S ribosomal subunit에 결합해 70S initiation complex 형성을 억제한다."
+        ]
+      },
+      {
+        "title": "임상 정보",
+        "content": [
+          "• MRSA, MSSA, Streptococcus, 일부 Enterococcus faecalis에 의한 ABSSSI에 사용한다.",
+          "• pneumonia, bacteremia, endocarditis, VRE 감염을 ABSSSI 라벨에서 자동 확장해 사용하지 않는다.",
+          "• PO와 IV 모두 1일 1회 사용하며 별도 dose conversion 없이 전환할 수 있다.",
+          "#### 용법/용량",
+          "• 성인 및 라벨 대상 소아: 200 mg PO 또는 IV once daily for 6 days.",
+          "• IV infusion은 1시간에 걸쳐 투여한다.",
+          "• 중증 renal/hepatic impairment에서 일반적으로 별도 조정은 없지만 임상 상태를 확인한다.",
+          "#### 적응증",
+          "• acute bacterial skin and skin structure infection",
+          "#### 금기증",
+          "• tedizolid 또는 제제 성분에 대한 중증 과민반응",
+          "#### 상호작용",
+          "• MAO inhibition 가능성이 있어 serotonergic 또는 adrenergic agent 병용 시 증상을 관찰한다.",
+          "• linezolid보다 interaction signal이 적더라도 serotonin syndrome 가능성을 완전히 배제하지 않는다.",
+          "#### 부작용",
+          "• 오심, 두통, 설사, 구토",
+          "• 혈소판감소와 기타 골수억제",
+          "• 말초·시신경병증 가능성",
+          "• C. difficile infection",
+          "#### 주의",
+          "• 호중구감소 환자에서는 임상적 유효성 자료가 제한적이다.",
+          "• 장기 또는 off-label 사용 시 CBC와 neuropathy를 모니터링한다.",
+          "• Gram-negative 동시감염이 의심되면 별도 항균제가 필요하다.",
+          "#### 비고",
+          "• 6일 ABSSSI regimen과 1일 1회 투여가 장점이지만 linezolid의 모든 적응증을 그대로 대체하는 약은 아니다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• DailyMed. `SIVEXTRO label`. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=75672079-589f-451a-bdbf-eaebcfcc80a9"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-15T16:29:38.035Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-16",
+      "reviewStatus": "draft",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "SIVEXTRO label",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=75672079-589f-451a-bdbf-eaebcfcc80a9"
+        }
+      ]
+    },
+    "drugMeta": {
+      "type": "drug",
+      "categoryPath": "감염 > 항균 > 옥사졸리디논",
+      "topClass": "08 감염",
+      "middleClass": "항균",
+      "detailClass": "옥사졸리디논",
+      "clinicalCore": true,
+      "priority": "tier_1",
+      "brands": [
+        "Sivextro®"
+      ],
+      "doses": [
+        "200 mg PO or IV once daily for 6 days for ABSSSI"
+      ],
+      "relatedDiseases": [
+        "급성 세균성 피부 및 피부구조 감염",
+        "MRSA 감염"
+      ],
+      "indications": [
+        "• acute bacterial skin and skin structure infection"
+      ],
+      "contraindications": [
+        "• tedizolid 또는 제제 성분에 대한 중증 과민반응"
+      ],
+      "interactions": [
+        "• MAO inhibition 가능성이 있어 serotonergic 또는 adrenergic agent 병용 시 증상을 관찰한다.",
+        "• linezolid보다 interaction signal이 적더라도 serotonin syndrome 가능성을 완전히 배제하지 않는다."
+      ],
+      "adverseEffects": [
+        "• 오심, 두통, 설사, 구토",
+        "• 혈소판감소와 기타 골수억제",
+        "• 말초·시신경병증 가능성",
+        "• C. difficile infection"
+      ],
+      "monitoring": [
+        "• 호중구감소 환자에서는 임상적 유효성 자료가 제한적이다.",
+        "• 장기 또는 off-label 사용 시 CBC와 neuropathy를 모니터링한다.",
+        "• Gram-negative 동시감염이 의심되면 별도 항균제가 필요하다."
+      ],
+      "profile": "drug_core_global_v1"
+    }
+  },
+  {
+    "id": "drug:08 감염/Teicoplanin.md",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvVGVpY29wbGFuaW4ubWQ",
+    "title": "Teicoplanin",
+    "sourcePath": "source_notes/04 Pharmacology/08 감염/Teicoplanin.md",
+    "folder": "08 감염",
+    "aliases": [
+      "teicoplanin",
+      "테이코플라닌"
+    ],
+    "category": "감염 > 항균 > 글리코펩타이드",
+    "summary": [],
+    "sections": [
+      {
+        "title": "기전",
+        "content": [
+          "• 세포벽 전구체의 D-Ala-D-Ala 말단에 결합해 peptidoglycan 중합과 교차결합을 방해한다.",
+          "• Gram-negative outer membrane을 통과하지 못하므로 Gram-negative bacilli에는 활성이 없다."
+        ]
+      },
+      {
+        "title": "임상 정보",
+        "content": [
+          "• MRSA, coagulase-negative Staphylococcus, Streptococcus 및 감수성 Enterococcus 감염에서 vancomycin의 대안으로 사용한다.",
+          "• VRE, 특히 E. faecium에서는 내성 표현형과 MIC를 확인해야 하며 자동으로 유효하다고 간주하지 않는다.",
+          "• 중증 균혈증·endocarditis에서는 loading regimen, 혈중농도, source control과 감염 전문 협진을 함께 고려한다.",
+          "#### 용법/용량",
+          "• 중증 감염에서는 충분한 loading dose를 사용한 뒤 감염 중증도와 신기능에 맞춰 유지용량을 정한다.",
+          "• 신기능 저하에서는 유지 단계의 간격 또는 용량을 조절한다.",
+          "• 기관 protocol과 제품 허가사항에 따라 trough-guided therapeutic drug monitoring을 적용한다.",
+          "#### 적응증",
+          "• MRSA를 포함한 감수성 Gram-positive 중증 감염",
+          "• catheter-related infection",
+          "• bone and joint infection",
+          "• endocarditis의 병합 또는 대체 치료",
+          "#### 금기증",
+          "• teicoplanin 또는 제제 성분에 대한 중증 과민반응",
+          "#### 상호작용",
+          "• 다른 nephrotoxic 또는 ototoxic agent와 병용 시 독성 위험을 평가한다.",
+          "#### 부작용",
+          "• 발진과 과민반응",
+          "• 신기능 이상",
+          "• 혈소판감소·호중구감소",
+          "• 간효소 상승",
+          "• 드물게 이독성",
+          "#### 주의",
+          "• 신기능, CBC, 간기능과 임상 반응을 추적한다.",
+          "• 중증 또는 장기 치료에서는 기관 TDM target을 적용한다.",
+          "• Gram-negative 혼합감염이면 별도 항균 범위를 추가한다.",
+          "#### 비고",
+          "• vancomycin과 동일한 약으로 치환해 용량을 복사하지 않는다.",
+          "• 국내 제품별 허가 용법과 TDM protocol을 확인한다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• UK electronic Medicines Compendium. Teicoplanin Summary of Product Characteristics | https://www.medicines.org.uk/emc/search?q=teicoplanin",
+          "• EUCAST Expert Rules and Intrinsic Resistance | https://www.eucast.org/expert_rules_and_expected_phenotypes"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-16T12:59:04.894Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-16",
+      "reviewStatus": "draft",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "UK electronic Medicines Compendium. Teicoplanin Summary of Product Characteristics",
+          "url": "https://www.medicines.org.uk/emc/search?q=teicoplanin"
+        },
+        {
+          "label": "EUCAST Expert Rules and Intrinsic Resistance",
+          "url": "https://www.eucast.org/expert_rules_and_expected_phenotypes"
+        }
+      ]
+    },
+    "drugMeta": {
+      "type": "drug",
+      "categoryPath": "감염 > 항균 > 글리코펩타이드",
+      "topClass": "08 감염",
+      "middleClass": "항균",
+      "detailClass": "글리코펩타이드",
+      "clinicalCore": true,
+      "priority": "tier_1",
+      "brands": [
+        "Targocid®"
+      ],
+      "doses": [
+        "적응증·체중·신기능에 따라 loading dose 후 유지용량을 개별화"
+      ],
+      "relatedDiseases": [],
+      "indications": [
+        "• MRSA를 포함한 감수성 Gram-positive 중증 감염",
+        "• catheter-related infection",
+        "• bone and joint infection",
+        "• endocarditis의 병합 또는 대체 치료"
+      ],
+      "contraindications": [
+        "• teicoplanin 또는 제제 성분에 대한 중증 과민반응"
+      ],
+      "interactions": [
+        "• 다른 nephrotoxic 또는 ototoxic agent와 병용 시 독성 위험을 평가한다."
+      ],
+      "adverseEffects": [
+        "• 발진과 과민반응",
+        "• 신기능 이상",
+        "• 혈소판감소·호중구감소",
+        "• 간효소 상승",
+        "• 드물게 이독성"
+      ],
+      "monitoring": [
+        "• 신기능, CBC, 간기능과 임상 반응을 추적한다.",
+        "• 중증 또는 장기 치료에서는 기관 TDM target을 적용한다.",
+        "• Gram-negative 혼합감염이면 별도 항균 범위를 추가한다."
+      ],
+      "profile": ""
+    }
+  },
+  {
     "id": "drug:08 감염/TenofovirAlafenamide.md",
     "slug": "ZHJ1ZzowOCDqsJDsl7wvVGVub2ZvdmlyQWxhZmVuYW1pZGUubWQ",
     "title": "TenofovirAlafenamide",
@@ -29510,6 +30839,130 @@
         "• 치아 변색 및 골 성장 억제: 임신 후기, 영유아 및 8세 이하 소아 사용 시 주의.",
         "• 클로스트리디움 디피실리 관련 설사(CDAD) 발생 가능성 모니터링.",
         "• 칼시뉴린 억제제 병용 시 혈중 농도 모니터링."
+      ],
+      "profile": "drug_core_global_v1"
+    }
+  },
+  {
+    "id": "drug:08 감염/Tobramycin.md",
+    "slug": "ZHJ1ZzowOCDqsJDsl7wvVG9icmFteWNpbi5tZA",
+    "title": "Tobramycin",
+    "sourcePath": "source_notes/04 Pharmacology/08 감염/Tobramycin.md",
+    "folder": "08 감염",
+    "aliases": [
+      "tobramycin",
+      "토브라마이신"
+    ],
+    "category": "감염 > 항균 > 아미노글리코사이드",
+    "summary": [
+      "- 30S ribosomal subunit에 결합하는 aminoglycoside로, 주로 aerobic Gram-negative bacilli에 빠른 bactericidal activity를 보인다.",
+      "- 성분 자체는 IV/IM, inhaled, ophthalmic 제형이 있으므로 감염 부위와 제형을 분리해서 이해해야 한다.",
+      "- 대표 상품명: Tobi®, Bethkis®"
+    ],
+    "sections": [
+      {
+        "title": "기전",
+        "content": [
+          "• 30S ribosomal subunit에 비가역적으로 결합해 initiation complex와 단백질 합성을 방해한다.",
+          "• 농도의존적 살균과 post-antibiotic effect를 보이며, 산소 의존적 세포 내 유입이 필요해 anaerobe에는 효과가 없다."
+        ]
+      },
+      {
+        "title": "임상 정보",
+        "content": [
+          "• 전신 제형은 Pseudomonas를 포함한 중증 aerobic Gram-negative 감염에서 beta-lactam과 병용하거나 감수성 확인 후 사용한다.",
+          "• 흡입 제형은 cystic fibrosis 환자의 Pseudomonas aeruginosa 기도감염 억제에 사용한다.",
+          "• 폐 조직으로의 전신 aminoglycoside 침투가 제한적이므로 폐렴 단독요법으로 신뢰하지 않는다.",
+          "#### 용법/용량",
+          "• 전신 투여는 실제체중 또는 보정체중, 신기능, 감염 중증도에 따라 extended-interval 또는 conventional dosing을 선택한다.",
+          "• 중증 감염에서는 peak 또는 AUC 기반 효과와 trough 기반 독성 모니터링을 기관 protocol에 맞춰 시행한다.",
+          "• 흡입액 라벨 예: 300 mg inhalation every 12 hours, 28일 투여 후 28일 휴약 cycle.",
+          "#### 적응증",
+          "• 중증 aerobic Gram-negative 감염",
+          "• Pseudomonas 감염",
+          "• 낭성섬유증의 만성 Pseudomonas 기도감염",
+          "#### 금기증",
+          "• tobramycin 또는 다른 aminoglycoside에 대한 중증 과민반응",
+          "#### 상호작용",
+          "• vancomycin, amphotericin B, cisplatin 등 nephrotoxic agent와 병용 시 신독성 위험이 증가한다.",
+          "• loop diuretic과 병용하면 ototoxicity 위험이 커질 수 있다.",
+          "• neuromuscular blocker의 작용을 강화할 수 있다.",
+          "#### 부작용",
+          "• acute kidney injury",
+          "• cochlear/vestibular ototoxicity",
+          "• neuromuscular blockade",
+          "• 흡입 시 bronchospasm, dysphonia, cough",
+          "#### 주의",
+          "• 전신 투여 시 신기능과 drug level을 모니터링하고 용량 또는 간격을 조절한다.",
+          "• 청력·평형 이상, 이명, 어지럼이 생기면 ototoxicity를 평가한다.",
+          "• 임신 중 전신 aminoglycoside는 fetal ototoxicity 우려를 고려해 대안과 benefit-risk를 검토한다.",
+          "#### 비고",
+          "• Enterococcus synergy 목적으로 aminoglycoside를 사용할 때는 균주의 high-level aminoglycoside resistance를 확인해야 한다.",
+          "• inhaled formulation의 용량을 IV 용량으로 전환해서는 안 된다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• DailyMed. `TOBRAMYCIN inhalation solution`. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3d044738-a715-fdee-7849-521e8981e6ec"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-15T16:29:38.008Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-16",
+      "reviewStatus": "draft",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "TOBRAMYCIN inhalation solution",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3d044738-a715-fdee-7849-521e8981e6ec"
+        }
+      ]
+    },
+    "drugMeta": {
+      "type": "drug",
+      "categoryPath": "감염 > 항균 > 아미노글리코사이드",
+      "topClass": "08 감염",
+      "middleClass": "항균",
+      "detailClass": "아미노글리코사이드",
+      "clinicalCore": true,
+      "priority": "tier_1",
+      "brands": [
+        "Tobi®",
+        "Bethkis®"
+      ],
+      "doses": [
+        "systemic IV/IM dosing is weight- and kidney function-based",
+        "inhaled 300 mg every 12 hours in 28-day cycles"
+      ],
+      "relatedDiseases": [
+        "중증 Gram-negative 감염",
+        "낭성섬유증의 Pseudomonas 기도감염"
+      ],
+      "indications": [
+        "• 중증 aerobic Gram-negative 감염",
+        "• Pseudomonas 감염",
+        "• 낭성섬유증의 만성 Pseudomonas 기도감염"
+      ],
+      "contraindications": [
+        "• tobramycin 또는 다른 aminoglycoside에 대한 중증 과민반응"
+      ],
+      "interactions": [
+        "• vancomycin, amphotericin B, cisplatin 등 nephrotoxic agent와 병용 시 신독성 위험이 증가한다.",
+        "• loop diuretic과 병용하면 ototoxicity 위험이 커질 수 있다.",
+        "• neuromuscular blocker의 작용을 강화할 수 있다."
+      ],
+      "adverseEffects": [
+        "• acute kidney injury",
+        "• cochlear/vestibular ototoxicity",
+        "• neuromuscular blockade",
+        "• 흡입 시 bronchospasm, dysphonia, cough"
+      ],
+      "monitoring": [
+        "• 전신 투여 시 신기능과 drug level을 모니터링하고 용량 또는 간격을 조절한다.",
+        "• 청력·평형 이상, 이명, 어지럼이 생기면 ototoxicity를 평가한다.",
+        "• 임신 중 전신 aminoglycoside는 fetal ototoxicity 우려를 고려해 대안과 benefit-risk를 검토한다."
       ],
       "profile": "drug_core_global_v1"
     }

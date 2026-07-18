@@ -6,6 +6,8 @@ const WORKSPACE_ROOT = path.resolve(APP_ROOT, "..", "..");
 const SOURCE_NOTES_ROOT = path.join(WORKSPACE_ROOT, "source_notes");
 const OUTPUT_ROOT = path.join(WORKSPACE_ROOT, "_webapp");
 const DATA_ROOT = path.join(OUTPUT_ROOT, "data");
+const PUBLIC_QBANK_ROOT = path.join(APP_ROOT, "public", "generated", "qbank");
+const QBANK_DATA_ROOT = path.join(DATA_ROOT, "qbank");
 
 function ensureDir(dirPath) {
   fs.mkdirSync(dirPath, { recursive: true });
@@ -17,6 +19,16 @@ function readText(filePath) {
 
 function writeJson(fileName, value) {
   fs.writeFileSync(path.join(DATA_ROOT, fileName), `${JSON.stringify(value, null, 2)}\n`, "utf-8");
+}
+
+function writePublicQbankJson(fileName, value) {
+  ensureDir(PUBLIC_QBANK_ROOT);
+  fs.writeFileSync(path.join(PUBLIC_QBANK_ROOT, fileName), `${JSON.stringify(value)}\n`, "utf-8");
+}
+
+function writeQbankDataJson(fileName, value) {
+  ensureDir(QBANK_DATA_ROOT);
+  fs.writeFileSync(path.join(QBANK_DATA_ROOT, fileName), JSON.stringify(value) + "\n", "utf-8");
 }
 
 function toSlug(value) {
@@ -1159,6 +1171,133 @@ function buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathol
   ];
 }
 
+function qbankSection(body, title) {
+  const marker = `## ${title}`;
+  const markerIndex = body.indexOf(marker);
+  if (markerIndex < 0) return "";
+  const contentStart = markerIndex + marker.length;
+  const rest = body.slice(contentStart);
+  const nextHeading = rest.search(/\n##\s+/);
+  return (nextHeading >= 0 ? rest.slice(0, nextHeading) : rest).trim();
+}
+
+function normalizeQbankDiseaseTerm(value) {
+  return String(value ?? "")
+    .toLowerCase()
+    .replace(/[()[\]{}.,;:/\\'"~!@#$%^&*+=?_\-–—]/g, "")
+    .replace(/\s+/g, "");
+}
+
+function buildQbank() {
+  const root = path.join(SOURCE_NOTES_ROOT, "99 Q-bank", "MedQA");
+  if (!fs.existsSync(root)) return { index: [], specialties: [], questions: [] };
+  const diseaseCandidates = buildDiseases().flatMap((item) =>
+    [item.title, ...(item.aliases || [])]
+      .map((term) => ({ term: normalizeQbankDiseaseTerm(term), slug: item.slug }))
+      .filter((candidate) => candidate.term.length >= 3),
+  );
+  function resolveDiseaseTerm(term) {
+    const normalized = normalizeQbankDiseaseTerm(term);
+    if (normalized.length < 3) return "";
+    const exact = diseaseCandidates.find((candidate) => candidate.term === normalized);
+    if (exact) return exact.slug;
+    const partial = diseaseCandidates
+      .filter((candidate) => (
+        candidate.term.length >= 5
+        && (candidate.term.includes(normalized) || normalized.includes(candidate.term))
+      ))
+      .sort((a, b) => Math.abs(a.term.length - normalized.length) - Math.abs(b.term.length - normalized.length))[0];
+    return partial?.slug || "";
+  }
+  const questions = [];
+  const seenIds = new Set();
+  const seenHashes = new Set();
+
+  for (const filePath of listMarkdownFiles(root, { ignoreFiles: new Set(["index.md"]) })) {
+    const { frontmatter, body } = splitFrontmatter(readText(filePath));
+    if (readScalar(frontmatter.type) !== "qbank") continue;
+    const id = readScalar(frontmatter.id);
+    const sourceHash = readScalar(frontmatter.source_hash);
+    const specialty = readScalar(frontmatter.specialty);
+    const answer = readScalar(frontmatter.answer);
+    if (!id || seenIds.has(id)) throw new Error(`Q-bank duplicate or missing id: ${id || filePath}`);
+    if (!sourceHash || seenHashes.has(sourceHash)) throw new Error(`Q-bank duplicate or missing source hash: ${sourceHash || filePath}`);
+    if (!/^[A-D]$/.test(answer)) throw new Error(`Q-bank invalid answer for ${id}`);
+    const question = qbankSection(body, "문제");
+    const optionsText = qbankSection(body, "선택지");
+    const options = {};
+    for (const match of optionsText.matchAll(/^([A-D])\.\s+(.+)$/gm)) options[match[1]] = match[2].trim();
+    if (!question || Object.keys(options).join("") !== "ABCD") throw new Error(`Q-bank malformed question/options for ${id}`);
+    const explanationStatus = readScalar(frontmatter.explanation_status) || "missing";
+    const explanation = explanationStatus === "verified"
+      ? qbankSection(body, "해설").replace(/<!--([\s\S]*?)-->/g, "").trim()
+      : "";
+    const diseaseTerms = readList(frontmatter.related_diseases);
+    const relatedDiseaseSlugs = [...new Set(diseaseTerms.map(resolveDiseaseTerm).filter(Boolean))];
+    const specialtySlug = toSlug(specialty);
+    questions.push({
+      id,
+      source: readScalar(frontmatter.source),
+      sourceSplit: readScalar(frontmatter.source_split),
+      specialty,
+      specialtySlug,
+      relatedDiseaseTerms: diseaseTerms,
+      relatedDiseaseSlugs,
+      questionType: readScalar(frontmatter.question_type) || "other",
+      difficulty: readScalar(frontmatter.difficulty) || "standard",
+      question,
+      options,
+      answer,
+      explanation,
+      translationStatus: readScalar(frontmatter.translation_status),
+      explanationStatus,
+      reviewStatus: readScalar(frontmatter.review_status),
+    });
+    seenIds.add(id);
+    seenHashes.add(sourceHash);
+  }
+
+  questions.sort((a, b) => a.id.localeCompare(b.id));
+  const grouped = new Map();
+  for (const question of questions) {
+    const values = grouped.get(question.specialty) || [];
+    values.push(question);
+    grouped.set(question.specialty, values);
+  }
+  ensureDir(PUBLIC_QBANK_ROOT);
+  const expectedFiles = new Set(["index.json", "specialties.json"]);
+  const specialties = [...grouped.entries()].map(([name, items]) => {
+    const slug = toSlug(name);
+    const fileName = `${slug}.json`;
+    expectedFiles.add(fileName);
+    writePublicQbankJson(fileName, items);
+    writeQbankDataJson(fileName, items);
+    return { name, slug, count: items.length };
+  }).sort((a, b) => a.name.localeCompare(b.name, "ko"));
+  const index = questions.map((item) => ({
+    id: item.id,
+    specialty: item.specialty,
+    specialtySlug: item.specialtySlug,
+    questionType: item.questionType,
+    difficulty: item.difficulty,
+    translationStatus: item.translationStatus,
+    explanationStatus: item.explanationStatus,
+  }));
+  writePublicQbankJson("index.json", index);
+  writePublicQbankJson("specialties.json", specialties);
+  for (const entry of fs.readdirSync(PUBLIC_QBANK_ROOT, { withFileTypes: true })) {
+    if (entry.isFile() && entry.name.endsWith(".json") && !expectedFiles.has(entry.name)) {
+      fs.rmSync(path.join(PUBLIC_QBANK_ROOT, entry.name));
+    }
+  }
+  for (const entry of fs.readdirSync(QBANK_DATA_ROOT, { withFileTypes: true })) {
+    if (entry.isFile() && entry.name.endsWith(".json") && !expectedFiles.has(entry.name)) {
+      fs.rmSync(path.join(QBANK_DATA_ROOT, entry.name));
+    }
+  }
+  return { index, specialties, questions };
+}
+
 function main() {
   ensureDir(DATA_ROOT);
 
@@ -1176,6 +1315,7 @@ function main() {
   const drugToc = buildDomainToc("04 Pharmacology");
   const labImgToc = buildDomainToc("06 Lab & Img");
   const specialtyToc = buildSpecialtyToc();
+  const qbank = buildQbank();
 
   const specialties = [...new Map(diseases.map((item) => [item.specialty, item])).keys()].map((name) => {
     const normalizedName = name.replace(/^\d+\s*/, "").trim();
@@ -1204,6 +1344,7 @@ function main() {
       drugToc: { count: drugToc.items.length, source: "04 Pharmacology/_\uBAA9\uCC28.md" },
       labImgToc: { count: labImgToc.items.length, source: "06 Lab & Img/_\uBAA9\uCC28.md" },
       specialties: { count: specialties.length, source: "derived from diseases" },
+      qbank: { count: qbank.questions.length, source: "99 Q-bank/MedQA" },
     },
   };
 
@@ -1221,6 +1362,8 @@ function main() {
   writeJson("specialty-toc.json", specialtyToc);
   writeJson("drug-toc.json", drugToc);
   writeJson("lab-img-toc.json", labImgToc);
+  writeJson("qbank-index.json", qbank.index);
+  writeJson("qbank-specialties.json", qbank.specialties);
   writeJson(
     "search-index.json",
     buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology, labImg, skills }),

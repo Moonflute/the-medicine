@@ -1,0 +1,47 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-005065
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:c751148098e61b101e7332bc523517902b8cd3ea360a4b59966e7119dbfdaf2d
+exam: USMLE Step 2/3
+language: ko
+specialty: 12 산과
+related_diseases:
+  - "자간증"
+  - "임신성 고혈압"
+  - "황산마그네슘"
+question_type: management
+difficulty: complex
+answer: B
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+20세 여자가 통증성 복부 경련으로 응급실에 왔다. 5개월째 월경이 없었고 혈청 hCG는 100,000 mIU/mL, 소변 hCG와 단백은 양성이다. 혈압은 174/104 mmHg이고 평가 중 5분간 지속되는 전신 강직간대성 움직임이 한 차례 발생했다. 다음 중 가장 적절한 치료는?
+
+## 선택지
+
+A. 로라제팜
+B. 황산마그네슘
+C. 페노바비탈
+D. 프로포폴
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-005065

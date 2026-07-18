@@ -1,0 +1,47 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-006295
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:068085a68e1f92e6d8822a486cb9b25608b24b8e40cdc6f820c040f51ff0ac62
+exam: USMLE Step 2/3
+language: ko
+specialty: 02 호흡기
+related_diseases:
+  - "폐쇄성 수면무호흡증"
+  - "얼굴 홍조"
+  - "적혈구증가증"
+question_type: mechanism
+difficulty: complex
+answer: A
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+45세 남성이 3개월 동안 지속되는 얼굴의 홍조로 내원했다. 이 기간 동안 직장에서 집중하기 어려웠고 전신 피로를 느꼈다. 중요한 회의 중 여러 번 잠들었다. 어머니에게 류마티스관절염이 있다. 고혈압과 천식이 있다. 28년 동안 매일 담배 한 갑을 피웠고 하루 한 잔의 술을 마신다. 라베타롤과 살부타몰 흡입제를 복용한다. 키는 170cm(5ft 7in), 체중은 88kg(194lb), 체질량지수는 30.4kg/m²이다. 체온은 37.1°C(98.8°F), 맥박은 분당 88회, 호흡수는 분당 14회, 혈압은 145/85 mm Hg이다. 진찰에서 얼굴, 특히 양 볼과 코 및 귀 주위에 홍반이 뚜렷하다. 목은 짧고 굵어 보인다. 그 외 진찰은 정상이다. 다음 중 이 환자의 얼굴 변색을 일으키는 가장 가능성 높은 원인은?
+
+## 선택지
+
+A. 에리트로포이에틴 생성 증가
+B. 세로토닌 농도 증가
+C. 지연형 과민반응
+D. 코르티솔 농도 증가
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-006295

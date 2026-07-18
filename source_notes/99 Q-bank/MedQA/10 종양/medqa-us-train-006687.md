@@ -1,0 +1,47 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-006687
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:72d620c0d8c82e0246fcc5b68d70c27aff420493caa60886f4693520c50740c1
+exam: USMLE Step 2/3
+language: ko
+specialty: 10 종양
+related_diseases:
+  - "호스피스 완화의료"
+  - "말기 췌장암 통증"
+  - "오피오이드 진통"
+question_type: management
+difficulty: complex
+answer: B
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+72세 남성이 호스피스에서 응급실로 이송되었다. 지난 며칠 동안 통증이 악화되어 더는 견딜 수 없다고 한다. 호스피스에서 관리 중인 췌장암 병력이 있고 치료나 소생술과 관련해 ‘영웅적 처치’를 원하지 않는다. 체온은 98.8°F(37.1°F), 혈압은 107/68 mmHg, 맥박은 분당 102회, 호흡수는 분당 22회, 산소포화도는 99%이다. 복부를 누르면 심한 통증이 있는 불편한 고령 남성이다. 검사에서 신부전, 간부전 및 빈혈 소견이 있다. 다음 중 처치로 가장 적절한 것은?
+
+## 선택지
+
+A. 모르핀
+B. 모르핀과 펜타닐 패치
+C. 중재 불필요
+D. 케토롤락과 펜타닐
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-006687

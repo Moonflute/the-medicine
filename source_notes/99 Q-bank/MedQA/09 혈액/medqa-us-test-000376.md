@@ -1,0 +1,47 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-test-000376
+source: MedQA-US
+source_split: test
+source_meta: step2&3
+source_hash: sha256:7a0ae491f9bcdba6370c3e749cae28a18d53305d6d31155512db28ac9ee0ef35
+exam: USMLE Step 2/3
+language: ko
+specialty: 09 혈액
+related_diseases:
+  - "겸상적혈구병"
+  - "겸상적혈구병 관련 뇌졸중"
+  - "허혈성 뇌졸중"
+question_type: management
+difficulty: complex
+answer: B
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+겸상적혈구병이 있는 22세 남성이 갑자기 발생한 안면 비대칭과 심한 통증으로 응급실에 왔다. 학교에서 교사가 왼쪽 얼굴 처짐을 발견했다. 체온 99.9°F(37.7°C), 혈압 122/89 mmHg, 맥박 110회/분, 호흡 19회/분, 실내 공기 산소포화도 98%였다. 안면 비대칭과 상·하지 근력 4/5가 관찰되었다. 두부 CT에서 두개내 출혈은 보이지 않았다. 다음 중 가장 적절한 치료는?
+
+## 선택지
+
+A. 알테플라제
+B. 교환수혈
+C. 헤파린
+D. 와파린
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-test-000376

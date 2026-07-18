@@ -1,0 +1,47 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-007645
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:65abb346bda727eb564424dc79e6e732590f4b4549eaae98aacee6b322f264d5
+exam: USMLE Step 2/3
+language: ko
+specialty: 07 류마티스
+related_diseases:
+  - "systemic lupus erythematosus"
+  - "warm autoimmune hemolytic anemia"
+  - "extravascular hemolysis"
+question_type: management
+difficulty: complex
+answer: B
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+전신홍반루푸스(SLE) 병력이 있는 35세 여성이 피로 악화를 호소하며 내원했다. 몇 달 전부터 증상이 시작되었고 SLE로 경험했던 것보다 훨씬 심해졌다고 한다. 3년 전 SLE를 진단받았으며 현재 NSAIDs와 하이드록시클로로퀸으로 치료 중이다. 식후, 특히 패스트푸드 섭취 후 복통이 있다. 체온 37.0°C, 혈압 100/75 mm Hg, 맥박 103회/분, 호흡수 20회/분, 실내 공기 산소포화도 99%이다. 창백하고 피곤해 보이며, 심장 진찰은 정상이다. 복부에서 뚜렷한 비장비대가 있고 공막과 피부에 황달이 보인다. 검사 결과를 기다리는 중이며 말초혈액도말이 제시되어 있다. 이 환자의 피로에 대한 최선의 치료는?
+
+## 선택지
+
+A. 비장절제술
+B. 프레드니손
+C. 교환수혈
+D. 리툭시맙
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-007645

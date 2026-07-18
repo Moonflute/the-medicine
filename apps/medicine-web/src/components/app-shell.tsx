@@ -19,7 +19,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
   const [open, setOpen] = useState(false);
-  const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.5.0";
+  const version = process.env.NEXT_PUBLIC_APP_VERSION ?? "0.7.0";
 
   useEffect(() => {
     const openSearch = (event: KeyboardEvent) => {

@@ -1,0 +1,48 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-003933
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:c983e6377dc808d428e1a1216a45c709fbb52fe58ef584fa0be2b0d57db457de
+exam: USMLE Step 2/3
+language: ko
+specialty: 15 정신건강의학과
+related_diseases:
+  - "acute stress disorder"
+  - "trauma exposure"
+  - "intrusive nightmares"
+  - "avoidance"
+question_type: diagnosis
+difficulty: standard
+answer: A
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+39세 여성이 3주 전 자동차에서 성폭행을 당한 후 불면, 집중력 저하, 야간 발한과 심계항진, 사고 장소 회피, 악몽, 과민한 행동을 보였다. 가장 가능성 높은 진단은?
+
+## 선택지
+
+A. 급성 스트레스 장애
+B. 적응장애
+C. 외상후스트레스장애
+D. 지속성 복합 애도장애
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-003933

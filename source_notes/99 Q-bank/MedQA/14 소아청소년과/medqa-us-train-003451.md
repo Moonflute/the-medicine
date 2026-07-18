@@ -1,0 +1,48 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-003451
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:21ffd72c824e86b577d96de1f9bc21639c6b42c20f11941f5a140030ed814c59
+exam: USMLE Step 2/3
+language: ko
+specialty: 14 소아청소년과
+related_diseases:
+  - "autism spectrum disorder"
+  - "social communication deficit"
+  - "restricted repetitive behavior"
+  - "male predominance"
+question_type: association
+difficulty: complex
+answer: A
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+4세 여아가 또래 여아들보다 말을 훨씬 적게 하고 사회적 상호작용이 부족해 소아과에 왔다. 2세 때 사용할 수 있었던 단어는 5~6개뿐이었고, 관심 있는 것을 가리키기 위해 검지를 사용한 적이 없었다. 생일파티를 즐기지 않고 다른 아이들과 놀지 않으며, 인형의 목을 반복적으로 굽혔다 펴는 행동을 한다. 큰 소리에 민감하고 몸을 흔든다. 이 환자가 앓는 질환의 역학적 특징은?
+
+## 선택지
+
+A. 여아보다 남아에서 4배 흔하다
+B. 어머니가 25세 이전에 출산하면 발생률이 증가한다
+C. 어머니가 임신 중 흡연하면 위험이 증가한다
+D. 산전 모체 혈청 비타민 D가 낮으면 위험이 증가한다
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-003451

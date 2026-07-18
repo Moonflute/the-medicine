@@ -1,0 +1,47 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-006826
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:b3de9da2cd22eac7748728c9c242d1dafaa99a11ac4547b59437c9b2be49dfe2
+exam: USMLE Step 2/3
+language: ko
+specialty: 05 신장
+related_diseases:
+  - "급성 세뇨관간질신염"
+  - "양성자펌프억제제 유발"
+  - "호산구뇨"
+question_type: diagnosis
+difficulty: complex
+answer: A
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+57세 남성이 전날 밤부터 시작된 양쪽 옆구리 통증과 혈뇨로 응급실에 내원했다. 지난 2일 동안 권태감, 근육통 및 전신 가려운 발진도 있었다. 라니티딘에 반응하지 않던 위식도역류가 2개월 전부터 판토프라졸을 복용한 후 호전되었다. 허리 통증으로 가끔 아세트아미노펜을 복용한다. 활력징후는 정상이고 전신에 미만성 반구진 발진이 있다. 혈색소 13 g/dL, 백혈구 7,800/mm³, Na+ 140, Cl− 105, K+ 4.6, HCO3− 25 mEq/L, 포도당 102 mg/dL, 크레아티닌 4.1 mg/dL이다. 신장 초음파는 정상이다. 다음 중 관찰될 가능성이 가장 높은 소견은?
+
+## 선택지
+
+A. 소변 호산구 증가
+B. CT에서 유두 석회화
+C. 명시야 현미경에서 요결정
+D. 반월체 모양 사구체외 세포 증식
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-006826

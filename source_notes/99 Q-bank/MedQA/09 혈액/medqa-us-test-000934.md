@@ -1,0 +1,47 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-test-000934
+source: MedQA-US
+source_split: test
+source_meta: step2&3
+source_hash: sha256:a06c3227426d64f083cc167cebec12cf5d648a828a3d795e9703ebb2106e7929
+exam: USMLE Step 2/3
+language: ko
+specialty: 09 혈액
+related_diseases:
+  - "용혈성요독증후군"
+  - "대장균"
+  - "분열적혈구"
+question_type: diagnosis
+difficulty: complex
+answer: A
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+4세 여아가 2일간의 창백함과 발진으로 진료를 받으러 왔다. 4일 동안 설사와 구토를 했지만 이틀 전 호전되었다. 한 달 전에는 고열이 3일간 지속된 뒤 양쪽 뺨이 선홍색으로 변하는 발진이 2일간 생겼다가 치료 없이 사라졌다. 예방접종은 최신 상태다. 창백하고 보채며 몸통과 사지에 점상출혈이 있었다. 복부에는 전반적인 압통과 항진된 장음이 있었다. 혈색소 8 g/dL, MCV 82 fL, 백혈구 17,000/mm³, 혈소판 49,000/mm³, PT 12초, aPTT 34초, BUN 42 mg/dL, 크레아티닌 1.4 mg/dL, 총 빌리루빈 3 mg/dL, 간접 빌리루빈 2.8 mg/dL, LDH 300 U/L였고 소변에서 혈액 2+, 단백질 2+였다. 말초혈액도말에서 분열적혈구가 보였다. 이 소견의 가장 가능성 높은 기저 원인은?
+
+## 선택지
+
+A. 대장균 감염
+B. 파종혈관내응고
+C. 면역성 혈소판감소성 자반증
+D. 혈전성 혈소판감소성 자반증
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-test-000934

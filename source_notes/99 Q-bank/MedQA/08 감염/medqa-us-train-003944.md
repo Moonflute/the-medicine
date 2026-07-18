@@ -1,0 +1,48 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-003944
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:cf30633fd8a1962d69f0308e16b0df77572c8c35cd2296cb94a59a31826ffebd
+exam: USMLE Step 2/3
+language: ko
+specialty: 08 감염
+related_diseases:
+  - "disseminated gonococcal infection"
+  - "migratory polyarthritis"
+  - "pustular skin lesions"
+  - "tenosynovitis"
+question_type: diagnosis
+difficulty: complex
+answer: B
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+19세 대학생이 오른쪽 손목과 왼쪽 무릎·발목의 급성 관절염, 아킬레스건 압통, 손등의 여러 수포농포로 내원했다. 활막액은 호중구 우세 백혈구 4만/mm3였고 그람염색은 음성이었다. 가장 가능성 높은 진단은?
+
+## 선택지
+
+A. 포진상 피부염
+B. 파종성 임균 감염
+C. 라임병
+D. 반응성 관절염
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-003944

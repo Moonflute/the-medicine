@@ -1,0 +1,47 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-002276
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:edeec1d654d4c033e8173b71a4803a12ab37fce9a8e176edde3de4a0e13c7544
+exam: USMLE Step 2/3
+language: ko
+specialty: 08 감염
+related_diseases:
+  - "Clostridioides difficile infection"
+  - "antibiotic-associated diarrhea"
+  - "oral vancomycin"
+question_type: management
+difficulty: complex
+answer: D
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+33세 남성이 설사로 응급실에 왔다. 매우 많고 물 같은 설사가 일주일 동안 호전되지 않았다. 전반적으로 건강하지만 최근 봄방학 중 입원해 알코올 중독과 흡인성 폐렴으로 치료받았다. 방학 중 캠핑을 하며 덜 익힌 닭고기를 먹고 산에서 흐르는 물을 마셨다. 체온 100.5°F(38.1°C), 혈압 111/74 mmHg, 맥박 110회/분, 호흡 16회/분, 산소포화도 98%이다. 피곤해 보이지만 복부 압통은 없다. 다음 중 가장 적절한 치료는?
+
+## 선택지
+
+A. 시프로플록사신과 메트로니다졸
+B. 메트로니다졸
+C. 치료가 필요하지 않다
+D. 반코마이신
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-002276

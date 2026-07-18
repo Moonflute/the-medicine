@@ -1,0 +1,48 @@
+---
+type: qbank
+schema_version: 1
+id: medqa-us-train-003468
+source: MedQA-US
+source_split: train
+source_meta: step2&3
+source_hash: sha256:73996f4749f5b242fd34f8f27a52c40d69e767d6e210eb66b181af02468192e9
+exam: USMLE Step 2/3
+language: ko
+specialty: 14 소아청소년과
+related_diseases:
+  - "autism spectrum disorder"
+  - "social communication deficit"
+  - "restricted repetitive behavior"
+  - "poor eye contact"
+question_type: diagnosis
+difficulty: standard
+answer: B
+translation_status: machine-verified
+explanation_status: missing
+translation_model: codex-direct
+translation_prompt_version: codex-direct-ko-v1
+translated_at: 2026-07-18
+review_status: machine-verified
+---
+
+# MedQA US 임상문제
+
+## 문제
+
+5세 여아가 집에서 부주의하고 학교에서도 교사들의 불만이 많아 진료를 받으러 왔다. 과제를 끝내지 않고 지시를 듣지 않으며 부모나 또래와 대화하지 않는다. 혼자 노는 것을 좋아하고 빨간 장난감 자동차 5개를 반복해서 일렬로 배열한다. 진료 내내 어머니와 의사와 눈을 맞추지 않았다. 가장 가능성 높은 진단은?
+
+## 선택지
+
+A. 반항성 장애
+B. 자폐스펙트럼장애
+C. 품행장애
+D. 레트 증후군
+
+## 해설
+
+<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+## 출처
+
+- MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
+- 원본 ID: medqa-us-train-003468

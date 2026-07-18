@@ -20,6 +20,7 @@ guideline_year: "2023"
 sources: ["2023 ESC Guidelines for the management of acute coronary syndromes | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Coronary-Syndromes-ACS"]
 
 content_updated_at: "2026-07-16"
+
 관련분과:
 - 응급의학
 응급의학_분류:

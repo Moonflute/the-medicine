@@ -20,6 +20,7 @@ guideline_year: "2019"
 sources: ["2019 AHA/ACC Guideline on the Management of Patients With Abdominal Aortic Aneurysm | https://www.ahajournals.org/doi/10.1161/CIR.0000000000000672"]
 
 content_updated_at: "2026-07-16"
+
 관련분과:
 - 응급의학
 응급의학_분류:

@@ -6,7 +6,7 @@ import { DiseaseInfectionPanel } from "@/components/disease-infection-panel";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { getAllDiseases, getAntibioticSpectrum, getChiefComplaintLinksForTerms, getClinicalRelationsFor, getDiseaseBySlug, getDiseaseLinks, getSpecialties, isSpecialtyIndexDisease } from "@/lib/webdb";
-import { getInfectionPathways, getInfectionPathwaysForDisease } from "@/lib/infection-db";
+import { getInfectionPathwaysForDisease } from "@/lib/infection-db";
 
 export function generateStaticParams() {
   return getAllDiseases().map((note) => ({ slug: note.slug }));
@@ -38,7 +38,7 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
       </Link>
 
       <DiseaseCard note={note} ccLinks={ccLinks} diseaseLinks={diseaseLinks} hideOverview={isSpecialtyIndexDisease(note)} />
-      {infectionSpecialty && infectionPathways.length > 0 ? <DiseaseInfectionPanel pathways={infectionPathways} spectrum={getAntibioticSpectrum()} pathogens={getInfectionPathways().pathogens} specialtySlug={infectionSpecialty.slug} /> : null}
+      {infectionSpecialty && infectionPathways.length > 0 ? <DiseaseInfectionPanel pathways={infectionPathways} spectrum={getAntibioticSpectrum()} specialtySlug={infectionSpecialty.slug} /> : null}
       <RelatedClinicalContent relations={relations} />
       <ParentPageFab href={parentHref} />
     </div>
