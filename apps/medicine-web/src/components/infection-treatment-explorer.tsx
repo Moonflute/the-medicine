@@ -42,8 +42,8 @@ export function InfectionTreatmentExplorer({ spectrum, pathways, initialMode = "
     <section className="rounded-xl border border-slate-200 bg-white p-1.5 shadow-sm"><div className="grid grid-cols-5 gap-1" role="tablist" aria-label={K.aria}>
       {MODES.map((item) => { const Icon = item.icon; return <button key={item.id} type="button" role="tab" aria-selected={mode === item.id} onClick={() => changeMode(item.id)} className={`flex min-w-0 flex-col items-center justify-center gap-0.5 rounded-lg px-1 py-1.5 text-[10px] font-semibold transition sm:flex-row sm:gap-1.5 sm:px-2.5 sm:py-2 sm:text-xs ${mode === item.id ? "bg-slate-950 text-white" : "text-slate-600 hover:bg-slate-100"}`}><Icon className="h-3.5 w-3.5 shrink-0 sm:h-4 sm:w-4" /><span className="truncate"><span className="sm:hidden">{"shortLabel" in item ? item.shortLabel : item.label}</span><span className="hidden sm:inline">{item.label}</span></span></button>; })}
     </div></section>
-    {mode === "disease" ? <InfectionPathwayExplorer dataset={pathways} spectrum={spectrum} embedded /> : null}
-    {mode === "matrix" || mode === "organism" || mode === "antibiotic" ? <AntibioticOverview key={mode} dataset={spectrum} pathways={pathways} initialMode={mode} embedded /> : null}
+    {mode === "disease" ? <InfectionPathwayExplorer dataset={pathways} spectrum={spectrum} /> : null}
+    {mode === "matrix" || mode === "organism" || mode === "antibiotic" ? <AntibioticOverview key={mode} dataset={spectrum} pathways={pathways} initialMode={mode} /> : null}
     {mode === "quiz" ? <UnifiedInfectionQuiz pathways={pathways.pathways.filter((item) => item.reviewStatus === "verified")} spectrum={spectrum} sources={pathways.sources} /> : null}
   </div>;
 }
