@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심인성 원인
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 시 흉벽을 눌렀을 때 통증이 유발되는 것은 늑연골염(가슴연골염)으로, 비감염성 염증이므로 비스테로이드성 소염제가 가장 적절하다.
 
 ## 출처
 

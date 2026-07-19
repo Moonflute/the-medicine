@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 폐 혈전색전증(Pulmonary thromboembolism)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대퇴골 골절 후 24–72시간 내에 나타나는 급성 호흡곤란, 혼란, 그리고 앞가슴·머리·목에 나타나는 피로성 반점은 지방 색전증의 전형적인 삼중증상이다. 지방 색전이 폐 모세혈관을 막아 저산소증과 양측성 흡음음(크랙클) 및 급성 저산소성 호흡부전을 일으킨다. 따라서 제시된 임상양상과 영상소견은 지방 색전증에 가장 부합한다.
 
 ## 출처
 

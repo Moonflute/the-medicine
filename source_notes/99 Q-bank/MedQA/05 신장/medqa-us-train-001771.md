@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신장 생검을 시행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Rifampin은 급성 간질성 신염(AIN)의 흔한 원인 약물이며, 발진과 발열, 소변에 호산구와 백혈구가 동반된 경우가 특징이다. 환자의 발진, 발열, 신기능 악화, 소변 검사 소견이 AIN을 시사하므로 원인 약물인 rifampin을 중단한다. 다른 선택지는 AIN 치료에 비핵심이며, rifampin 중단이 가장 적절한 조치이다.
 
 ## 출처
 

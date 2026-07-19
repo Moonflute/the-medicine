@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. TSH와 T4
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다낭성 난소 증후군은 인슐린 저항성과 대사증후군과 연관되므로 혈당과 콜레스테롤 검사가 동반 질환 선별에 가장 적절하다. 이는 당대사 이상을 조기에 발견해 관리할 수 있게 한다. 17‑하이드록시프로게스테론 검사는 선천성 부신과다형증에 사용된다.
 
 ## 출처
 

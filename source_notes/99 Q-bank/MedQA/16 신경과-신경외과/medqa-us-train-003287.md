@@ -18,11 +18,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 칼슘통로차단제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+편두통에 동반되는 구역질·구토는 트립탄이나 NSAID만으로는 충분히 억제되지 않을 수 있다. 클로르프로마진은 도파민 차단 작용으로 구역질을 완화시키는 항구토제로 급성 편두통 구토에 가장 효과적이다. 따라서 정답은 C이다.
 
 ## 출처
 

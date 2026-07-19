@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 탐색적 개복술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 전면에 다수의 관통 상처와 저혈압·빈맥이 있는 경우, 복부 내 장기 손상과 출혈이 의심되어 가장 신속하고 포괄적인 수술적 평가가 필요하다. 따라서 탐색적 개복술이 적절하다.
 
 ## 출처
 

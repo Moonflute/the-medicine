@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기관지성 암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+석면 노출과 석회화된 흉막판, 양측 하엽 침윤은 석면 관련 폐암, 특히 기관지성 폐암의 위험을 크게 높인다. 따라서 가장 흔히 발생하는 질환은 기관지성 암이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 임신 28주 이후에는 로감 투여의 이득이 없음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Rh 음성 산모가 Rh 양성 태아(또는 아버지)와 접촉하면 태아 적혈구가 모체에 노출돼 Rh 감작이 일어나며, 재임신 시 심각한 용혈성 질환을 초래한다. 감작을 예방하기 위해 Rh 음성 산모에게는 태아/신생아 혈액이 섞인 경우 즉시 Rh 면역글로불린(로감)을 투여한다. 따라서 산모가 Rh 음성이고 아버지가 Rh 양성인 경우 로감 투여가 필요하다.
 
 ## 출처
 

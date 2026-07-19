@@ -18,11 +18,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 캡사이신 크림
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Sarcoptes scabiei에 의한 옴은 손가락 사이에 가는 적갈색 선(터널)과 소량의 가려움 발진을 일으킨다. 퍼메트린 크림은 옴 치료에 1차 선택약이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 딜티아젬
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+코카인 관련 급성 관상동맥 증후군에서는 베타 차단제가 관상동맥 혈관 수축을 악화시켜 금기이다. 베타 차단제는 코카인에 의해 유도된 혈관 수축을 차단하지 못하고 심근산소 공급을 감소시킨다. 따라서 프로프라놀롤이 금기 약물이다.
 
 ## 출처
 

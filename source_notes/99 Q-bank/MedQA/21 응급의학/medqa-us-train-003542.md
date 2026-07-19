@@ -18,11 +18,13 @@ question_type: communication
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 이러한 환자와의 만남을 교육 목적이 아닌 진료로만 제한�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+의료 통역이 필요할 때는 환자와 동일한 언어를 구사하고 자격을 갖춘 의료 통역사를 이용해야 의사소통 오류와 의료 사고를 최소화할 수 있다. 이는 전문 통역 서비스가 가장 효과적인 해결책임을 의미한다. 따라서 환자의 모국어를 구사하는 자격 있는 의료 통역사를 고용하는 것이 정답이다.
 
 ## 출처
 

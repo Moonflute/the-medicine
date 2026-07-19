@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메토트렉세이트
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+섬유근육통은 광범위 통증과 피로가 특징이며, 1차 치료 약물은 신경통 완화와 수면 개선을 위한 삼환계 항우울제인 아미트립틸린이다. 따라서 가장 적절한 치료는 아미트틸린이다.
 
 ## 출처
 

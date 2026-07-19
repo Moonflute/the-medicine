@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 티아졸리딘디온 추가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+메트포르민 단독 요법으로 HbA1c가 8.5%로 목표치를 초과하므로 2번째 약물이 필요하다. 설포닐우레아는 저렴하고 효과적인 1차 추가제이다. 따라서 설포닐우레아를 추가하는 것이 적절하다.
 
 ## 출처
 

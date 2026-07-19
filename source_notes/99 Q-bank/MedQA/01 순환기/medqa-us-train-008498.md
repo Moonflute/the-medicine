@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 주 5일, 하루 30분 걷기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+체중 감량은 혈압에 가장 큰 영향을 주는 생활습관 변화이며, 10 kg 감량 시 평균 5–20 mmHg 정도 수축기 혈압이 감소한다. 다른 선택지는 효과가 작거나 제한적이다. 따라서 가장 큰 혈압 감소는 체중 15 kg 감량이다.
 
 ## 출처
 

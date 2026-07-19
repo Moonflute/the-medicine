@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 10년 후부터 매년 자기공명 담췌관조영술 선별검사를 시작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+궤양성 대장염 환자는 장관 염증으로 용종(가성 용종)과 연관된 대장암 위험이 증가한다. 위험도는 질병 지속 연수와 광범위 염증에 따라 달라지며, 8년 후부터 매년 내시경 검사가 권고된다. 따라서 8년 후부터 매년 대장내시경을 시작한다.
 
 ## 출처
 

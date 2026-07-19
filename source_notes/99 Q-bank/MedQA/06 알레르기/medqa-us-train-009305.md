@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. WAS 유전자 돌연변이
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+리소좀 수송 조절 유전자(LYST) 결함은 체디아크‑히가시 증후군을 일으키며, 은빛 모발·저색소침착·점상출혈·거대 과립을 보인다. 따라서 원인은 LYST 결함이다. 다른 선택지는 해당 혈액학적 소견을 설명하지 못한다.
 
 ## 출처
 

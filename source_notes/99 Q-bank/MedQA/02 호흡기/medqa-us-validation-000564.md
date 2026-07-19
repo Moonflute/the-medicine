@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 호흡기세포융합바이러스
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+COPD 급성 악화 시 녹농균은 기관지확장증이나 이전 항생제 사용으로 위험이 증가한다. 환자는 반복 악화와 중증 COPD를 가지고 있어 녹농균 감염을 우선 고려한다. 따라서 다음 치료 전 고려할 병원체는 녹농균이다.
 
 ## 출처
 

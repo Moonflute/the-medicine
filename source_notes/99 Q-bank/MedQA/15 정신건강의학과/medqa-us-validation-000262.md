@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈당 항상성 장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 정상 혈당 측정에도 불구하고 지속적인 질병에 대한 과도한 걱정과 검사를 요구한다. 이는 실제 신체적 질병이 없으며, 건강에 대한 과도한 불안이 특징인 질병불안장애에 해당한다. 따라서 가장 가능성 높은 진단은 질병불안장애이다
 
 ## 출처
 

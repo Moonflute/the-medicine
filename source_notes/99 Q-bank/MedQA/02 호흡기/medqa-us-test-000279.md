@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 바늘 감압술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+COPD 급성 악화에서 저산소혈증이 지속되고 비침습적 양압환기(BiPAP)가 호흡 근육 부담을 줄이며 가스 교환을 개선한다. 따라서 BiPAP가 가장 적절한 처치이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 설트랄린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+주요우울장애의 1차 치료는 항우울제와 심리치료이며, 전기경련치료는 약물·심리치료에 반응하지 않을 때 사용하는 2차 옵션이다. 따라서 1차 치료로 부적절한 선택은 전기경련치료이다.
 
 ## 출처
 

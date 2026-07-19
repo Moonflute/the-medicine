@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 하지 도플러 검사(lower extremity Doppler)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 상지와 하지 혈압 차이, 약한 하지 맥박, 연속성 잡음은 대동맥 협착을 시사한다. 초기 치료는 혈관 확장을 위한 알프로스타딜(프로스타글란딘) 투여가 권장된다.
 
 ## 출처
 

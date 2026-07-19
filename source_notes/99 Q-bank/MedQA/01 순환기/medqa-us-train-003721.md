@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 대동맥 내막 파열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 전흉부 압박성 흉통, 식은땀, ST‑elevation은 좌전하행동맥(왼쪽 전하행동맥) 폐색에 의한 급성 전벽 MI를 의미한다. 이는 가장 흔한 원인이다. 따라서 정답은 왼쪽 전하행동맥 폐색이다.
 
 ## 출처
 

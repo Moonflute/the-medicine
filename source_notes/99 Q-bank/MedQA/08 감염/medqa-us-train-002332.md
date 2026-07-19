@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 감염된 말초 정맥 카테터
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 최근 치과 시술 후 감염성 심내막염을 일으킨 것으로, 코아제음성 포도상구균은 주로 피부·점막 카테터 감염과 연관된다. 혈전성 카테터는 지속적인 혈류를 통해 세균이 심장판막에 부착될 위험을 크게 증가시킨다. 따라서 감염된 말초 정맥 카테터가 가장 강력한 위험 요인이다.
 
 ## 출처
 

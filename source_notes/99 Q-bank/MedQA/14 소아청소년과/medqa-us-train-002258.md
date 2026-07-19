@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항생제와 지지요법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Tetralogy of Fallot에서 급성 청색증 발작 시 저산소증을 보이며, 베타 차단제가 심장 출구 저항을 감소시켜 증상을 완화한다. 따라서 베타 차단제 투여가 적절하다.
 
 ## 출처
 

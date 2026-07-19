@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비타민 D 보충
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 부갑상선 손상으로 저칼슘혈증이 발생하면 근육 경련과 손 떨림이 나타나며, 혈청 마그네슘은 정상이다. 저칼슘을 즉시 보충해야 하며, 글루콘산칼슘은 빠른 혈청 칼슘 상승을 제공한다. 따라서 초기 처치는 글루콘산칼슘 투여이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. S상결장경검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CT에서 비장만곡부 결장벽 비후와 지방 침윤은 허혈성 대장염을 시사한다. 허혈성 대장은 대개 보존적 치료로 관리되며, 가장 중요한 진단적 평가는 입원 후 관찰이다.
 
 ## 출처
 

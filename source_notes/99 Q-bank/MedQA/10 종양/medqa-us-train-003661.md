@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 항암화학요법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+보형물 주변에 액체가 고여 있으면서 보형물 자체는 온전한 경우, 보형물 관련 대형 세포 림프종(BIA‑ALCL)이 의심된다. 이 림프종은 CD30 양성이고 ALK 음성인 세포표현을 보이므로 CD30·ALK 세포검사가 진단에 필수적이다. 따라서 가장 적절한 다음 처치는 CD30과 ALK에 대한 세포검사이다.
 
 ## 출처
 

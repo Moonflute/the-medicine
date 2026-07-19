@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경정맥 간내 문맥전신 단락술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복수천자에서 SAAG 1.3 g/dL와 저세포성 액체, 그리고 E. coli 감염은 자발성 세균성 복막염을 시사한다. 간경변 환자에서 복수량이 급격히 증가하고 신기능이 악화되는 경우 간신증후군이 동반될 수 있다. 간신증후군은 혈관수축제(예: 도파민)보다 간이식이 근본적인 치료이며, 환자는 이미 급성 신부전과 저나트륨 혈증을 보이고 있다. 따라서 가장 적절한 치료는 간이식이다.
 
 ## 출처
 

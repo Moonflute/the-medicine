@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 말초 동맥의 도약맥
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 시 호흡곤란과 고혈압, 심잡음이 있는 환자에서 심부전이 의심될 때 혈청 BNP는 심실 부담을 반영해 상승한다. 이는 진단적 가치를 제공한다. 따라서 BNP 상승이 가장 가능성 높은 소견이다.
 
 ## 출처
 

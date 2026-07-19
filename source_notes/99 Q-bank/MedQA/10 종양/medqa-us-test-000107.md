@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지금 기관지경 유도 생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CT에서 매끄럽고 석회화된 8‑10 mm 결절은 악성 가능성이 낮지만 성장 추적이 필요하다. PET 검사는 대사활동을 평가해 악성 여부를 판단하는 가장 민감한 비침습적 방법이다. 따라서 현재 시점에서 가장 적절한 검사는 PET이다.
 
 ## 출처
 

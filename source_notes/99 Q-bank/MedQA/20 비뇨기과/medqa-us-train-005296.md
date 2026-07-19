@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비만
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신장에 큰 종괴가 침범하고 비만은 신세포암(신장암)의 주요 위험인자이다. 흡연·고혈압도 위험인자이지만 제시된 선택지 중 비만만이 명확히 연관된다. 따라서 가장 가능성 높은 위험인자는 D, 비만이다.
 
 ## 출처
 

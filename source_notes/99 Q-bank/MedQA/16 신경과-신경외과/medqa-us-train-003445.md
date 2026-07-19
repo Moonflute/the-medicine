@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 시상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수평 안진, 반대쪽 팔다리 감각 소실, 구역성 구토는 외측 연수(윌렌베르크 증후군) 손상을 특징으로 한다. 이 부위는 삼차신경 감각과 구상로, 전정로를 포함한다. 따라서 병변 위치는 외측 연수이다.
 
 ## 출처
 

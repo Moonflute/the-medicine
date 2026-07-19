@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. Chlamydia trachomatis
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청년 남성의 비감염성 요도염 증상과 그람 염색에서 균이 보이지 않는 점은 Chlamydia trachomatis 감염을 시사한다. 이는 비세균성 방광염의 가장 흔한 원인이다. 따라서 가장 가능성이 높은 병원체는 Chlamydia trachomatis이다.
 
 ## 출처
 

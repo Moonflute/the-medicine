@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 혈관조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+야간 발기(음경 팽창) 검사는 수면 중에 자연스럽게 발생하는 발기를 측정해 유기적 원인과 심인성 원인을 구분한다. 유기적 원인은 발기가 없으며, 심인성 원인은 야간에도 발기가 유지된다. 따라서 음경 팽창 검사가 적절한 검사이다.
 
 ## 출처
 

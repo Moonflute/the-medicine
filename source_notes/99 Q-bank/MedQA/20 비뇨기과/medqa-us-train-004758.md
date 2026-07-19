@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 푸로세미드 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑상선 전절제술 후 급성 요폐는 방광에 소변이 차지 못해 발생한다. 초음파로 방광 잔량을 확인하는 방광 스캔이 비침습적이며 진단에 가장 유용하다. 따라서 방광 스캔 시행이 적절하다.
 
 ## 출처
 

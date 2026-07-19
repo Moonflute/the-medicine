@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 신동맥 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+리튬은 혈압을 낮추고 부정맥을 유발할 수 있다. 서맥·떨림·빈뇨가 나타난 경우, 리튬 농도 조절을 위해 이뇨제(예: 티아지드) 교체가 필요하다. 정답은 A.
 
 ## 출처
 

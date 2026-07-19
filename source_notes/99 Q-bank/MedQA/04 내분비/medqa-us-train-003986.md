@@ -18,11 +18,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 아니요. 황색포도알균 감염 때문에 저혈당 가능성이 높으�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+글라진은 지속형 인슐린으로 24시간 동안 혈당을 낮춘다. 혈당이 63 mg/dL인 저혈당 상태에서도 글라진을 투여하면 지속적인 인슐린 작용으로 혈당이 더 떨어질 위험이 있다. 따라서 투여하면 안 된다는 것이 옳다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소변 단백 대량 양성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+요관 결석은 산통성 통증과 방사통을 일으키며, 요산 결석은 산성 소변에서 형성된다. 따라서 소변 pH가 낮은 4.7이 가장 흔히 관찰된다. 다른 선택지는 결석 종류와 일치하지 않는다.
 
 ## 출처
 

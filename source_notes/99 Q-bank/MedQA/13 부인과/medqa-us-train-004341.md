@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 외래에서 니페디핀 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신성 고혈압(단백뇨 없는)에서는 경과 관찰이 권장되며, 약물 치료는 단백뇨나 중증 고혈압이 있을 때 시작한다. 입원이나 약물은 필요하지 않다.
 
 ## 출처
 

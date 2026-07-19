@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 메토프롤롤을 이용한 리듬 조절
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+장시간 누워 있던 후 급성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 횡격막성 획득된 근육 손상으로 인한 급성 신손상 예방을 위해 대량 정맥 수액을 통한 강제 이뇨가 최우선이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정신치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청각 환각과 피험자 망상은 급성 정신병(조현병)에서 흔히 보이며, 1세대 항정신병제인 리스페리돈은 급성 증상 완화에 효과적이다. 설트랄린은 항우울제, 클로르프로마진은 장기 항정신병제이므로 리스페리돈이 가장 적절하다.
 
 ## 출처
 

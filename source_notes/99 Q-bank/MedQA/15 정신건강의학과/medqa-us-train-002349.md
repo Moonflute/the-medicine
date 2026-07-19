@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 선택적 함구증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아동이 특정 상황(학교, 낯선 사람)에서만 말을 하지 않고, 다른 환경에서는 정상 언어를 구사하는 것은 선택적 함구증의 전형적인 특징이다. 이는 사회적 불안과 연관되지만 언어 발달 자체는 정상이다. 따라서 선택적 함구증이 가장 가능성 높다.
 
 ## 출처
 

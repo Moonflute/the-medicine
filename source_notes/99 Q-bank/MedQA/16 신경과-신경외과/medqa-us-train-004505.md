@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -47,7 +49,8 @@ D. 경막하혈종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두부 외상 후 증상이 지연되고, CT에서 얇은 고밀도 층이 보이며, 신경학적 결손이 진행성인 경우 경막하혈종이 가장 흔한 원인이다. 다른 선택지는 증상 양상과 영상소견에 부합하지 않는다.
 
 ## 출처
 

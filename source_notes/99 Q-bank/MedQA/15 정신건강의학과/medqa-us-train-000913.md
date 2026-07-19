@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 펜시클리딘(phencyclidine) 중독
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+과다 흥분, 고열, 혈압 상승, 빈맥, 동공 확대, 과다 발한 및 급성 언어 과다는 중추신경계 흥분제인 lisdexamfetamine(ADHD 약물) 과다복용과 일치한다. 증상이 약 10시간 내에 호전되는 점도 이 약물의 반감기에 부합한다. 따라서 정답은 C이다.
 
 ## 출처
 

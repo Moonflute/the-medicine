@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뇌척수액 배양 결과가 나올 때까지 치료를 시작하지 않는�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+결핵성 수막염 치료에 사용되는 리팜핀·이소니아지드·피라진 등은 간효소 상승을 일으킬 수 있다. 따라서 치료 중 간효소를 정기적으로 모니터링해야 한다. 다른 선택지는 치료 원칙과 맞지 않는다.
 
 ## 출처
 

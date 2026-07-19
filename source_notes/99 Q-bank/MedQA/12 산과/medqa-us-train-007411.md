@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 경구 아시클로버 치료와 제왕절개
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+활동성 생식기 헤르페스가 있으면 출산 중 신생아 감염 위험이 크므로 제왕절개가 권고된다. 동시에 경구 아시클로버로 바이러스 복제를 억제한다.
 
 ## 출처
 

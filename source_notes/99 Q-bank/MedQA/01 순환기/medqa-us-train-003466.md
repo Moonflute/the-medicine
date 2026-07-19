@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 좌심방 압력 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심방압 상승은 좌심방에 혈액이 정체되어 폐정맥 압력이 상승하고, 이는 폐울혈 및 말초 부종을 일으킨다. 폐동맥 고압과 심방세동도 좌심방 압력 증가와 일치한다. 따라서 가장 가능성 높은 기전은 좌심방 압력 증가이다.
 
 ## 출처
 

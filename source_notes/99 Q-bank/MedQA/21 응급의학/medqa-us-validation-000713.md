@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 초음파검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고속 교통사고 후 저혈압과 멍이 있는 경우 복부 내 출혈을 빠르게 확인해야 한다. FAST 초음파는 비침습적이며 즉시 시행 가능하다. 따라서 초음파검사가 적절하다.
 
 ## 출처
 

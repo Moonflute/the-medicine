@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 인도메타신 주입
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+동맥관개존증( PDA) 폐쇄에 가장 효과적인 약물은 인도메타신으로, 혈관 평활근을 수축시켜 관을 폐쇄한다. 프로스타글란딘은 유지, 경피적 수술은 대체, 디곡신·푸로세미드는 무관하다. 따라서 인도메타신 주입이 적절한 치료이다.
 
 ## 출처
 

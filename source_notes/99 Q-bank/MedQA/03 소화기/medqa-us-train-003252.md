@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 갑상샘 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복되는 복통·배변 변화와 가족력은 대장암 위험을 높이며, 알람 증상이 없더라도 45세 이상에서 10년 전향적 위험이 있다. 따라서 진단적 검사는 대장내시경이다. 다른 선택지는 진단에 직접적 도움이 되지 않는다.
 
 ## 출처
 

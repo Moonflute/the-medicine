@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 포도상구균 표피박리 독소 PCR
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+광범위 피부 박리와 전신 증상은 스티븐스-존슨 증후군을 의심하게 하며, 진단을 위해 피부 생검과 조직병리검사가 필수이다. 이는 약물 유발 독성 표피 괴사의 확진에 가장 직접적인 검사이다. 따라서 피부 생검과 조직병리검사가 적절한 진단검사이다.
 
 ## 출처
 

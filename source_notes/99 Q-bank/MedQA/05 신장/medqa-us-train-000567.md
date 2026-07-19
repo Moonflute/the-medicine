@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 30 mEq/L KCl을 포함한 0.45% 식염수 100 mL/h 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+저나트륨혈증이 저삼투성(플라즈마 삼투압 229 mOsm/kg)이며, 소변 삼투압이 높고 부피가 적은 경우 SIADH가 의심된다. 혈압을 급격히 올리지 않으면서 혈중 Na⁺를 올리기 위해 3% 식염수를 35 mL/h 투여한다.
 
 ## 출처
 

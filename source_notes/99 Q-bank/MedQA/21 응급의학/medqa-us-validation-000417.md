@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 플루마제닐
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+자체 제조한 술을 마시고 고음성산증, 고삼투질, 저 pH가 동반된 대사성 산증은 메탄올 중독을 시사한다. 메탄올은 알코올 탈수효소에 의해 독성 대사산물로 전환되므로, 포메피졸이 효소를 억제하는 1차 항독제이다. 따라서 포메피졸 투여가 적절하다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아세타졸아미드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두개내압 상승이 의심되는 외상성 뇌출혈에서 만니톨은 삼투성 이뇨제로 뇌부종을 감소시켜 압력을 낮춘다. 다른 선택지는 압력 조절에 직접적인 효과가 없으므로, 가장 적절한 약물은 만니톨이다.
 
 ## 출처
 

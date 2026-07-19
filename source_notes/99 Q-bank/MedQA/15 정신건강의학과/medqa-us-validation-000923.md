@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 해마와 편도체의 콜린성 활성 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+주요우울장애와 자살 시도 시 뇌의 피질·변연계에서 노르에피네프린 활성이 감소하는 것이 주요 신경생물학적 특징이다. 따라서 노르에피네프린 감소가 가장 가능성 높은 양상이다.
 
 ## 출처
 

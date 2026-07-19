@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 집에서 달력에 약물명, 용량 및 복용 빈도를 적게 함
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자가 약물명·용량·복용 빈도를 의사에게 다시 말하게 하면 자신의 이해도를 확인하고 기억에 남게 하여 복약 순응도가 가장 크게 향상된다. 이는 ‘teach‑back’ 기법으로 가장 효과적인 교육 방법이다.
 
 ## 출처
 

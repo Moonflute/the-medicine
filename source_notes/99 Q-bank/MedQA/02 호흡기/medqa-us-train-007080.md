@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 무스카린 차단제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+COPD 급성 악화 시 기관지 평활근 수축을 완화하기 위해 무스카린 길항제(예: 이프라트로피움)가 1차 치료이다. 알파·베타 차단제는 COPD에서 금기이며, 베타‑2 차단제는 기관지 확장 효과가 없고 위험할 수 있다. 따라서 무스카린 차단제가 정답이다.
 
 ## 출처
 

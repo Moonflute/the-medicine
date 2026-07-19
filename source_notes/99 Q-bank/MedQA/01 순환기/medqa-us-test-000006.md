@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안심시키고 지속적 모니터링
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+코카인 사용 시 교감신경 과다 자극으로 급성 관상동맥 증후군이 발생하지만 베타 차단제는 비가역적 베타 차단 효과로 심근산소 공급을 악화시킬 수 있다. 따라서 베타 차단제 사용을 피하고 환자를 안심시켜 지속적으로 모니터링하는 것이 초기 처치에 가장 적절하다.
 
 ## 출처
 

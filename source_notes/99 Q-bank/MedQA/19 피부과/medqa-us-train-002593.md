@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 국소 무피로신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비수포성 농가진은 황색 가죽 같은 병변이 특징이며, 국소 1차 치료는 항생제 연고이다. 무피로신은 해당 병원균에 효과적인 1차 선택제이다. 따라서 치료는 국소 무피로신 적용이다.
 
 ## 출처
 

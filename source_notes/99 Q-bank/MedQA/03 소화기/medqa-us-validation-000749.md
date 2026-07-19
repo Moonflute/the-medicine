@@ -17,11 +17,13 @@ question_type: etiology
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 당뇨병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HIV 감염자는 항레트로바이러스 치료(특히 protease inhibitor)와 관련된 급성 췌장염 위험이 높다. 환자의 급성 복통과 높은 아밀라아제·리파아제는 췌장염을 시사한다. 따라서 가장 가능성 높은 원인은 후천성면역결핍증 치료이다.
 
 ## 출처
 

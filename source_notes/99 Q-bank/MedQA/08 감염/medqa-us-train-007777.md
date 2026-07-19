@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안심시키고 추적 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HBsAg 양성, HBeAg 양성, HBV DNA가 높은 만성 B형 간염은 활동성 복제 단계이며, 1차 치료 목표는 바이러스 억제이다. 텐오포비르는 고효능 핵산유사제이며 신장 기능이 정상인 환자에게 1차 약물로 권장된다. 인터페론은 부작용이 크고 라미부딘은 저항성 경우에 사용되므로 부적절하다.
 
 ## 출처
 

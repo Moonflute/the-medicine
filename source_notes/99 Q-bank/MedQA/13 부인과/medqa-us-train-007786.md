@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 배설강막 중복
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두 자궁강이 완전히 분리된 상태에서 하나의 자궁경부만 존재하는 경우는 Müller관의 불완전 융합(중복)으로, 이는 자궁 중복(이중자궁)의 원인이다. 다른 선택지는 해부학적 설명과 맞지 않는다.
 
 ## 출처
 

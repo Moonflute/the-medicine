@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 지질 농도 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 췌장염을 시사하는 복부 팽만, 심와부 통증, 구토, 저칼슘 혈청을 보이며, 황색판은 급성 췌장염과 관련된 지방변성일 수 있다. 따라서 다음 단계는 혈청 지질 농도 측정이 아니라 복부 영상이 필요하지만 제시된 선택지 중 가장 적절한 것은 혈청 지질 농도 측정이다.
 
 ## 출처
 

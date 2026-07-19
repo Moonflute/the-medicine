@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 시에 호흡곤란과 기침이 나타나고 폐기능 검사에서 FEV1이 예측치의 85%로 감소한 것은 운동 유발 기관지수축을 의미한다. 흡입형 베타2 작용제(알부테롤) 사전 투여가 증상을 예방한다. 따라서 다음에 할 일은 운동 전 알부테롤 투여이다.
 
 ## 출처
 

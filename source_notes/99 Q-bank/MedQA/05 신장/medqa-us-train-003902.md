@@ -18,11 +18,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 과도한 출혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+투석 환자에게서 고중성지방혈증은 혈액투석 시 지방유입과 에틸렌글리콜 사용 등으로 흔히 발생하는 부작용이다. 다른 선택지는 투석과 직접적인 연관성이 낮다.
 
 ## 출처
 

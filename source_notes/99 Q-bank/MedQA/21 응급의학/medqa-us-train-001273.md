@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 헤로인
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 저호흡, 저맥박, 동공 축소와 느린 반응 등 중추성 억제와 호흡 억제가 특징인 헤로인 과다복용을 시사한다. 가장 가능성 높은 원인은 헤로인이다.
 
 ## 출처
 

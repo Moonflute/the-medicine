@@ -17,11 +17,13 @@ question_type: other
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고칼륨혈증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소아 DKA 치료 시 정맥 내 인슐린과 수액을 동시에 시작하면 뇌부종 위험이 급격히 증가한다. 24시간 내 가장 흔한 치명적 합병증은 뇌부종이다. 따라서 뇌부종이 가장 위험한 합병증이다.
 
 ## 출처
 

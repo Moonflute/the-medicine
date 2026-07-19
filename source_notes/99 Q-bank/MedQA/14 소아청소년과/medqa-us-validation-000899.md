@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 장 두 부분이 서로 망원경처럼 겹침
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+히르슈스프룽병은 신경능선 세포가 장으로 이동하지 못해 장이 두 부분으로 나뉘는 선천성 기형이다. 이는 배아 발생 중 신경능선 세포 이동 실패가 원인이다. 따라서 기전은 신경능선 세포 이동 실패이다.
 
 ## 출처
 

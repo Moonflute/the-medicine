@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 기종성 담낭염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+초음파에서 담낭벽 비후와 주변 액체가 보이지만 담석이 없으며, 고령 여성에서 급성 발열과 복통이 동반된 경우 무결석성 담낭염이 가장 흔한 원인이다. 따라서 무결석성 담낭염이 정답이다.
 
 ## 출처
 

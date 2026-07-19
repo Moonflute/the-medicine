@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 항히스타민제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+JAK2 변이를 동반한 진성 적혈구증가는 요산 생성 증가와 고요산혈증을 초래한다. 고요산혈증은 요산 결석 위험을 높이므로 알로푸리놀로 요산을 감소시키면 결석 재발을 예방할 수 있다. 따라서 알로푸리놀이 정답이다.
 
 ## 출처
 

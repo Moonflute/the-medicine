@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 종괴를 경피적으로 흡인한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CT에서 중앙에 저감쇠 섬유화가 있는 4 cm 간 결절은 중심 흉터를 가진 국소 결절성 과형성(FNH)과 일치한다. FNH는 양성 병변으로 증상 없이 관찰만 하면 된다. 따라서 안심하고 관찰한다가 적절하다.
 
 ## 출처
 

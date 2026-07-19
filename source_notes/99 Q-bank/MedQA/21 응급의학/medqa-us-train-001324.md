@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 실혈(Blood loss)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+좌측 고관절 골절로 인한 대량 출혈이 급성 저혈량성 쇼크를 일으켜 혈압 저하와 빈맥, 차가운 땀을 유발한다. 출혈성 쇼크는 혈액량 감소로 조직 관류가 급격히 감소하는 병태생리이며, 환자의 저혈압과 빈맥, 창백함이 이를 뒷받침한다. 따라서 가장 가능성 높은 근본 기전은 실혈이다. 폐색전증은 호흡곤란과 저산소증을 주로 보이며, 현재의 저혈압·빈맥·차가운 피부와는 일치하지 않는다.
 
 ## 출처
 

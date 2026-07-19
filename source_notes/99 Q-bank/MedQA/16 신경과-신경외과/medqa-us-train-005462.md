@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뒤아래 시상하부 심부뇌자극술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+군발두통은 일측성 눈 뒤 찌르는 통증과 자율신경 증상(발한·눈물)으로 특징지으며, 급성 발작 시 트립탄계 약물(수마트립탄) 주사가 가장 효과적이다. 베라파밀은 예방, 혈관조영술은 필요없다. 따라서 피하 수마트립탄이 적절한 치료이다.
 
 ## 출처
 

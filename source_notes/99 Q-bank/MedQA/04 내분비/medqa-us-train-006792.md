@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메트포르민
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수분 제한 검사 후에도 혈청 나트륨이 상승하고 소변 삼투질농도가 저농도(≈250 mOsm/kg)로 변하지 않아 요붕증이 의심된다. 중추성 요붕증에서는 항이뇨 호르몬(ADH) 결핍으로 저농도 소변이 지속되며, 데스모프레신 투여가 ADH 효과를 보충한다. 따라서 데스모프레신 투여가 가장 적절한 치료이다.
 
 ## 출처
 

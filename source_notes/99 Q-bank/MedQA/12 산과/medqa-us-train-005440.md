@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 제왕절개 자궁절제술 고려
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+부분 전치태반·태반 뒤 공간 소실은 전치태반 위험을 높이며, 태반과 자궁벽 사이 거리가 1.5 cm 이하이면 자궁 파열 위험이 크다. 이런 경우는 자궁 절제술(전치태반에 대한 절제)으로 출산을 계획한다. 따라서 제왕절개 후 자궁절제술이 적절한 관리이다.
 
 ## 출처
 

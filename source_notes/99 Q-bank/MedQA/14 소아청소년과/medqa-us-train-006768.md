@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 물리치료 의뢰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 지속적인 편측 고개 회전은 경추 손상 가능성을 시사한다. 외상 병력이 있고 후두부 멍이 존재하므로, 경추 골절·불안정성을 확인하기 위해 방사선 촬영이 필요하다. 따라서 경추 방사선 촬영을 시행한다.
 
 ## 출처
 

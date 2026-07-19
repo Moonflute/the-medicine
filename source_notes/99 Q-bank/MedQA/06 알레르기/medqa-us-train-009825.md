@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. IV형(세포매개 지연형) 과민반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+뱀독 항혈청에 대한 반응은 면역복합체가 형성되어 혈관벽에 침착되는 III형 과민반응이다. 따라서 III형 과민반응이 기전이다.
 
 ## 출처
 

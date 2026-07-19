@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 클린다마이신으로 치료하고 호전될 때까지 모유수유를 중
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수유부의 급성 유방염은 주로 Staphylococcus aureus에 의해 발생하며, 베타-락타메이스 저항성 균주에 대해 디클록사실린이 1차 선택약이다. 치료와 동시에 모유수유를 지속하면 유관이 개방되고 증상이 빠르게 호전된다. 따라서 디클록사실린 처방 후 모유수유를 계속하는 것이 올바른 관리이다.
 
 ## 출처
 

@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 혈청학적 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Raynaud 현상은 차가운 자극에 의해 혈관 경련이 일어나 손가락이 창백해졌다가 회복되는 양상이다. 증상이 경미하고 2차 검사 없이 생활 습관 교정이 우선이다. 따라서 다음 단계는 혈청학적 검사가 아니라 생활 습관 및 보존적 관리이며, 제시된 선택지 중 가장 적절한 것은 혈청학적 검사가 아닌 다른 옵션이 없으므로 혈청학적 검사를 선택한다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Levodopa
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+보행장애, 방광 증상, 인지 저하, 정상압 수두증(NPH) 삼중증상이 있을 때 대량 요추천자는 진단적·치료적 절차이다. 대량 요추천을 통해 증상이 개선되면 영구 배액을 고려한다. 아세타졸라미드와 도네페닐은 NPH에 사용되지 않는다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 나이아신을 페노피브레이트(fenofibrate)로 변경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 고혈압·고지혈증 치료 중 스타틴 복용 후 근육통이 재발한 것으로, 스타틴 부작용이 의심된다. 통증 완화를 위해 NSAID인 이부프로펜을 단기간 투여할 수 있다. 따라서 가장 적절한 다음 단계는 이부프로펜 투여이다.
 
 ## 출처
 

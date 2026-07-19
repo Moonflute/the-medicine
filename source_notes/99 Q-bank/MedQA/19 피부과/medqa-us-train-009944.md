@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아토피피부염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두피와 외이의 노란 비늘을 동반한 홍반성 판은 영아 지루피부염(요람모)의 전형적인 모습이다. 혈액검사에서 이상이 없으며, 다른 발진 질환과 구별되는 특징이다. 따라서 영아 지루피부염이 가장 가능하다.
 
 ## 출처
 

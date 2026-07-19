@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 천식 위험은 일반 인구보다 낮다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 RSV 기관지염을 겪은 영아는 이후 천식 발생 위험이 일반 인구보다 약 20% 이상 높다. 여러 역학 연구에서 RSV 감염 후 천식 발생률이 20~30%에 이른다. 따라서 천식이 생길 확률은 20%보다 높다는 설명이 가장 정확하다.
 
 ## 출처
 

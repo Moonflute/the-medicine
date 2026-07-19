@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 2/3
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두 보인자(각각 1개의 돌연변이 대립유전자) 사이에서 자녀는 25% 정상, 50% 보인자, 25% 겸상빈혈이 된다. 따라서 겸상빈혈 없이 태어날 확률은 75%인 3/4이다.
 
 ## 출처
 

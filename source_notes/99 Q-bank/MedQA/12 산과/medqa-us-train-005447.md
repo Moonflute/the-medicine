@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 시타글립틴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신성 당뇨병의 1차 치료는 식이·운동 요법으로 혈당을 조절하는 것이며, 약물은 혈당 목표를 달성하지 못할 때 시작한다. 따라서 초기 관리로는 식이와 생활습관 수정이 가장 적절하다.
 
 ## 출처
 

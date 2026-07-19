@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비타민 B12 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+프로필티오우라실은 골수 억제(특히 혈소판 감소와 백혈구 감소)를 일으킬 수 있어 범혈구감소증을 유발한다. 환자의 혈소판 감소와 백혈구 감소가 약물 유발 골수부전과 일치한다.
 
 ## 출처
 

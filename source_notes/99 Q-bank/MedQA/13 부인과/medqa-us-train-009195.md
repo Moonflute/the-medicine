@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 핵형검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+FSH와 LH가 모두 낮고, 13세에 초경이 없으며 자궁이 존재하는 경우는 시상하부-뇌하수체 기능 저하인 hypogonadotropic hypogonadism을 의심한다. 원인 파악을 위해서는 뇌하수체 MRI가 필요하다. 따라서 가장 적절한 조치는 뇌하수체 MRI이다.
 
 ## 출처
 

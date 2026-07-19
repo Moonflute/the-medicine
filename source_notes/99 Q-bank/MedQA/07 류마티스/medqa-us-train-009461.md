@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,9 @@ D. 반복되는 눈 충혈과 통증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+강직성 척추염은 전방 척추 관절염과 연관된 전방 포도막염(전방 포도막염)이 흔히 동반된다. 환자의 방사성 척추 변화와 전방 관절 통증은 강직성 척추염을 시사한다. 따라서 반복되는 눈 충혈과 통증이 가장 관련된 소견이다.
+다른 선택지는 강직성 척추염과 직접적인 연관이 없다.
 
 ## 출처
 

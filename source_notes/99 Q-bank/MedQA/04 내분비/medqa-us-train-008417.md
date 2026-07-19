@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -53,7 +55,8 @@ D. 생리식염수, 인슐린, 칼륨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+DKA 환자는 중증 저칼륨혈증이 동반될 수 있으므로, 먼저 정맥 수액으로 혈액량을 회복하고, 이후 인슐린을 투여한다. 따라서 정답은 C이다.
 
 ## 출처
 

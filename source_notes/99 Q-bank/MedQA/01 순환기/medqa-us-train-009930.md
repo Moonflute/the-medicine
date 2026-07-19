@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이 경우 심박수 조절에는 베타차단제가 선호되는 약물군�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 초기의 승모판 협착증 환자에서 심방세동이 동반된 경우, 베타차단제는 혈압 저하 없이 심박수를 안전하게 조절할 수 있어 1차 선택약물이다. 와파린은 태아에 위험하고, 이뇨제는 혈역학적 불안정을 초래할 수 있다. 따라서 베타차단제가 선호된다.
 
 ## 출처
 

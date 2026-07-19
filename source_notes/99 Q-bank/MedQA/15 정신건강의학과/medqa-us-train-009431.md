@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 베르니케 실어증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 혼돈, 주의력 변동, 수면-각성 주기 교란, 그리고 원인 질환(투석)과 함께 급성 신경학적 변화를 보이며, 이는 섬망의 전형적인 특징이다. 반면 치매는 서서히 진행하고, 베르니케 실어증은 언어 이해 장애가 주된 증상이다. 따라서 가장 가능성 높은 진단은 섬망이다.
 
 ## 출처
 

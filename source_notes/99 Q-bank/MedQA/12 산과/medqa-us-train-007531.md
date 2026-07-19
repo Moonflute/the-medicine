@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 자궁경부 세포검사 반복
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 8주 차에 고등급 편평상피내병변(HGSIL)이 발견되면 즉시 질확대경 검사를 통해 병변을 시각화하고 조직을 채취해야 한다. 임신 중에도 진단적 생검은 안전하며, 치료 결정에 필수적이다. 따라서 가장 적절한 단계는 지금 질확대경 검사와 생검이다.
 
 ## 출처
 

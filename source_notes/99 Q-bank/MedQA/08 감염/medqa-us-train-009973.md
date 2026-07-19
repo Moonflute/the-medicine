@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 적절한 예방접종 실패
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+캠필로박터는 가축 및 애완동물에 서식하며, 집단성 장염을 일으킨다. 아이와 유치원 친구들의 동시 발병은 식품이 아닌 전파성 세균 감염을 시사한다. 따라서 학교에서 세균에 노출된 것이 가장 가능하다.
 
 ## 출처
 

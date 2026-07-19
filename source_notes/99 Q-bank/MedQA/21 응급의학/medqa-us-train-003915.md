@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 피판술과 시프로플록사신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+오염된 상처는 습윤 멸균 드레싱이 표준이며, 6년 전 파상풍 예방접종을 받았으므로 파상풍 백신(또는 면역글로불린)도 함께 제공한다.
 
 ## 출처
 

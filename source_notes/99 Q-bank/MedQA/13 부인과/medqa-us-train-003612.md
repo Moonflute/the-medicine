@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 축구는 중단하고 근력운동은 계속하며 스키 시즌권은 사�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중에는 접촉 스포츠와 고위험 스키와 같은 낙상 위험이 높은 활동을 피해야 한다. 근력운동은 저강도라 지속 가능하지만, 축구와 스키는 중단이 권고된다. 따라서 축구는 중단하고 근력운동은 계속하며 스키는 사지 않는 것이 맞다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경구 발라시클로버를 시작해야 한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전염성 홍반(파보바이러스 B19)에서는 발진이 처음에 얼굴에 나타난 뒤 몸통에 맥락성(레이스 모양) 발진으로 변한다. 따라서 몇 일 후 몸통에 반점구진성 발진이 생겼다가 레이스 모양으로 옅어질 것이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수두
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고열 후 급격히 열이 떨어지면서 발진이 나타나는 돌발진(roseola)은 5~15개월 영아에서 흔히 보이며, 비융합성 반구진 발진이 특징이다. 홍역·풍진·수두는 전형적인 전신 발진 양상이 다르다. 따라서 가장 가능성 높은 진단은 돌발진이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 간내·간외 담관의 다발성 확장 및 협착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ALT/AST가 경미하게 상승하고 ALP와 직접 빌리루빈이 크게 증가한 패턴은 담관 폐쇄를 시사한다. 환자는 황달과 복부 통증이 없으며, 췌장암에 의한 Courvoisier sign(비대한 담낭)보다 담관 폐쇄가 더 흔다. 따라서 팽창된 담낭이 가장 가능성 높은 영상 소견이다.
 
 ## 출처
 

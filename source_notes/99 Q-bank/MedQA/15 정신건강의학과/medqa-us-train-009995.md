@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 클로미프라민
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 침투적 강박 사고와 그에 대한 중재적 행동(반복적인 기도 소리)으로 고통을 완화하려는 강박증을 보이며, 기존 SSRI와 항정신병제에 반응이 없었다. 클로미프라민은 강박장애에 효과적인 2세대 항정신병제로, 특히 침투적 사고에 도움이 된다. 따라서 클로미프라민이 가장 적절한 약물이다.
 
 ## 출처
 

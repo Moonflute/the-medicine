@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 교량정맥 파열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+프리온 질환인 크루츠펠트‑자콥병은 급속 진행성 치매, 무감동, 근육 경련(뇌전증) 등을 보이며, 뇌파에서 주기적인 복합 파형(예파 복합체)이 특징이다. 따라서 뇌파에서 예파 복합체가 가장 가능성 높은 소견이다.
 
 ## 출처
 

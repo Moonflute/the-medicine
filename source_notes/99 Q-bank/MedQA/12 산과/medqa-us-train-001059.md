@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 혈청 베타-hCG로 임신을 확인하고, 양성일 경우 임신 3분기�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 여부를 확인하기 위해 혈청 β‑hCG 검사가 필요하고, 양성일 경우 수두 백신(생백신)은 임신 중에 금기이므로 출산까지 연기한다. 따라서 임신 확인 후 양성 시 백신 투여를 연기한다.
 
 ## 출처
 

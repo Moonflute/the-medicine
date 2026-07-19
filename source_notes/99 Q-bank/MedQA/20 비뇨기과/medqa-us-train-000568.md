@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 검사실 검사 시행
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고환 종괴의 정확한 평가를 위해서는 먼저 초음파 검사가 필요하다. 초음파는 종양의 위치, 크기, 혈류 등을 비침습적으로 확인할 수 있다; 조직검사는 필요하지 않다.
 
 ## 출처
 

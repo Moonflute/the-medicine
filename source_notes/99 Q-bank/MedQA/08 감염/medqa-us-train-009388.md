@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 씻지 않은 과일과 채소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+여행자 설사는 보통 오염된 물이나 씻지 않은 과일·채소 섭취와 관련된다. 환자의 여행 이력과 증상으로 볼 때 원인 식품은 씻지 않은 과일·채소이다. 따라서 가장 흔히 관련된 것은 씻지 않은 과일과 채소이다.
 
 ## 출처
 

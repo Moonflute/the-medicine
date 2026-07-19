@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 장중첩증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구토가 식후에 분출성 비담즙성이며, 명치 우측에 올리브 모양 종괴가 촉진되는 것이 비후성 유문 협착증의 전형적인 징후이다. 협착으로 인해 위 내용물이 위로 역류하면서 비담즙성 구토와 탈수, 함몰된 눈구멍이 나타난다. 따라서 가장 가능성 높은 상태는 비후성 유문 협착증이다.
 
 ## 출처
 

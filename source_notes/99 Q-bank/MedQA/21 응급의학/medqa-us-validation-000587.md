@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐쇄성 쇼크
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+외상 후 저혈압, 저심박출량, 상승된 PCWP와 CVP는 심장 타박상에 의한 심인성 쇼크를 시사한다. 이는 저혈량성 쇼크와 구분되는 특징이다. 따라서 가장 잘 맞는 쇼크 유형은 심인성 쇼크이다.
 
 ## 출처
 

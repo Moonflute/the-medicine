@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부 X선에서 삼중 기포 징후
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다운증후군 영아에서 비후성 유문협착증이 흔히 나타나며, 초음파에서 유문이 길고 두꺼워진 모습이 관찰된다. 이는 비담즙성 구토와 연관된 특징이다. 따라서 복부 초음파에서 유문이 길고 두꺼워짐이 예상 소견이다.
 
 ## 출처
 

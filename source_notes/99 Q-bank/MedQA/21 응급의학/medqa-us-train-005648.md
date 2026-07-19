@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경흉부 심초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흉골 골절 위쪽에서 경정맥 맥동이 보이고 심음이 감소한 것은 심장 압착(심낭압전) 가능성을 시사한다. 경흉부 초음파는 심낭삼출 여부를 빠르게 확인할 수 있어 다음 단계이다.
 
 ## 출처
 

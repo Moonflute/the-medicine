@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아동 학대
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 관절 출혈과 잇몸 출혈은 혈우병 A(제8인자 결핍)와 일치한다. 가장 확진적인 검사는 혈액 응고 검사와 제8인자 활성 측정이다. 따라서 정답은 A이다.
 
 ## 출처
 

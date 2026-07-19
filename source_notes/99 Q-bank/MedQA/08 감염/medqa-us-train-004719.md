@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. IgM 정상, IgG 정상, IgA 정상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복성 호흡기 감염과 정상 IgM·IgG·IgA 패턴은 선택적 IgA 결핍이 아니라 IgA 결핍 자체가 없음을 의미한다. 따라서 IgM 정상, IgG 정상, IgA 낮음이 예상된다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 다인성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+가족에게 빈혈이 전형적으로 남성에게만 나타나는 X연관 열성 유전병(예: 베타 지중해빈혈)과 일치한다. 따라서 유전 양상은 X연관 열성이다. 정답은 A이다.
 
 ## 출처
 

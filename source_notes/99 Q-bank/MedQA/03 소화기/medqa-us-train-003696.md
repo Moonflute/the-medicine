@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 흡연
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+간 선종은 경구 피임약(에스트로겐/프로게스틴) 장기간 복용과 강하게 연관된다. 호르몬 노출이 간세포 증식을 촉진해 선종을 유발한다. 따라서 정답은 경구피임약이다.
 
 ## 출처
 

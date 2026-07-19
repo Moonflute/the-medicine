@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 만니톨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 루프 이뇨제(푸로세미드) 사용 후 저칼륨성 대사성 알칼리증을 보이며, 이는 심실성 빈맥을 유발할 수 있다. 다른 약물들은 이러한 전해질 이상을 일으키지 않는다. 따라서 푸로세미드가 원인이다.
 
 ## 출처
 

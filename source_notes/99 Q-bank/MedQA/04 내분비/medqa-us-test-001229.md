@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뇌하수체 선종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+성장 호르몬 결핍을 동반한 두개인두종은 저 TSH, 저 T4, 저 IGF-1, 단신, 빈뇨, 두통을 초래한다. 영상학적으로 뇌하수체 근위부에 종양이 보인다. 따라서 두개인두종이 가장 가능성 높은 진단이다.
 
 ## 출처
 

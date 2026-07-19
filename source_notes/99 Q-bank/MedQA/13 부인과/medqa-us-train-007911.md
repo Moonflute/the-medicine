@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자궁내막의 염증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+월경량·기간 증가와 하복부 통증, 자궁이 부드럽고 확대된 소견은 자궁내막 조직이 자궁벽 내에 존재하는 자궁내막증(자궁내막 조직의 비정상적 증식)을 시사한다. 이는 월경통과 과다 출혈을 일으킨다. 따라서 정답은 자궁벽 내 자궁내막 조직이다.
 
 ## 출처
 

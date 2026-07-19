@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. T세포 수를 측정한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+코 점막의 홍반과 양쪽 폐에서 호흡음이 들리는 것은 대부분 바이러스성 상기도 감염·기관지염이며, 10개월 영아에서는 보통 지지적 치료만 필요하다. 영상검사나 특수 검사는 증상이 경미하고 호흡곤란이 없으므로 필요하지 않다. 따라서 환자를 안심시키고 경과를 관찰하는 것이 적절하다.
 
 ## 출처
 

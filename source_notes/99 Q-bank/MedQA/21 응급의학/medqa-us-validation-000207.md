@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 엽산 과다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+종합비타민에 함유된 철분 과다 복용은 변비와 위장관 통증을 유발한다. 철분은 장관에서 흡수되지 않은 채로 대변에 남아 변비를 악화시키며, 위점막을 자극해 상복부 통증을 일으킨다. 따라서 철분 과다가 가장 가능성 높은 원인이다.
 
 ## 출처
 

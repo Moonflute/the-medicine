@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 첨탑 징후
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+‘개가 짖는 듯한 기침’과 흡기성 협착음은 크루프를 시사하며, X‑ray에서 ‘첨탑 징후’(상부 기도 평활한 윤곽) 가 특징이다. 따라서 첨탑 징후가 가장 적절한 방사선 소견이다. 다른 선택지는 크루프와 관련 없는 폐 병변을 나타낸다.
 
 ## 출처
 

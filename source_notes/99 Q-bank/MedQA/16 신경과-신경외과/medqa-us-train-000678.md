@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 생활 습관 변화, 이완 요법, 마사지 치료 권장
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 후두부 압통과 광선공포증을 동반한 중등도 맥박성 두통은 긴장성 두통에 해당한다. 일차 치료는 생활 습관 교정·이완 요법 등 비약물적 관리이다. 따라서 D가 정답이다.
 
 ## 출처
 

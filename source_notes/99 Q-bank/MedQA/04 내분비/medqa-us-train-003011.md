@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 경피적 신장절석술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+칼슘 11.2 mg/dL, PTH 890 pg/mL, 24시간 칼슘 배설 증가, 신장 결석은 원발성 부갑상선 기능항진증을 나타낸다. 증상이 경미하지만 수술(부갑상선 절제)은 치료적 선택이며 약물 치료는 효과가 제한적이다.
 
 ## 출처
 

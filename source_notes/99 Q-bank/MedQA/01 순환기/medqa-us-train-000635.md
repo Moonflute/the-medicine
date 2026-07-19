@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 경골동맥 생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+간헐성 파행과 발목맥박 감소, 발목‑상완 지수 감소는 말초동맥질환을 시사한다. 비침습적 혈관 평가를 위해 먼저 발목‑상완 지수를 측정한다. 따라서 다음 단계는 ABI 측정이다.
 
 ## 출처
 

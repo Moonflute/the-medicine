@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 요추천자
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 고열, 저혈압, 의식 저하는 세균성 수막염을 의심하게 하며, 진단을 위해 요추천자가 필요하다. 혈액배양과 수액 치료만으로는 충분하지 않다. 따라서 요추천자가 가장 적절한 다음 단계이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 두 배가 되는 시간이 1개월 미만
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐 전이성 결절에서 방사상으로 뻗는 미세 선조는 악성 전이를 시사한다. 이러한 방사상 선은 악성 결절의 특징이므로 절제 가능성이 가장 높다.
 
 ## 출처
 

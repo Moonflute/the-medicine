@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아세틸콜린 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+노화에 따라 수면 시작과 유지에 관여하는 멜라토닌 분비가 감소한다. 멜라토닌 감소는 수면 효율 저하와 아침 피로를 설명한다. 따라서 가장 가능성 높은 변화는 멜라토닌 감소이다.
 
 ## 출처
 

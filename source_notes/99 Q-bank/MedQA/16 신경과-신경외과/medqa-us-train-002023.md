@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Labetalol
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 벼락두통, 목 경직, 뇌압 상승 소견은 지주막하 출혈을 강력히 시사한다. 혈압 조절이 급성 출혈 관리에 필수적이며, 라베탈롤은 혈압을 빠르게 낮추는 베타 차단제이다. 따라서 다음 관리 단계는 라베탈롤 투여이다.
 
 ## 출처
 

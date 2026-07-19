@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. γ-아미노부티르산 수용체 활성 조절
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+리튬은 이노시톨 단백질 인산화효소(IMPase)와 이노시톨 폴리포스파테이스 1을 억제해 세포내 이노시톨 재합성을 감소시켜 기분 안정에 기여한다. 이는 조증 삽화의 장기 관리에 핵심적인 작용 메커니즘이다. 따라서 정답은 B이다.
 
 ## 출처
 

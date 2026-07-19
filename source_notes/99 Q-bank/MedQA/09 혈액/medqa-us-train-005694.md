@@ -17,11 +17,13 @@ question_type: other
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비건 식단
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+항암화학요법은 골수세포에 직접 손상을 주어 골수이형성증후군을 유발한다. 이는 환자의 현재 혈액학적 이상과 가장 연관된 위험 요인이다.
 
 ## 출처
 

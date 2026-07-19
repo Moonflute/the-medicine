@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 조기 수술적 배액과 간격 충수절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CT에서 충수경부 폐쇄와 충수 끝에 국소 액체저류·지방 침윤이 보이면 복잡성 급성 충수염(농양)으로 간주된다. 초기 항생제 투여 후 CT 유도 배액이 농양을 효과적으로 제거하고, 이후 전해제 치료와 선택적 지연 충수절제술을 계획한다. 따라서 가장 적절한 다음 처치는 항생제와 CT 유도 배액이다.
 
 ## 출처
 

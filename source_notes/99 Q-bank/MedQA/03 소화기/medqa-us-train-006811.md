@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 계획적 결장절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 대장 게실 출혈 시 저혈압과 빈혈이 동반될 수 있으며, 출혈을 멈추기 위해 혈액량 보충, 진통, 정맥 항생제와 내시경적 지혈이 필요하다. 단순 식이 조절은 출혈을 멈추지 못한다. 따라서 혈액량 보충·진통·IV 항생제·내시경적 지혈이 초기 치료에 적합하다.
 
 ## 출처
 

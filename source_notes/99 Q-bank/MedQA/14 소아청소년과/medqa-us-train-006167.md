@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 농포성 흑색증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+생후 4일에 전신에 홍반성 반구진과 농포가 나타나며 손바닥·발바닥을 제외하고는 전형적인 발진을 보이는 것이 신생아 독성 홍반의 특징이다. 이 발진은 생후 2~5일에 급성으로 나타나며 전신에 분포하지만 손발은 보통 침범하지 않는다. 따라서 가장 가능성 높은 진단은 신생아 독성 홍반이다. 선천성 매독은 손바닥·발바닥에 병변이 나타나는 것이 흔하므로 차이가 있다.
 
 ## 출처
 

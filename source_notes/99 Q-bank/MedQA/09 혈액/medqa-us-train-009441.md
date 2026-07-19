@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 표적세포
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+기계적 판막 교체 후 발생하는 용혈성 빈혈에서는 파편형 적혈구(분열적혈구, schistocytes)가 말초혈액도말에서 관찰된다. 이는 혈관 내 인공 판막에 의해 적혈구가 파괴되는 특징이다. 따라서 가장 가능성 높은 소견은 분열적혈구이다.
 
 ## 출처
 

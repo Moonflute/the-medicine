@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 베타메타손, 암피실린을 투여하고 분만 유도를 진행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조기 양막 파열 시 양수 감염 위험을 줄이기 위해 베타메타손으로 태아 폐 성숙을 촉진하고, 감염 예방을 위해 항생제(암피실린)를 투여한다. 양수 주입술은 필요하지 않으며, 제왕절개는 아직 필요하지 않다. 따라서 베타메타손과 암피실린 투여가 적절하다.
 
 ## 출처
 

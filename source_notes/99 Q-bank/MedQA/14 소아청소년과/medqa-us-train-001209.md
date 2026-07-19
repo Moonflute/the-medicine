@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. Chlorpromazine
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 운동·음성 틱이 1 년 이상 지속되고, 사회적·정서적 고통을 동반한 경우 투렛 증후군으로 진단한다. 첫 번째 선택 약물은 도파민 차단제인 리스페리돈이며, 이는 틱을 감소시킨다. 따라서 초기 치료는 리스페리돈이다.
 
 ## 출처
 

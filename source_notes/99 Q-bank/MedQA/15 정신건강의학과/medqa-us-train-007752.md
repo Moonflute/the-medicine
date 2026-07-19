@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 리튬
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우측 폐동맥 폐색을 동반한 폐색전증은 항정신병제 특히 저용량 클로르프로마진에서 혈소판 응집과 혈관 수축을 유도해 혈전 위험을 증가시킨다. 이 약물은 5‑HT2 차단과 알파‑1 차단으로 혈류역학 변화를 일으켜 혈전 형성을 촉진한다. 따라서 클로르프로마진이 가장 가능성 높은 원인이다.
 
 ## 출처
 

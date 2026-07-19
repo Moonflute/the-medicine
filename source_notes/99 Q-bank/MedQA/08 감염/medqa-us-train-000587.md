@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 보존적 치료 및 증상 지속 시 시프로플록사신(Ciprofloxacin) �
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+IV 약물 남용 환자에서 급성 복통·설사·혈변은 장내 MRSA 감염을 의심하게 하며, 중증 감염 시 반코마이신이 1차 선택제이다. 메트로니다졸·클린다마이신은 혐기성균에, 시프로플록사신은 2차 옵션이다. 따라서 반코마이신 투여가 적절하다.
 
 ## 출처
 

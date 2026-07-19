@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 정계정맥류
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+요도 스와브 그람염색에서 백혈구는 보이지만 세균이 보이지 않는 것은 클라미디아 감염의 전형적인 소견이며, 초음파에서 혈류 증가는 부고환염(염증성 부종)을 의미한다. 클라미디아는 무증상 요도염을 일으키고 부고환염을 동반할 수 있다. 따라서 가장 가능성 높은 원인은 클라미디아 감염이다.
 
 ## 출처
 

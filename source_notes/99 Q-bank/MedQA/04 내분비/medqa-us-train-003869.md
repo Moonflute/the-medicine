@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 머리 MRI
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압, 비만, 복부 선조, 근육 위축, 고혈당이 동반된 심한 고혈압은 쿠싱 증후군을 의심하게 한다. 초기 평가는 저용량 디에소메타손 억제검사로 시작한다. 다른 선택지는 직접적인 혈압 치료이지만 원인 검사가 우선이다. 따라서 가장 적절한 초기 처치는 디에소메타손 억제검사이다.
 
 ## 출처
 

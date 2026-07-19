@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 근섬유 사이 심근의 아밀로이드 침착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전신홍반루푸스에서 면역복합체가 사구체 내에 침착되어 내피세포와 메산지움세포 증식, 호중구 침윤을 일으킨다. 이는 신장 병변의 특징이다. 다른 선택지는 루푸스와 직접적인 병리와 맞지 않는다. 따라서 사구체 내 면역복합체 침착이 가장 가능성 높은 소견이다.
 
 ## 출처
 

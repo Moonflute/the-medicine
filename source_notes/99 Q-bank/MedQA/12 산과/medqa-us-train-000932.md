@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 교감신경 차단(Sympathetic blockade)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경막외 마취 시 교감신경 차단으로 혈관이 확장되어 혈압이 떨어지고 반사성 빈맥이 나타난다. 이는 환자의 저혈압·빈맥과 일치한다. 따라서 정답은 D이다.
 
 ## 출처
 

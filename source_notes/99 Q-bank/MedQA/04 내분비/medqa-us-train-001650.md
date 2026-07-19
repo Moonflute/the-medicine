@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 활력징후 안정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+DKA 치료 종료 기준은 혈청 음이온 차(anion gap)가 정상 범위(<12 mEq/L)로 회복되는 것이다. 이는 대사성 산증이 해결되었음을 의미한다. 따라서 정상 음이온 차가 종료 기준이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 피부 긁은 검체의 항산균 염색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+사타구니 주변의 경계가 뚜렷한 홍반성 반점은 무좀(사타구니 백선)이며, KOH 검사로 진균을 확인한다. 따라서 병변을 긁은 검체의 KOH 검사가 확진 방법이다. 그람염색 등은 진균 감염을 확인하지 못한다.
 
 ## 출처
 

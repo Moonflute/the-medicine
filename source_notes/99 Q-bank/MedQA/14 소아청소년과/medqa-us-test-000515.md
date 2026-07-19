@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 파종성 결핵
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Giardia lamblia 감염은 선택적 IgA 결핍과 연관되어 있으며, IgA 결핍 환자는 혈액제공 후 아나필락시스 위험이 증가한다. 따라서 가장 위험이 높은 상태는 수혈 후 아나필락시스이다.
 
 ## 출처
 

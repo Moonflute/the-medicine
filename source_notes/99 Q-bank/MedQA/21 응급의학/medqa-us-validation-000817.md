@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 노르아드레날린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+패혈성 쇼크 환자는 기도·호흡·순환(ABC) 평가와 안정화가 최우선이며, 이후 항생제와 혈역학적 지원을 진행한다. 초기 처치는 ABC 평가가 가장 중요하다.
 
 ## 출처
 

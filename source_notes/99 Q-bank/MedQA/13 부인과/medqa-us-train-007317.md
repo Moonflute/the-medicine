@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 고리 전기절제술(LEEP)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ASC-US와 고위험 HPV 양성인 경우, 즉시 질확대경 검사를 통해 병변을 확인한다. 추적 검사나 즉시 LEEP은 과다 치료가 될 수 있다.
 
 ## 출처
 

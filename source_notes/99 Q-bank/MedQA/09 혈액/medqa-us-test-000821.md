@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비호지킨 림프종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고농도 IgM 단클론과 고점도 증후군은 발덴스트룀 거대글로불린혈증을 의미한다. 이 질환은 IgM 과잉이 혈액 점도를 높여 증상을 일으킨다. 따라서 가장 가능성 높은 진단은 C이다.
 
 ## 출처
 

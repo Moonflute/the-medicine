@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 타다라필
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전립선 비대증 치료에 PSA 감소와 증상 완화를 동시에 기대할 수 있는 약물은 5α‑환원효소 억제제이다. 두타스테리드는 이러한 작용을 하며 전립선 크기를 감소시켜 증상을 개선한다. 따라서 사용된 약물은 두타스테리드이다.
 
 ## 출처
 

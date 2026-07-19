@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 편평세포 폐암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흡연력, 고칼슘혈증, 중앙 폐에 결절·폐과팽창, 혈흔이 섞인 가래는 편평세포 폐암을 시사한다. 편평세포암은 종양에서 PTHrP를 분비해 고칼슘혈증을 일으킨다. 따라서 가장 가능성 높은 진단은 편평세포 폐암이다.
 
 ## 출처
 

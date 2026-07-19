@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세척 및 괴사조직 제거
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+싸움 중 입에 물린 상처(‘fight bite’)는 구강 내 혐기성균과 포도상구균에 오염될 위험이 크다. 클린다마이신은 이러한 혼합 감염에 효과적인 광범위 항생제이며, 독시사이클린은 파상풍 예방을 위해 추가한다. 따라서 세척·괴사조직 제거와 함께 클린다마이신·독시사이클린 투여가 가장 적절하다.
 
 ## 출처
 

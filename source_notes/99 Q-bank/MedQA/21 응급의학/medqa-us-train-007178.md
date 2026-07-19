@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -43,7 +45,8 @@ D. 구토
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 저탄산혈증(pH 7.37, HCO₃⁻ 12)과 저 pCO₂(21 mmHg)로 호흡성 알칼리와 대사성 산증이 동시에 존재한다. 이는 살리실산염 중독에서 흔히 보이는 혼합 산‑염기 장애이다. 알코올성 케톤산증·과호흡·구토는 각각 다른 혈가스 패턴을 만든다. 따라서 살리실산염 중독이 가장 잘 설명한다
 
 ## 출처
 

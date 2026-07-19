@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대장내시경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 팽만, 장음 감소, cecum 직경 11 cm로 보존된 주름을 가진 급성 대장 가성폐쇄(Ogilvie 증후군)에서 보수적 치료 36시간째도 호전되지 않았다면, 콜린에스터라제 억제제인 네오스티그민이 첫 번째 약물 치료이다. 경피적 맹장천공술은 약물 치료 실패 후에 고려한다.
 
 ## 출처
 

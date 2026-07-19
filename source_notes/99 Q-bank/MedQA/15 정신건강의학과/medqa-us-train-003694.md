@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 발프로산과 쿠에티아핀
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 조증에 대한 치료는 신속한 기분 안정이 필요하지만, 환자는 신장 기능이 저하된(크레아티닌 2.5) 상태이다. 발프로산은 신장에 독성이 적고, 쿠에티아핀은 부작용이 비교적 적어 신장 장애 환자에게 안전하다. 따라서 정답은 발프로산과 쿠에티아핀이다.
 
 ## 출처
 

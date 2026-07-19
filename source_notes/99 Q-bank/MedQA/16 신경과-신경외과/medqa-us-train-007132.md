@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 조절되지 않는 갑상선기능저하증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+레보도파·카비도파 복용 시 시각 환각이 흔히 발생하며, 이는 약물의 도파민 전구체 효과에 기인한다. 조현병·우울증·갑상선 저하와는 구분된다. 따라서 약물 이상반응이 가장 가능성 높은 원인이다
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 건선 진단
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반응성 관절염은 HLA‑B27 양성인 경우 발생 위험이 크게 증가한다. 인종·HIV·건선도 위험 요인이 될 수 있으나, HLA‑B27이 가장 핵심적인 유전적 연관성이다.
 
 ## 출처
 

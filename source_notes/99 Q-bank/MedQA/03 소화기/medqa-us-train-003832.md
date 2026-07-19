@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 심전도 QT 연장
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+MEN 1은 고칼슘혈증을 일으키는 부갑상선 종양을 포함한다. 고칼슘혈증은 신장결석과 연관이 있어 추가 평가에서 가장 가능성 높은 소견이다.
 
 ## 출처
 

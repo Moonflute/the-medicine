@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 풍진(Rubella)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+40~50 °C의 고열 후 급성 발진, 뒤쪽 귀 림프절 비대, 그리고 발진이 부드러운 촉진 시 창백해지는 점은 로제올라(Roseola infantum, HHV‑6/7)와 일치한다. 따라서 가장 가능성 높은 진단은 돌발진이다.
 
 ## 출처
 

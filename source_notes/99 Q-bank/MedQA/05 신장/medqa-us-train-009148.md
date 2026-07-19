@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 배뇨방광요도조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복된 요로감염과 초음파에서 보이는 수신증·반흔은 방광·요도 역류를 시사한다. 역류를 확인하기 위한 금표준 검사는 배뇨방광요도조영술이다.
 
 ## 출처
 

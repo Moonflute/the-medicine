@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부 대동맥류 파열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 대동맥류 수술 후 저관류와 혈압 저하, 복부 팽만·장음 소실·복부 X‑ray에서 공기 팽창은 허혈성 대장염을 시사한다. 이는 장관 혈류 감소에 의한 급성 염증이며, 다른 선택지는 출혈·폐색·파열과 일치하지 않는다. 따라서 정답은 C이다.
 
 ## 출처
 

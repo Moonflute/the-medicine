@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 가바펜틴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 경화증 환자에서 삼차신경통이 발생하면 바이러스 재활성화 위험이 높으며, 구강용 아시클로버는 대상포진 바이러스 억제로 재발성 통증을 예방한다. 따라서 통증의 장기 지속을 예방하려면 경구 아시클로버가 가장 효과적이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 낮은 혈압
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 10주에 정상적인 심음 외에 이완기 잡음이 들리는 것은 임신성 심장혈류 증가에 따른 기능성 이완기 잡음이다. 이는 병리적 소견이 아니라 정상적인 생리적 변화이며, 다른 선택지는 임신에 따른 정상적인 혈역학 변화를 설명하지 못한다. 따라서 비정상인 소견은 이완기 잡음이다.
 
 ## 출처
 

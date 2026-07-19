@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. TSH 증가와 유리 T4 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+상행성 다발신경병증(길랭-바레 증후군)에서 GM1 항체는 급성 진행성 근력 저하와 안면 마비에 흔히 양성이다. 따라서 예상되는 소견은 GM1 강글리오사이드 자가항체 양성이다.
 
 ## 출처
 

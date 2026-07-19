@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 피부 청동색 변화를 유발한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+헴오크로마토시스는 철 과다 축적으로 간섬유화·심부전·피부 청동색 변화를 일으키지만, 칼슘 킬레이트제로 개선되지 않는다. 따라서 B가 사실이 아니다.
 
 ## 출처
 

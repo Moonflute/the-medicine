@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 과거 클라미디아 감염이 재발한 것이다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+여성은 남성보다 요도가 짧아 방광으로부터 세균이 쉽게 상승하여 요로감염이 재발한다. 이는 남성 파트너가 무증상 보균자이거나 이전 치료와는 무관하게 여성의 해부학적 특성이 원인이다.
 
 ## 출처
 

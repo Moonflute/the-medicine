@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소변 독성검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년의 행동 변화와 체중 증가, 눈 충혈 등은 물질 사용을 의심하게 한다. 물질 남용을 배제하기 위해서는 소변 독성 검사가 가장 적절한 초기 검사이다.
 
 ## 출처
 

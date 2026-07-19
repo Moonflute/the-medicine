@@ -15,11 +15,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 적혈구 막 결함
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조산아는 신생아 신장 혈류 감소와 저산소증으로 에리트로포이에틴 생성이 저하되어 빈혈이 발생한다. 혈액검사에서 적혈구 용적은 정상·정상 범위이며, 적혈구 파괴 소견이 없으므로 에리트로포이에틴 결핍이 원인이다.
 
 ## 출처
 

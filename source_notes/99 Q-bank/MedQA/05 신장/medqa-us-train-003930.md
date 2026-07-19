@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 정맥 수액, 항생제, 해열제의 지지치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+이식 후 7일 내에 발열·통증·부종·크레아티닌 상승은 급성 이식 신부전(급성 거부) 가능성을 시사한다. 진단을 확정하기 위해 초음파 유도 이식신 생검을 시행해야 한다. 따라서 초기 조치는 생검이다.
 
 ## 출처
 

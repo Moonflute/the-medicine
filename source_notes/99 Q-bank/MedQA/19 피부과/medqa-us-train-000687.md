@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 스티븐스-존슨 증후군(Stevens-Johnson syndrome)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전신에 퍼진 홍반성 반점·수포·점막 궤양은 피부와 점막을 동시에 침범하는 중증 과민반응이며, 약물·감염에 의한 것이 아니라 급성 전신성 반응이다. 이는 스티븐스-존슨 증후군의 특징이다. 다형홍반은 주로 손발에 국한되고, 단순포진·대상포진은 국소 병변이다.
 
 ## 출처
 

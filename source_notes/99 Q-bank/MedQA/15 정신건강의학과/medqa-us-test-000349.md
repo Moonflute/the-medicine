@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전기경련치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+주요우울장애 1차 치료인 SSRI를 4~6주 지속해야 하며, 1주 차에 효과가 없다고 판단한다. 따라서 현재 치료를 계속하는 것이 적절하다. 정답은 현재 치료를 계속한다이다.
 
 ## 출처
 

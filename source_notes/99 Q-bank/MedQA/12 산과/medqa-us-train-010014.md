@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 완전 유산
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 15주에 경미한 질 출혈과 자궁경부가 닫힌 상태에서 살아있는 태아가 존재하면, 출혈이 진행될 경우 태아 사망 위험이 높아 절박 유산으로 간주한다. 따라서 절박 유산이 정답이다.
 
 ## 출처
 

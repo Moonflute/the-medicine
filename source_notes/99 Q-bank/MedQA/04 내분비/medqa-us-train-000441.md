@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 일회호흡량 및 호기말 양압 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 심한 대사성 산증(pH 7.05)과 정상 pCO2를 보이며, 환기 설정이 충분히 증가되지 않아 호흡성 보상이 부족하다. 따라서 호흡수와 일회 호흡량을 모두 증가시켜 CO2 제거를 강화해야 한다.
 
 ## 출처
 

@@ -16,11 +16,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 인슐린 유사 성장인자 1(IGF-1) 수치 단독 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무릎 골격 변형과 손 비대가 동반된 말단 증상은 말단 성장 호르몬 과다를 시사한다. 진단은 먼저 IGF‑1을 측정하고, 필요 시 구강 포도당 부하 후 성장 호르몬 억제 검사를 시행한다.
 
 ## 출처
 

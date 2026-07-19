@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 장간막 혈관조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대량 혈변 후 혈역학적 불안정이 있을 때는 먼저 출혈 부위를 찾는 것이 급선무이며, 하부 위장관 출혈을 의심한다. 비위관 세척은 하부 출혈을 확인하고 치료를 준비하는 초기 단계이다. 따라서 첫 단계는 비위관 세척이다.
 
 ## 출처
 

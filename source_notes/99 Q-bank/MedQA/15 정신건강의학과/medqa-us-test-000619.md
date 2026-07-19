@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 할로페리돌
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+알코올 금단 후 섬망(델리리움)과 환각이 나타날 때 1차 치료는 벤조디아제핀인 디아제팜이다. 이는 증상을 빠르게 억제한다. 따라서 가장 적절한 초기 치료는 디아제팜이다.
 
 ## 출처
 

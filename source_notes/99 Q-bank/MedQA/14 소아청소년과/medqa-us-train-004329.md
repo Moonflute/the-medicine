@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 삼핵산 반복질환
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+엔젤만 증후군은 15번 염색체의 부계에서 유래한 단일 친자 이중체(UPD)로, 발달 지연과 특이한 행동을 초래한다. 다른 선택지는 해당 증상과 연관이 적다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 마비
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+할로페리돌 장기 복용 시 나타나는 지연성 운동이상증은 입술을 핥고 눈을 과도하게 깜박이는 형태로 나타난다. 이는 항정신병제의 추체외로 부작용이다. 급성 근긴장이상증 등은 급성 증상과 다르다.
 
 ## 출처
 

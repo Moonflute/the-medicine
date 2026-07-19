@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 동맥조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소아의 단순 쇄골 골절은 대부분 비위험 부위이며, 피부 손상이나 혈관·신경 손상이 없을 경우 보존적 치료가 권장된다. 간단한 어깨걸이(스링)로 골절 부위를 고정하면 충분히 치유된다.
 
 ## 출처
 

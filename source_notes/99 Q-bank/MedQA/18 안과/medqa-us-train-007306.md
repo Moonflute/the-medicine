@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 산립종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+눈꺼풀에 고름이 동반된 통증성 부위는 모낭 감염인 다래끼(안구 마이코시스)와 일치한다. 다른 선택지는 통증이 없거나 다른 병변을 의미한다.
 
 ## 출처
 

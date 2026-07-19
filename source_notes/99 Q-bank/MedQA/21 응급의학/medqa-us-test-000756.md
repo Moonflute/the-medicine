@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. CT 폐혈관조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 폐색전증 의심 시 방사선 피폭을 최소화해야 한다. V/Q 스캔은 방사선량이 낮아 태아에 안전하면서도 진단 정확도가 높다. 따라서 환기‑관류 스캔이 다음 단계이다.
 
 ## 출처
 

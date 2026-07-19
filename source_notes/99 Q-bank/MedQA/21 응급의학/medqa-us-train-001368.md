@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 중탄산나트륨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대량 수혈 후 시트레이트가 결합한 칼슘이 감소해 저칼슘혈증이 발생한다. 저칼슘은 신경·근육 과흥분을 일으켜 입 주변 저림과 근육 경련을 유발한다. 글루콘산칼슘 보충이 증상을 가장 잘 호전시킨다.
 
 ## 출처
 

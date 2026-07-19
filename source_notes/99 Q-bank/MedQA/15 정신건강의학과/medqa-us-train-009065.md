@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비전형적 우울장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+지속적인 과도한 걱정, 초점 없는 불안, 신체적 긴장(떨림, 근육 긴장) 등이 나타나는 경우는 범불안장애에 해당한다. 환자는 일상 업무와 수면에까지 영향을 받는다. 따라서 범불안장애가 가장 가능성 높은 설명이다.
 
 ## 출처
 

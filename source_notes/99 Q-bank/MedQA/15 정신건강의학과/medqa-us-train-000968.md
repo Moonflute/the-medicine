@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 아미트립틸린(Amitriptyline) 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 무표정, 말속도 저하, 수면 장애 등 주요 우울증 증상을 보이며, 자살 위험이 없고 신체적 원인도 부인된다. 첫 번째 선택 약물은 SSRI 계열인 에스시탈로프람이다. 따라서 에스시탈로프람 치료가 다음 단계이다.
 
 ## 출처
 

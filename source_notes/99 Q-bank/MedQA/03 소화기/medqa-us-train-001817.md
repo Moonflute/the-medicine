@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부를 청진한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부가 단단하고 복통이 급성으로 시작했을 때 가장 먼저 복부 소리를 청진해 장폐색이나 복막염 여부를 평가한다. 청진은 복부 내 가스 이동이나 장음 감소를 확인해 급성 복부의 원인 감별에 필수적이다. 따라서 복부를 청진한다가 올바른 단계이다.
 
 ## 출처
 

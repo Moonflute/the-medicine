@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 에페드린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+출혈성 쇼크 치료 후 혈압을 유지하기 위해 사용되는 혈관수축제는 말초 혈관을 주로 수축시키는 노르에피네프린이다. 그러나 말초 조직에 혈류가 감소해 사지 허혈을 일으킬 수 있다. 따라서 노르에피네프린이 원인 약물이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 위식도 접합부의 종양성 증식
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구토 후 혈액이 섞인 구토는 위식도 접합부에 점막이 찢어지는 Mallory‑Weiss 파열을 시사한다. 급성 위산 역류와 구토가 원인이며, 출혈은 대개 경미하고 자가 제한적이다. 따라서 가장 가능성 높은 원인은 위식도 접합부의 점막 열상이다.
 
 ## 출처
 

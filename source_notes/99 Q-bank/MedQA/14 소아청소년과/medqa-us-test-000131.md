@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 모유 황달
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+직접 빌리루빈 상승, 고 ALP, 담관 확장 및 황달은 선천성 담도 폐쇄증을 나타낸다. 이 질환은 담관 폐쇄로 인한 빌리루빈 배설 장애가 원인이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 황열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고열 후 출혈성 증상, 반구진 발진, 혈소판 감소, 저혈압은 뎅기출혈열을 시사한다. 뎅기열은 혈장 누출과 출혈을 동반한다. 따라서 뎅기열이 가장 가능성 높은 진단이다.
 
 ## 출처
 

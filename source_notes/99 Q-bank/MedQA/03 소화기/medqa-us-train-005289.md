@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 장기 천공
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+3개월간 반복된 상복부 통증이 견갑골로 방사되고, 급성 복통·구토·복부 팽창·고음 장음이 동반된 X‑ray는 공기‑액체 수준과 비정상적인 장폐색을 보여준다. 이는 담낭과 장 사이에 형성된 누공을 통해 담석이 장으로 이동해 발생하는 담석‑장관 누공(담석 폐색)과 일치한다. 따라서 정답은 A이다.
 
 ## 출처
 

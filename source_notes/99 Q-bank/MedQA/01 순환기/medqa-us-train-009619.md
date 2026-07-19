@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. HMG-CoA 환원효소 억제 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+니아신 복용 시 홍조는 시클로옥시게나제(COX) 억제로 프로스타글란딘 E2 생성이 증가하면서 발생한다. COX를 비가역적으로 억제하면 이 기전이 차단되어 홍조가 완화된다. 따라서 시클로옥시게나제의 비가역적 불활성화가 증상 완화에 가장 적절한 설명이다.
 
 ## 출처
 

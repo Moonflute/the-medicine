@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 주요우울장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전신에 광범위한 통증, 압통점, 정상 염증 지표는 섬유근육통을 특징짓는다. 다른 선택지는 염증성 질환이나 우울증을 요구한다. 따라서 가장 가능성 높은 진단은 섬유근육통이다.
 
 ## 출처
 

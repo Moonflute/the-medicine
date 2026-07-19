@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 릴루졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+식품 매개 보툴리눔 중독은 신경근 차단을 일으키며, 항독소(보툴리눔 항혈청)를 조기에 투여하는 것이 치료의 핵심이다. 다른 옵션은 효과가 없거나 보조적이다. 따라서 가장 적절한 치료는 항독소이다.
 
 ## 출처
 

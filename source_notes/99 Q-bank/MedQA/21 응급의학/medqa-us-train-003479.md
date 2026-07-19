@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 흉부 CT
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+칼이 흉강에 남아 있어 기도 손상이 없고 호흡음도 대칭이며 공기 누출 징후가 없으므로 즉시 기도 확보가 필요하지 않다. 환자는 의식이 명료하고 산소포화도도 정상이므로 가장 중요한 조치는 호흡기 합병증을 예방하기 위한 기관내 삽관이 아니라, 필요 시를 대비한 준비이다. 따라서 정답은 기관내 삽관이다.
 
 ## 출처
 

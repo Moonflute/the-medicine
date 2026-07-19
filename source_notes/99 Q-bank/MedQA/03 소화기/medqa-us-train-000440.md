@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 수술적 혈관재개통술(Surgical revascularization)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+술 후 담도 괘양증후군(ODD)은 담즙 흐름 장애를 일으키며, 증상 완화를 위해 괘양절개술(스핑크터오디 절개)이 확정 치료이다.
 
 ## 출처
 

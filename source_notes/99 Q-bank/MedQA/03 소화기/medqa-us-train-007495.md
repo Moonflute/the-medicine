@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 진단적 복수천자
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+간경변 환자에서 복수천자는 감염 여부를 빠르게 확인하는 가장 중요한 초기 조치이다. 항생제 투여는 감염이 확인된 후, 베타차단제와 알부민은 다른 상황에 쓰인다. 따라서 진단적 복수천자가 정답이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 골반 초음파를 시행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+불안정한 혈역학(저혈압·빈맥·냉감)과 복부·골반 압통이 동반된 경우, 급성 복강 내 출혈이 의심된다. 이때 가장 먼저 해야 할 조치는 혈액량 보충으로, 정맥생리식염수(크리스탈로이드) 투여가 초기 치료의 핵심이다. 따라서 정맥생리식염수 수액을 투여하는 것이 적절하다.
 
 ## 출처
 

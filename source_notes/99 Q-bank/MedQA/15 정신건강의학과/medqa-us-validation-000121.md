@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뇌실 확장
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 대마초 사용과 조현병 양상이 있는 환자에서 뇌실 확장은 약물·정신질환에 동반되는 비특이적 소견으로 가장 흔히 관찰된다. 다른 선택지는 특정 감염·염증 소견을 암시하지만 해당 임상과는 맞지 않는다. 따라서 정답은 뇌실 확장(D)이다.
 
 ## 출처
 

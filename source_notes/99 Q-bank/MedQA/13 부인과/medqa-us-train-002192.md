@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 피하 인슐린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신성 당뇨병 환자는 분만 중 저혈당 예방을 위해 산모에게 5% 포도당을 지속적으로 투여한다. 이는 태아 저혈당 위험을 감소시킨다. 따라서 5% 포도당 투여가 정답이다.
 
 ## 출처
 

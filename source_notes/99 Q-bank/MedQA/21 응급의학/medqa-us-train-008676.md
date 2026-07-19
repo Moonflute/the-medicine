@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 동기식 심율동전환
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ST‑분절 상승이 II, III, aVF에서 나타난 급성 하부 심근경색으로 심정지 시 심전도는 무전극성(전기적 활동 없음)이다. 무전극성 심정지는 심실세동/무맥성 전기활동이며, 가장 효과적인 즉시 치료는 비동기식(제외동기) 전기심율동전환이다. 동기식 전기충격은 심실세동에 무효이므로 비동기식이 정답이다.
 
 ## 출처
 

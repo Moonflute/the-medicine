@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 티로신 키나아제 유전자 돌연변이
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 세균성 감염과 정상 백신 이력은 브루톤 무감마글로불린혈증을 시사한다. 이 질환은 BTK 유전자 결함으로 B세포 발달이 저하되어 면역결핍이 발생한다. 따라서 BTK 유전자 돌연변이가 가장 가능성 높은 원인이다.
 
 ## 출처
 

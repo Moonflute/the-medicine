@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. Streptococcus pyogenes
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양쪽 심장판막이 이첨판인 경우, 구강 위생이 불량한 경우 Streptococcus sanguinis와 같은 구강 미생물이 혈류로 들어가 감염성 심내막염을 일으킨다. 환자의 증상과 신체 소견은 이를 뒷받침한다. 따라서 정답은 Streptococcus sanguinis이다.
 
 ## 출처
 

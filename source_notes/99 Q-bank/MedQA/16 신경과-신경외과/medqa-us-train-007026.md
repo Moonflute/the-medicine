@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 레보도파/카비도파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+안정시(휴식 시) 떨림과 움직일 때 감소하는 특징은 파킨슨병의 특징이며, 50대 남성에게 흔히 나타난다. 파킨슨병 초기 치료에 항콜린제인 트리헥시페니딜이 효과적이며, 특히 손 떨림에 유리하다. 따라서 가장 적절한 약물은 트리헥시페니딜이다.
 
 ## 출처
 

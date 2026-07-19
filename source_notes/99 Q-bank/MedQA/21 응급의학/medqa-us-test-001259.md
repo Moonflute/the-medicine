@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심장 구조 이상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+문신 시 통증과 스트레스에 의해 혈관성 교감신경 반응이 촉발돼 미주신경성 실신(혈관성 실신)이 발생한다. 짧은 의식 소실과 경련성 움직임, 빠른 회복은 이 유형의 실신과 일치한다.
 
 ## 출처
 

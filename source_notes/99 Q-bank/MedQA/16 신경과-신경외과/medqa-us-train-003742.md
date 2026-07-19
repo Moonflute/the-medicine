@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 프리미돈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+가족력이 있는 8 Hz 자세성 떨림은 본태성 떨림을 의심한다. 프리미돈은 본태성 떨림 1차 치료제로 효과가 입증되어 있다. 따라서 가장 적절한 치료는 프리미돈이다.
 
 ## 출처
 

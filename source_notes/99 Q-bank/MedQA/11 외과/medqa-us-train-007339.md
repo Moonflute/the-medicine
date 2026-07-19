@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 비위관 감압과 총정맥영양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+위출구 폐색으로 인한 위 팽창은 비위관 감압이 필요하고, 장기 영양 공급을 위해 총정맥영양을 시행한다. 다른 선택지는 상황에 맞지 않는다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. PMP22 유전자 중복
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+프리드라이히 운동실조증은 GAA 유전자의 삼염기 반복 확장으로 인한 효소 알라닌-글루타민산 트랜스아미네이스 결핍이 원인이다.
 
 ## 출처
 

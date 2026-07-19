@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 아카보스(Acarbose)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨와 비만, 고혈당을 가진 환자에게는 GLP‑1 수용체 작용제인 엑세나타이드가 체중 감소와 혈당 개선에 효과적이다. 다른 선택지는 체중 감소 효과가 적거나 부작용이 크다. 따라서 엑세나타이드가 적절한 약물이다.
 
 ## 출처
 

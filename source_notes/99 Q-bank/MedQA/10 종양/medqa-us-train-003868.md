@@ -18,11 +18,13 @@ question_type: monitoring
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 정기 모니터링이 필요하지 않다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+독소루비신은 용량 의존적 심근독성을 일으키며, 좌심실 구획 감소를 조기에 발견하기 위해 정기적인 심초음파 검사가 권장된다. 심전도나 MRI는 초기 선별에 충분히 민감하지 않다. 따라서 가장 적절한 모니터링 검사는 심초음파이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 두개강내 출혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발열, 안구돌출, 외안근 마비, V1·V2 감각 저하가 동반된 급성 증상은 감염성 정맥동 혈전증(해면정맥동 혈전증)과 일치한다. 이는 안와·두개내 감염이 정맥동으로 퍼져 발생한다. 따라서 가장 가능성 높은 진단은 해면정맥동 혈전증이다.
 
 ## 출처
 

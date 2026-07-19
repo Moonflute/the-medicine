@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 염증성 유방암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+염증성 유방암은 급속히 진행되는 유두 주위 홍반·부종·피부 굴곡(피부 주름)과 림프절병소를 동반한다. 다른 선택지는 감염이나 농양에 해당한다. 따라서 염증성 유방암이 가장 가능성 높다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신체적 억제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년기에 호르몬 변화로 지방 조직이 유방에 축적되어 가성 여성형유방(지방유방)이 발생하며, 통증과 단단한 덩어리가 나타날 수 있다. 환자는 사춘기 단계이며, 유방 조직이 단단하고 통증이 있으나 분비물은 없고, 다른 원인(클라인펠터, 고환암)은 부적합하다. 따라서 가장 가능성 높은 원인은 지방유방이다.
 
 ## 출처
 

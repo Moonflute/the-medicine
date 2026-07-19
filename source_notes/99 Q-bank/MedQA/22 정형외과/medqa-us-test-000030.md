@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 족근중족 관절낭절개술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발 뒤꿈치가 중립이고 외측을 자극하면 변형이 교정되는 것은 연성 내전성 족부 변형으로, 자연 경과가 좋으므로 관찰(안심)만 필요하다. 외전 보조기나 수술은 과도한 치료가 된다.
 
 ## 출처
 

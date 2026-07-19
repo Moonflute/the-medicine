@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 리파아제 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우상복부 통증, 발열, 방어 반응은 급성 담낭염을 강하게 시사한다. 진단 확인을 위해 가장 민감하고 비침습적인 검사는 초음파이다. 따라서 담낭 초음파가 적절한 다음 검사이다.
 
 ## 출처
 

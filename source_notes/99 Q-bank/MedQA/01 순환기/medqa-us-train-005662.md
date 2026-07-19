@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고정된 죽상경화성 관상동맥 협착(>70%)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 시 발생하고 휴식 시 사라지는 흉통은 관상동맥 협착(>70%)에 의해 심근에 일시적 허혈이 생기는 안정형 협심증을 의미한다. 이는 고정된 중등도 이상 협착이 원인이다.
 
 ## 출처
 

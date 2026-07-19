@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 선천성 혈관 기형 평가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증근무력증 환자는 텐실론 검사 양성 시 흉선종을 배제하기 위해 흉부 CT를 시행한다. 흉선종은 치료 방침에 영향을 주므로 영상 검사가 필요하다. 따라서 흉선종 배제가 목적이다.
 
 ## 출처
 

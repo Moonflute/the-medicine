@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 중심성 경추 외상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+보툴리눔 독소는 저산소 환경에서 보존된 고기(특히 캠프파이어에서 조리된) 섭취와 연관된다. 진드기 물림이나 고위도 거주는 보툴리눔과 무관하다. 따라서 정답은 캠프파이어 고기 섭취(C)이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 두부 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대천문 팽창, 눈의 하향 편위, 눈꺼풀 후퇴는 두개내압 상승에 의한 수두증을 시사한다. 영아에서는 두개골 봉합이 열려 있어 두부 초음파가 비침습적으로 수두증을 확인하는 가장 적절한 검사이다. 따라서 두부 초음파가 정답이다.
 
 ## 출처
 

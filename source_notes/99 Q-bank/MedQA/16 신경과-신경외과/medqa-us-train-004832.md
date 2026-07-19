@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수막종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비조영 CT와 MRI에서 경계가 명확하고 균질한 4 cm 종괴가 뇌막을 따라 성장하며 주변 백질을 압박하는 모습은 수막종의 전형적인 영상소견이다. 다른 종양은 일반적으로 불균일하거나 침습적이다.
 
 ## 출처
 

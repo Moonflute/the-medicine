@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 근육 생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+스타틴 복용 후 근육통이 나타났을 때 가장 먼저 배제해야 할 원인은 갑상선기능저하증이다. 갑상선 저하가 근육통과 피로를 유발할 수 있으므로 TSH 검사가 우선이다. 코엔자임 Q10 보충은 근거가 부족하고, 스타틴 중단은 필요하지 않을 수 있다.
 
 ## 출처
 

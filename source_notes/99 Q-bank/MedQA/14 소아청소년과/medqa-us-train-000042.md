@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 동맥관 개존 (Patent ductus arteriosus)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+산모의 발열·발진·근육통은 풍진 감염을 시사하고, 태아에서 동맥관 개존이 가장 흔한 선천성 심장 결함이다. 다른 결함들은 풍진과 연관성이 낮다.
 
 ## 출처
 

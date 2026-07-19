@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 유관내 유두종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+피가 섞인 유두 분비물과 유관 내 종양성 병변은 유관내 유두종(ductal papilloma)과 일치한다. 이는 악성 변형 위험이 낮은 양성 종양이다. 따라서 정답은 유관내 유두종이다.
 
 ## 출처
 

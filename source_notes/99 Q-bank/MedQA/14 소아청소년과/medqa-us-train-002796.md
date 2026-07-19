@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 혈청 크레아틴키나아제 수치
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Duchenne 근이영양증은 dystrophin 유전자 돌연변이로 진단되며, 확진을 위해 유전자 검사가 가장 적절한 다음 단계이다. 근전도·생검은 보조적이지만 유전자 검사로 확진이 가능하다.
 
 ## 출처
 

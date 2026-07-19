@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. sevelamer 추가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 콩팥병 G3a에서 혈청 칼륨 5.8 mEq/L는 고칼륨혈증을 의미한다. 저칼륨혈증 치료제로서 patiromer는 칼륨 결합제이며, ACE 억제제와 병용해도 혈압 조절에 영향을 주지 않는다. 따라서 patiromer를 추가하는 것이 최선의 관리 전략이다.
 
 ## 출처
 

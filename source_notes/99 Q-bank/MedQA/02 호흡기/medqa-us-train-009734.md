@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. B군 연쇄구균
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+6주 영아의 급성 호흡기 증상, 빠른 호흡, 청진에서 호흡음이 들리며, RSV는 영아에서 가장 흔한 원인이다. RSV는 호흡기세포융합바이러스(RSV)로 분류된다. 따라서 RSV가 가장 가능성 높은 원인균이다.
 
 ## 출처
 

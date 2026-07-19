@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고나트륨혈증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+티아지드 이뇨제는 신장에서 요산 배설을 감소시켜 고요산혈증을 유발한다. 저칼슘혈증은 루프 이뇨제, 저혈당은 설포닐우레아, 고나트륨혈증은 칼륨 보존 이뇨제와 관련된다. 따라서 정답은 고요산혈증이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 환경 항원에 의한 기도 과민반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 중독 후 천명음과 호흡곤란을 보이며 AST/ALT 상승이 있다. 환경 항원(예: 흡입)으로 인한 기관지 과민반응이 천명을 일으키는 주요 메커니즘이다. 따라서 환경 항원에 의한 기도 과민반응이 가장 적절한 설명이다.
 
 ## 출처
 

@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. QT 간격 단축
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+DiGeorge 증후군(얼굴 기형, 흉선 저형성, 단일 대동맥)에서는 부갑상선 발달 결손으로 저칼슘혈증이 흔히 나타나며, 이는 신경근 과민성(테타니)으로 급성 합병증이 된다. 저혈당은 흔하지 않다.
 
 ## 출처
 

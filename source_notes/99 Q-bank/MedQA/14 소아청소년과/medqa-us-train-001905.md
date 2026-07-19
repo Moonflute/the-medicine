@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 요도 카테터 삽입
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 복부팽만, 배뇨 감소, 발열은 요도 폐쇄에 의한 급성 요로폐색을 시사한다. 요도 폐쇄 시 방광에 급성 저류가 발생하므로 즉시 방광 배압을 완화해야 한다. 따라서 요도 카테터 삽입이 최우선 초기 관리이다. 다른 선택지는 진단적 검사이며, 급성 폐색에서는 먼저 카테터 삽입이 필요하다.
 
 ## 출처
 

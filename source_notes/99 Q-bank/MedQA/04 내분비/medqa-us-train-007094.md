@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 애디슨병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압, 저칼륨, 대사성 알칼리증은 알도스테론 과다에 의해 발생한다. 콘증후군(일차성 고알도스테론증)은 이러한 전해질 이상을 특징으로 한다. 다른 선택지는 부신 종양·쿠싱·애디슨과 일치하지 않는다. 따라서 일차성 고알도스테론증이 정답이다
 
 ## 출처
 

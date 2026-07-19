@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프로테아제 억제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고령 환자에서 급성 인플루엔자 폐렴 치료에 사용되는 뉴라미니다제 억제제(오셀타미비르 등)는 바이러스 복제를 차단한다. 따라서 다음 단계 약물의 작용기전은 뉴라미니다제 억제이다.
 
 ## 출처
 

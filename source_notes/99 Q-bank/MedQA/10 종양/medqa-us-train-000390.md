@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 양측 유방 절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비침습성 유방암(DCIS)은 유방 보존 수술(종괴 절제술) 후 방사선 치료가 표준 치료이다. 환자는 종괴가 없고 전이도 없으므로 전신 절제보다 종괴 절제가 적절하다.
 
 ## 출처
 

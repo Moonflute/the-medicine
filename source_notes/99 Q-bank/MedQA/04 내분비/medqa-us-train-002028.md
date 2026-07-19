@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 빠르고 깊은 호흡
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈당 945 mg/dL와 저나트륨, 고삼투압 상태는 고삼투성 고혈당성 상태(HHS)를 나타내며, 이는 흔히 경련을 동반한다. 다른 선택지는 HHS와 직접적인 연관이 적다. 따라서 가장 가능성 높은 증상은 경련이다.
 
 ## 출처
 

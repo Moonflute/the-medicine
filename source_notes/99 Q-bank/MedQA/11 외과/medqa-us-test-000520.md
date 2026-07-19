@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비디오 보조 흉강경 수술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+불안정한 혈역학과 복부·흉부 손상이 의심될 때 가장 먼저 전신 평가를 위해 흉부·복부·골반 CT를 시행한다. CT는 출혈 및 장기 손상을 빠르게 확인한다.
 
 ## 출처
 

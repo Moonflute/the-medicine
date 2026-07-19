@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비위관 삽입 후 위세척
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+직립 흉부 X선에서 복강내 자유공기가 보이며 복통·저혈압·발열이라는 급성 복부 증상이 천공성 궤양을 시사한다. 천공은 즉각적인 복강 내 감염 위험이 있어 응급 복부 수술이 필요하다. CT나 내시경은 진단이 이미 확정된 상황에서 지연을 초래한다.
 
 ## 출처
 

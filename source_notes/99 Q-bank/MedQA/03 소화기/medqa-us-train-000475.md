@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경복부 초음파 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우상복부 통증, 황달, ALP 상승 및 직접 빌리루빈 증가는 담도계 폐쇄를 시사한다. 비침습적이며 빠른 진단법으로 경복부 초음파가 담석, 담관 확장 등을 확인할 수 있다. 따라서 다음 진단 단계는 경복부 초음파 검사이다.
 
 ## 출처
 

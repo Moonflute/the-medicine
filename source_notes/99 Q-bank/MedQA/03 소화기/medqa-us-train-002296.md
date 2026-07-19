@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대장내시경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 장간막 혈관폐색(장간막 허혈) 진단에 가장 확실한 검사는 혈관조영술이다. 혈관조영술은 혈류 차단 부위를 직접 시각화하고 치료적 개입도 가능하다. 따라서 장간막 혈관조영술이 정답이다.
 
 ## 출처
 

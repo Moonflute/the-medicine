@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 객담 내 항산성 간균(Acid fast bacilli)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복되는 발열·야간 발한·경부 무통성 림프절 비대는 호지킨 림프종의 Pel‑Ebstein 열을 특징으로 하며, 조직학적 Reed‑Sternberg 세포는 CD15와 CD30 양성을 보인다. 따라서 CD15/30 양성 세포가 가장 높은 추가 소견이다.
 
 ## 출처
 

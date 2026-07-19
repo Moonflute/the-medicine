@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 상부 위장관 내시경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+지방변, 체중 감소, 복부 팽만은 췌장 외분비 기능부전(췌장암)과 연관될 수 있다. 진단을 위해 복부 CT가 가장 민감하게 종양과 전이를 확인한다. 따라서 복부 CT가 적절한 다음 단계이다.
 
 ## 출처
 

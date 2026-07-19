@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. L2/L3 추간판 탈출
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+허리에서 다리로 전이되는 전기적 통증과 L5 신경근 분포의 근력·감각 저하, 그리고 허리 굴곡 시 악화는 L4‑L5 추간판 탈출이 L5 신경근을 압박함을 의미한다. 따라서 정답은 A이다.
 
 ## 출처
 

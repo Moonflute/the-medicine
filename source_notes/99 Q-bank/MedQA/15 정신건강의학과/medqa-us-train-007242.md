@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 프로프라놀롤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+목 강직과 제한된 움직임은 급성 근긴장이상(긴장성 경직)으로, 항정신병약(특히 고전적) 유발이 흔하다. 디펜히드라민은 항히스타민이면서 항콜린성 효과로 근긴장 완화에 가장 효과적이다. 따라서 초기 치료는 디펜히드라민이다.
 
 ## 출처
 

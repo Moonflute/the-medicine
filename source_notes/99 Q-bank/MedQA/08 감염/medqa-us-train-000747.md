@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 혈소판 농축액 수혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 헤파린 투여 중 혈소판 감소와 4T 점수에 해당하면 heparin‑induced thrombocytopenia가 의심된다. 비단백성 항응고제인 argatroban으로 전환하는 것이 표준 치료이다. 따라서 가장 적절한 조치는 argatroban 전환이다.
 
 ## 출처
 

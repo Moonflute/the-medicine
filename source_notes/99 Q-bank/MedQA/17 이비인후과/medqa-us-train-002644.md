@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비강 내 글루코코르티코이드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+한쪽 콧구멍에서 악취가 나는 고름성 분비물은 비강 이물에 의한 급성 부비동염을 암시한다. 이물은 즉시 제거하는 것이 치료의 첫 단계이며, 다른 시술은 필요하지 않다.
 
 ## 출처
 

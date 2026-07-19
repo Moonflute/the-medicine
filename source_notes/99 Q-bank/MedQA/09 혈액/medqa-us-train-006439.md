@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 병원에서 혈액제제를 비위생적으로 보관함
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수혈 후 급성 전신 반응(두드러기, 천명, 저혈압)은 IgA 결핍 환자에서 IgA 함유 혈액에 대한 IgA 항체 매개 아나필락시스와 일치한다. 환자는 반복적인 부비동·폐 감염 병력이 있어 IgA 결핍 가능성이 높다. 따라서 해당 상황은 IgA 결핍과 연관된 수혈 반응이다.
 
 ## 출처
 

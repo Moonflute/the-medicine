@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자기공명영상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+증상은 자세 변화에 따라 악화되는 요추관 협착증을 시사한다. 협착증을 확진하려면 신경근 및 척수 압박을 직접 시각화할 수 있는 MRI가 가장 민감하고 특이한 검사이다. 따라서 진단 확정을 위한 최적 검사는 MRI이다.
 
 ## 출처
 

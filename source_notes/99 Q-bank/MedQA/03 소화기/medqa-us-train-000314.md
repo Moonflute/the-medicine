@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. IgG4 연관 담관염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+궤양성 대장염과 전신 피로·가려움·양쪽 담관 비후·국소 확장은 원발성 경화성 담관염(PSC)의 전형적인 특징이며, 이는 가장 가능성이 높은 진단이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: other
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 생후 12개월
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+생후 2개월에 영아는 머리를 들어 올려 시선을 맞추는 것이 정상 발달 마일스톤이다. 이후의 연령은 이 행동이 나타나지 않는다.
 
 ## 출처
 

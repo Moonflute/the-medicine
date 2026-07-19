@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뇌하수체 선종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 시신경유두부종과 시야 결손, 저 TSH와 저 T4는 중추성 갑상선 기능저하를 시사한다. 안장위 석회화는 뇌하수체 혹은 시상하부 종괴를 의미하지만, 두개인두종은 시신경 압박과 시야 결손을 일으키는 가장 흔한 안장위 종양이다. 따라서 두개인두종이 가장 가능성 높은 진단이다.
 
 ## 출처
 

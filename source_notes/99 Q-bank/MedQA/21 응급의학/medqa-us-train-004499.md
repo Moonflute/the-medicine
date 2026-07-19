@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 약물 농도
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+삼환계 항우울제 과다복용 시 나트륨 채널 차단으로 심근 전도 지연이 발생하며, QRS 복합파 연장은 독성 정도를 가장 신뢰할 수 있게 반영한다. 따라서 QRS 연장이 독성의 주요 지표이다.
 
 ## 출처
 

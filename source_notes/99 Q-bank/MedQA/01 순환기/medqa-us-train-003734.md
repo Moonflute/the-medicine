@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 도부타민 부하 심초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+15분 미만의 짧은 발작성 흉통이 운동과 무관하고 휴식으로 호전되며 심전도와 검진이 정상인 경우 관상동맥질환 전향 확률이 낮다(저 사전 확률). 저 위험군에서는 추가 검사가 필요하지 않으며, 불필요한 검사보다 관찰이 적절하다. 따라서 추가 검사가 필요하지 않다가 정답이다.
 
 ## 출처
 

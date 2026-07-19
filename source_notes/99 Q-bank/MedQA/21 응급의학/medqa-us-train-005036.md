@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 추가 조치를 위해 주치의의 의견을 받아야 합니다.
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+생전유언은 환자의 사전 의사표시이며, 법적으로 환자 스스로 결정한 치료 거부를 존중해야 한다. 따라서 환자의 의사에 따라 기계환기를 중단해야 한다.
 
 ## 출처
 

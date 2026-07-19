@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. HIV 항체 선별검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+좁은 기저부 출아로 증식하는 효모는 Histoplasma capsulatum를 시사한다. 조직이나 배설물에서 Histoplasma 항원을 검출하면 진단 민감도가 높아 확진에 도움이 된다. 따라서 소변 히스토플라스마 항원 검사가 정답이다. 다른 선택지는 진균 감염을 확인하지 못한다.
 
 ## 출처
 

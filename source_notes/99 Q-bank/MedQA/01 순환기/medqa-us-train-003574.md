@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 심근 산소 요구량 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아데노신은 관상동맥을 확장시키지만, 협착된 부위에서는 혈류가 다른 혈관으로 전환(‘steal’)되어 심근 허혈을 유발한다. 이때 ST 하강이 나타나는 주요 기전은 협착된 관상동맥에서 혈류가 다른 곳으로 전환되는 것이다.
 
 ## 출처
 

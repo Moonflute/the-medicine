@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수면 부족
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 저칼슘혈증과 높은 ALP, 비특이적 골통을 보이며, 이는 비타민 D 결핍에 의한 골연화증을 시사한다. 수혈 시 아나필락시스와는 무관하다. 따라서 수혈 시 아나필락시스가 가장 관련된 선택이다.
 
 ## 출처
 

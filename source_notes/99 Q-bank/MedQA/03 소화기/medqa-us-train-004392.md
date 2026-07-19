@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -62,7 +64,8 @@ D. 철분
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+크론·셀리악병으로 지방 흡수 장애가 있으면 비타민 E 결핍이 흔하며, 근육 위축·운동실조가 특징이다. 따라서 비타민 E 결핍이 가장 가능성 높은 결핍이다.
 
 ## 출처
 

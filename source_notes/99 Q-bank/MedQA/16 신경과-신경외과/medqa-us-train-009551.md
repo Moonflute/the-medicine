@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 후척수동맥 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+허리 이하 감각·운동 상실, 무통증 진동감각 보존, 하부 반사 소실은 전척수동맥(Anterior spinal artery) 증후군을 나타낸다. 이는 전방 척수 혈류 차단으로 운동·통각이 손상되고, 후각(진동·위치감각)은 보존된다. 다른 선택지는 증상 분포가 다르다.
 
 ## 출처
 

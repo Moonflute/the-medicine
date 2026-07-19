@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -42,7 +44,8 @@ D. 콕시디오이데스(Coccidioides)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HIV 환자에서 중심이 움푹한 피부색 구진은 전형적인 두창(바이러스성 사마귀)이며, 이는 Poxvirus에 의해 발생한다. 다른 미생물은 병변 형태와 일치하지 않는다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. A형간염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+생후 4일에 모유만 먹고 황달이 나타나는 경우는 모유수유 황달(모유에 있는 물질이 빌리루빈 대사를 억제)이다. 모유 자체의 황달은 출생 후 2‑3일에 나타나는 생리적 황달과 구분된다. 따라서 정답은 모유수유 황달(A)이다.
 
 ## 출처
 

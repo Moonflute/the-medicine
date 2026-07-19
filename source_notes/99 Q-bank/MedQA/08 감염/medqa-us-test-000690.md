@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 페니실린 1회 주사 후 6개월 후 역가를 확인한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+잠복 매독 치료는 3주 간격으로 3회 페니실린 주사 후 6개월에 역가를 확인한다. 따라서 6개월 후 역가 확인이 적절한 관리이다.
 
 ## 출처
 

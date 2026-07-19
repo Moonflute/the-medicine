@@ -16,11 +16,13 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 강력한 D2 길항제가 1차 약물 치료이다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년기에 지속적인 반사회적 행동과 양심 결여는 Conduct disorder이며, 성인이 되면 반사회적 인격 장애(antisocial personality disorder)로 진행될 위험이 있다. 따라서 증상이 반사회적 인격 장애로 진행될 수 있다.
 
 ## 출처
 

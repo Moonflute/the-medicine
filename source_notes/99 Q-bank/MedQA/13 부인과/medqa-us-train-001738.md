@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 난소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐경기 이후 에스트로겐은 주로 말초 지방조직에서 안드로겐이 아로마타아제에 의해 전환되어 생성된다. 따라서 폐경 여성의 에스트로겐 공급에 가장 크게 기여하는 것은 지방조직이다.
 
 ## 출처
 

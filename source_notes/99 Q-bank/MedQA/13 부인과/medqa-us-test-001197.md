@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 류프로라이드 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+월경 간격이 길고 비만, 다모증, 여드름이 동반된 경우는 다낭성 난소 증후군(PCOS)으로 인한 무배란이 가장 가능성이 높다. 클로미펜은 배란을 유도하는 선택적 에스트로겐 수용체 조절제로, PCOS 환자에게 1차 치료로 권장된다. 따라서 클로미펜 치료가 가장 적절하다.
 
 ## 출처
 

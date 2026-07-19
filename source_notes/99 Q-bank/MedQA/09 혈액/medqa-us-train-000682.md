@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 베르나르-술리에 증후군(Bernard-Soulier syndrome)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+출혈 시간 연장, PT는 정상, PTT가 현저히 연장된 경우는 내인성 혈액응고인자 VIII·IX 결핍, 즉 혈우병을 시사한다. 따라서 혈우병이 가장 가능성 높은 진단이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 목시플록사신을 투여하고 일반병실에 입원시킨다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+66세 환자의 고열·저혈압·패혈증 징후와 폐음 소견은 중등도 중증도 폐렴을 나타낸다. 호흡기 플루오로퀴놀론(목시플록사신)은 광범위한 경구 항생제로 적절하며, 중증이 아니므로 일반 병실 입원이 충분하다. 따라서 D가 정답이다.
 
 ## 출처
 

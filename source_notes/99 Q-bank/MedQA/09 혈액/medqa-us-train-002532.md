@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 크레아티닌 수치
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비분획 헤파린의 항응고 효과는 aPTT 연장으로 모니터링한다. aPTT는 헤파린 농도와 직접적인 상관관계가 있어 용량 조절에 가장 적합한 검사이다.
 
 ## 출처
 

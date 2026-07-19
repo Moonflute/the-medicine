@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 잔틴 산화효소 억제제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복성 관절통과 요산 결정이 관절액에서 확인된 경우 통풍이 진단된다. 장기 요산 저하제인 잔틴 산화효소 억제제(알로푸리놀 등)가 통풍 예방에 가장 효과적이다. 따라서 정답은 잔틴 산화효소 억제제이다.
 
 ## 출처
 

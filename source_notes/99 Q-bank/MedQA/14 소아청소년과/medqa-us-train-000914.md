@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 외이도 내의 갈색 덩어리
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 중이염은 고막이 부풀어 오르고 발적된 모습으로 나타난다. 환아의 발열, 귀를 잡아당기는 행동, 통증을 고려하면 가장 흔한 소견인 팽윤·발적 고막이 맞는다. 따라서 정답은 A이다.
 
 ## 출처
 

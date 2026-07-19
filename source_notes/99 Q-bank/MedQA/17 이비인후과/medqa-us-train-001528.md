@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 접형구개동맥
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전방 비출혈의 가장 흔한 원천은 코전두부 점막에 위치한 키셀바흐 혈관구이다. 코를 압박해도 출혈이 멈추지 않는 경우 이 부위의 파열이 원인이다. 따라서 키셀바흐 혈관얼기가 가장 가능성 높은 출혈 부위이다.
 
 ## 출처
 

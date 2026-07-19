@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. PPAR-알파 활성화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+총콜레스테롤 280 mg/dL와 LDL 210 mg/dL에 대한 1차 치료는 HMG‑CoA 환원효소를 억제하는 스타틴이다. 스타틴은 간에서 콜레스테롤 합성을 차단해 LDL 수치를 낮춘다. 따라서 정답은 콜레스테롤 합성 억제이다.
 
 ## 출처
 

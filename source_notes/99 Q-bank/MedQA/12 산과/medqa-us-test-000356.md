@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. HIV, 매독, B형간염, 임질균, 클라미디아
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+모든 임산부에게는 산모와 태아 감염 예방을 위해 HIV, 매독, B형간염 검사가 표준 선별검사이다. 따라서 정답은 HIV, 매독, B형간염이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 양파껍질 모양 층판 형성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압성 심부전에서 보이는 내막 비후와 중막 비대는 고혈압에 의한 혈관 내피 손상과 섬유화의 결과이다. 이는 신장 조직에서 가장 흔히 관찰된다. 따라서 정답은 A이다.
 
 ## 출처
 

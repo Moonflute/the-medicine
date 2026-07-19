@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 파록세틴 중단
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아리피프라졸 복용 시 정좌불안(불안·초조)과 같은 부작용이 흔히 나타난다. 베타 차단제인 프로프라놀롤은 이러한 불안 증상을 완화한다. 리튬·용량 증가·파록세틴 중단은 부적절하다.
 
 ## 출처
 

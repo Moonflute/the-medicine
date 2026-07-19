@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 골반 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+월경 주기와 일치하게 매월 한 번씩 발생하고 1~2일 지속되는 왼쪽 하복부 통증은 배란통(미텔슈미츠)으로, 검진에서 이상 소견이 없으며 임신 검사도 음성이다. 배란통은 생리학적 현상이므로 특별한 검사가 필요 없으며, 환자에게 안심시켜 주는 것이 적절하다. 다른 선택지인 영상검사는 비정상 소견이 없을 때는 과잉진단이 된다.
 
 ## 출처
 

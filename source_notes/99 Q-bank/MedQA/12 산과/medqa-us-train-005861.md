@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 응급 제왕절개를 시행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+진행성 자궁경부 확장에도 불구하고 태아 심박동이 비정상이며 수축 빈도가 충분하지 않아 태아 산소 공급이 위협받는다. 이러한 비반복성 비정상 태아 심박동은 응급 제왕절개 적응증이다. 따라서 응급 제왕절개가 가장 적절하다.
 
 ## 출처
 

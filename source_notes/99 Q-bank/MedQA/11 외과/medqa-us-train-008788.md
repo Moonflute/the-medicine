@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 응급 개복술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+FAST 검사가 불확실하고 수액 투여 후에도 혈압이 회복되지 않아 지속적인 복강 내 출혈이 의심된다. 진단적 복강세척은 빠르게 혈액 유무를 확인하고, 양성일 경우 즉시 개복을 결정할 수 있어 다음 단계로 적절하다.
 
 ## 출처
 

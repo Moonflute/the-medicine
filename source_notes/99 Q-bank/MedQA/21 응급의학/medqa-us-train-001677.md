@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 의사가 의료 대리인으로 지정되어 연명의료 결정을 내릴 �
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 의식이 없고 의사결정 능력이 없으며, 사전지시서가 없고 남편이 환자와 동거하며 의료 결정을 내릴 법적 대리인으로 지정된 경우가 일반적이다. 따라서 남편이 의료 대리인으로 지정되어 연명의료 결정을 내릴 수 있다.
 
 ## 출처
 

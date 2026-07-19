@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -44,7 +46,8 @@ D. 기관 삽관
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 천식 발작에서 호흡이 정지하고 흉부 청진이 없으며 PaCO₂가 급격히 상승하면 기도 폐쇄가 임박한다. 즉시 기관 삽관이 필요하다. 따라서 정답은 D이다.
 
 ## 출처
 

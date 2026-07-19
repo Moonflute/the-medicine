@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 점막 손상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+셀리악병 병력이 있는 환자에게 복통, 설사, 체중 감소, 구강 궤양, 대변 잠혈이 동반되면 크론병이 의심된다. 크론병에서 흔히 보이는 항체가 ASCA(항 Saccharomyces cerevisiae 항체)이다. 따라서 가장 가능성 높은 진단을 설명하는 소견은 ASCA 양성이다.
 
 ## 출처
 

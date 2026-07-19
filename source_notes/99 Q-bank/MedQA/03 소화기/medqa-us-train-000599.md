@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 과민성 장 증후군(Irritable bowel syndrome)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심근경색 후 급성 복통·혈변·복부 혈관 잡음은 장간막 혈류 급격한 감소를 의미한다. 장간막 허혈은 급성 복통과 혈변을 동반하며, 위험인자는 심근경색·동맥경화이다. 따라서 급성 장간막 허혈이 정답이다.
 
 ## 출처
 

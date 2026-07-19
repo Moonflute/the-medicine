@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 중증 지속성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+매일 증상이 나타나고 흡입기 사용이 주 3회 이상이며 야간에 깨는 경우는 지속성 천식에 해당한다. FEV1이 70%로 예측치의 60‑80% 사이이면 중등도 지속성 천식으로 분류한다. 따라서 정답은 중등도 지속성(C)이다.
 
 ## 출처
 

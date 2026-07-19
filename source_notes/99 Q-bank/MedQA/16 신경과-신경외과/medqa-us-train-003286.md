@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 결신발작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+10~20초 동안 반응이 없고 눈을 깜빡이며 3 Hz의 극파‑서파 방전이 보이는 발작은 결신발작(absence seizure)의 전형적인 특징이다. 결신발작은 짧게 지속되고 의식 소실이 동반되며 뇌파에서 3 Hz 스파이크‑웨이브가 나타난다. 따라서 정답은 D이다.
 
 ## 출처
 

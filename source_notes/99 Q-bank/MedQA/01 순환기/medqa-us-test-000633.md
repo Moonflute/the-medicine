@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심방 점액종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+좌심방에 부착된 종괴와 폐울혈, 체위에 따른 호흡곤란은 심방 점액종을 특징짓는다. 이는 비세균성 혈전성 심내막염과 구별된다. 따라서 정답은 심방 점액종이다.
 
 ## 출처
 

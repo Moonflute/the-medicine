@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 21세 미만 성생활 여성에서는 HPV 검사가 자궁경부 세포검�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+21세가 된 후는 3년마다 자궁경부암 선별검사를 시행한다(HPV 동시 검사는 선택). 환자는 18세이므로 아직 3년 간격이 적용되지 않으며, 연령에 따라 매 3년 검사가 시작된다. 따라서 21세가 된 후 3년마다 선별검사를 받아야 한다.
 
 ## 출처
 

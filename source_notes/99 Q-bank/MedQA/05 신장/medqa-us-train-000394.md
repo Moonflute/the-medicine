@@ -15,11 +15,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 미만성 메산지움 IgA 침착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+IgA 신병증은 상피하 고밀도 침착물(그라운드글라스)과는 달리 메산지움에 IgA가 침착되는 것이 특징이다. 환자의 혈뇨·단백뇨와 급성 신우통증은 IgA 신병증을 가장 시사한다.
 
 ## 출처
 

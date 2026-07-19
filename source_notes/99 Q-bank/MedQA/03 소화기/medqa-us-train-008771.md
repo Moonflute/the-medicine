@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 췌장 원위부 절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+췌장 체부에 경계가 명확한 액체성 낭종은 췌장 가성낭종을 의미한다. 증상이 경미하고 감염이 없으므로 최소 침습적 치료인 CT 유도 경피적 배액이 선호된다. 따라서 CT 유도 경피적 배액이 적절한 처치이다.
 
 ## 출처
 

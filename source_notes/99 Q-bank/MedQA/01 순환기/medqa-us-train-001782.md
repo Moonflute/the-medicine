@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 중대뇌동맥 경색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우측 상지의 맥박 감소와 차가운 피부는 오른쪽 견갑동맥 혈류가 역류해 팔로 흐르는 ‘subclavian steal syndrome’이 원인이다. 이는 견갑동맥 협착으로 인해 팔에 혈류가 빼앗기면서 발생한다. 약물 부작용은 이러한 혈류역학적 현상과 무관하다.
 
 ## 출처
 

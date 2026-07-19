@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 호흡수를 증가시킨다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 저산소혈증(pO₂ 54 mmHg)이며, 폐포를 개방하기 위해 양압(PEEP) 증가가 가장 효과적이다. 따라서 PEEP를 증가시키는 것이 적절한 조치이다.
 
 ## 출처
 

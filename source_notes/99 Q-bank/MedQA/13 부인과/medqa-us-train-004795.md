@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 월경 일지 작성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+월경 전에 두통, 복통, 유방 압통, 과민성 등 주기적인 증상이 나타나는 것이 월경전증후군(PMS)의 핵심 단서이다. 증상의 시기와 강도를 체계적으로 기록하면 월경 주기와의 연관성을 확인할 수 있어 진단을 확정한다. 따라서 월경 일지 작성을 선택한다.
 
 ## 출처
 

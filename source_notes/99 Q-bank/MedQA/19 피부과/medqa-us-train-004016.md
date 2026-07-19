@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경구 테르비나핀
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두피에 원형 가려운 발진과 탈모가 동반된 경우, 곰팡이 감염인 두부백선(티노아스피라증)이 가장 흔하며, 경구 테르비나핀은 효과적인 항진균제이다. 다른 옵션은 이 상황에 적절치 않다.
 
 ## 출처
 

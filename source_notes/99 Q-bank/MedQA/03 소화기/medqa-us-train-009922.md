@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 반코마이신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병성 장병증 환자에서 항생제 후 급성 설사는 장내 세균 과증식(SIBO) 때문일 가능성이 높으며, 리팍시민은 장내 세균을 억제하는 비흡수성 항생제로 1차 치료에 권장된다. 따라서 리팍시민이 가장 적절한 치료이다.
 
 ## 출처
 

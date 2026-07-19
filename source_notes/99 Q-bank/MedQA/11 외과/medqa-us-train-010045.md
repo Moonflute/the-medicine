@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+불안정한 복부 대동맥류 파열은 급성 저혈압·쇼크·복부 통증을 동반하며, 즉시 외과적 개복 수술이 생명을 구한다. 영상 검사는 시간 지연을 초래하므로 응급 수술이 최선이다. 따라서 가장 적절한 치료는 수술이다.
 
 ## 출처
 

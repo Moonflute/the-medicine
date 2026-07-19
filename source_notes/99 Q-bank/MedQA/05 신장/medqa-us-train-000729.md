@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -43,7 +45,8 @@ D. Amlodipine
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 고칼륨혈증, 저중탄산혈증, 경미한 대사성 산증을 보이며, 이소성 이뇨제인 furosemide는 칼륨을 배설하므로 원인이 아니다. 만성 신부전은 고칼륨과 대사성 산증을 일으키지만, 환자는 급성 신세뇨관 산증(신세뇨관 산증)으로 인한 고칼륨과 비정상적인 산-염기 상태가 가장 일치한다. 따라서 원인은 신세뇨관 산증이다.
 
 ## 출처
 

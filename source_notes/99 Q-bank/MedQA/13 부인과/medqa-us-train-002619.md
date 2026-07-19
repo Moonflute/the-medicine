@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 류마티스관절염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 릴랙신에 의해 골반 인대가 이완되어 골반대 인대 통증(골반통)이 발생한다. 통증은 체위 변화와 활동에 악화되고 신경학적 이상은 없으며, 검진에서 천장관절 압통이 특징이다. 따라서 가장 가능성 높은 설명은 골반대 인대의 이완이다.
 
 ## 출처
 

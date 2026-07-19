@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 정상 청력 검사 결과
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+이명·청력 저하·귀 충만감·돌발 회전성 현기증은 메니에르병의 전형적인 삼중증상이다. 메니에르병에서는 저주파 감각신경성 난청이 먼저 나타난다. 따라서 가장 가능성 높은 청력 검사 소견은 저주파 감각신경성 난청이다.
 
 ## 출처
 

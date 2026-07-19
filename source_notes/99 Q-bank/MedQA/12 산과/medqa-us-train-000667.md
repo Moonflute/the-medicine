@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 핵산 증폭 검사를 위한 질-직장 도말 검체 채취
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+GBS 보균 위험이 높고 분만이 진행 중이므로, 신생아 감염을 예방하기 위해 분만 중에 정맥 내 페니실린을 투여한다가 최선이다.
 
 ## 출처
 

@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 치질절제술(Hemorrhoidectomy)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈변과 항문 주위 확장된 푸른 정맥, 탈출성 치질은 1도 내외의 경미한 치질을 시사한다. 1도 치질은 변비와 배변 시 통증이 없으며, 보존적 치료가 우선이다. 변을 부드럽게 하고 배변을 용이하게 하는 완하제인 도큐세이트가 가장 적절한 다음 단계이다.
 
 ## 출처
 

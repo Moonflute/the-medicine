@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지역 의사 건강 프로그램에 알림
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+동료 의사의 기능 저하와 위험 행동은 의료인 건강 프로그램에 보고하는 것이 가장 적절한 조치이며, 이는 비밀보장과 치료 연계가 가능하도록 설계된 시스템이다. 직접 대면이나 상급자 보고는 프로그램을 통한 지원보다 우선되지 않는다.
 
 ## 출처
 

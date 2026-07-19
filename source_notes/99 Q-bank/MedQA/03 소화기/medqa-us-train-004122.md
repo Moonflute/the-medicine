@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 20년 전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 20년 전 복부 수술(천공성 게실 절제) 후 복부 유착이 형성되어 장폐색을 일으킨다. 유착은 수술 부위에서 즉시 시작되므로 원인은 20년 전이다.
 
 ## 출처
 

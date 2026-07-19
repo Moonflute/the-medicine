@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 부갑상선기능항진증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+저칼슘혈증, 저인산혈증, 높은 PTH와 알칼리성 인산분해효소 상승은 비타민 D 결핍에 의한 골연화증을 시사한다. 골감소증·골다공증은 PTH가 정상이며, 부갑상선기능항진증은 칼슘이 상승하므로 부적절하다.
 
 ## 출처
 

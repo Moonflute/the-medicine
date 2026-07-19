@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,9 @@ D. 기관내 삽관
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아나필락시스는 급성 호흡곤란, 저혈압, 두드러기, 입술 부종을 동반한다. 에피네프린 근육주사는 1차 치료로 생명을 구한다. 따라서 에피네프린 근육주사가 가장 적절한 처치이다.
+다른 약물은 1차 치료가 아니다.
 
 ## 출처
 

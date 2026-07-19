@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 왼쪽 무릎 관절경검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무릎 관절선 압통, 완전 신전 불가, 딸깍거리는 소리는 관절이 ‘잠긴’ 상태의 반월상연골 파열을 시사한다. X‑ray가 정상이라도 연골 손상은 MRI에서만 확인되지만, 급성 ‘잠긴’ 무릎은 관절경으로 직접 진단하고 치료하는 것이 표준이다. 따라서 다음 적절한 처치는 관절경검사이다.
 
 ## 출처
 

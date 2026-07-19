@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 추가 조치는 필요하지 않다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+깨끗한 열상은 파열 위험이 없으며, 환아는 예방접종 기록이 불확실하다. 파상풍 예방을 위해 Tdap(파상풍·디프테리아·백일해)만을 추가 투여하면 된다. 다른 항생제나 추가 조치는 필요하지 않다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈관성 치매
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 뇌혈관 사건의 병력이 있고 급성 악화된 인지·운동 증상이 뇌혈관성 치매를 시사한다. 혈관성 치매는 뇌혈관 손상에 의해 발생한다. 따라서 가장 가능성 높은 진단은 혈관성 치매이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 리팍시민
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+간성 뇌증 환자에게 락툴로스는 장내 암모니아 생성균을 억제해 혈중 암모니아를 감소시킨다. 설사와 가스가 발생한 것은 락툴로스 투여 후 흔히 나타나는 부작용이다. 따라서 투여된 약물은 락툴로스이다.
 
 ## 출처
 

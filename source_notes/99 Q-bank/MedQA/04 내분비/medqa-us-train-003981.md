@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 갑상샘자극호르몬(TSH)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑상선 기능 항진증에서는 TSH가 억제되어 가장 낮은 수치를 보인다. 따라서 환자의 검사 중 가장 낮을 가능성이 높은 수치는 TSH이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세프트리악손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+오래 지속된 안면신경 마비 후 남은 안면 근육의 비대칭과 경련은 보툴리눔 독소 주사로 근육 긴장을 감소시켜 증상을 완화할 수 있다. 보툴리눔은 국소 근육 마비를 유도해 안면 비대칭을 교정한다. 따라서 보툴리눔 독소가 가장 적절한 치료이다.
 
 ## 출처
 

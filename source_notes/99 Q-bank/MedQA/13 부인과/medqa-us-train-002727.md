@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 질 프로게스테론
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+초음파에서 자궁경부 길이가 20 mm(≤25 mm)이며 이전에 조기진통·유산 병력이 있으면 자궁경부 무력증 위험이 높다. 예방적 자궁경부 봉합술이 조기 출산을 감소시키는 표준 치료이다. 경부 페사리는 비수술적 옵션이지만 봉합술보다 효과가 낮다.
 
 ## 출처
 

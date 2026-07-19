@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 좌욕
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+섬유질과 충분한 수분 섭취는 대변량을 늘리고 연하게 하여 게실 출혈 재발 위험을 감소시킨다. 식이 변화가 가장 효과적인 1차 예방책이다. 따라서 정답은 A이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 날록손 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아는 저혈당으로 인해 저혈압, 저체온, 저활동성을 보이며, 모체의 약물 사용이 위험 요인이다. 즉시 포도당을 투여해 혈당을 교정해야 한다. 따라서 포도당 투여가 적절하다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 기저동맥
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우측 안면마비와 좌측 팔다리 마비는 반대측 대뇌 반구의 손상을 의미한다. 중대뇌동맥(MCA) 폐색은 이러한 증상을 가장 흔히 일으키며, 안면 마비와 상반신 마비가 동반된다. 따라서 병변이 발견될 가능성이 높은 혈관은 중대뇌동맥이다.
 
 ## 출처
 

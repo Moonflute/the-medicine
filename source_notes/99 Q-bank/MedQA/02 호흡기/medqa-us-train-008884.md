@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전신 코르티코스테로이드 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+COVID-19 의심 환자에서 중증 호흡기 증상이 나타날 때 초기 치료는 지지 요법과 산소 공급, 모니터링이며 항바이러스제는 중증도에 따라 선택한다. 따라서 가장 적절한 조치는 지지요법과 모니터링이다.
 
 ## 출처
 

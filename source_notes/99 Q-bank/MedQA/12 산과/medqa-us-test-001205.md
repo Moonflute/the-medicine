@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. “유감입니다. 불안과 슬픔에 도움이 되는 처방전을 써드�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+태반조기박리로 인한 태아 사망 후 환자는 큰 심리적 충격을 받는다. 공감적 경청과 감정 확인이 첫 번째 의사소통 단계이며, “유감입니다. 많이 힘든 상황일 것입니다.”가 가장 적절한 초기 반응이다.
 
 ## 출처
 

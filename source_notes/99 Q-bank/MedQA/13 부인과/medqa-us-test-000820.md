@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안드로겐 불감증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년기에 46,XY이면서 외부는 여성형, 자궁·난소 미존재, 고환이 서혜부에 위치한 경우 완전 안드로겐 불감증(성 피질감소)이다. 이 상태는 안드로겐 수용체 기능 결함으로 발생한다. 정답은 D이다.
 
 ## 출처
 

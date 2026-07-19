@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 니타족사나이드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CD4 98/mm³인 HIV 환자에게 혈관 증식성 병변과 Warthin‑Starry 양성균이 보이면 바르토넬라 감염(베르트병)이다. 치료에 가장 효과적인 항생제는 에리트로마이신이다. 따라서 에리트로마이신이 적절한 약물이다.
 
 ## 출처
 

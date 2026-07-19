@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 날트렉손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 호흡 억제로 의식 저하와 동공 확대가 보이는 중증 오피오이드 중독이며, 가장 급히 호흡을 회복시켜야 한다. 날록손은 μ‑opioid 수용체 길항제로 1–2분 내에 효과가 나타나며, 급성 호흡 억제에 1차 선택 약물이다.
 
 ## 출처
 

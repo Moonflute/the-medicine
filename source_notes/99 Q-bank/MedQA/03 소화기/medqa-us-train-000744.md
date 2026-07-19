@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 내시경 역행 담췌관 조영술(ERCP)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 담관염(Charcot triad)으로 급성 악화가 진행 중이며, 담관 폐쇄를 즉시 해소해야 한다. ERCP를 통한 담관 배액 및 스텐트 삽입이 가장 신속한 치료이다. 따라서 다음 단계는 ERCP이다.
 
 ## 출처
 

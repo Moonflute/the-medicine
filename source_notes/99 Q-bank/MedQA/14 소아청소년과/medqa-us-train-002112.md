@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. CTG
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Fragile X 증후군은 FMR1 유전자의 CGG 삼염기 반복 확장이 원인이다. 환자의 특징적인 얼굴, 지능 저하, 치아 과다 등은 이 질환과 일치한다. 따라서 CGG 반복이 정답이다.
 
 ## 출처
 

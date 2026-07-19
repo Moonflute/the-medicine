@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 포유반사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+6개월 영아에서 침을 흘리며 울음이 심해지는 경우는 하악 앞니(중절치) 맹출에 따른 통증이 가장 흔한 원인이다. 맹출 시 통증이 있어 침을 흘리지만 구토·설사는 없으며, 진정 시에도 먹을 수 있다. 따라서 정답은 하악 앞니 맹출이다.
 
 ## 출처
 

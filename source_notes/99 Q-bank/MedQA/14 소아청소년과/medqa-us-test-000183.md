@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 고환암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+사춘기 남아에서 유두 아래 단단하고 약간 압통이 있는 3 cm 결절은 유선 조직의 증식(선조직 증식)으로, 호르몬 변화에 의해 발생하는 정상적인 사춘기 유방 발달이다. 환자는 정상적인 사춘기 단계이며, 다른 선택지(예: 지방유방)는 부드럽고 비압통이며, 클라인펠터 증후군은 고환 발달 이상을 동반한다.
 
 ## 출처
 

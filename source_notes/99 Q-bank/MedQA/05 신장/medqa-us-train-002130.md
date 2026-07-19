@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 겸상적혈구병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+진통제(특히 NSAID) 남용은 신장 피라미드 괴사와 결절성 신염을 초래한다. 환자의 신장 조직학적 소견은 진통제 신병증에 일치한다. 따라서 진통제 신병증이 정답이다.
 
 ## 출처
 

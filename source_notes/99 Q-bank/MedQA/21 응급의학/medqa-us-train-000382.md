@@ -18,11 +18,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 피리독신(비타민 B6)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+화재 흡입 사고 시 일산화탄소 중독이 가장 위험하며, 100% 고농도 산소를 즉시 투여해 혈중 COHb를 감소시켜야 한다. 다른 약물은 급성 치료에 해당되지 않는다.
 
 ## 출처
 

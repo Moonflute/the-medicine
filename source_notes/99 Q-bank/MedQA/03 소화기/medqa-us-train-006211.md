@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비건락성 육아종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+크론병에서 비건락성 육아종은 비특이적이지만, 비건락성 육아종이 존재하면 크론병을 강하게 시사한다. 다른 선택지는 크론병과 직접적인 연관이 적다. 따라서 가장 특이적인 소견은 비건락성 육아종이다.
 
 ## 출처
 

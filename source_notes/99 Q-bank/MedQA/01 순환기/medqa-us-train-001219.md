@@ -16,11 +16,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 루프 이뇨제는 고지혈증을 유발할 수 있다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+루프 이뇨제는 Henle 이음의 Na⁺/K⁺/2Cl⁻ 공동수송체를 억제해 나트륨과 물 배설을 촉진한다. 이는 폐부종을 감소시키는 주요 작용이다. 따라서 설명이 맞는 선택지는 Na⁺/K⁺/Cl⁻ 공동수송체 억제이다.
 
 ## 출처
 

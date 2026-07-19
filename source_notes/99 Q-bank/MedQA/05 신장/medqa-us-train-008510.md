@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -42,7 +44,8 @@ D. 사구체 기저막의 분리
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+장시간 서 있으면 중력에 의해 혈액이 하체에 정체되어 사구체 여과압이 감소하고 단백뇨가 일시적으로 나타난다. 다른 선택지는 면역복합체 침착·전하 소실·기저막 파열과 같은 지속성 단백뇨 메커니즘을 설명하지 않는다. 따라서 가장 가능성 높은 설명은 장시간 서 있기이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 추가 처치 불필요
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아시클로버 투여 후 뇌수막염 환자는 탈수 위험이 높으며, 혈압 유지와 전해질 보정을 위해 일시적인 정맥 수액이 필요하다. 다른 선택지는 해당 상황에 직접적인 필요가 없다. 따라서 정맥 수액 일시주입이 가장 적절한 처치이다.
 
 ## 출처
 

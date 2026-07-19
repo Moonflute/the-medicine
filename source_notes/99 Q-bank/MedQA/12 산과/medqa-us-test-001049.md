@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 삼첨판 역류
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 풍진 감염은 태아의 동맥관 개존증(PDA)을 유발한다. PDA는 좌우 심실 사이에 혈류가 지속돼 대동맥과 폐동맥 사이에 압력 차이가 커져 넓은 맥압을 만든다. 따라서 이 환아는 넓은 맥압을 보일 위험이 높다. 다른 선택지는 풍진과 직접 연관된 소견이 아니다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 피페라실린-타조박탐과 스테로이드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Pneumocystis jirovecii 폐렴에서 저산소증이 동반될 경우 스테로이드 보조요법이 사망률을 감소시킨다. 환자는 이미 스테로이드 장기 복용 중이지만 급성 감염 시 추가 고용량 스테로이드가 필요하다. 따라서 트리메토프림‑설파메톡사졸과 스테로이드를 함께 투여하는 것이 가장 적절하다.
 
 ## 출처
 

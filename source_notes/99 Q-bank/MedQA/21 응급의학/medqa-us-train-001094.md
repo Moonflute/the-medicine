@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 전정신경염(Vestibular neuritis)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+불면증·다리 불편감·철 결핍성 빈혈이 동반될 때 가장 흔한 원인은 철분 결핍이다. 철 결핍 여부를 확인하기 위해 대장내시경으로 출혈 원인을 찾는 것이 첫 번째 검사이다. 따라서 대장내시경이 가장 가능성 높은 검査이다.
 
 ## 출처
 

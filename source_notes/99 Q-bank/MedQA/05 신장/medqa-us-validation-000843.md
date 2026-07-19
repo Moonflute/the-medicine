@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 음경암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신정맥 혈전증은 급성 신부전, 단백뇨·혈뇨와 신장 부종을 일으키며, 초음파에서 신장 확대와 정맥 흐름 결손이 보인다. 이는 막성 신병증의 전형적인 병태생리이다. 따라서 막성 신병증이 가장 가능성 높은 원인이다.
 
 ## 출처
 

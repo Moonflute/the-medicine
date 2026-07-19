@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 메토트렉세이트 용량 증량
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 저칼륨혈증(K+ 2.9 mEq/L)과 대사성 산증(HCO3‑18)으로 근력 약화와 빈뇨를 보인다. 저칼륨혈증은 신장 결석 후 발생한 신세뇨관산성화와 알칼리 배설 증가로 설명된다. 정맥 내 중탄산나트륨 투여는 대사성 산증을 교정하고 칼륨 재분배를 돕는다. 따라서 가장 적절한 다음 치료는 정맥 중탄산나트륨 투여이다.
 
 ## 출처
 

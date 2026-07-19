@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이미퀴모드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+편평세포암을 불완전 절제한 경우, 가장 확실한 재절제 방법은 모스 미세도식 수술이다. 이는 조직 보존과 경계 확인에 최적이다. 따라서 모스 미세도식 수술이 정답이다.
 
 ## 출처
 

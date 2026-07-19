@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 근육 내 독감 백신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중에는 살아있는(활성) 백신이 금기이며, 인플루엔자와 같은 불활성화 백신은 권장된다. 환자는 임신 8주 차이며 인플루엔자 시즌에 해당하므로 근육 내 독감 백신이 필요하다. 다른 선택지는 파상풍·디프테리아·백일침(임신과 무관), B형간염(특정 위험군), 수두(활성 백신)이다.
 
 ## 출처
 

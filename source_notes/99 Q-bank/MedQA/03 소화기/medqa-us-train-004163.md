@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 비타민 B12 보충
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+위궤양 환자에서 출혈·천공을 예방하려면 헬리코박터 eradication(아목시실린·클라리트로마이신)과 위산 억제제(오메프라졸)가 필요하다.
 
 ## 출처
 

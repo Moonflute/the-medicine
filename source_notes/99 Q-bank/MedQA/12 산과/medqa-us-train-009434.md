@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 페니토인
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+산후 6시간 내에 전신 강직성 발작이 발생하고 혈압이 150/100 mmHg 이상이며, 산전 고혈압 병력이 있다. 산후 자간증(산후 eclampsia)의 1차 치료는 혈압 강하와 경련 억제를 위한 정맥 황산마그네슘이다. 따라서 다음에 투여할 약물은 황산마그네슘이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신경모세포종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부에 불규칙한 촉진성 종괴와 간비대, 안구 운동 이상, 소변에서 HVA와 VMA 상승은 카테콜아민을 과다 생산하는 종양을 시사한다. 소아에서 가장 흔한 카테콜아민 분비 종양은 신경모세포종이다. 따라서 정답은 신경모세포종이다.
 
 ## 출처
 

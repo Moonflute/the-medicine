@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 에날라프릴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 항사구체기저막 항체 양성, 폐출혈, 신기능 저하를 동반한 급성 신증후군(굿파스처 증후군)이다. 혈장교환은 항체와 면역복합체를 제거해 급성 신기능 악화를 빠르게 개선한다. 따라서 가장 적절한 처치는 혈장교환이다.
 
 ## 출처
 

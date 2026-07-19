@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 융모막융모생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 10주에 비침습적 선별검사로 높은 민감도와 특이도를 가진 무세포 태아 DNA 검사는 산모·태아 위험이 낮고 결과가 빠르게 나오므로 선호된다. 따라서 다운증후군 선별을 위한 최적의 다음 단계는 무세포 태아 DNA 검사이다.
 
 ## 출처
 

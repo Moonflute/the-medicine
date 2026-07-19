@@ -18,11 +18,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 인체 면역결핍 바이러스(HIV)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HIV 감염은 모유를 통해 신생아에게 전파될 위험이 있어 추가 검사가 끝날 때까지 모유 수유를 금한다. 이는 바이러스가 모유에 존재하고 수유 중 전염 가능성이 있기 때문이다. 따라서 HIV은 모유 수유의 절대적 금기 감염이다.
 
 ## 출처
 

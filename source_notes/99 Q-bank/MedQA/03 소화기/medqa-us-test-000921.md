@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 식도이완불능증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+플러머‑빈슨 증후군은 식도 상부에 섬유성 플라크가 형성되어 삼킴곤란과 철결핍성 빈혈을 일으킨다. 환자는 식도막이 보이고 빈혈이 동반되어 이 진단이 가장 가능성 높다.
 
 ## 출처
 

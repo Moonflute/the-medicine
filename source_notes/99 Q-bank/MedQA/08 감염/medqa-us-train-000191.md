@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 장기 경구 항생제 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 위장관 감염으로 인한 구토·설사·발열은 탈수와 전해질 손실을 초래한다. 혈역학적 불안정이 없더라도 수액 보충이 첫 번째 치료이다. 항생제는 일반적으로 필요하지 않다. 따라서 수액 및 전해질 보충이 정답이다.
 
 ## 출처
 

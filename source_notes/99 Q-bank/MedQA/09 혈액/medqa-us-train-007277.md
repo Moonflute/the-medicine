@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 철분 보충
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+베타‑지중해빈혈 보인자는 경미한 소구성 저색소성 빈혈을 일으키며, 대부분 무증상이다. 환자는 심각한 치료가 필요 없으며, 안심시켜 주는 것이 적절한 관리이다. 따라서 안심시키기가 정답이다.
 
 ## 출처
 

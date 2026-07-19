@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 가바펜틴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 염증성 탈수초 다발신경병증(길랭-바레 증후군)에서는 면역 매개 치료가 필요하며, IVIG가 가장 효과적인 1차 치료이다. 스테로이드보다 효과가 높다. 따라서 정답은 정맥 면역글로불린이다.
 
 ## 출처
 

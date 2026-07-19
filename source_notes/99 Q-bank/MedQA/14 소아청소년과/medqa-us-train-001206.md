@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 복부 초음파; 연장된 유문관과 근육 비대
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구토가 주로 모유 섭취 후 발생하고, 분유는 견디는 것으로 보아 구강‑식도 이음부 협착(유문 협착)이 의심된다. 초음파에서 연장된 유문관과 근육 비대가 특징적인 소견이다. 따라서 진단을 확인하는 최적 검사는 복부 초음파이며, 연장된 유문관과 근육 비대를 보인다.
 
 ## 출처
 

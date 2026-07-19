@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수액 소생
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 팽창·저혈압·빈맥·FAST에서 비장 주위 액체는 복강 내 출혈을 의미하며, 혈역학적 쇼크가 진행 중이다. 가장 급선무는 수액으로 혈액량을 보충하는 것이다. 따라서 수액 소생이 최선 단계이다.
 
 ## 출처
 

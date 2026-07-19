@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 뇌실내 출혈(Intraventricular hemorrhage)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+미숙아에서 3일 차에 전형적인 뇌실내 출혈은 저혈압·양측 저긴장·전두부 팽창·불규칙 호흡을 동반한다. 이는 가장 흔한 원인이다.
 
 ## 출처
 

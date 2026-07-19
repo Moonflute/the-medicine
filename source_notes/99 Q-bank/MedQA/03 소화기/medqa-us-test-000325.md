@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부 CT
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+총담관 폐쇄에 의한 급성 담관염은 황달·복통·발열을 동반한다. ERCP는 폐쇄 부위를 즉시 확인하고 스텐트 삽입·배액이 가능하므로 치료적 진단으로 가장 적절하다. 따라서 ERCP가 정답이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. A와 B 모두
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+땅콩 섭취 후 급성 전신 증상(두드러기, 호흡곤란, 혈압 저하)이 나타난 경우 I형 과민반응인 아나필락시스가 발생한다. 이는 IgE 매개 즉시형 반응이다. 따라서 환자가 겪는 과민반응 유형은 I형-아나필락시스이다.
 
 ## 출처
 

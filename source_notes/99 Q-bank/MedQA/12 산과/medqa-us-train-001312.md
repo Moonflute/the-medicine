@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 치과 치료(Dental treatment)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발프로산은 태아 신경관 결손 및 저체중 위험을 크게 증가시킨다. 임신 중 발프로산 복용은 하부 척추 수술(신경관 결손 교정) 등 외과적 중재 필요성을 높인다. 따라서 하부 척추 수술이 가장 위험이 증가하는 중재이다.
 
 ## 출처
 

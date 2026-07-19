@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. AST, 아밀라아제, 리파아제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 췌장염 중증도는 Ranson 기준으로 나이, LDH, AST를 포함한다. 이 세 항목은 입원 48시간 내에 평가되는 주요 예후 인자이다. 따라서 나이·LDH·AST 조합이 중증도 예측에 가장 적합하다.
 
 ## 출처
 

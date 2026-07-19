@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 우측 시야 결손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+뇌 CT에서 소뇌와 뇌간을 포함한 후두부 출혈성 병변이 보이면, 소뇌와 뇌간을 담당하는 교대 운동을 수행하지 못하는 것이 전형적인 신경학적 결손이다. 따라서 반복적인 교대 운동 수행 불능이 예상된다.
 
 ## 출처
 

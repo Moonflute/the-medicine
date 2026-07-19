@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뚜렛증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 머리 빗기와 걸음 수 세기 같은 행동은 강박증의 강박행위이며, 간헐적 운동틱은 동반될 수 있다. 강박증은 불안 완화를 위해 수행되는 강박행위가 특징이다. 따라서 진단은 강박장애이다.
 
 ## 출처
 

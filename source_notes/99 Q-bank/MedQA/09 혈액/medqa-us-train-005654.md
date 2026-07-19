@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 적혈구의 CD55 및 CD59 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+스펙트린 결함은 적혈구막의 구조적 불안정성을 초래해 원형 적혈구와 용혈을 일으키며, 이는 적혈구 용적 증가와 고RDW를 동반한다. 환자의 용혈성 빈혈과 비장 비대는 스펙트린 결함에 부합한다. 따라서 적혈구막 스펙트린 결함이 가장 가능성 높은 원인이다.
 
 ## 출처
 

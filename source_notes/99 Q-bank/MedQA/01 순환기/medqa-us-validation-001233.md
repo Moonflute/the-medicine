@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 개방음과 중기~후기 이완기 잡음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+승모판 협착에서 특징적인 청진음은 개방음과 중기~후기 이완기 잡음이다. 이는 승모판이 좁아져 혈류가 급격히 감소할 때 발생한다. 정답은 개방음과 중기~후기 이완기 잡음이다.
 
 ## 출처
 

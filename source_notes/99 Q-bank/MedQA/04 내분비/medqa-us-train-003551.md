@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 흡연력
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흡연은 폐와 골의 골밀도 감소를 촉진해 골다공증 위험을 크게 높인다. 인종, BMI, 에스트로겐 치료도 위험인자이지만, 흡연이 가장 강력한 가변 위험요인이다. 따라서 흡연력이 골다공증 위험인자이다.
 
 ## 출처
 

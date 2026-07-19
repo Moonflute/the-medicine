@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 레보티록신 용량을 매주 5%씩 최대 50%까지 늘린다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 초기 갑상선 호르몬 요구량은 약 30~50% 증가한다. 현재 레보티록신 용량이 유지된 상태이므로 용량을 20~30% 늘려야 한다.
 
 ## 출처
 

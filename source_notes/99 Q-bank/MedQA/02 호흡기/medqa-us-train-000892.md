@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 호흡성 산증(respiratory acidosis)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자의 호흡곤란과 저산소증에 동반된 호흡성 산증은 가스 교환이 급격히 악화된 것을 의미한다. 호흡성 산증은 천식 악화 시 생명을 위협하는 위기 상태의 핵심 판단 기준이다. 따라서 호흡성 산증이 존재하면 life‑threatening asthma로 분류한다.
 
 ## 출처
 

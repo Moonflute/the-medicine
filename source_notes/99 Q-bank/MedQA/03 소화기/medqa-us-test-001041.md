@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 가성낭종 형성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 췌장염에서 염증성 매개체가 모세혈관 투과성을 증가시켜 혈관내액이 조직으로 빠져 복부 팽만과 저혈압을 일으킨다. 가장 가능성 높은 기전은 모세혈관 누출이다.
 
 ## 출처
 

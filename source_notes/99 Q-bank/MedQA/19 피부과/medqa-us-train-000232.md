@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 매독균(Treponema pallidum) 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+햇빛에 노출되지 않은 부위가 색소가 감소하고, 가슴·복부에 다수의 저색소 반점이 나타나는 것은 말라세지아(피부 곰팡이) 감염인 티아네스 베르시컬러의 전형적인 모습이다. 따라서 말라세지아 효모가 원인이다.
 
 ## 출처
 

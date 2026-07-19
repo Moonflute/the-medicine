@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 급성 췌장염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+SLE 환자에서 장관 혈관염으로 인한 장 허혈이 발생하면 급성 복통·설사·체중 감소가 나타난다. 혈압이 낮고 복부 압통이 경미하므로 장 허혈성 질환이 가장 가능성 높다.
 
 ## 출처
 

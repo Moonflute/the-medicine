@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 헨레고리 상행각 상피세포막의 Na⁺/K⁺/2Cl⁻ 수송체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+티아지드 이뇨제는 원위곡세관 상피세포의 Na⁺/Cl⁻ 공동수송체를 차단해 재흡수를 억제한다. 이 작용이 장관 평활근을 자극해 변비를 유발한다. 따라서 해당 약물의 세포 표적은 원위곡세관 Na⁺/Cl⁻ 공동수송체이다.
 
 ## 출처
 

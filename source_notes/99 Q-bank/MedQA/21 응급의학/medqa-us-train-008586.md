@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심전도의 새로운 ST 상승
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 기립성 저혈압(실신)으로 보이며, 저나트륨 배설이 특징이다. 따라서 소변에서 나트륨의 분획 배설이 감소한다는 것이 가장 가능성 높은 소견이다. 혈색소 감소는 빈혈, 요소 배설 증가는 신전증, ST 상승은 심근허혈과 관련된다.
 
 ## 출처
 

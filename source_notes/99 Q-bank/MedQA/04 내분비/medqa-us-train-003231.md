@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 혈청 혈관활성 장 펩타이드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복성 구내염·설사·체중감소와 함께 특이한 피부 병변(네크롤리틱 마이그레이트 에리마)은 글루카곤종(Glucagonoma)에서 흔히 나타난다. 글루카곤종을 확진하려면 혈청 글루카곤 농도를 측정하는 것이 가장 직접적인 검사이다. 따라서 정답은 혈청 글루카곤 검사이다.
 
 ## 출처
 

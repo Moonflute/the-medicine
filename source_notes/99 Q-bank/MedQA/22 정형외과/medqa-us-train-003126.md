@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 무릎 박리성 골연골염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경골 결절 부위에 통증과 압통이 있으며, 성장기 청소년에게 흔히 나타나는 견인성 골단염(Osgood‑Schlatter disease)이 가장 가능성 높다. 다른 선택지는 증상 부위와 일치하지 않는다.
 
 ## 출처
 

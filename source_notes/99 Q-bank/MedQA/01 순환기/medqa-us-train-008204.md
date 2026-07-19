@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 히드랄라진/이소소르비드 이질산염 추가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흑인 환자에서 HFrEF 치료에 하이드랄라진/이소소르비드 디니트레이트 조합이 사망률을 감소시킨다. 환자는 이미 ACE 억제제와 베타 차단제를 복용 중이므로, 이 조합을 추가하는 것이 권장된다. 따라서 정답은 하이드랄라진/이소소르비드 이질산염 추가이다.
 
 ## 출처
 

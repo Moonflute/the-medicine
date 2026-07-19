@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 입원 및 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 여부를 확인하지 않은 경우 급성 골반통의 가장 위험한 원인 중 하나가 임신성(특히 자궁외임신)이다. 혈청 hCG 검사는 빠르고 비침습적으로 임신을 배제하거나 확인한다. 다른 선택지는 불필요하거나 과도하다. 따라서 다음 적절한 조치는 혈청 hCG 검사이다.
 
 ## 출처
 

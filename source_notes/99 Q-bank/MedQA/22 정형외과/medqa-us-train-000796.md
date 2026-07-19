@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 발 휴식
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발뒤꿈치 압통은 플랜터 근막염을 시사하며, 초기 치료는 과도한 부하를 피하는 것이 가장 중요하다. 휴식이 통증 감소와 조직 회복을 촉진한다. 따라서 다음 관리 단계는 발 휴식이다.
 
 ## 출처
 

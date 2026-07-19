@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 조현병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 사회적 고립, 비현실적 사고, 감정 표현의 이상 등 조현형 인격장애의 특징을 보인다. 조현형 인격장애는 지속적인 대인관계 회피와 비현실적 사고가 특징이며, 조현병과는 양성 증상이 명확히 구분된다. 따라서 가장 가능성 높은 진단은 조현형 인격장애이다.
 
 ## 출처
 

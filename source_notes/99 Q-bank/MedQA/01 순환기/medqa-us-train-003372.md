@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 노르에피네프린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 울혈성 심부전에서는 폐부종과 말초 부종이 동반되며, 체액 과다를 빠르게 제거해야 한다. 루프 이뇨제인 푸로세미드가 가장 효과적인 1차 치료제이다. 따라서 가장 적절한 치료는 푸로세미드이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 티아지드 이뇨제 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+12mm 크기의 요관 결석이 요관을 부분적으로 막아 통증과 혈뇨를 일으키지만 신기능은 유지된다. 크기가 5‑10mm 사이이면 보존적 치료 후 자연 배출을 기대하므로 관찰이 적절하다. 따라서 다음 단계는 관찰이다.
 
 ## 출처
 

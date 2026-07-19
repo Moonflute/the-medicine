@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 빈크리스틴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 림프구성 백혈병(CLL) 1세대 BTK 억제제인 이마티닙은 기존 치료에 비해 효과가 낮으며, 플루다라빈은 BCL‑2 억제제로 CLL 치료에 1차 선택이다. 따라서 플루다라빈인 C가 최선의 치료이다.
 
 ## 출처
 

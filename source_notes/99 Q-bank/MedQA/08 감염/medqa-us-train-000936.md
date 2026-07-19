@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 예방접종 없음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HIV 감염자이지만 CD4 수가 480으로 면역이 비교적 보존돼 있어 MMR 백신(생백신)은 안전하게 접종할 수 있다. 다른 백신은 BCG는 금기, 황열은 여행 목적에 따라 필요하지만 면역 상태가 더 중요하다. 따라서 정답은 B이다.
 
 ## 출처
 

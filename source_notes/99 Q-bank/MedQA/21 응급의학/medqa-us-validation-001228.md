@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 온단세트론
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+화재 현장에서 흡입된 일산화탄소 중독은 혈중 CO 농도를 낮추기 위해 즉시 100% 산소를 투여해야 한다. 다른 처치는 일산화탄소 해독에 직접적 효과가 없다. 정답은 100% 산소이다.
 
 ## 출처
 

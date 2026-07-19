@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 약물 부작용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+카바마제핀은 골수 억제 부작용으로 전혈구감소증(빈혈·백혈구·혈소판 감소)을 일으킬 수 있다. 환자의 전혈구 감소와 망상적혈구는 약물 부작용을 가장 잘 설명한다. 정답은 약물 부작용이다.
 
 ## 출처
 

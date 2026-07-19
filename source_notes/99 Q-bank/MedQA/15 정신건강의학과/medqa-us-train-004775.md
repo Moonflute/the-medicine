@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 퇴행
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+남자친구에 대한 과도한 분노와 사랑을 동시에 표현하며 현실을 왜곡하는 것은 방어기제 중 분열(분열)이다. 이는 감정을 서로 다른 인격으로 나누어 처리한다. 억압·억제·퇴행은 해당 상황과 맞지 않는다.
 
 ## 출처
 

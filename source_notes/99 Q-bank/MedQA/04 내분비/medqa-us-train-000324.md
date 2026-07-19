@@ -22,11 +22,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -44,7 +46,8 @@ D. 양측 측두부 반맹
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압·두통·시각 이상을 동반한 급성 고혈압 위기(악성 고혈압)에서 발작성 고혈압과 두통이 흔히 동반되므로 가장 가능성이 높은 추가 소견이다.
 
 ## 출처
 

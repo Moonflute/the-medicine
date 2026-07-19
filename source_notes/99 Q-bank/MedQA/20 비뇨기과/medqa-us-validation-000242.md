@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 무스카린 길항제를 시작한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+방광내압검사에서 비자발적 방광수축이 관찰된 것은 배뇨근 과활동성(절박성 요실금)이며, 항무스카린제(항콜린성 약물)가 1차 치료제이다. 다른 선택지는 증상 개선에 직접적 효과가 없다. 따라서 무스카린 길항제 시작이 적절하다.
 
 ## 출처
 

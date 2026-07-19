@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전혈구검사와 총 혈청 IgE
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두피와 발에 비늘성 각질이 보이는 경우, 피부 사상균(특히 트리코피톤) 감염을 확인하려면 사부로 액체배지 배양이 가장 민감하고 정확한 검사이다. KOH 검사도 가능하지만 배양이 확진에 더 우수하다. 따라서 정답은 사부로 액체배지 배양이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 에틸렌글리콜
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈청 삼투압과 계산된 삼투압 차이(30 mOsm/kg)와 저칼슘, 옥살산칼슘 결석은 에틸렌글리콜 대사산물인 옥살산이 축적된 것을 시사한다. 에틸렌글리콜 중독은 대사성 산증과 신부전을 동반한다. 따라서 가장 가능성 높은 물질은 에틸렌글리콜이다.
 
 ## 출처
 

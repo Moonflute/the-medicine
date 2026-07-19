@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 조약돌 모양(cobblestoning) 및 건너뜀 병변(skip lesions)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+궤양성 대장염은 연속적인 병변이 특징이며, 직장까지 연속적으로 진행한다. 따라서 가장 가능성이 높은 특징은 직장에서 시작되는 연속적인 진행이다.
 
 ## 출처
 

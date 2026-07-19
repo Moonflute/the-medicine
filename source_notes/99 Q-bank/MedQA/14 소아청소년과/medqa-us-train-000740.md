@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 골간단(metaphysis)으로부터 깊은 근육면의 전위를 보이는 X-�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Ewing sarcoma는 골막 반응을 동반한 용해성 골 병변, 특히 ‘onion‑skin’ periosteal reaction이 특징이다. 따라서 가장 강력히 시사하는 X‑ray 소견은 periosteal reaction을 동반한 용해성 병변이다.
 
 ## 출처
 

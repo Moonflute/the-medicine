@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 변경이나 추가는 필요하지 않음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+라모트리진은 임신 중에도 비교적 안전하지만, 항경련제 복용 시 엽산 결핍으로 신경관 결손 위험이 증가한다. 임신을 계획 중인 여성에게는 고용량 엽산(5 mg) 보충이 권장된다. 따라서 항경련제는 유지하고 엽산을 추가하는 것이 필요하다.
 
 ## 출처
 

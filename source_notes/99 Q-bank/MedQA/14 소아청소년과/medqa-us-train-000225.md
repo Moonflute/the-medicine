@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 사회성 발달(Social skills)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+12개월 영아는 정상적으로 체중과 키가 증가하고, 대소변 조절, 보행, 물건 잡기 등 대운동·미세운동이 발달한다. 그러나 이 아이는 12개월에 7.9 kg으로 기대 체중(≈9–10 kg)보다 현저히 낮아 성장 지연을 보인다. 따라서 성장 지연이 가장 지연된 영역이다.
 
 ## 출처
 

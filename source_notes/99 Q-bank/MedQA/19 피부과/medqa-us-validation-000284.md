@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 편평세포암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손톱 밑에 검은색 비정상 색소가 보이며, 비대칭적이고 빠르게 성장하는 경우 악성 흑색종이 의심된다. 사진에서 보이는 특징은 흑색종에 부합한다. 따라서 악성 흑색종이 가장 가능성 높은 진단이다.
 
 ## 출처
 

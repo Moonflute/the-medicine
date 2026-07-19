@@ -16,11 +16,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 혈청 가스트린 수치 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 복통과 복부 반발통은 복막염을 의심하게 하며, 진단을 위해서는 복부·골반 CT가 가장 민감하고 빠른 영상법이다. 따라서 응급 복부 및 골반 CT 촬영이 최선의 조치이다.
 
 ## 출처
 

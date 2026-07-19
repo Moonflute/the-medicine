@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 경구 독시사이클린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+동공이 빛에 반응하지 않으며 근육 감각 저하와 보행 불안정은 신경매독(탭스 도르살리스)을 특징짓는다. 신경매독은 페니실린에 가장 잘 반응한다. 따라서 정맥 페니실린 투여가 적절하다.
 
 ## 출처
 

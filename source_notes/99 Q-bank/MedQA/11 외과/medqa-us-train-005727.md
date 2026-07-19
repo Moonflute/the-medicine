@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심혈관 위험인자를 조절하고 12개월 후 초음파 추적검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 대동맥류가 5 cm 이상으로 성장했으며, 주머니 모양이므로 파열 위험이 높다. 현재 크기와 형태는 혈관 내 복구술(EVAR) 적응 기준에 해당한다. 따라서 계획된 혈관 내 동맥류 복원술이 다음 단계이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 심근 이완 장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+좌심실 박출률이 정상(55%)이면서 후기 이완기 저음과 폐기저부 수포음은 이완기 기능 장애(보존된 EF의 심부전)와 일치한다. 이는 심근 이완 장애가 폐울혈을 일으키는 메커니즘이다. 따라서 가장 가능성 높은 원인은 심근 이완 장애이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경구 아시클로버
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+외음부에 양성 아세트산 반응을 보이는 병변은 회음부 사마귀(콘딜로마 첨형)이며, 표준 치료는 경구 아시클로버이다. 다른 옵션은 효과가 없다.
 
 ## 출처
 

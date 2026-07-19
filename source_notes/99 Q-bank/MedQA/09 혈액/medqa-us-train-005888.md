@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 산소 친화도가 높은 혈색소 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+하이드록시우레아는 2,3‑디인산(GDP) 농도를 증가시켜 산소 친화도가 높은 혈색소를 증가시킨다. 따라서 가장 가능성 높은 변화는 산소 친화도가 높은 혈색소 증가이다.
 
 ## 출처
 

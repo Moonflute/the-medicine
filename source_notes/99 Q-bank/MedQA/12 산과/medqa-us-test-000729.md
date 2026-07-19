@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 양두정골 길이
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 초기에는 초음파를 통한 머리-엉덩이 길이(HR) 측정이 태아의 재태연령을 가장 정확하게 추정한다. 이는 다른 신체 측정보다 일관된 성장 지표이다. 따라서 HR 길이가 가장 정확한 지표이다.
 
 ## 출처
 

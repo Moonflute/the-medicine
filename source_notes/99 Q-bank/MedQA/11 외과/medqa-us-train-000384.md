@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 정맥 내 세프트리악손(ceftriaxone) 및 반코마이신(vancomycin) �
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+3도 화상 환자는 감염, 탈수, 전해질 이상보다 화상 부위의 지속적인 관리와 감염 예방이 우선이다. 갑상선 치료나 항생제 투여는 현재 상황에 필요하지 않다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈소판 응집검사 시행
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+정상 혈소판 수와 경미한 빈혈이 있는 경우, 점막·피부 출혈은 혈소판 기능 이상을 의심하게 한다. 가장 중요한 초기 검사는 혈소판 응집 검사를 시행하여 기능 장애를 확인하는 것이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 인지 장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+측두동맥 압통은 거대세포성 동맥염(temporal arteritis)의 핵심 징후이며, 시각신경 허혈이 가장 위험한 합병증이다. 조기 스테로이드 치료는 관상동맥염에 의한 시신경 손상을 예방한다. 따라서 신속한 치료는 실명을 예방한다.
 
 ## 출처
 

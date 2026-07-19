@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메틸프레드니솔론 추가 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흡입기 중단으로 급성 중증 천식 악화가 발생했으며, 마그네슘 황산 투여 후에도 호흡근 피로와 저산소증이 진행돼 기계환기가 필요하다. 기관내 삽관은 호흡부전 예방과 가스 교환 회복에 필수적이다. 다른 선택지는 기도압력 감소나 추가 스테로이드 투여로는 급성 저산소증을 즉시 해결하지 못한다.
 
 ## 출처
 

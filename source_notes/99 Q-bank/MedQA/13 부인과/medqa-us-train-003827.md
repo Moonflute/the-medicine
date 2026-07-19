@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 영양 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+영양 결핍에 의한 저에너지 상태는 시상하부 GnRH 억제로 FSH·LH 감소와 무월경을 초래한다. 따라서 영양 결핍이 가장 가능성 높은 원인이다.
 
 ## 출처
 

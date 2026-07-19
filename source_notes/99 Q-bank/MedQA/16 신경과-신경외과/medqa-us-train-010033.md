@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 로피니롤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+철결핍성 빈혈에 동반되는 하지불안증후군은 도파민 수용체 기능 저하와 관련이 있어 로피니롤(도파민 작용제)로 증상이 완화된다. 철 보충만으로는 증상이 충분히 개선되지 않는다. 따라서 로피니롤이 적절한 약물이다.
 
 ## 출처
 

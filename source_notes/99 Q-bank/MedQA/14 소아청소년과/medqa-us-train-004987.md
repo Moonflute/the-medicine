@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. E
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+미숙아에서 장벽이 손상되고 가스가 장벽을 통과해 복부 방사선에 보이는 특징은 장벽 내 가스(폐쇄성 장염)이다. 이는 D(선택지 D)와 일치한다. 따라서 D가 가장 가능성 높은 소견이다.
 
 ## 출처
 

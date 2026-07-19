@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프로락틴 수치 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+월경불순이 무배란에 의한 경우, 프로게스테론을 투여 후 철회시 출혈이 없으면 에스트로겐 결핍을 의미한다. 프로게스테론 철회검사는 배란 여부를 직접 확인하는 가장 직접적인 검사이다. 따라서 월경불순 원인 판단에 가장 도움이 된다.
 
 ## 출처
 

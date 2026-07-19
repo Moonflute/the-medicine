@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 경피적 수술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조기 동맥관 개존증(PDA)에서 지속적인 4/6 잡음이 들리며, 신생아에서 약물 폐쇄는 인도메타신이 표준 치료이다. 인도메타신은 프로스타글란딘 합성을 억제해 관류를 감소시킨다. 따라서 다음 단계는 인도메타신 주입이다.
 
 ## 출처
 

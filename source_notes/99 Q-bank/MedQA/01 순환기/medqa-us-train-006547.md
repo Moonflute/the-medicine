@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프로카인아미드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+넓고 단형, 톱니 모양 QRS는 무맥성 전기활동을 나타내는 무맥성 전기활동(VT)이며, 재분극 억제제로 아미오다론이 재발성 다형성 VT 위험을 감소시킨다. 따라서 아미오다론이 적절한 약물이다.
 
 ## 출처
 

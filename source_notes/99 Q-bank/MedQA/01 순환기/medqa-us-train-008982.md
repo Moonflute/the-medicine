@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 일시적 또는 영구적 심박동기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심근경색 후 좌심실 기능부전으로 심실세동이 발생했으며, 전기적 재발 위험이 높다. 재발 방지를 위해 삽입형 제세동기(ICD)가 권장된다. 따라서 삽입형 제세동기가 적절한 다음 처치이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 나프실린과 메트로니다졸 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+스텐트 삽입 후 급성 세균성 침샘염은 Staphylococcus aureus에 의해 발생하며, 치료는 항생제(나프실린)와 구강 내 세균 억제를 위한 메트로니다졸이 필요하다. 외과적 시술은 필요하지 않다.
 
 ## 출처
 

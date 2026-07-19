@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Td와 파상풍 면역글로불린 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+오염된 천자상은 파상풍 위험이 높으며, 최신 Td 접종이 없을 경우 Td와 파상풍 면역글로불린을 동시에 투여한다. 따라서 정답은 D이다.
 
 ## 출처
 

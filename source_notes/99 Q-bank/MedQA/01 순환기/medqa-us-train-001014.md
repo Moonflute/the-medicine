@@ -15,11 +15,13 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 심실 동맥류(Ventricular aneurysm)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흉통이 호흡 시 악화되고 전신성 ST 상승이 없으며, 심전도에서 저전압 마찰음과 경미한 트로포닌 상승은 급성 심낭염을 시사한다. 급성 심낭염의 주요 합병증은 심장 압박(심낭압전)이다.
 
 ## 출처
 

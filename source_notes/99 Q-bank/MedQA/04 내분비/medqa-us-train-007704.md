@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 펜터민과 토피라메이트 치료 후 3개월 뒤 추적
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+BMI 42 kg/m²인 환자는 병적 비만이며, 약물·행동 요법으로 체중 감소가 이루어지지 않았다. 비만대사수술(바리어트릭)은 BMI ≥ 40 kg/m²에서 권장되는 치료이다. 따라서 다음 적절한 처치는 비만대사수술이다.
 
 ## 출처
 

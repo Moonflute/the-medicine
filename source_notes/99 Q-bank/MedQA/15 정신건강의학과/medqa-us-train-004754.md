@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대마초 사용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조현병에서 급성 악화 시 예후를 좋게 하는 요인은 증상이 급성으로 발현된 경우이며, 이는 치료 반응이 빠르고 회복 가능성이 높다. 따라서 급성 발현이 좋은 예후 요인이다.
 
 ## 출처
 

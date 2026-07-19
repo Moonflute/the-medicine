@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 오스굿-슐라터병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+슬개 전 윤활낭에 국소적인 부종과 통증이 있으며 관절선 압통이 없고 움직임 제한이 주로 굴곡에 국한되는 것이 특징이다. 이는 관절 내 염증이 아닌 윤활낭염을 시사한다. 따라서 슬개전 윤활낭염이 가장 가능성 높은 진단이다.
 
 ## 출처
 

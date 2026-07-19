@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. B군 연쇄상구균 배양을 위한 질·직장 면봉검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+36주 임산부에게는 신생아 감염 예방을 위해 B군 연쇄상구균(GBS) 선별검사가 표준이다. 질·직장 스와브를 이용한 배양검사는 출산 전 35‑37주에 시행한다. 따라서 다음 단계는 GBS 배양검사이다.
 
 ## 출처
 

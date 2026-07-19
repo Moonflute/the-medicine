@@ -18,11 +18,13 @@ question_type: other
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 평균 증가, 중앙값 증가, 최빈값 유지
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+10 lb 2 oz(162 oz)의 이상치가 평균을 올리지만 중앙값은 7 lb 2 oz(114 oz)인 7명에 의해 유지되고, 최빈값도 7 lb 2 oz에 머문다. 따라서 평균 ↑, 중앙값 유지, 최빈값 유지가 가장 가능하다.
 
 ## 출처
 

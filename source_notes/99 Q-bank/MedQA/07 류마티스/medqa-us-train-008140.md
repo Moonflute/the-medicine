@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 나프록센
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 무릎 부위의 발적·통증·열감은 관절내 삼출액을 분석해 감염 여부를 확인해야 하는 의심되는 골관절염이다. 관절천자는 진단적·치료적 필수 절차이며, 영상검사나 진통제만으로는 충분하지 않다. 따라서 관절천자가 가장 적절한 다음 조치이다.
 
 ## 출처
 

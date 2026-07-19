@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대퇴골 무혈성 괴사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무릎을 급격히 굽히며 ‘뚝’ 소리가 난 뒤 즉시 무릎을 펴지 못하고 통증이 심한 것은 대퇴사두근건 파열을 나타낸다. 최근 전신 스테로이드 투여는 힘줄 파열 위험을 크게 증가시킨다. (반월상연골 파열은 관절 내 소리와 움직임 제한이 주된 특징이다)
 
 ## 출처
 

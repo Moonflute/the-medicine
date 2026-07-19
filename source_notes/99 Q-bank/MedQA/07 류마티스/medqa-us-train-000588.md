@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 콜히친(Colchicine)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+관절액에 단백질 결정(모노소듐 우레이트)이 보이면 통풍을 의미한다. 급성 통풍 발작에서는 콜히친이 1차 치료이며, 알로퓨리놀은 급성기에 사용하지 않는다. 따라서 콜히친 단독 투여가 적절하다.
 
 ## 출처
 

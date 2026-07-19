@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. Ornithine transcarbamolase
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아에서 저혈당, 구토, 발작, 달콤한 냄새는 알도올레이스 B 결핍에 의한 선천성 과당 불내증을 시사한다; 따라서 알도올레이스 B가 가장 결핍된 효소이다.
 
 ## 출처
 

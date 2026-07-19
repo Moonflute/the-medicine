@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뇌척수액 유출로 폐쇄
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+제4뇌실 내 종양이 CSF 흐름을 차단하면 뇌실계가 확장되고, 뇌실 내 압력이 상승해 시신경유두부종이 나타난다. 이는 CSF 배출로 폐쇄가 원인인 폐쇄성 수두증의 전형적 병인이다. 따라서 CSF 유출로 폐쇄가 가장 가능성 높은 기전이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 정맥 단트롤렌
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+리튬 중독은 신경학적 증상과 저나트륨 혈증을 동반하며, 혈액투석이 가장 효과적인 해독 방법이다. 위장관 세척은 리튬 흡수를 막지 못하고, 디아제팜·단트롤렌은 증상을 완화하지 않는다. 따라서 혈액투석이 가장 적절한 치료이다
 
 ## 출처
 

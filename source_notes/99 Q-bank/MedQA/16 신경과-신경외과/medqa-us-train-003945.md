@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. PSA 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양쪽 다리 방사통·근력 저하·감각 감소는 양측 요추 디스크 탈출에 의한 신경근 압박을 시사한다. 정확한 병변 확인을 위해 요추 MRI가 필요하다. 따라서 B가 정답이다.
 
 ## 출처
 

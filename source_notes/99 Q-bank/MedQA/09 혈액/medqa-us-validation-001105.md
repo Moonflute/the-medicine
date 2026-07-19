@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 거대 혈소판
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+용혈성 요독 증후군에서는 파괴된 적혈구가 비정상적인 형태인 분절 적혈구(schistocytes)를 보인다. 이는 미세혈관 내에서 기계적 파괴에 의한 특징적인 소견이다. 따라서 말초혈액도말에서 분절 적혈구가 예상된다.
 
 ## 출처
 

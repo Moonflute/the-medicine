@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고박출성 심부전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+승모판 협착은 좌심방 압력 상승으로 심방 비대와 전도계 변화를 일으켜 심방세동·심실세동 등 부정맥 위험을 크게 높인다. 환자는 승모판 협착에 따른 심잡음과 호흡곤란을 보이며, 가장 흔한 합병증은 심장 부정맥이다.
 
 ## 출처
 

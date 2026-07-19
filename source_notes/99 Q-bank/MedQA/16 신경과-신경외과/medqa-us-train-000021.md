@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 가장 가능성 있는 진단은 원추 증후군(conus medullaris syndrome)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+허리 통증, 안장 마취, 하반신 약화, 저반사 등은 cauda equina syndrome을 나타낸다. 이 응급 상황에서는 MRI 촬영 전에 스테로이드 치료를 시작해 신경 손상을 최소화한다. 따라서 가장 가능성 있는 진단은 cauda equina syndrome이며, MRI 전에 스테로이드를 시작한다.
 
 ## 출처
 

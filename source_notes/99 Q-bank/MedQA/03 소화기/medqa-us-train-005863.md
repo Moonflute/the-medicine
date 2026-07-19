@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 리파아제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Ranson 점수에서 백혈구 수는 초기 중증도 평가 항목이며, 백혈구 >16,000/mm³은 사망률 증가와 직접적으로 연관된다. 따라서 백혈구 수가 사망률 증가와 가장 관련된 검사이다.
 
 ## 출처
 

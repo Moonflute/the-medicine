@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 무기질코르티코이드 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+시술 후 저나트륨혈증에서 혈청 삼투압이 낮고 소변 삼투압이 높으며 소변 나트륨이 증가한 것은 부적절한 항이뇨호르몬 분비(SIADH)를 시사한다. 뇌수술 후 ADH 과다분비가 흔히 발생한다. 따라서 가장 가능성 높은 원인은 SIADH이다.
 
 ## 출처
 

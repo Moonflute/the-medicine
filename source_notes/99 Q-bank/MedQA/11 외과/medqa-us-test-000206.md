@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. III, IV
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비장은 혈액 내 캡슐성 세균(특히 폐렴구균, 헤모필루스 인플루엔자)과 수막구균에 대한 면역을 담당한다. 비장을 절제하면 이러한 캡슐성 세균에 대한 장기 면역이 크게 감소한다. 따라서 비장절제술 후에는 폐렴구균과 수막구균에 대한 백신을 반드시 접종한다. 정답은 I, III, IV를 포함하는 B이다.
 
 ## 출처
 

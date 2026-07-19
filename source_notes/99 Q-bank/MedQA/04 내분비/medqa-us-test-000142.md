@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 하추체정맥동 채혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ACTH가 낮고 코르티솔이 고인 상황에서 고용량 덱사메타손 억제에 반응하지 않으면 부신 종양에 의한 ACTH 비의존성 쿠싱이 의심된다. 부신 MRI가 진단에 필수이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 100%
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+입원 시 5점(Ranson) 이상이 2점(연령>55, 혈당>200, LDH>350, AST>250, WBC>16)이고 48시간 후 2점(칼슘<8, PaO2<60, 베이스엑시드>4, 혈액량 감소>10%)을 더하면 총 4점이 된다. 4점에 해당하는 사망률은 약 15%이다. 따라서 전체 사망 위험은 15%이다.
 
 ## 출처
 

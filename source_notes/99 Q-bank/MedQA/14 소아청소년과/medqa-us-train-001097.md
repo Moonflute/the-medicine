@@ -16,11 +16,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 페니실린 G(Penicillin G) 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+채식주의자에게 흔히 발생하는 비타민 B12 결핍은 빈혈·신경학적 증상(감각 저하·운동 실조)을 일으킨다. 임신 전 B12 보충이 이러한 결핍을 예방할 수 있다. 따라서 예방에 가장 효과적인 것은 비타민 B12 보충이다.
 
 ## 출처
 

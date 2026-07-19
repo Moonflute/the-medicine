@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메틸말론산
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+빈혈이 거대적혈구성(MCV 110 fL)이고 비건 식단으로 비타민 B12 결핍이 의심될 때, 혈청 메틸말론산 수치는 B12 결핍을 특이적으로 반영한다. 따라서 메틸말론산 측정이 가장 도움이 된다.
 
 ## 출처
 

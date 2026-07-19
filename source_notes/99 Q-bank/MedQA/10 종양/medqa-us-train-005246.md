@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지금 유방촬영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+평균 위험 여성은 50세부터 1~2년 간격으로 유방촬영술을 시작한다. 실리콘 보형제 삽입 자체가 조기 검사를 필요하게 하지 않으며, 현재는 35세이므로 바로 촬영할 필요가 없다. 따라서 50세에 유방촬영술을 시작하는 것이 적절하다. 대장내시경은 45세부터 권고되므로 지금 바로 시행할 필요는 없다.
 
 ## 출처
 

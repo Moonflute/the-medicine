@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 폐렴사슬알균
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+겨울철 외출 시 악화되는 지속적 콧물과 비강 세포검사에서 호산구 증가 및 부은 비갑개는 알레르기성 비염의 전형적인 소견이다. 환경 알레르겐에 대한 IgE 매개 반응이 비강 점막을 부풀게 하고 호산구를 침윤시킨다. 따라서 가장 가능성 높은 진단은 환경 알레르겐에 의한 알레르기성 비염이다.
 
 ## 출처
 

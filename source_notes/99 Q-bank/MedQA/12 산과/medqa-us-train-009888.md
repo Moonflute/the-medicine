@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 완전 침상 안정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+자궁경부가 닫혀 있고 초음파에서 정상적인 태아 심장 활동이 확인된 경우, 이는 위협성 유산이며 대부분 자연적으로 진행된다. 따라서 안심시키고 추적 초음파를 시행하는 것이 적절하다.
 
 ## 출처
 

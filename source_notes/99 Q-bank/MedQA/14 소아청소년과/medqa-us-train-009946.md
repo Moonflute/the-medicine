@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심첨부의 중수축기 클릭을 동반한 후기 수축기 상승형 잡�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+터너 증후군(45,X) 환자는 골격계에서 혈류 잡음이 청진될 수 있으며, 특히 견갑골 사이에서 지속적인 혈류 잡음이 들린다. 이는 대동맥 협착에 동반되는 혈류 변화와 일치한다. 다른 선택지는 해당 소견과 맞지 않는다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경계성 인격장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+주요 단서는 남자친구와의 이별 후 스스로 의사결정을 못하고 부모에게 모든 일정을 맡기며 불안해한다는 점이다. 이는 타인에게 과도하게 의존하고 스스로 결정을 회피하는 행동양식으로, 의존성 인격장애의 핵심 특징이다. 따라서 정답은 의존성 인격장애이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 금식, 정맥 수액, 진통제, 항생제 및 72시간 이내 담낭절제�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 담낭염 환자는 72시간 이내에 복강경 담낭절제술을 시행하는 것이 감염·합병증 위험을 최소화한다. 24~48시간 내 수술도 가능하지만 72시간 이내가 권장된다.
 
 ## 출처
 

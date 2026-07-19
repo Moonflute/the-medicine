@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 식이 조절
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+눈꺼풀 염증과 각질이 주된 증상이며, 온찜질과 눈꺼풀 위생(청결)만으로 대부분 호전된다. 항생제보다 보존적 관리가 우선이다. 따라서 가장 적절한 조치는 눈꺼풀 위생과 온찜질이다.
 
 ## 출처
 

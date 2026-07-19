@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 사이클로포스파미드와 프레드니솔론
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+루푸스 신염에서 미만성 증식성 사구체신염(IV등급)은 신기능 저하와 단백뇨가 동반되며, 치료는 사이클로포스파미드와 프레드니솔론을 이용한 강력한 면역억제제 투여가 표준이다.
 
 ## 출처
 

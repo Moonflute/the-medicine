@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 다산(Multiple pregnancies)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다산은 임신·수유 기간 동안 에스트로겐 노출을 감소시켜 유방암 위험을 낮춘다. 따라서 다산(다중 임신)이 유방암 위험 감소와 연관된다. (비만은 오히려 유방암 위험을 증가시킨다)
 
 ## 출처
 

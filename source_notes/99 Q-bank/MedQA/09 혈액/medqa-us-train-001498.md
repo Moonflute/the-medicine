@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 용혈성요독증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+SS-헤모글로빈 환자에서 비장 비대와 빈혈이 동반될 때 가장 흔한 원인은 적혈구가 비장에 의해 파괴되는 혈관외 용혈이다. 이는 적혈구가 비장에 포획되어 파괴되면서 비장이 커지는 메커니즘이다. 따라서 혈관외 용혈이 가장 가능성 높은 원인이다.
 
 ## 출처
 

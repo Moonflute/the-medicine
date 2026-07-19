@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 히드로클로로티아지드 치료 시작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심부전 악화와 신기능 저하가 동반된 환자는 메트포르민이 젖산산증 위험을 높이므로 즉시 중단해야 한다. 따라서 메트포르민 치료 중단이 가장 적절한 조치이다.
 
 ## 출처
 

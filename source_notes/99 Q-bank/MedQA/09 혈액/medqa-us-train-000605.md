@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 허혈성 뇌졸중(Ischemic stroke)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HbS 43%와 HbA 55%는 겸상 적혈구 질환이 아닌 겸상 적혈구 보인자(sickle cell trait)를 의미한다. 보인자는 일반적으로 무증상이지만, 저산소 상태에서 적혈구가 겸상화되어 신우피질 괴사(renal papillary necrosis) 위험이 증가한다. 따라서 가장 위험도가 높은 질환은 신유두 괴사이다.
 
 ## 출처
 

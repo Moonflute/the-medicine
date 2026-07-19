@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세균성 중복감염을 동반한 부비동염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+한쪽 코에서 피가 섞인 화농성 분비물은 코 안 이물질에 의해 점막 손상이 일어난 경우가 흔하다. 이물질이 남아 있으면 지속적인 출혈과 감염이 발생한다. 따라서 코 안 이물질이 가장 가능성 높은 진단이다.
 
 ## 출처
 

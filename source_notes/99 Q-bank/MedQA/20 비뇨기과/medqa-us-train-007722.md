@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 방광경 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전립선이 매끄럽게 확대되고 배뇨 증상이 경증이며 PSA 정상인 경우, 1차 치료는 α‑차단제인 테라조신으로 요도 저항을 감소시켜 증상을 완화한다. 따라서 다음 단계는 테라조신 치료이다.
 
 ## 출처
 

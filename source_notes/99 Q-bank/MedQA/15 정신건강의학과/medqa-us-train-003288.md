@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 반응시간 저하
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대마초 중독 시 결막 충혈, 구강 건조, 맥박·혈압 상승이 흔히 나타나며 반응시간이 저하되는 신경학적 징후가 동반된다. 다른 선택지는 대마초 중독과 일치하지 않는다. 따라서 정답은 D이다.
 
 ## 출처
 

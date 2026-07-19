@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비REM 수면 각성장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+노인에서 저녁에 졸음이 심하고 일찍 피곤해지는 패턴은 전진 수면위상 증후군(Advanced Sleep Phase Syndrome)과 일치한다. 이는 수면-각성 주기가 앞당겨지는 것이 원인이다. 따라서 전진 수면위상 증후군이 가장 가능성 높은 진단이다.
 
 ## 출처
 

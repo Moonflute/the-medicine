@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 유충 낭종(larval cysts)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ALS는 운동 뉴런 손실로 인한 근육 위축, 경련, 과다반사, 강직을 보이며, 근육 생검에서 재신경지배와 재신경화가 나타난다. 이는 근섬유 재지배와 재신경화 소견에 해당한다. 따라서 가장 가능성 높은 소견은 근육의 신경절거 및 재신경지배이다.
 
 ## 출처
 

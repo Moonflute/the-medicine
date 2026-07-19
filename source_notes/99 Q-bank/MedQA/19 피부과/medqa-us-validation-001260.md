@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 국소 클로트리마졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+옴(스카비) 진드기에 의한 감염은 국소 퍼메트린 크림이 진드기를 빠르게 사멸시켜 가려움과 발진을 가장 효과적으로 치료한다. 따라서 퍼메트린이 정답이다.
 
 ## 출처
 

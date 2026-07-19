@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 펜톨아민
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 중 급성 고혈압 위기는 갈색세포종(카테콜아민 과다 분비 종양)에서 발생한다. 페녹시벤자민은 알파 차단제로 혈관을 확장시켜 혈압 상승을 예방한다. 따라서 페녹시벤자민이 예방에 가장 효과적이다.
 
 ## 출처
 

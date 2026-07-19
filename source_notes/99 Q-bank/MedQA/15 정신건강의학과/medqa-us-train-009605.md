@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. “많이 괴로워 보입니다. 검사에서 약물이나 수술로 해결�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 손목 통증과 변형된 감각을 호소하지만 신체적 검진과 영상에서 이상이 없으며, 조현병 병력이 있다. 공감적 경청과 증상에 대한 탐색적 질문이 치료적 관계를 형성하는 첫 단계이다. 따라서 가장 적절한 반응은 환자의 느낌을 인정하고 자세히 물어보는 것이다.
 
 ## 출처
 

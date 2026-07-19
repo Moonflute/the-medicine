@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 독성 간 대사산물
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 저혈압과 빈맥을 동반한 쇼크 상태에서 간 효소가 급격히 상승하였다. 저혈압에 의한 간관류 감소가 간세포 허혈을 일으켜 AST/ALT가 급격히 상승하는 ‘쇼크 간’(ischemic hepatitis)이다. 따라서 이전 저혈압이 검사실 이상을 가장 잘 설명한다.
 
 ## 출처
 

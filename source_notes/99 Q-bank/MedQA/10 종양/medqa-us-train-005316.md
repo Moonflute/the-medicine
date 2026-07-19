@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 리튬
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소세포폐암은 항이뇨호르몬(ADH) 과다 분비를 유발해 SIADH를 일으키며, 저나트륨혈증(120 mEq/L)과 저삼투압(250 mOsm/kg) 및 높은 소변 Na⁺와 삼투압을 보인다. 약물이나 감염이 아닌 암 자체가 원인이다. 따라서 정답은 A, 암종이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부 팽만감
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+좌심부전에서는 폐 정체가 있어 폐기저부에서 수포음(크레피테이션)이 흔히 들리지만, 오른쪽 심부전에서는 간정맥 충만 등 다른 소견이 나타난다. 따라서 폐기저부 수포음이 좌심부전에서 더 흔한 소견이다.
 
 ## 출처
 

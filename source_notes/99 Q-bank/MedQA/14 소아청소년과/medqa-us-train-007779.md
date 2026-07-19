@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부 초음파를 반복 시행
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복벽을 통해 장기가 외부로 돌출된 오몰라셀은 Beckwith‑Wiedemann 증후군과 연관된 선천성 결함이며, 이 경우 복부 초음파를 반복해 종양(Wilms 종양 등) 발생을 감시해야 한다. 혈청 IGF‑1이나 17‑OH프로그라스테론은 진단에 필요 없으며, 두부 MRI는 관련이 없다.
 
 ## 출처
 

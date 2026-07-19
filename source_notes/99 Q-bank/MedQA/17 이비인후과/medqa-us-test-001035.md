@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 과도한 비주 노출로 인한 비강 공기 흐름 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+코성형 후 비중격에 혈종이 형성되어 천공이 생기면 공기 흐름이 변해 휘파람 소리가 난다. 가장 가능성 높은 원인은 비중격 혈종에 의한 천공이다.
 
 ## 출처
 

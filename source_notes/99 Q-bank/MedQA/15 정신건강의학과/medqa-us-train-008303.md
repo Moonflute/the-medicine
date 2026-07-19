@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자살사고 평가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+노인에서 우울증 증상이 나타나면 자살 위험을 먼저 평가해야 하며, 급성 자살 위험이 있으면 즉시 평가와 안전 계획을 수립한다. 따라서 가장 적절한 초기 조치는 자살 사고 평가이다.
 
 ## 출처
 

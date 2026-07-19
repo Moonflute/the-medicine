@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 헤파린과 와파린을 계속하고 비타민 K를 투여한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 SVT(심박수 194)이며 카르디오버전으로도 종료되지 않는다. 베라파밀은 칼슘채널 차단제로 급성 SVT에 효과적인 2차 치료제이다. 따라서 베라파밀 투여가 다음 단계이다.
 
 ## 출처
 

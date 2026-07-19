@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 주석산 저항성 산성 인산분해효소(TRAP) 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 HIV 감염, B 증상, 전신 림프절 비대와 빈혈·혈소판 감소를 보이며 조직검사에서 림프종이 의심된다. HIV 환자에서 가장 흔한 비호지킨 림프종은 B세포 기원이며, C형 간염은 관련이 없고 JAK2 돌연변이는 골수증식성 질환에, TRAP는 헤지킨 림프종에 해당한다. 따라서 C형 간염 항체 검사가 가장 적절한 다음 검사이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 발프로산나트륨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+본태성 떨림은 활동성(동작 시) 떨림이며, 프리미돈은 GABA‑B 수용체 작용제로 가장 효과적인 1차 치료제이다. 베타 차단제는 진전 억제에 제한적이며, 다른 약물은 적절치 않다. 따라서 프리미돈이 적절한 치료이다.
 
 ## 출처
 

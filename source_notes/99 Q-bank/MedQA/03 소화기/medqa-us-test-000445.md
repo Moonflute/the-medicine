@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소생술을 시작하기 위해 판사의 긴급 명령을 받는다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 의식이 명료하고 치료를 원한다는 의사를 명확히 표현했으며, 의사결정능력이 보존되어 있다. 따라서 환자의 의사를 존중해 치료를 진행한다.
 
 ## 출처
 

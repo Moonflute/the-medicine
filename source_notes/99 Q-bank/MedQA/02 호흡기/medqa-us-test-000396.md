@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 질류톤을 하루 두 번 추가한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+6세 천식 환자가 증상이 악화되고 SABA 사용이 증가하면 흡입 스테로이드(플루티카손)를 매일 추가해 기저 염증을 억제해야 한다. 이는 단계 3 치료에 해당한다. 따라서 B가 정답이다.
 
 ## 출처
 

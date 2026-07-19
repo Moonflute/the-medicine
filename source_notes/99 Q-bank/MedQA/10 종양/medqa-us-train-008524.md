@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 유방 MRI를 의뢰한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+BRCA1/2 양성 변이를 가진 여성은 연 1회 유방촬영술·연 1회 MRI·6개월마다 임상 검진·월간 자가 검진이 권고된다. 연 1회 초음파만으로는 충분하지 않다. 따라서 가장 적절한 선별검사는 6개월마다 임상 검진, 연 1회 유방촬영술·MRI, 자가 검진이다.
 
 ## 출처
 

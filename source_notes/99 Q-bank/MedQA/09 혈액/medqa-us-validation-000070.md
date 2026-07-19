@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 현재 약물 예방이 필요하지 않다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 골수성 백혈병 치료 후 호중구 감소는 감염 위험을 크게 높인다. 시프로플록사신은 호중구 감소증 환자에게 감염 예방을 위해 권장되는 항생제이다. 따라서 가장 적절한 투여는 시프로플록사신이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 트라넥삼산
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+와파린 시작 후 급성 피부 괴사는 단백질 C 농도 급감으로 인한 혈전성 미세혈관 폐쇄가 원인이다. 단백질 C 농축제는 결핍을 보충해 혈전 형성을 억제하고 괴사 진행을 멈춘다.
 
 ## 출처
 

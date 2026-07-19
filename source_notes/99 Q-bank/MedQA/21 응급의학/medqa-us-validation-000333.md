@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 제1형 과민반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+척추마취 후 급성 저혈압·서맥·피부 홍조는 교감신경 차단에 의한 혈관 긴장 소실이 원인이다. 이는 교감신경성 혈관긴장 소실로 인한 전신 혈관 확장과 심박수 감소를 설명한다. 따라서 가장 가능성 높은 원인은 교감신경성 혈관긴장 소실이다.
 
 ## 출처
 

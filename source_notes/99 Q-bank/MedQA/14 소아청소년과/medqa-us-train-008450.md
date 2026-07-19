@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프레임시프트 돌연변이
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Duchenne 근이영양증은 프레임시프트 돌연변이로 디스트로핀 결핍이 가장 흔하며, 프레임시프트가 가장 심한 임상 양상을 초래한다. 따라서 프레임시프트 돌연변이가 가장 심한 표현형을 일으킨다.
 
 ## 출처
 

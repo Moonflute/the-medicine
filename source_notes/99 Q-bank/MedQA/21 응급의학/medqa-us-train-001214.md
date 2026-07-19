@@ -16,11 +16,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 외상 후 혈관 연축
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+외상 후 교감신경계가 과활성화되면 심박수 감소와 고혈압(불규칙 맥박·고혈압) 같은 교감성 반응이 나타난다. 이는 뇌압 상승이 없고 흉강 내 압력도 정상인 상황에서 설명된다. 따라서 고혈압의 근본 원인은 교감신경 반응 증가이다.
 
 ## 출처
 

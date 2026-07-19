@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 오르니틴 트랜스카바밀레이스 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대사성 산증에서 혈청 HCO₃⁻ 감소와 정상 양이온 차는 원위 세뇨관에서 수소 이온 분비가 손상된 경우와 일치한다. 원위 세뇨관의 수소 이온 분비 불능이 원인이다. 따라서 정답은 원위 세뇨관의 수소 이온 분비 불능이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정신치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+거미공포증은 특정공포증이며, 가장 효과적인 치료는 체계적 노출을 통한 탈감작이다. 점진적으로 거미에 노출시켜 불안 반응을 감소시키는 원리이다. 따라서 정답은 탈감작이다.
 
 ## 출처
 

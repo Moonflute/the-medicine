@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 목덜미 투명대 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 10주에 다운증후군 위험을 확정하려면 태아의 염색체 이상을 직접 확인해야 한다. 융모막융모검사는 태아 조직을 채취해 염색체 분석을 할 수 있는 확정적 검사가 된다.
 
 ## 출처
 

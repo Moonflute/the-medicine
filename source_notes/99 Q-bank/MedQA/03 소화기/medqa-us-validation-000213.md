@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대변 삼투성 간격 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+프로즌 요구르트 섭취 후 증상이 나타난 점과 유제품에 대한 전형적인 복부 팽만·설사는 유당불내증을 시사한다. 유당불내증은 락타아제 결핍으로 유당을 소화하지 못해 발생하므로, 유당 제한식이 가장 효과적인 관리법이다. 따라서 유당 제한식이 적절한 처치이다.
 
 ## 출처
 

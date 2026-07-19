@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기능적 잔기량(FRC) 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+천식 환자는 폐 과팽창으로 인해 총폐용량(TLC)이 증가한다. 폐기능 검사에서 TLC 증가가 관찰되면 폐쇄성 기도 질환을 시사한다. 따라서 가장 가능성 높은 소견은 TLC 증가이다.
 
 ## 출처
 

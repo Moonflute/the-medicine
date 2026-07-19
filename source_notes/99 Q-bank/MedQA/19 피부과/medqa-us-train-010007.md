@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이 상태는 보통 두피, 얼굴, 귀, 목에 발생한다.
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 가려운 발진은 피부 장벽 손상에 기인한 아토피성 피부염이며, 과도한 목욕(뜨거운 물, 장시간, 빈번)으로 피부가 건조해져 악화된다. 따라서 과도한 목욕이 원인임을 설명하는 것이 적절하다.
 
 ## 출처
 

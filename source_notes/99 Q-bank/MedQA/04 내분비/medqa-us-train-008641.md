@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세포내 수용체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+부갑상선 호르몬은 Gs 단백질을 통해 adenylate cyclase를 활성화하고 cAMP를 증가시킨다. 저칼슘증 후 결핍된 PTH 신호전달 경로는 고리형 cAMP이다.
 
 ## 출처
 

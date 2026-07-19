@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 외과적 감압술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전이성 유방암 환자에서 등·다리 통증과 감각 저하가 나타나는 경우, 척수 압박이 의심되며 MRI 확인 전까지는 방사선 치료가 급히 시행된다. 외과적 감압술은 MRI 확인 후 고려한다. 따라서 방사선 치료가 적절하다.
 
 ## 출처
 

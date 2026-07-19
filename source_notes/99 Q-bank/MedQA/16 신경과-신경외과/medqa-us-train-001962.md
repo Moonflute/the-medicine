@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흡인성 폐렴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+프리드리히 운동실조는 진행성 심근병증을 일으키며, 사망 원인으로 가장 흔한 것은 심부전이다. 따라서 가장 가능성 높은 사망 합병증은 심부전이다. 다른 선택지는 이 질환과 연관성이 낮다.
 
 ## 출처
 

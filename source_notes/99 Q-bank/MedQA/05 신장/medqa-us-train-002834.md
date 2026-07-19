@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 소변 알칼리화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+감염된 요로결석은 급성 신우신염과 결석이 동시에 존재하므로, 장벽 파열 위험이 있어 즉시 외과적 제거와 항생제 치료가 필요하다. 단순 수액·진통은 충분하지 않다.
 
 ## 출처
 

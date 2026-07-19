@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈관성 치매
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CT에서 보이는 15 mm 초승달형 고밀도 병변은 만성 경막하혈종을 의미한다. 증상이 진행되고 신경학적 결손이 있으면 외과적 배액이 필요하다. 관찰이나 약물 치료는 적절하지 않다.
 
 ## 출처
 

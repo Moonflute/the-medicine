@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 범죄 기록
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반사회적 인격장애는 어린 시절의 행동 및 병력(반사회적 행동, 규칙 위반)과 가장 밀접하게 연관된다. 이는 진단에 핵심적인 정보이다. 따라서 어린 시절의 병력이 가장 중요한 정보이다.
 
 ## 출처
 

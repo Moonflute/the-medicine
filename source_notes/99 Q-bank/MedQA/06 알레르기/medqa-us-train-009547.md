@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 브래디키닌 대사 장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ACE 억제제 복용 시 브래디키닌 대사가 억제돼 혈관성 부종(입술·혀 부종)이 발생한다. C4 정상은 면역복합체 매개가 아님을 의미한다. 따라서 가장 가능성 높은 기전은 브래디키닌 대사 장애이다.
 
 ## 출처
 

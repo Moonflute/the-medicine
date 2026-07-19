@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 응급 개복술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부가 단단하고 반발통·감소된 장음이 있는 급성 복통은 복막염을 의심하게 하며, 복부 X‑ray는 자유 공기(천공) 여부를 빠르게 확인할 수 있는 초기 영상검사이다. CT는 더 자세하지만 방사선 촬영이 먼저 시행되는 표준이다. 따라서 다음 단계는 복부 방사선 촬영이다.
 
 ## 출처
 

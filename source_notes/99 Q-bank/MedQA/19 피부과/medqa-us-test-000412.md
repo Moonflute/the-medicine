@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 헤노흐-쇤라인 자반증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+IgA 조직 트랜스글루타미나제 항체가 크게 상승한 것은 셀리악병에서 특이적으로 나타나는 면역반응이다. 셀리악병은 글루텐에 대한 면역 매개 장 손상으로 설사와 영양 결핍을 일으키며, 피부에 두드러진 가려움성 병변(두드러기성 피부염)도 동반될 수 있다. 따라서 가장 가능성 높은 원인은 셀리악병이다.
 
 ## 출처
 

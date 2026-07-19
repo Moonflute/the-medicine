@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 양측 경동맥 내막절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무증상 양측 경동맥 협착(85%·55%)이 있을 때, 증상이 없고 위험 요인이 제한적이면 고위험(>70%) 측면에 대해 내막절제술이 권장된다. 좌측이 85%이므로 왼쪽 경동맥 내막절제술이 적절하다.
 
 ## 출처
 

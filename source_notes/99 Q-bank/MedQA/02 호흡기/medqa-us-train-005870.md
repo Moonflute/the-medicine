@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흉강 내 가스량 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 제한, 호흡곤란, 말초 부종, 정맥 팽창, 청색증은 폐동맥압 상승에 의한 우심부전 소견이다. 폐고혈압이 우심부전과 전신 울혈을 일으키므로 가장 가능성 높은 원인은 폐동맥압 상승이다.
 
 ## 출처
 

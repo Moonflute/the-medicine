@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 발프로산
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+세르트랄린과 같은 SSRI는 우울증 치료 중 조증 전환을 일으킬 수 있다. 환자의 급성 과잉행동과 기분 고양은 SSRI 유발 조증을 시사한다. 따라서 세르트랄린이 정답이다.
 
 ## 출처
 

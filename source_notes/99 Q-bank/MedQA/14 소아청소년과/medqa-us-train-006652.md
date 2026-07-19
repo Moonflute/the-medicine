@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 46,XY
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+키가 매우 크고, 여드름과 언어 발달 지연이 동반되는 47,XYY 핵형은 고신장과 행동·학습 문제와 연관된다. 45,X0는 터너 증후군, 47,XXY는 클라인펠터 증후군, 46,XY는 정상이다. 따라서 정답은 47,XYY이다.
 
 ## 출처
 

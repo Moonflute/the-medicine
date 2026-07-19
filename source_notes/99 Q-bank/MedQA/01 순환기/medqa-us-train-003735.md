@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 항고혈압제 조절
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양쪽 다리의 함요부종과 늘어나고 구불구불한 정맥은 만성 정맥부전증을 시사한다. 정맥압을 감소시켜 증상을 완화하기 위해 압박스타킹을 착용하는 것이 1차 치료이다. 따라서 가장 적절한 처치는 압박스타킹이다.
 
 ## 출처
 

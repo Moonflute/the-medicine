@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 제왕절개술을 시행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+진통이 규칙적이고 짧으며 자궁경부 변화가 없고 양수도 정상인 경우, 이는 가짜 진통(가짜 진통)이다. 자궁경부가 확장되지 않아 진통이 진행되지 않으므로 관찰만으로 충분하다. 따라서 가장 적절한 조치는 안심시키고 귀가시키는 것이다.
 
 ## 출처
 

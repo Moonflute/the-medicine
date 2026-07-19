@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. MRI에서 요추 척추관 협착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+요통이 활동 후 악화되고, 아침에 호전되는 경우는 기계적 요통이 아니라 척추관 협착에 의한 신경근 압박이 의심된다. MRI는 협착을 확인하는 가장 정확한 영상이다. 따라서 MRI에서 요추 척추관 협착이 가장 가능성 높은 소견이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 독소루비신은 폐독성 위험 때문에 평생 최대 용량이 있다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+독소루비신은 누적 용량에 따라 심근독성을 일으키며, 평생 최대 용량 제한이 있다. 피부 발진이나 혈전 위험은 주요 부작용이 아니다.
 
 ## 출처
 

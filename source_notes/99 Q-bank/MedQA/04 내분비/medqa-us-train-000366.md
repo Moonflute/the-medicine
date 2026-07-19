@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 췌장의 알파 세포 종양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복성 저혈당과 인슐린·C-펩타이드 상승은 인슐린을 과다 분비하는 췌장 베타세포 종양(인슐린oma)을 의미한다. 따라서 가장 가능성 높은 원인은 베타세포 종양이다.
 
 ## 출처
 

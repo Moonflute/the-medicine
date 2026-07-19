@@ -18,11 +18,13 @@ question_type: association
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 산전 모체 혈청 비타민 D가 낮으면 위험이 증가한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+자폐 스펙트럼 장애는 남아에서 약 4배 더 흔하게 나타난다. 이는 역학적 특징 중 가장 확실히 입증된 차이이다. 따라서 정답은 남아에서 4배 흔하다는 진술이다.
 
 ## 출처
 

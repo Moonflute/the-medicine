@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 장중첩증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구토가 매번 이른 아침에 비담즙성으로 8~12회 발생하고 에피소드 사이에 정상 활동이 회복되는 것이 특징이다. 이러한 주기적, 구역성 구토는 위장관 구조적 이상이 없으며 신경성 원인인 주기성 구토 증후군과 일치한다. 따라서 가장 가능성 높은 진단은 주기성 구토 증후군이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: ethics
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 어머니에게 양육 수업을 듣도록 권한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아동에 대한 신체적 학대가 의심되면 의료진은 법적으로 아동보호서비스에 신고해야 한다. 직접 대면이나 교육 제안은 즉각적인 보호 조치가 아니다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정상적인 모유수유를 계속한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 황달이 모유수유에 의해 발생한 경우(모유성 황달)는 대개 경미하고 1주일 이내에 사라진다. 아기는 정상적인 수유와 수면 패턴을 보이며, 추가 치료 없이 모유수유를 지속하는 것이 권장된다. 따라서 가장 적절한 치료는 정상적인 모유수유를 계속하는 것이다.
 
 ## 출처
 

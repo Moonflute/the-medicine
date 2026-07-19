@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전 결장직장절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+광범위한 대장 점막 염증, 가성용종, 그리고 재발성 출혈은 난치성 궤양성 대장염을 시사한다. 이 경우 약물 치료만으로는 충분하지 않으며, 확정적 치료는 전 결장직장절제술이다. 다른 선택지는 보존적 치료에 불과하다.
 
 ## 출처
 

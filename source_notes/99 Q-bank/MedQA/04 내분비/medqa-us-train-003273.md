@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. (E)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소세포폐암 환자에서 SIADH는 저나트륨혈증과 저삼투혈증을 보이며, 소변 삼투는 혈액보다 높고 소변 Na는 10 mEq/L 이하인 제한성 패턴이다. 선택지 B는 이와 일치한다.
 
 ## 출처
 

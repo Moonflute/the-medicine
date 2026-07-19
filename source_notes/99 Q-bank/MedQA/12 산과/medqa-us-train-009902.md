@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이 결과의 진단 정확도를 높이려면 혈청 알파태아단백, hCG
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+첫 삼분기에는 비강골·목덜미 투명대 등 비특이적 소견이 흔히 나타나며, 다운증후군 선별 정확도를 높이려면 혈청 PAPP‑A와 자유 β‑hCG를 함께 측정한다. 따라서 두 검사를 추가하는 것이 옳다.
 
 ## 출처
 

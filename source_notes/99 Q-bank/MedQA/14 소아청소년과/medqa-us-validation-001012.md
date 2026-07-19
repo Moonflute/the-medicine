@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 파브리병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+후를러 증후군(점액다당류증 I형)은 피부르산더마탄 증가, 거친 얼굴, 각막 혼탁을 특징으로 하며, IDUA 효소 결핍이 원인이다. 따라서 이 임상 소견은 후를러 증후군과 가장 관련이 있다.
 
 ## 출처
 

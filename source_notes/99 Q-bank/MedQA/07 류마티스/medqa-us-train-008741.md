@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 파보바이러스 B19에 대한 IgM
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 혈구 감소와 저혈소판, 저백혈구는 전신성 루푸스(다발성 혈구 감소증)를 시사한다. SLE에서 특이적인 항 dsDNA 항체가 가장 높은 진단적 가치를 가진다. 따라서 항 dsDNA 항체 검사가 가장 가능성 높은 소견이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 심장 부정맥
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 기립 시 혈압 저하와 어지러움을 호소하고, 베라파밀·노르트립틸린 복용이 자율신경 억제를 일으킬 수 있다. 자율신경 기능장애가 기립성 저혈압을 설명한다. 부신기능부전은 저혈당·저나트륨을 동반하고, 구조적 심장 이상·부정맥은 검사에서 정상이다.
 
 ## 출처
 

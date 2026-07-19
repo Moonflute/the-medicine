@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 양수주입술(amnioinfusion)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양수량 감소와 성장 제한이 동반된 태아는 태아 스트레스 위험이 높아 비자극 검사(NST)를 통해 태아 상태를 모니터링해야 한다. 따라서 다음 단계는 연속적인 무자극 검사이다.
 
 ## 출처
 

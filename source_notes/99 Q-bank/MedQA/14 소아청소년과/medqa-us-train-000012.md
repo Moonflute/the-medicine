@@ -15,11 +15,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 전각(anterior horn)의 하위 운동 신경원 파괴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+영아 보툴리즘은 보툴리눔 독소가 신경근 접합부에서 아세틸콜린 방출을 차단해 근육 마비를 일으킨다. 이는 위에 제시된 증상(안검하수, 동공 반응 저하, 약한 반사)과 일치한다. 따라서 병태생리는 시냅스 전 아세틸콜린 방출 차단이다.
 
 ## 출처
 

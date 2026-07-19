@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 시아노아크릴레이트 조직접착제로 봉합
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고양이 물림은 Pasteurella multocida 감염 위험이 높으며, 1차 예방적 치료로는 아목시실린‑클라불라네이트가 권장된다. 따라서 경구 아목시실린‑클라불라네이트가 적절한 처치이다.
 
 ## 출처
 

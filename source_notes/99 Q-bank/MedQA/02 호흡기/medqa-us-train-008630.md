@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 도부타민
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+입원 후 발생한 발열·호산구 증가·흉막 삼출은 병원획득 폐렴 및 패혈증을 시사한다. 광범위한 그람음성균에 효과적인 항생제로 반코마이신과 세페핌을 병용하는 것이 적절한 치료이다.
 
 ## 출처
 

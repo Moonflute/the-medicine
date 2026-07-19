@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 은백색 인설을 동반한 분홍색 판
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 목이 뻣뻣하고 어깨 압통, 고 ESR·CRP를 보이며 50대 이상에서 급성 두통이 없고 턱 움직임에 제한이 있다면 거대세포동맥염을 의심한다. 거대세포동맥염에서 턱 파행(턱관절 통증·운동 제한)은 중요한 선별 증상이다. 따라서 선별검사가 필요한 증상은 턱 파행이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 자궁 무력증(Uterine inertia)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+진통이 멈추고 출혈이 시작된 상황에서 태아 심박수 감소와 복통은 자궁 파열을 시사한다. 이는 이전 제왕절개 흉터 부위에서 발생할 수 있는 급성 상황이다. 따라서 가장 가능성 높은 진단은 자궁 파열이다.
 
 ## 출처
 

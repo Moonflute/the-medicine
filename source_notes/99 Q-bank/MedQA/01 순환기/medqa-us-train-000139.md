@@ -15,11 +15,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 진피 및 피하 조직의 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+왼쪽 종아리의 부종, 통증, 피부 발적, 표재정맥 확장, 압박되지 않는 정맥 초음파 소견은 깊은 정맥 혈전증(DVT)을 시사한다. DVT는 정맥 내 혈류 정체와 혈전 형성으로 인해 발생한다. 따라서 정답은 정맥 혈류 장애이다.
 
 ## 출처
 

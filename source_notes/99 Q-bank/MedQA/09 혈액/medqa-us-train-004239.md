@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자가면역 용혈성 빈혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+직접 Coombs 양성, 유핵 적혈구와 구형 적혈구, 다염색증은 자가면역 용혈성 빈혈을 특징짓는다. 이는 항체 매개 용혈이다. 따라서 자가면역 용혈성 빈혈이 정답이다.
 
 ## 출처
 

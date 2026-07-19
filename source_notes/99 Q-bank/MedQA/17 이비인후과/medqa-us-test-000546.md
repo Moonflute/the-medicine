@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 긴장형 두통
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+씹을 때 통증이 악화되고 하악·관자놀이 부위에 압통이 있는 것이 턱관절 기능장애의 특징이다. 턱관절에 과부하가 생겨 근육·관절통이 발생하며 두통과 연관될 수 있다. 따라서 가장 가능성 높은 진단은 턱관절 기능장애이다.
 
 ## 출처
 

@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 산전 페니토인(phenytoin) 복용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 청색증이 산소 투여에도 호전되지 않고, 대동맥과 폐동맥이 서로 교차하는 전위가 확인된 경우, 모체의 당뇨병이 태아에게 심한 대사성 산증을 일으켜 전위와 연관될 수 있다. 따라서 모체의 공복 혈당 상승이 가장 가능성 높은 위험 요인이다.
 
 ## 출처
 

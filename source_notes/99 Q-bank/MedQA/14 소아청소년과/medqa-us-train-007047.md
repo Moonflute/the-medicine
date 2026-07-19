@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 보육교사가 의사에게 신고 권한을 부여하는 서류를 가지�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+의사는 아동학대·방임을 발견하면 법적으로 신고 의무가 있다. 이는 가장 결정적인 근거이다. 따라서 정답은 A이다.
 
 ## 출처
 

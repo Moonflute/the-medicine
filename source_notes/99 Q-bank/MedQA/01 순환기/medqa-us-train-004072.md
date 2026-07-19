@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 좌심실 부전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+베타 차단제 투여 후 혈압이 지속적으로 저하되는 것은 니트로글리세린에 의해 cGMP가 증가해 혈관이 확장되기 때문이다. 따라서 현재 활력징후는 ‘cGMP 증가’에 기인한다.
 
 ## 출처
 

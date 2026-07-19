@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 경구 페니실린 유발검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임산부의 매독 치료는 페니실린이 1차 선택이며, 페니실린 알레르기가 있더라도 태아 감염 예방을 위해 탈감작을 시행한다. 탈감작 후 근육 주사 페니실린을 투여하는 것이 표준이다. 다른 옵션은 효과가 없거나 위험하다.
 
 ## 출처
 

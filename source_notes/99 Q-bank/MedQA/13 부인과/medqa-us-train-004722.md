@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 질 내 클로트리마졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+질 pH 4.2와 흰색 덩어리 분비물, 현미경에서 효모 포자와 균사(침전) 형태가 보이면 임신성 칸디다 질염을 시사한다. 임신 중에는 국소 항진균제인 클로트리마졸이 1회 질 내 투여로 효과적이다. 따라서 질 내 클로트리마졸이 가장 적절한 치료이다.
 
 ## 출처
 

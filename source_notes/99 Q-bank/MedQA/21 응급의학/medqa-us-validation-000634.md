@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메만틴 평생 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 혼돈 상태와 방광 팽창, 양쪽 늑골척추각 압통, 악취 나는 혼탁뇨는 급성 복합성 요로감염(신우신염)으로 인한 섬망을 시사한다. 원인 감염을 제거하기 위해 즉시 항생제 치료가 필요하다.
 
 ## 출처
 

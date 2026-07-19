@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 골의 골아세포성 파괴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Paget 병은 골 재형성 속도가 증가해 ALP가 크게 상승하고, 골피질 비후와 골소주가 나타난다. 이는 골량 감소와 미세구조 파괴가 아닌 골 형성·흡수가 동시에 활발히 일어나는 기전이다.
 
 ## 출처
 

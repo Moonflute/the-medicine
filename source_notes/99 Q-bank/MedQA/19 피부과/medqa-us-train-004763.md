@@ -17,11 +17,13 @@ question_type: risk_factor
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 족부백선
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+광범위 봉와직염은 피부 손상 위험 요인으로 발톱무좀(족부백선) 등 피부 감염이 전신 감염을 촉진한다. 따라서 족부백선이 가장 강한 소인이다.
 
 ## 출처
 

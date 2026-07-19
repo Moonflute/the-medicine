@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 오메프라졸 시험 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+연하곤란과 흉통, 체중 감소, 고혈압 및 흡연력은 식도암 위험 요인이며, 진단을 확정하기 위해 내시경 검사가 가장 직접적이다. 바륨 삼킴검사는 식도 협착 확인에, 식도 내압검사는 운동 장애 평가에, 오메프라졸 시험 치료는 GERD에 사용된다.
 
 ## 출처
 

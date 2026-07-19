@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자궁 외부에 자궁내막샘과 기질 존재
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+월경통과 월경과다, 자궁이 임신 10주 크기로 커진 것은 자궁근층 내에 자궁내막 조직이 존재하는 자궁선근증을 시사한다. 자궁근층에 내막선과 기질이 존재하면 월경통과 과다출혈이 발생한다. 따라서 가장 가능성 높은 진단은 자궁근층 내 자궁내막샘과 기질 존재이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 탐스로신 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 소변량이 20 mL로 매우 적은 것은 저혈량에 의한 전신성 신전성 급성 신손상의 전형적인 징후이며, 가장 먼저 해야 할 조치는 정맥 수액으로 혈액량을 회복하는 것이다. 다른 선택지는 원인 교정 없이 증상만 다루는 것이므로 부적절하다.
 
 ## 출처
 

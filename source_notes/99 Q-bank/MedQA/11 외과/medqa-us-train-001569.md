@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 정맥 항생제와 수술 상처 변연절제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흉골 절개 부위에 발적·통증·액체 저류가 보이며, 수술 후 5일 차에 나타나는 전형적인 흉골후 감염(중격염)으로, 항생제와 함께 수술 부위 변연 절제가 필요하다.
 
 ## 출처
 

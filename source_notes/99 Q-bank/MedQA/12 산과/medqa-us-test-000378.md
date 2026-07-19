@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. E형간염 IgM 항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임산부에서 급성 간염이 의심될 때 ALT/AST 급등과 고빌리루빈을 동반하면 E형 간염이 흔히 발생한다. E형 간염은 임신 중 중증 간부전을 일으킬 수 있으며, IgM 항체 검사가 급성 감염을 확진한다. 따라서 D가 정답이다.
 
 ## 출처
 

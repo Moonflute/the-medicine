@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 토피라메이트
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+와인과 숙성된 고기 섭취 후 고혈압 위기가 발생한 경우, MAOI(페넬진)와 티라민이 상호작용해 티라민 반응을 일으킨다. 이는 급성 고혈압 위기로 나타난다. 따라서 페넬진이 원인 약물이다.
 
 ## 출처
 

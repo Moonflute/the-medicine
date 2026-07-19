@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 방광질 누공
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동, 기침, 웃음 시에 발생하는 요실금은 복압성 요실금이며, 요도 과운동(요도 과수축)으로 인한 방광 배출 저항이 원인일 수 있다. 환자는 배뇨통이나 감염 증상이 없으며, 요검사도 정상이다. 따라서 가장 가능성 높은 원인은 요도 과운동성이다.
 
 ## 출처
 

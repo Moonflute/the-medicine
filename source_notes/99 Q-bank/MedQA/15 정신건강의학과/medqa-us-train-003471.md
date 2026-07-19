@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 제1형 양극성장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+주요우울증과는 달리 양극성 II형은 우울 삽에 경증 조증(경조증) 에피소드가 동반된다. 환자는 과거에 활기차고 수면 감소를 경험했으며 현재는 우울 증상만 보인다. 따라서 가장 가능성 높은 진단은 제2형 양극성장애이다.
 
 ## 출처
 

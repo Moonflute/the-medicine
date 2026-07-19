@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 중대 사건
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 전 환자 확인과 부위 확인을 위한 표준 절차는 ‘수술 전 타임아웃’이다. 이는 잘못된 부위 절제를 예방하는 핵심 안전 단계이다. 따라서 정답은 수술 전 타임아웃이다.
 
 ## 출처
 

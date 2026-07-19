@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 유관상피내암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+20대 여성의 2 cm 크기, 통증이 없고 움직이는 고무 같은 결절은 섬유선종의 전형적인 특징이다. 섬유낭성 변화는 젊은 여성에서 흔하지만 보통 작고 단단하며 움직이지 않는다. 따라서 가장 가능성 높은 진단은 섬유선종이다.
 
 ## 출처
 

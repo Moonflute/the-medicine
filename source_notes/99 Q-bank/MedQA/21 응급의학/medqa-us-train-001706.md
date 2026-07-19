@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 100% 산소, 하이드록소코발라민 및 티오황산나트륨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+화재 흡입에 의한 청산가리 중독은 시안화수소와 시안화이온을 결합해 효소를 차단한다. 치료는 100% 산소, 시안화물 해독제인 하이드록소코발라민, 그리고 시안화 이온을 결합하는 티오황산나트륨을 동시에 투여하는 것이 가장 적절하다.
 
 ## 출처
 

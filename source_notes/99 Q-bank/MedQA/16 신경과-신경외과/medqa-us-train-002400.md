@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 삼염기 반복서열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+베커 근이영양증은 디스트로핀 유전자의 비정상(프레임이동) 변이가 원인이며, 진행성 근력 약화와 심장 전도 이상(1도 방실 차단)을 동반한다. 따라서 비정상 디스트로핀이 가장 가능성 높은 원인이다.
 
 ## 출처
 

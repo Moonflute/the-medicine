@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기관식도루가 없는 식도폐쇄
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아는 양쪽 폐기저부에서 수포음과 좌측 흉골 경계의 잡음, 전방 이소성 항문을 동반하고 있어 원위 식도 폐쇄와 기관식도루가 동반된 형태가 가장 흔하다. 이 형태는 양수과다와 연관된 복합 선천성 기형이며, X선에서 식도 폐쇄와 기도-식도 연결이 보인다. 따라서 원위 식도 분절과 기관식도루를 동반한 식도폐쇄가 가장 가능성 높은 진단이다.
 
 ## 출처
 

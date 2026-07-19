@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지금 자궁경부 세포검사와 HPV 검사를 시행하고 5년마다 반
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+30세 여성은 현재 자궁경부 세포검사와 HPV 동시 검사를 시행하고, 5년 간격으로 반복하며, 유방촬영은 40세에 시작한다. 이는 최신 가이드라인에 부합한다.
 
 ## 출처
 

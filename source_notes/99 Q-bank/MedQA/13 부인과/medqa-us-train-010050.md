@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 철분 보충
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+과다월경으로 인한 철결핍성 빈혈이 의심되며, 원인 평가를 위해 골반 초음파로 자궁근종·폴립 등을 확인해야 한다. 치료는 원인에 따라 달라지므로 먼저 초음파 검사가 필요하다. 따라서 가장 적절한 조치는 골반 초음파이다.
 
 ## 출처
 

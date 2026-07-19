@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 IgA 상승
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 림프절병증, 혈액학적 이상(빈혈, 백혈구 감소, 혈소판 감소), 신장 침범은 전신성 홍반성 루푸스(SLE)와 일치한다. SLE에서 특이적으로 양성인 항dsDNA 항체는 질병 활동성을 반영한다. 따라서 항dsDNA 항체가 가장 가능성 높은 검사 소견이다.
 
 ## 출처
 

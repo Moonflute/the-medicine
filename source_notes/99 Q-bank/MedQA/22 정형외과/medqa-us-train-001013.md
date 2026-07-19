@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 관절경적 관절낭 유리술(Arthroscopic capsular release)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+통증이 사라진 뒤 관절 가동 범위가 심하게 제한되고, 관절 캡슐이 두꺼워지는 것이 특징인 유착성 관절낭염(동결견)에서는 물리치료가 초기 1차 치료이다. NSAID만으로는 관절 가동 회복이 어렵다.
 
 ## 출처
 

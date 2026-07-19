@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 난관 임신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+질 내 회백색 분비물과 악취는 혐기성 세균이 과증식한 경우에 흔히 나타난다. 이는 질염의 가장 흔한 원인으로, 다른 감염 징후가 없으므로 혐기성 세균 과증식이 가장 가능성 높다.
 
 ## 출처
 

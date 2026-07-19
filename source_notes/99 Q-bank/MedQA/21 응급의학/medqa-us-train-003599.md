@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 조직의 산소 이용 능력 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+일산화탄소 중독은 조직에 산소 전달이 감소하지만 혈중 산소 포화도는 정상이다. 결과적으로 대사성 산증(젖산증)이 발생한다. 따라서 조직으로의 산소 전달 감소가 산-염기 이상 원인이다.
 
 ## 출처
 

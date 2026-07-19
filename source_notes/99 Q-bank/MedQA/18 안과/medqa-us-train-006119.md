@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 왼쪽 눈에 시클로펜톨레이트 점안
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양안 비대칭 각막 반사와 한쪽 눈을 가리면 반대쪽 눈이 내전하는 것은 선천성 내사시(특히 사시)이다. 초기 치료는 안구 운동을 억제하고 굴절을 교정하기 위해 사이클로펜톨레이트 점안이 권장된다. 응급수술은 필요하지 않으며, 안압 측정은 사시와 직접 관련이 없다.
 
 ## 출처
 

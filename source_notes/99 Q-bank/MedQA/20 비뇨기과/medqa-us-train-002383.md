@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 바데나필을 처방한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+젊은 남성의 발기부전이 심리적 원인일 가능성이 높으며, 먼저 야간 음경 팽창(NPT) 검사를 통해 심인성 vs 혈관성 원인을 구분한다. 정상 NPT는 심인성 원인을 시사한다. 따라서 다음 단계는 야간 음경 팽창을 평가하는 것이다.
 
 ## 출처
 

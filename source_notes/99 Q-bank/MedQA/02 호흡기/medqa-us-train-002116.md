@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 아세틸콜린 수용체 항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+동공 불균형, 안구하수, 안구하수는 호른 증후군을 나타내며, 이는 폐 상엽 종양(Pancoast tumor)과 연관된다. 진단을 확정하려면 종양의 존재를 확인하는 흉부 CT가 필요하다. 따라서 흉부 CT가 정답이다.
 
 ## 출처
 

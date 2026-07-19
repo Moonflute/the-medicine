@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 만성 림프구 백혈병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고령 남성의 백혈구 62,000/µL와 림프성 전형, 무증상인 경우는 만성 림프구 백혈병(CLL)과 일치한다. 다른 급성 백혈병은 증상이 심하고 혈소판 감소가 동반된다. 따라서 CLL이 가장 잘 설명한다.
 
 ## 출처
 

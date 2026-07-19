@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전치태반
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 3분기 무통성 질출혈은 전치태반(placenta previa)과 가장 연관된다. 태반이 자궁 경부를 가로막고 있어 출혈이 발생하지만 자궁수축은 없으며 출혈이 멈추는 경우가 흔하다. 다른 선택지는 통증이나 자궁수축을 동반한다.
 
 ## 출처
 

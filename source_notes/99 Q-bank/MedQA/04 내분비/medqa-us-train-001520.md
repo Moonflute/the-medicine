@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 카비도파-레보도파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비정상적인 유두 분비와 저프로락틴 혈중 농도는 프로락틴 분비 종양이 아닌 경우 카베르골린(도파민 작용제)으로 치료한다. 이는 도파민 수용체를 자극해 프로락틴 억제와 월경 회복을 돕는다. 따라서 카베르골린이 적절한 치료이다.
 
 ## 출처
 

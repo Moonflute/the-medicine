@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 에드로포늄 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 안면 근육 약화와 호흡곤란을 동반한 중증 근무력증 위기(호흡부전) 상태이며, 즉각적인 기도 확보가 필요하다. 기관내삽관은 호흡을 유지하고 추가 치료(예: 혈장교환) 시행을 가능하게 한다. 따라서 가장 적절한 조치는 기관내삽관이다.
 
 ## 출처
 

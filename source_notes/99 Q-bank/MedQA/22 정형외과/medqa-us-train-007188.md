@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 체중 감량
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비만은 무릎 골관절염의 주요 가역적 위험인자이며, 체중 감량은 통증과 기능 개선에 가장 효과적인 초기 치료이다. 약물이나 영상검사는 먼저 체중 관리가 필요하다. 따라서 정답은 체중 감량이다.
 
 ## 출처
 

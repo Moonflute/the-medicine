@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 데메클로사이클린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐렴에 동반된 저나트륨혈증은 보통 SIADH에 의한 것으로, 체액이 과다 보유되어 물 제한이 치료의 핵심이다. 고장성 식염수나 소금 정제는 오히려 나트륨을 더 낮출 수 있다. 따라서 적절한 처치는 수분 제한이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 급성 림프모구성 백혈병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+말초혈액 도말에서 CD33·CD34 양성 모세포가 다수 보이고, 빈혈·혈소판 감소가 동반된 경우 급성 골수성 백혈병이 가장 가능성 높다. 다른 백혈병 유형은 해당 면역표현형과 일치하지 않는다. 따라서 A가 옳다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대장 일부의 수술적 절제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무통성 하부 위장관 출혈이 혈변으로 나타나며, 원인이 혈관 기형(동정맥기형)인 경우 비침습적 소작술이 1차 치료이다. 이는 출혈을 직접 봉합하지 않고 혈관을 폐쇄한다. 따라서 동정맥기형 소작술이 적절하다.
 
 ## 출처
 

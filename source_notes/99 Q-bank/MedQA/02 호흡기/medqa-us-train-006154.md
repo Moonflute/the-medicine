@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흉부 방사선촬영
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+35년간 하루 한 갑을 피우고 현재 5년간 금연했으며, 55세 이상 고위험군은 저선량 흉부 CT가 폐암 선별에 가장 효과적이다. 따라서 다음 검사는 흉부 CT이다.
 
 ## 출처
 

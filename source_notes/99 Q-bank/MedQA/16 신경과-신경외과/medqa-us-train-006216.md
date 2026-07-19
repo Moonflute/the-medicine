@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 당뇨병성 케톤산증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Parinaud 증후군(상방 주시 제한, 안진, 눈꺼풀 후퇴)은 송과체 종양에 의해 발생하며, 이 종양은 성장 호르몬 분비를 촉진해 성조숙증을 유발한다. 따라서 가장 가능성 높은 후유증은 성조숙증이다.
 
 ## 출처
 

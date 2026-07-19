@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 유문근절개술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소아 장중첩증(장중첩)에서는 비혈성 구토와 혈성 점액변, 복통이 나타나며 초음파에서 ‘target sign’이 보인다. 비혈성 구토와 복통이 급성으로 진행될 경우 공기 관장이 가장 빠른 비수술적 치료법이다. 따라서 가장 적절한 처치는 공기 관장이다.
 
 ## 출처
 

@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 딜티아젬 정맥주사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 지속성 빈맥과 SVT 형태의 ECG는 급성 상심실성 빈맥을 의미한다. 아데노신은 AV 노드 전도를 차단해 즉시 심율을 정상화한다. 따라서 아데노신 정맥주사가 가장 적절한 관리이다.
 
 ## 출처
 

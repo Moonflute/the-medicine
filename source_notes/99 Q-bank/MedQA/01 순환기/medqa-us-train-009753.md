@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 감소된 심음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압, 당뇨, 흉통이 없고 심전도에서 S4(심방 갤럽) 파형이 나타나는 경우는 심방이 비정상적으로 강하게 수축하면서 발생한다. 이는 급성 심근허혈 시 심방이 경직돼 S4를 만든다. 따라서 가장 가능성 높은 심음은 심방 갤럽이다.
 
 ## 출처
 

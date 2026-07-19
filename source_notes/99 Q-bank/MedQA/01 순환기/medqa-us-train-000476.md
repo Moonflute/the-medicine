@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 우심실 유출로 폐쇄
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+좌측 등쪽 청진에서 잡음이 들리고 말초 맥박이 없으며 혈압 차이가 없으므로 대동맥 협착이 의심된다. 대동맥 협착에서는 하체에 혈류가 감소해 조직 산소포화가 낮아진다. 따라서 가장 흔히 나타나는 소견은 하지의 낮은 조직 산소화이다.
 
 ## 출처
 

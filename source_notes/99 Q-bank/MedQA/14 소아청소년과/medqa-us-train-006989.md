@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 모유 수유에 일반 분유를 보충한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수유 자세와 젖물림을 직접 관찰하면 모유 공급량과 아기의 흡입 효율을 평가할 수 있다. 대부분의 경우 추가 검사는 필요하지 않다. 따라서 정답은 A이다.
 
 ## 출처
 

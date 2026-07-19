@@ -15,11 +15,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. D-이량체(D-dimer) 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구토 후 흉통·청진에서 으드득거리는 소리는 식도 파열(Boerhaave 증후군)과 일치하며, 조영제 식도 조영술이 파열 부위를 가장 정확히 확인한다.
 
 ## 출처
 

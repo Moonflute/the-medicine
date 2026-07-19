@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 타크로리무스 국소 도포
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+음경 백색 구진·협착은 리시스 스클레로시스(음경경화증)이며, 확진을 위해 조직생검이 필요하다. 국소 스테로이드나 항진균제는 진단에 도움이 되지 않는다.
 
 ## 출처
 

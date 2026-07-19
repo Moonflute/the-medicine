@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 정상으로 보이는 사구체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+IV 약물 사용자는 혈관내 면역복합체가 사구체에 침착되어 저보체성 사구체신염을 일으키며, 조직학적으로는 사구체 내 메산지움 세포 증식과 모세혈관벽 비후가 보인다. 이는 membranoproliferative glomerulonephritis와 일치한다. 따라서 가장 가능성 높은 소견은 메산지움 세포 증식과 모세혈관벽 비후이다.
 
 ## 출처
 

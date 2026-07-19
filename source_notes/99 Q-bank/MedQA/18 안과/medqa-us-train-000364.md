@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 국소 덱사메타손 투여 및 콘택트렌즈 착용 중단
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 각막 궤양은 세균성 각막염이 가장 흔히 원인이며, 광범위 1세대 플루오로퀸론(가티플록사신) 점안이 1차 치료에 적합하다. 따라서 정답은 가티플록사신 점안액이다.
 
 ## 출처
 

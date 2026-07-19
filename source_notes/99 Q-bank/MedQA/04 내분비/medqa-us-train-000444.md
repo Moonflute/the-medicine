@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. MEN1
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고칼슘혈증, 고 PTH, 다발성 신장 결석은 MEN1 증후군과 연관된다. MEN1은 RET 유전자 변이가 아닌 MEN1 유전자 돌연변이와 관련이 있다.
 
 ## 출처
 

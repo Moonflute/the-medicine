@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혼합결합조직병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손발톱 오목, 비듬, 관절 다발성 침범은 건선관절염의 전형적인 특징이다. 따라서 건선관절염이 가장 가능성 높은 진단이다. 다른 선택지는 이러한 피부·손발톱 소견을 설명하지 못한다.
 
 ## 출처
 

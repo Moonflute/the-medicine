@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 3개월 전 뇌졸중 병력
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈전용해제는 최근 3개월 이내에 뇌졸중(특히 출혈성) 병력이 있으면 출혈 위험이 크게 증가한다. 따라서 3개월 전 뇌졸중 병력은 절대 금기이다.
 
 ## 출처
 

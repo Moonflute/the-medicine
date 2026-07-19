@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 방사선치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 폐기저부 석회화와 흉막판은 석면 노출에 의한 석면증(석면증)에서 흔히 보이며, 이는 장기간 흡입한 직업적 노출이 가장 큰 위험 요인이다. 다른 선택지는 해당 방사선성 석회화와는 연관성이 낮다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 측두동맥 생검 단독
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+거대세포동맥염은 고령에서 턱 통증, 체중 감소, 빈혈, ESR 상승을 보이며, 진단을 위해 골반 초음파보다 경구 프레드니손을 시작하고 동시에 측두동맥 생검을 시행한다. 따라서 가장 적절한 조치는 ‘경구 프레드니손과 측두동맥 생검’이다.
 
 ## 출처
 

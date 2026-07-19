@@ -16,11 +16,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 선택적 세로토닌 재흡수 억제제(Selective serotonin reuptake inhib
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조현병 치료에 사용되는 도파민 길항제(예: 할로페리돌) 복용 후 1주일 내에 파킨슨증상(떨림, 경직)이 나타날 수 있다. 이는 약물 유발 파킨슨증후군이다. 따라서 가장 가능성 있는 원인은 도파민 길항제이다.
 
 ## 출처
 

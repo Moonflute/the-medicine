@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 난소암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+타목시펜은 에스트로겐 수용체를 차단하지만 자궁내막에 에스트로겐 작용을 부분적으로 유지시켜 자궁내막 증식을 촉진한다. 따라서 장기간 복용 시 자궁내막암 위험이 증가한다. 정답은 자궁내막암이다.
 
 ## 출처
 

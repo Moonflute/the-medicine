@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. MRI에서 대뇌피질의 심한 위축
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+보행 장애와 인지 저하가 있으나 뇌실 확대는 없고, 경미한 대뇌피질 위축이 보이는 것이 정상압 수두증보다 흔한 연령 관련 위축이다. 따라서 가장 가능성 높은 소견은 MRI에서 대뇌피질의 경미한 위축이다.
 
 ## 출처
 

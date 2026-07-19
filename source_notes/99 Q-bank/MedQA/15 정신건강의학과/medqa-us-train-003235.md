@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 클래식 음악을 자주 틀어준다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+일몰 현상은 알츠하이머 환자에서 일어나며, 규칙적인 수면·각성 주기를 유지하는 것이 증상 완화에 가장 효과적이다. 약물보다는 환경 조절이 우선이며, 수면 일정 유지가 권고된다. 따라서 가장 적절한 권고는 규칙적인 수면 일정 준수이다.
 
 ## 출처
 

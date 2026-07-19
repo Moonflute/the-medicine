@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 발달상의 우려가 없다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+1세 영아에서 언어 발달(옹알이)만 정상이고, 대근육·소근육 발달은 연령에 비해 지연되지 않았다. 따라서 언어 발달이 지연된 것으로 판단한다.
 
 ## 출처
 

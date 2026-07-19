@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 물질 남용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급격한 기분 고양, 수면 감소, 말이 빠르고 사고가 선형적인 경조증(경미한 조증) 에피소드를 보이며, 이전에 우울 삽화가 있었다. 이는 양극성 II형 장애의 특징이다. 따라서 가장 가능성 높은 진단은 양극성 II형 장애이다.
 
 ## 출처
 

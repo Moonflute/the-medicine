@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 외관 혼탁, 개방압 상승, 림프구 증가, 단백질 상승, 포도�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+면역억제 환자에서 점진적 두통·혼란·미열은 만성 진균성 수막염을 시사한다. CSF는 혼탁, 압력 상승, 림프구 우세, 단백질 증가, 포도당 감소가 특징이다. 다른 선택지는 급성 세균성(호중구)이나 정상(맑음) 소견과 다르다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 내측곁인대 손상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+외부 충격 후 안쪽 관절선 압통과 외반 스트레스를 가했을 때 안쪽 관절이 느슨해지는 소견은 내측 측부인대 손상과 일치한다. 다른 인대 손상은 다른 물리적 검사에서 특징적인 불안정성을 보인다. 따라서 내측 측부인대 손상이 가장 가능성 높다.
 
 ## 출처
 

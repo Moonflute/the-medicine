@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 골내 접근로를 확보한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+말초 정맥 접근이 반복적으로 실패할 경우, 가장 빠르고 신뢰할 수 있는 혈관 접근법은 골내 접근이다. 골내 접근은 즉각적인 혈액 공급을 제공해 저혈압성 쇼크를 교정한다. 따라서 골내 접근을 확보하는 것이 적절한 다음 조치이다.
 
 ## 출처
 

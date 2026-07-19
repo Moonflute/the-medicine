@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 죄송하지만 법정 신고 대상 질환이 아니므로 동의 없이는 
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 배우자의 정보 요구에 대해 비밀보장을 원한다. 의사는 환자의 동의 없이는 정보를 제공할 수 없으며, 먼저 환자와 솔직히 대화하도록 권유해야 한다.
 
 ## 출처
 

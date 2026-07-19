@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 우심실의 우심방화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+리튬은 임신 중 태아에게 심장 전도계 이상(우심실·우심방 비대)을 일으킬 수 있다. 따라서 신생아에게 가장 위험한 부작용은 우심실·우심방 비대이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 의존성 인격장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+자해, 불안정한 대인관계, 버림받음에 대한 극심한 두려움, 감정 기복이 특징인 경계성 인격장애는 자해와 관계된 행동을 보이며, 다른 선택지와 구별된다. 따라서 가장 가능성 높은 진단은 경계성 인격장애이다.
 
 ## 출처
 

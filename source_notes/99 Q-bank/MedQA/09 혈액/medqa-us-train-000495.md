@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 비장절제술(splenectomy) 일정 잡기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+스테로이드와 IVIG에도 불구하고 혈소판 수가 지속적으로 <20,000/mm³이며 출혈이 반복되는 경우, 외과적 치료가 필요하다. 비장절제술은 ITP에서 가장 효과적인 2차 치료이며, 다른 약물 치료는 이미 실패한 상황이다. 따라서 다음 단계는 비장절제술 일정 잡기이다.
 
 ## 출처
 

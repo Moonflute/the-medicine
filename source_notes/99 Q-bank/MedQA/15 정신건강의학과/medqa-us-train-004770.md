@@ -17,11 +17,13 @@ question_type: association
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 다른 질환과 관련 없음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 확인 행동과 불합리한 두려움은 강박장애(OCD)의 핵심 증상이다. 강박장애는 강박사고와 이를 중화하기 위한 강박행동으로 나타난다. 따라서 정답은 투렛증후군이 아닌 강박장애인 A이다.
 
 ## 출처
 

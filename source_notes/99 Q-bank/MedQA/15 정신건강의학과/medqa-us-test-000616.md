@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 바클로펜
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+할로페리돌에 의한 급성 근긴장이상반응(악성증후군)에는 베노트로핀(베네즈트로핀)과 같은 항콜린성 약물이 가장 효과적이다. 따라서 가장 적절한 치료는 벤즈트로핀이다.
 
 ## 출처
 

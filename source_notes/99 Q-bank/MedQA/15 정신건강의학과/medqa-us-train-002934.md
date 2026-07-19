@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 메타돈 의존성 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+메타돈 유지요법은 약물 남용 환자의 사회·가족 관계 개선을 가장 크게 도와준다. 치료 목표는 재발 방지와 생활 안정이며, 대인관계 개선이 주요 이점이다. 따라서 대인관계 개선이 가장 중요한 이점이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 형광 제자리 부합법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복되는 심각한 감염과 Aspergillus 감염은 만성 육아종성 질환(CGD)을 시사한다. CGD는 NADPH 산화효소 복합체 결함으로, 디하이드로로다민(DHR) 흐름 사이토메트리 검사가 결핍된 NADPH 산화능력을 확인한다. 따라서 가장 확진에 적합한 검사는 디하이드로로다민 검사이다.
 
 ## 출처
 

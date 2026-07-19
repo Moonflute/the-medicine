@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 저인산혈증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+알코올 중독 환자가 영양 보충 후 급격히 인산염이 세포 내로 이동해 혈청 인산 농도가 급격히 떨어지는 저인산혈증이 발생한다. 저인산혈증은 근육 및 골통, 혼란을 일으키는 주요 원인이다. 따라서 새 증상의 가장 가능성 높은 원인은 저인산혈증이다.
 
 ## 출처
 

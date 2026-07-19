@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 췌장 가성낭종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아에서 직접 빌리루빈이 크게 상승하고 γ‑GT가 증가한 것은 담관 폐쇄를 시사한다. 초음파에서 간외 담관이 확장된 것은 총담관 낭종(Choledochal cyst)과 일치한다. 따라서 가장 가능성 높은 진단은 총담관 낭종이다.
 
 ## 출처
 

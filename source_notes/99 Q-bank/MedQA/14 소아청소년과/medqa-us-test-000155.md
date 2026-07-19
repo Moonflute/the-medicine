@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 풍진
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수두는 전신에 물집이 동반된 발진과 고열, 두통, 근육통을 동반하며, 전염성이 높은 어린이집 환경과 캠핑 후 접촉이 흔한 전파 경로이다. 물집이 액체로 차 있는 수포 형태이며, 전신에 퍼진 점·구진·딱지와 함께 가려움이 심한 것이 수두의 특징이다. 따라서 가장 가능성 높은 진단은 수두이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 하네스로 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 양성 Ortolani 소견과 초음파에서 50° 각도는 발달성 고관절 이형성증을 의미한다. 초기 치료는 Pavlik 하네스 착용으로 고관절을 안정시킨다. 따라서 하네스로 치료하는 것이 적절하다.
 
 ## 출처
 

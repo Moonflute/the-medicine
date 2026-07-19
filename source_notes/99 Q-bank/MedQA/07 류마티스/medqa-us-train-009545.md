@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소아 특발성 관절염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발열·관절통·심장소리(거친 잡음)·관절천자에서 다핵백혈구가 적은 비화농성 삼출액은 급성 류마티스열을 시사한다. 이는 연쇄상구균 감염 후 면역반응으로 발생하며, 다른 선택지는 임상 양상이 맞지 않는다. 따라서 정답은 A이다.
 
 ## 출처
 

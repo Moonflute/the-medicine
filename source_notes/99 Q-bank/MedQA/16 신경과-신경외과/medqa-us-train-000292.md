@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 높음, 낮음, 낮음, 높음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+뇌출혈 후 다뇨와 저농축 소변, 혈장 삼투압 상승은 중추성 요붕증을 나타낸다. 중추성 요붕증에서는 소변 농도와 삼투압이 모두 낮고, 혈장 삼투압은 높으며 혈청 나트륨은 정상 또는 약간 상승한다. 따라서 해당 패턴은 낮은 소변 비중·낮은 소변 삼투압·높은 혈장 삼투압·높은 혈청 나트륨이다.
 
 ## 출처
 

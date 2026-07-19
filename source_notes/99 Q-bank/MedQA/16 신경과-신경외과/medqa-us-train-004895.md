@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 림프구 수 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+눈의 통증성 안구운동과 시신경염, 과거의 간헐적 신경증상은 다발성경화증(MS)의 전형적인 임상 양상이다. MS에서는 면역글로불린이 뇌척수액에 국소적으로 생산되어 oligoclonal bands가 나타난다. 따라서 CSF에서 가장 흔히 보이는 소견은 oligoclonal bands이다.
 
 ## 출처
 

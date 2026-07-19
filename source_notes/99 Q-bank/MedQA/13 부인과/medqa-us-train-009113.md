@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 인유두종바이러스(HPV) 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ASC-US 결과는 인유두종바이러스(HPV) 감염 여부를 확인하는 것이 다음 단계이다. HPV 양성은 추가 검사를 결정하고, HPV 음성은 관찰을 권한다. 따라서 HPV 검사가 가장 적절한 조치이다.
 
 ## 출처
 

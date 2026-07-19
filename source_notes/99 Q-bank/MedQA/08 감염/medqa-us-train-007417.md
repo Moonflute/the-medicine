@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대장내시경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+62세 당뇨·고혈압 환자는 매년 인플루엔자 백신을 맞아 호흡기 감염 위험을 감소시켜야 한다. 폐렴구균 결합백신은 이미 PPSV23을 맞은 후 1년 이내에 추가로 권고되지 않는다.
 
 ## 출처
 

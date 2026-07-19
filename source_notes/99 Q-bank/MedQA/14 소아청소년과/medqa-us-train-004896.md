@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 배뇨방광요도조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소변 검사에서 요로감염을 시사하는 혈액, 백혈구, 세균, 아질산염 양성 및 대장균 배양이 확인되었다. 소아에서 첫 발열성 요로감염 후 신장 손상을 평가하기 위해 신장·방광 초음파가 권장된다. 따라서 신장 및 방광 초음파검사가 다음 단계이다.
 
 ## 출처
 

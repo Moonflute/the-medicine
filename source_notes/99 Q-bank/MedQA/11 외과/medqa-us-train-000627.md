@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 급성 장간막 허혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 외상 후 복부 내 출혈이 복강이 아닌 후복막에 고정되면 복부 팽만 없이 혈압 저하와 급성 빈혈이 나타난다. 복부 X‑ray에서 장 가스는 보존되며, 이는 후복막 출혈을 시사한다. 따라서 가장 가능성 있는 설명은 후복막 출혈이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프레드니솔론 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양성 외음부와 서혜부 종괴, 내장 결손은 완전 안드로겐 불감증(46,XY)으로, 성별 결정에 필요한 성선자극호르몬 수용체 결함이 있다. 이 경우 성별을 여성으로 확정하고 성선 조직을 제거하는 생식샘절제술이 표준 치료이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 메니에르병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청신경종(청신경 종양)은 Weber 검사에서 소리를 머리 중앙에 대면 청력이 더 좋은 쪽(왼쪽)에서 크게 들리는 특징이 있다. 다른 선택지는 검사 소견과 일치하지 않는다. 따라서 정답은 B이다.
 
 ## 출처
 

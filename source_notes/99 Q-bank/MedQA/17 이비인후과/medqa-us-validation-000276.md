@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 노인성 난청
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+노인성 난청은 고주파 청력 저하와 음향 반사 정상, Rinne 검사에서 양쪽 귀 모두 음향이 들리지 않을 때 뚜껑을 귀 앞에 놓으면 다시 들리는 특징을 보인다. 이는 전도성 손실이 아니라 감각신경성 손실을 의미한다. 따라서 가장 가능성 높은 진단은 노인성 난청이다.
 
 ## 출처
 

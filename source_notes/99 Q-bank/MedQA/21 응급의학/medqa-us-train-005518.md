@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 반코마이신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+코 패킹이 2일째 유지되면서 저혈압·빈맥·발진·수포가 나타난 것은 패킹에 의한 독성 쇼크(패킹에 의한 세균 독소) 가능성을 시사한다. 원인 제거가 가장 급선무이므로 코 패킹을 즉시 제거한다. 다른 선택지는 혈압 상승제나 항생제이지만 원인 제거가 우선이다.
 
 ## 출처
 

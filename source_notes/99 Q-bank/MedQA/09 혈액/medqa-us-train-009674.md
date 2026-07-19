@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비타민 B12 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+미세소관 적혈구가 작고 표적세포가 보이며 철제 보충에 반응이 없을 때는 베타 지중해빈혈이 의심된다. 베타‑글로빈 유전자에 돌연변이가 있으면 β‑사슬 생산이 감소해 HbA가 감소하고 HbA2와 HbF가 증가한다. 따라서 가장 가능성 높은 원인은 베타글로빈 유전자 돌연변이이다.
 
 ## 출처
 

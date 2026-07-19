@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 발프로산
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년 근간대성 간질은 전신 강직성 발작 후 전신 근육 경직이 특징이며, 발프로산이 1차 치료제로 권장된다. 디아제팜·에토숙시미드·페니토인은 급성 발작 억제에 쓰이지만 장기 관리에 적합하지 않다. 따라서 정답은 발프로산이다.
 
 ## 출처
 

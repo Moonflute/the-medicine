@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 십이지장 소화성 궤양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+알코올 남용과 급성 복통, 구토, 혈청 리파아제 800 U/L 상승은 급성 알코올성 췌장염을 시사한다. 다른 선택지는 담낭염(통증이 우상복부), 총담관결석(황달) 등과 일치하지 않는다. 따라서 가장 가능성 높은 진단은 췌장염이다.
 
 ## 출처
 

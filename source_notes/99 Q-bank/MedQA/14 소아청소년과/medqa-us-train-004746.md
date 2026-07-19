@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 피리도스티그민
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+6개월 영아에서 전형적인 보툴리눔 중독 증상(전신 근육 약화·안면 마비·구강 근육 저하)이 나타났으며, 꿀 섭취는 보툴리눔 포자를 제공한다. 초기 치료는 인간 면역글로불린(HIG)으로 독소 중화가 가장 효과적이다. 따라서 사람 유래 면역글로불린이 정답이다.
 
 ## 출처
 

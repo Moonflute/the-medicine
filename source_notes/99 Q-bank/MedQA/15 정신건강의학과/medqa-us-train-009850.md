@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 약물 관련 우울증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+해고라는 급성 스트레스 사건 직후 6시간 동안 간헐적으로 울고 일어나기 싫어하는 것은 사건 발생 후 1개월 이내에 나타나는 일시적 정서적 반응이다. 환자는 현실 지남력이 보존되고 자살 사고가 없으며 일상 기능이 크게 손상되지 않아 정상적인 스트레스 반응에 해당한다. 따라서 가장 적절한 설명은 ‘정상적인 스트레스 반응’이다. 주요우울장애는 2주 이상 지속되는 핵심 증상이 필요하고, 적응장애는 스트레스에 대한 과도한 정서적·행동적 반응이지만 일상 기능에 현저한 손상이 있다; 이 경우와는 차이가 있다.
 
 ## 출처
 

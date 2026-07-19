@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 높은 소변 pH
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+크론병으로 장 절제 후 지방 흡수 장애가 발생하면 지방산과 결합된 옥살산의 흡수가 감소해 옥살산 배설이 증가한다. 옥살산이 칼슘과 결합해 옥살산칼슘 결석을 형성하기 쉬워진다. 따라서 지방산 흡수장애가 현재 신장결석 형성에 가장 크게 기여한다.
 
 ## 출처
 

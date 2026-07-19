@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고환 종양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고환에 단단하고 압통이 없으며 빛이 투과되지 않는 고형 종괴는 고환 종양을 특징한다. 고환 종양은 비전이성 고형 덩어리로, 고환염(통증)이나 고환수종(전이 가능성)과 구별된다. 따라서 고환 종양이 가장 가능성 높은 진단이다.
 
 ## 출처
 

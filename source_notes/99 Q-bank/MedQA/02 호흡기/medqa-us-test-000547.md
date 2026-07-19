@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 무기폐
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 수술 후 흉부 X선에서 폐가 무기폐(폐실질이 붕괴)된 모습이 보이며, 호흡음 감소와 장음 감소가 동반된다. 무기폐는 수술 후 통증으로 깊은 호흡을 못해 발생한다. 따라서 가장 가능성 높은 원인은 무기폐이다.
 
 ## 출처
 

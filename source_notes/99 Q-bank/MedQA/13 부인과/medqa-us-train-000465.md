@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 종괴 절제술 + 정기적인 선별 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+LCIS는 유방암 위험을 증가시키지만 직접적인 암이 아니므로, 정기적인 유방 촬영과 임상 검진을 통한 관찰이 권장된다. 가장 중요한 오답인 전절제술은 과도한 치료이다.
 
 ## 출처
 

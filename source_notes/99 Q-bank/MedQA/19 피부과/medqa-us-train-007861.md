@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경구 프레드니솔론
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경계가 명확한 홍반성 판과 은백색 인설이 3% 미만의 피부에 국한된 경우는 경증의 건선이며, 1차 치료는 국소 스테로이드와 비타민 D 유도체(칼시포트리올)이다. 따라서 국소 클로베타솔 및/또는 칼시포트리올이 적절하다.
 
 ## 출처
 

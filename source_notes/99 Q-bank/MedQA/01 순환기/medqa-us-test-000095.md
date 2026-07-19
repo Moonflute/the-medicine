@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 호흡 시 흉벽 일부의 역설적 움직임
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심음이 약하고 경정맥 팽창, 저혈압이 동반된 경우 심장 눌림(심낭압전)으로 심실 충만이 감소한다. 흉부 외상 후 심낭에 혈액이 축적되면 흡입 시 수축기 혈압이 급격히 떨어지는 펜싱 현상이 나타난다. 따라서 예상되는 소견은 흡기 중 수축기 혈압이 10‑15 mmHg 감소하는 것이다.
 
 ## 출처
 

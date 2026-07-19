@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지역 경찰과 협력해 총을 압수한 후 귀가시킨다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 구체적인 자살 계획(총 보유)과 급성 위험성을 보이며, 즉각적인 위험 감소가 필요하다. 가장 안전한 초기 조치는 입원을 통한 지속적인 감시와 치료이다. 따라서 병원 입원이 적절한 초기 치료이다.
 
 ## 출처
 

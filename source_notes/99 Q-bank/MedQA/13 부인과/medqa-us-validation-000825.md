@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 외음부암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+후방 질전정에 파동이 있는 부종은 바르톨린샘(대음순선) 낭종의 전형적인 소견이다. 바르톨린샘은 질전정에 위치하며 낭종이 커지면 외음부 부종과 보행 불편을 유발한다. 따라서 가장 가능성 높은 진단은 바르톨린샘 낭종이다.
 
 ## 출처
 

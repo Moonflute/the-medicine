@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 환자에게 최소 1년 동안 수술을 연기해야 한다고 말한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 현재 혈압·심박동·혈액검사 모두 정상이며, 수술 전 평가에서 큰 위험 인자는 없었다. 추가 검사는 필요 없으며, 수술을 진행해도 된다. 따라서 정답은 수술을 의학적으로 승인한다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -46,7 +48,8 @@ D. 알코올중독
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+거대적아구성 빈혈(악성빈혈)은 비타민 B12 결핍으로 MCV가 증가하고, 항‑내인자 항체 양성, 혈소판 증가, 백혈구 감소가 동반된다. 갑상선 저하·엽산 결핍은 MCV 감소, 알코올 중독은 소구성 빈혈을 유발한다. 따라서 악성빈혈이 가장 가능성 높은 원인이다
 
 ## 출처
 

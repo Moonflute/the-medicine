@@ -17,11 +17,13 @@ question_type: etiology
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 호흡기 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소아 요로감염의 주요 위험인자는 변비로 인한 방광 배출 장애이다. 변비가 방광에 압력을 가해 잔뇨를 증가시켜 감염 위험을 높인다. 다른 선택지는 요로감염과 직접적인 연관이 적다. 따라서 변비가 가장 가능성 높은 소인이다.
 
 ## 출처
 

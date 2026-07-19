@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,9 @@ D. 시타글립틴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+BMI가 높고 체중 감소가 미미한 경우 GLP‑1 수용체 작용제인 엑세나타이드는 체중 감량과 혈당 강하에 효과적이다. 따라서 두 번째 약제로 엑세나타이드를 선택한다.
+다른 옵션들은 체중 감소 효과가 상대적으로 적다.
 
 ## 출처
 

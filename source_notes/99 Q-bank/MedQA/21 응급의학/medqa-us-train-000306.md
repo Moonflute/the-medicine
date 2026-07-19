@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 티아민(Thiamine)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경미한 두통·집중력 저하·현기증이 외상 후 3일 이내에 지속되는 것은 경미한 외상성 뇌손상(뇌진탕) 후 증후군이며, 신경학적 검사가 정상인 경우 추가 영상 없이 휴식과 추적 관찰이 권장된다.
 
 ## 출처
 

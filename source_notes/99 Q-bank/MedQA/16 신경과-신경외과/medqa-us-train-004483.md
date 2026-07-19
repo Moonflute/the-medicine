@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기저 편두통
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+얼굴에 전기 같은 급성 통증이 음식·말·웃음에 유발되는 삼차신경통은 짧은 발작과 무감각을 동반한다. 신경학적 검사가 정상인 점도 특징이다. 따라서 가장 가능성 높은 진단은 삼차신경통이다.
 
 ## 출처
 

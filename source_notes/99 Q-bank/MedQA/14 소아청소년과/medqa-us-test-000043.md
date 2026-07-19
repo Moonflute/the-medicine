@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 유문 협착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 담즙성 구토와 복부 팽창, 양수과다, 고혈당은 십이지장 폐쇄(duodenal atresia)를 시사한다. 이 질환은 구토와 복부 팽만을 일으키며, 가장 흔한 원인이다. 다른 선택지는 증상과 일치하지 않는다.
 
 ## 출처
 

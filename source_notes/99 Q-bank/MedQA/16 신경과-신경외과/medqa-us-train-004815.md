@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 피리메타민과 설파디아진 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+뇌 MRI에서 고리 모양의 병변과 주변 부종이 보이며, 두개내 압력 상승을 위한 만니톨·레베티라세탐 투여 후에도 증상이 지속된다면, 농양이 의심된다. 농양은 외과적 배액이 치료의 핵심이므로 흡인 및 수술적 배액이 다음 단계이다.
 
 ## 출처
 

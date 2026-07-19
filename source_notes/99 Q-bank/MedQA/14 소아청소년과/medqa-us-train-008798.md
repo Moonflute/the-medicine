@@ -17,11 +17,13 @@ question_type: other
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 낯선 사람 불안
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+6개월 영아는 낯선 사람에 대한 불안(낯선 사람 불안)이 발현되는 시기이다. 이는 정상 발달 단계이며, 다른 선택지는 이 연령대에 아직 나타나지 않는다. 따라서 낯선 사람 불안이 기대되는 발달 이정표이다.
 
 ## 출처
 

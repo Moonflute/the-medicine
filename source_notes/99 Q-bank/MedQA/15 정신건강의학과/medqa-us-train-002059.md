@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 주요우울장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+배우자 사망 후 1개월간 슬픔, 수면장애, 체중 감소가 있으나 일상 기능 유지와 자살 생각이 없으며, 증상이 6개월 미만이다. 이는 정상적인 애도 반응이며, 병리적 진단이 필요하지 않다. 따라서 정답은 B이다.
 
 ## 출처
 

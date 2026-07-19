@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 간
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+성인에서 두통, 손·발 크기 증가, 안면 골격 변화는 성장호르몬 과다분비를 의미하며, 이는 전엽 뇌하수체에 성장호르몬 분비 종양이 존재함을 시사한다. 따라서 가장 가능성 높은 구조적 이상은 전엽 뇌하수체이다.
 
 ## 출처
 

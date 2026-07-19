@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 설하 니트로글리세린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흉골 근처 갈비뼈 압통과 정상 심전도·트로포닌은 근골격성 흉통을 의미한다. 비스테로이드성 소염진통제인 이부프로펜이 통증과 염증을 완화하는 1차 치료이다. 따라서 초기 처치는 이부프로펜이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 사랑하는 사람을 잃는 것은 삶의 일부입니다. 이 일을 더 �
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 슬픔과 무기력, 자살 생각 여부를 평가해야 한다. 가장 중요한 것은 자살 위험을 탐색하는 질문을 포함한 공감적 진술이다. 따라서 친구의 죽음이 큰 영향을 줬음을 인정하고 자살 생각을 물어보는 것이 적절하다.
 
 ## 출처
 

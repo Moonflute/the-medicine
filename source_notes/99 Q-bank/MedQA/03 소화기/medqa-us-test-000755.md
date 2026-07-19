@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 췌장염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+총담관이 확장되고 담석이 확인된 영상 소견은 총담관결석증을 가장 가능성 있게 만든다. 담즙 정체와 황달이 나타나며 간 효소는 담즙성 패턴을 보인다. 따라서 총담관결석증이 가장 높은 원인이다.
 
 ## 출처
 

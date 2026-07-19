@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 외과적 동맥류 결찰술 시행
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 두통, 목 경직, 뇌 CT에서 지주막하 출혈을 시사하는 고밀도 혈종을 보이며, 이는 파열된 동맥류에 의한 출혈이다. 치료는 외과적 동맥류 결찰이 가장 적절하다.
 
 ## 출처
 

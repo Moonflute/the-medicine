@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 오른쪽 교뇌
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우측 척수 반절 병변은 반대쪽(좌측) 감각 저하와 우측 운동신경 손상(근긴장도 증가, 반사亢진, 감각 저하)으로 나타난다. 따라서 병변은 오른쪽 척수 반쪽에 있을 가능성이 가장 높다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 사구체 전하 소실
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병 초기에는 사구체 여과율이 증가해 미세알부민뇨가 나타난다. 이는 고혈당에 의한 혈관 확장과 사구체 내압 상승 때문이며, 구조적 손상이 아닌 기능적 과여과가 원인이다. 따라서 사구체 여과 증가가 가장 가능성 높은 원인이다.
 
 ## 출처
 

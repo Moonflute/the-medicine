@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 외래 집단치료에 의뢰한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+편집증적 망상장애는 비현실적인 믿음이 고정되어 있으며, 인지행동치료(CBT)가 망상의 인지 재구성과 대처 기술을 향상시켜 가장 효과적이다. 따라서 CBT가 적절한 초기 치료이다.
 
 ## 출처
 

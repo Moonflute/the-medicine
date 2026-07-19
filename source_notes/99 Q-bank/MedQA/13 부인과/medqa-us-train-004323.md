@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 철결핍성 빈혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+점막하 자궁근종은 월경과다와 장기간 출혈을 일으켜 철소모성 빈혈 위험을 높인다. 빈혈은 근종의 가장 흔한 합병증이며, 다른 선택지는 해당 환자에서 직접적인 위험을 증가시키지 않는다.
 
 ## 출처
 

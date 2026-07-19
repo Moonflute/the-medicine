@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부 초음파검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소아 무통성 하부 위장관 출혈에서 메켈 게실을 확인하려면 Tc‑99m 퍼테크네이트 스캔이 가장 민감한 검사이다. 대변 배양·우유 단백 제거·복부 초음파는 진단에 적합하지 않다.
 
 ## 출처
 

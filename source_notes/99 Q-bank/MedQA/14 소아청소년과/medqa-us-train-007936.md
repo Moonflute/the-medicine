@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 질산은 안약과 기본 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아는 출생 직후 비타민 K 결핍으로 출혈 위험이 높으며, 근육주사 비타민 K는 출혈 예방에 필수적이다. 따라서 정답은 근육주사 비타민 K와 국소 에리트로마이신이다.
 
 ## 출처
 

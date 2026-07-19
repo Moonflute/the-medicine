@@ -16,11 +16,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 티아지드 이뇨제 투여 시작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ACE 억제제에 의한 혈관성 부종이 발생했으므로 캡토프릴을 중단하고 티아지드 이뇨제로 혈압을 조절하는 것이 안전하다. 따라서 다음 단계는 티아지드 이뇨제 투여이다.
 
 ## 출처
 

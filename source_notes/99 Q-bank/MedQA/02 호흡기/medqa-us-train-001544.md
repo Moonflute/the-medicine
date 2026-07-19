@@ -16,11 +16,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 이전 흉부 방사선사진을 비교용으로 확인
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고정된 폐결절의 특성을 파악하려면 과거 흉부 방사선 사진을 비교해 성장 여부를 확인하는 것이 가장 먼저 해야 할 단계이다.
 
 ## 출처
 

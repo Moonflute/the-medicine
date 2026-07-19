@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 인슐린 10 μU/mL
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경구 포도당 부하 검사에서 2시간 후 혈당이 209 mg/dL(>200)인 경우 제2형 당뇨병 진단 기준에 해당한다. 공복 혈당만으로는 진단이 되지 않으며 HbA1c도 경계값이다.
 
 ## 출처
 

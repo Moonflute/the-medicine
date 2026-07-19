@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 알레르기 반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 치과 시술 후 급성 입술 부종·기도 협착이 나타나는 경우 C1 에스터라제 억제제 결핍으로 인한 유전성 혈관부종(HAE)이 원인이다. 약물 유발 혈관부종은 약물 노출과 연관되고, 접촉피부염은 국소 증상만 있다. 따라서 진단은 유전성 혈관부종이다.
 
 ## 출처
 

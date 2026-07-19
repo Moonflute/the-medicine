@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 갑상선종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+TSH 저하·T4 상승은 갑상선 기능항진을 의미한다. 방사성 요오드 스캔에서 한 결절만 과다 섭취하고 나머지는 억제된 경우, 독성 선종(독성 갑상선 결절)이 가장 흔한 원인이다. 따라서 진단은 독성 선종이다.
 
 ## 출처
 

@@ -16,11 +16,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 만성 용혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+겸상 적혈구 환자에서 담즙성 결석이 흔히 발생하며, 초음파에서 담낭벽 비대와 결석이 보인다. 이는 담낭 배출 장애(담즙 정체)로 인한 담석 형성이다. 따라서 병태생리는 담낭 배출 장애이다.
 
 ## 출처
 

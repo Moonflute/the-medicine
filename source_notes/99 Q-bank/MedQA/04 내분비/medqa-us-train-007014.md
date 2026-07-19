@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 인슐린 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 급성 알레르기 반응(아나필락시스)에서는 히스타민 매개 Ⅰ형 과민반응이 원인이며, 에피네프린이 가장 효과적인 치료이다. 따라서 정답은 D이다.
 
 ## 출처
 

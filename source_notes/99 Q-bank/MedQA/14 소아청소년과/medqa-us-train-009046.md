@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비스포스포네이트 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+단신형 저골증 환자는 척추관 협착과 뇌실 확대 위험이 있어 두부 CT로 수두증 여부를 확인해야 한다. 성장호르몬·레보티록신·비스포스포네이트는 진단 단계가 아니라 치료 옵션이다. 따라서 두부 CT가 정답이다.
 
 ## 출처
 

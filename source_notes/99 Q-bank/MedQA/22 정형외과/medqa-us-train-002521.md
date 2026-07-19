@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 요골 골절
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+상완골 중간부 골절은 전완부를 지나는 요골 신경을 손상시켜 손목 신전(요골 신경 마비) 근력이 0/5가 된다. 따라서 가장 가능성 높은 골절은 상완골 중간 몸통 골절이다.
 
 ## 출처
 

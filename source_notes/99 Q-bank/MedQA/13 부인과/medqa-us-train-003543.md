@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 자간증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+외상 후 복통·통증성 질 출혈·자궁 긴장(경직)은 태반이 자궁 내에서 조기 박리되어 혈액이 자궁강에 고이면서 발생하는 태반조기박리를 시사한다. 고혈압·저혈압, 빈맥과 함께 급성 출혈이 동반된다. 따라서 가장 가능성 높은 진단은 태반조기박리이다.
 
 ## 출처
 

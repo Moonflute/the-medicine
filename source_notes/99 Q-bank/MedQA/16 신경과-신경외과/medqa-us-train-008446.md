@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수분 섭취 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+머리를 오른쪽으로 돌린 뒤 급히 눕히면 증상이 유발되는 양상은 양성 발작성 체위성 현기증(BPPV)이며, 이는 이석이 반고리관에 이동한 결과이다. 가장 효과적인 치료는 이석을 원위치로 되돌리는 Epley(이석 정복) 기법이다. 따라서 이석 정복술이 적절한 초기 치료이다.
 
 ## 출처
 

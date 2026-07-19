@@ -17,11 +17,13 @@ question_type: risk_factor
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -50,7 +52,8 @@ D. 흡연
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+척추 경막외 농양은 정맥주사 약물 사용이 주요 위험인자이며, 환자는 다수의 정맥 주사 흔적이 있다. 따라서 정맥주사 약물 사용이 가장 가능성 높은 위험인자이다.
 
 ## 출처
 

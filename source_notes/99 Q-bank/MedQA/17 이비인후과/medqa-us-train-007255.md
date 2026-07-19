@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 근육 내 덱사메타손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+메니에르병의 급성 발작 예방에 가장 효과적인 약물은 저용량 이뇨제인 히드로클로로티아지드이다. 따라서 초기 예방 치료는 경구 히드로클로로티아지드이다.
 
 ## 출처
 

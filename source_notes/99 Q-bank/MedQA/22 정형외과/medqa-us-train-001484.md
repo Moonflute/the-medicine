@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 재활운동과 허용되는 범위의 활동
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+플루오로퀴놀론(목시플록사신)은 아킬레스건 힘줄염을 유발할 수 있는 위험인자이다. 환자는 급성 통증 없이 힘줄통증을 호소하므로 약물에 의한 힘줄염이 의심된다. 따라서 항생제를 플루오로퀴놀론에서 다른 클래스로 교체하고, 힘줄 손상을 악화시킬 수 있는 운동을 피하는 것이 적절하다.
 
 ## 출처
 

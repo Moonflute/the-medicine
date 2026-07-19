@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. fosphenytoin 정맥투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고열에 의한 지속적인 전신 발작(상태성 발작)에서는 즉시 벤조디아제핀(예: 로라제팜) 정맥주사가 1차 치료이다. 다른 항경련제는 2차 옵션이며 혈액 배양은 급성 상황에서 우선순위가 아니다. 따라서 가장 적절한 조치는 로라제팜 정맥투여이다.
 
 ## 출처
 

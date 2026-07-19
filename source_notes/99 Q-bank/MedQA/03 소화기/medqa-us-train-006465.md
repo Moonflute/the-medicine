@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소마토스타틴 수용체 신티그래피
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+지방변과 체중 감소, 복부 통증은 췌장 외분비 기능부전(췌장염) 의심을 시사한다. 췌장 구조와 주변 장기 침범 여부를 확인하려면 조영제 사용 복부 CT가 가장 민감하고 빠른 영상검사이다. 따라서 정답은 B이다.
 
 ## 출처
 

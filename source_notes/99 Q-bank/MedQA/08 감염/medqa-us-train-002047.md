@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 환자에게 세프트리악손과 반코마이신을 투여하고 밀접 접
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+생후 1세에서 급성 발열, 발진, 저혈압, CSF에 다량 호중구, 저포도당, 고단백은 수막구균성 수막염을 나타낸다. 표준 치료는 3세대 세팔로스포린(세프트리악손)과 반코마이신이며, 접촉자에게 리팜핀 예방투여가 권고된다. 따라서 정답은 D이다.
 
 ## 출처
 

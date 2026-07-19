@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 체중 감량
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압 치료에 있어 체중 감량은 혈압을 평균 5‑20 mmHg 감소시키는 가장 효과적인 생활습관 개입이다. 환자는 비만(체중 감량 가능)이며 다른 옵션보다 혈압 감소 효과가 크다. 따라서 체중 감량이 가장 효과적인 치료이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항인지질 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+헤파린 투여 후 aPTT가 충분히 연장되지 않고 혈전이 지속되는 경우 항트롬빈 III 결핍이 원인일 수 있다. 이는 헤파린 저항성을 일으켜 혈전 형성을 지속시킨다.
 
 ## 출처
 

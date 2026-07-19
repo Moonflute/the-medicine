@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 위식도 역류질환
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 구토와 구역, 정상 복부 촉진, 체중이 정상 범위에 있는 경우 주기성 구토 증후군이 가장 흔한 원인이다. 이는 구토 발작 사이에 증상이 완전히 사라지는 특징을 가진다. 따라서 주기성 구토 증후군이 가장 가능성 높은 진단이다.
 
 ## 출처
 

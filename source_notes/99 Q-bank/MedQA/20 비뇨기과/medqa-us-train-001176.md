@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 복부 및 골반 조영 CT
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전립선암 검진은 55세 이상 남성에서 PSA 혈청 검사가 권장된다. 환자는 55세이므로 PSA 검사를 시행하는 것이 적절한 다음 단계이다.
 
 ## 출처
 

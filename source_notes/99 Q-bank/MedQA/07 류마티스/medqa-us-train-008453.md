@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 메틸프레드니솔론을 시작한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고령 환자의 두통·발열·높은 ESR와 골격근통은 거대세포동맥염과 연관된 다발성 근육통(Polymyalgia rheumatica)이다. 경구 프레드니손이 1차 치료이며, 정맥 스테로이드는 급성 합병증에만 사용한다.
 
 ## 출처
 

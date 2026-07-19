@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. BRCA1 및 BRCA2 유전자 불활성화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 선종은 APC 유전자의 기능 상실로 발생하는 가족성 선종성 폴립증(FAP)의 전형적인 병리이다. APC 돌연변이는 Wnt 신호 억제를 잃게 하여 선종 형성을 촉진한다. 따라서 가장 가능성 높은 기전은 APC 유전자 돌연변이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 저칼륨혈증과 정상 음이온차 산증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소변에 산성화가 증가하면 칼슘 옥살산 결석이 형성되기 쉬우며, 다발성 내분비 종양 1형 환자에서 과다한 비타민 D와 칼슘 흡수로 인해 소변 pH가 낮아진다. 따라서 소변 pH 감소가 예상된다.
 
 ## 출처
 

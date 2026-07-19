@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 면역글로불린 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+예방접종이 없고 고양이와 접촉한 4세 소아에서 급성 인두염·편도염과 함께 고열·경부 림프절 농양이 나타나면 클라미디아(Clostridium) 감염보다는 클린다마이신에 민감한 비정형 연쇄상구균이 원인이다. 따라서 클린다마이신 치료가 적절하다.
 
 ## 출처
 

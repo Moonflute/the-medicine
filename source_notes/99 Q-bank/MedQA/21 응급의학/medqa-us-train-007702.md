@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아들에게 농축적혈구를 수혈하되 아버지에게는 수혈하지 
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+미성년자는 부모의 동의만으로는 수혈을 거부할 수 없으며, 생명을 위협하는 응급 상황에서는 법원의 긴급 명령 없이도 의료진이 수혈을 시행할 수 있다. 따라서 아이에게 농축적혈구를 수혈하는 것이 적절하다.
 
 ## 출처
 

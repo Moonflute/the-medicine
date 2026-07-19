@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 머리를 높이고 10분간 콧방울을 손으로 압박
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+코피가 발생했을 때 머리를 높이고 코를 10분간 압박하면 출혈 부위의 혈압을 낮춰 자연적으로 멈출 수 있다. 이는 가장 기본적인 초기 처치이다.
 
 ## 출처
 

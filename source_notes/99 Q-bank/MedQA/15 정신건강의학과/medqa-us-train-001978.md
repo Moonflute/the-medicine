@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Ziprasidone
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 정신병(조현병·조증)에서 비정형 항정신병제인 지프라시돈은 QT 연장 위험이 낮고 대사 부작용이 적어 급성 흥분 상태에 적합하다. 다른 선택지는 부작용이나 용도 제한이 있다. 따라서 정답은 D이다.
 
 ## 출처
 

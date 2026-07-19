@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 섬망
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 혼란, 체온 상승, 백혈구 증가와 같은 급성 변동성 정신증상이 감염에 동반된 섬망을 시사한다. 섬망은 주의력 저하와 시간·장소·인물 착각을 특징으로 하며, 급성 발열과 염증 반응이 흔한 원인이다. 따라서 가장 가능성 높은 진단은 섬망이다.
 
 ## 출처
 

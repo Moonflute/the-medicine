@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안심시키고 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+젊은 여성의 단단하고 움직이는 2 cm 유방 결절은 섬유선종이 가장 흔한 원인이다. 섬유선종은 초음파에서 양성 특징을 보이며, 영상학적 확인이 진단에 필수적이다. 따라서 다음 단계는 유방 초음파이다.
 
 ## 출처
 

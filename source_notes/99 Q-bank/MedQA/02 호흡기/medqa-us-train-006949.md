@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐동맥 압력 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 흉부 CT에서 기저부에 군집된 공기 공간과 망상 음영이 보이며, 폐활량 감소와 흡기성 수포음이 있다. 이는 특발성 폐섬유증(IPF)에서 보이는 폐세포외기질에 콜라겐 과다 침착이 원인이다. 콜라겐 침착이 폐 조직을 경직시켜 폐 순환 저항을 증가시켜 호흡곤란을 일으킨다. 따라서 정답은 A이다.
 
 ## 출처
 

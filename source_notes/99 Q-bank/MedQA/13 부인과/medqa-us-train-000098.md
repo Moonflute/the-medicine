@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 포도송이육종(Sarcoma botryoides)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+과거 LSIL·HPV 양성 이력이 있고, 자궁경부에 궤양성 외향성 종괴가 나타난 점에서 HPV 관련 편평상피세포암이 가장 흔한 악성 변형이다. 다른 선택지는 자궁경부에서 드물다.
 
 ## 출처
 

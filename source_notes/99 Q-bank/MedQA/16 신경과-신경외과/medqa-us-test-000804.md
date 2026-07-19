@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. MRI
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 일과성 허혈발작(TIA) 증상을 보였으며, 증상이 완전히 사라진 후에도 재발 위험이 높다. TIA 후에는 뇌혈관의 협착이나 색전 위험을 평가하기 위해 신속한 혈관영상이 필요하고, CT 혈관조영술이 가장 빠르고 정확한 정보를 제공한다. 따라서 CT 혈관조영술이 최선의 다음 단계이다.
 
 ## 출처
 

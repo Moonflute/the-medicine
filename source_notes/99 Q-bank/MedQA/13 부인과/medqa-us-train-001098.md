@@ -15,11 +15,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 복합 경구 피임약
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+라텍스와 구리 알레르기가 있는 경우, 복합 경구 피임약은 에스트로겐‑프로게스틴 조합으로 혈전 위험을 증가시켜 알레르기와 무관하지만 금기 약물은 아니다. 그러나 IUD는 구리 알레르기와 직접 관련이 있어 금기이다. 따라서 금기인 피임 방법은 복합 경구 피임약이 아니라 자궁내장치이다.
 
 ## 출처
 

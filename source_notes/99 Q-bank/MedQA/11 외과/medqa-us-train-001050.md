@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폴린산(leucovorin) + 5-플루오로우라실(5-Fluorouracil) + 옥살리�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+FAP 환자에서 수백 개의 대장 용종이 존재하고 직장에 30개 이상이 보이면 보존적 절제보다는 회장‑항문문합술을 동반한 직장결장절제술이 표준 치료이다. 이는 악성 변환 위험을 크게 감소시킨다. 따라서 다음 단계는 회장항문문합술을 포함한 직장결장절제술이다.
 
 ## 출처
 

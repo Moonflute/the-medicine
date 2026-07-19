@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 왁스 원주
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신증후군에서 중증 저알부민혈증과 고지혈증, 고단백뇨가 동반되며, 소변에 지방 원주(뇨 지방 구) 가 특징적으로 나타난다. 이는 여과된 단백질에 의해 지방이 소변에 섞여 보이는 현상이다. 따라서 가장 잘 보일 원주는 지방 원주이다.
 
 ## 출처
 

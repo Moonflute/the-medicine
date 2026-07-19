@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 관찰하며 정기 추적
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고막 뒤에 반투명한 공기-액체 경계와 운동성 감소는 급성 중이염 후 삼출(중이염 후 삼출)으로, 증상이 호전되고 10일간 항생제 치료 후에도 지속될 수 있다. 이 상태는 자연적으로 수주 내에 해결되며 추가 항생제는 필요하지 않다. 따라서 관찰하고 정기 추적한다가 적절하다.
 
 ## 출처
 

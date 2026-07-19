@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 전하소뇌동맥 폐색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+내림프 재흡수 감소는 메니에르병에서 내이의 과다액이 축적돼 발생하며, 이로 인해 회전성 현기증과 저음 안진이 나타난다. 혈관 폐색은 뇌졸중 증상을, 종양은 진행성 신경학적 결손을 일으킨다. 따라서 내림프 재흡수 감소가 가장 가능성 높은 원인이다
 
 ## 출처
 

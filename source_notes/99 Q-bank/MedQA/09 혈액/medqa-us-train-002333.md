@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경구 페니실린 VK
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+6세 환자는 급성 마비와 말초 혈액 도말에서 말라리아 원충이 보이며, 겸상 적혈구 질환 환자에서 뇌졸중 위험을 감소시키는 가장 효과적인 방법은 정기적인 적혈구 교환 수혈이다. 이는 혈중 HbS 농도를 낮추어 혈전 형성을 방지한다. 따라서 정기적인 수혈이 예방에 가장 효과적이다.
 
 ## 출처
 

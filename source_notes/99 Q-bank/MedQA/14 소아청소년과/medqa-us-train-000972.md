@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수두(Chickenpox)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중심 함몰을 동반한 진주색 구진은 전염성 연속종의 특징이다. 전염성 연속종은 전염성이 높으며, 어린이에게 흔히 나타난다. 따라서 전염성 연속종이 가장 가능성 높은 진단이다.
 
 ## 출처
 

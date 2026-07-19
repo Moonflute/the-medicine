@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 기저세포암(Basal cell carcinoma)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흑색 종양이 비대칭이며 경계가 불규칙하고 색소가 불균일하게 분포한 것이 사진에서 보이며, 이는 악성 흑색종의 전형적인 임상 소견이다. 흑색종은 비멍들어오지 않는 고형 결절로 나타나며, 조기 전이 위험이 높아 가장 가능성이 높은 진단이다.
 
 ## 출처
 

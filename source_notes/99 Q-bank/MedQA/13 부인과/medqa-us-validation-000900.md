@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자궁내장치에 대한 알레르기 반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+바르톨린선(바르톨린관) 낭종은 작은 무통성 종괴를 형성하며, 염증이 없고 압통만 있을 수 있다. 이는 바르톨린관 폐쇄에 의해 발생한다. 따라서 가장 가능성 높은 원인은 바르톨린관 구멍 폐쇄이다.
 
 ## 출처
 

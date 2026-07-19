@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 터너 증후군(Turner syndrome)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+정상 2차 성징과 무월경, 짧아진 질, 자궁경부 비시각화는 자궁과 상부 질이 선천적으로 결여된 Müllerian agenesis와 일치한다. 다른 선택지는 호르몬 결핍이나 염색체 이상을 동반한다. 따라서 정답은 B이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이 약물은 인슐린과 병용해서는 안 된다.
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+엑세나타이드는 GLP‑1 수용체 작용제로 심혈관 위험 감소 효과가 입증되었지만, 자체적으로 심혈관 사망률을 낮추지는 않는다. 따라서 심혈관계 결과를 개선하지 않는다가 옳다. 다른 선택지는 사실과 다르다.
 
 ## 출처
 

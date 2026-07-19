@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 척수공동증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+척수 반절단 손상은 손상된 반구의 감각·운동이 반대쪽에 나타나는 특징이 있다. 환자는 오른쪽 상지에 마비·감각 저하, 왼쪽 하체에 감각 저하가 일치한다. 전척수 증후군은 전반적 마비, 후척수는 감각 저하만 있다. 따라서 척수 반절단 손상이 가장 가능성 높다
 
 ## 출처
 

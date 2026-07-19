@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 양극성장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+정신적 스트레스(직업 상실) 후 일시적 우울·불안, 기능 저하가 6개월 이내에 나타나는 경우는 적응장애에 해당한다. 증상이 경미하고 자살 위험이 없으며, 다른 정신질환 기준을 충족하지 않는다. 따라서 정답은 적응장애이다.
 
 ## 출처
 

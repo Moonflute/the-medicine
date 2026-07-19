@@ -18,11 +18,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 상승한 혈압
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 최근 심근경색(6주 전) 후 급성 허혈성 뇌졸중 증상이 나타났으며, 최근 심근경색은 tPA 투여의 절대 금기이다. 따라서 최근 심근경색 병력이 tPA 보류 이유가 된다.
 
 ## 출처
 

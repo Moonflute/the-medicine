@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경피적 핀 고정술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손목 부위 통증·부종·운동 제한과 정상 X‑ray은 미세 골절을 의심하게 한다. 엄지 스피카를 석고 고정하면 골절 부위가 안정화되고 통증이 감소한다. 2주 후 재촬영으로 치유 여부를 확인한다. 따라서 스피카 석고 고정이 적절하다.
 
 ## 출처
 

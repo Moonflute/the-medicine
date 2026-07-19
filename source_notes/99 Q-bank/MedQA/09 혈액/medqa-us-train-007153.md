@@ -18,11 +18,13 @@ question_type: prognosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 대퇴골두 무혈성 괴사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+유전구형적혈구증(겸상적혈구증)에서는 용혈성 빈혈이 지속적으로 발생해 담석 형성이 흔히 일어난다. 망막병증·B19 감염·대퇴골두 무혈성 괴사는 다른 질환과 연관된다. 따라서 담석이 가장 흔한 합병증이다
 
 ## 출처
 

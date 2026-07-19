@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 횡문근융해증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고칼륨혈증의 가장 흔한 원인 중 하나는 ACE 억제제와 같은 약물에 의한 신장 전해질 재흡수 변화이다. 환자는 고혈압 치료제로 ACE 억제제를 복용하고 있을 가능성이 높으며, 이는 혈청 K⁺ 상승을 일으킨다. 따라서 원인은 약물이다.
 
 ## 출처
 

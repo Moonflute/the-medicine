@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항히스톤 항체 양성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복 유산·혈전증·양성 항인지질 항체는 항인지질증후군을 시사한다. 항인지질증후군은 VDRL 검사에서 가양성 반응을 보이므로 VDRL 양성이 가장 관련된 소견이다. 다른 선택지는 해당 증후군과 연관이 없다. 따라서 정답은 VDRL 양성이다.
 
 ## 출처
 

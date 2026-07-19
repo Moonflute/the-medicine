@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 악몽 장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+밤에 무서운 꿈을 꾸고 깨어난 뒤 다시 잠들 수 있는 현상은 악몽 장애이며, 수면 공포 장애는 깨어 있을 때 공포를 호소한다. 따라서 가장 가능성 높은 진단은 악몽 장애이다.
 
 ## 출처
 

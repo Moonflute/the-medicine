@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안심시키고 전정 억제제 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양성 체위성 현훈은 머리 회전 시 증상이 유발되고, 전정 억제제(메클리진 등)로 증상 완화가 가능하다. 항생제·스테로이드·MRI는 필요하지 않다. 따라서 D가 정답이다.
 
 ## 출처
 

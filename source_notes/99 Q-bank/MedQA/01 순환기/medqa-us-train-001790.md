@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 선천성 이첨판 대동맥판
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조기 이완기 감쇠성 잡음은 대동맥 역류를 의미하며, 선천성 이첨판 대동맥판이 가장 흔한 원인이다. 미국에서 이 질환이 가장 흔히 발견된다. 다른 선택지는 이 잡음과 연관성이 낮다.
 
 ## 출처
 

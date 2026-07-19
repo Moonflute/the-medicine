@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 사람유두종바이러스(HPV) 백신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+겸상적혈구병 환자는 폐렴구균 감염 위험이 크게 증가한다. 예방을 위해 5세 이상에서는 폐렴구균 다당체 백신을 접종한다. 따라서 폐렴구균 백신이 정답이다.
 
 ## 출처
 

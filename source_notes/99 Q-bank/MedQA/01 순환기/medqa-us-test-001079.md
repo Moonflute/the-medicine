@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아트로핀
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무맥성 심실세동에서는 전기적 리듬 회복이 어려워 아미오다론을 투여해 심근세포의 전기적 안정성을 높인다. 에피네프린·도파민은 혈압 유지에 쓰이지만 리듬 전환에 효과가 없다. 따라서 정답은 아미오다론이다.
 
 ## 출처
 

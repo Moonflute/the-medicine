@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 베르니케 뇌병증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+저나트륨혈증을 급속히 교정하면 세포 내 수분이 빠져 나가면서 뇌백질 탈수초 손상이 발생한다. 이는 삼투성 탈수초 증후군(ODS) 위험을 증가시킨다. 다른 부작용은 교정 속도와 관련이 없다. 따라서 ODS 위험이 정답이다.
 
 ## 출처
 

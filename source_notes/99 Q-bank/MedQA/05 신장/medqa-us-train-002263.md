@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 정맥 중탄산나트륨을 투여한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 고칼륨혈증과 근육 손상(횡격막) 후 인슐린과 포도당 투여는 세포 내 K⁺ 이동을 촉진해 혈중 칼륨을 급속히 낮춘다. 따라서 인슐린‑포도당 치료가 적절하다.
 
 ## 출처
 

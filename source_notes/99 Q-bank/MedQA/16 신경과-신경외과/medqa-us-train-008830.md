@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 모노아민 산화효소-B 억제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+레보도파와 카르비도파 병용은 레보도파의 말초 대사를 차단해 중추에서의 효능을 높인다. 카르비도파는 L-아미노산 탈탄산효소(DDC)를 억제해 레보도파가 도파민으로 전환되는 것을 방지한다. 따라서 두 번째 약물의 기전은 방향족 L-아미노산 탈탄산효소 억제이다.
 
 ## 출처
 

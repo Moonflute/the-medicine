@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Tdap 예방접종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 24~28주에 임신성 당뇨병 선별을 위해 경구 포도당 부하검사를 시행한다. 혈당 이상을 조기에 발견해 관리하기 위한 표준 검사이다. 따라서 정답은 경구 포도당 부하검사이다.
 
 ## 출처
 

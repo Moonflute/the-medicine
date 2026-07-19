@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 제2형 양극성장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수면 감소, 과다활동, 과대망상, 환각은 조증 삽화의 특징이며, 조증은 양극성Ⅰ형(조증 에피소드)에서 나타난다. 증상이 1주 이상 지속되었고 입원 필요성이 있기에 가장 타당한 진단은 제1형 양극성장애이다.
 
 ## 출처
 

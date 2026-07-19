@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 정맥 수액 및 100% 산소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 중증 전신성 알레르기 반응(아나필락시스)에서는 저혈압·빈맥·산소포화도 저하가 나타나며, 근육주사 형태의 에피네프린이 1차 치료이다. 따라서 정답은 IM 에피네프린이다.
 
 ## 출처
 

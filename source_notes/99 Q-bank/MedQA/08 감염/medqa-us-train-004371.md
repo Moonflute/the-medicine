@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. B형간염 면역글로불린과 B형간염 백신 3회 접종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+B형간염 표면항원·항체가 모두 음성인 경우, 이미 면역이 없으므로 노출 후 즉시 B형간염 면역글로불린과 3회 연속 백신 접종이 필요하다. 따라서 면역글로불린과 백신 3회 접종이 적절하다.
 
 ## 출처
 

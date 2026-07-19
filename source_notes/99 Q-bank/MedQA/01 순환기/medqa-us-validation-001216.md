@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 디곡신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+에플레레논은 알도스테론 길항제로 심부전 환자에서 사망률과 입원율을 감소시킨다. 다른 약물은 생존에 큰 영향을 주지 않는다. 따라서 장기 생존을 가장 개선하는 약물은 에플레논이다.
 
 ## 출처
 

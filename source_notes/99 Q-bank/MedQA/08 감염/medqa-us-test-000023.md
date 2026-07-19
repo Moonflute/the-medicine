@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 블라스토미세스 더마티티디스 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Histoplasma capsulatum는 토양에 서식하며 흡입 시 폐포 내 대식세포에 이형성 진균이 존재한다. 양성 다당류 항원과 PAS 염색 소견은 히스토플라스마증을 확진한다. 따라서 가장 가능성 높은 원인은 히스토플라스마 캡슐라툼 감염이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 결손의 경피적 폐쇄술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+근육성 VSD는 작은 결손으로 폐고혈압이 없으며, 대부분 자연 폐쇄가 이루어진다. 증상이 없고 심잡음만 들리므로 특별한 치료 없이 정기 추적관찰이 적절하다.
 
 ## 출처
 

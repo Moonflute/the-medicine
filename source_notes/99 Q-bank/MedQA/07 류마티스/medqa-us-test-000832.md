@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대장내시경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+인후통 후 1~2주에 나타나는 홍반성 결절은 연쇄구균 인두염에 대한 면역 반응이다. 원인균을 확인하기 위해 인후편Unit 배양이 가장 직접적인 검증 방법이다. 따라서 선택은 A이다.
 
 ## 출처
 

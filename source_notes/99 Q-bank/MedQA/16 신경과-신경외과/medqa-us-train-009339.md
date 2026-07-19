@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 일과성 허혈발작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 일측성 다리 힘 빠짐이 3시간 지속 후 완전 회복된 것은 일과성 허혈발작(TIA)과 일치한다. 뇌 CT는 정상이며 다른 급성 뇌혈관 사건의 증거가 없으므로 TIA가 가장 가능성 높은 진단이다.
 
 ## 출처
 

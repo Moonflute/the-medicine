@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 독시사이클린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+개 물림 감염은 파스퇴렐라와 아네로박터 등 그람음성균이 흔하며, 베타락탐계 항생제에 내성이 있을 수 있다. 아목시실린-클라불라네이트는 광범위 베타락타메이스 억제제로 가장 효과적인 1차 치료제이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뇌 MR 혈관조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다낭성 신장병 환자는 신장 기능 저하와 고혈압 외에도 뇌동맥류, 특히 베리동맥류 발생 위험이 높다. 뇌동맥류는 파열 시 치명적이므로 조기 선별이 필요하다. 따라서 추가 합병증을 선별하기 위한 가장 적절한 검사는 뇌 MR 혈관조영술이다.
 
 ## 출처
 

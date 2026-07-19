@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 경구 아지스로마이신(azithromycin)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Mycoplasma pneumoniae 감염은 비세포성(무세포) 배양에서 계란 모양 콜로니가 자라며, 치료는 매크롤라이드인 아지스로마이신이 1차 선택이다. 베타락탐계 항생제는 효과가 없다.
 
 ## 출처
 

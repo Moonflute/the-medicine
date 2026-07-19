@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기관내 삽관과 기계환기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 호흡이 불규칙하고 저산소증이 의심될 때는 비강 캐뉼라를 통한 산소 보충이 첫 번째 단계이며, 5분 후 아프가 점수를 재평가한다. 따라서 가장 적절한 처치는 비강 캐뉼라 산소 보충이다.
 
 ## 출처
 

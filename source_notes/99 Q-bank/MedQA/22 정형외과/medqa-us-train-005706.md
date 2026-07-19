@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 슬개건염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무릎을 완전히 편한 상태에서 슬개골을 앞쪽으로 눌렀을 때 통증이 악화되는 것은 슬개골-대퇴골 관절의 과사용을 의미한다. 이는 장시간 앉아 있거나 계단 오를 때 통증이 심해지는 전형적인 슬개대퇴 통증 증후군의 특징이다. 따라서 가장 가능성 높은 진단은 슬개대퇴 통증 증후군이다.
 
 ## 출처
 

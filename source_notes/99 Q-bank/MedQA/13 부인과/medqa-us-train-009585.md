@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안심시키고 퇴원
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년의 무배란성 출혈은 호르몬 불균형에 기인한 경우가 많으며, 대부분 양성이고 급성 합병증이 없다. 환자는 활력징후가 정상이고 신체검사에서도 이상이 없으므로 추가 검사 없이 안심시키고 퇴원하는 것이 적절하다.
 
 ## 출처
 

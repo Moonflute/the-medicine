@@ -16,11 +16,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 요중 염화물 농도 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+COPD 환자에서 호기성 폐기종과 저산소혈증이 동반된 경우, 호기성 저산소혈증에 대한 보상으로 신장에서 중탄산염 재흡수가 증가한다. 따라서 혈중 중탄산염 배설이 감소한다는 것이 기대되는 소변 변화이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈관조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+위내시경에서 출혈이 없고 흑색 변(멜레나)이 지속되면 하부 위장관, 특히 대장에서 출혈을 의심한다. 대장내시경은 원인을 직접 확인하고 치료할 수 있는 다음 단계이다. 따라서 대장내시경이 적절하다.
 
 ## 출처
 

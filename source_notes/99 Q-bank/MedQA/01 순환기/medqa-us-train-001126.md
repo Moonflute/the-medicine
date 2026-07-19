@@ -22,11 +22,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -44,7 +46,8 @@ D. 폐색전증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+12년 전 판막 교체 후 현재 심부전 증상(폐부종·심장음)과 좌심실 부하 증가가 나타나는 경우, 퇴행성 판막(특히 승모판) 손상이 가장 흔한 원인이다.
 
 ## 출처
 

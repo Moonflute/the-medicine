@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. HELLP 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 34주에 전신 가려움증이 8일 지속되고, 직접 빌리루빈이 상승하며 혈청 담즙산이 15 µmol/L(정상 상한선 초과)인 경우, 임신성 담즙정체가 가장 흔한 원인이다. 이는 태아 위험을 높이므로 진단이 확정되면 관리가 필요하다.
 
 ## 출처
 

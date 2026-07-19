@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -43,7 +45,8 @@ D. 항인지질 항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우측 신장 정맥에 혈전이 존재하는데, 이는 항트롬빈 III 결핍으로 인한 고전증을 가장 흔히 일으킨다. 항트롬빈 III는 자연 항응고 인자로, 결핍 시 정맥 혈전 위험이 증가한다. 따라서 가장 가능성 높은 원인은 항트롬빈 III 소실이다.
 
 ## 출처
 

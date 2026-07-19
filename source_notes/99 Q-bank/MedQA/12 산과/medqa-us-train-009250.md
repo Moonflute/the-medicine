@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비장에서 혈소판 격리
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈소판 감소와 동시에 AST/ALT 상승, 혈액응고 이상은 DIC(전신성 혈액응고증)에서 나타나는 과도한 응고 경로 활성화와 연관된다. HELLP 증후군은 주로 혈소판 감소와 간 효소 상승을 보이지만 응고인자는 크게 변하지 않는다. 따라서 원인은 응고 경로의 과도한 활성화이다.
 
 ## 출처
 

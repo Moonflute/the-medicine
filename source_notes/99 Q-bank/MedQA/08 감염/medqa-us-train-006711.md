@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 반코마이신, 정맥 세프트리악손 및 정맥 플루코나졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+정맥 약물 사용자는 황색포도알균(Enterococcus)과 그람음성균에 감염될 위험이 높으며, 심내막염 치료에 반코마이신과 세프트리악손을 병용하는 것이 표준이다. 따라서 두 약물을 함께 투여한다.
 
 ## 출처
 

@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 초음파 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+식도 천공 의심 시 바륨보다 가스가 적은 가스트로그라핀을 사용하면 폐쇄성 폐렴 위험 없이 천공 부위를 확인하고 치료 계획을 세울 수 있다.
 
 ## 출처
 

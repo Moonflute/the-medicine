@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 식도 폐쇄증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 청색증, 단일 제2심음, 그리고 흉부 X‑ray에서 대혈관 전위가 보이면 대혈관 전위가 가장 가능성 높은 진단이다. 동정맥 기형은 잡음이 동반되고, 선천성 횡격막 탈장은 장음 감소와 복부 장기 이동을 보인다. 따라서 대혈관 전위가 정답이다
 
 ## 출처
 

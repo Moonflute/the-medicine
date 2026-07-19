@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심박동기 삽입
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ECG에서 PR 간격이 280 ms로 1도 방실 차단(AV block)이며, 증상이 없고 혈역학적으로 안정적인 경우 관찰이 권장된다. 치료적 개입(심박동기, 베타 차단제 등)은 증상이 있거나 진행성 차단일 때 고려한다. 따라서 현재는 관찰만 필요하다.
 
 ## 출처
 

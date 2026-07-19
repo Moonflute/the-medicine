@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 승모판 탈출증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청진에서 좌측 이완기 고음성 감소형 잡음과 우측 상부 중수축기 잡음, S3와 도약맥은 대동맥판 역류를 나타낸다. 대동맥판 역류는 좌심실 부하 증가와 연관된 잡음이다. 따라서 가장 가능성 높은 진단은 대동맥판 역류이다.
 
 ## 출처
 

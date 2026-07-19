@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 노로바이러스에 의한 여행자 설사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동성 원충과 난자 결여, 혈액·고름세포 부재는 Giardia lamblia 감염을 특징짓는다. 이는 오염된 물을 섭취한 후 발생하는 지방변·복부 팽만을 일으킨다. 따라서 정답은 A이다.
 
 ## 출처
 

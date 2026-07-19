@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 정맥 면역글로불린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발근염/다발성 근염에 대한 1차 스테로이드 치료가 실패하면 면역억제제인 메토트렉세이트가 다음 단계 치료로 권장된다. 리툭시맙은 RA에, 타크로리무스는 다른 상황에 쓰인다.
 
 ## 출처
 

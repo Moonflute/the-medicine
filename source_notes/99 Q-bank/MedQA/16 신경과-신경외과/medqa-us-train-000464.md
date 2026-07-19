@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 삼차신경통(Trigeminal neuralgia)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+극심한 일측성 눈물 흘림과 일주일에 매일 새벽에 발생하는 60분 지속 통증은 군발두통의 전형적인 발작 양상이다. 따라서 진단은 군발두통이다.
 
 ## 출처
 

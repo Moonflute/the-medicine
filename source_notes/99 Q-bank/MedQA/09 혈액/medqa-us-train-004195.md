@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 반복적 사혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 근력 저하와 두정엽 저음영 병변, 혈소판·적혈구 증가, 적혈구생성인자 감소는 진성 적혈구증가증(Polycythemia vera)과 연관된 혈전성 합병증을 예방하기 위해 반복적 사혈이 권장된다. 따라서 정답은 반복적 사혈이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 6개월 후 흉부 CT 재검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐 결절이 0.5 cm 이하의 고립성 석회화 결절이며 위험 요인이 없으므로 대부분 양성이다. Fleischner 지침에 따라 6개월 후 CT로 성장 여부를 관찰하는 것이 권장된다. 따라서 6개월 후 흉부 CT 재검이 가장 적절한 단계이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 글루콘산칼슘 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아 갑상선 항진증은 모체의 갑상선 자극 항체에 의해 발생하며, 베타 차단제와 티아마졸이 증상 완화에 사용된다. 따라서 정답은 메티마졸과 프로프라놀롤 치료이다.
 
 ## 출처
 

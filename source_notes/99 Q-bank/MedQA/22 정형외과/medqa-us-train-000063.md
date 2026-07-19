@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 외측 측부인대(Lateral collateral ligament)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+외측 스트레스 검사에서 비정상적인 이완이 나타나고, 내반 스트레스 검사에서는 정상으로 유지되는 것은 내측 측부인대 손상을 의미한다. 내측 측부인대는 무릎의 내측 안정성을 제공하므로 손상 시 외측 스트레스에 대한 과도한 이완이 관찰된다. 따라서 손상된 구조물은 내측 측부인대이다.
 
 ## 출처
 

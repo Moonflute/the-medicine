@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프로락틴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 에스트로겐(에스트리올) 수치가 상승하면 혈액 응고인자가 증가하고 항응고인자는 감소해 고혈전증 위험이 커진다. 이는 임산부의 깊은 정맥 혈전증 발생에 주요 기여 요인이다. 따라서 가장 관련된 호르몬은 에스트리올이다.
 
 ## 출처
 

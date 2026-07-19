@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 시야에 무지개 달무리
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 신부전 환자에게 에리트로포이에틴 투여 시 혈압 상승이 흔한 부작용이다. 고칼륨혈증, 저칼륨혈증, 시야 현상은 에리트로포이에틴과 직접 관련이 없다. 따라서 A가 정답이다.
 
 ## 출처
 

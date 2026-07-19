@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 식이로 충분하므로 엽산 보충제가 필요하지 않다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신경관 결손 위험은 임신 전 1개월부터 엽산을 충분히 섭취할 때 가장 크게 감소한다. 따라서 임신을 계획하는 시점에 가능한 한 빨리 엽산 보충을 시작해야 한다. 이는 태아 신경관 형성 초기 단계에 필요한 엽산을 제공한다.
 
 ## 출처
 

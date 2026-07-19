@@ -18,11 +18,13 @@ question_type: prognosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 혼돈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 알코올성 뇌병증(베르니케‑코르사코프 증후군)에서 티아민 보충이 기억력, 안구운동, 협응을 회복시키지만 전향성 기억상실은 지속된다. 따라서 호전되지 않을 증상은 전향성 기억상실이다. 정답은 A이다.
 
 ## 출처
 

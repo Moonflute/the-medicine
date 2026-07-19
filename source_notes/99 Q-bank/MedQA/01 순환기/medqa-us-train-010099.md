@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심실세동
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 심한 압박성 흉통은 급성 심근경색에 동반되는 치명적인 부정맥을 시사한다. 심실세동은 대동맥 혈류를 차단해 몇 분 내에 사망을 초래한다. 따라서 사망 원인으로 가장 가능성이 높은 것은 심실세동이다.
 
 ## 출처
 

@@ -15,11 +15,13 @@ question_type: investigation
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 우드등 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비늘 모양의 판과 점상 출혈은 건선의 전형적인 소견이며, 진단을 확인하기 위해 추가 검사가 필요하지 않다. 임상적으로 확진이 가능하므로 검사가 필요하지 않다. 따라서 '어떠한 검사도 필요하지 않음'이 정답이다.
 
 ## 출처
 

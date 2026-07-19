@@ -17,11 +17,13 @@ question_type: association
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 사구체신염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+EBV 감염(전염성 단핵구증)은 비인두암 위험을 증가시킨다. 환자의 증상과 EBV 항체 양성은 비인두암 발생 가능성을 시사한다.
 
 ## 출처
 

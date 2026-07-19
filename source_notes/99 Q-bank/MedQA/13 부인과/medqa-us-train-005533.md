@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 3년마다 세포검사와 HPV DNA 공동검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+21세 미만 여성은 HPV 예방접종을 받았더라도 자궁경부암 검사가 권장되지 않는다. 따라서 현재는 선별검사가 필요하지 않다.
 
 ## 출처
 

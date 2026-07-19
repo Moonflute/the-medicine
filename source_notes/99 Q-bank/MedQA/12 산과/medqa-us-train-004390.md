@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 제2형 당뇨병 선별을 위한 HbA1C
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+26세 여성은 40세 미만이므로 대장암 선별은 권장되지 않는다. USPSTF는 45세부터 대장내시경을 권고한다. 따라서 40세에 대장내시경은 적절한 선별이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 트로포닌 I
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 시 증상이 나타나고 스트레스 상황에서도 유발되는 흉통은 식도 연동 이상을 의심하게 한다. 식도 운동을 평가하는 식도 내압검사는 식도 경련을 확진하는 표준 검사이다. 따라서 확진을 위한 가장 적절한 검사는 식도 내압검사이다.
 
 ## 출처
 

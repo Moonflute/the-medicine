@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 동맥관 폐쇄 실패
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심실중격 결손(VSD)은 좌우 단락 전류를 통해 전신 순환에 지속적인 혈류를 만들며, 전수축기 잡음이 발생한다. 손을 꽉 쥐면 후부하가 증가해 좌심실 압력이 상승하고 잡음이 강화된다. 따라서 가장 가능성 높은 원인은 심실중격 결손이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 부신피질자극호르몬 분비 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수분 재흡수가 감소하고 소변이 희석된 상태에서 혈청 나트륨이 상승한 것은 항이뇨호르몬(ADH) 분비 감소에 의한 중추성 요붕증을 시사한다. ADH 결핍으로 물이 신장에서 재흡수되지 않아 고나트륨혈증이 발생한다. 따라서 가장 가능성 높은 원인은 항이뇨호르몬 분비 감소이다.
 
 ## 출처
 

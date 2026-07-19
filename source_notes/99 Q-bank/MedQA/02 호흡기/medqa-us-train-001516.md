@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 이소니아지드 단독 경구 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양쪽 폐문 림프절 비대와 정상 폐기능, 비특이적 증상이 없는 경우 폐사코이도시스는 흔히 무증상이며 관찰이 권장된다. 따라서 추가 검사 없이 관찰한다.
 
 ## 출처
 

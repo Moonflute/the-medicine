@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이 사람에게 정보를 공유해도 되는지 환자에게 확인
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 사촌이 예후를 물었을 때 환자 본인의 동의 없이 정보를 제공하면 HIPAA 위반이 된다. 환자에게 직접 물어보게 하거나 정보를 제공하기 전에 환자에게 확인을 받아야 한다. 가장 적절한 단계는 환자에게 직접 물어보라고 안내하는 것이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 관상동맥 조영술 반복
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+PCI 후 급성 저혈압, 빈맥, 요통·옆구리 압통은 대동맥 혹은 대동맥 주위 출혈을 의심한다. 복부·골반 CT는 출혈 위치와 양을 정확히 파악할 수 있는 가장 빠른 영상검사이다. 따라서 다음 적절한 검사는 CT 촬영이다.
 
 ## 출처
 

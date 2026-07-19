@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 헨레고리 하행각
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+재발성 신장결석 예방에 티아지드 이뇨제를 사용하면 Na⁺/Cl⁻ 재흡수를 원위곡세뇨관에서 억제한다. 이 부위에서 칼슘 재흡수가 증가해 요중 칼슘 농도가 감소한다. 따라서 작용 부위는 A, 원위곡세뇨관이다.
 
 ## 출처
 

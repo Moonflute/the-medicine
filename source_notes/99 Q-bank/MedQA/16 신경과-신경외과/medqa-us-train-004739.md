@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 크로이츠펠트-야코프병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+보행 장애·요실금·인지 저하가 동반된 77세 환자에서 정상 혈압·정상 실험실 검사와 진행성 증상은 정상압 수두증을 시사한다. 뇌실 확대가 요실금과 보행 장애를 일으키며, 다른 치매와 구별된다. 따라서 정상압 수두증이 가장 가능성 높은 진단이다.
 
 ## 출처
 

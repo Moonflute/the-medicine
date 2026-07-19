@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소변검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심부전 악화 시 이뇨제 투여 전에는 신기능을 확인해야 한다. 신기능 저하가 있으면 약물 선택과 용량을 조절해야 하므로 기본 대사 패널(특히 크레아티닌, BUN) 검사가 필요하다. 따라서 기초 대사 패널을 확인한다.
 
 ## 출처
 

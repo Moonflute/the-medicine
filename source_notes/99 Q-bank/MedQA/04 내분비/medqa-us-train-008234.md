@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 림프종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조기 사춘증과 고환 비대, 과다 체모는 남아에서 테스토스테론을 과다 생산하는 레이디히 세포 종양이 원인이다. 혈청 hCG와 AFP가 정상인 점도 이 종양을 지지한다. 따라서 정답은 레이디히세포 종양이다.
 
 ## 출처
 

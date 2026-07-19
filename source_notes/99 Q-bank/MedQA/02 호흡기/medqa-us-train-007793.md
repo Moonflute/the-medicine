@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 보충 산소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 휴식 시 산소포화도가 88%인 중증 COPD 환자이다. 휴식 시 PaO₂가 55 mmHg 이하(SpO₂ ≈ 88%)인 경우 장기 저산소증이 심혈관 및 호흡기 합병증을 유발해 사망률을 높인다. 장기 저산소 치료는 폐동맥 고혈압, 심부전, 급성 악화 위험을 감소시켜 사망률을 낮춘다. 따라서 보충 산소가 가장 효과적인 추가 처치이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 전격성 간부전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+PT가 40초로 크게 연장된 것은 급성 간부전(전격성 간부전)으로, 간 기능 회복이 아닌 급성 간부전이 진행 중임을 의미한다. 따라서 가장 잘 설명하는 것은 전격성 간부전이다.
 
 ## 출처
 

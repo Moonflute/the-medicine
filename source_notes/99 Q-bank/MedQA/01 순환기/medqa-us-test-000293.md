@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 패혈성 색전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+좌심방 점액종은 혈류를 통해 전신으로 색소를 방출한다. 가장 위험한 합병증은 종양 조각이 대동맥을 통해 폐동맥으로 이동해 급성 폐동맥 폐색을 일으키는 것이다. 따라서 급성 동맥 폐색이 가장 위험한 합병증이다.
 
 ## 출처
 

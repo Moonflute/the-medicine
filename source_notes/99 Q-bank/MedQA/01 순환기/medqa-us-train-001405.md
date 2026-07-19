@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메토프롤롤을 중단하고 프로프라놀롤을 시작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨·고혈압·말초혈관질환 환자는 10년 이하의 위험도에서도 40 mg/dL 이상의 LDL에 대해 스타틴 치료가 권고된다. LDL 85 mg/dL이므로 스타틴 시작이 적절하다. 다른 선택지는 필요하지 않다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 백혈구 1,234/mm³, 높은 중심정맥압, 혈액배양 그람음성 균�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+패혈성 쇼크에서는 저혈압, 저중심정맥압, 고젖산, 백혈구 증가와 그람음성균에 의한 혈액배양 양성이 흔히 동반된다. 환자는 저혈압·저중심정맥압·고젖산·그람음성균혈증을 보이며 백혈구도 상승했다. 따라서 제시된 조합 중 C가 가장 일치한다.
 
 ## 출처
 

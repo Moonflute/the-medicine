@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 초음파에서 압박되지 않는 대퇴정맥
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 대퇴정맥 혈전증은 종종 정맥압 상승으로 인해 정맥이 압박되지 않은 상태로 보인다(압박되지 않은 대퇴정맥). 이는 폐색전증과 연관된 심부정맥혈전증의 특징이다.
 
 ## 출처
 

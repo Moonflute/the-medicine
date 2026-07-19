@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항간질약 시작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+2시간 전 발생한 언어 장애와 좌측 팔다리 감각 변화가 45분 내에 완전 회복된 것은 일과성 허혈 발작(TIA)이다. TIA 환자는 뇌혈관 위험 평가와 영상 검사를 위해 입원 관찰이 필요하다. 따라서 입원을 선택한다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대변 잠혈검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 팽만, 구토, 장음 감소는 기계적 소장 폐색을 시사한다. 초기 치료는 장 내용물과 가스를 감소시켜 장을 감압하는 것이며, 이를 위해 비위관 삽입, 금식 및 정맥 수액이 필요하다. 따라서 비위관 삽입·금식·IV 수액이 적절한 다음 단계이다.
 
 ## 출처
 

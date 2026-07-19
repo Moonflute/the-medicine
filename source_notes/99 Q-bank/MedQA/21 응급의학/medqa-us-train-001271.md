@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 병원 윤리위원회에 자문을 요청한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 DNR 서면을 가지고 있으나 배우자(법적 대리인)가 동의하지 않는다. 환자의 사전지시가 법적으로 우선하므로 윤리위원회에 자문을 구해 DNR을 존중하는 것이 적절하다.
 
 ## 출처
 

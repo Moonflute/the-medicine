@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지주막하출혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+뇌경색 후 저나트륨혈증은 항이뇨호르몬 부적절 분비가 원인이며, 이때는 혈압 상승(정수압 증가)보다는 저나트륨이 특징이다. 따라서 정수압 증가가 가장 흔히 동반된다.
 
 ## 출처
 

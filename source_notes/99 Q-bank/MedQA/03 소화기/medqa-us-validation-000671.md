@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 하행결장의 하스트라 소실과 납관 모양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소장 폐색 시 복부 X‑ray에서 확장된 장고리가 공기‑액체층을 보이며 사다리 모양(‘스텝‑ladder’)으로 배열되는 것이 전형적인 소견이다. 이는 폐색 부위 위의 장이 가스와 액체가 교대로 존재함을 나타낸다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전혈구검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+클로자핀은 무과립구증(호중구 감소증) 위험이 있어 정기적인 전혈구검사가 필요하다. 혈액학적 부작용을 조기에 발견하기 위해 전혈구검사를 시행한다. 따라서 정답은 전혈구검사이다.
 
 ## 출처
 

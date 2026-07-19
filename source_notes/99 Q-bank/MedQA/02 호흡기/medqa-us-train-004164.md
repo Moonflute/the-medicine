@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경구 디펜히드라민
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비생산성 기침이 밤에 악화되고 겨울철 코막힘·콧물(알레르기 비염)과 동반되는 경우, 후비루가 원인일 가능성이 높다. 후비루성 기침은 항히스타민제와 비충혈제 등으로 증상을 완화할 수 있다. 따라서 경구 디펜히드라민이 가장 적절한 다음 관리이다. 다른 선택지인 프레드니손, 아목시실린‑클라불란산, 아세틸시스테인은 염증·감염·점액 용해와 관련된 상황에 쓰이며 이 환자의 증상 기전과 맞지 않는다.
 
 ## 출처
 

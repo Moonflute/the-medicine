@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 피부 생검에서 해면성 피부염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+가슴·팔 굽힘부에 긴밀한 수포가 생기고 문지르면 수포가 생기지 않으며, 직접 면역형광검사에서 기저막을 따라 선형으로 IgG와 C3가 침착되는 것이 특징인 구진-수포증(Bullous pemphigoid)이다. 다른 선택지는 해당 질환의 면역학적 소견과 일치하지 않는다.
 
 ## 출처
 

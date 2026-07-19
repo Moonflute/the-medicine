@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 단순포진바이러스 2형 혈청검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년 성활동자는 무증상 감염을 포함한 클라미디아와 임질 검사가 권장된다. 핵산증폭검사(NAAT)는 두 병원체를 동시에 높은 민감도로 검출한다. 따라서 가장 적절한 다음 단계는 핵산증폭검사이다.
 
 ## 출처
 

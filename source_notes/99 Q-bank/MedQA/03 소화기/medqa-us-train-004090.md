@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소장 절제술과 회장루 조성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+크론병 환자에서 다발성 회장 협착이 존재할 때, 협착 부위마다 스트레칭(협착성형술)으로 장 통과를 회복시키는 것이 장기 보존에 가장 효과적이다. 따라서 각 협착에 대한 ‘협착성형술’이 적절한 처치이다.
 
 ## 출처
 

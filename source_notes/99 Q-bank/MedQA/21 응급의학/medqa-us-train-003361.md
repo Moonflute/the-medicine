@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 가온한 생리식염수 정맥주입
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심한 저체온증에서는 중심 체온을 올리는 것이 우선이며, 가장 효과적인 방법은 따뜻한(42 °C) 생리식염수를 정맥 주입하는 것이다. 이는 혈액을 직접 가열해 핵심 장기의 온도를 빠르게 회복시킨다. 따라서 적절한 처치는 가온한 생리식염수 정맥주입이다.
 
 ## 출처
 

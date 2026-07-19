@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 길랑-바레 증후군(Guillain-Barré syndrome) 과거력
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+메틸페니데이트는 혈압 상승, 심박수 증가, 심계항진을 유발할 수 있다. 따라서 투여 전에 심혈관계 위험을 평가하기 위해 과거에 Kawasaki disease(관동맥류 위험) 여부를 확인해야 한다.
 
 ## 출처
 

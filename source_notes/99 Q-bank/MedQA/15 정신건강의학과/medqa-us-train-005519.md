@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 연극성 인격장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+타인에게 과도하게 의존하고 스스로 결정을 못하며, 타인의 지시가 없으면 기능이 저하되는 모습은 의존성 인격장애의 특징이다. 따라서 가장 가능성 높은 인격장애는 의존성 인격장애이다.
 
 ## 출처
 

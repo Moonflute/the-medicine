@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 갈락토키나아제 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+동공 탈구, 고긴장성 관절, 마르판형 체형은 시스타티오닌 베타-합성효소 결핍(동형 고시스테인뇨증)과 일치한다. 따라서 시스타티오닌 합성효소 결핍이 원인이다. 다른 효소 결핍은 이러한 안구·골격 소견을 설명하지 못한다.
 
 ## 출처
 

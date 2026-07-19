@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 면밀한 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+기계환기 중 급성 호흡곤란과 흉부 X선에서 흉막 공간이 확대된 것은 기계환기 관련 긴장성 기흉을 시사한다. 즉시 흉관 삽입으로 공기 배출이 필요하다. 따라서 가장 적절한 처치는 흉관 삽입이다.
 
 ## 출처
 

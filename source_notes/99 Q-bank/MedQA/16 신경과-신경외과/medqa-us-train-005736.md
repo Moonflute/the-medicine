@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. PaCO₂=37 mmHg, PaO₂=46 mmHg
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 근무력증 위기에서는 호흡근 피로로 저환기성 저산소혈증이 나타나며, PaCO₂가 상승하고 PaO₂가 감소한다. 따라서 PaCO₂ 51 mmHg, PaO₂ 58 mmHg가 예상되는 혈가스 결과이다.
 
 ## 출처
 

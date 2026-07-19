@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 진피 내 글리코사미노글리칸 축적
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다리의 부종·색변화·인설은 정맥 울혈에 의한 정맥정맥판막 기능부전(정맥판막 불능)으로 인한 정맥정체성 피부염을 나타낸다. 이는 정맥압 상승으로 정맥혈이 피부와 연부조직에 고이면서 색변화와 염증을 일으킨다. 따라서 가장 가능성 높은 기전은 정맥 판막 기능부전이다.
 
 ## 출처
 

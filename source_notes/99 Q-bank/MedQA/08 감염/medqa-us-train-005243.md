@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 파상풍 및 감량 디프테리아 톡소이드 추가접종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+19세 남성은 26세 이하까지 HPV 백신 접종이 권장된다. HPV 백신은 자궁경부암 및 기타 HPV 관련 암을 예방하는 가장 효과적인 예방접종이다. 따라서 사람유두종바이러스 백신이 가장 적절한 추가 예방접종이다. 파상풍·디프테리아 추가접종은 이미 Tdap를 맞은 상태이므로 필요하지 않다.
 
 ## 출처
 

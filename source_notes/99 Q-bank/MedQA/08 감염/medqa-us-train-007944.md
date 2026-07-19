@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비스코트-올드리치 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈소판 감소증, 고 IgE, 습진성 피부병변은 Wiskott‑Aldrich 증후군의 전형적인 삼대 삼인이다. 이 질환은 X‑연관 면역결핍으로 가장 가능성이 높다.
 
 ## 출처
 

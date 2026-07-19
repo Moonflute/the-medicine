@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 가스트로그라핀 삼킴검사와 내시경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+강알칼리 섭취는 식도·위 점막에 심각한 화학적 화상을 일으키며, 손상 정도를 평가하기 위해 위식도 내시경이 필요하다. 위장관 내시경 후 필요 시 치료를 결정한다. 희석제·산·활성탄은 알칼리 손상에 효과가 없으며, 즉시 내시경이 가장 중요한 단계이다.
 
 ## 출처
 

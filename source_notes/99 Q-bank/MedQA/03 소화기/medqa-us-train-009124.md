@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 결장 분절 절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CT에서 보이는 5.5 cm 저음영 농양은 복잡성 게실염의 합병증이며, 경피적 배액이 표준 치료이다. 외과적 절제는 농양이 크거나 파열 위험이 있을 때 고려한다. 따라서 CT 유도 경피적 배액이 가장 적절하다.
 
 ## 출처
 

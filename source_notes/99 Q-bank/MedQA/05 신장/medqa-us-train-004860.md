@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 내 중탄산나트륨 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고칼륨혈증 시 ECG에 고전적인 변화(뾰족한 T파, PR 연장, QRS 넓어짐)가 나타나며, 심정지를 예방하기 위해 가장 먼저 정맥 내 칼슘 글루콘산을 투여한다. 이는 세포막 전위 안정화 효과가 있다. 따라서 정맥 칼슘이 최선의 처치이다.
 
 ## 출처
 

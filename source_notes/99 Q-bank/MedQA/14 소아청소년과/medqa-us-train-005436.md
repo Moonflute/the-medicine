@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대장내시경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소아에서 철분 치료에 반응하지 않는 빈혈과 지속적 대변잠혈은 소화관 출혈을 의심하게 하며, 메켈 게실·위장관 출혈을 탐색하는 표준 검사는 99mTc‑pertechnetate 스캔이다. 이는 출혈 부위를 비침습적으로 찾는다. 따라서 정답은 Tc‑99m 퍼테크네이트 스캔이다.
 
 ## 출처
 

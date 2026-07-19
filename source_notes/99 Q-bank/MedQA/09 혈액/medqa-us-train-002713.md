@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. MALT 림프종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고열·빈혈·백혈구 증가·혈소판 감소와 말초혈액 도말에서 다수의 골수모구가 보이면 급성 골수모구성 백혈병(AML)이 가장 가능성 높다. 급성 백혈병은 전신 출혈과 감염을 동반한다. 따라서 정답은 급성 골수모구성 백혈병이다.
 
 ## 출처
 

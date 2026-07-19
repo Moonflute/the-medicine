@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 파열된 자궁외임신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+배란 시기에 골반 통증과 자궁 뒤쪽 작은 양의 액체가 보이는 것은 배란통(중간주기 통증)이다. 다른 선택지는 급성 복통과 일치하지 않는다. 따라서 배란통이 정답이다.
 
 ## 출처
 

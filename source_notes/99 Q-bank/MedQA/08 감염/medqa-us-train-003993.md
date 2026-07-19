@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 항생제 치료를 위해 입원
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병 환자에서 발열·오한·요통·우측 측복부 압통은 복합성 요로감염(신우신염)으로, 급성 신우신염은 입원 후 정맥 항생제 치료가 표준이다. 영상검사나 경피적 배액은 필요하지 않으며, 즉시 항생제 투여가 가장 적절한 처치이다.
 
 ## 출처
 

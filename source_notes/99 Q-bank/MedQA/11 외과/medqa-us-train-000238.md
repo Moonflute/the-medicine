@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 광범위 항생제 투여를 시작한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수혈 후 1시간 이내에 발열과 오한이 나타났으며 혈압·심박동이 안정적인데, 이는 비용혈성 발열 반응으로 가장 흔히 관찰된다. 치료는 증상 완화와 관찰이며, 해열제로 아세트아미노펜을 투여한다. 따라서 환자를 관찰하고 아세트아미노펜을 투여하는 것이 적절하다.
 
 ## 출처
 

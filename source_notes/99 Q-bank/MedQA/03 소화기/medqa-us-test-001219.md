@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 목 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+쇄골상 림프절 비대는 위암 전이와 연관이 높으며, 위내시경을 통해 원발 종양을 직접 확인할 수 있다. 흉부 X선이나 뇌 MRI는 진단에 도움이 되지 않는다. 따라서 상부위장관 내시경이 적절한 추가 검사이다.
 
 ## 출처
 

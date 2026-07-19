@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 크레아티닌 0.98 mg/dL
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 35주에 혈압이 168/95→141/88 mmHg로 저하되었지만 4시간 후 다시 165/90 mmHg로 상승하면 지속적인 고혈압이 존재한다. 중증 자간전증은 혈압 ≥160/110 mmHg을 기준으로 정의된다. 따라서 재측정 혈압 165/90 mmHg가 중증 형태를 분류한다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 랄록시펜
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HER2 양성 침윤성 유관암은 HER2 수용체 과발현에 의해 성장 신호가 강화되므로, HER2 차단 항체인 트라스투주맙이 표적 치료에 적응된다. 다른 약물은 호르몬 수용체 또는 효소 억제제와 관련 있다.
 
 ## 출처
 

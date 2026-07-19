@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 편평세포암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흡연자 고령 여성에서 고칼슘혈증을 동반한 저칼륨·저마그네슘 증상은 폐편평세포암이 PTHrP를 분비해 발생한다. 다른 암 유형은 이러한 부갑상선 호르몬 관련 증상을 덜 일으킨다. 따라서 정답은 편평세포암(D)이다.
 
 ## 출처
 

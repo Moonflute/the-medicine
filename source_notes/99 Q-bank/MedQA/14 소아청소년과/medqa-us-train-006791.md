@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고형식과 우유 시작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+6개월 영아는 6개월부터 고형식을 시작할 수 있다. 모유와 비타민 D 보충을 계속하면서 고형식을 도입하는 것이 영양 발달에 권장된다. 따라서 고형식 시작과 비타민 D 지속이 적절한 권고이다.
 
 ## 출처
 

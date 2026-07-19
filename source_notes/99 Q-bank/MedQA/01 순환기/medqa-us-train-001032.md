@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 승모판 섬유소성 괴사(Mitral valve fibrinoid necrosis)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+좌심실 전벽 비대와 깊은 S파, 큰 R파는 비대칭 중격 비대를 의미한다. 이는 유전성 비대성 심근증(비대성 심근증)과 연관되며, 갑작스러운 심정지 위험이 높다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 세로토닌 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 혼동, 시각·청각 환각, 파킨슨증상(떨림, 근긴장도 증가), 일과성 저녁 졸음 등 루이소체 치매의 특징적인 변동성 인지·운동 증상을 보인다. 루이소체 치매는 파킨슨증상과 함께 급성 혼동·환각이 나타나는 것이 핵심이다. 따라서 가장 가능성 있는 진단은 루이소체 치매이다.
 
 ## 출처
 

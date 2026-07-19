@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. WAS 유전자 돌연변이
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+베타‑2 인테그린(CD18) 결함은 백혈구 접착 결핍증 1형을 일으키며, 반복적인 세균 감염, 발열, 고백혈구증, 피부 병변이 특징이다. 환자의 임상양상과 일치한다. 따라서 정답은 B이다.
 
 ## 출처
 

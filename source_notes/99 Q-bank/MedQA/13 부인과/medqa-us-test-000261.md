@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수술을 의뢰한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복통이 오른쪽 하복부에 국소화되고, 손을 뗐을 때 통증이 감소하는 반동통이 없으며, 혈액 검사와 CRP가 정상인 경우 급성 충수염 가능성이 낮다. 따라서 관찰과 진통을 통한 안심이 적절하다.
 
 ## 출처
 

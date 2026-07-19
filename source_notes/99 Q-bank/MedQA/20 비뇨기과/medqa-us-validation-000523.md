@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 왼쪽 옆구리로 방사되는 심한 산통이 있는 35세 여성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양성 전립선비대증은 전립선 비대와 요로 폐쇄를 일으키지만, 방사통이 동반된 급성 복통은 일반적으로 나타나지 않는다. 따라서 해당 증상이 가장 나타나기 어려운 경우는 방사통이 있는 35세 여성이다.
 
 ## 출처
 

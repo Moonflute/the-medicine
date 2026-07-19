@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 만성 기관지염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+30년 흡연력과 지속적 기침·운동 시 호흡곤란, 전 폐에 천명음이 있는 경우는 만성 기관지염(만성 폐쇄성 폐질환)이다. 천식은 가변성 폐쇄, 석면폐증·과민성 폐렴은 다른 방사선·노출 이력이 필요하다. 따라서 정답은 만성 기관지염(D)이다.
 
 ## 출처
 

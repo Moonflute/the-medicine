@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 골반 CT
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소변검사에서 염증과 혈뇨가 보이지만 배양이 음성인 경우 구조적 이상(예: 방광류, 요도 협착)이나 종양을 의심한다. 초음파는 방광 및 요로의 형태와 폐쇄 여부를 비침습적으로 평가할 수 있다. 따라서 다음 검사로 초음파검사가 적절하다.
 
 ## 출처
 

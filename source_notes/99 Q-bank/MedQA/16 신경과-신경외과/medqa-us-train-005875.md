@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 좌측 후대뇌동맥 경색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 시야 결손, 언어 이해 장애, 단기 기억 손상은 좌측 후대뇌동맥(PCOM) 영역의 뇌경색을 나타낸다. 따라서 가장 가능성 높은 원인은 좌측 후대뇌동맥 경색이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 양성자펌프억제제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소화불량·위통에 대한 진단적 접근으로는 위산 분비를 확인하는 요소 호기검사가 가장 민감하고 비침습적이다. 헬리코박터 제균요법은 감염이 확인된 경우에 시행한다. 따라서 요소 호기검사가 가장 적절한 초기 검사이다
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 하지 보조기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양쪽 무릎 사이가 벌어지는 외반슬은 생리적이며 2~3세에 흔히 나타난다. 성장과 함께 자연히 교정되므로 특별한 치료는 필요하지 않다. 따라서 안심시키고 추적관찰하는 것이 적절하다.
 
 ## 출처
 

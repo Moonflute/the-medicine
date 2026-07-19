@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 플루옥세틴(fluoxetine) 치료 시작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+메니에르병은 이명, 회전성 현훈, 저주파 및 고주파 감각신경성 난청을 동반한다. 초기 관리로는 카페인 섭취 제한이 권장된다.
 
 ## 출처
 

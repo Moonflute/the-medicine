@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 환자는 음이온 차이(anion gap) 대사성 산증과 총 체내 칼륨 �
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Na‑146, HCO₃‑12에서 계산한 음이온 차이(35)는 증가했으며, DKA에서는 총 체내 칼륨이 감소하지만 혈청 K⁺는 상승한다. 따라서 환자는 음이온 차이 대사성 산증과 총 체내 칼륨 감소를 보인다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 잠복결핵 재활성화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신증후군 의심 시 단백뇨·부종·고혈압이 동반되며, 원인 질환(예: 사구체 신염) 확인을 위해 방광경검사가 가장 유용한 진단 검사이다. 따라서 방광경검사가 다음 단계가 된다.
 
 ## 출처
 

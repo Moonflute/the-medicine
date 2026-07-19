@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. SSRI/SNRI로 증상이 조절되지 않음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+베냐딘 페니실린 투여 후 나타나는 두통·오한·근육통은 Jarisch‑Herxheimer 반응이며, 증상 완화에 비스테로이드성 소염제(이부프로펜)가 가장 효과적이다.
 
 ## 출처
 

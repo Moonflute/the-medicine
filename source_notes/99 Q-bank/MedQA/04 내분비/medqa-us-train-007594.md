@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 혈청 혈액검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+키가 크고 마른 체형, 고요족 특징, 비대칭 하지와 관절통은 호모시스틴뇨증을 시사한다. 진단을 위해서는 혈청 호모시스테인 측정이 필요하다. 따라서 다음 단계는 혈청 혈액검사이다.
 
 ## 출처
 

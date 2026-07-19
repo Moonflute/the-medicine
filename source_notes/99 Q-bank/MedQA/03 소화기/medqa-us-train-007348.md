@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 장관 내 삼투활성 및 흡수가 잘 되지 않는 용질의 존재
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+레보플록사신 같은 항생제는 장내 정상균총을 파괴하고, 포자를 형성하는 클로스트리디움 디피실이 과증식해 독소를 생성한다. 이는 항생제 관련 설사의 주요 기전이다. 따라서 정답은 A이다.
 
 ## 출처
 

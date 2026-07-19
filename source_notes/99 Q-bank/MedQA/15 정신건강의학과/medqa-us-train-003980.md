@@ -18,11 +18,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 라모트리진
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조현병 환자가 고용량 항정신병제 복용 후 근육 강직, 고열, 백혈구 증가, CK 상승이 나타나면 악성 신경근육 증후군이 발생한다. 이때 도파민 수용체 길항제인 단트롤렌이 증상을 완화한다. 따라서 가장 적절한 치료는 단트롤렌이다.
 
 ## 출처
 

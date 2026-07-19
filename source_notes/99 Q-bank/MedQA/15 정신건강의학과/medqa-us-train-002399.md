@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수면보행장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+밤에 갑작스러운 비명, 격렬한 움직임, 땀, 빠른 호흡이 동반되고 기억이 없으며 에피소드 후 바로 잠들어 버리는 양상은 수면공포증(수면경악장애)의 특징이다. 이는 다른 파라소미와 구별되는 핵심 단서이다.
 
 ## 출처
 

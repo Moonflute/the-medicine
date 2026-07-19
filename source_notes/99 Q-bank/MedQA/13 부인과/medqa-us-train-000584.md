@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 운동 및 알코올 섭취 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동과 알코올 섭취 감소는 체중 조절과 에스트로겐 대사 개선을 통해 유방암 위험을 낮춘다. 유전적 검사나 모유 수유는 위험 감소 효과가 제한적이며, 자가 검진만으로는 위험을 크게 줄이지 못한다. 따라서 생활 습관 개선이 최선의 권고이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 면역복합체 침착이 거의 없음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+C형 간염과 연관된 막증식성 사구체신염은 면역복합체가 혈관 내피하에 침착되어 보이는 것이 특징이다. 따라서 이 질환에서 관찰되는 소견은 내피하 면역복합체 침착이다. 다른 선택지는 해당 병리와 맞지 않는다.
 
 ## 출처
 

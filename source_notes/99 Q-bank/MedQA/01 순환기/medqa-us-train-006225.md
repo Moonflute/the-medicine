@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 단계적 운동치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 대퇴맥은 촉지되지만 우측 말초맥이 없고 발톱 취약, 탈모가 동반된 간헐적 파행은 말초동맥질환을 시사한다. 클로피도그렐은 동맥경화성 혈전 형성을 억제해 심혈관 사건 위험을 감소시킨다. 따라서 클로피도그렐 치료가 가장 적절한 관리이다.
 
 ## 출처
 

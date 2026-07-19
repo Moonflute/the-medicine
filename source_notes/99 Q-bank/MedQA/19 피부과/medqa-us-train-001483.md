@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심상성 천포창
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+피부와 점막에 물집이 동반되고 문지르면 표피가 쉽게 떨어지는 니콜스키 징후는 천포창을 특징으로 한다. 물집이 10% 미만이므로 심상성 천포창이 가장 가능성 높다. 따라서 심상성 천포창이 정답이다.
 
 ## 출처
 

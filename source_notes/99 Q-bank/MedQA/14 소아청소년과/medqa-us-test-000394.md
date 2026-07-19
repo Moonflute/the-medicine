@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 즉시 수술을 위해 신생아를 이송한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아 복벽 결손(장외장)은 장을 멸균된 장주머니에 넣어 보호하고 복부를 닫는 것이 즉각적인 처치이다. 이는 감염과 손상을 최소화한다. 따라서 A가 정답이다.
 
 ## 출처
 

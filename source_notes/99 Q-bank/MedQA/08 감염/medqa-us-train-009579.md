@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 로타바이러스 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+여시니아는 장간막염을 일으키며, 발열·복통·혈성 설사와 함께 림프구 우세 백혈구 증가가 특징이다. 최근 개와 접촉한 병력이 위험요인이며, 다른 선택지는 항생제 관련 설사나 바이러스 감염이므로 가장 가능성 높은 진단은 여시니아증이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기분 안정제 복용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 고나트륨혈증, 높은 ADH, 저농도 소변을 보여 항이뇨호르몬 작용이 억제된 약물(리튬 등) 복용을 시사한다. 따라서 증상은 기분 안정제(리튬) 복용에 의한 것이다.
 
 ## 출처
 

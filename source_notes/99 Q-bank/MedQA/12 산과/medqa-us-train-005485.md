@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 입원 후 정맥 수액 재수화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 22주에 구토와 체중 감소가 8주 지속되면 임신성 구토(임신오조)와는 구별하기 위해 임신 여부를 확인하고 태아 상태를 평가해야 한다. β‑hCG 측정과 초음파는 임신 여부와 태아 생존을 확인한다. 따라서 가장 중요하고 우선적인 처치는 β‑hCG 측정과 골반 초음파이다.
 
 ## 출처
 

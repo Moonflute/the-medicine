@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 적혈구의 과도한 용혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 급성 간 손상과 중심소엽 괴사는 마취제(특히 할로탄계) 독성에 의해 발생할 수 있다. 이는 약물 유발 간염의 전형적인 메커니즘이다. 따라서 정답은 마취제의 이상반응이다.
 
 ## 출처
 

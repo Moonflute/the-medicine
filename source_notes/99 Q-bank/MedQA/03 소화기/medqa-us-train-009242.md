@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대변 배양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+지속적인 설사와 체중 감소, 피부·점막 병변(두드러기성 피부염)은 셀리악병을 시사한다. 확진을 위해서는 소장 내시경으로 점막 손상을 확인하고 조직검사를 시행한다. 대변 검사나 항체 검사만으로는 장 손상의 정도를 평가할 수 없다.
 
 ## 출처
 

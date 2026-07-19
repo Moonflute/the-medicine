@@ -16,11 +16,13 @@ question_type: ethics
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 선행 화학요법을 시행하기 위한 법원 명령을 신청한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소아 암 치료는 법적 보호를 받으며, 부모가 치료를 거부할 경우 의사는 법원에 치료 명령을 신청해 생명을 구해야 한다. 이는 미성년자의 최선 이익을 위한 의료법적 절차이다. 따라서 가장 적절한 조치는 법원 명령을 신청하는 것이다.
 
 ## 출처
 

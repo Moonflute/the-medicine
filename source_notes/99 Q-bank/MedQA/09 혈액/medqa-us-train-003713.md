@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 포도당-6-인산탈수소효소 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+트리메토프림‑설파메톡사졸은 산화 스트레스를 유발해 G6PD 결핍 환자에서 용혈성 빈혈을 일으킨다. 용혈 시 헤모글로빈이 소변에 배출돼 혈뇨와 빌리루빈 상승이 나타난다. 따라서 정답은 G6PD 결핍이다.
 
 ## 출처
 

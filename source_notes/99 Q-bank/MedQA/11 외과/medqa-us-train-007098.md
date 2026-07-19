@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 단위위동맥 코일 색전술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비장 피막하 혈종이 8% 정도로 소량이며 출혈이 지속되지 않으므로 비수술적 관리가 권장된다. 빈번한 초음파 관찰로 혈종 크기 변화를 모니터링한다. 외과적 절제나 색전술은 출혈이 활발하거나 혈종이 크게 증가할 때만 필요하다. 따라서 입원 후 빈번한 초음파 관찰이 적절하다
 
 ## 출처
 

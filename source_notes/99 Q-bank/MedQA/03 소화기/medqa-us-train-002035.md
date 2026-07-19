@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 농축적혈구 2단위 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+식도정맥류 출혈이 재발 위험이 높으며, 환자는 이미 두 차례 치료를 받았다. 재발 방지를 위해 TIPS는 침습적이지만, 장기적인 출혈 예방을 위해 경구 옥트레오타이드와 4주간 항생제 투여가 표준이다. 따라서 다음 관리 단계는 옥트레오타이드와 예방적 항생제 시작이다.
 
 ## 출처
 

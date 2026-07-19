@@ -17,11 +17,13 @@ question_type: etiology
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 운동
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+음식 알레르기 피부검사 음성에도 불구하고 급성 천명 발작을 일으키는 흔한 원인은 설파이트와 같은 식품첨가물이다. 이는 비특이적 알레르기 반응을 유발한다. 따라서 식품첨가물이 가장 가능성 높은 유발 요인이다.
 
 ## 출처
 

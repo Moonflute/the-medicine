@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐첨부 폐포수포 파열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 일측성 흉통·청진음 감소·타진에서 과공명음은 폐첨부의 파열성 폐포수포(자발성 기흉)와 일치한다. 종양 압박·대동맥 박리·심근 산소 요구증가는 해당 소견을 설명하지 못한다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 장경인대 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+외측 충격으로 인한 무릎 외측 부종과 멍, 그리고 관절 내 가벼운 딸깍거림은 내측 반월상연골 손상을 시사한다. 내측 반월상연골 파열은 외측 충격 후 무릎 불안정감과 가벼운 관절음이 나타나는 전형적인 패턴이다. 따라서 가장 가능성 높은 진단은 내측 반월상연골 파열이다.
 
 ## 출처
 

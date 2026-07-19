@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 트라넥삼산
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈소판 34,000/µL, 미세융해성 용혈, 신경학적 변화, 정상 PT/PTT는 혈전성 혈소판감소성 자반증(TTP)을 시사한다. TTP의 일차 치료는 혈장교환이다. 따라서 가장 적절한 단계는 혈장교환이다.
 
 ## 출처
 

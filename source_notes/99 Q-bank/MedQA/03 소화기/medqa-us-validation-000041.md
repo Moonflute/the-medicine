@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 우르소데옥시콜산
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+원발성 담즙성 담관염에서 담즙 정체와 가려움이 나타나며, 우르소데옥시콜산이 담즙 흐름을 개선하고 가려움을 완화한다. 간 생검은 진단에 필요하지만 치료가 우선이다. 따라서 우르소데옥시콜산이 적절한 다음 처치이다.
 
 ## 출처
 

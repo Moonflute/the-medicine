@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 노르에피네프린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수두 낭종 파열 시 급성 아나필락시스가 발생하며, 에피네프린이 1차 치료제이다. 다른 혈압 상승제는 아나필락시스에 효과가 없으며, 외과적 접근은 급성 상황에서 우선되지 않는다. 따라서 에피네프린 투여가 적절하다.
 
 ## 출처
 

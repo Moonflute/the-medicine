@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 이 정도의 저염소혈증은 순수한 음이온차 대사성 산증을 �
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+DKA에서는 인슐린 결핍과 산증으로 세포외로 K⁺가 이동해 혈청 K⁺가 정상 혹은 상승하지만 실제 체내 총 K⁺는 감소한다. 따라서 고칼륨혈증은 총 체내 칼륨 저장량과 독립적이다. 이는 환자의 혈청 K⁺ 5.0 mEq/L가 실제 저칼륨 상태를 감추고 있음을 의미한다. 반면 저나트륨혈증은 DKA에서 수분 재분배와 삼투압성 이뇨에 의해 발생하지만, 독립적인 예후 인자는 아니다.
 
 ## 출처
 

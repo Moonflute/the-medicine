@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 습윤 드레싱 후 퇴원
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전신 화상 3도 이상(전신 면적 >10%)에선 초기 수액 보충이 부족하면 저혈압과 신부전이 발생한다. 이미 1 L 수액을 투여했으나 맥박이 80으로 감소했으므로 추가 수액과 전도성 화상에 대한 가피절개술이 필요하다. 따라서 추가 수액 투여와 가피절개술이 가장 적절한 처치이다.
 
 ## 출처
 

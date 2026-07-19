@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 손목터널증후군(Carpal tunnel syndrome)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+엄지손가락과 요골 경상돌기 부위의 통증·압통, 손목을 잡고 척측으로 견인 시 통증이 유발되는 것이 De Quervain 건초염의 특징적인 Finkelstein 검사 양성 소견이다. 이 부위의 손목 굴곡·요골 장두 근막염이 손목을 움직일 때 통증을 일으키며, 냉찜질로 호전된다. 따라서 가장 가능성 높은 진단은 De Quervain tenosynovitis이다.
 
 ## 출처
 

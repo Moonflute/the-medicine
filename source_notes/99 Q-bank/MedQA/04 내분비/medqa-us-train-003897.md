@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 토르세미드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+원발성 알도스테론증 치료에 에플레레논은 선택적 미네랄코르티코이드 수용체 차단제로, 혈압·칼륨·심혈관 위험을 감소시켜 재발을 예방한다. 다른 선택지는 해당 질환에 효과가 없다.
 
 ## 출처
 

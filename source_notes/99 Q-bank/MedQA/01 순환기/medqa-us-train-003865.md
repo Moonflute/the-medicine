@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 유두근 파열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 이동성 흉통, 호흡곤란, 전신성 맥박 감소는 급성 대동맥 박리와 동반된 급성 대동맥 역류를 시사한다. 폐색전증은 호흡곤란을 일으키지만 흉통이 이동성이고 맥박 저하가 특징은 아니다. 따라서 가장 가능성 높은 진단은 대동맥 박리이다.
 
 ## 출처
 

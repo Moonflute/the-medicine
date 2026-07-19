@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 척추 견인
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+근육 긴장과 국소 압통이 없으며 신경학적 이상도 없으므로 급성 요추 근육 염좌가 가장 가능성 높다. 초기 치료는 진통제 투여와 활동 유지가 권장된다. MRI는 신경근 압박이 의심될 때만 시행한다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안저검사를 포함한 신경학적 진찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CD4 65인 환자는 중증 면역결핍 상태이며, 급성 의식 변화 시 가장 먼저 해야 할 일은 신경학적 평가와 안저검사를 포함한 전신 검진이다. 이는 뇌압 상승이나 감염을 빠르게 파악한다. 따라서 가장 적절한 초기 처치는 안저검사를 포함한 신경학적 진찰이다.
 
 ## 출처
 

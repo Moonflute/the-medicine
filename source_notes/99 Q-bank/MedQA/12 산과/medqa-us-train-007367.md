@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 양수검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+목덜미 투명대 증가와 혈청 PAPP‑A 감소, hCG 상승은 다운증후군을 시사한다. 확진을 위해 융모막융모검사가 가장 정확하다. 정답은 A이다.
 
 ## 출처
 

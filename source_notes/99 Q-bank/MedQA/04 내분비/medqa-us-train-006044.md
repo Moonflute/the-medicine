@@ -17,11 +17,13 @@ question_type: association
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 열불내성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병성 자율신경병증은 혈관성 신경 손상으로 발기부전이 흔히 동반된다. 환자는 장기간 고혈당과 기립성 저혈압을 보이며, 발기부전이 추가로 나타날 확률이 가장 높다.
 
 ## 출처
 

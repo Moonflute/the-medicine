@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 백혈구 수 4,000/mm³ 미만
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중심정맥압(CVP)이 상승하면 심장의 펌프 기능 부전으로 혈액이 정맥에 정체되는 심인성 쇼크를 시사한다. 다른 선택지는 신장·간 손상이나 대사성 이상을 나타내며, 심인성 쇼크를 직접 가리키지는 않는다. 따라서 높은 CVP가 심인성 쇼크의 특징이다.
 
 ## 출처
 

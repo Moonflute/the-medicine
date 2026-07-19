@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 담낭관의 담석
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+머피 징후와 경미한 염증 수치가 있는 급성 담낭염에서 가장 흔한 원인은 담낭관 결석에 의한 폐쇄이다. 초음파에서 담낭관 내 결석이 보이는 것이 전형적인 소견이다. 따라서 담낭관의 담석이 가장 가능성 높은 영상소견이다.
 
 ## 출처
 

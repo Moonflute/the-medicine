@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. E형 간염 바이러스 특이 IgM 항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+정맥주사 약물 사용과 알코올 남용은 C형 간염 바이러스(HCV) 감염 위험을 크게 증가시킨다. 만성 HCV 감염은 간효소 상승을 동반하는 경우가 많으며, 증상이 미미할 수 있다. 따라서 추가 검사는 HCV RNA 검사가 가장 적절하다.
 
 ## 출처
 

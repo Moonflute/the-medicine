@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수술적 갑상선절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑상선 확대와 눈 돌출, 심부건반사 증가가 나타나는 전형적인 그레이브스병은 갑상선 호르몬 과다 생산을 억제하기 위해 갑상선 호르몬 합성 억제제인 프로필티오우라실이 1차 치료이다. 이 약물은 갑상선 내 요오드 포집을 차단해 갑상선 호르몬 생산을 감소시킨다. 따라서 가장 적절한 처치는 프로필티오우라실이다.
 
 ## 출처
 

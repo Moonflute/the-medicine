@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 외래 정신치료를 시작한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년이 자살 위험을 표현하고 총을 가지고 있는 상황에서는 즉시 보호가 필요하며, 부모에게 알린 뒤 비자(위험도) 입원을 시행해야 한다. 이는 자살 위험 환자의 표준 관리이다. 따라서 B가 정답이다.
 
 ## 출처
 

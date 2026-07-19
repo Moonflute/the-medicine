@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. HHV-6 면역글로불린 M(IgM) 검출
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+5일 이상 지속되는 고열, 결막 충혈, 입술 갈라짐, 손발 부종, 림프절병증은 가와사키병을 강하게 시사한다; 심초음파는 관상동맥 병변을 확인하기 위해 가장 먼저 시행한다. 따라서 정답은 A이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: prognosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 심내막 쿠션 결손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+터너 증후군(45,X) 환자는 대동맥 축착 위험이 크게 증가한다. 환자의 신체소견(짧은 목, 넓은 가슴)과 무월경이 이를 시사한다. 따라서 가장 높은 발생 가능 질환은 대동맥 축착이다.
 
 ## 출처
 

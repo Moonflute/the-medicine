@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 대장의 정상 하우스트라 소실
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심방세동 환자에서 급성 복통·젖산 상승은 장간막 혈류 차단을 의심한다. 장간막 동맥 혈류가 차단되면 혈관벽 중간층이 비조영되고, 이는 조영증강 CT에서 상장간막동맥 분지의 조영증강 소실로 나타난다. 따라서 가장 가능성 높은 소견은 상장간막동맥 분지의 조영증강 소실이다.
 
 ## 출처
 

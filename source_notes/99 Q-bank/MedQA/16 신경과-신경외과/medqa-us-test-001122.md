@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뇌간 경색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양쪽 눈의 내전 장애와 반대쪽 안진, 시신경유두 충혈은 내측 종속 신경(내측 종속 신경) 탈수초화에 의한 핵간안근마비를 나타낸다. 따라서 가장 가능성 높은 원인은 내측종속의 탈수초화이다.
 
 ## 출처
 

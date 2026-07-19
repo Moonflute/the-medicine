@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 절대적 금기 없음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HIV 감염, C형 간염, 과거 백혈병 이식 등은 장기 기증 시 위험요소이지만 현재 CD4 수치가 양호하고 바이러스량이 검출되지 않아 절대 금기에 해당되지 않는다. 절대 금기는 전염성 질환(예: HIV 양성, 활동성 C형 간염)이나 악성 종양 등에서만 적용된다. 따라서 절대적 금기가 없으므로 정답은 D이다.
 
 ## 출처
 

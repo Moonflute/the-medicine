@@ -15,11 +15,13 @@ question_type: mechanism
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 대퇴골두의 무혈성 괴사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+X‑ray에서 대퇴골두가 비정상적으로 보이며, 고관절 통증과 제한이 있는 경우 비혈성 괴사가 가장 흔한 원인이다. 따라서 가장 가능성 높은 기전은 대퇴골두의 무혈성 괴사이다.
 
 ## 출처
 

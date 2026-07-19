@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경구 시프로플록사신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+관절액이 화농성이고 백혈구 수가 매우 높으며 환자는 면역억제제 복용 중이므로 급성 세균성 관절염이 의심된다. 초기 경험적 치료는 MRSA와 같은 그람양성균을 커버하는 반코마이신 정맥주사가 권장된다. 따라서 정맥 내 반코마이신이 가장 적절한 초기 약물이다.
 
 ## 출처
 

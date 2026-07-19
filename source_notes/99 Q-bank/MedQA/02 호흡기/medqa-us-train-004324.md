@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 얕은 호흡 운동
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 폐렴 예방에 가장 효과적인 방법은 환자가 자가 유발 폐활량계(인센티브 스피로미터)를 사용해 깊은 흡기와 호기 운동을 지속하도록 하는 것이다. 이는 폐활량 유지와 분비물 배출을 촉진한다.
 
 ## 출처
 

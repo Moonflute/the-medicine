@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 강박장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+IQ 65, 두개골 둘레 3백분위수 이하, 발달 지연은 지적 장애를 정의한다. 다른 발달 장애와 구별되는 핵심 특징은 전반적인 인지 기능 저하이다. 따라서 가장 가능성 높은 진단은 지적 장애이다.
 
 ## 출처
 

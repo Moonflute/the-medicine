@@ -16,11 +16,13 @@ question_type: prognosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 승모판 역류
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+프래자일 X 증후군은 결합 조직 약화와 함께 승모판 탈출(MVP) 위험이 증가한다. 환자의 특징적인 얼굴과 손발톱 소견이 이를 시사한다. 따라서 향후 발생 위험은 승모판 역류이다.
 
 ## 출처
 

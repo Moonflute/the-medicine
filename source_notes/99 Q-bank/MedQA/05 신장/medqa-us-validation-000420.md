@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수두 백신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신장이식 후 고용량 스테로이드를 포함한 면역억제 요법을 받는 환자는 폐포자충(Pneumocystis jirovecii) 폐렴 위험이 크다. 예방을 위해 트리메토프림-설파메톡사졸이 표준 약물이다. 따라서 해당 약물을 퇴원 전 투여한다.
 
 ## 출처
 

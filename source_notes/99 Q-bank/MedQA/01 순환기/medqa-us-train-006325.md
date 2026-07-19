@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 시술 72시간 전에 아스피린과 와파린 중단
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+인공 심장판막 환자는 치과 시술 전 감염성 심내막염 예방을 위해 항생제 투여가 필요하다. 1시간 전 경구 아목시실린은 표준 예방 프로토콜이다. 따라서 가장 적절한 조치는 경구 아목시실린 투여이다.
 
 ## 출처
 

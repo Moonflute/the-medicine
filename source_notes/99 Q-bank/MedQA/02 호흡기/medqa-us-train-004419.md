@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 클린다마이신 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+악취가 나는 가래와 폐농양은 혐기성 세균, 특히 클린다마이신에 민감한 클레브시엘라 종에 의해 흔히 발생한다. 메트로니다졸은 혐기성 그람음성균에 효과적이지만, 클린다마이신이 1차 치료제이다. 따라서 클린다마이신 투여가 적절하다.
 
 ## 출처
 

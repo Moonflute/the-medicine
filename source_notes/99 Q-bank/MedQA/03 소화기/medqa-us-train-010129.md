@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 치핵절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대변 잠혈과 내치핵이 확인되었지만 68세 남성의 위험 요인(연령, 흡연, 혈변)으로 대장암 선별이 필요하다. 대장내시경은 진단과 동시에 용종 절제가 가능하다. 따라서 다음 단계는 대장내시경이다.
 
 ## 출처
 

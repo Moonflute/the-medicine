@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 과도한 발한
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+PCP(펜시클리딘) 중독 시 흔히 나타나는 안진은 약물의 NMDA 수용체 차단 효과와 관련된 안구 운동 이상이다. 다른 부작용은 이 경우와 일치하지 않는다.
 
 ## 출처
 

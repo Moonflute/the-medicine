@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 근육주사 세프트리악손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+성관계와 무방임 콘돔 사용, 무릎·손목 관절염, 피부에 농포성 병변은 전신성 임질(Disseminated gonococcal infection)을 특징짓는다. 치료는 세프트리악손 근육주사와 경구 아지트로마이신 병용이다. 따라서 해당 약물 조합이 적절하다.
 
 ## 출처
 

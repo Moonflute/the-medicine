@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 3도 외치핵
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+직장 출혈이 변과 섞이지 않고, 배변 시 통증 없이 나타나는 경우는 내치핵(2도)이다. 외치핵은 피부 밖으로 돌출되며 통증이 동반된다. 따라서 2도 내치핵이 가장 가능성 높다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 인터페론-감마 방출검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+BCG 접종 이력이 있는 환자에서 결핵 감염을 평가할 때는 인터페론‑γ 방출 검사가 BCG에 영향을 받지 않는다. 따라서 인터페론‑γ 방출 검사가 가장 적절한 다음 단계이다.
 
 ## 출처
 

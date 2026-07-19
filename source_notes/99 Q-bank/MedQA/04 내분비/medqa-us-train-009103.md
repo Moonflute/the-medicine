@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 다수의 난포를 동반한 난소 비대
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+불규칙한 월경, 체중 증가, 중앙성 비만, 고혈압, 얼굴 여드름·다모증은 쿠싱 증후군을 시사한다. 쿠싱은 코르티솔 과다로 골밀도 감소와 골다공증 위험이 높아진다. 따라서 가장 가능성이 높은 소견은 골밀도 감소이다.
 
 ## 출처
 

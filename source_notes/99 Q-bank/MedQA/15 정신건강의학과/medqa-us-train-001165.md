@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 알코올 금단(Alcohol withdrawal)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 실제 외부 자극 없이 비현실적인 형상을 보며, 이는 감각 입력이 없는 착각(illusion)이다. 환각은 실제 감각이 없고, 착각은 실제 자극이 왜곡된 인식이다. 따라서 가장 적절한 진단은 착각이다.
 
 ## 출처
 

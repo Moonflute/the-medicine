@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 가스트로그라핀을 이용한 조영 식도조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+식도 천공이 의심될 때 조영제(가스트로그라핀)를 이용한 식도조영술이 천공 부위와 누출을 직접 확인할 수 있는 가장 정확한 검사이다. 따라서 진단을 위해서는 가스트로그라핀 식도조영술이 필요하다.
 
 ## 출처
 

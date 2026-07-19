@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 레닌 수치 상승
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압, 저체중, 복부 청진에서 잡음이 들리는 점은 신동맥 협착에 의한 이소성 알도스테론증을 시사한다. 신동맥 협착 시 레닌이 상승하고, 부갑상선 선종이나 코르티솔 과다증은 해당 증상을 설명하지 못한다. 따라서 가장 가능성 높은 추가 검사는 레닌 수치 상승이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 상부 내시경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+위식도 역류증 환자에서 삼킴곤란은 알람 증상이며, 식도 협착 가능성을 배제하기 위해 상부 내시경이 필요하다. 치료만으로는 원인을 확인할 수 없다. 따라서 가장 적절한 다음 조치는 상부 내시경이다.
 
 ## 출처
 

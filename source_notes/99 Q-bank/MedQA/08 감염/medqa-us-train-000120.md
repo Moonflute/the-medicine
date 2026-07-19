@@ -24,11 +24,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -46,7 +48,8 @@ D. Enterococcus faecalis 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+최근 요로감염과 대장암 수술 후 새로운 전수축기 잡음, 색전성 증상은 장기성 엔도카르디티스의 원인으로 요로 감염에 흔히 연관된 Enterococcus faecalis가 가장 가능성 높다. Streptococcus sanguinis는 구강 출처이다.
 
 ## 출처
 

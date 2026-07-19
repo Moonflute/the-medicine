@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안심시키고 기대요법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양수과소증(양수 깊이 1 cm)과 태아 움직임 감소는 태아 스트레스와 조산 위험을 의미한다. 전신홍반루푸스 환자에서 이러한 소견은 조산을 예방하기 위해 분만 유도가 권장된다. 따라서 관리 단계는 분만 유도이다.
 
 ## 출처
 

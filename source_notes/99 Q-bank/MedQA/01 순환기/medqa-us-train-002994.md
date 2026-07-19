@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 중환자실에 입원시켜 첫 4시간에 혈압을 25% 낮추도록 정맥
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈압 201/139 mmHg이지만 증상이 없고 장기 합병증이 없으므로 고혈압 위기(urgency)이며, 24–48시간에 걸쳐 저용량 약물로 서서히 혈압을 낮추는 것이 권장된다. 급속 저압이나 중환자실 입원은 필요하지 않다.
 
 ## 출처
 

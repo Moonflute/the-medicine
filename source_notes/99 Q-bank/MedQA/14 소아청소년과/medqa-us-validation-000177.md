@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 적혈구증가증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병 어머니에게서 태어난 신생아는 고인슐린혈증으로 인해 저혈당이 발생한다. 저혈당은 창백, 기면, 발한, 저긴장, 간비대 등을 일으킨다. 따라서 가장 가능성 높은 원인은 고인슐린혈증이다.
 
 ## 출처
 

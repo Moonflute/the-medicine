@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 방임
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아동이 지속적으로 의료 서비스를 받지 못하고 예방접종이 누락된 상태에서 보호자가 방임당하고 있다면 가장 적절한 용어는 방임이다. 이는 부모가 기본적인 보호와 치료를 제공하지 않은 경우에 해당한다. 따라서 정답은 D이다.
 
 ## 출처
 

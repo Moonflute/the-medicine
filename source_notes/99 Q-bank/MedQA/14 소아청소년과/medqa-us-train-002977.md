@@ -18,11 +18,13 @@ question_type: other
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 책장 넘기기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+2세 아동은 두 단계 지시(두 단계 명령)를 수행할 수 있는 발달 단계에 있다. 한 발로 균형 잡기와 가위 사용은 약간 늦은 연령에 해당한다.
 
 ## 출처
 

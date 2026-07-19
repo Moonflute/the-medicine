@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 코카인 사용을 확인하는 소변 독성검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 경화증의 임상적 고립 증후군 후 초기 MRI가 정상일 수 있다. 진단을 확정하려면 뇌척수액에서 올리고클론밴드 검사가 가장 민감하다. 반복 MRI는 3개월 후에 시행하지만 즉시 확인 가능한 검사는 아니다.
 
 ## 출처
 

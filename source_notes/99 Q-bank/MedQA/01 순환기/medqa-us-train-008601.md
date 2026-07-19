@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 행동 단계
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 6개월간 금연을 유지하고, 흡연 재발 방지를 위한 지속적인 행동과 환경 관리가 이루어지고 있다. 이는 행동변화 모델의 유지 단계에 해당한다. 숙고 전·준비·행동 단계는 금연 시도 전이나 초기 단계에 해당한다.
 
 ## 출처
 

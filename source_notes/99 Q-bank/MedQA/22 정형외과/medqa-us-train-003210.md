@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 콜히친 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무릎 골관절증의 주요 위험인자는 비만이며, 체중 감소가 증상 완화와 기능 개선에 가장 효과적이다. 수술이나 약물보다 먼저 체중 감량 프로그램을 시행하는 것이 권장된다. 따라서 가장 적절한 관리 단계는 체중 감량 프로그램이다.
 
 ## 출처
 

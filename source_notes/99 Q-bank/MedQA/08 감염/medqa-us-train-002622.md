@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 요로감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 패혈성 쇼크(저혈압, 고심박, 고호흡, 의식 저하)와 다기관 부전을 보이며, 광범위 항생제와 혈관수축제 투여가 필요하다. 이는 세균 감염에 의한 전신 염증 반응이 원인인 패혈증을 의미한다. 따라서 가장 잘 설명하는 기전은 패혈증이다.
 
 ## 출처
 

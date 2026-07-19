@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아미오다론 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+실신 후 인지 장애와 완전 방실 차단(3도 방실 차단) ECG가 보이면 서맥성 부정맥이 원인이다. 영구적인 심박 유지가 필요하므로 경피적 심박조율기 삽입이 치료적 선택이다. 따라서 다음 적절한 처치는 경피적 심박조율기 삽입이다.
 
 ## 출처
 

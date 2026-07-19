@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 치료가 필요하지 않다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 신우신염이 의심될 때 가장 먼저 소변 분석과 배양을 통해 감염 여부와 병원균을 확인한다. 이는 항생제 선택과 치료 방향을 결정한다. 따라서 요검사와 소변배양이 적절한 초기 조치이다.
 
 ## 출처
 

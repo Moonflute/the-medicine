@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 다뇨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흑색가시세포증은 인슐린 저항성 및 비만, 고혈압, 고혈당을 동반한 제2형 당뇨병 환자에서 흔히 나타나는 피부 소견으로, 환자의 대사증후군과 일치한다. 따라서 흑색가시세포증이 가장 특이적인 소견이다.
 
 ## 출처
 

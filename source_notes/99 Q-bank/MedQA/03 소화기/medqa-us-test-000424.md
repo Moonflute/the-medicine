@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 단백질 침착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소변에서 단백질이 검출되고 혈청 알부민이 감소한 경우, 전신성 아밀로이드 침착이 신장에 단백질 침착을 일으켜 단백뇨를 유발한다. 환자의 간 효소 상승과 알코올 농도는 아밀로이드증과는 무관하므로 가장 잘 설명하는 것은 단백질 침착이다.
 
 ## 출처
 

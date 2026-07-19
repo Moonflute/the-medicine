@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고환 염전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+음낭 부종, 고환 상승, 거근반사 소실은 고환 염전(음낭염)을 시사한다. 이는 급성 고환 비틀림과 구분되는 특징이다. 따라서 고환 염전이 정답이다.
 
 ## 출처
 

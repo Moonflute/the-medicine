@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 급성 심근경색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+간헐성 파행과 발목-상완지수 감소는 말초동맥질환을 시사한다. 말초동맥질환 환자는 동맥경화성 심혈관 질환 위험이 높으며, 급성 심근경색이 가장 위험한 합병증이다. 따라서 가장 위험한 질환은 급성 심근경색이다.
 
 ## 출처
 

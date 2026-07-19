@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 약물 효과
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 옥살산칼슘 결석이 가장 흔한 원인인데, 크론병으로 인한 장 흡수 장애가 칼슘과 옥살산의 배설을 증가시켜 결석 형성을 촉진한다. 따라서 급성 증상의 주요 원인은 ‘크론병’이다.
 
 ## 출처
 

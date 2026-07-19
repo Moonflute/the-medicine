@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 환자가 의식을 잃을 때까지 기다린 후 수술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 의식이 명료하고 자율적인 결정을 내릴 수 있는 성인이다. 수술을 거부하는 경우 환자 자율성을 존중해야 하며, 동의서 서명 후에도 거부는 유효하다. 따라서 가장 적절한 조치는 수술을 취소하는 것이다.
 
 ## 출처
 

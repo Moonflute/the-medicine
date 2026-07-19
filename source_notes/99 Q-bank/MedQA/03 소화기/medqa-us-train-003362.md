@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. LDL 증가와 HDL 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구강 피임제와 스테로이드(아나볼릭) 사용은 간선종(간세포 adenoma) 발생 위험을 높이며, 간선종이 파열될 경우 고지혈증이 동반될 수 있다. 구강 피임제는 트리글리세리드와 LDL 상승, HDL 감소를 일으킨다. 따라서 가장 높은 위험은 LDL 증가와 HDL 감소이다.
 
 ## 출처
 

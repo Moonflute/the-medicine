@@ -23,11 +23,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -45,7 +47,8 @@ D. 기능적 잔기량(functional residual capacity)의 점진적 소실
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 흡연력과 만성 기침, 호흡곤란, 전신 청진에서 천명음과 나음이 관찰되는 COPD 전형이다. COPD의 주요 병리 기전은 호기 시 기류의 점진적 폐쇄이며, 이는 기류 제한을 초래한다. 따라서 가장 가능성 있는 원인은 호기 기류의 점진적 폐쇄이다.
 
 ## 출처
 

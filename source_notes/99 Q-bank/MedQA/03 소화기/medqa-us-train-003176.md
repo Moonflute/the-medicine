@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 결장 전체에 수많은 용종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+p‑ANCA 양성, 연속성 대장 점막 염증, 궤양 및 혈관 소실은 궤양성 대장염의 전형적인 내시경 소견이다. 다른 선택지는 해당 병리와 맞지 않는다. 따라서 가장 가능성 높은 소견은 C이다.
 
 ## 출처
 

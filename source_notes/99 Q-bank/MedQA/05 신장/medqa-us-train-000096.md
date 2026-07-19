@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 염분 저류(Salt retention)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생성 고혈압, 양측 정강이 부종, 혈뇨·단백뇨가 동반된 루푸스 신염은 사구체 염증으로 나트륨 재흡수가 증가해 체액 저류를 일으킨다. 따라서 다리 부종의 가장 가능성 높은 원인은 염분 저류이다.
 
 ## 출처
 

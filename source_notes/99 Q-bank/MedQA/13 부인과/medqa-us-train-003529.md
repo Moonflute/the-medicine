@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 난포막 황체 낭종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수포성 융모양태(수포성 영양막 융모)는 임신성 수포성 기형(수포성 임신)에서 흔히 보이며, 고β‑hCG에 의해 난소에 theca lutein cyst(난포막 황체 낭종)가 다발적으로 발생한다. 따라서 부속기 종괴의 원인은 난포막 황체 낭종이다.
 
 ## 출처
 

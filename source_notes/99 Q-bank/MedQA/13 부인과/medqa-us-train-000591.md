@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 생식골반통증장애(Genitopelvic pain disorder)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+성교 시 통증·골반저근 긴장은 골반통증장애(Genitopelvic pain disorder)와 연관된다. 외음부통·질염·방광통증증후군은 다른 특징(통증 부위, 배뇨통 등)을 보인다. 따라서 Genitopelvic pain disorder가 가장 가능성 있다.
 
 ## 출처
 

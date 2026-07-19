@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 파상풍 추가 접종 백신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비장절제 환자는 폐렴구균 감염 위험이 크게 증가한다. 13가 폐렴구균 결합 백신은 비장절제 후 2개월 이내에 접종이 권고된다. 따라서 가장 필요한 예방접종은 13가 폐렴구균 결합 백신이다.
 
 ## 출처
 

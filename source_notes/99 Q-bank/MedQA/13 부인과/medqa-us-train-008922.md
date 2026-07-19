@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 미주신경 반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 팽만과 체중 감소, 복부 비만은 난소암에 흔히 동반되는 복수(ascites)를 시사한다. CA-125는 난소암 특히 상피성 난소암의 선별 및 추적에 가장 민감한 혈청 마커이다. 따라서 가장 가능성 높은 진단과 관련된 검사는 CA-125이다.
 
 ## 출처
 

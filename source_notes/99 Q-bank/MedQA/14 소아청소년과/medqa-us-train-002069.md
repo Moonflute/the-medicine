@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 영아에게 글루코코르티코이드를 치료제로 투여한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+모유 수유는 유아의 위장관 운동을 촉진하고 유아 위협성 협착증(유문 협착증) 위험을 감소시킨다. 따라서 모유만 먹이는 것이 위험 감소에 가장 큰 영향을 미친다. 정답은 B이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 황체 기능 방해
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+에티닐에스트라디올과 레보노르게스트렐을 12시간 간격으로 복용하는 복합 응급피임은 에스트로겐이 황체를 억제하고, 에스트로겐과 프로게스틴이 동시에 배란을 억제하거나 지연시킨다. 따라서 주요 작용은 배란 억제 또는 지연이다.
 
 ## 출처
 

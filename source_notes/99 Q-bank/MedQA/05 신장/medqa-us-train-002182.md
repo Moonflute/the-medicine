@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전반적인 PR분절 하강과 ST분절 변화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+투석을 놓친 경우 고칼륨혈증이 발생하고, ECG에서 뾰족한 T파와 짧아진 QT 간격이 전형적이다. 따라서 뾰족한 T파와 짧아진 QT 간격이 정답이다.
 
 ## 출처
 

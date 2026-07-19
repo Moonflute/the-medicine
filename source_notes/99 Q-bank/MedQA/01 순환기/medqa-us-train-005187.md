@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. ADAMTS13 유전자 돌연변이
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폰 빌레브란트 인자는 혈소판과 혈관벽 사이의 결합을 억제해 출혈을 유발하는 선천성 혈소판 기능 이상(폰 빌레브란트 증후군)과 연관된다. 환자의 점막 출혈, 손톱 출혈, 경미한 호흡곤란은 이 인자 결핍을 시사한다. 따라서 정답은 폰 빌레브란트 인자이다.
 
 ## 출처
 

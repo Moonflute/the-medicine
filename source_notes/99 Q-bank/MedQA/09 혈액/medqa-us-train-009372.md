@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항핵항체 수치 상승
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈성 관절액이 나오고 출혈성 질환 가족력이 있는 3세 남아는 혈우병 A가 의심된다. 혈우병에서는 부분 트롬보플라스틴 시간이 연장되어 혈액응고 검사가 진단에 핵심이다. 따라서 가장 가능성 높은 소견은 부분 트롬보플라스틴 시간 연장이다.
 
 ## 출처
 

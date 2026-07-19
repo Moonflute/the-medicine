@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 트리헥시페니딜
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고주파 양측 손 떨림은 본태성(활동) 떨림을 시사한다. 비선택적 β‑차단제인 프로프라놀롤은 떨림의 진폭을 감소시켜 일차 치료제로 권장된다. 따라서 시작해야 할 약물은 프로프라놀롤이다.
 
 ## 출처
 

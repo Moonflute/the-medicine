@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기관내 삽관
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 급성 알레르기 반응(전신 두드러기, 혈압 저하, 천명음)은 아나필락시스이며, 1차 치료는 근육 내 에피네프린이다. 디펜히드라민은 보조제이지만 혈역학적 위기에서는 충분히 빠르지 않다. 항생제는 원인균이 아니며 기도 확보는 혈압 회복 후 고려한다.
 
 ## 출처
 

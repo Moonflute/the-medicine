@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 트리메토프림/설파메톡사졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발혈관염을 동반한 육아종증 환자는 스테로이드와 사이클로포스파미드 치료 시 폐포자충(Pneumocystis jirovecii) 감염 위험이 높다. 따라서 예방을 위해 트리메토프림/설파메톡사졸을 추가한다. 다른 약물은 예방 효과가 없다.
 
 ## 출처
 

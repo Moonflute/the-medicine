@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 대동맥 축착(Coarctation of the aorta)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+상지 혈압 상승·다리 혈압 저하·수축기 클릭·수축기 잡음은 대동맥 축착을 특징짓는다. 이는 소아에서 흔히 발견되는 혈압 차이와 청진 소견이다.
 
 ## 출처
 

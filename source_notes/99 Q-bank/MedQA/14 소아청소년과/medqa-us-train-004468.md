@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 관찰 및 모니터링
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+맑은 콧물 후 급성 호흡곤란, 호흡수 40회, 산소포화도 95%로 저산소증이 없으며, 아이가 활발히 놀고 있어 호흡부전 징후가 없으므로 경증 급성 세기관지염(브론키올리티스)이다. 경증인 경우 산소 보충 없이 관찰·모니터링이 1차 치료이며, 항생제나 흉부 X‑ray, 기도삽관은 필요하지 않다. 따라서 가장 적절한 단계는 관찰 및 모니터링이다.
 
 ## 출처
 

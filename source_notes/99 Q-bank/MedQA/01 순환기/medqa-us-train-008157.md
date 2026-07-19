@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심실중격결손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고정된 S2 분열과 좌우 심잡음은 심방중격결손(ASD)에서 좌우 혈류가 지속적으로 흐르며 발생한다. 다른 판막 질환은 S2 분열 변화를 일으키지 않는다. 따라서 ASD가 가장 가능성 높은 진단이다.
 
 ## 출처
 

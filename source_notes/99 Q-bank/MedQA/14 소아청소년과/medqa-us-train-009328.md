@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. IgM 및 IgG 항체 혈청검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발진이 급성 발열 후 24시간 이내에 나타난 점상 반구진과 딸기혀는 성홍열을 시사한다. 진단은 급성 A군 연쇄상구균 감염이므로 신속 항원검사로 즉시 확인하고 항생제 치료를 시작한다. 따라서 가장 적절한 처치는 신속 항원검사이다.
 
 ## 출처
 

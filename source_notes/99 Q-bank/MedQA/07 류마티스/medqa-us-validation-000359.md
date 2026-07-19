@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 티록신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+근위부 근력 저하와 CK 4,200 U/L 상승은 다발성 근염(다발근염/다발성 근육염)을 시사한다. 이 염증성 근병증의 1차 치료는 고용량 경구 프레드니손과 같은 글루코코르티코이드이다. 따라서 초기 치료로 프레드니손이 가장 적절하다. 오답인 정맥 면역글로불린은 스테로이드에 반응하지 않을 때 보조제로 사용한다.
 
 ## 출처
 

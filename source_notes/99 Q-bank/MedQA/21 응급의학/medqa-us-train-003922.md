@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 소절단술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+악취와 발열·발적·부종은 감염성 발궤양을 시사한다. 당뇨와 신장질환으로 면역저하가 있어 조기에 전신 항생제와 지지요법이 필요하다. 따라서 초기 치료는 항생제와 지지요법이다.
 
 ## 출처
 

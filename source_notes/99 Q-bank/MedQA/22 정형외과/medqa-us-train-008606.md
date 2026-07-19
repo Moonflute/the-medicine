@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대퇴동맥 폐색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 앞쪽 허벅지와 내측 종아리 감각 저하, 대퇴 굴곡·무릎 굴곡 약화, 무릎 반사 감소는 대퇴신경 손상을 시사한다. 대퇴신경은 고관절 수술 시 가장 위험한 신경이며, 비복신경은 종아리 근육, 대퇴동맥 폐색은 맥박 저하를 동반한다.
 
 ## 출처
 

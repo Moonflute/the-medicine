@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 척수병증을 동반한 경추증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+점진적인 근력 약화와 근육 위축, 상하부 운동신경 손상의 혼합 양상이 전형적인 근위축성 측삭경화증(ALS)의 임상이다. ALS는 상위(뇌)와 하위(척수) 운동신경세포 모두에 영향을 주어 근육 위축과 경직을 동시에 나타낸다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. FMR1 유전자 돌연변이
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+태아 알코올 노출은 미세두부·안면 기형·심장 결함을 동반한다. 환아의 얼굴 특징과 심잡음은 태아 알코올 증후군에 일치한다. 따라서 C가 원인이다.
 
 ## 출처
 

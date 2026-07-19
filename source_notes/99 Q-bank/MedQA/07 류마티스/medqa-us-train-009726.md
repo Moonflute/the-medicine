@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 양측 손가락 척측편위
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년의 요통·목통, 운동 시 호흡곤란, 천장관절 미란·경화, 높은 ESR은 강직성 척추염을 시사한다. 강직성 척추염은 주로 아킬레스건 부착부에 압통을 동반한다. 따라서 아킬레스건 부착부 압통이 가장 가능성 높은 소견이다.
 
 ## 출처
 

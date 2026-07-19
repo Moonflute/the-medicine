@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 항중성구 세포질 항체(ANCA)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+위축성 위염과 비타민 B12 결핍을 동반한 악성 빈혈에서 가장 특이적인 혈청 항체는 항벽세포 항체(anti-parietal cell)이다. 이는 자가면역 위축성 위염을 시사한다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 상부 생식기의 염증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CT에서 장벽 비후와 줄무늬 모양 장간막 지방은 장벽을 통과한 점막과 점막하층이 장 근육층을 통해 탈출한 장 게실염을 시사한다. 따라서 주된 질환은 장 게실 탈출이다.
 
 ## 출처
 

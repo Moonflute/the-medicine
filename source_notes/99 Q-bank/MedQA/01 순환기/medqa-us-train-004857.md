@@ -17,11 +17,13 @@ question_type: contraindication
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 암로디핀
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+짧은 PR 간격과 넓은 QRS는 Wolff‑Parkinson‑White 증후군을 시사한다. 베라파밀은 AV 전도 속도를 감소시켜 전도 차단을 악화시킬 수 있어 금기이다. 따라서 베라파밀을 피해야 한다.
 
 ## 출처
 

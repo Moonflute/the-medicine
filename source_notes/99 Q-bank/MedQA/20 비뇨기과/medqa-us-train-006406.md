@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 불임
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고환 위에 보이는 끈 모양 구조물은 정계정맥류(정맥류)이며, 정맥 울혈이 정자 생산을 방해해 불임 위험을 높인다. 다른 선택지는 정계정맥류와 직접적인 연관이 없으며, 가장 큰 합병증은 불임이다.
 
 ## 출처
 

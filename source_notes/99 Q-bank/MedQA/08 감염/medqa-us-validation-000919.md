@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경구 아시클로버
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CD4 51/mm³인 AIDS 환자는 구강·식도 칸디다증이 흔히 발생한다. 구강 병변이 없더라도 식도 증상이 있을 경우 경구 플루코나졸이 1차 치료제이다. 따라서 플루코나졸이 정답이다.
 
 ## 출처
 

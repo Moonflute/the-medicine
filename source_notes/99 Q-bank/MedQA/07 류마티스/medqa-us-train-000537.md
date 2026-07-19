@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 관절 간격 협소화 및 골 미란
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+세균성 관절염에서 관절 간격 협소와 골 미란은 감염성 파괴의 전형적인 방사선 소견이다. 다른 선택지는 감염성 파괴와 일치하지 않는다.
 
 ## 출처
 

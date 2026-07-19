@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 5-α-환원효소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+여아의 조기 성징(음모, 여드름, 유방 발달, 저음성)은 21‑하이드록실라제 결핍에 의한 선천성 부신과형성(CAH)에서 가장 흔히 나타난다. 21‑하이드록실라제 결핍은 안드로겐 과다와 코르티솔 결핍을 동시에 일으킨다. 따라서 정답은 C이다.
 
 ## 출처
 

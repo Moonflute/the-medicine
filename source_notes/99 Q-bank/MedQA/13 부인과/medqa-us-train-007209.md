@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 폰 빌레브란트 인자 항원 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+과다월경과 빈혈이 동반된 경우 자궁 구조적 병변(예: 근종) 평가가 필요하며, 초음파는 비침습적으로 근종 유무와 크기를 확인할 수 있다. 따라서 다음 단계는 골반 초음파이다.
 
 ## 출처
 

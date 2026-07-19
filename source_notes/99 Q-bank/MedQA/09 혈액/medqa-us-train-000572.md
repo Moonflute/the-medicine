@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 신체적 학대
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+PT 연장과 정상 PTT·BT는 외부 비타민 K 의존 응고인자 결핍을 시사한다. 비타민 K는 장내 세균에 의해 합성되며, 장내 세균 감소(항생제 사용)와 영양 결핍이 원인이다. 따라서 비타민 K 결핍이 가장 가능성 있는 원인이다.
 
 ## 출처
 

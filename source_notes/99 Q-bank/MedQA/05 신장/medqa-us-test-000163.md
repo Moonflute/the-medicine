@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 사구체 기저막의 세로 분열과 비후
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+항사구체기저막 항체 양성은 굿파스처 증후군을 의미하며, 면역형광에서 선형 IgG와 C3가 기저막에 균일하게 착색된다. 이는 질환의 특이적 소견이다. 따라서 정답은 면역형광에서 선형 IgG 염색이다.
 
 ## 출처
 

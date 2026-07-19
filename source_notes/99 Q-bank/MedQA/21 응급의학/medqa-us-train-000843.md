@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 화농성 콧물 및 우측 뺨의 압통
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+안구 통증, 안구 운동 시 통증, 안와 부종, 고열은 안와농양(orbital cellulitis)으로, 이는 안와 조직 감염을 의미한다. 정맥 항생제 투여는 감염을 억제하는 가장 강력한 근거이다. 따라서 항생제 투여 근거는 안구 운동 시 통증이다.
 
 ## 출처
 

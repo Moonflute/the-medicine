@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수마트립탄
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 과도한 건강염려와 검사 요구로 일상 기능이 크게 제한된 불안장애(건강불안) 증상을 보이며, 1차 치료에 선택되는 약물이 선택적 세로토닌 재흡수 억제제인 플루옥세틴이다. 다른 약물은 불안에 대한 1차 선택이 아니다.
 
 ## 출처
 

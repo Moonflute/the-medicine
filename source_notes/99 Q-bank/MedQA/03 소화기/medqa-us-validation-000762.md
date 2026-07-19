@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 리파부틴, 아목시실린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+H. pylori 제균 실패 후 레보플록사신과 아목시실린을 추가하면 내성균에 대한 광범위한 항균 효과를 제공한다. 이는 기존 클라리스로마이신·비스무트 요법에 대한 보조 치료로 권장된다. 따라서 레보플록사신·아목시실린을 추가한다.
 
 ## 출처
 

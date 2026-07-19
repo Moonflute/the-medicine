@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 전해질을 교정하고 복강경 충수절제술을 시행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비천공성 급성 충수염에 농양이 형성된 경우, 초기 보존적 치료 후 6~8주 뒤에 전통적 전통적 충수절제술을 예약하는 것이 표준이다. 정답은 B이다.
 
 ## 출처
 

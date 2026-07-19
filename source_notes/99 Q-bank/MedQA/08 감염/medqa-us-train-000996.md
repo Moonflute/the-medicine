@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 혈장교환술(plasmapheresis)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+항체와 외래 단백질 복합체가 혈관벽에 침착되어 두드러기·발진·발열을 일으키는 혈청병증은 7–10일 후에 발생한다. 증상이 경미하고 호흡기·심혈관계 이상이 없으므로 항히스타민제와 함께 스테로이드 감량이 적절하다.
 
 ## 출처
 

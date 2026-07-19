@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 6~8주 후 투베르쿨린 피부검사 반복
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CD4 수가 700으로 면역이 보존된 상태이며 투베르쿨린 검사 결과가 음성(3 mm)인 경우, 급성 감염 위험이 낮다. 증상이 경미하고 호흡기 검사가 정상인 상황에서는 추가 검사를 하지 않고 안심시켜 추적 관찰한다가 적절하다.
 
 ## 출처
 

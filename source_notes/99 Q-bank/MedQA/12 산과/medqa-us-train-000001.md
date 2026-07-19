@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 니트로푸란토인
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 요로감염은 일반적으로 안전한 약물인 니트로푸란토인( nitrofurantoin )이 1기 임신에 사용 가능하다. 암피실린과 세프트리악손은 임신 1기에서 태아에 위험을 줄 수 있으며, 독시사이클린은 태아 골 형성에 영향을 미친다. 따라서 가장 적절한 치료는 니트로푸란토인이다.
 
 ## 출처
 

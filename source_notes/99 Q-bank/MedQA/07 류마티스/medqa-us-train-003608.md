@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 항단백분해효소3 항호중구세포질항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+부비동염, 코전증, 폐·신장 동반 출혈은 GPA(전신 혈관염)의 전형적인 삼중증후군이며, PR3‑ANCA(항단백분해효소3 항체)가 가장 흔히 검출된다. 따라서 정답은 항단백분해효소3 항체이다.
 
 ## 출처
 

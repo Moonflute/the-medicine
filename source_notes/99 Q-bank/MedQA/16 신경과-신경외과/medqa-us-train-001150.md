@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 척수공동증(Syringomyelia)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 상완 및 손의 통증, 온·통각 소실, 근력 저하, 반사 소실, 그리고 온도·통증 감각이 선택적으로 손실된 것은 척수 전각(central cord) 손상을 의미한다. 이는 척수 내에 물이 고여 신경 섬유를 압박하는 척수공동증에서 흔히 나타난다. 따라서 가장 가능성이 높은 진단은 척수공동증이다.
 
 ## 출처
 

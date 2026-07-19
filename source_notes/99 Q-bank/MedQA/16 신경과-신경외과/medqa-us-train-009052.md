@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 삼차신경통
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+삼차신경통은 얼굴을 가볍게 만질 때 전기 충격 같은 극심한 통증을 유발하는 특징적인 트리거 존을 가진다. 환자의 증상과 일치한다. 다른 두통 유형은 접촉에 의한 급성 통증을 설명하지 못한다.
 
 ## 출처
 

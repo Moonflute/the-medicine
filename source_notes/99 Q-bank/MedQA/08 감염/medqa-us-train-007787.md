@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 2개월간 이소니아지드, 리팜핀, 피라진아미드, 에탐부톨을
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+활성 폐결핵이 의심되는 환자에서 항균제 감수성 결과를 기다리는 동안 격리와 동시에 RIPE 요법(이소니아지드, 리팜핀, 피라진아미드, 에탐부톨) 2개월을 시작하는 것이 표준 치료이다. 다른 선택지는 진단 지연을 초래한다.
 
 ## 출처
 

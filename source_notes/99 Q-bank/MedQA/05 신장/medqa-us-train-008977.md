@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 추정 사구체여과율(eGFR)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+배뇨량이 250 mL 이하인 저량뇨는 사구체 여과율 감소를 의미한다. 사구체 여과율을 정확히 평가하려면 eGFR 계산이 필요하다. 따라서 소변량이 아닌 eGFR이 신장내과 협진 판단 근거가 된다.
 
 ## 출처
 

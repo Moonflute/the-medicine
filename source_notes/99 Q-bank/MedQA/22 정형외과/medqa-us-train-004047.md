@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 휴식과 이부프로펜
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손목 통증이 엄지 움직임에만 국소적으로 나타나는 것은 드퀘르벵 건초염(엄지 힘줄염)이며, 초기 치료는 휴식과 NSAID(이부프로펜) 복용이다. 방사선 촬영이나 고정은 필요하지 않다.
 
 ## 출처
 

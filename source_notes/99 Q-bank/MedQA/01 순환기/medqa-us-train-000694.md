@@ -20,11 +20,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -42,7 +44,8 @@ D. 경동맥 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 일시적 시야 소실은 안구동맥 일시적 폐색(amaurosis fugax)이며, 이는 경동맥 내 플라크 파편에 의한 일과성 뇌허혈이다. 따라서 경동맥 초음파로 동맥 협착을 평가하는 것이 적절하다.
 
 ## 출처
 

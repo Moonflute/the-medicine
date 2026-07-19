@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 객담 배양을 반복한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Procalcitonin이 정상 범위에 머물고 임상 호전이 보이면 세균성 감염 가능성이 낮아 항생제 중단이 권장된다. 이는 항생제 사용을 최소화하는 가이드라인에 부합한다. 다른 선택지는 불필요한 치료 지속이다.
 
 ## 출처
 

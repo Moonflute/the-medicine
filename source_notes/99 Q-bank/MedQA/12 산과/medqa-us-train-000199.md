@@ -19,11 +19,13 @@ question_type: prognosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 신생아 사망
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 부종, 양수과다증, 흉수·복수는 태아의 심각한 부종(수두증)과 연관되며, 이는 대개 자궁 내 태아 사망으로 진행한다. 따라서 가장 가능성 높은 임상 경과는 자궁 내 태아 사망이다.
 
 ## 출처
 

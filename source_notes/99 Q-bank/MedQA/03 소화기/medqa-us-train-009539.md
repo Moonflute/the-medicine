@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. MALT 림프종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+바렛 식도는 장기적으로 식도 선암(선암, 즉 선형상 선암)으로 진행될 위험이 가장 높다. 이는 장기적인 위산 노출에 의해 비정상적인 선상 세포가 암으로 변하는 과정이다. 다른 선택지는 바렛 식도와 연관성이 낮다.
 
 ## 출처
 

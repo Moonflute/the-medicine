@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 총 혈청 IgE 농도 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+천식 환자에서 밤에 지속되는 기침과 역류 증상이 동반될 경우 위식도역류질환이 악화 요인일 수 있다. 위식도역류를 억제하면 천식 증상이 개선된다. 따라서 양성자펌프억제제 추가가 적절하다.
 
 ## 출처
 

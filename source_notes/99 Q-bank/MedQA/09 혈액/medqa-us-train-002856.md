@@ -18,11 +18,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 약물의 이상반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+이소니아지드 치료는 비타민 B6(피리독신) 결핍을 초래해 미오글로빈 합성 장애를 일으키며, 혈청 철은 높고 페리틴도 증가하는 미세적혈구성 빈혈(유리성 빈혈)을 유발한다. 따라서 약물 부작용이 원인이다.
 
 ## 출처
 

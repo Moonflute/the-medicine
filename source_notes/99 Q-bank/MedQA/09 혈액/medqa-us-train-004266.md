@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 헤모시데린이 찬 폐포 대식세포
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+출혈성 질환에서 PT는 정상이고 aPTT가 연장된 것은 내인성 경로 이상을 시사한다. 혈우병 A(제8인자 결핍)에서는 관절 내 출혈로 철 침착이 발생한다. 따라서 관절 내 철 침착이 예상되는 소견이다.
 
 ## 출처
 

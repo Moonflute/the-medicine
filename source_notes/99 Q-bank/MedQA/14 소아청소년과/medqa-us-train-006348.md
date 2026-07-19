@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 인플루엔자 백신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고열, 점막피부 발진, 결막염, 손 부종이 가와사키병의 전형적인 기준을 충족한다. 가와사키병에서는 관상동맥류 예방을 위해 고용량 아스피린을 시작한다. 따라서 고용량 아스피린 투여가 다음 단계이다.
 
 ## 출처
 

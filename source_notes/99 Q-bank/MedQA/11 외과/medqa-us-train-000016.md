@@ -21,11 +21,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -43,7 +45,8 @@ D. 조직 플라스미노겐 활성제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 다리 통증, 차가움, 감각 및 운동 저하 등은 급성 동맥 폐색을 시사한다. 급성 폐색에서는 혈전 용해를 위해 즉시 헤파린 점적 주입이 필요하다. 수술적 혈전 제거술은 보존적 치료 후에도 효과가 없을 때 고려한다.
 
 ## 출처
 

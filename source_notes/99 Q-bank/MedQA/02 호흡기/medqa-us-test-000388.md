@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 칸디다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+낭성섬유증 환자는 폐에 Pseudomonas aeruginosa(녹농균) 감염이 가장 흔히 진행한다. 성인기에 이 병원체가 지속적으로 정착하면 악화 위험이 높다. 따라서 B가 정답이다.
 
 ## 출처
 

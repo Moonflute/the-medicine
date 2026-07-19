@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 선암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐 선암은 비흡연자에서도 발생하며, 말초 결절·혈흔·체중 감소와 같은 비특이적 증상과 연관된다. 영상에서 동전 모양 결절이 보이며 조직학적으로 선암이 가장 흔한 원인이다. 따라서 선암이 정답이다.
 
 ## 출처
 

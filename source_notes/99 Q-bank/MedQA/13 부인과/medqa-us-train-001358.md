@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 근치적 자궁경부절제술을 시행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중에 미세침습성 자궁경부암(2 cm, 깊이 2 mm) 진단 시, 임산부와 태아를 보존하면서 종양을 완전히 제거할 수 있는 원추절제술이 권장된다. 따라서 적절한 관리 전략은 진단적 원추절제술이다.
 
 ## 출처
 

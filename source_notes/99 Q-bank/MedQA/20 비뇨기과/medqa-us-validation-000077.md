@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세균뇨 선별검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+도뇨관 삽입 후 지속적인 요로감염 위험은 배뇨를 간헐적으로 중단하면 크게 감소한다. 간헐적 도뇨는 방광에 대한 지속적인 압력을 피하고 세균 증식을 억제한다. 따라서 예방 방법은 간헐적 도뇨이다.
 
 ## 출처
 

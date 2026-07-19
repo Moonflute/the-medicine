@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 신경섬유종증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 내분비 종양 2A형은 갑상선 수질암, 부갑상선 기능항진증, 비소세포 폐암을 포함하며, 고칼슘혈증·고카테콜라민·고혈당이 동반된다. 따라서 MEN 2A가 가장 가능성 높은 진단이다.
 
 ## 출처
 

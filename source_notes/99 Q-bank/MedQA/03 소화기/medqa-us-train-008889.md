@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경경정맥 간내 문맥전신 단락술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+식도 정맥류는 문맥 고혈압의 합병증이며, 베타 차단제인 나돌롤이 압력을 감소시켜 출혈 위험을 낮춘다. 따라서 나돌롤 치료가 가장 적절하다.
 
 ## 출처
 

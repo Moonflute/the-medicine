@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 조절되지 않는 발작 장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조절되지 않는 발작 장애는 급성 발작 위험을 높이며, 일부 백신(특히 살아 백신) 투여 시 발작을 악화시킬 수 있다. 따라서 조절되지 않는 발작 장애는 백신 접종의 상대적 금기이다.
 
 ## 출처
 

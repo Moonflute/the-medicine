@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 인위적 갑상샘기능항진증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아급성 갑상선염은 바이러스성/자극성 염증으로 갑상선 통증, 저요오드 섭취, ESR 상승, 저요오드 방사성 요오드 섭취가 특징이며, 갑상선 기능 항진이 일시적으로 나타난다. 다른 선택지는 해당 임상양상과 맞지 않는다.
 
 ## 출처
 

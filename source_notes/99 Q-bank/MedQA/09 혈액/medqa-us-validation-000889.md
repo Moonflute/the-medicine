@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 글로빈 사슬 합성 이상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손발 부종·극심한 통증·거대 적혈구와 같은 증상은 겸상적혈구병을 시사한다. 겸상병은 β‑글로빈 사슬에 점 돌연변이가 있어 사슬 구조 자체가 변형된다. 따라서 원인은 글로빈 사슬 구조 이상이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뇌파에서 측두부 극파와 예파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 신경학적 결손(우측 안면 마비·운동 약화) 후에 심방세동이 흔히 뇌색전증을 일으킨다. 심전도에서 P파가 없고 불규칙한 리듬이 보이면 심방세동을 확인할 수 있다. 다른 선택지는 해당 증상과 연관이 적다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 하지 부종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신경성 식욕부진증 환자에서 저체중 자체보다 심각한 저칼륨성 부종과 저혈압, 심실성 부정맥이 동반될 때 입원이 필요하다. 하지 부종은 전해질 불균형과 저혈압을 시사하는 중증 의료 불안정성의 징후이다. 따라서 하지 부종이 입원을 가장 강하게 시사한다.
 
 ## 출처
 

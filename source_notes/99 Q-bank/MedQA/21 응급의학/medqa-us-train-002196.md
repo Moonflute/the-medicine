@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수술 상처 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 48~72시간 이내에 발열이 나타나면 가장 흔한 원인은 수술 부위 감염이다. 절개 부위의 발적과 고름성 분비물, 국소 압통이 감염을 시사한다. 따라서 수술 상처 감염이 가장 가능성 높은 원인이다.
 
 ## 출처
 

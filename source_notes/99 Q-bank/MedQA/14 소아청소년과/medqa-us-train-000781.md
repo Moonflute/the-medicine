@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 선천성 난청
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+얼굴 특징(낮은 콧대, 매끈한 인중, 작은 턱)은 태아 알코올 증후군을 시사하며, 이 경우 전수축기 잡음(심장 결함)이 흔히 동반된다. 따라서 가장 가능성이 높은 추가 소견은 전수축기 잡음이다.
 
 ## 출처
 

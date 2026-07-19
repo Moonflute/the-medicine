@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 방사성 요오드 치료를 의뢰한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 갑상선 항진증에서는 태아에 대한 갑상선 자극을 최소화하기 위해 메티마졸을 중단하고 플라스마티오우라실로 교체한다. 플라스마티오우라실은 임신 중에 안전하게 사용된다.
 
 ## 출처
 

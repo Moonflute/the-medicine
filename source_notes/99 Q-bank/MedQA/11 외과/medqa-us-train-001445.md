@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 클린다마이신 정맥주사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 부위 주변에 자주색 변색, 심한 통증, 바스락거리는 소리, 고열·저혈압·백혈구 증가 등은 급성 괴사성 근막염을 시사한다. 이 경우 즉각적인 외과적 변연절제가 생명을 구한다. 따라서 가장 적절한 다음 단계는 외과적 변연절제이다.
 
 ## 출처
 

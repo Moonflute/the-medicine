@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 레트로졸(Letrozole)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다낭성 난소증후군에 의한 고안드로겐 혈증은 월경 불규칙, 여드름, 다모증을 일으키며, 경구 피임약이 호르몬을 억제해 증상을 개선한다. 따라서 최선의 치료는 경구 피임약이다.
 
 ## 출처
 

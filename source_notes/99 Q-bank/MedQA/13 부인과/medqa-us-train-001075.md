@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 환자와 파트너를 국소 케토코나졸(ketoconazole)로 치료한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+질 분비물의 pH 5.1, 회백색 냄새 없는 분비물, 현미경에서 편모가 없는 작은 구균(가장자리)들이 보이는 것이 세균성 질염의 특징이다. 1차 치료는 메트로니다졸 단일제이다. 따라서 메트로니다졸 투여가 적절하다.
 
 ## 출처
 

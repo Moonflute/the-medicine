@@ -18,11 +18,13 @@ question_type: ethics
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 관찰하며 통역사를 구한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+생명을 위협하는 출혈성 쇼크 상황에서는 소아의 최선 이익을 위해 부모가 거부한 혈액제제라도 생명을 구하기 위해 제공해야 한다. 따라서 혈액제제와 응급수술이 적절하다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 핵산증폭검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 비정상 질 분비물·자궁경부 염증·악취는 클라미디아 감염을 시사한다. 핵산증폭검사(NAA)로 빠르게 진단할 수 있다. 습윤도말검사·아민 검사·소변배양은 민감도가 낮다.
 
 ## 출처
 

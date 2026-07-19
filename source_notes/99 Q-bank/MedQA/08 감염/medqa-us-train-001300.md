@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 말라리아
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+열, 두통, 근육통, 발진, 림프절통증이 동반된 급성 열대열(뎅기열)은 모기에 물린 후 3-7일 내에 나타난다. 말라리아는 주기적 열이 특징이며 말초 혈액 도말에 원충이 보인다. 따라서 가장 가능성 높은 원인은 뎅기열이다.
 
 ## 출처
 

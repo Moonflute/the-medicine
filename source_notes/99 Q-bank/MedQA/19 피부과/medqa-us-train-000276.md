@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -43,7 +45,8 @@ D. 피부사상균 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 수포와 양성 니콜스키 징후는 천포창(펜리히)과 연관된 항-데스모글레인-3(anti‑desmoglein‑3) 항체에 의해 매개되는 자가면역 수포성 피부질환을 나타낸다. 이는 천포창의 병리학적 기전이다. 따라서 원인을 가장 잘 나타내는 것은 항‑데스모글레인‑3 항체이다.
 
 ## 출처
 

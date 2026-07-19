@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 관절강 내 글리코사미노글리칸 폴리설페이트 주사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+슬개대퇴 통증 증후군은 무릎 앞쪽 통증과 활동 제한을 일으키며, 근력 강화가 근본 치료이다. 대퇴사두근을 강화하면 무릎 관절에 가해지는 압력이 감소한다. 따라서 가장 좋은 관리 방법은 대퇴사두근 강화이다.
 
 ## 출처
 

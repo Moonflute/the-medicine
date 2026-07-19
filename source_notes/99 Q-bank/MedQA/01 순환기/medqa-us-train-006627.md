@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 발살바법으로 호전되는 수축기 박출 잡음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+승모판 전방운동(‘M‑move’)은 비후성 폐쇄성 심근병증(또는 HCM)에서 흔히 보이며, 이는 승모판 역류와는 다르다. 승모판 역류는 잡음이 지속적이며, 경동맥 방사성 잡음은 대동맥 협착과 연관된다. 따라서 가장 일치하는 소견은 승모판 역류이다.
 
 ## 출처
 

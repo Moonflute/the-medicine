@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 족저근막염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발바닥 통증과 지속적인 저림·감각 이상은 족근신경이 종횡으로 압박되는 족근관증후군의 전형적인 증상이다. 신경학적 검사에서 근력은 정상이며 감각만 손상된다. 따라서 족근관증후군이 가장 가능성 높은 진단이다.
 
 ## 출처
 

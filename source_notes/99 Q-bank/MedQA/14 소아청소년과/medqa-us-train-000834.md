@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 경구 리팜핀(rifampin) 투여 시작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아 수막염에서 그람 음성 간균이 확인되면 3세대 세팔로스포린(cefotaxime)과 아미노글리코사이드 조합이 표준 치료이다. 따라서 즉시 정맥 내 cefotaxime 투여를 시작한다.
 
 ## 출처
 

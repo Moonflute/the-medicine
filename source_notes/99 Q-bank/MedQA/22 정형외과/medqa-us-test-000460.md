@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 오른쪽 고관절 수술적 핀 고정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년 대퇴골두 골단분리는 대퇴골두가 대퇴경부에서 뒤쪽·아래쪽으로 전위되는 것이 특징이며, 비만과 성장판 약화가 위험인자이다. 골단분리는 불안정하므로 수술적 핀 고정이 표준 치료이다.
 
 ## 출처
 

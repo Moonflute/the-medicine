@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 비강 내 리도카인
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 밤에 발생하고 눈물·결막충혈·콧물 동반되는 일측성, 급성, 심한 통증의 두통을 보이며 이는 군집두통의 전형적인 발작 양상이다. 군집두통은 저산소 치료가 급성 발작 중단에 가장 효과적이며, 트립탄은 심근허혈 위험이 있어 금기이다. 따라서 100% 고유량 산소가 적절한 치료이다.
 
 ## 출처
 

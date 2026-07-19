@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부 산통
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+내인자 항체에 의한 악성빈혈(자기면역성 용혈성 빈혈)은 갑상선 기능저하(갑상선염)와 동반되는 경우가 많다. 따라서 혈청 TSH 상승이 추가 소견으로 가장 흔히 나타난다.
 
 ## 출처
 

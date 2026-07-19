@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경막과 거미막 사이
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+진공 보조 분만 후 두피에 발생한 부종은 두피와 두피막 사이(피하 조직)에 혈액이 고여 형성되는 ‘두피 혈종’이다. 이는 해당 공간에 국한된 부종이다. 따라서 영향을 미치는 공간은 두피와 두피널힘줄막 사이이다.
 
 ## 출처
 

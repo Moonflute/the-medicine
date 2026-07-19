@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전방 서랍검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+슬개골 압박(무릎을 편 상태에서 슬개골을 눌러 주는 검사)은 슬개대퇴 통증 증후군에서 통증을 유발하거나 완화시켜 진단에 도움이 된다. 따라서 진단을 확립하는 데 가장 도움이 되는 검사는 무릎을 편 상태에서 슬개골 압박이다.
 
 ## 출처
 

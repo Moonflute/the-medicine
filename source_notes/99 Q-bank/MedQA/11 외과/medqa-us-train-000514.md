@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 실질 섬유화를 동반한 간질 세포 침윤, 폐쇄성 동맥염(oblit
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+이식된 간으로의 혈류 감소와 진행성 황달, 고효소혈증은 만성 거부반응을 시사한다. 만성 거부는 혈관 내막에 폐쇄성 동맥염과 간 실질 섬유화, 간세포 침윤이 특징이다. 따라서 조직학적 소견은 실질 섬유화와 폐쇄성 동맥염이 가장 가능하다.
 
 ## 출처
 

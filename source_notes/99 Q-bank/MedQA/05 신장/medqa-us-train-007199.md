@@ -18,11 +18,13 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 악성 고혈압
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+요관 결석이 요관 하부에 위치하고 급성 옆구리 통증을 유발하며, 결석에 의해 점막이 손상돼 혈뇨가 흔히 동반된다. 따라서 이 환자에게서 추가로 기대되는 소견은 혈뇨이다.
 
 ## 출처
 

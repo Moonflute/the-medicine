@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기관지 폐쇄로 인한 환기/관류 비 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐색전증은 폐포 일부가 폐색되어 관류가 차단되고 환기와 대비해 V/Q 불일치를 일으켜 폐포 사강이 증가한다. 이는 저산소성 호흡부전과 저산소혈증을 초래한다. 따라서 호흡부전 원인은 관류 소실에 의한 폐포 사강 증가이다.
 
 ## 출처
 

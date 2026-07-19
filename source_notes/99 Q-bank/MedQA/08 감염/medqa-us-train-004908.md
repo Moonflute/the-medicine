@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Giardia lamblia
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈성 설사와 혈소판 감소, 용혈성 빈혈, 신장 기능 악화는 용혈성 요독 증후군(HUS)을 일으키는 전증상인 장출혈성 대장균(Shiga toxin‑producing E. coli) 감염과 일치한다. 따라서 원인균은 Escherichia coli이다.
 
 ## 출처
 

@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 정맥 내 하이드록시코발라민(hydroxycobalamin) 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+연기 흡입 후 두통·현기증·저산소혈증이 나타났으며, 혈액 가스에서 대사성 산증과 저산소혈증이 보인다. 화재 현장에서는 시안화물 중독이 흔히 동반되며, 치료에 혈중 시안이 결합된 형태인 하이드록시코발라민이 가장 효과적이다. 따라서 정맥 내 하이드록시코발라민 투여가 적절한 다음 관리 단계이다.
 
 ## 출처
 

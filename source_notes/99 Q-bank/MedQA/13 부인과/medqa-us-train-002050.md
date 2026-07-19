@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 성선자극호르몬 방출호르몬 작용제 치료를 시행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+월경이 없고, 골반에 부풀어 오른 질 조직, 골반 검진에서 앞쪽 압통이 있는 종괴는 막힌 처녀막에 혈액이 축적된 혈성질증을 의미한다. 치료는 처녀막 절개술으로 혈액을 배출하는 것이 가장 효과적이다. 따라서 정답은 C이다.
 
 ## 출처
 

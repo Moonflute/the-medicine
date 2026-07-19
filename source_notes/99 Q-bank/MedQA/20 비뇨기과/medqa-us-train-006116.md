@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부 및 골반 CT
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+PSA가 6.5 ng/mL이고 직장수지검사에서 고형 결절이 촉진되면 전립선암을 의심하고, 정확한 조직 진단을 위해 경직장 초음파 유도 전립선 생검을 시행한다. 방광경검사는 방광 병변, PSA 재검은 추적, CT는 1차 진단이 아니다.
 
 ## 출처
 

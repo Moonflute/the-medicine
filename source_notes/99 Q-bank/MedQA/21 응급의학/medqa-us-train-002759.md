@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 파클랜드 공식에 따른 링거 젖산액으로 수액 소생
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전층 화상(3도)은 피부 전체 두께가 손상되어 조기 절제와 부분층 피부이식이 회복을 촉진한다. 11% TBSA는 대량 수액이 필요하지만, 가장 중요한 초기 치료는 조기 외과적 관리이다. 따라서 조기 절제 및 부분층 피부이식이 적절하다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 피부 생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+근육 약화, 호흡곤란, 피부 발진, 폐 섬유화는 다발성 근염(다발성 근육염)과 연관된다. 확진을 위해 근육 조직의 염증성 변화와 근섬유 괴사를 확인하는 근육 생검이 가장 유용하다. 따라서 근육 생검이 정답이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 오후에 계획된 낮잠을 잔다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수면 위상 지연은 저녁에 과도한 활동(운동)으로 인해 멜라토닌 분비가 억제되어 발생한다. 저녁 운동을 중단하면 자연스러운 수면 리듬이 회복되어 졸음이 개선된다. 다른 선택지는 수면 위상 지연에 직접적인 영향을 주지 않는다.
 
 ## 출처
 

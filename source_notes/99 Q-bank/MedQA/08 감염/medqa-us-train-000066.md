@@ -16,11 +16,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. Sentinel event
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구두 전달 오류는 의사-간 커뮤니케이션 실패에서 비롯된다. 폐쇄형 커뮤니케이션(closed-loop communication)은 확인과 피드백을 포함해 지시를 명확히 하여 동일한 오류를 방지한다. 따라서 위험 최소화를 위한 최적 관리법은 폐쇄형 커뮤니케이션이다.
 
 ## 출처
 

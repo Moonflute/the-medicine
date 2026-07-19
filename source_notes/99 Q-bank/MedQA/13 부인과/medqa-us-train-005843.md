@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. β-hCG 재검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+과다월경·골반 불편감·자궁 비대는 자궁근종을 의심하게 하며, 진단에 가장 적합한 검사는 골반 초음파이다. MRI·복강경·β‑hCG 재검은 1차 검사로 비효율적이다.
 
 ## 출처
 

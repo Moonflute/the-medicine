@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 반코마이신, 세프트리악손과 암피실린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+세균성 수막염 의심 시 CSF에서 고단백·저포도당·백혈구 증가가 보이며, 고위험 환자(고령·면역저하)에서는 경험적 광범위 항생제(반코마이신·세프트리악손·암피실린)와 덱사메타손이 권장된다. 따라서 C가 정답이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항 Scl-70 항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+레인오와 CREST 증후군에서 항중심체 항체가 가장 특이적이다. 환자는 레이노와 피부 경화, 석회화성 손가락 결절을 보여 CREST와 일치한다. 따라서 항중심체 항체가 가장 가능성 높은 검사이다. 항 Scl‑70는 확산형 전신 경화증에 더 흔하다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 절제 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ASC-US가 보였지만 HPV 검사가 음성이고 이전 검사가 정상인 경우, 3년 후에 다시 세포검사와 HPV 검사를 시행하면 충분히 안전하게 추적할 수 있다. HPV 음성은 고위험 감염이 없음을 의미하므로 즉각적인 추가 검사나 치료는 필요하지 않다. 따라서 가장 적절한 처치는 3년 후 세포검사와 HPV 검사를 반복하는 것이다.
 
 ## 출처
 

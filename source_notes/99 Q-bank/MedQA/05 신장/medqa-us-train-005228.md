@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 리튬
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+리튬은 신장에서 집광관에서 ADH(바소프레신) 작용을 차단하거나 ADH 분비를 억제해 요붕증을 유발한다. 따라서 디스모프레신(바소프레신) 투여에도 소변량·삼투압이 변하지 않는 경우 리튬이 원인 약물이다.
 
 ## 출처
 

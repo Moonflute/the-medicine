@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Yersinia pestis
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아프리카 어린이의 하악부 종괴는 내인성 EBV 감염에 의해 발생하는 버킷 림프종과 연관된다. EBV는 B세포에 잠복해 종양세포 증식을 촉진한다. 따라서 조직병리와 일치하는 미생물은 EBV이다. Yersinia pestis는 전염성 흑사병을 일으키며 종양을 유발하지 않는다.
 
 ## 출처
 

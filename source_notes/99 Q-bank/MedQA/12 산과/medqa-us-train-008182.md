@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 영양막질환
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+쿼드스크린에서 AFP와 비결합 에스트라디올이 낮고 β‑hCG와 PAPP‑A가 높은 패턴은 다운증후군(21번 삼염색체)과 일치한다. 이러한 바이오마커 조합은 태아의 염색체 이상을 시사한다. 따라서 21번 염색체 삼염색체증이 정답이다.
 
 ## 출처
 

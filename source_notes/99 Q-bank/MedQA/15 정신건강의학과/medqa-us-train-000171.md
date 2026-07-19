@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 역설적 의도(Paradoxical intention)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+불면증의 초기 치료는 수면 제한을 통한 행동 요법이 1차 권고이다. 약물보다는 비약물적 접근이 우선한다. 따라서 정답은 수면 제한이다.
 
 ## 출처
 

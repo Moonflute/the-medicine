@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대변 배양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다리의 통증성 결절과 ESR 상승은 erythema nodosum를 시사한다. 이 질환은 전신성 질환(예: sarcoidosis)과 연관될 수 있으므로 흉부 X선으로 폐양성 결절이나 림프절 비대를 확인해야 한다. 따라서 흉부 X선 촬영이 적절한 다음 단계이다.
 
 ## 출처
 

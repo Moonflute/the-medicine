@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 객담 배양검사로 진단을 확인한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+결핵은 국가·지방 보건당국에 의무 신고 대상 전염병이다. 환자가 비밀을 요구하더라도 공중보건을 위해 즉시 보건당국에 신고해야 한다.
 
 ## 출처
 

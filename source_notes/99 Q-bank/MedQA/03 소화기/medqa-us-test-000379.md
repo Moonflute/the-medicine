@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 벽으로 둘러싸인 췌장액 저류
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+위의 촉진에서 고실성 종괴와 청진 시 진탕음은 위벽 부종과 염증으로 인한 위출구 폐쇄(위전이)를 의미한다. 이는 위염·부종에 의한 기계적 폐쇄이므로 원인은 염증과 부종이다. 따라서 A가 정답이다.
 
 ## 출처
 

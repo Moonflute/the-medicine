@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 라베탈롤 투여—첫 1시간 동안 평균동맥압을 25% 이하
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압 위기에서 목표는 평균동맥압(MAP)을 25% 이하로 급격히 낮추는 것이며, 라베탈롤은 베타·알파 차단제로 정맥 투여 시 MAP을 25% 이하로 감소시키는 것이 권장된다. 따라서 라베탈롤을 정맥 투여해 MAP을 25% 이하로 낮춘다.
 
 ## 출처
 

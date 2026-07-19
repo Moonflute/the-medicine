@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지용성 비타민 과다복용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두통, 구역, 시야장애 없이 양측 경미한 유두부종과 정상 포도당, 상승된 개방압은 두개내압 상승을 시사한다. 비만 여성에서 두개내압 상승의 가장 흔한 원인은 비타민 A 과다복용에 의한 뇌부종이다. 따라서 정답은 D이다.
 
 ## 출처
 

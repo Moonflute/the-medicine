@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 왼쪽 중대뇌동맥 하부분지
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전대뇌동맥 폐색은 대뇌 전두엽 및 다리 부위의 감각·운동 결손을 일으키며, 환자의 증상과 일치한다. 따라서 오른쪽 전대뇌동맥이 가장 가능성 높다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 분무형 N-아세틸시스테인
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 악화 시 2주간 경구 프레드니손 투여는 재악화를 감소시키는 근거가 있으며, 다른 옵션들은 재악화 예방 효과가 입증되지 않는다. 따라서 경구 프레드니손이 정답이다.
 
 ## 출처
 

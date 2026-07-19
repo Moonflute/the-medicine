@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이마티닙
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+9;22 전좌가 확인된 소아 급성 림프구성 백혈병(ALL)에서는 BCR‑ABL 융합 단백질을 억제하는 티로신키나제 억제제 이마티닙이 표준 치료이다. 따라서 이마티닙 투여가 가장 적절한 약물치료이다.
 
 ## 출처
 

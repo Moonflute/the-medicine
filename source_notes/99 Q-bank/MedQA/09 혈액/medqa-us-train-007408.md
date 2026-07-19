@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 예방접종 후 비장절제술과 1년간 페니실린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 비정상적인 적혈구 파괴와 비장 비대가 특징인 유전구형적혈구증을 가지고 있다. 비장은 파괴된 적혈구를 제거하므로 비장절제술이 근본 치료이며, 감염 예방을 위해 백신 후 1년간 페니실린을 투여한다.
 
 ## 출처
 

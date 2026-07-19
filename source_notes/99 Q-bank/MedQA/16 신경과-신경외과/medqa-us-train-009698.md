@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경피적 내시경 위루관을 통한 경장영양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 외상성 뇌손상 환자는 위장관 기능이 유지되는 경우 위관을 통한 경장영양이 가장 안전하고 장기 영양을 제공한다. 경구 섭취는 의식 저하와 기계적 환기 때문에 금지되고, 전신 영양은 감염 위험이 크다. 따라서 다음 단계는 비위관을 통한 경장영양이다.
 
 ## 출처
 

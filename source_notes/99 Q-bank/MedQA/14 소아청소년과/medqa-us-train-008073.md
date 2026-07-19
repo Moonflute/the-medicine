@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 18번 염색체 삼염색체증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손가락이 겹쳐지고 발뒤꿈치가 두드러지는 등 ‘클렌치드 손’과 저체중, 다중 선천적 기형은 18번 삼염색체(에드워즈 증후군)의 특징이다. 따라서 가장 가능성 높은 원인은 18번 삼염색체이다.
 
 ## 출처
 

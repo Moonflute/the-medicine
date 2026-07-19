@@ -17,11 +17,13 @@ question_type: association
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뇌 동맥류
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복 골절·척추 전만·관절 과운동성은 골형성부전증(오스테오제네시스 불량증)과 연관되며, 이 질환은 청력 손실을 동반한다. 따라서 청력 장애가 추가로 나타날 가능성이 가장 높다.
 
 ## 출처
 

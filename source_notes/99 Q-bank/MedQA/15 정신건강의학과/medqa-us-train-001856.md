@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 얼굴의 무도성 무정위운동
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+플루페니진과 같은 전통적 항정신병제의 장기 사용은 안면의 무도성 무정위운동(불수의증)이라는 지연성 운동이상을 유발한다. 이는 영구적인 신경학적 손상을 초래할 수 있어 약물 중단이 권고된다. 관찰된 소견이 얼굴의 무도성 무정위운동이므로 정답은 D이다.
 
 ## 출처
 

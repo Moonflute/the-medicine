@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. Adriamycin, bleomycin, vinblastine, and dacarbazine (ABVD)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 골수성 출혈, 심한 혈소판 감소, 연장된 PT/aPTT, 양성 섬유소 분해산물, 고 LDH와 Auer rods가 보이는 말초혈액 도말을 보이며 급성 전골수성 백혈병, 특히 급성 전골수성 백혈병(APL)과 연관된 DIC를 나타낸다. APL은 ATRA 치료에 급속히 반응한다. 따라서 ATRA가 가장 적절한 치료이다.
 
 ## 출처
 

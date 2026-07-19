@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대장에서 발견되는 음와 농양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+헬리코박터 파일로리 감염은 위궤양과 출혈을 일으키며, 조직검사에서 위 점막에 요소분해효소(우레아제)를 생성하는 균이 보인다. 따라서 가장 가능성 높은 소견은 소장에서 발견되는 요소분해효소 생성균이다.
 
 ## 출처
 

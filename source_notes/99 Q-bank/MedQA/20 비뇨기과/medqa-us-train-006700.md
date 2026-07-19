@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. α1-아드레날린 수용체 활성화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아미트립틸린은 항콜린성 부작용으로 방광 평활근 수축을 억제해 요폐를 일으킨다. 환자는 지속적인 요실금과 배뇨곤란을 보이며 다른 원인은 없으므로 항콜린성 약물에 의한 요폐가 가장 가능성 높다.
 
 ## 출처
 

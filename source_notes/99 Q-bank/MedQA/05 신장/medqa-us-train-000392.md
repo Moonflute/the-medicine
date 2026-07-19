@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 세뇨관 간질 섬유화(tubulointerstitial fibrosis)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+류마티스 관절염 환자에서 전신 아밀로이드증이 발생하면 신장에 Congo red 양성, 사과 녹색 복굴절을 보인다. 환자의 단백뇨와 저알부민혈증이 이를 뒷받침한다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 스피로놀락톤 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 저나트륨 혈청, 저혈압, 부신피질 기능 저하가 나타나는 21‑수산화효소 결핍은 부신피질 호르몬 결핍을 보완하기 위해 하이드로코르티손·플루드로코르티손 치료가 필요하다. 따라서 가장 적절한 다음 단계는 스테로이드 치료이다.
 
 ## 출처
 

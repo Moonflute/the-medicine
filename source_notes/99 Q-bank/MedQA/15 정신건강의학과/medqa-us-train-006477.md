@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 설트랄린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조증 삽화 후 급성 우울·자살 생각이 나타난 경우, 세로토닌 재흡수 억제제인 설트랄린이 가장 흔히 시작된다. 리튬·올란자핀·쿠에티아핀은 조증·양극성 치료에 쓰이지만 급성 우울 삽화 후 첫 선택은 아니다. 따라서 D가 정답이다.
 
 ## 출처
 

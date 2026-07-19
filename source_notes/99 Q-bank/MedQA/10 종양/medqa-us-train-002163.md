@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 프레드니손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+암성 고칼슘혈증은 PTHrP에 의해 발생하며 혈청 PTH는 저하된다. 치료에 골흡수 억제제인 졸레드론산(zoledronic acid)이 1차 선택이다. 따라서 졸레드론산이 정답이다.
 
 ## 출처
 

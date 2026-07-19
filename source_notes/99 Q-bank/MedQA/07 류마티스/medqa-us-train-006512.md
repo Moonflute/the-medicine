@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항핵항체 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+70세 여성의 근위부 근육통·아침 강직·피로는 다발성 근육통증후군을 시사한다. 진단을 확정하기 위해서는 염증표지인 ESR(또는 CRP) 측정이 가장 먼저 필요하다. 근전도는 근위축성 측면을 평가할 때 사용된다.
 
 ## 출처
 

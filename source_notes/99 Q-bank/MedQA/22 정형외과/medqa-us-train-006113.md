@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 우측 대퇴골 골생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+MRI에서 다발성 골용해 병변과 골수부종이 보이는 경우, 골수염을 확진하기 위해 골생검이 필요하다. 핵의학 스캔은 감염 여부를 추정하지만 조직학적 확인이 가장 확실하다. 따라서 골생검이 적절한 다음 단계이다.
 
 ## 출처
 

@@ -23,11 +23,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -45,7 +47,8 @@ D. 위눈꺼풀올림근의 교감신경 과활성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+그레이브스병에서 안와 내 글리코사미노글리칸(GAG) 축적이 안구 돌출과 복시를 일으킨다. 이는 갑상선 기능 항진에 동반되는 안와 조직 부종의 병리학적 메커니즘이다. 따라서 안와 내 GAG 축적이 가장 가능성 있는 원인이다.
 
 ## 출처
 

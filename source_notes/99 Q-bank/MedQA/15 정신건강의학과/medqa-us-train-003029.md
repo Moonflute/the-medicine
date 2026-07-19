@@ -18,11 +18,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 피소스티그민
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고열, 근긴장도 증가, 자율신경 불안정, CK 상승은 신경 차단제 사용에 의한 악성 신경 차단 증후군(NMS)을 나타낸다. NMS 치료에 근육 이완제인 단트롤렌이 1차 선택이다. 따라서 단트롤렌 투여가 가장 적절한 초기 약물치료이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 영양 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 피로, 체중 증가, 변비와 서브클리니컬 갑상선 저하증을 보이며, 갑상선 자가항체에 의한 면역 공격이 원인이다. 하시모토 갑상선염은 자가면역성 파괴로 갑상선 기능 저하를 일으킨다. 따라서 발병기전을 가장 잘 설명하는 것은 내분비 조직에 대한 자가면역 공격이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부 MRI
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소아 복통에서 급성 충수염이 의심될 때 첫 번째 영상검사는 방사선 노출이 적은 복부 초음파이다. 초음파는 충수염의 비대와 주변 삼출을 확인할 수 있다. 따라서 복부 초음파가 적절한 다음 단계이다.
 
 ## 출처
 

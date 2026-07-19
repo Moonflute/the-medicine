@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 근육 염좌
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 요통이 움직임에 의해 악화되고, 국소 근육 압통만 존재하며 신경학적 이상이 없고 CRP 정상인 경우 근육 염좌가 가장 흔한 원인이다. 압박골절이나 감염성 병변은 통증 양상과 검사소견이 다르다. 따라서 가장 가능성 높은 진단은 근육 염좌이다.
 
 ## 출처
 

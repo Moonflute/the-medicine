@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 젠커 게실
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+점진적인 삼킴곤란, 체중 감소, 흡연·음주 병력, 구강 위생 불량, 구취는 식도암, 특히 편평세포암을 시사한다. 식도 편평세포암은 연하곤란과 체중 감소를 동반하며 위험 요인이 일치한다. 다른 선택지는 해당 증상과 부합하지 않는다.
 
 ## 출처
 

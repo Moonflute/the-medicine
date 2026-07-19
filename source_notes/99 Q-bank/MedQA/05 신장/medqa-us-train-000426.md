@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 사이클로스포린 A(cyclosporine A) 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신장 생검에서 사구체 내 초승달(crescent) 형성은 급성 진행성 사구체신염을 시사한다. 급성 진행성 사구체신염은 면역 매개 염증으로 급성 스테로이드 치료가 가장 효과적이다. 따라서 메틸프레드니솔론 투여가 적절한 다음 치료 단계이다.
 
 ## 출처
 

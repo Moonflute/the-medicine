@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뇌척수액 흡수 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+점진적인 기억력 저하와 인지 기능 감소, 진행성 실신성 행동은 프리온 질환인 크루츠펠트‑야코프병을 시사한다. 이 질환은 프리온 단백질의 변형 축적으로 신경세포 사멸을 일으킨다. 따라서 가장 가능성 높은 기저 원인은 프리온 축적이다.
 
 ## 출처
 

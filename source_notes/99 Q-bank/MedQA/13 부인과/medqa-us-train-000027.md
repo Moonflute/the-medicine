@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 세르톨리-라이디히 세포종양(Sertoli-Leydig tumor)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+과립막세포종양은 에스트로겐을 과다 생산해 여성 소아에서 조기 사춘과 난소 종괴를 일으킨다. 환자의 고에스트로겐 혈중 농도와 난소 종괴가 이를 뒷받침한다. 다른 선택지는 호르몬 패턴이나 임상 양상이 다르다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 단일융모막-단일양막 일란성 쌍태임신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+작은 쌍둥이의 헤마토크릿이 정상이고 큰 쌍둥이는 69%로 고혈구증을 보이는 것은 일란성 쌍태임신에서 혈액이 한쪽으로 이동하는 twin‑twin transfusion syndrome를 시사한다. 이 증후군은 단일 융모막·이양막(단일 태반, 두 양막) 구조에서 발생한다. 따라서 정답은 B이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,9 @@ D. 객담 배양 및 도말검사 반복
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+활동성 폐결핵 치료는 이소니아지드, 리팜핀, 에탐부톨, 피라진아미드(4약) 병용이 표준이다. 환자는 결핵 의심 소견이 있으므로 RIPE 요법이 권장된다.
+다른 선택지는 치료가 불완전하다.
 
 ## 출처
 

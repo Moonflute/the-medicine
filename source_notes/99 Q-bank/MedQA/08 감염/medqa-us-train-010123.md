@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 두드러기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+인두염 후 1~2일 내에 발진이 나타나고, 입안에 딸기혀와 고운 비늘 모양의 발진이 특징인 질환은 성홍열이다. 이는 연쇄상구균 감염에 의한 면역 반응이다. 따라서 가장 가능성 높은 진단은 성홍열이다.
 
 ## 출처
 

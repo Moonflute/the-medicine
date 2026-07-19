@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 구루병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+판코니 빈혈은 골수 부전으로 전혈구 감소, 색소성 반점, 성장 지연, 거대 적혈구와 저칼륨혈증을 동반한다. 환자의 혈액소견과 신체소견이 이에 부합한다. 따라서 판코니 빈혈이 가장 가능성 높은 진단이다.
 
 ## 출처
 

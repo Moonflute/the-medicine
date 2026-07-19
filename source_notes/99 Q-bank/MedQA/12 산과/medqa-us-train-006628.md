@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 면역글로불린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 갑상선 기능 항진증 치료에 1차 선택은 프로필티오우라실이며, 이는 태아에 비교적 안전하고 증상 조절에 효과적이다. 방사성 요오드 치료는 임신에 금기이며, 프레드니손은 급성 악화에만 사용하고, 정맥 면역글로불린은 적응증이 아니다. 따라서 정답은 프로필티오우라실이다.
 
 ## 출처
 

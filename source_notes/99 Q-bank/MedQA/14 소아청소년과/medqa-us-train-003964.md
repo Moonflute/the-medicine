@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 장의 비정상 회전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 복부 팽만, 장음 감소, 직장 비어 있음은 선천성 거대결장(히르슈스프룽병)과 일치한다. 이 질환은 신경능선 세포가 장벽을 따라 이동하지 못해 발생한다. 따라서 기저 원인은 신경능선 세포의 이동 결함이다.
 
 ## 출처
 

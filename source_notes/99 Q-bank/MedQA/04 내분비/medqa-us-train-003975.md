@@ -18,11 +18,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. RET 원종양유전자 발현 이상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑상선 저에코성 미세석회화 병변은 수질암을 시사하고, 고칼슘·저인산혈증, 두통·발한·심계항진은 부갑상선 기능항진과 갈색세포종을 동반한 MEN2A와 일치한다. MEN2A는 RET 원종양유전자 활성화 변이로 발생한다. 따라서 가장 가능성 높은 기저 원인은 RET 원종양유전자 발현 이상이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 조영증강 머리 CT
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년 비인두 혈관육종은 코 안쪽에 출혈성 덩어리로 나타나며, 출혈을 유발한다. 진단을 위해 조영증강 CT가 혈관성 종양을 확인하는 가장 정확한 영상이다. 따라서 조영증강 머리 CT가 적절하다.
 
 ## 출처
 

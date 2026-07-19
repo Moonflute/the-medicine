@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. ↓ 멘처 지수(Mentzer index)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+철제제 투여 후 골수에서 새로운 적혈구가 방출되면서 가장 먼저 증가하는 검사는 망상적혈구 수이다. 이는 치료 반응을 나타내는 초기 지표이며, 다른 수치는 시간이 더 걸린다. 따라서 정답은 A이다.
 
 ## 출처
 

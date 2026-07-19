@@ -18,11 +18,13 @@ question_type: ethics
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 남아와 어머니 모두에게 수혈한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소아는 혈액성형을 거부하는 경우에도 생명을 위협하는 급성 상황에서는 최소한의 수혈이 허용된다. 어머니는 사망 위기에 처했으므로 수혈이 필요하고, 소아에게는 수혈을 제공한다. 따라서 어머니에게는 수혈하지 않고 소아에게는 수혈한다.
 
 ## 출처
 

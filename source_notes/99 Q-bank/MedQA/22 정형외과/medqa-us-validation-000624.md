@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 유방촬영술에서 국소 고음영
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+스테로이드 장기 복용은 골밀도 감소를 초래한다. 골다공증 진단을 위해 DEXA 검사를 시행하면 T점수가 -2.5 이하인 경우 골다공증으로 판정된다. 따라서 예상되는 결과는 DEXA 검사 T점수 -2.01이다.
 
 ## 출처
 

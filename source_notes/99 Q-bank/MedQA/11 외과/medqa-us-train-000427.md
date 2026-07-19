@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 수술적 교정 계획
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+초음파에서 동맥과 연결된 에코가 없는 주머니와 박동성 혈류는 가성동맥류(pseudoaneurysm)를 나타낸다. 가성동맥류는 혈전 주입(트롬빈)으로 즉시 폐쇄가 가능하므로 초음파 유도하 트롬빈 주입술이 최선의 관리이다.
 
 ## 출처
 

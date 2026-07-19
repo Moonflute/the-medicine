@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대퇴골두 골괴사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+외전 시 통증과 압통, 그리고 X선에서 이상이 없으며 프레드니손 복용 후 발생한 증상은 대전자 통증 증후군(대전자 건염)과 일치한다. 이는 보존적 치료와 물리치료가 우선이며, 진단적 확인을 위해서는 특별한 영상이 필요하지 않다. 따라서 가장 가능성 높은 진단은 대전자 통증 증후군이다.
 
 ## 출처
 

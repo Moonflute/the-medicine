@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 글루코코르티코이드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+원발성 부갑상선 기능항진증에 의한 고칼슘혈증에서는 비스포스포네이트가 뼈 재흡수를 억제해 칼슘 수치를 낮춘다. 칼슘 섭취 감소만으로는 충분하지 않다.
 
 ## 출처
 

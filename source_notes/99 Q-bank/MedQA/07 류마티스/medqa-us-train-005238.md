@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 라미프릴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소변량 감소, 고혈압, 혈소판 감소, 미세혈관 용혈은 전신경화증에 동반되는 신장 위기(신경성 신장 위기)를 시사한다. 이 상황에서는 혈관 수축과 레닌-안지오텐신 시스템 활성화가 급격히 진행되므로 ACE 억제제가 혈압을 급격히 낮추고 신장 기능을 보호한다. 따라서 라미프릴이 가장 적절한 치료이다. 라니트로프루시드는 혈압 강하 효과는 있으나 ACE 억제제만큼 신장 위기에서의 생존율 개선 효과가 입증되지 않았다.
 
 ## 출처
 

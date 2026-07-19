@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈관성 치매
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 혼란, 단계적 인지 저하, 고혈압, 그리고 다발성 뇌졸중 위험 요인을 가지고 있어 급성 혈관성 치매가 가장 가능하다. 혈관성 치매는 뇌혈관 사건에 의한 점진적·계단식 인지 저하가 특징이다. 알츠하이머는 점진적 기억 상실이 주된 반면, 여기서는 급성 행동 변화와 혈관 위험 요인이 핵심이다.
 
 ## 출처
 

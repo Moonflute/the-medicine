@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 누나에게 하룻밤 머물도록 설득해 달라고 요청
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 정신병과 명령환청으로 자신과 타인에게 위험을 가한다. 자해·타해 위험이 높으므로 강제 입원이 필요하다. 따라서 가장 적절한 다음 조치는 비자의 입원이다.
 
 ## 출처
 

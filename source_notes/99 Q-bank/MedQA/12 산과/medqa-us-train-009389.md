@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지지요법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Enterobius vermicularis 감염은 항문 주위 가려움증을 일으키며, 치료는 물리적 제거와 위생 관리(지지요법)만으로 충분하다. 약물 치료는 필요하지 않다. 따라서 가장 적절한 처치는 지지요법이다.
 
 ## 출처
 

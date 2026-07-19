@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 물리치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 발이 내전·내회전·아킬레스건 긴장, 피부 주름이 있는 소견은 선천성 족부 변형(클럽풋)이며, 표준 치료는 재배치 후 연속 석고붕대(폰세티 기법)이다. 따라서 재배치와 연속 석고붕대가 적절하다.
 
 ## 출처
 

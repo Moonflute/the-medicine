@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경험적 항생제에 대한 반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+괴사성 근막염은 급성 진행성 감염으로 진단을 확정하려면 외과적 탐색(개방 수술)이 가장 신뢰할 수 있다. 영상은 보조적이며, 경험적 항생제 반응만으로는 진단이 불확실하다. 따라서 가장 적절한 방법은 개방 수술이다.
 
 ## 출처
 

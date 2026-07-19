@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 만성 염증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 염증 상태에서는 간염성 빈혈이 나타나며, 혈청 페리틴은 상승하고 TIBC는 감소한다. 이는 염증 매개인자에 의해 철이 저장소에 가두어져 이용 가능성이 낮아지는 것이 원인이다. 따라서 비정상 검사 결과의 원인은 만성 염증이다.
 
 ## 출처
 

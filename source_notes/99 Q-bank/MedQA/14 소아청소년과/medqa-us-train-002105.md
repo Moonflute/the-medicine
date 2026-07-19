@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 혈액배양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 선천적 기형(얼굴, 손, 발, 신장)과 양수과소증은 Edwards 증후군(18번 삼염색체 삼체)과 연관된다. 이 염색체 이상을 확인하려면 핵형검사가 가장 확실한 방법이다. 따라서 핵형검사가 정답이다.
 
 ## 출처
 

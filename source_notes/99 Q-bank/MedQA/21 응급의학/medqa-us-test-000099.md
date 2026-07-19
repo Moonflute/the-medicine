@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 밤새 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+자동차 뒤쪽 충돌 후 목 통증이 있으나 신경학적 결손이 없고, 경추 손상의 위험이 높다. 초기에는 추가 손상을 방지하기 위해 경추 고정을 시행하고 영상 검사를 준비한다. 따라서 가장 적절한 다음 단계는 경추 고정이다.
 
 ## 출처
 

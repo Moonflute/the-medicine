@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 승모판 탈출
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고음의 감쇠형 잡음과 넓은 맥압, 제3심음, 강한 경동맥 맥박은 대동맥판 역류를 시사한다. 승모판·삼첨판 역류는 다른 청진 소견을 보이며, 승모판 탈출은 중수축기 클릭을 동반한다. 따라서 대동맥판 역류가 가장 가능성 높은 진단이다
 
 ## 출처
 

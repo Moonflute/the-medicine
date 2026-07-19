@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 딸이 요청한 이유를 명확히 확인
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 진단을 알리고 싶어 하지 않는 가족의 요청을 받았다. 의사는 환자의 자율성을 존중해야 하며, 먼저 환자에게 진단을 공개하고 싶은지 직접 물어보는 것이 윤리적으로 올바른 단계이다. 따라서 환자에게 진실을 알고 싶은지 묻는 것이 적절하다.
 
 ## 출처
 

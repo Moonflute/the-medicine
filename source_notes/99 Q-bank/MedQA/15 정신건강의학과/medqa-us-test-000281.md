@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 정신역동적 정신치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+특정공포증인 비행공포증은 인지왜곡과 회피 행동이 핵심이며, 인지행동치료(CBT)가 노출과 재구성을 통해 증상을 가장 효과적으로 개선한다. 따라서 CBT가 가장 적절한 치료이다.
 
 ## 출처
 

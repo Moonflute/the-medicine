@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 태변 장폐색(Meconium ileus)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+X‑ray에서 양쪽 장벽이 ‘더블‑볼’ 형태로 보이는 것은 듀오덴탈 폐쇄를 의미한다. 이 선천성 기형은 구토와 위장 팽만을 일으키며, 상복부 팽만과 하복부 오목이 특징이다. 따라서 가장 가능성 높은 진단은 십이지장 폐쇄이다.
 
 ## 출처
 

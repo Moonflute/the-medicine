@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 원발성 알도스테론증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압이 약물으로 조절되지 않고 알도스테론‑레닌 비가 낮으며 복부 잡음(동맥성 잡음)이 들리는 경우, 신동맥 협착에 의한 2차성 고혈압이 의심된다. 이는 신장 혈류 감소와 레닌 증가를 초래한다. 따라서 신동맥 협착이 가장 가능성 높은 원인이다.
 
 ## 출처
 

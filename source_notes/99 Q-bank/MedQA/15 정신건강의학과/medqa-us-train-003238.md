@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 에스시탈로프람
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조증 급성 발작에서는 신장 기능이 저하된 환자에게 리튬은 금기이며, 발프로산은 간독성 위험이 있다. 리튬 대신 신장에 안전한 기분 안정제인 발프로산이 권장된다. 따라서 장기 치료에 가장 도움이 되는 약물은 발프로산이다.
 
 ## 출처
 

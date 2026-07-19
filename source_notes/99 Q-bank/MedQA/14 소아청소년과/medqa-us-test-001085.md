@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비강을 통한 카테터 통과 불가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 양측 후비공 폐쇄는 비강을 통한 카테터 삽입이 불가능한 것이 특징이다. 흉부 X선 소견은 비특이적이며, 비강 카테터 통과 여부가 진단에 핵심이다. 따라서 정답은 비강을 통한 카테터 통과 불가이다.
 
 ## 출처
 

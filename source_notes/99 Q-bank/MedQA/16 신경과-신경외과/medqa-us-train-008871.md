@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수면다원검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양쪽 하지 통증이 걷기 시작 시 악화되고 앞쪽으로 숙이면 완화되는 것은 신경인성 파행(신경인성 협착)이다. 정확한 평가를 위해서는 척추 MRI가 골막 및 신경근 압박을 확인하는 가장 중요한 검사이다.
 
 ## 출처
 

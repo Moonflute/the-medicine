@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -43,7 +45,8 @@ D. 삼차신경통(Trigeminal neuralgia)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+귀 수술 후 귀 뒤쪽을 두드렸을 때 편도 부위 통증이 나타나는 것은 설인신경(혀인두신경) 경로의 통증을 의미한다. 설인신경은 편도와 귀 뒤쪽을 연결하며, 삼키거나 귀에 압력이 가해질 때 통증을 유발한다. 따라서 설인신경통이 가장 가능성 높은 진단이다.
 
 ## 출처
 

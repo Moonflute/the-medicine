@@ -16,11 +16,13 @@ question_type: investigation
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 적혈구의 겸상화(Sickling of erythrocytes)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HbF와 HbA2 상승은 베타 지중해 빈혈(베타 지중해 빈혈)과 일치하며, 이는 미세구성 저색소성 빈혈을 초래한다. 말초 혈액 도말에서 가장 흔히 보이는 소견은 소구성 및 저색소성 적혈구이다. 따라서 정답은 소구성·저색소성이다.
 
 ## 출처
 

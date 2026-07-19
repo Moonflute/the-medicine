@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프로프라놀롤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ST분절 상승 MI 후 2차 예방에서 베타 차단제는 사망률 감소에 가장 큰 영향을 미친다. 메토프롤롤 숙시네이트는 선택적 β1 차단제로, 심부전 환자에서 사망률을 낮추는 데 효과적이다. 아테놀롤과 프로프라놀롤은 비선택적이며, ACE 억제제는 혈압 조절에 좋지만 사망률 감소 효과는 β 차단제에 비해 적다.
 
 ## 출처
 

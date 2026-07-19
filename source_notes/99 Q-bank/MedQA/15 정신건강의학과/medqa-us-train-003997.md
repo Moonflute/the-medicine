@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 범불안장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 손 씻기·청소 강박행동과 그에 대한 불안·고통은 강박장애의 핵심 증상이다. 강박사고와 강박행동이 일상 기능을 방해하므로 진단은 강박장애가 된다.
 
 ## 출처
 

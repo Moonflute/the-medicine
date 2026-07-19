@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 포도당
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+알코올 중독 환자에서 티아민 결핍이 발생하면 베르니케뇌병증이 나타나며, 급성 혼돈, 기억 장애, 안구운동 이상이 특징이다. 티아민을 정맥으로 즉시 투여하면 증상이 빠르게 개선된다.
 
 ## 출처
 

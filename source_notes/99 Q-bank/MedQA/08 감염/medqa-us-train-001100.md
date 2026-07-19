@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 수술 부위 감염(Surgical site infection)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중심정맥관 삽입 후 8~10일에 발열, 백혈구 증가, 혈액배양에서 동일한 코아귤라제 음성 포도상구균이 검출된 것은 중심정맥관 관련 혈류 감염의 전형적인 시간 경과와 미생물 패턴이다. 이는 다른 부위(요로, 수술 부위)보다 감염 위험이 가장 높으며, 혈액 배양이 양성인 점이 진단을 확정한다.
 
 ## 출처
 

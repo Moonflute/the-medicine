@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 알츠하이머병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+진행성 기억력 감퇴, 언어·실행 기능 저하, 시계 그리기 오류는 알츠하이머병의 전형적인 임상양상이며, 전두측두엽 치매는 행동 변화가 두드러진다. 정상압수두증은 보행장애와 요실금이 주된 증상이다. 따라서 가장 가능성 높은 진단은 알츠하이머병이다.
 
 ## 출처
 

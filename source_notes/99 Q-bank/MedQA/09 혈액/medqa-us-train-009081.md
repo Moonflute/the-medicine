@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수혈 관련 순환 과부하
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수혈 후 급성 호흡곤란, 고혈압, 폐음 및 흉부 X선에서 양측 폐음영 증가는 순환 과부하에 의한 폐부종을 시사한다. 이는 수혈 관련 순환 과부하(TACO)의 전형적인 임상양상이다. 따라서 수혈 관련 순환 과부하가 원인이다.
 
 ## 출처
 

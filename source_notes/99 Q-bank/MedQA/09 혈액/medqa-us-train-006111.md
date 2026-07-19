@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 가시적혈구
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+철결핍성 빈혈에서 말초혈액 도말은 적혈구 크기와 형태가 다양해지는 다형성 빈혈을 보여준다. 이는 미세소관성 적혈구와 저색소성 적혈구가 혼재하는 특징이다. 따라서 가장 가능성 높은 소견은 적혈구 크기와 모양의 다양성이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 급성 신우신염을 일으키는 패혈증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전기화상으로 근육 손상이 발생하면 미오글로빈이 혈액으로 방출되어 신장에서 미오글로빈뇨를 일으키고 급성 신손상을 초래한다. 전해질·수분 손실은 보통 급성 신부전의 주된 원인이 아니다. 따라서 횡문근융해가 가장 가능성 높은 기전이다.
 
 ## 출처
 

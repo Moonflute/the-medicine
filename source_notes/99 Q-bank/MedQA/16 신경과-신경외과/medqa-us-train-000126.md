@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정상 방광 기능
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전방 척수증후군에서는 전통핵·피라미드 경로가 손상돼 통증·온도와 운동이 상실되고, 후방 척수(미세 촉각·진동) 기능은 보존된다. 따라서 환자는 미세 촉각이 유지될 것이다. 정답은 미세 촉각 보존이다. (반사 항진은 후방 손상에서 나타난다)
 
 ## 출처
 

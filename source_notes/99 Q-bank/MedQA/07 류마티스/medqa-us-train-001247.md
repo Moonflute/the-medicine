@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 근육의 전층 괴사성 동맥염 및 섬유소양 괴사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ANCA 양성, 코 부위 괴사성 궤양·비중격 천공·신장 침범은 육아종성 혈관염을 시사한다. 이는 소혈관·중간 크기 혈관에 육아종성 염증이 특징이다. 따라서 가장 가능성 높은 조직소견은 소혈관 및 중간 크기 혈관의 육아종성 혈관염이다.
 
 ## 출처
 

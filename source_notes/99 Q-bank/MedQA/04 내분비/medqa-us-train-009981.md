@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 과반사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병성 자율신경병증은 방광 신경을 손상시켜 배뇨곤란과 불완전 배출을 일으킨다. 환자는 말초 감각 저하와 고 HbA1c를 보여 자율신경병증 위험이 높다. 따라서 가장 흔히 나타날 소견은 방광 불완전 배출이다. 정답은 C.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프러시안 블루 염색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+파펜하이머 소체는 철 결핍성 빈혈을 시사하며, 이를 확인하기 위한 특수 염색은 프루시안 블루 염색이다. 따라서 프루시안 블루 염색이 가장 정확한 검사가 된다.
 
 ## 출처
 

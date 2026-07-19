@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 푸로세미드 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두통, 구역, 시신경유두부종, 정상 MRI와 높은 개방압은 특발성 두개내 고압증을 의미한다. 첫 번째 치료는 뇌척수액 생산을 억제하는 아세타졸아미드이며, 이는 증상 완화에 가장 효과적이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 외부 방사선 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+저등급 이형성 및 장상피화생이 있는 Barrett 식도는 내시경적 절제(EMR/ESD)로 치료가 권고된다. 이는 진행성 암으로의 전이를 방지한다. 따라서 가장 적절한 다음 조치는 내시경적 치료이다.
 
 ## 출처
 

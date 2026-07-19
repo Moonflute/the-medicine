@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 관상동맥 죽상경화증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+코카인 사용은 급성 폐동맥 고혈압, 심실 비대, 양측 정맥 팽창, 저산소증을 일으키며, 환자는 고혈압·심박수 증가·청색증을 보인다. 따라서 코카인 독성이 가장 가능성 높은 원인이다. 다른 선택지는 간·간질성 증상과 맞지 않는다.
 
 ## 출처
 

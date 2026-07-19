@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 총 빌리루빈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 췌장염에서 혈청 헤마토크릿이 62%로 매우 높으면 혈액 농축이 심해져 중증도를 예측한다. 헤마토크릿은 예후를 가장 잘 나타내는 지표이며, 리파아제, ALP, 빌리루빈은 예후와 직접적인 연관이 적다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 산모의 아편유사제 사용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+그레이브스병 어머니의 TSH 수용체 항체는 태반을 통과해 신생아 갑상선 자극을 일으켜 신생아 갑상선기능항진증을 유발한다. 따라서 TSH 수용체 항체의 태반 통과가 원인이다. 다른 선택지는 해당 증상과 맞지 않는다.
 
 ## 출처
 

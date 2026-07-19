@@ -18,11 +18,13 @@ question_type: adverse_effect
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 올란자핀 장기 사용으로 지연성 운동이상증이 생길 가능�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+올란자핀은 체중 증가와 혈당 악화를 일으키는 대사 부작용이 강해 제2형 당뇨병 환자에게는 피해야 한다. 당뇨가 이미 존재하므로 약물 선택 시 혈당 악화를 유발할 위험이 큰 올란자핀은 부적절하다. 따라서 제2형 당뇨병이 올란자핀을 피해야 하는 이유이다.
 
 ## 출처
 

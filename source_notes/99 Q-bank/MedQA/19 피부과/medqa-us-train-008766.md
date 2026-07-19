@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 궤양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+직경 6 mm, 색소가 있는 평평한 병변은 색소침착을 동반한 평평한 병변이며, 이는 '반점'에 해당한다. 반점은 경계가 명확하고 높이가 없으며 색소가 변한다. 따라서 반점이 가장 적절한 용어이다.
 
 ## 출처
 

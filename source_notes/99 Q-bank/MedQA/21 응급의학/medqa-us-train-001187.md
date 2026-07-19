@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 혈소판 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+와파린 복용 환자의 INR 2.6에서 출혈을 억제하려면 응고인자를 즉시 보충해야 한다. 신선동결혈장은 모든 응고인자를 포함하므로 급성 출혈 시 1단계 치료로 적절하다.
 
 ## 출처
 

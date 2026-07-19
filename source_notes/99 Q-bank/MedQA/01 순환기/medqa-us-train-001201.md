@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 근육주사용 페니실린 치료를 지속한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+류마티스 심장질환 환자는 재발성 연쇄상구균 감염을 예방하기 위해 매달 근육주사 페니실린을 지속해야 한다. 치료를 중단하거나 간격을 늘리면 재발 위험이 증가한다.
 
 ## 출처
 

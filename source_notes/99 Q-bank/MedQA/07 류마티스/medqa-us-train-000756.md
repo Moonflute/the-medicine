@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 건선 관절염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손톱 변화, 요통, 손가락 관절 강직, 비늘 모양의 은백색 판이 동반된 건선성 관절염을 시사한다. 류마티스 인자와 ANA가 음성인 점도 건선 관절염을 지지한다. 따라서 정답은 건선 관절염이다.
 
 ## 출처
 

@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 암 가족력
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+NSAID(이부프로펜) 장기 복용은 위점막 보호를 억제해 궤양을 유발한다. 환자의 복통, 체중 감소, 출혈 양성 검사 모두 NSAID에 의한 소화성 궤양 가능성을 높인다.
 
 ## 출처
 

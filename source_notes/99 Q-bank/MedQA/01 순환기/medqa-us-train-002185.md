@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 내인성 인슐린 분비 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 시 흉통과 호흡곤란은 좌심실 산소 요구량 증가가 원인인 대동맥 협착을 시사한다. 협착으로 인한 압력 부하가 LV 산소소모를 늘린다. 따라서 좌심실 산소 요구량 증가가 정답이다.
 
 ## 출처
 

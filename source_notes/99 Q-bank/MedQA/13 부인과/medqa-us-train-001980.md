@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복합 경구피임약
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수유 중에는 에스트로겐을 포함한 복합 경구피임약이 모유 생산을 억제하므로 금기이며, 프로게스틴 단독 피임은 모유에 영향을 주지 않는다. 따라서 가장 적절한 권고는 프로게스틴 단독 피임이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 파상풍 백신과 면역글로불린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+오염된 철판에 의한 상처는 파상풍 위험이 높으며, 파상풍 예방접종을 받지 않은 경우 파상풍 톡소이드와 면역글로불린을 동시에 투여해야 한다.
 
 ## 출처
 

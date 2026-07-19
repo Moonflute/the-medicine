@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 윤상갑상막절개술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+기도 확보가 최우선이며, 구인두 출혈과 저산소증을 고려할 때 가장 빠른 기도 개방법은 윤상갑상막절개술이다. 이는 외상 환자에서 신속히 산소 공급을 회복한다. 따라서 정답은 D이다.
 
 ## 출처
 

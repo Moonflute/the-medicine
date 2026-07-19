@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 온단세트론
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병성 위마비는 위 배출 지연을 일으키며 메토클로프라미드가 위근 수축을 촉진해 증상을 완화한다. 다른 선택지는 위배출에 직접적인 효과가 없으므로 메토클로프라미드가 적절한 약물이다.
 
 ## 출처
 

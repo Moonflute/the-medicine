@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 췌장염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+칼슘화된 담낭 종괴는 담낭암에서 흔히 보이며, 급성 담낭염·총담관결석·췌장염은 주로 염증성 소견을 동반한다. 악성 종양을 먼저 배제해야 진단 흐름이 올바르다. 따라서 우선 배제해야 할 진단은 담낭암이다.
 
 ## 출처
 

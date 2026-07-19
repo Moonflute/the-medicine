@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 윌슨병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+검은 색 간과 직접 빌리루빈 상승은 두빈-존슨 증후군(Dubin-Johnson syndrome)의 특징이다. 이는 간세포 내 빌리루빈 배설 장애로 인해 간이 검게 변한다. 다른 선택지는 다른 형태의 황달과 맞지 않는다. 따라서 정답은 두빈-존슨 증후군이다.
 
 ## 출처
 

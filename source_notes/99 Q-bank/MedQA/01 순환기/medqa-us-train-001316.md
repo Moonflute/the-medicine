@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 국소 심실벽 운동 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐색전증 시 우심실 부하가 증가해 우심실 확장이 나타난다. 심방 비정상 수축, 경동맥 협착, 국소 심실 운동 감소는 다른 병태와 관련된다. 따라서 우심실강 확장이 가장 예상되는 소견이다.
 
 ## 출처
 

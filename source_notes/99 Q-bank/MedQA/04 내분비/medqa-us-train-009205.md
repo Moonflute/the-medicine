@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 중탄산나트륨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+리튬 농도가 6.8 mEq/L로 심각한 독성을 보이며, 중증 리튬 중독에서는 혈액투석이 가장 효과적인 제거 방법이다. 위장관 세척은 이미 흡수가 진행된 경우 효과가 제한적이다. 따라서 다음 단계는 혈액투석이다.
 
 ## 출처
 

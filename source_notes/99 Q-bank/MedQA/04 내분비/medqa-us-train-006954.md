@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -48,7 +50,8 @@ D. 경구피임약에 의한 변화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경구피임약은 에스트로겐 함량이 높아 혈청 총 T4와 티록신 결합 글로불린(TBG) 농도를 증가시켜 총 T4는 상승하지만 자유 T4와 자유 T3는 정상 범위에 머문다. 이는 질문에 제시된 검사 결과와 일치한다. 따라서 정답은 D이다.
 
 ## 출처
 

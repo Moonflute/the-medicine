@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -43,7 +45,8 @@ D. 혈청 철 및 트랜스페린 감소, 페리틴 감소, 혈청 트랜스페�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 질환 빈혈에서는 혈청 철 감소, 트랜스페린 감소, 페리틴 증가, 트랜스페린 수용체는 정상 범위인 패턴이 보인다. 이는 다른 선택지와 구별되는 특징이다.
 
 ## 출처
 

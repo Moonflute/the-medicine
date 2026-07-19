@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심장이식
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+결핵성 심낭염이 진행되어 수축성 심낭염이 되면 흡기 시 중심정맥압 상승, 폐음 감소, ‘dip‑and‑plateau’ 혈류 패턴이 나타난다. 근본적인 원인인 석회화된 심낭을 제거해야 하므로 치료는 심낭절제술이다. 다른 선택지는 원인 치료가 아니다.
 
 ## 출처
 

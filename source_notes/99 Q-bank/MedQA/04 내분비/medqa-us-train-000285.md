@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈장 메타네프린(metanephrines) 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑상선암 중 칼시토닌이 크게 상승하는 것은 갑상선 수질암이며, 이는 MEN2A와 연관된 멜라노마와 부신수질암을 동반한다. 부신수질암의 생화학적 표지자는 혈장 메타네프린이 증가한다. 따라서 가장 가능성 높은 검사실 이상은 메타네프린 상승이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 부모 동의까지 수술 연기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 방사선상 장폐색과 급성 복통, 변비가 있으면 응급 개복술이 필요하며, 부모 동의를 기다릴 시간이 없다. 따라서 응급 개복술을 바로 시행한다. 동의 절차는 생명을 위협하는 상황에서는 생략 가능하다.
 
 ## 출처
 

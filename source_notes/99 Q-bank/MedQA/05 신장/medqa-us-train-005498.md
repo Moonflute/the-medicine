@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 질소성 노폐물의 혈청 농도 상승
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+투석 중 혈액에 질소성 노폐물이 축적되면 심낭에 염증(요독성 심낭염)이 생겨 마찰음이 들리고 흉통이 악화된다. 이는 혈액투석이 누락되었을 때 흔히 발생한다. 따라서 가장 가능성 높은 원인은 질소성 노폐물 농도 상승이다.
 
 ## 출처
 

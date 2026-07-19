@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대변으로 상처를 스스로 오염시킴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 상처를 고의로 대변으로 오염시켜 재발성 감염을 유도하는 자가유발 행동(병적 거짓증)으로 보인다. 이는 치료 후에도 재발 위험이 높으며 실제 감염원은 대변이다. 따라서 가장 가능성 높은 원인은 대변으로 상처를 스스로 오염시키는 것이다.
 
 ## 출처
 

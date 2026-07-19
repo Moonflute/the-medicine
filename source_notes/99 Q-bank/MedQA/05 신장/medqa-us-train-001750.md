@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 하이드로클로로티아지드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ACE 억제제(캅토프릴)는 양측 신동맥 협착이 있는 환자에서 레닌-안지오텐신 시스템 차단으로 신혈류가 급격히 감소해 급성 신부전이 발생한다. 따라서 급성 신부전을 일으킨 약물은 캅토프릴이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 떨림
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+오피오이드 과다복용에 날록손(날록손)과 같은 μ‑오피오이드 길항제를 투여하면 급성 금단 증상이 나타난다. 가장 흔한 초기 징후는 하품이다. 따라서 예상되는 소견은 하품이다.
 
 ## 출처
 

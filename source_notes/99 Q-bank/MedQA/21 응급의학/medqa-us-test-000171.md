@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안구진탕
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+오피오이드 중독은 호흡 억제(분당 호흡 5회)와 동공 축소(동공 수축)를 특징으로 한다. 환자는 호흡이 현저히 감소하고 동공이 축소된 것으로 보이며, 이는 오피오이드 과다복용에 일치한다. 따라서 가장 가능성 높은 소견은 동공축소이다.
 
 ## 출처
 

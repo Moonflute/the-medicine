@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 경구 메토트렉세이트
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 단관절염(통풍)과 감염성 관절염을 구분하기 위해 관절천자를 시행해 결정적 결정을 내려야 한다. 급성 통증, 발적, 부종이 있으나 발열과 전신증상도 있어 감염 가능성을 배제해야 하므로 관절천자가 가장 적절하다.
 
 ## 출처
 

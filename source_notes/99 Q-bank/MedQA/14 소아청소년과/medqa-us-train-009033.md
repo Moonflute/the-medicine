@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 11p15 중복
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+윌름스 종양, 안구 결손, 무릎 결손을 동반한 복부 종괴는 WAGR 증후군을 나타내며, 이는 11p13 결실에 의해 발생한다. 따라서 11p13 결실이 정답이다. 다른 유전 변이는 이 삼중증후군을 설명하지 못한다.
 
 ## 출처
 

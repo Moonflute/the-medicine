@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프로트롬빈시간(PT)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+과다월경과 출혈 경향이 있는 소아에서 혈액응고 이상을 의심하면, 혈소판 기능을 평가하는 부분트롬보플라스틴시간(PTT)이 가장 민감한 검사이다. 따라서 진단적 가치가 가장 높은 검사는 PTT이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 피부 비늘을 제거할 때 점상 출혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+강직성 척추염 환자는 피부에 건선이 동반될 수 있으며, 건선 병변을 긁을 때 점상 출혈이 나타난다. 다른 선택지는 환자의 증상과 연관이 없다. 따라서 피부 비늘을 제거할 때 점상 출혈이 특징이다.
 
 ## 출처
 

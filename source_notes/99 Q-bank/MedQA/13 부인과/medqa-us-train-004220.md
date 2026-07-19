@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 질 에스트로겐 크림
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+삽입 시 지속되는 날카로운 통증과 검사가 불가능한 경우는 골반저 근육 과긴장이 원인인 질경련을 시사한다. 골반저 물리치료는 근육 이완과 통증 감소에 효과적이다. 따라서 가장 적절한 다음 관리로 골반저 물리치료가 선택된다.
 
 ## 출처
 

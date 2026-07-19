@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 부갑상샘 선종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈청 칼슘 상승, PTH 상승, 저칼슘뇨는 비정상적인 칼슘감지수용체에 의한 부갑상선 기능항진을 나타낸다. 리튬은 칼슘감지수용체를 억제해 PTH 분비를 증가시키지만 여기서는 수용체 자체 변이가 핵심 원인이다. 따라서 비정상 칼슘감지수용체가 가장 가능성 높은 원인이다.
 
 ## 출처
 

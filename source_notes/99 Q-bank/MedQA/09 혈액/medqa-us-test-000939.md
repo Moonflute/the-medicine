@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 특발성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+글리피지드(글루쿠라곤 유사체)는 G6PD 결핍 환자에서 급성 용혈을 유발할 수 있다. 환자는 G6PD 결핍 가능성이 높으며, 용혈성 위기와 급성 신부전이 약물 유발 용혈에 부합한다. 세균 감염이나 음식은 용혈성 위기와 일치하지 않는다.
 
 ## 출처
 

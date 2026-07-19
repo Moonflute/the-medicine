@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 심바스타틴 용량을 늘린다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+근육통과 CK 상승이 statin 관련 근육증상을 시사한다. 근육증상이 지속될 경우 statin을 중단하고, 근육증상이 가라앉은 후 다른 statin(프라바스타틴)으로 교체한다가 권장된다. 따라서 심바스타틴을 중단하고 3주 후 프라바스타틴을 시작한다가 정답이다.
 
 ## 출처
 

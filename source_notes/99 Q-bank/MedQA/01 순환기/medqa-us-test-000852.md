@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. BNP 감소, ADH 감소, 나트륨 정상, 칼륨 정상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+울혈성 심부전에서는 BNP 상승, ADH 상승, 저나트륨혈증(신장 보존성 나트륨 재흡수) 및 저칼륨혈증(이뇨제 사용 또는 RAAS 활성화) 이 나타난다. 제시된 조합이 이를 가장 잘 반영한다.
 
 ## 출처
 

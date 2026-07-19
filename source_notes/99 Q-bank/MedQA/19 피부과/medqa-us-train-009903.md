@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 거대세포바이러스
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전신에 급속히 퍼지는 수포성 발진과 호흡기 증상은 스티븐스‑존슨 증후군을 일으키는 카르바마제핀 같은 약물에 의한 독성 반응이다. 따라서 카르바마제핀 노출이 가장 가능성 높은 원인이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비장절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+패혈증에 의한 DIC에서는 혈소판 감소, PT·aPTT 연장, D‑dimer 상승이 나타난다. 저용량 헤파린은 섬유소원 억제로 혈전 형성을 방지하고, 동결혈장·동결혈소판은 급성 출혈을 보완한다. 따라서 동결혈장·동결혈소판과 저용량 헤파린이 적절한 관리이다.
 
 ## 출처
 

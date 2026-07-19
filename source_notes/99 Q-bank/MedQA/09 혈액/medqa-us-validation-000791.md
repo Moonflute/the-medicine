@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. PT 감소, PTT 감소, 출혈시간 감소, 섬유소분해산물 감소, D-�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전골수구성 백혈병에서 전트랜스레티노산 치료는 급성 파괴성 혈전증(파종성 혈관내 응고)을 유발해 PT·PTT·출혈시간이 연장되고 섬유소분해산물·D-이합체가 증가하며 피브리노겐과 혈소판이 감소한다. 이러한 실험실 패턴이 정답 C와 일치한다.
 
 ## 출처
 

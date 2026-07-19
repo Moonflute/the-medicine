@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 배고픈 뼈 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 저칼슘혈증은 부갑상선이 의도치 않게 제거되거나 손상될 때 발생한다. 부갑상선 손실은 급성 PTH 감소와 혈청 Ca²⁺ 저하를 초래해 손발 저림, 테타니, 구강 무감각을 일으킨다. 따라서 원인은 부갑상선 실수 제거이다.
 
 ## 출처
 

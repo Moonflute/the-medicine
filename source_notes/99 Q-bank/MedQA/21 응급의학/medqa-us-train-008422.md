@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 로라제팜
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+클로미프라민은 삼환계 항우울제이며 과다복용 시 Na⁺ 채널 차단으로 QRS 연장이 나타난다. 환자는 저혈압, 혼란, 항콜린성 증상(동공 확대, 건조 피부)과 복부 팽만, 둔탁음 등 항콜린성 독성을 보이며, QRS 110 ms는 Na⁺ 차단을 시사한다. Na⁺ 채널 차단을 완화하려면 알칼리성 용액인 중탄산나트륨이 가장 효과적이다. 따라서 QRS 연장을 빠르게 교정하기 위해 중탄산나트륨을 투여한다.
 
 ## 출처
 

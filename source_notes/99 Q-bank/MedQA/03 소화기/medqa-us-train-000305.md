@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 하제 남용(Laxative abuse)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 설사와 복통, 점액성 분변, 배변 전 급박감 및 배변 후 잔변감은 과민성 장 증후군의 특징이며, 혈액 및 대변 검사에서 염증이나 감염 징후가 없으므로 가장 가능성이 높은 진단이다.
 
 ## 출처
 

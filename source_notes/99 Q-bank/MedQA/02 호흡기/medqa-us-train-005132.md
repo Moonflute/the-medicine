@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기관지경검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+점진적인 객혈과 호흡곤란은 폐암을 포함한 악성 종양을 의심하게 하는 중요한 단서이다. 초기 평가에서는 종양의 위치와 크기를 파악하기 위해 가장 빠르고 저렴한 영상검사인 흉부 방사선촬영이 우선한다. 따라서 흉부 X선이 적절한 초기 처치이다.
 
 ## 출처
 

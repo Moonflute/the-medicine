@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 진드기 물림
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고양이와의 접촉은 Bartonella henselae에 의한 고양이 발톱 흡인성 림프절염을 일으킨다. 다른 선택지는 해당 임상양상과 연관성이 낮다. 따라서 추가로 물어볼 가장 중요한 병력은 반려동물과의 접촉이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 5% 포도당과 1/2 등장성 생리식염수
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+DKA 치료 시 인슐린 투여로 혈청 K⁺가 세포내로 이동해 저칼륨혈증이 발생할 위험이 있다. 현재 혈청 K⁺가 정상 범위이므로, 저칼륨 예방 차원에서 정맥 KCl 보충이 필요하다. 따라서 정맥 염화칼륨이 정답이다.
 
 ## 출처
 

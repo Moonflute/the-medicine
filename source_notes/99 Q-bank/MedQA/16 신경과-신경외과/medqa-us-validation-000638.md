@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이부프로펜
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측성 압박성 두통은 긴장형 두통이며, 특별한 이상 소견이 없으므로 비스테로이드성 소염제(이부프로펜)와 같은 진통제로 증상을 완화한다. 아미트립틸린은 예방적 약물이며, 영상검사나 안과 검사는 필요하지 않다.
 
 ## 출처
 

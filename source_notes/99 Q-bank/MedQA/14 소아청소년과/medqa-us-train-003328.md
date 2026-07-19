@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 비타민 D 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+빈혈과 영양 결핍이 흔한 난민 환경에서 비타민 D 결핍은 칼슘 흡수를 감소시켜 성장판 연골의 골화가 저해되고, 다리 굽음, 근력 저하, 복부 팽창, 흉부 흡기 시 늑골하 함몰(프리시스) 및 손목 골연화(우레아성 골절)와 같은 구루병 소견을 만든다. 따라서 가장 가능성 높은 원인은 비타민 D 결핍이다. 다른 선택지인 콜라겐 합성 결함(오스테오지네시스)이나 단백질 섭취 부족은 골연화와는 다르게 나타나며, 파골세포 과활성은 골다공증을 초래한다.
 
 ## 출처
 

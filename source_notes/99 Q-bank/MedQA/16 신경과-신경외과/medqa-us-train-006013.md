@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 약물과용두통
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+한쪽 눈의 자율신경 증상(눈물·충혈·동공 불균등)과 일측성 두통·눈꺼풀 처짐은 군발두통(클러스터두통)의 특징이다. 편두통은 양측성·구역감이 없으며 거대세포동맥염은 고열·시력저하를 동반한다. 따라서 군발두통이 가장 가능성 높다.
 
 ## 출처
 

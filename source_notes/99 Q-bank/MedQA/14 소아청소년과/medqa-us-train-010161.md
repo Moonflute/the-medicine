@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 가정에서 심폐 모니터링
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+영아돌연사증후군(SIDS) 예방에 가장 중요한 것은 영아를 바로 눕힌 자세로 재우는 것이다. 이는 기도 폐쇄 위험을 최소화하고 자율신경 반응을 안정시킨다. 따라서 바로 누운 자세로 재우는 것이 핵심 권고이다.
 
 ## 출처
 

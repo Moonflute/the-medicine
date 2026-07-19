@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 철결합능 정상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 염증성 질환(류마티스 관절염)에서 빈혈은 철결합능 감소와 함께 저페리틴을 보인다. 염증 억제제로 인해 철이 저장 형태로 전환되지 못해 결합능이 낮아진다. 따라서 철결합능 감소가 예상된다.
 
 ## 출처
 

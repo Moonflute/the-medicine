@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. pH: 7.47, PaCO2: 11 mmHg, HCO3-: 24 mEq/L
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Salicylate 중독은 초기 호흡성 알칼리증(PaCO2 감소)과 이후 대사성 산증(HCO3‑ 감소)이 동시에 나타나는 혼합성 산-염기 장애를 일으킨다. 7시간 이상 지속된 혼란과 이명은 고용량 살리실산에 의한 중증 중독을 시사한다. 선택지 A는 pH 7.30(산성)과 저 PaCO2 15 mmHg(호흡성 알칼리) 및 낮은 HCO3‑ 16 mEq/L(대사성 산증)이라는 혼합 패턴을 보여 가장 가능성이 높다.
 
 ## 출처
 

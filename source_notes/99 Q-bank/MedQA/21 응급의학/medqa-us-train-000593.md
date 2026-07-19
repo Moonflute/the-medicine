@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 석시닐콜린(Succinylcholine)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+천식 환자는 히스타민 및 부교감성 자극에 민감해 근육 이완제인 석시닐콜린이 악성 고칼륨혈증 및 악성 고열을 유발한다. 따라서 석시닐콜린은 금기이다.
 
 ## 출처
 

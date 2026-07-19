@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 철저히 씻기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손가락 끝에 수포와 통증이 나타나는 급성 포진은 단순포진 바이러스(HSV) 감염이 원인이다. HSV는 신경절에 잠복 후 국소 재활성화 시 물집을 형성한다. 따라서 경구 아시클로버가 적절한 치료이다.
 
 ## 출처
 

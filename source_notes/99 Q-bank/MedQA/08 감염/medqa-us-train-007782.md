@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경구 시프로플록사신과 아목시실린/클라불란산
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+백혈구가 500/mm³ 이하인 발열성 호중구감소증에서는 즉시 광범위 항균제(세프타지딤)로 경험적 치료를 시작해야 생명을 위협하는 감염을 예방할 수 있다. G‑CSF는 보조적이지만 초기 항생제 치료가 우선이다.
 
 ## 출처
 

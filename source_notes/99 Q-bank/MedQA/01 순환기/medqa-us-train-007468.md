@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 암로디핀
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+칼슘통로 차단제인 암로디핀은 말초 혈관 전이성 부종을 흔히 일으킨다. 환자는 고혈압 치료 후 양쪽 정강이 앞에 2+ 부종이 나타났으며, 이는 암로디핀의 부작용과 일치한다. 따라서 가장 가능성 높은 약물은 암로디핀이다.
 
 ## 출처
 

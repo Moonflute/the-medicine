@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자가면역 항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+간경변으로 인한 비장비대는 혈소판 파괴를 증가시켜 혈소판 감소증을 일으킨다(비장기능항진증). 다른 선택지는 골수 침윤·요독증·자가면역 항체와는 임상 양상이 맞지 않는다. 따라서 정답은 비장기능항진증이다.
 
 ## 출처
 

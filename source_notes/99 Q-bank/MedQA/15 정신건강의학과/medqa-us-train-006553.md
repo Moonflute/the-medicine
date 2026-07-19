@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지속성 우울장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년의 3주간 지속된 과민성, 피로, 식욕감퇴, 수면 과다, 집중력 저하는 주요우울장애에 부합한다. 증상이 2주 이상 지속되고 일상 기능을 크게 방해한다는 점에서 다른 선택지보다 우울증이 가장 타당하다. 따라서 주요우울장애가 가장 가능성 높은 진단이다.
 
 ## 출처
 

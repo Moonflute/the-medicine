@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 알칼리성 인산분해효소 상승 및 총 빌리루빈 상승
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 췌장염에서 외분비 기능 저하는 혈청 트립신 감소와 대변 엘라스타제 감소로 나타난다. 이는 지방변과 연관된 특이적 검사 결과이다. 따라서 B가 정답이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 악성 고혈압
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압성 응급증은 급성 장기 손상(심근, 뇌, 신장)과 동반된 심각한 혈압 상승을 의미한다. 환자는 급성 관상동맥증후군과 유사한 심전도 변화와 트로포닌 상승을 보이며, 즉시 혈압 강하와 장기 보호가 필요하다. 따라서 고혈압성 응급증이 가장 가능성 높은 진단이다.
 
 ## 출처
 

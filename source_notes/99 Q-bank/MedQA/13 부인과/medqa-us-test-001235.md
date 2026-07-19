@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 트리메토프림-설파메톡사졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소음순에 급성 통증성 종괴와 발열이 있으면 바르톨린선 농양이 의심되며, 절개 및 배농이 표준 치료이다. 항생제만으로는 농양을 제거할 수 없으며, 냉동치료는 적절하지 않다. 따라서 절개 및 배농이 가장 적절하다.
 
 ## 출처
 

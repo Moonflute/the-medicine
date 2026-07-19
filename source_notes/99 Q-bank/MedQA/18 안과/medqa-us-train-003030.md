@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 출혈성 맥락막박리
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 급성 시야 손실, 커튼 현상, 번쩍임은 레티날 박리를 특징으로 한다. 급성 박리는 안구 내 압력 변화와 관련이 있으며, 가장 흔한 원인이다. 따라서 가장 가능성 높은 진단은 망막박리이다.
 
 ## 출처
 

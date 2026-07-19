@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경한 피질 위축을 동반한 뇌실 확장
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 수직주시마비와 안구운동 제한을 동반한 진행성 핵상마비(PCA) 증상을 보이며, MRI에서 중뇌 위축이 특징적이다. 중뇌는 보존되고 교뇌가 위축된 모습이 가장 흔히 관찰된다. 따라서 가장 가능성 높은 소견은 교뇌는 보존된 중뇌 위축이다.
 
 ## 출처
 

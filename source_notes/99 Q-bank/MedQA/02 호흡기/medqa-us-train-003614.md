@@ -18,11 +18,13 @@ question_type: association
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 사회적 위축과 눈맞춤 회피
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+원발성 섬모운동장애(Kartagener 증후군)는 종종 선천성 심장 기형(예: 오른쪽 하부 흉골연 이완기 잡음)과 연관된다. 따라서 오른쪽 아래 흉골연에서 들리는 이완기 잡음이 해당 소견이다.
 
 ## 출처
 

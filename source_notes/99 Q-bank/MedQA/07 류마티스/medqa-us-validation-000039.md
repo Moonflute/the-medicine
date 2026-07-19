@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 바이러스 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전신성 홍반성 루푸스에서 면역복합체가 혈관벽을 공격해 혈구 파괴와 신장 손상을 일으킨다. 이는 면역매개 파괴 메커니즘에 해당한다. 다른 선택지는 주된 병인으로 설명되지 않는다. 따라서 면역매개 파괴가 주요 원인이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 연속적인 hCG 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 초기 자궁외임신 파열은 혈역학적 불안정을 초래하며, 즉시 수술적 개입(복강경 또는 개복 수술)이 확정 치료이다. 약물이나 초음파는 안정된 경우에만 고려한다. 따라서 가장 적절한 확정적 처치는 수술이다.
 
 ## 출처
 

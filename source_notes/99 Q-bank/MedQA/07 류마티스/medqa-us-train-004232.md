@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 저보체혈증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 피로와 관절통, 혈소판 감소, 저보체혈증은 C형간염과 연관된 저보체혈증을 시사한다. 저보체혈증은 보체 C3 감소와 연관된다. 따라서 저보체혈증이 가장 가능성 높은 소견이다.
 
 ## 출처
 

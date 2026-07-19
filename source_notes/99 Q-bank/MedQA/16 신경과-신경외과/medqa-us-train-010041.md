@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프라미펙솔
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+하지불안증후군은 철 결핍과 연관이 있으며, 먼저 혈청 철 및 페리틴 검사를 통해 결핍 여부를 확인해야 한다. 원인 확인 없이 약물을 투여하면 효과가 없을 수 있다. 따라서 초기 조치는 철분 검사를 시행하는 것이다.
 
 ## 출처
 

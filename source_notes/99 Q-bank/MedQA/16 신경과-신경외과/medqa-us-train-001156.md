@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 글라티라머 아세테이트(glatiramer acetate) 요법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+MRI에서 조영증강 병변과 전기적 방사통은 급성 다발성 경화증의 급성 악화(재발) 소견이다. 급성 악화 시 고용량 정맥 내 메틸프레드니솔론이 표준 치료이며, 이는 염증을 억제한다. 따라서 정맥 내 메틸프레드니솔론 투여가 적절하다.
 
 ## 출처
 

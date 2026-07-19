@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 질 프로게스테론
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+초음파에서 자궁경부 길이가 20 mm로 짧아 조산 위험이 높다. 질 프로게스테론은 짧은 자궁경부가 있는 임산부에서 조산을 예방하는 데 가장 효과적인 치료이다. 메트포르민은 당뇨 예방, 메트로니다졸은 세균성 질염, 프레드니손은 염증 억제제로 조산 예방에 적합하지 않다.
 
 ## 출처
 

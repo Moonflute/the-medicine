@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 엽산(Folate)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Hartnup disease는 트립토판 흡수 장애로 니아신(비타민 B3) 합성이 감소해 나이아신 결핍을 일으킨다. 환자의 광범위한 광화상 및 각질화는 나이아신 결핍(펠라그라)과 일치한다. 따라서 정답은 A이다.
 
 ## 출처
 

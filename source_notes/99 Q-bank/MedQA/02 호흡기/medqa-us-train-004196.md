@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐렴사슬알균 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+면역억제 상태에서 호산구성 폐렴을 일으키는 가장 흔한 곰팡이는 Aspergillus fumigatus이며, CT에서 halo sign이 보이는 경우가 많다. 따라서 가장 가능성 높은 진단은 아스페르길루스 푸미가투스 감염이다.
 
 ## 출처
 

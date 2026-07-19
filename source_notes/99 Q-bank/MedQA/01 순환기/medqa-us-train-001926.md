@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경피적 관상동맥 중재술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ST‑elevation inferior MI에서 가장 효과적인 치료는 가능한 한 빨리 관상동맥 재관류를 하는 경피적 관상동맥 중재술(PCI)이다. 이는 사망률과 심근 손상을 크게 감소시킨다. 혈전용해제도 옵션이지만 PCI가 우선이며, 베타차단제와 클로피도그렐은 보조 치료이다.
 
 ## 출처
 

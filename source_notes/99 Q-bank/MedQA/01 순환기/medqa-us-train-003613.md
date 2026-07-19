@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 삼첨판의 진동성 이동 종괴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+감염성 심내막염에서 심전도에 완전 차단이 나타날 수 있으며, 초음파에서 판막 주위 비후와 무에코 공동(주위 농양)이 보인다. 이는 판막 주위 농양을 시사한다. 따라서 판막 주위 비후와 에코가 없는 공동이 정답이다.
 
 ## 출처
 

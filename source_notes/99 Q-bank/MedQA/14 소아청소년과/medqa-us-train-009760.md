@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 계면활성제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 복부 팽창, 장내 가스 축적, 전신 불안정은 괴사성 장염(NEC)으로 인한 장천공을 의심한다. 장천공이 있으면 외과적 복강 탐색이 필요하므로 가장 적절한 처치는 수술이다.
 
 ## 출처
 

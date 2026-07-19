@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 감염 악화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+패혈증에 의한 DIC에서는 섬유소원소가 급격히 소모되어 혈소판 감소와 출혈이 나타난다. 환자의 출혈·멍은 소모성 응고장애를 반영한다. 항응고제 대사·배설 감소는 해당 상황을 설명하지 못한다.
 
 ## 출처
 

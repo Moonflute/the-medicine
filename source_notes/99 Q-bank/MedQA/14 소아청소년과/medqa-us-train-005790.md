@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 익상경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+제시된 선천성 심장·구개열·귀·턱 기형은 디조지(22q11.2 결손) 증후군과 일치한다. 이 증후군은 저칼슘혈증에 의한 경련 위험이 높다. 따라서 가장 가능성 있는 합병증은 저칼슘혈증성 발작이며, 이는 선택지 A에 해당한다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. NSAID 점안액
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 폐각 폐쇄성 녹내장은 급격한 안압 상승(>30 mmHg), 중간 확대된 동공, 안구 경직을 동반한다. 첫 번째 응급 치료는 베타 차단제(티몰롤) 점안으로 안압을 빠르게 낮추는 것이다. 다른 약물은 1차 선택이 아니다.
 
 ## 출처
 

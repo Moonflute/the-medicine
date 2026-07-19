@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 부모 유전자검사 동의 획득
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+사산 후 원인 규명을 위해 영아 부검이 가장 직접적인 정보를 제공한다. 부검을 통해 구조적·감염성 원인을 확인할 수 있다. 핵형검사 등은 사산 원인 평가에 1차로 사용되지 않는다.
 
 ## 출처
 

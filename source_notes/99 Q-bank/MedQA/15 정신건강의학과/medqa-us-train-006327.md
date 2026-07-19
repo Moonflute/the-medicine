@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 체온
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+페넬진은 MAO 억제제로 티라민 함유 식품 섭취 시 급성 고혈압 위기를 일으킬 수 있다. 따라서 혈압 변화를 가장 민감하게 모니터링해야 한다. 가장 중요한 활력징후는 혈압이다.
 
 ## 출처
 

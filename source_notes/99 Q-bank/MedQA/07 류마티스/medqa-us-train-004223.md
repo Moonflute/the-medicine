@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 보존적 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 관절통과 발적, 부종이 급성 화농성 관절염을 의심하게 하며, 원인 파악을 위해 관절액을 직접 채취해 분석해야 한다. 관절액 흡인은 진단과 동시에 치료 방향을 결정한다. 따라서 관절액 흡인이 가장 적절한 초기 처치이다.
 
 ## 출처
 

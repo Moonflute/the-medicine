@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 과응고성 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경동맥 협착이 90%이며 증상이 일과성 허혈발작으로 나타난 경우, 스텐트 삽입이 재발 위험을 감소시킨다. 항혈소판 요법만으로는 중증 협착에 충분하지 않으며, 와파린은 동맥성 질환에 권장되지 않는다. 따라서 경동맥 스텐트 삽입이 가장 적절한 치료이다
 
 ## 출처
 

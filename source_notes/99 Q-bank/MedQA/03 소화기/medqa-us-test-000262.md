@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Vibrio cholerae
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+바비큐와 상온에 방치된 음식 섭취 후 2~3시간 내에 구토와 설사, 복통이 나타나는 것은 황색포도상구균이 생성하는 장염 독소에 의한 급성 식중독이다. 따라서 원인은 Staphylococcus aureus이다.
 
 ## 출처
 

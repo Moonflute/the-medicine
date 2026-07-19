@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 귀 뒤 멍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+코에서 흐르는 투명한 액체가 혈액 주위에 halo(고리) 형태로 확장되는 ‘halo sign’은 뇌척수액 누출을 의미하며, 이는 기저두개골 골절의 전형적인 징후이다. 따라서 가장 가능성 높은 소견은 양측 눈둘레 멍(전두골 골절에 동반되는 안면 골 골절)이다. 다른 선택지는 CSF 누출과 직접적인 연관이 없다.
 
 ## 출처
 

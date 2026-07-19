@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소변 나트륨 소실이 자유수 소실보다 많음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병성 케톤산증에서 인슐린 결핍으로 인해 체액이 세포외로 이동해 고칼륨혈증이 나타나며, 전신 칼륨 고갈은 드물다. 따라서 가장 가능성 높은 소견은 전신 칼륨 고갈이 아니다; 실제 정답은 전신 칼륨 고갈이 아니라 고칼륨혈증이지만 제시된 선택지 중 C가 가장 맞다.
 
 ## 출처
 

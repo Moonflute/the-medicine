@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 침상 안정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+젊은 남성의 요통, 아침에 악화, 양측 천장관절염은 강직성 척추염을 특징짓는다. 첫 번째 치료는 비스테로이드성 항염제와 함께 TNF‑α 억제제인 인도메타신(인플릭시맵)이다. 따라서 가장 적절한 치료는 인도메타신이다.
 
 ## 출처
 

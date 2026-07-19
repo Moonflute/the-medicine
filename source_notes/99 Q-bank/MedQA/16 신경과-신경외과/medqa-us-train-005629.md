@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 반복해서 힘을 쓸 때 악화되는 근력 저하
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 시신경염은 다발성 경화증에서 흔히 나타나며, 목을 굽힐 때 전기 충격 같은 통증(Lhermitte 징후)은 척수 탈수초화와 연관된다. 따라서 Lhermitte 징후가 동반될 가능성이 높다.
 
 ## 출처
 

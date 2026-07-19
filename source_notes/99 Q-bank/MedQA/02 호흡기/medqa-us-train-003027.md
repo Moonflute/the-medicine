@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 아스페르길루스 반응 피부검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 기침, 반복성 부비동염·폐렴, 상부 폐야 전형적 전차선 모양 기관지확장은 낭포성 섬유증을 시사한다. 낭포성 섬유증 진단에 가장 확실한 검사는 땀 염소 농도 측정이다. 따라서 다음 단계는 땀 염소 수치 측정이다.
 
 ## 출처
 

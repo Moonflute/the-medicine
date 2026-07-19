@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 부분 트롬보플라스틴 시간(PTT)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+관절천자에서 혈액이 흡인된 경우, 혈액응고계 이상이 의심된다. 혈우병 A는 부분 트롬보플라스틴 시간(PTT)이 연장되는 특징이 있다. 출혈시간·혈소판 응집·PT는 정상이다. 따라서 PTT 연장이 가장 비정상적인 검사이다
 
 ## 출처
 

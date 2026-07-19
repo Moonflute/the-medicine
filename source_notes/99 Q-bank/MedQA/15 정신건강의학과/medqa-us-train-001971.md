@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Lorazepam
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 고정된 자세와 외부 자극에 무반응을 보이는 카타토니아가 의심되며, 베르니케-베르니케 테스트(벤조디아제핀 도전)에서 빠른 개선을 기대한다. 초기 치료는 벤조디아제핀인 로라제팜이다. 따라서 정답은 D이다.
 
 ## 출처
 

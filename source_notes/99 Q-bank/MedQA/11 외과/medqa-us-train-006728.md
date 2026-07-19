@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 불충분한 기계적 지혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 출혈이 지속되는 경우 가장 흔한 원인은 기계적 지혈(압박, 봉합 등)이 충분히 이루어지지 않은 것이다. 혈액응고검사는 정상이며, 혈소판 기능이나 간 기능 이상은 없으므로 불충분한 기계적 지혈이 원인이다.
 
 ## 출처
 

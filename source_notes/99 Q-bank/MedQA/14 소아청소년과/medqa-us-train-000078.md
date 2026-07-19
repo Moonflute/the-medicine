@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 초음파 유도 하 팔꿈치 앞 정맥 도관 삽입
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 저혈압과 말초 정맥 접근 실패 시 골수 내 접근은 빠른 혈액 공급을 제공한다. 골수 내 카테터 삽입은 최소 1 mL/kg의 혈액을 즉시 확보할 수 있다. 따라서 가장 적절한 다음 단계는 골수 내 도관 삽입이다.
 
 ## 출처
 

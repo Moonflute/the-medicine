@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신경전도검사와 근전도검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전완이 회외(외전) 자세로 고정되고 요골 부위 압통이 있는 경우, 전완 외전 인대(요골측 인대) 손상이 의심된다. 손상된 인대를 재위치시키고 고정하면 관절 안정성을 회복할 수 있다. 따라서 강제로 과회외(외전)하여 정상 위치로 복구하는 것이 가장 적절한 처치이다.
 
 ## 출처
 

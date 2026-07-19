@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대동맥판 협착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 시 호흡곤란, 밤에 숨이 차고, 폐기저부 수포음이 동반된 경우 좌심실 이완기 부전으로 인한 폐울혈이 흔히 승모판 역류와 연관된다. 승모판 역류는 좌심실 부하를 증가시켜 이러한 증상을 일으킨다. 따라서 정답은 승모판 역류이다.
 
 ## 출처
 

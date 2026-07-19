@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 날록손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+오피오이드 금단 시 복통, 구토, 설사, 불안, 발한 등이 나타나며 메타돈이 금단 증상 완화와 유지 치료에 표준이다. 로라제팜은 불안 완화에 쓰이지만 금단 치료의 핵심은 메타돈이다. 따라서 정답은 메타돈이다.
 
 ## 출처
 

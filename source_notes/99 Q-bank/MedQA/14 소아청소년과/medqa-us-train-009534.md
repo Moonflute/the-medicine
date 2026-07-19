@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 5% 포도당 수액 정맥 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심한 탈수와 고나트륨혈증(Na⁺ 151)으로 혈관내 용적이 크게 감소했으며, 혈압이 낮고 모세혈관 재충전 시간이 3초로 연장돼 저혈량성 쇼크가 의심된다. 저혈량을 빠르게 보충하려면 등삼투성 수액인 0.9% 생리식염수가 가장 적절하다. 다른 저농도나 포도당 수액은 혈중 나트륨을 더 낮추어 악화시킬 수 있다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기관내 삽관
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 동공이 불규칙하고 호흡이 저하된 상태이며, 정맥로가 없어 비강 내 날록손(나알록손) 투여는 급성 아편제 과다복용 시 가장 빠른 역효과를 제공한다. 이는 중추 호흡 억제를 즉시 차단한다. 따라서 비강 내 날록손이 적절한 처치이다.
 
 ## 출처
 

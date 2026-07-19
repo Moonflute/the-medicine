@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 피부섬유종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+목과 허리 아래에 기름지고 밀랍 같은 표면을 가진 갈색 병변은 지루각화증(seborrheic keratosis)의 전형적인 모습이다. 이는 양성 표피 종양으로, 악성 종양과 구별되는 특징이다. 다른 선택지는 색소침착이나 악성 변화를 설명하지 못한다.
 
 ## 출처
 

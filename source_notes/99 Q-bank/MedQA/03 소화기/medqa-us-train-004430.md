@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 7 미만
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+출혈성 쇼크에서 적혈구 수혈은 Hb 7 g/dL 이하, 혹은 활력징후가 불안정하고 지속적인 출혈이 있을 때 시행한다. 환자는 저혈압·빈맥으로 혈역학적 불안정이 있으므로 역치가 적용되지 않는다.
 
 ## 출처
 

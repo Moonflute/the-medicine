@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. MRI에서 미상핵 위축
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+헌팅턴병은 진행성 인지 저하, 운동장애(무도병)와 함께 MRI에서 미상핵(꼬리핵) 위축이 특징이다. 환자의 가족력, 언어 감소, 기억력 저하, 불규칙한 움직임이 이를 시사한다. 따라서 가장 가능성 높은 소견은 MRI에서 미상핵 위축이다.
 
 ## 출처
 

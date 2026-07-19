@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 클로피도그렐
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 유발 협심증 환자에게 증상 완화를 위해 심박수를 감소시켜 산소소모를 줄이는 것이 핵심이다. 베타 차단제인 메토프롤롤은 심박수와 혈압을 낮추어 협심증 발작을 예방한다. 따라서 장기 약물치료로 메토프롤롤이 가장 적절하다.
 
 ## 출처
 

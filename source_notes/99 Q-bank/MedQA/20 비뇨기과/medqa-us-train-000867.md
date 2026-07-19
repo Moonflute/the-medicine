@@ -20,11 +20,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -42,7 +44,8 @@ D. 복강 내 농양 형성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복강 내 감염 후 고열, 복부 팽만, 백혈구 증가, 요로 감염 소견이 동반된 경우 복강 내 농양 형성이 가장 흔한 기전이다. 이는 복부 통증과 전신 염증 반응을 설명한다.
 
 ## 출처
 

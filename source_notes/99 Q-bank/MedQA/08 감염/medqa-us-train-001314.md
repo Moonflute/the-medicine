@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 인공호흡기 연관 폐렴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중심정맥 카테터와 혈액배양에서 동일한 S. aureus가 검출된 경우는 중심 카테터 관련 균혈증을 의미한다. 요로감염은 다른 균주가 나오며, 심내막염은 심음 변화가 동반된다. 따라서 중심정맥 카테터 관련 균혈증이 가장 잘 설명한다.
 
 ## 출처
 

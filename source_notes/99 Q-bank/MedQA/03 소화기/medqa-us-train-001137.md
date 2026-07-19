@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 음식 섭취가 증상을 완화함
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+식후 4시간 내 복통·구역·구토와 고음 복부 타진은 위산에 의한 십이지장 궤양을 시사한다. 음식 섭취가 증상을 악화시키는 것이 특징이다.
 
 ## 출처
 

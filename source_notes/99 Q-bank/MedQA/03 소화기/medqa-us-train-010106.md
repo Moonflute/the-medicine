@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비정상 복부 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우유 섭취 후 복부 불편감과 가스는 유당불내증을 의심하게 한다. 유당불내증 환자는 장내 세균이 유당을 발효하면서 수소를 생성하므로 수소 호기 검사가 양성으로 나타난다. 따라서 양성 수소 호기 검사가 가장 가능성 높은 결과이다.
 
 ## 출처
 

@@ -19,11 +19,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 데메클로사이클린(demeclocycline) 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중추성 저나트륨혈증은 부신 항이뇨 호르몬(ADH) 과다분비에 의해 발생하며, 폐암 등 부인성 종양이 원인일 수 있다. 고장성 식염수는 혈중 삼투압을 급격히 올려 뇌부종 위험을 증가시킨다. 따라서 저나트륨혈증 교정에 가장 적절한 치료는 고장성 식염수 투여이다.
 
 ## 출처
 

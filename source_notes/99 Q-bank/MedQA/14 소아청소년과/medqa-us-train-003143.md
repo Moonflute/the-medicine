@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 장중첩증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아는 비타민 K 결핍으로 출혈 위험이 높으며, 특히 가정분만·산전 관리 미비 시 위험이 증가한다. 출생 후 비타민 K 주사 미투여 시 늦은 비타민 K 결핍 출혈이 발생할 수 있다. 가장 높은 위험 합병증은 출혈이며, 정답은 A이다.
 
 ## 출처
 

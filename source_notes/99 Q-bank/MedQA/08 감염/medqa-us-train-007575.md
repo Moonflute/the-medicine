@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 여학생의 HIV 혈청검사를 채취하고 즉시 3제 항레트로바이�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+직업적 HIV 노출 후 2시간 이내에 즉시 3제 항레트로바이러스 사후예방(PEP)을 시작해야 하며, 혈청 검사는 6주 후에 시행한다. 따라서 혈청검사를 채취하고 즉시 PEP를 시작한다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 현재 추가 관리가 필요하지 않다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Fournier 괴저는 연조직 가스와 급성 전신 증상이 동반되며, 조직 괴사와 감염이 진행 중이므로 즉시 외과적 감압(절제)이 필요하다. 스테로이드·흡인·보존적 관리만으로는 충분하지 않다.
 
 ## 출처
 

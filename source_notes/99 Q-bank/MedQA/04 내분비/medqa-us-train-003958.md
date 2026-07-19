@@ -18,11 +18,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 프레드니손 사용 중단에 따른 금단
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+저나트륨, 고칼륨, 저혈압이 동반된 급성 부신 위기는 부신피질 호르몬 결핍으로 발생한다. 일차성 부신기능저하증이 가장 흔한 원인이며, 급성 위기에서는 즉시 코르티코스테로이드와 미네랄코르티코이드(플루드로코르티손) 보충이 필요하다. 따라서 가장 가능성 높은 진단은 일차성 부신기능저하증이다.
 
 ## 출처
 

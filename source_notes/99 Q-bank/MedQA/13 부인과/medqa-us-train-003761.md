@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 테르부탈린과 옥시토신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+31주에 조산 위험이 있는 경우 태아 신경보호와 폐 성숙을 위해 베타메타손(항생코르티코스테로이드)과 황산마그네슘(뇌 보호·진통) 투여가 권고된다. 따라서 가장 적절한 약물치료는 황산마그네슘과 베타메타손이다.
 
 ## 출처
 

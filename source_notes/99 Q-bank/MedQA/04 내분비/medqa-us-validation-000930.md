@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 칼슘 및 PTH 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑상선 결절과 고혈압, 골통이 동반된 경우 갈색세포종(다발성 내분비종양 2형)을 의심한다. 진단을 위해 24시간 소변 카테콜아민 대사산물 측정이 필요하다. 따라서 소변 카테콜아민 검사가 정답이다.
 
 ## 출처
 

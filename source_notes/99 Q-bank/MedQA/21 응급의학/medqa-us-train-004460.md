@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 조영제를 사용하지 않은 두부 MRI
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압 위기와 급성 신경학적 악화(두통, 시야장애, 사지 마비)는 뇌출혈이나 혈종을 의심하게 하며, 응급 영상에서는 조영제 없이 비대조 CT가 가장 빠르게 출혈을 확인한다. 따라서 다음 단계는 조영제 없이 두부 CT 시행이다.
 
 ## 출처
 

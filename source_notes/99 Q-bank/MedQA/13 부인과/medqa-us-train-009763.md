@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복합 경구피임약
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다낭성 난소 증후군은 고안드로겐혈증과 비만, 불규칙 월경을 동반한다. 복합 경구피임약은 배란을 억제해 월경 주기를 규칙적으로 만들고 안드로겐을 감소시켜 증상을 개선한다. 따라서 가장 적절한 약물은 복합 경구피임약이다.
 
 ## 출처
 

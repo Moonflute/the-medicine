@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Chvostek 징후 양성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+쿠싱증후군은 저칼륨혈증을 동반해 심전도에서 T파 평탄화·저전압을 보인다. 고혈압, 비만, 멍, 골절 등 임상양상과 일치한다. 혈청 포도당은 오히려 상승하고, 뇌 MRI 소견은 관련이 없다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 가스트린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고칼슘혈증과 높은 PTH 수치는 부갑상선 종양보다 멜라노카르시노마와 연관된 부신수질종양을 시사한다. MEN2A 환자에서 수술 전 pheochromocytoma를 확인하지 않으면 수술 중 급성 고혈압 위기가 발생할 수 있다. 따라서 소변 메타네프린 측정이 가장 적절한 다음 단계이다.
 
 ## 출처
 

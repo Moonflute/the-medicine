@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 혈청 갑상샘자극호르몬 수치
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무월경·유즙분비·두통은 고프로락틴혈증을 시사한다. 갑상선 기능저하도 고프로락틴을 유발하지만, 초기 검사는 혈청 TSH 측정이 가장 적절하다. 따라서 D가 정답이다.
 
 ## 출처
 

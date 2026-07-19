@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 프로프라놀롤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+할로페리돌에 의한 급성 근긴장이상(사경)은 무증상 부교감 차단제인 벤즈트로핀으로 즉시 역전된다. 단트롤렌은 항콜린성 효과가 없으며, 할로페리돌 자체를 중단하는 것만으로는 급성 증상이 완화되지 않는다. 따라서 벤즈트로핀 투여가 가장 적절하다
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 단백질 S 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경구피임약은 단백질 S 활성을 감소시켜 혈전성 정맥질환 위험을 높인다. 환자의 D‑다이머 상승과 증상은 심부정맥 혈전증을 시사한다. 피브리노겐 감소·ADAMTS13 결핍·비타민 K 보충은 해당 메커니즘이 아니다.
 
 ## 출처
 

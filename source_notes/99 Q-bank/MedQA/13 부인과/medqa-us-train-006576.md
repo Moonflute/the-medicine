@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 임신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 팽만과 복수파동은 복강 내 액체 저류를 시사한다. 난소암은 복수와 복부 팽만을 동반한 폐경 후 여성에게 흔히 나타나는 복합 증상이다. 따라서 가장 가능성 높은 진단은 난소암이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 요추천자
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+상지의 진행성 근력저하와 감각이상, 요실금, 복부 반사 소실은 중추신경계 다발성 경화증을 의심하게 한다. 진단을 확정하려면 병변의 위치와 활동성을 확인해야 하므로 뇌와 척추 MRI가 가장 적절한 초기 검사이다.
 
 ## 출처
 

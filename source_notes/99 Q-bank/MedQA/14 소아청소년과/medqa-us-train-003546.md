@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 2주 후 골격 조사 반복
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아동학대 의심 시 가장 민감한 영상검사는 전신 골격조사(skeletal survey)이며, 초기 X선이 정상이라도 2주 후 재검사하여 미세 골절을 확인한다. 따라서 2주 후 골격조사를 반복하는 것이 다음 단계로 선호된다.
 
 ## 출처
 

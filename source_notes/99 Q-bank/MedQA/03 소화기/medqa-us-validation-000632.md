@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 로페라미드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부경련과 무혈성 묽은 변이 식후에만 나타나고 유제품 섭취와 연관된 경우는 유당불내증이 가장 흔한 원인이다. 초기 관리로는 유당이 함유된 모든 유제품을 식단에서 제거하는 것이 가장 효과적이다.
 
 ## 출처
 

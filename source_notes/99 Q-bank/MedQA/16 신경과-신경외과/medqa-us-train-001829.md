@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 조직 플라스미노겐 활성화제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 AF와 r‑ivaroxaban 복용 중 급성 신경학적 결손을 보이며, CT에서 출혈이 없으므로 급성 허혈성 뇌졸중으로 판단된다. 항혈소판제인 아스피린은 항응고제와 병용해도 출혈 위험이 크게 증가하지 않으며, 즉시 투여해 재관류를 돕는다. 따라서 아스피린 투여가 가장 적절한 관리 단계이다.
 
 ## 출처
 

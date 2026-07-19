@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신경과 전문의의 2차 의견
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+뇌간 출혈·뇌탈출 후 뇌사 판정은 최소 6시간 이상 관찰 후 재검사한다. 현재는 뇌사 여부를 확정할 수 없으므로 몇 시간 후 재검사가 최선 단계이다.
 
 ## 출처
 

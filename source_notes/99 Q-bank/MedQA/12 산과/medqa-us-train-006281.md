@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 난관개구술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+β‑hCG가 1,110 mIU/mL 수준이며 초음파에서 자궁내 임신이 보이지 않는 상황은 임신 위치가 불명인 의심을 제기한다. 48시간 후 hCG 재검사로 상승 패턴을 확인하는 것이 표준 관리이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 반코마이신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양쪽 유방의 팽창·압통·온열감은 출산 후 모유가 차면서 발생하는 유방 울혈(engorgement)의 전형적인 징후이다. 울혈은 유즙이 유관에 정체돼 유방이 부풀고 통증이 생기며 온도가 상승한다. 가장 효과적인 치료는 유즙을 배출시켜 유방을 비우는 것으로, 모유수유를 통해 아기가 직접 젖을 빨게 하면 유즙 배출과 동시에 유방 압박이 감소한다. 유축도 도움이 되지만, 모유수유가 가장 직접적이고 지속적인 해결책이다.
 
 ## 출처
 

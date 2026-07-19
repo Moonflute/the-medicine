@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 설피리드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경도 인지장애와 MoCA 18점은 알츠하이머병 초기 단계에 해당한다. 콜린에스터레이스 억제제인 도네페질은 기억력 개선에 효과가 있어 사용 적응증이 있다. 따라서 처방 가능한 약물은 도네페질이다.
 
 ## 출처
 

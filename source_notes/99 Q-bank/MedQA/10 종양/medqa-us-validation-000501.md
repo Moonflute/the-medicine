@@ -17,11 +17,13 @@ question_type: etiology
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 당뇨병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+췌장암은 흡연이 가장 강력한 위험인자이며, 환자의 장기간 흡연이 질환 발생에 크게 기여했다. 다른 요인도 위험이지만, 흡연이 가장 큰 영향을 미친다. 따라서 흡연력이 주요 원인이다.
 
 ## 출처
 

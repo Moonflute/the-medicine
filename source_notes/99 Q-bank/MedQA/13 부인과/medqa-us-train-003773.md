@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 다수의 질식분만
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전통적인 횡문절제술(전통적 제왕절개) 후 자궁 하부 절제는 자궁 파열 위험을 크게 높인다. 이는 급성 태아 심박수 감소와 고정 상실을 초래한다. 따라서 정답은 C이다.
 
 ## 출처
 

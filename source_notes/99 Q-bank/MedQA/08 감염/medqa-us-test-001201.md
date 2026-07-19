@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. CT 폐혈관조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+정맥 주사 약물 사용자는 Staphylococcus aureus에 의한 삼첨판 감염(우측 심내막염)이 흔하며, 반코마이신은 MRSA 포함 모든 포도상구균에 효과적인 1차 치료제이다. 따라서 정맥 반코마이신 치료가 가장 적절하다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 도부타민 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+기계식 판막에 식생이 의심되는 경우, 프로스테틱 판막 감염(판막 내막염)에서는 반코마이신, 겐타마이신, 리팜핀을 포함한 3제 항생제 조합이 표준 경험적 치료이다. 따라서 다음 적절한 처치는 해당 항생제 조합 투여이다.
 
 ## 출처
 

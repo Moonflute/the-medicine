@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 제2응고인자 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 비타민 K 결핍에 의한 출혈성 위장관 증상과 PT 연장(24 초) 및 PTT 정상인 양상을 보이며, 지방변이 동반된다. 비타민 K 결핍은 제2응고인자(프로트롬빈) 감소를 초래한다. 따라서 제2응고인자 결핍이 가장 높은 가능성이다.
 
 ## 출처
 

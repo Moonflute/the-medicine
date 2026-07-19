@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 배뇨방광요도조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신우신염 후 발열·복통·요관 확장이 관찰될 때, 요관역류가 원인일 수 있다. 요관역류는 방광에서 신장으로 역류가 발생해 재발성 감염을 일으키며, 방광·요도 조영술로 확진한다. 따라서 방광요도조영술이 다음 단계이다.
 
 ## 출처
 

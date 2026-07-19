@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 손목의 반복적인 폄
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 손목 폄(요골신전근군 사용)으로 인해 외측상과(외측상과염, 테니스 엘보)가 발생한다. 손목을 과도하게 신전·굽힘하면서 근육이 원위 상완골 외측면에 부착된 부위에 미세 손상을 주어 통증과 압통을 일으킨다. 따라서 가장 가능성 높은 원인은 손목의 반복적인 폄이다.
 
 ## 출처
 

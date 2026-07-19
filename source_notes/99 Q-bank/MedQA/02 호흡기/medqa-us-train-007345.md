@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 흡입산소분율과 호흡수
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+산소화는 흡입산소분율(FiO2)만 조절하면 변한다; 일회호흡량·호흡수·PEEP는 환기와 관련된다. 따라서 FiO2와 PEEP를 조절하면 산소화에만 영향을 준다.
 
 ## 출처
 

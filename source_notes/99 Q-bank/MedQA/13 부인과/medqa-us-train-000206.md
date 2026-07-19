@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 자궁경 검사 및 표적 생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐경 후 비정상 출혈이 지속되고 자궁내막 두께가 정상(≤5 mm)보다 약간 두꺼운 경우, 자궁내막암을 배제하기 위해 조직학적 검사가 필요하다. 자궁내막 생검이 가장 적절한 다음 단계이다.
 
 ## 출처
 

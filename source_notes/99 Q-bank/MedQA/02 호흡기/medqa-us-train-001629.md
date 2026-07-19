@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 선별검사 불필요
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+35 pack‑year 흡연력과 5년 금연인 55세 남성은 저선량 흉부 CT가 폐암 조기 발견에 가장 효과적인 선별법이다. 가이드라인은 30 pack‑year 이상, 금연 15년 이내인 경우 저선량 CT를 권고한다. 따라서 권장 선별검사는 저선량 흉부 CT이다.
 
 ## 출처
 

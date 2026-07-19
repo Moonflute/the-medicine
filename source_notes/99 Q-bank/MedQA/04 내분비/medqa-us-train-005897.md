@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 외과적 절제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+목부위의 검은색 비후는 비만과 인슐린 저항성에 동반되는 흑색가시세포증을 시사한다. 이 피부 변화는 체중 감량과 신체활동 증가가 1차 치료이다. 따라서 운동과 식이요법이 가장 적절한 초기 치료이다.
 
 ## 출처
 

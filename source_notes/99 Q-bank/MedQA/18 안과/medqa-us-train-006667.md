@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경동맥 이중초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+안저에 보이는 창백한 반점은 망막 혈전 색전으로, 경동맥 협착이 원인일 가능성이 크다. 경동맥 이중초음파는 협착 정도와 플라크 특성을 비침습적으로 평가하는 최우선 검사이다.
 
 ## 출처
 

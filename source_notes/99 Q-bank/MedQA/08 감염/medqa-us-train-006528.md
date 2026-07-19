@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프레드니손 후 설파살라진
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Whipple병에 의한 장관 및 심내막 감염은 설사, 체중 감소, 악취 나는 대변, 그리고 대동맥판막에 작은 이동성 종괴와 중등도 대동맥판막부전으로 나타난다. 이 병원체는 Tropheryma whipplei이며, 표준 치료는 세프트리악손과 트리메토프림-설파메톡사졸 복합 요법이다. 따라서 가장 적절한 처치는 A이다.
 
 ## 출처
 

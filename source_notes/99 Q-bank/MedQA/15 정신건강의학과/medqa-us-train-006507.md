@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 무단결석
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+학교에 가기 싫어하고 어머니와 떨어지는 것을 두려워하며 면담 중 안심하면 기분이 좋아지는 양상은 분리불안장애에典型적이다. 사회불안은 타인에 대한 두려움이 주된 반면, 여기서는 어머니와의 분리가 핵심이다. 따라서 가장 가능성 높은 원인은 분리불안장애이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 후광모반
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양손과 등·어깨에 경계가 뚜렷한 저색소성 반점이 자가면역성 갑상선 질환과 연관된 백반증의 전형적인 소견이다. 다른 선택지는 염증이나 색소침착이 동반된다. 정답은 백반증이다.
 
 ## 출처
 

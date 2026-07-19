@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 심하게 약해진 연동 운동 및 이완된 하부 식도 괄약근
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+바륨 연하 검사에서 식도 하부 괄약근 이완이 없고 식도 전반에 연동운동이 소실된 모습은 상부 식도 무력증(achalasia)과 일치한다. 이는 하부 괄약근 이완 장애와 구별된다. 따라서 연동운동 소실 및 하부 식도 괄약근 이완 장애가 정답이다.
 
 ## 출처
 

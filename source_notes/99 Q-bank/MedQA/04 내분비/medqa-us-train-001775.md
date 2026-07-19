@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Metoprolol
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈압 상승, 두통, 복통, 메타네프린 상승, 그리고 부신 종괴는 카테콜아민 과다 분비를 시사하는 pheochromocytoma를 강하게 의심하게 한다. 수술 전 α-차단제인 phenoxybenzamine을 먼저 투여해 혈압을 안정시켜야 한다. β-차단제는 α 차단 후에만 사용 가능하므로 처음 선택은 아니다.
 
 ## 출처
 

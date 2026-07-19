@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 와파린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+SCD 환자에서 급성 뇌허혈성 증상(구음장애·안면 마비)은 급성 뇌졸중을 의미한다. 혈액 내 HbS 비율을 급격히 낮추어 산소 운반을 개선하고 혈전 형성을 방지하기 위해 교환수혈이 가장 효과적인 초기 치료이다. 따라서 교환수혈이 가장 높은 치료 옵션이다.
 
 ## 출처
 

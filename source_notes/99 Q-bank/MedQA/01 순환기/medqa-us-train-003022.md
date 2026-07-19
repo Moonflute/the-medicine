@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 신장 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+새로 진단된 고혈압 환자는 기본적인 심혈관 위험 평가로 심전도(ECG)를 먼저 시행한다. 다른 영상 검사는 증상이 있거나 합병증이 의심될 때 고려한다.
 
 ## 출처
 

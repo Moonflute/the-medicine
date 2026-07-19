@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메트로니다졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+간경변 환자에서 복수에 세균 감염이 발생하면 세포탁심(ceftriaxone)과 같은 3세대 세팔로스포린이 1주일 이상 투여되는 것이 표준 치료이다. 다른 선택지는 복수량 조절이나 외과적 치료에 해당한다. 따라서 가장 적절한 치료는 세포탁심이다.
 
 ## 출처
 

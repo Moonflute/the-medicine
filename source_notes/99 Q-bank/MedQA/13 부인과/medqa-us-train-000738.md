@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. ACTH 자극 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+완전한 안드로겐 저항성 증후군(완전 AIS) 환자는 46,XY이지만 외음부가 여성형이며 내부에 고환이 존재한다. 악성 변화를 예방하기 위해 고환을 제거하는 것이 표준 치료이다. 따라서 가장 적절한 다음 단계는 고환절제술이다.
 
 ## 출처
 

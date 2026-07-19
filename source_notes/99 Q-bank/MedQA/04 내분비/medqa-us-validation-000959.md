@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 하시모토 갑상선염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+TSH가 저하된 상태에서 말초 갑상선 기능저하 증상이 나타나는 경우는 뇌하수체 전엽의 종양(선종)으로 인한 중추성 갑상선기능저하가 가장 가능하다. 따라서 정답은 B이다.
 
 ## 출처
 

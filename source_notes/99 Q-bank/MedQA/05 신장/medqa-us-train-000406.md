@@ -15,11 +15,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 적혈구 증가증(Polycythemia)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Tacrolimus는 신장 세뇨관에 직접 독성을 일으켜 혈청 크레아티닌 상승을 초래한다. 따라서 신장 기능을 정기적으로 모니터링해야 한다.
 
 ## 출처
 

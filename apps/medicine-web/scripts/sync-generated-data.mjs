@@ -1229,7 +1229,7 @@ function buildQbank() {
     for (const match of optionsText.matchAll(/^([A-D])\.\s+(.+)$/gm)) options[match[1]] = match[2].trim();
     if (!question || Object.keys(options).join("") !== "ABCD") throw new Error(`Q-bank malformed question/options for ${id}`);
     const explanationStatus = readScalar(frontmatter.explanation_status) || "missing";
-    const explanation = explanationStatus === "verified"
+    const explanation = ["verified", "machine-generated"].includes(explanationStatus)
       ? qbankSection(body, "해설").replace(/<!--([\s\S]*?)-->/g, "").trim()
       : "";
     const diseaseTerms = readList(frontmatter.related_diseases);

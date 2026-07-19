@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 카포시육종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+햇빛 노출과 중심에 각질 마개가 있는 돔형 병변은 각화극세포종의 특징이다. 조직학적으로 각질이 풍부하고 비정형성이 경미한 것이 확인된다. 따라서 각화극세포종이 가장 가능성 높은 진단이다.
 
 ## 출처
 

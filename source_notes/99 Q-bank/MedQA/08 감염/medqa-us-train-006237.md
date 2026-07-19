@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 남자친구에게 리팜핀 예방요법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수막구균성 수막염 환자의 밀접 접촉자는 리팜핀 600 mg을 2 회 복용해 2주간 예방한다. 다른 항생제는 이미 치료에 포함돼 있다. 따라서 가장 적절한 다음 단계는 접촉자에게 리팜핀 예방요법이다.
 
 ## 출처
 

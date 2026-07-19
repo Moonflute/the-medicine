@@ -17,11 +17,13 @@ question_type: other
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 부프로피온
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+벤라팍신은 세로토닌·노르에피네프린 재흡수 억제제(SNRI)로, 우울증 환자에게 투여 시 조증 전환을 일으킬 수 있다. 환자의 급성 조증 증상은 벤라팍신 복용과 일치한다.
 
 ## 출처
 

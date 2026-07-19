@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 제2늑간 바늘흉강천자
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우심실 자유벽 전층 관통은 심장 내 출혈을 초래하며, 즉시 외과적 봉합이 필요하다. 관통 부위가 작고 혈관 손상이 없을 경우, 심장 외과에서 지지성 패드를 이용한 2‑0 폴리프로필렌 단속 봉합이 표준 치료법이다. 따라서 가장 적절한 확정적 수술 방법은 지지성 패드를 사용한 단속 봉합이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 추가 평가 없이 임상 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 시 호흡곤란과 밤에 기침이 나타나는 경우 운동 유발 기관지수축을 의심한다. 메타콜린 유발검사는 기관지 과민성을 확인하는 표준 검사이다. 따라서 메타콜린 유발검사가 다음 관리로 적절하다.
 
 ## 출처
 

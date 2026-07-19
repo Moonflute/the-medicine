@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 강직성 척추염 (Ankylosing spondylitis)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 요통에 다리까지 방사되는 통증과 직각 다리 올림 시 통증이 나타나는 것은 좌골신경 압박을 의미한다. 이는 급성 추간판 탈출증에서 흔히 보이는 양상이며, 감염이나 염증 징후가 없으므로 골수염과는 구별된다. 따라서 가장 가능성 높은 진단은 추간판 탈출증이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 말초부종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+DKA 치료 후 혈당이 낮아지면서 삼투압성 뇌부종이 발생하면 시신경유두부종이 나타난다. 이는 두통, 혼란, 불규칙 호흡, 고혈압을 동반한다. 따라서 예상되는 추가 소견은 ‘시신경유두부종’이다.
 
 ## 출처
 

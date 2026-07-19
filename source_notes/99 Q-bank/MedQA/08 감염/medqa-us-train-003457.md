@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 반코마이신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 C. difficile 감염(설사 10회/일, 발열, 백혈구 증가)에서는 경구 반코마이신이 1차 치료제로 권고된다. 클린다마이신은 1차 치료에 사용되지 않는다. 따라서 정답은 반코마이신이다.
 
 ## 출처
 

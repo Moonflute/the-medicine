@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 와파린의 이상반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+패혈성 쇼크와 DIC에서 미세혈전이 전신에 형성돼 피부에 파종성 혈관내 응고(피부출혈·멍)를 일으킨다. 환자의 저혈압, 혈소판 감소, PT/PTT 연장, 다발성 장기 부전이 이를 뒷받침한다. 따라서 멍의 가장 적절한 원인은 파종성 혈관내 응고이다.
 
 ## 출처
 

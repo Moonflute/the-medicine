@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 연하 반사 결함(Defective swallowing reflex)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아가 울어도 입술·구강 점막 청색증, 거품, 침 흘림은 음식물이 식도로 들어가지 못하고 기도로 역류하는 식도 폐쇄증을 시사한다. 따라서 가장 가능성 높은 진단은 식도 폐쇄증이다.
 
 ## 출처
 

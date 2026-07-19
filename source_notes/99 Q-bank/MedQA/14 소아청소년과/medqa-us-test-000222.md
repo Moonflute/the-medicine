@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안심시키고 추적 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HIV에 노출된 신생아는 출생 직후 6시간 이내에 2 mg/kg의 지대(지도부딘)를 한 번 투여해 감염 위험을 크게 감소시킨다. 이는 표준 예방 프로토콜이며, 다른 검사는 추후에 시행한다. 따라서 지대 투여인 A가 정답이다.
 
 ## 출처
 

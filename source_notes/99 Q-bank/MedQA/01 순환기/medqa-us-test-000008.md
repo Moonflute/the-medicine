@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 스피로놀락톤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 관상동맥 증후군 치료 후 이중 항혈소판 요법이 권장되며, 이미 아스피린을 복용하고 있으므로 클로피도그렐을 추가하면 혈전 형성을 억제한다. 따라서 클로피도그렐을 추가한다.
 
 ## 출처
 

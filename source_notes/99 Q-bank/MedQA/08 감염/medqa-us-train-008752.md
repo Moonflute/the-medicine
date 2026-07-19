@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. VDRL을 시행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 HIV 감염은 항체가 검출되기까지 3~8주가 걸리므로 초기 음성 결과는 위음성이다. 재검사는 2.5~8.5주 후 ELISA와 확인용 Western blot을 시행하고, 6개월 후에도 재검사한다. 따라서 두 번째 선택지가 적절하다.
 
 ## 출처
 

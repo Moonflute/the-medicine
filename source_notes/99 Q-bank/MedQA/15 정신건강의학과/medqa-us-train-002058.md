@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 분열정동장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우울과 조증이 교대로 나타나는 1주일 정도의 조증 에피소드와 우울 삽화는 순환성 기분장애(양극성 장애)와 일치한다. 지속성 우울장애는 조증이 없으며 조현병은 정신병 양상이 있다. 따라서 정답은 B이다.
 
 ## 출처
 

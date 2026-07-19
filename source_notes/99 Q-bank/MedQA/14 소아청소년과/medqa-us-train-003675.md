@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 소변 독성검사를 시행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+17세 청소년은 HPV 백신의 권장 연령(9‑26세) 내에 있으며, 성활동이 시작된 경우에도 예방접종이 효과적이다. 따라서 가장 적절한 조치는 즉시 HPV 백신을 투여하는 것이다.
 
 ## 출처
 

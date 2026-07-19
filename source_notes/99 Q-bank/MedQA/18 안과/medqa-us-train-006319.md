@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 국소 간시클로버
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+콘택트렌즈 착용자는 비전형적인 세균성 각막염 위험이 높으며, 각막 침윤과 흰색 삼출물은 감염을 시사한다. 감염성 각막염의 1차 치료는 광범위 항생제인 플루오로퀸론계 국소제이다. 따라서 가장 적절한 약물은 국소 오플록사신이다.
 
 ## 출처
 

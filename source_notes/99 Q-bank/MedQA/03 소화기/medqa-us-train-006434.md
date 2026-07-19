@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 위산 역류
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+연하곤란과 체중 감소, 장기간의 위식도 역류는 식도암 위험을 증가시킨다. 흡연은 식도암의 주요 위험인자이지만, 이 환자의 주요 위험은 지속적인 위산 역류이다.
 
 ## 출처
 

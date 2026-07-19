@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 절단술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심각한 말초동맥 폐색으로 발목-상완지수가 0.30인 경우, 조직 손상이 진행 중이므로 혈관 재개통(혈관우회술·혈관성형) 평가가 급선무이다. 항응고만으로는 충분하지 않다.
 
 ## 출처
 

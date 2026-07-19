@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 초음파에서 정상~큰 신장
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병성 신장질환은 보통 활동성 침전물(세포 원주, 단백뇨)과 비대해진 신장 초음파를 동반한다. 반면 정상 또는 큰 신장이 보이고 세포 원주가 없는 경우는 당뇨병성 신장병이 아닌 다른 원인을 시사한다. 따라서 소변검사의 세포 원주가 존재하면 당뇨병성 신장질환 가능성이 낮아진다.
 
 ## 출처
 

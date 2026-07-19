@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 난원와 중격 부위에서 기원한 좌심방 종괴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청진에서 중수축기 클릭과 그 뒤의 수축기 후기 고음성 잡음이 체위에 따라 변하는 것은 승모판 탈출증을 시사한다. 심초음파에서 승모판이 수축기 동안 2 mm 이상 위로 탈출하는 소견이 가장 특징적이다. 따라서 수축기 동안 승모판이 2 mm 이상 위로 탈출함이 가장 가능성 높은 소견이다.
 
 ## 출처
 

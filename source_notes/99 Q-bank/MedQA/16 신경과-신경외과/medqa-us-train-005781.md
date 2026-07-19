@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 알프라졸람
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+프리미돈은 본태성 떨림 치료에 사용되며, 위장관 부작용(복통, 어두운 소변)과 근력 약화를 일으킬 수 있다. 환자는 이러한 부작용을 호소하므로 투여된 약물은 프리미돈이다.
 
 ## 출처
 

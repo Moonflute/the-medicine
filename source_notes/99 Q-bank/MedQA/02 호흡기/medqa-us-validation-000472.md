@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 치료에 카르보시스테인 추가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+FEV1이 60%인 환자는 중등도 COPD이며, 증상이 악화된 경우 흡입제에 장기 작용제(티오트로피움) 추가가 1단계 치료이다. 로플루밀라스트는 LABA/ICS 복합제이며, 이 단계에서는 필요하지 않다. 따라서 티오트로피움 추가가 다음 단계이다.
 
 ## 출처
 

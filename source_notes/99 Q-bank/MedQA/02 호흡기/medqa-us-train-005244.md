@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흡입 테오필린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 천식 악화에서 흡입제만으로 호전되지 않을 경우, 전신 스테로이드(정맥 코르티코스테로이드)가 급속히 염증을 억제한다. 따라서 정맥 코르티코스테로이드 투여가 다음 단계로 가장 적절하다. 흡입 알부테롤은 이미 사용 중이며 추가 흡입제만으로는 효과가 제한적이다.
 
 ## 출처
 

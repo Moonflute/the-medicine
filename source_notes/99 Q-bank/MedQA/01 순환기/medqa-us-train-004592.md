@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 호흡에 따른 심실 충만의 상호 변화가 있는 이완기 심장 �
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+AL형 아밀로이드증은 다발성 골수종에서 생산된 경쇄가 혈액에 방출돼 심근에 베타-시트라민 구조의 섬유성 단백질이 침착되어 이완성 심부전을 일으킨다. 이는 환자의 전신 증상과 일치한다. 따라서 정답은 콩고레드에 양성으로 염색되는 섬유성 단백질 침착이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 쿰스 검사 시행
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Rh 음성 산모에게 태아‑모 혈액 혼합이 의심될 때, Rh 감작 여부를 확인하기 위해 로제트(간접 항글로불린) 검사를 시행한다. 이는 항-D 면역글로불린 투여 후 2~4주 내에 양성으로 전환된다.
 
 ## 출처
 

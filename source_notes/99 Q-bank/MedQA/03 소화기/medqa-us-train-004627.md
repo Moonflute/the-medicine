@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 게실질환
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+식후 통증, 혈변, 고령 환자에서 복부 압통이 경미하고 맥박이 불규칙한 경우 급성 장간막 허혈이 의심된다. 이는 장간막 혈류 차단에 의한 급성 허혈성 손상이다. 따라서 정답은 급성 장간막 허혈이다.
 
 ## 출처
 

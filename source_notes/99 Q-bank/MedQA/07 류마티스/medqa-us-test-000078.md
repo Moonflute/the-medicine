@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 미생물의 병원성 접종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병 환자에서 혈청 페리틴이 크게 상승하고 트랜스페린 포화도가 88%인 경우, 칼슘 피로인산(CPP) 결정이 관절에 침착되는 가성통풍(칼슘 피로인산 침착질환)을 의미한다. 이는 요산 결정과는 차이가 있다. 따라서 원인을 가장 잘 나타내는 것은 칼슘 피로인산 결정 침착이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. atorvastatin 40 mg
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+LDL이 203 mg/dL인 고위험 환자에게는 고강도 스타틴이 1차 치료이다. Atorvastatin 40 mg은 고강도 용량으로 LDL를 50% 이상 감소시킬 수 있다. 따라서 atorvastatin 40 mg을 시작하는 것이 적절하다.
 
 ## 출처
 

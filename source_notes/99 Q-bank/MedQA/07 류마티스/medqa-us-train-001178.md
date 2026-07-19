@@ -15,11 +15,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 세극등 검사(slit-lamp examination)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청년 남성의 아침에 심해지는 요통, 활동 시 호전, NSAIDs에 반응하는 양상은 강직성 척추염을 시사한다. 진단을 확정하기 위해서는 천장관절 MRI가 가장 민감한 영상검사이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흉부 CT에서 가시모양 병변
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 C형 간염과 간경변에서 알파태아단백(AFP)은 간세포암의 민감한 종양표지자이다. 환자는 황달, 거미혈관종, 결절성 간 등 간암 위험 인자를 보이며 단일 병변이 관찰된다. 따라서 AFP 상승이 가장 가능성 높은 소견이다.
 
 ## 출처
 

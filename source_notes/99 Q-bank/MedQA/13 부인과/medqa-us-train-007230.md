@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 비호르몬 피임법으로 변경한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복합 경구피임약 복용 후 체중 증가가 흔히 보고되며, 대부분은 약물에 대한 일시적 부작용으로 심각한 원인 검사가 필요하지 않다. 따라서 환자를 안심시키는 것이 적절한 조치이다.
 
 ## 출처
 

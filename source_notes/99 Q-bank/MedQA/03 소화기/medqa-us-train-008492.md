@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흡연력
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+트랜스아미나제 상승은 간 손상을 시사하므로 알코올, 약물, 바이러스 등 모든 위험 요인을 확인해야 한다. 흡연은 간 효소에 직접적인 영향을 주지 않으므로 제외하고, 나머지 항목(정맥 약물, 해외 여행, 성생활)은 모두 간 질환 위험 요인이 될 수 있다. 따라서 흡연력만 제외하면 된다.
 
 ## 출처
 

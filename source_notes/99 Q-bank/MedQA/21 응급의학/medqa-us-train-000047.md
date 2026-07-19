@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 수술적 탐색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+목 부위 열상 후 기도 손상이 의심될 경우, 혈관 손상 여부를 확인하기 위해 CT 혈관조영술이 가장 적절한 다음 단계이다. 기관삽관은 기도 확보가 명백히 필요할 때만 시행한다.
 
 ## 출처
 

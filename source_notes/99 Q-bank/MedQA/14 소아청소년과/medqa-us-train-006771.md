@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 계면활성제 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+미숙아에서 호흡곤란, 저산소증, 흉부 X선상의 미만성 그레이 패턴은 신생아 호흡곤란 증후군을 의미하며, 치료는 지속적 양압기 환기가 가장 효과적이다. 스테로이드는 예방에 사용되지만 이미 증상이 나타난 경우는 CPAP가 1차 치료다. 따라서 지속적 양압기 환기가 적절하다.
 
 ## 출처
 

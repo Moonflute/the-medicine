@@ -16,11 +16,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. Clostridioides difficile 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심폐우회술 후 저혈압과 복통, 혈변은 장관 저관류에 의한 허혈성 대장염을 시사한다. 대장 혈류가 비장굴곡 부위에서 가장 약해지므로, 비장굴곡으로 가는 혈류 감소가 가장 가능성 높은 원인이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 증상이 심해 보입니다. 괜찮은지 확인하기 위해 간단히 진
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 비응급 상황이며, 현재 진료실에 없고 예약이 필요하다는 점을 명확히 해야 한다. 급박한 의료적 위협이 없으므로 즉시 진료를 제공할 의무가 없으며, 예약을 잡아 차후에 평가하는 것이 적절하다. 따라서 "진료실에 방문할 예약을 잡아 주세요"가 올바른 답변이다.
 
 ## 출처
 

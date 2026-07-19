@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 장벽 전층의 육아종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+크론병은 장벽 전층에 육아종이 형성되는 전층성 염증성 장질환이며, 구강 궤양·피부 결절·관절통이 동반되는 경우가 많다. 따라서 환자의 기저 상태는 장벽 전층의 육아종이다.
 
 ## 출처
 

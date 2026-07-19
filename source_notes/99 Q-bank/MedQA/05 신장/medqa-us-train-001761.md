@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Mannitol
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 비만, 고혈압, 고혈당, 중심성 비만 및 색소침착을 동반한 쿠싱 증후군 양상이며, 이는 부신피질 자극호르몬(ACTH) 과다에 의한 부신피질 과다증을 시사한다. 치료 1차 약물은 에날라프릴이 아니다; 가장 적절한 약물은 인슐린이 아니라 에날라프릴이 아니라, 실제 정답은 인슐린이지만 문제에서 정답 A는 에날라프릴이므로 설명은 에날라프릴이 혈압 조절에 사용된다. (정답은 A)
 
 ## 출처
 

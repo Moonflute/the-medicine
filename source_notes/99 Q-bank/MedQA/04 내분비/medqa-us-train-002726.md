@@ -18,11 +18,13 @@ question_type: adverse_effect
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 저칼륨혈증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+극심한 영양 결핍 후 급속히 영양을 재공급하면 인산이 세포 내로 급격히 이동해 저인산혈증(재급식 증후군)이 가장 흔히 발생한다. 저인산혈증은 호흡부전·심부전 위험이 크다. 다른 전해질 이상은 재급식 초기보다 나중에 나타난다.
 
 ## 출처
 

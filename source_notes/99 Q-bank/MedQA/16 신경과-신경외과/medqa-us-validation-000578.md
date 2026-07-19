@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전두엽과 측두엽
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+헌팅턴병은 미상핵(선조체) 위축을 특징으로 하며, 무도병(춤추는 듯한 움직임)과 연관된다. 따라서 MRI에서 가장 위축이 뚜렷한 구조는 미상핵이다.
 
 ## 출처
 

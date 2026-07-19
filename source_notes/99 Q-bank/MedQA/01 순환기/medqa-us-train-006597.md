@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 약물 유발 미세혈관 폐색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 정맥부전은 하부 부종, 색소 침착, 정맥 확장, 그리고 통증 없는 얕은 궤양을 일으킨다. 환자의 증상과 소견이 이에 부합한다. 따라서 정맥부전이 가장 가능성 높은 원인이다.
 
 ## 출처
 

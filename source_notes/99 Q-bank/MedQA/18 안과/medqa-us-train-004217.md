@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 눈꺼풀 위생과 온찜질
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대장암 1차 선별은 50세 이상에서 10년 간격 대장내시경이 권고된다. 환자는 71세이며, 이전 검사가 6년 전이므로 대장내시경이 필요하다. 따라서 정답은 대장내시경이다.
 
 ## 출처
 

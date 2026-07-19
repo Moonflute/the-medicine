@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 세룰로플라스민(ceruloplasmin) 수치
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+MRI에서 전형적인 확대된 뇌실과 관상동맥 흐름 감소가 보이는 경우 정상압 수두증을 시사한다. 진단 확인을 위해 대량 요추천자를 시행해 증상 개선 여부를 평가한다. 따라서 다음 단계는 요추 천자이다.
 
 ## 출처
 

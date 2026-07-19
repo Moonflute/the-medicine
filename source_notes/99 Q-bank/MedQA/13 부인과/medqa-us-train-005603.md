@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 구리 함유 자궁 내 장치 삽입
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+피임을 원하지만 임신 가능성이 낮고, 급히 효과가 필요한 경우 구리 IUD가 10년 이상 지속되는 비호르몬 피임법이다. 청소년에게도 안전하게 삽입 가능하므로 구리 IUD가 최선이다. 에스트로겐‑프로게스틴 복합제는 혈전 위험을 증가시켜 부적절하다.
 
 ## 출처
 

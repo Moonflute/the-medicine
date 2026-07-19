@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 코르티코스테로이드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 골수성 백혈병 환자에서 화학요법 후 요산이 급격히 상승해 급성 통풍(종양 용해 증후군) 위험이 있다. 이를 예방하려면 알로푸리놀 같은 자가요산 생성 억제제가 사전에 투여되어야 한다. 따라서 예방 약물은 알로푸리놀이다.
 
 ## 출처
 

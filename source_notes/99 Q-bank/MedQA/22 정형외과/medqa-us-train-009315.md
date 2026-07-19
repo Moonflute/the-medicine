@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세균의 관절 파종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+플루오로퀴놀론은 건 섬유를 손상시켜 아킬레스건염을 일으키며, 통증이 운동·밤에 악화된다. 환자는 해당 약물을 복용 중이므로 약물 이상반응이 원인이다. 다른 선택지는 증상과 부합하지 않는다.
 
 ## 출처
 

@@ -22,11 +22,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -44,7 +46,8 @@ D. 리스페리돈을 클로자핀(clozapine)으로 변경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+리스페리돈에 의한 악성 신경근증후군은 약물 중단이 가장 급선무이며, 즉시 약물을 중단해야 한다. 수액이나 해열제는 보조적이지만 근본적인 조치는 아니다.
 
 ## 출처
 

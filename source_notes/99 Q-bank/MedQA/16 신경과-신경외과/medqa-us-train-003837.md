@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 렌티큘로선조체동맥 폐색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 어지럼증, 연하곤란, 구음장애, 보행불안정이 10분 내에 사라지고 미세 안진·운동실조만 남은 것은 후천성 후두동맥(척추동맥) 공급 영역의 일과성 허혈, 즉 척추동맥 폐색에 의한 일과성 허혈 발작(TIA)이다. 다른 대뇌동맥 폐색은 일반적으로 지속적인 신경결손을 남긴다. 따라서 가장 가능성 높은 원인은 척추동맥 폐색이다.
 
 ## 출처
 

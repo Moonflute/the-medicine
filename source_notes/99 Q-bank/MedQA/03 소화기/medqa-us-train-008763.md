@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 철분 보충
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+빈혈이 미세소관성(MCV 72)이며 비타민 D 결핍이 동반된 경우 대장암 검진보다 철분 보충이 우선이다. 그러나 환자는 경미한 피로와 저혈색소만 있어 철 결핍 보충이 필요하다. 따라서 철분 보충이 가장 적절한 처치이다.
 
 ## 출처
 

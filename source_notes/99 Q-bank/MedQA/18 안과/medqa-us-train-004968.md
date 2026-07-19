@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 반코마이신과 레보플록사신 전신 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+눈의 전방출혈·전방부종·동공 비대칭은 안구 파열(개방성 안구 손상) 소견이며, 감염 위험이 높아 광범위 항생제(반코마이신·레보플록사신) 투여가 필요하다. 따라서 전신 항생제 투여가 적절하다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 예방적 아지트로마이신 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조기 양막 파수와 자궁수축이 진행 중이며 태아는 정상 심박수를 보인다. 태아 뇌 보호를 위해 황산마그네슘을 투여하는 것이 권장된다. 따라서 황산마그네슘 투여가 다음 단계이다.
 
 ## 출처
 

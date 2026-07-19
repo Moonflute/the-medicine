@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 도파민과 세로토닌 수용체 길항
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우울증 치료에 흔히 처방되는 약물은 세로토닌·노르에피네프린 재흡수 억제제(SNRI)이며, 이는 시냅스 전 말단에서 두 신경전달물질의 재흡수를 차단한다. 따라서 해당 작용기전이 정답이다.
 
 ## 출처
 

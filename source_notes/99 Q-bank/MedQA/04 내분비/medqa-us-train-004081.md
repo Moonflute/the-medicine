@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐결절 절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ACTH가 정상 상한을 약간 초과하고 저용량 덱사메타손 억제에 반응이 없으며 고용량 억제에 반응하는 패턴은 ACTH 의존성 쿠싱증후군을 시사한다. 이를 확인하려면 하부정맥동(하추체정맥동)에서 ACTH 농도를 측정한다.
 
 ## 출처
 

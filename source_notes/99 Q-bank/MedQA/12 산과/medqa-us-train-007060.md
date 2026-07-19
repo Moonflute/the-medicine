@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 트리메토프림-설파메톡사졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 10주인 환자에게 급성 방광염이 의심되며, 임신 중 1세대 β‑락탐계 항생제인 아목시실린‑클라불란산이 안전하고 효과적이다. 다른 옵션은 임신에 금기이거나 내성 위험이 있다. 따라서 아목시실린‑클라불란산이 가장 적절한 치료이다.
 
 ## 출처
 

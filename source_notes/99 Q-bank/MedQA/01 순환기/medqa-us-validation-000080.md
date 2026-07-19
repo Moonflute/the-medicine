@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메토프롤롤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 유발 실신과 가족성 급성 심근증(비후성 심근병증)에서 베타 차단제는 심박수를 낮추고 증상을 완화한다. 메토프롤롤은 선택적 β1 차단제로 이러한 상황에 적합하다. 따라서 가장 적절한 치료는 메토프롤롤이다.
 
 ## 출처
 

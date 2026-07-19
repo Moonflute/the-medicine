@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항환형 시트룰린화 펩타이드 항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+히드랄라진 복용 후 발생한 루푸스 양상(관절염, 흉통, ST 상승)에서는 항히스톤 항체가 약물유발 루푸스에서 흔히 검출된다. 다른 항체들은 해당 임상양상과 연관성이 낮다. 따라서 항히스톤 항체가 추가로 검출될 것이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 무월경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+14일간의 프레드니손 단기 복용은 정서 변화, 불안, 과민성을 흔히 일으킨다. 얼굴 지방 축적·쿠싱증후군·무월경은 장기 고용량 스테로이드에서 나타난다. 따라서 짧은 과정에서 나타날 수 있는 부작용은 A, 감정 불안정이다.
 
 ## 출처
 

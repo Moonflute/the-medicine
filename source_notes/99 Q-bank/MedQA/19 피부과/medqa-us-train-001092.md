@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 지루 피부염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 회전성 현훈, 안진, 청력 저하가 동반된 경우는 전정신경염이 가장 흔한 원인이다. 머리 위치 변화에 증상이 유발되지 않는 점은 BPPV와 구별한다. 따라서 진단은 전정신경염이다.
 
 ## 출처
 

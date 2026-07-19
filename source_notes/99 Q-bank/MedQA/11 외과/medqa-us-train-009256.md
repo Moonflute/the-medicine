@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 상처 변연절제와 세척
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+췌장 절제 후 발생한 녹색 고단백 배액은 췌장 누공을 의미한다. 영양 공급을 위해 장관을 우회하는 전신 영양(TPN)과 누공 관리가 필요하며, 장루는 필요하지 않다. 외과적 재탐색은 보통 필요하지 않다.
 
 ## 출처
 

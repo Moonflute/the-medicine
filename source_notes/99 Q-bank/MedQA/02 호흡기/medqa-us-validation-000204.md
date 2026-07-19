@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 상부위장관 내시경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+좌측 하엽에 타진 둔탁음·촉각진동 증가와 대량 폐렴성 음영·광범위 흉수는 복합성 흉수성 폐렴을 시사한다. 복합성 흉수는 세균성 감염과 함께 흉강에 고름이 축적되므로, 항생제 투여와 동시에 흉강천자로 고름을 배액해야 한다. 따라서 정맥 항생제와 흉강천자가 초기 치료에 가장 적절하다.
 
 ## 출처
 

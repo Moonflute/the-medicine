@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 약물치료를 하지 않는다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고양이 물림에 의한 Bartonella henselae 감염은 보통 자가 제한적이며, 면역정상이면 항생제 없이 관찰이 적절하다. 다른 항생제는 증상이 심하거나 면역억제된 경우에만 고려된다.
 
 ## 출처
 

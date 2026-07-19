@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자주 체위 변경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+압박궤양은 지속적인 압력으로 인해 조직이 괴사하면서 발생한다. 정기적인 체위 변경으로 압력을 분산시키면 발생을 예방할 수 있다. 따라서 가장 효과적인 예방은 자주 체위 변경이다.
 
 ## 출처
 

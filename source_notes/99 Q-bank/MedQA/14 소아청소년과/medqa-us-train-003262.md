@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 반코마이신, 암피실린, 세포탁심
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아 수막염에서 가장 흔한 병원체는 GBS와 Listeria이며, 경험적 치료는 광범위한 항생제인 암피실린, 겐타마이신, 세포탁심을 포함한다. 이는 모든 주요 병원체를 커버한다. 따라서 초기 요법은 암피실린·겐타마이신·세포탁심이다.
 
 ## 출처
 

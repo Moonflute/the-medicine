@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부 MRI에서 신장 혈관근지방종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+백반증은 멜라닌세포 수는 정상이나 멜라닌 합성이 감소한다는 특징이 있다. 따라서 색소 감소는 멜라닌세포 수는 정상인 채 발생한다는 것이 가장 관련된 소견이다.
 
 ## 출처
 

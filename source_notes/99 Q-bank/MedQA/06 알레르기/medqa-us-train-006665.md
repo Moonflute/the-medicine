@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아나필락시스와 세포독성 과민반응의 혼합
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 안면·목 부종·호흡곤란·양쪽 폐에서 큰 협착음은 전신 혈관 확장과 기도 부종을 동반한 급성 전신 알레르기 반응이다. 땅콩 알레르기와 기존 천식 병력이 있어 IgE 매개 즉시형(제1형) 과민반응, 즉 아나필락시스가 가장 가능성 높다.
 
 ## 출처
 

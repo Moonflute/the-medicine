@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. “왜 검사를 했는지 궁금하고 결과가 불안하실 수도 있겠�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+악성 종양 진단을 전달할 때는 환자가 충분히 준비된 환경에서 지지자를 동반하도록 약속을 잡아주는 것이 환자 중심 의사소통에 부합한다. 이렇게 하면 환자는 정보를 차분히 소화하고 질문할 시간을 가질 수 있다. 따라서 다시 만나 결과를 논의하자는 제안이 가장 적절하다.
 
 ## 출처
 

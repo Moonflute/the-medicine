@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 시야 변화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+에탐부톨은 결핵균 세포벽의 탄수화물 합성을 억제하며, 시신경염을 일으켜 시야 결손을 초래할 수 있다. 따라서 시야 변화가 해당 약물의 부작용이다.
 
 ## 출처
 

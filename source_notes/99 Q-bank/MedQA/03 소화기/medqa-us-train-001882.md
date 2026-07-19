@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 현재 치료를 변경하지 않음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+크론병 환자에서 전방 포도막염은 염증성 장질환의 외부 증상이며, 스테로이드 용량을 늘려 급성 염증을 억제한다. 기존 면역억제제와 mesalazine는 유지에 충분하므로 추가 약물이나 중단은 필요하지 않다. 따라서 프레드니손 용량을 증가시키는 것이 적절하다.
 
 ## 출처
 

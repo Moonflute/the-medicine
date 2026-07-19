@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 신우조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 요폐와 방광 저류가 의심되는 상황에서 방광 초음파에 고형 종괴가 보이면 요도 폐쇄가 원인일 가능성이 크다. 경요도 카테터 삽입은 즉각적인 배뇨 회복을 제공한다. 따라서 경요도 카테터 삽입이 적절하다.
 
 ## 출처
 

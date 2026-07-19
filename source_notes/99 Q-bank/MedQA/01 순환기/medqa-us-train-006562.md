@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흡기 양압 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 심인성 쇼크(저혈압, 저소변, 저산소증) 상태이며, 이미 도부타민과 푸로세미드, BiPAP을 투여했음에도 혈압이 떨어졌다. 양압 환기 설정을 낮추면 정맥 귀환이 감소해 혈압이 더욱 악화될 수 있다. 따라서 양압을 감소시키는 것이 적절한 조치이다.
 
 ## 출처
 

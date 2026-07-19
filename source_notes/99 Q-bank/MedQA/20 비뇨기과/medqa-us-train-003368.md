@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 전립선 생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+왼쪽 정계정맥류와 고칼슘혈증, 혈뇨는 신장암(신세포암)에서 흔히 나타나는 비특이적 증상이다. 신장암은 복부 후복막에 위치하므로 진단을 위해 복부 CT가 가장 민감한 영상검사이다. 따라서 다음 단계는 복부 CT 시행이다.
 
 ## 출처
 

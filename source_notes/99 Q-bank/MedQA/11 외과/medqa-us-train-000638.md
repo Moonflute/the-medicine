@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 충격파 쇄석술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 담낭염에서 담낭벽이 얇아지고 담낭이 팽창하며, 초음파에서 담낭벽 비후와 주변 액체가 보인다. 증상이 경미하고 환자가 안정적이므로 복강경 담낭 절제술이 표준 치료이다.
 
 ## 출처
 

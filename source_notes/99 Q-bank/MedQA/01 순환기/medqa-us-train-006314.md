@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심바스타틴 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흡연은 말초동맥 질환의 진행을 가속화하고 혈관 수축, 혈전 형성을 촉진해 절단 위험을 크게 높인다. 금연은 혈관 내피 기능을 회복시키고 혈전 위험을 감소시켜 절단 위험을 가장 효과적으로 낮춘다. 따라서 가장 높은 중재는 금연이다.
 
 ## 출처
 

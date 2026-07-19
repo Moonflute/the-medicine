@@ -18,11 +18,13 @@ question_type: ethics
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 수혈을 위한 법원 명령을 받는다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+생명을 위협하는 출혈 상황에서 환자는 의식이 없고 혈압이 70/40 mmHg이므로 응급 수혈이 필요하다. 환자의 종교적 신념은 사전 동의서가 없으며, 위급 상황에서는 암묵적 동의가 적용되어 수혈을 진행한다.
 
 ## 출처
 

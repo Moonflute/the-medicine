@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 발사르탄과 스피로놀락톤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+좌심실 구출률이 경계선 이하이며 제3심음이 들리는 심부전 환자에게 ACE 억제제와 베타차단제 병용이 표준 치료이다. 에날라프릴(ACE 억제제)과 비소프롤롤(베타차단제) 조합이 가장 적절하다.
 
 ## 출처
 

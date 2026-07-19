@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 악성종양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복성 DVT와 장거리 비행은 Factor V Leiden 변이를 통한 활성화된 단백질 C 저항성을 가장 흔히 만든다. 이는 단백질 C에 의해 불활성화되는 것을 방해해 혈전 형성을 촉진한다. 다른 선택지는 선천적 단백질 C 결핍 등이며, 여기서는 가장 흔한 원인인 Factor V Leiden에 의한 저항성이 정답이다.
 
 ## 출처
 

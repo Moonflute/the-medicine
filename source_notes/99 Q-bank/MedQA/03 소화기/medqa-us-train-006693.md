@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대변 배양과 적혈구 및 백혈구 분석
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경미한 선홍색 혈변이 있고 직장 검사가 없으며, 대장암·염증성 장질환 위험이 낮으므로 먼저 항문경검사를 통해 원인을 직접 확인하는 것이 적절하다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흉부 X선
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+노인에서 급성 혼돈은 탈수와 전해질 불균형이 흔한 원인이다. 혈청 전해질 검사는 저나트륨, 고칼륨 등 원인을 확인하는 첫 단계이다. 따라서 전해질 측정이 가장 적절한 검사이다.
 
 ## 출처
 

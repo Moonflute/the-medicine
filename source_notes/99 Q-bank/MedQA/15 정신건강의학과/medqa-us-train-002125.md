@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 전기경련치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 조증은 기분 고양, 수면 감소, 과다 활동을 특징으로 하며, 급성 조증 치료에선 기분 안정제와 비정형 항정신병제가 1차 선택이다. 발프로산과 올란자핀 조합이 표준이다. 따라서 B가 정답이다.
 
 ## 출처
 

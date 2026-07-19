@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 요도 슬링 수술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+골반저근 강화 운동과 케겔운동이 효과가 없을 경우, 복압성 요실금의 표준 2차 치료는 요도 슬링 수술이다. 이는 요도의 지지력을 증가시켜 기립 시 요실금을 감소시킨다. 따라서 다음 단계로 가장 적절한 선택은 D이다.
 
 ## 출처
 

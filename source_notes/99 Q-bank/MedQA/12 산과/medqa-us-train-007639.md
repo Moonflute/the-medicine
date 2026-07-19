@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 2시간 후 자궁경부가 10 cm, 태아 머리가 +1 station이고 자궁�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+활동기 진통이 2분마다 발생하고 자궁경부가 7 cm에 머물며 태아 머리 위치가 변하지 않으면 진행성 진통 저하가 있다. 이는 제왕절개 적응증이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 말초부종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+DKA 치료 중 혈청 pH가 7.0 이하로 급격히 낮아지면 뇌부종이 발생할 위험이 크다. 뇌부종의 특징적인 소견은 안구유두부종(유두부종)이다. 따라서 예상되는 추가 검사 소견은 유두부종이다.
 
 ## 출처
 

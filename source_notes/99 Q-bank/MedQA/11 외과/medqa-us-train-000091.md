@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 소독 드레싱
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 부위에 황록색 분비물과 피부 변색은 감염성 괴사와 연관된 조직 손상을 의미한다. 감염을 제거하고 조직을 정리하기 위해 외과적 변연절제술이 필요하다. 따라서 가장 적절한 관리 단계는 수술적 변연절제술이다.
 
 ## 출처
 

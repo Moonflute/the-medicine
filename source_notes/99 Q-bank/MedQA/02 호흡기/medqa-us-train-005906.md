@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메토프롤롤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+COPD 악화와 저산소증은 전해질(특히 칼륨·마그네슘) 변동과 부정맥을 유발한다. 먼저 기관지확장을 통해 산소화를 회복하고, 전해질 이상을 교정하면 부정맥이 개선될 수 있다. 따라서 이 조치가 최선의 초기 치료이다.
 
 ## 출처
 

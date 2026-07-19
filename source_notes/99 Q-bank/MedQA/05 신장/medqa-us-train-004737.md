@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 요로상피 신생물
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+상기도 감염 후 5일 내에 혈뇨와 단백뇨가 나타났으며 혈압·전해질이 거의 정상인 경우 일시적 사구체 손상(IgA 신병증) 가능성이 높다. 현미경적 혈뇨와 단백뇨는 사구체 손상을 반영한다. 따라서 신장 사구체 손상이 가장 가능성 높은 원인이다.
 
 ## 출처
 

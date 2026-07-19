@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신경성 식욕부진증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+3주간 지속된 우울 기분, 체중 감소, 기능 저하가 명확한 스트레스 사건(연인 이별)에 대한 반응이며, 증상이 6개월 미만이므로 적응장애(우울 기분 동반)로 가장 가능성이 높다.
 
 ## 출처
 

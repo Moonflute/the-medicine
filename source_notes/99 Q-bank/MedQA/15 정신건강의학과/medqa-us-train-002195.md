@@ -18,11 +18,13 @@ question_type: adverse_effect
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 히스타민 작용제 효과 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+플루페나진은 D2 수용체를 강하게 차단해 장기간 사용 시 섬망성 운동이 발생한다. 리스페리돈은 D2 차단이 약하고 5‑HT2A 차단이 있어 이러한 부작용을 감소시킨다. 따라서 도파민 차단 감소가 증상 호전을 설명한다.
 
 ## 출처
 

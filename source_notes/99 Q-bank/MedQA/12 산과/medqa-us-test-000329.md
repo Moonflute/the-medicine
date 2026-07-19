@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대동맥-하대정맥 압박
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 혈관 저항이 감소하면 기존의 심방중격결손(ASD)으로 인한 좌우 혈류 전이가 증가해 증상이 악화된다. 따라서 전신혈관저항 감소가 증상 변화를 일으킨 주요 요인이다.
 
 ## 출처
 

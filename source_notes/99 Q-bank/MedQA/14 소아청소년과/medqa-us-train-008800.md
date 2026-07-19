@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 태아알코올증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조산(33주)과 모체의 당뇨병으로 인해 신생아는 폐 표면활성제 결핍이 흔히 발생한다. 저산소혈증·고CO₂혈증·저PaO₂는 신생아 호흡곤란증후군(NRDS)을 나타낸다. 따라서 진단은 신생아 호흡곤란증후군이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 노로바이러스 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+데워 먹은 밥에서 발생하는 급성 구토와 설사는 Bacillus cereus가 생성한 구토 독소에 의한다. 증상 발현이 식후 1시간 이내이며 복통보다 구토가 주된 특징이다. 따라서 가장 가능성 높은 진단은 C이다.
 
 ## 출처
 

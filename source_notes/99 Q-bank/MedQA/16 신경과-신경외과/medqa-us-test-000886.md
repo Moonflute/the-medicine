@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심인성 증상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수마트립탄과 나프록센은 혈관 수축을 유발할 수 있는 약물이며, 특히 수마트립탄은 혈관성 두통 치료 후 혈관 수축성 부작용을 일으킬 수 있다. 환자는 약물 복용 후 급성 국소 신경학적 결손(언어 장애, 안면 마비, 사지 약화)이 나타났다. 이는 약물 유발 혈관 경련에 의한 뇌허혈성 변화로 해석된다. 따라서 가장 가능성 높은 원인은 약물 반응이다.
 
 ## 출처
 

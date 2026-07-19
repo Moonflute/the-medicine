@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메틸렌 블루
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+에틸렌글리콜 대사산물인 옥살산이 신장에서 옥살산염 결정을 형성하고 고음이온 차 대사성 산증을 일으킨다. 포메피졸은 에틸렌글리콜을 포도당으로 전환시켜 독성을 차단한다. 따라서 에틸렌글리콜 중독에 가장 적절한 치료는 포메피졸이다.
 
 ## 출처
 

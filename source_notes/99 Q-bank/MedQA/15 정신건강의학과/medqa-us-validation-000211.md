@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 인지행동치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+월경 전 1주간 지속되는 과민성·우울·식욕 변화는 월경전불쾌장애(PMDD)와 일치한다. 1차 치료는 세로토닌 재흡수 억제제(SSRI)로 증상을 완화시키는 것이 표준이다. 따라서 SSRI가 가장 적절한 다음 처치이다.
 
 ## 출처
 

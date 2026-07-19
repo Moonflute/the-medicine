@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 조기 가동(Mobilization)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비전위 중간 빗장뼈 골절은 보통 보존적으로 치료한다. 8자 붕대 고정은 골절 부위를 안정시켜 통증을 감소시키는 표준 방법이다. 따라서 정답은 C이다.
 
 ## 출처
 

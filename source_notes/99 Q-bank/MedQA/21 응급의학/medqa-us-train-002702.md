@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 관절경적 활막절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 사지 허혈은 조직 손상을 방지하기 위해 즉시 혈관 재개통 또는 절단 평가가 필요하다. 재관류 시술(혈전제거·혈전용해·외과적 재개통)이 6시간 이내에 시행돼야 한다. 따라서 가장 적절한 초기 처치는 절단 또는 혈관재개통술의 긴급 평가이다.
 
 ## 출처
 

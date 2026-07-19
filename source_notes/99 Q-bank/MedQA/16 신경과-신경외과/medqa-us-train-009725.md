@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 물리치료 의뢰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 발의 감각 저하와 근육 위축, 발목반사 소실은 Charcot-Marie-Tooth 병의 전형적인 증상이다. 이 유전성 말초신경병증은 물리치료와 보조기구 사용으로 기능 유지와 통증 감소를 목표로 한다. 따라서 물리치료 의뢰가 가장 적절한 치료이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소변 독성검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 침흘림, 기침, 근육 경련, 저심박동(서맥) 등 무스카린성 증상이 나타나며, 이는 유기인계 살충제 중독에 특징적인 콜린성 독성이다. 아트로핀은 무스카린 수용체를 차단해 증상을 빠르게 완화한다. 따라서 가장 적절한 처치는 아트로핀 투여이다.
 
 ## 출처
 

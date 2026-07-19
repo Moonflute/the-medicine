@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 백혈구 2,400/mm³, 호중구 비율 <20%, 점도 낮음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+세균성 관절염에서는 활액에 백혈구 50,000/mm³ 이상, 호중구 비율 >75%이며 점도가 현저히 낮아진다. 이는 급성 염증과 고농도 고형성 물질을 반영한다. 따라서 예상되는 소견은 선택지 B와 일치한다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 환자 인구학적 정보에만 복사 및 붙여넣기 사용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복사·붙여넣기 오류를 방지하려면 전자차트에서 복사된 내용이 쉽게 식별되도록 표시해야 한다. 이는 동일한 오류가 재발하는 것을 줄이는 실용적인 예방책이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대변 검체 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+최근 인후통 후 발생한 혈뇨와 단백뇨, 고혈압은 연쇄상구균 감염 후 사구체신염을 시사한다. ASO 역가는 최근의 연쇄상구균 감염을 확인하는 가장 민감한 혈청 검사이다. 따라서 진단을 확진하려면 항연쇄상구균 용혈소 O(ASO) 역가를 측정한다.
 
 ## 출처
 

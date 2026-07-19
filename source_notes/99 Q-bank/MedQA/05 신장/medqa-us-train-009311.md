@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부와 골반 비조영 CT
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+플루오로퀴놀론 관련 건병증은 아킬레스건에 통증·압통을 일으키며, 약물 복용 후 발생한다. 환자의 증상과 약물 힌트('D' 시작)와 일치한다. 다른 선택지는 요관 결석 치료와 무관하다.
 
 ## 출처
 

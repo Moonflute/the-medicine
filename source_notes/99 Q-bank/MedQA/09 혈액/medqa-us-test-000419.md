@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 동종 줄기세포 이식
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+저색소성 소구성 빈혈은 철분 결핍이 원인인 경우 혈청 철분 보충이 가장 효과적인 초기 치료이다. 환자는 식이에서 철분 섭취가 부족하고 혈액 검사에서 미세소구성 빈혈을 보이므로 철분 보충이 적절하다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 좌심실 및/또는 우심실 확장과 낮은 박출률
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심낭삼출(심장압전)에서는 흉부 X선에 심장 실루엣이 확대되고, 심초음파에서 초기·후기 이완기 충만이 모두 감소하고 호흡에 따라 충만 변동이 관찰된다. 이는 제한된 심낭 공간으로 인한 충만 저하를 의미한다. 따라서 가장 잘 보이는 소견은 초기·후기 이완기 충만이 모두 저하되고 호흡에 따른 변동이다
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 약물 부작용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+엔테로바이러스 감염은 급성 바이러스성 심근염을 일으켜 좌심실 기능 저하와 호흡곤란을 초래한다. 환자의 증상과 청진 소견은 심근염에 부합한다. 따라서 엔테로바이러스가 가장 가능성 높은 원인이다.
 
 ## 출처
 

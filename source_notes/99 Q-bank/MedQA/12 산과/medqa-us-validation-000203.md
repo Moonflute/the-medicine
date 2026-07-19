@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자궁내압 카테터 삽입
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+진행 정지된 활발한 진통과 양막 파수 상황에서는 태아와 산모의 위험이 커져 즉시 제왕절개가 필요하다. 다른 보조 방법은 효과가 없으며 지연을 초래한다. 따라서 정답은 A이다.
 
 ## 출처
 

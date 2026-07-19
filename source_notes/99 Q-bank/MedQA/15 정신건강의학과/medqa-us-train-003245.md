@@ -18,11 +18,13 @@ question_type: adverse_effect
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 이미프라민
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+메틸페니데이트는 식욕 억제가 흔한 부작용이며, 약물 교체가 필요할 때는 비자극성 비정신과 약물인 아토목세틴을 선택한다. 이는 선택적 노르에피네프린 재흡수 억제로 식욕 감소가 적다. 따라서 다음 약물은 아토목세틴이다.
 
 ## 출처
 

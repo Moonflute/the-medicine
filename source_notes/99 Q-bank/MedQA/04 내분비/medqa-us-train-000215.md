@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 티아민 결핍(Thiamine deficiency)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+재영양 시 급격한 인산염 투여로 혈청 인산염이 급격히 감소하면 저인산혈증이 발생하고, 이는 근육 약화·혼란·갈색 소변(근육 분해)으로 나타난다. 다른 선택지는 해당 증상과 연관이 적다. 따라서 저인산혈증이 원인이다.
 
 ## 출처
 

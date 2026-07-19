@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 제4형 신세뇨관산증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 티아지드 이뇨제(히드로클로로티아지드) 복용으로 저칼륨혈증과 대사성 알칼리증을 보인다. 티아지드는 원위세뇨관에서 Na⁺/Cl⁻ 재흡수를 억제해 K⁺와 H⁺ 배설을 증가시킨다. 따라서 B가 정답이다.
 
 ## 출처
 

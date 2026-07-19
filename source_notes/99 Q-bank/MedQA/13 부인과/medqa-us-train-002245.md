@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 개복술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 반동통과 저혈압, 빈혈은 대량 복강내 출혈을 시사한다. 양성 베타‑hCG와 급성 혈역학 불안정은 파열된 자궁외임신에 의한 혈흉을 의미한다. 즉시 혈액을 제거하고 출혈을 차단하기 위해 개복술이 필요하다.
 
 ## 출처
 

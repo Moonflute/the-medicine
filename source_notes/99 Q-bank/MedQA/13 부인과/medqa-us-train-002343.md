@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 질확대경검사를 시행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고등급 편평상피내병변은 자궁경부암 전암 병변으로, 즉시 질확대경 검사를 통해 병변을 시각화하고 조직검사를 시행해야 한다. 이는 진단 및 치료 계획 수립에 필수적이다. 따라서 질확대경 검사가 다음 단계이다.
 
 ## 출처
 

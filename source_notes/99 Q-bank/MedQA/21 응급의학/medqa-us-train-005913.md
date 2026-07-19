@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 중탄산나트륨 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 하지허혈을 위한 조영제 사용 시 대비 신장 손상을 최소화하려면 수액(생리식염수)으로 혈액량을 늘리는 것이 표준이다. 이는 신장관류를 개선하고 대비성 신손상을 예방한다. 따라서 생리식염수 투여가 적절한 다음 단계이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 내치핵
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈변과 변비, 직장수지검사에서 선홍색 혈액이 보이는 것은 내치핵(내부 치질)과 일치한다. 대장암은 종양성 출혈과 체중 감소를 동반하나, 변비와 직장수지검사 소견이 치질을 더 시사한다. 따라서 내치핵이 가장 가능성 높은 진단이다.
 
 ## 출처
 

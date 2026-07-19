@@ -16,11 +16,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 혈액-뇌 장벽(blood-brain barrier)의 파괴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 알코올 섭취는 α-케토글루타르산 탈수소효소 활성을 감소시켜 시트르산 회로 흐름을 저해하고, 이는 Wernicke 뇌병증에서 가장 먼저 나타나는 대사 변화이다. 다른 선택지는 2차적 혹은 비특이적 변화이다.
 
 ## 출처
 

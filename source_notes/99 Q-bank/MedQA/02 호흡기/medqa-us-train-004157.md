@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지방 섭취 감소, 단백질 섭취 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+탄수화물은 RQ를 높이고 CO₂ 생산을 증가시키므로, 탄수화물 섭취를 줄이고 지방을 늘리는 것이 호흡지수를 낮춘다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 현재는 치료하지 않는다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+부고환 낭종은 무통성, 고정되지 않은 고환 외 저에코 종괴이며 악성 가능성이 낮다. 증상이 없고 크기도 작으므로 즉시 치료보다는 관찰이 적절하다. 따라서 현재는 치료하지 않는다.
 
 ## 출처
 

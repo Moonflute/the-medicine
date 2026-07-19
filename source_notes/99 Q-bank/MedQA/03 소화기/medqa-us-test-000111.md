@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 장기 천공
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복수천자에서 고농도 호중구성 백혈구와 저알부민, 저포도당이 나타난 것은 세균이 복강으로 전이된 자발성 세균성 복막염을 시사한다. 간경변과 저알부민 혈증은 장내 세균 전이를 촉진한다. 따라서 세균 전이가 가장 적절한 설명이다.
 
 ## 출처
 

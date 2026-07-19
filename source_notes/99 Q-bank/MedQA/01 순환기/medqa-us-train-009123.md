@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 청진에서 S3 심음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+불안정 협심증은 휴식 시에도 30분 이상 지속되는 가슴통증을 특징으로 한다. 이는 급성 관상동맥 혈류 감소를 의미한다. 따라서 휴식 시 30분 지속되는 증상이 해당한다.
 
 ## 출처
 

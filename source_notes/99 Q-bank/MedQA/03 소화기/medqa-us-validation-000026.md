@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 급성 게실염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 변비 환자에게 장관 내 가스와 액체가 축적되어 장벽이 비정상적으로 두꺼워지는 장 염전이 발생한다. 복부 X‑ray에서 다수의 가스‑액체 수준이 보이며, 장 유착이나 급성 염증보다 이 소견에 부합한다. 따라서 장 염전이 가장 가능성 높은 진단이다.
 
 ## 출처
 

@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 식도 내압 검사(esophageal manometry)에서 고혈압성 수축이 관�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+확산성 식도 경련은 비동기적이고 다중 피크가 동시다발적으로 나타나는 고압성 수축을 보인다. 식도 내압 검사에서 이러한 다중 피크 수축이 특징적인 소견이다. 따라서 가장 가능성 높은 소견은 다중 피크 수축이다.
 
 ## 출처
 

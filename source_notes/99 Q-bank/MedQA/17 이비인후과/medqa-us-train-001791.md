@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수직 안진
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Meniere disease는 반복성 현기증, 귀의 꽉 찬 느낌, 그리고 감각신경성 난청을 동반한다. 환자는 현기증과 귀의 포화감만 호소했으므로 감각신경성 난청이 동반될 가능성이 높다. 전음성 난청은 이 질환과 맞지 않는다.
 
 ## 출처
 

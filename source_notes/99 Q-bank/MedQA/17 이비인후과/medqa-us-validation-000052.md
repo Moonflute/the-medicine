@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 넓은 콧등
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+바르덴부르크 증후군은 전음성(감각신경성) 난청을 특징으로 하며, 전음성 난청은 청력 검사에서 확인된다. 다른 선택지는 증후군과 관련이 없다. 따라서 전음성 난청이 해당되지 않는 특징이다.
 
 ## 출처
 

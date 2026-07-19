@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이페카 시럽
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 아세트아미노펜 과다복용이 의심되며, 24시간 이내에 N-아세틸시스테인(NAC) 투여가 간세포 손상을 예방한다. NAC는 글루타티온 전구체로 해독을 촉진한다. 따라서 가장 적절한 처치는 NAC이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 독성 표피 괴사용해
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+TMP‑SMX에 대한 중증 과민반응으로 피부 전층이 박리되는 독성 표피 괴사(TEN)가 발생한다. 전신 발진·표피 박리와 약물 복용 후 발현이 특징이다. 따라서 가장 가능성 높은 진단은 독성 표피 괴사이다.
 
 ## 출처
 

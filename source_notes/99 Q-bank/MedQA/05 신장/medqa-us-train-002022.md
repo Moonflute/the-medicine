@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 요독증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 신부전에서 인산염 배설이 감소하면 혈청 인이 저하되고, 이를 보상하기 위해 부갑상선 호르몬이 상승한다. 이는 인산염 저류가 2차성 부갑상선 기능항진증을 유발한다는 의미이다. 따라서 정답은 인산염 저류이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 직접 쿰스 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 용혈성 빈혈에서 직접 코밋스 검사는 적혈구에 결합된 IgG를 검출해 면역 매개 용혈을 확인한다. 환자는 급성 빈혈, 황달, 비장 비대와 저산소증을 보이며 용혈성 빈혈이 의심된다. 직접 코밋스 검사가 진단에 가장 도움이 된다.
 
 ## 출처
 

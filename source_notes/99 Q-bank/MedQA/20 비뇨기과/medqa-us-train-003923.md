@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 트리메토프림-설파메톡사졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복되는 요로감염은 성관계 후 방광에 세균이 유입되는 것이 원인일 수 있다. 트리메토프림-설파메톡사졸은 예방적 항생제로 효과적이며, 성관계 전후 배뇨는 추가적인 비위생적 요인을 차단한다. 따라서 두 가지를 모두 권고한다.
 
 ## 출처
 

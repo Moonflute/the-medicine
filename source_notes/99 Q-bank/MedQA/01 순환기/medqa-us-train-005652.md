@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대동맥 기승의 정도
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 청색증은 우심실에서 폐동맥으로 혈액이 흐르는 정도, 즉 우심실 유출로 폐쇄의 중증도가 가장 크게 영향을 미친다. 폐쇄가 심할수록 혈액이 폐로 흐르지 못해 청색증이 심해진다.
 
 ## 출처
 

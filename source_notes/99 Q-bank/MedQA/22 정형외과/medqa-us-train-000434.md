@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 유착성 관절낭염(Adhesive capsulitis)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+상완골 외상성 골절(특히 상완골 상부 골절) 후 요골 맥박이 사라지는 것은 혈관 손상(요골 동맥 손상) 위험이 가장 높다. 따라서 요골 맥박 소실이 가장 흔한 합병증이다.
 
 ## 출처
 

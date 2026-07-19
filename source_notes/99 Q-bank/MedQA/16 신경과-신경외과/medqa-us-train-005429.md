@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 초기 발작 횟수
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성경화증에서 초기 시신경염(복시·시력저하) 발생은 재발·악화가 적고 장기적인 장애가 적은 양성 경과와 연관된다. 발병 연령·인종·발작 횟수는 예후와 크게 관련되지 않는다. 따라서 초기 발현 증상이 양성 경과와 연관된다.
 
 ## 출처
 

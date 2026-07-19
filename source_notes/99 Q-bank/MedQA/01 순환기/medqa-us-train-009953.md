@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 승모판 탈출증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심첨부에서 가장 잘 들리는 고주파 중기~후기 수축기 잡음은 승모판 탈출증과 연관된 중기 수축기 클릭을 동반한다. 이는 해당 잡음의 특징이다. 다른 판막 질환은 다른 청진 소견을 보인다.
 
 ## 출처
 

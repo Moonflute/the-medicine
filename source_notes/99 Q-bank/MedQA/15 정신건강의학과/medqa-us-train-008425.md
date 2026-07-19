@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 5% 포도당을 1/2 생리식염수에 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+술을 끊은 후 6‑12시간 내에 나타나는 떨림, 불안, 혈압·심박수 상승, 환각 등은 알코올 금단 증후군이며, 중증(진전·발작)에서는 벤조디아제핀이 1차 치료이다. 로라제팜은 정맥으로 투여 가능한 벤조디아제핀으로 급성 알코올 금단에 가장 적절하다.
 
 ## 출처
 

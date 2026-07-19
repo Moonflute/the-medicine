@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비타민 B12 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+빈혈과 동반된 혈청 호모시스테인 상승, 정상 메틸말론산, 그리고 골수에서 과분엽 호중구는 엽산 결핍성 거대적아구성 빈혈을 시사한다. 비타민 B12 결핍은 메틸말론산 상승을 동반한다. 따라서 가장 가능성 높은 원인은 엽산 결핍이다.
 
 ## 출처
 

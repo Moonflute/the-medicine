@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 잘 통제된 연구에서 임신 1분기 태아 위험이 입증되지 않�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+레보티록신은 임신 중 갑상선기능저하증 치료에 필수이며, 임신 1분기 및 이후에도 태아에 위험을 증가시킨다는 근거가 없다. 따라서 임신 중에도 용량을 조절하며 지속 투여한다는 것이 올바른 설명이다.
 
 ## 출처
 

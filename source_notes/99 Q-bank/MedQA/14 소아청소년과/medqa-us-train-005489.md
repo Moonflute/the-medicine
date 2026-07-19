@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비기관삽관
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 후두개염은 급격한 기도 폐쇄와 호흡곤란을 일으키며, 입을 벌리고 전방으로 기울인 자세가 특징이다. 기도 확보가 최우선이며, 비기관삽관(경구 기도 삽관)으로 즉시 기도를 열어야 한다. 따라서 가장 적절한 처치는 비기관삽관이다.
 
 ## 출처
 

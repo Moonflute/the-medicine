@@ -16,11 +16,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 우하엽 후분절
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+땅콩 흡입은 주로 오른쪽 하엽의 상분절에 폐쇄성 폐쇄물을 일으킨다. 이 부위는 기도 직경이 작아 이물질이 머무르기 쉽다. 따라서 X선에서 관찰될 부위는 우하엽 상분절이다.
 
 ## 출처
 

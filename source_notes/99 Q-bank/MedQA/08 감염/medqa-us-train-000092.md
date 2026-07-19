@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 오셀타미비르(Oseltamivir)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 인플루엔자 유행 기간에 발열·기침·근육통을 보이며, 고위험군(천식)이다. 증상이 48시간 이내이므로 오셀타미비르와 같은 뉴라미니다제 억제제가 가장 효과적이다. 따라서 가장 적절한 치료는 오셀타미비르이다.
 
 ## 출처
 

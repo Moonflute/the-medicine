@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 갑상선 호르몬 대체요법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑상선 결절이 발견된 경우 초음파는 결절의 크기와 특성을 평가하고, 세침흡인세포검사는 악성 여부를 확인하는 표준 진단 절차이다. 따라서 가장 적절한 다음 단계는 세침흡인 세포검사이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기관지경검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대량 객혈이 발생한 폐를 하부에 두어 중력으로 혈액이 가라앉게 하는 것이 우선이며, 출혈 부위 확인과 지혈을 위해 기관지경검사가 필요하다. 기관지경을 통해 출혈 부위 시각화 및 국소 치료(압박, 레이저, 전기응고 등)를 할 수 있다. 따라서 다음 적절한 처치는 기관지경검사이다.
 
 ## 출처
 

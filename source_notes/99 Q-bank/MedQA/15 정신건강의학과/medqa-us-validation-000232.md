@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 범불안장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+1년 이상 지속되는 과도한 걱정이 여러 상황에 걸쳐 나타나고, 수면 장애와 피로가 동반되는 경우는 범불안장애의 전형적인 임상양상이다. 사회공포증·광장공포증은 특정 상황에 대한 회피가 특징이며, PTSD는 외상 후 증상이 있다. 따라서 범불안장애가 가장 가능성 높다.
 
 ## 출처
 

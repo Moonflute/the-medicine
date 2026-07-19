@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수두-대상포진 항체 역가 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+MMR 백신은 살아있는 약화 백신으로 임신 중에 투여하면 태아에 위험을 초래한다. 따라서 임신 전 관리 단계에서 MMR 백신 투여는 권장되지 않는다.
 
 ## 출처
 

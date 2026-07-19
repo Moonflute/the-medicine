@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 경구 하이드록시클로로퀸(hydroxychloroquine) 요법 시작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+광과민성 수포성 발진, 갈색 소변, 가족력은 포르피리아 컷아네아(PCT)를 시사한다. PCT는 철 과다에 의해 촉발되며, 치료는 정기적인 사혈(phlebotomy)로 체내 철을 감소시켜 증상을 완화한다. 다른 선택지는 PCT 치료에 효과가 없다.
 
 ## 출처
 

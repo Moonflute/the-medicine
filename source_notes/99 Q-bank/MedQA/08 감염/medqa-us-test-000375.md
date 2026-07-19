@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 계곡열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐 조직에서 내생포자를 가진 구균이 관찰된 것은 Coccidioides(코시디오이데스) 감염을 시사한다. 사막 지역 하이킹 후 발생한 폐 결절과 흉수, 림프절병증은 계곡열(코시디오이데스증)의 전형적인 임상양상이다. 따라서 정답은 D이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 약물 유발 면역성 범혈구감소증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+저혈구, 저백혈구, 저혈소판을 동반한 저형성 골수는 재생불량성 빈혈을 시사한다. 다른 선택지는 특정 세포 증식이나 약물 관련 원인과 맞지 않는다.
 
 ## 출처
 

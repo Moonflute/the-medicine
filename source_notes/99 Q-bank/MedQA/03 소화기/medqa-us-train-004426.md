@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -45,7 +47,8 @@ D. 복부 MRI
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+좌하복부 통증, 혈변, 백혈구 감소는 대장 게실염·게실증을 의심하게 한다. 진단적 영상으로 복부 CT가 가장 민감하게 염증 부위와 합병증을 확인한다. 따라서 CT 검사가 적절한 다음 단계이다.
 
 ## 출처
 

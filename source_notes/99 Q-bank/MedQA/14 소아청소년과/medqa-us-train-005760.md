@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 미세운동: 정상 | 대근육운동: 정상 | 언어: 지연 | 사회성: 
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+3세 아동은 대근육 발달은 정상(계단 오르내리기)이나 미세운동(손가락 사용)과 사회성(자기중심적, 분리불안)에서 지연을 보인다. 언어는 정상 수준이다. 따라서 미세운동 지연·대근육 정상·언어 정상·사회성 지연이 가장 적절한 평가이다.
 
 ## 출처
 

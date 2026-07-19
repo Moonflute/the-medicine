@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 아스코르브산(ascorbic acid)의 식이 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 골절과 청력 손실, 결합 조직 결함을 동반한 식이 제한은 제1형 콜라겐(오스테오제네시스 임페르페타) 결핍을 의미한다. 이는 골절에 대한 취약성을 설명한다. 따라서 가장 가능성 높은 병인은 제1형 콜라겐 결핍이다.
 
 ## 출처
 

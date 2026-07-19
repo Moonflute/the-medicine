@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 물 같은 질 분비물 발생
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+태반 조기 박리 후 자궁저부는 혈종에 의해 상승하고, 시간이 지나면서 자궁저부 높이가 점차 증가한다. 따라서 진행 시 자궁저부 높이 증가가 나타난다.
 
 ## 출처
 

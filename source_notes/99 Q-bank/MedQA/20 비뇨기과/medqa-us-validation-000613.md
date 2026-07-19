@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 골반저근 운동
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전립선비대증으로 인한 방광 팽창과 요실금은 급성 요폐 위험이 있다. 초기에는 방광을 배출하기 위해 카테터 삽입이 필요하다. 따라서 가장 적절한 초기 처치는 방광 카테터 삽입이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 알벤다졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+여행자 설사는 대장균(ETEC) 등 장독소형 병원체에 의해 흔히 발생하며, 증상이 경미하고 혈변이 없으므로 항생제 없이 수분 보충과 증상 완화가 우선이다. 따라서 시프로플록사신은 필요하지 않다.
 
 ## 출처
 

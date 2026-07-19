@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 초음파검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두통·오심·경부강직·양측 외전 제한과 양성 케르니히 징후는 지주막하출혈을 의심하게 한다. CT가 정상일 경우, 혈액이 뇌척수액에 남아 있을 수 있으므로 진단을 위해 요추천자를 시행한다. 따라서 요추천자가 적절한 검사이다.
 
 ## 출처
 

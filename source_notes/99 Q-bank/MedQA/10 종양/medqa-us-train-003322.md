@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 카포시육종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 림프부종 후 발생하는 혈관육종(스튜어트‑트레브스 증후군)은 피부에 푸른‑보라색 병변이 융합된 형태로 나타난다. 다른 선택지는 해당 병변과 맞지 않는다. 따라서 정답은 A이다.
 
 ## 출처
 

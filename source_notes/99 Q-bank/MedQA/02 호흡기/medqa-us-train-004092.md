@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흉부 방사선 촬영
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+30년간 1갑/일 흡연력(30 pack‑years)으로 폐암 위험이 증가한다. 저선량 흉부 CT는 55‑80세 고위험 흡연자에게 연간 검사가 권고된다. 따라서 현재 권장 검사는 흉부 저선량 CT이다.
 
 ## 출처
 

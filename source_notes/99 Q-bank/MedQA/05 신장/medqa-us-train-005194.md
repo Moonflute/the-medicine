@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 트리메토프림-설파메톡사졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신장이식 후 사이클로스포린을 사용하는 환자는 트리메토프림‑설파메톡사졸(코트리목시졸)으로 폐렴구균 감염을 예방해야 한다. 이는 면역억제 상태에서 가장 효과적인 예방 항생제이다. 따라서 정답은 트리메토프림‑설파메톡사졸이다.
 
 ## 출처
 

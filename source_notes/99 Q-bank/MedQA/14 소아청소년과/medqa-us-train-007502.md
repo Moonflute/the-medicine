@@ -18,11 +18,13 @@ question_type: ethics
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 추가 검사를 위해 유전상담에 의뢰한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+영아의 경막하 출혈과 망막출혈은 흔히 외상보다 아동학대(흔들린 아기 증후군)와 연관된다. 가장 중요한 후속 조치는 아동보호서비스에 신고하는 것이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 해리성 둔주 장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 3주 이상 지속되는 악몽, 몸 밖에 있는 느낌, 자신을 관찰한다는 감각을 호소한다. 이는 현실감 상실과 자기 자신에 대한 비현실적 인식인 이인증(탈인격) 장애의 핵심 증상이다. 신경학적 검사가 정상이며 다른 정신병적 증상이 없으므로 이인증 장애가 가장 타당하다. 오답인 단기 정신병적 장애는 환각·망상이 동반되는 급성 정신병을 의미한다.
 
 ## 출처
 

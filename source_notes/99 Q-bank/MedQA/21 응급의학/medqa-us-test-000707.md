@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지지요법과 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 의식 혼돈, 어두운 소변, 혈뇨를 동반한 급성 신근 손상(횡문근융해증) 소견을 보이며, 혈액검사에서 전해질 이상이 없고 혈압·산소포화도 정상이다. 급성 신근 손상 시 신독성 및 부종을 예방하기 위해 수액과 삼투성 이뇨제(만니톨) 투여가 필요하다. 따라서 정맥 수액과 만니톨이 가장 적절한 처치이다.
 
 ## 출처
 

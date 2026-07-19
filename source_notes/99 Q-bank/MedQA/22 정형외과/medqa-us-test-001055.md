@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 삼각근
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+외회전이 현저히 약하고 외전 근력이 1/5인 점은 회전근개 중 가장 큰 힘을 내는 극상근 손상을 시사한다. 극상근 파열 시 ‘낙하팔’ 징후가 나타나며, 외전이 크게 감소한다. 따라서 정답은 극상근이다.
 
 ## 출처
 

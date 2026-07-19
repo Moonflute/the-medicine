@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈액검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+카테터에서 소변이 나오지 않아 요로 폐색이 의심된다. 초음파는 비침습적으로 방광 및 신장 확장을 확인하고 카테터 위치와 폐색 정도를 빠르게 평가할 수 있다. 따라서 요로 폐색 평가에 가장 적절한 방법은 초음파이다.
 
 ## 출처
 

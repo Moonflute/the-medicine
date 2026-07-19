@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기대 여명
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+호스피스 이용 자격은 기대 여명이 6개월 이하인 말기 환자에게 적용된다. 기대 여명이 1년으로 예상되는 악성 중피종 환자는 호스피스 이용을 제한하는 요소가 아니다; 다른 선택지는 제한 요인이 아니다.
 
 ## 출처
 

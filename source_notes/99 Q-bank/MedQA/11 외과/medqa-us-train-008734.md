@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 방사선 사진 E
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+FAST 검사에서 양성 모리슨낭은 복강 내 출혈을 의미하고, 복부 방어와 반발통이 동반된 외상은 복부 장기 손상을 시사한다. 복부 CT에서 간 파열이 가장 흔히 보이며, 선택지 중 해당 영상은 그림 C에 해당한다. 따라서 정답은 그림 C이다.
 
 ## 출처
 

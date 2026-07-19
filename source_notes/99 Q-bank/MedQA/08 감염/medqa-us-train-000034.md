@@ -15,11 +15,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 외래 추적 관찰을 위해 환자를 퇴원시킨다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+개 물림은 일반적으로 포도상구균 감염 위험이 높으며, 1세대 베타락탐제와 베타락탐 억제제 조합인 아목시실린-클라불란산이 1차 항생제로 권장된다. 다른 선택지는 개 물림에 대한 표준 치료와 맞지 않는다.
 
 ## 출처
 

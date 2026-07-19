@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 철 흡수 및 체내 침착 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+저혈압, 고칼륨혈증, 색소침착, 갑상선 비대는 원발성 부신피질 기능부전(애디슨병)의 전형적인 임상이다. 원발성 부신피질 파괴는 자가면역성 부신피질 파괴가 가장 흔한 원인이다. 따라서 부신의 자가면역성 파괴가 병인이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 클린다마이신과 겐타마이신 14일
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고열, 저혈압, 황록색 질 분비물, 심한 자궁경부 압통은 골반염증성 질환이 패혈성 쇼크로 진행된 상황을 시사한다. 패혈성 쇼크와 복강 내 농양이 의심될 때는 즉시 탐색적 개복술이 필요하다. 따라서 정답은 탐색적 개복술이다.
 
 ## 출처
 

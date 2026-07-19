@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경구피임약 권고
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년에게는 피임 방법에 대한 포괄적 상담이 우선이며, 부모 동의는 법적으로 필요하지 않다. HIV 검사·피임 처방 자체는 상담 후 결정할 수 있다. 따라서 가장 적절한 단계는 모든 피임 방법에 대한 상담이다.
 
 ## 출처
 

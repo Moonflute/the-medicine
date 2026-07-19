@@ -24,11 +24,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -46,7 +48,8 @@ D. 우상복부 복부 초음파 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+상복부 불편감과 운동 시 악화, 말초동맥맥박 미감지는 심혈관성 협심증을 의심하게 한다. 협심증을 평가하기 위해서는 심장 스트레스 검사가 가장 적절하다. 다른 검사는 위장관 질환을 평가하지만, 환자의 위험 요인과 증상은 심장성 원인을 시사한다.
 
 ## 출처
 

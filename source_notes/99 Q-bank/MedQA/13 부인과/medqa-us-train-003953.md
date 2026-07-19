@@ -18,11 +18,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 이 환자는 호르몬 대체요법의 대상이 아니다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐경 후 혈중 에스트로겐이 급격히 감소하면 질 점막 위축과 가려움, 성교통이 나타난다. 저용량 질 에스트로겐은 국소적으로 에스트로겐을 보충해 증상을 완화한다. 따라서 가장 적절한 치료는 저용량 질 에스트로겐이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 발달성 고관절 이형성증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 급성 골절 통증은 겸상적혈구병(레그-칼베-페르테스병)에서 혈관 폐쇄성 통증 발작과 동일한 병태생리를 가진다. 따라서 같은 병태생리를 가진 질환은 레그-칼베-페르테스병이다.
 
 ## 출처
 

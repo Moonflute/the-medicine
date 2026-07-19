@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 중간 거리를 걸은 후 종아리 통증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병성 말초동맥질환은 운동 시 종아리 통증(간헐적 파행)으로 나타난다. 환자는 양쪽 발가락에 창백한 궤양과 감각 저하가 있으며, 이는 말초동맥 혈류 감소를 시사한다. 따라서 가장 가능성 높은 소견은 간헐적 파행이다.
 
 ## 출처
 

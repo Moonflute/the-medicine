@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 관찰하며 안심시킨다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+짧은 무의식 후 빠른 회복, 가족력 없는 발작, 정상 신경학적 검사는 양성 소아 실신(청색증형 호흡정지 발작)으로, 대부분 경과 관찰만으로 충분하다. 따라서 관찰하며 안심시키는 것이 적절하다.
 
 ## 출처
 

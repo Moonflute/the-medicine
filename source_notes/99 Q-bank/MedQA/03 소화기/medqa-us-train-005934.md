@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 환자의 전 남편에게 동의 획득
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 수술 동의서를 철회했으며, 응급 상황이라 하더라도 성인의 경우 자율권을 존중한다. 환자의 명시적 거부는 수술을 중단해야 함을 의미한다. 따라서 수술을 취소하는 것이 올바른 조치이다.
 
 ## 출처
 

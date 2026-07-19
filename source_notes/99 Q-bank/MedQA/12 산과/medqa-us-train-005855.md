@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아이에게 격리 주의
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임산부와 신생아 모두 발진을 보이며 파보바이러스 B19 감염이 의심된다. 모체의 급성 감염 여부는 바이러스 특이 IgM과 IgG 혈청검사로 확인한다. 따라서 산모 혈청 IgG/IgM 검사가 다음 단계이다.
 
 ## 출처
 

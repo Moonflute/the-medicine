@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 대사성 알칼리증, 고나트륨혈증, 저칼륨혈증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+부신 선종이 8 cm이며 고혈압, 저칼륨혈증, 대사성 알칼리증을 동반하는 경우 알도스테론 과다(Conn 증후군)가 가장 흔한 원인이다. 이는 나트륨 보유·칼륨 배설을 초래한다.
 
 ## 출처
 

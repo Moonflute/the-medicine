@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 폐쇄성 황달(Obstructive jaundice)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+알칼리성 포스파타제 상승과 골통, 골밀도 증가는 Paget 병의 특징이며, Paget 병은 청력 손실을 동반할 수 있다. 따라서 환자의 상태와 관련된 것은 난청이다.
 
 ## 출처
 

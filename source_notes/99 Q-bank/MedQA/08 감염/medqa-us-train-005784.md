@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지지요법만 시행
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HIV 환자에서 물 같은 설사와 변형 항산균 염색에서 미생물이 보이면 크립토스포리디움 감염이 의심된다. 치료는 니타졸사이드가 1차 선택이다. 따라서 가장 적절한 치료는 니타졸사이다.
 
 ## 출처
 

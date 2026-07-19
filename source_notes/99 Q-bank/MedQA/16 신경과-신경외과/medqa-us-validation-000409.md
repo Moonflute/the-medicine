@@ -17,11 +17,13 @@ question_type: localization
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 왼쪽 후대뇌동맥
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+얼굴 마비·복측 감각소실, 반대쪽 몸통·사지의 통각·온도소실은 외측 연수 증후군(왈렌베르크 증후군)이다. 이 증후군은 좌측 후하소뇌동맥(좌 PICA) 폐색으로 발생한다. 따라서 좌측 후하소뇌동맥이 가장 가능성 높은 원인 동맥이다.
 
 ## 출처
 

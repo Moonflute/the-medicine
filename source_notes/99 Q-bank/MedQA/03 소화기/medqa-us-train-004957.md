@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 간 합성기능 저하
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+간경변으로 인한 간 합성능 저하가 티록신결합글로불린(TBG) 감소를 초래하고, 혈청 자유 티록신(T4) 수치를 낮춘다. 환자의 저 T4는 간 합성기능 저하에 기인한다. 따라서 간 합성기능 저하가 원인이다.
 
 ## 출처
 

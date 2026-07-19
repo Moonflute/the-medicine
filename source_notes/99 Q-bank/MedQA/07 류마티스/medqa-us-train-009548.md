@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 측두하악관절 장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고령 여성에서 급성 두통과 전신 증상, ESR 상승, 정상 CK와 함께 시력 저하 없이 두통이 진행되는 경우 거대세포동맥염이 가장 흔한 원인이다. 만성 경막하혈종은 신경학적 결손을, 편두통은 통증 양상이 다르며, 턱관절 장애는 국소적 통증만을 유발한다. 따라서 정답은 B이다.
 
 ## 출처
 

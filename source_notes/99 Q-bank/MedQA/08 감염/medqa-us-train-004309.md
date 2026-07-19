@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 인터페론과 리바비린 병용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 C형 간염에서 HCV RNA 양성, 고 AST/ALT, 교차성 섬유화가 있을 때 인터페론과 리바비린 병용 요법이 표준 치료이다. 따라서 가장 적절한 치료는 인터페론과 리바비린 병용이다.
 
 ## 출처
 

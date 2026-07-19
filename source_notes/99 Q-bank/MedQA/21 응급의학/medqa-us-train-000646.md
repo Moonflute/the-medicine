@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프로타민 황산염(protamine sulfate) 및 하이드록시에틸 전분(hy
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+와파린 복용으로 INR이 상승해 후복막 출혈이 발생했으며, 급성 출혈 시에는 비타민 K(피토나디온)와 빠른 INR 감소를 위한 프로트롬빈 복합 농축액이 가장 효과적이다. 따라서 비타민 K와 PCC를 투여한다가 정답이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 요로감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무통성 혈뇨가 한 달간 지속되고 연령이 65세인 경우 방광 종양이 가장 흔한 원인이다. 방광암은 혈뇨를 동반하지만 통증이 없으며, 다른 선택지는 급성 증상이나 색소 섭취와 관련이 없다. 따라서 방광 종양이 정답이다.
 
 ## 출처
 

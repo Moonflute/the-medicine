@@ -16,11 +16,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 시냅스 세로토닌 저하
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비만, 고혈압, 주간 졸림증을 동반한 간헐적 두통은 폐쇄성 수면 무호흡(OSA)에서 흔히 나타난다. 상기도 폐쇄가 주요 원인이므로, 야간 상기도 폐쇄가 가장 가능성 높은 원인이다.
 
 ## 출처
 

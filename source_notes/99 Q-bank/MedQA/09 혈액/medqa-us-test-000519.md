@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자가면역 용혈성 빈혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 혈소판 감소와 미세혈관성 용혈, 신장 손상이 동반된 경우 혈전성 혈소판감소성 자반증(TTP)이 가장 흔한 원인이다. ADAMTS13 활성이 감소해 혈소판 응집이 일어난다.
 
 ## 출처
 

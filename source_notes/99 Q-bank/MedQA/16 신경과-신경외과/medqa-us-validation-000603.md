@@ -17,11 +17,13 @@ question_type: localization
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. C5, C6, C7, C8, T1
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수근관증후군은 정중신경이 C5‑T1의 모든 신경근을 포함한다. 손가락 저림·위축·엄지 외전 약화는 이 범위의 신경근 손상을 의미한다. 따라서 가장 포괄적인 조합은 C5, C6, C7, C8, T1이다.
 
 ## 출처
 

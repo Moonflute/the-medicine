@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 하이드랄라진
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갈색세포종 치료 시 먼저 알파 차단제로 혈압과 혈관 수축을 억제해야 한다. 알파 차단 후에 베타 차단제를 사용하면 반사성 혈압 상승을 방지할 수 있다. 따라서 알파 차단제 후 베타 차단제가 첫 단계 치료이다.
 
 ## 출처
 

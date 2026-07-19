@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 철 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중앙 창백이 증가하고 적혈구 크기 변이가 있는 경우는 철 결핍성 빈혈을 시사한다. 철 결핍은 미량 영양소 결핍 중 가장 흔하며, 환자의 식이와 증상과 일치한다. 따라서 철 결핍이 가장 가능성 높은 원인이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 염색체 삼염색체증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Rett 증후군은 정상 발달 후 급격한 언어·운동 퇴행을 보이며, MECP2 유전자의 X연관 우성 변이가 원인이다. 따라서 X연관 우성 유전 양식이 정답이다. X연관 열성은 주로 남아에서 나타난다.
 
 ## 출처
 

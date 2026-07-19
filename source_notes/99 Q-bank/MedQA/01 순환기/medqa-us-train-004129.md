@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경구 클로니딘
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 망막출혈·삼출은 고혈압성 위기에서 흔히 나타나는 급성 눈병변이다. 혈압 245/115 mmHg와 두통·시야 흐림은 고혈압성 응급을 시사한다. 정맥 니트로프루시드는 즉시 혈관을 확장시켜 혈압을 급격히 낮추는 1차 치료제이다.
 
 ## 출처
 

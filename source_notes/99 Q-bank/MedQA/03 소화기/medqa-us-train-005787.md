@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안심시키기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+간접 빌리루빈 상승과 스트레스 상황에서의 일시적 황달은 길버트 증후군을 시사한다. 치료가 필요 없으며, 환자를 안심시켜 주는 것이 적절한 관리이다. 따라서 다음 단계는 안심시키는 것이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 헤르페스성 손끝염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+모발 지혈대 증후군은 신생아의 손가락·발가락에 혈전성 색전이 생겨 부종·청색증을 일으키며, 주로 손가락보다 발가락에 나타난다. 사진과 증상이 이에 부합한다. 따라서 모발 지혈대 증후군이 정답이다.
 
 ## 출처
 

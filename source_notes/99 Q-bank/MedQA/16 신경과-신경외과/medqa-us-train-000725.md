@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 샤르코-마리-투스병(Charcot–Marie–Tooth disease)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Vincristine는 미세소관 억제제로 말초 신경 독성을 일으켜 손발 저림, 근력 약화, 반사 저하를 초래한다. 환자는 화학요법 중 vincristine 투여 후 말초 신경병증 증상을 보이므로, 가장 가능성 높은 원인은 vincristine 부작용이다.
 
 ## 출처
 

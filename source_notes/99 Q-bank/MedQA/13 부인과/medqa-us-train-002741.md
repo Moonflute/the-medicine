@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 경막외 혈액 주입술을 시행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경막외 시술 후 두통은 두개내압 감소와 뇌척수액 누출이 원인이며, 혈액을 경막외 공간에 주입해 누출을 차단하는 경막외 혈액 주입술이 치료에 가장 효과적이다. 응고검사·CSF 분석은 필요 없으며, 단순 안위는 충분치 않다.
 
 ## 출처
 

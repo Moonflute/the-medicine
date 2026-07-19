@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 속효성 인슐린(Regular insulin) 및 칼륨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈당 1400 mg/dL와 삼투성 탈수, 저나트륨혈증은 고삼투성 고혈당성 상태(HHS)를 나타낸다. HHS에서는 혈액량이 크게 감소하므로 먼저 혈관내액을 보충해야 하며, 젖산 링거액이 등삼투성 용액으로 적절하다. 따라서 초기 치료는 젖산 링거액 투여이다.
 
 ## 출처
 

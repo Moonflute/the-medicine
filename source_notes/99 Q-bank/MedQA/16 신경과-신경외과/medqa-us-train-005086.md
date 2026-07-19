@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전신 강직간대성 발작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구역, 눈앞에 번쩍이는 빛(오라) 후 전신 강직-간대성 발작(전신 발작) 후 5분간 혼돈(발작 후 혼돈)이 나타나는 전형적인 전신 강직-간대성 발작의 진행 양상이다. 가장 가능성 높은 진단은 국소발작이 양측 강직-간대성 발작으로 진행한 경우이다.
 
 ## 출처
 

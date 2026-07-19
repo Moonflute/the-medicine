@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 스타틴(Statin) 요법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압·당뇨·비만·LDL 130 mg/dL인 10‑년 ASCVD 위험이 10 % 이상으로 중등도 위험군에 해당한다. 40세 이상에서 10 % 이상이면 스타틴 치료가 권고된다. 따라서 스타틴 요법이 적절한 다음 관리이다.
 
 ## 출처
 

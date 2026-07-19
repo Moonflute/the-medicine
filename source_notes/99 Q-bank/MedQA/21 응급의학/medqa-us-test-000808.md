@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 진단되지 않은 폐렴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대량 출혈 후에도 혈압이 회복되지 않고 ScvO₂가 39%로 낮으며, 고압 산소에서도 혈압이 유지되지 않는 경우는 심장 압전(심낭혈종)으로 인한 폐쇄성 쇼크가 가장 흔하다. 이는 심장 눌림으로 순환이 차단되는 메커니즘이다. 따라서 가장 가능성 높은 원인은 심장눌림증이다.
 
 ## 출처
 

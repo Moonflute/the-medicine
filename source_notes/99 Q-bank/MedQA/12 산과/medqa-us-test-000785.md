@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정기 추적 진료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 10주인 여성에게 비침습적 세포 자유 DNA 검사는 고위험 군이 아니더라도 염색체 이상을 선별하는 가장 민감하고 안전한 방법이다. 따라서 다음 단계로 무세포 태아 DNA 검사가 적절하다.
 
 ## 출처
 

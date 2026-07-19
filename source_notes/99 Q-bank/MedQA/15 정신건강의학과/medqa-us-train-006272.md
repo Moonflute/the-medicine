@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -62,7 +64,8 @@ D. 지텔만 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+빈혈, 저칼륨, 대사성 알칼리증, 소변 클로라이드 저하가 반복적인 구토에 의한 위장성 저염소성 대사성 알칼리증을 보여주며 이는 신경성 폭식증에서 흔히 나타난다. (신경성 식욕부진증은 체중 감소와 저칼륨이 없을 수 있다)
 
 ## 출처
 

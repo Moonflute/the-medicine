@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 패혈성 쇼크
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+노인에게 항콜린제(할로페리돌·디펜히드라민) 투여 후 체온 상승, 피부 건조·홍조, 빈맥, 혼돈이 나타나는 비운동성 열사병은 약물 유발 열조절 장애이다. 이는 실제 열원 없이 체온이 상승한다. 따라서 비운동성 열사병이 가장 가능성 높은 진단이다.
 
 ## 출처
 

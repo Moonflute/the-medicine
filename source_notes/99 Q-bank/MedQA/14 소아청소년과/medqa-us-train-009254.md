@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복통, 구토, 혈액·점액·점액이 섞인 변, 오른쪽 하복부 종괴는 장중첩증(intussusception)을 시사한다. 진단에 가장 민감한 검사는 복부 초음파로, ‘target sign’이 보인다. 다른 영상은 진단 효율이 낮다.
 
 ## 출처
 

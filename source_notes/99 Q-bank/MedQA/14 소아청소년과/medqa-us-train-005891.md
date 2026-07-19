@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 16세까지 성인형 치모 분포가 없음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+사춘기의 최초 징후는 고환 비대로, 일반적으로 12~14세에 시작한다. 14세까지 고환이 커지지 않은 경우는 실제로 고환 비대가 지연된 것을 의미한다. 따라서 이 소견이 지연성 사춘기 진단을 뒷받침한다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기흉
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복강경 담낭절제술 후 3일 내 발열·기침·흉부 청진음은 수술 후 폐렴이 가장 흔한 합병증이다. 흉부 X‑ray에서 폐 실질 혼탁이 보이며, 항생제 치료가 필요하다. 따라서 폐렴이 정답이다.
 
 ## 출처
 

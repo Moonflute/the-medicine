@@ -21,11 +21,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -43,7 +45,8 @@ D. 비알코올성 지방간염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+황달·홍반·여성형 유방·복수·부종·간비대·간정맥 충진음은 만성 간경변을 시사한다. 바이러스성 간염이 가장 흔한 원인이며, 환자의 위험 요인(다중 성 파트너)도 이를 뒷받침한다. 따라서 가장 가능성 높은 기저 원인은 만성 바이러스성 간염이다.
 
 ## 출처
 

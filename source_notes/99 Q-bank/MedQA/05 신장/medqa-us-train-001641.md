@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 코니밥탄
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+뇌졸중 후 SIADH는 저나트륨혈증과 고요소 나트륨 배설을 특징으로 하며, 체액량은 정상 또는 약간 증가한다. 24시간 소변 Na+가 320 mEq/L로 높고 혈청 Na+가 130 mEq/L인 점이 핵심 단서이다. SIADH 치료는 체액 제한이 가장 효과적이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 취침 전에 멜라토닌 복용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년의 주간 졸림은 수면 부족이 원인이며, 주말에 늦게 일어나고 주중에 일찍 일어나는 패턴이 있다. 수면 시간을 늘리는 것이 가장 효과적이다. 따라서 가장 적절한 권고는 야간 수면 시간 늘리기이다.
 
 ## 출처
 

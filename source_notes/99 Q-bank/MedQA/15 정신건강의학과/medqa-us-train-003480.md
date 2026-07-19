@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 달리 분류되지 않은 성격장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 업무에 대한 과도한 완벽주의와 자기 자신만이 제대로 할 수 있다는 고집으로 직장 기능이 크게 저하된 상태이며, 이는 자기 자신에게 일치하는 강박적 성향을 보이는 자아동조적 강박성 성격장애와 일치한다. 다른 선택지는 강박장애(자아비동조)나 다른 성격장애와는 차이가 있다. 따라서 정답은 자아동조적 강박성 성격장애이다.
 
 ## 출처
 

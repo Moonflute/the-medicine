@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 적혈구 수혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 중증 ARDS에서 저산소증과 고PaCO₂를 보이며, 산소 전달을 개선하려면 호기말 양압(PEEP)을 증가시켜 폐포 재확장을 유도해야 한다. 체위 변경이나 일회호흡량 증가는 효과가 제한적이며 적혈구 수혈은 산소 운반량을 크게 늘리지 않는다. 따라서 정답은 호기말 양압 증가이다.
 
 ## 출처
 

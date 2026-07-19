@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. p53 종양억제유전자의 불활성화 변이
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑상선에 큰 고정된 무통성 종괴와 양측 경부 림프절 전이가 있으면 전이성 갑상선암보다 전이성 갑상선암이 아닌 전이성 갑상선암이 의심된다. 전이성 갑상선암 중 가장 흔한 형태는 전이성 갑상선암이며, 이는 p53 종양억제유전자의 불활성화와 강하게 연관된다. 따라서 가장 가능성 높은 유전자 변이는 p53 불활성화이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 즉시 개복술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+총상 후 혈역학적으로 안정된 환자는 복부 내 장기 손상이 의심될 때 가장 먼저 복부 CT를 시행해 손상 부위를 평가한다. 이는 비침습적이며 수술 필요성을 판단하는 표준이다. 따라서 복부 CT가 적절한 다음 단계이다.
 
 ## 출처
 

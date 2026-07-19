@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 혈장 글루카곤 수치
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+지속적인 무수성 설사는 VIP 과다분비 종양(VIPoma)에서 혈중 VIP가 크게 상승한다. 진단에 가장 유용한 검사는 혈장 VIP 수치 측정이다. 따라서 혈장 혈관활성 장 펩타이드 수치가 정답이다.
 
 ## 출처
 

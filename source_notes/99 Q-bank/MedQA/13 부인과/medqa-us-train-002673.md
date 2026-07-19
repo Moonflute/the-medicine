@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 양손 자궁 마사지
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+출산 직후 자궁이 확대된 상태에서 지속적인 출혈은 자궁 수축 부전(자궁 이완)이다. 가장 먼저 시행해야 할 조치는 양손 자궁 마사지를 통한 자궁 수축 촉진이다. 다른 약물은 마사지를 시행한 후에 고려한다.
 
 ## 출처
 

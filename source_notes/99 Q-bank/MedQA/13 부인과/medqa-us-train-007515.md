@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 나파렐린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐경 후 비정형 없는 단순 자궁내막 과형성은 프로게스틴(메게스트롤 아세테이트) 치료가 1차 선택이다. 에스트로겐제는 출혈을 악화시킬 수 있고, 아나스트로졸은 호르몬 억제제이지만 첫 선택이 아니다.
 
 ## 출처
 

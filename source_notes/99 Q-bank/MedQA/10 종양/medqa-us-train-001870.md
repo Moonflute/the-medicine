@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부 초음파에서 딸낭종이 보통 관찰된다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 B형 간염과 간경변에서 AFP가 크게 상승하고 불규칙한 저에코 종괴가 보이면 간세포암(HCC)이 가장 흔한 원인이다. 담관암은 AFP가 보통 상승하지 않으며 초음파에서 관찰되는 특징도 다르다. 따라서 진단은 간세포에서 발생한다이다.
 
 ## 출처
 

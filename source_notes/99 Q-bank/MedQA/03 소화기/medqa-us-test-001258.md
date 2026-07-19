@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대장벽의 동정맥 기형
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 신부전과 철결핍성 빈혈을 동반한 무통성 혈변은 대장벽의 동정맥 기형(AVM)에서 출혈이 가장 흔한 원인이다. AVM은 점막하 혈관이 비정상적으로 확장돼 출혈을 일으키며, 다른 선택지는 출혈 양상과 일치하지 않는다.
 
 ## 출처
 

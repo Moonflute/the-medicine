@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세포분열을 촉진하는 종양유전자 활성화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑상선 결절이 독성 선종으로 나타나고 방사성 요오드 섭취가 증가하며 주변 조직이 억제되는 패턴은 TSH 수용체의 기능획득 돌연변이에 의해 자극된 자율 기능성 결절을 의미한다. 따라서 기전은 TSH 수용체의 기능획득 돌연변이다.
 
 ## 출처
 

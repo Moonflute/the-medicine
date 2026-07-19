@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안심시키기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+최근에 유방촬영, 자궁경부암 검사, 대장내시경, 혈압·혈당·지질 검사 모두 정상이며, 대장내시경은 10년 주기로 재검사가 필요하므로 아직 시기상 아니다. HIV 검사는 과거 음성 결과가 있고 위험 요인이 없으며, 대변 잠혈검사는 대장내시경이 정상인 경우 추가 검사가 필요하지 않다. 따라서 현재는 별다른 추가 검사가 필요 없으므로 안심시켜 주는 것이 가장 적절하다.
 
 ## 출처
 

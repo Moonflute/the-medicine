@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 클라미디아와 임균 PCR
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+2차 매독(콘딜로마 라타)은 광범위한 피부 병변, 양성 RPR·FTA‑ABS, 그리고 동시 매독 검사 필요성을 나타낸다. 따라서 클라미디아·임균 PCR 검사가 다음 단계이다. 정답은 D.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 승모판막 역류
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+과거 연쇄상구균 감염 후 승모판 협착은 폐 울혈과 혈흔 섞인 기침을 일으킨다. 환자의 흉부 소견과 혈흔 섞인 기침이 이를 시사한다. 따라서 승모판 협착이 정답이다.
 
 ## 출처
 

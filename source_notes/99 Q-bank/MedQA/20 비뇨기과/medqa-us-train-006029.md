@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세픽심 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소아에서 급성 요폐가 의심될 때 방광이 팽창하고 소변 배출이 없으며 배뇨 시 통증이 있다면 즉시 경요도 카테터 삽입이 필요하다. 초음파·소변 검사는 보조적이며 세픽심은 필요하지 않다. 따라서 카테터 삽입이 다음 단계이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 생리식염수 적신 드레싱
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+광범위한 2도·3도 화상은 체액 손실과 화상성 쇼크 위험이 크며, 초기 24시간 내에 충분한 정맥 수액을 제공하는 것이 사망률을 가장 크게 낮춘다. 항생제나 국소 드레싱은 감염 예방에 도움이 되지만, 생존에 결정적인 요인은 아니다. 따라서 가장 효과적인 중재는 A이다.
 
 ## 출처
 

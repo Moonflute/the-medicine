@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 지지요법만 시행
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+설사와 지방변, 물에 서식하는 기생충(낭포) 노출은 Giardia lamblia 감염을 시사한다. 치료에 1차 선택 약물은 메트로니다졸이다. 따라서 가장 적절한 치료는 메트로니다졸이다.
 
 ## 출처
 

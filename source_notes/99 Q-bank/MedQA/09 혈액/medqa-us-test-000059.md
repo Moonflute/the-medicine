@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 면역성 혈소판감소성 자반증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+빈혈, 혈소판 감소, 고LDH, 분열적혈구, 급성 신부전은 용혈성 요독 증후군(HUS)을 시사한다. Shiga 독소에 의한 미세혈관 손상이 원인이다. 다른 선택지는 혈소판 감소만을 설명한다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: communication
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 가족에게 먼저 설명하고 환자에게는 알리지 않는다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+나쁜 소식 전달 시 환자와 충분히 대화할 수 있는 방해받지 않는 시간을 별도로 예약해 차분히 설명하는 것이 가장 적절한 의사소통 방법이다. 급히 전달하거나 가족에게만 알리는 것은 환자 중심 원칙에 어긋난다.
 
 ## 출처
 

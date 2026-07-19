@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 횡격막신경 마비
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+좌측 흉부 외상 후 호흡음 감소와 흉부 X선에서 위장관이 좌측 흉강으로 들어간 모습은 횡격막 파열을 시사한다. 급성 파열은 외상 후 가장 흔한 횡격막 손상이다. 따라서 가장 가능성 높은 진단은 횡격막 파열이다. 식도 천공은 주로 구토 후 발생한다.
 
 ## 출처
 

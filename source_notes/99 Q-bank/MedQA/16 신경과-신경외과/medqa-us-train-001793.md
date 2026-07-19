@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 진드기 마비
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+피로와 근력 저하, 안구진탕(복시) 등은 근육 피로가 특징인 중증근무력증을 시사한다. 이 질환은 자가면역성 AChR 항체에 의해 신경근 접합부가 차단돼 증상이 악화된다. 다른 선택지는 증상 패턴과 맞지 않는다.
 
 ## 출처
 

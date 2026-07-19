@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 내림프수종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+노년기에 청력 감소와 이명, 특히 배경 소음에서 말소리 이해가 어려운 경우는 감각신경성 난청인 노인성 난청이다. 이는 달팽이관 내 청각 유모세포의 퇴행이 주요 병인이다. 따라서 가장 가능성 높은 원인은 달팽이관 유모세포 퇴행이다.
 
 ## 출처
 

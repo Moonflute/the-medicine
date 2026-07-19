@@ -23,11 +23,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -45,7 +47,8 @@ D. 혈장 교환술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 혈소판 감소와 신부전, 빈혈을 동반한 중증 용혈성 요독증후군(TTP)으로 보이며, 혈장 교환이 가장 효과적인 치료이다. 혈장 교환은 ADAMTS13 결핍을 보충하고 미세혈전 형성을 차단한다. 따라서 가장 적절한 치료는 혈장 교환술이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경막외혈종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두부 외상 후 1시간 이내에 의식 소실, 구토, 경련이 나타났으며, 두개골 골절 없이 국소적인 두통·멍이 있는 경우 경막외혈종이 가장 흔한 원인이다. CT에서 급성 혈종이 보이지 않을 수 있으나 임상 양상이 일치한다. 따라서 정답은 경막외혈종이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐쇄각 녹내장
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐쇄각 녹내장은 급성 안구 통증, 구름 같은 시야, 중간 크기로 고정된 동공, 각막 부종을 특징으로 하며, 안압 상승이 급속히 진행한다. 환자의 증상과 안과 소견이 이와 일치한다. 따라서 폐쇄각 녹내장이 정답이다.
 
 ## 출처
 

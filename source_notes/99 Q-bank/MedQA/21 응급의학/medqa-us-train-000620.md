@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. Hb 17 g/dL, Hct 20%
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심한 저혈압과 빈맥은 저혈량성 쇼크를 의미한다. 초기 출혈성 쇼크에서는 혈액량이 감소해도 혈색소와 헤마토크릿은 정상 범위(헴희석)로 유지된다. 따라서 Hb 15 g/dL, Hct 45%가 가장 흔한 결과이다.
 
 ## 출처
 

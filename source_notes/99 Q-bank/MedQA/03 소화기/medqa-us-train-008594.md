@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 상행성 담관염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+상복부 통증이 등으로 방사되고, 혈청 아밀라아제 상승이 3,000 U/L 이상이며, 고열·구토·오한이 동반된 경우는 급성 담석성 췌장염을 가장 시사한다. 담석증은 통증이 간헐적이며, 총담관결석은 황달을 동반하고, 상행성 담관염은 황달·간 효소 상승이 두드러진다.
 
 ## 출처
 

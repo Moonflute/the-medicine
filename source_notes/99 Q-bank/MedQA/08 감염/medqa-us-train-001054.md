@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. Erythromycin
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Nocardia는 약산성 염색에서 약하게 항산성으로 보이며, 가지 모양의 그람 양성 막대균이다. 면역억제 환자에서 폐 감염 후 뇌 전이성 병변이 링 강화 형태로 나타난다. 치료 1차 선택은 trimethoprim‑sulfamethoxazole이다.
 
 ## 출처
 

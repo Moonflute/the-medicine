@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 진단되지 않은 바이러스 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비장은 혈액 내 미생물과 항원을 제거하는 기능을 담당한다. 비장절제로 인한 단일 장기의 면역기능 상실(무비증)이 폐렴구균 같은 그람양성 쌍구균 감염 위험을 크게 높인다. 정답은 단일 장기의 기능장애이다.
 
 ## 출처
 

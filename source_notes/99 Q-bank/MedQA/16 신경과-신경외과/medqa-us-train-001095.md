@@ -16,11 +16,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 프라미펙솔(pramipexole) 투여 시도
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 다리 움직임 충동과 수면 방해를 동반한 불안정 다리 증후군(RLS) 증상을 보이며, 안구 결막이 약간 창백한 것은 빈혈을 시사한다. RLS는 철 결핍성 빈혈과 연관이 높으며, 특히 노인에서는 위장관 출혈이 원인일 수 있다. 따라서 원인 질환을 찾기 위해 위·대장내시경으로 출혈 원인을 확인하는 것이 가장 적절하다.
 
 ## 출처
 

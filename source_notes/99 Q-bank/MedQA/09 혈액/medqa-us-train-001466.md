@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 리툭시맙
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+백혈구 65,000/mm³와 말초 혈액 도말에서 미성숙 골수세포가 보이는 경우 만성 골수성 백혈병(CML)이 의심된다. 표적 BCR‑ABL 억제제인 다사티닙이 1차 치료제로 권장된다. 따라서 다사티닙 투여가 적절하다.
 
 ## 출처
 

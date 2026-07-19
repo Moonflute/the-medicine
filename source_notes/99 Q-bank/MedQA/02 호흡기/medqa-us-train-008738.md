@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐쇄성 세기관지염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+미숙아에서 장기간 기계환기 후 나타나는 폐질환은 기관지폐이형성증(브론코폐이형성증)이며, 특징적인 흉부 청진음과 X‑ray 소견이 일치한다. 따라서 가장 가능성 높은 진단은 기관지폐이형성증이다.
 
 ## 출처
 

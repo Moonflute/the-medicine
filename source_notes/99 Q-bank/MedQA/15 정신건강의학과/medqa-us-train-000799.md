@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 단기 정신병적 장애(Brief psychotic disorder)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비현실적 사고와 사회적 위축, 마법적 사고는 비정형적 사고 양상이며, 장기간 지속되고 기능 장애가 없으므로 조현형 성격장애가 가장 적절하다. 조현병은 양성·음성 증상이 뚜렷하고 6개월 이상 지속된다. 여기서는 성격 특성에 해당한다.
 
 ## 출처
 

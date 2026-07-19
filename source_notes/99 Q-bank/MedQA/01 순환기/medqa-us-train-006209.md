@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 운동을 중단하고 약물 스트레스 검사 시행
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 중 흉통이 악화되고 혈압이 떨어졌으며 허혈 변화가 없을 경우, 심근 허혈이 의심되므로 관상동맥조영술을 통해 혈관 상태를 확인해야 한다. 다른 선택지는 추가 검사가 필요하지 않은 상황이다. 따라서 다음 단계는 관상동맥조영술 시행이다.
 
 ## 출처
 

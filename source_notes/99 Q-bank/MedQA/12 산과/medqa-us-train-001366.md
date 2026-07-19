@@ -16,11 +16,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 퓨린 및 티미딜레이트 합성 실패
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 혈액량이 증가하면서 혈장량이 늘어나 혈액이 희석돼 헤마토크리트가 감소한다. 이는 생리적 빈혈의 주요 원인이다. 따라서 혈장량 증가가 가장 가능성 높은 원인이다.
 
 ## 출처
 

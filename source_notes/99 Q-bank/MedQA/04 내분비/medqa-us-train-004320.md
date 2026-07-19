@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메트포르민 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년 비만과 고중성지방혈증, 낮은 HDL는 생활습관 교정이 1차 치료이다. 저열량 식이와 체중 감량이 혈당·지질 개선에 가장 효과적이다. 따라서 가장 적절한 다음 관리는 저열량 식이다.
 
 ## 출처
 

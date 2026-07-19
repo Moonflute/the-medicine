@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세프트리악손과 독시사이클린 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+음낭이 단단하고 부어 있으며 고환 압통이 지속되고 크레마스터 반사가 사라진 경우 고환염전(염전)으로, 급성 고환염전은 음낭 탐색 수술이 표준 치료이다. 따라서 음낭 수술적 탐색이 적절하다.
 
 ## 출처
 

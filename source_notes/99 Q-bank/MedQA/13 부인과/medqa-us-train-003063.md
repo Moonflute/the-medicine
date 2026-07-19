@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 근육 내 세프트리악손과 경구 독시사이클린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+PID 치료는 임질과 클라미디아를 동시에 커버하는 세프트리악손(경구)과 독시사이클린(경구) 병용이 표준이다. 따라서 근육 내 세프트리악손과 경구 독시사이클린이 적절하다.
 
 ## 출처
 

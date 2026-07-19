@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 나트륨 통로 길항제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+안정 시 손 떨림, 손가락-코 검사 시 호전, 정상 인지·보행은 파킨슨병 초기형을 시사한다. 파킨슨병 1차 치료는 항콜린제가 가장 효과적이다. 따라서 항콜린제 계열을 시작한다.
 
 ## 출처
 

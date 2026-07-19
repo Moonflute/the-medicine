@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 인지행동치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 흉통·빈맥·고혈압·과호흡은 공황발작을 나타내며 호흡을 늦추고 알프라졸람으로 진정시키는 것이 1차 치료이다. 다른 선택지는 심혈관 급성 치료에 해당한다. 따라서 정답은 알프라졸람·안심시키기(B)이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아연 보충
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+건조하고 비늘 모양의 피부와 다발성 탈모는 아연 결핍에 흔히 동반되는 증상이다. 알코올 남용과 영양소 섭취 감소가 아연 결핍을 초래해 모낭 성장 억제와 탈모를 일으킨다. 아연 보충은 모낭 세포 증식을 회복시켜 탈모를 직접 개선한다. 반면 피나스테리드는 남성형 탈모에만 효과가 있어 이번 경우와는 관련이 없다.
 
 ## 출처
 

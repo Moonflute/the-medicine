@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 문합부 협착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+부분 위절제 후 장간 폐쇄가 없고, 저단백혈증·거대적혈구증·말초 신경 손상이 동반된 경우 세균 과증식이 흔히 발생한다. 장내 세균 과증식은 영양소 흡수 장애와 비타민 결핍을 일으켜 위의 이상 소견을 설명한다. 따라서 가장 가능성 높은 원인은 세균 과증식이다.
 
 ## 출처
 

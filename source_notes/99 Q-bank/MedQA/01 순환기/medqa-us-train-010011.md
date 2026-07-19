@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고혈압성 긴급
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 신기능 악화(Cr 2.3 mg/dL)와 중등도 혈압 상승을 동반한 매우 높은 혈압(197/105 mmHg)으로 장기 손상(신장) 증거가 있다. 이는 고혈압성 응급에 해당한다. 따라서 고혈압성 응급이 정답이다.
 
 ## 출처
 

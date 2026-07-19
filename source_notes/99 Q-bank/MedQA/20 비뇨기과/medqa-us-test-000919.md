@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프로스타글란딘 E2를 처방한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병성 자율신경병증으로 인한 신경인성 방광는 배뇨가 어려워 방광이 과도하게 팽창한다. 급성 폐쇄를 완화하기 위해 방광 도뇨관 삽입이 가장 적절한 관리이다.
 
 ## 출처
 

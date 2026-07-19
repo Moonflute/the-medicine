@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 불안에 대한 정신과 평가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 서 있을 때 실신 전 증상(현기증, 발한, 두근거림)과 혈압 변화가 거의 없으며, 상황성 실신이 의심된다. 첫 번째 단계는 심장 전도 및 리듬 이상을 확인하기 위한 심전도 검사이다. 따라서 다음에 시행할 검사는 ECG이다.
 
 ## 출처
 

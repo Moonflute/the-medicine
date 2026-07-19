@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 외측 대퇴피신경 손상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+출산 후 오른쪽 발등과 발목 외번, 발등 굴곡 약화, 외측 종아리 감각 저하는 총비골신경(외측 종아리 신경) 압박에 해당한다. 이는 산후 장시간 자세와 골반 압박으로 발생한다. 다른 선택지는 마취나 다른 신경 손상과 일치하지 않는다.
 
 ## 출처
 

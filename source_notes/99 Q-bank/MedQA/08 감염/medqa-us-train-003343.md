@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 리팜핀, 이소니아지드, 피라진아미드, 에탐부톨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 흉막삼출에 저당도, 림프구 우세는 결핵성 흉수의 특징이다. 결핵성 흉수는 항결핵 4제(RIP E) 치료가 표준이다. 따라서 가장 적절한 치료는 리팜핀, 이소니아지드, 피라진아미드, 에탐부톨 복합 요법이다.
 
 ## 출처
 

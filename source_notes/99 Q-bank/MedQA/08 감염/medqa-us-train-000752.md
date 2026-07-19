@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 건 파열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+설사와 유당 불내증이 동반된 경우 Giardia lamblia 감염 치료에 메트로니다졸을 사용하면 디설피람 유사 반응이 나타날 수 있다. 메트로니다졸은 알코올 탈감소효소를 억제해 디설피람과 유사한 증상을 유발한다. 따라서 치료 부작용으로 디설피람 유사 반응이 옳다.
 
 ## 출처
 

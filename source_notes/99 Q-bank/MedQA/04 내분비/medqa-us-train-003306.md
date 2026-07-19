@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 복부 선조
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+시상하부-뇌하수체 종양이 비기능성일 경우 호르몬 과다분비가 없으며, 매크로아데노마는 시야 결손(주변시야 저하)과 무증상 성장을 일으킨다. 가장 흔한 비기능성 합병증은 성기능 저하(발기부전)이다. 따라서 정답은 C이다.
 
 ## 출처
 

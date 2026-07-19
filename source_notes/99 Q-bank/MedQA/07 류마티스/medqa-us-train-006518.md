@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 알로푸리놀
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+재발성 통풍 발작을 예방하려면 요산 저하제가 필요하다. 알로푸리놀은 요산 생성 억제제로 장기 예방에 1차 선택이며, 프로베네시드·페글로티케이스는 부작용이 크고 아스피린은 급성 발작에만 효과적이다.
 
 ## 출처
 

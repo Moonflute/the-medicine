@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 간담도 이미노디아세트산 스캔
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+황달과 용혈성 빈혈, 하인츠 소체는 G6PD 결핍을 시사한다. 메트헤모글로빈 환원검사는 G6PD 효소 결핍을 확인하는 특이 검사가 된다. 따라서 메트헤모글로빈 환원검사가 가장 도움이 된다.
 
 ## 출처
 

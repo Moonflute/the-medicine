@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 천골 질고정술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+질 내 이물감이 서 있을 때 악화되고 자궁경부가 질 입구까지 내려온 것은 1도 골반장기탈출증이다. 초기 단계에서는 지지 페서리로 질벽을 복원하는 것이 가장 적절한 치료이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 광선치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+잠들기와 수면 유지에 어려움을 겪는 노인에서 수면 위생 교육 후 약물 치료가 필요하면 비벤조디아제핀인 졸피뎀을 1차 선택한다. 졸피뎀은 수면 구조를 크게 변형시키지 않으며, 노인에게 비교적 안전한 프로파일을 가진다. 따라서 다음 단계는 졸피뎀 투여이다.
 
 ## 출처
 

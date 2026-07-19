@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Chlamydia trachomatis
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+성관계 후 서혜부에 고름을 배출하는 통증성 종괴는 림프절성 육아종증(LGV)과 일치한다. 이는 Chlamydia trachomatis L1‑L3에 의한 감염이 원인이다. 따라서 가장 가능성 높은 원인균은 Chlamydia trachomatis이다.
 
 ## 출처
 

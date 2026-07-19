@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 6개월 후 세포검사와 HPV 동시검사 반복
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고등급 편평상피내 병변과 HPV 양성, CIN 1 생검이지만 병변이 광범위하고 미세점이 보이는 경우는 진행 위험이 높다. 고등급 병변은 LEEP(루프 전기절제술)으로 완전 절제하는 것이 표준 관리이다. 따라서 다음 단계는 루프 전기절제술이다.
 
 ## 출처
 

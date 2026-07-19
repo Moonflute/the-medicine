@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 손발톱진균증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐생검에서 대식세포 내 타원형 효모와 괴사성 육아종이 관찰된 것은 Histoplasma capsulatum 감염을 시사한다. 이 균은 미시시피강 유역 등 토양에서 흡입 시 폐에 육아종성 폐렴을 일으킨다. 따라서 가장 가능성 높은 진단은 히스토플라스마증이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 콜라게나아제 주사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손바닥에 섬유성 띠와 수축성 수축은 Dupuytren 수축증을 나타낸다. 콜라게나아제 주사는 섬유 조직을 분해해 수축을 완화시키는 비수술적 치료법이다. 따라서 가장 적절한 치료는 콜라게나아제 주사이다.
 
 ## 출처
 

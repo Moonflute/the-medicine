@@ -16,11 +16,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 칼슘 보충 (Calcium replacement)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑상선 전절제 후 저칼슘혈증이 흔히 발생하며, 손가락·입술 주위 저림, 손과 팔 근육 경련은 저칼슘 증상이다. 즉시 칼슘 보충이 필요하다. 따라서 정답은 칼슘 보충이다.
 
 ## 출처
 

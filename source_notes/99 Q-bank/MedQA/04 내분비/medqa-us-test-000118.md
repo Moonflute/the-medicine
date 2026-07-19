@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메토프롤롤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 신부전과 메트포르민 복용이 있으며, 혈중 HCO₃⁻ 11 mEq/L와 고혈당은 메트포르민에 의한 젖산산증을 나타낸다. 신기능 저하 시 메트포르민 대사가 축적돼 대사성 산증을 일으킨다.
 
 ## 출처
 

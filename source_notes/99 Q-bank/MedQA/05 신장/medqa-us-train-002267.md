@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 체액 과다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+에리스로포이에틴은 적혈구 생산을 촉진하지만 혈압 상승을 흔히 일으킨다. 환자의 고혈압은 에리스로포이에틴 투여와 가장 연관성이 높다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 헤모글로빈 알파 사슬 결함
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아 황달이 2일 차에 나타나고 직접 빌리루빈이 거의 정상이며 체중 감소와 수유 빈도가 낮은 경우는 모유수유 부족에 의한 생리적 황달이다. 따라서 원인은 불충분한 모유수유이다.
 
 ## 출처
 

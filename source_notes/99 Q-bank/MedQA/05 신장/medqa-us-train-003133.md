@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 췌장 신경내분비 종양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 신장 종괴와 고혈압, 신기능 저하가 동반된 경우, 다낭성 신장 질환(ADPKD)에서 뇌동맥류 발생 위험이 가장 높다. 신장 낭종과 연관된 혈관벽 약화가 뇌동맥류 형성을 촉진한다. 따라서 가장 높은 위험 합병증은 승모판 탈출이 아닌 뇌동맥류이며, 정답은 C이다.
 
 ## 출처
 

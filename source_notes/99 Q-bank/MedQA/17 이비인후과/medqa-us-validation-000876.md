@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 사골동 세균감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+2주 전 상기도 감염 후 안와통증·안구돌출·안구운동통은 사골동(위축성 안와염) 감염을 시사한다. 사골동은 인접한 부비동 감염이 전이된 경우가 많으며, 가장 흔한 원인은 부비동의 세균성 감염이다. 따라서 가장 가능성 높은 원인은 사골동 세균감염이다.
 
 ## 출처
 

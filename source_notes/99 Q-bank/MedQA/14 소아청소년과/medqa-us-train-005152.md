@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 에피네프린 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+출생 직후 호흡곤란, 저산소증, 청색증이 지속되는 신생아는 양압환기(CPAP)가 기도 유지와 가스 교환을 개선한다. 양압환기는 인공호흡보다 덜 침습적이며 즉각적인 산소화 개선에 효과적이다. 따라서 양압환기 시행이 가장 적절한 처치이다.
 
 ## 출처
 

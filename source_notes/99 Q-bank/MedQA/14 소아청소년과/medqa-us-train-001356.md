@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 순수 생식선 형성 부전증 (Pure gonadal dysgenesis)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무월경, 외음부 골격 결손, 정상 유방 발달, 남성형 외음부는 무월경 증후군(Müllerian duct agenesis)과 일치한다. 이는 Müller관이 형성되지 않아 자궁이 없고, 정상 난소가 존재한다. 따라서 가장 가능성 높은 원인은 Müller관 무형성증이다.
 
 ## 출처
 

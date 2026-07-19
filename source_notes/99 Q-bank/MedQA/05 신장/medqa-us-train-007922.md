@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 식이섬유 섭취
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+말기 신부전 환자는 혈액투석 시 단백질 손실이 증가하므로 근육량 유지와 영양 상태 보전을 위해 단백질 섭취를 늘려야 한다. 따라서 정답은 단백질 섭취이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 로타바이러스, B형간염, A형간염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+6개월 영아는 DTaP 3차, IPV 4차, Hib 3차, PCV13 3차, 로타바이러스 3차 접종이 권고된다. 선택지 B가 이 모든 백신을 포함하고 있다. 따라서 B가 정답이다.
 
 ## 출처
 

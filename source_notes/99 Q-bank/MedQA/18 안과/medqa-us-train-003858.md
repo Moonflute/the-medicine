@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 레이저 응고술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+망막 기원 종양(레티노블라스토마)이 시신경과 유리체까지 침범한 경우 시력 보존이 어렵고, 안구 내 종양이 남아 있으면 사망 위험이 있다. 표준 치료는 안구 적출술이다. 다른 국소 치료는 진행된 침범에 비효과적이다. 따라서 정답은 안구 적출술이다.
 
 ## 출처
 

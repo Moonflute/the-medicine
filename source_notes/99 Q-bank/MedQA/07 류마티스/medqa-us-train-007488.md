@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 메트포르민을 추가한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+메토트렉세이트는 엽산 대사를 방해해 거대적아구성 빈혈을 유발한다. 폴린산 보충은 이러한 부작용을 예방한다. 비타민 B12나 혈압 약물 교체는 관련이 없으며 메트포르민은 위험을 감소시키지 않는다.
 
 ## 출처
 

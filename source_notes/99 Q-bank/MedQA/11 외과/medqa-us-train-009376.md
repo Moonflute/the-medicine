@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 변호사에게 연락해 생검 동의를 받는다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 중 우연히 발견된 위 종괴에 대한 생검은 환자에게 사전 동의를 받아야 한다. 수술 후 깨어난 상태에서 환자에게 동의를 구하는 것이 윤리적으로 올바른 절차이다. 따라서 적절한 조치는 수술 후 환자에게 생검 동의를 받는 것이다.
 
 ## 출처
 

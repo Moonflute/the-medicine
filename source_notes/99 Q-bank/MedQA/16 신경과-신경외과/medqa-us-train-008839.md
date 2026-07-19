@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 단일신경절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+증상은 전정관에 위치한 이석이 움직여 발생하는 양성 발작성 체위성 현기증(BPPV)이다. 이석을 반고리관의 가장 중간 부분으로 이동시키는 이석 정복술(에플리 재위치법)이 치료에 가장 효과적이다. 따라서 이석 정복술이 치료법이다.
 
 ## 출처
 

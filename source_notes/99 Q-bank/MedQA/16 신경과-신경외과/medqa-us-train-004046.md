@@ -18,11 +18,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 흡연
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경동맥 내막절제술 후 고혈압은 뇌 과관류 증후군(고혈압성 뇌출혈)의 가장 강한 위험인자이며, 환자는 수술 후 고혈압이 심해져 증상이 나타났다. 따라서 고혈압이 주요 소인이다.
 
 ## 출처
 

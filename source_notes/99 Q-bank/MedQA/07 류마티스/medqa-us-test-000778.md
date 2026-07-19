@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 알로푸리놀
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 전신 통증, 수면 장애, 다발성 압통점은 섬유근육통을 특징짓는다. 1차 약물 치료로는 통증과 우울·불안을 완화하는 SSRI가 흔히 사용된다. 파록세틴이 가장 적절한 선택이다.
 
 ## 출처
 

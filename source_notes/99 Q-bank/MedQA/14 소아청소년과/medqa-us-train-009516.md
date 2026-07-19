@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 레보티록신 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고전적 갈락토스혈증은 갈락토스 섭취 시 급성 간·신부전·백내장을 일으키며, 장기 합병증을 예방하려면 갈락토스와 락토오스를 완전히 제한해야 한다. 우유는 락토오스를 함유하므로 중단이 필요하고, 포도당 수유는 이미 시행하고 있다. 따라서 우유 수유 중단이 정답이다.
 
 ## 출처
 

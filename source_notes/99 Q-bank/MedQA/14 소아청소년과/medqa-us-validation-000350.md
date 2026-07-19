@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 진단검사로 이소성 위 조직의 위치를 확인한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무통성 혈변과 경미한 철결핍을 동반한 영유아에게는 메켈 게실이 흔한 원인이다. 진단에 특이적인 검사는 기술튬‑99m 퍼테크네이트 스캔으로, 이소성 위점막의 위치를 확인한다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 근전도에서 근섬유다발수축과 양성 예파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+람버트-이튼 근무력증후군은 전압개폐성 칼슘채널(대전압 Ca²⁺)에 대한 자가항체가 원인이며, 근육 피로와 반사 증가가 특징이다. 항체 검사는 질병을 확인하는 가장 특이적인 검사이다.
 
 ## 출처
 

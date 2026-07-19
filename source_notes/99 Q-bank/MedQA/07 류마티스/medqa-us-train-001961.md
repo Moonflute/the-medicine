@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Probenecid
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 통풍 발작 후 재발을 예방하는 가장 효과적인 초기 중재는 생활습관 교정(저퓨린 식이, 체중 감량, 알코올 제한)이다. 약물(알로퓨리놀 등)은 급성기 이후에 고려한다. 따라서 생활습관 조치가 최선이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안심시키고 관찰한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 후기의 하지 부종과 경미한 호흡곤란은 생리적 현상이며, 별다른 이상 소견이 없다. 따라서 추가 검사 없이 관찰하고 안심시키는 것이 적절하다. 소변검사나 도플러 초음파는 병리적 부종을 의심할 때 필요하다.
 
 ## 출처
 

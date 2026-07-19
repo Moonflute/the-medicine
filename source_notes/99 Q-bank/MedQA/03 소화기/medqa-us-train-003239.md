@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 피부단자검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 IgA 결핍 상태에서 설사와 영양실조가 나타나며, 셀리악병을 의심한다. IgA 결핍 환자는 전통적인 IgA‑anti‑tTG 검사가 음성일 수 있어 IgG 탈아미드화 글리아딘 펩타이드 검사가 진단에 더 민감하다. 따라서 다음 단계는 IgG 탈아미드화 글리아딘 펩타이드 검사이다.
 
 ## 출처
 

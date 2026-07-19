@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 파록세틴에서 리튬(lithium) 치료로 변경한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우울증 치료 후 6개월 이상 지속적인 증상 호전이 확인되면 최소 2년간 항우울제 유지가 권고된다. 따라서 파록세틴을 2년간 지속하는 것이 적절하다.
 
 ## 출처
 

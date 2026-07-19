@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프로프라놀롤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+트라조돈은 α2-아드레날린 수용체를 차단해 음경 평활근 이완을 촉진, 질소산화물 경로를 강화하여 지속적 발기를 일으킬 수 있다. 이 약물은 지속발기증(프리포즈) 가장 흔한 원인 약물이다. 따라서 트라조돈이 가장 가능성 높은 원인이다.
 
 ## 출처
 

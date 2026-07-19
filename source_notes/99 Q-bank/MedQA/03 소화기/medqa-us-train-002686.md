@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 현재는 수술치료를 하지 않는다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+BMI > 35 kg/m²에 위식도역류가 동반된 경우, 체중 감소와 역류 개선을 동시에 달성할 수 있는 Roux‑en‑Y 위우회술이 가장 효과적인 수술법이다. 위밴드술은 역류 개선 효과가 제한적이며, 다른 선택지는 적절치 않다. 따라서 Roux‑en‑Y 위우회술이 정답이다.
 
 ## 출처
 

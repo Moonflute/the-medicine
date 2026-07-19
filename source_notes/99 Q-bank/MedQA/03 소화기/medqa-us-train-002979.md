@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 원발성 경화성 담관염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+궤양성 대장염에서 선와 농양과 구조 왜곡이 보이며, 이는 원발성 경화성 담관염(PSC)과 강하게 연관된다. PSC는 UC 환자에서 가장 흔히 발생한다.
 
 ## 출처
 

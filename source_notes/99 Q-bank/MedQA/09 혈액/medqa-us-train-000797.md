@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 자당 용혈 검사(Sucrose hemolysis test)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+이 환자는 용혈성 빈혈, 간정맥 혈전증, 고 LDH, 저 혈색소 등 파보날성 야간 혈색소증(PNH) 소견을 보이며, 확진을 위해 클론성 혈구 표면 항원 분석이 필요하다. 유세포 분석은 CD55·CD59 결핍을 확인한다. 따라서 가장 가능성 높은 검사는 유세포 분석이다.
 
 ## 출처
 

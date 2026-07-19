@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 테리파라타이드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고칼슘혈증이 PTH 저하와 함께 나타난 것은 악성 종양에 의한 PTH 비의존성 고칼슘혈증을 시사한다. 비스포스포네이트는 골흡수를 억제해 혈중 칼슘을 낮추고 재발을 예방한다. 따라서 장기 예방에 알렌드로네이트가 가장 적절하다.
 
 ## 출처
 

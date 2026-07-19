@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 시상하핵 뇌졸중
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+목표지향적 저주파 의도떨림은 소뇌와 소뇌-뇌간 연결의 탈수초화(다발성 경화증)와 연관된다. 환자의 다른 신경학적 소견도 이를 뒷받침한다. 따라서 정답은 소뇌 탈수초화이다.
 
 ## 출처
 

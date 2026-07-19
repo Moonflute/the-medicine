@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아토르바스타틴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+플루페나진은 GABA 작용을 억제해 저체온, 저혈압, 저호흡을 일으키는 신경이완제 악성 증후군을 유발한다. 환자의 저체온·저호흡·저혈압이 이 약물에 의한 부작용을 시사한다.
 
 ## 출처
 

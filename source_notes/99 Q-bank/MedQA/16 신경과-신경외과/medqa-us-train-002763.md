@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 라모트리진
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+첫 발작 후 원인 불명일 경우 표준 평가는 뇌파검사(EEG)이며, 이는 간질 진단에 필수적이다. 약물 투여나 기타 검사는 EEG 결과에 따라 결정한다. 따라서 뇌파검사가 적절한 다음 단계다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대리인에 의한 인위성 장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 질출혈과 지속적인 혈뇨는 인위적인 자해(인위성 장애)와 일차적 이득(신체적 증상)과 연관될 수 있다. 일차적 이득을 동반한 인위성 장애가 가장 타당한 진단이다. 따라서 정답은 일차적 이득을 동반한 인위성 장애이다.
 
 ## 출처
 

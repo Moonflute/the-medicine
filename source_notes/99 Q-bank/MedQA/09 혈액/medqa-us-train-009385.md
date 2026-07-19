@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 증상 발작 사이의 추가 휴식
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈우병 환자는 관절 내 출혈로 인한 hemarthrosis가 반복되며, 관절 손상을 예방하려면 출혈이 없는 기간 동안 충분한 휴식을 취해 관절을 보호해야 한다. 따라서 추가 휴식이 예방적 치료이다.
 
 ## 출처
 

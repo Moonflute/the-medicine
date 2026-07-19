@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 FSH 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+성선자극호르몬 방출호르몬 검사는 뇌하수체 기능을 평가하지만, 원발성 무월경에서 고 FSH는 원발성 난소 부전(고곤다트성)임을 시사한다. 따라서 혈청 FSH 측정이 가장 직접적인 검증이다.
 
 ## 출처
 

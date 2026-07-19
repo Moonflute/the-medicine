@@ -20,11 +20,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -42,7 +44,8 @@ D. 환자는 알코올 사용 장애 및 C형 간염 병력으로 인해 Noxbinl
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Noxbinle(토루리무스)은 당뇨병 환자에서 혈당 조절 악화를 일으킬 위험이 있어, 당뇨병 병력이 있는 환자는 사용에 부적합하다. 따라서 해당 진술이 가장 정확하다.
 
 ## 출처
 

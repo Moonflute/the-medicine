@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 갑상선 신티그래피
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+TSH가 억제된 상태에서 갑상선 결절이 악성일 가능성을 평가하려면 갑상선 기능을 초과하는 결절을 확인하는 신티그래피가 필요하다. 이는 방사성 요오드 또는 테크네튬을 이용해 결절의 활성을 평가한다. 따라서 다음 단계는 갑상선 신티그래피이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 교감성 안염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+한쪽 안구 손상 후 2주 내에 반대쪽 눈에 충혈·시력 저하가 나타나는 경우 교감성 안염(동공동반성 안염)이 흔히 발생한다. 이는 외상 후 교감신경 자극으로 안구 표면 염증이 양안에 나타나는 현상이다. 따라서 교감성 안염이 가장 가능성 높은 진단이다.
 
 ## 출처
 

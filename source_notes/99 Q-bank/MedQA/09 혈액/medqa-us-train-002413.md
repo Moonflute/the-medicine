@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 혈관외 용혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아프리카계 미국인 소아에서 급성 복통, 비장 비대, 비정상적인 비포합 빌리루빈 상승은 겸상 적혈구병의 혈관외 용혈(비장 파괴)과 일치한다. 따라서 혈관외 용혈이 가장 가능성 높은 설명이다.
 
 ## 출처
 

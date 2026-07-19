@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 말초신경 탈수초화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+2일간의 균형 장애와 조정운동 장애, 비타민 B1 결핍(웨르니케) 위험이 있는 채식주의 어린이에게서 급성 트리프토판 결핍성 소뇌성 실조가 의심된다. 수두‑대상포진 바이러스는 이와 무관하다.
 
 ## 출처
 

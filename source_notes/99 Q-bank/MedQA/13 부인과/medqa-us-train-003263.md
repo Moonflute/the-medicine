@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 융모막융모검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+AFP 상승은 태아의 신경관 결손을 시사한다. 2차 검증으로는 2차 초음파(임신 18‑22주)로 구조적 결함을 확인한다. 양수천자·침습 검사는 필요하지 않다. 따라서 초음파 검사가 다음 단계이다.
 
 ## 출처
 

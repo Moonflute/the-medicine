@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 공복 혈청 가스트린 수치 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복되는 위·십이지장 궤양과 출혈이 지속되는 경우, 위산 과다 분비를 의심한다. 공복 혈청 가스트린 수치는 가스트린 종양(졸링거‑엘리슨 증후군)을 진단하는 가장 직접적인 검사이다. 따라서 다음 단계는 공복 혈청 가스트린 측정이다.
 
 ## 출처
 

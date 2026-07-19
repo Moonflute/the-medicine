@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 담즙산 수지
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+총 콜레스테롤 263 mg/dL·HDL 36 mg/dL는 저밀도 지질 이상이며, 10 년 ASCVD 위험이 중·고위험군에 해당한다. 1차 예방에서는 스타틴이 1차 선택 약물이다. 따라서 HMG-CoA 환원효소 억제제(스타틴) 투여가 적절하다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 토포테칸 기반 화학요법과 흉부 방사선치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+제한기 소세포폐암 2기에서는 동시 방사선과 화학요법(플루오라보신+에토포시드)으로 국소 조절률과 생존을 향상시킨다. 수술은 비소세포암에 적용된다.
 
 ## 출처
 

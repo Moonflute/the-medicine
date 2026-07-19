@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소변 나트륨은 20 초과이며 이 질환의 다른 원인은 신부전�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소세포폐암과 연관된 저혈량성 저나트륨혈증은 SIADH가 가장 흔한 원인이다. SIADH에서는 수분 재흡수가 증가해 혈청 삼투압이 낮아지지만, 체액량은 정상(유보혈량)이며, 소변 삼투질농도는 100 mOsm/kg 이상이고 식염수 투여로 교정되지 않는다. 따라서 ‘소변 삼투질농도는 100 초과이며 생리식염수 주입으로 교정되지 않는다’가 옳다.
 
 ## 출처
 

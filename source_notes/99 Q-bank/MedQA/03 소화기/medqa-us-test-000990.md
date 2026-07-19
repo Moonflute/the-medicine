@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 침습성 세균 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+플루옥세틴과 아목시실린-클라불란산 복용 후 설사와 저칼륨혈증은 세로토닌 재흡수 억제제에 의한 세로토닌 증후군이 아닌, 항생제에 의한 장내 세균 변형으로 인한 장독소가 아닌, 설사에 의한 칼륨 손실이 원인이다. 따라서 철 흡수 장애와는 무관하고, 저칼륨은 설사에 의한 전해질 손실을 시사한다. 가장 가능성 높은 진단은 철 흡수 장애가 아닌 설사에 의한 칼륨 손실이다.
 
 ## 출처
 

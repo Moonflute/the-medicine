@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 종괴가 빠르게 자라 5 cm를 초과하면 방사선치료와 화학요�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년기에 월경 직전 통증을 동반한 움직이는, 통증성 유방 결절은 섬유선종이다. 대부분 시간이 지나면서 자연스럽게 크기가 감소하거나 소실된다. 따라서 가장 가능성 높은 경과는 C이다.
 
 ## 출처
 

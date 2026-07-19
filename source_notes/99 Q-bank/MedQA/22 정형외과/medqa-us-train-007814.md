@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 발달성 고관절 이형성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발열 없이 급성 고관절 통증과 관절액 증가, 정상 X‑ray은 바이러스 후 일과성 활막염(일과성 관절염)의 전형적인 소견이다. 따라서 가장 가능성 높은 진단은 일과성 활막염이다. 정답은 B이다.
 
 ## 출처
 

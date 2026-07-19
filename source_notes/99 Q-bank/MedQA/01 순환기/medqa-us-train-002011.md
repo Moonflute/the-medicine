@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Amiodarone
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+QTc 470 ms는 선천성 장QT 증후군을 의미하며, 운동 중 실신은 위험한 토르사데스 발작을 암시한다. 1차 예방은 베타 차단제(프로프라놀롤) 투여로 심실성 부정맥을 억제한다. 따라서 다음 단계는 프로프라놀롤이다.
 
 ## 출처
 

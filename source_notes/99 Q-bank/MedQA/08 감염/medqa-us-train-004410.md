@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐 격리증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HIV 감염자는 면역억제가 진행돼 폐렴을 일으키는 가장 흔한 원인은 일반적인 지역사회획득 폐렴이며, 흡인성 폐렴은 위·식도 역류 위험이 있는 경우에 주로 발생한다. 환자는 흡인 위험 요인이 없고, 방사선에서 국소 폐렴이 보이므로 지역사회획득 폐렴이 가장 가능성 높다.
 
 ## 출처
 

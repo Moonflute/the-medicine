@@ -16,11 +16,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 상부위장관 내시경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+식후 복통, 체중 감소, 비특이적 위장 증상에 혈관성 장 허혈이 의심될 때 가장 확진력 높은 검사는 혈관조영 CT이다. 초음파는 비특이적이며, ERCP와 위내시경은 직접 혈류 평가가 안 된다. 따라서 복부 CT 혈관조영술이 가장 확진에 유리하다.
 
 ## 출처
 

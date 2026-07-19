@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 종괴 광범위 절제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+유방에 거품세포와 다핵 거대세포가 보이는 경우는 지방괴사(유방 지방괴사)와 연관된다. 이는 외상이나 방사선 후에 발생하며, 관찰보다는 조직 절제가 필요하다. 따라서 가장 적절한 처치는 종괴 광범위 절제이다.
 
 ## 출처
 

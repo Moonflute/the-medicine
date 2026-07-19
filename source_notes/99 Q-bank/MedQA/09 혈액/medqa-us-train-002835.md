@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 발덴스트롬 거대글로불린혈증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+MGUS는 단클론 단백질이 존재하지만 혈액학적 이상이 없으며, 골수 플라즈마세포 비율이 <10%인 경우를 의미한다. 이는 무증상 다발골수종과 구별되는 진단이다.
 
 ## 출처
 

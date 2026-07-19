@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 과도한 진정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+베타 차단제와 이뇨제 투여 후 저칼륨혈증, 대사성 알칼리증, 과도한 이뇨에 의한 탈수는 iatrogenic dehydration(의인성 탈수)로 설명된다. 환자는 충분한 수액을 받지 않아 체액량이 감소한 상태이다. 따라서 가장 잘 설명하는 선택지는 의인성 탈수이다.
 
 ## 출처
 

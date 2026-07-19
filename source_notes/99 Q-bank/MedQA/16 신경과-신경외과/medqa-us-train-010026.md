@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 산소요법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+군발두통은 급성 발작 시 100% 산소 흡입으로 통증이 빠르게 완화된다. 산소는 삼차신경-혈관 복합체의 혈관 수축을 유도해 통증을 감소시킨다. 따라서 급성 완화에 가장 효과적인 치료는 산소요법이다.
 
 ## 출처
 

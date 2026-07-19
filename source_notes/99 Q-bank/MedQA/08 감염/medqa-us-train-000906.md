@@ -19,11 +19,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 바이러스 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 fluoxetine, selegiline, clonazepam, oxycodone 등 다수의 중추신경계 작용 약물을 복용했으며, 최근 약물 공급이 중단돼 급성 금단 및 약물 상호작용이 발생할 수 있다. 혼란, 고열, 고혈압, 고심박, 근육 경련·클로누스는 세로토닌 증후군이나 약물 과다복용에 흔히 나타난다. 가장 가능성 높은 원인은 약물 합병증이다.
 
 ## 출처
 

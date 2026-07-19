@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. CT 유도 경흉부 생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우연히 발견된 3.5 mm 고형 폐결절은 악성 가능성이 낮으며, 연령·흡연력·위험요인이 없으므로 즉시 추가 검사는 필요하지 않다. 따라서 안심시켜 추적 없이 관찰한다.
 
 ## 출처
 

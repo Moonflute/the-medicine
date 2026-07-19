@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,9 @@ D. 편평태선
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 가려움과 황달이 없으며 간 형태가 정상인 경우 담즙 정체성 가려움증이 의심된다. 담즙 정체성 가려움은 문맥 고혈압과 포털 정맥 혈전증에서 흔히 발생한다. 따라서 문맥 혈전증은 제시된 병력과 양립한다.
+다른 선택지는 가려움과 직접적인 연관이 적다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 흡연
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+천식 환자에서 호산구 증가와 단백뇨·혈뇨가 동반될 경우 알레르기성 혈관염인 Churg‑Strauss(현재 eosinophilic granulomatosis with polyangiitis)와 연관된 p‑ANCA 양성이 흔히 나타난다. 따라서 p‑ANCA 검사가 가장 관련 있다.
 
 ## 출처
 

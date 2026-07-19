@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 니트로글리세린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+스타틴(아토르바스타틴)은 간 효소(AST, ALT)를 상승시킬 수 있는 흔한 부작용이며, 다른 복용 약물은 간 효소 상승을 일으키는 빈도가 낮다. 따라서 간 효소 상승의 가장 가능성 높은 원인은 아토르바스타틴이다.
 
 ## 출처
 

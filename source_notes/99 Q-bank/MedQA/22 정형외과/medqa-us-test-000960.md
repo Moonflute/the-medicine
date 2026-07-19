@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 견봉하 점액낭염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압 환자에서 β1 선택적 차단제인 메토프롤롤 숙시네이트는 심근경색 후 사망률을 가장 크게 감소시킨다. 이는 대규모 임상시험에서 입증된 2차 예방 약물이다. 다른 베타 차단제는 선택성이 낮아 효과가 상대적으로 적다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 췌장암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 췌장염 후 CT에서 균일한 밀도의 경계가 뚜렷한 액체 저류는 가성낭종을 의미한다. 괴사성 변형은 불균일하고 고형성 물질이 포함된다. 따라서 가장 적절한 설명은 췌장 가성낭종이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 반코마이신, 암피실린과 세페핌
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+면역억제 상태에서 수막염이 의심될 때, 그람음성균, 그람양성균, 그리고 녹농균을 모두 포괄하는 경험적 광범위 항생제가 필요하다. 반코마이신, 암피실린, 세페핌 조합이 이러한 병원균을 커버한다. 따라서 이 조합이 초기 치료에 적절하다.
 
 ## 출처
 

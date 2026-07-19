@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대변 굳기 변화 없음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+배변으로 증상이 완화되는 복통은 과민성장증후군(IBS)의 특징이며, 로마 IV 기준에 따르면 증상이 최소 3개월 동안 주 1일 이상 나타나야 진단에 해당한다. 따라서 연속 3개월 동안 주 1일 이상 증상이 있고 진단 전 최소 6개월부터 시작된다는 기준이 가장 타당하다.
 
 ## 출처
 

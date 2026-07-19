@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 제1형 과민반응(Type I hypersensitivity reaction)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+해산물 섭취 후 금속성 맛, 온도 구분 장애, 서맥은 시구아톡신 중독의 특징이다. 시구아톡신은 전압 의존 Na⁺ 채널을 활성화해 신경세포 탈분극을 지속시켜 감각 이상과 심혈관 억제를 일으킨다. 따라서 가장 가능성 높은 원인은 시구아톡신이다.
 
 ## 출처
 

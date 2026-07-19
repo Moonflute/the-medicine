@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 농축적혈구와 신선동결혈장을 1:1 비율로 수혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 대량 수혈 후 INR↑, PT↑, aPTT↑, 혈소판 감소를 보여 외상성 응고장애가 있다. 1:1:1 비율(농축 적혈구, 신선동결혈장, 혈소판) 수혈이 대량 수혈 프로토콜에 부합한다.
 
 ## 출처
 

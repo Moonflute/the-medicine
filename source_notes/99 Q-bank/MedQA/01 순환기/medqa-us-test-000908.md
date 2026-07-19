@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안정 시 심초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 시 흉통과 호흡곤란이 있는 환자에게는 약물 부하 심근 관류 스캔이 협심증 여부를 평가하는 가장 민감한 검사이다. 따라서 진단을 위한 다음 단계는 약물 부하 심근 관류 스캔이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 소변검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비강 경상피 전위차 검사는 CFTR 기능을 평가해 낭성 섬유증을 진단하는 데 가장 민감한 검사이며, 정상 땀 염화물 검사에도 불구하고 의심되는 경우에 사용한다. 따라서 확인에 도움이 되는 검사는 비강 경상피 전위차 검사이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -53,7 +55,8 @@ D. 로피니롤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 진행성 인지 저하와 파킨슨증상(떨림, 강직)으로 루이소체 치매가 의심된다. 리바스티그민은 파킨슨증상 완화에 효과적인 약물이다. 따라서 리바스티그민 투여가 가장 적절하다.
 
 ## 출처
 

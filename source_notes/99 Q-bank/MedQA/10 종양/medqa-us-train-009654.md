@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수질암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+유두 주변의 발진, 유륜 하 종괴, 림프절 병변, 미세 석회화는 침윤성 관암(침윤성 유관암)과 일치한다. 파제트병은 피부 병변만 보이며 종양은 없고, 침윤성 소엽암은 주로 미세 석회화가 없고, 수질암은 젤라틴성 종양이다. 따라서 정답은 침윤성 관암이다.
 
 ## 출처
 

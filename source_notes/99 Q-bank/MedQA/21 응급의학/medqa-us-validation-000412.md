@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 피소스티그민
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+동공 축소·다한증·서맥·땀 흘림은 콜린성 위기의 전형적인 징후이며, 유기인계 농약 중독이 원인이다. 급성 콜린성 위기에서는 아트로핀이 가장 효과적인 항콜린제이다. 따라서 아트로핀 투여가 적절한 처치이다.
 
 ## 출처
 

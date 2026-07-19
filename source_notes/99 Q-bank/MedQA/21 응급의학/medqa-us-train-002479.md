@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 화상센터로 이송
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전면성 전부위 화상에서 순환 장애가 발생하면 조직 혈류가 차단되어 압력이 상승한다. 혈압이 25 mmHg 이상이면 혈관 압박을 완화하기 위해 가피절개술(Escharotomy)이 필요하다. 따라서 가장 적절한 조치는 가피절개술이다.
 
 ## 출처
 

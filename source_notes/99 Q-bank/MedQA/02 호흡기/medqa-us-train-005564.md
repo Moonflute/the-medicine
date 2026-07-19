@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 과염색성 핵을 가진 Kulchitsky 세포
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소세포폐암은 과염색성 핵을 가진 Kulchitsky 세포에서 유래한다. 환자의 부적절한 항이뇨호르몬 분비와 흉부 영상 소견이 이를 뒷받침한다. 따라서 정답은 D이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 방사선촬영
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+격상적혈구병 환자에게 고관절 통증과 차가운 관절, 운동 범위 감소는 대퇴골두 무혈성 괴사를 의심하게 한다. 초기 영상평가로는 가장 간단하고 전형적인 변화를 확인할 수 있는 평판 X-레이가 권장된다. 다른 영상은 X-레이에서 소견이 없을 때 선택한다.
 
 ## 출처
 

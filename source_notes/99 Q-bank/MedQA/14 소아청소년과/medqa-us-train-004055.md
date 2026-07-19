@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 괴사성 장염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+미숙아에서 전신성 혈소판 감소와 복부 방어, 장음 소실, 혈변, 복부 X‑ray에서 공기‑액체 수준이 보이면 괴사성 장염이 의심된다. 이는 급성 복막염과 장천공 위험이 높은 중증 질환이다. 따라서 가장 가능성 높은 진단은 ‘괴사성 장염’이다.
 
 ## 출처
 

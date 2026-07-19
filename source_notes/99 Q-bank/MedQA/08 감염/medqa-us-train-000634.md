@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 약물의 낮은 생체이용률
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 천식 악화 환자에서 폐렴이 발생했을 때, 베타‑락탐계 항생제는 폐 조직 내 베타‑락타마제에 의해 분해될 수 있다. 이는 약물이 목표 조직에서 비활성화되는 메커니즘으로 치료 실패를 초래한다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 파르보바이러스 B-19(parvovirus B-19) IgM 및 IgG 항체 ELISA
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+얼굴·몸통·사지에 비특이적 발진이 나타나고 손발바닥을 침범하지 않은 경우 파보바이러스 B19(전염성 홍반)의 전형적인 임상 양상이므로 IgM·IgG 검사로 확진한다.
 
 ## 출처
 

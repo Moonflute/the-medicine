@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 간이식
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 간부전에서 회복 불가능한 경우, 생존율을 높이는 유일한 치료는 간이식이다. 환자는 중증 간기능 저하와 출혈성 합병증을 보이며, 다른 보존적 치료로는 효과가 제한적이다. 따라서 간이식이 가장 효과적인 치료이다.
 
 ## 출처
 

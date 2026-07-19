@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전압개폐 칼슘통로 항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+와파린 복용 후 피부에 혈액응고 장애가 나타날 때 가장 큰 위험인자는 단백질 C 결핍이다. 이는 와파린 유발 피부괴사의 주요 소인이다. 따라서 정답은 응고인자 V 돌연변이가 아니라 단백질 C 결핍이다.
 
 ## 출처
 

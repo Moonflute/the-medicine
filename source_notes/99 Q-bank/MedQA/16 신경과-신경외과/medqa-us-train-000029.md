@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 측두동맥 생검(Temporal artery biopsy)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+동공 저하와 안구운동 마비를 동반한 일측성 안구하수체 마비는 동맥류 압박을 의심하게 하며, 뇌혈관 기형을 확인하기 위해 MR 혈관조영술이 가장 적절한 검사이다. 안압 측정이나 안저검사는 이 경우 진단에 도움이 되지 않는다.
 
 ## 출처
 

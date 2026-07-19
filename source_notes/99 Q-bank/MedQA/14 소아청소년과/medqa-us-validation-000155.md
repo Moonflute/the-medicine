@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흡입 살메테롤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+저용량 흡입 스테로이드를 장기간 사용하면 구강 칸디다증이 흔히 발생한다. 흰색 판이 긁히면 출혈성 바닥이 드러나는 것이 전형적인 소견이다. 따라서 환자가 사용한 약물은 흡입 베클로메타손이다.
 
 ## 출처
 

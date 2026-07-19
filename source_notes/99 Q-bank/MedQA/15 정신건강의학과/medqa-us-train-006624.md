@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 발모벽
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+불규칙하고 경계가 불분명한 탈모반, 눈썹·속눈썹까지 영향을 받는 형태는 강박장애와 연관된 ‘발모벽’(trichotillomania)과 일치한다. 다른 선택지는 원형탈모증(원형 병변), 휴지기 탈모(전신적 원인), 흉터성 탈모(흉터 형성)와 차이가 있다. 따라서 가장 가능성 높은 진단은 발모벽이다.
 
 ## 출처
 

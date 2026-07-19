@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 씻지 않은 채소 피하기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Yersinia enterocolitica 감염은 주로 덜 익힌 돼지고기 섭취와 연관된다. 돼지고기를 충분히 익히면 병원균을 사멸시켜 감염을 예방할 수 있다. 따라서 가장 효과적인 예방은 덜 익힌 돼지고기 피하기이다.
 
 ## 출처
 

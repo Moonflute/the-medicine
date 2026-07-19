@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 부목 고정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+제2중족골 압통과 과사용이 원인인 피로 골절은 초기에는 방사선에서 보이지 않으며, 휴식과 NSAID(이부프로펜)로 통증을 관리한다. 고정은 필요 없으며, MRI는 진단이 확정된 경우에만 고려한다.
 
 ## 출처
 

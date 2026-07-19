@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. HIV ELISA, 신속혈장레긴검사, 혈청 HBsAg
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 초기 산전 검진에서는 HIV, 매독, B형 간염을 포함한 감염 스크리닝이 표준이다. HIV ELISA와 신속 혈장 검사, 그리고 HBsAg 검사는 권장되는 초기 검사이며, 다른 선택지는 과도하거나 비표준이다.
 
 ## 출처
 

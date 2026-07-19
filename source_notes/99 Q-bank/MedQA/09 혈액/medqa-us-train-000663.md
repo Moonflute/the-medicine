@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 비타민 B12 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+DMARD 시작 후 거대 적혈구(MCV 110 fL)와 정상 백혈구·혈소판을 동반한 빈혈은 약물(메토트렉세이트 등) 유발 골수 억제성 빈혈이 가장 흔하다. 따라서 약물 부작용이 원인이다.
 
 ## 출처
 

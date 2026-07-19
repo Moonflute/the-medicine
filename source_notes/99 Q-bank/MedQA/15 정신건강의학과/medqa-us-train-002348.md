@@ -17,11 +17,13 @@ question_type: risk_factor
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신생아 빈혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+과거에 반복적인 완하제 사용과 체중 감량을 위한 구토·설사 행위는 섭식장애(특히 폭식·구토형)와 연관되며, 이는 산후우울증 위험을 증가시킨다. 따라서 산모의 산후우울증 위험이 가장 관련 있다.
 
 ## 출처
 

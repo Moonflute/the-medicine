@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 리튬 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중에 치료 저항성 조현증 환자는 클로자핀이 유일하게 임신 안전성이 입증된 약물이며, 다른 항정신병제는 태아 기형 위험이 있다. 따라서 클로자핀 치료가 가장 적절하다. 전기경련요법은 급성 상황에만 사용되며, 클로미프라민·리튬은 기형 위험이 높다.
 
 ## 출처
 

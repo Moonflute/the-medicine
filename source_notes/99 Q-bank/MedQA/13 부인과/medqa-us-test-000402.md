@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 데포 메드록시프로게스테론 아세테이트 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+피임을 원하지만 금속 알레르기가 있는 경우 구리 함유 IUD는 금속을 포함하지 않아 안전하고 장기 효과가 있다. 따라서 가장 적절한 선택은 울리프리스탈 아세테이트가 아니라 구리 IUD이며, 이는 옵션 C이다.
 
 ## 출처
 

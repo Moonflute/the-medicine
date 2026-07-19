@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심박출량 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+말단비대증 환자에서 심근 섬유증이 진행되어 수축기 기능이 저하되는 말단비대성 심근병증이 흔한 후유증이다. 따라서 가장 가능성 높은 후유증은 심박출량 감소이다.
 
 ## 출처
 

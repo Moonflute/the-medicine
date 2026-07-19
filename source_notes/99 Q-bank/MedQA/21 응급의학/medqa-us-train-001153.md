@@ -15,11 +15,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 생리식염수에 적신 거즈에 싸서
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+치아 탈구 시 치아 세포를 보존하려면 저온·저산성 환경이 필요하며, 우유는 pH가 적절하고 조직 손상을 최소화한다. 따라서 치아를 우유에 담가 운반하는 것이 최선이다.
 
 ## 출처
 

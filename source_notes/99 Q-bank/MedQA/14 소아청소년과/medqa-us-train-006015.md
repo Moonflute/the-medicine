@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 활액 분석
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발열·무릎 부종·통증은 급성 화농성 관절염을 시사한다. 진단을 확정하려면 관절액을 채취해 배양·세포학적 분석이 필요하다. 영상 검사는 보조적이며 항생제 투여만으로는 원인 확인이 어렵다. 따라서 활액 분석이 초기 관리 단계이다.
 
 ## 출처
 

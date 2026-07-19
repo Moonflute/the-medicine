@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 입원 및 플루옥세틴 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+극심한 저체중(BMI 16.4), 저체온, 서맥, 건조 피부, 체모 과다는 중증 신경성 식욕부진증을 나타낸다. 입원하여 영양 재활을 시작하는 것이 급선무이며, 외래 치료만으로는 위험을 감소시키기 어렵다. 다른 옵션은 치료 강도가 부족하다.
 
 ## 출처
 

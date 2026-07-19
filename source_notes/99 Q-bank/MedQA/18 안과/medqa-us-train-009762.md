@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 5년 전 욕실을 표백제로 청소하다 눈에 화상을 입었다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+눈의 결절성 각막염(피크라리티스)과 같은 자외선 노출성 각막 병변은 열대 지방에서 장기간 야외 작업을 한 경우 흔히 발생한다. 환자는 에콰도르에서 농부로 일한 이력이 가장 관련성이 높다.
 
 ## 출처
 

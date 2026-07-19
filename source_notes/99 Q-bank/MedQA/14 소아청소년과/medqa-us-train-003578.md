@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 지적장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심인성(정신적) 원인과 유기적 원인을 구분하려면 야간 발기(음경 팽창) 검사가 가장 유용하다. 야간 발기가 정상이면 유기적 원인이 배제되고 심인성 원인으로 판단한다. 따라서 정답은 음경 팽창 검사이다.
 
 ## 출처
 

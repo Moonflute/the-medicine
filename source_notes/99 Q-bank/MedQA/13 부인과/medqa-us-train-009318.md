@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이차성 난소기능부전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+FSH 상승·에스트라디올 저하, 고 FSH/에스트라디올 비율은 일차성 난소기능부전을 나타낸다. 이는 조기 난소 고갈을 의미한다. 다른 선택지는 호르몬 패턴과 맞지 않는다.
 
 ## 출처
 

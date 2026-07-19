@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 장액성 낭선종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두부 외상 후 급성 저혈압, 저산소증, 심전도에서 P파 소실은 심방세동 환자에서 대량 혈액 손실(실혈)보다 폐색전증이 더 흔다. 실혈은 외상 부위에서 출혈이 명확히 보이며, 뇌탈출은 신경학적 악화가 동반된다. 따라서 폐색전증이 가장 가능성 높은 기전이다.
 
 ## 출처
 

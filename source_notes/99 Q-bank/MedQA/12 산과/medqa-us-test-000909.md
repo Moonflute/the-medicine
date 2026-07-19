@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 백혈구, 혈액, 세균 확인을 위해 요검사를 시행하고 양성�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 무증상 세균뇨는 재발 위험이 높아 소변 배양을 재검사해야 한다. 증상이 없더라도 배양을 통해 병원성 균을 확인하고 치료 여부를 결정한다.
 
 ## 출처
 

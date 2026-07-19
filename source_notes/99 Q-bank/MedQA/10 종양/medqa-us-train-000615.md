@@ -15,11 +15,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 골용해성 전이(Osteolytic metastasis)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+호지킨 림프종에서 분비되는 1α‑hydroxylase가 비정상적으로 비타민 D를 활성화시켜 1,25‑디하이드로비타민 D를 증가시키고, 이는 장에서 칼슘 흡수를 촉진해 고칼슘혈증을 일으킨다. 따라서 비타민 D의 이소성 생성이 원인이다.
 
 ## 출처
 

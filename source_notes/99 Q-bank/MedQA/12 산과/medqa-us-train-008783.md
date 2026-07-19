@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 양수과소증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+모체의 HbA1c가 13.7%로 매우 높아 혈당 조절이 미흡함을 의미한다. 고혈당은 임신 초기에 신경관 형성에 영향을 주어 엽산 대사를 방해하고 신경관 결손 위험을 증가시킨다. 따라서 태아의 신경관 결손 위험이 증가한다.
 
 ## 출처
 

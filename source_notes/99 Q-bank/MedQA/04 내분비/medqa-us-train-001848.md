@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. sitagliptin을 중단하고 기저-식사 인슐린을 시작한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 혈당 691 mg/dL와 케톤증, 저나트륨 혈증을 동반한 DKA 상태이며, 초기 치료는 혈액량 보충을 위한 정맥 수액과 인슐린 투여가 필수이다. 따라서 정맥 수액과 인슐린 투여가 최선의 다음 단계이다.
 
 ## 출처
 

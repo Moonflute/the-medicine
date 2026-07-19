@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 17α-수산화효소 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+21β-수산화효소 결핍은 17‑OH 프로게스테론이 축적되고 안드로겐 전구체가 증가해 조기 사춘기와 여드름을 유발한다. 검사에서 17‑OH 프로게스테론이 현저히 상승한 것이 이 효소 결핍을 뒷받침한다.
 
 ## 출처
 

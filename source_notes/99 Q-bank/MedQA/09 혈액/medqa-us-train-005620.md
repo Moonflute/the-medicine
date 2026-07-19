@@ -17,11 +17,13 @@ question_type: other
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 리히터 변환
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+M 단백 스파이크와 용해성 골병변은 다발성 골수종을 나타낸다. 다발성 골수종은 신장에 단백질 침착을 일으켜 요로감염 위험을 높인다. 따라서 요로감염이 가장 관련된 소견이다.
 
 ## 출처
 

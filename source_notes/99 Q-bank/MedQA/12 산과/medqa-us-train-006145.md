@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지지요법만 시행
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+산후 출혈이 경미하고 활력징후가 안정적인 경우, 기본적인 자궁 수축 유지와 관찰(지지요법)만으로도 충분하다. 항생제 치료는 감염이 의심될 때 필요하며, 여기서는 필요하지 않다. 따라서 지지요법만 시행하는 것이 최선이다.
 
 ## 출처
 

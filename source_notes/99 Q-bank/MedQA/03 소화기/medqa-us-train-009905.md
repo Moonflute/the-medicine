@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 간 생검에서 ‘양파껍질 섬유화’
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+원발성 담즙성 담관염(PBC)은 항미토콘드리아 항체(AMA) 양성인 것이 특징이다. AMA는 PBC를 구별하는 가장 특이적인 혈청 마커이므로 정답은 항미토콘드리아 항체이다.
 
 ## 출처
 

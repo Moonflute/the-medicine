@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -42,7 +44,8 @@ D. 환자 1 – CA-125 검사. 환자 2 – BRCA 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+가족력이 강하고 젊은 여성인 경우 BRCA 유전자 검사가 1차 선별에 적합하다. 환자 2는 양성 종괴가 있어 초음파가 필요하지만, 질문은 두 환자에 대한 가장 적절한 다음 단계이므로 환자 1에 대한 BRCA 검사가 핵심이다.
 
 ## 출처
 

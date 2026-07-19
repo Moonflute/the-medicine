@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정액검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+정상적인 여성의 배란과 자궁 환경을 감안하면 남성 요인이 가장 흔은 불임 원인이다. 정액 검사는 정자 수, 운동성, 형태를 평가해 남성 불임을 확인할 수 있다. 따라서 다음 단계는 정액 검사이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 폐색전증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+가슴 외상 후 청진에서 심장 박동과 동기화된 으깨지는 소리(함만음)와 오른쪽 흉부의 골절음, 청색증, 저산소증은 기관지 파열을 시사한다. 기관지 파열은 공기 누출로 폐와 흉강에 공기가 들어가며, 호흡곤란과 저산소증을 초래한다. 따라서 가장 가능성 높은 진단은 기관지 파열이다.
 
 ## 출처
 

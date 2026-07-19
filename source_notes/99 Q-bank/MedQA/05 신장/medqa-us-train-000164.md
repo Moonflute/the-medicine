@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 데스모프레신(desmopressin) 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다낭성 신장 질환 환자에서 고나트륨 혈증과 저농도 소변은 신장성 요붕증을 의미한다. 삼투성 이뇨제인 하이드로클로로티아자이드는 농축 능력을 회복시켜 소변량을 감소시킨다. 따라서 다음 치료는 하이드로클로로티아자이드이다.
 
 ## 출처
 

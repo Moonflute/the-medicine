@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 알파태아단백 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다낭성 신장병은 동맥류 형성 위험을 높이며, 뇌동맥류 파열을 예방하기 위해 혈청 알파태아단백(α‑TP) 검사가 권장된다. 이는 동맥류 존재 여부를 선별하는 민감한 검사이다. 따라서 혈청 알파태아단백 측정이 가장 권장된다.
 
 ## 출처
 

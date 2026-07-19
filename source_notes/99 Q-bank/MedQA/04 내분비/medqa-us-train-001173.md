@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 생리식염수 및 칼륨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 고혈당성 고삼투성 비케톤성 탈수( hyperosmolar hyperglycemic state)로 탈수와 저칼륨혈증을 보인다. 인슐린 투여는 혈당을 낮추지만, 저칼륨 상태에서 급히 투여하면 심각한 부정맥을 유발할 수 있다. 따라서 먼저 정맥으로 생리식염수로 수액 재수화하고, 칼륨을 보충하여 혈중 K⁺를 3.5 mEq/L 이상으로 교정한 뒤 인슐린을 시작한다. 초기 치료는 생리식염수와 칼륨 보충이다.
 
 ## 출처
 

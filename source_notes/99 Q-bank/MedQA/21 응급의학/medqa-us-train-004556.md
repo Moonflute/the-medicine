@@ -17,11 +17,13 @@ question_type: other
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 부위 마취
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구강 시술 시 불안이 있을 때 최소 진정(진정제만 사용)으로 진통제와 국소 마취만을 병행한다. 이는 마취 형태가 최소 진정에 해당한다.
 
 ## 출처
 

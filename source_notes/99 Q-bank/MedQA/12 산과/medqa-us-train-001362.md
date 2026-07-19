@@ -16,11 +16,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 알코올 사용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양수에 양치상 결정이 보이는 것은 양수 파열을 의미한다. 양수 파열 후 감염 위험이 가장 큰 원인은 상행성 감염이다. 따라서 가장 가능성 높은 원인은 상행성 감염이다.
 
 ## 출처
 

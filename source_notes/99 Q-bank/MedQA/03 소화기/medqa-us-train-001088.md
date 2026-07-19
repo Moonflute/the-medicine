@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 프로프라놀롤(Propranolol) 과다복용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+식후 복통·설사·저혈당·불안정한 혈당이 급성 저혈당과 위장관 증상을 동반하는 덤핑 증후군의 전형적인 양상이다. 위소매절제술 후 빠른 위 내용물 이동이 원인이다. 따라서 가장 가능성 높은 진단은 덤핑 증후군이다.
 
 ## 출처
 

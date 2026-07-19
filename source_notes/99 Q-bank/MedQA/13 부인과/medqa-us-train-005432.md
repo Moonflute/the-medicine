@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 요도의 해부학적 거상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복압성 요실금은 요도 지지력 저하가 원인이며, 요도 거상술(중부 요도 슬링 등)은 요도를 해부학적으로 상승시켜 압력 전달을 회복한다. 호르몬 치료·DNA 억제제·확장은 해당되지 않는다. 따라서 요도 거상이 적절한 치료 메커니즘이다.
 
 ## 출처
 

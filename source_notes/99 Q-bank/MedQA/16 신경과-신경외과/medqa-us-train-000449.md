@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 라트케 주머니(Rathke's pouch)의 잔재
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+뇌하수체 전엽에서 발생하는 선천성 낭종인 라트케 주머니 잔재는 크라토피리암(크라토피리암)으로, 시야 협착을 일으킬 수 있다.
 
 ## 출처
 

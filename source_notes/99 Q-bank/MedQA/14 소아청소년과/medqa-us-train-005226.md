@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. FSH 수치를 보기 위해 GnRH 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+GnRH 자극검사에서 LH 반응이 낮게 나타난 경우 말초성 성조숙증을 의심하고, 에스트라디올 수치를 측정해 에스트로겐 의존성 자극 여부를 확인한다. 에스트라디올이 상승하면 말초성 원인, 정상이면 중추성 원인 가능성이 있다. 따라서 에스트라디올 수치를 보기 위한 류프로라이드 검사가 다음 단계이다.
 
 ## 출처
 

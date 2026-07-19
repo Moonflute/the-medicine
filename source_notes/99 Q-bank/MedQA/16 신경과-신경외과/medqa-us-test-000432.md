@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 가정폭력 선별 및 생활 스트레스 탐색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 배뇨곤란, 말하기 어려움, 시야 변화, 안면통증 및 한쪽 눈만 움직이는 안구운동 이상(외전 마비) 등 중추신경계 다발성 증상을 보이며, 이러한 증상은 다발성경화증과 같은 뇌간 병변을 시사한다. 뇌간 병변을 정확히 확인하고 병변의 위치와 활동성을 평가하기 위해서는 연부조직 대비가 뛰어난 뇌 MRI가 가장 민감한 초기 검사이다. 따라서 초기 검사는 두부 MRI가 적절하다.
 
 ## 출처
 

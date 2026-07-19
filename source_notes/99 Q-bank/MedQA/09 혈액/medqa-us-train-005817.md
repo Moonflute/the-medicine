@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 엽산 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+MCV 56 fL, 혈청 철 170 µg/dL, TIBC 상승, 포화도 60%는 철이 과다함을 의미한다. 적혈구 수는 정상·정상형이며 말초혈액도표에서 목표세포와 적혈구 변형이 보이므로 지중해빈혈(베타‑지중해빈혈)이 가장 적합하다. 비타민 B12·엽산 결핍은 거대적혈구성을 만든다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. HPV 백신을 맞으면 Pap 검사를 피할 수 있다고 제안
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+자궁경부암 선별은 21세가 되면 시작하며, 3년마다 Pap 검사를 시행한다. 16세 여성은 아직 선별 연령에 도달하지 않았으므로 검사를 시작하지 않는다. 따라서 21세부터 3년 간격 Pap 검사가 권장된다.
 
 ## 출처
 

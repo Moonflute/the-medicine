@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 편두통
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+일과성 전반성 기억상실은 급성 전향성 기억 상실이 24시간 이내에 회복되는 특징을 가지며, 시간에 대한 기억이 손상되는 것이 핵심이다. 이인증·발작·편두통은 다른 증상 양상을 보인다.
 
 ## 출처
 

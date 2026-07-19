@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메티마졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Graves disease 환자에서 재발률이 가장 낮은 치료는 방사성 요오드 절제이다. 방사성 요오드는 갑상선 조직을 선택적으로 파괴해 장기적인 갑상선 기능 저하를 유도한다. 따라서 방사성 요오드 절제가 가장 낮은 재발률을 보인다.
 
 ## 출처
 

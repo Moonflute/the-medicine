@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐포 공간의 세균 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전신마취 후 폐포 허탈(무기폐)은 폐기저부에 공기 흡입이 차단돼 발생한다. 이는 호흡곤란과 저산소증을 일으키며 영상에서 무기폐 소견을 보인다. 따라서 폐포 허탈이 가장 가능성 높은 원인이다.
 
 ## 출처
 

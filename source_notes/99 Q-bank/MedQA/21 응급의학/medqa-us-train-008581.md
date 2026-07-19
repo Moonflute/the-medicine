@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 동결침전제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대량 수혈 후 혈소판과 응고인자가 희석되어 출혈이 지속될 수 있다. 신선동결혈장(FFP)과 혈소판을 동시에 투여하면 응고인자와 혈소판을 보충해 출혈을 멈출 가능성이 가장 높다. 포도당·생리식염수는 출혈에 영향을 주지 않으며, 동결침전제는 혈소판만 제공한다.
 
 ## 출처
 

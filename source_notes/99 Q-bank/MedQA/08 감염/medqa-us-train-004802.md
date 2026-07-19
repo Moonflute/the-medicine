@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 독시사이클린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발열·두통·발진이 동반된 라임병·진드기 매개 감염은 리케치아 감염이 가장 흔하며, 독시사이클린이 1차 치료제이다. 피라진아미드·반코마이신·아지스로마이신은 해당 감염에 비효과적이다.
 
 ## 출처
 

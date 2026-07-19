@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 트라스투주맙
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HER2 양성 침윤성 유관암에서는 트라스투주맙(anti‑HER2 단클론 항체)이 표준 보조요법으로 재발 위험을 감소시킨다. 다른 약물은 HER2 표적에 해당하지 않는다. 따라서 트라스투주맙을 시작한다.
 
 ## 출처
 

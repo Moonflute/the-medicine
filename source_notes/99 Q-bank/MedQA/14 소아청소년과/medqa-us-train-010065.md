@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 거대세포 성상세포종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신경섬유종증 1형 환자는 신경섬유종이 시신경에 발생해 시신경교종 위험이 증가한다. 다른 선택지는 해당 질환과 연관이 적다. 따라서 가장 위험이 증가하는 질환은 시신경교종이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈전색전성 뇌졸중
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+키가 크고 관절 과운동성, 수정체 탈구가 있는 소아는 호모시스틴뇨증을 의심하게 하며, 이 질환은 혈전성 혈관질환, 특히 혈전색전성 뇌졸중 위험이 높다. 따라서 가장 흔한 합병증은 혈전색전성 뇌졸중이다.
 
 ## 출처
 

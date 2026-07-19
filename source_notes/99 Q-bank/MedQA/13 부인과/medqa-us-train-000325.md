@@ -16,11 +16,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 루프 전기 절제술(Loop Electrosurgical Excision Procedure, LEEP) 시행
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ASCUS 결과에 대해 HPV DNA 검사는 고위험 유형 감염 여부를 판단해 추가 검사의 필요성을 결정하는 가장 적절한 단계이다.
 
 ## 출처
 

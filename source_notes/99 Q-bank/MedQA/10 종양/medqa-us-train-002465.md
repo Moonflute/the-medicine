@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항생제 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+유방암 환자에게서 발견된 4 cm 크기의 뇌 표면 근처 고신호 종괴는 단일 뇌 전이로 간주된다. 수술적 절제가 생존율과 증상 완화에 가장 효과적이며, 방사선이나 화학요법은 보조 치료로 사용된다. 따라서 다음 단계는 수술적 절제이다.
 
 ## 출처
 

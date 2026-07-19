@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 포도당 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 흉통, 무맥동, 심정지 상황에서 심전도에 심실세동(VF)이 제시되었다. VF는 전기적 활동이 비정상적으로 빠르고 무질서하게 진행되어 혈류가 차단되므로 즉시 전기적 제세동이 필요하다. 따라서 가장 적절한 다음 단계는 제세동이다.
 
 ## 출처
 

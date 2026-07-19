@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 미만성 갑상선 비대
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+이차성 고알도스테론증은 레닌 상승, 저칼륨, 고혈압을 동반하며, 일측 신장 위축이 흔한 영상 소견이다. 따라서 일측 신장 위축이 가장 흔히 나타날 소견이다.
 
 ## 출처
 

@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 정상 잔뇨량, 불수의적 배뇨근 수축 없음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+스트레스 요실금에서 방광내압은 정상이며, 기침 시 압력 상승에 의해 비자발적 배뇨근 수축이 일어나지 않는다. Q‑tip 검사가 양성인 경우는 질벽 손상(전질벽 팽윤)과 연관된다. 따라서 방광내압검사에서 기대되는 소견은 정상 잔뇨량과 배뇨근 수축이 없는 것이다.
 
 ## 출처
 

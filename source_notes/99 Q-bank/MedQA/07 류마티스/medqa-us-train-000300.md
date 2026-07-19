@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -42,7 +44,8 @@ D. 매독성 관절염(Syphilitic arthritis)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+요도염(또는 비특이적 요로증상), 결막염, 비대칭 관절염이 동반된 삼중증은 반응성 관절염의 특징이다. 관절액은 화농성 염증을 보이지만 그람 염색이 음성이며, 혈액 배양도 음성이다. 이는 화농성 관절염과 구별되는 핵심 포인트이다. 따라서 가장 가능성 높은 진단은 반응성 관절염이다.
 
 ## 출처
 

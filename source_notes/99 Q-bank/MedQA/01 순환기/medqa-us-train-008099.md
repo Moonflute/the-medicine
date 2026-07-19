@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 승모판 역류
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+감염성 심내막염 병력이 있는 환자는 고위험군으로, 치과 시술 전 항생제 예방투여가 필요하다. 따라서 정답은 과거 감염성 심내막염이다.
 
 ## 출처
 

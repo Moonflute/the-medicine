@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 갑상샘 전절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소규모 유두성 갑상선 암에 RAS 변이가 있으면 수술적 절제가 권장된다. 갑상선 절제술은 종양이 더 크거나 전이 있을 때 필요하다.
 
 ## 출처
 

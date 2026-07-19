@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 범불안장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 발작성 공포와 회피, 특정 상황에서의 발작을 경험하고 있으며, 신체 검사와 검사에서 이상이 없고 공황발작이 반복적으로 나타난다. 이는 공황장애와 그에 동반된 광장공포증을 가장 잘 설명한다. 따라서 공황장애와 광장공포증이 가장 가능성 높은 진단이다.
 
 ## 출처
 

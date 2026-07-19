@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 광과민
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두통에 구토·광과민·동공산대·안검하수·편측 하반신 근력 저하가 동반된 경우 뇌압 상승과 국소 신경학적 결손을 시사한다. 특히 오른쪽 하반신 근력 저하는 뇌병변을 암시하므로 추가 영상검사가 필요하다. 따라서 가장 강하게 시사하는 소견은 오른쪽 근력저하이다.
 
 ## 출처
 

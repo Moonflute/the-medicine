@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 공황발작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경동맥동 과민증은 목을 조작하거나 스트레스를 받을 때 일시적인 실신을 일으키며, 혈압 변화가 거의 없고 심전도에서 비특이적 조기수축이 보인다. 환자의 증상과 검사 소견이 이와 일치한다. 따라서 가장 가능성 높은 진단은 경동맥동 과민증이다.
 
 ## 출처
 

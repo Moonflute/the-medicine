@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 탈리도마이드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 무증상 다발 골수종(단클론 IgG)과 요추 디스크 탈출이 동반된 상태이며, 증상이 경미하고 신경학적 결손이 없으므로 먼저 보존적 치료인 물리치료를 시행한다. 이는 골수종 자체가 통증을 유발하지 않으며 디스크 증상에 대한 1차 관리가 물리치료임을 의미한다.
 
 ## 출처
 

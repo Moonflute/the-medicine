@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. B군 사슬알균
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아 패혈증에서 가장 흔한 원인균은 B군 연쇄상구균이며, 조산아와 저혈압·저산소증을 동반한다. 클로스트리디움 보툴리눔은 보툴리즘을, 수막알균은 수막염을, 표피포도상구균은 피부 감염을 주로 일으킨다.
 
 ## 출처
 

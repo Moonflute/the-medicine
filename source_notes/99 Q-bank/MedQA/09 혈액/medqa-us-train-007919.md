@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. “검사 결과가 궁금하고 불안하실 것 같습니다.”
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+악성 종양 진단 후 환자와 가족에게 정보를 제공할 때, 먼저 환자의 이해도를 확인하고 그들의 선호를 파악하는 것이 윤리적 의사소통의 첫 단계이다. 따라서 정답은 “검사 결과와 치료 선택지를 어떻게 이해하고 계신가요?”이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 감염성 단핵구증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소아에서 발열, 림프절 비대, 출혈성 피부반점, 비장비대와 함께 말초혈액에 골수세포가 보이면 급성 림프모구성 백혈병(ALL)이 가장 흔한 원인이다. 따라서 정답은 급성 림프모구성 백혈병이다.
 
 ## 출처
 

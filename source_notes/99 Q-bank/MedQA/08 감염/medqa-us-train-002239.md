@@ -18,11 +18,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 페닐에프린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+벤자틴 페니실린 투여 후 2시간 내에 나타난 두통, 근육통, 오한은 Jarisch‑Herxheimer 반응이며, 증상 완화를 위해 비스테로이드성 소염진통제(NSAID)가 권장된다. 이부프로펜은 이러한 반응의 증상 완화에 가장 적절한 약물이다. 세프트리악손은 항생제가 아니며, 에피네프린·페닐에프린은 알레르기 반응 치료에 사용된다.
 
 ## 출처
 

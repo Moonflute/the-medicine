@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 말초 맥박과 모세혈관 충만 모니터링
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 원형 전층 화상 부위에 흉터가 형성돼 혈관 압박 위험이 있다. 이러한 경우 말초 맥박과 모세혈관 충만을 지속적으로 확인하여 혈류 장애를 조기에 발견한다. 따라서 다음 단계는 말초 맥박·충만 모니터링이다.
 
 ## 출처
 

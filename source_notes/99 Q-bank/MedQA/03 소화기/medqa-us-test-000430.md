@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수술적 위고정술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부에 원형 고리 모양의 홍반성 판이 나타나고 KOH 검사에서 균사가 보이면 체부백선(피부 사상균증)이다. 이 진균 감염은 경구 이트라코나졸과 같은 전신 항진균제로 치료해야 한다.
 
 ## 출처
 

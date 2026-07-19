@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 상완이두근 건염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+통증이 외전 60~120도에서 나타나고 90도에서 팔을 유지하지 못하는 드롭 암 테스트는 회전근개 파열을 시사한다. 다른 선택지는 통증 양상이 다르거나 방사통이 없으며, 견봉하 점액낭염은 활동 범위 제한이 있다. 따라서 가장 가능성 높은 진단은 회전근개 파열이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 왼쪽 소뇌 충부
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우측 얼굴 마비와 우측 사지의 순수 운동 약화는 좌측 내낭 뒤다리(내낭 후부) 손상에 해당한다. 이 부위는 피라미드로부터의 운동섬유가 지나가며, 감각이나 언어는 보존된다. 따라서 정답은 좌측 내낭 뒤다리이다.
 
 ## 출처
 

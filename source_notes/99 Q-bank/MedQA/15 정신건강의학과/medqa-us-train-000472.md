@@ -15,11 +15,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 항콜린성 독성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+벤라팍신과 기존 SSRI 중단 후 세로토닌 재흡수 억제가 급격히 증가하면 중추신경계의 세로토닌 활성이 과도해진다. 이는 근육 경련, 고열, 정신 혼미 등 세로토닌 증후군의 전형적인 증상을 일으킨다. 따라서 원인은 중추신경계 세로토닌 활성 증가이다.
 
 ## 출처
 

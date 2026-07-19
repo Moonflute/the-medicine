@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 글루코코르티코이드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CD4⁺ 수치가 84/mm³로 심각히 낮고, CT에서 고리 모양 강화 병변이 보이는 점에서 AIDS 환자의 뇌 톡소플라스마증이 의심된다. 치료는 토크소플라스마에 효과적인 피리메타민, 설파디아진, 류코보린 3제 병용이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 질적 골 결손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Paget 병은 골 재형성 속도 증가와 골소주, 골피질 비후를 동반하며, ALP 상승이 특징이다. 이는 골의 경화성·용해성 병변이 동시에 존재하는 병태와 일치한다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈전색전성 뇌졸중
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+노숙자이며 발열, 빈맥, 폐렴 소견, 그리고 신경학적 증상은 감염성 심내막염을 시사한다. 심내막염에서 혈류 내 박테리아가 뇌혈관에 색전되어 세균성 색전이 발생한다. 따라서 가장 가능성 높은 원인은 세균성 색전이다.
 
 ## 출처
 

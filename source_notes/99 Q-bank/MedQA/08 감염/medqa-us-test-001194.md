@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 답손, 피리메타민, 이트라코나졸, 아지트로마이신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CD4가 50 이하인 HIV 환자는 트리메토프림/설파메톡사졸(항균제)과 아지트로마이신(항바이러스제)으로 기회감염 예방을 해야 한다.
 
 ## 출처
 

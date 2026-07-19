@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 황달은 호전될 것이라고 어머니를 안심시키고 모유 수유�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 총 빌리루빈이 11 mg/dL이며 모유수유 중인 경우, 모유성 황달은 자연히 호전된다. 치료 없이 관찰하고 모유수유를 지속하는 것이 적절하다. 따라서 정답은 D이다.
 
 ## 출처
 

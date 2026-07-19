@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 정상압수두증(Normal pressure hydrocephalus)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다계통위축증은 자율신경 기능 저하(기립성 저혈압), 요실금, 운동 실조, 인지 장애를 동반한다. 환자는 기립성 저혈압, 요실금, 운동 제한을 보이며, 전두엽·소뇌·소뇌계통이 동시에 침범된 형태이다. 따라서 가장 가능성 높은 진단은 다계통위축증이다.
 
 ## 출처
 

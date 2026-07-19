@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 총비경구영양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경미한 혈변과 직장 부위의 미만성 염증, 선와 구조 왜곡은 경증 궤양성 대장염을 시사한다. 1차 치료제로 장내 국소 스테로이드가 아닌 5‑ASA 제제(메살라민)가 권장된다.
 
 ## 출처
 

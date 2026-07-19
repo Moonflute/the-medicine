@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. IgA 신병증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+팔꿈치에 가려운 수포성 병변과 악취 설사는 셀리악병에서 나타나는 피부 병변인 피부염(두드러기)과 동반된다. 셀리악병은 글루텐에 대한 면역반응으로 장과 피부에 병변을 일으킨다. 따라서 가장 가능성 높은 기저 질환은 셀리악병이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈소판 응집검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+과거 헤로인 사용력과 현재 혈소판 감소, INR 상승은 간 기능 저하를 암시한다. C형 간염은 혈액 매개 전파가 흔하고, 혈소판 감소와 INR 상승을 동반한다. 따라서 다음 단계는 C형 간염 항체 검사이다.
 
 ## 출처
 

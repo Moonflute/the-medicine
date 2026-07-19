@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안심시키기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+생후 7개월 남아에서 한쪽 고환이 음낭에 없고 서혜부에 고정되지 않은 종괴가 보이면 잠복고환을 의심한다. 잠복고환은 고환 고정술(오르키오페디)로 교정해야 향후 불임과 악성 변이를 예방할 수 있다. 따라서 고환 고정술이 적절한 치료이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 클라드리빈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+트라트레이트 저항성 산성인산분해효소 활성이 있는 말라리세포성 백혈병은 클라드리빈에 민감한 질환이다. 클라드리빈은 퓨린 유사체로 세포주기 비의존성 DNA 합성을 억제해 골수 억제를 회복시킨다. 따라서 초기 치료로 클라드리빈이 가장 적절하다.
 
 ## 출처
 

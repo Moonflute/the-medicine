@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 6시간 동안 콜로이드 5 L 정맥 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+파크랜드 공식은 4 mL × 체중(kg) × TBSA(%)를 24시간 총량으로 계산한다. 환자는 55 kg, 약 30% 화상을 입었으므로 4 × 55 × 30 ≈ 6 L가 필요하고, 처음 8시간에 절반을 투여한다. 따라서 정답은 A, 향후 24시간 동안 정질액 6 L 정맥 투여이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈흉
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+외상 후 흉부 타진에서 둔탁음, 청진에서 폐음 소실, 혈압 저하는 혈흉(혈액이 흉강에 고임)과 일치한다. 긴장성 기흉는 과도한 공기 축적으로 흉부 압력이 증가하지만 타진은 과도한 공기음(덜 울음)이다. 심장눌림증은 심장음 변동을 동반한다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 심장흉부외과에 승모판 치환술을 의뢰한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+감염성 심내막염에서는 혈액배양을 3세트 채취하고, 배양 결과가 나올 때까지 경험적 항생제를 시작하지 않는 것이 권고된다. 즉시 항생제 투여는 혈액배양 결과를 오염시킬 수 있다. 따라서 24시간 동안 혈액배양 후 항생제 시작이 가장 적절하다
 
 ## 출처
 

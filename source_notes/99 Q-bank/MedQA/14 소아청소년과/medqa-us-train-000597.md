@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 경구 페니실린 V(penicillin V)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고열·발진·구강 궤양·전신 림프절병증은 홍역(볼거리) 전형이며, 혈청 항체 검사로 확진된다. 항바이러스제는 필요 없고, 비타민 A는 합병증 예방에 필수이다. 따라서 비타민 A 보충이 적절한 치료이다.
 
 ## 출처
 

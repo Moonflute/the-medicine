@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 소변배양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 단순 방광염의 증상(배뇨통, 빈뇨, 혈뇨)과 소변 검사에서 아질산염·백혈구에스터레이스 양성은 세균성 요로감염을 시사한다. 경구용 포스포마이신은 급성 단순 방광염 1차 치료제로 권장된다. 따라서 포스포마이신 투여가 적절한 다음 단계이다.
 
 ## 출처
 

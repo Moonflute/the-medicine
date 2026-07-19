@@ -18,11 +18,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 프로메타진
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+카르시노이드 종양에서 과도한 세로토닌 분비가 5‑HT 수용체를 자극해 장관 평활근을 수축, 설사와 플러싱을 일으킨다. 옥트레오타이드는 세로토닌 수용체 길항제로 증상을 완화한다. 따라서 정답은 A이다.
 
 ## 출처
 

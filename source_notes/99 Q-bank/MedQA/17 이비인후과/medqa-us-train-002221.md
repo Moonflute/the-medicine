@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 노인성 난청
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청력 저하가 양측성 전도성 청력 손실이며, 환자는 방사선 치료와 항암제(시스플라틴) 복용 중이므로 약물성 이독성이 가장 가능성 높은 원인이다.
 
 ## 출처
 

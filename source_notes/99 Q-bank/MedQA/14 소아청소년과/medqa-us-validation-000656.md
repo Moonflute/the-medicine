@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 추가 검사는 필요하지 않다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+자폐 스펙트럼 장애는 임상적 진단 기준에 따라 평가되며, 신경영상이나 뇌파 검사는 진단에 필수적이지 않다. 따라서 추가 검사는 필요하지 않다. MRI 등은 보조적일 수 있으나 필수는 아니다.
 
 ## 출처
 

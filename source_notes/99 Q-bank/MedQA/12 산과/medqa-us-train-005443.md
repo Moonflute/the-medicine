@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 중재영상의학과에 의뢰해 하대정맥 필터 삽입
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 폐색전증 치료 후 헤파린 유발 혈소판감소증 병력이 있으면 항응고제 사용이 위험하고, 재발 방지를 위해 하대정맥 필터 삽입이 권장된다. 장기 항응고제는 출혈 위험을 높인다. 따라서 필터 삽입이 최선이다.
 
 ## 출처
 

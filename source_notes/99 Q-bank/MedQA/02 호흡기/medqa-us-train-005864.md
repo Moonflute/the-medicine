@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 외부 알레르겐에 대한 기도 과민반응으로 인한 간헐적 기�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+날씨와 실내외 차이에 따라 증상이 악화·완화되는 점은 외부 알레르겐에 대한 기도 과민반응을 시사한다. 알레르기성 천식은 기도 과민성으로 인해 간헐적인 기관지 수축과 폐쇄가 발생한다. 따라서 가장 가능성 높은 기전은 외부 알레르겐에 대한 기도 과민반응이다.
 
 ## 출처
 

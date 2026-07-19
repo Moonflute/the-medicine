@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 중뇌 등쪽 손상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두부 외상 후 상사시와 머리 기울임 시 악화되는 복시는 사사신경(활차신경) 마비를 나타낸다. 이는 외측 직근 마비로 인해 눈이 위쪽으로 편향되고, 머리를 기울일 때 증상이 심해진다. 따라서 가장 가능성 높은 원인은 활차신경 손상이다.
 
 ## 출처
 

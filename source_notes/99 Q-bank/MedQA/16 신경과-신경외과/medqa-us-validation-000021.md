@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비타민 C
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+알코올 남용과 정맥 약물 사용으로 티아민(비타민 B1) 결핍이 흔히 발생하며, 베르니케·코르사코프 증후군을 초래한다. 저마그네슘혈증·저혈당은 동반될 수 있지만, 급성 치료에 가장 중요한 것은 티아민 보충이다. 따라서 티아민 투여가 적절한 치료이다.
 
 ## 출처
 

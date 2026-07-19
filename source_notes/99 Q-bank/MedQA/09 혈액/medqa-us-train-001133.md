@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 혈청 내 낮은 페리틴 수치
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소아에서 급성 빈혈·황달·고LDH·저 haptoglobin은 용혈성 빈혈을 시사하며, 비장비대는 혈액세포 파괴가 증가한 경우 흔히 동반된다.
 
 ## 출처
 

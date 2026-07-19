@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 혈청 β-hCG 농도
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복통, 구토, 방어성 복부반동통은 급성 복부증상을 시사한다. 임신 가능성을 배제하기 위해 혈청 β‑hCG를 측정하여 자궁외임신을 감별해야 한다. 따라서 다음 단계는 혈청 β‑hCG 농도 측정이다.
 
 ## 출처
 

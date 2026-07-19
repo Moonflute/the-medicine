@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 운동 전에 알부테롤 흡입기 사용 권고
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 시에만 천식 증상이 나타나고 현재 흡입제 사용이 충분하지 않다. 운동 유발 기관지수축은 흡입형 β2-작용제(알부테롤)를 운동 전 15분에 투여하면 예방된다. 따라서 운동 전에 알부테롤 흡입기 사용을 권고한다.
 
 ## 출처
 

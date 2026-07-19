@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 면밀히 관찰하며 트로포닌 결과를 기다린다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ST‑elevation이 의심되는 급성 관상동맥 증후군에서는 90분 이내에 관상동맥 중재술(PCI)이 표준 치료이다. 환자는 이미 아스피린을 투여받았으며, 트로포닌 결과를 기다리는 것보다 즉시 PCI를 준비해야 한다. 따라서 가장 적절한 다음 단계는 응급 경피적 관상동맥중재술이다.
 
 ## 출처
 

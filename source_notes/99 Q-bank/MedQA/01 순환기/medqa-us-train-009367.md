@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 동기화 심율동전환
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 호흡정지 후 맥박이 없고 심전도에 전기활동은 있으나 혈류가 없는 PEA 상태이다. PEA에서는 심폐소생술의 첫 단계가 가슴 압박이다. 따라서 가장 적절한 처치는 흉부 압박이다.
 
 ## 출처
 

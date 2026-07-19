@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 아프레피탄트와 드로나비놀
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고도 구토 유발 항암요법은 5‑HT3 수용체 길항제, NK1 수용체 길항제(아프레피탄트)와 스테로이드(덱사메타손)의 삼중요법이 표준이다. 이 조합이 가장 효과적으로 급성 구토를 예방한다. 따라서 정답은 아프레피탄트, 덱사메타손, 5‑HT3 길항제이다.
 
 ## 출처
 

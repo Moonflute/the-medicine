@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 감압성 두개골 절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두부 외상 후 의식 저하, 동공 부등, 편측 반사 증가는 급성 경막외혈종을 시사한다. 혈종이 큰 경우 외과적 혈종 제거가 표준 치료이며, 배액이나 색전술은 적절하지 않다. 따라서 정답은 C.
 
 ## 출처
 

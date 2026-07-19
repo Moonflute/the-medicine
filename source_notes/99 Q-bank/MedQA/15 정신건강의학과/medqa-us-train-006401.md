@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 셀레길린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+시탈로프람(SSRI)과 트라마돌(오피오이드)의 병용은 세로토닌 축적을 초래해 세로토닌 증후군을 일으킬 수 있다. 증후군이 의심될 때 가장 중요한 조치는 원인 약물을 즉시 중단하는 것이다. 따라서 두 약물을 중단하는 것이 다음 단계이다.
 
 ## 출처
 

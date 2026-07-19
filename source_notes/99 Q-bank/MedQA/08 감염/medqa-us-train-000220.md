@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 복부 CT 스캔
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+항생제 사용 후 급성 설사와 발열, 복부 불편감은 C. difficile 감염이 흔히 나타난다. 확진을 위해서는 대변에서 독소를 검출하는 것이 가장 민감하고 특이도 높은 검사이다. 따라서 대변 내 C. difficile 독소 확인이 정답이다.
 
 ## 출처
 

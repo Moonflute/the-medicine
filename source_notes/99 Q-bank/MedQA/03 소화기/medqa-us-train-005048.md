@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 12유도 심전도
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+상복부 급성 통증, 방사통, 복부 반발통, 저혈압은 천공성 궤양에 의한 복막염을 의심하게 한다. 복강 내 자유 공기 확인을 위해 흉부 방사선촬영이 가장 빠른 진단 방법이다.
 
 ## 출처
 

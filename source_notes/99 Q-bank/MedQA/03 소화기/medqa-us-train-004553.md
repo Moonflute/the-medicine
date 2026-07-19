@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 조영제를 사용한 CT 촬영
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구토 후 식도 파열(보어하브 증후군)에서는 종격동으로 누출이 보이며, 감염 예방을 위해 광범위한 그람양성·음성 항생제(암피실린+설박탐)가 필요하다. 따라서 정맥 암피실린과 설박탐 치료가 적절하다.
 
 ## 출처
 

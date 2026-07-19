@@ -26,11 +26,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -48,7 +50,8 @@ D. 원발성 부갑상선 기능 항진증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 다발성 골수종으로 인한 골수 침범과 신장 기능 저하가 폐렴을 악화시킨 상황이다. 다발성 골수종은 면역 억제로 감염 위험을 높이며, 치료에 베타-락탐계 항생제(반코마이신)와 세페핌이 필요하다. 따라서 가장 적절한 치료는 반코마이신 및 세페핌이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 바이러스 유전자 중합효소연쇄반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구강 칸디다증, 폐렴, 림프절병변, 발열은 면역결핍을 시사한다. 선천성 HIV 감염을 확인하려면 HIV 유전자를 증폭하는 PCR 검사가 가장 민감하고 빠른 확진법이다. 따라서 정답은 D이다.
 
 ## 출처
 

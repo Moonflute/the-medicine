@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 롤라피탄트
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 비만과 폐동맥 고혈압 증상(폐동맥성 심음, 방사선 소견)으로 진단된다. 리오시구앗은 내피세포 성장인자 수용체 억제제로 폐동맥 고혈압 치료에 1차 약물이며 증상 개선에 가장 효과적이다. 따라서 리오시구앗이 적절한 약물이다.
 
 ## 출처
 

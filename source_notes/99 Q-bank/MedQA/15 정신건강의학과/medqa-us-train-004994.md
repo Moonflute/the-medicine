@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 보존적 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 옥시코돈을 장기간 복용하고 금단 증상(구토·근육경련·통증 등)과 동료들의 유사 증상을 호소한다. 오피오이드 금단은 메타돈으로 교체하여 장기적인 억제와 증상 완화가 표준 치료이다. 따라서 메타돈 투여가 가장 적절하다.
 
 ## 출처
 

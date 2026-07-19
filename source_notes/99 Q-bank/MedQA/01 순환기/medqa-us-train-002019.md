@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복용약 목록을 확인한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 저혈압·서맥을 동반한 의심되는 심장 전도 차단으로, 약물 복용이 원인일 가능성이 크다. 초기 조치는 원인 약물을 확인하고 중단하는 것이 가장 중요하다. 따라서 최선의 초기 관리 단계는 복용 약물 목록을 확인하는 것이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 류마티스관절염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+거대 혀, 저전압 QRS, 대칭성 좌심실 비대는 전신성 아밀로이드증을 나타낸다. 다발골수종도 가능하지만 골수증은 일반적으로 빈혈과 고칼슘을 동반한다. 아밀로이드증이 제한성 심근병증을 일으키는 주요 원인이다. 따라서 다발골수종이 가장 가능성 높다.
 
 ## 출처
 

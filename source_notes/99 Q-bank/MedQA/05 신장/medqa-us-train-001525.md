@@ -16,11 +16,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 도플러를 이용한 신장 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압 치료에도 혈압이 조절되지 않을 때 신장동맥 협착을 의심한다. 도플러 초음파는 비침습적으로 신장동맥 혈류를 평가해 협착 여부를 확인하는 첫 번째 검사이다. 따라서 도플러를 이용한 신장 초음파가 적절하다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 리튬 치료에 루라시돈 추가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+리튬은 신장에서 나트륨과 함께 재흡수되므로 저염분 섭취는 혈중 리튬 농도를 상승시킨다. 다른 선택지는 리튬 대사에 큰 영향을 주지 않으며, 가장 큰 위험 요인은 염분 섭취 감소이다.
 
 ## 출처
 

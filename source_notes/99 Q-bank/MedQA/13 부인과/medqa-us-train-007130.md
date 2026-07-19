@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. LH 분비 증가와 난소 안드로겐 생성 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+과도한 운동·저체중은 시상하부에서 GnRH 방출 빈도를 감소시켜 LH·FSH 감소와 무월경을 초래한다. 프로락틴 증가·자궁내 유착·LH 증가·안드로겐 상승은 다른 원인이다. 따라서 시상하부 GnRH 분비 감소가 가장 가능성 높은 원인이다
 
 ## 출처
 

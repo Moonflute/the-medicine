@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 자발성 조산 병력
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+자발성 조산 병력이 있는 경우 재발 위험이 가장 높으며, 이는 가장 강력한 위험인자로 간주된다. 흡연, 저소득, 약물남용도 위험 요인이지만 이전 조산 경험이 가장 큰 영향을 미친다. 따라서 가장 높은 위험 요인은 자발성 조산 병력이다.
 
 ## 출처
 

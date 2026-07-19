@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 심방중격결손(Atrial septal defect)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Tetralogy of Fallot는 심실중격결손, 폐동맥 협착, 대동맥우회, 오른심실 비대가 특징이며, X‑ray에서 ‘부츠‑shaped heart’가 전형적인 소견이다. 따라서 가장 가능성 있는 방사선 소견은 부츠‑shaped heart이다.
 
 ## 출처
 

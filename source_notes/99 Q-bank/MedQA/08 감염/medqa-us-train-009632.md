@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 장염비브리오 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+생굴 섭취 후 24시간 이내에 발생하는 급성 설사는 Vibrio parahaemolyticus 감염이 가장 흔하다. 이 균은 해산물에 서식하며, 복통·구토·설사와 저열을 동반한다. 따라서 장염비브리오 감염이 가장 가능성 높은 진단이다.
 
 ## 출처
 

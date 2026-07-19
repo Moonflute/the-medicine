@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 자가 연골세포 이식
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 고관절 골관절증에서 통증·기능 제한이 심하고 보존적 치료에 반응하지 않을 경우, 인공 고관절 전치환술이 가장 효과적인 치료이다. 절골술·관절경·자가 연골이식은 제한된 경우에만 적용된다.
 
 ## 출처
 

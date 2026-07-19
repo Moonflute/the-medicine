@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. ACE 억제제, ARB, alpha 차단제 또는 loop 이뇨제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+백인 고혈압 환자 1차 치료에 ACE 억제제, ARB, 칼슘채널 차단제 또는 thiazide 이뇨제가 권장된다. 이는 JNC 8에서 백인에게 제시한 4가지 옵션 중 하나이다. 따라서 제시된 조합 중 ACE 억제제, ARB, CCB 또는 thiazide이 맞는다. ACE 억제제와 ARB를 동시에 사용하는 조합은 포함되지 않는다.
 
 ## 출처
 

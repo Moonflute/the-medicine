@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지속적 심전도 태아감시
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 37주에 혈압 145/95 mmHg, 단백뇨 3+, 부종이 나타난 중증 전자간증은 산전 고혈압 위기이며, 태아와 산모 모두 위험하므로 즉시 분만 유도가 필요하다. 따라서 분만 유도가 가장 적절한 처치이다.
 
 ## 출처
 

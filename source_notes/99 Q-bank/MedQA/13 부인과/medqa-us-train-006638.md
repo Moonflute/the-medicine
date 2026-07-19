@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 질편모충 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+악취가 나는 황록색 분비물과 질편모충(Trichomonas vaginalis) 감염은 질편모충증의 전형적인 임상양상이다. 칸디다 질염은 흰색 점액성 분비물, 라텍스 알레르기는 접촉성 증상, 생리적 백대하는 무증상이다. 따라서 가장 가능성 높은 진단은 질편모충 감염이다.
 
 ## 출처
 

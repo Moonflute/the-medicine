@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 헤모글로빈 전기영동
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+삼출성 용혈성 빈혈, 고LDH, 말초 혈액 도말의 다형핵세포는 PNH를 시사한다. PNH는 적혈구 표면 CD55/59 결실을 확인하는 유세포분석(flow cytometry)으로 확진한다. 따라서 가장 확진 가능성이 높은 검사는 유세포분석이다.
 
 ## 출처
 

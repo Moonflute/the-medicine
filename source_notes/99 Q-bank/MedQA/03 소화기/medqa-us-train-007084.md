@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 상부위장관 내시경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대량 하부 위장관 출혈에서 출혈 부위가 명확히 확인되지 않을 경우, 혈관조영술을 통해 출혈 혈관을 직접 시각화하고 색전술을 시행한다. 내시경은 대장 전체를 확인하기 어렵고, 개복술은 침습성이 크다. 따라서 장간막 혈관조영술이 가장 적절한 다음 단계이다.
 
 ## 출처
 

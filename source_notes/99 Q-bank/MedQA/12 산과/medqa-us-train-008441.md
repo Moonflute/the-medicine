@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 약물은 필요하지 않다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 만성 고혈압이 있으면 혈압을 140/90 mmHg 이하로 유지해야 하며, 라베탈롤은 태아에 안전하고 급성 고혈압에 효과적이다. 베타 차단제는 태아 성장 억제 위험이 있어 1단계 고혈압에만 권고된다. 따라서 약물은 필요하지 않다.
 
 ## 출처
 

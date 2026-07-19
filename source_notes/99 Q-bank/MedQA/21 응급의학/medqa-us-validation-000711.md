@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 중탄산나트륨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 졸음과 정상 동공·ECG를 보이며 중증 독성 징후가 없고, 세로토닌 재흡수 억제제와 삼환계 항우울제와 벤조디아제핀을 동시에 복용했으므로 플루마제닐 투여 시 경련 위험이 있다. 따라서 관찰이 가장 안전한 치료이다.
 
 ## 출처
 

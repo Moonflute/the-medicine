@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 디클로페낙
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+류마티스 관절염은 손목·근위지절관절의 부종·압통과 X선에서 관절 침식이 보이며, 메토트렉세이트가 1차 DMARD로 권장된다. 다른 선택지는 치료 전략에 부합하지 않는다.
 
 ## 출처
 

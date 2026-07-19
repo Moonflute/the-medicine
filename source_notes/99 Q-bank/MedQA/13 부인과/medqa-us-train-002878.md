@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 선천성 심장차단
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+초기 감속은 태아 머리 압박에 의해 발생하는 조기 감속으로, 자궁경부가 완전히 확장되지 않은 초기 진통 단계에서 흔히 보인다. 이는 태아 머리 압박에 의한 정상 변이이며, 태반 기능부전·탯줄 압박·선천성 심장 차단과는 구별된다.
 
 ## 출처
 

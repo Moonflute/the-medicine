@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 로피니롤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+잠들기 어려움은 수면 위생 불량이 가장 흔한 원인이다. 카페인 섭취 시점, 전자기기 사용 제한, 규칙적인 취침 시간 등 수면 위생 개선이 1차 치료이다. 따라서 초기 처치는 적절한 수면 위생이다.
 
 ## 출처
 

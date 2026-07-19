@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뇌 나트륨이뇨펩타이드 수치 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 후 폐 전이성 종양(임신성 융모성 종양)에서는 혈청 β‑hCG가 비정상적으로 상승한다. 따라서 가장 가능성 높은 추가 검사는 혈청 β‑hCG 측정이다.
 
 ## 출처
 

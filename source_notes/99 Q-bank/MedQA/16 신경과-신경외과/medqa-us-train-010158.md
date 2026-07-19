@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. α-갈락토시다제 A 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+X연관 부신백질이영양증은 ABCD1 유전자를 암호화하는 ATP 결합 카세트 수송체(ABCD1)의 기능 손실이 원인이며, 이는 백질에 과다 축적된 VLCFA로 인한 탈수초와 신경퇴행을 일으킨다. 환자의 진행성 시청·청각·운동 저하와 가족력은 이 메커니즘과 일치한다. 따라서 가장 가능성 높은 원인은 ATP 결합 카세트 수송체 기능장애이다.
 
 ## 출처
 

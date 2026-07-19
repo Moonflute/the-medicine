@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 점상 출혈을 동반한 쉽게 출혈하는 점막
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+크론병은 비연속성 궤양과 육아종이 동반되는 국소성 병변을 특징으로 하며, 항문 열상이 흔히 동반된다. 내시경에서 육아종을 동반한 국소 궤양이 가장 흔히 관찰된다. 따라서 육아종을 동반한 국소 궤양이 가장 가능성 높은 소견이다.
 
 ## 출처
 

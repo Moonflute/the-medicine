@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항이뇨호르몬 생성 부족
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈당에 의한 삼투성 이뇨는 혈당이 300 mg/dL 이상일 때 발생하며, 혈청 삼투압이 상승하고 소변 삼투압이 혈청보다 낮아진다. 환자는 HbA1c 10.5%로 조절되지 않은 당뇨, 고나트륨혈증, 저농도 소변 삼투압을 보여 삼투성 이뇨가 가장 가능성 높은 설명이다.
 
 ## 출처
 

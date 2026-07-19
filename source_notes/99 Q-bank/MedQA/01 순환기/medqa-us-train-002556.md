@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 포시노프릴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심전도에서 전방 유도의 R파 진폭 증가와 불완전 좌각 차단은 좌심실 비대와 관련이 있다. 고혈압과 비만, 당뇨가 동반된 경우 안지오텐신 전환 효소 억제제는 혈압 강하와 심근 비대 억제에 효과적이다. 따라서 포시노프릴이 치료에 포함될 가능성이 가장 높다.
 
 ## 출처
 

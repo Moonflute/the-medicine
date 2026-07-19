@@ -15,11 +15,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 면역글로불린 및 백신 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+동물 물림 후 증상(불안, 침 흘림, 근긴장도 증가)은 광견병을 나타낸다. 사후 예방은 노출 직후 광견병 면역글로불린과 동시에 백신을 투여하는 것이 가장 효과적이다. 따라서 면역글로불린 및 백신 투여가 예방에 가장 큰 역할을 한다.
 
 ## 출처
 

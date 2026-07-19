@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 요실금
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+진행성 기억력 저하와 일상생활 기능 유지, 전반적인 인지감소는 알츠하이머병을 시사한다. MRI에서 전반적 뇌 위축이 흔히 관찰된다. 따라서 예상되는 소견은 전반적 뇌 위축이다.
 
 ## 출처
 

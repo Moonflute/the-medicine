@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 백혈구 부착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복 호흡기 감염, 구강 칸디다증, 성장 지연은 중증 복합 면역결핍을 시사한다. SCID는 T세포 결핍이 핵심이며, B세포는 보조적으로 감소한다. 따라서 T세포 결핍이 가장 가능성 높은 결함이다.
 
 ## 출처
 

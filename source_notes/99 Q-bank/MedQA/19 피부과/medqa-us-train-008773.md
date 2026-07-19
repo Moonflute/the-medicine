@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 염증 후 탈색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다수의 비대칭 색소 결핍 반점이 입술·손·발에 나타나는 것은 자가면역성 멜라닌세포 파괴에 의한 백반증(백반증)과 일치한다. mTOR 신호 증가와 Mycobacterium leprae는 다른 임상양상을 보인다. 따라서 자가면역성 멜라닌세포 파괴가 원인이다.
 
 ## 출처
 

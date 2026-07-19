@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 교사의 지시에도 불구하고 수업 중 자주 자리를 이탈함
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반항적 행동이 지속되고 타인에게 책임을 전가하는 것이 ODD의 특징이다. 이러한 아이는 자신의 잘못을 남에게 돌리는 경향이 있다. 따라서 가장 흔히 동반되는 추가 증상은 자신의 잘못을 다른 사람 탓으로 돌리는 것이다.
 
 ## 출처
 

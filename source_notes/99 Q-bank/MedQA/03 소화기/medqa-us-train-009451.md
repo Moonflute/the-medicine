@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부 X선
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 복통, 발열, 백혈구 증가, 그리고 직장수지검사에서 압통성 종괴가 나타나는 경우 복부 CT에 조영제를 사용하면 천공, 농양, 혹은 복잡한 게실염을 정확히 확인할 수 있다. 초음파는 가스에 의해 제한될 수 있다. 따라서 확진에 가장 적절한 검사는 조영증강 복부 CT이다.
 
 ## 출처
 

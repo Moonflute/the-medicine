@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 니페디핀으로 변경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+암로디핀에 의한 말초 부종은 ACE 억제제(에날라프릴)와 병용하면 혈관 확장이 증가해 부종 위험을 감소시킨다. 다른 옵션은 부종을 악화시킬 수 있다.
 
 ## 출처
 

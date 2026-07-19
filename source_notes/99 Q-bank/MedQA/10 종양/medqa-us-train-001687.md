@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 디히드로폴산 환원효소를 억제해 세포 합성·분열에 필요�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+시클로포스파마이드는 대사산물인 아크롤레인으로 방광 이행상피에 화학성 방광염을 일으켜 출혈성 방광염을 유발한다. 메스나는(2-메르캅토에탄술포네)와 같은 티올 화합물은 아크롤레인을 비활성화시켜 방광 손상을 예방한다. 따라서 방광염 예방에 가장 효과적인 약물은 방광 이행상피 염증을 감소시키는 티올이다.
 
 ## 출처
 

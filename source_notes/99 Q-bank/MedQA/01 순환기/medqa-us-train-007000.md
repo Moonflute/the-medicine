@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -52,7 +54,8 @@ D. 적혈구의 기계적 파괴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대동맥판막 협착으로 인한 기계적 용혈성 빈혈은 파편된 적혈구가 대동맥판을 통과하면서 파괴되어 발생한다. 따라서 정답은 D이다.
 
 ## 출처
 

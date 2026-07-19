@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. PCR에서 T세포 수용체 절제환 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전신성 결핵과 같은 심각한 감염에서 IFN‑γ 결핍은 마크로파지 활성 저하와 결핵 감염에 대한 감수성을 높인다. 환자의 임상양상과 혈액 도말에서 항산균이 보이는 점을 고려하면 IFN‑γ 수치 감소가 예상된다.
 
 ## 출처
 

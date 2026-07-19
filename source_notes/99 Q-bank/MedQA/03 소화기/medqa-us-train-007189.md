@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 커피콩 모양의 구불결장 확장
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+클로스트리디움 디피실 감염에 의한 독성 거대결장은 장벽 부전으로 장관 확장과 하스트라(지방층) 소실을 초래한다. 복부 X선에서 이러한 소견이 가장 흔히 보인다. 따라서 정답은 결장 확장과 하스트라 소실이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흡연·고령·뇌 MRI에서 다발성 고신호 병변은 폐암 전이성 뇌병변을 강하게 시사한다. 폐암은 뇌 전이를 가장 흔히 일으키는 원인이다. 다른 선택지는 해당 영상 소견과 일치하지 않는다. 따라서 정답은 D이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 체중 감량을 권고한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경구 피임제는 에스트로겐 함량에 따라 혈압 상승을 일으킬 수 있다. 환자는 고혈압이며 피임을 중단하고 자궁내장치를 삽입하면 호르몬제 노출을 없애 혈압을 개선할 수 있다.
 
 ## 출처
 

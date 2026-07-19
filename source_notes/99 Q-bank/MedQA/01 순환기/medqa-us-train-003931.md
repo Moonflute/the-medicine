@@ -18,11 +18,13 @@ question_type: association
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 심실 확장
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+출산 후 4주 내에 심부전 증상, EF 38%는 확장성 심근증을 의미한다. 확장성 심근증은 심실이 확장되고 수축력이 감소한다. 따라서 가장 가능성 높은 진단은 심실 확장이다.
 
 ## 출처
 

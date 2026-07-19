@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 급성 신부전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양쪽 폐에서 수포음, 간비대, 말초 부종, 고혈압이 동반된 급성 호흡곤란은 폐울혈·간울혈을 동반한 급성 비대상성 심부전을 시사한다. 치료는 먼저 혈관확장제와 이뇨제로 전부량을 감소시키는 것이 필요하다. 따라서 급성 비대상성 심부전이 가장 가능성 높은 진단이다.
 
 ## 출처
 

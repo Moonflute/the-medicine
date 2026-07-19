@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 두개외 탈출
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두부 외상 후 급성 악화된 두통·오심·편측 하반신 마비는 대뇌 겸하 탈출(뇌압 상승)과 일치한다. 편도 탈출·구상 돌출은 뇌실 내 압력 변화와 다르게 나타난다. 따라서 대뇌 겸하 탈출이 정답이다
 
 ## 출처
 

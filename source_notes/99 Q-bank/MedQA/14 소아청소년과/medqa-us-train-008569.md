@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 품행장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아이의 반응이 없고, 언어 발달이 지연되었으며, 소리와 말에 대한 반응이 부족한 점은 청력 손실을 시사한다. 청력 검사는 진단에 필수이며, 선택적 함구증은 의도적 말 억제, 학습장애는 인지·학습 문제, 품행장애는 행동 위반이 주된 특징이다.
 
 ## 출처
 

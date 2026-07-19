@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복부 대동맥류
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심한 복통·방사통·트리글리세리드 942 mg/dL는 고중성지방혈증에 의한 급성 췌장염을 시사한다. 트리글리세리드가 1000 mg/dL 이상이면 췌장염 위험이 높으며, 이 경우 진단이 가장 가능성 높다. 다른 선택지는 증상과 부합하지 않는다.
 
 ## 출처
 

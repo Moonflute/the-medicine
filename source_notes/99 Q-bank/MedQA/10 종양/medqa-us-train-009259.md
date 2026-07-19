@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고요산혈증, 고칼륨혈증, 고인산혈증, 젖산산증, 수산염 �
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+종양용해증후군에서는 급격한 세포 파괴로 요산, 칼륨, 인, 젖산이 상승하고 요산이 소변에 결정으로 나타난다. 고요산혈증·고칼륨·고인산·젖산산증과 요산결정이 특징적인 소견이다. 따라서 정답은 B이다.
 
 ## 출처
 

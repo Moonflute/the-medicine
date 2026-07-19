@@ -17,11 +17,13 @@ question_type: risk_factor
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이웃
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심한 탈수와 영양실조, 고심박동, 호흡곤란을 보이는 영아는 급성 호흡기 감염보다 기도 폐쇄가 의심된다. 급성 세기관지염(RSV)에서 가장 위험한 합병증은 기도 폐쇄이며, 가장 위험한 가해자는 보통 어머니가 직접 돌보는 경우가 많다. 따라서 가장 가능성 높은 가해자는 어머니이다.
 
 ## 출처
 

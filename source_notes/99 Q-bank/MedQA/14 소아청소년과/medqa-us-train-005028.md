@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소수관절형 소아 특발성 관절염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 소수관절, 전방 포도막염, 고항핵항체는 소수관절형 소아 특발성 관절염을 특징짓는다. 이는 다른 소아 관절염 형태와 구분되는 주요 임상소견이다. 따라서 소수관절형 JIA가 가장 가능성 높은 진단이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 요추천자
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 중증 간염 환자에서 HBsAg 양성은 B형 간염을 의미하므로, 치료 전에 동시 감염 여부를 확인해야 한다. D형 간염은 B형 간염 환자에게만 감염될 수 있어 혈청 검사가 필요하다. 따라서 시행할 검사는 D형간염 혈청검사이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 시프로플록사신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 중이염의 1차 병원체는 폐렴구균이며, 첫 번째 선택 약물은 광범위한 효과와 안전성으로 아목시실린이다. 따라서 아목시실린이 가장 적절한 치료제이다.
 
 ## 출처
 

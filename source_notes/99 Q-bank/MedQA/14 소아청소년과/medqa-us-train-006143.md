@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 동일 염색체 3개
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+장애된 언어 발달, 큰 귀, 장시간 눈맞춤 회피는 취약 X 증후군의 전형적인 표현형이다. 진단을 확정하려면 X 염색체의 CGG 삼염기 반복을 확인하는 분자 검사가 필요하다. 다른 염색체 이상은 해당 임상과 일치하지 않는다.
 
 ## 출처
 

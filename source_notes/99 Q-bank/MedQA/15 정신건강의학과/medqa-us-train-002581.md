@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 에스시탈로프람
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+외상 후 스트레스 장애(PTSD)에서 첫 번째 약물 선택은 SSRI이며, 에스시탈로프람은 효과와 부작용 프로파일이 우수하다. 다른 선택지는 PTSD에 권장되지 않는다. 따라서 에스시탈로프람이 초기 치료에 적절하다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 인위성 장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복통과 과도한 건강염려가 지속되고 검사에도 이상이 없으며 일상 기능이 크게 제한되는 경우는 신체증상장애(신체화 장애)로 진단한다. 이는 신체 증상이 실제 질환보다 심리적 요인에 의해 강조되는 경우이다. 따라서 가장 가능성 높은 진단은 신체증상장애이다.
 
 ## 출처
 

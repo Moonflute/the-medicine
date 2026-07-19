@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심실 단락의 혈류 역전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압은 심실벽에 압력을 가해 동심성 비대를 일으키며, 이로 인해 이완기 심음과 폐부종, 말초 부종이 나타난다. 환자는 최근 체중 증가와 고혈압성 심부전 증상을 보이며, 심초음파에서 동심성 비대가 확인되었다. 따라서 가장 가능성 높은 근본 원인은 동맥성 고혈압이다. (알코올성 심근병증은 확장성 심부전 형태를 보이며, 심낭삼출은 심음보다 심음 저하와 전신 정맥압 상승을 주로 나타낸다.)
 
 ## 출처
 

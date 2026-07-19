@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 추가 검사가 필요 없다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심장 아밀로이드증은 저전압 ECG와 심실벽의 미세 석회화·동심성 비후를 보이며 확진을 위해 심장 조직 생검이 필요하다. 폐기능검사·X선은 진단에 충분하지 않다. 따라서 정답은 심장조직 생검(B)이다.
 
 ## 출처
 

@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 전정신경염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 회전성 현기증이 자세 변화(좌측으로 머리 회전) 후 악화되고 2분 뒤 호전되는 양상은 양성 발작성 체위성 현훈(BPPV)과 일치한다. 이는 전정관 내 입자 이동이 원인이다. 따라서 가장 가능성 높은 진단은 양성 발작성 체위성 현훈이다.
 
 ## 출처
 

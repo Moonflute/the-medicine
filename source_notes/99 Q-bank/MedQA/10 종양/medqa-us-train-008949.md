@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 환자와 상담하고 같은 오피오이드 용량을 유지
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+완화 치료 중인 말기 암 환자에게는 통증 조절이 최우선이며, 현재 진통제 용량이 충분치 않다. 호흡 억제 위험은 용량을 서서히 증가시키며 모니터링하면 관리 가능하다.
 
 ## 출처
 

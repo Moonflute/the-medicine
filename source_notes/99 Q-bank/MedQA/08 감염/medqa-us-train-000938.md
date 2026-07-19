@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 포도당 30 mg/dL
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구역성 흉수는 일반적으로 저포도당, 고LDH, 고단백을 보이며, 감염성 흉수는 포도당이 60 mg/dL 이하로 감소한다. 환자는 알코올 중독과 구강 위생 불량으로 구강 무균성 흉수 가능성이 높으며, 저포도당이 가장 특징적인 소견이다. 따라서 포도당 30 mg/dL가 가장 가능성 높은 결과이다.
 
 ## 출처
 

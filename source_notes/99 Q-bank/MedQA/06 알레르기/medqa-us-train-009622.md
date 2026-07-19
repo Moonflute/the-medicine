@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 중증 복합 면역결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+IgM은 정상이지만 IgG와 IgA가 감소한 패턴은 클래스 스위칭 결함을 의미한다. 고 IgM 증후군은 CD40L 또는 AID 결함으로 IgM은 정상·증가하고 다른 면역글로불린이 감소한다. 따라서 고 IgM 증후군이 가장 가능성 높은 기저 진단이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 펜시클로버 크림
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+재발성 구순포진은 HSV‑1 감염으로, 국소 수포와 경부 림프절병증이 동반된다. 1차 치료는 국소 항바이러스제인 펜시클로버 크림이다. 다른 선택지는 효과가 없거나 다른 질환에 해당한다. 따라서 펜시클로버 크림이 적절하다.
 
 ## 출처
 

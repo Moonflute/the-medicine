@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 멸균 비닐봉지에 넣고 생리식염수로 적신 거즈로 감싼 뒤 
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+절단된 손가락을 재이식하려면 조직 손상을 최소화해야 하므로 멸균 비닐봉지에 넣고 생리식염수에 적신 거즈로 감싼 뒤 얼음 위에 보관한다. 이는 온도를 4 °C 이하로 유지해 세포 대사를 억제한다. 단순 수건 포장은 감염 위험을 높이고, 물에 담그는 것은 조직 부종을 초래한다.
 
 ## 출처
 

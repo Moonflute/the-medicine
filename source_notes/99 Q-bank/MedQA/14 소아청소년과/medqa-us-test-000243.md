@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 터키안장 종괴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+터너 증후군(45,X)에서는 골격 발달이 저해되어 협부에서 혈관이 보이지 않는 바소체가 결여된다. 따라서 협부 도말에서 바소체가 보이지 않는 것이 가장 흔한 소견이다.
 
 ## 출처
 

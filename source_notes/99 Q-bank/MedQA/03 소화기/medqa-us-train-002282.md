@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 양성자펌프억제제를 추가로 치료한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+연하곤란과 흉통이 지속되고 바륨 검사까지 정상인 경우, 식도 운동 이상을 의심한다. 식도 내압검사는 식도 연동운동과 비정상적인 수축을 평가하는 표준 검사이다. 따라서 진단에 도움이 되는 검사는 식도 내압검사이다.
 
 ## 출처
 

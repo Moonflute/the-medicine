@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흉부 X선
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+성장호르몬 과다에 의한 말단비대증을 선별할 때는 혈청 IGF-1(인슐린 유사 성장인자-1) 수치를 측정한다. IGF-1은 GH 분비의 장기적 지표이며, GH 억제검사보다 먼저 시행한다. 따라서 초기 선별검사는 혈청 IGF-1이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 3일 이내 수술하면 안구함몰을 예방할 수 있다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+눈구멍 바닥 골절은 안와내압 상승 위험이 낮으며 초기에는 스테로이드와 관찰로 보존적 관리가 가능하다. 대부분 1~2주 내에 안구운동이 회복된다. 따라서 초기 보존적 관리가 정답이다.
 
 ## 출처
 

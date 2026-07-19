@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고유량 산소를 이용한 경피적 흡인
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+방사선 후 흉막 석회화와 심낭 두꺼워짐이 보이는 경우는 제한성 심낭염이며, 외과적 심낭절제술이 치료에 가장 효과적이다. 따라서 정답은 B이다.
 
 ## 출처
 

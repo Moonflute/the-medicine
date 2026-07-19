@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -46,7 +48,8 @@ D. 말초혈액도말
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+유전구형적혈구증은 적혈구 막 단백질(Eosin-5-maleimide) 결합이 감소하는 특이적 검사로 확진한다. 따라서 가장 확진에 좋은 검사는 Eosin-5-maleimide 결합검사이다.
 
 ## 출처
 

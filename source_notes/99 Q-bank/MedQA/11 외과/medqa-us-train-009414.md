@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 절단술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전층(전부) 화상은 진피와 피하조직까지 손상되어 건조하고 흰색, 가죽 같은 외관을 보이며, 조기 치료로는 손상된 조직을 제거하고 피부이식을 시행해야 회복이 가능하다. 따라서 가장 적절한 치료는 절제 및 피부이식이다.
 
 ## 출처
 

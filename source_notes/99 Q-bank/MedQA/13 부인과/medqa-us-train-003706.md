@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 트라넥삼산 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+산후 출혈이 자궁 이완으로 인한 경우 트라넥삼산은 혈전 형성을 억제해 출혈을 감소시킨다. 카보프로스트는 천식 환자에서 기관지 수축을 유발하므로 금기이다. 따라서 정답은 트라넥삼산 투여이다.
 
 ## 출처
 

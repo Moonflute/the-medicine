@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세프트리악손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+겸상적혈구병 환자는 비장 기능 저하로 폐렴구균·수막구균·황색포도상구균 등에 대한 감염 위험이 높으며, 예방적 항생제로 세프트리악손을 사용하는 것이 권장된다. 다른 항생제는 내성·스펙트럼이 맞지 않는다. 따라서 가장 적절한 치료는 세프트리악손이다.
 
 ## 출처
 

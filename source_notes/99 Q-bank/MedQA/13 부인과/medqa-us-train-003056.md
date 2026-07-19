@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 26세를 초과한 여성에게 HPV 예방접종은 권장되지 않는다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HPV 백신은 26세 이하 여성에게 권장되며, 26세 초과에서는 일반적으로 권장되지 않는다. 따라서 26세 초과인 환자에게는 백신이 권장되지 않는다.
 
 ## 출처
 

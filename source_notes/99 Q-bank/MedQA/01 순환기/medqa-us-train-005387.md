@@ -17,11 +17,13 @@ question_type: association
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 발기부전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 대동맥판 협착은 혈류가 감소하면서 장내 혈관이형성증(AVM)과 같은 출혈성 병변과 연관될 수 있다. 특히 Heyde 증후군에서 대동맥 협착과 장내 혈관이형성증이 흔히 동반된다. 따라서 가장 흔히 보이는 소견은 대장 혈관이형성증이다.
 
 ## 출처
 

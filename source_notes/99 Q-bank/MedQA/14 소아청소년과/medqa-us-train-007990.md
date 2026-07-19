@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아릴설파타아제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+안저에서 보이는 체리 레드 반점은 헥소사미니다아제 A 결핍에 특징적인 소견이다. 헥소사미니다아제 A 결핍은 타이-삭스 병을 일으키며, 효소 활성을 혈액에서 측정하면 진단이 가능하다. 따라서 헥소사미니다아제 검사가 가장 적절하다.
 
 ## 출처
 

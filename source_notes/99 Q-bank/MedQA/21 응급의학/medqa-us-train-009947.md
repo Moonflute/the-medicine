@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 피소스티그민
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+디펜히드라민 과다 복용은 항콜린성 독성을 일으키며, 중추신경계 혼란, 발한, 홍조, 빈맥이 나타난다. 피소스티그민은 콜린성 작용제이며 항콜린성 독성을 역전시킨다. 따라서 피소스티그민 투여가 가장 적절하다.
 
 ## 출처
 

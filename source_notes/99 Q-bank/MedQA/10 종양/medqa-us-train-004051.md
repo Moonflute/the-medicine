@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 근내막 염증세포 침윤과 근섬유 괴사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+버벡 소체는 랑게르한스세포 조직구증(그레버스 병)에서 특이적으로 발견되는 세포소기관으로, 다른 근육병변에서는 거의 보이지 않는다. 따라서 이 질환의 가장 특이적인 지표는 ‘버벡 소체’이다.
 
 ## 출처
 

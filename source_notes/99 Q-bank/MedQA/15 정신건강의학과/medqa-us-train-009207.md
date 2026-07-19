@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 레트 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아동이 특정 상황(학교)에서만 말을 하지 않고, 다른 사람 앞에서는 정상적으로 말하는 패턴은 선택적 함구증을 특징으로 한다. 이는 사회적 불안보다 말하기 자체에 대한 선택적 억제이다. 따라서 가장 가능성 높은 진단은 선택적 함구증이다.
 
 ## 출처
 

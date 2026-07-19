@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지금 안저 사진을 촬영하고 이후 매년 추적한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병 환자는 당뇨성 망막병증을 조기에 발견하기 위해 안저 촬영을 즉시 시행해야 한다. 5년 후가 아니라 현재 검사가 권장된다. 따라서 지금 안저 사진을 촬영하고 연간 추적한다.
 
 ## 출처
 

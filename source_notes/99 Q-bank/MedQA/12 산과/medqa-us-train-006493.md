@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 요도 카테터 삽입
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+분만 후 몇 시간 동안 소변을 보지 못하고 복부 압박감과 요실금이 나타난 것은 급성 요폐를 의미한다. 경막외마취와 골반 외상으로 일시적인 방광 신경마비가 흔히 발생한다. 방광을 즉시 감압하기 위해 요도(삽입) 카테터가 가장 적절한 치료이다.
 
 ## 출처
 

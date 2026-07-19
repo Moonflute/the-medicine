@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뇌실복강 단락술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+특발성 두개내 고혈압은 시신경유두부종과 시야 결손을 동반하며, 약물 치료 1차 선택은 CSF 생산을 억제하는 아세타졸아미드이다. 푸로세미드는 이뇨제, 시신경초 천공술·뇌실복강 단락술은 수술적 옵션이다. 따라서 아세타졸아미드가 다음 치료이다.
 
 ## 출처
 

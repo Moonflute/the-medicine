@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 벼룩 물림(Flea bite)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+침대 벌레는 밤에 활동하며, 몸에 선형으로 배열된 작은 붉은 융기와 가려움증을 일으킨다. 환자의 여행력과 다발성 선형 병변이 이를 지지한다. 다른 옵션은 이동성 또는 독성 궤적이 다르다.
 
 ## 출처
 

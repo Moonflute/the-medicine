@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흉부 CT에서 기관지확장
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+콩고레드 염색에서 사과녹색 이중굴절은 아밀로이드 침착을 의미한다. 신장 아밀로이드증에서는 말초 혈액 도말에 연전(특정 형태의 섬유소) 형성이 나타난다. 따라서 말초 도말에서 연전 형성이 가장 가능성 높은 소견이다.
 
 ## 출처
 

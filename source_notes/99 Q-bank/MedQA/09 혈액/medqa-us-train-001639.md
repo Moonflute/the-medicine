@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. II형과 III형이 혼합된 세포독성·면역복합체 과민반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 용혈성 빈혈과 강한 혈색소 결합 항체에 의한 적혈구 파괴가 나타나며, 이는 항체가 적혈구 표면에 결합해 세포독성을 일으키는 II형 과민반응이다. 따라서 해당 상태는 세포독성(II형) 과민반응이다.
 
 ## 출처
 

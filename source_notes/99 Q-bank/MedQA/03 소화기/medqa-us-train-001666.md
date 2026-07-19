@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 글리아딘 과민반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+지방변, 체중 감소, 24시간 지방 12 g은 지방흡수 장애를 시사한다. d-자일로스 시험에서 소변에 2 g만 배출된 것은 소장 흡수 장애를 의미한다. 이는 셀리악병(글루텐 민감성 장염)과 일치한다. 따라서 셀리악병이 가장 가능성 높은 진단이다.
 
 ## 출처
 

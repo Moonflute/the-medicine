@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. E형간염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 E형 간염은 급성 간부전과 높은 사망률을 동반하는 전격성 간염으로, 특히 3기 임산부에서 예후가 가장 나쁘다. 따라서 가장 높은 사망률과 최악의 예후를 보이는 바이러스는 E형 간염이다.
 
 ## 출처
 

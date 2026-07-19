@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아미오다론
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고용량 덱사메타손 억제 시험에서 ACTH와 코르티솔이 모두 감소하면 ACTH 의존성 Cushing 증후군, 즉 뇌하수체 종양이 의심된다. 따라서 뇌하수체 MRI가 다음 단계이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈전성 혈소판감소성 자반증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소아에서 급성 용혈성 요독증후군(HUS)은 대장균(특히 O157:H7) 감염 후 발생하며, 빈혈, 혈소판 감소, 급성 신부전, 변성 적혈구가 특징이다. 환자의 실험실 결과와 임상 양상이 HUS와 일치하므로 가장 가능성 높은 원인은 대장균 감염이다. 다른 선택지는 혈관내 응고나 면역성 혈소판감소증과는 혈소판 감소와 신기능 저하 양상이 다르다.
 
 ## 출처
 

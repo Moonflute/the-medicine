@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 미세변화병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+림프절 생검 후 급성 신증후군과 전신 부종, 단백뇨가 나타난 경우 미세변화병이 가장 흔한 병리소견이다. 이는 호지킨 림프종과는 별개의 신장 질환이다. 따라서 정답은 미세변화병이다.
 
 ## 출처
 

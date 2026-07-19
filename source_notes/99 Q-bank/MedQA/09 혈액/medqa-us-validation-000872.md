@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 원발성 골수섬유증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+거대핵성 골수이형성증후군은 거대핵성 호중구와 저과립 혈소판, 거대적혈구(MCV↑)를 보이며, 골수는 과세포성이다. 이는 급성 백혈병이나 재생불량과 구별되는 특징이다. 따라서 가장 잘 설명하는 진단은 골수이형성증후군이다.
 
 ## 출처
 

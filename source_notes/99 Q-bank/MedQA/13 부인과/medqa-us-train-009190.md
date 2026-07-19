@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복강경검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+월경 전 통증과 성교통, 자궁경부 압통은 자궁내막증을 강하게 시사한다. 진단 확정을 위해서는 병변을 직접 시각화할 수 있는 복강경 검사가 가장 정확하다. 따라서 다음 단계는 복강경 검사이다.
 
 ## 출처
 

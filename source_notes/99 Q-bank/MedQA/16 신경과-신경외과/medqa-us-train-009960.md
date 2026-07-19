@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 해면정맥동 혈전증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+치과 감염으로 인한 뇌농양은 급성 두통, 발열, 구토, 의식 저하와 함께 양측 유두부종을 동반한다. 이는 뇌내 압력 상승을 의미한다. 따라서 화농성 뇌농양이 가장 가능하다.
 
 ## 출처
 

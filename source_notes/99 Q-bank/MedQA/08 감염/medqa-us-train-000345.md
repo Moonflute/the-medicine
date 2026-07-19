@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 반응성 관절염(Reactive arthritis)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+성병(임질) 감염은 관절통, 발열, 다발성 황색 농포성 병변, 손목 부종을 동반한 파종성 임균 감염을 일으킨다. 환자의 성생활 및 파트너의 다이어프램 사용은 임질 위험을 높인다. 따라서 가장 가능성 높은 진단은 파종성 임균 감염이다.
 
 ## 출처
 

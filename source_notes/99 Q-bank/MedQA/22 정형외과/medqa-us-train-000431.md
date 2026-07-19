@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 유잉 육종(Ewing sarcoma)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+X‑ray에서 ‘뼈가 구멍 뚫린 듯한’ 병변과 주변 뼈의 얇아짐은 골소골증(osteoclastoma, 골다공성 종양)과 일치한다. 따라서 가장 가능성 높은 진단은 파골세포종이다.
 
 ## 출처
 

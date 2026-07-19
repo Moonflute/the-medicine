@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비포합 빌리루빈의 간 섭취 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수혈 후 용혈성 빈혈이 발생하면 비포합 빌리루빈이 급격히 증가한다. 비포합 빌리루빈은 간에서 결합되지 못하고 혈중에 축적되어 간접 빌리루빈이 크게 상승한다. 따라서 빌리루빈 생성 증가가 원인이다.
 
 ## 출처
 

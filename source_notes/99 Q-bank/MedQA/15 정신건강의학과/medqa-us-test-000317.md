@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 트라조돈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+EBV는 면역억제 환자에서 중추신경계 림프종(특히 원발성 CNS 림프종)과 연관된다. 조직에서 혈관 주위 림프구 집락이 보이는 것은 EBV 관련 림프증식성 질환을 시사한다. 따라서 EBV가 가장 관련 있다.
 
 ## 출처
 

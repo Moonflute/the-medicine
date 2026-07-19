@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 환자와 부모를 가족치료에 의뢰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아동이 성적 학대를 의심받는 상황에서는 전문적인 성학대 평가기관에 의뢰하여 객관적인 조사와 진단을 받아야 한다. 이는 법적·윤리적 의무이며, 다른 검사는 사후에 필요할 수 있지만 최초 단계는 전문기관 평가이다. 따라서 가장 적절한 다음 단계는 성적 학대 확인을 위한 전문기관 의뢰이다.
 
 ## 출처
 

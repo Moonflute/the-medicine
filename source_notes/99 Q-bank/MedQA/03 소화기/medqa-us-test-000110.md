@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정상 장점막
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 설사와 점액성 점액, 빈혈 경향, 혈소판 증가가 동반된 경우 염증성 장질환이 의심된다. 대변 백혈구는 염증성 장질환에서 흔히 양성으로 나타나며, 진단적 민감도가 높다. 따라서 가장 관련이 높은 소견은 대변 백혈구이다.
 
 ## 출처
 

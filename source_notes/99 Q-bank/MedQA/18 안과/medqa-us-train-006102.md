@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안구 마사지
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병성 망막병증에서 증식성 병변이 나타나면 레이저 광응고술이 표준 치료이다. 국소 티몰롤은 전염성 각막염에, 항바이러스는 포진성 망막염에, 안구 마사지는 효과가 없다. 따라서 레이저 광응고술이 적절한 다음 단계이다.
 
 ## 출처
 

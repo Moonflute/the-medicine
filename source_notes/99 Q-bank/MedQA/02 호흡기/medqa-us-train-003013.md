@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 플루티카손을 중단하고 이프라트로피움 추가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+지속적인 흡입 스테로이드에 LABA(살메테롤)를 추가하면 중등도 지속성 천식의 조절이 개선된다. 다른 옵션은 스테로이드 중단이나 비효율적인 약물이다.
 
 ## 출처
 

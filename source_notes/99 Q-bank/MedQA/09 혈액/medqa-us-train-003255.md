@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 외투세포 림프종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+IgM 단클론 증가는 Waldenström macroglobulinemia와 일치한다. 고점도 혈증, IgM 고농도, 골수 림프구성 침윤이 특징이다. 따라서 가장 가능성 높은 진단은 발덴스트롬 거대글로불린혈증이다.
 
 ## 출처
 

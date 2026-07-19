@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 스텐트 혈전증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+클로피도그렐(혈소판 억제제)과 실데나필(PDE5 억제제)은 혈관 확장을 촉진해 혈압을 급격히 낮출 수 있다. 두 약물의 병용은 저혈압과 실신을 일으키는 약물 상호작용이 가장 흔한 원인이다. 따라서 정답은 약물 상호작용이다.
 
 ## 출처
 

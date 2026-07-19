@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전층 생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+허벅지에 보이는 갈색 병변은 색소성 병변으로, 악성 가능성을 배제하기 위해 추가 문진을 통해 병변의 변화를 확인하고 필요 시 추적한다. 따라서 가장 적절한 조치는 ‘추가 문진’이다.
 
 ## 출처
 

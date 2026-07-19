@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고용량 덱사메타손을 3개월간 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고용량 덱사메타손 억제 후 코르티솔이 부분적으로 감소하고 ACTH도 감소한 것은 ACTH 의존성 쿠싱증후군, 특히 뇌하수체에서 과다 분비되는 Cushing disease를 시사한다. 이러한 경우 진단적 확정은 뇌하수체 MRI로 국소 병변을 확인하는 것이 표준이다. 따라서 다음 적절한 조치는 뇌하수체 MRI 시행이다.
 
 ## 출처
 

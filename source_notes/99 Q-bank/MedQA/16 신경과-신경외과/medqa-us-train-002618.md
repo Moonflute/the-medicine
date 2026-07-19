@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아스피린을 중단하고 와파린을 시작한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아스피린 단독 요법에 비해 아스피린 + 디피리다몰이 재발성 허혈성 뇌졸중 위험을 더 크게 감소시킨다. 환자는 이미 81 mg 아스피린을 복용 중이므로 추가로 디피리다몰을 투여하는 것이 2차 예방에 적절하다. 따라서 다음 단계는 디피리다몰 추가이다.
 
 ## 출처
 

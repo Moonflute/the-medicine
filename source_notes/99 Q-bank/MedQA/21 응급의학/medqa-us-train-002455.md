@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 에피네프린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+저혈압, 빈맥, 천명음, 전신 두드러기는 전형적인 아나필락시스 증상이며, 급성 치료는 즉시 에피네프린 투여가 필요하다. 에피네프린은 혈관 수축과 기관지 확장을 통해 혈역학적 불안정을 바로잡는다. 따라서 다음 단계는 에피네프린 투여이다.
 
 ## 출처
 

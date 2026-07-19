@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항핵항체 및 신장 패널 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양손에 과다색소 침착과 수포가 동반된 포르피리아 피부근육증은 소변에서 유로포르피린이 검출되는 것이 진단적 단서이다. 따라서 소변 유로포르피린 측정이 다음 단계이다. 글루텐 제한이나 ANA 검사는 관련이 적다.
 
 ## 출처
 

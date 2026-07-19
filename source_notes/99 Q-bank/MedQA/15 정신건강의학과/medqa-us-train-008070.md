@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대인관계 정신치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+피부를 반복적으로 뜯는 충동 조절 장애는 강박 스펙트럼에 속하며, SSRI가 1차 치료제로 효과적이다. 플루옥세틴은 충동 억제와 불안 감소에 도움이 된다. 따라서 초기 약물 치료로 플루옥세틴을 선택한다.
 
 ## 출처
 

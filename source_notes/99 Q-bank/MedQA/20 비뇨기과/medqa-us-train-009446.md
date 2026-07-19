@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 응급 수술실에서 IV 인디고 카민으로 요도 손상 확인
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+골반 골절과 요도 출혈, 전립선 상승은 전립선-요도 손상을 시사한다. 요도 손상의 정확한 부위를 파악하기 위해 역행성 요도조영술이 필요하며, 신장·요관·방광 촬영을 포함한다. 따라서 초기 조치는 역행성 요도조영술이다.
 
 ## 출처
 

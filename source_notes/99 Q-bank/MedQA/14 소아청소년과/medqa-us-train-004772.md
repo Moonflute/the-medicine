@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. CT 혈관조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+선상 골절은 대개 비침습적이며 출혈이나 뇌손상이 없을 경우 입원 없이 관찰이 가능하다. 신경학적 이상이 없고 CT에서 출혈이 보이지 않으므로 입원 관찰이 적절하다. 다른 선택지는 과잉 검사이므로 A가 정답이다.
 
 ## 출처
 

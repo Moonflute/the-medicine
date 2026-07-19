@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 소변 베타-HCG 양성 및 자궁 내 일부 임신 산물(products of conc
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우측 부속기 통증, 월경이 멈춘 시점, IUD 사용은 외부 임신을 배제하지 못한다. 혈중 β‑hCG 양성은 임신을 확인하고, 초음파에서 자궁 내 임신덩어리가 보이지 않으면 자궁외 임신을 의심한다. 따라서 β‑hCG 양성 및 자궁 내 종괴 없음이 가장 관련 있다.
 
 ## 출처
 

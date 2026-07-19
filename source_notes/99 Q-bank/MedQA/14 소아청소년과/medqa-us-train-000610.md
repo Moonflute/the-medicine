@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 칼라민 로션(Calamine lotion)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전신에 수포와 가피가 동반된 발진, 발열, 두피까지 퍼진 점막은 수두(varicella)의 전형적인 임상양상이다. 수두는 대증 치료가 주가 되며, 가려움 완화를 위해 칼라민 로션을 적용한다. 따라서 다음 단계는 칼라민 로션 사용이다.
 
 ## 출처
 

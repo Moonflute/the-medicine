@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 태아 중추신경계 억제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양막 파수 후 태아 심박수 변동이 급격히 감소하고 변동이 없으며, 이는 탯줄 압박에 의한 급성 저산소증을 의미한다. 따라서 탯줄 압박이 가장 가능성 높은 원인이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 단기 정신병적 장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+술을 끊은 후 12시간 이내에 환각, 불안, 손 떨림, 발한이 나타나는 것이 알코올 금단의 전형적인 증상이다. 이때 환각은 주로 청각·시각·촉각이며, 의식은 명료하고 혈역학적 불안정은 없으며 CT는 정상이다. 따라서 가장 가능성 높은 진단은 알코올성 환각증이다.
 
 ## 출처
 

@@ -15,11 +15,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. E
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈당 599 mg/dL와 삼투성 이뇨, 정상 pH, 베타‑하이드록시부티레이트 상승은 당뇨성 케톤산증(DKA)보다 고혈당 고삼투성 비케톤성 탈수(HTG) 상태를 반영한다. 따라서 혈청 삼투압 상승과 전해질 변화가 가장 특징적인 검사는 혈청 삼투압이다.
 
 ## 출처
 

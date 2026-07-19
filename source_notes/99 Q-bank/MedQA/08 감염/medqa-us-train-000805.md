@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 반코마이신(vancomycin) 및 젠타마이신(gentamicin)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+MRSA 감염이 확인된 경우, 감염성 심내막염을 의심하고 경식도 초음파로 판막 손상을 평가해야 한다. 이는 치료 방향을 결정하는 핵심 검사이다. 따라서 다음 단계는 경식도 심장초음파이다.
 
 ## 출처
 

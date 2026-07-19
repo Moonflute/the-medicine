@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심내막상결손(Endocardial cushion syndrome)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고정된 S2 분열, 폐혈관 과부하, 좌우 심방 간 혈류 교류는 큰 무리 없는 좌심방-우심방 연결인 심방중격결손을 시사한다. 간비대와 부종은 우심방 과부하의 결과이다.
 
 ## 출처
 

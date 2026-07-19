@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 후방십자인대
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+외측 반월상연골 손상은 외측 회전력에 의해 발생하며, ‘뚝’ 소리와 급성 통증이 특징이다. 전방십자인대 파열은 불안정성 및 양쪽 무릎 붓기를 동반한다. 따라서 가장 손상된 구조는 외측 반월상연골이다. 전방십자인대는 전형적인 ‘삐걱’ 소리와 불안정성을 보인다.
 
 ## 출처
 

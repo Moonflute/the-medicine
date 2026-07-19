@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 게피티닙(Gefitinib) 요법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+작은 세포 폐암은 고형 결절·림프절 전이·작은 세포 형태(고핵·적은 세포질)로 진단된다. 표준 치료는 시스플라틴·에토포사이드 화학요법과 방사선이다. 따라서 정답은 시스플라틴-에토포사이드 요법 및 방사선 치료이다.
 
 ## 출처
 

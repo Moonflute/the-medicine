@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. X연관 우성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+MEN 2A는 갑상선 수질암, 부갑상선 과다, 그리고 교감신경절 종양(페오크로모사이트)으로 구성되며, 상염색체 우성 유전이다. 따라서 정답은 A이다.
 
 ## 출처
 

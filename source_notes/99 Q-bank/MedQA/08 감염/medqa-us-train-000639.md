@@ -15,11 +15,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 설사 시작 시 메트로니다졸(metronidazole) 복용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+트리키넬라 감염은 날고기(특히 돼지고기·사슴고기)를 충분히 가열하지 않을 경우 발생한다. 71 °C(160 °F)까지 익히면 기생충이 사멸하므로 예방에 가장 효과적이다.
 
 ## 출처
 

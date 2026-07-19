@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 레이노 현상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+휴식 중에도 발생하고 5분 정도 지속되는 흉통이 ST 상승과 빠르게 정상으로 회복되는 것은 일과성 관상동맥 경련(프린츠메탈 협심증)과 일치한다. 이 경우 혈관 수축이 일시적으로 발생하므로 말초 혈관 과민성인 레이노 현상이 연관될 수 있다. 따라서 가장 관련된 것은 레이노 현상이다.
 
 ## 출처
 

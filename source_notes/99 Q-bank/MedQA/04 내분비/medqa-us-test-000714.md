@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 칼륨과 마그네슘 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈당 691 mg/dL, 케톤양성, pH 7.21은 1형 당뇨병성 케톤산증을 나타낸다. 치료는 혈액량을 회복시키는 정맥 수액과 동시에 인슐린을 지속적으로 투여해 혈당과 케톤을 감소시키는 것이 핵심이다. 따라서 정맥 수액과 인슐린 투여가 즉시 필요한 조치이다.
 
 ## 출처
 

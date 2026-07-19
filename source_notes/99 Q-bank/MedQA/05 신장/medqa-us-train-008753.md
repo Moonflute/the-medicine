@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 얇은 기저막 질환
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+항생제 사용 후 발열, 발진, 혈뇨, 혈청 크레아티닌 상승, 소변에 혈뇨와 백혈구가 동반된 경우 약물 유발 급성 간질성 신염이 가장 흔하다. 이는 알레르기성 반응으로 발생한다. 따라서 알레르기성 간질성 신염이 정답이다.
 
 ## 출처
 

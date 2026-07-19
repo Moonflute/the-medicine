@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경구 자유수 보충
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈청 Na⁺ 154 mEq/L에 비해 Cl⁻와 HCO₃⁻가 정상에 가까워 고나트륨혈증이 순수하게 수분 결핍에 기인함을 보여준다. 수술 후 배액량이 많아 외부 수분 손실이 크므로 등량의 등삼투성 0.9% 식염수로 부피를 보충하는 것이 가장 적절한 치료이다.
 
 ## 출처
 

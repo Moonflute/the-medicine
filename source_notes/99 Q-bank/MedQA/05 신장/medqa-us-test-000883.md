@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 조영제 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조영제 사용 후 급성 신손상은 혈청 크레아티닌이 급격히 상승하고 소변량 감소를 일으키는 전형적인 패턴이다. 환자는 조영제 투여 후 3일 만에 신기능 악화를 보였으며, 다른 원인(탈수, 약물 등)은 임상적으로 덜 설득력 있다. 따라서 가장 가능성 높은 원인은 조영제 투여이다.
 
 ## 출처
 

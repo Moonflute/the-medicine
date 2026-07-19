@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 엔푸비르타이드 중단
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+디다노신은 미토콘드리아 DNA 합성을 억제해 급성 췌장염을 유발한다. 환자는 HIV 치료 중이며 급성 췌장염이 의심되므로 디다노신을 중단하는 것이 초기 관리에 가장 적절하다.
 
 ## 출처
 

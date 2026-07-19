@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경구 vitamin B12 보충
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+크론병 환자에서 염증성 빈혈은 철 결핍보다 철 결합능 감소와 저혈청 철을 특징으로 한다. 이는 염증 매개인 IL‑6에 의한 철 대사 억제이므로, 염증을 억제하는 스테로이드가 치료에 적절하다. 따라서 다음 단계는 경구 프레드니손이다.
 
 ## 출처
 

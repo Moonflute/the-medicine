@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지지요법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+악성 고열 증후군은 고열, 근육 경직, 자율신경 불안정이 급격히 진행되며, 즉시 진정제(벤조디아제핀)와 근육 이완제(단트롤렌) 투여가 필요하다. 따라서 단트롤렌이 가장 적절한 처치이다.
 
 ## 출처
 

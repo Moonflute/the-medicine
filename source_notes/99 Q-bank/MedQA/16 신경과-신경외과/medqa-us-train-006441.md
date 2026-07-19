@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 동정맥기형의 파열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압과 고혈당 환자에서 급성 두통, 구토, 의식 혼미와 CT에서 고음영 병변이 주변 저음영 부종으로 둘러싸인 경우는 작은 관통동맥(리틀 브레인) 파열에 의한 뇌내출혈이다. 이는 고혈압성 뇌내출혈의 전형적인 병태이다. 따라서 원인은 작은 관통동맥 파열이다.
 
 ## 출처
 

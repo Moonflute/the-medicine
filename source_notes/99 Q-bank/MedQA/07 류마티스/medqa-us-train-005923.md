@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 콜히친 시작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심근경색 후 저혈압, 저산소증, 폐 울혈이 동반된 심인성 쇼크에서는 좌심실 수축 저하가 폐모세혈관 정맥압(PCWP)을 상승시킨다. 이는 폐에 체액이 축적돼 폐모세혈관 쐐기압 증가를 초래한다. 따라서 PCWP 증가가 예상되는 소견이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 지방유리질변성(Lipohyalinosis)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압과 급성 신경학적 결손(편측 약화)으로 혈압이 매우 높고 뇌혈관 변화가 없으며, 고혈압성 뇌병증은 보통 전반적 증상과 혼돈을 보인다. 그러나 이 경우 국소 신경학적 결손이 있어 고혈압성 뇌병증보다 지방유리질변성(소혈관 병변)이 더 가능하다.
 
 ## 출처
 

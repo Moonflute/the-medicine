@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항토포이소머레이스 항체 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+광대뼈 부위의 홍반과 관절통, 피로, 발열은 전신성 홍반성 루푸스(SLE)에서 보이는 저보체혈증과 연관된다. 보체 수치 감소는 SLE의 특징적인 실험실 소견이다. 따라서 정답은 보체 수치 감소이다.
 
 ## 출처
 

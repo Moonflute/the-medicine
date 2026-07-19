@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 니트로프루시드나트륨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 대동맥판 협착증 환자에서 증상이 진행되고 있으면, 외과적 교정이 생존 이득을 제공한다. 경피적 대동맥판막 치환술(TAVR)은 고위험 환자에게 표준 치료이며, 증상 개선과 생존율을 높인다. 따라서 가장 적절한 처치는 경피적 대동맥판막 치환술이다.
 
 ## 출처
 

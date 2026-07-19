@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 17α-수산화효소 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무월경, 털이 없는 질, 고혈압, 저칼륨혈증은 17α-수산화효소 결핍에서 나타나는 46,XX 여성의 특징이다. 이 효소 결핍은 부신에서 알도스테론 전구체를 생성하지만 성호르몬 합성을 차단해 저칼륨성 고혈압을 일으킨다. 따라서 정답은 D이다.
 
 ## 출처
 

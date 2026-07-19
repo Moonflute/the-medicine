@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 갑상선자극호르몬 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+언어 발달 지연의 가장 흔한 원인 중 하나는 청각 손실이며, 이를 배제하기 위해 청력 검사가 우선이다. 정신과 평가나 언어치료는 청력 검사가 정상일 때 고려한다. 갑상선 자극호르몬 검사는 해당 증상과 직접적 연관이 적다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 콕사키 A 바이러스
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발열, 하지 통증, 입천장에 붉은 반점, 손바닥·발바닥·무릎에 살색 압통성 구진은 손발입병(Hand‑foot‑mouth disease)의 전형적인 증상이다. 이 질환은 주로 콕사키 A 군 바이러스에 의해 발생한다. 따라서 가장 가능성 높은 원인균은 콕사키 A 바이러스이다.
 
 ## 출처
 

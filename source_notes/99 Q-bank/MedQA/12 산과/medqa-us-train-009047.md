@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 융모막융모검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨가 있는 임산부는 임신 16~18주에 삼중검사(AFP, hCG, 에스트라디올)로 다운증후군·신경관 결손 위험을 평가한다. 이는 강력히 권장되는 선별검사이다. 다른 검사는 이 시기에 필수적이지 않다.
 
 ## 출처
 

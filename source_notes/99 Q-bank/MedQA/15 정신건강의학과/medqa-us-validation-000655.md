@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정신병적 특징을 동반한 기분장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+활력이 넘치고 수면이 필요 없으며 환청과 망상까지 동반된 1주일간의 고양된 기분은 조증 에피소드이며, 조증과 정신병적 증상이 동반된 경우는 분열정동장애(조증)로 진단한다. 단순한 기분장애는 환각을 포함하지 않는다.
 
 ## 출처
 

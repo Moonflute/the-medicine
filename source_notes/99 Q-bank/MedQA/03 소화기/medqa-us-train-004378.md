@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소마토스타틴 수용체 신티그래피
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 위궤양과 설사, 위 주름 비후는 가스트리노마(위내분비 종양)를 의심하게 하며, 진단을 위해 공복 혈청 가스트린 수치를 측정한다. 따라서 가스트린 측정이 다음 단계이다.
 
 ## 출처
 

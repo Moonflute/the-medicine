@@ -17,11 +17,13 @@ question_type: other
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 손에서 손으로 물건 옮기기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+생후 4개월 영아는 의도적으로 뒤집어(복부에서 등을) 할 수 있는 시기로, 이는 대근육 발달의 중요한 이정표이다. 다른 선택지는 이 연령에 아직 나타나지 않는다.
 
 ## 출처
 

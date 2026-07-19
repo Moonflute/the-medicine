@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 타카야수 동맥염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+얼굴 홍조와 온열 불내성, 고혈압은 45,X 염색체를 가진 여성에서 흔히 나타나는 혈관계 이상(대동맥 협착)과 연관된다. 이러한 특징은 터너 증후군의 전형적인 임상소견이다. 따라서 환자의 상태는 터너 증후군과 관련이 있다.
 
 ## 출처
 

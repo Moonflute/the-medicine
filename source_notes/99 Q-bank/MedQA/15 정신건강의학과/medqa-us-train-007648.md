@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 간헐적 폭발장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 격렬한 분노 발작과 지속적인 과민성을 보이는 소아는 파괴적 기분조절곤란장애(DMDD)와 일치한다; 이는 발작이 3개월 이상 지속되고 일상 기능에 영향을 주지만 양극성 장애나 간헐적 폭발장애와는 구별된다.
 
 ## 출처
 

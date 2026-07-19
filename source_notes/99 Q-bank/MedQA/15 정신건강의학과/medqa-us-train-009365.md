@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 스티븐스-존슨 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양극성 조증 치료에 리튬을 사용하면 태아 심장에 심방형성(atrialization)이라는 특이한 심실 구조 변화를 일으킬 수 있다. 이는 리튬의 태아 독성 중 가장 흔한 형태이다. 따라서 정답은 태아 우심실의 심방화이다.
 
 ## 출처
 

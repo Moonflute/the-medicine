@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 다형성 교모세포종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전신성 상하운동신경 손상, 양측 상하위 운동신경 징후, 그리고 C5 이하 감각 저하는 대공경(포어멘 마그눔) 수막종에 의한 척수압박을 시사한다. 이 종양은 상하운동신경 증상을 동시에 나타낸다. 따라서 가장 가능성 높은 원인은 대공경 수막종이다.
 
 ## 출처
 

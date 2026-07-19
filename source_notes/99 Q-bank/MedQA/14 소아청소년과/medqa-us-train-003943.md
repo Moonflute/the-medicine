@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 표피양 낭종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+진공분만 후 두정골 위에 부드럽고 맥박 없는 부종이 봉합선을 넘지 않으면 두혈종이 가장 흔한 원인이다. 두혈종은 뼈와 봉합선 사이에 혈액이 고이는 출혈이다. 따라서 B가 정답이다.
 
 ## 출처
 

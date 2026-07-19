@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 임신 중 산모의 알코올 사용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+산모 당뇨병은 신생아 적혈구증가증(polycythemia)과 뇌혈전 위험을 높여 신생아 뇌경색을 유발한다. 환자의 헤마토크릿 68%와 다발성 뇌경색은 산모 당뇨병과 일치한다. 따라서 산모 당뇨병이 가장 가능성 높은 원인이다.
 
 ## 출처
 

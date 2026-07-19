@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 환자에게 경구 플루코나졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+정상 질 pH와 백색, 무취 분비물, 현미경에서 위균사가 보이는 경우는 칸디다 외음질염이다. 치료는 국소 또는 경구 플루코나졸이며, 파트너에게 치료는 필요하지 않다. 따라서 환자에게만 플루코나졸을 처방한다.
 
 ## 출처
 

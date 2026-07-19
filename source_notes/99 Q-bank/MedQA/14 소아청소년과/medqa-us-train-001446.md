@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 고막천자
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고막이 불투명하고 팽윤된 급성 중이염은 세균 감염을 의미한다. 환자는 페니실린 알레르기가 없으며, 2세 아동에게는 경구 아지트로마이신이 1세 이상에서 안전하게 사용되는 1차 치료제이다. 따라서 아지트로마이신 경구 투여가 적절하다.
 
 ## 출처
 

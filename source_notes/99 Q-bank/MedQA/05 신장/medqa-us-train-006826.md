@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 반월체 모양 사구체외 세포 증식
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+PPIs와 라니티딘에 반응하지 않는 위식도역류 후 급성 신부전, 발진, 혈뇨가 동반된 경우 약물 유발 급성 알레르기성 간질관염을 의심한다. 이 경우 호산구성 요로염이 흔히 나타나며 소변에서 호산구 증가가 관찰된다. 따라서 가장 높은 확률의 소견은 소변 호산구 증가이다.
 
 ## 출처
 

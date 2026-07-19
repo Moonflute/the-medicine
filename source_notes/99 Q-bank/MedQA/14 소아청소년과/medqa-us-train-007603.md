@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 두드러기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전신 발열, 60% 이상을 덮는 포도상구균 독소에 의한 수포성 발진, 입 주위 침범 없이 점막 보존은 포도상구균 열상피부 증후군을 특징으로 한다. 따라서 정답은 포도상구균 열상피부 증후군이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 산후 정신병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+산후 2주 이내에 신생아에 대한 피해망상과 현실 부정, 혼란스러운 행동은 산후 정신병의 전형적인 양상이다. 이는 조현병과 구분되는 급성 정신병이며, 가장 적절한 진단은 산후 정신병이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 인지행동치료를 시작한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+5세 아이의 복통이 기능성이며, 학교 회피와 정서적 요인이 관여할 가능성이 크다. 첫 번째 치료는 인지행동치료(CBT)로 증상 완화와 대처 기술을 가르치는 것이 가장 효과적이다. 따라서 인지행동치료를 시작한다가 적절하다.
 
 ## 출처
 

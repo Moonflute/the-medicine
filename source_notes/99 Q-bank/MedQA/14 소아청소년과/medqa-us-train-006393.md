@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항핵항체 농도 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소변 단백 1+가 우연히 발견되었으나 정량적 검사에서 단백/크레아티닌 비가 정상 상한선(0.2) 이하이며, 혈뇨나 증상이 없으므로 일시적 또는 기능성 단백뇨일 가능성이 크다. 무증상 단백뇨는 대부분 경과 관찰로 충분하므로 1년 후 다시 소변 시험지 검사를 시행한다.
 
 ## 출처
 

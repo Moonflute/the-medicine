@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대뇌 백질
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+설사 후 급성 진행성 근력 저하와 감각 저하, 반사 소실, CSF 단백질 상승·백혈구 정상은 급성 염증성 탈수초성 다발신경병증(길랭‑바레 증후군)과 일치한다. 병변은 말초 신경의 슈반세포 탈髓을 초래한다. 근육 내막이나 시냅스후 수용체는 해당되지 않는다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 세포에서 빌리루빈 방출 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+간 효소가 정상이고 직접 빌리루빈이 상승한 비정상적 황달은 결합형 빌리루빈 저장 장애를 의미한다. Dubin‑Johnson 증후군은 간세포 내 빌리루빈 수송 결함으로 직접 빌리루빈이 축적되며, 간 효소는 보통 정상이다. 따라서 빌리루빈 저장 장애가 가장 가능성 높은 원인이다.
 
 ## 출처
 

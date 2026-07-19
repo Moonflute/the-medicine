@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 병변과 주변 조직의 쐐기 생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경계가 말려 있고 중앙에 궤양이 있는 5 mm 결절은 베이셀 세포암을 시사한다. 베이셀 세포암은 절제 생검으로 진단이 확정된다. 따라서 전체 절제 생검이 가장 적절한 다음 단계이다.
 
 ## 출처
 

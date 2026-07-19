@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. B세포 분화 실패
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+IgG만 선택적으로 낮고 다른 면역글로불린은 정상인 경우는 영아기의 일시적 저감, 즉 일과성 저감 면역글로불린증이 가장 흔하다. 이는 정상 IgA·IgM·IgE가 유지되는 특징이다. 따라서 가장 가능성 높은 원인은 정상 면역글로불린의 발현 지연이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 모메타손 흡입기와 경구 자피를루카스트
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경증 지속성 천식에 대한 1차 치료는 흡입 스테로이드(부데소니드)와 장기 작용 베타2 작용제(포르모테롤) 조합이다. 환자는 증상이 가벼워 이 조합이 가장 적절하다.
 
 ## 출처
 

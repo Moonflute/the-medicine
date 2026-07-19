@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이중 초음파검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대퇴동맥 손상은 출혈과 혈류 감소를 초래하므로 빠른 혈관 손상 확인이 필요하다. 비침습적 이중 초음파(듀플렉스 초음파)는 혈류와 손상 부위를 실시간으로 평가할 수 있다. 따라서 이중 초음파 검사가 가장 적절하다.
 
 ## 출처
 

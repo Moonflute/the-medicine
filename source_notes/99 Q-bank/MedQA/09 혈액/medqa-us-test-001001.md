@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 파보바이러스 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+거대적아구성 빈혈은 비타민 B12 결핍이 원인이며, 채식주의와 말초 혈액에서 거대 적혈구, 저혈색소, 저혈소판, 백혈구 감소가 전형적이다. 따라서 비타민 B12 결핍이 가장 가능성 높은 원인이다.
 
 ## 출처
 

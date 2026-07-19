@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 복부 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+모유 수유 빈도가 낮아 유즙 내 빌리루빈 배설이 감소하면 생리적 신생아 황달이 악화된다. 빌리루빈 수치와 정상 간 효소를 고려할 때, 모유 수유 빈도 증가가 가장 적절한 조치이다.
 
 ## 출처
 

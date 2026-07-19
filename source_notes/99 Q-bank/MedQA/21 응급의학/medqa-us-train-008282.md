@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 6개월 전 심근경색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈소판 수가 95,000/mm³으로 100,000/mm³ 이하이면 출혈 위험이 증가하여 정맥주사 tPA 투여가 금기된다. 혈압 175/105 mm Hg는 185/110 mm Hg 이하이므로 tPA 투여 가능하고, 연령·과거 MI(6개월 전)도 금기에 해당하지 않는다. 따라서 혈소판 감소가 tPA 금기사항이다.
 
 ## 출처
 

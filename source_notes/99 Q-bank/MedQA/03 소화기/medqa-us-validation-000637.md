@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 사이클로스포린 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대장내시경에서 직장을 시작으로 연속적인 출혈성 염증이 보이고 조직검사에서 궤양성 대장염 소견이 확인되었다면, 이는 궤양성 대장염이다. 1차 치료는 장내·직장 국소 또는 전신 5‑ASA 제제인 메살라민이다. 글루텐 제한 식이는 셀리악병에 해당한다.
 
 ## 출처
 

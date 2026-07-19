@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고등급 자궁경부 병변 여성은 임신을 권장하지 않으므로 �
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CIN 3은 고위험 병변이지만 임신을 계획 중인 경우 즉시 치료보다 세포검사와 질확대경 검사를 통한 3~6개월 간격 추적관찰이 허용된다.
 
 ## 출처
 

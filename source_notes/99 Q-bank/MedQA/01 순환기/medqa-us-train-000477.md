@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 저마그네슘혈증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다형성 심실빈맥이 주기적으로 나타나고 전해질·심근 효소가 정상인 경우, QT 간격 연장이 가장 흔한 원인이다. 연장된 QT는 토르사드스(토르사드스) 발생을 일으켜 실신을 초래한다. 따라서 기저 원인은 QT 간격 연장이다.
 
 ## 출처
 

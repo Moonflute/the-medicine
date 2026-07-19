@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 2개월, 6개월, 12개월
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+첫째는 머리와 가슴을 들어올리는 2개월 영아, 둘째는 구르기·물건 옮기기 6개월 영아, 셋째는 독립 보행·명령 수행이 아직 안 되는 12개월 영아에 해당한다. 따라서 연령 순서는 2 개월, 6 개월, 12 개월이다.
 
 ## 출처
 

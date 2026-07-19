@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 요추 방사선 촬영
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+허리 통증이 경미하고 신경학적 이상이 없으며, 외상 후 2주 이내이므로 보존적 치료가 우선이다. NSAIDs와 아세트아미노펜을 병용한 운동 요법이 통증 완화와 기능 회복에 가장 효과적이다.
 
 ## 출처
 

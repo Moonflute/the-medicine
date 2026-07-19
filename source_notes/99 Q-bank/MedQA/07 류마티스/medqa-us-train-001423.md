@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 디클로페낙 단독
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+첫 번째 발가락 관절의 급성 통증, 발적, 부종은 통풍(통풍성 관절염)과 일치한다. 급성 통풍 치료는 NSAID인 디클로페낙 단독 투여가 1차 선택이다. 따라서 디클로페낙이 가장 적절한 약물이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 총 REM 수면 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+알코올은 REM 수면을 억제하고, 특히 수면 후반부의 REM 비율을 감소시킨다. 따라서 밤에 술을 마시는 것이 REM 억제를 초래한다. 다른 선택지는 알코올의 실제 효과와 맞지 않는다. 따라서 정답은 REM 억제이다.
 
 ## 출처
 

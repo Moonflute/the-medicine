@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 스포츠 참여를 허가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비후성 심근병증 환자는 심실 중격 비대와 좌심실 수축력 저하로 운동 중 실신 위험이 있다. 베타 차단제인 메토프롤롤은 심박수를 낮추고 심근 산소소모를 감소시켜 증상을 완화한다. 따라서 적절한 관리는 메토프롤롤 투여이다.
 
 ## 출처
 

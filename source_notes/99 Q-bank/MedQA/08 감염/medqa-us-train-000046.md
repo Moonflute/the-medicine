@@ -16,11 +16,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 동굴 탐험
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+광견병은 야생동물(동굴)과의 접촉이 주요 위험인자이며, 환자의 증상은 급성 수두증을 시사한다. 다른 선택지는 해당 감염 경로와 맞지 않는다.
 
 ## 출처
 

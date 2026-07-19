@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 반데타닙
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+높은 혈청 칼시토닌과 갑상선 수질암은 RET 유전자의 활성 변이를 동반하며, 수술 후 재발성 플러싱·설사는 RET 티로신키나제 활성에 의해 유발된다. RET 억제제 반데타닙은 진행성 수질암에서 표준 치료이며, 증상 완화에 가장 효과적이다. 따라서 반데타닙을 시행한다.
 
 ## 출처
 

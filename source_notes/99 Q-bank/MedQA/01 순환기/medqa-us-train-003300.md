@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 정맥 레보플록사신 투여와 흉부 X선
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 급성 흉통과 땀, 불안이 나타났을 때 가장 위험한 합병증은 급성 관상동맥 증후군이며, 이를 확인하기 위해 ECG와 트로포닌 검사가 첫 번째 단계이다. 따라서 정답은 A이다.
 
 ## 출처
 

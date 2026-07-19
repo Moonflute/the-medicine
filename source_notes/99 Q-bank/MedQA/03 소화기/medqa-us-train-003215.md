@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 복부 이중 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복통이 통증과 양상에서 ‘통증이 과도하게 심함’은 장간막 혈류 부족을 시사한다. 급성 장간막 허혈은 CT 혈관조영술로 진단이 확정된다. 따라서 다음 단계는 CT 혈관조영술이다.
 
 ## 출처
 

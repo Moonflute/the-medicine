@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 유세포분석
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+통증성 구강 궤양, 결막염, 전신 수포·표피 박리와 같은 점막·피부 병변은 약물 유발 Stevens‑Johnson 증후군(SJS)·TEN을 시사한다. SJS/TEN의 확진은 표피와 진피 경계에서 전형적인 전층 괴사와 표피 박리를 보이는 조직병리소견이 필요하다. 따라서 피부 병변의 생검 및 조직병리검사가 가장 확실한 진단 방법이다. 다른 선택지인 그람염색·배양은 감염 진단에 쓰이며 SJS/TEN 확인에 도움이 되지 않는다.
 
 ## 출처
 

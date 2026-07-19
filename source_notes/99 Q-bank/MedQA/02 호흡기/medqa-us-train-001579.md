@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 시스플라틴과 에토포시드 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Stage II 비소세포폐암(폐선암)에서 수술이 가능한 경우, 특히 환자가 충분히 좋은 폐기능(FEV1 > 1.5 L, DLCO ≈ 66%)을 가지고 있으면 외과적 절제(엽절제술)가 치료의 표준이다. 따라서 가장 적절한 다음 단계는 엽절제술 예약이다.
 
 ## 출처
 

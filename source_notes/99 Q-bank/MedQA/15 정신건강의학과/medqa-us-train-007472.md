@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 염소 증가, 칼륨 감소, 중탄산염 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구토와 식욕 부진으로 인한 저염소성 대사성 알칼리증은 혈중 Cl⁻ 감소, K⁺ 감소, HCO₃⁻ 증가를 보인다. 환자의 신체소견(손가락 굳은살, 치아 침식)은 신경성 폭식증을 시사한다. 따라서 해당 전해질 패턴이 정답이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 담낭염(Cholecystitis)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 초음파에서 간내·외 담관 확장과 낭성 종괴가 관찰된 것은 췌장 선암에 의한 폐쇄성 황달을 시사한다. 췌장암은 비장성 담관을 압박해 관류를 차단한다. 따라서 가장 가능성이 높은 진단은 췌장 선암이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: other
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 검사가 필요하지 않음
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 혈색소 11.1 g/dL, MCV 90 fL, 망상적혈구 0.2%는 생리적 빈혈이며, 추가 검사가 필요하지 않다. 따라서 검사가 필요하지 않음이 정답이다. 다른 혈청 검사는 불필요하다.
 
 ## 출처
 

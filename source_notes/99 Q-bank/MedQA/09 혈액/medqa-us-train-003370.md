@@ -18,11 +18,13 @@ question_type: association
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 말초혈액도말의 눈물방울 적혈구
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+MGUS는 단일 클론성 혈장세포가 3% 미만이며, 골밀도 감소(골다공증)와 연관된 경우가 많다. 환자의 골다공증은 MGUS와 가장 관련이 깊은 소견이다. 따라서 정답은 골다공증이다.
 
 ## 출처
 

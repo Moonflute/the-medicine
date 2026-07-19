@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 후두경검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+총상 후 혈관 손상이 의심될 때 가장 빠른 비침습적 평가법은 조영제 주입 후 CT 혈관조영술이다. 이는 혈관 손상 여부와 출혈 위치를 정확히 파악한다. 따라서 다음 단계는 CT 혈관조영술이다.
 
 ## 출처
 

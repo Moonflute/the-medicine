@@ -15,11 +15,13 @@ question_type: prognosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 간세포암종(Hepatocellular carcinoma)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+이 환자는 혈색소 침착으로 인한 혈색소증을 가지고 있으며, 간경변과 간암 위험이 크게 증가한다. 장기적으로 가장 위험도가 높은 합병증은 간세포암종이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 페스트균(Yersinia pestis)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흉터성 림프절염과 발진이 동반된 급성 림프절염은 페스트(흑사병)에서 흔히 나타난다. 페스트는 Yersinia pestis에 의해 발생한다. 따라서 가장 가능성 높은 원인 병원체는 페스트균이다.
 
 ## 출처
 

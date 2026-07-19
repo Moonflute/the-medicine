@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지지 요법 및 모니터링
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+벤조디아제핀을 장기간 복용하던 환이가 급성 금단 증상을 보이면, 빠른 효과와 짧은 반감기를 가진 디아제팜이 금단 완화에 가장 적합하다. 따라서 디아제팜을 투여한다.
 
 ## 출처
 

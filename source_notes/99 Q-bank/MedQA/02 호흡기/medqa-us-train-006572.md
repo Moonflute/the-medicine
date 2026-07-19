@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 투베르쿨린 피부검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+스테로이드에 의한 면역억제 환자에서 베타‑D‑글루칸 상승과 미만성 폐렴 소견은 폐포자충(Pneumocystis jirovecii) 감염을 시사한다. 진단 확정에 가장 민감한 검사는 기관지폐포세척(BAL)에서 병원체를 확인하는 것이다. 따라서 BAL이 가장 확진에 유용하다.
 
 ## 출처
 

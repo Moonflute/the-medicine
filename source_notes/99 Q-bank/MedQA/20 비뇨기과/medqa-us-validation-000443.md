@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고환거근 반사 소실
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+부고환염은 고환 상승, 부고환 비대, 초음파에서 혈류 증가와 저에코가 보이며, 원인으로는 성병이 흔하고 핵산증폭검사(NAA)로 감염성 원인(예: 클라미디아) 확인이 가능하다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 골반 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+골반에 고정된 고형 종괴가 촉진되면 먼저 비침습적 영상검사인 골반 초음파를 시행해 종양의 성격·위치를 평가한다. MRI·CA‑125·수술은 초음파 후 필요에 따라 진행한다. 따라서 다음 단계는 골반 초음파이다.
 
 ## 출처
 

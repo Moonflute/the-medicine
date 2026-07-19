@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 저분자량 헤파린(Low-molecular-weight heparin)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+태아 사망 후 급성 DIC 위험이 높으며, 저혈압을 교정하기 위해 가장 먼저 해야 할 일은 혈관내 수액 보충이다. 이는 혈액량을 회복하고 조직 관류를 유지한다. 따라서 정답은 A이다.
 
 ## 출처
 

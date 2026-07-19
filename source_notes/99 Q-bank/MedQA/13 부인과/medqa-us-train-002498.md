@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 사람 융모성 성선자극호르몬
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+월경이 3개월 이상 중단되고 저체중·과도한 운동으로 에스트로겐 결핍이 나타난 기능성 시상하부 무월경은 저성선성 저하증을 일으킨다. 저 FSH·LH 수치는 시상하부에서의 GnRH 분비 감소를 의미하므로, 펄스성 GnRH 투여가 시상하부-뇌하수체 축을 재활성화해 배란을 유도한다. 따라서 가장 적절한 치료는 펄스성 GnRH이다.
 
 ## 출처
 

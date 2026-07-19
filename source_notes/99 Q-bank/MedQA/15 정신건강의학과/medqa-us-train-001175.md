@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 디펜히드라민(Diphenhydramine)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 조증 에피소드와 급성 정신병적 증상을 보이며, 양극성 장애가 의심된다. 장기 유지 치료에 가장 효과적이고 자살 위험 감소에 입증된 약물이 리튬이다. 따라서 리튬이 최선의 장기 치료이다.
 
 ## 출처
 

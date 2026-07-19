@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 니페디핀(nifedipine) 치료 시작
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+진통제와 양수과다, 태아 기형은 자궁수축을 억제해야 하는 상황이다. 니페디핀은 칼슘채널 차단제로 자궁수축을 완화한다. 제왕절개는 아직 필요하지 않으며, 질식 분만은 위험하다. 따라서 니페디핀 투여가 적절하다.
 
 ## 출처
 

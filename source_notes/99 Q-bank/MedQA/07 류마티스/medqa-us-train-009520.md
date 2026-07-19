@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 환상 귀두염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반응성 관절염은 관절, 결막, 요도(음경) 등에 염증을 일으키며, 원위지절관절(발목·무릎) 부종은 흔하지만, 귀두염은 드물다. 따라서 가장 낮은 발생 가능성은 원위지절관절 부종이 아니라 귀두염이다. 정답은 C이다.
 
 ## 출처
 

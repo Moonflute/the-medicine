@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+출산 후 14시간 경과한 정상적인 악액(양수)과 자궁 수축은 자궁 수축에 따른 정상적인 자궁 수축 및 출혈이며, 출혈은 선홍색이며 통증은 없고 자궁이 단단하다. 이러한 경우 특별한 치료 없이 관찰이 적절하다. 따라서 다음 단계는 관찰이다.
 
 ## 출처
 

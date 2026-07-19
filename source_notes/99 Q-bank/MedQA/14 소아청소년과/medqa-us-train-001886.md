@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 광범위 항생제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 초음파로 장중첩(intussusception)이 확인되면 치료는 공기 조영 관장이 표준이다. 이는 비침습적이며 성공률이 높다. 수술이나 항생제는 필요하지 않으며, 단순 지지요법만으로는 해결되지 않는다. 따라서 다음 단계는 공기 조영 관장이다.
 
 ## 출처
 

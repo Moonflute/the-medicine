@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 에스트로겐 대체요법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+파제트 골질환(고알칼리성 인산분해효소혈증)에서는 골 재형성 억제로 인해 골밀도가 감소하고, 졸레드론산(조골형성 촉진제) 투여가 치료에 효과적이다. 따라서 정맥 졸레드론산 투여가 적절한 다음 처치이다.
 
 ## 출처
 

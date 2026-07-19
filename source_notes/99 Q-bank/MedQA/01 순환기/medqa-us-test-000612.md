@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세균 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 팽창, 말초 부종, 심장음 S3, 폐 기저부 수포음은 확장성 심근병증을 시사한다. 멕시코 출신으로 샤가스병(트리파노소마 감염)과 연관된 확장성 심근병증이 흔하다. 따라서 가장 적절한 설명은 기생충 감염이다.
 
 ## 출처
 

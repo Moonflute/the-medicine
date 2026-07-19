@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비강 내 플루티카손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 비갑개 부종과 물 같은 콧물, 눈 가려움·재채기 등 계절성 알레르기 비염의 전형적인 증상이 있다. 국소 코 스테로이드가 염증을 억제해 증상을 가장 효과적으로 완화한다. 따라서 비강 내 플루티카손이 치료에 적합하다.
 
 ## 출처
 

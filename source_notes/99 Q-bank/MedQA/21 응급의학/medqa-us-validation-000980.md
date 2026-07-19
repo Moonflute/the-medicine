@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 오늘 파상풍 톡소이드와 면역글로불린을 투여하고 노출 �
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심부 오염된 상처이며 환자는 파상풍 예방접종 기록이 불완전(Tdap 1회, Td 3년 전 1회)하고 면역 상태를 확인할 수 없으므로 파상풍 예방을 위해 즉시 파상풍 톡소이드와 파상풍 면역글로불린을 동시에 투여한다. 면역글로불린은 이미 존재할 수 있는 파상풍 균에 대한 즉시 중화 효과를 제공하고, 톡소이드는 장기 면역 형성을 돕는다. 파상풍 면역글로불린만 투여하는 A는 항체 형성을 제공하지 않아 부적절하다.
 
 ## 출처
 

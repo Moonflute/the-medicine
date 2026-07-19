@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 신생아 갑상선 호르몬 분비 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아 저칼슘혈증은 혈청 칼슘 6 mg/dL와 PTH 상승으로 나타나며, 가장 흔한 원인은 산모의 저칼슘 섭취이다. 치료는 칼슘 보충이다. 따라서 근본 원인은 산모의 가족성 저칼슘뇨 고칼슘혈증이 아니라 신생아 저칼슘혈증이며, 가장 가능성 높은 원인은 산모의 저칼슘 섭취가 아닌 신생아 저칼슘혈증이다.
 
 ## 출처
 

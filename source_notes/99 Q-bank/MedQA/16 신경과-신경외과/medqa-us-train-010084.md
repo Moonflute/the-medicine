@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 틴엘 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손목을 굽히는 동작에서 증상이 나타나는 경우 정중신경 압박을 의심한다. 신경전도검사는 전도 속도와 잠복기를 측정해 손목터널증후군을 확진하는 표준 검사이다. 따라서 정답은 B이다.
 
 ## 출처
 

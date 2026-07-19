@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈액형 검사 및 항체 선별
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대량 혈변 후 급성 출혈성 빈혈이 발생했으며, 혈액형·항체 검사는 수혈 전 필수이다. 혈액형·항체 확인 없이 수혈하면 용혈성 반응 위험이 크다. 따라서 다음 단계는 혈액형 검사 및 항체 선별이다.
 
 ## 출처
 

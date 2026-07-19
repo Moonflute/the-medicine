@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 골간인대 파열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손목을 뒤로 굽히면 안쪽 3지(엄지, 검지, 중지) 감각이 저림을 일으키는 카루스 터널 증후군은 월상골 탈구와 연관된다. 월상골이 탈구되면 정중신경이 압박되어 전형적인 저림이 나타난다. 따라서 월상골 탈구가 가장 가능성 높은 진단이다.
 
 ## 출처
 

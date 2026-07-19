@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -47,7 +49,8 @@ D. 비만
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+동맥혈가스에서 PaCO₂가 68 mmHg로 고탄산혈증, PaO₂가 56 mmHg로 저산소혈증, pH 7.34로 경미한 호산성이 나타난다. 이는 만성 폐쇄성 폐질환(COPD)에서 흔히 보이는 만성 호흡성 산증이다. 따라서 정답은 B이다.
 
 ## 출처
 

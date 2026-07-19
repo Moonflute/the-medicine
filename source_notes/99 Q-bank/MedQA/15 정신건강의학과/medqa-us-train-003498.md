@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 순환성 기분장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 경조증 에피소드와 에너지·성욕 증가, 수면 감소는 순환성 기분장애(사이클로티미아)와 일치한다. 이는 경증·중등도 기분 변동이 2년 이상 지속되는 것이 특징이다. 따라서 정답은 순환성 기분장애이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 니트로글리세린 투여 후 PCI 센터로 이송
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+STEMI 환자에게는 즉시 항혈소판 치료가 필요하며, 325 mg 아스피린이 급성 관상동맥 폐쇄에 대한 표준 용량이다. 고용량 아스피린 투여 후 PCI 가능한 시설로 이송하면 재관류가 신속히 이루어진다. 따라서 정답은 C이다.
 
 ## 출처
 

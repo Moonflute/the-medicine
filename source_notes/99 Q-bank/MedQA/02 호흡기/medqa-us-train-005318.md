@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기관지경하 세침흡인
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+7 mm 이하의 새로운 고형 폐결절에 대해 먼저 얇은 절편(Thin-section) CT를 시행해 결절의 형태·밀도·경계 등을 평가한다. PET이나 조직검사는 결절이 8 mm 이상이거나 고위험 소견이 있을 때 고려한다. 따라서 다음 단계는 A, 얇은 절편 CT이다.
 
 ## 출처
 

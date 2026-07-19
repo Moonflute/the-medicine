@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수술 시 예방접종, 수술 시 페니실린을 시작해 5년
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비장절제술 전후는 폐렴구균·수막구균·인플루엔자·헤모필루스 인플루엔자 등 캡슐성 세균에 대한 예방접종을 수술 2주 전 시행해야 면역 반응이 형성된다. 수술 시 페니실린을 시작해 5년간 지속 투여하면 감염 위험을 감소시킨다. 따라서 정답은 수술 2주 전 예방접종 후 수술 시 페니실린을 시작해 5년이다.
 
 ## 출처
 

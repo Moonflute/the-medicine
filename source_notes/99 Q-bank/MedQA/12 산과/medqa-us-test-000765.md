@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이송의 의학적 이득이 위험보다 클 때만 이송
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈압 88/65 mmHg와 빈맥은 저혈량성 쇼크를 시사하여 응급 안정이 필요함을 나타낸다. EMTALA는 환자를 안정시키고 전송 전 책임 있는 의사의 서면 전송 요청을 받아야 한다고 규정한다. 따라서 서면 요청을 받은 후 치료하고 이송하는 것이 가장 적절하다(C). 선택지 D는 위험‑이득만을 강조해 EMTALA의 전송 전 요구조건을 놓친다.
 
 ## 출처
 

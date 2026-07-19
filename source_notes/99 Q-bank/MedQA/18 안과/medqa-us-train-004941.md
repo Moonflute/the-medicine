@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 단순포진 바이러스
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+눈꺼풀에 수포와 결막염을 동반한 급성 안구 증상은 단순포진(HSV) 감염이 특징이다. HSV는 재발성 수포성 결막염을 일으키며, 다른 바이러스는 보통 결막염만을 일으킨다. 따라서 단순포진 바이러스가 가장 가능성 높다.
 
 ## 출처
 

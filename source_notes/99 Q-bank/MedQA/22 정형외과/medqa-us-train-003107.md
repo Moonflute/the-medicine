@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 내측곁인대 손상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무릎을 굽힌 뒤 경골에 힘을 가했을 때 뒤쪽 전위가 나타나는 것은 후방십자인대 손상이며, X선에서 경골 견열 골절이 동반될 수 있다. 다른 인대 손상은 전위 방향이 다르다.
 
 ## 출처
 

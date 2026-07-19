@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 하이드랄라진
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압 위기·응급에서 급성 심근경색을 동반한 경우, 혈압을 빠르게 낮추기 위해 베타 차단제(에스몰롤)와 혈관 확장제(IV 니트로글리세린)를 병용한다. 이는 심장 부담을 감소시키고 혈압을 목표 범위로 조절한다. 따라서 두 약물 조합이 1차 항고혈압제이다.
 
 ## 출처
 

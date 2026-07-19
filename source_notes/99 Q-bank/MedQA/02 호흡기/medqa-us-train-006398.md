@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 조영제를 사용한 흉부 CT
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 호흡곤란과 경미한 양쪽 폐 잡음은 폐렴을 의심하게 하지만, 환자는 혈액 가스와 대사 검사가 정상이며 흉부 청진 외에 특이 소견이 없다. 폐렴을 배제하기 위해 가장 먼저 시행해야 할 영상 검사는 흉부 방사선 촬영이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 금식, 정맥 수액, 혈청 리파아제 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 대동맥 박리(특히 고혈압 위기)와 동반된 흉통을 보이며, 혈압이 매우 높고 S4음이 들린다. 베타 차단제는 혈압을 급격히 낮추어 박리 진행을 억제하고 심장 부하를 감소시킨다. 따라서 다음에 투여할 약물은 ‘라베타롤’이다.
 
 ## 출처
 

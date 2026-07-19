@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 바레니클린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 폐쇄성 폐질환 환자에서 금연은 사망률을 가장 크게 감소시키는 중재이다. 바레니클린은 급성 악화에 도움이 되지만 금연이 장기적인 생존에 가장 큰 영향을 미친다. 따라서 가장 효과적인 중재는 금연이다.
 
 ## 출처
 

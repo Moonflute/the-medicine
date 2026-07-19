@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 청력장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+과잉활동, 충동성, 부주의가 6개월 이상 지속되고 학업·사회 기능에 영향을 미치는 것이 ADHD의 기준이다. 아이는 연령에 비해 과도한 움직임과 말하기, 충동적 행동을 보이며 신경학적 검사는 정상이다. 따라서 가장 가능성 높은 진단은 주의력결핍/과잉행동장애이다.
 
 ## 출처
 

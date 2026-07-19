@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소변 독성검사 의뢰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+불규칙 맥박, 손 떨림, 체중 감소와 같은 증상은 갑상선 기능 항진증을 의심하게 하며, 진단을 위해서는 먼저 TSH 농도를 측정한다. (관찰만으로는 원인 파악이 어렵다)
 
 ## 출처
 

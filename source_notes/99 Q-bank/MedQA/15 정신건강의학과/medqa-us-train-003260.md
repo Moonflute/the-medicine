@@ -18,11 +18,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 발프로산을 시작하고 리튬을 중단한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+리튬은 신장에 축적되어 만성 신부전과 전해질 이상을 일으키며, 혈청 리튬 농도와 신기능 악화 시 대체가 필요하다. 발프로산은 리튬과 교차작용이 없으며, 신장 보호에 도움이 된다. 따라서 리튬 중단 후 발프로산 시작이 적절하다.
 
 ## 출처
 

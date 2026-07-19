@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 음낭 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고환이 수평으로 상승하고 고환거근반사가 소실된 급성 고환염전(염전)은 혈류 차단으로 인한 비정상적인 고환 비대이며, 혈류 회복을 위해 즉시 수술적 고환 고정(고환 고정술)이 필요하다. 항생제나 영상 검사는 진단을 지연시킬 수 있다. 따라서 수술이 최선이다.
 
 ## 출처
 

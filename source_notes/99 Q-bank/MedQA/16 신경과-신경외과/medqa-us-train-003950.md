@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 안심시키기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+본태성 진전은 베타 차단제와 프리미돈이 1차 치료제이며, 프리미돈은 증상이 경미할 때 선택된다. 환자는 약물 부작용을 우려하지 않으며, 프리미돈이 적절한 관리이다. 따라서 B가 정답이다.
 
 ## 출처
 

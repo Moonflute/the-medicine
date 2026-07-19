@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 인플루엔자 백신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 림프구성 백혈병 환자는 면역억제 상태로 폐렴구균 감염 위험이 높다. 폐렴구균 결합백신 13은 면역억제 환자에게 권장되는 예방접종이다. 따라서 폐렴구균 결합백신 13이 가장 적절한 권고이다.
 
 ## 출처
 

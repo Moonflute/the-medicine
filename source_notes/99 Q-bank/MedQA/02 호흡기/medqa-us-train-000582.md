@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 흉부 CT상 흉선종(thymoma)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Lambert‑Eaton 증후군은 자가면역성 전위성 칼슘채널 항체에 의해 신경근 접합부 전위가 감소한다. 전형적인 전기생리학적 소견은 반복 자극 시 근전도 진폭이 점진적으로 증가하는 패턴이다. 따라서 반복 신경전도 검사에서 증가 패턴이 기대된다.
 
 ## 출처
 

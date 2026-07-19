@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 슈도에페드린 투여 후 1주일 뒤 추적
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 부비동염이 10일 이상 지속되고 전형적인 전두동 압통이 있으면 세균성 부비동염을 의심한다. 증상이 1주일 이상 지속된 후 증상 악화 시 슈도에페드린(충혈완화제)으로 증상을 완화하고 1주일 뒤 추적한다가 초기 치료이다.
 
 ## 출처
 

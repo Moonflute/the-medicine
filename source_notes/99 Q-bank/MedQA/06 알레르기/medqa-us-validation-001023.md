@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경구 프레드니손 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+음식 알레르기에 의한 급성 두드러기와 입 주위 부종은 전신성 알레르기 반응이지만 호흡기 증상이 없으므로 중등도 아나필락시스에 해당한다. 재발 위험을 줄이고 급성 악화를 방지하기 위해 에피네프린 자동주사기를 처방한다.
 
 ## 출처
 

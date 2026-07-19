@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 직장 체온 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+프로필티오우라실은 무과립구증을 일으켜 백혈구 감소와 구강 궤양을 유발한다. 임신 중에도 약물 중단이 가장 안전한 조치이며, 증상 개선을 기대할 수 있다. 따라서 적절한 처치는 프로필티오우라실 중단이다.
 
 ## 출처
 

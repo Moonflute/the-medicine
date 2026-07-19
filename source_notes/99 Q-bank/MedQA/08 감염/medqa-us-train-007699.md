@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 장독소생성 대장균
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+크루즈 선박에서 급성 구토·설사·구역질이 1~2일 지속된 경우, 전염성이 높고 짧은 잠복기를 가진 노로바이러스가 가장 흔한 원인이다. 따라서 가장 가능성 높은 병원체는 노로바이러스이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소세포 폐암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소세포 폐암은 흡연자에서 흔히 발생하며, 체중 감소와 신경학적 증상(경련)은 부갑상선 자극 호르몬(ACTH) 분비 종양에 의한 부신피질 자극으로 인한 부신증후군이 원인이다. 따라서 정답은 D이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 페니실린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양성 VDRL과 FTA‑ABS는 매독 감염을 확진한다. 1차 매독은 무증상기 후 자연 치유되지만, 감염 자체는 치료가 필요하다. 임신 가능 연령의 환자에게는 페니실린이 표준 치료이다.
 
 ## 출처
 

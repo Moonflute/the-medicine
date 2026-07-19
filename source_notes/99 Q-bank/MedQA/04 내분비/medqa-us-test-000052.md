@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신장 관류 장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압, 저칼륨, 대사성 알칼리증은 알도스테론 과다(1차성 알도스테론증)와 일치한다. 알도스테론이 Na⁺ 재흡수를 증가시키고 K⁺ 배설을 촉진해 이러한 전해질 변화를 만든다. 다른 선택지는 이러한 전해질 패턴을 설명하지 못한다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고령 산모
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+뇌실주위 백질연화증은 주로 조산아에서 발생하며, 조산이 가장 중요한 위험인자이다. 다른 선택지는 이 병변과 직접적인 연관성이 낮다. 따라서 조산이 주요 위험인자이다.
 
 ## 출처
 

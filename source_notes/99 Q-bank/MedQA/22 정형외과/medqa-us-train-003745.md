@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 척골신경병증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+팔꿈치 외상 후 새끼손가락과 네번째 손가락 안쪽 감각 소실은 척골신경 손상을 의미한다. 척골신경은 팔꿈치에서 가장 흔히 손상되는 신경이며, 해당 부위 감각이 소실되는 것이 특징이다. 따라서 가장 가능성 높은 원인은 척골신경병증이다.
 
 ## 출처
 

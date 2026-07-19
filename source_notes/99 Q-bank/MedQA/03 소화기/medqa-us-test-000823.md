@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 베타카로틴 소비 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+직접 빌리루빈 상승과 황달·간색소침착은 듀빈‑존슨 증후군(간의 과다색소침착)을 특징으로 한다. 이는 UDP‑글루쿠론산전이효소 활성이 감소된 경우와 구별된다. 관련 소견은 간의 과다색소침착이므로 C가 정답이다.
 
 ## 출처
 

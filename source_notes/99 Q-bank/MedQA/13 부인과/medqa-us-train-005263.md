@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 진단적 절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 초기에는 CIN II‑III에 대한 즉각적인 절제술보다 출산 후 재평가가 안전하다. 자궁경부 조직이 호르몬 변화에 민감하고 시술 위험이 높아 임신 중에는 보존적 관찰이 권장된다. 따라서 출산 6주 후 재검사가 적절하다.
 
 ## 출처
 

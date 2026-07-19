@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -42,7 +44,8 @@ D. 수두 대상포진(Varicella zoster) 망막염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CD4 수가 36/mm³인 중증 면역억제 상태에서 망막에 과립형 황백색 혼탁과 점상 출혈이 나타나는 것은 CMV 망막염의 전형적인 소견이다. 이는 통증이 없고 시력 저하만 있는 경우와 일치한다. 따라서 가장 가능성 높은 진단은 거대세포바이러스(CMV) 망막염이다.
 
 ## 출처
 

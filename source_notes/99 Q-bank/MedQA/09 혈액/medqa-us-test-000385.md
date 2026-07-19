@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자가항체 매개 혈소판 활성화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+헤파린 투여 후 혈소판 감소와 혈전성 혈소판증후군은 헤파린-유도 혈소판 활성화 항체가 형성돼 혈소판을 활성화시킨다. 이는 자가항체 매개 혈소판 활성화에 해당한다. 따라서 D가 정답이다.
 
 ## 출처
 

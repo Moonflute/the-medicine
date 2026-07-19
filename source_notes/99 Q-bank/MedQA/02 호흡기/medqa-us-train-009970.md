@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐경색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐실질 경화(폐섬유증)는 흉막에 대한 통증, 타진 탁음, 촉각 진탕음 증가, 그리고 기관지 호흡음과 속삭임음 증강을 일으킨다. 이는 환자의 청진 소견과 일치한다. 다른 선택지는 해당 청진 소견을 설명하지 못한다.
 
 ## 출처
 

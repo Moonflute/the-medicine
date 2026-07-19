@@ -18,11 +18,13 @@ question_type: adverse_effect
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 오말리주맙
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흡입용 스테로이드(베클로메타손)는 구강 칸디다증을 흔히 일으킨다. 흰색 플라크가 긁히면 출혈성 염증이 남는 것이 특징이다. 따라서 원인 약물은 베클로메타손 흡입기이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 칼슘 옥살산 결정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+세페핌 투여 후 급성 간질성 신염이 발생하면 소변에 백혈구 원주가 나타난다. 이는 약물에 의한 알레르기성 신염의 전형적인 소변 소견이다. 따라서 정답은 백혈구 원주이다.
 
 ## 출처
 

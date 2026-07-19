@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 생후 2개월(생활연령)에 첫 디프테리아·파상풍 톡소이드·
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+미숙아는 생후 2개월(생후 연령)부터 DTaP를 시작해야 하며, 다른 백신은 연령에 맞춰 별도로 권고된다. 인플루엔자와 수두는 6개월 이후, Hib는 2개월이지만 질문은 DTaP에 초점이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 탐스로신 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 세균성 전립선염은 고열, 전립선 압통, 배뇨통을 동반하며, 진단을 위해 소변 배양이 필요하다. 소변 배양이 가장 직접적인 확인 방법이다. 따라서 소변 배양이 적절한 치료 단계이다.
 
 ## 출처
 

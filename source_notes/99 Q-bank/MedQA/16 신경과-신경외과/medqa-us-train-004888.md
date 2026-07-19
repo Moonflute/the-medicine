@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 텐실론 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+근육 피로와 반복적 근력 저하가 특징인 중증근무력증은 단일 근섬유 전기생리검사에서 재발성 전위가 보이는 것이 진단적 표지이다. 따라서 단일 근섬유 근전도검사가 가장 적절한 검사이다.
 
 ## 출처
 

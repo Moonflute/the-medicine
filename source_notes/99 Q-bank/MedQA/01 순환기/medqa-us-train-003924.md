@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 일과성 허혈발작 병력이 있는 63세 남성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아스피린 단독 1차 예방은 심혈관 위험이 높은 50‑59세 남성에게만 권고된다. 일과성 허혈발작(TIA) 병력이 있는 63세 남성은 2차 예방 대상이며, 아스피린 단독으로 시작한다. 따라서 D가 정답이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 경구 아스피린과 클로피도그렐
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+동맥류 수술 후 혈관연축을 예방하려면 혈압을 낮추는 니모디핀이 효과적이다. 항혈소판제는 재출혈 예방에 쓰이지만 연축 예방에는 직접적이지 않다.
 
 ## 출처
 

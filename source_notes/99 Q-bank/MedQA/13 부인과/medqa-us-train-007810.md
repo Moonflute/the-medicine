@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 테스토스테론
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+에스트로겐을 과다 분비하는 과립세포 종양은 비정상 질 출혈과 자궁내막 비대, 유방 비대 등을 일으킨다. 이러한 종양에서 혈청 에스트로겐 수치가 상승하므로 정답은 C이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지중해빈혈 보인자
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+MCV가 65 µm³인 소구성 빈혈이지만 페리틴이 정상·높은 수준이므로 철 결핍이 아니다. 지중해빈혈 보인자는 미세소구성 빈혈을 일으키며, 페리틴은 보통 정상이다. 따라서 지중해빈혈 보인자가 가장 가능성 높은 원인이다.
 
 ## 출처
 

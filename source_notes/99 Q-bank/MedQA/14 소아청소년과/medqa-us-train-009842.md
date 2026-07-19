@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 모체 에스트로겐 중단
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 질 출혈은 출생 직후 모체 에스트로겐이 급격히 감소하면서 자궁경부와 질 점막이 퇴행해 발생하는 생리적 출혈이 가장 흔하다. 다른 선택지는 출혈 원인과 일치하지 않는다. 따라서 원인은 모체 에스트로겐 중단이다.
 
 ## 출처
 

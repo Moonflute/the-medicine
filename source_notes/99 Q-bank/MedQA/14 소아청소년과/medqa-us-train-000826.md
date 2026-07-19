@@ -15,11 +15,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 산모의 갑상선기능저하증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+태아 알코올 증후군은 산모의 음주가 원인이다. 임신 초기에 알코올 섭취 여부를 확인했더라면 예방 가능했을 것이다. 따라서 확인해야 할 예방 요인은 알코올 섭취이다.
 
 ## 출처
 

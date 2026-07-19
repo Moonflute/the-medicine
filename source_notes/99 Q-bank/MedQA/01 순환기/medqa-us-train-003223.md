@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 물망치맥
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경증의 알부민뇨와 단클론 경쇄, 조직에 아밀로이드 침착은 AL(경쇄) 아밀로이드증을 시사한다. 치료하지 않을 경우 진행성 신부전과 심장·간 침범으로 1~2년 내 사망 위험이 높다. 따라서 가장 가능성 높은 임상 경과는 1~2년 이내 사망이다.
 
 ## 출처
 

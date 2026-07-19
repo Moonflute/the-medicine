@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 심한 기관지수축
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흡연자에서 갑작스러운 호흡곤란과 저산소증, 그리고 한쪽 폐 상부에서 호흡음 감소는 폐기종성 폐포(벌브) 파열에 의한 기흉을 시사한다. 기흉은 급성 저산소증을 일으키며, 흡입된 공기가 폐 외부에 고이게 된다. 따라서 정답은 폐기종성 수포의 파열이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 대동맥하 심실 중격 결손을 동반한 양대혈관 우심실 기시�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년기에 호흡곤란과 피로가 동반된 경우, 심방 중격 결손(ASD)으로 좌우 혈류 분리와 우심실 부하가 증가해 이러한 증상이 나타난다. 따라서 ASD가 정답이다.
 
 ## 출처
 

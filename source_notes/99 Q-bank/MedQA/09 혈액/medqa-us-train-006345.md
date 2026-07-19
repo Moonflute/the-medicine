@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -47,7 +49,8 @@ D. 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+빈혈이 미세소양성 빈혈이며 MCV가 정상인 점에서 철결핍성 빈혈을 의심한다. 철결핍을 확인하려면 혈청 철, 페리틴, TIBC 등을 포함한 철분 검사가 필요하다. 따라서 다음 단계는 철분 검사를 시행하는 것이 적절하다.
 
 ## 출처
 

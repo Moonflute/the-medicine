@@ -18,11 +18,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 요천추 척추 방사선 촬영
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+통증이 장시간 서 있거나 계단을 내려갈 때 악화되고 신경학적 이상이 없으며 말초 맥박도 정상인 경우, 근골격계 원인에 대한 영상평가가 필요하다. 요천추 MRI는 구조적 원인(디스크, 협착 등)을 확인할 수 있는 최선의 검사이다. 따라서 정답은 B이다.
 
 ## 출처
 

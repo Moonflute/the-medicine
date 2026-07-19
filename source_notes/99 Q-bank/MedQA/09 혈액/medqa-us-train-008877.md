@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 위암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+악성 빈혈(악성 위축성 위염) 환자는 내인자 결핍으로 비타민 B12 흡수가 저하되어 위암 위험이 증가한다. 따라서 위암이 가장 위험이 증가하는 질환이다.
 
 ## 출처
 

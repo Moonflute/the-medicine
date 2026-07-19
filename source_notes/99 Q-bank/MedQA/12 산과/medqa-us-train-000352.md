@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 풍진 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 30주에 태아 성장 제한과 자궁저부 높이 저하가 보이며, 산모는 경미한 피로와 요절박만 있다. 이는 태아 감염 중 풍진에 의한 성장 제한이 가장 흔히 나타난다. 따라서 가장 가능성 높은 원인은 풍진 감염이다.
 
 ## 출처
 

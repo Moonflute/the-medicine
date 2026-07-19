@@ -17,11 +17,13 @@ question_type: other
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 로사르탄
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ACE 억제제 리시노프릴은 기침을 유발하고 고칼륨혈증을 악화시킬 수 있다. 환자의 기침과 고칼륨혈증은 리시노프릴 사용과 연관된다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 질식 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+자궁내막 이식증(자궁내막증)의 확진은 병변을 직접 시각화하고 조직검사를 할 수 있는 복강경이 가장 정확한 진단법이다. 비침습적 검사만으로는 확진이 어려우며 복강경을 통해 병변을 확인하고 병리학적 진단을 할 수 있다. 다른 선택지는 진단 확정에 충분하지 않다.
 
 ## 출처
 

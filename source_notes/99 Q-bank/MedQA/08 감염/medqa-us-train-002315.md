@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 근육주사 벤자틴 페니실린을 4주마다 5년간 투여한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 류마티스열이 심장 합병증 없이 치료된 경우, 10년간 4주마다 벤자틴 페니실린을 투여하는 2차 예방이 권장된다. 이는 재발을 방지한다. 따라서 10년간 투여가 정답이다.
 
 ## 출처
 

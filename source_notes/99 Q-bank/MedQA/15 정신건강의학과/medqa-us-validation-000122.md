@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자해
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+바르비투르산염 금단 시 교감신경 과다활동으로 심혈관 허탈(심박동 감소·저혈압·심정지)이 가장 위험한 합병증이다. 호흡억제는 억제제 과다복용 시, 내부 출혈·자해는 다른 상황에 해당한다. 따라서 정답은 심혈관 허탈(C)이다.
 
 ## 출처
 

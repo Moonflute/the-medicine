@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 환자에게 제왕절개 분만 권고
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HIV 양성 산모의 수직 감염 예방에 가장 효과적인 방법은 제왕절개가 아니라 신생아에게 AZT를 즉시 투여하는 것이다. 따라서 가장 중요한 조치는 신생아에게 AZT 투여이다.
 
 ## 출처
 

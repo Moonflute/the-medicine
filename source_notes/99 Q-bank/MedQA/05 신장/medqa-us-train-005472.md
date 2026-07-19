@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 풍선 혈관성형술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신동맥 협착에 의한 이차성 고혈압은 혈관 내강이 좁아져 혈류 저항이 증가하므로, 병변 부위에 풍선 혈관성형술을 시행하면 협착을 즉시 확장시켜 혈압을 낮출 수 있다. 다른 선택지는 장기적인 재협착 위험이 크다. 따라서 가장 적절한 치료는 풍선 혈관성형술이다.
 
 ## 출처
 

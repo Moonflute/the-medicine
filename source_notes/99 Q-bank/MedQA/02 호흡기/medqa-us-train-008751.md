@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. A-a 산소분압 차이 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+좌하엽 폐렴으로 인한 V/Q 불균형은 폐의 환기가 감소하면서 A‑a 산소분압 차이가 증가한다. 환자를 측와위로 눕히면 병변 쪽 환기가 더 감소해 A‑a 차이가 더욱 커진다. 따라서 A‑a 차이 증가가 가장 잘 나타난다.
 
 ## 출처
 

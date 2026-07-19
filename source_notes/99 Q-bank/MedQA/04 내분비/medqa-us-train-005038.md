@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 두통과 뇌동맥류 가족력으로 CT 혈관조영술이 필요한 경우
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+메트포르민은 경증에서 중등도 만성폐쇄성폐질환(COPD)과 함께 사용해도 금기가 아니다. 다른 선택지는 간질환, 심부전(중증) 등 금기 상황이다. 따라서 경한 만성폐쇄성폐질환이 있어도 계속 복용 가능하다.
 
 ## 출처
 

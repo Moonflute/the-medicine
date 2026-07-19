@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -42,7 +44,8 @@ D. 배뇨 빈도 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+뇌경색 후 발생한 저나트륨혈증은 소변 Na+와 삼투압이 높아지는 SIADH를 시사한다. SIADH에서는 체액량이 정상(또는 약간 증가)하지만 항이뇨호르몬 과다분비로 물이 재흡수돼 혈청 요산이 희석되어 감소한다. 따라서 혈청 요산 감소가 가장 흔히 동반되는 소견이다.
 
 ## 출처
 

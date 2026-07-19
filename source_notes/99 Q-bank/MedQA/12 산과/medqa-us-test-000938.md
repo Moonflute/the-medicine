@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 형제의 전자간증 병력
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+이전 임신에서 동일한 증상(전자간증)과 사산 경험은 재발 위험의 가장 강력한 예측인자이다. 따라서 이전 임신의 전자간증 병력이 현재 상태의 위험인자로 작용한다. 형제의 병력은 위험도에 크게 영향을 주지 않는다.
 
 ## 출처
 

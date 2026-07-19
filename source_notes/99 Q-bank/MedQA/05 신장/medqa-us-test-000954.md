@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소변 질산염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신전성 신질환(전신성 저혈압)과 신성 신질환을 구분하려면 사구체 여과율 대비 요분배율을 평가하는 FEUrea가 가장 신뢰할 수 있다. 소변 나트륨 농도는 이뇨제 사용에 민감하고 설포살리실산은 알레르기 검사에 해당한다.
 
 ## 출처
 

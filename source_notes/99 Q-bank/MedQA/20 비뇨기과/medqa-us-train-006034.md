@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 윌름스 종양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신세포암은 고혈압·혈뇨·신장 종괴를 동반하며, 혈색소 증가와 같은 적혈구 과다증은 없고, 조직학적으로 명확히 구분된다. 혈관근육지방종·이행세포암·윌름스 종양은 다른 임상양상을 보인다. 따라서 신세포암이 정답이다.
 
 ## 출처
 

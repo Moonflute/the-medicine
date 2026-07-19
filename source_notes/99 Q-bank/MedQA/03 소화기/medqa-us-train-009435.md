@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 개복 담낭절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 초음파에서 담낭벽 비후와 액체가 보이며, 환자는 복수와 저알부민 혈증을 동반한 간경변 환자이다. 복수와 복부 압통이 있는 경우 가장 위험한 합병증은 자연 발생성 복막염이며, 진단을 위해 복수 천자가 필요하다. 따라서 다음 단계는 복수 천자이다.
 
 ## 출처
 

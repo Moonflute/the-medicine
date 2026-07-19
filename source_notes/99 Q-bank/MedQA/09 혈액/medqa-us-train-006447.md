@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. E
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비건 식단으로 인한 철 결핍성 빈혈은 저색소성 적혈구와 변형적혈구를 보이며, 혈청 철은 감소하고, 페리틴도 감소한다. 따라서 철검사에서 가장 가능성 높은 소견은 혈청 철 감소이다.
 
 ## 출처
 

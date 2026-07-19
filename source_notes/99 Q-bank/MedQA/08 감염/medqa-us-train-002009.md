@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Zika virus
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발열, 두통, 근육통, 반구진 발진 후 급성 출혈성 증상과 DIC 소견(혈소판 감소, aPTT·PT 연장, FDP 양성)이 나타난 점이 고위험 출혈성 바이러스 감염을 시사한다. 서아프리카 열대우림에서의 동물 접촉은 에볼라 바이러스 노출 위험을 높인다. 따라서 가장 가능성 높은 병원체는 에볼라 바이러스이다.
 
 ## 출처
 

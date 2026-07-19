@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 발진이 사라진 후 학교에 돌아가도록 설명하고 귀가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구순 홍반과 대칭성 반구진 발진은 파보바이러스 B19에 의한 제5질환을 특징으로 한다. 증상이 경미하고 전염성이 낮아지면 일상 복귀가 가능하다. 따라서 환자는 학교에 돌아가도 된다고 설명하고 귀가한다.
 
 ## 출처
 

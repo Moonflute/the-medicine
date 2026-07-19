@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 설파살라진
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+강직성 척추염의 초기 증상은 목과 요추의 강직이며, 비스테로이드성 항염증제(NSAIDs)만으로 증상이 완화되지 않을 경우 2차 약물인 인도메타신이 권장된다. 인도메타신은 TNF‑α 억제제로 염증을 감소시켜 초기 증상 개선에 효과적이다. 따라서 초기 치료는 인도메타신이다.
 
 ## 출처
 

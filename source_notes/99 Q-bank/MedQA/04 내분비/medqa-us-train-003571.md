@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 칼만 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+성선기능 저하와 후각 결손, 고환 미발달, 과거 구개열·잠복고환 고정술 병력이 있는 경우 Kallmann 증후군이 의심된다. 이는 시상하부 GnRH 결핍과 후각신경 발달 이상이 동반된 질환이다. 따라서 정답은 Kallmann 증후군이다.
 
 ## 출처
 

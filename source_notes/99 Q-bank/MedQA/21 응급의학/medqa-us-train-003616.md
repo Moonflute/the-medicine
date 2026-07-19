@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 정맥 수액만 투여한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 저혈압은 출혈 및 ACE 억제제에 의한 혈관 확장이 원인일 수 있다. 먼저 정맥 수액으로 혈액량을 보충하고, 혈압을 낮추는 리시노프릴을 중단한다. 따라서 정맥 수액 투여와 리시노프릴 중단이 정답이다.
 
 ## 출처
 

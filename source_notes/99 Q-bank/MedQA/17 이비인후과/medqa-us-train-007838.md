@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 푸로세미드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+루프스(푸로세미드)는 급성 신독성 및 귀에 대한 가역적 신경성 난청을 일으킬 수 있다. 환자의 청력 저하가 약물 투여 후 발생했으며 2주 뒤 회복된 점이 푸로세미드에 의한 독성임을 시사한다. 정답은 D이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지지요법과 추가 신체검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무릎에 발적·통증·부종이 있으며 움직일 때 통증이 심하고 열감이 있는 경우, 감염성 관절염(농양성 관절염)을 의심한다. 진단을 확정하려면 관절천자를 통해 배액을 분석하고 배양해야 한다. 따라서 초기 적절한 조치는 관절천자이다.
 
 ## 출처
 

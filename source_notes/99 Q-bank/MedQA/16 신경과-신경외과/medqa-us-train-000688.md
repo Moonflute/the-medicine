@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. Levetiracetam
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 비자발적 운동(눈 깜빡임, 기침, 그루팅)과 스트레스 유발 악화는 틱 장애(투렛 증후군)와 일치한다. 투렛 증후군의 1차 치료는 도파민 차단제인 할로페리돌이다. 따라서 할로페리돌이 가장 효과적이다.
 
 ## 출처
 

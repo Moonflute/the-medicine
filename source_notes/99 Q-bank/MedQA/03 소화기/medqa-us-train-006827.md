@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 결정질 수액 주입
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 알코올성 췌장염은 초기 치료에 충분한 수액 보충이 핵심이며, 특히 저칼슘·저칼륨·저나트륨 상태에서 결정성(결정질) 수액을 사용하면 혈액량을 회복하고 조직 손상을 최소화한다. 따라서 가장 적절한 처치는 결정질 수액 주입이다.
 
 ## 출처
 

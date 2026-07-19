@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신생아 뇌병증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병 어머니의 대형아는 고인슐린 혈증으로 태아 췌장 베타세포가 과형성돼 출생 후 급성 저혈당을 일으킨다. 저혈당은 신생아가 보채고 떨며 무기력해지는 전형적인 증상이다. 따라서 베타세포 과형성이 가장 가능성 높은 원인이다.
 
 ## 출처
 

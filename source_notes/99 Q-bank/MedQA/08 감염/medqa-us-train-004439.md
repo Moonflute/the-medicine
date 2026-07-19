@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수용성 요오드 조영제를 이용한 단일 조영 식도조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구강 백색 플라크와 식도 증상은 구강·식도 칸디다증을 나타내며, 이는 CD4 수가 200/mm³ 이하인 HIV 감염에서 흔히 발생한다. 따라서 면역 상태 평가를 위해 CD4 세포 수 측정이 다음 단계이다.
 
 ## 출처
 

@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -46,7 +48,8 @@ D. 리튬(Lithium)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+리튬은 신성 신장성 이뇨증을 일으키는 대표적인 약물로, 혈장 삼투압은 높지만 소변 삼투압이 낮고 DDAVP에 반응하지 않는다. 이는 신성(신장성) DI와 일치한다. 따라서 원인으로 리튬이 가장 가능하다.
 
 ## 출처
 

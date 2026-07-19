@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 동기강화면담
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아이의 행동은 규칙을 위반하고 교사와 동료를 비난하는 지속적인 반항적 패턴으로, 이는 반항성 대립장애(ODD)와 일치한다. 1차 치료는 행동 교정과 인지·행동 치료(CBT)로, 약물은 일반적으로 필요하지 않다. 따라서 가장 적절한 치료는 인지행동치료이다.
 
 ## 출처
 

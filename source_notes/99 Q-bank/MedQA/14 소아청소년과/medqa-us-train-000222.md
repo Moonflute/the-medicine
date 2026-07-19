@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 자신의 손을 응시함
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+2개월 영아는 6주령에 얼굴을 보고 미소를 짓는 사회적 미소가 나타난다. 이는 정상 발달 단계이며 질문에 제시된 선택지 중 가장 적절하다. 따라서 얼굴을 보고 미소 지음이 정답이다.
 
 ## 출처
 

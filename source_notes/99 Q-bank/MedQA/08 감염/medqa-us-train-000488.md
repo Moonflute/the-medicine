@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대변 독소 검사(Stool toxin assay)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고용량 오메프라졸은 위산 억제로 장내 정상 세균군을 억제하고 클로스트리디움 디피실 감염 위험을 높인다. 설사와 복부 팽만이 급성으로 나타나며, 항생제 사용 이력이 없더라도 위산 억제제 사용이 위험 요인이다. 따라서 가장 적절한 초기 검사는 대변 독소 검사이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 항-Ro/SSA 및 항-La/SSB 항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+간헐적 작열성 흉통, 체중 감소, 피부 경화 및 미세 수포음은 전신 경피증(전신성 경피증)과 연관된다. 전신성 경피증에서 가장 특이적인 혈청 항체는 토포이소머레이스 I(anti‑Scl‑70)이다. 따라서 정답은 항 토포이소머레이스 항체이다.
 
 ## 출처
 

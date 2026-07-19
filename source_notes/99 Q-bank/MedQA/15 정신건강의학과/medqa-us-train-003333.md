@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 외상후스트레스장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+음식 섭취 시 목이 타는 느낌, 과도한 걱정, 지속적인 불안, 수면 방해는 전신적인 과도한 불안을 나타낸다. 범불안장애는 다양한 상황에 대한 과도하고 통제되지 않는 걱정이 6개월 이상 지속되는 것이 특징이다. 따라서 가장 가능성 높은 진단은 범불안장애이다.
 
 ## 출처
 

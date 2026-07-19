@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 브로모크립틴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+할로페리돌 복용 후 급성 근긴장이상(급성 디스토니아)은 항콜린성 약물인 벤즈트로핀으로 즉시 완화한다. 디아제팜은 진정제이지만 디스토니아에 1차 선택이 아니다. 따라서 벤즈트로핀 투여가 적절한 다음 조치이다.
 
 ## 출처
 

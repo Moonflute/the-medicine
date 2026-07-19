@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 하이드로코돈과 이부프로펜을 4시간마다 복용하도록 허용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+진행성 암성 통증에서 오피오이드 내성이 흔히 나타나며, 하이드로코돈을 더 강력한 μ-수용체 작용제인 하이드로모르폰으로 교체하면 내성을 극복할 수 있다. 이는 동일 용량 대비 더 높은 진통 효과를 제공한다. 따라서 하이드로코돈을 하이드로모르폰으로 변경하는 것이 적절하다.
 
 ## 출처
 

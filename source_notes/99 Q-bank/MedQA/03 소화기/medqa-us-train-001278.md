@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 모세혈관 누출
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 췌장염에서 혈관 투과성 증가와 삼투성 삼투압 저하가 전신 혈관 내액을 제3공간으로 이동시켜 저혈압을 일으킨다. 따라서 모세혈관 누출이 혈역학적 불안정의 주요 원인이다.
 
 ## 출처
 

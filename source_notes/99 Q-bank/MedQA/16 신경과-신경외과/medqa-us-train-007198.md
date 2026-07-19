@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 뇌혈관 경련
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+코카인 사용은 혈관 수축과 혈압 상승을 유발하지만, 급성 고혈압에 의한 뇌혈관 수축으로 경련이 발생해 일과성 신경학적 결손을 일으킨다. 환자의 급성 의식 소실·편측 마비·경련은 뇌혈관 경련에 의한 일과성 허혈성 발작을 가장 잘 설명한다.
 
 ## 출처
 

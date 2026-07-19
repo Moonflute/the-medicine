@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 유전검사에서 디스트로핀 유전자 돌연변이
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 근력 약화와 근육 위축, 가족력, 정상 CK와 LDH는 근육 섬유 내 염증성 침윤을 보이는 다발성 근염을 시사한다. 근육 생검에서 근섬유 내 침윤이 가장 확진에 도움이 된다.
 
 ## 출처
 

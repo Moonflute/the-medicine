@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 윤상갑상막절개술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 외상에서 기관삽관 실패 후 산소포화도가 떨어지면 즉시 기도 확보가 필요하다. 윤상갑상막절개술은 비침습적 기도 확보 방법으로 가장 빠른 선택이다. 따라서 윤상갑상막절개술을 시행한다.
 
 ## 출처
 

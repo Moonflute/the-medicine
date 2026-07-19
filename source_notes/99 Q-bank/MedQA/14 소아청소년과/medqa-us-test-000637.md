@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 페니실린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+지속적인 기계음 심잡음은 동맥관개존증(PDA)을 시사한다. 미숙아에서 PDA는 인도메타신(인도메타신)으로 폐혈관 저항을 감소시켜 폐혈류를 감소시키고 폐부종을 예방한다. 따라서 인도메타신이 가장 적절한 치료이다.
 
 ## 출처
 

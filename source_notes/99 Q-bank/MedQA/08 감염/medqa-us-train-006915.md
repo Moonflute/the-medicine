@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 트리메토프림-설파메톡사졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병 환자의 급성 신우신염 치료 후 경구 전환 시, 감염원인에 대한 지역 저항성을 고려해 트리메토프림‑설파메톡사졸이 1주일 이상 복용 가능한 구강 옵션이다. 입원 중 사용한 세프트리악손과 교차 저항성이 없으며, 치료 기간을 충족한다. 따라서 트리메토프림‑설파메톡사졸을 처방한다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 염전이 동반된 장회전이상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+간헐적 복통과 무릎을 가슴쪽으로 당기는 행동은 장중첩(intussusception)에서 흔히 보이는 증상이다. 초음파에서 장의 동심원 고리(target sign)는 장중첩을 시사한다. 메켈 게실은 장중첩의 가장 흔한 선행 병인으로, 이 경우가 가장 가능성 높은 기저 원인이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 간 생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+C형 간염 항체 양성은 과거 감염을 의미하지만 현재 감염 여부는 HCV RNA PCR로 확인한다. 따라서 바이러스 RNA PCR이 다음 진단 단계이다. 항체 검사만으로는 활성 감염을 판단할 수 없으며, 간생검은 필요하지 않다.
 
 ## 출처
 

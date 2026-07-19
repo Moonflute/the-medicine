@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 위막성 대장염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈변과 철 결핍성 빈혈은 대장암의 전형적인 증상이며, 특히 70세 남성에서 위험도가 높다. 대장암을 확인하기 위한 최우선 검사는 대장내시경이다. 따라서 가장 가능성 높은 진단은 게실증이 아니라 대장암이며, 검사는 대장내시경이다.
 
 ## 출처
 

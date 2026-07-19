@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 봉와직염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+안정 시에도 통증이 지속되고, 운동 시 악화되며, 발을 아래로 늘이면 완화되는 특징은 휴식 시 혈류가 회복되는 급성 말초동맥 혈류 부족을 의미한다. 이는 중증 사지허혈(급성 동맥 폐색)과 일치한다. 레이노 현상은 주로 차가운 환경에서 발생하고 통증이 없으며, 다른 선택지는 부적절하다.
 
 ## 출처
 

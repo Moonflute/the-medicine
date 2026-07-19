@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 말로리-바이스 열상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구토 후 급성 흉통, 심한 호흡곤란, 목 부위 부풀음, 흉부 청진에서 바스락거리는 소리, 경흉 X선에서 종격동 자유공기 존재는 식도 파열(보어하베 증후군)을 나타낸다. 따라서 가장 가능성 높은 진단은 보어하베 증후군이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 마이봄샘 세포암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+눈꺼풀 안쪽에 단단하고 고무 같은 무통성 결절은 마이봄샘(속눈썹 기름샘) 막힘으로 생기는 산립(chalazion)과 일치한다. 따라서 가장 가능성 높은 진단은 산립이다.
 
 ## 출처
 

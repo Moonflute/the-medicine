@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비타민 D 독성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구강 보충제 복용으로 비타민 D 과다 섭취가 발생했으며, 비타민 D 독성은 장골형성 억제와 장칼슘 흡수 증가로 혈청 칼슘을 12 mg/dL 이상으로 상승시킨다. PTH는 저칼슘에 대한 반응으로 상승하지만, 비타민 D 독성에서는 PTH가 정상~경미하게 상승한다. 따라서 가장 가능성 높은 근본 원인은 비타민 D 독성이다.
 
 ## 출처
 

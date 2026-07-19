@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 혈액 투석
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고온 환경에서의 열사병은 체온 40°C 이상, 의식 저하, 혈압 저하와 함께 급성 횡문근융해(크레아틴키나아제 86,000 U/mL)와 어두운 소변을 동반한다. 급성 열사병의 치료는 체온을 빠르게 낮추는 것이 핵심이며, 얼음물 침수가 가장 효과적이다. 따라서 다음 단계는 얼음물 침수이다.
 
 ## 출처
 

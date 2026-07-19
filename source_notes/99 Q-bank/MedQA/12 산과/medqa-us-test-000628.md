@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 적혈구 수혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+태반이 질을 통해 돌출된 후 대량 출혈이 발생한 경우는 태반 만출이다. 초기 처치는 자궁을 위쪽으로 들어올려 자궁내압을 높이는 것이 가장 효과적이다. 따라서 정답은 후방개를 위로 올리는 것이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 활성 오류
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+페니토인 과다 투여로 인한 부작용은 ‘적신호 사건’(near miss)으로 분류된다. 이는 실제 피해는 없었지만 위험한 상황이 발생했음을 의미한다. 따라서 적신호 사건이 정답이다.
 
 ## 출처
 

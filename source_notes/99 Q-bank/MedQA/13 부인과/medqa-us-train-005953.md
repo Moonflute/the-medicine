@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 외음부 파제트병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+편평세포암은 외음부에 궤양성 결절과 흰색 병변을 동반하며, 바르톨린샘 병력과는 무관하다. 따라서 가장 가능성 높은 진단은 편평세포암이다.
 
 ## 출처
 

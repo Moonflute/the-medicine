@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. Itraconazole을 이용한 경험적 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 발열과 국소적인 신경학적 결손(우측 손 힘 약화)은 뇌 병변을 의심하게 하며, HIV 환자에서 가장 흔한 원인은 뇌 병변을 동반한 톡소플라스마 뇌염이다. 영상학적 확인이 선행되어야 하므로, 다음 단계는 뇌 CT 촬영이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 드퀘르벵 건초염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손목 부위의 해부학적 스냅백(해부학적 스냅백) 압통은 주상골 골절을 강하게 시사한다. 주상골 골절은 손목 외상 후 통증과 제한된 움직임을 일으키며, 정확한 진단을 위해 방사선 검사가 필요하다.
 
 ## 출처
 

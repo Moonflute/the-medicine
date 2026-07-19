@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 치료적 농도 미만의 용량
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 조현병 치료에 사용되는 항정신병제(예: 클로자핀) 복용 후 간질 발작을 겪었으며, 이후 카르포페달 경련이 관찰된다. 클로자핀은 강력한 CYP450 유도제로, 혈중 농도를 감소시켜 치료용량 이하가 되기 쉽다. 따라서 P450 유도가 가장 가능성 높은 설명이다.
 
 ## 출처
 

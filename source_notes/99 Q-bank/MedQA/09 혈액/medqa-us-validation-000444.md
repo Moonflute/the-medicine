@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 연전형성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+TTP/HUS와 같은 미세혈관성 용혈성 빈혈·혈소판 감소증에서는 파편적 적혈구(분열적혈구)가 말초혈액 도말에 나타난다. 이는 혈소판 감소와 함께 흔히 관찰된다.
 
 ## 출처
 

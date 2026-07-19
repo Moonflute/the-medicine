@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신경이완제 악성 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고온 환경에서 격렬한 운동으로 체온이 40°C 이상 상승하고 의식 혼미, 땀 흘림이 동반되는 경우는 운동성 열사병이다. 이는 체온 조절 실패와 탈수에 의한 급성 중증 열사병을 의미한다. 따라서 가장 가능성 높은 진단은 운동으로 인한 열사병이다.
 
 ## 출처
 

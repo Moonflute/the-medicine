@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 췌장암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+간접 빌리루빈이 경미하게 상승하고 증상이 없으며, 스트레스나 금식 시 악화되는 패턴은 비감소성 간질환인 길버트 증후군에 해당한다. 따라서 길버트 증후군이 가장 가능성 높은 원인이다.
 
 ## 출처
 

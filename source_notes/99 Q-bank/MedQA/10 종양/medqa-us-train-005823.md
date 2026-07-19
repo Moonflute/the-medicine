@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 감시 림프절 생검을 동반한 유방종괴절제술 후 방사선 및 
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ER+, HER2‑, 1 cm 이하 종괴와 음성 림프절은 유방 보존술(종괴 절제) 후 신경절 절제와 방사선, 호르몬 치료가 표준이다. 전이 없음·림프절 음성은 전신 절제나 방사선만으로는 충분하지 않다.
 
 ## 출처
 

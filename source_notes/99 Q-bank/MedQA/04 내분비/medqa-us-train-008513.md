@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. NPH 인슐린과 속효성 인슐린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+식사 직후 혈당 급등을 억제하려면 빠른 작용 인슐린이 필요하며, 인슐린 리스프로는 초속효성 인슐린으로 15분 내에 작용을 시작한다. NPH는 작용이 늦고 글라진은 초속효성·중간형 혼합제이므로 가장 적절한 선택은 인슐린 리스프로이다.
 
 ## 출처
 

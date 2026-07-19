@@ -16,11 +16,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 호흡성 산증과 음이온차 대사성 산증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병 환자의 메스꺼움·구토·복통에 과일 냄새가 나는 호흡은 케톤산증을 시사한다. 케톤산증은 호흡성 알칼리증(호흡성 알칼리)과 음이온 차가 증가한 대사성 산증을 동반한다. 따라서 C가 올바른 조합이다.
 
 ## 출처
 

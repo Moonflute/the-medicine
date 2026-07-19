@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 갈색세포종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+FBN1 변이와 대동맥 근부 확장은 마판 증후군의 특징이며, 가장 큰 위험은 대동맥류·판막 파열이다. 혈전성 사건이나 불임은 상대적으로 위험도가 낮다.
 
 ## 출처
 

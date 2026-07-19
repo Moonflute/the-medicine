@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 오른쪽 제3~6번 갈비뼈 외과적 고정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흉부 외상 후 흉벽이 흡입 시 안쪽으로 움직이는 역설적 움직임은 대흉강 내 압력 감소를 의미하는 연가양(플라우라) 증상이다. 이는 기도 폐쇄와 저산소증을 초래하므로 즉시 기도 확보와 양압환기를 동반한 기관내 삽관이 필요하다.
 
 ## 출처
 

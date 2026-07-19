@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전척수증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+허리 통증이 다리 뒤쪽으로 방사되고, 복측 감각 저하와 배뇨곤란, 항문괄약근 수축 감소는 척수 전방(전측) 압박을 시사한다. 유방암 전이로 인한 척수 전방 종양(마미증후군)이 가장 흔한 원인이다.
 
 ## 출처
 

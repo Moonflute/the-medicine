@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심초음파에서 작은 좌심실
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아에서 입술·손가락 청색증은 우축편위와 연관된 선천성 심장 결함을 시사한다. Tetralogy of Fallot 등 우심실 부하가 큰 결함에서 우축편위가 흔히 나타난다. 따라서 심전도에서 우축편위가 가장 가능성 높은 소견이다.
 
 ## 출처
 

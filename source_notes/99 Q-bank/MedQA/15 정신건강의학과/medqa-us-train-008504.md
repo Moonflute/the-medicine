@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈관성 치매
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우울증 환자는 기억력 저하와 주의력 감소를 보이며, 검사에서 단기 기억이 손상된 것이 우울성 인지장애(우울성 가성치매)와 일치한다. 신경학적 검사는 정상이며 다른 치매 유형은 진행성 증상과 연령대가 다르다. 따라서 가장 가능성 높은 진단은 우울증이다.
 
 ## 출처
 

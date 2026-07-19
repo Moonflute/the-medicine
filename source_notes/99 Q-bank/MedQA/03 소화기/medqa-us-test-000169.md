@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소화성 궤양 수술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+타코츠보(스트레스) 심근증은 급성 스트레스 상황 후 좌심실 수축기 기능 저하와 심실 팽창을 일으키며, 심초음파에서 좌심실과 좌심방이 확대된 모습이 보인다. 다른 선택지는 전형적인 심전도 변화나 심음 소견을 설명하지 못한다. 따라서 가장 가능성 높은 진단은 타코츠보 심근병증이다.
 
 ## 출처
 

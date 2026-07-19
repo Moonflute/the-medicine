@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 근위 장의 원위부 내강으로의 함입
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+에리트로마이신은 장신경총을 억제해 위장관 운동을 감소시켜 비대성 유문협착증을 유발한다. 이는 구토와 상복부 종괴를 초래한다. 다른 선택지는 메커니즘과 맞지 않는다. 따라서 정답은 항생제 사용(B)이다.
 
 ## 출처
 

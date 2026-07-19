@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. RET 유전자 돌연변이
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+마르판 증후군은 FBN1 유전자 변이와 연관되며, 고키, 관절 과신전, 수핵상방위 수정체 탈구가 전형적이다. 다른 선택지는 해당 표현형을 설명하지 못한다. 따라서 가장 가능성 높은 원인은 FBN1 돌연변이다.
 
 ## 출처
 

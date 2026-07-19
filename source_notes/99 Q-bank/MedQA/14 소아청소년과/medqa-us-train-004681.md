@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 어머니를 안심시킨다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+상상 친구는 정상 발달 단계이며 아이는 사회적·인지적 기능이 유지된다. 병리적 행동이나 발달 지연이 없으므로 특별한 검사나 보호자 개입이 필요하지 않다. 따라서 어머니를 안심시키는 것이 최선이다.
 
 ## 출처
 

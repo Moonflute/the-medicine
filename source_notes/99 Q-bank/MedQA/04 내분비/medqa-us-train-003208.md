@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 목 CT
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑상선 결절 평가에서는 먼저 혈청 TSH를 측정하여 갑상선 기능을 확인한다. TSH가 정상 또는 저하이면 결절이 기능항진일 가능성이 낮으며, 초음파 소견만으로는 진단이 확정되지 않는다. 따라서 다음 단계는 갑상선자극호르몬(TSH) 검사이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. B형간염 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비결합성 빌리루빈이 경미하게 상승하고 간 효소는 정상이며, 간염 바이러스 항체는 음성인 경우 선천성 비결합성 고빌리루빈혈증인 길버트 증후군이 의심된다. 이는 UGT1A1 효소 활성이 감소해 발생한다. 따라서 길버트 증후군이 정답이다.
 
 ## 출처
 

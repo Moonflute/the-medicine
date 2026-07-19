@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 트로포닌 T
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+재경색 시 재발성 흉통은 심근세포 손상 재발을 의미한다. CK‑MB는 급성 심근손상의 시기적 변화를 가장 빨리 반영하므로 비정상 결과가 가장 유용하다. 따라서 CK‑MB 검사가 정답이다.
 
 ## 출처
 

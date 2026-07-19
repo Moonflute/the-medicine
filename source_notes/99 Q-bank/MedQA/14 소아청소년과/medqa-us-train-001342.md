@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기관지
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+후두하부(아래 성문) 협착은 밤에 악화되는 끈적한 기침과 흡기성 고음성 호흡음(크레피테)과 일치한다. 이는 흔히 ‘크루프’라 불리는 급성 후두염이다. 따라서 병변 위치는 성문하부 후두이다.
 
 ## 출처
 

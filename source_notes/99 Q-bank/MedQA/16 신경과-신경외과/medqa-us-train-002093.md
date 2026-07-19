@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 좌심방에서 발생한 색전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 순수 운동성 반신마비는 작은 혈관성 뇌경색(리포하이알린증)으로 인한 것이며, 이는 렌티큘로스트리아테 동맥의 지방유리질증(리포하이알린증)과 연관된다. 다른 선택지는 증상과 부합하지 않는다. 따라서 정답은 B이다.
 
 ## 출처
 

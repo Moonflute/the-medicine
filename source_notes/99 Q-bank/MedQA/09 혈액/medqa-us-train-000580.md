@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 적혈구 막의 결함이 있는 안키린(ankyrin)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+이소니아지드 복용은 비타민 B6(피리독신) 소모를 증가시켜 헤모글로빈 합성을 방해한다. 이는 포도당-6‑인산 탈수소효소 억제로 비정상적인 적혈구 전구체 축적을 일으키며, 환자는 비정상적인 용혈성 빈혈을 보인다. 따라서 환원형 글루타티온 결핍이 원인이다.
 
 ## 출처
 

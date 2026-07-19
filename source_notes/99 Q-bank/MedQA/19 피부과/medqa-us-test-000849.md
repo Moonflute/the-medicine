@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 사슴진드기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중앙이 검게 변하고 주변에 홍반 테두리가 있는 청색 판은 갈색 은둔거미(거미류) 물림에 특징적인 피부 괴사이다. 이 거미는 텍사스 등 남부 지역에 서식한다. 따라서 원인 동물은 갈색 은둔거미이다.
 
 ## 출처
 

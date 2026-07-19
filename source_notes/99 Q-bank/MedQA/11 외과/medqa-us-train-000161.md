@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 용혈성 수혈 반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 1주일 내에 발열·우상복부 통증·황달·간 효소 상승이 나타나면 담낭에 염증이 생긴 무결석 담낭염이 가장 흔하다. 이는 비전형적 복부 증상과 일치한다. 따라서 정답은 무결석 담낭염이다.
 
 ## 출처
 

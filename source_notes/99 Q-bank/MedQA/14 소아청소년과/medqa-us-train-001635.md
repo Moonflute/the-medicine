@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 산모에게 아목시실린 경구 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아 안구 결막염 예방에 가장 효과적인 방법은 출산 직후 산모에게 아목시실린을 경구 투여해 신생아에게 전달되는 신균을 억제하는 것이다. 이는 임질에 의한 안구염을 예방한다. 따라서 예방에 가장 크게 기여한 조치는 산모에게 아목시실린 경구 투여이다.
 
 ## 출처
 

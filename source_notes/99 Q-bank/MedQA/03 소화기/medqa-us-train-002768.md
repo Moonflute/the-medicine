@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 식도위십이지장내시경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+위·식도·십이지장 내시경은 연령·체중 감소·빈혈·심한 속쓰림 등 위험 신호가 있는 경우 바로 시행한다. 내시경으로 궤양·암을 직접 확인하고 조직검사를 할 수 있다. 따라서 D가 적절하다.
 
 ## 출처
 

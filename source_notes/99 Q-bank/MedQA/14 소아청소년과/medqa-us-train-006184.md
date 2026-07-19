@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 식도이완불능증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구토 후에도 배고프고 저염소성 저칼륨성 대사성 알칼리증이 나타나는 비담즙성 구토는 위의 유문 협착이 원인이다. 유문 근육 비후는 위 내용물이 유문을 통과하지 못하게 하여 위 확장과 구토를 일으키며, 위산 손실로 염소와 칼륨이 감소해 대사성 알칼리증이 발생한다. 따라서 가장 가능성 높은 원인은 유문 근육 비후이다.
 
 ## 출처
 

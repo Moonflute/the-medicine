@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 근치적 전립선절제술과 항암화학요법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+국소 전립선암(국소 진행)에서는 방사선 치료와 안드로겐 억제 요법이 표준 치료이다. 수술보다 방사선과 호르몬 치료 조합이 권장된다. 따라서 C가 정답이다.
 
 ## 출처
 

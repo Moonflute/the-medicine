@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 광장공포증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복성 요로감염과 방광에 대한 불안·회피가 사회적 상황에 대한 두려움으로 이어진 경우, 사회불안장애가 의심된다. 이는 회피 행동과 과도한 불안이 핵심 특징이다. 따라서 가장 가능성 높은 진단은 사회불안장애이다.
 
 ## 출처
 

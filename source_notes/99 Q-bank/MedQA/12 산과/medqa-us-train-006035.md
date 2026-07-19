@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 톡소플라스마 곤디
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임산부에서 태아 수종·양측 흉수와 함께 미열·관절통·발진이 있었던 경우 파보바이러스 B19 감염이 원인이다. 이는 태아 적혈구 파괴로 수종을 일으킨다. 다른 바이러스는 이러한 양상을 보이지 않는다. 따라서 파보바이러스 B19가 가장 가능성 높다.
 
 ## 출처
 

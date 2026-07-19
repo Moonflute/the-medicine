@@ -18,11 +18,13 @@ question_type: ethics
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 언니가 동의서에 서명해야 한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 현재 의사결정 능력이 있으며 사전의료지시서가 존재한다. 그러나 치료 전에는 환자의 현재 의사결정을 서면으로 기록해야 법적·윤리적 요건을 충족한다. 따라서 치료 전에 환자의 결정을 문서화해야 한다.
 
 ## 출처
 

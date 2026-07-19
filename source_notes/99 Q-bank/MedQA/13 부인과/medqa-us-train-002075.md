@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 복합 경구 피임약
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+FSH와 LH 상승, 에스트라디올 저하, 고 FSH/에스트라디올 비율은 원발성 난소부전(조기 폐경)임을 나타낸다. 에스트라디올 패치와 메드록시프로게스테론 병용은 호르몬 대체 치료에 적절하다. 따라서 정답은 C이다.
 
 ## 출처
 

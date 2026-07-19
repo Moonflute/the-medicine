@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신경성 식욕부진증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+과식 후 죄책감, 구강 부식, 체중·BMI 감소는 폭식 후 보상 행동을 특징으로 하는 신경성 폭식증을 시사한다. 신체이형장애는 체형에 대한 왜곡이 주된 특징이며, 여기서는 과식·보상이 핵심이다. 따라서 가장 가능성 높은 진단은 신경성 폭식증이다.
 
 ## 출처
 

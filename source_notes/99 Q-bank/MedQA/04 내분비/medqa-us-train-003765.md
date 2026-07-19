@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중추성 조기 사춘증은 GnRH 의존성으로, GnRH 작용제(류프로라이드)가 시상하부-뇌하수체-성선 축을 지속적으로 자극해 사춘을 억제한다. 따라서 치료는 류프로라이드이며 정답은 B이다.
 
 ## 출처
 

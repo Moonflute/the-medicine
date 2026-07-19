@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 검사 결과와 관계없이 RhoGam은 필요 없다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Rh‑음성 임산부가 Rh‑양성 파트너와 임신 중이며 항‑D 선별검사가 음성일 경우, 28주에 RhoGam을 투여해 태아 적혈구에 대한 면역화를 예방한다. 양성 결과가 있으면 이미 감작이 진행된 것이므로 투여 시기가 달라진다.
 
 ## 출처
 

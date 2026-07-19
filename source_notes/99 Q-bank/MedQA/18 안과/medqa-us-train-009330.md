@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 디히드로에르고타민 정맥 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+코 감염 후 급성 고열, 안와부종, 안구 외전 제한, 안와정맥동 혈전증은 세균성 동맥정맥 감염에 의해 발생한다. 광범위한 베타-락탐제와 메트로니다졸을 정맥 투여해 감염을 억제해야 한다. 따라서 정답은 반코마이신, 세프트리악손, 메트로니다졸 정맥 투여이다.
 
 ## 출처
 

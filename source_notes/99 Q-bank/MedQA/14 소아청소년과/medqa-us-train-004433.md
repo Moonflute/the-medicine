@@ -17,11 +17,13 @@ question_type: association
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. HbA1c 상승
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 청색증, 심장 잡음, 단일 제2심음은 대동맥 전위(대혈관 전위)와 연관된다. 대동맥 전위는 임신성 당뇨(높은 HbA1c)와 강하게 연관되므로 산모에게 HbA1c 상승이 나타날 가능성이 가장 높다.
 
 ## 출처
 

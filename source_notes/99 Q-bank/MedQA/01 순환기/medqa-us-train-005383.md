@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 플레카이니드 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양성 조기심방수축(PAC)은 대부분 양성이고 증상이 경미하다. 심전도에서 불규칙 맥박이 확인되면 추가 검사는 필요 없으며 환자를 안심시켜 주는 것이 적절하다. 따라서 다음 단계는 안심시키기이다.
 
 ## 출처
 

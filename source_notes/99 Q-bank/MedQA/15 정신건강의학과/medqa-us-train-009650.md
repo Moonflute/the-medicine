@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 조현양상장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 1~6개월 지속된 환각, 망상, 비현실적 사고를 보이며 현실 검증이 손상된 조현양상장애(조현병 전구 단계)와 일치한다. 증상이 3개월 이상 지속되고 양성 증상이 두드러진다. 따라서 가장 가능성 높은 진단은 조현양상장애이다.
 
 ## 출처
 

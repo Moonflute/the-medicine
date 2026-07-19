@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 당국에 신고
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+공유정신병적 장애는 가족 구성원이 동일한 망상을 공유한다. 초기 단계에서는 환자와 가족을 별도로 면담해 독립적인 정신병적 증상을 평가하는 것이 가장 중요하다. 정답은 어머니와 아들을 따로 면담하는 것이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 리튬
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+리스페리돈은 도파민 D2 수용체 차단제로 틱 장애(투렛 증후군)의 운동 및 음성 틱을 감소시키는 1차 약물이다. 발프로산은 항경련제, 클로나제팜은 벤조디아제핀, 리튬은 기분 안정제로 틱에 직접적인 효과가 적다.
 
 ## 출처
 

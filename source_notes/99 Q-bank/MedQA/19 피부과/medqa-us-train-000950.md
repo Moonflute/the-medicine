@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 정상적인 일광 화상 반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+데메클로사이클린은 광범위한 광과민성을 일으켜 햇빛에 노출 시 심한 발진을 유발한다. 환자는 화학요법과 데메클로사이클린 복용 중이며, 일광 노출 후 전신 홍반이 나타난다. 따라서 약물에 의한 광과민성 반응이 원인이다.
 
 ## 출처
 

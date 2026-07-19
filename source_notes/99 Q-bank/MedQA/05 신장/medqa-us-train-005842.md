@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심혈관질환
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 신장질환 환자는 심혈관 질환이 사망의 주요 원인이다. 빈혈·위장관 출혈·악성 종양도 위험하지만, CKD에서 가장 흔한 사망 원인은 심혈관계 합병증이다.
 
 ## 출처
 

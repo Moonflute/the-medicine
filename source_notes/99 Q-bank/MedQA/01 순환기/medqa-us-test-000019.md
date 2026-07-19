@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심낭절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흉통이 누울 때 악화되고 전방 굴곡 시 마찰음이 들리는 것은 급성 심낭염(심낭염)이다. 초기 치료는 비스테로이드성 소염제와 콜히친을 병용하면 증상이 빠르게 완화된다. 따라서 최적의 치료는 이부프로펜 + 콜히친이다.
 
 ## 출처
 

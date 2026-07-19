@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 악성 종양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+높은 17-하이드록시프로게스테론과 저 테스토스테론은 21-수산화효소 결핍에 의한 비고전적 선천성 부신과형성증을 시사한다. 이 효소 결핍은 안드로겐 과다와 여성형 외모를 초래한다. 따라서 21-수산화효소 결핍이 가장 가능성 높다.
 
 ## 출처
 

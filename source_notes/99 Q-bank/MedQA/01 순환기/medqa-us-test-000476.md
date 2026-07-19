@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 동기화 심율동전환
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+불안정 빈맥성 심방세동에서 혈역학적 불안정(저혈압, 저산소증)이 있으면 동기화 전기심율동전환이 급히 필요하다. 약물이나 관상동맥조영술은 혈역학적 안정이 회복된 후에 고려한다. 따라서 동기화 심율동전환이 정답이다.
 
 ## 출처
 

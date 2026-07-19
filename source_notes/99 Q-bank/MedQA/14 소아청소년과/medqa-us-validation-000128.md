@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 덜 익힌 해산물 피하기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아데노바이러스·노로바이러스 등은 손-입 접촉을 통해 전파되므로 손 씻기 개선이 가장 효과적인 예방책이다. 예방접종은 해당 질환에 적용되지 않는다. 따라서 정답은 손 씻기 개선(B)이다.
 
 ## 출처
 

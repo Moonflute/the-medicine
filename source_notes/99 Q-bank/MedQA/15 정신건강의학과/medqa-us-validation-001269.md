@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 다른 의사에게 의뢰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+편집성 성격장애와 피해망상이 있는 환자에게는 위협적이지 않게 직접적이고 정직하게 대화하는 것이 치료적 관계를 유지하는 최선의 접근이다. 따라서 해당 태도가 정답이다.
 
 ## 출처
 

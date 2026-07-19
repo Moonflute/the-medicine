@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항미토콘드리아 항체 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+알칼리성 인산분해효소 상승은 담도계 이상을 시사한다. 감마글루타밀전이효소(GGT)는 담도 폐쇄나 담관 손상을 특이적으로 반영하므로 다음 검사로 적절하다. 정답은 감마글루타밀전이효소 측정이다.
 
 ## 출처
 

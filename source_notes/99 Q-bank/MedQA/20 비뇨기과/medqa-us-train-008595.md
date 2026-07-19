@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 현재는 치료하지 않는다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+왼쪽 고환정맥류(정맥류)와 비정상 정자 파라미터는 정계정맥류가 원인임을 시사한다. 현존하는 증상과 불임을 개선하기 위해서는 미세수술적 정맥류 절제술이 표준 치료이다. 정자 주입술은 정자 수가 충분할 때, 결찰술은 비수술적 옵션이지만 효과가 낮다, 관찰은 비추천이다.
 
 ## 출처
 

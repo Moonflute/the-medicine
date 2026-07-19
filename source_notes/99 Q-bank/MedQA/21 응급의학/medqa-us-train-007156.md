@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. D-이합체 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+저위험 환자에서 폐색전증을 배제하기 위해 D‑이합체 검사는 높은 민감도와 특이도를 가진 비특이적 혈액검사이다. CT·V/Q 스캔은 고위험 환자에 우선이며, 흉부 X‑ray는 민감도가 낮다. 따라서 D‑이합체 검사가 적절한 검사이다
 
 ## 출처
 

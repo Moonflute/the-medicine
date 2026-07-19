@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 알칼로이드에 의한 구토 유발
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+유기인산제 중독 시 근섬유다발수축 등 무스카린 증상이 나타나며, 아트로핀은 무스카린성 아세틸콜린 수용체를 경쟁적으로 차단한다. 따라서 초기 약물은 무스카린 길항제이다.
 
 ## 출처
 

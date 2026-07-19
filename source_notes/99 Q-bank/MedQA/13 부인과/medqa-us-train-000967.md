@@ -16,11 +16,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 매년 자궁내막 생검을 통한 경과 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비정형 자궁내막 증식증(이형성)과 불임을 원한다면 자궁내막을 얇게 유지하는 프로게스틴 단독 요법이 표준 치료이다. 이는 수술 없이도 증식 억제와 임신 가능성을 높인다. 따라서 프로게스틴 단독 치료가 적절하다.
 
 ## 출처
 

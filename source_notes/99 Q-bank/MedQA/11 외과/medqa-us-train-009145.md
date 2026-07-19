@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 레보플록사신 정맥 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+오메프라졸은 위산 억제로 인한 위장관 점막 손상을 감소시키지만, 이 환자의 종격동염은 인두·식도 천공 후 발생한 것이며, 항생제 투여가 예방에 가장 효과적이다. 따라서 암피실린-설박탐 정맥 투여가 예방에 가장 큰 역할을 한다.
 
 ## 출처
 

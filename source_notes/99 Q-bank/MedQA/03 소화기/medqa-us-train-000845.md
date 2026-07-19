@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 복부 CT 촬영
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복강경 담낭절제술 후 2주 이내에 상복부 통증과 총담관 확장이 나타나면 담관 결석이나 협착에 의한 급성 담관 폐색을 의심한다. 혈청 알칼리성 포스파타제 상승과 경미한 빌리루빈 상승은 담관 폐색을 시사한다. ERCP는 진단과 동시에 담관 스텐트 삽입으로 치료가 가능하므로 가장 적절한 다음 단계이다.
 
 ## 출처
 

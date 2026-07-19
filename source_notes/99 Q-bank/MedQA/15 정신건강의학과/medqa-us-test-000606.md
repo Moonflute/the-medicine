@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 펜시클리딘
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+불안, 구강 건조, 결막 충혈, 빈맥이 급성 대마 사용 후 나타나는 증상이다. 대마는 정신운동 속도 저하와 불안감을 유발한다. 따라서 가장 가능성 높은 중독은 대마이다.
 
 ## 출처
 

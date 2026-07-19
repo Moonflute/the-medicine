@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 편평태선
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+외음부에 건조하고 얇은 흰색 판 모양 병변, 소음순 위축, 음핵 후퇴, 항문 주위 피부의 창백하고 주름진 변화는 경화태선의 전형적인 임상 소견이다. 이러한 부위의 섬유화와 위축은 에스트로겐 결핍 후 발생하는 질환으로, 진단은 경화태선이 된다.
 
 ## 출처
 

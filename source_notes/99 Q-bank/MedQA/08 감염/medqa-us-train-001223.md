@@ -15,11 +15,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 96시간 및 14mm 직경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+PPD 검사는 48–72 시간 후에 읽으며, 양성 판정은 16 mm 이상의 경결이다. 이는 면역 반응이 충분히 발달한 시점과 기준에 부합한다. 따라서 정답은 72시간 및 16 mm이다.
 
 ## 출처
 

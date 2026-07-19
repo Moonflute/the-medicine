@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기능성 난포성 난소낭종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+사춘기 초기(2단계)에서는 유방이 돌출되고 유두·유륜이 이차 융기를 형성하며 겨드랑이 털이 시작된다. 이는 정상적인 생리적 발달이며 병적 원인과 무관하다. 따라서 가장 가능성 높은 원인은 생리적 발달이다.
 
 ## 출처
 

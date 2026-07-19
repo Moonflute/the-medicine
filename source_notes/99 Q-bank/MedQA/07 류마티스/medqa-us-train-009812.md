@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 파종성 임균성 관절염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아침에 악화되는 관절통·부종, 15분 정도 지속되는 강직은 전신홍반루푸스(SLE)의 관절염 양상을 시사한다. 빈혈, 혈소판 감소, 신기능 악화(크레아티닌 상승)와 단백뇨·혈뇨는 루푸스 신염을 나타내는 전형적인 혈액·소변 소견이다. 구강 궤양은 비특이적이지만 SLE에서도 흔히 관찰된다. 따라서 가장 가능성 높은 진단은 전신홍반루푸스이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 담낭절개술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+총담관 확장과 급성 발열·복통은 총담관 결석에 의한 급성 담관염을 의미한다. 결석을 제거하기 위해 역행성 담췌관조영술(ERCP)로 스텐트 삽입 및 결석 제거가 급히 필요하다.
 
 ## 출처
 

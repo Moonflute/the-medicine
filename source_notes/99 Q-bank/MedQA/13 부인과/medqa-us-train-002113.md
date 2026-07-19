@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 정상 소견
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+프로락틴 수치는 언급되지 않았지만, 유두에서 젖이 나오고 무월경, 고프로락틴증이 흔한 원인인 프로락틴 분비 뇌하수체 종양이 가장 가능성 있다. 따라서 프로락틴종이 정답이다.
 
 ## 출처
 

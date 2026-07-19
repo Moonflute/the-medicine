@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대상포진 예방접종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 의료 종사자로서 혈액 매개 감염 위험이 높으며, B형 간염은 예방접종으로 효과적으로 차단된다. 다른 선택지는 현재 상황과 연관성이 낮다. 따라서 B형 간염 예방접종이 적절하다.
 
 ## 출처
 

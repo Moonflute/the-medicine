@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 간헐적 도뇨의 불충분
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+산후에 간헐적 도뇨를 시행했지만 방광이 충분히 비워지지 않아 방광 과팽창이 발생한다. 과팽창된 방광은 요압이 상승해 요실금이 간헐적으로 나타난다. 따라서 가장 가능성 높은 원인은 간헐적 도뇨의 불충분이다.
 
 ## 출처
 

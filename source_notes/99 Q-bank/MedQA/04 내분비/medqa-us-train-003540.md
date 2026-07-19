@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 비타민 B3(니아신)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+만성 알코올 섭취와 설사·피부색소침착·인지 장애가 동반된 경우, 나이아신 결핍에 의한 펠라그라가 의심된다. 펠라그라는 3D(다이어레아, 설염, 치매)를 특징으로 하며, 니아신 보충이 치료의 핵심이다. 따라서 비타민 B3(니아신) 결핍이 가장 가능성 높은 원인이다.
 
 ## 출처
 

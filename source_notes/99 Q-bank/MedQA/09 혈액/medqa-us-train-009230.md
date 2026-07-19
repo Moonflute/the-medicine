@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 부차적 혈액형 부적합
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+주요 혈액형 부적합은 수혈 후 급성 용혈 반응을 일으켜 발열, 저혈압, 혈색소 급감, 옆구리 통증(신장 출혈) 등을 나타낸다. 환자는 수혈 후 30분 내에 이러한 증상이 급격히 나타났으며, 혈색소와 혈압이 떨어졌다. 따라서 가장 가능성 높은 진단은 주요 혈액형 부적합이다. (부차적 혈액형 부적합은 주로 혈소판 수혈에서 발생하며, IgA 감소는 알레르기 반응을 일으킨다.)
 
 ## 출처
 

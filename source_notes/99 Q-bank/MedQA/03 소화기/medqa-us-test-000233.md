@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 내시경적 역행성 담췌관조영술(ERCP)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우측 간엽 부위에 통증과 복부 초음파에서 다발성 저에코성 병변이 보이는 점은 세균성 간농양을 시사한다. 초기 치료는 항생제 투여와 복강 내 배액이 필요하다. 따라서 가장 적절한 초기 관리는 항생제 투여와 배액이다.
 
 ## 출처
 

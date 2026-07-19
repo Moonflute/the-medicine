@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 철분 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Salmonella 골수염이 겸상 적혈구병(지중해 빈혈) 환자에서 흔히 발생하므로, 겸상 적혈구병을 확인하기 위해 혈색소 전기영동이 가장 유용한 검사이다. 말초 혈액 도말은 감염 확인에, 전혈구검사와 철분 검사는 진단에 직접적이지 않다.
 
 ## 출처
 

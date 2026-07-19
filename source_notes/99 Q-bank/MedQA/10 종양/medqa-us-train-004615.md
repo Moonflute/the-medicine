@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 유방 파제트병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+유두에 물 같은 분비물과 궤양이 동반된 경우, 유두와 유륜을 침범하는 파제트병이 가장 흔한 원인이다. 이는 악성 종양이 아닌 양성 염증성 질환이다. 따라서 정답은 유방 파제트병이다.
 
 ## 출처
 

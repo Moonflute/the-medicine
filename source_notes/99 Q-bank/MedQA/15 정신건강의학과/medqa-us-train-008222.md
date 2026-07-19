@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자기애성 인격장애
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 과장된 자기 과시, 타인에 대한 권리 주장, 비판에 대한 무시 등 자기애적 특성을 보이며, 이는 자기애성 인격장애의 핵심 진단 기준이다. 따라서 가장 가능성 높은 진단은 자기애성 인격장애이다.
 
 ## 출처
 

@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 온단세트론(ondansetron) 및 포도당이 포함된 1/2 생리식염수 �
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대마초 과다 사용에 의한 구토는 칸나비노이드 과다증후군이며, 저칼륨·대사성 알칼리증 교정이 필요하다. 온단세트론과 칼륨이 포함된 3% 식염수 투여가 가장 적절하다.
 
 ## 출처
 

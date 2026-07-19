@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 복강경 수술적 교정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+왼쪽 서혜부에 지속적인 부종과 압통이 있으며, 눕거나 외부 압력으로 감소하지 않아 장시간 지속된 탈장으로 장이 얽혀 혈류 차단이 의심된다. 스트라켈레이트된 서혜부 탈장은 응급 수술적 복구가 필요하다. 따라서 개복 수술적 교정이 가장 적절하다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 구안파신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+5세 아동의 전형적인 ADHD 증상(과잉활동, 충동성, 부주의)에는 자극제인 메틸페니데이트가 1차 치료제로 권장된다. 다른 선택지는 비자극제이거나 비약물 치료이다. 따라서 정답은 메틸페니데이트이다.
 
 ## 출처
 

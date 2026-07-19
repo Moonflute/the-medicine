@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정상 노화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+오후 6시 이후에 잠들기 어려워지는 것이 전형적인 수면 위상 전진(일주기 리듬 수면장애)이다. 이 경우 내인성 생체시계가 앞당겨져 조기 각성·수면 시작 지연이 나타난다. 따라서 가장 가능성 높은 진단은 수면 위상 전진 증후군이다.
 
 ## 출처
 

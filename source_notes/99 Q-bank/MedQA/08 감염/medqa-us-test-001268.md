@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. A형간염 바이러스
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고열, 황달, 빈혈, 말초혈액도말에서 고리모양 봉입체와 분열적 혈구는 파라사이트 적혈구 파괴를 나타낸다. 이는 가장 악성인 Plasmodium falciparum 감염이 특징이며, 다른 말라리아 종은 이러한 심각한 용혈을 흔히 일으키지 않는다. 따라서 가장 가능성 높은 원인은 P. falciparum이다.
 
 ## 출처
 

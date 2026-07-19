@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 하지불안증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신·당뇨·HIV 환자에서 메트포르민·HAART 복용 시 철 결핍보다는 레스트리스 레그 증후군(RLS) 위험이 증가한다. 특히 임신 후기에 철분 결핍이 없고 피로·빈혈이 동반될 때 RLS가 흔히 나타난다. 따라서 하지불안증후군 위험이 증가한다.
 
 ## 출처
 

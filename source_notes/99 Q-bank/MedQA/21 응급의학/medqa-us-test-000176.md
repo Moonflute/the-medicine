@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 바늘 감압술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+왼쪽 흉부에 호흡음 감소와 타진 시 과공명음이 나타난 것은 공기 축적을 의미하며, 경정맥 팽창과 저혈압은 텐션성 기흉을 시사한다. 텐션성 기흉은 즉시 흉강 내 압력을 감소시켜야 하므로 바늘 감압술이 가장 빠른 치료법이다. 다른 선택지는 영상 확인이나 수술이 필요하지만, 응급 상황에서는 바늘 감압이 우선이다.
 
 ## 출처
 

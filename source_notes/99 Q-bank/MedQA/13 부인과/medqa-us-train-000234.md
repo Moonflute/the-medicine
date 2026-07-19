@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 외음부 펀치 생검(Vulvar punch biopsy)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대음순에 단단한 결절성 병변은 악성 가능성을 배제할 수 없으며, 조직학적 진단이 필요하다. 가장 확실한 진단 방법은 국소 조직을 채취하는 펀치 생검이다. 따라서 외음부 펀치 생검이 적절한 관리이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈액제제 수혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+식도정맥류 출혈은 대량 출혈 시 기도 보호가 최우선이며, 환자는 의식 저하와 흡입 위험이 있다. 기도 폐쇄를 방지하기 위해 기관내 삽관이 즉시 필요하고, 이후 내시경적 지혈을 시행한다. 따라서 기도 확보를 위한 삽관이 적절한 조치이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 염증성 장질환
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈변, 복통, 체중 감소, 혈액 검사에서 염증표지 상승은 염증성 장질환을 의심하게 한다. 젊은 성인에서 궤양성 대장염이 흔히 나타난다. 따라서 염증성 장질환이 가장 가능성 높은 진단이다.
 
 ## 출처
 

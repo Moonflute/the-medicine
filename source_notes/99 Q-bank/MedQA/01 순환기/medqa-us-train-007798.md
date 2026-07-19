@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심장 MRI
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심낭에 혈액이 축적되어 호흡에 따라 심실 충혈이 변하고 이완기 허탈이 보이는 경우는 심낭압전증이며, 즉시 심낭을 배액해 압력을 감소시켜야 한다. 카테터 삽입이나 심낭절제술은 급성 상황에서 먼저 시행되지 않는다.
 
 ## 출처
 

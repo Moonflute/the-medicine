@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 헤노흐-쇤라인 자반증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+인후통 후 2주 이내에 혈뇨와 단백뇨, 고혈압이 나타나는 것은 사후 연쇄상구균 사구체신염을 시사한다. 다른 사구체질환은 잠복기나 임상 양상이 다르다.
 
 ## 출처
 

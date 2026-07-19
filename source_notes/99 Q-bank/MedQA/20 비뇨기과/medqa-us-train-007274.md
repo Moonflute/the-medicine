@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 3개월 후 PSA 재검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전립선 결절이 촉진되고 PSA가 정상 범위에 있어도 조직학적 확인이 필요하다. 영상 유도 생검은 전립선암을 확진하는 표준 방법이며, 가장 높은 진단 확률을 제공한다. 따라서 영상 유도 침생검이 정답이다.
 
 ## 출처
 

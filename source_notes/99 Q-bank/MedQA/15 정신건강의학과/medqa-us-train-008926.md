@@ -17,11 +17,13 @@ question_type: other
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 근육통
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양귀비 씨앗을 섭취하면 모르핀과 유사한 알칼로이드가 소변 검사에서 양성으로 나타날 수 있다. 이러한 알칼로이드는 동공 수축(miosis)을 일으키는 특징이 있다. 따라서 오피오이드 양성 반응과 연관된 신체 소견은 동공축소이다.
 
 ## 출처
 

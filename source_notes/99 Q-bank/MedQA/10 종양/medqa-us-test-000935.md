@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이미 호스피스 자격이 있으므로 추가 단계가 필요 없다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+호스피스 자격은 기대수명 ≤6개월이며, 치료를 거부한 경우 환자의 예상 생존 기간을 판단해 자격을 확인한다. 위암 말기 환자가 모든 연명 치료를 거부했으므로, 먼저 기대수명을 평가하는 것이 다음 단계이다. 전이 여부 확인은 이미 치료 거부 상황에서 우선순위가 아니다.
 
 ## 출처
 

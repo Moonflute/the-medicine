@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신생아에게 B형간염 백신과 B형간염 면역글로불린을 투여�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 B형 간염 표면항체만 양성이고 핵항체·항원은 음성으로 과거 감염 후 면역이 형성된 상태이다. 임신 중 B형 간염 면역이 있으면 신생아에게 B형 간염 예방접종과 동시에 면역글로불린을 투여해야 한다. 따라서 신생아에게 B형 간염 백신·HBIG를 계획한다.
 
 ## 출처
 

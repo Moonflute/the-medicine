@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 일산화질소 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 호흡곤란, 저산소증, 흉부 X선에서 폐 용적 증가와 엽간열 내 액체는 출산 직후 폐에 남아 있는 폐포액이 빠르게 흡수되지 않아 발생하는 일과성 신생아 호흡곤란(Transient tachypnea of the newborn)과 일치한다. 이 상태는 보통 지지요법(산소 공급, 온열 유지, 적절한 체위)으로 치료한다. 따라서 가장 적절한 다음 관리 단계는 지지요법이다.
 
 ## 출처
 

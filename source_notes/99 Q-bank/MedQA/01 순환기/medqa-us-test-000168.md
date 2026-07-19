@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 제한성 심근병증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 위장관 출혈이 의심될 때 가장 신속히 출혈원을 확인하고 치료하기 위한 검사로 상부 위장관 내시경이 우선이다. 위·식도·십이지장 출혈이 가장 흔하며, 대장내시경은 출혈이 하부에 국한될 때 사용한다. 따라서 다음 단계는 상부 위장관 내시경이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 안와 CT
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+콘택트렌즈 착용 후 각막에 손상이 있으면 플루오레세인이 손상 부위에 색소를 남겨 병변을 시각화한다. 각막 찰과상 진단에 가장 민감하고 특이적인 검사는 플루오레세인 염색이다. 따라서 정답은 플루오레세인 검사이다.
 
 ## 출처
 

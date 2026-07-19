@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뇌 연결정맥 파열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두부 CT에서 뇌 표면을 연결하는 정맥(bridging veins)이 파열된 출혈이 보이며, 와파린 복용으로 출혈 위험이 증가한다. 정맥 파열은 서브두개혈종을 일으키며, 환자의 혼돈, 국소 신경학적 결손과 일치한다. 따라서 원인은 뇌 연결정맥 파열이다.
 
 ## 출처
 

@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -59,7 +61,8 @@ D. 프레드니손(Prednisone) 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소변 단백/크레아티닌 비율이 6.8로 심각한 단백뇨를 보이며, 알부민 저하와 저혈압은 신증후군을 시사한다. 급성 신증후군에서는 스테로이드 치료가 면역 매개 손상을 억제한다. 따라서 가장 적절한 다음 단계는 프레드니손 치료이다.
 
 ## 출처
 

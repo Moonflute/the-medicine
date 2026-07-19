@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 난소 기능 부전(Ovarian insufficiency)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년기에 무배란은 월경 주기가 불규칙하고 출혈량이 많으며, 배란이 없으므로 임신이 되지 않는다. 따라서 무배란이 가장 가능성 높은 설명이다.
 
 ## 출처
 

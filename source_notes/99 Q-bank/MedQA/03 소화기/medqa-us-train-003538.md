@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. S상결장경으로 정복을 시도하고 직장관을 삽입
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 팽만·고막음·전신성 저산소증은 회전성 결장염(구불결장염)이나 회전성 결장염에 의한 장허혈을 시사한다. 혈역학적 불안정과 복부 팽만이 진행 중이면 장관 괴사 위험이 높아 즉시 개복술이 필요하다. 따라서 즉시 개복술과 수술적 치료가 정답이다.
 
 ## 출처
 

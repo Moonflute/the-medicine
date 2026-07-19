@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 저칼륨혈증과 정상 산-염기 상태
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+육아종증·다발혈관염 환자는 알도스테론 과다와 류코트리엔 증가로 신장에서 칼륨 배설이 증가하고, 산성 대사산물 배출이 감소해 저칼륨·대사성 알칼리증이 나타난다. 따라서 저칼륨성 대사성 알칼리증이 예상된다.
 
 ## 출처
 

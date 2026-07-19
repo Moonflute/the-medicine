@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 추가 검사가 필요하지 않다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 무릎의 통증이 기계적·퇴행성 양상(계단 오를 때 악화, 활동 시 악화, 휴식 시 호전, 최소한의 아침 강직)과 골관절염의 전형적인 신체소견(압통, 청진음, 관절 비대)과 일치한다. 이러한 전형적 골관절염은 임상 진단으로 충분히 확정되며, 추가 영상검사는 치료 계획에 영향을 주지 않는다. 따라서 추가 검사가 필요하지 않다.
 
 ## 출처
 

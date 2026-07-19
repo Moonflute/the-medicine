@@ -18,11 +18,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 기분전환용 약물 중독
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 경화증 치료에 사용되는 스테로이드나 기타 면역억제제는 고용량에서 환각을 일으킬 수 있다. 혈당 상승과 함께 나타난 환각은 약물 부작용이 가장 가능성 높은 원인이다.
 
 ## 출처
 

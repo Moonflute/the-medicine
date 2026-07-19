@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 톡소포자충(Toxoplasma gondii)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고양이와의 접촉 후 발열, 인후통, 림프절 비대, 비특이적 단핵구 증가, 그리고 혈청에 대한 적혈구 응집은 EBV 감염을 시사한다. EBV는 전형적인 전염성 단핵구증을 일으키며, 헤테로시그마 항원에 대한 양성 반응이 관찰된다. 따라서 가장 가능성 높은 병원체는 EBV이다.
 
 ## 출처
 

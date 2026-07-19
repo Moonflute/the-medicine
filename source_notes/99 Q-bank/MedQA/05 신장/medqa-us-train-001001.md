@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -42,7 +44,8 @@ D. 얇은 기저막 병증(Thin basement membrane disease)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대량 단백뇨(4+), 저알부민(1.8 g/dL), 고콜레스테롤, 지방 원주가 신증후군을 나타내며, 폐암·만성 기관지염 환자에서 흔히 동반되는 면역복합체 매개 신장 손상인 막성 신병증이 가장 흔하다. 따라서 진단은 막성 신병증이다.
 
 ## 출처
 

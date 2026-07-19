@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 반응성 관절염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+관절액에서 음성 배양·노란색·고백구·바늘 모양 단핵결정은 모노소듐 우레이트 결정으로 급성 통풍을 시사한다. 급성 통풍은 급성 관절염 중 가장 흔한 원인이며, 다른 선택지는 증상과 일치하지 않는다. 따라서 가장 가능성 높은 진단은 급성 통풍이다.
 
 ## 출처
 

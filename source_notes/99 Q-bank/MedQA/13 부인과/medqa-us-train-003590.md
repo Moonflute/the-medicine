@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 자궁의 양성 평활근 종양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+자궁근층 내에 자궁내막 조직이 존재하면 월경통과 비대된 자궁이 나타나는 adenomyosis가 발생한다. 이는 자궁벽 안에 내막 조직이 침윤한 병리이다. 따라서 정답은 자궁벽 안의 자궁내막 조직이다.
 
 ## 출처
 

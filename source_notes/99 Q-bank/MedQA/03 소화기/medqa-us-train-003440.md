@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 누공
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 고염소혈증성 대사성 산증은 장루(누공)로 인한 중탄산염 손실이 원인이다. 누공으로 인한 위장액(중탄산염 풍부) 손실이 클로라이드 상승과 중탄산염 감소를 초래한다. 따라서 가장 가능성 높은 원인은 누공이다.
 
 ## 출처
 

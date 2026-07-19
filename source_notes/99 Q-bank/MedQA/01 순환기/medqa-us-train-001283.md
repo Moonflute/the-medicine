@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소변 메타네프린 수치
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 갑작스러운 흉통과 빈맥(125 bpm)을 호소하고, 제시된 심전도는 빠른 심실 반응을 보이는 심방세동을 시사한다. 갑상선 기능항진은 심방세동을 유발할 수 있으므로 초기 평가에 갑상선자극호르몬(TSH) 검사가 필요하다. 다른 선택지는 급성 심근경색이나 부신 기능과 관련이 없으며, 초기 진단에 직접적인 도움이 되지 않는다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 즉시 응급실로 이송하여 관리
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+허리·다리 급성 통증·요실금·안장부 감각소실은 마미증후군(급성 전신성 마비)으로, 신경학적 급변이 있어 즉시 응급실 이송이 필요하다. 진통제·침상안정만으로는 위험을 감소시킬 수 없다. 따라서 응급실 이송이 최선이다.
 
 ## 출처
 

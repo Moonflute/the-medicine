@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 전척수 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+허리 외상 후 요추 압통·양쪽 하지 저하·항문 긴장도 감소와 방광 잔류가 있으면 척수 원추(척수원추) 증후군이 의심된다. 이는 원추 부위 손상으로 배뇨·배변 장애와 ‘saddle anesthesia’가 나타난다. 따라서 정답은 척수원추 증후군이다.
 
 ## 출처
 

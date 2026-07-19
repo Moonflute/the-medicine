@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 중탄산나트륨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+철분 중독 시 구토, 혈변, 복부 방사선에서 불투과성 물질이 보이며, 데페록사민은 철과 결합해 배설을 촉진하는 해독제이다. 투석·포메피졸·중탄산나트륨은 철중독에 1차 치료가 아니다. 따라서 A가 옳다.
 
 ## 출처
 

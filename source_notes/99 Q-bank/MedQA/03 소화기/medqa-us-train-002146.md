@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수술적 장 감압
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 X선에서 다중 공기-액체 수준이 보이면 폐쇄성 소장 폐색을 의미한다. 초기 치료는 위장관 탈압과 장 휴식을 위한 비위관 삽입이다. 따라서 비위관 삽입과 장 휴식이 정답이다.
 
 ## 출처
 

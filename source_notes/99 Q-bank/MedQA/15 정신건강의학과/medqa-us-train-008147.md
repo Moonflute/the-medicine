@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정상 임신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+항정신병제 사용 시 도파민 억제로 시상하부-뇌하수체-유두경로가 차단되어 프로락틴이 상승, 유두 분비가 발생한다. 이는 결절깔때기(시상하부‑뇌하수체) 경로 변화와 일치한다. 다른 경로는 유두 분비와 관련이 없다.
 
 ## 출처
 

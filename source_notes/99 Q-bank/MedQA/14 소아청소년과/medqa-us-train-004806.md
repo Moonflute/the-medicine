@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 철분
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+미세적혈구성 빈혈과 잇몸 색소침착은 납 중독을 시사한다. 납을 킬레이트하는 숙시머와 칼슘 이산화물 복합제가 치료에 가장 효과적이다. 티오황산염·페니실라민·철분은 다른 원인에 쓰인다.
 
 ## 출처
 

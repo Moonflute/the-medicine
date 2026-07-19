@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 쿠에티아핀
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+공황장애는 발작 시 가슴 압박감, 호흡곤란, 심계항진, 발한, 떨림을 동반하며, 회피 행동이 나타난다. 장기 관리에 1세대 SSRI인 시탈로프람이 가장 효과적이며, 재발 방지에 표준 치료이다. 따라서 가장 적절한 약물은 시탈로프람이다.
 
 ## 출처
 

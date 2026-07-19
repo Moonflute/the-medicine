@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 글루콘산 칼슘(Calcium gluconate)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심전도에서 QRS 연장과 저칼륨, 저칼슘, 저체온, 저혈압이 동반된 경우, 심근 안정화를 위해 칼슘 글루콘산을 즉시 투여한다. 따라서 다음 치료는 칼슘 글루콘산이다.
 
 ## 출처
 

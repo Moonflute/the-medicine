@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 구리 자궁내장치를 권고한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경구피임제는 혈전 위험이 있어 금기이며, 콘돔 파열 후 임신을 예방하려면 비호르몬 장치가 필요하다. 구리 IUD는 즉시 삽입 가능하고 혈전 위험을 증가시키지 않는다. 따라서 구리 자궁내장치를 권고한다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 모르핀과 정맥 수액
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 통증 위기와 급성 신경학적 결손을 동반한 겸상 적혈구병 환자로 추정된다. 급성 겸상 위기에서는 혈액 내 HbS 농도를 급격히 낮추어야 하며, 교환수혈이 가장 효과적인 치료이다. 단순 수혈이나 항응고제는 적절하지 않다.
 
 ## 출처
 

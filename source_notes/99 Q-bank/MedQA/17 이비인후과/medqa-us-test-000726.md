@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 페니실린 V
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고용량 흡입 스테로이드를 장기간 사용하면 구강 칸디다증이 흔히 발생한다. 구강 점막에 흰색 부스러기 같은 병변이 나타나며, 항진균제인 니스타틴(니코티아졸)으로 치료한다. 따라서 가장 적절한 처치는 니스타틴이다.
 
 ## 출처
 

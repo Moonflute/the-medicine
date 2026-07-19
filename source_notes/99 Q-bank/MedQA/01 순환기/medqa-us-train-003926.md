@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 팔로 사징
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+좌하흉골연에서 청진되는 2/6 범수축기 잡음은 좌심실→우심실로 흐르는 좌우 전류를 의미한다. 심실중격 결손(VSD)은 좌→우 단락을 일으켜 호흡곤란과 성장지연을 초래한다. 따라서 가장 가능성 높은 진단은 심실중격 결손이다.
 
 ## 출처
 

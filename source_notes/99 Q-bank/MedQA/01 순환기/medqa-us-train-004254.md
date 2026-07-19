@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 스텐트 삽입을 동반한 혈관성형술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다혈관 관상동맥질환과 저심박동, 심근허혈이 있는 경우 관상동맥 우회술이 장기적인 재관류에 가장 효과적이다. 따라서 관상동맥 우회술이 권장 치료이다.
 
 ## 출처
 

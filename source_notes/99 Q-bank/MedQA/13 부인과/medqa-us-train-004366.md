@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세프트리악손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+제왕절개 후 화농성 질환과 고열, 자궁 압통은 자궁내막 감염을 의미한다. 광범위 그람음성균에 효과적인 클린다마이신·겐타마이신 조합이 1차 치료로 권장된다. 따라서 클린다마이신과 겐타마이신이 적절하다.
 
 ## 출처
 

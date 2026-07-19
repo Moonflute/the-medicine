@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 인자 VIII
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+와파린 사용 중 피부 괴사는 단백질 C 결핍과 관련이 있다. 단백질 C는 항응고 단백으로, 결핍 시 피부 혈전과 괴사가 발생한다. 다른 선택지는 해당 메커니즘과 무관하다. 따라서 정답은 단백질 C(C)이다.
 
 ## 출처
 

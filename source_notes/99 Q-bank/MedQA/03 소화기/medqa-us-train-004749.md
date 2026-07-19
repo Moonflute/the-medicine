@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 나프록센
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+오피오이드 진통제 장기 복용으로 변비가 발생하고, 완하제와 중단을 거부할 경우 장관 평활근 수축을 억제하는 μ‑수용체 길항제인 날록세골이 변비 완화에 효과적이다. 따라서 날록세골이 적절한 약물이다.
 
 ## 출처
 

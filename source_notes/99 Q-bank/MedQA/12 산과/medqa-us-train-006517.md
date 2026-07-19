@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 임신 1분기 항생제 복용
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복된 제왕절개는 자궁벽 흉터를 늘려 태반이 자궁근층에 비정상적으로 부착되는 전치태반·착상 위험을 크게 증가시킨다. 이는 이 환자에서 관찰된 전치부 저에코 영역과 자궁근층 열공의 주요 위험인자이다.
 
 ## 출처
 

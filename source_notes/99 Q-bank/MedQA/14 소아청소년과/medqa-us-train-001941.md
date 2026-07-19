@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. lorazepam 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발열 후 15개월 영아의 짧은 발작은 단순 발열성 경련이며, 발작 후 회복이 빠르고 신경학적 이상이 없으며 혈액검사도 정상이다. 이러한 경우 입원 없이 퇴원하고 부모에게 발열 시 대처법을 교육한다. CT나 항경련제 투여는 필요하지 않다.
 
 ## 출처
 

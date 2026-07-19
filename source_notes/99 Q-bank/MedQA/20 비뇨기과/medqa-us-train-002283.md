@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 환자에게 신장결석이 있다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+녹농균(대장균 등) 감염은 요로감염을 복합성으로 만든다. 복합성 요로감염은 구조적 이상, 카테터, 신장결석 등과 연관되며, 녹농균 감염 자체는 복합성 분류를 초래한다. 따라서 녹농균이 원인균인 경우가 복합성을 유발한다.
 
 ## 출처
 

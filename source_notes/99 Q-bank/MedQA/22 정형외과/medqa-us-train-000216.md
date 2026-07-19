@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 후방 고관절 탈구(Posterior hip dislocation)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+뒤차 안전벨트를 착용한 경우 고관절 탈구는 주로 후방으로 발생한다. 환자는 오른쪽 다리가 짧아지고 굴곡·내전·내회전된 자세를 보여 후방 고관절 탈구를 시사한다. 따라서 가장 가능성 높은 진단은 후방 고관절 탈구이다.
 
 ## 출처
 

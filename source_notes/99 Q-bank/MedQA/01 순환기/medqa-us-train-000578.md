@@ -16,11 +16,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 대동맥궁의 선천적 협착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년에서 흉부 CT에 보이는 대동맥벽 얇아짐과 팔 혈압 차이는 마르판 증후군의 특징인 낭성 중층 괴사(cystic medial necrosis)와 연관된다. 이는 대동맥 박리 위험을 높인다. 따라서 낭성 중층 괴사가 정답이다.
 
 ## 출처
 

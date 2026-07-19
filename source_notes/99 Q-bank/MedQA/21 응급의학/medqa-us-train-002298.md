@@ -17,11 +17,13 @@ question_type: risk_factor
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 울혈성 심부전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈전 색전증은 장기간 부동이 주요 위험인자이며, 폐색전증과 연관된 혈성 흉수도 나타날 수 있다. 환자의 증상과 검사소견은 폐색전증을 시사한다. 따라서 가장 가능성 높은 위험인자는 장기간 부동이다.
 
 ## 출처
 

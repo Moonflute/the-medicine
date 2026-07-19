@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 안심시키고 면밀히 추적 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우상복부 통증이 간헐적으로 완화되고 초음파가 정상인 경우 담석에 의한 일시적 담도 폐쇄가 의심된다. 담도 신티그래피는 담도 흐름을 평가해 기능성 담석증을 확인하는 가장 적절한 검사이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 광선각화증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+코에 무통성, 서서히 성장하는 피부 병변은 햇빛에 노출된 부위에서 흔히 나타나는 기저세포암과 일치한다. 기저세포암은 자극받은 피부에서 서서히 확대되며, 사진에서 전형적인 결절성 병변이 보인다. 따라서 가장 가능성 높은 진단은 기저세포암이다.
 
 ## 출처
 

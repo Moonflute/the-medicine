@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 글리코겐 탈분지효소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혀가 돌출되고 근육 약화, 간비대, 심비대가 동반된 골격근 위축형 폼페병은 리소좀 산성 말타아제 결핍이 원인이다. 따라서 가장 가능성 높은 효소는 리소좀 산성 말타아제이다.
 
 ## 출처
 

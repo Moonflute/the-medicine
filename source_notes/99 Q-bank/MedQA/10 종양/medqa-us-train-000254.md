@@ -20,11 +20,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -42,7 +44,8 @@ D. 비호지킨 림프종(Non-Hodgkin’s lymphoma, NHL)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+이식 후 면역억제 상태에서 전신성 림프절 비대, 비장 비대, 체중 감소, LDH 상승은 비호지킨 림프종을 강하게 시사한다. 따라서 비호지킨 림프종이 가장 가능성 높은 진단이다.
 
 ## 출처
 

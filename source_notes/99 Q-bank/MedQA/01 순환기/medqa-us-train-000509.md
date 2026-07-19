@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 생리식염수(normal saline) 급속 주입
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 저혈압, 서맥, 차가운 피부, 저산소증을 보이며 심근 기능은 정상이고 심음도 정상이다. 급성 심근경색에서 저혈압과 저전압성 쇼크가 의심될 때 첫 번째 치료는 혈량 보충이다. 고용량 아스피린은 이미 투여되었으므로, 혈압을 회복시키기 위해 정상 식염수(정맥 주사)를 급속히 투여한다.
 
 ## 출처
 

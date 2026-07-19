@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 하추체동 채혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+부신 우연종에서 Cushing syndrome을 의심할 경우 가장 먼저 시행하는 검사는 1 mg 야간 덱사메타손 억제검사이다. 이 검사는 부신 과다코르티솔 분비를 확인하는 표준 스크리닝 검사이다. 따라서 1 mg 야간 덱사메타손 억제검사가 초기 검사로 적절하다.
 
 ## 출처
 

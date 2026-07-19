@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 황색포도상구균
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병 환자에서 외이도에 화농성 분비물과 심한 통증을 동반한 급성 외이도염은 녹농균 감염이 흔하다. 녹농균은 고열과 심한 통증을 유발한다. 따라서 가장 가능성 높은 원인균은 녹농균이다.
 
 ## 출처
 

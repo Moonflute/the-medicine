@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 갑상설골근
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+분화된 갑상선암(특히 여포성 갑상선암)은 혈관을 따라 하갑상샘 동맥을 통해 전이되는 경향이 있다. 이는 가장 흔한 전이 경로이며, 다른 선택지는 전이 빈도가 낮다. 따라서 가장 가능성 높은 최초 전이 부위는 하갑상샘 동맥이다.
 
 ## 출처
 

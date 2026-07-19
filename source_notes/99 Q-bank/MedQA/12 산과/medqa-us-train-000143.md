@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 산모의 당뇨병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+제왕절개 후 질내 수기 시술은 자궁강 내 세균 오염 위험을 크게 증가시킨다. 이는 산후 자궁내막염의 주요 위험 인자이다. 따라서 가장 중요한 위험 인자는 진통 시작 후 제왕절개술이다.
 
 ## 출처
 

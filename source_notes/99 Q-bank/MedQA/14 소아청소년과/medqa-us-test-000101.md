@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항-B 항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아는 모체의 Rh‑음성 혈액에 대한 항‑B 항체가 없으며, 혈액형 B와 Rh‑음성인 경우 항‑B IgG가 태반을 통과해 용혈을 일으킬 수 있다. 직접 빌리루빈이 거의 없고 총 빌리루빈이 11 mg/dL인 점은 항‑B 매개 용혈성 황달을 시사한다. 따라서 가장 가능성 높은 원인은 항‑B 항체이다.
 
 ## 출처
 

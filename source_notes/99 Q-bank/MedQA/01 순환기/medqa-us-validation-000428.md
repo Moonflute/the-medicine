@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대퇴부 농양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+스텐트 삽입 후 대퇴동맥 아래에 맥동성 종괴와 잡음이 있는 경우, 혈관천공이 아닌 혈관벽이 부분적으로 파열된 가성동맥류가 가장 흔한 합병증이다. 초음파와 CT로 확인 가능하다. 따라서 대퇴동맥 가성동맥류가 정답이다.
 
 ## 출처
 

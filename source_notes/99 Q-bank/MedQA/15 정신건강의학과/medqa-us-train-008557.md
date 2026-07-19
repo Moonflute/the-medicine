@@ -17,11 +17,13 @@ question_type: other
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 발프로산
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+플루페나진은 강한 α‑adrenergic 차단 효과가 있어 체온 조절을 방해하고 저체온증을 유발할 수 있다. 리튬·플루옥세틴·발프로산은 저체온과 직접적인 연관이 적다. 따라서 현재 저체온을 악화시켰을 가능성이 높은 약물은 플루페나진이다.
 
 ## 출처
 

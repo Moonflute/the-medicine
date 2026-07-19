@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 진피층의 점액 침착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다형홍반의 급성 형태는 CD4⁺ T세포가 주도하는 풍부한 진피 염증을 보이며, 병변에 수포가 동반된다. 따라서 조직검사에서 CD4⁺ T세포가 주된 염증세포 침윤이 가장 가능성 높은 소견이다.
 
 ## 출처
 

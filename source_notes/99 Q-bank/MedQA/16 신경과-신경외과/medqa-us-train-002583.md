@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 뇌파검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+첫 발작 후 1시간 이내에 의식이 회복되었고 신경학적 검사가 정상인 경우, 뇌 손상을 배제하기 위해 머리 CT를 시행한다. CT는 급성 출혈이나 골절을 빠르게 확인한다. 따라서 머리 CT가 다음 단계이다.
 
 ## 출처
 

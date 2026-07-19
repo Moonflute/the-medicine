@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기저귀 피부염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+직사각형 모양의 압통성 피부 변색은 외부 압력에 의한 멍이 아닌, 반복적인 물리적 압박(학대)에서 흔히 나타난다. 다른 전신 증상이나 출혈 질환의 증거가 없으며, 혈우병은 가계력과는 무관하게 출혈 양상이 다르다. 따라서 가장 가능성 높은 진단은 학대에 의한 멍이다.
 
 ## 출처
 

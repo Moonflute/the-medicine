@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 인슐린 치료를 시작한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+50 g 경구 포도당 검사에서 1시간 혈당 156 mg/dL는 양성 스크리닝이며, 진단을 위해 100 g 경구 포도당 부하검사(3시간)를 시행해야 한다. 이는 임신성 당뇨 진단에 표준이다. 따라서 다음 단계는 3시간 100 g OGTT이다.
 
 ## 출처
 

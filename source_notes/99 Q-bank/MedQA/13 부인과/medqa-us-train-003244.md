@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 울리프리스탈 정제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+콘돔 파열 후 72 시간 이내에 삽입하는 구리 IUD는 정자활성을 억제하고 자궁내 환경을 비가역적으로 변형시켜 99 % 이상의 피임 효과를 보인다. 다른 경구법은 24 시간 이내에만 효과가 있다. 따라서 가장 효과적인 응급피임은 구리 자궁내장치이다.
 
 ## 출처
 

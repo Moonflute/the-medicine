@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 왼쪽 하부 흉골연에서 가장 잘 들리는 크고 거친 전수축기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+터너 증후군에서 대동맥 협착이 흔히 발생하며, 좌측 흉골연 3~4늑간에서 짧게 들리는 수축기 잡음이 특징이다. 정답은 A이다.
 
 ## 출처
 

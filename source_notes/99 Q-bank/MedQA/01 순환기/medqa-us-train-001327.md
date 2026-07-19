@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심박수 변이도 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심부전에서 저나트륨혈증은 체액 저류와 신경호르몬 활성화의 결과로 사망률을 높이는 독립적인 예후 인자이다. BNP 감소, VO2 증가, HRV 증가는 각각 다른 상황을 반영한다. 따라서 혈청 Na+ 감소가 사망률 증가와 가장 밀접하다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아토르바스타틴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심근경색 후 좌심실 재형성을 억제하는 가장 효과적인 약물은 ACE 억제제인 에날라프릴이다. 이는 심실 확장을 방지하고 심부전 진행을 늦춘다. 따라서 가장 적절한 약물은 에날라프릴이다.
 
 ## 출처
 

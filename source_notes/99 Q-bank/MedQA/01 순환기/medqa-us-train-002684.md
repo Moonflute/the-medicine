@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 우심실, 좌주관상동맥
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+V5·V6 유도에서 보이는 ST 상승은 좌심실의 측벽(좌측 측부)을 반영한다. 좌측 측벽은 좌회선 관상동맥(LCx)이 공급한다. 따라서 해당 ST 상승은 좌회선 관상동맥 손상을 나타낸다.
 
 ## 출처
 

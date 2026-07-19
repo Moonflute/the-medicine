@@ -18,11 +18,13 @@ question_type: risk_factor
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 성염색체 관련 비배수성 위험 증가를 의미한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+쿼드 스크리닝에서 AFP와 비에스트라디올 감소, β‑hCG와 inhibin A 상승은 다운 증후군 위험을 나타내며, 모체의 고령(≥35세)은 위험을 크게 높이는 중요한 요인이다.
 
 ## 출처
 

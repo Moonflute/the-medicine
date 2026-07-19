@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 선천성 수두 감염(Congenital varicella infection)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 황달, 망막염, 청력 이상, 뇌실 확장 및 고에코 병변은 선천성 톡소플라스마증의 전형적인 삼중 징후이다. 따라서 톡소플라스마 감염이 가장 가능성 높은 진단이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 에피네프린 1:1000 주사 후 스테로이드와 항히스타민제 투�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조영제에 대한 전신성 알레르기 반응은 아나필락시스로, 에피네프린(아드레날린) 1:1000 주사가 가장 급속히 혈압을 회복시키고, 스테로이드와 항히스타민제로 반응을 억제한다. 따라서 에피네프린 투여가 적절하다.
 
 ## 출처
 

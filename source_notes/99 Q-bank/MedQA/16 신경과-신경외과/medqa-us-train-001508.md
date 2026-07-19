@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 9번 염색체의 삼핵산(GAA) 반복 확장
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+보행 불안정, 광범위 근력 저하, 감각 저하와 함께 MRI에서 특이적인 뇌변화가 보이면 프리드리히 운동실조증이 의심된다. 이 질환은 9번 염색체에 GAA 삼핵산 반복이 확대된 것이 원인이다. 따라서 9번 염색체 GAA 반복 확대가 가장 가능성 높은 원인이다.
 
 ## 출처
 

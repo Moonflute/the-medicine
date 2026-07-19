@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 조기 발현 B군 연쇄상구균 패혈증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+생후 1일에 점상 출혈성 발진과 심장 잡음이 동반된 경우, 풍진 감염이 전형적이며, 풍진은 출생 직후 발진과 함께 혈관염을 일으킨다. 매독은 보통 2~3주 후에 나타나며, GBS는 피부 발진을 일으키지 않는다. 따라서 풍진이 가장 가능성 높은 원인이다.
 
 ## 출처
 

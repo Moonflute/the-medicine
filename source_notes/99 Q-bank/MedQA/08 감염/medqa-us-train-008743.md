@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 홍역
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+코피 후 코패킹을 제거했을 때 발생한 고열, 저혈압, 발진, 다발성 장기 부전은 독소 쇼크 증후군(TSS)과 일치한다. Staphylococcus aureus가 독소를 생산해 TSS를 일으킨다. 따라서 가장 가능성 높은 진단은 독성 쇼크 증후군이다.
 
 ## 출처
 

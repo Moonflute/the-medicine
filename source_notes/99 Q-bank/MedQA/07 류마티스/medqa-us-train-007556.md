@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 설파살라진
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 관절염에서 NSAID와 스테로이드가 금기(위궤양)인 경우, 급성 악화에 대한 빠른 효과를 위해 프레드니솔론 같은 고용량 경구 스테로이드를 사용한다. 이는 염증을 신속히 억제한다.
 
 ## 출처
 

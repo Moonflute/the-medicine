@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 부모에게 집에서 총기를 치우도록 지시한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년 주요우울증에서 자살 위험이 있을 경우 가장 중요한 안전 조치는 총기 접근 제한이다. 약물 치료와 병행해 부모에게 집에 있는 총기를 치우도록 지시하는 것이 최우선이다. 다른 선택지는 보조적이지만 안전에 직접적인 영향을 주지 않는다.
 
 ## 출처
 

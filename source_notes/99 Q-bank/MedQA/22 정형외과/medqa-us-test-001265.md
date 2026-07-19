@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 피리도스티그민
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 심부건반사와 바빈스키 양성은 상부 운동신경로 손상을 의미하며, 다운증후군 환자에서 경추 불안정성으로 인한 척수 압박이 원인일 수 있다. C1/C2 외과적 유합술은 불안정성을 교정해 신경 압박을 해소하고 증상을 호전시킨다. 다른 선택지는 해당 병변에 직접적인 효과가 없다.
 
 ## 출처
 

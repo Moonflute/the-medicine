@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 알코올성 간염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HBsAg·HBc IgG·HBeAg 양성은 B형 간염의 활동성 만성 감염을 의미한다. 급성 감염은 IgM·HBc가 양성이며, 비활성은 HBeAg 음성이다. 따라서 활동성 만성 B형 간염이 가장 가능하다.
 
 ## 출처
 

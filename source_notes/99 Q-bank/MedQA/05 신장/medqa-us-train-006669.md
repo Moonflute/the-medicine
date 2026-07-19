@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. IgG, IgM 및 C3 보체의 과립성 침착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 혈뇨와 인후통, IgA가 혈액과 신장 조직에 침착되는 것이 특징인 IgA 신병증은 급성 악화 시 혈뇨와 단백뇨가 나타난다. 따라서 신장 생검에서 IgA 메산지움 침착이 가장 흔히 보인다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 열량 제한
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+키가 크고 골연령이 정상이며 혈당 상승이 있는 경우 성장호르몬 과다 분비를 일으키는 뇌하수체 선종이 의심된다. 선종 절제는 과다 성장과 대사 합병증을 예방한다. 따라서 가장 예방 효과가 큰 조치는 경접형동 뇌하수체선종 절제술이다.
 
 ## 출처
 

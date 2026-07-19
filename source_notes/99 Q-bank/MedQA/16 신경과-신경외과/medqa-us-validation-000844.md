@@ -17,11 +17,13 @@ question_type: localization
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전척수동맥
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+척수동맥이 막히면 소뇌에 급성 허혈이 발생해 어지럼증, 균형 장애, 손가락‑코·발뒤꿈치‑무릎 검사 이상이 나타난다. 혈관조영술에서 가장 흔히 손상되는 혈관은 척수동맥이다. 따라서 정답은 척수동맥이다.
 
 ## 출처
 

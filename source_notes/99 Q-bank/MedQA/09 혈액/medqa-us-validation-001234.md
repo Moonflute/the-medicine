@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 하이드록시우레아
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+BCR-ABL1 재배열이 확인된 경우는 만성 골수성 백혈병이며, 표적 치료제로 티로신키나제 억제제인 이마티닙이 1차 치료에 가장 효과적이다. 따라서 이마티닙이 정답이다.
 
 ## 출처
 

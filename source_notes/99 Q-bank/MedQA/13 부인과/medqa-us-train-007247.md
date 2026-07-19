@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 응급수술을 위해 수술실로 돌아간다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 소변량이 적고 잔뇨가 남아 있는 경우 가장 흔한 원인은 카테터 폐쇄이다. 카테터를 확인하고 재삽입하거나 교체하는 것이 우선적인 평가이다. 따라서 다음 단계는 폴리 카테터를 확인하는 것이다.
 
 ## 출처
 

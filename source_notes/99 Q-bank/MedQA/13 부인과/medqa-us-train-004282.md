@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 중심부 바늘 생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+초음파에서 무에코성, 후방 음향증강, 경계가 뚜렷한 1.75 cm 낭종은 단순 유방 낭종을 시사한다. 단순 낭종은 비침습적이며, 진단 및 증상 완화를 위해 초음파 유도 하 세침흡인이 가장 적절한 다음 관리이다.
 
 ## 출처
 

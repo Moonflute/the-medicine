@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심실중격결손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병성 태아병증에서 가장 흔한 선천성 심장기형은 심실중격결손이다. 고혈당은 태아 심장 중격 형성에 영향을 주어 결손을 유발한다. 따라서 초음파에서 가장 가능성 높은 이상은 심실중격결손이다.
 
 ## 출처
 

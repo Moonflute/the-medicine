@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지루각화증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+피부에 과다색소침착 구진이 있고 눌렀을 때 함몰되는 특징은 피부섬유종의 전형적인 소견이다. 이는 양성 섬유성 종양으로 치료가 필요하지 않다. 따라서 가장 가능성 높은 진단은 피부섬유종이다.
 
 ## 출처
 

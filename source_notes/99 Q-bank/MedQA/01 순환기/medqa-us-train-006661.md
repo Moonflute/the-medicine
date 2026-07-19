@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 트레드밀 부하검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 기존 심근경색·불안정 협심증 병력이 있으며, 수술 전 심전도에 하부 전극 Q파와 T파 역전이 보인다. 이러한 경우 관상동맥 관류 결함을 평가하는 방사성핵종 심근 관류 영상이 가장 민감하게 재허혈 위험을 판단한다. 따라서 방사성핵종 심근 관류 영상이 정답이다.
 
 ## 출처
 

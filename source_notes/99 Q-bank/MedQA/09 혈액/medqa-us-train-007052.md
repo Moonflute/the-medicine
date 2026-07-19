@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -50,7 +52,8 @@ D. 철결핍성 빈혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈청 페리틴이 높고 MCV가 감소, 혈청 철이 정상·높으며 총 철결합능이 낮은 경우는 베타‑지중해빈혈(용혈성 빈혈)이다. 따라서 정답은 B이다.
 
 ## 출처
 

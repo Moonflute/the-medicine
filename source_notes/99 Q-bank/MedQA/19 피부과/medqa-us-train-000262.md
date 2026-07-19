@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 편평세포암종(Squamous cell carcinoma)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+목 뒤쪽에 단단하고 움직이는, 피부를 들어올릴 수 없는 2.5 cm 결절은 흔히 움직이는 낭종(표피낭종)이며, 중앙에 케르키오이드 물질이 존재한다. 다른 선택지는 색소 침착이나 경계가 불분명한 반면, 표피낭종이 가장 일치한다. 따라서 가장 가능성 높은 진단은 표피낭종이다.
 
 ## 출처
 

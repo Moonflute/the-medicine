@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메만틴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경증~중등도 알츠하이머 치료에 NMDA 수용체 길항제인 메만틴이 인지기능 저하와 행동 증상을 완화한다. 다른 약물은 정신병 증상에 주로 쓰이며, 이 환자에게는 적절하지 않다. 따라서 정답은 D이다.
 
 ## 출처
 

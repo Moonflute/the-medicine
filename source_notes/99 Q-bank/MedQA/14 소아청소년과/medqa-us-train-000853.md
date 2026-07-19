@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 부계 15번 염색체의 미세결실
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+입술·혀 열상, 자가상처, 고요산혈증, 고MCV 빈혈은 퓨린 대사 이상을 나타낸다. HGPRT 효소 결핍은 레시-니한 증후군을 일으키며, 자가상처와 고요산혈증이 특징이다.
 
 ## 출처
 

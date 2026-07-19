@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈장교환
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양쪽 하지 근력 저하, 반사 소실, CSF 단백 상승은 급성 탈髓성 길랭‑바레 증후군을 시사한다. 이 질환은 면역 매개 말초 신경 탈髓화로 진행되며, 혈장교환이 가장 효과적인 치료이다. 따라서 정답은 혈장교환이다.
 
 ## 출처
 

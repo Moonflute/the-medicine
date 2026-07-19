@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프레드니손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발열, 인후통, 비장비대, 비정형 림프구와 양성 이형 림프구 항체는 전염성 단핵구증(EBV 감염)을 시사한다. 이 질환은 대부분 자가 제한적이며, 특별한 항바이러스제 치료는 필요하지 않다. 따라서 가장 적절한 치료는 침상안정과 활동 제한이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. HER2/neu 양성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+유방암에서 액와 림프절 전이는 전이 범위가 넓어져 생존율을 크게 낮추는 가장 강력한 불량 예후 인자이다. 고령·호르몬 수용체 양성은 예후에 영향을 주지만 림프절 전이보다 약하다. 따라서 액와 림프절병증이 최악의 예후 지표이다.
 
 ## 출처
 

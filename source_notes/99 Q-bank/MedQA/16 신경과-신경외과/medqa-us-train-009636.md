@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 척추 MRI
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 전신 마비와 감각 저하가 전반적으로 나타나는 급성 척수 손상을 보이며, 기도 확보 후 즉시 신경학적 평가가 필요하다. 급성 척수 손상에서는 척수압 감소와 약물 투여를 위해 경막외 카테터(폴리 카테터) 삽입이 표준 초기 치료이다. 따라서 폴리 카테터 삽입이 가장 적절한 다음 조치이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐 증상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+크립토코쿠스 수막염은 면역억제 환자에서 흔히 나타나며, 뇌척수액에 림프구 우세와 저당, 고단백이 보인다. 추가로 뇌 MRI에서 뇌실막 강화가 나타나면 진단을 뒷받침한다. 따라서 뇌 MRI 소견이 가장 가능성 높은 추가 소견이다.
 
 ## 출처
 

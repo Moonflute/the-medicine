@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 정맥 주사용 시프로플록사신(Intravenous ciprofloxacin)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+낭성 섬유증 환자에서 녹색-황색 그람음성 비발효성 장내균에 대한 감수성은 시프로플록사신에 높으며, 정맥 주사 형태가 가장 효과적인 치료이다.
 
 ## 출처
 

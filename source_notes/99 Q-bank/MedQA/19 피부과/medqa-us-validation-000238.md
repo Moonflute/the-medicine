@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 기저세포암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+햇빛에 노출된 부위에 나타나는 0.5 cm 크기의 진주색 구진과 혈관확장은 기저세포암의 전형적인 특징이다. 다른 피부암은 색·형태가 다르다. 따라서 가장 가능성 높은 진단은 기저세포암이다.
 
 ## 출처
 

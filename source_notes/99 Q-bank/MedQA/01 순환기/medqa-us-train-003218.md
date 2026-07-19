@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 헤파린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 사지 허혈은 혈전·색전으로 인한 급성 동맥 폐색이며, 혈관 내 혈전제거술이나 혈전용해술이 가장 빠른 재관류를 제공한다. 스텐트 삽입이나 항응고제만으로는 급성 폐색을 즉시 해결하지 못한다. 따라서 사지 생존 가능성을 높이는 최선의 처치는 카테터 혈전제거술 또는 혈전용해술이다.
 
 ## 출처
 

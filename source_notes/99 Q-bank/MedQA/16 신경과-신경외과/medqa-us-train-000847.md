@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 폐기능 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 다리 감각 저하, 배뇨·배변 장애, 항문 괄약근 저하가 동반된 급성 요통은 척수 말단(꼬리뼈) 증후군을 강력히 시사한다. 신경학적 압박을 확인하려면 MRI가 가장 민감한 영상검사이며, 조기 수술 결정을 위해 필요하다.
 
 ## 출처
 

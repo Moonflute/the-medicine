@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 갑상선기능저하증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+불규칙한 월경, 비만, 고혈압, 고혈당, 얼굴 다모증, 멍, 근력 약화는 고코르티코스테론 혈증을 시사한다. 코르티솔 과다분비는 지방 재분포, 근육 위축, 고혈당, 고혈압을 일으키며 쿠싱증후군을 진단하게 된다. 따라서 정답은 쿠싱증후군이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 레이저 절제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ASC‑US 세포는 HPV 감염 여부를 판단하기 위한 검사가 필요하다. HPV 검사는 고위험 유형을 확인하고, 양성 시 추가 절차를 결정한다. 따라서 HPV 검사가 가장 적절한 조치이다.
 
 ## 출처
 

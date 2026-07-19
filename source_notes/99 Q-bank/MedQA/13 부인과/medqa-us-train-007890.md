@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 그람염색에서 다수의 그람양성 막대균
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+세균성 질염에서 회색, 거품성 분비물과 pH 6.0은 clue cells(세균에 부착된 상피세포)이 현미경에서 보이는 특징이다. 따라서 습식 도말에서 세균이 부착된 상피세포가 예상된다.
 
 ## 출처
 

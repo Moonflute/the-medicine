@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 단염색체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+녹황색 구토와 장폐색, 얼굴 납작·눈 작음·내안각 주름·단일 가로 주름은 다운증후군의 전형적인 신체소견이다. 다운증후군은 21번 염색체의 삼염색체(trisomy 21)로 발생한다. 따라서 정답은 삼염색체이다.
 
 ## 출처
 

@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 횡격막 파열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양쪽 팔 혈압 차이와 한쪽 다리 맥박 소실, 종격동 확대는 외상성 대동맥 박리를 시사한다. 대동맥 박리는 급성 생명을 위협하므로 가장 가능성 높은 진단이다.
 
 ## 출처
 

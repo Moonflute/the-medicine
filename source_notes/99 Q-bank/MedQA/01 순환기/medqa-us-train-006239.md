@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 간의 대공포성 지방증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우심실 이완 장애(우심부전) 시 정맥압 상승으로 간정맥 울혈, 복수, 말초 부종이 발생한다. 환자의 복부 팽창, 간 비대, 경정맥 팽창, 말초 부종이 모두 우심실 이완 장애에 일치한다. 따라서 원인은 우심실 이완 장애이다.
 
 ## 출처
 

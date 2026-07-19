@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심장효소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구식 이분지 차단(양쪽 전도계 차단) 환자에서 원인 불명의 실신이 반복될 경우, 부정맥을 감지하기 위한 장기 심전도 모니터링이 필요하다. 연속 루프 기록기는 간헐적 심실 또는 방실 차단을 포착할 수 있다. 따라서 다음 단계는 연속 루프 기록기이다.
 
 ## 출처
 

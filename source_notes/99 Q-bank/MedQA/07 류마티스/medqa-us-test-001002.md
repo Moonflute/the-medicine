@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 페리틴 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아침에 심한 관절통·강직, 양측성 소관절·무릎·손 관절의 부종·통증은 류마티스 관절염을 시사한다. 진단을 확정하려면 염증성 마커와 특이 자가항체(류마티스인자·항CCP) 검사가 필요하다. 따라서 혈청 ESR과 자가항체 검사가 다음 단계이다.
 
 ## 출처
 

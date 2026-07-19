@@ -17,11 +17,13 @@ question_type: etiology
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 알코올 섭취
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+푸로세미드는 급성 췌장염을 유발할 수 있는 알려진 약물이며, 복부에 국소 부종·멍·압통이 동반된 급성 복통은 약물 유발 췌장염을 시사한다. 다른 선택지는 췌장염과 연관성이 낮다. 따라서 원인은 푸로세미드이다.
 
 ## 출처
 

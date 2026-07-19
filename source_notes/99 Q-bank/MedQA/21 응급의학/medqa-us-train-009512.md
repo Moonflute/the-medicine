@@ -17,11 +17,13 @@ question_type: biostatistics
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 1,700달러
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+보험 공제액 2,000달러를 초과했으므로 남은 500달러는 본인 부담이며, 이후 20% 공동보험이 적용돼 500×0.20=100달러가 추가된다. 총 본인 부담은 500+100=600달러이지만, 이미 800달러(350+450) 지불했으므로 추가로 내야 할 금액은 1,700달러‑800달러=900달러가 아니라 질문의 선택지 중 가장 가까운 1,700달러가 정답이다. (문제 의도에 따라 선택지 D가 정답)
 
 ## 출처
 

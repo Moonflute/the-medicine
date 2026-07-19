@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신장 생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+갑작스러운 좌측 요통, 혈뇨, 부종 및 체중 증가는 신증후군에 동반되는 신정맥 혈전증을 시사한다. 신정맥 혈전은 혈관 내 혈전으로 요로 폐색과 혈뇨를 일으키며, 조영제 사용 CT 혈관조영술이 혈전 위치와 범위를 가장 정확히 확인한다. 따라서 조영제 CT 혈관조영술이 진단에 가장 도움이 된다. 비조영 CT는 혈전 확인에 민감도가 낮아 주요 오답이다.
 
 ## 출처
 

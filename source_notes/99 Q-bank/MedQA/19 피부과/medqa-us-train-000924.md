@@ -16,11 +16,13 @@ question_type: management
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 국소 살리실산(salicylic acid)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+정원 가꾸기 후 팔에 국소 가려움과 발진이 나타난 것은 접촉성 진균 감염(피부 사상균증) 가능성이 높으며, 1차 치료는 국소 항진균제인 클로트리마졸이다. 따라서 정답은 B이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 결절홍반
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+NSAID에 의한 급성 간질성 신염은 피부에 미만성 반구진성 발진(두드러기와 유사)으로 나타난다. 이는 면역 복합체 매개 반응이며, Janeway 병변은 감염성 심내막염, 나비형 발진은 루푸스, 결절홍반은 류마티스 관절염에 해당한다.
 
 ## 출처
 

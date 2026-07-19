@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 국소적 수포음(Localized rales)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐색전증 환자는 폐동맥 폐색 부위에 해당하는 폐실질이 무혈관성으로 변하면서 해당 부위에 국소적인 수포음(폐실질에서의 작은 맹울음)이 들린다. 이는 폐색전증 특이적인 청진소견이다. 따라서 의사는 국소적 수포음을 관찰했을 가능성이 가장 높다.
 
 ## 출처
 

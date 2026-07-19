@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 알코올과 함께 복용하면 디설피람 유사 반응을 일으킬 수 
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+마크롤라이드 항생제는 QT 간격 연장을 일으킬 수 있다. 이는 심실 재분극을 지연시켜 토르삭드 위험을 높이는 메커니즘이다. 따라서 정답은 QT 연장 가능성을 언급한 A이다.
 
 ## 출처
 

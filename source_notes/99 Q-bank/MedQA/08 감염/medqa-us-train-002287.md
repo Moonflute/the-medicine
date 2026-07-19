@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 회복기(창기간)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HBsAg와 HBsAb가 모두 음성이고 anti‑HBc IgM이 양성인 경우는 HBV 감염 후 항원 소실 단계인 회복기(창기간)이다. 이 시기에 HBV DNA는 검출될 수 있지만 항원은 보이지 않는다. 따라서 환자는 회복기(창기간)이다.
 
 ## 출처
 

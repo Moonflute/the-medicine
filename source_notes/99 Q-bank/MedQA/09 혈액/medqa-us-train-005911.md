@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비효율적 적혈구생성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 흑인 남성으로 급성 통증 위기와 빈혈, LDH 상승을 보이며 겸상적혈구병(겸상 적혈구빈혈)이 의심된다. 겸상병의 용혈은 혈관 외(비장·간)에서 주로 일어나므로 혈관외 용혈이 가장 적절한 설명이다.
 
 ## 출처
 

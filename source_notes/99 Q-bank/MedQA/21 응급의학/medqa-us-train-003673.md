@@ -18,11 +18,13 @@ question_type: complication
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 심근염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+격렬한 운동 후 CK 22,000 U/L와 혈뇨(적혈구 없음)는 근육 파괴와 미오글로빈 배출을 의미한다. 미오글로빈은 신장에서 직접 신독성을 일으켜 급성 신손상의 위험을 크게 증가시킨다. 따라서 정답은 급성 신손상이다.
 
 ## 출처
 

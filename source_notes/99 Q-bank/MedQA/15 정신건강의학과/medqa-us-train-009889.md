@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+바레니클린(부분 니코틴 작용제) 투여 전에는 우울증 등 정신건강 상태를 확인해야 하며, 이를 위해 9문항 환자건강설문지(PHQ‑9)가 가장 흔히 사용된다. 따라서 PHQ‑9 검사가 필요하다.
 
 ## 출처
 

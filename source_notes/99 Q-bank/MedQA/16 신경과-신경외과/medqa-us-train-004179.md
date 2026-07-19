@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. C5-C6 추간판 탈출증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+목·어깨·팔 통증이 C5‑C6 신경근 분포에 해당하고, 목을 회전·전방으로 움직일 때 증상이 유발되는 것은 해당 부위의 추간판 탈출증을 의미한다. 따라서 가장 가능성 높은 진단은 C5‑C6 추간판 탈출증이다.
 
 ## 출처
 

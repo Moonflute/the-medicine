@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아스피린, 클로피도그렐, 베타차단제와 질산염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+프린츠메탈 협심증은 관상동맥 경련에 의한 일시적 ST 상승이며, 칼슘채널 차단제와 질산염이 경련을 완화한다. 따라서 가장 적절한 치료는 칼슘통로 차단제와 질산염이다.
 
 ## 출처
 

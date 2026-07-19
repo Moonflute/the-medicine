@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 우심실 유출로 폐색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청진에서 거친 수축기 잡음(좌하흉골연)과 부드러운 중간 이완기 잡음(심첨부)은 좌우 단락을 일으키는 심실중격결손(VSD)을 시사한다. VSD는 좌심실에서 우심실로 혈액이 흐르는 좌우 단락을 만들며, 폐동맥과 대동맥 사이의 연결(PDA)이나 심방중격결손은 다른 청진 소견을 보인다. 따라서 정답은 C이다.
 
 ## 출처
 

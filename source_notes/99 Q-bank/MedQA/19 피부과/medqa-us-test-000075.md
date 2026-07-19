@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 피부 생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+해변에서 햇빛에 노출된 뒤 발생한 가려움과 저색소성 판은 말라세지아(피부 곰팡이 감염)와 일치한다. 말라세지아는 케라틴을 분해하는 곰팡이에 의해 발생하며, KOH 현미경 검사가 곰팡이 포자를 확인하는 가장 민감한 검사이다. 따라서 진단을 확인할 가능성이 가장 높은 검사는 KOH 검사이다.
 
 ## 출처
 

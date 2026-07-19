@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이 감염은 보통 며칠 내에 저절로 호전된다고 안심시키고 
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발열, 유방 부위의 발적·열감, 유두 통증은 수유성 유선염을 시사한다. 항생제 치료와 동시에 모유수유를 지속하면 유관이 배출되고 증상이 빠르게 호전된다. 입원이나 수유 중단은 필요하지 않다.
 
 ## 출처
 

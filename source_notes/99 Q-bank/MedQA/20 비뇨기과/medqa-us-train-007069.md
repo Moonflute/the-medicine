@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 반발통과 기침으로 악화되는 통증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+요관신우이행부 폐색은 급성 신우통을 일으키며, 통증이 옆구리에서 사타구리(사타구니)로 방사되는 것이 특징이다. 반면 옆구리 통증이 사타구리로 방사되지 않거나 무통성은 비특이적이다. 따라서 사타구니로 방사되지 않는 옆구리 통증은 가장 잘 나타나지 않는다.
 
 ## 출처
 

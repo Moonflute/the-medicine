@@ -15,11 +15,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 과혈량증(Hypervolemia)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+DKA에서 세포외액이 감소하면 전체 체내 칼륨이 감소하지만 혈청 칼륨은 산증과 이동으로 상승한다. 따라서 혈청 칼륨이 높아 보이지만 실제 총 체내 칼륨은 감소한다. 가장 가능성 높은 현상은 총 체내 칼륨 감소이다.
 
 ## 출처
 

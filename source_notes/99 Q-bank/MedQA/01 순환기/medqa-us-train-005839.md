@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심근 이온통로를 암호화하는 유전자 돌연변이
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발작성 빈맥 시 P파가 사라지고 QRS가 정상인 것은 AV 결절에 이중 경로가 존재하는 방실결절 재진입성 빈맥을 의미한다. 심실 조기흥분·동방결절 섬유화·이온채널 변이는 다른 형태의 부정맥을 만든다.
 
 ## 출처
 

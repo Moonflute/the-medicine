@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흉부 X선의 양측 폐 침윤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+레보도파와 함께 투여된 카르비도파는 레보도파의 말단 대사를 차단해 중추에서 도파민 전구체 농도를 증가시킨다. 이는 파킨슨병 치료에서 두 번째 약물로 사용된다. 따라서 카르비도파는 DOPA 탈탄산효소 억제제이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지금부터 분만까지 주 2회 비수축검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+당뇨병이 있는 임산부는 태아의 무산소 스트레스를 조기에 발견하기 위해 주 2회 비수축검사를 시행한다. 이는 태아의 안녕을 지속적으로 모니터링하는 권장 일정이다. 따라서 주 2회 비수축검사가 맞다.
 
 ## 출처
 

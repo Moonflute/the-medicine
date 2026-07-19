@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대마 중독
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+2주간의 망상·우울·사회적 위축이 급성 악화 없이 지속되고, 환각이 없으며 대마만 양성인 경우 조현정동장애(조현병에 정동증상이 동반)로 진단한다. 이는 조현정동장애가 가장 일치한다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 마르팡증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부·허리·서혜부 통증은 복부 대동맥류가 파열 또는 급성 확대를 의미하는 증상이며, 이는 수술적 복구가 필요함을 나타낸다. 따라서 통증이 있으면 수술적 복구가 권장된다.
 
 ## 출처
 

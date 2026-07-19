@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 침상 목 탐색술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경부 총상 후 혈관 손상 가능성을 평가하려면 혈관 구조와 출혈을 확인할 수 있는 CT 혈관조영술이 가장 민감하고 빠른 진단법이다. 단순 X선·MRI·침상 탐색은 혈관 손상을 정확히 평가하지 못한다. 따라서 정답은 CT 혈관조영술이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 버드-키아리 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+이 환자는 PNH와 CD55 감소, 혈전성 합병증 위험이 높으며, 간정맥 폐쇄(Budd‑Chiari)와 같은 대정맥 혈전이 가장 치명적이다. 다른 선택지는 출혈·뇌정맥 혈전·고박출성 심부전보다 사망 위험이 낮다. 따라서 가장 위험한 원인은 버드‑키아리 증후군이다.
 
 ## 출처
 

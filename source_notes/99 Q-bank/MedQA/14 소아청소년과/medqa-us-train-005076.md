@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비강 흡인, 산소 치료와 정맥 수액
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+세기관지염에 의한 호흡곤란은 기도 분비물 제거와 산소 공급이 우선이다. 비강 흡인, 산소 치료 및 정맥 수액이 가장 적절한 초기 치료이다.
 
 ## 출처
 

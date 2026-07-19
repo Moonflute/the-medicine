@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 베타메타손과 암피실린을 투여하고 분만을 유도한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조기 양막파수(32주)에서는 태아 폐 성숙을 위해 베타메타손과 항생제(암피실린)를 투여하고, 양수량 감소와 태아 위험을 고려해 제왕절개가 권장된다. 따라서 베타메타손·암피실린 투여 후 제왕절개가 적절하다.
 
 ## 출처
 

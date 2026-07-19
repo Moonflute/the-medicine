@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. C8과 T1
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 C5‑C6 손상은 Erb palsy(상완 굴곡 저하·외전 저하)와 일치하며, 팔이 내전·내측 회전된 모습(‘waiter's tip’)을 보인다. C5‑C6 손상이 가장 흔한 부위이므로 정답은 B이다.
 
 ## 출처
 

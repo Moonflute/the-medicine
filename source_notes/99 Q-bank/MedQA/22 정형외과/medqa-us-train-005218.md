@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대퇴골에 대한 경골의 후방 전위
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+레슬링 중 전방십자인대(ACL) 파열은 무릎이 비틀리며 ‘뚝’ 소리와 급성 통증, 불안정을 초래한다. 전방 전위 검사에서 경골이 대퇴골에 대해 전방으로 이동한다. 따라서 정답은 대퇴골에 대한 경골의 전방 전위이다.
 
 ## 출처
 

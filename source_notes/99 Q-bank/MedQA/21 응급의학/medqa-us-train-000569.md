@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 즉시 내시경을 통한 제거를 시행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+동전 크기 배터리는 식도에 머물 경우 급속히 부식성 물질을 방출해 조직 손상을 일으킬 위험이 있다. 급성 손상 예방을 위해 2시간 이내에 내시경으로 직접 제거하는 것이 가장 안전하다. 따라서 즉시 내시경을 통한 제거가 적절한 다음 단계이다.
 
 ## 출처
 

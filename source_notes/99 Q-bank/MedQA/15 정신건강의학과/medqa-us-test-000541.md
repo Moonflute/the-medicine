@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 클로미프라민
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+클로미프라민 과다복용은 QT 연장과 심각한 혼수, 저혈압을 초래한다. 환자의 QT 450 ms와 의식 저하가 클로미프라민 중독을 가장 시사한다.
 
 ## 출처
 

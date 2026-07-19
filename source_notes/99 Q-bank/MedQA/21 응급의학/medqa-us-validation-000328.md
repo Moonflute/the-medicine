@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 당신은 의료 대리인이 아니므로 말할 수 없다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 혈중 중탄산염이 감소하고 pH가 낮아 대사성 산증을 보이며, 호흡수가 증가한 것은 보상성 과호흡(Kussmaul 호흡)이다. 이는 탈수와 알코올성 케톤산증 등으로 인한 산-염기 불균형을 보완하려는 반응이며, 체액 보충이 가장 우선적인 치료이다. 따라서 호흡은 수액이 필요함을 시사한다.
 
 ## 출처
 

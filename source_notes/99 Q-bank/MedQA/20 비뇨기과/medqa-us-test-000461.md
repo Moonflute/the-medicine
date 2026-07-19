@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고환 외상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비만은 지방 조직에서 에스트로겐을 전환시켜 여성형유방을 유발하고, 고환 종양(라이디히세포)보다 훨씬 흔한 원인이다. 환자의 BMI와 전신 비만이 주요 단서이다. 따라서 비만이 정답이다.
 
 ## 출처
 

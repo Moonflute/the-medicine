@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 표피포도상구균
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+주사 부위 피부와 점상출혈, 폐렴구균성 폐렴과 폐농양을 동반한 급성 감염성 심내막염에서 가장 흔한 원인균은 황색포도상구균이다. 특히 IV 약물 사용과 피부 손상이 위험인자이며, 혈액배양에서 이 균이 가장 많이 검출된다. 따라서 정답은 황색포도상구균이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경피 피임 패치(Transdermal contraceptive patch)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 항트롬빈 결핍과 기존 혈전증 병력이 있어 에스트로겐을 포함한 호르몬 피임은 혈전 위험을 크게 증가시킨다. 경피 피임 패치는 에스트로겐을 함유하므로 가장 해로운 선택이다.
 
 ## 출처
 

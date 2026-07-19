@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 팔리비주맙
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+미숙아는 RSV에 취약하며, 2개월 미만·조산아·만성 폐질환이 있는 경우 팔리비주맙 예방접종이 RSV 감염을 예방한다. 스테로이드·세프트리악손·RSV‑IG는 예방 효과가 없으며, 실제 사망을 줄이는 데 가장 효과적인 조치는 팔리비주맙이다.
 
 ## 출처
 

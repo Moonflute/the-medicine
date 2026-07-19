@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 말초신경 손상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대량 수혈 시 혈액에 포함된 시트레이트가 급성 저칼슘혈증을 일으켜 근육 경련과 테타니 증상을 유발한다. 환자의 증상은 저칼슘성 테타니와 일치한다. 따라서 가장 가능성 높은 원인은 다량의 수혈이다.
 
 ## 출처
 

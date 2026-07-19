@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 폐 모세혈관 투과성 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+낭성 섬유증 환자에서 급성 호흡곤란과 흉통, 흉부 확대, 한쪽 폐음 감소는 폐의 말단 부위에 발생한 폐첨부 흉막하 낭종(공기 함유) 파열에 의한 기흉을 시사한다. 다른 선택지는 증상과 부합하지 않는다. 따라서 폐첨부 흉막하 낭종이 원인이다.
 
 ## 출처
 

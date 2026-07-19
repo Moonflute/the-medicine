@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 반 친구들은 예방접종 상태와 관계없이 Tdap 추가접종을 받
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Pertussis 환자와 밀접 접촉한 영아는 중증 감염 위험이 높아 예방적 아지스로마이신 투여가 권고된다. 따라서 3개월 된 남동생에게 예방적 아지스로마이신이 필요하다.
 
 ## 출처
 

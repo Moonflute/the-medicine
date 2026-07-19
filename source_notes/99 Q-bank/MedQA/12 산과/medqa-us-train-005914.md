@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 질식분만
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 12주에 CD4가 150/mm³ 이하이면 모체와 영아 모두에게 전파 위험이 크다. 임신 중에도 HAART(고강도 항레트로바이러스 치료)를 시작하면 모체 바이러스 부하를 낮추고 수직 감염을 크게 감소시킨다. 따라서 HAART 시작이 적절한 관리이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지프라시돈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+클로르프로마진은 장기간 사용 시 각막에 갈색 색소 침착을 일으키는 알려진 부작용이다. 환자의 증상과 안과 소견이 이 특징과 일치한다. 따라서 클로르프로마진이 가장 가능성 높은 약물이다.
 
 ## 출처
 

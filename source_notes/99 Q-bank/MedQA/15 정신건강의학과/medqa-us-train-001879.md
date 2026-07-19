@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 체중 감량, 운동 및 영양 상담
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흡연 중단을 위해서는 약물치료가 가장 효과적이며, 바레니클린과 니코틴 껌은 FDA 승인된 1차 치료제이다. 금연 상담만으로는 성공률이 낮고, 대장내시경은 선별 검진이며 체중 감량은 별도 목표이다. 따라서 가장 적절한 초기 중재는 바레니클린과 니코틴 껌이다.
 
 ## 출처
 

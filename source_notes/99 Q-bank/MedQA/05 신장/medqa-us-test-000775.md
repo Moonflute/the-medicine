@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 소변 농축능 저하
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+겸상적혈구병에서는 장기 저산소증으로 신장 수질이 손상돼 물을 농축하는 능력이 감소한다. 이는 소변 농축능 저하(hyposthenuria)로 나타난다. 따라서 가장 흔한 신장 합병증은 소변 농축능 저하이다.
 
 ## 출처
 

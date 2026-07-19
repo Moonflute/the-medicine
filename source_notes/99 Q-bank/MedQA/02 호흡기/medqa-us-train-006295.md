@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 코르티솔 농도 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비만, 짧고 굵은 목, 주간 졸림은 폐쇄성 수면무호흡증을 시사한다. 수면무호흡으로 인한 반복적 저산소증은 신장에서 에리트로포이에틴(EPO) 분비를 증가시켜 2차 적혈구증가증을 일으키고, 그 결과 얼굴에 홍조(홍반)가 나타난다. 따라서 얼굴 변색의 가장 가능성 높은 원인은 에리트로포이에틴 생성 증가이다. 다른 선택지인 세로토닌 농도 증가는 카르시노이드 증후군에서 주로 설사·천명음 등과 동반되며 본 환자의 증상과 일치하지 않는다.
 
 ## 출처
 

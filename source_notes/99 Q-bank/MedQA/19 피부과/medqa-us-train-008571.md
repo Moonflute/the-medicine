@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 국소 퍼메트린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+두피에 원형 결절성 발진과 탈모, 전형적인 경계가 있는 원형 병변은 T. tonsurans에 의한 두피 백선(tinea capitis)이다. 경구 그리세오풀빈은 첫 번째 선택 치료제이다. 아연 피리치온 함유 샴푸는 보조제, 국소 무피로신은 비진균성 염증에, 국소 퍼메트린은 이충에 사용된다.
 
 ## 출처
 

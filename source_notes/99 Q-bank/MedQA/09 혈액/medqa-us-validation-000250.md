@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항혈소판 항체 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 혈소판 감소증에서 C형 간염 바이러스 감염이 흔한 원인이며, 혈소판 감소와 출혈 증상이 동반될 수 있다. 혈소판 감소 원인을 확인하기 위해 C형 간염 항체 검사가 필요하다. 따라서 가장 적절한 검사는 C형 간염 항체 검사이다
 
 ## 출처
 

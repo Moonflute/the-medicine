@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 베크위드-비데만 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복벽 결손을 통해 장이 외부로 탈출한 복벽 갈림증(gastroschisis)은 장의 운동장애와 연관된다. 이는 장벽 형성 결함으로 장의 신경근육 발달에 영향을 주어 장 운동장애를 초래한다. 다른 선택지는 해당 선천적 결함과 직접적인 연관이 없다.
 
 ## 출처
 

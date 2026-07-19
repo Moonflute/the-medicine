@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 구강 점막 궤양
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+물에 뜨거운 물을 부은 뒤 발생한 경계가 뚜렷한 홍반은 물에 데인 화상(immersion scald)으로, 손이 물에 오래 노출되면 여러 깊이와 치유 단계가 동시에 보이는 불규칙한 손상이 나타난다. 따라서 서로 다른 치유 단계의 여러 손상(다양한 색과 경계)이 발견될 가능성이 높다.
 
 ## 출처
 

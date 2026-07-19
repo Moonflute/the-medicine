@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 사르코이드증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고칼슘혈증(혈청 Ca²⁺ 12.2 mg/dL)과 체중 감소, 다한증, 빈뇨는 갑상선 기능 항진증을 시사한다. 갑상선 호르몬 과다 생산은 골격계와 대사에 영향을 주어 이러한 증상을 유발한다. 따라서 가장 가능성 높은 진단은 갑상선기능항진증이다.
 
 ## 출처
 

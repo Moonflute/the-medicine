@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 팔 떨어뜨리기 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전방 탈구 시 가장 위험한 합병증은 액와신경 손상이며, 이는 외측 어깨 피부 감각 감소로 확인한다. 신경 손상이 있으면 즉시 정복 전 신경학적 평가가 필요하다. 따라서 정답은 C이다.
 
 ## 출처
 

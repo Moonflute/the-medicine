@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 국소 베타메타손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+포피가 뒤로 젖혀져 귀두가 부종·발적된 상태는 파라히모시스이며, 이는 혈액 순환 차단으로 급성 통증을 유발한다. 즉시 포피를 손가락이나 가위로 잡아 뒤로 밀어 원위부로 복귀시키는 수동 정복이 필요하다. 따라서 다음 적절한 처치는 수동 정복이다.
 
 ## 출처
 

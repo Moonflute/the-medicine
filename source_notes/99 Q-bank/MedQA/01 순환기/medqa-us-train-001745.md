@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 콜레스테롤 색전증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+색전 절제술 후 재관류 손상은 조직 부종과 압력 상승을 일으켜 급성 구획 증후군을 초래한다. 따라서 이 환자의 증상은 재관류 손상에 의한 구획 증후군이 가장 가능성 높다.
 
 ## 출처
 

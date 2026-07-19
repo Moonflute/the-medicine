@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 나프록센 투여 및 허용되는 범위에서 활동
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비특이적 요통은 대부분 자연 경과이며, 활동 제한보다 NSAID와 허용 가능한 범위 내 활동이 권장된다. 따라서 나프록센 투여 및 허용된 활동이 가장 적절한 처치이다.
 
 ## 출처
 

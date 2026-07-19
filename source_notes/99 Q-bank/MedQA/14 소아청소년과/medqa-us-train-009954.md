@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 약독화 백신 균주의 복제
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수두 백신은 약독화된 살아있는 바이러스이며, 접종 후 1~2주 내에 발진이 나타날 수 있다. 이는 백신 균주의 복제에 의한 반응이다. 다른 선택지는 발진 메커니즘과 맞지 않는다.
 
 ## 출처
 

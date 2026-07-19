@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대동맥류
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+건설 현장에서 단열재와 건식벽체 작업 시 석면 등 유해 물질에 장기간 노출되며 흡연이 병존하면 기관지암 위험이 가장 높다. 석면은 중피종을 유발하지만 폐암 위험은 흡연과 직업성 노출이 복합될 때 가장 크게 증가한다. 따라서 정답은 기관지성 암종이다.
 
 ## 출처
 

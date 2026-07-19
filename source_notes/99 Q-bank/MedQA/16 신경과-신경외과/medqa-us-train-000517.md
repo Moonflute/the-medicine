@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 안면신경(Facial nerve)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+안검하수와 안구가 아래·바깥쪽으로 편위된 것은 제3뇌신경(동안신경) 마비를 의미한다. 이는 동맥류 파열이나 당뇨성 미세혈관병변과는 무관하며, 가장 흔한 원인은 당뇨와 고혈압이 동반된 혈관성 손상이다.
 
 ## 출처
 

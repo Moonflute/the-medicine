@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 결절성 다발동맥염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+관상동맥 중재술 후 발생한 발의 자주색 그물 모양 변색은 콜레스테롤 색전증을 시사한다. 색전은 대동맥 플라크 파편이 신장 소동맥에 폐쇄되어 혈관 내 방추형 공포와 급성 신부전을 일으킨다. 따라서 가장 가능성 높은 원인은 콜레스테롤 색전이다.
 
 ## 출처
 

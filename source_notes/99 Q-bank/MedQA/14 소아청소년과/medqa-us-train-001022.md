@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 익상경(webbed neck)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압, 약한 하위 맥박, 좌측 상부 클릭음은 대동맥 협착을 시사한다. 이 경우 흔히 동반되는 신체 소견은 목 뒤에 ‘웹드 넥’(목 뒤 피부 주름)이며, 이는 Turner 증후군에서 놓치기 쉬운 징후다.
 
 ## 출처
 

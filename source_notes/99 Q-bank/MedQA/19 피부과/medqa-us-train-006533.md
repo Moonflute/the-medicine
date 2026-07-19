@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 한 가지 어두운 색
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흑색종을 의심하게 하는 특징은 불규칙한 경계, 비대칭, 색상 변화 등이다. 반면에 단일 색조(한 가지 어두운 색)만을 가진 점은 일반적으로 양성 색소성 모반에 해당한다. 따라서 안심할 수 있는 특징은 D이다.
 
 ## 출처
 

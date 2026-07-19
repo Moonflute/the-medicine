@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아스피린 중단
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+뇌졸중 위험을 가장 크게 감소시키는 중재는 고혈압 조절이다. 혈압을 목표치 이하로 유지하면 출혈성 및 허혈성 뇌졸중 발생률이 크게 낮아진다. 따라서 혈압 조절이 가장 유익한 중재이다.
 
 ## 출처
 

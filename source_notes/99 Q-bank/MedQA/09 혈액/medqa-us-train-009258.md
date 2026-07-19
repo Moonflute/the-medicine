@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 하지불안 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+철결핍성 빈혈 환자는 뇌의 도파민 수용체 기능 저하로 하지불안 증후군이 흔히 동반된다. 철이 신경전달물질 합성에 필수이므로 결핍 시 하지불안이 특이적으로 나타난다. 따라서 정답은 하지불안 증후군이다.
 
 ## 출처
 

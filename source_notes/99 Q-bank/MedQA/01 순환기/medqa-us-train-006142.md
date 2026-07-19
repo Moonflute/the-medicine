@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대동맥판 협착에서 잡음 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+운동 중 실신 시 쪼그려 앉으면 비후성 폐쇄성 심근병증에서 잡음이 감소한다. 이는 좌심실 부피 감소와 관련된 특징이다. 승모판 협착은 자세 변화에 따라 잡음이 증가하거나 감소하지만, 이 경우와는 맞지 않는다.
 
 ## 출처
 

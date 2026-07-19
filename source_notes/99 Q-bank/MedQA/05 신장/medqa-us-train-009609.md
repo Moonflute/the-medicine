@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 단백질 섭취 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+칼슘 옥살산염 결석은 고단백 식이에서 증가된 칼슘과 옥살산 배출이 원인이다. 단백질 섭취를 감소시키면 요중 칼슘과 옥살산 농도가 낮아져 재발 위험이 감소한다. 따라서 단백질 섭취 감소가 결석 예방에 가장 효과적이다.
 
 ## 출처
 

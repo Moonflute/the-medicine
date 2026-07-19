@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 엽산결핍성 빈혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흑인 여성에게서 미세구형 빈혈이 철제 복용에도 호전되지 않고 헤모글로빈 전기영동이 정상인 경우, 알파 지중해빈혈 보인자가 가장 흔한 원인이다. 알파 지중해빈혈은 철 결핍과 구분되는 특징이다. 따라서 알파 지중해빈혈 보인자가 정답이다.
 
 ## 출처
 

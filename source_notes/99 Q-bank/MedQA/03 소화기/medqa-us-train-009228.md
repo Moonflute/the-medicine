@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 담낭암
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+십이지장 궤양은 식후 2~3시간에 통증이 발생하고, 밤에 악화되는 특징이 있다. 환자는 스트레스와 비만, 상복부 압통을 동반했으며, 빈혈도 나타나 궤양 출혈을 시사한다. 따라서 가장 가능성 높은 진단은 십이지장 소화성 궤양이다. (급성 담낭염은 발열과 오른쪽 상복부 압통을 동반하고, 총담관결석은 황달을 유발한다.)
 
 ## 출처
 

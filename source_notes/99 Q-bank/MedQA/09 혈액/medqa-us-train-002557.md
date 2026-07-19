@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈소판에 대한 항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+PT는 정상이고 PTT가 연장된 것은 내인성 혈액응고인자 VIII 결핍(혈우병 A)을 시사한다. 제8인자 결핍은 혈액응고 연쇄 반응의 마지막 단계에서 결핍으로 PTT만 증가한다. 따라서 제8인자 결핍이 가장 가능성 높은 병태생리이다.
 
 ## 출처
 

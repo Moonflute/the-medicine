@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신장동맥 혈류 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+무월경과 저칼륨성 대사성 알칼리증을 동반한 고혈압은 원발성 알도스테론증(Conn 증후군)에서 흔히 나타난다. 이 경우 부신에서 무기질코르티코이드(알도스테론) 생성이 증가한다. 따라서 원인 설명은 무기질코르티코이드 생성 증가이다
 
 ## 출처
 

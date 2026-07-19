@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 헤파린 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+압박성 욕창은 지속적인 압력으로 인해 발생하며, 체위 변경을 자주 해주면 압력 부위를 완화시켜 예방할 수 있다. 다른 선택지는 욕창 예방에 직접적인 효과가 없다. 따라서 가장 효과적인 예방은 자주 체위 변경이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -43,7 +45,8 @@ D. 산모는 생리적 빈혈, 태아는 정상 헤모글로빈 수치
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임산부의 혈색소 9.5 g/dL와 MCV 75 fL는 소구성 빈혈을 나타낸다. 임신 중 철분이 태아보다 우선 공급되므로 모체는 철결핍성 빈혈이 흔하고 태아는 정상 헤모글로빈을 유지한다. 따라서 모체는 철결핍성 빈혈, 태아는 정상 헤모글로빈 수치가 가장 가능성 높은 조합이다.
 
 ## 출처
 

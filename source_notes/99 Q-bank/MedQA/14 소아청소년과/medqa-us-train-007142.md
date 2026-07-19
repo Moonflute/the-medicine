@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 모세혈관 투과성 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+선천성 림프부종은 림프계 발달 이상으로 사지와 얼굴에 비대가 나타난다. 신장 나트륨 저류·단백질 합성 장애·모세혈관 투과성 증가와는 차이가 있다. 따라서 림프계 기능장애가 가장 가능성 높은 원인이다
 
 ## 출처
 

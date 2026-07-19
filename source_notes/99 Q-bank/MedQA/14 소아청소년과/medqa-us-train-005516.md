@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 선천성 부신과형성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+음모가 비대하고 검은 털이 음순을 따라 분포하며, 유방 발달이 Tanner 3단계인 점은 말초성 성조숙증을 시사한다. 맥쿤-올브라이트 증후군은 선천성 부신과형성으로 ACTH 과다와 성조숙증을 동반한다. 따라서 가장 가능성 높은 진단은 맥쿤-올브라이트 증후군이다.
 
 ## 출처
 

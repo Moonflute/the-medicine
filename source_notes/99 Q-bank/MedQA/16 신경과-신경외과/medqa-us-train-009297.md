@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 시상의 복측후외측핵
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+근위축성 측삭경화증은 전신 근육 위축과 상부 운동신경원 병변으로 복측각(ventral horn) 손상이 일어난다. 환자의 증상(근력 약화, 위축, 반사 증가)은 복측각 병변을 시사한다. 다른 선택지는 해당 신경학적 소견을 설명하지 못한다.
 
 ## 출처
 

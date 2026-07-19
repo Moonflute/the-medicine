@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. ‘진찰 결과는 신체 문제보다 심리적 문제를 시사합니다. 
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 심한 요통을 호소하지만 신체 검사와 영상 소견이 없으며, 증상이 직장 변화와 일치하지 않는다. 이는 과장된 통증 표현으로, 환자와 직장 변화에 대해 대화를 시도하는 것이 적절하다. 따라서 직장 변화에 대해 이야기하자는 응답이 가장 적절하다.
 
 ## 출처
 

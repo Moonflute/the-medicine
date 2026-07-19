@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 6주 후 계획 복강경 담낭절제술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우상복부 방어성 압통, 고열, 백혈구증가, 초음파에서 담낭벽 비후와 담석, 액체 저류는 급성 담낭염을 시사한다. 급성 담낭염은 세균 감염 위험이 높아 초기 항생제 투여가 표준 치료이며, 외과적 개복은 합병증이 있거나 치료 실패 시 고려한다. 따라서 다음 단계는 항생제 치료이다.
 
 ## 출처
 

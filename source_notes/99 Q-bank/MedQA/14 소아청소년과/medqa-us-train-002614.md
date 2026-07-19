@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 영양 및 대사 이상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Prader‑Willi 증후군은 부계 유전(15번 염색체 부계 영역 결실)으로 발생한다. 저신장, 저긴장증, 과식·비만, 지능 저하 등 제시된 특징은 이 질환과 일치한다. 따라서 가장 가능성 높은 원인은 부계 유전이다.
 
 ## 출처
 

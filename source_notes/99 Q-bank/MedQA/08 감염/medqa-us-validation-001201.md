@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 중합효소연쇄반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+클린다마이신 사용 후 설사와 발열이 나타났을 때 가장 흔한 원인은 클로스트리디움 디피실 감염이며, 이를 확인하기 위해 PCR(중합효소연쇄반응)이 가장 민감하고 빠른 진단법이다. 정답은 PCR이다.
 
 ## 출처
 

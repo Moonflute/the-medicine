@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 엽산 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+PT와 PT가 연장된 것은 비타민 K 의존성 응고인자(특히 VII) 합성 감소를 의미한다. 비타민 K 결핍은 장기적 항생제 사용과 영양 불량으로 발생한다. 따라서 제7인자 활성화 장애가 원인이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 단백뇨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수술 후 저량성 급성 신손상에서는 사구체 여과율 감소와 나트륨 재흡수가 증가해 소변 나트륨 농도가 낮아진다(소변 Na⁺ <20 mEq/L). 이는 혈청 BUN/Cr 비율 상승과도 일치한다. 따라서 소변 나트륨 감소가 가장 가능성 높은 소견이다.
 
 ## 출처
 

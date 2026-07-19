@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 침 흉강절개술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+총탄이 흉벽을 관통해 입구와 출구가 존재하고, 호흡곤란과 흉부 청진에서 맹청음이 들리면 관통성 기흉이 의심된다. 즉시 침 흉강절개술(튜브 흉강 삽입)이 치료에 필요하다. 따라서 정답은 침 흉강절개술이다.
 
 ## 출처
 

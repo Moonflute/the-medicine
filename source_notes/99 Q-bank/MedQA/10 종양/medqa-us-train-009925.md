@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수술적 감압 및 수술 후 방사선치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+척수 압박이 있는 경우, 기대 수명이 1년 이상이면 외과적 감압을 통해 신경기능을 회복하고, 이후 방사선치료로 종양을 제어한다. 보존적 방사선이나 화학요법만으로는 급성 신경 손상을 방지할 수 없다. 따라서 수술적 감압 및 수술 후 방사선치료가 적절하다.
 
 ## 출처
 

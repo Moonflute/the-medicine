@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 투시 바륨 연하 검사(fluoroscopic barium swallow)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+상복부 불편감과 마른 기침은 위산 역류와 연관될 수 있으며, 생활 습관 교정(식사량 감소, 금식, 체위 변화)이 1차 치료이다. 따라서 다음 단계는 생활 습관 교정이다.
 
 ## 출처
 

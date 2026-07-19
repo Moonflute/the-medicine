@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 난원공 개존
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심부전 환자에서 장거리 여행 후 경구피임약 복용은 혈전 위험을 높이며, 오른쪽 하퇴의 부종·통증은 심부정맥 혈전증을 시사한다. 난원공 개존은 혈전이 뇌로 이동해 발생하는 패러독설 embolism의 원인이다.
 
 ## 출처
 

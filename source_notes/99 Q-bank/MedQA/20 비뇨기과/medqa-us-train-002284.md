@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 입원해 경피적 신루술과 정맥 항생제를 시행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐쇄성 결석으로 인한 신우수신증과 고열, 감염 소변은 폐쇄성 신우신염을 의미한다. 치료는 감염을 억제하기 위한 정맥 항생제와 동시에 요관을 배출시키는 경피적 신루술이 필요하다. 따라서 입원해 경피적 신루술과 정맥 항생제를 시행한다.
 
 ## 출처
 

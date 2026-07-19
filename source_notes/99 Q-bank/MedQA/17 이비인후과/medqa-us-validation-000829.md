@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. B형 헤모필루스 인플루엔자
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 후두개염은 급성 인두·후두 부위의 급성 염증으로 고열, 연하곤란, 쉰 목소리, 흡기성 천명을 동반하며, 경부 림프절통증과 백혈구 증가가 흔하다. 가장 흔한 원인균은 B형 헤모필루스 인플루엔자이며, 특히 성인에서도 중증 감염을 일으킨다. 따라서 정답은 D이다. 오답인 A(녹농균)는 주로 폐렴·기관지염을 일으키며 후두개염의 주요 원인이 아니다.
 
 ## 출처
 

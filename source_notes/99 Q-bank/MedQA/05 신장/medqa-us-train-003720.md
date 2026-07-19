@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 와파린 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신장 정맥 혈전증은 혈전이 진행될 위험이 크므로 즉시 항응고가 필요하다. 헤파린은 빠른 작용을 보여 급성 상황에서 첫 번째 선택이다. 따라서 정답은 헤파린 투여이다.
 
 ## 출처
 

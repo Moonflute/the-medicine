@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 2개월간 탄산칼슘 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+위식도역류증상이 지속되고 내시경에서 식도열공 위에 홍반성 궤양이 보이며, 체중·비만·흡연이 위험인자이다. 약물 치료에 반응이 없을 경우는 복강경 위저부 주름성형술(니센 위저부주름술)과 열공성형술이 권장된다. 따라서 정답은 복강경 니센 위저부주름술과 열공성형술이다.
 
 ## 출처
 

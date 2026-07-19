@@ -15,11 +15,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 히드랄라진(Hydralazine)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압 위기에서 베타 차단제 투여 후 알파 차단제(페녹시벤자민) 투여가 순서상 안전하다. 먼저 심박수와 혈압을 베타 차단제로 조절한 뒤 알파 차단제로 지속적인 혈압 강하를 목표한다.
 
 ## 출처
 

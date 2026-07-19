@@ -17,11 +17,13 @@ question_type: risk_factor
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 간 아래 농양 형성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+위궤양은 식후 급성 상복부 통증을 일으키며, 흡연·음주·NSAID 사용이 출혈 위험을 크게 높인다. 위궤양 환자는 위장관 출혈 위험이 가장 크므로, 해당 위험이 가장 큰 상태는 위장관 출혈이다.
 
 ## 출처
 

@@ -16,11 +16,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 증가된 A-a 경사도(A-a gradient), 증가된 확산 거리
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Mycoplasma 폐렴은 폐포-모세관 막 손상으로 A‑a 구배가 증가하고 폐 확산 용량이 증가한다. 따라서 환자의 상태는 증가된 A‑a 구배와 증가된 확산 거리와 일치한다.
 
 ## 출처
 

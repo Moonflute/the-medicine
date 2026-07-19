@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 정맥 세프트리악손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소장 생검에서 PAS 양성 대식세포는 휘플병(트로페리마 휘플리) 특이소견이며, 이 질환은 중증 염증성 관절염과 심장판막 손상을 동반한다. 급성 중증 휘플병에서는 장기 손상을 방지하기 위해 즉시 정맥 세프트리악손을 투여한다. 따라서 정답은 정맥 세프트리악손이다.
 
 ## 출처
 

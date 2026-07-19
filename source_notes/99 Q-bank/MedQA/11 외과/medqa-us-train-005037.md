@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 엄지를 보존할 필요가 없다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+절단된 손가락은 건조하지 않게 보존해야 하며, 멸균 거즈에 생리식염수로 적시한 뒤 밀폐된 멸균 봉투에 넣어 온도 유지가 가능한 용기에 보관한다. 이는 미세혈관 재접합 성공률을 높인다. 따라서 생리식염수에 적신 멸균 거즈로 감싸 봉투에 넣는 것이 적절하다.
 
 ## 출처
 

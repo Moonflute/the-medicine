@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐동맥판 협착증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고정된 S2 분열, 좌측 상연에서의 3/6 수축기 잡음, 좌측 하연에서의 중간 이완기 잡음은 좌심방중격결손(ASD)의 전형적인 청진소견이다. 이러한 특징은 다른 선천성 결함과 구별된다.
 
 ## 출처
 

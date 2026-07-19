@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 귓바퀴의 분필 같은 결절
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+편광현미경 사진에서 칼슘 침착이 보이는 것은 연골 석회화(연골석회화증)를 의미한다. 이는 퇴행성 관절 질환이며, 반월상연골 석회화가 가장 흔한 형태이다. 따라서 정답은 반월상연골 석회화이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 경피적 담낭배액술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 급성 담관염에서 담관 폐쇄와 감염이 진행되면 급속히 악화되며, ERCP를 통해 담관 배액 및 스텐트 삽입이 치료의 핵심이다. 따라서 가장 적절한 처치는 ERCP이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 혈관성 치매
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 일상 생활을 독립적으로 수행하고 인지 검사에서 거의 정상 범위이며, 기억력 저하만 경미하게 나타난다. 이는 정상 노화에 동반되는 기억력 감소(정상적인 노화)와 일치한다. 따라서 가장 적절한 설명은 정상적인 노화이다.
 
 ## 출처
 

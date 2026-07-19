@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 저칼륨혈증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고칼륨혈증은 세포 내 전위 감소와 심근 전도 지연을 일으켜 완만한 QRS와 뾰족한 T파를 만든다. 제시된 심전도 소견이 고칼륨혈증과 일치한다. 따라서 정답은 C이다.
 
 ## 출처
 

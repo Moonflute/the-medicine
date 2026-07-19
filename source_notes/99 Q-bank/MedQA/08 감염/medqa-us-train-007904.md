@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 토브라마이신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아 급성 신우신염 치료 후 크레아티닌 상승, FeNa 3%와 백혈구 원주가 없으며 E. coli가 검출된 경우, 신독성은 아미노글리코사이드(토브라마이신) 사용과 연관된다. 토브라마이신은 신독성을 일으켜 급성 신세뇨관 괴사를 초래한다. 따라서 정답은 토브라마이신이다.
 
 ## 출처
 

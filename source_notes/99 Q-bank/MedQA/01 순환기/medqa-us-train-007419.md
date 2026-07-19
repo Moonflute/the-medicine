@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. D-이합체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+상행 대동맥 박리(Stanford A형)에서는 심박출량과 혈압을 급속히 낮추어 대동맥벽에 가해지는 전단응력을 감소시켜야 한다. 베타 차단제인 메토프롤롤은 심박수를 가장 먼저 감소시켜 전단응력을 최소화하므로 수술 전 초기 치료에 가장 적합하다. 히드랄라진은 혈관을 직접 확장시켜 반동성 심박수 증가와 전단응력 악화를 초래할 수 있다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 피페라실린-타조박탐과 반코마이신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CT에서 보이는 결장 주위 4 cm 농양은 복잡성 게실염에 해당한다. 치료는 항생제와 함께 CT 유도 경피적 배액으로 감염원을 제거하는 것이 표준이다. 따라서 CT 유도 경피적 배액이 적절한 치료이다.
 
 ## 출처
 

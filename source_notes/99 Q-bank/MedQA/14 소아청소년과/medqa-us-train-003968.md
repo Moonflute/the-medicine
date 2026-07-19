@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 산모의 고혈압
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+산모의 고혈압은 태반 관류를 감소시켜 태아 적혈구증가증(신생아 적혈구증가증)을 유발한다. 이는 신생아의 혈액 점도 증가와 높은 헤마토크리트를 초래한다. 따라서 가장 가능성 높은 원인은 산모의 고혈압이다.
 
 ## 출처
 

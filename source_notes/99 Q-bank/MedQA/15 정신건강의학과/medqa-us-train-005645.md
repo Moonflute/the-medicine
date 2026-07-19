@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항정신병 약물을 처방한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 자살 위험이 명백히 존재하고 즉시 자신에게 해를 끼칠 가능성이 있다. 이러한 경우 보호를 위해 입원이 필요하며, 이는 비밀보장의 예외에 해당한다. 다른 선택지는 위험을 충분히 차단하지 못한다.
 
 ## 출처
 

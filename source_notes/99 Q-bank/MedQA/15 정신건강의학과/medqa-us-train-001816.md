@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 부모의 동의를 요청한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 18세로 성인으로서 의료결정능력이 충분하고, 지방종 절제는 미용 목적이지만 위험이 거의 없으며 환자 본인의 자율적 선택을 존중해야 한다. 부모는 미성년자와 동일한 동의를 요구할 수 없으며, 환자는 성인으로서 동의서만으로 수술을 받을 수 있다. 따라서 절제술을 시행한다가 적절하다.
 
 ## 출처
 

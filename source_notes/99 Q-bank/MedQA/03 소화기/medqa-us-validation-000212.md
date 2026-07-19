@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 에리트로마이신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+파킨슨병 환자에서 위장관 운동 저하로 발생하는 위마비는 도파민 작용제에 의해 악화될 수 있다. 에리트로마이신은 위장관 운동을 촉진하는 위장관운동촉진제이며, 파킨슨성 위마비 치료에 1차 선택약이다. 따라서 에리트로마이신이 가장 적절한 치료이다.
 
 ## 출처
 

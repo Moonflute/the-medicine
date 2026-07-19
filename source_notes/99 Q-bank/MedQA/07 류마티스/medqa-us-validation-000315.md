@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 이하선 생검
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구강·안구 건조와 양측 이하선 비대, 점막 건조는 쇼그렌 증후군을 시사한다. 진단을 확정하기 위해서는 항-Ro/La 항체와 무타르 검사(시어머 검사)가 필요하다. 따라서 첫 단계는 시어머 검사와 항-Ro/La 항체 측정이다.
 
 ## 출처
 

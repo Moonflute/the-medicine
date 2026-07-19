@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 섬유근육통
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+30대 남성의 발뒤꿈치·아킬레스건 통증, 천장관절(천장관절염) 및 척추 전만은 강직성 척추염의 전형적인 초기 증상이다. 다른 선택지는 이러한 복합 증상을 설명하지 못한다. 따라서 진단은 강직성 척추염이다.
 
 ## 출처
 

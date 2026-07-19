@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. t(15;17) 전좌
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 전골수구성 백혈병에서 t(15;17) 전좌는 급성 전골수구성 백혈병(APL)으로, 치료 반응이 좋고 예후가 가장 우수한 유전적 표지이다. 따라서 t(15;17) 전좌가 좋은 예후를 시사한다.
 
 ## 출처
 

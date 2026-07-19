@@ -18,11 +18,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 정상 DLCO
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 호흡곤란 발작에서 증상이 심호흡 시 호전되는 것은 과호흡에 의한 호흡성 알칼리증을 시사한다. 과호흡성 저탄산혈증에서는 폐환기능은 정상이며, 확산능(DLCO)은 보통 정상이다. 따라서 정상 DLCO가 가장 적절한 설명이다.
 
 ## 출처
 

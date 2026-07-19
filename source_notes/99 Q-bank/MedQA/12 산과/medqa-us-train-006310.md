@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수유관 발달 실패
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+모유량 감소의 가장 흔한 원인은 유방에 남아 있는 젖이 충분히 배출되지 않아 프로락틴 억제가 일어나는 ‘불충분한 유방 비우기’이다. 환자는 직장 복귀 후 수유 시간이 줄어들고, 유방이 충분히 비워지지 않아 젖 생산이 감소했다. 따라서 원인은 유방을 충분히 비우지 못함이다.
 
 ## 출처
 

@@ -16,11 +16,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 심낭의 섬유화성 비후
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+가슴통증, 흉막 마찰음, ST 상승은 급성 심낭염을 나타낸다. 방사선 치료 후 심낭에 호중구가 침윤해 염증이 발생할 수 있다. 따라서 방사선에 의한 심낭의 호중구 침윤이 가장 가능성 높은 원인이다.
 
 ## 출처
 

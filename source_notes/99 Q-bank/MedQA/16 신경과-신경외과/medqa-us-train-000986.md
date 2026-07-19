@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 발작(Seizure)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 갑작스러운 의식 상실 후 혼란, 발음 장애, 근육통을 보이며 CT에서 이상이 없고 발작 후 증상으로 보인다. 발작 후 혼동(postictal) 상태가 가장 흔한 원인이다. 따라서 발작이 가장 가능성 높은 기저 원인이다.
 
 ## 출처
 

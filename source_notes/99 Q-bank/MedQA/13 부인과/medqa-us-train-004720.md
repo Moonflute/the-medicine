@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. β-hCG 수치 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다낭성 난소 증후군에서는 인슐린 저항성으로 LH가 상승하고 FSH가 상대적으로 낮아 LH:FSH 비율이 증가한다. 따라서 LH:FSH 비율 증가가 가장 가능성 높은 설명이다.
 
 ## 출처
 

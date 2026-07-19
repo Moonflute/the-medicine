@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 근막절개술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+통증이 수동 스트레칭 시 악화되고, 종아리 팽창·압통·맥박 감소는 급성 구획증후군을 시사한다. 구획압이 상승하면 조직 혈류가 차단돼 괴사가 진행되므로 즉시 근막절개술(fasciotomy)이 필요하다. 따라서 근막절개술이 가장 적절한 치료이다.
 
 ## 출처
 

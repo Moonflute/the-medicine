@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 섬유성 갑상선염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+35세 이후 월경이 없고 갑상선이 약간 확대된 경우, 무통성 갑상선염(감염성 갑상선염)으로 갑상선 기능 저하가 흔히 나타난다. 따라서 가장 가능성 높은 병리 소견은 무통성 갑상선염이다.
 
 ## 출처
 

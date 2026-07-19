@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 대동맥근부의 확장
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압과 약물 복용으로 좌심실 순응도가 감소하면 이완기 압력이 상승하고, 심음에서 S4(심방 수축기)음이 나타난다. 이는 다른 선택지보다 더 흔한 원인이다.
 
 ## 출처
 

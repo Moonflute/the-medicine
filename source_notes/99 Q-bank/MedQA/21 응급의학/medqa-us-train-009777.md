@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 환기-관류 섬광조영술 의뢰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경구피임약은 혈전증 위험을 증가시켜 폐색전증을 유발한다. D‑이합체(D‑dimer) 검사는 혈전 형성 후 분해산물 농도를 측정해 폐색전증의 가능성을 빠르게 평가한다. 따라서 가장 적절한 검사는 D‑dimer 측정이다.
 
 ## 출처
 

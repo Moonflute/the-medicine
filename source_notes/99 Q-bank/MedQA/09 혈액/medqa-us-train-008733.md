@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈장교환
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고단백 혈청전기영동에서 IgM 마크로글로불린이 과다하게 나타나는 것이 고점도 증후군을 시사한다. 고점도 증후군은 혈액 점도가 급격히 상승해 장기 혈류 장애를 일으키므로 즉시 혈장교환이 필요하다. 따라서 가장 적절한 처치는 혈장교환이다.
 
 ## 출처
 

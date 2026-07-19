@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 연령관련 황반변성
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+황소눈 모양의 황반 병변은 클로로퀸 독성 망막병증의 전형적인 소견이며, 환자는 클로로퀸을 복용 중이다. 다른 선택지는 해당 병변과 맞지 않는다. 따라서 원인은 클로로퀸 망막병증이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 부프로피온 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+산후 10일 차에 지속적인 울음, 불안, 피로, 과잉보호 행동은 산후우울증보다 경미한 산후기분변화이며, 대부분 2주 이내에 호전된다. 주요 관리 원칙은 환자와 배우자를 안심시키고 정상적인 회복 과정을 설명하는 것이다. 따라서 가장 적절한 다음 관리는 ‘안심시키기’이다.
 
 ## 출처
 

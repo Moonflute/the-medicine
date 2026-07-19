@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. XI
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+낭성섬유증 환자는 지방 흡수 장애로 비타민 K 결핍이 흔하며, 이는 혈액응고인자 II, VII, IX, X 감소를 초래한다. 가장 먼저 감소하는 인자는 II이다. 따라서 인자 II 수치가 비정상일 가능성이 높다.
 
 ## 출처
 

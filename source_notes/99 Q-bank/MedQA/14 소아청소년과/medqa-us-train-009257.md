@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. I형 콜라겐 합성 결함
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구토와 무력증, 눈 주변 출혈, 두개골 골절은 반복적인 머리 외상에 의한 미만성 축삭 손상(학대성 두부 외상)을 시사한다. 이는 비정상적인 행동과 신경학적 저하와 일치한다. 다른 선택지는 해당 증상을 설명하지 못한다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 임신에 가장 안전한 발프로산으로 바꾼다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+리튬은 임신 초기에 태아 심장관 형성에 위험을 주는 약물로, 용량을 낮추거나 중단이 필요하지만 급성 조증 재발을 방지하기 위해 완전 중단은 바람직하지 않다. 임신 중 리튬 용량을 최소 유지하면서 혈중 농도를 모니터링하면 태아 위험을 최소화할 수 있다. 따라서 임신 기간 동안 약물 용량을 조절하는 것이 가장 도움이 된다.
 
 ## 출처
 

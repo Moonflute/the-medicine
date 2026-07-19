@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심장 활동전위 재분극기 연장
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심박수가 160회인 규칙적 SVT에 카르디악 마사지를 해도 반응이 없으며, 아데노신 투여 시 즉시 정상으로 돌아온다. 아데노신은 방실결절 전도시간을 연장시켜 AV 노드 전도를 차단한다. 따라서 약물의 작용기전은 방실결절 전도시간 지연이다.
 
 ## 출처
 

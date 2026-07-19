@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지지요법과 면밀한 모니터링
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈당 589 mg/dL와 대사성 산증, 고칼륨은 당뇨병성 케톤산증을 나타내며, 인슐린 투여가 혈당을 낮추고 칼륨을 세포내 이동시켜 전해질을 교정한다. 따라서 인슐린·칼륨·수액·포도당 치료가 가장 적절하다. 단순 수액만으로는 케톤산증을 해결하지 못한다.
 
 ## 출처
 

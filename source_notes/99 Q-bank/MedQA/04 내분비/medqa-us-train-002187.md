@@ -17,11 +17,13 @@ question_type: risk_factor
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 직업
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐경 후 여성에서 고혈압 위험 요인 중 가장 큰 것은 체질량지수(비만)이다. 비만은 인슐린 저항성과 혈압 상승을 촉진한다. 따라서 체질량지수가 정답이다.
 
 ## 출처
 

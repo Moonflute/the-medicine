@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 페넬진
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+미르타자핀은 α2‑항히스타민 효과와 H1 차단으로 식욕을 증가시키고 체중 증가를 유발한다. 또한 우울증 치료에 효과적이며, 환자는 저체중과 식욕 부진을 호소한다. 따라서 기분장애와 체중 증가 욕구를 동시에 해결할 가능성이 가장 높은 약물은 미르타자핀이다.
 
 ## 출처
 

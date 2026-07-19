@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 해결되지 않은 폐렴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복 감염과 고칼슘혈증, 빈혈, 골병변은 다발성 골수종을 시사한다. 골수종은 면역글로불린 결핍을 초래해 저감마글로불린혈증을 일으키므로, 이것이 감염의 주요 원인이다.
 
 ## 출처
 

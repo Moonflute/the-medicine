@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 머리 내리기, 진정, 고장성 식염수, 저환기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+불규칙 호흡·고혈압·서맥은 뇌압 상승에 따른 쿠싱 삼위증을 나타낸다. 뇌압을 낮추기 위해 머리를 30도 올리고, 진정제로 대사율을 감소시키며, 삼투성 이뇨제(만니톨)와 과호흡을 통해 CO₂를 감소시키는 것이 가장 효과적이다.
 
 ## 출처
 

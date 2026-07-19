@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 경항문 직장당김술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아의 구토와 오른쪽 상복부에 움직이는 올리브 모양 종괴는 비대성 유문협착증을 의미한다. 치료는 루이스-니콜스 유문근절개술(피롤로미오토미)이다.
 
 ## 출처
 

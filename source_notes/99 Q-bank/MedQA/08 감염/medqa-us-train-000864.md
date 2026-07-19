@@ -15,11 +15,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 매일 경구 트리메토프림-설파메톡사졸(trimethoprim-sulfamethoxa
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복성 방광염을 예방하려면 지속적인 항균 효과가 있는 트리메토프림-설파메톡사졸 복용이 가장 효과적이다. 이는 성관계 후 단회 항생제보다 재발을 감소시킨다.
 
 ## 출처
 

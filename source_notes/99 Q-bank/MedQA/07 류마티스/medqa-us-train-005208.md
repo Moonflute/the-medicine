@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 CA-125 상승
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 근육통·근력저하와 함께 피부에 홍반·점상이 나타나는 경우는 악성 종양과 연관된 피부근염(암관련 다발성 근염)이다. 이때 혈청 CA‑125 상승이 흔히 관찰된다. 따라서 정답은 혈청 CA‑125 상승이다.
 
 ## 출처
 

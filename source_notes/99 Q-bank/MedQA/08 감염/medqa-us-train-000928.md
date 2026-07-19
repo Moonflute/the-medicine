@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 급성 근긴장이상 (Acute dystonia)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압 위기 치료에 사용되는 질산 나트륨·니트로프루시드 등은 급성 대사성 산증(젖산 상승)과 피부 홍조, 망막 정맥 확장을 일으킬 수 있다. 환자의 저 pH와 젖산 상승은 이러한 치료 부작용을 시사한다. 따라서 정답은 A이다.
 
 ## 출처
 

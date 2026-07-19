@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 과립구감소증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고용량 글루코코르티코이드는 호산구 수를 감소시키는 효과가 있다. 따라서 메틸프레드니솔론 투여 후 호산구 감소가 예상된다. 다른 백혈구 유형은 크게 변하지 않는다. 따라서 호산구감소증이 예상되는 변화이다.
 
 ## 출처
 

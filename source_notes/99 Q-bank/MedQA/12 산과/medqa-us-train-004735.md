@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 근육 내 세프트리악손 후 세팔렉신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 30주에 오른쪽 상복부 국소 압통, 발열, 백혈구 증가가 급성 충수염을 시사한다. 임신 중에도 충수절제술이 확정 치료이며, 수술이 태아와 모성 모두의 위험을 최소화한다. 따라서 충수절제술이 정답이다.
 
 ## 출처
 

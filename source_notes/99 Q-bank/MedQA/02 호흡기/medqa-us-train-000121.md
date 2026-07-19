@@ -20,11 +20,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -42,7 +44,8 @@ D. 6개월 후 추적 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중심성 폐문 결절과 체중 감소, 혈담, 야간 발한은 폐암 고위험 소견이다. 조직 및 병기 확인을 위해 먼저 종격동 림프절을 샘플링하는 종격동내시경검사가 필요하다. 따라서 다음 단계는 종격동내시경검사이다. (항암화학요법은 조직 확인 없이 시작할 수 없다)
 
 ## 출처
 

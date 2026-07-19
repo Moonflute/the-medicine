@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 스트렙토마이신 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고양이와 접촉 후 림프절 비대와 손등에 결절성 병변이 나타나는 경우 Bartonella henselae에 의한 고양이 물림병(카트 스크래치 병)이 의심된다. 치료 1차 선택은 아지트로마이신이다. 따라서 아지트로마이신 치료가 적절하다.
 
 ## 출처
 

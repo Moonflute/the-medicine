@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐쇄성 수면무호흡을 동반한 중추성 저환기 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+BMI 49kg/m²인 비만 환자에서 낮은 무호흡‑저호흡 지수와 REM 중 고탄산혈증은 비만 저환기 증후군을 의미한다. 폐쇄성 수면무호흡은 AHI가 높아야 하며 중앙성 저환기는 뇌 손상이 동반된다. 따라서 비만 저환기 증후군이 가장 잘 설명한다.
 
 ## 출처
 

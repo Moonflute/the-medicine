@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 맥박 116회/분, 혈압 80/40 mmHg, 호흡수 16회/분, 직장 긴장도 �
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+경추 과신전으로 인한 신경성 쇼크는 저혈압, 서맥, 직장 긴장도 소실, 팔다리 마비가 동반된다. 제시된 선택지 중 맥박 56·혈압 88/40·직장 긴장도 소실·사지 마비가 가장 일치한다. 따라서 C가 정답이다.
 
 ## 출처
 

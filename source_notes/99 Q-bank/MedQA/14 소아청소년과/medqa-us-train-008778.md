@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 선천성 발살바동 동맥류 파열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+연속적인 기계음과 전흉부에서 수축기 말에 최고조에 이르는 잡음은 동맥관 개존증(PDA)의 특징이다. 다른 선택지는 심실 중격 결손이나 승모판 폐쇄부전과는 청진음이 다르다. 따라서 PDA가 가장 가능성 높은 진단이다.
 
 ## 출처
 

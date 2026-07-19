@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 니트로푸란토인
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 신우신염은 고열, 옆구리 압통, 배뇨통을 동반하며, 경증인 경우 경구 플루오로퀴놀론(레보플록사신)으로 외래 치료가 가능하다. 따라서 가장 적절한 다음 단계는 레보플록사신 처방 후 외래 추적이다.
 
 ## 출처
 

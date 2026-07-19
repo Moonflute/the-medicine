@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈액량 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대동맥판 협착에서 수축기 잡음은 좌심실 배출량이 감소하면 진폭이 커지고, 몸을 구부리면(쪼그려 앉기) 혈류가 증가해 잡음이 더욱 크게 들린다. 따라서 잡음 강도를 증가시키는 자세는 쪼그려 앉기이다
 
 ## 출처
 

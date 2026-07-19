@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 침범 사지를 따뜻한 물에 담근다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 4도 동상(깊은 조직 손상)으로 조직이 경직되고 청색증을 보이며, 재가열은 온수(40‑42 °C) 침수로 시행한다. 이는 조직 손상을 최소화하고 회복을 촉진한다. 따라서 따뜻한 물에 담그는 것이 적절한 관리이다.
 
 ## 출처
 

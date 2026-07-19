@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐 생검에서 건락성 육아종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양측 결막충혈, 마른 기침, 고칼슘혈증, 흉부 X선에서 양측 림프절 비대가 보이면 사르코이드증이 의심된다. 혈청 ACE는 사르코이드증에서 상승한다. 따라서 ACE 상승이 가장 가능성 높은 추가 소견이다.
 
 ## 출처
 

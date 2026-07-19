@@ -18,11 +18,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 철분과 비타민 D로 보충
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+5개월 영아는 모유만으로는 철과 비타민 D 섭취가 충분치 않다. 모유에 함유된 철과 비타민 D는 권장량에 미치지 못하므로 보충이 필요하다. 따라서 철분·비타민 D 보충이 적절하다.
 
 ## 출처
 

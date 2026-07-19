@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. B형간염과 MMR
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 가장 권장되는 예방접종은 파상풍·디프테리아·백일해(Tdap)와 인플루엔자 백신이며, 둘 다 임신 2분기에 안전하게 투여한다. 수두와 B형간염은 임신 중 권장되지 않는다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. IgA 면역복합체 침착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발진성 두드러기와 관절부종, 혈변, 장관벽에 고·저에코 띠가 교차하는 초음파 소견은 IgA 면역복합체가 소혈관에 침착해 염증을 일으키는 IgA 혈관염(Henoch‑Schönlein purpura)과 일치한다. IgA 복합체가 혈관벽에 축적되어 출혈과 부종을 유발한다. 따라서 IgA 면역복합체 침착이 가장 가능성 높은 원인이다.
 
 ## 출처
 

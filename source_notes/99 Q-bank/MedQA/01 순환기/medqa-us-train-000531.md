@@ -19,11 +19,13 @@ question_type: mechanism
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 만성 사용 시 장기적인 신성(nephrogenic) 적응을 유발한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 심부전에서 증상 완화를 위해 투여된 약물은 일반적으로 루프 이뇨제인 furosemide이다. 고용량 루프 이뇨제는 장기 사용 시 신성(nephrogenic) 내분비 적응을 유발한다.
 
 ## 출처
 

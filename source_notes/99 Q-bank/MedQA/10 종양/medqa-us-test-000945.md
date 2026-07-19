@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 수액
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 골수성 백혈병에서 종양융해증후군(TLS)은 고요산혈증, 고칼륨, 저칼슘, 신부전 등을 초래한다. TLS 예방에 가장 효과적인 방법은 충분한 정맥 수액으로 요량을 유지하고 전해질을 희석하는 것이다. 알칼리화나 라스부리카제는 부적절하고 알로푸리놀은 요산 저하에만 효과적이다.
 
 ## 출처
 

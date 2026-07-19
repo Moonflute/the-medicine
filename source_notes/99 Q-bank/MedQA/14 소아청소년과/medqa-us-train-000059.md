@@ -19,11 +19,13 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 약물 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비대칭적인 심실중격 비대와 좌심실 유출로 폐쇄는 임신성 당뇨병에 의해 발생한 태아 심근병증을 시사한다. 이러한 구조적 이상은 심부전과 저출혈량을 초래하므로, 초기 치료는 베타 차단제나 ACE 억제제와 같은 약물 요법으로 심기능을 개선한다. 따라서 출산 후 가장 적절한 관리는 약물 치료이다.
 
 ## 출처
 

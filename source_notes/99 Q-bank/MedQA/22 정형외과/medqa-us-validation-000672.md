@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 연골육종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+연골육종은 10‑30세에서 흔히 골반에 발생하며, X‑ray에서 경계 불분명한 골용해성 병변, ‘좀먹는’ 파괴와 함께 석회화된 연골성 매트릭스와 반응성 골막반응을 보인다. 제시된 영상소견은 연골육종에 가장 부합한다.
 
 ## 출처
 

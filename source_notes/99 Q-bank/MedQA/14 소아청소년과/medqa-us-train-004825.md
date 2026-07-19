@@ -17,11 +17,13 @@ question_type: association
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 조산
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+조산·저산소증에 의한 뇌성마비는 뇌실 주변 백질 연화와 뇌실 확대를 초래한다. 이는 출산 중 질식과 연관이 깊으며, 다른 선택지는 해당 영상 소견과 맞지 않는다.
 
 ## 출처
 

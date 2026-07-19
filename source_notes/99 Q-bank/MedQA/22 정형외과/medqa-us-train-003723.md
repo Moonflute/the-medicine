@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 비타민 B6 보충
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손목을 흔들면 증상이 호전되는 것은 손목을 중립위치로 유지하면 정중신경 압박이 감소한다는 의미이다. 정중신경 압박을 완화하기 위해 손바닥쪽 부목(볼러 부목)으로 손목을 중립위치에 고정하면 증상이 개선된다. 따라서 가장 적절한 처치는 손바닥쪽 부목 고정이다.
 
 ## 출처
 

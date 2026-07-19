@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신생아 일과성 빈호흡
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아에서 청색증, 저산소증, 좌측 엄지 변위·저형성, 우심실 부하 증가, 좌측 상흉골연 잡음은 팔로사징(대동맥 협착에 의한 우심실 압력 부하)과 일치한다. 이는 대동맥관이 폐동맥으로 연결된 선천성 심장병이다. 따라서 정답은 팔로사징이다.
 
 ## 출처
 

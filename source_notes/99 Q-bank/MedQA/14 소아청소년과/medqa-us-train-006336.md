@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 결손을 경피적 카테터로 폐쇄한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+큰 VSD는 좌우 단락을 초래해 Qp:Qs 비율이 2:1 이상이면 외과적 폐쇄가 필요하다. 약물 치료만으로는 폐쇄되지 않으며, 심부전 위험이 있다. 따라서 가장 적절한 치료는 외과적 폐쇄이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 인지행동치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 전투 후 외상후 스트레스 장애(PTSD) 증상(악몽, 회상, 회피)만을 보이며 자살 위험은 없다. 초기 치료로는 증상 인지와 재구성을 목표로 하는 인지행동치료(CBT)가 1차 선택이며, 약물은 보조적이다. 따라서 가장 적절한 초기 치료는 인지행동치료이다.
 
 ## 출처
 

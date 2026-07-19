@@ -17,11 +17,13 @@ question_type: other
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 올란자핀
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+디펜히드라민은 항히스타민제이면서 강한 항콜린성 효과가 있어 급성 혼돈, 배뇨 저항, 위장관 평활근 이완을 일으킨다. 환자의 급성 혼란, 구강 건조, 요폐가 이 약물에 기인한다. 따라서 디펜히드라민이 원인이다.
 
 ## 출처
 

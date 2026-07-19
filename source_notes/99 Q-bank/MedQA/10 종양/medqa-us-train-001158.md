@@ -15,11 +15,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 뼈 스캔(Bone scan)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+HER2 양성, 호르몬 수용체 음성의 6.5 mm 미만 종양은 림프절 전이 위험이 낮아 유방 보존술(광범위 절제)과 동시에 감시 림프절 생검으로 충분히 관리한다. 이는 표준 초기 치료 단계이다.
 
 ## 출처
 

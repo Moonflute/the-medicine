@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 실리카
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비건락성 육아종은 베릴륨(베릴리움) 노출에 특이적으로 나타나는 병변이다. 베릴륨은 석탄이나 유기 먼지와는 관련이 없으며, 환자의 방사선 소견과 조직학적 소견이 이를 뒷받침한다. 따라서 베릴륨 노출이 가장 가능성 높은 원인이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 벤라팍신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+삼환계 항우울제는 강한 항콜린성 부작용을 일으켜 요폐, 변비, 구강 건조를 유발한다. 환자는 새 약 복용 직후 이러한 증상이 나타났으며, 소변 검사는 정상이라 요폐는 기능성이다. 따라서 처방받은 약물은 아미트립틸린이 가장 가능성이 높다. (다른 선택지인 페넬진은 항콜린성 효과가 거의 없으며, 우울증 치료에 쓰이지 않는다.)
 
 ## 출처
 

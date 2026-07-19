@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 국소 은설파디아진
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+압통이 없고 비창백한 발적은 1단계 압력 손상의 비멍울성 발적이며, 가장 효과적인 예방·관리 방법은 정기적인 체위 변경으로 압력을 분산시키는 것이다. 이는 조직 손상을 방지하고 진행을 막는다. 다른 선택지는 이미 발생한 궤양 치료에 해당한다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 적혈구 침강속도 65 mm/h
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 양쪽 겨드랑이 림프절과 B증상(발열, 피로, 가려움)으로 호지킨 림프종이 의심된다. 예후가 나쁜 경우는 염증성 마커가 크게 상승한 경우이며, 특히 적혈구 침강속도(ESR)가 50 mm/h 이상이면 불량 예후와 연관된다. 따라서 ESR 65 mm/h는 불량 예후 소견이다.
 
 ## 출처
 

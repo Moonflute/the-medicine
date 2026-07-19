@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 어유를 시작한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+스타틴 유발 근육통은 약물 중단 시 증상이 사라진다. 재시작 시 용량을 낮추어 부작용을 최소화하는 것이 권장된다. 따라서 로수바스타틴을 더 낮은 용량으로 다시 시작하는 것이 적절하다.
 
 ## 출처
 

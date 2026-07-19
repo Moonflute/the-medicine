@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. HbC
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+말초혈액 도말에서 표적세포와 길쭉한 세포, 핵 잔여물은 겸상 적혈구를 특징짓는다. 겸상병은 비정상적인 헤모글로빈(S)으로 용혈성 빈혈과 급성 골통을 일으키며, 제시된 전형적인 임상·실험실 소견과 일치한다. 따라서 가장 가능성 높은 원인은 겸상적혈구병이다.
 
 ## 출처
 

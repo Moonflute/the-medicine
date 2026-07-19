@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 주변에 불규칙한 고음영 경계를 동반한 피질하 저음영 부�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 37주에 고혈압, 단백뇨, 뇌증, 국소 신경학적 결손이 동반된 경우는 고혈압성 뇌교출혈이 가장 흔한 합병증이다. 출혈이 교뇌에 발생하면 좌측 교뇌 고음영 병변이 CT에 보인다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥주사 트리메토프림-설파메톡사졸
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+외이도 농양·유양돌기염은 Pseudomonas aeruginosa(녹농균) 감염이 흔하며, 중증 환자는 정맥 시프로플록사신으로 광범위한 항균활동을 제공한다. 따라서 정맥주사 시프로플록사신이 가장 적절한 치료이다.
 
 ## 출처
 

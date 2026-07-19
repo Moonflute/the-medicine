@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. “아버님은 매우 아프고 세부 사항을 알려주고 싶지 않을 
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 사생활 보호를 위해 정보 제공을 거부했으며, 의료진은 환자 동의 없이는 가족에게 정보를 전달할 수 없다. 이는 환자 비밀보장의 원칙이다. 따라서 환자의 허락 없이는 정보를 제공할 수 없다고 설명한다.
 
 ## 출처
 

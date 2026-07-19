@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 광견병 백신을 투여한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+건강한 개가 10일간 관찰 중 증상이 없으면 광견병 감염 위험이 거의 없으며, 예방접종·IG는 필요하지 않다. 개를 안락사하거나 검사를 하는 것은 과잉치료이며, 백신은 이미 접종되지 않은 경우에만 사후예방으로 사용한다.
 
 ## 출처
 

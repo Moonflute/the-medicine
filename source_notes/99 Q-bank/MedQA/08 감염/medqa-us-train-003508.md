@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 레보플록사신과 외래 추적관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고령 환자에서 중증 폐렴(발열, 저혈압, 호흡곤란)과 Streptococcus pneumoniae 감염이 확인되면 입원 및 정맥 페니실린 G 투여가 표준 치료이다. 경구 치료는 중증에 부적합하다. 따라서 정답은 정맥 페니실린 G와 입원이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흡연력
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고용량 덱사메타손 억제에도 코르티솔이 억제되지 않고, 부신 CT가 정상인 경우 이소성 ACTH 증후군을 의심한다. 가장 흔한 원인은 흡연력과 연관된 폐소세포암이다. 따라서 흡연력이 중요한 단서이다.
 
 ## 출처
 

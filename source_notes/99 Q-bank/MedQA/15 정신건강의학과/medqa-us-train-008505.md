@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 인지행동치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 외모에 대한 과도한 집착과 부정적인 사고가 특징인 신체이형성장애이며, 인지행동치료(CBT)가 1차 치료로 가장 효과적이다. 다른 선택지는 중증도에 맞지 않거나 비침습적 치료가 아니다. 따라서 다음 적절한 처치는 인지행동치료이다.
 
 ## 출처
 

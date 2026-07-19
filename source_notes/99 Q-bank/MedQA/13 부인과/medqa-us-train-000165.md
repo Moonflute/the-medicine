@@ -19,11 +19,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -41,7 +43,8 @@ D. 가바펜틴(Gabapentin)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐경 후 안면 홍조·수면 장애·질 건조는 에스트로겐 결핍이 원인이다. 단기 증상 완화를 위해 에스트로겐 단독 호르몬 대체 요법이 가장 효과적이다. 따라서 정답은 에스트로겐 단독 치료이다.
 
 ## 출처
 

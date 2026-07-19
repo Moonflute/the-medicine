@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈관 듀플렉스 초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+지속발기증(프릴리시즘)은 신동맥 협착에 의해 신장 혈류 감소와 레닌 분비 증가가 일어나 고혈압을 유발한다. 이를 확인하려면 신혈관계 평가가 필요하며, 혈관 초음파(듀플렉스)로 협착을 시각화한다. 따라서 혈관 듀플렉스 초음파가 적절한 초기 검사이다.
 
 ## 출처
 

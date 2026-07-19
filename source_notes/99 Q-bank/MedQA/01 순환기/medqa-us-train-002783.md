@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 프로카인아미드 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전도성 심방세동에서 넓은 QRS와 빠른 심박수는 WPW 증후군을 의미한다. 프로카인아미드는 전도 차단을 통해 전도 경로를 억제한다. 따라서 프로카인아미드 투여가 적절하다.
 
 ## 출처
 

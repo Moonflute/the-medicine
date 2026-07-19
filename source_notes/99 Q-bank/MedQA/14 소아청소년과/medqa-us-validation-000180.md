@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 고IgD 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+IVIG 투여 후 발생한 전형적인 아나필락시스는 IgA 결핍 환자에서 흔히 나타난다. IgA가 결핍된 경우 IgA 함유 혈액제제에 대한 항체가 형성돼 급성 과민반응을 일으킨다. 따라서 기저 상태는 IgA 결핍이다.
 
 ## 출처
 

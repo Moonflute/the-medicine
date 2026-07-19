@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 측두엽
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 말이 어눌하고 ‘선풍기’라는 단어만 반복하는 실어증을 보이며, 발바닥 반사에서 엄지 굴곡은 ‘우측 측두엽’ 손상(베르니케 실어증)과 일치한다. 미상핵·쐐기이랑·브로카 영역은 각각 다른 언어·운동 결함을 일으킨다. 따라서 정답은 측두엽이다.
 
 ## 출처
 

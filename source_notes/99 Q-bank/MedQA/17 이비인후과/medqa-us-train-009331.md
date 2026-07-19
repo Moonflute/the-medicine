@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 해리성 마취
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+프로포폴은 정맥 주입 시 깊은 진정(Deep Sedation)까지 사용할 수 있으며, 기도 유지가 필요 없는 경우에 적용된다. 최소 진정은 경구·비경구 약물에 국한되고, 경막외 마취와 해리성 마취는 해당되지 않는다. 따라서 정답은 깊은 진정이다.
 
 ## 출처
 

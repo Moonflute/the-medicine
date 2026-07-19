@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 개흉술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흉관 삽입 후 지속적인 혈액 배출(시간당 > 200 mL)은 대량 혈흉으로, 보존적 관리로는 출혈을 멈출 수 없다. 즉시 개흉술을 시행해 출혈 원인을 직접 확인하고 지혈해야 한다.
 
 ## 출처
 

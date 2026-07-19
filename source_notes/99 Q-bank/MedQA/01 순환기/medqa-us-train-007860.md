@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 디지털 감산 혈관조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 하지 허혈의 원인은 종종 심장 내 혈전(예: 심방세동)에서 유래한 색전이다. 색전의 원천을 확인하려면 심초음파(특히 트랜스식도)로 심내 혈전 여부를 평가하는 것이 가장 유용하다.
 
 ## 출처
 

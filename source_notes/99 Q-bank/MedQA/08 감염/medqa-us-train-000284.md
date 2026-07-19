@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 세팔렉신(Cephalexin) 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+발진이 입 주위와 몸통에 결절성 발진을 동반하고, 인후통 후 발열이 있었으며, 최근 감염성 단핵구증에 노출된 경우는 급성 사슬알균 감염(갑상선염)보다는 급성 사슬알균성 인두염에 의한 스카렛 열이 의심된다. 치료는 마크로라이드(아지스로마이신)이다. 따라서 다음 단계는 아지스로마이신 투여이다.
 
 ## 출처
 

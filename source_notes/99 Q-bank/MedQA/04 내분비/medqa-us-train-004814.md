@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 원발성 알도스테론증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+알도스테론 상승·레닌 감소와 고혈압이 동반된 경우, 원발성 알도스테론증(Conn 증후군)이 가장 흔한 원인이다. 이는 부신 피질의 알도스테론 과다 분비로 인한 전해질 변화와 고혈압을 일으킨다. 다른 선택지는 해당 호르몬 패턴과 일치하지 않는다.
 
 ## 출처
 

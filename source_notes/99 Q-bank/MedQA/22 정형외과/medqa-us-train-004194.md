@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 레그-칼베-페르테스병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+6개월간 절뚝거림과 고관절 운동범위 감소, 무증상 염증 소견은 레그‑칼베‑페르테스병(대퇴골두 무혈성 괴사)과 일치한다. 따라서 가장 가능성 높은 진단은 레그‑칼베‑페르테스병이다.
 
 ## 출처
 

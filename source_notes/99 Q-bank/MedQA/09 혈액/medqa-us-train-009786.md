@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비장기능항진증 관련 빈혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+골수 검사가 저세포성, 지방이 풍부한 모습을 보이는 경우는 조혈모세포가 손상된 재생불량성 빈혈을 의미한다. 이는 전혈구감소증과 심각한 빈혈을 동반한다. 따라서 가장 가능성 높은 진단은 재생불량성 빈혈이다.
 
 ## 출처
 

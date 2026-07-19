@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 구개융기
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+구개 중앙에 단단하고 무통성인 뼈 같은 결절은 구개융기(구개뼈 돌출)를 특징으로 한다. 이는 양성 골성 외반증이며 악성 변화를 보이지 않는다. 따라서 구개융기가 가장 가능성 높은 진단이다.
 
 ## 출처
 

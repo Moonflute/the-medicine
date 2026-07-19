@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 조영제를 사용한 흉부 CT
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ST 상승과 트로포닌 상승을 동반한 급성 관상동맥 증후군에서 항혈소판제(클로피도그렐), 베타 차단제(아테놀롤), 항응고제(헤파린) 투여와 연속 모니터링이 표준 치료이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수면검사 시행
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고혈압 환자에게 가장 중요한 생활습관은 나트륨 섭취 감소와 체중·운동 관리이며, 환자는 염장육 위주의 식단을 유지하고 있다. 식이 염분을 줄이고 DASH 식단을 권장하면 혈압 조절에 큰 도움이 된다. 따라서 다음 처치는 식이 조절 상담이다.
 
 ## 출처
 

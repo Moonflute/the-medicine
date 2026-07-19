@@ -23,11 +23,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -45,7 +47,8 @@ D. 승모판엽 비후 및 섬유화
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ST‑elevation과 전벽 운동저하, 저혈압, 전형적인 심잡음 부재는 급성 전방벽 MI를 시사한다. 좌전하행동맥 폐색으로 인한 유두근 파열은 급성 이완기능 저하와 급성 폐부종을 일으키며, 이는 이 환자의 저혈압과 청진음 소견과 일치한다. 따라서 가장 적절한 기전은 LAD 폐색 및 유두근 파열이다.
 
 ## 출처
 

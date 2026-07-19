@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 면역글로불린
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양쪽 상지 근력 저하와 V자형 피부 홍반, 모세혈관확장, 항핵항체 양성, CK 상승은 다발성 근염(다발성 근육염)과 전신성 홍반성 루푸스(SLE) 겹침을 시사한다. 급성 증상과 근육 손상을 빠르게 억제하기 위해 고용량 코르티코스테로이드가 1차 치료로 권장된다.
 
 ## 출처
 

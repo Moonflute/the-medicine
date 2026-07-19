@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 척추성형술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+전이성 전립선암 골전이는 통증을 유발하며, 방사선 치료는 통증 완화와 국소 종양 조절에 효과적이다. 외과적 절제나 화학요법보다 국소 방사선이 우선 선택된다. 따라서 외부 방사선 치료가 가장 적절하다.
 
 ## 출처
 

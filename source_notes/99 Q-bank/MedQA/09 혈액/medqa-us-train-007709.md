@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비타민 B3 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+잇몸 출혈, 치아 주위 출혈, 잇몸 비대, 피부에 점상 출혈이 동반된 영양실조는 비타민 C(아스코르브산) 결핍인 괴혈병의 특징이다. 따라서 가장 가능성 높은 원인은 비타민 C 결핍이다.
 
 ## 출처
 

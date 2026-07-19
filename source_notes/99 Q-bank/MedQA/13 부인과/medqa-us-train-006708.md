@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 질 프로바이오틱스
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+현미경 사진에서 편모충(Trichomonas vaginalis)의 움직이는 편모가 보이며, 회음부 가려움과 흰색‑황색 질 분비물이 특징이다. 메트로니다졸은 편모충증 1차 치료제로 적응증에 맞는다.
 
 ## 출처
 

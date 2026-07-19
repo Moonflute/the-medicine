@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 급성 비대상성 심부전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+초기 사춘기 지연과 저체중, 원발성 무월경이 의심될 때, 시상하부‑뇌하수체‑성선 축의 기능을 평가하기 위해 FSH와 에스트로겐 수치를 측정한다. 이는 원인 규명에 가장 직접적인 검사이다. 따라서 정답은 FSH와 에스트로겐 수치이다.
 
 ## 출처
 

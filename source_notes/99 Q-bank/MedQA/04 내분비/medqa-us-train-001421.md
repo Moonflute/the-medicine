@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 증식한 여포곁 C세포
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+여포성 갑상선암은 모세혈관 침범이 없더라도 피막 및 혈관 침범을 보일 수 있다. 핵 비정형이 없고 피막·혈관 침범이 있는 소견은 악성 여포성 암을 시사한다. 따라서 C가 진단에 도움이 되는 병리 소견이다.
 
 ## 출처
 

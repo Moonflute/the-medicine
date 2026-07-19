@@ -17,11 +17,13 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. RDW와 TIBC 증가
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+결막 창백은 철 결핍성 빈혈을 시사한다. 철 결핍 시 적혈구 용적 감소와 함께 RDW(적혈구 분포 폭)와 TIBC(총 철 결합능) 상승이 특징이다. 따라서 RDW와 TIBC 증가가 예상되는 소견이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 울혈성 심부전
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+석면 노출과 관련된 악성 중피종은 흉막에 결절성 병변과 고단백, 고LDH의 삼출성 흉수를 일으킨다. 환자의 직업력과 흉수 특성이 중피종을 가장 가능성 있게 만든다. 기관지 선암은 주로 폐 실질에 결절을 형성한다.
 
 ## 출처
 

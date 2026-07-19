@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 리튬(Lithium)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 임신 중이면서 조증(과다활동, 수면 감소, 과잉성욕) 증상을 보인다. 조증 치료에 금기인 약물은 리튬이며, 임신 중에도 비교적 안전한 항정신병제인 할로페리돌이 선택된다. 따라서 가장 적절한 다음 관리 단계는 할로페리돌 투여이다.
 
 ## 출처
 

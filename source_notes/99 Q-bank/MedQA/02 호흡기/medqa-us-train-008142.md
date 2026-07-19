@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흉막세포의 종양성 증식
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+기관지확장은 반복 감염과 폐포 파열 위험을 높이며, 혈관이 확장된 부위가 손상될 경우 대량 출혈(기관지‑폐동맥 손상)이라는 치명적 합병증이 가장 위험하다. 다른 선택지는 상대적으로 위험도가 낮다.
 
 ## 출처
 

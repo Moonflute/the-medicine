@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수혈 관련 급성 폐손상
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수혈 후 1~2시간 내에 발열과 오한이 나타나고 혈압·호흡은 정상이며 호흡기 증상이 없을 때는 비용혈성(비감염성) 반응이 가장 흔하다. 이는 항체와 백혈구가 수혈된 백혈구에 반응해 발생한다. 따라서 발열성 비용혈성 수혈반응이 가장 가능성 높다.
 
 ## 출처
 

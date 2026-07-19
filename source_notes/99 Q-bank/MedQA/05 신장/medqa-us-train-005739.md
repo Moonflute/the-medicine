@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈액요소질소(BUN):혈청 크레아티닌(SCr) 비율
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신우통 증상과 혈뇨가 있을 때 가장 먼저 시행하는 영상검사는 방사선 노출을 최소화하는 신장 초음파이다. 이는 결석 유무를 빠르게 확인한다. 따라서 신장 초음파가 초기 검사의 선택이다.
 
 ## 출처
 

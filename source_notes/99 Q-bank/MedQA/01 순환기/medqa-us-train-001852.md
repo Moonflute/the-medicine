@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 파열된 오금낭종
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다리 부종과 종아리 둘레 차이, 표재성 정맥 확장, 그리고 초음파에서 대퇴심부정맥이 압축되지 않은 것은 깊은 정맥혈전증(DVT)을 시사한다. DVT는 급성 다리 통증과 부종을 일으키며, 조기 항응고가 필요하다. 따라서 가장 가능성 높은 진단은 심부정맥혈전증이다.
 
 ## 출처
 

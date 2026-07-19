@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메토트렉세이트 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손가락 관절 부종, 손발톱 하 황백색 판, 다관절 통증은 건선성 관절염을 시사한다. 초기 치료는 염증 억제를 위해 메토트렉세이트와 함께 인도메타신을 병용하는 것이 권장된다. 따라서 인도메타신과 메토트렉세이트 투여가 가장 적절하다.
 
 ## 출처
 

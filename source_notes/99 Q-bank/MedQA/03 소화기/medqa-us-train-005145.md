@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 메토클로프라미드 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+식사 후 악화되는 상부 복통과 조기 포만감은 기능성 소화불량을 시사한다. 헬리코박터 파일로리 감염 여부를 비침습적으로 확인할 수 있는 대변 항원 검사가 가장 효율적인 초기 접근이다. 따라서 대변 항원 검사가 적절하다.
 
 ## 출처
 

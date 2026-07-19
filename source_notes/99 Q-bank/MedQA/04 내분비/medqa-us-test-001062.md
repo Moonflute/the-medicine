@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프로프라놀롤
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고열, 빈맥, 불안, 땀, 손떨림 등 갑상선 폭풍의 전형적인 증상이 나타난다. 급성 증상 완화를 위해 베타 차단제인 프로프라놀롤을 먼저 투여한다. 따라서 정답은 프로프라놀롤이다.
 
 ## 출처
 

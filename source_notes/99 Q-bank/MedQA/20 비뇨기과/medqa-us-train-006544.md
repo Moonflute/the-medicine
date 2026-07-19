@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 요역동학검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 기침·재채기 시 발생하는 요실금으로 복압성 요실금이 의심된다. 복압성 요실금의 진단은 요도 움직임을 평가하는 Q‑tip 검사가 가장 민감하고 특이하다. 따라서 Q‑tip 검사가 진단 확인에 가장 적합하다.
 
 ## 출처
 

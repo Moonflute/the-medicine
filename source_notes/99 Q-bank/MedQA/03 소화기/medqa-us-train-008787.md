@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 담즙산 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 급성 담관염(앵싱 콜란지티스)으로 고열·황달·ALP 상승을 보이며 항생제로 일시 호전되었다. 담관 폐쇄가 지속될 경우 황달이 악화되므로 ERCP를 통한 담관 배액 및 결석 제거가 필요하다. 따라서 ERCP가 가장 적절한 다음 처치이다.
 
 ## 출처
 

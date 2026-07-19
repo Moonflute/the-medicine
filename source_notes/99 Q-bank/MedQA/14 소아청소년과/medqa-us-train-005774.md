@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 출혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+미숙아는 철 저장량이 적고 성장기 영양 요구가 높아 철결핍성 빈혈 위험이 증가한다. 다른 선택지는 미숙아와 직접적인 연관성이 낮다. 따라서 가장 위험이 높은 합병증은 철결핍성 빈혈이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 동기강화 면담
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+바레니클린은 니코틴 수용체 차단제로 금연 성공률을 크게 높이며, 금연 의지가 강한 중증 흡연자에게 1차 치료제로 권장된다. 니코틴 패치는 금연 부작용이 심하고 디아제팜은 불안 치료에만 해당한다. 동기강화 면담은 보조적이지만 약물 치료가 우선이다.
 
 ## 출처
 

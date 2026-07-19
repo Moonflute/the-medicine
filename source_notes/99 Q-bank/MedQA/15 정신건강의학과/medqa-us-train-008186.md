@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 다음 날 정신과 예약
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+자살 시도 후에도 위험 평가에서 자해 의도가 지속되고 보호자·환경적 위험 요인이 존재하면 비자(입원) 조치가 필요하다. 환자는 여전히 자살 위험이 높으며, 외부 보호가 충분치 않다. 따라서 비자의 입원이 가장 적절하다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 부프레노르핀 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+비전위성 척골 골절 후 급성 통증 관리가 필요하며, 메타돈 유지 중인 환자에게는 짧은 작용시간의 오피오이드(예: 정맥 또는 근육 주사)를 정해진 간격으로 투여해 통증을 조절한다. 다른 선택지는 해당 상황에 직접적인 도움이 되지 않는다.
 
 ## 출처
 

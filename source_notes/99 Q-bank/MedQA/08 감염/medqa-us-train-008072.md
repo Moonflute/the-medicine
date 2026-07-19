@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 제8인자 결핍
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반코마이신·겐타마이신 치료와 수술 후 장기간 항생제 사용은 장내 정상균총을 억제하고 비타민 K 생산을 감소시켜 PT·aPTT 연장과 출혈을 초래한다. 따라서 항생제 치료가 원인이다.
 
 ## 출처
 

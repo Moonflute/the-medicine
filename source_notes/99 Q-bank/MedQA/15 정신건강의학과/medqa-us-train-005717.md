@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 섬망
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+정체성 기억상실과 개인 정체성에 대한 기억 상실은 해리성 둔주를 동반한 해리성 기억상실의 특징이다. 이는 스트레스성 트리거와 일시적인 기억 결손을 동반한다. 따라서 가장 가능성 높은 진단은 해리성 둔주를 동반한 해리성 기억상실이다.
 
 ## 출처
 

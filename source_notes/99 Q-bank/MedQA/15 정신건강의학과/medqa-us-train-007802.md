@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 파록세틴으로 변경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+플루옥세틴은 SSRI로 효과 발현에 4‑6주가 필요하므로, 2주 후에도 증상이 호전되지 않았다면 약물을 계속 복용하면서 충분한 시간(6‑8주) 동안 관찰하는 것이 적절하다. 다른 약물 교체는 조기에 필요하지 않다.
 
 ## 출처
 

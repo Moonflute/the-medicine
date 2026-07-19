@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 방광 내 디메틸설폭사이드
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 방광 통증과 방광경 검사에서 점상 출혈이 보이는 경우, 방광통증 증후군(간질성 방광염)으로 행동 요법(예: 방광 훈련, 스트레스 관리)이 1차 치료에 권장된다. 따라서 가장 적절한 관리 단계는 행동 수정이다.
 
 ## 출처
 

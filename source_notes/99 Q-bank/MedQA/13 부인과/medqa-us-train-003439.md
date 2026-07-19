@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 기대요법
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 35주에 양막 파열 후 양성 레시틴/스핑고미엘린 비율(>1.5)은 태아 폐 미성숙을 의미한다. 조산 위험을 낮추기 위해 항생제와 함께 베타메타손을 투여해 폐 성숙을 촉진한다. 따라서 가장 적절한 처치는 베타메타손이다.
 
 ## 출처
 

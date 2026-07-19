@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세팔렉신으로 변경
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 초기에는 신경관 결손 위험을 감소시키기 위해 엽산 보충이 권장된다. 다른 선택지는 직접적인 선천성 기형 예방 효과가 없으며, 약물 교체는 임신 유지와는 무관하다. 따라서 엽산 보충이 가장 도움이 된다.
 
 ## 출처
 

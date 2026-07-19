@@ -16,11 +16,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 경막외 마취
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+분만 1기에서 자궁경부가 완전히 확장되고 태아가 -1 station에 머무는 것은 2시간 이상 진행이 정체된 2단계 진전 지연을 의미한다. 태아 심박수는 정상이며 양측 수축도 적절하므로 비상 조치는 필요하지 않다. 따라서 추가 1시간 관찰을 통해 자연 진행을 기대한다.
 
 ## 출처
 

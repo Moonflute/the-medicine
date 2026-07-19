@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 지연성 운동이상증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+페니토인은 갑상선 기능을 억제해 저혈압·저체온·피부 건조·탈모 등을 일으키며, 기억력 저하가 흔한 부작용이다. 따라서 예상되는 추가 소견은 기억력 저하이다. 다른 선택지는 페니토인과 직접 연관되지 않는다.
 
 ## 출처
 

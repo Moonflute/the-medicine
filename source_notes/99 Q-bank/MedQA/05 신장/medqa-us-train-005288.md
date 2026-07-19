@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈액량 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+48시간 지속된 구토·설사와 고열 후 내원한 환자는 체액 손실로 혈액량이 감소했다. 저나트륨혈증(123 mEq/L)과 BUN/Cr 비율 상승(42/1.9)은 전신성 탈수에 의한 prerenal 부전을 시사한다. 혈액량 감소가 ADH 분비를 촉진해 희석성 저나트륨혈증을 일으키므로 정답은 D이다.
 
 ## 출처
 

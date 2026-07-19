@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -51,7 +53,8 @@ D. 철적아구성 빈혈
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈청 철과 페리틴이 정상·높고 트랜스페린 포화도가 78%인 경우, 철이 과다하게 축적된 철적아구성 빈혈이 의심된다. 다른 선택지는 철 결핍·만성질환·혈색소침착증과 일치하지 않는다. 따라서 철적아구성 빈혈이 정답이다
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: association
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 대동맥-심실 압력차 정상, 이완기 기능 정상, 심실강 증가,
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+독소루비신은 확장성 심근증을 일으켜 좌심실 용적이 증가하고 심실벽이 얇아지는 확장성 심근병증을 초래한다. 이는 이완기 기능은 정상이나 수축기 기능 저하와는 구별된다. 따라서 심초음파에서 가장 가능성 높은 변화는 대동맥‑심실 압력차 정상, 이완기 기능 정상, 심실강 증가, 심실벽 두께 감소이다.
 
 ## 출처
 

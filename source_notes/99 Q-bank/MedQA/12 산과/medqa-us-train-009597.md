@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자궁외임신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+초음파에서 태아 심장 활동과 움직임이 전혀 보이고 1시간 간격으로 재검사에서도 동일하게 나타난 경우, 태아 사망(자궁 내 사망)이 확정된다. 계류유산·불완전 유산·자궁외임신은 초음파에서 다른 소견을 보인다.
 
 ## 출처
 

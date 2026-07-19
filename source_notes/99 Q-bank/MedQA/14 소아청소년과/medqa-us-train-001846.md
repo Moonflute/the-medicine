@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 비강 내 인플루엔자 백신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 심한 알레르기 반응 병력이 있어 근육주사 형태의 인플루엔자 백신은 알레르기 위험이 높다. 반면 비강 내 백신은 비활성화된 형태이지만, 이 경우에도 근육주사는 금기이다. 따라서 근육주사 인플루엔자 백신이 권장되지 않는다.
 
 ## 출처
 

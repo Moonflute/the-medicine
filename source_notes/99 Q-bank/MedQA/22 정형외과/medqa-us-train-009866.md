@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 나프록센과 콜히친 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+관절천자에서 고농도 백혈구와 화농성 삼출액이 나오면 급성 화농성 관절염(패혈성 관절염) 가능성이 높으며, 즉시 정맥주사 항생제로 치료하고, 감염 확인을 위해 관절천자를 반복한다. 따라서 정답은 정맥주사 항생제 투여 및 관절천자 반복이다.
 
 ## 출처
 

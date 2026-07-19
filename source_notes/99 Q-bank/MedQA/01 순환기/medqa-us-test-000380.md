@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 심낭의 섬유성 비후
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+심정맥압 상승, 경정맥 팽창, 저혈압 차이(맥박압 감소)와 심낭 삼출음은 심낭에 액체가 축적된 심낭삼출을 나타낸다. 이는 심낭 공간에 체액이 모여 심장 압박을 일으키는 상태이다. 따라서 정답은 C이다.
 
 ## 출처
 

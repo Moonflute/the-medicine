@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항-D 면역글로불린과 경구 미소프로스톨
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈청 β‑hCG 상승과 비어 있는 자궁강, 골반액은 임신성 외 임신(이소성 임신)을 시사한다. Rh‑음성 환자에게는 Rh 면역글로불린이 필요하고, 임신을 종결하기 위해 메토트렉세이트를 근육주사한다. 따라서 두 약물을 병용하는 것이 적절하다.
 
 ## 출처
 

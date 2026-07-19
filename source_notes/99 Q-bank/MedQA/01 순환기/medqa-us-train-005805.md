@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전기적 심율동전환
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+알코올 섭취 후 발생한 불규칙 심박동은 휴일 심장 증후군(발작성 심방세동)으로, 증상이 경미하고 혈역학적으로 안정적이면 관찰이 권장된다. 전기적 전환이나 약물은 필요하지 않다. 따라서 가장 적절한 조치는 관찰이다.
 
 ## 출처
 

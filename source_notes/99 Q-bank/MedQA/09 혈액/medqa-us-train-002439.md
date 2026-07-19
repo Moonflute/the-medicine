@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 불용성 단백질 침착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손발 저림, 말초 감각 저하, 발목 반사 소실, 보행실조, 롬베르그 양성은 비타민 B12 결핍에 의한 아교성 결합부 퇴행(척수후측경화증)과 일치한다. 비타민 B12 결핍 시 메틸말론산(MMA) 수치가 상승한다는 것이 특징적인 생화학적 지표이다. 따라서 가장 가능성 높은 원인은 MMA 수치 증가이다.
 
 ## 출처
 

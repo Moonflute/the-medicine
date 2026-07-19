@@ -16,11 +16,13 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 국소 스테로이드 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 폐쇄각 녹내장은 안압 상승으로 전방각이 좁아져 안구 내압이 급격히 상승한다. 진단을 위해서는 전방각경 검사가 필요하다. 따라서 다음 관리 단계는 전방각경 검사이다.
 
 ## 출처
 

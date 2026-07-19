@@ -17,11 +17,13 @@ question_type: prognosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 알도스테론 길항제는 시각장애를 일으킬 수 있다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+스피로놀락톤은 알도스테론 길항제로, 심부전 환자에서 이환율과 사망률을 감소시키는 효과가 입증되었다. 따라서 알도스테론 길항제는 환자의 예후를 개선한다. 정답은 알도스테론 길항제가 이환율과 사망률을 감소시킨다이다.
 
 ## 출처
 

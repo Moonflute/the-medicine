@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 특발성(Idiopathic)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복통, 무릎을 가슴으로 끌어당기는 행동, 혈변, 우상복부에 소시지 모양 덩어리는 소아에서 가장 흔한 원인인 특발성 장중첩(intussusception)이다. 다른 원인들은 이 전형적인 삼각형 증상과 일치하지 않는다.
 
 ## 출처
 

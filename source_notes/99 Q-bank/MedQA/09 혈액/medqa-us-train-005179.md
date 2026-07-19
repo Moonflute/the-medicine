@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 철분
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+아프리카계 영아에서 정상 MCV와 거대 적혈구 비율이 증가한 경우, 엽산 결핍성 빈혈이 흔히 나타난다. 엽산 보충이 치료에 필요하다. 따라서 비타민 B9(엽산) 투여가 적절하다.
 
 ## 출처
 

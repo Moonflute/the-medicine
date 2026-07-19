@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 헤모글로빈: 7 g/dL, 헤마토크릿: 21%, MCV: 75 µm^3
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 저혈압, 빈맥, FAST에서 복강액을 확인한 급성 출혈성 쇼크 상태이다. 초기 혈액 검사는 저혈색소·저헤마토크리트가 특징이며, 선택지 중 가장 흔한 출혈성 쇼크 수치는 Hb 10 g/dL, Hct 45%이다. 따라서 해당 수치가 가장 적절하다.
 
 ## 출처
 

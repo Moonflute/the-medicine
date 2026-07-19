@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 파열된 전치혈관
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+양막 파열 후 자궁경부 외부에서 대량 출혈이 관찰되는 경우, 태아와 직접 연결된 혈관(전치혈관)이 파열된 전치혈관이 원인이다. 전치혈관 파열은 태아 출혈을 초래해 태아 심박수가 감소하는 특징이 있다. 따라서 가장 가능성 높은 진단은 파열된 전치혈관이다.
 
 ## 출처
 

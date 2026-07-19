@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 빈맥
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+바레니클린은 니코틴 수용체 부분 작용제로 금연을 돕지만, 자살 사고·우울감 등 정신건강 부작용이 보고된다. 이러한 부작용은 사용 전 환자에게 반드시 고지해야 한다. 따라서 자살사고가 가장 흔한 부작용이다.
 
 ## 출처
 

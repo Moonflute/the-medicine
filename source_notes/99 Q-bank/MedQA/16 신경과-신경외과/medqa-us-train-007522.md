@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 중심척수 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+열상 아래에 나타나는 감각 차이는 브라운-세카르 증후군(척수 반절단)과 일치한다. 이는 같은 측면의 통각·진동감각 손실과 반대측의 온·통각 손실을 보인다. 따라서 정답은 브라운-세카르 증후군이다.
 
 ## 출처
 

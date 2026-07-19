@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 표피포도상구균
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+소아 급성 혈행성 골수염은 대퇴골 원위부에서 흔히 발생하며, 가장 흔한 원인균은 황색포도상구균(Staphylococcus aureus)이다. 기타 균은 상대적으로 드물다. 따라서 가장 가능성 높은 병원체는 황색포도상구균이다.
 
 ## 출처
 

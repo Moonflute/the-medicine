@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 전조가 있는 편두통
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다량의 비타민 A 보충제는 간에서 비타민 A 축적을 초래해 두통, 구토, 시야 흐림 등 고용량 독성을 일으킨다. 증상은 비타민 A 독성에 특이적이다. 따라서 보충제 사용이 가장 가능성 높은 원인이다.
 
 ## 출처
 

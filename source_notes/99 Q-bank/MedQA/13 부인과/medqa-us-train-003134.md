@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 즉시 메토트렉세이트 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+β‑hCG 805 mIU/mL은 임신 초기이지만 초음파에서 임신이 확인되지 않는 ‘임신 위치 미확인’ 상태이며, 차별 구역(1500 mIU/mL) 이하이므로 48시간 후 경질 초음파(질식 초음파)를 반복해 위치를 확인한다. 이는 가장 적절한 다음 단계이며, 즉시 미소프로스톨 투여는 필요하지 않다.
 
 ## 출처
 

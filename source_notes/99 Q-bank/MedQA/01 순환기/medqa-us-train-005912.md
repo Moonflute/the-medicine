@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 1도 방실차단
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+젊은 마라톤 선수는 교감신경 우위와 고탄수화물 섭취로 인해 1도 방실전도 지연이 흔히 보이지만, 대부분 무증상이다. 모비츠 I형 방실차단은 운동 시 2도 진행이 관찰될 수 있어 운동선수에게 흔히 나타난다. 따라서 모비츠 I형 방실차단이 가장 가능성 높은 진단이다.
 
 ## 출처
 

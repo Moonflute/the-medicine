@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 관찰 및 심초음파 추적
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 승모판 역류와 정상 좌심실 기능이 있는 경우, 약물 치료와 함께 외과적 교정이 필요하다. 따라서 ACE 억제제, 베타차단제, 이뇨제와 수술이 가장 적절한 치료이다.
 
 ## 출처
 

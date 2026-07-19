@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 핵형검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고성선자극성 성선기능저하증(프라이머리 아몰레시아)에서는 FSH가 현저히 상승하고, 염색체 이상을 확인하기 위해 핵형검사가 필요하다. 다른 검사는 원인 규명에 직접적이지 않다. 따라서 핵형검사가 적절한 진단 단계이다.
 
 ## 출처
 

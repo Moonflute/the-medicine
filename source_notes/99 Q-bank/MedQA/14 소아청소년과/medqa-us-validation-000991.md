@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 팔로 4징
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+윌리엄스 증후군은 대동맥판상 협착과 고칼슘혈증을 동반한다. 환자의 얼굴 특징과 고칼슘혈증이 이를 시사한다. 따라서 관련된 심장 이상은 대동맥판상 협착이다.
 
 ## 출처
 

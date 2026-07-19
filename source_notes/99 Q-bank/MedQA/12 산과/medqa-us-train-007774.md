@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자궁수축억제제 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+태아 심박동 변이도가 15회/분 이상이지만 가속과 변동이 정상 범위이며 감속이 자궁수축과 시점이 맞지 않아 비변동성 감속으로 간주된다. 이는 태아가 현재는 양호한 상태임을 의미하므로 특별한 중재 없이 일상적인 모니터링을 지속하면 된다. 따라서 일상적 모니터링이 가장 적절한 처치이다.
 
 ## 출처
 

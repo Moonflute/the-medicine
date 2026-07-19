@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 프레드니손
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+초기 고관절 통증에 염증 표지자(CRP)가 정상이고 방사선이 정상인 경우, 경증의 일과성 활막염이 의심된다. 비스테로이드성 소염제인 이부프로펜이 증상 완화에 첫 번째 선택이다. 따라서 이부프로펜이 적절한 치료이다.
 
 ## 출처
 

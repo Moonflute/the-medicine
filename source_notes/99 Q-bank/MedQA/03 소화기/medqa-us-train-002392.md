@@ -17,11 +17,13 @@ question_type: adverse_effect
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 암로디핀을 중단한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+알렌드로네이트는 경구 복용 시 식도에 직접 접촉해 점막 손상을 일으킬 수 있다. 위식도 접합부에 단일 원형 궤양이 발견된 것은 알렌드로네이트에 의한 식도염(약물성 식도염)과 일치한다. 따라서 약물을 중단하는 것이 가장 적절한 다음 단계이다.
 
 ## 출처
 

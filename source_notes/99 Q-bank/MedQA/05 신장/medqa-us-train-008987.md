@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 낮은 소변 삼투질농도, 높은 나트륨 분획배설, 낮은 소변 �
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+탈수성 신전성 급성 신손상에서는 체액 감소로 사구체 여과율이 감소하고, 신장은 물을 보존하려 하여 소변 삼투압은 높고 소변 나트륨은 낮으며, 나트륨 분획배설도 낮다. 따라서 두 번째 선택지가 일치한다.
 
 ## 출처
 

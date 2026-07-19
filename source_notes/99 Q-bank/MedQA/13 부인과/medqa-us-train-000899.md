@@ -21,11 +21,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -43,7 +45,8 @@ D. HPV 관련 선별검사는 시행하지 않고 HPV 백신을 접종함
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+16세 여성은 HPV 감염 위험이 높으며, 현재 HPV 선별 검사는 권장되지 않는다. 대신 11‑12세에 시작해 26세까지 3회 접종하는 HPV 백신이 예방에 가장 효과적이다. 따라서 HPV 백신을 접종하는 것이 적절한 다음 관리 단계이다.
 
 ## 출처
 

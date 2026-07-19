@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세프트리악손으로 입원 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+고령 환자에서 고열, 악액감, 녹황색 가래, 폐렴 소견은 중증 커뮤니티 획득 폐렴을 시사한다. 입원 치료가 필요하며, 아지스로마이신과 세포탁심(β‑락탐제) 조합은 내성균 포함 광범위 치료에 권장된다. 따라서 정답은 아지스로마이신과 세포탁심이다.
 
 ## 출처
 

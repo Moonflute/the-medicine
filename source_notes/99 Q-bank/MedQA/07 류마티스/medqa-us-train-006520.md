@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 건선성 관절염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대칭성 관절통·부종과 레이스 모양의 비가려운 발진은 파보바이러스 B19 감염에 흔히 동반된다. 혈액검사에서 염증표지와 자가항체가 정상인 점도 이를 뒷받침한다. 따라서 가장 가능성 높은 진단은 파보바이러스 관절염이다.
 
 ## 출처
 

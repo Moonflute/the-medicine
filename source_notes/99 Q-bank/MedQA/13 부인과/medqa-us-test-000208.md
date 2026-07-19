@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 자궁절제술을 시행한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+CIN 1은 저등급 상피내 병변으로 대부분 2년 이내에 자연 소실된다. 치료보다 6개월, 12개월에 세포학 검사를 반복하고 12개월에 HPV DNA 검사를 시행하며 관찰하는 것이 권장된다. 따라서 면밀히 관찰하는 A가 정답이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,9 @@ D. 비대성 유문협착증
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+신생아에서 삼중 기포(Triple bubble) 소견은 공장 폐쇄(jejunal atresia)를 시사한다. 이는 상복부 가스와 하부 무가스로 나타난다. 따라서 공장 폐쇄가 가장 가능성 높은 진단이다.
+다른 선택지는 해당 방사선 소견과 맞지 않는다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 성문상부성형술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흡기성 천명은 후두연화증(소아 기도 연화)에서 흔히 나타나며, 산소포화도가 정상이고 증상이 경미하면 자연 경과를 관찰한다. 외과적 개입이나 약물 치료는 필요하지 않다. 따라서 관찰이 가장 적절한 치료이다.
 
 ## 출처
 

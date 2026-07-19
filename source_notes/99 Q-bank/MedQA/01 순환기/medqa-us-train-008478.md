@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 리시노프릴과 비스프로롤 처방
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+정맥 주사된 알칼리성 용액(중탄산나트륨)은 삼환계 항우울제 과다복용 시 QRS 연장을 빠르게 교정한다. 다른 선택지는 해당 독성에 효과가 없다.
 
 ## 출처
 

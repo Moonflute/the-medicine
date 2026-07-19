@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 골주사검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+요통과 T12 압통, 알칼리성 인산분해효소 상승은 골전이를 시사한다. 골전이 여부와 신경압박 위험을 평가하려면 연부조직과 골수 병변을 가장 잘 보는 영상인 척추 MRI가 필요하다. 따라서 다음 단계는 척추 MRI이다.
 
 ## 출처
 

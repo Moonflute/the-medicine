@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 약물 유발 면역 용혈반응
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중 약물(예: 항고혈압제)로 인해 면역 매개 용혈성 빈혈이 발생하면 직접 항글로불린 검사(DAT)가 양성이고, 말초 혈액 도말에서 이방적혈구와 망상적혈구가 보인다. 이는 약물 유발 면역 용혈반응에 해당한다. 따라서 가장 가능성 높은 진단은 약물 유발 면역 용혈반응이다.
 
 ## 출처
 

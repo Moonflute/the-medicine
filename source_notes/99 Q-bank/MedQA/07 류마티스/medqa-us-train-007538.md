@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 반응성 관절염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+손톱 오목, 비듬(건선) 및 DIP 관절 침식과 주변 신생골은 건선관절염의 특징이다. 또한 손가락과 발가락의 지염(디지털 부종)과 무릎 활막염은 건선관절염에서 흔히 나타난다. 따라서 제시된 소견은 건선관절염에 가장 부합한다. 반면 류마티스관절염은 보통 PIP와 MCP 관절에 침식이 나타나며, 건선 피부 병변이 없고 손톱 오목이 특징이 아니다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 흡혈 기생충 감염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+대상포진은 감각신경절(후근신경절)에서 수두-대상포진 바이러스가 재활성화되어 발생하며, 수포와 딱지가 따라 나타나는 일방성 피부 발진을 만든다. 환자의 수포성 발진과 통증이 이 메커니즘에 부합한다. 따라서 가장 가능성 높은 기전은 후근신경절에서 바이러스 재활성화이다.
 
 ## 출처
 

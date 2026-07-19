@@ -17,11 +17,13 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 퀀티페론 검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+미국에서는 고위험군(예: 해외 출신, 흡연, 저소득, 수감 경력)에게 결핵 감염 선별을 권고한다. 퀀티페론 검사는 잠복결핵 감염을 빠르게 확인한다. 따라서 정답은 D이다.
 
 ## 출처
 

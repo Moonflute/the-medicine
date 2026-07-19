@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 사람유두종바이러스
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+항문 주위의 무통성, 과각화성, 무경성 병변은 인간 유두종바이러스(HPV) 감염에 의한 콘딜로마(사마귀)와 일치한다. HPV 감염은 성접촉을 통해 전파된다. 따라서 가장 가능성 높은 원인은 HPV이다.
 
 ## 출처
 

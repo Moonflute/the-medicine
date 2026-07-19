@@ -17,11 +17,13 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대두 제품을 제한한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+셀리악병 환자는 글루텐 제한 외에 2차적으로 유당불내증이 흔히 나타나며, 설사와 복부팽만을 완화하려면 유제품을 피하는 것이 가장 효과적이다. 디페녹실레이트는 장내 효소 보충제이지만 유당불내증에 직접적인 해결책이 아니다.
 
 ## 출처
 

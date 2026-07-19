@@ -18,11 +18,13 @@ question_type: adverse_effect
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 독성쇼크증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+TMP‑SMX 복용 후 20% 이상의 피부 탈락과 점막·점막 병변(입술 미란)은 급성 표피 괴사성 반응을 의미한다. 이는 약물 유발 Stevens‑Johnson 증후군(SJS)이며, 전신 증상이 동반될 수 있다. 따라서 해당 소견과 가장 일치하는 진단은 SJS이다.
 
 ## 출처
 

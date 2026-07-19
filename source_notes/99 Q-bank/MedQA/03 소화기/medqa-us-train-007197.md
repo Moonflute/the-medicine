@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 급성 담관염
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 초음파에서 불규칙한 벽과 격벽이 있는 복합 낭성 액체 집합이 관찰되며, 발열·백혈구 증가·복통이 동반된 점은 감염성 병변을 시사한다. 췌장에 국한된 고형성 액체와 고름이 형성되는 경우가 췌장 농양이며, 효소 수치는 크게 상승하지 않아 농양이 가장 가능성이 높다.
 
 ## 출처
 

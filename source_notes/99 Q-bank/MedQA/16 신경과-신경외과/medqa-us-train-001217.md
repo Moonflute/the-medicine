@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 흑질(substantia nigra)의 퇴행
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+점진적이고 양측성 저주파 진전·운동 저항 증가·근력 저하가 5 년 이상 지속된 경우 파킨슨병을 시사한다. 파킨슨병은 흑질의 도파민성 신경세포 퇴행으로 발생한다. 따라서 가장 가능성 높은 원인은 흑질 퇴행이다.
 
 ## 출처
 

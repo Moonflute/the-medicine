@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대퇴골두 수술적 핀 고정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+청소년에서 급성 고관절 통증과 움직임 제한은 대퇴골두 골단분리(슬립)와 일치한다. 이 병변은 혈액 공급 차단으로 골두가 골반에서 분리될 위험이 있어, 조기에 고정이 필요하다. 따라서 가장 적절한 치료는 대퇴골두 수술적 핀 고정이다.
 
 ## 출처
 

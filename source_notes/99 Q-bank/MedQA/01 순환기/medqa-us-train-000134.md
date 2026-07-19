@@ -15,11 +15,13 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -37,7 +39,8 @@ D. 부정맥성 실신(Arrhythmogenic syncope)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+배뇨 후 발생한 짧은 실신은 배뇨성 실신(상황성 실신)의 전형적인 양상이다. 다른 실신 유형은 특정 트리거가 없거나 심전도 이상을 동반한다.
 
 ## 출처
 

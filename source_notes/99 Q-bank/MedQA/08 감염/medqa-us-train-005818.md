@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 오믈렛
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+혈변·고열·복통·다형핵백혈구가 동반된 급성 설사는 살모넬라 감염과 일치한다. 살모넬라는 덜 익힌 달걀(오믈렛)에서 흔히 전파된다. 다시 데운 밥·요구르트·독버섯은 해당 병원체와 연관이 적다.
 
 ## 출처
 

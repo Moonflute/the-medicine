@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 아스퍼거 증후군
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+사회적 고립, 감정 표현 제한, 타인과의 교류 회피가 평생 지속된 양상이며 청소년기부터 나타난 인격 특성이다. 이는 대인관계와 감정 표현에 결함이 있는 분열성 인격장애와 일치한다. 따라서 분열성 인격장애가 가장 가능성 높은 진단이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 응급 심초음파
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 갑작스러운 무맥성 심정지와 심전도에서 전형적인 심실세동 파형을 보인다. 심실세동에서는 비동기식 제세동(unsynchronized cardioversion)이 즉시 시행되어야 한다. 따라서 비동기식 제세동이 가장 적절한 조치이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 에날라프릴
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+ST 상승이 일시적이며 트로포닌이 음성인 경우 혈관연축성 협심증(프린즈메탈)으로 진단된다. 장기 치료는 혈관 평활근을 이완시켜 스파즘을 억제하는 칼슘채널 차단제이다. 따라서 딜티아젬이 정답이다.
 
 ## 출처
 

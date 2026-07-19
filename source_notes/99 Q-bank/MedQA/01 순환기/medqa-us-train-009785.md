@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 대동맥판 역류
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+폐동맥판 협착은 폐기저부 수포음과 심전도에서 P파 소실(심방세동)과 연관된다. 환자의 증상과 청진 소견은 폐동맥판 협착에 부합한다. 따라서 가장 가능성 높은 진단은 승모판 협착이 아니라 폐동맥판 협착이다.
 
 ## 출처
 

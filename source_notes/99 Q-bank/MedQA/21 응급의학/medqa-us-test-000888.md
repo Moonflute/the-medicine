@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 내 항-A, 항-B 또는 항-O 항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 코카인 사용과 알부테롤 복용으로 혈소판 기능 저하와 용혈성 빈혈 위험이 높다. 급성 수혈 후 급성 용혈성 반응이 나타나면 용혈성 빈혈과 운동실조가 흔히 동반된다. 따라서 가장 가능성 높은 소견은 용혈성 빈혈과 운동실조이다.
 
 ## 출처
 

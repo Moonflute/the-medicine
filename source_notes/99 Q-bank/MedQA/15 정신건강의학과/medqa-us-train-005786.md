@@ -17,11 +17,13 @@ question_type: ethics
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 둘록세틴 약물치료를 시작하고 심리치료를 의뢰한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 자살 생각을 명시적으로 표현했으며, 즉각적인 위험 평가가 최우선이다. 자살 위험을 평가하기 위해서는 구체적인 자해 계획·방법·시기 등을 묻는 것이 필수적이다. 따라서 가장 적절한 다음 단계는 자해 생각을 구체적으로 물어보는 것이다.
 
 ## 출처
 

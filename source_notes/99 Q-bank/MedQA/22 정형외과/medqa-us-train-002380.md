@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 생리식염수에 적신 거즈로 감싸 밀폐 비닐봉지에 넣어 얼�
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+절단된 손가락 끝은 건조하게 두면 조직 손상이 가속되므로, 생리식염수에 적신 거즈로 습윤을 유지하고 밀폐 비닐봉지에 넣어 얼음물(냉수) 위에 보관해야 혈관 및 신경 손상을 최소화한다. 이는 절단 부위 보존에 권장되는 표준 처리법이다. 따라서 정답은 생리식염수에 적신 거즈로 감싸 밀폐 비닐봉지에 넣어 얼음물 위에 두는 것이다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 왼쪽 후대뇌동맥 기형 파열
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+언어 구사 장애와 오른쪽 안면 마비·근력 저하가 동시에 나타난 경우, 반대쪽(왼쪽) 대뇌 반구의 중대뇌동맥(MCA) 폐색이 가장 흔한 원인이다. MCA 폐색은 전두·두정 부위에 영향을 주어 전반적인 언어 표현 장애(실어증)와 반대쪽 안면·사지 약화를 일으킨다. 따라서 왼쪽 중대뇌동맥 폐색이 정답이다.
 
 ## 출처
 

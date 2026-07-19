@@ -18,11 +18,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 진단적 복강세척
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+FAST 검사가 불확실하고 혈압 저하·복부 압통이 있는 경우, 진단적 복강세척은 출혈 여부를 빠르게 확인할 수 있는 방법이다. 복부 CT는 혈역학 불안정 시 지연될 수 있다. 따라서 가장 적절한 단계는 D이다.
 
 ## 출처
 

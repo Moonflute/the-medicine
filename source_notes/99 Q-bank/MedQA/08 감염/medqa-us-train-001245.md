@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 미엘린에 대한 자가항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+보툴리눔 독소는 신경 말단에서 아세틸콜린 방출을 차단한다. 이는 근육 마비와 안구 운동 마비를 일으키며, 음식 섭취 후 증상이 나타난다. 따라서 가장 가능성 높은 원인은 아세틸콜린 분비 억제 독소이다.
 
 ## 출처
 

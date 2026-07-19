@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 신경전도검사
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Duchenne 근이영양증은 X‑연결 열성 유전병으로 DMD 유전자 결함을 확인하는 유전자 검사가 확진에 필수이다. 근력 저하와 종아리 비대가 전형적인 임상소견이다. 따라서 가장 적절한 검사는 유전자 검사이다.
 
 ## 출처
 

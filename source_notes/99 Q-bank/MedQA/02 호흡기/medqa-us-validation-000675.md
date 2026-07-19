@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폐동맥의 갑작스러운 협착
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 호흡곤란증후군(ARDS)에서는 양측 폐에 비대칭적인 주변부(지엽) 침윤이 나타나며, 이는 ‘비대칭 폐침윤’으로 표현된다. 환자의 저산소증, 정상 심초음파, 낮은 폐모세혈관 쐐기압이 ARDS를 시사한다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 소수 혈액형 불일치
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+수혈 후 1시간 이내에 발열(38.3°C)과 오한, 두통이 나타났으며, 진통제는 투여되지 않았다. 이는 수혈에 포함된 백혈구에 대한 면역 반응으로 발생하는 비용혈성 발열 수혈 반응이다. 따라서 가장 가능성이 높은 진단은 비용혈성 발열 수혈 부작용이다.
 
 ## 출처
 

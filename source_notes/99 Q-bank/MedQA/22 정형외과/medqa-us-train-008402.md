@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 보조기(하네스)로 치료한다
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+Ortolani 검사에서 양성 반응과 초음파에서 α각 50°는 발달성 고관절 탈구를 의미한다. 초기 치료는 Pavlik 보조기를 착용하는 것이 표준이다. 따라서 정답은 D이다.
 
 ## 출처
 

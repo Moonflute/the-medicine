@@ -18,11 +18,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 인슐린 유전자 발현 감소
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+임신 중에 인간 태반락토겐(hPL)은 인슐린의 작용을 억제하여 인슐린 저항성을 증가시킨다. 이는 혈당 상승을 초래해 임신성 당뇨병을 유발한다. 따라서 정답은 A이다.
 
 ## 출처
 

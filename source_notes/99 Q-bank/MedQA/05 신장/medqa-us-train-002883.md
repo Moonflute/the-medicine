@@ -18,11 +18,13 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 정맥 신우조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+감염성 요관천공 결석에 의한 급성 신우신염은 요관 폐쇄와 신우 확장을 동반한다. 신우에 고압이 가해지면 신우벽 비후와 주변 염증이 발생하고, 급성 감염이 진행될 경우 신우배액이 필요하다. 경피적 신루설치술이 가장 빠른 배액 방법이다.
 
 ## 출처
 

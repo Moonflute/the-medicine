@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 세페핌과 레보플록사신
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+중증 호흡부전과 그람음성 막대균이 확인된 병원획득 폐렴에서는 광범위한 베타-락탐제와 플루오로퀴놀론을 포함한 조합이 필요하다. 세페핌과 레보플록사신은 그람음성균에 대한 적절한 경험적 치료이다.
 
 ## 출처
 

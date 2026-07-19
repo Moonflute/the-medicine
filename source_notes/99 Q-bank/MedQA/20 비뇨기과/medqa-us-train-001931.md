@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 혈청 유행성이하선염 IgG 역가 측정
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+음낭·고환 통증과 부종, 백뇨가 동반된 경우 가장 먼저 시행해야 할 검사는 음낭 초음파로 혈류와 비정상적 흐름을 확인하는 것이다. 이는 고환염(부고환염)과 고환비틀림을 구분한다. CT나 혈청 검사는 초기 진단에 필요하지 않다.
 
 ## 출처
 

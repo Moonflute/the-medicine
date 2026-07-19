@@ -17,11 +17,13 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 폰빌레브란트병
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+PT는 정상이고 PTT가 연장된 경우 내인성 혈액응고인자 결핍을 시사한다. 폰빌레브란트병은 VIII·IX·XI·XII·XIII 인자 결핍으로 PTT 연장을 일으키며, 출혈 양상이 점막 출혈과 멍이 특징이다. 따라서 폰빌레브란트병이 가장 가능성 높다.
 
 ## 출처
 

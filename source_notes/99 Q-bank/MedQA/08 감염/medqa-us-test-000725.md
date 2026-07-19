@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 수액과 관찰
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+뇌척수액에서 저글루코스, 고단백, 백혈구 증가, 압력 상승은 세균성 수막염을 시사한다. 치료는 경험적 항생제 요법으로, 광범위한 그람양성·음성 균을 커버하는 세팔로스포린(세프트리악손)과 반코마이신이 표준이다. 따라서 정맥 수액과 관찰이 아닌 항생제 치료가 필요하다.
 
 ## 출처
 

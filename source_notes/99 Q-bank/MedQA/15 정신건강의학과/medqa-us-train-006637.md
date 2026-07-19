@@ -17,11 +17,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 로라제팜 투여
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+반복적인 갑작스러운 공황 발작에 대한 회피 행동과 정상 심전도·검사 결과는 공황장애를 시사한다. 선택지 중 플루옥세틴은 SSRI로 1차 치료에 적합하다. D-이합체 측정은 진단에 무관하고, 심초음파·로라제팜은 일차 치료가 아니다. 따라서 정답은 플루옥세틴 처방이다.
 
 ## 출처
 

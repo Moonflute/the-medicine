@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. HSV 2형
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+음경과 항문 주위의 무통성 평평하고 유두 모양의 병변은 사마귀이며, 5% 아세트산에 하얗게 변하는 것은 HPV 6·11에 특이적이다. 따라서 원인은 HPV 6형 및 11형이다.
 
 ## 출처
 

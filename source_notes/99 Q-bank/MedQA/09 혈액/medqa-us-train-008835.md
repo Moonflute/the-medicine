@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: @cf/openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 15번과 17번 염색체 사이 전좌
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+백혈구 65,000/µL, 혈소판 500,000/µL, 비장 비대, 그리고 필라델피아 염색체 양성은 만성 골수성 백혈병(CML)을 시사한다. Auer 소체는 급성 골수성 백혈병, JAK2는 골수증식성 질환, 15·17 전위는 급성 전골수성 백혈병과 관련된다. 따라서 필라델피아 염색체가 가장 가능성 높은 소견이다.
 
 ## 출처
 

@@ -17,11 +17,13 @@ question_type: risk_factor
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 반복적인 성매개감염 병력
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+급성 담낭염에서 가장 흔한 위험인자는 담석증이며, 여성·다산·비만·호르몬 요법이 위험요인이다. 질문에 제시된 선택지는 과거 임신력이 가장 관련성이 높다. 다른 선택지는 직접적인 위험인과 관련이 적다.
 
 ## 출처
 

@@ -18,11 +18,13 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -40,7 +42,8 @@ D. 국소 코르티코스테로이드(Topical corticosteroids)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+눈에 날카로운 통증과 흐릿한 시야, 눈물 지속은 각막 손상을 시사한다. 각막 손상은 플루오레세인 염색으로 손상 부위를 시각화하여 확인한다. 따라서 초기 관리로 플루오레세인 염색이 가장 적절하다.
 
 ## 출처
 

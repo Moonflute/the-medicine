@@ -16,11 +16,13 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -38,7 +40,8 @@ D. 에리스로마이신(Erythromycin)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+페니실린 알레르기가 있는 경우, 급성 연쇄상구균 인두염 치료에 에리스로마이신이 1차 선택이다. 따라서 다음 단계는 에리스로마이신 투여이다.
 
 ## 출처
 

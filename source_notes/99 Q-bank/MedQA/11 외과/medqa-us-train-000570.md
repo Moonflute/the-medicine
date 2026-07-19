@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥 코르티코스테로이드 치료
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+흡입 화상은 기도 부종과 폐 손상을 초래할 수 있어 호흡곤란이 없더라도 조기 기도 확보가 필요하다. 환자는 혼란과 GCS 13으로 기도 보호가 불완전하므로 기관 삽관이 우선이다. 따라서 기관 삽관 및 기계 환기가 적절한 다음 관리 단계이다.
 
 ## 출처
 

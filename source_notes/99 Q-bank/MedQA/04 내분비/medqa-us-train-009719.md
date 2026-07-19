@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 항갑상선 과산화효소 항체
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+환자는 경미한 갑상선 기능 저하(TSH 5.3)와 건조한 피부, 탈모 등 갑상선염 증상이 있다. 하시모토 갑상선염에서는 항갑상선 과산화효소(TPO) 항체가 가장 흔히 양성이다. 따라서 항갑상선 과산화효소 항체가 가장 가능성 높은 비정상 검사 결과이다.
 
 ## 출처
 

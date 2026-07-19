@@ -17,11 +17,13 @@ question_type: mechanism
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 수초에 대한 자가면역 공격
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+다발성 백질 병변과 거대 변형된 성상세포·희소돌기아교세포는 JC 바이러스에 의한 진행성 다초점 백질뇌병증(PML)을 시사한다. JC 바이러스는 이중가닥 원형 DNA 바이러스이다. 따라서 이중가닥 원형 DNA 바이러스가 원인이다.
 
 ## 출처
 

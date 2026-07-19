@@ -17,11 +17,13 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 정맥조영술
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+우상복부 통증·복수·다발성 혈전증 위험이 있는 진성 적혈구증가증 환자에서 간정맥 혈전증(버드‑키아리 증후군)을 의심한다. 초음파는 비침습적 1차 검사로 혈전 여부를 확인한다. 심초음파·MRI·정맥조영술은 2차 검사가 된다.
 
 ## 출처
 

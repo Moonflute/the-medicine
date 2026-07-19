@@ -17,11 +17,13 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: missing
+explanation_status: machine-generated
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
 review_status: machine-verified
+explanation_model: openai/gpt-oss-120b
+explanation_prompt_version: explanation-ko-v1
 ---
 
 # MedQA US 임상문제
@@ -39,7 +41,8 @@ D. 외상 초음파 집중평가(FAST)
 
 ## 해설
 
-<!-- explanation_status가 verified일 때만 웹앱에 표시 -->
+
+복부 관통 손상은 장기 손상 위험이 높아 탐색적 개복술이 표준 치료이다. 복강경이나 FAST는 불충분하고, 진단적 복막세척은 치료가 아니다. 따라서 가장 적절한 처치는 탐색적 개복술이다.
 
 ## 출처
 
