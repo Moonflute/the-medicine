@@ -2,27 +2,27 @@
   {
     "name": "01 순환기",
     "slug": "MDEg7Iic7ZmY6riw",
-    "count": 447
+    "count": 432
   },
   {
     "name": "02 호흡기",
     "slug": "MDIg7Zi47Z2h6riw",
-    "count": 216
+    "count": 208
   },
   {
     "name": "03 소화기",
     "slug": "MDMg7IaM7ZmU6riw",
-    "count": 415
+    "count": 408
   },
   {
     "name": "04 내분비",
     "slug": "MDQg64K067aE67mE",
-    "count": 326
+    "count": 321
   },
   {
     "name": "05 신장",
     "slug": "MDUg7Iug7J6l",
-    "count": 205
+    "count": 202
   },
   {
     "name": "06 알레르기",
@@ -32,42 +32,42 @@
   {
     "name": "07 류마티스",
     "slug": "MDcg66WY66eI7Yuw7Iqk",
-    "count": 178
+    "count": 163
   },
   {
     "name": "08 감염",
     "slug": "MDgg6rCQ7Je8",
-    "count": 330
+    "count": 315
   },
   {
     "name": "09 혈액",
     "slug": "MDkg7ZiI7JWh",
-    "count": 315
+    "count": 297
   },
   {
     "name": "10 종양",
     "slug": "MTAg7KKF7JaR",
-    "count": 160
+    "count": 155
   },
   {
     "name": "11 외과",
     "slug": "MTEg7Jm46rO8",
-    "count": 97
+    "count": 91
   },
   {
     "name": "12 산과",
     "slug": "MTIg7IKw6rO8",
-    "count": 256
+    "count": 253
   },
   {
     "name": "13 부인과",
     "slug": "MTMg67aA7J246rO8",
-    "count": 322
+    "count": 318
   },
   {
     "name": "14 소아청소년과",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8",
-    "count": 523
+    "count": 500
   },
   {
     "name": "15 정신건강의학과",
@@ -77,7 +77,7 @@
   {
     "name": "16 신경과-신경외과",
     "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvA",
-    "count": 369
+    "count": 355
   },
   {
     "name": "17 이비인후과",
@@ -87,26 +87,26 @@
   {
     "name": "18 안과",
     "slug": "MTgg7JWI6rO8",
-    "count": 59
+    "count": 53
   },
   {
     "name": "19 피부과",
     "slug": "MTkg7ZS867aA6rO8",
-    "count": 138
+    "count": 107
   },
   {
     "name": "20 비뇨기과",
     "slug": "MjAg67mE64eo6riw6rO8",
-    "count": 117
+    "count": 116
   },
   {
     "name": "21 응급의학",
     "slug": "MjEg7J2R6riJ7J2Y7ZWZ",
-    "count": 349
+    "count": 341
   },
   {
     "name": "22 정형외과",
     "slug": "MjIg7KCV7ZiV7Jm46rO8",
-    "count": 156
+    "count": 148
   }
 ]

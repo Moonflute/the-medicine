@@ -4,15 +4,14 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, ChevronRight, RotateCcw, XCircle } from "lucide-react";
 import {
-  loadQbankState,
-  removeQbankWrong,
-  recordQbankAttempt,
-  saveQbankSession,
-  toggleQbankBookmark,
-} from "@/lib/qbank-store";
+  clearActiveQbankSession,
+  loadActiveQbankSession,
+  saveActiveQbankSession,
+  type QbankActiveSession,
+  type QbankSessionAnswer,
+} from "@/lib/qbank-active-session";
+import { loadQbankState, removeQbankWrong, recordQbankAttempt, saveQbankSession, toggleQbankBookmark } from "@/lib/qbank-store";
 import type { QbankAnswer, QbankQuestion, QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
-
-type SessionAnswer = { questionId: string; selected: QbankAnswer; correct: boolean; specialty: string };
 
 function shuffled<T>(values: T[]): T[] {
   const next = [...values];
@@ -29,17 +28,26 @@ async function fetchJson<T>(path: string): Promise<T> {
   return response.json() as Promise<T>;
 }
 
-async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string): Promise<QbankQuestion[]> {
+async function loadQuestions(
+  specialties: QbankSpecialtySummary[],
+  mode: string,
+  specialty: string,
+  disease: string,
+): Promise<QbankQuestion[]> {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   let slugs: string[];
   if (mode === "specialty" && specialty && specialty !== "all") {
     slugs = [specialty];
-  } else if (mode === "wrong" || mode === "bookmarks") {
+  } else if (mode === "wrong" || mode === "bookmarks" || mode === "disease") {
     const state = loadQbankState();
-    const ids = new Set(mode === "wrong" ? state.wrongIds : state.bookmarkIds);
-    if (ids.size === 0) return [];
     const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
-    slugs = [...new Set(index.filter((item) => ids.has(item.id)).map((item) => item.specialtySlug))];
+    if (mode === "disease") {
+      slugs = [...new Set(index.filter((item) => item.relatedDiseaseSlugs?.includes(disease)).map((item) => item.specialtySlug))];
+    } else {
+      const ids = new Set(mode === "wrong" ? state.wrongIds : state.bookmarkIds);
+      if (ids.size === 0) return [];
+      slugs = [...new Set(index.filter((item) => ids.has(item.id)).map((item) => item.specialtySlug))];
+    }
   } else {
     slugs = specialties.map((item) => item.slug);
   }
@@ -54,34 +62,70 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selected, setSelected] = useState<QbankAnswer | null>(null);
   const [submitted, setSubmitted] = useState(false);
-  const [answers, setAnswers] = useState<SessionAnswer[]>([]);
+  const [answers, setAnswers] = useState<QbankSessionAnswer[]>([]);
   const [bookmarked, setBookmarked] = useState(false);
   const [wrongTracked, setWrongTracked] = useState(false);
   const [completed, setCompleted] = useState(false);
-  const [sessionStartedAt] = useState(() => new Date().toISOString());
-
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
+  const [sessionParams] = useState(() => {
+    const params = new URLSearchParams(typeof window === "undefined" ? "" : window.location.search);
     const mode = params.get("mode") || "all";
     const specialty = params.get("specialty") || "all";
-    const requestedCountValue = params.get("count") || "10";
-    void loadQuestions(specialties, mode, specialty)
+    const disease = params.get("disease") || "";
+    const count = params.get("count") || "10";
+    return { key: [mode, specialty, disease, count].join("|"), mode, specialty, disease, count };
+  });
+  const { key: sessionKey, mode: sessionMode, specialty: sessionSpecialty, disease: sessionDisease, count: sessionCount } = sessionParams;
+  const [sessionStartedAt, setSessionStartedAt] = useState("");
+
+  useEffect(() => {
+    const { key, mode, specialty, disease, count } = sessionParams;
+    void loadQuestions(specialties, mode, specialty, disease)
       .then((loaded) => {
         const state = loadQbankState();
         let filtered = loaded;
+        if (mode === "disease") filtered = loaded.filter((item) => item.relatedDiseaseSlugs.includes(disease));
         if (mode === "wrong") filtered = loaded.filter((item) => state.wrongIds.includes(item.id));
         if (mode === "bookmarks") filtered = loaded.filter((item) => state.bookmarkIds.includes(item.id));
         if (mode === "unattempted") filtered = loaded.filter((item) => !state.progress[item.id]);
-        const requestedCount = requestedCountValue === "all"
-          ? filtered.length
-          : Math.max(1, Math.min(100, Number(requestedCountValue) || 10));
-        const selectedQuestions = shuffled(filtered).slice(0, requestedCount);
+        const requestedCount = count === "all" ? filtered.length : Math.max(1, Math.min(filtered.length, Number(count) || 10));
+        const active = loadActiveQbankSession();
+        const canResume = active?.key === key && active.questionIds.length > 0 && active.questionIds.every((id) => filtered.some((item) => item.id === id));
+        const selectedQuestions = canResume
+          ? active!.questionIds.map((id) => filtered.find((item) => item.id === id)!).filter(Boolean)
+          : shuffled(filtered).slice(0, requestedCount);
+        const startedAt = canResume ? active!.startedAt : new Date().toISOString();
+        const restoredIndex = canResume ? Math.min(active!.currentIndex, Math.max(0, selectedQuestions.length - 1)) : 0;
+        const restoredSelected = canResume ? active!.selected : null;
+        const restoredSubmitted = canResume ? active!.submitted : false;
+        const restoredAnswers = canResume ? active!.answers : [];
         setQuestions(selectedQuestions);
-        setBookmarked(Boolean(selectedQuestions[0] && state.bookmarkIds.includes(selectedQuestions[0].id)));
+        setCurrentIndex(restoredIndex);
+        setSelected(restoredSelected);
+        setSubmitted(restoredSubmitted);
+        setAnswers(restoredAnswers);
+        setSessionStartedAt(startedAt);
+        setBookmarked(Boolean(selectedQuestions[restoredIndex] && state.bookmarkIds.includes(selectedQuestions[restoredIndex].id)));
+        setWrongTracked(Boolean(selectedQuestions[restoredIndex] && state.wrongIds.includes(selectedQuestions[restoredIndex].id)));
+        if (!canResume && selectedQuestions.length > 0) {
+          saveActiveQbankSession({
+            key,
+            mode,
+            specialty,
+            disease,
+            count,
+            questionIds: selectedQuestions.map((item) => item.id),
+            currentIndex: 0,
+            selected: null,
+            submitted: false,
+            answers: [],
+            startedAt,
+            updatedAt: startedAt,
+          });
+        }
       })
       .catch((reason: unknown) => setError(reason instanceof Error ? reason.message : "문제 데이터를 불러오지 못했습니다."))
       .finally(() => setLoading(false));
-  }, [specialties]);
+  }, [specialties, sessionParams]);
 
   const current = questions[currentIndex];
   const correctCount = useMemo(() => answers.filter((item) => item.correct).length, [answers]);
@@ -96,26 +140,48 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     return [...summary.entries()].sort(([left], [right]) => left.localeCompare(right, "ko"));
   }, [answers]);
 
+  function persist(next: Partial<QbankActiveSession>) {
+    if (!sessionKey || !sessionStartedAt || questions.length === 0) return;
+    saveActiveQbankSession({
+      key: sessionKey,
+      mode: sessionMode,
+      specialty: sessionSpecialty,
+      disease: sessionDisease,
+      count: sessionCount,
+      questionIds: questions.map((item) => item.id),
+      currentIndex,
+      selected,
+      submitted,
+      answers,
+      startedAt: sessionStartedAt,
+      updatedAt: new Date().toISOString(),
+      ...next,
+    });
+  }
+
   function submit() {
     if (!current || !selected || submitted) return;
     const correct = selected === current.answer;
     recordQbankAttempt(current.id, selected, correct);
+    const nextAnswers = [...answers, { questionId: current.id, selected, correct, specialty: current.specialty }];
     setWrongTracked(loadQbankState().wrongIds.includes(current.id));
-    setAnswers((items) => [...items, { questionId: current.id, selected, correct, specialty: current.specialty }]);
+    setAnswers(nextAnswers);
     setSubmitted(true);
+    persist({ selected, submitted: true, answers: nextAnswers });
   }
 
   function next() {
+    if (!current) return;
     if (currentIndex + 1 >= questions.length) {
-      const finishedAnswers = answers;
       saveQbankSession({
         id: `session-${Date.now()}`,
         startedAt: sessionStartedAt,
         completedAt: new Date().toISOString(),
         questionIds: questions.map((item) => item.id),
-        correct: finishedAnswers.filter((item) => item.correct).length,
+        correct: answers.filter((item) => item.correct).length,
         total: questions.length,
       });
+      clearActiveQbankSession();
       setCompleted(true);
       return;
     }
@@ -125,6 +191,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     setSelected(null);
     setSubmitted(false);
     setWrongTracked(loadQbankState().wrongIds.includes(questions[nextIndex].id));
+    persist({ currentIndex: nextIndex, selected: null, submitted: false });
   }
 
   function toggleBookmark() {
@@ -138,7 +205,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     setWrongTracked(false);
   }
 
-  if (loading) return <div className="surface p-8 text-center text-slate-600">문제를 불러오는 중입니다…</div>;
+  if (loading) return <div className="surface p-8 text-center text-slate-600">문제를 불러오는 중입니다.</div>;
   if (error) return <div className="rounded-lg border border-rose-200 bg-rose-50 p-6 text-rose-900">{error}</div>;
   if (questions.length === 0) return (
     <div className="surface p-8 text-center">
@@ -155,7 +222,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           <div className="eyebrow">Session complete</div>
           <h1 className="mt-3 text-3xl font-semibold">{correctCount} / {questions.length}</h1>
           {specialtyResults.length > 0 ? <div className="mx-auto mt-5 max-w-md rounded-lg border border-slate-200 bg-white p-3 text-left text-sm">{specialtyResults.map(([specialty, result]) => <div key={specialty} className="flex justify-between gap-4 py-1"><span>{specialty}</span><span>{result.correct}/{result.total}</span></div>)}</div> : null}
-          <p className="mt-2 text-slate-600">정답률 {rate}% · 틀린 문제는 오답 노트에 자동 저장되었습니다.</p>
+          <p className="mt-2 text-slate-600">정답률 {rate}% · 풀이 기록이 저장되었습니다.</p>
         </section>
         <div className="flex flex-wrap justify-center gap-3">
           <Link href="/review/qbank" className="secondary-action"><ArrowLeft className="h-4 w-4" />문제은행</Link>
@@ -180,7 +247,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             {bookmarked ? <BookmarkCheck className="h-4 w-4 text-amber-600" /> : <Bookmark className="h-4 w-4" />}{bookmarked ? "저장됨" : "북마크"}
           </button>
         </div>
-        <p className="mt-6 whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base">{current.question}</p>
+        <div className="mt-4 text-xs font-medium tracking-wide text-slate-500">문항 ID: {current.id}</div>
+        <p className="mt-3 whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base">{current.question}</p>
 
         <div className="mt-7 grid gap-3">
           {(Object.keys(current.options) as QbankAnswer[]).map((key) => {
@@ -188,15 +256,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             const isWrong = submitted && key === selected && key !== current.answer;
             const isSelected = key === selected;
             return (
-              <button
-                key={key}
-                type="button"
-                disabled={submitted}
-                onClick={() => setSelected(key)}
-                className={`flex w-full items-start gap-3 rounded-lg border px-4 py-3.5 text-left transition ${
-                  isCorrect ? "border-teal-500 bg-teal-50 text-teal-950" : isWrong ? "border-rose-400 bg-rose-50 text-rose-950" : isSelected ? "border-blue-500 bg-blue-50" : "border-slate-200 bg-white hover:border-slate-400"
-                }`}
-              >
+              <button key={key} type="button" disabled={submitted} onClick={() => { setSelected(key); persist({ selected: key }); }} className={`flex w-full items-start gap-3 rounded-lg border px-4 py-3.5 text-left transition ${isCorrect ? "border-teal-500 bg-teal-50 text-teal-950" : isWrong ? "border-rose-400 bg-rose-50 text-rose-950" : isSelected ? "border-blue-500 bg-blue-50" : "border-slate-200 bg-white hover:border-slate-400"}`}>
                 <span className="font-semibold">{key}.</span><span>{current.options[key]}</span>
               </button>
             );

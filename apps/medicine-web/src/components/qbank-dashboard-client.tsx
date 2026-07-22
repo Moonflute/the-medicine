@@ -73,10 +73,7 @@ export function QbankDashboardClient({ specialties }: { specialties: QbankSpecia
           </label>
           <label className="text-sm font-medium text-slate-700">
             문제 수
-            <select value={count} onChange={(event) => setCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5">
-              {[5, 10, 20, 50].map((value) => <option key={value} value={value}>{value}문제</option>)}
-              <option value="all">전체</option>
-            </select>
+            <input type="number" min={1} max={total} inputMode="numeric" value={count === "all" ? total : count} onChange={(event) => setCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5" />
           </label>
         </div>
         <Link href={sessionHref} className="primary-action mt-5"><Play className="h-4 w-4" />문제 풀기 시작</Link>

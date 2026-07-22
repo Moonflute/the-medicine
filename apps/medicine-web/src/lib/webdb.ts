@@ -263,6 +263,10 @@ export function getQbankSpecialties(): QbankSpecialtySummary[] {
   return readJson("qbank-specialties.json");
 }
 
+export function getQbankCountForDisease(diseaseSlug: string): number {
+  return getQbankIndex().filter((item) => item.relatedDiseaseSlugs?.includes(diseaseSlug)).length;
+}
+
 export function getQbankQuestionsBySpecialty(specialtySlug: string): QbankQuestion[] {
   return readJson(`qbank/${specialtySlug}.json`);
 }

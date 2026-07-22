@@ -58,12 +58,14 @@ export function DiseaseCard({
   ccLinks = [],
   diseaseLinks = [],
   hideOverview = false,
+  relatedQbankHref,
 }: {
   note: DiseaseNote;
   compact?: boolean;
   ccLinks?: TermLink[];
   diseaseLinks?: TermLink[];
   hideOverview?: boolean;
+  relatedQbankHref?: string;
 }) {
   const expanded = !compact;
   const overview = note.overview?.slice(0, compact ? 3 : 6) ?? [];
@@ -103,7 +105,20 @@ export function DiseaseCard({
               </div>
             ) : null}
           </div>
-          <ReviewSaveButton item={reviewItem} trackView={!compact} compact />
+          <div className="flex shrink-0 items-center gap-2">
+            {relatedQbankHref ? (
+              <Link
+                href={relatedQbankHref}
+                className="inline-flex h-10 w-10 items-center justify-center border border-slate-300 bg-white text-sm font-bold text-slate-700 transition hover:border-teal-500 hover:text-teal-700"
+                style={{ borderRadius: 8 }}
+                aria-label="관련 문제 풀기"
+                title="관련 문제 풀기"
+              >
+                Q
+              </Link>
+            ) : null}
+            <ReviewSaveButton item={reviewItem} trackView={!compact} compact />
+          </div>
         </div>
 
         {note.chiefComplaints.length > 0 ? (

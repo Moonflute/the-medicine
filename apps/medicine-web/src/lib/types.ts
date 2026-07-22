@@ -320,7 +320,7 @@ export type QbankQuestion = {
 
 export type QbankQuestionIndex = Pick<
   QbankQuestion,
-  "id" | "specialty" | "specialtySlug" | "questionType" | "difficulty" | "translationStatus" | "explanationStatus"
+  "id" | "specialty" | "specialtySlug" | "relatedDiseaseSlugs" | "questionType" | "difficulty" | "translationStatus" | "explanationStatus"
 >;
 
 export type QbankSpecialtySummary = {
