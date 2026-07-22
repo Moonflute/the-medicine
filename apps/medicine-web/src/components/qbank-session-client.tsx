@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, ChevronRight, RotateCcw, XCircle } from "lucide-react";
 import {
@@ -66,21 +67,25 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const [bookmarked, setBookmarked] = useState(false);
   const [wrongTracked, setWrongTracked] = useState(false);
   const [completed, setCompleted] = useState(false);
-  const [sessionParams] = useState(() => {
-    const params = new URLSearchParams(typeof window === "undefined" ? "" : window.location.search);
+  const searchParams = useSearchParams();
+  const searchKey = searchParams.toString();
+  const sessionParams = useMemo(() => {
+    const params = new URLSearchParams(searchKey);
     const mode = params.get("mode") || "all";
     const specialty = params.get("specialty") || "all";
     const disease = params.get("disease") || "";
-    const count = params.get("count") || "10";
+    const count = params.get("count") || (mode === "disease" ? "all" : "10");
     return { key: [mode, specialty, disease, count].join("|"), mode, specialty, disease, count };
-  });
+  }, [searchKey]);
   const { key: sessionKey, mode: sessionMode, specialty: sessionSpecialty, disease: sessionDisease, count: sessionCount } = sessionParams;
   const [sessionStartedAt, setSessionStartedAt] = useState("");
 
   useEffect(() => {
     const { key, mode, specialty, disease, count } = sessionParams;
+    let cancelled = false;
     void loadQuestions(specialties, mode, specialty, disease)
       .then((loaded) => {
+        if (cancelled) return;
         const state = loadQbankState();
         let filtered = loaded;
         if (mode === "disease") filtered = loaded.filter((item) => item.relatedDiseaseSlugs.includes(disease));
@@ -106,6 +111,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         setSessionStartedAt(startedAt);
         setBookmarked(Boolean(selectedQuestions[restoredIndex] && state.bookmarkIds.includes(selectedQuestions[restoredIndex].id)));
         setWrongTracked(Boolean(selectedQuestions[restoredIndex] && state.wrongIds.includes(selectedQuestions[restoredIndex].id)));
+        setCompleted(false);
         if (!canResume && selectedQuestions.length > 0) {
           saveActiveQbankSession({
             key,
@@ -123,8 +129,13 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           });
         }
       })
-      .catch((reason: unknown) => setError(reason instanceof Error ? reason.message : "문제 데이터를 불러오지 못했습니다."))
-      .finally(() => setLoading(false));
+      .catch((reason: unknown) => {
+        if (!cancelled) setError(reason instanceof Error ? reason.message : "문제 데이터를 불러오지 못했습니다.");
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false);
+      });
+    return () => { cancelled = true; };
   }, [specialties, sessionParams]);
 
   const current = questions[currentIndex];

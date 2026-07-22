@@ -43,7 +43,7 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
         ccLinks={ccLinks}
         diseaseLinks={diseaseLinks}
         hideOverview={isSpecialtyIndexDisease(note)}
-        relatedQbankHref={relatedQbankCount > 0 ? `/review/qbank/session?mode=disease&disease=${encodeURIComponent(note.slug)}&count=10` : undefined}
+        relatedQbankHref={relatedQbankCount > 0 ? `/review/qbank/session?mode=disease&disease=${encodeURIComponent(note.slug)}` : undefined}
       />
       {infectionSpecialty && infectionPathways.length > 0 ? <DiseaseInfectionPanel pathways={infectionPathways} spectrum={getAntibioticSpectrum()} specialtySlug={infectionSpecialty.slug} /> : null}
       <RelatedClinicalContent relations={relations} />
