@@ -9,8 +9,7 @@
     "category": "01 소화기",
     "sourcePath": "source_notes/01 Chief Complaint/급성복통.md",
     "concept": [
-      "‘통증’, 동반증상과 factor로 감별, 복부 장기들 감별",
-      "‘통증’, 동반증상과 factor로 감별, 복부 장기들 감별"
+      "급성복통은 통증 위치보다 혈역학적 불안정과 복막자극징후를 먼저 보고, 이후 시간 경과와 동반 증상으로 원인을 좁힌다."
     ],
     "differentials": [
       "소화기 : 위장관 : 위염, 위/천공/십이지장궤양 / 충수염, 크론병, 장폐색증 / 간담췌 : 급성 간/담낭/담관/췌장염, 담석증",
@@ -420,8 +419,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘통증’, 동반증상과 factor로 감별, 복부 장기들 감별",
-          "‘통증’, 동반증상과 factor로 감별, 복부 장기들 감별"
+          "급성복통은 통증 위치보다 혈역학적 불안정과 복막자극징후를 먼저 보고, 이후 시간 경과와 동반 증상으로 원인을 좁힌다."
         ]
       },
       {
@@ -551,15 +549,23 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 수술·시술 후 일수, opioid, 항응고, tube·drain, 마지막 배변·가스와 통증 시작을 맞춘다. ileus·폐색, 누출·천공, 출혈·혈종, mesenteric ischemia, pancreatitis, 요저류를 우선 본다.",
+          "• 복막자극, 저혈압, lactate 상승, 급격한 팽만·지속 구토 또는 Hb 감소는 진통 반응과 무관하게 외과 긴급 평가 대상이다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• CBC, 전해질·Cr, LFT·bilirubin, lipase, lactate, urinalysis와 임신반응을 단서에 따라 시행한다. bedside ultrasound 또는 contrast CT를 선택하고 serial abdominal examination을 기록한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• NPO, IV access 후 저혈량이면 balanced crystalloid (하트만액·Plasma Solution A 등) 250–500 mL bolus로 반응을 재평가한다. Acetaminophen (타이레놀정) 500–1,000 mg PO/IV q6h PRN을 사용하며 진통 때문에 수술평가를 지연하지 않는다.",
+          "• 폐색·ileus는 불필요한 opioid·항콜린제를 중단하고 필요 시 NG decompression, 천공·허혈·누출은 즉시 항균제와 source control을 원내 protocol로 시작한다."
+        ]
       },
       {
         "title": "ER",
@@ -595,7 +601,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:28:01.959Z"
+    "updatedAt": "2026-07-23T16:11:03.759Z"
   },
   {
     "id": "102",
@@ -607,7 +613,7 @@
     "category": "01 소화기",
     "sourcePath": "source_notes/01 Chief Complaint/소화불량／만성 복통.md",
     "concept": [
-      "‘통증’, 동반증상과 factor로 감별, 급성과 달리 거의 소화기 문제"
+      "만성 상복부 증상은 식사·배변과의 관계 및 경고징후로 기능성 질환과 궤양·담췌질환 등 기질성 원인을 구분한다."
     ],
     "differentials": [
       "위장관 : GERD, 위염, 위궤양, 십이지장궤양, 종양, 당뇨병 위마비",
@@ -928,7 +934,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘통증’, 동반증상과 factor로 감별, 급성과 달리 거의 소화기 문제"
+          "만성 상복부 증상은 식사·배변과의 관계 및 경고징후로 기능성 질환과 궤양·담췌질환 등 기질성 원인을 구분한다."
         ]
       },
       {
@@ -1028,18 +1034,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• NSAID·steroid, opioid constipation, antibiotic, enteral feeding, ischemia와 atypical ACS를 확인하고 출혈·빈혈·체중감소·반복 구토·dysphagia를 찾는다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 심혈관 위험이면 ECG·troponin, alarm sign에 따라 CBC, LFT·lipase, imaging/endoscopy를 선택한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 원인 약물을 조정하고 폐색·출혈을 배제한다. acid-related symptom이면 Pantoprazole (판토록정 40 mg) 40 mg PO daily를 2–4주 trial로 고려하고 퇴원 시 지속 필요성을 재검토한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.914Z"
+    "updatedAt": "2026-07-23T16:11:03.817Z"
   },
   {
     "id": "103",
@@ -1051,7 +1063,7 @@
     "category": "01 소화기",
     "sourcePath": "source_notes/01 Chief Complaint/토혈.md",
     "concept": [
-      "'출혈’, 토혈 상황 확인, 음주 관련 체크"
+      "토혈은 객혈·비인두 출혈과 구분하고 혈역학적 영향과 간질환·약물력을 통해 정맥류성 및 비정맥류성 출혈 위험을 가른다."
     ],
     "differentials": [
       "식도 : 역류성 식도염, 식도암, 식도정맥류",
@@ -1348,7 +1360,7 @@
       {
         "title": "Concept",
         "content": [
-          "'출혈’, 토혈 상황 확인, 음주 관련 체크"
+          "토혈은 객혈·비인두 출혈과 구분하고 혈역학적 영향과 간질환·약물력을 통해 정맥류성 및 비정맥류성 출혈 위험을 가른다."
         ]
       },
       {
@@ -1447,15 +1459,23 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 색·양, 지속 출혈, melena·hematochezia와 저혈압을 확인하고 anticoagulant·antiplatelet, NSAID, cirrhosis·varix와 최근 endoscopy를 검토한다. shock이면 massive transfusion·GI·ICU pathway를 활성화한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• CBC·serial Hb, coagulation, BUN/Cr, LFT, fibrinogen, type and cross를 시행한다. 불안정 중증 출혈은 소생 후 즉시, 나머지는 24시간 이내 endoscopy를 준비한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• NPO, 2개의 large-bore IV, balanced blood-component resuscitation을 시행한다. 수혈은 임상상태와 심혈관질환을 반영하되 안정 환자에서는 Hb 약 7 g/dL의 restrictive strategy를 기본으로 한다.",
+          "• variceal bleeding 의심 시 Octreotide (산도스타틴주) 50 mcg IV bolus 후 50 mcg/h infusion과 원내 항균제 protocol을 시작한다. 비정맥류 출혈의 PPI는 endoscopic finding과 GI protocol에 맞춘다.",
+          "• 항응고제는 중증도와 혈전위험을 고려해 reversal하고 재출혈·불안정이면 repeat endoscopy, IR 또는 수술로 전환한다."
+        ]
       },
       {
         "title": "ER",
@@ -1489,7 +1509,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:28:01.968Z"
+    "updatedAt": "2026-07-23T16:11:03.870Z"
   },
   {
     "id": "104",
@@ -1501,7 +1521,7 @@
     "category": "01 소화기",
     "sourcePath": "source_notes/01 Chief Complaint/혈변.md",
     "concept": [
-      "'출혈’, 혈변 양상을 잘 문진"
+      "혈변은 색과 양상만으로 하부 출혈로 단정하지 않고 혈역학적 영향과 급속 상부위장관 출혈 가능성을 함께 판단한다."
     ],
     "differentials": [
       "소장, 대장 : 메켈 게실, 게실 출혈 / 허혈 결장염, 감염성 대장염, 염증성 장질환 / 결장암, 직장암 (게실, 염증, 암)",
@@ -1795,7 +1815,7 @@
       {
         "title": "Concept",
         "content": [
-          "'출혈’, 혈변 양상을 잘 문진"
+          "혈변은 색과 양상만으로 하부 출혈로 단정하지 않고 혈역학적 영향과 급속 상부위장관 출혈 가능성을 함께 판단한다."
         ]
       },
       {
@@ -1892,15 +1912,22 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 선홍색·암적색·melena, 양과 hemodynamic change를 확인한다. 대량 hematochezia는 upper GI source도 고려하고 anticoagulant, 최근 colonoscopy·수술, ischemia·infectious diarrhea를 확인한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• CBC·serial Hb, coagulation, BMP, lactate, type and cross를 시행한다. 불안정이면 upper source 평가와 CT angiography를 우선하고, 안정 후 bowel preparation·colonoscopy를 계획한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• NPO, IV access와 수혈전략은 출혈 정도에 맞춘다. anticoagulant 관련 중증 출혈은 원내 reversal protocol을 적용한다.",
+          "• 지속 active bleeding은 CTA 후 IR embolization 또는 endoscopy로 전환한다. ischemic colitis·C. difficile·post-polypectomy bleeding은 원인별 치료를 병행하고 지사제를 자동 투여하지 않는다."
+        ]
       },
       {
         "title": "ER",
@@ -1934,7 +1961,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:28:01.974Z"
+    "updatedAt": "2026-07-23T16:11:03.883Z"
   },
   {
     "id": "105",
@@ -1946,7 +1973,7 @@
     "category": "01 소화기",
     "sourcePath": "source_notes/01 Chief Complaint/구토.md",
     "concept": [
-      "‘탈수’, 크게 신경계문제 or 위장관문제"
+      "구토는 위장관 폐색과 중추신경계·대사성 원인을 놓치지 않으면서 탈수와 전해질 이상 정도를 함께 판단한다."
     ],
     "differentials": [
       "신경 : 양성돌발체위현기증, 뇌수막염, 뇌/거미막밑출혈",
@@ -2295,7 +2322,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘탈수’, 크게 신경계문제 or 위장관문제"
+          "구토는 위장관 폐색과 중추신경계·대사성 원인을 놓치지 않으면서 탈수와 전해질 이상 정도를 함께 판단한다."
         ]
       },
       {
@@ -2400,15 +2427,32 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 입원 후 새 구토는 수술 후 ileus·장폐색, opioid·항생제·항암제 등 새 약물, constipation·fecal impaction, 전해질·요독증, 감염, GI bleeding과 두개내 원인을 우선 구분한다.",
+          "• 구토 시점과 식이·tube feeding·약물 투여의 관계, 횟수·양·혈액·담즙 여부, 마지막 배변·가스 배출, 복통·팽만, 두통·신경학적 변화를 확인한다. 흡인 위험과 현재 경구약을 유지할 수 있는지도 판단한다.",
+          "• 복막자극, 심한 팽만과 배변·가스 중단, 혈성·담즙성 구토, 저혈압, 새 신경학적 이상이 있으면 단순 항구토제 반복보다 즉시 원인 평가와 외과·신경계 대응을 우선한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 반복 구토이면 CBC, Na·K·Cl·HCO3, BUN/Cr, glucose, Mg를 확인하고 임상 단서에 따라 LFT·lipase·ketone·lactate·임신반응검사를 추가한다.",
+          "• ileus·폐색·천공이 의심되면 복부 X선 또는 CT를 선택하고, 상부위장관 출혈이면 serial Hb와 coagulation·혈액형 검사를 시행한다. 두통·국소신경학적 이상·의식 변화가 있으면 두부 원인을 평가한다.",
+          "• QT 연장 약물을 함께 쓰거나 저K·저Mg, 심부전, 서맥이 있으면 항구토제 전후 ECG를 확인한다. 섭취량·구토량·소변량을 기록하고 치료 30–60분 후 오심, 재구토와 복부 진찰을 반복한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "### 항구토",
+          "• Ondansetron (조프란정/조프란주 2 mg/mL 등) 4 mg IV slow injection 또는 4 mg PO q8h PRN. 선천성 long-QT, 저K·저Mg, 서맥 또는 다른 QT 연장 약물이 있으면 교정·모니터링하고, 중증 간기능저하에서는 총 8 mg/day를 넘지 않는다.",
+          "• 위정체가 의심되고 기계적 폐색·출혈·천공이 배제되면 Metoclopramide (맥페란정/맥페란주 10 mg/2 mL 등) 10 mg IV/PO q8h PRN을 고려한다. CrCl ≤60 mL/min 또는 Child-Pugh B/C에서는 반복 투여량을 50% 감량하고, ESRD에서는 75% 감량한다. Parkinson disease, 기존 extrapyramidal symptom 또는 GI obstruction에서는 피한다.",
+          "• 두 약물을 습관적으로 병용하지 않는다. 30–60분 내 반응이 없으면 같은 약을 무한 반복하지 말고 원인, QTc, 전해질과 약물 부작용을 재평가한다.",
+          "### 수액·원인 치료",
+          "• 저혈량이면 balanced crystalloid (하트만액·Plasma Solution A 등) 250–500 mL IV bolus 후 혈압·맥박·폐진찰·소변량을 재평가해 추가량을 결정한다. 심부전·신부전·간경변에서는 소량씩 투여하고 congestion을 함께 확인한다.",
+          "• 장폐색·ileus이면 NPO, 불필요한 opioid·항콜린제를 중단하고 심한 팽만·지속 구토에서는 NG decompression과 외과 평가를 시행한다. 저K·저Mg를 교정하고 constipation·fecal impaction을 치료한다.",
+          "• 상부위장관 출혈, intracranial event, DKA·adrenal crisis, uremia 또는 약물독성이 원인이면 항구토는 보조치료로만 사용하고 해당 원인 경로로 전환한다."
+        ]
       },
       {
         "title": "ER",
@@ -2443,7 +2487,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:28:01.980Z"
+    "updatedAt": "2026-07-23T16:11:03.754Z"
   },
   {
     "id": "106",
@@ -2455,7 +2499,7 @@
     "category": "01 소화기",
     "sourcePath": "source_notes/01 Chief Complaint/변비.md",
     "concept": [
-      "'배변’ 배변습관 확인, 소화기 관련 추가 문진"
+      "변비는 급성 폐색 가능성과 만성 기능성 변비를 먼저 구분하고, 새로 발생한 배변 변화와 전신 경고징후에서는 이차성 원인을 찾는다."
     ],
     "differentials": [
       "기능성 변비 (90%)",
@@ -2747,7 +2791,7 @@
       {
         "title": "Concept",
         "content": [
-          "'배변’ 배변습관 확인, 소화기 관련 추가 문진"
+          "변비는 급성 폐색 가능성과 만성 기능성 변비를 먼저 구분하고, 새로 발생한 배변 변화와 전신 경고징후에서는 이차성 원인을 찾는다."
         ]
       },
       {
@@ -2843,15 +2887,21 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 마지막 배변·가스, 복통·팽만·구토와 opioid·anticholinergic, immobility를 확인한다. fecal impaction·ileus·obstruction이면 laxative 증량을 멈춘다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 복부·직장진찰과 투약검토가 기본이며 obstruction·perforation 의심 시 영상과 electrolytes를 확인한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 폐색이 없으면 Polyethylene glycol (폴락스산 10 g 등) 10–20 g PO daily 또는 Lactulose (듀파락이지시럽) 15–30 mL daily–BID로 시작하고 필요 시 Bisacodyl (둘코락스좌약 10 mg) 10 mg PR을 추가한다. Mg 제제는 신부전에서 피한다."
+        ]
       },
       {
         "title": "ER",
@@ -2883,7 +2933,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:42:58.585Z"
+    "updatedAt": "2026-07-23T16:11:03.799Z"
   },
   {
     "id": "107",
@@ -2895,7 +2945,7 @@
     "category": "01 소화기",
     "sourcePath": "source_notes/01 Chief Complaint/설사.md",
     "concept": [
-      "‘탈수, 배변’, 소화기 관련 추가 문진, HB시 시간 매우 부족"
+      "설사는 급성·지속성 경과와 수양성·염증성 양상을 구분하고 탈수, 혈변, 면역저하, 최근 항생제·여행 노출을 함께 본다."
     ],
     "differentials": [
       "소화기 : 식중독, 급성 위장염, 염증성 장질환, 허혈 결장염 (염증) / 단장증후군, 과민성 대장증후군, 젖당불내성 (생리적) / 결장암, 직장암 (암)",
@@ -3207,7 +3257,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘탈수, 배변’, 소화기 관련 추가 문진, HB시 시간 매우 부족"
+          "설사는 급성·지속성 경과와 수양성·염증성 양상을 구분하고 탈수, 혈변, 면역저하, 최근 항생제·여행 노출을 함께 본다."
         ]
       },
       {
@@ -3306,15 +3356,21 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 횟수·혈액, 복통·발열과 최근 항생제·tube feeding·laxative를 확인하고 C. difficile, medication-induced diarrhea, overflow와 neutropenic enterocolitis를 구분한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• laxative를 중단하고 CBC·BMP를 중증도에 따라 시행한다. 새 설명되지 않는 3회 이상 unformed stool이면 contact precaution과 C. difficile 검사를 적용한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 수분·K·Mg를 보충한다. 감염성·염증성 설사, ileus에서는 Loperamide를 피하고, 위험 원인이 배제된 수양성 설사에만 Loperamide (로페라미드 제품) 4 mg 후 매 묽은 변마다 2 mg, 최대 16 mg/day를 단기간 사용한다."
+        ]
       },
       {
         "title": "ER",
@@ -3346,7 +3402,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:42:58.582Z"
+    "updatedAt": "2026-07-23T16:11:03.809Z"
   },
   {
     "id": "108",
@@ -3358,7 +3414,7 @@
     "category": "01 소화기",
     "sourcePath": "source_notes/01 Chief Complaint/황달.md",
     "concept": [
-      "‘탈수, 출혈’  주로 간담췌지만 시간이 부족하고 진단도 애매.."
+      "황달은 비결합형과 결합형 빌리루빈 상승을 구분하고 간세포성·담즙정체성 양상과 급성 간기능부전 징후를 함께 본다."
     ],
     "differentials": [
       "간 : 급성 바이러스/독성/알코올성 간염, 간경화/간암, 윌슨병, 길버트 증후군",
@@ -3680,7 +3736,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘탈수, 출혈’  주로 간담췌지만 시간이 부족하고 진단도 애매.."
+          "황달은 비결합형과 결합형 빌리루빈 상승을 구분하고 간세포성·담즙정체성 양상과 급성 간기능부전 징후를 함께 본다."
         ]
       },
       {
@@ -3790,15 +3846,23 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• bilirubin의 입원 기준치와 상승속도, 수술·TPN·수혈·새 약물, 복통·발열·저혈압과 pruritus를 확인한다. cholangitis, drug-induced liver injury, hemolysis, sepsis-associated cholestasis와 hepatic failure를 구분한다.",
+          "• 발열·RUQ pain·저혈압·의식변화가 동반되면 acute cholangitis로 항균제와 긴급 biliary drainage를 준비한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• total/direct bilirubin, AST/ALT, ALP/GGT, INR, albumin, CBC, hemolysis panel과 acetaminophen 노출을 확인한다. RUQ ultrasound를 우선하고 폐색 의심 시 MRCP/CT/ERCP를 선택한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 의심 간독성 약물과 불필요한 hepatotoxic agent를 중단한다. cholangitis는 배양 후 원내 담도감염 항균제를 신속히 시작하고 ERCP source control을 지연하지 않는다.",
+          "• INR 상승, hypoglycemia, encephalopathy가 있는 acute liver failure이면 ICU·간이식센터에 즉시 연락한다. 단순 bilirubin 감소 목적의 약물은 사용하지 않는다."
+        ]
       },
       {
         "title": "ER",
@@ -3830,7 +3894,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:43:54.766Z"
+    "updatedAt": "2026-07-23T16:11:03.888Z"
   },
   {
     "id": "201",
@@ -3842,7 +3906,7 @@
     "category": "02 순환기",
     "sourcePath": "source_notes/01 Chief Complaint/가슴통증.md",
     "concept": [
-      "'통증’, 악화/완화 인자 중심으로, PTE, 맥박 잊지말것"
+      "흉통은 ACS뿐 아니라 대동맥박리, 폐색전증, 기흉처럼 초기 양상이 겹치는 시간 민감 질환을 먼저 구분한다."
     ],
     "differentials": [
       "소화기 : GERD, 궤양",
@@ -4154,7 +4218,7 @@
       {
         "title": "Concept",
         "content": [
-          "'통증’, 악화/완화 인자 중심으로, PTE, 맥박 잊지말것"
+          "흉통은 ACS뿐 아니라 대동맥박리, 폐색전증, 기흉처럼 초기 양상이 겹치는 시간 민감 질환을 먼저 구분한다."
         ]
       },
       {
@@ -4267,15 +4331,33 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 입원 중 새 흉통은 현재 입원질환과 별개로 ACS, 대동맥박리, PE, 기흉, 심장압전, 식도파열을 먼저 선별한다. 통증 시작시각·지속시간과 함께 최근 수술·부동·항응고 중단, 중심정맥관 삽입, 수혈, 내시경·구토, 투석 시점을 확인한다.",
+          "• 활력징후, 양팔 혈압, 산소포화도, 심장·폐 청진, 맥박 비대칭, 새 심잡음, DVT 징후와 흉벽 압통을 확인한다. 기존 ECG와 입원 당시 troponin, hemoglobin, creatinine을 현재 값과 비교한다.",
+          "• 저혈압, 지속 통증, ST 변화, 치명적 부정맥, 새 저산소증·신경학적 이상이 있으면 병실 검사를 기다리지 말고 모니터링 가능한 구역으로 이동시키고 신속대응팀과 해당 시술팀을 활성화한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 12유도 ECG를 인지 후 10분 이내 시행하고 이전 ECG와 비교한다. 초기 ECG가 비진단적이어도 통증이 지속·재발하면 15–30분 간격으로 반복하고 지속 모니터링한다.",
+          "• High-sensitivity troponin은 검사실의 0/1시간 또는 0/2시간 protocol로 추적한다. CK-MB를 일률적으로 추가하지 않으며, 빈혈·AKI·sepsis에서 troponin 상승은 임상·ECG 변화와 함께 해석한다.",
+          "• CBC, 전해질·Cr, glucose, coagulation은 출혈·항혈전치료·조영검사 가능성을 고려해 선택한다. 흉부 X선은 기흉·폐렴·종격 이상 평가에 사용하지만 ACS·PE·박리를 배제하지 못한다.",
+          "• PE와 대동맥박리는 임상 사전확률을 먼저 판단한 뒤 D-dimer 또는 CT angiography를 선택한다. 불안정 환자는 bedside echocardiography로 심실기능, 심낭액, 우심실 부담과 용적상태를 확인한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "### 허혈성 흉통이 의심될 때",
+          "• Aspirin (아스피린프로텍트정 100 mg 등) 총 300 mg PO loading을 가능한 빨리 투여한다. 이미 복용했는지 확인하고 aspirin 과민반응, 활동성 출혈 또는 대동맥박리 의심 시 보류한다.",
+          "• Nitroglycerin (니트로링구알스프레이 0.4 mg/dose 등) 0.4 mg SL q5min, 최대 3회까지 투여하면서 매회 혈압과 통증을 재평가한다. 저혈압, 우심실경색, 중증 대동맥판막협착 또는 최근 PDE-5 inhibitor 복용 시 투여하지 않는다.",
+          "• 산소는 일률적으로 투여하지 않는다. 저산소증이면 SpO2 94–98%를 목표로 하되 hypercapnic respiratory failure 위험에서는 88–92%를 목표로 한다.",
+          "• 추가 항혈소판제·항응고제는 현재 항혈전제와 마지막 투여시각, 출혈·수술 계획, 박리 가능성을 확인한 뒤 심장내과·원내 ACS protocol에 따라 시작한다.",
+          "### 재평가와 전환",
+          "• 진통 반응만으로 ACS를 배제하지 않는다. 통증, 활력징후와 ECG를 5–15분 단위로 재평가하고 STEMI·불안정 ACS이면 즉시 cath lab pathway를 가동한다.",
+          "• PE, 박리, 기흉, 심장압전 또는 식도파열이 의심되면 aspirin·항응고제를 자동 투여하지 말고 해당 원인의 영상·시술·수술 경로로 전환한다."
+        ]
       },
       {
         "title": "ER",
@@ -4310,7 +4392,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:26:36.045Z"
+    "updatedAt": "2026-07-23T16:11:03.732Z"
   },
   {
     "id": "202",
@@ -4322,7 +4404,7 @@
     "category": "02 순환기",
     "sourcePath": "source_notes/01 Chief Complaint/실신.md",
     "concept": [
-      "'CV+NR’ 경련 아닌지 확인, 전-중-후 중심으로 문진"
+      "실신은 일시적 의식소실과 자발적 회복이 있었는지 확인하고 전·중·후 경과로 경련과 구분하며 운동 중 발생은 심인성을 우선한다."
     ],
     "differentials": [
       "신경계 : (ANS) 혈관미주신경실신, 기립성 저혈압, 배뇨 실신 / (CNS) 지주막하출혈, 일과성 허혈 발작",
@@ -4662,7 +4744,7 @@
       {
         "title": "Concept",
         "content": [
-          "'CV+NR’ 경련 아닌지 확인, 전-중-후 중심으로 문진"
+          "실신은 일시적 의식소실과 자발적 회복이 있었는지 확인하고 전·중·후 경과로 경련과 구분하며 운동 중 발생은 심인성을 우선한다."
         ]
       },
       {
@@ -4770,15 +4852,23 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 실제 의식소실과 회복시간, 자세·배뇨·통증, telemetry event를 확인하고 부정맥, 출혈, PE, ACS, seizure, orthostatic hypotension과 약물 원인을 본다. 낙상 손상과 항응고 여부를 동시에 평가한다.",
+          "• 운동 중 실신, 비정상 ECG, 지속 저혈압, 흉통·호흡곤란, 새 심잡음 또는 가족 돌연사는 monitored evaluation 대상이다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• orthostatic BP, 12유도 ECG, bedside glucose, CBC·electrolytes를 기본 단서에 따라 시행하고 telemetry를 검토한다. troponin, echo, CTPA, brain imaging은 임상 가설에 따라 선택한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 저혈량이면 balanced crystalloid (하트만액·Plasma Solution A 등) 250–500 mL IV 후 orthostatic 증상·폐진찰을 재평가한다. 원인 약물과 과도한 이뇨·혈압약을 조정한다.",
+          "• 부정맥·출혈·PE·ACS는 원인 치료로 전환한다. 정상 CT나 일시적 회복만으로 고위험 실신의 모니터링을 종료하지 않는다."
+        ]
       },
       {
         "title": "ER",
@@ -4813,7 +4903,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:26:36.061Z"
+    "updatedAt": "2026-07-23T16:11:03.821Z"
   },
   {
     "id": "203",
@@ -4825,7 +4915,7 @@
     "category": "02 순환기",
     "sourcePath": "source_notes/01 Chief Complaint/두근거림.md",
     "concept": [
-      "‘CV+ EM + NP’ PEx에서 맥박 잊지 말 것"
+      "두근거림은 실제 맥박 변화와 일치하는지 확인하고 갑작스러운 시작·종료, 운동 연관성, 실신 동반 여부로 부정맥 가능성을 가른다."
     ],
     "differentials": [
       "순환기 : 생리적 빈맥, 심방 세동/조동, 돌발심실상빈맥, 조기심실수축 / 판막 질환, 심부전",
@@ -5177,7 +5267,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘CV+ EM + NP’ PEx에서 맥박 잊지 말 것"
+          "두근거림은 실제 맥박 변화와 일치하는지 확인하고 갑작스러운 시작·종료, 운동 연관성, 실신 동반 여부로 부정맥 가능성을 가른다."
         ]
       },
       {
@@ -5281,15 +5371,23 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 증상 중 pulse와 telemetry strip을 확보하고 저혈압, 흉통, 폐부종, 실신을 확인한다. 새 약물, K·Mg 이상, anemia·sepsis·hypoxia, withdrawal과 중심정맥관 위치를 검토한다.",
+          "• 불안정 빈맥이면 즉시 synchronized cardioversion과 신속대응팀을 준비한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 12유도 ECG, K·Mg·Ca, CBC, glucose, renal function과 troponin·TSH를 단서에 따라 시행한다. 기존 ECG와 QTc, telemetry onset을 비교한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 규칙적 narrow-complex SVT가 안정적이면 vagal maneuver 후 Adenosine (아데노코주 6 mg/2 mL 등) 6 mg rapid IV push, 실패 시 12 mg을 투여한다. 불규칙·wide-complex rhythm에는 사용하지 않는다.",
+          "• 안정된 AF with RVR는 원인 교정과 함께 Metoprolol (베타록주 1 mg/mL) 2.5–5 mg IV q5min, 최대 15 mg을 고려하되 저혈압·급성 심부전·기관지경련에서 피한다. rhythm과 혈압을 5–15분마다 재평가한다."
+        ]
       },
       {
         "title": "ER",
@@ -5320,7 +5418,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:42:58.574Z"
+    "updatedAt": "2026-07-23T16:11:03.777Z"
   },
   {
     "id": "204",
@@ -5332,7 +5430,7 @@
     "category": "02 순환기",
     "sourcePath": "source_notes/01 Chief Complaint/고혈압.md",
     "concept": [
-      "'FM’, 고혈압에 의한 영향평가도 해야함"
+      "고혈압은 수치 자체보다 급성 표적장기 손상 여부와 이차성 원인의 단서를 구분하는 것이 핵심이다."
     ],
     "differentials": [
       "일차성 고혈압 : 본태 고혈압",
@@ -5637,7 +5735,7 @@
       {
         "title": "Concept",
         "content": [
-          "'FM’, 고혈압에 의한 영향평가도 해야함"
+          "고혈압은 수치 자체보다 급성 표적장기 손상 여부와 이차성 원인의 단서를 구분하는 것이 핵심이다."
         ]
       },
       {
@@ -5738,15 +5836,23 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 적절한 cuff와 안정된 자세로 반복 측정하고 통증, 불안, 요저류, withdrawal, 저산소증, 수액과 누락된 평소 약을 확인한다. 수치보다 새 뇌·심장·신장·대동맥 장기손상 여부로 응급성을 결정한다.",
+          "• 무증상 고혈압은 PRN IV 약제로 급격히 낮추지 않는다. 신경학적 이상, 흉통·폐부종, AKI·망막병증 또는 박리 의심이면 hypertensive emergency로 monitored setting에 이동한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 장기손상 단서에 따라 ECG·troponin, CBC, BMP·urinalysis, chest imaging, brain CT와 fundus를 선택한다. 기존 BP와 creatinine을 비교한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 무증상이면 유발요인을 교정하고 평소 경구약을 재개·조정한 뒤 수시간 후 재측정한다.",
+          "• hypertensive emergency는 원인별 목표를 정해 Nicardipine (페르디핀주) 5 mg/h IV로 시작, 5–15분마다 2.5 mg/h 증량해 최대 15 mg/h 또는 Labetalol (트란데이트주) 10–20 mg IV 후 필요 시 반복한다. stroke·대동맥박리·임신은 별도 목표와 약제를 적용한다."
+        ]
       },
       {
         "title": "ER",
@@ -5777,7 +5883,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:42:58.579Z"
+    "updatedAt": "2026-07-23T16:11:03.746Z"
   },
   {
     "id": "205",
@@ -5789,7 +5895,7 @@
     "category": "02 순환기",
     "sourcePath": "source_notes/01 Chief Complaint/이상지질혈증.md",
     "concept": [
-      "‘FM’, 교육에 중점을 두고, 체중 증가와 비슷한 느낌이기도?"
+      "이상지질혈증은 수치 하나보다 전체 심혈관 위험, LDL 상승 정도, 이차성 원인을 종합해 치료 강도를 결정한다."
     ],
     "differentials": [
       "일차성 고콜레스테롤혈증",
@@ -5987,7 +6093,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘FM’, 교육에 중점을 두고, 체중 증가와 비슷한 느낌이기도?"
+          "이상지질혈증은 수치 하나보다 전체 심혈관 위험, LDL 상승 정도, 이차성 원인을 종합해 치료 강도를 결정한다."
         ]
       },
       {
@@ -6071,18 +6177,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 병동에서 수치 자체를 급히 치료하지 않고 ASCVD·ACS, liver injury, rhabdomyolysis와 기존 statin 중단 이유를 확인한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 급성질환 중 lipid 변동을 고려하고 statin adverse effect 의심 시 CK·LFT를 증상에 따라 확인한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• ASCVD/ACS에서 금기가 없으면 Atorvastatin (리피토정) 40–80 mg 또는 Rosuvastatin (크레스토정) 20 mg PO daily를 유지·시작한다. 단순 입원 수치만으로 여러 약을 추가하지 않는다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:11.088Z"
+    "updatedAt": "2026-07-23T16:11:03.848Z"
   },
   {
     "id": "301",
@@ -6094,7 +6206,7 @@
     "category": "03 호흡기",
     "sourcePath": "source_notes/01 Chief Complaint/기침.md",
     "concept": [
-      "‘CM+ENT’, 기간에 따라서 나눠 생각 ‘GERD’"
+      "기침은 지속기간과 유발 상황을 기준으로 감염, 기도질환, 상기도기침증후군, 역류, 약물 원인을 구분한다."
     ],
     "differentials": [
       "급성 : 상기도 감염, 하기도 감염(폐렴), 외부 연기/증기",
@@ -6433,7 +6545,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘CM+ENT’, 기간에 따라서 나눠 생각 ‘GERD’"
+          "기침은 지속기간과 유발 상황을 기준으로 감염, 기도질환, 상기도기침증후군, 역류, 약물 원인을 구분한다."
         ]
       },
       {
@@ -6539,18 +6651,26 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 입원 후 새 기침은 aspiration, hospital-acquired pneumonia, pulmonary edema, atelectasis, ACE inhibitor와 산소장치 자극을 확인하고 식사·tube feeding·수술·수액 시점과 맞춘다.",
+          "• 저산소증, 호흡곤란, 객혈 또는 stridor이면 기침약보다 호흡평가를 우선한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• SpO2, 흉부진찰과 chest X-ray를 단서에 따라 시행하고 감염이면 CBC·배양, aspiration이면 swallow evaluation을 선택한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 원인 치료와 head elevation·aspiration precaution을 적용한다. 분비물이 많은 환자에게 진해제를 일률적으로 투여하지 않는다.",
+          "• 위험 원인이 배제된 마른기침은 Dextromethorphan (러미라정 15 mg 등) 15–30 mg PO q6–8h PRN을 고려하되 serotonergic drug 병용을 확인한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.690Z"
+    "updatedAt": "2026-07-23T16:11:03.767Z"
   },
   {
     "id": "302",
@@ -6562,7 +6682,7 @@
     "category": "03 호흡기",
     "sourcePath": "source_notes/01 Chief Complaint/콧물／코막힘.md",
     "concept": [
-      "‘ENT’ 악화인자를 잘 문진"
+      "콧물·코막힘은 기간과 유발요인, 가려움·재채기 동반 여부로 감염성, 알레르기성, 비알레르기성 비염을 구분한다."
     ],
     "differentials": [
       "감염 : 상기도 감염, 부비동염",
@@ -6862,7 +6982,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘ENT’ 악화인자를 잘 문진"
+          "콧물·코막힘은 기간과 유발요인, 가려움·재채기 동반 여부로 감염성, 알레르기성, 비알레르기성 비염을 구분한다."
         ]
       },
       {
@@ -6962,18 +7082,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• viral·allergy 외에 oxygen cannula dryness, NG tube 자극과 unilateral purulent/bloody discharge를 확인한다. 면역저하의 안와증상·괴사는 invasive sinusitis를 선별한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• uncomplicated symptom은 검사가 필요 없다. 고위험 소견이면 ENT와 CT/endoscopy를 시행한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 생리식염수 spray와 가습을 우선하고 allergic pattern이면 Cetirizine (지르텍정 10 mg) 10 mg PO daily를 고려한다. topical decongestant는 3일 이상 쓰지 않는다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:11.186Z"
+    "updatedAt": "2026-07-23T16:11:03.867Z"
   },
   {
     "id": "303",
@@ -6985,7 +7111,7 @@
     "category": "03 호흡기",
     "sourcePath": "source_notes/01 Chief Complaint/객혈.md",
     "concept": [
-      "'출혈’, 토혈은 아닌지 확인"
+      "객혈은 비출혈·구강출혈·토혈과 출처를 구분하고, 원인 감별보다 기도 위협과 출혈 중증도 판단이 우선이다."
     ],
     "differentials": [
       "감염 : 폐렴, 폐결핵, 폐흡충증",
@@ -7283,7 +7409,7 @@
       {
         "title": "Concept",
         "content": [
-          "'출혈’, 토혈은 아닌지 확인"
+          "객혈은 비출혈·구강출혈·토혈과 출처를 구분하고, 원인 감별보다 기도 위협과 출혈 중증도 판단이 우선이다."
         ]
       },
       {
@@ -7379,15 +7505,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 양과 속도, 산소 요구량을 확인하고 hematemesis·epistaxis 흡인을 구분한다. 최근 기관지경·biopsy, anticoagulant, 폐암·결핵·기관지확장증과 PE 위험을 확인한다.",
+          "• 계속되는 출혈, 저산소증·저혈압, 분비물 배출 불가는 대량 기준 숫자를 기다리지 말고 기도 응급으로 판단한다. 출혈 폐가 추정되면 해당 쪽을 아래로 눕히고 ICU·호흡기·중재시술팀을 호출한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• CBC·serial Hb, coagulation, type and screen, renal function과 흉부 X선을 시행한다. 안정 시 contrast chest CT/CT angiography, 지속 출혈에서는 bronchoscopy와 bronchial artery embolization을 준비한다.",
+          "• 산소·호흡수·출혈량·Hb를 반복하고 anticoagulant의 마지막 투여시각과 신기능을 확인한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 산소와 suction을 준비하고 NPO, large-bore IV를 확보한다. 출혈 관련 anticoagulant·antiplatelet은 적응증과 혈전위험을 함께 검토해 보류·reversal한다.",
+          "• 불안정하거나 지속 출혈이면 병실에서 진정·검사를 반복하지 말고 definitive airway, bronchoscopy 또는 embolization이 가능한 장소로 이동한다. 기침억제제는 분비물 배출을 막을 수 있어 대량 객혈에 일률적으로 사용하지 않는다."
+        ]
       },
       {
         "title": "ER",
@@ -7422,7 +7557,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:26:36.066Z"
+    "updatedAt": "2026-07-23T16:11:03.737Z"
   },
   {
     "id": "304",
@@ -7434,7 +7569,7 @@
     "category": "03 호흡기",
     "sourcePath": "source_notes/01 Chief Complaint/호흡곤란.md",
     "concept": [
-      "'CV+CM+EM+NP’, 힘들지는 않은지 한마디, PTE 잊지말것"
+      "호흡곤란은 주관적 정도보다 산소화와 호흡노력으로 중증도를 판단하고 심장성, 폐성, 대사성, 기능성 원인을 나눈다."
     ],
     "differentials": [
       "순환기 : 울혈 심부전, 빈혈",
@@ -7788,7 +7923,7 @@
       {
         "title": "Concept",
         "content": [
-          "'CV+CM+EM+NP’, 힘들지는 않은지 한마디, PTE 잊지말것"
+          "호흡곤란은 주관적 정도보다 산소화와 호흡노력으로 중증도를 판단하고 심장성, 폐성, 대사성, 기능성 원인을 나눈다."
         ]
       },
       {
@@ -7897,15 +8032,33 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 입원 당시 산소 요구량·호흡수와 현재 상태를 비교하고 증상 발생시각을 수액·수혈, 수술·진정, opioid 투여, 중심정맥관 삽입, 흡인, 부동·항응고 중단 시점과 맞춘다.",
+          "• 산소공급장치와 실제 유량, SpO2 waveform, 기도 분비물·tube 문제를 먼저 확인한다. 폐부종, atelectasis·mucus plugging, 폐렴·흡인, PE, 기흉, 기관지수축, opioid 호흡억제와 metabolic acidosis를 병렬로 평가한다.",
+          "• 말하기 어려움, 보조근 사용, silent chest, 새 의식저하, 저혈압, 빠르게 증가하는 산소 요구량은 병동 치료 실패 신호다. 즉시 신속대응팀을 호출하고 NIV·삽관이 가능한 장소로 이동한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• ECG와 흉부 X선을 기본 가설에 맞춰 시행하고, bedside ultrasound로 B-line, 흉수, lung sliding, 심실기능·우심실 부담과 IVC를 확인한다.",
+          "• CBC, 전해질·Cr, glucose를 확인하고 감염이면 lactate·배양, 심부전이면 BNP/NT-proBNP·troponin, PE이면 사전확률에 따른 D-dimer 또는 CTPA를 선택한다.",
+          "• hypercapnia, 심한 호흡곤란, 의식 변화 또는 NIV 고려 시 ABGA/VBGA를 시행한다. COPD 악화에서 산소를 조정하거나 NIV를 시작한 뒤에는 pH·PaCO2를 반복 확인한다.",
+          "• 치료 시작 15–30분 후 호흡수, SpO2, 산소 유량, 보조근 사용, 의식과 청진을 재평가한다. 산소 요구량이 증가하거나 gas가 악화하면 중환자 치료로 전환한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "### 산소와 기관지확장",
+          "• 산소는 SpO2 94–98%를 목표로 적정한다. COPD, 비만저환기 등 hypercapnic respiratory failure 위험이 있으면 88–92%로 시작하고 blood gas로 조정한다.",
+          "• 기관지수축이면 Salbutamol (벤토린네뷸 2.5 mg 등) 2.5–5 mg nebulization q20min × 3회 후 반응에 따라 q1–4h. 중증이면 Ipratropium (아트로벤트흡입액유디비 500 mcg 등) 500 mcg nebulization q20min × 3회를 병용한다. 빈맥, 떨림, K 감소와 lactate 상승을 확인한다.",
+          "• COPD 악화에서 지속되는 hypercapnic acidosis는 최적 약물치료 후 NIV를 우선 고려한다. NIV 시작 시 실패 시 삽관 여부와 치료 상한을 함께 정한다.",
+          "### 폐울혈·약물 관련 원인",
+          "• 임상적으로 체액과다·급성 폐부종이면 Furosemide (라식스주 20 mg/2 mL) 20–40 mg IV를 시작한다. 기존 loop diuretic 복용자는 평소 1일 경구량과 신기능을 반영해 더 높은 IV 용량이 필요할 수 있으며, 1–2시간 내 소변량·호흡·혈압·Cr·K를 재평가한다.",
+          "• opioid 투여 후 호흡저하·축동·의식저하가 있으면 투여를 중단하고 Naloxone (한림날록손염산염주사 등) 0.04 mg IV부터 2–3분 간격으로 0.04–0.4 mg씩 환기가 회복될 때까지 적정한다. 누적 2 mg에도 반응이 없으면 다른 원인을 재평가하고, 장시간 작용 opioid에서는 재진정에 대비한다.",
+          "• 폐렴·흡인, PE, 기흉, 수혈관련 폐손상·순환과부하는 각각의 원인 치료를 즉시 병행한다. 호흡곤란을 불안으로 단정하거나 진정제부터 투여하지 않는다."
+        ]
       },
       {
         "title": "ER",
@@ -7941,7 +8094,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:26:36.053Z"
+    "updatedAt": "2026-07-23T16:11:03.886Z"
   },
   {
     "id": "401",
@@ -7953,7 +8106,7 @@
     "category": "04 신장/비뇨기",
     "sourcePath": "source_notes/01 Chief Complaint/다뇨.md",
     "concept": [
-      "비뇨기 문제인지 조절 문제인지 잘 문진"
+      "다뇨는 실제 소변량 증가와 빈뇨를 먼저 구분하고, 실제 다뇨라면 삼투성 이뇨와 수분 이뇨로 나누어 접근한다."
     ],
     "differentials": [
       "I/O 조절문제 : 원발 다음증, (중추/신장) 요붕증, 당뇨병",
@@ -8235,7 +8388,7 @@
       {
         "title": "Concept",
         "content": [
-          "비뇨기 문제인지 조절 문제인지 잘 문진"
+          "다뇨는 실제 소변량 증가와 빈뇨를 먼저 구분하고, 실제 다뇨라면 삼투성 이뇨와 수분 이뇨로 나누어 접근한다."
         ]
       },
       {
@@ -8331,18 +8484,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 24시간 소변량으로 실제 polyuria(성인 대개 >3 L/day)를 확인하고 diuretic·수액, hyperglycemia, post-obstructive diuresis, recovery AKI와 diabetes insipidus를 구분한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• strict I/O, 체중, glucose·Na·K·Ca·Cr, serum/urine osmolality와 urine Na를 확인한다. 불안정 환자에게 water deprivation test를 임의로 시행하지 않는다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 원인 수액·diuretic을 조정하고 손실량과 Na 변화에 맞춰 수분을 보충한다. central DI가 확인되면 Desmopressin (미니린정/주사 등)을 전문과 protocol로 투여하고 2–4시간 간격 Na·소변량을 본다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.705Z"
+    "updatedAt": "2026-07-23T16:11:03.774Z"
   },
   {
     "id": "402",
@@ -8354,7 +8513,7 @@
     "category": "04 신장/비뇨기",
     "sourcePath": "source_notes/01 Chief Complaint/핍뇨.md",
     "concept": [
-      "pre – renal – post 순으로 체크, 체액 감소일수도, 막힌거일수도"
+      "핍뇨는 체액상태와 요로폐색 여부를 먼저 확인한 뒤 신전성, 신성, 신후성 원인으로 나누어 접근한다."
     ],
     "differentials": [
       "pre : 혈량저하증/심부전/약물에 의한 급성 신손상",
@@ -8670,7 +8829,7 @@
       {
         "title": "Concept",
         "content": [
-          "pre – renal – post 순으로 체크, 체액 감소일수도, 막힌거일수도"
+          "핍뇨는 체액상태와 요로폐색 여부를 먼저 확인한 뒤 신전성, 신성, 신후성 원인으로 나누어 접근한다."
         ]
       },
       {
@@ -8771,15 +8930,32 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 실제 시간당 소변량과 누적 balance를 확인하고 체중·Cr의 입원 기준치와 비교한다. Foley가 있으면 tubing kinking, bag 위치, sediment·blood clot과 catheter obstruction을 먼저 교정하고, 없거나 불확실하면 bladder scan으로 요저류를 확인한다.",
+          "• 출혈·설사·금식·sepsis에 의한 저관류, 수액·수혈 후 congestion·심부전, 조영제·NSAID·ACE inhibitor/ARB·diuretic·aminoglycoside·vancomycin 등 최근 노출, 수술 후 rhabdomyolysis와 요로폐색을 확인한다.",
+          "• 고칼륨혈증, 중증 산증, 폐부종·저산소증, 요독성 심낭염·뇌병증 또는 빠르게 진행하는 AKI가 있으면 단순 수액시험을 반복하지 말고 신장내과·중환자 평가를 즉시 요청한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• BMP, Mg·phosphate, CBC, urinalysis와 sediment를 시행하고 CK, lactate, hemolysis·GN 검사는 임상 단서에 따라 추가한다. creatinine은 급성 손상 초기에 늦게 상승할 수 있으므로 소변량 추세를 함께 본다.",
+          "• ECG는 K 상승 또는 빠른 AKI에서 즉시 시행한다. bladder scan으로 하부폐색을 확인하고, 원인이 불명확하거나 상부폐색 위험이 있으면 신장·요로초음파를 24시간 이내 시행한다.",
+          "• 활력징후, 폐음·부종·JVP, intake/output와 체중으로 volume status를 반복 평가한다. 처치 후 소변량은 1시간 이내, K·산염기·Cr은 중증도에 따라 2–6시간 이내 재검한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "### 원인 교정",
+          "• 저혈량이 임상적으로 명확하고 폐울혈이 없으면 balanced crystalloid (하트만액·Plasma Solution A 등) 250–500 mL IV를 15–30분에 투여한 뒤 혈압·맥박·폐진찰과 소변량을 즉시 재평가한다. 반응 없이 congestion이 생기면 추가 bolus를 중단한다.",
+          "• 신독성 약물을 중단하고 모든 약을 현재 eGFR과 AKI에 맞춰 감량한다. Foley obstruction은 irrigation·교체로 해결하고, 감염성 폐색·양측 폐색·단일신 폐색은 즉시 비뇨의학과에 의뢰해 진단 후 12시간 이내 배액을 목표로 한다.",
+          "• Loop diuretic은 AKI 자체를 치료하거나 소변량 숫자를 늘리기 위해 사용하지 않는다. 폐부종·체액과다일 때만 Furosemide (라식스주 20 mg/2 mL) 20–40 mg IV를 투여하고 1–2시간 내 소변량·호흡·혈압·Cr·K를 재평가한다.",
+          "### 고칼륨혈증 동반 시",
+          "• ECG 변화 또는 K가 중증으로 상승하면 Calcium gluconate 10% (칼슘글루코네이트주 10%, 10 mL) 10 mL IV over 5–10min으로 심근을 안정화하고 5–10분 후 ECG 변화가 지속되면 반복을 고려한다.",
+          "• Regular insulin (휴물린알주 등) 10 units IV + Glucose 50% (대한포도당주사액 50% 등) 50 mL, 25 g IV를 투여하고, Salbutamol (벤토린네뷸) 10–20 mg nebulization을 보조로 사용한다. 투여 전과 이후 최소 4–6시간 동안 혈당을 반복 측정한다.",
+          "• 약물치료는 K를 제거하지 못한다. refractory hyperkalemia, 중증 산증, 폐부종 또는 요독성 합병증이면 신대체치료를 지연하지 않는다."
+        ]
       },
       {
         "title": "ER",
@@ -8811,7 +8987,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:43:54.788Z"
+    "updatedAt": "2026-07-23T16:11:03.877Z"
   },
   {
     "id": "403",
@@ -8823,7 +8999,7 @@
     "category": "04 신장/비뇨기",
     "sourcePath": "source_notes/01 Chief Complaint/혈뇨.md",
     "concept": [
-      "'출혈’, 가성 배제하고 감염도 확인"
+      "혈뇨는 적혈구뇨를 색소뇨와 구분하고 단백뇨·원주 여부와 통증·배뇨증상으로 사구체성과 비사구체성 원인을 나눈다."
     ],
     "differentials": [
       "가성 혈뇨 : 채소 섭취, 리팜핀, 횡문근융해증",
@@ -9141,7 +9317,7 @@
       {
         "title": "Concept",
         "content": [
-          "'출혈’, 가성 배제하고 감염도 확인"
+          "혈뇨는 적혈구뇨를 색소뇨와 구분하고 단백뇨·원주 여부와 통증·배뇨증상으로 사구체성과 비사구체성 원인을 나눈다."
         ]
       },
       {
@@ -9243,15 +9419,23 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• gross hematuria와 clot, 배뇨곤란·flank pain을 확인하고 Foley trauma, anticoagulant, 최근 urologic procedure, infection과 glomerular sign을 검토한다.",
+          "• clot retention, Hb 감소, 단일신 폐색, fever와 obstruction이면 비뇨의학과 긴급 평가 대상이다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• urinalysis·microscopy/culture, CBC, Cr, coagulation을 시행한다. bladder scan, renal/bladder ultrasound 또는 CT urography를 임상상태에 따라 선택한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• clot retention이면 큰 구경 3-way Foley를 삽입해 manual irrigation 후 continuous bladder irrigation을 시작하고 유출량·색·실제 소변량을 기록한다.",
+          "• 감염성 폐색은 항균제와 긴급 배액, anticoagulant 관련 출혈은 적응증·중증도에 따라 보류·reversal한다. 맹목적 catheter 교체를 반복해 요도손상을 키우지 않는다."
+        ]
       },
       {
         "title": "ER",
@@ -9283,7 +9467,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:43:54.777Z"
+    "updatedAt": "2026-07-23T16:11:03.881Z"
   },
   {
     "id": "404",
@@ -9295,7 +9479,7 @@
     "category": "04 신장/비뇨기",
     "sourcePath": "source_notes/01 Chief Complaint/배뇨이상 (빈뇨).md",
     "concept": [
-      "대부분 빈뇨"
+      "빈뇨는 실제 다뇨와 구분하고 저장증상·배출증상을 함께 확인해 감염, 과민성 방광, 폐색, 대사성 원인을 나눈다."
     ],
     "differentials": [
       "방광 전 : 급성 신우신염, 당뇨병, 신경성 방광",
@@ -9588,7 +9772,7 @@
       {
         "title": "Concept",
         "content": [
-          "대부분 빈뇨"
+          "빈뇨는 실제 다뇨와 구분하고 저장증상·배출증상을 함께 확인해 감염, 과민성 방광, 폐색, 대사성 원인을 나눈다."
         ]
       },
       {
@@ -9680,18 +9864,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 소량 빈뇨와 polyuria를 구분하고 Foley 제거, diuretic, hyperglycemia, UTI, overflow retention과 섬망을 확인한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• I/O, bladder scan, urinalysis/culture와 glucose·Cr를 단서에 따라 시행한다. 무증상 bacteriuria만으로 항균제를 시작하지 않는다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• retention·hyperglycemia·diuretic timing과 constipation을 교정하고 UTI는 증상·배양에 따라 치료한다. antimuscarinic은 급성 섬망·retention을 악화할 수 있어 경험적으로 시작하지 않는다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.826Z"
+    "updatedAt": "2026-07-23T16:11:03.797Z"
   },
   {
     "id": "405",
@@ -9703,7 +9893,7 @@
     "category": "04 신장/비뇨기",
     "sourcePath": "source_notes/01 Chief Complaint/요실금.md",
     "concept": [
-      "요실금 상황을 잘 문진해서 감별, 신경인성 체크"
+      "요실금은 일시적 유발요인을 먼저 배제하고 복압성, 절박성, 범람성, 기능성 양상으로 나누어 접근한다."
     ],
     "differentials": [
       "소변 저장 문제 : 복압 요실금, 절박 요실금",
@@ -9902,7 +10092,7 @@
       {
         "title": "Concept",
         "content": [
-          "요실금 상황을 잘 문진해서 감별, 신경인성 체크"
+          "요실금은 일시적 유발요인을 먼저 배제하고 복압성, 절박성, 범람성, 기능성 양상으로 나누어 접근한다."
         ]
       },
       {
@@ -9984,18 +10174,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• baseline과 새 발생을 구분하고 delirium, UTI, diuretic, mobility barrier, constipation과 overflow retention을 확인한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• bladder scan post-void residual, 증상이 있을 때 urinalysis, 단서에 따라 glucose·Cr를 확인한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• scheduled toileting, 이동 도움, diuretic timing과 constipation을 교정한다. oxybutynin 등 anticholinergic은 delirium·retention을 악화할 수 있어 급성 병동에서 경험적으로 시작하지 않는다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.984Z"
+    "updatedAt": "2026-07-23T16:11:03.830Z"
   },
   {
     "id": "501",
@@ -10007,7 +10203,7 @@
     "category": "05 전신증상",
     "sourcePath": "source_notes/01 Chief Complaint/발열.md",
     "concept": [
-      "‘전신’ ‘탈수’ 모든 계통 확인, PEx 적절히"
+      "발열은 체온의 높이보다 환자의 전신 상태, 면역·연령 위험, 감염 초점과 장기기능 이상 여부가 우선순위를 결정한다."
     ],
     "differentials": [
       "감염 : 소화기/순환기/호흡기/비뇨기/신경계/연조직염..",
@@ -10337,7 +10533,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘전신’ ‘탈수’ 모든 계통 확인, PEx 적절히"
+          "발열은 체온의 높이보다 환자의 전신 상태, 면역·연령 위험, 감염 초점과 장기기능 이상 여부가 우선순위를 결정한다."
         ]
       },
       {
@@ -10453,15 +10649,34 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 입원 당시 체온과 현재 체온을 비교하고 측정 부위·방법, 해열제 투여 시각, 발열 시작 시점을 확인한다. 수술·시술일, 수혈·주입 시작, 새 약물 투여, 중심정맥관·Foley catheter·배액관 삽입 시점과의 시간 관계를 먼저 맞춘다.",
+          "• 폐, 요로, 수술부위·피부연조직, 혈관 catheter, 복강·담도와 C. difficile 감염을 진찰한다. 호중구감소, 장기이식·면역억제, 비장절제, 임신 여부는 초기 대응 강도를 높인다.",
+          "• 감염 외에도 수혈반응, 약물열, VTE, 수술 후 염증반응, pancreatitis, gout·pseudogout를 병렬로 본다. 수술 직후의 발열이라는 이유만으로 감염을 배제하거나 배양검사를 일률적으로 시행하지 않는다.",
+          "• 저혈압, 새 산소 요구량, 의식 변화, mottling, 소변량 감소 또는 lactate 상승이 있으면 병동 관찰을 지속하지 말고 sepsis pathway와 신속대응팀·중환자 평가로 전환한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• CBC with differential, 전해질·BUN/Cr, LFT와 lactate는 중증도와 장기기능장애가 의심될 때 시행한다. 호중구감소 가능성이 있으면 ANC를 즉시 확인한다.",
+          "• 균혈증·sepsis가 의심되면 서로 다른 부위에서 혈액배양 2세트를 항균제 전에 채취하되 치료를 지연하지 않는다. 중심정맥관 감염이 의심되면 말초혈액과 catheter lumen 검체를 동시에 채취한다.",
+          "• 소변검사·배양은 요로 증상, pyuria 또는 원인 불명 sepsis에서 시행한다. Foley 유지 환자에서 CAUTI가 의심되면 catheter를 교체한 뒤 새 catheter에서 검체를 얻는다.",
+          "• 흉부 X선은 새 호흡기 증상·저산소증이 있을 때, C. difficile 검사는 설명되지 않는 새 설사에서, 복부·수술부위 영상은 국소 증상이나 source control 필요성이 있을 때 선택한다.",
+          "• 안정 환자는 체온·혈압·호흡·의식·소변량을 2–4시간 이내 재평가한다. 배양 결과와 임상 반응은 24–48시간 안에 검토하여 항균제를 축소·변경·중단한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "### 증상 조절",
+          "• Acetaminophen (타이레놀정 500 mg 등) 500–1,000 mg PO q6h PRN. 모든 acetaminophen 함유 제제를 합산해 일반 성인은 4 g/day를 넘지 않고, 고령·저체중·영양불량·만성 음주·간질환에서는 3 g/day 이하 또는 추가 감량을 적용한다.",
+          "• 해열 자체보다 불편감 완화가 목적이다. 해열 후 체온이 내려갔다는 이유로 중증 감염을 배제하지 않으며, NSAID는 AKI·출혈·심부전 위험이 있으면 피한다.",
+          "### 원인 치료와 재평가",
+          "• 고위험 sepsis이면 배양 채취로 지연하지 말고 인지 후 1시간 이내 원내 병원획득감염 지침과 최근 배양·colonization을 반영한 IV 항균제를 시작한다. 감염원 확인 후 가능한 한 좁은 항균제로 조정하고 source control을 병행한다.",
+          "• 수혈 중 발열이면 즉시 수혈을 중단하고 정맥로는 생리식염수로 유지한 뒤 혈액은행·수혈반응 절차를 따른다. 새 약물과 시간 관계가 뚜렷하고 위험 감염을 배제했다면 의심 약물을 중단한다.",
+          "• 해열제 투여 후 1–2시간 내 체온과 증상, sepsis 처치 후에는 혈압·관류·산소 요구량·소변량을 더 짧은 간격으로 재평가한다. 악화하거나 감염원이 조절되지 않으면 신속대응팀, 감염내과 및 수술·시술팀을 호출한다."
+        ]
       },
       {
         "title": "ER",
@@ -10496,7 +10711,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:30:27.806Z"
+    "updatedAt": "2026-07-23T16:11:03.795Z"
   },
   {
     "id": "502",
@@ -10508,7 +10723,7 @@
     "category": "05 전신증상",
     "sourcePath": "source_notes/01 Chief Complaint/멍.md",
     "concept": [
-      "'출혈’, ITP 진단을 위해 나머지를 배제하는 방향으로"
+      "멍과 출혈은 점막·피부 중심인지 관절·근육의 깊은 출혈인지에 따라 혈소판·혈관 문제와 응고인자 문제를 구분한다."
     ],
     "differentials": [
       "외상",
@@ -10879,7 +11094,7 @@
       {
         "title": "Concept",
         "content": [
-          "'출혈’, ITP 진단을 위해 나머지를 배제하는 방향으로"
+          "멍과 출혈은 점막·피부 중심인지 관절·근육의 깊은 출혈인지에 따라 혈소판·혈관 문제와 응고인자 문제를 구분한다."
         ]
       },
       {
@@ -10997,15 +11212,21 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 주사·혈압커프·낙상, anticoagulant·antiplatelet, thrombocytopenia와 DIC를 확인하고 위치·크기·진행과 다른 출혈을 기록한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• CBC·platelet, PT/INR·aPTT, fibrinogen, renal·liver function을 시행한다. Hb 감소·옆구리 통증은 retroperitoneal bleeding 영상을 고려한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 작고 안정적인 주사부위 멍은 압박·관찰한다. 진행성 혈종, Hb 감소 또는 critical-site bleeding은 항혈전제를 보류하고 원내 reversal·수혈·시술 protocol을 적용한다."
+        ]
       },
       {
         "title": "ER",
@@ -11037,7 +11258,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:43:54.793Z"
+    "updatedAt": "2026-07-23T16:11:03.784Z"
   },
   {
     "id": "503",
@@ -11049,7 +11270,7 @@
     "category": "05 전신증상",
     "sourcePath": "source_notes/01 Chief Complaint/피로.md",
     "concept": [
-      "'전신’, 만성 피로증후군 진단기준 숙지, 생활습관 교정"
+      "피로는 졸림·운동불내성과 구분하고 수면·기분·생활요인과 빈혈·내분비·감염·장기질환 가능성을 기간과 기능 저하에 맞춰 평가한다."
     ],
     "differentials": [
       "일과성 피로",
@@ -11390,7 +11611,7 @@
       {
         "title": "Concept",
         "content": [
-          "'전신’, 만성 피로증후군 진단기준 숙지, 생활습관 교정"
+          "피로는 졸림·운동불내성과 구분하고 수면·기분·생활요인과 빈혈·내분비·감염·장기질환 가능성을 기간과 기능 저하에 맞춰 평가한다."
         ]
       },
       {
@@ -11502,18 +11723,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• anemia, infection, hypoxia, sleep disruption, deconditioning, depression, adrenal·thyroid 문제와 sedating medication을 검토한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• CBC, CMP, glucose, TSH, CRP와 SpO2를 임상 단서에 따라 선택하고 무차별 vitamin·tumor marker 검사를 피한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 원인 교정, 수면 묶음, 영양과 조기재활을 적용한다. stimulant나 vitamin을 원인 없이 경험적으로 시작하지 않는다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:11.213Z"
+    "updatedAt": "2026-07-23T16:11:03.872Z"
   },
   {
     "id": "504",
@@ -11525,7 +11752,7 @@
     "category": "05 전신증상",
     "sourcePath": "source_notes/01 Chief Complaint/체중감소.md",
     "concept": [
-      "‘전신’, 정작 체중감소가 CC일때 암을 빼먹지 않게 주의"
+      "체중감소는 의도성과 변화 속도를 확인하고 섭취 저하, 흡수장애, 대사 항진, 만성질환, 악성·정신과적 원인으로 나눈다."
     ],
     "differentials": [
       "섭취 감소 : 일차성 체중 감소 / 우울증, 신경성 식욕부진",
@@ -11861,7 +12088,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘전신’, 정작 체중감소가 CC일때 암을 빼먹지 않게 주의"
+          "체중감소는 의도성과 변화 속도를 확인하고 섭취 저하, 흡수장애, 대사 항진, 만성질환, 악성·정신과적 원인으로 나눈다."
         ]
       },
       {
@@ -11971,18 +12198,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 입원 전 추세와 입원 중 fluid loss를 분리하고 섭취, dysphagia, malignancy·infection, depression, thyroid와 약물을 확인한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 동일 조건 daily weight, CBC, CMP, CRP, TSH, glucose와 targeted imaging을 단서에 따라 선택하고 nutrition·refeeding risk를 평가한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• dietitian과 열량·단백질·섭취경로를 정한다. 고위험 refeeding에서는 Thiamine hydrochloride (제일티아민염산염주사액 50 mg/2 mL 등)과 phosphate·K·Mg 모니터링 후 영양을 단계적으로 증량한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:11.154Z"
+    "updatedAt": "2026-07-23T16:11:03.863Z"
   },
   {
     "id": "505",
@@ -11994,7 +12227,7 @@
     "category": "05 전신증상",
     "sourcePath": "source_notes/01 Chief Complaint/체중증가.md",
     "concept": [
-      "부종 원인 체크하고 나머지 체크"
+      "체중증가는 증가 속도와 부종 여부로 체액 증가와 체지방 증가를 구분하고 약물·내분비·심장·신장 원인을 확인한다."
     ],
     "differentials": [
       "섭취 증가 : 일차성 체중증가 / 주요 우울증, 폭식증",
@@ -12287,7 +12520,7 @@
       {
         "title": "Concept",
         "content": [
-          "부종 원인 체크하고 나머지 체크"
+          "체중증가는 증가 속도와 부종 여부로 체액 증가와 체지방 증가를 구분하고 약물·내분비·심장·신장 원인을 확인한다."
         ]
       },
       {
@@ -12393,18 +12626,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 입원 중 fluid balance, 수액·수혈, steroid, AKI·heart failure·cirrhosis와 측정조건을 확인하고 edema·dyspnea·JVP를 본다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• strict I/O, daily weight, BMP·albumin, BNP와 흉부영상/ultrasound를 원인에 따라 시행한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 불필요한 수액·sodium load를 중단한다. congestion이면 Furosemide (라식스주) 20–40 mg IV 또는 기존 loop 노출에 맞춰 투여하고 1–2시간 내 urine output, BP, Cr·K를 재평가한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:11.170Z"
+    "updatedAt": "2026-07-23T16:11:03.865Z"
   },
   {
     "id": "506",
@@ -12417,7 +12656,7 @@
     "category": "05 전신증상",
     "sourcePath": "source_notes/01 Chief Complaint/중독／과량복용.md",
     "concept": [
-      "급성 노출 환자는 물질 확인보다 ABC 안정화와 toxidrome, 시간·용량·제형·공동 노출 확인을 우선한다."
+      "급성 노출은 물질 확인보다 안정화와 toxidrome 평가가 우선이며 시간·용량·제형·투여경로·공동 노출을 함께 확인한다."
     ],
     "differentials": [
       "중독 : 의약품, 알코올·독성알코올, 농약, 부식제, 가스, 식물·버섯",
@@ -12720,7 +12959,7 @@
       {
         "title": "Concept",
         "content": [
-          "급성 노출 환자는 물질 확인보다 ABC 안정화와 toxidrome, 시간·용량·제형·공동 노출 확인을 우선한다."
+          "급성 노출은 물질 확인보다 안정화와 toxidrome 평가가 우선이며 시간·용량·제형·투여경로·공동 노출을 함께 확인한다."
         ]
       },
       {
@@ -12817,19 +13056,29 @@
       {
         "title": "접근",
         "content": [
-          "ABCDE 안정화 후 toxidrome, 심전도·혈당, 노출별 시간 민감 해독제와 합병증을 평가한다."
+          "• 입원 중 중독·과량투여는 투약오류, 환자 자가복용, opioid·sedative 축적, insulin·sulfonylurea 저혈당, 항응고제 출혈과 신·간기능 악화에 따른 약물축적을 우선 확인한다. MAR, 실제 투여시각·용량·경로, infusion pump와 환자 지참약을 즉시 대조한다.",
+          "• 의식, 호흡수·SpO2, 동공, 혈당, 체온, 혈압과 ECG를 확인하고 마지막 정상시각과 증상 시작시각을 맞춘다. 오류 약물뿐 아니라 저산소증·stroke·sepsis·전해질 이상을 동시에 배제한다.",
+          "• 호흡억제, 경련, shock, QRS/QTc 연장, 고체온, 반복 저혈당 또는 출혈이 있으면 투여를 중단하고 신속대응팀·중환자실·약제부 및 독성 전문가를 즉시 호출한다. 사고보고는 안정화 이후 진행한다."
         ]
       },
       {
         "title": "검사",
         "content": [
-          "심전도, 혈당과 기본 대사검사를 우선하고 물질별 검사를 선택한다."
+          "• bedside glucose와 ECG를 즉시 시행하고 BMP, Mg, blood gas, renal·liver function을 확인한다. 약물에 따라 acetaminophen·salicylate 농도, osmolar gap, CK, coagulation·anti-Xa를 선택한다.",
+          "• 서방형 제제, 반복 투여, 신·간기능 저하에서는 정상 초기 수치만으로 종료하지 말고 예상 peak·half-life에 맞춰 농도, ECG와 임상상태를 반복한다.",
+          "• 해독제 투여 후에는 호흡·의식·혈당·ECG를 약효 지속시간보다 길게 관찰한다. 특히 naloxone보다 오래 작용하는 opioid와 sulfonylurea는 재발을 예상한다."
         ]
       },
       {
         "title": "치료",
         "content": [
-          "지지치료가 중심이며 적응증이 명확할 때 오염 제거·해독제·체외제거를 시행한다."
+          "### 흔한 병동 투약 사고",
+          "• opioid 호흡억제에서는 opioid를 중단하고 Naloxone (한림날록손염산염주사 등) 0.04 mg IV부터 2–3분 간격으로 0.04–0.4 mg씩 환기가 회복될 때까지 적정한다. 무호흡·심한 저산소증이면 0.4–2 mg IV와 환기 보조를 우선하며, 재진정 시 반복 bolus 또는 infusion을 고려한다.",
+          "• 의식저하 동반 저혈당이면 Glucose 50% (대한포도당주사액 50% 등) 50 mL, 25 g IV를 투여하고 15분 후 재측정한다. 정맥로가 없으면 Glucagon (글루카겐주 1 mg) 1 mg IM을 사용하고, sulfonylurea 관련 반복 저혈당은 dextrose infusion과 Octreotide를 독성 전문가와 상의한다.",
+          "• benzodiazepine 과진정은 기도·환기 보조가 우선이다. 만성 복용, 경련 위험 또는 혼합중독에서 flumazenil을 일률적으로 사용하지 않는다.",
+          "• 항응고제·insulin·전해질제·항암제 오류는 마지막 투여시각, 신기능과 출혈·대사상태를 확인해 해당 원내 antidote/reversal protocol과 약제부 검증을 적용한다.",
+          "### 재평가",
+          "• 의식, 호흡수, SpO2, 혈압과 ECG를 초기에는 5–15분 단위로 재평가한다. 일시적 호전만으로 종료하지 않고 원인 약물의 지속시간, 서방형 여부와 장기기능을 기준으로 관찰 장소와 기간을 정한다."
         ]
       },
       {
@@ -12861,7 +13110,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:34:29.683Z"
+    "updatedAt": "2026-07-23T16:11:03.855Z"
   },
   {
     "id": "601",
@@ -12873,8 +13122,7 @@
     "category": "06 근골격/피부",
     "sourcePath": "source_notes/01 Chief Complaint/관절 통증／붓기.md",
     "concept": [
-      "‘PEx’, 증상에 따른 신체진찰을 빠르게 진행해야 함",
-      "‘PEx’, 증상에 따른 신체진찰을 빠르게 진행해야 함"
+      "관절 증상은 관절성과 관절주위 병변, 단일관절과 다발관절을 구분하며 급성 열성 단일관절에서는 감염을 우선 배제한다."
     ],
     "differentials": [
       "급성 관절 : 염증 : 통풍, 거짓 통풍, 감염 관절염, 반응 관절염 / 비염증 : 외상 관절염",
@@ -13231,8 +13479,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘PEx’, 증상에 따른 신체진찰을 빠르게 진행해야 함",
-          "‘PEx’, 증상에 따른 신체진찰을 빠르게 진행해야 함"
+          "관절 증상은 관절성과 관절주위 병변, 단일관절과 다발관절을 구분하며 급성 열성 단일관절에서는 감염을 우선 배제한다."
         ]
       },
       {
@@ -13353,15 +13600,23 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 새 단일관절 종창은 septic arthritis, crystal arthritis, hemarthrosis를 우선 구분하고 최근 수술·주사, bacteremia, anticoagulant와 인공관절 여부를 확인한다.",
+          "• 발열·관절운동 제한·독성소견이 있으면 진통 반응을 기다리지 말고 aspiration과 전문과 평가를 진행한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• CBC·CRP, blood culture와 joint aspiration(cell count, Gram stain/culture, crystal)을 시행한다. crystal 검출만으로 동시 감염을 배제하지 않는다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• septic arthritis 의심은 배양 후 원내 IV 항균제와 drainage를 시작한다. 진통은 Acetaminophen (타이레놀정) 500–1,000 mg q6h PRN을 우선한다.",
+          "• gout가 확인되고 신·간기능과 상호작용에 문제가 없으면 Colchicine (콜킨정 0.6 mg) 1.2 mg PO 후 1시간 뒤 0.6 mg을 고려한다."
+        ]
       },
       {
         "title": "ER",
@@ -13393,7 +13648,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:44:34.721Z"
+    "updatedAt": "2026-07-23T16:11:03.751Z"
   },
   {
     "id": "602",
@@ -13405,7 +13660,7 @@
     "category": "06 근골격/피부",
     "sourcePath": "source_notes/01 Chief Complaint/목 통증.md",
     "concept": [
-      "‘PEx’, 신경쪽인지 근육쪽인지감별"
+      "목 통증은 기계적 통증과 신경근병증·척수병증을 구분하고 외상, 감염, 혈관성 원인을 시사하는 징후를 따로 찾는다."
     ],
     "differentials": [
       "근육 : 경추염좌, 채찍질손상, 근막통증증후군",
@@ -13620,7 +13875,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘PEx’, 신경쪽인지 근육쪽인지감별"
+          "목 통증은 기계적 통증과 신경근병증·척수병증을 구분하고 외상, 감염, 혈관성 원인을 시사하는 징후를 따로 찾는다."
         ]
       },
       {
@@ -13706,15 +13961,21 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 자세통 외에 meningitis, cervical epidural abscess/hematoma, central line 합병증과 deep neck infection을 확인한다. 발열·신경결손·연하/호흡장애는 긴급 평가한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 신경학적 진찰, CBC·CRP·cultures를 단서에 따라 시행하고 cord infection·hematoma 의심 시 urgent MRI, trauma이면 CT를 선택한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 위험 원인이 배제된 근육성 통증은 Acetaminophen (타이레놀정) 500–1,000 mg q6h PRN, 온찜질과 조기운동을 사용한다. 진정성 근이완제는 낙상·섬망 위험을 고려한다."
+        ]
       },
       {
         "title": "ER",
@@ -13746,7 +14007,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:44:34.706Z"
+    "updatedAt": "2026-07-23T16:11:03.787Z"
   },
   {
     "id": "603",
@@ -13758,7 +14019,7 @@
     "category": "06 근골격/피부",
     "sourcePath": "source_notes/01 Chief Complaint/허리 통증.md",
     "concept": [
-      "‘PEx’, 신경 이상인지 근육 이상인지 감별"
+      "허리 통증은 비특이적 통증과 신경근 증상을 구분하고 마미증후군, 감염, 골절, 악성질환을 시사하는 징후를 따로 찾는다."
     ],
     "differentials": [
       "근육 : 요추염좌, 요추압박골절",
@@ -13942,7 +14203,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘PEx’, 신경 이상인지 근육 이상인지 감별"
+          "허리 통증은 비특이적 통증과 신경근 증상을 구분하고 마미증후군, 감염, 골절, 악성질환을 시사하는 징후를 따로 찾는다."
         ]
       },
       {
@@ -14024,15 +14285,21 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 새 weakness·saddle anesthesia·urinary retention, fever·bacteremia, cancer, trauma, anticoagulant와 epidural procedure를 확인한다. cord compression·epidural abscess/hematoma를 우선 배제한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 신경학적 진찰과 bladder scan을 시행하고 red flag가 있으면 CBC·CRP·cultures와 urgent spine MRI를 선택한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• red flag가 없으면 Acetaminophen (타이레놀정) 500–1,000 mg q6h PRN, 온찜질과 조기이동을 사용한다. cord compression 의심은 NPO, anticoagulant 보류와 즉시 spine team으로 전환한다."
+        ]
       },
       {
         "title": "ER",
@@ -14063,7 +14330,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:44:34.714Z"
+    "updatedAt": "2026-07-23T16:11:03.879Z"
   },
   {
     "id": "604",
@@ -14075,7 +14342,7 @@
     "category": "06 근골격/피부",
     "sourcePath": "source_notes/01 Chief Complaint/피부 발진.md",
     "concept": [
-      "‘DM’, 전신 증상 질환과 피부 국한 질환으로 나눠 생각, 약물도"
+      "발진은 형태, 분포, 발생 속도, 점막·전신증상, 새 약물 노출을 함께 보아 피부 국한 질환과 전신성 질환을 구분한다."
     ],
     "differentials": [
       "전신 : 감염 : 바이러스 (홍역, 수두), 매독, 대상포진 / 자가면역 : 전신홍반루푸스, 베체트, 피부근염",
@@ -14372,7 +14639,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘DM’, 전신 증상 질환과 피부 국한 질환으로 나눠 생각, 약물도"
+          "발진은 형태, 분포, 발생 속도, 점막·전신증상, 새 약물 노출을 함께 보아 피부 국한 질환과 전신성 질환을 구분한다."
         ]
       },
       {
@@ -14471,15 +14738,21 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 새 약물과 onset, mucosal lesion, facial edema, fever, skin pain·blister, eosinophilia·organ injury를 확인한다. SJS/TEN·DRESS 의심은 원인약을 중단하고 즉시 escalate한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• CBC with eosinophils, LFT·Cr, urinalysis와 cultures/biopsy를 중증도에 따라 시행하고 BSA·사진을 기록한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 단순 pruritic eruption은 Cetirizine (지르텍정) 10 mg PO daily와 topical steroid를 고려한다. anaphylaxis이면 Epinephrine (에피네프린주 1 mg/mL) 0.5 mg IM을 즉시 투여하고 5분 후 반복한다."
+        ]
       },
       {
         "title": "ER",
@@ -14514,7 +14787,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:30:27.813Z"
+    "updatedAt": "2026-07-23T16:11:03.874Z"
   },
   {
     "id": "605",
@@ -14527,7 +14800,7 @@
     "category": "06 근골격/피부",
     "sourcePath": "source_notes/01 Chief Complaint/상처／외상.md",
     "concept": [
-      "손상 기전과 시간, 출혈·오염·이물, 신경혈관 손상과 동반 외상을 우선 확인한다."
+      "상처는 손상 기전과 시간, 출혈·오염·이물, 신경혈관 손상, 동반 외상을 기준으로 처치 우선순위를 정한다."
     ],
     "differentials": [
       "외상 : 다발외상, 두부·경추·흉부·복부외상, 골절·탈구",
@@ -14850,7 +15123,7 @@
       {
         "title": "Concept",
         "content": [
-          "손상 기전과 시간, 출혈·오염·이물, 신경혈관 손상과 동반 외상을 우선 확인한다."
+          "상처는 손상 기전과 시간, 출혈·오염·이물, 신경혈관 손상, 동반 외상을 기준으로 처치 우선순위를 정한다."
         ]
       },
       {
@@ -14952,19 +15225,27 @@
       {
         "title": "접근",
         "content": [
-          "ABCDE와 손상 기전 평가 후 생명 위협 손상, 해당 부위 손상, 상처 합병증 순으로 접근한다."
+          "• 병동에서 새 상처·외상은 낙상, 침상·이동 중 충돌, line·drain 자가제거, 수술상처 열개와 pressure injury로 나누어 본다. 발생 시각·목격 여부와 함께 항응고제·항혈소판제, 진정제, 섬망과 기존 낙상위험을 확인한다.",
+          "• ABC 이상과 활동성 출혈을 먼저 확인한 뒤 두부·경추, 흉복부, 골반, 사지 신경혈관 상태를 진찰한다. 상처는 깊이, 오염, 이물, tendon·joint 침범과 수술상처 fascia 노출 여부를 기록한다.",
+          "• 저혈압, 의식저하, 새 국소신경학적 이상, 항응고 중 두부외상, 변형·신경혈관장애, evisceration 또는 계속되는 출혈은 즉시 trauma·수술팀과 신속대응팀으로 escalate한다."
         ]
       },
       {
         "title": "검사",
         "content": [
-          "손상 기전과 진찰에 따라 영상, 혈액검사, 이물 평가를 선택한다."
+          "• CBC·serial Hb, coagulation, type and screen은 유의한 출혈 또는 수술 가능성이 있을 때 시행한다. 영상은 손상 부위와 기전에 맞추고, 의식소실·구토·신경학적 이상 또는 항응고·aspirin 이외 항혈소판제 사용 두부외상에서는 head CT 적응증을 즉시 판단한다.",
+          "• 상처 세척·마취 전 원위부 맥박, 감각, 운동·힘줄 기능을 기록한다. 이물은 X선·초음파, 관절·골절은 해당 영상으로 확인한다.",
+          "• 신경학적 상태와 통증·부종·신경혈관 상태를 초기 처치 후 반복한다. 항응고 환자의 정상 초기 검사만으로 지연출혈 가능성을 끝내지 않는다."
         ]
       },
       {
         "title": "치료",
         "content": [
-          "출혈 조절, 세척·오염 제거, 신경혈관 보호, 고정, 예방접종과 전문과 협진을 시행한다."
+          "### 출혈·상처·통증",
+          "• 외부 출혈은 직접 압박을 우선하고, 수술상처 열개는 무균 생리식염수 거즈로 덮어 NPO를 유지한 뒤 수술팀을 호출한다. 돌출 장기를 밀어 넣지 않는다.",
+          "• Acetaminophen (타이레놀정 500 mg 등) 500–1,000 mg PO q6h PRN을 기본으로 하고 총 4 g/day를 넘지 않는다. 출혈·AKI 가능성이 있으면 NSAID를 피하고, opioid가 필요하면 기존 진정제와 호흡상태를 확인해 최소 용량으로 적정한다.",
+          "• 오염된 상처는 충분히 세척하고 tetanus 접종력을 확인한다. 예방적 항균제는 개방골절, 교상, 관절·힘줄 침범, 심한 오염 등 적응증과 원내 protocol에 따라 사용하며 단순 열상에 일률적으로 투여하지 않는다.",
+          "• 항응고제 관련 중증 출혈은 약제를 중단하고 마지막 투여시각·신기능을 확인한 뒤 원내 reversal protocol을 즉시 적용한다. 낙상 원인이 저혈압·저혈당·약물·부정맥이면 손상 처치와 동시에 교정한다."
         ]
       },
       {
@@ -14996,7 +15277,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:34:29.675Z"
+    "updatedAt": "2026-07-23T16:11:03.806Z"
   },
   {
     "id": "701",
@@ -15008,7 +15289,7 @@
     "category": "07 정신",
     "sourcePath": "source_notes/01 Chief Complaint/기분변화.md",
     "concept": [
-      "'정신’, 상담에 가까워서 PPI 잘 챙길 것, MDD 기준 암기"
+      "기분변화는 단극성 우울과 양극성 장애를 구분하고 자살 위험, 정신병적 증상, 물질·의학적 원인을 함께 확인한다."
     ],
     "differentials": [
       "원발성 : 주요 우울장애, 양극성 장애 I, II형, 순환기분장애, 지속성 우울장애 / 조현병, 적응장애",
@@ -15296,7 +15577,7 @@
       {
         "title": "Concept",
         "content": [
-          "'정신’, 상담에 가까워서 PPI 잘 챙길 것, MDD 기준 암기"
+          "기분변화는 단극성 우울과 양극성 장애를 구분하고 자살 위험, 정신병적 증상, 물질·의학적 원인을 함께 확인한다."
         ]
       },
       {
@@ -15390,18 +15671,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 시간 단위 변동이면 우선 delirium으로 보고 hypoxia, infection, pain, urinary retention, constipation, steroid·dopamine drug, withdrawal과 sleep loss를 확인한다. mania·depression, psychosis와 자살·타해위험을 함께 평가한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 4AT, glucose, SpO2, CBC·electrolytes·renal·liver function, TSH와 medication review를 단서에 따라 시행한다. 국소신경학적 이상이면 brain imaging을 선택한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 원인을 교정하고 재지남·안경·보청기·수면환경을 회복한다. 자신·타인 위해가 임박하고 비약물 de-escalation이 실패한 경우에만 Haloperidol (페리돌정/주사 등) 저용량을 QTc·Parkinson/Lewy body 위험 확인 후 단기간 사용한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.665Z"
+    "updatedAt": "2026-07-23T16:11:03.761Z"
   },
   {
     "id": "702",
@@ -15413,8 +15700,7 @@
     "category": "07 정신",
     "sourcePath": "source_notes/01 Chief Complaint/불안.md",
     "concept": [
-      "＇정신’, 정신과 질환과 내과적 질환 문진, 맥박!",
-      "＇정신’, 정신과 질환과 내과적 질환 문진, 맥박!"
+      "불안은 공황발작과 지속성 불안을 구분하면서 약물·물질, 갑상샘·심폐 질환 같은 의학적 원인과 자살 위험을 함께 평가한다."
     ],
     "differentials": [
       "원발성 : 공황장애, 광장공포증, 범불안장애, 사회불안장애 / 강박장애 / PTSD, 급성 스트레스 장애, 적응장애",
@@ -15712,8 +15998,7 @@
       {
         "title": "Concept",
         "content": [
-          "＇정신’, 정신과 질환과 내과적 질환 문진, 맥박!",
-          "＇정신’, 정신과 질환과 내과적 질환 문진, 맥박!"
+          "불안은 공황발작과 지속성 불안을 구분하면서 약물·물질, 갑상샘·심폐 질환 같은 의학적 원인과 자살 위험을 함께 평가한다."
         ]
       },
       {
@@ -15826,18 +16111,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• hypoxia, hypoglycemia, delirium, withdrawal, pain·dyspnea, arrhythmia와 steroid·bronchodilator 부작용을 먼저 배제하고 자살사고를 확인한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 활력징후·SpO2·glucose, ECG와 약물검토를 단서에 따라 시행한다. 4AT 양성이면 anxiety보다 delirium을 우선 관리한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 원인 증상과 환경 자극을 교정한다. benzodiazepine은 withdrawal·catatonia 등 명확한 적응증 외에는 섬망·낙상·호흡억제 때문에 일률적으로 사용하지 않는다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.848Z"
+    "updatedAt": "2026-07-23T16:11:03.802Z"
   },
   {
     "id": "703",
@@ -15849,7 +16140,7 @@
     "category": "07 정신",
     "sourcePath": "source_notes/01 Chief Complaint/수면장애.md",
     "concept": [
-      "‘환자교육’ 수면 양상 잘 물어보고 계통 한번 긁기"
+      "수면장애는 수면 기회가 충분한지 확인한 뒤 불면, 수면호흡장애, 일주기장애, 과다수면과 물질·약물 영향을 구분한다."
     ],
     "differentials": [
       "원발성 : 불면장애, 하루 주기율동 수면장애, 기면병 / 폐쇄수면무호흡, 하지 불안증후군, 주기성 사지 운동장애, 렘수면 행동장애",
@@ -16111,7 +16402,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘환자교육’ 수면 양상 잘 물어보고 계통 한번 긁기"
+          "수면장애는 수면 기회가 충분한지 확인한 뒤 불면, 수면호흡장애, 일주기장애, 과다수면과 물질·약물 영향을 구분한다."
         ]
       },
       {
@@ -16208,18 +16499,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 통증·dyspnea, nocturia, delirium, withdrawal, steroid·caffeine과 병동 처치시간을 확인한다. 새 낮밤 역전은 delirium을 먼저 평가한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 투약·수면 schedule review가 우선이며 OSA·hypoventilation 위험과 야간 SpO2를 단서에 따라 확인한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 야간 처치를 묶고 빛·소음·낮잠을 조정한다. 필요 시 Melatonin prolonged-release (서카딘정 2 mg) 2 mg PO 취침 1–2시간 전을 고려하며 sedative-hypnotic 신규 처방은 낙상·섬망 위험을 확인한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.928Z"
+    "updatedAt": "2026-07-23T16:11:03.819Z"
   },
   {
     "id": "704",
@@ -16231,7 +16528,7 @@
     "category": "07 정신",
     "sourcePath": "source_notes/01 Chief Complaint/기억력 저하.md",
     "concept": [
-      "‘정신’, MMSE+PE 까지 빠르게, ‘보호자에게 확인하겠다’ ‘ 학력‘"
+      "기억력 저하는 급성 섬망, 우울에 의한 인지저하, 진행성 치매를 구분하며 기능 변화는 보호자 정보로 보완한다."
     ],
     "differentials": [
       "치매 : 알츠하이머, 혈관성, 전두측두엽, 레비소체 / 약물, 외상, MCI",
@@ -16445,7 +16742,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘정신’, MMSE+PE 까지 빠르게, ‘보호자에게 확인하겠다’ ‘ 학력‘"
+          "기억력 저하는 급성 섬망, 우울에 의한 인지저하, 진행성 치매를 구분하며 기능 변화는 보호자 정보로 보완한다."
         ]
       },
       {
@@ -16532,18 +16829,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 입원 전 baseline과 hours-to-days의 급성 변화를 분리한다. acute fluctuation·inattention이면 dementia 평가보다 delirium 원인과 약물 anticholinergic burden을 먼저 확인한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 4AT와 collateral history를 우선하고 CBC, CMP, TSH, B12, infection·brain imaging은 임상 단서에 따라 선택한다. 급성질환 중 단일 cognitive score로 치매를 확진하지 않는다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 원인 교정, 재지남, 수면·감각보조와 조기이동을 시행한다. cholinesterase inhibitor를 병동의 일시적 기억저하에 새로 시작하지 않고 퇴원 후 안정 시 인지평가를 계획한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.677Z"
+    "updatedAt": "2026-07-23T16:11:03.765Z"
   },
   {
     "id": "801",
@@ -16555,7 +16858,7 @@
     "category": "08 신경",
     "sourcePath": "source_notes/01 Chief Complaint/어지럼증.md",
     "concept": [
-      "PEx 시간 많이 걸림, 진단은 증상 지속시간을 우선으로"
+      "어지럼증은 표현보다 증상의 지속시간과 유발 요인을 기준으로 급성 지속성, 반복 발작성, 체위 유발성 증후군으로 나눈다."
     ],
     "differentials": [
       "말초성 : 양성돌발체위현기증 (BPPV), 메니에르병, 전정신경염,",
@@ -16864,7 +17167,7 @@
       {
         "title": "Concept",
         "content": [
-          "PEx 시간 많이 걸림, 진단은 증상 지속시간을 우선으로"
+          "어지럼증은 표현보다 증상의 지속시간과 유발 요인을 기준으로 급성 지속성, 반복 발작성, 체위 유발성 증후군으로 나눈다."
         ]
       },
       {
@@ -16971,15 +17274,22 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• vertigo, presyncope, disequilibrium을 구분하고 onset·지속, 보행 가능 여부와 새 약물·저혈압을 확인한다. 지속 acute vestibular syndrome에서 신경학적 이상·심한 truncal ataxia는 posterior stroke를 우선한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• glucose, orthostatic BP, ECG, focused neurologic·oculomotor exam을 시행한다. HINTS는 숙련자가 지속성 vestibular syndrome에서만 사용하며, stroke 의심 시 MRI/vascular imaging을 선택한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 저혈량은 소량 crystalloid로 재평가한다. 말초성 vertigo로 확인되고 단기 증상조절이 필요하면 Dimenhydrinate (보나링에이정 50 mg 등) 50 mg PO q6–8h PRN을 고려하되 고령·섬망·요저류에서는 피한다.",
+          "• vestibular suppressant는 조기 보상과 낙상에 영향을 주므로 48–72시간 이상 관성적으로 지속하지 않는다."
+        ]
       },
       {
         "title": "ER",
@@ -17012,7 +17322,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:30:27.802Z"
+    "updatedAt": "2026-07-23T16:11:03.824Z"
   },
   {
     "id": "802",
@@ -17024,7 +17334,7 @@
     "category": "08 신경",
     "sourcePath": "source_notes/01 Chief Complaint/두통.md",
     "concept": [
-      "‘응급?’, 질환의 특징적 증상으로 감별"
+      "두통은 갑작스러운 최고 강도, 새 신경학적 이상, 발열·면역저하, 임신·산후처럼 이차성 원인을 시사하는 맥락을 먼저 찾는다."
     ],
     "differentials": [
       "원발성 : 편두통, 긴장 두통, 군발 두통, 삼차 신경통",
@@ -17271,7 +17581,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘응급?’, 질환의 특징적 증상으로 감별"
+          "두통은 갑작스러운 최고 강도, 새 신경학적 이상, 발열·면역저하, 임신·산후처럼 이차성 원인을 시사하는 맥락을 먼저 찾는다."
         ]
       },
       {
@@ -17364,15 +17674,23 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 갑작스러운 최대강도, 새 신경학적 이상·의식변화, 발열·수막자극, 임신·산후, 항응고, 암·면역억제, 최근 LP·epidural과 혈압을 확인한다.",
+          "• thunderclap, 새 deficit, seizure, papilledema 또는 hypertensive emergency이면 단순 진통 후 관찰하지 않는다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 신경학적 진찰과 fundus, glucose를 확인하고 적응증에 따라 noncontrast CT±CTA, MRI/MRV, ESR·CRP와 LP를 선택한다. LP 전 mass effect 위험을 판단한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 위험 원인 평가와 함께 Acetaminophen (타이레놀정) 500–1,000 mg PO q6h PRN을 사용한다. 오심 동반 migraine형이면 Metoclopramide (맥페란정/맥페란주) 10 mg IV를 신기능·EPS 위험 확인 후 고려한다.",
+          "• SAH, meningitis, cerebral venous thrombosis, preeclampsia 또는 intracranial hypotension은 각각의 전문 경로로 즉시 전환한다."
+        ]
       },
       {
         "title": "ER",
@@ -17406,7 +17724,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:29:19.657Z"
+    "updatedAt": "2026-07-23T16:11:03.779Z"
   },
   {
     "id": "803",
@@ -17418,7 +17736,7 @@
     "category": "08 신경",
     "sourcePath": "source_notes/01 Chief Complaint/경련 (소아).md",
     "concept": [
-      "실신 감별"
+      "소아 경련은 발열 여부만으로 판단하지 않고 연령, 지속시간, 국소성, 회복 양상으로 단순 열성경련과 중추신경계 질환을 구분한다."
     ],
     "differentials": [
       "영아 연축, 열성경련, 호흡 중지 발작, 양성 롤란딕 뇌전증",
@@ -17619,7 +17937,7 @@
       {
         "title": "Concept",
         "content": [
-          "실신 감별"
+          "소아 경련은 발열 여부만으로 판단하지 않고 연령, 지속시간, 국소성, 회복 양상으로 단순 열성경련과 중추신경계 질환을 구분한다."
         ]
       },
       {
@@ -17693,15 +18011,23 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 5분 이상 지속 또는 회복 없이 반복되면 소아 status epilepticus로 판단한다. 체중, 혈당, 체온, 산소화와 기존 rescue plan을 확인하고 감염, 저혈당·전해질, 약물 누락·중독, 두부외상을 찾는다.",
+          "• 보호자가 촬영한 영상과 평소 발작 양상을 비교하되 처치를 지연하지 않는다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• bedside glucose를 즉시 측정하고 Na·Ca·Mg, CBC, renal·liver function을 임상 단서에 따라 시행한다. 첫 국소발작·지속 의식저하·외상에서는 영상과 EEG, 수막염·뇌염 의심에서는 안정화 후 CSF를 고려한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• IV access가 있으면 Lorazepam (아티반주) 0.1 mg/kg IV, 최대 4 mg; 5–10분 후 지속 시 1회 반복한다. IV가 없으면 원내 소아 protocol의 buccal/intranasal midazolam을 사용한다.",
+          "• 지속하면 Levetiracetam (케프라주) 60 mg/kg IV, 최대 4.5 g을 투여하고 소아신경·ICU에 즉시 연락한다. 해열제는 열성경련 재발을 막는 치료가 아니다."
+        ]
       },
       {
         "title": "ER",
@@ -17734,7 +18060,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:29:19.665Z"
+    "updatedAt": "2026-07-23T16:11:03.743Z"
   },
   {
     "id": "804",
@@ -17746,7 +18072,7 @@
     "category": "08 신경",
     "sourcePath": "source_notes/01 Chief Complaint/경련 (성인).md",
     "concept": [
-      "실신 감별"
+      "성인 경련은 실신·심인성 비간질발작과 구분하고, 첫 발작에서는 급성 유발 원인과 재발 위험을 나누어 판단한다."
     ],
     "differentials": [
       "청소년 근간대성 뇌전증, 측두엽 뇌전증",
@@ -17984,7 +18310,7 @@
       {
         "title": "Concept",
         "content": [
-          "실신 감별"
+          "성인 경련은 실신·심인성 비간질발작과 구분하고, 첫 발작에서는 급성 유발 원인과 재발 위험을 나누어 판단한다."
         ]
       },
       {
@@ -18066,15 +18392,25 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 발생시각을 기록하고 침상 주변을 정리해 손상을 막되 억지로 붙잡거나 입에 물건을 넣지 않는다. 산소·suction, 혈당과 IV access를 확보하고 기존 항경련제 누락, alcohol·benzodiazepine withdrawal, stroke, 감염, Na·Ca·Mg 이상과 약물독성을 확인한다.",
+          "• 5분 이상 지속하거나 회복 없이 반복되면 status epilepticus로 신속대응팀·ICU를 호출한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• bedside glucose, CBC, Na·Ca·Mg, renal·liver function, blood gas와 ECG를 확인하고 항경련제 농도·독성검사는 약물별로 선택한다. 새 국소결손·두부외상·항응고·첫 경련이면 brain imaging, 감염 의심이면 안정화 후 CSF를 고려한다.",
+          "• 경련 종료 뒤 호흡, 의식 회복, 재발과 원인검사 결과를 지속 관찰한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• Lorazepam (아티반주 2 mg/mL) 0.1 mg/kg IV, 최대 4 mg을 투여하고 5–10분 후 지속 시 1회 반복한다. 호흡억제에 대비한다.",
+          "• 지속하면 Levetiracetam (케프라주 500 mg/5 mL) 60 mg/kg IV, 최대 4.5 g을 10–15분에 투여한다. refractory status는 즉시 마취·EEG 기반 ICU 치료로 전환한다.",
+          "• 저혈당이면 Glucose 50% (대한포도당주사액 50% 등) 50 mL, 25 g IV, 중증 저Na 등 명확한 가역 원인은 동시에 교정한다. 의식 회복 전까지 NPO와 aspiration precaution을 유지한다."
+        ]
       },
       {
         "title": "ER",
@@ -18110,7 +18446,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:29:19.660Z"
+    "updatedAt": "2026-07-23T16:11:03.740Z"
   },
   {
     "id": "805",
@@ -18122,8 +18458,7 @@
     "category": "08 신경",
     "sourcePath": "source_notes/01 Chief Complaint/근력／감각이상.md",
     "concept": [
-      "‘NEx’, 원인 구조별 종류를 생각하며 문진",
-      "‘NEx’, 원인 구조별 종류를 생각하며 문진"
+      "근력·감각이상은 중추신경, 말초신경, 신경근접합부, 근육 수준으로 병변을 국소화하며 갑작스러운 편측 증상은 중추성 원인을 우선한다."
     ],
     "differentials": [
       "CNS : 뇌출혈/뇌경색/뇌종양, 일과성 허혈발작 / 척수염, 다발경화증",
@@ -18397,8 +18732,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘NEx’, 원인 구조별 종류를 생각하며 문진",
-          "‘NEx’, 원인 구조별 종류를 생각하며 문진"
+          "근력·감각이상은 중추신경, 말초신경, 신경근접합부, 근육 수준으로 병변을 국소화하며 갑작스러운 편측 증상은 중추성 원인을 우선한다."
         ]
       },
       {
@@ -18504,15 +18838,23 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 마지막 정상시각, 갑작스러운 편측 여부와 얼굴·언어·시야·보행을 확인하고 glucose를 즉시 측정한다. 수술 자세·압박신경, epidural·spinal procedure, 항응고, 전해질 이상과 약물성 weakness도 확인한다.",
+          "• 새 편측결손, aphasia, spinal cord compression·cauda equina 의심은 병동 관찰 없이 stroke/spine pathway를 활성화한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• NIHSS 또는 신경학적 baseline 비교, glucose·electrolytes·Ca·Mg, CBC와 ECG를 시행한다. stroke이면 즉시 noncontrast CT와 vascular imaging, 척수압박이면 urgent MRI를 선택한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 저혈당은 Glucose 50% (대한포도당주사액 50% 등) 50 mL, 25 g IV 후 15분 재측정한다. 급성 허혈성뇌졸중의 thrombolysis·thrombectomy는 항응고·수술·출혈위험과 시간창을 확인해 stroke team이 결정한다.",
+          "• epidural hematoma·cord compression 의심 시 anticoagulant를 보류하고 신경외과·마취통증팀에 즉시 연락한다. 원인 확정 전 진정제나 단순 근이완제로 가리지 않는다."
+        ]
       },
       {
         "title": "ER",
@@ -18547,7 +18889,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:30:27.794Z"
+    "updatedAt": "2026-07-23T16:11:03.756Z"
   },
   {
     "id": "806",
@@ -18559,8 +18901,7 @@
     "category": "08 신경",
     "sourcePath": "source_notes/01 Chief Complaint/의식장애.md",
     "concept": [
-      "'NEx’, 환자가 누워있고 보호자 문진할 수도 있음, 처치부터",
-      "'NEx’, 환자가 누워있고 보호자 문진할 수도 있음, 처치부터"
+      "의식장애는 기도·호흡·순환과 혈당을 즉시 확인하고, 기존 상태와 비교해 독성·대사성 원인과 구조적 뇌병변을 구분한다."
     ],
     "differentials": [
       "CNS : 뇌경색, 거미막밑출혈, 뇌내출혈, 뇌수막염",
@@ -19006,8 +19347,7 @@
       {
         "title": "Concept",
         "content": [
-          "'NEx’, 환자가 누워있고 보호자 문진할 수도 있음, 처치부터",
-          "'NEx’, 환자가 누워있고 보호자 문진할 수도 있음, 처치부터"
+          "의식장애는 기도·호흡·순환과 혈당을 즉시 확인하고, 기존 상태와 비교해 독성·대사성 원인과 구조적 뇌병변을 구분한다."
         ]
       },
       {
@@ -19155,15 +19495,23 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 마지막 정상시각과 baseline cognition을 확인하고 airway·호흡, glucose, SpO2, pupils와 체온을 즉시 평가한다. opioid·sedative, hypoxia·hypercapnia, sepsis, stroke·seizure, Na·Ca 이상과 organ failure를 병렬로 찾는다.",
+          "• 기도 보호 불가, 급격한 GCS 저하, 국소결손·status 또는 shock이면 신속대응팀·ICU를 호출한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• bedside glucose, ABGA/VBGA, CBC, BMP·Ca·Mg, renal·liver function, ECG와 약물검토를 시행한다. 단서에 따라 CT/CTA, EEG, cultures·lactate, ammonia와 toxicology를 선택한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 저혈당은 Glucose 50% (대한포도당주사액 50% 등) 50 mL, 25 g IV 후 15분 재측정한다. opioid 호흡억제는 Naloxone (한림날록손염산염주사 등) 0.04 mg IV부터 환기가 회복될 때까지 적정하고 환기를 보조한다.",
+          "• alcohol misuse·영양실조가 의심되면 glucose와 함께 Thiamine hydrochloride (제일티아민염산염주사액 50 mg/2 mL 등) 100–200 mg IV를 투여하되 저혈당 교정을 지연하지 않는다. 원인불명 상태에서 flumazenil을 일률적으로 사용하지 않는다."
+        ]
       },
       {
         "title": "ER",
@@ -19198,7 +19546,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:29:19.650Z"
+    "updatedAt": "2026-07-23T16:11:03.846Z"
   },
   {
     "id": "807",
@@ -19210,8 +19558,7 @@
     "category": "08 신경",
     "sourcePath": "source_notes/01 Chief Complaint/떨림／운동이상.md",
     "concept": [
-      "tremor 맞나 확인, 기본 PE도 해야 함, 2분 전까지 NEx 최대한",
-      "tremor 맞나 확인, 기본 PE도 해야 함, 2분 전까지 NEx 최대한"
+      "떨림은 다른 불수의운동과 구분한 뒤 안정 시·자세성·활동성 양상과 약물·대사·신경학적 원인을 연결한다."
     ],
     "differentials": [
       "떨림 : 안정떨림 : 파킨슨 병/증후군 / 의도떨림 : 소뇌 경색/출혈, 다발 경화증 / 활동떨림 : 본태 떨림, 생리적 떨림, 갑상샘항진증, 알코올/약물",
@@ -19450,8 +19797,7 @@
       {
         "title": "Concept",
         "content": [
-          "tremor 맞나 확인, 기본 PE도 해야 함, 2분 전까지 NEx 최대한",
-          "tremor 맞나 확인, 기본 PE도 해야 함, 2분 전까지 NEx 최대한"
+          "떨림은 다른 불수의운동과 구분한 뒤 안정 시·자세성·활동성 양상과 약물·대사·신경학적 원인을 연결한다."
         ]
       },
       {
@@ -19556,18 +19902,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• metoclopramide·antipsychotic, Parkinson 약 누락, alcohol·benzodiazepine withdrawal, serotonin syndrome, electrolyte·thyroid 이상을 확인한다. 발열·강직·자율신경 불안정은 즉시 escalate한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• glucose, electrolytes·Ca·Mg, CK, renal·liver function, TSH와 ECG를 단서에 따라 시행하고 투약기록을 시간순으로 검토한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 원인 약물을 중단한다. 급성 dystonia이면 Biperiden (아키네톤주 5 mg/mL) 5 mg IM/slow IV 1회를 고려한다. Parkinson 약은 NPO라도 임의 중단하지 말고 대체경로를 조정한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.748Z"
+    "updatedAt": "2026-07-23T16:11:03.782Z"
   },
   {
     "id": "901",
@@ -19579,7 +19931,7 @@
     "category": "09 산부",
     "sourcePath": "source_notes/01 Chief Complaint/유방통.md",
     "concept": [
-      "‘부인과’ 두 CC의 질환이 매우 겹치므로 함께 고려한다"
+      "유방통은 주기성·양측성 통증과 국소적 비주기성 통증을 구분하고 종괴, 피부·유두 변화가 동반되면 별도로 평가한다."
     ],
     "differentials": [
       "염증성 : 유선염, 유방 농양",
@@ -19827,7 +20179,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘부인과’ 두 CC의 질환이 매우 겹치므로 함께 고려한다"
+          "유방통은 주기성·양측성 통증과 국소적 비주기성 통증을 구분하고 종괴, 피부·유두 변화가 동반되면 별도로 평가한다."
         ]
       },
       {
@@ -19914,18 +20266,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• unilateral focal pain, fever·erythema, lactation, trauma·line position과 흉벽·심장성 통증을 구분한다. mass·skin change·bloody nipple discharge는 영상평가한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• focal persistent pain이나 진찰 이상이면 age-appropriate ultrasound/mammography를 선택한다. diffuse cyclic pain만으로 광범위 검사를 하지 않는다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 감염·농양을 배제한 통증은 Acetaminophen (타이레놀정) 500–1,000 mg q6h PRN과 지지 브라를 사용한다. mastitis/abscess는 수유상태·배양·원내 항균지침과 drainage 여부를 반영한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:11.038Z"
+    "updatedAt": "2026-07-23T16:11:03.840Z"
   },
   {
     "id": "902",
@@ -19937,7 +20295,7 @@
     "category": "09 산부",
     "sourcePath": "source_notes/01 Chief Complaint/유방덩이.md",
     "concept": [
-      "‘부인과’ 두 CC의 질환이 매우 겹치므로 함께 고려한다"
+      "유방덩이는 연령과 임상 소견에 맞춰 진찰·영상·필요 시 조직검사를 연결하며, 통증 유무만으로 양성·악성을 판단하지 않는다."
     ],
     "differentials": [
       "염증성 : 유선염, 유방 농양",
@@ -20185,7 +20543,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘부인과’ 두 CC의 질환이 매우 겹치므로 함께 고려한다"
+          "유방덩이는 연령과 임상 소견에 맞춰 진찰·영상·필요 시 조직검사를 연결하며, 통증 유무만으로 양성·악성을 판단하지 않는다."
         ]
       },
       {
@@ -20272,18 +20630,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 입원 중 발견한 덩이는 onset, 통증·발열, lactation, 피부함몰·유두분비와 암 과거력을 확인한다. fluctuant erythematous mass는 abscess를 우선한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• targeted breast ultrasound를 우선하고 suspicious solid lesion은 mammography·core biopsy 경로를 예약한다. acute illness가 암 추적을 잃게 만들지 않도록 담당자를 지정한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• abscess는 항균제만 반복하지 말고 aspiration/drainage와 culture를 시행한다. 비감염성 덩이는 입원 중 불필요한 경험적 항생제 없이 breast clinic 추적을 확정한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:11.025Z"
+    "updatedAt": "2026-07-23T16:11:03.838Z"
   },
   {
     "id": "903",
@@ -20295,7 +20659,7 @@
     "category": "09 산부",
     "sourcePath": "source_notes/01 Chief Complaint/질분비물.md",
     "concept": [
-      "‘부인과’, 분비물 양상을 잘 문진"
+      "질분비물은 생리적 변화와 질염·자궁경부염을 구분하고 골반통·발열이 동반되면 상부 생식기 감염 가능성을 평가한다."
     ],
     "differentials": [
       "세균질증, 편모충질염, 칸디다질염, 위축성질염",
@@ -20529,7 +20893,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘부인과’, 분비물 양상을 잘 문진"
+          "질분비물은 생리적 변화와 질염·자궁경부염을 구분하고 골반통·발열이 동반되면 상부 생식기 감염 가능성을 평가한다."
         ]
       },
       {
@@ -20618,18 +20982,25 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• color·odor, pruritus·pain, sexual exposure, antibiotic use, pregnancy, fever·pelvic pain과 수술·기구를 확인한다. PID·postoperative infection과 retained foreign body를 선별한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• pregnancy test, vaginal pH·microscopy/NAAT와 STI 검사를 동의·위험에 따라 시행한다. fever·pelvic pain이면 CBC와 ultrasound를 고려한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• Candida, bacterial vaginosis, trichomoniasis와 cervicitis를 검사·임상 기준에 맞춰 치료하고 무차별 fluconazole·항생제를 반복하지 않는다. 임신과 약물상호작용을 확인한다.",
+          "• PID·농양·수술부위 감염이면 산부인과와 원내 IV 항균·source control 경로로 전환한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:11.125Z"
+    "updatedAt": "2026-07-23T16:11:03.857Z"
   },
   {
     "id": "904",
@@ -20641,7 +21012,7 @@
     "category": "09 산부",
     "sourcePath": "source_notes/01 Chief Complaint/질출혈.md",
     "concept": [
-      "‘부인과’, 거의근종?"
+      "질출혈은 임신 가능성, 혈역학적 영향, 연령·폐경 상태를 먼저 확인하고 출혈량보다 원인과 전신 영향을 함께 판단한다."
     ],
     "differentials": [
       "종양 : 자궁경부암, 자궁내막암 / 자궁내막증, 자궁근종, 자궁선근증",
@@ -20899,7 +21270,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘부인과’, 거의근종?"
+          "질출혈은 임신 가능성, 혈역학적 영향, 연령·폐경 상태를 먼저 확인하고 출혈량보다 원인과 전신 영향을 함께 판단한다."
         ]
       },
       {
@@ -20995,15 +21366,22 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 임신 가능성, 출혈량·clot, 통증, postpartum·procedure, anticoagulant와 hemodynamic change를 확인한다. 임신 관련 출혈, 수술 후 출혈과 malignancy를 구분한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• β-hCG, CBC·serial Hb, coagulation, type and screen과 pelvic ultrasound를 시행한다. 가임기 출혈에서 임신을 병력만으로 배제하지 않는다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 불안정하면 2개의 IV, 혈액제제와 산부인과·수술팀을 즉시 호출한다. 안정된 비임신 abnormal uterine bleeding은 Tranexamic acid (트란사민 제품) 1 g PO TID를 금기·신기능 확인 후 고려한다.",
+          "• anticoagulant reversal과 hormonal·procedure 치료는 출혈원, 혈전위험과 임신 여부를 반영해 전문과와 결정한다."
+        ]
       },
       {
         "title": "ER",
@@ -21038,7 +21416,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:31:38.689Z"
+    "updatedAt": "2026-07-23T16:11:03.860Z"
   },
   {
     "id": "905",
@@ -21050,7 +21428,7 @@
     "category": "09 산부",
     "sourcePath": "source_notes/01 Chief Complaint/월경이상 (무월경).md",
     "concept": [
-      "'부인과’, 무월경 관련 기전 잘 생각하면서 질문.."
+      "무월경은 임신을 먼저 배제한 뒤 초경 여부와 이차성징을 기준으로 시상하부·뇌하수체, 난소, 자궁·유출로 원인을 나눈다."
     ],
     "differentials": [
       "임신",
@@ -21326,7 +21704,7 @@
       {
         "title": "Concept",
         "content": [
-          "'부인과’, 무월경 관련 기전 잘 생각하면서 질문.."
+          "무월경은 임신을 먼저 배제한 뒤 초경 여부와 이차성징을 기준으로 시상하부·뇌하수체, 난소, 자궁·유출로 원인을 나눈다."
         ]
       },
       {
@@ -21422,18 +21800,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 마지막 월경과 임신 가능성을 먼저 확인하고 급성질환·체중변화, hyperprolactinemia 유발약, thyroid, PCOS와 menopause를 구분한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• β-hCG를 우선하고 TSH, prolactin, FSH/LH와 pelvic ultrasound는 지속성과 임상 단서에 따라 선택한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 임신이면 산과 경로로 전환하고 원인 약물·영양·endocrine disorder를 교정한다. 급성 입원 중 진단 없이 hormonal therapy를 시작하지 않고 3개월 이상 지속 시 추적계획을 남긴다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.998Z"
+    "updatedAt": "2026-07-23T16:11:03.833Z"
   },
   {
     "id": "906",
@@ -21445,7 +21829,7 @@
     "category": "09 산부",
     "sourcePath": "source_notes/01 Chief Complaint/월경통 (월경과다).md",
     "concept": [
-      "'부인과’, 보통 월경과다가 동반됨"
+      "월경통과 과다월경은 통증과 출혈 문제를 분리해 평가하고, 새로 심해진 증상이나 주기 외 증상에서는 이차성 원인을 찾는다."
     ],
     "differentials": [
       "원발성 월경통",
@@ -21681,7 +22065,7 @@
       {
         "title": "Concept",
         "content": [
-          "'부인과’, 보통 월경과다가 동반됨"
+          "월경통과 과다월경은 통증과 출혈 문제를 분리해 평가하고, 새로 심해진 증상이나 주기 외 증상에서는 이차성 원인을 찾는다."
         ]
       },
       {
@@ -21768,18 +22152,25 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• pad 수·clot, hemodynamic change와 pregnancy, anticoagulant, fibroid·adenomyosis, coagulopathy를 확인한다. 저혈압·실신·빠른 Hb 감소는 acute abnormal uterine bleeding으로 산부인과를 호출한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• β-hCG, CBC·serial Hb, ferritin, coagulation과 type and screen을 중증도에 따라 시행하고 pelvic ultrasound를 선택한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 안정된 heavy bleeding은 금기가 없으면 Tranexamic acid (트란사민캡슐/주 등) 1 g PO TID 또는 원내 IV protocol을 단기간 고려하되 active/historical thrombosis와 renal function을 확인한다.",
+          "• 불안정 출혈은 IV access·혈액제제와 산부인과의 hormonal, tamponade·수술 치료로 전환한다. 진통 NSAID는 AKI·출혈위험을 확인한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:11.012Z"
+    "updatedAt": "2026-07-23T16:11:03.835Z"
   },
   {
     "id": "907",
@@ -21791,7 +22182,7 @@
     "category": "09 산부",
     "sourcePath": "source_notes/01 Chief Complaint/산전 진찰.md",
     "concept": [
-      "‘산과‘ 시간이 매우 부족하니 주의, 그냥 PE도 해야"
+      "산전 진찰은 임신 주수, 산모·태아의 고위험요인, 현재 경고증상을 기준으로 필요한 검사와 추적 간격을 결정한다."
     ],
     "differentials": [
       "임신관련 : 입덧, 고령 임신, 유산",
@@ -22061,7 +22452,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘산과‘ 시간이 매우 부족하니 주의, 그냥 PE도 해야"
+          "산전 진찰은 임신 주수, 산모·태아의 고위험요인, 현재 경고증상을 기준으로 필요한 검사와 추적 간격을 결정한다."
         ]
       },
       {
@@ -22154,18 +22545,25 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 입원 환자의 임신 주수, 산과력, fetal movement, 출혈·양수유출·수축과 preeclampsia 증상을 확인하고 모든 약·영상·시술의 임신 안전성을 재검토한다.",
+          "• ≥20주 임신에서 심한 두통·시야증상, RUQ pain, 고혈압 또는 fetal movement 감소는 산과에 즉시 연락한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 활력징후·urine protein, CBC·platelet, Cr·AST/ALT와 fetal assessment를 주수·증상에 따라 시행한다. Rh status와 prenatal screening 누락을 확인한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 산과·주치과가 VTE prophylaxis, antihypertensive, antibiotic와 procedure timing을 공동 결정한다. ACE inhibitor/ARB, teratogenic drug와 불필요한 NSAID를 재검토하고 산전비타민·folate를 유지한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.863Z"
+    "updatedAt": "2026-07-23T16:11:03.804Z"
   },
   {
     "id": "908",
@@ -22177,7 +22575,7 @@
     "category": "09 산부",
     "sourcePath": "source_notes/01 Chief Complaint/골반통.md",
     "concept": [
-      "급성 골반통은 임신 여부와 혈역학적 안정성을 먼저 확인하고 자궁외임신·난소염전·골반감염과 비산부인과 원인을 감별한다."
+      "골반통은 임신 가능성과 혈역학적 안정성을 확인한 뒤 산부인과 원인과 비뇨기·소화기 원인을 함께 구분한다."
     ],
     "differentials": [
       "산과 : 자궁외임신, 유산",
@@ -22448,7 +22846,7 @@
       {
         "title": "Concept",
         "content": [
-          "급성 골반통은 임신 여부와 혈역학적 안정성을 먼저 확인하고 자궁외임신·난소염전·골반감염과 비산부인과 원인을 감별한다."
+          "골반통은 임신 가능성과 혈역학적 안정성을 확인한 뒤 산부인과 원인과 비뇨기·소화기 원인을 함께 구분한다."
         ]
       },
       {
@@ -22537,19 +22935,27 @@
       {
         "title": "접근",
         "content": [
-          "임신반응과 안정성 확인 후 산과·부인과·비뇨기·소화기 원인을 병렬 평가한다."
+          "• 입원 중 새 골반통은 수술·시술 후 출혈·혈종·감염, Foley 관련 요로손상·요저류, constipation·ileus, VTE와 기존 산부인과 질환의 악화를 우선 확인한다. 수술일, anticoagulant 재개, 배액관 제거, Foley 제거, 마지막 배변과 통증 시작시각을 맞춘다.",
+          "• 활력징후, 복부팽만·복막자극, 수술상처·배액량, 방광팽만과 질출혈을 확인한다. 가임기 환자는 입원 중이라도 임신 가능성을 병력만으로 배제하지 않는다.",
+          "• 저혈압, Hb 감소, 복막자극, 급격한 편측 통증·구토, 임신반응 양성과 통증·출혈이 있으면 단순 진통 후 관찰하지 말고 산부인과·외과 긴급 평가로 전환한다."
         ]
       },
       {
         "title": "검사",
         "content": [
-          "임신반응, 소변검사, STI 검사와 골반초음파를 임상 단서에 따라 시행한다."
+          "• CBC와 serial Hb, 전해질·Cr, urinalysis를 기본 단서에 따라 시행하고 임신 가능성이 있으면 β-hCG를 확인한다. 감염이면 CRP·배양, anticoagulant 사용 또는 출혈이면 coagulation을 추가한다.",
+          "• bladder scan으로 요저류를 확인하고, 골반초음파는 자궁·부속기·골반 내 액체저류 평가에 우선 사용한다. 수술 후 혈종·농양·장손상 또는 비산부인과 원인이 의심되면 조영 CT를 선택한다.",
+          "• 진통 후 30–60분 내 통증, 활력징후와 복부·골반 진찰을 반복하고 출혈 의심에서는 Hb·배액량 추세를 함께 본다."
         ]
       },
       {
         "title": "치료",
         "content": [
-          "쇼크 교정, 진통, 감염치료와 응급 산부인과·외과 처치를 시행한다."
+          "### 진통과 원인 교정",
+          "• Acetaminophen (타이레놀정 500 mg 등) 500–1,000 mg PO q6h PRN을 우선 사용하되 총 4 g/day를 넘지 않는다. 고령·저체중·간질환·영양불량에서는 3 g/day 이하 또는 추가 감량한다.",
+          "• 출혈·AKI·소화성궤양 위험이 없고 수술팀이 허용하면 Ketorolac (타라신주 30 mg/mL 등) 15 mg IV q6h PRN, 최대 60 mg/day로 짧게 사용할 수 있다. 다른 NSAID와 병용하지 않고 총 5일을 넘기지 않는다.",
+          "• 요저류는 bladder scan으로 확인한 뒤 catheter 교정·재삽입을 시행한다. constipation·fecal impaction, 수술 후 ileus, 상처·골반 감염은 각각의 원인 치료를 병행한다.",
+          "• 혈종·활동성 출혈, torsion, ectopic pregnancy 또는 농양·장손상이 의심되면 항응고제와 경구섭취를 보류하고 수술·시술팀을 즉시 호출한다."
         ]
       },
       {
@@ -22582,7 +22988,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:34:29.695Z"
+    "updatedAt": "2026-07-23T16:11:03.749Z"
   },
   {
     "id": "1001",
@@ -22594,7 +23000,7 @@
     "category": "10 소아",
     "sourcePath": "source_notes/01 Chief Complaint/성장 지연.md",
     "concept": [
-      "‘소아’, PEx 없음"
+      "성장지연은 한 번의 수치보다 성장곡선의 변화가 중요하며 가족성·체질성 변이와 영양·전신·내분비 원인을 구분한다."
     ],
     "differentials": [
       "1차성 : 가족성 저신장, 골격 형성 장애, 염색체 이상, 선천대사 이상, IGRD,",
@@ -22776,7 +23182,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘소아’, PEx 없음"
+          "성장지연은 한 번의 수치보다 성장곡선의 변화가 중요하며 가족성·체질성 변이와 영양·전신·내분비 원인을 구분한다."
         ]
       },
       {
@@ -22860,18 +23266,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 정확한 체중·키·머리둘레를 성장곡선에 표시하고 입원 전 추세, 섭취·흡수, 만성질환, feeding interaction과 식품불안을 확인한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• observed feeding과 dietitian assessment를 우선하고 CBC, CMP, ESR/CRP, celiac·thyroid·stool 검사는 임상 단서에 따라 선택한다. 무차별 panel 검사를 피한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 목표 열량과 feeding plan을 정하고 dehydration·micronutrient deficit을 교정한다. 중증 영양실조는 phosphate·K·Mg와 refeeding syndrome을 감시하며 단계적으로 증량한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.890Z"
+    "updatedAt": "2026-07-23T16:11:03.812Z"
   },
   {
     "id": "1002",
@@ -22883,7 +23295,7 @@
     "category": "10 소아",
     "sourcePath": "source_notes/01 Chief Complaint/발달 지연.md",
     "concept": [
-      "‘소아’, PEx 없음"
+      "발달지연은 단일 영역의 지연과 전반적 발달지연을 구분하며, 이미 획득한 기능의 퇴행은 별도로 다룬다."
     ],
     "differentials": [
       "전반적 : 저산소뇌병증, 태아알코올증후군, 다운/터너",
@@ -23124,7 +23536,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘소아’, PEx 없음"
+          "발달지연은 단일 영역의 지연과 전반적 발달지연을 구분하며, 이미 획득한 기능의 퇴행은 별도로 다룬다."
         ]
       },
       {
@@ -23213,18 +23625,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 입원 전 기능과 새 regression을 구분하고 부모·학교 자료, 청력·시력, seizure, nutrition, trauma·neglect와 대사질환 단서를 확인한다. 획득 기능 소실은 단순 지연보다 긴급하다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 연령별 발달영역과 neurologic exam, hearing·vision을 평가한다. regression·seizure·dysmorphism이면 metabolic/genetic, MRI·EEG를 소아신경·유전팀과 선택한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 입원 중 routine과 의사소통 보조를 유지하고 PT/OT/speech·nutrition을 연결한다. 급성질환 후 baseline 회복 여부와 퇴원 후 공식 발달평가 계획을 문서화한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.798Z"
+    "updatedAt": "2026-07-23T16:11:03.792Z"
   },
   {
     "id": "1003",
@@ -23236,7 +23654,7 @@
     "category": "10 소아",
     "sourcePath": "source_notes/01 Chief Complaint/예방접종.md",
     "concept": [
-      "‘상담’, 예방접종표 있는지 확인, 예방접종을 공부"
+      "예방접종은 연령·위험요인·과거 접종기록을 기준으로 필요한 백신을 정하고, 누락 접종은 처음부터 다시 시작하지 않고 보완한다."
     ],
     "differentials": [
       "나이별 필수접종 확인"
@@ -23311,7 +23729,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘상담’, 예방접종표 있는지 확인, 예방접종을 공부"
+          "예방접종은 연령·위험요인·과거 접종기록을 기준으로 필요한 백신을 정하고, 누락 접종은 처음부터 다시 시작하지 않고 보완한다."
         ]
       },
       {
@@ -23373,18 +23791,25 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 입원은 누락 백신을 확인할 기회이지만 현재 중등도·중증 급성질환, 임신, 면역억제, 비장절제·이식과 과거 중증 알레르기를 먼저 확인한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 환자 기록·예방접종도우미 등 신뢰 가능한 이력을 확인한다. 항체검사는 지침상 필요한 경우에만 시행한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 불활성 백신은 대부분 입원 중 투여 가능하고 경미한 감염만으로 연기하지 않는다. live vaccine은 임신·중증 면역저하에서 금기다.",
+          "• influenza, pneumococcal, COVID-19, HBV와 비장절제 관련 백신을 연령·위험군 지침에 맞춰 퇴원 전 투여하거나 날짜가 명확한 예약으로 남긴다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.964Z"
+    "updatedAt": "2026-07-23T16:11:03.828Z"
   },
   {
     "id": "1101",
@@ -23396,7 +23821,7 @@
     "category": "11 상담",
     "sourcePath": "source_notes/01 Chief Complaint/음주 상담.md",
     "concept": [
-      "‘상담’ 변형 문진을 잘 숙지, 지시문에 PE 시행 여부 확인"
+      "음주 상담은 표준잔으로 섭취량을 정량화하고 사용장애·금단 위험과 변화 준비도를 확인해 감량 또는 금주 계획을 정한다."
     ],
     "differentials": [
       ": 크게 중요하지는 않음",
@@ -23659,7 +24084,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘상담’ 변형 문진을 잘 숙지, 지시문에 PE 시행 여부 확인"
+          "음주 상담은 표준잔으로 섭취량을 정량화하고 사용장애·금단 위험과 변화 준비도를 확인해 감량 또는 금주 계획을 정한다."
         ]
       },
       {
@@ -23764,18 +24189,25 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 마지막 음주, 일일량, 과거 withdrawal seizure·DT, liver disease, nutrition과 현재 tremor·발한·환각을 확인한다. 입원 후 6–72시간 금단 가능성을 예상한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• glucose, CBC, electrolytes·Mg·phosphate, renal·liver function과 ECG를 확인하고 withdrawal severity를 반복 평가한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• malnutrition·acute illness가 있으면 Thiamine hydrochloride (제일티아민염산염주사액 50 mg/2 mL 등) 100–200 mg IV daily 후 PO를 고려한다. Wernicke 의심은 고용량 parenteral thiamine protocol을 즉시 적용하며 glucose 교정을 지연하지 않는다.",
+          "• 금단은 symptom-triggered Lorazepam (아티반정/주) 또는 원내 benzodiazepine protocol로 치료한다. withdrawal seizure에 phenytoin을 일률적으로 사용하지 않고 퇴원 전 addiction treatment를 연결한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:11.051Z"
+    "updatedAt": "2026-07-23T16:11:03.843Z"
   },
   {
     "id": "1102",
@@ -23787,7 +24219,7 @@
     "category": "11 상담",
     "sourcePath": "source_notes/01 Chief Complaint/흡연 상담.md",
     "concept": [
-      "‘상담’, OLDCoEx 변형 문진을 잘 숙지, 칭찬과 지지 보낼 것"
+      "흡연 상담은 니코틴 의존도, 금연 준비도, 과거 시도와 실패 요인을 확인해 행동지원과 약물치료를 함께 설계한다."
     ],
     "differentials": [
       ": 중요하지 않음"
@@ -24051,7 +24483,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘상담’, OLDCoEx 변형 문진을 잘 숙지, 칭찬과 지지 보낼 것"
+          "흡연 상담은 니코틴 의존도, 금연 준비도, 과거 시도와 실패 요인을 확인해 행동지원과 약물치료를 함께 설계한다."
         ]
       },
       {
@@ -24155,18 +24587,25 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 하루 사용량, 첫 흡연시각, 입원 중 craving·withdrawal과 동기, COPD·ACS·수술을 확인한다. 전자담배·니코틴 제품도 포함한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 별도 검사는 필요 없으며 nicotine dependence와 금기·최근 cardiac instability, 피부상태를 확인한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• Nicotine patch (니코틴엘TTS 10/20/30 등)는 의존도에 맞춰 1일 1회 적용하고 breakthrough craving에는 Nicotine gum (니코레트껌 2 또는 4 mg)을 병용한다. 사용법과 총 nicotine 노출을 확인한다.",
+          "• 퇴원 처방, 금연클리닉·상담과 추적일을 함께 정한다. 입원 중 강제 금연만 하고 치료 없이 퇴원시키지 않는다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:11.311Z"
+    "updatedAt": "2026-07-23T16:11:03.890Z"
   },
   {
     "id": "1103",
@@ -24178,7 +24617,7 @@
     "category": "11 상담",
     "sourcePath": "source_notes/01 Chief Complaint/물질 오남용.md",
     "concept": [
-      "‘상담’, 금연 금주와 유사"
+      "물질 오남용은 사용량보다 사용 패턴, 조절 상실, 금단·내성, 기능 손상을 확인하고 변화 준비도에 맞춰 개입한다."
     ],
     "differentials": [
       "정신과 약물 : 진정제, 각성제",
@@ -24385,7 +24824,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘상담’, 금연 금주와 유사"
+          "물질 오남용은 사용량보다 사용 패턴, 조절 상실, 금단·내성, 기능 손상을 확인하고 변화 준비도에 맞춰 개입한다."
         ]
       },
       {
@@ -24485,18 +24924,24 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 지참약·비의료적 사용, withdrawal과 pain undertreatment를 비난 없이 구분하고 substance, 마지막 사용, overdose·자살위험을 확인한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 활력징후, glucose, ECG와 renal·liver function을 임상상에 따라 확인한다. urine drug screen은 치료 결정을 단독으로 좌우하지 않는다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 물질별 overdose·withdrawal protocol과 addiction medicine을 연결한다. opioid withdrawal은 COWS와 마지막 opioid 시간을 확인한 뒤 Buprenorphine/naloxone (서브옥손설하필름 등)을 숙련자 protocol로 시작한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:40:10.785Z"
+    "updatedAt": "2026-07-23T16:11:03.789Z"
   },
   {
     "id": "1104",
@@ -24508,7 +24953,7 @@
     "category": "11 상담",
     "sourcePath": "source_notes/01 Chief Complaint/나쁜 소식 전하기.md",
     "concept": [
-      "'상담’, 준비하기도 애매한.. 모호한 문항.. 공감에 중점, SPIKES"
+      "환자가 원하는 정보의 범위와 현재 이해도를 먼저 확인하고, 정보를 짧게 나눈 뒤 감정 반응과 다음 계획을 함께 다룬다."
     ],
     "differentials": [
       ": 진단은 주어짐",
@@ -24543,7 +24988,7 @@
       {
         "title": "Concept",
         "content": [
-          "'상담’, 준비하기도 애매한.. 모호한 문항.. 공감에 중점, SPIKES"
+          "환자가 원하는 정보의 범위와 현재 이해도를 먼저 확인하고, 정보를 짧게 나눈 뒤 감정 반응과 다음 계획을 함께 다룬다."
         ]
       },
       {
@@ -24574,18 +25019,25 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 병동에서 설명 전 최신 진단·불확실성·치료 선택지와 환자의 의사결정능력, 정보 수용 선호, 대리결정권자를 확인한다. 팀 간 메시지를 먼저 일치시킨다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 별도 검사가 아니라 필요한 참석자·통역, 조용한 공간과 충분한 시간을 확보한다. 환자가 원하는 가족 참여 범위를 직접 확인한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 한 번에 핵심 정보를 짧게 전달하고 이해를 확인한 뒤 선택지와 다음 결정을 구분한다. 예후 불확실성은 숨기지 말고 재논의 시점을 정한다.",
+          "• 대화 내용, 환자 가치·결정, 미해결 질문과 담당자를 기록하고 완화의료·사회복지·정신건강 지원을 필요에 따라 연결한다."
+        ]
       }
     ],
-    "updatedAt": "2026-07-14T07:32:39.900Z"
+    "updatedAt": "2026-07-23T16:11:03.769Z"
   },
   {
     "id": "1105",
@@ -24597,10 +25049,7 @@
     "category": "11 상담",
     "sourcePath": "source_notes/01 Chief Complaint/가정폭력.md",
     "concept": [
-      "‘상담’, 환자 CC 충분히 문진, 결혼생활 충분히 문진",
-      "<종류>",
-      "배우자, 노인, 아동학대",
-      "신체적, 정신적, 성적, 경제적, 방임 학대"
+      "환자와 단독으로 면담하며 즉각적인 안전 위험, 강압·통제 양상, 취약한 동거인의 위험을 함께 평가한다."
     ],
     "differentials": [],
     "history": [
@@ -24778,10 +25227,7 @@
       {
         "title": "Concept",
         "content": [
-          "‘상담’, 환자 CC 충분히 문진, 결혼생활 충분히 문진",
-          "<종류>",
-          "배우자, 노인, 아동학대",
-          "신체적, 정신적, 성적, 경제적, 방임 학대"
+          "환자와 단독으로 면담하며 즉각적인 안전 위험, 강압·통제 양상, 취약한 동거인의 위험을 함께 평가한다."
         ]
       },
       {
@@ -24852,15 +25298,23 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 보호자·동반자 없이 안전하고 통역 가능한 공간에서 현재 위협, 병원 접근을 통제하는 사람, 자녀·취약성인 위험과 퇴원 장소를 확인한다. 환자 동의 없이 가해 의심자와 내용을 공유하지 않는다.",
+          "• 생명위협 손상과 strangulation, 두부·흉복부 손상, 임신·성폭력 가능성을 우선 평가한다. 기록에는 환자 표현을 가능한 그대로 쓰고 손상 위치·크기와 사진 동의 여부를 남긴다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 손상에 따른 영상·검사와 임신반응, STI 검사를 동의하에 선택한다. 정상 진찰만으로 strangulation의 혈관·기도손상을 배제하지 않는다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 손상 치료와 함께 의료사회복지·원내 safeguarding team을 즉시 연결하고 환자와 개별 safety plan을 만든다. 신고·증거보존은 관할 법과 성인 환자의 의사·의사결정능력을 확인해 진행한다.",
+          "• 퇴원 전 가해 의심자와 분리된 연락수단, 약·신분증 접근과 안전한 목적지를 확인한다."
+        ]
       },
       {
         "title": "ER",
@@ -24894,7 +25348,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:31:38.710Z"
+    "updatedAt": "2026-07-23T16:11:03.735Z"
   },
   {
     "id": "1106",
@@ -24906,7 +25360,7 @@
     "category": "11 상담",
     "sourcePath": "source_notes/01 Chief Complaint/성폭력.md",
     "concept": [
-      "’상담‘"
+      "성폭력 진료는 환자의 선택과 통제감을 보장하면서 안전, 시간 민감한 증거채취, 임신·감염 예방 필요를 함께 확인한다."
     ],
     "differentials": [
       "감별할 것 없음"
@@ -25046,7 +25500,7 @@
       {
         "title": "Concept",
         "content": [
-          "’상담‘"
+          "성폭력 진료는 환자의 선택과 통제감을 보장하면서 안전, 시간 민감한 증거채취, 임신·감염 예방 필요를 함께 확인한다."
         ]
       },
       {
@@ -25119,15 +25573,23 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 안전과 치료 동의를 먼저 확인하고 환자가 원하는 지원자 외에는 퇴실시킨다. 사건 세부를 반복 질문하지 말고 forensic examiner·성폭력 지원팀을 조기에 호출한다.",
+          "• 생명위협 손상, strangulation, 임신 가능성, STI·HIV 노출과 자살위험을 평가한다. 증거채취 거부가 다른 치료 거부를 뜻하지 않는다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 검체·사진은 항목별 동의를 받고 chain of custody를 따른다. pregnancy, HIV, HBV, syphilis와 gonorrhea/chlamydia 검사를 노출·동의에 따라 시행한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• HIV PEP는 노출 72시간 이내 가능한 빨리 감염내과·원내 protocol로 시작해 28일 계획을 세운다. 임신 가능하면 Levonorgestrel (노레보원정 1.5 mg) 1.5 mg PO 1회를 가능한 빨리 제안한다.",
+          "• STI prophylaxis·HBV vaccination은 검사와 국내 protocol에 따라 제공하고 trauma-informed follow-up을 예약한다."
+        ]
       },
       {
         "title": "ER",
@@ -25161,7 +25623,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:31:38.705Z"
+    "updatedAt": "2026-07-23T16:11:03.814Z"
   },
   {
     "id": "1107",
@@ -25173,9 +25635,7 @@
     "category": "11 상담",
     "sourcePath": "source_notes/01 Chief Complaint/자살.md",
     "concept": [
-      "'상담’",
-      "<원인질환> : 감별 필요 없음",
-      "정신 질환, 심리적 원인, 사회적 원인, 신체 질환"
+      "자살 위험은 생각의 유무보다 의도, 구체적 계획, 수단 접근성, 최근 행동, 보호요인을 종합해 즉각적인 안전 계획을 정한다."
     ],
     "differentials": [],
     "history": [
@@ -25278,9 +25738,7 @@
       {
         "title": "Concept",
         "content": [
-          "'상담’",
-          "<원인질환> : 감별 필요 없음",
-          "정신 질환, 심리적 원인, 사회적 원인, 신체 질환"
+          "자살 위험은 생각의 유무보다 의도, 구체적 계획, 수단 접근성, 최근 행동, 보호요인을 종합해 즉각적인 안전 계획을 정한다."
         ]
       },
       {
@@ -25330,15 +25788,22 @@
       },
       {
         "title": "접근",
-        "content": []
+        "content": [
+          "• 현재 생각, 구체적 계획·수단·의도, 최근 시도와 보호요인을 직접 질문하고 delirium·intoxication·pain을 함께 평가한다. 숫자 위험척도만으로 안전을 판정하지 않는다.",
+          "• 임박한 위험이면 환자를 혼자 두지 않고 위험물·약·line 접근을 원내 정책에 따라 제한하며 liaison psychiatry를 즉시 호출한다."
+        ]
       },
       {
         "title": "검사",
-        "content": []
+        "content": [
+          "• 자해·과량복용에 따른 신체검사, glucose, ECG와 독성검사를 노출에 따라 시행한다. 의사결정능력과 퇴원 요구 시 법적·정신과 평가를 기록한다."
+        ]
       },
       {
         "title": "치료",
-        "content": []
+        "content": [
+          "• 신체 손상 치료와 psychosocial assessment를 동시에 진행하고 관찰 수준은 환자와 설명·재평가한다. 퇴원 전 safety plan, 수단 제한, 약 처방량, 보호자 참여 동의와 구체적 follow-up을 확정한다."
+        ]
       },
       {
         "title": "ER",
@@ -25373,7 +25838,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:31:38.696Z"
+    "updatedAt": "2026-07-23T16:11:03.852Z"
   },
   {
     "id": "1201",
@@ -25386,7 +25851,7 @@
     "category": "12 눈/이비인후",
     "sourcePath": "source_notes/01 Chief Complaint/눈 통증／시력저하.md",
     "concept": [
-      "시력저하는 안과적 응급이며 발병 속도, 단안·양안, 통증·외상과 신경학적 증상을 먼저 구분한다."
+      "시력저하는 발병 속도, 단안·양안, 통증·외상 동반 여부로 안과적 원인과 신경학적 원인을 구분한다."
     ],
     "differentials": [
       "안구 : 급성 폐쇄각녹내장, 각막염·궤양, 포도막염, 안내염",
@@ -25679,7 +26144,7 @@
       {
         "title": "Concept",
         "content": [
-          "시력저하는 안과적 응급이며 발병 속도, 단안·양안, 통증·외상과 신경학적 증상을 먼저 구분한다."
+          "시력저하는 발병 속도, 단안·양안, 통증·외상 동반 여부로 안과적 원인과 신경학적 원인을 구분한다."
         ]
       },
       {
@@ -25774,19 +26239,27 @@
       {
         "title": "접근",
         "content": [
-          "먼저 양안 시력과 안구파열·화학손상을 확인한 뒤 안압·전안부·망막·신경계 원인을 평가한다."
+          "• 입원 중 새 안통·시력저하는 노출각막병증, 약물 유발 급성 폐쇄각녹내장, 수술·시술 후 안내염, stroke·giant cell arteritis, 외상·화학노출을 우선 구분한다. 최근 전신마취·진정, prone position, 산소장치, 안과수술과 anticholinergic·sympathomimetic·topiramate 투여를 확인한다.",
+          "• 교정시력을 양안 각각 먼저 기록하고 동공, 안구운동, 시야, 충혈·각막혼탁, 형광염색과 안압을 평가한다. 안구파열이 의심되면 안압측정과 안구 압박을 하지 않는다.",
+          "• 갑작스러운 시력저하, RAPD, 고안압, 심한 안통·두통과 구토, 수술 후 통증·전방축농은 시간 민감 응급이다. 검사 완료를 기다리지 말고 안과에 즉시 연락한다."
         ]
       },
       {
         "title": "검사",
         "content": [
-          "시력·세극등·안압·안저를 기본으로 하고 초음파·CT·혈관검사를 선택한다."
+          "• 시력, slit lamp·fluorescein, 안압과 안저검사를 기본으로 한다. 안저가 보이지 않으면 파열 가능성을 배제한 뒤 ocular ultrasound를 고려한다.",
+          "• 감염·염증이면 CBC·CRP, giant cell arteritis가 의심되면 ESR·CRP·platelet을 확인한다. stroke·orbital process·외상은 신경학적 소견과 기전에 따라 CT/MRI를 선택한다.",
+          "• 처치 후 시력·통증·안압을 30–60분 단위로 재평가한다. 시력 또는 안압이 악화되면 병동 관찰을 중단하고 안과 시술 가능한 장소로 이동한다."
         ]
       },
       {
         "title": "치료",
         "content": [
-          "화학손상 세척, 안압하강, 감염치료, 혈관·망막 응급의 전문치료를 지연하지 않는다."
+          "### 초기 처치",
+          "• 노출각막병증이면 preservative-free artificial tears (히알루론산 점안액 제품 등)을 주간 2–4시간 간격으로 사용하고, 취침 시 윤활안연고와 eyelid taping을 적용한다. 각막감염이 의심되면 안대를 붙이지 말고 안과 평가를 받는다.",
+          "• 급성 폐쇄각녹내장이 의심되면 안과와 동시에 Acetazolamide (다이아막스정 250 mg 등) 500 mg PO 또는 IV 1회, Timolol 0.5% (티모프틱점안액 등) 1 drop, Brimonidine (알파간피점안액 등) 1 drop을 금기 확인 후 시작한다. acetazolamide는 중증 신·간질환, sulfonamide 중증반응 병력과 전해질 이상에서 주의한다.",
+          "• Pilocarpine은 안압이 충분히 낮아지고 기전이 확인된 뒤 안과 지시에 따라 사용한다. mannitol은 심부전·신부전에서 체액과다 위험이 있어 refractory case에서 안과·중환자 모니터링 하에 투여한다.",
+          "• 안내염, retinal vascular occlusion·detachment, giant cell arteritis와 orbital compartment syndrome은 국소 진통제만 반복하지 말고 즉시 해당 전문치료로 전환한다. 외래용 국소마취 점안액을 반복 처방하지 않는다."
         ]
       },
       {
@@ -25818,7 +26291,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:34:29.687Z"
+    "updatedAt": "2026-07-23T16:11:03.772Z"
   },
   {
     "id": "1202",
@@ -25831,7 +26304,7 @@
     "category": "12 눈/이비인후",
     "sourcePath": "source_notes/01 Chief Complaint/인후통／연하곤란.md",
     "concept": [
-      "인후통은 흔하지만 침을 삼키지 못함, stridor, 쉰목소리, 경부 부종과 독성 외관이 있으면 상기도 응급을 우선한다."
+      "인후통은 흔하지만 침을 삼키지 못함, stridor, 쉰목소리, 경부 부종, 독성 외관이 있으면 상기도 응급을 우선한다."
     ],
     "differentials": [
       "감염 : 인두염, 편도주위농양, 후인두농양, 후두개염, 심경부감염",
@@ -26113,7 +26586,7 @@
       {
         "title": "Concept",
         "content": [
-          "인후통은 흔하지만 침을 삼키지 못함, stridor, 쉰목소리, 경부 부종과 독성 외관이 있으면 상기도 응급을 우선한다."
+          "인후통은 흔하지만 침을 삼키지 못함, stridor, 쉰목소리, 경부 부종, 독성 외관이 있으면 상기도 응급을 우선한다."
         ]
       },
       {
@@ -26205,19 +26678,27 @@
       {
         "title": "접근",
         "content": [
-          "기도 위험을 먼저 평가하고 감염·알레르기·이물·식도 원인으로 구분한다."
+          "• 입원 중 새 인후통·연하곤란은 post-extubation laryngeal edema, aspiration·stroke에 의한 oropharyngeal dysphagia, pill esophagitis, mucositis·candidiasis, deep neck infection과 약물·수혈 관련 angioedema를 우선 구분한다.",
+          "• 목소리 변화, stridor, 침 흘림, 분비물 처리 능력, 혀·구강·경부 부종과 산소화를 확인한다. 최근 발관·기도조작, ACE inhibitor, 새 항생제·수혈, 항암·방사선, 의치와 음식물 걸림 시점을 맞춘다.",
+          "• stridor, 빠르게 진행하는 혀·인두 부종, 침도 삼키지 못함, 저산소증 또는 새 신경학적 dysphagia이면 경구 투여와 bedside swallow를 중단하고 마취·이비인후과·신속대응팀을 즉시 호출한다."
         ]
       },
       {
         "title": "검사",
         "content": [
-          "기도가 안정된 뒤 내시경·영상·감염검사를 원인에 따라 선택한다."
+          "• 기도 위험이 있으면 CT나 인두 자극보다 통제된 기도 평가가 우선이다. 안정 환자는 구강·인두 진찰, flexible nasendoscopy와 필요 시 neck CT를 선택한다.",
+          "• 새 dysphagia에서는 NPO 후 speech/swallow evaluation을 의뢰하고, aspiration 의심 시 흉부 X선과 산소화를 확인한다. 음식물 완전폐색은 긴급 내시경을 준비한다.",
+          "• 처치 중에는 목소리, stridor, 분비물 처리, 경부 부종과 산소 요구량을 5–15분 단위로 재평가한다."
         ]
       },
       {
         "title": "치료",
         "content": [
-          "기도 확보 준비, 감염·아나필락시스 치료, 농양 배액과 이물 제거를 적응증에 따라 시행한다."
+          "### 기도·연하 안전",
+          "• anaphylaxis가 의심되면 원인 주입을 중단하고 Epinephrine (에피네프린주 1 mg/mL) 0.5 mg IM을 대퇴 전외측에 즉시 투여한다. 5분 후 호전이 없으면 반복하고, 조기 IV crystalloid와 기도 확보를 병행한다.",
+          "• post-extubation stridor·진행성 후두부종은 산소를 공급하고 마취·이비인후과에 즉시 연락한다. Nebulized epinephrine과 IV corticosteroid는 원내 difficult-airway protocol에 따라 사용하되 반응을 기다리며 재삽관을 지연하지 않는다.",
+          "• swallow safety가 확인될 때까지 NPO, head elevation과 aspiration precaution을 유지하고 필수 경구약은 대체 경로로 전환한다. oral candidiasis·mucositis·pill esophagitis는 기도·폐색 위험을 배제한 뒤 원인 약물과 면역상태에 맞춰 치료한다.",
+          "• 단순 통증에는 Acetaminophen (타이레놀정 500 mg 등) 500–1,000 mg PO q6h PRN을 사용하되 삼킴이 안전한 경우에만 투여한다."
         ]
       },
       {
@@ -26249,6 +26730,6 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-17T09:34:29.690Z"
+    "updatedAt": "2026-07-23T16:11:03.850Z"
   }
 ]

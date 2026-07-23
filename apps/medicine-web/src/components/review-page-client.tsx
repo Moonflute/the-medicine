@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Download, Eye, EyeOff, Upload } from "lucide-react";
-import { LearningActivityDashboard } from "@/components/learning-activity-dashboard";
 import {
   exportReviewData,
   importReviewData,
@@ -19,7 +18,7 @@ import {
   type ReviewItem,
 } from "@/lib/review-store";
 
-type Tab = "today" | "saved" | "recent" | "activity";
+type Tab = "today" | "saved" | "recent";
 
 const TYPE_LABELS: Record<string, string> = {
   disease: "질병",
@@ -53,7 +52,7 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
   }, [catalog]);
 
   const due = useMemo(() => items.filter((item) => isDue(item)), [items]);
-  const current: Array<ReviewItem | RecentReviewItem> = tab === "activity" ? [] : tab === "today" ? due : tab === "saved" ? items : recent;
+  const current: Array<ReviewItem | RecentReviewItem> = tab === "today" ? due : tab === "saved" ? items : recent;
   const savedKeys = useMemo(() => new Set(items.map((item) => `${item.type}|${item.id}`)), [items]);
 
   function toggleReveal(item: ReviewCatalogItem) {
@@ -108,7 +107,6 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
             ["today", `오늘 ${due.length}`],
             ["saved", `저장 ${items.length}`],
             ["recent", `최근 ${recent.length}`],
-            ["activity", "학습 현황"],
           ] as Array<[Tab, string]>).map(([key, label]) => (
             <button key={key} type="button" onClick={() => setTab(key)} className={`rounded-md px-3 py-2 text-sm font-medium ${tab === key ? "bg-teal-600 text-white" : "text-slate-600"}`}>
               {label}
@@ -124,9 +122,7 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
 
       {message ? <div role="status" className="rounded-lg border border-teal-200 bg-teal-50 px-4 py-3 text-sm text-teal-900">{message}</div> : null}
 
-      {tab === "activity" ? (
-        <LearningActivityDashboard catalog={catalog} />
-      ) : current.length === 0 ? (
+      {current.length === 0 ? (
         <div className="rounded-lg border border-dashed border-slate-300 bg-white/70 p-10 text-center text-slate-600">
           {tab === "recent" ? "최근 본 항목이 없습니다." : "복습할 항목이 없습니다. 상세 페이지의 복습 저장 버튼을 사용하세요."}
         </div>

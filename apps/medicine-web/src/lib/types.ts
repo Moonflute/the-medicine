@@ -307,7 +307,6 @@ export type QbankQuestion = {
   specialtySlug: string;
   relatedDiseaseTerms: string[];
   relatedDiseaseSlugs: string[];
-  relatedChiefComplaintSlugs: string[];
   questionType: string;
   difficulty: string;
   question: string;
@@ -321,7 +320,7 @@ export type QbankQuestion = {
 
 export type QbankQuestionIndex = Pick<
   QbankQuestion,
-  "id" | "specialty" | "specialtySlug" | "relatedDiseaseSlugs" | "relatedChiefComplaintSlugs" | "questionType" | "difficulty" | "translationStatus" | "explanationStatus"
+  "id" | "specialty" | "specialtySlug" | "questionType" | "difficulty" | "translationStatus" | "explanationStatus"
 >;
 
 export type QbankSpecialtySummary = {

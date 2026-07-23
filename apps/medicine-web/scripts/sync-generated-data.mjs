@@ -1188,44 +1188,10 @@ function normalizeQbankDiseaseTerm(value) {
     .replace(/\s+/g, "");
 }
 
-function stripQbankFahrenheit(value) {
-  return String(value ?? "")
-    .replace(/\s*\(\s*[-+]?\d+(?:\.\d+)?\s*°?\s*F(?:ahrenheit)?\s*\)/gi, "")
-    .replace(/[-+]?\d+(?:\.\d+)?\s*°?\s*F(?:ahrenheit)?\b/gi, "")
-    .replace(/[ \t]{2,}/g, " ")
-    .replace(/\n[ \t]+/g, "\n")
-    .trim();
-}
-
-function isImageDependentQbankQuestion(value) {
-  const text = String(value ?? "");
-  return [
-    /\b(?:see|view|look at|refer to|shown in|shown below|shown above|following)\b[^.\n]{0,100}\b(?:image|figure|photograph|picture|photo)\b/i,
-    /\b(?:image|figure|photograph|picture|photo)\b[^.\n]{0,100}\b(?:shows?|demonstrates?|depicts?|below|above|provided|attached)\b/i,
-    /(?:사진|그림|이미지|도표)[^。\n]{0,80}(?:보|참조|제시|첨부|아래|위)/,
-  ].some((pattern) => pattern.test(text));
-}
 function buildQbank() {
   const root = path.join(SOURCE_NOTES_ROOT, "99 Q-bank", "MedQA");
   if (!fs.existsSync(root)) return { index: [], specialties: [], questions: [] };
-  const diseases = buildDiseases();
-  const chiefComplaintSlugsByTerm = new Map();
-  for (const chiefComplaint of buildChiefComplaints()) {
-    for (const term of [chiefComplaint.title, ...(chiefComplaint.aliases || [])]) {
-      const normalized = normalizeQbankDiseaseTerm(term);
-      if (!normalized) continue;
-      const slugs = chiefComplaintSlugsByTerm.get(normalized) || new Set();
-      slugs.add(chiefComplaint.slug);
-      chiefComplaintSlugsByTerm.set(normalized, slugs);
-    }
-  }
-  const chiefComplaintSlugsByDisease = new Map(diseases.map((disease) => [
-    disease.slug,
-    [...new Set(disease.chiefComplaints.flatMap((term) => (
-      [...(chiefComplaintSlugsByTerm.get(normalizeQbankDiseaseTerm(term)) || [])]
-    )))],
-  ]));
-  const diseaseCandidates = diseases.flatMap((item) =>
+  const diseaseCandidates = buildDiseases().flatMap((item) =>
     [item.title, ...(item.aliases || [])]
       .map((term) => ({ term: normalizeQbankDiseaseTerm(term), slug: item.slug }))
       .filter((candidate) => candidate.term.length >= 3),
@@ -1246,7 +1212,6 @@ function buildQbank() {
   const questions = [];
   const seenIds = new Set();
   const seenHashes = new Set();
-  const excludedImageQuestionIds = [];
 
   for (const filePath of listMarkdownFiles(root, { ignoreFiles: new Set(["index.md"]) })) {
     const { frontmatter, body } = splitFrontmatter(readText(filePath));
@@ -1259,21 +1224,16 @@ function buildQbank() {
     if (!sourceHash || seenHashes.has(sourceHash)) throw new Error(`Q-bank duplicate or missing source hash: ${sourceHash || filePath}`);
     if (!/^[A-D]$/.test(answer)) throw new Error(`Q-bank invalid answer for ${id}`);
     const question = qbankSection(body, "문제");
-    if (isImageDependentQbankQuestion(question)) {
-      excludedImageQuestionIds.push(id);
-      continue;
-    }
     const optionsText = qbankSection(body, "선택지");
     const options = {};
-    for (const match of optionsText.matchAll(/^([A-D])\.\s+(.+)$/gm)) options[match[1]] = stripQbankFahrenheit(match[2].trim());
+    for (const match of optionsText.matchAll(/^([A-D])\.\s+(.+)$/gm)) options[match[1]] = match[2].trim();
     if (!question || Object.keys(options).join("") !== "ABCD") throw new Error(`Q-bank malformed question/options for ${id}`);
     const explanationStatus = readScalar(frontmatter.explanation_status) || "missing";
     const explanation = ["verified", "machine-generated"].includes(explanationStatus)
-      ? stripQbankFahrenheit(qbankSection(body, "해설").replace(/<!--([\s\S]*?)-->/g, "").trim())
+      ? qbankSection(body, "해설").replace(/<!--([\s\S]*?)-->/g, "").trim()
       : "";
     const diseaseTerms = readList(frontmatter.related_diseases);
     const relatedDiseaseSlugs = [...new Set(diseaseTerms.map(resolveDiseaseTerm).filter(Boolean))];
-    const relatedChiefComplaintSlugs = [...new Set(relatedDiseaseSlugs.flatMap((slug) => chiefComplaintSlugsByDisease.get(slug) || []))];
     const specialtySlug = toSlug(specialty);
     questions.push({
       id,
@@ -1283,10 +1243,9 @@ function buildQbank() {
       specialtySlug,
       relatedDiseaseTerms: diseaseTerms,
       relatedDiseaseSlugs,
-      relatedChiefComplaintSlugs,
       questionType: readScalar(frontmatter.question_type) || "other",
       difficulty: readScalar(frontmatter.difficulty) || "standard",
-      question: stripQbankFahrenheit(question),
+      question,
       options,
       answer,
       explanation,
@@ -1319,8 +1278,6 @@ function buildQbank() {
     id: item.id,
     specialty: item.specialty,
     specialtySlug: item.specialtySlug,
-    relatedDiseaseSlugs: item.relatedDiseaseSlugs,
-    relatedChiefComplaintSlugs: item.relatedChiefComplaintSlugs,
     questionType: item.questionType,
     difficulty: item.difficulty,
     translationStatus: item.translationStatus,
@@ -1337,9 +1294,6 @@ function buildQbank() {
     if (entry.isFile() && entry.name.endsWith(".json") && !expectedFiles.has(entry.name)) {
       fs.rmSync(path.join(QBANK_DATA_ROOT, entry.name));
     }
-  }
-  if (excludedImageQuestionIds.length > 0) {
-    console.log(`Q-bank excluded ${excludedImageQuestionIds.length} image-dependent questions.`);
   }
   return { index, specialties, questions };
 }

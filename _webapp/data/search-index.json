@@ -23432,6 +23432,198 @@
   },
   {
     "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qwhO2XkOyggSDtj63rsJwg7J6l7JWgIChJbnRlcm1pdHRlbnQgRXhwbG9zaXZlIERpc29yZGVyKS5tZA",
+    "title": "간헐적 폭발 장애 (Intermittent Explosive Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "간헐적 폭발 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "소아 청소년 정신 건강",
+      "파괴적·충동조절 및 품행 장애",
+      "간헐적 폭발 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• CC: 언어적 공격성(고함, 말다툼), 신체적 공격성(타인/동물에 대한 폭행, 재산 파괴)이 반복적으로 나타남.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qwhO2XkOyggSDtj63rsJwg7J6l7JWgIChJbnRlcm1pdHRlbnQgRXhwbG9zaXZlIERpc29yZGVyKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qwleuwlSDsnqXslaAgKE9ic2Vzc2l2ZS1Db21wdWxzaXZlIERpc29yZGVyLCBPQ0QpLm1k",
+    "title": "강박 장애 (Obsessive-Compulsive Disorder, OCD)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "강박 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "불안·강박 및 관련 장애",
+      "불안장애",
+      "강박 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 특징: 증상은 대개 자아 이질적(ego-dystonic)이며, 환자 스스로 자신의 행동이 비합리적임을 인지하는 경우가 많음.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qwleuwlSDsnqXslaAgKE9ic2Vzc2l2ZS1Db21wdWxzaXZlIERpc29yZGVyLCBPQ0QpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qyveuPhCDsnbjsp4Ag7J6l7JWgIChNaWxkIENvZ25pdGl2ZSBJbXBhaXJtZW50KS5tZA",
+    "title": "경도 인지 장애 (Mild Cognitive Impairment)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "경도 인지 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "신경인지장애",
+      "신경인지장애",
+      "경도 인지 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "정상적인 노화 과정에서 기대되는 수준을 넘어서는 인지 기능 저하가 있으나, 치매 진단 기준(일상생활 수행 능력의 현저한 저하)을 충족하지 않는 상태.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qyveuPhCDsnbjsp4Ag7J6l7JWgIChNaWxkIENvZ25pdGl2ZSBJbXBhaXJtZW50KS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qzte2ZqSDsnqXslaAgKFBhbmljIERpc29yZGVyKS5tZA",
+    "title": "공황 장애 (Panic Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "공황 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "불안·강박 및 관련 장애",
+      "불안장애",
+      "공황 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "반복적이고 예상치 못한 공황 발작(panic attack)과 그에 따른 예기 불안 및 부적응적 행동 변화가 특징인 질환.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qzte2ZqSDsnqXslaAgKFBhbmljIERpc29yZGVyKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qzvOyImOuptCDsnqXslaAgKEh5cGVyc29tbm9sZW5jZSBEaXNvcmRlcikubWQ",
+    "title": "과수면 장애 (Hypersomnolence Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "과수면 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "수면 관련 장애",
+      "수면-각성 장애",
+      "과수면 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "기저 수면 장애, 신경학적 질환, 약물 또는 물질 사용 등으로 설명되지 않는 1개월 이상의 과도한 주간 졸음.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qzvOyImOuptCDsnqXslaAgKEh5cGVyc29tbm9sZW5jZSBEaXNvcmRlcikubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q0keyepSDqs7Xtj6zspp0gKEFnb3JhcGhvYmlhKS5tZA",
+    "title": "광장 공포증 (Agoraphobia)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "광장 공포증",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "불안·강박 및 관련 장애",
+      "불안장애",
+      "광장 공포증",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "탈출이 어렵거나 도움을 받기 어려운 상황에 처하는 것에 대한 극심한 공포와 불안.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q0keyepSDqs7Xtj6zspp0gKEFnb3JhcGhvYmlhKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4ieyEsSDsiqTtirjroIjsiqQg7J6l7JWgIChBY3V0ZSBTdHJlc3MgRGlzb3JkZXIpLm1k",
+    "title": "급성 스트레스 장애 (Acute Stress Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "급성 스트레스 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "외상 및 스트레스 관련 장애",
+      "외상·해리 장애",
+      "급성 스트레스 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 침습 증상: 외상 사건에 대한 반복적이고 고통스러운 기억, 악몽, 플래시백.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4ieyEsSDsiqTtirjroIjsiqQg7J6l7JWgIChBY3V0ZSBTdHJlc3MgRGlzb3JkZXIpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOuptOymnSAoTmFyY29sZXBzeSkubWQ",
+    "title": "기면증 (Narcolepsy)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "기면증",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "수면 관련 장애",
+      "수면-각성 장애",
+      "기면증",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "과도한 주간 졸음(EDS)과 REM 수면 조절 장애를 특징으로 하는 만성 신경학적 질환.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOuptOymnSAoTmFyY29sZXBzeSkubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOu2hCDslYjsoJXsoJwgKE1vb2QgU3RhYmlsaXplcnMpLm1k",
     "title": "기분 안정제 (Mood Stabilizers)",
     "category": "15 정신건강의학과",
@@ -23467,17 +23659,42 @@
     ],
     "keywords": [
       "기분 장애",
+      "우울 및 양극성 장애",
       "기분변화",
       "피로",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "기분 삽화(mood episode)를 특징으로 하는 질환군으로, 조증/경조증 삽화와 우울 삽화의 양상에 따라 분류함.",
+    "quickSummary": "• CC**: 기분 고양, 과활동성, 수면 욕구 감소(조증) 또는 우울감, 무기력, 자살 사고(우울).",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOu2hCDsnqXslaAgKEJpcG9sYXIgYW5kIFJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOu2hCDsoIDtlZgg7J6l7JWgICjsp4Dsho3soIEg7Jqw7Jq4IOyepeyVoCwgRHlzdGh5bWlhKS5tZA",
+    "title": "기분 저하 장애 (지속적 우울 장애, Dysthymia)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "기분 저하 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "기분 장애",
+      "우울 및 양극성 장애",
+      "기분 저하 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "2년 이상 지속되는 우울한 기분으로, 주요 우울 장애와 기분부전 장애(Dysthymia)를 통합한 개념.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOu2hCDsoIDtlZgg7J6l7JWgICjsp4Dsho3soIEg7Jqw7Jq4IOyepeyVoCwgRHlzdGh5bWlhKS5tZA"
   },
   {
     "type": "disease",
@@ -23500,6 +23717,30 @@
     ],
     "quickSummary": "정보를 부호화(encoding), 저장(storage), 인출(retrieval)하는 인지 과정의 결함으로, 일상생활 및 사회적 기능에 지장을 초래하는 상태.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOyWteydmCDsnqXslaAgKERpc29yZGVycyBvZiBNZW1vcnkpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q-gOuzkSAoTWFsaW5nZXJpbmcpLm1k",
+    "title": "꾀병 (Malingering)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "꾀병",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "신체 증상 및 관련 장애",
+      "신체증상·관련 장애",
+      "꾀병",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 특징: 진료 시 비협조적 태도, 검사 결과와 주관적 호소의 현저한 불일치, 법적/경제적 분쟁 상황과 연관된 경우가 많음.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q-gOuzkSAoTWFsaW5nZXJpbmcpLm1k"
   },
   {
     "type": "disease",
@@ -23551,6 +23792,198 @@
   },
   {
     "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uLqOq4sCDsoJXsi6Drs5HsoIEg7J6l7JWgIChCcmllZiBwc3ljaG90aWMgZGlzb3JkZXIpLm1k",
+    "title": "단기 정신병적 장애 (Brief psychotic disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "단기 정신병적 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "정신병적 장애",
+      "조현병 스펙트럼 장애",
+      "단기 정신병적 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "갑작스럽게 발병하여 1일 이상 1개월 미만으로 지속되는 정신병적 증상(망상, 환각, 와해된 언어, 와해된 행동 등)을 특징으로 함.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uLqOq4sCDsoJXsi6Drs5HsoIEg7J6l7JWgIChCcmllZiBwc3ljaG90aWMgZGlzb3JkZXIpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uLtOuwsCAoVG9iYWNjbykubWQ",
+    "title": "담배 (Tobacco)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "담배",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "물질 관련 및 중독성 장애",
+      "물질 사용 및 금단",
+      "담배",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "담배는 연소형(궐련 등)과 비연소형(씹는 담배, 머금는 담배 등)으로 나뉘며, 니코틴 의존성 및 다양한 발암물질 노출을 유발함.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uLtOuwsCAoVG9iYWNjbykubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uMgOuniCDqs4QgKENhbm5hYmlzKS5tZA",
+    "title": "대마 계 (Cannabis)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "대마 계",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "물질 관련 및 중독성 장애",
+      "물질 사용 및 금단",
+      "대마 계",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "대마(Cannabis)의 반복적 사용으로 인한 신체적, 정신적 의존 및 기능 저하.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uMgOuniCDqs4QgKENhbm5hYmlzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uPhOuyvSAoS2xlcHRvbWFuaWEpLm1k",
+    "title": "도벽 (Kleptomania)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "도벽",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "소아 청소년 정신 건강",
+      "파괴적·충동조절 및 품행 장애",
+      "도벽",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• CC: 반복적인 절도 충동",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uPhOuyvSAoS2xlcHRvbWFuaWEpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uanOugmyDsnqXslaAgKFRvdXJldHRlIERpc29yZGVyKS5tZA",
+    "title": "뚜렛 장애 (Tourette Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "뚜렛 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "소아 청소년 정신 건강",
+      "신경발달·소아 정신질환",
+      "뚜렛 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "다발성 운동 틱과 한 가지 이상의 음성 틱이 1년 이상 지속되는 신경발달장애.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uanOugmyDsnqXslaAgKFRvdXJldHRlIERpc29yZGVyKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ugiOu5hCDshozssrQg7LmY66ekIChEZW1lbnRpYSB3aXRoIExld3kgQm9kaWVzKS5tZA",
+    "title": "레비 소체 치매 (Dementia with Lewy Bodies)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "레비 소체 치매",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "신경인지장애",
+      "신경인지장애",
+      "레비 소체 치매",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "레비 소체 치매(DLB)는 인지 기능 저하, 환시, 파킨슨증이 특징인 퇴행성 뇌 질환으로, 파킨슨병 치매(PDD)와 함께 레비 소체 치매(LBD) 범주에 포함됨.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ugiOu5hCDshozssrQg7LmY66ekIChEZW1lbnRpYSB3aXRoIExld3kgQm9kaWVzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ugmOyImOuptCDtlonrj5kg7J6l7JWgIChSRU0gU2xlZXAgQmVoYXZpb3IgRGlzb3JkZXIpLm1k",
+    "title": "렘수면 행동 장애 (REM Sleep Behavior Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "렘수면 행동 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "수면 관련 장애",
+      "수면-각성 장애",
+      "렘수면 행동 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "렘수면 중 근긴장도 소실(atonia)이 저하되어 꿈의 내용을 행동으로 표출하는 사건수면(parasomnia).",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ugmOyImOuptCDtlonrj5kg7J6l7JWgIChSRU0gU2xlZXAgQmVoYXZpb3IgRGlzb3JkZXIpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-unneyDgSDsnqXslaAgKERlbHVzaW9uYWwgZGlzb3JkZXIpLm1k",
+    "title": "망상 장애 (Delusional disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "망상 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "정신병적 장애",
+      "조현병 스펙트럼 장애",
+      "망상 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "1개월 이상 지속되는 하나 이상의 비괴이적(non-bizarre) 망상을 특징으로 하는 질환.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-unneyDgSDsnqXslaAgKERlbHVzaW9uYWwgZGlzb3JkZXIpLm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA",
     "title": "물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)",
     "category": "15 정신건강의학과",
@@ -23560,16 +23993,41 @@
     ],
     "keywords": [
       "물질 관련 및 중독성 장애",
+      "물질 사용 및 금단",
       "무증상",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "물질의 과도한 사용으로 인해 뇌의 보상 체계가 변화하여 조절 능력을 상실하고, 일상생활 및 사회적 기능에 심각한 지장을 초래하는 상태.",
+    "quickSummary": "• CC**: 갈망(craving), 내성(tolerance), 금단(withdrawal), 조절 실패.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uwmOydkeyEsSDslaDssKkg7J6l7JWgIChSZWFjdGl2ZSBBdHRhY2htZW50IERpc29yZGVyKS5tZA",
+    "title": "반응성 애착 장애 (Reactive Attachment Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "반응성 애착 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "소아 청소년 정신 건강",
+      "신경발달·소아 정신질환",
+      "반응성 애착 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "초기 아동기에 사회적 방임이나 학대로 인해 발생하는 외상 및 스트레스 관련 장애.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uwmOydkeyEsSDslaDssKkg7J6l7JWgIChSZWFjdGl2ZSBBdHRhY2htZW50IERpc29yZGVyKS5tZA"
   },
   {
     "type": "disease",
@@ -23582,7 +24040,9 @@
       "탈모"
     ],
     "keywords": [
+      "불안·강박 및 관련 장애",
       "강박 및 관련 장애",
+      "발모장애",
       "탈모",
       "개요",
       "임상 양상 (Clinical Features)",
@@ -23593,6 +24053,102 @@
     ],
     "quickSummary": "반복적으로 자신의 털을 뽑는 행동으로 인해 탈모가 발생하는 질환으로, 강박 및 관련 장애(Obsessive-Compulsive and Related Disorders) 범주에 속함.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uwnOuqqOyepeyVoCAoVHJpY2hvdGlsbG9tYW5pYSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uwqe2ZlOq0kSAoUHlyb21hbmlhKS5tZA",
+    "title": "방화광 (Pyromania)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "방화광",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "소아 청소년 정신 건강",
+      "파괴적·충동조절 및 품행 장애",
+      "방화광",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• CC: 반복적인 방화 충동",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uwqe2ZlOq0kSAoUHlyb21hbmlhKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uylCDrtojslYgg7J6l7JWgIChHZW5lcmFsaXplZCBBbnhpZXR5IERpc29yZGVyKS5tZA",
+    "title": "범 불안 장애 (Generalized Anxiety Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "범 불안 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "불안·강박 및 관련 장애",
+      "불안장애",
+      "범 불안 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "일상적인 여러 사건이나 활동에 대해 6개월 이상 지속되는 과도하고 통제하기 어려운 불안과 걱정.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uylCDrtojslYgg7J6l7JWgIChHZW5lcmFsaXplZCBBbnhpZXR5IERpc29yZGVyKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uyoOultOuLiOy8gC3svZTrpbTsgqzsvZTtlIQg7Kad7ZuE6rWwIChXZXJuaWNrZS1Lb3JzYWtvZmYgU3luZHJvbWUpLm1k",
+    "title": "베르니케-코르사코프 증후군 (Wernicke-Korsakoff Syndrome)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "베르니케-코르사코프 증후군",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "물질 관련 및 중독성 장애",
+      "물질 사용 및 금단",
+      "베르니케-코르사코프 증후군",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "티아민(비타민 B1) 결핍으로 인해 발생하는 급성 신경계 질환인 베르니케 뇌병증(Wernicke encephalopathy)과 그 후유증으로 나타나는 만성 기억 장애인 코르사코프 증후군(Korsakoff syndrome)을 통칭함.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uyoOultOuLiOy8gC3svZTrpbTsgqzsvZTtlIQg7Kad7ZuE6rWwIChXZXJuaWNrZS1Lb3JzYWtvZmYgU3luZHJvbWUpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOuptCDsnqXslaAgKEluc29tbmlhIERpc29yZGVyKS5tZA",
+    "title": "불면 장애 (Insomnia Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "불면 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "수면 관련 장애",
+      "수면-각성 장애",
+      "불면 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "수면의 시작이나 유지의 어려움, 또는 이른 기상으로 인해 일상생활에 지장을 주는 상태.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOuptCDsnqXslaAgKEluc29tbmlhIERpc29yZGVyKS5tZA"
   },
   {
     "type": "disease",
@@ -23608,20 +24164,45 @@
       "어지러움증"
     ],
     "keywords": [
-      "불안 장애",
+      "불안·강박 및 관련 장애",
+      "불안장애",
       "불안",
       "두근거림",
       "호흡곤란",
       "어지러움증",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "특정 대상이나 상황에 대해 부적절하고 과도한 불안과 공포를 느끼며, 이로 인해 일상생활에 현저한 지장을 초래하는 정신 질환군.",
+    "quickSummary": "• CC**: 과도한 걱정, 공포, 신체 증상(심계항진, 호흡곤란, 어지럼증, 발한 등), 회피 행동.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOyViCDsnqXslaAgKEFueGlldHkgRGlzb3JkZXJzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u5hOugmOyImOuptCDtlonrj5kg7J6l7JWgIChOUkVNIFNsZWVwIEJlaGF2aW9yIERpc29yZGVyKS5tZA",
+    "title": "비렘수면 행동 장애 (NREM Sleep Behavior Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "비렘수면 행동 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "수면 관련 장애",
+      "수면-각성 장애",
+      "비렘수면 행동 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "REM 수면 중 근긴장도 소실(atonia)이 나타나지 않아 꿈의 내용을 행동으로 옮기는 사건수면(parasomnia).",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u5hOugmOyImOuptCDtlonrj5kg7J6l7JWgIChOUkVNIFNsZWVwIEJlaGF2aW9yIERpc29yZGVyKS5tZA"
   },
   {
     "type": "disease",
@@ -23644,6 +24225,78 @@
     ],
     "quickSummary": "자살 의도 없이 신체 조직에 직접적이고 의도적인 손상을 입히는 행위 (예: 베기, 태우기, 긁기 등).",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u5hOyekOyCtCDsnpDtlbQgKE5vbi1zdWljaWRhbCBTZWxmLUluanVyeSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCrO2ajCDrtojslYgg7J6l7JWgIChTb2NpYWwgQW54aWV0eSBEaXNvcmRlcikubWQ",
+    "title": "사회 불안 장애 (Social Anxiety Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "사회 불안 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "불안·강박 및 관련 장애",
+      "불안장애",
+      "사회 불안 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "타인에게 부정적인 평가를 받을 수 있는 사회적 상황이나 수행 상황에 대해 과도한 두려움과 불안을 느끼는 질환.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCrO2ajCDrtojslYgg7J6l7JWgIChTb2NpYWwgQW54aWV0eSBEaXNvcmRlcikubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCsO2bhCDsoJXsi6Drs5EgKFBvc3RwYXJ0dW0gcHN5Y2hvc2lzKS5tZA",
+    "title": "산후 정신병 (Postpartum psychosis)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "산후 정신병",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "정신병적 장애",
+      "조현병 스펙트럼 장애",
+      "산후 정신병",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "출산 후 수일에서 6주 이내에 발생하는 급성 정신병적 상태로, 정신과적 응급 상황임.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCsO2bhCDsoJXsi6Drs5EgKFBvc3RwYXJ0dW0gcHN5Y2hvc2lzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yErOunnSAoRGVsaXJpdW0pLm1k",
+    "title": "섬망 (Delirium)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "섬망",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "신경인지장애",
+      "신경인지장애",
+      "섬망",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "주의력 및 인지 기능의 급성 장애로, 단기간에 발생하며 증상의 심각도가 변동하는 임상 증후군",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yErOunnSAoRGVsaXJpdW0pLm1k"
   },
   {
     "type": "disease",
@@ -23707,16 +24360,17 @@
     ],
     "keywords": [
       "소아 청소년 정신 건강",
+      "신경발달·소아 정신질환",
       "불안",
       "발달 지연",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "아동 및 청소년기에 발생하는 정신적, 행동적, 발달적 장애를 다루는 분야.",
+    "quickSummary": "• CC**: 학습 부진, 또래 관계 문제, 부적절한 행동, 정서적 불안, 발달 지연 등.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yGjOyVhCDsoJXsi6Ag7J2Y7ZWZIChDaGlsZCBhbmQgQWRvbGVzY2VudCBQc3ljaGlhdHJpYyBEaXNvcmRlcnMpLm1k"
   },
   {
@@ -23730,16 +24384,65 @@
     ],
     "keywords": [
       "수면 관련 장애",
+      "수면-각성 장애",
       "수면장애",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "수면의 질, 양, 시간의 문제로 인해 낮 동안의 기능 저하를 동반하는 다양한 질환군.",
+    "quickSummary": "• CC**: 불면, 과도한 주간 졸음, 수면 중 이상 행동, 수면 패턴의 부조화.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDqtIDroKgg7J6l7JWgIChTbGVlcC1XYWtlIERpc29yZGVycykubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDrrLTtmLjtnaHspp0gKFNsZWVwIEFwbmVhIFN5bmRyb21lKS5tZA",
+    "title": "수면 무호흡증 (Sleep Apnea Syndrome)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "수면 무호흡증",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "수면 관련 장애",
+      "수면-각성 장애",
+      "수면 무호흡증",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "수면 중 상기도의 반복적인 허탈로 인한 호흡 정지(무호흡) 또는 호흡 저하(저호흡)가 발생하는 질환.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDrrLTtmLjtnaHspp0gKFNsZWVwIEFwbmVhIFN5bmRyb21lKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yInO2ZmCDquLDrtoQg7J6l7JWgIChDeWNsb3RoeW1pYyBEaXNvcmRlcikubWQ",
+    "title": "순환 기분 장애 (Cyclothymic Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "순환 기분 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "기분 장애",
+      "우울 및 양극성 장애",
+      "순환 기분 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "경조증 삽화와 우울 삽화가 2년 이상(소아/청소년은 1년) 반복되지만, 각 삽화의 진단 기준을 완전히 충족하지 않는 만성적인 기분 장애.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yInO2ZmCDquLDrtoQg7J6l7JWgIChDeWNsb3RoeW1pYyBEaXNvcmRlcikubWQ"
   },
   {
     "type": "disease",
@@ -23756,6 +24459,8 @@
     ],
     "keywords": [
       "급식 및 섭식 장애",
+      "섭식 장애",
+      "신경성 식욕부진증",
       "체중감소/식욕부진",
       "월경이상",
       "변비",
@@ -23786,6 +24491,8 @@
     ],
     "keywords": [
       "급식 및 섭식 장애",
+      "섭식 장애",
+      "신경성 폭식증",
       "인후통",
       "변비",
       "두통",
@@ -23812,15 +24519,16 @@
     ],
     "keywords": [
       "신경인지장애",
+      "신경인지장애",
       "기억력 저하",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "인지 기능(기억력, 주의력, 언어, 시공간 능력, 실행 기능 등)의 이전 수준 대비 유의미한 저하가 나타나는 상태.",
+    "quickSummary": "• CC**: 기억력 저하, 성격 변화, 언어 장애, 일상생활 수행 능력 저하.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyduOyngOyepeyVoCAoTmV1cm9jb2duaXRpdmUgRGlzb3JkZXJzKS5tZA"
   },
   {
@@ -23835,16 +24543,41 @@
     ],
     "keywords": [
       "신체 증상 및 관련 장애",
+      "신체증상·관련 장애",
       "검진 이상",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "신체적 증상을 호소하지만, 이를 충분히 설명할 수 있는 의학적 질환이 없거나 증상에 비해 과도한 반응을 보이는 장애군.",
+    "quickSummary": "• CC**: 통증, 소화기 증상, 신경학적 증상 등 다양한 신체 불편감.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytCDspp3sg4Eg67CPIOq0gOugqCDsnqXslaAgKFNvbWF0aWMgU3ltcHRvbSBhbmQgUmVsYXRlZCBEaXNvcmRlcnMpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytCDspp3sg4Eg7J6l7JWgIChTb21hdGljIFN5bXB0b20gRGlzb3JkZXIpLm1k",
+    "title": "신체 증상 장애 (Somatic Symptom Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "신체 증상 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "신체 증상 및 관련 장애",
+      "신체증상·관련 장애",
+      "신체 증상 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "하나 이상의 신체 증상을 호소하며, 이와 관련하여 과도한 생각, 감정, 행동을 보임으로써 일상생활에 상당한 고통이나 지장을 초래하는 질환.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytCDspp3sg4Eg7J6l7JWgIChTb21hdGljIFN5bXB0b20gRGlzb3JkZXIpLm1k"
   },
   {
     "type": "disease",
@@ -23857,7 +24590,9 @@
       "외모 집착"
     ],
     "keywords": [
+      "불안·강박 및 관련 장애",
       "강박 및 관련 장애",
+      "신체이형장애",
       "외모 집착",
       "개요",
       "임상 양상 (Clinical Features)",
@@ -23871,6 +24606,198 @@
   },
   {
     "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVhO2OuCDsnKDsgqzsoJwgKE9waW9pZHMpLm1k",
+    "title": "아편 유사제 (Opioids)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "아편 유사제",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "물질 관련 및 중독성 장애",
+      "물질 사용 및 금단",
+      "아편 유사제",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 주요 증상: 갈망(craving), 내성(tolerance), 금단(withdrawal), 조절 실패.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVhO2OuCDsnKDsgqzsoJwgKE9waW9pZHMpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVheuqvSAoTmlnaHRtYXJlKS5tZA",
+    "title": "악몽 (Nightmare)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "악몽",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "수면 관련 장애",
+      "수면-각성 장애",
+      "악몽",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• CC: 반복되는 불쾌한 꿈",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVheuqvSAoTmlnaHRtYXJlKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy4oO2VmOydtOuouCDsuZjrp6QgKEFsemhlaW1lcidzIERpc2Vhc2UpLm1k",
+    "title": "알츠하이머 치매 (Alzheimer's Disease)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "알츠하이머 치매",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "신경인지장애",
+      "신경인지장애",
+      "알츠하이머 치매",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "가장 흔한 치매의 원인으로, 점진적으로 진행되는 신경퇴행성 질환.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy4oO2VmOydtOuouCDsuZjrp6QgKEFsemhlaW1lcidzIERpc2Vhc2UpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDquIjri6gg7ISs66edIChBbGNvaG9sIFdpdGhkcmF3YWwgRGVsaXJpdW0pLm1k",
+    "title": "알코올 금단 섬망 (Alcohol Withdrawal Delirium)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "알코올 금단 섬망",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "물질 관련 및 중독성 장애",
+      "물질 사용 및 금단",
+      "알코올 금단 섬망",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 초기 증상: 불안, 불면, 두통, 위장관 불편감, 진전(tremor).",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDquIjri6gg7ISs66edIChBbGNvaG9sIFdpdGhkcmF3YWwgRGVsaXJpdW0pLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDquIjri6gg7Kad7ZuE6rWwIChBbGNvaG9sIFdpdGhkcmF3YWwgU3luZHJvbWUpLm1k",
+    "title": "알코올 금단 증후군 (Alcohol Withdrawal Syndrome)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "알코올 금단 증후군",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "물질 관련 및 중독성 장애",
+      "물질 사용 및 금단",
+      "알코올 금단 증후군",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 초기 증상: 금주 5~10시간 후 불안, 두통, 위장관 불편감, 불면, 진전(tremor) 발생.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDquIjri6gg7Kad7ZuE6rWwIChBbGNvaG9sIFdpdGhkcmF3YWwgU3luZHJvbWUpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ",
+    "title": "알코올 사용 장애 (Alcohol Use Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "알코올 사용 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "물질 관련 및 중독성 장애",
+      "물질 사용 및 금단",
+      "알코올 사용 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 주요 증상: 갈망(craving), 내성(tolerance), 금단(withdrawal), 조절 실패.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsnKDrsJwg7KCV7Iug67OR7KCBIOyepeyVoCAoQWxjb2hvbC1JbmR1Y2VkIFBzeWNob3RpYyBEaXNvcmRlcikubWQ",
+    "title": "알코올 유발 정신병적 장애 (Alcohol-Induced Psychotic Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "알코올 유발 정신병적 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "물질 관련 및 중독성 장애",
+      "물질 사용 및 금단",
+      "알코올 유발 정신병적 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 특징: 의식 상태는 정상이며, 지남력도 유지됨.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsnKDrsJwg7KCV7Iug67OR7KCBIOyepeyVoCAoQWxjb2hvbC1JbmR1Y2VkIFBzeWNob3RpYyBEaXNvcmRlcikubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k",
+    "title": "양극성 장애 (Bipolar Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "양극성 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "기분 장애",
+      "우울 및 양극성 장애",
+      "양극성 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 특징: 증상이 만성적이고 재발률이 높으며, 사회적·직업적 기능 저하가 동반됨.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDrsI8g7Iqk7Yq466CI7IqkIOq0gOugqCDsnqXslaAgKFRyYXVtYS0gYW5kIFN0cmVzc29yLVJlbGF0ZWQgRGlzb3JkZXJzKS5tZA",
     "title": "외상 및 스트레스 관련 장애 (Trauma- and Stressor-Related Disorders)",
     "category": "15 정신건강의학과",
@@ -23880,16 +24807,65 @@
     ],
     "keywords": [
       "외상 및 스트레스 관련 장애",
+      "외상·해리 장애",
       "불안",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "외상성 또는 스트레스 유발 사건에 노출된 후 발생하는 심리적, 신체적 부적응 반응을 포함하는 질환군.",
+    "quickSummary": "• CC**: 침습적 기억(플래시백), 회피 행동, 부정적 인지 및 기분 변화, 과각성 상태.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDrsI8g7Iqk7Yq466CI7IqkIOq0gOugqCDsnqXslaAgKFRyYXVtYS0gYW5kIFN0cmVzc29yLVJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDtm4Qg7Iqk7Yq466CI7IqkIOyepeyVoCAoUFRTRCkubWQ",
+    "title": "외상 후 스트레스 장애 (PTSD)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "외상 후 스트레스 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "외상 및 스트레스 관련 장애",
+      "외상·해리 장애",
+      "외상 후 스트레스 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "외상적 사건에 노출된 후 발생하는 장애로, 침습적 기억, 회피, 인지 및 기분 변화, 과각성 증상이 1개월 이상 지속됨.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDtm4Qg7Iqk7Yq466CI7IqkIOyepeyVoCAoUFRTRCkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydmOyCrOyGjO2GtSDsnqXslaAgKENvbW11bmljYXRpb24gRGlzb3JkZXIpLm1k",
+    "title": "의사소통 장애 (Communication Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "의사소통 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "소아 청소년 정신 건강",
+      "신경발달·소아 정신질환",
+      "의사소통 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "의사소통 장애는 언어, 말소리, 사회적 의사소통의 발달 및 사용에 결함이 있는 상태를 의미함.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydmOyCrOyGjO2GtSDsnqXslaAgKENvbW11bmljYXRpb24gRGlzb3JkZXIpLm1k"
   },
   {
     "type": "disease",
@@ -23912,6 +24888,126 @@
     ],
     "quickSummary": "외부 자극에 대한 반응성 및 환경에 대한 인지 능력이 저하된 상태를 의미함.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydmOyLneydmCDsnqXslaAgKERpc29yZGVycyBvZiBDb25zY2lvdXNuZXNzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydtOyduOyEsSDsnqXslaDCt-u5hO2YhOyLpOqwkCDsnqXslaAgKERlcGVyc29uYWxpemF0aW9uwrdEZXJlYWxpemF0aW9uIERpc29yZGVyKS5tZA",
+    "title": "이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "이인성 장애/비현실감 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "외상 및 스트레스 관련 장애",
+      "외상·해리 장애",
+      "이인성 장애/비현실감 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "지속적이거나 반복적인 이인감(자신으로부터 분리된 느낌) 또는 비현실감(주변 환경이 비현실적으로 느껴짐)을 경험하는 장애.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydtOyduOyEsSDsnqXslaDCt-u5hO2YhOyLpOqwkCDsnqXslaAgKERlcGVyc29uYWxpemF0aW9uwrdEZXJlYWxpemF0aW9uIERpc29yZGVyKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yduOychOyEsSDsnqXslaAgKEZhY3RpdGlvdXMgRGlzb3JkZXIpLm1k",
+    "title": "인위성 장애 (Factitious Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "인위성 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "신체 증상 및 관련 장애",
+      "신체증상·관련 장애",
+      "인위성 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 병원 쇼핑(Peregrination): 여러 병원을 전전하며 불필요한 검사나 침습적 처치, 수술을 요구함.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yduOychOyEsSDsnqXslaAgKEZhY3RpdGlvdXMgRGlzb3JkZXIpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydvOqzvOyEsSDsoITssrQg6riw7Ja1IOyDgeyLpCAoVHJhbnNpZW50IEdsb2JhbCBBbW5lc2lhKS5tZA",
+    "title": "일과성 전체 기억 상실 (Transient Global Amnesia)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "일과성 전체 기억 상실",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "신경인지장애",
+      "신경인지장애",
+      "일과성 전체 기억 상실",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "갑작스러운 전향 기억 상실(anterograde amnesia)과 가변적인 후향 기억 상실(retrograde amnesia)이 나타나는 일시적인 신경학적 증후군.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydvOqzvOyEsSDsoITssrQg6riw7Ja1IOyDgeyLpCAoVHJhbnNpZW50IEdsb2JhbCBBbW5lc2lhKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydvOyjvOq4sCDrpqzrk6wg7IiY66m0IOqwgeyEsSDsnqXslaAgKENpcmNhZGlhbiBSaHl0aG0gU2xlZXAtV2FrZSBEaXNvcmRlcikubWQ",
+    "title": "일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "일주기 리듬 수면 각성 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "수면 관련 장애",
+      "수면-각성 장애",
+      "일주기 리듬 수면 각성 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "내인성 일주기 리듬과 외부 환경(사회적 요구, 명암 주기) 간의 불일치로 발생하는 수면-각성 장애.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydvOyjvOq4sCDrpqzrk6wg7IiY66m0IOqwgeyEsSDsnqXslaAgKENpcmNhZGlhbiBSaHl0aG0gU2xlZXAtV2FrZSBEaXNvcmRlcikubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yekOq3ueygnCAoU3RpbXVsYW50cykubWQ",
+    "title": "자극제 (Stimulants)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "자극제",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "물질 관련 및 중독성 장애",
+      "물질 사용 및 금단",
+      "자극제",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "중추신경계(CNS) 활동을 증가시키는 약물군(카페인, 암페타민, 코카인, 메틸페니데이트 등).",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yekOq3ueygnCAoU3RpbXVsYW50cykubWQ"
   },
   {
     "type": "disease",
@@ -23941,6 +25037,30 @@
   },
   {
     "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yekO2PkCDsiqTtjpntirjrn7wg7J6l7JWgIChBdXRpc20gU3BlY3RydW0gRGlzb3JkZXIpLm1k",
+    "title": "자폐 스펙트럼 장애 (Autism Spectrum Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "자폐 스펙트럼 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "소아 청소년 정신 건강",
+      "신경발달·소아 정신질환",
+      "자폐 스펙트럼 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "사회적 소통 및 상호작용의 지속적 결핍과 제한적이고 반복적인 행동, 흥미, 활동 패턴을 특징으로 하는 신경발달장애.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yekO2PkCDsiqTtjpntirjrn7wg7J6l7JWgIChBdXRpc20gU3BlY3RydW0gRGlzb3JkZXIpLm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggOyepeyepeyVoCAoSG9hcmRpbmcgRGlzb3JkZXIpLm1k",
     "title": "저장장애 (Hoarding Disorder)",
     "category": "15 정신건강의학과",
@@ -23949,7 +25069,9 @@
       "근력/감각이상"
     ],
     "keywords": [
+      "불안·강박 및 관련 장애",
       "강박 및 관련 장애",
+      "저장장애",
       "근력/감각이상",
       "개요",
       "임상 양상 (Clinical Features)",
@@ -23960,6 +25082,126 @@
     ],
     "quickSummary": "물건을 버리지 못하고 과도하게 수집하며, 이로 인해 생활 공간이 점유되어 일상생활에 심각한 지장을 초래하는 정신질환.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggOyepeyepeyVoCAoSG9hcmRpbmcgRGlzb3JkZXIpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggeuMgOyggSDrsJjtla0g7J6l7JWgIChPcHBvc2l0aW9uYWwgRGVmaWFudCBEaXNvcmRlcikubWQ",
+    "title": "적대적 반항 장애 (Oppositional Defiant Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "적대적 반항 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "소아 청소년 정신 건강",
+      "파괴적·충동조절 및 품행 장애",
+      "적대적 반항 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "아동 및 청소년기에 흔히 나타나는 파괴적 행동 장애로, 분노/과민성, 논쟁적/반항적 행동, 복수심이 6개월 이상 지속되는 패턴을 보임.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggeuMgOyggSDrsJjtla0g7J6l7JWgIChPcHBvc2l0aW9uYWwgRGVmaWFudCBEaXNvcmRlcikubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggeydkSDsnqXslaAgKEFkanVzdG1lbnQgRGlzb3JkZXIpLm1k",
+    "title": "적응 장애 (Adjustment Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "적응 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "외상 및 스트레스 관련 장애",
+      "외상·해리 장애",
+      "적응 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "확인 가능한 스트레스 요인에 대한 정서적 또는 행동적 반응으로, 스트레스 요인 발생 후 3개월 이내에 발생함.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggeydkSDsnqXslaAgKEFkanVzdG1lbnQgRGlzb3JkZXIpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghOuRkOy4oeuRkOyXvSDsuZjrp6QgKEZyb250b3RlbXBvcmFsIERlbWVudGlhKS5tZA",
+    "title": "전두측두엽 치매 (Frontotemporal Dementia)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "전두측두엽 치매",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "신경인지장애",
+      "신경인지장애",
+      "전두측두엽 치매",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "전두엽 및 전측두엽의 신경 퇴행으로 인해 성격 변화, 행동 장애, 언어 기능 저하가 나타나는 신경 퇴행성 질환.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghOuRkOy4oeuRkOyXvSDsuZjrp6QgKEZyb250b3RlbXBvcmFsIERlbWVudGlhKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghO2ZmCDsnqXslaAgKENvbnZlcnNpb24gRGlzb3JkZXIpLm1k",
+    "title": "전환 장애 (Conversion Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "전환 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "신체 증상 및 관련 장애",
+      "신체증상·관련 장애",
+      "전환 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 특징: 심리적 갈등과 증상 발생 간의 시간적 연관성이 관찰됨.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghO2ZmCDsnqXslaAgKENvbnZlcnNpb24gRGlzb3JkZXIpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ygleyDgSDslaDrj4Qg67CY7J2RIChCZXJlYXZlbWVudCkubWQ",
+    "title": "정상 애도 반응 (Bereavement)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "정상 애도 반응",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "기분 장애",
+      "우울 및 양극성 장애",
+      "정상 애도 반응",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• CC: 사별 후 애도",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ygleyDgSDslaDrj4Qg67CY7J2RIChCZXJlYXZlbWVudCkubWQ"
   },
   {
     "type": "disease",
@@ -24017,6 +25259,30 @@
   },
   {
     "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ",
+    "title": "조현병 (Schizophrenia)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "조현병",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "정신병적 장애",
+      "조현병 스펙트럼 장애",
+      "조현병",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "망상, 환각, 와해된 언어, 와해된 행동, 음성 증상 등이 특징인 만성 정신질환.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSDsiqTtjpntirjrn7wg7J6l7JWgIChTY2hpem9waHJlbmlhIFNwZWN0cnVtIGFuZCBPdGhlciBQc3ljaG90aWMgRGlzb3JkZXJzKS5tZA",
     "title": "조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders)",
     "category": "15 정신건강의학과",
@@ -24026,16 +25292,185 @@
     ],
     "keywords": [
       "정신병적 장애",
+      "조현병 스펙트럼 장애",
       "환청/망상",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "망상, 환각, 와해된 사고(언어), 와해된 행동, 음성 증상 중 하나 이상을 특징으로 하는 정신질환군을 의미함.",
+    "quickSummary": "• CC**: 환청, 피해망상, 관계망상, 사회적 고립, 의욕 저하, 부적절한 정동 등.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSDsiqTtjpntirjrn7wg7J6l7JWgIChTY2hpem9waHJlbmlhIFNwZWN0cnVtIGFuZCBPdGhlciBQc3ljaG90aWMgRGlzb3JkZXJzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOyWkeyDgeyepeyVoCAoU2NoaXpvcGhyZW5pZm9ybSBkaXNvcmRlcikubWQ",
+    "title": "조현양상장애 (Schizophreniform disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "조현양상장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "정신병적 장애",
+      "조현병 스펙트럼 장애",
+      "조현양상장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "조현병과 유사한 증상이 나타나지만, 지속 기간이 1개월 이상 6개월 미만인 정신질환.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOyWkeyDgeyepeyVoCAoU2NoaXpvcGhyZW5pZm9ybSBkaXNvcmRlcikubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOygleuPmeyepeyVoCAoU2NoaXpvYWZmZWN0aXZlIGRpc29yZGVyKS5tZA",
+    "title": "조현정동장애 (Schizoaffective disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "조현정동장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "정신병적 장애",
+      "조현병 스펙트럼 장애",
+      "조현정동장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "조현병의 증상과 주요 기분 삽화(조증 또는 우울증)가 동시에 나타나는 질환.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOygleuPmeyepeyVoCAoU2NoaXpvYWZmZWN0aXZlIGRpc29yZGVyKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA",
+    "title": "주요 우울 장애 (Major Depressive Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "주요 우울 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "기분 장애",
+      "우울 및 양극성 장애",
+      "주요 우울 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• DSM-5 기준: 우울한 기분 또는 흥미 상실을 포함하여 5개 이상의 증상이 2주 이상 지속되어야 함.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOydmOugpSDqsrDtlY0g6rO864ukIO2WieuPmSDsnqXslaAgKEFESEQpLm1k",
+    "title": "주의력 결핍 과다 행동 장애 (ADHD)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "주의력 결핍 과다 행동 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "소아 청소년 정신 건강",
+      "신경발달·소아 정신질환",
+      "주의력 결핍 과다 행동 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "주의력 결핍, 과다 활동성, 충동성을 주증상으로 하는 신경발달장애.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOydmOugpSDqsrDtlY0g6rO864ukIO2WieuPmSDsnqXslaAgKEFESEQpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yngOyggSDsnqXslaAgKEludGVsbGVjdHVhbCBEaXNhYmlsaXR5KS5tZA",
+    "title": "지적 장애 (Intellectual Disability)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "지적 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "소아 청소년 정신 건강",
+      "신경발달·소아 정신질환",
+      "지적 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "발달 기간 중 발생하는 신경발달 장애로, 지적 기능과 적응 기능(개념적, 사회적, 실용적 영역)의 제한이 특징임.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yngOyggSDsnqXslaAgKEludGVsbGVjdHVhbCBEaXNhYmlsaXR5KS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ynhOygleygnCwg7IiY66m07KCcIChTZWRhdGl2ZXMsIEh5cG5vdGljcykubWQ",
+    "title": "진정제, 수면제 (Sedatives, Hypnotics)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "진정제, 수면제",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "물질 관련 및 중독성 장애",
+      "물질 사용 및 금단",
+      "진정제, 수면제",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 중독: 졸림, 무기력, 의식 저하, 운동 실조(ataxia), 발음 어눌함 등 진정 작용이 주된 증상.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ynhOygleygnCwg7IiY66m07KCcIChTZWRhdGl2ZXMsIEh5cG5vdGljcykubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yniOuzkSDrtojslYgg7J6l7JWgIChJbGxuZXNzIEFueGlldHkgRGlzb3JkZXIpLm1k",
+    "title": "질병 불안 장애 (Illness Anxiety Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "질병 불안 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "신체 증상 및 관련 장애",
+      "신체증상·관련 장애",
+      "질병 불안 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "심각한 미진단 질환이 있다고 믿거나 발생할 것을 과도하게 걱정하는 정신질환 (구 명칭: 건강염려증).",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yniOuzkSDrtojslYgg7J6l7JWgIChJbGxuZXNzIEFueGlldHkgRGlzb3JkZXIpLm1k"
   },
   {
     "type": "disease",
@@ -24048,6 +25483,8 @@
     ],
     "keywords": [
       "신경인지장애",
+      "신경인지장애",
+      "치매",
       "기억력 저하",
       "개요",
       "임상 양상 (Clinical Features)",
@@ -24061,6 +25498,102 @@
   },
   {
     "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2KueyglSDqs7Xtj6zspp0gKFNwZWNpZmljIFBob2JpYSkubWQ",
+    "title": "특정 공포증 (Specific Phobia)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "특정 공포증",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "불안·강박 및 관련 장애",
+      "불안장애",
+      "특정 공포증",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 신체 증상: 심계항진, 호흡곤란, 어지럼증, 발한 등 자율신경계 항진 징후.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2KueyglSDqs7Xtj6zspp0gKFNwZWNpZmljIFBob2JpYSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2KueyglSDtlZnsirUg7J6l7JWgIChTcGVjaWZpYyBMZWFybmluZyBEaXNvcmRlcikubWQ",
+    "title": "특정 학습 장애 (Specific Learning Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "특정 학습 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "소아 청소년 정신 건강",
+      "신경발달·소아 정신질환",
+      "특정 학습 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "지능은 정상 범위이나 읽기, 쓰기, 수학 등 특정 학업 영역에서 지속적인 어려움을 겪는 신경발달장애.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2KueyglSDtlZnsirUg7J6l7JWgIChTcGVjaWZpYyBMZWFybmluZyBEaXNvcmRlcikubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2LsSDsnqXslaAgKFRpYyBEaXNvcmRlcikubWQ",
+    "title": "틱 장애 (Tic Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "틱 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "소아 청소년 정신 건강",
+      "신경발달·소아 정신질환",
+      "틱 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "불수의적이고 반복적이며 목적 없는 운동(운동 틱)이나 소리(음성 틱)가 나타나는 신경발달장애.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2LsSDsnqXslaAgKFRpYyBEaXNvcmRlcikubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2MjOq0tOyggSDquLDrtoQg7KGw7KCIIOu2gOyghCDsnqXslaAgKERpc3J1cHRpdmUgTW9vZCBEeXNyZWd1bGF0aW9uIERpc29yZGVyKS5tZA",
+    "title": "파괴적 기분 조절 부전 장애 (Disruptive Mood Dysregulation Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "파괴적 기분 조절 부전 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "소아 청소년 정신 건강",
+      "신경발달·소아 정신질환",
+      "파괴적 기분 조절 부전 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 핵심 증상: 상황에 비해 극도로 부적절한 분노 발작(언어적 또는 행동적), 발작 사이의 지속적인 과민성 또는 분노.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2MjOq0tOyggSDquLDrtoQg7KGw7KCIIOu2gOyghCDsnqXslaAgKERpc3J1cHRpdmUgTW9vZCBEeXNyZWd1bGF0aW9uIERpc29yZGVyKS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2MjOq0tOyggSDstqnrj5kg7KGw7KCIIOuwjyDtlonrj5kg7J6l7JWgIChEaXNydXB0aXZlLCBJbXB1bHNlLUNvbnRyb2wsIGFuZCBDb25kdWN0IERpc29yZGVycykubWQ",
     "title": "파괴적 충동 조절 및 행동 장애 (Disruptive, Impulse-Control, and Conduct Disorders)",
     "category": "15 정신건강의학과",
@@ -24070,15 +25603,16 @@
     ],
     "keywords": [
       "소아 청소년 정신 건강",
+      "파괴적·충동조절 및 품행 장애",
       "검진 이상",
       "개요",
-      "임상 양상 (Clinical Features)",
-      "검사 (Lab & Imaging)",
-      "진단 (Diagnosis)",
-      "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
     ],
-    "quickSummary": "충동, 유혹, 욕구를 억제하지 못해 자신이나 타인에게 해를 끼치는 행동을 반복하는 장애군. DSM-5에서는 '파괴적, 충동 조절 및 품행 장애'로 분류함.",
+    "quickSummary": "• CC**: 타인에 대한 공격성, 규칙 위반, 분노 폭발, 재산 파괴 등 외부로 표출되는 행동 문제.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2MjOq0tOyggSDstqnrj5kg7KGw7KCIIOuwjyDtlonrj5kg7J6l7JWgIChEaXNydXB0aXZlLCBJbXB1bHNlLUNvbnRyb2wsIGFuZCBDb25kdWN0IERpc29yZGVycykubWQ"
   },
   {
@@ -24093,6 +25627,8 @@
     ],
     "keywords": [
       "급식 및 섭식 장애",
+      "섭식 장애",
+      "폭식 장애",
       "기분변화",
       "개요",
       "임상 양상 (Clinical Features)",
@@ -24106,6 +25642,30 @@
   },
   {
     "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2SiO2WiSDsnqXslaAgKENvbmR1Y3QgRGlzb3JkZXIpLm1k",
+    "title": "품행 장애 (Conduct Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "품행 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "소아 청소년 정신 건강",
+      "파괴적·충동조절 및 품행 장애",
+      "품행 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "타인의 권리를 침해하고 사회적 규범을 반복적이고 지속적으로 위반하는 행동 양상을 특징으로 하는 파괴적 행동 장애.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2SiO2WiSDsnqXslaAgKENvbmR1Y3QgRGlzb3JkZXIpLm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2UvOu2gOucr-q4sOq4sOyepeyVoCAoRXhjb3JpYXRpb24gRGlzb3JkZXIpLm1k",
     "title": "피부뜯기기장애 (Excoriation Disorder)",
     "category": "15 정신건강의학과",
@@ -24116,7 +25676,9 @@
       "검진 이상"
     ],
     "keywords": [
+      "불안·강박 및 관련 장애",
       "강박 및 관련 장애",
+      "피부 뜯기기 장애",
       "검진 이상",
       "개요",
       "임상 양상 (Clinical Features)",
@@ -24127,6 +25689,30 @@
     ],
     "quickSummary": "피부를 반복적으로 뜯어내어 피부 손상을 유발하는 강박 및 관련 장애의 일종.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2UvOu2gOucr-q4sOq4sOyepeyVoCAoRXhjb3JpYXRpb24gRGlzb3JkZXIpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VmOyngCDrtojslYgg7Kad7ZuE6rWwIChSZXN0bGVzcyBMZWcgU3luZHJvbWUpLm1k",
+    "title": "하지 불안 증후군 (Restless Leg Syndrome)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "하지 불안 증후군",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "수면 관련 장애",
+      "수면-각성 장애",
+      "하지 불안 증후군",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• CC: 휴식 시 하지 불쾌감",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VmOyngCDrtojslYgg7Kad7ZuE6rWwIChSZXN0bGVzcyBMZWcgU3luZHJvbWUpLm1k"
   },
   {
     "type": "disease",
@@ -24199,6 +25785,126 @@
     ],
     "quickSummary": "조현병 및 기타 정신병적 장애 치료에 사용되는 약물군으로, 도파민 D2 수용체 차단 기전을 공유함.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VreygleyLoOuzkeygnCAoQW50aXBzeWNob3RpY3MpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VtOumrOyEsSDquLDslrUg7IOB7IukIChEaXNzb2NpYXRpdmUgQW1uZXNpYSkubWQ",
+    "title": "해리성 기억 상실 (Dissociative Amnesia)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "해리성 기억 상실",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "외상 및 스트레스 관련 장애",
+      "외상·해리 장애",
+      "해리성 기억 상실",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• CC: 자서전적 기억 상실",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VtOumrOyEsSDquLDslrUg7IOB7IukIChEaXNzb2NpYXRpdmUgQW1uZXNpYSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VtOumrOyEsSDrkZTso7wgKERpc3NvY2lhdGl2ZSBGdWd1ZSkubWQ",
+    "title": "해리성 둔주 (Dissociative Fugue)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "해리성 둔주",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "외상 및 스트레스 관련 장애",
+      "외상·해리 장애",
+      "해리성 둔주",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• CC: 예기치 않은 이동과 기억 공백",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VtOumrOyEsSDrkZTso7wgKERpc3NvY2lhdGl2ZSBGdWd1ZSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VtOumrOyEsSDso7zssrQg7J6l7JWgIChEaXNzb2NpYXRpdmUgSWRlbnRpdHkgRGlzb3JkZXIpLm1k",
+    "title": "해리성 주체 장애 (Dissociative Identity Disorder)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "해리성 주체 장애",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "외상 및 스트레스 관련 장애",
+      "외상·해리 장애",
+      "해리성 주체 장애",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• CC: 정체감의 불연속",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VtOumrOyEsSDso7zssrQg7J6l7JWgIChEaXNzb2NpYXRpdmUgSWRlbnRpdHkgRGlzb3JkZXIpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2YiOq0gOyEsSDsuZjrp6QgKFZhc2N1bGFyIERlbWVudGlhKS5tZA",
+    "title": "혈관성 치매 (Vascular Dementia)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "혈관성 치매",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "신경인지장애",
+      "신경인지장애",
+      "혈관성 치매",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• CC: 뇌혈관질환 관련 인지저하",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2YiOq0gOyEsSDsuZjrp6QgKFZhc2N1bGFyIERlbWVudGlhKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2cmOuwnOyEsSDrrLzsp4ggKFZvbGF0aWxlIHN1YnN0YW5jZXMpLm1k",
+    "title": "휘발성 물질 (Volatile substances)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "휘발성 물질",
+      "정신건강 증상"
+    ],
+    "keywords": [
+      "물질 관련 및 중독성 장애",
+      "물질 사용 및 금단",
+      "휘발성 물질",
+      "정신건강 증상",
+      "개요",
+      "임상 양상",
+      "검사",
+      "진단",
+      "치료",
+      "예후 및 합병증"
+    ],
+    "quickSummary": "• 노출 제품·방법·시간, 의식저하·흉통·실신·호흡곤란, 혼합 물질, 자살 의도와 환경적 안전을 즉시 확인한다. 갑작스러운 부정맥과 질식 위험을 염두에 둔다.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2cmOuwnOyEsSDrrLzsp4ggKFZvbGF0aWxlIHN1YnN0YW5jZXMpLm1k"
   },
   {
     "type": "disease",
@@ -29981,7 +31687,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "‘통증’, 동반증상과 factor로 감별, 복부 장기들 감별",
+    "quickSummary": "급성복통은 통증 위치보다 혈역학적 불안정과 복막자극징후를 먼저 보고, 이후 시간 경과와 동반 증상으로 원인을 좁힌다.",
     "href": "/cc/category/MDEg7IaM7ZmU6riw/6riJ7ISx67O17Ya1"
   },
   {
@@ -30006,7 +31712,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘통증’, 동반증상과 factor로 감별, 급성과 달리 거의 소화기 문제",
+    "quickSummary": "만성 상복부 증상은 식사·배변과의 관계 및 경고징후로 기능성 질환과 궤양·담췌질환 등 기질성 원인을 구분한다.",
     "href": "/cc/category/MDEg7IaM7ZmU6riw/7IaM7ZmU67aI65-J77yP66eM7ISxIOuzte2GtQ"
   },
   {
@@ -30032,7 +31738,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "'출혈’, 토혈 상황 확인, 음주 관련 체크",
+    "quickSummary": "토혈은 객혈·비인두 출혈과 구분하고 혈역학적 영향과 간질환·약물력을 통해 정맥류성 및 비정맥류성 출혈 위험을 가른다.",
     "href": "/cc/category/MDEg7IaM7ZmU6riw/7Yag7ZiI"
   },
   {
@@ -30058,7 +31764,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "'출혈’, 혈변 양상을 잘 문진",
+    "quickSummary": "혈변은 색과 양상만으로 하부 출혈로 단정하지 않고 혈역학적 영향과 급속 상부위장관 출혈 가능성을 함께 판단한다.",
     "href": "/cc/category/MDEg7IaM7ZmU6riw/7ZiI67OA"
   },
   {
@@ -30085,7 +31791,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "‘탈수’, 크게 신경계문제 or 위장관문제",
+    "quickSummary": "구토는 위장관 폐색과 중추신경계·대사성 원인을 놓치지 않으면서 탈수와 전해질 이상 정도를 함께 판단한다.",
     "href": "/cc/category/MDEg7IaM7ZmU6riw/6rWs7Yag"
   },
   {
@@ -30110,7 +31816,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "'배변’ 배변습관 확인, 소화기 관련 추가 문진",
+    "quickSummary": "변비는 급성 폐색 가능성과 만성 기능성 변비를 먼저 구분하고, 새로 발생한 배변 변화와 전신 경고징후에서는 이차성 원인을 찾는다.",
     "href": "/cc/category/MDEg7IaM7ZmU6riw/67OA67mE"
   },
   {
@@ -30135,7 +31841,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "‘탈수, 배변’, 소화기 관련 추가 문진, HB시 시간 매우 부족",
+    "quickSummary": "설사는 급성·지속성 경과와 수양성·염증성 양상을 구분하고 탈수, 혈변, 면역저하, 최근 항생제·여행 노출을 함께 본다.",
     "href": "/cc/category/MDEg7IaM7ZmU6riw/7ISk7IKs"
   },
   {
@@ -30162,7 +31868,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "‘탈수, 출혈’  주로 간담췌지만 시간이 부족하고 진단도 애매..",
+    "quickSummary": "황달은 비결합형과 결합형 빌리루빈 상승을 구분하고 간세포성·담즙정체성 양상과 급성 간기능부전 징후를 함께 본다.",
     "href": "/cc/category/MDEg7IaM7ZmU6riw/7Zmp64us"
   },
   {
@@ -30189,7 +31895,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "'통증’, 악화/완화 인자 중심으로, PTE, 맥박 잊지말것",
+    "quickSummary": "흉통은 ACS뿐 아니라 대동맥박리, 폐색전증, 기흉처럼 초기 양상이 겹치는 시간 민감 질환을 먼저 구분한다.",
     "href": "/cc/category/MDIg7Iic7ZmY6riw/6rCA7Iq07Ya17Kad"
   },
   {
@@ -30215,7 +31921,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "'CV+NR’ 경련 아닌지 확인, 전-중-후 중심으로 문진",
+    "quickSummary": "실신은 일시적 의식소실과 자발적 회복이 있었는지 확인하고 전·중·후 경과로 경련과 구분하며 운동 중 발생은 심인성을 우선한다.",
     "href": "/cc/category/MDIg7Iic7ZmY6riw/7Iuk7Iug"
   },
   {
@@ -30242,7 +31948,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "‘CV+ EM + NP’ PEx에서 맥박 잊지 말 것",
+    "quickSummary": "두근거림은 실제 맥박 변화와 일치하는지 확인하고 갑작스러운 시작·종료, 운동 연관성, 실신 동반 여부로 부정맥 가능성을 가른다.",
     "href": "/cc/category/MDIg7Iic7ZmY6riw/65GQ6re86rGw66a8"
   },
   {
@@ -30271,7 +31977,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "'FM’, 고혈압에 의한 영향평가도 해야함",
+    "quickSummary": "고혈압은 수치 자체보다 급성 표적장기 손상 여부와 이차성 원인의 단서를 구분하는 것이 핵심이다.",
     "href": "/cc/category/MDIg7Iic7ZmY6riw/6rOg7ZiI7JWV"
   },
   {
@@ -30296,7 +32002,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘FM’, 교육에 중점을 두고, 체중 증가와 비슷한 느낌이기도?",
+    "quickSummary": "이상지질혈증은 수치 하나보다 전체 심혈관 위험, LDL 상승 정도, 이차성 원인을 종합해 치료 강도를 결정한다.",
     "href": "/cc/category/MDIg7Iic7ZmY6riw/7J207IOB7KeA7KeI7ZiI7Kad"
   },
   {
@@ -30321,7 +32027,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘CM+ENT’, 기간에 따라서 나눠 생각 ‘GERD’",
+    "quickSummary": "기침은 지속기간과 유발 상황을 기준으로 감염, 기도질환, 상기도기침증후군, 역류, 약물 원인을 구분한다.",
     "href": "/cc/category/MDMg7Zi47Z2h6riw/6riw7Lmo"
   },
   {
@@ -30345,7 +32051,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘ENT’ 악화인자를 잘 문진",
+    "quickSummary": "콧물·코막힘은 기간과 유발요인, 가려움·재채기 동반 여부로 감염성, 알레르기성, 비알레르기성 비염을 구분한다.",
     "href": "/cc/category/MDMg7Zi47Z2h6riw/7L2n66y877yP7L2U66eJ7Z6Y"
   },
   {
@@ -30371,7 +32077,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "'출혈’, 토혈은 아닌지 확인",
+    "quickSummary": "객혈은 비출혈·구강출혈·토혈과 출처를 구분하고, 원인 감별보다 기도 위협과 출혈 중증도 판단이 우선이다.",
     "href": "/cc/category/MDMg7Zi47Z2h6riw/6rCd7ZiI"
   },
   {
@@ -30398,7 +32104,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "'CV+CM+EM+NP’, 힘들지는 않은지 한마디, PTE 잊지말것",
+    "quickSummary": "호흡곤란은 주관적 정도보다 산소화와 호흡노력으로 중증도를 판단하고 심장성, 폐성, 대사성, 기능성 원인을 나눈다.",
     "href": "/cc/category/MDMg7Zi47Z2h6riw/7Zi47Z2h6rOk656A"
   },
   {
@@ -30423,7 +32129,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "비뇨기 문제인지 조절 문제인지 잘 문진",
+    "quickSummary": "다뇨는 실제 소변량 증가와 빈뇨를 먼저 구분하고, 실제 다뇨라면 삼투성 이뇨와 수분 이뇨로 나누어 접근한다.",
     "href": "/cc/category/MDQg7Iug7J6lL-u5hOuHqOq4sA/64uk64eo"
   },
   {
@@ -30449,7 +32155,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "pre – renal – post 순으로 체크, 체액 감소일수도, 막힌거일수도",
+    "quickSummary": "핍뇨는 체액상태와 요로폐색 여부를 먼저 확인한 뒤 신전성, 신성, 신후성 원인으로 나누어 접근한다.",
     "href": "/cc/category/MDQg7Iug7J6lL-u5hOuHqOq4sA/7ZWN64eo"
   },
   {
@@ -30475,7 +32181,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "'출혈’, 가성 배제하고 감염도 확인",
+    "quickSummary": "혈뇨는 적혈구뇨를 색소뇨와 구분하고 단백뇨·원주 여부와 통증·배뇨증상으로 사구체성과 비사구체성 원인을 나눈다.",
     "href": "/cc/category/MDQg7Iug7J6lL-u5hOuHqOq4sA/7ZiI64eo"
   },
   {
@@ -30500,7 +32206,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "대부분 빈뇨",
+    "quickSummary": "빈뇨는 실제 다뇨와 구분하고 저장증상·배출증상을 함께 확인해 감염, 과민성 방광, 폐색, 대사성 원인을 나눈다.",
     "href": "/cc/category/MDQg7Iug7J6lL-u5hOuHqOq4sA/67Cw64eo7J207IOBICjruYjrh6gp"
   },
   {
@@ -30525,7 +32231,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "요실금 상황을 잘 문진해서 감별, 신경인성 체크",
+    "quickSummary": "요실금은 일시적 유발요인을 먼저 배제하고 복압성, 절박성, 범람성, 기능성 양상으로 나누어 접근한다.",
     "href": "/cc/category/MDQg7Iug7J6lL-u5hOuHqOq4sA/7JqU7Iuk6riI"
   },
   {
@@ -30550,7 +32256,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "‘전신’ ‘탈수’ 모든 계통 확인, PEx 적절히",
+    "quickSummary": "발열은 체온의 높이보다 환자의 전신 상태, 면역·연령 위험, 감염 초점과 장기기능 이상 여부가 우선순위를 결정한다.",
     "href": "/cc/category/MDUg7KCE7Iug7Kad7IOB/67Cc7Je0"
   },
   {
@@ -30576,7 +32282,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "'출혈’, ITP 진단을 위해 나머지를 배제하는 방향으로",
+    "quickSummary": "멍과 출혈은 점막·피부 중심인지 관절·근육의 깊은 출혈인지에 따라 혈소판·혈관 문제와 응고인자 문제를 구분한다.",
     "href": "/cc/category/MDUg7KCE7Iug7Kad7IOB/66mN"
   },
   {
@@ -30603,7 +32309,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "'전신’, 만성 피로증후군 진단기준 숙지, 생활습관 교정",
+    "quickSummary": "피로는 졸림·운동불내성과 구분하고 수면·기분·생활요인과 빈혈·내분비·감염·장기질환 가능성을 기간과 기능 저하에 맞춰 평가한다.",
     "href": "/cc/category/MDUg7KCE7Iug7Kad7IOB/7ZS866Gc"
   },
   {
@@ -30631,7 +32337,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘전신’, 정작 체중감소가 CC일때 암을 빼먹지 않게 주의",
+    "quickSummary": "체중감소는 의도성과 변화 속도를 확인하고 섭취 저하, 흡수장애, 대사 항진, 만성질환, 악성·정신과적 원인으로 나눈다.",
     "href": "/cc/category/MDUg7KCE7Iug7Kad7IOB/7LK07KSR6rCQ7IaM"
   },
   {
@@ -30655,7 +32361,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "부종 원인 체크하고 나머지 체크",
+    "quickSummary": "체중증가는 증가 속도와 부종 여부로 체액 증가와 체지방 증가를 구분하고 약물·내분비·심장·신장 원인을 확인한다.",
     "href": "/cc/category/MDUg7KCE7Iug7Kad7IOB/7LK07KSR7Kad6rCA"
   },
   {
@@ -30682,7 +32388,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "급성 노출 환자는 물질 확인보다 ABC 안정화와 toxidrome, 시간·용량·제형·공동 노출 확인을 우선한다.",
+    "quickSummary": "급성 노출은 물질 확인보다 안정화와 toxidrome 평가가 우선이며 시간·용량·제형·투여경로·공동 노출을 함께 확인한다.",
     "href": "/cc/category/MDUg7KCE7Iug7Kad7IOB/7KSR64-F77yP6rO865-J67O17Jqp"
   },
   {
@@ -30717,7 +32423,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "‘PEx’, 증상에 따른 신체진찰을 빠르게 진행해야 함",
+    "quickSummary": "관절 증상은 관절성과 관절주위 병변, 단일관절과 다발관절을 구분하며 급성 열성 단일관절에서는 감염을 우선 배제한다.",
     "href": "/cc/category/MDYg6re86rOo6rKpL-2UvOu2gA/6rSA7KCIIO2Gteymne-8j-u2k-q4sA"
   },
   {
@@ -30743,7 +32449,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "‘PEx’, 신경쪽인지 근육쪽인지감별",
+    "quickSummary": "목 통증은 기계적 통증과 신경근병증·척수병증을 구분하고 외상, 감염, 혈관성 원인을 시사하는 징후를 따로 찾는다.",
     "href": "/cc/category/MDYg6re86rOo6rKpL-2UvOu2gA/66qpIO2GteymnQ"
   },
   {
@@ -30769,7 +32475,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "‘PEx’, 신경 이상인지 근육 이상인지 감별",
+    "quickSummary": "허리 통증은 비특이적 통증과 신경근 증상을 구분하고 마미증후군, 감염, 골절, 악성질환을 시사하는 징후를 따로 찾는다.",
     "href": "/cc/category/MDYg6re86rOo6rKpL-2UvOu2gA/7ZeI66asIO2GteymnQ"
   },
   {
@@ -30795,7 +32501,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "‘DM’, 전신 증상 질환과 피부 국한 질환으로 나눠 생각, 약물도",
+    "quickSummary": "발진은 형태, 분포, 발생 속도, 점막·전신증상, 새 약물 노출을 함께 보아 피부 국한 질환과 전신성 질환을 구분한다.",
     "href": "/cc/category/MDYg6re86rOo6rKpL-2UvOu2gA/7ZS867aAIOuwnOynhA"
   },
   {
@@ -30822,7 +32528,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "손상 기전과 시간, 출혈·오염·이물, 신경혈관 손상과 동반 외상을 우선 확인한다.",
+    "quickSummary": "상처는 손상 기전과 시간, 출혈·오염·이물, 신경혈관 손상, 동반 외상을 기준으로 처치 우선순위를 정한다.",
     "href": "/cc/category/MDYg6re86rOo6rKpL-2UvOu2gA/7IOB7LKY77yP7Jm47IOB"
   },
   {
@@ -30846,7 +32552,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "'정신’, 상담에 가까워서 PPI 잘 챙길 것, MDD 기준 암기",
+    "quickSummary": "기분변화는 단극성 우울과 양극성 장애를 구분하고 자살 위험, 정신병적 증상, 물질·의학적 원인을 함께 확인한다.",
     "href": "/cc/category/MDcg7KCV7Iug/6riw67aE67OA7ZmU"
   },
   {
@@ -30876,7 +32582,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "＇정신’, 정신과 질환과 내과적 질환 문진, 맥박!",
+    "quickSummary": "불안은 공황발작과 지속성 불안을 구분하면서 약물·물질, 갑상샘·심폐 질환 같은 의학적 원인과 자살 위험을 함께 평가한다.",
     "href": "/cc/category/MDcg7KCV7Iug/67aI7JWI"
   },
   {
@@ -30900,7 +32606,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘환자교육’ 수면 양상 잘 물어보고 계통 한번 긁기",
+    "quickSummary": "수면장애는 수면 기회가 충분한지 확인한 뒤 불면, 수면호흡장애, 일주기장애, 과다수면과 물질·약물 영향을 구분한다.",
     "href": "/cc/category/MDcg7KCV7Iug/7IiY66m07J6l7JWg"
   },
   {
@@ -30925,7 +32631,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘정신’, MMSE+PE 까지 빠르게, ‘보호자에게 확인하겠다’ ‘ 학력‘",
+    "quickSummary": "기억력 저하는 급성 섬망, 우울에 의한 인지저하, 진행성 치매를 구분하며 기능 변화는 보호자 정보로 보완한다.",
     "href": "/cc/category/MDcg7KCV7Iug/6riw7Ja166ClIOyggO2VmA"
   },
   {
@@ -30952,7 +32658,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "PEx 시간 많이 걸림, 진단은 증상 지속시간을 우선으로",
+    "quickSummary": "어지럼증은 표현보다 증상의 지속시간과 유발 요인을 기준으로 급성 지속성, 반복 발작성, 체위 유발성 증후군으로 나눈다.",
     "href": "/cc/category/MDgg7Iug6rK9/7Ja07KeA65-87Kad"
   },
   {
@@ -30978,7 +32684,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "‘응급?’, 질환의 특징적 증상으로 감별",
+    "quickSummary": "두통은 갑작스러운 최고 강도, 새 신경학적 이상, 발열·면역저하, 임신·산후처럼 이차성 원인을 시사하는 맥락을 먼저 찾는다.",
     "href": "/cc/category/MDgg7Iug6rK9/65GQ7Ya1"
   },
   {
@@ -31003,7 +32709,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "실신 감별",
+    "quickSummary": "소아 경련은 발열 여부만으로 판단하지 않고 연령, 지속시간, 국소성, 회복 양상으로 단순 열성경련과 중추신경계 질환을 구분한다.",
     "href": "/cc/category/MDgg7Iug6rK9/6rK966CoICjshozslYQp"
   },
   {
@@ -31028,7 +32734,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "실신 감별",
+    "quickSummary": "성인 경련은 실신·심인성 비간질발작과 구분하고, 첫 발작에서는 급성 유발 원인과 재발 위험을 나누어 판단한다.",
     "href": "/cc/category/MDgg7Iug6rK9/6rK966CoICjshLHsnbgp"
   },
   {
@@ -31063,7 +32769,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "‘NEx’, 원인 구조별 종류를 생각하며 문진",
+    "quickSummary": "근력·감각이상은 중추신경, 말초신경, 신경근접합부, 근육 수준으로 병변을 국소화하며 갑작스러운 편측 증상은 중추성 원인을 우선한다.",
     "href": "/cc/category/MDgg7Iug6rK9/6re866Cl77yP6rCQ6rCB7J207IOB"
   },
   {
@@ -31098,7 +32804,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "'NEx’, 환자가 누워있고 보호자 문진할 수도 있음, 처치부터",
+    "quickSummary": "의식장애는 기도·호흡·순환과 혈당을 즉시 확인하고, 기존 상태와 비교해 독성·대사성 원인과 구조적 뇌병변을 구분한다.",
     "href": "/cc/category/MDgg7Iug6rK9/7J2Y7Iud7J6l7JWg"
   },
   {
@@ -31128,7 +32834,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "tremor 맞나 확인, 기본 PE도 해야 함, 2분 전까지 NEx 최대한",
+    "quickSummary": "떨림은 다른 불수의운동과 구분한 뒤 안정 시·자세성·활동성 양상과 약물·대사·신경학적 원인을 연결한다.",
     "href": "/cc/category/MDgg7Iug6rK9/65ao66a877yP7Jq064-Z7J207IOB"
   },
   {
@@ -31155,7 +32861,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘부인과’ 두 CC의 질환이 매우 겹치므로 함께 고려한다",
+    "quickSummary": "유방통은 주기성·양측성 통증과 국소적 비주기성 통증을 구분하고 종괴, 피부·유두 변화가 동반되면 별도로 평가한다.",
     "href": "/cc/category/MDkg7IKw67aA/7Jyg67Cp7Ya1"
   },
   {
@@ -31182,7 +32888,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘부인과’ 두 CC의 질환이 매우 겹치므로 함께 고려한다",
+    "quickSummary": "유방덩이는 연령과 임상 소견에 맞춰 진찰·영상·필요 시 조직검사를 연결하며, 통증 유무만으로 양성·악성을 판단하지 않는다.",
     "href": "/cc/category/MDkg7IKw67aA/7Jyg67Cp642p7J20"
   },
   {
@@ -31206,7 +32912,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘부인과’, 분비물 양상을 잘 문진",
+    "quickSummary": "질분비물은 생리적 변화와 질염·자궁경부염을 구분하고 골반통·발열이 동반되면 상부 생식기 감염 가능성을 평가한다.",
     "href": "/cc/category/MDkg7IKw67aA/7KeI67aE67mE66y8"
   },
   {
@@ -31232,7 +32938,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "‘부인과’, 거의근종?",
+    "quickSummary": "질출혈은 임신 가능성, 혈역학적 영향, 연령·폐경 상태를 먼저 확인하고 출혈량보다 원인과 전신 영향을 함께 판단한다.",
     "href": "/cc/category/MDkg7IKw67aA/7KeI7Lac7ZiI"
   },
   {
@@ -31258,7 +32964,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "'부인과’, 무월경 관련 기전 잘 생각하면서 질문..",
+    "quickSummary": "무월경은 임신을 먼저 배제한 뒤 초경 여부와 이차성징을 기준으로 시상하부·뇌하수체, 난소, 자궁·유출로 원인을 나눈다.",
     "href": "/cc/category/MDkg7IKw67aA/7JuU6rK97J207IOBICjrrLTsm5Tqsr0p"
   },
   {
@@ -31284,7 +32990,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "'부인과’, 보통 월경과다가 동반됨",
+    "quickSummary": "월경통과 과다월경은 통증과 출혈 문제를 분리해 평가하고, 새로 심해진 증상이나 주기 외 증상에서는 이차성 원인을 찾는다.",
     "href": "/cc/category/MDkg7IKw67aA/7JuU6rK97Ya1ICjsm5Tqsr3qs7zri6Qp"
   },
   {
@@ -31309,7 +33015,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘산과‘ 시간이 매우 부족하니 주의, 그냥 PE도 해야",
+    "quickSummary": "산전 진찰은 임신 주수, 산모·태아의 고위험요인, 현재 경고증상을 기준으로 필요한 검사와 추적 간격을 결정한다.",
     "href": "/cc/category/MDkg7IKw67aA/7IKw7KCEIOynhOywsA"
   },
   {
@@ -31336,7 +33042,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "급성 골반통은 임신 여부와 혈역학적 안정성을 먼저 확인하고 자궁외임신·난소염전·골반감염과 비산부인과 원인을 감별한다.",
+    "quickSummary": "골반통은 임신 가능성과 혈역학적 안정성을 확인한 뒤 산부인과 원인과 비뇨기·소화기 원인을 함께 구분한다.",
     "href": "/cc/category/MDkg7IKw67aA/6rOo67CY7Ya1"
   },
   {
@@ -31360,7 +33066,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘소아’, PEx 없음",
+    "quickSummary": "성장지연은 한 번의 수치보다 성장곡선의 변화가 중요하며 가족성·체질성 변이와 영양·전신·내분비 원인을 구분한다.",
     "href": "/cc/category/MTAg7IaM7JWE/7ISx7J6lIOyngOyXsA"
   },
   {
@@ -31385,7 +33091,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘소아’, PEx 없음",
+    "quickSummary": "발달지연은 단일 영역의 지연과 전반적 발달지연을 구분하며, 이미 획득한 기능의 퇴행은 별도로 다룬다.",
     "href": "/cc/category/MTAg7IaM7JWE/67Cc64usIOyngOyXsA"
   },
   {
@@ -31407,7 +33113,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘상담’, 예방접종표 있는지 확인, 예방접종을 공부",
+    "quickSummary": "예방접종은 연령·위험요인·과거 접종기록을 기준으로 필요한 백신을 정하고, 누락 접종은 처음부터 다시 시작하지 않고 보완한다.",
     "href": "/cc/category/MTAg7IaM7JWE/7JiI67Cp7KCR7KKF"
   },
   {
@@ -31430,7 +33136,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘상담’ 변형 문진을 잘 숙지, 지시문에 PE 시행 여부 확인",
+    "quickSummary": "음주 상담은 표준잔으로 섭취량을 정량화하고 사용장애·금단 위험과 변화 준비도를 확인해 감량 또는 금주 계획을 정한다.",
     "href": "/cc/category/MTEg7IOB64u0/7J2M7KO8IOyDgeuLtA"
   },
   {
@@ -31452,7 +33158,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘상담’, OLDCoEx 변형 문진을 잘 숙지, 칭찬과 지지 보낼 것",
+    "quickSummary": "흡연 상담은 니코틴 의존도, 금연 준비도, 과거 시도와 실패 요인을 확인해 행동지원과 약물치료를 함께 설계한다.",
     "href": "/cc/category/MTEg7IOB64u0/7Z2h7JewIOyDgeuLtA"
   },
   {
@@ -31476,7 +33182,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "‘상담’, 금연 금주와 유사",
+    "quickSummary": "물질 오남용은 사용량보다 사용 패턴, 조절 상실, 금단·내성, 기능 손상을 확인하고 변화 준비도에 맞춰 개입한다.",
     "href": "/cc/category/MTEg7IOB64u0/66y87KeIIOyYpOuCqOyaqQ"
   },
   {
@@ -31506,7 +33212,7 @@
       "검사",
       "치료"
     ],
-    "quickSummary": "'상담’, 준비하기도 애매한.. 모호한 문항.. 공감에 중점, SPIKES",
+    "quickSummary": "환자가 원하는 정보의 범위와 현재 이해도를 먼저 확인하고, 정보를 짧게 나눈 뒤 감정 반응과 다음 계획을 함께 다룬다.",
     "href": "/cc/category/MTEg7IOB64u0/64KY7IGcIOyGjOyLnSDsoITtlZjquLA"
   },
   {
@@ -31527,7 +33233,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "‘상담’, 환자 CC 충분히 문진, 결혼생활 충분히 문진",
+    "quickSummary": "환자와 단독으로 면담하며 즉각적인 안전 위험, 강압·통제 양상, 취약한 동거인의 위험을 함께 평가한다.",
     "href": "/cc/category/MTEg7IOB64u0/6rCA7KCV7Y-t66Cl"
   },
   {
@@ -31550,7 +33256,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "’상담‘",
+    "quickSummary": "성폭력 진료는 환자의 선택과 통제감을 보장하면서 안전, 시간 민감한 증거채취, 임신·감염 예방 필요를 함께 확인한다.",
     "href": "/cc/category/MTEg7IOB64u0/7ISx7Y-t66Cl"
   },
   {
@@ -31571,7 +33277,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "'상담’",
+    "quickSummary": "자살 위험은 생각의 유무보다 의도, 구체적 계획, 수단 접근성, 최근 행동, 보호요인을 종합해 즉각적인 안전 계획을 정한다.",
     "href": "/cc/category/MTEg7IOB64u0/7J6Q7IK0"
   },
   {
@@ -31599,7 +33305,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "시력저하는 안과적 응급이며 발병 속도, 단안·양안, 통증·외상과 신경학적 증상을 먼저 구분한다.",
+    "quickSummary": "시력저하는 발병 속도, 단안·양안, 통증·외상 동반 여부로 안과적 원인과 신경학적 원인을 구분한다.",
     "href": "/cc/category/MTIg64iIL-ydtOu5hOyduO2bhA/64iIIO2Gteymne-8j-yLnOugpeyggO2VmA"
   },
   {
@@ -31627,7 +33333,7 @@
       "치료",
       "ER"
     ],
-    "quickSummary": "인후통은 흔하지만 침을 삼키지 못함, stridor, 쉰목소리, 경부 부종과 독성 외관이 있으면 상기도 응급을 우선한다.",
+    "quickSummary": "인후통은 흔하지만 침을 삼키지 못함, stridor, 쉰목소리, 경부 부종, 독성 외관이 있으면 상기도 응급을 우선한다.",
     "href": "/cc/category/MTIg64iIL-ydtOu5hOyduO2bhA/7J247ZuE7Ya177yP7Jew7ZWY6rOk656A"
   },
   {

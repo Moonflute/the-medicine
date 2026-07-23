@@ -346,7 +346,7 @@ function PhysicalExamChecklist({ note }: { note: ChiefComplaintNote }) {
 const VIEWS: Array<{ key: ViewKey; label: string }> = [
   { key: "concept", label: "\uAC1C\uB150" },
   { key: "outpatient", label: "\uC678\uB798" },
-  { key: "inpatient", label: "\uC785\uC6D0" },
+  { key: "inpatient", label: "\uBCD1\uB3D9" },
   { key: "emergency", label: "ER" },
 ];
 
