@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ChangeEvent, useEffect, useMemo, useState } from "react";
 import { Bookmark, CircleAlert, Download, Play, RotateCcw, Upload } from "lucide-react";
+import { QbankActivityHeatmap } from "@/components/learning-activity-dashboard";
 import { exportQbankData, importQbankData, loadQbankState, QBANK_CHANGE_EVENT } from "@/lib/qbank-store";
 import type { QbankSpecialtySummary } from "@/lib/types";
 
@@ -61,6 +62,8 @@ export function QbankDashboardClient({ specialties }: { specialties: QbankSpecia
         <div className="surface border-teal-200 bg-teal-50 p-4"><div className="text-xs text-teal-700">숙달</div><div className="mt-1 text-2xl font-semibold text-teal-950">{stats.mastered.toLocaleString()}</div></div>
       </section>
 
+      <QbankActivityHeatmap compact />
+
       <section className="surface p-5 sm:p-6">
         <h2 className="text-xl font-semibold text-slate-950">새 문제 세션</h2>
         <div className="mt-5 grid gap-4 sm:grid-cols-2">
@@ -73,10 +76,7 @@ export function QbankDashboardClient({ specialties }: { specialties: QbankSpecia
           </label>
           <label className="text-sm font-medium text-slate-700">
             문제 수
-            <select value={count} onChange={(event) => setCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5">
-              {[5, 10, 20, 50].map((value) => <option key={value} value={value}>{value}문제</option>)}
-              <option value="all">전체</option>
-            </select>
+            <input type="number" min={1} max={total} inputMode="numeric" value={count === "all" ? total : count} onChange={(event) => setCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5" />
           </label>
         </div>
         <Link href={sessionHref} className="primary-action mt-5"><Play className="h-4 w-4" />문제 풀기 시작</Link>
