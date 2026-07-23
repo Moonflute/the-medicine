@@ -12,6 +12,7 @@ export type QbankActiveSession = {
   mode: string;
   specialty: string;
   disease: string;
+  chiefComplaint: string;
   count: string;
   questionIds: string[];
   currentIndex: number;
@@ -34,6 +35,7 @@ export function loadActiveQbankSession(): QbankActiveSession | null {
       mode: typeof value.mode === "string" ? value.mode : "all",
       specialty: typeof value.specialty === "string" ? value.specialty : "all",
       disease: typeof value.disease === "string" ? value.disease : "",
+      chiefComplaint: typeof value.chiefComplaint === "string" ? value.chiefComplaint : "",
       count: typeof value.count === "string" ? value.count : "10",
       questionIds: value.questionIds.filter((item): item is string => typeof item === "string"),
       currentIndex: typeof value.currentIndex === "number" ? Math.max(0, value.currentIndex) : 0,

@@ -1208,7 +1208,24 @@ function isImageDependentQbankQuestion(value) {
 function buildQbank() {
   const root = path.join(SOURCE_NOTES_ROOT, "99 Q-bank", "MedQA");
   if (!fs.existsSync(root)) return { index: [], specialties: [], questions: [] };
-  const diseaseCandidates = buildDiseases().flatMap((item) =>
+  const diseases = buildDiseases();
+  const chiefComplaintSlugsByTerm = new Map();
+  for (const chiefComplaint of buildChiefComplaints()) {
+    for (const term of [chiefComplaint.title, ...(chiefComplaint.aliases || [])]) {
+      const normalized = normalizeQbankDiseaseTerm(term);
+      if (!normalized) continue;
+      const slugs = chiefComplaintSlugsByTerm.get(normalized) || new Set();
+      slugs.add(chiefComplaint.slug);
+      chiefComplaintSlugsByTerm.set(normalized, slugs);
+    }
+  }
+  const chiefComplaintSlugsByDisease = new Map(diseases.map((disease) => [
+    disease.slug,
+    [...new Set(disease.chiefComplaints.flatMap((term) => (
+      [...(chiefComplaintSlugsByTerm.get(normalizeQbankDiseaseTerm(term)) || [])]
+    )))],
+  ]));
+  const diseaseCandidates = diseases.flatMap((item) =>
     [item.title, ...(item.aliases || [])]
       .map((term) => ({ term: normalizeQbankDiseaseTerm(term), slug: item.slug }))
       .filter((candidate) => candidate.term.length >= 3),
@@ -1256,6 +1273,7 @@ function buildQbank() {
       : "";
     const diseaseTerms = readList(frontmatter.related_diseases);
     const relatedDiseaseSlugs = [...new Set(diseaseTerms.map(resolveDiseaseTerm).filter(Boolean))];
+    const relatedChiefComplaintSlugs = [...new Set(relatedDiseaseSlugs.flatMap((slug) => chiefComplaintSlugsByDisease.get(slug) || []))];
     const specialtySlug = toSlug(specialty);
     questions.push({
       id,
@@ -1265,6 +1283,7 @@ function buildQbank() {
       specialtySlug,
       relatedDiseaseTerms: diseaseTerms,
       relatedDiseaseSlugs,
+      relatedChiefComplaintSlugs,
       questionType: readScalar(frontmatter.question_type) || "other",
       difficulty: readScalar(frontmatter.difficulty) || "standard",
       question: stripQbankFahrenheit(question),
@@ -1301,6 +1320,7 @@ function buildQbank() {
     specialty: item.specialty,
     specialtySlug: item.specialtySlug,
     relatedDiseaseSlugs: item.relatedDiseaseSlugs,
+    relatedChiefComplaintSlugs: item.relatedChiefComplaintSlugs,
     questionType: item.questionType,
     difficulty: item.difficulty,
     translationStatus: item.translationStatus,

@@ -5,7 +5,7 @@ import { ChiefComplaintDetailTabs } from "@/components/chief-complaint-detail-ta
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { ReviewSaveButton } from "@/components/review-save-button";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
-import { getChiefComplaintByCategoryAndSlug, getChiefComplaintCategories, getChiefComplaintsByCategory, getClinicalRelationsFor, getDiseaseLinks } from "@/lib/webdb";
+import { getChiefComplaintByCategoryAndSlug, getChiefComplaintCategories, getChiefComplaintsByCategory, getClinicalRelationsFor, getDiseaseLinks, getQbankCountForChiefComplaint } from "@/lib/webdb";
 
 export function generateStaticParams() {
   return getChiefComplaintCategories().flatMap((category) =>
@@ -23,6 +23,7 @@ export default async function ChiefComplaintDetailByCategoryPage(props: { params
 
   if (!note) notFound();
   const relations = getClinicalRelationsFor("cc", note.id);
+  const relatedQbankCount = getQbankCountForChiefComplaint(note.slug);
 
   return (
     <div className="space-y-6">
@@ -38,7 +39,18 @@ export default async function ChiefComplaintDetailByCategoryPage(props: { params
         <span className="font-medium text-slate-950">{note.title}</span>
       </div>
 
-      <div className="flex justify-end">
+      <div className="flex justify-end gap-2">
+        {relatedQbankCount > 0 ? (
+          <Link
+            href={`/review/qbank/session?mode=cc&cc=${encodeURIComponent(note.slug)}`}
+            className="inline-flex h-10 w-10 items-center justify-center border border-slate-300 bg-white text-sm font-bold text-slate-700 transition hover:border-teal-500 hover:text-teal-700"
+            style={{ borderRadius: 8 }}
+            aria-label="관련 문제 풀기"
+            title="관련 문제 풀기"
+          >
+            Q
+          </Link>
+        ) : null}
         <ReviewSaveButton item={{ type: "cc", id: note.id, title: note.title, href: `/cc/category/${params.category}/${note.slug}`, category: note.category || "Chief Complaint", summary: note.concept[0] || note.differentials[0] || "" }} />
       </div>
       <ChiefComplaintDetailTabs note={note} diseaseLinks={diseaseLinks} />
