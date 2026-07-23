@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { Activity, BookOpenCheck } from "lucide-react";
+import { DiseaseCoverageDashboard } from "@/components/disease-coverage-dashboard";
+import { QbankRangeActivityHeatmap } from "@/components/qbank-activity-heatmap";
 import { loadQbankState, QBANK_CHANGE_EVENT, type QbankDailyActivity } from "@/lib/qbank-store";
 import {
   loadReviewCoverage,
@@ -248,8 +250,8 @@ export function ContentCoverageHeatmap({ catalog }: { catalog: ReviewCatalogItem
 export function LearningActivityDashboard({ catalog }: { catalog: ReviewCatalogItem[] }) {
   return (
     <div className="space-y-5">
-      <QbankActivityHeatmap />
-      <ContentCoverageHeatmap catalog={catalog} />
+      <QbankRangeActivityHeatmap />
+      <DiseaseCoverageDashboard catalog={catalog} />
     </div>
   );
 }
