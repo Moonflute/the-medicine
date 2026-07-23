@@ -20,19 +20,49 @@ export type QbankSessionResult = {
   total: number;
 };
 
+export type QbankDailyActivity = {
+  attempts: number;
+  correct: number;
+};
+
 export type QbankState = {
   version: 1;
   progress: Record<string, QbankProgress>;
   wrongIds: string[];
   bookmarkIds: string[];
   sessions: QbankSessionResult[];
+  dailyActivity: Record<string, QbankDailyActivity>;
 };
 
 const STORAGE_KEY = "medicine-web-qbank-v1";
 const CHANGE_EVENT = "medicine-web-qbank-change";
 
+function localDateKey(date = new Date()) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
 function emptyState(): QbankState {
-  return { version: 1, progress: {}, wrongIds: [], bookmarkIds: [], sessions: [] };
+  return { version: 1, progress: {}, wrongIds: [], bookmarkIds: [], sessions: [], dailyActivity: {} };
+}
+
+function loadDailyActivity(value: unknown, sessions: QbankSessionResult[]): Record<string, QbankDailyActivity> {
+  const existing = value && typeof value === "object" ? value as Record<string, QbankDailyActivity> : {};
+  if (Object.keys(existing).length > 0) return existing;
+
+  const derived: Record<string, QbankDailyActivity> = {};
+  for (const session of sessions) {
+    if (!session?.completedAt) continue;
+    const key = localDateKey(new Date(session.completedAt));
+    const daily = derived[key] ?? { attempts: 0, correct: 0 };
+    derived[key] = {
+      attempts: daily.attempts + Math.max(0, Number(session.total) || 0),
+      correct: daily.correct + Math.max(0, Number(session.correct) || 0),
+    };
+  }
+  return derived;
 }
 
 export function loadQbankState(): QbankState {
@@ -40,12 +70,14 @@ export function loadQbankState(): QbankState {
   try {
     const value = JSON.parse(window.localStorage.getItem(STORAGE_KEY) ?? "null") as Partial<QbankState> | null;
     if (!value || value.version !== 1) return emptyState();
+    const sessions = Array.isArray(value.sessions) ? value.sessions.slice(0, 100) : [];
     return {
       version: 1,
       progress: value.progress && typeof value.progress === "object" ? value.progress : {},
       wrongIds: Array.isArray(value.wrongIds) ? value.wrongIds.filter((item): item is string => typeof item === "string") : [],
       bookmarkIds: Array.isArray(value.bookmarkIds) ? value.bookmarkIds.filter((item): item is string => typeof item === "string") : [],
-      sessions: Array.isArray(value.sessions) ? value.sessions.slice(0, 100) : [],
+      sessions,
+      dailyActivity: loadDailyActivity(value.dailyActivity, sessions),
     };
   } catch {
     return emptyState();
@@ -79,6 +111,12 @@ export function recordQbankAttempt(questionId: string, answer: QbankAnswer, corr
   state.wrongIds = correct
     ? state.wrongIds
     : [...new Set([...state.wrongIds, questionId])];
+  const dateKey = localDateKey();
+  const daily = state.dailyActivity[dateKey] ?? { attempts: 0, correct: 0 };
+  state.dailyActivity[dateKey] = {
+    attempts: daily.attempts + 1,
+    correct: daily.correct + (correct ? 1 : 0),
+  };
   saveQbankState(state);
   return next;
 }
@@ -119,6 +157,7 @@ export function importQbankData(value: unknown) {
     wrongIds: Array.isArray(candidate.wrongIds) ? candidate.wrongIds.filter((item): item is string => typeof item === "string") : [],
     bookmarkIds: Array.isArray(candidate.bookmarkIds) ? candidate.bookmarkIds.filter((item): item is string => typeof item === "string") : [],
     sessions: Array.isArray(candidate.sessions) ? candidate.sessions.slice(0, 100) : [],
+    dailyActivity: loadDailyActivity(candidate.dailyActivity, Array.isArray(candidate.sessions) ? candidate.sessions.slice(0, 100) : []),
   };
   saveQbankState(state);
 }
