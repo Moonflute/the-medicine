@@ -6,7 +6,9 @@ aliases:
 - disease
 계통: 정신건강의학과
 분류:
+- 불안·강박 및 관련 장애
 - 강박 및 관련 장애
+- 신체이형장애
 CC:
 - 외모 집착
 preprocessing_required: x

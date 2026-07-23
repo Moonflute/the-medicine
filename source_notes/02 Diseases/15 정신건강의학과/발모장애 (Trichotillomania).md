@@ -6,7 +6,9 @@ aliases:
 - disease
 계통: 정신건강의학과
 분류:
+- 불안·강박 및 관련 장애
 - 강박 및 관련 장애
+- 발모장애
 CC:
 - 탈모
 preprocessing_required: x

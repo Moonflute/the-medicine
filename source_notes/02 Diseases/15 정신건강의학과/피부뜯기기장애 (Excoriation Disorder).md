@@ -7,7 +7,9 @@ aliases:
 - disease
 계통: 정신건강의학과
 분류:
+- 불안·강박 및 관련 장애
 - 강박 및 관련 장애
+- 피부 뜯기기 장애
 CC:
 - 검진 이상
 preprocessing_required: x

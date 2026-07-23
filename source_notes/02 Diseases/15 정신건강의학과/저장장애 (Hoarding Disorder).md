@@ -5,7 +5,9 @@ aliases:
 - disease
 계통: 정신건강의학과
 분류:
+- 불안·강박 및 관련 장애
 - 강박 및 관련 장애
+- 저장장애
 CC:
 - 근력/감각이상
 preprocessing_required: x

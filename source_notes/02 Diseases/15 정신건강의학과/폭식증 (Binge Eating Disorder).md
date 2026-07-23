@@ -7,6 +7,8 @@ aliases:
 계통: 정신건강의학과
 분류:
 - 급식 및 섭식 장애
+- 섭식 장애
+- 폭식 장애
 CC:
 - 기분변화
 preprocessing_required: x

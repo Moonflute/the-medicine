@@ -6,6 +6,8 @@ aliases:
 계통: 정신건강의학과
 분류:
 - 신경인지장애
+- 신경인지장애
+- 치매
 CC:
 - 기억력 저하
 preprocessing_required: x
