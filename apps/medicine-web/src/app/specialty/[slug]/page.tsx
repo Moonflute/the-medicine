@@ -77,7 +77,11 @@ function cleanClassification(note: DiseaseNote, specialtyLabel: string) {
 }
 
 function isOverviewNoteForLabel(note: DiseaseNote, label: string) {
-  return note.title.trim() === label.trim();
+  const normalize = (value: string) => value
+    .replace(/\s*\([^)]*\)\s*$/, "")
+    .trim();
+
+  return normalize(note.title) === normalize(label);
 }
 
 function buildGroups(notes: DiseaseNote[], specialtyLabel: string, tocOrder: TocOrder): FirstLevelGroup[] {
@@ -104,10 +108,6 @@ function buildGroups(notes: DiseaseNote[], specialtyLabel: string, tocOrder: Toc
       const secondLevelMap = new Map<string, DiseaseNote[]>();
 
       for (const note of items) {
-        if (overviewNote && note.slug === overviewNote.slug) {
-          continue;
-        }
-
         const classification = cleanClassification(note, specialtyLabel);
         const secondary = classification[1] || "";
         const bucket = secondLevelMap.get(secondary) ?? [];
@@ -122,6 +122,7 @@ function buildGroups(notes: DiseaseNote[], specialtyLabel: string, tocOrder: Toc
           return compareWithOrder(`${title}\u0000${a || title}`, `${title}\u0000${b || title}`, tocOrder.second, a || title, b || title);
         })
         .map(([secondaryTitle, secondLevelItems]) => {
+          const sectionOverviewNote = secondLevelItems.find((note) => isOverviewNoteForLabel(note, secondaryTitle || title));
           const parentNotes: DiseaseNote[] = [];
           const thirdLevelMap = new Map<string, DiseaseNote[]>();
 
@@ -156,7 +157,13 @@ function buildGroups(notes: DiseaseNote[], specialtyLabel: string, tocOrder: Toc
 
           return {
             title: secondaryTitle || title,
-            notes: parentNotes.slice().sort((a, b) => sortLabels(a.title, b.title)),
+            notes: parentNotes.slice().sort((a, b) => {
+              const aIsOverview = overviewNote?.slug === a.slug || sectionOverviewNote?.slug === a.slug;
+              const bIsOverview = overviewNote?.slug === b.slug || sectionOverviewNote?.slug === b.slug;
+              if (aIsOverview && !bIsOverview) return -1;
+              if (!aIsOverview && bIsOverview) return 1;
+              return sortLabels(a.title, b.title);
+            }),
             thirdLevel,
           };
         });

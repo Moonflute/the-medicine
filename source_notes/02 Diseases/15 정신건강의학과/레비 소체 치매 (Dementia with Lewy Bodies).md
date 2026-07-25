@@ -6,8 +6,7 @@ aliases:
 계통: 정신건강의학과
 분류:
 - 신경인지장애
-- 신경인지장애
-- 레비 소체 치매
+- 치매
 CC:
 - 정신건강 증상
 clinical_priority: tier_3

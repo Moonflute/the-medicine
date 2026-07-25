@@ -4,6 +4,7 @@ aliases: []
 - disease
 계통: 내분비
 분류:
+- 당
 - 당뇨병
 CC:
 - 다뇨
