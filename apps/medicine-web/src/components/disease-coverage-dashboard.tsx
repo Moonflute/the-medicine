@@ -8,31 +8,32 @@ import { loadReviewCoverage, REVIEW_CHANGE_EVENT, type ReviewCatalogItem, type R
 type CoverageView = "grid" | "anatomy";
 type Point = { x: number; y: number };
 type Visual = { kind: string; color: string; soft: string };
-const SIZE = 24;
+const MIN_GRID_SIZE = 5;
+const MAX_GRID_SIZE = 32;
 
 const VISUALS: Record<string, Visual> = {
-  "01 ???": { kind: "heart", color: "#dc3545", soft: "#ffe4e6" },
-  "02 ???": { kind: "lungs", color: "#ef476f", soft: "#ffe4e6" },
-  "03 ???": { kind: "digestive", color: "#f97316", soft: "#ffedd5" },
-  "04 ???": { kind: "butterfly", color: "#d946ef", soft: "#fae8ff" },
-  "05 ??": { kind: "kidneys", color: "#b45309", soft: "#fef3c7" },
-  "06 ????": { kind: "shield", color: "#14b8a6", soft: "#ccfbf1" },
-  "07 ????": { kind: "bone", color: "#7c3aed", soft: "#ede9fe" },
-  "08 ??": { kind: "cell", color: "#16a34a", soft: "#dcfce7" },
-  "09 ??": { kind: "drop", color: "#be123c", soft: "#ffe4e6" },
-  "10 ??": { kind: "cell", color: "#9333ea", soft: "#f3e8ff" },
-  "11 ??": { kind: "scalpel", color: "#475569", soft: "#e2e8f0" },
-  "12 ??": { kind: "fetus", color: "#ec4899", soft: "#fce7f3" },
-  "13 ???": { kind: "uterus", color: "#db2777", soft: "#fce7f3" },
-  "14 ??????": { kind: "child", color: "#0ea5e9", soft: "#e0f2fe" },
-  "15 ???????": { kind: "mind", color: "#8b5cf6", soft: "#ede9fe" },
-  "16 ???-????": { kind: "brain", color: "#6366f1", soft: "#e0e7ff" },
-  "17 ?????": { kind: "ear", color: "#f59e0b", soft: "#fef3c7" },
-  "18 ??": { kind: "eye", color: "#0284c7", soft: "#e0f2fe" },
-  "19 ???": { kind: "skin", color: "#ea580c", soft: "#ffedd5" },
-  "20 ????": { kind: "bladder", color: "#0891b2", soft: "#cffafe" },
-  "21 ????": { kind: "cross", color: "#e11d48", soft: "#ffe4e6" },
-  "22 ????": { kind: "bone", color: "#64748b", soft: "#f1f5f9" },
+  "01 \uc21c\ud658\uae30": { kind: "heart", color: "#dc3545", soft: "#ffe4e6" },
+  "02 \ud638\ud761\uae30": { kind: "lungs", color: "#ef476f", soft: "#ffe4e6" },
+  "03 \uc18c\ud654\uae30": { kind: "digestive", color: "#f97316", soft: "#ffedd5" },
+  "04 \ub0b4\ubd84\ube44": { kind: "butterfly", color: "#d946ef", soft: "#fae8ff" },
+  "05 \uc2e0\uc7a5": { kind: "kidneys", color: "#b45309", soft: "#fef3c7" },
+  "06 \uc54c\ub808\ub974\uae30": { kind: "shield", color: "#14b8a6", soft: "#ccfbf1" },
+  "07 \ub958\ub9c8\ud2f0\uc2a4": { kind: "bone", color: "#7c3aed", soft: "#ede9fe" },
+  "08 \uac10\uc5fc": { kind: "cell", color: "#16a34a", soft: "#dcfce7" },
+  "09 \ud608\uc561": { kind: "drop", color: "#be123c", soft: "#ffe4e6" },
+  "10 \uc885\uc591": { kind: "cell", color: "#9333ea", soft: "#f3e8ff" },
+  "11 \uc678\uacfc": { kind: "scalpel", color: "#475569", soft: "#e2e8f0" },
+  "12 \uc0b0\uacfc": { kind: "fetus", color: "#ec4899", soft: "#fce7f3" },
+  "13 \ubd80\uc778\uacfc": { kind: "uterus", color: "#db2777", soft: "#fce7f3" },
+  "14 \uc18c\uc544\uccad\uc18c\ub144\uacfc": { kind: "child", color: "#0ea5e9", soft: "#e0f2fe" },
+  "15 \uc815\uc2e0\uac74\uac15\uc758\ud559\uacfc": { kind: "mind", color: "#8b5cf6", soft: "#ede9fe" },
+  "16 \uc2e0\uacbd\uacfc-\uc2e0\uacbd\uc678\uacfc": { kind: "brain", color: "#6366f1", soft: "#e0e7ff" },
+  "17 \uc774\ube44\uc778\ud6c4\uacfc": { kind: "ear", color: "#f59e0b", soft: "#fef3c7" },
+  "18 \uc548\uacfc": { kind: "eye", color: "#0284c7", soft: "#e0f2fe" },
+  "19 \ud53c\ubd80\uacfc": { kind: "skin", color: "#ea580c", soft: "#ffedd5" },
+  "20 \ube44\ub1e8\uae30\uacfc": { kind: "bladder", color: "#0891b2", soft: "#cffafe" },
+  "21 \uc751\uae09\uc758\ud559": { kind: "cross", color: "#e11d48", soft: "#ffe4e6" },
+  "22 \uc815\ud615\uc678\uacfc": { kind: "bone", color: "#64748b", soft: "#f1f5f9" },
 };
 
 function hash(value: string) {
@@ -56,9 +57,10 @@ function segment(x: number, y: number, ax: number, ay: number, bx: number, by: n
   return Math.hypot(x - ax - t * dx, y - ay - t * dy) < width;
 }
 
-function inShape(kind: string, x: number, y: number) {
-  const nx = (x - 11.5) / 11.5;
-  const ny = (y - 11.5) / 11.5;
+function inShape(kind: string, x: number, y: number, size: number) {
+  const center = (size - 1) / 2;
+  const nx = (x - center) / center;
+  const ny = (y - center) / center;
   const r = Math.hypot(nx, ny);
   const a = Math.atan2(ny, nx);
   if (kind === "heart") {
@@ -88,17 +90,59 @@ function inShape(kind: string, x: number, y: number) {
   return r < 0.75;
 }
 
-function pointsFor(kind: string, count: number) {
-  const candidates: Point[] = [];
-  for (let y = 0; y < SIZE; y += 1) for (let x = 0; x < SIZE; x += 1) if (inShape(kind, x, y)) candidates.push({ x, y });
-  const pool = candidates.length >= count ? candidates : Array.from({ length: SIZE * SIZE }, (_, index) => ({ x: index % SIZE, y: Math.floor(index / SIZE) }));
-  return pool.map((point) => ({ point, rank: hash(`${kind}:${point.x}:${point.y}`) })).sort((left, right) => left.rank - right.rank).slice(0, count).map(({ point }) => point).sort((left, right) => left.y - right.y || left.x - right.x);
+function shapePoints(kind: string, size: number) {
+  const points: Point[] = [];
+  for (let y = 0; y < size; y += 1) {
+    for (let x = 0; x < size; x += 1) {
+      if (inShape(kind, x, y, size)) points.push({ x, y });
+    }
+  }
+  return points;
+}
+
+function trimToCount(kind: string, source: Point[], count: number) {
+  const points = [...source];
+  let iteration = 0;
+  while (points.length > count) {
+    const occupied = new Set(points.map((point) => `${point.x}:${point.y}`));
+    const boundary = points.filter((point) =>
+      !occupied.has(`${point.x - 1}:${point.y}`)
+      || !occupied.has(`${point.x + 1}:${point.y}`)
+      || !occupied.has(`${point.x}:${point.y - 1}`)
+      || !occupied.has(`${point.x}:${point.y + 1}`),
+    );
+    const removable = boundary.length > 0 ? boundary : points;
+    removable.sort((left, right) => hash(`${kind}:${right.x}:${right.y}:${iteration}`) - hash(`${kind}:${left.x}:${left.y}:${iteration}`));
+    const selected = removable[0];
+    const index = points.findIndex((point) => point.x === selected.x && point.y === selected.y);
+    points.splice(index, 1);
+    iteration += 1;
+  }
+  return points.sort((left, right) => left.y - right.y || left.x - right.x);
+}
+
+function artFor(kind: string, count: number) {
+  let size = MIN_GRID_SIZE;
+  let points = shapePoints(kind, size);
+  while (points.length < count && size < MAX_GRID_SIZE) {
+    size += 1;
+    points = shapePoints(kind, size);
+  }
+  if (points.length < count) {
+    const occupied = new Set(points.map((point) => `${point.x}:${point.y}`));
+    const extras = Array.from({ length: size * size }, (_, index) => ({ x: index % size, y: Math.floor(index / size) }))
+      .filter((point) => !occupied.has(`${point.x}:${point.y}`))
+      .sort((left, right) => hash(`${kind}:${left.x}:${left.y}`) - hash(`${kind}:${right.x}:${right.y}`));
+    points = [...points, ...extras.slice(0, count - points.length)];
+  }
+  const pixelSize = Math.max(6, Math.min(11, Math.floor(168 / size)));
+  return { points: trimToCount(kind, points, count), size, pixelSize };
 }
 
 function detail(stat?: ReviewCoverageItem) {
-  if (!stat) return "?? ?? ??";
+  if (!stat) return "\uc544\uc9c1 \ubcf4\uc9c0 \uc54a\uc74c";
   const date = new Intl.DateTimeFormat("ko-KR", { year: "numeric", month: "short", day: "numeric" }).format(new Date(stat.lastViewedAt));
-  return `${date} ? ${stat.viewCount}? ??`;
+  return `${date} · ${stat.viewCount}\uc77c \uc5f4\ub78c`;
 }
 
 function groupBySpecialty(items: ReviewCatalogItem[]) {
@@ -108,7 +152,7 @@ function groupBySpecialty(items: ReviewCatalogItem[]) {
 }
 
 function Pixel({ item, stat, color, size = 13 }: { item: ReviewCatalogItem; stat?: ReviewCoverageItem; color: string; size?: number }) {
-  return <Link href={item.href} className="block border border-white/70 transition hover:z-10 hover:scale-150 hover:border-slate-900 focus:z-10 focus:scale-150 focus:outline-none focus:ring-2 focus:ring-teal-500" style={{ width: size, height: size, backgroundColor: stat ? color : "#cbd5e1", borderRadius: 2 }} title={`${item.title} ? ${detail(stat)}`} aria-label={`${item.title}, ${detail(stat)}`} />;
+  return <Link href={item.href} className="block border border-white/70 transition hover:z-10 hover:scale-150 hover:border-slate-900 focus:z-10 focus:scale-150 focus:outline-none focus:ring-2 focus:ring-teal-500" style={{ width: size, height: size, backgroundColor: stat ? color : "#cbd5e1", borderRadius: 2 }} title={`${item.title} · ${detail(stat)}`} aria-label={`${item.title}, ${detail(stat)}`} />;
 }
 
 function GridView({ groups, coverage }: { groups: ReturnType<typeof groupBySpecialty>; coverage: Record<string, ReviewCoverageItem> }) {
@@ -123,9 +167,9 @@ function GridView({ groups, coverage }: { groups: ReturnType<typeof groupBySpeci
 function AnatomyView({ groups, coverage }: { groups: ReturnType<typeof groupBySpecialty>; coverage: Record<string, ReviewCoverageItem> }) {
   return <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">{groups.map((group) => {
     const visual = VISUALS[group.name] ?? { kind: "circle", color: "#0f766e", soft: "#ccfbf1" };
-    const points = pointsFor(visual.kind, group.items.length);
+    const art = artFor(visual.kind, group.items.length);
     const viewed = group.items.filter((item) => coverage[`disease|${item.id}`]).length;
-    return <article key={group.name} className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm"><header className="flex items-start justify-between gap-3"><div><h3 className="text-sm font-semibold text-slate-900">{group.name}</h3><p className="mt-1 text-xs text-slate-500">?? ??? ?? ??? ????.</p></div><span className="rounded-full px-2.5 py-1 text-xs font-semibold" style={{ color: visual.color, backgroundColor: visual.soft }}>{viewed} / {group.items.length}</span></header><div className="mt-4 flex min-h-48 items-center justify-center rounded-lg border border-slate-100 bg-slate-50/80 p-3"><div className="relative" style={{ width: SIZE * 7, height: SIZE * 7 }}>{group.items.map((item, index) => { const point = points[index]; return <div key={item.id} className="absolute" style={{ left: point.x * 7, top: point.y * 7 }}><Pixel item={item} stat={coverage[`disease|${item.id}`]} color={visual.color} size={7} /></div>; })}</div></div></article>;
+    return <article key={group.name} className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm"><header className="flex items-start justify-between gap-3"><div><h3 className="text-sm font-semibold text-slate-900">{group.name}</h3><p className="mt-1 text-xs text-slate-500">{"\uc9c8\ubcd1 \ud558\ub098\uac00 \ud53d\uc140 \ud558\ub098\ub97c \ucc44\uc6c1\ub2c8\ub2e4."}</p></div><span className="rounded-full px-2.5 py-1 text-xs font-semibold" style={{ color: visual.color, backgroundColor: visual.soft }}>{viewed} / {group.items.length}</span></header><div className="mt-4 flex min-h-48 items-center justify-center rounded-lg border border-slate-100 bg-slate-50/80 p-3"><div className="relative" style={{ width: art.size * art.pixelSize, height: art.size * art.pixelSize }}>{group.items.map((item, index) => { const point = art.points[index]; return <div key={item.id} className="absolute" style={{ left: point.x * art.pixelSize, top: point.y * art.pixelSize }}><Pixel item={item} stat={coverage[`disease|${item.id}`]} color={visual.color} size={art.pixelSize} /></div>; })}</div></div></article>;
   })}</div>;
 }
 
@@ -143,5 +187,5 @@ export function DiseaseCoverageDashboard({ catalog }: { catalog: ReviewCatalogIt
   const viewed = diseases.filter((item) => coverage[`disease|${item.id}`]).length;
   const percentage = diseases.length > 0 ? Math.round((viewed / diseases.length) * 100) : 0;
   const completed = groups.filter((group) => group.items.every((item) => coverage[`disease|${item.id}`])).length;
-  return <section className="surface p-5 sm:p-6"><div className="flex flex-wrap items-start justify-between gap-4"><div><div className="flex items-center gap-2 text-sm font-semibold text-teal-800"><HeartPulse className="h-5 w-5" />?? ?? ??</div><h2 className="mt-2 text-xl font-semibold text-slate-950">?? ?? ???</h2><p className="mt-1 text-sm text-slate-600">?? ??? ??? ? ??? ?????. ?? ??? ?? ???? ?????.</p></div><div className="grid grid-cols-3 gap-5 text-right text-sm"><div><div className="text-xs text-slate-500">??</div><div className="font-semibold">{viewed} / {diseases.length}</div></div><div><div className="text-xs text-slate-500">???</div><div className="font-semibold">{percentage}%</div></div><div><div className="text-xs text-slate-500">?? ??</div><div className="font-semibold">{completed} / {groups.length}</div></div></div></div><div className="mt-5 inline-flex rounded-lg border border-slate-200 bg-slate-100 p-1" role="tablist" aria-label="?? ?? ?? ??"><button type="button" role="tab" aria-selected={view === "grid"} onClick={() => setView("grid")} className={`flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium ${view === "grid" ? "bg-white text-teal-800 shadow-sm" : "text-slate-600"}`}><Grid3X3 className="h-4 w-4" />??? ??</button><button type="button" role="tab" aria-selected={view === "anatomy"} onClick={() => setView("anatomy")} className={`flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium ${view === "anatomy" ? "bg-white text-teal-800 shadow-sm" : "text-slate-600"}`}><HeartPulse className="h-4 w-4" />???</button></div><div className="mt-5">{view === "grid" ? <GridView groups={groups} coverage={coverage} /> : <AnatomyView groups={groups} coverage={coverage} />}</div></section>;
+  return <section className="surface p-5 sm:p-6"><div className="flex flex-wrap items-start justify-between gap-4"><div><div className="flex items-center gap-2 text-sm font-semibold text-teal-800"><HeartPulse className="h-5 w-5" />{"\uc9c8\ubcd1 \uc5f4\ub78c \ud604\ud669"}</div><h2 className="mt-2 text-xl font-semibold text-slate-950">{"\uc9c8\ubcd1 \ud53d\uc140 \uceec\ub809\uc158"}</h2><p className="mt-1 text-sm text-slate-600">{"\uc9c8\ubcd1 \ud398\uc774\uc9c0 \ud558\ub098\uac00 \uce78 \ud558\ub098\uc5d0 \ub300\uc751\ud569\ub2c8\ub2e4. \uce78\uc744 \ub204\ub974\uba74 \ud574\ub2f9 \uc9c8\ubcd1\uc73c\ub85c \uc774\ub3d9\ud569\ub2c8\ub2e4."}</p></div><div className="grid grid-cols-3 gap-5 text-right text-sm"><div><div className="text-xs text-slate-500">{"\uc5f4\ub78c"}</div><div className="font-semibold">{viewed} / {diseases.length}</div></div><div><div className="text-xs text-slate-500">{"\uc9c4\ud589\ub960"}</div><div className="font-semibold">{percentage}%</div></div><div><div className="text-xs text-slate-500">{"\uc644\ub8cc \ubd84\uacfc"}</div><div className="font-semibold">{completed} / {groups.length}</div></div></div></div><div className="mt-5 inline-flex rounded-lg border border-slate-200 bg-slate-100 p-1" role="tablist" aria-label="\uc9c8\ubcd1 \uc5f4\ub78c \ud604\ud669 \ubcf4\uae30"><button type="button" role="tab" aria-selected={view === "grid"} onClick={() => setView("grid")} className={`flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium ${view === "grid" ? "bg-white text-teal-800 shadow-sm" : "text-slate-600"}`}><Grid3X3 className="h-4 w-4" />{"\ubd84\uacfc\ubcc4 \uaca9\uc790"}</button><button type="button" role="tab" aria-selected={view === "anatomy"} onClick={() => setView("anatomy")} className={`flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium ${view === "anatomy" ? "bg-white text-teal-800 shadow-sm" : "text-slate-600"}`}><HeartPulse className="h-4 w-4" />{"\ud574\ubd80\ub3c4"}</button></div><div className="mt-5">{view === "grid" ? <GridView groups={groups} coverage={coverage} /> : <AnatomyView groups={groups} coverage={coverage} />}</div></section>;
 }
