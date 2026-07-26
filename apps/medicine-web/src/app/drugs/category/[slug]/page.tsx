@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ChevronRight, Table2 } from "lucide-react";
+import { ArrowLeft, ChevronRight, Network } from "lucide-react";
 import { buildDrugGroups } from "@/lib/drug-groups";
 import { ParentPageFab } from "@/components/parent-page-fab";
-import { getDrugs, getDrugToc } from "@/lib/webdb";
+import { getDrugs, getDrugToc, getSpecialties } from "@/lib/webdb";
 
 export function generateStaticParams() {
   return buildDrugGroups(getDrugs(), getDrugToc()).map((group) => ({ slug: group.slug }));
@@ -34,6 +34,8 @@ export default async function DrugCategoryPage(props: { params: Promise<{ slug: 
     notFound();
   }
 
+  const infectionSpecialty = getSpecialties().find((item) => item.name.replace(/^\d+\s*/, "").trim() === "\uac10\uc5fc");
+
   return (
     <div className="space-y-6">
       <Link
@@ -48,10 +50,10 @@ export default async function DrugCategoryPage(props: { params: Promise<{ slug: 
         <div className="text-xs uppercase  text-slate-500">Drug category</div>
         <div className="mt-3 flex flex-wrap items-center gap-3">
           <h1 className="text-4xl font-semibold ">{group.title}</h1>
-          {group.title.includes("감염") ? (
-            <Link href="/drugs/antibiotics" className="inline-flex items-center gap-2 rounded-xl bg-teal-700 px-4 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-teal-800">
-              <Table2 className="h-4 w-4" />
-              항생제 overview
+          {"\uac10\uc5fc" === group.title.replace(/^\d+\s*/, "").trim() && infectionSpecialty ? (
+            <Link href={`/specialty/${infectionSpecialty.slug}/hub`} className="inline-flex items-center gap-2 rounded-xl bg-teal-700 px-4 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-teal-800">
+              <Network className="h-4 w-4" />
+              {"\uac10\uc5fc Hub"}
               <ChevronRight className="h-4 w-4" />
             </Link>
           ) : null}
