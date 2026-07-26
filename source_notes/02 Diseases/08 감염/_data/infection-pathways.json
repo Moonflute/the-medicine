@@ -142,6 +142,55 @@
       "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.518",
       "tier": "A",
       "year": "2018"
+    },
+    {
+      "id": "idsa-cdi-2021",
+      "label": "IDSA/SHEA Clostridioides difficile Focused Update (2021)",
+      "url": "https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/",
+      "tier": "A",
+      "year": "2021"
+    },
+    {
+      "id": "escmid-cdi-2021",
+      "label": "ESCMID Clostridioides difficile Treatment Guideline (2021)",
+      "url": "https://doi.org/10.1016/j.cmi.2021.09.038",
+      "tier": "A",
+      "year": "2021"
+    },
+    {
+      "id": "wjes-nsti-2018",
+      "label": "WSES/SIS-E Necrotizing Soft-Tissue Infection Consensus (2018)",
+      "url": "https://wjes.biomedcentral.com/articles/10.1186/s13017-018-0180-7",
+      "tier": "A",
+      "year": "2018"
+    },
+    {
+      "id": "cdc-gonorrhea-2021",
+      "label": "CDC Gonococcal Infections STI Treatment Guidelines (2021)",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm",
+      "tier": "A",
+      "year": "2021"
+    },
+    {
+      "id": "who-gonorrhoea-2023",
+      "label": "WHO updated recommendations for treatment of Neisseria gonorrhoeae (2023)",
+      "url": "https://www.who.int/publications/i/item/9789240078394",
+      "tier": "A",
+      "year": "2023"
+    },
+    {
+      "id": "cdc-strep-pharyngitis-2025",
+      "label": "CDC Clinical Guidance for Group A Streptococcal Pharyngitis",
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+      "tier": "A",
+      "year": "2025"
+    },
+    {
+      "id": "idsa-pharyngitis-2012",
+      "label": "IDSA Group A Streptococcal Pharyngitis Guideline (2012)",
+      "url": "https://doi.org/10.1093/cid/cis629",
+      "tier": "A",
+      "year": "2012"
     }
   ],
   "pathways": [
@@ -2479,6 +2528,620 @@
           "sourceIds": [
             "kdca-antibiotic-practice-2026",
             "tokyo-cholangitis-2018"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adult-clostridioides-difficile-infection",
+      "displayName": "?? Clostridioides difficile infection",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/거짓막 결장염 (Pseudomembranous Colitis).md",
+      "infectionSite": "systemic",
+      "setting": "healthcare-associated",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "stable",
+        "sepsis"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "??? ?? ?????? ??? ????, ????? ?? ?? ???? ??? ?? ??? ????.",
+        "??, ileus, megacolon, shock ? fulminant features? ????."
+      ],
+      "sourceControlNotes": [
+        "fulminant disease, ileus ?? megacolon? ???????? ?? ????."
+      ],
+      "stewardshipNotes": [
+        "???? ?? ???? ?????? ?????, ?? ??? ?? ??? ????."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "clinical-context-dependent",
+          "organisms": [
+            {
+              "organismId": "clostridia",
+              "likelihood": "common",
+              "notes": [
+                "C. difficile infection? ????? ???? ????."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "cdi-initial-nonsevere",
+          "context": "initial-nonsevere-or-severe-cdi",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "fidaxomicin",
+                "vancomycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "fulminant disease? ?? ?? CDI"
+          ],
+          "avoidWhen": [
+            "?? ????? ??? ???? ??"
+          ],
+          "notes": [
+            "???, ?? ??? ?? ??? ?? ????."
+          ],
+          "sourceIds": [
+            "idsa-cdi-2021",
+            "escmid-cdi-2021"
+          ]
+        }
+      ],
+      "targetedTherapies": [
+        {
+          "organismId": "clostridia",
+          "susceptibilityCondition": "clinically diagnosed initial CDI",
+          "rank": "preferred",
+          "antibioticIds": [
+            "fidaxomicin",
+            "vancomycin"
+          ],
+          "notes": [
+            "??? ?? ???? ?? ??? ?? ????."
+          ],
+          "sourceIds": [
+            "idsa-cdi-2021",
+            "escmid-cdi-2021"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "idsa-cdi-2021",
+        "escmid-cdi-2021"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-26",
+      "quizQuestions": [
+        {
+          "id": "cdi-organism",
+          "type": "disease-to-organism",
+          "prompt": "??? ?? ? ??? ??? ????? ?? ??? ?????",
+          "choiceIds": [
+            "clostridia",
+            "mrsa",
+            "pseudomonas",
+            "atypicals"
+          ],
+          "correctId": "clostridia",
+          "explanation": "??? ??????? ??? ?? ???, ?? ??, ????, ?? ??? ??? ?? ?? ????.",
+          "sourceIds": [
+            "idsa-cdi-2021"
+          ]
+        },
+        {
+          "id": "cdi-therapy",
+          "type": "disease-to-antibiotic",
+          "prompt": "??? non-fulminant CDI? ?? ?? ???? ??? ???",
+          "choiceIds": [
+            "fidaxomicin",
+            "cefazolin",
+            "daptomycin",
+            "azithromycin"
+          ],
+          "correctId": "fidaxomicin",
+          "explanation": "??? ??????? ??? ?? ???, ?? ??, ????, ?? ??? ??? ?? ?? ????.",
+          "sourceIds": [
+            "idsa-cdi-2021",
+            "escmid-cdi-2021"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adult-necrotizing-fasciitis",
+      "displayName": "?? ??? ???",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/괴사성 근막염 (Necrotizing Fasciitis).md",
+      "infectionSite": "skin-soft-tissue",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "sepsis",
+        "shock"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "??? ???? ??, ?? ?????, systemic toxicity? ????? ????.",
+        "??? ??? ???? ?? ???? ??? ????? ???."
+      ],
+      "sourceControlNotes": [
+        "?? ?? ?????? debridement? ???? ?? debridement? ????."
+      ],
+      "stewardshipNotes": [
+        "?? ??? ?? ??? ?? ?? ??? ??? ???."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "clinical-context-dependent",
+          "organisms": [
+            {
+              "organismId": "mrsa",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "streptococci",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "b_fragilis",
+              "likelihood": "important",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "nsti-empiric",
+          "context": "suspected-necrotizing-soft-tissue-infection",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "vancomycin",
+                "linezolid"
+              ],
+              "selection": "one-of"
+            },
+            {
+              "antibioticIds": [
+                "piperacillintazobactam",
+                "meropenem"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "??? ??? ??? ??"
+          ],
+          "avoidWhen": [
+            "??? source control? ???? ??"
+          ],
+          "notes": [
+            "???? ?? ??? ???? clindamycin ? ???? ??? ???? ????."
+          ],
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "wjes-nsti-2018"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "idsa-ssti-2014",
+        "wjes-nsti-2018"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-26",
+      "quizQuestions": [
+        {
+          "id": "nsti-organism",
+          "type": "disease-to-organism",
+          "prompt": "??? ???? ??? ???? ??? ??? ? ?? ??? ????",
+          "choiceIds": [
+            "mrsa",
+            "atypicals",
+            "listeria",
+            "n_meningitidis"
+          ],
+          "correctId": "mrsa",
+          "explanation": "??? ??????? ??? ?? ???, ?? ??, ????, ?? ??? ??? ?? ?? ????.",
+          "sourceIds": [
+            "idsa-ssti-2014"
+          ]
+        },
+        {
+          "id": "nsti-therapy",
+          "type": "disease-to-antibiotic",
+          "prompt": "??? ????? ???? ?? ?? ?? ??? ????",
+          "choiceIds": [
+            "piperacillintazobactam",
+            "cefazolin",
+            "azithromycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "piperacillintazobactam",
+          "explanation": "??? ??????? ??? ?? ???, ?? ??, ????, ?? ??? ??? ?? ?? ????.",
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "wjes-nsti-2018"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adult-fourniers-gangrene",
+      "displayName": "?? Fournier ??",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/푸르니에 괴저 (Fournier's Gangrene).md",
+      "infectionSite": "skin-soft-tissue",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "sepsis",
+        "shock"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "??? ???????? ??? systemic toxicity? ????.",
+        "CT? ?? ??? ??? ? ??? ??? ??? ??? ????? ???."
+      ],
+      "sourceControlNotes": [
+        "?? debridement? ?? ?? ??? ????."
+      ],
+      "stewardshipNotes": [
+        "??? ??? ??? ???? ?? ? ?? ?? ? ????."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "clinical-context-dependent",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "b_fragilis",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "streptococci",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "mrsa",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "fourniers-empiric",
+          "context": "suspected-fourniers-gangrene",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "vancomycin",
+                "linezolid"
+              ],
+              "selection": "one-of"
+            },
+            {
+              "antibioticIds": [
+                "piperacillintazobactam",
+                "meropenem"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "?? ??? source control? ??"
+          ],
+          "avoidWhen": [
+            "debridement? ??"
+          ],
+          "notes": [
+            "???? ??? ??? ??? ???? ???? ???."
+          ],
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "wjes-nsti-2018"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "idsa-ssti-2014",
+        "wjes-nsti-2018"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-26",
+      "quizQuestions": [
+        {
+          "id": "fourniers-organism",
+          "type": "disease-to-organism",
+          "prompt": "Fournier ???? ?? ?? ???? ??? ??? ?? ??? ???",
+          "choiceIds": [
+            "enterobacterales",
+            "atypicals",
+            "listeria",
+            "n_meningitidis"
+          ],
+          "correctId": "enterobacterales",
+          "explanation": "??? ??????? ??? ?? ???, ?? ??, ????, ?? ??? ??? ?? ?? ????.",
+          "sourceIds": [
+            "wjes-nsti-2018"
+          ]
+        },
+        {
+          "id": "fourniers-therapy",
+          "type": "disease-to-antibiotic",
+          "prompt": "Fournier ??? ?? ??? ?? ???? ??? ?????",
+          "choiceIds": [
+            "piperacillintazobactam",
+            "nitrofurantoin",
+            "azithromycin",
+            "fosfomycin"
+          ],
+          "correctId": "piperacillintazobactam",
+          "explanation": "??? ??????? ??? ?? ???, ?? ??, ????, ?? ??? ??? ?? ?? ????.",
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "wjes-nsti-2018"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adult-uncomplicated-gonococcal-infection",
+      "displayName": "?? ?? ?? ??",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/임균 감염 (Gonococcal Infection).md",
+      "infectionSite": "systemic",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "stable"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "?? ??? ?? NAAT? ????, ?? chlamydia??? STI??? ???? ????.",
+        "?? ??? ?? ? ?? ???? ??? ????."
+      ],
+      "sourceControlNotes": [
+        "???, disseminated infection ?? ???-??? ???? ?? ??? ?? ??? ????."
+      ],
+      "stewardshipNotes": [
+        "?? ?? ??? ?? ?? ?? ??? ?? ??? ???? ??? ?????? ????."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "clinical-context-dependent",
+          "organisms": [
+            {
+              "organismId": "neisseria",
+              "likelihood": "common",
+              "notes": [
+                "N. gonorrhoeae ??? ????."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "gonorrhea-uncomplicated",
+          "context": "uncomplicated-anogenital-or-pharyngeal-gonorrhea",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone"
+              ],
+              "selection": "all-of"
+            }
+          ],
+          "conditions": [
+            "????????? chlamydia ?? ???? ?? ?? ? ?? ??? ??"
+          ],
+          "avoidWhen": [
+            "????????? STI ??? ??"
+          ],
+          "notes": [
+            "?? ??? ?? ??? ????."
+          ],
+          "sourceIds": [
+            "cdc-gonorrhea-2021",
+            "who-gonorrhoea-2023"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-gonorrhea-2021",
+        "who-gonorrhoea-2023"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-26",
+      "quizQuestions": [
+        {
+          "id": "gonorrhea-organism",
+          "type": "disease-to-organism",
+          "prompt": "?? ??? ????? ?? ???",
+          "choiceIds": [
+            "neisseria",
+            "pneumococcus",
+            "listeria",
+            "b_fragilis"
+          ],
+          "correctId": "neisseria",
+          "explanation": "??? ??????? ??? ?? ???, ?? ??, ????, ?? ??? ??? ?? ?? ????.",
+          "sourceIds": [
+            "cdc-gonorrhea-2021"
+          ]
+        },
+        {
+          "id": "gonorrhea-therapy",
+          "type": "disease-to-antibiotic",
+          "prompt": "?? ?? ??? 1? ?? ???? ???? ????",
+          "choiceIds": [
+            "ceftriaxone",
+            "metronidazole",
+            "nitrofurantoin",
+            "linezolid"
+          ],
+          "correctId": "ceftriaxone",
+          "explanation": "??? ??????? ??? ?? ???, ?? ??, ????, ?? ??? ??? ?? ?? ????.",
+          "sourceIds": [
+            "cdc-gonorrhea-2021",
+            "who-gonorrhoea-2023"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adult-group-a-streptococcal-pharyngitis",
+      "displayName": "?? A? ???? ???",
+      "aliases": [],
+      "diseaseSourceFile": "08 감염/사슬알균 인두염 (Streptococcal Pharyngitis).md",
+      "infectionSite": "systemic",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "stable"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "????? ??? ???? ??? ?????? ?? ???? GAS? ????.",
+        "????, ???, ???????? ?? ? ????? ?? ???? ????."
+      ],
+      "sourceControlNotes": [
+        "?? ?? ?? ?? ?? ? ???????? ??? ????."
+      ],
+      "stewardshipNotes": [
+        "??? ??? GAS?? ???? ????, ??? ??? ????? ???? ???? ??? ???."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "clinical-context-dependent",
+          "organisms": [
+            {
+              "organismId": "streptococci",
+              "likelihood": "common",
+              "notes": [
+                "Group A Streptococcus? ????."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "gas-pharyngitis",
+          "context": "confirmed-group-a-streptococcal-pharyngitis",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "amoxicillin",
+                "benzylpenicillin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "GAS? ??? ??? ??"
+          ],
+          "avoidWhen": [
+            "????? ??? ?? ??? ??"
+          ],
+          "notes": [
+            "?? ???? ????? ?? ??? ?? ?? ??? ????."
+          ],
+          "sourceIds": [
+            "cdc-strep-pharyngitis-2025",
+            "idsa-pharyngitis-2012"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-strep-pharyngitis-2025",
+        "idsa-pharyngitis-2012"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-26",
+      "quizQuestions": [
+        {
+          "id": "gas-organism",
+          "type": "disease-to-organism",
+          "prompt": "??? ??? A? ???? ???? ??? ????",
+          "choiceIds": [
+            "streptococci",
+            "mrsa",
+            "pseudomonas",
+            "b_fragilis"
+          ],
+          "correctId": "streptococci",
+          "explanation": "??? ??????? ??? ?? ???, ?? ??, ????, ?? ??? ??? ?? ?? ????.",
+          "sourceIds": [
+            "cdc-strep-pharyngitis-2025"
+          ]
+        },
+        {
+          "id": "gas-therapy",
+          "type": "disease-to-antibiotic",
+          "prompt": "??? A? ???? ???? 1? ?? ???? ??? ???",
+          "choiceIds": [
+            "amoxicillin",
+            "vancomycin",
+            "meropenem",
+            "colistin"
+          ],
+          "correctId": "amoxicillin",
+          "explanation": "??? ??????? ??? ?? ???, ?? ??, ????, ?? ??? ??? ?? ?? ????.",
+          "sourceIds": [
+            "cdc-strep-pharyngitis-2025",
+            "idsa-pharyngitis-2012"
           ]
         }
       ]
