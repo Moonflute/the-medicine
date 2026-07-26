@@ -3,6 +3,7 @@ import Link from "next/link";
 import { CalendarDays, CheckCircle2, ChevronRight } from "lucide-react";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { InfectionToolEntry } from "@/components/infection-tool-entry";
+import { MaternalChildToolEntry } from "@/components/maternal-child-tool-entry";
 import { getDiseasesBySpecialty, getSpecialties, getSpecialtyRoadmap, getSpecialtyToc, isSpecialtyIndexDisease } from "@/lib/webdb";
 
 const THIRD_LEVEL_MIN_ITEMS = 4;
@@ -289,6 +290,7 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
 
       
       {specialtyLabel === "감염" ? <InfectionToolEntry specialtySlug={slug} /> : null}
+      {specialtyLabel === "산과" || specialtyLabel === "소아청소년과" ? <MaternalChildToolEntry /> : null}
       {roadmap ? <SpecialtyRoadmapSection roadmap={roadmap} /> : null}
 
       <div className="space-y-5">
