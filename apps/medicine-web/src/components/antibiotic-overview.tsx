@@ -1,14 +1,13 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { useDeferredValue, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { ArrowUpRight, GraduationCap, Maximize2, RotateCw, Search, ShieldAlert, X } from "lucide-react";
+import { ArrowUpRight, Maximize2, RotateCw, Search, ShieldAlert, X } from "lucide-react";
 import type { AntibioticEntry, AntibioticSpectrumDataset, CoverageLevel, PregnancyStatus } from "@/lib/types";
 import type { InfectionPathway, InfectionPathwayDataset } from "@/lib/infection-types";
-import { AntibioticQuiz } from "@/components/antibiotic-quiz";
 
-type Mode = "matrix" | "organism" | "antibiotic" | "quiz";
+type Mode = "matrix" | "organism" | "antibiotic";
 type OrganismGroup = "Gram-positive" | "Gram-negative" | "Anaerobes" | "Atypicals" | "Resistance phenotype";
 
 const GROUP_ORDER: OrganismGroup[] = ["Gram-positive", "Gram-negative", "Anaerobes", "Atypicals", "Resistance phenotype"];
@@ -106,16 +105,13 @@ function PathwayLinks({ title, pathways, specialtySlug }: { title: string; pathw
   return <section className="rounded-xl border border-teal-200 bg-teal-50/60 p-4"><h3 className="text-sm font-bold text-slate-950">{title}</h3><div className="mt-3 flex flex-wrap gap-2">{pathways.map((item) => <Link key={item.id} href={`/specialty/${specialtySlug}/treatment-pathways?pathway=${item.id}`} className="rounded-full border border-teal-200 bg-white px-3 py-1.5 text-xs font-medium text-teal-900 hover:border-teal-500">{item.displayName}</Link>)}</div></section>;
 }
 
-function QuizPanel({ dataset }: { dataset: AntibioticSpectrumDataset }) {
-  return <AntibioticQuiz dataset={dataset} />;
-}
 
 export function AntibioticOverview({ dataset, pathways, initialMode, initialOrganism, initialAntibiotic }: { dataset: AntibioticSpectrumDataset; pathways: InfectionPathwayDataset; initialMode?: string; initialOrganism?: string; initialAntibiotic?: string }) {
   const searchParams = useSearchParams();
   const resolvedMode = initialMode ?? searchParams.get("mode") ?? "";
   const resolvedOrganism = initialOrganism ?? searchParams.get("organism") ?? "";
   const resolvedAntibiotic = initialAntibiotic ?? searchParams.get("antibiotic") ?? "";
-  const validMode = (["matrix", "organism", "antibiotic", "quiz"] as Mode[]).includes(resolvedMode as Mode) ? resolvedMode as Mode : "matrix";
+  const validMode = (["matrix", "organism", "antibiotic"] as Mode[]).includes(resolvedMode as Mode) ? resolvedMode as Mode : "matrix";
   const [mode, setMode] = useState<Mode>(validMode);
   const [query, setQuery] = useState(""); const deferredQuery = useDeferredValue(query);
   const [group, setGroup] = useState<OrganismGroup | "">(""); const [route, setRoute] = useState(""); const [drugClass, setDrugClass] = useState(""); const [pregnancy, setPregnancy] = useState(""); const [matchingOnly, setMatchingOnly] = useState(false);
@@ -138,13 +134,12 @@ export function AntibioticOverview({ dataset, pathways, initialMode, initialOrga
   return <div className="space-y-6">
     <div className="grid grid-cols-[repeat(3,minmax(0,1fr))_2.5rem] items-center gap-2 sm:flex" role="tablist" aria-label="탐색 방식">
       {([ ["matrix", "Matrix", "Spectrum matrix"], ["organism", "균→약", "균 → 항생제"], ["antibiotic", "약→균", "항생제 → 균"] ] as const).map(([value, mobileLabel, desktopLabel]) => <button key={value} type="button" role="tab" aria-selected={mode === value} onClick={() => setMode(value)} className={`min-w-0 rounded-full px-2 py-2 text-xs font-semibold transition sm:px-4 sm:text-sm ${mode === value ? "bg-slate-950 text-white" : "border border-slate-200 bg-white text-slate-700 hover:border-teal-400"}`}><span className="sm:hidden">{mobileLabel}</span><span className="hidden sm:inline">{desktopLabel}</span></button>)}
-      <button type="button" aria-label="퀴즈 모드" title="퀴즈 모드" onClick={() => setMode("quiz")} className={`inline-flex h-10 w-10 items-center justify-center rounded-full border transition sm:ml-auto ${mode === "quiz" ? "border-teal-700 bg-teal-700 text-white" : "border-slate-200 bg-white text-slate-700 hover:border-teal-400"}`}><GraduationCap className="h-5 w-5" /></button>
     </div>
 
-    {mode !== "quiz" ? <section className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
+    <section className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
       <div className="grid gap-3 lg:grid-cols-[minmax(220px,1.4fr)_repeat(3,minmax(150px,1fr))]"><label className="relative block"><Search className="pointer-events-none absolute left-3 top-3 h-4 w-4 text-slate-400" /><span className="sr-only">항생제 검색</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="성분명·한글명·class 검색" className="w-full rounded-xl border border-slate-200 bg-slate-50 py-2.5 pl-10 pr-3 text-sm outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-100" /></label><select value={drugClass} onChange={(event) => setDrugClass(event.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm"><option value="">모든 class</option>{classes.map((item) => <option key={item}>{item}</option>)}</select><select value={pregnancy} onChange={(event) => setPregnancy(event.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm"><option value="">임신 관련 상태 전체</option>{Object.entries(PREGNANCY_LABELS).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select><button type="button" onClick={reset} className="rounded-xl border border-slate-200 px-3 py-2.5 text-sm font-medium text-slate-600 hover:bg-slate-50">필터 초기화</button></div>
       <div className="mt-4 flex flex-wrap items-center gap-2">{ROUTES.map((item) => <button key={item} type="button" onClick={() => setRoute(route === item ? "" : item)} className={`rounded-full border px-3 py-1.5 text-xs font-semibold ${route === item ? "border-teal-700 bg-teal-700 text-white" : "border-slate-200 bg-white text-slate-600"}`}>{item}</button>)}<span className="mx-1 h-5 w-px bg-slate-200" />{GROUP_ORDER.map((item) => <button key={item} type="button" onClick={() => setGroup(group === item ? "" : item)} className={`rounded-full border px-3 py-1.5 text-xs font-semibold ${group === item ? GROUP_META[item].chip : "border-slate-200 bg-white text-slate-600"}`}>{GROUP_META[item].label}</button>)}<span className="ml-auto text-xs font-medium text-slate-500">{filteredDrugs.length}/{dataset.antibiotics.length}개</span></div>
-    </section> : null}
+    </section>
 
     {mode === "matrix" ? <section className="space-y-4"><div className="flex flex-wrap items-center gap-3 rounded-xl border border-slate-200 bg-stone-50 px-4 py-3">{(Object.keys(COVERAGE) as CoverageLevel[]).map((level) => <span key={level} className="inline-flex items-center gap-1.5 text-xs text-slate-600"><CoverageBadge level={level} />{COVERAGE[level].label}</span>)}<label className="ml-auto inline-flex items-center gap-2 text-xs font-medium text-slate-600"><input type="checkbox" checked={matchingOnly} onChange={(event) => setMatchingOnly(event.target.checked)} /> 활성 기대 이상만 강조</label><button type="button" onClick={() => setMatrixFocus(true)} title="전체 화면으로 보기" aria-label="전체 화면으로 보기" className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-slate-300 bg-white text-slate-700 hover:border-teal-500 hover:text-teal-800"><Maximize2 className="h-4 w-4" /></button></div><div className="max-h-[68vh] overflow-auto rounded-2xl border border-slate-200 bg-white shadow-sm">{matrix}</div><p className="text-center text-xs text-slate-500">모바일에서는 좌우로 밀어 전체 균 coverage를 비교할 수 있습니다.</p></section> : null}
 
@@ -153,7 +148,6 @@ export function AntibioticOverview({ dataset, pathways, initialMode, initialOrga
     {mode === "antibiotic" && selectedDrug ? <section className="space-y-5"><div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"><label className="text-xs font-semibold uppercase tracking-wide text-slate-500">항생제 선택</label><select value={antibioticId} onChange={(event) => setAntibioticId(event.target.value)} className="mt-2 w-full rounded-xl border border-slate-200 px-3 py-3 text-sm sm:max-w-xl">{classes.map((item) => <optgroup key={item} label={item}>{dataset.antibiotics.filter((entry) => entry.class === item).map((entry) => <option key={entry.id} value={entry.id}>{entry.inn} ({entry.displayName})</option>)}</optgroup>)}</select><div className="mt-5 flex flex-wrap items-start justify-between gap-4 border-t border-slate-100 pt-5"><div><h2 className="text-2xl font-bold text-slate-950">{selectedDrug.inn}</h2><p className="mt-1 text-sm text-slate-500">{selectedDrug.class} · {selectedDrug.routes.join(" / ")} · 임신: {PREGNANCY_LABELS[selectedDrug.pregnancy.status]}</p></div><Link href={`/drugs/${selectedDrug.drugSlug}`} className="inline-flex items-center gap-2 rounded-full bg-teal-700 px-4 py-2 text-sm font-semibold text-white">개별 약물 노트 <ArrowUpRight className="h-4 w-4" /></Link></div></div>{(selectedDrug.siteCaveats.length > 0 || selectedDrug.resistanceNotes.length > 0) ? <div className="rounded-xl border border-amber-200 bg-amber-50 p-4"><div className="flex gap-2 text-sm font-semibold text-amber-950"><ShieldAlert className="h-4 w-4" />임상적 예외</div>{[...selectedDrug.siteCaveats, ...selectedDrug.resistanceNotes].map((note) => <p key={note} className="mt-2 text-sm leading-6 text-amber-950">{note}</p>)}</div> : null}<div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">{organisms.map((organism) => { const level = coverage(selectedDrug, organism.id); return <article key={organism.id} className={`rounded-xl border border-slate-200 p-4 ${COVERAGE[level].cell}`}><div className="flex items-center justify-between gap-3"><strong className="text-sm">{organism.label}</strong><span className="text-lg font-black">{COVERAGE[level].short}</span></div><div className="mt-1 text-xs opacity-75">{COVERAGE[level].label}</div></article>; })}</div></section> : null}
     {mode === "organism" ? <PathwayLinks title="이 병원체와 연결된 감염질환" pathways={organismPathways} specialtySlug={infectionSpecialtySlug} /> : null}
     {mode === "antibiotic" ? <PathwayLinks title="이 항생제가 연결된 감염질환" pathways={antibioticPathways} specialtySlug={infectionSpecialtySlug} /> : null}
-    {mode === "quiz" ? <QuizPanel dataset={dataset} /> : null}
     <footer className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-xs leading-5 text-slate-600"><strong className="text-slate-800">해석 주의:</strong> {dataset.disclaimer} · 검토일 {dataset.reviewedAt}</footer>
     {matrixFocus ? <div className="fixed inset-0 z-50 flex flex-col bg-slate-950 p-3 text-white sm:p-5"><div className="mb-3 flex items-center justify-between gap-3"><div><strong className="text-sm">항생제 overview · spectrum matrix</strong><span className="ml-2 hidden text-xs text-slate-400 sm:inline">화면을 가로로 돌리면 더 넓게 볼 수 있습니다.</span></div><div className="flex items-center gap-2"><RotateCw className="h-4 w-4 text-teal-300 sm:hidden" /><button type="button" onClick={() => setMatrixFocus(false)} className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-slate-600 text-white hover:bg-slate-800" aria-label="전체 화면 닫기"><X className="h-4 w-4" /></button></div></div><div className="min-h-0 flex-1 overflow-auto rounded-xl border border-slate-700 bg-white text-slate-950">{matrix}</div></div> : null}
   </div>;

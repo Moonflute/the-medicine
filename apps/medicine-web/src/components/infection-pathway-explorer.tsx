@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { useDeferredValue, useState } from "react";
@@ -6,9 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { ArrowUpRight, Bug, BookOpenCheck, Filter, FlaskConical, Pill, Search, ShieldAlert, Stethoscope } from "lucide-react";
 import type { AntibioticSpectrumDataset } from "@/lib/types";
 import type { InfectionPathway, InfectionPathwayDataset, InfectionPopulation, InfectionSetting, PathogenLikelihood, RegimenRank } from "@/lib/infection-types";
-import { ClinicalInfectionQuiz } from "@/components/clinical-infection-quiz";
 
-type ViewMode = "explore" | "quiz";
 const SETTING_LABELS: Record<InfectionSetting, string> = { community: "지역사회", mixed: "상황별", "healthcare-associated": "의료 관련", "hospital-acquired": "병원 획득", "ventilator-associated": "인공호흡기 관련", "procedure-associated": "시술·기기 관련" };
 const POPULATION_LABELS: Record<InfectionPopulation, string> = { adult: "성인", pediatric: "소아", neonate: "신생아", pregnant: "임신", immunocompromised: "면역저하", neutropenic: "호중구감소" };
 const LIKELIHOOD_LABELS: Record<PathogenLikelihood, string> = { common: "흔함", important: "중요", "risk-factor-dependent": "위험인자 의존", uncommon: "드묾", excluded: "배제" };
@@ -28,7 +26,6 @@ export function InfectionPathwayExplorer({ dataset, spectrum, initialPathway = "
   const resolvedPathway = initialPathway || searchParams.get("pathway") || "";
   const resolvedOrganism = initialOrganism || searchParams.get("organism") || "";
   const resolvedAntibiotic = initialAntibiotic || searchParams.get("antibiotic") || "";
-  const [mode, setMode] = useState<ViewMode>("explore");
   const [query, setQuery] = useState("");
   const deferredQuery = useDeferredValue(query);
   const [site, setSite] = useState("");
@@ -47,8 +44,6 @@ export function InfectionPathwayExplorer({ dataset, spectrum, initialPathway = "
   const reset = () => { setQuery(""); setSite(""); setSetting(""); setPopulation(""); };
 
   return <div className="space-y-5">
-    <div className="inline-flex rounded-full border border-slate-200 bg-white p-1 shadow-sm"><button type="button" onClick={() => setMode("explore")} className={`rounded-full px-4 py-2 text-sm font-bold ${mode === "explore" ? "bg-slate-950 text-white" : "text-slate-600"}`}>임상 경로 탐색</button><button type="button" onClick={() => setMode("quiz")} className={`rounded-full px-4 py-2 text-sm font-bold ${mode === "quiz" ? "bg-teal-700 text-white" : "text-slate-600"}`}>퀴즈</button></div>
-    {mode === "quiz" ? <ClinicalInfectionQuiz pathways={verified} spectrum={spectrum} sources={dataset.sources} /> : <>
       <section className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5"><div className="grid gap-3 lg:grid-cols-[minmax(240px,1.5fr)_repeat(3,minmax(140px,1fr))_auto]"><label className="relative"><Search className="absolute left-3 top-3 h-4 w-4 text-slate-400" /><span className="sr-only">질환 검색</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="질환명·영문명·alias 검색" className="w-full rounded-xl border border-slate-200 bg-slate-50 py-2.5 pl-10 pr-3 text-sm focus:border-teal-500 focus:outline-none" /></label><select value={site} onChange={(event) => setSite(event.target.value)} className="rounded-xl border border-slate-200 px-3 py-2.5 text-sm"><option value="">모든 감염 부위</option>{sites.map((item) => <option key={item} value={item}>{SITE_LABELS[item] ?? item}</option>)}</select><select value={setting} onChange={(event) => setSetting(event.target.value)} className="rounded-xl border border-slate-200 px-3 py-2.5 text-sm"><option value="">모든 감염 환경</option>{Object.entries(SETTING_LABELS).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select><select value={population} onChange={(event) => setPopulation(event.target.value)} className="rounded-xl border border-slate-200 px-3 py-2.5 text-sm"><option value="">모든 대상군</option>{Object.entries(POPULATION_LABELS).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select><button type="button" onClick={reset} className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 px-4 py-2.5 text-sm text-slate-600"><Filter className="h-4 w-4" />초기화</button></div><div className="mt-3 text-right text-xs text-slate-500">검증된 경로 {filtered.length}/{verified.length}개</div></section>
       <div className="grid gap-5 xl:grid-cols-[320px_minmax(0,1fr)]"><aside className="space-y-2 xl:max-h-[78vh] xl:overflow-auto xl:pr-1">{filtered.map((item) => <button key={item.id} type="button" onClick={() => selectPathway(item.id)} className={`w-full rounded-xl border p-4 text-left transition ${selected?.id === item.id ? "border-teal-600 bg-teal-50 shadow-sm" : "border-slate-200 bg-white hover:border-teal-300"}`}><strong className="block text-sm text-slate-950">{item.displayName}</strong><span className="mt-2 block text-xs text-slate-500">{SITE_LABELS[item.infectionSite] ?? item.infectionSite} · {SETTING_LABELS[item.setting]}</span></button>)}{filtered.length === 0 ? <div className="rounded-xl border border-dashed border-slate-300 p-5 text-center text-sm text-slate-500">조건에 맞는 검증 경로가 없습니다.</div> : null}</aside>
       {selected ? <main className="space-y-4"><header className="rounded-2xl bg-slate-950 p-5 text-white shadow-sm sm:p-7"><div className="flex flex-wrap items-center gap-2 text-xs text-teal-300"><BookOpenCheck className="h-4 w-4" />Verified · {selected.reviewedAt}</div><h1 className="mt-3 text-2xl font-bold sm:text-3xl">{selected.displayName}</h1><div className="mt-4 flex flex-wrap gap-2">{selected.population.map((item) => <span key={item} className="rounded-full bg-white/10 px-3 py-1 text-xs">{POPULATION_LABELS[item]}</span>)}{selected.severity.map((item) => <span key={item} className="rounded-full bg-white/10 px-3 py-1 text-xs">{item}</span>)}</div><Link href={`/disease/${selected.diseaseSlug}`} className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-teal-200 hover:text-white">기존 질환 노트 <ArrowUpRight className="h-4 w-4" /></Link></header>
@@ -58,7 +53,6 @@ export function InfectionPathwayExplorer({ dataset, spectrum, initialPathway = "
       {selected.targetedTherapies.length ? <section><div className="mb-3 text-sm font-bold">배양 후 표적치료 예시</div><div className="grid gap-3 md:grid-cols-2">{selected.targetedTherapies.map((therapy, index) => { const organism = spectrum.organisms.find((item) => item.id === therapy.organismId); return <article key={`${therapy.organismId}-${index}`} className="rounded-xl border border-slate-200 bg-white p-4"><strong className="text-sm">{organism?.label ?? therapy.organismId}</strong><p className="mt-1 text-xs text-slate-500">{therapy.susceptibilityCondition}</p><div className="mt-3 flex flex-wrap gap-2">{therapy.antibioticIds.map((id) => { const drug = spectrum.antibiotics.find((item) => item.id === id); return drug ? <Link key={id} href={`/drugs/antibiotics?mode=antibiotic&antibiotic=${id}`} className="rounded-full bg-teal-50 px-3 py-1 text-xs font-semibold text-teal-900">{drug.inn}</Link> : null; })}</div>{therapy.notes.map((item) => <p key={item} className="mt-2 text-xs leading-5 text-slate-600">{item}</p>)}</article>; })}</div></section> : null}
       <section className="rounded-xl border border-slate-200 bg-slate-50 p-4"><div className="text-xs font-bold uppercase tracking-wide text-slate-500">근거</div><div className="mt-3 flex flex-wrap gap-2">{selected.sourceIds.map((id) => { const source = dataset.sources.find((item) => item.id === id); return source ? <a key={id} href={source.url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs text-teal-800 hover:border-teal-400">{source.label} ({source.year})<ArrowUpRight className="h-3 w-3" /></a> : null; })}</div></section>
       </main> : null}</div>
-    </>}
     <footer className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-xs leading-5 text-slate-600"><strong className="text-slate-800">해석 주의:</strong> {dataset.disclaimer} · 전체 검토일 {dataset.reviewedAt}</footer>
   </div>;
 }
