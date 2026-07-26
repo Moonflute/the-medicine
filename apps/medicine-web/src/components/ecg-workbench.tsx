@@ -1,11 +1,12 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { Activity, AlertTriangle, ChevronRight, CircleHelp, HeartPulse, RotateCcw, Stethoscope } from "lucide-react";
 import { useMemo, useState } from "react";
 
 type DiseaseLink = { slug: string; title: string; aliases: string[] };
-type PatternKey = "sinus" | "af" | "flutter" | "svt" | "vt" | "mobitz1" | "mobitz2" | "av3" | "rbbb" | "lbbb" | "stemi" | "hyperK" | "hypoK" | "brugada";
+type PatternKey = "sinus" | "af" | "flutter" | "svt" | "vt" | "mobitz1" | "mobitz2" | "av3" | "rbbb" | "lbbb" | "stemi" | "hyperK" | "hypoK" | "brugada" | "apb" | "junctional" | "wpw" | "torsades" | "vf" | "longqt" | "shortqt" | "osborn" | "lvh" | "rvh";
 type Urgency = "urgent" | "caution";
 type Pattern = { key: PatternKey; label: string; group: string; clue: string; summary: string; action: string; disease?: string; urgency?: Urgency };
 
@@ -24,7 +25,16 @@ const PATTERNS: Pattern[] = [
   { key: "hyperK", label: "Hyperkalemia pattern", group: "ST-T / electrolyte", clue: "peaked T → PR prolongation/P loss → QRS widening", summary: "고칼륨혈증 변화는 순차적이지 않을 수 있고 파형만으로 중증도를 배제할 수 없다.", action: "검체 오류를 확인하되 ECG 변화·중증 hyperK가 의심되면 즉시 모니터링 및 기관 경로를 적용한다.", disease: "고칼륨혈증", urgency: "urgent" },
   { key: "hypoK", label: "Hypokalemia / U wave", group: "ST-T / electrolyte", clue: "flat T · ST depression · prominent U", summary: "T파 평탄화와 U파가 두드러지는 전형적 저칼륨혈증 형태다.", action: "K/Mg, 원인 약물·손실, QT/QU 연장과 부정맥 위험을 함께 확인한다.", disease: "저칼륨혈증", urgency: "caution" },
   { key: "brugada", label: "Brugada pattern", group: "ST-T / electrolyte", clue: "coved ST elevation in right precordial leads", summary: "우전흉부 유도의 coved ST elevation은 Brugada pattern을 시사할 수 있으나 mimic 배제가 필요하다.", action: "syncope, fever, family history 또는 ventricular arrhythmia 맥락이면 응급·전문가 평가를 우선한다.", disease: "브루가다", urgency: "urgent" },
-];
+  { key: "apb", label: "Atrial premature beat", group: "Rhythm", clue: "early abnormal P wave", summary: "조기 P파가 앞당겨지고 대개 좁은 QRS가 뒤따르는 학습용 형태다.", action: "증상·빈도와 stimulant, electrolyte, structural heart disease 맥락을 확인한다.", disease: "심방조기수축" },
+  { key: "junctional", label: "Junctional / escape rhythm", group: "Rhythm", clue: "absent or retrograde P · slow escape rhythm", summary: "P파가 없거나 QRS 뒤에 역행성 P파가 보이는 접합부/escape rhythm 단서다.", action: "서맥·전도장애, 약물/독성, ischemia와 관류를 먼저 평가한다.", urgency: "caution" },
+  { key: "wpw", label: "Pre-excitation (WPW)", group: "Conduction", clue: "short PR · delta wave · wide QRS", summary: "delta wave는 accessory pathway를 통한 pre-excitation의 단서다.", action: "불규칙 wide tachycardia 또는 불안정성이 있으면 pre-excited AF 가능성을 우선 고려하고 응급·전문가 경로를 적용한다.", disease: "울프", urgency: "urgent" },
+  { key: "vf", label: "Ventricular fibrillation", group: "Rhythm", clue: "chaotic waveform · organized QRS 없음", summary: "무질서한 파형과 맥박 없음은 shockable cardiac arrest rhythm으로 다룬다.", action: "즉시 cardiac arrest/defibrillation 경로를 적용한다.", urgency: "urgent" },
+  { key: "torsades", label: "Torsades de pointes", group: "Rhythm", clue: "polymorphic VT · twisting axis · long QT context", summary: "QT 연장 맥락의 다형성 VT는 torsades를 시사한다.", action: "맥박·불안정성을 즉시 확인하고 기관 polymorphic VT/long-QT 경로를 적용한다.", urgency: "urgent" },
+  { key: "longqt", label: "Long QT", group: "ST-T / electrolyte", clue: "prolonged QTc · torsades risk context", summary: "QTc는 rate, drugs, electrolytes, congenital risk를 함께 해석해야 한다.", action: "K/Mg/Ca, QT-prolonging drugs, bradycardia와 syncope를 확인한다.", urgency: "caution" },
+  { key: "shortqt", label: "Short QT", group: "ST-T / electrolyte", clue: "shortened QT · hypercalcemia/digoxin context", summary: "짧은 QT는 hypercalcemia, digoxin effect 등과 함께 평가한다.", action: "Ca, drug/toxicology와 임상 상태를 통합한다." },
+  { key: "osborn", label: "Osborn (J) wave", group: "ST-T / electrolyte", clue: "J-point notch/elevation · hypothermia context", summary: "Osborn wave는 저체온에서 대표적이며 고칼슘혈증 등에서도 보일 수 있다.", action: "core temperature, exposure, electrolyte와 동반 부정맥 위험을 확인한다.", disease: "저체온증", urgency: "caution" },
+  { key: "lvh", label: "LVH voltage clue", group: "ST-T / electrolyte", clue: "V1 S or V5/V6 R ≥ 30 mm is one clue", summary: "high-voltage QRS는 LVH를 시사할 수 있으나 ECG만으로 확정하지 않는다.", action: "혈압·판막·구조적 심질환을 확인하고 필요 시 echocardiography와 연결한다.", disease: "고혈압" },
+  { key: "rvh", label: "RVH voltage clue", group: "ST-T / electrolyte", clue: "V1 R/S > 1 is one supportive clue", summary: "우심실부하/RVH는 축, V1 morphology, 임상·영상 소견과 함께 해석한다.", action: "PE, pulmonary hypertension, chronic lung disease 맥락과 echo를 함께 평가한다.", disease: "폐색전증", urgency: "caution" },];
 
 const WAVES: Record<PatternKey, string> = {
   sinus: "M0 120 L18 120 L26 110 L34 120 L54 120 L62 76 L70 154 L79 112 L88 120 L108 120 L118 102 L132 120 L158 120 L166 110 L174 120 L194 120 L202 76 L210 154 L219 112 L228 120 L248 120 L258 102 L272 120 L298 120 L306 110 L314 120 L334 120 L342 76 L350 154 L359 112 L368 120 L388 120 L398 102 L412 120 L438 120 L446 110 L454 120 L474 120 L482 76 L490 154 L499 112 L508 120 L528 120 L538 102 L552 120 L578 120 L586 110 L594 120 L614 120 L622 76 L630 154 L639 112 L648 120 L668 120 L678 102 L692 120",
@@ -41,9 +51,17 @@ const WAVES: Record<PatternKey, string> = {
   hyperK: "M0 120 L22 120 L30 110 L38 120 L58 120 L66 76 L74 154 L83 112 L94 120 L108 120 L122 88 L136 120 L164 120 L172 110 L180 120 L200 120 L208 76 L216 154 L225 112 L236 120 L250 120 L264 88 L278 120 L306 120 L314 110 L322 120 L342 120 L350 76 L358 154 L367 112 L378 120 L392 120 L406 88 L420 120 L448 120 L456 110 L464 120 L484 120 L492 76 L500 154 L509 112 L520 120 L534 120 L548 88 L562 120 L590 120 L598 110 L606 120 L626 120 L634 76 L642 154 L651 112 L662 120 L676 120 L690 88 L696 110",
   hypoK: "M0 120 L20 120 L28 110 L36 120 L56 120 L64 76 L72 154 L81 112 L90 120 L114 120 L124 122 L136 120 L148 108 L160 120 L184 120 L192 110 L200 120 L220 120 L228 76 L236 154 L245 112 L254 120 L278 120 L288 122 L300 120 L312 108 L324 120 L348 120 L356 110 L364 120 L384 120 L392 76 L400 154 L409 112 L418 120 L442 120 L452 122 L464 120 L476 108 L488 120 L512 120 L520 110 L528 120 L548 120 L556 76 L564 154 L573 112 L582 120 L606 120 L616 122 L628 120 L640 108 L652 120 L676 120 L684 110 L696 120",
   brugada: "M0 120 L22 120 L30 110 L38 120 L58 120 L66 76 L74 154 L83 112 L92 138 L112 138 C122 138 128 130 136 120 L162 120 L170 110 L178 120 L198 120 L206 76 L214 154 L223 112 L232 138 L252 138 C262 138 268 130 276 120 L302 120 L310 110 L318 120 L338 120 L346 76 L354 154 L363 112 L372 138 L392 138 C402 138 408 130 416 120 L442 120 L450 110 L458 120 L478 120 L486 76 L494 154 L503 112 L512 138 L532 138 C542 138 548 130 556 120 L582 120 L590 110 L598 120 L618 120 L626 76 L634 154 L643 112 L652 138 L672 138 C682 138 688 130 696 120",
-};
+  apb: "M0 120 L18 120 L26 110 L34 120 L54 120 L62 76 L70 154 L79 112 L88 120 L112 120 L119 96 L128 120 L145 120 L153 76 L161 154 L170 112 L179 120 L205 120 L213 110 L221 120 L241 120 L249 76 L257 154 L266 112 L275 120 L301 120 L309 110 L317 120 L337 120 L345 76 L353 154 L362 112 L371 120 L397 120 L405 110 L413 120 L433 120 L441 76 L449 154 L458 112 L467 120 L493 120 L501 110 L509 120 L529 120 L537 76 L545 154 L554 112 L563 120 L589 120 L597 110 L605 120 L625 120 L633 76 L641 154 L650 112 L659 120 L696 120",
+  wpw: "M0 120 L20 120 L28 108 L36 120 L48 120 L55 112 L62 92 L76 154 L92 116 L106 120 L128 120 L136 108 L144 120 L156 120 L163 112 L170 92 L184 154 L200 116 L214 120 L236 120 L244 108 L252 120 L264 120 L271 112 L278 92 L292 154 L308 116 L322 120 L344 120 L352 108 L360 120 L372 120 L379 112 L386 92 L400 154 L416 116 L430 120 L452 120 L460 108 L468 120 L480 120 L487 112 L494 92 L508 154 L524 116 L538 120 L560 120 L568 108 L576 120 L588 120 L595 112 L602 92 L616 154 L632 116 L646 120 L668 120 L676 108 L684 120 L696 120",
+  vf: "M0 120 C10 52 22 168 35 92 S55 154 68 72 S90 165 106 88 S128 150 142 64 S164 172 180 96 S202 158 217 58 S239 166 254 82 S276 151 290 70 S314 170 329 92 S351 153 365 62 S387 166 403 85 S425 154 440 72 S462 169 478 96 S500 154 516 58 S538 165 552 82 S574 151 590 70 S612 170 628 92 S650 153 665 62 S684 150 696 90",
+  torsades: "M0 120 L24 120 L36 92 L52 148 L74 134 L92 120 L110 120 L123 74 L143 160 L165 150 L185 120 L205 120 L222 58 L246 172 L270 160 L294 120 L314 120 L329 70 L351 164 L373 151 L394 120 L414 120 L429 91 L447 149 L469 135 L489 120 L509 120 L525 74 L547 160 L569 150 L590 120 L610 120 L627 58 L651 172 L675 160 L696 120",
+  longqt: "M0 120 L18 120 L26 110 L34 120 L54 120 L62 76 L70 154 L79 112 L88 120 L128 120 L148 98 L168 120 L198 120 L206 110 L214 120 L234 120 L242 76 L250 154 L259 112 L268 120 L308 120 L328 98 L348 120 L378 120 L386 110 L394 120 L414 120 L422 76 L430 154 L439 112 L448 120 L488 120 L508 98 L528 120 L558 120 L566 110 L574 120 L594 120 L602 76 L610 154 L619 112 L628 120 L668 120 L688 98 L696 120",
+  shortqt: "M0 120 L18 120 L26 110 L34 120 L54 120 L62 76 L70 154 L79 112 L88 120 L96 120 L105 106 L114 120 L136 120 L144 110 L152 120 L172 120 L180 76 L188 154 L197 112 L206 120 L214 120 L223 106 L232 120 L254 120 L262 110 L270 120 L290 120 L298 76 L306 154 L315 112 L324 120 L332 120 L341 106 L350 120 L372 120 L380 110 L388 120 L408 120 L416 76 L424 154 L433 112 L442 120 L450 120 L459 106 L468 120 L490 120 L498 110 L506 120 L526 120 L534 76 L542 154 L551 112 L560 120 L568 120 L577 106 L586 120 L608 120 L616 110 L624 120 L644 120 L652 76 L660 154 L669 112 L678 120 L696 120",
+  osborn: "M0 120 L20 120 L28 110 L36 120 L56 120 L64 76 L72 154 L81 112 L90 128 L98 118 L106 120 L136 120 L144 110 L152 120 L172 120 L180 76 L188 154 L197 112 L206 128 L214 118 L222 120 L252 120 L260 110 L268 120 L288 120 L296 76 L304 154 L313 112 L322 128 L330 118 L338 120 L368 120 L376 110 L384 120 L404 120 L412 76 L420 154 L429 112 L438 128 L446 118 L454 120 L484 120 L492 110 L500 120 L520 120 L528 76 L536 154 L545 112 L554 128 L562 118 L570 120 L600 120 L608 110 L616 120 L636 120 L644 76 L652 154 L661 112 L670 128 L678 118 L686 120 L696 120",  junctional: "M0 120 L35 120 L43 82 L51 154 L60 112 L69 120 L110 120 L118 82 L126 154 L135 112 L144 120 L185 120 L193 82 L201 154 L210 112 L219 120 L260 120 L268 82 L276 154 L285 112 L294 120 L335 120 L343 82 L351 154 L360 112 L369 120 L410 120 L418 82 L426 154 L435 112 L444 120 L485 120 L493 82 L501 154 L510 112 L519 120 L560 120 L568 82 L576 154 L585 112 L594 120 L635 120 L643 82 L651 154 L660 112 L669 120 L696 120",
+  lvh: "M0 120 L18 120 L26 110 L34 120 L54 120 L62 52 L72 164 L82 108 L92 120 L112 120 L122 96 L138 120 L158 120 L166 110 L174 120 L194 120 L202 52 L212 164 L222 108 L232 120 L252 120 L262 96 L278 120 L298 120 L306 110 L314 120 L334 120 L342 52 L352 164 L362 108 L372 120 L392 120 L402 96 L418 120 L438 120 L446 110 L454 120 L474 120 L482 52 L492 164 L502 108 L512 120 L532 120 L542 96 L558 120 L578 120 L586 110 L594 120 L614 120 L622 52 L632 164 L642 108 L652 120 L672 120 L682 96 L696 120",
+  rvh: "M0 120 L18 120 L26 110 L34 120 L54 120 L62 50 L72 156 L82 104 L92 120 L112 120 L122 96 L138 120 L158 120 L166 110 L174 120 L194 120 L202 50 L212 156 L222 104 L232 120 L252 120 L262 96 L278 120 L298 120 L306 110 L314 120 L334 120 L342 50 L352 156 L362 104 L372 120 L392 120 L402 96 L418 120 L438 120 L446 110 L454 120 L474 120 L482 50 L492 156 L502 104 L512 120 L532 120 L542 96 L558 120 L578 120 L586 110 L594 120 L614 120 L622 50 L632 156 L642 104 L652 120 L672 120 L682 96 L696 120",};
 
-type DecisionKey = "rate" | "rhythm" | "axis" | "atrial" | "av" | "qrs" | "stt";
+type DecisionKey = "rate" | "rhythm" | "axis" | "atrial" | "av" | "qrs" | "stt" | "territory";
 type Decision = { key: DecisionKey; number: string; title: string; hint: string; options: Array<[string, string]> };
 const DECISIONS: Decision[] = [
   { key: "rate", number: "01", title: "Rate", hint: "HR 60–100/min · regular rhythm은 1500 / small box", options: [["brady", "< 50/min"], ["normal", "50–149/min"], ["tachy", "≥ 150/min"]] },
@@ -51,8 +69,9 @@ const DECISIONS: Decision[] = [
   { key: "axis", number: "03", title: "Axis", hint: "I · aVF (필요 시 II)를 함께 확인", options: [["normal", "정상축"], ["left", "좌축편위"], ["right", "우축편위"], ["unclear", "판단 보류"]] },
   { key: "atrial", number: "04", title: "P wave", hint: "P morphology 및 P-QRS 관계", options: [["normal", "정상 P"], ["absent", "뚜렷한 P 없음"], ["saw", "saw-tooth"], ["premature", "조기 이상 P"], ["notched", "notched P"]] },
   { key: "av", number: "05", title: "PR / AV relation", hint: "PR 120–200 ms · QRS 탈락·AV dissociation을 찾기", options: [["normal", "정상"], ["first", "PR > 200 ms"], ["mobitz1", "PR 점차 연장 → 탈락"], ["mobitz2", "고정 PR → 탈락"], ["av3", "P-QRS 독립"]] },
-  { key: "qrs", number: "06", title: "QRS / voltage", hint: "QRS ≥120 ms, V1 M/W, voltage까지 확인", options: [["narrow", "narrow"], ["wide_regular", "wide · regular"], ["wide_irregular", "wide · irregular"], ["rbbb", "V1 M / RBBB"], ["lbbb", "V1 W / LBBB"], ["high_voltage", "high voltage"], ["low_voltage", "low voltage"]] },
-  { key: "stt", number: "07", title: "ST-T-QT", hint: "분포·reciprocal change·이전 ECG·전해질 맥락", options: [["none", "특이 없음"], ["stemi", "ST elevation"], ["hyperK", "peaked T"], ["hypoK", "flat T / U wave"], ["longqt", "long QT"], ["shortqt", "short QT"], ["osborn", "Osborn wave"], ["brugada", "coved ST (V1–V3)"]] },
+  { key: "qrs", number: "06", title: "QRS / voltage", hint: "QRS ≥120 ms, V1 M/W, voltage까지 확인", options: [["narrow", "narrow"], ["wide_regular", "wide · regular"], ["wide_irregular", "wide · irregular"], ["rbbb", "V1 M / RBBB"], ["lbbb", "V1 W / LBBB"], ["high_voltage", "high voltage"], ["low_voltage", "low voltage"], ["wpw", "short PR / delta"], ["lvh", "LVH voltage"], ["rvh", "RVH clue"], ["vf", "chaotic / VF"]] },
+  { key: "stt", number: "07", title: "ST-T-QT", hint: "분포·reciprocal change·이전 ECG·전해질 맥락", options: [["none", "특이 없음"], ["stemi", "ST elevation"], ["hyperK", "peaked T"], ["hypoK", "flat T / U wave"], ["longqt", "long QT"], ["shortqt", "short QT"], ["osborn", "Osborn wave"], ["brugada", "coved ST (V1–V3)"], ["torsades", "polymorphic VT / twisting"]] },
+  { key: "territory", number: "08", title: "ST territory", hint: "ST elevation일 때 인접 유도 분포와 reciprocal change를 추가로 확인", options: [["none", "해당 없음"], ["anterior", "V1–V4 anterior/septal"], ["inferior", "II, III, aVF inferior"], ["lateral", "I, aVL, V5–V6 lateral"], ["posterior", "V1–V3 ST depression / tall R"], ["right", "V3R–V4R right ventricle"]] },
 ];
 
 type Interpretation = { title: string; clue: string; action: string; disease?: string; urgency?: Urgency };
@@ -65,7 +84,16 @@ function interpret(answer: Partial<Record<DecisionKey, string>>): Interpretation
   if (answer.stt === "longqt") add({ title: "Long-QT risk pattern", clue: "hypoK/hypoCa, 약물, bradycardia, congenital LQTS를 검토", action: "QT-prolonging 요인과 syncope/torsades 위험을 즉시 재평가한다.", urgency: "caution" });
   if (answer.stt === "shortqt") add({ title: "Short-QT pattern", clue: "hypercalcemia 또는 digoxin 등 맥락을 확인", action: "Ca, 약물·독성 및 환자 상태를 통합해서 해석한다." });
   if (answer.stt === "osborn") add({ title: "Osborn wave", clue: "저체온에서 대표적으로 나타나는 J wave", action: "체온·저체온 원인과 동반 부정맥 위험을 확인한다.", disease: "저체온증", urgency: "caution" });
-  if (answer.stt === "brugada") add({ title: "Brugada pattern", clue: "V1–V3 coved ST elevation은 mimic을 배제해야 한다.", action: "syncope, fever, family history/ventricular arrhythmia 맥락이면 응급·전문가 평가를 우선한다.", disease: "브루가다", urgency: "urgent" });
+  if (answer.stt === "torsades") add({ title: "Polymorphic VT / torsades concern", clue: "twisting polymorphic VT, especially with long-QT context", action: "맥박·불안정성을 즉시 확인하고 기관 polymorphic VT/long-QT 경로와 전해질·약물 교정을 적용한다.", urgency: "urgent" });
+  if (answer.qrs === "wpw") add({ title: "Pre-excitation / WPW pattern", clue: "short PR with delta wave and widened QRS", action: "tachyarrhythmia가 동반되면 pre-excited AF 여부와 불안정성을 우선 확인하고 전문가 평가를 연결한다.", disease: "울프", urgency: "caution" });
+  if (answer.qrs === "vf") add({ title: "Ventricular fibrillation / pulseless rhythm", clue: "organized QRS 없이 chaotic waveform", action: "맥박이 없으면 즉시 cardiac arrest 및 defibrillation 경로를 적용한다.", urgency: "urgent" });
+  if (answer.qrs === "lvh") add({ title: "LVH voltage clue", clue: "V1 S 또는 V5/V6 R ≥30 mm는 한 가지 screening criterion", action: "ECG voltage 단독으로 확정하지 말고 혈압·판막·echo를 포함해 구조적 심질환을 평가한다.", disease: "고혈압" });
+  if (answer.qrs === "rvh") add({ title: "RVH / right-heart strain clue", clue: "V1 R/S >1, right axis, right precordial changes를 함께 확인", action: "PE, pulmonary hypertension, chronic lung disease 맥락과 echo를 통합한다.", disease: "폐색전증", urgency: "caution" });
+  if (answer.territory === "anterior") add({ title: "Anterior / septal ST territory", clue: "V1–V4 contiguous elevation", action: "reciprocal change와 증상을 확인하고 ACS emergency pathway를 적용한다.", disease: "급성 관상동맥 증후군", urgency: "urgent" });
+  if (answer.territory === "inferior") add({ title: "Inferior ST territory", clue: "II, III, aVF contiguous elevation", action: "RV involvement를 고려해 right-sided lead를 추가하고 ACS pathway를 적용한다.", disease: "급성 관상동맥 증후군", urgency: "urgent" });
+  if (answer.territory === "lateral") add({ title: "Lateral ST territory", clue: "I, aVL, V5–V6 contiguous elevation", action: "인접 유도 변화와 reciprocal change를 확인하고 ACS pathway를 적용한다.", disease: "급성 관상동맥 증후군", urgency: "urgent" });
+  if (answer.territory === "posterior") add({ title: "Posterior MI concern", clue: "V1–V3 ST depression with tall R can be posterior pattern", action: "posterior leads V7–V9와 임상 증상을 확인하고 ACS pathway를 적용한다.", disease: "급성 관상동맥 증후군", urgency: "urgent" });
+  if (answer.territory === "right") add({ title: "Right-ventricular involvement concern", clue: "inferior STEMI context with V3R–V4R elevation", action: "right-sided lead와 hemodynamic context를 확인하고 ACS pathway를 적용한다.", disease: "급성 관상동맥 증후군", urgency: "urgent" });  if (answer.stt === "brugada") add({ title: "Brugada pattern", clue: "V1–V3 coved ST elevation은 mimic을 배제해야 한다.", action: "syncope, fever, family history/ventricular arrhythmia 맥락이면 응급·전문가 평가를 우선한다.", disease: "브루가다", urgency: "urgent" });
   if (answer.av === "first") add({ title: "1도 AV block", clue: "모든 P가 전도되며 PR >200 ms", action: "약물, 전해질, 허혈 및 추적 필요성을 임상 맥락과 함께 검토한다.", disease: "방실차단" });
   if (answer.av === "mobitz1") add({ title: "Mobitz I (Wenckebach)", clue: "PR이 점차 길어진 뒤 QRS 탈락", action: "증상·약물·허혈/전해질 원인과 block level을 평가한다.", disease: "방실차단", urgency: "caution" });
   if (answer.av === "mobitz2") add({ title: "Mobitz II / high-grade block", clue: "고정된 PR 뒤 갑작스러운 QRS 탈락", action: "모니터링과 urgent expert evaluation을 지연하지 않는다.", disease: "방실차단", urgency: "urgent" });
@@ -87,6 +115,17 @@ function interpret(answer: Partial<Record<DecisionKey, string>>): Interpretation
   return output;
 }
 
+function EmergencyPathwayCard({ answer }: { answer: Partial<Record<DecisionKey, string>> }) {
+  const cards: Array<{ title: string; urgent?: boolean; steps: string[] }> = [];
+  if (answer.qrs === "vf") cards.push({ title: "VF / pulseless rhythm", urgent: true, steps: ["즉시 cardiac arrest response와 high-quality CPR", "shockable rhythm의 defibrillation 경로 적용", "rhythm check와 reversible cause 평가를 기관 ACLS 흐름에 따라 반복"] });
+  if (answer.qrs === "wide_regular" || answer.stt === "torsades") cards.push({ title: "Wide-complex / polymorphic tachycardia", urgent: true, steps: ["맥박과 hypotension·shock·ischemic pain·acute HF·altered mental status 확인", "불안정하면 synchronized cardioversion 또는 polymorphic VT의 unsynchronized shock 경로", "안정형 wide QRS tachycardia는 기관 antiarrhythmic·expert consultation 경로"] });
+  if (answer.qrs === "narrow" && answer.rate === "tachy" && answer.rhythm === "regular") cards.push({ title: "Stable regular narrow SVT", steps: ["불안정성부터 배제", "안정·규칙·narrow QRS일 때 vagal maneuver 고려", "기관 ACLS/SVT 프로토콜에서 adenosine 및 rate-control 적응증 확인"] });
+  if (answer.rate === "brady" || answer.av === "mobitz2" || answer.av === "av3") cards.push({ title: "Symptomatic bradycardia / high-grade block", urgent: answer.av === "mobitz2" || answer.av === "av3", steps: ["관류저하: hypotension, AMS, shock, ischemic discomfort, acute HF 확인", "airway/oxygenation, cardiac monitor, IV access, 12-lead ECG", "지속적 compromise면 기관 서맥 경로의 atropine → pacing/vasoactive support 및 expert consultation"] });
+  if (answer.stt === "stemi" || answer.territory && answer.territory !== "none") cards.push({ title: "Acute ischemia / STEMI pathway", urgent: true, steps: ["증상·serial 12-lead·reciprocal change와 이전 ECG 확인", "posterior/RV involvement가 의심되면 추가 유도 확보", "시간 의존적 ACS/reperfusion activation은 기관 경로로 즉시 진행"] });
+  if (answer.stt === "hyperK") cards.push({ title: "Hyperkalemia with ECG change", urgent: true, steps: ["monitoring 및 repeat potassium/hemolysis 확인을 병행", "ECG 변화 또는 중증 hyperK면 기관 hyperkalemia emergency protocol 적용", "원인·renal function·acid-base 상태와 재측정으로 반응 확인"] });
+  if (!cards.length) return <section className="rounded-xl border border-slate-200 bg-slate-50 p-5 text-sm leading-6 text-slate-600">판독 선택에 따라 이곳에 처치 경로가 나타납니다. 이 카드는 현장 기관 프로토콜을 대체하지 않습니다.</section>;
+  return <section className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm"><div className="flex items-center gap-2"><HeartPulse className="h-5 w-5 text-rose-700" /><h3 className="text-lg font-semibold text-slate-950">처치 경로 요약</h3></div><div className="mt-4 grid gap-3 lg:grid-cols-2">{cards.map((card) => <article key={card.title} className={card.urgent ? "rounded-lg border border-rose-200 bg-rose-50 p-4" : "rounded-lg border border-sky-200 bg-sky-50 p-4"}><div className="flex items-center gap-2"><h4 className="font-semibold text-slate-950">{card.title}</h4><UrgencyBadge urgency={card.urgent ? "urgent" : undefined} /></div><ol className="mt-3 space-y-2 text-sm leading-6 text-slate-700">{card.steps.map((step, index) => <li key={step} className="flex gap-2"><span className="font-semibold text-slate-500">{index + 1}.</span><span>{step}</span></li>)}</ol></article>)}</div><p className="mt-4 text-xs leading-5 text-slate-500">AHA 2025 Adult Advanced Life Support를 기준 링크로 두며, 실제 약제·용량·에너지 설정은 소속 기관 protocol과 환자 상태를 우선합니다.</p></section>;
+}
 function UrgencyBadge({ urgency }: { urgency?: Urgency }) {
   if (!urgency) return null;
   return <span className={urgency === "urgent" ? "rounded-full bg-rose-100 px-2.5 py-1 text-xs font-semibold text-rose-700" : "rounded-full bg-amber-100 px-2.5 py-1 text-xs font-semibold text-amber-800"}>{urgency === "urgent" ? "즉시 확인" : "주의"}</span>;
@@ -109,7 +148,8 @@ function EcgStrip({ pattern }: { pattern: Pattern }) {
 }
 
 export function ECGWorkbench({ diseases }: { diseases: DiseaseLink[] }) {
-  const [tab, setTab] = useState<"waveform" | "guide">("waveform");
+  const [tab, setTab] = useState<"waveform" | "guide" | "compare">("waveform");
+  const [referenceImage, setReferenceImage] = useState<string>();
   const [selectedPattern, setSelectedPattern] = useState<PatternKey>("sinus");
   const [answers, setAnswers] = useState<Partial<Record<DecisionKey, string>>>({});
   const pattern = PATTERNS.find((item) => item.key === selectedPattern) || PATTERNS[0];
@@ -132,6 +172,7 @@ export function ECGWorkbench({ diseases }: { diseases: DiseaseLink[] }) {
         <div className="inline-flex rounded-xl border border-slate-200 bg-slate-100 p-1 text-sm font-semibold">
           <button type="button" onClick={() => setTab("waveform")} className={tab === "waveform" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>파형 라이브러리</button>
           <button type="button" onClick={() => setTab("guide")} className={tab === "guide" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>판독 도우미</button>
+          <button type="button" onClick={() => setTab("compare")} className={tab === "compare" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>이미지 비교</button>
         </div>
       </div>
     </div>
@@ -155,13 +196,31 @@ export function ECGWorkbench({ diseases }: { diseases: DiseaseLink[] }) {
         </div>
         <div className={pattern.urgency === "urgent" ? "rounded-xl border border-rose-200 bg-rose-50 p-4" : "rounded-xl border border-amber-200 bg-amber-50 p-4"}><div className="flex items-start gap-2"><AlertTriangle className={pattern.urgency === "urgent" ? "mt-0.5 h-4 w-4 text-rose-700" : "mt-0.5 h-4 w-4 text-amber-700"} /><div><p className="text-sm font-semibold text-slate-950">다음 확인</p><p className="mt-1 text-sm leading-6 text-slate-700">{pattern.action}</p></div></div></div>
       </div>
-    </div> : <div className="space-y-5 p-5 lg:p-6">
+    </div> : tab === "guide" ? <div className="space-y-5 p-5 lg:p-6">
       <div className="flex flex-wrap items-center justify-between gap-3"><div><h3 className="text-xl font-semibold text-slate-950">판독 순서를 따라 후보 좁히기</h3><p className="mt-1 text-sm text-slate-600">선택하지 않은 항목은 보류한다. 아래 결과는 감별 단서이며 자동 진단이 아니다.</p></div><button type="button" onClick={() => setAnswers({})} className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-semibold text-slate-700 hover:border-teal-300"><RotateCcw className="h-4 w-4" />초기화</button></div>
       <div className="grid gap-3 xl:grid-cols-2">
         {DECISIONS.map((step) => <article key={step.key} className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm"><div className="flex gap-3"><span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-teal-50 text-xs font-bold text-teal-800">{step.number}</span><div><h4 className="font-semibold text-slate-950">{step.title}</h4><p className="mt-0.5 text-xs leading-5 text-slate-500">{step.hint}</p></div></div><div className="mt-3 flex flex-wrap gap-2">{step.options.map(([value, label]) => <button key={value} type="button" onClick={() => setAnswers((current) => ({ ...current, [step.key]: current[step.key] === value ? undefined : value }))} className={answers[step.key] === value ? "rounded-full border border-teal-600 bg-teal-700 px-3 py-1.5 text-xs font-semibold text-white" : "rounded-full border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-medium text-slate-700 hover:border-teal-300 hover:bg-white"}>{label}</button>)}</div></article>)}
       </div>
       <section className="rounded-xl border border-teal-200 bg-white p-5 shadow-sm"><div className="flex items-center gap-2"><Stethoscope className="h-5 w-5 text-teal-700" /><h3 className="text-lg font-semibold text-slate-950">판독 후보 · 다음 행동</h3></div>
         {interpretations.length ? <div className="mt-4 grid gap-3 lg:grid-cols-2">{interpretations.map((item) => <article key={item.title} className={item.urgency === "urgent" ? "rounded-lg border border-rose-200 bg-rose-50 p-4" : "rounded-lg border border-slate-200 bg-slate-50 p-4"}><div className="flex flex-wrap items-center gap-2"><h4 className="font-semibold text-slate-950">{item.title}</h4><UrgencyBadge urgency={item.urgency} /></div><p className="mt-2 text-sm text-slate-700">{item.clue}</p><p className="mt-2 text-sm leading-6 text-slate-700"><span className="font-semibold">다음:</span> {item.action}</p>{hrefFor(item.disease) ? <Link href={hrefFor(item.disease) || "/disease"} className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-teal-800 hover:underline">관련 질환 문서 <ChevronRight className="h-4 w-4" /></Link> : null}</article>)}</div> : <div className="mt-4 rounded-lg border border-dashed border-slate-300 bg-slate-50 p-4 text-sm leading-6 text-slate-600"><CircleHelp className="mr-2 inline h-4 w-4 text-teal-700" />RR regularity부터 선택하면 조합에 맞는 대표 후보와 확인 포인트가 나타난다.</div>}
+      </section>
+      <EmergencyPathwayCard answer={answers} />
+    </div> : <div className="grid gap-5 p-5 lg:grid-cols-2 lg:p-6">
+      <section className="rounded-xl border border-dashed border-teal-300 bg-white p-5">
+        <h3 className="text-lg font-semibold text-slate-950">내 ECG 이미지 비교</h3>
+        <p className="mt-2 text-sm leading-6 text-slate-600">이미지는 이 브라우저에서만 미리보기로 사용되며 서버에 전송하거나 자동 판독하지 않습니다. 개인정보·식별정보는 올리지 마세요.</p>
+        <label className="mt-4 flex min-h-52 cursor-pointer flex-col items-center justify-center rounded-lg border border-slate-200 bg-slate-50 p-5 text-center hover:border-teal-300">
+          <span className="text-sm font-semibold text-teal-800">ECG strip 또는 12-lead 이미지 선택</span>
+          <span className="mt-1 text-xs text-slate-500">PNG · JPG · WEBP</span>
+          <input type="file" accept="image/png,image/jpeg,image/webp" className="sr-only" onChange={(event) => {
+            const file = event.currentTarget.files?.[0];
+            if (file) setReferenceImage(URL.createObjectURL(file));
+          }} />
+        </label>
+        {referenceImage ? <button type="button" onClick={() => setReferenceImage(undefined)} className="mt-3 text-sm font-semibold text-slate-600 underline">이미지 지우기</button> : null}
+      </section>
+      <section className="rounded-xl border border-slate-200 bg-slate-950 p-3">
+        {referenceImage ? <Image src={referenceImage} alt="Local ECG reference" width={1200} height={600} unoptimized className="max-h-[440px] w-full rounded-lg object-contain" /> : <div className="flex min-h-72 items-center justify-center rounded-lg border border-dashed border-slate-600 px-6 text-center text-sm leading-6 text-slate-400">이미지를 고르면 이곳에 표시됩니다. 파형 라이브러리와 판독 도우미를 오가며 수동으로 비교하세요.</div>}
       </section>
     </div>}
 
