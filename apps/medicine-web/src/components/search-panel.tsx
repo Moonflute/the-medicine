@@ -127,7 +127,7 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
     document.getElementById(`search-result-${activeResultIndex}`)?.scrollIntoView({ block: "nearest" });
   }, [activeResultIndex]);
   return (
-    <section className={`w-full ${className}`.trim()}>
+    <section className={`relative w-full ${className}`.trim()}>
       <label className="surface flex items-center gap-3 px-4 py-3 focus-within:border-teal-600 focus-within:ring-2 focus-within:ring-teal-600/15 sm:px-5 sm:py-4">
         <Search className="h-5 w-5 shrink-0 text-slate-500" />
         <input ref={inputRef} type="text" value={query} onChange={(event) => setSearchQuery(event.target.value)} onKeyDown={handleInputKeyDown} placeholder="예: 가슴 통증, STEMI, metformin" className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" autoFocus />
@@ -142,7 +142,7 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
       ) : null}
 
       {term ? (
-        <div className="mt-4 grid gap-4">
+        <div className="absolute inset-x-0 top-full z-10 mt-4 grid max-h-[calc(50vh-5rem)] gap-4 overflow-y-auto overscroll-contain pb-4">
           {results.length > 0 ? Object.entries(resultGroups).map(([label, group]) => (
             <section key={label}>
               <div className="mb-2 text-xs font-semibold uppercase text-slate-500">{label}</div>
