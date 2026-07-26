@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Activity, AlertTriangle, ChevronRight, CircleHelp, HeartPulse, RotateCcw, Stethoscope } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 
 type DiseaseLink = { slug: string; title: string; aliases: string[] };
 type PatternKey = "sinus" | "af" | "flutter" | "svt" | "vt" | "mobitz1" | "mobitz2" | "av3" | "rbbb" | "lbbb" | "stemi" | "hyperK" | "hypoK" | "brugada" | "apb" | "junctional" | "wpw" | "torsades" | "vf" | "longqt" | "shortqt" | "osborn" | "lvh" | "rvh";
@@ -132,23 +132,22 @@ function UrgencyBadge({ urgency }: { urgency?: Urgency }) {
 }
 
 function EcgStrip({ pattern }: { pattern: Pattern }) {
-  return <div className="overflow-x-auto rounded-xl border border-slate-700 bg-slate-950 shadow-inner">
+  return <div className="overflow-x-auto rounded-xl border border-rose-200 bg-white shadow-inner">
     <svg viewBox="0 0 696 170" className="h-auto min-w-[580px] w-full" role="img" aria-label={pattern.label + " ECG waveform"}>
       <defs>
-        <pattern id="ecg-minor-grid" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M 14 0 L 0 0 0 14" fill="none" stroke="#5f2637" strokeOpacity="0.52" strokeWidth="0.7" /></pattern>
-        <pattern id="ecg-major-grid" width="70" height="70" patternUnits="userSpaceOnUse"><rect width="70" height="70" fill="url(#ecg-minor-grid)" /><path d="M 70 0 L 0 0 0 70" fill="none" stroke="#9e3551" strokeOpacity="0.7" strokeWidth="1.2" /></pattern>
+        <pattern id="ecg-minor-grid" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M 14 0 L 0 0 0 14" fill="none" stroke="#f7cfd4" strokeOpacity="0.9" strokeWidth="0.55" /></pattern>
+        <pattern id="ecg-major-grid" width="70" height="70" patternUnits="userSpaceOnUse"><rect width="70" height="70" fill="url(#ecg-minor-grid)" /><path d="M 70 0 L 0 0 0 70" fill="none" stroke="#e89aa5" strokeOpacity="0.9" strokeWidth="0.85" /></pattern>
       </defs>
-      <rect width="696" height="170" fill="#160b13" />
+      <rect width="696" height="170" fill="#ffffff" />
       <rect width="696" height="170" fill="url(#ecg-major-grid)" />
-      <path d={WAVES[pattern.key]} fill="none" stroke="#f8fafc" strokeWidth="3.1" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M18 25 L18 49 L46 49 L46 25" fill="none" stroke="#94a3b8" strokeWidth="1.5" />
-      <text x="57" y="38" fill="#cbd5e1" fontSize="12">25 mm/s · 10 mm/mV · schematic lead</text>
+      <path d={WAVES[pattern.key]} fill="none" stroke="#c72e42" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M18 25 L18 49 L46 49 L46 25" fill="none" stroke="#b45361" strokeWidth="1.1" />
+      <text x="57" y="38" fill="#8f3443" fontSize="12">25 mm/s · 10 mm/mV · schematic lead</text>
     </svg>
   </div>;
 }
-
-export function ECGWorkbench({ diseases }: { diseases: DiseaseLink[] }) {
-  const [tab, setTab] = useState<"waveform" | "guide" | "compare">("waveform");
+export function ECGWorkbench({ diseases, theory }: { diseases: DiseaseLink[]; theory?: ReactNode }) {
+  const [tab, setTab] = useState<"waveform" | "guide" | "compare" | "theory">("waveform");
   const [referenceImage, setReferenceImage] = useState<string>();
   const [selectedPattern, setSelectedPattern] = useState<PatternKey>("sinus");
   const [answers, setAnswers] = useState<Partial<Record<DecisionKey, string>>>({});
@@ -173,20 +172,20 @@ export function ECGWorkbench({ diseases }: { diseases: DiseaseLink[] }) {
           <button type="button" onClick={() => setTab("waveform")} className={tab === "waveform" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>파형 라이브러리</button>
           <button type="button" onClick={() => setTab("guide")} className={tab === "guide" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>판독 도우미</button>
           <button type="button" onClick={() => setTab("compare")} className={tab === "compare" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>이미지 비교</button>
+          {theory ? <button type="button" onClick={() => setTab("theory")} className={tab === "theory" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>이론</button> : null}
         </div>
       </div>
     </div>
 
-    {tab === "waveform" ? <div className="grid gap-5 p-5 lg:grid-cols-[250px_minmax(0,1fr)] lg:p-6">
-      <div className="space-y-4">
-        {groups.map((group) => <div key={group}>
-          <p className="mb-2 text-xs font-bold uppercase tracking-wider text-slate-500">{group}</p>
-          <div className="grid gap-1.5 sm:grid-cols-2 lg:grid-cols-1">
-            {PATTERNS.filter((item) => item.group === group).map((item) => <button key={item.key} type="button" onClick={() => setSelectedPattern(item.key)} className={selectedPattern === item.key ? "flex items-center justify-between rounded-lg border border-teal-400 bg-teal-700 px-3 py-2.5 text-left text-sm font-semibold text-white shadow-sm" : "flex items-center justify-between rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-left text-sm font-medium text-slate-700 transition hover:border-teal-300"}>
-              <span>{item.label}</span><ChevronRight className="h-4 w-4 shrink-0" />
-            </button>)}
-          </div>
-        </div>)}
+    {tab === "waveform" ? <div className="space-y-5 p-5 lg:p-6">
+      <div className="flex flex-wrap items-end justify-between gap-4 rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+        <div><p className="text-xs font-bold uppercase tracking-wider text-slate-500">ECG pattern</p><p className="mt-1 text-sm text-slate-600">선택한 패턴의 schematic 파형과 핵심 단서를 확인합니다.</p></div>
+        <label className="grid min-w-[250px] gap-1.5 text-sm font-semibold text-slate-700">
+          <span>심전도 종류 선택</span>
+          <select value={selectedPattern} onChange={(event) => setSelectedPattern(event.target.value as PatternKey)} className="h-11 rounded-lg border border-slate-300 bg-white px-3 text-sm font-semibold text-slate-950 outline-none transition focus:border-teal-600 focus:ring-2 focus:ring-teal-100">
+            {groups.map((group) => <optgroup key={group} label={group}>{PATTERNS.filter((item) => item.group === group).map((item) => <option key={item.key} value={item.key}>{item.label}</option>)}</optgroup>)}
+          </select>
+        </label>
       </div>
       <div className="min-w-0 space-y-4">
         <EcgStrip pattern={pattern} />
@@ -205,7 +204,7 @@ export function ECGWorkbench({ diseases }: { diseases: DiseaseLink[] }) {
         {interpretations.length ? <div className="mt-4 grid gap-3 lg:grid-cols-2">{interpretations.map((item) => <article key={item.title} className={item.urgency === "urgent" ? "rounded-lg border border-rose-200 bg-rose-50 p-4" : "rounded-lg border border-slate-200 bg-slate-50 p-4"}><div className="flex flex-wrap items-center gap-2"><h4 className="font-semibold text-slate-950">{item.title}</h4><UrgencyBadge urgency={item.urgency} /></div><p className="mt-2 text-sm text-slate-700">{item.clue}</p><p className="mt-2 text-sm leading-6 text-slate-700"><span className="font-semibold">다음:</span> {item.action}</p>{hrefFor(item.disease) ? <Link href={hrefFor(item.disease) || "/disease"} className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-teal-800 hover:underline">관련 질환 문서 <ChevronRight className="h-4 w-4" /></Link> : null}</article>)}</div> : <div className="mt-4 rounded-lg border border-dashed border-slate-300 bg-slate-50 p-4 text-sm leading-6 text-slate-600"><CircleHelp className="mr-2 inline h-4 w-4 text-teal-700" />RR regularity부터 선택하면 조합에 맞는 대표 후보와 확인 포인트가 나타난다.</div>}
       </section>
       <EmergencyPathwayCard answer={answers} />
-    </div> : <div className="grid gap-5 p-5 lg:grid-cols-2 lg:p-6">
+    </div> : tab === "theory" && theory ? <div className="p-5 lg:p-6">{theory}</div> : <div className="grid gap-5 p-5 lg:grid-cols-2 lg:p-6">
       <section className="rounded-xl border border-dashed border-teal-300 bg-white p-5">
         <h3 className="text-lg font-semibold text-slate-950">내 ECG 이미지 비교</h3>
         <p className="mt-2 text-sm leading-6 text-slate-600">이미지는 이 브라우저에서만 미리보기로 사용되며 서버에 전송하거나 자동 판독하지 않습니다. 개인정보·식별정보는 올리지 마세요.</p>
