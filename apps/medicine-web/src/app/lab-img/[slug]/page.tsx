@@ -1,13 +1,14 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { DomainNoteCard } from "@/components/domain-note-card";
+import { ECGWorkbench } from "@/components/ecg-workbench";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { ReviewSaveButton } from "@/components/review-save-button";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
 import { buildLabImgOverviewGroups, isLabImgOverviewNote } from "@/lib/lab-img-overview";
-import { getClinicalRelationsFor, getLabImgNoteBySlug, getLabImgNotes, getLabImgToc } from "@/lib/webdb";
+import { getAllDiseases, getClinicalRelationsFor, getLabImgNoteBySlug, getLabImgNotes, getLabImgToc } from "@/lib/webdb";
 
 function isReferenceSection(title: string) {
   return /참고|reference|references|bibliography|출처/i.test(title);
@@ -24,6 +25,7 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
   if (!note) notFound();
 
   const allNotes = getLabImgNotes();
+  const isEcgHub = note.aliases.includes("EKG") && note.aliases.includes("ECG");
   const visibleSections = note.sections.filter((section) => !isReferenceSection(section.title));
   const overviewGroups = buildLabImgOverviewGroups(note, allNotes);
   const showOverviewTable = isLabImgOverviewNote(note) && overviewGroups.length > 0;
@@ -44,6 +46,7 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
         <ReviewSaveButton item={{ type: "lab", id: note.id, title: note.title, href: `/lab-img/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} />
       </div>
       <DomainNoteCard note={note} />
+      {isEcgHub ? <ECGWorkbench diseases={getAllDiseases()} /> : null}
       <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
         {showOverviewTable ? (
           <div className="space-y-5">
