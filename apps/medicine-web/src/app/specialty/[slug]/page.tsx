@@ -3,7 +3,7 @@ import Link from "next/link";
 import { CalendarDays, CheckCircle2, ChevronRight } from "lucide-react";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { InfectionToolEntry } from "@/components/infection-tool-entry";
-import { getDiseasesBySpecialty, getSpecialties, getSpecialtyRoadmap, getSpecialtyToc } from "@/lib/webdb";
+import { getDiseasesBySpecialty, getSpecialties, getSpecialtyRoadmap, getSpecialtyToc, isSpecialtyIndexDisease } from "@/lib/webdb";
 
 const THIRD_LEVEL_MIN_ITEMS = 4;
 
@@ -265,8 +265,8 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
 
   const specialtyLabel = title.replace(/^\d+\s*/, "").trim();
   const toc = getSpecialtyToc(slug);
-  const grouped = buildGroups(notes, specialtyLabel, buildTocOrder(toc));
-  const specialtyOverviewNote = grouped.find((group) => group.title === specialtyLabel)?.overviewNote;
+  const specialtyOverviewNote = notes.find((note) => isSpecialtyIndexDisease(note));
+  const grouped = buildGroups(notes.filter((note) => !isSpecialtyIndexDisease(note)), specialtyLabel, buildTocOrder(toc));
   const visibleGroups = grouped.filter((group) => !(group.title === specialtyLabel && group.secondLevel.length === 0));
   const roadmap = getSpecialtyRoadmap(slug);
 
