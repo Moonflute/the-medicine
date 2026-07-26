@@ -6,6 +6,7 @@ aliases:
 계통: 부인과
 분류:
 - 부인과
+- 성매개감염
 CC:
 - 피부 발진
 preprocessing_required: x

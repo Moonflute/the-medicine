@@ -6,7 +6,8 @@ aliases:
 - disease
 계통: 부인과
 분류:
-- 무월경
+- 부인과
+- 배란·내분비
 CC:
 - 월경이상
 preprocessing_required: x

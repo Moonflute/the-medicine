@@ -6,6 +6,7 @@ aliases:
 계통: 부인과
 분류:
 - 부인과
+- 유방 질환
 CC:
 - 발열
 preprocessing_required: x

@@ -6,8 +6,9 @@ aliases:
 - disease
 계통: 부인과
 분류:
+- 부인과
 - 부인과 종양
-- 임신융모질환
+- 임신성 융모 종양
 CC:
 - 출혈
 preprocessing_required: x

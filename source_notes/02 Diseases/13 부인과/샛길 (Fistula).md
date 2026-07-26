@@ -7,6 +7,7 @@ aliases:
 계통: 부인과
 분류:
 - 부인과
+- 골반저·비뇨생식
 CC:
 - 검진 이상
 preprocessing_required: x

@@ -6,8 +6,9 @@ aliases:
 - disease
 계통: 부인과
 분류:
+- 부인과
 - 부인과 종양
-- 난소종양
+- 난관 종양
 CC:
 - 골반통
 preprocessing_required: x

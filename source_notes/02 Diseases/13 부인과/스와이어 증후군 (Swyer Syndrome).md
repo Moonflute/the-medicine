@@ -5,7 +5,8 @@ aliases:
 - disease
 계통: 부인과
 분류:
-- 무월경
+- 부인과
+- 무월경·성분화
 CC:
 - 월경이상
 preprocessing_required: x

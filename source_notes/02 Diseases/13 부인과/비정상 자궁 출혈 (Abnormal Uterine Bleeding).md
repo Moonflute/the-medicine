@@ -8,6 +8,7 @@ aliases:
 계통: 부인과
 분류:
 - 부인과
+- 월경 이상
 CC:
 - 출혈
 preprocessing_required: x

@@ -5,8 +5,9 @@ aliases:
 - disease
 계통: 부인과
 분류:
+- 부인과
 - 부인과 종양
-- 비상피성 난소암
+- 난소 종양
 CC:
 - 검진 이상
 preprocessing_required: x

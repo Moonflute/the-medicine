@@ -5,7 +5,8 @@ aliases:
 - disease
 계통: 부인과
 분류:
-- 불임
+- 부인과
+- 선천성·구조 질환
 CC:
 - 월경이상
 preprocessing_required: x
