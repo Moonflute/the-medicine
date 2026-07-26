@@ -82,5 +82,3 @@ review_status: draft
 
 ## 출처
 - openFDA drug label API (US)
-- INN query: tamoxifen
-- 분류 참고: rd_chapter=Ch 57

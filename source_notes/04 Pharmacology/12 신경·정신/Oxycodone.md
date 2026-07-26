@@ -70,5 +70,3 @@ sources_ref: "openFDA drug label API (US)"
 
 ## 출처
 - openFDA drug label API (US)
-- INN query: `oxycodone`
-- 분류 참고: `rd_chapter=Ch 43`

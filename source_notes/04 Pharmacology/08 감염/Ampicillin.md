@@ -75,5 +75,3 @@ review_status: draft
 
 ## 출처
 - openFDA drug label API (US)
-- INN query: `ampicillin`
-- 분류 참고: `rd_chapter=Ch 52`

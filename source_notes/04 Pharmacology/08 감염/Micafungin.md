@@ -72,5 +72,3 @@ sources_ref: "openFDA drug label API (US)"
 
 ## 출처
 - openFDA drug label API (US)
-- INN query: `micafungin`
-- 분류 참고: `rd_chapter=Ch 54`

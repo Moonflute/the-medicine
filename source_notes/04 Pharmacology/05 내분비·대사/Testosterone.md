@@ -71,5 +71,3 @@ review_status: draft
 
 ## 출처
 - openFDA drug label API (US)
-- INN query: `testosterone`
-- 분류 참고: `rd_chapter=Ch 35`
