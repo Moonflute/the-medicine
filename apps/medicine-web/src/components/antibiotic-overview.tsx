@@ -33,6 +33,25 @@ const PREGNANCY_LABELS: Record<PregnancyStatus, string> = {
   avoid_if_possible: "가능하면 회피", contraindicated: "금기", insufficient_data: "자료 불충분",
 };
 const ROUTES = ["PO", "IV", "IM", "inhaled", "topical"];
+const MATRIX_ORGANISM_LABELS: Record<string, string> = {
+  "Streptococcus spp.": "Strep. spp.",
+  "Streptococcus pneumoniae": "S. pneumoniae",
+  "Enterococcus faecalis": "E. faecalis",
+  "Enterococcus faecium": "E. faecium",
+  "Listeria monocytogenes": "L. monocytogenes",
+  "Haemophilus influenzae": "H. influenzae",
+  "Neisseria spp.": "Neisseria spp.",
+  "Escherichia coli": "E. coli",
+  "Klebsiella pneumoniae": "K. pneumoniae",
+  "Enterobacter cloacae": "E. cloacae",
+  "Pseudomonas aeruginosa": "P. aeruginosa",
+  "Acinetobacter baumannii": "A. baumannii",
+  "Bacteroides fragilis": "B. fragilis",
+  "Clostridioides difficile": "C. difficile",
+  "Mycoplasma pneumoniae": "M. pneumoniae",
+  "Chlamydia pneumoniae": "C. pneumoniae",
+};
+function matrixOrganismLabel(label: string) { return MATRIX_ORGANISM_LABELS[label] ?? label; }
 
 function normalize(value: string) { return value.toLocaleLowerCase().replace(/[\s/_-]+/g, ""); }
 function drugMatches(entry: AntibioticEntry, query: string) {
@@ -87,7 +106,7 @@ function SpectrumTable({ antibiotics, organisms, matchingOnly }: { antibiotics: 
         {groups.map(({ group, organisms: items }) => <th key={group} colSpan={items.length} className={`border-b border-r border-white/30 px-2 py-2 text-center font-semibold ${GROUP_META[group].table}`}>{GROUP_META[group].label}</th>)}
       </tr>
       <tr>
-        {groups.flatMap(({ organisms: items }) => items).map((organism) => <th key={organism.id} className="min-w-20 max-w-24 border-b border-r border-slate-700 bg-slate-950 px-1.5 py-2 align-bottom sm:min-w-24 sm:max-w-28 sm:px-2"><span className="block leading-4">{organism.label}</span></th>)}
+        {groups.flatMap(({ organisms: items }) => items).map((organism) => <th key={organism.id} title={organism.label} className="min-w-14 max-w-16 border-b border-r border-slate-700 bg-slate-950 px-1 py-2 align-bottom sm:min-w-16 sm:max-w-20"><span className="block text-[11px] leading-4">{matrixOrganismLabel(organism.label)}</span></th>)}
       </tr>
     </thead>
     {rows.map(({ meta, notes }) => <tbody key={meta.key}>
