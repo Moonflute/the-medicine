@@ -9,7 +9,7 @@ category_id: "line"
 category_name: "6. 혈관 라인"
 icon_name: "GitCommit"
 order: 3
-video_url: 
+video_url: "https://www.youtube.com/embed/Ao8kvSBTTTM"
 sources:
 - Merck Manual Professional: How To Do Internal Jugular Vein Cannulation | https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-central-vascular-procedures/how-to-do-internal-jugular-vein-cannulation
 - Merck Manual Professional: Vascular Access | https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/vascular-access

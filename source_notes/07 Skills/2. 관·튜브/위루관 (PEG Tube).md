@@ -5,7 +5,7 @@ category_id: "tubes"
 category_name: "2. 관·튜브"
 icon_name: "TestTube"
 order: 8
-video_url: 
+video_url: "https://www.youtube.com/embed/svsKicfKogA"
 sources:
 - NHS: Care of a PEG Feeding Tube | https://www.kentcht.nhs.uk/leaflet/care-of-a-peg-feeding-tube/
 ---

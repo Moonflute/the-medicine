@@ -5,7 +5,7 @@ category_id: "advanced"
 category_name: "4. 고급 술기"
 icon_name: "Stethoscope"
 order: 3
-video_url: 
+video_url: "https://www.youtube.com/embed/_8p9d8ZOWUk"
 sources:
 - Merck Manual Professional: How To Do Lumbar Puncture | https://www.merckmanuals.com/professional/neurologic-disorders/how-to-do-lumbar-puncture/how-to-do-lumbar-puncture
 ---

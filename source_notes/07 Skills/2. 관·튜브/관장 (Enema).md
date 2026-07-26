@@ -5,7 +5,7 @@ category_id: "tubes"
 category_name: "2. 관·튜브"
 icon_name: "TestTube"
 order: 4
-video_url: 
+video_url: "https://www.youtube.com/embed/8w-3h50E17Q"
 sources:
 - NCBI Bookshelf: Administration of Enteral Medications—Enema | https://www.ncbi.nlm.nih.gov/books/NBK596740/
 ---

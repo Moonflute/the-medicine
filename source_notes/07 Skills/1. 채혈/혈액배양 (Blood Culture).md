@@ -5,7 +5,7 @@ category_id: "blood"
 category_name: "1. 채혈"
 icon_name: "Droplet"
 order: 4
-video_url: 
+video_url: "https://www.youtube.com/embed/GiZP8zd7YtI"
 sources:
 - CDC: Blood Culture Contamination Overview | https://www.cdc.gov/antibiotic-use/core-elements/pdfs/FS-BloodCulture-508.pdf
 - Merck Manual Professional: How To Do Venous Blood Sampling | https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-peripheral-vascular-procedures/how-to-do-venous-blood-sampling

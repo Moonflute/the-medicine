@@ -5,7 +5,7 @@ category_id: "blood"
 category_name: "1. 채혈"
 icon_name: "Droplet"
 order: 2
-video_url: 
+video_url: "https://www.youtube.com/embed/Vo4PJBcNvDg"
 sources:
 - Merck Manual Professional: How To Insert a Radial Artery Catheter | https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-peripheral-vascular-procedures/how-to-insert-a-radial-artery-catheter
 - Merck Manual Professional: Acute Hypoxemic Respiratory Failure | https://www.merckmanuals.com/professional/critical-care-medicine/respiratory-failure-and-mechanical-ventilation/acute-hypoxemic-respiratory-failure-ahrf-ards

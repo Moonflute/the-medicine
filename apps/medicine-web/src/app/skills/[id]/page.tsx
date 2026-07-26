@@ -59,9 +59,10 @@ export default async function SkillDetailPage(props: { params: Promise<{ id: str
             allowFullScreen
           />
         ) : (
-          <div className="flex aspect-video flex-col items-center justify-center text-slate-300">
-            <VideoOff className="mb-4 h-16 w-16 opacity-50" />
-            <p className="text-lg font-medium">Video not added yet.</p>
+          <div className="flex aspect-video flex-col items-center justify-center px-6 text-center text-slate-300">
+            <VideoOff className="mb-4 h-12 w-12 opacity-50" />
+            <p className="text-base font-medium">검증 가능한 실무 교육 영상을 선별 중입니다.</p>
+            <p className="mt-2 max-w-lg text-sm leading-6 text-slate-400">장비·기관 프로토콜에 따라 달라지는 술기는 일반 설명 영상 대신 해당 기관의 교육 자료를 우선합니다.</p>
           </div>
         )}
       </div>

@@ -5,7 +5,7 @@ category_id: "line"
 category_name: "6. 혈관 라인"
 icon_name: "GitCommit"
 order: 1
-video_url: 
+video_url: "https://www.youtube.com/embed/HE7dJxFMBPE"
 sources:
 - Merck Manual Professional: How To Insert a Radial Artery Catheter | https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-peripheral-vascular-procedures/how-to-insert-a-radial-artery-catheter
 - Merck Manual Professional: Monitoring and Testing the Critical Care Patient | https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/monitoring-and-testing-the-critical-care-patient

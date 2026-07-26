@@ -5,7 +5,7 @@ category_id: "tubes"
 category_name: "2. 관·튜브"
 icon_name: "TestTube"
 order: 5
-video_url: 
+video_url: "https://www.youtube.com/embed/69A6mdtfSek"
 sources:
 - NCBI Bookshelf: Manage Chest Tube Drainage Systems | https://www.ncbi.nlm.nih.gov/books/NBK594490/
 - Merck Manual Professional: How To Do Tube and Catheter Thoracostomy | https://www.merckmanuals.com/professional/pulmonary-disorders/how-to-do-pulmonary-procedures/how-to-do-tube-and-catheter-thoracostomy

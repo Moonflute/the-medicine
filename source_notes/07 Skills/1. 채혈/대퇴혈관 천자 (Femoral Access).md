@@ -5,7 +5,7 @@ category_id: "blood"
 category_name: "1. 채혈"
 icon_name: "Droplet"
 order: 3
-video_url: 
+video_url: "https://www.youtube.com/embed/ZUnIHbahP5I"
 sources:
 - Merck Manual Professional: How To Do Femoral Artery Cannulation, Ultrasound-Guided | https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-central-vascular-procedures/how-to-do-femoral-artery-cannulation-ultrasound-guided
 - Merck Manual Professional: Vascular Access | https://www.merckmanuals.com/professional/critical-care-medicine/approach-to-the-critically-ill-patient/vascular-access

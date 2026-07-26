@@ -11,7 +11,7 @@ export default function QbankPage() {
       <header className="page-header">
         <div className="eyebrow">Review · Q-bank</div>
         <h1 className="page-title">임상 문제 풀기</h1>
-        <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-600">MedQA-US의 USMLE Step 2/3형 임상증례 문제를 분과별로 풀고 오답과 진행 상태를 관리합니다.</p>
+        <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-600">임상증례 문제를 풀어봅니다.</p>
       </header>
       <QbankDashboardClient specialties={specialties} />
     </div>

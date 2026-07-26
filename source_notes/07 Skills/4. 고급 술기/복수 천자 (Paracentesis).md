@@ -5,7 +5,7 @@ category_id: "advanced"
 category_name: "4. 고급 술기"
 icon_name: "Stethoscope"
 order: 1
-video_url: 
+video_url: "https://www.youtube.com/embed/KVpwXK7cvzQ"
 sources:
 - Merck Manual Professional: How To Do Paracentesis | https://www.merckmanuals.com/professional/gastrointestinal-disorders/how-to-do-gastrointestinal-procedures/how-to-do-paracentesis
 ---

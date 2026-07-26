@@ -5,7 +5,7 @@ category_id: "tubes"
 category_name: "2. 관·튜브"
 icon_name: "TestTube"
 order: 2
-video_url: 
+video_url: "https://www.youtube.com/embed/vtADuFBZvEU"
 sources:
 - UCLH NHS: About Artificial Breathing Tubes (Tracheostomy Tubes) | https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/about-artificial-breathing-tracheostomy-tubes
 ---

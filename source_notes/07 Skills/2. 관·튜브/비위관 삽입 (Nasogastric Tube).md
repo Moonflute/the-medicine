@@ -5,7 +5,7 @@ category_id: "tubes"
 category_name: "2. 관·튜브"
 icon_name: "TestTube"
 order: 1
-video_url: 
+video_url: "https://www.youtube.com/embed/ief6SBTHqrw"
 sources:
 - AHRQ PSNet: Misplaced Nasogastric Tube Resulting in Aspiration | https://psnet.ahrq.gov/web-mm/misplaced-nasogastric-tube-resulting-aspiration
 - Merck Manual Professional: Nasogastric Intubation or Intestinal Intubation | https://www.merckmanuals.com/professional/gastrointestinal-disorders/diagnostic-and-therapeutic-gastrointestinal-procedures/nasogastric-intubation-or-intestinal-intubation

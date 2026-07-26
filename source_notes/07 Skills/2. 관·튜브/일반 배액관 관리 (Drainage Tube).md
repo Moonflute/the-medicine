@@ -5,7 +5,7 @@ category_id: "tubes"
 category_name: "2. 관·튜브"
 icon_name: "TestTube"
 order: 3
-video_url: 
+video_url: "https://www.youtube.com/embed/xDv1D2c8eLY"
 sources:
 - NCBI Bookshelf: Suction Drains | https://www.ncbi.nlm.nih.gov/books/NBK557687/
 - Merck Manual Professional: How To Cleanse, Irrigate, Debride, and Dress Wounds | https://www.merckmanuals.com/professional/injuries-poisoning/how-to-care-for-wounds-and-lacerations/how-to-cleanse-irrigate-debride-and-dress-wounds

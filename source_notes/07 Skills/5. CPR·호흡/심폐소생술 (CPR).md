@@ -5,7 +5,7 @@ category_id: "cpr"
 category_name: "5. CPR·호흡"
 icon_name: "HeartPulse"
 order: 2
-video_url: 
+video_url: "https://www.youtube.com/embed/hblmFtbyYKQ"
 sources:
 - American Heart Association: 2025 CPR & ECC Guidelines | https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines
 - Merck Manual Professional: Shock | https://www.merckmanuals.com/professional/critical-care-medicine/shock-and-fluid-resuscitation/shock

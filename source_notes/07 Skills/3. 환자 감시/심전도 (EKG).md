@@ -5,7 +5,7 @@ category_id: "monitoring"
 category_name: "3. 환자 감시"
 icon_name: "ActivitySquare"
 order: 1
-video_url: 
+video_url: "https://www.youtube.com/embed/Gu69NT5JLOU"
 sources:
 - Merck Manual Professional: Electrocardiography | https://www.merckmanuals.com/professional/cardiovascular-disorders/cardiovascular-tests-and-procedures/electrocardiography
 ---

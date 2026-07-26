@@ -5,7 +5,7 @@ category_id: "monitoring"
 category_name: "3. 환자 감시"
 icon_name: "ActivitySquare"
 order: 5
-video_url: 
+video_url: "https://www.youtube.com/embed/xPDeCLlB5j0"
 sources:
 - Merck Manual Professional: Fetal Monitoring During Labor and Delivery | https://www.merckmanuals.com/professional/gynecology-and-obstetrics/labor-and-delivery/fetal-monitoring-during-labor-and-delivery
 ---

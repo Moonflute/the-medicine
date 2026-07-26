@@ -5,7 +5,7 @@ category_id: "line"
 category_name: "6. 혈관 라인"
 icon_name: "GitCommit"
 order: 4
-video_url: 
+video_url: "https://www.youtube.com/embed/3bdiwHIlJQk"
 sources:
 - Merck Manual Professional: How To Insert a Peripheral Intravenous Catheter | https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-peripheral-vascular-procedures/how-to-insert-a-peripheral-intravenous-catheter
 - Merck Manual Professional: How To Do Peripheral Vein Cannulation | https://www.merckmanuals.com/professional/critical-care-medicine/how-to-do-peripheral-vascular-procedures/how-to-do-peripheral-vein-cannulation
