@@ -244,7 +244,7 @@ function renderParagraph(text: string, className: string, termLinks: TermLink[],
 function renderEmphasisLabel(text: string, termLinks: TermLink[], wikiLinks: TermLink[]) {
   return (
     <div className="pt-1">
-      <div className="text-[17px] font-semibold  text-slate-950">
+      <div className="text-[15px] font-semibold leading-7 text-slate-950">
         {renderInline(normalizeLabelText(text), termLinks, wikiLinks)}
       </div>
     </div>
