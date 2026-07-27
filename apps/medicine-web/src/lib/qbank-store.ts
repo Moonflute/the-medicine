@@ -84,9 +84,9 @@ export function loadQbankState(): QbankState {
   }
 }
 
-export function saveQbankState(state: QbankState) {
+export function saveQbankState(state: QbankState, source: "local" | "remote" = "local") {
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-  window.dispatchEvent(new CustomEvent(CHANGE_EVENT));
+  window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: { source } }));
 }
 
 export function recordQbankAttempt(questionId: string, answer: QbankAnswer, correct: boolean) {
@@ -160,6 +160,11 @@ export function importQbankData(value: unknown) {
     dailyActivity: loadDailyActivity(candidate.dailyActivity, Array.isArray(candidate.sessions) ? candidate.sessions.slice(0, 100) : []),
   };
   saveQbankState(state);
+}
+
+export function replaceQbankSyncData(state: QbankState) {
+  if (typeof window === "undefined") return;
+  saveQbankState(state, "remote");
 }
 
 export const QBANK_CHANGE_EVENT = CHANGE_EVENT;

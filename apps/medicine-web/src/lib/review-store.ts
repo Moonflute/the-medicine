@@ -54,8 +54,8 @@ function readArray<T>(key: string): T[] {
   }
 }
 
-function emitChange() {
-  window.dispatchEvent(new CustomEvent(CHANGE_EVENT));
+function emitChange(source: "local" | "remote" = "local") {
+  window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: { source } }));
 }
 
 function catalogKey(type: string, id: string) {
@@ -133,9 +133,9 @@ export function loadReviewItems(catalog: ReviewCatalogItem[] = []): ReviewItem[]
   return migrated;
 }
 
-export function saveReviewItems(items: ReviewItem[]) {
+export function saveReviewItems(items: ReviewItem[], source: "local" | "remote" = "local") {
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
-  emitChange();
+  emitChange(source);
 }
 
 export function toggleReviewItem(item: ReviewCatalogItem) {
@@ -237,6 +237,14 @@ export function importReviewData(value: unknown) {
   if (Array.isArray(data.recentItems)) window.localStorage.setItem(RECENT_KEY, JSON.stringify(data.recentItems));
   if (data.coverage && typeof data.coverage === "object") window.localStorage.setItem(COVERAGE_KEY, JSON.stringify(data.coverage));
   emitChange();
+}
+
+export function replaceReviewSyncData(items: ReviewItem[], recentItems: RecentReviewItem[], coverage: Record<string, ReviewCoverageItem>) {
+  if (typeof window === "undefined") return;
+  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+  window.localStorage.setItem(RECENT_KEY, JSON.stringify(recentItems));
+  window.localStorage.setItem(COVERAGE_KEY, JSON.stringify(coverage));
+  emitChange("remote");
 }
 
 export const REVIEW_CHANGE_EVENT = CHANGE_EVENT;

@@ -4,6 +4,8 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { Activity, BookOpenCheck, FlaskConical, HeartPulse, House, Menu, Pill, Search, Stethoscope, X } from "lucide-react";
+import { AuthStatus } from "@/components/auth-status";
+import { LearningSyncProvider } from "@/components/learning-sync-provider";
 
 const navItems = [
   { href: "/", label: "Home", icon: House },
@@ -52,6 +54,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="min-h-screen bg-slate-100 text-slate-950">
+      <LearningSyncProvider />
       <div className="mx-auto flex min-h-screen max-w-[1680px]">
         <aside className="hidden w-64 shrink-0 border-r border-slate-200 bg-slate-950 px-4 py-5 text-slate-100 xl:block">
           <Link href="/" className="mb-7 flex items-center gap-3 px-2">
@@ -102,10 +105,13 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                   {pathname === "/" ? <div className="text-xs text-slate-500 xl:hidden">v {version}</div> : null}
                 </div>
               </div>
-              <Link href="/search" className="secondary-action whitespace-nowrap">
-                <Search className="h-4 w-4" />
-                Search
-              </Link>
+              <div className="flex items-center gap-2">
+                <AuthStatus />
+                <Link href="/search" className="secondary-action whitespace-nowrap">
+                  <Search className="h-4 w-4" />
+                  Search
+                </Link>
+              </div>
             </div>
             {open && (
               <div className="border-t border-slate-200 bg-white px-4 py-3 xl:hidden">
