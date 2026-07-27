@@ -23,6 +23,7 @@ export default function ReviewPage() {
       title: note.title,
       href: `/disease/${note.slug}`,
       category: note.specialty,
+      categories: [...new Set([note.specialty, ...note.relatedSpecialties].filter(Boolean))],
       summary: note.definition || note.overview?.[0] || "",
     })),
     ...getChiefComplaints().map((note) => ({

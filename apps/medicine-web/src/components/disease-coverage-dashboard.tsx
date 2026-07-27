@@ -147,10 +147,12 @@ function detail(stat?: ReviewCoverageItem) {
 
 function groupBySpecialty(items: ReviewCatalogItem[]) {
   const grouped = new Map<string, ReviewCatalogItem[]>();
-  for (const item of items) grouped.set(item.category, [...(grouped.get(item.category) ?? []), item]);
+  for (const item of items) {
+    const specialties = [...new Set((item.categories?.length ? item.categories : [item.category]).filter(Boolean))];
+    for (const specialty of specialties) grouped.set(specialty, [...(grouped.get(specialty) ?? []), item]);
+  }
   return [...grouped.entries()].map(([name, groupItems]) => ({ name, items: groupItems }));
 }
-
 function Pixel({ item, stat, color, size = 13 }: { item: ReviewCatalogItem; stat?: ReviewCoverageItem; color: string; size?: number }) {
   return <Link href={item.href} className="block border border-white/70 transition hover:z-10 hover:scale-150 hover:border-slate-900 focus:z-10 focus:scale-150 focus:outline-none focus:ring-2 focus:ring-teal-500" style={{ width: size, height: size, backgroundColor: stat ? color : "#cbd5e1", borderRadius: 2 }} title={`${item.title} · ${detail(stat)}`} aria-label={`${item.title}, ${detail(stat)}`} />;
 }

@@ -2,6 +2,7 @@
 
 import { Settings2, Shuffle } from "lucide-react";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import type { ReviewCatalogItem, ReviewDomain } from "@/lib/review-store";
 
 const STORAGE_KEY = "medicine-web-random-page-domains";
@@ -21,6 +22,7 @@ function isReviewDomain(value: unknown): value is ReviewDomain {
 }
 
 export function RandomPageLearningCard({ catalog }: { catalog: ReviewCatalogItem[] }) {
+  const router = useRouter();
   const [domains, setDomains] = useState<ReviewDomain[]>(DEFAULT_DOMAINS);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [message, setMessage] = useState("");
@@ -62,7 +64,8 @@ export function RandomPageLearningCard({ catalog }: { catalog: ReviewCatalogItem
     }
 
     const page = candidates[Math.floor(Math.random() * candidates.length)];
-    window.location.assign(page.href);
+    setMessage("");
+    router.push(page.href);
   }
 
   return (
@@ -85,7 +88,7 @@ export function RandomPageLearningCard({ catalog }: { catalog: ReviewCatalogItem
       </div>
 
       <div className="mt-5 flex flex-wrap items-center gap-2">
-        <button type="button" onClick={startRandomLearning} className="inline-flex items-center gap-2 rounded-lg bg-indigo-700 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-indigo-800">
+        <button type="button" onClick={startRandomLearning} className="inline-flex items-center gap-2 rounded-lg border border-indigo-200 bg-white px-4 py-2.5 text-sm font-semibold text-indigo-800 transition hover:bg-indigo-100">
           <Shuffle className="h-4 w-4" />랜덤 페이지로 가기
         </button>
         <span className="text-xs text-slate-500">{domains.length === DOMAIN_OPTIONS.length ? "전체 섹션" : `${domains.length}개 섹션 선택됨`}</span>

@@ -8,6 +8,7 @@ export type ReviewCatalogItem = {
   title: string;
   href: string;
   category: string;
+  categories?: string[];
   summary: string;
 };
 
