@@ -67,10 +67,7 @@ export function QbankDashboardClient({ specialties }: { specialties: QbankSpecia
           <fieldset className="sm:col-span-2"><div className="flex flex-wrap items-center justify-between gap-2"><legend className="text-sm font-medium text-slate-700">분과 <span className="text-slate-500">{selectedSpecialties.length === 0 ? `전체 분과 (${total})` : `${selectedSpecialties.length}개 선택`}</span></legend><button type="button" onClick={() => setSelectedSpecialties([])} className="text-xs font-semibold text-teal-700 hover:underline">전체 분과로 되돌리기</button></div><div className="mt-2 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">{specialties.map((item) => { const checked = selectedSpecialties.includes(item.slug); return <label key={item.slug} className={`flex cursor-pointer items-center gap-2 rounded-lg border px-3 py-2.5 text-sm ${checked ? "border-teal-400 bg-teal-50 text-teal-950" : "border-slate-200 bg-white text-slate-700"}`}><input type="checkbox" checked={checked} onChange={() => setSelectedSpecialties((previous) => checked ? previous.filter((slug) => slug !== item.slug) : [...previous, item.slug])} className="h-4 w-4 accent-teal-600" />{item.name} <span className="text-xs text-slate-500">({item.count})</span></label>; })}</div></fieldset>
           <label className="text-sm font-medium text-slate-700">
             문제 수
-            <select value={count} onChange={(event) => setCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5">
-              {[5, 10, 20, 50].map((value) => <option key={value} value={value}>{value}문제</option>)}
-              <option value="all">전체</option>
-            </select>
+            <input type="number" min="1" max="100" step="1" inputMode="numeric" value={count} onChange={(event) => setCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5" />
           </label>
         </div>
         <Link href={sessionHref} className="primary-action mt-5"><Play className="h-4 w-4" />문제 풀기 시작</Link>
