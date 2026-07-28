@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, ChevronRight, RotateCcw, XCircle } from "lucide-react";
 import {
   loadQbankState,
@@ -97,16 +97,27 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     return [...summary.entries()].sort(([left], [right]) => left.localeCompare(right, "ko"));
   }, [answers]);
 
-  function submit() {
+  const showQuestion = useCallback((index: number) => {
+    const question = questions[index];
+    if (!question) return;
+    const previousAnswer = answers.find((item) => item.questionId === question.id);
+    setCurrentIndex(index);
+    setBookmarked(loadQbankState().bookmarkIds.includes(question.id));
+    setSelected(previousAnswer?.selected ?? null);
+    setSubmitted(Boolean(previousAnswer));
+    setWrongTracked(loadQbankState().wrongIds.includes(question.id));
+  }, [answers, questions]);
+
+  const submit = useCallback(() => {
     if (!current || !selected || submitted) return;
     const correct = selected === current.answer;
     recordQbankAttempt(current.id, selected, correct);
     setWrongTracked(loadQbankState().wrongIds.includes(current.id));
     setAnswers((items) => [...items, { questionId: current.id, selected, correct, specialty: current.specialty }]);
     setSubmitted(true);
-  }
+  }, [current, selected, submitted]);
 
-  function next() {
+  const next = useCallback(() => {
     if (currentIndex + 1 >= questions.length) {
       const finishedAnswers = answers;
       saveQbankSession({
@@ -120,14 +131,12 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       setCompleted(true);
       return;
     }
-    const nextIndex = currentIndex + 1;
-    setCurrentIndex(nextIndex);
-    setBookmarked(loadQbankState().bookmarkIds.includes(questions[nextIndex].id));
-    setSelected(null);
-    setSubmitted(false);
-    setWrongTracked(loadQbankState().wrongIds.includes(questions[nextIndex].id));
-  }
+    showQuestion(currentIndex + 1);
+  }, [answers, currentIndex, questions, sessionStartedAt, showQuestion]);
 
+  const previous = useCallback(() => {
+    if (currentIndex > 0) showQuestion(currentIndex - 1);
+  }, [currentIndex, showQuestion]);
   function toggleBookmark() {
     if (!current) return;
     setBookmarked(toggleQbankBookmark(current.id));
@@ -138,6 +147,42 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     removeQbankWrong(current.id);
     setWrongTracked(false);
   }
+  useEffect(() => {
+    function handleKeyDown(event: KeyboardEvent) {
+      const target = event.target;
+      if (target instanceof HTMLElement && (target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.tagName === "SELECT" || target.isContentEditable)) return;
+      if (!current) return;
+
+      if (!submitted && ["1", "2", "3", "4"].includes(event.key)) {
+        const answer = (["A", "B", "C", "D"] as QbankAnswer[])[Number(event.key) - 1];
+        if (answer && current.options[answer]) {
+          event.preventDefault();
+          setSelected(answer);
+        }
+        return;
+      }
+
+      if ((event.key === "Enter" || event.key === " ") && !submitted && selected) {
+        event.preventDefault();
+        submit();
+        return;
+      }
+
+      if (event.key === "ArrowLeft" && currentIndex > 0) {
+        event.preventDefault();
+        previous();
+        return;
+      }
+
+      if (event.key === "ArrowRight" && submitted) {
+        event.preventDefault();
+        next();
+      }
+    }
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [current, currentIndex, next, previous, selected, submit, submitted]);
 
   if (loading) return <div className="surface p-8 text-center text-slate-600">문제를 불러오는 중입니다…</div>;
   if (error) return <div className="rounded-lg border border-rose-200 bg-rose-50 p-6 text-rose-900">{error}</div>;
