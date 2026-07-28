@@ -56,7 +56,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen bg-slate-100 text-slate-950">
       <LearningSyncProvider />
       <div className="mx-auto flex min-h-screen max-w-[1680px]">
-        <aside className="hidden w-64 shrink-0 border-r border-slate-200 bg-slate-950 px-4 py-5 text-slate-100 xl:block">
+        <aside className="sticky top-0 hidden h-screen w-64 shrink-0 self-start border-r border-slate-200 bg-slate-950 px-4 py-5 text-slate-100 xl:block">
           <Link href="/" className="mb-7 flex items-center gap-3 px-2">
             <div className="flex h-10 w-10 items-center justify-center bg-teal-500 text-white" style={{ borderRadius: 8 }}>
               <Activity className="h-5 w-5" />
