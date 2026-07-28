@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 import { DomainNoteCard } from "@/components/domain-note-card";
 import { ECGWorkbench } from "@/components/ecg-workbench";
 import { ParentPageFab } from "@/components/parent-page-fab";
@@ -38,11 +39,16 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
       ),
   );
   const parentHref = parentGroup ? "/lab-img/category/" + parentGroup.slug : "/lab-img";
+  const parentTitle = parentGroup?.title || "Lab & Img";
   const relations = getClinicalRelationsFor("lab", note.id);
 
   return (
     <div className="space-y-6">
-      <div className="flex justify-end">
+      <div className="flex items-center justify-between gap-3">
+        <Link href={parentHref} className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-teal-300 hover:text-teal-800">
+          <ArrowLeft className="h-4 w-4" />
+          {parentTitle}로 돌아가기
+        </Link>
         <ReviewSaveButton item={{ type: "lab", id: note.id, title: note.title, href: `/lab-img/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} />
       </div>
       <DomainNoteCard note={note} />
