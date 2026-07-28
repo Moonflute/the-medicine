@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, ChevronRight, RotateCcw, XCircle } from "lucide-react";
 import {
   loadQbankState,
@@ -13,6 +13,9 @@ import {
 import type { QbankAnswer, QbankQuestion, QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
 
 type SessionAnswer = { questionId: string; selected: QbankAnswer; correct: boolean; specialty: string };
+type QbankSessionSnapshot = { questionIds: string[]; currentIndex: number; answers: SessionAnswer[]; selected: QbankAnswer | null; submitted: boolean };
+
+const QBANK_SESSION_STORAGE_PREFIX = "medicine-web-qbank-session:";
 
 function shuffled<T>(values: T[]): T[] {
   const next = [...values];
@@ -60,12 +63,28 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const [wrongTracked, setWrongTracked] = useState(false);
   const [completed, setCompleted] = useState(false);
   const [sessionStartedAt] = useState(() => new Date().toISOString());
+  const sessionIdRef = useRef<string | null>(null);
+
+  const sessionStorageKey = useCallback(() => {
+    if (!sessionIdRef.current) {
+      const params = new URLSearchParams(window.location.search);
+      const existingId = params.get("session");
+      const generatedId = window.crypto?.randomUUID?.() ?? `${Date.now()}-${Math.random()}`;
+      sessionIdRef.current = existingId || generatedId;
+      if (!existingId) {
+        params.set("session", sessionIdRef.current);
+        window.history.replaceState(window.history.state, "", `${window.location.pathname}?${params.toString()}${window.location.hash}`);
+      }
+    }
+    return `${QBANK_SESSION_STORAGE_PREFIX}${sessionIdRef.current}`;
+  }, []);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const mode = params.get("mode") || "all";
     const specialty = params.get("specialty") || "all";
     const requestedCountValue = params.get("count") || "10";
+    const storageKey = sessionStorageKey();
     void loadQuestions(specialties, mode, specialty)
       .then((loaded) => {
         const state = loadQbankState();
@@ -76,13 +95,30 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         const requestedCount = requestedCountValue === "all"
           ? filtered.length
           : Math.max(1, Math.min(100, Number(requestedCountValue) || 10));
-        const selectedQuestions = shuffled(filtered).slice(0, requestedCount);
+        let snapshot: QbankSessionSnapshot | null = null;
+        try {
+          const stored = window.sessionStorage.getItem(storageKey);
+          if (stored) snapshot = JSON.parse(stored) as QbankSessionSnapshot;
+        } catch {
+          snapshot = null;
+        }
+        const restoredQuestions = snapshot?.questionIds.map((id) => loaded.find((item) => item.id === id)).filter((item): item is QbankQuestion => Boolean(item)) ?? [];
+        const canRestore = Boolean(snapshot && restoredQuestions.length === snapshot.questionIds.length && restoredQuestions.length > 0);
+        const selectedQuestions = canRestore ? restoredQuestions : shuffled(filtered).slice(0, requestedCount);
+        const restoredIndex = canRestore && snapshot ? Math.min(Math.max(snapshot.currentIndex, 0), selectedQuestions.length - 1) : 0;
+        const restoredQuestion = selectedQuestions[restoredIndex];
+        const restoredAnswer = canRestore && snapshot ? snapshot.answers.find((item) => item.questionId === restoredQuestion?.id) : undefined;
         setQuestions(selectedQuestions);
-        setBookmarked(Boolean(selectedQuestions[0] && state.bookmarkIds.includes(selectedQuestions[0].id)));
+        setCurrentIndex(restoredIndex);
+        setAnswers(canRestore && snapshot ? snapshot.answers.filter((item) => selectedQuestions.some((question) => question.id === item.questionId)) : []);
+        setSelected(restoredAnswer?.selected ?? (canRestore && snapshot ? snapshot.selected : null));
+        setSubmitted(Boolean(restoredAnswer));
+        setBookmarked(Boolean(restoredQuestion && state.bookmarkIds.includes(restoredQuestion.id)));
+        setWrongTracked(Boolean(restoredQuestion && state.wrongIds.includes(restoredQuestion.id)));
       })
       .catch((reason: unknown) => setError(reason instanceof Error ? reason.message : "문제 데이터를 불러오지 못했습니다."))
       .finally(() => setLoading(false));
-  }, [specialties]);
+  }, [sessionStorageKey, specialties]);
 
   const current = questions[currentIndex];
   const correctCount = useMemo(() => answers.filter((item) => item.correct).length, [answers]);
@@ -128,11 +164,12 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         correct: finishedAnswers.filter((item) => item.correct).length,
         total: questions.length,
       });
+      window.sessionStorage.removeItem(sessionStorageKey());
       setCompleted(true);
       return;
     }
     showQuestion(currentIndex + 1);
-  }, [answers, currentIndex, questions, sessionStartedAt, showQuestion]);
+  }, [answers, currentIndex, questions, sessionStartedAt, sessionStorageKey, showQuestion]);
 
   const previous = useCallback(() => {
     if (currentIndex > 0) showQuestion(currentIndex - 1);
@@ -183,7 +220,20 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [current, currentIndex, next, previous, selected, submit, submitted]);
-
+  useEffect(() => {
+    if (loading || completed || questions.length === 0) return;
+    try {
+      window.sessionStorage.setItem(sessionStorageKey(), JSON.stringify({
+        questionIds: questions.map((item) => item.id),
+        currentIndex,
+        answers,
+        selected,
+        submitted,
+      } satisfies QbankSessionSnapshot));
+    } catch {
+      // Keep the session usable when browser storage is unavailable.
+    }
+  }, [answers, completed, currentIndex, loading, questions, selected, sessionStorageKey, submitted]);
   if (loading) return <div className="surface p-8 text-center text-slate-600">문제를 불러오는 중입니다…</div>;
   if (error) return <div className="rounded-lg border border-rose-200 bg-rose-50 p-6 text-rose-900">{error}</div>;
   if (questions.length === 0) return (
