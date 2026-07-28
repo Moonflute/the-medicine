@@ -7,7 +7,7 @@ import { exportQbankData, importQbankData, loadQbankState, QBANK_CHANGE_EVENT } 
 import type { QbankSpecialtySummary } from "@/lib/types";
 
 export function QbankDashboardClient({ specialties }: { specialties: QbankSpecialtySummary[] }) {
-  const [specialty, setSpecialty] = useState("all");
+  const [selectedSpecialties, setSelectedSpecialties] = useState<string[]>([]);
   const [count, setCount] = useState("10");
   const [stats, setStats] = useState({ attempted: 0, wrong: 0, bookmarks: 0, mastered: 0 });
 
@@ -28,7 +28,7 @@ export function QbankDashboardClient({ specialties }: { specialties: QbankSpecia
   }, []);
 
   const total = useMemo(() => specialties.reduce((sum, item) => sum + item.count, 0), [specialties]);
-  const sessionHref = `/review/qbank/session?mode=${specialty === "all" ? "all" : "specialty"}&specialty=${encodeURIComponent(specialty)}&count=${count}`;
+  const sessionHref = `/review/qbank/session?mode=${selectedSpecialties.length === 0 ? "all" : "specialty"}&specialty=${encodeURIComponent(selectedSpecialties.join(","))}&count=${count}`;
 
   function downloadProgress() {
     const blob = new Blob([JSON.stringify(exportQbankData(), null, 2)], { type: "application/json" });
@@ -64,13 +64,7 @@ export function QbankDashboardClient({ specialties }: { specialties: QbankSpecia
       <section className="surface p-5 sm:p-6">
         <h2 className="text-xl font-semibold text-slate-950">새 문제 세션</h2>
         <div className="mt-5 grid gap-4 sm:grid-cols-2">
-          <label className="text-sm font-medium text-slate-700">
-            분과
-            <select value={specialty} onChange={(event) => setSpecialty(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5">
-              <option value="all">전체 분과 ({total})</option>
-              {specialties.map((item) => <option key={item.slug} value={item.slug}>{item.name} ({item.count})</option>)}
-            </select>
-          </label>
+          <fieldset className="sm:col-span-2"><div className="flex flex-wrap items-center justify-between gap-2"><legend className="text-sm font-medium text-slate-700">분과 <span className="text-slate-500">{selectedSpecialties.length === 0 ? `전체 분과 (${total})` : `${selectedSpecialties.length}개 선택`}</span></legend><button type="button" onClick={() => setSelectedSpecialties([])} className="text-xs font-semibold text-teal-700 hover:underline">전체 분과로 되돌리기</button></div><div className="mt-2 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">{specialties.map((item) => { const checked = selectedSpecialties.includes(item.slug); return <label key={item.slug} className={`flex cursor-pointer items-center gap-2 rounded-lg border px-3 py-2.5 text-sm ${checked ? "border-teal-400 bg-teal-50 text-teal-950" : "border-slate-200 bg-white text-slate-700"}`}><input type="checkbox" checked={checked} onChange={() => setSelectedSpecialties((previous) => checked ? previous.filter((slug) => slug !== item.slug) : [...previous, item.slug])} className="h-4 w-4 accent-teal-600" />{item.name} <span className="text-xs text-slate-500">({item.count})</span></label>; })}</div></fieldset>
           <label className="text-sm font-medium text-slate-700">
             문제 수
             <select value={count} onChange={(event) => setCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5">

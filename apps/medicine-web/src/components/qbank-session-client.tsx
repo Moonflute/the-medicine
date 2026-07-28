@@ -33,7 +33,8 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   let slugs: string[];
   if (mode === "specialty" && specialty && specialty !== "all") {
-    slugs = [specialty];
+    const selectedSlugs = specialty.split(",").filter((slug) => specialties.some((item) => item.slug === slug));
+    slugs = selectedSlugs.length > 0 ? selectedSlugs : specialties.map((item) => item.slug);
   } else if (mode === "wrong" || mode === "bookmarks") {
     const state = loadQbankState();
     const ids = new Set(mode === "wrong" ? state.wrongIds : state.bookmarkIds);
