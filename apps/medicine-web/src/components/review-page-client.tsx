@@ -71,6 +71,12 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
     setMessage(`${item.title}: ${confidence}로 기록했습니다.`);
   }
 
+  function toggleSaved(item: ReviewCatalogItem) {
+    const nowSaved = toggleReviewItem(item);
+    setItems(loadReviewItems(catalog));
+    setMessage(nowSaved ? `${item.title}: 복습 목록에 저장했습니다.` : `${item.title}: 복습 목록에서 제거했습니다.`);
+  }
+
   function downloadExport() {
     const blob = new Blob([JSON.stringify(exportReviewData(), null, 2)], { type: "application/json" });
     const url = URL.createObjectURL(blob);
@@ -146,7 +152,7 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
                       {isRevealed ? <Eye className="h-4 w-4" /> : <EyeOff className="h-4 w-4" />}
                       {isRevealed ? "핵심 가리기" : "핵심 보기"}
                     </button>
-                    <button type="button" onClick={() => toggleReviewItem(item)} className="secondary-action">{isSaved ? "저장 해제" : "저장"}</button>
+                    <button type="button" onClick={() => toggleSaved(item)} className="secondary-action">{isSaved ? "저장 해제" : "저장"}</button>
                   </div>
                 </div>
 
