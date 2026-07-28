@@ -20,15 +20,28 @@ const NUMERIC_PANELS: Array<{ title: string; description: string; fields: Numeri
   { title: "당대사 · 간기능", description: "채혈 조건을 함께 확인", fields: [
     { id: "glucose", label: "Glucose", unit: "mg/dL", low: 70, high: 140, note: "식전/식후에 따라 해석" }, { id: "a1c", label: "HbA1c", unit: "%", high: 5.6 }, { id: "ast", label: "AST", unit: "U/L", high: 40 }, { id: "alt", label: "ALT", unit: "U/L", high: 41 }, { id: "alp", label: "ALP", unit: "U/L", high: 130 }, { id: "bilirubin", label: "Total bilirubin", unit: "mg/dL", high: 1.2 }, { id: "albumin", label: "Albumin", unit: "g/dL", low: 3.5, high: 5 },
   ] },
-  { title: "염증 · 응고 · 기타", description: "단독 수치보다 임상 맥락·추세 우선", fields: [
-    { id: "crp", label: "CRP", unit: "mg/L", high: 5 }, { id: "pct", label: "Procalcitonin", unit: "ng/mL", high: 0.1 }, { id: "lactate", label: "Lactate", unit: "mmol/L", high: 2 }, { id: "inr", label: "INR", unit: "", low: 0.8, high: 1.2 }, { id: "ddimer", label: "D-dimer", unit: "µg/mL FEU", high: 0.5 }, { id: "tsh", label: "TSH", unit: "mIU/L", low: 0.4, high: 4 }, { id: "freeT4", label: "Free T4", unit: "ng/dL", low: 0.8, high: 1.8 },
+  { title: "염증 · 응고 · 면역", description: "단독 수치보다 임상 맥락·추세 우선", fields: [
+    { id: "crp", label: "CRP", unit: "mg/L", high: 5 }, { id: "pct", label: "Procalcitonin", unit: "ng/mL", high: 0.1 }, { id: "lactate", label: "Lactate", unit: "mmol/L", high: 2 }, { id: "inr", label: "INR", unit: "", low: 0.8, high: 1.2 }, { id: "ddimer", label: "D-dimer", unit: "µg/mL FEU", high: 0.5 }, { id: "totalIge", label: "Total IgE", unit: "IU/mL", note: "알레르기/기생충·피부질환 등 임상 맥락과 함께 해석" },
   ] },
   { title: "ABGA", description: "실제 FiO₂·채혈 시간·산소투여를 함께 기록", fields: [
     { id: "ph", label: "pH", unit: "", low: 7.35, high: 7.45 }, { id: "paco2", label: "PaCO₂", unit: "mmHg", low: 35, high: 45 }, { id: "abgHco3", label: "ABG HCO₃⁻", unit: "mmol/L", low: 22, high: 26 }, { id: "pao2", label: "PaO₂", unit: "mmHg", low: 80, high: 100 },
-  ] },  { title: "호르몬 · 내분비", description: "채혈 시각·성별·월경주기·임신·약물 및 검사실 방법에 따라 해석이 달라집니다", fields: [
-    { id: "cortisol8am", label: "Cortisol (8 AM)", unit: "μg/dL", note: "반드시 8–9 AM 채혈 시각·스테로이드 복용 여부와 함께 해석" }, { id: "acth8am", label: "ACTH (8 AM)", unit: "pg/mL", note: "cortisol과 같은 시점에 채혈; assay별 참고범위 사용" }, { id: "pthIntact", label: "Intact PTH", unit: "pg/mL", low: 15, high: 65 }, { id: "prolactin", label: "Prolactin", unit: "ng/mL", note: "성별·임신·수면·스트레스·약물에 따라 달라짐" },
-    { id: "fsh", label: "FSH", unit: "mIU/mL", note: "성별·연령·월경주기/폐경 상태를 함께 기록" }, { id: "lh", label: "LH", unit: "mIU/mL", note: "성별·월경주기 및 약물 영향 고려" }, { id: "estradiol", label: "Estradiol (E2)", unit: "pg/mL", note: "주기·임신·호르몬 치료에 따라 기준이 달라짐" }, { id: "testosterone", label: "Total testosterone (AM)", unit: "ng/dL", note: "남성은 이른 아침 반복 측정; 성별·연령·SHBG를 함께 해석" },
-    { id: "betaHcg", label: "β-hCG", unit: "mIU/mL", note: "정량 결과를 검사실 참고범위로 해석" }, { id: "igf1Xuln", label: "IGF-1 (× ULN)", unit: "×ULN", note: "연령·성별 보정 ULN 대비 배수" }, { id: "vitaminD25oh", label: "25-OH Vitamin D", unit: "ng/mL" }, { id: "totalIge", label: "Total IgE", unit: "IU/mL" }, { id: "aldosterone", label: "Aldosterone", unit: "ng/dL", note: "renin과의 관계로 해석" }, { id: "reninPra", label: "Plasma renin activity", unit: "ng/mL/h", note: "ARR 해석은 채혈 조건·약물 보정이 필요" }, { id: "postDexCortisol", label: "Cortisol after 1-mg DST", unit: "μg/dL", note: "1 mg overnight dexamethasone suppression protocol 완료 후 값만 입력" },
+  ] },  { title: "호르몬 · 갑상선", description: "TSH와 free T4를 같은 시점에 확인", fields: [
+    { id: "tsh", label: "TSH", unit: "mIU/L", low: 0.4, high: 4 }, { id: "freeT4", label: "Free T4", unit: "ng/dL", low: 0.8, high: 1.8 },
+  ] },
+  { title: "호르몬 · 부신", description: "채혈 시각·스테로이드 복용 및 검사 프로토콜을 함께 기록", fields: [
+    { id: "cortisol8am", label: "Cortisol (8 AM)", unit: "μg/dL", note: "반드시 8–9 AM 채혈 시각·스테로이드 복용 여부와 함께 해석" }, { id: "acth8am", label: "ACTH (8 AM)", unit: "pg/mL", note: "cortisol과 같은 시점에 채혈; assay별 참고범위 사용" }, { id: "postDexCortisol", label: "Cortisol after 1-mg DST", unit: "μg/dL", note: "1 mg overnight dexamethasone suppression protocol 완료 후 값만 입력" },
+  ] },
+  { title: "호르몬 · 부갑상샘/골대사", description: "Ca·phosphate·신기능과 함께 해석", fields: [
+    { id: "pthIntact", label: "Intact PTH", unit: "pg/mL", low: 15, high: 65 }, { id: "vitaminD25oh", label: "25-OH Vitamin D", unit: "ng/mL" },
+  ] },
+  { title: "호르몬 · 뇌하수체/성장", description: "연령·성별·월경/임신 및 약물 영향을 함께 고려", fields: [
+    { id: "prolactin", label: "Prolactin", unit: "ng/mL", note: "성별·임신·수면·스트레스·약물에 따라 달라짐" }, { id: "igf1Xuln", label: "IGF-1 (× ULN)", unit: "×ULN", note: "연령·성별 보정 ULN 대비 배수" },
+  ] },
+  { title: "호르몬 · 생식/임신", description: "성별·연령·월경주기·임신 및 호르몬 치료를 함께 기록", fields: [
+    { id: "fsh", label: "FSH", unit: "mIU/mL", note: "성별·연령·월경주기/폐경 상태를 함께 기록" }, { id: "lh", label: "LH", unit: "mIU/mL", note: "성별·월경주기 및 약물 영향 고려" }, { id: "estradiol", label: "Estradiol (E2)", unit: "pg/mL", note: "주기·임신·호르몬 치료에 따라 기준이 달라짐" }, { id: "testosterone", label: "Total testosterone (AM)", unit: "ng/dL", note: "남성은 이른 아침 반복 측정; 성별·연령·SHBG를 함께 해석" }, { id: "betaHcg", label: "β-hCG", unit: "mIU/mL", note: "정량 결과를 검사실 참고범위로 해석" },
+  ] },
+  { title: "호르몬 · RAAS", description: "ARR 해석에는 채혈 자세·염분 상태·약물 보정이 필요", fields: [
+    { id: "aldosterone", label: "Aldosterone", unit: "ng/dL", note: "renin과의 관계로 해석" }, { id: "reninPra", label: "Plasma renin activity", unit: "ng/mL/h", note: "ARR 해석은 채혈 조건·약물 보정이 필요" },
   ] },
   { title: "자가면역 · 류마티스", description: "검사실 cutoff·pattern 및 임상 증상과 함께 해석", fields: [
     { id: "rheumatoidFactor", label: "Rheumatoid factor", unit: "IU/mL", high: 20 }, { id: "antiCcp", label: "Anti-CCP", unit: "U/mL", high: 20 }, { id: "anaTiter", label: "ANA titer", unit: "1:x", high: 80, note: "1:80 이상은 분류기준 진입항목이나 단독 진단은 아님" }, { id: "antiDsDnaXuln", label: "Anti-dsDNA", unit: "× ULN", high: 1 }, { id: "c3", label: "Complement C3", unit: "mg/dL", low: 90, high: 180 }, { id: "c4", label: "Complement C4", unit: "mg/dL", low: 10, high: 40 }, { id: "pr3AncaXuln", label: "PR3-ANCA", unit: "× ULN", high: 1 }, { id: "mpoAncaXuln", label: "MPO-ANCA", unit: "× ULN", high: 1 },
