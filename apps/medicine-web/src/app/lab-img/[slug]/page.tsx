@@ -8,7 +8,7 @@ import { ReviewSaveButton } from "@/components/review-save-button";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
-import { buildLabImgOverviewGroups, isLabImgOverviewNote } from "@/lib/lab-img-overview";
+import { buildLabImgOverviewGroups, formatLabImgReference, isLabImgOverviewNote } from "@/lib/lab-img-overview";
 import { getAllDiseases, getClinicalRelationsFor, getLabImgNoteBySlug, getLabImgNotes, getLabImgToc } from "@/lib/webdb";
 
 function isReferenceSection(title: string) {
@@ -65,8 +65,7 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
                   <thead className="bg-white">
                     <tr className="text-left text-slate-500">
                       <th className="px-4 py-3 font-medium">Item</th>
-                      <th className="px-4 py-3 font-medium text-sky-700">Low</th>
-                      <th className="px-4 py-3 font-medium text-rose-700">High</th>
+                      <th className="px-4 py-3 font-medium text-teal-800">참고범위</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200 bg-white">
@@ -77,11 +76,8 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
                             {row.title}
                           </Link>
                         </td>
-                        <td className="px-4 py-3 font-medium" style={{ color: "#0369a1" }}>
-                          {row.lower || "-"}
-                        </td>
-                        <td className="px-4 py-3 font-medium" style={{ color: "#be123c" }}>
-                          {row.upper || "-"}
+                        <td className="px-4 py-3 font-medium text-slate-700">
+                          {formatLabImgReference(row)}
                         </td>
                       </tr>
                     ))}

@@ -1,10 +1,11 @@
-﻿import type { DomainNote } from "@/lib/webdb";
+import type { DomainNote } from "@/lib/webdb";
 
 export type LabImgRangeRow = {
   slug: string;
   title: string;
   lower: string;
   upper: string;
+  rangeType?: "bounds" | "reference";
 };
 
 export type LabImgOverviewGroup = {
@@ -178,33 +179,58 @@ function findTableLines(note: DomainNote) {
   return [];
 }
 
+function tableCells(line: string) {
+  return line
+    .trim()
+    .split("|")
+    .map((cell) => cleanText(cell))
+    .filter(Boolean);
+}
 function parseTableRows(note: DomainNote, lookup: Map<string, DomainNote>): LabImgRangeRow[] {
   const lines = findTableLines(note);
   if (lines.length < 3) return [];
+
+  const headers = tableCells(lines[0]).map(normalizeKey);
+  const lowerIndex = headers.findIndex((header) => /(^|\s)(low|lower|min)(\s|$)|\uD558\uD55C/.test(header));
+  const upperIndex = headers.findIndex((header) => /(^|\s)(high|upper|max)(\s|$)|\uC0C1\uD55C/.test(header));
+  const referenceIndex = headers.findIndex((header) => /reference|normal|range|\uCC38\uACE0|\uC815\uC0C1/.test(header));
+  const hasBoundColumns = lowerIndex >= 0 || upperIndex >= 0;
+  const rangeType: LabImgRangeRow["rangeType"] = hasBoundColumns ? "bounds" : "reference";
+
+  if (!hasBoundColumns && referenceIndex < 1) return [];
 
   return lines
     .slice(2)
     .map((line) => line.trim())
     .filter(Boolean)
-    .map((line) => {
-      const cells = line
-        .split("|")
-        .map((cell) => cleanText(cell))
-        .filter(Boolean);
-
-      if (cells.length < 3) return null;
+    .map((line): LabImgRangeRow | null => {
+      const cells = tableCells(line);
+      if (cells.length < 2) return null;
 
       const linked = resolveNote(cells[0], lookup);
       return {
         slug: linked?.slug ?? note.slug,
         title: conciseLabel(cells[0]),
-        lower: cells[1] || "-",
-        upper: cells[2] || "-",
+        lower: hasBoundColumns ? cells[lowerIndex] || "-" : cells[referenceIndex] || "-",
+        upper: hasBoundColumns ? cells[upperIndex] || "-" : "-",
+        rangeType,
       };
     })
-    .filter((row): row is LabImgRangeRow => Boolean(row));
+    .filter((row): row is LabImgRangeRow => row !== null);
 }
 
+export function formatLabImgReference(row: LabImgRangeRow) {
+  const lower = row.lower.trim();
+  const upper = row.upper.trim();
+  const noLower = !lower || lower === "-";
+  const noUpper = !upper || upper === "-";
+
+  if (row.rangeType === "reference") return noLower ? "-" : lower;
+  if (noLower && noUpper) return "-";
+  if (noLower) return `\u2264 ${upper}`;
+  if (noUpper) return /^[<>\u2265\u2264]/.test(lower) ? lower : `\u2265 ${lower}`;
+  return `${lower} \u2013 ${upper}`;
+}
 function parseInlineRange(text: string) {
   const compact = cleanText(text);
   const match = compact.match(/([<>]?\s*[\d.]+(?:\s*\/\s*[\d.]+)?(?:\s*-\s*[\d.]+(?:\s*\/\s*[\d.]+)?)?)\s*([A-Za-z%/^.0-9µμmEqL\- ]+)?$/);
