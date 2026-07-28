@@ -8,6 +8,7 @@ import type { DiseaseNote } from "@/lib/webdb";
 type NumericField = { id: string; label: string; unit: string; low?: number; high?: number; note?: string; sex?: "female" | "male" };
 type QualitativeField = { id: string; label: string; options: Array<"negative" | "trace" | "positive"> };
 type Finding = { level: "urgent" | "attention" | "pattern"; title: string; summary: string; next: string; diseases: string[] };
+type SliderRange = { min: number; max: number; step: number };
 
 const NUMERIC_PANELS: Array<{ title: string; description: string; fields: NumericField[] }> = [
   { title: "CBC", description: "성인 빠른 참고범위", fields: [
@@ -269,7 +270,25 @@ function resolveDiseases(diseases: DiseaseNote[], terms: string[]) {
   }).filter((value, index, array) => array.findIndex((item) => item.slug === value.slug) === index);
 }
 
+const SLIDER_RANGES: Record<string, SliderRange> = {
+  wbc: { min: 0, max: 100, step: 0.5 }, hemoglobin: { min: 0, max: 25, step: 0.1 }, hemoglobinMale: { min: 0, max: 25, step: 0.1 }, mcv: { min: 40, max: 140, step: 1 }, platelet: { min: 0, max: 1500, step: 10 },
+  na: { min: 110, max: 180, step: 1 }, k: { min: 1, max: 10, step: 0.1 }, cl: { min: 70, max: 140, step: 1 }, hco3: { min: 0, max: 50, step: 1 }, ca: { min: 4, max: 16, step: 0.1 }, mg: { min: 0.5, max: 6, step: 0.1 }, phos: { min: 0.5, max: 15, step: 0.1 }, bun: { min: 0, max: 150, step: 1 }, creatinine: { min: 0, max: 15, step: 0.1 }, egfr: { min: 0, max: 150, step: 1 },
+  glucose: { min: 20, max: 700, step: 5 }, a1c: { min: 3, max: 16, step: 0.1 }, ast: { min: 0, max: 2000, step: 10 }, alt: { min: 0, max: 2000, step: 10 }, alp: { min: 0, max: 1500, step: 10 }, bilirubin: { min: 0, max: 30, step: 0.1 }, albumin: { min: 1, max: 6, step: 0.1 },
+  crp: { min: 0, max: 300, step: 1 }, pct: { min: 0, max: 100, step: 0.1 }, lactate: { min: 0, max: 20, step: 0.1 }, inr: { min: 0.5, max: 10, step: 0.1 }, ddimer: { min: 0, max: 20, step: 0.1 }, tsh: { min: 0, max: 50, step: 0.1 }, freeT4: { min: 0.1, max: 5, step: 0.1 },
+  ph: { min: 6.8, max: 7.8, step: 0.01 }, paco2: { min: 10, max: 120, step: 1 }, abgHco3: { min: 0, max: 50, step: 1 }, pao2: { min: 20, max: 500, step: 5 },
+  cortisol8am: { min: 0, max: 60, step: 0.5 }, acth8am: { min: 0, max: 300, step: 1 }, pthIntact: { min: 0, max: 300, step: 1 }, prolactin: { min: 0, max: 300, step: 1 }, fsh: { min: 0, max: 200, step: 1 }, lh: { min: 0, max: 200, step: 1 }, estradiol: { min: 0, max: 1000, step: 10 }, testosterone: { min: 0, max: 1500, step: 10 }, betaHcg: { min: 0, max: 100000, step: 100 }, igf1Xuln: { min: 0, max: 5, step: 0.1 }, vitaminD25oh: { min: 0, max: 150, step: 1 }, totalIge: { min: 0, max: 2000, step: 10 }, aldosterone: { min: 0, max: 100, step: 1 }, reninPra: { min: 0, max: 30, step: 0.1 }, postDexCortisol: { min: 0, max: 20, step: 0.1 },
+  urineSg: { min: 1, max: 1.06, step: 0.001 }, urinePh: { min: 4, max: 10, step: 0.1 }, urineRbc: { min: 0, max: 100, step: 1 }, urineWbc: { min: 0, max: 100, step: 1 }, uacr: { min: 0, max: 3000, step: 10 },
+  totalCholesterol: { min: 50, max: 500, step: 5 }, ldl: { min: 0, max: 400, step: 5 }, hdl: { min: 0, max: 150, step: 1 }, triglyceride: { min: 0, max: 1500, step: 10 }, lipaseXuln: { min: 0, max: 20, step: 0.1 }, afp: { min: 0, max: 1000, step: 5 }, uricAcid: { min: 0, max: 20, step: 0.1 },
+  ferritin: { min: 0, max: 2000, step: 10 }, transferrinSat: { min: 0, max: 100, step: 1 }, vitaminB12: { min: 0, max: 2000, step: 10 }, folate: { min: 0, max: 50, step: 0.1 }, reticulocytePct: { min: 0, max: 20, step: 0.1 }, ldh: { min: 0, max: 3000, step: 10 }, haptoglobin: { min: 0, max: 400, step: 5 }, absoluteLymphocyteCount: { min: 0, max: 20000, step: 100 }, eosinophilPct: { min: 0, max: 100, step: 1 }, adamts13Activity: { min: 0, max: 100, step: 1 },
+  troponinXuln: { min: 0, max: 100, step: 0.1 }, ckXuln: { min: 0, max: 100, step: 0.1 }, betaHydroxybutyrate: { min: 0, max: 15, step: 0.1 }, serumOsmolality: { min: 240, max: 400, step: 1 }, upcr: { min: 0, max: 15, step: 0.1 }, fena: { min: 0, max: 10, step: 0.1 }, urineOsmolality: { min: 0, max: 1200, step: 10 }, urineSodium: { min: 0, max: 250, step: 1 }, feUrea: { min: 0, max: 100, step: 1 },
+  csfWbc: { min: 0, max: 10000, step: 10 }, csfNeutrophilPct: { min: 0, max: 100, step: 1 }, csfProtein: { min: 0, max: 1000, step: 5 }, csfGlucose: { min: 0, max: 300, step: 1 }, csfLactate: { min: 0, max: 20, step: 0.1 }, balEosinophilPct: { min: 0, max: 100, step: 1 }, balLymphocytePct: { min: 0, max: 100, step: 1 }, balCd4Cd8Ratio: { min: 0, max: 10, step: 0.1 }, sputumEosinophilPct: { min: 0, max: 100, step: 1 },
+  saag: { min: 0, max: 3, step: 0.1 }, asciticPmn: { min: 0, max: 5000, step: 10 }, asciticTriglyceride: { min: 0, max: 1000, step: 10 }, pleuralTriglyceride: { min: 0, max: 1000, step: 10 }, pleuralPh: { min: 6.8, max: 7.8, step: 0.01 }, pleuralGlucose: { min: 0, max: 300, step: 1 }, pleuralAda: { min: 0, max: 150, step: 1 }, pleuralProteinRatio: { min: 0, max: 2, step: 0.01 }, pleuralLdhRatio: { min: 0, max: 3, step: 0.01 }, pleuralLdhUlnRatio: { min: 0, max: 5, step: 0.01 },
+  ceruloplasmin: { min: 0, max: 100, step: 1 }, urineCopper24h: { min: 0, max: 500, step: 5 }, hepaticCopper: { min: 0, max: 1000, step: 10 }, alpBilirubinRatio: { min: 0, max: 20, step: 0.1 }, anc: { min: 0, max: 20000, step: 100 }, fibrinogen: { min: 0, max: 1000, step: 10 }, apttRatio: { min: 0, max: 5, step: 0.1 },
+  sbp: { min: 50, max: 250, step: 1 }, dbp: { min: 30, max: 160, step: 1 }, heartRate: { min: 20, max: 240, step: 1 }, respiratoryRate: { min: 4, max: 60, step: 1 }, temperature: { min: 32, max: 43, step: 0.1 },
+};
 function sliderConfig(field: NumericField) {
+  const configured = SLIDER_RANGES[field.id];
+  if (configured) return configured;
   const low = field.low;
   const high = field.high;
   let min: number;
@@ -317,7 +336,7 @@ function SliderFieldControl({ field, rawValue, onChange }: { field: NumericField
   return (
     <span className="mt-2 block">
       <input type="range" min={min} max={max} step={step} value={value} onChange={(event) => onChange(event.target.value)} className="h-2 w-full cursor-pointer accent-teal-600" aria-label={`${field.label} slider`} />
-      <span className="mt-1 flex items-center justify-between gap-1 text-[11px] text-slate-500"><strong className="text-sm text-slate-800">{hasValue ? formatted : "\uC120\uD0DD \uC804"}</strong><span className="shrink-0">{field.unit}</span></span>
+      <span className="mt-1 flex items-center justify-between gap-1 text-[11px] text-slate-500"><strong className="text-sm text-slate-800">{hasValue ? formatted : "\uC120\uD0DD \uC804"}</strong><span className="shrink-0">{formatSliderValue(min, step)}–{formatSliderValue(max, step)} {field.unit}</span></span>
     </span>
   );
 }
