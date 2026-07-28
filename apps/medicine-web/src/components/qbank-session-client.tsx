@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import type { RealtimeChannel } from "@supabase/supabase-js";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, ChevronRight, RotateCcw, XCircle } from "lucide-react";
 import {
   loadQbankState,
@@ -11,9 +12,11 @@ import {
   toggleQbankBookmark,
 } from "@/lib/qbank-store";
 import type { QbankAnswer, QbankQuestion, QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
+import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 
 type SessionAnswer = { questionId: string; selected: QbankAnswer; correct: boolean; specialty: string };
 type QbankSessionSnapshot = { questionIds: string[]; currentIndex: number; answers: SessionAnswer[]; selected: QbankAnswer | null; submitted: boolean };
+type QbankActiveSession = QbankSessionSnapshot & { sessionId: string; updatedAt: string };
 
 const QBANK_SESSION_STORAGE_PREFIX = "medicine-web-qbank-session:";
 
@@ -51,6 +54,21 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
   return shards.flat();
 }
 
+function activeSessionFrom(value: unknown): QbankActiveSession | null {
+  if (!value || typeof value !== "object") return null;
+  const candidate = value as Partial<QbankActiveSession>;
+  if (typeof candidate.sessionId !== "string" || !Array.isArray(candidate.questionIds) || !Array.isArray(candidate.answers) || typeof candidate.updatedAt !== "string") return null;
+  return {
+    sessionId: candidate.sessionId,
+    questionIds: candidate.questionIds.filter((item): item is string => typeof item === "string"),
+    currentIndex: typeof candidate.currentIndex === "number" ? candidate.currentIndex : 0,
+    answers: candidate.answers as SessionAnswer[],
+    selected: candidate.selected === "A" || candidate.selected === "B" || candidate.selected === "C" || candidate.selected === "D" ? candidate.selected : null,
+    submitted: Boolean(candidate.submitted),
+    updatedAt: candidate.updatedAt,
+  };
+}
+
 export function QbankSessionClient({ specialties }: { specialties: QbankSpecialtySummary[] }) {
   const [questions, setQuestions] = useState<QbankQuestion[]>([]);
   const [loading, setLoading] = useState(true);
@@ -64,6 +82,12 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const [completed, setCompleted] = useState(false);
   const [sessionStartedAt] = useState(() => new Date().toISOString());
   const sessionIdRef = useRef<string | null>(null);
+  const activeSessionChannelRef = useRef<RealtimeChannel | null>(null);
+  const activeSessionTimerRef = useRef<number | null>(null);
+  const remoteSessionApplyingRef = useRef(false);
+  const appliedRemoteSessionVersionRef = useRef("");
+  const [syncUserId, setSyncUserId] = useState<string | null>(null);
+  const [remoteActiveSession, setRemoteActiveSession] = useState<QbankActiveSession | null>(null);
 
   const sessionStorageKey = useCallback(() => {
     if (!sessionIdRef.current) {
@@ -120,6 +144,74 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       .finally(() => setLoading(false));
   }, [sessionStorageKey, specialties]);
 
+  useEffect(() => {
+    const supabase = getSupabaseBrowserClient();
+    if (!supabase) return;
+    let active = true;
+
+    const applyRemote = (value: unknown) => {
+      const session = activeSessionFrom(value);
+      if (!active || !session || session.updatedAt === appliedRemoteSessionVersionRef.current) return;
+      remoteSessionApplyingRef.current = true;
+      setRemoteActiveSession(session);
+    };
+
+    const start = async () => {
+      const { data } = await supabase.auth.getUser();
+      const user = data.user;
+      if (!user || !active) return;
+      const { data: preference, error: preferenceError } = await supabase.from("user_preferences").select("qbank_active_session").eq("user_id", user.id).maybeSingle();
+      if (preferenceError) {
+        console.warn("Q-bank active session sync is unavailable.", preferenceError);
+      } else {
+        applyRemote((preference as Record<string, unknown> | null)?.qbank_active_session);
+      }
+      if (!active) return;
+      setSyncUserId(user.id);
+      activeSessionChannelRef.current = supabase.channel(`qbank-active-session:${user.id}`)
+        .on("postgres_changes", { event: "*", schema: "public", table: "user_preferences", filter: `user_id=eq.${user.id}` }, (payload) => applyRemote((payload.new as Record<string, unknown>).qbank_active_session))
+        .subscribe();
+    };
+
+    void start();
+    return () => {
+      active = false;
+      if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
+      activeSessionChannelRef.current?.unsubscribe();
+      activeSessionChannelRef.current = null;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!remoteActiveSession || remoteActiveSession.updatedAt === appliedRemoteSessionVersionRef.current) return;
+    let cancelled = false;
+    void loadQuestions(specialties, "all", "all")
+      .then((loaded) => {
+        const restoredQuestions = remoteActiveSession.questionIds.map((id) => loaded.find((item) => item.id === id)).filter((item): item is QbankQuestion => Boolean(item));
+        if (cancelled || restoredQuestions.length !== remoteActiveSession.questionIds.length || restoredQuestions.length === 0) return;
+        const restoredIndex = Math.min(Math.max(remoteActiveSession.currentIndex, 0), restoredQuestions.length - 1);
+        const restoredQuestion = restoredQuestions[restoredIndex];
+        const restoredAnswer = remoteActiveSession.answers.find((item) => item.questionId === restoredQuestion.id);
+        sessionIdRef.current = remoteActiveSession.sessionId;
+        const params = new URLSearchParams(window.location.search);
+        params.set("session", remoteActiveSession.sessionId);
+        window.history.replaceState(window.history.state, "", `${window.location.pathname}?${params.toString()}${window.location.hash}`);
+        window.sessionStorage.setItem(`${QBANK_SESSION_STORAGE_PREFIX}${remoteActiveSession.sessionId}`, JSON.stringify(remoteActiveSession));
+        setQuestions(restoredQuestions);
+        setCurrentIndex(restoredIndex);
+        setAnswers(remoteActiveSession.answers.filter((item) => restoredQuestions.some((question) => question.id === item.questionId)));
+        setSelected(restoredAnswer?.selected ?? remoteActiveSession.selected);
+        setSubmitted(Boolean(restoredAnswer));
+        const state = loadQbankState();
+        setBookmarked(state.bookmarkIds.includes(restoredQuestion.id));
+        setWrongTracked(state.wrongIds.includes(restoredQuestion.id));
+        appliedRemoteSessionVersionRef.current = remoteActiveSession.updatedAt;
+      })
+      .catch((error) => console.warn("Q-bank active session could not be restored.", error))
+      .finally(() => window.setTimeout(() => { remoteSessionApplyingRef.current = false; }, 0));
+    return () => { cancelled = true; };
+  }, [remoteActiveSession, specialties]);
+
   const current = questions[currentIndex];
   const correctCount = useMemo(() => answers.filter((item) => item.correct).length, [answers]);
   const specialtyResults = useMemo(() => {
@@ -165,11 +257,15 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         total: questions.length,
       });
       window.sessionStorage.removeItem(sessionStorageKey());
+      if (syncUserId) {
+        const supabase = getSupabaseBrowserClient();
+        if (supabase) void supabase.from("user_preferences").upsert({ user_id: syncUserId, qbank_active_session: null }, { onConflict: "user_id" });
+      }
       setCompleted(true);
       return;
     }
     showQuestion(currentIndex + 1);
-  }, [answers, currentIndex, questions, sessionStartedAt, sessionStorageKey, showQuestion]);
+  }, [answers, currentIndex, questions, sessionStartedAt, sessionStorageKey, showQuestion, syncUserId]);
 
   const previous = useCallback(() => {
     if (currentIndex > 0) showQuestion(currentIndex - 1);
@@ -221,19 +317,31 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [current, currentIndex, next, previous, selected, submit, submitted]);
   useEffect(() => {
-    if (loading || completed || questions.length === 0) return;
+    if (loading || completed || questions.length === 0 || !sessionIdRef.current) return;
+    const snapshot: QbankActiveSession = {
+      sessionId: sessionIdRef.current,
+      questionIds: questions.map((item) => item.id),
+      currentIndex,
+      answers,
+      selected,
+      submitted,
+      updatedAt: new Date().toISOString(),
+    };
     try {
-      window.sessionStorage.setItem(sessionStorageKey(), JSON.stringify({
-        questionIds: questions.map((item) => item.id),
-        currentIndex,
-        answers,
-        selected,
-        submitted,
-      } satisfies QbankSessionSnapshot));
+      window.sessionStorage.setItem(sessionStorageKey(), JSON.stringify(snapshot));
     } catch {
       // Keep the session usable when browser storage is unavailable.
     }
-  }, [answers, completed, currentIndex, loading, questions, selected, sessionStorageKey, submitted]);
+    if (!syncUserId || remoteSessionApplyingRef.current) return;
+    if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
+    activeSessionTimerRef.current = window.setTimeout(() => {
+      const supabase = getSupabaseBrowserClient();
+      if (!supabase) return;
+      appliedRemoteSessionVersionRef.current = snapshot.updatedAt;
+      void supabase.from("user_preferences").upsert({ user_id: syncUserId, qbank_active_session: snapshot }, { onConflict: "user_id" })
+        .then(({ error }) => { if (error) console.warn("Q-bank active session sync failed.", error); });
+    }, 500);
+  }, [answers, completed, currentIndex, loading, questions, selected, sessionStorageKey, submitted, syncUserId]);
   if (loading) return <div className="surface p-8 text-center text-slate-600">문제를 불러오는 중입니다…</div>;
   if (error) return <div className="rounded-lg border border-rose-200 bg-rose-50 p-6 text-rose-900">{error}</div>;
   if (questions.length === 0) return (
