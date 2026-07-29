@@ -17,9 +17,9 @@ export function ChiefComplaintCategoryCard({
           <Link
             key={note.slug}
             href={`/cc/category/${category.slug}/${note.slug}`}
-            className="flex min-h-12 items-center justify-center rounded-lg border border-slate-200 bg-white px-1.5 py-1.5 text-center text-[13px] font-semibold leading-none text-slate-800 transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800 sm:min-h-14 sm:px-2 sm:text-sm xl:min-h-16 xl:text-base"
+            className="flex min-h-12 min-w-0 items-center justify-center rounded-lg border border-slate-200 bg-white px-1.5 py-1.5 text-center text-[13px] font-semibold leading-snug text-slate-800 transition hover:border-teal-300 hover:bg-teal-50 hover:text-teal-800 sm:min-h-14 sm:px-2 sm:text-sm xl:min-h-16 xl:text-base"
           >
-            <span className="whitespace-nowrap">{note.title}</span>
+            <span className="min-w-0 whitespace-normal break-words">{note.title}</span>
           </Link>
         ))}
       </div>
