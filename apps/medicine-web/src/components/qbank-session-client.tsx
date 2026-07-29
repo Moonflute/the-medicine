@@ -35,7 +35,7 @@ async function fetchJson<T>(path: string): Promise<T> {
   return response.json() as Promise<T>;
 }
 
-async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string): Promise<QbankQuestion[]> {
+async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, targetIds?: Set<string>): Promise<QbankQuestion[]> {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   let slugs: string[];
   if (mode === "specialty" && specialty && specialty !== "all") {
@@ -43,7 +43,7 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
     slugs = selectedSlugs.length > 0 ? selectedSlugs : specialties.map((item) => item.slug);
   } else if (mode === "wrong" || mode === "bookmarks") {
     const state = loadQbankState();
-    const ids = new Set(mode === "wrong" ? state.wrongIds : state.bookmarkIds);
+    const ids = targetIds ?? new Set(mode === "wrong" ? state.wrongIds : state.bookmarkIds);
     if (ids.size === 0) return [];
     const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
     slugs = [...new Set(index.filter((item) => ids.has(item.id)).map((item) => item.specialtySlug))];
@@ -109,12 +109,17 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const specialty = params.get("specialty") || "all";
     const requestedCountValue = params.get("count") || "10";
     const storageKey = sessionStorageKey();
-    void loadQuestions(specialties, mode, specialty)
+    const initialState = loadQbankState();
+    const targetIds = mode === "wrong"
+      ? new Set(initialState.wrongIds)
+      : mode === "bookmarks"
+        ? new Set(initialState.bookmarkIds)
+        : undefined;
+    void loadQuestions(specialties, mode, specialty, targetIds)
       .then((loaded) => {
-        const state = loadQbankState();
+        const state = initialState;
         let filtered = loaded;
-        if (mode === "wrong") filtered = loaded.filter((item) => state.wrongIds.includes(item.id));
-        if (mode === "bookmarks") filtered = loaded.filter((item) => state.bookmarkIds.includes(item.id));
+        if (mode === "wrong" || mode === "bookmarks") filtered = loaded.filter((item) => targetIds?.has(item.id));
         if (mode === "unattempted") filtered = loaded.filter((item) => !state.progress[item.id]);
         const requestedCount = requestedCountValue === "all"
           ? filtered.length
