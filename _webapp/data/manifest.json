@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-23T16:25:39.280Z",
+  "generatedAt": "2026-07-29T15:53:20.094Z",
   "sourceRoot": "source_notes",
   "outputRoot": "_webapp/data",
   "domains": {
     "diseases": {
-      "count": 1256,
+      "count": 1262,
       "source": "02 Diseases"
     },
     "chiefComplaints": {
@@ -19,6 +19,10 @@
       "count": 57,
       "source": "04 Pharmacology/08 감염/_data"
     },
+    "microbiology": {
+      "count": 85,
+      "source": "09 Microbiology"
+    },
     "physiology": {
       "count": 9,
       "source": "05 Physiology"
@@ -28,7 +32,7 @@
       "source": "03 Pathology"
     },
     "labImg": {
-      "count": 111,
+      "count": 117,
       "source": "06 Lab & Img"
     },
     "skills": {
@@ -60,13 +64,13 @@
       "source": "99 Q-bank/MedQA"
     },
     "infectionPathways": {
-      "count": 11,
+      "count": 16,
       "source": "02 Diseases/08 감염/_data/infection-pathways.json"
     },
     "clinicalRelations": {
-      "count": 7532,
-      "explicit": 4859,
-      "generated": 2673,
+      "count": 7591,
+      "explicit": 4902,
+      "generated": 2689,
       "source": "derived from frontmatter, structured CC recommendations, and wikilinks"
     }
   }

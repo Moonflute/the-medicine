@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { DiseaseCard } from "@/components/disease-card";
 import { DiseaseInfectionPanel } from "@/components/disease-infection-panel";
+import { MicrobiologyBacklinks } from "@/components/microbiology-backlinks";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { getAllDiseases, getAntibioticSpectrum, getChiefComplaintLinksForTerms, getClinicalRelationsFor, getDiseaseBySlug, getDiseaseLinks, getSpecialties, getSpecialtyToc, isSpecialtyIndexDisease } from "@/lib/webdb";
@@ -65,6 +66,7 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
 
       <DiseaseCard note={note} ccLinks={ccLinks} diseaseLinks={diseaseLinks} hideOverview={isSpecialtyIndexDisease(note)} />
       {infectionSpecialty && infectionPathways.length > 0 ? <DiseaseInfectionPanel pathways={infectionPathways} spectrum={getAntibioticSpectrum()} specialtySlug={infectionSpecialty.slug} /> : null}
+      <MicrobiologyBacklinks targetType="disease" targetId={note.slug} />
       <RelatedClinicalContent relations={relations} />
       {(previousDisease || nextDisease) ? <nav aria-label="질환 페이지 이동" className="grid gap-3 border-t border-slate-200 pt-6 sm:grid-cols-2">
         {previousDisease ? <Link href={`/disease/${previousDisease.slug}`} className="group flex min-h-20 items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 text-left transition hover:border-teal-300 hover:bg-teal-50">

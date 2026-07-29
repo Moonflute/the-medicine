@@ -10,6 +10,10 @@ import type {
   DiseaseNote,
   DomainToc,
   DomainNote,
+  MicrobiologyDataset,
+  MicrobiologyEntity,
+  MicrobiologyRelation,
+  MicrobiologyRelationDataset,
   SearchEntry,
   SkillCategorySummary,
   SkillsManifest,
@@ -34,6 +38,10 @@ export type {
   DiseaseSection,
   DomainToc,
   DomainNote,
+  MicrobiologyDataset,
+  MicrobiologyEntity,
+  MicrobiologyRelation,
+  MicrobiologyRelationDataset,
   SearchEntry,
   SkillCategorySummary,
   SkillsManifest,
@@ -201,6 +209,34 @@ export function getChiefComplaintLinksForTerms(terms: string[]): TermLink[] {
 
 export function getAntibioticSpectrum(): AntibioticSpectrumDataset {
   return readJson<AntibioticSpectrumDataset>("antibiotic-spectrum.json");
+}
+
+export function getMicrobiologyDataset(): MicrobiologyDataset {
+  return readJson<MicrobiologyDataset>("microorganisms.json");
+}
+
+export function getMicrobiologyEntities(): MicrobiologyEntity[] {
+  return getMicrobiologyDataset().entities;
+}
+
+export function getMicrobiologyEntityBySlug(slug: string): MicrobiologyEntity | undefined {
+  return getMicrobiologyEntities().find((entity) => entity.slug === slug);
+}
+
+export function getMicrobiologyEntityById(id: string): MicrobiologyEntity | undefined {
+  return getMicrobiologyEntities().find((entity) => entity.id === id);
+}
+
+export function getMicrobiologyEntityForSpectrumId(spectrumId: string): MicrobiologyEntity | undefined {
+  return getMicrobiologyEntities().find((entity) => entity.spectrumIds.includes(spectrumId));
+}
+
+export function getMicrobiologyRelationDataset(): MicrobiologyRelationDataset {
+  return readJson<MicrobiologyRelationDataset>("microbiology-relations.json");
+}
+
+export function getMicrobiologyRelationsFor(sourceId: string): MicrobiologyRelation[] {
+  return getMicrobiologyRelationDataset().relations.filter((relation) => relation.sourceId === sourceId);
 }
 
 export function getDrugs(): DomainNote[] {

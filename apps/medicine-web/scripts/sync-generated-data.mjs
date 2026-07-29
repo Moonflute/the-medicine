@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 import path from "node:path";
 
 const APP_ROOT = process.env.INIT_CWD || process.cwd();
@@ -877,7 +877,131 @@ function buildDrugs() {
 }
 
 
-function buildAntibioticSpectrum(drugs, diseases) {
+function buildMicrobiology() {
+  const root = path.join(SOURCE_NOTES_ROOT, "09 Microbiology");
+  const dataRoot = path.join(root, "_data");
+  const registryPath = path.join(dataRoot, "microorganism-registry.json");
+  const sourcesPath = path.join(dataRoot, "microbiology-sources.json");
+  const relationsPath = path.join(dataRoot, "microbiology-relations.json");
+  for (const required of [registryPath, sourcesPath, relationsPath]) {
+    if (!fs.existsSync(required)) throw new Error(`Microbiology source is missing: ${required}`);
+  }
+
+  const registry = JSON.parse(readText(registryPath));
+  const sourceDataset = JSON.parse(readText(sourcesPath));
+  const relationDataset = JSON.parse(readText(relationsPath));
+  const allowedKinds = new Set(["organism", "clinical_group", "resistance_phenotype"]);
+  const allowedPathogenTypes = new Set(["bacterium", "virus", "fungus", "protozoan", "helminth", "ectoparasite", "prion", "mixed"]);
+  const allowedStatuses = new Set(["draft", "source_checked", "clinically_reviewed", "verified", "needs_update"]);
+  const sourceIds = new Set(sourceDataset.sources.map((item) => item.id));
+  const ids = new Set();
+  const spectrumIds = new Set();
+  const normalizedAliases = new Map();
+
+  const entities = registry.entities.map((entry) => {
+    if (!entry.id || ids.has(entry.id)) throw new Error(`Duplicate or missing microbiology id: ${entry.id}`);
+    ids.add(entry.id);
+    if (!allowedKinds.has(entry.entityKind)) throw new Error(`Invalid entityKind for ${entry.id}: ${entry.entityKind}`);
+    if (!allowedPathogenTypes.has(entry.pathogenType)) throw new Error(`Invalid pathogenType for ${entry.id}: ${entry.pathogenType}`);
+    if (!allowedStatuses.has(entry.reviewStatus)) throw new Error(`Invalid reviewStatus for ${entry.id}: ${entry.reviewStatus}`);
+    for (const sourceId of entry.sourceIds ?? []) {
+      if (!sourceIds.has(sourceId)) throw new Error(`Unknown microbiology source for ${entry.id}: ${sourceId}`);
+    }
+    for (const spectrumId of entry.spectrumIds ?? []) {
+      if (spectrumIds.has(spectrumId)) throw new Error(`Duplicate spectrum mapping: ${spectrumId}`);
+      spectrumIds.add(spectrumId);
+    }
+    for (const alias of [entry.scientificName, entry.koreanName, ...(entry.aliases ?? [])].filter(Boolean)) {
+      const normalized = alias.toLocaleLowerCase().replace(/[\s._/()-]+/g, "");
+      const previous = normalizedAliases.get(normalized);
+      if (previous && previous !== entry.id && alias === entry.scientificName && entry.entityKind === "organism" && registry.entities.find((candidate) => candidate.id === previous)?.entityKind === "organism") {
+        throw new Error(`Duplicate canonical scientific name: ${alias} (${previous}, ${entry.id})`);
+      }
+      if (!previous) normalizedAliases.set(normalized, entry.id);
+    }
+
+    const notePath = path.join(root, entry.noteSourceFile);
+    if (!fs.existsSync(notePath)) throw new Error(`Microbiology note is missing for ${entry.id}: ${entry.noteSourceFile}`);
+    const { frontmatter, body } = splitFrontmatter(readText(notePath));
+    const noteId = readScalar(frontmatter.microbiology_id);
+    if (noteId !== entry.id) throw new Error(`Microbiology id mismatch: registry=${entry.id}, note=${noteId || "(missing)"}`);
+    const noteSourceIds = readList(frontmatter.source_ids);
+    for (const sourceId of noteSourceIds) {
+      if (!sourceIds.has(sourceId)) throw new Error(`Unknown note source for ${entry.id}: ${sourceId}`);
+    }
+    const sections = splitSections(body);
+    const summaryCallout = extractSummaryCallout(body);
+    const relativePath = entry.noteSourceFile.replaceAll("\\", "/");
+    const categoryPath = relativePath.split("/").slice(0, -1);
+    const title = entry.koreanName && entry.scientificName && entry.koreanName !== entry.scientificName
+      ? `${entry.koreanName} (${entry.scientificName})`
+      : entry.koreanName || entry.scientificName;
+
+    return {
+      id: entry.id,
+      slug: toSlug(`microbiology:${entry.id}`),
+      title,
+      scientificName: entry.scientificName || "",
+      koreanName: entry.koreanName || "",
+      entityKind: entry.entityKind,
+      pathogenType: entry.pathogenType,
+      category: entry.category || categoryPath.at(-1) || "기타",
+      categoryPath,
+      aliases: entry.aliases ?? [],
+      classification: entry.classification ?? [],
+      clinicalTags: entry.clinicalTags ?? [],
+      taxonomyIds: entry.taxonomyIds ?? [],
+      spectrumIds: entry.spectrumIds ?? [],
+      relatedDiseaseIds: readList(frontmatter.related_disease_ids),
+      relatedAntibioticIds: readList(frontmatter.related_antibiotic_ids),
+      relatedLabIds: readList(frontmatter.related_lab_ids),
+      sourceIds: [...new Set([...(entry.sourceIds ?? []), ...noteSourceIds])],
+      reviewStatus: entry.reviewStatus,
+      reviewedAt: entry.reviewedAt || readScalar(frontmatter.reviewed_at),
+      sourcePath: path.relative(WORKSPACE_ROOT, notePath).replaceAll("\\", "/"),
+      summary: summaryCallout.length ? summaryCallout : sections[0]?.content.slice(0, 3) ?? [],
+      sections,
+    };
+  });
+
+  const entityFiles = new Set(entities.map((entity) => entity.sourcePath.replaceAll("\\", "/")));
+  const orphanNotes = listMarkdownFiles(root, {
+    ignoreDirs: new Set(["_data", "_templates"]),
+    ignoreFiles: new Set(["index.md"]),
+  }).map((filePath) => path.relative(WORKSPACE_ROOT, filePath).replaceAll("\\", "/"))
+    .filter((sourcePath) => !entityFiles.has(sourcePath));
+  if (orphanNotes.length) throw new Error(`Unregistered microbiology notes: ${orphanNotes.join(", ")}`);
+
+  for (const relation of relationDataset.relations) {
+    if (!ids.has(relation.sourceId)) throw new Error(`Unknown microbiology relation source: ${relation.sourceId}`);
+    if (["microorganism", "clinicalGroup", "resistancePhenotype"].includes(relation.targetType) && !ids.has(relation.targetId)) {
+      throw new Error(`Unknown microbiology relation target: ${relation.targetId}`);
+    }
+    for (const sourceId of relation.sourceIds ?? []) {
+      if (!sourceIds.has(sourceId)) throw new Error(`Unknown relation source id for ${relation.sourceId}: ${sourceId}`);
+    }
+    if (!allowedStatuses.has(relation.reviewStatus)) throw new Error(`Invalid relation status: ${relation.reviewStatus}`);
+  }
+
+  const toc = {
+    domain: "Microbiology",
+    sourcePath: "source_notes/09 Microbiology",
+    items: entities.map((entity) => ({ title: entity.title, path: entity.categoryPath, slug: entity.slug, entityKind: entity.entityKind })),
+  };
+  return {
+    dataset: {
+      schemaVersion: registry.schemaVersion,
+      reviewedAt: registry.reviewedAt,
+      disclaimer: registry.disclaimer,
+      sources: sourceDataset.sources,
+      entities,
+    },
+    relations: relationDataset,
+    toc,
+  };
+}
+
+function buildAntibioticSpectrum(drugs, diseases, microbiology) {
   const sourcePath = path.join(SOURCE_NOTES_ROOT, "04 Pharmacology", "08 감염", "_data", "antibiotic-spectrum.json");
   if (!fs.existsSync(sourcePath)) throw new Error(`Antibiotic spectrum source is missing: ${sourcePath}`);
 
@@ -889,6 +1013,15 @@ function buildAntibioticSpectrum(drugs, diseases) {
   ]);
   const organismIds = new Set(dataset.organisms.map((item) => item.id));
   const organisms = dataset.organisms.map((item) => {
+    const microEntity = microbiology.entities.find((candidate) => candidate.spectrumIds.includes(item.id));
+    if (microEntity) {
+      return {
+        ...item,
+        microbiologyId: microEntity.id,
+        microbiologySlug: microEntity.slug,
+        noteTitle: microEntity.title,
+      };
+    }
     if (!item.noteSourceFile) return item;
     const expected = `source_notes/02 Diseases/${item.noteSourceFile}`.replaceAll("\\", "/");
     const note = diseases.find((candidate) => candidate.sourcePath.replaceAll("\\", "/") === expected);
@@ -1111,7 +1244,7 @@ function buildSkills() {
   return { source: "07 Skills", categories, items };
 }
 
-function buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology, labImg, skills }) {
+function buildSearchIndex({ diseases, chiefComplaints, drugs, microbiology, physiology, pathology, labImg, skills }) {
   const genericEntry = (type, item, href) => ({
     type,
     slug: item.slug,
@@ -1154,6 +1287,16 @@ function buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathol
         ...item.sections.map((section) => section.title),
       ].filter(Boolean),
       priority: item.drugMeta.priority,
+    })),
+    ...microbiology.entities.map((entity) => ({
+      type: entity.entityKind === "organism" ? "microorganism" : entity.entityKind === "clinical_group" ? "clinicalGroup" : "resistancePhenotype",
+      slug: entity.slug,
+      title: entity.title,
+      category: entity.category,
+      aliases: [entity.scientificName, entity.koreanName, ...entity.aliases].filter(Boolean),
+      keywords: [...entity.classification, ...entity.clinicalTags, ...entity.categoryPath].filter(Boolean),
+      quickSummary: entity.summary[0] || "",
+      href: `/microbiology/${entity.slug}`,
     })),
     ...physiology.map((item) => genericEntry("physiology", item, `/physiology/${item.slug}`)),
     ...pathology.map((item) => genericEntry("pathology", item, `/pathology/${item.slug}`)),
@@ -1304,7 +1447,8 @@ function main() {
   const diseases = buildDiseases();
   const chiefComplaints = buildChiefComplaints();
   const drugs = buildDrugs();
-  const antibioticSpectrum = buildAntibioticSpectrum(drugs, diseases);
+  const microbiology = buildMicrobiology();
+  const antibioticSpectrum = buildAntibioticSpectrum(drugs, diseases, microbiology.dataset);
   const physiology = buildGenericNotes("05 Physiology", "physiology");
   const pathology = buildGenericNotes("03 Pathology", "pathology");
   const labImg = buildGenericNotes("06 Lab & Img", "lab-img", {
@@ -1335,6 +1479,7 @@ function main() {
       chiefComplaints: { count: chiefComplaints.length, source: "01 Chief Complaint" },
       drugs: { count: drugs.length, source: "04 Pharmacology" },
       antibioticSpectrum: { count: antibioticSpectrum.antibiotics.length, source: "04 Pharmacology/08 감염/_data" },
+      microbiology: { count: microbiology.dataset.entities.length, source: "09 Microbiology" },
       physiology: { count: physiology.length, source: "05 Physiology" },
       pathology: { count: pathology.length, source: "03 Pathology" },
       labImg: { count: labImg.length, source: "06 Lab & Img" },
@@ -1353,6 +1498,10 @@ function main() {
   writeJson("chief-complaints.json", chiefComplaints);
   writeJson("drugs.json", drugs);
   writeJson("antibiotic-spectrum.json", antibioticSpectrum);
+  writeJson("microorganisms.json", microbiology.dataset);
+  writeJson("microbiology-relations.json", microbiology.relations);
+  writeJson("microbiology-toc.json", microbiology.toc);
+  writeJson("microbiology-sources.json", { schemaVersion: microbiology.dataset.schemaVersion, reviewedAt: microbiology.dataset.reviewedAt, sources: microbiology.dataset.sources });
   writeJson("physiology.json", physiology);
   writeJson("pathology.json", pathology);
   writeJson("lab-img.json", labImg);
@@ -1366,7 +1515,7 @@ function main() {
   writeJson("qbank-specialties.json", qbank.specialties);
   writeJson(
     "search-index.json",
-    buildSearchIndex({ diseases, chiefComplaints, drugs, physiology, pathology, labImg, skills }),
+    buildSearchIndex({ diseases, chiefComplaints, drugs, microbiology: microbiology.dataset, physiology, pathology, labImg, skills }),
   );
 
   fs.writeFileSync(

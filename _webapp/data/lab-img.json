@@ -7142,15 +7142,13 @@
       {
         "title": "Rhythm pattern",
         "content": [
-          "| 패턴 | ECG 단서 | 놓치지 않을 것 |",
-          "|---|---|---|",
-          "| Atrial fibrillation | irregularly irregular, 일관된 P wave 없음 | instability, stroke risk, trigger |",
-          "| Atrial flutter | flutter wave, 고정/가변 AV conduction | 2:1 conduction 시 규칙적 tachy 가능 |",
-          "| Regular narrow SVT | 갑작스러운 규칙적 narrow tachy | flutter 2:1, sinus tachy 원인 |",
-          "| Wide-complex tachycardia | QRS ≥120 ms의 tachy | 불명확하면 VT 가능성을 우선 고려 |",
-          "| Ventricular tachycardia | AV dissociation, capture/fusion 등 지지 소견 | pulse/instability 즉시 확인 |",
-          "| Sinus bradycardia | sinus P와 느린 rate | 약물, ischemia, hypothermia, K |",
-          "| Junctional/escape | P absent/retrograde, 느린 rhythm | underlying block/약물 |",
+          "• **Atrial fibrillation** — 단서: irregularly irregular, 일관된 P wave 없음. 놓치지 않을 것: instability, stroke risk, trigger.",
+          "• **Atrial flutter** — 단서: flutter wave, 고정/가변 AV conduction. 놓치지 않을 것: 2:1 conduction 시 규칙적 tachy 가능.",
+          "• **Regular narrow SVT** — 단서: 갑작스러운 규칙적 narrow tachy. 놓치지 않을 것: flutter 2:1, sinus tachy 원인.",
+          "• **Wide-complex tachycardia** — 단서: QRS ≥120 ms의 tachy. 놓치지 않을 것: 불명확하면 VT 가능성을 우선 고려.",
+          "• **Ventricular tachycardia** — 단서: AV dissociation, capture/fusion 등 지지 소견. 놓치지 않을 것: pulse/instability 즉시 확인.",
+          "• **Sinus bradycardia** — 단서: sinus P와 느린 rate. 놓치지 않을 것: 약물, ischemia, hypothermia, K.",
+          "• **Junctional/escape** — 단서: P absent/retrograde, 느린 rhythm. 놓치지 않을 것: underlying block/약물.",
           "불안정 환자의 처치는 진단명 확정 전에 소생술·기관 알고리즘을 따른다."
         ]
       },
@@ -7211,7 +7209,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-11T12:11:20.199Z",
+    "updatedAt": "2026-07-26T17:24:54.875Z",
     "contentMeta": {
       "reviewedAt": "2026-07-11",
       "reviewStatus": "draft",
@@ -8038,6 +8036,308 @@
       "reviewedAt": "",
       "reviewStatus": "",
       "guidelineYear": "",
+      "sources": []
+    }
+  },
+  {
+    "id": "lab-img:05 미생물검사/미생물검사.md",
+    "slug": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwv66-47IOd66y86rKA7IKsLm1k",
+    "title": "미생물검사",
+    "sourcePath": "source_notes/06 Lab & Img/05 미생물검사/미생물검사.md",
+    "relativePath": "05 미생물검사/미생물검사.md",
+    "pathSegments": [
+      "05 미생물검사"
+    ],
+    "folder": "05 미생물검사",
+    "aliases": [
+      "Clinical microbiology",
+      "감염검사"
+    ],
+    "category": "05 미생물검사",
+    "summary": [
+      "미생물검사는 병원체를 찾는 검사이면서 동시에 검체 품질, 감염 부위, 채취 시점과 검사 전 확률을 해석하는 과정이다. 양성 결과가 항상 감염을 뜻하지 않고 음성 결과도 선행 항균치료와 검체 한계에 따라 감염을 배제하지 못한다."
+    ],
+    "sections": [
+      {
+        "title": "핵심 검사",
+        "content": [
+          "• [[Blood culture]]",
+          "• [[Gram stain]]",
+          "• [[Antimicrobial susceptibility testing]]",
+          "• [[Syndromic multiplex NAAT]]"
+        ]
+      },
+      {
+        "title": "공통 해석 원칙",
+        "content": [
+          "• 항균제를 투여하기 전에 검체를 확보하되, 중증 감염에서 검체 채취 때문에 필요한 치료를 지연하지 않는다.",
+          "• 표면 swab보다 실제 감염 부위의 aspirate, tissue, fluid와 적절한 혈액배양을 우선한다.",
+          "• 정상균총이 있는 부위의 양성은 집락화·오염·감염을 임상상과 함께 구분한다.",
+          "• 검사실에 의심 병원체, 감염 부위, 면역저하와 특수 배양 필요성을 전달한다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• [IDSA/ASM Guide to Utilization of the Microbiology Laboratory](https://www.idsociety.org/practice-guideline/laboratory-diagnosis-of-infectious-diseases/)"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-29T15:06:39.926Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-29",
+      "reviewStatus": "source_checked",
+      "guidelineYear": "2024",
+      "sources": []
+    }
+  },
+  {
+    "id": "lab-img:05 미생물검사/Antimicrobial susceptibility testing.md",
+    "slug": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+    "title": "Antimicrobial susceptibility testing",
+    "sourcePath": "source_notes/06 Lab & Img/05 미생물검사/Antimicrobial susceptibility testing.md",
+    "relativePath": "05 미생물검사/Antimicrobial susceptibility testing.md",
+    "pathSegments": [
+      "05 미생물검사"
+    ],
+    "folder": "05 미생물검사",
+    "aliases": [
+      "AST",
+      "항균제감수성검사",
+      "Antibiogram"
+    ],
+    "category": "05 미생물검사",
+    "summary": [
+      "분리된 병원체와 약물 조합을 MIC 또는 zone diameter로 측정하고 breakpoint를 적용해 임상 범주로 해석한다. 결과는 약물 자체의 절대적 효능이 아니라 특정 species·감염부위·노출조건에서의 치료 가능성을 지원한다."
+    ],
+    "sections": [
+      {
+        "title": "주요 방법",
+        "content": [
+          "• broth microdilution과 automated MIC system",
+          "• disk diffusion",
+          "• gradient diffusion",
+          "• 특정 resistance mechanism을 위한 phenotypic 또는 molecular test"
+        ]
+      },
+      {
+        "title": "해석 원칙",
+        "content": [
+          "• 현재 적용 중인 EUCAST 또는 CLSI breakpoint version과 검사실 보고 범주를 확인한다.",
+          "• `S`, `I`, `R`의 의미는 체계별 정의를 따른다. EUCAST의 `I`는 increased exposure에서 감수성을 의미한다.",
+          "• intrinsic resistance와 expected phenotype에 어긋나는 결과는 identification·AST 오류 또는 드문 기전을 재검토한다.",
+          "• antibiogram은 경험적 치료 선택에 유용하지만 개별 환자의 isolate AST를 대체하지 않는다."
+        ]
+      },
+      {
+        "title": "임상적 함정",
+        "content": [
+          "• in vitro susceptible이 감염 부위 도달, inoculum, biofilm 또는 source control 실패를 해결하지 못한다.",
+          "• urine breakpoint와 systemic infection breakpoint가 다를 수 있다.",
+          "• heteroresistance, inducible resistance와 검사법별 detection gap이 존재한다.",
+          "• molecular resistance marker 음성은 모든 표현형 내성을 배제하지 않는다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• [EUCAST Clinical Breakpoint Tables](https://www.eucast.org/clinical_breakpoints)",
+          "• [EUCAST Expert Rules and Expected Phenotypes](https://www.eucast.org/expert_rules_and_expected_phenotypes)"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-29T15:06:39.931Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-29",
+      "reviewStatus": "source_checked",
+      "guidelineYear": "2026",
+      "sources": []
+    }
+  },
+  {
+    "id": "lab-img:05 미생물검사/Blood culture.md",
+    "slug": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQmxvb2QgY3VsdHVyZS5tZA",
+    "title": "Blood culture",
+    "sourcePath": "source_notes/06 Lab & Img/05 미생물검사/Blood culture.md",
+    "relativePath": "05 미생물검사/Blood culture.md",
+    "pathSegments": [
+      "05 미생물검사"
+    ],
+    "folder": "05 미생물검사",
+    "aliases": [
+      "Blood cultures",
+      "혈액배양"
+    ],
+    "category": "05 미생물검사",
+    "summary": [
+      "Bacteremia와 fungemia를 검출하는 기본 검사다. 적절한 피부소독, 충분한 혈액량, 독립된 venipuncture에서 얻은 여러 bottle과 항균제 투여 전 채취가 민감도와 오염률을 좌우한다."
+    ],
+    "sections": [
+      {
+        "title": "적응증",
+        "content": [
+          "• sepsis 또는 septic shock",
+          "• infective endocarditis, vascular catheter infection, meningitis와 invasive bacterial/fungal infection 의심",
+          "• 원인 불명의 지속 발열, 면역저하자의 발열"
+        ]
+      },
+      {
+        "title": "채취 원칙",
+        "content": [
+          "• 성인은 보통 서로 다른 venipuncture에서 aerobic·anaerobic bottle을 포함한 set를 확보한다.",
+          "• 혈액량이 가장 중요한 민감도 결정요인 중 하나이며 bottle 제조사와 기관 지침의 권장량을 따른다.",
+          "• catheter-related bloodstream infection 의심 시 peripheral과 catheter-drawn specimen의 동시 채취 및 time-to-positivity를 활용할 수 있다."
+        ]
+      },
+      {
+        "title": "결과 해석",
+        "content": [
+          "• `S. aureus`, Enterobacterales, `P. aeruginosa`, yeast 등은 임상적으로 중요한 혈류감염 가능성이 높다.",
+          "• coagulase-negative staphylococci, Corynebacterium 등 피부상재균은 오염 가능성이 있지만 prosthetic material, 면역저하와 반복 양성에서는 진성 감염일 수 있다.",
+          "• 양성 bottle 수, 독립 채취 set 수, time to positivity와 임상상을 함께 본다."
+        ]
+      },
+      {
+        "title": "주의점",
+        "content": [
+          "• 선행 항균치료는 민감도를 낮춘다.",
+          "• 반복 배양은 `S. aureus` bacteremia, endocarditis, candidemia 등 지속 혈류감염 확인이 필요한 상황에 선별한다.",
+          "• 단순 발열 추적 목적으로 무분별하게 반복하면 오염과 불필요한 치료가 늘 수 있다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• [IDSA/ASM Guide to Utilization of the Microbiology Laboratory](https://www.idsociety.org/practice-guideline/laboratory-diagnosis-of-infectious-diseases/)"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-29T15:06:39.927Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-29",
+      "reviewStatus": "source_checked",
+      "guidelineYear": "2024",
+      "sources": []
+    }
+  },
+  {
+    "id": "lab-img:05 미생물검사/Gram stain.md",
+    "slug": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+    "title": "Gram stain",
+    "sourcePath": "source_notes/06 Lab & Img/05 미생물검사/Gram stain.md",
+    "relativePath": "05 미생물검사/Gram stain.md",
+    "pathSegments": [
+      "05 미생물검사"
+    ],
+    "folder": "05 미생물검사",
+    "aliases": [
+      "그람염색",
+      "Gram staining"
+    ],
+    "category": "05 미생물검사",
+    "summary": [
+      "세균의 Gram reaction과 형태, 염증세포 및 검체 품질을 빠르게 보여 주는 현미경 검사다. 결과는 잠정적 형태 정보이며 species identification이나 배양·감수성검사를 대체하지 않는다."
+    ],
+    "sections": [
+      {
+        "title": "판독 순서",
+        "content": [
+          "1. 검체 종류와 채취 부위를 확인한다.",
+          "2. neutrophil 등 염증세포와 squamous epithelial cell을 보고 검체 품질을 평가한다.",
+          "3. G(+)/G(-), coccus/bacillus/coccobacillus와 배열을 기술한다.",
+          "4. 배양 또는 molecular result와 일치하는지 확인한다."
+        ]
+      },
+      {
+        "title": "임상적 활용",
+        "content": [
+          "• CSF, synovial fluid, pleural fluid와 deep tissue의 신속한 초기 평가",
+          "• positive blood culture bottle의 organism morphology 보고",
+          "• 하기도 검체의 염증과 구강 오염 가능성 평가",
+          "• yeast와 일부 fungal element의 신속 검출"
+        ]
+      },
+      {
+        "title": "한계",
+        "content": [
+          "• 낮은 organism burden, 선행 항균제와 부적절한 검체에서 위음성이 가능하다.",
+          "• Mycobacteria, Mycoplasma, Chlamydia와 많은 virus는 routine Gram stain으로 평가하지 못한다.",
+          "• Gram-variable organism과 탈색·고정 오류가 오판을 만들 수 있다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• [IDSA/ASM Guide to Utilization of the Microbiology Laboratory](https://www.idsociety.org/practice-guideline/laboratory-diagnosis-of-infectious-diseases/)"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-29T15:06:39.929Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-29",
+      "reviewStatus": "source_checked",
+      "guidelineYear": "2024",
+      "sources": []
+    }
+  },
+  {
+    "id": "lab-img:05 미생물검사/Syndromic multiplex NAAT.md",
+    "slug": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+    "title": "Syndromic multiplex NAAT",
+    "sourcePath": "source_notes/06 Lab & Img/05 미생물검사/Syndromic multiplex NAAT.md",
+    "relativePath": "05 미생물검사/Syndromic multiplex NAAT.md",
+    "pathSegments": [
+      "05 미생물검사"
+    ],
+    "folder": "05 미생물검사",
+    "aliases": [
+      "Multiplex PCR panel",
+      "Syndromic panel",
+      "다중병원체 분자검사"
+    ],
+    "category": "05 미생물검사",
+    "summary": [
+      "하나의 검체에서 여러 병원체 핵산을 동시에 검출하는 신속 검사다. meningitis/encephalitis, respiratory infection, gastroenteritis와 bloodstream infection 보조 panel이 있으나 검출이 곧 원인 질환이나 viable organism을 뜻하지는 않는다."
+    ],
+    "sections": [
+      {
+        "title": "장점",
+        "content": [
+          "• 빠른 병원체 확인과 일부 격리·항균제 조정",
+          "• 배양이 어렵거나 항균제 선투여 영향을 받는 병원체 검출",
+          "• 임상 증상이 겹치는 여러 병원체의 동시 평가"
+        ]
+      },
+      {
+        "title": "해석 순서",
+        "content": [
+          "1. 해당 syndrome과 검체가 panel의 intended use에 맞는지 확인한다.",
+          "2. 검출 병원체가 증상과 환자군을 설명하는지 평가한다.",
+          "3. colonization, 장기간 shedding, 잠복감염 또는 contamination 가능성을 검토한다.",
+          "4. 배양·AST·공중보건 typing이 추가로 필요한지 결정한다."
+        ]
+      },
+      {
+        "title": "한계",
+        "content": [
+          "• panel에 포함되지 않은 병원체와 비감염성 질환은 배제하지 못한다.",
+          "• resistance gene은 organism과 연결되지 않거나 phenotype과 불일치할 수 있다.",
+          "• 반복 검사는 잔존 핵산을 검출해 불필요한 치료를 유발할 수 있다.",
+          "• 높은 비용과 incidental detection 때문에 검사 전 적응증 설정이 중요하다."
+        ]
+      },
+      {
+        "title": "출처",
+        "content": [
+          "• [IDSA/ASM Guide to Utilization of the Microbiology Laboratory](https://www.idsociety.org/practice-guideline/laboratory-diagnosis-of-infectious-diseases/)"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-29T15:06:39.933Z",
+    "contentMeta": {
+      "reviewedAt": "2026-07-29",
+      "reviewStatus": "source_checked",
+      "guidelineYear": "2024",
       "sources": []
     }
   },
@@ -9300,6 +9600,48 @@
           "url": "https://medlineplus.gov/lab-tests/cerebrospinal-fluid-csf-analysis/"
         }
       ]
+    }
+  },
+  {
+    "id": "lab-img:99 수치입력/수치입력.md",
+    "slug": "bGFiLWltZzo5OSDsiJjsuZjsnoXroKUv7IiY7LmY7J6F66ClLm1k",
+    "title": "수치입력",
+    "sourcePath": "source_notes/06 Lab & Img/99 수치입력/수치입력.md",
+    "relativePath": "99 수치입력/수치입력.md",
+    "pathSegments": [
+      "99 수치입력"
+    ],
+    "folder": "99 수치입력",
+    "aliases": [],
+    "category": "99 수치입력",
+    "summary": [
+      "혈액검사·소변검사·ABGA 값을 함께 입력해 참고범위와 조합 패턴을 빠르게 검토하는 도구입니다."
+    ],
+    "sections": [
+      {
+        "title": "포함 패널",
+        "content": [
+          "• 혈구, 전해질·신장, 당대사, 간기능, 염증·응고, 갑상샘·지질",
+          "• 요검사·UACR",
+          "• ABGA 및 anion gap/보상 계산"
+        ]
+      },
+      {
+        "title": "근거",
+        "content": [
+          "• [MedlinePlus: Comprehensive Metabolic Panel](https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/)",
+          "• [MedlinePlus: Urinalysis](https://medlineplus.gov/urinalysis.html)",
+          "• [NIDDK: Assess Urine Albumin](https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd/assess-urine-albumin)",
+          "• [MSD Manual Professional: Acid-Base Disorders](https://www.msdmanuals.com/professional/nephrology/acid-base-regulation-and-disorders/acid-base-disorders)"
+        ]
+      }
+    ],
+    "updatedAt": "2026-07-26T14:38:41.166Z",
+    "contentMeta": {
+      "reviewedAt": "",
+      "reviewStatus": "",
+      "guidelineYear": "",
+      "sources": []
     }
   }
 ]

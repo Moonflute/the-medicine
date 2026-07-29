@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-07-29T15:53:33.685Z",
+  "relationCount": 986,
+  "byTargetType": {
+    "disease": 156,
+    "drug": 623,
+    "lab": 197,
+    "microorganism": 2,
+    "clinicalGroup": 8,
+    "resistancePhenotype": 0
+  },
+  "brokenTargetCount": 0,
+  "broken": []
+}

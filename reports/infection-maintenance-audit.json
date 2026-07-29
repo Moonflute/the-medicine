@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-17T18:34:52.694Z",
+  "generatedAt": "2026-07-29T15:53:20.477Z",
   "summary": {
-    "pathways": 41,
-    "verifiedPathways": 38,
+    "pathways": 19,
+    "verifiedPathways": 16,
     "hiddenFromClinicalUi": 3,
-    "reviewedQuizQuestions": 57,
+    "reviewedQuizQuestions": 30,
     "organisms": 22,
-    "organismNotesLinked": 6,
+    "organismNotesLinked": 0,
     "antibiotics": 57
   },
   "clinicalAnchorAudit": {
@@ -57,8 +57,8 @@
       "usedByVerifiedPathways": [
         "nonpurulent-cellulitis",
         "purulent-skin-abscess",
-        "human-or-animal-bite-wound-infection",
-        "erysipelas"
+        "adult-necrotizing-fasciitis",
+        "adult-fourniers-gangrene"
       ]
     },
     {
@@ -115,36 +115,7 @@
       "id": "tokyo-cholangitis-2018",
       "year": "2018",
       "usedByVerifiedPathways": [
-        "adult-acute-cholangitis",
-        "adult-acute-calculous-cholecystitis"
-      ]
-    },
-    {
-      "id": "idsa-gas-pharyngitis",
-      "year": "2012",
-      "usedByVerifiedPathways": [
-        "gas-pharyngitis"
-      ]
-    },
-    {
-      "id": "cdc-gonorrhea",
-      "year": "2021",
-      "usedByVerifiedPathways": [
-        "uncomplicated-gonorrhea"
-      ]
-    },
-    {
-      "id": "cdc-gonorrhea-update",
-      "year": "2020",
-      "usedByVerifiedPathways": [
-        "uncomplicated-gonorrhea"
-      ]
-    },
-    {
-      "id": "idsa-ssti",
-      "year": "2014",
-      "usedByVerifiedPathways": [
-        "necrotizing-fasciitis"
+        "adult-acute-cholangitis"
       ]
     },
     {
@@ -155,131 +126,32 @@
       ]
     },
     {
-      "id": "acg-cdi-2021",
+      "id": "escmid-cdi-2021",
       "year": "2021",
       "usedByVerifiedPathways": [
         "adult-clostridioides-difficile-infection"
       ]
     },
     {
-      "id": "nice-dfi-2019",
-      "year": "2019",
-      "usedByVerifiedPathways": [
-        "adult-diabetes-related-foot-infection"
-      ]
-    },
-    {
-      "id": "idsa-abrs-2012",
-      "year": "2012",
-      "usedByVerifiedPathways": [
-        "acute-bacterial-rhinosinusitis"
-      ]
-    },
-    {
-      "id": "nice-sinusitis-2017",
-      "year": "2017",
-      "usedByVerifiedPathways": [
-        "acute-bacterial-rhinosinusitis"
-      ]
-    },
-    {
-      "id": "aap-aom-2013",
-      "year": "2013",
-      "usedByVerifiedPathways": [
-        "pediatric-acute-otitis-media"
-      ]
-    },
-    {
-      "id": "nice-bites-2020",
-      "year": "2020",
-      "usedByVerifiedPathways": [
-        "human-or-animal-bite-wound-infection"
-      ]
-    },
-    {
-      "id": "cdc-pid-2021",
-      "year": "2021",
-      "usedByVerifiedPathways": [
-        "acute-pelvic-inflammatory-disease"
-      ]
-    },
-    {
-      "id": "bashh-pid-2019",
-      "year": "2019",
-      "usedByVerifiedPathways": [
-        "acute-pelvic-inflammatory-disease"
-      ]
-    },
-    {
-      "id": "nice-diverticulitis-2019",
-      "year": "2019",
-      "usedByVerifiedPathways": [
-        "adult-acute-diverticulitis"
-      ]
-    },
-    {
-      "id": "aga-diverticulitis-2021",
-      "year": "2021",
-      "usedByVerifiedPathways": [
-        "adult-acute-diverticulitis"
-      ]
-    },
-    {
-      "id": "nice-prostatitis-2018",
+      "id": "wjes-nsti-2018",
       "year": "2018",
       "usedByVerifiedPathways": [
-        "adult-acute-bacterial-prostatitis"
+        "adult-necrotizing-fasciitis",
+        "adult-fourniers-gangrene"
       ]
     },
     {
-      "id": "cdc-epididymitis-2021",
+      "id": "cdc-gonorrhea-2021",
       "year": "2021",
       "usedByVerifiedPathways": [
-        "adult-acute-epididymitis"
+        "adult-uncomplicated-gonococcal-infection"
       ]
     },
     {
-      "id": "wses-appendicitis-2020",
-      "year": "2020",
+      "id": "idsa-pharyngitis-2012",
+      "year": "2012",
       "usedByVerifiedPathways": [
-        "adult-acute-appendicitis"
-      ]
-    },
-    {
-      "id": "idsa-lyme-2020",
-      "year": "2020",
-      "usedByVerifiedPathways": [
-        "early-lyme-disease"
-      ]
-    },
-    {
-      "id": "cdc-rickettsial-mmw-2016",
-      "year": "2016",
-      "usedByVerifiedPathways": [
-        "tickborne-rickettsial-disease",
-        "scrub-typhus"
-      ]
-    },
-    {
-      "id": "idsa-infectious-diarrhea-2017",
-      "year": "2017",
-      "usedByVerifiedPathways": [
-        "nontyphoidal-salmonellosis",
-        "shigellosis"
-      ]
-    },
-    {
-      "id": "cdc-q-fever-mmw-2013",
-      "year": "2013",
-      "usedByVerifiedPathways": [
-        "acute-q-fever"
-      ]
-    },
-    {
-      "id": "pubmed-cat-scratch-1998",
-      "year": "1998",
-      "usedByVerifiedPathways": [
-        "cat-scratch-disease"
+        "adult-group-a-streptococcal-pharyngitis"
       ]
     }
   ]

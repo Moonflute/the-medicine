@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-07-29",
+  "relations": [
+    {
+      "sourceType": "resistancePhenotype",
+      "sourceId": "mssa",
+      "relation": "phenotype_of",
+      "targetType": "microorganism",
+      "targetId": "staphylococcus-aureus",
+      "context": ["methicillin-susceptible"],
+      "sourceIds": ["eucast-expert-rules"],
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "resistancePhenotype",
+      "sourceId": "mrsa",
+      "relation": "phenotype_of",
+      "targetType": "microorganism",
+      "targetId": "staphylococcus-aureus",
+      "context": ["methicillin-resistant"],
+      "sourceIds": ["cdc-mrsa", "eucast-expert-rules"],
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "streptococcus-pneumoniae",
+      "relation": "member_of",
+      "targetType": "clinicalGroup",
+      "targetId": "streptococci",
+      "context": [],
+      "sourceIds": ["ncbi-taxonomy", "lpsn"],
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "enterococcus-faecalis",
+      "relation": "member_of",
+      "targetType": "clinicalGroup",
+      "targetId": "enterococci",
+      "context": [],
+      "sourceIds": ["ncbi-taxonomy", "lpsn"],
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "enterococcus-faecium",
+      "relation": "member_of",
+      "targetType": "clinicalGroup",
+      "targetId": "enterococci",
+      "context": [],
+      "sourceIds": ["ncbi-taxonomy", "lpsn"],
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "resistancePhenotype",
+      "sourceId": "vre",
+      "relation": "phenotype_of",
+      "targetType": "clinicalGroup",
+      "targetId": "enterococci",
+      "context": ["vancomycin-resistant"],
+      "sourceIds": ["eucast-expert-rules"],
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "neisseria-meningitidis",
+      "relation": "member_of",
+      "targetType": "clinicalGroup",
+      "targetId": "neisseria",
+      "context": [],
+      "sourceIds": ["ncbi-taxonomy", "lpsn"],
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "resistancePhenotype",
+      "sourceId": "esbl",
+      "relation": "phenotype_of",
+      "targetType": "clinicalGroup",
+      "targetId": "enterobacterales",
+      "context": ["ESBL-producing"],
+      "sourceIds": ["idsa-amr-guidance", "eucast-expert-rules"],
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "resistancePhenotype",
+      "sourceId": "ampc",
+      "relation": "phenotype_of",
+      "targetType": "clinicalGroup",
+      "targetId": "enterobacterales",
+      "context": ["AmpC-producing"],
+      "sourceIds": ["idsa-amr-guidance", "eucast-expert-rules"],
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "resistancePhenotype",
+      "sourceId": "cre",
+      "relation": "phenotype_of",
+      "targetType": "clinicalGroup",
+      "targetId": "enterobacterales",
+      "context": ["carbapenem-resistant"],
+      "sourceIds": ["idsa-amr-guidance", "eucast-expert-rules"],
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-07-29"
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { DomainNoteCard } from "@/components/domain-note-card";
+import { MicrobiologyBacklinks } from "@/components/microbiology-backlinks";
 import { ECGWorkbench } from "@/components/ecg-workbench";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { ReviewSaveButton } from "@/components/review-save-button";
@@ -116,6 +117,7 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
           </ul>
         </section>
       ) : null}
+      <MicrobiologyBacklinks targetType="lab" targetId={note.slug} />
       <RelatedClinicalContent relations={relations} />
       <ParentPageFab href={parentHref} />
     </div>

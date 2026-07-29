@@ -1,0 +1,744 @@
+{
+  "domain": "Microbiology",
+  "sourcePath": "source_notes/09 Microbiology",
+  "items": [
+    {
+      "title": "황색포도알균 (Staphylococcus aureus)",
+      "path": [
+        "01 Bacteria",
+        "01 Gram-positive cocci"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnN0YXBoeWxvY29jY3VzLWF1cmV1cw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "MSSA (Staphylococcus aureus)",
+      "path": [
+        "06 Resistance Phenotypes"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om1zc2E",
+      "entityKind": "resistance_phenotype"
+    },
+    {
+      "title": "MRSA (Staphylococcus aureus)",
+      "path": [
+        "06 Resistance Phenotypes"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om1yc2E",
+      "entityKind": "resistance_phenotype"
+    },
+    {
+      "title": "사슬알균군 (Streptococcus spp.)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnN0cmVwdG9jb2NjaQ",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "폐렴사슬알균 (Streptococcus pneumoniae)",
+      "path": [
+        "01 Bacteria",
+        "01 Gram-positive cocci"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnN0cmVwdG9jb2NjdXMtcG5ldW1vbmlhZQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "장알균군 (Enterococcus spp.)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmVudGVyb2NvY2Np",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "Enterococcus faecalis",
+      "path": [
+        "01 Bacteria",
+        "01 Gram-positive cocci"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmVudGVyb2NvY2N1cy1mYWVjYWxpcw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Enterococcus faecium",
+      "path": [
+        "01 Bacteria",
+        "01 Gram-positive cocci"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmVudGVyb2NvY2N1cy1mYWVjaXVt",
+      "entityKind": "organism"
+    },
+    {
+      "title": "VRE (Enterococcus spp.)",
+      "path": [
+        "06 Resistance Phenotypes"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnZyZQ",
+      "entityKind": "resistance_phenotype"
+    },
+    {
+      "title": "리스테리아균 (Listeria monocytogenes)",
+      "path": [
+        "01 Bacteria",
+        "02 Gram-positive bacilli"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Omxpc3RlcmlhLW1vbm9jeXRvZ2VuZXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "인플루엔자균 (Haemophilus influenzae)",
+      "path": [
+        "01 Bacteria",
+        "03 Gram-negative cocci and coccobacilli"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmhhZW1vcGhpbHVzLWluZmx1ZW56YWU",
+      "entityKind": "organism"
+    },
+    {
+      "title": "나이세리아군 (Neisseria spp.)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om5laXNzZXJpYQ",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "수막알균 (Neisseria meningitidis)",
+      "path": [
+        "01 Bacteria",
+        "03 Gram-negative cocci and coccobacilli"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om5laXNzZXJpYS1tZW5pbmdpdGlkaXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Enterobacterales",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmVudGVyb2JhY3RlcmFsZXM",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "녹농균 (Pseudomonas aeruginosa)",
+      "path": [
+        "01 Bacteria",
+        "05 Non-fermenting Gram-negative bacilli"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnBzZXVkb21vbmFzLWFlcnVnaW5vc2E",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Acinetobacter baumannii complex",
+      "path": [
+        "01 Bacteria",
+        "05 Non-fermenting Gram-negative bacilli"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmFjaW5ldG9iYWN0ZXItYmF1bWFubmlpLWNvbXBsZXg",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Stenotrophomonas maltophilia",
+      "path": [
+        "01 Bacteria",
+        "05 Non-fermenting Gram-negative bacilli"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnN0ZW5vdHJvcGhvbW9uYXMtbWFsdG9waGlsaWE",
+      "entityKind": "organism"
+    },
+    {
+      "title": "구강 혐기성균군 (Oral anaerobes)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om9yYWwtYW5hZXJvYmVz",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "Bacteroides fragilis group",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmJhY3Rlcm9pZGVzLWZyYWdpbGlzLWdyb3Vw",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "Clostridia 임상군 (Clostridia)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNsb3N0cmlkaWE",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "비정형 세균군 (Atypical bacterial pathogens)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmF0eXBpY2FsLXBhdGhvZ2Vucw",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "ESBL 생성 Enterobacterales (ESBL-producing Enterobacterales)",
+      "path": [
+        "06 Resistance Phenotypes"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmVzYmw",
+      "entityKind": "resistance_phenotype"
+    },
+    {
+      "title": "AmpC 생성 Enterobacterales (AmpC-producing Enterobacterales)",
+      "path": [
+        "06 Resistance Phenotypes"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmFtcGM",
+      "entityKind": "resistance_phenotype"
+    },
+    {
+      "title": "Carbapenem 내성 Enterobacterales (Carbapenem-resistant Enterobacterales)",
+      "path": [
+        "06 Resistance Phenotypes"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNyZQ",
+      "entityKind": "resistance_phenotype"
+    },
+    {
+      "title": "화농사슬알균 (Streptococcus pyogenes)",
+      "path": [
+        "01 Bacteria",
+        "01 Gram-positive cocci"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnN0cmVwdG9jb2NjdXMtcHlvZ2VuZXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "B군사슬알균 (Streptococcus agalactiae)",
+      "path": [
+        "01 Bacteria",
+        "01 Gram-positive cocci"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnN0cmVwdG9jb2NjdXMtYWdhbGFjdGlhZQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Viridans group streptococci",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnZpcmlkYW5zLWdyb3VwLXN0cmVwdG9jb2NjaQ",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "클로스트리디오이데스 디피실 (Clostridioides difficile)",
+      "path": [
+        "01 Bacteria",
+        "06 Anaerobes"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNsb3N0cmlkaW9pZGVzLWRpZmZpY2lsZQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "대장균 (Escherichia coli)",
+      "path": [
+        "01 Bacteria",
+        "04 Enterobacterales"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmVzY2hlcmljaGlhLWNvbGk",
+      "entityKind": "organism"
+    },
+    {
+      "title": "폐렴막대균 (Klebsiella pneumoniae)",
+      "path": [
+        "01 Bacteria",
+        "04 Enterobacterales"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmtsZWJzaWVsbGEtcG5ldW1vbmlhZQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Proteus mirabilis",
+      "path": [
+        "01 Bacteria",
+        "04 Enterobacterales"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnByb3RldXMtbWlyYWJpbGlz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "임균 (Neisseria gonorrhoeae)",
+      "path": [
+        "01 Bacteria",
+        "03 Gram-negative cocci and coccobacilli"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om5laXNzZXJpYS1nb25vcnJob2VhZQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "레지오넬라균 (Legionella pneumophila)",
+      "path": [
+        "01 Bacteria",
+        "07 Atypical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmxlZ2lvbmVsbGEtcG5ldW1vcGhpbGE",
+      "entityKind": "organism"
+    },
+    {
+      "title": "폐렴미코플라스마 (Mycoplasma pneumoniae)",
+      "path": [
+        "01 Bacteria",
+        "07 Atypical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om15Y29wbGFzbWEtcG5ldW1vbmlhZQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "클라미디아 트라코마티스 (Chlamydia trachomatis)",
+      "path": [
+        "01 Bacteria",
+        "07 Atypical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNobGFteWRpYS10cmFjaG9tYXRpcw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "결핵균복합체 (Mycobacterium tuberculosis complex)",
+      "path": [
+        "01 Bacteria",
+        "08 Mycobacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om15Y29iYWN0ZXJpdW0tdHViZXJjdWxvc2lzLWNvbXBsZXg",
+      "entityKind": "organism"
+    },
+    {
+      "title": "비결핵항산균 (Nontuberculous mycobacteria)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om5vbnR1YmVyY3Vsb3VzLW15Y29iYWN0ZXJpYQ",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "매독균 (Treponema pallidum)",
+      "path": [
+        "01 Bacteria",
+        "09 Spirochetes"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnRyZXBvbmVtYS1wYWxsaWR1bQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "백일해균 (Bordetella pertussis)",
+      "path": [
+        "01 Bacteria",
+        "03 Gram-negative cocci and coccobacilli"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmJvcmRldGVsbGEtcGVydHVzc2lz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "인플루엔자 바이러스 (Influenza A and B viruses)",
+      "path": [
+        "02 Viruses",
+        "01 Respiratory viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmluZmx1ZW56YS12aXJ1cw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "호흡기세포융합바이러스 (Respiratory syncytial virus)",
+      "path": [
+        "02 Viruses",
+        "01 Respiratory viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnJlc3BpcmF0b3J5LXN5bmN5dGlhbC12aXJ1cw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)",
+      "path": [
+        "02 Viruses",
+        "01 Respiratory viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnNhcnMtY292LTI",
+      "entityKind": "organism"
+    },
+    {
+      "title": "사람 아데노바이러스 (Human adenovirus)",
+      "path": [
+        "02 Viruses",
+        "01 Respiratory viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmFkZW5vdmlydXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "노로바이러스 (Norovirus)",
+      "path": [
+        "02 Viruses",
+        "02 Enteric viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om5vcm92aXJ1cw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "단순헤르페스바이러스 (Herpes simplex virus 1 and 2)",
+      "path": [
+        "02 Viruses",
+        "03 Herpesviruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmhlcnBlcy1zaW1wbGV4LXZpcnVz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "수두대상포진바이러스 (Varicella-zoster virus)",
+      "path": [
+        "02 Viruses",
+        "03 Herpesviruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnZhcmljZWxsYS16b3N0ZXItdmlydXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "거대세포바이러스 (Human cytomegalovirus)",
+      "path": [
+        "02 Viruses",
+        "03 Herpesviruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmN5dG9tZWdhbG92aXJ1cw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "엡스타인-바 바이러스 (Epstein-Barr virus)",
+      "path": [
+        "02 Viruses",
+        "03 Herpesviruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmVwc3RlaW4tYmFyci12aXJ1cw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "B형간염바이러스 (Hepatitis B virus)",
+      "path": [
+        "02 Viruses",
+        "04 Hepatitis viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmhlcGF0aXRpcy1iLXZpcnVz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "C형간염바이러스 (Hepatitis C virus)",
+      "path": [
+        "02 Viruses",
+        "04 Hepatitis viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmhlcGF0aXRpcy1jLXZpcnVz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "사람면역결핍바이러스 1 (Human immunodeficiency virus 1)",
+      "path": [
+        "02 Viruses",
+        "05 Retroviruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Omh1bWFuLWltbXVub2RlZmljaWVuY3ktdmlydXMtMQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "사람유두종바이러스 (Human papillomavirus)",
+      "path": [
+        "02 Viruses",
+        "06 Cutaneous and mucosal viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Omh1bWFuLXBhcGlsbG9tYXZpcnVz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "칸디다 알비칸스 (Candida albicans)",
+      "path": [
+        "03 Fungi",
+        "01 Yeasts"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNhbmRpZGEtYWxiaWNhbnM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "칸디다 아우리스 (Candida auris)",
+      "path": [
+        "03 Fungi",
+        "01 Yeasts"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNhbmRpZGEtYXVyaXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "아스페르길루스 푸미가투스 (Aspergillus fumigatus)",
+      "path": [
+        "03 Fungi",
+        "02 Molds"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmFzcGVyZ2lsbHVzLWZ1bWlnYXR1cw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "크립토코쿠스 (Cryptococcus neoformans and Cryptococcus gattii)",
+      "path": [
+        "03 Fungi",
+        "01 Yeasts"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNyeXB0b2NvY2N1cy1uZW9mb3JtYW5zLWdhdHRpaQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "폐포자충 (Pneumocystis jirovecii)",
+      "path": [
+        "03 Fungi",
+        "03 Atypical fungi"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnBuZXVtb2N5c3Rpcy1qaXJvdmVjaWk",
+      "entityKind": "organism"
+    },
+    {
+      "title": "털곰팡이목 (Mucorales)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om11Y29yYWxlcw",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "열대열원충 (Plasmodium falciparum)",
+      "path": [
+        "04 Parasites",
+        "01 Protozoa"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnBsYXNtb2RpdW0tZmFsY2lwYXJ1bQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "톡소포자충 (Toxoplasma gondii)",
+      "path": [
+        "04 Parasites",
+        "01 Protozoa"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnRveG9wbGFzbWEtZ29uZGlp",
+      "entityKind": "organism"
+    },
+    {
+      "title": "람블편모충 (Giardia duodenalis)",
+      "path": [
+        "04 Parasites",
+        "01 Protozoa"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmdpYXJkaWEtZHVvZGVuYWxpcw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "이질아메바 (Entamoeba histolytica)",
+      "path": [
+        "04 Parasites",
+        "01 Protozoa"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmVudGFtb2ViYS1oaXN0b2x5dGljYQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "분선충 (Strongyloides stercoralis)",
+      "path": [
+        "04 Parasites",
+        "02 Helminths"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnN0cm9uZ3lsb2lkZXMtc3RlcmNvcmFsaXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "갈고리촌충 (Taenia solium)",
+      "path": [
+        "04 Parasites",
+        "02 Helminths"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnRhZW5pYS1zb2xpdW0",
+      "entityKind": "organism"
+    },
+    {
+      "title": "옴진드기 (Sarcoptes scabiei var. hominis)",
+      "path": [
+        "04 Parasites",
+        "03 Ectoparasites"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnNhcmNvcHRlcy1zY2FiaWVp",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Coagulase-negative staphylococci",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNvYWd1bGFzZS1uZWdhdGl2ZS1zdGFwaHlsb2NvY2Np",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "디프테리아균 (Corynebacterium diphtheriae)",
+      "path": [
+        "01 Bacteria",
+        "02 Gram-positive bacilli"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNvcnluZWJhY3Rlcml1bS1kaXBodGhlcmlhZQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "모락셀라 카타랄리스 (Moraxella catarrhalis)",
+      "path": [
+        "01 Bacteria",
+        "03 Gram-negative cocci and coccobacilli"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om1vcmF4ZWxsYS1jYXRhcnJoYWxpcw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "폐렴클라미디아 (Chlamydia pneumoniae)",
+      "path": [
+        "01 Bacteria",
+        "07 Atypical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNobGFteWRpYS1wbmV1bW9uaWFl",
+      "entityKind": "organism"
+    },
+    {
+      "title": "보렐리아 임상군 (Borrelia species)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmJvcnJlbGlhLWNsaW5pY2FsLWdyb3Vw",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "렙토스피라균 (Leptospira species)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmxlcHRvc3BpcmEtc3BlY2llcw",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "Carbapenem-resistant A. baumannii (Carbapenem-resistant Acinetobacter baumannii)",
+      "path": [
+        "06 Resistance Phenotypes"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNhcmJhcGVuZW0tcmVzaXN0YW50LWFjaW5ldG9iYWN0ZXItYmF1bWFubmlp",
+      "entityKind": "resistance_phenotype"
+    },
+    {
+      "title": "DTR Pseudomonas aeruginosa (Difficult-to-treat resistant Pseudomonas aeruginosa)",
+      "path": [
+        "06 Resistance Phenotypes"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmRpZmZpY3VsdC10by10cmVhdC1yZXNpc3RhbnQtcHNldWRvbW9uYXM",
+      "entityKind": "resistance_phenotype"
+    },
+    {
+      "title": "엔테로바이러스 (Enterovirus species)",
+      "path": [
+        "02 Viruses",
+        "02 Enteric viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmVudGVyb3ZpcnVz",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "로타바이러스 (Rotavirus A)",
+      "path": [
+        "02 Viruses",
+        "02 Enteric viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnJvdGF2aXJ1cw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "A형간염바이러스 (Hepatitis A virus)",
+      "path": [
+        "02 Viruses",
+        "04 Hepatitis viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmhlcGF0aXRpcy1hLXZpcnVz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "홍역바이러스 (Measles morbillivirus)",
+      "path": [
+        "02 Viruses",
+        "07 Exanthem viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om1lYXNsZXMtdmlydXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "유행성이하선염바이러스 (Mumps orthorubulavirus)",
+      "path": [
+        "02 Viruses",
+        "07 Exanthem viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om11bXBzLXZpcnVz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "풍진바이러스 (Rubella virus)",
+      "path": [
+        "02 Viruses",
+        "07 Exanthem viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnJ1YmVsbGEtdmlydXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "피부사상균 (Dermatophytes)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmRlcm1hdG9waHl0ZXM",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "히스토플라스마 (Histoplasma capsulatum)",
+      "path": [
+        "03 Fungi",
+        "04 Dimorphic fungi"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Omhpc3RvcGxhc21hLWNhcHN1bGF0dW0",
+      "entityKind": "organism"
+    },
+    {
+      "title": "콕시디오이데스 (Coccidioides species)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNvY2NpZGlvaWRlcy1zcGVjaWVz",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "와포자충 (Cryptosporidium species)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNyeXB0b3Nwb3JpZGl1bS1zcGVjaWVz",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "주요 장관 연충 (Major intestinal helminths)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmludGVzdGluYWwtaGVsbWludGhz",
+      "entityKind": "clinical_group"
+    },
+    {
+      "title": "주요 조직 연충 (Major tissue helminths)",
+      "path": [
+        "05 Clinical Groups"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnRpc3N1ZS1oZWxtaW50aHM",
+      "entityKind": "clinical_group"
+    }
+  ]
+}

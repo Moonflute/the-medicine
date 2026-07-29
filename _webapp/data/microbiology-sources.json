@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-07-29",
+  "sources": [
+    {
+      "id": "ncbi-taxonomy",
+      "label": "NCBI Taxonomy",
+      "organization": "National Center for Biotechnology Information",
+      "url": "https://www.ncbi.nlm.nih.gov/taxonomy",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "taxonomy",
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "lpsn",
+      "label": "List of Prokaryotic names with Standing in Nomenclature",
+      "organization": "Leibniz Institute DSMZ",
+      "url": "https://lpsn.dsmz.de/",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "bacterial nomenclature"
+      ]
+    },
+    {
+      "id": "idsa-asm-lab-2024",
+      "label": "IDSA/ASM Guide to Utilization of the Microbiology Laboratory",
+      "organization": "IDSA and ASM",
+      "url": "https://www.idsociety.org/practice-guideline/laboratory-diagnosis-of-infectious-diseases/",
+      "tier": "A",
+      "year": "2024",
+      "scope": [
+        "specimen",
+        "diagnosis",
+        "microbiology laboratory"
+      ]
+    },
+    {
+      "id": "eucast-expert-rules",
+      "label": "EUCAST Expert Rules and Expected Phenotypes",
+      "organization": "EUCAST",
+      "url": "https://www.eucast.org/expert_rules_and_expected_phenotypes",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "susceptibility",
+        "intrinsic resistance",
+        "expected phenotype"
+      ]
+    },
+    {
+      "id": "idsa-amr-guidance",
+      "label": "IDSA Guidance on Antimicrobial-Resistant Gram-Negative Infections",
+      "organization": "Infectious Diseases Society of America",
+      "url": "https://www.idsociety.org/practice-guideline/amr-guidance/",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "ESBL",
+        "AmpC",
+        "CRE",
+        "DTR Pseudomonas",
+        "CRAB",
+        "Stenotrophomonas"
+      ]
+    },
+    {
+      "id": "cdc-mrsa",
+      "label": "Clinical Overview of MRSA in Healthcare Settings",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/mrsa/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "MRSA",
+        "transmission",
+        "infection control"
+      ]
+    },
+    {
+      "id": "cdc-pneumococcal",
+      "label": "Clinical Overview of Pneumococcal Disease",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/pneumococcal/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "Streptococcus pneumoniae",
+        "clinical disease",
+        "prevention"
+      ]
+    },
+    {
+      "id": "cdc-meningococcal",
+      "label": "Clinical Overview of Meningococcal Disease",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/meningococcal/hcp/clinical/index.html",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "Neisseria meningitidis",
+        "chemoprophylaxis",
+        "infection control"
+      ]
+    },
+    {
+      "id": "cdc-listeria",
+      "label": "Clinical Overview of Listeriosis",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/listeria/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "Listeria monocytogenes",
+        "risk groups",
+        "clinical disease"
+      ]
+    },
+    {
+      "id": "cdc-hib",
+      "label": "Clinical Overview of Haemophilus influenzae Disease",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/hi-disease/hcp/clinicians/index.html",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "Haemophilus influenzae",
+        "clinical disease",
+        "prevention"
+      ]
+    },
+    {
+      "id": "cdc-infection-control",
+      "label": "CDC Infection Control Guidance Library",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance/index.html",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "transmission precautions",
+        "healthcare-associated infection"
+      ]
+    },
+    {
+      "id": "who-bacterial-priority-2024",
+      "label": "WHO Bacterial Priority Pathogens List",
+      "organization": "World Health Organization",
+      "url": "https://www.who.int/publications/i/item/9789240093461",
+      "tier": "A",
+      "year": "2024",
+      "scope": [
+        "antimicrobial resistance",
+        "priority pathogens"
+      ]
+    },
+    {
+      "id": "ictv-taxonomy",
+      "label": "ICTV Virus Taxonomy",
+      "organization": "International Committee on Taxonomy of Viruses",
+      "url": "https://ictv.global/taxonomy",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "virus taxonomy",
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "cdc-respiratory-viruses",
+      "label": "CDC Clinical Overview of Respiratory Illnesses",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/respiratory-viruses/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "influenza",
+        "RSV",
+        "SARS-CoV-2",
+        "respiratory viruses"
+      ]
+    },
+    {
+      "id": "cdc-sti-guidelines",
+      "label": "CDC Sexually Transmitted Infections Treatment Guidelines",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/default.htm",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "gonorrhea",
+        "chlamydia",
+        "syphilis",
+        "HSV",
+        "HPV"
+      ]
+    },
+    {
+      "id": "cdc-tb",
+      "label": "CDC Tuberculosis Clinical Overview",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/tb/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "tuberculosis",
+        "diagnosis",
+        "infection control"
+      ]
+    },
+    {
+      "id": "who-tb",
+      "label": "WHO Consolidated Guidelines on Tuberculosis",
+      "organization": "World Health Organization",
+      "url": "https://www.who.int/teams/global-tuberculosis-programme/who-consolidated-guidelines-on-tuberculosis",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "tuberculosis",
+        "treatment",
+        "prevention"
+      ]
+    },
+    {
+      "id": "cdc-viral-hepatitis",
+      "label": "CDC Viral Hepatitis Clinical Resources",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/hepatitis/hcp/index.html",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "hepatitis A",
+        "hepatitis B",
+        "hepatitis C"
+      ]
+    },
+    {
+      "id": "nih-hiv-guidelines",
+      "label": "NIH Clinical Guidelines for HIV",
+      "organization": "National Institutes of Health",
+      "url": "https://clinicalinfo.hiv.gov/en/guidelines",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "HIV",
+        "opportunistic infections",
+        "antiretroviral therapy"
+      ]
+    },
+    {
+      "id": "cdc-vaccine-preventable",
+      "label": "CDC Pink Book",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/index.html",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "vaccine-preventable diseases",
+        "epidemiology",
+        "prevention"
+      ]
+    },
+    {
+      "id": "cdc-foodborne",
+      "label": "CDC Food Safety Clinical Resources",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/food-safety/about/index.html",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "enteric bacteria",
+        "foodborne infection"
+      ]
+    },
+    {
+      "id": "cdc-fungal",
+      "label": "CDC Fungal Diseases",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/fungal/",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "Candida",
+        "Aspergillus",
+        "Cryptococcus",
+        "endemic mycoses"
+      ]
+    },
+    {
+      "id": "cdc-dpdx",
+      "label": "CDC DPDx Laboratory Identification of Parasites",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/dpdx/index.html",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "parasite biology",
+        "specimen",
+        "laboratory diagnosis"
+      ]
+    },
+    {
+      "id": "who-malaria",
+      "label": "WHO Guidelines for Malaria",
+      "organization": "World Health Organization",
+      "url": "https://www.who.int/publications/i/item/guidelines-for-malaria",
+      "tier": "A",
+      "year": "current",
+      "scope": [
+        "malaria",
+        "diagnosis",
+        "treatment",
+        "prevention"
+      ]
+    },
+    {
+      "id": "idsa-cdi",
+      "label": "SHEA/IDSA Clinical Practice Guideline for Clostridioides difficile Infection",
+      "organization": "SHEA and IDSA",
+      "url": "https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/",
+      "tier": "A",
+      "year": "2021",
+      "scope": [
+        "Clostridioides difficile",
+        "treatment",
+        "recurrence"
+      ]
+    }
+  ]
+}

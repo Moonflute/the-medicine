@@ -1,0 +1,885 @@
+{
+  "generatedAt": "2026-07-29T15:53:33.681Z",
+  "sourceCount": 25,
+  "entitiesWithNoTierA": [],
+  "unknownSourceReferences": [],
+  "entities": [
+    {
+      "id": "staphylococcus-aureus",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-mrsa"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "mssa",
+      "sourceIds": [
+        "eucast-expert-rules",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "mrsa",
+      "sourceIds": [
+        "cdc-mrsa",
+        "eucast-expert-rules",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "streptococci",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "streptococcus-pneumoniae",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "cdc-pneumococcal",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "enterococci",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "eucast-expert-rules"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "enterococcus-faecalis",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "eucast-expert-rules"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "enterococcus-faecium",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "eucast-expert-rules"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "vre",
+      "sourceIds": [
+        "eucast-expert-rules",
+        "idsa-asm-lab-2024",
+        "cdc-infection-control"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "listeria-monocytogenes",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "cdc-listeria",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "haemophilus-influenzae",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "cdc-hib",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "neisseria",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "neisseria-meningitidis",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "cdc-meningococcal",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "enterobacterales",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "idsa-amr-guidance"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "pseudomonas-aeruginosa",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "idsa-amr-guidance",
+        "who-bacterial-priority-2024"
+      ],
+      "tierACount": 5,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "acinetobacter-baumannii-complex",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "idsa-amr-guidance",
+        "who-bacterial-priority-2024"
+      ],
+      "tierACount": 5,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "stenotrophomonas-maltophilia",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "idsa-amr-guidance",
+        "who-bacterial-priority-2024"
+      ],
+      "tierACount": 5,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "oral-anaerobes",
+      "sourceIds": [
+        "idsa-asm-lab-2024",
+        "ncbi-taxonomy"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "bacteroides-fragilis-group",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "eucast-expert-rules"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "clostridia",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "atypical-pathogens",
+      "sourceIds": [
+        "idsa-asm-lab-2024",
+        "ncbi-taxonomy"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "esbl",
+      "sourceIds": [
+        "idsa-amr-guidance",
+        "eucast-expert-rules",
+        "who-bacterial-priority-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "ampc",
+      "sourceIds": [
+        "idsa-amr-guidance",
+        "eucast-expert-rules"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "cre",
+      "sourceIds": [
+        "idsa-amr-guidance",
+        "eucast-expert-rules",
+        "who-bacterial-priority-2024",
+        "cdc-infection-control"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "streptococcus-pyogenes",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "streptococcus-agalactiae",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "viridans-group-streptococci",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "clostridioides-difficile",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "idsa-cdi",
+        "cdc-infection-control"
+      ],
+      "tierACount": 5,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "escherichia-coli",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-foodborne",
+        "idsa-amr-guidance"
+      ],
+      "tierACount": 5,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "klebsiella-pneumoniae",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "idsa-amr-guidance",
+        "who-bacterial-priority-2024"
+      ],
+      "tierACount": 5,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "proteus-mirabilis",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "neisseria-gonorrhoeae",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-sti-guidelines"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "legionella-pneumophila",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "mycoplasma-pneumoniae",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "chlamydia-trachomatis",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-sti-guidelines"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "mycobacterium-tuberculosis-complex",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-tb",
+        "who-tb"
+      ],
+      "tierACount": 5,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "nontuberculous-mycobacteria",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "treponema-pallidum",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-sti-guidelines"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "bordetella-pertussis",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "influenza-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses",
+        "cdc-vaccine-preventable"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "respiratory-syncytial-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "sars-cov-2",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "adenovirus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "norovirus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-foodborne",
+        "cdc-infection-control"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "herpes-simplex-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-sti-guidelines",
+        "nih-hiv-guidelines"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "varicella-zoster-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable",
+        "nih-hiv-guidelines"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "cytomegalovirus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "nih-hiv-guidelines"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "epstein-barr-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "nih-hiv-guidelines"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "hepatitis-b-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-viral-hepatitis",
+        "cdc-vaccine-preventable"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "hepatitis-c-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-viral-hepatitis"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "human-immunodeficiency-virus-1",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "nih-hiv-guidelines"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "human-papillomavirus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-sti-guidelines",
+        "cdc-vaccine-preventable"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "candida-albicans",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "candida-auris",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024",
+        "cdc-infection-control"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "aspergillus-fumigatus",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "cryptococcus-neoformans-gattii",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024",
+        "nih-hiv-guidelines"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "pneumocystis-jirovecii",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024",
+        "nih-hiv-guidelines"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "mucorales",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "plasmodium-falciparum",
+      "sourceIds": [
+        "cdc-dpdx",
+        "who-malaria",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "toxoplasma-gondii",
+      "sourceIds": [
+        "cdc-dpdx",
+        "nih-hiv-guidelines",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "giardia-duodenalis",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "entamoeba-histolytica",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "strongyloides-stercoralis",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "taenia-solium",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "sarcoptes-scabiei",
+      "sourceIds": [
+        "cdc-dpdx",
+        "cdc-infection-control"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "coagulase-negative-staphylococci",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "corynebacterium-diphtheriae",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "moraxella-catarrhalis",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "chlamydia-pneumoniae",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "borrelia-clinical-group",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "leptospira-species",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "carbapenem-resistant-acinetobacter-baumannii",
+      "sourceIds": [
+        "idsa-amr-guidance",
+        "eucast-expert-rules",
+        "who-bacterial-priority-2024",
+        "cdc-infection-control"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "difficult-to-treat-resistant-pseudomonas",
+      "sourceIds": [
+        "idsa-amr-guidance",
+        "eucast-expert-rules",
+        "who-bacterial-priority-2024",
+        "cdc-infection-control"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "enterovirus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "rotavirus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable",
+        "cdc-foodborne"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "hepatitis-a-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-viral-hepatitis",
+        "cdc-vaccine-preventable"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "measles-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable",
+        "cdc-infection-control"
+      ],
+      "tierACount": 4,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "mumps-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "rubella-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "dermatophytes",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "histoplasma-capsulatum",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "coccidioides-species",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "cryptosporidium-species",
+      "sourceIds": [
+        "cdc-dpdx",
+        "nih-hiv-guidelines",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "intestinal-helminths",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "tissue-helminths",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    }
+  ]
+}

@@ -19,8 +19,9 @@
         "methicillin-susceptible Staphylococcus aureus"
       ],
       "noteSourceFile": "08 감염/포도알균 (Staphylococcus).md",
-      "noteSlug": "MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCAoU3RhcGh5bG9jb2NjdXMpLm1k",
-      "noteTitle": "포도알균 (Staphylococcus)"
+      "microbiologyId": "mssa",
+      "microbiologySlug": "bWljcm9iaW9sb2d5Om1zc2E",
+      "noteTitle": "MSSA (Staphylococcus aureus)"
     },
     {
       "id": "mrsa",
@@ -30,8 +31,9 @@
         "methicillin-resistant Staphylococcus aureus"
       ],
       "noteSourceFile": "08 감염/포도알균 (Staphylococcus).md",
-      "noteSlug": "MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCAoU3RhcGh5bG9jb2NjdXMpLm1k",
-      "noteTitle": "포도알균 (Staphylococcus)"
+      "microbiologyId": "mrsa",
+      "microbiologySlug": "bWljcm9iaW9sb2d5Om1yc2E",
+      "noteTitle": "MRSA (Staphylococcus aureus)"
     },
     {
       "id": "streptococci",
@@ -40,7 +42,10 @@
       "aliases": [
         "streptococci",
         "연쇄상구균"
-      ]
+      ],
+      "microbiologyId": "streptococci",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OnN0cmVwdG9jb2NjaQ",
+      "noteTitle": "사슬알균군 (Streptococcus spp.)"
     },
     {
       "id": "pneumococcus",
@@ -49,19 +54,28 @@
       "aliases": [
         "pneumococcus",
         "폐렴구균"
-      ]
+      ],
+      "microbiologyId": "streptococcus-pneumoniae",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OnN0cmVwdG9jb2NjdXMtcG5ldW1vbmlhZQ",
+      "noteTitle": "폐렴사슬알균 (Streptococcus pneumoniae)"
     },
     {
       "id": "e_faecalis",
       "label": "Enterococcus faecalis",
       "group": "Gram-positive",
-      "aliases": []
+      "aliases": [],
+      "microbiologyId": "enterococcus-faecalis",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OmVudGVyb2NvY2N1cy1mYWVjYWxpcw",
+      "noteTitle": "Enterococcus faecalis"
     },
     {
       "id": "e_faecium",
       "label": "Enterococcus faecium",
       "group": "Gram-positive",
-      "aliases": []
+      "aliases": [],
+      "microbiologyId": "enterococcus-faecium",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OmVudGVyb2NvY2N1cy1mYWVjaXVt",
+      "noteTitle": "Enterococcus faecium"
     },
     {
       "id": "vre",
@@ -69,13 +83,19 @@
       "group": "Resistance phenotype",
       "aliases": [
         "vancomycin-resistant Enterococcus"
-      ]
+      ],
+      "microbiologyId": "vre",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OnZyZQ",
+      "noteTitle": "VRE (Enterococcus spp.)"
     },
     {
       "id": "h_influenzae",
       "label": "Haemophilus influenzae",
       "group": "Gram-negative",
-      "aliases": []
+      "aliases": [],
+      "microbiologyId": "haemophilus-influenzae",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OmhhZW1vcGhpbHVzLWluZmx1ZW56YWU",
+      "noteTitle": "인플루엔자균 (Haemophilus influenzae)"
     },
     {
       "id": "neisseria",
@@ -84,7 +104,10 @@
       "aliases": [
         "N. meningitidis",
         "N. gonorrhoeae"
-      ]
+      ],
+      "microbiologyId": "neisseria",
+      "microbiologySlug": "bWljcm9iaW9sb2d5Om5laXNzZXJpYQ",
+      "noteTitle": "나이세리아군 (Neisseria spp.)"
     },
     {
       "id": "enterobacterales",
@@ -96,8 +119,9 @@
         "Proteus"
       ],
       "noteSourceFile": "08 감염/대장균 (E. coli).md",
-      "noteSlug": "MDgg6rCQ7Je8L-uMgOyepeq3oCAoRS4gY29saSkubWQ",
-      "noteTitle": "대장균 (E. coli)"
+      "microbiologyId": "enterobacterales",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OmVudGVyb2JhY3RlcmFsZXM",
+      "noteTitle": "Enterobacterales"
     },
     {
       "id": "pseudomonas",
@@ -107,20 +131,27 @@
         "녹농균"
       ],
       "noteSourceFile": "08 감염/녹농균 (Pseudomonas Aeruginosa).md",
-      "noteSlug": "MDgg6rCQ7Je8L-uFueuGjeq3oCAoUHNldWRvbW9uYXMgQWVydWdpbm9zYSkubWQ",
-      "noteTitle": "녹농균 (Pseudomonas Aeruginosa)"
+      "microbiologyId": "pseudomonas-aeruginosa",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OnBzZXVkb21vbmFzLWFlcnVnaW5vc2E",
+      "noteTitle": "녹농균 (Pseudomonas aeruginosa)"
     },
     {
       "id": "acinetobacter",
       "label": "Acinetobacter baumannii complex",
       "group": "Gram-negative",
-      "aliases": []
+      "aliases": [],
+      "microbiologyId": "acinetobacter-baumannii-complex",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OmFjaW5ldG9iYWN0ZXItYmF1bWFubmlpLWNvbXBsZXg",
+      "noteTitle": "Acinetobacter baumannii complex"
     },
     {
       "id": "stenotrophomonas",
       "label": "Stenotrophomonas maltophilia",
       "group": "Gram-negative",
-      "aliases": []
+      "aliases": [],
+      "microbiologyId": "stenotrophomonas-maltophilia",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OnN0ZW5vdHJvcGhvbW9uYXMtbWFsdG9waGlsaWE",
+      "noteTitle": "Stenotrophomonas maltophilia"
     },
     {
       "id": "oral_anaerobes",
@@ -128,13 +159,19 @@
       "group": "Anaerobes",
       "aliases": [
         "구강 혐기성균"
-      ]
+      ],
+      "microbiologyId": "oral-anaerobes",
+      "microbiologySlug": "bWljcm9iaW9sb2d5Om9yYWwtYW5hZXJvYmVz",
+      "noteTitle": "구강 혐기성균군 (Oral anaerobes)"
     },
     {
       "id": "b_fragilis",
       "label": "Bacteroides fragilis group",
       "group": "Anaerobes",
-      "aliases": []
+      "aliases": [],
+      "microbiologyId": "bacteroides-fragilis-group",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OmJhY3Rlcm9pZGVzLWZyYWdpbGlzLWdyb3Vw",
+      "noteTitle": "Bacteroides fragilis group"
     },
     {
       "id": "clostridia",
@@ -142,7 +179,10 @@
       "group": "Anaerobes",
       "aliases": [
         "Clostridioides difficile"
-      ]
+      ],
+      "microbiologyId": "clostridia",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OmNsb3N0cmlkaWE",
+      "noteTitle": "Clostridia 임상군 (Clostridia)"
     },
     {
       "id": "atypicals",
@@ -152,7 +192,10 @@
         "Mycoplasma",
         "Chlamydia",
         "Legionella"
-      ]
+      ],
+      "microbiologyId": "atypical-pathogens",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OmF0eXBpY2FsLXBhdGhvZ2Vucw",
+      "noteTitle": "비정형 세균군 (Atypical bacterial pathogens)"
     },
     {
       "id": "esbl",
@@ -160,7 +203,10 @@
       "group": "Resistance phenotype",
       "aliases": [
         "ESBL"
-      ]
+      ],
+      "microbiologyId": "esbl",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OmVzYmw",
+      "noteTitle": "ESBL 생성 Enterobacterales (ESBL-producing Enterobacterales)"
     },
     {
       "id": "ampc",
@@ -168,7 +214,10 @@
       "group": "Resistance phenotype",
       "aliases": [
         "AmpC"
-      ]
+      ],
+      "microbiologyId": "ampc",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OmFtcGM",
+      "noteTitle": "AmpC 생성 Enterobacterales (AmpC-producing Enterobacterales)"
     },
     {
       "id": "cre",
@@ -177,7 +226,10 @@
       "aliases": [
         "CRE",
         "KPC"
-      ]
+      ],
+      "microbiologyId": "cre",
+      "microbiologySlug": "bWljcm9iaW9sb2d5OmNyZQ",
+      "noteTitle": "Carbapenem 내성 Enterobacterales (Carbapenem-resistant Enterobacterales)"
     },
     {
       "id": "n_meningitidis",
@@ -188,8 +240,9 @@
         "수막알균"
       ],
       "noteSourceFile": "08 감염/수막알균 (Meningococcus).md",
-      "noteSlug": "MDgg6rCQ7Je8L-yImOunieyVjOq3oCAoTWVuaW5nb2NvY2N1cykubWQ",
-      "noteTitle": "수막알균 (Meningococcus)"
+      "microbiologyId": "neisseria-meningitidis",
+      "microbiologySlug": "bWljcm9iaW9sb2d5Om5laXNzZXJpYS1tZW5pbmdpdGlkaXM",
+      "noteTitle": "수막알균 (Neisseria meningitidis)"
     },
     {
       "id": "listeria",
@@ -200,8 +253,9 @@
         "리스테리아"
       ],
       "noteSourceFile": "08 감염/리스테리아 (Listeria).md",
-      "noteSlug": "MDgg6rCQ7Je8L-umrOyKpO2FjOumrOyVhCAoTGlzdGVyaWEpLm1k",
-      "noteTitle": "리스테리아 (Listeria)"
+      "microbiologyId": "listeria-monocytogenes",
+      "microbiologySlug": "bWljcm9iaW9sb2d5Omxpc3RlcmlhLW1vbm9jeXRvZ2VuZXM",
+      "noteTitle": "리스테리아균 (Listeria monocytogenes)"
     }
   ],
   "sources": [

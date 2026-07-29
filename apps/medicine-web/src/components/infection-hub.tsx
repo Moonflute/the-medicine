@@ -1,29 +1,80 @@
 "use client";
 
-import { useState } from "react";
-import { useSearchParams } from "next/navigation";
-import { Bug, GraduationCap, Microscope } from "lucide-react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { Bug, BookOpenCheck, GraduationCap, Pill } from "lucide-react";
 import { AntibioticOverview } from "@/components/antibiotic-overview";
+import { InfectionHubQuiz } from "@/components/infection-hub-quiz";
 import { InfectionPathwayExplorer } from "@/components/infection-pathway-explorer";
-import { ClinicalInfectionQuiz } from "@/components/clinical-infection-quiz";
-import type { AntibioticSpectrumDataset } from "@/lib/types";
+import { MicrobiologyBrowser } from "@/components/microbiology-browser";
+import type { AntibioticSpectrumDataset, MicrobiologyDataset } from "@/lib/types";
 import type { InfectionPathwayDataset } from "@/lib/infection-types";
 
-type HubTab = "pathways" | "antibiotics" | "quiz";
+type HubTab = "pathogens" | "diseases" | "antibiotics" | "quiz";
 
-export function InfectionHub({ dataset, pathways }: { dataset: AntibioticSpectrumDataset; pathways: InfectionPathwayDataset }) {
+export function InfectionHub({
+  dataset,
+  pathways,
+  microbiology,
+}: {
+  dataset: AntibioticSpectrumDataset;
+  pathways: InfectionPathwayDataset;
+  microbiology: MicrobiologyDataset;
+}) {
+  const router = useRouter();
   const searchParams = useSearchParams();
-  const [tab, setTab] = useState<HubTab>(searchParams.get("tab") === "antibiotics" ? "antibiotics" : searchParams.get("tab") === "quiz" ? "quiz" : "pathways");
-  const selectTab = (nextTab: HubTab) => { setTab(nextTab); const url = new URL(window.location.href); url.searchParams.set("tab", nextTab); window.history.replaceState(null, "", url); };
+  const requestedView = searchParams.get("view") ?? searchParams.get("tab");
+  const initialView: HubTab = requestedView === "pathways" || requestedView === "diseases"
+    ? "diseases"
+    : requestedView === "antibiotics" || requestedView === "quiz" || requestedView === "pathogens"
+      ? requestedView
+      : "pathogens";
+  const tab = initialView;
 
-  return <div className="space-y-5">
-    <div className="inline-flex max-w-full overflow-x-auto rounded-xl border border-slate-200 bg-slate-50 p-1" role="tablist" aria-label="Infection hub">
-      <button type="button" role="tab" aria-selected={tab === "pathways"} onClick={() => selectTab("pathways")} className={`inline-flex shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-sm font-semibold transition sm:px-4 ${tab === "pathways" ? "bg-slate-950 text-white shadow-sm" : "text-slate-600 hover:bg-white hover:text-slate-950"}`}><Bug className="h-4 w-4" />질환별 항균치료</button>
-      <button type="button" role="tab" aria-selected={tab === "antibiotics"} onClick={() => selectTab("antibiotics")} className={`inline-flex shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-sm font-semibold transition sm:px-4 ${tab === "antibiotics" ? "bg-slate-950 text-white shadow-sm" : "text-slate-600 hover:bg-white hover:text-slate-950"}`}><Microscope className="h-4 w-4" />항생제 overview</button>
-      <button type="button" role="tab" aria-selected={tab === "quiz"} onClick={() => selectTab("quiz")} className={`inline-flex shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-sm font-semibold transition sm:px-4 ${tab === "quiz" ? "bg-slate-950 text-white shadow-sm" : "text-slate-600 hover:bg-white hover:text-slate-950"}`}><GraduationCap className="h-4 w-4" />퀴즈</button>
+  const selectTab = (nextTab: HubTab) => {
+    const params = new URLSearchParams(searchParams.toString());
+    params.set("view", nextTab);
+    params.delete("tab");
+    router.replace(`?${params.toString()}`, { scroll: false });
+  };
+
+  const tabs = [
+    ["pathogens", "병원체", Bug],
+    ["diseases", "질환", BookOpenCheck],
+    ["antibiotics", "항생제", Pill],
+    ["quiz", "퀴즈", GraduationCap],
+  ] as const;
+
+  return (
+    <div className="space-y-5">
+      <div className="grid grid-cols-4 gap-1 rounded-xl border border-slate-200 bg-white p-1 shadow-sm" role="tablist" aria-label="감염 Hub">
+        {tabs.map(([value, label, Icon]) => (
+          <button
+            key={value}
+            type="button"
+            role="tab"
+            aria-selected={tab === value}
+            onClick={() => selectTab(value)}
+            className={`inline-flex min-w-0 flex-col items-center justify-center gap-1 rounded-lg px-1 py-2 text-xs font-semibold transition sm:flex-row sm:gap-2 sm:px-4 sm:py-2.5 sm:text-sm ${
+              tab === value ? "bg-slate-950 text-white shadow-sm" : "text-slate-600 hover:bg-slate-50 hover:text-slate-950"
+            }`}
+          >
+            <Icon className="h-4 w-4 shrink-0" />
+            <span>{label}</span>
+          </button>
+        ))}
+      </div>
+
+      {tab === "pathogens" ? <MicrobiologyBrowser dataset={microbiology} pathways={pathways} spectrum={dataset} /> : null}
+      {tab === "diseases" ? <InfectionPathwayExplorer dataset={pathways} spectrum={dataset} /> : null}
+      {tab === "antibiotics" ? <AntibioticOverview dataset={dataset} pathways={pathways} /> : null}
+      {tab === "quiz" ? (
+        <InfectionHubQuiz
+          pathways={pathways.pathways.filter((item) => item.reviewStatus !== "retired")}
+          spectrum={dataset}
+          sources={pathways.sources}
+          microbiology={microbiology}
+        />
+      ) : null}
     </div>
-    {tab === "pathways" ? <InfectionPathwayExplorer dataset={pathways} spectrum={dataset} /> : null}
-    {tab === "antibiotics" ? <AntibioticOverview dataset={dataset} pathways={pathways} /> : null}
-    {tab === "quiz" ? <ClinicalInfectionQuiz pathways={pathways.pathways.filter((item) => item.reviewStatus !== "retired")} spectrum={dataset} sources={pathways.sources} /> : null}
-  </div>;
+  );
 }

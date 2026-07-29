@@ -142,6 +142,55 @@
       "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.518",
       "tier": "A",
       "year": "2018"
+    },
+    {
+      "id": "idsa-cdi-2021",
+      "label": "IDSA/SHEA Clostridioides difficile Focused Update (2021)",
+      "url": "https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/",
+      "tier": "A",
+      "year": "2021"
+    },
+    {
+      "id": "escmid-cdi-2021",
+      "label": "ESCMID Clostridioides difficile Treatment Guideline (2021)",
+      "url": "https://doi.org/10.1016/j.cmi.2021.09.038",
+      "tier": "A",
+      "year": "2021"
+    },
+    {
+      "id": "wjes-nsti-2018",
+      "label": "WSES/SIS-E Necrotizing Soft-Tissue Infection Consensus (2018)",
+      "url": "https://wjes.biomedcentral.com/articles/10.1186/s13017-018-0180-7",
+      "tier": "A",
+      "year": "2018"
+    },
+    {
+      "id": "cdc-gonorrhea-2021",
+      "label": "CDC Gonococcal Infections STI Treatment Guidelines (2021)",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm",
+      "tier": "A",
+      "year": "2021"
+    },
+    {
+      "id": "who-gonorrhoea-2023",
+      "label": "WHO updated recommendations for treatment of Neisseria gonorrhoeae (2023)",
+      "url": "https://www.who.int/publications/i/item/9789240078394",
+      "tier": "A",
+      "year": "2023"
+    },
+    {
+      "id": "cdc-strep-pharyngitis-2025",
+      "label": "CDC Clinical Guidance for Group A Streptococcal Pharyngitis",
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+      "tier": "A",
+      "year": "2025"
+    },
+    {
+      "id": "idsa-pharyngitis-2012",
+      "label": "IDSA Group A Streptococcal Pharyngitis Guideline (2012)",
+      "url": "https://doi.org/10.1093/cid/cis629",
+      "tier": "A",
+      "year": "2012"
     }
   ],
   "pathways": [
@@ -2510,6 +2559,646 @@
       ],
       "diseaseSlug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzqtIDsl7wgKENob2xhbmdpdGlzKS5tZA",
       "diseaseTitle": "쓸개관염 (Cholangitis)"
+    },
+    {
+      "id": "adult-clostridioides-difficile-infection",
+      "displayName": "성인 Clostridioides difficile 감염",
+      "aliases": [
+        "거짓막 결장염",
+        "CDI",
+        "C. difficile 감염"
+      ],
+      "diseaseSourceFile": "08 감염/거짓막 결장염 (Pseudomembranous Colitis).md",
+      "infectionSite": "systemic",
+      "setting": "healthcare-associated",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "stable",
+        "sepsis"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "설사 환자에서 임상적으로 의미 있는 비형성 변만 검사하며, toxin/NAAT 결과를 증상과 함께 해석한다.",
+        "발열, 백혈구 증가, creatinine 상승, ileus·toxic megacolon·shock 등 fulminant 소견을 평가한다."
+      ],
+      "sourceControlNotes": [
+        "가능하면 유발 항균제를 중단하고, fulminant disease·ileus·megacolon은 즉시 입원 및 외과 평가를 병행한다."
+      ],
+      "stewardshipNotes": [
+        "무증상 보균에는 검사·치료하지 않으며, 치료 반응 판정 목적의 test of cure는 시행하지 않는다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "clinical-context-dependent",
+          "organisms": [
+            {
+              "organismId": "clostridia",
+              "likelihood": "common",
+              "notes": [
+                "C. difficile toxin-mediated colitis를 임상 증상과 검사 결과로 판단한다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "cdi-initial-nonsevere",
+          "context": "initial-nonsevere-or-severe-cdi",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "fidaxomicin",
+                "vancomycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "non-fulminant 초기 CDI에 적용; fulminant disease는 별도 경로로 즉시 평가"
+          ],
+          "avoidWhen": [
+            "ileus, toxic megacolon, shock 또는 복막자극 징후가 있으면 단순 외래 경로를 적용하지 않는다"
+          ],
+          "notes": [
+            "Fidaxomicin 또는 경구 vancomycin을 우선 고려하며, 중증도·재발 위험·약제 접근성을 함께 고려한다."
+          ],
+          "sourceIds": [
+            "idsa-cdi-2021",
+            "escmid-cdi-2021"
+          ]
+        }
+      ],
+      "targetedTherapies": [
+        {
+          "organismId": "clostridia",
+          "susceptibilityCondition": "clinically diagnosed initial CDI",
+          "rank": "preferred",
+          "antibioticIds": [
+            "fidaxomicin",
+            "vancomycin"
+          ],
+          "notes": [
+            "초발 CDI의 우선 경구 치료 예시이며, 중증도와 재발 위험에 맞춘다."
+          ],
+          "sourceIds": [
+            "idsa-cdi-2021",
+            "escmid-cdi-2021"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "idsa-cdi-2021",
+        "escmid-cdi-2021"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-26",
+      "quizQuestions": [
+        {
+          "id": "cdi-organism",
+          "type": "disease-to-organism",
+          "prompt": "설사와 최근 항균제 사용이 있는 환자에서 우선 의심할 병원체는?",
+          "choiceIds": [
+            "clostridia",
+            "mrsa",
+            "pseudomonas",
+            "atypicals"
+          ],
+          "correctId": "clostridia",
+          "explanation": "증상성 CDI에서는 C. difficile을 고려한다. 무증상 보균은 치료 대상이 아니며 검사 결과를 임상 증상과 함께 해석한다.",
+          "sourceIds": [
+            "idsa-cdi-2021"
+          ]
+        },
+        {
+          "id": "cdi-therapy",
+          "type": "disease-to-antibiotic",
+          "prompt": "초발 non-fulminant CDI에서 우선 고려하는 경구 치료는?",
+          "choiceIds": [
+            "fidaxomicin",
+            "cefazolin",
+            "daptomycin",
+            "azithromycin"
+          ],
+          "correctId": "fidaxomicin",
+          "explanation": "Fidaxomicin 또는 경구 vancomycin이 우선 치료 선택지다. fulminant disease, ileus, megacolon은 별도 긴급 경로가 필요하다.",
+          "sourceIds": [
+            "idsa-cdi-2021",
+            "escmid-cdi-2021"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDgg6rCQ7Je8L-qxsOynk-uniSDqsrDsnqXsl7wgKFBzZXVkb21lbWJyYW5vdXMgQ29saXRpcykubWQ",
+      "diseaseTitle": "거짓막 결장염 (Pseudomembranous Colitis)"
+    },
+    {
+      "id": "adult-necrotizing-fasciitis",
+      "displayName": "성인 괴사성 근막염",
+      "aliases": [
+        "Necrotizing fasciitis",
+        "NSTI"
+      ],
+      "diseaseSourceFile": "08 감염/괴사성 근막염 (Necrotizing Fasciitis).md",
+      "infectionSite": "skin-soft-tissue",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "sepsis",
+        "shock"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "통증 불균형, 빠른 진행, 피부 괴사·수포, systemic toxicity를 임상적으로 즉시 평가한다.",
+        "영상은 진단·수술 결정을 지연시키지 않는 범위에서 사용하며, 의심이 높으면 수술 평가를 우선한다."
+      ],
+      "sourceControlNotes": [
+        "즉시 외과 협진 및 광범위 debridement가 핵심이며 필요 시 반복 debridement를 계획한다."
+      ],
+      "stewardshipNotes": [
+        "배양 채취 후 광범위 항균요법을 시작하되, 결과와 수술 소견에 따라 빠르게 표적화한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "clinical-context-dependent",
+          "organisms": [
+            {
+              "organismId": "mrsa",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "streptococci",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "b_fragilis",
+              "likelihood": "important",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "nsti-empiric",
+          "context": "suspected-necrotizing-soft-tissue-infection",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "vancomycin",
+                "linezolid"
+              ],
+              "selection": "one-of"
+            },
+            {
+              "antibioticIds": [
+                "piperacillintazobactam",
+                "meropenem"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "MRSA, 연쇄알균, 그람음성균 및 혐기성균을 함께 포괄해야 하는 중증 의심 상황"
+          ],
+          "avoidWhen": [
+            "외과적 source control을 항균제만으로 대체하지 않는다"
+          ],
+          "notes": [
+            "독소 매개 A군 사슬알균 가능성에서는 clindamycin 병용 여부를 수술·감염 전문팀과 함께 판단한다."
+          ],
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "wjes-nsti-2018"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "idsa-ssti-2014",
+        "wjes-nsti-2018"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-26",
+      "quizQuestions": [
+        {
+          "id": "nsti-organism",
+          "type": "disease-to-organism",
+          "prompt": "괴사성 근막염이 의심되는 중증 연조직 감염에서 경험적으로 포괄해야 할 가능성이 높은 병원체는?",
+          "choiceIds": [
+            "mrsa",
+            "atypicals",
+            "listeria",
+            "n_meningitidis"
+          ],
+          "correctId": "mrsa",
+          "explanation": "괴사성 연조직 감염은 다균성 또는 MRSA·연쇄알균을 포함할 수 있어 광범위 경험요법과 즉시 debridement가 필요하다.",
+          "sourceIds": [
+            "idsa-ssti-2014"
+          ]
+        },
+        {
+          "id": "nsti-therapy",
+          "type": "disease-to-antibiotic",
+          "prompt": "괴사성 근막염이 의심될 때 광범위 경험요법의 그람음성·혐기성 포괄 축으로 적절한 약물은?",
+          "choiceIds": [
+            "piperacillintazobactam",
+            "cefazolin",
+            "azithromycin",
+            "nitrofurantoin"
+          ],
+          "correctId": "piperacillintazobactam",
+          "explanation": "Piperacillin/tazobactam 또는 carbapenem 축에 MRSA 포괄 약제를 더하는 방식이 예시이며, 수술적 source control이 우선이다.",
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "wjes-nsti-2018"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDgg6rCQ7Je8L-q0tOyCrOyEsSDqt7zrp4nsl7wgKE5lY3JvdGl6aW5nIEZhc2NpaXRpcykubWQ",
+      "diseaseTitle": "괴사성 근막염 (Necrotizing Fasciitis)"
+    },
+    {
+      "id": "adult-fourniers-gangrene",
+      "displayName": "성인 푸르니에 괴저",
+      "aliases": [
+        "Fournier gangrene",
+        "Fournier 괴저"
+      ],
+      "diseaseSourceFile": "08 감염/푸르니에 괴저 (Fournier's Gangrene).md",
+      "infectionSite": "skin-soft-tissue",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "sepsis",
+        "shock"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "회음부 통증·부종, 피부 변화, crepitus 또는 systemic toxicity를 즉시 확인한다.",
+        "CT는 범위·가스 확인에 도움될 수 있으나 수술 평가를 지연시키지 않는다."
+      ],
+      "sourceControlNotes": [
+        "긴급 debridement와 반복 수술 가능성을 포함한 외과적 source control이 필요하다."
+      ],
+      "stewardshipNotes": [
+        "광범위 경험요법은 배양·수술 소견에 따라 감량하며, 혈당조절 등 동반 위험인자도 교정한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "clinical-context-dependent",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "common",
+              "notes": []
+            },
+            {
+              "organismId": "b_fragilis",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "streptococci",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "mrsa",
+              "likelihood": "risk-factor-dependent",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "fourniers-empiric",
+          "context": "suspected-fourniers-gangrene",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "vancomycin",
+                "linezolid"
+              ],
+              "selection": "one-of"
+            },
+            {
+              "antibioticIds": [
+                "piperacillintazobactam",
+                "meropenem"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "회음부 괴사성 연조직 감염에서 polymicrobial infection과 MRSA 위험을 함께 고려"
+          ],
+          "avoidWhen": [
+            "debridement 없이 항균제만으로 치료하지 않는다"
+          ],
+          "notes": [
+            "중증 패혈증 경로, 반복 debridement 및 다학제 협진을 병행한다."
+          ],
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "wjes-nsti-2018"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "idsa-ssti-2014",
+        "wjes-nsti-2018"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-26",
+      "quizQuestions": [
+        {
+          "id": "fourniers-organism",
+          "type": "disease-to-organism",
+          "prompt": "푸르니에 괴저에서 다균성 감염과 함께 우선 고려할 장내 그람음성균 군은?",
+          "choiceIds": [
+            "enterobacterales",
+            "atypicals",
+            "listeria",
+            "n_meningitidis"
+          ],
+          "correctId": "enterobacterales",
+          "explanation": "푸르니에 괴저는 장내 그람음성균·혐기성균을 포함한 다균성 감염이 흔하며, 광범위 항균요법과 긴급 debridement가 필요하다.",
+          "sourceIds": [
+            "wjes-nsti-2018"
+          ]
+        },
+        {
+          "id": "fourniers-therapy",
+          "type": "disease-to-antibiotic",
+          "prompt": "푸르니에 괴저가 의심될 때 그람음성·혐기성 포괄 경험요법 축의 한 예는?",
+          "choiceIds": [
+            "piperacillintazobactam",
+            "nitrofurantoin",
+            "azithromycin",
+            "fosfomycin"
+          ],
+          "correctId": "piperacillintazobactam",
+          "explanation": "Piperacillin/tazobactam 또는 carbapenem 축에 MRSA 포괄을 더하는 방식이 예시이며, 즉시 수술적 source control이 핵심이다.",
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "wjes-nsti-2018"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDgg6rCQ7Je8L-2RuOultOuLiOyXkCDqtLTsoIAgKEZvdXJuaWVyJ3MgR2FuZ3JlbmUpLm1k",
+      "diseaseTitle": "푸르니에 괴저 (Fournier's Gangrene)"
+    },
+    {
+      "id": "adult-uncomplicated-gonococcal-infection",
+      "displayName": "성인 단순 임균 감염",
+      "aliases": [
+        "Gonorrhea",
+        "임질"
+      ],
+      "diseaseSourceFile": "08 감염/임균 감염 (Gonococcal Infection).md",
+      "infectionSite": "systemic",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "stable"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "비뇨생식기·인두·직장 검체 NAAT를 감염 부위에 맞춰 시행하고, 동반 chlamydia 및 다른 STI 검사를 고려한다.",
+        "파종성 감염, 골반염, 부고환염 등 합병증 및 파트너 평가 필요성을 확인한다."
+      ],
+      "sourceControlNotes": [
+        "파트너 통지·치료, 성접촉 회피 기간 안내 및 감염 부위에 따른 추적검사를 시행한다."
+      ],
+      "stewardshipNotes": [
+        "지역 내 내성 양상과 최신 STI 지침을 따르며, 불필요한 광범위 항생제 사용을 피한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "clinical-context-dependent",
+          "organisms": [
+            {
+              "organismId": "neisseria",
+              "likelihood": "common",
+              "notes": [
+                "Neisseria gonorrhoeae를 NAAT로 확인하고 감염 부위별 검체를 선택한다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "gonorrhea-uncomplicated",
+          "context": "uncomplicated-anogenital-or-pharyngeal-gonorrhea",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone"
+              ],
+              "selection": "all-of"
+            }
+          ],
+          "conditions": [
+            "chlamydia가 배제되지 않으면 동반 치료 필요 여부를 최신 지침에 따라 판단"
+          ],
+          "avoidWhen": [
+            "파종성 감염, 중증 골반염·부고환염은 단순 감염 외래 경로로 다루지 않는다"
+          ],
+          "notes": [
+            "단순 anogenital 또는 pharyngeal gonorrhea의 기본 예시이며, 지역 지침·체중·알레르기를 함께 반영한다."
+          ],
+          "sourceIds": [
+            "cdc-gonorrhea-2021",
+            "who-gonorrhoea-2023"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-gonorrhea-2021",
+        "who-gonorrhoea-2023"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-26",
+      "quizQuestions": [
+        {
+          "id": "gonorrhea-organism",
+          "type": "disease-to-organism",
+          "prompt": "단순 임균 감염에서 우선 원인균으로 고려하는 것은?",
+          "choiceIds": [
+            "neisseria",
+            "pneumococcus",
+            "listeria",
+            "b_fragilis"
+          ],
+          "correctId": "neisseria",
+          "explanation": "단순 임균 감염의 원인균은 Neisseria gonorrhoeae다. 감염 부위에 맞춘 NAAT와 동반 STI 평가가 필요하다.",
+          "sourceIds": [
+            "cdc-gonorrhea-2021"
+          ]
+        },
+        {
+          "id": "gonorrhea-therapy",
+          "type": "disease-to-antibiotic",
+          "prompt": "성인 단순 임균 감염의 1차 치료에 사용하는 주사 항생제는?",
+          "choiceIds": [
+            "ceftriaxone",
+            "metronidazole",
+            "nitrofurantoin",
+            "linezolid"
+          ],
+          "correctId": "ceftriaxone",
+          "explanation": "Ceftriaxone이 기본 치료 축이다. chlamydia 배제 여부와 감염 부위, 지역 지침을 함께 확인한다.",
+          "sourceIds": [
+            "cdc-gonorrhea-2021",
+            "who-gonorrhoea-2023"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDgg6rCQ7Je8L-yehOq3oCDqsJDsl7wgKEdvbm9jb2NjYWwgSW5mZWN0aW9uKS5tZA",
+      "diseaseTitle": "임균 감염 (Gonococcal Infection)"
+    },
+    {
+      "id": "adult-group-a-streptococcal-pharyngitis",
+      "displayName": "성인 A군 사슬알균 인두염",
+      "aliases": [
+        "GAS pharyngitis",
+        "Streptococcal pharyngitis"
+      ],
+      "diseaseSourceFile": "08 감염/사슬알균 인두염 (Streptococcal Pharyngitis).md",
+      "infectionSite": "systemic",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "stable"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "임상 기준에 따라 신속항원검사 또는 배양을 사용하며, 바이러스성 인두염 단서를 함께 평가한다.",
+        "호흡곤란, 침흘림, 경부 부종, 편도주위 농양 등 기도·심부 경부 감염 red flag를 확인한다."
+      ],
+      "sourceControlNotes": [
+        "기도 위협 또는 심부 경부 감염이 의심되면 즉시 응급·이비인후과 평가로 전환한다."
+      ],
+      "stewardshipNotes": [
+        "확인된 GAS에만 좁은 spectrum 항생제를 사용하고, 바이러스성 인두염에는 항생제를 피한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "clinical-context-dependent",
+          "organisms": [
+            {
+              "organismId": "streptococci",
+              "likelihood": "common",
+              "notes": [
+                "Group A Streptococcus에 의한 인두염을 검사 결과와 임상상으로 확인한다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "gas-pharyngitis",
+          "context": "confirmed-group-a-streptococcal-pharyngitis",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "amoxicillin",
+                "benzylpenicillin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "확인된 GAS 인두염에서 적용"
+          ],
+          "avoidWhen": [
+            "바이러스성 인두염 가능성이 높거나 기도 위협·심부 경부 감염이 의심되면 단순 외래 경로로 다루지 않는다"
+          ],
+          "notes": [
+            "Penicillin 또는 amoxicillin 같은 좁은 spectrum 약제를 우선 고려한다."
+          ],
+          "sourceIds": [
+            "cdc-strep-pharyngitis-2025",
+            "idsa-pharyngitis-2012"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-strep-pharyngitis-2025",
+        "idsa-pharyngitis-2012"
+      ],
+      "reviewStatus": "verified",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-26",
+      "quizQuestions": [
+        {
+          "id": "gas-organism",
+          "type": "disease-to-organism",
+          "prompt": "확인된 A군 사슬알균 인두염의 원인균으로 가장 알맞은 것은?",
+          "choiceIds": [
+            "streptococci",
+            "mrsa",
+            "pseudomonas",
+            "b_fragilis"
+          ],
+          "correctId": "streptococci",
+          "explanation": "A군 사슬알균 인두염은 Streptococcus pyogenes에 의하며, 검사 결과와 임상 소견을 함께 해석한다.",
+          "sourceIds": [
+            "cdc-strep-pharyngitis-2025"
+          ]
+        },
+        {
+          "id": "gas-therapy",
+          "type": "disease-to-antibiotic",
+          "prompt": "확인된 A군 사슬알균 인두염의 1차 경구 항생제 예시는?",
+          "choiceIds": [
+            "amoxicillin",
+            "vancomycin",
+            "meropenem",
+            "colistin"
+          ],
+          "correctId": "amoxicillin",
+          "explanation": "Penicillin 또는 amoxicillin이 좁은 spectrum의 1차 선택지다. 알레르기와 지역 지침을 함께 고려한다.",
+          "sourceIds": [
+            "cdc-strep-pharyngitis-2025",
+            "idsa-pharyngitis-2012"
+          ]
+        }
+      ],
+      "diseaseSlug": "MDgg6rCQ7Je8L-yCrOyKrOyVjOq3oCDsnbjrkZDsl7wgKFN0cmVwdG9jb2NjYWwgUGhhcnluZ2l0aXMpLm1k",
+      "diseaseTitle": "사슬알균 인두염 (Streptococcal Pharyngitis)"
     }
   ]
 }

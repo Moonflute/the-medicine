@@ -1,0 +1,2935 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-07-29",
+  "disclaimer": "병원체 정보는 임상 교육과 참조를 위한 자료다. 실제 진단과 치료는 감염 부위, 검체 품질, 배양 및 감수성 결과, 숙주 상태, 지역 역학과 최신 지침을 함께 반영한다.",
+  "entities": [
+    {
+      "id": "staphylococcus-aureus",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Staphylococcus aureus",
+      "koreanName": "황색포도알균",
+      "aliases": [
+        "S. aureus",
+        "황색포도구균"
+      ],
+      "category": "G(+) 구균",
+      "classification": [
+        "G(+)",
+        "coccus",
+        "facultative anaerobe",
+        "catalase positive",
+        "coagulase positive"
+      ],
+      "clinicalTags": [
+        "skin-soft-tissue",
+        "bacteremia",
+        "endocarditis",
+        "toxin-mediated",
+        "colonization"
+      ],
+      "taxonomyIds": [
+        "NCBI:1280"
+      ],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/01 Gram-positive cocci/황색포도알균 (Staphylococcus aureus).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-mrsa"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "mssa",
+      "entityKind": "resistance_phenotype",
+      "pathogenType": "bacterium",
+      "scientificName": "Staphylococcus aureus",
+      "koreanName": "MSSA",
+      "aliases": [
+        "methicillin-susceptible Staphylococcus aureus"
+      ],
+      "category": "내성 phenotype",
+      "classification": [
+        "G(+)",
+        "coccus",
+        "methicillin susceptible"
+      ],
+      "clinicalTags": [
+        "susceptibility phenotype"
+      ],
+      "taxonomyIds": [
+        "NCBI:1280"
+      ],
+      "spectrumIds": [
+        "mssa"
+      ],
+      "noteSourceFile": "06 Resistance Phenotypes/MSSA.md",
+      "sourceIds": [
+        "eucast-expert-rules",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "mrsa",
+      "entityKind": "resistance_phenotype",
+      "pathogenType": "bacterium",
+      "scientificName": "Staphylococcus aureus",
+      "koreanName": "MRSA",
+      "aliases": [
+        "methicillin-resistant Staphylococcus aureus"
+      ],
+      "category": "내성 phenotype",
+      "classification": [
+        "G(+)",
+        "coccus",
+        "methicillin resistant"
+      ],
+      "clinicalTags": [
+        "healthcare-associated",
+        "community-associated",
+        "infection control"
+      ],
+      "taxonomyIds": [
+        "NCBI:1280"
+      ],
+      "spectrumIds": [
+        "mrsa"
+      ],
+      "noteSourceFile": "06 Resistance Phenotypes/MRSA.md",
+      "sourceIds": [
+        "cdc-mrsa",
+        "eucast-expert-rules",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "streptococci",
+      "entityKind": "clinical_group",
+      "pathogenType": "bacterium",
+      "scientificName": "Streptococcus spp.",
+      "koreanName": "사슬알균군",
+      "aliases": [
+        "streptococci",
+        "연쇄상구균군"
+      ],
+      "category": "G(+) 구균",
+      "classification": [
+        "G(+)",
+        "coccus",
+        "catalase negative"
+      ],
+      "clinicalTags": [
+        "respiratory",
+        "skin-soft-tissue",
+        "bacteremia"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [
+        "streptococci"
+      ],
+      "noteSourceFile": "05 Clinical Groups/사슬알균군 (Streptococci).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "streptococcus-pneumoniae",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Streptococcus pneumoniae",
+      "koreanName": "폐렴사슬알균",
+      "aliases": [
+        "S. pneumoniae",
+        "pneumococcus",
+        "폐렴구균"
+      ],
+      "category": "G(+) 구균",
+      "classification": [
+        "G(+)",
+        "lancet-shaped diplococcus",
+        "alpha hemolysis",
+        "encapsulated"
+      ],
+      "clinicalTags": [
+        "pneumonia",
+        "meningitis",
+        "otitis-media",
+        "sinusitis",
+        "invasive disease"
+      ],
+      "taxonomyIds": [
+        "NCBI:1313"
+      ],
+      "spectrumIds": [
+        "pneumococcus"
+      ],
+      "noteSourceFile": "01 Bacteria/01 Gram-positive cocci/폐렴사슬알균 (Streptococcus pneumoniae).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "cdc-pneumococcal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "enterococci",
+      "entityKind": "clinical_group",
+      "pathogenType": "bacterium",
+      "scientificName": "Enterococcus spp.",
+      "koreanName": "장알균군",
+      "aliases": [
+        "enterococci",
+        "장구균군"
+      ],
+      "category": "G(+) 구균",
+      "classification": [
+        "G(+)",
+        "coccus",
+        "facultative anaerobe"
+      ],
+      "clinicalTags": [
+        "urinary-tract",
+        "bacteremia",
+        "endocarditis",
+        "healthcare-associated"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "05 Clinical Groups/장알균군 (Enterococci).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "eucast-expert-rules"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "enterococcus-faecalis",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Enterococcus faecalis",
+      "koreanName": "Enterococcus faecalis",
+      "aliases": [
+        "E. faecalis"
+      ],
+      "category": "G(+) 구균",
+      "classification": [
+        "G(+)",
+        "coccus",
+        "facultative anaerobe"
+      ],
+      "clinicalTags": [
+        "urinary-tract",
+        "bacteremia",
+        "endocarditis",
+        "intra-abdominal"
+      ],
+      "taxonomyIds": [
+        "NCBI:1351"
+      ],
+      "spectrumIds": [
+        "e_faecalis"
+      ],
+      "noteSourceFile": "01 Bacteria/01 Gram-positive cocci/Enterococcus faecalis.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "eucast-expert-rules"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "enterococcus-faecium",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Enterococcus faecium",
+      "koreanName": "Enterococcus faecium",
+      "aliases": [
+        "E. faecium"
+      ],
+      "category": "G(+) 구균",
+      "classification": [
+        "G(+)",
+        "coccus",
+        "facultative anaerobe"
+      ],
+      "clinicalTags": [
+        "healthcare-associated",
+        "bacteremia",
+        "endocarditis",
+        "multidrug resistance"
+      ],
+      "taxonomyIds": [
+        "NCBI:1352"
+      ],
+      "spectrumIds": [
+        "e_faecium"
+      ],
+      "noteSourceFile": "01 Bacteria/01 Gram-positive cocci/Enterococcus faecium.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "eucast-expert-rules"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "vre",
+      "entityKind": "resistance_phenotype",
+      "pathogenType": "bacterium",
+      "scientificName": "Enterococcus spp.",
+      "koreanName": "VRE",
+      "aliases": [
+        "vancomycin-resistant Enterococcus",
+        "반코마이신 내성 장알균"
+      ],
+      "category": "내성 phenotype",
+      "classification": [
+        "G(+)",
+        "coccus",
+        "vancomycin resistant"
+      ],
+      "clinicalTags": [
+        "healthcare-associated",
+        "infection control",
+        "multidrug resistance"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [
+        "vre"
+      ],
+      "noteSourceFile": "06 Resistance Phenotypes/VRE.md",
+      "sourceIds": [
+        "eucast-expert-rules",
+        "idsa-asm-lab-2024",
+        "cdc-infection-control"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "listeria-monocytogenes",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Listeria monocytogenes",
+      "koreanName": "리스테리아균",
+      "aliases": [
+        "L. monocytogenes",
+        "Listeria"
+      ],
+      "category": "G(+) 간균",
+      "classification": [
+        "G(+)",
+        "bacillus",
+        "facultative intracellular",
+        "facultative anaerobe"
+      ],
+      "clinicalTags": [
+        "foodborne",
+        "pregnancy",
+        "neonate",
+        "older-adult",
+        "meningitis"
+      ],
+      "taxonomyIds": [
+        "NCBI:1639"
+      ],
+      "spectrumIds": [
+        "listeria"
+      ],
+      "noteSourceFile": "01 Bacteria/02 Gram-positive bacilli/리스테리아균 (Listeria monocytogenes).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "cdc-listeria",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "haemophilus-influenzae",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Haemophilus influenzae",
+      "koreanName": "인플루엔자균",
+      "aliases": [
+        "H. influenzae",
+        "Hib",
+        "nontypeable H. influenzae"
+      ],
+      "category": "G(-) 구균·구간균",
+      "classification": [
+        "G(-)",
+        "coccobacillus",
+        "facultative anaerobe"
+      ],
+      "clinicalTags": [
+        "respiratory",
+        "otitis-media",
+        "meningitis",
+        "invasive disease",
+        "vaccine-preventable"
+      ],
+      "taxonomyIds": [
+        "NCBI:727"
+      ],
+      "spectrumIds": [
+        "h_influenzae"
+      ],
+      "noteSourceFile": "01 Bacteria/03 Gram-negative cocci and coccobacilli/인플루엔자균 (Haemophilus influenzae).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "cdc-hib",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "neisseria",
+      "entityKind": "clinical_group",
+      "pathogenType": "bacterium",
+      "scientificName": "Neisseria spp.",
+      "koreanName": "나이세리아군",
+      "aliases": [
+        "Neisseria",
+        "N. meningitidis",
+        "N. gonorrhoeae"
+      ],
+      "category": "G(-) 구균·구간균",
+      "classification": [
+        "G(-)",
+        "diplococcus",
+        "oxidase positive"
+      ],
+      "clinicalTags": [
+        "meningitis",
+        "sexually-transmitted",
+        "mucosal colonization"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [
+        "neisseria"
+      ],
+      "noteSourceFile": "05 Clinical Groups/나이세리아군 (Neisseria).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "neisseria-meningitidis",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Neisseria meningitidis",
+      "koreanName": "수막알균",
+      "aliases": [
+        "N. meningitidis",
+        "meningococcus",
+        "수막구균"
+      ],
+      "category": "G(-) 구균·구간균",
+      "classification": [
+        "G(-)",
+        "diplococcus",
+        "oxidase positive",
+        "encapsulated"
+      ],
+      "clinicalTags": [
+        "meningitis",
+        "meningococcemia",
+        "droplet precautions",
+        "chemoprophylaxis"
+      ],
+      "taxonomyIds": [
+        "NCBI:487"
+      ],
+      "spectrumIds": [
+        "n_meningitidis"
+      ],
+      "noteSourceFile": "01 Bacteria/03 Gram-negative cocci and coccobacilli/수막알균 (Neisseria meningitidis).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "cdc-meningococcal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "enterobacterales",
+      "entityKind": "clinical_group",
+      "pathogenType": "bacterium",
+      "scientificName": "Enterobacterales",
+      "koreanName": "Enterobacterales",
+      "aliases": [
+        "enteric Gram-negative bacilli",
+        "장내세균목"
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "G(-)",
+        "bacillus",
+        "facultative anaerobe",
+        "glucose fermenter"
+      ],
+      "clinicalTags": [
+        "urinary-tract",
+        "intra-abdominal",
+        "bacteremia",
+        "healthcare-associated"
+      ],
+      "taxonomyIds": [
+        "NCBI:91347"
+      ],
+      "spectrumIds": [
+        "enterobacterales"
+      ],
+      "noteSourceFile": "05 Clinical Groups/Enterobacterales.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "idsa-amr-guidance"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "pseudomonas-aeruginosa",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Pseudomonas aeruginosa",
+      "koreanName": "녹농균",
+      "aliases": [
+        "P. aeruginosa",
+        "pseudomonas"
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "G(-)",
+        "bacillus",
+        "aerobic",
+        "non-fermenter",
+        "oxidase positive"
+      ],
+      "clinicalTags": [
+        "healthcare-associated",
+        "opportunistic",
+        "biofilm",
+        "multidrug resistance"
+      ],
+      "taxonomyIds": [
+        "NCBI:287"
+      ],
+      "spectrumIds": [
+        "pseudomonas"
+      ],
+      "noteSourceFile": "01 Bacteria/05 Non-fermenting Gram-negative bacilli/녹농균 (Pseudomonas aeruginosa).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "idsa-amr-guidance",
+        "who-bacterial-priority-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "acinetobacter-baumannii-complex",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Acinetobacter baumannii complex",
+      "koreanName": "Acinetobacter baumannii complex",
+      "aliases": [
+        "A. baumannii",
+        "Acinetobacter"
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "G(-)",
+        "coccobacillus",
+        "aerobic",
+        "non-fermenter",
+        "oxidase negative"
+      ],
+      "clinicalTags": [
+        "healthcare-associated",
+        "ventilator-associated",
+        "wound",
+        "multidrug resistance"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [
+        "acinetobacter"
+      ],
+      "noteSourceFile": "01 Bacteria/05 Non-fermenting Gram-negative bacilli/Acinetobacter baumannii complex.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "idsa-amr-guidance",
+        "who-bacterial-priority-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "stenotrophomonas-maltophilia",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Stenotrophomonas maltophilia",
+      "koreanName": "Stenotrophomonas maltophilia",
+      "aliases": [
+        "S. maltophilia"
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "G(-)",
+        "bacillus",
+        "aerobic",
+        "non-fermenter"
+      ],
+      "clinicalTags": [
+        "healthcare-associated",
+        "respiratory",
+        "bacteremia",
+        "intrinsic resistance"
+      ],
+      "taxonomyIds": [
+        "NCBI:40324"
+      ],
+      "spectrumIds": [
+        "stenotrophomonas"
+      ],
+      "noteSourceFile": "01 Bacteria/05 Non-fermenting Gram-negative bacilli/Stenotrophomonas maltophilia.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "idsa-amr-guidance",
+        "who-bacterial-priority-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "oral-anaerobes",
+      "entityKind": "clinical_group",
+      "pathogenType": "bacterium",
+      "scientificName": "Oral anaerobes",
+      "koreanName": "구강 혐기성균군",
+      "aliases": [
+        "oral anaerobes",
+        "구강 정상균총 혐기성균"
+      ],
+      "category": "혐기성균",
+      "classification": [
+        "anaerobe",
+        "mixed flora"
+      ],
+      "clinicalTags": [
+        "odontogenic",
+        "aspiration",
+        "head-neck",
+        "polymicrobial"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [
+        "oral_anaerobes"
+      ],
+      "noteSourceFile": "05 Clinical Groups/구강 혐기성균군 (Oral anaerobes).md",
+      "sourceIds": [
+        "idsa-asm-lab-2024",
+        "ncbi-taxonomy"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "bacteroides-fragilis-group",
+      "entityKind": "clinical_group",
+      "pathogenType": "bacterium",
+      "scientificName": "Bacteroides fragilis group",
+      "koreanName": "Bacteroides fragilis group",
+      "aliases": [
+        "B. fragilis group"
+      ],
+      "category": "혐기성균",
+      "classification": [
+        "G(-)",
+        "bacillus",
+        "obligate anaerobe"
+      ],
+      "clinicalTags": [
+        "intra-abdominal",
+        "abscess",
+        "polymicrobial",
+        "beta-lactamase"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [
+        "b_fragilis"
+      ],
+      "noteSourceFile": "05 Clinical Groups/Bacteroides fragilis group.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "eucast-expert-rules"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "clostridia",
+      "entityKind": "clinical_group",
+      "pathogenType": "bacterium",
+      "scientificName": "Clostridia",
+      "koreanName": "Clostridia 임상군",
+      "aliases": [
+        "Clostridium spp.",
+        "Clostridioides difficile"
+      ],
+      "category": "혐기성균",
+      "classification": [
+        "G(+)",
+        "spore-forming bacillus",
+        "anaerobe"
+      ],
+      "clinicalTags": [
+        "toxin-mediated",
+        "myonecrosis",
+        "colitis",
+        "foodborne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [
+        "clostridia"
+      ],
+      "noteSourceFile": "05 Clinical Groups/Clostridia 임상군.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "atypical-pathogens",
+      "entityKind": "clinical_group",
+      "pathogenType": "bacterium",
+      "scientificName": "Atypical bacterial pathogens",
+      "koreanName": "비정형 세균군",
+      "aliases": [
+        "atypicals",
+        "Mycoplasma",
+        "Chlamydia",
+        "Legionella"
+      ],
+      "category": "비정형균",
+      "classification": [
+        "intracellular or cell-wall atypical"
+      ],
+      "clinicalTags": [
+        "community-acquired-pneumonia",
+        "intracellular",
+        "beta-lactam gap"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [
+        "atypicals"
+      ],
+      "noteSourceFile": "05 Clinical Groups/비정형 세균군 (Atypical pathogens).md",
+      "sourceIds": [
+        "idsa-asm-lab-2024",
+        "ncbi-taxonomy"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "esbl",
+      "entityKind": "resistance_phenotype",
+      "pathogenType": "bacterium",
+      "scientificName": "ESBL-producing Enterobacterales",
+      "koreanName": "ESBL 생성 Enterobacterales",
+      "aliases": [
+        "ESBL",
+        "extended-spectrum beta-lactamase"
+      ],
+      "category": "내성 phenotype",
+      "classification": [
+        "G(-)",
+        "beta-lactam resistance",
+        "ESBL"
+      ],
+      "clinicalTags": [
+        "multidrug resistance",
+        "healthcare-associated",
+        "community-associated"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [
+        "esbl"
+      ],
+      "noteSourceFile": "06 Resistance Phenotypes/ESBL-producing Enterobacterales.md",
+      "sourceIds": [
+        "idsa-amr-guidance",
+        "eucast-expert-rules",
+        "who-bacterial-priority-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "ampc",
+      "entityKind": "resistance_phenotype",
+      "pathogenType": "bacterium",
+      "scientificName": "AmpC-producing Enterobacterales",
+      "koreanName": "AmpC 생성 Enterobacterales",
+      "aliases": [
+        "AmpC",
+        "AmpC beta-lactamase"
+      ],
+      "category": "내성 phenotype",
+      "classification": [
+        "G(-)",
+        "beta-lactam resistance",
+        "AmpC"
+      ],
+      "clinicalTags": [
+        "inducible resistance",
+        "on-therapy resistance"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [
+        "ampc"
+      ],
+      "noteSourceFile": "06 Resistance Phenotypes/AmpC-producing Enterobacterales.md",
+      "sourceIds": [
+        "idsa-amr-guidance",
+        "eucast-expert-rules"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "cre",
+      "entityKind": "resistance_phenotype",
+      "pathogenType": "bacterium",
+      "scientificName": "Carbapenem-resistant Enterobacterales",
+      "koreanName": "Carbapenem 내성 Enterobacterales",
+      "aliases": [
+        "CRE",
+        "CPE",
+        "carbapenemase-producing Enterobacterales",
+        "KPC"
+      ],
+      "category": "내성 phenotype",
+      "classification": [
+        "G(-)",
+        "carbapenem resistance"
+      ],
+      "clinicalTags": [
+        "multidrug resistance",
+        "healthcare-associated",
+        "infection control"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [
+        "cre"
+      ],
+      "noteSourceFile": "06 Resistance Phenotypes/Carbapenem-resistant Enterobacterales.md",
+      "sourceIds": [
+        "idsa-amr-guidance",
+        "eucast-expert-rules",
+        "who-bacterial-priority-2024",
+        "cdc-infection-control"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "streptococcus-pyogenes",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Streptococcus pyogenes",
+      "koreanName": "화농사슬알균",
+      "aliases": [
+        "S. pyogenes",
+        "group A Streptococcus",
+        "GAS"
+      ],
+      "category": "G(+) 구균",
+      "classification": [
+        "G(+)",
+        "coccus",
+        "beta-hemolytic",
+        "group A Streptococcus"
+      ],
+      "clinicalTags": [
+        "pharyngitis",
+        "skin-soft-tissue",
+        "invasive disease",
+        "toxin-mediated"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/01 Gram-positive cocci/화농사슬알균 (Streptococcus pyogenes).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "streptococcus-agalactiae",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Streptococcus agalactiae",
+      "koreanName": "B군사슬알균",
+      "aliases": [
+        "S. agalactiae",
+        "group B Streptococcus",
+        "GBS"
+      ],
+      "category": "G(+) 구균",
+      "classification": [
+        "G(+)",
+        "coccus",
+        "beta-hemolytic",
+        "group B Streptococcus"
+      ],
+      "clinicalTags": [
+        "neonate",
+        "pregnancy",
+        "bacteremia",
+        "meningitis"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/01 Gram-positive cocci/B군사슬알균 (Streptococcus agalactiae).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "viridans-group-streptococci",
+      "entityKind": "clinical_group",
+      "pathogenType": "bacterium",
+      "scientificName": "Viridans group streptococci",
+      "koreanName": "Viridans group streptococci",
+      "aliases": [
+        "VGS",
+        "viridans streptococci"
+      ],
+      "category": "G(+) 구균",
+      "classification": [
+        "G(+)",
+        "coccus",
+        "alpha or non-hemolytic",
+        "heterogeneous clinical group"
+      ],
+      "clinicalTags": [
+        "oral flora",
+        "endocarditis",
+        "neutropenia",
+        "dental"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "05 Clinical Groups/Viridans group streptococci (Viridans group streptococci).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "clostridioides-difficile",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Clostridioides difficile",
+      "koreanName": "클로스트리디오이데스 디피실",
+      "aliases": [
+        "C. difficile",
+        "CDI"
+      ],
+      "category": "혐기성균",
+      "classification": [
+        "G(+)",
+        "spore-forming bacillus",
+        "obligate anaerobe",
+        "toxin-producing"
+      ],
+      "clinicalTags": [
+        "antibiotic-associated diarrhea",
+        "colitis",
+        "healthcare-associated",
+        "recurrence"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/06 Anaerobes/클로스트리디오이데스 디피실 (Clostridioides difficile).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "idsa-cdi",
+        "cdc-infection-control"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "escherichia-coli",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Escherichia coli",
+      "koreanName": "대장균",
+      "aliases": [
+        "E. coli"
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "G(-)",
+        "bacillus",
+        "facultative anaerobe",
+        "Enterobacterales"
+      ],
+      "clinicalTags": [
+        "urinary-tract",
+        "bacteremia",
+        "intra-abdominal",
+        "diarrheagenic pathotypes"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/04 Enterobacterales/대장균 (Escherichia coli).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-foodborne",
+        "idsa-amr-guidance"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "klebsiella-pneumoniae",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Klebsiella pneumoniae",
+      "koreanName": "폐렴막대균",
+      "aliases": [
+        "K. pneumoniae",
+        "Klebsiella"
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "G(-)",
+        "encapsulated bacillus",
+        "facultative anaerobe",
+        "Enterobacterales"
+      ],
+      "clinicalTags": [
+        "pneumonia",
+        "urinary-tract",
+        "bacteremia",
+        "liver abscess",
+        "AMR"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/04 Enterobacterales/폐렴막대균 (Klebsiella pneumoniae).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "idsa-amr-guidance",
+        "who-bacterial-priority-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "proteus-mirabilis",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Proteus mirabilis",
+      "koreanName": "Proteus mirabilis",
+      "aliases": [
+        "P. mirabilis"
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "G(-)",
+        "bacillus",
+        "urease positive",
+        "swarming motility"
+      ],
+      "clinicalTags": [
+        "urinary-tract",
+        "catheter-associated",
+        "struvite stone",
+        "bacteremia"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/04 Enterobacterales/Proteus mirabilis (Proteus mirabilis).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "neisseria-gonorrhoeae",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Neisseria gonorrhoeae",
+      "koreanName": "임균",
+      "aliases": [
+        "N. gonorrhoeae",
+        "gonococcus"
+      ],
+      "category": "G(-) 구균·구간균",
+      "classification": [
+        "G(-)",
+        "diplococcus",
+        "oxidase positive",
+        "human-restricted"
+      ],
+      "clinicalTags": [
+        "sexually-transmitted",
+        "urethritis",
+        "cervicitis",
+        "pelvic-inflammatory-disease"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/03 Gram-negative cocci and coccobacilli/임균 (Neisseria gonorrhoeae).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "legionella-pneumophila",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Legionella pneumophila",
+      "koreanName": "레지오넬라균",
+      "aliases": [
+        "L. pneumophila",
+        "Legionella"
+      ],
+      "category": "비정형균",
+      "classification": [
+        "G(-) poorly staining bacillus",
+        "facultative intracellular",
+        "aquatic"
+      ],
+      "clinicalTags": [
+        "pneumonia",
+        "water-system",
+        "healthcare-associated",
+        "intracellular"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/07 Atypical bacteria/레지오넬라균 (Legionella pneumophila).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "mycoplasma-pneumoniae",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Mycoplasma pneumoniae",
+      "koreanName": "폐렴미코플라스마",
+      "aliases": [
+        "M. pneumoniae",
+        "Mycoplasma"
+      ],
+      "category": "비정형균",
+      "classification": [
+        "cell wall absent",
+        "small bacterium",
+        "extracellular mucosal pathogen"
+      ],
+      "clinicalTags": [
+        "community-acquired-pneumonia",
+        "school-age",
+        "extrapulmonary"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/07 Atypical bacteria/폐렴미코플라스마 (Mycoplasma pneumoniae).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "chlamydia-trachomatis",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Chlamydia trachomatis",
+      "koreanName": "클라미디아 트라코마티스",
+      "aliases": [
+        "C. trachomatis",
+        "Chlamydia"
+      ],
+      "category": "비정형균",
+      "classification": [
+        "obligate intracellular bacterium",
+        "elementary and reticulate bodies"
+      ],
+      "clinicalTags": [
+        "sexually-transmitted",
+        "cervicitis",
+        "urethritis",
+        "neonate"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/07 Atypical bacteria/클라미디아 트라코마티스 (Chlamydia trachomatis).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "mycobacterium-tuberculosis-complex",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Mycobacterium tuberculosis complex",
+      "koreanName": "결핵균복합체",
+      "aliases": [
+        "M. tuberculosis",
+        "MTBC",
+        "TB bacillus"
+      ],
+      "category": "Mycobacteria",
+      "classification": [
+        "acid-fast bacillus",
+        "obligate aerobe",
+        "slow growing",
+        "intracellular"
+      ],
+      "clinicalTags": [
+        "tuberculosis",
+        "airborne",
+        "latent-infection",
+        "multidrug-resistance"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/08 Mycobacteria/결핵균복합체 (Mycobacterium tuberculosis complex).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-tb",
+        "who-tb"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "nontuberculous-mycobacteria",
+      "entityKind": "clinical_group",
+      "pathogenType": "bacterium",
+      "scientificName": "Nontuberculous mycobacteria",
+      "koreanName": "비결핵항산균",
+      "aliases": [
+        "NTM",
+        "M. avium complex",
+        "MAC"
+      ],
+      "category": "Mycobacteria",
+      "classification": [
+        "acid-fast bacilli",
+        "environmental mycobacteria",
+        "heterogeneous group"
+      ],
+      "clinicalTags": [
+        "chronic-pulmonary-disease",
+        "device",
+        "skin-soft-tissue",
+        "immunocompromised"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "05 Clinical Groups/비결핵항산균 (Nontuberculous mycobacteria).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "treponema-pallidum",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Treponema pallidum",
+      "koreanName": "매독균",
+      "aliases": [
+        "T. pallidum",
+        "syphilis spirochete"
+      ],
+      "category": "Spirochetes",
+      "classification": [
+        "spirochete",
+        "human-restricted",
+        "not routinely cultured"
+      ],
+      "clinicalTags": [
+        "sexually-transmitted",
+        "congenital",
+        "neurosyphilis",
+        "multistage disease"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/09 Spirochetes/매독균 (Treponema pallidum).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "bordetella-pertussis",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Bordetella pertussis",
+      "koreanName": "백일해균",
+      "aliases": [
+        "B. pertussis"
+      ],
+      "category": "G(-) 구균·구간균",
+      "classification": [
+        "G(-)",
+        "small coccobacillus",
+        "strict aerobe",
+        "toxin-producing"
+      ],
+      "clinicalTags": [
+        "pertussis",
+        "droplet",
+        "infant",
+        "vaccine-preventable"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/03 Gram-negative cocci and coccobacilli/백일해균 (Bordetella pertussis).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "influenza-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Influenza A and B viruses",
+      "koreanName": "인플루엔자 바이러스",
+      "aliases": [
+        "influenza virus",
+        "flu virus",
+        "Influenza A",
+        "Influenza B"
+      ],
+      "category": "호흡기 바이러스",
+      "classification": [
+        "Orthomyxoviridae",
+        "enveloped",
+        "segmented negative-sense RNA"
+      ],
+      "clinicalTags": [
+        "influenza",
+        "seasonal",
+        "pneumonia",
+        "antiviral"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/01 Respiratory viruses/인플루엔자 바이러스 (Influenza A and B viruses).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses",
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "respiratory-syncytial-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Respiratory syncytial virus",
+      "koreanName": "호흡기세포융합바이러스",
+      "aliases": [
+        "RSV",
+        "human orthopneumovirus"
+      ],
+      "category": "호흡기 바이러스",
+      "classification": [
+        "Pneumoviridae",
+        "enveloped",
+        "negative-sense RNA"
+      ],
+      "clinicalTags": [
+        "bronchiolitis",
+        "infant",
+        "older-adult",
+        "immunocompromised"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/01 Respiratory viruses/호흡기세포융합바이러스 (Respiratory syncytial virus).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "sars-cov-2",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Severe acute respiratory syndrome coronavirus 2",
+      "koreanName": "SARS-CoV-2",
+      "aliases": [
+        "SARS-CoV-2",
+        "COVID-19 virus"
+      ],
+      "category": "호흡기 바이러스",
+      "classification": [
+        "Coronaviridae",
+        "enveloped",
+        "positive-sense RNA"
+      ],
+      "clinicalTags": [
+        "COVID-19",
+        "pneumonia",
+        "systemic",
+        "post-acute"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/01 Respiratory viruses/SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "adenovirus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Human adenovirus",
+      "koreanName": "사람 아데노바이러스",
+      "aliases": [
+        "adenovirus",
+        "HAdV"
+      ],
+      "category": "호흡기 바이러스",
+      "classification": [
+        "Adenoviridae",
+        "non-enveloped",
+        "double-stranded DNA"
+      ],
+      "clinicalTags": [
+        "respiratory",
+        "conjunctivitis",
+        "gastroenteritis",
+        "immunocompromised"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/01 Respiratory viruses/사람 아데노바이러스 (Human adenovirus).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "norovirus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Norovirus",
+      "koreanName": "노로바이러스",
+      "aliases": [
+        "Norwalk-like virus"
+      ],
+      "category": "장관 바이러스",
+      "classification": [
+        "Caliciviridae",
+        "non-enveloped",
+        "positive-sense RNA"
+      ],
+      "clinicalTags": [
+        "gastroenteritis",
+        "outbreak",
+        "foodborne",
+        "healthcare-associated"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/02 Enteric viruses/노로바이러스 (Norovirus).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-foodborne",
+        "cdc-infection-control"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "herpes-simplex-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Herpes simplex virus 1 and 2",
+      "koreanName": "단순헤르페스바이러스",
+      "aliases": [
+        "HSV-1",
+        "HSV-2",
+        "herpes simplex virus"
+      ],
+      "category": "Herpesvirus",
+      "classification": [
+        "Herpesviridae",
+        "enveloped",
+        "double-stranded DNA",
+        "latent infection"
+      ],
+      "clinicalTags": [
+        "mucocutaneous",
+        "genital",
+        "encephalitis",
+        "neonate"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/03 Herpesviruses/단순헤르페스바이러스 (Herpes simplex virus 1 and 2).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-sti-guidelines",
+        "nih-hiv-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "varicella-zoster-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Varicella-zoster virus",
+      "koreanName": "수두대상포진바이러스",
+      "aliases": [
+        "VZV",
+        "human herpesvirus 3"
+      ],
+      "category": "Herpesvirus",
+      "classification": [
+        "Herpesviridae",
+        "enveloped",
+        "double-stranded DNA",
+        "latent infection"
+      ],
+      "clinicalTags": [
+        "varicella",
+        "zoster",
+        "encephalitis",
+        "vaccine-preventable"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/03 Herpesviruses/수두대상포진바이러스 (Varicella-zoster virus).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable",
+        "nih-hiv-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "cytomegalovirus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Human cytomegalovirus",
+      "koreanName": "거대세포바이러스",
+      "aliases": [
+        "CMV",
+        "human herpesvirus 5"
+      ],
+      "category": "Herpesvirus",
+      "classification": [
+        "Herpesviridae",
+        "enveloped",
+        "double-stranded DNA",
+        "latent infection"
+      ],
+      "clinicalTags": [
+        "congenital",
+        "transplant",
+        "HIV",
+        "retinitis"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/03 Herpesviruses/거대세포바이러스 (Human cytomegalovirus).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "nih-hiv-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "epstein-barr-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Epstein-Barr virus",
+      "koreanName": "엡스타인-바 바이러스",
+      "aliases": [
+        "EBV",
+        "human herpesvirus 4"
+      ],
+      "category": "Herpesvirus",
+      "classification": [
+        "Herpesviridae",
+        "enveloped",
+        "double-stranded DNA",
+        "B-cell latency"
+      ],
+      "clinicalTags": [
+        "infectious-mononucleosis",
+        "lymphoproliferative",
+        "oncogenic"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/03 Herpesviruses/엡스타인-바 바이러스 (Epstein-Barr virus).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "nih-hiv-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "hepatitis-b-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Hepatitis B virus",
+      "koreanName": "B형간염바이러스",
+      "aliases": [
+        "HBV"
+      ],
+      "category": "간염 바이러스",
+      "classification": [
+        "Hepadnaviridae",
+        "enveloped",
+        "partially double-stranded DNA",
+        "reverse transcription"
+      ],
+      "clinicalTags": [
+        "hepatitis",
+        "chronic",
+        "cirrhosis",
+        "hepatocellular-carcinoma"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/04 Hepatitis viruses/B형간염바이러스 (Hepatitis B virus).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-viral-hepatitis",
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "hepatitis-c-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Hepatitis C virus",
+      "koreanName": "C형간염바이러스",
+      "aliases": [
+        "HCV"
+      ],
+      "category": "간염 바이러스",
+      "classification": [
+        "Flaviviridae",
+        "enveloped",
+        "positive-sense RNA"
+      ],
+      "clinicalTags": [
+        "hepatitis",
+        "chronic",
+        "cirrhosis",
+        "direct-acting-antiviral"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/04 Hepatitis viruses/C형간염바이러스 (Hepatitis C virus).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-viral-hepatitis"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "human-immunodeficiency-virus-1",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Human immunodeficiency virus 1",
+      "koreanName": "사람면역결핍바이러스 1",
+      "aliases": [
+        "HIV-1",
+        "HIV"
+      ],
+      "category": "Retrovirus",
+      "classification": [
+        "Retroviridae",
+        "enveloped",
+        "positive-sense RNA",
+        "reverse transcription"
+      ],
+      "clinicalTags": [
+        "HIV",
+        "immunodeficiency",
+        "opportunistic-infection",
+        "antiretroviral-therapy"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/05 Retroviruses/사람면역결핍바이러스 1 (Human immunodeficiency virus 1).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "nih-hiv-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "human-papillomavirus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Human papillomavirus",
+      "koreanName": "사람유두종바이러스",
+      "aliases": [
+        "HPV"
+      ],
+      "category": "피부·점막 바이러스",
+      "classification": [
+        "Papillomaviridae",
+        "non-enveloped",
+        "double-stranded DNA"
+      ],
+      "clinicalTags": [
+        "warts",
+        "cervical-cancer",
+        "anogenital",
+        "vaccine-preventable"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/06 Cutaneous and mucosal viruses/사람유두종바이러스 (Human papillomavirus).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-sti-guidelines",
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "candida-albicans",
+      "entityKind": "organism",
+      "pathogenType": "fungus",
+      "scientificName": "Candida albicans",
+      "koreanName": "칸디다 알비칸스",
+      "aliases": [
+        "C. albicans",
+        "Candida"
+      ],
+      "category": "Yeast",
+      "classification": [
+        "yeast",
+        "budding",
+        "germ tube positive",
+        "commensal"
+      ],
+      "clinicalTags": [
+        "candidemia",
+        "mucosal",
+        "intra-abdominal",
+        "device"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "03 Fungi/01 Yeasts/칸디다 알비칸스 (Candida albicans).md",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "candida-auris",
+      "entityKind": "organism",
+      "pathogenType": "fungus",
+      "scientificName": "Candida auris",
+      "koreanName": "칸디다 아우리스",
+      "aliases": [
+        "C. auris"
+      ],
+      "category": "Yeast",
+      "classification": [
+        "yeast",
+        "healthcare-associated",
+        "environmentally persistent",
+        "multidrug resistant"
+      ],
+      "clinicalTags": [
+        "candidemia",
+        "outbreak",
+        "infection-control",
+        "AMR"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "03 Fungi/01 Yeasts/칸디다 아우리스 (Candida auris).md",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024",
+        "cdc-infection-control"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "aspergillus-fumigatus",
+      "entityKind": "organism",
+      "pathogenType": "fungus",
+      "scientificName": "Aspergillus fumigatus",
+      "koreanName": "아스페르길루스 푸미가투스",
+      "aliases": [
+        "A. fumigatus",
+        "Aspergillus"
+      ],
+      "category": "Mold",
+      "classification": [
+        "septate mold",
+        "acute-angle branching hyphae",
+        "airborne conidia"
+      ],
+      "clinicalTags": [
+        "invasive-aspergillosis",
+        "neutropenia",
+        "transplant",
+        "allergic"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "03 Fungi/02 Molds/아스페르길루스 푸미가투스 (Aspergillus fumigatus).md",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "cryptococcus-neoformans-gattii",
+      "entityKind": "organism",
+      "pathogenType": "fungus",
+      "scientificName": "Cryptococcus neoformans and Cryptococcus gattii",
+      "koreanName": "크립토코쿠스",
+      "aliases": [
+        "C. neoformans",
+        "C. gattii",
+        "Cryptococcus"
+      ],
+      "category": "Yeast",
+      "classification": [
+        "encapsulated yeast",
+        "environmental",
+        "neurotropic"
+      ],
+      "clinicalTags": [
+        "meningitis",
+        "HIV",
+        "transplant",
+        "intracranial-pressure"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "03 Fungi/01 Yeasts/크립토코쿠스 (Cryptococcus neoformans and Cryptococcus gattii).md",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024",
+        "nih-hiv-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "pneumocystis-jirovecii",
+      "entityKind": "organism",
+      "pathogenType": "fungus",
+      "scientificName": "Pneumocystis jirovecii",
+      "koreanName": "폐포자충",
+      "aliases": [
+        "P. jirovecii",
+        "PCP",
+        "PJP"
+      ],
+      "category": "Atypical fungi",
+      "classification": [
+        "fungus",
+        "unculturable by routine methods",
+        "opportunistic"
+      ],
+      "clinicalTags": [
+        "pneumonia",
+        "HIV",
+        "steroid",
+        "hypoxemia"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "03 Fungi/03 Atypical fungi/폐포자충 (Pneumocystis jirovecii).md",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024",
+        "nih-hiv-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "mucorales",
+      "entityKind": "clinical_group",
+      "pathogenType": "fungus",
+      "scientificName": "Mucorales",
+      "koreanName": "털곰팡이목",
+      "aliases": [
+        "mucormycosis",
+        "Mucor",
+        "Rhizopus"
+      ],
+      "category": "Mold",
+      "classification": [
+        "broad pauciseptate hyphae",
+        "right-angle branching",
+        "angioinvasive molds"
+      ],
+      "clinicalTags": [
+        "mucormycosis",
+        "diabetes",
+        "neutropenia",
+        "surgical-emergency"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "05 Clinical Groups/털곰팡이목 (Mucorales).md",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "plasmodium-falciparum",
+      "entityKind": "organism",
+      "pathogenType": "protozoan",
+      "scientificName": "Plasmodium falciparum",
+      "koreanName": "열대열원충",
+      "aliases": [
+        "P. falciparum",
+        "falciparum malaria"
+      ],
+      "category": "혈액 원충",
+      "classification": [
+        "Apicomplexa",
+        "intraerythrocytic protozoan",
+        "mosquito-borne"
+      ],
+      "clinicalTags": [
+        "malaria",
+        "fever-travel",
+        "hemolysis",
+        "medical-emergency"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/01 Protozoa/열대열원충 (Plasmodium falciparum).md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "who-malaria",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "toxoplasma-gondii",
+      "entityKind": "organism",
+      "pathogenType": "protozoan",
+      "scientificName": "Toxoplasma gondii",
+      "koreanName": "톡소포자충",
+      "aliases": [
+        "T. gondii",
+        "toxoplasma"
+      ],
+      "category": "조직 원충",
+      "classification": [
+        "Apicomplexa",
+        "obligate intracellular protozoan",
+        "tissue cyst"
+      ],
+      "clinicalTags": [
+        "congenital",
+        "HIV",
+        "encephalitis",
+        "ocular"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/01 Protozoa/톡소포자충 (Toxoplasma gondii).md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "nih-hiv-guidelines",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "giardia-duodenalis",
+      "entityKind": "organism",
+      "pathogenType": "protozoan",
+      "scientificName": "Giardia duodenalis",
+      "koreanName": "람블편모충",
+      "aliases": [
+        "G. duodenalis",
+        "G. lamblia",
+        "Giardia"
+      ],
+      "category": "장관 원충",
+      "classification": [
+        "flagellated protozoan",
+        "cyst and trophozoite",
+        "fecal-oral"
+      ],
+      "clinicalTags": [
+        "diarrhea",
+        "malabsorption",
+        "waterborne",
+        "daycare"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/01 Protozoa/람블편모충 (Giardia duodenalis).md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "entamoeba-histolytica",
+      "entityKind": "organism",
+      "pathogenType": "protozoan",
+      "scientificName": "Entamoeba histolytica",
+      "koreanName": "이질아메바",
+      "aliases": [
+        "E. histolytica",
+        "amebiasis"
+      ],
+      "category": "장관 원충",
+      "classification": [
+        "amoeba",
+        "cyst and trophozoite",
+        "invasive colonic protozoan"
+      ],
+      "clinicalTags": [
+        "dysentery",
+        "liver-abscess",
+        "travel",
+        "fecal-oral"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/01 Protozoa/이질아메바 (Entamoeba histolytica).md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "strongyloides-stercoralis",
+      "entityKind": "organism",
+      "pathogenType": "helminth",
+      "scientificName": "Strongyloides stercoralis",
+      "koreanName": "분선충",
+      "aliases": [
+        "S. stercoralis",
+        "strongyloides"
+      ],
+      "category": "선충",
+      "classification": [
+        "nematode",
+        "soil-transmitted",
+        "autoinfection"
+      ],
+      "clinicalTags": [
+        "eosinophilia",
+        "steroid",
+        "hyperinfection",
+        "gram-negative-sepsis"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/02 Helminths/분선충 (Strongyloides stercoralis).md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "taenia-solium",
+      "entityKind": "organism",
+      "pathogenType": "helminth",
+      "scientificName": "Taenia solium",
+      "koreanName": "갈고리촌충",
+      "aliases": [
+        "T. solium",
+        "pork tapeworm"
+      ],
+      "category": "조충",
+      "classification": [
+        "cestode",
+        "human definitive and accidental intermediate host",
+        "tissue cyst"
+      ],
+      "clinicalTags": [
+        "taeniasis",
+        "neurocysticercosis",
+        "seizure",
+        "foodborne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/02 Helminths/갈고리촌충 (Taenia solium).md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "sarcoptes-scabiei",
+      "entityKind": "organism",
+      "pathogenType": "ectoparasite",
+      "scientificName": "Sarcoptes scabiei var. hominis",
+      "koreanName": "옴진드기",
+      "aliases": [
+        "Sarcoptes scabiei",
+        "scabies mite"
+      ],
+      "category": "외부기생충",
+      "classification": [
+        "mite",
+        "obligate human ectoparasite",
+        "skin burrow"
+      ],
+      "clinicalTags": [
+        "scabies",
+        "pruritus",
+        "crusted-scabies",
+        "outbreak"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/03 Ectoparasites/옴진드기 (Sarcoptes scabiei var. hominis).md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "cdc-infection-control"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "coagulase-negative-staphylococci",
+      "entityKind": "clinical_group",
+      "pathogenType": "bacterium",
+      "scientificName": "Coagulase-negative staphylococci",
+      "koreanName": "Coagulase-negative staphylococci",
+      "aliases": [
+        "CoNS",
+        "coagulase-negative Staphylococcus"
+      ],
+      "category": "G(+) 구균",
+      "classification": [
+        "G(+)",
+        "coccus",
+        "catalase positive",
+        "coagulase negative"
+      ],
+      "clinicalTags": [
+        "skin-flora",
+        "blood-culture-contaminant",
+        "device",
+        "biofilm"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "05 Clinical Groups/Coagulase-negative staphylococci (Coagulase-negative staphylococci).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "corynebacterium-diphtheriae",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Corynebacterium diphtheriae",
+      "koreanName": "디프테리아균",
+      "aliases": [
+        "C. diphtheriae"
+      ],
+      "category": "G(+) 간균",
+      "classification": [
+        "G(+)",
+        "club-shaped bacillus",
+        "non-spore-forming",
+        "toxin-producing strains"
+      ],
+      "clinicalTags": [
+        "diphtheria",
+        "pseudomembrane",
+        "droplet",
+        "vaccine-preventable"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/02 Gram-positive bacilli/디프테리아균 (Corynebacterium diphtheriae).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "moraxella-catarrhalis",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Moraxella catarrhalis",
+      "koreanName": "모락셀라 카타랄리스",
+      "aliases": [
+        "M. catarrhalis",
+        "Moraxella"
+      ],
+      "category": "G(-) 구균·구간균",
+      "classification": [
+        "G(-)",
+        "diplococcus",
+        "oxidase positive",
+        "beta-lactamase commonly produced"
+      ],
+      "clinicalTags": [
+        "otitis-media",
+        "sinusitis",
+        "COPD-exacerbation",
+        "respiratory"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/03 Gram-negative cocci and coccobacilli/모락셀라 카타랄리스 (Moraxella catarrhalis).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "chlamydia-pneumoniae",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Chlamydia pneumoniae",
+      "koreanName": "폐렴클라미디아",
+      "aliases": [
+        "C. pneumoniae"
+      ],
+      "category": "비정형균",
+      "classification": [
+        "obligate intracellular bacterium",
+        "elementary and reticulate bodies"
+      ],
+      "clinicalTags": [
+        "community-acquired-pneumonia",
+        "pharyngitis",
+        "bronchitis",
+        "beta-lactam-gap"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/07 Atypical bacteria/폐렴클라미디아 (Chlamydia pneumoniae).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "borrelia-clinical-group",
+      "entityKind": "clinical_group",
+      "pathogenType": "bacterium",
+      "scientificName": "Borrelia species",
+      "koreanName": "보렐리아 임상군",
+      "aliases": [
+        "Borrelia",
+        "B. burgdorferi",
+        "relapsing fever Borrelia"
+      ],
+      "category": "Spirochetes",
+      "classification": [
+        "spirochetes",
+        "vector-borne",
+        "tick or louse transmitted"
+      ],
+      "clinicalTags": [
+        "Lyme-disease",
+        "relapsing-fever",
+        "tick-borne",
+        "neuroborreliosis"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "05 Clinical Groups/보렐리아 임상군 (Borrelia species).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "leptospira-species",
+      "entityKind": "clinical_group",
+      "pathogenType": "bacterium",
+      "scientificName": "Leptospira species",
+      "koreanName": "렙토스피라균",
+      "aliases": [
+        "Leptospira",
+        "leptospirosis"
+      ],
+      "category": "Spirochetes",
+      "classification": [
+        "thin spirochetes",
+        "zoonotic",
+        "water-associated"
+      ],
+      "clinicalTags": [
+        "leptospirosis",
+        "AKI",
+        "jaundice",
+        "pulmonary-hemorrhage"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "05 Clinical Groups/렙토스피라균 (Leptospira species).md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "carbapenem-resistant-acinetobacter-baumannii",
+      "entityKind": "resistance_phenotype",
+      "pathogenType": "bacterium",
+      "scientificName": "Carbapenem-resistant Acinetobacter baumannii",
+      "koreanName": "Carbapenem-resistant A. baumannii",
+      "aliases": [
+        "CRAB"
+      ],
+      "category": "내성 phenotype",
+      "classification": [
+        "G(-)",
+        "non-fermenter",
+        "carbapenem resistant",
+        "multidrug resistant"
+      ],
+      "clinicalTags": [
+        "CRAB",
+        "healthcare-associated",
+        "ventilator-associated",
+        "infection-control"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "06 Resistance Phenotypes/Carbapenem-resistant A. baumannii (Carbapenem-resistant Acinetobacter baumannii).md",
+      "sourceIds": [
+        "idsa-amr-guidance",
+        "eucast-expert-rules",
+        "who-bacterial-priority-2024",
+        "cdc-infection-control"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "difficult-to-treat-resistant-pseudomonas",
+      "entityKind": "resistance_phenotype",
+      "pathogenType": "bacterium",
+      "scientificName": "Difficult-to-treat resistant Pseudomonas aeruginosa",
+      "koreanName": "DTR Pseudomonas aeruginosa",
+      "aliases": [
+        "DTR P. aeruginosa",
+        "MDR Pseudomonas"
+      ],
+      "category": "내성 phenotype",
+      "classification": [
+        "G(-)",
+        "non-fermenter",
+        "difficult-to-treat resistance"
+      ],
+      "clinicalTags": [
+        "DTR-Pseudomonas",
+        "healthcare-associated",
+        "AMR",
+        "biofilm"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "06 Resistance Phenotypes/DTR Pseudomonas aeruginosa (Difficult-to-treat resistant Pseudomonas aeruginosa).md",
+      "sourceIds": [
+        "idsa-amr-guidance",
+        "eucast-expert-rules",
+        "who-bacterial-priority-2024",
+        "cdc-infection-control"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "enterovirus",
+      "entityKind": "clinical_group",
+      "pathogenType": "virus",
+      "scientificName": "Enterovirus species",
+      "koreanName": "엔테로바이러스",
+      "aliases": [
+        "enterovirus",
+        "coxsackievirus",
+        "echovirus",
+        "EV-D68"
+      ],
+      "category": "장관 바이러스",
+      "classification": [
+        "Picornaviridae",
+        "non-enveloped",
+        "positive-sense RNA"
+      ],
+      "clinicalTags": [
+        "aseptic-meningitis",
+        "hand-foot-mouth",
+        "myocarditis",
+        "respiratory"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/02 Enteric viruses/엔테로바이러스 (Enterovirus species).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "rotavirus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Rotavirus A",
+      "koreanName": "로타바이러스",
+      "aliases": [
+        "rotavirus"
+      ],
+      "category": "장관 바이러스",
+      "classification": [
+        "Reoviridae",
+        "non-enveloped",
+        "segmented double-stranded RNA"
+      ],
+      "clinicalTags": [
+        "gastroenteritis",
+        "infant",
+        "dehydration",
+        "vaccine-preventable"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/02 Enteric viruses/로타바이러스 (Rotavirus A).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable",
+        "cdc-foodborne"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "hepatitis-a-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Hepatitis A virus",
+      "koreanName": "A형간염바이러스",
+      "aliases": [
+        "HAV"
+      ],
+      "category": "간염 바이러스",
+      "classification": [
+        "Picornaviridae",
+        "non-enveloped",
+        "positive-sense RNA"
+      ],
+      "clinicalTags": [
+        "acute-hepatitis",
+        "fecal-oral",
+        "foodborne",
+        "vaccine-preventable"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/04 Hepatitis viruses/A형간염바이러스 (Hepatitis A virus).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-viral-hepatitis",
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "measles-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Measles morbillivirus",
+      "koreanName": "홍역바이러스",
+      "aliases": [
+        "measles virus",
+        "rubeola"
+      ],
+      "category": "발진 바이러스",
+      "classification": [
+        "Paramyxoviridae",
+        "enveloped",
+        "negative-sense RNA"
+      ],
+      "clinicalTags": [
+        "measles",
+        "airborne",
+        "rash",
+        "vaccine-preventable"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/07 Exanthem viruses/홍역바이러스 (Measles morbillivirus).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable",
+        "cdc-infection-control"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "mumps-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Mumps orthorubulavirus",
+      "koreanName": "유행성이하선염바이러스",
+      "aliases": [
+        "mumps virus"
+      ],
+      "category": "발진 바이러스",
+      "classification": [
+        "Paramyxoviridae",
+        "enveloped",
+        "negative-sense RNA"
+      ],
+      "clinicalTags": [
+        "mumps",
+        "parotitis",
+        "orchitis",
+        "vaccine-preventable"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/07 Exanthem viruses/유행성이하선염바이러스 (Mumps orthorubulavirus).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "rubella-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Rubella virus",
+      "koreanName": "풍진바이러스",
+      "aliases": [
+        "rubella virus",
+        "German measles"
+      ],
+      "category": "발진 바이러스",
+      "classification": [
+        "Matonaviridae",
+        "enveloped",
+        "positive-sense RNA"
+      ],
+      "clinicalTags": [
+        "rubella",
+        "congenital-rubella",
+        "pregnancy",
+        "vaccine-preventable"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/07 Exanthem viruses/풍진바이러스 (Rubella virus).md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "dermatophytes",
+      "entityKind": "clinical_group",
+      "pathogenType": "fungus",
+      "scientificName": "Dermatophytes",
+      "koreanName": "피부사상균",
+      "aliases": [
+        "dermatophytes",
+        "Trichophyton",
+        "Microsporum",
+        "Epidermophyton"
+      ],
+      "category": "Dermatophyte",
+      "classification": [
+        "keratinophilic fungi",
+        "septate hyphae",
+        "anthropophilic or zoophilic"
+      ],
+      "clinicalTags": [
+        "tinea",
+        "onychomycosis",
+        "skin",
+        "hair"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "05 Clinical Groups/피부사상균 (Dermatophytes).md",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "histoplasma-capsulatum",
+      "entityKind": "organism",
+      "pathogenType": "fungus",
+      "scientificName": "Histoplasma capsulatum",
+      "koreanName": "히스토플라스마",
+      "aliases": [
+        "H. capsulatum",
+        "Histoplasma"
+      ],
+      "category": "Dimorphic fungi",
+      "classification": [
+        "thermally dimorphic fungus",
+        "intracellular yeast in tissue",
+        "soil-associated"
+      ],
+      "clinicalTags": [
+        "histoplasmosis",
+        "travel",
+        "cave",
+        "immunocompromised"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "03 Fungi/04 Dimorphic fungi/히스토플라스마 (Histoplasma capsulatum).md",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "coccidioides-species",
+      "entityKind": "clinical_group",
+      "pathogenType": "fungus",
+      "scientificName": "Coccidioides species",
+      "koreanName": "콕시디오이데스",
+      "aliases": [
+        "Coccidioides",
+        "C. immitis",
+        "C. posadasii"
+      ],
+      "category": "Dimorphic fungi",
+      "classification": [
+        "dimorphic fungus",
+        "arthroconidia in environment",
+        "spherules in tissue"
+      ],
+      "clinicalTags": [
+        "coccidioidomycosis",
+        "desert",
+        "pneumonia",
+        "meningitis"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "05 Clinical Groups/콕시디오이데스 (Coccidioides species).md",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "cryptosporidium-species",
+      "entityKind": "clinical_group",
+      "pathogenType": "protozoan",
+      "scientificName": "Cryptosporidium species",
+      "koreanName": "와포자충",
+      "aliases": [
+        "Cryptosporidium",
+        "cryptosporidiosis"
+      ],
+      "category": "장관 원충",
+      "classification": [
+        "Apicomplexa",
+        "intracellular-extracytoplasmic protozoa",
+        "chlorine-tolerant oocyst"
+      ],
+      "clinicalTags": [
+        "watery-diarrhea",
+        "waterborne",
+        "HIV",
+        "daycare"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "05 Clinical Groups/와포자충 (Cryptosporidium species).md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "nih-hiv-guidelines",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "intestinal-helminths",
+      "entityKind": "clinical_group",
+      "pathogenType": "helminth",
+      "scientificName": "Major intestinal helminths",
+      "koreanName": "주요 장관 연충",
+      "aliases": [
+        "soil-transmitted helminths",
+        "Ascaris",
+        "hookworm",
+        "Trichuris",
+        "Enterobius"
+      ],
+      "category": "연충 임상군",
+      "classification": [
+        "nematodes and cestodes",
+        "intestinal parasites",
+        "heterogeneous group"
+      ],
+      "clinicalTags": [
+        "eosinophilia",
+        "anemia",
+        "obstruction",
+        "perianal-pruritus"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "05 Clinical Groups/주요 장관 연충 (Major intestinal helminths).md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "tissue-helminths",
+      "entityKind": "clinical_group",
+      "pathogenType": "helminth",
+      "scientificName": "Major tissue helminths",
+      "koreanName": "주요 조직 연충",
+      "aliases": [
+        "filariae",
+        "Schistosoma",
+        "Echinococcus",
+        "tissue nematodes"
+      ],
+      "category": "연충 임상군",
+      "classification": [
+        "nematodes, trematodes and cestodes",
+        "tissue-invasive parasites",
+        "heterogeneous group"
+      ],
+      "clinicalTags": [
+        "eosinophilia",
+        "travel",
+        "lymphatic",
+        "cystic-lesion"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "05 Clinical Groups/주요 조직 연충 (Major tissue helminths).md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    }
+  ]
+}

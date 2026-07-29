@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { AntibioticClinicalLinks } from "@/components/antibiotic-clinical-links";
+import { MicrobiologyBacklinks } from "@/components/microbiology-backlinks";
 import { ReviewSaveButton } from "@/components/review-save-button";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { RichTextLines } from "@/components/rich-text-lines";
@@ -253,6 +254,7 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
         </div>
       </section>
       {antibioticEntry && infectionSpecialty ? <AntibioticClinicalLinks antibioticId={antibioticEntry.id} pathways={infectionPathways} specialtySlug={infectionSpecialty.slug} /> : null}
+      <MicrobiologyBacklinks targetType="drug" targetId={note.slug} />
       <RelatedClinicalContent relations={relations} />
       <ParentPageFab href={parentHref} />
     </div>

@@ -101,6 +101,8 @@ export type AntibioticOrganism = {
   noteSourceFile?: string;
   noteSlug?: string;
   noteTitle?: string;
+  microbiologyId?: string;
+  microbiologySlug?: string;
 };
 
 export type AntibioticEntry = {
@@ -128,6 +130,72 @@ export type AntibioticSpectrumDataset = {
   organisms: AntibioticOrganism[];
   sources: Array<{ id: string; label: string; url: string }>;
   antibiotics: AntibioticEntry[];
+};
+
+export type MicrobiologyEntityKind = "organism" | "clinical_group" | "resistance_phenotype";
+export type MicrobiologyPathogenType = "bacterium" | "virus" | "fungus" | "protozoan" | "helminth" | "ectoparasite" | "prion" | "mixed";
+export type MicrobiologyReviewStatus = "draft" | "source_checked" | "clinically_reviewed" | "verified" | "needs_update";
+
+export type MicrobiologySource = {
+  id: string;
+  label: string;
+  organization: string;
+  url: string;
+  tier: "A" | "B" | "C";
+  year: string;
+  scope: string[];
+};
+
+export type MicrobiologyEntity = {
+  id: string;
+  slug: string;
+  title: string;
+  scientificName: string;
+  koreanName: string;
+  entityKind: MicrobiologyEntityKind;
+  pathogenType: MicrobiologyPathogenType;
+  category: string;
+  categoryPath: string[];
+  aliases: string[];
+  classification: string[];
+  clinicalTags: string[];
+  taxonomyIds: string[];
+  spectrumIds: string[];
+  relatedDiseaseIds: string[];
+  relatedAntibioticIds: string[];
+  relatedLabIds: string[];
+  sourceIds: string[];
+  reviewStatus: MicrobiologyReviewStatus;
+  reviewedAt: string;
+  sourcePath: string;
+  summary: string[];
+  sections: DiseaseSection[];
+};
+
+export type MicrobiologyDataset = {
+  schemaVersion: number;
+  reviewedAt: string;
+  disclaimer: string;
+  sources: MicrobiologySource[];
+  entities: MicrobiologyEntity[];
+};
+
+export type MicrobiologyRelation = {
+  sourceType: "microorganism" | "clinicalGroup" | "resistancePhenotype";
+  sourceId: string;
+  relation: string;
+  targetType: "microorganism" | "clinicalGroup" | "resistancePhenotype" | "disease" | "drug" | "lab";
+  targetId: string;
+  context: string[];
+  sourceIds: string[];
+  reviewStatus: MicrobiologyReviewStatus;
+  reviewedAt: string;
+};
+
+export type MicrobiologyRelationDataset = {
+  schemaVersion: number;
+  reviewedAt: string;
+  relations: MicrobiologyRelation[];
 };
 
 export type ContentMeta = {
