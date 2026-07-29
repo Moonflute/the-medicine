@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { ChangeEvent, useEffect, useMemo, useState } from "react";
-import { Bookmark, CircleAlert, Download, Play, RotateCcw, Upload } from "lucide-react";
-import { exportQbankData, importQbankData, loadQbankState, QBANK_CHANGE_EVENT } from "@/lib/qbank-store";
+import { useEffect, useMemo, useState } from "react";
+import { Bookmark, CircleAlert, Play, RotateCcw } from "lucide-react";
+import { loadQbankState, QBANK_CHANGE_EVENT } from "@/lib/qbank-store";
 import type { QbankSpecialtySummary } from "@/lib/types";
 
 export function QbankDashboardClient({ specialties }: { specialties: QbankSpecialtySummary[] }) {
@@ -30,27 +30,6 @@ export function QbankDashboardClient({ specialties }: { specialties: QbankSpecia
   const total = useMemo(() => specialties.reduce((sum, item) => sum + item.count, 0), [specialties]);
   const sessionHref = `/review/qbank/session?mode=${selectedSpecialties.length === 0 ? "all" : "specialty"}&specialty=${encodeURIComponent(selectedSpecialties.join(","))}&count=${count}`;
 
-  function downloadProgress() {
-    const blob = new Blob([JSON.stringify(exportQbankData(), null, 2)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const anchor = document.createElement("a");
-    anchor.href = url;
-    anchor.download = `medicine-qbank-${new Date().toISOString().slice(0, 10)}.json`;
-    anchor.click();
-    URL.revokeObjectURL(url);
-  }
-
-  async function restoreProgress(event: ChangeEvent<HTMLInputElement>) {
-    const file = event.target.files?.[0];
-    event.target.value = "";
-    if (!file) return;
-    try {
-      importQbankData(JSON.parse(await file.text()) as unknown);
-      window.alert("Q-bank 학습 기록을 복원했습니다.");
-    } catch (reason) {
-      window.alert(reason instanceof Error ? reason.message : "Q-bank 기록을 복원하지 못했습니다.");
-    }
-  }
 
   return (
     <div className="space-y-6">
@@ -85,13 +64,6 @@ export function QbankDashboardClient({ specialties }: { specialties: QbankSpecia
         </Link>
       </section>
 
-      <section className="surface flex flex-wrap items-center justify-between gap-4 p-5">
-        <div><h2 className="font-semibold text-slate-950">학습 기록 백업</h2><p className="mt-1 text-sm text-slate-600">이 브라우저에 저장된 풀이·오답·북마크 기록을 JSON으로 옮길 수 있습니다.</p></div>
-        <div className="flex flex-wrap gap-2">
-          <button type="button" onClick={downloadProgress} className="secondary-action"><Download className="h-4 w-4" />내보내기</button>
-          <label className="secondary-action cursor-pointer"><Upload className="h-4 w-4" />복원하기<input type="file" accept="application/json,.json" onChange={restoreProgress} className="sr-only" /></label>
-        </div>
-      </section>
     </div>
   );
 }

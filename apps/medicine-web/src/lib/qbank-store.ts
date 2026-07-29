@@ -143,24 +143,6 @@ export function saveQbankSession(result: QbankSessionResult) {
   saveQbankState(state);
 }
 
-export function exportQbankData() {
-  return { exportedAt: new Date().toISOString(), ...loadQbankState() };
-}
-
-export function importQbankData(value: unknown) {
-  if (!value || typeof value !== "object") throw new Error("올바른 Q-bank JSON 객체가 아닙니다.");
-  const candidate = value as Partial<QbankState>;
-  if (candidate.version !== 1) throw new Error("지원하지 않는 Q-bank 데이터 버전입니다.");
-  const state: QbankState = {
-    version: 1,
-    progress: candidate.progress && typeof candidate.progress === "object" ? candidate.progress : {},
-    wrongIds: Array.isArray(candidate.wrongIds) ? candidate.wrongIds.filter((item): item is string => typeof item === "string") : [],
-    bookmarkIds: Array.isArray(candidate.bookmarkIds) ? candidate.bookmarkIds.filter((item): item is string => typeof item === "string") : [],
-    sessions: Array.isArray(candidate.sessions) ? candidate.sessions.slice(0, 100) : [],
-    dailyActivity: loadDailyActivity(candidate.dailyActivity, Array.isArray(candidate.sessions) ? candidate.sessions.slice(0, 100) : []),
-  };
-  saveQbankState(state);
-}
 
 export function replaceQbankSyncData(state: QbankState) {
   if (typeof window === "undefined") return;

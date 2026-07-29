@@ -218,26 +218,6 @@ export function trackRecentItem(item: ReviewCatalogItem) {
   emitChange();
 }
 
-export function exportReviewData() {
-  return {
-    version: 2,
-    exportedAt: new Date().toISOString(),
-    items: loadReviewItems(),
-    recentItems: loadRecentItems(),
-    coverage: loadReviewCoverage(),
-  };
-}
-
-export function importReviewData(value: unknown) {
-  if (!value || typeof value !== "object") throw new Error("올바른 JSON 객체가 아닙니다.");
-  const data = value as { version?: unknown; items?: unknown; recentItems?: unknown; coverage?: unknown };
-  if (data.version !== 2 || !Array.isArray(data.items)) throw new Error("지원하지 않는 복습 데이터 형식입니다.");
-  const items = data.items.filter((item): item is ReviewItem => Boolean(item && typeof item === "object" && "id" in item && "type" in item && isReviewDomain((item as { type?: unknown }).type)));
-  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
-  if (Array.isArray(data.recentItems)) window.localStorage.setItem(RECENT_KEY, JSON.stringify(data.recentItems));
-  if (data.coverage && typeof data.coverage === "object") window.localStorage.setItem(COVERAGE_KEY, JSON.stringify(data.coverage));
-  emitChange();
-}
 
 export function replaceReviewSyncData(items: ReviewItem[], recentItems: RecentReviewItem[], coverage: Record<string, ReviewCoverageItem>) {
   if (typeof window === "undefined") return;

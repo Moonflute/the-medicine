@@ -1,12 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState } from "react";
-import { Download, Eye, EyeOff, Upload } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
+import { Eye, EyeOff } from "lucide-react";
 import { LearningActivityDashboard } from "@/components/learning-activity-dashboard";
 import {
-  exportReviewData,
-  importReviewData,
   loadRecentItems,
   loadReviewItems,
   rateReviewItem,
@@ -39,7 +37,6 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
   const [tab, setTab] = useState<Tab>("activity");
   const [revealed, setRevealed] = useState<Set<string>>(new Set());
   const [message, setMessage] = useState("");
-  const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     const refresh = () => {
@@ -74,28 +71,6 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
     setMessage(nowSaved ? `${item.title}: 복습 목록에 저장했습니다.` : `${item.title}: 복습 목록에서 제거했습니다.`);
   }
 
-  function downloadExport() {
-    const blob = new Blob([JSON.stringify(exportReviewData(), null, 2)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const anchor = document.createElement("a");
-    anchor.href = url;
-    anchor.download = `the-medicine-review-${new Date().toISOString().slice(0, 10)}.json`;
-    anchor.click();
-    URL.revokeObjectURL(url);
-    setMessage("복습 데이터를 내보냈습니다.");
-  }
-
-  async function importFile(file?: File) {
-    if (!file) return;
-    try {
-      importReviewData(JSON.parse(await file.text()));
-      setMessage("복습 데이터를 가져왔습니다.");
-    } catch (error) {
-      setMessage(error instanceof Error ? error.message : "가져오기에 실패했습니다.");
-    } finally {
-      if (inputRef.current) inputRef.current.value = "";
-    }
-  }
 
   return (
     <div className="space-y-5">
@@ -110,11 +85,6 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
               {label}
             </button>
           ))}
-        </div>
-        <div className="flex gap-2">
-          <button type="button" onClick={downloadExport} className="secondary-action"><Download className="h-4 w-4" />내보내기</button>
-          <button type="button" onClick={() => inputRef.current?.click()} className="secondary-action"><Upload className="h-4 w-4" />가져오기</button>
-          <input ref={inputRef} type="file" accept="application/json" className="hidden" onChange={(event) => void importFile(event.target.files?.[0])} />
         </div>
       </section>
 
