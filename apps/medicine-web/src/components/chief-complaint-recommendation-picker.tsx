@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useMemo, useState } from "react";
 import type { ChiefComplaintRecommendation } from "@/lib/types";
@@ -67,7 +67,7 @@ export function ChiefComplaintRecommendationPicker({
               type="button"
               onClick={() => toggleSymptom(symptom)}
               className={[
-                "rounded-full border px-1.5 py-0.5 text-[10px] font-medium leading-none transition",
+                "rounded-full border px-1.5 py-0.5 text-[9px] font-medium leading-none transition",
                 selected
                   ? "border-teal-700 bg-teal-700 text-white shadow-sm"
                   : "border-slate-200 bg-white text-slate-700 hover:border-teal-400 hover:text-teal-800",
