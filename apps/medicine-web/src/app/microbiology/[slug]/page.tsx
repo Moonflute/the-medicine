@@ -1,9 +1,11 @@
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, BookOpenCheck, FlaskConical, Pill } from "lucide-react";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { getInfectionPathways } from "@/lib/infection-db";
+import { microbiologyVisuals } from "@/lib/microbiology-visuals";
 import {
   getAntibioticSpectrum,
   getDiseaseBySlug,
@@ -40,6 +42,7 @@ export default async function MicrobiologyDetailPage(props: { params: Promise<{ 
   const { slug } = await props.params;
   const entity = getMicrobiologyEntityBySlug(slug);
   if (!entity) notFound();
+  const visual = microbiologyVisuals[entity.id];
 
   const dataset = getMicrobiologyDataset();
   const spectrum = getAntibioticSpectrum();
@@ -100,7 +103,19 @@ export default async function MicrobiologyDetailPage(props: { params: Promise<{ 
         <div className="mt-4 flex flex-wrap gap-2">
           {entity.classification.map((item) => <span key={item} className="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-600">{item}</span>)}
         </div>
-        <RichTextLines lines={entity.summary} className="mt-5 space-y-2 text-sm leading-7 text-slate-700" />
+        <div className={visual ? "mt-5 grid gap-5 lg:grid-cols-[minmax(0,1fr)_250px] lg:items-start" : "mt-5"}>
+          <RichTextLines lines={entity.summary} className="space-y-2 text-sm leading-7 text-slate-700" />
+          {visual ? (
+            <figure className="overflow-hidden rounded-xl border border-slate-200 bg-slate-50">
+              <Image src={visual.asset} alt={`${entity.title} ${visual.modality} representative finding`} width={640} height={640} unoptimized className="aspect-square w-full object-cover" />
+              <figcaption className="space-y-1 border-t border-slate-200 bg-white px-3 py-2.5">
+                <p className="text-xs font-bold text-slate-800">대표 소견 · {visual.modality}</p>
+                <p className="text-[11px] leading-4 text-slate-600">{visual.caption}</p>
+                <p className="text-[10px] leading-4 text-slate-400">AI 생성 대표 소견 · 실제 검체 판독을 대체하지 않습니다.</p>
+              </figcaption>
+            </figure>
+          ) : null}
+        </div>
       </header>
 
       <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_300px]">
