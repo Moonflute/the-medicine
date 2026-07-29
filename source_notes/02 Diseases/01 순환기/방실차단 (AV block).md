@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[순환기]]
 
@@ -45,10 +46,11 @@ reviewed_at: "2026-07-16"
 - **추가 검사**: 24시간 홀터 모니터링, 심초음파(구조적 심질환 배제).
 
 ## 5. 치료
-- **가역적 원인 제거**: 약물 중단, 전해질 교정, 허혈성 심질환 치료 등.
-- **영구 심박동기(permanent pacemaker)**: 3도 방실차단, 2도 Mobitz type II, 고도 방실차단(high-grade AVB) 및 유증상 환자에서 적응증에 따라 삽입.
-- **임시 심박동기(temporary pacemaker)**: 혈역학적으로 불안정한 급성기 환자에서 영구 심박동기 삽입 전까지 고려.
-- **약물치료**: 아트로핀(Atropine) 등은 supra-Hisian 차단 시 일시적 고려 가능.
+
+- **가역적 원인 교정**: 전도 장애를 유발하는 약물(베타차단제, 칼슘채널차단제 등) 중단, 전해질 불균형 교정 및 기저 허혈성 심질환을 우선적으로 관리한다.
+- **혈역학적 불안정 시 대응**: 증상이 동반된 서맥이나 혈역학적 불안정 시 아트로핀 투여를 고려하며, 반응이 없거나 고도 차단 시 임시 심박동기 삽입을 시행한다.
+- **영구 심박동기 적응증**: 3도 방실차단, 2도 Mobitz type II, 고도 방실차단 및 증상이 있는 환자에서 영구 심박동기 삽입을 결정한다.
+- **추적 관찰 및 예방**: 무증상 1도 또는 2도 Mobitz type I 환자는 정기적인 심전도 및 홀터 모니터링을 통해 진행 여부를 추적 관찰한다.
 
 ## 6. 예후 및 합병증
 - **예후**: Mobitz type II 및 3도 방실차단은 심정지나 실신 위험이 높아 예후가 불량할 수 있음.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - cervicitis
 - 자궁경부염
@@ -15,14 +16,14 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
 ## 1. 개요
 - **정의**: 자궁경부의 원주상피에 발생하는 염증(endocervicitis). 급성(주로 감염성)과 만성(주로 비감염성)으로 분류.
-- **원인**: 
+- **원인**:
   - 감염성: N. gonorrhoeae, C. trachomatis, M. genitalium, HSV, Trichomonas vaginalis 등.
   - 비감염성: 기계적 자극(기구, 피임기구), 화학적 자극(세정제, 살정제), 전신 염증성 질환.
 - **기전**:
@@ -45,12 +46,12 @@ reviewed_at: "2026-07-16"
 - 임상적 진단: 자궁경부의 점액농성 분비물 또는 접촉 시 출혈 확인.
 - 원인균 확인: NAAT를 통한 주요 성매개 감염균 선별.
 
-## 5. 치료 (Treatment)
-- **경험적 치료**: 고위험군(25세 미만, 새로운 성 파트너 등)은 검사 결과 전이라도 경험적 항생제 투여 고려.
-- **N. gonorrhoeae**: Ceftriaxone 500mg IM 1회 투여.
-- **C. trachomatis**: Doxycycline 100mg BID 7일 투여.
-- **M. genitalium**: 내성 고려하여 Doxycycline 후 Moxifloxacin 등 단계적 치료 고려.
-- **파트너 치료**: 성 파트너도 함께 치료하며, 완치 시까지 성관계 금지.
+## 5. 치료
+
+- **경험적 치료**: 고위험군(25세 미만, 새로운 성 파트너 등)은 검사 결과 확인 전이라도 원인균을 고려한 경험적 항생제 투여를 우선 고려함.
+- **파트너 관리**: 성 파트너의 동시 치료를 원칙으로 하며, 치료 완료 및 증상 소실 시까지 성관계를 금지함.
+- **추적 관찰**: 재감염 방지를 위해 치료 종료 후 약 3개월 시점에 재검사를 권장함.
+- **합병증 예방**: 골반염(PID) 등 상행 감염으로의 진행 여부를 모니터링하고, 증상 지속 시 내성균 가능성을 고려하여 상급 기관 의뢰를 검토함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 골반염(PID), 자궁내막염, 불임, 만성 골반통.

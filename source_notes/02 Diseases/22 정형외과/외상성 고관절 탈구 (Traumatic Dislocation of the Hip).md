@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 외상성 고관절 탈구
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[정형외과]]
 
@@ -36,10 +37,10 @@ reviewed_at: "2026-07-16"
 - 임상적 신체 검진과 영상 의학적 소견(X-ray, CT)을 종합하여 진단.
 - 신경학적 검사(특히 좌골 신경)를 반드시 시행.
 
-## 5. 치료 (Treatment)
-- 응급 도수 정복술(Closed reduction): 가능한 한 빨리 시행하여 대퇴골두 무혈성 괴사 위험을 줄임.
-- 정복 후 CT를 통해 정복 상태 및 골절 여부 재평가.
-- 불안정하거나 골절이 동반된 경우 개방적 정복술 및 내고정술 시행.
+## 5. 치료
+- 응급실에서 진통·진정 후 가능한 한 빨리 폐쇄 정복술을 시행하고, 정복 직후 및 24 시간 이내에 CT로 정복 상태와 동반 골절 여부를 확인한다.
+- 정복이 불완전하거나 골절·불안정성이 확인되면 정형외과 전문의에게 즉시 의뢰하여 개방 정복·내고정술을 계획한다.
+- 정복 후 최소 6주간 골반·고관절 보조기 착용 및 체중부하 제한을 유지하고, 정기적인 X‑ray·MRI(AV
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 합병증: 좌골 신경 손상, 대퇴골두 골절, 비구 골절.

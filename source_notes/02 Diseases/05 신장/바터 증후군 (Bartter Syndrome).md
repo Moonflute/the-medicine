@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신장]]
 
@@ -53,11 +54,12 @@ reviewed_at: "2026-07-16"
 - 24시간 소변 칼슘 배설량 측정 (길텔만 증후군과 감별).
 
 
-## 5. 치료 (Treatment)
-- NSAIDs (Indomethacin, Ibuprofen 등): 프로스타글란딘 합성 억제.
-- 전해질 보충: NaCl, KCl, 마그네슘 보충.
-- 영양 공급 및 성장 발달 모니터링.
-
+## 5. 치료
+- NSAIDs 사용으로 프로스타글란딘 억제 → 전해질 손실 감소 (부작용 감시 포함).
+- NaCl·KCl·마그네슘 등 전해질 보충을 통해 저칼륨혈증·대사성 알칼리증 교정.
+- 충분한 수분 섭취와 저염식 관리로 탈수와 고칼슘뇨 예방.
+- 성장 및 신장 초음파 추적 검사를 정기적으로 시행하여 성장 지연·신석회화 조기 발견.
+- 소아신장내과 전문의와 협진 및 필요 시 유전 상담을 통한 장기 관리 계획 수립.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 치료가 중요하며, 성장 지연 및 신석회화 등의 합병증 관리 필요.

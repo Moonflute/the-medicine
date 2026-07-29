@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -55,11 +56,12 @@ reviewed_at: "2026-07-16"
   결핵성 복막염, 암성 복막염, 신증후군(nephrotic syndrome) 등 다른 원인의 복수와 감별 필요.
   신증후군 복수는 누출액이지만 SAAG < 1.1 g/dL.
 
-## 5. 치료 (Treatment)
-- **기본 치료**: 저염식(하루 나트륨 2 g 이하), 이뇨제(diuretics) 투여.
-- **이뇨제**: 스피로노락톤(spironolactone), 푸로세미드(furosemide) 병용. 스피로노락톤을 먼저 시작.
-- **복수 천자**: 이뇨제 반응이 없거나 복수가 심한 경우 치료적 복수 천자 시행.
-- **기타**: 재발성 복수, 이뇨제 불응성 복수에서는 경경정맥 간내 문맥-전신 단락술(TIPS) 고려.
+## 5. 치료
+- 저염식(하루 나트륨 2 g 이하)과 스피로노락톤·푸로세미드 병용 이뇨제로 복수량 조절
+- 이뇨제 반응이 없거나 복수가 급격히 증가할 경우 치료적 복수 천자 시행, 천후 알부민 보충 고려
+- 전해질 및 신장기능을 2–3 일 간격으로 모니터링하고, 전해질 이상 시 용량 조정 또는 일시 중단
+- 이뇨제 불응성·재발성 복수는 TIPS 시행을 위한 간·혈관 전문의 의뢰 필요
+- 치료 반응 및 합병증(예: SBP) 확인을 위해 1‑2 주 간격 초음파·임상 평가와 정기 추적 검진 계획 수립
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

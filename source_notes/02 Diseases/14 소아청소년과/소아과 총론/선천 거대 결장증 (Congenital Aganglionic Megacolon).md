@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - Hirschsprung disease
 - 선천 거대 결장증
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -40,10 +41,13 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 * 임상 증상, 영상 검사(조영술), 조직 검사(신경절 세포 부재 및 신경 섬유 비대 확인)를 종합하여 진단
 
-## 5. 치료 (Treatment)
-* **수술**: 근치적 수술(pull-through procedure)이 원칙 (Swenson, Soave, Duhamel 술식 등)
-* **보존적 치료**: 수술 전 감압을 위한 직장 세척(rectal irrigation) 시행, HAEC 예방 및 관리
-* **단계적 수술**: 상태가 위중하거나 장 확장 정도가 심한 경우 일시적 장루 조성술 후 근치적 수술 시행
+## 5. 치료
+
+* **근치적 수술**: 무신경절 부위를 절제하고 정상 신경절이 있는 장을 항문에 연결하는 술식(Pull-through procedure)을 시행함.
+* **수술 전 처치**: 장 폐색 및 복부 팽만 완화를 위해 직장 세척(rectal irrigation)을 시행하여 감압함.
+* **장염 관리**: Hirschsprung-associated enterocolitis(HAEC) 의심 시 즉각적인 수액 요법, 항생제 투여 및 장 감압을 시행함.
+* **단계적 수술**: 전신 상태가 불량하거나 장 확장 및 천공 위험이 높은 경우 일시적 장루 조성술을 우선 시행함.
+* **추적 관찰**: 수술 후 변실금, 만성 변비, 장염 재발 여부를 장기적으로 모니터링함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 수술 후 예후는 대체로 양호하나, 장기적인 배변 기능 추적 관찰 필요

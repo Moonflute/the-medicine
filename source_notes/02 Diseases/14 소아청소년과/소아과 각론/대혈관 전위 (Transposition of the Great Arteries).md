@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - TGA
 - 대혈관 전위
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -37,10 +38,12 @@ reviewed_at: "2026-07-16"
 * 임상 증상(청색증) 및 흉부 X-ray 소견
 * 심장 초음파를 통한 해부학적 확진
 
-## 5. 치료 (Treatment)
-* **초기 처치**: PGE1 투여로 동맥관 개존 유지
-* **중재적 시술**: 풍선 심방 중격 절개술 (Balloon atrial septostomy)로 혈액 혼합 촉진
-* **수술**: 대혈관 재정렬술 (Arterial switch operation)이 근본 치료
+## 5. 치료
+
+* **응급 안정화**: PGE1 정맥 주입을 통해 동맥관 개존을 유지하여 전신 혈류를 확보함.
+* **혈류 개선**: 산소 포화도 유지를 위해 풍선 심방 중격 절개술(BAS)을 시행하여 심방 간 혈액 혼합을 촉진함.
+* **근본적 교정**: 생후 2주 이내에 대혈관 재정렬술(Arterial switch operation)을 시행하여 해부학적 순환을 정상화함.
+* **장기 추적**: 수술 후 관상동맥 협착, 심실 기능 저하, 부정맥 발생 여부를 정기적인 심장 초음파 및 심전도로 모니터링함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 수술적 교정이 필수적

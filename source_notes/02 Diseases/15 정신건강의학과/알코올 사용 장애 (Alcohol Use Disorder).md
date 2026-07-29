@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 알코올 사용 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -31,7 +32,7 @@ relation_to_parent: subtype
 
 ## 3. 검사
 - 선별 검사: AUDIT, CAGE-AID 등 표준화된 설문지 활용.
-- 생물학적 검사: 
+- 생물학적 검사:
   - 혈액 검사: 간 기능 검사(AST/ALT 2:1, GGT 상승), 빈혈 수치(MCV 상승).
   - 알코올 노출 확인: 혈중 알코올 농도, Ethyl glucuronide(최근 5일), PeTH(최근 3주).
 
@@ -40,12 +41,12 @@ relation_to_parent: subtype
 - 감별 진단: 우울증, 불안 장애, PTSD, 양극성 장애 등 동반 정신질환 감별 필수.
 
 ## 5. 치료
-- 원칙: 환자와의 공유 의사결정을 통한 치료 계획 수립(금주 또는 섭취 감소).
-- 약물 치료:
-  - Naltrexone: 보상 기전 억제 및 갈망 감소 (1차 치료제).
-  - Acamprosate: GABA계 조절을 통한 금주 유지 (1차 치료제).
-  - Disulfiram: 알코올 대사 억제를 통한 혐오 조건화 (음주 시 구토, 빈맥 유발).
-- 행동 치료: 동기 강화 상담(Motivational Interviewing), 인지행동치료, 자조 모임(AA 등).
+
+- **치료 목표 설정**: 환자의 준비도에 따라 완전한 금주 또는 단계적 절주를 목표로 공유 의사결정을 시행함.
+- **약물 안전성 관리**: Disulfiram 처방 시 알코올 함유 제품(구강청결제, 소스 등)에 의한 혐오 반응 가능성을 교육하고, 간독성 여부를 정기적으로 모니터링함.
+- **금단 증상 평가**: 급격한 단주 시 발생할 수 있는 알코올 금단 섬망 등 중증 금단 증상을 평가하고, 필요 시 입원 치료 및 벤조디아제핀 등 약물적 개입을 고려함.
+- **다학제적 재발 방지**: 인지행동치료 및 자조 모임(AA) 연계를 통해 심리적 지지 체계를 구축하고, 동반된 우울·불안 등 공존 질환을 병행 치료함.
+- **장기 추적 관찰**: 재발이 잦은 질환임을 고려하여 정기적인 외래 방문을 유도하고, 간 기능 및 영양 상태(비타민 B1 등)를 지속적으로 점검함.
 
 ## 6. 예후 및 합병증
 - 예후: 만성적이고 재발이 잦은 질환으로, 장기적인 추적 관찰과 다학제적 지원이 필수적임.

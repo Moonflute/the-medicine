@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - SAH
 - 지주막하 출혈
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 
 관련분과:
 - 응급의학
@@ -47,10 +48,11 @@ reviewed_at: "2026-07-16"
 - 임상 증상과 영상 검사(CT/CTA)를 통해 확진.
   뇌동맥류 위치 및 크기 파악이 중요.
 
-## 5. 치료 (Treatment)
-- **초기 관리**: 기도 확보, 혈압 조절(SBP < 160 mmHg), 통증 조절.
-- **수술적/중재적 치료**: 동맥류 결찰술(clipping) 또는 코일 색전술(coiling)을 통한 재출혈 방지.
-- **합병증 관리**: 뇌혈관 연축 예방(CCB 사용), 수두증(배액술), 발작 예방.
+## 5. 치료
+- 초기 응급 관리: 기도 확보, 혈압 목표 SBP < 160 mmHg 유지, 통증 및 구토 억제.
+- 신경외과·신경과 협진: 동맥류 클리핑 또는 코일 색전술을 위한 조기 전문의 의뢰.
+- 합병증 예방·감시: 뇌혈관 연축 위험 시 칼슘 차단제 사용, 수두증 징후 시 배액술 고려, 발작 위험 시 항경련제 예방 투여.
+- 중환자실에서 지속적인 신경학적 평가
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 재출혈, 지연성 뇌 허혈(DCI), 수두증, 발작 등이 주요 합병증이며 높은 사망률과 이환율을 보임.

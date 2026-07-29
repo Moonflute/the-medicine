@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 활성기 정지 장애
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[산과]]
 
@@ -52,12 +53,13 @@ reviewed_at: "2026-07-16"
 - 아두 골반 불균형(CPD) 배제 및 자궁 수축력 평가
 
 
-## 5. 치료 (Treatment)
-- 자궁 수축 부전 시: 옥시토신(Oxytocin) 투여 고려
-- 아두 골반 불균형(CPD) 확인 시: 제왕절개술 시행
-- 태아 가사 동반 시: 즉각적인 분만(제왕절개술 등) 고려
-- 산모 지지 및 수액 요법 등 보존적 치료 병행
+## 5. 치료
 
+- 자궁 수축 부전이 확인된 경우 옥시토신 투여를 통한 진통 촉진 고려
+- 아두 골반 불균형(CPD)이 의심되거나 진단되는 경우 즉각적인 제왕절개술 시행
+- 태아 심박동 이상 등 태아 가사 징후 발생 시 신속한 분만 결정
+- 산모의 탈수 및 전해질 불균형 교정을 위한 수액 요법 및 지지적 간호 제공
+- 분만 진행 상황에 대한 지속적인 내진 및 태아 심박동 감시를 통한 경과 관찰
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 산모: 산후 출혈, 감염, 자궁 파열 위험 증가

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -49,10 +50,10 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 임상 증상, 동물 접촉력 등 역학적 연관성, 혈청학적 검사(IFA) 또는 PCR 결과를 종합하여 진단한다.
 
-## 5. 치료 (Treatment)
-- 급성 큐열: 독시사이클린(doxycycline) 투여(통상 14일 이상)
-- 만성 큐열: 독시사이클린과 하이드록시클로로퀸(hydroxychloroquine) 병용 요법(최소 18개월 이상의 장기 치료 필요)
-- 주의사항: 하이드록시클로로퀸 사용 시 심전도(QTc 간격) 모니터링 필요
+## 5. 치료
+- 급성 큐열은 독시사이클린을 2주 이상 투여하고, 치료 시작 후 임상 호전 여부를 확인한다.
+- 만성 큐열(심내막염 등)에서는 독시사이클린과 하이드록시클로로퀸을 병용하여 최소 18개월 이상 지속한다.
+- 하이드록시클로로퀸 사용 시 QTc 연장 위험이 있으므로 치료 전·중 ECG 확인 및 정기적인 심전도 모니터
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 급성 큐열의 치명률은 낮으나, 만성 심내막염으로 진행 시 적절한 항생제 치료 없이는 치명적일 수 있다.

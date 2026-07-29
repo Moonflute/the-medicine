@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 자발적두개내압저하증
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신경과-신경외과]]
 
@@ -33,9 +34,12 @@ reviewed_at: "2026-07-16"
 - 임상적 의심 및 MRI 소견을 종합하여 진단
 - 요추 천자는 진단적 가치가 낮으며, 개방 압력이 정상인 경우도 많음
 
-## 5. 치료 (Treatment)
-- **보존적 치료**: 침상 안정, 충분한 수분 섭취, 카페인 보충, 복대 착용
-- **침습적 치료**: 보존적 치료 실패 시 경막외 혈액 봉합술(Epidural Blood Patch) 시행
+## 5. 치료
+- 보존적 치료: 침상 안정, 충분한 수분 섭취, 카페인 보충, 복대 착용 등으로 증상 완화 시도
+- 경막외 혈액 봉합술(Epidural Blood Patch)은 보존적 치료 48‑72시간 내 효과가 없을 경우 시행, 시술 전 출혈 위험 평가 필요
+- 증상이 지속하거나 신경학적 악화가 나타날 경우 신경외과·신경과 협진을 통한 추가 영상(CT myelography) 및 외과적 복구 고려
+- 치료 후 1‑2주 내에 두통 강도와 신경학적 상태를 재평가하고, 필요 시 MRI로 재검사하여 재발 여부 확인
+- 재발 방지를 위해 무거운 물건 들기, 과도한 체위 변화 등 CSF 압력 변동을 유발할 수 있는 활동을 제한하고, 충분한 수분 섭취를 지속
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 2주 이내 자연 호전되나, 일부 재발 가능

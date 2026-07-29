@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 ## 1. 개요
 - 정의: 조직에 결합하는 자가항체와 면역복합체가 조직 및 세포 손상을 일으키는 전신성 자가면역질환.
@@ -60,13 +61,10 @@ reviewed_at: "2026-07-16"
 - 임상 기준: 혈전증(동맥, 정맥, 소혈관 1회 이상), 태아 손실(10주 이후 태아 사망 1회 이상, 10주 이전 3회 이상 연속 자연유산, 34주 이전 중증 전자간증/자간증으로 인한 조산 1회 이상).
 
 ## 5. 치료
-- 일반 치료: Hydroxychloroquine(HCQ, 1차 치료제, 망막독성 주의), 자외선 차단제, 국소 스테로이드, 칼시뉴린 억제제, NSAID.
-- 적극적 면역억제: 고용량 전신 스테로이드, Cyclophosphamide, Mycophenolate mofetil(루푸스 신염 필수), Cyclosporine, Tacrolimus, Methotrexate, Azathioprine, Rituximab, Belimumab.
-- 항인지질증후군 치료:
-- 무증상 항체 양성: 저용량 아스피린 예방적 투여.
-- 혈전증 과거력: 와파린(단독 또는 아스피린 병용, 동맥혈전증 시 높은 INR 타겟).
-- 임신 시도/임신 중: LMWH + 아스피린 병용(와파린은 임신 중 금기).
-- Catastrophic APS: 고용량 스테로이드 + 헤파린 + 혈장교환술/IVIG.
+- Hydroxychloroquine을 지속 복용하고, 6개월마다 안과 검진으로 망막 독성을 모니터링한다.
+- 증상 악화 시 전신 스테로이드와 면역억제제(예: Mycophenolate, Cyclophosphamide 등) 조정; 신장·신경계 침범 시 신장·신경과 전문의에 의뢰한다.
+- 항인지질항체 양성 무증상자는 저용량 아스피린으로 혈전 예방, 혈전증 병력 시 와파린·LMWH 등 항응고제 치료와 혈액학과 협진을 시행한다.
+- 자외선 차단제 사용 및 피부 관리와 함께
 
 ## 6. 예후 및 합병증
 - 경과: 만성 재발성.

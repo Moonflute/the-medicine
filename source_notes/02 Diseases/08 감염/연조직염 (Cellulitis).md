@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -10,8 +11,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -40,13 +41,12 @@ reviewed_at: "2026-07-16"
 - 특징적인 임상 양상으로 진단한다.
   접촉성 피부염이나 정맥 울혈성 피부염 등과 감별이 필요하다.
 
-## 5. 치료 (Treatment)
-- **원칙**:
-  항생제 치료가 핵심, 농양 등 합병증이 있다면 배농이 필요하다.
-  환부 거상 및 고정이 도움이 된다.
-- **비화농성(Nonpurulent) 연조직염**: 사슬알균 및 황색포도알균을 커버하는 경험적 항생제(Cephalexin, Dicloxacillin 등)를 사용한다.
-- **화농성(Purulent) 또는 MRSA 의심 시**: MRSA를 고려하여 Sulfamethoxazole/Trimethoprim, Doxycycline, Clindamycin 등을 사용하며, 중증 시 Vancomycin 등을 고려한다.
-- **재발 방지**: 기저 질환(무좀, 부종, 정맥 부전 등)을 교정한다.
+## 5. 치료
+- 경험적 항생제 치료를 즉시 시작하고, 비화농성·화농성 여부에 따라 항생제 스펙트럼을 조정한다.
+- 환부를 거상·고정하고, 청결을 유지하며, 농양이 있으면 적절히 배농한다.
+- 24–48시간 내에 통증·부종·열감이 호전되지 않거나 전신 증상이 악화되면 입원·외과·감염내과 협진을 고려한다.
+- 치료 종료 전후에 기저 질환(당뇨, 정맥 부전, 피부 손상 등)을 점검하고, 재발 방지를 위한 관리(보습, 손상 예방, 정맥 압박 등)를 시행한다.
+- 항생제 치료 시작 후 3~5일 이내에 추적 검진을 실시
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 예후는 우수하다.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -10,8 +11,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신장]]
 
@@ -46,11 +47,12 @@ reviewed_at: "2026-07-16"
 - 스피로노락톤(Spironolactone)에 반응하지 않음.
 
 
-## 5. 치료 (Treatment)
-- 약물 요법: ENaC를 직접 차단하는 아밀로라이드(Amiloride) 또는 트리암테렌(Triamterene) 사용.
-- 주의사항: 스피로노락톤은 효과가 없음.
-- 생활 습관: 저염식(염분 제한).
-
+## 5. 치료
+- ENaC 차단제(아밀로라이드 또는 트리암테렌) 사용 시 혈압·전해질을 정기적으로 모니터링한다.
+- 저염식(식이 나트륨 섭취 제한) 유지와 함께 저칼륨혈증·대사성 알칼리증 예방을 위해 전해질 검사를 월 1회 시행한다.
+- 약물 부작용(예: 고칼륨혈증, 신기능 악화) 발생 시 즉시 약물 중단하고 신장·내분비 전문의에게 의뢰한다.
+- 치료 반응이 미흡하거나 유전적 의심이 지속될 경우 유전 상담 및 가족 선별 검사를 권고한다.
+- 고혈압 조절이 불안정하거나 합병증 위험이 높아질 경우 심혈관 전문의와 협진하여 장기 추적 관리를 계획한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 적절한 약물 치료 시 고혈압 및 전해질 불균형 조절 가능.

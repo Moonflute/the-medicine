@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -38,10 +39,11 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 특징적인 가피, 임상 증상, 혈청학적 검사 또는 PCR 양성으로 진단한다.
 
-## 5. 치료 (Treatment)
-- 1차 치료제: 독시사이클린 (doxycycline)
-- 대체 치료제: 아지스로마이신 (azithromycin) 등
-- 임상적 의심이 강할 경우 검사 결과 확인 전이라도 조기에 경험적 항생제 치료를 시작하는 것이 중요하다.
+## 5. 치료
+- 임상적 의심이 있을 경우 검사 결과를 기다리지 말고 즉시 독시사이클린을 시작한다.
+- 독시사이클린 사용이 제한되는 경우(예: 임신, 알레르기) 아지스로마이신으로 교체한다.
+- 치료 시작 후 48–72시간 내에 열이 지속되거나 증상이 악화되면 입원 및 중증 합병증 평가를 위해 감염내과·중환자실로 의뢰한다.
+- 치료 경과를 3~5일간
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 항생제 치료 시 빠르게 호전된다.

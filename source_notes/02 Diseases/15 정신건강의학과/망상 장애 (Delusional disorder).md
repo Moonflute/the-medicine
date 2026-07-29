@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 망상 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -42,9 +43,12 @@ relation_to_parent: subtype
   - 망상 내용이 문화적 배경과 일치하는지 고려해야 함.
 
 ## 5. 치료
-- 치료 원칙: 치료적 동맹 형성이 가장 중요함. 병식 결여로 인해 치료 순응도가 낮은 경우가 많음.
-- 약물 치료: 항정신병 약물을 우선적으로 고려하며, 6주 정도의 충분한 시도 기간을 가짐. 효과가 없을 경우 다른 계열의 약물로 교체.
-- 기타: 순응도 저하 시 장기 지속형 주사제(LAI) 고려. 필요시 기분 조절제 등을 보조적으로 사용 가능. 개인 정신 치료를 병행하여 신뢰 관계 구축.
+
+- **치료적 동맹 형성**: 병식 결여로 인한 거부감을 최소화하기 위해 망상 내용을 직접 반박하기보다 환자의 고통에 공감하며 신뢰 관계를 구축함.
+- **약물 치료 전략**: 항정신병 약물을 우선 사용하며, 충분한 용량으로 최소 6주 이상 투여하여 반응을 평가함.
+- **순응도 관리**: 약물 복용을 거부하거나 순응도가 낮은 경우 장기 지속형 주사제(LAI) 사용을 적극 고려함.
+- **안전 및 법적 문제**: 망상 내용이 타인에 대한 공격성이나 스토킹 등 법적 문제를 유발할 가능성이 있는지 면밀히 평가하고 안전을 확보함.
+- **포괄적 접근**: 약물 치료와 함께 개인 정신 치료를 병행하여 사회적 기능 유지 및 재활을 도모함.
 
 ## 6. 예후 및 합병증
 - 예후: 조기 발견 및 지속적인 약물 순응도가 예후에 결정적임. 약 50%에서 약물 치료에 좋은 반응을 보임.

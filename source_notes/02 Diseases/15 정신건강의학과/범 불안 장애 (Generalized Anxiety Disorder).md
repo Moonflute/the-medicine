@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 범 불안 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional anxiety disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -36,11 +37,12 @@ relation_to_parent: subtype
 - DSM-5 기준: 6개월 이상 지속되는 과도한 불안과 걱정, 걱정 조절의 어려움, 3가지 이상의 신체적/심리적 증상 동반, 타 질환으로 설명되지 않음.
 
 ## 5. 치료
-- 치료 원칙: 인지행동치료(CBT)와 약물치료의 병행이 가장 효과적임.
-- 약물 치료: SSRI(Escitalopram, Paroxetine 등) 또는 SNRI(Venlafaxine, Duloxetine 등)가 1차 선택 약물.
-- 기타 약물: Buspirone(비벤조디아제핀계 항불안제), 필요 시 단기적인 벤조디아제핀(BZD) 사용(의존성 주의).
-- 심리 치료: 인지행동치료를 통해 부적응적 사고 패턴 교정 및 이완 요법 시행.
-- 생활 습관: 카페인, 알코올, 니코틴 섭취 제한 및 수면 위생 개선.
+
+- 1차 약물(SSRI/SNRI)은 효과 발현까지 수주가 소요됨을 환자에게 교육하여 조기 중단 방지
+- 벤조디아제핀은 의존성 및 내성 위험을 고려하여 증상 조절을 위한 단기 보조 요법으로 제한적 사용
+- 인지행동치료를 통해 불안을 유발하는 인지적 왜곡을 교정하고 근이완법 등 스트레스 관리 기술 습득
+- 카페인, 알코올 등 불안을 악화시키는 물질 섭취를 제한하고 규칙적인 수면 위생 관리 권고
+- 자살 사고가 동반되거나 약물 치료에 반응하지 않는 난치성 사례는 정신건강의학과 전문의에게 의뢰
 
 ## 6. 예후 및 합병증
 - 경과: 만성적인 경과를 보일 수 있으며, 적절한 치료가 없을 경우 우울증, 물질 남용, 사회적 고립 등의 합병증 발생 가능.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -17,8 +18,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[혈액]]
 
@@ -42,10 +43,13 @@ reviewed_at: "2026-07-16"
 - 병리 조직검사 및 면역표현형(TdT 양성, CD19/CD79a/PAX5 등 B-세포 마커 또는 CD3 등 T-세포 마커 발현)을 기반으로 확진한다.
 - 골수 검사: 골수 내 모세포 비율이 20% 미만일 때 LBL로 진단한다.
 
-## 5. 치료 (Treatment)
-- ALL과 유사한 고강도 항암화학요법(Multi-agent chemotherapy)이 표준이다.
-- 중추신경계 예방치료(CNS prophylaxis)를 반드시 포함한다.
-- 고위험군이나 재발 시 조혈모세포이식(HSCT)을 고려한다.
+## 5. 치료
+
+- 급성 림프모구 백혈병(ALL)에 준하는 고강도 다제항암화학요법을 즉시 시행한다.
+- 중추신경계 침범 위험이 높으므로 진단 시 평가 및 예방적 척수강 내 항암화학요법을 필수적으로 포함한다.
+- 종양 용해 증후군(TLS) 예방을 위해 치료 시작 전후 충분한 수액 공급과 요산 저하제 투여를 시행한다.
+- 고위험군 환자나 관해 후 재발 시에는 공고 요법으로 동종 조혈모세포이식을 적극 고려한다.
+- 치료 종료 후에도 재발 여부를 확인하기 위해 정기적인 영상 검사 및 혈액 검사를 통한 추적 관찰을 시행한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 매우 공격적인 질환으로, 조기 진단과 즉각적인 치료가 예후를 결정한다.

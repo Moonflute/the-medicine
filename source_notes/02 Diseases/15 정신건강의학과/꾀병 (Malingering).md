@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 꾀병
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional somatic symptom disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -40,9 +41,11 @@ relation_to_parent: subtype
   - 반사회적 인격 장애 진단력.
 
 ## 5. 치료
-- 핵심 원칙: 비판단적이고 중립적인 태도를 유지하며, 치료적 관계를 훼손하지 않으면서 증상의 불일치를 확인하고 다룸.
-- 접근법: 불필요한 의학적 처치를 최소화하고, 환자가 증상을 통해 얻으려는 외부적 이득을 파악하여 다학제적 팀(법률, 사회복지 등)과 협력함.
-- 약물 치료: 기저에 동반된 정신질환(우울, 불안 등)이 확인될 경우에만 해당 질환에 대한 표준 치료를 시행함.
+
+- 비판단적이고 중립적인 태도를 유지하며, 환자와의 치료적 동맹을 훼손하지 않으면서 객관적 소견과 주관적 호소의 불일치를 명확히 확인하고 다룸.
+- 불필요한 침습적 검사나 처치를 최소화하여 의원성 위해를 방지하고, 의료 자원의 낭비를 예방함.
+- 환자가 증상을 통해 얻으려는 외부적 이득을 파악하고, 필요시 법률·사회복지 등 다학제적 팀과 협력하여 대응함.
+- 기저에 동반된 정신질환이 명확히 진단되는 경우에 한하여 해당 질환에 대한 표준 치료를 시행함.
 
 ## 6. 예후 및 합병증
 - 만성적인 경과를 보일 수 있으며, 의료 자원 낭비 및 의원성 위해(iatrogenic harm)의 위험이 있음.

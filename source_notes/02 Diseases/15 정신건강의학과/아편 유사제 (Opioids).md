@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 아편 유사제
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,9 +40,12 @@ relation_to_parent: subtype
 - 감별 진단: 동반 정신질환(우울, 불안, PTSD 등) 및 기저 통증 원인에 대한 평가 필수.
 
 ## 5. 치료
-- 치료 원칙: 생물심리사회적 모델(Biopsychosocial model)에 기반한 다학제적 접근 및 공유 의사결정.
-- 약물 치료: 해독 및 유지 요법(예: 메타돈, 날록손 등). 필요 시 비오피오이드 진통제(NSAIDs, 아세트아미노펜, 항우울제, 항경련제)로의 전환 고려.
-- 비약물 치료: 동기 강화 상담, 인지행동치료, 물리치료, 생활 습관 교정 등 다중 모드 관리(Multimodal management).
+
+- 급성 과다복용 시 호흡 억제 등 생명 위협 징후를 즉각 평가하고 필요시 날록손(naloxone) 투여 등 응급 처치 시행
+- 약물 유지 요법(메타돈, 부프레노르핀 등)과 함께 동기 강화 상담 및 인지행동치료를 병행하여 재발 방지 도모
+- 만성 통증 환자의 경우 비오피오이드 진통제 및 비약물적 통증 관리법으로의 단계적 전환 고려
+- 동반된 정신질환(우울, 불안 등)에 대한 통합적 평가 및 치료를 병행하여 치료 순응도 향상
+- 재발 위험이 높으므로 장기적인 추적 관찰과 함께 지역사회 중독 관리 센터 등 전문 기관 연계 활용
 
 ## 6. 예후 및 합병증
 - 예후: 조기 개입 및 장기적인 추적 관찰이 중요하며, 동반 질환이 있을 경우 예후가 불량할 수 있음.

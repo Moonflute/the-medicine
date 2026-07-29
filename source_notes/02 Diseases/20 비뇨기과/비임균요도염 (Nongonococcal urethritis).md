@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 비임균요도염
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[비뇨기과]]
 
@@ -43,12 +44,12 @@ reviewed_at: "2026-07-16"
 
 
 
-## 5. 치료 (Treatment)
-* **항생제:** 원인균에 따라 Doxycycline, Azithromycin 등을 사용하며, 경험적 치료 시 성매개감염병 가이드라인을 따름.
-* **파트너 치료:** 성 파트너도 반드시 함께 검사 및 치료를 받아야 함.
-* **주의사항:** 치료 완료 시까지 성관계 금지.
-
-
+## 5. 치료
+- 경험적 항생제 치료 시작 (원인균에 맞는 항생제 선택)
+- 성 파트너도 동시에 검사·치료 시행
+- 치료 완료 시까지 성관계 금지 및 콘돔 사용 권고
+- 치료 후 1~2주에 NAAT 재검사로 치료 효과 확인
+- 증상 지속·합병증 의심 시 비뇨기과 전문의 의뢰
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 적절한 치료 시 완치 가능.

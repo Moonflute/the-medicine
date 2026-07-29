@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[내분비]]
 
@@ -37,10 +38,11 @@ reviewed_at: "2026-07-16"
 - 원인 질환 감별: 신동맥 협착, 부종성 질환(심부전, 간경화, 신증후군), 바터 증후군(Bartter syndrome), 지텔만 증후군(Gitelman syndrome) 등 고려
 
 ## 5. 치료
-- 원칙: 원인 질환의 교정
-- 약물 치료: 알도스테론 길항제 사용
-- Spironolactone: 1일 50mg으로 시작하여 유지 용량(약 100mg)까지 증량
-- Eplerenone: Spironolactone의 부작용(여성형 유방, 성기능 장애 등) 발생 시 대안으로 사용 가능
+- 원인 질환(신동맥 협착, 심부전, 간경화 등)을 교정하고, 필요 시 외과적·혈관적 중재를 고려한다.
+- 알도스테론 길항제(스피로놀락톤 또는 에플레레논)를 사용하되, 저칼륨혈증·고칼륨혈증 위험을 지속적으로 감시한다.
+- 치료 시작 후 혈압, 혈청 칼륨 및 신기능을 정기적으로 모니터링하고, 이상 시 용량 조절 또는 약물 교체를 검토한다.
+- 혈압·전해질 조절이 어려운 경우 신장·심혈관 전문의에게 의뢰한다.
+- 저염식 식이와 체액량 관리로 재발을 예방하고, 정기
 
 ## 6. 예후 및 합병증
 - 원인 질환의 경과에 따라 예후가 결정됨

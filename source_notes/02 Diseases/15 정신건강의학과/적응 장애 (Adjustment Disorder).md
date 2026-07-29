@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 적응 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional trauma- and stressor-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -37,9 +38,11 @@ relation_to_parent: subtype
 - 배제: 증상이 다른 정신질환의 악화가 아니어야 하며, 스트레스 요인이 제거된 후에도 증상이 6개월 이상 지속되지 않아야 함(지속성 적응장애 제외).
 
 ## 5. 치료
-- 원칙: 스트레스 요인에 대한 적응을 돕고 증상을 완화하는 것이 목표.
-- 심리 치료: 상담 치료, 인지행동치료(CBT)가 1차 치료로 권장됨.
-- 약물 치료: 증상 완화를 위해 보조적으로 사용. 불안 시 항불안제(BZD), 불면 시 수면제, 우울 시 항우울제 등을 단기간 고려.
+
+- 스트레스 요인에 대한 적응력 강화 및 문제 해결 중심의 상담과 인지행동치료(CBT)를 우선 시행함.
+- 증상 완화를 위해 약물 치료는 보조적으로 활용하며, 증상 호전 시 조기에 감량 및 중단함.
+- 자해, 타해 위험성 등 안전 문제가 발생하거나 증상이 악화되는 경우 즉시 정신건강의학과 전문의에게 의뢰함.
+- 스트레스 요인 제거 후에도 증상이 지속되거나 만성화되는지 정기적으로 추적 관찰함.
 
 ## 6. 예후 및 합병증
 - 예후: 적절한 개입 시 대개 수개월 내에 회복됨.

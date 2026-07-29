@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - PBC
 유형:
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -63,11 +64,11 @@ reviewed_at: "2026-07-16"
 
 - **감별진단**: 원발성 경화성 담관염(PSC), 약물 유발성 간 질환, 담도 폐쇄, 자가면역 간염 등과 감별 필요.
 
-## 5. 치료 (Treatment)
-- **1차 치료**: 우르소데옥시콜산(UDCA). 질병 진행을 늦추고 생존율을 향상시킴.
-- **2차 치료**: UDCA 반응이 불충분한 경우 셀라델파(seladelpar), 엘라피브라노(elafibranor), 피브레이트(fibrate) 계열 약제 고려.
-- **증상 조절**: 소양증 완화를 위해 콜레스티라민(cholestyramine) 사용. 지방 흡수 장애 시 지용성 비타민 보충 필요.
-- **말기 치료**: 말기 간 질환으로 진행된 경우 간 이식이 근본적 치료.
+## 5. 치료
+- 1차 치료는 우르소데옥시콜산(UDCA)으로, ALP·빌리루빈 등 간기능 검사를 정기적으로 모니터링한다.
+- UDCA 반응이 불충분하거나 진행성인 경우, 셀라델파·엘라피브라노·피브레이트 등 2차 약물을 고려하되 부작용(간 효소 상승, 위장 장애 등)을 주기적으로 평가한다.
+- 소양증이 심할 경우 콜레스티라민을 사용하고, 지용성 비타민(A, D, E, K) 결핍을 예방하기 위해 보충제를 제공한다.
+- 간경변증·간부전
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

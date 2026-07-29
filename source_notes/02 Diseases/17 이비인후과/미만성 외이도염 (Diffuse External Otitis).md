@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - diffuse external otitis
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[이비인후과]]
 
@@ -40,12 +41,12 @@ reviewed_at: "2026-07-16"
 - 중이염과의 감별이 중요하며, 고막의 움직임이 정상이라면 외이도염을 우선 고려
 
 
-## 5. 치료 (Treatment)
-- **외이도 세정**: 철저한 세정을 통해 분비물과 이물질 제거
-- **점이액(Ototopical drops)**: 항생제(FQ 계열)와 스테로이드 복합 점이액이 표준 치료
-- **통증 조절**: NSAIDs 또는 아세트아미노펜 사용
-- **주의사항**: 고막 천공이 확인된 경우 이독성이 없는 항생제 점이액 사용 필수
-
+## 5. 치료
+- 외이도 세정 후 항생제·스테로이드 복합 점이액을 적용하여 염증 억제
+- 통증이 심할 경우 NSAIDs 또는 아세트아미노펜으로 조절
+- 고막 천공이 있거나 48~72시간 내 증상이 호전되지 않으면 이비인후과 전문의에 의뢰
+- 치료 후 3~5일 내 재평가하여 염증 감소 여부 확인 및 점이액 교체 여부 결정
+- 물에 장시간 노출을 피하고, 귀마개 사용 등 습기 차단으로 재발 예방
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 예후는 양호함

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 적대적 반항 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional disruptive behavior disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -38,9 +39,12 @@ relation_to_parent: subtype
 - 감별 진단: 품행 장애(더 심각한 공격성), ADHD(충동성으로 인한 비순응), 파괴적 기분 조절 부전 장애(DMDD, 더 심한 분노 폭발 및 지속적 과민성).
 
 ## 5. 치료
-- 원칙: 다학제적 접근이 필수적이며, 공존 질환(ADHD, 불안 등) 치료가 우선됨.
-- 심리사회적 치료: 부모 관리 훈련(PMT)이 일차 치료로, 정적 강화를 통해 친사회적 행동을 장려함. 인지행동치료(CBT)를 통한 분노 조절 및 문제 해결 훈련 병행.
-- 약물 치료: FDA 승인된 단일 약물은 없으나, 심각한 공격성 조절을 위해 기분조절제, 비정형 항정신병 약물 등을 보조적으로 고려 가능.
+
+- **다학제적 접근 및 공존 질환 치료**: ADHD, 불안, 우울 등 공존 질환을 우선적으로 평가하고 치료하여 증상 악화를 방지함.
+- **부모 관리 훈련(PMT)**: 일차 치료로서 부모에게 일관된 훈육 방식과 긍정적 강화 기술을 교육하여 가정 내 상호작용 패턴을 개선함.
+- **인지행동치료(CBT)**: 아동의 분노 조절, 사회적 기술 훈련, 문제 해결 능력을 향상시켜 충동적이고 반항적인 행동을 감소시킴.
+- **약물 치료의 보조적 활용**: 심각한 공격성이나 조절되지 않는 충동성에 대해 기분조절제나 비정형 항정신병 약물을 보조적으로 고려하되, 심리사회적 치료와 병행함.
+- **장기적 추적 관찰**: 품행 장애나 반사회적 인격 장애로의 이행 가능성을 염두에 두고, 학교 및 가정 내 기능 회복 여부를 지속적으로 모니터링함.
 
 ## 6. 예후 및 합병증
 - 예후: 조기 개입 시 예후가 개선되나, 치료하지 않을 경우 품행 장애, 반사회적 인격 장애, 물질 남용, 우울증 등으로 이행될 위험이 높음.

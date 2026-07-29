@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[호흡기]]
 
@@ -52,10 +53,12 @@ reviewed_at: "2026-07-16"
 - 임상 양상, 영상 검사, 특이 미생물 검사(PCR, 항원 검사)를 종합하여 진단한다.
   전형적 세균성 폐렴과 달리 그람 염색에서 원인균이 확인되지 않는 경우가 많다.
 
-## 5. 치료 (Treatment)
-* 세포 내 침투가 가능한 항생제 사용이 원칙이다.
-* Macrolide (azithromycin 등), Tetracycline (doxycycline), 또는 호흡기 Fluoroquinolone (levofloxacin, moxifloxacin)을 사용한다.
-* Pneumocystis 폐렴(PCP)은 TMP-SMX가 일차 치료제이다.
+## 5. 치료
+- 세포 내 침투가 가능한 항생제(마크로라이드, 테트라사이클린, 호흡기 플루오로퀴놀론)를 선택하고, 환자 알레르기·기저질환에 따라 대체제 고려
+- 경증·중등도 환자는 외래에서 치료 시작 후 5~7일간 경과 관찰, 고령·기저질환·중증 증상 시 입원 및 집중 모니터링
+- 항생제 부작용(QT 연장, 위장관 장애, 간·신독성 등)을 주의 깊게 모니터링하고, 이상 시 즉시 약물 교체 또는 용량 조절
+- 치료 종료 후 2주 이내 재평가(증상, 흉부 영상) 및 필요 시 미생물 검사 결과에 따라 추가 치료 계획 수립
+- 예방 차원에서 손 위생, 환기, 군집 생활 시 마스크 착용 등 비말 차단 및 감염원
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 외래 치료로 호전되나, 고령자나 기저질환자는 중증 폐렴, ARDS, 패혈성 쇼크로 진행할 수 있다.

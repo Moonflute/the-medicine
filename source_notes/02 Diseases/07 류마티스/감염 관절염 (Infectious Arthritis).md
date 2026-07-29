@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[류마티스]]
 
@@ -41,9 +42,10 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 관절 천자 검사 결과와 임상 증상을 종합하여 진단한다.
 
-## 5. 치료 (Treatment)
-- 정맥 항생제(IV antibiotics) 투여가 필수적, 관절 내 감염 배액을 위한 수술적 치료(변연 절제술 및 세척술)가 일반적으로 필요하다.
-  통증 조절을 위해 NSAIDs를 사용할 수 있다.
+## 5. 치료
+- 급성 감염 관절염에서는 즉시 정맥 항생제 투여를 시작하고, 배양 결과에 따라 항생제 선택을 조정한다.
+- 관절 내 농양이나 고농도 삼출액이 확인되면 조기에 관절 세척술(변연 절제술 포함) 및 배액을 시행하고, 정형외과·감염내과 협진을 요청한다.
+- 치료 중 신장·간 기능,
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료가 지연될 경우 관절 연골이 빠르게 파괴되어 영구적인 관절 손상 및 기능 상실을 초래할 수 있다.

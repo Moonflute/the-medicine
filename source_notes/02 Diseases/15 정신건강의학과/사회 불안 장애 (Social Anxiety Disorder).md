@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 사회 불안 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional anxiety disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -38,10 +39,12 @@ relation_to_parent: subtype
 - 증상이 다른 정신질환이나 물질/약물, 신체 질환으로 설명되지 않아야 함.
 
 ## 5. 치료
-- 치료 원칙: 약물 치료와 인지행동치료(CBT)가 표준 치료임.
-- 약물 치료: SSRI(sertraline, paroxetine 등) 및 SNRI(venlafaxine)가 1차 선택 약물.
-- 기타 약물: 무대 공포증 등 특정 상황에 대해서는 베타차단제(propranolol)를 필요 시 사용 가능.
-- 인지행동치료: 부적응적 사고 패턴 교정 및 불안 유발 상황에 대한 점진적 노출 치료 시행.
+
+- 약물 치료와 인지행동치료(CBT)를 병행하여 증상 완화 및 사회적 기능 회복을 도모함.
+- SSRI 등 1차 약물은 효과 발현까지 수주가 소요되므로 충분한 기간 동안 순응도를 유지하도록 교육함.
+- 특정 수행 상황에 국한된 불안은 필요 시 베타차단제를 활용하되, 기저 질환 및 금기 사항을 확인함.
+- 점진적 노출 치료를 통해 회피 행동을 교정하고, 치료 중단 시 재발 가능성을 고려하여 장기적인 추적 관찰을 시행함.
+- 우울증, 물질 남용 등 공존 질환이 동반된 경우 해당 질환에 대한 통합적 치료 및 자살 위험성 평가를 병행함.
 
 ## 6. 예후 및 합병증
 - 예후: 만성적인 경과를 보일 수 있으나, 적절한 치료 시 예후가 양호함. 치료받지 않을 경우 사회적 고립, 학업/직업적 성취 저하, 삶의 질 저하 초래.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -58,10 +59,11 @@ reviewed_at: "2026-07-16"
 
 - **감별진단**: 급성 간염의 다양한 원인, 만성 간 질환의 급성 악화, 약물 독성 등과 감별 필요.
 
-## 5. 치료 (Treatment)
-- **집중 치료**: 중환자실에서의 세심한 관리, 합병증에 대한 적극적 치료가 필수.
-- **원인별 치료**: B형 간염은 경구 항바이러스제(nucleoside/nucleotide analogs), 아세트아미노펜 중독은 N-acetylcysteine 투여.
-- **근본적 치료**: 응급 간 이식. 이식 없이는 생존율이 낮음.
+## 5. 치료
+- 중환자실에서 혈역학·전해질·수분·전해질 관리와 간성 뇌증, 출혈, 감염 등 합병증을 조기에 감시·치료한다.
+- 원인에 따라 항바이러스제(예: B형 간염) 또는 N‑acetylcysteine(아세트아미노펜 중독) 등 원인제거 치료를 신속히 시작한다.
+- 간 기능 회복이 불가능하거나 급성 간성 뇌증·INR 상승이 지속될 경우 즉시 간 이식 평가·전문의 의뢰한다.
+- 간 이식 전후에 혈액응고, 신장 기능, 감염 상태를 정기적으로 모니터링하고, 재발 방지를 위한 예방접종·알코올·약물 회피 교육을 제공한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

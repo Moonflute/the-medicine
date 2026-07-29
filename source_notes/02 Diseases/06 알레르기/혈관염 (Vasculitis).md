@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 ## 1. 개요
 - **정의**: 혈관벽의 염증과 손상으로 인해 조직 허혈 및 장기 손상을 유발하는 질환군.
@@ -60,13 +61,10 @@ reviewed_at: "2026-07-16"
 - **EGPA**: 천식, 호산구 증가, p-ANCA(+).
 
 ## 5. 치료
-- **원칙**: 질환 중증도에 따라 관해 유도(Induction) 및 유지(Maintenance) 치료 시행.
-- **약물**:
-- **스테로이드**:
-  일차 치료제.
-  중증 시 고용량 정맥 주사(Pulse) 고려.
-- **면역억제제**: Rituximab(ANCA 연관 혈관염 등), Cyclophosphamide(중증), Methotrexate, Azathioprine, Mycophenolate mofetil 등.
-- **주의사항**: 면역억제제 사용 시 기회감염 예방(Pneumocystis jirovecii 등) 및 결핵/간염 재활성화 모니터링.
+- 중증도에 따라 스테로이드를 즉시 시작하고, 필요 시 고용량 정맥 펄스 사용을 고려한다.
+- 스테로이드와 면역억제제 병용 시 결핵·HBV·HCV 검사·예방접종·PJP 예방제 등 감염 위험을 사전에 평가하고 관리한다.
+- 치료 반응 및 부작용 모니터링을 위해 2~4주 간 ESR/CRP, 혈액학, 신·간 기능을 정기적으로 검사하고, 필요 시 영상 재평가를 시행한다.
+- 급성 악화, 장기 손상 위험, 또는 치료 조정이 필요할 경우 혈관염 전문의(류마티스·알레르기내과)와 협진하고,
 
 ## 6. 예후 및 합병증
 - 침범 장기와 치료 반응에 따라 예후 결정.

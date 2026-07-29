@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 진정제, 수면제
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,10 +40,11 @@ relation_to_parent: subtype
 - 동반 정신질환(불안, 우울, PTSD 등) 및 타 물질(알코올, 오피오이드) 병용 여부 감별 필수.
 
 ## 5. 치료
-- 원칙: 기도 확보, 호흡 및 순환기계 안정화(ABC)가 최우선.
-- 해독제: 벤조디아제핀 중독 시 Flumazenil을 고려할 수 있으나, 만성 사용자나 발작 위험이 있는 경우 금기(금단 발작 유발 위험).
-- 지지 요법: 대부분의 경우 보존적 치료와 지속적인 모니터링으로 회복됨. 활성탄 투여는 흡인 위험으로 인해 일반적으로 권장되지 않음.
-- 상담: 동기 강화 상담 및 재활 프로그램 연계.
+
+- 기도 확보 및 호흡·순환기계 안정화(ABC)를 최우선으로 시행하며, 의식 저하 시 흡인 방지를 위한 체위 유지 및 모니터링을 지속함.
+- Flumazenil은 벤조디아제핀 의존 환자나 발작 위험이 있는 경우 금단 발작을 유발할 수 있으므로 사용에 매우 신중해야 함.
+- 다약제 복용이나 호흡 억제가 심한 경우 중환자실 입원 및 집중 치료를 고려하고, 필요 시 독극물 관리 센터와 협진함.
+- 급성기 회복 후에는 물질 사용 장애에 대한 동기 강화 상담을 시행하고, 재발 방지를 위해 정신건강의학과 전문 재활 프로그램으로 연계함.
 
 ## 6. 예후 및 합병증
 - 예후: 조기 개입이 중요하며, 동반 질환이나 다약제 복용 시 예후가 불량함.

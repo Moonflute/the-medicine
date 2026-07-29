@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - vWD
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[혈액]]
 
@@ -38,13 +39,10 @@ reviewed_at: "2026-07-16"
 - 임상 양상, 가족력, 혈액 응고 검사, vWF 관련 정밀 검사 (항원량, 활성도, 다량체 분석 등)로 진단.
   vWF 활성도 30 IU/dL 미만 시 진단적 가치가 높음.
 
-## 5. 치료 (Treatment)
-- **데스모프레신 (DDAVP)**:
-  제1형 등 일부 환자에서 내피세포의 vWF 분비를 촉진.
-  출혈 예방 및 경미한 출혈 시 사용.
-- **vWF/응고인자 VIII 농축 제제**: DDAVP 반응이 없거나 중증 출혈, 수술 시 사용.
-- **항섬유소용해제 (Tranexamic acid)**: 점막 출혈 시 보조 요법.
-- **기타**: 월경 과다 시 경구 피임약 고려.
+## 5. 치료
+- 경미한 점막 출혈이나 수술 전 예방에 DDAVP를 사용하되, 수분 섭취 제한 및 혈청 나트륨을 모니터링하여 저나트륨혈증을 예방한다.
+- DDAVP 반응이 없거나 중증 출혈·수술 시에는 vWF/응고인자 VIII 농축 제제를 투여하고, 투여 후 vWF·VIII 활성도를 확인한다.
+- 점막 출혈 보조로 트라넥삼산(Tranexamic acid) 사용을 권고하되, 혈전 위험
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 경미, 예후 양호.

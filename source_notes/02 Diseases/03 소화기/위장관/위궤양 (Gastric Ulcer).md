@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -49,12 +50,11 @@ reviewed_at: "2026-07-16"
   8~12주 뒤 추적 내시경을 통해 치유 여부를 확인해야 함.
 
 
-## 5. 치료 (Treatment)
-- 양성자 펌프 억제제 (PPI)를 8주간 투여하여 위산 분비를 억제, 점막 치유를 도모함.
-  헬리코박터 양성 시 제균 치료 필수.
-  NSAIDs 유발 궤양은 원인 약제 중단이 원칙, 중단 불가 시 PPI 병용.
-  내과적 치료 실패, 천공, 출혈, 폐색 등 합병증 발생 시 수술적 치료 고려.
-
+## 5. 치료
+- PPI를 8주간 투여하여 위산 억제 및 궤양 치유를 목표로 함
+- H. pylori 양성인 경우 표준 1차 제균 치료를 시행
+- NSAID 유발 궤양은 가능한 한 원인 약물 중단, 중단이 어려울 경우 PPI와 위장 보호제 병용
+- 치료 종료 8~12주 후 위내시경 재검사로 치유 여부 확인; 출혈·천공·폐색 등 합병증이 의심되면 소화기·외과 전문의에 의뢰​
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 출혈, 천공, 관통, 위출구 폐색.

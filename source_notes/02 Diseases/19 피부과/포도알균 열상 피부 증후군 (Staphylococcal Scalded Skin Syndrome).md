@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 포도알균 열상 피부 증후군
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[피부과]]
 
@@ -40,15 +41,11 @@ reviewed_at: "2026-07-16"
 * 임상적 양상과 니콜스키 징후를 바탕으로 진단하며, 필요 시 피부 생검을 통해 표피 하층부의 박리를 확인하여 감별함.
 
 
-## 5. 치료 (Treatment)
-* **입원 치료**: 중증의 경우 입원 및 수액 보충, 전해질 교정 등 지지 요법 필수.
-* **항생제**:
-  페니실리나아제 저항성 페니실린(nafcillin, oxacillin) 또는 1세대 세팔로스포린(cefazolin) 정맥 투여.
-  MRSA 의심 시 반코마이신 고려.
-* **국소 관리**:
-  비점착성 드레싱 및 보습제 사용.
-  은 설파디아진(silver sulfadiazine)은 전신 흡수 위험으로 피함.
-
+## 5. 치료
+- 입원 후 수액·전해질 보충, 체온·통증 관리 등 전신 지지 요법을 시행한다.
+- 항생제는 MSSA 의심 시 1세대 세팔로스포린 또는 페니실린계, MRSA 가능성 있을 경우 반코마이신 등으로 선택한다.
+- 비점착성 드레싱과 보습제로 피부 보호를 유지하고, 이차 감염을 예방한다.
+- 탈수·전해질 이상·패혈증 등 합병증을 모니터링하고, 중증·악화 시 중환자실 전환 및 감염내과·소아과 협진을 고려한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

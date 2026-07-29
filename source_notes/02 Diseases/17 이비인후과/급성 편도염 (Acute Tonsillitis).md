@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - acute tonsillitis
 - tonsillitis
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[이비인후과]]
 
@@ -40,10 +41,12 @@ reviewed_at: "2026-07-16"
 - 주로 임상 증상과 신체 검진을 통해 진단.
 - 세균성 편도염이 의심되는 경우 미생물 검사를 통해 확진하며, 이는 불필요한 항생제 사용을 줄이는 데 필수적임.
 
-## 5. 치료 (Treatment)
-- **보존적 치료**: 충분한 수분 섭취, 휴식, 진통제(Acetaminophen, NSAIDs) 투여.
-- **항생제 치료**: 세균성 편도염(GAS) 확진 시 Penicillin V 또는 Amoxicillin 10일 요법이 1차 선택.
-- **수술적 치료**: 반복적인 편도염(Paradise criteria 충족 시)이나 합병증 발생 시 편도절제술 고려.
+## 5. 치료
+- 충분한 수분 섭취와 휴식, 통증이 심할 경우 진통제(아세트아미노펜·NSAIDs) 사용
+- 임상 점수와 신속 항원 검사 등으로 세균성 여부를 확인하고, 필요 시 1차 항생제(페니실린·아목시실린) 투여
+- 편도주위농양, 호흡곤란, 반복적인 급성 편도염 등 합병증이 의심되면 이비인후과 전문의에게 즉시 의뢰
+- 치료 시작 후 3~5일 내 증상 호전 여부를 확인하고, 미호전 시 재평가 및 추가 검사를 시행
+- 손 씻기·개인 위생 등 감염 예방 교육을 제공하여 재발 위험을 감소시킴
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 자연 치유되나, 세균성 감염 시 편도주위농양, 급성 류마티스열, 사구체신염 등의 합병증 주의.

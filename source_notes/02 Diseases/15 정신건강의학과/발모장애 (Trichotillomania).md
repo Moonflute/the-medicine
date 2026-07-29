@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - trichotillomania
 - 털뽑기장애
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[정신건강의학과]]
 
@@ -45,9 +46,12 @@ reviewed_at: "2026-07-16"
   4. 다른 의학적 상태(예: 피부 질환)로 인한 것이 아님.
   5. 다른 정신질환(예: 신체변형장애)으로 더 잘 설명되지 않음.
 
-## 5. 치료 (Treatment)
-- **심리치료**: 습관 반전 훈련(Habit Reversal Training, HRT)이 가장 효과적인 표준 치료.
-- **약물치료**: SSRI(선택적 세로토닌 재흡수 억제제)가 보조적으로 사용될 수 있으며, 일부 항정신병 약물이나 N-acetylcysteine이 고려될 수 있음.
+## 5. 치료
+
+- **습관 반전 훈련(HRT)**: 인지행동치료의 핵심으로, 털을 뽑으려는 충동을 인지하고 대체 행동을 수행하도록 유도.
+- **약물치료 고려**: 증상 조절을 위해 SSRI, N-acetylcysteine 등을 보조적으로 활용하며, 동반된 불안 및 우울 증상에 대한 평가 병행.
+- **신체 합병증 모니터링**: 식모증(trichophagia)이 의심되는 경우 위장관 내 모발석 형성 여부를 확인하고 필요 시 소화기내과 협진.
+- **추적 관찰 및 예방**: 재발 방지를 위해 스트레스 요인을 관리하고, 탈모 부위의 피부 상태를 정기적으로 점검하여 이차 감염 여부 확인.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 조기 진단 및 치료 시 예후가 좋음.

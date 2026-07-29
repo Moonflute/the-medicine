@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 대마 계
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -38,9 +39,11 @@ relation_to_parent: subtype
 - 감별 진단: 동반 정신질환(우울, 불안, PTSD, 조현병 등) 감별 필수. 신체 질환(심혈관 질환, 위장관 질환) 배제.
 
 ## 5. 치료
-- 원칙: 동기 강화 상담(Motivational Interviewing), 인지행동치료(CBT), 재활 및 재발 방지 프로그램.
-- 약물 치료: 현재 FDA 승인된 대마 사용 장애 전용 치료제는 없음. 증상에 따른 대증 요법 시행.
-- 주의사항: 임신부 및 수유부는 완전한 금단 권고.
+
+- **심리사회적 개입**: 동기 강화 상담(MI) 및 인지행동치료(CBT)를 우선적으로 시행하여 사용 중단 동기를 강화하고 대처 기술을 습득함.
+- **대증적 약물 치료**: 금단 증상 및 동반된 불안, 불면, 우울 증상에 대해 개별화된 약물 치료를 고려하되, 대마 사용 장애 자체를 치료하는 승인된 약물은 없음.
+- **동반 질환 관리**: 조현병, 양극성 장애 등 기저 정신질환이 동반된 경우 해당 질환에 대한 적극적인 치료를 병행함.
+- **추적 관찰 및 예방**: 재발 방지를 위해 정기적인 소변 약물 검사 및 상담을 시행하고, 청소년기 사용자의 경우 조기 개입 및 가족 교육을 강화함.
 
 ## 6. 예후 및 합병증
 - 예후: 조기 개입 및 장기적인 추적 관찰이 중요. 청소년기 사용 시작 시 의존성 위험 증가.

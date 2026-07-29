@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 레비 소체 치매
 유형:
@@ -10,8 +11,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,11 +40,11 @@ relation_to_parent: subtype
 - 감별 진단: 파킨슨병 치매(운동 증상 후 1년 이후 치매 발생), 알츠하이머병, 혈관성 치매, 전두측두엽 치매.
 
 ## 5. 치료
-- 인지 기능 개선: 콜린에스테라제 억제제(Donepezil, Rivastigmine, Galantamine)가 일차 치료제.
-- 운동 증상: Carbidopa-Levodopa를 사용하나, 정신병적 증상을 악화시킬 수 있어 주의 필요.
-- 정신병적 증상: 항정신병 약물에 대한 과민성(Neuroleptic sensitivity)이 있으므로 주의. 필요 시 Quetiapine, Clozapine 등 비정형 항정신병 약물 고려.
-- REM 수면 장애: Clonazepam 또는 멜라토닌 고려.
-- 비약물적 치료: 인지 재활, 물리/작업 치료, 보호자 교육 및 환경 수정.
+
+- **약물 선택 시 주의사항**: 항정신병 약물에 대한 심각한 과민성 반응(신경이완제 악성 증후군 등) 위험이 높으므로 사용을 최소화하고, 필요 시 비정형 항정신병 약물을 신중히 선택함.
+- **운동 증상 관리**: 파킨슨증 완화를 위해 레보도파를 사용하되, 정신병적 증상 악화 가능성을 상시 모니터링함.
+- **안전 관리 및 낙상 예방**: 기립성 저혈압과 인지 변동성으로 인한 낙상 위험이 크므로 환경 수정 및 보행 보조 기구 사용 등 안전 대책을 우선함.
+- **다학제적 접근 및 추적 관찰**: 인지 기능, 운동 증상, 수면 장애의 변화를 정기적으로 평가하고 신경과, 재활의학과 등과 협진하여 관리함.
 
 ## 6. 예후 및 합병증
 - 예후: 점진적으로 악화되는 경과를 보이며, 낙상, 폐렴, 연하 곤란, 자율신경계 합병증 등이 주요 사망 원인임.

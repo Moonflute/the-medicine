@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 자폐 스펙트럼 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,9 +40,12 @@ relation_to_parent: subtype
 - 지적 발달 장애나 전반적 발달 지연과 공존할 수 있으며, 이 경우 사회적 소통 능력이 일반적인 발달 수준보다 낮아야 함.
 
 ## 5. 치료
-- 완치 방법은 없으나 조기 발견 및 개입이 예후 개선에 필수적임.
-- 다학제적 접근: 약물 치료(행동 증상 완화), 인지행동치료, 놀이치료, 부모 교육 및 가족 치료, 특수 교육 연계.
-- SPACE 모델(감각, 예측 가능성, 수용, 소통, 공감)을 활용한 환자 중심의 치료 환경 조성.
+
+- 조기 발견 및 개입을 통해 사회적·적응적 기능 향상을 도모하며, 발달 단계에 맞춘 다학제적 치료 계획을 수립함.
+- 행동 증상(과잉행동, 공격성, 자해 등) 완화를 위해 약물 치료를 고려하되, 기저 질환 및 동반 질환을 우선적으로 평가함.
+- 인지행동치료, 언어치료, 사회기술훈련 등 증상별 맞춤형 치료를 시행하고 특수 교육 및 지역사회 자원과 연계함.
+- 부모 교육 및 가족 상담을 통해 양육 스트레스를 관리하고, 환자의 특성을 이해하며 일관된 환경을 제공하도록 지원함.
+- 정기적인 추적 관찰을 통해 발달 변화를 모니터링하고, 동반되는 정신건강 문제(불안, 우울, 수면 장애 등) 발생 여부를 지속적으로 평가함.
 
 ## 6. 예후 및 합병증
 - 조기 개입 시 예후가 개선될 수 있으나, 평생에 걸쳐 기능적 지원이 필요할 수 있음.

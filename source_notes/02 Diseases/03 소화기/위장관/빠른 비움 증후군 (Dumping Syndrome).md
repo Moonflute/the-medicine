@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -50,17 +51,11 @@ reviewed_at: "2026-07-16"
 
 
 
-## 5. 치료 (Treatment)
-* **식이 요법 (1차 치료)**
-* 소량씩 자주 섭취
-* 식사 중 수분 섭취 제한 (식후 30분 이후 권장)
-* 단순 당질 제한, 단백질 및 식이섬유 섭취 증가
-* 식후 30분간 눕기 (저혈량증 완화)
-* **약물 치료**
-* Acarbose: 탄수화물 흡수 지연 (후기 증후군에 유용)
-* Somatostatin analogues (Octreotide 등): 위 배출 및 호르몬 분비 억제 (식이 요법 및 acarbose 불응 시)
-
-
+## 5. 치료
+- 식이 요법: 소량·자주 섭취, 식사 중 수분 제한, 단순당질 감소·단백·식이섬유 증가, 식후 30분간 눕기
+- 약물: 증상 조절이 어려운 경우 acarbose 사용, 필요 시 octreotide 등 somatostatin analogues 고려
+- 안전·추적: 저혈당·저혈압 증상 모니터링, 체중·영양 상태 정기 평가, 약물 부작용 확인
+- 전문의 의뢰: 식이·약물 조절에도 증상 지속 시 내분비·외과 전문의 협진 및 영양사 상담 권고
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 식이 조절로 호전되나, 지속 시 영양 결핍 및 체중 감소 발생 가능

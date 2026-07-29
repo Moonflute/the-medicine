@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - atrophic vaginitis
 - genitourinary syndrome of menopause
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -39,11 +40,12 @@ reviewed_at: "2026-07-16"
 - 임상적 증상과 신체 검진 소견을 종합하여 진단.
 - 질 성숙 지수(VMI)나 pH 측정은 진단에 필수적이지 않음.
 
-## 5. 치료 (Treatment)
-- **비호르몬 요법**: 1차 치료로 질 보습제(moisturizers) 및 윤활제(lubricants) 사용 권장.
-- **국소 에스트로겐 요법**: 질 크림, 정제, 질정 등 저용량 국소 에스트로겐은 매우 효과적이며 전신 흡수가 적음.
-- **기타**: 질 DHEA 삽입제, 오스페미펜(Ospemifene) 등 선택적 에스트로겐 수용체 조절제(SERM) 고려 가능.
-- **전신 호르몬 요법**: 안면 홍조 등 전신 증상이 동반될 경우 고려.
+## 5. 치료
+
+- **1차 관리**: 증상 완화를 위해 비호르몬성 질 보습제(정기적 사용) 및 성교 시 윤활제 사용을 우선 권장함.
+- **국소 요법**: 증상 호전이 없는 경우 저용량 국소 에스트로겐 제제를 우선 고려하며, 전신 흡수가 적어 안전하게 사용 가능함.
+- **전신 증상 고려**: 안면 홍조 등 폐경 관련 전신 증상이 동반된 경우 전신 호르몬 요법을 고려할 수 있음.
+- **추적 관찰**: 치료 시작 후 증상 개선 여부를 평가하고, 비정상적 질 출혈이 발생할 경우 자궁내막 검사 등 추가적인 평가를 시행함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 증상이 점진적으로 악화되는 경향이 있음.

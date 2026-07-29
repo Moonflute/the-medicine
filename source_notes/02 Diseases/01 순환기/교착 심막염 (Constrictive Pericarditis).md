@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[순환기]]
 
@@ -46,10 +47,11 @@ reviewed_at: "2026-07-16"
 - 임상 증상, 쿠스마울 징후, 심초음파 및 CT/MRI상의 심막 비후 소견을 종합하여 진단.
 - 심장 눌림증, 제한성 심근병증과의 감별이 중요.
 
-## 5. 치료 (Treatment)
-- **근본적 치료**: 심장막 절제술(pericardiectomy).
-- **증상 조절**: 수술 전 증상 완화를 위해 이뇨제 사용 가능.
-- **기타**: 일시적인 교착 심막염에서는 항염증제 치료를 시도할 수 있음.
+## 5. 치료
+- **근본적 치료**: 완치를 위해 심장막 절제술(pericardiectomy)을 시행함.
+- **증상 완화**: 수술 전 전신 정맥 울혈과 부종 조절을 위해 이뇨제를 사용함.
+- **내과적 치료**: 일시적(transient) 교착 심막염의 경우 항염증제 치료를 시도함.
+- **상위 진료과 의뢰**: 수술적 치료 및 감별 진단을 위해 순환기내과 및 흉부외과로의 조기 의뢰가 필요함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 예후가 매우 불량.

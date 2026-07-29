@@ -11,14 +11,14 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: tier3_manual_current_principles
-reviewed_at: '2026-07-30'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - Merck Manual Professional trauma- and stressor-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders
 disease_family: psychiatry_split
 parent_disease: 외상 및 스트레스 관련 장애 (Trauma- and Stressor-Related Disorders)
 relation_to_parent: subtype
-content_updated_at: '2026-07-30'
+content_updated_at: "2026-07-30"
 ---
 ## 1. 개요
 - 해리성 기억상실의 한 양상으로, 갑작스러운 이동 또는 배회와 과거 정체성·자서전적 기억에 대한 기억 공백이 동반될 수 있다.
@@ -35,9 +35,10 @@ content_updated_at: '2026-07-30'
 
 ## 5. 치료
 
-- **우선 안전 확보**: 실종·노숙·신원 혼동, 자살 위험, 학대·착취 가능성을 평가하고 안전한 보호 환경과 가족·사회서비스 연계를 마련한다.
-- **의학적 감별**: 섬망, 경련, 물질 영향, 두부손상, 치매·기타 신경학적 원인을 배제한다. 기억 회복을 강요하거나 암시적 기법을 사용하는 것은 피한다.
-- **장기 치료**: 안정화 후 외상·스트레스 요인과 동반 우울·불안·PTSD를 다루는 지지적/외상중심 심리치료를 계획한다. 약물은 동반 질환에 대해 사용한다.
+- **안전 확보 및 환경 조성**: 실종, 자살 위험, 학대 및 착취 가능성을 평가하고, 환자가 안전하게 머물 수 있는 보호 환경을 마련하며 가족 및 사회복지 서비스를 연계한다.
+- **의학적 감별 및 배제**: 섬망, 경련, 물질 중독, 두부 손상 등 신경학적 원인을 우선 배제하며, 기억 회복을 강요하거나 암시적 기법을 사용하는 것은 지양한다.
+- **심리치료 및 안정화**: 급성기 이후 외상 및 스트레스 요인을 탐색하고, 동반된 우울, 불안, PTSD를 다루는 지지적 또는 외상 중심 심리치료를 시행한다.
+- **동반 질환 관리 및 추적**: 약물 치료는 해리 증상 자체가 아닌 동반된 정신질환 치료를 목적으로 시행하며, 재발 방지를 위해 지속적인 경과 관찰을 수행한다.
 
 ## 6. 예후 및 합병증
 - 조기 평가와 동반 질환·안전 위험의 동시 관리가 기능 회복과 재발 예방에 중요하다.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 어루러기
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[피부과]]
 
@@ -42,18 +43,10 @@ reviewed_at: "2026-07-16"
 * 임상적 양상으로 진단하며, 불확실할 경우 KOH 도말 검사로 확진함.
 
 
-## 5. 치료 (Treatment)
-* **국소 치료**:
-  1차 치료.
-  Ketoconazole 2% 샴푸(도포 후 5분 뒤 세척, 1~3일간 사용)가 효과적임.
-  기타 Selenium sulfide, Terbinafine, Ciclopirox 등 사용 가능.
-* **전신 치료**:
-  국소 치료에 반응하지 않거나 광범위한 경우 고려.
-  Itraconazole 또는 Fluconazole 사용.
-* **주의사항**:
-  치료 후에도 색소 변화는 수개월간 지속될 수 있음.
-  재발이 흔하여 예방적 요법이 필요할 수 있음.
-
+## 5. 치료
+- 1차적으로 케토코나졸·셀레늄 설파이드·테르비나핀·시클로피록스 등 국소 항진균제(샴푸·크림)를 적용하고, 2~3일간 반복 사용한다.
+- 국소 치료에 반응이 없거나 광범위·재발이 잦은 경우 피부과 전문의와 상의하여 경구 항진균제 전환을 검토한다.
+- 치료 후 색소 변화가 지속될 수 있으므로, 환자에게 색소 회복까지 수
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 치료에 잘 반응하나 재발률이 높음.

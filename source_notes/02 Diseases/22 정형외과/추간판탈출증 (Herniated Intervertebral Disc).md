@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 추간판탈출증
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[정형외과]]
 
@@ -39,10 +40,10 @@ reviewed_at: "2026-07-16"
 - 임상 증상과 신경학적 검사(SLR 등)를 바탕으로 MRI 소견을 종합하여 진단.
   영상 소견과 증상의 일치 여부(clinicoradiographic concordance)가 중요함.
 
-## 5. 치료 (Treatment)
-- 보존적 치료: 대부분의 환자에서 1차 치료로 시행.
-  안정, 약물 치료(NSAIDs), 물리 치료, 운동 요법 등을 포함.
-수술적 치료: 6주 이상의 보존적 치료에도 호전이 없거나 신경학적 결손이 진행되는 경우, 또는 마미 증후군(Cauda equina syndrome)과 같은 응급 상황 시 시행. 수술법으로는 추간판 절제술(discectomy) 등이 있음.
+## 5. 치료
+- 초기 4‑6주간은 NSAIDs 등 비스테로이드성 소염제와 함께 안정, 자세 교정, 가벼운 스트레칭·코어 강화 운동을 시행한다.
+- 물리치료(온열·전기자극·주동적 스트레칭)와 체중 부하를 최소화하는 활동 조절을 병행하여 기능 회복을 목표한다.
+- 6주 이상 증상이 호전되지 않거나 근력 저하·감각
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 보존적 치료로 호전됨.

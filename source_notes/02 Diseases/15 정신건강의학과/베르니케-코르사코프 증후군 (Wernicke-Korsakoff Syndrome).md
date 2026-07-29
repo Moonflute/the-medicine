@@ -11,14 +11,14 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: tier3_manual_current_principles
-reviewed_at: '2026-07-30'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders
 disease_family: psychiatry_split
 parent_disease: 물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)
 relation_to_parent: subtype
-content_updated_at: '2026-07-30'
+content_updated_at: "2026-07-30"
 ---
 ## 1. 개요
 - 정의: 티아민(비타민 B1) 결핍으로 인해 발생하는 급성 신경계 질환인 베르니케 뇌병증(Wernicke encephalopathy)과 그 후유증으로 나타나는 만성 기억 장애인 코르사코프 증후군(Korsakoff syndrome)을 통칭함.
@@ -38,9 +38,10 @@ content_updated_at: '2026-07-30'
 
 ## 5. 치료
 
-- **응급 thiamine 보충**: 혼돈, 안구운동 이상, 보행실조 또는 고위험 영양결핍에서 의심되면 검사 결과를 기다리지 않고 기관의 비경구 thiamine 경로를 적용한다. 탄수화물 투여 전후 thiamine 보충을 놓치지 않는다.
-- **동반 결핍 교정**: Mg를 포함한 전해질, 탈수, 저혈당, 영양 상태를 교정하고 알코올 금단 및 동반 간질환을 함께 관리한다.
-- **장기 재활**: 기억장애가 지속되면 재활·사회복지 연계와 금주 치료를 포함한 장기 계획이 필요하다. 의식저하·저체온·경련은 다른 원인도 병행 평가한다.
+- **응급 티아민 투여**: 베르니케 뇌병증 의심 시 검사 결과 대기 없이 즉시 비경구 티아민을 투여하며, 포도당(탄수화물) 공급 전 반드시 선행하여 대사성 악화를 방지한다.
+- **동반 상태 교정**: 마그네슘을 포함한 전해질 불균형, 탈수, 저혈당을 교정하고 알코올 금단 증상 및 간질환 등 동반 질환을 통합적으로 관리한다.
+- **장기적 관리 및 재활**: 코르사코프 증후군으로 이행된 경우 인지 재활, 사회복지 서비스 연계, 지속적인 금주 치료를 포함한 장기적인 다학제적 계획을 수립한다.
+- **감별 진단 및 모니터링**: 의식 저하, 경련, 저체온 등 신경학적 증상이 호전되지 않을 경우 뇌졸중, 뇌염 등 다른 기질적 원인에 대한 추가 평가를 병행한다.
 
 ## 6. 예후 및 합병증
 - 예후: 조기 치료 시 베르니케 뇌병증은 가역적일 수 있으나, 코르사코프 증후군으로 진행 시 영구적인 인지 기능 저하가 남을 수 있음.

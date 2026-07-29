@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - Constitutional Growth Delay
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -36,10 +37,12 @@ reviewed_at: "2026-07-16"
 * 가족력 조사 (부모의 사춘기 지연력 등)
 * 진단적 배제(Diagnosis of exclusion): 다른 병적 원인이 없음을 확인
 
-## 5. 치료 (Treatment)
-* **원칙**: 특별한 치료 없이 경과 관찰(Reassurance and monitoring)
-* **심리적 지지**: 사춘기 지연으로 인한 심리적 고충이 클 경우 상담 제공
-* **약물**: 일반적으로 성장호르몬 치료 대상이 아님
+## 5. 치료
+
+* **경과 관찰**: 병적 원인이 배제된 경우, 정기적인 신체 계측 및 성장 곡선 추적 관찰을 통해 정상적인 성장 속도를 유지하는지 확인한다.
+* **심리적 지지**: 또래와의 발달 차이로 인한 정서적 불안이나 스트레스에 대해 충분히 설명하고 안심시킨다.
+* **치료 결정**: 심각한 심리적 위축이 동반되는 경우에 한해 전문의 판단 하에 제한적인 호르몬 보조 요법을 고려할 수 있다.
+* **추적 검사**: 뼈 나이와 성장 속도를 주기적으로 재평가하여 예상 최종 키를 확인하고, 사춘기 발현 여부를 모니터링한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

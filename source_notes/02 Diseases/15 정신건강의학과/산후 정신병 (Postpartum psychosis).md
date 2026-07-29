@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 산후 정신병
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -37,10 +38,11 @@ relation_to_parent: subtype
 - 진단 핵심: 출산과의 시간적 연관성, 기질적 원인 배제, 과거 정신과적 병력 및 가족력 확인.
 
 ## 5. 치료
-- 원칙: 정신과적 응급 상황으로 즉각적인 입원 및 다학제적 접근 필요.
-- 약물 치료: 항정신병 약물, 기분 안정제(Lithium, Valproate 등) 사용. 리튬은 모유 수유 시 영아에게 이행되므로 수유 중단 고려.
-- 비약물 치료: 전기경련요법(ECT)은 약물 치료에 반응하지 않거나 급성기 증상 조절이 시급할 때 안전하고 효과적인 대안임.
-- 모니터링: 환자와 영아의 안전을 위한 지속적인 감시 및 사회적 지지 체계 구축.
+
+- **응급 입원 및 안전 확보**: 자해 및 영아 살해 위험이 매우 높으므로 즉각적인 폐쇄 병동 입원을 원칙으로 하며, 환자와 영아를 분리하여 안전을 최우선으로 확보함.
+- **약물 치료 및 수유 결정**: 항정신병 약물 및 기분 안정제를 우선 고려하되, 모유 수유를 통한 약물 이행 가능성을 평가하여 수유 지속 여부를 결정함.
+- **전기경련요법(ECT) 활용**: 급성기 증상이 심각하거나 약물 치료에 반응이 없는 경우, 산모에게 안전하고 효과적인 일차 치료법으로 적극 고려함.
+- **다학제적 관리 및 추적 관찰**: 산부인과, 소아청소년과와 협진하여 환자의 신체 상태와 영아의 발달을 모니터링하고, 퇴원 후 재발 방지를 위한 사회적 지지 체계 및 외래 추적 관찰 계획을 수립함.
 
 ## 6. 예후 및 합병증
 - 예후: 적절한 치료 시 빠르게 회복되는 경향이 있으나, 향후 임신 시 재발 위험이 높음.

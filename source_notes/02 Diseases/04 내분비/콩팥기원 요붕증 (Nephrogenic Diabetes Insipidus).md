@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -10,8 +11,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[내분비]]
 
@@ -37,10 +38,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 임상적 다뇨 및 다음 증상과 함께, 수분 제한 검사에서 소변 농축이 이루어지지 않고 외인성 AVP 투여에 반응이 없는 경우 진단.
 
-## 5. 치료 (Treatment)
-- 원인 교정: 약물 중단(리튬 등), 고칼슘혈증/저칼륨혈증 교정
-- 보존적 치료: 저염식(Na restriction), 수분 섭취 권장
-- 약물 치료: 티아지드(thiazide) 이뇨제, 아밀로라이드(amiloride), 비스테로이드성 소염진통제(NSAIDs, indomethacin) 등을 사용하여 소변량을 감소시킴.
+## 5. 치료
+- 원인 교정: 리튬 등 약물 중단 및 고칼슘·저칼륨혈증 교정
+- 저염식과 충분한 수분 섭취 권고로 탈수 예방 및 전해질 균형 유지
+- 티아지드 이뇨제와 아밀로라이드 병용 사용 시 소변량 감소, 전해질 및 혈압 정기 모니터링
+- NSAIDs(인도메타신) 사용 시 신장 기능 및 위장 부작용 감시 필요
+- 소변량·전해질·혈압 추적 관찰 및 탈수·전해질 이상 발생 시 신장·내분비 전문의 의뢰
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 수분 공급이 이루어지지 않을 경우 탈수 및 전해질 불균형 발생 가능.

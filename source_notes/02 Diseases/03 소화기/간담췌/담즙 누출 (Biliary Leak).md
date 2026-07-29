@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -55,12 +56,11 @@ reviewed_at: "2026-07-16"
 
 - **감별진단**: 수술 후 출혈, 감염, 장 폐쇄 등 다른 수술 후 합병증과 감별해야 한다.
 
-## 5. 치료 (Treatment)
-- 담즙 누출의 치료는 누출 부위와 정도에 따라 달라진다.
-  내시경적 담관 조영술(Endoscopic cholangiography)을 통해 담낭관 stump 누출을 확인한 후, 내시경적 쓸개관 스텐트 삽입술(Endoscopic Biliary Stent Insertion)을 시행하여 담즙의 흐름을 개선, 누출 부위의 압력을 낮춥니다.
-  이는 누출 부위의 자연 치유를 돕다.
-  담즙종이 형성된 경우 경피적 배액술(percutaneous drainage)을 통해 담즙을 배액한다.
-  수술적 치료는 내시경적 치료에 실패하거나 담도계 손상이 심한 경우에 고려된다.
+## 5. 치료
+- 내시경적 ERCP로 담관 조영 후 스텐트 삽입해 누출 압력을 낮추고 자연 치유를 돕는다.
+- 담즙종이 동반된 경우 초음파·CT 가이드하에 경피적 배액을 시행하고, 배액관 관리와 감염 예방에 주의한다.
+- 내시경·경피적 치료가 실패하거나 대량 누출·전신증상이 나타날 경우 외과적 복강 탐색 및 손상 부위 직접 봉합을 위해 즉시 외과 의뢰한다.
+- 치료 후
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

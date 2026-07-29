@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - Fallopian tube tumor
 - 난관 종양
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -43,12 +44,12 @@ reviewed_at: "2026-07-16"
 
 
 
-## 5. 치료 (Treatment)
-- 상피성 난소암에 준하여 치료함.
-- 수술적 제거: 근치적 수술(자궁 및 양측 난소-난관 절제술) 및 병기 설정 수술.
-- 보조 항암 화학요법: 수술 후 병기에 따라 시행.
+## 5. 치료
 
-
+* **수술적 치료**: 자궁 및 양측 난소-난관 절제술을 포함한 근치적 수술 및 병기 설정 수술 시행
+* **항암 화학요법**: 병리 결과 및 병기에 따라 상피성 난소암에 준하는 보조 항암 화학요법 시행
+* **추적 관찰**: 재발 확인을 위해 CA-125 수치 및 영상 검사를 포함한 정기적인 외래 추적 관찰 수행
+* **유전 상담**: BRCA 유전자 변이 등 유전적 요인이 의심되는 경우 유전 상담 및 가족 검사 권고
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 진단 시 병기에 따라 예후가 결정되며, 난소암과 유사한 경과를 보임.

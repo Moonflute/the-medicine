@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -10,8 +11,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -40,11 +41,12 @@ reviewed_at: "2026-07-16"
 - 임상적 병력(광범위한 소장 절제력) 및 흡수장애 증상 확인을 통해 진단
 
 
-## 5. 치료 (Treatment)
-- **영양 공급**: 초기에는 총정맥영양(TPN) 시행, 안정화 후 소량씩 자주 섭취하는 경구 식이 시도
-- **약물 치료**: 지사제(loperamide), 담즙산 흡수 장애 시 cholestyramine, 위산 과다 분비 억제 위한 PPI
-- **기타**: 비타민 및 미네랄 보충, 필요 시 GLP-2 유사체(teduglutide 등) 사용, 심한 경우 소장 이식 고려
-
+## 5. 치료
+- 초기 영양 지원은 총정맥영양(TPN)으로 시작하고, 장 적응이 진행되면 소량·자주 섭취하는 경구 식이로 전환한다.
+- 설사 조절을 위해 loperamide 사용, 담즙산 흡수 장애 시 cholestyramine, 위산 과다 시 PPI를 적용한다.
+- 비타민 B12, 비타민 D, 칼슘·마그네슘 등 필수 미네랄·비타민을 정기적으로 보충하고 혈중 농도를 모니터링한다.
+- GLP-2 유사체(예: teduglutide) 사용은 전문 소화기 내과 또는 영양팀과 협의 후 고려하고, 치료 반응과 부작용을 3개월 간격으로 평가한다.
+- 장 남은 길이가 100 cm 미만이거나 합병증이 심한 경우 장 이식 전문센터로 조기 의뢰한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **특징**:

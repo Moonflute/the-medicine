@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 불면 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,12 +40,11 @@ relation_to_parent: subtype
 - DSM-5 기준에 따라 다른 수면 장애, 물질 사용, 내과적 질환에 의한 증상이 아님을 확인.
 
 ## 5. 치료
-- 비약물적 요법 (1차 치료): 
-  - 수면 위생 교육: 규칙적인 수면 시간, 카페인/알코올 제한, 침실 환경 최적화.
-  - 자극 조절 치료: 침대는 수면만을 위해 사용.
-  - 수면 제한 요법: 침대에 누워 있는 시간을 실제 수면 시간과 일치시켜 수면 효율 증대.
-  - 인지 치료: 수면에 대한 잘못된 믿음 교정.
-- 약물 요법: 비약물적 요법에 반응이 없거나 증상이 심한 경우 단기간 사용 고려(벤조디아제핀 수용체 작용제, 멜라토닌 수용체 작용제 등).
+
+- **1차 치료:** 인지행동치료(CBT-I)를 우선 시행하며, 수면 위생 교육, 자극 조절, 수면 제한 요법을 통해 수면 효율을 개선함.
+- **약물 요법:** 비약물적 치료에 반응이 없거나 증상이 심한 경우, 의존성과 내성을 고려하여 최단기간 최소 용량으로 처방함.
+- **동반 질환 관리:** 불면증의 원인이 되는 우울, 불안, 하지불안증후군 등 기저 질환을 우선적으로 평가하고 치료함.
+- **추적 관찰 및 전원:** 치료 반응이 없거나 수면 무호흡증 등 다른 수면 장애가 의심되는 경우 수면 전문의에게 의뢰하거나 수면 다원 검사를 고려함.
 
 ## 6. 예후 및 합병증
 - 만성 불면증은 우울증, 불안 장애, 고혈압, 당뇨 등 대사 질환의 위험을 높임.

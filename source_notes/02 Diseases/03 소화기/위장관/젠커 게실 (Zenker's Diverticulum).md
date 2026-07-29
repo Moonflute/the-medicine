@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -42,12 +43,10 @@ reviewed_at: "2026-07-16"
 - 바륨식도조영술을 통해 확진하며, Lahey, Morton, Van Overbeek 분류법 등을 사용하여 게실의 크기에 따라 병기를 구분함.
 
 
-## 5. 치료 (Treatment)
-- **경과 관찰**: 2cm 미만의 무증상 게실.
-- **수술적 치료**: 증상이 있는 경우 시행.
-- **윤상인두근 절개술(Cricopharyngeus myotomy)**: 압력 구역을 해소하기 위해 필수적.
-- **게실 절제술 또는 내시경적 게실 절개술(stapler 또는 레이저 사용)**: 게실 주머니를 제거하거나 식도와 연결하여 내용물 정체를 방지.
-
+## 5. 치료
+- 무증상·2 cm 이하의 작은 게실은 정기 바륨조영술과 증상 관찰로 경과 관찰, 급격한 증상 악화 시 즉시 이비인후과·외과 의뢰.
+- 증상이 있거나 2 cm 초과 시 크리코패링스 근절술(근육 절개) 및 필요 시 게실 절제·조절술을 시행, 수술 전 전신 상태·심폐 평가 필수.
+- 고령 환자·마취 위험이 큰 경우 내시경적 스템 절개술을 우선 고려하고, 시술 중 기도 보호와 출혈 모니터링을 철저히
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 흡인성 폐렴, 식도 폐쇄, 누공 형성, 종격동염 등.

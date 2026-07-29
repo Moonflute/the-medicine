@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -40,10 +41,12 @@ reviewed_at: "2026-07-16"
 - 혈액 또는 뇌척수액 배양에서 리스테리아 모노사이토제네스 동정.
   그람 염색의 민감도는 낮을 수 있음.
 
-## 5. 치료 (Treatment)
-- 1차 치료제: 암피실린 (Ampicillin) 정맥 투여 (필요 시 젠타마이신 (Gentamicin) 병용)
-- 2차 치료제: 박트림 (Trimethoprim-sulfamethoxazole) (페니실린 알레르기 환자)
-- 참고: 세팔로스포린 계열 항생제는 리스테리아에 효과가 없으므로 경험적 치료 시 주의 필요
+## 5. 치료
+- 1차 치료는 정맥 암피실린 투여이며, 중증 감염·뇌수막염·균혈증 시 젠타마이신 병용을 고려합니다.
+- 페니실린 알레르기 환자는 트리메토프림‑설파메톡사졸(박트림)으로 교체합니다.
+- 젠타마이신 사용 시 신장 기능 및 혈청 농도 모니터링을 시행합니다.
+- 치료 종료 전(보통 4~6주) 혈액·CSF 배양 재검사와 임상 호전 여부를 평가하고, 필요 시 감염내과·신경과 협진을 요청합니다.
+- 고위험군(임산부, 노인, 면역억제 환자)에게 저온 살균 식품 회
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 임산부, 신생아, 면역 저하 환자에서 중증 감염 및 사망 위험이 높음.

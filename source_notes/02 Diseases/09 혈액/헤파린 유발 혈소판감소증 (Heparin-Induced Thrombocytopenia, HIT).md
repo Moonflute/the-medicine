@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - HIT
 유형:
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[혈액]]
 
@@ -40,10 +41,12 @@ reviewed_at: "2026-07-16"
   4T 점수 4점 이상 시 즉시 헤파린 중단 및 대체 항응고제 고려.
   항체 검사(ELISA) 및 기능적 검사(SRA)로 확진.
 
-## 5. 치료 (Treatment)
-- 모든 헤파린 (UFH, LMWH, 라인 플러시 포함) 즉시 중단.
-  대체 항응고제 투여: 아르가트로반 (argatroban), 비발리루딘 (bivalirudin), 폰다파리눅스 (fondaparinux) 또는 DOAC 고려.
-  와파린은 급성기 사용 금지 (단백질 C 고갈로 인한 피부 괴사 위험).
+## 5. 치료
+- 헤파린(UFH, LMWH, 라인 플러시 포함)을 즉시 중단하고, 비헤파린 항응고제로 전환한다.
+- 대체 항응고제 선택 시 신부전·간기능·출혈 위험을 고려하고, 필요 시 aPTT·anti‑Xa 등으로 항응고 효과를 모니터링한다.
+- 급성기에는 와파린 사용을 피하고, 전환이 필요할 경우 혈소판 수 회복 후 적절한 겹치기 기간을 두어 피부 괴사 위험을 최소화한다.
+- 혈전 발생 여부를 평가하기 위해 초음파·CT 등 영상 검사를 시행하고, 혈전증이 확인되면 혈액내과·혈전증 클리닉에 의뢰한다.
+- 혈소판 수와 HIT 항체 검사를 2~3일 간
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 높은 혈전증 발생률 및 사망률.

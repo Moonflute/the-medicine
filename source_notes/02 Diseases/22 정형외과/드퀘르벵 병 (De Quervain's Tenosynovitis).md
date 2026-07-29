@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 드퀘르벵 병
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[정형외과]]
 
@@ -39,9 +40,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 전형적인 병력과 신체 검진(Finkelstein test 등)을 통해 진단.
 
-## 5. 치료 (Treatment)
-- 보존적 치료: 휴식, 엄지 고정 부목(thumb spica brace), NSAIDs, 스테로이드 국소 주사.
-- 수술적 치료: 보존적 치료에 반응하지 않는 경우 제1 신전 구획 감압술(건 박리 및 건초 절개).
+## 5. 치료
+- 휴식과 엄지 고정 부목(thumb spica brace) 착용으로 증상 악화 방지
+- NSAIDs와 필요 시 초음파 유도 스테로이드 국소 주사 시행, 주사 후 1~2주간 증상 관찰
+- 4~6주간 보존적 치료에 반응이 없거나 기능 제한이 지속될 경우 정형외과 전문의에게 수술적 감압술 의뢰
+- 수술 후 2주 이내 부목 유지 및 손목·엄지 움직임 제한, 이후 물리치료와 점진적 활동 재개
+- 재발 방지를 위해 손목·엄지 과사용을 피하고 작업 자세 교정 및 스트레칭 교육 실시
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 보존적 치료로 호전됨.

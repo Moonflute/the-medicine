@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - febrile non hemolytic transfusion reaction
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[외과]]
 
@@ -37,10 +38,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 수혈 중 또는 수혈 종료 후 4시간 이내에 발열(1℃ 이상)이 발생하고, 용혈성 수혈 반응, 세균 오염, 아나필락시스 등 다른 원인이 배제된 경우 임상적으로 진단.
 
-## 5. 치료 (Treatment)
-- 수혈 즉시 중단.
-- 증상이 경미한 경우: 해열제(아세트아미노펜 등) 투여 및 증상 관찰.
-- 증상이 심하거나 용혈성 반응이 배제되지 않은 경우: 수액 요법 및 추가적인 정밀 검사 시행.
+## 5. 치료
+- 수혈을 즉시 중단하고 환자의 활력징후와 증상을 지속적으로 모니터링한다.
+- 경미한 발열 시 해열제(예: 아세트아미노펜) 투여 후 체온 및 전반적 상태 변화를 관찰한다.
+- 저혈압, 호흡곤란 등 중증 증상이 나타나면 수액 보충 및 응급 의료팀에 즉시 연락한다.
+- 재발 방지를 위해 다음 수혈부터 백혈구 제거 혈액제제(leukoreduced blood products) 사용을 요청하고, 반응 기록을 전산에 입력한다.
+- 24시간 이내에 증상이 호전되지 않거나 원인 불명인 경우 혈액학·감염내과 전문의와 협진한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후: 대부분 양호, 대증 요법으로 호전됨.

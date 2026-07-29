@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 범저감마글로불린혈증
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -37,9 +38,12 @@ reviewed_at: "2026-07-16"
 * 백신 항원에 대한 항체 반응 평가
 * 이차성 원인(단백 소실, 약물 등) 배제
 
-## 5. 치료 (Treatment)
-* **면역글로불린 보충 요법 (IVIG 또는 SCIG)**: 정기적인 투여를 통해 혈중 IgG 농도 유지
-* **항생제**: 감염 발생 시 조기 투여 및 필요시 예방적 항생제 사용
+## 5. 치료
+
+* **면역글로불린 보충 요법**: 정기적인 IVIG 또는 SCIG 투여를 통해 혈중 IgG 최저 농도(trough level)를 적정 수준으로 유지
+* **감염 관리**: 반복적인 세균 감염 예방을 위해 필요시 예방적 항생제 요법 고려 및 감염 징후 시 즉각적인 항생제 투여
+* **예방접종 주의**: 생백신(live vaccine)은 접종 금기이며, 사백신은 항체 생성 반응이 낮을 수 있음을 인지
+* **전문의 의뢰 및 추적 관찰**: 면역학 전문의의 지속적인 관리 하에 정기적인 혈청 면역글로불린 농도 측정 및 합병증(기관지 확장증 등) 모니터링 수행
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 지속적인 면역글로불린 보충으로 감염 빈도 감소 및 삶의 질 개선 가능

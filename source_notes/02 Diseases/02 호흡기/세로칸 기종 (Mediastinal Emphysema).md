@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[호흡기]]
 
@@ -34,11 +35,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 임상 증상, 신체 검진, 영상 검사 (CXR, CT)를 통해 진단.
 
-## 5. 치료 (Treatment)
-* 대부분 보존적 치료 (경과 관찰, 안정).
-* 고농도 산소 투여: 질소 분압을 낮추어 종격동 내 공기 흡수 가속.
-* 원인 질환(식도 파열 등)에 대한 근본적 치료.
-* 긴장성 기종(tension pneumomediastinum)으로 인한 심혈관계 압박 시 바늘 감압 또는 배액술 고려.
+## 5. 치료
+- 보존적 관리: 안정, 경과 관찰 및 고농도 산소 흡입으로 종격동 내 공기 흡수 촉진
+- 원인 질환(식도 파열, 기관지 손상 등) 즉시 치료 및 외상 시 외과적 평가
+- 긴장성 종격동 기종 의심 시 흉부외과에 신속 의뢰, 바늘 감압 또는 배액술 고려
+- 증상 악화(심혈관 압박, 호흡곤란) 시 모니터링 강화 및 중환자실 전환 검토
+- 재발 방지를 위해 기계적 환기 설정 최적화, 구토·기침 억제 등 예방 조치
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 예후: 대부분 양호하며 자연 치유됨.

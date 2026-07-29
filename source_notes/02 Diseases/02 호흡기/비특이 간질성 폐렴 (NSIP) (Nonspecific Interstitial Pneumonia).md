@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - NSIP
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[호흡기]]
 
@@ -33,8 +34,13 @@ reviewed_at: "2026-07-16"
 - 임상 경과, 영상 소견, 조직검사를 통합하여 진단한다.
 - 류마티스 질환, 약물 유발성 폐질환, 과민성 폐렴 등 다른 원인을 배제하는 과정이 중요하다.
 
-## 5. 치료 (Treatment)
-- 글루코코르티코이드(스테로이드)를 기본으로 하며, 필요 시 면역억제제(Mycophenolate mofetil, Azathioprine, Cyclophosphamide 등)를 병용한다.
+## 5. 치료
+
+- 기저 질환(류마티스 질환, 약물 독성 등)이 확인된 경우 해당 원인에 대한 교정 및 치료를 우선 시행한다.
+- 염증성 병변이 우세한 경우 글루코코르티코이드를 일차 치료제로 사용하며, 반응 및 부작용을 고려하여 면역억제제 병용을 결정한다.
+- 치료 반응이 불충분하거나 스테로이드 부작용이 우려되는 경우 면역억제제(Mycophenolate mofetil 등)로의 전환 또는 병용 요법을 고려한다.
+- 폐 기능 검사 및 흉부 영상 소견을 정기적으로 추적 관찰하여 질환의 진행 여부와 치료 효과를 평가한다.
+- 호흡기 증상 악화 시 폐렴 등 감염 여부를 감별하고, 필요시 산소 요법 및 폐 재활을 병행한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조직검사상 섬유화 정도가 심할수록 예후가 불량하다.

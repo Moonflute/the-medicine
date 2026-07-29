@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - Rh incompatibility
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : 산부인과
 
@@ -42,12 +43,10 @@ reviewed_at: "2026-07-16"
 - 태아 빈혈이 의심될 경우 제대혈 천자를 통해 태아 혈액형 및 헤모글로빈 수치 확인.
 
 
-## 5. 치료 (Treatment)
-- **태아**:
-  빈혈 정도에 따라 자궁 내 수혈(intrauterine transfusion) 시행.
-  중증 빈혈 시 32~35주경 분만 고려.
-- **신생아**: 광선치료, 교환수혈(exchange transfusion).
-
+## 5. 치료
+- 태아 빈혈이 중등도 이상이면 MCA‑PSV 상승을 근거로 자궁 내 수혈을 계획하고, 시술 전·후 태아 심박수와 출혈 위험을 지속적으로 모니터링한다.
+- 중증 빈혈 또는 양수량 증가가 동반될 경우 32~35주에 조산을 고려하고, 산부인과·신생아팀과 협의하여 분만 시점과 신생아 지원을 조정한다.
+- 출생 직후
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예방**:

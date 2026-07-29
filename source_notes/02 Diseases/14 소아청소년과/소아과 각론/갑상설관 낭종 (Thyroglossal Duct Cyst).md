@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - thyroglossal duct cyst
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -37,10 +38,12 @@ reviewed_at: "2026-07-16"
 * 임상적 특징(중앙선 종괴, 연하 시 움직임) 및 초음파 소견을 종합하여 진단
 * 감별 진단: 유피낭종(dermoid cyst), 제2새열낭종(branchial cleft cyst), 림프절염 등
 
-## 5. 치료 (Treatment)
-* **수술적 절제**: 표준 치료법은 시스트렁크 수술(Sistrunk procedure)
-* **시스트렁크 수술**: 낭종뿐만 아니라 설골(hyoid bone)의 중앙부와 설골 주위 조직을 함께 절제하여 재발률을 낮춤
-* **감염 시**: 수술 전 항생제 치료를 통해 염증을 조절한 후 절제 시행
+## 5. 치료
+
+* **수술적 절제**: 재발 방지를 위해 낭종과 설골 중앙부를 포함하여 절제하는 시스트렁크(Sistrunk) 수술을 시행함.
+* **감염 관리**: 급성 감염 시 항생제 치료를 우선 시행하여 염증을 조절한 후 수술적 절제를 고려함.
+* **수술 전 평가**: 초음파를 통해 정상 갑상선 조직의 존재 여부를 반드시 확인하여 이소성 갑상선 가능성을 배제함.
+* **추적 관찰**: 수술 후 재발 여부 및 드물게 발생할 수 있는 악성 변화 가능성을 확인하기 위해 정기적인 경과 관찰이 필요함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 시스트렁크 수술 시 재발률은 5% 미만으로 매우 양호

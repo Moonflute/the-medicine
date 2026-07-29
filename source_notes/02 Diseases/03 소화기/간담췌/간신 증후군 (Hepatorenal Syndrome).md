@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -50,10 +51,12 @@ reviewed_at: "2026-07-16"
 
 - **감별진단**: 급성 세뇨관 괴사(ATN), 신독성 약물 유발성 신부전, 저혈량증에 의한 신전성 신부전 등과 감별이 필요하다.
 
-## 5. 치료 (Treatment)
-- 신혈관 수축을 완화, 유효 혈액량을 증가시키는 것이 핵심.
-  테르리프레신(Terlipressin) 등 혈관수축제와 알부민 정맥 주사를 병용한다.
-  근본적인 치료는 간 이식(Liver Transplantation), 이식 후 신기능이 회복될 수 있다.
+## 5. 치료
+
+* 혈관수축제와 알부민 병용 요법을 통해 내장 혈관 확장 및 유효 혈액량 감소를 교정한다.
+* 신독성 약물(NSAIDs, 아미노글리코사이드 등) 사용을 즉시 중단하고, 감염(특히 SBP)이 의심될 경우 신속하게 항생제를 투여한다.
+* 치료 반응이 없거나 진행성 간부전이 동반된 경우 간 이식을 우선적으로 고려하며, 이식 전까지 신대체 요법(CRRT)을 시행할 수 있다.
+* 치료 중에는 혈역학적 상태와 전해질 불균형을 면밀히 모니터링하고, 과도한 이뇨제 사용을 피하여 혈관 내 용적을 유지한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

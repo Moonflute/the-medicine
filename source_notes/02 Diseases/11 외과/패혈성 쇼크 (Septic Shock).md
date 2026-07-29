@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - septic shock
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 
 관련분과:
 - 응급의학
@@ -48,12 +49,11 @@ reviewed_at: "2026-07-16"
 - **qSOFA**: 의식 변화, SBP ≤ 100mmHg, RR ≥ 22회/분 중 2개 이상 해당 시 패혈증 위험군으로 분류.
 
 
-## 5. 치료 (Treatment)
-- **초기 소생술**: 1시간 이내 광범위 항생제 투여 및 감염원 제거(source control).
-- **혈역학적 목표**: MAP > 65mmHg 유지, CVP 8~12mmHg 목표.
-- **수액 및 약물**: 결정질액(NS, 하트만) 수액 소생술 후 반응 없으면 노르에피네프린(NE) 우선 투여.
-- **항생제**: 환자 상태 및 기저 질환 고려(건강한 경우: Piper/Tazo, cefepime, meropenem + vancomycin / 무비증: ceftriaxone + vancomycin).
-
+## 5. 치료
+- **초기 소생술**: 1시간 이내 혈액 배양 검사 후 광범위 항생제 투여를 시작하고, 결정질액을 이용한 신속한 수액 소생술을 시행함.
+- **감염원 제거**: 농양 배액, 괴사 조직 절제, 감염된 도관 제거 등 근본적인 감염원 제거(source control)를 조기에 시행함.
+- **혈역학적 관리**: 수액 소생술 후에도 저혈압이 지속되면 평균 동맥압(MAP) 65mmHg 유지를 위해 혈압 상승제를 투여함.
+- **모니터링 및 추적**: 젖산 수치 재검사 및 소변량 측정을 통해 조직 관류 개선 여부를 지속적으로 평가함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 다장기 부전(MODS)으로 진행 시 사망률이 매우 높음(최대 50% 이상).

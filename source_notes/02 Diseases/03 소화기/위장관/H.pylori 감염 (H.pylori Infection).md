@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -48,11 +49,12 @@ reviewed_at: "2026-07-16"
 - 내시경 검사 시 CLO test 또는 조직검사로 확진.
 
 
-## 5. 치료 (Treatment)
-* **1차 제균 요법**: PPI + Amoxicillin + Clarithromycin (표준 3제 요법).
-* **2차 제균 요법**: PPI + Bismuth + Metronidazole + Tetracycline (4제 요법).
-* 내성 증가로 인해 지역사회 내성률을 고려한 약제 선택이 중요하며, 10~14일간 투여 권장.
-
+## 5. 치료
+- 1차 제균 요법: PPI + 아목시실린 + 클라리트로마이신을 10–14일간 시행한다.
+- 2차 제균 요법: PPI + 비스무스 + 메트로니다졸 + 테트라사이클린을 내성 여부에 따라 선택한다.
+- 치료 종료 후 최소 4주가 지난 시점에 요소날숨검사 또는 대변 항원검사로 제균 성공을 확인한다.
+- 위장관 부작용이나 알레르기 반응이 나타날 경우 즉시 약물 복용을 중단하고 필요 시 알레르기 전문의에게 의뢰한다.
+- 재감염 예방을 위해 개인 위생 관리(손 씻기, 식품 위생)와 가족·동거인 검사를 고려한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 제균 성공 시 위염 및 궤양 재발률 감소.

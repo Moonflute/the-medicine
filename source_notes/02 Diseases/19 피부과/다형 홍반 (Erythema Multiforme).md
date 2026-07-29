@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 다형 홍반
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[피부과]]
 
@@ -41,11 +42,12 @@ reviewed_at: "2026-07-16"
 * SJS(스티븐스-존슨 증후군) 및 TEN(독성 표피 괴사용해)과의 감별이 중요함.
 
 
-## 5. 치료 (Treatment)
-* **급성기**: 원인 약물 중단 및 대증적 치료(통증 조절, 상처 관리).
-* **감염 관련**: HSV 연관 시 acyclovir 등 항바이러스제 투여 고려.
-* **재발 방지**: 재발성 HSV 연관 다형 홍반의 경우 acyclovir 또는 valacyclovir 장기 예방 요법(6개월 이상) 고려.
-
+## 5. 치료
+- 원인 약물·감염을 중단하고, 통증 조절 및 병변 부위 청결·보호 등 대증적 관리 시행
+- HSV 연관이 의심될 경우 항바이러스제 사용을 고려하고, 처방은 담당 의사와 상의
+- 점막 침범, 전신 증상(발열, 탈수) 등 중증 징후가 나타나면 입원 및 피부과·전문의 의뢰
+- 재발 위험이 높은 환자는 장기 항바이러스 예방 요법을 검토하고, 필요 시 예방적 치료 계획 수립
+- 1~2주 후 병변 호전 여부를 확인하고, 색소 침착·흉터 관리 및 추적 관찰 계획을 수립
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 대부분 2주 이내에 자연 치유되는 양호한 경과를 보임.

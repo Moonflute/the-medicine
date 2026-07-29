@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -43,12 +44,11 @@ reviewed_at: "2026-07-16"
   신경학적 질환(예: 척수 종양) 감별 필요.
 
 
-## 5. 치료 (Treatment)
-- **소아**: 보존적 치료(배변 시 힘주기 교정, 둔부 테이핑 등).
-- **성인**: 수술적 치료가 원칙.
-- 점막 탈출: 과도한 점막 절제술.
-- 직장 탈출증(Procidentia): 직장고정술(rectopexy)이 표준적이나, 수술 위험도가 높은 경우 회음부 접근 수술(Delorme 또는 Altemeier 술식) 고려.
-
+## 5. 치료
+- 소아는 배변 습관 교정, 변비 관리, 필요 시 둔부 테이핑 등 보존적 치료를 우선 시행한다.
+- 성인 직장 탈출증은 수술적 교정이 원칙이며, 환자 연령·전신 상태·탈출 정도에 따라 복강경·복강내 직장고정술(rectopexy) 또는 회음부 접근술(Delorme, Altemeier) 중 선택한다.
+- 수술 전 대장내시경·바륨 관장 등으로 동반 병변을 확인하고, 고령·심혈관·호흡기 위험이 있는 경우 마취·수술 위험 평가 후 전문 외과 의뢰한다.
+- 수술 후 2~4주간 항문 위생 유지·변비 예방(식이섬유·수분 섭취)·정기 추적(탈
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 감돈(incarceration)이나 심한 탈출 시 통증 발생 가능.

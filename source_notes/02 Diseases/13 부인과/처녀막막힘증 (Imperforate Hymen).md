@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - imperforate hymen
 유형:
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -41,11 +42,11 @@ reviewed_at: "2026-07-16"
 - 신체 검진상 질 입구의 폐쇄성 막 확인 및 초음파를 통한 혈액 저류 확인으로 진단.
 - 감로성 질 중격(transverse vaginal septum) 등 다른 질 기형과의 감별이 필요함.
 
-## 5. 치료 (Treatment)
-- **수술**: 십자절개술(cruciate incision) 또는 처녀막 절제술(hymenectomy)을 통해 배액 및 개구부 확보.
-- **주의사항**:
-  외래에서의 단순 절개는 유착 및 재폐쇄 위험이 높으므로 수술실에서 시행하는 것이 원칙임.
-  수술 후 재폐쇄 방지를 위해 에스트로겐 크림 도포가 권장될 수 있음.
+## 5. 치료
+- **수술적 교정**: 십자절개술(cruciate incision) 또는 처녀막 절제술을 통해 저류된 혈액을 배액하고 질 개구부를 확보함.
+- **수술 환경**: 유착 및 재폐쇄 위험을 최소화하기 위해 외래가 아닌 수술실에서 무균적으로 시행함.
+- **재발 방지**: 수술 후 절개 부위의 유착 및 재폐쇄를 방지하기 위해 국소 에스트로겐 크림 도포를 고려함.
+- **추적 관찰**: 수술 후 질 개구부의 개방성 유지 여부와 자궁 및 질 내 저류액의 소실 여부를 정기적으로 확인함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 적절한 수술 시 예후가 좋음.

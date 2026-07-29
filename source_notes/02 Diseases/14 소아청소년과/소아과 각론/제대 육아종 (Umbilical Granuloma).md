@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - umbilical granuloma
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -31,9 +32,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 * 전형적인 임상 증상 및 신체 검진을 통해 진단
 
-## 5. 치료 (Treatment)
-* **화학적 소작**: 10% 질산은(silver nitrate) 용액을 도포하여 육아 조직을 제거
-* **기타**: 증상이 지속되거나 재발하는 경우 외과적 절제 또는 결찰 고려
+## 5. 치료
+
+* **화학적 소작**: 10% 질산은(silver nitrate) 도포 시 주변 정상 피부에 닿지 않도록 주의하며, 필요시 수회 반복 시행함
+* **감별 진단**: 소작술 후에도 분비물이 지속되거나 육아종이 재발하는 경우 배꼽 누공(urachal remnant) 등 선천성 기형 가능성을 고려함
+* **위생 관리**: 치료 부위가 건조하게 유지되도록 관리하며, 이차 감염 징후(발적, 부종, 농성 분비물) 발생 시 즉시 내원하도록 교육함
+* **추적 관찰**: 치료 후 육아종의 소실 여부와 배꼽 부위의 상처 치유 과정을 정기적으로 확인함
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 적절한 치료 후 대부분 완치됨

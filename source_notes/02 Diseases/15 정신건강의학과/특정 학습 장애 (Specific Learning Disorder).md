@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 특정 학습 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -41,10 +42,12 @@ relation_to_parent: subtype
   - 지적 장애, 시청각 장애, 환경적 요인으로 더 잘 설명되지 않아야 함.
 
 ## 5. 치료
-- 다학제적 접근: 교육 전문가, 심리학자, 임상의의 협력.
-- 교육적 개입: 개별화 교육 프로그램(IEP) 수립, 읽기/쓰기/수학 영역별 맞춤형 보정 교육.
-- 심리 치료: 인지행동치료를 통한 자존감 향상 및 정서적 적응 지원.
-- 동반 질환 관리: ADHD 등 공존 질환에 대한 약물 치료 및 행동 치료 병행.
+
+- 다학제적 접근: 교육 전문가, 심리학자, 임상의가 협력하여 개별화 교육 프로그램(IEP)을 수립하고 영역별 보정 교육을 시행함.
+- 심리 사회적 지원: 인지행동치료를 통해 학습 실패로 인한 낮은 자존감, 불안, 우울 등 정서적 문제를 관리함.
+- 동반 질환 관리: ADHD 등 공존하는 신경발달장애에 대해 적절한 약물 치료 및 행동 치료를 병행함.
+- 환경적 조정: 학교 및 가정 내에서 학습 환경을 최적화하고, 학생의 강점을 활용한 보완적 학습 전략을 교육함.
+- 정기적 추적 관찰: 학업 성취도 변화와 정서적 적응 상태를 주기적으로 평가하여 개입 계획을 수정함.
 
 ## 6. 예후 및 합병증
 - 예후: 조기 발견 및 맞춤형 개입 시 학업적 성취 및 기능적 독립 가능.

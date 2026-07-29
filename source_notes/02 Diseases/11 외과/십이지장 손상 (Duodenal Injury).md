@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - duodenal injury
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[외과]]
 
@@ -36,10 +37,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 복부 CT를 통해 후복막 공기, 조영제 유출, 십이지장 벽의 비후 등을 확인하여 진단함.
 
-## 5. 치료 (Treatment)
-- 열상: 단순 봉합(primary repair).
-- 중증 손상: 괴사 조직 제거 및 부분 절제술, 십이지장-공장 문합술(Roux-en-Y) 등.
-- 수술적 접근이 원칙, 손상 정도에 따라 술식이 결정됨.
+## 5. 치료
+
+- **수술적 원칙**: 손상 정도에 따라 단순 일차 봉합, 십이지장 게실화(duodenal diverticulization), 또는 췌십이지장 절제술을 포함한 광범위한 재건술을 시행함.
+- **후복막 관리**: 후복막 손상 동반 시 충분한 배액관(drain) 삽입을 통해 누공 발생에 대비하고 합병증을 조기에 감시함.
+- **영양 및 감시**: 수술 후 십이지장 누공 및 복강 내 농양 발생 여부를 면밀히 관찰하며, 장기적인 영양 공급 계획을 수립함.
+- **전원 고려**: 췌장이나 담도 손상이 동반된 고도 손상의 경우, 고난도 재건술이 가능한 상급 외상 센터로의 신속한 전원을 고려함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 십이지장 누공(duodenal fistula), 복강 내 농양, 췌장염 등이 발생할 수 있음.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 뚜렛 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -34,9 +35,12 @@ relation_to_parent: subtype
 - DSM-5 진단 기준: 18세 이전에 발병하며, 운동 틱과 음성 틱이 1년 이상 지속되고 다른 의학적 상태나 약물에 의한 것이 아님을 확인.
 
 ## 5. 치료
-- 원칙: 증상이 일상생활에 지장을 줄 때 치료를 고려하며, 약물 치료와 비약물 치료를 병행.
-- 약물 치료: Alpha-2 adrenergic agonists(Clonidine, Guanfacine), 항정신병 약물(Risperidone, Aripiprazole 등)을 증상 조절을 위해 사용.
-- 비약물 치료: 습관 반전 훈련(Habit Reversal Training, HRT)을 포함한 인지행동치료, 부모 교육 및 환경 조절.
+
+- **치료 결정**: 증상이 일상생활, 학업, 대인관계에 현저한 지장을 줄 때 치료를 시작하며, 환자와 보호자에게 틱의 자연 경과를 교육하여 불안을 완화함.
+- **비약물적 접근**: 습관 반전 훈련(HRT) 및 포괄적 행동 개입(CBIT)을 우선 고려하고, 학교와 가정 내 환경 조절을 통해 스트레스 요인을 최소화함.
+- **약물 치료**: 증상 조절을 위해 Alpha-2 효능제 또는 항정신병 약물을 사용하며, 부작용 모니터링과 함께 최소 유효 용량으로 유지함.
+- **공존 질환 관리**: ADHD, 강박장애 등 동반 질환이 증상을 악화시킬 수 있으므로 이에 대한 병행 치료 및 통합적 관리를 시행함.
+- **추적 관찰 및 전원**: 증상의 변화와 약물 순응도를 정기적으로 평가하며, 치료 저항성 틱이나 심각한 정서적 문제가 동반될 경우 상급 기관으로의 전원을 고려함.
 
 ## 6. 예후 및 합병증
 - 예후: 청소년기를 지나며 증상이 완화되는 경우가 많으나, 일부는 성인기까지 지속됨.

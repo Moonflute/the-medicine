@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 긴장형두통
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신경과-신경외과]]
 
@@ -47,14 +48,11 @@ reviewed_at: "2026-07-16"
 
 
 
-## 5. 치료 (Treatment)
-- **급성기**:
-  진통제(NSAIDs, Acetaminophen).
-  트립탄 계열은 효과 없음.
-- **예방**: 만성 긴장형 두통 시 삼환계 항우울제(Amitriptyline) 고려.
-- **비약물적**: 스트레스 관리, 물리치료, 자세 교정, 수면 위생 개선.
-
-
+## 5. 치료
+- 급성 두통 시 NSAIDs 또는 아세트아미노펜을 필요에 따라 복용하고, 효과가 없을 경우 비약물적 방법을 병행한다.
+- 비약물적 관리: 자세 교정, 근육 이완 스트레칭·물리치료, 스트레스 관리, 수면 위생 개선을 일상에 포함한다.
+- 만성·빈번한 경우(월 15일 이상) 삼환계 항우울제(예: 아미트립틸린) 고려하되, 졸음·구강건조 등 부작용을 모니터링한다.
+- 두통이 급격히 악
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 예후가 양호하나, 빈도가 잦을 경우 만성 긴장형 두통으로 이행될 수 있음.

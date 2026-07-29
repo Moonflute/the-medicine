@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[순환기]]
 
@@ -44,18 +45,12 @@ reviewed_at: "2026-07-16"
 - **감별진단**: 심방조동 시 아데노신(Adenosine) 투여 후 Sawtooth appearance 관찰 시 AFL, 그렇지 않으면 PSVT 시사.
 
 ## 5. 치료
-- **조기 박동**:
-  무증상 시 경과관찰.
-  유증상 시 베타차단제(BB) 또는 비디하이드로피리딘계 칼슘채널차단제(non-DHP CCB) 투여.
-  구조적 심질환 시 항부정맥제 주의.
-- **심방세동 및 심방조동 치료 3요소**
-- **항응고 요법**:
-  CHA2DS2-VASc score 2점 이상(여성 3점) 시 시행.
-  1점(여성 2점) 시 고려.
-- 1st line: DOAC/NOAC(Dabigatran, Rivaroxaban, Apixaban, Edoxaban).
-- Warfarin 적응증: 승모판협착(MS), 인공 판막, 심한 신부전.
-- **심박수 조절(Rate control)**: 1차(베타차단제, non-DHP CCB), 2차(디곡신, 아미오다론).
-- **리듬 조절(Rhythm control)**: 항부정맥제(Class I, III), DC cardioversion, RFCA(전극도자절제술).
+
+- **조기 박동**: 무증상 시 경과 관찰하며, 유증상 시 유발 요인(카페인, 스트레스, 전해질 불균형) 교정 및 필요시 베타차단제 등 약물 치료를 고려함.
+- **심방세동/조동의 위험도 평가**: CHA2DS2-VASc 점수를 통해 뇌졸중 위험을 평가하고, 적응증에 따라 항응고 요법(DOAC 또는 와파린)을 우선적으로 시행함.
+- **심박수 및 리듬 조절**: 환자의 증상과 혈역학적 상태에 따라 심박수 조절(Rate control) 또는 리듬 조절(Rhythm control, 전기적 제세동 또는 전극도자절제술)을 선택함.
+- **구조적 심질환 확인 및 추적 관찰**: 심초음파를 통해 기저 심질환 유무를 반드시 확인하고, 부정맥의 빈도나 증상 변화에 따른 정기적인 심전도 추적 관찰을 시행함.
+- **전원 고려**: 혈역학적으로 불안정하거나, 약물 치료에 반응하지 않는 빈맥, 또는 고위험군 부정맥이 의심되는 경우 순환기내과 전문의에게 의뢰함.
 
 ## 6. 예후 및 합병증
 - **합병증**: 심부전, 혈전색전증(뇌졸중 등), 빈맥 유발성 심근병증(Tachycardia-induced cardiomyopathy).

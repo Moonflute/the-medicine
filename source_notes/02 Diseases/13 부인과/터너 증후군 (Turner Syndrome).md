@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - turner syndrome
 유형:
@@ -15,8 +16,8 @@ document_role: "specialty_perspective"
 parent_disease: "터너 증후군 (Turner Syndrome)"
 relation_to_parent: "reproductive_endocrine"
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -38,10 +39,12 @@ reviewed_at: "2026-07-16"
 - 임상적 의심(저신장, 사춘기 지연 등) 시 핵형 분석을 통해 확진.
 - 모자이크형(mosaicism)의 경우 더 많은 세포군 분석이 필요할 수 있음.
 
-## 5. 치료 (Treatment)
-- **저신장**: 성장호르몬(GH) 요법.
-- **사춘기 유도 및 유지**: 에스트로겐(E) 및 프로게스테론(P) 보충 요법.
-- **다학제적 관리**: 심장, 내분비, 유전학 등 전문의의 장기적인 추적 관찰 및 합병증 관리.
+## 5. 치료
+
+- **성장 및 발달 관리**: 저신장 개선을 위한 성장호르몬 치료와 이차 성징 발현을 위한 적절한 시기의 호르몬 대체 요법(HRT) 시행.
+- **합병증 선별 검사**: 심혈관(대동맥 박리 등), 신장, 갑상선 기능, 청력 및 골밀도에 대한 정기적인 영상 및 혈액 검사 시행.
+- **다학제적 추적 관찰**: 소아청소년과, 내분비내과, 심장내과, 산부인과 등 전문의 협진을 통한 평생 건강 관리 체계 구축.
+- **임신 및 유전 상담**: 난임 가능성에 대한 상담과 필요 시 난자 공여 등 보조생식술에 대한 사전 정보 제공.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심혈관 질환(대동맥 박리 등), 자가면역 질환, 난청, 불임 등의 위험이 높으므로 평생 관리가 필요함.

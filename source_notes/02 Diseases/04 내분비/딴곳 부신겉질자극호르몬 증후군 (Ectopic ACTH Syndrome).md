@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[내분비]]
 
@@ -39,9 +40,11 @@ reviewed_at: "2026-07-16"
 - 쿠싱증후군 확진 후, 혈장 ACTH 농도가 높고 고용량 덱사메타손 억제 검사(High-dose dexamethasone suppression test)에 반응하지 않는 경우 의심하다.
 - 하추체정맥동 채혈(IPSS)을 통해 뇌하수체 기원과 딴곳 기원을 감별할 수 있다.
 
-## 5. 치료 (Treatment)
-- 원인 종양의 완전 절제가 일차 치료이다.
-- 수술이 불가능하거나 전이된 경우, 케토코나졸(ketoconazole)이나 메티라폰(metyrapone) 등 부신 스테로이드 합성 억제제를 사용하여 코르티솔 과다를 조절한다.
+## 5. 치료
+- 종양이 확인되면 외과적 절제를 최우선으로 시행하고, 전이·수술 불가능 시 폐절제·전이절제 등 다학제적 접근을 고려한다.
+- 수술이 어려운 경우 케톤코나졸·메티라폰 등 부신 스테로이드 합성 억제제로 코르티솔 과다를 조절하고, 간기능·위장관 부작용을 정기적으로 모니터링한다.
+- 고코르티솔혈증에 따른 저칼륨혈증, 고혈압, 당뇨 등 합병증을 예방·관리하기 위해 전해질 보충, 항고혈압제·당뇨약 조정 및 생활습관 교정을 시행한다.
+- 내분비·종양 전문의와
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인 종양의 악성도에 따라 예후가 결정된다.

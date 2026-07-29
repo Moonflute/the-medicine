@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - transfusion associated circulatory overload
 유형:
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[외과]]
 
@@ -42,12 +43,12 @@ reviewed_at: "2026-07-16"
 - 폐부종의 방사선학적 증거
 - BNP 수치 상승
 
-## 5. 치료 (Treatment)
-- **수혈 중단**: 즉시 수혈을 중단함.
-- **자세**: 환자를 앉은 자세로 유지하여 호흡을 돕고 정맥 환류량을 줄임.
-- **이뇨제**: 필요 시 루프 이뇨제(furosemide 등) 투여.
-- **산소 요법**: 저산소혈증 시 산소 공급.
-- **예방**: 고위험군(심부전, 신부전, 고령)에서 수혈 속도 조절 및 소량씩 분할 수혈, 필요 시 수혈 전후 이뇨제 예방적 투여.
+## 5. 치료
+
+*   즉시 수혈을 중단하고 환자를 앉은 자세로 유지합니다.
+*   저산소혈증 시 산소를 공급하고, 필요 시 루프 이뇨제를 투여합니다.
+*   심부전, 신부전, 고령 환자 등 고위험군에서는 수혈 속도를 조절하고 소량씩 분할 수혈합니다.
+*   고위험군에서 수혈 전후 이뇨제 예방적 투여를 고려합니다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 대개 수 시간 내에 호전됨.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[순환기]]
 
@@ -39,10 +40,12 @@ reviewed_at: "2026-07-16"
 - 임상적 의심과 신체 검진이 중요하며, 침상 심초음파(bedside echo)를 통해 확진한다.
   벡의 삼징후가 없더라도 의심되는 경우 즉시 검사를 시행해야 한다.
 
-## 5. 치료 (Treatment)
-- 응급 심막 천자술(pericardiocentesis)이 일차적인 임시 치료이다.
-  근본적인 치료를 위해 심막 절개술(pericardiotomy) 또는 심막창 형성술(pericardial window)이 필요할 수 있다.
-  저혈압 시 수액 요법을 시도할 수 있으나, 근본적인 해결은 심막 내 압력을 낮추는 것이다.
+## 5. 치료
+
+- 혈역학적으로 불안정한 경우 즉각적인 심초음파 유도하 심막 천자술을 시행하여 심막 내 압력을 감압한다.
+- 저혈압 환자에게는 일시적으로 수액 요법을 시행할 수 있으나, 근본적인 해결책은 아니므로 지체 없이 배액술을 진행한다.
+- 재발성 삼출액이나 외상성 원인의 경우 외과적 심막창 형성술 또는 심막 절개술을 고려한다.
+- 시술 후에는 심초음파를 통해 심막 삼출액의 감소와 심실 충만 상태의 호전 여부를 추적 관찰한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료가 지연될 경우 심인성 쇼크(cardiogenic shock) 및 사망에 이를 수 있다.

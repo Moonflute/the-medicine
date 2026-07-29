@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -51,15 +52,10 @@ reviewed_at: "2026-07-16"
 - 대변 성상 변화와 관련된 통증
 
 ## 5. 치료
-- **일반적 관리**: 환자 교육 및 안심, 규칙적 운동, 스트레스 관리
-- **식이요법**:
-- 고섬유질 식이(변비 시), 수분 섭취 권장
-- Low FODMAP diet: 가스 생성 유발 음식(FODMAPs) 제한 후 단계적 재도입
-- 저지방 식이 고려
-- **약물요법**:
-- 설사 우세형(IBS-D): 지사제(loperamide), Rifaximin, Alosetron(여성), Eluxadoline
-- 변비 우세형(IBS-C): 완하제(PEG), Lubiprostone, Linaclotide, Plecanatide, Tenapanor, Prucalopride
-- 복통 시: 진경제(항콜린제 등), TCA(삼환계 항우울제)
+- 환자 교육·안심, 규칙적인 신체활동 및 스트레스 관리 등 전반적인 생활습관 개선을 기본으로 함
+- 식이 조절: 변비형은 고섬유질·수분 섭취, 설사형은 저지방·Low‑FODMAP 식이 적용 후 단계적 재도입
+- 증상 유형에 맞는 약물 선택: 설사형은 지사제·Rifaximin 등, 변비형은 완하제·PEG·점진적 장운동 촉진제 등; 복통 시 진경제·TCA 고려
+- 약물 부작용·증상 악화(혈변, 체중 감소, 야간 설사 등) 시 즉시 소화기 전문의 의뢰 및 필요시 대장내시경
 
 ## 6. 예후 및 합병증
 - 기질적 질환으로 진행하지 않으나, 만성적인 경과를 보임

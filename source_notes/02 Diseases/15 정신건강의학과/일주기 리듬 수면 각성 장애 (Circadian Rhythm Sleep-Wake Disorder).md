@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 일주기 리듬 수면 각성 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -44,10 +45,12 @@ relation_to_parent: subtype
 - 감별 진단: 우울증, 양극성 장애, 수면 무호흡증, 하지불안증후군, 약물/알코올 남용.
 
 ## 5. 치료
-- 원칙: 일주기 리듬의 재동기화(Entrainment).
-- 비약물적 요법: 수면 위생 교육, 광 치료(Bright light therapy, 위상 이동 유도), 고정된 기상 시간 유지.
-- 약물 요법: 멜라토닌(위상 이동 목적), 필요 시 수면제(단기 사용).
-- 교대 근무: 규칙적인 수면 시간 확보, 전략적 낮잠, 근무 전후 광 노출 조절.
+
+- **행동 요법**: 매일 일정한 시간에 기상하여 빛 노출을 유도하고, 수면 위생을 준수하여 생체 리듬의 안정화를 도모함.
+- **광 치료(Bright Light Therapy)**: 환자의 위상 장애 유형에 맞춰 적절한 시간대에 광 노출을 시행하여 일주기 리듬의 위상 이동을 유도함.
+- **약물 보조**: 멜라토닌 등을 활용하여 수면-각성 위상을 조절하며, 수면제는 증상 완화를 위해 단기간 제한적으로 사용함.
+- **교대 근무 관리**: 전략적 낮잠, 근무 전후의 광 노출 조절 및 규칙적인 수면 스케줄을 통해 직업적 기능 저하를 최소화함.
+- **추적 관찰 및 의뢰**: 치료 반응이 없거나 기저 정신질환 및 신경계 질환이 동반된 경우 수면 전문의에게 의뢰하여 정밀 평가를 시행함.
 
 ## 6. 예후 및 합병증
 - 만성적 수면 장애는 대사 질환(당뇨, 비만), 심혈관 질환, 기분 장애 및 인지 기능 저하를 초래함.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 외측 측부 인대 손상
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[정형외과]]
 
@@ -42,11 +43,9 @@ reviewed_at: "2026-07-16"
 - Grade 2: 부분 파열, 5~10mm의 이완.
 - Grade 3: 완전 파열, 10mm 이상의 이완 및 불안정성.
 
-## 5. 치료 (Treatment)
-- 보존적 치료: Grade 1~2 손상 시 시행.
-  RICE 요법, 보조기 착용 및 조기 재활.
-- 수술적 치료: Grade 3 완전 파열이나 동반 손상이 있는 경우 고려.
-  급성기(2주 이내)에는 일차 봉합술, 만성기에는 인대 재건술 시행.
+## 5. 치료
+- 1도·2도 손상은 RICE(휴식·냉찜질·압박·거상)와 무릎 보조기 착용 후 1~2주 내에 가동 범위와 근력 회복을 목표로 한 조기 물리치료를 시작한다.
+- 통증이 지속되거나 불안정성이 의심될 경우 정형외과 전문의에 의뢰하여 MRI 평가 및 수술 적응 여부를 판단한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 이루어지지 않을 경우 만성적인 내반 불안정성 및 퇴행성 관절염 발생 가능.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - chalazion
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[안과]]
 
@@ -35,12 +36,11 @@ reviewed_at: "2026-07-16"
 - 임상적 양상으로 진단
 - 감별진단: 겉다래끼(Hordeolum), 피지샘암(Sebaceous cell carcinoma), 기저세포암 등
 
-## 5. 치료 (Treatment)
-- **보존적 치료**:
-  온찜질(1일 2~4회, 15분간) 및 눈꺼풀 위생 관리.
-  대부분 1개월 내 자연 치유
-- **약물 치료**: 감염 의심 시 항생제(테트라사이클린 계열 등) 고려, 필요 시 병변 내 스테로이드 주사
-- **수술적 치료**: 보존적 치료에 반응하지 않는 경우 절개 및 소파술(Incision and curettage)
+## 5. 치료
+- 온찜질과 눈꺼풀 위생을 꾸준히 시행한다.
+- 감염이 의심될 경우 항생제 사용을 고려한다.
+- 보존적 치료 4주 이상 효과가 없으면 절개·소파술을 시행한다.
+- 치료 후 1~2개월 간 재발 여부를 추적 관찰하고, 악성 병변이 의심되면 안과 전문의에 의뢰한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후는 양호함

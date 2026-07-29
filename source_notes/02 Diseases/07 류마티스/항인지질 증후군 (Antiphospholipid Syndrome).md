@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -10,8 +11,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[류마티스]]
 
@@ -37,12 +38,10 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 임상 기준(혈전증 또는 특정 임신 합병증)과 검사 기준(항인지질 항체 지속적 양성)을 모두 충족해야 한다.
 
-## 5. 치료 (Treatment)
-- **혈전증 환자**:
-  와파린(INR 2-3)을 이용한 장기 항응고 요법이 표준이다.
-  고위험군에서는 DOAC 사용을 피한다.
-- **임신 중**: 저용량 아스피린과 헤파린(LMWH 또는 UFH) 병용 요법을 시행한다.
-- **파국적 항인지질 증후군(CAPS)**: 고용량 스테로이드, 항응고제, 혈장 교환술, IVIG 등을 고려한다.
+## 5. 치료
+- 장기 항응고 요법으로 와파린 등 비타민 K 길항제를 사용하고, INR 목표를 지속적으로 확인한다.
+- 고위험 혈전 환자에서는 DOAC 사용을 피하고, 혈전 재발 시 혈액·혈액학 전문의와 협진한다.
+- 임신 중에는 저용량 아스피린과 저분자량 헤파린을 병용하고, 산부인과·류마티스 전문의와 공동 관리한다
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 반복적인 혈전 재발 위험이 높으며, 다장기 침범 시 예후가 불량할 수 있다.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 
 관련분과:
 - 응급의학
@@ -48,9 +49,11 @@ reviewed_at: "2026-07-16"
 - 임상 증상과 징후를 바탕으로 즉시 진단하고 치료를 시작해야 함.
   영상 검사는 혈역학적으로 안정된 환자에서만 고려함.
 
-## 5. 치료 (Treatment)
-  * **응급 처치:** 즉각적인 바늘 감압술(needle decompression) 시행. (제2늑간 쇄골중앙선 또는 제5늑간 전액와선).
-  * **확정적 치료:** 흉관 삽입술(tube thoracostomy)을 통해 공기를 배출하고 폐 재팽창을 유도함.
+## 5. 치료
+- 즉시 바늘 감압술 시행(제2늑간 쇄골중앙선 또는 제5늑간 전액와선), 큰 바늘 사용, 무균 기술 유지, 호흡·혈역학 개선 여부 즉시 확인
+- 감압 후 흉관 삽입(24‑28 Fr), 수액·수중 씰 연결, 위치 확인 및 고정, 공기 누출 여부 지속 관찰
+- 환자 혈압·산소포화·의식 수준을 지속 모니터링하고, 저혈압·저산소증 시 수액·혈압 지원 즉시 제공
+- 흉관 유지 중 24‑48 시간 내 흉부 영상(흉부 X‑ray 또는 초음파)으로 폐 재팽창 확인,
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 신속한 진단과 치료가 이루어지지 않을 경우 심정지 및 사망에 이를 수 있음.

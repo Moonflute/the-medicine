@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 주상골 골절
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[정형외과]]
 
@@ -38,11 +39,10 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 임상적 의심이 중요하며, 방사선상 음성이라도 압통이 지속되면 골절에 준하여 고정 치료 필요.
 
-## 5. 치료 (Treatment)
-- **비수술적 치료**:
-  전위가 없는 원위부 골절은 석고 고정(cast) 시행.
-  고정 기간은 골절 부위에 따라 6-24주로 다양함.
-- **수술적 치료**: 1mm 이상의 전위, 불안정성, 근위부 골절, 운동선수 등 빠른 복귀가 필요한 경우 나사 고정술(screw fixation) 고려.
+## 5. 치료
+- 전위가 없고 원위부 골절인 경우, 손목·엄지 손가락을 포함한 6~8주간 석고 고정(thumb spica) 시행하고, 고정 중 통증 악화 시 즉시 재평가한다.
+- 1 mm 이상 전위, 근위부 골절, 불안정성, 혹은 조기 기능 회복이 필요한 경우 정형외과 전문의에게 의뢰하여 나사 고정술 등 수술적 치료를 검토한다.
+- 고정 기간 중
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**:

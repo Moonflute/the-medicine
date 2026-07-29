@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - SMA
 - 척수 근육 위축증
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -40,12 +41,12 @@ reviewed_at: "2026-07-16"
 * 유전자 검사를 통한 SMN1 유전자 동형 접합 결실 확인
 * 임상 증상 및 징후를 통한 유형 분류
 
-## 5. 치료 (Treatment)
-* **질환 조절 치료 (Disease-modifying therapy)**:
-* **Nusinersen**: 척수강 내 주사, SMN2 유전자 스플라이싱 조절
-* **Onasemnogene abeparvovec**: 유전자 대체 치료 (정맥 주사)
-* **Risdiplam**: 경구 투여, SMN2 스플라이싱 조절
-* **보조적 치료**: 호흡 재활(비침습적 환기), 영양 관리(위루술 등), 물리 및 작업 치료, 척추 측만증 교정
+## 5. 치료
+
+* **질환 조절 치료**: SMN 단백질 생성을 촉진하는 약물(Nusinersen, Onasemnogene abeparvovec, Risdiplam)을 조기에 투여하여 운동 기능 저하를 지연시킴.
+* **호흡기 관리**: 호흡 부전 예방을 위해 정기적인 폐 기능 검사를 시행하고, 필요 시 비침습적 환기 요법(NIV)이나 기도 분비물 제거를 시행함.
+* **영양 및 재활**: 연하 곤란에 따른 흡인성 폐렴을 예방하기 위해 영양 상태를 평가하고, 관절 구축 방지를 위한 물리·작업 치료를 병행함.
+* **다학제적 추적 관찰**: 척추 측만증 및 고관절 탈구 등 근골격계 합병증을 조기에 발견하기 위해 정기적인 정형외과적 검진 및 영상 평가를 시행함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 발병 연령이 빠를수록 예후가 불량함

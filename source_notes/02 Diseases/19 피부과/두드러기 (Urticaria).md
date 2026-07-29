@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 두드러기
 유형:
@@ -15,8 +16,8 @@ document_role: "specialty_perspective"
 parent_disease: "두드러기 (Urticaria)"
 relation_to_parent: "specialty_perspective"
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[피부과]]
 
@@ -42,12 +43,12 @@ reviewed_at: "2026-07-16"
 * 유발 요인(물리적 자극, 약물, 감염 등) 유무 파악.
 * 전신 증상(발열, 관절통 등) 동반 시 두드러기성 혈관염 등 감별 필요.
 
-## 5. 치료 (Treatment)
-* 원인 회피 및 유발 요인 제거.
-* 1차 치료: 2세대 H1 항히스타민제(fexofenadine, loratadine 등).
-* 2차 치료: 반응 불충분 시 항히스타민제 증량(최대 4배).
-* 3차 치료: 오말리주맙(omalizumab), 사이클로스포린(cyclosporine) 등 고려.
-* 급성 악화 시 단기간 경구 스테로이드 사용 가능.
+## 5. 치료
+- 원인 및 유발 요인(음식, 약물, 물리적 자극 등)을 확인하고 회피한다.
+- 2세대 H1 항히스타민제를 매일 복용하고, 효과가 부족하면 최대 4배까지 증량한다.
+- 증량에도 증상이 조절되지 않을 경우 오말리주맙 또는 사이클로스포린 등 3차 치료를 고려한다.
+- 급성 악화 시 단기간 경구 스테로이드를 사용하고, 4~6주 후 재평가한다.
+- 증상이 2~3개월 내에 호전되지 않거나 복합 혈관부종이 동반될 경우 알레르기·면역
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 대부분 자가 제한적이나 만성 두드러기는 수개월에서 수년간 지속될 수 있음.

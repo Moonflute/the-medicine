@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 연성하감
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[비뇨기과]]
 
@@ -23,7 +24,7 @@ reviewed_at: "2026-07-16"
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC:** 통증성 궤양 (Soft chancre)
-* **P/E:** 
+* **P/E:**
   - 1~2cm 크기의 통증성 궤양, 기저부가 취약하고 황회색 삼출물 동반
   - 다발성 궤양(kissing ulcers)이 나타날 수 있음
   - 약 50%에서 편측성 서혜부 림프절병증이 동반되며, 일부는 화농성 부보(bubo)로 진행
@@ -40,13 +41,12 @@ reviewed_at: "2026-07-16"
   3. 헤르페스(HSV) PCR 또는 배양 검사 음성
   4. 임상 양상이 연성하감에 부합
 
-## 5. 치료 (Treatment)
-* **항생제 요법:** 
-- Azithromycin 1g 경구 1회 투여
-- Ceftriaxone 250mg 근육 주사 1회 투여
-- Erythromycin 500mg 경구 1일 3회, 7일간 투여
-- Ciprofloxacin 500mg 경구 1일 2회, 3일간 투여
-* **기타:** 성 파트너 치료 및 HIV 동반 감염 여부 확인 필요
+## 5. 치료
+- 효과적인 항생제(예: azithromycin, ceftriaxone, erythromycin, ciprofloxacin) 단회 투여로 초기 치료 시행
+- 성 파트너도 동시에 치료하고, 4주 후 재검사로 감염 여부 확인
+- HIV 및 기타 성병 검사를 병행하고, 양성 결과 시 적절한 연계 관리 제공
+- 치료 후 1주 이내에 궤양·부보 호전 여부를 평가하고, 미호전 시 추가 항생제 또는 외과적 평가 고려
+- 약물 부작용(위장관 증상, 알레르기) 및 임신·수유 중인 경우 안전성 검토 후 대체 요법 선택
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 항생제 치료 시 예후 양호

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 요관 손상
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[비뇨기과]]
 
@@ -36,11 +37,10 @@ reviewed_at: "2026-07-16"
 - 수술 후 고위험군에서 의심하는 것이 중요.
   영상학적 검사(CT, RPG)를 통해 확진.
 
-## 5. 치료 (Treatment)
-* **원칙:** 괴사 조직 제거, 긴장 없는 문합, 충분한 혈류 보존.
-* **즉시 발견 시:** 손상 정도에 따라 스텐트 삽입 또는 일차 교정(ureteroureterostomy 등).
-* **지연 발견 시:** 72시간 이후 발견된 경우 즉시 배액(스텐트 또는 경피적 신루술) 후 6주 뒤 지연 수술 고려.
-* **수술적 방법:** 요관-요관 문합술(UU), 요관-방광 문합술(reimplantation), Psoas hitch, Boari flap 등.
+## 5. 치료
+- 손상 즉시 발견 시, 긴장 없는 요관‑요관 문합 또는 스텐트 삽입 등 즉시 복구 시행하고 괴사 조직을 완전히 제거한다.
+- 지연 발견(72시간 이후) 시, 배액(경피적 신루술 또는 스텐트)으로 요관 누출을 차단하고 4‑6주 후 재수술(재문합 또는 재이식) 계획을 수립한다.
+- 수술 중 혈
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **합병증:** 요종, 농양, 요관 협착, 신기능 저하, 요관질루(ureterovaginal fistula).

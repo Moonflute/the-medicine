@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -45,14 +46,10 @@ reviewed_at: "2026-07-16"
 - 임상 증상과 함께 영상 검사(CT)를 통해 대동맥-상장간막동맥 각도 감소 및 십이지장 폐쇄 소견을 확인하여 진단.
 
 
-## 5. 치료 (Treatment)
-- **보존적 치료**:
-  1차 치료.
-  비위관 삽입을 통한 위 감압, 전해질 교정, 고열량 영양 공급(TPN 등)을 통해 장간막 지방 패드 회복 유도.
-- **수술적 치료**:
-  보존적 치료 실패 시 시행.
-  십이지장-공장 문합술(duodeno-jejunostomy)이 표준 수술법.
-
+## 5. 치료
+- 비위관(위관) 삽입으로 위 감압 후 전해질·수분 교정, 체중·지방패드 회복을 목표로 고열량 경구·경장 영양(가능 시) 제공
+- 영양 상태가 2~3주 내에 호전되지 않거나 증상이 지속될 경우 외과 의뢰 → 십이지장‑공장 문합술(duodeno‑jejunostomy) 등 수술적 옵션 검토
+-
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 영양실조, 탈수, 전해질 불균형, 위 천공, 위장관 출혈.

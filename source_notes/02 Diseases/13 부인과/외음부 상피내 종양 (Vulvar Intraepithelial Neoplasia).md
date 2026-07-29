@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - VIN
 - vulvar intraepithelial neoplasia
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -50,13 +51,12 @@ reviewed_at: "2026-07-16"
 - HSIL (High-grade SIL): 이전의 VIN 2/3 (uVIN).
 - dVIN (Differentiated VIN): 이전의 VIN simplex type.
 
-## 5. 치료 (Treatment)
-- **치료 원칙**: 병변의 완전 제거, 증상 완화, 외음부 기능 보존.
-- **uVIN**:
-  국소 절제술(Cold knife, LEEP)이 우선 권장됨.
-  면역 조절제(Imiquimod)는 보조적 치료로 고려 가능.
-- **dVIN**: 침습성 암으로의 진행 위험이 높아 광범위 국소 절제술(Wide local excision)이 권장됨.
-- **기타**: 정기적인 추적 관찰이 필수적, 금연 및 HPV 백신 접종 권장.
+## 5. 치료
+
+- **병변 제거**: uVIN은 국소 절제술을 우선 고려하며, dVIN은 침습성 암으로의 높은 진행 위험을 고려하여 광범위 국소 절제술(Wide local excision)을 시행함.
+- **기능 보존**: 치료 시 외음부의 해부학적 구조와 기능 보존을 최우선으로 고려하며, 병변의 완전 절제와 조직학적 확인을 병행함.
+- **보조 요법**: uVIN의 경우 수술적 치료가 어려운 경우 면역 조절제(Imiquimod) 사용을 고려할 수 있음.
+- **추적 관찰 및 예방**: 높은 재발률을 고려하여 정기적인 외음부 검진을 시행하며, HPV 백신 접종과 금연을 권장함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료 후에도 높은 재발률을 보임.

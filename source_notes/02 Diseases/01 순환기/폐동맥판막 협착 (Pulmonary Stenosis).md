@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[순환기]]
 
@@ -42,9 +43,12 @@ reviewed_at: "2026-07-16"
 - 심초음파를 통해 협착의 중증도를 평가한다.
   최고 압력 경사(peak gradient)가 64 mmHg를 초과하거나 최고 혈류 속도가 4 m/s를 초과하면 중증으로 분류한다.
 
-## 5. 치료 (Treatment)
-- 증상이 있는 중등도 이상의 협착 환자 및 증상이 없더라도 중증 협착이 있는 경우 풍선 판막 성형술(balloon valvuloplasty)을 우선 시행한다.
-  수술적 판막 성형술이나 판막 치환술은 풍선 성형술이 부적절한 경우 고려한다.
+## 5. 치료
+
+- 경증 협착은 정기적인 심초음파 추적 관찰을 통해 진행 여부를 모니터링한다.
+- 증상이 있거나 중증 협착(최고 혈류 속도 > 4 m/s)인 경우 경피적 풍선 판막 성형술을 1차 치료로 고려한다.
+- 풍선 성형술이 부적절한 해부학적 구조를 가진 경우 수술적 판막 절개술 또는 판막 치환술을 시행한다.
+- 중재술 후에는 잔존 협착이나 폐동맥판막 폐쇄부전 발생 여부를 정기적으로 평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료받지 않은 경우의 예후는 협착 정도에 따라 다르며, 적절한 중재술 시행 시 예후가 크게 개선된다.

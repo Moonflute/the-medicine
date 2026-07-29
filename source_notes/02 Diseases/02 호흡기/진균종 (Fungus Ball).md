@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[호흡기]]
 
@@ -33,7 +34,7 @@ reviewed_at: "2026-07-16"
 * **P/E**: 특이 소견 없음.
 
 ## 3. 검사 (Lab & Imaging)
-  * **영상 검사:** 
+  * **영상 검사:**
 - CXR/CT: 공동 내 이동 가능한 덩어리(fungus ball)가 관찰됨.
 - Air-crescent sign (공기 초승달 징후): 덩어리와 공동 벽 사이의 공기층.
 - Monod sign: 체위 변화에 따라 덩어리가 이동하는 소견.
@@ -42,11 +43,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 기존 폐 질환 병력, 특징적인 영상 소견(CT), Aspergillus 혈청학적 검사 또는 배양 결과를 종합하여 진단.
 
-## 5. 치료 (Treatment)
-  * **무증상:** 경과 관찰 (Observe).
-  * **유증상 (객혈 등):** 수술적 절제 (Resection)가 근본적 치료.
-  * **대량 객혈:** 기관지 동맥 색전술 (BAE, Bronchial Artery Embolization)을 우선 고려.
-  * **기타:** 증상 완화 및 기저 질환 관리.
+## 5. 치료
+
+* **무증상:** 정기적인 흉부 영상 검사를 통해 병변의 크기 변화 및 합병증 발생 여부를 추적 관찰함.
+* **객혈 관리:** 경미한 객혈은 보존적 치료를 시행하며, 대량 객혈 발생 시 기관지 동맥 색전술(BAE)을 우선적으로 고려함.
+* **수술적 치료:** 반복적인 객혈이나 증상 악화 시, 폐 기능이 허용된다면 병변의 수술적 절제를 고려함.
+* **기저 질환 관리:** 폐결핵 등 원인 질환의 경과를 모니터링하고, 만성 폐 아스페르길루스증(CPA)으로의 진행 여부를 주의 깊게 관찰함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성 폐 아스페르길루스증(CPA)으로 진행하거나 치명적인 대량 객혈이 발생할 수 있음.

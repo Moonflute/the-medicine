@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 양수 과다증
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[산과]]
 
@@ -51,12 +52,13 @@ reviewed_at: "2026-07-16"
 - 중증(Severe): DVP ≥16cm 또는 AFI ≥35cm
 
 
-## 5. 치료 (Treatment)
-- 경증: 대부분 특발성이며 경과 관찰
-- 증상이 심한 경우(호흡 곤란 등): 양수 천자술(Amnioreduction)을 통한 증상 완화 고려
-- 원인 질환(당뇨 등)에 대한 교정
-- 이뇨제, 수분/염분 제한은 효과 없음
+## 5. 치료
 
+- 경증은 대부분 특발성이므로 정기적인 초음파 추적 관찰을 시행함.
+- 산모의 호흡 곤란이나 복부 불편감이 심한 경우 증상 완화를 위해 양수 천자술(Amnioreduction)을 고려함.
+- 임신성 당뇨 등 기저 질환이 확인된 경우 해당 질환에 대한 적절한 관리 및 교정을 시행함.
+- 조기 진통, 조기 양막 파수, 태반 조기 박리 등의 합병증 발생 여부를 면밀히 감시함.
+- 이뇨제 투여나 산모의 수분 및 염분 제한은 치료 효과가 없으므로 권장하지 않음.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진통, 조기 양막 파수, 태반 조기 박리, 제대 탈출 위험 증가

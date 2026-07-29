@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -22,8 +23,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 ## 1. 개요
 - **정의**: 췌장 세포에서 기원하는 악성 종양으로, 대부분 췌관 선암(ductal adenocarcinoma)이며 췌장 머리 부분(head)에 가장 흔하게 발생함.
@@ -63,15 +64,8 @@ reviewed_at: "2026-07-16"
 - **감별 진단**: 만성 췌장염, 췌장 낭성 종양, 팽대부 주위암.
 
 ## 5. 치료
-- **수술적 절제(완치 목적)**:
-  절제 가능 시 시행.
-  위치에 따라 췌십이지장 절제술(Whipple procedure) 또는 원위부 췌장 절제술 시행.
-- **항암 화학 요법**: 수술 전후 보조 요법으로 FOLFIRINOX 또는 젬시타빈+nab-파클리탁셀 요법이 표준.
-- **고식적 치료(수술 불가능 시)**:
-- 담도 폐쇄: ERCP를 통한 스텐트 삽입.
-- 십이지장 폐쇄: 위장관 스텐트 삽입 또는 우회술.
-- 통증 조절: 마약성 진통제, 복강 신경총 차단술(celiac block).
-- 췌장 효소 보충: 췌장 외분비 기능 부전 시 투여.
+- 절제 가능 시 췌십이지장 절제(Whipple) 또는 원위부 절제 시행; 수술 전·후 다학제 팀 협의와 수술 적합성 재평가 필수.
+- 절제 불가능·전이 진행 시 FOLFIRINOX 또는 gemcitabine + nab‑paclitaxel 기반 항암 화학요법 적용, 부작용(골수억제, 말초신경병증
 
 ## 6. 예후 및 합병증
 - **예후**: 진단 시 진행성인 경우가 많아 5년 생존율이 매우 낮음.

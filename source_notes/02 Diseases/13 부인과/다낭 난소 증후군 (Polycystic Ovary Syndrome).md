@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - PCOS
 - polycystic ovarian syndrome
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -40,11 +41,12 @@ reviewed_at: "2026-07-16"
   2) 임상적 또는 생화학적 고안드로겐증
   3) 초음파상 다낭성 난소 형태
 
-## 5. 치료 (Treatment)
-- **생활 습관 개선**: 체중 감량(인슐린 저항성 및 호르몬 불균형 개선에 핵심)
-- **월경 주기 조절 및 고안드로겐증 완화**: 경구 피임약(OC) 또는 프로게스틴 주기적 투여
-- **배란 유도(임신 희망 시)**: Letrozole(1차 선택), Clomiphene citrate
-- **인슐린 저항성 개선**: Metformin 고려
+## 5. 치료
+
+* **생활 습관 개선**: 과체중 환자에서 5~10%의 체중 감량만으로도 배란 회복 및 대사 지표 개선 효과가 있으므로 1차 치료로 권고함.
+* **월경 주기 조절 및 안드로겐 관리**: 임신을 원하지 않는 경우 경구 피임약(OC)을 우선 고려하여 자궁내막 보호 및 고안드로겐 증상 완화를 도모함.
+* **배란 유도**: 임신을 희망하는 경우 Letrozole을 1차 약제로 우선 고려하며, 반응이 불충분할 경우 Clomiphene citrate 등을 병용 또는 교체함.
+* **장기 추적 관찰**: 당뇨병, 심혈관 질환, 자궁내막암 등 대사 및 종양학적 합병증 위험이 높으므로 정기적인 혈당 및 지질 검사를 포함한 장기적인 모니터링이 필요함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대사 증후군, 제2형 당뇨병, 심혈관 질환, 자궁 내막암, 비알코올성 지방간 질환 위험 증가

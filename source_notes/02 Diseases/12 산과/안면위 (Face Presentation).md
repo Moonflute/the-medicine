@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 안면위
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[산과]]
 
@@ -48,13 +49,12 @@ reviewed_at: "2026-07-16"
 - 필요 시 초음파를 통해 확진.
 
 
-## 5. 치료 (Treatment)
-- **경과 관찰**: 턱이 전방(mentum-anterior)을 향한 경우 질식 분만 시도 가능.
-- **제왕절개술**: 
-- 턱이 후방(mentum-posterior) 또는 횡(transverse)을 향한 경우 질식 분만 불가.
-- 분만 진행 부전 또는 태아 가사 발생 시 즉시 시행.
-- **주의사항**: 안면위를 두정위로 강제 교정하거나 턱을 회전시키는 수기(manual rotation)는 위험하므로 금기.
+## 5. 치료
 
+- **분만 방식 결정**: 턱이 전방(mentum-anterior)을 향한 경우 질식 분만 시도를 고려하되, 후방(mentum-posterior) 또는 횡(transverse) 위치는 제왕절개술을 시행함.
+- **태아 감시**: 분만 중 태아 가사 위험이 높으므로 지속적인 전자 태아 심박동 감시를 시행함.
+- **수기 금기**: 태아 손상 위험이 있으므로 안면위를 두정위로 강제 교정하거나 턱을 회전시키는 수기(manual rotation)는 금기함.
+- **신생아 관리**: 분만 후 안면 부종 및 기도 폐쇄 여부를 면밀히 관찰하고, 필요 시 신생아 집중치료실(NICU)로 전원함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 분만 지연, 태아 가사, 신생아 안면 부종 및 기도 부종(호흡 곤란 유발 가능).

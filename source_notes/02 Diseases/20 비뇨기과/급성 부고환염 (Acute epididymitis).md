@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 급성 부고환염
 유형:
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[비뇨기과]]
 
@@ -41,10 +42,12 @@ reviewed_at: "2026-07-16"
   필요시 색도플러 초음파를 시행함.
 
 
-## 5. 치료 (Treatment)
-* **항생제:** 원인균을 고려하여 경험적 항생제 투여 (35세 이하: Ceftriaxone + Doxycycline, 35세 이상: Fluoroquinolone 등).
-* **보존적 요법:** 초기 안정, 음낭 거상(scrotal elevation), 냉찜질, 진통제 투여.
-
+## 5. 치료
+- 경험적 항생제 치료를 시작하고, 48~72시간 내에 증상 호전 여부를 평가한다.
+- 음낭 거상, 냉찜질, 진통제 등 보존적 요법을 병행하여 통증과 부종을 완화한다.
+- 증상이 호전되지 않거나 고환 농양·고환 위축이 의심될 경우 비뇨기과 전문의에게 즉시 의뢰한다.
+- 치료 후 1~2주 내에 추적 초음파와 소변 검사를 시행해 염증 해소와 합병증 발생 여부를 확인한다.
+- 성매개 감염 위험이 있는 경우 파트너 검사·치료 및 안전한 성관계 실천을 교육한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 적절한 항생제 치료 시 대부분 호전됨.

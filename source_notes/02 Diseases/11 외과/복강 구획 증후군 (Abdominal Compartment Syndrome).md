@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - abdominal compartment syndrome
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[외과]]
 
@@ -33,9 +34,10 @@ reviewed_at: "2026-07-16"
 - IAP 20 mmHg 초과 및 새로운 장기 부전 발생 시 진단.
 - IAH(복강 내 고혈압)는 IAP 12 mmHg 이상으로 정의하며, ACS로 진행할 위험이 있으므로 지속적인 모니터링 필요.
 
-## 5. 치료 (Treatment)
-- **내과적 치료**: 비위관 감압, 진정 및 근이완, 수액 최적화, 복강 내 액체 배액(경피적 배액술 등).
-- **수술적 치료**: 내과적 치료에 반응하지 않는 경우 즉각적인 개복 감압술(Decompressive laparotomy) 시행.
+## 5. 치료
+- 비위관 감압, 진정·근이완제 투여, 수액량 최소화 등 내과적 감압을 즉시 시행하고 IAP와 장기 기능을 지속적으로 모니터링한다.
+- 내과적 조치 후 2–4시간 내에 호전이 없거나 IAP ≥ 25 mmHg가 지속될 경우 즉시 감압 개복술을 시행한다; 수술 전 혈역학·호흡기 안정화가 필요하다.
+- 감압술 후 복강 재압 관리(폐쇄 방식, 중간 복강 압력 조절)를 적용하고, 감염·전해질 이상·신부
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 및 치료 시 장기 부전은 가역적일 수 있음.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[종양]]
 
@@ -45,11 +46,11 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 * Cairo-Bishop 기준: 항암 치료 전후 3일 이내 또는 7일 이내에 고요산혈증, 고칼륨혈증, 고인산혈증, 저칼슘혈증 중 2개 이상의 검사 이상이 나타날 때 진단.
 
-## 5. 치료 (Treatment)
-* **예방**: 고위험군 선별, 적극적인 수액 요법(Aggressive hydration), 요산 저하제(Allopurinol 또는 Rasburicase) 투여.
-* **치료**:
-  전해질 교정, 신기능 모니터링.
-  심한 대사 이상(고칼륨혈증, 증상성 저칼슘혈증, 요독증 등) 시 혈액투석 고려.
+## 5. 치료
+- 고위험 환자 선별 후 충분한 수액 공급 및 요산 저하제(Allopurinol 또는 Rasburicase) 사용으로 요산 상승 방지
+- 전해질(칼륨·인·칼슘) 및 신기능을 실시간 모니터링하고, 고칼륨혈증·증상성 저칼슘혈증 시 즉시 교정
+- 심각한 대사 이상(고칼륨혈증, 요독증 등) 발생 시 혈액투석을 신속히 고려하고, 신장 전문의와 협진
+- 치료 후 24‑48시간 내 재검사로 전해질·크레아티닌을 추적하고, 이상 지속 시 추가 평가 및 입원 연장
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 급성 신손상, 치명적 부정맥, 다발성 장기 부전으로 진행 가능하므로 조기 발견 및 예방적 처치가 필수적임.

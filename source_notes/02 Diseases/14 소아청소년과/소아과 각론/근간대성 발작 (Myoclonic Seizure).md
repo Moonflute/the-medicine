@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 근간대성 발작
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -34,10 +35,12 @@ reviewed_at: "2026-07-16"
 * 임상적 근간대성 발작 양상 확인
 * EEG 소견을 통한 뇌전증 진단 및 분류
 
-## 5. 치료 (Treatment)
-* **Valproic acid**: 일차 선택 약물
-* Levetiracetam: 보조적 또는 대안적 약물
-* 주의: 일부 항경련제(예: Carbamazepine, Phenytoin)는 발작을 악화시킬 수 있어 피해야 함
+## 5. 치료
+
+* 항경련제 선택 시 발작을 악화시킬 수 있는 Carbamazepine, Phenytoin, Gabapentin 등의 사용을 엄격히 제한함
+* 약물 치료와 함께 수면 부족, 과도한 스트레스, 광자극 등 발작 유발 요인을 회피하는 생활 습관 교육을 병행함
+* 약물 반응이 불충분하거나 뇌전증 증후군이 의심되는 경우 소아 신경분과 전문의에게 의뢰하여 정밀 평가 및 장기 치료 계획을 수립함
+* 정기적인 뇌파 검사 및 혈액 검사를 통해 약물 순응도를 확인하고, 발작 조절 상태에 따른 용량 조절 및 부작용 여부를 추적 관찰함
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 원인 질환(뇌전증 증후군)에 따라 예후가 결정됨

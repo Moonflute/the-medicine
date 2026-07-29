@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -41,11 +42,11 @@ reviewed_at: "2026-07-16"
   difficile 독소 또는 유전자 검출
 - 대장내시경을 통한 거짓막 확인 (필요 시)
 
-## 5. 치료 (Treatment)
-- 원인 항생제 중단 및 수분/전해질 교정
-- 1차 치료: 피닥소마이신(Fidaxomicin) 또는 경구 반코마이신(Vancomycin)
-- 중증도 및 재발 여부에 따라 치료 전략 수립 (메트로니다졸은 경증에서 제한적으로 고려)
-- 중증/복합성 사례: 경구 반코마이신과 정맥주사 메트로니다졸 병용 고려
+## 5. 치료
+- 원인 항생제 즉시 중단하고, 수분·전해질 보충 및 설사량·체온을 정기적으로 모니터링한다.
+- 1차 치료로 경구 반코마이신 또는 피닥소마이신을 선택하고, 치료 반응이 없을 경우 중증·재발 프로토콜을 적용한다.
+- 중증 사례(독성 거대결장 의심, 전신 독성 증상 등)나 치료 실패 시 위장관·감염 전문의와 협진하고, 필요 시 외과 의뢰를 고려한다.
+- 치료 종료 후 대변 독소 검사 또는 PCR로 미생
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 재발이 흔하며, 독성 거대결장 (toxic megacolon), 장 천공 등의 합병증 발생 가능

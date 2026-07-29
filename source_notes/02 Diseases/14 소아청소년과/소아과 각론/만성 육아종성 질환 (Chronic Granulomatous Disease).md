@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 만성 육아종성 질환
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -36,11 +37,12 @@ reviewed_at: "2026-07-16"
 * 반복적인 감염력 및 임상 증상
 * DHR 또는 NBT 검사상 산화적 폭발(respiratory burst) 반응의 결함 확인
 
-## 5. 치료 (Treatment)
-* **예방 요법**: 평생 항생제(Trimethoprim-sulfamethoxazole) 및 항진균제(Itraconazole 등) 예방적 투여
-* **면역 조절**: 인터페론 감마(IFN-γ) 투여 (일부 환자에서 고려)
-* **급성기 치료**: 감염 발생 시 조기에 원인균을 동정하고 적극적인 항생제 및 항진균제 치료 시행
-* **근본적 치료**: 조혈모세포 이식(HCT)이 유일한 완치법
+## 5. 치료
+
+* **예방적 약물 요법**: 카탈라아제 양성균 및 진균 감염 예방을 위해 항생제(TMP-SMX)와 항진균제(Itraconazole)를 평생 지속 투여함
+* **급성 감염 관리**: 감염 의심 시 즉각적인 배양 검사 및 원인균에 따른 적극적인 정맥 항생제·항진균제 치료 시행
+* **면역 보조 요법**: 중증 감염 빈도가 높은 환자에서 인터페론 감마(IFN-γ) 피하 주사 고려
+* **근본적 치료 및 추적**: 완치를 위한 조혈모세포 이식(HCT)을 조기에 검토하며, 육아종에 의한 장기 폐쇄 및 염증 합병증에 대한 정기적 모니터링 시행
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 지속적인 예방 요법으로 생존율 크게 향상

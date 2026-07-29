@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 기분 장애
 - 기분저하장애
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: '2026-07-24'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 document_role: hub
 ## 1. 개요
@@ -36,9 +37,12 @@ document_role: hub
 - 이 문서는 진단군의 개요 및 하위 질환 탐색용 허브이다. 실제 진단 기준은 아래 개별 질환 문서에서 확인한다.
 
 ## 5. 치료
-- 약물**: 기분 조절제(Lithium, Valproate, Lamotrigine), 비정형 항정신병 약물.
-- 급성기**: Benzodiazepine 병용 가능.
-- 기타**: 전기 경련 요법(ECT), 정신사회적 치료.
+
+- 기분 조절제 및 항정신병 약물을 기반으로 급성기 증상 조절 및 유지 치료를 시행함.
+- 자살 사고나 충동 조절 장애가 동반된 경우 입원 치료를 우선적으로 고려함.
+- 약물 순응도 저하 및 재발 방지를 위해 정신사회적 교육과 상담을 병행함.
+- 약물 부작용 모니터링을 위해 정기적인 혈액 검사 및 대사 지표 확인이 필요함.
+- 증상 호전이 없거나 약물 반응이 불량한 경우 전기 경련 요법(ECT) 등 전문적 개입을 고려함.
 
 ## 6. 예후 및 합병증
 - 만성적 경과를 보이며 재발률이 높음.

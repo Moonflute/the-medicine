@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 순환 기분 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional mood disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -37,9 +38,11 @@ relation_to_parent: subtype
 - 감별 진단: 양극성 장애, 주요 우울 장애, 불안 장애, 성격 장애(특히 경계성 인격장애), 물질 유발성 기분 장애.
 
 ## 5. 치료
-- 원칙: 기분 조절제 중심의 약물 치료와 정신사회적 치료 병행.
-- 약물: 기분 조절제(Lithium, Valproate, Lamotrigine)가 1차 선택지. 항우울제 단독 사용은 증상 악화 위험이 있어 권장되지 않음.
-- 정신 치료: 인지행동치료(CBT)가 효과적이며, 정신교육을 통해 질환 수용 및 약물 순응도 향상 도모.
+
+- 기분 조절제 중심의 약물 치료를 시행하며, 항우울제 단독 사용은 기분 삽화의 급격한 변동이나 조증 전환 위험이 있어 주의가 필요함.
+- 인지행동치료(CBT) 및 대인관계 사회리듬 치료(IPSRT)를 통해 규칙적인 생활 습관을 형성하고 스트레스 관리 능력을 강화함.
+- 정신교육을 통해 환자와 가족이 질환의 만성적 경과를 이해하도록 돕고, 약물 순응도를 높여 증상 재발을 방지함.
+- 양극성 장애로의 이행 가능성을 정기적으로 모니터링하고, 자살 사고나 충동 조절 문제가 심화될 경우 즉각적인 전문의 평가 및 입원 치료를 고려함.
 
 ## 6. 예후 및 합병증
 - 예후: 적절한 치료 시 기능 회복이 가능하나, 방치 시 양극성 장애로 이행하거나 사회적 기능 저하 및 자살 위험 증가.

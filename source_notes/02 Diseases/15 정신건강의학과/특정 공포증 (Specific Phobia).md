@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 특정 공포증
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional anxiety disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -44,10 +45,11 @@ relation_to_parent: subtype
   - 임상적으로 유의미한 고통이나 기능 저하 초래.
 
 ## 5. 치료
-- 원칙: 환자의 선호도와 동반 질환을 고려한 근거 기반 치료.
-- 심리 치료: 인지행동치료(CBT) 및 노출 치료(체계적 탈감작 등)가 표준 치료임.
-- 약물 치료: 필요 시 단기적으로 보조적 약물 사용을 고려할 수 있으나, 행동 치료가 우선됨.
-- 다학제적 접근: 정신건강의학과 전문의, 심리학자 등 전문가 간 협력이 중요함.
+
+- **표준 치료**: 인지행동치료(CBT)를 우선하며, 특히 점진적 노출 치료(체계적 탈감작, 홍수법 등)가 가장 효과적인 근거 기반 치료임.
+- **약물 치료**: 약물은 근본적인 치료가 아니며, 노출 치료를 방해할 수 있으므로 원칙적으로 권장하지 않음. 특정 상황에서 단기적 보조 요법으로 제한적으로 고려함.
+- **안전 및 예방**: 공포 자극에 대한 회피 행동이 일상생활의 기능 저하를 초래하는지 정기적으로 평가하고, 증상 악화 시 조기 개입함.
+- **전원 및 협진**: 동반된 우울 장애, 물질 사용 장애, 혹은 자살 사고가 동반된 경우 정신건강의학과 전문의의 집중적인 평가 및 다학제적 치료를 시행함.
 
 ## 6. 예후 및 합병증
 - 만성적인 경과를 보일 수 있으나, 적절한 인지행동치료 시 예후가 양호함.

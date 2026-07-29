@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 융모 양막염
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[산과]]
 
@@ -43,11 +44,12 @@ reviewed_at: "2026-07-16"
 - 임상적 진단: 발열(38°C 이상)과 함께 자궁 압통, 모체 또는 태아 빈맥, 악취 나는 질 분비물, 백혈구 증가증 중 하나 이상의 징후가 동반될 때 진단.
 
 
-## 5. 치료 (Treatment)
-- 즉시 분만 및 광범위 항생제 투여(주로 Ampicillin + Gentamicin).
-- 페니실린 알레르기 시 Clindamycin, Cefazolin, Vancomycin 등 고려.
-- 분만 후 추가 항생제 투여는 제왕절개 시에만 고려하며, 질식 분만 시에는 추가 투여가 불필요할 수 있음.
+## 5. 치료
 
+- 진단 즉시 광범위 항생제 투여를 시작하고 분만을 유도하거나 진행함.
+- 모체 및 태아의 상태를 지속적으로 모니터링하여 패혈증 등 중증 합병증 발생 여부를 감시함.
+- 분만 후에는 모체의 활력 징후와 자궁 퇴축 상태를 면밀히 관찰하여 산후 감염 합병증을 조기에 발견함.
+- 신생아의 경우 감염 가능성을 고려하여 소아청소년과에 즉시 인계하고 신생아 패혈증 여부를 평가함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **모체 합병증**: 자궁내막염, 산후 출혈, 패혈증, 제왕절개술 위험 증가.

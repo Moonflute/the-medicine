@@ -11,14 +11,14 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: tier3_manual_current_principles
-reviewed_at: '2026-07-30'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders
 disease_family: psychiatry_split
 parent_disease: 물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)
 relation_to_parent: subtype
-content_updated_at: '2026-07-30'
+content_updated_at: "2026-07-30"
 ---
 ## 1. 개요
 - 접착제·페인트·세정제 등 휘발성 용제의 흡입으로 급성 중독과 만성 신경·간·신장 독성이 발생할 수 있으며, 청소년에서 특히 접근성이 높다.
@@ -35,9 +35,10 @@ content_updated_at: '2026-07-30'
 
 ## 5. 치료
 
-- **급성 노출은 응급 평가**: 의식저하, 부정맥, 흉통, 호흡곤란, 경련이 있으면 노출 장소에서 안전하게 분리하고 ABC·심전도·산소화 평가와 독성센터/응급의학과 자문을 우선한다.
-- **현장 처치 주의**: 구토 유도나 비의료적 처치를 피하고, 심근 감작과 부정맥 위험을 고려해 흥분·저산소증을 적극 교정한다.
-- **재발 예방**: 물질사용장애, 우울·불안, 자살 위험, 가정·학교 환경을 평가하고 동기강화·가족 개입·중독 치료 서비스를 연결한다.
+- **급성기 응급 처치**: 의식 저하, 부정맥, 호흡 곤란 등 발생 시 즉시 노출원에서 분리하고 ABC(기도·호흡·순환) 확보 및 심전도 모니터링을 우선 시행한다.
+- **심장 독성 주의**: 심근 감작으로 인한 치명적 부정맥 위험이 있으므로, 흥분 상태를 진정시키고 저산소증을 신속히 교정하며 불필요한 자극을 최소화한다.
+- **신체 합병증 평가**: 신경계, 간, 신장 독성 여부를 확인하고, 필요 시 독성학적 자문 및 내과적 협진을 통해 장기 손상 가능성을 평가한다.
+- **포괄적 재활 및 예방**: 동반된 정신질환(우울, 불안 등)과 자살 위험을 평가하고, 동기강화상담 및 가족 개입을 포함한 지역사회 중독 치료 서비스로 연계한다.
 
 ## 6. 예후 및 합병증
 - 조기 평가와 동반 질환·안전 위험의 동시 관리가 기능 회복과 재발 예방에 중요하다.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - GBM
 - 교모세포종
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신경과-신경외과]]
 
@@ -41,10 +42,11 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 영상학적 소견과 조직병리 검사를 종합하여 진단하며, 분자 유전학적 검사(IDH, MGMT, TERT 등)를 통해 예후를 평가함.
 
-## 5. 치료 (Treatment)
-- **수술**: 가능한 경우 최대 절제술(Gross Total Resection)을 시행하여 종양 부피를 줄이고 조직을 확보함.
-- **항암방사선요법**: 수술 후 방사선 치료와 함께 테모졸로마이드(Temozolomide)를 병용하는 Stupp 프로토콜이 표준 치료임.
-- **기타**: 환자의 연령, 전신 상태(performance status), MGMT 메틸화 여부에 따라 치료 강도를 조절함.
+## 5. 치료
+- 최대 안전 절제술 후 방사선 치료와 템졸로마이드를 병용하는 Stupp 프로토콜을 시행
+- 부종 관리와 증상 악화를 방지하기 위해 필요 시 스테로이드를 조절하고, 발작 병력이 있으면 항경련제를 유지
+- 수술·방사선 후 2~3개월 간격으로 MRI와 신경학적 검진을 실시해 재발 및 치료 부작용을 모니터링
+- 환자 연령·전신 상태·MGMT 메틸화 상태에 따라 치료 강도를 조정하고, 임상시험·재활·완화 치료를 위한 다학제 팀에 연계​
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 매우 불량하며, 표준 치료 후에도 중앙 생존 기간은 약 15개월 내외임.

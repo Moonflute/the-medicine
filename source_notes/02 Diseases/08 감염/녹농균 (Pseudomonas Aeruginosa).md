@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -10,8 +11,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -37,16 +38,10 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 검체 배양을 통한 녹농균 동정
 
-## 5. 치료 (Treatment)
-- 원칙: 항생제 감수성 결과에 따른 표적 치료.
-  중증 감염 시 경험적 병용 요법 고려.
-- 주요 항생제:
-- 항녹농균 페니실린: Piperacillin/Tazobactam
-- 세팔로스포린: Ceftazidime, Cefepime
-- 카바페넴: Meropenem 등
-- 아미노글리코사이드: Gentamicin, Amikacin, Tobramycin
-- 플루오로퀴놀론: Ciprofloxacin, Levofloxacin
-- 비고: 경증(모낭염 등)은 대증 요법 가능하나, 중증 감염(패혈증, 폐렴 등)은 광범위 항생제 투여 및 필요 시 외과적 변연절제술 시행.
+## 5. 치료
+- 항생제 선택은 검체 배양·감수성 결과에 따라 표적 치료를 우선하고, 중증·패혈증 의심 시 감수성 전 결과에 기반한 경험적 광범위 항생제 병용을 시작한다.
+- 신장·청력 등 장기 독성을 모니터링하고, 아미노글리코사이드·플루오로퀴놀론 사용 시 혈중 농도·청력 검사를 정기적으로 시행한다.
+- 괴사 조직·생물막이 의심되는 경우 외과적 절제·배액을 신속히 의뢰하고, 필요 시 감염내과·외과
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 중증 감염 시 패혈증, 다발성 장기 부전, 사망 위험 증가.

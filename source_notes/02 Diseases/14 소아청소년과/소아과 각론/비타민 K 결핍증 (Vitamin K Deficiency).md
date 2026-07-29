@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - vitamin k deficiency
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -38,10 +39,13 @@ reviewed_at: "2026-07-16"
 * 비타민 K 투여 후 PT의 신속한 정상화(30분 이내)로 확진 가능
 * 선천성 비타민 K 의존성 응고인자 결핍증(VKCFD)과의 감별 필요
 
-## 5. 치료 (Treatment)
-* **신생아 VKDB**: 비타민 K1 1~2mg 정맥 또는 피하 주사, 심한 출혈 시 신선동결혈장(FFP) 수혈
-* **성인 결핍**: 경구 비타민 K1 보충(1~2mg), 흡수 장애 시 고용량 경구 또는 비경구 투여
-* **예방**: 신생아 출생 직후 비타민 K1 근육 주사(0.5~1mg) 권장
+## 5. 치료
+
+* **신생아 VKDB**: 비타민 K1 투여 및 출혈 정도에 따라 신선동결혈장(FFP) 또는 농축 적혈구 수혈 고려
+* **기저 질환 교정**: 흡수 장애(담즙 정체, IBD 등)나 약물 복용 등 원인 질환 파악 및 관리
+* **치료 반응 평가**: 비타민 K 투여 후 PT(프로트롬빈 시간)의 신속한 정상화 여부 확인
+* **예방**: 모든 신생아 대상 출생 직후 비타민 K1 예방적 근육 주사 시행
+* **추적 관찰**: 지연형 VKDB의 경우 두개내 출혈에 따른 신경학적 합병증 발생 여부 모니터링
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 치료 시 예후 양호

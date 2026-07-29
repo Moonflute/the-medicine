@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신장]]
 
@@ -43,10 +44,10 @@ reviewed_at: "2026-07-16"
 - 신기능이 정상인 경우 소변 Cl⁻ 및 K⁺ 농도가 감별에 유용.
 
 ## 5. 치료
-- 원인 질환 교정 및 저칼륨혈증/저마그네슘혈증 보충.
-- Saline-responsive: 0.9% 식염수 투여.
-- Saline-unresponsive: 원인 질환 치료(알도스테론 길항제 등).
-- 중증(pH > 7.6): 필요 시 Acetazolamide 투여 또는 혈액투여 고려.
+- 원인 질환을 교정하고 저칼륨·저마그네슘혈증을 적절히 보충한다.
+- 체액 결핍(소변 Cl⁻ < 20 mEq/L)일 경우 0.9% 식염수로 부피 재충전한다.
+- 알도스테론 과다 등 원인 질환은 알도스테론 길항제 등으로 치료하고, 내분비 전문의에게 의뢰한다.
+-
 
 ## 6. 예후 및 합병증
 - 저칼륨혈증 및 저칼슘혈증에 의한 부정맥, 근육 마비, 신경학적 증상 위험.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 양극성 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional mood disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -40,11 +41,11 @@ relation_to_parent: subtype
 - 감별 진단: 물질 유발성 기분 장애, 일반 의학적 상태에 의한 기분 장애 배제.
 
 ## 5. 치료
-- 치료 원칙: 약물 치료와 정신사회적 개입의 병행.
-- 약물 치료: 기분 조절제(Lithium, Valproate, Lamotrigine) 및 비정형 항정신병 약물이 1차 선택.
-- 급성기: 증상 조절을 위해 Benzodiazepine 병용 가능.
-- 기타: 전기 경련 요법(ECT), 정신사회적 치료(인지행동치료, 교육).
-- 입원: 자해/타해 위험, 정신병적 양상, 병식 결여, 지지 체계 부족 시 고려.
+
+- **약물 순응도 관리**: 기분 조절제 및 항정신병 약물의 규칙적인 복용을 강조하고, 임의 중단 시 재발 위험이 높음을 환자와 보호자에게 교육함.
+- **안전 확보 및 입원 결정**: 자해나 타해 위험이 있거나 정신병적 증상이 동반된 경우, 즉각적인 입원 치료를 우선적으로 고려함.
+- **정기적 모니터링**: 약물 부작용(혈중 농도, 대사 지표 등)과 기분 삽화의 재발 징후를 정기적으로 추적 관찰함.
+- **정신사회적 개입**: 질환에 대한 교육(Psychoeducation)과 인지행동치료를 병행하여 스트레스 관리 및 생활 리듬 유지를 도모함.
 
 ## 6. 예후 및 합병증
 - 만성적 경과를 보이며 재발률이 높음.

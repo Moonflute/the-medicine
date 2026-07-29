@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 홍역
 유형:
@@ -18,8 +19,8 @@ last_studied: '2026-06-06'
 document_role: "canonical"
 population: "pediatric"
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -46,10 +47,13 @@ reviewed_at: "2026-07-16"
 * 임상 증상(3C 및 발진)과 혈청 IgM 항체 또는 RT-PCR 검사 결과를 종합하여 진단
 * 감별 진단: 풍진, 돌발진, 약물 발진, 가와사키병 등
 
-## 5. 치료 (Treatment)
-* **대증 요법**: 충분한 수분 공급 및 해열제 투여
-* **비타민 A**: 세계보건기구(WHO) 및 미국소아과학회(AAP) 권고에 따라 결핍 예방 및 합병증 감소를 위해 투여 고려
-* **감염 관리**: 공기 매개 주의(Airborne isolation) 및 격리 필수
+## 5. 치료
+
+* **대증 요법**: 충분한 수분 공급과 해열제를 통해 발열 및 전신 증상을 완화함.
+* **비타민 A 투여**: 결핍 예방 및 합병증 감소를 위해 연령별 권장 용량에 따라 투여함.
+* **감염 관리**: 공기 매개 주의(Airborne isolation)를 적용하여 발진 발생 후 4일까지 격리함.
+* **합병증 모니터링**: 폐렴, 중이염, 뇌염 등 주요 합병증 발생 여부를 면밀히 관찰함.
+* **예방 접종**: 노출 후 72시간 이내 백신 접종 또는 6일 이내 면역글로불린 투여를 고려함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 폐렴(사망의 주요 원인), 중이염, 설사, 뇌염(급성 파종성 뇌척수염 등), 아급성 경화성 전뇌염(SSPE)

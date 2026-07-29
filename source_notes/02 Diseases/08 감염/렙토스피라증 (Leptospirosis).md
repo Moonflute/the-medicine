@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -44,9 +45,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 임상 증상, 역학적 노출력, 혈청학적 검사(항체 역가 상승) 또는 PCR 검사 양성으로 진단한다.
 
-## 5. 치료 (Treatment)
-- **경증**: 독시사이클린(doxycycline), 아지스로마이신(azithromycin), 아목시실린(amoxicillin) 등 경구 항생제 투여
-- **중증**: 페니실린 G(penicillin G), 암피실린(ampicillin), 세프트리악손(ceftriaxone) 등 정맥 항생제 투여 및 보존적 치료(수액, 필요 시 투석)
+## 5. 치료
+- 경증: 경구 항생제로 초기 치료 시작하고, 증상 호전 여부를 48‑72시간 내에 평가한다.
+- 중증: 정맥 항생제와 함께 수액 보충, 필요 시 투석 등 보존적 치료를 시행하고, 중증도에 따라 ICU 전원을 고려한다.
+- 안전성: 항생제 부작용(알레르기, 간·신독성) 및 전해질 변화를 모니터링하고, 신기능·간기능 검사를 정기적으로 확인한다.
+- 의뢰·전원: 급성 신부전, 간부전, 호흡곤란, 의식 저하 등 중증 합병증이 나타나면 즉시 중환자실로 전원한다.
+- 추적·예방: 치료 종료 후 2‑4주에 혈액·소변 검사를 재검사하여 재발 여부를 확인하고, 고위험 직업군은 예방적 항생제 복용 및 보호 장비 착용을 권고한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 중증 형태인 Weil's disease는 사망률이 높으며, 신부전, 간부전, 폐출혈, 심근염 등의 합병증이 발생할 수 있다.

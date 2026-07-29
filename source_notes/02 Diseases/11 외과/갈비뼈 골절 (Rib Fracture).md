@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - rib fracture
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[외과]]
 
@@ -33,13 +34,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 병력 청취 및 신체 검진이 중요하며, 흉부 X-ray를 통해 동반된 흉부 손상 여부를 평가함.
 
-## 5. 치료 (Treatment)
-- 통증 조절: 진통제(오피오이드, NSAIDs) 투여.
-- 폐 위생(Pulmonary hygiene): 무기폐 및 폐렴 예방을 위해 심호흡 및 기침 유도.
-  베개 등으로 환부를 지지(splinting)하여 통증 완화.
-- 입원 적응증: 3개 이상의 골절, 기저 심폐 질환이 있는 경우.
-- 주의사항: 흉부 압박(strapping/taping)은 호흡을 제한하므로 금기.
-- 수술적 고정: 동요가슴, 호흡 부전, 통증 지속 시 고려.
+## 5. 치료
+- 통증 조절을 위해 필요 시 오피오이드·NSAIDs 사용
+- 심호흡·기침 유도 및 베개 등으로 환부 지지하여 폐 위생 유지
+- 3개 이상 골절, 기저 심폐 질환, 호흡 부전 등은 입원 고려
+- 흉부 압박(strapping/taping)은 호흡 제한을 초래하므로 금지
+- 동요가슴·통증 지속 시 외과적 고정 검토 및 외상외과 전문의 의뢰
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 무기폐, 폐렴(통증으로 인한 호흡 제한 시 발생), 기흉, 혈흉, 폐좌상.

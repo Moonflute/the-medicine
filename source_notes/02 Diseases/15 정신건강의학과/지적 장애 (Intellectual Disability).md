@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 지적 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -34,17 +35,19 @@ relation_to_parent: subtype
 - 추가 검사: 원인 규명을 위한 유전자 검사(염색체 분석, FISH), 대사 질환 선별 검사, 필요 시 뇌 영상 검사(MRI/CT).
 
 ## 4. 진단
-- DSM-5 진단 기준: 
+- DSM-5 진단 기준:
   1) 지적 기능의 결함(추론, 문제 해결, 학습 등).
   2) 적응 기능의 결함(독립적 생활 및 사회적 책임 수행의 어려움).
   3) 발달 기간 중 발병.
 - IQ 점수만으로 진단하지 않으며, 적응 기능의 수준을 종합적으로 고려함.
 
 ## 5. 치료
-- 다학제적 접근: 의학적, 교육적, 사회적 지원을 포함한 포괄적 관리.
-- 치료 원칙: 환자의 강점과 약점을 파악하여 개별화된 교육 및 재활 계획 수립.
-- 약물 치료: 동반된 정신과적 증상(공격성, 불안 등) 조절을 위해 사용(예: Risperidone 등).
-- 사회적 지원: 인지행동치료, 언어/놀이치료, 특수 교육 연계 및 가족 지원 프로그램.
+
+- 다학제적 접근: 의학적, 교육적, 사회적 지원을 통합한 개별화된 포괄적 관리 계획 수립
+- 동반 질환 관리: ADHD, 불안, 우울 등 공존하는 정신과적 증상에 대한 적절한 약물 및 행동 치료 병행
+- 재활 및 교육: 언어, 작업, 인지행동치료 등 발달 단계에 맞춘 특수 교육 및 사회적 기술 훈련 연계
+- 가족 지원: 보호자의 양육 부담 경감을 위한 교육, 심리적 지지 및 지역사회 복지 서비스 활용
+- 정기적 추적 관찰: 발달 상태와 적응 기능 변화를 주기적으로 평가하여 치료 목표 및 지원 계획 조정
 
 ## 6. 예후 및 합병증
 - 조기 발견 및 적절한 개입이 기능 향상과 사회적 적응에 필수적임.

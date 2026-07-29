@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - TTP
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[혈액]]
 
@@ -42,9 +43,11 @@ reviewed_at: "2026-07-16"
 - 설명되지 않는 혈소판 감소증과 미세혈관병성 용혈 빈혈이 확인되면 TTP를 강력히 의심해야 함.
   확진은 ADAMTS13 활성도 측정(<10%)을 통해 이루어지나, 치료를 지연해서는 안 됨.
 
-## 5. 치료 (Treatment)
-- 혈장 교환술(Plasma exchange)을 즉시 시행하며, 스테로이드 및 리툭시맙(rituximab)을 병용함.
-  필요 시 카플라시주맙(caplacizumab)을 고려할 수 있음.
+## 5. 치료
+- 혈장 교환술을 즉시 시작하고, 동시에 고용량 스테로이드를 투여한다.
+- 리툭시맙을 병용하여 자가항체 억제를 고려하고, 필요 시 카플라시주맙을 추가한다.
+- 치료 중 혈압, 전해질, 체액 상태를 지속적으로 모니터링하여 부작용(예: 과부하, 알레르기 반응)을 예방한다.
+- 혈액내과 전문의와 협진하고, 치료 후 1~2주 간격으로 혈소판 수와 LDH 등을 추적 검사하여 재발 여부를 확인한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않으면 치명적이나, 적절한 치료 시 생존율이 매우 높음.

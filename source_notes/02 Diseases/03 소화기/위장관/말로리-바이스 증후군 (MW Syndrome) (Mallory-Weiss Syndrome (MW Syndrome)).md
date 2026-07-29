@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -36,9 +37,10 @@ reviewed_at: "2026-07-16"
 - 토혈 및 흑색변 등 상부위장관 출혈 증상에 따른 진단적 접근으로 EGD 시행
 
 ## 5. 치료
-- **현재 출혈이 없는 경우**: 금식, 대증치료(80~90%에서 자연 지혈), 재발 방지를 위한 PPI 투여 고려
-- **현재 출혈이 있는 경우**: 내시경적 지혈술(clipping, cauterization, epinephrine injection 등)
-- **지혈술 실패 시**: 혈관조영술을 통한 색전술(angiographic embolization) 또는 수술적 치료 고려
+- 금식(NPO) 유지하고 혈역학적 안정성 확인; 필요 시 수액·수혈로 혈압·혈색소 보정
+- 출혈이 확인되면 즉시 내시경으로 지혈 시도(클리핑, 전기소작, 에피네프린 주입 등)
+- 내시경 지혈이 실패하거나 지속 출혈 시 혈관조영술 색전술 또는 외과적 봉합·배액 고려
+- 치료 후 24–48시간 동안 혈압·맥박·혈색소를 추적 관찰하고 재출혈 징후 시 재평
 
 ## 6. 예후 및 합병증
 - **예후**: 대부분 대증치료로 호전되며 재발은 드묾

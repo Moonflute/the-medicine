@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 인위성 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional somatic symptom disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,9 +40,11 @@ relation_to_parent: subtype
 - 감별 진단: 꾀병(Malingering, 외부적 이득이 있음), 신체 증상 장애(의도적 조작이 없음), 경계성 인격장애(자해 행동이 있으나 인위성 장애와는 동반될 수 있음).
 
 ## 5. 치료
-- 핵심 원칙: 직접적인 대결(Confrontation)은 환자의 거부감과 병원 이탈을 초래하므로 지양하고, 공감적이고 비대결적인 태도로 접근함.
-- 지지적 치료: 신뢰 관계 형성, 정기적인 상담, 불필요한 검사 및 처치 제한, 다학제적 접근(정신건강의학과 협진).
-- 약물 치료: 동반된 우울증, 불안 장애 등 기저 정신질환이 있을 경우 SSRI 등 항우울제 사용 고려.
+
+- **비대결적 접근:** 증상의 허구성을 직접 지적하는 대결은 환자의 방어기제와 병원 이탈을 유발하므로, 환자의 고통을 인정하되 증상과 검사 결과의 불일치를 부드럽게 언급하는 태도를 유지함.
+- **불필요한 처치 제한:** 의학적 근거가 부족한 침습적 검사나 수술을 엄격히 제한하고, 다학제적 팀을 구성하여 의료진 간 일관된 대응 지침을 공유함.
+- **지지적 상담 및 관리:** 신뢰 관계를 바탕으로 환자의 심리적 욕구를 파악하고, 정기적인 외래 방문을 통해 증상 조작 없이도 의료진의 관심을 받을 수 있는 환경을 제공함.
+- **기저 질환 치료:** 동반된 우울, 불안, 인격 장애 등 기저 정신질환에 대한 약물 치료 및 정신치료를 병행하여 환자의 심리적 안정을 도모함.
 
 ## 6. 예후 및 합병증
 - 만성적인 경과를 보이며, 반복적인 침습적 처치로 인한 신체적 손상 및 의료 시스템 의존도가 높음.

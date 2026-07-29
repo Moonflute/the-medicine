@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[혈액]]
 
@@ -35,12 +36,11 @@ reviewed_at: "2026-07-16"
 - 헤모글로빈 전기영동 (Hb electrophoresis) : 비정상 헤모글로빈 분획 및 Hb A2, Hb F 비율 확인.
   유전자 검사 : 확진 및 유전형 분석.
 
-## 5. 치료 (Treatment)
-- 수혈 : 증상성 빈혈 시 시행 (철분 과부하 주의).
-  철분 킬레이트제 : 수혈로 인한 철분 과부하 예방 및 치료.
-  비장 적출술 : 비장 비대 및 과도한 용혈/수혈 요구량 감소 시 고려.
-  조혈모세포 이식 및 유전자 치료 : 완치를 위한 근본적 치료법.
-  기타 : Luspatercept (수혈 의존성 베타 지중해 빈혈 환자에서 고려).
+## 5. 치료
+- 증상성 빈혈 시 정기적인 적혈구 수혈 시행(수혈 전후 혈액형·감염 검사 포함)
+- 수혈에 따른 철분 과부하 예방을 위해 철분 킬레이트제 사용 및 혈청 ferritin·간 기능 정기 모니터링
+- 비장 비대·심한 용혈·수혈 요구량 증가 시 혈액내과 전문의와 협의 후 비장 적출술 고려
+- 중증·수혈 의존 환자는 조혈모세포 이식·유전자 치료·Luspatercept 등 근본적 치료 옵션을 평가하고 전문 센터에 의뢰​
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 중증형은 지속적인 수혈과 합병증 관리가 필수적임.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - SJS/TEN
 유형:
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[피부과]]
 
@@ -52,11 +53,11 @@ reviewed_at: "2026-07-16"
 * 감별 진단: DRESS, AGEP, 다형홍반(Erythema multiforme), 포도상구균 열상 피부 증후군(SSSS).
 
 
-## 5. 치료 (Treatment)
-* **원인 약물 즉시 중단**.
-* **지지 요법**: 화상 전문 센터 또는 중환자실 입원, 수액 보충, 영양 공급, 통증 조절, 무균 처치.
-* **약물 치료**: 전신 스테로이드, IVIG, 사이클로스포린 등이 사용될 수 있으나 근거는 논란이 있음.
-
+## 5. 치료
+- 원인 약물 즉시 중단하고, 환자를 화상 전문 센터 또는 중환자실로 신속히 이송하여 전신적인 지지 요법(수액, 영양, 통증 관리, 무균 드레싱)을 시행한다.
+- 피부 및 점막 손상 부위에 대한 무균 관리와 감염 예방을 위해 정기적인 상처 평가와 필요 시 항생제 사용을 고려한다.
+- 전신 스테로이드, IVIG, 사이클로스포린 등 면역조절제는 개별 환자 상황에 따라 선택적으로 사용하되, 근거가 제한적임을 인지하고 위험‑이익을 평가한다.
+- 치료 경과를 모니터링하며 SCORTEN 점수를 기반으로 사망 위험을 재평가하고,
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

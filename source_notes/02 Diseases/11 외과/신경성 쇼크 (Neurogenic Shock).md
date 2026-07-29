@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - neurogenic shock
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 
 관련분과:
 - 응급의학
@@ -40,13 +41,12 @@ reviewed_at: "2026-07-16"
 - 척수 손상 병력과 함께 저혈압 및 서맥이 동반된 경우 의심.
 - 진단적 기준은 명확하지 않으나 통상 수축기 혈압 <90 mmHg, 심박수 <80 bpm을 기준으로 함.
 
-## 5. 치료 (Treatment)
-- **초기 처치**: 척추 고정(C-spine immobilization), 기도 확보 및 호흡 보조.
-- **수액 요법**: 저혈량증 교정을 위한 정질액 투여(과도한 수액은 주의).
-- **약물 요법**:
-  수액 반응이 없는 경우 승압제(Norepinephrine 등) 사용.
-  서맥 조절을 위해 Atropine 고려.
-- **목표**: 척수 관류 유지를 위해 평균 동맥압(MAP) 85-90 mmHg를 7일간 유지 권장.
+## 5. 치료
+
+- **척추 안정화**: 척추 고정(C-spine immobilization)을 최우선으로 시행하여 추가적인 척수 손상을 방지함.
+- **혈역학적 관리**: 수액 소생술을 우선 시행하되, 폐부종 등 과수액 부작용을 방지하기 위해 주의 깊게 투여함.
+- **승압제 및 서맥 조절**: 수액 반응이 불충분한 저혈압 시 승압제를 사용하고, 증상성 서맥에는 Atropine 등을 고려함.
+- **관류 유지 및 모니터링**: 척수 관류 유지를 위해 목표 평균 동맥압(MAP)을 설정하고, 합병증 예방을 위해 DVT 예방 및 욕창 관리를 병행함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 손상 정도(ASIA 척도) 및 치료 반응에 따라 결정.

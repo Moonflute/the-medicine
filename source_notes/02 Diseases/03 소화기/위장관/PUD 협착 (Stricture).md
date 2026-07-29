@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -43,11 +44,12 @@ reviewed_at: "2026-07-16"
 - 악성 종양(위암)에 의한 협착과의 감별이 중요
 
 
-## 5. 치료 (Treatment)
-- **내과적 처치**: 금식, 수액 및 전해질 교정, 코위관(L-tube) 삽입을 통한 위 감압
-- **내시경적 치료**: 풍선확장술(balloon dilation) 시행
-- **수술적 치료**: 내시경적 치료에 반응하지 않거나 재발하는 경우 유문성형술(pyloroplasty) 또는 위공장문합술(gastrojejunostomy) 고려
-
+## 5. 치료
+- 금식 유지·정맥 수액·전해질 교정 후 위 감압을 위해 코위관(L‑tube) 삽입
+- 내시경 풍선확장술 시행; 시술 전·후 출혈·천공 위험 설명 및 관찰
+- 내시경 치료에 반응 없거나 재발 시 유문성형술(pyloroplasty) 또는 위공장문합술(gastrojejunostomy) 고려
+- 협착 부위와 악성 종양 감별을 위해 진단 내시경 후 조직검사 필요 시 전문 위장관외과·종양학과 협진
+- 치료 후 4‑6주 내에 재평가 내시경 시행 및 영양·전해질 상태 지속 모니터링, 증상 재발 시 즉시 재평가​
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 영양 결핍, 전해질 불균형(저염소성 대사성 알칼리증), 흡인성 폐렴

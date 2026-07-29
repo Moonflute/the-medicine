@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -40,9 +41,13 @@ reviewed_at: "2026-07-16"
   간 농양 등 장외 감염이 의심될 경우 혈청학적 검사와 영상 검사를 시행한다.
   현미경 검사는 비병원성 아메바와 구분이 어려울 수 있다.
 
-## 5. 치료 (Treatment)
-- 침습성 질환 (아메바성 대장염, 간 농양)에는 메트로니다졸(metronidazole), 티니다졸(tinidazole) 등의 조직 살충제를 투여한 후, 장 내 낭종을 제거하기 위해 파로모마이신(paromomycin), 아이오도퀴놀(iodoquinol) 등 루멘 작용제(luminal agent)를 투여한다.
-  무증상 보균자도 전파 방지를 위해 루멘 작용제 치료를 고려한다.
+## 5. 치료
+
+- 침습성 질환 시 조직 살충제(metronidazole 등) 투여 후 반드시 루멘 작용제(paromomycin 등)를 추가하여 장내 낭종을 제거한다.
+- 무증상 보균자라도 지역사회 전파 차단을 위해 루멘 작용제 투여를 권고한다.
+- 치료 후 대변 검사를 통해 병원체 박멸 여부를 확인하고, 증상 재발 시 재검사를 시행한다.
+- 장 천공이나 간 농양 파열 등 급성 합병증 의심 시 즉각적인 외과적 협진 및 입원 치료를 고려한다.
+- 개인위생 교육(손 씻기, 식수 및 음식물 끓여 먹기)을 통해 재감염을 예방한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 독성 거대결장, 장 천공, 간 농양 파열, 흉강 또는 복강 내 전파 등의 합병증이 발생할 수 있다.

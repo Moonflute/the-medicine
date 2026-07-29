@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - pleomorphic adenoma
 - 다형성 선종
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[이비인후과]]
 
@@ -40,11 +41,12 @@ reviewed_at: "2026-07-16"
 * 임상적 병력과 영상 검사를 종합하며, FNA를 통해 조직학적 진단을 시도함.
   악성 종양과의 감별이 중요함.
 
-## 5. 치료 (Treatment)
-* **수술적 절제**:
-  표준 치료법임.
-  종양의 완전 절제가 원칙이며, 이하선 종양의 경우 안면 신경을 보존하면서 종양을 포함한 이하선 절제술(parotidectomy)을 시행함.
-* **주의사항**: 불완전 절제 시 재발률이 높으므로 충분한 여유 경계(margin)를 확보하는 것이 중요함.
+## 5. 치료
+
+* **수술적 절제**: 종양의 완전 절제가 표준 치료이며, 이하선 종양 시 안면 신경을 보존하는 이하선 절제술을 시행함.
+* **재발 방지**: 불완전 절제 시 재발 위험이 높으므로, 피막을 포함한 충분한 여유 경계(margin)를 확보하여 절제함.
+* **악성 변화 감시**: 장기간 방치 시 악성 변화 가능성이 있으므로, 진단 즉시 수술적 치료를 고려함.
+* **추적 관찰**: 수술 후 안면 신경 기능 평가 및 재발 여부 확인을 위해 정기적인 외래 추적 관찰을 시행함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 양성 종양이나 장기간 방치 시 악성 변화(carcinoma ex pleomorphic adenoma) 가능성이 있음.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -10,8 +11,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[알레르기]]
 
@@ -50,14 +51,9 @@ reviewed_at: "2026-07-16"
 
 
 
-## 5. 치료 (Treatment)
-- 히스타민 매개 반응이 아니므로 항히스타민제, 스테로이드, 에피네프린은 효과가 거의 없다.
-  브라디키닌 생성을 억제하거나 수용체를 차단하는 약제를 사용한다.
-- 급성기 치료: C1-INH 농축제, 이카티반트(icatibant), 에칼란타이드(ecallantide) 등.
-- 예방 요법: 장기 예방(lanadelumab, C1-INH 등) 및 시술 전 단기 예방을 고려한다.
-- 유발 요인(ACE 억제제, 에스트로겐 등) 회피가 중요하다.
-
-
+## 5. 치료
+- 급성 부종 발생 시 C1‑INH 농축제, 이카티반트(브라디키닌 B2 수용체 차단제) 또는 에칼란타이드(키네아제 억제제) 등 브라디키닌 경로 차단 약물을 즉시 투여한다.
+- 장기 예방이 필요할 경우 C1‑INH 교체제 또는 란다델루맙(anti‑kallikrein) 등으로 정기 투여를 계획하고, 시술 전 24‑
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 상기도 부종으로 인한 질식 위험이 있으나, 적절한 급성기 치료 및 예방 요법을 통해 예후를 개선할 수 있다.

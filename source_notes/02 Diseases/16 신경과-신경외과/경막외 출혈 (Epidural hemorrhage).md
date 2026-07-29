@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - EDH
 - 경막외 출혈
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신경과-신경외과]]
 
@@ -42,11 +43,12 @@ reviewed_at: "2026-07-16"
 
 
 
-## 5. 치료 (Treatment)
-- 응급 수술(개두술 및 혈종 제거술)이 원칙.
-  적응증: 의식 저하, 신경학적 결손, 혈종 두께 > 1.5cm, 정중선 이동(midline shift) > 5mm, 또는 혈종 용적 > 30cm^3.
-
-
+## 5. 치료
+- 응급 신경외과 의뢰 후 혈종 제거를 위한 개두술(크루스칼 절제술) 시행
+- 수술 전·후 두개내압 모니터링 및 산소·혈압 관리, 항응고제 금지
+- 수술 후 24시간 이내 CT 재검사로 혈종 감소 및 정중선 이동 확인
+- 신경학적 상태 변동 시 즉시 재평가 및 필요 시 추가 외과적 개입
+- 퇴원 전 재활 및 두부 외상 예방 교육 제공
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 수술 시 예후가 좋으나, 치료가 지연될 경우 뇌탈출(herniation)로 인한 사망 위험이 높음.

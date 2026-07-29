@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -10,8 +11,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신장]]
 
@@ -45,10 +46,12 @@ reviewed_at: "2026-07-16"
 - 필요 시 염화암모늄(ammonium chloride) 부하 검사를 통해 소변 산성화 능력 평가.
 
 
-## 5. 치료 (Treatment)
-- 알칼리화 요법: 중탄산나트륨(sodium bicarbonate) 또는 구연산염(citrate) 제제를 투여하여 혈청 중탄산염 농도 정상화.
-- 저칼륨혈증 교정: 필요 시 칼륨 보충.
-
+## 5. 치료
+- 알칼리화 요법을 지속하고 혈청 중탄산염 및 전해질을 정기적으로 모니터링한다.
+- 저칼륨혈증이 확인되면 경구 또는 정맥 칼륨 보충을 시행하고, 고칼륨 위험 상황을 주의한다.
+- 신석회화 및 신장 초음파를 6~12개월 간격으로 추적하여 진행 여부를 평가한다.
+- 산증·저칼륨 교정이 어려운 경우 신장내분비 전문의에게 의뢰한다.
+- 충분한 수분 섭취와 나트륨·단백질 섭취 조절을 통해 결석 형성을 예방한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 신석회화 진행 및 골질환 예방 가능.

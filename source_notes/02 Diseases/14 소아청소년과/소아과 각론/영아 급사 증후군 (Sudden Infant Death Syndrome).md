@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - SIDS
 - 영아 급사 증후군
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -34,12 +35,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 * 철저한 조사 후에도 명확한 사망 원인이 밝혀지지 않을 때 내리는 배제 진단
 
-## 5. 치료 (Treatment)
-* 예방이 핵심 (AAP 권고안 준수):
-* **수면 자세**: 반드시 등을 대고 똑바로 눕혀 재우기(Supine position)
-* **수면 환경**: 단단한 매트리스 사용, 침대 내 푹신한 침구류(베개, 이불, 인형 등) 제거
-* **환경 관리**: 금연(임신 중 및 출생 후), 적절한 실내 온도 유지(과열 방지)
-* **기타**: 모유 수유 권장, 영아와 같은 방에서 자되 침대는 분리(Room-sharing without bed-sharing)
+## 5. 치료
+
+* **수면 자세 및 환경**: 반드시 등을 대고 똑바로 눕혀 재우며, 단단한 매트리스를 사용하고 침구류(베개, 인형 등)를 제거함.
+* **환경 관리**: 임신 중 및 출생 후 간접흡연을 차단하고, 영아가 과열되지 않도록 적절한 실내 온도를 유지함.
+* **수면 방식**: 보호자와 같은 방에서 자되 침대는 분리(Room-sharing without bed-sharing)하여 수면함.
+* **기타 예방**: 모유 수유를 권장하며, 공갈 젖꼭지 사용이 SIDS 위험 감소와 관련이 있음을 교육함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 예방적 수칙 준수를 통해 발생률을 크게 낮출 수 있음

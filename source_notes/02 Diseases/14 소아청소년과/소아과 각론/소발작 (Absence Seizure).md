@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - Childhood Absence Epilepsy
 - 결신 발작
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -40,10 +41,13 @@ reviewed_at: "2026-07-16"
 * 임상 증상 및 EEG 소견을 통한 전기임상적 진단
 * 감별 진단: 초점성 뇌전증, 비뇌전증성 발작(staring spells)
 
-## 5. 치료 (Treatment)
-* **1차 약물**: Ethosuximide (가장 효과적)
-* **기타 약물**: Valproic acid (전신 강직-간대 발작 동반 시 고려), Lamotrigine
-* **주의**: Phenytoin, Carbamazepine, Gabapentin 등은 발작을 악화시킬 수 있어 금기
+## 5. 치료
+
+* **약물 선택**: Ethosuximide를 1차 치료제로 우선 고려하며, 전신 강직-간대 발작이 동반된 경우 Valproic acid를 선택함.
+* **금기 약물**: Phenytoin, Carbamazepine, Gabapentin, Vigabatrin 등은 발작을 악화시킬 수 있으므로 처방을 피함.
+* **모니터링**: 약물 치료 중 발작 빈도 감소 여부를 확인하고, 주의력 결핍이나 인지 기능 저하 등 동반 증상에 대한 정기적 평가를 시행함.
+* **전문의 의뢰**: 약물 치료에 반응하지 않는 난치성 발작이나 진단이 불분명한 경우 소아 신경 분과 전문의에게 의뢰함.
+* **생활 관리**: 과호흡, 수면 부족 등 발작 유발 요인을 피하도록 교육하고, 일상생활 중 안전사고 예방을 강조함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 치료 반응은 양호하나, 주의력 결핍, 인지 기능 저하, 정서적 문제 동반 가능

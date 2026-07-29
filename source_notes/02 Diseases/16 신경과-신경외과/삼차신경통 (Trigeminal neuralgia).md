@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 삼차신경통
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신경과-신경외과]]
 
@@ -36,11 +37,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - ICHD-3 진단 기준에 따라 일측성 돌발 통증, 특정 자극에 의한 유발, 다른 질환으로 설명되지 않는 경우 진단.
 
-## 5. 치료 (Treatment)
-- **약물 치료**:
-  Carbamazepine 또는 Oxcarbazepine이 1차 선택제.
-  효과 부족 시 Gabapentin, Baclofen 등 병용 고려.
-- **수술적 치료**: 약물 치료에 반응하지 않는 경우 미세혈관 감압술(Microvascular decompression)이 가장 효과적인 장기적 치료법.
+## 5. 치료
+- 1차 약물 치료는 카바마제핀 또는 옥스카바제핀을 사용하고, 통증 완화와 부작용을 정기적으로 평가한다.
+- 약물 부작용(어지러움, 혈액학적 변화 등)이 나타나면 혈액 검사와 증상 모니터링을 실시하고, 필요 시 용량 조절 또는 약물 교체를 고려한다.
+- 약물로 통증이 조절되지 않거나 재발이 빈번한 경우 신경외과 전문의에게 미세혈관 감압술 등 외과적 치료를 의뢰한다.
+- 치료 시작 후 2~4주 내에 통증 감소 여부와 부작용을 확인하기 위해 외래 방문을 예약하고, 장기 추적 관찰 계획을 수립한다.
+- MRI/MRA를 통해 혈관 압박 여부와 이
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 약물 치료로 초기 통증 조절은 가능하나 시간이 지나며 효과가 감소할 수 있음.

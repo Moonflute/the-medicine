@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신장]]
 
@@ -46,12 +47,11 @@ reviewed_at: "2026-07-16"
 - 다른 RTA 유형(1형, 2형)과의 감별(특히 소변 pH 및 TTKG).
 
 
-## 5. 치료 (Treatment)
-- 기저 질환 교정 및 원인 약물 중단.
-- 고칼륨혈증 조절: 저칼륨 식이, 이뇨제(루프 이뇨제 등) 사용.
-- 대사성 산증 교정: 중탄산나트륨(sodium bicarbonate) 투여.
-- 필요 시 플루드로코르티손(fludrocortisone) 투여(알도스테론 결핍 시).
-
+## 5. 치료
+- 기저 질환(당뇨, CKD 등) 관리와 원인 약물(ACEi, ARB, NSAIDs 등) 중단
+- 고칼륨혈증: 저칼륨 식이와 루프 이뇨제 등으로 칼륨 배설 촉진
+- 대사성 산증: 중탄산나트륨으로 혈중 산도 교정
+- 알도스테론 결핍이 의심될 경우 플루드로코르티손 투여 고려 및 혈청 전해질·산‑염기 상태 정기 추적; 중증·재발 시 신장·내분비 전문의 협진 필요
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 기저 신기능 저하 정도에 따라 예후가 결정됨.

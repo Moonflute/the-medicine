@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 기면증
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -40,10 +41,12 @@ relation_to_parent: subtype
 - 진단 요건: hypocretin 결핍 또는 탈력발작 병력, 혹은 MSLT상 특징적 소견.
 
 ## 5. 치료
-- 비약물적 요법: 규칙적인 수면 위생, 계획된 낮잠(15-20분), 정기적인 상담 및 교육.
-- 약물 요법:
-  - 주간 졸음: Modafinil, Armodafinil, Methylphenidate, Pitolisant.
-  - 탈력발작: Sodium oxybate, 항우울제(SNRI/SSRI).
+
+- 규칙적인 수면 위생 준수 및 계획된 짧은 낮잠(15~20분)을 통해 주간 졸음 관리
+- 주간 졸음 및 탈력발작 조절을 위한 약물 치료와 함께 정기적인 증상 모니터링 시행
+- 운전, 고소 작업 등 졸음으로 인한 사고 위험이 있는 활동 시 안전 지침 준수 및 주의 교육
+- 소아·청소년 환자의 경우 학업 및 사회적 기능 저하를 예방하기 위한 다학제적 접근 및 상담 병행
+- 약물 부작용 및 증상 변화 관찰을 위해 정기적인 외래 추적 관찰 및 필요 시 수면 전문의 의뢰
 
 ## 6. 예후 및 합병증
 - 만성 질환으로 완치는 어려우나 적절한 치료로 증상 조절 가능.

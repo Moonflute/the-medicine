@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 알코올 유발 정신병적 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,10 +40,11 @@ relation_to_parent: subtype
 - 증상이 알코올 사용과 시간적 연관성을 가져야 함.
 
 ## 5. 치료
-- 원칙: 입원 치료를 통한 안전 확보 및 금주 유지.
-- 약물 치료: 항정신병제(Antipsychotics)를 사용하여 정신병적 증상 조절.
-- 보조 요법: 벤조디아제핀(Benzodiazepines)을 병용하여 금단 증상 완화 및 불안 조절.
-- 장기 관리: 동기 강화 상담 및 재활 프로그램 연계.
+
+- **안전 확보 및 입원 치료**: 자해나 타해 위험을 평가하고, 증상 조절 및 금단 관리를 위해 입원 치료를 우선 고려함.
+- **약물 치료**: 정신병적 증상 조절을 위해 항정신병제를 사용하며, 금단 증상 및 불안 완화를 위해 벤조디아제핀을 병용할 수 있음.
+- **신체 상태 모니터링**: 알코올 금단 섬망으로의 이행 여부, 전해질 불균형, 영양 결핍 등 신체적 합병증을 지속적으로 평가함.
+- **재발 방지 및 추적 관찰**: 증상 호전 후에도 알코올 사용 장애에 대한 동기 강화 상담 및 재활 프로그램을 연계하여 지속적인 금주를 유도함.
 
 ## 6. 예후 및 합병증
 - 예후: 대개 수일 내에 증상이 호전되나, 재발 방지를 위한 지속적인 금주가 필수적임.

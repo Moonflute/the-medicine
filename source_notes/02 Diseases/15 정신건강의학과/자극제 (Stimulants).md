@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 자극제
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -41,10 +42,11 @@ relation_to_parent: subtype
 - 감별 진단: 동반 정신질환(우울, 불안, PTSD) 및 기저 심혈관 질환 확인.
 
 ## 5. 치료
-- 원칙: 동기 강화 상담, 해독, 재활 및 재발 방지.
-- 급성 독성 관리: 벤조디아제핀(불안 및 발작 조절), 항고혈압제, 항부정맥제.
-- 주의사항: 코카인 독성 시 베타차단제 사용은 심혈관 부작용 위험으로 주의 필요.
-- 금기: 동맥경화, 중증 고혈압, 갑상선기능항진증, 녹내장 환자에서 신중 투여.
+
+- 급성 중독 시 진정 및 발작 조절을 위해 벤조디아제핀을 우선 고려하며, 코카인 독성 시 관상동맥 연축 위험으로 베타차단제 사용은 지양함.
+- 심혈관 합병증 예방을 위해 활력징후를 지속적으로 모니터링하고, 필요시 항고혈압제 및 항부정맥제를 투여함.
+- 약물 사용 장애에 대해 동기 강화 상담 및 인지행동치료를 포함한 다학제적 재활 프로그램을 시행함.
+- 기저 심혈관 질환, 갑상선기능항진증, 녹내장 환자에게는 투여 전후 위험성을 엄격히 평가하고 장기적인 추적 관찰을 수행함.
 
 ## 6. 예후 및 합병증
 - 예후: 조기 개입 및 다학제적 팀(의사, 약사 등)의 장기적 추적 관찰이 필수적.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 본태성 떨림
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신경과-신경외과]]
 
@@ -44,13 +45,11 @@ reviewed_at: "2026-07-16"
 - 다른 신경학적 징후가 동반되지 않음.
 - 가족력 및 음주 후 호전 여부가 진단에 도움.
 
-## 5. 치료 (Treatment)
-- **비약물적 치료**:
-  증상이 경미한 경우 관찰.
-  카페인 제한, 스트레스 관리.
-- **1차 약물**: Propranolol(베타차단제), Primidone.
-- **2차 약물**: Gabapentin, Topiramate, Benzodiazepines 등.
-- **수술적 치료**: 약물 치료에 반응하지 않는 중증 환자에서 시상 복측 중간핵(VIM) 심부뇌자극술(DBS) 또는 집속초음파(Focused ultrasound) 고려.
+## 5. 치료
+- 비약물적 관리: 카페인 제한, 스트레스 관리, 증상이 경미하면 정기 관찰.
+- 약물 치료 시: 프롭라놀롤·프리미돈 사용, 저혈압·졸음 등 부작용 모니터링; 효과가 없거나 부작용 시 가바펜틴·토피라메이트·벤조디아제핀 등 2차 약물 고려.
+- 약물 반응이 미미하거나 중증일 경우: 신경과·신경외과 협진을 통한 시상 복측 중간핵 DBS 또는 집속초음파 시술 평가.
+- 치료 효과와 부작용은 3~6개월마다
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 서서히 진행하는 만성 질환.

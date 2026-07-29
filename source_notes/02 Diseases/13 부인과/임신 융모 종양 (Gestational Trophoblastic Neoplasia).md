@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - GTN
 - gestational trophoblastic neoplasia
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -39,13 +40,12 @@ reviewed_at: "2026-07-16"
 - 포상 기태 치료 후에도 hCG가 감소하지 않거나 증가하는 경우
 - FIGO 병기 체계에 따라 8점 이상 시 고위험군으로 분류
 
-## 5. 치료 (Treatment)
-- **항암 화학 요법**: 
-- 저위험군: 단일 항암제(Methotrexate 등)
-- 고위험군: 복합 항암 화학 요법
-- **관찰**:
-  b-hCG가 3주 연속 정상 수치에 도달할 때까지 매주 검사, 이후 12개월 연속 정상 유지 시까지 매월 검사.
-  관찰 기간 동안 경구 피임약(OC) 복용 권장.
+## 5. 치료
+
+- **항암 화학 요법**: FIGO 위험도 점수에 따라 저위험군은 단일 항암제, 고위험군은 복합 항암 화학 요법을 시행함.
+- **추적 관찰**: 혈청 b-hCG가 3주 연속 정상화될 때까지 매주 측정하며, 이후 12개월간 매월 검사하여 재발 여부를 감시함.
+- **피임 권장**: 치료 및 추적 관찰 기간 중 임신 시 hCG 수치 해석에 혼선을 줄 수 있으므로 경구 피임약 등을 통한 확실한 피임을 권고함.
+- **전이 평가**: 진단 시 흉부 X-ray 또는 CT를 통해 폐 및 주요 장기로의 전이 여부를 반드시 확인하여 병기를 결정함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 적절한 항암 치료 시 예후가 매우 좋음.

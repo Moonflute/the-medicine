@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - asymptomatic bacteriuria
 유형:
@@ -15,8 +16,8 @@ parent_disease: "무증상 세균뇨 (Asymptomatic Bacteriuria)"
 relation_to_parent: "special_population"
 population: "pregnancy"
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[산과]]
 
@@ -41,13 +42,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 증상이 없는 환자에서 상기 배양 기준을 만족할 때 진단함.
 
-## 5. 치료 (Treatment)
-- **원칙**: 대부분의 환자(당뇨, 고령, 척수 손상, 유치 도뇨관 환자 포함)는 항생제 치료의 이득이 없으며, 오히려 내성균 발생 및 부작용 위험을 높이므로 치료하지 않음.
-- **치료 적응증**:
-- 임신부: 신우신염, 저체중아 출산, 조산 위험 감소를 위해 치료 권장 (3~7일간 항생제 투여 및 추적 배양 검사 시행)
-- 비뇨기계 점막 출혈이 예상되는 수술 예정자
-- 신장 이식 후 3개월 이내 환자
-- **항생제**: Amoxicillin, amoxicillin/clavulanate, cefuroxime, cephalexin, nitrofurantoin 등이 임신 중 안전하게 사용 가능.
+## 5. 치료
+
+- 일반적인 성인(당뇨, 고령, 유치 도뇨관 환자 포함)은 항생제 치료의 이득이 없으므로 불필요한 항생제 사용을 지양함.
+- 임신부는 신우신염 및 조산 예방을 위해 치료를 시행하며, 치료 종료 후 반드시 추적 소변 배양 검사를 통해 균 박멸 여부를 확인함.
+- 비뇨기계 점막 출혈이 예상되는 수술 예정자나 신장 이식 초기 환자는 감염 예방을 위해 치료를 시행함.
+- 항생제 선택 시 환자의 임신 여부와 약제 안전성을 고려하며, 내성균 발생 방지를 위해 적정 기간만 투여함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분의 환자에서 합병증 없이 경과함.

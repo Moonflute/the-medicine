@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -42,10 +43,12 @@ reviewed_at: "2026-07-16"
 - 검체 배양에서 포도알균 동정
 - 항생제 감수성 검사 (AST)를 통해 MSSA와 MRSA 구분
 
-## 5. 치료 (Treatment)
-- MSSA: 나프실린(Nafcillin), 옥사실린(Oxacillin) 등 항포도알균 페니실린
-- MRSA: 반코마이신(Vancomycin), 답토마이신(Daptomycin), 리네졸리드(Linezolid) 등 고려
-- 원칙: 감염 부위의 적절한 배농(source control) 및 항생제 감수성 결과에 따른 표적 치료
+## 5. 치료
+- 감염 부위의 배농 및 이물질 제거 등 source control를 우선 시행하고, 항생제 감수성 결과에 따라 MSSA는 페니실린계, MRSA는 반코마이신·답토마이신·리네졸리드 등으로 전환한다.
+- 반코마이신 등 신독성 항생제 사용 시 신기능 및 청력 모니터링을 정기적으로 시행한다.
+- 중증 감염·MRSA 의심 시 감염내과·외과 협진을 요청하고, 필요 시 외과적 절제·배액을 고려한다.
+- 치료 시작 후 48–72시간 내에 혈액·배양 재검사를 통해 치료 반응을 확인하고, 항생제 지속 여부를 재평가한다.
+- 인공 삽입물
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 패혈증, 심내막염, 골수염, 농양 형성 등 중증 감염으로 진행 가능

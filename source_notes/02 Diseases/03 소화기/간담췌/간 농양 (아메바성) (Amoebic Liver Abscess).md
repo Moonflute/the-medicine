@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -17,8 +18,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -57,11 +58,12 @@ reviewed_at: "2026-07-16"
 
 - **감별진단**: 세균성 간 농양, 간 종양(괴사성), 간 혈종, 포충낭(Hydatid cyst) 등과 감별이 필요하다.
 
-## 5. 치료 (Treatment)
-- 메트로니다졸(metronidazole) 또는 티니다졸(tinidazole)과 같은 니트로이미다졸(nitroimidazole) 계열 항생제가 일차 치료제이다.
-  대부분 약물 치료만으로 호전된다.
-  장내 잔류 아메바 박멸을 위해 치료 후 파로모마이신(paromomycin) 등 루미날제(luminal agent)를 추가 투여해야 한다.
-  농양이 매우 크거나 파열 위험이 있는 경우, 또는 약물 치료에 반응이 없는 경우에만 경피적 배액술을 고려한다.
+## 5. 치료
+
+- 니트로이미다졸(nitroimidazole) 계열 항생제를 일차 치료제로 사용하며, 대부분 약물 치료만으로 호전된다.
+- 장내 잔류 아메바 박멸을 위해 항생제 치료 후 반드시 루미날제(luminal agent)를 추가 투여한다.
+- 농양이 거대하거나 파열 위험이 있는 경우, 또는 약물 치료에 반응이 없는 경우에 한해 경피적 배액술을 고려한다.
+- 농양 파열로 인한 복막염, 흉막염 등 중증 합병증 발생 여부를 면밀히 관찰하고, 증상 악화 시 즉각적인 외과적 개입을 고려한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 조기 진단 및 적절한 약물 치료 시 예후는 매우 양호한다.

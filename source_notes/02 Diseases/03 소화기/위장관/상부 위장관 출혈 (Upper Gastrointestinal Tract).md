@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -47,14 +48,10 @@ reviewed_at: "2026-07-16"
 - 위험도 평가 도구(Glasgow-Blatchford Score 등)를 사용하여 내시경 치료 필요성 및 예후 예측.
 
 
-## 5. 치료 (Treatment)
-- **초기 처치**:
-  기도 확보 및 수액 소생술.
-  Hb < 7 g/dL 시 수혈 고려(제한적 수혈 전략).
-- **내시경적 지혈**: 국소주입법, 응고지혈법, 기계적 지혈법(클립 등).
-- **약물**: PPI 정맥 투여, 정맥류 출혈 시 혈관수축제(옥트레오타이드 등) 및 항생제 예방요법.
-- **기타**: 내시경 실패 시 혈관색전술 또는 응급 수술 고려.
-
+## 5. 치료
+- 기도 확보와 수액·전해질 교정으로 혈역학을 안정화하고, 저혈색소 시 제한적 수혈을 고려한다.
+- 12시간 이내에 위·식도 위내시경을 시행하여 출혈 부위 확인·지혈(국소 주입, 응고제, 클립 등)한다.
+- 위산 억제를 위해 정맥 PPI를 투여하고, 정맥류 출혈 의심 시 혈관수축제와 항생제
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 재출혈 및 사망률은 기저 질환 및 출혈 정도에 따라 다름.

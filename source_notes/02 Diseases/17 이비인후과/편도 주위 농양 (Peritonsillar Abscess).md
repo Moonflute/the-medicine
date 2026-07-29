@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - peritonsillar abscess
 - 편도주위농양
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[이비인후과]]
 
@@ -25,7 +26,7 @@ reviewed_at: "2026-07-16"
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 편측성 인후통, 연하곤란, 연하통.
-* **P/E**: 
+* **P/E**:
   - 개구장애(trismus): 익상근 염증으로 인해 흔히 동반.
   - 'Hot potato' voice (함박머금은 듯한 목소리).
   - 편도 주위 부종, 발적, 편도의 내측 편위.
@@ -44,12 +45,10 @@ reviewed_at: "2026-07-16"
 - 주로 병력 청취 및 신체 검진을 통해 임상적으로 진단.
 - 필요 시 영상 검사를 통해 편도 주위 농양과 봉와직염(phlegmon)을 감별.
 
-## 5. 치료 (Treatment)
-- **기도 확보**: 호흡 곤란 시 즉각적인 기도 안정화 우선.
-- **약물 치료**: 항생제(Streptococcus 및 혐기성균 커버), 수액 요법, 진통제, 스테로이드(부종 및 통증 완화).
-- **수술적 치료**:
-- 바늘 흡인(Needle aspiration) 또는 절개 및 배농(Incision and drainage).
-- 2cm 이상의 농양은 수술적 배농이 권장되는 경향이 있음.
+## 5. 치료
+- 기도 확보를 최우선으로 하며, 호흡곤란이나 저산소증 징후가 나타나면 즉시 응급실 이송 및 지속적인 호흡 상태 모니터링을 시행한다.
+- 항생제, 수액, 진통제, 스테로이드를 포함한 보존적 치료를 시작하고, 항생제는 연쇄상구균 및 혐기성균을 포괄하도록 선택한다.
+- 농양이 2 cm 이하인 경우 바늘 흡인을, 2
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 심경부 감염 확산, 종격동염, 혈관 손상, 패혈성 혈전정맥염.

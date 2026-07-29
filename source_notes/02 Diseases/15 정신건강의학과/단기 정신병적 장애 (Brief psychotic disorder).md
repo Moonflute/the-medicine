@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 단기 정신병적 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,9 +40,11 @@ relation_to_parent: subtype
 - 조현양상장애: 1개월 이상 6개월 미만의 증상 지속.
 
 ## 5. 치료
-- 치료 원칙: 환자의 안전 확보 및 증상 조절. 입원 여부는 증상의 심각도, 사회적 지지 체계, 자해/타해 위험성을 고려하여 결정.
-- 약물 치료: 비정형 항정신병 약물이 1차 선택제임. 증상 관해 후에도 1~3개월간 유지 요법 권장.
-- 심리 치료: 환자와 가족에게 질환에 대한 교육을 제공하고, 스트레스 요인 관리 및 대처 기술 향상을 도모함.
+
+- **안전 확보 및 입원 결정**: 자해나 타해 위험성, 현실 판단력 저하 정도, 사회적 지지 체계를 평가하여 입원 치료 여부를 신속히 결정함.
+- **약물 치료**: 증상 조절을 위해 항정신병 약물을 우선 고려하며, 증상 관해 후에도 재발 방지를 위해 일정 기간 유지 요법을 시행함.
+- **심리사회적 개입**: 환자와 가족에게 질환의 경과를 교육하고, 발병의 유발 요인이 된 스트레스 상황에 대한 대처 기술을 훈련함.
+- **추적 관찰 및 전원**: 증상 지속 기간이 1개월을 초과하거나 조현병 스펙트럼 장애로의 이행이 의심될 경우 진단을 재평가하고 전문적인 장기 치료 계획을 수립함.
 
 ## 6. 예후 및 합병증
 - 예후: 일반적으로 예후가 좋으며, 증상이 갑자기 시작되고 스트레스 요인이 명확할수록 긍정적임.

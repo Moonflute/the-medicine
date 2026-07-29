@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 신체 증상 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional somatic symptom disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -38,10 +39,11 @@ relation_to_parent: subtype
 - 감별 진단: 신체 증상을 유발할 수 있는 기질적 질환, 공황 장애, 범불안 장애, 우울증 등과의 감별이 필요함.
 
 ## 5. 치료
-- 핵심 원칙: 신체 증상 자체의 제거보다는 기능 회복과 삶의 질 향상에 초점.
-- 지지적 치료: 신뢰 관계 형성, 정기적인 상담, 불필요한 검사 및 처치 제한.
-- 약물 치료: 동반된 우울증이나 불안 장애가 있을 경우 SSRI 또는 SNRI 사용 고려. 저용량에서 시작하여 천천히 증량.
-- 인지행동치료(CBT): 환자의 부적응적 행동과 건강 염려를 교정하는 데 효과적임.
+
+- **치료 목표 설정**: 신체 증상의 완전한 제거보다는 환자의 기능 회복과 일상생활의 질 향상에 우선순위를 둠.
+- **의료 이용 관리**: 정기적인 외래 방문을 통해 신뢰 관계를 유지하되, 불필요한 반복 검사나 침습적 처치는 엄격히 제한함.
+- **약물 및 심리 치료**: 동반된 우울·불안 장애에 대해 SSRI/SNRI를 고려하고, 인지행동치료(CBT)를 병행하여 건강 염려와 부적응적 행동을 교정함.
+- **안전 관리**: 의인성 합병증(약물 오남용, 불필요한 시술)을 예방하고, 환자의 증상을 인정하면서도 기질적 질환 가능성에 대해서는 일관된 태도로 접근함.
 
 ## 6. 예후 및 합병증
 - 만성적인 경과를 보일 수 있으며, 의료 시스템에 대한 의존도가 높음.

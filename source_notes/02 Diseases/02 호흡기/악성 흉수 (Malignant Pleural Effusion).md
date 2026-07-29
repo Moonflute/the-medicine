@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[호흡기]]
 
@@ -41,10 +42,12 @@ reviewed_at: "2026-07-16"
 - 흉수 세포 검사에서 악성 세포를 확인하여 확진.
   세포 검사 음성 시 흉막 생검이나 흉강경 검사 고려.
 
-## 5. 치료 (Treatment)
-  * **증상 완화:** 증상성 흉수에 대해 치료적 흉강 천자 시행.
-  * **재발 방지:** 화학적 흉막 유착술(chemical pleurodesis, talc 등 사용) 또는 유치 흉막 카테터(indwelling pleural catheter) 삽입.
-  * **원인 치료:** 원발암에 대한 항암 화학요법, 표적 치료, 면역 치료 등 전신 치료 병행.
+## 5. 치료
+
+* **증상 완화:** 호흡곤란 등 증상이 있는 경우 치료적 흉강 천자를 시행하여 즉각적인 증상 호전을 도모함.
+* **재발 방지:** 흉수 재발 시 화학적 흉막 유착술 또는 유치 흉막 카테터 삽입을 통해 흉수 축적을 조절함.
+* **전신 치료:** 원발암의 종류와 병기에 따라 항암 화학요법, 표적 치료, 면역 치료 등 적절한 전신 항암 치료를 병행함.
+* **합병증 관리:** 흉막 유착이나 폐 확장 부전(trapped lung) 여부를 주기적으로 평가하고, 환자의 전신 상태를 고려한 완화 의료를 연계함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 진단 후 중앙 생존 기간은 약 3~12개월로 예후가 불량함.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -42,10 +43,12 @@ reviewed_at: "2026-07-16"
 - 내시경적 육안 소견만으로는 감별이 어려우므로 조직학적 평가가 필수적임.
 
 
-## 5. 치료 (Treatment)
-- **원칙**: 대부분 양성이며 무증상인 경우 경과 관찰함.
-- **절제술**: 증상이 있거나, 악성 가능성이 있는 선종성 용종, 크기가 큰 용종(보통 1cm 이상), 또는 내시경적 소견상 악성이 의심되는 경우 내시경적 완전 절제술을 시행함.
-
+## 5. 치료
+- 무증상·양성 위 용종은 1~2년 간격으로 내시경 관찰을 시행하고, 크기·형태 변화 시 재평가한다.
+- 용종이 1 cm 이상이거나 증상이 있거나 선종성·이형성 소견이 보이면 내시경적 완전 절제술을 수행한다.
+- 절제 후 조직병리 결과에 따라 6~12개월 내에 재내시경을 실시하고, 악성 가능성이 있으면 외과·종양 전문의 의뢰를 고려한다.
+- H. pylori 감염이 확인된 경우 eradication 치료를 시행하여 재발 및 악성 변형 위험을 감소시킨다.
+- PPI 장기 복용 환자는 용종 발생 위험을 고려해 약물 사용을 재평가하고, 필요 시 위내시경 추적 계획을 수립한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **종류**: 과형성 용종(hyperplastic polyp), 선종성 용종(adenomatous polyp), 위저선 용종(fundic gland polyp) 등이 흔함.

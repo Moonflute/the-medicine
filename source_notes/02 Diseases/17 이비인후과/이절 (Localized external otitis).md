@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - localized external otitis
 - otofuruncle
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[이비인후과]]
 
@@ -45,14 +46,11 @@ reviewed_at: "2026-07-16"
 - 고막이 정상임을 확인하여 중이염과 감별.
 
 
-## 5. 치료 (Treatment)
-- **통증 조절**: 진통제(NSAIDs 등) 투여.
-- **항생제**:
-  국소 항생제 점이액 사용.
-  농양이 심한 경우 경구 항생제 병용.
-- **배농**: 농양이 성숙하여 파동(fluctuation)이 느껴지면 절개 및 배농(I&D)을 시행할 수 있으나, 대개 자연 배농됨.
-- **주의사항**: 외이도 자극 금지.
-
+## 5. 치료
+- 통증 완화를 위해 NSAIDs 등 진통제 사용하고, 외이도 자극을 피하도록 안내한다.
+- 국소 항생제 점이액을 적용하고, 농양이 크거나 전신 증상이 동반될 경우 경구 항생제로 전환한다.
+- 파동이 느껴지는 농양은 절개·배농(I&D) 시행을 고려하되, 자연 배농 가능성을 관찰한다.
+- 48–72시간 내 증상이 호전되지 않거나 염증이 주변 조직으로 확산될 경우 이비인후과 전문의에게 의뢰하고, 추적 검진을 계획한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 예후는 양호함.

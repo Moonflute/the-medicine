@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ last_studied: '2026-06-06'
 document_role: "canonical"
 population: "general"
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[호흡기]]
 
@@ -48,11 +49,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 임상 양상(점진적 발병, 전신 증상), 역학적 특징, 흉부 영상 소견 및 PCR 검사를 종합하여 진단.
 
-## 5. 치료 (Treatment)
-- **항생제**:
-  Macrolide 계열(azithromycin 등)이 1차 선택제임.
-  내성이나 반응이 없는 경우 Doxycycline 또는 Fluoroquinolone 계열을 고려함.
-- **보존적 치료**: 증상 완화를 위한 대증 요법 시행.
+## 5. 치료
+
+- **약물 선택**: Macrolide 계열을 1차 치료제로 사용하며, 내성균이 의심되거나 치료 반응이 불충분할 경우 Doxycycline 또는 Fluoroquinolone 계열로 변경을 고려함.
+- **대증 요법**: 충분한 수분 섭취와 휴식을 권장하며, 기침 및 발열 등 증상 완화를 위한 보존적 치료를 병행함.
+- **경과 관찰**: 치료 시작 후 증상 호전 여부를 면밀히 관찰하고, 호흡곤란 악화나 고열 지속 시 합병증 확인을 위한 재평가를 시행함.
+- **전원 고려**: 호흡부전, 흉수 등 중증 합병증이 발생하거나 외래 치료에 반응하지 않는 경우 상급 병원 전원을 고려함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 적절한 치료 시 예후는 매우 좋음.

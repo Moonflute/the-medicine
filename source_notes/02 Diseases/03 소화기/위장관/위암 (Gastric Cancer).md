@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -21,8 +22,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 ## 1. 개요
 - **정의**: 위 샘암(gastric adenocarcinoma)을 지칭하며, 전체 위암의 85%를 차지함.
@@ -60,19 +61,10 @@ reviewed_at: "2026-07-16"
 - 조직검사를 통한 확진 및 분화도 확인.
 
 ## 5. 치료
-- **내시경 점막하 박리술(ESD)**:
-- 적응증: 점막 국한, 크기 ≤ 2cm, 고분화~중등도분화, 궤양 없음, 림프혈관계 침범 없음, 절제면 음성.
-- ESD 후 적응증 미충족 시 추가 수술 필요.
-- **수술**:
-  원격 전이 및 주요 혈관 침범이 없는 경우 시행.
-  광범위 림프절 절제술 포함.
-- 원위부 2/3 종양: 원위부 위절제술(distal gastrectomy).
-- 근위부 1/3 종양: 위전절제술(total gastrectomy).
-- 수술 전후 항암화학요법(neoadjuvant/adjuvant) 병행.
-- **항암화학요법**: 수술 불가능하거나 T3 이상인 경우.
-- regimen: Fluorouracil, oxaliplatin 기반.
-- 표적/면역치료: HER2(+) 시 trastuzumab, PD-L1(+) 시 pembrolizumab/nivolumab, claudin 18.2(+) 시 zolbetuximab 추가.
-- **고식적 치료**: 폐쇄 시 스텐트 삽입 또는 위공장연결술, 국소 방사선치료.
+- 점막 국한 조기 위암은 ESD 적응증을 충족하는 경우 시행하고, 절제면이 음성인지 확인 후 불충분 시 외과적 절제(위절제술)로 전환한다.
+- 절제 가능 종양은 병변 위치와 범위에 따라 원위부 위절제술 또는 전위부 위절제술을 시행하고, 병기·분화도에 따라 신경절제술을 포함한 광범위 림프절 절제와 수술 전·후 항암화학요법을 병행한다.
+- 수술이 불가능하거나 진행성(예: T3 이상)인 경우, 플루오로우라실‑옥살리플라틴 기반 화학요법을 기본으로 하고, HER2, PD‑L1, MSI/dMMR 등 바이오마커 양성 시 해당 표적·면역제와 병용한다. 치료 중 독성 및 신체 상태를 정기적으로 평가한다.
+- 폐쇄, 출혈 등 국소 증상이 심한 경우 내시경 스텐트 삽입, 위공장연결술 또는 국소 방
 
 ## 6. 예후 및 합병증
 - **합병증**: 위장관 폐쇄, 출혈, 천공, 복막 전이.

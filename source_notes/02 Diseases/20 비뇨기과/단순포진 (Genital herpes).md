@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - Herpes simplex 2
 - 단순포진
@@ -18,8 +19,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[비뇨기과]]
 
@@ -45,11 +46,10 @@ reviewed_at: "2026-07-16"
   수포 발생 72시간 이내의 병변에서 검체 채취 시 정확도가 높음.
 
 
-## 5. 치료 (Treatment)
-* **원칙:** 항바이러스제 투여를 통해 증상 기간 단축 및 전파 방지. 완치는 불가능하며 잠복 감염 상태로 남음.
-* **약제:** Acyclovir, Valacyclovir, Famciclovir.
-* **용법:** 초발 감염 시 7~10일간 투여. 재발 시 단기 요법 시행. 빈번한 재발 시 6개월 이상의 억제 요법(suppressive therapy) 고려.
-
+## 5. 치료
+- 항바이러스제(아시클로버, 발라시클로버, 파마시클로버)를 사용하고, 초발 감염 시 7~10일, 재발 시 단기 요법, 빈번한 재발 시 억제 요법을 고려한다.
+- 치료 전 신장·간 기능 및 약물 알레르기 여부를 확인하고, 임신·수유 중인 경우 산부인과와 협의하여 안전성을 검토한다.
+- 2주 이내 증상 호전이 없거나 뇌수막염·심한 통증 등 합병증이 의심될 경우 감
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **예후:** 완치는 없으나 항바이러스제로 증상 조절 및 전파 위험 감소 가능.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[호흡기]]
 
@@ -37,9 +38,12 @@ reviewed_at: "2026-07-16"
 - 임상 증상, 흉수 검사(림프구 증가, ADA 상승), 결핵균 배양 또는 PCR 등을 종합하여 진단.
   필요 시 흉막 생검 고려.
 
-## 5. 치료 (Treatment)
-- 결핵 표준 항결핵 화학요법(standard anti-tuberculosis regimen)을 시행함.
-  흉막 유착 방지 및 증상 완화를 위해 필요 시 흉수 배액을 고려할 수 있으나, 항결핵제 치료가 근간임.
+## 5. 치료
+
+* 표준 항결핵 화학요법을 원칙으로 하며, 치료 순응도 확인 및 약물 부작용 모니터링을 시행함.
+* 호흡곤란 등 증상 완화를 위해 대량 흉수 시 치료적 흉강 천자를 고려함.
+* 흉막 비후 및 유착 등 합병증 발생 여부를 확인하기 위해 정기적인 흉부 영상 추적 관찰을 시행함.
+* 치료 종료 후에도 폐 기능 제한이나 흉곽 변형 여부를 평가하여 필요 시 호흡기 재활을 고려함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 항결핵 치료 시 예후는 양호함.

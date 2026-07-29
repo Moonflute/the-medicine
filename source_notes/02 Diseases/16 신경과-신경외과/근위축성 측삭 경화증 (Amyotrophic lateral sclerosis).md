@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - ALS
 - 근위축성 측삭 경화증
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신경과-신경외과]]
 
@@ -48,12 +49,11 @@ reviewed_at: "2026-07-16"
 
 
 
-## 5. 치료 (Treatment)
-- 완치법은 없으며 다학제적 증상 완화 치료가 핵심.
-  Riluzole(글루타메이트 억제)이 생존 기간 연장에 도움을 줄 수 있음.
-  호흡 보조, 영양 지원(위루술), 물리/작업/언어 치료를 통해 삶의 질을 관리함.
-
-
+## 5. 치료
+- Riluzole 복용을 지속하고, 부작용 여부를 정기적으로 확인한다.
+- 호흡기 기능을 3~6개월마다 평가하고, 필요 시 비침습 양압환기(NIV) 또는 기타 호흡 보조 장치를 도입한다.
+- 영양 상태와 삼킴 기능을 모니터링하며, 삼킴곤란이 심해지면 위루술(PEG) 및 영양 상담을 연계한다.
+- 물리·작업·언어 치료를 포함한 다학제 팀 관리로 근력 유지와 언어·삼킴 기능을 지원하고, 3~6개월마다 신경학적 진행도를
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 진행성 질환으로, 호흡근 마비가 주요 사망 원인임.

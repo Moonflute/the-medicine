@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -10,8 +11,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -38,12 +39,11 @@ reviewed_at: "2026-07-16"
 - 특징적인 임상 양상(경계가 뚜렷한 붉은 판)을 통해 진단함.
 - 대상포진, 혈관부종, 접촉피부염 등과 감별이 필요함.
 
-## 5. 치료 (Treatment)
-- 경구 또는 비경구 항생제 치료를 시행함.
-- 1차 치료제: 페니실린(Penicillin V), 아목시실린(Amoxicillin), 세팔렉신(Cephalexin), 세파드록실(Cefadroxil) 등 사슬알균을 표적으로 하는 항생제.
-- 중증인 경우: 비경구 페니실린 G, 세프트리악손(Ceftriaxone), 세파졸린(Cefazolin) 등을 사용.
-- 보조 요법: 다리 병변 시 안정 및 거상, 냉찜질, 진통제 사용.
-  재발 방지를 위해 족부 진균 감염 치료가 필요할 수 있음.
+## 5. 치료
+- 1차 경구 항생제로 페니실린계(페니실린 V, 아목시실린) 또는 1세대 세팔로스포린(세팔렉신, 세파드록실) 선택
+- 전신 독성 증상·중증인 경우 입원·정맥 항생제(비경구 페니실린 G, 세프트리악손, 세파졸린) 투여 및 혈액 배양 검토
+- 다리 병변은 안정을 유지하고, 거상·냉찜질로 부종·통증 완화; 필요 시 진통제 사용
+- 치료 48–72시간 후 열·통증 호전
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 재발이 흔하며, 만성 림프부종을 유발할 수 있음.

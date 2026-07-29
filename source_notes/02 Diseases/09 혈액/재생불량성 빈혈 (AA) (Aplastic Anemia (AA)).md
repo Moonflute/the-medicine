@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[혈액]]
 
@@ -59,17 +60,10 @@ reviewed_at: "2026-07-16"
 - **초중증(Very severe AA)**: 중증 기준을 만족하면서 ANC < 200/mm³.
 
 ## 5. 치료
-- **원인 제거**: 원인 약제 중단, 흉선 절제술, 바이러스 치료 등.
-- **보존적 치료(Non-severe AA)**
-- 빈혈: Hb < 7 g/dL 시 농축적혈구 수혈.
-  철분 과부하 시 킬레이트제(deferoxamine, deferasirox) 투여.
-- 감염: 광범위 항생제 투여.
-- 출혈: PLT < 10,000/mm³ 또는 활동성 출혈 시 혈소판 수혈.
-- **중증 치료(Severe AA)**
-- 40세 미만 & HLA 일치 형제 존재: 동종 조혈모세포 이식(Allogenic BMT).
-- 40세 이상 또는 HLA 일치 형제 없음: 면역억제치료(항흉선세포글로불린(ATG), 사이클로스포린, Eltrombopag 병용).
-  필요 시 Methylprednisolone 추가.
-- **판코니 빈혈**: 조혈모세포 이식.
+- 원인 약제 중단·바이러스 치료·흉선 절제 등 원인 제거를 우선 시행.
+- 비중증 AA: Hb 저하 시 적혈구 수혈, 혈소판 <10 000/mm³ 또는 출혈 시 혈소판 수혈, 감염 위험 시 광범위 항생제 사용; 철분 과부하 시 킬레이트제 고려.
+- 중증 AA: 40세 미만·HLA 일치 형제 존재 시 조혈모세포 이식; 없거나 40세 이상이면 항흉선세포글로불린·사이클로스포린·Eltrombopag 병용 면역억제치료, 필요 시 스테로이드 추가.
+- 치료 후 정기 혈액검사
 
 ## 6. 예후 및 합병증
 - **예후**: 치료하지 않으면 예후가 매우 불량하며 감염과 출혈이 주요 사망 원인.

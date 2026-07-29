@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -10,8 +11,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -44,13 +45,12 @@ reviewed_at: "2026-07-16"
 - 임상적 의심이 가장 중요하며, 적절한 검체 채취를 통한 혐기성 배양 검사로 확진한다.
   배양 결과가 나오기 전까지는 임상 양상과 기저 질환을 바탕으로 경험적 치료를 시작한다.
 
-## 5. 치료 (Treatment)
-- **원칙**: 농양의 배액(drainage) 및 괴사 조직의 외과적 절제(debridement)가 치료의 핵심.
-- **항생제**: 감염 부위와 중증도에 따라 선택한다.
-- 메트로니다졸 (Metronidazole): 혐기성균에 강력한 효과, 중추신경계 침투 우수.
-- 베타-락탐/베타-락타마제 억제제 (예: Ampicillin/sulbactam, Piperacillin/tazobactam): 광범위한 혼합 감염에 효과적.
-- 카바페넴 (Carbapenem): 중증 감염 시 고려.
-- 클린다마이신 (Clindamycin): 일부 혐기성균에 효과적이나 내성 증가 추세.
+## 5. 치료
+- 농양 배액 및 괴사 조직 절제 등 외과적 관리가 우선이며, 가능한 경우 최소 침습적 배액을 시행한다.
+- 혐기성균에 효과적인 항생제를 감염 부위와 중증도에 맞춰 선택하고, 치료 시작 후 48‑72시간 내에 임상 반응을 평가한다.
+- 치료 중 신경학적 증상, 패혈증 징후, 혹은 배액 부위 악화가 나타나면 즉시 외과·감염내과 협진을 요청한다.
+- 치료 종료 전 또는 치료 중에 CT/MRI 등 영상으로 농양 감소 여부를 확인하고, 필요 시 추가 배액을 계획한다.
+- 재발 위험이 높은 환자(당뇨, 면역억제 등)는 구강 위생 관리
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 농양 파열, 패혈증, 괴사성 근막염, 렘피에르 증후군(Lemierre syndrome) 등 치명적인 합병증이 발생할 수 있으므로 조기 진단과 적절한 처치가 중요하다.

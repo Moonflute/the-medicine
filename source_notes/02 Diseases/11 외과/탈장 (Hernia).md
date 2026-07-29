@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 탈장
 유형:
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[외과]]
 
@@ -42,11 +43,12 @@ reviewed_at: "2026-07-16"
   성인의 경우 우연히 발견되는 경우가 많음.
 
 
-## 5. 치료 (Treatment)
-- **수술적 치료** 결손 부위의 일차 봉합 또는 인공 보형물(patch)을 이용한 수술. 복강경 또는 흉강경 접근법이 선호됨.
-- **응급 상황** 장폐색, 교액(strangulation), 장괴사 의심 시 즉각적인 응급 수술 필요.
-- **소아 관리** 수술 전 안정화(gentle ventilation), 폐고혈압 관리(iNO, milrinone 등), 필요 시 ECMO 고려.
+## 5. 치료
 
+*   수술적 교정을 통해 횡격막 결손 부위를 복원합니다.
+*   장폐색, 교액, 괴사 등 응급 상황 발생 시 즉각적인 수술이 필요합니다.
+*   소아 환자는 수술 전 폐고혈압 관리 및 안정화가 중요합니다.
+*   증상이 없는 성인 환자는 경과 관찰하며, 증상 발생 시 수술을 고려합니다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증** 위식도 역류질환(GERD), 폐 발달 저하, 재발, 성장 장애.

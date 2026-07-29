@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - chickenpox
 유형:
@@ -19,8 +20,8 @@ parent_disease: "수두 (Varicella)"
 relation_to_parent: "special_population"
 population: "pregnancy"
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[산과]]
 
@@ -47,11 +48,12 @@ reviewed_at: "2026-07-16"
 - 전형적인 발진 양상과 노출력으로 진단.
 - 감별 진단: 엠폭스(원숭이두창), 단순포진 등.
 
-## 5. 치료 (Treatment)
-- 대증 요법: 피부 청결 유지, 가려움증 완화(칼라민 로션, 항히스타민제), 해열제(아세트아미노펜, 아스피린은 Reye 증후군 위험으로 금기).
-- 항바이러스제: 성인, 면역저하자, 임산부 등 고위험군에서 발진 시작 24~48시간 이내 투여 시 효과적(Acyclovir 등).
-- 노출 후 예방: 면역저하자, 임산부, 신생아 등 고위험군 노출 시 Varicella-zoster immune globulin(VariZIG) 투여.
-  면역 정상인 경우 노출 후 3~5일 이내 백신 접종 고려.
+## 5. 치료
+
+- **대증 요법**: 피부 청결 유지 및 가려움증 완화(항히스타민제 등)를 시행하며, 해열제는 아세트아미노펜을 사용(아스피린은 Reye 증후군 위험으로 금기).
+- **항바이러스제**: 임산부, 면역저하자 등 고위험군은 발진 시작 24~48시간 이내에 항바이러스제 투여를 고려함.
+- **노출 후 예방**: 면역저하자, 임산부, 신생아 등 고위험군이 노출된 경우 Varicella-zoster immune globulin(VariZIG) 투여를 고려함.
+- **백신 접종**: 면역 정상인 경우 노출 후 3~5일 이내에 백신 접종을 고려하여 발병 예방 또는 증상 완화를 도모함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 건강한 소아에서는 대개 자가 치유됨.

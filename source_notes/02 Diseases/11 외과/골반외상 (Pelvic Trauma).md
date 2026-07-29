@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 골반외상
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 
 관련분과:
 - 응급의학
@@ -39,10 +40,11 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 * **분류**: Tile 분류(안정성 기준), Young-Burgess 분류(손상 기전 기준), WSES 분류(혈역학적 안정성 및 해부학적 손상 기준).
 
-## 5. 치료 (Treatment)
-* **초기 처치**: ABCs 안정화, 대량 수액 및 혈액 제제 투여.
-* **골반 고정**: 골반 결합기(pelvic binder)를 대전자(greater trochanter) 높이에 적용하여 골반 용적 감소 및 지혈 유도.
-* **출혈 조절**: 혈역학적으로 불안정한 경우 혈관조영술 및 색전술(angioembolization), 복막외 패킹(preperitoneal packing), 또는 수술적 처치 고려.
+## 5. 치료
+- 초기 ABC 안정화와 대량 수액·혈액제제 투여로 혈역학적 목표(수축기 혈압 ≥ 90 mmHg) 유지
+- 골반 결합기를 대전자 높이에 적용해 골반 용적을 감소시키고 지혈을 촉진하되, 과도한 압박으로 인한 조직 손상 방지
+- 혈역학적으로 불안정하거나 지속 출혈이 의심될 경우 혈관조영술·색전술, 복막외 패킹, 필요 시 외과적 출혈 조절을 시행하고, 혈관전문의·외상외과와 즉시 협진
+- 안정 후 골반 CT 재평가, 결합기 교체·제거 시점 결정, 재출혈·감염 징후 모니터링 및 조기 재활 계획을 수립하여 기능 회복을 지원.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 출혈성 쇼크, 요로계 손상, 신경 손상(요천골 신경총), 장기 부전, 장기적인 장애.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 ## 1. 개요
 - **정의**: 관절 내 결정 침착으로 발생하는 대사성 및 염증성 관절염
@@ -50,16 +51,11 @@ reviewed_at: "2026-07-16"
 - **감별**: 임상 양상, 관절천자 소견, 영상학적 특징을 종합하여 구분
 
 ## 5. 치료
-- **통풍**:
-- 급성기: NSAIDs, Colchicine, 스테로이드(전신/관절내)
-- 만성기(요산 저하): Allopurinol, Febuxostat(1st line), Probenecid, Benzbromarone(2nd line)
-- 비약물: 수분 섭취, 저퓨린 식이, 금주
-- **가성통풍**: NSAIDs, Colchicine, 관절내 스테로이드, 예방적 Colchicine
-- **기타 결정 유발 관절염**: NSAIDs, Colchicine, 관절내 스테로이드
-- **반응성 관절염**:
-  NSAIDs가 1차 치료.
-  증상 지속 시 Sulfasalazine, Methotrexate 등 DMARDs 고려.
-  필요 시 TNF 억제제 사용 가능
+- NSAIDs를 1차 약제로 사용하고, 위·신장 기능 및 위장관 위험을 평가하여 필요 시 위 보호제와 함께 처방한다.
+- 증상이 4–6주 이상 지속되면 Sulfasalazine 또는 Methotrexate 등 DMARD를 고려하고, 치료 반응이 미미하거나 합병증이 의심될 경우 류마티스 전문의에게 의뢰한다.
+- 눈·구강·피부 등 외부 증상이 동반되면 안과·치과·피부과 등 관련 전문과와 협진한다.
+- 치료 시작 후 2–4주 간격으로 증상 및 염증 지표(CRP/ESR)를 재평가하여 호전 여부를 확인하고, HLA‑B27 양성 환자는 장기 추적을 계획한다.
+- 감염 원인(성매개 감염·장염 등)을 적절히 치료하고, 안전한 성관계 실천 및 위생 관리로 재발을 예방한다.
 
 ## 6. 예후 및 합병증
 - **통풍**: 반복적인 급성 관절염, 만성 통풍관절염으로 이행, 요산 요로결석 발생 가능

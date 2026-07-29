@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - Krukenberg tumor
 - 크루켄버그 종양
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -41,10 +42,12 @@ reviewed_at: "2026-07-16"
 - 원발암(위, 대장 등)에 대한 내시경 및 영상 검사 필수
 - 조직학적으로 점액을 함유한 반지세포(signet-ring cell) 확인이 특징적
 
-## 5. 치료 (Treatment)
-- 표준화된 지침은 없으나 원발암 치료가 우선
-- 수술적 절제(Cytoreductive surgery)가 생존율 향상에 도움
-- 항암화학요법, 표적치료 등을 환자 상태에 따라 다학제적으로 결정
+## 5. 치료
+
+* **원발암 평가 및 치료 우선**: 위내시경, 대장내시경 등을 통해 원발 병소를 확인하고 해당 암종의 표준 치료를 우선적으로 시행함.
+* **수술적 절제 고려**: 전신 상태가 양호하고 완전 절제가 가능한 경우, 세포감축술(Cytoreductive surgery)을 통해 생존율 향상을 도모함.
+* **다학제적 접근**: 원발암의 종류와 병기, 환자의 전신 상태를 고려하여 종양내과, 외과, 부인과 등 다학제 진료를 통해 항암화학요법 및 보존적 치료를 결정함.
+* **증상 완화 및 추적 관찰**: 복수 조절 등 완화 의료를 병행하며, 원발암 및 전이 병변의 진행 여부를 영상 검사와 종양 표지자를 통해 정기적으로 추적함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후는 불량, 원발암의 종류 및 병기에 따라 다름

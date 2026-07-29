@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 뇌수막염
 유형:
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신경과-신경외과]]
 
@@ -51,13 +52,12 @@ reviewed_at: "2026-07-16"
 - CSF 분석(세포수, 당, 단백질, 배양, 그람 염색, PCR)이 핵심.
   뇌 영상(MRI/CT)은 뇌부종, 수막 조영 증강, 농양 등을 확인하는 데 유용함.
 
-## 5. 치료 (Treatment)
-- 경험적 항생제:
-- 세균성: 3rd cepha + vancomycin (신생아는 ampicillin 추가)
-- 바이러스성: HSV 의심 시 IV acyclovir
-- 결핵성: 항결핵제 + 스테로이드
-- 아메바성(Naegleria): Amphotericin B, Rifampin, Fluconazole, Miltefosine 등 병용 요법
-(Cefazolin은 BBB 통과 불가로 뇌수막염에 사용 불가)
+## 5. 치료
+- 초기 경험적 항생제: 3세대 cephalosporin + vancomycin, 신생아는 ampicillin 추가
+- HSV 의심 시 즉시 IV acyclovir 시작하고 치료 반응을 모니터링
+- 결핵성 의심 시 항결핵제와 스테로이드를 병용하고, 전파 방지를 위해 격리 조치
+- 아메바성 의심 시 Amphotericin B 기반 병용 요법을 신속히 시작하고 감염내과·신경외과 협진
+- 치료 후 CSF 재검사, 신경학적 추적 및 청력 검사 등 합병증 모니터링, 예방접종(수막염균) 권고
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 치료가 예후를 결정함.

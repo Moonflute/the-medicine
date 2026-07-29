@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ last_studied: '2026-06-06'
 document_role: "canonical"
 population: "adult"
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 ## 1. 개요
 - 정의: 배변 횟수 증가, 대변의 묽기 증가, 대변량 증가(>200g/일)를 동반하는 상태
@@ -57,16 +58,10 @@ reviewed_at: "2026-07-16"
 - 장운동 장애: 과민성 대장 증후군, 갑상샘중독증 등
 
 ## 5. 치료
-- 보존적 치료: 수분 및 전해질 보충(경구 또는 정맥 수액)
-- 지사제: Loperamide(장 운동 억제), Bismuth subsalicylate(체액 재흡수)
-- 주의: 발열, 혈변, C.
-  difficile 의심 시 금기
-- 경험적 항생제(Ciprofloxacin, Levofloxacin, Azithromycin 등): 중등도 이상의 여행자 설사 시 고려
-- 특정 질환별 치료:
-- Giardiasis: Metronidazole
-- PMC: 경구 Vancomycin
-- 주의사항: HUS 동반 의심 시 항생제 및 Loperamide 투여 금지
-- 약물 유발 설사: 원인 약물 중단 및 교체
+- 수분·전해질 보충: 경구 수분 보충제 또는 탈수 정도에 따라 정맥 수액을 선택하고, 전해질 이상을 지속적으로 모니터링한다.
+- 지사제 사용: 발열·혈변·Clostridioides difficile 의심 시 금지하고, 비염증성 설사와 증상이 경미할 때 로페라미드 등으로 장 운동을 억제한다.
+- 항생제 경험적 투여: 중등도 이상 여행자 설사, 면역억제 환자, 또는 임상적으로 세균성 감염이 강하게 의심될 때만 제한적으로 사용한다.
+- 중증·합병증(고열·혈변·심한 탈수·HUS 등)
 
 ## 6. 예후 및 합병증
 - 탈수 및 전해질 불균형(저칼륨혈증, 대사성 산증)

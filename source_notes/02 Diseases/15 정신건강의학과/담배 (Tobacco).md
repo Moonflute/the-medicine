@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 담배
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -38,9 +39,11 @@ relation_to_parent: subtype
 - 동반 정신질환(우울, 불안 등) 감별.
 
 ## 5. 치료
-- 원칙: 동기 강화 상담(Motivational Interviewing), 금연 교육, 재발 방지.
-- 약물 치료: 니코틴 대체 요법(패치, 껌 등), Varenicline(니코틴 수용체 부분 작용제), Bupropion(항우울제).
-- 구강 병변 관리: 금연 후 병변 추적 관찰, 악성 의심 시 외과적 절제.
+
+- **금연 상담 및 동기 강화**: 환자의 준비도에 따른 맞춤형 상담을 시행하고, 금연 의지를 고취하기 위한 동기 강화 면담을 병행함.
+- **약물 치료 적용**: 니코틴 대체 요법(NRT), Varenicline, Bupropion 등을 환자의 의존도와 기저 질환을 고려하여 처방함.
+- **구강 병변 추적 관찰**: 금연 후 구강 내 병변의 변화를 정기적으로 확인하며, 호전되지 않거나 악성 의심 소견 시 즉시 조직 검사 및 외과적 절제를 고려함.
+- **재발 방지 및 관리**: 금연 유지 기간 중 발생할 수 있는 금단 증상과 갈망을 관리하고, 재발 시 조기 개입을 통해 금연 성공률을 높임.
 
 ## 6. 예후 및 합병증
 - 예후: 금연 시 구강 병변의 호전 가능성이 있으나, 장기 사용 시 구강암, 식도암, 위암 등 악성 종양 위험 증가.

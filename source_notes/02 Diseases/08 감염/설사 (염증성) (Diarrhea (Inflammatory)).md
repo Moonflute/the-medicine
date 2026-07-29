@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -39,11 +40,12 @@ reviewed_at: "2026-07-16"
 - 임상 증상과 대변 내 염증 지표를 통해 진단
 - 중증이거나 지속적인 경우 대장 내시경 고려
 
-## 5. 치료 (Treatment)
-- **보존적 치료**: 수액 및 전해질 보충
-- **항생제**: 침습성 세균 감염이 의심되는 경우 경험적 항생제(예: ciprofloxacin) 고려
-- 캄필로박터(Campylobacter) 감염 시 아지스로마이신(azithromycin) 우선 고려
-- **주의사항**: 지사제(antimotility agent)는 장내 독소 배출을 저해하여 증상을 악화시킬 수 있으므로 금기
+## 5. 치료
+
+- **수액 요법**: 탈수 및 전해질 불균형 교정을 위해 경구 또는 정맥 수액 공급을 우선 시행함.
+- **경험적 항생제**: 고열, 혈변, 중증 전신 증상이 동반된 침습성 세균 감염 의심 시 항생제 투여를 고려함.
+- **지사제 금기**: 장내 독소 배출을 저해하여 증상을 악화시키고 합병증을 유발할 수 있으므로 지사제 사용을 피함.
+- **추적 관찰 및 전원**: 증상 악화, 고열 지속, 탈수 심화 또는 용혈성 요독 증후군(HUS) 의심 시 상급 병원 전원 및 정밀 검사를 고려함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 보존적 치료로 호전되나, 탈수 및 전해질 불균형 주의

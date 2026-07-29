@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - pancreatic injury
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[외과]]
 
@@ -41,11 +42,12 @@ reviewed_at: "2026-07-16"
 - 외상 기전과 임상적 의심이 가장 중요함.
   CT 소견상 췌장 실질의 분절, 췌관의 불연속성, 췌장 주위 액체 저류 등이 진단의 근거가 됨.
 
-## 5. 치료 (Treatment)
-- 췌관 손상이 없는 경우: 보존적 치료(금식, 수액 요법) 및 배액술 고려.
-- 췌관 손상이 있는 경우:
-- 상장간막정맥(SMV) 좌측 손상: 원위부 췌장 절제술(Distal pancreatectomy).
-- 상장간막정맥(SMV) 우측 손상: 췌십이지장 절제술(Pancreaticoduodenectomy).
+## 5. 치료
+
+- 췌관 손상이 없는 저등급 손상은 금식, 수액 요법 및 필요 시 경피적 배액술을 통한 보존적 치료를 우선 시행함.
+- 췌관 손상이 동반된 경우 손상 부위와 중증도에 따라 원위부 췌장 절제술 또는 췌십이지장 절제술 등 수술적 치료를 시행함.
+- 수술 후 췌장 누공, 가성 낭종, 복강 내 농양 등 합병증 발생 여부를 면밀히 관찰함.
+- 췌장 손상 환자는 지연성 합병증 확인을 위해 퇴원 후에도 정기적인 영상 검사 및 추적 관찰이 필요함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 주요 합병증: 췌장 누공(Pancreatic fistula), 가성 낭종(Pseudocyst), 췌장염, 복강 내 농양.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 선천성 십이지장 폐쇄증
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -36,9 +37,12 @@ reviewed_at: "2026-07-16"
 * 임상 증상(담즙성 구토) 및 복부 X-ray의 전형적인 Double-bubble sign으로 진단
 * 산전 초음파에서 양수 과다증이 관찰될 경우 의심 가능
 
-## 5. 치료 (Treatment)
-* **수술 전 처치**: 금식, 비위관 삽입을 통한 위 감압, 수액 및 전해질 교정
-* **수술**: Duodeno-duodenostomy (십이지장-십이지장 문합술) 또는 Duodeno-jejunostomy
+## 5. 치료
+
+* **수술 전 처치**: 즉각적인 금식 및 비위관(nasogastric tube) 삽입을 통한 위 감압으로 흡인성 폐렴을 예방하고, 수액 요법으로 탈수 및 전해질 불균형을 교정함.
+* **수술적 치료**: 폐쇄 원인에 따라 십이지장-십이지장 문합술(duodeno-duodenostomy) 또는 십이지장-공장 문합술(duodeno-jejunostomy)을 시행함.
+* **동반 기형 평가**: 다운 증후군 및 선천성 심장 질환 등 동반 기형 여부를 확인하기 위한 심장 초음파 및 염색체 검사를 시행함.
+* **수술 후 관리 및 추적**: 문합부 누출, 협착, 장폐색 등의 합병증 발생 여부를 면밀히 관찰하고, 장기적으로는 장운동 기능 저하 가능성을 고려하여 추적 관찰함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 수술 후 예후는 일반적으로 양호함

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 이인성 장애/비현실감 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional trauma- and stressor-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -38,9 +39,12 @@ relation_to_parent: subtype
 - 물질(약물, 알코올)이나 다른 의학적 상태에 의한 것이 아니어야 함.
 
 ## 5. 치료
-- 심리 치료: 인지행동치료(CBT)를 통해 증상에 대한 파국적 해석을 교정하고, 접지(grounding) 기법 등을 활용함.
-- 약물 치료: 특정 치료제가 확립되어 있지 않으나, 동반된 불안이나 우울 증상에 대해 SSRI 등을 고려할 수 있음.
-- 원인 질환 치료: 스트레스 요인이나 외상 경험이 있는 경우 이에 대한 정신 치료를 병행함.
+
+- 인지행동치료(CBT)를 통해 증상에 대한 파국적 해석을 교정하고, 접지(grounding) 기법을 활용하여 현실감을 회복함.
+- 동반된 불안, 우울, 강박 증상에 대해 약물 치료를 고려하되, 증상 자체에 대한 특이적 치료제는 없음을 환자에게 교육함.
+- 기저의 외상 경험이나 스트레스 요인을 파악하여 이에 대한 심리적 접근을 병행함.
+- 증상에 대한 과도한 몰입과 불안이 증상을 악화시키는 악순환을 방지하기 위해 증상 수용 및 일상 기능 유지에 초점을 둠.
+- 증상 악화 시 자해나 자살 사고 여부를 정기적으로 평가하고, 공존 질환에 대한 지속적인 추적 관찰을 시행함.
 
 ## 6. 예후 및 합병증
 - 만성적인 경과를 보일 수 있으며, 증상에 대한 불안이 증상을 악화시키는 악순환이 발생할 수 있음.

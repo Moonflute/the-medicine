@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 관통상 복부외상
 유형:
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 관련분과:
 - 응급의학
 응급의학_분류:
@@ -51,12 +52,11 @@ reviewed_at: "2026-07-16"
 - 혈역학적으로 안정된 환자는 CT를 통해 손상 범위 확인.
 - 자상의 경우 상처 탐색(local wound exploration)을 통해 복막 침범 여부를 평가할 수 있음.
 
-## 5. 치료 (Treatment)
-- **수술적 치료**:
-  손상된 장기 봉합, 절제, 혈관 결찰 또는 재건.
-  손상 통제 수술(damage control surgery) 개념 적용.
-- **비수술적 치료**: 혈역학적으로 안정되고 복막 자극 징후가 없는 선택된 환자에서 면밀한 관찰 가능.
-- **중재적 시술**: 혈관 손상 시 혈관내 색전술(endovascular embolization) 고려.
+## 5. 치료
+- 혈역학 불안정·복막 자극 징후가 있으면 즉시 외과팀에 연락하여 응급 개복술을 시행한다.
+- 혈역학적으로 안정하고 복막 자극이 없으며 영상에서 제한적 손상만 보이면 입원·연속 활력징후·복부 검사(24‑48 h)로 비수술적 관찰을 선택한다.
+- 혈관 손상이나 출혈이 의심될 경우 혈관내 색전술·동맥경색술 등 중재적 시술을 고려하고, 해당 전문센터로 신속 이송한다.
+-
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 지연 진단에 따른 복강 내 감염(농양), 장폐색, 누출, 다장기 부전.

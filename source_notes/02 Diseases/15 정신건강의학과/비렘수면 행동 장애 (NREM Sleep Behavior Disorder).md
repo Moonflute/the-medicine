@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 비렘수면 행동 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -37,9 +38,11 @@ relation_to_parent: subtype
 - 주의: 항우울제(SSRI 등) 복용 시 증상이 유발되거나 악화될 수 있음.
 
 ## 5. 치료
-- 안전 환경 조성: 침대 주변 쿠션 설치, 위험한 물건 제거, 동침자 분리 등 부상 방지.
-- 약물 요법: 멜라토닌(1차 선택지), 클로나제팜(Clonazepam) 등이 효과적임.
-- 기저 질환 관리: 신경퇴행성 질환 동반 여부 확인 및 관련 약물 조정.
+
+- **안전 환경 조성**: 침대 주변 쿠션 설치, 날카롭거나 위험한 물건 제거, 동침자 분리 등을 통해 환자와 동침자의 부상을 방지함.
+- **약물 치료**: 멜라토닌 또는 클로나제팜 등을 증상 조절을 위해 고려하며, 약물 복용 시 낙상 및 인지 기능 저하 가능성을 모니터링함.
+- **유발 요인 관리**: 증상을 악화시킬 수 있는 항우울제 등 관련 약물을 검토하고 필요 시 조정함.
+- **장기 추적 관찰**: 신경퇴행성 질환으로의 이행 가능성을 염두에 두고 정기적인 신경학적 평가 및 추적 관찰을 시행함.
 
 ## 6. 예후 및 합병증
 - 신경퇴행성 질환(알파-시누클레인병증)으로의 이행 가능성이 높으므로 장기적인 추적 관찰이 필수적임.

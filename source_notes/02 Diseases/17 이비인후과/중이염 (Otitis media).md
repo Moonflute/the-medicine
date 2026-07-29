@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 중이염
 유형:
@@ -14,8 +15,8 @@ last_studied: '2026-06-06'
 document_role: "canonical"
 population: "general"
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[이비인후과]]
 
@@ -48,16 +49,9 @@ reviewed_at: "2026-07-16"
 - **감별 진단**: 외이도염, 진주종, 비인두암(성인 일측성 삼출성 중이염 시 필수 고려).
 
 
-## 5. 치료 (Treatment)
-- **급성 중이염**:
-  통증 조절(NSAIDs, 아세트아미노펜).
-  항생제는 고용량 아목시실린(Amoxicillin)이 1차 선택.
-  증상 호전 없을 시 아목시실린-클라불란산 고려.
-- **삼출성 중이염**:
-  경과 관찰(watchful waiting)이 원칙.
-  3개월 이상 지속 시 고막 절개술 및 환기관 삽입술 고려.
-- **고막 천공 시**: 이독성이 없는 이소 항생제 점이액(ofloxacin 등) 사용.
-
+## 5. 치료
+- 급성 중이염: 통증 완화를 위한 NSAIDs·아세트아미노펜 사용, 48~72시간 내 경과 관찰 후 필요 시 1차 항생제 처방, 증상 악화 시 이비인후과 전문의 재평가.
+- 삼출성 중이염: 초기 3개월간 경과 관찰이 원칙이며, 지속 시 중이 환기관 삽입·고막 절개술 등 외과적 개입을 고려하고, 청력 및 언어 발달을 정
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 고막 천공, 만성 중이염, 유양돌기염, 미로염, 안면신경마비, 두개내 합병증(뇌농양, 수막염).

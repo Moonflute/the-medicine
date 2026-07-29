@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 과수면 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -38,8 +39,12 @@ relation_to_parent: subtype
 - 병력 청취: 수면 시간, 수면 위생, 약물 복용력, 동반 질환 확인.
 
 ## 5. 치료
-- 비약물적 요법: 규칙적인 수면-기상 시간 유지, 수면 위생 교육, 낮잠 시간 조절.
-- 약물 요법: Modafinil, Armodafinil, Methylphenidate 등 각성제 사용(증상 조절 목적).
+
+- 규칙적인 수면-기상 시간 준수 및 카페인·알코올 제한 등 철저한 수면 위생 교육을 우선 시행한다.
+- 증상 조절을 위해 각성제를 처방할 수 있으며, 약물 복용 시 불면, 두통, 혈압 상승 등 부작용 발생 여부를 정기적으로 모니터링한다.
+- 운전이나 위험한 기계 조작 시 졸음으로 인한 사고 위험이 높으므로 환자에게 안전 주의사항을 교육한다.
+- 약물 치료에도 증상 호전이 없거나 기면증 등 다른 수면 질환이 의심되는 경우 수면 전문의에게 의뢰한다.
+- 치료 반응 평가 및 약물 부작용 확인을 위해 정기적인 외래 추적 관찰을 시행한다.
 
 ## 6. 예후 및 합병증
 - 만성적인 주간 졸음은 업무/학업 수행 능력 저하, 교통사고 위험 증가, 삶의 질 저하를 초래함.

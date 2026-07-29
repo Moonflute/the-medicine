@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 악성 흑색종
 유형:
@@ -18,8 +19,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[피부과]]
 
@@ -53,13 +54,10 @@ reviewed_at: "2026-07-16"
 * 임상적 ABCDE 평가 및 더모스코피(Dermoscopy)를 통한 선별.
 * 조직병리 검사를 통한 확진 및 Breslow 두께 측정.
 
-## 5. 치료 (Treatment)
-* **수술**:
-  광범위 절제술(Wide local excision)이 표준.
-  종양 두께에 따라 1~2cm의 안전 마진 확보.
-* **감시 림프절 생검(SLNB)**: 종양 두께 0.8mm 초과 시 고려.
-* **전신 치료**: 면역관문억제제(Anti-PD-1 등) 및 표적 치료제(BRAF/MEK 억제제) 사용.
-* **기타**: 림프절 전이 시 초음파 추적 관찰 선호(완전 림프절 절제술은 선택적).
+## 5. 치료
+- 광범위 절제술 시행, 종양 두께에 따라 1–2 cm 안전 마진 확보하고 수술 후 감염·혈종 예방을 위해 무균 기술 유지
+- 종양 두께 ≥ 0.8 mm인 경우 감시 림프절 생검 권고; 양성 결과 시 정기 초음파·임상 추적으로 림프절 전이 여부 모니터링
+- 전신 치료 필요 시 면역관문억제제(anti‑PD‑1) 또는 BRAF/MEK
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **예후 인자**: Breslow 두께(침범 깊이), 궤양 유무, 림프절 전이 여부.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 서경
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신경과-신경외과]]
 
@@ -43,12 +44,11 @@ reviewed_at: "2026-07-16"
 
 
 
-## 5. 치료 (Treatment)
-- **보존적 치료**: 작업 수정, 물리치료, 감각 재교육(sensory retraining).
-- **약물 치료**: 항콜린제(Anticholinergics), 근이완제, 벤조디아제핀(BZD) 고려.
-- **시술**: 보툴리눔 독소(Botulinum toxin) 주사 요법이 가장 효과적인 표준 치료.
-
-
+## 5. 치료
+- 작업 환경·자세 조정과 규칙적인 휴식 도입으로 근긴장 악화를 예방합니다.
+- 물리치료와 감각 재교육을 병행하여 근긴장 완화와 기능 회복을 목표로 합니다.
+- 증상이 지속·악화되면 보툴리눔 독소 주사를 고려하고, 시술 전 신경과·신경외과 협진을 권합니다.
+- 치료 효과와 부작용을 정기적으로 평가하고, 필요 시 약물·시술 계획을 재조정합니다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 완치가 어렵고 만성적인 경과를 보임.

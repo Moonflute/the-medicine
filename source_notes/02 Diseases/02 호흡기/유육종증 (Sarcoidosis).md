@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[호흡기]]
 
@@ -45,10 +46,13 @@ reviewed_at: "2026-07-16"
 * ACE (angiotensin-converting enzyme) level 상승 가능.
   * **조직 검사:** 비괴사성 상피 육아종(noncaseating epithelial granuloma) 확인 및 다른 육아종성 질환(결핵, 진균 등) 배제.
 
-## 5. 치료 (Treatment)
-- 대부분 자연 관해되므로 무증상 시 경과 관찰.
-  증상 발생 시 1차 치료로 코르티코스테로이드(corticosteroid) 투여.
-  반응 불충분 시 Methotrexate 등 면역억제제 고려.
+## 5. 치료
+
+* 무증상 환자는 자연 관해 가능성이 높으므로 정기적인 추적 관찰을 우선함.
+* 증상 유발, 장기 기능 저하, 진행성 폐 침범 시 코르티코스테로이드를 1차 치료로 고려함.
+* 스테로이드 반응이 불충분하거나 부작용이 우려될 경우 메토트렉세이트 등 면역억제제 추가를 검토함.
+* 심장, 신경계, 안과적 침범 등 주요 장기 손상 시 전문의(순환기내과, 신경과, 안과 등) 협진 및 적극적 치료 시행.
+* 치료 중 고칼슘혈증 및 고칼슘뇨증 발생 여부를 주기적으로 모니터링함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 예후가 좋으나, 폐 섬유화나 심장 침범(부정맥, 심부전) 시 예후 불량할 수 있음.

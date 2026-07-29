@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -18,8 +19,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[혈액]]
 
@@ -47,11 +48,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 형태학적 소견과 함께 t(15;17) 전위 또는 PML-RARα 융합 유전자를 확인하여 진단.
 
-## 5. 치료 (Treatment)
-- 응급 상황으로 즉각적인 치료 시작 필요.
-  유도 요법 : ATRA (All-trans retinoic acid)와 ATO (Arsenic trioxide) 병용이 표준 치료. 고위험군에서는 안트라사이클린계 항암제 병용 고려.
-  지지 요법 : DIC 관리를 위해 혈소판 및 피브리노겐 수치를 적절히 유지 (수혈).
-  합병증 관리 : 분화 증후군(Differentiation syndrome) 발생 시 고용량 스테로이드 투여.
+## 5. 치료
+- 즉시 ATRA와 ATO 병용 요법을 시작하고, 치료 지연 시 DIC 악화 위험을 최소화한다.
+- DIC 관리 위해 혈소판과 피브리노겐을 목표 범위로 유지하고, 필요 시 수혈을 시행한다.
+- 분화 증후군(발열, 호흡곤란, 체중 증가 등)을 조기에 감시하고, 증상이 나타나면 고용량 스테로이드를 투여한다.
+- 치료 중 WBC, 혈소판, PT/aPTT, 피브리노겐 등 혈액·응고 지표를 정기적으로 모니터링하여 치료 반응과 합병증을 평가한다.
+- 고위험군이거나 합병증이 발생한 경우 혈액종양 전문센터로 전원하고, 치료 종료 후 장기 추적 검사를 통해 재발을 감시
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 표적 치료제 도입으로 완치율이 매우 높음.

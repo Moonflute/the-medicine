@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - trichomoniasis
 - 트리코모나스 질염
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -44,12 +45,12 @@ reviewed_at: "2026-07-16"
 - 현미경 검사상 운동성 원충 확인 또는 NAAT 양성으로 진단.
 - 증상 유무와 관계없이 진단 시 치료가 필요함.
 
-## 5. 치료 (Treatment)
-- **약물**: 5-nitroimidazole 계열(Metronidazole 또는 Tinidazole)이 표준 치료제임.
-- **원칙**:
-  증상 유무와 관계없이 환자와 성 파트너 모두 치료해야 함.
-  치료 완료 및 증상 소실 시까지 성관계 금지.
-- **추적 관찰**: 재감염률이 높아 치료 후 3개월 이내 재검사 권장.
+## 5. 치료
+
+- 증상 유무와 관계없이 환자와 성 파트너를 동시에 치료하여 재감염을 방지함.
+- 치료 완료 및 증상 소실 시까지 성관계를 금지함.
+- 투약 기간 중 및 투약 후 일정 기간 동안 알코올 섭취를 피하도록 교육함.
+- 재감염률이 높으므로 치료 후 3개월 이내에 재검사를 시행함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**:

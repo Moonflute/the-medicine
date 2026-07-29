@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[내분비]]
 
@@ -46,12 +47,11 @@ reviewed_at: "2026-07-16"
 - 위축성 갑상샘염(atrophic thyroiditis) 등 다른 자가면역 갑상샘염과 구분.
 
 ## 5. 치료
-- 치료 목표: TSH 수치를 정상 범위 내로 유지.
-- 기능 상태별 치료:
-- 일시적 갑상샘중독증: 베타차단제 등 대증 치료.
-- Euthyroid: 정기적 TFT 추적 관찰.
-- 갑상샘기능저하증: 레보티록신(levothyroxine) 투여.
-- Subclinical hypothyroidism: 갑상샘기능저하증 지침에 따라 투여 여부 결정.
+- TSH를 정상 범위(0.4–4.0 mIU/L)로 유지하는 것을 목표로, 3~6개월 간격으로 갑상샘기능검사(TFT) 정기 추적.
+- 갑상샘기능저하증이 확인되면 레보티록신으로 호르몬 보충을 시작하고, 증상 개선 및 TSH 목표치 도달 여부를 지속적으로 평가.
+- 일시적 갑상샘중독증(갑상샘중독) 시 베타차단제 등 대증 치료 후, 기능 회복 여부를 확인하기 위해 TFT를 재검사.
+- 무증상(euthyroid) 상태이거나 항체 양성만 있는 경우 즉시 치료는 하지 않으며, 6~12개월 간격으로 TFT와 갑상선 초음파를 통해 진행 여부를 모니터링.
+- 갑상선 종대가 급격히 커
 
 ## 6. 예후 및 합병증
 - 만성적인 갑상샘 조직 파괴로 인해 점진적인 기능 저하 발생 가능.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 강박 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional anxiety disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -41,9 +42,12 @@ relation_to_parent: subtype
   4. 다른 정신 질환으로 더 잘 설명되지 않음.
 
 ## 5. 치료
-- 1차 치료: 약물 치료(SSRI)와 인지행동치료(CBT, 특히 노출 및 반응 방지법)의 병행이 가장 효과적임.
-- 약물: SSRI(고용량 권장), Clomipramine(TCA).
-- 기타: 치료 저항성 사례의 경우 신경조절술(TMS, 심부 뇌 자극술 등) 고려 가능.
+
+- 1차 치료로 SSRI 약물 요법과 노출 및 반응 방지법(ERP)을 포함한 인지행동치료를 병행하는 것이 가장 효과적임.
+- 약물 치료 시 일반적인 불안 장애보다 높은 용량과 충분한 기간(최소 8~12주)의 투약이 필요할 수 있음.
+- 치료 저항성 사례에서는 약물 교체, 증량, 항정신병 약물 부가 요법 또는 신경조절술(TMS 등)을 고려함.
+- 동반된 우울증이나 불안 장애에 대한 평가를 병행하고, 자살 사고 등 위험 징후가 있을 경우 즉각적인 안전 관리 및 집중 치료를 시행함.
+- 만성적인 경과를 보이므로 증상 완화 후에도 재발 방지를 위해 장기적인 유지 치료와 정기적인 추적 관찰이 필수적임.
 
 ## 6. 예후 및 합병증
 - 만성적인 경과를 보이기 쉬우며, 적절한 치료가 없을 경우 기능 저하가 지속됨.

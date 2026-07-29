@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 알코올 금단 섬망
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -41,10 +42,11 @@ relation_to_parent: subtype
 - 과거 복잡한 금단(발작 또는 섬망) 병력 확인이 중요함.
 
 ## 5. 치료
-- 원칙: 입원 치료 및 벤조디아제핀(Benzodiazepines) 투여가 표준임.
-- 약물 치료: Diazepam(1차 선택) 또는 Lorazepam을 증상에 따라 투여. 필요 시 Phenobarbital 사용 가능.
-- 보조 요법: 티아민(Thiamine) 고용량 정맥/근육 주사(베르니케 뇌병증 예방), 엽산 및 전해질 교정.
-- 알코올 사용 장애(AUD) 치료: 퇴원 전 Naltrexone, Acamprosate, Disulfiram 등 약물 치료 및 상담 연계.
+
+- **입원 및 모니터링**: 생명을 위협하는 응급 상황이므로 즉각적인 입원 치료를 원칙으로 하며, 자율신경계 과항진 및 의식 상태를 지속적으로 관찰함.
+- **약물 치료**: 벤조디아제핀을 투여하여 금단 증상을 조절하고, 필요 시 항경련제나 항정신병 약물을 보조적으로 고려함.
+- **보조 요법**: 베르니케 뇌병증 예방을 위해 티아민을 우선 투여하고, 전해질 불균형 및 영양 결핍을 신속히 교정함.
+- **재발 방지 및 연계**: 급성기 증상 호전 후 알코올 사용 장애에 대한 약물 치료 및 정신사회적 상담을 포함한 장기적인 재활 계획을 수립함.
 
 ## 6. 예후 및 합병증
 - 예후: 조기 진단 및 적절한 약물 치료 시 사망률은 약 1% 수준으로 감소함.

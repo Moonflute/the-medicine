@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - congenital rubella syndrome
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[산과]]
 
@@ -23,7 +24,7 @@ reviewed_at: "2026-07-16"
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 출생 시 저체중, 성장 지연, 청력 장애 등.
-* **P/E**: 
+* **P/E**:
   - 3대 징후(Gregg triad): 백내장(눈), 선천성 심장질환(동맥관개존증 등), 감각신경성 난청.
   - 기타: 소두증, 지적 장애, 간비종대, 자반증(blueberry muffin rash).
 
@@ -37,10 +38,13 @@ reviewed_at: "2026-07-16"
   IgG 음성이면 3주 후 재검.
   IgM 양성이면 감염 의심.
 
-## 5. 치료 (Treatment)
-- 근본적인 치료법은 없음(대증 요법).
-- 예방이 최우선: 임신 전 풍진 항체 확인 및 예방접종(MMR).
-- 임신 중 감염 시: 태아 기형 위험성에 대해 상담, 인공유산 고려 가능.
+## 5. 치료
+
+- 근본적인 치료법은 없으며, 발견된 기형 및 합병증에 대한 다학제적 대증 요법 시행
+- 가임기 여성 대상 임신 전 풍진 항체 검사 및 MMR 백신 접종을 통한 예방이 최우선
+- 임신 중 감염 확인 시 태아 기형 위험성에 대한 충분한 상담 및 인공임신중절 고려
+- 신생아 감염 시 바이러스 배출 가능성을 고려하여 격리 및 감염 관리 시행
+- 접종 후 1개월간 피임 권고 등 임신 중 백신 접종 금기 사항 준수 및 교육
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 예방: 가임기 여성의 풍진 백신 접종(임신 중 접종 금기, 접종 후 1개월간 피임).

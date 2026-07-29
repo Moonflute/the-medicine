@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 청소년 근간대성 뇌전증
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -34,11 +35,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 * 특징적인 임상 양상(근간대 발작) 및 EEG 소견을 바탕으로 진단
 
-## 5. 치료 (Treatment)
-* **약물 치료**: Valproic acid가 가장 효과적인 1차 선택 약물
-* **기타**: Levetiracetam, Lamotrigine, Topiramate, Zonisamide 등 고려
-* **주의**: Carbamazepine, Phenytoin 등은 근간대 발작을 악화시킬 수 있어 피해야 함
-* **생활 관리**: 유발 요인(수면 부족, 음주 등) 회피 및 약물 순응도 유지
+## 5. 치료
+- 약물 순응도 유지와 정기적인 부작용(간기능, 혈소판) 모니터링을 위해 3~6개월마다 추적 검진 시행
+- 수면 부족, 과도한 음주, 스트레스 등 유발 요인을 회피하도록 생활 습관 교육 제공
+- 발작 조절이 미흡하거나 부작용이 심할 경우 소아청소년 신경과 전문의(또는 전뇌전증 클리닉)로 조기 의뢰
+- 1년 이상 무발작 시점에서 EEG 재검사를 통해 약물 감량 가능성 평가
+- 여성 환자에게는 향후 임신 계획 시 항뇌전증 약물(특히 바르프로산) 위험을 설명하고, 필요 시 대체 약물 및 산부인과 연계 상담 진행
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 약물 반응은 좋으나, 약물 중단 시 재발률이 높아 평생 관리가 필요한 경우가 많음

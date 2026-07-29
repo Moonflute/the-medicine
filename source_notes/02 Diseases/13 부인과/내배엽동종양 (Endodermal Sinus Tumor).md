@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - endodermal sinus tumor
 유형:
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -38,9 +39,12 @@ reviewed_at: "2026-07-16"
 - 혈청 aFP 상승과 함께 조직병리 검사를 통해 확진한다.
   Schiller-Duval body가 특징적인 조직학적 소견이다.
 
-## 5. 치료 (Treatment)
-- **수술**: 일차적으로 종양 제거술(난소절제술 등)을 시행한다.
-- **항암화학요법**: 수술 후 보조 요법으로 복합 항암화학요법(주로 BEP 요법: Bleomycin, Etoposide, Cisplatin)을 시행한다.
+## 5. 치료
+
+- **수술적 치료**: 가임력 보존이 가능한 경우 일측 난소난관절제술을 우선 고려하며, 병기 설정을 위한 병기 결정 수술을 시행한다.
+- **항암화학요법**: 수술 후 잔존 종양 유무와 관계없이 보조적 복합 항암화학요법을 표준 치료로 시행한다.
+- **추적 관찰**: 치료 반응 평가 및 재발 감시를 위해 혈청 알파태아단백(aFP) 수치를 주기적으로 측정한다.
+- **다학제 진료**: 악성 생식세포종양의 특성을 고려하여 부인종양 전문의 및 종양내과 전문의와의 협진을 통해 치료 계획을 수립한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 과거에는 예후가 불량했으나, 현재는 항암화학요법에 매우 민감하게 반응하여 조기 발견 시 완치율이 높다.

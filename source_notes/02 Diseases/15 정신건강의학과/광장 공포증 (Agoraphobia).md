@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 광장 공포증
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional anxiety disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,9 +40,12 @@ relation_to_parent: subtype
 - 감별: 특정 공포증(단일 상황), 분리 불안 장애, 사회 불안 장애, 공황 장애(독립적 진단 가능), 우울증 등과 감별 필요.
 
 ## 5. 치료
-- 원칙: 인지행동치료(CBT)와 약물 치료가 효과적이며, 병행 시 가장 높은 치료 효과 기대.
-- 약물 치료: SSRI가 1차 선택 약물(sertraline, escitalopram 등). SNRI, 삼환계 항우울제 고려 가능.
-- 주의사항: 벤조디아제핀은 의존성 및 부작용 위험으로 장기 사용 권장되지 않음.
+
+- 인지행동치료(CBT)의 핵심인 노출 치료(Exposure therapy)를 통해 회피 상황에 점진적으로 직면하도록 유도함.
+- SSRI 등 1차 약물 치료 시 초기 용량부터 서서히 증량하여 부작용을 최소화하고 순응도를 높임.
+- 벤조디아제핀은 급성기 불안 완화를 위해 단기간 제한적으로 사용하며, 의존성 및 금단 증상 발생 여부를 면밀히 모니터링함.
+- 치료 중단 시 재발 가능성이 높으므로 증상 호전 후에도 최소 6~12개월간 유지 요법을 시행함.
+- 자살 사고나 심각한 우울증이 동반되는 경우 즉각적인 정신건강의학과 전문의의 집중 치료 및 입원 치료를 고려함.
 
 ## 6. 예후 및 합병증
 - 예후: 치료 시 예후가 양호하나, 미치료 시 완전 관해율은 낮음(약 10%).

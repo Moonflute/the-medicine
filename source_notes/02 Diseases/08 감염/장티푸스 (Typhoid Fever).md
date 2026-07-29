@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -42,10 +43,12 @@ reviewed_at: "2026-07-16"
 - 혈액, 대변, 골수 배양 검사에서 살모넬라 티피 또는 파라티피 동정.
   항생제 내성이 흔하므로 반드시 감수성 검사 시행.
 
-## 5. 치료 (Treatment)
-- 세프트리악손 (ceftriaxone), 플루오로퀴놀론 (fluoroquinolone), 또는 아지스로마이신 (azithromycin)을 감수성 결과에 따라 선택.
-  중증 독성 증상 시 스테로이드 병용 고려.
-  보균자 치료는 감수성 검사에 기반한 장기 항생제 투여 또는 담낭 절제술 고려.
+## 5. 치료
+- 감수성 검사 결과에 따라 ceftriaxone, fluoroquinolone, azithromycin 중 하나를 선택하여 7~14일간 항생제 치료 시행
+- 항생제 시작 전 신장·간 기능 및 심전도(특히 fluoroquinolone 사용 시 QT 간격) 확인; 부작용 발생 시 즉시 약물 교체 또는 중단
+- 고열·출혈·장 천공 등 중증 증상이 나타나면 중환자실 이송 및 외과·감염내과 협진을 고려
+- 치료 종료 후 1개월 이내 대변 배양으로 보균자 여부 확인; 보균자 시 장기 항생제 투여 또는 필요 시 담낭 절제술 검토
+- 예방 차원에서 타이포이드 백신(경구·주사) 접종 및 위생 교육(식수·음식 위생, 손 씻기)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 장 천공, 장 출혈, 담낭염, 골수염, 뇌수막염 등의 합병증이 발생할 수 있음.

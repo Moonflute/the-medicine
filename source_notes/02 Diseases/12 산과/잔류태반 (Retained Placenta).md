@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 잔류태반
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[산과]]
 
@@ -40,11 +41,13 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 * 임상적 증상(지속적 출혈)과 초음파 소견을 종합하여 진단
 
-## 5. 치료 (Treatment)
-- 자궁 수축제(Oxytocin 등) 투여
-- 자궁 내 잔류물 제거술(Gentle suction curettage)
-- 필요 시 자궁 내막 소파술
-- 심한 경우 수술적 덩이 제거술
+## 5. 치료
+
+* 자궁 수축제 투여 및 자궁 마사지를 통해 자궁 수축을 유도하고 출혈을 조절함.
+* 초음파 유도하에 자궁 내 잔류 조직을 안전하게 제거(Manual removal 또는 suction curettage)함.
+* 감염 징후가 동반된 경우 적절한 항생제 치료를 병행함.
+* 유착태반이 의심되거나 대량 출혈이 지속되는 경우 상급 병원 전원 및 수술적 치료를 고려함.
+* 시술 후 자궁 수축 상태와 질 출혈 양상을 면밀히 관찰하며 추적 관찰함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 산후 출혈(Postpartum hemorrhage) 및 감염 위험 증가

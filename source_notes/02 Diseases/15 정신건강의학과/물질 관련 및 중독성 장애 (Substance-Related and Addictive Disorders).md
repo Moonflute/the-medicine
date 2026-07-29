@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 물질 관련 및 중독성 장애
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: '2026-07-24'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 document_role: hub
 ## 1. 개요
@@ -33,8 +34,11 @@ document_role: hub
 - 이 문서는 진단군의 개요 및 하위 질환 탐색용 허브이다. 실제 진단 기준은 아래 개별 질환 문서에서 확인한다.
 
 ## 5. 치료
-- 원칙**: 동기 강화 상담(Motivational Interviewing), 해독(Detoxification), 재활 및 재발 방지.
-- 약물 치료**: 물질별 특이적 약물 사용(알코올: Disulfiram, Naltrexone, Acamprosate 등).
+
+- **치료 원칙**: 동기 강화 상담을 통한 변화 의지 고취, 안전한 해독(detoxification), 그리고 장기적인 재활 및 재발 방지 프로그램 병행.
+- **약물 치료**: 물질별 특이적 약물(갈망 감소, 금단 증상 완화, 혐오 요법 등)을 환자의 상태에 맞춰 선별적으로 적용.
+- **동반 질환 관리**: 우울, 불안 등 공존하는 정신질환을 동시에 평가하고 치료하여 치료 순응도 및 예후 개선.
+- **안전 및 추적 관찰**: 급성 금단 증상 시 신체적 합병증(발작, 섬망 등)에 대한 모니터링을 시행하고, 퇴원 후 지속적인 외래 추적 관찰 및 지지 체계 구축.
 
 ## 6. 예후 및 합병증
 - 예후**: 조기 개입 및 장기적인 추적 관찰이 중요하며, 동반 질환이 있을 경우 예후가 불량할 수 있음.

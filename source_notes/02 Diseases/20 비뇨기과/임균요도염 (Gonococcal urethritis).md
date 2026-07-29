@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 임균요도염
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[비뇨기과]]
 
@@ -44,13 +45,12 @@ reviewed_at: "2026-07-16"
 
 
 
-## 5. 치료 (Treatment)
-* **항생제:** Ceftriaxone (1회 근주 또는 정주).
-* **동반 치료:** 클라미디아 동반 감염 가능성이 높으므로 Doxycycline 등 경험적 항생제 병용 투여.
-* **파트너 관리:** 최근 60일 이내 성접촉 파트너에 대한 평가 및 치료 필수.
-* **주의사항:** 치료 완료 후 7일간 성관계 금지.
-
-
+## 5. 치료
+- Ceftriaxone 단회 근주 투여와 클라미디아 동반 감염 시 Doxycycline 병용 치료
+- 최근 60일 이내 성접촉 파트너에 대한 평가 및 동시 치료 시행
+- 치료 완료 후 7일간 성관계 금지 및 콘돔 사용 권고
+- 치료 후 1주일 이내 NAAT 재검사로 박테리아 제거 확인
+- 증상 지속·합병증 의심 시 비뇨기과 전문의 의뢰 및 추가 평가 실시
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **합병증:** 부고환염, 전립선염, 요도 협착, 파종성 임균 감염(관절염, 피부 병변 등).

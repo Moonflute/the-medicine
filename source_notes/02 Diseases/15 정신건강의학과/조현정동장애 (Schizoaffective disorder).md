@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 조현정동장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -41,13 +42,12 @@ relation_to_parent: subtype
 - 감별 진단: 조현병(기분 증상이 주가 아님), 양극성 장애 또는 우울장애(정신병적 증상이 기분 삽화 중에만 나타남).
 
 ## 5. 치료
-- 치료 원칙: 약물 치료와 정신사회적 치료의 병행.
-- 약물 치료:
-  - 항정신병 약물: 정신병적 증상 조절을 위해 필수적(비정형 약물 우선 고려).
-  - 기분 조절제: 조증 또는 기분 불안정 시 리튬, 발프로산 등 고려.
-  - 항우울제: 우울 증상 시 SSRI 계열 고려(양극성 장애 여부 확인 후 신중 투여).
-- 정신사회적 치료: 개인 및 가족 치료, 사회기술 훈련, 직업 재활을 통해 기능 회복 및 재발 방지.
-- 난치성 사례: 클로자핀(Clozapine) 또는 전기경련요법(ECT) 고려.
+
+- **약물 순응도 관리**: 증상 호전 후에도 재발 방지를 위해 유지 요법을 지속하며, 환자의 약물 순응도를 정기적으로 모니터링함.
+- **자살 위험 평가**: 우울 삽화나 정신병적 증상 악화 시 자살 사고 및 계획을 면밀히 평가하고 안전 조치를 시행함.
+- **정신사회적 재활**: 약물 치료와 병행하여 사회기술 훈련, 직업 재활, 가족 교육을 통해 사회적 기능 회복을 도모함.
+- **전문의 의뢰**: 난치성 정신병적 증상, 심각한 기분 불안정, 자해 및 타해 위험이 높은 경우 입원 치료 및 상급 병원 의뢰를 고려함.
+- **정기적 추적 관찰**: 기분 증상과 정신병적 증상의 변화 양상을 주기적으로 평가하여 약물 조정을 시행함.
 
 ## 6. 예후 및 합병증
 - 예후: 조기 발견 및 지속적인 약물 순응도가 예후에 결정적임.

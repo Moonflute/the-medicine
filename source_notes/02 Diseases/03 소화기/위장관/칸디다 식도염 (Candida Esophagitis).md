@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -43,11 +44,11 @@ reviewed_at: "2026-07-16"
 - 내시경적 소견이 전형적이며, 조직검사나 도말 검사(smear)를 통해 균사를 확인하여 확진함.
 
 
-## 5. 치료 (Treatment)
-- **경증**: 경구 fluconazole
-- **중증 또는 불응성**: 정맥 투여 항진균제 (fluconazole, echinocandin, 또는 amphotericin B)
-- **기저 질환**: 면역억제 상태의 교정 및 기저 질환 관리
-
+## 5. 치료
+- 증상 및 내시경 소견에 따라 항진균제(경구 또는 정맥) 치료를 시작하고, 2주 이내 임상 호전 여부를 평가한다.
+- 치료 중 간·신장 기능 및 약물 상호작용을 확인하여 안전성을 확보한다.
+- 면역억제 상태(예: HIV, 스테로이드, 항암치료)인 경우, 가능한 한 원인 질환의 조절·감소를 병행한다.
+- 2~4주 후 증상이 지속되거나 악화될 경우, 위장내시경 재검사 및 감염 전문의·소화기 전문의에게 의뢰한다
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 항진균제 치료 시 예후는 양호함.

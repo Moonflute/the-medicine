@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -49,16 +50,10 @@ reviewed_at: "2026-07-16"
 
 - **감별진단**: 이차성 세균 복막염(장 천공 등), 결핵성 복막염, 암성 복막염 등과 감별이 필요하다.
 
-## 5. 치료 (Treatment)
-- SBP 진단 시 즉시 경험적 항생제(IV ceftriaxone 또는 cefotaxime 등)를 투여한다.
-  항생제는 최소 5일간, 복수 내 PMN 수가 250개/mm³ 미만으로 감소할 때까지 유지한다.
-  병원 획득성 SBP의 경우 piperacillin/tazobactam과 daptomycin 또는 meropenem 등을 고려한다.
-  신부전 예방을 위해 알부민(1.5 g/kg, 1일차; 1 g/kg, 3일차) 투여가 권장된다.
-  저혈압 환자는 비선택적 베타 차단제 사용을 일시 중단해야 한다.
-
-- **예방**:
-  SBP 재발률이 높으므로(1년 내 최대 70%) 예방적 항생제(주로 퀴놀론계) 투여가 필요하다.
-  정맥류 출혈 환자에서도 예방적 항생제 투여가 권장된다.
+## 5. 치료
+- 진단 즉시 3세대 세팔로스포린 계열 등 경험적 항생제를 시작하고, 복수 PMN 수가 감소할 때까지 치료를 유지한다.
+- 신부전 위험이 있는 경우 알부민 보조 요법을 고려하고, 저혈압 환자는 비선택적 베타 차단제를 일시 중단한다.
+- 48~72시간 후 복수 재천자를 시행하여 치료 반응을 확인하고, PMN 감소가 없으면 항생제
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

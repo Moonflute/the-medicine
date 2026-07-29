@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 틱 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -38,10 +39,12 @@ relation_to_parent: subtype
 - 틱의 발생 연령, 빈도, 강도 및 사회적/학업적 기능 손상 여부 확인.
 
 ## 5. 치료
-- 교육: 환자와 가족에게 질환의 경과와 예후에 대한 이해 제공.
-- 비약물 치료: 습관 반전 치료(HRT), 인지행동치료(CBT).
-- 약물 치료: 증상이 일상생활에 현저한 지장을 줄 경우 알파-2 아드레날린 작용제, 항정신병 약물 등을 고려.
-- 기타: 부모 교육, 가족 치료, 학교 연계 지원.
+
+- **환자 및 보호자 교육**: 틱 증상을 의도적인 행동으로 오해하지 않도록 질환의 신경학적 기전을 설명하고, 증상에 대한 과도한 지적이나 처벌을 피하도록 교육한다.
+- **비약물적 개입**: 습관 반전 훈련(HRT) 및 포괄적 행동 개입(CBIT)을 우선적으로 고려하여 증상 조절 능력을 향상시킨다.
+- **약물 치료 적응증**: 일상생활의 기능 저하, 심한 통증, 사회적 고립 등 증상이 삶의 질에 현저한 지장을 줄 때 약물 치료를 시작한다.
+- **동반 질환 관리**: ADHD, 강박 장애 등 공존 질환이 증상을 악화시킬 수 있으므로, 이에 대한 통합적인 평가와 병행 치료를 시행한다.
+- **학교 및 환경 연계**: 학교 현장에서의 이해와 배려를 유도하고, 스트레스 요인을 최소화하는 환경 조성을 위해 다학제적 지원을 제공한다.
 
 ## 6. 예후 및 합병증
 - 예후: 대개 청소년기를 지나며 증상이 완화되나, 일부는 성인기까지 지속됨.

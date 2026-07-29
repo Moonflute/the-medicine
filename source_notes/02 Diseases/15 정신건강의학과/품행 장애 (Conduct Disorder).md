@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 품행 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional disruptive behavior disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -40,9 +41,11 @@ relation_to_parent: subtype
 - 적대적 반항 장애 (ODD)와의 차이: ODD는 분노, 과민성, 논쟁적/반항적 행동, 복수심이 주를 이루며 타인의 권리를 심각하게 침해하는 공격성이나 법적 위반은 상대적으로 적음.
 
 ## 5. 치료
-- 원칙: FDA 승인된 단일 약물은 없으며, 다각적(Multimodal) 접근이 필수적.
-- 심리사회적 치료: 부모 관리 훈련(PMT), 다체계 치료(MST), 인지행동치료(CBT)를 통해 문제 해결 기술 습득 및 친사회적 행동 강화.
-- 약물 치료: 공존 질환(ADHD, 우울증 등) 치료가 우선. 공격성 조절을 위해 기분조절제, 비정형 항정신병 약물 등을 보조적으로 고려.
+
+- 다각적 접근: 부모 관리 훈련(PMT), 다체계 치료(MST), 인지행동치료(CBT)를 통합하여 환경적 요인 개선 및 문제 해결 기술을 강화함.
+- 공존 질환 관리: ADHD, 우울증, 불안 장애 등 동반 질환을 우선적으로 평가하고 치료하여 증상 악화를 방지함.
+- 약물 보조 요법: 심각한 공격성이나 충동성 조절을 위해 기분조절제나 비정형 항정신병 약물을 보조적으로 고려함.
+- 안전 및 예후 관리: 자해, 타해 위험성을 상시 평가하고, 가정 및 학교 환경과의 긴밀한 협력을 통해 재발 방지 및 사회적 적응을 도모함.
 
 ## 6. 예후 및 합병증
 - 예후: 조기 개입이 중요. 낮은 지능, 기능 부전적 가정 환경, 부모의 범죄 이력은 예후 불량 인자.

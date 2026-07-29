@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[혈액]]
 
@@ -40,11 +41,11 @@ reviewed_at: "2026-07-16"
 - 골수 생검상 섬유화 확인, 특징적인 말초혈액 소견, JAK2/CALR/MPL 돌연변이 확인.
   이차성 골수섬유증(악성 종양, 감염, 자가면역질환 등)을 배제하여 진단함.
 
-## 5. 치료 (Treatment)
-- 증상 및 합병증 조절이 주 목적임.
-  약물 치료 : 증상성 환자에서 JAK 억제제(ruxolitinib, fedratinib, pacritinib, momelotinib) 사용. 초기 저위험군에서는 peginterferon alfa-2a 고려 가능.
-  동종 조혈모세포 이식 : 완치를 기대할 수 있는 유일한 방법으로, 적합한 환자에서 고려.
-  기타 : 빈혈에 대한 수혈, 필요 시 에리스로포이에틴(EPO) 또는 다나졸(danazol) 등 보조 요법.
+## 5. 치료
+- 증상이 있거나 비장 비대·빈혈이 진행된 경우 JAK 억제제 사용을 고려하고, 저위험군에서는 peginterferon alfa‑2a를 선택적으로 적용한다.
+- 빈혈이 심할 때는 적혈구 수혈을 시행하고, 필요 시 에리스로포이에틴 또는 다나졸 등 보조 요법을 추가한다.
+- 적합한 연령·건강 상태인 환자는 동종 조혈모세포 이식(HSCT) 평가를 위해 혈액·종양 전문센터에 의뢰한다.
+- 치료 시작 후 혈액학적 지표(혈색소, 혈소판, 백혈구)와 비장 크기를 정기적으로 추적하고, 감염·출혈 위험에 대비해 예방접종 및 감시를 강화한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후는 다양하며, 진행성 질환으로 약 30%에서 급성 골수성 백혈병으로 진행할 수 있음.

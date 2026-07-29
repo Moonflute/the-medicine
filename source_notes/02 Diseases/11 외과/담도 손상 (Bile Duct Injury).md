@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - bile duct injury
 유형:
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[외과]]
 
@@ -30,7 +31,7 @@ reviewed_at: "2026-07-16"
 
 ## 3. 검사 (Lab & Imaging)
 - **Lab**: 간기능 검사(빌리루빈, ALP, GGT 상승), 염증 수치 상승.
-- **Imaging**: 
+- **Imaging**:
 - 복부 초음파/CT: 담즙 저류(biloma), 담도 확장 확인.
 - HIDA scan: 담즙 누출 확인에 유용.
 - MRCP: 담도 손상 부위 및 해부학적 구조 파악.
@@ -41,12 +42,11 @@ reviewed_at: "2026-07-16"
 - 수술 후 발견 시 임상 증상과 영상 검사를 종합하여 판단.
   Strasberg 분류법을 통해 손상 유형(A~E)을 분류하여 치료 계획 수립.
 
-## 5. 치료 (Treatment)
-- **원칙**:
-  손상 유형과 발견 시점에 따라 결정.
-  조기 발견 시 즉각적인 수술적 복구가 최선.
-- **비수술적 치료**: 담즙 누출(Type A) 시 ERCP를 통한 스텐트 삽입 및 괄약근 절개술(sphincterotomy), 경피적 배액술(PTBD).
-- **수술적 치료**: 주요 담도 손상(Type E 등) 시 Roux-en-Y 간공장문합술(Hepaticojejunostomy)이 표준 치료.
+## 5. 치료
+- 조기 발견 시 즉시 외과 전문의에게 전원하고, 필요 시 수술적 복구를 신속히 시행한다.
+- 담즙 누출(유형 A) 경우 ERCP로 스텐트 삽입 및 괄약근 절개술을 시행하고, 배액이 필요하면 경피적 배액술(PTBD)을 고려한다.
+- 주요 담도 손상(유형 E 등)에서는 Roux‑en‑Y 간공장문합술 등 외과적 재건을 수행하고, 수술 후 3~6 개월 간 MRCP·초음파로 협착 여부를 추적한다.
+- 합병증 예방을 위해 수술 전 해부학적 변이 파악, 수술 중 담관 식별 강화, 환자에게 복통·황달·발열 등 증상 발생 시 조기 재평가를 안내한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 담도 협착, 재발성 담관염, 간경변, 문맥압 항진증.

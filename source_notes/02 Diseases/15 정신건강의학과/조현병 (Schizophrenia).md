@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 조현병
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,9 +40,12 @@ relation_to_parent: subtype
 - 감별 진단: 기질적 뇌 질환, 약물 유발 정신병, 양극성 장애, 분열정동장애 등과 감별 필요.
 
 ## 5. 치료
-- 치료 원칙: 항정신병 약물을 중심으로 한 포괄적 관리 및 심리사회적 개입.
-- 약물 치료: 비정형 항정신병 약물을 우선 고려하며, 순응도 저하 시 장기 지속형 주사제(LAI) 고려.
-- 기타: 정신 치료, 집단 치료, 행동 치료(토큰 경제), 환경 요법, 전기 경련 치료(ECT).
+
+- 항정신병 약물 복용을 통한 증상 조절 및 재발 방지를 최우선으로 하며, 약물 순응도 향상을 위해 장기 지속형 주사제(LAI)를 적극 고려함.
+- 자살 위험성 및 공격성 등 급성기 위험 행동이 관찰될 경우 즉각적인 입원 치료를 시행함.
+- 대사 증후군 등 약물 부작용 모니터링을 위해 정기적인 혈액 검사 및 신체 계측을 병행함.
+- 사회적 기능 회복을 위해 약물 치료와 병행하여 사회기술 훈련, 직업 재활, 가족 교육 등 심리사회적 개입을 실시함.
+- 증상 호전 후에도 유지 치료를 통해 재발을 방지하고, 지역사회 정신건강복지센터와 연계하여 지속적인 사례 관리를 수행함.
 
 ## 6. 예후 및 합병증
 - 예후: 조기 발견 및 지속적인 약물 유지가 예후에 결정적임. 음성 증상이 심할수록 사회적 기능 회복이 어려움.

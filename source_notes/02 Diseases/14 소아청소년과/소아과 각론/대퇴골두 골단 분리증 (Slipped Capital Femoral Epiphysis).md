@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 대퇴골두 골단 분리증
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -39,11 +40,12 @@ reviewed_at: "2026-07-16"
 * 임상 증상 및 신체 검진 소견
 * 고관절 X-ray 영상 소견 (Southwick slip angle 등을 이용한 중증도 평가)
 
-## 5. 치료 (Treatment)
-* **수술적 치료**:
-  골단 유합술(In situ fixation)이 표준 치료.
-  추가적인 전위를 방지하기 위해 경피적 나사 고정술 시행
-* **기타**: 불안정형(unstable)의 경우 관절낭 절개술 고려, 중증 변형 시 절골술 고려
+## 5. 치료
+
+* **즉각적인 체중 부하 제한**: 진단 즉시 환아의 체중 부하를 금지하고 휠체어 등을 사용하여 추가적인 골단 전위를 방지함.
+* **수술적 고정**: 추가 전위 방지를 위해 경피적 나사 고정술(In situ fixation)을 조기에 시행함.
+* **반대측 고관절 평가**: 양측성 발생 가능성을 고려하여 반대측 고관절에 대한 정기적인 영상 추적 관찰 또는 예방적 고정술을 고려함.
+* **합병증 모니터링**: 수술 후 대퇴골두 무혈성 괴사 및 연골 용해 여부를 확인하기 위해 장기적인 정형외과적 추적 관찰을 시행함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 수술 시 예후 양호

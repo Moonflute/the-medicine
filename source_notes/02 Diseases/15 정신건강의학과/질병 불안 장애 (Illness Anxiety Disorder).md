@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 질병 불안 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional somatic symptom disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -45,10 +46,11 @@ relation_to_parent: subtype
   - 다른 정신질환으로 더 잘 설명되지 않음.
 
 ## 5. 치료
-- 핵심 원칙: 신뢰 관계 형성 및 기능 회복. '모두 마음의 병이다'라는 식의 접근은 지양.
-- 지지적 치료: 정기적인 상담, 불필요한 검사 제한, 다학제적 접근.
-- 심리 치료: 인지행동치료(CBT)가 1차 치료로 권장됨 (신체 감각에 대한 교육 및 행동 수정).
-- 약물 치료: 동반된 우울증이나 불안 장애가 있을 경우 SSRI 또는 SNRI 사용 고려.
+
+- **치료적 관계 형성**: 환자의 신체적 고통을 인정하고 공감하며, '심리적 원인'임을 강조하기보다 기능 회복과 삶의 질 향상에 초점을 맞춘 신뢰 관계를 구축함.
+- **정기적 진료 및 검사 제한**: 불필요한 반복 검사나 전문의 의뢰를 지양하고, 정기적인 예약 진료를 통해 환자의 불안을 관리하며 의료 쇼핑을 방지함.
+- **인지행동치료(CBT)**: 신체 감각에 대한 파국적 해석을 교정하고, 질병 확인 행동을 줄이는 행동 수정 기법을 우선적으로 시행함.
+- **동반 질환 관리**: 우울증이나 불안 장애가 동반된 경우 약물 치료(SSRI, SNRI 등)를 병행하여 기저 정서 상태를 안정시킴.
 
 ## 6. 예후 및 합병증
 - 만성적인 경과를 보일 수 있으며, 의료 시스템에 대한 의존도가 높음.

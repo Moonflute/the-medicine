@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 간헐적 폭발 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional disruptive behavior disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -35,9 +36,12 @@ relation_to_parent: subtype
 - 간헐적 폭발 장애와의 차이: 본 장애는 공격적 행동의 빈도와 강도가 훨씬 심각하며, 평소에는 공격적이지 않다가 갑작스러운 폭발을 보이는 양상이 뚜렷함.
 
 ## 5. 치료
-- 원칙: FDA 승인된 단일 약물 치료는 없으며, 심리사회적 개입과 약물 치료를 병행하는 다각적 접근이 필수적임.
-- 심리사회적 치료: 인지행동치료(CBT)를 통해 분노 유발 요인을 파악하고, 충동 조절 및 문제 해결 기술을 훈련함.
-- 약물 치료: 공격성 조절을 위해 기분조절제(리튬, 항경련제), 항우울제(SSRI), 비정형 항정신병 약물을 보조적으로 고려할 수 있음.
+
+- 인지행동치료(CBT)를 통해 분노 유발 요인을 식별하고, 충동 조절 및 대안적 문제 해결 기술을 습득하도록 교육함.
+- 약물 치료는 공격성 조절을 위한 보조적 수단으로 활용하며, 기분조절제, SSRI, 비정형 항정신병 약물 등을 환자의 증상에 맞춰 고려함.
+- 자해나 타해 위험이 높거나 법적 문제가 동반된 경우, 즉각적인 안전 확보 및 전문적인 다학제적 개입을 우선함.
+- 가족 및 보호자에게 환자의 분노 폭발 양상을 이해시키고, 가정 내 일관된 훈육과 환경 조절을 위한 상담을 병행함.
+- 치료 순응도를 정기적으로 모니터링하고, 사회적 기능 회복을 위해 학교나 직장 등 환경적 지지 체계를 구축함.
 
 ## 6. 예후 및 합병증
 - 예후: 조기 개입이 중요하며, 치료하지 않을 경우 사회적 기능 저하, 실업, 법적 문제, 물질 남용 등으로 이어질 가능성이 높음.

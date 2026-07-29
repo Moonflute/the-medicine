@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - bacterial vaginosis
 - BV
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -44,13 +45,13 @@ reviewed_at: "2026-07-16"
   3. 질 분비물 pH > 4.5
   4. Whiff test 양성
 
-## 5. 치료 (Treatment)
-- **약물**: 메트로니다졸(Metronidazole) 또는 클린다마이신(Clindamycin) 경구 또는 질정제 사용.
-- **원칙**:
-  증상이 있는 경우에만 치료.
-  무증상 시 치료 불필요.
-- **파트너 치료**: 일반적으로 권장되지 않으나, 재발성/증상성 사례에서는 고려 가능.
-- **주의**: 질 세척(Douching)은 질 내 균형을 깨뜨리므로 피해야 함.
+## 5. 치료
+
+- **치료 대상**: 증상이 있는 환자에게만 약물 치료를 시행하며, 무증상인 경우 원칙적으로 치료하지 않음.
+- **생활 습관 교정**: 질 내 정상 세균총의 균형을 깨뜨리는 질 세척(Douching)을 금지함.
+- **파트너 치료**: 일반적인 경우 성 파트너의 동시 치료는 권장되지 않음.
+- **재발 관리**: 재발이 잦은 경우 약물 순응도를 확인하고, 필요 시 장기 유지 요법을 고려함.
+- **임신부 관리**: 임신 중 증상이 있는 경우 조산 등 합병증 예방을 위해 반드시 치료함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 골반염(PID), 성매개감염병 감염 위험 증가, 임신 시 조산 위험 증가.

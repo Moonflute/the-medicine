@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 중간창자꼬임
 유형:
@@ -17,8 +18,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -41,10 +42,12 @@ reviewed_at: "2026-07-16"
 * 임상 증상(특히 신생아의 담즙성 구토) 및 영상 검사(UGI 조영술 또는 CT)를 통해 진단
 * 의심 시 즉각적인 수액 소생술 및 수술적 평가 필요
 
-## 5. 치료 (Treatment)
-* **응급 수술**: 꼬인 장을 반시계 방향으로 풀고 Ladd 술식(Ladd procedure) 시행
-* **Ladd 술식**: 장간막 유착 밴드(Ladd's bands) 절제, 맹장을 좌측으로, 십이지장을 우측으로 재배치, 충수돌기 절제술 포함
-* **장 괴사 시**: 괴사 부위 절제 및 필요 시 2차 수술(second-look laparotomy) 고려
+## 5. 치료
+
+* **응급 처치**: 담즙성 구토가 있는 신생아는 즉시 금식하고 비위관 삽입 및 정맥 수액 요법을 통해 수분 및 전해질을 교정한다.
+* **수술적 치료**: 진단 즉시 응급 개복술을 시행하여 꼬인 장을 반시계 방향으로 복원하고 Ladd 술식을 수행한다.
+* **괴사 평가**: 장 괴사가 의심되는 경우 괴사 부위를 절제하며, 생존 가능성이 불분명할 경우 24~48시간 후 2차 수술(second-look laparotomy)을 고려한다.
+* **수술 후 관리**: 단장 증후군 발생 여부를 면밀히 관찰하고, 장기적인 영양 상태 및 유착에 의한 장 폐색 발생 가능성을 추적 관찰한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 수술 시 예후 양호

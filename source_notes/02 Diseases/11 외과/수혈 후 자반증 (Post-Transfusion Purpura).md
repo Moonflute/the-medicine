@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - post transfusion pupura
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[외과]]
 
@@ -34,10 +35,12 @@ reviewed_at: "2026-07-16"
 - 수혈력 확인 및 임상적 의심
 - 혈소판 특이 항체 검출 및 혈소판 감소 확인을 통해 진단
 
-## 5. 치료 (Treatment)
-- 1차 치료: 정맥 면역글로불린(IVIG) 투여
-- 난치성 또는 중증 시: 혈장 교환술(Plasmapheresis)
-- 금기: 혈소판 수혈은 항체 반응을 악화시킬 수 있어 원칙적으로 피함
+## 5. 치료
+- 1차 치료로 정맥 면역글로불린(IVIG)을 투여하여 혈소판 파괴를 억제함
+- 난치성 또는 중증 출혈 시 혈장 교환술(Plasmapheresis)을 시행함
+- 항체 반응을 악화시킬 수 있으므로 혈소판 수혈은 원칙적으로 금기함
+- 출혈 위험이 높은 급성기에는 환자의 활력 징후와 출혈 징후를 면밀히 모니터링함
+- 혈소판 수치가 정상 범위로 회복될 때까지 정기적인 혈액 검사를 통해 추적 관찰함
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 대개 수주 내에 혈소판 수치가 정상으로 회복됨

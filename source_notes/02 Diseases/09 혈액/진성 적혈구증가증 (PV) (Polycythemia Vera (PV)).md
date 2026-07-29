@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[혈액]]
 
@@ -37,11 +38,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - Hb/Hct 증가, JAK2 돌연변이 확인, EPO 감소 등을 종합하여 진단 (WHO 진단 기준).
 
-## 5. 치료 (Treatment)
-- 사혈 (phlebotomy) : Hct를 45% 미만으로 유지하여 혈액 점도 감소.
-  아스피린 (aspirin) : 혈전증 예방.
-  하이드록시우레아 (hydroxyurea) : 고위험군에서 혈구 수 조절을 위해 사용.
-  룩솔리티닙 (ruxolitinib) : 하이드록시우레아 불응성 또는 내약성 부족 시 고려되는 JAK1/2 억제제.
+## 5. 치료
+- 사혈을 정기적으로 시행해 헤마토크리트를 45 % 이하로 유지하고 혈액 점도를 낮춘다.
+- 저용량 아스피린을 지속 복용해 혈전증 위험을 감소시킨다.
+- 고위험군(연령 ≥ 60세, 이전 혈전증 등)에서는 하이드록시우레아 등 세포증식 억제제로 혈구 수를 조절한다.
+- 하이드록시우레아에 내약성 문제가 있거나 효과가 부족할 경우 JAK1/2 억제제(룩솔리티닙)를 고려한다.
+- 정기적인 혈액 검사와 비장 초음파를 통해 혈액학적 지표와 합병증 발생 여부를 모니터링하고, 혈전증 증상이 나타나면 즉시 혈전 전문의에게 의뢰한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 주요 합병증은 혈전증.

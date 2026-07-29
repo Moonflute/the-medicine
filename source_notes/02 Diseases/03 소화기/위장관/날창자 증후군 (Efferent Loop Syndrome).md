@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -50,11 +51,11 @@ reviewed_at: "2026-07-16"
 - CT를 통해 폐쇄된 들창자의 확장과 원인 병변을 확인하여 진단.
 
 
-## 5. 치료 (Treatment)
-- **보존적 치료**: 비위관(NG tube) 삽입을 통한 감압 및 수액 소생술.
-- **수술적 치료**: 근본적인 해결을 위해 폐쇄 원인 제거 및 재건술(Billroth II를 Roux-en-Y로 전환, Braun 문합술 등) 시행.
-- **기타**: 수술이 어려운 경우 내시경적 스텐트 삽입술 등을 고려할 수 있음.
-
+## 5. 치료
+- 비위관 삽입으로 장내 가스·액체 감압하고, 수액·전해질 보충을 통해 혈역학적 안정 유지
+- 폐쇄 원인(유착, 탈장, 종양 등)이 확인되면 외과 전문의에게 즉시 의뢰하여 재건술(예: Billroth II → Roux‑en‑Y, Braun 문합) 시행
+- 수술이 어려운 경우 내시경적 스텐트 삽입을 고려하되, 시술 전·후 감염·천공 위험을 모니터링하고 필요 시 외과적 구제술 준비
+- 시술·수술 후 복부 CT 또는 초음파로 루프 감압 여부와 합병증(천공
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 수술 시 예후가 좋으나, 진단 지연 시 천공, 복막염, 패혈증으로 인한 높은 사망률을 보임.

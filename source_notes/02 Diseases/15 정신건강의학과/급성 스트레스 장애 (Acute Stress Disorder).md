@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 급성 스트레스 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional trauma- and stressor-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -44,9 +45,12 @@ relation_to_parent: subtype
   - 사회적, 직업적 기능의 유의미한 손상.
 
 ## 5. 치료
-- 심리적 응급처치(Psychological First Aid) 및 외상 중심 인지행동치료(CBT)가 권장됨.
-- 약물 치료: 증상 완화를 위해 보조적으로 사용하며, SSRI 등이 고려될 수 있으나 근거는 제한적임.
-- 환자 교육 및 사회적 지지 체계 강화가 치료의 핵심.
+
+- 심리적 응급처치(PFA)를 통해 즉각적인 안전 확보와 기본적인 욕구 충족 및 정서적 지지를 제공함.
+- 외상 중심 인지행동치료(CBT)를 조기에 시행하여 증상 완화 및 PTSD로의 이행을 예방함.
+- 약물 치료는 불면, 과각성 등 특정 증상 완화를 위한 보조적 수단으로 제한적으로 활용함.
+- 환자 및 가족에게 질환의 경과를 교육하고, 사회적 지지 체계를 강화하여 심리적 회복을 도모함.
+- 증상이 1개월 이상 지속되거나 기능 저하가 심화될 경우 PTSD 진단 및 전문적인 장기 치료로 연계함.
 
 ## 6. 예후 및 합병증
 - 조기 개입 시 회복 가능성이 높으나, 증상이 1개월 이상 지속될 경우 PTSD로 진단될 수 있음.

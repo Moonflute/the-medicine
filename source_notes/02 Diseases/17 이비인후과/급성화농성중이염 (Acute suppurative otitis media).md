@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 급성화농성중이염
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[이비인후과]]
 
@@ -41,14 +42,12 @@ reviewed_at: "2026-07-16"
 - 공기 이경 검사(Pneumatic otoscopy)가 가장 신뢰도 높은 진단 도구
 
 
-## 5. 치료 (Treatment)
-- **통증 조절**: NSAIDs 또는 아세트아미노펜
-- **항생제**:
-  고용량 Amoxicillin이 1차 선택 약제(10일간).
-  반응이 없거나 내성 의심 시 Amoxicillin/clavulanate 고려
-- **국소 치료**: 고막 천공이 확인된 경우 중이 독성이 없는 점이액(예: ofloxacin) 사용
-- **고막 절개술(Myringotomy)**: 전신 상태 불안정, 항생제 불응성, 두개내 합병증, 면역 결핍 환자 등에서 고려
-
+## 5. 치료
+- 통증은 NSAIDs 또는 아세트아미노펜으로 조절하고, 필요 시 항생제를 시작한다.
+- 고막 천공이 있는 경우, 중이 독성이 없는 국소 항생제 점이액을 사용한다.
+- 48~72시간 내에 증상이 호전되지 않거나 고열·두통·구토 등 합병증이 의심될 경우 이비인후과 전문의에게 의뢰한다.
+- 치료 후 1주일 이내에 재검진하여 고막 상태와 청력 변화를 확인하고, 지속적인 증상이 있으면 추가 검사를 고려한다.
+- 예방 차원에서 폐렴구균·인플루엔자 백신 접종, 흡연 회피, 상기도 감염 시 적절한 관리가 중요하다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 2~4주 내 완치

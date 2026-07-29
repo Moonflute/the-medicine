@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[호흡기]]
 
@@ -40,11 +41,11 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 폐 감염의 증거와 흉수 검사 결과 (특히 중성구 증가 및 삼출액 소견)를 통해 진단.
 
-## 5. 치료 (Treatment)
-* 항생제 투여.
-* 가슴 천자 (thoracentesis).
-* 필요 시 가슴관 삽입 (chest tube insertion).
-* 흉관 삽관으로 해결되지 않는 경우 박피술 (decortication).
+## 5. 치료
+- 항생제 치료와 동시에 흉수는 가능한 한 빨리 천자하여 진단 및 증상 완화에 활용한다.
+- 흉수 pH < 7.2, 포도당 < 60 mg/dL, 농이 있거나 loculated인 경우 즉시 가슴관 삽입을 고려하고, 치료 반응이 없을 때는 흉강 박피술을 의뢰한다.
+- 가슴관 삽입 후에는 배액량, 흉수 pH 및 임상 상태를 매일 평가하고, 48–72 시간 내에 영상으로 폐 재확장 여부를 확인한다.
+- 합병증(출혈
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 지연될 경우 흉막 유착, 농흉(empyema)으로 진행될 수 있음.

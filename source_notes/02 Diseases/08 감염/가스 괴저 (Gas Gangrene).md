@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -36,9 +37,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 임상 증상, 영상 검사, 그람 염색 (그람 양성 막대균 확인), 배양 검사로 진단한다.
 
-## 5. 치료 (Treatment)
-- 수술적 치료: 광범위 절개 및 괴사 조직 제거 (debridement)가 필수적이다.
-- 항생제: 클린다마이신 (Clindamycin) 정맥 투여 + 페니실린 G (Penicillin G) 정맥 투여
+## 5. 치료
+- 광범위 절개 및 괴사 조직 제거(데브리드먼트)를 가능한 한 빨리 시행한다.
+- 클린다마이신과 페니실린 G를 정맥 투여하여 병용 항생치료를 유지한다.
+- 수술 후 중환자실에서 혈역학적 모니터링 및 감염 징후(발열, 혈압 저하 등)를 지속적으로 관찰한다.
+- 치료 반응이 미미하거나 진행이 의심될 경우 즉시 외과 재절개 및 감염내과 전문의와 협진한다.
+- 외상 시 적절한 상처 세척·소독 및 초기 항생제 예방 투여로 가스 괴저 발생을 예방한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 사망률이 높으며, 패혈증, 다발성 장기 부전, 사지 절단 등의 심각한 합병증을 초래할 수 있다.

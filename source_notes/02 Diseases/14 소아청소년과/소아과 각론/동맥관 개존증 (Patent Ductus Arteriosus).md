@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - PDA
 - 동맥관 개존증
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -36,11 +37,12 @@ reviewed_at: "2026-07-16"
 * 특징적인 심잡음 및 임상 증상
 * 심장 초음파를 통한 확진 및 혈역학적 유의성 평가
 
-## 5. 치료 (Treatment)
-* **보존적 치료**: 수액 제한, 호흡기 지원 (PEEP 조절)
-* **약물 치료**: Indomethacin, Ibuprofen, Acetaminophen (동맥관 수축 유도)
-* **시술**: 경피적 동맥관 폐쇄술 (Transcatheter closure)
-* **수술**: 약물 치료 실패 또는 금기 시 동맥관 결찰술 (Surgical ligation)
+## 5. 치료
+
+* **보존적 관리**: 혈역학적으로 유의하지 않은 경우 수액 제한 및 호흡기 지원을 통해 증상 완화 도모
+* **약물 치료**: 미숙아에서 동맥관 수축을 유도하기 위해 약물 투여 시 신기능, 혈소판 수치 및 위장관 증상 모니터링
+* **침습적 치료**: 약물 치료에 반응하지 않거나 금기인 경우, 또는 혈역학적 불안정이 지속될 시 경피적 폐쇄술 또는 수술적 결찰 고려
+* **추적 관찰**: 폐쇄 후 잔류 단락 여부 및 폐고혈압 등 합병증 발생 가능성에 대한 정기적인 심장 초음파 추적 검사 시행
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 괴사성 장염(NEC), 기관지폐이형성증(BPD), 심부전, 폐고혈압, 감염성 심내막염

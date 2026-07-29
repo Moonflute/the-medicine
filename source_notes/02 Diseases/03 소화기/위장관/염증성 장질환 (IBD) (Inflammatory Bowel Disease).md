@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - IBD
 - inflammatory bowel disease
@@ -13,8 +14,8 @@ CC:
 - 복통
 - 혈변
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-26'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional: Overview of Inflammatory Bowel Disease | https://www.merckmanuals.com/professional/gastrointestinal-disorders/inflammatory-bowel-disease-ibd/overview-of-inflammatory-bowel-disease'
 ---
@@ -31,7 +32,9 @@ sources:
 - 감염성 장염, 허혈성 장염, 약물성 장염 및 과민성 장증후군과 감별한다. 크론병은 전 소화관과 전층 침범·누공/협착을, 궤양성 대장염은 연속적 대장 점막 침범을 주로 보인다.
 
 ## 5. 치료
-- 중증도와 침범 부위에 따라 5-ASA, 스테로이드, 면역조절제, 생물학제제·소분자 약제를 선택하고 영양·예방접종·암 감시를 병행한다. 독성 거대결장, 천공, 조절되지 않는 출혈은 응급 수술 평가가 필요하다.
+- 증상 및 중증도에 따라 5‑ASA, 단기간 스테로이드, 면역조절제, 필요 시 생물학제제·소분자 약제를 단계적으로 선택하고, 치료 반응을 4~8주마다 평가한다.
+- 장기 면역억제 치료 시 감염 위험을 최소화하기 위해 예방접종(인플루엔자, 폐렴구균, B형 간염 등) 및 정기적인 혈액검사를 시행한다.
+- 독성 거대결장, 장 천공, 조절되지 않는 출혈 등 급성 합병증이 의심될 경우 즉시 외과 의뢰·응급 수술 평가를 진행한다
 
 ## 6. 예후 및 합병증
 - 협착, 누공, 농양, 영양결핍 및 대장암 위험이 장기적으로 문제될 수 있다. 지속적인 장 염증과 면역억제 치료에는 정기적 추적이 필요하다.

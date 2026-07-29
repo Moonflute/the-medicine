@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -19,8 +20,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[혈액]]
 
@@ -40,9 +41,12 @@ reviewed_at: "2026-07-16"
 - 조직검사를 통한 림프구 증식 확인 및 면역표현형 분석으로 확진한다.
 - 말초혈액 내 림프구 수치가 5,000/μL 미만인 경우 SLL로 진단한다.
 
-## 5. 치료 (Treatment)
-- 무증상 환자: 즉각적인 치료 없이 경과관찰(Watch and wait)을 시행한다.
-- 증상 발생 시: CLL과 동일한 치료 전략을 적용하며, BTK 억제제(Ibrutinib, Acalabrutinib 등)나 BCL-2 억제제(Venetoclax) 기반 요법을 우선 고려한다.
+## 5. 치료
+- 무증상 환자는 즉시 치료 없이 3~6개월 간격으로 임상·혈액학적 경과관찰을 시행한다.
+- 림프절 비대 진행, B증상 등 증상이 나타나면 혈액종양 전문의와 협의 후 BTK 억제제 또는 BCL‑2 억제제 기반 치료를 시작한다.
+- 치료 전 간·신장 기능, 감염 위험을 평가하고 인플루엔자·폐렴구균 등 예방접종을 권고한다.
+- 치료 중 출혈, 감염, 심장 독성 등 부작용을 정기적으로 모니터링하고, 필요 시 약물 교체·용량 조절을 검토한다.
+- 질환 진행이나 치료 저항성이 의심될 경우 혈액종양 전문센터 전원 및 임
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 저등급(Indolent) 림프종으로 경과가 완만하나, 재발 가능성이 높으므로 장기적인 추적 관찰이 필수적이다.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - CIN
 - cervical intraepithelial neoplasia
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -41,13 +42,13 @@ reviewed_at: "2026-07-16"
 - **CIN 2**: 이형성 세포가 상피 하부 2/3까지 침범
 - **CIN 3**: 이형성 세포가 상피 전층을 침범 (CIS 포함)
 
-## 5. 치료 (Treatment)
-- **CIN 1**: 대부분 자연 소실되므로 1년 후 추적 관찰(co-testing)
-- **CIN 2, 3**:
-  치료 원칙.
-  절제술(LEEP, conization) 또는 소작술(ablation) 시행
-- **AIS(상피내 선암)**: 자궁절제술 또는 임신 계획 시 원추절제술
-- **임산부**: 침윤암이 배제된 경우 출산 후로 치료 연기, 추적 관찰(Pap, Colpo)만 시행, ECC는 금기
+## 5. 치료
+
+- **CIN 1**: 자연 소실 가능성이 높으므로 1년 간격의 세포진 검사 및 HPV 검사(co-testing)를 통한 추적 관찰 권고
+- **CIN 2, 3**: 병변 제거를 위해 자궁경부 원추절제술(LEEP 또는 conization) 또는 소작술 시행
+- **AIS**: 자궁절제술을 원칙으로 하되, 가임력 보존이 필요한 경우 충분한 절제연을 확보한 원추절제술 고려
+- **임산부**: 침윤성 암이 배제된 경우 출산 후로 치료를 연기하며, 추적 관찰 시 자궁경관 내 소파술(ECC)은 금기
+- **추적 관찰**: 치료 후 재발 방지를 위해 정기적인 세포진 검사 및 HPV 검사를 통한 장기 추적 관찰 필수
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 예후가 매우 좋으며 침윤성 암으로의 진행을 효과적으로 예방 가능

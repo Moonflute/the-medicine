@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 불임
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -54,16 +55,13 @@ reviewed_at: "2026-07-16"
 
 
 
-## 5. 치료 (Treatment)
-- **자궁 내 정자 주입법 (IUI)**: 요도하열, 정액 과소증, 경부 인자 등
-- **보조 생식 기술 (ART)**: 체외 수정(IVF), 세포질 내 정자 주입(ICSI)
-- **배란 유도법**: 
-- PCOS: Clomiphene, Letrozole, Metformin, Gonadotropin
-- 고프로락틴혈증: Bromocriptine, Cabergoline
-- 시상하부성 무배란: hMG
-- **수술적 치료**: 자궁경 유착 박리술(Asherman), 난관 복원술, 자궁 근종 절제술
+## 5. 치료
 
-
+- **생활 습관 교정**: 금연, 금주, 적정 체중 유지 및 환경 독소 노출 최소화를 통한 가임력 개선 권고
+- **원인별 맞춤 치료**: 배란 장애, 자궁 구조 이상, 난관 폐쇄 등 진단된 원인에 따른 약물 요법 또는 수술적 교정 시행
+- **보조 생식술 적용**: 자연 임신 시도가 실패하거나 난관 요인, 중증 남성 요인 등이 확인된 경우 IUI 또는 IVF 고려
+- **합병증 모니터링**: 배란 유도 및 보조 생식술 시행 시 난소 과자극 증후군(OHSS) 및 다태 임신 발생 여부 주의 깊게 관찰
+- **전문의 의뢰 및 상담**: 여성 연령이 35세 이상이거나 난소 예비능 저하가 의심되는 경우 조기에 난임 전문의에게 의뢰하여 적극적인 치료 계획 수립
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 난소 과자극 증후군 (OHSS), 다태 임신, 자궁외 임신

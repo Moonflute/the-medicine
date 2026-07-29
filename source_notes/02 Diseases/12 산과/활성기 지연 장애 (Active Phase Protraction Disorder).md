@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 활성기 지연 장애
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[산과]]
 
@@ -51,11 +52,12 @@ reviewed_at: "2026-07-16"
 - 아두 골반 불균형(CPD) 여부 감별이 중요
 
 
-## 5. 치료 (Treatment)
-- 아두 골반 불균형(CPD)이 확인된 경우: 제왕절개술 시행
-- 자궁 수축 부전 시: 옥시토신(Oxytocin) 투여를 통한 진통 촉진 (MVU 200 이상 목표)
-- 태아 상태가 양호, CPD가 없는 경우: 충분한 수액 공급 및 경과 관찰
+## 5. 치료
 
+- 아두 골반 불균형(CPD)이 확인되거나 태아 가사가 의심되는 경우 즉시 제왕절개술을 시행함
+- 자궁 수축 부전 시 옥시토신을 투여하여 적절한 진통 강도를 확보하고 분만 진행을 유도함
+- 태아 상태가 양호하고 CPD가 배제된 경우, 충분한 수액 공급과 함께 분만 진행을 면밀히 관찰함
+- 진통 중 태아 심박동 감시(EFM)를 지속하여 태아 안녕을 확인하고 이상 징후 발생 시 즉각 대응함
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 산모: 산후 출혈, 감염, 제왕절개술 위험 증가

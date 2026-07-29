@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 귀두 포피염
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[비뇨기과]]
 
@@ -38,11 +39,11 @@ reviewed_at: "2026-07-16"
 - 임상적 진단이 우선이며, 재발성 또는 난치성인 경우 생검을 통해 악성 종양이나 태선경화증 등 감별 필요
 
 
-## 5. 치료 (Treatment)
-* **일반적 관리:** 자극원 제거, 온수 좌욕(sitz bath)을 통한 청결 유지, 포피를 무리하게 젖히지 않음
-* **약물 치료:** 원인에 따라 국소 항진균제(clotrimazole 등), 국소 항생제(mupirocin 등), 또는 저강도 스테로이드(hydrocortisone) 사용
-* **수술적 치료:** 보존적 치료에 반응하지 않는 재발성 포피염이나 심한 포경 시 포경수술(circumcision) 고려
-
+## 5. 치료
+- 자극원(비누, 세제 등) 제거와 온수 좌욕·청결 유지, 포피를 무리하게 젖히지 않음
+- 원인에 따라 국소 항진균제, 항생제, 저강도 스테로이드를 적용하고 1~2주 후 효과를 평가
+- 2주 내 호전이 없거나 재발·심한 포경이 있는 경우 비뇨기과 전문의에게 의뢰
+- 치료 종료 후 4~6주에 증상 및 위생 상태를 재평가하고, 재발 방지를 위한 지속적인 청결 교육 제공
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 위생 관리와 치료로 대부분 호전

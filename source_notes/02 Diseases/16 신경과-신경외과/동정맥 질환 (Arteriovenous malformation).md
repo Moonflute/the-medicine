@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 동정맥 질환
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신경과-신경외과]]
 
@@ -43,10 +44,11 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - Spetzler-Martin 등급 체계(크기, 정맥 배액 양상, 뇌 기능적 중요도)를 사용하여 수술 위험도를 평가함.
 
-## 5. 치료 (Treatment)
-- **치료 원칙**: 출혈 예방 및 신경학적 기능 보존.
-- **방법**: 수술적 절제(surgical resection), 혈관내 색전술(endovascular embolization), 정위적 방사선 수술(stereotactic radiosurgery) 또는 복합 치료.
-- **고려사항**: Spetzler-Martin 등급에 따라 치료 전략을 결정하며, ARUBA 연구에 따르면 무증상 AVM의 경우 보존적 치료가 예방적 중재술보다 우월할 수 있음.
+## 5. 치료
+- 출혈 위험이 높은 경우(Spetzler‑Martin 등급 I‑III) 다학제 팀 협의 하에 혈관내 색전술, 수술적 절제, 정위 방사선술 중 환자·병변 특성에 맞는 치료 선택
+- 치료 전 DSA를 통한 정확한 혈관조영 및 혈류역학 평가 시행; 시술 전 항응고제·항혈소판제 중단 및 출혈 위험 재평가
+- 시술 후 3‑6개월 MRI/MRA 또는 DSA 재평가로 잔존 병변 확인하고, 필요 시 추가 색전술 또는 방사선 치료 계획
+- 무증상 저위험(Spetzler‑Martin 등급 I) AVM은 정
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 연간 출혈 위험은 미파열 시 약 2%, 기출혈 병력이 있는 경우 약 4.5%로 보고됨.

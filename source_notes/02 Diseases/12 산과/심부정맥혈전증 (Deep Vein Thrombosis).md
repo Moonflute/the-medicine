@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - deep vein thrombosis
 - DVT
@@ -17,8 +18,8 @@ parent_disease: "심부 정맥 혈전증 (Deep Vein Thrombosis)"
 relation_to_parent: "special_population"
 population: "pregnancy"
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[산과]]
 
@@ -42,12 +43,13 @@ reviewed_at: "2026-07-16"
 - Wells score를 통한 위험도 계층화 후 D-dimer 및 초음파 시행.
 - 임상적 의심이 높을 경우 즉각적인 영상 검사 및 항응고 요법 고려.
 
-## 5. 치료 (Treatment)
-- **항응고 요법**:
-  치료의 핵심.
-  LMWH(저분자량 헤파린) 또는 DOAC(직접 경구 항응고제) 사용.
-- **암 환자**: LMWH 또는 특정 Factor Xa 억제제 권장.
-- **예방**: 고위험군(수술, 장기 입원 등)에서 기계적(압박 스타킹, IPC) 및 약물적 예방 시행.
+## 5. 치료
+
+* **항응고 요법**: 임신 중에는 태반 통과가 없는 LMWH(저분자량 헤파린)를 우선적으로 사용하며, 출산 전후 중단 시기를 고려하여 관리한다.
+* **폐색전증 예방**: 급성기에는 혈전의 파급 및 폐색전증 방지를 위해 절대 안정과 함께 즉각적인 항응고 치료를 시행한다.
+* **물리적 예방**: 고위험군 산모는 압박 스타킹이나 간헐적 공기 압박 장치(IPC)를 사용하여 정맥 울혈을 방지한다.
+* **다학제 협진**: 고위험 임신부의 경우 산과, 혈액내과, 흉부외과 등 다학제적 접근을 통해 항응고제 용량 조절 및 분만 계획을 수립한다.
+* **추적 관찰**: 치료 종료 후에도 재발 여부와 혈전후 증후군 발생을 정기적으로 모니터링한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 폐색전증(PE), 혈전후 증후군(Post-thrombotic syndrome).

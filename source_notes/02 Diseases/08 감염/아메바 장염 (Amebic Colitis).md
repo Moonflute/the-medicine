@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -42,10 +43,12 @@ reviewed_at: "2026-07-16"
 - 임상 증상, 역학적 위험 요인(유행 지역 여행력 등), 대변 검사 및 대장내시경 소견을 종합하여 진단한다.
   대변 현미경 검사의 민감도는 낮을 수 있다.
 
-## 5. 치료 (Treatment)
-- 메트로니다졸(metronidazole) 또는 티니다졸(tinidazole)과 같은 니트로이미다졸(nitroimidazole) 계열 항생제를 투여한다.
-  장내 잔류 낭종을 제거하기 위해 파로모마이신(paromomycin) 또는 아이오도퀴놀(iodoquinol)과 같은 장관 작용제(luminal agent)를 반드시 후속 투여해야 한다.
-  스테로이드는 독성 거대결장 위험을 높이므로 주의가 필요하다.
+## 5. 치료
+
+- 니트로이미다졸 계열 항생제로 영양형을 치료한 후, 반드시 장관 작용제를 투여하여 장내 낭종을 제거한다.
+- 독성 거대결장 위험을 높이는 스테로이드 사용은 금기이며, 장 천공이 의심될 경우 즉시 외과적 협진을 시행한다.
+- 치료 종료 후 대변 검사를 반복하여 병원체 박멸 여부를 확인하고, 무증상 보균자라도 전파 방지를 위해 장관 작용제 치료를 고려한다.
+- 위생 관리 및 오염된 물과 음식 섭취를 피하는 예방 교육을 시행한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 독성 거대결장, 장 천공, 아메바성 간 농양 등의 합병증이 발생할 수 있다.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 선천 매독
 유형:
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -37,9 +38,12 @@ reviewed_at: "2026-07-16"
 * 신생아의 임상 증상 및 징후
 * 신생아 혈청학적 검사(산모 항체와 구분 필요)
 
-## 5. 치료 (Treatment)
-* **페니실린 G**: 일차 치료제로 Aqueous crystalline penicillin G 정맥 투여가 원칙
-* **원칙**: 조기 진단 및 조기 치료가 중요하며, 산모와 성 파트너에 대한 동시 치료 필수
+## 5. 치료
+
+* **약물 요법**: Aqueous crystalline penicillin G를 정맥 투여하며, 치료 중단 없이 정해진 기간을 엄격히 준수함.
+* **산모 및 파트너 관리**: 신생아 치료와 동시에 산모 및 성 파트너의 매독 감염 여부를 확인하고 필요 시 즉시 치료함.
+* **추적 관찰**: 혈청학적 검사(VDRL/RPR)를 주기적으로 시행하여 항체 역가의 감소 여부를 확인하고 치료 반응을 평가함.
+* **신고 및 예방**: 법정 감염병으로 보건소에 즉시 신고하며, 임신 초기 산전 검사를 통해 모체 감염을 조기에 발견하고 차단함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 치료 시 예후가 좋으나, 치료 지연 시 영구적인 신경학적 손상, 난청, 치아 및 골격 기형 발생 가능

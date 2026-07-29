@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 수면 무호흡증
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,10 +40,12 @@ relation_to_parent: subtype
 - 병력 청취 및 신체 검진(구강인두 구조, 목 둘레 측정)이 필수적임.
 
 ## 5. 치료
-- 생활 습관 교정: 체중 감량, 규칙적인 운동, 금주, 수면 자세 변경(측와위).
-- 양압기 치료(PAP): 지속적 양압술(CPAP)이 표준 치료. 기도 내 압력을 유지하여 폐쇄 방지.
-- 대안 치료: 양압기 순응도가 낮은 경우 구강 내 장치(Oral appliance) 고려.
-- 수술적 치료: 해부학적 구조 이상이 명확한 경우 제한적으로 고려.
+
+- 생활 습관 교정: 체중 감량, 금주, 금연 및 측와위 수면을 권고하여 상기도 폐쇄 위험을 감소시킴.
+- 양압기 치료(PAP): 중등도 이상의 폐쇄성 수면 무호흡증 환자에게 표준 치료로 우선 적용하며, 순응도 향상을 위한 교육을 병행함.
+- 대안 치료: 양압기 사용이 어렵거나 순응도가 낮은 경우 구강 내 장치(Oral appliance)를 고려함.
+- 수술적 치료: 해부학적 구조 이상이 명확한 경우 이비인후과적 평가를 거쳐 제한적으로 시행함.
+- 추적 관찰: 치료 시작 후 양압기 순응도 및 증상 호전 여부를 정기적으로 평가하고, 필요 시 수면 다원 검사를 재시행함.
 
 ## 6. 예후 및 합병증
 - 미치료 시 고혈압, 심혈관 질환(부정맥, 심부전), 뇌졸중, 제2형 당뇨병 위험 증가.

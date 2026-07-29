@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 기도 내 이물
 유형:
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -38,9 +39,13 @@ reviewed_at: "2026-07-16"
 * 영상 검사 결과 (X-ray, CT)
 * 필요 시 기관지경 검사
 
-## 5. 치료 (Treatment)
-* **기도 폐쇄 시**: 하임리히법(Heimlich maneuver) 등 응급 처치
-* **경직성 기관지경 (Rigid bronchoscopy)**: 이물질 제거의 표준 치료
+## 5. 치료
+
+* **응급 처치**: 기도 완전 폐쇄 시 연령별 지침에 따른 기도 확보 및 하임리히법(또는 등 두드리기 및 가슴 밀기) 즉시 시행
+* **이물 제거**: 진단 및 치료를 위해 경직성 기관지경(Rigid bronchoscopy)을 통한 즉각적인 이물 제거 시행
+* **약물 치료**: 기도 부종 및 염증 완화를 위해 필요 시 스테로이드나 기관지 확장제 보조적 사용 고려
+* **추적 관찰**: 이물 제거 후 기도 손상, 육아종 형성, 무기폐 및 이차 감염 여부를 확인하기 위한 경과 관찰 및 흉부 영상 재평가
+* **예방 교육**: 보호자 대상 연령별 적절한 음식물 섭취 지도 및 질식 위험이 있는 작은 물체에 대한 안전 교육 실시
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 제거 시 예후 좋음

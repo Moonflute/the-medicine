@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 주요 우울 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional mood disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,10 +40,12 @@ relation_to_parent: subtype
 - 다른 의학적 상태, 물질/약물 유발성 우울증, 양극성 장애 등과의 감별 진단 필수.
 
 ## 5. 치료
-- 초기 치료: 약물 치료 및/또는 심리 치료(인지행동치료 등).
-- 약물 치료: SSRI(1차 선택), SNRI, 세로토닌 조절제, 비정형 항우울제(Bupropion, Mirtazapine) 등.
-- 병용 요법: 약물과 심리 치료 병용 시 단독 치료보다 효과적.
-- 중증/저항성 우울증: 전기 경련 요법(ECT), 경두개 자기 자극술(TMS), 에스케타민 등 고려.
+
+- **치료 전략:** 약물 치료와 인지행동치료 등 심리 치료를 병행하여 증상 완화 및 기능 회복 도모
+- **약물 선택:** SSRI를 1차 약제로 우선 고려하며, 환자의 증상 특성 및 부작용 프로파일에 따라 SNRI, 비정형 항우울제 등으로 조정
+- **자살 위험 관리:** 자살 사고나 계획이 있는 경우 즉각적인 안전 확보 및 입원 치료를 포함한 집중적인 모니터링 시행
+- **치료 순응도 및 재발 방지:** 증상 호전 후에도 재발 방지를 위해 유지 요법을 지속하고, 정기적인 외래 추적 관찰을 통해 치료 순응도 확인
+- **전문적 개입:** 약물 저항성 우울증이나 중증 증상 시 ECT, TMS 등 전문적인 생물학적 치료법 고려 및 정신건강의학과 전문의 협진 의뢰
 
 ## 6. 예후 및 합병증
 - 만성적이고 재발 가능성이 높은 질환(재발률: 1회 삽화 후 50%, 2회 후 70%, 3회 후 90%).

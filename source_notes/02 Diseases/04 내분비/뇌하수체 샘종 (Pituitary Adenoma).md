@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -15,8 +16,8 @@ last_studied: '2026-06-06'
 document_role: "canonical"
 population: "general"
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[내분비]]
 
@@ -46,11 +47,12 @@ reviewed_at: "2026-07-16"
 - 영상학적 종양 확인 및 호르몬 과분비/결핍 여부를 종합하여 진단
 - 프로락틴 수치 확인 시 'hook effect' 및 'macroprolactin' 가능성 고려
 
-## 5. 치료 (Treatment)
-- 치료 원칙: 종양 유형, 기능 상태, 종괴 효과에 따른 개별화된 접근
-- 수술: 나비뼈경유 뇌하수체 절제술(Transsphenoidal surgery)이 일차 치료
-- 약물: 프로락틴종은 도파민 작용제(dopamine agonist) 우선 고려
-- 방사선 치료: 수술 후 잔존 종양이나 재발 시 보조적 요법으로 시행
+## 5. 치료
+- 종양 유형·크기·증상에 따라 내분비·신경외과 협진 후 경비경(Transsphenoidal) 절제술을 일차 치료로 고려
+- 프로락틴 과다 시 도파민 작용제 시작, 치료 반응 및 구역·저혈압 등 부작용을 정기적으로 모니터링
+- 수술 후 잔존 종양이나 재발 위험이 있을 경우 방사선 치료(감마 나이프·프랙셔널 방사선) 검토 및 내분비 기능 재평가
+- 수술·방사선 후 갑상선·부신·성선 호르몬 결핍에 대비해 대체 요법 계획하고, 정기 혈액 검사로 결핍 여부 확인
+- 6~12개월마다 MRI와 호
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 양성이나 거대샘종은 시력 손상 및 영구적인 뇌하수체 기능 저하를 유발할 수 있음.

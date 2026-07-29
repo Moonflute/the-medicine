@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 주의력 결핍 과다 행동 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,9 +40,12 @@ relation_to_parent: subtype
 - 감별 진단: 불안 장애, 우울 장애, 학습 장애, 자폐 스펙트럼 장애 등과 감별 필요.
 
 ## 5. 치료
-- 원칙: 연령 및 증상 심각도에 따른 다각적 접근(약물 치료, 행동 치료, 교육적 개입).
-- 약물 치료: 자극제(Methylphenidate, Amphetamine 계열)가 일차 선택 약물.
-- 행동 치료: 학령기 아동의 경우 약물 치료와 병행 시 가장 효과적. 미취학 아동은 행동 치료를 우선 고려.
+
+- 다각적 접근: 약물 치료, 부모 교육, 행동 수정, 학습 지원을 포함한 통합적 치료 계획 수립.
+- 약물 관리: 일차 선택 약물 사용 시 부작용(식욕 부진, 수면 장애 등)을 모니터링하고, 증상 조절 정도에 따라 용량을 적정화.
+- 행동 치료: 아동의 연령과 발달 수준에 맞춰 가정 및 학교 환경에서의 긍정적 강화와 구조화된 행동 수정 기법 적용.
+- 정기적 추적 관찰: 치료 반응성, 동반 질환의 변화, 사회적 기능 향상 여부를 정기적으로 평가하여 치료 전략 조정.
+- 전문적 협력: 학교 및 보호자와 긴밀히 소통하여 일관된 환경을 조성하고, 필요 시 학습 장애나 정서적 문제에 대한 추가 개입 고려.
 
 ## 6. 예후 및 합병증
 - 합병증: 학습 장애, 반항성 장애, 품행 장애, 물질 남용, 정서적 불안.

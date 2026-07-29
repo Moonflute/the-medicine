@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - ischemic necrosis (스토마)
 유형:
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[외과]]
 
@@ -36,12 +37,13 @@ reviewed_at: "2026-07-16"
 - 임상적 의심이 가장 중요하며, CT가 표준 진단 도구임.
   필요 시 혈관 조영술 시행.
 
-## 5. 치료 (Treatment)
-- **수액 및 전해질 교정**: 즉각적인 소생술.
-- **항생제**: 광범위 항생제 투여.
-- **수술적 치료**:
-  괴사된 장 절제(resection) 및 문합(anastomosis) 또는 장루 조성술.
-  혈관 재개통술(revascularization) 고려.
+## 5. 치료
+
+- **즉각적 소생술**: 수액 요법을 통해 혈역학적 안정을 도모하고 전해질 및 산-염기 불균형을 교정함.
+- **약물 치료**: 장내 세균 전위(translocation) 예방을 위해 광범위 항생제를 조기에 투여함.
+- **수술적 절제**: 괴사된 장관을 절제하고, 필요 시 장루 조성술을 시행하여 복막염 및 패혈증 확산을 차단함.
+- **혈관 재개통**: 혈관 폐색이 원인인 경우 혈관 조영술 또는 수술적 혈관 재개통술을 통해 혈류 회복을 시도함.
+- **경과 관찰**: 수술 후 단장 증후군 및 다장기 부전 발생 여부를 면밀히 모니터링함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 치료가 생존율에 결정적.

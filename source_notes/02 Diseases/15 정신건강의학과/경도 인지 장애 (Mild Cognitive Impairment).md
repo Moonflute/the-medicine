@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 경도 인지 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -38,9 +39,11 @@ relation_to_parent: subtype
 - 감별 진단: 섬망(급성), 우울증(가성 치매), 일과성 전체 기억 상실, 약물 부작용, 대사성 질환.
 
 ## 5. 치료
-- 원인 질환 교정: 가역적 원인(약물, 대사 이상, 감염, 수면 장애 등)을 우선적으로 치료.
-- 약물 치료: 치매로 진행하는 경우 인지 기능 개선제(Donepezil 등)를 고려할 수 있으나, 경도 인지 장애 자체에 대한 표준화된 약물 치료법은 확립되지 않음.
-- 비약물적 치료: 인지 재활, 신체 활동, 지중해식 식단, 사회적 활동 참여 등 생활 습관 개선 및 보호자 교육.
+
+- 가역적 원인 교정: 약물 부작용, 대사 이상, 감염, 수면 장애, 우울증 등 인지 저하를 유발하는 기저 질환을 우선적으로 평가하고 치료함.
+- 생활 습관 개선: 규칙적인 신체 활동, 지중해식 식단, 금연 및 절주, 사회적 활동 참여를 권고하여 인지 기능 저하 속도를 늦춤.
+- 인지 중재 및 교육: 인지 재활 훈련을 시행하고, 보호자에게 질환의 경과와 일상생활 관리 방법에 대해 교육함.
+- 정기적 추적 관찰: 6~12개월 간격으로 인지 기능 검사를 반복하여 치매로의 이행 여부와 일상생활 수행 능력 변화를 모니터링함.
 
 ## 6. 예후 및 합병증
 - 예후: 치매로 진행할 위험이 높으나, 일부 환자는 상태가 안정되거나 정상으로 회복되기도 함. 고령, 기억력 저하가 심한 경우, 뇌 영상상 위축이 뚜렷한 경우 치매로의 진행 위험이 높음.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - cataract
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[안과]]
 
@@ -35,10 +36,10 @@ reviewed_at: "2026-07-16"
 - 임상적 진단: 병력 청취 및 세극등 검사를 통해 수정체 혼탁과 시력 저하의 인과관계 확인
 - 감별 진단: 녹내장, 당뇨망막병증, 황반변성 등 시력 저하를 유발하는 타 안과 질환 배제
 
-## 5. 치료 (Treatment)
-- **수술적 치료**: 일상생활에 지장을 주는 시력 저하 시 시행
-- **방법**: 초음파 수정체 유화술(Phacoemulsification) 후 인공 수정체(IOL) 삽입
-- **기타**: 수술 전 안축장 길이 및 각막 곡률 측정 등을 통해 적절한 인공 수정체 도수 결정
+## 5. 치료
+- 시력 저하가 일상생활에 영향을 미치고 시력 ≤ 20/40(0.5)인 경우 초음파 수정체 유화술 및 IOL 삽입을 고려한다.
+- 수술 전 안축장 길이, 각막 곡률, 안압 및 동반 안구 질환 검사를 시행해 적절한 IOL 도수와 수술 계획을 수립한다.
+- 수술 후 1일, 1주, 1개월에 안압, 전방 chamber, 염증 상태를 확인
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 후낭 혼탁(PCO), 낭포성 황반부종, 안내염(드묾), 망막 박리(드묾)

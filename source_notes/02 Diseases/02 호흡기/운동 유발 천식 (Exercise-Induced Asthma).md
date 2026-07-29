@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[호흡기]]
 
@@ -42,10 +43,12 @@ reviewed_at: "2026-07-16"
 - 운동 유발 검사 후 FEV1이 기저치 대비 10% 이상 감소하는 것을 확인하여 진단함.
   필요 시 유카프닉 과환기(eucapnic voluntary hyperpnea)나 메타콜린 유발 검사를 시행할 수 있음.
 
-## 5. 치료 (Treatment)
-* 비약물적 요법: 충분한 준비운동(refractory period 활용), 차고 건조한 공기 노출 최소화.
-* 약물 요법: 운동 전 SABA(속효성 베타-2 항진제) 투여가 표준.
-  증상이 지속될 경우 ICS(흡입 스테로이드), LTRA(류코트리엔 수용체 길항제) 등을 고려.
+## 5. 치료
+
+* **비약물적 예방**: 운동 전 충분한 준비운동(warm-up)을 통해 불응기(refractory period)를 유도하고, 차고 건조한 공기 흡입을 피하기 위해 마스크나 스카프를 착용함.
+* **약물 예방**: 운동 15~30분 전 속효성 베타-2 항진제(SABA)를 흡입하는 것이 표준 예방 요법임.
+* **지속 관리**: 운동 전 예방 조치에도 증상이 조절되지 않거나 빈번한 경우, 기저 천식 여부를 재평가하고 흡입 스테로이드(ICS) 또는 류코트리엔 수용체 길항제(LTRA) 추가를 고려함.
+* **추적 관찰**: 약물 치료에도 불구하고 운동 중 호흡곤란이 지속되거나 일상생활에 지장을 주는 경우 호흡기 내과 전문의에게 의뢰함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 관리 시 운동 능력을 유지할 수 있음.

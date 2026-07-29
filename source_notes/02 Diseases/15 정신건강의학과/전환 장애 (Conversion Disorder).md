@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 전환 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional somatic symptom disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -38,10 +39,12 @@ relation_to_parent: subtype
 - 증상이 임상적으로 유의미한 고통이나 기능 저하를 초래하는지 평가.
 
 ## 5. 치료
-- 핵심 원칙: 증상 자체의 즉각적인 제거보다는 환자와의 신뢰 관계 형성 및 기능 회복에 초점.
-- 지지적 치료: 정기적인 상담을 통해 스트레스 요인을 파악하고 대처 방안 모색.
-- 정신 치료: 인지행동치료(CBT)를 통해 심리적 갈등을 신체화하는 기전을 이해하도록 도움.
-- 약물 치료: 동반된 우울증이나 불안 장애가 있을 경우 SSRI 등 항우울제 사용 고려.
+
+- 증상에 대한 직접적인 대결이나 부정보다는 환자의 고통을 공감하고 신뢰 관계를 형성하는 데 주력함.
+- 불필요한 반복 검사나 과도한 의학적 개입을 지양하여 증상의 고착화를 방지함.
+- 인지행동치료(CBT)를 통해 신체 증상과 심리적 스트레스 간의 연관성을 환자가 스스로 인식하도록 도움.
+- 동반된 우울, 불안 등 기저 정신질환에 대한 평가 및 치료를 병행함.
+- 증상 호전 후에도 재발 방지를 위해 스트레스 관리 및 적응적 대처 기술을 교육함.
 
 ## 6. 예후 및 합병증
 - 급성으로 발생한 경우 예후가 비교적 좋으나, 만성적인 경과를 보일 경우 의료 시스템에 대한 의존도가 높아질 수 있음.

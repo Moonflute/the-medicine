@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - acute hemolytic transfusion reaction
 유형:
@@ -17,8 +18,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[외과]]
 
@@ -51,14 +52,11 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 수혈 후 24시간 이내 증상 발생 + 검사 소견 2개 이상 + DAT 양성.
 
-## 5. 치료 (Treatment)
-- 즉시 수혈 중지.
-- 기도 확보 및 소생술 (필요시).
-- 적극적인 수액 공급 (체액 과부하 의심 시 제외)하여 신장 손상 및 DIC 합병증 감소.
-- 이뇨제 (신장 기능 유지).
-- 혈관 수축제 (저혈압 시).
-- 코르티코스테로이드, 항히스타민제, 에피네프린 (기도 폐쇄 시).
-- 최후의 수단으로 교환 수혈 고려.
+## 5. 치료
+- 수혈을 즉시 중단하고, 기도·산소·혈압을 신속히 평가·보호한다.
+- 과부하를 피하면서 충분한 수액을 투여하고, 저혈압 시 혈관수축제, 신장 보호를 위해 필요 시 이뇨제를 사용한다.
+- 급성 용혈이 의심되면 즉시 DAT·혈액·소변 검사를 시행하고, DIC·신기능을 지속적으로 모니터링한다.
+- 중증·불안정 환자는 혈액은행·혈액학 전문
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 급성 용혈성 수혈 반응은 생명을 위협할 수 있으므로 즉각적인 인식이 중요하다.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - anastomotic leak
 유형:
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[외과]]
 
@@ -36,9 +37,11 @@ reviewed_at: "2026-07-16"
 - 임상 증상과 영상 의학적 소견을 종합하여 진단.
   배액관에서 나오는 액체의 성상 확인이 중요함.
 
-## 5. 치료 (Treatment)
-- **보존적 치료**: 금식(NPO), 수액 소생술, 광범위 항생제 투여, 비위관(NG tube) 삽입.
-- **중재적/수술적 치료**: 경피적 배액술(percutaneous drainage), 농양 배액, 상태 악화 시 재수술(문합부 재건 또는 장루 조성).
+## 5. 치료
+- 초기 보존적 관리: 금식(NPO), 정맥 수액, 위관(NG tube) 삽입, 광범위 항생제 시작 및 혈역학·전해질 모니터링.
+- 배액 필요 시: 영상 유도하에 경피적 배액 또는 배액관 교체·관리, 배액량·성상 변화 시 즉시 재평가.
+- 악화 또는 배액·감염 조절이 어려운 경우: 외과·중재방사선 전문팀에 즉시 의뢰하여 재수술(문합부 재건·장루 등) 검토.
+- 추적 및 예방: 24‑48시간마다 임상·실험실·영상 재검사, 배액량·성상 기록,
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 및 적절한 배액이 예후를 결정함.

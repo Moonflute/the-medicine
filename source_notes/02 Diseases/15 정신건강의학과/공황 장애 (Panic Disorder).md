@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 공황 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional anxiety disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -38,10 +39,12 @@ relation_to_parent: subtype
 - 타 질환(물질 사용, 약물 부작용, 기타 의학적 상태)에 의한 증상이 아님을 확인해야 함.
 
 ## 5. 치료
-- 치료 원칙: 약물 치료와 인지행동치료(CBT)의 병행이 효과적임.
-- 약물 치료: SSRI가 1차 선택 약물. 증상이 심하거나 초기 반응을 위해 BZD(벤조디아제핀)를 단기간 병용할 수 있음. 물질 사용 장애 동반 시 가바펜틴이나 미르타자핀 고려.
-- 인지 행동 치료: 노출 치료, 이완 훈련, 호흡 훈련(과호흡 조절), 체계적 탈감작.
-- 주산기 치료: 증거 기반의 상담 및 치료 제공. 치료 지연 시 환자와 가족에게 부정적 결과 초래 가능.
+
+- 약물 치료와 인지행동치료(CBT)를 병행하여 증상 완화 및 재발 방지 도모
+- SSRI를 1차 약제로 사용하며, 초기 증상 조절을 위해 벤조디아제핀을 단기간 병용 가능
+- 과호흡 조절을 위한 호흡 훈련 및 불안 유발 상황에 대한 노출 치료 시행
+- 물질 사용 장애 등 동반 질환 여부를 확인하고, 증상 악화 시 자살 위험성 평가 및 정신건강의학과 전문의 의뢰
+- 만성적 경과를 고려하여 증상 호전 후에도 일정 기간 유지 치료 및 정기적인 추적 관찰 시행
 
 ## 6. 예후 및 합병증
 - 예후: 만성적 경과를 보일 수 있으나, 적절한 치료 시 약 80%에서 호전됨. 단, 재발이 흔하므로 지속적인 관리가 필요함.

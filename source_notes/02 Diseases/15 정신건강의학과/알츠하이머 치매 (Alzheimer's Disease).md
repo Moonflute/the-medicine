@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 알츠하이머 치매
 유형:
@@ -10,8 +11,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,9 +40,11 @@ relation_to_parent: subtype
 - 감별 진단: 섬망(급성), 우울증(가성 치매), 혈관성 치매, 기타 퇴행성 질환.
 
 ## 5. 치료
-- 약물 치료: 콜린에스테라제 억제제(Donepezil, Rivastigmine, Galantamine) 및 NMDA 수용체 길항제(Memantine).
-- 비약물적 치료: 인지 재활, 환경 수정, 보호자 교육 및 정서적 지지.
-- 관리 원칙: 증상 완화 및 기능 유지, 동반 질환(심혈관 질환, 당뇨 등)의 적극적 관리.
+
+- 약물 치료: 인지 기능 저하 완화를 위해 콜린에스테라제 억제제 및 NMDA 수용체 길항제를 단계적으로 처방함.
+- 비약물적 치료: 인지 재활 훈련, 일상생활 환경 수정, 보호자 대상 질환 교육 및 정서적 지지를 병행함.
+- 동반 질환 관리: 심혈관 질환, 당뇨 등 인지 기능에 악영향을 미치는 기저 질환을 적극적으로 조절함.
+- 안전 및 모니터링: 배회, 낙상, 영양 불균형 등 신체적 합병증 예방을 위한 주기적인 안전 점검 및 추적 관찰을 시행함.
 
 ## 6. 예후 및 합병증
 - 예후: 완치는 불가능하나 증상 관리 및 진행 완화 가능. 점진적 악화 경향.

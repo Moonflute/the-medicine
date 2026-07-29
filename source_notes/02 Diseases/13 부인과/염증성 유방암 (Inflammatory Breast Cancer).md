@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - inflammatory breast cancer
 유형:
@@ -18,8 +19,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -56,13 +57,11 @@ reviewed_at: "2026-07-16"
 - 임상적 진단: 6개월 이내의 급격한 발병, 유방의 1/3 이상을 차지하는 발적 및 부종, 조직학적 침습성 암종 확인이 필수적임.
 
 
-## 5. 치료 (Treatment)
-- 다학제적 접근(Tri-modality approach)이 필수적임.
-- **선행 항암화학요법(Neoadjuvant CTx)**: 표준 치료로, 종양 축소 및 반응 평가 후 수술 시행.
-- **수술**: 변형 근치적 유방 절제술(Modified radical mastectomy) 및 액와 림프절 곽청술.
-- **방사선 치료(RTx)**: 수술 후 시행.
-- **보조 요법**: 호르몬 수용체 양성 시 호르몬 치료, HER2 양성 시 표적 치료(Trastuzumab 등) 병행.
-
+## 5. 치료
+- 다학제 팀(외과, 종양내과, 방사선종양학, 병리)과 즉시 협진하여 선행 항암화학요법을 시작하고, 치료 반응을 평가한 뒤 변형 근치적 유방 절제술을 계획합니다.
+- 치료 전·후 환자의 전반적인 신체 상태와 심장·간 기능을 확인하고, 항암제 부작용(골수억제, 감염 등)을 지속적으로 모니터링합니다.
+- 수술 후 방사선 치료를 5주간 시행하며, 방사선 부위 피부 관리와 급성 부작용(피부염, 피로 등)을 관찰합니다.
+- 호르몬 수용체·HER2 상태에 따라 보조 요법을 추가
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 매우 공격적이며 조기 재발 위험이 높음.

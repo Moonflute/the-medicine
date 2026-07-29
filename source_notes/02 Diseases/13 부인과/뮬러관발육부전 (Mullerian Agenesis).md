@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - mullerian agenesis
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -36,10 +37,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 * 임상적 증상(정상 이차 성징을 동반한 무월경)과 영상 의학적 검사(자궁 무형성 확인)를 통해 진단.
 
-## 5. 치료 (Treatment)
-- **질 확장술**: 비수술적 질 확장술(vaginal dilation)이 일차 치료.
-- **수술적 치료**: 질 확장술 실패 시 질 성형술(vaginoplasty) 고려.
-- **심리적 지원**: 진단 후 환자의 심리적 상담 및 유전 상담 병행.
+## 5. 치료
+
+- **질 확장술**: 비수술적 질 확장술(vaginal dilation)을 일차 치료로 우선 시행하여 질의 기능적 길이를 확보함.
+- **수술적 치료**: 비수술적 방법으로 충분한 질 길이가 확보되지 않는 경우 질 성형술(vaginoplasty)을 고려함.
+- **동반 기형 평가**: 신장 및 골격계 기형 여부를 확인하여 필요 시 해당 분과로의 협진 및 추적 관찰을 시행함.
+- **심리적 지원**: 진단 초기부터 환자의 정서적 안정을 위한 심리 상담과 향후 생식 능력에 대한 유전 상담을 병행함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 난소 기능이 정상인 경우 호르몬 상태는 정상이나, 임신은 불가능함(자궁 이식 등은 연구 단계).

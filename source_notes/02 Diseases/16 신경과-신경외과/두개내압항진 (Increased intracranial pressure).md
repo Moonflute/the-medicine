@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - IICP
 - 두개내압항진
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신경과-신경외과]]
 
@@ -41,10 +42,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 임상 증상과 영상 소견을 종합하며, 필요 시 침습적 ICP 모니터링을 통해 확진 및 치료 지표로 활용.
 
-## 5. 치료 (Treatment)
-- **일반적 조치**: 머리 30도 거상, 경정맥 환류 유지(중립 자세).
-- **약물 치료**: 삼투압 요법(만니톨, 고농도 식염수), 과호흡(일시적), 스테로이드(혈관성 부종에 한함).
-- **수술적 치료**: 뇌실외배액관(EVD)을 통한 CSF 배액, 감압 두개절제술(refractory case).
+## 5. 치료
+- 머리 30도 거상·중립 자세 유지, 경정맥 환류 확보 및 체액 균형 관리
+- 삼투압 요법(만니톨·고농도 식염수) 적용 시 전해질, 혈압, 신장 기능을 지속 모니터링
+- 급성 악화(예: Cushing triad, 동공 변화) 시 즉시 신경외과 협진 및 뇌실외배액관(EVD) 삽입 고려
+- ICP와 신경학적 상태를 4시간 이내에 재평가하고, 필요 시 치료 전략을 조정
+- 원인 질환(종양, 수두증 등)의 조기 진단·치료와 정기 추적검사로 재발 방지 및 장기 예후 개선
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 뇌허혈, 뇌탈출(Subfalcine, Uncal, Tonsillar 등)로 인한 치명적 결과 가능성.

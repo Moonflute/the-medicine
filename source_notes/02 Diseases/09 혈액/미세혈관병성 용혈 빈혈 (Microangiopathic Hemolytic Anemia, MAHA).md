@@ -12,9 +12,9 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: tier_3
-review_status: tier3_manual_current_principles
-reviewed_at: '2026-07-30'
-content_updated_at: '2026-07-30'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
+content_updated_at: "2026-07-30"
 ---
 분과 : [[혈액]]
 
@@ -37,10 +37,9 @@ content_updated_at: '2026-07-30'
   기저 원인 질환(TTP, HUS, DIC 등) 감별이 필수적.
 
 ## 5. 치료
-
-- **응급 증후군으로 접근**: 빈혈·혈소판감소와 schistocyte가 동반되면 TTP, HUS, DIC, 악성고혈압, 임신 관련 TMA 등을 신속히 감별하고 혈액내과에 즉시 상의한다.
-- **TTP 가능성**: 임상적으로 강하게 의심되면 ADAMTS13 결과를 기다리며 치료를 지연하지 않는 원칙을 적용하고, 기관의 TTP 응급 치료 경로를 따른다.
-- **원인 치료와 장기 보호**: 감염/임신 합병증/고혈압/약물 등 촉발 원인을 교정하고, 신경학적 이상·신부전·출혈은 중환자 수준의 다학제 처치가 필요할 수 있다.
+- 빈혈·혈소판감소·schistocyte가 동반될 경우 즉시 혈액내과에 연락하고, TTP·HUS·DIC·악성고혈압·임신 관련 TMA 등 응급 감별을 시작한다.
+- TTP가 의심되면 ADAMTS13 결과를 기다리지 말고 기관의 응급 치료 프로토콜에 따라 즉시 치료를 시작한다.
+- 촉발 원인(감염, 고혈압, 약물, 임신 등)을 신속히 확인·교정하고, 신경학적 이상·신부전·출혈 등 합병증이 있으면 중환자실 수준의 다
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 기저 원인 질환의 예후에 따라 달라짐.

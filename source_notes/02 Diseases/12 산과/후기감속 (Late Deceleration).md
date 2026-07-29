@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 말기심장박동감소
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[산과]]
 
@@ -33,9 +34,12 @@ reviewed_at: "2026-07-16"
 - EFM 상 자궁수축과 연관된 반복적인 후기감속 확인.
 - 태아 산증(acidosis) 가능성 고려.
 
-## 5. 치료 (Treatment)
-- **자궁내 소생술(Intrauterine resuscitation)**: 산모 체위 변경(좌측위), 산소 공급, 수액 투여, 자궁수축제(oxytocin) 중단.
-- **평가**: 교정되지 않는 경우 태아 상태 악화로 간주하여 응급 제왕절개술 고려.
+## 5. 치료
+
+- **자궁내 소생술 시행**: 산모 좌측위 변경, 산소 공급, 정맥 수액 투여 및 자궁수축제(옥시토신) 즉시 중단.
+- **태아 상태 재평가**: 교정 조치 후 태아 심박동 양상(변이성, 가속 등)의 회복 여부를 면밀히 감시.
+- **응급 분만 결정**: 반복적인 후기감속이 지속되거나 태아 상태 악화가 의심될 경우 신속한 제왕절개술 고려.
+- **원인 교정**: 산모 저혈압 등 기저 원인 확인 및 교정, 필요 시 자궁이완제 투여 고려.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 및 처치 시 태아 예후 양호.

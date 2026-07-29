@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 발작
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신경과-신경외과]]
 
@@ -53,17 +54,9 @@ reviewed_at: "2026-07-16"
 
 
 
-## 5. 치료 (Treatment)
-- **급성기 치료**:
-  기도 확보 및 활력 징후 안정화.
-  뇌전증 지속 상태(Status epilepticus) 시 벤조디아제핀(Lorazepam 등) 투여
-- **항뇌전증제(AEDs)**:
-- 부분 발작: Carbamazepine, Phenytoin, Levetiracetam 등
-- 결신 발작: Ethosuximide(1차 선택), Valproate
-- 전신 발작: Valproate, Levetiracetam
-- **주의**: Phenytoin, Carbamazepine 등 일부 나트륨 채널 차단제는 결신 발작을 악화시킬 수 있음
-
-
+## 5. 치료
+- 급성 발작 시 기도 확보·산소 공급·활력 징후 모니터링 후, 지속 발작(상태발작)에서는 벤조디아제핀으로 즉시 억제
+- 발작 유형에 따라 항뇌전증제 선택: 부분 발작 → 카바마제핀·페니토인·레베티라세탐 등; 결신 발작 → 에토수시미드·발프로산 등; 전신 발작 → 발프로산·레베티라세탐 등;
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 유발 요인이 교정 가능한 경우 예후 양호

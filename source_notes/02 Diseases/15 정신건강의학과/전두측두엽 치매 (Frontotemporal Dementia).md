@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 전두측두엽 치매
 유형:
@@ -10,8 +11,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -39,9 +40,11 @@ relation_to_parent: subtype
 - 감별 진단: 알츠하이머병, 혈관성 치매, 루이소체 치매, 우울증, 조현병 등 정신과적 질환.
 
 ## 5. 치료
-- 원칙: 다학제적 접근(신경과, 정신건강의학과, 언어치료, 작업치료 등).
-- 약물 치료: 인지 기능 개선제(Donepezil 등)는 전두측두엽 치매에 뚜렷한 효과가 입증되지 않음. 증상에 따라 SSRI(행동 조절) 등을 고려할 수 있으나, 항정신병 약물은 추체외로 부작용 위험으로 주의 요함.
-- 비약물적 치료: 인지 재활, 환경 수정, 보호자 교육 및 지지, 행동 문제에 대한 비약물적 중재(주의 분산, 일상생활 구조화).
+
+- 다학제적 접근: 신경과, 정신건강의학과, 언어치료, 작업치료 등 전문 분야 간 협진을 통해 포괄적인 관리 계획 수립.
+- 약물 치료 주의사항: 인지 기능 개선제는 효과가 제한적이므로 증상 완화를 목적으로 SSRI 등을 선별적으로 사용하며, 항정신병 약물은 부작용 위험을 고려하여 신중히 투여.
+- 비약물적 중재: 행동 문제 조절을 위해 일상생활 구조화, 환경 수정, 주의 분산 기법을 우선 적용하고 보호자 교육 및 지지 체계 마련.
+- 정기적 모니터링: 질환의 진행에 따른 기능 저하와 합병증(식이 장애, 낙상 등)을 주기적으로 평가하여 안전 관리 강화.
 
 ## 6. 예후 및 합병증
 - 예후: 점진적으로 악화되는 경과를 보이며, 평균 생존 기간은 약 7.5년.

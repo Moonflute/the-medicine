@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - Self-limited epilepsy with centrotemporal spikes
 - 양성 롤란딕 뇌전증
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -42,10 +43,12 @@ reviewed_at: "2026-07-16"
 - 임상 병력 및 특징적인 EEG 소견을 바탕으로 진단
 - 감별 진단: 롤란딕 스파이크를 동반한 뇌 병변, 측두엽 뇌전증, Panayiotopoulos 증후군 등
 
-## 5. 치료 (Treatment)
-- **원칙**: 양성 경과를 보이므로 발작 빈도가 낮으면 치료하지 않는 경우가 많음
-- **약물 치료**: 발작이 빈번하거나 주간에 발생하여 일상생활에 지장을 주는 경우 항경련제(Carbamazepine, Oxcarbazepine 등) 고려
-- **중단**: 발작이 1~2년간 없으면 약물 감량 및 중단 고려
+## 5. 치료
+
+- **치료 결정**: 양성 경과를 보이므로 발작 빈도가 낮거나 수면 중에만 발생하는 경우 경과 관찰을 우선함.
+- **약물 치료**: 발작 빈도가 잦거나 주간 발작으로 일상생활 및 학습에 지장을 주는 경우 항경련제 투여 고려.
+- **약물 중단**: 발작이 1~2년간 소실된 경우 뇌파 소견을 참고하여 단계적인 약물 감량 및 중단 시도.
+- **환자 교육**: 사춘기 이후 자연 소실되는 양성 질환임을 설명하여 보호자의 불안을 완화하고 정기적인 외래 추적 관찰 시행.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

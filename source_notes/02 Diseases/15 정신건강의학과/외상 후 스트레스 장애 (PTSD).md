@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 외상 후 스트레스 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional trauma- and stressor-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -37,9 +38,12 @@ relation_to_parent: subtype
 - 감별 진단: 급성 스트레스 장애(ASD, 3일~1개월), 해리성 장애, 우울증, 불안 장애, 물질 사용 장애 등과 감별 필요.
 
 ## 5. 치료
-- 심리 치료: 외상 중심 인지행동치료(Trauma-focused CBT)가 가장 효과적이며, 지속 노출 치료(PE), 인지 처리 치료(CPT), 안구 운동 탈민감 재처리(EMDR) 등이 권장됨.
-- 약물 치료: SSRI가 1차 선택 약물로 사용됨. 악몽 조절을 위해 Prazosin을 보조적으로 고려할 수 있음.
-- 기타: 환자 교육, 스트레스 관리 기술(호흡, 명상), 동반된 우울증이나 불안 장애에 대한 통합적 접근.
+
+- **심리 치료**: 외상 중심 인지행동치료(TF-CBT), 지속 노출 치료(PE), 인지 처리 치료(CPT), 안구 운동 탈민감 재처리(EMDR)를 우선적으로 고려함.
+- **약물 치료**: SSRI를 1차 약제로 사용하며, 악몽 등 특정 증상 조절을 위해 보조 약물을 병용할 수 있음.
+- **안전 관리**: 자해 및 타해 위험성을 정기적으로 평가하고, 급성기 위기 상황 발생 시 즉각적인 개입 및 입원 치료를 고려함.
+- **통합적 관리**: 동반된 우울, 불안, 물질 사용 장애에 대한 포괄적 접근과 함께 환자 및 가족 교육을 통한 지지 체계 구축이 필수적임.
+- **추적 관찰**: 증상 호전 여부와 사회적·직업적 기능 회복 정도를 지속적으로 모니터링하며 치료 계획을 조정함.
 
 ## 6. 예후 및 합병증
 - 조기 개입 시 예후가 좋으나, 만성화될 경우 우울증, 물질 사용 장애, 사회적 기능 저하 및 대인관계 갈등이 동반될 가능성이 높음.

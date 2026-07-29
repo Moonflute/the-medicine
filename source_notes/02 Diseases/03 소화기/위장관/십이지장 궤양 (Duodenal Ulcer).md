@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -53,14 +54,12 @@ reviewed_at: "2026-07-16"
   pylori 감염 여부를 반드시 확인해야 함.
 
 
-## 5. 치료 (Treatment)
-- **약물 치료**:
-  양성자 펌프 억제제(PPI)가 주된 치료제, H2 차단제도 사용 가능함.
-  H.
-  pylori 양성 시 항생제를 포함한 제균 치료를 시행함.
-- **생활 습관**: NSAIDs 중단(불가 시 PPI 병용), 금연 및 금주 권고.
-- **수술**: 천공, 출혈, 폐색 등 내과적 치료에 반응하지 않는 합병증 발생 시 고려함.
-
+## 5. 치료
+- PPI를 1일 1회 투여하고, H. pylori 감염 시 표준 2제제+1제제 제균 요법을 병행한다.
+- NSAID 사용이 필요하면 PPI와 함께 복용하고, 금연·금주를 권고한다.
+- 출혈·천공·폐색 등 합병증이 의심되면 즉시 위내시경 또는 외과적 평가를 위해 전문의에게 의뢰한다.
+- 증상 호전 후 4~8주간 PPI 지속 후 위내시경 재검사를 통해 궤양 치유 여부를 확인한다.
+- 재발 방지를 위해 H. pylori 음성 유지, NSAID 최소화, 규칙적인 식사와 스트레스 관리 등을 교육한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 출혈, 천공, 위출구 폐색(Gastric outlet obstruction).

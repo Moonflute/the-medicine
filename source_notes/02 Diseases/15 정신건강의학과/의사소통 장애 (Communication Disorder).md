@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 의사소통 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -37,9 +38,12 @@ relation_to_parent: subtype
 - 타 질환(지적 장애, 청각 장애, 신경학적 질환)과의 감별 진단이 필수적임.
 
 ## 5. 치료
-- 언어 치료(Speech-Language Therapy)가 핵심.
-- 인지행동치료, 놀이치료, 부모 교육 및 가족 상담, 특수 교육 연계.
-- 동반 질환(ADHD, 불안 장애 등)에 대한 약물 치료 고려.
+
+- 언어재활사를 통한 개별화된 언어 치료를 우선적으로 시행함.
+- 부모 교육 및 가족 상담을 통해 가정 내 의사소통 환경을 개선하고 정서적 지지를 강화함.
+- 학교 및 특수 교육 기관과 연계하여 학습 지원 및 사회적 기술 훈련을 병행함.
+- ADHD, 불안 장애 등 동반 질환이 확인될 경우 해당 질환에 대한 약물 치료를 고려함.
+- 정기적인 발달 평가를 통해 치료 경과를 모니터링하고, 필요 시 다학제적 전문가에게 의뢰함.
 
 ## 6. 예후 및 합병증
 - 조기 발견 및 개입 시 예후가 좋으나, 방치 시 학업 실패, 사회적 고립, 성인기 정신질환으로 이행 가능성 있음.

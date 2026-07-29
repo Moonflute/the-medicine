@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - CDH
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -37,12 +38,13 @@ reviewed_at: "2026-07-16"
 * 산전 초음파 및 MRI를 통한 조기 진단
 * 출생 후 임상 증상 및 영상 검사 결과
 
-## 5. 치료 (Treatment)
-* **비위관 삽입**: 위장관 감압 (즉시 시행)
-* **호흡 관리**: 저압 환기 전략(Gentle ventilation), 필요시 고빈도 진동 환기(HFOV)
-* **폐 고혈압 관리**: 흡입 산화질소(iNO), 밀리논(Milrinone) 등 혈관 확장제
-* **ECMO**: 내과적 치료에 반응하지 않는 중증 호흡 부전 시 고려
-* **수술**: 혈역학적 안정화 후 지연 수술 (생후 48-72시간 이후 권장)
+## 5. 치료
+
+* **초기 안정화**: 즉각적인 비위관 삽입을 통한 위장관 감압 및 저압 환기 전략(Gentle ventilation) 적용
+* **폐 고혈압 관리**: 폐 혈관 확장제 및 필요 시 고빈도 진동 환기(HFOV)를 통한 호흡 부전 보조
+* **수술적 치료**: 혈역학적 및 호흡기적 안정화 확인 후 지연 수술 시행
+* **중증 환자 관리**: 내과적 치료에 반응하지 않는 경우 체외막산소공급(ECMO) 고려
+* **장기 추적 관찰**: 수술 후 만성 폐질환, 폐 고혈압, 위식도 역류 및 성장 발달에 대한 지속적인 모니터링 수행
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 폐 형성 부전 정도 및 폐 고혈압이 예후 결정

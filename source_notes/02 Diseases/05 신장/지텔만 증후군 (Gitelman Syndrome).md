@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신장]]
 
@@ -56,11 +57,12 @@ reviewed_at: "2026-07-16"
 - Bartter 증후군과의 감별: 저칼슘뇨증 및 저마그네슘혈증이 특징적임.
 
 
-## 5. 치료 (Treatment)
-- 전해질 보충: 칼륨 및 마그네슘 보충이 치료의 핵심.
-- 식단: 나트륨 섭취 권장.
-- 약물: 필요 시 칼륨 보존 이뇨제(spironolactone, amiloride) 사용 고려.
-
+## 5. 치료
+- 칼륨·마그네슘 보충을 지속하고, 혈청 전해질 농도를 정기적으로 확인한다.
+- 나트륨 섭취를 충분히 유지하며, 탈수 증상이 있으면 수분 보충을 권한다.
+- 저칼륨·저마그네슘이 지속되거나 증상이 심할 경우, 스피로놀락톤·아밀로라이드 등 칼륨 보존 이뇨제 사용을 고려한다.
+- 전해질 이상이 조절되지 않거나 신기능 악화가 의심될 때는 신장 전문의에게 의뢰한다.
+- 3~6개월마다 혈압, 전해질, 신기능 검사를 시행해 치료 효과와 부작용을 모니터링한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 일반적으로 만성 신부전으로 진행하지 않음.

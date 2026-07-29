@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - Bartholin adenitis
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -36,11 +37,13 @@ reviewed_at: "2026-07-16"
 - 병력 청취 및 신체 검진을 통해 진단.
 - 폐경기 여성의 경우 악성 종양(암종) 가능성을 반드시 고려해야 함.
 
-## 5. 치료 (Treatment)
-- 무증상 낭종: 보존적 치료(좌욕 등) 및 경과 관찰.
-- 증상성 낭종/농양: 단순 절개 및 배액술은 재발률이 높아 권장되지 않음.
-- 권장 술기: Word 카테터 삽입술(4주간 유지), 조갑술(Marsupialization), 또는 Jacobi 링 삽입술.
-- 항생제: 전신 증상(발열 등)이 있거나 재발 위험이 높은 경우 고려.
+## 5. 치료
+
+- 무증상 낭종은 온수 좌욕 등 보존적 치료를 시행하며 경과를 관찰함.
+- 증상성 농양은 단순 절개 및 배액술 대신 Word 카테터 삽입, 조갑술(Marsupialization) 등 재발 방지를 위한 술기를 우선 고려함.
+- 전신 증상 동반, 봉와직염, 고위험군인 경우 항생제 치료를 병행함.
+- 40세 이상이거나 폐경기 여성에서 발생한 경우 악성 종양 배제를 위해 조직검사를 시행함.
+- 술기 후에는 감염 징후를 모니터링하고, 재발 시 전문의 진료 및 추가적인 외과적 처치를 고려함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 배액술 시행 시 예후는 양호함.

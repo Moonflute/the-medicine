@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -42,12 +43,11 @@ reviewed_at: "2026-07-16"
 - 타 질환(위암, 재발성 궤양 등) 배제 필요
 
 
-## 5. 치료 (Treatment)
-- **보존적 치료**: 위장관 운동 촉진제, 담즙산 결합제(cholestyramine), 제산제 사용 (초기 시도)
-- **수술적 치료**:
-  보존적 치료에 반응하지 않는 경우 고려.
-  Billroth II 문합을 Roux-en-Y 문합으로 전환하여 담즙 역류 경로를 차단
-
+## 5. 치료
+- 초기 보존적 치료로 위장관 운동 촉진제와 제산제를 사용하고, 필요 시 담즙산 결합제(예: 콜레스티라민) 추가
+- 약물 장기 복용 시 전해질 이상·위장관 부작용을 모니터링하고, 부작용이 나타나면 대체제 검토
+- 4~6주 내 증상 호전이 없거나 내시경에서 지속적 담즙 저류가 확인되면 외과 전문의에게 의뢰하여 Roux‑en‑Y 전환술 등 수술적 교정 고려
+- 수술·보존적 치료 후 3~6개월 간 정기 내시경 및 증상 평가를 시행해 재발 여부와 위점막 변화를 추적,
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 수술적 교정 후 증상 호전 기대 가능

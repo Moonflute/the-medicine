@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 섬망
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -45,10 +46,11 @@ relation_to_parent: subtype
 - 감별 진단: 치매(만성적, 점진적), 우울증(가성 치매), 정신병적 장애.
 
 ## 5. 치료
-- 원칙: 원인 질환의 신속한 교정 및 비약물적 중재 우선
-- 비약물적 치료: 지남력 강화(시계, 달력), 수면 위생 개선, 조기 보행, 환경 수정(소음 감소, 적절한 조명), 보호자 참여.
-- 약물 치료: 비약물적 치료에 반응하지 않는 심한 초조나 위험 행동 시 최소 용량으로 단기간 사용. 항정신병 약물(Haloperidol, Risperidone, Quetiapine 등) 고려 시 QTc 연장 등 부작용 모니터링 필수.
-- 약물 검토: 항콜린성 약물 등 섬망을 유발하거나 악화시키는 약물 중단(Beers Criteria 참조).
+
+- **원인 교정 및 비약물적 중재 우선**: 섬망 유발 원인(감염, 전해질 불균형, 약물 등)을 신속히 파악하여 교정하고, 환경 조절 및 지남력 강화 등 비약물적 치료를 최우선으로 시행함.
+- **약물 검토 및 중단**: 항콜린성 약물, 벤조디아제핀 등 섬망을 유발하거나 악화시킬 수 있는 약물을 우선적으로 감량하거나 중단함.
+- **안전 관리 및 환경 수정**: 낙상 방지, 조기 보행 유도, 적절한 조명과 소음 차단, 시계와 달력을 활용한 지남력 유지 및 보호자 상주를 통한 심리적 안정 도모.
+- **약물 치료의 제한적 사용**: 비약물적 중재에 반응하지 않는 심한 초조나 자해·타해 위험 시에만 최소 용량으로 단기간 항정신병 약물을 고려하며, QTc 연장 및 추체외로 증상 등 부작용을 면밀히 모니터링함.
 
 ## 6. 예후 및 합병증
 - 예후: 원인 질환 교정 시 가역적이나, 고령자나 치매 환자에서는 인지 기능 저하가 지속될 수 있음.

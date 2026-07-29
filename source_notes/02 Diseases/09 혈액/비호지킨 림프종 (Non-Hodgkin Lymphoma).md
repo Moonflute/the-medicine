@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -19,8 +20,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[혈액]]
 
@@ -48,13 +49,11 @@ reviewed_at: "2026-07-16"
   진단 시 HIV 및 간염 바이러스 선별 검사가 권장됨.
   Lugano 병기 분류 시스템을 사용함.
 
-## 5. 치료 (Treatment)
-- 아형과 병기, 등급에 따라 결정.
-- **지연성(Indolent)**: 증상이 없는 경우 '경과 관찰(Watch and wait)' 전략 고려.
-- **공격성(Aggressive)**:
-  항암화학요법(R-CHOP 등) 및 면역요법(리툭시맙 등)이 표준.
-  필요 시 방사선 치료 병행.
-- **기타**: 표적 치료제(BTK 억제제 등), CAR-T 세포 치료, 재발 시 조혈모세포 이식 고려.
+## 5. 치료
+- 증상이 없고 지연성인 경우, 정기적인 임상·영상·혈액 검사(예: LDH, β2‑마이크로글로불린)로 관찰하며 치료 시작 시점을 판단한다.
+- 공격성 림프종은 표준 항암·면역요법(예: R‑CHOP 기반)과 필요 시 방사선 치료를 병행하고, 치료 중 감염·골수억제 위험을 모니터링한다.
+- 재발·불응성 경우 BTK 억제제, CAR‑T 세포 치료, 또는 조혈모세포 이식 등 전문 혈액종양센터로 전환한다.
+- 치료 후 3~6
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 아형과 병기에 따라 예후가 매우 다양함.

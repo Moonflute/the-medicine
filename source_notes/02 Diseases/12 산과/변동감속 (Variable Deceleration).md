@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 다양심장박동감소
 유형:
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[산과]]
 
@@ -35,13 +36,12 @@ reviewed_at: "2026-07-16"
 - EFM 파형의 형태학적 분석(시작부터 Nadir까지 30초 미만).
 - 반복적 변동감속(Recurrent variable decelerations) 시 태아 산증 가능성 고려.
 
-## 5. 치료 (Treatment)
-- **자세 변화**: 탯줄 압박 완화를 위한 첫 번째 조치.
-- **교정**: 옥시토신 중단, 산소 공급, 수액 요법 고려.
-- **양수주입술(Amnioinfusion)**: 탯줄 압박 완화에 효과적일 수 있음.
-- **분만**:
-  탯줄 탈출 확인 시 즉시 제왕절개.
-  지속적인 비정상 파형 시 분만 방법 결정.
+## 5. 치료
+
+- **자세 변경**: 탯줄 압박 완화를 위해 산모의 체위를 즉시 변경(좌측위 등).
+- **보존적 처치**: 옥시토신 중단, 산소 공급 및 정맥 수액 요법 시행.
+- **양수주입술**: 양수 과소증으로 인한 반복적 변동감속 시 탯줄 압박 완화를 위해 고려.
+- **상태 평가 및 분만 결정**: 탯줄 탈출 여부를 내진으로 확인하고, 지속적인 비정상 파형 시 태아 상태를 평가하여 신속한 분만 결정.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 간헐적 변동감속은 대개 양성.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 계류 유산
 유형:
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[산과]]
 
@@ -51,12 +52,13 @@ reviewed_at: "2026-07-16"
 
 
 
-## 5. 치료 (Treatment)
-- **기대 요법(Expectant management)**: 자연 배출을 기다릴 수 있으나, 감염이나 출혈 위험 고려.
-- **약물 요법**: Misoprostol(PGE1)을 사용하여 자궁 수축 및 배출 유도.
-- **수술적 요법**: 자궁 흡입술(D&C) 또는 흡입술(Uterine aspiration)을 통해 잔류물 제거.
+## 5. 치료
 
-
+* **치료 방법 결정**: 환자의 임상 상태, 감염 징후, 출혈 정도 및 선호도를 고려하여 기대 요법, 약물 요법, 수술적 요법 중 선택.
+* **수술적 처치**: 과다 출혈, 감염 징후, 혈역학적 불안정성이 동반된 경우 즉각적인 자궁 흡입술(D&C) 시행.
+* **합병증 모니터링**: 시술 후 발열, 심한 복통, 지속적인 다량 출혈 발생 시 즉시 내원하도록 교육.
+* **추적 관찰**: 잔류 태반 조직 확인 및 자궁 내막 회복 여부를 평가하기 위해 초음파 추적 검사 시행.
+* **예방적 조치**: Rh 음성 산모의 경우 항-D 면역글로불린(Anti-D immunoglobulin) 투여 고려.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 감염(Septic abortion), 출혈, 자궁 내 유착(Asherman syndrome), 파종성 혈관내 응고(DIC, 드묾).

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 파괴적 기분 조절 부전 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -36,8 +37,11 @@ relation_to_parent: subtype
 - 6세 이전 또는 18세 이후에는 진단하지 않음.
 
 ## 5. 치료
-- 약물 치료: 증상 조절을 위해 SSRI, 자극제(Methylphenidate) 등을 고려할 수 있으나, 근본적인 치료는 아님.
-- 심리사회적 치료: 인지행동치료(CBT), 놀이치료, 부모 교육 및 가족 치료, 특수 교육 연계.
+
+- **심리사회적 개입**: 인지행동치료(CBT)를 통해 감정 조절 및 문제 해결 기술을 훈련하고, 부모 교육을 통해 일관된 훈육 방식과 환경 조성을 지원함.
+- **약물 치료의 보조적 역할**: 동반 질환(ADHD, 우울, 불안 등)에 따른 증상 완화를 목적으로 약물을 고려하되, 단독 치료보다는 심리사회적 치료와 병행함.
+- **교육 및 환경 조정**: 학교 및 가정 내에서의 갈등을 최소화하기 위해 특수 교육 연계 및 개별화된 행동 지원 계획을 수립함.
+- **장기적 모니터링**: 증상의 변화와 기능적 적응 수준을 정기적으로 평가하고, 성인기 우울 및 불안장애로의 이행 가능성을 염두에 둔 추적 관찰을 시행함.
 
 ## 6. 예후 및 합병증
 - 조기 발견 및 개입 시 예후가 좋으나, 방치 시 성인기 우울장애나 불안장애로 이행 가능성 있음.

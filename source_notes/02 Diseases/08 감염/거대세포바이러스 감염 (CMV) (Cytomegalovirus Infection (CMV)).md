@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -14,8 +15,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -44,11 +45,10 @@ reviewed_at: "2026-07-16"
 - 임상적 의심 하에 혈액, 소변, 타액 또는 조직에서 PCR 등을 통해 바이러스를 검출하여 진단한다.
   선천성 감염은 생후 3주 이내에 검체를 채취하여 확인한다.
 
-## 5. 치료 (Treatment)
-- 중증 감염 시 간시클로비르(Ganciclovir) 또는 발간시클로비르(Valganciclovir)를 사용한다.
-  면역 저하 환자의 망막염 등에는 유도 요법 후 유지 요법이 필요할 수 있다.
-  선천성 감염 신생아에게는 발간시클로비르를 6개월간 투여하여 청력 및 신경 발달 예후를 개선한다.
-  내성 발생 시 포스카넷(Foscarnet), 시도포비르(Cidofovir), 마리바비르(Maribavir) 등을 고려한다.
+## 5. 치료
+- 중증 CMV 감염(예: 폐렴, 위장관염, 뇌염)에서는 간시클로비르 또는 발간시클로비르를 시작하고, 혈액 PCR 및 임상 개선으로 치료 반응을 모니터링한다.
+- 면역 저하 환자에서 망막염이 의심될 경우, 즉시 항바이러스 요법을 시작하고 안과 전문의와 협진하여 유지 요법 계획을 수립한다.
+- 선천성 CMV 감염 신생아는 발간시클로비르 치료를 시작하고, 청력 및 신경 발달 검사를 정기적으로 시행한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 면역 저하 환자에서 중증 감염 및 사망 위험이 높다.

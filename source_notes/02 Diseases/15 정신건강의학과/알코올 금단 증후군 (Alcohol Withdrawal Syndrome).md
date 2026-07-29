@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 알코올 금단 증후군
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -41,10 +42,11 @@ relation_to_parent: subtype
 - 감별 진단: 갑상선 기능 항진증, 저혈당, 당뇨병성 케톤산증, 타 물질 금단, 뇌내 출혈 등.
 
 ## 5. 치료
-- 원칙: 증상 조절 및 합병증 예방. 중등도 이상은 입원 치료 권장.
-- 약물 치료: 벤조디아제핀(Benzodiazepines)이 1차 선택 약제(Diazepam, Lorazepam 등). 증상 유발형(symptom-triggered) 투여가 일반적.
-- 보조 요법: 티아민(Thiamine) 및 엽산 보충(베르니케 뇌병증 예방을 위해 고용량 정맥/근육 주사), 전해질 교정.
-- 장기 치료: 동기 강화 상담, 재발 방지 약물(Naltrexone, Acamprosate, Disulfiram) 고려.
+
+- **증상 평가 및 입원 결정**: CIWA-Ar 점수를 활용하여 금단 증상의 중증도를 객관적으로 평가하고, 중등도 이상의 증상이나 과거 금단 섬망·발작 병력이 있는 경우 입원 치료를 우선 고려함.
+- **약물 치료 원칙**: 벤조디아제핀을 1차 약제로 사용하며, 환자의 상태에 따라 증상 유발형(symptom-triggered) 투여 방식을 적용하여 과도한 진정을 방지함.
+- **필수 보조 요법**: 베르니케 뇌병증 예방을 위해 포도당 투여 전 반드시 티아민을 우선 보충하고, 전해질 불균형(마그네슘, 인 등)을 신속히 교정함.
+- **장기 관리 및 재발 방지**: 급성기 이후 동기 강화 상담을 시행하고, 환자의 상태에 따라 재발 방지 약물 치료를 포함한 포괄적인 알코올 사용 장애 치료 계획을 수립함.
 
 ## 6. 예후 및 합병증
 - 예후: 조기 개입 시 예후가 좋으나, 금단 섬망은 적절한 치료가 없을 경우 치명적일 수 있음.

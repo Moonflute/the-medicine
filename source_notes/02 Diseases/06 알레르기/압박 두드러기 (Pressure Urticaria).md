@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[알레르기]]
 
@@ -40,10 +41,11 @@ reviewed_at: "2026-07-16"
 - 임상적 소견 및 압력 유발 검사로 진단한다.
 
 
-## 5. 치료 (Treatment)
-- 원인 압력 회피가 핵심.
-  약물 치료로는 항히스타민제가 1차적으로 사용되며, 반응이 불충분할 경우 경구 스테로이드, 오말리주맙(omalizumab) 등을 고려할 수 있다.
-
+## 5. 치료
+- 압력 부위 회피 및 보호패드·완충재 사용 등 물리적 자극 최소화
+- 1차 약물: 비처방 2세대 항히스타민제 지속 복용, 효과 부족 시 2~4주간 경구 스테로이드 단기간 사용 고려
+- 증상이 지속·악화되면 알레르기내과·피부과 전문의에게 의뢰, 오말리주맙 등 특수 치료 옵션 논의
+- 증상 변화 및 약물 부작용 여부를 4~6주 간격으로 추적, 필요 시 치료 계획 재조정 및 예방 교육 제공
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성 경과를 보일 수 있으며, 일상생활에 큰 영향을 줄 수 있다.

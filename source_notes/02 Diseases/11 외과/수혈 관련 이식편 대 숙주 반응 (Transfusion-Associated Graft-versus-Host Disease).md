@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - transfusion associated graft v host disease
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[외과]]
 
@@ -38,9 +39,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 수혈 후 2일~6주 이내에 발생하는 발열, 피부 발진, 설사, 간기능 이상 등의 임상 증상과 조직 생검 소견을 종합하여 진단.
 
-## 5. 치료 (Treatment)
-- 근본적인 치료법은 없으며, 대증 요법 및 면역 억제 치료를 시행하나 예후가 매우 불량함.
-- 예방: 면역 저하 환자에게는 반드시 방사선 조사(irradiation)를 거친 혈액 제제를 수혈하여 공여자의 T 림프구를 불활성화시켜야 함.
+## 5. 치료
+
+- 근본적인 치료법이 없으므로 발병 시 대증 요법 및 면역 억제 치료를 시행하나 예후가 매우 불량함.
+- 면역 저하 환자에게는 반드시 방사선 조사(irradiation)를 거친 혈액 제제를 수혈하여 공여자의 T 림프구를 불활성화함.
+- 수혈 후 발열, 피부 발진, 설사 등 의심 증상 발생 시 즉시 혈액종양내과 전문의에게 자문 및 전원을 고려함.
+- 고위험군 환자군을 사전에 식별하여 수혈 전 예방적 조치가 이루어지도록 관리함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 매우 치명적이며 높은 사망률을 보임.

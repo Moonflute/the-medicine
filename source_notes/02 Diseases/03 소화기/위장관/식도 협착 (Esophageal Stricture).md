@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -45,12 +46,11 @@ reviewed_at: "2026-07-16"
 - 단순 협착(2cm 미만, 직선형)과 복잡 협착(2cm 이상, 불규칙한 표면, 굴곡진 경계)으로 분류.
 
 
-## 5. 치료 (Treatment)
-- 원인 질환 교정(예: PPI 투여).
-- 내시경적 풍선확장술(Endoscopic balloon dilation): 양성 협착의 일차 치료.
-- 스텐트 삽입: 내시경적 확장에 반응하지 않거나 악성 협착의 완화적 치료로 고려.
-- 수술적 치료: 내시경적 치료가 불가능하거나 악성인 경우 고려.
-
+## 5. 치료
+- 원인 질환 교정(예: 위식도역류 시 PPI 등)으로 염증 억제 및 재협착 위험 감소
+- 내시경 풍선확장술: 초기 1~2회 시행 후 증상 및 내강 상태 평가, 필요 시 반복; 시술 중 천공 위험에 유의
+- 스텐트 삽입: 내시경 확장에 반응하지 않거나 악성 협착 시 고려; 장기 삽입 시 이물감·이동 위험 관리
+- 시술 후 3~6개월 간 정기 내시경·증상 추적 관찰; 재협착 시 조기 재시술 또는 외과적 전환 검토
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료를 통해 내강 개통성을 회복하여 증상 완화 가능.

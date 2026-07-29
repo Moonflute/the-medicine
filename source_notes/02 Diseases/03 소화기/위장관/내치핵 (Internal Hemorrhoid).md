@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -11,8 +12,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소화기]]
 
@@ -43,11 +44,10 @@ reviewed_at: "2026-07-16"
   치열, 치루, 항문암 등 다른 항문 질환과의 감별 필요
 
 
-## 5. 치료 (Treatment)
-- **보존적 치료**: 고섬유질 식이, 충분한 수분 섭취, 배변 습관 교정(변기에 3~5분 이내 체류), 온수 좌욕
-- **비수술적 치료**: 고무밴드 결찰술(가장 흔함), 경화요법, 적외선 응고술 등
-- **수술적 치료**: 보존적 치료에 반응하지 않거나 3~4단계 치핵인 경우 치핵절제술(Excision hemorrhoidectomy) 고려
-
+## 5. 치료
+- 고섬유질 식이와 충분한 수분 섭취, 변기에 3~5분 이상 머무르지 않는 배변 습관 교정, 매일 온수 좌욕 시행
+- 증상이 지속·악화되면 고무밴드 결찰, 경화요법, 적외선 응고술 중 적절한 비수술적 시술 선택; 시술 전 항문 감염 여부 확인
+- 보존·비수술적 치료에 반응이 없거나 3~4단계 치핵
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 보존적 치료로 대부분 호전되나 재발 가능성 있음

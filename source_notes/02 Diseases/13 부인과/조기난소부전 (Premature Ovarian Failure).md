@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - POF
 - premature ovarian failure
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -35,9 +36,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 40세 미만 여성에서 4개월 이상의 무월경과 1개월 간격으로 2회 이상 측정한 고FSH 혈증 확인.
 
-## 5. 치료 (Treatment)
-- 호르몬 대체 요법(HRT): 사춘기 발달 및 골다공증 예방을 위해 자연 폐경 연령까지 지속.
-- 임신 희망 시: 난자 공여를 통한 체외수정(IVF)이 가장 효과적인 방법.
+## 5. 치료
+
+* **호르몬 대체 요법(HRT):** 에스트로겐 결핍 증상 완화 및 골다공증 예방을 위해 자연 폐경 연령까지 지속적인 투여 권장.
+* **임신 계획:** 자연 임신 가능성이 매우 낮으므로, 임신 희망 시 난자 공여를 통한 체외수정(IVF) 상담 및 난임 전문의 의뢰.
+* **골건강 관리:** 골밀도 감소 예방을 위해 정기적인 DEXA 검사 시행 및 칼슘과 비타민 D 섭취 권장.
+* **심혈관 및 심리적 관리:** 심혈관 질환 위험도 평가와 함께 조기 폐경에 따른 심리적 지지 및 장기적인 추적 관찰 시행.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 골다공증, 심혈관 질환 위험 증가.

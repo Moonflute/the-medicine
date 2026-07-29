@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 guideline_year: "2019"
 sources: ["폐 및 흉막 감염의 진단과 치료 임상진료지침 | https://www.ksid.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=195"]
 ---
@@ -49,11 +50,12 @@ sources: ["폐 및 흉막 감염의 진단과 치료 임상진료지침 | https:
 - 흡인 위험 인자가 있는 환자에서 임상 양상과 CXR/CT상 공동 소견을 종합하여 진단.
   혐기성 감염이 의심되는 경우 악취 나는 가래가 진단적 단서가 됨.
 
-## 5. 치료 (Treatment)
-  * **항생제:** 베타-락탐/베타-락탐 분해효소 억제제(예: ampicillin/sulbactam)가 일차 선택. 페니실린 알레르기 시 moxifloxacin 또는 levofloxacin+metronidazole 고려. MRSA 의심 시 vancomycin 또는 linezolid 사용.
-  * **기간:** 영상 소견이 호전될 때까지 보통 3~6주 이상 장기 투여.
-  * **배액:** 항생제 치료에 반응이 없거나 농흉이 동반된 경우 경피적 또는 기관지 내시경적 배액 고려.
-  * **수술:** 약물 치료 실패, 폐 괴저, 대량 객혈 등 합병증 발생 시 폐엽 절제술 등 고려.
+## 5. 치료
+
+* **항생제 요법:** 구강 내 혐기성 균주를 포함한 광범위 항생제를 일차적으로 선택하며, 임상적 호전 및 영상학적 공동 크기 감소가 확인될 때까지 장기 투여함.
+* **폐쇄성 병변 감별:** 항생제 치료에 반응이 없거나 재발하는 경우, 기관지 내시경을 시행하여 종양이나 이물질에 의한 폐쇄 여부를 반드시 확인해야 함.
+* **배액 및 수술적 고려:** 농흉이 동반되거나 약물 치료에 불응하는 경우 경피적 배액술을 고려하며, 대량 객혈이나 폐 괴저 등 치명적 합병증 발생 시 수술적 절제를 검토함.
+* **흡인 예방 및 구강 위생:** 의식 저하 환자의 체위 관리 및 연하 곤란 교정을 통해 재발을 방지하고, 치주 질환 치료를 병행하여 원인균의 근원을 제거함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 항생제 치료에 반응하나, 치료 실패 시 농흉, 기관지 흉막루, 폐 괴저 등의 합병증이 발생할 수 있음.

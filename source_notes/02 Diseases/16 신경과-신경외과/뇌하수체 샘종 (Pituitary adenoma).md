@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 뇌하수체 샘종
 유형:
@@ -15,8 +16,8 @@ document_role: "specialty_perspective"
 parent_disease: "뇌하수체 샘종 (Pituitary Adenoma)"
 relation_to_parent: "specialty_perspective"
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_full_flash_35_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[신경과-신경외과]]
 
@@ -46,11 +47,12 @@ reviewed_at: "2026-07-16"
 
 
 
-## 5. 치료 (Treatment)
-- **수술**: 나비뼈 경유 수술(Transsphenoidal surgery)이 일차적 치료.
-- **약물 및 방사선**: 종양 유형(예: 프로락틴종의 도파민 작용제) 및 수술 후 잔여 종양 여부에 따라 약물 치료나 방사선 치료를 병행.
+## 5. 치료
 
-
+- **일차적 수술**: 시신경 압박에 의한 시야 장애나 종양의 질량 효과가 뚜렷한 경우 나비뼈 경유 수술(TSS)을 우선 고려함.
+- **약물 치료**: 프로락틴종은 도파민 작용제를 일차 치료로 시행하며, 수술 후 잔여 종양이나 호르몬 과다 분비가 지속될 경우 약물 조절을 병행함.
+- **방사선 치료**: 수술 및 약물 치료로 조절되지 않는 잔여 종양이나 재발성 종양에 대해 정위적 방사선 수술 등을 고려함.
+- **다학제적 관리**: 내분비내과, 신경외과, 안과 협진을 통해 호르몬 수치 및 시야 변화를 정기적으로 모니터링하고 뇌하수체 기능 저하증에 대한 호르몬 보충 요법을 시행함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 양성이나 거대샘종의 경우 시력 저하, 뇌하수체 기능 저하증 등의 합병증 발생 가능.
