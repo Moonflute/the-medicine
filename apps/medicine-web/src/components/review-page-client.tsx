@@ -7,7 +7,6 @@ import { LearningActivityDashboard } from "@/components/learning-activity-dashbo
 import {
   exportReviewData,
   importReviewData,
-  isDue,
   loadRecentItems,
   loadReviewItems,
   rateReviewItem,
@@ -19,7 +18,7 @@ import {
   type ReviewItem,
 } from "@/lib/review-store";
 
-type Tab = "today" | "saved" | "recent" | "activity";
+type Tab = "saved" | "recent" | "activity";
 
 const TYPE_LABELS: Record<string, string> = {
   disease: "질병",
@@ -37,7 +36,7 @@ function formatDate(value?: string) {
 export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) {
   const [items, setItems] = useState<ReviewItem[]>([]);
   const [recent, setRecent] = useState<RecentReviewItem[]>([]);
-  const [tab, setTab] = useState<Tab>("today");
+  const [tab, setTab] = useState<Tab>("activity");
   const [revealed, setRevealed] = useState<Set<string>>(new Set());
   const [message, setMessage] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
@@ -51,9 +50,7 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
     window.addEventListener(REVIEW_CHANGE_EVENT, refresh);
     return () => window.removeEventListener(REVIEW_CHANGE_EVENT, refresh);
   }, [catalog]);
-
-  const due = useMemo(() => items.filter((item) => isDue(item)), [items]);
-  const current: Array<ReviewItem | RecentReviewItem> = tab === "activity" ? [] : tab === "today" ? due : tab === "saved" ? items : recent;
+  const current: Array<ReviewItem | RecentReviewItem> = tab === "activity" ? [] : tab === "saved" ? items : recent;
   const savedKeys = useMemo(() => new Set(items.map((item) => `${item.type}|${item.id}`)), [items]);
 
   function toggleReveal(item: ReviewCatalogItem) {
@@ -105,10 +102,9 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
       <section className="flex flex-wrap items-center justify-between gap-3">
         <div className="inline-flex rounded-lg border border-slate-200 bg-white p-1">
           {([
-            ["activity", "학습 현황"],
-            ["today", `오늘 ${due.length}`],
-            ["saved", `저장 ${items.length}`],
-            ["recent", `최근 ${recent.length}`],
+            ["activity", "진도"],
+            ["saved", "저장"],
+            ["recent", "최근"],
           ] as Array<[Tab, string]>).map(([key, label]) => (
             <button key={key} type="button" onClick={() => setTab(key)} className={`rounded-md px-3 py-2 text-sm font-medium ${tab === key ? "bg-teal-600 text-white" : "text-slate-600"}`}>
               {label}
