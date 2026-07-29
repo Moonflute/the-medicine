@@ -151,9 +151,21 @@ function groupBySpecialty(items: ReviewCatalogItem[]) {
     const specialties = [...new Set((item.categories?.length ? item.categories : [item.category]).filter(Boolean))];
     for (const specialty of specialties) grouped.set(specialty, [...(grouped.get(specialty) ?? []), item]);
   }
-  return [...grouped.entries()].map(([name, groupItems]) => ({ name, items: groupItems }));
-}
-function Pixel({ item, stat, color, size = 13 }: { item: ReviewCatalogItem; stat?: ReviewCoverageItem; color: string; size?: number }) {
+  return [...grouped.entries()]
+    .map(([name, groupItems]) => ({
+      name,
+      items: [...groupItems].sort((left, right) => {
+        const leftRank = left.category === name ? 0 : 1;
+        const rightRank = right.category === name ? 0 : 1;
+        return leftRank - rightRank || left.title.localeCompare(right.title, "ko");
+      }),
+    }))
+    .sort((left, right) => {
+      const leftOrder = Number(left.name.match(/^\d+/)?.[0] ?? Number.MAX_SAFE_INTEGER);
+      const rightOrder = Number(right.name.match(/^\d+/)?.[0] ?? Number.MAX_SAFE_INTEGER);
+      return leftOrder - rightOrder || left.name.localeCompare(right.name, "ko");
+    });
+}function Pixel({ item, stat, color, size = 13 }: { item: ReviewCatalogItem; stat?: ReviewCoverageItem; color: string; size?: number }) {
   return <Link href={item.href} className="block border border-white/70 transition hover:z-10 hover:scale-150 hover:border-slate-900 focus:z-10 focus:scale-150 focus:outline-none focus:ring-2 focus:ring-teal-500" style={{ width: size, height: size, backgroundColor: stat ? color : "#cbd5e1", borderRadius: 2 }} title={`${item.title} · ${detail(stat)}`} aria-label={`${item.title}, ${detail(stat)}`} />;
 }
 

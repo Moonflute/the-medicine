@@ -8,7 +8,6 @@ export type QbankProgress = {
   lastAnswer?: QbankAnswer;
   lastCorrect?: boolean;
   lastAttemptedAt?: string;
-  mastered?: boolean;
 };
 
 export type QbankSessionResult = {
@@ -105,7 +104,6 @@ export function recordQbankAttempt(questionId: string, answer: QbankAnswer, corr
     lastAnswer: answer,
     lastCorrect: correct,
     lastAttemptedAt: new Date().toISOString(),
-    mastered: correct && previous.consecutiveCorrect + 1 >= 2,
   };
   state.progress[questionId] = next;
   state.wrongIds = correct

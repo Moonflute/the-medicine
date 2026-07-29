@@ -9,7 +9,7 @@ import type { QbankSpecialtySummary } from "@/lib/types";
 export function QbankDashboardClient({ specialties }: { specialties: QbankSpecialtySummary[] }) {
   const [selectedSpecialties, setSelectedSpecialties] = useState<string[]>([]);
   const [count, setCount] = useState("10");
-  const [stats, setStats] = useState({ attempted: 0, wrong: 0, bookmarks: 0, mastered: 0 });
+  const [stats, setStats] = useState({ attempted: 0, wrong: 0, bookmarks: 0 });
 
   useEffect(() => {
     const refresh = () => {
@@ -19,7 +19,6 @@ export function QbankDashboardClient({ specialties }: { specialties: QbankSpecia
         attempted: progress.length,
         wrong: state.wrongIds.length,
         bookmarks: state.bookmarkIds.length,
-        mastered: progress.filter((item) => item.mastered).length,
       });
     };
     refresh();
@@ -33,11 +32,11 @@ export function QbankDashboardClient({ specialties }: { specialties: QbankSpecia
 
   return (
     <div className="space-y-6">
-      <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         <div className="surface p-4"><div className="text-xs text-slate-500">전체 문제</div><div className="mt-1 text-2xl font-semibold">{total.toLocaleString()}</div></div>
         <div className="surface p-4"><div className="text-xs text-slate-500">풀이 완료</div><div className="mt-1 text-2xl font-semibold">{stats.attempted.toLocaleString()}</div></div>
         <div className="surface border-rose-200 bg-rose-50 p-4"><div className="text-xs text-rose-700">오답</div><div className="mt-1 text-2xl font-semibold text-rose-950">{stats.wrong.toLocaleString()}</div></div>
-        <div className="surface border-teal-200 bg-teal-50 p-4"><div className="text-xs text-teal-700">숙달</div><div className="mt-1 text-2xl font-semibold text-teal-950">{stats.mastered.toLocaleString()}</div></div>
+        
       </section>
 
       <section className="surface p-5 sm:p-6">
