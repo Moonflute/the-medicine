@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { BookOpenText, Maximize2, Minimize2, RotateCcw } from "lucide-react";
+import { BookOpenText, RotateCcw } from "lucide-react";
 import type { ChiefComplaintExamSlot, ChiefComplaintNote, DiseaseSection, TermLink } from "@/lib/webdb";
 import { ChiefComplaintRecommendationPicker } from "@/components/chief-complaint-recommendation-picker";
 import { RichTextLines } from "@/components/rich-text-lines";
@@ -89,23 +89,18 @@ function HistoryChecklist({ note }: { note: ChiefComplaintNote }) {
 }
 
 
-type CommonPhysicalExamFlow = {
-  key: string;
-  label: string;
-  shortLabel: string;
-  prompt: string;
-};
+type CommonPhysicalExamFlow = { key: string; label: string; items: string[] };
 
 const COMMON_PHYSICAL_EXAM_FLOW: CommonPhysicalExamFlow[] = [
-  { key: "vitals", label: "V/S", shortLabel: "V/S", prompt: "활력징후를 측정한다." },
-  { key: "eyes", label: "눈", shortLabel: "눈", prompt: "눈과 동공을 관찰한다." },
-  { key: "mouth", label: "구강", shortLabel: "구강", prompt: "구강과 인두를 관찰한다." },
-  { key: "neck", label: "목", shortLabel: "목", prompt: "목을 시진하고 촉진한다." },
-  { key: "chest", label: "흉부", shortLabel: "흉부", prompt: "흉부를 시진, 촉진, 타진, 청진한다." },
-  { key: "abdomen", label: "복부", shortLabel: "복부", prompt: "복부를 시진, 청진, 타진, 촉진한다." },
-  { key: "extremities", label: "사지", shortLabel: "사지", prompt: "사지, 맥박, 부종을 확인한다." },
-  { key: "skin", label: "피부", shortLabel: "피부", prompt: "피부를 시진하고 촉진한다." },
-  { key: "neurologic", label: "신경학적 검사", shortLabel: "신경학적 검사", prompt: "필요한 신경학적 검사를 시행한다." },
+  { key: "vitals", label: "V/S", items: ["BP \u00b7 HR \u00b7 RR \u00b7 T \u00b7 SpO\u2082"] },
+  { key: "eyes", label: "\uB208", items: ["\uACB0\uB9C9 \uCC3D\uBC31 \u00b7 \uACF5\uB9C9 \uD669\uB2EC"] },
+  { key: "mouth", label: "\uAD6C\uAC15/\uC778\uD6C4", items: ["\uAD6C\uAC15\uC810\uB9C9 \u00b7 \uD3B8\uB3C4/\uC778\uD6C4"] },
+  { key: "neck", label: "\uBAA9", items: ["\uACBD\uBD80 \uB9BC\uD504\uC808 \u00b7 \uAC11\uC0C1\uC120"] },
+  { key: "chest", label: "\uD749\uBD80", items: ["\uD638\uD761\uC74C \u00b7 \uC2EC\uC74C \u00b7 \uD749\uBCBD"] },
+  { key: "abdomen", label: "\uBCF5\uBD80", items: ["\uC555\uD1B5 \u00b7 \uBC18\uBC1C\uD1B5 \u00b7 \uC7A5\uC74C"] },
+  { key: "extremities", label: "\uC0AC\uC9C0", items: ["\uB9D0\uCD08 \uAD00\uB958 \u00b7 \uBD80\uC885"] },
+  { key: "skin", label: "\uD53C\uBD80", items: ["\uBC1C\uC9C4 \u00b7 \uD53C\uBD80\uC628\uB3C4 \u00b7 \uD0C8\uC218"] },
+  { key: "neurologic", label: "\uC2E0\uACBD", items: ["\uC758\uC2DD \u00b7 \uAD6D\uC18C \uC2E0\uACBD\uD559\uC801 \uC9D5\uD6C4"] },
 ];
 
 const COMMON_PHYSICAL_EXAM_KEYS = new Set(COMMON_PHYSICAL_EXAM_FLOW.map((flow) => flow.key));
@@ -134,7 +129,7 @@ function mergePhysicalExamGroups(slots: ChiefComplaintExamSlot[], key: string) {
     .filter((group) => group.items.length > 0);
 }
 
-function buildPhysicalExamChecklist(note: ChiefComplaintNote, compact: boolean): ChiefComplaintExamSlot[] {
+function buildPhysicalExamChecklist(note: ChiefComplaintNote): ChiefComplaintExamSlot[] {
   const sourceSlots = note.examChecklist ?? [];
   const firstCommonIndex = sourceSlots.findIndex((slot) => COMMON_PHYSICAL_EXAM_KEYS.has(slot.key));
 
@@ -144,9 +139,9 @@ function buildPhysicalExamChecklist(note: ChiefComplaintNote, compact: boolean):
 
   const commonSlots = COMMON_PHYSICAL_EXAM_FLOW.map((flow) => ({
     key: flow.key,
-    label: compact ? flow.shortLabel : flow.label,
+    label: flow.label,
     groups: [
-      { label: "Common", items: [compact ? flow.shortLabel : flow.prompt] },
+      { label: "Common", items: flow.items },
       ...mergePhysicalExamGroups(sourceSlots, flow.key),
     ],
   }));
@@ -172,81 +167,19 @@ function buildPhysicalExamChecklist(note: ChiefComplaintNote, compact: boolean):
 
 function PhysicalExamChecklist({ note }: { note: ChiefComplaintNote }) {
   const [checked, setChecked] = useState<Record<string, boolean>>({});
-  const [compact, setCompact] = useState(false);
-  const slots = useMemo(() => buildPhysicalExamChecklist(note, compact), [note, compact]);
-  const items = slots.flatMap((slot) =>
-    slot.groups.flatMap((group) => group.items.map((text, index) => ({
-      id: slot.key + "-" + group.label + "-" + index,
-      text,
-    }))),
-  );
+  const slots = useMemo(() => buildPhysicalExamChecklist(note), [note]);
+  const items = slots.flatMap((slot) => slot.groups.flatMap((group) => group.items.map((text, index) => ({ id: slot.key + "-" + group.label + "-" + index, text }))));
   const checkedCount = items.filter((item) => checked[item.id]).length;
 
-  if (items.length === 0) {
-    return <div className="mt-2 text-sm text-slate-400">{"\uC815\uB9AC\uB41C PEx \uC9C4\uCC30 \uD56D\uBAA9\uC774 \uC5C6\uC2B5\uB2C8\uB2E4."}</div>;
-  }
+  if (items.length === 0) return <div className="mt-2 text-sm text-slate-400">{"\uC815\uB9AC\uB41C PEx \uC9C4\uCC30 \uD56D\uBAA9\uC774 \uC5C6\uC2B5\uB2C8\uB2E4."}</div>;
 
-  return (
-    <div className="mt-3 space-y-4">
-      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-200 pb-3">
-        <div className="text-sm text-slate-600">
-          {"\uC9C4\uCC30 \uD655\uC778"} <span className="font-semibold text-slate-950">{checkedCount}</span> / {items.length}
-        </div>
-        <div className="flex items-center gap-2">
-          <button
-            type="button"
-            onClick={() => setCompact((value) => !value)}
-            aria-pressed={compact}
-            className="inline-flex items-center gap-1.5 rounded-md border border-slate-200 px-2.5 py-1.5 text-xs font-medium text-slate-600 transition hover:bg-slate-50 hover:text-slate-950"
-          >
-            {compact ? <Maximize2 size={14} aria-hidden="true" /> : <Minimize2 size={14} aria-hidden="true" />}
-            {compact ? "\uC804\uCCB4 \uBCF4\uAE30" : "\uAC04\uB7B5\uD654"}
-          </button>
-          <button
-            type="button"
-            onClick={() => setChecked({})}
-            className="inline-flex items-center gap-1.5 rounded-md border border-slate-200 px-2.5 py-1.5 text-xs font-medium text-slate-600 transition hover:bg-slate-50 hover:text-slate-950"
-          >
-            <RotateCcw size={14} aria-hidden="true" />
-            {"\uCD08\uAE30\uD654"}
-          </button>
-        </div>
-      </div>
-
-      <div className="space-y-5">
-        {slots.map((slot) => (
-          <section key={slot.key}>
-            <h4 className="text-sm font-semibold text-slate-950">{slot.label}</h4>
-            <div className="mt-2 divide-y divide-slate-100">
-              {slot.groups.map((group) => (
-                <div key={slot.key + "-" + group.label} className="py-2 first:pt-0 last:pb-0">
-                  {group.label !== "CC-specific" && group.label !== "Common" && !compact && (
-                    <div className="mb-1 text-xs font-medium uppercase text-slate-500">{group.label}</div>
-                  )}
-                  {group.items.map((text, index) => {
-                    const id = slot.key + "-" + group.label + "-" + index;
-                    return (
-                      <label key={id} className="flex cursor-pointer items-start gap-3 py-2 text-sm leading-6 text-slate-700">
-                        <input
-                          type="checkbox"
-                          checked={Boolean(checked[id])}
-                          onChange={() => setChecked((current) => ({ ...current, [id]: !current[id] }))}
-                          className="mt-1 h-4 w-4 shrink-0 accent-teal-700"
-                        />
-                        <span className={checked[id] ? "text-slate-400 line-through" : ""}>{text}</span>
-                      </label>
-                    );
-                  })}
-                </div>
-              ))}
-            </div>
-          </section>
-        ))}
-      </div>
+  return <div className="mt-3 space-y-3">
+    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-200 pb-3"><div className="text-sm text-slate-600">{"\uC9C4\uCC30 \uD655\uC778"} <span className="font-semibold text-slate-950">{checkedCount}</span> / {items.length}</div><button type="button" onClick={() => setChecked({})} className="inline-flex items-center gap-1.5 rounded-md border border-slate-200 px-2.5 py-1.5 text-xs font-medium text-slate-600 transition hover:bg-slate-50 hover:text-slate-950"><RotateCcw size={14} aria-hidden="true" />{"\uCD08\uAE30\uD654"}</button></div>
+    <div className="grid items-start gap-2 md:grid-cols-2 xl:grid-cols-3">
+      {slots.map((slot) => <section key={slot.key} className="min-w-0 rounded-lg border border-slate-200 bg-slate-50/60 p-2.5"><h4 className="text-sm font-semibold text-slate-950">{slot.label}</h4>{slot.groups.map((group) => <div key={slot.key + "-" + group.label} className="mt-2 first:mt-0">{group.label !== "CC-specific" && group.label !== "Common" && <div className="mb-1 text-[11px] font-medium text-slate-500">{group.label}</div>}<div className="grid grid-cols-1 gap-1.5 sm:grid-cols-2">{group.items.map((text, index) => { const id = slot.key + "-" + group.label + "-" + index; return <label key={id} className="flex min-w-0 cursor-pointer items-start gap-2 rounded-md border border-slate-200 bg-white px-2 py-1.5 text-xs leading-5 text-slate-700 transition hover:border-teal-200 hover:bg-teal-50/40"><input type="checkbox" checked={Boolean(checked[id])} onChange={() => setChecked((current) => ({ ...current, [id]: !current[id] }))} className="mt-0.5 h-3.5 w-3.5 shrink-0 accent-teal-700" /><span className={checked[id] ? "min-w-0 break-words text-slate-400 line-through" : "min-w-0 break-words"}>{text}</span></label>; })}</div></div>)}</section>)}
     </div>
-  );
+  </div>;
 }
-
 const VIEWS: Array<{ key: ViewKey; label: string }> = [
   { key: "concept", label: "\uAC1C\uB150" },
   { key: "outpatient", label: "\uC678\uB798" },
