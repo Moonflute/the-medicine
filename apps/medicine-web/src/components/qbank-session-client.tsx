@@ -82,6 +82,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const [completed, setCompleted] = useState(false);
   const [sessionStartedAt] = useState(() => new Date().toISOString());
   const sessionIdRef = useRef<string | null>(null);
+  const newSetRequestedRef = useRef(false);
   const activeSessionChannelRef = useRef<RealtimeChannel | null>(null);
   const activeSessionTimerRef = useRef<number | null>(null);
   const remoteSessionApplyingRef = useRef(false);
@@ -101,6 +102,11 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       }
     }
     return `${QBANK_SESSION_STORAGE_PREFIX}${sessionIdRef.current}`;
+  }, []);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    newSetRequestedRef.current = !params.has("session") && (params.has("mode") || params.has("specialty") || params.has("count"));
   }, []);
 
   useEffect(() => {
@@ -156,7 +162,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
     const applyRemote = (value: unknown) => {
       const session = activeSessionFrom(value);
-      if (!active || !session || session.updatedAt === appliedRemoteSessionVersionRef.current) return;
+      if (!active || newSetRequestedRef.current || !session || session.updatedAt === appliedRemoteSessionVersionRef.current) return;
       remoteSessionApplyingRef.current = true;
       setRemoteActiveSession(session);
     };
