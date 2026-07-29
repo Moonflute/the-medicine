@@ -12,11 +12,11 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 review_status: "guideline_enriched"
-reviewed_at: "2026-07-16"
-guideline_year: "2018"
-sources: ["혈관염 임상진료지침 | https://www.rheum.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=10"]
+reviewed_at: "2026-07-30"
+guideline_year: "2025"
+sources: ["Evidence-Based Guideline for the Diagnosis and Management of Eosinophilic Granulomatosis with Polyangiitis (2023) | https://pubmed.ncbi.nlm.nih.gov/37161084/", "2025 British Society for Rheumatology management recommendations for ANCA-associated vasculitis | https://pubmed.ncbi.nlm.nih.gov/40499922/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-07-30"
 ---
 분과 : [[호흡기]]
 
@@ -41,9 +41,10 @@ content_updated_at: "2026-07-16"
   ANCA 음성인 경우도 많으므로 임상적 의심이 중요함.
 
 ## 5. 치료 (Treatment)
-- 질환의 중증도에 따라 스테로이드(corticosteroids)를 기본으로 하며, 필요시 면역억제제(cyclophosphamide, rituximab 등)를 병용함.
-  질환 활성도와 장기 침범 여부에 따른 맞춤형 치료가 필요함.
-
+- **중증도 기반 유도치료**: 심근염, 중추신경계 침범, 폐포출혈, 빠르게 진행하는 신장·말초신경 침범 등 장기위협 EGPA는 고용량 glucocorticoid에 cyclophosphamide 또는 rituximab을 더해 관해유도를 한다. 장기위협 여부는 Five-Factor Score만으로 결정하지 않고 심장·신경·신장·폐 침범을 직접 평가한다.
+- **비중증 활성 질환**: 천식·비부비동 질환과 호산구성 전신 증상이 주된 경우 glucocorticoid와 mepolizumab을 우선 고려한다. methotrexate, azathioprine, mycophenolate는 생물학제 접근성·동반질환에 따라 대안이 될 수 있다.
+- **유지·재발**: 관해 후에는 steroid를 최소 유효용량으로 감량하며, 재발 위험·장기침범에 맞춰 mepolizumab, rituximab 또는 기존 면역억제제를 유지한다. 천식 악화만인지 전신 혈관염 재발인지 구분해 치료 강도를 정한다.
+- **동반 관리**: 호산구 수, ANCA, 신경·심장·신장 기능, 천식 조절과 감염 위험을 추적한다. 고용량 면역억제 시 예방접종, Pneumocystis 예방 필요성, 골보호를 함께 점검한다.
 ## 6. 예후 및 합병증 (Prognosis)
 - 심장 침범(심근염)은 주요 사망 원인 중 하나임.
   조기 진단 및 치료를 통해 장기 손상을 예방하는 것이 중요함.

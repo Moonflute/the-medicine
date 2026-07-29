@@ -11,13 +11,14 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
 sources:
-- 'Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+- Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders
 disease_family: psychiatry_split
 parent_disease: 수면 관련 장애 (Sleep-Wake Disorders)
 relation_to_parent: subtype
+content_updated_at: '2026-07-30'
 ---
 ## 1. 개요
 - 반복되는 생생하고 불쾌한 꿈으로 각성 후 빠르게 지남력과 기억이 회복되며, 수면·주간 기능에 임상적으로 의미 있는 고통을 주는 상태이다.
@@ -33,7 +34,10 @@ relation_to_parent: subtype
 - 수면일지와 병력이 중심이다. PTSD, 불안·우울, 약물/물질, 수면무호흡·렘수면 행동장애를 임상적으로 감별한다.
 
 ## 5. 치료
-- 규칙적 수면과 유발 요인 교정, 이미지 재연습 치료(IRT) 등 심리치료를 우선한다. PTSD 관련 악몽은 동반 PTSD 치료 맥락에서 전문의와 약물 선택을 논의한다.
+
+- **원인과 안전 평가**: 외상 관련 증상, 약물·물질, 수면박탈, 우울·불안과 자살 위험을 평가한다. 반복적인 비명·격렬한 행동은 다른 사건수면과 감별한다.
+- **비약물 치료 우선**: 수면 규칙화와 자극 조절을 기본으로 하고, 반복 악몽에는 이미지 리허설 치료 등 구조화된 심리치료를 고려한다.
+- **동반 PTSD 등 치료**: 외상 관련 악몽은 PTSD 전반의 근거 기반 치료에 포함해 다루며, 약물은 적응증과 부작용을 고려해 전문의가 개별화한다.
 
 ## 6. 예후 및 합병증
 - 조기 평가와 동반 질환·안전 위험의 동시 관리가 기능 회복과 재발 예방에 중요하다.

@@ -11,13 +11,14 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
 sources:
-- 'Merck Manual Professional trauma- and stressor-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+- Merck Manual Professional trauma- and stressor-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders
 disease_family: psychiatry_split
 parent_disease: 외상 및 스트레스 관련 장애 (Trauma- and Stressor-Related Disorders)
 relation_to_parent: subtype
+content_updated_at: '2026-07-30'
 ---
 ## 1. 개요
 - 해리성 기억상실의 한 양상으로, 갑작스러운 이동 또는 배회와 과거 정체성·자서전적 기억에 대한 기억 공백이 동반될 수 있다.
@@ -33,7 +34,10 @@ relation_to_parent: subtype
 - 섬망, 발작, 뇌손상, 물질중독, 조증 및 꾀병을 우선 감별한다. 급성 혼돈이나 신경학적 징후가 있으면 응급 의학적 평가가 필요하다.
 
 ## 5. 치료
-- 안전 확보와 보호자·사회적 지지 연결이 우선이며, 안정화 후 외상 관련 증상에 대한 정신치료를 시행한다. 실종·취약성 상황에는 지역 절차와 연계한다.
+
+- **우선 안전 확보**: 실종·노숙·신원 혼동, 자살 위험, 학대·착취 가능성을 평가하고 안전한 보호 환경과 가족·사회서비스 연계를 마련한다.
+- **의학적 감별**: 섬망, 경련, 물질 영향, 두부손상, 치매·기타 신경학적 원인을 배제한다. 기억 회복을 강요하거나 암시적 기법을 사용하는 것은 피한다.
+- **장기 치료**: 안정화 후 외상·스트레스 요인과 동반 우울·불안·PTSD를 다루는 지지적/외상중심 심리치료를 계획한다. 약물은 동반 질환에 대해 사용한다.
 
 ## 6. 예후 및 합병증
 - 조기 평가와 동반 질환·안전 위험의 동시 관리가 기능 회복과 재발 예방에 중요하다.

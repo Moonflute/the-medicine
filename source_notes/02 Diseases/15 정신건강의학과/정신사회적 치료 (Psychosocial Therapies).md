@@ -11,9 +11,10 @@ CC:
 - 불안
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[정신건강의학과]]
 
@@ -32,8 +33,11 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - DSM-5 진단 기준에 따른 정신질환 진단 및 심리사회적 스트레스 요인(ICD-10 Z-code 등) 평가.
 
-## 5. 치료 (Treatment)
-- 환자의 상태와 질환의 특성에 따라 정신분석, 인지행동치료, 지지적 정신치료 등을 선택적으로 적용.
+## 5. 치료
+
+- **진단·목표 기반 선택**: 증상 감소뿐 아니라 기능, 관계, 직업·학업, 재발 예방 목표를 환자와 합의하고 CBT, 가족중재, 사회기술·직업재활 등 적합한 치료를 선택한다.
+- **약물과 병행**: 중증 정신질환에서는 약물치료와 정신사회적 개입을 경쟁 관계가 아닌 통합 치료로 계획하고, 치료 반응·부작용·순응도를 함께 점검한다.
+- **접근성 확보**: 위기 시 연락 경로, 지역사회 서비스, 가족 교육을 포함한다. 자·타해 위험이나 급성 기능 붕괴는 외래 치료만으로 지연하지 않고 보호 수준을 재평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료 순응도와 환자의 자아 강도(ego strength)에 따라 예후가 결정됨.

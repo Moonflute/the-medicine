@@ -10,10 +10,10 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-review_status: "source_reviewed_no_change"
-reviewed_at: "2026-07-16"
-guideline_year: "2012"
-sources: ["KDIGO Clinical Practice Guideline for Acute Kidney Injury | https://kdigo.org/wp-content/uploads/2017/02/KDIGO_AKI_Guideline.pdf", "급성콩팥손상이란? (What is Acute Kidney Injury?) | https://www.ksn.or.kr/bbs/index.html?code=kidney_04&category=&gubun=&page=&idx=127909&mode=view"]
+review_status: "guideline_enriched"
+reviewed_at: "2026-07-30"
+guideline_year: "2024"
+sources: ["NICE NG148 Acute kidney injury: prevention, detection and management (updated 2024) | https://www.nice.org.uk/guidance/ng148", "KDIGO 2026 AKI/AKD guideline public review draft (not final) | https://kdigo.org/wp-content/uploads/2026/03/KDIGO-2026-AKI-AKD-Guideline-Public-Review-Draft-March-2026.pdf"]
 
 ---
 분과 : [[신장]]
@@ -56,7 +56,10 @@ sources: ["KDIGO Clinical Practice Guideline for Acute Kidney Injury | https://k
 
 
 ## 5. 치료 (Treatment)
-- 원인 교정: 수액 공급 (혈량저하 시), 심기능 개선 (심부전 시)
+- **원인별 관류 회복**: 저혈량이 확인되면 균형성 결정질을 소량 반복 투여하면서 혈압, 폐울혈, 소변량과 반응을 재평가한다. 심부전·간경변·패혈증처럼 총체액 과다와 유효순환혈액량 저하가 공존할 수 있으므로 일률적 대량 수액은 피한다.
+- **유발 요인 교정**: 출혈, 설사·구토, 패혈증, 심박출량 저하를 동시에 찾아 처치한다. NSAID, ACEi/ARB, 이뇨제, 조영제 등은 저관류·고칼륨혈증·저혈압 상황에서 개별적으로 보류하고, 회복 후 적응증을 다시 평가해 재시작한다.
+- **검사 해석의 주의**: FENa·FEurea·BUN/Cr은 보조 소견일 뿐이며 이뇨제 사용, CKD, 패혈증·초기 ATN에서는 오도할 수 있다. 반응이 없거나 진단이 불명확하면 요침사, 초음파 및 intrinsic/postrenal AKI 감별로 즉시 전환한다.
+- **안전 모니터링**: 체중·입출량·혈압·Cr·K/HCO₃⁻를 반복 확인한다. 폐부종, 난치성 고칼륨혈증·산증, 요독성 합병증 또는 지속 악화는 신장내과/중환자 협진과 신대체요법 적응증 평가가 필요하다.: 수액 공급 (혈량저하 시), 심기능 개선 (심부전 시)
 - 약물 조절: 신독성 약물(NSAIDs 등) 및 사구체 여과압을 낮추는 약물(ACEi, ARB) 일시 중단
 - 모니터링: 소변량 및 전해질, 신기능 추적 관찰
 

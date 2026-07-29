@@ -11,13 +11,14 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
 sources:
-- 'Merck Manual Professional trauma- and stressor-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+- Merck Manual Professional trauma- and stressor-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders
 disease_family: psychiatry_split
 parent_disease: 외상 및 스트레스 관련 장애 (Trauma- and Stressor-Related Disorders)
 relation_to_parent: subtype
+content_updated_at: '2026-07-30'
 ---
 ## 1. 개요
 - 서로 다른 정체 상태 사이의 불연속성과 일상 사건·자서전적 정보에 대한 반복적 기억 공백을 보이는 해리장애이다.
@@ -33,7 +34,10 @@ relation_to_parent: subtype
 - 구조화된 정신과 평가로 진단하며, 정신병적 장애·양극성장애·발작·물질 영향과 감별한다. 증상의 암시성 및 꾀병 가능성도 맥락 속에서 평가한다.
 
 ## 5. 치료
-- 장기적 단계 기반 정신치료(안정화·안전·외상 기억의 점진적 처리)가 중심이다. 약물은 동반 우울·불안·불면 등 표적 증상에 사용하며, 위기 시 안전계획을 우선한다.
+
+- **단계적 심리치료**: 안전·안정화, 외상 기억의 점진적 처리, 일상 기능과 정체감 통합을 목표로 한 장기 심리치료를 중심으로 한다.
+- **위험·동반질환 관리**: 자해·자살, 물질사용, PTSD·우울·불안·수면 문제를 반복 평가하고 위기 계획을 환자와 함께 만든다.
+- **약물의 위치**: DID 자체를 치료하는 특정 약물은 없으며, 약물은 동반 증상·질환에 대한 보조 치료로 사용한다. 암시적 기억회복 기법은 피한다.
 
 ## 6. 예후 및 합병증
 - 조기 평가와 동반 질환·안전 위험의 동시 관리가 기능 회복과 재발 예방에 중요하다.

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - cardiomyopathy
 유형:
@@ -13,8 +14,8 @@ CC:
 - 두근거림
 - 실신
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-26'
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional: Overview of Cardiomyopathies | https://www.merckmanuals.com/professional/cardiovascular-disorders/cardiomyopathies/overview-of-cardiomyopathies'
 ---
@@ -31,7 +32,11 @@ sources:
 - 허혈성·판막성·고혈압성 심장질환과 구분하고, 형태별 진단 기준 및 가족력·침윤성 질환·약물/독성 노출을 함께 평가한다.
 
 ## 5. 치료
-- 심부전 및 부정맥 치료를 형태와 EF에 맞춰 시행하며, 비후성 심근병증에서는 운동·폐쇄 여부와 돌연사 위험을 별도로 평가한다. 일부 환자는 ICD, 중격 치료 또는 이식 평가가 필요하다.
+
+- **심부전 관리**: 심초음파상의 박출률(EF)과 증상에 따라 가이드라인에 근거한 약물 치료를 시행하며, 필요 시 체액 저류 조절 및 심부전 전문 치료를 병행한다.
+- **부정맥 및 돌연사 예방**: 심전도 및 리듬 감시를 통해 부정맥을 파악하고, 고위험군에서는 ICD(삽입형 제세동기) 삽입 등 2차 예방 전략을 고려한다.
+- **비후성 심근병증 특수 관리**: 좌심실 유출로 폐쇄 여부 및 돌연사 위험도를 정기적으로 재평가하며, 필요 시 약물 조절, 중격 절제술 또는 알코올 중격 절제술을 고려한다.
+- **상급 병원 전원 및 다학제 진료**: 심각한 심부전, 악성 부정맥, 유전성 질환 의심 시 심장 이식 평가를 포함한 상급 의료기관의 전문적인 다학제적 진료를 권고한다.
 
 ## 6. 예후 및 합병증
 - 심부전 악화, 심방세동·심실성 부정맥, 색전증, 돌연사가 합병될 수 있다. 실신·진행성 호흡곤란·흉통은 신속한 심장 평가가 필요하다.

@@ -1,4 +1,5 @@
 ---
+source_currency_assessment: "current_standard_retained"
 aliases: []
 유형:
 - disease
@@ -20,7 +21,7 @@ sources:
 - 'ATA Guidelines for Hyperthyroidism and Other Causes of Thyrotoxicosis | https://www.thyroid.org/guidelines-hyperthyroidism-thyrotoxicosis/'
 disease_family: hyperthyroidism
 population: adult
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 ---
 

@@ -14,12 +14,12 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
-guideline_year: "2023"
-sources: ["2023 ESC Guidelines for the management of acute coronary syndromes | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Coronary-Syndromes-ACS"]
+guideline_year: "2025"
+sources: ["2025 AHA/ACC Guideline for the Management of Patients With Acute Coronary Syndromes | https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know", "2026 Focus Update of the Korean Society of Myocardial Infarction Expert Consensus on Revascularization for ACS | https://pubmed.ncbi.nlm.nih.gov/42324232/", "2023 ESC Guidelines for the management of acute coronary syndromes | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Coronary-Syndromes-ACS"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-07-30"
 
 관련분과:
 - 응급의학
@@ -70,24 +70,20 @@ content_updated_at: "2026-07-16"
 - **감별 진단**: 불안정형 협심증, NSTEMI, 대동맥 박리, 폐색전증, 심낭염.
 
 ## 5. 치료
-- **초기 처치**: 산소 투여(비강 캐뉼라 2L), 아스피린(160~325mg 씹어서 복용), 질산염(설하정 후 필요 시 정맥 투여).
-- **재관류 치료**: 
-  - 즉각적인 PCI 우선(Door-to-balloon time < 90분). PCI 불가능 시 혈전용해술(Door-to-needle time 30~60분).
-  - **다혈관 질환(Multivessel disease)**: 완전 혈관 재개통(Complete revascularization) 권장. 혈역학적 상태, 허혈 부하, 신기능, 조영제 부하를 고려하여 즉시 또는 단계적 시술 결정 [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/).
-  - **심인성 쇼크**: Culprit-first 재개통 우선 시행 후 조기 재평가. 기계적 순환 보조(Mechanical circulatory support)는 쇼크 표현형과 악화 기준에 따라 선별적 적용 [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/).
-- **약물 치료**: 항혈소판제(아스피린, P2Y12 억제제), 항응고제(헤파린 등), 베타차단제, ACE 억제제, 스타틴.
-- **수술**: CABG는 좌주간지 병변, 좌심실 기능 부전, 당뇨병 환자 등에서 PCI보다 선호될 수 있음.
-- **특수 상황**: 비폐쇄성 관상동맥 심근경색(MINOCA) 및 자발적 관상동맥 박리(SCAD) 시 기전 기반 경로 적용. SCAD는 허혈이 지속되지 않는 한 보존적 치료 우선 [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/).
+- **즉시 처치**: 심전도 확인과 동시에 PCI 가능 병원·심장중재팀에 연락한다. 아스피린 부하용량을 투여하고, 저산소혈증(대개 SpO₂ <90%), 호흡부전 또는 쇼크가 있을 때만 산소를 준다. 질산염은 저혈압, 우심실 경색, 최근 PDE-5 억제제 복용에서 피한다.
+- **재관류 전략**:
+  - **Primary PCI**가 원칙이다. 최초 의료접촉부터 PCI까지 예상 지연이 120분을 넘고 증상 발생 12시간 이내이며 금기가 없으면 혈전용해를 고려하고, 실패·지속 허혈이면 rescue PCI를 시행한다.
+  - 안정적인 다혈관 질환은 index 입원 중 또는 단계적으로 완전 재혈관화를 고려한다. 반면 **심인성 쇼크에서는 culprit vessel 우선 PCI**가 기본이며, 비책임 병변의 일괄 PCI는 피한다.
+  - PCI가 불가능하거나 해부학적으로 부적합하고 지속 허혈·기계적 합병증 등이 있으면 Heart Team과 긴급 CABG를 논의한다.
+- **항혈전 치료**: 아스피린에 P2Y12 억제제를 더한 DAPT가 기본이며, primary PCI에서는 ticagrelor 또는 prasugrel을 clopidogrel보다 우선 고려한다. prasugrel은 뇌졸중/TIA 병력에서 금기다. 항응고는 시술 전략과 출혈 위험에 맞춰 병행하며, 특별한 출혈 고위험·항응고 적응증이 없으면 DAPT 12개월을 기본값으로 개별 조정한다.
+- **입원·퇴원 후 약물**: 고강도 statin을 조기에 시작한다. 베타차단제는 쇼크·저관류·급성 심부전·서맥/방실차단이 없을 때 시작하며, 좌심실 박출률 저하·심부전·당뇨·고혈압에서는 ACEi/ARB(필요 시 ARNI)와 MRA 적응증을 확인한다. 심장재활, 금연, 혈압·LDL-C·당뇨 관리와 약물 순응도를 함께 계획한다.
+- **특수 상황**: MINOCA와 SCAD는 모두 죽상혈전 STEMI와 같은 일괄 처치를 적용하지 말고 원인별 치료로 전환한다. SCAD는 지속 허혈이나 불안정성이 없으면 보존적 치료가 우선이다.
 
 ## 6. 예후 및 합병증
 - **합병증**: 심부전, 부정맥(심실세동 등), 심인성 쇼크, 심실 파열, 승모판 역류, 심실중격 결손.
 - **예후 평가**: Killip 분류(심부전 정도), TIMI 위험 점수 활용.
-- **퇴원 후 관리**:
-  생활 습관 교정(금연, 식이, 운동), 약물 유지, 기능 평가(운동 부하 검사 등).
-  심근경색 후 6개월간은 치과적 침습 처치를 피하는 것이 권장됨.
+- **퇴원 후 관리**: 생활 습관 교정, 심장재활, 약물 유지와 조기 외래 추적을 계획한다. 치과 처치는 일률적으로 6개월 금지하지 않으며, 시술의 긴급성·DAPT 중단 위험·출혈 위험을 심장내과와 치과가 함께 조정한다.
 
-출처 : Merck Manual Professional
+출처 : 2025 AHA/ACC ACS guideline, 2026 Korean ACS revascularization focus update, 2023 ESC ACS guideline
 Last updated :
-2026-04-03 — 본문 갱신 (Gemini fill)
-2026-05-10 : 본문 갱신 (Merck Manual)
-2026-05-18 — 본문 갱신 (codex fill)
+2026-07-30 — 최신 ACS 지침 기준으로 치료·추적관리 갱신

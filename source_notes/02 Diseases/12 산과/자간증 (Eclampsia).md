@@ -15,10 +15,10 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "source_reviewed_no_change"
 guideline_year: "2025"
-sources: ["[Guideline for the prediction and prevention of pre‑eclampsia (2025)]. | https://pubmed.ncbi.nlm.nih.gov/40419347/"]
+sources: ["ACOG Practice Bulletin: Gestational Hypertension and Preeclampsia (reaffirmed 2023) | https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/gestational-hypertension-and-preeclampsia", "ACOG: Severe Hypertension in Pregnancy Bundle | https://www.acog.org/community/districts-and-sections/district-ii/programs-and-resources/safe-motherhood-initiative/severe-hypertension"]
 
 ---
 분과 : [[산과]]
@@ -55,12 +55,11 @@ sources: ["[Guideline for the prediction and prevention of pre‑eclampsia (2025
 
 
 ## 5. 치료 (Treatment)
-- **경련 조절**: 황산마그네슘(Magnesium sulfate)이 1차 치료제.
-- **혈압 조절**: 항고혈압제 투여.
-- **분만**: 모체 및 태아 상태 안정화 후 즉각적인 분만 시행.
-- **기타**: 기도 확보 및 산소 공급 등 보존적 치료 병행.
-
-
+- **즉시 소생**: 산과·마취·신생아 팀을 호출하고 좌측와위, 낙상 방지, 기도 흡인 예방과 산소화를 우선한다. 경련 중 강제 억제나 구강 내 물체 삽입은 피한다. 지속 의식저하·저산소증이면 숙련된 기도관리 인력이 기도를 확보한다.
+- **경련 치료**: magnesium sulfate가 1차 약제다. 재발 경련에는 추가 투여와 다른 원인(뇌출혈·PRES·저혈당 등)을 재평가한다. 호흡수, 심부건반사, 소변량·신기능을 감시하며 독성이 의심되면 투여를 중단하고 calcium gluconate를 준비한다. benzodiazepine·phenytoin은 magnesium이 금기이거나 사용할 수 없는 경우에 한정한다.
+- **중증 고혈압**: 지속되는 SBP ≥160 또는 DBP ≥110 mmHg는 신속히 조절한다. IV labetalol, IV hydralazine 또는 경구 즉방 nifedipine 중 환자 상태·금기·가용성에 맞는 약제를 사용하며, 과도한 혈압 저하로 태반관류를 해치지 않도록 재평가한다.
+- **분만·산후**: 모체를 먼저 안정화한 뒤 분만을 계획한다. 자간증 자체는 분만 적응증이며, 분만 방법은 주수·태아 상태·자궁경부·산과적 상황으로 결정한다. 산후에도 재발·고혈압·폐부종 위험이 있으므로 magnesium 유지와 혈압·신경학적 관찰을 계속한다.
+- **비전형 경과**: 국소 신경결손, 지속 혼수, 48시간 이후의 첫 경련 등은 뇌출혈·정맥혈전·뇌전증을 배제하기 위해 신경영상과 신경과 평가를 병행한다.
 ## 6. 예후 및 합병증 (Prognosis)
 - 모체 사망 및 태아 합병증의 주요 원인.
   경련으로 인한 저산소증, 흡인성 폐렴, 외상 위험.

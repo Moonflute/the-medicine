@@ -1,4 +1,5 @@
 ---
+source_currency_assessment: "current_standard_retained"
 aliases: []
 유형:
 - disease
@@ -12,7 +13,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2017"
 sources: ["말단비대증 환자에서 소마토스타틴 유사체 사용에 대한 권고안 (Recommendations for the use of somatostatin analogs in patients with acromegaly) | https://www.e-enm.org/upload/pdf/enm-32-486.pdf"]

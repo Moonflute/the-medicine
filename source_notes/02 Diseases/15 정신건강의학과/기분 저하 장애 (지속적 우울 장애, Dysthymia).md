@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 기분 저하 장애
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional mood disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -38,9 +39,11 @@ relation_to_parent: subtype
 - 주요 우울 삽화 기준을 충족할 수도 있고 아닐 수도 있음.
 
 ## 5. 치료
-- 원칙: 약물 치료와 정신사회적 치료(심리 치료)의 병용.
-- 약물: 항우울제(SSRI 등)가 일차 선택 약물.
-- 기타: 증상 조절 및 기능 회복을 위한 인지 행동 치료 등 정신 치료 병행.
+
+- **약물 치료**: 선택적 세로토닌 재흡수 억제제(SSRI) 또는 세로토닌-노르에피네프린 재흡수 억제제(SNRI)를 일차 약제로 고려하며, 충분한 반응을 확인하기 위해 최소 8~12주 이상의 적정 투약 기간을 권장함.
+- **정신사회적 치료**: 인지행동치료(CBT), 대인관계치료(IPT) 등 증거 기반 심리치료를 병행하여 만성적인 기저 우울감을 개선하고 사회적 기능 회복을 도모함.
+- **치료 목표 및 모니터링**: 증상 완화뿐만 아니라 삶의 질 향상과 사회적 기능 회복을 목표로 하며, 주요 우울 장애로의 이행(Double Depression) 여부를 정기적으로 평가함.
+- **전문적 평가 및 전원**: 자살 사고가 동반되거나 약물 반응이 불충분한 경우, 혹은 동반된 인격 장애나 물질 사용 장애가 확인될 경우 정신건강의학과 전문의에게 의뢰하여 심층적인 평가와 다학제적 접근을 시행함.
 
 ## 6. 예후 및 합병증
 - 만성적인 경과를 보이며, 주요 우울 장애로 이행될 위험이 있음.

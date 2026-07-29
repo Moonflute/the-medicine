@@ -1,4 +1,5 @@
 ---
+source_currency_assessment: "current_standard_retained"
 aliases:
 - 영아 연축
 유형:
@@ -15,7 +16,7 @@ clinical_priority: "tier_2"
 content_updated_at: '2026-07-15'
 guideline_year: "2022"
 sources: ["Treatment of Infantile Spasm Syndrome: Update from the Interdisciplinary Guideline Committee Coordinated by the German-Speaking Society of Neuropediatrics. | https://pubmed.ncbi.nlm.nih.gov/35882373/"]
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 ---
 분과 : [[소아청소년과]]

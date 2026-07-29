@@ -15,12 +15,12 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
-guideline_year: "2016"
-sources: ["Current Diagnostic and Treatment Strategies for Specific Dilated Cardiomyopathies: A Scientific Statement From the American Heart Association | https://www.ahajournals.org/doi/10.1161/CIR.0000000000000362"]
+guideline_year: "2023"
+sources: ["2023 ESC Guidelines for the management of cardiomyopathies | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Management-of-Cardiomyopathies"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-07-30"
 ---
 분과 : [[순환기]]
 

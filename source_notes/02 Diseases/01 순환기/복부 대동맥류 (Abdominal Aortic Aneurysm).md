@@ -14,12 +14,12 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
-guideline_year: "2019"
-sources: ["2019 AHA/ACC Guideline on the Management of Patients With Abdominal Aortic Aneurysm | https://www.ahajournals.org/doi/10.1161/CIR.0000000000000672"]
+guideline_year: "2022"
+sources: ["2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease | https://www.acc.org/Guidelines/Guidelines/2022/11/02/14/08/Aortic-Disease", "ACR Appropriateness Criteria: Abdominal Aortic Aneurysm or Dissection—Interventional Planning and Follow-Up (2025) | https://pubmed.ncbi.nlm.nih.gov/41837923/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-07-30"
 
 관련분과:
 - 응급의학

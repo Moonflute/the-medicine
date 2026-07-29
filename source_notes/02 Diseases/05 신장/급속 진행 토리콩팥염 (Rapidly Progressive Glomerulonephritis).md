@@ -16,12 +16,12 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
-guideline_year: "2021"
-sources: ["KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
+guideline_year: "2024"
+sources: ["KDIGO 2024 Clinical Practice Guideline for ANCA-Associated Vasculitis | https://kdigo.org/guidelines/anca-associated-vasculitis/", "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-07-30"
 ---
 분과 : [[신장]]
 
@@ -59,7 +59,10 @@ content_updated_at: "2026-07-16"
 
 
 ## 5. 치료 (Treatment)
-- **원칙**: 급속 진행 토리콩팥염(RPGN)은 응급 상황으로, 원인 질환(ANCA 혈관염, Anti-GBM 질환, 루푸스 신염 등)에 따른 KDIGO 최신 가이드라인을 준수하여 조기 면역억제 요법을 시행함.
+- **신장 응급으로 취급**: 활동성 요침사와 급속 Cr 상승, 폐출혈 의심은 신장내과에 당일 의뢰한다. 혈액·소변·보체·ANCA·anti-GBM 검체를 채취하고 가능하면 신장생검으로 원인을 확정하되, 장기위협적 폐신증후군에서는 결과만 기다려 치료를 지연하지 않는다.
+- **원인별 유도치료**: ANCA 연관 혈관염은 glucocorticoid와 rituximab 또는 cyclophosphamide 기반 유도치료를, anti-GBM 질환은 glucocorticoid·cyclophosphamide·혈장교환을 긴급하게 고려한다. 감염성 사구체신염·루푸스 등은 원인별 경로를 따른다.
+- **혈장교환·감염 예방**: 혈장교환은 모든 ANCA 질환에 일률적으로 쓰지 않고, 중증 신기능저하·투석 의존 또는 hypoxemic diffuse alveolar hemorrhage 등에서 위험과 이득을 전문팀이 판단한다. 강한 면역억제 시 PJP 예방, HBV/TB 위험 평가, 백신·감염 감시를 병행한다.
+- **지지·신대체요법**: 체액·혈압·K/산증을 관리하고, 고칼륨혈증·폐부종·산증·요독 합병증은 투석 적응증으로 평가한다.: 급속 진행 토리콩팥염(RPGN)은 응급 상황으로, 원인 질환(ANCA 혈관염, Anti-GBM 질환, 루푸스 신염 등)에 따른 KDIGO 최신 가이드라인을 준수하여 조기 면역억제 요법을 시행함.
 - **치료 전략**: 
   - 원인 질환별로 스테로이드, Cyclophosphamide, Rituximab 등의 면역억제제 사용.
   - Anti-GBM 질환이나 폐출혈 동반 시 혈장교환술(Plasma exchange) 고려.

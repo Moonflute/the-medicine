@@ -10,9 +10,10 @@ CC:
 - 발열
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[산과]]
 
@@ -35,9 +36,11 @@ reviewed_at: "2026-07-16"
 - 임상적 진단: 산욕기 발열 및 자궁주위 압통과 경결 확인.
 - 감별 진단: 골반 농양, 패혈성 골반 혈전정맥염(septic pelvic thrombophlebitis).
 
-## 5. 치료 (Treatment)
-- 광범위 항생제 IV (Clindamycin + Gentamicin 등).
-- 항생제 치료에 반응이 없는 경우 농양 형성 여부를 확인, 필요 시 배액 고려.
+## 5. 치료
+
+- **골반 감염으로 평가**: 산후·수술 후 발열, 골반 통증, 자궁 압통에서 자궁내막염·농양·혈전정맥염과 함께 평가하고 배양·영상 검사는 중증도에 맞춰 사용한다.
+- **항생제와 원인 통제**: 혐기성균을 포함한 광범위 항균치료는 중증도·산후 상태·기관 지침에 따라 시작하고, 농양·잔류 조직·수술 합병증은 배액 또는 수술적 source control을 상의한다.
+- **재평가**: 패혈증 징후, 지속 발열·통증, 복막자극 징후 또는 치료 반응 부재는 입원·영상 재평가와 산부인과/감염내과 협진이 필요하다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 골반 농양, 패혈성 골반 혈전정맥염, 패혈증.

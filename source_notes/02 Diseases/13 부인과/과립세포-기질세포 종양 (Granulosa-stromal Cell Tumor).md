@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - granulosa-stromal cell tumor
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -41,9 +42,12 @@ reviewed_at: "2026-07-16"
 - 조직학적 검사(Fanburg-Smith 기준)를 통해 양성, 비정형, 악성으로 분류.
 - 악성 기준: 괴사, 유사분열 증가, 세포 이형성 등 3개 이상의 특징 동반 시.
 
-## 5. 치료 (Treatment)
-- **수술**: 완전 절제(negative margin)가 표준 치료임.
-- **기타**: 악성인 경우 예후가 불량하며, 항암화학요법이나 방사선 치료의 역할은 제한적임.
+## 5. 치료
+
+* **수술적 절제**: 광범위 절제술(Wide local excision)을 통한 완전 절제(Negative margin 확보)가 표준 치료이며, 이를 통해 대부분의 양성 병변은 완치됨.
+* **불완전 절제 시 추적 관찰**: 절제면 양성(Positive margin)이거나 불완전 절제된 경우, 재발 가능성을 고려하여 정기적인 임상 추적 관찰이 필요함.
+* **악성 종양 관리**: 악성 과립세포종으로 진단되거나 전이가 의심되는 경우, 암 전문 다학제 팀으로 전원하여 추가적인 수술적 범위 확대 및 항암·방사선 치료 가능성을 평가함.
+* **재발 모니터링**: 국소 재발 및 원격 전이 위험이 있는 고위험군(병리학적 악성 소견 등)은 영상 검사를 포함한 장기적인 정기 추적 관찰이 권고됨.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 양성으로 예후가 좋으나, 불완전 절제 시 재발 가능성이 있음.

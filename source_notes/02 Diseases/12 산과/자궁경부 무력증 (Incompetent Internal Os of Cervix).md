@@ -10,9 +10,10 @@ CC:
 - 출혈
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[산과]]
 
@@ -37,8 +38,11 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 임신 2기 중 통증 없는 자궁경부 개대 병력 및 초음파상 자궁경부 길이 단축(보통 25mm 미만)을 종합하여 진단
 
-## 5. 치료 (Treatment)
-- 자궁경부 원형 결찰술 (Cerclage): McDonald 또는 Shirodkar 술식 시행
+## 5. 치료
+
+- **위험군 평가**: 이전 중기 유산·조산의 양상, 자궁경부 수술력, 임신 주수와 질식 초음파 자궁경부 길이를 종합해 위험을 재평가한다.
+- **예방 전략**: 과거력 또는 현재 소견에 따라 progesterone, 자궁경부 봉합술 등 적응증이 다른 전략을 산모태아의학과와 결정한다. 무증상 단태아의 단순 단축과 진찰상 개대는 같은 방식으로 다루지 않는다.
+- **응급 평가**: 규칙적 수축, 출혈, 양막파수, 감염 의심이 있으면 봉합술 전후 여부와 관계없이 즉시 평가한다. 활동 제한은 일률적 처방이 아니라 개별 위험에 따라 안내한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조산 위험 증가, 조기 양막 파수, 융모양막염 가능성

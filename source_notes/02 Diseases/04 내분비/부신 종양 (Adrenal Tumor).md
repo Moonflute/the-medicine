@@ -12,10 +12,10 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
-review_status: "source_reviewed_no_change"
-guideline_year: "2022"
-sources: ["French AFU Cancer Committee Guidelines Update 2022-2024: Adrenal tumor -  Assessment of an adrenal incidetaloma and oncological management. | https://pubmed.ncbi.nlm.nih.gov/36400477/"]
+reviewed_at: "2026-07-30"
+review_status: "guideline_enriched"
+guideline_year: "2023"
+sources: ["European Society of Endocrinology Clinical Practice Guideline on Adrenal Incidentalomas (2023) | https://www.ese-hormones.org/publications/directory/ese-clinical-practice-guideline-on-the-management-of-adrenal-incidentalomas-in-collaboration-with-the-european-network-for-the-study-of-adrenal-tumors/", "French AFU Cancer Committee Guidelines Update 2022-2024: Adrenal tumor | https://pubmed.ncbi.nlm.nih.gov/36400477/"]
 
 ---
 분과 : [[내분비]]
@@ -43,7 +43,11 @@ sources: ["French AFU Cancer Committee Guidelines Update 2022-2024: Adrenal tumo
 - 4cm 이상의 종양은 부신피질암 가능성을 고려해야 함.
 
 ## 5. 치료 (Treatment)
-- **비기능성/소형 종양**: 정기적인 추적 관찰.
+- **먼저 분류한다**: 이 문서는 우연히 발견된 부신 종괴의 공통 진입점이다. 영상의 양성 가능성, 코르티솔 자율분비·갈색세포종·원발성 알도스테론증 여부, 암 병력과 증상성 종괴를 함께 판단한다.
+- **명백히 양성인 비기능성 병변**: 비조영 CT에서 균질하고 HU ≤10인 병변은 대개 양성 선종으로 보며, 무증상이고 호르몬 과다가 없으면 일률적 수술이나 반복 영상 추적을 시행하지 않는다.
+- **호르몬 평가와 처치**: 1 mg overnight dexamethasone suppression test를 기본으로 하며, 전형적 양성 선종이 아닌 병변에서는 metanephrine을 평가한다. 고혈압 또는 설명되지 않는 저칼륨혈증이면 aldosterone/renin ratio를 확인하고, 임상적으로 의미 있는 호르몬 과다는 해당 내분비 질환 경로 및 부신절제술을 다학제에서 논의한다.
+- **불확정·악성 의심 병변**: 불균질, HU >20, 성장 또는 영상상 악성 의심이면 내분비·영상의학·외과·종양 다학제 평가가 필요하다. 크기만으로 기계적으로 수술을 결정하지 않고, 영상·호르몬·환자 위험을 함께 반영한다.
+- **수술 안전성**: 갈색세포종이 배제되기 전 생검은 하지 않는다. 갈색세포종이면 수술 전 적절한 α 차단과 체액 최적화가 필요하며, 양측 질환·부신기능저하 위험에서는 스테로이드 보충 계획을 세운다.: 정기적인 추적 관찰.
 - **기능성 종양**: 부신절제술(adrenalectomy)이 우선 고려됨.
 - **수술 전후**: 호르몬 과다 분비 상태에 따른 적절한 내과적 처치 및 글루코코르티코이드 보충 필요.
 

@@ -1,4 +1,5 @@
 ---
+source_currency_assessment: "current_standard_retained"
 aliases: []
 유형:
 - disease
@@ -23,7 +24,7 @@ sources:
 - 'ATA Guidelines for Treatment of Hypothyroidism | https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/'
 disease_family: hypothyroidism
 population: adult
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 ---
 

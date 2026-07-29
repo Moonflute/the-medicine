@@ -19,10 +19,10 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
-review_status: "source_reviewed_no_change"
-guideline_year: "2023"
-sources: ["폐암진료지침 3판 | https://www.lungca.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&idx=1000000000000000003"]
+reviewed_at: "2026-07-30"
+review_status: "guideline_enriched"
+guideline_year: "2025"
+sources: ["대한폐암학회 폐암진료지침 3판 (2023) | https://www.lungca.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&idx=1000000000000000003", "NCCN Guidelines® Insights: Non-Small Cell Lung Cancer, Version 7.2025 | https://pubmed.ncbi.nlm.nih.gov/40930154/"]
 
 ---
 분과 : [[호흡기]]
@@ -51,9 +51,11 @@ sources: ["폐암진료지침 3판 | https://www.lungca.or.kr/bbs/index.html?cod
   병기 결정을 위해 PET/CT 및 뇌 MRI 등이 추가될 수 있음.
 
 ## 5. 치료 (Treatment)
-- 비소세포폐암의 치료 지침에 따름.
-  초기 병기에서는 수술적 절제가 우선, 진행성 병기에서는 항암 화학 요법, 방사선 치료, 또는 면역항암제 등을 병용함.
-
+- **치료 전 공통 원칙**: 병기(TNM), 절제 가능성, ECOG 수행능력, 심폐 예비력과 조직형을 함께 판단하는 흉부외과·종양내과·방사선종양학 다학제 의뢰가 기본이다. 편평상피암도 진행성 질환에서는 분자·PD-L1 검사가 치료 선택에 영향을 줄 수 있다.
+- **절제 가능한 초기 병기**: 해부학적 폐절제와 체계적 림프절 평가가 원칙이다. 병기·고위험 병리 소견에 따라 백금 기반 보조 항암치료, 대상 환자에서 수술 전후 전신치료를 다학제에서 결정한다.
+- **국소 진행성·절제 불가 질환**: 동시 항암방사선치료가 가능한지 우선 평가하고, 치료 반응·금기 여부에 따라 공고 면역치료를 포함한 순차 치료를 검토한다.
+- **전이성 질환**: PD-L1, 동반질환·장기기능 및 금기를 기준으로 면역치료 단독 또는 백금 이중항암화학요법과 면역치료 병합을 선택한다. 편평상피암에서는 pemetrexed 기반 요법을 일반적으로 사용하지 않는다는 점을 구분한다.
+- **증상·합병증 처치**: 중심기도 폐쇄, 대량 객혈, 상대정맥증후군, 고칼슘혈증은 종양 치료를 기다리지 말고 기관지내시경 중재·완화 방사선·교정 치료를 병행한다. 금연, 영양·완화의료와 증상 조절을 초기부터 포함한다.
 ## 6. 예후 및 합병증 (Prognosis)
 - 중심성 위치로 인해 조기 발견이 가능할 수 있으나, 국소 침습 및 림프절 전이 가능성이 있음.
   고칼슘혈증 등 대사성 합병증에 대한 관리가 중요함.

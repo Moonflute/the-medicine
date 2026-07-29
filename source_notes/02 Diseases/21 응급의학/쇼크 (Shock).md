@@ -12,6 +12,8 @@ CC:
 - 의식장애
 - 실신
 clinical_priority: tier_2
+review_status: source_reviewed_no_change
+reviewed_at: '2026-07-30'
 content_updated_at: '2026-07-17'
 guideline_year: '2025'
 sources:

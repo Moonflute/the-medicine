@@ -1,4 +1,5 @@
 ---
+source_currency_assessment: "current_standard_retained"
 aliases:
 - 중증 전자간증
 유형:
@@ -15,7 +16,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2022"
 sources: ["[Reprint of: Severe pre-eclampsia: guidelines for clinical practice from the French Society of anesthesiology and intensive care (SFAR) and the French College of gynaecologists and obstetricians (CNGOF)]. | https://pubmed.ncbi.nlm.nih.gov/34781016/"]

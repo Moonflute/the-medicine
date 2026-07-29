@@ -15,13 +15,14 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
+source_currency_assessment: "current_standard_retained"
 content_updated_at: '2026-07-15'
 guideline_year: "2022"
 sources:
 - 'ACG Clinical Guideline for Diagnosis and Management of GERD | https://pubmed.ncbi.nlm.nih.gov/34807007/'
 disease_family: gerd
 population: adult
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 ---
 

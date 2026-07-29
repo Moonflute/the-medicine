@@ -13,7 +13,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "source_reviewed_no_change"
 guideline_year: "2025"
 sources: ["French national protocol for diagnosis and management of drug reaction with eosinophilia and systemic symptoms (DRESS) in adults and children. | https://pubmed.ncbi.nlm.nih.gov/40398341/"]
@@ -44,10 +44,11 @@ sources: ["French national protocol for diagnosis and management of drug reactio
   RegiSCAR 진단 기준이 흔히 사용된다.
 
 ## 5. 치료 (Treatment)
-- 원인 약물 즉시 중단
-- 중등도 이상에서 전신 스테로이드 투여 및 장기 침범에 따른 면역조절치료를 고려한다.
-- 보존적 치료 및 장기 기능 모니터링이 필수적이다.
-
+- **즉시 중단·기록**: 의심 약물과 구조적으로 교차반응 위험이 있는 약물을 즉시 중단하고, 시작일·증상 발생일·재투여 여부를 약물력에 남긴다. 원인약 재투여나 유발검사는 급성기에 시행하지 않는다.
+- **중증도 평가**: 피부 범위만 보지 말고 CBC/differential, 간·신기능, 전해질, 흉부 증상, 심전도·troponin 및 필요 시 심초음파를 평가한다. 간염, 신염, 폐렴/ARDS, 심근염, 혈구감소, 혈역학적 불안정은 입원·다학제 평가가 필요하다.
+- **치료 강도**: 경증·장기침범이 없는 경우 국소 고강도 steroid, 보습·소양감 조절과 촘촘한 장기 모니터링을 고려한다. 중등도 이상 또는 장기침범에서는 전신 corticosteroid를 사용하되 임상 반응과 장기기능을 보며 서서히 감량한다.
+- **중증·불응성**: 간부전, 심근염, 중증 폐·신장 침범은 중환자·피부과·관련 장기 전문팀과 공동 관리한다. IVIG, cyclosporine, 항바이러스제 또는 IL-5 축 표적치료는 일률적 표준치료가 아니라 steroid 불응성·특정 상황에서 전문센터가 개별 결정한다.
+- **장기 추적**: 급성기 호전 뒤에도 수주~수개월 재연·장기후유증이 가능하므로 간·신기능과 갑상샘염·당뇨 등 지연 자가면역 합병증을 추적한다.
 ## 6. 예후 및 합병증 (Prognosis)
 - 사망률은 약 10% 내외로 보고되며, 간/신장/심장 합병증과 재발 모니터링이 중요하다.
 

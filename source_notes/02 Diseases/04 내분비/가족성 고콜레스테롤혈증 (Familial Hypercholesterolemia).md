@@ -10,12 +10,12 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
-guideline_year: "2022"
-sources: ["2022 Consensus statement on the management of familial hypercholesterolemia in Korea | https://www.kjim.org/journal/view.php?number=22121"]
+guideline_year: "2026"
+sources: ["Update on familial hypercholesterolemia: An expert clinical consensus from the National Lipid Association (2026) | https://pubmed.ncbi.nlm.nih.gov/41741298/", "2022 Consensus statement on the management of familial hypercholesterolemia in Korea | https://www.kjim.org/journal/view.php?number=22121"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-07-30"
 ---
 분과 : [[내분비]]
 
@@ -45,7 +45,10 @@ content_updated_at: "2026-07-16"
 - 1차 친족에 대한 선별 검사(Cascade screening)가 필수적이다.
 
 ## 5. 치료 (Treatment)
-- **생활 습관 개선**: 저콜레스테롤 식이, 체중 조절, 금연.
+- **가족 단위로 시작**: 조기 ASCVD 위험을 설명하고, 1·2촌 혈족 cascade screening과 소아 평가를 연계한다. 생활요법은 필요하지만 LDL 수용체 결함에 대한 약물치료를 대체하지 않는다.
+- **이형접합 FH**: 최대 내약 용량 고강도 statin을 시작하고 LDL-C 목표·위험도에 따라 ezetimibe, PCSK9 억제제/siRNA 또는 bempedoic acid를 순차 추가한다. 임상 ASCVD·매우 높은 LDL-C는 조기 전문의 의뢰 대상이다.
+- **동형접합 FH**: lipid specialist 의뢰가 필요하며, LDL apheresis와 lomitapide·evinacumab 등 치료 접근성을 포함한 다중요법을 검토한다.
+- **안전·특수상황**: 임신 계획·임신 중에는 statin 등 금기/제한 약제를 사전에 조정하고, 간효소·근육 증상·순응도와 LDL 반응을 추적한다.: 저콜레스테롤 식이, 체중 조절, 금연.
 - **약물 치료 단계적 접근**:
   1. 1차: 최대 내약 용량 스타틴(statin) 및 에제티미브(ezetimibe).
   2. 2차: PCSK9 억제제, 벰페도익산(bempedoic acid) 추가 고려.

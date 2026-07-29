@@ -12,12 +12,12 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["AGA Clinical Practice Update on the Management of Ascites, Volume Overload, and Hyponatremia in Cirrhosis: Expert Review. | https://pubmed.ncbi.nlm.nih.gov/41114681/", "Korean Society of Nephrology 2022 Recommendations on controversial issues in diagnosis and management of hyponatremia | https://www.krcp-ksn.org/journal/view.php?number=555"]
+sources: ["AGA Clinical Practice Update on the Management of Ascites, Volume Overload, and Hyponatremia in Cirrhosis: Expert Review (2025) | https://pubmed.ncbi.nlm.nih.gov/41114681/", "Korean Society of Nephrology 2022 Recommendations on controversial issues in diagnosis and management of hyponatremia | https://www.krcp-ksn.org/journal/view.php?number=555"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-07-30"
 ---
 분과 : [[신장]]
 
@@ -55,8 +55,10 @@ content_updated_at: "2026-07-16"
 
 
 ## 5. 치료 (Treatment)
-- 원인 질환 교정 및 수분 제한
-- 급성기/증상 동반 시: 고장성 식염수(3% NaCl) 투여
+- **증상과 시간경과가 우선**: 경련, 혼수, 심한 혼돈 등 중증 증상은 원인 감별을 기다리지 않고 모니터링 하에 3% 고장성 식염수로 초기 소폭 교정을 시행한다. 목표는 증상 완화에 필요한 초기 Na 상승이며, 정상화 자체가 응급 목표는 아니다.
+- **과교정 방지**: 혈청 Na와 소변량을 빈번히 재확인하고, 영양실조·알코올사용·간질환·저칼륨혈증 등 ODS 고위험군에서는 특히 보수적인 24시간 교정 한도를 적용한다. 급격한 aquaresis/과교정은 고장성 수액 중단, D5W·desmopressin을 포함한 재저하 전략을 숙련된 팀과 검토한다.
+- **체액상태별 치료**: 저혈량성은 원인 교정과 등장성 수액, SIADH/euvolemic은 원인약 중단·수분 제한과 용질 전략을 중심으로 한다. 과혈량성 심부전·간경변은 울혈 치료와 수분/나트륨 관리가 핵심이며 vaptan은 질환·간기능·지역 허가를 고려해 선별적으로 사용한다.
+- **의뢰**: 원인이 불명확, Na가 매우 낮음, 신경학적 증상, 지속적 교정 실패 또는 투석 필요 상황은 신장내과/중환자 협진이 필요하다.: 고장성 식염수(3% NaCl) 투여
 - 저혈량성: 생리식염수 보충
 - 과혈량성(간경변 등): 
   - 외래: 나트륨 및 수분 제한(1-1.5 L/일), 이뇨제 및 하제 조절, 전해질 모니터링 [AGA Clinical Practice Update on the Management of Ascites, Volume Overload, and Hyponatremia in Cirrhosis: Expert Review.](https://pubmed.ncbi.nlm.nih.gov/41114681/)

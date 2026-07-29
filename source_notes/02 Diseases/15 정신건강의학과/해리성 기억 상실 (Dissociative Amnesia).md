@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 해리성 기억 상실
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional trauma- and stressor-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -33,7 +34,11 @@ relation_to_parent: subtype
 - 병력·정신상태검사와 신경학적 평가를 통합한다. 의학적 원인, 물질 영향, 꾀병 및 다른 해리장애를 감별한다.
 
 ## 5. 치료
-- 안전한 치료 관계와 지지적·외상초점 심리치료가 중심이다. 기억 회복을 강요하지 않으며, 동반 우울·불안·PTSD 및 자살위험을 함께 치료한다.
+
+* **안전 환경 조성 및 지지적 접근:** 환자의 정서적 안정을 최우선으로 하며, 신뢰 관계를 바탕으로 스트레스원을 최소화하는 지지적 환경을 제공한다.
+* **외상 중심 심리치료:** 환자가 준비되었을 때 점진적으로 외상을 다루는 심리치료를 시행하며, 기억 회복을 강압적으로 유도하지 않는다.
+* **동반 질환 관리:** 우울, 불안, PTSD 등 공존하는 정신건강 문제를 함께 치료하며, 특히 자살 사고 등 안전 위험을 지속적으로 모니터링한다.
+* **전문 진료 의뢰:** 증상이 일상생활을 심각하게 저해하거나, 치료적 개입에도 불구하고 호전이 없는 경우 정신건강의학과 전문의에게 의뢰하여 심층적인 평가와 치료를 연계한다.
 
 ## 6. 예후 및 합병증
 - 조기 평가와 동반 질환·안전 위험의 동시 관리가 기능 회복과 재발 예방에 중요하다.

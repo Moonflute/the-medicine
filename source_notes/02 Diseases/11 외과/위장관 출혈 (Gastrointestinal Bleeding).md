@@ -1,4 +1,5 @@
 ---
+source_currency_assessment: "current_standard_retained"
 aliases:
 - gastrointestinal bleeding
 유형:
@@ -20,7 +21,7 @@ sources:
 - 'ACG Clinical Guideline for Upper Gastrointestinal and Ulcer Bleeding | https://pubmed.ncbi.nlm.nih.gov/33929377/'
 disease_family: upper_gi_bleeding
 population: adult
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 ---
 

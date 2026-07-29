@@ -1,4 +1,5 @@
 ---
+source_currency_assessment: "current_standard_retained"
 aliases:
 - 맥도날드 결찰술
 - 자궁 경부 원형 결찰술
@@ -12,7 +13,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2022"
 sources: ["Cervical Cerclage: Green-top Guideline No. 75. | https://pubmed.ncbi.nlm.nih.gov/35199905/"]

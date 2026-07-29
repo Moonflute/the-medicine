@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 일과성 고관절 활막염
 유형:
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -36,9 +37,12 @@ reviewed_at: "2026-07-16"
 * 임상 증상 및 징후를 바탕으로 진단
 * **감별 진단**: 화농성 관절염(Septic arthritis)과의 감별이 가장 중요함 (Kocher criteria 활용 가능)
 
-## 5. 치료 (Treatment)
-* **보존적 치료**: 체중 부하 금지 및 안정, 필요 시 NSAIDs를 통한 통증 조절
-* **경과 관찰**: 대부분 1~2주 내 자연 호전됨
+## 5. 치료
+
+* **보존적 요법**: 증상 완화를 위해 급성기에는 충분한 휴식과 함께 체중 부하를 피하도록 권고합니다.
+* **약물 치료**: 통증 및 염증 완화를 위해 필요 시 비스테로이드성 항염증제(NSAIDs)를 처방하여 증상을 조절합니다.
+* **화농성 관절염 감별**: 고열, 지속적인 극심한 통증, 혈액 검사상 현저한 염증 수치 상승이 동반될 경우 화농성 관절염을 배제하기 위해 즉각적인 정형외과적 평가 및 입원 치료를 고려합니다.
+* **추적 관찰**: 1~2주 내 증상 호전 여부를 확인하며, 통증이 지속되거나 악화될 경우 Legg-Calve-Perthes 병 등 타 질환 여부를 재평가합니다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 대부분 후유증 없이 회복되나 재발 가능성 있음

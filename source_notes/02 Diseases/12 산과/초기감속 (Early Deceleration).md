@@ -10,9 +10,10 @@ CC:
 - 검진 이상
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[산과]]
 
@@ -37,9 +38,11 @@ reviewed_at: "2026-07-16"
 - 자궁수축과 일치하는 대칭적 FHR 감소 패턴 확인.
 - Category I FHR tracing의 일부로 분류되며, 정상적인 소견으로 간주됨.
 
-## 5. 치료 (Treatment)
-- 양성 소견이므로 특별한 처치가 필요하지 않음.
-- 지속적인 태아 심박수 모니터링을 통해 패턴 변화 여부 관찰.
+## 5. 치료
+
+- **대개 생리적 소견**: 수축과 대칭적으로 동반되고 nadir가 수축 정점과 일치하는 초기감속은 흔히 태아 두부 압박과 관련되며, 단독으로는 대개 즉각 처치 대상이 아니다.
+- **전체 파형을 함께 판단**: 기저선, 변이도, 가속, 늦은·변이 감속, 수축 빈도 및 시간적 변화로 재분류한다. 초기감속이라는 이름만으로 태아산증 여부를 판단하지 않는다.
+- **예외**: 변이도 감소, 비정형 감속, 서맥 또는 임상적 산과 위험이 동반되면 원인을 재평가하고 분만실 태아감시 경로에 따라 대응한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 태아 저산소증이나 신경학적 손상과 관련이 없는 양성 반응임.

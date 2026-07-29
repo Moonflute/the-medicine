@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -13,8 +14,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[감염]]
 
@@ -41,9 +42,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 임상 증상, 혈액 검사 이상 소견을 바탕으로 하며, RT-PCR을 통한 바이러스 유전자 검출 또는 특이 항체 검사로 확진한다.
 
-## 5. 치료 (Treatment)
-- 현재까지 입증된 특이적인 항바이러스제는 없다.
-  대증 요법이 주를 이루며, 중증 환자의 경우 수혈, 신대체 요법, 집중 치료가 필요할 수 있다.
+## 5. 치료
+
+- **대증 치료 (Supportive care):** 특이 항바이러스제가 없으므로 해열제, 수액 공급 등 환자의 임상 증상에 따른 보존적 치료를 시행한다.
+- **중증 관리:** 다발성 장기 부전 및 쇼크 발생 시 혈액학적 지지 요법(수혈), 승압제 투여, 신대체 요법(CRRT) 등 집중 치료가 필요할 수 있다.
+- **감염 전파 차단:** 환자의 혈액 및 체액을 통한 2차 감염 방지를 위해 격리 치료(표준주의 및 접촉주의)를 시행한다.
+- **전원 고려:** 신경학적 증상(의식 저하, 경련)이나 장기 부전 징후가 나타나는 경우, 상급 종합병원 중환자실(ICU)로의 조기 전원을 고려한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 다발성 장기 부전 (multiple organ failure)이 발생할 수 있으며, 치명률이 높다.

@@ -14,6 +14,8 @@ CC:
 - 의식장애
 - 가슴통증
 clinical_priority: tier_2
+review_status: source_reviewed_no_change
+reviewed_at: '2026-07-30'
 content_updated_at: '2026-07-17'
 guideline_year: '2024'
 sources:

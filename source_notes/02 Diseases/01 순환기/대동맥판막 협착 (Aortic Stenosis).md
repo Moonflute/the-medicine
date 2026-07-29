@@ -11,12 +11,12 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
-guideline_year: "2021"
-sources: ["2021 ESC/EACTS Guidelines for the management of valvular heart disease | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Valvular-Heart-Disease"]
+guideline_year: "2025"
+sources: ["2025 ESC/EACTS Guidelines for the management of valvular heart disease | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-07-30"
 ---
 분과 : [[순환기]]
 
@@ -49,13 +49,9 @@ content_updated_at: "2026-07-16"
   중증 AS는 판막 면적 < 1.0 cm², Vmax > 4 m/s, 평균 압력 차이 > 40 mmHg 등을 기준으로 평가한다.
 
 ## 5. 치료 (Treatment)
-- 약물치료로 협착 진행을 늦출 수는 없다.
-  증상이 있는 중증 AS는 판막 교체가 근본 치료이다.
-* **수술적 치료**: 대동맥판막 대치술(AVR)이 표준이다.
-* **경피적 대동맥판막 삽입술(TAVI)**: 수술 위험도가 높거나 불가능한 환자에게 고려된다.
-* **적응증**: 유증상 중증 AS, 또는 무증상이라도 좌심실 박출률(LVEF)이 50% 미만으로 감소한 경우 수술을 시행한다.
-- **중재 결정**: 유증상 중증 AS 또는 좌심실 기능 저하에서는 약물만으로 지연시키지 말고 심장판막팀에서 중재를 평가한다. SAVR와 TAVI의 선택은 연령·기대수명, 수술위험, 판막/혈관 해부학, 동반 관상동맥질환, 환자 선호를 함께 검토한다. 무증상 환자는 증상 변화와 좌심실 기능을 정기 추적하며, 운동검사·영상에서 위험 신호가 있으면 조기 재평가한다. [2020 ACC/AHA valve guideline key perspectives](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2020/12/16/21/58/2020-acc-aha-vhd-gl-pt-1-gl-vhd)
-
+- 약물치료로 협착 진행을 늦출 수는 없다. 유증상 중증 AS는 판막 교체가 근본 치료이다.
+- **적응증**: 유증상 중증 AS, 또는 무증상이라도 LVEF 저하·비정상 운동검사·빠른 진행 등 고위험 소견에서는 판막중재를 평가한다. 중증도는 평균압력차, 판막면적, 유량 상태, 석회화와 LV 기능을 통합해 판단한다.
+- **중재 결정**: SAVR와 TAVI는 모두 표준 선택지다. TAVI는 적합한 삼첨판 AS에서 대체로 70세 이상에 권고되며, 저수술위험의 70세 미만에서는 SAVR를 우선 고려한다. 그 밖의 환자는 기대수명, 재중재 가능성, 혈관·판막 해부학, 동반 관상동맥질환, 수술위험 및 환자 선호를 Heart Team이 함께 판단한다. [2025 ESC/EACTS VHD guideline](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/)
 ## 6. 예후 및 합병증 (Prognosis)
 - 증상 발현 후 치료하지 않으면 심부전, 부정맥, 급사 위험이 매우 높다.
 

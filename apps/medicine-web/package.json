@@ -1,6 +1,6 @@
 {
   "name": "medicine-web",
-  "version": "0.8.47",
+  "version": "0.8.48",
   "private": true,
   "scripts": {
     "sync:data": "node scripts/sync-generated-data.mjs && node scripts/build-infection-pathways.mjs && node scripts/build-microbiology-relations.mjs && node scripts/build-clinical-relations.mjs",

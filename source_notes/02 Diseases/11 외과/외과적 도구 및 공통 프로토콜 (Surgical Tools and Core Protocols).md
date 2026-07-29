@@ -11,6 +11,7 @@ aliases:
 CC: []
 preprocessing_required: x
 clinical_priority: "tier_2"
+document_role: reference
 review_status: "stable_reference_only"
 reviewed_at: "2026-07-26"
 ---

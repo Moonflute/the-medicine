@@ -1,4 +1,5 @@
 ---
+source_currency_assessment: "current_standard_retained"
 aliases: []
 유형:
 - disease
@@ -15,7 +16,7 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 review_status: "guideline_enriched"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 guideline_year: "2020"
 sources: ["Potassium homeostasis and management of dyskalemia in kidney diseases: conclusions from a Kidney Disease: Improving Global Outcomes (KDIGO) Controversies Conference | https://www.kidney-international.org/article/S0085-2538(19)30604-2/fulltext"]
 

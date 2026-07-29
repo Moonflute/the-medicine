@@ -13,10 +13,12 @@ CC:
 - 실신
 - 객혈
 clinical_priority: tier_1
-content_updated_at: '2026-07-15'
-guideline_year: '2019'
+reviewed_at: "2026-07-30"
+content_updated_at: "2026-07-30"
+guideline_year: '2026'
 sources:
-- 'ESC Acute Pulmonary Embolism Guideline | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-pulmonary-embolism/'
+- '2026 AHA/ACC/ACCP/ACEP/CHEST/SCAI/SHM/SIR/SVM/SVN Guideline for Acute Pulmonary Embolism | https://www.acc.org/latest-in-cardiology/journal-scans/2026/02/17/14/32/acc-aha-release-first-ever-guideline-for-treatment-and-management-of-acute-pe'
+- '2019 ESC Guidelines on Acute Pulmonary Embolism | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-pulmonary-embolism/'
 disease_family: pulmonary_embolism
 population: "adult"
 document_role: "canonical"
@@ -46,10 +48,11 @@ document_role: "canonical"
 - 진단 뒤 고위험(쇼크/저혈압), intermediate-high/intermediate-low, low-risk를 구분해 치료 장소와 재관류 필요성을 정한다.
 
 ## 5. 치료
-- 저산소증·저혈압에는 산소와 혈역학 지지를 제공한다. high-risk PE에서는 전신 혈전용해를 우선 고려하고, 금기 또는 실패 시 catheter-directed therapy 또는 수술적 embolectomy를 전문팀과 논의한다.
-- 안정 PE는 항응고가 기본이다. DOAC은 적절한 환자에서 우선 선택이며, 임신, 중증 신기능 장애, 항인지질증후군, 암·출혈 위험, 약물 상호작용에서는 LMWH/VKA 등 대안을 개별화한다.
-- intermediate-risk에서 routine thrombolysis는 출혈 위험 때문에 사용하지 않으며, 혈역학적 악화 시 rescue reperfusion을 준비한다. 항응고 시작 전후 신기능, 혈소판, 출혈, 시술 계획을 재평가한다.
-- 치료 기간은 유발 요인, 재발 위험, 출혈 위험과 선호를 반영해 정한다. 일시적 major risk factor와 관련된 첫 PE는 보통 최소 3개월 치료 후 재평가하며, 무유발·지속 위험인자·재발성 VTE는 연장 치료를 고려한다.
+
+- **초기 위험도·치료 장소**: 저혈압·쇼크·저산소증에서는 ABC, 산소화 및 혈역학 지지를 즉시 시행한다. 2026 AHA/ACC 다학회 지침의 acute PE clinical category와 활력징후, RV dysfunction·biomarker, 출혈 위험을 함께 이용해 치료 장소와 escalation을 정한다. 증상성 저위험 환자는 조기 퇴원 경로를 검토할 수 있으나, 임상 중증도가 높은 범주에서는 입원과 다학제 평가가 필요하다.
+- **항응고**: 항응고가 기본이며, 초기 비경구 항응고가 필요하면 LMWH를 UFH보다 우선 고려한다. 경구 항응고 적격 환자는 금기가 없으면 DOAC을 VKA보다 우선 고려한다. 임신, 중증 신기능 장애, 항인지질증후군, 계획된 시술, 암·출혈 위험 및 약물 상호작용에서는 LMWH/UFH/VKA 등을 개별화한다.
+- **재관류·고도 치료**: 고위험 또는 혈역학적으로 악화하는 PE에서는 전신 혈전용해, catheter-directed thrombolysis/기계적 thrombectomy, 수술적 embolectomy를 출혈 위험·해부학·기관 역량에 따라 PERT 또는 전문팀과 결정한다. 안정적인 intermediate-risk PE에 routine thrombolysis를 사용하지 않으며, 악화 시 rescue reperfusion을 준비한다.
+- **기간과 추적**: 일시적 major reversible risk factor와 관련된 첫 PE는 최소 3개월 치료 후 재평가한다. 첫 무유발 PE 또는 지속 위험인자가 있으면 초기 3–6개월 후에도 연장 항응고를 권고하거나 강하게 고려하며, 재발·출혈·신기능·선호를 반복 평가한다. 퇴원 뒤 증상, 출혈, 약물 순응도 및 CTEPH 가능성을 추적한다.
 
 ## 6. 예후 및 합병증
 - early death, 재발 VTE, major bleeding, chronic thromboembolic pulmonary hypertension(CTEPH)이 주요 합병증이다. 지속 호흡곤란·운동저하·실신은 CTEPH 또는 재발 PE 평가가 필요하다.

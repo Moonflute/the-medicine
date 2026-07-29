@@ -9,9 +9,10 @@ CC:
 - 피로
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[혈액]]
 
@@ -34,10 +35,11 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 용혈성 빈혈의 진단 기준과 함께 혈관 내 용혈의 특징적인 검사 소견(합토글로빈 감소, 혈색소뇨 등) 확인.
 
-## 5. 치료 (Treatment)
-- 기저 원인 질환에 대한 치료가 핵심.
-  수혈, 철분 및 엽산 보충 등 대증 치료.
-  기저 질환에 따른 특수 치료 (예: PNH의 경우 보체 억제제 등).
+## 5. 치료
+
+- **원인 우선 교정**: 수혈 반응, 감염, 기계적 용혈, 약물, PNH 등 원인을 신속히 찾고 유발 인자 제거·질환 특이 치료를 진행한다.
+- **장기 합병증 감시**: Hb, LDH, bilirubin, haptoglobin, 소변색·요검사와 Cr·K를 확인한다. 혈색소뇨·저혈압·급성 신손상 위험에서는 수액 및 입원 관찰을 개별화한다.
+- **전문 의뢰**: 진행성 빈혈, 혈전, 신기능 악화 또는 PNH/면역용혈 의심은 혈액내과 평가가 필요하다. 수혈은 증상·혈역학·원인에 맞추어 결정한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 기저 원인 질환에 따라 예후가 달라짐.

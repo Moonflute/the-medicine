@@ -12,9 +12,10 @@ CC:
 - 무증상
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[감염]]
 
@@ -43,9 +44,11 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 임상 증상 및 병력을 바탕으로 진단하며, 중증 감염 시 PCR을 통해 확진한다.
 
-## 5. 치료 (Treatment)
-- 대증 요법 및 보존적 치료가 원칙
-- 입증된 항바이러스제는 없으나, 면역저하자 등 특수 상황에서 시도포비어(cidofovir) 고려 가능
+## 5. 치료
+
+- **대부분은 대증치료**: 수분, 해열·진통, 호흡기 증상 완화와 경과 관찰이 기본이다. 일반 환자에게 승인된 특이 항바이러스 치료는 없다.
+- **중증 위험군 구분**: 면역저하자, 영유아, 심폐질환자에서 폐렴·저산소증·중증 장염·출혈성 방광염 등을 적극 평가하고, 중증 입원 사례는 감염내과와 상의한다.
+- **감염관리**: 증후군과 의료기관 지침에 맞춘 표준/접촉/비말 예방조치, 손 위생 및 환경 소독을 적용한다. 집단 발생은 기관 감염관리팀·보건당국 보고 기준을 확인한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 자연 치유되나, 영아, 군인, 면역저하자에서는 중증 폐렴 등 치명적인 경과를 보일 수 있다.

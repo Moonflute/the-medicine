@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - hepatitis
 유형:
@@ -12,8 +13,8 @@ CC:
 - 피로
 - 구토
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-26'
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional: Causes of Hepatitis | https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/hepatitis/causes-of-hepatitis'
 ---
@@ -30,7 +31,11 @@ sources:
 - 간세포성 손상과 담즙정체 양상을 구분하고, 바이러스·자가면역·약물성·허혈성·대사성 원인을 체계적으로 감별한다. AST/ALT가 매우 높거나 INR 상승이 있으면 중증도를 즉시 판단한다.
 
 ## 5. 치료
-- 원인별 치료와 간기능 보존이 원칙이다. 급성 바이러스 간염은 대개 지지 치료가 중심이나, 만성 B·C형 및 자가면역 간염은 전문적인 항바이러스·면역치료 전략이 필요하다.
+
+- **원인 제거 및 회피**: 약물성·독성 간염은 원인 약제 즉시 중단, 알코올성 간염은 금주, 대사 질환은 기저 질환 교정을 우선함.
+- **지지 요법**: 급성기에는 충분한 휴식과 영양 공급을 유지하며, 간 독성 위험이 있는 불필요한 보조제나 한약제 복용을 엄격히 제한함.
+- **특수 치료**: 만성 B·C형 간염 및 자가면역 간염은 간 손상 진행 방지를 위해 전문적인 가이드라인에 따른 항바이러스제 또는 면역억제제 치료를 시행함.
+- **상급 병원 의뢰 기준**: PT/INR 연장, 간성뇌병증, 의식 변화, 급격한 황달 증가 등 급성 간부전 징후가 보일 경우 즉시 상급 종합병원으로 전원함.
 
 ## 6. 예후 및 합병증
 - 만성 간염은 섬유화·간경변·간세포암으로 진행할 수 있다. INR 연장, 간성뇌병증, 진행성 황달은 응급 의뢰 또는 입원 평가 대상이다.

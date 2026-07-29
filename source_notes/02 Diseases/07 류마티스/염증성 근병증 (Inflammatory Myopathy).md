@@ -1,4 +1,5 @@
 ---
+source_currency_assessment: "current_standard_retained"
 aliases: []
 유형:
 - disease
@@ -19,7 +20,7 @@ clinical_priority: "tier_2"
 content_updated_at: '2026-07-15'
 guideline_year: "2022"
 sources: ["British Society for Rheumatology guideline on management of paediatric, adolescent and adult patients with idiopathic inflammatory myopathy. | https://pubmed.ncbi.nlm.nih.gov/35355064/"]
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 ---
 분과 : [[류마티스]]

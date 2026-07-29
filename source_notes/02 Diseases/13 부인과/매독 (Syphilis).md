@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - syphillis
 유형:
@@ -16,8 +17,8 @@ parent_disease: "매독 (Syphilis)"
 relation_to_parent: "pregnancy_sexual_health"
 population: "pregnancy"
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -46,9 +47,13 @@ reviewed_at: "2026-07-16"
 - 임상적 의심과 함께 선별 검사 양성 시 확진 검사를 시행함.
 - HIV 동반 감염 가능성이 높으므로 HIV 검사를 병행함.
 
-## 5. 치료 (Treatment)
-- 페니실린(Benzathine penicillin G)이 표준 치료제임.
-- 신경 매독의 경우 수액용 페니실린 G(IV aqueous penicillin G)를 우선함.
+## 5. 치료
+
+* **1차 치료**: 병기(초기, 후기 잠복)에 따라 근주용 Benzathine penicillin G를 표준 요법으로 시행.
+* **신경 매독 및 안구 매독**: 정맥 주사용 Aqueous penicillin G를 고용량 투여하며, 감염내과 또는 관련 전문의에게 의뢰.
+* **페니실린 알레르기**: 대체 약제 선택 및 탈감작(desensitization) 필요 시 감염내과 전문의와 협의하여 치료 계획 수립.
+* **치료 반응 평가**: 비트레포네마 검사(RPR, VDRL) 역가를 추적 관찰하여 치료 반응을 판정함.
+* **파트너 관리**: 감염 전파 방지를 위해 성 파트너의 검사 및 필요 시 예방적 치료를 병행하도록 권고.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 치료 시 완치 가능하나, 치료하지 않을 경우 수년에서 수십 년에 걸쳐 전신 장기 손상(심혈관, 신경계 등)을 유발함.

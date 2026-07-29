@@ -13,10 +13,10 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: '2026-07-15'
-guideline_year: "2024"
-sources: ["English version of Japanese Clinical Practice Guidelines 2022 for gastrointestinal stromal tumor (GIST) issued by the Japan Society of Clinical Oncology. | https://pubmed.ncbi.nlm.nih.gov/38609732/"]
-reviewed_at: "2026-07-16"
+content_updated_at: "2026-07-30"
+guideline_year: "2025"
+sources: ["Japanese Clinical Practice Guidelines 2022 for Gastrointestinal Stromal Tumor, English version published 2024 | https://pubmed.ncbi.nlm.nih.gov/38609732/", "GEIS Guidelines for gastrointestinal stromal tumors (2023) | https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/"]
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 ---
 분과 : [[소화기]]
@@ -48,7 +48,11 @@ review_status: "guideline_enriched"
 
 
 ## 5. 치료
-- **수술**: 국소 GIST의 표준 치료는 완전 절제술임. 종양 크기가 5.1cm 이상이거나, 증상이 있는 경우, 또는 생검으로 GIST가 진단된 경우 수술적 절제를 고려함
+- **절제 가능 국소 GIST**: R0 절제를 목표로 장기 보존 수술을 계획하며, 임상적으로 의심되는 림프절 전이는 드물어 일률적 림프절곽청은 하지 않는다. 종양 파열은 재발 위험을 크게 높이므로 수술 중 파열을 피한다.
+- **분자·위험도 기반 결정**: KIT/PDGFRA 변이와 크기·유사분열수·원발 부위·파열 여부로 위험을 평가한다. 경계 절제 가능·기능 보존이 필요한 경우 imatinib 감수성 변이인지 확인 후 neoadjuvant imatinib을 다학제에서 고려한다.
+- **보조치료**: imatinib 감수성 고위험군은 보통 3년 보조 imatinib을 고려한다. PDGFRA D842V 등 imatinib 비감수성 변이에는 기계적으로 보조 imatinib을 적용하지 않는다.
+- **진행성/전이성**: imatinib을 1차로 사용하고, 진행 시 변이·순응도·약물상호작용을 재평가해 용량 조정 또는 sunitinib, regorafenib, ripretinib 등 순차 TKI를 전문팀에서 선택한다. PDGFRA D842V에는 avapritinib을 고려한다.
+- **추적**: 재발 위험과 치료 단계에 따라 조영 CT/MRI 간격을 개별화하며, 치료 중 간기능·부종·출혈과 약물 상호작용을 확인한다.: 국소 GIST의 표준 치료는 완전 절제술임. 종양 크기가 5.1cm 이상이거나, 증상이 있는 경우, 또는 생검으로 GIST가 진단된 경우 수술적 절제를 고려함
 - **수술 후 보조요법 (Adjuvant Therapy)**:
   - 고위험군에서 Imatinib을 보조 요법으로 사용함. 단, 저위험 및 중간위험군 GIST에서는 보조적 Imatinib 치료의 효과가 확립되어 있지 않음
 - **수술 후 추적 관찰 (조영증강 CT)**:

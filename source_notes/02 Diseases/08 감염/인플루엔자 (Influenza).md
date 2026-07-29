@@ -15,11 +15,12 @@ CC:
 - 피로
 preprocessing_required: x
 last_studied: '2026-06-06'
-document_role: "canonical"
-population: "general"
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+document_role: canonical
+population: general
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[감염]]
 
@@ -43,9 +44,11 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 임상 증상과 인플루엔자 항원 검사 또는 RT-PCR 양성으로 진단한다.
 
-## 5. 치료 (Treatment)
-- 대증 치료 (해열진통제 등)와 항바이러스제 (오셀타미비르, 자나미비르, 발록사비르 등)를 투여한다.
-  증상 발현 48시간 이내에 투여 시 효과가 가장 좋다.
+## 5. 치료
+
+- **우선 치료군**: 입원, 중증·진행성 질환, 합병증 고위험군은 검사 결과를 기다리지 않고 가능한 한 빨리 항바이러스 치료를 시작한다.
+- **외래 판단**: 합병증 없는 저위험 외래 환자는 증상 시작 초기의 기대 이득과 금기·약물상호작용을 고려해 치료 여부를 결정한다. 항생제는 세균성 합병증이 의심될 때만 별도로 판단한다.
+- **악화 감시**: 저산소증, 호흡곤란, 의식 변화, 탈수, 흉통 또는 기저질환 악화는 재평가·입원 기준이다. 유행 시기 예방접종과 고위험군 노출 후 예방은 별도 지침을 따른다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 폐렴, 라이 증후군 (Reye syndrome) 등의 합병증이 발생할 수 있다.

@@ -17,9 +17,10 @@ CC:
 - 야간 발한
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[혈액]]
 
@@ -41,10 +42,11 @@ reviewed_at: "2026-07-16"
 - 림프절 조직 검사를 통한 병리 진단.
   형태학적, 면역표현형, 유전학적 특징을 종합하여 진단.
 
-## 5. 치료 (Treatment)
-- 공격적인 림프종으로, 고용량 항암 화학요법이 필요.
-  R-CHOP 요법 또는 더 강도 높은 항암 요법 (예: DA-EPOCH-R).
-  중추신경계 예방 요법.
+## 5. 치료
+
+- **혈액종양 응급 평가**: 병리 재검토와 면역표현형·유전학적 분류를 신속히 확정하고, 치료 계획은 혈액종양 전문팀의 고강도 림프종 프로토콜에 따른다.
+- **종양용해 예방**: 치료 전 종양부하, LDH, 요산, K·P·Ca·Cr를 평가하고 수액·요산 저하 전략 및 빈번한 전해질 감시를 시행한다.
+- **입원·협진**: 장기 침범, 고종양부하, 신기능 저하 또는 종양용해 위험이 높으면 입원 치료를 우선하며, 감염 예방·수혈·중추신경계 평가를 전문팀과 결정한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 일반적인 DLBCL보다 예후가 불량하며, 재발률이 높음.

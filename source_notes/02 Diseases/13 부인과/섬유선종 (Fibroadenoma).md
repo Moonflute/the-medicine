@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 섬유선종
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -41,10 +42,12 @@ reviewed_at: "2026-07-16"
 - 악성 종양과의 감별이 중요하며, 의심 시 생검 시행
 
 
-## 5. 치료 (Treatment)
-- **경과 관찰** 대부분의 경우 무증상이면 정기적 추적 관찰
-- **수술적 절제** 종괴가 급격히 커지거나, 2cm 이상으로 크거나, 환자가 원할 경우 시행
+## 5. 치료
 
+* **경과 관찰(Observation):** 진단이 확실한 무증상 섬유선종은 정기적인 신체 검진 및 영상 추적 검사로 충분함.
+* **수술적 고려:** 종괴의 크기가 급격히 증가하거나, 2cm 이상의 거대 섬유선종인 경우, 혹은 환자의 심리적 불안이 심한 경우에는 절제술을 고려함.
+* **영상-조직 검사 불일치 시:** 영상 소견과 조직 검사 결과가 일치하지 않거나 악성 의심 소견이 동반되면 전문의에게 의뢰하여 추가적인 진단적 절제 생검(Excisional biopsy)을 시행함.
+* **복합 섬유선종 관리:** 복합 섬유선종(complex fibroadenoma)으로 진단된 경우, 유방암 발생 위험도를 고려하여 환자 상담 및 정기적 추적 관찰 주기를 재설정함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후** 양성 종양으로 예후가 매우 좋음

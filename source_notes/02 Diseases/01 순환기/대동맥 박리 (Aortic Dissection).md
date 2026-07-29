@@ -11,11 +11,12 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2022"
 sources: ["2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease | https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106"]
 
+source_currency_assessment: "current_standard_retained"
 content_updated_at: "2026-07-17"
 
 관련분과:

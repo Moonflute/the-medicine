@@ -15,11 +15,11 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 review_status: "guideline_enriched"
-reviewed_at: "2026-07-16"
-guideline_year: "2024"
-sources: ["요로 감염 항생제 사용지침2018 (Antibiotic Use Guidelines for Urinary Tract Infections 2018) | http://www.ksid.or.kr/file/guideline/2018_UTI_guideline.pdf", "EAU Guidelines on Urological Infections | https://uroweb.org/guidelines/urological-infections"]
+reviewed_at: "2026-07-30"
+guideline_year: "2025"
+sources: ["EAU Guidelines on Urological Infections (2025) | https://uroweb.org/guidelines/urological-infections", "Korean Guidelines for Antibiotic Use in Urinary Tract Infections (2018; local susceptibility reference) | http://www.ksid.or.kr/file/guideline/2018_UTI_guideline.pdf"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-07-30"
 ---
 분과 : [[신장]]
 
@@ -56,7 +56,10 @@ content_updated_at: "2026-07-16"
 
 
 ## 5. 치료 (Treatment)
-- **항생제**: 원인균 및 감수성 결과에 따라 정맥 항생제를 투여함. 경험적 항생제는 지역사회 및 병원 획득 감염 여부와 내성 패턴을 고려하여 선택.
+- **배양 후 즉시 치료**: 혈액·소변 배양을 가능한 한 먼저 채취하고, 패혈증·최근 의료노출·요로폐쇄·내성 위험에 맞춘 정주 경험적 항생제를 시작한 뒤 배양 결과와 신기능으로 de-escalation 한다.
+- **source control 평가**: 조영 CT로 크기·다방성·가스·주변 침범과 폐쇄를 확인한다. 항생제만으로 호전되지 않거나 큰/복잡 농양, 패혈증, 폐쇄 동반 시 비뇨의학과·중재영상의학과에 조기 의뢰해 경피배액 또는 수술을 결정한다. 고정된 단일 크기 기준만으로 배액 여부를 결정하지 않는다.
+- **치료 기간·추적**: 임상 반응, 균, 배액 가능 여부, 농양 잔존과 면역저하에 따라 총 치료 기간을 개별화한다. 48–72시간 내 열·통증·염증수치가 호전되지 않으면 저항균, 불충분한 배액과 다른 감염원을 재평가하고 추적 영상을 시행한다.
+- **긴급 상황**: 저혈압·장기부전, emphysematous infection, 단일 신장/양측 폐쇄는 패혈증 경로와 동시 배액 평가가 필요하다.: 원인균 및 감수성 결과에 따라 정맥 항생제를 투여함. 경험적 항생제는 지역사회 및 병원 획득 감염 여부와 내성 패턴을 고려하여 선택.
 - **배액술**: 농양의 크기가 크거나(일반적으로 >3-5cm), 항생제 치료에도 불구하고 48-72시간 내 임상적 호전이 없는 경우 경피적 배액술(percutaneous drainage)을 시행함.
 - **수술**: 배액술이 불가능하거나 실패한 경우, 또는 농양 파열 등 합병증 발생 시 신절제술 등 수술적 치료를 고려함.
 - **모니터링**: 치료 반응 평가를 위해 임상 증상 호전 여부와 염증 수치(CRP, WBC)를 추적 관찰함. [EAU Guidelines on Urological Infections](https://uroweb.org/guidelines/urological-infections)

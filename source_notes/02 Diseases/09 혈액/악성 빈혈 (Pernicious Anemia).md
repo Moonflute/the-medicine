@@ -10,9 +10,10 @@ CC:
 - 무증상
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[혈액]]
 
@@ -37,9 +38,11 @@ reviewed_at: "2026-07-16"
 - 혈청 비타민 B12 농도 측정 및 항내인자항체 검사.
   필요 시 위내시경을 통해 위축성 위염 확인 및 위암 위험도 평가.
 
-## 5. 치료 (Treatment)
-- 비타민 B12 (cobalamin) 근육 주사: 초기에는 매일 또는 격일로 투여하여 결핍을 교정, 이후 유지 요법으로 주기적 투여.
-  경구 고용량 요법도 고려 가능.
+## 5. 치료
+
+- **비타민 B12 보충**: 신경학적 증상과 결핍 정도를 고려해 초기 보충 경로를 정하고, 흡수장애가 지속되는 경우 장기 유지 보충 계획을 세운다.
+- **치료 반응 확인**: 망상적혈구 반응, Hb/MCV, B12와 함께 칼륨 변동 및 신경 증상 회복을 추적한다. 엽산만 단독 투여해 신경학적 결핍을 가리지 않도록 한다.
+- **연관 질환 평가**: 자가면역 갑상샘질환 등 동반 자가면역질환을 고려하고, 자가면역 위염과 위 종양 위험에 대한 평가·추적은 소화기내과와 개별화한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 비타민 B12 보충 시 빈혈은 호전되나, 신경학적 증상은 조기 치료가 중요함.

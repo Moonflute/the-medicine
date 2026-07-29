@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - intraductal papilloma
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[부인과]]
 
@@ -36,9 +37,12 @@ reviewed_at: "2026-07-16"
 - 영상 검사와 병리 조직 검사 결과의 일치 여부가 중요함.
   악성 종양(DCIS 등)과의 감별이 필요함.
 
-## 5. 치료 (Treatment)
-- 수술적 절제(종양의 완전 제거)가 권장됨.
-  악성으로의 이행 가능성(upgrading)을 배제하기 위함.
+## 5. 치료
+
+* **수술적 절제**: 영상 소견과 병리 결과가 일치하더라도 악성 종양으로의 상향 진단(upgrading) 가능성을 배제하고 증상 해결을 위해 병변의 완전 절제를 권장함.
+* **진공 보조 절제술(VAB)**: 병변의 완전 제거가 가능하고 영상학적으로 완전히 절제된 경우, 환자와 상의하여 제한적으로 고려할 수 있으나 유관 내 잔류 병변 확인이 필요함.
+* **악성 동반 시 조치**: 조직검사상 비정형 관증식증(ADH)이나 악성 소견이 확인될 경우, 추가적인 절제술 등 암 진료 가이드라인에 따른 표준 치료로 연계함.
+* **추적 관찰**: 수술적 치료 후에는 유방 전문의의 판단에 따라 정기적인 영상 검사를 통한 장기적인 추적 관찰을 시행함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후는 매우 좋음.

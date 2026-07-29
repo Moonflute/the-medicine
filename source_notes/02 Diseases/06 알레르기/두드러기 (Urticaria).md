@@ -1,4 +1,5 @@
 ---
+source_currency_assessment: "current_standard_retained"
 aliases: []
 유형:
 - disease
@@ -13,7 +14,7 @@ last_studied: '2026-06-06'
 document_role: "canonical"
 population: "general"
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2022"
 sources: ["한국 만성두드러기 진료지침 | https://www.kaaaci.org/html/sub04_04_01.html?mode=view&idx=100", "The international EAACI/GA²LEN/EuroGuiDerm/APAAACI guideline for the definition, classification, diagnosis, and management of urticaria | https://onlinelibrary.wiley.com/doi/10.1111/all.15090"]

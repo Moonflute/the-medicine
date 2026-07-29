@@ -11,10 +11,10 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-review_status: "source_reviewed_no_change"
-reviewed_at: "2026-07-16"
-guideline_year: "2012"
-sources: ["KDIGO Clinical Practice Guideline for Acute Kidney Injury | https://kdigo.org/wp-content/uploads/2017/02/KDIGO_AKI_Guideline.pdf", "급성콩팥손상이란? (What is Acute Kidney Injury?) | https://www.ksn.or.kr/bbs/index.html?code=kidney_04&category=&gubun=&page=&idx=127909&mode=view"]
+review_status: "guideline_enriched"
+reviewed_at: "2026-07-30"
+guideline_year: "2024"
+sources: ["NICE NG148 Acute kidney injury: prevention, detection and management (updated 2024) | https://www.nice.org.uk/guidance/ng148", "KDIGO 2026 AKI/AKD guideline public review draft (not final) | https://kdigo.org/wp-content/uploads/2026/03/KDIGO-2026-AKI-AKD-Guideline-Public-Review-Draft-March-2026.pdf"]
 
 ---
 분과 : [[신장]]
@@ -53,12 +53,10 @@ sources: ["KDIGO Clinical Practice Guideline for Acute Kidney Injury | https://k
 
 
 ## 5. 치료 (Treatment)
-- 폐쇄 원인 제거 및 요로 감압(Decompression)
-- Foley 카테터 삽입 또는 경피적 신루 설치술(PCN)
-- 폐쇄 해제 후 다뇨 및 전해질 불균형(저나트륨혈증, 저칼륨혈증 등) 주의
-- 원인 질환에 따른 치료 (전립샘 비대 시 약물 치료 등)
-
-
+- **감압을 지연하지 않는다**: 방광출구 폐쇄가 의심되면 bladder scan과 도뇨로 즉시 감압한다. 양측 요관 폐쇄, 감염 동반 폐쇄, 단일 신장·무뇨, 상부 요로 폐쇄는 비뇨의학과에 긴급 의뢰하여 ureteral stent 또는 PCN을 결정한다.
+- **원인별 연결**: BPH, 요도협착, 결석, 종양·후복막섬유화와 신경인성 방광을 구분한다. 폐쇄성 신우신염/패혈증은 항생제와 배액이 함께 필요하며, 항생제만으로 배액을 지연하지 않는다.
+- **감압 후 관리**: 감압 뒤 일시적 혈뇨·저혈압·post-obstructive diuresis가 생길 수 있으므로 초기 소변량, 활력징후, 체중, Na/K/Mg/Cr를 촘촘히 확인하고 손실·울혈 상태에 맞춰 수분과 전해질을 개별 보충한다. 임의로 도뇨관을 반복 clamp하는 방식은 표준 처치가 아니다.
+- **회복·의뢰**: 수신증이 없더라도 초기 폐쇄·후복막 질환에서는 배제되지 않는다. 신기능이 회복하지 않거나 고칼륨혈증, 산증, 폐부종·요독 증상이 있으면 신장내과와 함께 신대체요법 적응증을 평가한다.
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 및 폐쇄 해제 시 신기능 회복 가능
 - 장기 폐쇄 시 영구적인 신손상 및 만성 콩팥병(CKD)으로 진행 가능

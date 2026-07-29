@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - brachial cleft cyst
 유형:
@@ -12,8 +13,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[소아청소년과]]
 
@@ -34,9 +35,12 @@ reviewed_at: "2026-07-16"
 * 임상 증상 및 신체 검진
 * 영상 의학적 검사(초음파, CT 등)를 통한 확진
 
-## 5. 치료 (Treatment)
-* **보존적 치료**: 감염 시 항생제 투여
-* **외과적 절제**: 근본적인 치료법으로, 재발 방지를 위해 낭종 및 누관을 완전히 제거
+## 5. 치료
+
+* **감염 관리**: 급성 감염 징후(발적, 통증, 부종)가 있는 경우 배양 검사 및 적절한 항생제 투여로 염증 조절 우선 시행
+* **수술적 절제**: 근본적인 치료를 위해 낭종 및 연결된 누관(fistula)의 완전 절제술 고려 (재발 방지 및 합병증 예방 목적)
+* **전문 진료 의뢰**: 감염의 반복, 종괴 크기 증가 또는 주변 구조물 침범이 의심될 경우 이비인후과(두경부 외과)로 조기 의뢰
+* **수술 시기 결정**: 염증이 소실된 후(interval surgery) 시행하는 것이 해부학적 구조 파악 및 완전 절제에 유리함
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 불완전 절제 시 재발 가능성 있음

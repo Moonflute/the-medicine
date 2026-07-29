@@ -16,11 +16,11 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 review_status: "guideline_enriched"
-reviewed_at: "2026-07-16"
-guideline_year: "2012"
-sources: ["KDIGO Clinical Practice Guideline for Acute Kidney Injury | https://kdigo.org/wp-content/uploads/2017/02/KDIGO_AKI_Guideline.pdf", "급성콩팥손상이란? (What is Acute Kidney Injury?) | https://www.ksn.or.kr/bbs/index.html?code=kidney_04&category=&gubun=&page=&idx=127909&mode=view"]
+reviewed_at: "2026-07-30"
+guideline_year: "2024"
+sources: ["NICE NG148 Acute kidney injury: prevention, detection and management (updated 2024) | https://www.nice.org.uk/guidance/ng148", "KDIGO 2026 AKI/AKD guideline public review draft (not final) | https://kdigo.org/wp-content/uploads/2026/03/KDIGO-2026-AKI-AKD-Guideline-Public-Review-Draft-March-2026.pdf"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-07-30"
 ---
 분과 : [[신장]]
 
@@ -60,7 +60,10 @@ content_updated_at: "2026-07-16"
 
 
 ## 5. 치료 (Treatment)
-- 원인 교정: 신독성 약물 중단, 감염 치료, 혈압 조절
+- **원인 확인과 지지치료를 병행**: 신독성 약제·조영제 노출, 허혈, 패혈증과 요침사·단백뇨/혈뇨를 재평가한다. 체액 상태에 맞춰 수액 또는 울혈 조절을 하고, 단순히 AKI를 치료하기 위한 이뇨제는 쓰지 않으며 체액 과다에서만 사용한다.
+- **질환특이 치료**: ATN은 관류·감염·약물 교정이 중심이다. 사구체신염, 간질성신염, 혈관염·TMA 의심 시 신장내과와 생검·면역억제 또는 원인약 중단을 긴급하게 결정한다.
+- **약물·전해질 안전성**: 용량을 현재 eGFR와 변화 속도에 맞춰 조절하고, K·산염기·체중·입출량·Cr를 반복 확인한다. ACEi/ARB·NSAID·metformin 등은 저관류·고칼륨혈증·중증 AKI 상황에서 개별적으로 보류 후 회복 시 재평가한다.
+- **신대체요법**: 난치성 고칼륨혈증, 산증, 폐부종/체액과다, 요독성 합병증은 수치 하나가 아니라 임상 상태로 투석을 결정한다.: 신독성 약물 중단, 감염 치료, 혈압 조절
 - 보존적 치료: 수액 요법(체액 상태에 따라 조절), 이뇨제(필요 시)
 - 면역 매개 질환: 스테로이드 및 면역억제제
 - 신대체 요법: 혈액 투석(난치성 고칼륨혈증, 산증, 폐부종, 요독 증상 시)

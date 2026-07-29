@@ -18,7 +18,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["Steroid-sensitive nephrotic syndrome in children: Korean Society of Pediatric Nephrology clinical practice recommendations | https://www.krcp-ksn.org/journal/view.php?number=130", "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
+sources: ["Steroid-sensitive nephrotic syndrome in children: Korean Society of Pediatric Nephrology clinical practice recommendations (2025) | https://www.krcp-ksn.org/journal/view.php?number=130", "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
 
 content_updated_at: "2026-07-16"
 ---

@@ -1,4 +1,5 @@
 ---
+source_currency_assessment: "current_standard_retained"
 aliases: []
 유형:
 - disease
@@ -10,7 +11,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2021"
 sources: ["Management of Rhabdomyolysis: A Practice Management Guideline from the Eastern Association for the Surgery of Trauma | https://www.east.org/education/practice-management-guidelines/management-of-rhabdomyolysis"]

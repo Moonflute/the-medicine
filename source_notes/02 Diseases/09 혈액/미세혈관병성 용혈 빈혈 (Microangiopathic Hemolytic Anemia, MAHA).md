@@ -11,9 +11,10 @@ CC:
 - 호흡곤란
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[혈액]]
 
@@ -35,9 +36,11 @@ reviewed_at: "2026-07-16"
 - 임상 양상, 용혈성 빈혈 및 혈소판 감소증, 말초혈액 도말에서 분열적혈구 확인으로 진단.
   기저 원인 질환(TTP, HUS, DIC 등) 감별이 필수적.
 
-## 5. 치료 (Treatment)
-- 기저 원인 질환에 대한 치료가 필수적 (예: TTP의 혈장 교환술, HUS의 지지 요법 및 투석, DIC의 원인 질환 교정).
-  필요 시 수혈 등 대증 치료 시행.
+## 5. 치료
+
+- **응급 증후군으로 접근**: 빈혈·혈소판감소와 schistocyte가 동반되면 TTP, HUS, DIC, 악성고혈압, 임신 관련 TMA 등을 신속히 감별하고 혈액내과에 즉시 상의한다.
+- **TTP 가능성**: 임상적으로 강하게 의심되면 ADAMTS13 결과를 기다리며 치료를 지연하지 않는 원칙을 적용하고, 기관의 TTP 응급 치료 경로를 따른다.
+- **원인 치료와 장기 보호**: 감염/임신 합병증/고혈압/약물 등 촉발 원인을 교정하고, 신경학적 이상·신부전·출혈은 중환자 수준의 다학제 처치가 필요할 수 있다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 기저 원인 질환의 예후에 따라 달라짐.

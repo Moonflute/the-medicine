@@ -12,9 +12,10 @@ CC:
 - 발달 지연
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: '2026-07-24'
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 document_role: hub
 ## 1. 개요
@@ -33,7 +34,10 @@ document_role: hub
 - 이 문서는 진단군의 개요 및 하위 질환 탐색용 허브이다. 실제 진단 기준은 아래 개별 질환 문서에서 확인한다.
 
 ## 5. 치료
-- 약물 치료, 인지행동치료, 놀이치료, 부모 교육 및 가족 치료, 특수 교육 연계.
+
+- **발달 단계에 맞춘 평가**: 증상뿐 아니라 발달력, 학교·가정 기능, 학대·자해 위험, 물질사용, 수면과 신체질환을 포함해 평가한다.
+- **다중 체계 개입**: 진단에 맞는 아동·가족 치료, 부모훈련, 학교 협력이 기본이며, 약물은 명확한 적응증·목표 증상·부작용 모니터링 아래 전문의가 사용한다.
+- **안전 우선**: 자살·자해·타해, 급성 정신병, 섭식장애 의학적 불안정, 중증 기능 저하는 즉시 응급 평가·보호 수준을 결정한다.
 
 ## 6. 예후 및 합병증
 - 조기 발견 및 개입 시 예후가 좋으나, 방치 시 성인기 정신질환으로 이행 가능성 있음.

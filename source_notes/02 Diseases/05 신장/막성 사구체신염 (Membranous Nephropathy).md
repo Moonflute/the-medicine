@@ -11,11 +11,12 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2021"
 sources: ["KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
 
+source_currency_assessment: "current_standard_retained"
 content_updated_at: "2026-07-16"
 ---
 분과 : [[신장]]

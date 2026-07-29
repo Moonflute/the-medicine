@@ -1,4 +1,5 @@
 ---
+source_currency_assessment: "current_standard_retained"
 aliases: []
 유형:
 - disease
@@ -17,7 +18,7 @@ sources:
 - 'ACR Guideline for the Management of Gout | https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/'
 disease_family: gout
 population: adult
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 ---
 

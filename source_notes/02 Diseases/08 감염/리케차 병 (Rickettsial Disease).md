@@ -12,9 +12,10 @@ CC:
 - 피부 발진
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[감염]]
 
@@ -38,9 +39,11 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 임상 증상(발열, 발진, 가피 등), 역학적 노출력, 혈청학적 검사 또는 PCR 검사 양성으로 진단한다.
 
-## 5. 치료 (Treatment)
-- 독시사이클린 (doxycycline)이 1차 선택 약제이다.
-- 조기 진단 및 치료가 예후에 결정적이다.
+## 5. 치료
+
+- **치료 지연 금지**: 발열·발진·가피와 매개체 노출로 리케차 감염이 의심되면 확진검사를 기다리지 않고 경험적 doxycycline을 시작하는 원칙을 적용한다.
+- **중증도 평가**: 저혈압, 의식 변화, 호흡부전, 출혈, 장기기능 이상은 입원·집중 치료 평가가 필요하다. CBC, 간효소, 전해질과 동반 감염 가능성을 함께 본다.
+- **예외 상황**: 임신, 중증 약물 알레르기, 지역 유행병 원인이 불명확한 경우에는 감염내과와 대체 치료를 상의한다. 예방 목적의 무증상 항생제는 사용하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않으면 뇌수막염, 폐렴, 다발성 장기 부전 등 중증 합병증으로 진행하여 사망에 이를 수 있다.

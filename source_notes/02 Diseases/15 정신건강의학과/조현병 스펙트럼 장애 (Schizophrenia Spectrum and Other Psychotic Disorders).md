@@ -11,9 +11,10 @@ CC:
 - 환청/망상
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: '2026-07-24'
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 document_role: hub
 ## 1. 개요
@@ -33,9 +34,10 @@ document_role: hub
 - 이 문서는 진단군의 개요 및 하위 질환 탐색용 허브이다. 실제 진단 기준은 아래 개별 질환 문서에서 확인한다.
 
 ## 5. 치료
-- 약물 치료**:
-- 항정신병 약물(비정형 약물 우선 고려).
-- 순응도 저하 시 장기 지속형 주사제(LAI) 고려.
+
+- **급성기 안전과 감별**: 자·타해 위험, 섬망·물질·의학적 원인을 먼저 평가하고, 급성 초조·정신병은 안전한 환경과 신속한 전문 치료로 안정화한다.
+- **유지 치료**: 항정신병약의 효과·부작용·대사 위험을 정기적으로 점검하고, 호전 후에도 재발 위험을 고려해 유지 계획을 세운다. 치료저항성 또는 자살 위험이 큰 경우 clozapine 평가를 포함한다.
+- **통합 치료**: 첫 삽화에는 조기중재/협력진료를 연결하고, CBTp, 가족 교육, 직업·학업 재활과 장기지속형 주사제 선택지를 환자 선호와 함께 논의한다.
 
 ## 6. 예후 및 합병증
 - 예후**:

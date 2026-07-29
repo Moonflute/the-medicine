@@ -11,13 +11,14 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
 sources:
-- 'Merck Manual Professional disruptive behavior disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+- Merck Manual Professional disruptive behavior disorders | https://www.merckmanuals.com/professional/psychiatric-disorders
 disease_family: psychiatry_split
 parent_disease: 파괴적 충동 조절 및 행동 장애 (Disruptive, Impulse-Control, and Conduct Disorders)
 relation_to_parent: subtype
+content_updated_at: '2026-07-30'
 ---
 ## 1. 개요
 - 훔친 물건이 개인적 사용·금전적 가치 목적이 아닌데도 절도 충동을 반복적으로 억제하지 못하는 상태이다.
@@ -33,7 +34,10 @@ relation_to_parent: subtype
 - 신경학적 질환, 조증·물질 관련 탈억제, 반사회성 행동 및 금전적 목적의 절도와 구분한다. 진단은 구조화된 정신과 면담으로 내린다.
 
 ## 5. 치료
-- 동반 우울·불안·물질사용을 평가하고 CBT/충동조절 중심 치료를 우선한다. 자·타해 및 법적 위기에는 안전계획과 다학제 연계를 한다.
+
+- **정신과적 평가**: 충동조절장애인지, 물질사용·기분장애·강박증상·인지장애 또는 경제적 동기가 있는 행동인지 평가하고 자·타해 및 법적 위험을 확인한다.
+- **1차 개입**: 충동 인식, 자극 통제, 재발 예방을 포함한 인지행동치료를 중심으로 치료 계획을 세우고 가족·사회적 지지와 연계한다.
+- **약물과 추적**: 동반 정신질환에 대한 약물치료를 우선하며, 도벽 자체의 약물치료는 근거와 위해를 전문의가 개별 판단한다. 반복적 법적·안전 문제는 다학제 지원을 연결한다.
 
 ## 6. 예후 및 합병증
 - 조기 평가와 동반 질환·안전 위험의 동시 관리가 기능 회복과 재발 예방에 중요하다.

@@ -13,8 +13,10 @@ CC:
 - 의식장애
 - 호흡곤란
 clinical_priority: tier_2
+review_status: source_reviewed_no_change
+reviewed_at: '2026-07-30'
 content_updated_at: '2026-07-17'
-guideline_year: '2016'
+guideline_year: '2025'
 sources:
 - 'NICE NG39 Major Trauma: Assessment and Initial Management | https://www.nice.org.uk/guidance/ng39'
 - 'WHO-ICRC Basic Emergency Care | https://www.who.int/publications-detail-redirect/9789241513081'

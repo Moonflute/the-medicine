@@ -9,12 +9,13 @@ CC:
 - 가려움증
 preprocessing_required: x
 last_studied: '2026-06-06'
-document_role: "specialty_perspective"
-parent_disease: "접촉피부염 (Contact Dermatitis)"
-relation_to_parent: "specialty_perspective"
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+document_role: specialty_perspective
+parent_disease: 접촉피부염 (Contact Dermatitis)
+relation_to_parent: specialty_perspective
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[알레르기]]
 
@@ -42,9 +43,11 @@ reviewed_at: "2026-07-16"
 - 노출 병력(직업, 취미, 화장품, 약물 등)과 병변 분포를 확인한다.
 - 자극성 접촉피부염은 노출 후 즉각적인 반응이 나타나고 점차 감소하는 경향이 있는 반면, ACD는 노출 후 1~2일 뒤 증상이 나타나며 점차 악화되는(crescendo) 양상을 보이다.
 
-## 5. 치료 (Treatment)
-- **회피**: 원인 물질 및 자극원 노출 차단이 핵심.
-- **약물**: 국소 스테로이드제, 항히스타민제(가려움 완화), 보습제 등을 사용한다.
+## 5. 치료
+
+- **원인 회피가 핵심**: 의심되는 화장품·금속·고무·직업성 노출을 중단하고, 노출 부위·제품 성분을 기록한다. 반복되거나 원인이 불명확하면 패치검사를 의뢰한다.
+- **피부 장벽 회복**: 자극이 적은 세정과 보습을 유지하고, 병변 범위·부위·중증도에 맞추어 국소 항염 치료를 선택한다. 얼굴·간찰부·광범위 병변은 치료 강도와 기간을 개별화한다.
+- **재평가**: 진물·통증·발열 등 이차감염 소견, 광범위 수포/박리, 직업성 노출 문제는 피부과 또는 직업의학 평가를 연결한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인 물질 회피 시 예후가 좋으나, 반복 노출 시 만성 습진화되거나 자가습진화(id reaction)가 발생할 수 있다.

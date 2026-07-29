@@ -9,9 +9,10 @@ CC:
 - 피로
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[신장]]
 
@@ -45,11 +46,11 @@ reviewed_at: "2026-07-16"
 - 중탄산염 부하 검사(Bicarbonate loading test)를 통해 근위세관의 중탄산염 재흡수 역치 감소를 확인하여 진단.
 
 
-## 5. 치료 (Treatment)
-- 대량의 알칼리(중탄산염 또는 구연산염) 보충 요법.
-- 저칼륨혈증이 동반되는 경우가 많으므로 칼륨 보충 병행.
-- 기저 질환의 교정 및 약물 중단.
+## 5. 치료
 
+- **원인·동반 소견 교정**: Fanconi 증후군, 약물·독성 노출, 유전질환 여부를 함께 확인하고 가역 원인을 중단·교정한다.
+- **산-염기·전해질 보충**: 중탄산염/알칼리 보충과 칼륨을 개별 수치에 맞추어 조절하며, 보충 뒤 저칼륨혈증이 악화되지 않는지 반복 확인한다.
+- **추적**: 혈청 HCO₃⁻·K·Cr, 소변 손실 및 성장/골질환 위험을 추적한다. 지속 산증, 중증 저칼륨혈증 또는 원인 불명 Fanconi 소견은 신장내과와 상의한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 알칼리 치료를 하지 않을 경우 성장 장애 및 골질환이 악화될 수 있음.

@@ -13,12 +13,13 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
-review_status: "guideline_enriched"
+reviewed_at: "2026-07-30"
+review_status: "source_reviewed_no_change"
 guideline_year: "2022"
-sources: ["[Clinical management guideline of acute fatty liver of pregnancy（2022）]. | https://pubmed.ncbi.nlm.nih.gov/37193591/"]
+sources: ["Clinical management guideline of acute fatty liver of pregnancy (2022) | https://pubmed.ncbi.nlm.nih.gov/37193591/"]
 
-content_updated_at: "2026-07-16"
+source_currency_assessment: "current_standard_retained"
+content_updated_at: "2026-07-30"
 ---
 분과 : [[산과]]
 
@@ -46,7 +47,10 @@ content_updated_at: "2026-07-16"
 
 
 ## 5. 치료 (Treatment)
-- **원칙**: 모체 안정화 및 즉각적인 태아 분만(Definitive treatment).
+- **산과 응급**: AFLP 의심 시 tertiary obstetric·마취·중환자·간질환 팀에 즉시 의뢰하고, 저혈당·응고장애·신부전·뇌병증과 HELLP/패혈증을 동시에 평가한다.
+- **안정화와 분만**: 포도당, 혈액제제/응고인자, 전해질·신기능 및 혈역학을 교정하면서 모체 안정화 후 분만을 지연하지 않는다. 분만 방식과 마취는 산과적 상황, 출혈·응고 상태 및 모체/태아 상태를 함께 반영한다.
+- **산후 집중관리**: 분만 후에도 간부전·DIC·신부전은 악화될 수 있어 혈당, INR, bilirubin, Cr, 출혈·감염을 중환자 수준에서 추적한다. 진행성 간부전·뇌병증·다장기부전은 간이식 가능 센터와 조기 상의한다.
+- **상담**: 회복 후 다음 임신의 재발 위험, 신생아 저혈당·지방산 산화장애 평가 필요성을 산과·소아과와 함께 안내한다.: 모체 안정화 및 즉각적인 태아 분만(Definitive treatment).
 - **치료 전략**: 
   - **다학제 접근**: 산과, 소화기내과, 중환자의학, 마취과 협진 필수.
   - **대증 요법**: 전해질 교정, 저혈당 및 응고 장애 관리, 필요 시 수혈 및 인공 간 치료(Artificial liver support) 고려.

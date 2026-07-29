@@ -10,10 +10,10 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "source_reviewed_no_change"
 guideline_year: "2026"
-sources: ["Joint position statement from the National Psoriasis Foundation Medical Board and the International Psoriasis Council on routine testing for latent tuberculosis infection prior to and during treatment of psoriasis patients with interleukin 17 or interleukin 23 inhibitors. | https://pubmed.ncbi.nlm.nih.gov/41260526/", "2024 결핵진료지침 5판 | https://www.lungkorea.org/bbs/index.html?code=guide&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=246", "Diagnosis and Treatment of Latent Tuberculosis Infection in Adults in South Korea | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11704725/"]
+sources: ["2024 결핵진료지침 5판 | https://www.lungkorea.org/bbs/index.html?code=guide&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=246", "CDC: Treatment for Latent Tuberculosis Infection (updated 2025) | https://www.cdc.gov/tb/hcp/treatment/latent-tuberculosis-infection.html"]
 
 ---
 분과 : [[호흡기]]
@@ -38,9 +38,10 @@ sources: ["Joint position statement from the National Psoriasis Foundation Medic
 - 활동성 결핵을 배제한 상태에서 TST 또는 IGRA 양성 반응이 확인될 때 진단.
 
 ## 5. 치료 (Treatment)
-- 활동성 결핵으로의 진행을 예방하기 위해 약물 치료를 시행함.
-  Isoniazid(INH) 단독 요법 또는 Rifampin 포함 병용 요법 등이 사용될 수 있으며, 환자의 기저 질환 및 약제 내성 가능성을 고려하여 결정함.
-
+- **치료 전 확인**: 흉부영상·증상·미생물 검사를 이용해 활동성 결핵을 먼저 배제한다. 활동성 결핵을 배제하지 않은 채 단일·소수 약제를 시작하면 내성 결핵을 놓칠 수 있다.
+- **대상 우선순위**: 최근 접촉자, HIV/면역억제 치료 예정·장기이식 후보, 규폐증 등 진행 위험이 높은 감염자는 적극적으로 치료한다. 국내 지침과 약제감수성·노출원의 내성을 함께 확인한다.
+- **요법 선택**: 단기 rifamycin 기반 요법(3개월 INH+rifapentine, 4개월 rifampin, 3개월 INH+rifampin)을 우선 고려한다. rifamycin을 쓸 수 없을 때 6H/9H를 대안으로 사용한다. 실제 처방은 국내 결핵지침의 약제·용량·관찰 기준을 따른다.
+- **안전성·상호작용**: rifamycin은 항레트로바이러스제, 항응고제, 항경련제, 호르몬 피임 등과 상호작용하므로 처방 전 전 약물을 확인한다. 간질환·음주·임신·증상 발생 시 간독성을 평가하고, 식욕부진·오심·황달·진한 소변이 생기면 즉시 복용을 중단하고 평가한다.
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 활동성 결핵으로의 진행 위험을 크게 낮출 수 있음.
 

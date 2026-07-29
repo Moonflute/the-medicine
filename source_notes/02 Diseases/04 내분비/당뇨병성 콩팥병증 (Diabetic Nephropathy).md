@@ -18,7 +18,8 @@ sources:
 - '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
 - 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
 clinical_priority: tier_1
-content_updated_at: '2026-07-14'
+reviewed_at: "2026-07-30"
+content_updated_at: "2026-07-30"
 guideline_year: '2026'
 disease_family: diabetes
 parent_disease: 당뇨병 (Diabetes Mellitus)
@@ -53,13 +54,12 @@ population: general
 - 비정형적 경과(망막병증 부재, 급격한 단백뇨 악화 등) 시 신생검 고려.
 
 ## 5. 치료 (Treatment)
-- **혈당 조절**:
-  HbA1c ≤ 7.0% 목표.
-  SGLT2 억제제 사용 권장(eGFR < 20 mL/min 제외).
-- **혈압 조절**:
-  ACE 억제제 또는 ARB를 1차 약제로 사용.
-  목표 혈압 < 130/80 mmHg.
-- **기타**: 이상지질혈증 조절(스타틴), 단백질 섭취 제한(0.8-1.2 g/kg/day), 금연, 염분 제한.
+
+- **개별화한 목표**: HbA1c는 많은 성인에서 약 <7%를 출발점으로 삼되, 저혈당 위험·동반질환·기대수명·치료 부담과 환자 선호를 반영해 개별화한다. 혈압도 일률 숫자보다 알부민뇨, 심혈관 위험, 기립성 저혈압과 내약성을 함께 고려해 관리한다.
+- **RAS 차단**: 고혈압과 중등도 이상 알부민뇨(UACR ≥30 mg/g)가 있으면 ACE 억제제 또는 ARB를 최대 내약 용량으로 사용한다. 두 약제를 병용하지 않으며, 시작·증량 후 혈압·크레아티닌·칼륨을 확인한다.
+- **신장·심혈관 보호 약제**: 제2형 당뇨병과 CKD에서는 eGFR ≥20 mL/min/1.73m²이면 SGLT2 억제제를 신장 진행과 심부전 위험 감소 목적으로 사용한다. 혈당 목표 미달, SGLT2 사용 불가, 비만 또는 ASCVD 위험이 있으면 신장·심혈관 근거가 있는 GLP-1 수용체작용제를 고려한다. 알부민뇨가 지속되고 eGFR·칼륨이 허용되면 finerenone 같은 비스테로이드성 MRA를 검토한다.
+- **생활·영양과 합병증**: 비투석 CKD의 단백질 섭취는 대체로 약 0.8 g/kg/day를 목표로 하며, 과도한 단백질·염분 섭취, 흡연, 신독성 NSAID·보충제는 피한다. 스타틴, 체중·운동, 예방접종, 빈혈·CKD-MBD·고칼륨혈증·부종 관리를 병행한다.
+- **추적·의뢰**: eGFR과 UACR 변화, 혈압, 칼륨, 약물 부작용을 위험도에 맞춰 반복 확인한다. UACR 지속 상승, eGFR 지속 저하, 원인 불명·활성 소변침사, 조절 어려운 합병증 또는 eGFR <30 mL/min/1.73m²에서는 신장내과 의뢰와 신대체요법 준비를 논의한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 말기 신부전으로 진행 가능하며, 투석 및 콩팥 이식이 필요할 수 있음.

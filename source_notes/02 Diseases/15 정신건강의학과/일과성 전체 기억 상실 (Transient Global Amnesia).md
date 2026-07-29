@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - 일과성 전체 기억 상실
 유형:
@@ -11,8 +12,8 @@ aliases:
 CC:
 - 정신건강 증상
 clinical_priority: tier_3
-review_status: stable_reference_only
-reviewed_at: '2026-07-23'
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 sources:
 - 'Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
 disease_family: psychiatry_split
@@ -45,8 +46,11 @@ relation_to_parent: subtype
 - 감별 진단: 뇌졸중, 뇌전증(일과성 뇌전증성 기억상실), 섬망, 대사성 뇌병증.
 
 ## 5. 치료
-- 원칙: 특별한 치료는 필요 없으며, 보존적 치료 및 안심(reassurance)이 핵심.
-- 관리: 증상 회복 시까지 관찰. 재발률은 낮으며, 퇴원 후 일상 활동 제한은 불필요.
+
+- **보존적 치료 및 안심**: 특이적인 약물 치료는 필요하지 않으며, 환자와 보호자에게 양성 경과를 충분히 설명하여 불안을 완화함.
+- **관찰 및 모니터링**: 증상이 완전히 회복될 때까지 환자를 관찰하며, 의식 수준 및 신경학적 상태를 추적함.
+- **감별 진단 및 정밀 검사**: 뇌졸중, 뇌전증 등 급성 신경학적 질환의 가능성을 배제하기 위한 검사를 시행하며, 증상이 지속되거나 비정형적 양상을 보일 경우 전문의 진료 및 영상 재평가를 고려함.
+- **퇴원 및 일상 복귀**: 증상 회복 후에는 장기적인 후유증이 없으므로 일상생활로의 복귀가 가능하며, 재발률이 낮으므로 추가적인 예방적 투약은 불필요함.
 
 ## 6. 예후 및 합병증
 - 예후: 대부분 양성 경과를 보이며, 신경학적 후유증은 거의 없음.

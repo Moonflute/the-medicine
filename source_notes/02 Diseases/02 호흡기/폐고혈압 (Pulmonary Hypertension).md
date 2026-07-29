@@ -12,12 +12,13 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
-guideline_year: "2026"
-sources: ["Guide from the Colegio Mexicano de Reumatología for the Pharmacological Treatment of Systemic Sclerosis Part 1: Cutaneous Involvement, Interstitial Lung Disease, and Pulmonary Arterial Hypertension. | https://pubmed.ncbi.nlm.nih.gov/42270533/", "2020 KSC/KATRD Guideline for the Diagnosis and Treatment of Pulmonary Hypertension: Executive Summary | https://www.e-trd.org/journal/view.php?number=1022"]
+guideline_year: "2022"
+sources: ["2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension | https://academic.oup.com/eurheartj/article/43/38/3618/6673929", "2020 KSC/KATRD Guideline for the Diagnosis and Treatment of Pulmonary Hypertension: Executive Summary | https://www.e-trd.org/journal/view.php?number=1022"]
 
-content_updated_at: "2026-07-16"
+source_currency_assessment: "current_standard_retained"
+content_updated_at: "2026-07-30"
 ---
 분과 : [[호흡기]]
 
@@ -47,8 +48,11 @@ content_updated_at: "2026-07-16"
   좌심질환 여부를 우선적으로 배제해야 함.
 
 ## 5. 치료 (Treatment)
-- 원인 질환 치료가 우선.
-- 폐동맥 고혈압(PAH): 혈관 확장제(prostacyclin, endothelin receptor antagonists, PDE5 inhibitors 등) 및 이뇨제 사용.
+- **분류가 치료를 결정한다**: 우심도자검사로 PH를 확인한 뒤 WHO group(1 PAH, 2 좌심질환, 3 폐질환/저산소, 4 CTEPH, 5)을 구분한다. 모든 PH에 PAH 표적 약물을 일률적으로 쓰지 않는다.
+- **공통 초기 관리**: 저산소증 교정, 이뇨제를 통한 울혈 관리, 예방접종·재활·임신 상담과 원인 질환 치료를 병행한다. 실신, 우심부전, 급격한 운동능 저하는 PH 전문센터에 긴급 의뢰한다.
+- **Group 1 PAH**: 위험도 평가에 따라 endothelin receptor antagonist·PDE5 inhibitor 기반 병합치료를 시작하고, 고위험 또는 진행 시 prostacyclin 경로 약제와 이식 평가를 전문센터에서 결정한다.
+- **Group 2/3**: 좌심질환·판막질환 또는 폐질환/저산소증을 최적화하는 것이 우선이며, PAH 표적 약물은 일반적으로 표준 치료가 아니다.
+- **CTEPH**: lifelong anticoagulation을 포함해 수술적 pulmonary endarterectomy 가능성, balloon pulmonary angioplasty와 약물 치료를 CTEPH 센터에서 평가한다.: 혈관 확장제(prostacyclin, endothelin receptor antagonists, PDE5 inhibitors 등) 및 이뇨제 사용.
 - 전신경화증(SSc) 관련 PAH: 다학제적 접근 및 단계적 치료 알고리즘 적용 [Guide from the Colegio Mexicano de Reumatología for the Pharmacological Treatment of Systemic Sclerosis Part 1: Cutaneous Involvement, Interstitial Lung Disease, and Pulmonary Arterial Hypertension.](https://pubmed.ncbi.nlm.nih.gov/42270533/).
 - 중증 시 폐 이식 고려.
 

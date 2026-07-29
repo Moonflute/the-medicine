@@ -11,12 +11,12 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2023"
 sources: ["2023 Korean Endocrine Society Consensus Statement on the Diagnosis and Management of Diabetes Insipidus | https://www.endocrinology.or.kr/journal/view.php?number=1790", "Diagnosis and Management of Central Diabetes Insipidus in Adults: A Consensus Statement of the Endocrine Society | https://www.endocrine.org/clinical-practice-guidelines/central-diabetes-insipidus"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-07-30"
 ---
 분과 : [[내분비]]
 
@@ -49,10 +49,11 @@ content_updated_at: "2026-07-16"
 - 중추성 요붕증은 데스모프레신 투여 후 소변 삼투압이 유의하게 증가함.
 
 ## 5. 치료 (Treatment)
-- 중추성 요붕증: 데스모프레신(desmopressin) 보충이 일차 치료.
-- 콩팥기원 요붕증: 저염식, 티아지드(thiazide) 이뇨제, NSAIDs(indomethacin) 등을 사용하여 소변량 감소 유도.
-- 원발 다음증: 수분 섭취 제한이 원칙이며 ADH 투여는 금기.
-
+- **급성 안전성**: 의식저하·갈증 소실·수분 접근 불가, 저혈압 또는 고나트륨혈증은 응급 상황이다. 순환혈량을 먼저 회복한 뒤 자유수분 결손을 보충하며, 혈청 Na와 소변량을 자주 확인해 급격한 교정을 피한다.
+- **중추성 요붕증(AVP 결핍)**: desmopressin을 증상·소변량·Na에 맞춰 개별화한다. 과다 투여와 습관적 과음은 저나트륨혈증을 일으킬 수 있으므로, 일부 환자에서는 정기적으로 약효가 소실되어 다뇨가 나타나는 시간을 두고 저나트륨혈증을 예방하도록 교육한다. 수술 후 일과성 DI는 회복 여부를 재평가한다.
+- **콩팥기원 요붕증(AVP 저항성)**: 원인 약물(특히 lithium)을 중단·대체할 수 있는지 확인하고 저칼륨혈증·고칼슘혈증을 교정한다. 저염·적정 단백식, thiazide와 amiloride(특히 lithium 관련), 선택된 경우 NSAID를 신기능·위장관·심혈관 위험을 보며 사용한다.
+- **원발 다음증**: 무리한 일률적 수분 제한 대신 정신건강·행동 요인과 전해질을 함께 평가하고 서서히 조절한다. desmopressin은 저나트륨혈증 위험이 있어 확진 전 또는 일상적 치료로 사용하지 않는다.
+- **추적**: 체중, 갈증·야간뇨, 소변량, 혈청 Na/Cr을 추적한다. 갈증이 손상된 adipsic DI는 고정된 수분 계획과 더 촘촘한 Na·체중 추적이 필요하다.
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 수분 공급 및 치료가 이루어지지 않을 경우 심각한 탈수 및 고나트륨혈증 발생 가능.
 

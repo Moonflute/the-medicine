@@ -17,7 +17,8 @@ sources:
 - 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
 - '2024 Hyperglycemic Crises in Adults With Diabetes Consensus Report | https://pmc.ncbi.nlm.nih.gov/articles/PMC11272983/'
 clinical_priority: tier_1
-content_updated_at: '2026-07-14'
+reviewed_at: "2026-07-30"
+content_updated_at: "2026-07-30"
 guideline_year: '2026'
 disease_family: diabetes
 parent_disease: 당뇨병 (Diabetes Mellitus)
@@ -58,21 +59,12 @@ population: general
   유발 인자 확인을 위해 감염 검사(흉부 X-ray, 소변 검사 등)를 시행한다.
 
 ## 5. 치료 (Treatment)
-- **수액 요법 (가장 중요)**
-- 초기 0.9% 생리식염수(NS)로 혈량 회복.
-  이후 혈당이 200~300 mg/dL에 도달하면 5% 포도당을 포함한 수액으로 변경하여 저혈당을 예방, 케톤 생성을 억제한다.
-- **인슐린**
-- 정맥 내 속효성 인슐린 지속 주입(0.1 U/kg/hr).
-  혈당뿐만 아니라 음이온 차이와 산증이 교정될 때까지 지속한다.
-- **칼륨 (K)**
-- 인슐린 투여 시 세포 내로 칼륨이 이동하여 저칼륨혈증이 발생할 수 있다.
-  K < 3.3 mEq/L이면 인슐린 투여 전 칼륨을 먼저 보충한다.
-  3.3~5.2 mEq/L 사이면 인슐린과 함께 칼륨을 보충한다.
-- **중탄산염**
-- pH < 6.9인 경우에만 제한적으로 고려한다.
-- **주의사항**
-- 급격한 교정 시 뇌부종 위험이 있으므로 주의한다.
-  유발 인자(감염 등)를 반드시 함께 치료한다.
+
+- **초기 수액과 감시**: 심부전·말기콩팥병 등 과부하 위험이 없으면 0.9% 식염수 또는 balanced crystalloid를 초기 2–4시간에 시간당 500–1,000 mL 범위로 시작하고, 혈압·말초관류·소변량·보정 Na·삼투질농도·폐울혈을 반복 평가해 조절한다. 고령, 심부전, 신기능 저하에서는 작은 bolus와 더 촘촘한 재평가가 필요하다.
+- **인슐린**: 칼륨이 안전한 범위임을 확인한 뒤 정맥 regular insulin 지속주입을 보통 0.1 U/kg/h로 시작한다. 혈당이 250 mg/dL 미만이 되면 5–10% dextrose를 수액에 추가하고 insulin은 대개 0.05 U/kg/h로 낮추되, 혈당만 정상화됐다고 중단하지 않고 케톤산증 해소까지 유지한다.
+- **칼륨**: 치료 중 칼륨은 급격히 감소할 수 있다. K가 5.0 mmol/L 미만이면 보충을 시작해 4–5 mmol/L를 목표로 하고, K <3.5 mmol/L이면 insulin을 보류한 채 먼저 보충한다. 전해질·크레아티닌·정맥 pH·β-hydroxybutyrate는 통상 4시간 간격, 혈당은 1–2시간 간격으로 추적한다.
+- **중탄산염·인산**: bicarbonate는 일상적으로 사용하지 않으며 중증 산증(pH <7.0)에서만 제한적으로 고려한다. 인산도 일률적으로 보충하지 않고 중증 저인산혈증 또는 심장·호흡근 기능 저하 등 임상 적응증에서만 고려한다.
+- **해소·전환**: DKA 해소는 혈당만이 아니라 ketone <0.6 mmol/L 및 pH ≥7.3 또는 bicarbonate ≥18 mmol/L를 함께 본다. 정맥 insulin 중단 전 basal insulin을 1–2시간 겹쳐 투여하고, 감염·인슐린 누락·심근허혈·약물 등 유발 인자를 치료하며 퇴원 전 sick-day 교육과 ketone 검사·인슐린 사용 교육을 제공한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 예후가 좋으나, 고령이나 동반 질환이 있는 경우 사망률이 증가한다.

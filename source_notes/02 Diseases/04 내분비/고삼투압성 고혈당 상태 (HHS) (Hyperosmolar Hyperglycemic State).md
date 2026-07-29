@@ -18,7 +18,8 @@ sources:
 - 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
 - '2024 Hyperglycemic Crises in Adults With Diabetes Consensus Report | https://pmc.ncbi.nlm.nih.gov/articles/PMC11272983/'
 clinical_priority: tier_1
-content_updated_at: '2026-07-14'
+reviewed_at: "2026-07-30"
+content_updated_at: "2026-07-30"
 guideline_year: '2026'
 disease_family: diabetes
 parent_disease: 당뇨병 (Diabetes Mellitus)
@@ -59,18 +60,12 @@ population: general
 - 고혈당, 고삼투압, 케톤산증의 부재를 종합하여 진단한다.
 
 ## 5. 치료 (Treatment)
-- **수액 요법 (가장 중요)**
-- 초기: 0.9% 생리식염수로 혈관 내 용적을 신속히 회복시킨다.
-- 이후: 혈청 나트륨 수치와 수분 상태에 따라 0.45% 식염수로 교체한다.
-- 혈당이 250~300 mg/dL에 도달하면 포도당을 포함한 수액으로 변경하여 저혈당을 예방한다.
-- **인슐린**
-- 정맥 내 속효성 인슐린을 투여한다.
-  혈당을 너무 급격히 낮추면 뇌부종 위험이 있으므로 서서히 교정한다.
-- **칼륨 (K)**
-- 인슐린 투여 시 칼륨이 세포 내로 이동하여 저칼륨혈증이 발생할 수 있다.
-  K < 3.3 mEq/L이면 인슐린 투여 전 칼륨을 먼저 보충한다.
-- **기타**
-- 유발 인자(감염 등)에 대한 적극적인 치료가 필수적이다.
+
+- **수액이 우선**: HHS는 심한 수분 결핍이 핵심이므로, 심부전·말기콩팥병 등 과부하 위험이 없으면 0.9% 식염수 또는 balanced crystalloid를 초기 2–4시간에 시간당 500–1,000 mL 범위로 시작한다. 이후에는 혈압, 말초관류, 소변량, 보정 Na, 삼투질농도와 폐울혈을 반복 평가해 속도·조성을 조절하며, 고령·심부전·신기능 저하에서는 작은 bolus로 시작한다.
+- **교정 속도**: 급격한 삼투 변화가 신경학적 합병증을 유발할 수 있으므로 혈당 감소는 시간당 약 90–120 mg/dL를 넘기지 않고, Na 감소는 24시간 10 mmol/L 이내, 유효 삼투질농도 감소는 시간당 3–8 mOsm/kg 범위가 되도록 조절한다. 혈당이 약 250–300 mg/dL에 도달하면 dextrose를 추가해 과도한 하강을 막는다.
+- **인슐린**: 수액 반응을 먼저 평가한다. 유의한 케톤산증이 없는 HHS는 정맥 regular insulin 0.05 U/kg/h를 사용하며, β-hydroxybutyrate ≥3.0 mmol/L 또는 pH <7.3/bicarbonate <18 mmol/L인 혼합 DKA-HHS는 DKA 경로(보통 0.1 U/kg/h)로 치료한다.
+- **칼륨·감시**: K <3.5 mmol/L이면 insulin을 보류하고 보충을 먼저 시작한다. K가 5.0 mmol/L 미만이면 보충을 시작해 4–5 mmol/L를 목표로 하며, 혈당은 1–2시간 간격, 전해질·크레아티닌·β-hydroxybutyrate·정맥 pH·삼투질농도는 통상 4시간 간격으로 확인한다.
+- **해소·전환**: HHS 해소는 혈당만으로 판단하지 않고 계산 삼투질농도 <300 mOsm/kg, 소변량 ≥0.5 mL/kg/h 및 인지상태 회복을 함께 확인한다. 정맥 insulin 중단 전 basal insulin을 1–2시간 겹쳐 투여하고, 감염·뇌졸중·심근허혈·약물·치료 중단 같은 유발 인자를 교정하며 퇴원 전 교육을 제공한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 고령 및 동반 질환으로 인해 DKA보다 사망률이 높을 수 있다.

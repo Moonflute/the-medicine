@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases:
 - acute hemorrhagic conjunctivitis
 - 아폴로 눈병
@@ -16,8 +17,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[안과]]
 
@@ -38,10 +39,12 @@ reviewed_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 - 전형적인 임상 증상(결막하 출혈, 급격한 발병)과 역학적 연관성을 바탕으로 진단
 
-## 5. 치료 (Treatment)
-- 대증 요법: 냉찜질, 인공눈물 점안
-- 이차 세균 감염 예방을 위한 항생제 점안 고려
-- 전염 방지를 위한 개인 위생(손 씻기, 수건 공유 금지) 교육
+## 5. 치료
+
+* **대증 요법**: 냉찜질 및 인공눈물 점안을 통해 안구 이물감과 통증 등 불편감을 완화함.
+* **이차 감염 예방**: 이차 세균 감염이 의심되는 경우에 한하여 예방적 항생제 점안을 고려함.
+* **감염 관리**: 전염성이 매우 높으므로 손 씻기, 수건·세면도구 공유 금지 등 엄격한 개인위생 수칙을 교육함.
+* **경과 관찰 및 전원**: 대부분 1~2주 내 자연 치유되나, 각막 침범 징후(시력 저하, 심한 통증)나 신경학적 이상 증상 발생 시 즉시 안과 전문의 진료 및 정밀 검사를 권고함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 1~2주 내에 자연 치유

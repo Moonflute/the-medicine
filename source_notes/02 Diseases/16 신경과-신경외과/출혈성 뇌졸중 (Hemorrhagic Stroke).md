@@ -11,11 +11,10 @@ CC:
 - 구토
 - 의식 변화
 clinical_priority: tier_2
-review_status: source_reviewed_no_change
-reviewed_at: '2026-07-26'
-guideline_year: '2022'
-sources:
-- 'AHA/ASA Guideline for Spontaneous Intracerebral Hemorrhage | https://www.ahajournals.org/doi/10.1161/STR.0000000000000407'
+review_status: "guideline_enriched"
+reviewed_at: "2026-07-30"
+guideline_year: "2023"
+sources: ["AHA/ASA Guideline for Spontaneous Intracerebral Hemorrhage (2022) | https://www.ahajournals.org/doi/10.1161/STR.0000000000000407", "AHA/ASA Guideline for Aneurysmal Subarachnoid Hemorrhage (2023) | https://www.ahajournals.org/doi/10.1161/STR.0000000000000436"]
 ---
 ## 1. 개요
 - 출혈성 뇌졸중은 뇌내출혈과 지주막하출혈을 포함하며, 급격한 신경학적 악화와 높은 사망·장애 위험을 가진 응급 질환군이다.
@@ -30,8 +29,11 @@ sources:
 - CT로 출혈 위치·크기·뇌실 침범·수두증을 확인한다. 고혈압성 출혈, 동맥류, 혈관기형, 종양, 항응고 관련 출혈을 감별한다.
 
 ## 5. 치료
-- 기도·호흡·순환 안정화, 혈압 및 체온·혈당 관리, 항응고 효과의 신속한 역전, 신경외과·중환자 협진이 핵심이다. 출혈 부위와 수두증 여부에 따라 수술·배액을 고려한다.
-
+- **이 문서는 뇌내출혈과 지주막하출혈의 응급 허브다**. 출혈 유형, 원인과 수술·혈관내 중재 여부는 아래 하위 문서에서 확인한다.
+- **공통 초기 처치**: stroke code, ABC·신경학적 중증도, 비조영 CT와 항응고제 복용력을 즉시 확인한다. 머리 올리기, 저산소증·발열·저혈당 교정, 중환자·신경외과/신경중재 협진을 병행한다.
+- **고혈압·항응고 역전**: 혈압은 출혈 유형·중증도와 기관 프로토콜에 따라 부드럽고 지속적으로 조절하며 급격한 변동을 피한다. 항응고 관련 출혈은 약제별 역전(PCC, idarucizumab, andexanet 등 가능 자원)을 지연 없이 검토한다.
+- **압력·수두증·경련**: 의식저하, 뇌실확장·수두증, 후두와 병변·대량 혈종은 외부뇌실배액 또는 수술 여부를 긴급 평가한다. 경련은 치료하되, 일률적 장기 예방항경련제는 유형별 위험을 보고 결정한다.
+- **SAH 특이점**: 동맥류성 SAH가 의심되면 혈관 영상과 조기 aneurysm securing을 의뢰하고, vasospasm 예방·감시와 중환자 치료를 포함한다.
 ## 6. 예후 및 합병증
 - 재출혈, 뇌압 상승, 수두증, 경련, 흡인·폐렴이 발생할 수 있다. 급성 신경학적 증상은 외래 평가 대상이 아니라 즉시 응급 뇌졸중 경로로 연결한다.
 

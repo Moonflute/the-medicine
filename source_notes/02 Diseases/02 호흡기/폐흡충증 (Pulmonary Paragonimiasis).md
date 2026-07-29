@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[호흡기]]
 
@@ -45,7 +46,11 @@ reviewed_at: "2026-07-16"
 - 충란이 발견되지 않는 경우 혈청학적 검사(ELISA) 시행.
 
 ## 5. 치료
-- **약물 요법**: Praziquantel이 표준 치료제, Triclabendazole도 사용 가능.
+
+* **표준 약물 요법**: Praziquantel을 1차 치료제로 투여하며, 표준 용법에 따라 경구 투여합니다.
+* **대체 약물**: Praziquantel에 반응이 없거나 투여가 어려운 경우 Triclabendazole 사용을 고려할 수 있습니다.
+* **치료 반응 평가**: 투여 후 충란 배출 여부 및 호산구 수치 감소, 영상학적 소견의 호전을 주기적으로 추적 관찰합니다.
+* **합병증 관리**: 기흉, 흉막 삼출 등 폐 합병증이나 뇌 등 폐외 침범이 의심되는 경우, 약물 치료와 병행하여 해당 분과(흉부외과, 신경외과 등)와 협진 및 적극적인 처치를 시행합니다.
 
 ## 6. 예후 및 합병증
 - **합병증**: 기흉, 흉막 삼출, 폐외 장기 침범(뇌, 복부, 피하).

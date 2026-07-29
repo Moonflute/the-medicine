@@ -10,9 +10,10 @@ CC:
 - 검진 이상
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[산과]]
 
@@ -48,9 +49,11 @@ reviewed_at: "2026-07-16"
 - **Category III (비정상)**: 변이성 소실과 함께 서맥, 반복적 후기/가변성 감퇴, 정현파 패턴(sinusoidal pattern) 등 (즉각적 처치 필요)
 
 
-## 5. 치료 (Treatment)
-- Category II/III 발생 시: 산모 체위 변경, 산소 공급, 자궁 수축제 중단, 필요 시 응급 분만(제왕절개 등) 고려
+## 5. 치료
 
+- **위험도 기반 선택**: 저위험 분만에서는 간헐 청진 또는 전자태아감시를 기관 정책과 임상 상황에 맞춰 선택하고, 고위험·분만 중 이상에서는 연속 감시를 고려한다.
+- **판독 원칙**: 기저선, 변이도, 가속·감속, 자궁수축과 시간적 추세를 함께 기술하고 3단계 분류 체계로 전체 임상상과 통합한다.
+- **이상 파형 대응**: 먼저 산모 체위·저혈압·자궁과다수축·약물·제대 문제 등 교정 가능한 원인을 평가한다. 지속 악화 또는 Category III 양상은 즉시 산과 팀의 분만 가속 여부 판단이 필요하다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 지속적인 태아 감시는 태아 저산소증 및 산증 조기 발견에 도움을 주나, 불필요한 제왕절개율을 높일 수 있음

@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-07-30"
 aliases: []
 유형:
 - disease
@@ -15,8 +16,8 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+review_status: "tier3_flash_lite_enriched"
+reviewed_at: "2026-07-30"
 ---
 분과 : [[알레르기]]
 
@@ -49,10 +50,12 @@ reviewed_at: "2026-07-16"
   유사한 증상을 보이는 '혈청병 유사 반응(Serum sickness-like reaction)'과는 보체 수치 감소 여부로 감별한다.
 
 
-## 5. 치료 (Treatment)
-- 원인 항원을 즉시 중단하는 것이 핵심.
-  경증은 항히스타민제 및 NSAIDs로 대증 치료하며, 중증인 경우 전신 스테로이드를 사용한다.
+## 5. 치료
 
+* **원인 물질 중단**: 증상 유발이 의심되는 약물이나 항원의 투여를 즉시 중단하는 것이 가장 우선적인 치료 원칙임.
+* **대증 요법**: 경증의 경우 항히스타민제 및 NSAIDs를 사용하여 발진, 가려움증, 관절통 등 증상 완화를 도모함.
+* **약물 치료(중증)**: 증상이 심하거나 주요 장기 침범이 의심되는 경우 전신 스테로이드 투여를 고려함.
+* **경과 관찰 및 전원**: 대부분 자가 제한적 경과를 보이나, 신장 침범이나 신경계 증상 등 중증 합병증 발생 시 상급 병원 전원 및 전문의 진료가 필요함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대개 원인 물질 중단 후 수 주 내에 저절로 회복되는 자가 제한적 질환이다.

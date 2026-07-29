@@ -19,10 +19,10 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: '2026-07-15'
+content_updated_at: "2026-07-30"
 guideline_year: "2025"
-sources: ["Guidelines for the Treatment of Laryngeal Cancer from the Korean Society of Head and Neck Surgery. | https://pubmed.ncbi.nlm.nih.gov/40199514/"]
-reviewed_at: "2026-07-16"
+sources: ["Guidelines for the Treatment of Laryngeal Cancer from the Korean Society of Head and Neck Surgery (2025) | https://pubmed.ncbi.nlm.nih.gov/40199514/"]
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 ---
 분과 : [[이비인후과]]
@@ -50,7 +50,11 @@ review_status: "guideline_enriched"
 - 병력 청취, 신체 검진, 내시경적 조직검사 및 영상 검사를 종합하여 병기 결정.
 
 ## 5. 치료 (Treatment)
-- **초기(Stage I, II)**: 수술 또는 방사선 치료 단독 요법으로 높은 완치율과 후두 보존 가능.
+- **치료 전 원칙**: 후두내시경·조직확진과 경부/흉부 영상으로 병기, 성대 운동·기도 상태, 연하·발성 기능과 환자의 후두 보존 목표를 평가한다. 치료 선택은 이비인후과-두경부외과·방사선종양학·종양내과·재활 다학제에서 결정한다.
+- **초기 성문암(T1–T2)**: transoral laser/내시경 수술과 방사선치료 모두 초기 치료로 고려할 수 있다. 종양 노출·절제 가능성, 음성 요구도, 추적 가능성에 따라 선택하며, 목표는 국소 제어와 발성 보존이다.
+- **국소 진행성 질환**: 침범 범위·연골 침범·기능 보존 가능성을 기준으로 후두보존 동시항암방사선치료 또는 수술(부분/전후두절제)과 보조치료를 결정한다. 기도 위협이나 광범위 병변은 기도 확보와 수술 평가를 지연하지 않는다.
+- **경부 림프절·재발**: 경부 임상 병기와 원발 위치에 맞춘 선택적/치료적 neck dissection 또는 방사선 범위를 계획한다. 이전 치료 후 국소 재발은 salvage total laryngectomy가 흔한 표준 선택지이며, 선별된 경우 부분 절제·재조사도 논의한다.
+- **기능·추적 관리**: 금연·금주, 영양·치과 평가, 삼킴/음성 재활과 갑상선기능·재발 감시를 치료 전부터 연계한다. 호흡곤란·stridor, 진행성 연하장애, 출혈은 외래 추적이 아닌 긴급 평가 적응증이다.: 수술 또는 방사선 치료 단독 요법으로 높은 완치율과 후두 보존 가능.
 - **진행성(Stage III, IV)**:
   수술 후 방사선 치료, 항암화학방사선요법 등 다학제적 접근 필요.
   후두 전절제술이 필요한 경우도 있음.

@@ -12,12 +12,13 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-16"
+reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2022"
-sources: ["2022 대한심부전학회 심부전 진료지침 | https://www.koreanhf.org/file/2022_KSHF_HF_Guideline.pdf", "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-and-Chronic-Heart-Failure"]
+sources: ["2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure | https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/03/29/19/53/2022-aha-acc-hfsa-heart-failure-guideline-gl-hf", "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-and-Chronic-Heart-Failure"]
 
-content_updated_at: "2026-07-16"
+source_currency_assessment: "current_standard_retained"
+content_updated_at: "2026-07-30"
 
 관련분과:
 - 응급의학
@@ -58,18 +59,11 @@ content_updated_at: "2026-07-16"
 - BNP: 심부전 감별에 유용하나, 비만이나 HFpEF에서는 정상 범위일 수 있음
 
 ## 5. 치료 (Treatment)
-- 증상 완화와 혈역학적 안정화가 핵심.
-- **이뇨제**: 고리 이뇨제(furosemide 등)가 울혈 완화를 위한 일차 치료제이다.
-- **혈관확장제**: 질산염(nitrates) 등을 사용하여 전후부하를 조절한다.
-- **강심제**: 심인성 쇼크 등 저박출 상태에서 dobutamine, milrinone 등을 고려한다.
-- **기타**:
 - **초기 분기**: 산소저하·호흡부전, 저혈압/저관류, 의식저하가 있으면 즉시 모니터링·기도/호흡 보조와 중환자 수준의 처치를 우선한다. 울혈 우세·관류 유지, 고혈압성 폐부종, 저혈압성 저관류/심인성 쇼크를 구분해 같은 약을 일률적으로 쓰지 않는다.
 - **울혈 우세**: 정주 고리이뇨제로 감량·증상·소변량을 재평가하고 전해질·신기능을 추적한다. 수축기 혈압이 유지되는 고혈압성 울혈에서는 정주 혈관확장제를 고려할 수 있으나 저혈압·우심실경색·중증 판막질환에서는 피한다.
 - **저관류/쇼크**: 원인(급성 MI, 기계적 합병증, 중증 판막질환, 부정맥 등)을 즉시 찾아 교정한다. 지속 저관류에는 혈압·관류를 보며 혈관수축제/수축촉진제를 제한적으로 사용하고, 반응이 불충분하면 조기 심장중환자·advanced HF 팀과 기계적 순환보조 가능성을 논의한다.
-- **퇴원 전**: 울혈 해소, 경구 이뇨제 전환 가능 여부, 유발 인자와 재발 예방, 만성 심부전 약제 최적화·추적 계획을 확인한다. [2022 AHA/ACC/HFSA Heart Failure Guideline: Key Perspectives](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/03/29/19/53/2022-aha-acc-hfsa-heart-failure-guideline-gl-hf)
-  원인 질환(허혈, 부정맥 등)에 대한 즉각적인 교정 필요
-  급성기에는 상태에 따라 산소 공급 및 호흡 보조 시행
-
+- **입원 중 재평가**: 하루 체중·수분균형, 소변량, 신기능·전해질과 저관류 징후를 반복 확인한다. 이뇨 반응이 불충분하면 용량·원인·울혈 평가를 다시 하고, 단순히 크레아티닌 상승만으로 유효한 울혈완화 치료를 중단하지 않는다.
+- **퇴원 전**: 울혈 해소, 경구 이뇨제 전환 가능 여부, 유발 인자와 재발 예방, 만성 심부전 약제 최적화·조기 추적 계획을 확인한다.
 ## 6. 예후 및 합병증 (Prognosis)
 - 심인성 쇼크, 다장기 부전, 부정맥 발생 가능
 - 조기 진단과 적절한 약물 및 기계적 순환 보조 치료가 예후에 중요

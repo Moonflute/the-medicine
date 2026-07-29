@@ -10,9 +10,10 @@ CC:
 - 검진 이상
 preprocessing_required: x
 last_studied: '2026-06-06'
-clinical_priority: "tier_3"
-review_status: "stable_reference_only"
-reviewed_at: "2026-07-16"
+clinical_priority: tier_3
+review_status: tier3_manual_current_principles
+reviewed_at: '2026-07-30'
+content_updated_at: '2026-07-30'
 ---
 분과 : [[정신건강의학과]]
 
@@ -32,9 +33,11 @@ reviewed_at: "2026-07-16"
 - 병력 청취 및 신체 검진을 통한 의식 수준 평가.
   가역적 원인(저혈당, 저산소증 등)을 우선 배제.
 
-## 5. 치료 (Treatment)
-- 기도 확보 및 혈역학적 안정화.
-  원인 질환에 대한 교정(해독제 투여, 감염 치료, 수술 등).
+## 5. 치료
+
+- **ABC와 가역 원인 우선**: 기도·호흡·순환과 혈당을 즉시 확인하고, 저산소증, 감염, 중독, 대사 이상, 경련, 구조적 뇌병변을 병행 평가·교정한다.
+- **반복 신경학적 평가**: 진정제·저체온·대사장애 등 혼란 변수를 확인한 뒤 표준화된 의식 평가와 추적 영상/EEG를 임상 상황에 맞춰 시행한다.
+- **전문·재활 연계**: 급성기에는 중환자·신경과 협진, 안정 후에는 예후 설명과 재활 목표를 다학제로 세운다. 갑작스러운 악화는 새 출혈·경련·감염을 우선 배제한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인 질환의 회복 가능성에 따라 결정.
