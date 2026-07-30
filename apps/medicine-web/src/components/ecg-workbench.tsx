@@ -208,6 +208,17 @@ export function ECGWorkbench({ diseases, theory }: { diseases: DiseaseLink[]; th
     setLiveRunning(true);
   };
   const liveControl = <button type="button" onClick={openLiveMonitor} className="inline-flex h-11 items-center justify-center gap-1.5 rounded-lg border border-rose-200 bg-rose-50 px-3 text-sm font-semibold text-rose-800 hover:bg-rose-100"><Play className="h-4 w-4" />라이브 재생</button>;
+  const activeDecisionIndex = DECISIONS.findIndex((step) => !answers[step.key]);
+  const activeDecision = activeDecisionIndex < 0 ? undefined : DECISIONS[activeDecisionIndex];
+  const completedDecisions = DECISIONS.slice(0, activeDecisionIndex < 0 ? DECISIONS.length : activeDecisionIndex);
+  const optionLabel = (step: Decision, value?: string) => step.options.find(([option]) => option === value)?.[1] || value || "";
+  const reviseDecision = (index: number) => setAnswers((current) => {
+    const next: Partial<Record<DecisionKey, string>> = {};
+    DECISIONS.slice(0, index).forEach((step) => {
+      if (current[step.key]) next[step.key] = current[step.key];
+    });
+    return next;
+  });
 
   return <section className="overflow-hidden rounded-2xl border border-teal-200 bg-gradient-to-br from-teal-50 via-white to-slate-50 shadow-sm">
     <div className="border-b border-teal-100 bg-white/80 px-5 py-5 sm:px-6">
@@ -255,7 +266,14 @@ export function ECGWorkbench({ diseases, theory }: { diseases: DiseaseLink[]; th
     </div> : tab === "guide" ? <div className="space-y-5 p-5 lg:p-6">
       <div className="flex flex-wrap items-center justify-between gap-3"><div><h3 className="text-xl font-semibold text-slate-950">판독 순서를 따라 후보 좁히기</h3><p className="mt-1 text-sm text-slate-600">선택하지 않은 항목은 보류한다. 아래 결과는 감별 단서이며 자동 진단이 아니다.</p></div><button type="button" onClick={() => setAnswers({})} className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-semibold text-slate-700 hover:border-teal-300"><RotateCcw className="h-4 w-4" />초기화</button></div>
       <div className="grid gap-3 xl:grid-cols-2">
-        {DECISIONS.map((step) => <article key={step.key} className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm"><div className="flex gap-3"><span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-teal-50 text-xs font-bold text-teal-800">{step.number}</span><div><h4 className="font-semibold text-slate-950">{step.title}</h4><p className="mt-0.5 text-xs leading-5 text-slate-500">{step.hint}</p></div></div><div className="mt-3 flex flex-wrap gap-2">{step.options.map(([value, label]) => <button key={value} type="button" onClick={() => setAnswers((current) => ({ ...current, [step.key]: current[step.key] === value ? undefined : value }))} className={answers[step.key] === value ? "rounded-full border border-teal-600 bg-teal-700 px-3 py-1.5 text-xs font-semibold text-white" : "rounded-full border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-medium text-slate-700 hover:border-teal-300 hover:bg-white"}>{label}</button>)}</div></article>)}
+        <section className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div><p className="text-xs font-bold uppercase tracking-wider text-teal-700">Step-by-step</p><p className="mt-1 text-sm text-slate-600">한 항목을 고르면 다음 판독 항목이 열립니다.</p></div>
+            <span className="rounded-full bg-slate-100 px-3 py-1.5 text-sm font-semibold text-slate-700">{completedDecisions.length} / {DECISIONS.length}</span>
+          </div>
+          {completedDecisions.length ? <div className="mt-4 flex flex-wrap gap-2">{completedDecisions.map((step, index) => <button key={step.key} type="button" onClick={() => reviseDecision(index)} className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-left text-xs text-slate-700 transition hover:border-teal-300 hover:bg-teal-50"><span className="font-bold text-teal-800">{step.number}</span><span className="font-semibold">{step.title}</span><span className="text-slate-500">{optionLabel(step, answers[step.key])}</span><span className="text-teal-700">수정</span></button>)}</div> : null}
+          {activeDecision ? <article className="mt-4 rounded-xl border border-teal-200 bg-teal-50/50 p-4"><div className="flex gap-3"><span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-teal-700 text-xs font-bold text-white">{activeDecision.number}</span><div><h4 className="font-semibold text-slate-950">{activeDecision.title}</h4><p className="mt-0.5 text-xs leading-5 text-slate-600">{activeDecision.hint}</p></div></div><div className="mt-4 flex flex-wrap gap-2">{activeDecision.options.map(([value, label]) => <button key={value} type="button" onClick={() => setAnswers((current) => ({ ...current, [activeDecision.key]: value }))} className="rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-700 transition hover:border-teal-500 hover:bg-teal-700 hover:text-white">{label}</button>)}</div></article> : <div className="mt-4 rounded-lg border border-teal-200 bg-teal-50 px-4 py-3 text-sm text-teal-900">모든 판독 항목을 선택했습니다. 아래에서 후보와 처치 경로를 확인하세요.</div>}
+        </section>
       </div>
       <section className="rounded-xl border border-teal-200 bg-white p-5 shadow-sm"><div className="flex items-center gap-2"><Stethoscope className="h-5 w-5 text-teal-700" /><h3 className="text-lg font-semibold text-slate-950">판독 후보 · 다음 행동</h3></div>
         {interpretations.length ? <div className="mt-4 grid gap-3 lg:grid-cols-2">{interpretations.map((item) => <article key={item.title} className={item.urgency === "urgent" ? "rounded-lg border border-rose-200 bg-rose-50 p-4" : "rounded-lg border border-slate-200 bg-slate-50 p-4"}><div className="flex flex-wrap items-center gap-2"><h4 className="font-semibold text-slate-950">{item.title}</h4><UrgencyBadge urgency={item.urgency} /></div><p className="mt-2 text-sm text-slate-700">{item.clue}</p><p className="mt-2 text-sm leading-6 text-slate-700"><span className="font-semibold">다음:</span> {item.action}</p>{hrefFor(item.disease) ? <Link href={hrefFor(item.disease) || "/disease"} className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-teal-800 hover:underline">관련 질환 문서 <ChevronRight className="h-4 w-4" /></Link> : null}</article>)}</div> : <div className="mt-4 rounded-lg border border-dashed border-slate-300 bg-slate-50 p-4 text-sm leading-6 text-slate-600"><CircleHelp className="mr-2 inline h-4 w-4 text-teal-700" />RR regularity부터 선택하면 조합에 맞는 대표 후보와 확인 포인트가 나타난다.</div>}
