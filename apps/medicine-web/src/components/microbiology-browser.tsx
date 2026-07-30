@@ -68,13 +68,23 @@ function matches(entity: MicrobiologyEntity, query: string) {
   ].some((value) => normalize(value).includes(needle));
 }
 
-function categoryTone(category: string) {
-  if (category === "내성 phenotype") return "border-rose-200 bg-rose-50/45";
-  if (category.includes("G(+)")) return "border-sky-200 bg-sky-50/45";
-  if (category.includes("G(-)")) return "border-amber-200 bg-amber-50/45";
-  if (category.includes("혐기")) return "border-stone-300 bg-stone-50";
-  if (category.includes("비정형")) return "border-violet-200 bg-violet-50/45";
-  return "border-teal-200 bg-teal-50/40";
+function categoryTone(category: string, pathogenType?: MicrobiologyPathogenType) {
+  if (category.includes("G(+)") ) return "border-violet-200 bg-violet-50/55";
+  if (category.includes("G(-)")) return "border-rose-200 bg-rose-50/55";
+  if (pathogenType === "virus") return "border-teal-200 bg-teal-50/45";
+  if (["protozoan", "helminth", "ectoparasite"].includes(pathogenType ?? "")) return "border-amber-200 bg-amber-50/50";
+  if (pathogenType === "fungus") return "border-orange-200 bg-orange-50/45";
+  if (category === "resistance phenotype") return "border-rose-200 bg-rose-50/45";
+  return "border-sky-200 bg-sky-50/45";
+}
+
+function categoryAccent(category: string, pathogenType?: MicrobiologyPathogenType) {
+  if (category.includes("G(+)") ) return "text-violet-700";
+  if (category.includes("G(-)")) return "text-rose-700";
+  if (pathogenType === "virus") return "text-teal-700";
+  if (["protozoan", "helminth", "ectoparasite"].includes(pathogenType ?? "")) return "text-amber-700";
+  if (pathogenType === "fungus") return "text-orange-700";
+  return "text-sky-700";
 }
 
 function entityMetrics(entity: MicrobiologyEntity, pathways: InfectionPathwayDataset, spectrum: AntibioticSpectrumDataset) {
@@ -170,10 +180,12 @@ export function MicrobiologyBrowser({ dataset, pathways, spectrum }: { dataset: 
       {categories.length ? categories.map((category) => {
         const entities = visible.filter((entity) => entity.category === category);
         const CategoryIcon = category === "내성 phenotype" ? ShieldAlert : category.includes("비정형") ? Dna : Bug;
+        const tone = categoryTone(category, entities[0]?.pathogenType);
+        const accent = categoryAccent(category, entities[0]?.pathogenType);
         return (
-          <section key={category} className={`rounded-2xl border p-4 sm:p-5 ${categoryTone(category)}`}>
+          <section key={category} className={`rounded-2xl border p-4 sm:p-5 ${tone}`}>
             <div className="mb-4 flex items-center justify-between gap-3">
-              <h2 className="flex items-center gap-2 text-base font-bold text-slate-950"><CategoryIcon className="h-5 w-5 text-teal-700" />{category}</h2>
+              <h2 className="flex items-center gap-2 text-base font-bold text-slate-950"><CategoryIcon className={`h-5 w-5 ${accent}`} />{category}</h2>
               <span className="text-xs font-semibold text-slate-500">{entities.length}개</span>
             </div>
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
