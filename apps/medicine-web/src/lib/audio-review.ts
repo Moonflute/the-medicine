@@ -1,9 +1,6 @@
 export type AudioDomain = "disease" | "cc" | "drug" | "lab" | "skill";
 
-export type AudioSection = {
-  title: string;
-  lines: string[];
-};
+export type AudioSection = { title: string; lines: string[]; };
 
 export type AudioDocument = {
   id: string;
@@ -17,17 +14,22 @@ export type AudioDocument = {
 export type AudioSegment = {
   text: string;
   sectionTitle: string;
+  pauseMs: number;
 };
 
-export type AudioPlaylistItem = Pick<AudioDocument, "id" | "domain" | "title" | "category" | "href"> & {
-  segments: AudioSegment[];
+export type SpeechUnit = {
+  text: string;
+  lang: "ko-KR" | "en-US";
 };
+
+export type AudioPlaylistItem = Pick<AudioDocument, "id" | "domain" | "title" | "category" | "href"> & { segments: AudioSegment[]; };
 
 export type AudioReviewSession = {
   version: 1;
   playlist: AudioPlaylistItem[];
   itemIndex: number;
   segmentIndex: number;
+  unitIndex: number;
   rate: number;
   status: "playing" | "paused" | "ended";
   updatedAt: string;
@@ -44,6 +46,7 @@ const PRONUNCIATION: Array<[RegExp, string]> = [
   [/\bAKI\b/g, "에이 케이 아이"],
   [/\bCOPD\b/g, "씨 오 피 디"],
   [/\bECG\b|\bEKG\b/g, "이 씨 지"],
+  [/\bQRS\b/g, "큐 알 에스"],
   [/\bCT\b/g, "씨 티"],
   [/\bMRI\b/g, "엠 알 아이"],
   [/\bUS\b/g, "초음파"],
@@ -79,31 +82,40 @@ function tableText(line: string) {
   return cells.map((cell, index) => index % 2 === 0 ? `${cell}` : `, ${cell}`).join("");
 }
 
-function splitForSpeech(text: string, limit = 230) {
+function splitForSpeech(text: string, limit = 88) {
   const normalized = text.replace(/\s+/g, " ").trim();
   if (!normalized) return [];
   const parts: string[] = [];
-  let current = "";
-  for (const piece of normalized.split(/(?<=[.!?。]|다\.|니다\.|합니다\.|한다\.)\s+/)) {
-    const candidate = current ? `${current} ${piece}` : piece;
-    if (candidate.length <= limit) {
-      current = candidate;
-      continue;
-    }
-    if (current) parts.push(current);
-    if (piece.length <= limit) {
-      current = piece;
-      continue;
-    }
-    for (let start = 0; start < piece.length; start += limit) parts.push(piece.slice(start, start + limit));
-    current = "";
+  let rest = normalized;
+  while (rest.length > limit) {
+    const windowed = rest.slice(0, limit + 1);
+    const candidates = [...windowed.matchAll(/[.?!。;:：,，·/)]\s*/g)].map((match) => (match.index ?? 0) + match[0].length);
+    const cut = candidates.filter((index) => index >= Math.floor(limit * 0.45)).at(-1) ?? limit;
+    parts.push(rest.slice(0, cut).trim());
+    rest = rest.slice(cut).trim();
   }
-  if (current) parts.push(current);
+  if (rest) parts.push(rest);
   return parts;
 }
 
+export function speechUnits(text: string): SpeechUnit[] {
+  const units: SpeechUnit[] = [];
+  const english = /(?:[A-Za-z][A-Za-z0-9+.#/'-]*)(?:\s+(?:[A-Za-z][A-Za-z0-9+.#/'-]*))*/g;
+  let cursor = 0;
+  for (const match of text.matchAll(english)) {
+    const index = match.index ?? 0;
+    const korean = text.slice(cursor, index).trim();
+    if (korean) units.push({ text: korean, lang: "ko-KR" });
+    if (match[0].trim()) units.push({ text: match[0].trim(), lang: "en-US" });
+    cursor = index + match[0].length;
+  }
+  const korean = text.slice(cursor).trim();
+  if (korean) units.push({ text: korean, lang: "ko-KR" });
+  return units.length ? units : [{ text, lang: "ko-KR" }];
+}
+
 export function buildAudioSegments(document: AudioDocument) {
-  const segments: AudioSegment[] = [{ text: `${document.title}.`, sectionTitle: "문서 시작" }];
+  const segments: AudioSegment[] = [{ text: `${document.title}.`, sectionTitle: "문서 시작", pauseMs: 700 }];
   for (const section of document.sections) {
     const spokenLines = section.lines.flatMap((line) => {
       if (/^\s*\|/.test(line)) return tableText(line) ? [tableText(line)] : [];
@@ -112,23 +124,17 @@ export function buildAudioSegments(document: AudioDocument) {
       return [text];
     });
     if (!spokenLines.length) continue;
-    segments.push({ text: `${section.title}입니다.`, sectionTitle: section.title });
+    segments.push({ text: `${section.title}입니다.`, sectionTitle: section.title, pauseMs: 550 });
     for (const line of spokenLines) {
-      for (const text of splitForSpeech(line)) segments.push({ text, sectionTitle: section.title });
+      const chunks = splitForSpeech(line);
+      for (const [index, text] of chunks.entries()) segments.push({ text, sectionTitle: section.title, pauseMs: index + 1 === chunks.length ? 330 : 180 });
     }
   }
   return segments;
 }
 
 export function makeAudioPlaylist(documents: AudioDocument[]) {
-  return documents.map((document) => ({
-    id: document.id,
-    domain: document.domain,
-    title: document.title,
-    category: document.category,
-    href: document.href,
-    segments: buildAudioSegments(document),
-  })).filter((item) => item.segments.length > 1);
+  return documents.map((document) => ({ id: document.id, domain: document.domain, title: document.title, category: document.category, href: document.href, segments: buildAudioSegments(document) })).filter((item) => item.segments.length > 1);
 }
 
 export function loadAudioReviewSession(): AudioReviewSession | null {
@@ -136,10 +142,8 @@ export function loadAudioReviewSession(): AudioReviewSession | null {
   try {
     const value = JSON.parse(window.localStorage.getItem(STORAGE_KEY) ?? "null") as AudioReviewSession | null;
     if (!value || value.version !== 1 || !Array.isArray(value.playlist) || value.playlist.length === 0) return null;
-    return { ...value, status: value.status === "playing" ? "paused" : value.status };
-  } catch {
-    return null;
-  }
+    return { ...value, unitIndex: typeof value.unitIndex === "number" ? value.unitIndex : 0, status: value.status === "playing" ? "paused" : value.status };
+  } catch { return null; }
 }
 
 export function saveAudioReviewSession(session: AudioReviewSession | null) {
@@ -150,5 +154,5 @@ export function saveAudioReviewSession(session: AudioReviewSession | null) {
 }
 
 export function makeAudioSession(playlist: AudioPlaylistItem[], rate = 1): AudioReviewSession {
-  return { version: 1, playlist, itemIndex: 0, segmentIndex: 0, rate, status: "paused", updatedAt: new Date().toISOString() };
+  return { version: 1, playlist, itemIndex: 0, segmentIndex: 0, unitIndex: 0, rate, status: "paused", updatedAt: new Date().toISOString() };
 }
