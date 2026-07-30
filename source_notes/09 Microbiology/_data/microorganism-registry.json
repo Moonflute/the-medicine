@@ -2930,6 +2930,1262 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "id": "campylobacter-jejuni",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Campylobacter jejuni",
+      "koreanName": "Campylobacter jejuni",
+      "aliases": [
+        "Campylobacter jejuni"
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "foodborne",
+        "enteritis",
+        "guillain-barre"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Campylobacter jejuni.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "salmonella-species",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Salmonella spp.",
+      "koreanName": "Salmonella spp.",
+      "aliases": [
+        "Salmonella spp."
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "foodborne",
+        "enteritis",
+        "bacteremia"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Salmonella spp..md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "salmonella-typhi-paratyphi",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Salmonella Typhi and Paratyphi",
+      "koreanName": "Salmonella Typhi and Paratyphi",
+      "aliases": [
+        "Salmonella Typhi and Paratyphi"
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "enteric-fever",
+        "travel",
+        "foodborne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Salmonella Typhi and Paratyphi.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "shigella-species",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Shigella spp.",
+      "koreanName": "Shigella spp.",
+      "aliases": [
+        "Shigella spp."
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "dysentery",
+        "foodborne",
+        "antimicrobial-resistance"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Shigella spp..md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "stec-ehec",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Shiga toxin-producing Escherichia coli",
+      "koreanName": "Shiga toxin-producing Escherichia coli",
+      "aliases": [
+        "Shiga toxin-producing Escherichia coli"
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "bloody-diarrhea",
+        "HUS",
+        "foodborne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Shiga toxin-producing Escherichia coli.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "vibrio-vulnificus",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Vibrio vulnificus",
+      "koreanName": "Vibrio vulnificus",
+      "aliases": [
+        "Vibrio vulnificus"
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "sepsis",
+        "necrotizing-soft-tissue",
+        "liver-disease"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Vibrio vulnificus.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "vibrio-cholerae",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Vibrio cholerae",
+      "koreanName": "Vibrio cholerae",
+      "aliases": [
+        "Vibrio cholerae"
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "cholera",
+        "watery-diarrhea",
+        "public-health"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Vibrio cholerae.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "vibrio-parahaemolyticus",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Vibrio parahaemolyticus",
+      "koreanName": "Vibrio parahaemolyticus",
+      "aliases": [
+        "Vibrio parahaemolyticus"
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "seafood",
+        "diarrhea",
+        "water-exposure"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Vibrio parahaemolyticus.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "yersinia-enterocolitica",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Yersinia enterocolitica",
+      "koreanName": "Yersinia enterocolitica",
+      "aliases": [
+        "Yersinia enterocolitica"
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "enteritis",
+        "terminal-ileitis",
+        "foodborne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Yersinia enterocolitica.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "nocardia-species",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Nocardia spp.",
+      "koreanName": "Nocardia spp.",
+      "aliases": [
+        "Nocardia spp."
+      ],
+      "category": "비정형균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "immunocompromised",
+        "lung",
+        "CNS"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Nocardia spp..md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "actinomyces-species",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Actinomyces spp.",
+      "koreanName": "Actinomyces spp.",
+      "aliases": [
+        "Actinomyces spp."
+      ],
+      "category": "혐기성균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "chronic-infection",
+        "abscess",
+        "oral-flora"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Actinomyces spp..md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "bacillus-cereus",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Bacillus cereus",
+      "koreanName": "Bacillus cereus",
+      "aliases": [
+        "Bacillus cereus"
+      ],
+      "category": "G(+) 간균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "foodborne",
+        "toxin",
+        "device"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Bacillus cereus.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "bacillus-anthracis",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Bacillus anthracis",
+      "koreanName": "Bacillus anthracis",
+      "aliases": [
+        "Bacillus anthracis"
+      ],
+      "category": "G(+) 간균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "anthrax",
+        "zoonosis",
+        "public-health"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Bacillus anthracis.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "clostridium-perfringens",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Clostridium perfringens",
+      "koreanName": "Clostridium perfringens",
+      "aliases": [
+        "Clostridium perfringens"
+      ],
+      "category": "혐기성균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "myonecrosis",
+        "foodborne",
+        "toxin"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Clostridium perfringens.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "clostridium-tetani",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Clostridium tetani",
+      "koreanName": "Clostridium tetani",
+      "aliases": [
+        "Clostridium tetani"
+      ],
+      "category": "혐기성균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "tetanus",
+        "toxin",
+        "vaccine-preventable"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Clostridium tetani.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "clostridium-botulinum",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Clostridium botulinum",
+      "koreanName": "Clostridium botulinum",
+      "aliases": [
+        "Clostridium botulinum"
+      ],
+      "category": "혐기성균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "botulism",
+        "neurotoxin",
+        "public-health"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Clostridium botulinum.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "brucella-species",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Brucella spp.",
+      "koreanName": "Brucella spp.",
+      "aliases": [
+        "Brucella spp."
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "zoonosis",
+        "undulant-fever",
+        "occupational"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Brucella spp..md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "coxiella-burnetii",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Coxiella burnetii",
+      "koreanName": "Coxiella burnetii",
+      "aliases": [
+        "Coxiella burnetii"
+      ],
+      "category": "비정형균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "Q-fever",
+        "zoonosis",
+        "endocarditis"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Coxiella burnetii.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "rickettsia-species",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Rickettsia spp.",
+      "koreanName": "Rickettsia spp.",
+      "aliases": [
+        "Rickettsia spp."
+      ],
+      "category": "비정형균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "tick-borne",
+        "rash",
+        "fever"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Rickettsia spp..md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "orientia-tsutsugamushi",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Orientia tsutsugamushi",
+      "koreanName": "Orientia tsutsugamushi",
+      "aliases": [
+        "Orientia tsutsugamushi"
+      ],
+      "category": "비정형균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "scrub-typhus",
+        "eschar",
+        "tick-borne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Orientia tsutsugamushi.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "chlamydia-psittaci",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Chlamydia psittaci",
+      "koreanName": "Chlamydia psittaci",
+      "aliases": [
+        "Chlamydia psittaci"
+      ],
+      "category": "비정형균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "psittacosis",
+        "pneumonia",
+        "bird-exposure"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Chlamydia psittaci.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "ureaplasma-species",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Ureaplasma spp.",
+      "koreanName": "Ureaplasma spp.",
+      "aliases": [
+        "Ureaplasma spp."
+      ],
+      "category": "비정형균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "urogenital",
+        "neonate",
+        "cell-wall-lacking"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Ureaplasma spp..md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "mycoplasma-genitalium",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Mycoplasma genitalium",
+      "koreanName": "Mycoplasma genitalium",
+      "aliases": [
+        "Mycoplasma genitalium"
+      ],
+      "category": "비정형균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "STI",
+        "urethritis",
+        "cervicitis"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Mycoplasma genitalium.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "bordetella-parapertussis",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Bordetella parapertussis",
+      "koreanName": "Bordetella parapertussis",
+      "aliases": [
+        "Bordetella parapertussis"
+      ],
+      "category": "G(-) 구균·구간균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "pertussis-like",
+        "respiratory",
+        "pediatric"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Bordetella parapertussis.md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "parainfluenza-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Human parainfluenza viruses",
+      "koreanName": "Human parainfluenza viruses",
+      "aliases": [
+        "Human parainfluenza viruses"
+      ],
+      "category": "호흡기 바이러스",
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "croup",
+        "respiratory",
+        "pediatric"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/08 Additional viruses/Human parainfluenza viruses.md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "rhinovirus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Human rhinovirus",
+      "koreanName": "Human rhinovirus",
+      "aliases": [
+        "Human rhinovirus"
+      ],
+      "category": "호흡기 바이러스",
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "common-cold",
+        "asthma",
+        "COPD"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/08 Additional viruses/Human rhinovirus.md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "hepatitis-e-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Hepatitis E virus",
+      "koreanName": "Hepatitis E virus",
+      "aliases": [
+        "Hepatitis E virus"
+      ],
+      "category": "간염 바이러스",
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "hepatitis",
+        "pregnancy",
+        "travel"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/08 Additional viruses/Hepatitis E virus.md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "hepatitis-d-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Hepatitis D virus",
+      "koreanName": "Hepatitis D virus",
+      "aliases": [
+        "Hepatitis D virus"
+      ],
+      "category": "간염 바이러스",
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "hepatitis",
+        "HBV",
+        "coinfection"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/08 Additional viruses/Hepatitis D virus.md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "parvovirus-b19",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Parvovirus B19",
+      "koreanName": "Parvovirus B19",
+      "aliases": [
+        "Parvovirus B19"
+      ],
+      "category": "발진 바이러스",
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "erythema-infectiosum",
+        "aplastic-crisis",
+        "pregnancy"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/08 Additional viruses/Parvovirus B19.md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "rabies-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Rabies lyssavirus",
+      "koreanName": "Rabies lyssavirus",
+      "aliases": [
+        "Rabies lyssavirus"
+      ],
+      "category": "피부·점막 바이러스",
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "encephalitis",
+        "post-exposure-prophylaxis",
+        "zoonosis"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/08 Additional viruses/Rabies lyssavirus.md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "hantavirus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Hantavirus",
+      "koreanName": "Hantavirus",
+      "aliases": [
+        "Hantavirus"
+      ],
+      "category": "호흡기 바이러스",
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "HFRS",
+        "rodent",
+        "AKI"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/08 Additional viruses/Hantavirus.md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "sfts-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Dabie bandavirus",
+      "koreanName": "Dabie bandavirus",
+      "aliases": [
+        "Dabie bandavirus"
+      ],
+      "category": "발진 바이러스",
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "SFTS",
+        "tick-borne",
+        "thrombocytopenia"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/08 Additional viruses/Dabie bandavirus.md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "dengue-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Dengue virus",
+      "koreanName": "Dengue virus",
+      "aliases": [
+        "Dengue virus"
+      ],
+      "category": "발진 바이러스",
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "dengue",
+        "travel",
+        "hemorrhagic-fever"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/08 Additional viruses/Dengue virus.md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "zika-virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Zika virus",
+      "koreanName": "Zika virus",
+      "aliases": [
+        "Zika virus"
+      ],
+      "category": "발진 바이러스",
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "pregnancy",
+        "travel",
+        "mosquito-borne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/08 Additional viruses/Zika virus.md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "aspergillus-species",
+      "entityKind": "organism",
+      "pathogenType": "fungus",
+      "scientificName": "Aspergillus spp.",
+      "koreanName": "Aspergillus spp.",
+      "aliases": [
+        "Aspergillus spp."
+      ],
+      "category": "Mold",
+      "classification": [
+        "진균"
+      ],
+      "clinicalTags": [
+        "invasive-aspergillosis",
+        "lung",
+        "immunocompromised"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "03 Fungi/05 Additional fungi/Aspergillus spp..md",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "fusarium-species",
+      "entityKind": "organism",
+      "pathogenType": "fungus",
+      "scientificName": "Fusarium spp.",
+      "koreanName": "Fusarium spp.",
+      "aliases": [
+        "Fusarium spp."
+      ],
+      "category": "Mold",
+      "classification": [
+        "진균"
+      ],
+      "clinicalTags": [
+        "keratitis",
+        "disseminated",
+        "immunocompromised"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "03 Fungi/05 Additional fungi/Fusarium spp..md",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "plasmodium-vivax",
+      "entityKind": "organism",
+      "pathogenType": "protozoan",
+      "scientificName": "Plasmodium vivax",
+      "koreanName": "Plasmodium vivax",
+      "aliases": [
+        "Plasmodium vivax"
+      ],
+      "category": "원충",
+      "classification": [
+        "원충"
+      ],
+      "clinicalTags": [
+        "malaria",
+        "relapse",
+        "travel"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/04 Additional parasites/Plasmodium vivax.md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "plasmodium-ovale",
+      "entityKind": "organism",
+      "pathogenType": "protozoan",
+      "scientificName": "Plasmodium ovale",
+      "koreanName": "Plasmodium ovale",
+      "aliases": [
+        "Plasmodium ovale"
+      ],
+      "category": "원충",
+      "classification": [
+        "원충"
+      ],
+      "clinicalTags": [
+        "malaria",
+        "relapse",
+        "travel"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/04 Additional parasites/Plasmodium ovale.md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "schistosoma-species",
+      "entityKind": "organism",
+      "pathogenType": "helminth",
+      "scientificName": "Schistosoma spp.",
+      "koreanName": "Schistosoma spp.",
+      "aliases": [
+        "Schistosoma spp."
+      ],
+      "category": "연충 임상군",
+      "classification": [
+        "연충"
+      ],
+      "clinicalTags": [
+        "schistosomiasis",
+        "hematuria",
+        "portal-hypertension"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/04 Additional parasites/Schistosoma spp..md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "echinococcus-species",
+      "entityKind": "organism",
+      "pathogenType": "helminth",
+      "scientificName": "Echinococcus spp.",
+      "koreanName": "Echinococcus spp.",
+      "aliases": [
+        "Echinococcus spp."
+      ],
+      "category": "연충 임상군",
+      "classification": [
+        "연충"
+      ],
+      "clinicalTags": [
+        "hydatid-disease",
+        "liver",
+        "cyst"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/04 Additional parasites/Echinococcus spp..md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "clonorchis-sinensis",
+      "entityKind": "organism",
+      "pathogenType": "helminth",
+      "scientificName": "Clonorchis sinensis",
+      "koreanName": "Clonorchis sinensis",
+      "aliases": [
+        "Clonorchis sinensis"
+      ],
+      "category": "연충 임상군",
+      "classification": [
+        "연충"
+      ],
+      "clinicalTags": [
+        "biliary",
+        "cholangiocarcinoma",
+        "foodborne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/04 Additional parasites/Clonorchis sinensis.md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "hookworm",
+      "entityKind": "organism",
+      "pathogenType": "helminth",
+      "scientificName": "Hookworm",
+      "koreanName": "Hookworm",
+      "aliases": [
+        "Hookworm"
+      ],
+      "category": "연충 임상군",
+      "classification": [
+        "연충"
+      ],
+      "clinicalTags": [
+        "anemia",
+        "soil-transmitted",
+        "helminth"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/04 Additional parasites/Hookworm.md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "trichinella-spiralis",
+      "entityKind": "organism",
+      "pathogenType": "helminth",
+      "scientificName": "Trichinella spiralis",
+      "koreanName": "Trichinella spiralis",
+      "aliases": [
+        "Trichinella spiralis"
+      ],
+      "category": "연충 임상군",
+      "classification": [
+        "연충"
+      ],
+      "clinicalTags": [
+        "myositis",
+        "eosinophilia",
+        "foodborne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/04 Additional parasites/Trichinella spiralis.md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "toxocara-species",
+      "entityKind": "organism",
+      "pathogenType": "helminth",
+      "scientificName": "Toxocara spp.",
+      "koreanName": "Toxocara spp.",
+      "aliases": [
+        "Toxocara spp."
+      ],
+      "category": "연충 임상군",
+      "classification": [
+        "연충"
+      ],
+      "clinicalTags": [
+        "visceral-larva-migrans",
+        "eosinophilia",
+        "zoonosis"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "04 Parasites/04 Additional parasites/Toxocara spp..md",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     }
   ]
 }

@@ -208,6 +208,57 @@
     },
     {
       "sourceType": "microorganism",
+      "sourceId": "actinomyces-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "actinomyces-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "actinomyces-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
       "sourceId": "adenovirus",
       "relation": "associated_with",
       "targetType": "disease",
@@ -516,6 +567,54 @@
     {
       "sourceType": "microorganism",
       "sourceId": "aspergillus-fumigatus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "aspergillus-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQmxvb2QgY3VsdHVyZS5tZA",
+      "context": [
+        "bloodstream infection evaluation"
+      ],
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "aspergillus-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "aspergillus-species",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
@@ -876,6 +975,108 @@
       "sourceIds": [
         "idsa-asm-lab-2024",
         "ncbi-taxonomy"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "bacillus-anthracis",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "bacillus-anthracis",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "bacillus-anthracis",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "bacillus-cereus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "bacillus-cereus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "bacillus-cereus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
@@ -1350,6 +1551,57 @@
     },
     {
       "sourceType": "microorganism",
+      "sourceId": "bordetella-parapertussis",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "bordetella-parapertussis",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "bordetella-parapertussis",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
       "sourceId": "bordetella-pertussis",
       "relation": "associated_with",
       "targetType": "disease",
@@ -1542,6 +1794,108 @@
     {
       "sourceType": "clinicalGroup",
       "sourceId": "borrelia-clinical-group",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "brucella-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "brucella-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "brucella-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "campylobacter-jejuni",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "campylobacter-jejuni",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "campylobacter-jejuni",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
@@ -2009,6 +2363,118 @@
     },
     {
       "sourceType": "microorganism",
+      "sourceId": "chlamydia-psittaci",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "chlamydia-psittaci",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "chlamydia-trachomatis",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MjAg67mE64eo6riw6rO8L-u5hOyehOq3oOyalOuPhOyXvCAoTm9uZ29ub2NvY2NhbCB1cmV0aHJpdGlzKS5tZA",
+      "context": [
+        "site-specific chlamydial syndrome",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "chlamydia-trachomatis",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MjAg67mE64eo6riw6rO8L-yEseuzkeumvO2UhOycoeyVhOyihSAoTHltcGhvZ3JhbnVsb21hIHZlbmVyZXVtKS5tZA",
+      "context": [
+        "site-specific chlamydial syndrome",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "chlamydia-trachomatis",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MTMg67aA7J246rO8L-yekOq2geqyveu2gOyXvCAoQ2VydmljaXRpcykubWQ",
+      "context": [
+        "site-specific chlamydial syndrome",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "chlamydia-trachomatis",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k",
+      "context": [
+        "site and pregnancy-specific regimen selection required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "chlamydia-trachomatis",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+      "context": [
+        "site and pregnancy-specific regimen selection required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
       "sourceId": "chlamydia-trachomatis",
       "relation": "evaluated_by",
       "targetType": "lab",
@@ -2039,6 +2505,22 @@
         "lpsn",
         "idsa-asm-lab-2024",
         "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clonorchis-sinensis",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
@@ -2341,6 +2823,54 @@
     {
       "sourceType": "microorganism",
       "sourceId": "clostridioides-difficile",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-qxsOynk-uniSDqsrDsnqXsl7wgKFBzZXVkb21lbWJyYW5vdXMgQ29saXRpcykubWQ",
+      "context": [
+        "Clostridioides difficile infection",
+        "pseudomembranous colitis"
+      ],
+      "sourceIds": [
+        "idsa-cdi"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridioides-difficile",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRmlkYXhvbWljaW4ubWQ",
+      "context": [
+        "adult CDI management",
+        "route and episode-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-cdi"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridioides-difficile",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA",
+      "context": [
+        "adult CDI management",
+        "route and episode-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-cdi"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridioides-difficile",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -2391,6 +2921,159 @@
         "idsa-asm-lab-2024",
         "idsa-cdi",
         "cdc-infection-control"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridium-botulinum",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridium-botulinum",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridium-botulinum",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridium-perfringens",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridium-perfringens",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridium-perfringens",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridium-tetani",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridium-tetani",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridium-tetani",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
@@ -2614,6 +3297,57 @@
         "lpsn",
         "idsa-asm-lab-2024",
         "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "coxiella-burnetii",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQmxvb2QgY3VsdHVyZS5tZA",
+      "context": [
+        "bloodstream infection evaluation"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "coxiella-burnetii",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "coxiella-burnetii",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
@@ -2859,6 +3593,22 @@
       "reviewedAt": "2026-07-29"
     },
     {
+      "sourceType": "microorganism",
+      "sourceId": "dengue-virus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
       "sourceType": "clinicalGroup",
       "sourceId": "dermatophytes",
       "relation": "associated_with",
@@ -3004,6 +3754,22 @@
         "eucast-expert-rules",
         "who-bacterial-priority-2024",
         "cdc-infection-control"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "echinococcus-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
@@ -6013,6 +6779,54 @@
     },
     {
       "sourceType": "microorganism",
+      "sourceId": "fusarium-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "fusarium-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "giardia-duodenalis",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shKTsgqwgKERpYXJyaGVhKS5tZA",
+      "context": [
+        "giardiasis syndrome",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
       "sourceId": "giardia-duodenalis",
       "relation": "treated_with",
       "targetType": "drug",
@@ -6860,6 +7674,22 @@
     },
     {
       "sourceType": "microorganism",
+      "sourceId": "hantavirus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
       "sourceId": "hepatitis-a-virus",
       "relation": "associated_with",
       "targetType": "disease",
@@ -7089,6 +7919,38 @@
     },
     {
       "sourceType": "microorganism",
+      "sourceId": "hepatitis-d-virus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "hepatitis-e-virus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
       "sourceId": "herpes-simplex-virus",
       "relation": "associated_with",
       "targetType": "disease",
@@ -7256,6 +8118,22 @@
       ],
       "sourceIds": [
         "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "hookworm",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "cdc-dpdx",
         "idsa-asm-lab-2024"
       ],
       "reviewStatus": "source_checked",
@@ -7537,6 +8415,22 @@
     {
       "sourceType": "microorganism",
       "sourceId": "klebsiella-pneumoniae",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDIg7Zi47Z2h6riwL-2BtOugmeyLnOyXmOudvCDtj5DroLQgKEtsZWJzaWVsbGEgUG5ldW1vbmlhKS5tZA",
+      "context": [
+        "Klebsiella pneumonia",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "klebsiella-pneumoniae",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQmxvb2QgY3VsdHVyZS5tZA",
@@ -7609,6 +8503,70 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "legionella-pneumophila",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-ugiOyngOyYpOuErOudvCAoTGVnaW9uZWxsYSkubWQ",
+      "context": [
+        "Legionnaires disease",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "cdc-legionella-clinical-guidance"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "legionella-pneumophila",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k",
+      "context": [
+        "Legionella-directed therapy",
+        "agent selection depends on pneumonia setting"
+      ],
+      "sourceIds": [
+        "cdc-legionella-clinical-guidance"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "legionella-pneumophila",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k",
+      "context": [
+        "Legionella-directed therapy",
+        "agent selection depends on pneumonia setting"
+      ],
+      "sourceIds": [
+        "cdc-legionella-clinical-guidance"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "legionella-pneumophila",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvTW94aWZsb3hhY2luLm1k",
+      "context": [
+        "Legionella-directed therapy",
+        "agent selection depends on pneumonia setting"
+      ],
+      "sourceIds": [
+        "cdc-legionella-clinical-guidance"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -10144,6 +11102,91 @@
     {
       "sourceType": "microorganism",
       "sourceId": "mycobacterium-tuberculosis-complex",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRXRoYW1idXRvbC5tZA",
+      "context": [
+        "drug-susceptibility guided multidrug regimen",
+        "expert management for resistance"
+      ],
+      "sourceIds": [
+        "cdc-tb-treatment-2025",
+        "who-tb"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycobacterium-tuberculosis-complex",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvSXNvbmlhemlkLm1k",
+      "context": [
+        "drug-susceptibility guided multidrug regimen",
+        "expert management for resistance"
+      ],
+      "sourceIds": [
+        "cdc-tb-treatment-2025",
+        "who-tb"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycobacterium-tuberculosis-complex",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvTW94aWZsb3hhY2luLm1k",
+      "context": [
+        "drug-susceptibility guided multidrug regimen",
+        "expert management for resistance"
+      ],
+      "sourceIds": [
+        "cdc-tb-treatment-2025",
+        "who-tb"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycobacterium-tuberculosis-complex",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvUHlyYXppbmFtaWRlLm1k",
+      "context": [
+        "drug-susceptibility guided multidrug regimen",
+        "expert management for resistance"
+      ],
+      "sourceIds": [
+        "cdc-tb-treatment-2025",
+        "who-tb"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycobacterium-tuberculosis-complex",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvUmlmYW1waW4ubWQ",
+      "context": [
+        "drug-susceptibility guided multidrug regimen",
+        "expert management for resistance"
+      ],
+      "sourceIds": [
+        "cdc-tb-treatment-2025",
+        "who-tb"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycobacterium-tuberculosis-complex",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -10178,6 +11221,120 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycoplasma-genitalium",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycoplasma-genitalium",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycoplasma-pneumoniae",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDIg7Zi47Z2h6riwL-uniOydtOy9lO2UjOudvOyKpOuniCDtj5DroLQgKE15Y29wbGFzbWEgUG5ldW1vbmlhKS5tZA",
+      "context": [
+        "Mycoplasma pneumonia",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "cdc-mycoplasma-clinical-care"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycoplasma-pneumoniae",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k",
+      "context": [
+        "cell-wall deficient organism",
+        "beta-lactams inactive"
+      ],
+      "sourceIds": [
+        "cdc-mycoplasma-clinical-care"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycoplasma-pneumoniae",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+      "context": [
+        "cell-wall deficient organism",
+        "beta-lactams inactive"
+      ],
+      "sourceIds": [
+        "cdc-mycoplasma-clinical-care"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycoplasma-pneumoniae",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k",
+      "context": [
+        "cell-wall deficient organism",
+        "beta-lactams inactive"
+      ],
+      "sourceIds": [
+        "cdc-mycoplasma-clinical-care"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycoplasma-pneumoniae",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvTW94aWZsb3hhY2luLm1k",
+      "context": [
+        "cell-wall deficient organism",
+        "beta-lactams inactive"
+      ],
+      "sourceIds": [
+        "cdc-mycoplasma-clinical-care"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -10827,6 +11984,21 @@
     {
       "sourceType": "microorganism",
       "sourceId": "neisseria-gonorrhoeae",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ",
+      "context": [
+        "susceptibility and concurrent chlamydia assessment required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "neisseria-gonorrhoeae",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -11113,6 +12285,40 @@
       "reviewedAt": "2026-07-29"
     },
     {
+      "sourceType": "microorganism",
+      "sourceId": "nocardia-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "nocardia-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
       "sourceType": "clinicalGroup",
       "sourceId": "nontuberculous-mycobacteria",
       "relation": "evaluated_by",
@@ -11145,6 +12351,22 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "norovirus",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shKTsgqwgKERpYXJyaGVhKS5tZA",
+      "context": [
+        "acute gastroenteritis syndrome",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "cdc-foodborne"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -11522,6 +12744,72 @@
     },
     {
       "sourceType": "microorganism",
+      "sourceId": "orientia-tsutsugamushi",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "orientia-tsutsugamushi",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "parainfluenza-virus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "parvovirus-b19",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
       "sourceId": "plasmodium-falciparum",
       "relation": "associated_with",
       "targetType": "disease",
@@ -11566,6 +12854,38 @@
       "sourceIds": [
         "cdc-dpdx",
         "who-malaria",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "plasmodium-ovale",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "plasmodium-vivax",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "cdc-dpdx",
         "idsa-asm-lab-2024"
       ],
       "reviewStatus": "source_checked",
@@ -11689,6 +13009,54 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "proteus-mirabilis",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDUg7Iug7J6lL-q4ieyEsSDrsKnqtJHsl7wgKEFjdXRlIEN5c3RpdGlzKS5tZA",
+      "context": [
+        "urinary tract infection and infection-stone association",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "proteus-mirabilis",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA",
+      "context": [
+        "urinary tract infection and infection-stone association",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "proteus-mirabilis",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MjAg67mE64eo6riw6rO8L-qwkOyXvOyEnSAoU3RydXZpdGUgc3RvbmUpLm1k",
+      "context": [
+        "urinary tract infection and infection-stone association",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -12460,6 +13828,22 @@
     },
     {
       "sourceType": "microorganism",
+      "sourceId": "rabies-virus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
       "sourceId": "respiratory-syncytial-virus",
       "relation": "evaluated_by",
       "targetType": "lab",
@@ -12474,6 +13858,73 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "rhinovirus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "rickettsia-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "rickettsia-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "rotavirus",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shKTsgqwgKERpYXJyaGVhKS5tZA",
+      "context": [
+        "acute gastroenteritis syndrome",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "cdc-vaccine-preventable",
+        "cdc-foodborne"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -12540,6 +13991,125 @@
         "ictv-taxonomy",
         "idsa-asm-lab-2024",
         "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQmxvb2QgY3VsdHVyZS5tZA",
+      "context": [
+        "bloodstream infection evaluation"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-typhi-paratyphi",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-typhi-paratyphi",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-typhi-paratyphi",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
@@ -12622,6 +14192,89 @@
         "ictv-taxonomy",
         "idsa-asm-lab-2024",
         "cdc-respiratory-viruses"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "schistosoma-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "sfts-virus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "shigella-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "shigella-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "shigella-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
@@ -13758,6 +15411,57 @@
         "lpsn",
         "idsa-asm-lab-2024",
         "cdc-mrsa"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "stec-ehec",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "stec-ehec",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "stec-ehec",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
@@ -15227,6 +16931,51 @@
     {
       "sourceType": "microorganism",
       "sourceId": "streptococcus-agalactiae",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2VmYXpvbGluLm1k",
+      "context": [
+        "pregnancy and neonatal context require protocol-specific selection"
+      ],
+      "sourceIds": [
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "streptococcus-agalactiae",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQmVuenlscGVuaWNpbGxpbi5tZA",
+      "context": [
+        "pregnancy and neonatal context require protocol-specific selection"
+      ],
+      "sourceIds": [
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "streptococcus-agalactiae",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA",
+      "context": [
+        "pregnancy and neonatal context require protocol-specific selection"
+      ],
+      "sourceIds": [
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "streptococcus-agalactiae",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQmxvb2QgY3VsdHVyZS5tZA",
@@ -16166,6 +17915,51 @@
     {
       "sourceType": "microorganism",
       "sourceId": "streptococcus-pyogenes",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ",
+      "context": [
+        "syndrome-specific treatment and source control required"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "streptococcus-pyogenes",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQmVuenlscGVuaWNpbGxpbi5tZA",
+      "context": [
+        "syndrome-specific treatment and source control required"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "streptococcus-pyogenes",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ",
+      "context": [
+        "syndrome-specific treatment and source control required"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "streptococcus-pyogenes",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQmxvb2QgY3VsdHVyZS5tZA",
@@ -16397,6 +18191,22 @@
     },
     {
       "sourceType": "microorganism",
+      "sourceId": "toxocara-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
       "sourceId": "toxoplasma-gondii",
       "relation": "associated_with",
       "targetType": "disease",
@@ -16486,6 +18296,51 @@
     {
       "sourceType": "microorganism",
       "sourceId": "treponema-pallidum",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ",
+      "context": [
+        "stage and pregnancy-specific regimen selection required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "treponema-pallidum",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQmVuenlscGVuaWNpbGxpbi5tZA",
+      "context": [
+        "stage and pregnancy-specific regimen selection required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "treponema-pallidum",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+      "context": [
+        "stage and pregnancy-specific regimen selection required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "treponema-pallidum",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -16515,6 +18370,56 @@
         "lpsn",
         "idsa-asm-lab-2024",
         "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "trichinella-spiralis",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "ureaplasma-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "ureaplasma-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
@@ -16682,6 +18587,176 @@
       "reviewedAt": "2026-07-29"
     },
     {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-cholerae",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-cholerae",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-cholerae",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-parahaemolyticus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-parahaemolyticus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-parahaemolyticus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-vulnificus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQmxvb2QgY3VsdHVyZS5tZA",
+      "context": [
+        "bloodstream infection evaluation"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-vulnificus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-vulnificus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-vulnificus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
       "sourceType": "clinicalGroup",
       "sourceId": "viridans-group-streptococci",
       "relation": "evaluated_by",
@@ -16844,6 +18919,73 @@
         "eucast-expert-rules",
         "idsa-asm-lab-2024",
         "cdc-infection-control"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "yersinia-enterocolitica",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "yersinia-enterocolitica",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "yersinia-enterocolitica",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "zika-virus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"

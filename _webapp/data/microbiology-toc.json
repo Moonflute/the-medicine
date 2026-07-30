@@ -739,6 +739,402 @@
       ],
       "slug": "bWljcm9iaW9sb2d5OnRpc3N1ZS1oZWxtaW50aHM",
       "entityKind": "clinical_group"
+    },
+    {
+      "title": "Campylobacter jejuni",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNhbXB5bG9iYWN0ZXItamVqdW5p",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Salmonella spp.",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnNhbG1vbmVsbGEtc3BlY2llcw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Salmonella Typhi and Paratyphi",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnNhbG1vbmVsbGEtdHlwaGktcGFyYXR5cGhp",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Shigella spp.",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnNoaWdlbGxhLXNwZWNpZXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Shiga toxin-producing Escherichia coli",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnN0ZWMtZWhlYw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Vibrio vulnificus",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnZpYnJpby12dWxuaWZpY3Vz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Vibrio cholerae",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnZpYnJpby1jaG9sZXJhZQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Vibrio parahaemolyticus",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnZpYnJpby1wYXJhaGFlbW9seXRpY3Vz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Yersinia enterocolitica",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnllcnNpbmlhLWVudGVyb2NvbGl0aWNh",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Nocardia spp.",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om5vY2FyZGlhLXNwZWNpZXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Actinomyces spp.",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmFjdGlub215Y2VzLXNwZWNpZXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Bacillus cereus",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmJhY2lsbHVzLWNlcmV1cw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Bacillus anthracis",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmJhY2lsbHVzLWFudGhyYWNpcw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Clostridium perfringens",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNsb3N0cmlkaXVtLXBlcmZyaW5nZW5z",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Clostridium tetani",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNsb3N0cmlkaXVtLXRldGFuaQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Clostridium botulinum",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNsb3N0cmlkaXVtLWJvdHVsaW51bQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Brucella spp.",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmJydWNlbGxhLXNwZWNpZXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Coxiella burnetii",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNveGllbGxhLWJ1cm5ldGlp",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Rickettsia spp.",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnJpY2tldHRzaWEtc3BlY2llcw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Orientia tsutsugamushi",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om9yaWVudGlhLXRzdXRzdWdhbXVzaGk",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Chlamydia psittaci",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNobGFteWRpYS1wc2l0dGFjaQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Ureaplasma spp.",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnVyZWFwbGFzbWEtc3BlY2llcw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Mycoplasma genitalium",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Om15Y29wbGFzbWEtZ2VuaXRhbGl1bQ",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Bordetella parapertussis",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmJvcmRldGVsbGEtcGFyYXBlcnR1c3Npcw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Human parainfluenza viruses",
+      "path": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnBhcmFpbmZsdWVuemEtdmlydXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Human rhinovirus",
+      "path": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnJoaW5vdmlydXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Hepatitis E virus",
+      "path": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmhlcGF0aXRpcy1lLXZpcnVz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Hepatitis D virus",
+      "path": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmhlcGF0aXRpcy1kLXZpcnVz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Parvovirus B19",
+      "path": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnBhcnZvdmlydXMtYjE5",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Rabies lyssavirus",
+      "path": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnJhYmllcy12aXJ1cw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Hantavirus",
+      "path": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmhhbnRhdmlydXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Dabie bandavirus",
+      "path": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnNmdHMtdmlydXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Dengue virus",
+      "path": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmRlbmd1ZS12aXJ1cw",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Zika virus",
+      "path": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Onppa2EtdmlydXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Aspergillus spp.",
+      "path": [
+        "03 Fungi",
+        "05 Additional fungi"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmFzcGVyZ2lsbHVzLXNwZWNpZXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Fusarium spp.",
+      "path": [
+        "03 Fungi",
+        "05 Additional fungi"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmZ1c2FyaXVtLXNwZWNpZXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Plasmodium vivax",
+      "path": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnBsYXNtb2RpdW0tdml2YXg",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Plasmodium ovale",
+      "path": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnBsYXNtb2RpdW0tb3ZhbGU",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Schistosoma spp.",
+      "path": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnNjaGlzdG9zb21hLXNwZWNpZXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Echinococcus spp.",
+      "path": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmVjaGlub2NvY2N1cy1zcGVjaWVz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Clonorchis sinensis",
+      "path": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmNsb25vcmNoaXMtc2luZW5zaXM",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Hookworm",
+      "path": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Omhvb2t3b3Jt",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Trichinella spiralis",
+      "path": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnRyaWNoaW5lbGxhLXNwaXJhbGlz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Toxocara spp.",
+      "path": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OnRveG9jYXJhLXNwZWNpZXM",
+      "entityKind": "organism"
     }
   ]
 }

@@ -11059,6 +11059,4190 @@
           ]
         }
       ]
+    },
+    {
+      "id": "campylobacter-jejuni",
+      "slug": "bWljcm9iaW9sb2d5OmNhbXB5bG9iYWN0ZXItamVqdW5p",
+      "title": "Campylobacter jejuni",
+      "scientificName": "Campylobacter jejuni",
+      "koreanName": "Campylobacter jejuni",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "G(-) 간균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Campylobacter jejuni"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "foodborne",
+        "enteritis",
+        "guillain-barre"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Campylobacter jejuni.md",
+      "summary": [
+        "Campylobacter jejuni은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Campylobacter jejuni의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: foodborne, enteritis, guillain-barre",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 foodborne, enteritis, guillain-barre이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salmonella-species",
+      "slug": "bWljcm9iaW9sb2d5OnNhbG1vbmVsbGEtc3BlY2llcw",
+      "title": "Salmonella spp.",
+      "scientificName": "Salmonella spp.",
+      "koreanName": "Salmonella spp.",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "G(-) 간균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Salmonella spp."
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "foodborne",
+        "enteritis",
+        "bacteremia"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Salmonella spp..md",
+      "summary": [
+        "Salmonella spp.은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Salmonella spp.의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: foodborne, enteritis, bacteremia",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 foodborne, enteritis, bacteremia이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salmonella-typhi-paratyphi",
+      "slug": "bWljcm9iaW9sb2d5OnNhbG1vbmVsbGEtdHlwaGktcGFyYXR5cGhp",
+      "title": "Salmonella Typhi and Paratyphi",
+      "scientificName": "Salmonella Typhi and Paratyphi",
+      "koreanName": "Salmonella Typhi and Paratyphi",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "G(-) 간균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Salmonella Typhi and Paratyphi"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "enteric-fever",
+        "travel",
+        "foodborne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Salmonella Typhi and Paratyphi.md",
+      "summary": [
+        "Salmonella Typhi and Paratyphi은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Salmonella Typhi and Paratyphi의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: enteric-fever, travel, foodborne",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 enteric-fever, travel, foodborne이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shigella-species",
+      "slug": "bWljcm9iaW9sb2d5OnNoaWdlbGxhLXNwZWNpZXM",
+      "title": "Shigella spp.",
+      "scientificName": "Shigella spp.",
+      "koreanName": "Shigella spp.",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "G(-) 간균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Shigella spp."
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "dysentery",
+        "foodborne",
+        "antimicrobial-resistance"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Shigella spp..md",
+      "summary": [
+        "Shigella spp.은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Shigella spp.의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: dysentery, foodborne, antimicrobial-resistance",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 dysentery, foodborne, antimicrobial-resistance이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stec-ehec",
+      "slug": "bWljcm9iaW9sb2d5OnN0ZWMtZWhlYw",
+      "title": "Shiga toxin-producing Escherichia coli",
+      "scientificName": "Shiga toxin-producing Escherichia coli",
+      "koreanName": "Shiga toxin-producing Escherichia coli",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "G(-) 간균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Shiga toxin-producing Escherichia coli"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "bloody-diarrhea",
+        "HUS",
+        "foodborne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Shiga toxin-producing Escherichia coli.md",
+      "summary": [
+        "Shiga toxin-producing Escherichia coli은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Shiga toxin-producing Escherichia coli의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: bloody-diarrhea, HUS, foodborne",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 bloody-diarrhea, HUS, foodborne이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibrio-vulnificus",
+      "slug": "bWljcm9iaW9sb2d5OnZpYnJpby12dWxuaWZpY3Vz",
+      "title": "Vibrio vulnificus",
+      "scientificName": "Vibrio vulnificus",
+      "koreanName": "Vibrio vulnificus",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "G(-) 간균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Vibrio vulnificus"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "sepsis",
+        "necrotizing-soft-tissue",
+        "liver-disease"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Vibrio vulnificus.md",
+      "summary": [
+        "Vibrio vulnificus은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Vibrio vulnificus의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: sepsis, necrotizing-soft-tissue, liver-disease",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 sepsis, necrotizing-soft-tissue, liver-disease이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibrio-cholerae",
+      "slug": "bWljcm9iaW9sb2d5OnZpYnJpby1jaG9sZXJhZQ",
+      "title": "Vibrio cholerae",
+      "scientificName": "Vibrio cholerae",
+      "koreanName": "Vibrio cholerae",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "G(-) 간균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Vibrio cholerae"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "cholera",
+        "watery-diarrhea",
+        "public-health"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Vibrio cholerae.md",
+      "summary": [
+        "Vibrio cholerae은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Vibrio cholerae의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: cholera, watery-diarrhea, public-health",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 cholera, watery-diarrhea, public-health이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibrio-parahaemolyticus",
+      "slug": "bWljcm9iaW9sb2d5OnZpYnJpby1wYXJhaGFlbW9seXRpY3Vz",
+      "title": "Vibrio parahaemolyticus",
+      "scientificName": "Vibrio parahaemolyticus",
+      "koreanName": "Vibrio parahaemolyticus",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "G(-) 간균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Vibrio parahaemolyticus"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "seafood",
+        "diarrhea",
+        "water-exposure"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Vibrio parahaemolyticus.md",
+      "summary": [
+        "Vibrio parahaemolyticus은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Vibrio parahaemolyticus의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: seafood, diarrhea, water-exposure",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 seafood, diarrhea, water-exposure이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yersinia-enterocolitica",
+      "slug": "bWljcm9iaW9sb2d5OnllcnNpbmlhLWVudGVyb2NvbGl0aWNh",
+      "title": "Yersinia enterocolitica",
+      "scientificName": "Yersinia enterocolitica",
+      "koreanName": "Yersinia enterocolitica",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "G(-) 간균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Yersinia enterocolitica"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "enteritis",
+        "terminal-ileitis",
+        "foodborne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Yersinia enterocolitica.md",
+      "summary": [
+        "Yersinia enterocolitica은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Yersinia enterocolitica의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: enteritis, terminal-ileitis, foodborne",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 enteritis, terminal-ileitis, foodborne이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nocardia-species",
+      "slug": "bWljcm9iaW9sb2d5Om5vY2FyZGlhLXNwZWNpZXM",
+      "title": "Nocardia spp.",
+      "scientificName": "Nocardia spp.",
+      "koreanName": "Nocardia spp.",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "비정형균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Nocardia spp."
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "immunocompromised",
+        "lung",
+        "CNS"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Nocardia spp..md",
+      "summary": [
+        "Nocardia spp.은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Nocardia spp.의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: immunocompromised, lung, CNS",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 immunocompromised, lung, CNS이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "actinomyces-species",
+      "slug": "bWljcm9iaW9sb2d5OmFjdGlub215Y2VzLXNwZWNpZXM",
+      "title": "Actinomyces spp.",
+      "scientificName": "Actinomyces spp.",
+      "koreanName": "Actinomyces spp.",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "혐기성균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Actinomyces spp."
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "chronic-infection",
+        "abscess",
+        "oral-flora"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Actinomyces spp..md",
+      "summary": [
+        "Actinomyces spp.은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Actinomyces spp.의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: chronic-infection, abscess, oral-flora",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 chronic-infection, abscess, oral-flora이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bacillus-cereus",
+      "slug": "bWljcm9iaW9sb2d5OmJhY2lsbHVzLWNlcmV1cw",
+      "title": "Bacillus cereus",
+      "scientificName": "Bacillus cereus",
+      "koreanName": "Bacillus cereus",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "G(+) 간균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Bacillus cereus"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "foodborne",
+        "toxin",
+        "device"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Bacillus cereus.md",
+      "summary": [
+        "Bacillus cereus은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Bacillus cereus의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: foodborne, toxin, device",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 foodborne, toxin, device이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bacillus-anthracis",
+      "slug": "bWljcm9iaW9sb2d5OmJhY2lsbHVzLWFudGhyYWNpcw",
+      "title": "Bacillus anthracis",
+      "scientificName": "Bacillus anthracis",
+      "koreanName": "Bacillus anthracis",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "G(+) 간균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Bacillus anthracis"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "anthrax",
+        "zoonosis",
+        "public-health"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Bacillus anthracis.md",
+      "summary": [
+        "Bacillus anthracis은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Bacillus anthracis의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: anthrax, zoonosis, public-health",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 anthrax, zoonosis, public-health이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clostridium-perfringens",
+      "slug": "bWljcm9iaW9sb2d5OmNsb3N0cmlkaXVtLXBlcmZyaW5nZW5z",
+      "title": "Clostridium perfringens",
+      "scientificName": "Clostridium perfringens",
+      "koreanName": "Clostridium perfringens",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "혐기성균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Clostridium perfringens"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "myonecrosis",
+        "foodborne",
+        "toxin"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Clostridium perfringens.md",
+      "summary": [
+        "Clostridium perfringens은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Clostridium perfringens의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: myonecrosis, foodborne, toxin",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 myonecrosis, foodborne, toxin이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clostridium-tetani",
+      "slug": "bWljcm9iaW9sb2d5OmNsb3N0cmlkaXVtLXRldGFuaQ",
+      "title": "Clostridium tetani",
+      "scientificName": "Clostridium tetani",
+      "koreanName": "Clostridium tetani",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "혐기성균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Clostridium tetani"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "tetanus",
+        "toxin",
+        "vaccine-preventable"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Clostridium tetani.md",
+      "summary": [
+        "Clostridium tetani은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Clostridium tetani의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: tetanus, toxin, vaccine-preventable",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 tetanus, toxin, vaccine-preventable이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clostridium-botulinum",
+      "slug": "bWljcm9iaW9sb2d5OmNsb3N0cmlkaXVtLWJvdHVsaW51bQ",
+      "title": "Clostridium botulinum",
+      "scientificName": "Clostridium botulinum",
+      "koreanName": "Clostridium botulinum",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "혐기성균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Clostridium botulinum"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "botulism",
+        "neurotoxin",
+        "public-health"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Clostridium botulinum.md",
+      "summary": [
+        "Clostridium botulinum은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Clostridium botulinum의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: botulism, neurotoxin, public-health",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 botulism, neurotoxin, public-health이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brucella-species",
+      "slug": "bWljcm9iaW9sb2d5OmJydWNlbGxhLXNwZWNpZXM",
+      "title": "Brucella spp.",
+      "scientificName": "Brucella spp.",
+      "koreanName": "Brucella spp.",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "G(-) 간균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Brucella spp."
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "zoonosis",
+        "undulant-fever",
+        "occupational"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Brucella spp..md",
+      "summary": [
+        "Brucella spp.은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Brucella spp.의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: zoonosis, undulant-fever, occupational",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 zoonosis, undulant-fever, occupational이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coxiella-burnetii",
+      "slug": "bWljcm9iaW9sb2d5OmNveGllbGxhLWJ1cm5ldGlp",
+      "title": "Coxiella burnetii",
+      "scientificName": "Coxiella burnetii",
+      "koreanName": "Coxiella burnetii",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "비정형균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Coxiella burnetii"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "Q-fever",
+        "zoonosis",
+        "endocarditis"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Coxiella burnetii.md",
+      "summary": [
+        "Coxiella burnetii은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Coxiella burnetii의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: Q-fever, zoonosis, endocarditis",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 Q-fever, zoonosis, endocarditis이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rickettsia-species",
+      "slug": "bWljcm9iaW9sb2d5OnJpY2tldHRzaWEtc3BlY2llcw",
+      "title": "Rickettsia spp.",
+      "scientificName": "Rickettsia spp.",
+      "koreanName": "Rickettsia spp.",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "비정형균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Rickettsia spp."
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "tick-borne",
+        "rash",
+        "fever"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Rickettsia spp..md",
+      "summary": [
+        "Rickettsia spp.은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Rickettsia spp.의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: tick-borne, rash, fever",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 tick-borne, rash, fever이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orientia-tsutsugamushi",
+      "slug": "bWljcm9iaW9sb2d5Om9yaWVudGlhLXRzdXRzdWdhbXVzaGk",
+      "title": "Orientia tsutsugamushi",
+      "scientificName": "Orientia tsutsugamushi",
+      "koreanName": "Orientia tsutsugamushi",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "비정형균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Orientia tsutsugamushi"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "scrub-typhus",
+        "eschar",
+        "tick-borne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Orientia tsutsugamushi.md",
+      "summary": [
+        "Orientia tsutsugamushi은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Orientia tsutsugamushi의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: scrub-typhus, eschar, tick-borne",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 scrub-typhus, eschar, tick-borne이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chlamydia-psittaci",
+      "slug": "bWljcm9iaW9sb2d5OmNobGFteWRpYS1wc2l0dGFjaQ",
+      "title": "Chlamydia psittaci",
+      "scientificName": "Chlamydia psittaci",
+      "koreanName": "Chlamydia psittaci",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "비정형균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Chlamydia psittaci"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "psittacosis",
+        "pneumonia",
+        "bird-exposure"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Chlamydia psittaci.md",
+      "summary": [
+        "Chlamydia psittaci은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Chlamydia psittaci의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: psittacosis, pneumonia, bird-exposure",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 psittacosis, pneumonia, bird-exposure이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ureaplasma-species",
+      "slug": "bWljcm9iaW9sb2d5OnVyZWFwbGFzbWEtc3BlY2llcw",
+      "title": "Ureaplasma spp.",
+      "scientificName": "Ureaplasma spp.",
+      "koreanName": "Ureaplasma spp.",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "비정형균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Ureaplasma spp."
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "urogenital",
+        "neonate",
+        "cell-wall-lacking"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Ureaplasma spp..md",
+      "summary": [
+        "Ureaplasma spp.은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Ureaplasma spp.의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: urogenital, neonate, cell-wall-lacking",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 urogenital, neonate, cell-wall-lacking이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mycoplasma-genitalium",
+      "slug": "bWljcm9iaW9sb2d5Om15Y29wbGFzbWEtZ2VuaXRhbGl1bQ",
+      "title": "Mycoplasma genitalium",
+      "scientificName": "Mycoplasma genitalium",
+      "koreanName": "Mycoplasma genitalium",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "비정형균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Mycoplasma genitalium"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "STI",
+        "urethritis",
+        "cervicitis"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Mycoplasma genitalium.md",
+      "summary": [
+        "Mycoplasma genitalium은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Mycoplasma genitalium의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: STI, urethritis, cervicitis",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 STI, urethritis, cervicitis이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bordetella-parapertussis",
+      "slug": "bWljcm9iaW9sb2d5OmJvcmRldGVsbGEtcGFyYXBlcnR1c3Npcw",
+      "title": "Bordetella parapertussis",
+      "scientificName": "Bordetella parapertussis",
+      "koreanName": "Bordetella parapertussis",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "category": "G(-) 구균·구간균",
+      "categoryPath": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "aliases": [
+        "Bordetella parapertussis"
+      ],
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "pertussis-like",
+        "respiratory",
+        "pediatric"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/01 Bacteria/10 Additional clinical bacteria/Bordetella parapertussis.md",
+      "summary": [
+        "Bordetella parapertussis은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Bordetella parapertussis의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: pertussis-like, respiratory, pediatric",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 pertussis-like, respiratory, pediatric이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ncbi-taxonomy",
+            "• lpsn",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parainfluenza-virus",
+      "slug": "bWljcm9iaW9sb2d5OnBhcmFpbmZsdWVuemEtdmlydXM",
+      "title": "Human parainfluenza viruses",
+      "scientificName": "Human parainfluenza viruses",
+      "koreanName": "Human parainfluenza viruses",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "category": "호흡기 바이러스",
+      "categoryPath": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "aliases": [
+        "Human parainfluenza viruses"
+      ],
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "croup",
+        "respiratory",
+        "pediatric"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/02 Viruses/08 Additional viruses/Human parainfluenza viruses.md",
+      "summary": [
+        "Human parainfluenza viruses은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Human parainfluenza viruses의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: croup, respiratory, pediatric",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 croup, respiratory, pediatric이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ictv-taxonomy",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rhinovirus",
+      "slug": "bWljcm9iaW9sb2d5OnJoaW5vdmlydXM",
+      "title": "Human rhinovirus",
+      "scientificName": "Human rhinovirus",
+      "koreanName": "Human rhinovirus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "category": "호흡기 바이러스",
+      "categoryPath": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "aliases": [
+        "Human rhinovirus"
+      ],
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "common-cold",
+        "asthma",
+        "COPD"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/02 Viruses/08 Additional viruses/Human rhinovirus.md",
+      "summary": [
+        "Human rhinovirus은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Human rhinovirus의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: common-cold, asthma, COPD",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 common-cold, asthma, COPD이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ictv-taxonomy",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hepatitis-e-virus",
+      "slug": "bWljcm9iaW9sb2d5OmhlcGF0aXRpcy1lLXZpcnVz",
+      "title": "Hepatitis E virus",
+      "scientificName": "Hepatitis E virus",
+      "koreanName": "Hepatitis E virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "category": "간염 바이러스",
+      "categoryPath": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "aliases": [
+        "Hepatitis E virus"
+      ],
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "hepatitis",
+        "pregnancy",
+        "travel"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/02 Viruses/08 Additional viruses/Hepatitis E virus.md",
+      "summary": [
+        "Hepatitis E virus은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Hepatitis E virus의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: hepatitis, pregnancy, travel",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 hepatitis, pregnancy, travel이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ictv-taxonomy",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hepatitis-d-virus",
+      "slug": "bWljcm9iaW9sb2d5OmhlcGF0aXRpcy1kLXZpcnVz",
+      "title": "Hepatitis D virus",
+      "scientificName": "Hepatitis D virus",
+      "koreanName": "Hepatitis D virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "category": "간염 바이러스",
+      "categoryPath": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "aliases": [
+        "Hepatitis D virus"
+      ],
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "hepatitis",
+        "HBV",
+        "coinfection"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/02 Viruses/08 Additional viruses/Hepatitis D virus.md",
+      "summary": [
+        "Hepatitis D virus은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Hepatitis D virus의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: hepatitis, HBV, coinfection",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 hepatitis, HBV, coinfection이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ictv-taxonomy",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parvovirus-b19",
+      "slug": "bWljcm9iaW9sb2d5OnBhcnZvdmlydXMtYjE5",
+      "title": "Parvovirus B19",
+      "scientificName": "Parvovirus B19",
+      "koreanName": "Parvovirus B19",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "category": "발진 바이러스",
+      "categoryPath": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "aliases": [
+        "Parvovirus B19"
+      ],
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "erythema-infectiosum",
+        "aplastic-crisis",
+        "pregnancy"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/02 Viruses/08 Additional viruses/Parvovirus B19.md",
+      "summary": [
+        "Parvovirus B19은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Parvovirus B19의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: erythema-infectiosum, aplastic-crisis, pregnancy",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 erythema-infectiosum, aplastic-crisis, pregnancy이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ictv-taxonomy",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rabies-virus",
+      "slug": "bWljcm9iaW9sb2d5OnJhYmllcy12aXJ1cw",
+      "title": "Rabies lyssavirus",
+      "scientificName": "Rabies lyssavirus",
+      "koreanName": "Rabies lyssavirus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "category": "피부·점막 바이러스",
+      "categoryPath": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "aliases": [
+        "Rabies lyssavirus"
+      ],
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "encephalitis",
+        "post-exposure-prophylaxis",
+        "zoonosis"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/02 Viruses/08 Additional viruses/Rabies lyssavirus.md",
+      "summary": [
+        "Rabies lyssavirus은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Rabies lyssavirus의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: encephalitis, post-exposure-prophylaxis, zoonosis",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 encephalitis, post-exposure-prophylaxis, zoonosis이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ictv-taxonomy",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hantavirus",
+      "slug": "bWljcm9iaW9sb2d5OmhhbnRhdmlydXM",
+      "title": "Hantavirus",
+      "scientificName": "Hantavirus",
+      "koreanName": "Hantavirus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "category": "호흡기 바이러스",
+      "categoryPath": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "aliases": [
+        "Hantavirus"
+      ],
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "HFRS",
+        "rodent",
+        "AKI"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/02 Viruses/08 Additional viruses/Hantavirus.md",
+      "summary": [
+        "Hantavirus은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Hantavirus의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: HFRS, rodent, AKI",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 HFRS, rodent, AKI이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ictv-taxonomy",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sfts-virus",
+      "slug": "bWljcm9iaW9sb2d5OnNmdHMtdmlydXM",
+      "title": "Dabie bandavirus",
+      "scientificName": "Dabie bandavirus",
+      "koreanName": "Dabie bandavirus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "category": "발진 바이러스",
+      "categoryPath": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "aliases": [
+        "Dabie bandavirus"
+      ],
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "SFTS",
+        "tick-borne",
+        "thrombocytopenia"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/02 Viruses/08 Additional viruses/Dabie bandavirus.md",
+      "summary": [
+        "Dabie bandavirus은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Dabie bandavirus의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: SFTS, tick-borne, thrombocytopenia",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 SFTS, tick-borne, thrombocytopenia이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ictv-taxonomy",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dengue-virus",
+      "slug": "bWljcm9iaW9sb2d5OmRlbmd1ZS12aXJ1cw",
+      "title": "Dengue virus",
+      "scientificName": "Dengue virus",
+      "koreanName": "Dengue virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "category": "발진 바이러스",
+      "categoryPath": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "aliases": [
+        "Dengue virus"
+      ],
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "dengue",
+        "travel",
+        "hemorrhagic-fever"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/02 Viruses/08 Additional viruses/Dengue virus.md",
+      "summary": [
+        "Dengue virus은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Dengue virus의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: dengue, travel, hemorrhagic-fever",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 dengue, travel, hemorrhagic-fever이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ictv-taxonomy",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zika-virus",
+      "slug": "bWljcm9iaW9sb2d5Onppa2EtdmlydXM",
+      "title": "Zika virus",
+      "scientificName": "Zika virus",
+      "koreanName": "Zika virus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "category": "발진 바이러스",
+      "categoryPath": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "aliases": [
+        "Zika virus"
+      ],
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "pregnancy",
+        "travel",
+        "mosquito-borne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/02 Viruses/08 Additional viruses/Zika virus.md",
+      "summary": [
+        "Zika virus은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Zika virus의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: pregnancy, travel, mosquito-borne",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 pregnancy, travel, mosquito-borne이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• ictv-taxonomy",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aspergillus-species",
+      "slug": "bWljcm9iaW9sb2d5OmFzcGVyZ2lsbHVzLXNwZWNpZXM",
+      "title": "Aspergillus spp.",
+      "scientificName": "Aspergillus spp.",
+      "koreanName": "Aspergillus spp.",
+      "entityKind": "organism",
+      "pathogenType": "fungus",
+      "category": "Mold",
+      "categoryPath": [
+        "03 Fungi",
+        "05 Additional fungi"
+      ],
+      "aliases": [
+        "Aspergillus spp."
+      ],
+      "classification": [
+        "진균"
+      ],
+      "clinicalTags": [
+        "invasive-aspergillosis",
+        "lung",
+        "immunocompromised"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/03 Fungi/05 Additional fungi/Aspergillus spp..md",
+      "summary": [
+        "Aspergillus spp.은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Aspergillus spp.의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: invasive-aspergillosis, lung, immunocompromised",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 invasive-aspergillosis, lung, immunocompromised이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• cdc-fungal",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fusarium-species",
+      "slug": "bWljcm9iaW9sb2d5OmZ1c2FyaXVtLXNwZWNpZXM",
+      "title": "Fusarium spp.",
+      "scientificName": "Fusarium spp.",
+      "koreanName": "Fusarium spp.",
+      "entityKind": "organism",
+      "pathogenType": "fungus",
+      "category": "Mold",
+      "categoryPath": [
+        "03 Fungi",
+        "05 Additional fungi"
+      ],
+      "aliases": [
+        "Fusarium spp."
+      ],
+      "classification": [
+        "진균"
+      ],
+      "clinicalTags": [
+        "keratitis",
+        "disseminated",
+        "immunocompromised"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/03 Fungi/05 Additional fungi/Fusarium spp..md",
+      "summary": [
+        "Fusarium spp.은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Fusarium spp.의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: keratitis, disseminated, immunocompromised",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 keratitis, disseminated, immunocompromised이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• cdc-fungal",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plasmodium-vivax",
+      "slug": "bWljcm9iaW9sb2d5OnBsYXNtb2RpdW0tdml2YXg",
+      "title": "Plasmodium vivax",
+      "scientificName": "Plasmodium vivax",
+      "koreanName": "Plasmodium vivax",
+      "entityKind": "organism",
+      "pathogenType": "protozoan",
+      "category": "원충",
+      "categoryPath": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "aliases": [
+        "Plasmodium vivax"
+      ],
+      "classification": [
+        "원충"
+      ],
+      "clinicalTags": [
+        "malaria",
+        "relapse",
+        "travel"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/04 Parasites/04 Additional parasites/Plasmodium vivax.md",
+      "summary": [
+        "Plasmodium vivax은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Plasmodium vivax의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: malaria, relapse, travel",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 malaria, relapse, travel이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• cdc-dpdx",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plasmodium-ovale",
+      "slug": "bWljcm9iaW9sb2d5OnBsYXNtb2RpdW0tb3ZhbGU",
+      "title": "Plasmodium ovale",
+      "scientificName": "Plasmodium ovale",
+      "koreanName": "Plasmodium ovale",
+      "entityKind": "organism",
+      "pathogenType": "protozoan",
+      "category": "원충",
+      "categoryPath": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "aliases": [
+        "Plasmodium ovale"
+      ],
+      "classification": [
+        "원충"
+      ],
+      "clinicalTags": [
+        "malaria",
+        "relapse",
+        "travel"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/04 Parasites/04 Additional parasites/Plasmodium ovale.md",
+      "summary": [
+        "Plasmodium ovale은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Plasmodium ovale의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: malaria, relapse, travel",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 malaria, relapse, travel이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• cdc-dpdx",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schistosoma-species",
+      "slug": "bWljcm9iaW9sb2d5OnNjaGlzdG9zb21hLXNwZWNpZXM",
+      "title": "Schistosoma spp.",
+      "scientificName": "Schistosoma spp.",
+      "koreanName": "Schistosoma spp.",
+      "entityKind": "organism",
+      "pathogenType": "helminth",
+      "category": "연충 임상군",
+      "categoryPath": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "aliases": [
+        "Schistosoma spp."
+      ],
+      "classification": [
+        "연충"
+      ],
+      "clinicalTags": [
+        "schistosomiasis",
+        "hematuria",
+        "portal-hypertension"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/04 Parasites/04 Additional parasites/Schistosoma spp..md",
+      "summary": [
+        "Schistosoma spp.은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Schistosoma spp.의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: schistosomiasis, hematuria, portal-hypertension",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 schistosomiasis, hematuria, portal-hypertension이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• cdc-dpdx",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "echinococcus-species",
+      "slug": "bWljcm9iaW9sb2d5OmVjaGlub2NvY2N1cy1zcGVjaWVz",
+      "title": "Echinococcus spp.",
+      "scientificName": "Echinococcus spp.",
+      "koreanName": "Echinococcus spp.",
+      "entityKind": "organism",
+      "pathogenType": "helminth",
+      "category": "연충 임상군",
+      "categoryPath": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "aliases": [
+        "Echinococcus spp."
+      ],
+      "classification": [
+        "연충"
+      ],
+      "clinicalTags": [
+        "hydatid-disease",
+        "liver",
+        "cyst"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/04 Parasites/04 Additional parasites/Echinococcus spp..md",
+      "summary": [
+        "Echinococcus spp.은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Echinococcus spp.의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: hydatid-disease, liver, cyst",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 hydatid-disease, liver, cyst이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• cdc-dpdx",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clonorchis-sinensis",
+      "slug": "bWljcm9iaW9sb2d5OmNsb25vcmNoaXMtc2luZW5zaXM",
+      "title": "Clonorchis sinensis",
+      "scientificName": "Clonorchis sinensis",
+      "koreanName": "Clonorchis sinensis",
+      "entityKind": "organism",
+      "pathogenType": "helminth",
+      "category": "연충 임상군",
+      "categoryPath": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "aliases": [
+        "Clonorchis sinensis"
+      ],
+      "classification": [
+        "연충"
+      ],
+      "clinicalTags": [
+        "biliary",
+        "cholangiocarcinoma",
+        "foodborne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/04 Parasites/04 Additional parasites/Clonorchis sinensis.md",
+      "summary": [
+        "Clonorchis sinensis은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Clonorchis sinensis의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: biliary, cholangiocarcinoma, foodborne",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 biliary, cholangiocarcinoma, foodborne이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• cdc-dpdx",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hookworm",
+      "slug": "bWljcm9iaW9sb2d5Omhvb2t3b3Jt",
+      "title": "Hookworm",
+      "scientificName": "Hookworm",
+      "koreanName": "Hookworm",
+      "entityKind": "organism",
+      "pathogenType": "helminth",
+      "category": "연충 임상군",
+      "categoryPath": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "aliases": [
+        "Hookworm"
+      ],
+      "classification": [
+        "연충"
+      ],
+      "clinicalTags": [
+        "anemia",
+        "soil-transmitted",
+        "helminth"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/04 Parasites/04 Additional parasites/Hookworm.md",
+      "summary": [
+        "Hookworm은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Hookworm의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: anemia, soil-transmitted, helminth",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 anemia, soil-transmitted, helminth이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• cdc-dpdx",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trichinella-spiralis",
+      "slug": "bWljcm9iaW9sb2d5OnRyaWNoaW5lbGxhLXNwaXJhbGlz",
+      "title": "Trichinella spiralis",
+      "scientificName": "Trichinella spiralis",
+      "koreanName": "Trichinella spiralis",
+      "entityKind": "organism",
+      "pathogenType": "helminth",
+      "category": "연충 임상군",
+      "categoryPath": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "aliases": [
+        "Trichinella spiralis"
+      ],
+      "classification": [
+        "연충"
+      ],
+      "clinicalTags": [
+        "myositis",
+        "eosinophilia",
+        "foodborne"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/04 Parasites/04 Additional parasites/Trichinella spiralis.md",
+      "summary": [
+        "Trichinella spiralis은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Trichinella spiralis의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: myositis, eosinophilia, foodborne",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 myositis, eosinophilia, foodborne이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• cdc-dpdx",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toxocara-species",
+      "slug": "bWljcm9iaW9sb2d5OnRveG9jYXJhLXNwZWNpZXM",
+      "title": "Toxocara spp.",
+      "scientificName": "Toxocara spp.",
+      "koreanName": "Toxocara spp.",
+      "entityKind": "organism",
+      "pathogenType": "helminth",
+      "category": "연충 임상군",
+      "categoryPath": [
+        "04 Parasites",
+        "04 Additional parasites"
+      ],
+      "aliases": [
+        "Toxocara spp."
+      ],
+      "classification": [
+        "연충"
+      ],
+      "clinicalTags": [
+        "visceral-larva-migrans",
+        "eosinophilia",
+        "zoonosis"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "relatedDiseaseIds": [],
+      "relatedAntibioticIds": [],
+      "relatedLabIds": [],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30",
+      "sourcePath": "source_notes/09 Microbiology/04 Parasites/04 Additional parasites/Toxocara spp..md",
+      "summary": [
+        "Toxocara spp.은 임상적으로 중요한 병원체이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다."
+      ],
+      "sections": [
+        {
+          "title": "동정 및 분류",
+          "content": [
+            "• Toxocara spp.의 명명과 분류는 공인 taxonomy 자료를 기준으로 확인한다."
+          ]
+        },
+        {
+          "title": "저장소와 전파",
+          "content": [
+            "• 주요 임상 맥락: visceral-larva-migrans, eosinophilia, zoonosis",
+            "• 전파 가능성은 노출력, 숙주 상태와 지역 역학을 함께 고려한다."
+          ]
+        },
+        {
+          "title": "병원성 및 병태생리",
+          "content": [
+            "• 감염 중증도는 병원체 특성, 숙주 면역상태와 감염 부위에 따라 달라진다."
+          ]
+        },
+        {
+          "title": "임상 정보",
+          "content": [
+            "• 대표 임상 맥락은 visceral-larva-migrans, eosinophilia, zoonosis이다.",
+            "• 고위험군에서는 비전형적 증상과 중증 진행 가능성을 낮은 문턱으로 평가한다."
+          ]
+        },
+        {
+          "title": "진단",
+          "content": [
+            "• 임상 증후군과 검체 부위에 맞춰 배양, NAAT, 항원검사 또는 현미경 검사를 선택한다.",
+            "• 중증 질환, 집단발생 또는 치료 실패에서는 검체 확보와 전문 검사 의뢰를 검토한다."
+          ]
+        },
+        {
+          "title": "치료 및 조치",
+          "content": [
+            "• 치료 필요성, 항감염제 선택, 용량 및 기간은 감염 부위, 중증도, 임신·면역상태, 지역 역학과 최신 지침에 따라 결정한다."
+          ]
+        },
+        {
+          "title": "감염관리 및 예방",
+          "content": [
+            "• 감염관리 조치는 전파 경로, 노출 상황, 지역 공중보건 지침에 따라 적용한다."
+          ]
+        },
+        {
+          "title": "출처",
+          "content": [
+            "• cdc-dpdx",
+            "• idsa-asm-lab-2024"
+          ]
+        }
+      ]
     }
   ]
 }
