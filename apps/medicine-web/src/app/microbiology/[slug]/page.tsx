@@ -92,7 +92,7 @@ export default async function MicrobiologyDetailPage(props: { params: Promise<{ 
         병원체 목록으로 돌아가기
       </Link>
 
-      <header className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7">
+      <header className={visual ? "relative rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7 lg:min-h-[360px] lg:pr-[292px]" : "rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7"}>
         <div className="flex flex-wrap items-center gap-2">
           <span className="rounded-full bg-teal-100 px-3 py-1 text-xs font-semibold text-teal-900">{KIND_LABELS[entity.entityKind]}</span>
           <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600">{entity.category}</span>
@@ -103,10 +103,10 @@ export default async function MicrobiologyDetailPage(props: { params: Promise<{ 
         <div className="mt-4 flex flex-wrap gap-2">
           {entity.classification.map((item) => <span key={item} className="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-600">{item}</span>)}
         </div>
-        <div className={visual ? "mt-5 grid gap-5 lg:grid-cols-[minmax(0,1fr)_250px] lg:items-start" : "mt-5"}>
+        <div className="mt-5">
           <RichTextLines lines={entity.summary} className="space-y-2 text-sm leading-7 text-slate-700" />
           {visual ? (
-            <figure className="overflow-hidden rounded-xl border border-slate-200 bg-slate-50">
+            <figure className="overflow-hidden rounded-xl border border-slate-200 bg-slate-50 lg:absolute lg:right-7 lg:top-7 lg:w-[250px]">
               <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${visual.asset}`} alt={`${entity.title} ${visual.modality} representative finding`} width={640} height={640} unoptimized className="aspect-square w-full object-cover" />
               <figcaption className="space-y-1 border-t border-slate-200 bg-white px-3 py-2.5">
                 <p className="text-xs font-bold text-slate-800">대표 소견 · {visual.modality}</p>
