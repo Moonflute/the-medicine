@@ -64,7 +64,7 @@
       "source": "99 Q-bank/MedQA"
     },
     "infectionPathways": {
-      "count": 16,
+      "count": 39,
       "source": "02 Diseases/08 감염/_data/infection-pathways.json"
     },
     "clinicalRelations": {

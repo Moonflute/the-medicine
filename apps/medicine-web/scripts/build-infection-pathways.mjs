@@ -157,25 +157,27 @@ function main() {
   assert(JSON.stringify(snapshot.tocHeadings) === JSON.stringify(expectedToc), "Infection specialty pathogen-centered TOC order changed");
   writeJson(SNAPSHOT_PATH, snapshot);
   const currentYear = new Date().getUTCFullYear();
+  const visiblePathways = pathways.filter((item) => ["verified", "reviewed"].includes(item.reviewStatus));
   writeJson(MAINTENANCE_PATH, {
     generatedAt: new Date().toISOString(),
     summary: {
       pathways: pathways.length,
       verifiedPathways: pathways.filter((item) => item.reviewStatus === "verified").length,
-      hiddenFromClinicalUi: pathways.filter((item) => item.reviewStatus !== "verified").length,
+      visibleInClinicalUi: visiblePathways.length,
+      hiddenFromClinicalUi: pathways.filter((item) => !["verified", "reviewed"].includes(item.reviewStatus)).length,
       reviewedQuizQuestions: pathways.filter((item) => item.reviewStatus === "verified").reduce((sum, item) => sum + item.quizQuestions.length, 0),
       organisms: spectrum.organisms.length,
       organismNotesLinked: spectrum.organisms.filter((item) => item.noteSlug).length,
       antibiotics: spectrum.antibiotics.length,
     },
     clinicalAnchorAudit: { missingAntibiotics, missingOrganisms },
-    hiddenPathways: pathways.filter((item) => item.reviewStatus !== "verified").map((item) => ({ id: item.id, status: item.reviewStatus, sourceIds: item.sourceIds })),
+    hiddenPathways: pathways.filter((item) => !["verified", "reviewed"].includes(item.reviewStatus)).map((item) => ({ id: item.id, status: item.reviewStatus, sourceIds: item.sourceIds })),
     sourceReviewDue: source.sources.filter((item) => currentYear - Number(item.year) >= 5).map((item) => ({ id: item.id, year: item.year, usedByVerifiedPathways: pathways.filter((pathway) => pathway.reviewStatus === "verified" && pathway.sourceIds.includes(item.id)).map((pathway) => pathway.id) })),
   });
 
   const manifest = readJson(MANIFEST_PATH);
   manifest.domains.infectionPathways = {
-    count: pathways.filter((item) => item.reviewStatus === "verified").length,
+    count: visiblePathways.length,
     source: "02 Diseases/08 감염/_data/infection-pathways.json",
   };
   writeJson(MANIFEST_PATH, manifest);

@@ -191,6 +191,225 @@
       "url": "https://doi.org/10.1093/cid/cis629",
       "tier": "A",
       "year": "2012"
+    },
+    {
+      "id": "idsa-infectious-diarrhea",
+      "label": "IDSA Clinical Practice Guideline for Infectious Diarrhea",
+      "organization": "Infectious Diseases Society of America",
+      "url": "https://www.idsociety.org/practice-guideline/infectious-diarrhea/",
+      "tier": "A",
+      "year": "2017",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-campylobacter",
+      "label": "CDC Clinical Overview of Campylobacter",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/campylobacter/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "2025",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-salmonella",
+      "label": "CDC Treatment of Salmonella Infection",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/salmonella/treatment/index.html",
+      "tier": "A",
+      "year": "2024",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-shigella",
+      "label": "CDC Treatment of Shigella Infection",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/shigella/treatment/index.html",
+      "tier": "A",
+      "year": "2024",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-typhoid",
+      "label": "CDC Clinical Guidance for Typhoid and Paratyphoid Fever",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/typhoid-fever/hcp/clinical-guidance/index.html",
+      "tier": "A",
+      "year": "2024",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-vibrio",
+      "label": "CDC Clinical Overview of Vibriosis",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/vibrio/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "2024",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-listeria-care",
+      "label": "CDC Caring for Patients with Listeriosis",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/listeria/hcp/clinical-care/index.html",
+      "tier": "A",
+      "year": "2024",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-legionella-care",
+      "label": "CDC Clinical Guidance for Legionella Infections",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/legionella/hcp/clinical-guidance/index.html",
+      "tier": "A",
+      "year": "2025",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-mycoplasma-care",
+      "label": "CDC Clinical Care of Mycoplasma pneumoniae Infection",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/mycoplasma/hcp/clinical-care/index.html",
+      "tier": "A",
+      "year": "2026",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-brucellosis",
+      "label": "CDC Clinical Overview of Brucellosis",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/brucellosis/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "2026",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-q-fever",
+      "label": "CDC Clinical Guidance for Q Fever",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/q-fever/hcp/clinical-guidance/index.html",
+      "tier": "A",
+      "year": "2025",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-rickettsial-care",
+      "label": "CDC Clinical Care of Spotted Fever Rickettsioses",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/other-spotted-fever/hcp/clinical-care/index.html",
+      "tier": "A",
+      "year": "2025",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-leptospirosis",
+      "label": "CDC Clinical Overview of Leptospirosis",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/leptospirosis/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "2026",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-lyme-care",
+      "label": "CDC Clinical Treatment of Erythema Migrans",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/hcp/clinical-care/erythema-migrans-rash.html",
+      "tier": "A",
+      "year": "2026",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-vaccine-preventable",
+      "label": "CDC Pink Book",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/index.html",
+      "tier": "A",
+      "year": "2025",
+      "scope": [
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-bartonella",
+      "label": "CDC Clinical Overview of Cat Scratch Disease",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/bartonella/hcp/clinical-overview/cat-scratch-disease.html",
+      "tier": "A",
+      "year": "2026",
+      "scope": [
+        "Bartonella henselae",
+        "cat scratch disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-relapsing-fever",
+      "label": "CDC Clinical Guidance for Louse-borne Relapsing Fever",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/relapsing-fever/hcp/louse-borne-relapsing-fever/index.html",
+      "tier": "A",
+      "year": "2024",
+      "scope": [
+        "relapsing fever",
+        "Borrelia",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-nocardiosis",
+      "label": "CDC Clinical Overview of Nocardiosis",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/nocardiosis/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "2025",
+      "scope": [
+        "Nocardia",
+        "nocardiosis",
+        "susceptibility testing"
+      ]
     }
   ],
   "pathways": [
@@ -3199,6 +3418,1557 @@
       ],
       "diseaseSlug": "MDgg6rCQ7Je8L-yCrOyKrOyVjOq3oCDsnbjrkZDsl7wgKFN0cmVwdG9jb2NjYWwgUGhhcnluZ2l0aXMpLm1k",
       "diseaseTitle": "사슬알균 인두염 (Streptococcal Pharyngitis)"
+    },
+    {
+      "id": "adult-campylobacter-enteritis",
+      "displayName": "성인 Campylobacter 장염",
+      "aliases": [
+        "Campylobacter enteritis",
+        "캄필로박터 장염"
+      ],
+      "diseaseSourceFile": "08 감염/캄필로박터 (Campylobacter).md",
+      "infectionSite": "gastrointestinal",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "혈성 설사·발열 또는 고위험 숙주에서 stool NAAT/culture와 중증도를 함께 평가한다.",
+        "대부분은 수분·전해질 보충만으로 호전하며 항생제는 중증 또는 고위험군에서만 고려한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "fluoroquinolone 내성 가능성을 고려해 지역 감수성과 여행력을 확인한다."
+      ],
+      "pathogenGroups": [],
+      "empiricRegimens": [
+        {
+          "id": "campylobacter-severe",
+          "context": "severe-or-high-risk-enteritis",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "azithromycin",
+                "ciprofloxacin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "중증, 지속성 또는 고위험 숙주"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [
+            "일상적 경증 설사에 항생제를 자동 처방하지 않는다."
+          ],
+          "sourceIds": [
+            "cdc-campylobacter",
+            "idsa-infectious-diarrhea"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-campylobacter",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-y6hO2VhOuhnOuwle2EsCAoQ2FtcHlsb2JhY3RlcikubWQ",
+      "diseaseTitle": "캄필로박터 (Campylobacter)"
+    },
+    {
+      "id": "adult-nontyphoidal-salmonella",
+      "displayName": "성인 비장티푸스 Salmonella 감염",
+      "aliases": [
+        "non-typhoidal Salmonella",
+        "NTS"
+      ],
+      "diseaseSourceFile": "08 감염/비장티푸스 살모넬라 (Non-typhoidal Salmonella).md",
+      "infectionSite": "gastrointestinal",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "중증, 균혈증 위험 또는 면역저하에서는 혈액배양과 침습성 감염 평가를 병행한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "대부분의 단순 장염은 항생제 없이 회복하며, 항생제는 중증·고위험군에 선별한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "enteric-pathogen",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "common",
+              "notes": [
+                "Salmonella spp.는 Enterobacterales에 속한다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "nts-severe",
+          "context": "severe-or-invasive-disease",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone",
+                "azithromycin",
+                "ciprofloxacin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "침습성 감염 또는 고위험 숙주"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [
+            "감수성 결과와 지역 내성을 반영한다."
+          ],
+          "sourceIds": [
+            "cdc-salmonella",
+            "idsa-infectious-diarrhea"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-salmonella",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-u5hOyepe2LsO2RuOyKpCDsgrTrqqjrhKzrnbwgKE5vbi10eXBob2lkYWwgU2FsbW9uZWxsYSkubWQ",
+      "diseaseTitle": "비장티푸스 살모넬라 (Non-typhoidal Salmonella)"
+    },
+    {
+      "id": "adult-typhoid-paratyphoid-fever",
+      "displayName": "성인 장티푸스·파라티푸스",
+      "aliases": [
+        "enteric fever",
+        "typhoid fever",
+        "paratyphoid fever"
+      ],
+      "diseaseSourceFile": "08 감염/장티푸스 (Typhoid Fever).md",
+      "infectionSite": "gastrointestinal",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "inpatient",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "혈액배양을 우선하고 여행·노출 지역을 확인해 내성 위험을 판단한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "경험적 fluoroquinolone 사용은 여행 관련 내성 위험을 확인한 뒤 결정한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "enteric-fever",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "common",
+              "notes": [
+                "S. Typhi/Paratyphi는 Enterobacterales에 속하며 여행력과 내성 양상이 핵심이다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "enteric-fever-uncomplicated",
+          "context": "uncomplicated-enteric-fever",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "azithromycin",
+                "ceftriaxone"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "여행력·감수성 위험을 반영한 경험적 치료"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "cdc-typhoid",
+            "idsa-infectious-diarrhea"
+          ]
+        },
+        {
+          "id": "enteric-fever-complicated",
+          "context": "complicated-or-high-resistance-risk",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "meropenem",
+                "ceftriaxone"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "중증 또는 ceftriaxone 내성 위험이 높은 지역 노출"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [
+            "배양·감수성 결과에 따라 신속히 좁힌다."
+          ],
+          "sourceIds": [
+            "cdc-typhoid"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-typhoid",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-yepe2LsO2RuOyKpCAoVHlwaG9pZCBGZXZlcikubWQ",
+      "diseaseTitle": "장티푸스 (Typhoid Fever)"
+    },
+    {
+      "id": "adult-shigellosis-dysentery",
+      "displayName": "성인 Shigella 이질",
+      "aliases": [
+        "shigellosis",
+        "bacillary dysentery"
+      ],
+      "diseaseSourceFile": "08 감염/이질 (Dysentery).md",
+      "infectionSite": "gastrointestinal",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "혈성 설사에서는 다른 침습성 장병원체와 STEC를 구분하고 stool 검사·중증도를 평가한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "경증은 지지요법이 원칙이며, 항생제는 중증·고위험 또는 전파 통제가 필요한 경우 감수성에 따라 사용한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "bloody-diarrhea",
+          "organisms": [
+            {
+              "organismId": "enterobacterales",
+              "likelihood": "important",
+              "notes": [
+                "Shigella spp.는 Enterobacterales에 속한다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "shigellosis-severe",
+          "context": "severe-or-prolonged-dysentery",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "azithromycin",
+                "ciprofloxacin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "중증, 지속성 또는 고위험 숙주"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [
+            "감수성 결과를 확인해 치료 실패와 내성 전파를 줄인다."
+          ],
+          "sourceIds": [
+            "cdc-shigella",
+            "idsa-infectious-diarrhea"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-shigella",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-ydtOyniCAoRHlzZW50ZXJ5KS5tZA",
+      "diseaseTitle": "이질 (Dysentery)"
+    },
+    {
+      "id": "adult-cholera",
+      "displayName": "성인 콜레라",
+      "aliases": [
+        "cholera",
+        "Vibrio cholerae infection"
+      ],
+      "diseaseSourceFile": "08 감염/콜레라 (Cholera).md",
+      "infectionSite": "gastrointestinal",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "중증 탈수 여부를 즉시 평가하고 수분·전해질 보충을 지연하지 않는다.",
+        "유행·여행력 및 public health reporting을 고려한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "항생제는 수분 보충을 대체하지 않으며 감수성·지역 유행주를 반영한다."
+      ],
+      "pathogenGroups": [],
+      "empiricRegimens": [
+        {
+          "id": "cholera-severe",
+          "context": "moderate-to-severe-cholera",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline",
+                "azithromycin",
+                "ciprofloxacin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "탈수 교정과 함께 항생제 사용이 필요한 경우"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "cdc-vibrio",
+            "idsa-infectious-diarrhea"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-vibrio",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-y9nOugiOudvCAoQ2hvbGVyYSkubWQ",
+      "diseaseTitle": "콜레라 (Cholera)"
+    },
+    {
+      "id": "adult-invasive-listeriosis",
+      "displayName": "성인 침습성 리스테리아증",
+      "aliases": [
+        "invasive listeriosis",
+        "Listeria monocytogenes"
+      ],
+      "diseaseSourceFile": "08 감염/리스테리아 (Listeria).md",
+      "infectionSite": "systemic",
+      "setting": "mixed",
+      "population": [
+        "adult",
+        "pregnant",
+        "immunocompromised"
+      ],
+      "severity": [
+        "inpatient",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "균혈증·CNS 침범 여부와 임신·고령·면역저하 상태를 평가하고 blood culture를 확보한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "cephalosporin은 Listeria에 신뢰할 수 있는 치료가 아니므로 분리 동정 시 치료를 재평가한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "invasive-listeriosis",
+          "organisms": [
+            {
+              "organismId": "listeria",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "listeriosis-standard",
+          "context": "confirmed-or-strongly-suspected-invasive-listeriosis",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ampicillin",
+                "gentamicin"
+              ],
+              "selection": "all-of"
+            }
+          ],
+          "conditions": [
+            "침습성 감염 또는 고위험 환자에서 강한 의심"
+          ],
+          "avoidWhen": [
+            "전문가 자문 또는 source control이 필요한 중증·복잡 감염"
+          ],
+          "notes": [
+            "신기능과 aminoglycoside 독성을 모니터링한다."
+          ],
+          "sourceIds": [
+            "cdc-listeria-care",
+            "who-meningitis-2025"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-listeria-care",
+        "who-meningitis-2025"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-umrOyKpO2FjOumrOyVhCAoTGlzdGVyaWEpLm1k",
+      "diseaseTitle": "리스테리아 (Listeria)"
+    },
+    {
+      "id": "adult-mycoplasma-pneumonia",
+      "displayName": "성인 Mycoplasma 폐렴",
+      "aliases": [
+        "Mycoplasma pneumoniae pneumonia",
+        "atypical pneumonia"
+      ],
+      "diseaseSourceFile": "08 감염/미코플라스마 (Mycoplasma).md",
+      "infectionSite": "lower-respiratory-tract",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "호흡기 증상·영상·유행 상황을 함께 보며 중증 CAP과 감별한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "beta-lactam은 단독으로 Mycoplasma를 치료하지 못하며 macrolide 불응 시 내성과 다른 진단을 재평가한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "atypical-pneumonia",
+          "organisms": [
+            {
+              "organismId": "atypicals",
+              "likelihood": "common",
+              "notes": [
+                "M. pneumoniae는 beta-lactam 표적이 없는 cell-wall deficient pathogen이다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "mycoplasma-pneumonia",
+          "context": "clinically-significant-mycoplasma-pneumonia",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "azithromycin",
+                "doxycycline",
+                "levofloxacin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "폐렴으로 치료가 필요한 경우"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "cdc-mycoplasma-care",
+            "idsa-cap-2019"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-mycoplasma-care",
+        "idsa-cap-2019"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-uvuOy9lO2UjOudvOyKpOuniCAoTXljb3BsYXNtYSkubWQ",
+      "diseaseTitle": "미코플라스마 (Mycoplasma)"
+    },
+    {
+      "id": "adult-legionnaires-disease",
+      "displayName": "성인 Legionnaires' disease",
+      "aliases": [
+        "Legionella pneumonia",
+        "Legionnaires disease"
+      ],
+      "diseaseSourceFile": "08 감염/레지오넬라 (Legionella).md",
+      "infectionSite": "lower-respiratory-tract",
+      "setting": "mixed",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "inpatient",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "중증 폐렴, 면역저하, 여행 또는 의료관련 노출에서 Legionella urine antigen·하부기도 검체를 고려한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "진단 검체 채취를 위해 항생제 시작을 부당하게 지연하지 않는다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "atypical-pneumonia",
+          "organisms": [
+            {
+              "organismId": "atypicals",
+              "likelihood": "important",
+              "notes": [
+                "Legionella는 routine beta-lactam 단독 치료로 충분하지 않다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "legionnaires-disease",
+          "context": "suspected-or-confirmed-legionnaires-disease",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "azithromycin",
+                "levofloxacin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "중증도와 획득 환경을 반영"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "cdc-legionella-care",
+            "idsa-cap-2019"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-legionella-care",
+        "idsa-cap-2019"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-ugiOyngOyYpOuErOudvCAoTGVnaW9uZWxsYSkubWQ",
+      "diseaseTitle": "레지오넬라 (Legionella)"
+    },
+    {
+      "id": "adult-acute-q-fever",
+      "displayName": "성인 급성 Q fever",
+      "aliases": [
+        "Coxiella burnetii infection",
+        "acute Q fever"
+      ],
+      "diseaseSourceFile": "08 감염/큐열 (Q Fever).md",
+      "infectionSite": "systemic",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "가축·분만 산물 노출, 원인불명 발열·간염·비정형 폐렴을 함께 평가한다.",
+        "판막질환·혈관 이식물 등 chronic Q fever 위험인자를 확인한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "혈청·임상 경과에 따른 추적과 chronic disease 평가는 전문가 자문이 필요하다."
+      ],
+      "pathogenGroups": [],
+      "empiricRegimens": [
+        {
+          "id": "acute-q-fever",
+          "context": "suspected-or-confirmed-acute-q-fever",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "검사 결과를 기다리는 동안 임상적으로 강하게 의심되는 경우"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "cdc-q-fever"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-q-fever"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-2BkOyXtCAoUSBGZXZlcikubWQ",
+      "diseaseTitle": "큐열 (Q Fever)"
+    },
+    {
+      "id": "adult-rickettsial-disease",
+      "displayName": "성인 리케차 감염",
+      "aliases": [
+        "rickettsial disease",
+        "spotted fever rickettsiosis"
+      ],
+      "diseaseSourceFile": "08 감염/리케차 병 (Rickettsial Disease).md",
+      "infectionSite": "systemic",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "발열·발진·진드기 또는 야외 노출을 확인하고, 중증 의심 시 확진 검사를 기다려 치료를 지연하지 않는다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "doxycycline 치료 반응과 대체 진단을 재평가하며 예방적 항생제는 일반적으로 권장하지 않는다."
+      ],
+      "pathogenGroups": [],
+      "empiricRegimens": [
+        {
+          "id": "rickettsial-disease",
+          "context": "suspected-rickettsial-disease",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "중증 또는 임상적으로 강한 의심"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "cdc-rickettsial-care"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-rickettsial-care"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-umrOy8gOywqCDrs5EgKFJpY2tldHRzaWFsIERpc2Vhc2UpLm1k",
+      "diseaseTitle": "리케차 병 (Rickettsial Disease)"
+    },
+    {
+      "id": "adult-scrub-typhus",
+      "displayName": "성인 쯔쯔가무시병",
+      "aliases": [
+        "scrub typhus",
+        "Orientia tsutsugamushi"
+      ],
+      "diseaseSourceFile": "08 감염/쯔쯔가무시병 (Tsutsugamushi Disease).md",
+      "infectionSite": "systemic",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "가을철 야외 노출, eschar, 발열·발진을 확인하고 지역 유행과 감별진단을 반영한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "중증도·임신·약제 금기에 따라 대안을 결정하고 치료 반응이 없으면 진단을 재평가한다."
+      ],
+      "pathogenGroups": [],
+      "empiricRegimens": [
+        {
+          "id": "scrub-typhus",
+          "context": "suspected-or-confirmed-scrub-typhus",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline",
+                "azithromycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "임상적으로 의심되는 경우"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "cdc-rickettsial-care"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-rickettsial-care"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-yvlOyvlOqwgOustOyLnOuzkSAoVHN1dHN1Z2FtdXNoaSBEaXNlYXNlKS5tZA",
+      "diseaseTitle": "쯔쯔가무시병 (Tsutsugamushi Disease)"
+    },
+    {
+      "id": "adult-early-lyme-disease",
+      "displayName": "성인 초기 라임병",
+      "aliases": [
+        "erythema migrans",
+        "Lyme disease"
+      ],
+      "diseaseSourceFile": "08 감염/라임병 (Lyme Disease).md",
+      "infectionSite": "skin-soft-tissue",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "전형적 erythema migrans와 노출 지역을 확인하고, 신경·심장·관절 침범 여부를 별도로 평가한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "질환 단계와 장기 침범 여부에 따라 약제·기간이 달라지며 불필요한 장기 항생제 사용을 피한다."
+      ],
+      "pathogenGroups": [],
+      "empiricRegimens": [
+        {
+          "id": "early-lyme",
+          "context": "early-localized-lyme-disease",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline",
+                "amoxicillin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "전형적 erythema migrans"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "cdc-lyme-care"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-lyme-care"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-udvOyehOuzkSAoTHltZSBEaXNlYXNlKS5tZA",
+      "diseaseTitle": "라임병 (Lyme Disease)"
+    },
+    {
+      "id": "adult-leptospirosis",
+      "displayName": "성인 렙토스피라증",
+      "aliases": [
+        "Leptospira infection",
+        "Weil disease"
+      ],
+      "diseaseSourceFile": "08 감염/렙토스피라증 (Leptospirosis).md",
+      "infectionSite": "systemic",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "홍수·담수·동물 소변 노출과 황달·AKI·출혈·수막염을 함께 평가한다.",
+        "강한 임상 의심에서는 확진 검사를 기다리지 않고 치료를 시작한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "중증 환자는 장기부전 지지치료와 Jarisch-Herxheimer reaction 가능성을 함께 모니터링한다."
+      ],
+      "pathogenGroups": [],
+      "empiricRegimens": [
+        {
+          "id": "leptospirosis-mild",
+          "context": "mild-leptospirosis",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline",
+                "amoxicillin",
+                "azithromycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "경구 치료가 가능하고 중증 장기부전이 없음"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "cdc-leptospirosis"
+          ]
+        },
+        {
+          "id": "leptospirosis-severe",
+          "context": "severe-leptospirosis",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "benzylpenicillin",
+                "ceftriaxone"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "입원·장기부전 또는 중증 감염"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "cdc-leptospirosis"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-leptospirosis"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-ugme2GoOyKpO2UvOudvOymnSAoTGVwdG9zcGlyb3NpcykubWQ",
+      "diseaseTitle": "렙토스피라증 (Leptospirosis)"
+    },
+    {
+      "id": "adult-clostridial-myonecrosis",
+      "displayName": "성인 가스 괴저",
+      "aliases": [
+        "clostridial myonecrosis",
+        "gas gangrene"
+      ],
+      "diseaseSourceFile": "08 감염/가스 괴저 (Gas Gangrene).md",
+      "infectionSite": "skin-soft-tissue",
+      "setting": "procedure-associated",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "급격한 통증·부종·gas formation은 응급 수술 평가가 필요한 소견이다."
+      ],
+      "sourceControlNotes": [
+        "즉시 수술적 탐색·광범위 debridement를 시행하며 항생제가 수술을 대체하지 않는다."
+      ],
+      "stewardshipNotes": [
+        "배양 결과와 수술 소견에 따라 치료를 좁히고 반복 debridement 필요성을 재평가한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "clostridial-myonecrosis",
+          "organisms": [
+            {
+              "organismId": "clostridia",
+              "likelihood": "common",
+              "notes": [
+                "Clostridium perfringens 등 toxin-producing Clostridia를 고려한다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "clostridial-myonecrosis",
+          "context": "confirmed-or-strongly-suspected-clostridial-myonecrosis",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "benzylpenicillin",
+                "clindamycin"
+              ],
+              "selection": "all-of"
+            }
+          ],
+          "conditions": [
+            "수술과 병행"
+          ],
+          "avoidWhen": [
+            "전문가 자문 또는 source control이 필요한 중증·복잡 감염"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "wjes-nsti-2018"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "idsa-ssti-2014",
+        "wjes-nsti-2018"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-qwgOyKpCDqtLTsoIAgKEdhcyBHYW5ncmVuZSkubWQ",
+      "diseaseTitle": "가스 괴저 (Gas Gangrene)"
+    },
+    {
+      "id": "adult-tetanus",
+      "displayName": "성인 파상풍",
+      "aliases": [
+        "tetanus",
+        "Clostridium tetani"
+      ],
+      "diseaseSourceFile": "08 감염/파상풍 (Tetanus).md",
+      "infectionSite": "neurologic",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "inpatient",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "진단은 임상적이며 기도·자율신경 불안정성 및 중환자 치료 필요성을 조기 평가한다."
+      ],
+      "sourceControlNotes": [
+        "상처 debridement와 tetanus immune globulin·예방접종 상태 교정이 항생제와 함께 필요하다."
+      ],
+      "stewardshipNotes": [
+        "항생제는 toxin neutralization을 대체하지 않으며 중증 관리가 핵심이다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "toxin-mediated-clostridial-disease",
+          "organisms": [
+            {
+              "organismId": "clostridia",
+              "likelihood": "common",
+              "notes": [
+                "C. tetani는 toxin-mediated disease를 일으키며 항생제만으로 충분하지 않다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "tetanus-antimicrobial",
+          "context": "confirmed-tetanus",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "metronidazole"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "면역글로불린·상처 처치·중환자 관리와 병행"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "cdc-vaccine-preventable"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-2MjOyDge2SjSAoVGV0YW51cykubWQ",
+      "diseaseTitle": "파상풍 (Tetanus)"
+    },
+    {
+      "id": "adult-erysipelas",
+      "displayName": "성인 단독",
+      "aliases": [
+        "erysipelas",
+        "nonpurulent streptococcal cellulitis"
+      ],
+      "diseaseSourceFile": "08 감염/단독 (Erysipelas).md",
+      "infectionSite": "skin-soft-tissue",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "농양·괴사성 감염·정맥혈전 등 항생제 선택을 바꾸는 감별진단을 평가한다."
+      ],
+      "sourceControlNotes": [
+        "농양이 있으면 단독으로 보지 말고 drainage 필요성을 재평가한다."
+      ],
+      "stewardshipNotes": [
+        "전형적 비화농성 질환에서 MRSA coverage는 검증된 위험인자가 있을 때만 추가한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "nonpurulent-streptococcal-infection",
+          "organisms": [
+            {
+              "organismId": "streptococci",
+              "likelihood": "common",
+              "notes": []
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "erysipelas-outpatient",
+          "context": "uncomplicated-outpatient",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "amoxicillin",
+                "cephalexin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "경구 치료·추적 가능"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "idsa-ssti-2014"
+          ]
+        },
+        {
+          "id": "erysipelas-inpatient",
+          "context": "inpatient",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "cefazolin",
+                "ceftriaxone"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "정주 치료가 필요한 중등도 감염"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "idsa-ssti-2014"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "idsa-ssti-2014"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-uLqOuPhSAoRXJ5c2lwZWxhcykubWQ",
+      "diseaseTitle": "단독 (Erysipelas)"
+    },
+    {
+      "id": "adult-anaerobic-bacterial-infection",
+      "displayName": "성인 혐기성균 감염",
+      "aliases": [
+        "anaerobic bacterial infection",
+        "mixed anaerobic infection"
+      ],
+      "diseaseSourceFile": "08 감염/혐기성균 감염 (Anaerobic Bacteria Infection).md",
+      "infectionSite": "intra-abdominal",
+      "setting": "mixed",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "inpatient",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "감염 부위·천공·농양·치과/흡인 위험과 동반 호기성 균 coverage 필요성을 평가한다."
+      ],
+      "sourceControlNotes": [
+        "복강내 농양·감염성 fluid collection은 배액·수술 등 source control을 우선 평가한다."
+      ],
+      "stewardshipNotes": [
+        "배양과 source control 이후 불필요한 중복 anaerobic coverage를 줄인다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "oral-or-intraabdominal-anaerobes",
+          "organisms": [
+            {
+              "organismId": "oral_anaerobes",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "b_fragilis",
+              "likelihood": "important",
+              "notes": []
+            },
+            {
+              "organismId": "clostridia",
+              "likelihood": "uncommon",
+              "notes": [
+                "toxin-mediated disease는 별도 응급 경로로 다룬다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "anaerobic-infection-standard",
+          "context": "polymicrobial-anaerobic-infection",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "piperacillintazobactam",
+                "ampicillinsulbactam"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "감염 부위와 중증도에 맞는 호기성·혐기성 coverage 필요"
+          ],
+          "avoidWhen": [
+            "중증도, 임신, 알레르기, 최근 배양 및 지역 내성 정보를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "idsa-ssti-2014",
+            "tokyo-cholangitis-2018"
+          ]
+        },
+        {
+          "id": "anaerobic-infection-ceftriaxone",
+          "context": "community-acquired-intraabdominal-pattern",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone",
+                "metronidazole"
+              ],
+              "selection": "all-of"
+            }
+          ],
+          "conditions": [
+            "구조적 source control 평가와 병행"
+          ],
+          "avoidWhen": [
+            "전문가 자문 또는 source control이 필요한 중증·복잡 감염"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "tokyo-cholangitis-2018"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "idsa-ssti-2014",
+        "tokyo-cholangitis-2018"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-07-31",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-2YkOq4sOyEseq3oCDqsJDsl7wgKEFuYWVyb2JpYyBCYWN0ZXJpYSBJbmZlY3Rpb24pLm1k",
+      "diseaseTitle": "혐기성균 감염 (Anaerobic Bacteria Infection)"
+    },
+    {
+      "id": "adult-nocardiosis",
+      "displayName": "성인 노카르디아증",
+      "aliases": [
+        "Nocardiosis",
+        "Nocardia infection"
+      ],
+      "diseaseSourceFile": "08 감염/노카르디아증 (Nocardiosis).md",
+      "infectionSite": "lower-respiratory-tract",
+      "population": [
+        "adult",
+        "immunocompromised"
+      ],
+      "severity": [
+        "inpatient",
+        "severe"
+      ],
+      "diagnosticNotes": [
+        "폐·CNS·피부 침범을 평가하고 임상적으로 의미 있는 모든 isolate에 species identification 및 AST를 의뢰한다.",
+        "면역저하와 disseminated disease를 조기에 확인한다."
+      ],
+      "sourceControlNotes": [
+        "뇌·연조직 농양 또는 empyema 등은 항생제 반응과 함께 drainage 필요성을 평가한다."
+      ],
+      "stewardshipNotes": [
+        "Nocardia는 species별 감수성 차이가 크므로 TMP-SMX 단독 전제를 피하고 AST 기반으로 조정한다."
+      ],
+      "empiricRegimens": [
+        {
+          "id": "nocardiosis-initial",
+          "context": "suspected-severe-or-disseminated-nocardiosis",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "trimethoprimsulfamethoxazole",
+                "imipenemcilastatin",
+                "amikacin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "중증·CNS·disseminated disease는 전문가 자문과 AST를 병행"
+          ],
+          "avoidWhen": [
+            "중증도, 알레르기, 배양·감수성 및 환자별 금기를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [
+            "표준화된 단일 경험적 regimen으로 해석하지 않는다."
+          ],
+          "sourceIds": [
+            "cdc-nocardiosis"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cdc-nocardiosis"
+      ],
+      "setting": "community",
+      "exclusions": [],
+      "pathogenGroups": [],
+      "targetedTherapies": [],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-07-31",
+      "reviewedBy": "Codex source cross-check",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-uFuOy5tOultOuUlOyVhOymnSAoTm9jYXJkaW9zaXMpLm1k",
+      "diseaseTitle": "노카르디아증 (Nocardiosis)"
+    },
+    {
+      "id": "adult-relapsing-fever",
+      "displayName": "성인 재귀열",
+      "aliases": [
+        "relapsing fever",
+        "Borrelia relapsing fever"
+      ],
+      "diseaseSourceFile": "08 감염/재귀열 (Relapsing Fever).md",
+      "infectionSite": "systemic",
+      "severity": [
+        "outpatient",
+        "inpatient"
+      ],
+      "diagnosticNotes": [
+        "발열기에 peripheral smear의 spirochete, 여행·숙소·이 노출을 확인하고 public health reporting을 고려한다."
+      ],
+      "stewardshipNotes": [
+        "치료 직후 Jarisch-Herxheimer reaction을 최소 4시간 관찰하며 임신·중증 질환은 전문가와 상의한다."
+      ],
+      "empiricRegimens": [
+        {
+          "id": "relapsing-fever",
+          "context": "suspected-or-confirmed-relapsing-fever",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "doxycycline",
+                "benzylpenicillin",
+                "ceftriaxone",
+                "azithromycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "노출·임상상과 검사 소견을 함께 반영"
+          ],
+          "avoidWhen": [
+            "중증도, 알레르기, 배양·감수성 및 환자별 금기를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [],
+          "sourceIds": [
+            "cdc-relapsing-fever"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cdc-relapsing-fever"
+      ],
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "exclusions": [],
+      "pathogenGroups": [],
+      "targetedTherapies": [],
+      "sourceControlNotes": [],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-07-31",
+      "reviewedBy": "Codex source cross-check",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-yerOq3gOyXtCAoUmVsYXBzaW5nIEZldmVyKS5tZA",
+      "diseaseTitle": "재귀열 (Relapsing Fever)"
+    },
+    {
+      "id": "adult-cat-scratch-disease",
+      "displayName": "성인 묘소병",
+      "aliases": [
+        "cat scratch disease",
+        "Bartonella henselae infection"
+      ],
+      "diseaseSourceFile": "08 감염/묘소병 (Cat Scratch Disease).md",
+      "infectionSite": "lymphatic",
+      "population": [
+        "adult",
+        "immunocompromised"
+      ],
+      "diagnosticNotes": [
+        "전형적 국소 림프절염과 고양이·벼룩 노출을 확인하며, 비전형적·중증 질환은 추가 검사를 고려한다."
+      ],
+      "stewardshipNotes": [
+        "면역정상 숙주의 단순 국소 질환은 대개 self-limited이며, 항생제의 절대적 필요성과 효과를 과대평가하지 않는다."
+      ],
+      "empiricRegimens": [
+        {
+          "id": "cat-scratch-disease-selected-treatment",
+          "context": "severe-atypical-or-immunocompromised-disease",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "azithromycin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "중증·비전형 또는 면역저하 환자"
+          ],
+          "avoidWhen": [
+            "중증도, 알레르기, 배양·감수성 및 환자별 금기를 반영하지 않은 일률적 선택"
+          ],
+          "notes": [
+            "단순 국소 질환은 경과 관찰이 가능하며 disseminated disease는 전문가 자문이 필요하다."
+          ],
+          "sourceIds": [
+            "cdc-bartonella"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cdc-bartonella"
+      ],
+      "setting": "community",
+      "severity": [
+        "outpatient",
+        "inpatient"
+      ],
+      "exclusions": [],
+      "pathogenGroups": [],
+      "targetedTherapies": [],
+      "sourceControlNotes": [],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-07-31",
+      "reviewedBy": "Codex source cross-check",
+      "quizQuestions": [],
+      "diseaseSlug": "MDgg6rCQ7Je8L-usmOyGjOuzkSAoQ2F0IFNjcmF0Y2ggRGlzZWFzZSkubWQ",
+      "diseaseTitle": "묘소병 (Cat Scratch Disease)"
     }
   ]
 }
