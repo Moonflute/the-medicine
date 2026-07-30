@@ -74,7 +74,7 @@ function categoryTone(category: string, pathogenType?: MicrobiologyPathogenType)
   if (pathogenType === "virus") return "border-teal-200 bg-teal-50/45";
   if (["protozoan", "helminth", "ectoparasite"].includes(pathogenType ?? "")) return "border-amber-200 bg-amber-50/50";
   if (pathogenType === "fungus") return "border-orange-200 bg-orange-50/45";
-  if (category === "resistance phenotype") return "border-rose-200 bg-rose-50/45";
+  if (category.includes("phenotype")) return "border-rose-200 bg-rose-50/45";
   return "border-sky-200 bg-sky-50/45";
 }
 
