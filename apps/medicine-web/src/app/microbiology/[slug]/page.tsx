@@ -107,7 +107,7 @@ export default async function MicrobiologyDetailPage(props: { params: Promise<{ 
           <RichTextLines lines={entity.summary} className="space-y-2 text-sm leading-7 text-slate-700" />
           {visual ? (
             <figure className="overflow-hidden rounded-xl border border-slate-200 bg-slate-50">
-              <Image src={visual.asset} alt={`${entity.title} ${visual.modality} representative finding`} width={640} height={640} unoptimized className="aspect-square w-full object-cover" />
+              <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${visual.asset}`} alt={`${entity.title} ${visual.modality} representative finding`} width={640} height={640} unoptimized className="aspect-square w-full object-cover" />
               <figcaption className="space-y-1 border-t border-slate-200 bg-white px-3 py-2.5">
                 <p className="text-xs font-bold text-slate-800">대표 소견 · {visual.modality}</p>
                 <p className="text-[11px] leading-4 text-slate-600">{visual.caption}</p>
