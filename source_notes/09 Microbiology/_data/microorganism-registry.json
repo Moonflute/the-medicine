@@ -2045,7 +2045,7 @@
         "P. falciparum",
         "falciparum malaria"
       ],
-      "category": "??",
+      "category": "원충",
       "classification": [
         "Apicomplexa",
         "intraerythrocytic protozoan",
@@ -2078,7 +2078,7 @@
         "T. gondii",
         "toxoplasma"
       ],
-      "category": "??",
+      "category": "원충",
       "classification": [
         "Apicomplexa",
         "obligate intracellular protozoan",
@@ -2112,7 +2112,7 @@
         "G. lamblia",
         "Giardia"
       ],
-      "category": "??",
+      "category": "원충",
       "classification": [
         "flagellated protozoan",
         "cyst and trophozoite",
@@ -2144,7 +2144,7 @@
         "E. histolytica",
         "amebiasis"
       ],
-      "category": "??",
+      "category": "원충",
       "classification": [
         "amoeba",
         "cyst and trophozoite",
@@ -2839,7 +2839,7 @@
         "Cryptosporidium",
         "cryptosporidiosis"
       ],
-      "category": "??",
+      "category": "원충",
       "classification": [
         "Apicomplexa",
         "intracellular-extracytoplasmic protozoa",

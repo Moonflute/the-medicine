@@ -7690,7 +7690,7 @@
       "koreanName": "열대열원충",
       "entityKind": "organism",
       "pathogenType": "protozoan",
-      "category": "??",
+      "category": "원충",
       "categoryPath": [
         "04 Parasites",
         "01 Protozoa"
@@ -7815,7 +7815,7 @@
       "koreanName": "톡소포자충",
       "entityKind": "organism",
       "pathogenType": "protozoan",
-      "category": "??",
+      "category": "원충",
       "categoryPath": [
         "04 Parasites",
         "01 Protozoa"
@@ -7940,7 +7940,7 @@
       "koreanName": "람블편모충",
       "entityKind": "organism",
       "pathogenType": "protozoan",
-      "category": "??",
+      "category": "원충",
       "categoryPath": [
         "04 Parasites",
         "01 Protozoa"
@@ -8063,7 +8063,7 @@
       "koreanName": "이질아메바",
       "entityKind": "organism",
       "pathogenType": "protozoan",
-      "category": "??",
+      "category": "원충",
       "categoryPath": [
         "04 Parasites",
         "01 Protozoa"
@@ -10665,7 +10665,7 @@
       "koreanName": "와포자충",
       "entityKind": "clinical_group",
       "pathogenType": "protozoan",
-      "category": "??",
+      "category": "원충",
       "categoryPath": [
         "05 Clinical Groups"
       ],
