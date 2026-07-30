@@ -37,6 +37,7 @@ export const AUDIO_REVIEW_CHANGE_EVENT = "medicine-web-audio-review-change";
 const STORAGE_KEY = "medicine-web-audio-review-v1";
 
 const PRONUNCIATION: Array<[RegExp, string]> = [
+  [/\bCC\b/g, "주호소"],
   [/\bHFrEF\b/g, "에이치 에프 렙"],
   [/\bHFpEF\b/g, "에이치 에프 펩"],
   [/\bCKD\b/g, "씨 케이 디"],
