@@ -189,11 +189,12 @@ function LiveEcgMonitor({ pattern, running, onToggle }: { pattern: Pattern; runn
   </section>;
 }
 export function ECGWorkbench({ diseases, theory }: { diseases: DiseaseLink[]; theory?: ReactNode }) {
-  const [tab, setTab] = useState<"waveform" | "twelve" | "live" | "guide" | "compare" | "theory">("waveform");
+  const [tab, setTab] = useState<"waveform" | "twelve" | "guide" | "compare" | "theory">("waveform");
   const [referenceImage, setReferenceImage] = useState<string>();
   const [selectedPattern, setSelectedPattern] = useState<PatternKey>("sinus");
   const [answers, setAnswers] = useState<Partial<Record<DecisionKey, string>>>({});
   const [liveRunning, setLiveRunning] = useState(true);
+  const [liveVisible, setLiveVisible] = useState(false);
   const pattern = PATTERNS.find((item) => item.key === selectedPattern) || PATTERNS[0];
   const interpretations = useMemo(() => interpret(answers), [answers]);
   const hrefFor = (term?: string) => {
@@ -202,6 +203,11 @@ export function ECGWorkbench({ diseases, theory }: { diseases: DiseaseLink[]; th
     return item ? "/disease/" + item.slug : undefined;
   };
   const groups = ["Rhythm", "Conduction", "ST-T / electrolyte"];
+  const openLiveMonitor = () => {
+    setLiveVisible(true);
+    setLiveRunning(true);
+  };
+  const liveControl = <button type="button" onClick={openLiveMonitor} className="inline-flex h-11 items-center justify-center gap-1.5 rounded-lg border border-rose-200 bg-rose-50 px-3 text-sm font-semibold text-rose-800 hover:bg-rose-100"><Play className="h-4 w-4" />라이브 재생</button>;
 
   return <section className="overflow-hidden rounded-2xl border border-teal-200 bg-gradient-to-br from-teal-50 via-white to-slate-50 shadow-sm">
     <div className="border-b border-teal-100 bg-white/80 px-5 py-5 sm:px-6">
@@ -214,7 +220,7 @@ export function ECGWorkbench({ diseases, theory }: { diseases: DiseaseLink[]; th
         <div className="inline-flex rounded-xl border border-slate-200 bg-slate-100 p-1 text-sm font-semibold">
           <button type="button" onClick={() => setTab("waveform")} className={tab === "waveform" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>파형 라이브러리</button>
           <button type="button" onClick={() => setTab("twelve")} className={tab === "twelve" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>12-lead</button>
-          <button type="button" onClick={() => setTab("live")} className={tab === "live" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>Live 보기</button>
+
           <button type="button" onClick={() => setTab("guide")} className={tab === "guide" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>판독 도우미</button>
           <button type="button" onClick={() => setTab("compare")} className={tab === "compare" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>이미지 비교</button>
           {theory ? <button type="button" onClick={() => setTab("theory")} className={tab === "theory" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>이론</button> : null}
@@ -230,10 +236,11 @@ export function ECGWorkbench({ diseases, theory }: { diseases: DiseaseLink[]; th
           <select value={selectedPattern} onChange={(event) => setSelectedPattern(event.target.value as PatternKey)} className="h-11 rounded-lg border border-slate-300 bg-white px-3 text-sm font-semibold text-slate-950 outline-none transition focus:border-teal-600 focus:ring-2 focus:ring-teal-100">
             {groups.map((group) => <optgroup key={group} label={group}>{PATTERNS.filter((item) => item.group === group).map((item) => <option key={item.key} value={item.key}>{item.label}</option>)}</optgroup>)}
           </select>
-        </label>
+        </label>{liveControl}
       </div>
       <div className="min-w-0 space-y-4">
         <EcgStrip pattern={pattern} />
+        {liveVisible ? <LiveEcgMonitor pattern={pattern} running={liveRunning} onToggle={() => setLiveRunning((current) => !current)} /> : null}
         <div className="grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start">
           <div><div className="flex flex-wrap items-center gap-2"><h3 className="text-xl font-semibold text-slate-950">{pattern.label}</h3><UrgencyBadge urgency={pattern.urgency} /></div><p className="mt-2 font-medium text-teal-800">{pattern.clue}</p><p className="mt-2 text-sm leading-6 text-slate-700">{pattern.summary}</p></div>
           {hrefFor(pattern.disease) ? <Link href={hrefFor(pattern.disease) || "/disease"} className="inline-flex items-center justify-center gap-1.5 rounded-lg border border-teal-200 bg-white px-3 py-2 text-sm font-semibold text-teal-800 transition hover:bg-teal-50">관련 질환 <ChevronRight className="h-4 w-4" /></Link> : null}
@@ -241,13 +248,10 @@ export function ECGWorkbench({ diseases, theory }: { diseases: DiseaseLink[]; th
         <div className={pattern.urgency === "urgent" ? "rounded-xl border border-rose-200 bg-rose-50 p-4" : "rounded-xl border border-amber-200 bg-amber-50 p-4"}><div className="flex items-start gap-2"><AlertTriangle className={pattern.urgency === "urgent" ? "mt-0.5 h-4 w-4 text-rose-700" : "mt-0.5 h-4 w-4 text-amber-700"} /><div><p className="text-sm font-semibold text-slate-950">다음 확인</p><p className="mt-1 text-sm leading-6 text-slate-700">{pattern.action}</p></div></div></div>
       </div>
     </div> : tab === "twelve" ? <div className="space-y-5 p-5 lg:p-6">
-      <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white p-4"><div><p className="text-xs font-bold uppercase tracking-wider text-slate-500">12-lead view</p><p className="mt-1 text-sm text-slate-600">표준 12유도 배열로 전체 분포를 빠르게 훑어봅니다.</p></div><label className="grid min-w-[220px] gap-1.5 text-sm font-semibold text-slate-700"><span>심전도 종류 선택</span><select value={selectedPattern} onChange={(event) => setSelectedPattern(event.target.value as PatternKey)} className="h-11 rounded-lg border border-slate-300 bg-white px-3 text-sm font-semibold text-slate-950 outline-none transition focus:border-teal-600 focus:ring-2 focus:ring-teal-100">{groups.map((group) => <optgroup key={group} label={group}>{PATTERNS.filter((item) => item.group === group).map((item) => <option key={item.key} value={item.key}>{item.label}</option>)}</optgroup>)}</select></label></div>
+      <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white p-4"><div><p className="text-xs font-bold uppercase tracking-wider text-slate-500">12-lead view</p><p className="mt-1 text-sm text-slate-600">표준 12유도 배열로 전체 분포를 빠르게 훑어봅니다.</p></div><label className="grid min-w-[220px] gap-1.5 text-sm font-semibold text-slate-700"><span>심전도 종류 선택</span><select value={selectedPattern} onChange={(event) => setSelectedPattern(event.target.value as PatternKey)} className="h-11 rounded-lg border border-slate-300 bg-white px-3 text-sm font-semibold text-slate-950 outline-none transition focus:border-teal-600 focus:ring-2 focus:ring-teal-100">{groups.map((group) => <optgroup key={group} label={group}>{PATTERNS.filter((item) => item.group === group).map((item) => <option key={item.key} value={item.key}>{item.label}</option>)}</optgroup>)}</select></label>{liveControl}</div>
       <TwelveLeadView pattern={pattern} />
+      {liveVisible ? <LiveEcgMonitor pattern={pattern} running={liveRunning} onToggle={() => setLiveRunning((current) => !current)} /> : null}
       <p className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-950">유도별 morphology는 학습용으로 단순화한 표현입니다. 실제 12-lead 판독에서는 lead placement, calibration, 이전·연속 ECG와 증상을 함께 확인합니다.</p>
-    </div> : tab === "live" ? <div className="space-y-5 p-5 lg:p-6">
-      <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white p-4"><div><p className="text-xs font-bold uppercase tracking-wider text-slate-500">Live monitor</p><p className="mt-1 text-sm text-slate-600">선택 파형을 반복 스크롤해 리듬 모니터처럼 관찰합니다.</p></div><label className="grid min-w-[220px] gap-1.5 text-sm font-semibold text-slate-700"><span>심전도 종류 선택</span><select value={selectedPattern} onChange={(event) => setSelectedPattern(event.target.value as PatternKey)} className="h-11 rounded-lg border border-slate-300 bg-white px-3 text-sm font-semibold text-slate-950 outline-none transition focus:border-teal-600 focus:ring-2 focus:ring-teal-100">{groups.map((group) => <optgroup key={group} label={group}>{PATTERNS.filter((item) => item.group === group).map((item) => <option key={item.key} value={item.key}>{item.label}</option>)}</optgroup>)}</select></label></div>
-      <LiveEcgMonitor pattern={pattern} running={liveRunning} onToggle={() => setLiveRunning((current) => !current)} />
-      <div className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3 text-sm leading-6 text-slate-700"><span className="font-semibold text-slate-950">{pattern.label}:</span> {pattern.clue} · 이 보기는 신호 입력·부정맥 감지 기능이 아닌 파형 반복 학습용입니다.</div>
     </div> : tab === "guide" ? <div className="space-y-5 p-5 lg:p-6">
       <div className="flex flex-wrap items-center justify-between gap-3"><div><h3 className="text-xl font-semibold text-slate-950">판독 순서를 따라 후보 좁히기</h3><p className="mt-1 text-sm text-slate-600">선택하지 않은 항목은 보류한다. 아래 결과는 감별 단서이며 자동 진단이 아니다.</p></div><button type="button" onClick={() => setAnswers({})} className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-semibold text-slate-700 hover:border-teal-300"><RotateCcw className="h-4 w-4" />초기화</button></div>
       <div className="grid gap-3 xl:grid-cols-2">
