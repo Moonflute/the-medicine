@@ -26,32 +26,6 @@ function stripEditorialLines(lines: string[]) {
   }
   return cleaned;
 }
-function getSectionTone(title: string) {
-  const normalized = title.toLowerCase();
-
-  if (/evaluation|workup|lab|test|image|exam/.test(normalized)) {
-    return "border-l-sky-500";
-  }
-
-  if (/diagn|assessment|criteria/.test(normalized)) {
-    return "border-l-indigo-500";
-  }
-
-  if (/management|treatment|therapy|plan|procedure/.test(normalized)) {
-    return "border-l-emerald-500";
-  }
-
-  if (/warning|complication|risk|red flag|emergency/.test(normalized)) {
-    return "border-l-rose-500";
-  }
-
-  if (/presentation|history|symptom|clinical/.test(normalized)) {
-    return "border-l-amber-500";
-  }
-
-  return "border-l-slate-300";
-}
-
 export function DiseaseCard({
   note,
   compact = false,
@@ -161,7 +135,7 @@ export function DiseaseCard({
       {expanded ? (
         <div className="grid gap-3 bg-slate-50/70 p-4 sm:p-5">
           {note.sections.slice(0, compact ? 2 : note.sections.length).map((section) => (
-            <section key={section.title} className={`border border-l-4 border-slate-200 bg-white p-4 ${getSectionTone(section.title)}`} style={{ borderRadius: 8 }}>
+            <section key={section.title} className="border border-l-4 border-l-slate-300 border-slate-200 bg-white p-4" style={{ borderRadius: 8 }}>
               <div className="mb-3 flex items-center gap-2 text-sm font-semibold text-slate-950">
                 <DiseaseSectionIcon title={section.title} className="h-4 w-4 text-slate-500" />
                 {section.title}
