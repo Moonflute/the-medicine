@@ -44608,6 +44608,48 @@
     "href": "/microbiology/bWljcm9iaW9sb2d5OnRveG9jYXJhLXNwZWNpZXM"
   },
   {
+    "type": "microorganism",
+    "slug": "bWljcm9iaW9sb2d5OmFlcm9tb25hcy1zcGVjaWVz",
+    "title": "Aeromonas spp.",
+    "category": "G(-) 간균",
+    "aliases": [
+      "Aeromonas spp.",
+      "Aeromonas spp.",
+      "Aeromonas spp."
+    ],
+    "keywords": [
+      "세균",
+      "water-exposure",
+      "gastroenteritis",
+      "soft-tissue",
+      "01 Bacteria",
+      "10 Additional clinical bacteria"
+    ],
+    "quickSummary": "Aeromonas spp.은 임상적으로 중요한 세균이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다.",
+    "href": "/microbiology/bWljcm9iaW9sb2d5OmFlcm9tb25hcy1zcGVjaWVz"
+  },
+  {
+    "type": "microorganism",
+    "slug": "bWljcm9iaW9sb2d5Omh1bWFuLW1ldGFwbmV1bW92aXJ1cw",
+    "title": "Human metapneumovirus",
+    "category": "호흡기 바이러스",
+    "aliases": [
+      "Human metapneumovirus",
+      "Human metapneumovirus",
+      "Human metapneumovirus"
+    ],
+    "keywords": [
+      "바이러스",
+      "respiratory",
+      "pneumonia",
+      "pediatric",
+      "02 Viruses",
+      "08 Additional viruses"
+    ],
+    "quickSummary": "Human metapneumovirus은 임상적으로 중요한 바이러스이다. 노출력, 숙주 위험인자, 적절한 검체와 중증도 평가를 함께 해석한다.",
+    "href": "/microbiology/bWljcm9iaW9sb2d5Omh1bWFuLW1ldGFwbmV1bW92aXJ1cw"
+  },
+  {
     "type": "physiology",
     "slug": "cGh5c2lvbG9neTowMDFfMSBDZWxsdWxhciBQaHlzaW9sb2d5Lm1k",
     "title": "001_1 Cellular Physiology",

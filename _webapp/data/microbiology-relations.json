@@ -292,6 +292,57 @@
       "reviewedAt": "2026-07-29"
     },
     {
+      "sourceType": "microorganism",
+      "sourceId": "aeromonas-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
+      "context": [
+        "isolate-based susceptibility testing"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "aeromonas-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvR3JhbSBzdGFpbi5tZA",
+      "context": [
+        "direct specimen microscopy"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "aeromonas-species",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
       "sourceType": "resistancePhenotype",
       "sourceId": "ampc",
       "relation": "phenotype_of",
@@ -8220,6 +8271,23 @@
         "ictv-taxonomy",
         "idsa-asm-lab-2024",
         "nih-hiv-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "human-metapneumovirus",
+      "relation": "evaluated_by",
+      "targetType": "lab",
+      "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
+      "context": [
+        "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses"
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"

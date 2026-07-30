@@ -1135,6 +1135,24 @@
       ],
       "slug": "bWljcm9iaW9sb2d5OnRveG9jYXJhLXNwZWNpZXM",
       "entityKind": "organism"
+    },
+    {
+      "title": "Aeromonas spp.",
+      "path": [
+        "01 Bacteria",
+        "10 Additional clinical bacteria"
+      ],
+      "slug": "bWljcm9iaW9sb2d5OmFlcm9tb25hcy1zcGVjaWVz",
+      "entityKind": "organism"
+    },
+    {
+      "title": "Human metapneumovirus",
+      "path": [
+        "02 Viruses",
+        "08 Additional viruses"
+      ],
+      "slug": "bWljcm9iaW9sb2d5Omh1bWFuLW1ldGFwbmV1bW92aXJ1cw",
+      "entityKind": "organism"
     }
   ]
 }

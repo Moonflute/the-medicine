@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T12:22:27.662Z",
+  "generatedAt": "2026-07-30T12:25:53.221Z",
   "sourceRoot": "source_notes",
   "outputRoot": "_webapp/data",
   "domains": {
@@ -20,7 +20,7 @@
       "source": "04 Pharmacology/08 감염/_data"
     },
     "microbiology": {
-      "count": 129,
+      "count": 131,
       "source": "09 Microbiology"
     },
     "physiology": {

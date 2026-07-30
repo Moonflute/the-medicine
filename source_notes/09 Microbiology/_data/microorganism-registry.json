@@ -4186,6 +4186,64 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "aeromonas-species",
+      "entityKind": "organism",
+      "pathogenType": "bacterium",
+      "scientificName": "Aeromonas spp.",
+      "koreanName": "Aeromonas spp.",
+      "aliases": [
+        "Aeromonas spp."
+      ],
+      "category": "G(-) 간균",
+      "classification": [
+        "세균"
+      ],
+      "clinicalTags": [
+        "water-exposure",
+        "gastroenteritis",
+        "soft-tissue"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "01 Bacteria/10 Additional clinical bacteria/Aeromonas spp..md",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "id": "human-metapneumovirus",
+      "entityKind": "organism",
+      "pathogenType": "virus",
+      "scientificName": "Human metapneumovirus",
+      "koreanName": "Human metapneumovirus",
+      "aliases": [
+        "Human metapneumovirus"
+      ],
+      "category": "호흡기 바이러스",
+      "classification": [
+        "바이러스"
+      ],
+      "clinicalTags": [
+        "respiratory",
+        "pneumonia",
+        "pediatric"
+      ],
+      "taxonomyIds": [],
+      "spectrumIds": [],
+      "noteSourceFile": "02 Viruses/08 Additional viruses/Human metapneumovirus.md",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     }
   ]
 }
