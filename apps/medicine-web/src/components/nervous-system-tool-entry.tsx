@@ -1,0 +1,6 @@
+import Link from "next/link";
+import { ArrowRight, BrainCircuit } from "lucide-react";
+
+export function NervousSystemToolEntry() {
+  return <section className="rounded-xl border border-indigo-200 bg-gradient-to-br from-white via-indigo-50/70 to-cyan-50 p-4 shadow-sm sm:p-5"><Link href="/nervous-system-hub" className="group flex items-center justify-between gap-4 rounded-xl border border-white/90 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:border-indigo-300 hover:shadow-md sm:p-5"><span className="flex items-center gap-3"><span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-slate-950 text-white group-hover:bg-indigo-700"><BrainCircuit className="h-5 w-5" /></span><span><span className="block text-base font-bold text-slate-950">신경계 Hub</span><span className="mt-1 block text-sm text-slate-500">신경축 지도 · 경로 · 신경진찰 위치추정</span></span></span><ArrowRight className="h-5 w-5 shrink-0 text-slate-400 transition group-hover:translate-x-0.5 group-hover:text-indigo-700" /></Link></section>;
+}

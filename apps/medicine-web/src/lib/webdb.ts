@@ -207,6 +207,21 @@ export function getChiefComplaintLinksForTerms(terms: string[]): TermLink[] {
   return [...links.entries()].map(([term, href]) => ({ term, href }));
 }
 
+export type NeuroAtlas = {
+  version: number;
+  updatedAt: string;
+  disclaimer: string;
+  sources: Array<{ label: string; url: string }>;
+  views: Array<{ id: string; label: string; description: string }>;
+  structures: Array<{ id: string; ko: string; en: string; group: string; summary: string; links: string[] }>;
+  pathways: Array<{ id: string; ko: string; en: string; kind: string; route: string; pattern: string; links: string[] }>;
+  dermatomes: Array<{ id: string; label: string; area: string; hint: string }>;
+  myotomes: Array<{ id: string; label: string; action: string; muscle: string; reflex: string }>;
+  reflexes: Array<{ id: string; label: string; arc: string; localization: string }>;
+  nexSteps: Array<{ id: string; question: string; choices: Array<{ id: string; label: string; targets: string[]; note: string }> }>;
+};
+
+export function getNervousSystemAtlas(): NeuroAtlas { return readJson<NeuroAtlas>("nervous-system-atlas.json"); }
 export function getAntibioticSpectrum(): AntibioticSpectrumDataset {
   return readJson<AntibioticSpectrumDataset>("antibiotic-spectrum.json");
 }

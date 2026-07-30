@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-31",
+  "disclaimer": "학습용 위치추정 도구입니다. 실제 신경학적 진단은 병력, 전체 진찰, 영상·전기생리검사와 함께 해석합니다.",
+  "sources": [
+    {"label":"AAN Clinical Practice Guidelines", "url":"https://www.aan.com/practice/guidelines"},
+    {"label":"ASIA ISNCSCI resources", "url":"https://asia-spinalinjury.org/isncsci-resources/"},
+    {"label":"AANEM education", "url":"https://www.aanem.org/"}
+  ],
+  "views": [
+    {"id":"neuraxis", "label":"전체 신경축", "description":"대뇌에서 척수·말초신경·신경근접합부·근육까지의 연결을 봅니다."},
+    {"id":"brain", "label":"뇌·뇌간", "description":"대뇌 피질, 시상, 내포와 뇌간의 주요 위치를 봅니다."},
+    {"id":"spinal", "label":"척수", "description":"척수 레벨, 주요 상행·하행로와 신경근 연결을 봅니다."},
+    {"id":"peripheral", "label":"말초신경", "description":"신경근·신경총·말초신경·NMJ·근육의 구분을 봅니다."}
+  ],
+  "structures": [
+    {"id":"cortex", "ko":"대뇌피질", "en":"Cerebral cortex", "group":"뇌", "summary":"운동·감각·언어·시야 등 국소 피질 기능을 통합합니다.", "links":["뇌졸중 (Stroke)","뇌출혈 (Intracerebral Hemorrhage)"]},
+    {"id":"internal-capsule", "ko":"내포", "en":"Internal capsule", "group":"뇌", "summary":"피질척수·피질연수로가 밀집하는 백질 통로입니다.", "links":["뇌경색 (Cerebral Infarction)"]},
+    {"id":"thalamus", "ko":"시상", "en":"Thalamus", "group":"뇌", "summary":"대부분의 감각 정보가 대뇌피질로 가기 전 거치는 중계 구조입니다.", "links":["뇌경색 (Cerebral Infarction)"]},
+    {"id":"brainstem", "ko":"뇌간", "en":"Brainstem", "group":"뇌", "summary":"중뇌·교뇌·연수로 구성되며 뇌신경핵과 장경로가 가깝게 모입니다.", "links":["뇌간 뇌졸중 (Brainstem Stroke)"]},
+    {"id":"cerebellum", "ko":"소뇌", "en":"Cerebellum", "group":"뇌", "summary":"협응, 보행, 안구운동 조절에 관여합니다.", "links":["소뇌경색 (Cerebellar Infarction)"]},
+    {"id":"spinal-cord", "ko":"척수", "en":"Spinal cord", "group":"척수", "summary":"운동·감각 장경로와 분절성 반사 회로가 만나는 중심 통로입니다.", "links":["척수손상 (Spinal Cord Injury)","Brown-Sequard 증후군 (Brown-Sequard Syndrome)"]},
+    {"id":"root", "ko":"신경근", "en":"Nerve root", "group":"말초", "summary":"특정 척수 분절에서 나오는 운동·감각 섬유의 시작점입니다.", "links":["요추 추간판 탈출증 (Lumbar Disc Herniation)"]},
+    {"id":"plexus", "ko":"신경총", "en":"Plexus", "group":"말초", "summary":"여러 신경근 섬유가 섞여 말초신경을 이루는 구간입니다.", "links":["상완신경총 손상 (Brachial Plexus Injury)"]},
+    {"id":"peripheral-nerve", "ko":"말초신경", "en":"Peripheral nerve", "group":"말초", "summary":"말단 장기로 주행하는 혼합신경입니다.", "links":["말초신경병증 (Peripheral Neuropathy)","수근관 증후군 (Carpal Tunnel Syndrome)"]},
+    {"id":"nmj", "ko":"신경근접합부", "en":"Neuromuscular junction", "group":"말초", "summary":"운동신경 말단의 신호가 근섬유로 전달되는 시냅스입니다.", "links":["중증 근무력증 (Myasthenia Gravis)"]},
+    {"id":"muscle", "ko":"골격근", "en":"Skeletal muscle", "group":"말초", "summary":"운동단위의 최종 효과기관입니다.", "links":["염증성 근육병증 (Inflammatory Myopathy)"]}
+  ],
+  "pathways": [
+    {"id":"corticospinal", "ko":"피질척수로", "en":"Corticospinal tract", "kind":"motor", "route":"운동피질 → 내포 → 뇌간 → 연수 피라미드 교차 → 척수 앞가쪽기둥 → 전각/말초운동신경", "pattern":"교차 위 병변은 반대측 UMN 징후, 척수의 교차 아래 병변은 같은쪽 UMN 징후를 시사할 수 있습니다.", "links":["뇌졸중 (Stroke)","척수손상 (Spinal Cord Injury)"]},
+    {"id":"dcml", "ko":"뒤기둥-내측섬유띠", "en":"Dorsal column–medial lemniscus", "kind":"sensory", "route":"말초수용기 → 뒤기둥에서 동측 상승 → 연수에서 교차 → 시상 → 감각피질", "pattern":"진동·관절위치·정교한 촉각을 전달합니다. 척수 병변에서는 동측 소실 양상입니다.", "links":["Brown-Sequard 증후군 (Brown-Sequard Syndrome)"]},
+    {"id":"spinothalamic", "ko":"척수시상로", "en":"Spinothalamic tract", "kind":"sensory", "route":"말초수용기 → 척수 후각 → 1–2분절 내 교차 → 반대측 앞가쪽기둥 상승 → 시상 → 감각피질", "pattern":"통각·온각을 전달합니다. 편측 척수 병변에서는 병변 아래 반대측 소실 양상이 전형적입니다.", "links":["Brown-Sequard 증후군 (Brown-Sequard Syndrome)"]},
+    {"id":"pupil", "ko":"동공 빛반사", "en":"Pupillary light reflex", "kind":"reflex", "route":"망막 → 시신경(CN II) → 중뇌 pretectal area → Edinger–Westphal nucleus → 동안신경(CN III) → 섬모체신경절 → 동공괄약근", "pattern":"직접·간접 반응을 함께 보며 구심성(CN II)과 원심성(CN III/parasympathetic) 이상을 구분합니다.", "links":["동안신경 마비 (Oculomotor Nerve Palsy)"]}
+  ],
+  "dermatomes": [
+    {"id":"c5", "label":"C5", "area":"어깨 외측/상완 외측", "hint":"삼각근 영역"}, {"id":"c6", "label":"C6", "area":"엄지·요측 전완", "hint":"엄지"}, {"id":"c7", "label":"C7", "area":"중지", "hint":"중지"}, {"id":"c8", "label":"C8", "area":"소지·척측 전완", "hint":"소지"}, {"id":"t4", "label":"T4", "area":"유두선", "hint":"흉부 기준점"}, {"id":"t10", "label":"T10", "area":"배꼽", "hint":"복부 기준점"}, {"id":"l1", "label":"L1", "area":"서혜부", "hint":"서혜부"}, {"id":"l4", "label":"L4", "area":"무릎 안쪽/내과", "hint":"내과"}, {"id":"l5", "label":"L5", "area":"발등·엄지발가락", "hint":"엄지발가락"}, {"id":"s1", "label":"S1", "area":"발 외측·새끼발가락", "hint":"발 외측"}
+  ],
+  "myotomes": [
+    {"id":"c5", "label":"C5", "action":"팔꿈치 굽힘", "muscle":"biceps", "reflex":"biceps"}, {"id":"c6", "label":"C6", "action":"손목 폄", "muscle":"wrist extensors", "reflex":"brachioradialis"}, {"id":"c7", "label":"C7", "action":"팔꿈치 폄", "muscle":"triceps", "reflex":"triceps"}, {"id":"c8", "label":"C8", "action":"손가락 굽힘", "muscle":"finger flexors", "reflex":"—"}, {"id":"t1", "label":"T1", "action":"손가락 벌림", "muscle":"interossei", "reflex":"—"}, {"id":"l2", "label":"L2", "action":"엉덩 굽힘", "muscle":"iliopsoas", "reflex":"—"}, {"id":"l3", "label":"L3", "action":"무릎 폄", "muscle":"quadriceps", "reflex":"patellar (L3–L4)"}, {"id":"l4", "label":"L4", "action":"발목 등굽힘", "muscle":"tibialis anterior", "reflex":"patellar (L3–L4)"}, {"id":"l5", "label":"L5", "action":"엄지발가락 폄", "muscle":"EHL", "reflex":"—"}, {"id":"s1", "label":"S1", "action":"발목 저측굽힘", "muscle":"gastrocnemius", "reflex":"Achilles (S1)"}
+  ],
+  "reflexes": [
+    {"id":"pupillary", "label":"동공 빛반사", "arc":"CN II → 중뇌 → CN III", "localization":"구심성·원심성 반응을 양안에서 비교"}, {"id":"corneal", "label":"각막반사", "arc":"V1 → 교뇌 → VII", "localization":"감각 입력과 안면신경 원심성 구분"}, {"id":"biceps", "label":"상완이두근반사", "arc":"C5–C6, musculocutaneous", "localization":"상경추 신경근/말초신경"}, {"id":"triceps", "label":"상완삼두근반사", "arc":"C7–C8, radial", "localization":"C7 중심"}, {"id":"patellar", "label":"슬개건반사", "arc":"L3–L4, femoral", "localization":"L4 중심"}, {"id":"achilles", "label":"아킬레스건반사", "arc":"S1–S2, tibial", "localization":"S1 중심"}, {"id":"plantar", "label":"족저반사", "arc":"L5–S1 / corticospinal modulation", "localization":"성인 신전반응은 UMN 병변과 함께 해석"}
+  ],
+  "nexSteps": [
+    {"id":"distribution", "question":"증상이 한쪽에만 있거나 특정 분절·말초신경 분포를 따릅니까?", "choices":[{"id":"hemibody","label":"편측 얼굴·팔·다리가 함께","targets":["cortex","internal-capsule","brainstem"],"note":"대뇌 또는 뇌간의 중추성 병변 가능성을 우선 검토합니다."},{"id":"dermatomal","label":"피부분절/신경근 형태","targets":["root","spinal-cord"],"note":"신경근 병변 가능성을 검토합니다."},{"id":"length-dependent","label":"양측 원위부 대칭","targets":["peripheral-nerve"],"note":"길이의존성 말초신경병증 양상을 검토합니다."}]},
+    {"id":"motor", "question":"근력 저하가 있으면 UMN 징후(경직·과반사·병적반사)가 동반됩니까?", "choices":[{"id":"umn","label":"있음","targets":["cortex","internal-capsule","brainstem","spinal-cord"],"note":"피질척수로를 포함한 중추성 병변을 우선 검토합니다."},{"id":"lmn","label":"없음/위축·저반사","targets":["root","plexus","peripheral-nerve","nmj","muscle"],"note":"전각·신경근·말초신경·NMJ·근육 범주를 임상 양상과 함께 구분합니다."}]},
+    {"id":"sensory", "question":"감각 이상은 어떤 양상입니까?", "choices":[{"id":"dissociated","label":"통각·온각과 진동·위치감각이 다르게 침범","targets":["spinal-cord"],"note":"상행감각로의 해부학적 위치를 고려합니다."},{"id":"sensory-level","label":"명확한 감각 레벨","targets":["spinal-cord"],"note":"척수 병변을 우선 배제합니다."},{"id":"fatigable","label":"감각 이상 없이 변동성·피로성 약화","targets":["nmj"],"note":"신경근접합부 장애 양상을 검토합니다."}]},
+    {"id":"redflag", "question":"급성 국소신경결손, 진행성 양측 약화, 보행·배뇨장애, 의식 변화가 있습니까?", "choices":[{"id":"yes","label":"있음","targets":["cortex","brainstem","spinal-cord"],"note":"응급 평가가 필요할 수 있습니다. 시간 경과와 진찰에 따라 응급 경로를 따르십시오."},{"id":"no","label":"없음","targets":[],"note":"이 도구의 후보는 진단이 아니며, 병력·진찰을 종합해 다음 검사를 결정합니다."}]}
+  ]
+}

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ChevronRight, Network } from "lucide-react";
+import { ArrowLeft, BrainCircuit, ChevronRight, Network } from "lucide-react";
 import { buildDrugGroups } from "@/lib/drug-groups";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { getDrugs, getDrugToc, getSpecialties } from "@/lib/webdb";
@@ -35,6 +35,7 @@ export default async function DrugCategoryPage(props: { params: Promise<{ slug: 
   }
 
   const infectionSpecialty = getSpecialties().find((item) => item.name.replace(/^\d+\s*/, "").trim() === "\uac10\uc5fc");
+  const nervousSystemCategory = group.title.replace(/^\d+\s*/, "").trim() === "\uC2E0\uACBD\u00B7\uC815\uC2E0";
 
   return (
     <div className="space-y-6">
@@ -54,6 +55,13 @@ export default async function DrugCategoryPage(props: { params: Promise<{ slug: 
             <Link href={`/specialty/${infectionSpecialty.slug}/hub`} className="inline-flex items-center gap-2 rounded-xl bg-teal-700 px-4 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-teal-800">
               <Network className="h-4 w-4" />
               {"\uac10\uc5fc Hub"}
+              <ChevronRight className="h-4 w-4" />
+            </Link>
+          ) : null}
+          {nervousSystemCategory ? (
+            <Link href="/nervous-system-hub" className="inline-flex items-center gap-2 rounded-xl bg-indigo-700 px-4 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-indigo-800">
+              <BrainCircuit className="h-4 w-4" />
+              {"\uC2E0\uACBD\uACC4 Hub"}
               <ChevronRight className="h-4 w-4" />
             </Link>
           ) : null}
