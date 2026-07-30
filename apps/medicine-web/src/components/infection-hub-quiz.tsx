@@ -31,7 +31,7 @@ type RoundQuestion = Question & { answerMode: Exclude<AnswerMode, "mixed"> };
 type Answer = { question: RoundQuestion; selectedId: string };
 
 const TYPE_OPTIONS: Array<{ id: QuizType; label: string; description: string }> = [
-  { id: "visual-organism-identification", label: "??? ? ???", description: "?? ?????? ?? ???? ?? ???? ????." },
+  { id: "visual-organism-identification", label: "이미지로 병원체 식별", description: "이미지의 형태와 특징을 보고 가장 알맞은 병원체를 고릅니다." },
   { id: "organism-identification", label: "병원체 식별", description: "형태·역학·임상 특징으로 병원체를 찾습니다." },
   { id: "organism-to-disease", label: "병원체 → 질환", description: "병원체가 흔히 일으키는 감염질환을 고릅니다." },
   { id: "disease-to-organism", label: "질환 → 병원체", description: "임상 상황에서 우선 고려할 병원체를 고릅니다." },
@@ -184,10 +184,10 @@ function buildVisualIdentificationQuestions(microbiology: MicrobiologyDataset): 
     return [{
       id: `microbiology-visual-${entity.id}`,
       type: "visual-organism-identification" as const,
-      prompt: `?? ${visual.modality} ?? ??? ?? ???? ??????`,
+      prompt: `${visual.modality} 이미지를 보고 가장 알맞은 병원체를 고르세요.`,
       choices,
       correctId: entity.id,
-      explanation: `??? ${entity.title}???. ${visual.caption} ? ???? ??? AI ??????? ?? ?? ??? ???? ????.`,
+      explanation: `${entity.title}를 학습하기 위한 참고 이미지입니다. ${visual.caption} 실제 임상 해석은 검체·배양·영상 판독과 함께 확인합니다.`,
       sources: entity.sourceIds.map((id) => sourceMap.get(id)).filter((item): item is NonNullable<typeof item> => Boolean(item)).map((item) => ({ id: item.id, label: item.label, url: item.url, tier: item.tier, year: item.year })),
       domain: "organism" as const,
       visual,
@@ -321,7 +321,7 @@ export function InfectionHubQuiz({
   return (
     <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7">
       <div className="flex justify-between"><span className="text-xs font-semibold uppercase tracking-[0.16em] text-teal-700">{TYPE_OPTIONS.find((item) => item.id === current.type)?.label}</span><span className="rounded-full bg-slate-100 px-3 py-1 text-xs">{index + 1} / {round.length}</span></div>
-      {current.visual ? <div className="mt-5 overflow-hidden rounded-2xl border border-slate-200 bg-slate-50"><Image src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${current.visual.asset}`} alt={`${current.visual.modality} ??? ?? ??`} width={640} height={640} unoptimized className="mx-auto aspect-square w-full max-w-md object-cover" /><p className="border-t border-slate-200 bg-white px-4 py-2 text-xs text-slate-500">AI ?? ??? ????? ? ?? ?? ??? ???? ????.</p></div> : null}
+      {current.visual ? <div className="mt-5 overflow-hidden rounded-2xl border border-slate-200 bg-slate-50"><Image src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${current.visual.asset}`} alt={`${current.visual.modality} 병원체 참고 이미지`} width={640} height={640} unoptimized className="mx-auto aspect-square w-full max-w-md object-cover" /><p className="border-t border-slate-200 bg-white px-4 py-2 text-xs text-slate-500">교육용 참고 이미지입니다. 실제 진단은 검체·배양·영상 판독과 함께 확인합니다.</p></div> : null}
       <h2 className="mt-6 text-lg font-bold leading-8">{current.prompt}</h2>
       {current.answerMode === "multiple-choice" ? <div className="mt-5 grid gap-3">{current.choices.map((choice) => { const picked = selectedId === choice.id; const isAnswer = submitted && choice.id === current.correctId; return <button key={choice.id} type="button" disabled={submitted} onClick={() => submit(choice.id)} className={`flex items-center justify-between rounded-xl border p-4 text-left ${isAnswer ? "border-emerald-500 bg-emerald-50" : submitted && picked ? "border-rose-400 bg-rose-50" : "border-slate-200 hover:border-teal-400"}`}><span className="font-medium">{choice.label}</span>{submitted ? (isAnswer ? <CheckCircle2 className="h-5 w-5 text-emerald-700" /> : picked ? <XCircle className="h-5 w-5 text-rose-700" /> : null) : <ChevronRight className="h-4 w-4 text-slate-400" />}</button>; })}</div> : <ShortAnswer key={current.id} question={current} value={selectedId} onChange={setSelectedId} onSubmit={() => submit()} />}
       {submitted ? <div className="mt-5 rounded-xl bg-slate-50 p-4"><strong>{correct ? "정답입니다." : "오답입니다."}</strong>{!correct ? <p className="mt-1 text-sm text-emerald-800">정답: {current.choices.find((item) => item.id === current.correctId)?.label}</p> : null}<p className="mt-2 text-sm leading-6 text-slate-700">{current.explanation}</p><EvidenceLinks question={current} /><button type="button" onClick={next} className="mt-4 rounded-full bg-slate-950 px-4 py-2 text-sm font-semibold text-white">{index + 1 === round.length ? "결과 보기" : "다음 문제"}</button></div> : null}
