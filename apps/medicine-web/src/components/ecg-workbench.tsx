@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+
 import Link from "next/link";
 import { Activity, AlertTriangle, ChevronRight, CircleHelp, HeartPulse, Monitor, Pause, Play, RotateCcw, Stethoscope } from "lucide-react";
 import { useMemo, useState, type ReactNode } from "react";
@@ -189,8 +189,8 @@ function LiveEcgMonitor({ pattern, running, onToggle }: { pattern: Pattern; runn
   </section>;
 }
 export function ECGWorkbench({ diseases, theory }: { diseases: DiseaseLink[]; theory?: ReactNode }) {
-  const [tab, setTab] = useState<"waveform" | "twelve" | "guide" | "compare" | "theory">("waveform");
-  const [referenceImage, setReferenceImage] = useState<string>();
+  const [tab, setTab] = useState<"waveform" | "twelve" | "guide" | "theory">("waveform");
+
   const [selectedPattern, setSelectedPattern] = useState<PatternKey>("sinus");
   const [answers, setAnswers] = useState<Partial<Record<DecisionKey, string>>>({});
   const [liveRunning, setLiveRunning] = useState(true);
@@ -222,7 +222,7 @@ export function ECGWorkbench({ diseases, theory }: { diseases: DiseaseLink[]; th
           <button type="button" onClick={() => setTab("twelve")} className={tab === "twelve" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>12-lead</button>
 
           <button type="button" onClick={() => setTab("guide")} className={tab === "guide" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>판독 도우미</button>
-          <button type="button" onClick={() => setTab("compare")} className={tab === "compare" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>이미지 비교</button>
+
           {theory ? <button type="button" onClick={() => setTab("theory")} className={tab === "theory" ? "rounded-lg bg-teal-700 px-3 py-2 text-white shadow-sm" : "rounded-lg px-3 py-2 text-slate-600"}>이론</button> : null}
         </div>
       </div>
@@ -261,24 +261,7 @@ export function ECGWorkbench({ diseases, theory }: { diseases: DiseaseLink[]; th
         {interpretations.length ? <div className="mt-4 grid gap-3 lg:grid-cols-2">{interpretations.map((item) => <article key={item.title} className={item.urgency === "urgent" ? "rounded-lg border border-rose-200 bg-rose-50 p-4" : "rounded-lg border border-slate-200 bg-slate-50 p-4"}><div className="flex flex-wrap items-center gap-2"><h4 className="font-semibold text-slate-950">{item.title}</h4><UrgencyBadge urgency={item.urgency} /></div><p className="mt-2 text-sm text-slate-700">{item.clue}</p><p className="mt-2 text-sm leading-6 text-slate-700"><span className="font-semibold">다음:</span> {item.action}</p>{hrefFor(item.disease) ? <Link href={hrefFor(item.disease) || "/disease"} className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-teal-800 hover:underline">관련 질환 문서 <ChevronRight className="h-4 w-4" /></Link> : null}</article>)}</div> : <div className="mt-4 rounded-lg border border-dashed border-slate-300 bg-slate-50 p-4 text-sm leading-6 text-slate-600"><CircleHelp className="mr-2 inline h-4 w-4 text-teal-700" />RR regularity부터 선택하면 조합에 맞는 대표 후보와 확인 포인트가 나타난다.</div>}
       </section>
       <EmergencyPathwayCard answer={answers} />
-    </div> : tab === "theory" && theory ? <div className="p-5 lg:p-6">{theory}</div> : <div className="grid gap-5 p-5 lg:grid-cols-2 lg:p-6">
-      <section className="rounded-xl border border-dashed border-teal-300 bg-white p-5">
-        <h3 className="text-lg font-semibold text-slate-950">내 ECG 이미지 비교</h3>
-        <p className="mt-2 text-sm leading-6 text-slate-600">이미지는 이 브라우저에서만 미리보기로 사용되며 서버에 전송하거나 자동 판독하지 않습니다. 개인정보·식별정보는 올리지 마세요.</p>
-        <label className="mt-4 flex min-h-52 cursor-pointer flex-col items-center justify-center rounded-lg border border-slate-200 bg-slate-50 p-5 text-center hover:border-teal-300">
-          <span className="text-sm font-semibold text-teal-800">ECG strip 또는 12-lead 이미지 선택</span>
-          <span className="mt-1 text-xs text-slate-500">PNG · JPG · WEBP</span>
-          <input type="file" accept="image/png,image/jpeg,image/webp" className="sr-only" onChange={(event) => {
-            const file = event.currentTarget.files?.[0];
-            if (file) setReferenceImage(URL.createObjectURL(file));
-          }} />
-        </label>
-        {referenceImage ? <button type="button" onClick={() => setReferenceImage(undefined)} className="mt-3 text-sm font-semibold text-slate-600 underline">이미지 지우기</button> : null}
-      </section>
-      <section className="rounded-xl border border-slate-200 bg-slate-950 p-3">
-        {referenceImage ? <Image src={referenceImage} alt="Local ECG reference" width={1200} height={600} unoptimized className="max-h-[440px] w-full rounded-lg object-contain" /> : <div className="flex min-h-72 items-center justify-center rounded-lg border border-dashed border-slate-600 px-6 text-center text-sm leading-6 text-slate-400">이미지를 고르면 이곳에 표시됩니다. 파형 라이브러리와 판독 도우미를 오가며 수동으로 비교하세요.</div>}
-      </section>
-    </div>}
+    </div> : tab === "theory" && theory ? <div className="p-5 lg:p-6">{theory}</div> : null}
 
     <div className="border-t border-teal-100 bg-slate-50 px-5 py-4 text-xs leading-5 text-slate-600"><div className="flex items-start gap-2"><HeartPulse className="mt-0.5 h-4 w-4 shrink-0 text-teal-700" /><p><strong className="text-slate-800">Clinical safety.</strong> 맥박 없음, shock, altered mental status, ischemic chest pain, acute heart failure, sustained wide-complex tachycardia, high-grade AV block, hyperkalemia ECG 변화는 즉시 monitor·기관 응급 경로·전문가 평가가 우선이다. <a className="font-semibold text-teal-800 underline" href="https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support" target="_blank" rel="noreferrer">AHA 2025 adult advanced life support</a> · <a className="font-semibold text-teal-800 underline" href="https://litfl.com/ecg-library/" target="_blank" rel="noreferrer">LITFL ECG library</a></p></div></div>
   </section>;
