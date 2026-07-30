@@ -145,7 +145,7 @@ export function MaternalChildHub({ diseases }: { diseases: DiseaseNote[] }) {
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
             <div className="text-xs font-semibold uppercase tracking-[0.16em] text-rose-700">Longitudinal care</div>
-            <h1 className="mt-2 text-3xl font-bold text-slate-950">모자보건 Hub</h1>
+            <h1 className="mt-2 text-3xl font-bold text-slate-950">산부소아 Hub</h1>
             <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-600">임신 시작부터 출생·소아청소년기까지 이어지는 핵심 예방진료와 위험 신호를 한 흐름으로 정리합니다. 실제 검사·접종·의뢰는 국내 최신 지침과 기관 프로토콜을 우선합니다.</p>
           </div>
           <div className="rounded-xl border border-rose-100 bg-white/90 p-1.5 shadow-sm" aria-label="표시 범위">
