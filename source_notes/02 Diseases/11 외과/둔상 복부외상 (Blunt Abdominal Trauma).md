@@ -21,7 +21,7 @@ sources: ["Conservative management of pediatric patients with solid organ injury
 
 content_updated_at: "2026-07-16"
 관련분과:
-- 응급의학
+- 21 응급의학
 응급의학_분류:
 - 외상 및 창상
 - 부위별 외상

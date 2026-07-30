@@ -23,7 +23,7 @@ sources: ["[Clinical practice guidelines for the diagnosis and treatment of comm
 content_updated_at: "2026-07-16"
 
 관련분과:
-- 응급의학
+- 21 응급의학
 응급의학_분류:
 - 주요 장기계 응급
 - 감염

@@ -22,7 +22,7 @@ disease_family: anaphylaxis
 population: adult
 
 관련분과:
-- 응급의학
+- 21 응급의학
 응급의학_분류:
 - 소생 및 중증응급
 - 아나필락시스

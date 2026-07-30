@@ -20,7 +20,7 @@ source_currency_assessment: "current_standard_retained"
 content_updated_at: "2026-07-17"
 
 관련분과:
-- 응급의학
+- 21 응급의학
 응급의학_분류:
 - 주요 장기계 응급
 - 심혈관

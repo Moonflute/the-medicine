@@ -19,7 +19,7 @@ review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 
 관련분과:
-- 응급의학
+- 21 응급의학
 응급의학_분류:
 - 주요 장기계 응급
 - 신경계
