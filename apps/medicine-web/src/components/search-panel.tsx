@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowRight, Clock3, Search } from "lucide-react";
+import { ArrowRight, Clock3, Search, Trash2 } from "lucide-react";
 import type { SearchEntry } from "@/lib/types";
 
 const RECENT_SEARCHES_KEY = "medicine-web-recent-searches";
@@ -106,6 +106,11 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
     window.localStorage.setItem(RECENT_SEARCHES_KEY, JSON.stringify(next));
   };
 
+  const clearRecentSearches = () => {
+    setRecentSearches([]);
+    window.localStorage.removeItem(RECENT_SEARCHES_KEY);
+  };
+
   const openResult = (index: number) => {
     const entry = results[index];
     if (!entry) return;
@@ -140,7 +145,13 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
 
       {!term && recentSearches.length > 0 ? (
         <div className="mt-4">
-          <div className="mb-2 flex items-center gap-2 text-xs font-semibold uppercase text-slate-500"><Clock3 className="h-3.5 w-3.5" />최근 검색</div>
+          <div className="mb-2 flex items-center justify-between gap-2 text-xs font-semibold uppercase text-slate-500">
+            <div className="flex items-center gap-2"><Clock3 className="h-3.5 w-3.5" />최근 검색</div>
+            <button type="button" onClick={clearRecentSearches} className="inline-flex items-center gap-1 text-[11px] font-medium normal-case text-slate-400 hover:text-teal-700" aria-label="검색 기록 지우기">
+              <Trash2 className="h-3 w-3" />
+              검색 기록 지우기
+            </button>
+          </div>
           <div className="flex flex-wrap gap-2">{recentSearches.map((item) => <button key={item} type="button" onClick={() => setSearchQuery(item)} className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm text-slate-700 hover:border-teal-300 hover:text-teal-800">{item}</button>)}</div>
         </div>
       ) : null}
