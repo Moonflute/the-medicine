@@ -328,6 +328,47 @@
         "treatment",
         "recurrence"
       ]
+    },
+    {
+      "id": "cdc-legionella-clinical-guidance",
+      "label": "CDC Clinical Guidance for Legionella Infections",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/legionella/hcp/clinical-guidance/index.html",
+      "tier": "A",
+      "year": "2025",
+      "scope": [
+        "Legionella",
+        "diagnosis",
+        "pneumonia treatment",
+        "public health"
+      ]
+    },
+    {
+      "id": "cdc-mycoplasma-clinical-care",
+      "label": "CDC Clinical Care of Mycoplasma pneumoniae Infection",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/mycoplasma/hcp/clinical-care/index.html",
+      "tier": "A",
+      "year": "2026",
+      "scope": [
+        "Mycoplasma pneumoniae",
+        "treatment",
+        "macrolide resistance"
+      ]
+    },
+    {
+      "id": "cdc-tb-treatment-2025",
+      "label": "CDC Clinical Treatment of Tuberculosis",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/tb/hcp/treatment/index.html",
+      "tier": "A",
+      "year": "2025",
+      "scope": [
+        "tuberculosis",
+        "treatment",
+        "drug susceptibility",
+        "monitoring"
+      ]
     }
   ],
   "entities": [
@@ -7649,7 +7690,7 @@
       "koreanName": "열대열원충",
       "entityKind": "organism",
       "pathogenType": "protozoan",
-      "category": "혈액 원충",
+      "category": "??",
       "categoryPath": [
         "04 Parasites",
         "01 Protozoa"
@@ -7774,7 +7815,7 @@
       "koreanName": "톡소포자충",
       "entityKind": "organism",
       "pathogenType": "protozoan",
-      "category": "조직 원충",
+      "category": "??",
       "categoryPath": [
         "04 Parasites",
         "01 Protozoa"
@@ -7899,7 +7940,7 @@
       "koreanName": "람블편모충",
       "entityKind": "organism",
       "pathogenType": "protozoan",
-      "category": "장관 원충",
+      "category": "??",
       "categoryPath": [
         "04 Parasites",
         "01 Protozoa"
@@ -8022,7 +8063,7 @@
       "koreanName": "이질아메바",
       "entityKind": "organism",
       "pathogenType": "protozoan",
-      "category": "장관 원충",
+      "category": "??",
       "categoryPath": [
         "04 Parasites",
         "01 Protozoa"
@@ -10624,7 +10665,7 @@
       "koreanName": "와포자충",
       "entityKind": "clinical_group",
       "pathogenType": "protozoan",
-      "category": "장관 원충",
+      "category": "??",
       "categoryPath": [
         "05 Clinical Groups"
       ],
