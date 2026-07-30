@@ -6,6 +6,8 @@ import { usePathname, useRouter } from "next/navigation";
 import { Activity, BookOpenCheck, FlaskConical, HeartPulse, House, Menu, Pill, Search, Stethoscope, X } from "lucide-react";
 import { AuthStatus } from "@/components/auth-status";
 import { LearningSyncProvider } from "@/components/learning-sync-provider";
+import { AudioReviewProvider } from "@/components/audio-review-provider";
+import { AudioReviewMiniPlayer } from "@/components/audio-review-mini-player";
 
 const navItems = [
   { href: "/", label: "Home", icon: House },
@@ -53,6 +55,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   }, [pathname]);
 
   return (
+    <AudioReviewProvider>
     <div className="min-h-screen bg-slate-100 text-slate-950">
       <LearningSyncProvider />
       <div className="mx-auto flex min-h-screen max-w-[1680px]">
@@ -138,7 +141,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             )}
           </header>
 
-          <main className="flex-1 px-4 py-6 sm:px-6 xl:px-8">
+          <main className="flex-1 px-4 py-6 pb-20 sm:px-6 xl:px-8">
             <div className="mx-auto max-w-7xl">{children}</div>
           </main>
 
@@ -164,6 +167,8 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           </nav>
         </div>
       </div>
+      <AudioReviewMiniPlayer />
     </div>
+    </AudioReviewProvider>
   );
 }

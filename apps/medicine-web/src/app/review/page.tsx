@@ -1,7 +1,7 @@
 import { ReviewPageClient } from "@/components/review-page-client";
 import { RandomPageLearningCard } from "@/components/random-page-learning-card";
 import Link from "next/link";
-import { ArrowRight, ListChecks } from "lucide-react";
+import { ArrowRight, Headphones, ListChecks } from "lucide-react";
 import {
   getAllDiseases,
   getAllSkills,
@@ -69,7 +69,7 @@ export default function ReviewPage() {
           Review saved disease, symptom, drug, lab, and skill notes today and adjust the next review date by confidence.
         </p>
       </header>
-      <div className="grid gap-4 lg:grid-cols-2">
+      <div className="grid gap-4 lg:grid-cols-3">
         <Link href="/review/qbank" className="block rounded-xl border border-teal-200 bg-teal-50 p-5 transition hover:border-teal-500 hover:bg-teal-100/70 sm:p-6">
           <div className="flex items-start justify-between gap-4">
             <div>
@@ -81,6 +81,16 @@ export default function ReviewPage() {
           </div>
         </Link>
         <RandomPageLearningCard catalog={catalog} />
+        <Link href="/review/audio" className="block rounded-xl border border-violet-200 bg-violet-50 p-5 transition hover:border-violet-400 hover:bg-violet-100/70 sm:p-6">
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <div className="flex items-center gap-2 text-sm font-semibold text-violet-800"><Headphones className="h-5 w-5" />Audio Review</div>
+              <h2 className="mt-3 text-2xl font-semibold text-slate-950">청취 모드</h2>
+              <p className="mt-2 text-sm leading-6 text-slate-600">팟캐스트처럼 틀어놓고 듣습니다.</p>
+            </div>
+            <ArrowRight className="mt-1 h-5 w-5 shrink-0 text-violet-700" />
+          </div>
+        </Link>
       </div>
       <ReviewPageClient catalog={catalog} />
     </div>
