@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-07-29",
+  "reviewedAt": "2026-07-30",
   "sources": [
     {
       "id": "ncbi-taxonomy",
@@ -326,6 +326,163 @@
         "Clostridioides difficile",
         "treatment",
         "recurrence"
+      ]
+    },
+    {
+      "id": "cdc-legionella-clinical-guidance",
+      "label": "CDC Clinical Guidance for Legionella Infections",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/legionella/hcp/clinical-guidance/index.html",
+      "tier": "A",
+      "year": "2025",
+      "scope": [
+        "Legionella",
+        "diagnosis",
+        "pneumonia treatment",
+        "public health"
+      ]
+    },
+    {
+      "id": "cdc-mycoplasma-clinical-care",
+      "label": "CDC Clinical Care of Mycoplasma pneumoniae Infection",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/mycoplasma/hcp/clinical-care/index.html",
+      "tier": "A",
+      "year": "2026",
+      "scope": [
+        "Mycoplasma pneumoniae",
+        "treatment",
+        "macrolide resistance"
+      ]
+    },
+    {
+      "id": "cdc-tb-treatment-2025",
+      "label": "CDC Clinical Treatment of Tuberculosis",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/tb/hcp/treatment/index.html",
+      "tier": "A",
+      "year": "2025",
+      "scope": [
+        "tuberculosis",
+        "treatment",
+        "drug susceptibility",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "idsa-infectious-diarrhea",
+      "label": "IDSA Clinical Practice Guideline for Infectious Diarrhea",
+      "organization": "Infectious Diseases Society of America",
+      "url": "https://www.idsociety.org/practice-guideline/infectious-diarrhea/",
+      "tier": "A",
+      "year": "2017",
+      "scope": [
+        "infectious diarrhea",
+        "directed antimicrobial therapy"
+      ]
+    },
+    {
+      "id": "cdc-campylobacter",
+      "label": "CDC Clinical Overview of Campylobacter",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/campylobacter/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "2025",
+      "scope": [
+        "Campylobacter",
+        "clinical disease",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-vibrio",
+      "label": "CDC Clinical Overview of Vibriosis",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/vibrio/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "2024",
+      "scope": [
+        "Vibrio",
+        "wound infection",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-brucellosis",
+      "label": "CDC Clinical Overview of Brucellosis",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/brucellosis/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "2026",
+      "scope": [
+        "Brucella",
+        "brucellosis",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-psittacosis",
+      "label": "CDC Clinical Overview of Psittacosis",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/psittacosis/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "2025",
+      "scope": [
+        "Chlamydia psittaci",
+        "psittacosis",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-anthrax",
+      "label": "CDC Clinical Overview of Anthrax",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/anthrax/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "2026",
+      "scope": [
+        "Bacillus anthracis",
+        "anthrax",
+        "treatment"
+      ]
+    },
+    {
+      "id": "cdc-rickettsial-care",
+      "label": "CDC Clinical Care of Spotted Fever Rickettsioses",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/other-spotted-fever/hcp/clinical-care/index.html",
+      "tier": "A",
+      "year": "2025",
+      "scope": [
+        "Rickettsia",
+        "rickettsial disease",
+        "doxycycline"
+      ]
+    },
+    {
+      "id": "cdc-aspergillosis",
+      "label": "CDC Clinical Overview of Aspergillosis",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/aspergillosis/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "2024",
+      "scope": [
+        "Aspergillus",
+        "aspergillosis",
+        "clinical care"
+      ]
+    },
+    {
+      "id": "cdc-schistosomiasis",
+      "label": "CDC Clinical Care of Schistosomiasis",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/schistosomiasis/hcp/treatment/index.html",
+      "tier": "A",
+      "year": "2024",
+      "scope": [
+        "Schistosoma",
+        "schistosomiasis",
+        "praziquantel"
       ]
     }
   ]

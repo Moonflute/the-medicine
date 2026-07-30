@@ -209,6 +209,53 @@
     {
       "sourceType": "microorganism",
       "sourceId": "actinomyces-species",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-uwqeyEoOq3oOymnSAoQWN0aW5vbXljb3NpcykubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "actinomyces-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQmVuenlscGVuaWNpbGxpbi5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "actinomyces-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "actinomyces-species",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -290,6 +337,37 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "aeromonas-species",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "aeromonas-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -630,6 +708,70 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "aspergillus-species",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-yVhOyKpO2OmOultOq4uOujqOyKpOymnSAoQXNwZXJnaWxsb3NpcykubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-aspergillosis"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "aspergillus-species",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDIg7Zi47Z2h6riwL-yVjOugiOultOq4sOyEsSDquLDqtIDsp4Dtj5Ag7JWE7Iqk7Y6Y66W06ri466Oo7Iqk7KadIChBQlBBKSAoQWxsZXJnaWMgQnJvbmNob3B1bG1vbmFyeSBBc3BlcmdpbGxvc2lzKS5tZA",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-aspergillosis"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "aspergillus-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQW1waG90ZXJpY2luQi5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-aspergillosis",
+        "cdc-fungal"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "aspergillus-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvVm9yaWNvbmF6b2xlLm1k",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-aspergillosis",
+        "cdc-fungal"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -1033,6 +1175,38 @@
     {
       "sourceType": "microorganism",
       "sourceId": "bacillus-anthracis",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-anthrax"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "bacillus-anthracis",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-anthrax"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "bacillus-anthracis",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -1080,6 +1254,21 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "bacillus-cereus",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-yEpOyCrCAo67mE7Je87Kad7ISxKSAoRGlhcnJoZWEgKE5vbi1pbmZsYW1tYXRvcnkpKS5tZA",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-foodborne"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -1862,6 +2051,53 @@
     {
       "sourceType": "microorganism",
       "sourceId": "brucella-species",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-u4jOujqOyFgOudvOymnSAoQnJ1Y2VsbG9zaXMpLm1k",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-brucellosis"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "brucella-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-brucellosis"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "brucella-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvUmlmYW1waW4ubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-brucellosis"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "brucella-species",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -1909,6 +2145,70 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "campylobacter-jejuni",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-y6hO2VhOuhnOuwle2EsCAoQ2FtcHlsb2JhY3RlcikubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-campylobacter",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "campylobacter-jejuni",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-campylobacter",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "campylobacter-jejuni",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-campylobacter"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "campylobacter-jejuni",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-campylobacter"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -2415,6 +2715,22 @@
     {
       "sourceType": "microorganism",
       "sourceId": "chlamydia-psittaci",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-psittacosis"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "chlamydia-psittaci",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -2559,6 +2875,37 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clonorchis-sinensis",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-qwhO2doey2qeymnSAoQ2xvbm9yY2hpYXNpcykubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clonorchis-sinensis",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvUHJhemlxdWFudGVsLm1k",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -3030,6 +3377,53 @@
     {
       "sourceType": "microorganism",
       "sourceId": "clostridium-perfringens",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-qwgOyKpCDqtLTsoIAgKEdhcyBHYW5ncmVuZSkubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridium-perfringens",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridium-perfringens",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQmVuenlscGVuaWNpbGxpbi5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridium-perfringens",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -3077,6 +3471,37 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridium-tetani",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-2MjOyDge2SjSAoVGV0YW51cykubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "clostridium-tetani",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -3351,6 +3776,37 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "coxiella-burnetii",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-2BkOyXtCAoUSBGZXZlcikubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "coxiella-burnetii",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -3646,6 +4102,21 @@
     {
       "sourceType": "microorganism",
       "sourceId": "dengue-virus",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-uOheq4sOyXtCAoRGVuZ3VlIEZldmVyKS5tZA",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "dengue-virus",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
@@ -3808,6 +4279,22 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "echinococcus-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQWxiZW5kYXpvbGUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -6831,6 +7318,38 @@
     {
       "sourceType": "microorganism",
       "sourceId": "fusarium-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQW1waG90ZXJpY2luQi5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-fungal"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "fusarium-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvVm9yaWNvbmF6b2xlLm1k",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-fungal"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "fusarium-species",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -7726,6 +8245,21 @@
     {
       "sourceType": "microorganism",
       "sourceId": "hantavirus",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-yLoOymne2bhOq1sCDstpztmIjsl7QgKEhlbW9ycmhhZ2ljIEZldmVyIHdpdGggUmVuYWwgU3luZHJvbWUpLm1k",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-respiratory-viruses"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "hantavirus",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
@@ -8173,6 +8707,22 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "hookworm",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQWxiZW5kYXpvbGUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -11293,6 +11843,84 @@
     {
       "sourceType": "microorganism",
       "sourceId": "mycoplasma-genitalium",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MjAg67mE64eo6riw6rO8L-u5hOyehOq3oOyalOuPhOyXvCAoTm9uZ29ub2NvY2NhbCB1cmV0aHJpdGlzKS5tZA",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycoplasma-genitalium",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MTMg67aA7J246rO8L-yekOq2geqyveu2gOyXvCAoQ2VydmljaXRpcykubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycoplasma-genitalium",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycoplasma-genitalium",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycoplasma-genitalium",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvTW94aWZsb3hhY2luLm1k",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "mycoplasma-genitalium",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -12355,6 +12983,69 @@
     {
       "sourceType": "microorganism",
       "sourceId": "nocardia-species",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-uFuOy5tOultOuUlOyVhOymnSAoTm9jYXJkaW9zaXMpLm1k",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "nocardia-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQW1pa2FjaW4ubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "nocardia-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvSW1pcGVuZW1DaWxhc3RhdGluLm1k",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "nocardia-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltU3VsZmFtZXRob3hhem9sZS5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "nocardia-species",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -12813,6 +13504,53 @@
     {
       "sourceType": "microorganism",
       "sourceId": "orientia-tsutsugamushi",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-yvlOyvlOqwgOustOyLnOuzkSAoVHN1dHN1Z2FtdXNoaSBEaXNlYXNlKS5tZA",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-rickettsial-care"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "orientia-tsutsugamushi",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-rickettsial-care"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "orientia-tsutsugamushi",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-rickettsial-care"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "orientia-tsutsugamushi",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -12930,6 +13668,53 @@
     {
       "sourceType": "microorganism",
       "sourceId": "plasmodium-ovale",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-unkOudvOumrOyVhCAoTWFsYXJpYSkubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "who-malaria"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "plasmodium-ovale",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2hsb3JvcXVpbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "who-malaria"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "plasmodium-ovale",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQXJ0ZW1ldGhlckx1bWVmYW50cmluZS5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "who-malaria"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "plasmodium-ovale",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
@@ -12942,6 +13727,53 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "plasmodium-vivax",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-unkOudvOumrOyVhCAoTWFsYXJpYSkubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "who-malaria"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "plasmodium-vivax",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2hsb3JvcXVpbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "who-malaria"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "plasmodium-vivax",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQXJ0ZW1ldGhlckx1bWVmYW50cmluZS5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "who-malaria"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -13897,6 +14729,21 @@
     {
       "sourceType": "microorganism",
       "sourceId": "rabies-virus",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-qzteyImOuzkSAoUmFiaWVzKS5tZA",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-vaccine-preventable"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "rabies-virus",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
@@ -13942,6 +14789,37 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "rickettsia-species",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-umrOy8gOywqCDrs5EgKFJpY2tldHRzaWFsIERpc2Vhc2UpLm1k",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-rickettsial-care"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "rickettsia-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-rickettsial-care"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -14066,6 +14944,86 @@
     {
       "sourceType": "microorganism",
       "sourceId": "salmonella-species",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-u5hOyepe2LsO2RuOyKpCDsgrTrqqjrhKzrnbwgKE5vbi10eXBob2lkYWwgU2FsbW9uZWxsYSkubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-foodborne",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-species",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-foodborne",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-species",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQmxvb2QgY3VsdHVyZS5tZA",
@@ -14130,6 +15088,69 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-typhi-paratyphi",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-yepe2LsO2RuOyKpCAoVHlwaG9pZCBGZXZlcikubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-typhi-paratyphi",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-typhi-paratyphi",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "salmonella-typhi-paratyphi",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -14267,6 +15288,22 @@
     {
       "sourceType": "microorganism",
       "sourceId": "schistosoma-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvUHJhemlxdWFudGVsLm1k",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-schistosomiasis"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "schistosoma-species",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
@@ -14283,6 +15320,21 @@
     {
       "sourceType": "microorganism",
       "sourceId": "sfts-virus",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-ykkeymneyXtOyEsSDtmIjshoztjJDqsJDshowg7Kad7ZuE6rWwIChTRlRTKSAoU2V2ZXJlIEZldmVyIHdpdGggVGhyb21ib2N5dG9wZW5pYSBTeW5kcm9tZSAoU0ZUUykpLm1k",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "sfts-virus",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
@@ -14295,6 +15347,86 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "shigella-species",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-ydtOyniCAoRHlzZW50ZXJ5KS5tZA",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-foodborne",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "shigella-species",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-foodborne",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "shigella-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "shigella-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "shigella-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -15482,6 +16614,38 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "stec-ehec",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-ydtOyniCAoRHlzZW50ZXJ5KS5tZA",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-foodborne",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "stec-ehec",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-foodborne",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -18260,6 +19424,22 @@
     {
       "sourceType": "microorganism",
       "sourceId": "toxocara-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQWxiZW5kYXpvbGUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "toxocara-species",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
@@ -18445,6 +19625,22 @@
     {
       "sourceType": "microorganism",
       "sourceId": "trichinella-spiralis",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQWxiZW5kYXpvbGUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "trichinella-spiralis",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
@@ -18457,6 +19653,38 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "ureaplasma-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "ureaplasma-species",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -18657,6 +19885,70 @@
     {
       "sourceType": "microorganism",
       "sourceId": "vibrio-cholerae",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-y9nOugiOudvCAoQ2hvbGVyYSkubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-vibrio",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-cholerae",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-cholerae",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-cholerae",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-cholerae",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -18708,6 +20000,21 @@
     {
       "sourceType": "microorganism",
       "sourceId": "vibrio-parahaemolyticus",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-yEpOyCrCAo67mE7Je87Kad7ISxKSAoRGlhcnJoZWEgKE5vbi1pbmZsYW1tYXRvcnkpKS5tZA",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-vibrio"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-parahaemolyticus",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -18755,6 +20062,83 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-vulnificus",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-vibrio"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-vulnificus",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-q0tOyCrOyEsSDqt7zrp4nsl7wgKE5lY3JvdGl6aW5nIEZhc2NpaXRpcykubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-vibrio"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-vulnificus",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MTEg7Jm46rO8L-ywveyDgSDqsJDsl7wgKFdvdW5kIEluZmVjdGlvbikubWQ",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-vibrio"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-vulnificus",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdGF6aWRpbWUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-vibrio"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "vibrio-vulnificus",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-vibrio"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",
@@ -18994,6 +20378,69 @@
     {
       "sourceType": "microorganism",
       "sourceId": "yersinia-enterocolitica",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "yersinia-enterocolitica",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "yersinia-enterocolitica",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "yersinia-enterocolitica",
+      "relation": "treated_with",
+      "targetType": "drug",
+      "targetId": "ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltU3VsZmFtZXRob3hhem9sZS5tZA",
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "yersinia-enterocolitica",
       "relation": "evaluated_by",
       "targetType": "lab",
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvQW50aW1pY3JvYmlhbCBzdXNjZXB0aWJpbGl0eSB0ZXN0aW5nLm1k",
@@ -19041,6 +20488,21 @@
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "zika-virus",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-yngOy5tOuwlOydtOufrOyKpCDqsJDsl7wgKFppa2EgVmlydXMgSW5mZWN0aW9uKS5tZA",
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-30"
     },
     {
       "sourceType": "microorganism",

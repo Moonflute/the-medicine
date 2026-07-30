@@ -1,0 +1,1039 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-07-30",
+  "diseaseLinks": [
+    {
+      "sourceId": "legionella-pneumophila",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-ugiOyngOyYpOuErOudvCAoTGVnaW9uZWxsYSkubWQ"
+      ],
+      "context": [
+        "Legionnaires disease",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "cdc-legionella-clinical-guidance"
+      ]
+    },
+    {
+      "sourceId": "klebsiella-pneumoniae",
+      "targetSlugs": [
+        "MDIg7Zi47Z2h6riwL-2BtOugmeyLnOyXmOudvCDtj5DroLQgKEtsZWJzaWVsbGEgUG5ldW1vbmlhKS5tZA"
+      ],
+      "context": [
+        "Klebsiella pneumonia",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ]
+    },
+    {
+      "sourceId": "mycoplasma-pneumoniae",
+      "targetSlugs": [
+        "MDIg7Zi47Z2h6riwL-uniOydtOy9lO2UjOudvOyKpOuniCDtj5DroLQgKE15Y29wbGFzbWEgUG5ldW1vbmlhKS5tZA"
+      ],
+      "context": [
+        "Mycoplasma pneumonia",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "cdc-mycoplasma-clinical-care"
+      ]
+    },
+    {
+      "sourceId": "clostridioides-difficile",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-qxsOynk-uniSDqsrDsnqXsl7wgKFBzZXVkb21lbWJyYW5vdXMgQ29saXRpcykubWQ"
+      ],
+      "context": [
+        "Clostridioides difficile infection",
+        "pseudomembranous colitis"
+      ],
+      "sourceIds": [
+        "idsa-cdi"
+      ]
+    },
+    {
+      "sourceId": "proteus-mirabilis",
+      "targetSlugs": [
+        "MDUg7Iug7J6lL-q4ieyEsSDrsKnqtJHsl7wgKEFjdXRlIEN5c3RpdGlzKS5tZA",
+        "MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA",
+        "MjAg67mE64eo6riw6rO8L-qwkOyXvOyEnSAoU3RydXZpdGUgc3RvbmUpLm1k"
+      ],
+      "context": [
+        "urinary tract infection and infection-stone association",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ]
+    },
+    {
+      "sourceId": "chlamydia-trachomatis",
+      "targetSlugs": [
+        "MTMg67aA7J246rO8L-yekOq2geqyveu2gOyXvCAoQ2VydmljaXRpcykubWQ",
+        "MjAg67mE64eo6riw6rO8L-u5hOyehOq3oOyalOuPhOyXvCAoTm9uZ29ub2NvY2NhbCB1cmV0aHJpdGlzKS5tZA",
+        "MjAg67mE64eo6riw6rO8L-yEseuzkeumvO2UhOycoeyVhOyihSAoTHltcGhvZ3JhbnVsb21hIHZlbmVyZXVtKS5tZA"
+      ],
+      "context": [
+        "site-specific chlamydial syndrome",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ]
+    },
+    {
+      "sourceId": "norovirus",
+      "targetSlugs": [
+        "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shKTsgqwgKERpYXJyaGVhKS5tZA"
+      ],
+      "context": [
+        "acute gastroenteritis syndrome",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "cdc-foodborne"
+      ]
+    },
+    {
+      "sourceId": "rotavirus",
+      "targetSlugs": [
+        "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shKTsgqwgKERpYXJyaGVhKS5tZA"
+      ],
+      "context": [
+        "acute gastroenteritis syndrome",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "cdc-vaccine-preventable",
+        "cdc-foodborne"
+      ]
+    },
+    {
+      "sourceId": "giardia-duodenalis",
+      "targetSlugs": [
+        "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shKTsgqwgKERpYXJyaGVhKS5tZA"
+      ],
+      "context": [
+        "giardiasis syndrome",
+        "curated-direct-link"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ]
+    },
+    {
+      "sourceId": "campylobacter-jejuni",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-y6hO2VhOuhnOuwle2EsCAoQ2FtcHlsb2JhY3RlcikubWQ",
+        "MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-campylobacter",
+        "idsa-infectious-diarrhea"
+      ]
+    },
+    {
+      "sourceId": "salmonella-species",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-u5hOyepe2LsO2RuOyKpCDsgrTrqqjrhKzrnbwgKE5vbi10eXBob2lkYWwgU2FsbW9uZWxsYSkubWQ",
+        "MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-foodborne",
+        "idsa-infectious-diarrhea"
+      ]
+    },
+    {
+      "sourceId": "salmonella-typhi-paratyphi",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-yepe2LsO2RuOyKpCAoVHlwaG9pZCBGZXZlcikubWQ"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ]
+    },
+    {
+      "sourceId": "shigella-species",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-ydtOyniCAoRHlzZW50ZXJ5KS5tZA",
+        "MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-foodborne",
+        "idsa-infectious-diarrhea"
+      ]
+    },
+    {
+      "sourceId": "stec-ehec",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-ydtOyniCAoRHlzZW50ZXJ5KS5tZA",
+        "MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-foodborne",
+        "idsa-infectious-diarrhea"
+      ]
+    },
+    {
+      "sourceId": "vibrio-vulnificus",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-q0tOyCrOyEsSDqt7zrp4nsl7wgKE5lY3JvdGl6aW5nIEZhc2NpaXRpcykubWQ",
+        "MTEg7Jm46rO8L-ywveyDgSDqsJDsl7wgKFdvdW5kIEluZmVjdGlvbikubWQ",
+        "MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-vibrio"
+      ]
+    },
+    {
+      "sourceId": "vibrio-cholerae",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-y9nOugiOudvCAoQ2hvbGVyYSkubWQ"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-vibrio",
+        "idsa-infectious-diarrhea"
+      ]
+    },
+    {
+      "sourceId": "vibrio-parahaemolyticus",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-yEpOyCrCAo67mE7Je87Kad7ISxKSAoRGlhcnJoZWEgKE5vbi1pbmZsYW1tYXRvcnkpKS5tZA"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-vibrio"
+      ]
+    },
+    {
+      "sourceId": "yersinia-enterocolitica",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ]
+    },
+    {
+      "sourceId": "nocardia-species",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-uFuOy5tOultOuUlOyVhOymnSAoTm9jYXJkaW9zaXMpLm1k"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ]
+    },
+    {
+      "sourceId": "actinomyces-species",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-uwqeyEoOq3oOymnSAoQWN0aW5vbXljb3NpcykubWQ"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ]
+    },
+    {
+      "sourceId": "bacillus-cereus",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-yEpOyCrCAo67mE7Je87Kad7ISxKSAoRGlhcnJoZWEgKE5vbi1pbmZsYW1tYXRvcnkpKS5tZA"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-foodborne"
+      ]
+    },
+    {
+      "sourceId": "clostridium-perfringens",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-qwgOyKpCDqtLTsoIAgKEdhcyBHYW5ncmVuZSkubWQ"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ]
+    },
+    {
+      "sourceId": "clostridium-tetani",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-2MjOyDge2SjSAoVGV0YW51cykubWQ"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-vaccine-preventable"
+      ]
+    },
+    {
+      "sourceId": "brucella-species",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-u4jOujqOyFgOudvOymnSAoQnJ1Y2VsbG9zaXMpLm1k"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-brucellosis"
+      ]
+    },
+    {
+      "sourceId": "coxiella-burnetii",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-2BkOyXtCAoUSBGZXZlcikubWQ"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ]
+    },
+    {
+      "sourceId": "rickettsia-species",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-umrOy8gOywqCDrs5EgKFJpY2tldHRzaWFsIERpc2Vhc2UpLm1k"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-rickettsial-care"
+      ]
+    },
+    {
+      "sourceId": "orientia-tsutsugamushi",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-yvlOyvlOqwgOustOyLnOuzkSAoVHN1dHN1Z2FtdXNoaSBEaXNlYXNlKS5tZA"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-rickettsial-care"
+      ]
+    },
+    {
+      "sourceId": "mycoplasma-genitalium",
+      "targetSlugs": [
+        "MjAg67mE64eo6riw6rO8L-u5hOyehOq3oOyalOuPhOyXvCAoTm9uZ29ub2NvY2NhbCB1cmV0aHJpdGlzKS5tZA",
+        "MTMg67aA7J246rO8L-yekOq2geqyveu2gOyXvCAoQ2VydmljaXRpcykubWQ",
+        "MjAg67mE64eo6riw6rO8L-u5hOyehOq3oOyalOuPhOyXvCAoTm9uZ29ub2NvY2NhbCB1cmV0aHJpdGlzKS5tZA"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ]
+    },
+    {
+      "sourceId": "rabies-virus",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-qzteyImOuzkSAoUmFiaWVzKS5tZA"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-vaccine-preventable"
+      ]
+    },
+    {
+      "sourceId": "hantavirus",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-yLoOymne2bhOq1sCDstpztmIjsl7QgKEhlbW9ycmhhZ2ljIEZldmVyIHdpdGggUmVuYWwgU3luZHJvbWUpLm1k"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-respiratory-viruses"
+      ]
+    },
+    {
+      "sourceId": "sfts-virus",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-ykkeymneyXtOyEsSDtmIjshoztjJDqsJDshowg7Kad7ZuE6rWwIChTRlRTKSAoU2V2ZXJlIEZldmVyIHdpdGggVGhyb21ib2N5dG9wZW5pYSBTeW5kcm9tZSAoU0ZUUykpLm1k"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ]
+    },
+    {
+      "sourceId": "dengue-virus",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-uOheq4sOyXtCAoRGVuZ3VlIEZldmVyKS5tZA"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ]
+    },
+    {
+      "sourceId": "zika-virus",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-yngOy5tOuwlOydtOufrOyKpCDqsJDsl7wgKFppa2EgVmlydXMgSW5mZWN0aW9uKS5tZA"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ]
+    },
+    {
+      "sourceId": "aspergillus-species",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-yVhOyKpO2OmOultOq4uOujqOyKpOymnSAoQXNwZXJnaWxsb3NpcykubWQ",
+        "MDIg7Zi47Z2h6riwL-yVjOugiOultOq4sOyEsSDquLDqtIDsp4Dtj5Ag7JWE7Iqk7Y6Y66W06ri466Oo7Iqk7KadIChBQlBBKSAoQWxsZXJnaWMgQnJvbmNob3B1bG1vbmFyeSBBc3BlcmdpbGxvc2lzKS5tZA"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-aspergillosis"
+      ]
+    },
+    {
+      "sourceId": "plasmodium-vivax",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-unkOudvOumrOyVhCAoTWFsYXJpYSkubWQ"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "who-malaria"
+      ]
+    },
+    {
+      "sourceId": "plasmodium-ovale",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-unkOudvOumrOyVhCAoTWFsYXJpYSkubWQ"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "who-malaria"
+      ]
+    },
+    {
+      "sourceId": "clonorchis-sinensis",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-qwhO2doey2qeymnSAoQ2xvbm9yY2hpYXNpcykubWQ"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ]
+    },
+    {
+      "sourceId": "aeromonas-species",
+      "targetSlugs": [
+        "MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k"
+      ],
+      "context": [
+        "curated pathogen-to-disease link"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ]
+    }
+  ],
+  "drugLinks": [
+    {
+      "sourceId": "legionella-pneumophila",
+      "targetTitles": [
+        "Azithromycin",
+        "Levofloxacin",
+        "Moxifloxacin"
+      ],
+      "context": [
+        "Legionella-directed therapy",
+        "agent selection depends on pneumonia setting"
+      ],
+      "sourceIds": [
+        "cdc-legionella-clinical-guidance"
+      ]
+    },
+    {
+      "sourceId": "mycoplasma-pneumoniae",
+      "targetTitles": [
+        "Azithromycin",
+        "Doxycycline",
+        "Levofloxacin",
+        "Moxifloxacin"
+      ],
+      "context": [
+        "cell-wall deficient organism",
+        "beta-lactams inactive"
+      ],
+      "sourceIds": [
+        "cdc-mycoplasma-clinical-care"
+      ]
+    },
+    {
+      "sourceId": "clostridioides-difficile",
+      "targetTitles": [
+        "Fidaxomicin",
+        "Vancomycin"
+      ],
+      "context": [
+        "adult CDI management",
+        "route and episode-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-cdi"
+      ]
+    },
+    {
+      "sourceId": "mycobacterium-tuberculosis-complex",
+      "targetTitles": [
+        "Isoniazid",
+        "Rifampin",
+        "Pyrazinamide",
+        "Ethambutol",
+        "Moxifloxacin"
+      ],
+      "context": [
+        "drug-susceptibility guided multidrug regimen",
+        "expert management for resistance"
+      ],
+      "sourceIds": [
+        "cdc-tb-treatment-2025",
+        "who-tb"
+      ]
+    },
+    {
+      "sourceId": "treponema-pallidum",
+      "targetTitles": [
+        "Benzylpenicillin",
+        "Ceftriaxone",
+        "Doxycycline"
+      ],
+      "context": [
+        "stage and pregnancy-specific regimen selection required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ]
+    },
+    {
+      "sourceId": "neisseria-gonorrhoeae",
+      "targetTitles": [
+        "Ceftriaxone"
+      ],
+      "context": [
+        "susceptibility and concurrent chlamydia assessment required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ]
+    },
+    {
+      "sourceId": "chlamydia-trachomatis",
+      "targetTitles": [
+        "Doxycycline",
+        "Azithromycin"
+      ],
+      "context": [
+        "site and pregnancy-specific regimen selection required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ]
+    },
+    {
+      "sourceId": "streptococcus-pyogenes",
+      "targetTitles": [
+        "Benzylpenicillin",
+        "Amoxicillin",
+        "Clindamycin"
+      ],
+      "context": [
+        "syndrome-specific treatment and source control required"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ]
+    },
+    {
+      "sourceId": "streptococcus-agalactiae",
+      "targetTitles": [
+        "Benzylpenicillin",
+        "Ampicillin",
+        "Cefazolin"
+      ],
+      "context": [
+        "pregnancy and neonatal context require protocol-specific selection"
+      ],
+      "sourceIds": [
+        "cdc-vaccine-preventable"
+      ]
+    },
+    {
+      "sourceId": "campylobacter-jejuni",
+      "targetTitles": [
+        "Azithromycin",
+        "Ciprofloxacin"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-campylobacter"
+      ]
+    },
+    {
+      "sourceId": "salmonella-species",
+      "targetTitles": [
+        "Azithromycin",
+        "Ceftriaxone",
+        "Ciprofloxacin"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ]
+    },
+    {
+      "sourceId": "salmonella-typhi-paratyphi",
+      "targetTitles": [
+        "Azithromycin",
+        "Ceftriaxone",
+        "Ciprofloxacin"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ]
+    },
+    {
+      "sourceId": "shigella-species",
+      "targetTitles": [
+        "Azithromycin",
+        "Ceftriaxone",
+        "Ciprofloxacin"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ]
+    },
+    {
+      "sourceId": "vibrio-vulnificus",
+      "targetTitles": [
+        "Ceftazidime",
+        "Doxycycline"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-vibrio"
+      ]
+    },
+    {
+      "sourceId": "vibrio-cholerae",
+      "targetTitles": [
+        "Azithromycin",
+        "Ciprofloxacin",
+        "Doxycycline"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ]
+    },
+    {
+      "sourceId": "yersinia-enterocolitica",
+      "targetTitles": [
+        "Ceftriaxone",
+        "Ciprofloxacin",
+        "TrimethoprimSulfamethoxazole"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ]
+    },
+    {
+      "sourceId": "nocardia-species",
+      "targetTitles": [
+        "Amikacin",
+        "ImipenemCilastatin",
+        "TrimethoprimSulfamethoxazole"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ]
+    },
+    {
+      "sourceId": "actinomyces-species",
+      "targetTitles": [
+        "Amoxicillin",
+        "Benzylpenicillin"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ]
+    },
+    {
+      "sourceId": "bacillus-anthracis",
+      "targetTitles": [
+        "Ciprofloxacin",
+        "Doxycycline"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-anthrax"
+      ]
+    },
+    {
+      "sourceId": "clostridium-perfringens",
+      "targetTitles": [
+        "Benzylpenicillin",
+        "Clindamycin"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-asm-lab-2024"
+      ]
+    },
+    {
+      "sourceId": "clostridium-tetani",
+      "targetTitles": [
+        "Metronidazole"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-vaccine-preventable"
+      ]
+    },
+    {
+      "sourceId": "brucella-species",
+      "targetTitles": [
+        "Doxycycline",
+        "Rifampin"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-brucellosis"
+      ]
+    },
+    {
+      "sourceId": "coxiella-burnetii",
+      "targetTitles": [
+        "Doxycycline"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ]
+    },
+    {
+      "sourceId": "rickettsia-species",
+      "targetTitles": [
+        "Doxycycline"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-rickettsial-care"
+      ]
+    },
+    {
+      "sourceId": "orientia-tsutsugamushi",
+      "targetTitles": [
+        "Azithromycin",
+        "Doxycycline"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-rickettsial-care"
+      ]
+    },
+    {
+      "sourceId": "chlamydia-psittaci",
+      "targetTitles": [
+        "Doxycycline"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-psittacosis"
+      ]
+    },
+    {
+      "sourceId": "ureaplasma-species",
+      "targetTitles": [
+        "Azithromycin",
+        "Doxycycline"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ]
+    },
+    {
+      "sourceId": "mycoplasma-genitalium",
+      "targetTitles": [
+        "Azithromycin",
+        "Doxycycline",
+        "Moxifloxacin"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-sti-guidelines"
+      ]
+    },
+    {
+      "sourceId": "aspergillus-species",
+      "targetTitles": [
+        "AmphotericinB",
+        "Voriconazole"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-aspergillosis",
+        "cdc-fungal"
+      ]
+    },
+    {
+      "sourceId": "fusarium-species",
+      "targetTitles": [
+        "AmphotericinB",
+        "Voriconazole"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-fungal"
+      ]
+    },
+    {
+      "sourceId": "plasmodium-vivax",
+      "targetTitles": [
+        "ArtemetherLumefantrine",
+        "Chloroquine"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "who-malaria"
+      ]
+    },
+    {
+      "sourceId": "plasmodium-ovale",
+      "targetTitles": [
+        "ArtemetherLumefantrine",
+        "Chloroquine"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "who-malaria"
+      ]
+    },
+    {
+      "sourceId": "schistosoma-species",
+      "targetTitles": [
+        "Praziquantel"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-schistosomiasis"
+      ]
+    },
+    {
+      "sourceId": "echinococcus-species",
+      "targetTitles": [
+        "Albendazole"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ]
+    },
+    {
+      "sourceId": "clonorchis-sinensis",
+      "targetTitles": [
+        "Praziquantel"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ]
+    },
+    {
+      "sourceId": "hookworm",
+      "targetTitles": [
+        "Albendazole"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ]
+    },
+    {
+      "sourceId": "trichinella-spiralis",
+      "targetTitles": [
+        "Albendazole"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ]
+    },
+    {
+      "sourceId": "toxocara-species",
+      "targetTitles": [
+        "Albendazole"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "cdc-dpdx"
+      ]
+    },
+    {
+      "sourceId": "aeromonas-species",
+      "targetTitles": [
+        "Ciprofloxacin"
+      ],
+      "context": [
+        "curated pathogen-to-therapy link",
+        "severity, susceptibility, and regimen-specific selection required"
+      ],
+      "sourceIds": [
+        "idsa-infectious-diarrhea"
+      ]
+    }
+  ]
+}
