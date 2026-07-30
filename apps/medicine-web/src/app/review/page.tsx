@@ -65,9 +65,6 @@ export default function ReviewPage() {
       <header className="page-header">
         <div className="eyebrow">Review</div>
         <h1 className="page-title">통합 복습</h1>
-        <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-600">
-          Review saved disease, symptom, drug, lab, and skill notes today and adjust the next review date by confidence.
-        </p>
       </header>
       <div className="grid gap-4 lg:grid-cols-3">
         <Link href="/review/qbank" className="block rounded-xl border border-teal-200 bg-teal-50 p-5 transition hover:border-teal-500 hover:bg-teal-100/70 sm:p-6">
