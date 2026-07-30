@@ -15,6 +15,7 @@ export type AudioSegment = {
   text: string;
   sectionTitle: string;
   pauseMs: number;
+  kind: "document-title" | "section" | "content";
 };
 
 export type SpeechUnit = {
@@ -114,8 +115,14 @@ export function speechUnits(text: string): SpeechUnit[] {
   return units.length ? units : [{ text, lang: "ko-KR" }];
 }
 
+export function speechUnitsForSegment(segment?: AudioSegment): SpeechUnit[] {
+  if (!segment) return [{ text: "", lang: "ko-KR" }];
+  if (segment.kind === "document-title" || segment.sectionTitle === "문서 시작") return speechUnits(segment.text);
+  return [{ text: segment.text, lang: "ko-KR" }];
+}
+
 export function buildAudioSegments(document: AudioDocument) {
-  const segments: AudioSegment[] = [{ text: `${document.title}.`, sectionTitle: "문서 시작", pauseMs: 700 }];
+  const segments: AudioSegment[] = [{ text: `${document.title}.`, sectionTitle: "문서 시작", pauseMs: 700, kind: "document-title" }];
   for (const section of document.sections) {
     const spokenLines = section.lines.flatMap((line) => {
       if (/^\s*\|/.test(line)) return tableText(line) ? [tableText(line)] : [];
@@ -124,10 +131,10 @@ export function buildAudioSegments(document: AudioDocument) {
       return [text];
     });
     if (!spokenLines.length) continue;
-    segments.push({ text: `${section.title}입니다.`, sectionTitle: section.title, pauseMs: 550 });
+    segments.push({ text: `${section.title}입니다.`, sectionTitle: section.title, pauseMs: 550, kind: "section" });
     for (const line of spokenLines) {
       const chunks = splitForSpeech(line);
-      for (const [index, text] of chunks.entries()) segments.push({ text, sectionTitle: section.title, pauseMs: index + 1 === chunks.length ? 330 : 180 });
+      for (const [index, text] of chunks.entries()) segments.push({ text, sectionTitle: section.title, pauseMs: index + 1 === chunks.length ? 330 : 180, kind: "content" });
     }
   }
   return segments;

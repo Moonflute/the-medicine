@@ -5,7 +5,7 @@ import {
   AUDIO_REVIEW_CHANGE_EVENT,
   loadAudioReviewSession,
   saveAudioReviewSession,
-  speechUnits,
+  speechUnitsForSegment,
   type AudioReviewSession,
 } from "@/lib/audio-review";
 
@@ -30,7 +30,7 @@ function normalizePosition(session: AudioReviewSession) {
   const itemIndex = Math.max(0, Math.min(session.itemIndex, playlist.length - 1));
   const segments = playlist[itemIndex].segments;
   const segmentIndex = Math.max(0, Math.min(session.segmentIndex, segments.length - 1));
-  const units = speechUnits(segments[segmentIndex]?.text ?? "");
+  const units = speechUnitsForSegment(segments[segmentIndex]);
   const unitIndex = Math.max(0, Math.min(session.unitIndex ?? 0, units.length - 1));
   return { ...session, itemIndex, segmentIndex, unitIndex };
 }
@@ -47,13 +47,13 @@ function backward(session: AudioReviewSession) {
   const current = normalizePosition(session);
   if (current.segmentIndex > 0) {
     const segmentIndex = current.segmentIndex - 1;
-    const units = speechUnits(current.playlist[current.itemIndex].segments[segmentIndex].text);
+    const units = speechUnitsForSegment(current.playlist[current.itemIndex].segments[segmentIndex]);
     return { ...current, segmentIndex, unitIndex: Math.max(0, units.length - 1) };
   }
   if (current.itemIndex > 0) {
     const itemIndex = current.itemIndex - 1;
     const segmentIndex = current.playlist[itemIndex].segments.length - 1;
-    const units = speechUnits(current.playlist[itemIndex].segments[segmentIndex].text);
+    const units = speechUnitsForSegment(current.playlist[itemIndex].segments[segmentIndex]);
     return { ...current, itemIndex, segmentIndex, unitIndex: Math.max(0, units.length - 1) };
   }
   return current;
@@ -62,7 +62,7 @@ function backward(session: AudioReviewSession) {
 function advanceUnit(session: AudioReviewSession) {
   const current = normalizePosition(session);
   const segment = current.playlist[current.itemIndex].segments[current.segmentIndex];
-  const units = speechUnits(segment.text);
+  const units = speechUnitsForSegment(segment);
   if (current.unitIndex + 1 < units.length) return { next: { ...current, unitIndex: current.unitIndex + 1 }, delay: 80 };
   return { next: forward(current), delay: segment.pauseMs };
 }
@@ -101,7 +101,7 @@ export function AudioReviewProvider({ children }: { children: React.ReactNode })
     if (!supported || target.status !== "playing") return;
     const normalized = normalizePosition(target);
     const segment = normalized.playlist[normalized.itemIndex]?.segments[normalized.segmentIndex];
-    const unit = segment ? speechUnits(segment.text)[normalized.unitIndex] : undefined;
+    const unit = segment ? speechUnitsForSegment(segment)[normalized.unitIndex] : undefined;
     if (!segment || !unit) {
       persist({ ...normalized, status: "ended" });
       return;
