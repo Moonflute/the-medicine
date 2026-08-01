@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31",
+  "updatedAt": "2026-08-01",
   "disclaimer": "교육용 해부·신경진찰 지도입니다. 실제 진단은 병력, 완전한 신경학적 진찰, 영상·전기생리검사 및 해당 기관의 진료 경로를 함께 해석합니다.",
   "sources": [
     {
@@ -2700,6 +2700,438 @@
         "wikimedia-gray-upper-limb-nerves-pd",
         "terminologia-neuro"
       ]
+    },
+    {
+      "id": "brainstem",
+      "ko": "뇌간",
+      "en": "Brainstem",
+      "group": "CNS",
+      "summary": "The brainstem comprises the midbrain, pons and medulla and carries long tracts, cranial nerve nuclei and cardiorespiratory autonomic centers.",
+      "links": [],
+      "viewIds": [
+        "brainstem-external",
+        "brain-midsagittal"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "cerebral-cortex",
+      "ko": "대뇌피질",
+      "en": "Cerebral cortex",
+      "group": "CNS",
+      "summary": "The cerebral cortex forms the outer gray matter of the cerebral hemispheres and contains regionally specialized motor, sensory and association areas.",
+      "links": [],
+      "viewIds": [
+        "brain-coronal",
+        "brain-axial"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "caudate-nucleus",
+      "ko": "꼬리핵",
+      "en": "Caudate nucleus",
+      "group": "Basal ganglia",
+      "summary": "The caudate nucleus is a striatal nucleus participating in cortico-basal ganglia-thalamocortical circuits.",
+      "links": [],
+      "viewIds": [
+        "brain-coronal",
+        "brain-axial"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "cerebral-peduncle",
+      "ko": "대뇌다리",
+      "en": "Cerebral peduncle",
+      "group": "Brainstem",
+      "summary": "The cerebral peduncles contain descending cortical fibers on the ventral midbrain.",
+      "links": [],
+      "viewIds": [
+        "brainstem-external"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "cranial-nerve-roots",
+      "ko": "뇌신경 뿌리",
+      "en": "Cranial nerve roots",
+      "group": "Brainstem",
+      "summary": "Cranial nerve rootlets emerge from the brainstem at characteristic levels and provide a localization reference.",
+      "links": [],
+      "viewIds": [
+        "brainstem-external"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "cerebellar-peduncles",
+      "ko": "소뇌다리",
+      "en": "Cerebellar peduncles",
+      "group": "Cerebellum",
+      "summary": "The superior, middle and inferior cerebellar peduncles connect the cerebellum with the brainstem.",
+      "links": [],
+      "viewIds": [
+        "brainstem-external",
+        "cerebellum"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "cerebellar-hemisphere",
+      "ko": "소뇌반구",
+      "en": "Cerebellar hemisphere",
+      "group": "Cerebellum",
+      "summary": "The cerebellar hemispheres coordinate limb movement and motor learning through cerebrocerebellar circuits.",
+      "links": [],
+      "viewIds": [
+        "cerebellum"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "vermis",
+      "ko": "소뇌벌레",
+      "en": "Vermis",
+      "group": "Cerebellum",
+      "summary": "The vermis is the midline cerebellum, particularly relevant to axial and gait coordination.",
+      "links": [],
+      "viewIds": [
+        "cerebellum"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "anterior-lobe",
+      "ko": "소뇌 앞엽",
+      "en": "Anterior lobe",
+      "group": "Cerebellum",
+      "summary": "The anterior lobe receives prominent spinocerebellar input and contributes to gait and posture coordination.",
+      "links": [],
+      "viewIds": [
+        "cerebellum"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "posterior-lobe",
+      "ko": "소뇌 뒤엽",
+      "en": "Posterior lobe",
+      "group": "Cerebellum",
+      "summary": "The posterior lobe participates in fine coordination and cerebrocerebellar motor planning.",
+      "links": [],
+      "viewIds": [
+        "cerebellum"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "flocculonodular-lobe",
+      "ko": "솜털결절엽",
+      "en": "Flocculonodular lobe",
+      "group": "Cerebellum",
+      "summary": "The flocculonodular lobe is linked to vestibular function, balance and eye movement control.",
+      "links": [],
+      "viewIds": [
+        "cerebellum"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "superior-cerebellar-peduncle",
+      "ko": "위소뇌다리",
+      "en": "Superior cerebellar peduncle",
+      "group": "Cerebellum",
+      "summary": "The superior cerebellar peduncle is a major efferent cerebellar pathway toward the midbrain and thalamus.",
+      "links": [],
+      "viewIds": [
+        "cerebellum"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "olfactory-bulb",
+      "ko": "후각망울",
+      "en": "Olfactory bulb",
+      "group": "CNS",
+      "summary": "The olfactory bulbs receive primary olfactory nerve input on the inferior frontal surface.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-inferior"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "cervical-cord",
+      "ko": "경수",
+      "en": "Cervical spinal cord",
+      "group": "Spinal cord",
+      "summary": "Cervical spinal cord segments provide pathways and segmental circuitry for upper limb and trunk function.",
+      "links": [],
+      "viewIds": [
+        "spinal-levels"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-nmj-physiology"
+      ]
+    },
+    {
+      "id": "thoracic-cord",
+      "ko": "흉수",
+      "en": "Thoracic spinal cord",
+      "group": "Spinal cord",
+      "summary": "Thoracic spinal cord segments provide trunk and autonomic connections.",
+      "links": [],
+      "viewIds": [
+        "spinal-levels"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-nmj-physiology"
+      ]
+    },
+    {
+      "id": "lumbar-cord",
+      "ko": "요수",
+      "en": "Lumbar spinal cord",
+      "group": "Spinal cord",
+      "summary": "Lumbar spinal cord segments contain circuitry relevant to lower limb motor and sensory function.",
+      "links": [],
+      "viewIds": [
+        "spinal-levels"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-nmj-physiology"
+      ]
+    },
+    {
+      "id": "sacral-cord",
+      "ko": "천수",
+      "en": "Sacral spinal cord",
+      "group": "Spinal cord",
+      "summary": "Sacral spinal cord segments contribute to pelvic autonomic and lower limb functions.",
+      "links": [],
+      "viewIds": [
+        "spinal-levels"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-nmj-physiology"
+      ]
+    },
+    {
+      "id": "motor-neuron",
+      "ko": "운동신경말단",
+      "en": "Motor neuron terminal",
+      "group": "Motor unit",
+      "summary": "The motor neuron terminal releases acetylcholine at the neuromuscular junction.",
+      "links": [],
+      "viewIds": [
+        "nmj-muscle"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-nmj-physiology"
+      ]
+    },
+    {
+      "id": "corticospinal-region",
+      "ko": "피질척수로 부위",
+      "en": "Corticospinal tract region",
+      "group": "Brainstem",
+      "summary": "A sectional reference region for descending corticospinal fibers in the brainstem.",
+      "links": [],
+      "viewIds": [
+        "brainstem-section"
+      ],
+      "sourceIds": [
+        "ncbi-dermatomes",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "medial-lemniscus-region",
+      "ko": "내측섬유띠 부위",
+      "en": "Medial lemniscus region",
+      "group": "Brainstem",
+      "summary": "A sectional reference region for ascending dorsal column–medial lemniscus fibers in the brainstem.",
+      "links": [],
+      "viewIds": [
+        "brainstem-section"
+      ],
+      "sourceIds": [
+        "ncbi-dermatomes",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "c5-dermatome",
+      "ko": "c5 피부절",
+      "en": "Dermatome c5",
+      "group": "Somatic map",
+      "summary": "A schematic dermatome reference region; individual variation and overlap should be considered.",
+      "links": [],
+      "viewIds": [
+        "dermatome-anterior",
+        "dermatome-posterior"
+      ],
+      "sourceIds": [
+        "ncbi-dermatomes",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "c6-dermatome",
+      "ko": "c6 피부절",
+      "en": "Dermatome c6",
+      "group": "Somatic map",
+      "summary": "A schematic dermatome reference region; individual variation and overlap should be considered.",
+      "links": [],
+      "viewIds": [
+        "dermatome-anterior",
+        "dermatome-posterior"
+      ],
+      "sourceIds": [
+        "ncbi-dermatomes",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "c7-dermatome",
+      "ko": "c7 피부절",
+      "en": "Dermatome c7",
+      "group": "Somatic map",
+      "summary": "A schematic dermatome reference region; individual variation and overlap should be considered.",
+      "links": [],
+      "viewIds": [
+        "dermatome-anterior",
+        "dermatome-posterior"
+      ],
+      "sourceIds": [
+        "ncbi-dermatomes",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "c8-dermatome",
+      "ko": "c8 피부절",
+      "en": "Dermatome c8",
+      "group": "Somatic map",
+      "summary": "A schematic dermatome reference region; individual variation and overlap should be considered.",
+      "links": [],
+      "viewIds": [
+        "dermatome-anterior",
+        "dermatome-posterior"
+      ],
+      "sourceIds": [
+        "ncbi-dermatomes",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "t4-dermatome",
+      "ko": "t4 피부절",
+      "en": "Dermatome t4",
+      "group": "Somatic map",
+      "summary": "A schematic dermatome reference region; individual variation and overlap should be considered.",
+      "links": [],
+      "viewIds": [
+        "dermatome-anterior",
+        "dermatome-posterior"
+      ],
+      "sourceIds": [
+        "ncbi-dermatomes",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "t10-dermatome",
+      "ko": "t10 피부절",
+      "en": "Dermatome t10",
+      "group": "Somatic map",
+      "summary": "A schematic dermatome reference region; individual variation and overlap should be considered.",
+      "links": [],
+      "viewIds": [
+        "dermatome-anterior",
+        "dermatome-posterior"
+      ],
+      "sourceIds": [
+        "ncbi-dermatomes",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "l1-dermatome",
+      "ko": "l1 피부절",
+      "en": "Dermatome l1",
+      "group": "Somatic map",
+      "summary": "A schematic dermatome reference region; individual variation and overlap should be considered.",
+      "links": [],
+      "viewIds": [
+        "dermatome-anterior",
+        "dermatome-posterior"
+      ],
+      "sourceIds": [
+        "ncbi-dermatomes",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "l4-dermatome",
+      "ko": "l4 피부절",
+      "en": "Dermatome l4",
+      "group": "Somatic map",
+      "summary": "A schematic dermatome reference region; individual variation and overlap should be considered.",
+      "links": [],
+      "viewIds": [
+        "dermatome-anterior",
+        "dermatome-posterior"
+      ],
+      "sourceIds": [
+        "ncbi-dermatomes",
+        "openstax-cns"
+      ]
     }
   ],
   "pathways": [
@@ -4251,7 +4683,7 @@
     {
       "id": "neuroaxis",
       "title": "신경계 전체 구조와 localization 개요",
-      "category": "구조",
+      "category": "Structure",
       "summary": "대뇌–뇌간–척수–신경근–신경총–말초신경–NMJ–근육을 한 연속 축으로 보고, 증상의 분포와 UMN/LMN·감각 양상으로 층위를 좁혀 갑니다.",
       "keyPoints": [
         "해부학적 축과 말초 효과기를 분리해 생각합니다.",
@@ -4267,7 +4699,7 @@
     {
       "id": "cortical-function",
       "title": "대뇌엽과 고위피질 기능",
-      "category": "구조",
+      "category": "Structure",
       "summary": "대뇌피질의 엽·고랑·이랑과 감각운동·언어·시각 기능은 지도에서 별도 layer로 확인합니다.",
       "keyPoints": [
         "언어 네트워크와 기능영역에는 개인차가 있습니다.",
@@ -4283,7 +4715,7 @@
     {
       "id": "basal-ganglia",
       "title": "기저핵–시상–피질 회로",
-      "category": "구조",
+      "category": "Structure",
       "summary": "기저핵 회로는 단일 하행로가 아니라 운동 선택·억제와 관련된 병렬 회로로 정리합니다.",
       "keyPoints": [
         "운동완만·강직·불수의운동의 패턴을 함께 관찰합니다.",
@@ -4299,7 +4731,7 @@
     {
       "id": "cerebellum",
       "title": "소뇌와 협응",
-      "category": "구조",
+      "category": "Structure",
       "summary": "소뇌는 움직임의 협응·보행·안구운동 조절과 연결됩니다.",
       "keyPoints": [
         "운동실조의 양상은 감각·전정·근력 문제와 구분해 해석합니다.",
@@ -4315,7 +4747,7 @@
     {
       "id": "brainstem",
       "title": "뇌간과 뇌신경",
-      "category": "구조",
+      "category": "Structure",
       "summary": "뇌간은 장경로와 뇌신경핵·망상계가 밀집한 영역으로, 교차소견과 뇌신경 소견을 함께 봅니다.",
       "keyPoints": [
         "중뇌·교뇌·연수 레벨을 구분합니다.",
@@ -4331,7 +4763,7 @@
     {
       "id": "spinal-cord",
       "title": "척수 구조와 감각수준",
-      "category": "구조",
+      "category": "Structure",
       "summary": "척수 횡단면에서는 뒤기둥·가쪽피질척수로·앞가쪽계통의 상대 위치와 감각수준을 함께 봅니다.",
       "keyPoints": [
         "교차 위치와 병변 level을 분리해 생각합니다.",
@@ -4347,7 +4779,7 @@
     {
       "id": "peripheral-localization",
       "title": "신경근·신경총·말초신경",
-      "category": "구조",
+      "category": "Structure",
       "summary": "신경근·신경총·말초신경 병변은 근력, 감각, 반사, 통증·유발 자세를 함께 비교해 구분합니다.",
       "keyPoints": [
         "한 근육 또는 한 감각영역만으로 단정하지 않습니다.",
@@ -4363,7 +4795,7 @@
     {
       "id": "nmj-muscle",
       "title": "NMJ와 근육",
-      "category": "구조",
+      "category": "Structure",
       "summary": "운동신경 말단, 신경근접합부, 근육은 감각 보존 여부·피로성·반사·근육효소/전기진단 맥락을 구분해 봅니다.",
       "keyPoints": [
         "NMJ와 근육질환은 현장 진찰만으로 확정하지 않습니다.",
@@ -4378,7 +4810,7 @@
     {
       "id": "pathway-corticospinal",
       "title": "피질척수로",
-      "category": "경로",
+      "category": "Pathway",
       "summary": "일차운동피질 → 방사관 → 내포 → 대뇌각 → 교뇌·연수 → 피라미드 교차 → 가쪽피질척수로 → 전각 → 말초운동신경 → 근육",
       "keyPoints": [
         "교차 위 병변은 반대측 UMN 징후, 척수 내 교차 아래 병변은 같은쪽 UMN 징후를 시사할 수 있습니다.",
@@ -4394,7 +4826,7 @@
     {
       "id": "pathway-dcml",
       "title": "뒤기둥-내측섬유띠",
-      "category": "경로",
+      "category": "Pathway",
       "summary": "말초 수용기 → 신경근 → 동측 뒤기둥 → 연수 뒤기둥핵 → 교차 → 내측섬유띠 → 시상 → 후중심이랑",
       "keyPoints": [
         "진동·관절위치·정교한 촉각을 전달합니다. 편측 척수 병변은 병변 아래 동측 소실 양상을 보일 수 있습니다.",
@@ -4410,7 +4842,7 @@
     {
       "id": "pathway-spinothalamic",
       "title": "척수시상로",
-      "category": "경로",
+      "category": "Pathway",
       "summary": "말초 수용기 → 신경근 → 척수 후각 → 앞백색교련에서 1–2 분절 내 교차 → 반대쪽 앞가쪽계통 → 시상 → 후중심이랑",
       "keyPoints": [
         "통각·온각을 전달합니다. 편측 척수 병변에서는 병변 아래 반대쪽 소실 양상이 전형적입니다.",
@@ -4426,7 +4858,7 @@
     {
       "id": "pathway-corticobulbar",
       "title": "피질연수로",
-      "category": "경로",
+      "category": "Pathway",
       "summary": "운동피질 얼굴·인두 대표부 → 내포 genu → 뇌간 뇌신경운동핵 → 말초뇌신경 → 안면·구음·연하 관련 근육",
       "keyPoints": [
         "대부분의 뇌신경운동핵은 양측 피질 입력을 받지만, 하부 안면 등은 임상적으로 비대칭 피질지배가 중요합니다. 개별 소견은 뇌신경 진찰과 함께 해석합니다.",
@@ -4442,7 +4874,7 @@
     {
       "id": "pathway-basal-ganglia-loop",
       "title": "기저핵–시상–피질 회로",
-      "category": "경로",
+      "category": "Pathway",
       "summary": "대뇌피질 → 선조체/창백핵·시상하핵·흑질 관련 회로 → 시상 → 운동·연합 피질",
       "keyPoints": [
         "단일 하행로가 아니라 운동 선택·억제와 관련된 병렬 회로 개념입니다. 병변 해석은 운동완만·강직·불수의운동의 패턴과 함께 합니다.",
@@ -4458,7 +4890,7 @@
     {
       "id": "pathway-spinocerebellar",
       "title": "척수소뇌로",
-      "category": "경로",
+      "category": "Pathway",
       "summary": "말초 고유수용기 → 척수 중계(대표적으로 Clarke column) → 뒤척수소뇌로 → 하소뇌각 → 동측 소뇌",
       "keyPoints": [
         "무의식적 고유감각과 협응에 관여합니다. 임상 소견은 병변의 위치·원인과 함께 해석합니다.",
@@ -4474,7 +4906,7 @@
     {
       "id": "pathway-trigeminal-sensory",
       "title": "삼차감각 경로",
-      "category": "경로",
+      "category": "Pathway",
       "summary": "얼굴 감각수용기 → 삼차신경절 → 주감각핵/척수삼차핵 → 교차성 삼차시상로 → 시상 → 체성감각피질",
       "keyPoints": [
         "얼굴의 촉각·통각은 척수 체성감각 경로와 다른 중계핵을 거치므로, 체간 감각과의 해리 여부가 국소화에 도움을 줄 수 있습니다.",
@@ -4490,7 +4922,7 @@
     {
       "id": "pathway-visual",
       "title": "시각 경로",
-      "category": "경로",
+      "category": "Pathway",
       "summary": "망막 → 시신경(CN II) → 시신경교차 → 시삭 → 가쪽무릎체 → 시방사 → 조거리고랑 주변 일차시각피질",
       "keyPoints": [
         "망막·시신경·교차·시삭 이후의 시야 결손 패턴은 경로의 위치와 연관됩니다. 실제 판독은 시야검사와 눈 진찰을 함께 봅니다.",
@@ -4506,7 +4938,7 @@
     {
       "id": "pathway-pupil-pathway",
       "title": "동공 빛반사 경로",
-      "category": "경로",
+      "category": "Pathway",
       "summary": "망막 → CN II → pretectal area → 양측 Edinger–Westphal nuclei → CN III → 섬모체신경절 → 동공괄약근",
       "keyPoints": [
         "직접·간접 반응과 안구운동·안검하수·시기능을 함께 비교해 구심성과 원심성을 구분합니다.",
@@ -4521,7 +4953,7 @@
     {
       "id": "pathway-ocular-motor",
       "title": "수평 주시·전정안반사 축",
-      "category": "경로",
+      "category": "Pathway",
       "summary": "전정기관/CN VIII → 전정핵 → MLF → III·IV·VI 핵 및 안구운동근; 수평 주시는 PPRF·외전신경핵·MLF의 연결을 함께 봅니다.",
       "keyPoints": [
         "안구운동 이상은 병력, 복시 양상, 동공·안검, 다른 뇌간 징후와 함께 해석합니다.",
@@ -4537,7 +4969,7 @@
     {
       "id": "pathway-auditory-vestibular",
       "title": "청각·전정 경로",
-      "category": "경로",
+      "category": "Pathway",
       "summary": "와우/CN VIII → 와우·전정핵 → 양측성 뇌간 중계 → 하구·안쪽무릎체 → 청각피질, 또는 전정핵 → 소뇌·안구운동핵·척수",
       "keyPoints": [
         "청각 경로는 일찍부터 양측성 중계가 있어 단일 중추 병변의 해석을 단순화하지 않습니다. 전정 소견은 안구운동·보행과 함께 봅니다.",
@@ -4553,7 +4985,7 @@
     {
       "id": "pathway-sympathetic",
       "title": "교감신경·안교감 축",
-      "category": "경로",
+      "category": "Pathway",
       "summary": "시상하부 → 뇌간 → C8–T2 ciliospinal center → 교감신경절(예: 상경신경절) → 혈관·평활근·동공확대근 등 효과기",
       "keyPoints": [
         "자율신경 경로는 장기별 분지가 다양합니다. Horner 의심 시 증상·동공·안검 및 임상 상황에 따라 국소화합니다.",
@@ -4569,7 +5001,7 @@
     {
       "id": "pathway-parasympathetic",
       "title": "부교감신경 축",
-      "category": "경로",
+      "category": "Pathway",
       "summary": "뇌간 부교감핵(III·VII·IX·X 관련) 또는 S2–S4 → 말초 신경절 → 장기 효과기",
       "keyPoints": [
         "부교감 경로는 뇌신경 및 천수 유출로 나뉘며, 진찰 소견의 의미는 장기계·약물·전신상태와 함께 해석합니다.",
@@ -4585,7 +5017,7 @@
     {
       "id": "umn-lmn",
       "title": "UMN vs LMN",
-      "category": "위치추정",
+      "category": "Localization",
       "summary": "UMN과 LMN 소견은 근력·긴장도·반사·병적반사·위축·연축을 묶어 해석하는 틀입니다.",
       "keyPoints": [
         "혼합 소견과 시간 경과를 고려합니다.",
@@ -4600,7 +5032,7 @@
     {
       "id": "root-plexus-nerve",
       "title": "Root vs plexus vs peripheral nerve",
-      "category": "위치추정",
+      "category": "Localization",
       "summary": "근력·감각·반사·통증 분포를 이용해 신경근·신경총·말초신경 가능성을 비교합니다.",
       "keyPoints": [
         "피부분절과 말초신경 감각영역은 겹칠 수 있습니다.",
@@ -4616,7 +5048,7 @@
     {
       "id": "exam-reflex",
       "title": "반사 진찰",
-      "category": "진찰",
+      "category": "Examination",
       "summary": "반사는 자극–구심성–중추–원심성–효과기 순서로 기록하고, 양측 차이와 전체 진찰 맥락을 함께 봅니다.",
       "keyPoints": [
         "반사 등급은 검사 조건·이완·약물·전신상태의 영향을 받습니다.",
@@ -4631,7 +5063,7 @@
     {
       "id": "exam-sensory",
       "title": "감각 진찰",
-      "category": "진찰",
+      "category": "Examination",
       "summary": "통각·온각, 진동·위치감각은 서로 다른 경로를 통해 전달되므로 분포와 해리 여부를 함께 확인합니다.",
       "keyPoints": [
         "안전한 자극과 눈을 감은 비교 검사가 중요합니다.",
@@ -4647,7 +5079,7 @@
     {
       "id": "exam-cranial",
       "title": "뇌신경 진찰",
-      "category": "진찰",
+      "category": "Examination",
       "summary": "동공, 안구운동, 얼굴감각·운동, 연하·발성 등은 뇌간과 말초뇌신경을 연결해 봅니다.",
       "keyPoints": [
         "동공·연하·기도보호 이상은 임상적 긴급도를 함께 판단합니다.",
@@ -4659,6 +5091,54 @@
         "ncbi-pupil",
         "ncbi-trigeminal",
         "ncbi-gag"
+      ]
+    },
+    {
+      "id": "cortex-sulci-function",
+      "title": "Cerebral cortex: surface landmarks and function",
+      "category": "Structure",
+      "summary": "Use the central sulcus to relate precentral motor and postcentral somatosensory cortex; use the lateral sulcus and occipital pole as orientation landmarks. Functional maps are approximate and should be interpreted with clinical context.",
+      "keyPoints": [
+        "A focal cortical deficit should be described by function and body distribution before assigning a lesion site.",
+        "Language dominance and network organization vary between individuals; a named cortical region is not a stand-alone diagnosis."
+      ],
+      "viewId": "cerebrum-lateral",
+      "itemId": "precentral-gyrus",
+      "sourceIds": [
+        "ncbi-cortex",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "spinal-tract-crossing",
+      "title": "Spinal cord: tract position and crossing",
+      "category": "Pathway",
+      "summary": "The dorsal columns ascend ipsilaterally to the caudal medulla before decussating; the anterolateral system crosses near entry over one to two segments; the lateral corticospinal tract has already crossed at the pyramidal decussation.",
+      "keyPoints": [
+        "A sensory level is a clinical localization clue, not a substitute for the full neurologic examination.",
+        "Long-tract signs, root findings and autonomic symptoms should be integrated rather than interpreted in isolation."
+      ],
+      "viewId": "spinal-cross-section",
+      "itemId": "spinothalamic",
+      "sourceIds": [
+        "isncsci",
+        "ncbi-corticospinal"
+      ]
+    },
+    {
+      "id": "reflex-arc-localization",
+      "title": "Reflex arc: afferent, central, efferent and effector",
+      "category": "Examination",
+      "summary": "Document a reflex as a circuit: stimulus or receptor, afferent nerve, segmental central connection, efferent motor pathway and response. Side-to-side comparison and examination conditions matter.",
+      "keyPoints": [
+        "The NEx panel maps these route components visually; it is not a diagnostic quiz.",
+        "Reflex changes require correlation with tone, power, sensory examination, medications and tempo."
+      ],
+      "viewId": "spinal-cross-section",
+      "itemId": "spinal-cord",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "isncsci"
       ]
     }
   ],

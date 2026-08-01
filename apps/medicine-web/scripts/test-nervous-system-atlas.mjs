@@ -9,6 +9,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", ".
 const sourcePath = path.join(root, "source_notes", "02 Diseases", "16 신경과-신경외과", "_data", "nervous-system-atlas.json");
 const publicRoot = path.join(root, "apps", "medicine-web", "public");
 const hubPath = path.join(root, "apps", "medicine-web", "src", "components", "nervous-system-hub.tsx");
+const nativeAtlasPath = path.join(root, "apps", "medicine-web", "src", "components", "native-neuro-atlas.tsx");
 const diseaseDataPath = path.join(root, "_webapp", "data", "diseases.json");
 const specialtyPagePath = path.join(root, "apps", "medicine-web", "src", "app", "specialty", "[slug]", "page.tsx");
 const drugCategoryPagePath = path.join(root, "apps", "medicine-web", "src", "app", "drugs", "category", "[slug]", "page.tsx");
@@ -78,19 +79,18 @@ test("theory topics resolve to a view and a map target", () => {
 });
 
 
-test("every rendered structure hit maps to a concrete atlas view and source group", () => {
+test("published neuro atlas uses project SVG paths rather than legacy reference images", () => {
   const hub = fs.readFileSync(hubPath, "utf8");
-  const hitIds = [...hub.matchAll(/<Hit id="([^"]+)"/g)].map((match) => match[1]);
-  const hitMapSection = hub.slice(hub.indexOf("const HIT_VIEW"), hub.indexOf("};", hub.indexOf("const HIT_VIEW")) + 2);
-  const mappedIds = [...hitMapSection.matchAll(/(?:"([^"]+)"|\b([\w-]+)):/g)].map((match) => match[1] ?? match[2]);
-  const missing = [...new Set(hitIds)].filter((id) => !mappedIds.includes(id));
-  assert.deepEqual(missing, [], "a rendered hit has no view mapping");
-  const knownViews = new Set(atlas.views.map((view) => view.id));
-  const mappings = [...hitMapSection.matchAll(/(?:"([^"]+)"|\b([\w-]+)):"([^"]+)"/g)];
-  for (const mapping of mappings) assert.ok(knownViews.has(mapping[3]), "unknown mapped view " + mapping[3]);
-  assert.equal(/label="\?{2,}/.test(hub), false, "corrupted question-mark label remains in map source");
-  assert.match(hub, /function atlasAssetSrc\(asset\?: string\)/, "atlas public asset resolver is missing");
-  assert.match(hub, /<image href=\{src\}/, "atlas frame must use the base-path-resolved source");
+  const nativeAtlas = fs.readFileSync(nativeAtlasPath, "utf8");
+  const knownStructureIds = new Set([...atlas.structures.map((item) => item.id), "central-canal", "dorsal-horn", "ventral-horn"]);
+  const renderedIds = [...nativeAtlas.matchAll(/<InteractivePath id="([^"]+)"/g)].map((match) => match[1]);
+  const unknown = [...new Set(renderedIds)].filter((id) => !knownStructureIds.has(id));
+  assert.deepEqual(unknown, [], "a rendered project SVG structure has no atlas record");
+  assert.ok(renderedIds.length >= 20, "native pilot SVGs need meaningful structure coverage");
+  assert.match(hub, /NativeNeuroAtlas/, "Hub must render the project SVG atlas");
+  assert.equal(/<image\s+href=/.test(hub), false, "Hub must not render a legacy external base image");
+  assert.equal(/baseAsset/.test(hub), false, "Hub must not depend on legacy base assets");
+  assert.equal(/<image\s+href=/.test(nativeAtlas), false, "native atlas must not embed external reference images");
 });
 
 
