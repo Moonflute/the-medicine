@@ -127,6 +127,14 @@ test("Hub exposes required responsive workspace controls without horizontal sele
   assert.equal(/overflow-x-auto/.test(hub), false, "view selection must not depend on a horizontal toolbar rail");
 });
 
+test("pathway and theory controls filter by anatomical learning scope", () => {
+  const hub = fs.readFileSync(hubPath, "utf8");
+  assert.match(hub, /const pathwayOptions = pathways.filter/, "pathway selector must follow the selected layer");
+  assert.match(hub, /pathwayLayer\(item\.kind/, "pathway type must map to a learning layer");
+  assert.match(hub, /THEORY_SCOPES/, "Theory library needs anatomical scope filters");
+  assert.match(hub, /theoryScopeFor\(item\.viewId\)/, "Theory scope filter must be data-driven from atlas location");
+});
+
 test("full-screen atlas preserves mobile-safe pan, zoom and reset controls", () => {
   const hub = fs.readFileSync(hubPath, "utf8");
   const nativeAtlas = fs.readFileSync(nativeAtlasPath, "utf8");

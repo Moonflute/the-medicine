@@ -51,6 +51,25 @@ const LAYERS: Array<{ id: NeuroAtlasLayer; label: string }> = [
   { id: "autonomic", label: "Autonomic pathways" },
 ];
 
+const THEORY_SCOPES = ["All", "CNS", "Spinal cord", "PNS", "Cranial nerves"] as const;
+
+function pathwayLayer(kind: string): NeuroAtlasLayer {
+  const normalized = kind.toLowerCase();
+  if (normalized.includes("autonomic")) return "autonomic";
+  if (normalized.includes("reflex")) return "reflex";
+  if (normalized.includes("special")) return "cranial";
+  if (normalized.includes("sensory")) return "sensory";
+  if (normalized.includes("motor")) return "motor";
+  return "anatomy";
+}
+
+function theoryScopeFor(viewId: string) {
+  if (viewId.includes("plexus") || viewId.includes("limb") || viewId.includes("dermatome") || viewId.includes("nmj")) return "PNS";
+  if (viewId.includes("spinal")) return "Spinal cord";
+  if (viewId.includes("brainstem") || viewId.includes("inferior")) return "Cranial nerves";
+  return "CNS";
+}
+
 const FALLBACK: Record<string, { en: string; ko: string; group: string; summary: string }> = {
   "frontal-lobe": { en: "Cerebrum", ko: "대뇌", group: "CNS", summary: "The cerebral hemispheres integrate motor, sensory, cognitive and language functions." },
   "medial-frontal-cortex": { en: "Medial frontal cortex", ko: "내측 전두피질", group: "CNS", summary: "Medial frontal cortical regions contribute to voluntary movement and executive control." },
@@ -92,6 +111,7 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
   const [theoryQuery, setTheoryQuery] = useState("");
   const [desktopInfoOpen, setDesktopInfoOpen] = useState(true);
   const [theoryCategory, setTheoryCategory] = useState("All");
+  const [theoryScope, setTheoryScope] = useState<(typeof THEORY_SCOPES)[number]>("All");
   const [theoryId, setTheoryId] = useState(atlas.theoryTopics[0]?.id ?? "");
   const [reflexId, setReflexId] = useState(atlas.reflexes.find((item) => item.reviewStatus !== "retired")?.id ?? "");
   const [nexStage, setNexStage] = useState(0);
@@ -115,7 +135,8 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
   const nexNodeId = nexRoute[nexStage];
   const nexNode = structures.find((item) => item.id === nexNodeId);
   const theory = atlas.theoryTopics.find((item) => item.id === theoryId) ?? atlas.theoryTopics[0];
-  const theoryCards = atlas.theoryTopics.filter((item) => (theoryCategory === "All" || item.category === theoryCategory) && (item.title + " " + item.summary).toLowerCase().includes(theoryQuery.toLowerCase()));
+  const theoryCards = atlas.theoryTopics.filter((item) => (theoryCategory === "All" || item.category === theoryCategory) && (theoryScope === "All" || theoryScopeFor(item.viewId) === theoryScope) && (item.title + " " + item.summary).toLowerCase().includes(theoryQuery.toLowerCase()));
+  const pathwayOptions = pathways.filter((item) => layer === "anatomy" || pathwayLayer(item.kind ?? "") === layer);
   const matches = useMemo(() => structures.filter((item) => (item.en + " " + item.ko).toLowerCase().includes(query.toLowerCase())).slice(0, 8), [structures, query]);
   const selectedLinks: string[] = selectedPathway?.links ?? ("links" in selected && Array.isArray(selected.links) ? selected.links : []);
 
@@ -200,7 +221,7 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
       <section className="grid gap-3 rounded-2xl border border-slate-200 bg-white p-3 shadow-sm md:grid-cols-[minmax(0,1.4fr)_minmax(180px,.8fr)_minmax(180px,.8fr)_auto] md:items-end">
         <label className="grid min-w-0 gap-1.5 text-xs font-bold uppercase tracking-[.13em] text-slate-500">View<select value={viewId} onChange={(event) => chooseView(event.target.value)} className="min-w-0 rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm font-semibold normal-case tracking-normal text-slate-800 outline-none focus:border-teal-600">{Object.entries(VIEWS.reduce<Record<string, ViewItem[]>>((groups, item) => { const key = item.hierarchy.join(" › "); (groups[key] ??= []).push(item); return groups; }, {})).map(([group, items]) => <optgroup key={group} label={group}>{items.map((item) => <option key={item.id} value={item.id} disabled={!item.published}>{item.label + (!item.published ? " — redrawing" : "")}</option>)}</optgroup>)}</select></label>
         <label className="grid min-w-0 gap-1.5 text-xs font-bold uppercase tracking-[.13em] text-slate-500">Layer<select value={layer} onChange={(event) => { setLayer(event.target.value as NeuroAtlasLayer); setPathwayId(""); }} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm font-semibold normal-case tracking-normal text-slate-800 outline-none focus:border-teal-600">{LAYERS.map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label>
-        <label className="grid min-w-0 gap-1.5 text-xs font-bold uppercase tracking-[.13em] text-slate-500">Pathway<select value={pathwayId} onChange={(event) => choosePathway(event.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm font-semibold normal-case tracking-normal text-slate-800 outline-none focus:border-teal-600"><option value="">No pathway selected</option>{pathways.map((item) => <option key={item.id} value={item.id}>{item.en}</option>)}</select></label>
+        <label className="grid min-w-0 gap-1.5 text-xs font-bold uppercase tracking-[.13em] text-slate-500">Pathway<select value={pathwayId} onChange={(event) => choosePathway(event.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm font-semibold normal-case tracking-normal text-slate-800 outline-none focus:border-teal-600"><option value="">No pathway selected</option>{pathwayOptions.map((item) => <option key={item.id} value={item.id}>{item.en}</option>)}</select></label>
         <button type="button" onClick={() => setFullScreen(true)} className="inline-flex h-[42px] items-center justify-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 text-sm font-bold text-slate-700 hover:border-teal-500"><Expand className="h-4 w-4" />Atlas</button>
       </section>
 
@@ -239,7 +260,7 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
     </section> : null}
 
     {tab === "theory" ? <section className="space-y-4">
-      <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"><Title icon={BookOpen} eyebrow="Theory library" title="Structures, pathways and reflexes" text="Browse neuroanatomy as a document library, then open the linked structure or route in the Atlas." /><div className="mt-5 flex flex-wrap gap-2">{theoryCategories.map((category) => <button key={category} type="button" onClick={() => setTheoryCategory(category)} className={"rounded-full border px-3 py-1.5 text-sm font-semibold " + (theoryCategory === category ? "border-slate-950 bg-slate-950 text-white" : "border-slate-200 bg-white text-slate-600 hover:border-teal-400")}>{category}</button>)}</div><label className="mt-4 flex max-w-md items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2"><Search className="h-4 w-4 text-slate-500" /><input value={theoryQuery} onChange={(event) => setTheoryQuery(event.target.value)} placeholder="Search theory" className="w-full bg-transparent text-sm outline-none" /></label></section>
+      <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"><Title icon={BookOpen} eyebrow="Theory library" title="Structures, pathways and reflexes" text="Browse neuroanatomy as a document library, then open the linked structure or route in the Atlas." /><div className="mt-5 flex flex-wrap gap-2">{theoryCategories.map((category) => <button key={category} type="button" onClick={() => setTheoryCategory(category)} className={"rounded-full border px-3 py-1.5 text-sm font-semibold " + (theoryCategory === category ? "border-slate-950 bg-slate-950 text-white" : "border-slate-200 bg-white text-slate-600 hover:border-teal-400")}>{category}</button>)}<span className="mx-1 hidden h-7 w-px bg-slate-200 sm:inline" />{THEORY_SCOPES.map((scope) => <button key={scope} type="button" onClick={() => setTheoryScope(scope)} className={"rounded-full border px-3 py-1.5 text-sm font-semibold " + (theoryScope === scope ? "border-teal-700 bg-teal-700 text-white" : "border-slate-200 bg-white text-slate-600 hover:border-teal-400")}>{scope}</button>)}</div><label className="mt-4 flex max-w-md items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2"><Search className="h-4 w-4 text-slate-500" /><input value={theoryQuery} onChange={(event) => setTheoryQuery(event.target.value)} placeholder="Search theory" className="w-full bg-transparent text-sm outline-none" /></label></section>
       <div className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_390px]"><section className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">{theoryCards.map((item) => <button key={item.id} type="button" onClick={() => setTheoryId(item.id)} className={"min-h-40 rounded-2xl border p-5 text-left shadow-sm transition " + (item.id === theory?.id ? "border-teal-600 bg-teal-50" : "border-slate-200 bg-white hover:border-teal-300")}><p className="text-xs font-bold uppercase tracking-[.13em] text-teal-700">{item.category}</p><h2 className="mt-3 text-lg font-bold text-slate-950">{item.title}</h2><p className="mt-3 text-sm leading-6 text-slate-600">{item.summary}</p></button>)}</section>
       {theory ? <aside className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm xl:sticky xl:top-5 xl:self-start"><p className="text-xs font-bold uppercase tracking-[.14em] text-teal-700">{theory.category}</p><h2 className="mt-2 text-2xl font-bold text-slate-950">{theory.title}</h2><p className="mt-4 text-sm leading-7 text-slate-700">{theory.summary}</p>{theory.sections?.map((section) => <section key={section.heading} className="mt-5 border-t border-slate-100 pt-5"><h3 className="font-bold text-slate-950">{section.heading}</h3><p className="mt-2 text-sm leading-7 text-slate-700">{section.body}</p></section>)}<section className="mt-5 rounded-xl bg-slate-50 p-4"><h3 className="font-bold text-slate-950">Key points</h3><ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-700">{theory.keyPoints.map((point) => <li key={point}>{point}</li>)}</ul></section><div className="mt-5 border-t border-slate-100 pt-4"><p className="text-xs font-bold uppercase tracking-[.13em] text-slate-500">Sources</p><div className="mt-2 flex flex-wrap gap-2">{theory.sourceIds.map((id) => { const source = sourceById.get(id); return source ? <a key={id} href={source.url} target="_blank" rel="noreferrer" className="rounded-full border border-slate-200 px-2.5 py-1 text-xs font-semibold text-slate-600 hover:border-teal-500 hover:text-teal-700">{source.title ?? source.label}</a> : <span key={id} className="rounded-full border border-slate-200 px-2.5 py-1 text-xs text-slate-500">{id}</span>; })}</div></div><button type="button" onClick={() => { setTab("structure"); if (theory.viewId && nativeNeuroViewIds.has(theory.viewId)) setViewId(theory.viewId); if (theory.itemId && structures.some((item) => item.id === theory.itemId)) setSelectedId(theory.itemId); if (theory.itemId && pathways.some((item) => item.id === theory.itemId)) choosePathway(theory.itemId); reset(); }} className="mt-5 inline-flex items-center gap-2 rounded-xl bg-teal-700 px-4 py-2.5 text-sm font-bold text-white"><Focus className="h-4 w-4" />Show in Atlas</button></aside> : null}</div>
     </section> : null}
