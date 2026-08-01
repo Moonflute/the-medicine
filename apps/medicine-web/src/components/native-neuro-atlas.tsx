@@ -14,6 +14,22 @@ type Props = {
   onHover: (id?: string) => void;
 };
 
+const PATHWAY_STRUCTURE_IDS: Record<string, readonly string[]> = {
+  corticospinal: ["precentral-gyrus", "internal-capsule", "midbrain", "pons", "medulla", "lateral-corticospinal", "nerve-root", "peripheral-nerve", "skeletal-muscle"],
+  corticobulbar: ["precentral-gyrus", "internal-capsule", "midbrain", "pons", "medulla", "cranial-nerve-roots"],
+  dcml: ["peripheral-nerve", "nerve-root", "dorsal-column", "medulla", "thalamus", "postcentral-gyrus"],
+  spinothalamic: ["peripheral-nerve", "nerve-root", "spinothalamic", "thalamus", "postcentral-gyrus"],
+  spinocerebellar: ["peripheral-nerve", "nerve-root", "spinal-cord", "cerebellum"],
+  "basal-ganglia-loop": ["frontal-lobe", "caudate", "putamen", "thalamus"],
+  "trigeminal-sensory": ["trigeminal-ganglion", "trigeminal-nucleus", "thalamus", "postcentral-gyrus"],
+  visual: ["optic-nerve", "optic-chiasm", "optic-tract", "thalamus", "occipital-lobe"],
+  "pupil-pathway": ["optic-nerve", "optic-chiasm", "midbrain", "cranial-nerve-roots"],
+  "ocular-motor": ["vestibular-nucleus", "pons", "midbrain", "cranial-nerve-roots"],
+  "auditory-vestibular": ["vestibular-nucleus", "pons", "midbrain", "temporal-lobe"],
+  sympathetic: ["hypothalamus", "spinal-cord", "nerve-root", "peripheral-nerve"],
+  parasympathetic: ["midbrain", "pons", "medulla", "cranial-nerve-roots", "peripheral-nerve"],
+};
+
 const PALETTE = {
   canvas: "#fbfdff",
   cortex: "#dce9f5",
@@ -36,19 +52,21 @@ const PALETTE = {
   autonomic: "#b45309",
 };
 
-function InteractivePath({ id, label, d, fill, selectedId, hoveredId, onSelect, onHover, stroke = PALETTE.outline, strokeWidth = 2.5 }: {
+function InteractivePath({ id, label, d, fill, selectedId, hoveredId, pathwayId, onSelect, onHover, stroke = PALETTE.outline, strokeWidth = 2.5 }: {
   id: string;
   label: string;
   d: string;
   fill: string;
   selectedId?: string;
   hoveredId?: string;
+  pathwayId?: string;
   onSelect: (id: string) => void;
   onHover: (id?: string) => void;
   stroke?: string;
   strokeWidth?: number;
 }) {
-  const active = selectedId === id || hoveredId === id;
+  const pathwayStructureIds = pathwayId && !pathwayId.startsWith("reflex:") ? PATHWAY_STRUCTURE_IDS[pathwayId] ?? [] : [];
+  const active = selectedId === id || hoveredId === id || pathwayStructureIds.includes(id);
   return <path
     d={d}
     tabIndex={0}
@@ -105,7 +123,7 @@ function Overlay({ layer, pathwayId, d }: { layer: NeuroAtlasLayer; pathwayId?: 
 
 function WholeNeuraxis(props: Omit<Props, "viewId">) {
   const { layer, pathwayId, selectedId, hoveredId, onSelect, onHover } = props;
-  const common = { selectedId, hoveredId, onSelect, onHover };
+  const common = { selectedId, hoveredId, pathwayId, onSelect, onHover };
   return <SvgShell label="Whole neuraxis interactive anatomy map">
     <path d="M488 58 C437 72 420 113 429 154 C436 189 458 211 475 226 L470 282 L432 309 L376 371 L333 487 L362 640 L422 665 L487 602 L507 438 L529 602 L578 665 L639 640 L667 487 L625 371 L570 309 L531 282 L526 226 C543 211 565 189 572 154 C581 113 564 72 512 58 Z" fill="#eff5fa" stroke={PALETTE.outline} strokeWidth="2.5" />
     <InteractivePath id="cerebellum" label="Cerebellum" d="M513 132 C548 123 573 144 572 174 C571 199 552 215 529 214 L512 190 Z" fill={PALETTE.cerebellum} {...common} />
@@ -125,7 +143,7 @@ function WholeNeuraxis(props: Omit<Props, "viewId">) {
 
 function Midsagittal(props: Omit<Props, "viewId">) {
   const { layer, pathwayId, selectedId, hoveredId, onSelect, onHover } = props;
-  const common = { selectedId, hoveredId, onSelect, onHover };
+  const common = { selectedId, hoveredId, pathwayId, onSelect, onHover };
   return <SvgShell label="Cerebrum midsagittal interactive anatomy map">
     <InteractivePath id="medial-frontal-cortex" label="Medial frontal cortex" d="M166 291 C178 168 279 89 423 87 C517 86 594 126 644 195 L604 312 L472 350 L309 362 L195 335 Z" fill={PALETTE.cortex} {...common} />
     <InteractivePath id="paracentral-lobule" label="Paracentral lobule" d="M474 92 C527 95 575 120 608 158 L570 216 L489 207 Z" fill={PALETTE.cortexAlt} {...common} />
@@ -147,7 +165,7 @@ function Midsagittal(props: Omit<Props, "viewId">) {
 
 function SpinalCrossSection(props: Omit<Props, "viewId">) {
   const { layer, pathwayId, selectedId, hoveredId, onSelect, onHover } = props;
-  const common = { selectedId, hoveredId, onSelect, onHover };
+  const common = { selectedId, hoveredId, pathwayId, onSelect, onHover };
   return <SvgShell label="Spinal cord cross-sectional interactive anatomy map">
     <InteractivePath id="spinal-cord" label="Spinal cord" d="M210 108 C364 35 636 35 790 108 C855 185 850 512 789 587 C635 665 365 665 211 587 C150 512 145 185 210 108 Z" fill={PALETTE.spinalWhite} {...common} />
     <InteractivePath id="dorsal-column" label="Dorsal columns" d="M374 105 C430 80 470 79 500 105 C530 79 570 80 626 105 L600 267 L400 267 Z" fill="#c9dff1" {...common} />
@@ -166,7 +184,7 @@ function SpinalCrossSection(props: Omit<Props, "viewId">) {
 
 function CerebrumLateral(props: Omit<Props, "viewId">) {
   const { layer, pathwayId, selectedId, hoveredId, onSelect, onHover } = props;
-  const c = { selectedId, hoveredId, onSelect, onHover };
+  const c = { selectedId, hoveredId, pathwayId, onSelect, onHover };
   return <SvgShell label="Cerebrum lateral interactive anatomy map">
     <InteractivePath id="frontal-lobe" label="Frontal lobe" d="M150 260 C167 138 294 87 415 121 L442 286 L334 382 L181 351 Z" fill={PALETTE.cortex} {...c} />
     <InteractivePath id="parietal-lobe" label="Parietal lobe" d="M415 121 C549 107 689 189 743 303 L566 365 L440 286 Z" fill={PALETTE.cortexAlt} {...c} />
@@ -186,7 +204,7 @@ function CerebrumLateral(props: Omit<Props, "viewId">) {
 
 function CerebrumCoronal(props: Omit<Props, "viewId">) {
   const { layer, pathwayId, selectedId, hoveredId, onSelect, onHover } = props;
-  const c={selectedId,hoveredId,onSelect,onHover};
+  const c={selectedId,hoveredId,pathwayId,onSelect,onHover};
   return <SvgShell label="Cerebrum coronal interactive anatomy map">
     <InteractivePath id="cerebral-cortex" label="Cerebral cortex" d="M166 455 C122 240 243 103 500 91 C757 103 878 240 834 455 C799 584 671 635 500 629 C329 635 201 584 166 455 Z" fill={PALETTE.cortex} {...c} />
     <InteractivePath id="corpus-callosum" label="Corpus callosum" d="M271 256 C333 175 667 175 729 256 L688 298 C626 253 374 253 312 298 Z" fill={PALETTE.whiteMatter} {...c} />
@@ -202,7 +220,7 @@ function CerebrumCoronal(props: Omit<Props, "viewId">) {
 }
 function CerebrumAxial(props: Omit<Props, "viewId">) {
   const { layer, pathwayId, selectedId, hoveredId, onSelect, onHover } = props;
-  const c={selectedId,hoveredId,onSelect,onHover};
+  const c={selectedId,hoveredId,pathwayId,onSelect,onHover};
   return <SvgShell label="Cerebrum axial interactive anatomy map">
     <InteractivePath id="cerebral-cortex" label="Cerebral cortex" d="M131 351 C146 170 318 102 500 103 C682 102 854 170 869 351 C854 530 682 598 500 599 C318 598 146 530 131 351 Z" fill={PALETTE.cortex} {...c} />
     <InteractivePath id="insula" label="Insular cortex" d="M258 313 C303 262 368 269 404 318 L385 409 L300 421 Z M742 313 C697 262 632 269 596 318 L615 409 L700 421 Z" fill="#c4dfd7" {...c} />
@@ -218,7 +236,7 @@ function CerebrumAxial(props: Omit<Props, "viewId">) {
 
 
 function BrainstemExternal(props: Omit<Props, "viewId">) {
- const { layer, pathwayId, selectedId, hoveredId, onSelect, onHover } = props; const c={selectedId,hoveredId,onSelect,onHover};
+ const { layer, pathwayId, selectedId, hoveredId, onSelect, onHover } = props; const c={selectedId,hoveredId,pathwayId,onSelect,onHover};
  return <SvgShell label="Brainstem external interactive anatomy map">
    <InteractivePath id="midbrain" label="Midbrain" d="M412 121 C453 87 547 87 588 121 L565 244 L435 244 Z" fill={PALETTE.brainstem} {...c}/>
    <InteractivePath id="cerebral-peduncle" label="Cerebral peduncles" d="M432 175 L475 155 L493 258 L443 274 Z M568 175 L525 155 L507 258 L557 274 Z" fill="#d4c697" {...c}/>
@@ -231,7 +249,7 @@ function BrainstemExternal(props: Omit<Props, "viewId">) {
  </SvgShell>;
 }
 function CerebellumView(props: Omit<Props, "viewId">) {
- const { layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props; const c={selectedId,hoveredId,onSelect,onHover};
+ const { layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props; const c={selectedId,hoveredId,pathwayId,onSelect,onHover};
  return <SvgShell label="Cerebellum interactive anatomy map">
    <InteractivePath id="cerebellar-hemisphere" label="Cerebellar hemispheres" d="M169 333 C191 169 364 106 500 232 C636 106 809 169 831 333 C846 512 680 605 500 553 C320 605 154 512 169 333 Z" fill={PALETTE.cerebellum} {...c}/>
    <InteractivePath id="vermis" label="Vermis" d="M459 215 C487 190 513 190 541 215 L563 526 C525 546 475 546 437 526 Z" fill="#c3abd7" {...c}/>
@@ -246,7 +264,7 @@ function CerebellumView(props: Omit<Props, "viewId">) {
 
 
 function CerebrumInferior(props: Omit<Props, "viewId">) {
- const { layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props; const c={selectedId,hoveredId,onSelect,onHover};
+ const { layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props; const c={selectedId,hoveredId,pathwayId,onSelect,onHover};
  return <SvgShell label="Cerebrum inferior interactive anatomy map">
    <InteractivePath id="frontal-lobe" label="Orbital frontal surface" d="M173 238 C265 130 406 125 500 209 L500 430 C367 461 245 416 173 332 Z" fill={PALETTE.cortex} {...c}/>
    <InteractivePath id="temporal-lobe" label="Temporal lobe" d="M500 209 C594 125 735 130 827 238 L827 332 C755 416 633 461 500 430 Z" fill="#d4e6f5" {...c}/>
@@ -263,38 +281,38 @@ function CerebrumInferior(props: Omit<Props, "viewId">) {
 
 
 function SpinalLevels(props: Omit<Props, "viewId">) {
- const {layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props;const c={selectedId,hoveredId,onSelect,onHover};
+ const {layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props;const c={selectedId,hoveredId,pathwayId,onSelect,onHover};
  const levels: Array<[string,string,number,number,string]>=[['cervical-cord','Cervical',130,140,'#c6e4ef'],['thoracic-cord','Thoracic',285,210,'#d5e5f5'],['lumbar-cord','Lumbar',492,160,'#d3e9db'],['sacral-cord','Sacral',652,72,'#f0dbbd']] as const;
  return <SvgShell label="Spinal cord levels interactive anatomy map"><InteractivePath id="spinal-cord" label="Spinal cord" d="M428 95 L572 95 L585 635 L415 635 Z" fill={PALETTE.spinalWhite} {...c}/>{levels.map(([id,label,y,h,fill])=><InteractivePath key={id} id={id} label={label+" spinal cord"} d={"M434 "+y+" H566 V"+(y+h)+" H434 Z"} fill={fill} {...c}/>)}<InteractivePath id="dorsal-root" label="Dorsal roots" d="M434 220 L277 164 M434 302 L259 284 M434 424 L263 472 M566 220 L723 164 M566 302 L741 284 M566 424 L737 472" fill="none" stroke={PALETTE.sensory} strokeWidth={9} {...c}/><InteractivePath id="ventral-root" label="Ventral roots" d="M434 242 L277 220 M434 324 L259 327 M434 446 L263 505 M566 242 L723 220 M566 324 L741 327 M566 446 L737 505" fill="none" stroke={PALETTE.motor} strokeWidth={9} {...c}/><Overlay layer={layer} pathwayId={pathwayId} d="M500 112 L500 618"/><text x="64" y="74" fill="#49627c" fontSize="18" fontWeight="700">CNS › Spinal cord › Segmental levels</text></SvgShell>;
 }
 function PlexusMap({ viewId, ...props }: Props) {
- const {layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props;const c={selectedId,hoveredId,onSelect,onHover};const upper=viewId==='brachial-plexus';const sacral=viewId==='sacral-plexus';
+ const {layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props;const c={selectedId,hoveredId,pathwayId,onSelect,onHover};const upper=viewId==='brachial-plexus';const sacral=viewId==='sacral-plexus';
  const roots: Array<[string,number]>=upper?[['C5',145],['C6',215],['C7',285],['C8',355],['T1',425]]:[['L1',145],['L2',205],['L3',265],['L4',325],['L5',385],['S1',445],['S2',505],['S3',565]];const trunkX=upper?420:410; const nerves: Array<[string,string,number]>=upper?[['musculocutaneous-nerve','Musculocutaneous',130],['median-nerve','Median',255],['ulnar-nerve','Ulnar',380],['radial-nerve','Radial',505]]:[['femoral-nerve','Femoral',180],['obturator-nerve','Obturator',300],['sciatic-nerve','Sciatic',420],['tibial-nerve','Tibial',530],['common-fibular-nerve','Common fibular',610]];
  return <SvgShell label={upper?"Brachial plexus interactive anatomy map":sacral?"Sacral plexus interactive anatomy map":"Lumbosacral plexus interactive anatomy map"}><text x="64" y="74" fill="#49627c" fontSize="18" fontWeight="700">{upper?"PNS › Plexus › Brachial plexus":sacral?"PNS › Plexus › Sacral plexus":"PNS › Plexus › Lumbosacral plexus"}</text>{roots.map(([label,y])=><g key={label}><text x="90" y={Number(y)+6} fill="#49627c" fontSize="18" fontWeight="700">{label}</text><InteractivePath id={upper?'brachial-plexus':'lumbosacral-plexus'} label={upper?'Brachial plexus':'Lumbosacral plexus'} d={"M130 "+y+" C240 "+y+" "+(trunkX-70)+" "+(320+(Number(y)-300)*.15)+" "+trunkX+" 350"} fill="none" stroke={PALETTE.nerve} strokeWidth={8} {...c}/></g>)}<InteractivePath id={upper?'brachial-plexus':'lumbosacral-plexus'} label={upper?'Brachial plexus cords':'Lumbosacral plexus'} d={"M"+trunkX+" 350 C"+(trunkX+85)+" 280 "+(trunkX+135)+" 300 "+(trunkX+195)+" 350 M"+trunkX+" 350 C"+(trunkX+85)+" 410 "+(trunkX+135)+" 400 "+(trunkX+195)+" 350"} fill="none" stroke="#6d9fb6" strokeWidth={18} {...c}/>{nerves.map(([id,label,y])=><g key={id}><InteractivePath id={id} label={label+" nerve"} d={"M"+(trunkX+190)+" 350 C"+(trunkX+285)+" 350 "+(trunkX+330)+" "+y+" 890 "+y} fill="none" stroke={PALETTE.nerve} strokeWidth={12} {...c}/><text x="800" y={Number(y)-10} fill="#49627c" fontSize="16" textAnchor="middle">{label}</text></g>)}<Overlay layer={layer} pathwayId={pathwayId} d={"M130 145 C270 145 "+trunkX+" 330 "+(trunkX+195)+" 350 L890 "+(upper?255:420)}/></SvgShell>;
 }
 function LimbNerveMap({ viewId, ...props }: Props) {
- const {layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props;const c={selectedId,hoveredId,onSelect,onHover};const upper=viewId==='upper-limb-nerves';const nerves: Array<[string,string,number,number,number,number]>=upper?[['musculocutaneous-nerve','Musculocutaneous',430,190,410,500],['median-nerve','Median',500,185,500,560],['ulnar-nerve','Ulnar',563,185,605,560],['radial-nerve','Radial',640,195,670,510]]:[['femoral-nerve','Femoral',440,155,432,445],['sciatic-nerve','Sciatic',510,150,520,430],['tibial-nerve','Tibial',520,430,500,625],['common-fibular-nerve','Common fibular',520,430,600,535]];
+ const {layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props;const c={selectedId,hoveredId,pathwayId,onSelect,onHover};const upper=viewId==='upper-limb-nerves';const nerves: Array<[string,string,number,number,number,number]>=upper?[['musculocutaneous-nerve','Musculocutaneous',430,190,410,500],['median-nerve','Median',500,185,500,560],['ulnar-nerve','Ulnar',563,185,605,560],['radial-nerve','Radial',640,195,670,510]]:[['femoral-nerve','Femoral',440,155,432,445],['sciatic-nerve','Sciatic',510,150,520,430],['tibial-nerve','Tibial',520,430,500,625],['common-fibular-nerve','Common fibular',520,430,600,535]];
  return <SvgShell label={upper?"Upper limb peripheral nerves interactive map":"Lower limb peripheral nerves interactive map"}><path d={upper?"M372 130 C442 94 558 94 628 130 L690 352 L628 622 L566 651 L500 611 L434 651 L372 622 L310 352 Z":"M404 105 C465 70 535 70 596 105 L626 277 L676 620 L592 650 L545 392 L500 650 L455 392 L408 650 L324 620 L374 277 Z"} fill="#eff5fa" stroke={PALETTE.outline} strokeWidth={3}/>{nerves.map(([id,label,x1,y1,x2,y2])=><g key={id}><InteractivePath id={id} label={label+" nerve"} d={"M"+x1+" "+y1+" C"+x1+" "+((y1+y2)/2)+" "+x2+" "+((y1+y2)/2)+" "+x2+" "+y2} fill="none" stroke={PALETTE.nerve} strokeWidth={12} {...c}/><text x={x2} y={y2+26} fill="#49627c" fontSize="15" textAnchor="middle">{label}</text></g>)}<Overlay layer={layer} pathwayId={pathwayId} d={upper?"M500 180 L500 560":"M510 145 L520 430 L500 625"}/><text x="64" y="74" fill="#49627c" fontSize="18" fontWeight="700">{upper?"PNS › Peripheral nerves › Upper limb":"PNS › Peripheral nerves › Lower limb"}</text></SvgShell>;
 }
 function NmjMap(props: Omit<Props, "viewId">) {
- const {layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props;const c={selectedId,hoveredId,onSelect,onHover};
+ const {layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props;const c={selectedId,hoveredId,pathwayId,onSelect,onHover};
  return <SvgShell label="Neuromuscular junction interactive anatomy map"><InteractivePath id="motor-neuron" label="Motor neuron terminal" d="M111 336 C275 333 356 330 476 337" fill="none" stroke={PALETTE.nerve} strokeWidth={22} {...c}/><InteractivePath id="neuromuscular-junction" label="Neuromuscular junction" d="M477 303 C534 273 586 282 620 334 C587 388 534 398 477 367 Z" fill={PALETTE.deepNuclei} {...c}/><InteractivePath id="skeletal-muscle" label="Skeletal muscle fiber" d="M626 237 C760 203 862 263 895 352 C862 441 760 501 626 467 Z" fill={PALETTE.muscle} {...c}/><path d="M653 291 H846 M653 329 H865 M653 367 H846 M653 405 H820" stroke="#bd8989" strokeWidth="9" strokeLinecap="round"/><Overlay layer={layer} pathwayId={pathwayId} d="M120 336 L488 336 L625 351 L880 351"/><text x="64" y="74" fill="#49627c" fontSize="18" fontWeight="700">Motor unit › Neuromuscular junction › Skeletal muscle</text></SvgShell>;
 }
 
 
 function BrainstemSection(props: Omit<Props, "viewId">) {
- const {layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props;const c={selectedId,hoveredId,onSelect,onHover};
+ const {layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props;const c={selectedId,hoveredId,pathwayId,onSelect,onHover};
  return <SvgShell label="Brainstem sectional interactive anatomy map"><InteractivePath id="midbrain" label="Midbrain section" d="M170 140 C296 65 704 65 830 140 L782 300 L218 300 Z" fill={PALETTE.brainstem} {...c}/><InteractivePath id="pons" label="Pons section" d="M147 334 C292 260 708 260 853 334 L800 490 L200 490 Z" fill={PALETTE.brainstem} {...c}/><InteractivePath id="medulla" label="Medulla section" d="M188 527 C320 475 680 475 812 527 L752 630 L248 630 Z" fill={PALETTE.brainstem} {...c}/><InteractivePath id="cranial-nerve-roots" label="Cranial nerve nuclei region" d="M348 177 L652 177 M320 371 L680 371 M344 565 L656 565" fill="none" stroke={PALETTE.cranial} strokeWidth={18} {...c}/><InteractivePath id="corticospinal-region" label="Corticospinal tract region" d="M366 218 L407 218 L395 272 L354 272 M593 218 L634 218 L646 272 L605 272 M357 404 L405 404 L414 465 L366 465" fill={PALETTE.motor} {...c}/><InteractivePath id="medial-lemniscus-region" label="Medial lemniscus region" d="M463 218 L537 218 L550 272 L450 272 M450 404 L550 404 L537 465 L463 465" fill={PALETTE.sensory} {...c}/><Overlay layer={layer} pathwayId={pathwayId} d="M500 108 L500 623"/><text x="64" y="74" fill="#49627c" fontSize="18" fontWeight="700">CNS › Brain › Brainstem › Sectional views</text></SvgShell>;
 }
 function DermatomeMap({ viewId, ...props }: Props) {
- const {layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props;const c={selectedId,hoveredId,onSelect,onHover};const posterior=viewId==='dermatome-posterior';const segments=[['c5-dermatome','C5',190,'#e7d3ef'],['c6-dermatome','C6',255,'#cde6f8'],['c7-dermatome','C7',320,'#c8eadb'],['c8-dermatome','C8',385,'#f5e3b5'],['t4-dermatome','T4',450,'#f1c8bf'],['t10-dermatome','T10',515,'#e4d2b4'],['l1-dermatome','L1',575,'#d2d6f5'],['l4-dermatome','L4',625,'#c7e5db']] as const;
+ const {layer,pathwayId,selectedId,hoveredId,onSelect,onHover}=props;const c={selectedId,hoveredId,pathwayId,onSelect,onHover};const posterior=viewId==='dermatome-posterior';const segments=[['c5-dermatome','C5',190,'#e7d3ef'],['c6-dermatome','C6',255,'#cde6f8'],['c7-dermatome','C7',320,'#c8eadb'],['c8-dermatome','C8',385,'#f5e3b5'],['t4-dermatome','T4',450,'#f1c8bf'],['t10-dermatome','T10',515,'#e4d2b4'],['l1-dermatome','L1',575,'#d2d6f5'],['l4-dermatome','L4',625,'#c7e5db']] as const;
  return <SvgShell label={posterior?"Posterior dermatome interactive map":"Anterior dermatome interactive map"}><path d="M428 105 C458 73 542 73 572 105 L596 208 L660 330 L594 455 L625 639 L549 649 L500 507 L451 649 L375 639 L406 455 L340 330 L404 208 Z" fill="#eff5fa" stroke={PALETTE.outline} strokeWidth={3}/>{segments.map(([id,label,y,fill])=><g key={id}><InteractivePath id={id} label={label+" dermatome"} d={"M382 "+y+" C445 "+(y-15)+" 555 "+(y-15)+" 618 "+y+" L600 "+(y+48)+" C540 "+(y+66)+" 460 "+(y+66)+" 400 "+(y+48)+" Z"} fill={fill} {...c}/><text x="500" y={y+31} textAnchor="middle" fill="#49627c" fontSize="17" fontWeight="700">{label}</text></g>)}<Overlay layer={layer} pathwayId={pathwayId} d="M500 165 L500 635"/><text x="64" y="74" fill="#49627c" fontSize="18" fontWeight="700">{posterior?"Somatic maps › Dermatome › Posterior view":"Somatic maps › Dermatome › Anterior view"}</text></SvgShell>;
 }
 
 
 function CerebrumMedial(props: Omit<Props, "viewId">) {
   const { layer, pathwayId, selectedId, hoveredId, onSelect, onHover } = props;
-  const c = { selectedId, hoveredId, onSelect, onHover };
+  const c = { selectedId, hoveredId, pathwayId, onSelect, onHover };
   return <SvgShell label="Cerebrum medial interactive anatomy map">
     <InteractivePath id="medial-frontal-cortex" label="Medial frontal cortex" d="M143 342 C153 172 292 89 458 105 L513 195 L448 364 L273 422 Z" fill={PALETTE.cortex} {...c} />
     <InteractivePath id="paracentral-lobule" label="Paracentral lobule" d="M410 108 C470 91 531 105 577 145 L559 241 L461 253 Z" fill={PALETTE.cortexAlt} {...c} />
@@ -312,7 +330,7 @@ function CerebrumMedial(props: Omit<Props, "viewId">) {
 }
 function SacralPlexusMap(props: Omit<Props, "viewId">) {
   const { layer, pathwayId, selectedId, hoveredId, onSelect, onHover } = props;
-  const c = { selectedId, hoveredId, onSelect, onHover };
+  const c = { selectedId, hoveredId, pathwayId, onSelect, onHover };
   const roots = [["L4", 170], ["L5", 235], ["S1", 300], ["S2", 365], ["S3", 430], ["S4", 495]] as const;
   return <SvgShell label="Sacral plexus interactive anatomy map">
     <text x="64" y="74" fill="#49627c" fontSize="18" fontWeight="700">PNS › Plexus › Sacral plexus</text>

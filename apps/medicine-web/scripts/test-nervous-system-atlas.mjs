@@ -123,6 +123,15 @@ test("Hub exposes required responsive workspace controls without horizontal sele
   assert.equal(/overflow-x-auto/.test(hub), false, "view selection must not depend on a horizontal toolbar rail");
 });
 
+test("native SVG highlights all visible structures on selected source-backed pathways", () => {
+  const nativeAtlas = fs.readFileSync(nativeAtlasPath, "utf8");
+  assert.match(nativeAtlas, /const PATHWAY_STRUCTURE_IDS/, "pathway-to-structure mapping is required");
+  assert.match(nativeAtlas, /pathwayStructureIds\.includes\(id\)/, "SVG structure activation must include selected pathway nodes");
+  for (const id of ["corticospinal", "dcml", "spinothalamic", "visual", "sympathetic"]) {
+    assert.match(nativeAtlas, new RegExp(id), "missing pathway highlight mapping for " + id);
+  }
+});
+
 test("changing a view keeps the selected pathway available for continuous tract review", () => {
   const hub = fs.readFileSync(hubPath, "utf8");
   assert.match(hub, /const chooseView = \(id: string\) => \{ setViewId\(id\); reset\(\); \};/, "view changes must not clear the selected pathway");
