@@ -111,6 +111,18 @@ test("theory library has reference-document sections across structures, pathways
   }
 });
 
+
+test("Hub exposes required responsive workspace controls without horizontal selector rails", () => {
+  const hub = fs.readFileSync(hubPath, "utf8");
+  assert.match(hub, /theoryQuery/, "Theory library needs search state");
+  assert.match(hub, /mobileInfoOpen/, "mobile detail sheet is missing");
+  assert.match(hub, /bottom-\[76px\]/, "mobile detail sheet must clear bottom navigation");
+  assert.match(hub, /onAtlasPointerDown/, "atlas pan and pinch handler is missing");
+  assert.match(hub, /pointers\.current\.size === 2/, "two-finger pinch zoom is missing");
+  assert.match(hub, /desktopInfoOpen/, "desktop information panel must be dismissible");
+  assert.equal(/overflow-x-auto/.test(hub), false, "view selection must not depend on a horizontal toolbar rail");
+});
+
 test("Disease and Drug entry points and all linked disease titles resolve", () => {
   const specialtyPage = fs.readFileSync(specialtyPagePath, "utf8");
   const drugCategoryPage = fs.readFileSync(drugCategoryPagePath, "utf8");

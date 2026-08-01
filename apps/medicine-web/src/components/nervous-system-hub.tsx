@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { BookOpen, BrainCircuit, ChevronRight, Expand, Focus, Info, Move, RotateCcw, Route, Search, Stethoscope, X, ZoomIn, ZoomOut } from "lucide-react";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent } from "react";
 import type { NeuroAtlas } from "@/lib/webdb";
 import { NativeNeuroAtlas, nativeNeuroViewIds, type NeuroAtlasLayer } from "@/components/native-neuro-atlas";
 
@@ -89,6 +89,8 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
   const [pan, setPan] = useState({ x: 0, y: 0 });
   const [fullScreen, setFullScreen] = useState(false);
   const [query, setQuery] = useState("");
+  const [theoryQuery, setTheoryQuery] = useState("");
+  const [desktopInfoOpen, setDesktopInfoOpen] = useState(true);
   const [theoryCategory, setTheoryCategory] = useState("All");
   const [theoryId, setTheoryId] = useState(atlas.theoryTopics[0]?.id ?? "");
   const [reflexId, setReflexId] = useState(atlas.reflexes.find((item) => item.reviewStatus !== "retired")?.id ?? "");
@@ -96,6 +98,8 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
   const [mobileInfoOpen, setMobileInfoOpen] = useState(false);
   const [urlHydrated, setUrlHydrated] = useState(false);
   const drag = useRef<{ x: number; y: number; startX: number; startY: number } | undefined>(undefined);
+  const pointers = useRef(new Map<number, { x: number; y: number }>());
+  const pinch = useRef<{ distance: number; zoom: number } | undefined>(undefined);
 
   const view = VIEWS.find((item) => item.id === viewId) ?? VIEWS[0];
   const structures = atlas.structures;
@@ -109,7 +113,7 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
   const nexNodeId = nexRoute[nexStage];
   const nexNode = structures.find((item) => item.id === nexNodeId);
   const theory = atlas.theoryTopics.find((item) => item.id === theoryId) ?? atlas.theoryTopics[0];
-  const theoryCards = atlas.theoryTopics.filter((item) => theoryCategory === "All" || item.category === theoryCategory);
+  const theoryCards = atlas.theoryTopics.filter((item) => (theoryCategory === "All" || item.category === theoryCategory) && (item.title + " " + item.summary).toLowerCase().includes(theoryQuery.toLowerCase()));
   const matches = useMemo(() => structures.filter((item) => (item.en + " " + item.ko).toLowerCase().includes(query.toLowerCase())).slice(0, 8), [structures, query]);
   const selectedLinks: string[] = selectedPathway?.links ?? ("links" in selected && Array.isArray(selected.links) ? selected.links : []);
 
@@ -144,6 +148,33 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
     if (item?.nodes?.[0]) setSelectedId(item.nodes[0]);
   };
   const chooseStructure = (id: string) => { setSelectedId(id); setHoveredId(undefined); setMobileInfoOpen(true); };
+  const onAtlasPointerDown = (event: ReactPointerEvent<HTMLDivElement>) => {
+    pointers.current.set(event.pointerId, { x: event.clientX, y: event.clientY });
+    event.currentTarget.setPointerCapture(event.pointerId);
+    if (pointers.current.size === 2) {
+      const [first, second] = [...pointers.current.values()];
+      pinch.current = { distance: Math.hypot(first.x - second.x, first.y - second.y), zoom };
+      drag.current = undefined;
+    } else {
+      drag.current = { x: pan.x, y: pan.y, startX: event.clientX, startY: event.clientY };
+    }
+  };
+  const onAtlasPointerMove = (event: ReactPointerEvent<HTMLDivElement>) => {
+    if (!pointers.current.has(event.pointerId)) return;
+    pointers.current.set(event.pointerId, { x: event.clientX, y: event.clientY });
+    if (pointers.current.size === 2 && pinch.current) {
+      const [first, second] = [...pointers.current.values()];
+      const distance = Math.hypot(first.x - second.x, first.y - second.y);
+      setZoom(Math.max(.75, Math.min(2.4, pinch.current.zoom * distance / Math.max(1, pinch.current.distance))));
+    } else if (drag.current) {
+      setPan({ x: drag.current.x + event.clientX - drag.current.startX, y: drag.current.y + event.clientY - drag.current.startY });
+    }
+  };
+  const onAtlasPointerEnd = (event: ReactPointerEvent<HTMLDivElement>) => {
+    pointers.current.delete(event.pointerId);
+    if (pointers.current.size < 2) pinch.current = undefined;
+    drag.current = undefined;
+  };
   const canvas = <NativeNeuroAtlas viewId={viewId} layer={layer} pathwayId={pathwayId} selectedId={selectedId} hoveredId={hoveredId} onSelect={chooseStructure} onHover={setHoveredId} />;
 
   return <main className="mx-auto w-full max-w-[1540px] space-y-5 px-3 pb-24 pt-4 sm:px-5 lg:px-7">
@@ -165,27 +196,27 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
         <button type="button" onClick={() => setFullScreen(true)} className="inline-flex h-[42px] items-center justify-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 text-sm font-bold text-slate-700 hover:border-teal-500"><Expand className="h-4 w-4" />Atlas</button>
       </section>
 
-      <div className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_330px]">
+      <div className={"grid gap-4 " + (desktopInfoOpen ? "xl:grid-cols-[minmax(0,1fr)_330px]" : "xl:grid-cols-1")}>
         <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 px-4 py-3 sm:px-5">
             <div className="min-w-0"><Breadcrumb view={view} /><h1 className="mt-1 text-xl font-bold text-slate-950 sm:text-2xl">{view.label}</h1><p className="mt-1 text-sm text-slate-600">{view.description}</p></div>
-            <div className="flex items-center gap-1"><button type="button" aria-label="Zoom out" onClick={() => setZoom((value) => Math.max(.75, value - .15))} className="rounded-lg border border-slate-200 p-2 hover:border-teal-500"><ZoomOut className="h-4 w-4" /></button><button type="button" aria-label="Zoom in" onClick={() => setZoom((value) => Math.min(2.4, value + .15))} className="rounded-lg border border-slate-200 p-2 hover:border-teal-500"><ZoomIn className="h-4 w-4" /></button><button type="button" aria-label="Reset view" onClick={reset} className="rounded-lg border border-slate-200 p-2 hover:border-teal-500"><RotateCcw className="h-4 w-4" /></button></div>
+            <div className="flex items-center gap-1"><button type="button" onClick={() => setDesktopInfoOpen((value) => !value)} className="hidden rounded-lg border border-slate-200 px-2 py-2 text-xs font-bold text-slate-700 hover:border-teal-500 xl:inline-flex">{desktopInfoOpen ? "Hide info" : "Show info"}</button><button type="button" aria-label="Zoom out" onClick={() => setZoom((value) => Math.max(.75, value - .15))} className="rounded-lg border border-slate-200 p-2 hover:border-teal-500"><ZoomOut className="h-4 w-4" /></button><button type="button" aria-label="Zoom in" onClick={() => setZoom((value) => Math.min(2.4, value + .15))} className="rounded-lg border border-slate-200 p-2 hover:border-teal-500"><ZoomIn className="h-4 w-4" /></button><button type="button" aria-label="Reset view" onClick={reset} className="rounded-lg border border-slate-200 p-2 hover:border-teal-500"><RotateCcw className="h-4 w-4" /></button></div>
           </div>
-          <div className="relative min-h-[460px] overflow-hidden bg-slate-50 sm:min-h-[600px]" onWheel={(event) => { event.preventDefault(); setZoom((value) => Math.max(.75, Math.min(2.4, value + (event.deltaY < 0 ? .1 : -.1)))); }} onPointerDown={(event) => { drag.current = { x: pan.x, y: pan.y, startX: event.clientX, startY: event.clientY }; event.currentTarget.setPointerCapture(event.pointerId); }} onPointerMove={(event) => { if (drag.current) setPan({ x: drag.current.x + event.clientX - drag.current.startX, y: drag.current.y + event.clientY - drag.current.startY }); }} onPointerUp={() => { drag.current = undefined; }}>
+          <div className="relative min-h-[460px] overflow-hidden bg-slate-50 sm:min-h-[600px]" onWheel={(event) => { event.preventDefault(); setZoom((value) => Math.max(.75, Math.min(2.4, value + (event.deltaY < 0 ? .1 : -.1)))); }} onPointerDown={onAtlasPointerDown} onPointerMove={onAtlasPointerMove} onPointerUp={onAtlasPointerEnd} onPointerCancel={onAtlasPointerEnd}>
             <div className="h-full w-full touch-none" style={{ transform: "translate(" + pan.x + "px," + pan.y + "px) scale(" + zoom + ")", transformOrigin: "center", transition: "transform 100ms ease-out" }}>{canvas}</div>
             <div className="pointer-events-none absolute bottom-3 left-3 rounded-lg border border-slate-200 bg-white/95 px-2.5 py-1.5 text-xs text-slate-600 shadow-sm"><Move className="mr-1 inline h-3.5 w-3.5" />Drag to pan · wheel/pinch to zoom · select a structure</div>
             {hoveredId ? <div className="pointer-events-none absolute left-3 top-3 rounded-lg border border-teal-200 bg-white/95 px-3 py-2 shadow-sm"><p className="text-sm font-bold text-slate-950">{structures.find((item) => item.id === hoveredId)?.en ?? FALLBACK[hoveredId]?.en ?? hoveredId}</p><p className="text-xs text-slate-500">{structures.find((item) => item.id === hoveredId)?.ko ?? FALLBACK[hoveredId]?.ko}</p></div> : null}
           </div>
         </section>
 
-        <aside className="hidden space-y-4 xl:sticky xl:top-5 xl:self-start xl:block">
+        {desktopInfoOpen ? <aside className="hidden space-y-4 xl:sticky xl:top-5 xl:self-start xl:block">
           <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
             <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[.14em] text-teal-700">{selectedPathway ? <Route className="h-4 w-4" /> : <Focus className="h-4 w-4" />}{selectedPathway ? "Pathway" : "Structure"}</div>
             {selectedPathway ? <><h2 className="mt-3 text-xl font-bold text-slate-950">{selectedPathway.en}</h2><p className="text-sm text-slate-500">{selectedPathway.ko}</p><p className="mt-4 text-sm leading-6 text-slate-700">{selectedPathway.route}</p><div className="mt-4 rounded-xl bg-amber-50 p-3 text-sm leading-6 text-amber-950"><b>Lesion pattern</b><br />{selectedPathway.pattern}</div><button type="button" onClick={() => setPathwayId("")} className="mt-4 text-sm font-semibold text-teal-700">Clear pathway</button></> : <><p className="mt-3 text-xs font-bold uppercase tracking-[.13em] text-teal-700">{selected.group}</p><h2 className="mt-1 text-xl font-bold text-slate-950">{selected.en}</h2><p className="text-sm text-slate-500">{selected.ko}</p><p className="mt-4 text-sm leading-6 text-slate-700">{selected.summary}</p></>}{selectedLinks.filter((title) => diseaseHrefs[title]).slice(0, 3).map((title) => <Link key={title} href={diseaseHrefs[title]} className="mt-3 flex items-center justify-between rounded-xl border border-slate-200 px-3 py-2.5 text-sm font-bold text-slate-800 hover:border-teal-500 hover:text-teal-700">{title}<ChevronRight className="h-4 w-4" /></Link>)}
           </section>
           <section className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm"><div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[.14em] text-slate-500"><Search className="h-4 w-4" />Structure search</div><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search structure" className="mt-3 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5 text-sm outline-none focus:border-teal-500" />{query ? <div className="mt-2 grid gap-1">{matches.map((item) => <button key={item.id} type="button" onClick={() => chooseStructure(item.id)} className="flex items-center justify-between rounded-lg px-2 py-2 text-left text-sm hover:bg-teal-50"><span><b>{item.en}</b><span className="ml-2 text-slate-500">{item.ko}</span></span><ChevronRight className="h-4 w-4" /></button>)}</div> : null}</section>
 
-        </aside>
+        </aside> : null}
         <div className="xl:hidden">
           <button type="button" onClick={() => setMobileInfoOpen(true)} className="fixed bottom-[78px] right-4 z-40 inline-flex items-center gap-2 rounded-full bg-slate-950 px-4 py-3 text-sm font-bold text-white shadow-lg"><Info className="h-4 w-4" />Details</button>
           {mobileInfoOpen ? <section role="dialog" aria-label="Selected atlas information" className="fixed inset-x-3 bottom-[76px] z-50 max-h-[56vh] overflow-y-auto rounded-2xl border border-slate-200 bg-white p-5 shadow-2xl"><div className="flex items-start justify-between gap-3"><div><p className="text-xs font-bold uppercase tracking-[.14em] text-teal-700">{selectedPathway ? "Pathway" : "Structure"}</p><h2 className="mt-1 text-xl font-bold text-slate-950">{selectedPathway?.en ?? selected.en}</h2><p className="text-sm text-slate-500">{selectedPathway?.ko ?? selected.ko}</p></div><button type="button" onClick={() => setMobileInfoOpen(false)} aria-label="Close details" className="rounded-lg border border-slate-200 p-2"><X className="h-4 w-4" /></button></div><p className="mt-4 text-sm leading-6 text-slate-700">{selectedPathway?.route ?? selected.summary}</p>{selectedPathway ? <div className="mt-3 rounded-xl bg-amber-50 p-3 text-sm leading-6 text-amber-950"><b>Lesion pattern</b><br />{selectedPathway.pattern}</div> : null}{selectedLinks.filter((title) => diseaseHrefs[title]).slice(0, 3).map((title) => <Link key={title} href={diseaseHrefs[title]} className="mt-3 flex items-center justify-between rounded-xl border border-slate-200 px-3 py-2.5 text-sm font-bold text-slate-800">{title}<ChevronRight className="h-4 w-4" /></Link>)}</section> : null}
@@ -200,7 +231,7 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
     </section> : null}
 
     {tab === "theory" ? <section className="space-y-4">
-      <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"><Title icon={BookOpen} eyebrow="Theory library" title="Structures, pathways and reflexes" text="Browse neuroanatomy as a document library, then open the linked structure or route in the Atlas." /><div className="mt-5 flex flex-wrap gap-2">{theoryCategories.map((category) => <button key={category} type="button" onClick={() => setTheoryCategory(category)} className={"rounded-full border px-3 py-1.5 text-sm font-semibold " + (theoryCategory === category ? "border-slate-950 bg-slate-950 text-white" : "border-slate-200 bg-white text-slate-600 hover:border-teal-400")}>{category}</button>)}</div></section>
+      <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"><Title icon={BookOpen} eyebrow="Theory library" title="Structures, pathways and reflexes" text="Browse neuroanatomy as a document library, then open the linked structure or route in the Atlas." /><div className="mt-5 flex flex-wrap gap-2">{theoryCategories.map((category) => <button key={category} type="button" onClick={() => setTheoryCategory(category)} className={"rounded-full border px-3 py-1.5 text-sm font-semibold " + (theoryCategory === category ? "border-slate-950 bg-slate-950 text-white" : "border-slate-200 bg-white text-slate-600 hover:border-teal-400")}>{category}</button>)}</div><label className="mt-4 flex max-w-md items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2"><Search className="h-4 w-4 text-slate-500" /><input value={theoryQuery} onChange={(event) => setTheoryQuery(event.target.value)} placeholder="Search theory" className="w-full bg-transparent text-sm outline-none" /></label></section>
       <div className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_390px]"><section className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">{theoryCards.map((item) => <button key={item.id} type="button" onClick={() => setTheoryId(item.id)} className={"min-h-40 rounded-2xl border p-5 text-left shadow-sm transition " + (item.id === theory?.id ? "border-teal-600 bg-teal-50" : "border-slate-200 bg-white hover:border-teal-300")}><p className="text-xs font-bold uppercase tracking-[.13em] text-teal-700">{item.category}</p><h2 className="mt-3 text-lg font-bold text-slate-950">{item.title}</h2><p className="mt-3 text-sm leading-6 text-slate-600">{item.summary}</p></button>)}</section>
       {theory ? <aside className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm xl:sticky xl:top-5 xl:self-start"><p className="text-xs font-bold uppercase tracking-[.14em] text-teal-700">{theory.category}</p><h2 className="mt-2 text-2xl font-bold text-slate-950">{theory.title}</h2><p className="mt-4 text-sm leading-7 text-slate-700">{theory.summary}</p>{theory.sections?.map((section) => <section key={section.heading} className="mt-5 border-t border-slate-100 pt-5"><h3 className="font-bold text-slate-950">{section.heading}</h3><p className="mt-2 text-sm leading-7 text-slate-700">{section.body}</p></section>)}<section className="mt-5 rounded-xl bg-slate-50 p-4"><h3 className="font-bold text-slate-950">Key points</h3><ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-slate-700">{theory.keyPoints.map((point) => <li key={point}>{point}</li>)}</ul></section><p className="mt-5 text-xs leading-5 text-slate-500">Sources: {theory.sourceIds.join(" · ")}</p><button type="button" onClick={() => { setTab("structure"); if (theory.viewId && nativeNeuroViewIds.has(theory.viewId)) setViewId(theory.viewId); if (theory.itemId && structures.some((item) => item.id === theory.itemId)) setSelectedId(theory.itemId); if (theory.itemId && pathways.some((item) => item.id === theory.itemId)) choosePathway(theory.itemId); reset(); }} className="mt-5 inline-flex items-center gap-2 rounded-xl bg-teal-700 px-4 py-2.5 text-sm font-bold text-white"><Focus className="h-4 w-4" />Show in Atlas</button></aside> : null}</div>
     </section> : null}

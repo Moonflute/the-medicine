@@ -291,6 +291,40 @@ function DermatomeMap({ viewId, ...props }: Props) {
  return <SvgShell label={posterior?"Posterior dermatome interactive map":"Anterior dermatome interactive map"}><path d="M428 105 C458 73 542 73 572 105 L596 208 L660 330 L594 455 L625 639 L549 649 L500 507 L451 649 L375 639 L406 455 L340 330 L404 208 Z" fill="#eff5fa" stroke={PALETTE.outline} strokeWidth={3}/>{segments.map(([id,label,y,fill])=><g key={id}><InteractivePath id={id} label={label+" dermatome"} d={"M382 "+y+" C445 "+(y-15)+" 555 "+(y-15)+" 618 "+y+" L600 "+(y+48)+" C540 "+(y+66)+" 460 "+(y+66)+" 400 "+(y+48)+" Z"} fill={fill} {...c}/><text x="500" y={y+31} textAnchor="middle" fill="#49627c" fontSize="17" fontWeight="700">{label}</text></g>)}<Overlay layer={layer} pathwayId={pathwayId} d="M500 165 L500 635"/><text x="64" y="74" fill="#49627c" fontSize="18" fontWeight="700">{posterior?"Somatic maps › Dermatome › Posterior view":"Somatic maps › Dermatome › Anterior view"}</text></SvgShell>;
 }
 
+
+function CerebrumMedial(props: Omit<Props, "viewId">) {
+  const { layer, pathwayId, selectedId, hoveredId, onSelect, onHover } = props;
+  const c = { selectedId, hoveredId, onSelect, onHover };
+  return <SvgShell label="Cerebrum medial interactive anatomy map">
+    <InteractivePath id="medial-frontal-cortex" label="Medial frontal cortex" d="M143 342 C153 172 292 89 458 105 L513 195 L448 364 L273 422 Z" fill={PALETTE.cortex} {...c} />
+    <InteractivePath id="paracentral-lobule" label="Paracentral lobule" d="M410 108 C470 91 531 105 577 145 L559 241 L461 253 Z" fill={PALETTE.cortexAlt} {...c} />
+    <InteractivePath id="precuneus" label="Precuneus" d="M578 145 C661 159 726 207 762 282 L676 344 L555 304 Z" fill="#d1e2f4" {...c} />
+    <InteractivePath id="cuneus" label="Cuneus" d="M716 300 C778 331 799 397 770 450 L673 434 L652 359 Z" fill="#c6d9ed" {...c} />
+    <InteractivePath id="lingual-gyrus" label="Lingual gyrus" d="M654 438 L770 455 C738 531 645 558 555 527 L568 436 Z" fill="#d7e8f3" {...c} />
+    <InteractivePath id="cingulate-gyrus" label="Cingulate gyrus" d="M263 371 C344 262 492 229 626 299 L605 345 C487 293 365 321 294 410 Z" fill="#b9ddd2" {...c} />
+    <InteractivePath id="corpus-callosum" label="Corpus callosum" d="M294 416 C365 334 493 329 596 378 L576 416 C479 377 376 388 323 450 Z" fill={PALETTE.whiteMatter} {...c} />
+    <InteractivePath id="thalamus" label="Thalamus" d="M468 417 C506 384 559 410 559 457 C548 498 492 508 465 478 Z" fill={PALETTE.deepNuclei} {...c} />
+    <InteractivePath id="brainstem" label="Brainstem" d="M485 488 L548 484 L569 617 L474 617 Z" fill={PALETTE.brainstem} {...c} />
+    <InteractivePath id="cerebellum" label="Cerebellum" d="M608 449 C709 409 813 490 773 601 C696 648 615 596 582 536 Z" fill={PALETTE.cerebellum} {...c} />
+    <Overlay layer={layer} pathwayId={pathwayId} d="M397 174 C420 274 442 345 479 409 L520 490 L523 611" />
+    <text x="64" y="74" fill="#49627c" fontSize="18" fontWeight="700">CNS › Brain › Cerebrum › Medial view</text>
+  </SvgShell>;
+}
+function SacralPlexusMap(props: Omit<Props, "viewId">) {
+  const { layer, pathwayId, selectedId, hoveredId, onSelect, onHover } = props;
+  const c = { selectedId, hoveredId, onSelect, onHover };
+  const roots = [["L4", 170], ["L5", 235], ["S1", 300], ["S2", 365], ["S3", 430], ["S4", 495]] as const;
+  return <SvgShell label="Sacral plexus interactive anatomy map">
+    <text x="64" y="74" fill="#49627c" fontSize="18" fontWeight="700">PNS › Plexus › Sacral plexus</text>
+    {roots.map(([label, y]) => <g key={label}><text x="95" y={y + 6} fill="#49627c" fontSize="18" fontWeight="700">{label}</text><InteractivePath id="sacral-plexus" label="Sacral plexus" d={"M135 " + y + " C280 " + y + " 325 " + (300 + (y - 300) * .16) + " 450 342"} fill="none" stroke={PALETTE.nerve} strokeWidth={9} {...c} /></g>)}
+    <InteractivePath id="sciatic-nerve" label="Sciatic nerve" d="M450 342 C580 307 652 325 884 285" fill="none" stroke="#6d9fb6" strokeWidth={18} {...c} />
+    <InteractivePath id="tibial-nerve" label="Tibial nerve" d="M566 322 C685 390 751 473 884 534" fill="none" stroke={PALETTE.nerve} strokeWidth={12} {...c} />
+    <InteractivePath id="common-fibular-nerve" label="Common fibular nerve" d="M572 325 C680 294 772 240 884 202" fill="none" stroke={PALETTE.nerve} strokeWidth={12} {...c} />
+    <InteractivePath id="pudendal-nerve" label="Pudendal nerve" d="M512 355 C594 412 683 446 784 465" fill="none" stroke="#ab85b7" strokeWidth={12} {...c} />
+    <Overlay layer={layer} pathwayId={pathwayId} d="M135 300 C290 300 356 342 450 342 L884 285" />
+  </SvgShell>;
+}
+
 function UnavailableView() {
   return <SvgShell label="View not yet published">
     <g transform="translate(500 340)">
@@ -303,7 +337,8 @@ function UnavailableView() {
 
 export function NativeNeuroAtlas({ viewId, ...props }: Props) {
   if (viewId === "whole-neuraxis") return <WholeNeuraxis {...props} />;
-  if (viewId === "brain-midsagittal" || viewId === "cerebrum-medial") return <Midsagittal {...props} />;
+  if (viewId === "brain-midsagittal") return <Midsagittal {...props} />;
+  if (viewId === "cerebrum-medial") return <CerebrumMedial {...props} />;
   if (viewId === "cerebrum-lateral") return <CerebrumLateral {...props} />;
   if (viewId === "cerebrum-inferior") return <CerebrumInferior {...props} />;
   if (viewId === "brain-coronal") return <CerebrumCoronal {...props} />;
@@ -313,7 +348,8 @@ export function NativeNeuroAtlas({ viewId, ...props }: Props) {
   if (viewId === "cerebellum") return <CerebellumView {...props} />;
   if (viewId === "spinal-cross-section") return <SpinalCrossSection {...props} />;
   if (viewId === "spinal-levels") return <SpinalLevels {...props} />;
-  if (viewId === "brachial-plexus" || viewId === "lumbosacral-plexus" || viewId === "sacral-plexus") return <PlexusMap viewId={viewId} {...props} />;
+  if (viewId === "brachial-plexus" || viewId === "lumbosacral-plexus") return <PlexusMap viewId={viewId} {...props} />;
+  if (viewId === "sacral-plexus") return <SacralPlexusMap {...props} />;
   if (viewId === "upper-limb-nerves" || viewId === "lower-limb-nerves") return <LimbNerveMap viewId={viewId} {...props} />;
   if (viewId === "nmj-muscle") return <NmjMap {...props} />;
   if (viewId === "dermatome-anterior" || viewId === "dermatome-posterior") return <DermatomeMap viewId={viewId} {...props} />;

@@ -3147,6 +3147,21 @@
         "openstax-cns",
         "terminologia-neuro"
       ]
+    },
+    {
+      "id": "pudendal-nerve",
+      "ko": "음부신경",
+      "en": "Pudendal nerve",
+      "group": "PNS",
+      "summary": "The pudendal nerve carries somatic sensory and motor fibers to the perineum and external sphincters.",
+      "links": [],
+      "viewIds": [
+        "sacral-plexus"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "terminologia-neuro"
+      ]
     }
   ],
   "pathways": [
