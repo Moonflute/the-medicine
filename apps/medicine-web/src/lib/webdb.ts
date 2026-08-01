@@ -211,14 +211,15 @@ export type NeuroAtlas = {
   version: number;
   updatedAt: string;
   disclaimer: string;
-  sources: Array<{ label: string; url: string }>;
-  views: Array<{ id: string; label: string; description: string }>;
-  structures: Array<{ id: string; ko: string; en: string; group: string; summary: string; links: string[] }>;
-  pathways: Array<{ id: string; ko: string; en: string; kind: string; route: string; pattern: string; links: string[] }>;
+  sources: Array<{ id?: string; label: string; title?: string; publisher?: string; edition?: string; editionOrVersion?: string; section?: string; url: string; accessedAt?: string; license?: string; usedFor?: string }>;
+  views: Array<{ id: string; label: string; description: string; group?: string; orientation?: string; baseAsset?: string; interactionMap?: string; sourceIds?: string[]; assetId?: string; assetMethod?: "public-domain-source" | "licensed-source" | "independently-redrawn"; assetSourceIds?: string[]; assetLicense?: string; assetSha256?: string; reviewStatus?: "draft-anatomy" | "source-checked" | "review-ready"; status?: "source-checked" | "draft-anatomy" | "review-ready"; variants?: string[]; variantAssets?: Record<string,{ asset: string; assetId: string; sourceIds: string[]; license: string; sha256?: string; reviewStatus?: "draft-anatomy" | "source-checked" | "review-ready" }> }>;
+  structures: Array<{ id: string; ko: string; en: string; group: string; summary: string; links: string[]; viewIds?: string[]; sourceIds?: string[] }>;
+  pathways: Array<{ id: string; ko: string; en: string; kind: string; route: string; pattern: string; links: string[]; nodes?: string[]; sourceIds?: string[] }>;
   dermatomes: Array<{ id: string; label: string; area: string; hint: string }>;
-  myotomes: Array<{ id: string; label: string; action: string; muscle: string; reflex: string }>;
-  reflexes: Array<{ id: string; label: string; arc: string; localization: string }>;
+  myotomes: Array<{ id: string; label: string; action: string; muscle: string; reflex: string; peripheralNerve?: string; testPosition?: string; differential?: string; sourceIds?: string[] }>;
+  reflexes: Array<{ id: string; label: string; arc: string; localization: string; purpose?: string; technique?: string[]; route?: string[]; routeLabels?: string[]; routeStages?: Array<"stimulus" | "afferent" | "central" | "efferent" | "effector">; laterality?: { options: string[]; default: string; description: string }; normal?: string; abnormal?: string; viewId?: string; sourceIds?: string[]; reviewStatus?: "draft" | "source-checked" | "retired" }>; examNodes: Array<{ id: string; label: string; rawLabel?: string; kind: "stimulus-or-receptor" | "exam-route-node" | "effector-or-response"; sourceIds: string[]; viewId: string; examId: string }>;
   nexSteps: Array<{ id: string; question: string; choices: Array<{ id: string; label: string; targets: string[]; note: string }> }>;
+  theoryTopics: Array<{ id: string; title: string; category: string; summary: string; keyPoints: string[]; viewId: string; itemId?: string; sourceIds: string[] }>;
 };
 
 export function getNervousSystemAtlas(): NeuroAtlas { return readJson<NeuroAtlas>("nervous-system-atlas.json"); }

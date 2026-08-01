@@ -1,50 +1,5925 @@
 {
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-07-31",
-  "disclaimer": "학습용 위치추정 도구입니다. 실제 신경학적 진단은 병력, 전체 진찰, 영상·전기생리검사와 함께 해석합니다.",
+  "disclaimer": "교육용 해부·신경진찰 지도입니다. 실제 진단은 병력, 완전한 신경학적 진찰, 영상·전기생리검사 및 해당 기관의 진료 경로를 함께 해석합니다.",
   "sources": [
-    {"label":"AAN Clinical Practice Guidelines", "url":"https://www.aan.com/practice/guidelines"},
-    {"label":"ASIA ISNCSCI resources", "url":"https://asia-spinalinjury.org/isncsci-resources/"},
-    {"label":"AANEM education", "url":"https://www.aanem.org/"}
+    {
+      "id": "ncbi-cortex",
+      "label": "NCBI Bookshelf · Cerebral cortex anatomy",
+      "title": "The Anatomy of the Cerebral Cortex",
+      "section": "Lateral, medial and inferior cortical surfaces",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK575742/",
+      "usedFor": "대뇌 겉면의 엽·고랑·이랑 명칭 및 방향 대조",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "terminologia-neuro",
+      "label": "Terminologia Neuroanatomica",
+      "title": "Terminologia Neuroanatomica: a new nomenclature for the neuroanatomical terminology",
+      "section": "Cerebral cortex terminology",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6252390/",
+      "usedFor": "한글/영문 구조명 표기와 해부학 용어 확인",
+      "publisher": "Federative International Programme for Anatomical Terminology",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "openstax-cns",
+      "label": "OpenStax Anatomy & Physiology 2e",
+      "title": "The Central Nervous System",
+      "section": "The Cerebrum and cerebral lobes",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+      "usedFor": "대뇌엽·중추신경계의 교육용 관계 대조",
+      "publisher": "OpenStax",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-cerebral-hemisphere",
+      "label": "NCBI Bookshelf · Cerebral Hemisphere",
+      "title": "Neuroanatomy, Cerebral Hemisphere",
+      "section": "Cerebral cortex and motor cortex",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK549789/",
+      "usedFor": "운동피질·대뇌반구의 기본 구조 대조",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "isncsci",
+      "label": "International Standards for Neurological Classification of SCI",
+      "title": "ISNCSCI resources",
+      "edition": "9th edition (2026 resource page)",
+      "section": "Sensory and motor examination resources",
+      "url": "https://asia-spinalinjury.org/isncsci-resources/",
+      "usedFor": "피부분절·근육분절·척수 신경학적 진찰 표준 참고",
+      "publisher": "International Spinal Cord Society / ASIA",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-pupil",
+      "label": "NCBI Bookshelf · Pupillary light reflex",
+      "title": "Neuroanatomy, Pupillary Light Reflexes and Pathway",
+      "section": "Afferent and efferent pathways",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK553169/",
+      "usedFor": "동공 빛반사 구심성·중추·원심성 경로 대조",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "sobotta-public-domain",
+      "label": "Sobotta 1909 public-domain cortex reference",
+      "title": "Fissures and convolutions of the cerebral cortex, lateral view",
+      "section": "Lateral cerebral surface",
+      "url": "https://anatomytool.org/content/sobotta-1909-fig625-fissures-and-convulsions-cerebral-cortex-lateral-view-english-labels",
+      "usedFor": "대뇌 외측면 이랑·고랑 경계 대조 및 앱의 대뇌 외측면 base image.",
+      "publisher": "AnatomyTOOL / Sobotta",
+      "accessedAt": "2026-07-31",
+      "license": "Public Domain; AnatomyTOOL identifies this Sobotta 1909 figure as public domain and permits reuse with recommended attribution."
+    },
+    {
+      "id": "wikimedia-spinal",
+      "label": "Wikimedia Commons · spinal tract cross-section",
+      "title": "Spinal Cord Cross-Section-Adapted.svg",
+      "section": "White matter tracts",
+      "url": "https://commons.wikimedia.org/wiki/File:Spinal_Cord_Cross-Section-Adapted.svg",
+      "usedFor": "척수 횡단면의 뒤기둥·가쪽피질척수로·앞가쪽계통 위치 대조",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-trigeminal",
+      "label": "NCBI Bookshelf · Trigeminal reflexes",
+      "title": "Neuroanatomy, Trigeminal Reflexes",
+      "section": "Corneal and jaw-jerk reflexes",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK551641/",
+      "usedFor": "각막반사·턱반사 구심성/원심성 경로 대조",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-gag",
+      "label": "NCBI Bookshelf · Gag reflex",
+      "title": "Physiology, Gag Reflex",
+      "section": "CN IX and CN X reflex arc",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK554502/",
+      "usedFor": "구역반사의 CN IX·X 및 연수 회로 대조",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-plantar",
+      "label": "NCBI Bookshelf · Plantar reflex",
+      "title": "The Plantar Reflex",
+      "section": "Corticospinal modulation",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK397/",
+      "usedFor": "족저반사와 피질척수계 조절 해석",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-corticospinal",
+      "label": "NCBI Bookshelf · Corticospinal tract",
+      "title": "Neuroanatomy, Corticospinal Cord Tract",
+      "section": "Decussation and spinal course",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK535423/",
+      "usedFor": "피질척수로의 교차·척수 주행 및 족저반사 해석 보조",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-visual",
+      "label": "NCBI Bookshelf · Visual pathway",
+      "title": "Neuroanatomy, Visual Pathway",
+      "section": "Optic nerve, chiasm, tract, LGN, radiations and primary visual cortex",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK553189/",
+      "usedFor": "시각경로·시야 국소화 및 대뇌 시각피질 대조",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-spinocerebellar",
+      "label": "NCBI Bookshelf · Dorsal spinocerebellar tract",
+      "title": "Neuroanatomy, Spinocerebellar Dorsal Tract",
+      "section": "Unconscious proprioception and cerebellar relay",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK556013/",
+      "usedFor": "후척수소뇌로와 무의식적 고유감각 경로 대조",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-auditory",
+      "label": "NCBI Bookshelf · Auditory pathway",
+      "title": "Neuroanatomy, Auditory Pathway",
+      "section": "Cochlear nuclei through auditory cortex",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK532311/",
+      "usedFor": "청각 경로·양측성 중계의 교육용 대조",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-vestibular",
+      "label": "NCBI Bookshelf · Vestibular nucleus",
+      "title": "Neuroanatomy, Nucleus Vestibular",
+      "section": "Vestibular nuclei, cerebellar and ocular projections",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK562261/",
+      "usedFor": "전정핵·VOR·안구운동 연결 대조",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-autonomic",
+      "label": "NCBI Bookshelf · Autonomic nervous system",
+      "title": "Anatomy, Autonomic Nervous System",
+      "section": "Sympathetic and parasympathetic efferent organization",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK539845/",
+      "usedFor": "교감·부교감 2-neuron 연결의 교육용 대조",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-oculosympathetic",
+      "label": "NCBI Bookshelf · Pupillary dilation pathway",
+      "title": "Neuroanatomy, Pupillary Dilation Pathway",
+      "section": "Hypothalamus, ciliospinal center and superior cervical ganglion",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK535421/",
+      "usedFor": "Horner 관련 oculosympathetic pathway 대조",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-cough",
+      "label": "NCBI Bookshelf · Cough reflex",
+      "title": "Cough: Evaluation and Management",
+      "section": "Vagal afferents, medullary cough center and respiratory motor output",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK493221/",
+      "usedFor": "기침반사의 미주신경 구심성·연수 중계·호흡근 원심성 대조",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-oculocephalic",
+      "label": "NCBI Bookshelf · Doll’s eyes",
+      "title": "Doll's Eyes",
+      "section": "Oculocephalic reflex and CN III, VI, VIII brainstem assessment",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK551716/",
+      "usedFor": "안구두부반사·전정안반사의 뇌간 회로와 시행 주의사항 대조",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference used to independently redraw an educational schematic; original source asset is not bundled."
+    },
+    {
+      "id": "wikimedia-brain-lobes-pd",
+      "label": "Wikimedia Commons · Brainlobes.svg",
+      "title": "Brainlobes.svg",
+      "section": "Lateral view: major cerebral lobes and cerebellum",
+      "url": "https://commons.wikimedia.org/wiki/File:Brainlobes.svg",
+      "usedFor": "대뇌 외측면의 공개 도메인 베이스 이미지. 엽·소뇌의 외형과 방향을 직접 표시하며, 세부 이랑·고랑 interaction map은 별도로 대조한다.",
+      "publisher": "Wikimedia Commons / original contributors",
+      "accessedAt": "2026-07-31",
+      "license": "Public domain; source page states that the contributors released the file into the public domain."
+    },
+    {
+      "id": "nih-bioart-brain-lateral",
+      "label": "NIH BioArt · Brain Lateral",
+      "title": "Brain Lateral",
+      "section": "Lateral view of a human brain",
+      "url": "https://commons.wikimedia.org/wiki/File:Brain_Lateral_(NIH_BioArt_60).svg",
+      "usedFor": "대뇌 외측면 베이스 이미지 후보와 윤곽 대조",
+      "publisher": "NIAID / NIH BioArt via Wikimedia Commons",
+      "accessedAt": "2026-07-31",
+      "license": "Public domain (NIAID / NIH source; asset copy retained for source comparison and future interaction-map tracing)."
+    },
+    {
+      "id": "wikimedia-central-nervous-system-pd",
+      "label": "Wikimedia Commons · Central nervous system",
+      "title": "Central nervous system",
+      "section": "Human central nervous system diagram",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_nervous_system.svg",
+      "usedFor": "전체 신경축 베이스 이미지 후보와 CNS 위치 대조",
+      "publisher": "Grm wnr via Wikimedia Commons",
+      "accessedAt": "2026-07-31",
+      "license": "Public domain; asset copy retained for source comparison and future interaction-map tracing."
+    },
+    {
+      "id": "wikimedia-brachial-plexus-pd",
+      "label": "Wikimedia Commons · Brachial plexus 2",
+      "title": "Brachial plexus 2",
+      "section": "Brachial plexus branches",
+      "url": "https://commons.wikimedia.org/wiki/File:Brachial_plexus_2.svg",
+      "usedFor": "상완신경총의 roots·trunks·cords·terminal branches 대조",
+      "publisher": "Wikimedia Commons",
+      "accessedAt": "2026-07-31",
+      "license": "Public domain dedication as stated on the source file; asset copy retained for source comparison and future interaction-map tracing."
+    },
+    {
+      "id": "ncbi-dermatomes",
+      "label": "NCBI Bookshelf · Anatomy, Skin, Dermatomes",
+      "title": "Anatomy, Skin, Dermatomes",
+      "section": "Structure and Function; clinical mapping variation",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK535401/",
+      "usedFor": "전·후면 dermatome 대표 분포, 중첩·개인차 및 axial/appendicular 배열 설명 대조",
+      "publisher": "StatPearls / NCBI Bookshelf",
+      "accessedAt": "2026-07-31",
+      "license": "Reference source; not reproduced as an image."
+    },
+    {
+      "id": "ncbi-sensory-nerves",
+      "label": "NCBI Bookshelf · Neuroanatomy, Sensory Nerves",
+      "title": "Neuroanatomy, Sensory Nerves",
+      "section": "Dermatome versus peripheral nerve sensory field",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK539846/",
+      "usedFor": "dermatome과 말초신경 감각분포를 분리해 표시하는 근거",
+      "publisher": "StatPearls / NCBI Bookshelf",
+      "accessedAt": "2026-07-31",
+      "license": "Reference source; not reproduced as an image."
+    },
+    {
+      "id": "ncbi-nmj-physiology",
+      "label": "NCBI Bookshelf · Physiology, Neuromuscular Junction",
+      "title": "Physiology, Neuromuscular Junction",
+      "section": "Cellular Level; Anatomy of the Neuromuscular Junction",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470413/",
+      "usedFor": "NMJ의 nerve terminal, synaptic cleft, motor endplate, junctional folds 구조 대조",
+      "publisher": "StatPearls / NCBI Bookshelf",
+      "accessedAt": "2026-07-31",
+      "license": "Reference source; not reproduced as an image."
+    },
+    {
+      "id": "ncbi-nmj-transmission",
+      "label": "NCBI Bookshelf · Physiology, Neuromuscular Transmission",
+      "title": "Physiology, Neuromuscular Transmission",
+      "section": "Physiological Anatomy of Neuromuscular Junction",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK541133/",
+      "usedFor": "NMJ presynaptic·synaptic·postsynaptic components와 transmission overlay 대조",
+      "publisher": "StatPearls / NCBI Bookshelf",
+      "accessedAt": "2026-07-31",
+      "license": "Reference source; not reproduced as an image."
+    },
+    {
+      "id": "ncbi-neurologic-exam",
+      "label": "NCBI Bookshelf · Neurologic Exam",
+      "title": "Neurologic Exam",
+      "section": "Cranial nerve, facial and cerebellar examination",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557589/",
+      "usedFor": "안구운동·안면운동·협응검사 방법 및 해석의 기본 근거",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference for clinical examination content; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-clinical-methods-neuro",
+      "label": "NCBI Bookshelf · Clinical Methods",
+      "title": "An Overview of the Nervous System",
+      "section": "Visual fields and extraocular movement examination",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK373/",
+      "usedFor": "대면 시야와 안구운동 검사 방법의 근거",
+      "publisher": "NCBI Bookshelf / Clinical Methods",
+      "accessedAt": "2026-07-31",
+      "license": "Reference for clinical examination content; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-cerebellar-exam",
+      "label": "NCBI Bookshelf · The Cerebellum",
+      "title": "The Cerebellum",
+      "section": "Finger-to-nose and rapid alternating movement examination",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK392/",
+      "usedFor": "소뇌 협응검사와 dysmetria/dysdiadochokinesia 해석 근거",
+      "publisher": "NCBI Bookshelf / Clinical Methods",
+      "accessedAt": "2026-07-31",
+      "license": "Reference for clinical examination content; original source asset is not bundled."
+    },
+    {
+      "id": "ncbi-facial-nerve",
+      "label": "NCBI Bookshelf · Facial Nerve Anatomy",
+      "title": "Facial Nerve Anatomy and Clinical Applications",
+      "section": "Motor pathway and upper/lower facial weakness",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554569/",
+      "usedFor": "안면운동 검사와 중추성·말초성 약화 해석 근거",
+      "publisher": "NCBI Bookshelf / StatPearls",
+      "accessedAt": "2026-07-31",
+      "license": "Reference for clinical examination content; original source asset is not bundled."
+    },
+    {
+      "id": "wikimedia-brain-coronal-ccby25",
+      "label": "Wikimedia Commons · Brain human coronal section",
+      "title": "Brain human coronal section.svg",
+      "publisher": "Patrick J. Lynch, medical illustrator",
+      "editionOrVersion": "CC BY 2.5",
+      "section": "뇌 관상면 베이스 자산",
+      "url": "https://commons.wikimedia.org/wiki/File:Brain_human_coronal_section.svg",
+      "accessedAt": "2026-07-31",
+      "license": "CC BY 2.5. App source panel credits Patrick J. Lynch and links the original file; bundled image is not modified.",
+      "usedFor": "brain-coronal base asset and coordinate-trace reference"
+    },
+    {
+      "id": "wikimedia-dermatomes-anterior-pd",
+      "label": "Wikimedia Commons · Dermatomes and cutaneous nerves (anterior)",
+      "title": "Dermatomes and cutaneous nerves - anterior.png",
+      "publisher": "Public-domain release by file author",
+      "editionOrVersion": "Public domain",
+      "section": "피부분절 전면 베이스 자산",
+      "url": "https://commons.wikimedia.org/wiki/File:Dermatomes_and_cutaneous_nerves_-_anterior.png",
+      "accessedAt": "2026-07-31",
+      "license": "Public domain as declared on the source file.",
+      "usedFor": "dermatome-anterior base asset and coordinate-trace reference"
+    },
+    {
+      "id": "wikimedia-dermatomes-posterior-pd",
+      "label": "Wikimedia Commons · Dermatomes and cutaneous nerves (posterior)",
+      "title": "Dermatomes and cutaneous nerves - posterior.svg",
+      "publisher": "Mikael Häggström",
+      "editionOrVersion": "Public domain",
+      "section": "피부분절 후면 베이스 자산",
+      "url": "https://commons.wikimedia.org/wiki/File:Dermatomes_and_cutaneous_nerves_-_posterior.svg",
+      "accessedAt": "2026-07-31",
+      "license": "Public domain as declared on the source file.",
+      "usedFor": "dermatome-posterior base asset and coordinate-trace reference"
+    },
+    {
+      "id": "wikimedia-brain-sagittal-ccby25",
+      "label": "Wikimedia Commons · Brain human sagittal section",
+      "title": "Brain human sagittal section.svg",
+      "publisher": "Patrick J. Lynch, medical illustrator",
+      "editionOrVersion": "CC BY 2.5",
+      "section": "뇌 정중시상면 베이스 자산",
+      "url": "https://commons.wikimedia.org/wiki/File:Brain_human_sagittal_section.svg",
+      "accessedAt": "2026-07-31",
+      "license": "CC BY 2.5. App source panel credits Patrick J. Lynch and links the original file; bundled image is not modified.",
+      "usedFor": "brain-midsagittal base asset and coordinate-trace reference"
+    },
+    {
+      "id": "wikimedia-cerebellum-medulla-cortex-pd",
+      "label": "Wikimedia Commons · Cerebellum medulla and cortex",
+      "title": "Cerebellum medulla and cortex.svg",
+      "publisher": "Public-domain Gray anatomy plate; retouched edition",
+      "editionOrVersion": "Public-domain source file",
+      "section": "소뇌 피질·백질 베이스 자산",
+      "url": "https://commons.wikimedia.org/wiki/File:Cerebellum_medulla_and_cortex.svg",
+      "accessedAt": "2026-07-31",
+      "license": "Public domain source as stated on the file page; source link retains jurisdiction note.",
+      "usedFor": "cerebellum base asset and coordinate-trace reference"
+    },
+    {
+      "id": "wikimedia-brain-cranial-nerves-ccby25",
+      "label": "Wikimedia Commons · Brain human cranial nerves",
+      "title": "Brain human cranial nerves.svg",
+      "publisher": "Patrick J. Lynch, medical illustrator",
+      "editionOrVersion": "CC BY 2.5",
+      "section": "뇌저면·뇌신경 베이스 자산",
+      "url": "https://commons.wikimedia.org/wiki/File:Brain_human_cranial_nerves.svg",
+      "accessedAt": "2026-07-31",
+      "license": "CC BY 2.5. App source panel credits Patrick J. Lynch and links the original file; bundled image is not modified.",
+      "usedFor": "cerebrum-inferior base asset and coordinate-trace reference"
+    },
+    {
+      "id": "openstax-brainstem-cc0",
+      "label": "OpenStax · Brain stem parts",
+      "title": "Brain stem parts.png",
+      "publisher": "OpenStax Anatomy & Physiology 2e",
+      "editionOrVersion": "CC0",
+      "section": "뇌간 정중시상면 베이스 자산",
+      "url": "https://commons.wikimedia.org/wiki/File:Brain_stem_parts.png",
+      "accessedAt": "2026-07-31",
+      "license": "Public domain / CC0 dedication as declared on the OpenStax/Wikimedia source file.",
+      "usedFor": "brainstem-external base asset and coordinate-trace reference"
+    },
+    {
+      "id": "openstax-spinal-cross-section-ccby4",
+      "label": "OpenStax · Spinal cord cross section",
+      "title": "1313 Spinal Cord Cross Section.jpg",
+      "publisher": "OpenStax Anatomy & Physiology",
+      "editionOrVersion": "CC BY 4.0",
+      "section": "척수 횡단면 베이스 자산",
+      "url": "https://commons.wikimedia.org/wiki/File:1313_Spinal_Cord_Cross_Section.jpg",
+      "accessedAt": "2026-07-31",
+      "license": "CC BY 4.0. The bundled derivative crop preserves the source attribution and link in the app source panel.",
+      "usedFor": "spinal-cross-section base asset (schematic upper crop) and coordinate-trace reference"
+    },
+    {
+      "id": "wikimedia-lumbar-plexus-pd",
+      "label": "Wikimedia Commons · Lumbar plexus (Gray)",
+      "title": "Plexuslumbosacralis.jpg",
+      "publisher": "Gray’s Anatomy (1918) / Wikimedia Commons",
+      "editionOrVersion": "Public domain",
+      "section": "요추신경총 베이스 자산",
+      "url": "https://commons.wikimedia.org/wiki/File:Plexuslumbosacralis.jpg",
+      "accessedAt": "2026-08-01",
+      "license": "Public domain. Wikimedia identifies the scan as a public-domain Gray’s Anatomy plate.",
+      "usedFor": "lumbosacral-plexus base asset and coordinate-trace reference"
+    },
+    {
+      "id": "pearson-nervous-system-pd",
+      "label": "Wikimedia Commons · Human nervous system line art",
+      "title": "Human nervous system (line art) (PSF-N610003)",
+      "publisher": "Pearson Scott Foresman / Wikimedia Commons",
+      "editionOrVersion": "Public domain",
+      "section": "전체 신경축 베이스 자산",
+      "url": "https://commons.wikimedia.org/wiki/File:Human_nervous_system_(line_art)_(PSF-N610003_(cropped)).png",
+      "accessedAt": "2026-08-01",
+      "license": "Public domain dedication by Pearson Scott Foresman as stated on the Wikimedia source file.",
+      "usedFor": "whole-neuraxis base asset and coordinate-trace reference; used as a gross nervous-system map, not as a standalone clinical localization source."
+    },
+    {
+      "id": "wikimedia-spinal-segment-levels-pd",
+      "label": "Wikimedia Commons · spinal cord nerve-level sections",
+      "title": "Brain and spinal cord (1912) · transverse sections at different nerve-levels",
+      "publisher": "Internet Archive Book Images / Wikimedia Commons",
+      "editionOrVersion": "Public domain",
+      "section": "Cervical · thoracic · lumbar · sacral section morphology",
+      "url": "https://commons.wikimedia.org/wiki/File:Brain_and_spinal_cord;_a_manual_for_the_study_of_the_morphology_and_fibre-tracts_of_the_central_nervous_system_(1912)_(14784143513).jpg",
+      "accessedAt": "2026-08-01",
+      "license": "Public domain. Wikimedia-hosted scan of a 1912 anatomy text.",
+      "usedFor": "spinal-levels base asset and cervical–thoracic–lumbar–sacral section comparison"
+    },
+    {
+      "id": "wikimedia-sacral-plexus-pd",
+      "label": "Wikimedia Commons · Relations of the sacral plexus (Gray)",
+      "title": "Relations of the sacral plexus.png",
+      "publisher": "Gray’s Anatomy (1918) / Wikimedia Commons",
+      "editionOrVersion": "Public domain",
+      "section": "Sacral plexus and pelvic relations",
+      "url": "https://commons.wikimedia.org/wiki/File:Relations_of_the_sacral_plexus.png",
+      "accessedAt": "2026-08-01",
+      "license": "Public domain. Gray’s Anatomy plate published before 1931 and identified by Wikimedia Commons as public-domain material.",
+      "usedFor": "sacral-plexus base asset and coordinate-trace reference"
+    },
+    {
+      "id": "wikimedia-lower-limb-nerves-pd",
+      "label": "Wikimedia Commons · lower-limb cutaneous nerves (Gray)",
+      "title": "Gray825and830.PNG",
+      "publisher": "Gray’s Anatomy (1918) / Wikimedia Commons",
+      "editionOrVersion": "Public domain",
+      "section": "Anterior and posterior lower-limb cutaneous nerve branches",
+      "url": "https://commons.wikimedia.org/wiki/File:Gray825and830.PNG",
+      "accessedAt": "2026-08-01",
+      "license": "Public domain. Gray’s Anatomy scan identified by Wikimedia Commons as public-domain material.",
+      "usedFor": "lower-limb-nerves base asset and coordinate-trace reference for common fibular/tibial-region orientation"
+    },
+    {
+      "id": "wikimedia-openstax-motor-end-plate-ccby4",
+      "label": "Wikimedia Commons · OpenStax Motor End Plate and Innervation",
+      "title": "1009 Motor End Plate and Innervation.jpg",
+      "publisher": "OpenStax Anatomy and Physiology",
+      "section": "신경근접합부·운동종판 원본 도판",
+      "url": "https://commons.wikimedia.org/wiki/File:1009_Motor_End_Plate_and_Innervation.jpg",
+      "accessedAt": "2026-08-01",
+      "license": "CC BY 4.0",
+      "usedFor": "NMJ·근육 보기의 base asset; 축삭 말단, 시냅스 틈, 운동종판과 근섬유의 위치를 동일 원본에 표시한다."
+    },
+    {
+      "id": "wikimedia-lower-pons-horizontal-ccby3",
+      "label": "Wikimedia Commons · Lower pons horizontal KB",
+      "title": "Lower pons horizontal KB.svg",
+      "publisher": "Marshall Strother; locator anatomy by Patrick J. Lynch",
+      "section": "하부 교뇌 횡단면 원본",
+      "url": "https://commons.wikimedia.org/wiki/File:Lower_pons_horizontal_KB.svg",
+      "accessedAt": "2026-08-01",
+      "license": "CC BY 3.0",
+      "usedFor": "뇌간 단면 보기의 교뇌 variant base asset; 도판의 전후 방향과 교뇌 단면 외형을 직접 표시한다."
+    },
+    {
+      "id": "wikimedia-gray-upper-limb-nerves-pd",
+      "label": "Wikimedia Commons · Gray nerves of the left upper extremity",
+      "title": "Nerves of the left upper extremity.gif",
+      "publisher": "Henry Gray, Anatomy of the Human Body (1918)",
+      "section": "상지 말초신경 원본 도판",
+      "url": "https://commons.wikimedia.org/wiki/File:Nerves_of_the_left_upper_extremity.gif",
+      "accessedAt": "2026-08-01",
+      "license": "Public domain",
+      "usedFor": "상지 말초신경 보기의 base asset; 근피·정중·척골·요골신경의 상지 주행을 원본에서 표시한다."
+    },
+    {
+      "id": "wikimedia-gray742-horizontal-pd",
+      "label": "Wikimedia Commons · Gray742 horizontal cerebral hemisphere",
+      "title": "Gray742.png",
+      "publisher": "Henry Gray, Anatomy of the Human Body (1918)",
+      "section": "대뇌반구 수평단면 원본",
+      "url": "https://commons.wikimedia.org/wiki/File:Gray742.png",
+      "accessedAt": "2026-08-01",
+      "license": "Public domain",
+      "usedFor": "뇌 축상면·심부 보기의 base asset; 내포·시상·기저핵·뇌실·시방사 위치의 원본 대조에 사용한다."
+    },
+    {
+      "id": "wikimedia-gray710-midbrain-pd",
+      "label": "Wikimedia Commons · Gray710 midbrain cross-section",
+      "title": "Gray710.png",
+      "publisher": "Henry Gray, Anatomy of the Human Body (1918)",
+      "section": "중뇌 횡단면 원본",
+      "url": "https://commons.wikimedia.org/wiki/File:Gray710.png",
+      "accessedAt": "2026-08-01",
+      "license": "Public domain",
+      "usedFor": "뇌간 단면 보기의 중뇌 variant base asset; 중뇌의 공개 도메인 횡단면 원본을 직접 표시한다."
+    },
+    {
+      "id": "wikimedia-gray694-medulla-pd",
+      "label": "Wikimedia Commons · Gray694 medulla cross-section",
+      "title": "Gray694.png",
+      "publisher": "Henry Gray, Anatomy of the Human Body (1918)",
+      "section": "연수 횡단면 원본",
+      "url": "https://commons.wikimedia.org/wiki/File:Gray694.png",
+      "accessedAt": "2026-08-01",
+      "license": "Public domain",
+      "usedFor": "뇌간 단면 보기의 연수 variant base asset; 올리브핵 수준 연수의 공개 도메인 횡단면 원본을 직접 표시한다."
+    }
   ],
   "views": [
-    {"id":"neuraxis", "label":"전체 신경축", "description":"대뇌에서 척수·말초신경·신경근접합부·근육까지의 연결을 봅니다."},
-    {"id":"brain", "label":"뇌·뇌간", "description":"대뇌 피질, 시상, 내포와 뇌간의 주요 위치를 봅니다."},
-    {"id":"spinal", "label":"척수", "description":"척수 레벨, 주요 상행·하행로와 신경근 연결을 봅니다."},
-    {"id":"peripheral", "label":"말초신경", "description":"신경근·신경총·말초신경·NMJ·근육의 구분을 봅니다."}
+    {
+      "id": "whole-neuraxis",
+      "label": "전체 신경축",
+      "description": "대뇌부터 척수·신경근·말초신경·NMJ·근육까지 한 축으로 봅니다.",
+      "group": "개요",
+      "orientation": "anterior schematic",
+      "baseAsset": "/neuro-atlas/reference/human-nervous-system-line-art-public-domain.png",
+      "interactionMap": "whole-neuraxis",
+      "sourceIds": [
+        "pearson-nervous-system-pd",
+        "wikimedia-central-nervous-system-pd",
+        "openstax-cns"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "pearson-human-nervous-system-line-art-pd-v1",
+      "assetMethod": "public-domain-source",
+      "assetSourceIds": [
+        "pearson-nervous-system-pd",
+        "wikimedia-central-nervous-system-pd",
+        "openstax-cns"
+      ],
+      "assetLicense": "Public-domain source asset; attribution and original link appear in the hub source panel.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "282fe82d77c57cf26e350778213f5bbd03fef6a240d30904c626f6c93c306307"
+    },
+    {
+      "id": "cerebrum-lateral",
+      "label": "대뇌 외측면",
+      "description": "엽·주요 고랑과 이랑, 감각운동·언어 관련 피질을 확대합니다.",
+      "group": "뇌",
+      "orientation": "left lateral",
+      "baseAsset": "/neuro-atlas/reference/sobotta-cortex-lateral-public-domain.png",
+      "interactionMap": "cerebrum-lateral",
+      "sourceIds": [
+        "ncbi-cortex",
+        "terminologia-neuro",
+        "sobotta-public-domain",
+        "wikimedia-brain-lobes-pd"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "sobotta-1909-cortex-lateral-public-domain-v1",
+      "assetMethod": "public-domain-source",
+      "assetSourceIds": [
+        "sobotta-public-domain",
+        "ncbi-cortex",
+        "terminologia-neuro"
+      ],
+      "assetLicense": "Public-domain Sobotta 1909 lateral cerebral cortex plate, with source and attribution shown in the hub. Transparent click boundaries remain draft until source-image trace review is complete.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "9fb667feda097fede4293c4acf9ed60077f83563829733f8b70ed390b0d3d05c"
+    },
+    {
+      "id": "cerebrum-medial",
+      "label": "대뇌 내측면",
+      "description": "대상회·설전부·쐐기엽·설상회·중심곁소엽과 뇌량 주변을 봅니다.",
+      "group": "뇌",
+      "orientation": "left medial",
+      "baseAsset": "/neuro-atlas/reference/brain-sagittal-ccby25.svg",
+      "interactionMap": "cerebrum-medial",
+      "sourceIds": [
+        "wikimedia-brain-sagittal-ccby25",
+        "ncbi-cortex",
+        "terminologia-neuro"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "wikimedia-brain-sagittal-ccby25-medial-v1",
+      "assetMethod": "licensed-source",
+      "assetSourceIds": [
+        "wikimedia-brain-sagittal-ccby25",
+        "ncbi-cortex",
+        "terminologia-neuro"
+      ],
+      "assetLicense": "CC BY 2.5 source plate; attribution and original link appear in the hub source panel.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "afb9e3e9bfd2b76fa320e3d1880dd089ceec878a70eca3ba3e9ba52871d97605"
+    },
+    {
+      "id": "cerebrum-inferior",
+      "label": "대뇌 기저면",
+      "description": "안와면·측두저면과 뇌저 구조의 상대 위치를 봅니다.",
+      "group": "뇌",
+      "orientation": "inferior",
+      "baseAsset": "/neuro-atlas/reference/brain-human-cranial-nerves-ccby25.svg",
+      "interactionMap": "cerebrum-inferior",
+      "sourceIds": [
+        "wikimedia-brain-cranial-nerves-ccby25",
+        "ncbi-visual",
+        "terminologia-neuro"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "brain-human-cranial-nerves-ccby25-v1",
+      "assetMethod": "licensed-source",
+      "assetSourceIds": [
+        "wikimedia-brain-cranial-nerves-ccby25",
+        "ncbi-visual",
+        "terminologia-neuro"
+      ],
+      "assetLicense": "CC BY 2.5 source asset; attribution and original link appear in the hub source panel.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "451e4202a7c4c532961849636366f61e2987e4abf84dd385c68c75ecdf89e60f"
+    },
+    {
+      "id": "brain-midsagittal",
+      "label": "뇌 정중시상면",
+      "description": "뇌량·시상하부·뇌간·소뇌가 보이는 정중시상면을 봅니다.",
+      "group": "뇌",
+      "orientation": "midsagittal",
+      "baseAsset": "/neuro-atlas/reference/brain-sagittal-ccby25.svg",
+      "interactionMap": "brain-midsagittal",
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere",
+        "openstax-cns"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "brain-sagittal-ccby25-source-v1",
+      "assetMethod": "licensed-source",
+      "assetSourceIds": [
+        "wikimedia-brain-sagittal-ccby25",
+        "ncbi-cerebral-hemisphere",
+        "terminologia-neuro"
+      ],
+      "assetLicense": "CC BY 2.5 original asset. Attribution and source link are shown in the source panel; coordinate overlay remains draft until it is traced to this image.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "afb9e3e9bfd2b76fa320e3d1880dd089ceec878a70eca3ba3e9ba52871d97605"
+    },
+    {
+      "id": "brain-coronal",
+      "label": "뇌 관상면",
+      "description": "전방·기저핵·후방의 대표 관상면을 비교합니다.",
+      "group": "뇌",
+      "orientation": "coronal",
+      "baseAsset": "/neuro-atlas/reference/brain-coronal-ccby25.png",
+      "interactionMap": "brain-coronal",
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere",
+        "terminologia-neuro"
+      ],
+      "status": "draft-anatomy",
+      "variants": [
+        "anterior",
+        "basal-ganglia",
+        "posterior"
+      ],
+      "assetId": "brain-coronal-ccby25-source-v1",
+      "assetMethod": "licensed-source",
+      "assetSourceIds": [
+        "wikimedia-brain-coronal-ccby25",
+        "ncbi-cerebral-hemisphere",
+        "terminologia-neuro"
+      ],
+      "assetLicense": "CC BY 2.5 original asset. Attribution and source link are shown in the source panel; coordinate overlay remains draft until it is traced to this image.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "69f4199d7e51b9d1e614284ef981312ee1fcaa2631fa468e25924da9ba8c4d04"
+    },
+    {
+      "id": "brain-axial",
+      "label": "뇌 축상면·심부",
+      "description": "심부 회백질·내포·뇌실이 잘 보이는 대표 축상면을 비교합니다.",
+      "group": "뇌",
+      "orientation": "axial",
+      "baseAsset": "/neuro-atlas/reference/brain-axial-gray742-public-domain.png",
+      "interactionMap": "brain-axial",
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere",
+        "terminologia-neuro"
+      ],
+      "status": "draft-anatomy",
+      "variants": [
+        "ventricular",
+        "basal-ganglia",
+        "thalamic"
+      ],
+      "assetId": "gray742-horizontal-cerebral-hemisphere-public-domain",
+      "assetMethod": "public-domain-source",
+      "assetSourceIds": [
+        "wikimedia-gray742-horizontal-pd",
+        "terminologia-neuro"
+      ],
+      "assetLicense": "Public domain Gray anatomy plate; transparent click overlay added.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "09e1083178343b7266311bead55729f476790593b535aa5278c717c74d85c9f6"
+    },
+    {
+      "id": "brainstem-external",
+      "label": "뇌간·뇌신경",
+      "description": "중뇌·교뇌·연수와 주요 뇌신경의 출입 부위를 봅니다.",
+      "group": "뇌",
+      "orientation": "ventral external",
+      "baseAsset": "/neuro-atlas/reference/brain-stem-parts-cc0.png",
+      "interactionMap": "brainstem-external",
+      "sourceIds": [
+        "openstax-brainstem-cc0",
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "openstax-brainstem-cc0-v1",
+      "assetMethod": "public-domain-source",
+      "assetSourceIds": [
+        "openstax-brainstem-cc0",
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "assetLicense": "CC0 public-domain source asset; attribution and original link appear in the hub source panel.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "c302e9a7ca33d97016e3eb1215c212242d6690a02739a30089b4ffd30f99e171"
+    },
+    {
+      "id": "brainstem-section",
+      "label": "뇌간 단면",
+      "description": "중뇌·교뇌·연수의 대표 단면과 경로의 상대 위치를 봅니다.",
+      "group": "뇌",
+      "orientation": "transverse sections",
+      "baseAsset": "/neuro-atlas/brainstem-section.base.svg",
+      "interactionMap": "brainstem-section",
+      "sourceIds": [
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "status": "draft-anatomy",
+      "variants": [
+        "midbrain",
+        "pons",
+        "medulla"
+      ],
+      "assetId": "brainstem-section-redraw-v1",
+      "assetMethod": "independently-redrawn",
+      "assetSourceIds": [
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "assetLicense": "Independent educational vector redraw; references listed in assetSourceIds.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "487d293e0ee70bb848846acc95a499f7487580ee2fae7c1847108d03005e96d2",
+      "variantAssets": {
+        "pons": {
+          "asset": "/neuro-atlas/reference/lower-pons-horizontal-ccby3.svg",
+          "assetId": "lower-pons-horizontal-kb-ccby3",
+          "sourceIds": [
+            "wikimedia-lower-pons-horizontal-ccby3",
+            "openstax-cns"
+          ],
+          "license": "CC BY 3.0; Marshall Strother / Patrick J. Lynch, via Wikimedia Commons. Click overlay added.",
+          "sha256": "1aa8ab527f8bbc4f732112c0218f517fbb2f32a17485be9458369eef1112c3f3",
+          "reviewStatus": "draft-anatomy"
+        },
+        "midbrain": {
+          "asset": "/neuro-atlas/reference/midbrain-gray710-public-domain.png",
+          "assetId": "gray710-midbrain-public-domain",
+          "sourceIds": [
+            "wikimedia-gray710-midbrain-pd",
+            "terminologia-neuro"
+          ],
+          "license": "Public domain; Henry Gray, Anatomy of the Human Body (1918), via Wikimedia Commons. Transparent interaction overlay added.",
+          "sha256": "4256ff2d3139b51d01d704c202b95debbf82f86c832eba3a10f6add847b874af",
+          "reviewStatus": "draft-anatomy"
+        },
+        "medulla": {
+          "asset": "/neuro-atlas/reference/medulla-gray694-public-domain.png",
+          "assetId": "gray694-medulla-public-domain",
+          "sourceIds": [
+            "wikimedia-gray694-medulla-pd",
+            "terminologia-neuro"
+          ],
+          "license": "Public domain; Henry Gray, Anatomy of the Human Body (1918), via Wikimedia Commons. Transparent interaction overlay added.",
+          "sha256": "b6a47348b5ddd892a9c2dc186e545c6779e849da6067326c1483cedd10211a71",
+          "reviewStatus": "draft-anatomy"
+        }
+      }
+    },
+    {
+      "id": "cerebellum",
+      "label": "소뇌",
+      "description": "소뇌 반구·벌레·소뇌각과 뇌간 연결을 확대합니다.",
+      "group": "뇌",
+      "orientation": "posterior",
+      "baseAsset": "/neuro-atlas/reference/cerebellum-medulla-cortex-public-domain.svg",
+      "interactionMap": "cerebellum",
+      "sourceIds": [
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "cerebellum-medulla-cortex-public-domain-source-v1",
+      "assetMethod": "public-domain-source",
+      "assetSourceIds": [
+        "wikimedia-cerebellum-medulla-cortex-pd",
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "assetLicense": "Public-domain source asset. Lobule-level interaction boundaries remain draft until the source SVG is mapped to canonical atlas IDs.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "8626fa153626055b511e4b9d35d4e97eb63bd36d004279e7676931766f142391"
+    },
+    {
+      "id": "spinal-levels",
+      "label": "척수 분절",
+      "description": "경추·흉추·요추·천추 분절과 신경근이 나가는 높이를 봅니다.",
+      "group": "척수",
+      "orientation": "posterior levels",
+      "baseAsset": "/neuro-atlas/reference/spinal-segment-levels-public-domain.jpg",
+      "interactionMap": "spinal-levels",
+      "sourceIds": [
+        "wikimedia-spinal-segment-levels-pd",
+        "isncsci",
+        "openstax-cns"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "wikimedia-spinal-segment-levels-public-domain-v1",
+      "assetMethod": "public-domain-source",
+      "assetSourceIds": [
+        "wikimedia-spinal-segment-levels-pd",
+        "isncsci",
+        "openstax-cns"
+      ],
+      "assetLicense": "Public-domain 1912 anatomy plate; attribution and original link appear in the hub source panel.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "a45a233f194b23188e57e7c676587c8ea0e5e73fc12a7cb218cde25156eaff61"
+    },
+    {
+      "id": "spinal-cross-section",
+      "label": "척수 횡단면",
+      "description": "경추·흉추·요추 수준의 회백질·백질과 대표 장경로를 봅니다.",
+      "group": "척수",
+      "orientation": "transverse",
+      "baseAsset": "/neuro-atlas/reference/spinal-cord-cross-section-ccby4-diagram.png",
+      "interactionMap": "spinal-cross-section",
+      "sourceIds": [
+        "openstax-spinal-cross-section-ccby4",
+        "isncsci",
+        "wikimedia-spinal"
+      ],
+      "status": "draft-anatomy",
+      "variants": [
+        "cervical",
+        "thoracic",
+        "lumbar"
+      ],
+      "assetId": "openstax-spinal-cross-section-ccby4-crop-v1",
+      "assetMethod": "licensed-source",
+      "assetSourceIds": [
+        "openstax-spinal-cross-section-ccby4",
+        "isncsci",
+        "wikimedia-spinal"
+      ],
+      "assetLicense": "CC BY 4.0 derivative crop of source schematic; attribution and original link appear in the hub source panel.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "a7065b0a8ae714d42bba39e1b1c4080ff1e061a8a7961eafeb3c07075e2c851b"
+    },
+    {
+      "id": "brachial-plexus",
+      "label": "상완신경총",
+      "description": "C5–T1 신경근에서 상지 말초신경으로 이어지는 구성을 봅니다.",
+      "group": "말초",
+      "orientation": "anterior",
+      "baseAsset": "/neuro-atlas/reference/brachial-plexus-public-domain.svg",
+      "interactionMap": "brachial-plexus",
+      "sourceIds": [
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "brachial-plexus-public-domain-source-v1",
+      "assetMethod": "public-domain-source",
+      "assetSourceIds": [
+        "wikimedia-brachial-plexus-pd",
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "assetLicense": "Public-domain source asset. Individual nerve interaction boundaries remain draft until source SVG groups are mapped to canonical atlas IDs.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "c6b6316e75d69c6807bc515e75d567db534a84138c7affa630b561eb0a7d822f"
+    },
+    {
+      "id": "lumbosacral-plexus",
+      "label": "요천추신경총",
+      "description": "요추·천추 신경근에서 하지 말초신경으로 이어지는 구성을 봅니다.",
+      "group": "말초",
+      "orientation": "anterior",
+      "baseAsset": "/neuro-atlas/reference/lumbosacral-plexus-public-domain.jpg",
+      "interactionMap": "lumbosacral-plexus",
+      "sourceIds": [
+        "wikimedia-lumbar-plexus-pd",
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "gray-lumbar-plexus-public-domain-v1",
+      "assetMethod": "public-domain-source",
+      "assetSourceIds": [
+        "wikimedia-lumbar-plexus-pd",
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "assetLicense": "Public-domain Gray anatomy source asset; attribution and original link appear in the hub source panel.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "f8e8d2baffb678a565314c9611f94f5a4fa86da71ba6b4679726fbd297d75360"
+    },
+    {
+      "id": "sacral-plexus",
+      "label": "천골신경총",
+      "description": "요천추 연결줄기와 천골 신경총, 궁둥·정강신경으로 이어지는 골반부 구성을 봅니다.",
+      "group": "말초",
+      "orientation": "pelvic medial",
+      "baseAsset": "/neuro-atlas/reference/sacral-plexus-public-domain.png",
+      "interactionMap": "sacral-plexus",
+      "sourceIds": [
+        "wikimedia-sacral-plexus-pd",
+        "terminologia-neuro"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "gray-sacral-plexus-public-domain-v1",
+      "assetMethod": "public-domain-source",
+      "assetSourceIds": [
+        "wikimedia-sacral-plexus-pd",
+        "terminologia-neuro"
+      ],
+      "assetLicense": "Public-domain Gray anatomy source asset; attribution and original link appear in the hub source panel.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "6b80bfb2c42de732003e27a361b042bc6d37b2274d53a4f4644eb5470476eb4c"
+    },
+    {
+      "id": "upper-limb-nerves",
+      "label": "상지 말초신경",
+      "description": "정중·척골·요골·근피신경의 주요 주행과 감각·운동 영역을 봅니다.",
+      "group": "말초",
+      "orientation": "anterior",
+      "baseAsset": "/neuro-atlas/reference/upper-limb-nerves-gray-public-domain.gif",
+      "interactionMap": "upper-limb-nerves",
+      "sourceIds": [
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "gray-upper-limb-nerves-1918-public-domain",
+      "assetMethod": "public-domain-source",
+      "assetSourceIds": [
+        "wikimedia-gray-upper-limb-nerves-pd",
+        "terminologia-neuro"
+      ],
+      "assetLicense": "Public domain Gray anatomy plate; transparent click overlay added.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "1368b3fdf84155a50c4d614e81c5b263f38af9e3ca1f11bd4f2c189af769a2c8"
+    },
+    {
+      "id": "lower-limb-nerves",
+      "label": "하지 말초신경",
+      "description": "대퇴·좌골·경골·총비골신경의 주요 주행을 봅니다.",
+      "group": "말초",
+      "orientation": "anterior",
+      "baseAsset": "/neuro-atlas/reference/lower-limb-nerves-public-domain.png",
+      "interactionMap": "lower-limb-nerves",
+      "sourceIds": [
+        "wikimedia-lower-limb-nerves-pd",
+        "terminologia-neuro"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "gray-lower-limb-nerves-public-domain-v1",
+      "assetMethod": "public-domain-source",
+      "assetSourceIds": [
+        "wikimedia-lower-limb-nerves-pd",
+        "terminologia-neuro"
+      ],
+      "assetLicense": "Public-domain Gray anatomy plate; attribution and original link appear in the hub source panel.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "cd205ab53154ced13420515fbcff45b7c983186a916c9ac66416ab7c96bcef1a"
+    },
+    {
+      "id": "dermatome-anterior",
+      "label": "피부분절 전면",
+      "description": "ISNCSCI 핵심 감각점과 피부분절의 전면 분포를 봅니다.",
+      "group": "말초",
+      "orientation": "anterior body surface",
+      "baseAsset": "/neuro-atlas/reference/dermatomes-anterior-public-domain.png",
+      "interactionMap": "dermatome-anterior",
+      "sourceIds": [
+        "isncsci",
+        "ncbi-dermatomes",
+        "ncbi-sensory-nerves"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "dermatomes-anterior-public-domain-source-v1",
+      "assetMethod": "public-domain-source",
+      "assetSourceIds": [
+        "wikimedia-dermatomes-anterior-pd",
+        "isncsci",
+        "ncbi-dermatomes"
+      ],
+      "assetLicense": "Public-domain source asset. Segment boundaries and interaction coordinates remain draft until explicitly cross-checked against ISNCSCI landmarks.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "a6b8621ff4e81262948342a41ba4359729b47d3d117d73e02385707b4376f5cd"
+    },
+    {
+      "id": "dermatome-posterior",
+      "label": "피부분절 후면",
+      "description": "피부분절의 후면 분포와 주요 표면 표지를 봅니다.",
+      "group": "말초",
+      "orientation": "posterior body surface",
+      "baseAsset": "/neuro-atlas/reference/dermatomes-posterior-public-domain.svg",
+      "interactionMap": "dermatome-posterior",
+      "sourceIds": [
+        "isncsci",
+        "ncbi-dermatomes",
+        "ncbi-sensory-nerves"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "dermatomes-posterior-public-domain-source-v1",
+      "assetMethod": "public-domain-source",
+      "assetSourceIds": [
+        "wikimedia-dermatomes-posterior-pd",
+        "isncsci",
+        "ncbi-dermatomes"
+      ],
+      "assetLicense": "Public-domain source asset. Segment boundaries and interaction coordinates remain draft until explicitly cross-checked against ISNCSCI landmarks.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "b9f170cc26dba220eafec8eb0c202676a446114bcff448a533064876898c2022"
+    },
+    {
+      "id": "nmj-muscle",
+      "label": "NMJ·근육",
+      "description": "운동단위의 말단: 말초운동신경·신경근접합부·근섬유를 봅니다.",
+      "group": "말초",
+      "orientation": "schematic",
+      "baseAsset": "/neuro-atlas/reference/nmj-openstax-ccby4.jpg",
+      "interactionMap": "nmj-muscle",
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-nmj-physiology",
+        "ncbi-nmj-transmission"
+      ],
+      "status": "draft-anatomy",
+      "variants": [],
+      "assetId": "openstax-motor-end-plate-ccby4",
+      "assetMethod": "licensed-source",
+      "assetSourceIds": [
+        "wikimedia-openstax-motor-end-plate-ccby4",
+        "ncbi-nmj-physiology",
+        "ncbi-nmj-transmission"
+      ],
+      "assetLicense": "CC BY 4.0; OpenStax, via Wikimedia Commons. Click layer is an independent overlay.",
+      "reviewStatus": "draft-anatomy",
+      "assetSha256": "47b9ef82495515484daaea29bffce99ac2738ea07c34f7a0050e284045f2d2f6"
+    }
   ],
   "structures": [
-    {"id":"cortex", "ko":"대뇌피질", "en":"Cerebral cortex", "group":"뇌", "summary":"운동·감각·언어·시야 등 국소 피질 기능을 통합합니다.", "links":["뇌졸중 (Stroke)","뇌출혈 (Intracerebral Hemorrhage)"]},
-    {"id":"internal-capsule", "ko":"내포", "en":"Internal capsule", "group":"뇌", "summary":"피질척수·피질연수로가 밀집하는 백질 통로입니다.", "links":["뇌경색 (Cerebral Infarction)"]},
-    {"id":"thalamus", "ko":"시상", "en":"Thalamus", "group":"뇌", "summary":"대부분의 감각 정보가 대뇌피질로 가기 전 거치는 중계 구조입니다.", "links":["뇌경색 (Cerebral Infarction)"]},
-    {"id":"brainstem", "ko":"뇌간", "en":"Brainstem", "group":"뇌", "summary":"중뇌·교뇌·연수로 구성되며 뇌신경핵과 장경로가 가깝게 모입니다.", "links":["뇌간 뇌졸중 (Brainstem Stroke)"]},
-    {"id":"cerebellum", "ko":"소뇌", "en":"Cerebellum", "group":"뇌", "summary":"협응, 보행, 안구운동 조절에 관여합니다.", "links":["소뇌경색 (Cerebellar Infarction)"]},
-    {"id":"spinal-cord", "ko":"척수", "en":"Spinal cord", "group":"척수", "summary":"운동·감각 장경로와 분절성 반사 회로가 만나는 중심 통로입니다.", "links":["척수손상 (Spinal Cord Injury)","Brown-Sequard 증후군 (Brown-Sequard Syndrome)"]},
-    {"id":"root", "ko":"신경근", "en":"Nerve root", "group":"말초", "summary":"특정 척수 분절에서 나오는 운동·감각 섬유의 시작점입니다.", "links":["요추 추간판 탈출증 (Lumbar Disc Herniation)"]},
-    {"id":"plexus", "ko":"신경총", "en":"Plexus", "group":"말초", "summary":"여러 신경근 섬유가 섞여 말초신경을 이루는 구간입니다.", "links":["상완신경총 손상 (Brachial Plexus Injury)"]},
-    {"id":"peripheral-nerve", "ko":"말초신경", "en":"Peripheral nerve", "group":"말초", "summary":"말단 장기로 주행하는 혼합신경입니다.", "links":["말초신경병증 (Peripheral Neuropathy)","수근관 증후군 (Carpal Tunnel Syndrome)"]},
-    {"id":"nmj", "ko":"신경근접합부", "en":"Neuromuscular junction", "group":"말초", "summary":"운동신경 말단의 신호가 근섬유로 전달되는 시냅스입니다.", "links":["중증 근무력증 (Myasthenia Gravis)"]},
-    {"id":"muscle", "ko":"골격근", "en":"Skeletal muscle", "group":"말초", "summary":"운동단위의 최종 효과기관입니다.", "links":["염증성 근육병증 (Inflammatory Myopathy)"]}
+    {
+      "id": "frontal-lobe",
+      "ko": "전두엽",
+      "en": "Frontal lobe",
+      "group": "대뇌 외측면",
+      "summary": "운동 계획, 실행기능, 언어 산출 등 여러 기능이 연관되는 전방 대뇌피질입니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "parietal-lobe",
+      "ko": "두정엽",
+      "en": "Parietal lobe",
+      "group": "대뇌 외측면",
+      "summary": "중심고랑 뒤쪽의 대뇌피질 영역으로 체성감각 통합, 공간 주의 및 여러 연합기능에 관여합니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "temporal-lobe",
+      "ko": "측두엽",
+      "en": "Temporal lobe",
+      "group": "대뇌 외측면",
+      "summary": "가쪽고랑 아래의 대뇌피질 영역으로 청각, 언어 이해, 기억 관련 네트워크와 연관됩니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "precentral-gyrus",
+      "ko": "전중심이랑",
+      "en": "Precentral gyrus",
+      "group": "대뇌 외측면",
+      "summary": "일차운동피질을 포함하는 중심고랑 앞쪽 이랑입니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "cerebrum-lateral",
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere"
+      ]
+    },
+    {
+      "id": "postcentral-gyrus",
+      "ko": "후중심이랑",
+      "en": "Postcentral gyrus",
+      "group": "대뇌 외측면",
+      "summary": "일차체성감각피질을 포함하는 중심고랑 뒤쪽 이랑입니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "cerebrum-lateral",
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "pars-opercularis",
+      "ko": "피개부",
+      "en": "Pars opercularis",
+      "group": "대뇌 외측면",
+      "summary": "하전두이랑의 뒤쪽 부분입니다. 우세반구 언어 기능은 넓은 네트워크로 해석합니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "pars-triangularis",
+      "ko": "삼각부",
+      "en": "Pars triangularis",
+      "group": "대뇌 외측면",
+      "summary": "하전두이랑의 중간 부분입니다. 언어 관련 기능은 개인차와 네트워크 관점이 필요합니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "superior-parietal",
+      "ko": "상두정소엽",
+      "en": "Superior parietal lobule",
+      "group": "대뇌 외측면",
+      "summary": "공간·감각 통합과 연관되는 두정엽 상부 영역입니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "supramarginal-gyrus",
+      "ko": "변연상회",
+      "en": "Supramarginal gyrus",
+      "group": "대뇌 외측면",
+      "summary": "두정엽 하부의 고리 모양 피질 영역입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "angular-gyrus",
+      "ko": "각회",
+      "en": "Angular gyrus",
+      "group": "대뇌 외측면",
+      "summary": "두정·측두·후두 접합 부위의 피질 영역입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "superior-temporal-gyrus",
+      "ko": "상측두이랑",
+      "en": "Superior temporal gyrus",
+      "group": "대뇌 외측면",
+      "summary": "가쪽고랑 아래의 상측두회 영역으로 청각·언어 네트워크와 연관됩니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "occipital-lobe",
+      "ko": "후두엽",
+      "en": "Occipital lobe",
+      "group": "대뇌 외측면",
+      "summary": "시각 정보 처리와 연관되는 뒤쪽 대뇌피질입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-lateral",
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "cingulate-gyrus",
+      "ko": "대상회",
+      "en": "Cingulate gyrus",
+      "group": "대뇌 내측면",
+      "summary": "뇌량 위를 따라 주행하는 변연계 관련 피질 구조입니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "paracentral-lobule",
+      "ko": "중심곁소엽",
+      "en": "Paracentral lobule",
+      "group": "대뇌 내측면",
+      "summary": "전·후중심이랑의 내측 연속부로, 하지 운동·감각 표현과 관련됩니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "precuneus",
+      "ko": "설전부",
+      "en": "Precuneus",
+      "group": "대뇌 내측면",
+      "summary": "두정엽 내측면의 피질 영역입니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "cuneus",
+      "ko": "쐐기엽",
+      "en": "Cuneus",
+      "group": "대뇌 내측면",
+      "summary": "두정후두고랑과 조거리고랑 사이의 내측 후두피질입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "lingual-gyrus",
+      "ko": "설상회",
+      "en": "Lingual gyrus",
+      "group": "대뇌 내측면",
+      "summary": "조거리고랑 아래의 내측 후두·측두 피질 영역입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "thalamus",
+      "ko": "시상",
+      "en": "Thalamus",
+      "group": "뇌 심부",
+      "summary": "대부분의 감각 정보가 대뇌피질로 가기 전 거치는 중계 구조입니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "brain-axial",
+        "brain-coronal",
+        "brain-midsagittal"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere"
+      ]
+    },
+    {
+      "id": "basal-ganglia",
+      "ko": "기저핵",
+      "en": "Basal ganglia",
+      "group": "뇌 심부",
+      "summary": "운동 조절 회로에 관여하는 심부 회백질핵의 집합입니다.",
+      "links": [
+        "파킨슨 증후군 (Parkinsonism)"
+      ],
+      "viewIds": [
+        "brain-axial",
+        "brain-coronal",
+        "brain-midsagittal"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere"
+      ]
+    },
+    {
+      "id": "internal-capsule",
+      "ko": "내포",
+      "en": "Internal capsule",
+      "group": "뇌 심부",
+      "summary": "투사섬유가 밀집하는 백질 통로로 피질척수로와 피질연수로가 통과합니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "brain-axial",
+        "brain-coronal",
+        "brain-midsagittal"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere"
+      ]
+    },
+    {
+      "id": "midbrain",
+      "ko": "중뇌",
+      "en": "Midbrain",
+      "group": "뇌간",
+      "summary": "뇌간 상부로 CN III·IV와 장경로, 중뇌 구조를 포함합니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "brainstem-external",
+        "brainstem-section"
+      ],
+      "sourceIds": [
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "pons",
+      "ko": "교뇌",
+      "en": "Pons",
+      "group": "뇌간",
+      "summary": "뇌간 중간 부위로 소뇌와의 연결 및 여러 뇌신경핵과 관련됩니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "brainstem-external",
+        "brainstem-section"
+      ],
+      "sourceIds": [
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "medulla",
+      "ko": "연수",
+      "en": "Medulla oblongata",
+      "group": "뇌간",
+      "summary": "호흡·순환 자율기능 및 피라미드 교차를 포함하는 하부 뇌간입니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "brainstem-external",
+        "brainstem-section"
+      ],
+      "sourceIds": [
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "cerebellum",
+      "ko": "소뇌",
+      "en": "Cerebellum",
+      "group": "소뇌",
+      "summary": "협응, 보행, 안구운동 조절에 관여합니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "cerebellum"
+      ],
+      "sourceIds": [
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "cerebellar-white-matter",
+      "ko": "소뇌 백질",
+      "en": "Cerebellar white matter",
+      "group": "소뇌",
+      "summary": "소뇌 피질과 깊은 소뇌핵을 연결하는 백질 가지 구조입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebellum"
+      ],
+      "sourceIds": [
+        "wikimedia-cerebellum-medulla-cortex-pd",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "cerebellar-cortex",
+      "ko": "소뇌 피질",
+      "en": "Cerebellar cortex",
+      "group": "소뇌",
+      "summary": "소뇌의 표층 회색질로, 협응·운동학습과 관련된 회로의 입력·출력 처리 층입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebellum"
+      ],
+      "sourceIds": [
+        "wikimedia-cerebellum-medulla-cortex-pd",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "spinal-cord",
+      "ko": "척수",
+      "en": "Spinal cord",
+      "group": "척수",
+      "summary": "운동·감각 장경로와 분절성 반사 회로가 만나는 중심 통로입니다.",
+      "links": [
+        "척수 외상 (Spinal cord trauma)"
+      ],
+      "viewIds": [
+        "spinal-cross-section",
+        "spinal-levels"
+      ],
+      "sourceIds": [
+        "isncsci",
+        "wikimedia-spinal"
+      ]
+    },
+    {
+      "id": "dorsal-column",
+      "ko": "뒤기둥",
+      "en": "Dorsal columns",
+      "group": "척수",
+      "summary": "진동·위치감각·정교한 촉각을 전달하는 뒤쪽 백질로입니다.",
+      "links": [
+        "Brown-Sequard 증후군 (Brown-Sequard syndrome)"
+      ],
+      "viewIds": [
+        "spinal-levels",
+        "spinal-cross-section"
+      ],
+      "sourceIds": [
+        "wikimedia-spinal"
+      ]
+    },
+    {
+      "id": "lateral-corticospinal",
+      "ko": "가쪽피질척수로",
+      "en": "Lateral corticospinal tract",
+      "group": "척수",
+      "summary": "대부분의 피질척수 섬유가 연수에서 교차한 뒤 주행하는 하행 운동로입니다.",
+      "links": [
+        "척수 외상 (Spinal cord trauma)"
+      ],
+      "viewIds": [
+        "spinal-levels",
+        "spinal-cross-section"
+      ],
+      "sourceIds": [
+        "wikimedia-spinal"
+      ]
+    },
+    {
+      "id": "spinothalamic",
+      "ko": "앞가쪽계통",
+      "en": "Anterolateral system",
+      "group": "척수",
+      "summary": "통각·온각 전달을 주로 포함하는 앞가쪽 백질 영역입니다.",
+      "links": [
+        "Brown-Sequard 증후군 (Brown-Sequard syndrome)"
+      ],
+      "viewIds": [
+        "spinal-levels",
+        "spinal-cross-section"
+      ],
+      "sourceIds": [
+        "wikimedia-spinal"
+      ]
+    },
+    {
+      "id": "nerve-root",
+      "ko": "신경근",
+      "en": "Nerve root",
+      "group": "말초신경",
+      "summary": "척수 분절에서 나오는 운동·감각 섬유의 시작점입니다.",
+      "links": [],
+      "viewIds": [
+        "spinal-cross-section",
+        "brachial-plexus",
+        "lumbosacral-plexus",
+        "sacral-plexus"
+      ],
+      "sourceIds": [
+        "isncsci"
+      ]
+    },
+    {
+      "id": "brachial-plexus",
+      "ko": "상완신경총",
+      "en": "Brachial plexus",
+      "group": "말초신경",
+      "summary": "C5–T1 앞가지가 합쳐져 상지 말초신경을 이루는 신경총입니다.",
+      "links": [],
+      "viewIds": [
+        "brachial-plexus",
+        "lumbosacral-plexus",
+        "upper-limb-nerves",
+        "lower-limb-nerves"
+      ],
+      "sourceIds": [
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "peripheral-nerve",
+      "ko": "말초신경",
+      "en": "Peripheral nerve",
+      "group": "말초신경",
+      "summary": "말단 장기로 주행하는 혼합신경입니다.",
+      "links": [],
+      "viewIds": [
+        "brachial-plexus",
+        "lumbosacral-plexus",
+        "upper-limb-nerves",
+        "lower-limb-nerves"
+      ],
+      "sourceIds": [
+        "isncsci"
+      ]
+    },
+    {
+      "id": "neuromuscular-junction",
+      "ko": "신경근접합부",
+      "en": "Neuromuscular junction",
+      "group": "NMJ·근육",
+      "summary": "운동신경 말단의 신호가 근섬유로 전달되는 시냅스입니다.",
+      "links": [
+        "중증 근무력증 (Myasthenia gravis)"
+      ],
+      "viewIds": [
+        "nmj-muscle",
+        "whole-neuraxis"
+      ],
+      "sourceIds": [
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "skeletal-muscle",
+      "ko": "골격근",
+      "en": "Skeletal muscle",
+      "group": "NMJ·근육",
+      "summary": "운동단위의 최종 효과기관입니다.",
+      "links": [],
+      "viewIds": [
+        "nmj-muscle",
+        "whole-neuraxis"
+      ],
+      "sourceIds": [
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "central-sulcus",
+      "ko": "중심고랑",
+      "en": "Central sulcus",
+      "group": "대뇌 외측면",
+      "summary": "전중심이랑과 후중심이랑 사이의 주요 고랑입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex",
+        "sobotta-public-domain"
+      ]
+    },
+    {
+      "id": "lateral-sulcus",
+      "ko": "가쪽고랑",
+      "en": "Lateral sulcus",
+      "group": "대뇌 외측면",
+      "summary": "전두·두정엽과 측두엽 사이의 주요 고랑입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex",
+        "sobotta-public-domain"
+      ]
+    },
+    {
+      "id": "superior-frontal-gyrus",
+      "ko": "상전두이랑",
+      "en": "Superior frontal gyrus",
+      "group": "대뇌 외측면",
+      "summary": "전두엽 상부의 피질 이랑입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex",
+        "sobotta-public-domain"
+      ]
+    },
+    {
+      "id": "middle-frontal-gyrus",
+      "ko": "중전두이랑",
+      "en": "Middle frontal gyrus",
+      "group": "대뇌 외측면",
+      "summary": "상전두고랑과 하전두고랑 사이의 전두피질입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex",
+        "sobotta-public-domain"
+      ]
+    },
+    {
+      "id": "inferior-frontal-gyrus",
+      "ko": "하전두이랑",
+      "en": "Inferior frontal gyrus",
+      "group": "대뇌 외측면",
+      "summary": "피개부·삼각부·안와부를 포함하는 전두엽 하부 피질입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex",
+        "sobotta-public-domain"
+      ]
+    },
+    {
+      "id": "inferior-parietal-lobule",
+      "ko": "하두정소엽",
+      "en": "Inferior parietal lobule",
+      "group": "대뇌 외측면",
+      "summary": "변연상회와 각회를 포함하는 두정엽 하부 영역입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex",
+        "sobotta-public-domain"
+      ]
+    },
+    {
+      "id": "middle-temporal-gyrus",
+      "ko": "중측두이랑",
+      "en": "Middle temporal gyrus",
+      "group": "대뇌 외측면",
+      "summary": "상·하측두고랑 사이의 측두피질입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex",
+        "sobotta-public-domain"
+      ]
+    },
+    {
+      "id": "inferior-temporal-gyrus",
+      "ko": "하측두이랑",
+      "en": "Inferior temporal gyrus",
+      "group": "대뇌 외측면",
+      "summary": "측두엽 외측 하부의 피질 이랑입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex",
+        "sobotta-public-domain"
+      ]
+    },
+    {
+      "id": "calcarine-sulcus",
+      "ko": "조거리고랑",
+      "en": "Calcarine sulcus",
+      "group": "대뇌 내측면",
+      "summary": "쐐기엽과 설상회 사이의 후두엽 내측 고랑입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "medial-frontal-cortex",
+      "ko": "내측전두피질",
+      "en": "Medial frontal cortex",
+      "group": "대뇌 내측면",
+      "summary": "전두엽 내측면의 피질 영역입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "corpus-callosum",
+      "ko": "뇌량",
+      "en": "Corpus callosum",
+      "group": "대뇌 내측면",
+      "summary": "양 대뇌반구를 연결하는 주요 교련섬유 구조입니다.",
+      "links": [],
+      "viewIds": [
+        "cerebrum-medial",
+        "brain-axial",
+        "brain-coronal",
+        "brain-midsagittal"
+      ],
+      "sourceIds": [
+        "ncbi-cortex",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "caudate",
+      "ko": "미상핵",
+      "en": "Caudate nucleus",
+      "group": "뇌 심부",
+      "summary": "기저핵의 한 구성요소로 가쪽뇌실과 인접합니다.",
+      "links": [],
+      "viewIds": [
+        "brain-axial",
+        "brain-coronal",
+        "brain-midsagittal"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere"
+      ]
+    },
+    {
+      "id": "putamen",
+      "ko": "조가비핵",
+      "en": "Putamen",
+      "group": "뇌 심부",
+      "summary": "렌즈핵의 가쪽 부분으로 운동 회로와 관련됩니다.",
+      "links": [],
+      "viewIds": [
+        "brain-axial",
+        "brain-coronal",
+        "brain-midsagittal"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere"
+      ]
+    },
+    {
+      "id": "globus-pallidus",
+      "ko": "창백핵",
+      "en": "Globus pallidus",
+      "group": "뇌 심부",
+      "summary": "렌즈핵의 안쪽 부분으로 기저핵 회로에 속합니다.",
+      "links": [],
+      "viewIds": [
+        "brain-axial",
+        "brain-coronal",
+        "brain-midsagittal"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere"
+      ]
+    },
+    {
+      "id": "hypothalamus",
+      "ko": "시상하부",
+      "en": "Hypothalamus",
+      "group": "뇌 심부",
+      "summary": "자율신경·내분비 조절과 관련된 간뇌 구조입니다.",
+      "links": [],
+      "viewIds": [
+        "brain-axial",
+        "brain-coronal",
+        "brain-midsagittal"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere"
+      ]
+    },
+    {
+      "id": "lateral-ventricle",
+      "ko": "가쪽뇌실",
+      "en": "Lateral ventricle",
+      "group": "뇌 심부",
+      "summary": "뇌척수액 공간인 가쪽뇌실입니다.",
+      "links": [],
+      "viewIds": [
+        "brain-axial",
+        "brain-coronal",
+        "brain-midsagittal"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere"
+      ]
+    },
+    {
+      "id": "external-capsule",
+      "ko": "외포",
+      "en": "External capsule",
+      "group": "뇌 심부",
+      "summary": "조가비핵과 섬엽 사이의 백질층입니다.",
+      "links": [],
+      "viewIds": [
+        "brain-axial",
+        "brain-coronal",
+        "brain-midsagittal"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere"
+      ]
+    },
+    {
+      "id": "hippocampus",
+      "ko": "해마",
+      "en": "Hippocampus",
+      "group": "뇌 심부",
+      "summary": "내측 측두엽의 기억 관련 구조입니다.",
+      "links": [],
+      "viewIds": [
+        "brain-axial",
+        "brain-coronal",
+        "brain-midsagittal"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere"
+      ]
+    },
+    {
+      "id": "amygdala",
+      "ko": "편도체",
+      "en": "Amygdala",
+      "group": "뇌 심부",
+      "summary": "내측 측두엽 앞부분의 변연계 구조입니다.",
+      "links": [],
+      "viewIds": [
+        "brain-axial",
+        "brain-coronal",
+        "brain-midsagittal"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere"
+      ]
+    },
+    {
+      "id": "retina",
+      "ko": "망막",
+      "en": "Retina",
+      "group": "뇌신경",
+      "summary": "시각 신호의 출발점이며 동공 빛반사의 구심성 입력입니다.",
+      "viewIds": [
+        "cerebrum-inferior",
+        "brainstem-external"
+      ],
+      "sourceIds": [
+        "ncbi-visual",
+        "ncbi-pupil"
+      ],
+      "links": []
+    },
+    {
+      "id": "optic-nerve",
+      "ko": "시신경",
+      "en": "Optic nerve",
+      "group": "뇌신경",
+      "summary": "망막 신경절세포 축삭으로 구성된 CN II입니다.",
+      "viewIds": [
+        "cerebrum-inferior",
+        "brainstem-external"
+      ],
+      "sourceIds": [
+        "ncbi-visual"
+      ],
+      "links": []
+    },
+    {
+      "id": "optic-chiasm",
+      "ko": "시신경교차",
+      "en": "Optic chiasm",
+      "group": "뇌",
+      "summary": "비측 망막 섬유가 주로 교차하는 뇌저 구조입니다.",
+      "viewIds": [
+        "cerebrum-inferior",
+        "brain-midsagittal"
+      ],
+      "sourceIds": [
+        "ncbi-visual"
+      ],
+      "links": []
+    },
+    {
+      "id": "optic-tract",
+      "ko": "시삭",
+      "en": "Optic tract",
+      "group": "뇌",
+      "summary": "교차 이후 반대쪽 시야 정보를 전달하는 시각 경로입니다.",
+      "viewIds": [
+        "brain-axial"
+      ],
+      "sourceIds": [
+        "ncbi-visual"
+      ],
+      "links": []
+    },
+    {
+      "id": "lateral-geniculate",
+      "ko": "가쪽무릎체",
+      "en": "Lateral geniculate nucleus",
+      "group": "뇌",
+      "summary": "시상 내 시각 경로의 주요 중계핵입니다.",
+      "viewIds": [
+        "brain-axial",
+        "brain-coronal"
+      ],
+      "sourceIds": [
+        "ncbi-visual"
+      ],
+      "links": []
+    },
+    {
+      "id": "optic-radiation",
+      "ko": "시방사",
+      "en": "Optic radiation",
+      "group": "뇌",
+      "summary": "가쪽무릎체에서 일차시각피질로 가는 백질 경로입니다.",
+      "viewIds": [
+        "brain-axial"
+      ],
+      "sourceIds": [
+        "ncbi-visual"
+      ],
+      "links": []
+    },
+    {
+      "id": "primary-visual-cortex",
+      "ko": "일차시각피질",
+      "en": "Primary visual cortex",
+      "group": "뇌",
+      "summary": "조거리고랑 주변의 시각피질입니다.",
+      "viewIds": [
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-visual"
+      ],
+      "links": []
+    },
+    {
+      "id": "trigeminal-ganglion",
+      "ko": "삼차신경절",
+      "en": "Trigeminal ganglion",
+      "group": "뇌신경",
+      "summary": "얼굴 감각의 1차 감각신경세포가 모이는 신경절입니다.",
+      "viewIds": [
+        "brainstem-external"
+      ],
+      "sourceIds": [
+        "ncbi-trigeminal"
+      ],
+      "links": []
+    },
+    {
+      "id": "trigeminal-nucleus",
+      "ko": "삼차신경핵",
+      "en": "Trigeminal nuclei",
+      "group": "뇌간",
+      "summary": "얼굴 촉각·통각과 반사에 관여하는 뇌간 감각핵군입니다.",
+      "viewIds": [
+        "brainstem-section"
+      ],
+      "sourceIds": [
+        "ncbi-trigeminal"
+      ],
+      "links": []
+    },
+    {
+      "id": "vestibular-nucleus",
+      "ko": "전정핵",
+      "en": "Vestibular nuclei",
+      "group": "뇌간",
+      "summary": "전정 입력을 소뇌·안구운동핵·척수와 통합하는 핵군입니다.",
+      "viewIds": [
+        "brainstem-section"
+      ],
+      "sourceIds": [
+        "ncbi-vestibular"
+      ],
+      "links": []
+    },
+    {
+      "id": "cochlea",
+      "ko": "와우",
+      "en": "Cochlea",
+      "group": "뇌신경",
+      "summary": "청각 말초수용 기관입니다.",
+      "viewIds": [
+        "brainstem-external"
+      ],
+      "sourceIds": [
+        "ncbi-auditory"
+      ],
+      "links": []
+    },
+    {
+      "id": "primary-auditory-cortex",
+      "ko": "일차청각피질",
+      "en": "Primary auditory cortex",
+      "group": "뇌",
+      "summary": "상측두면의 청각 관련 피질입니다.",
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-auditory"
+      ],
+      "links": []
+    },
+    {
+      "id": "motor-cortex",
+      "ko": "일차운동피질",
+      "en": "Primary motor cortex",
+      "group": "뇌",
+      "summary": "전중심이랑의 대표 기능피질 layer입니다.",
+      "viewIds": [
+        "cerebrum-lateral",
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere"
+      ],
+      "links": []
+    },
+    {
+      "id": "somatosensory-cortex",
+      "ko": "일차체성감각피질",
+      "en": "Primary somatosensory cortex",
+      "group": "뇌",
+      "summary": "후중심이랑의 대표 기능피질 layer입니다.",
+      "viewIds": [
+        "cerebrum-lateral",
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ],
+      "links": []
+    },
+    {
+      "id": "supplementary-motor-area",
+      "ko": "보조운동영역",
+      "en": "Supplementary motor area",
+      "group": "기능 피질",
+      "summary": "내측 전두피질의 운동 계획 관련 대표 기능 영역입니다. 기능적 경계와 개인차를 함께 고려합니다.",
+      "viewIds": [
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ],
+      "links": []
+    },
+    {
+      "id": "frontal-eye-field",
+      "ko": "전두안구영역",
+      "en": "Frontal eye field",
+      "group": "기능 피질",
+      "summary": "수의적 주시 조절과 관련된 대표 기능 영역입니다. 안구운동은 뇌간 회로와 함께 해석합니다.",
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ],
+      "links": []
+    },
+    {
+      "id": "broca-language-network",
+      "ko": "Broca 언어 네트워크",
+      "en": "Broca language network",
+      "group": "기능 피질",
+      "summary": "우세반구 하전두영역을 중심으로 하는 언어 산출 관련 네트워크의 대표 표지입니다. 단일 점으로 단정하지 않습니다.",
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ],
+      "links": []
+    },
+    {
+      "id": "wernicke-language-network",
+      "ko": "Wernicke 언어 네트워크",
+      "en": "Wernicke language network",
+      "group": "기능 피질",
+      "summary": "우세반구 후상측두–두정 연합영역을 포함하는 언어 이해 관련 대표 네트워크 표지입니다.",
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ],
+      "links": []
+    },
+    {
+      "id": "association-cortex",
+      "ko": "연합피질",
+      "en": "Association cortex",
+      "group": "기능 피질",
+      "summary": "감각·운동·언어 정보를 통합하는 광범위한 피질 영역의 교육용 표시입니다.",
+      "viewIds": [
+        "cerebrum-lateral",
+        "cerebrum-medial"
+      ],
+      "sourceIds": [
+        "ncbi-cortex"
+      ],
+      "links": []
+    },
+    {
+      "id": "broca-area",
+      "ko": "브로카 영역",
+      "en": "Broca area",
+      "group": "대뇌 외측면",
+      "summary": "우성 반구의 하전두회 뒤쪽에 해당하는 언어 산출 관련 피질 영역입니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "wernicke-area",
+      "ko": "베르니케 영역",
+      "en": "Wernicke area",
+      "group": "대뇌 외측면",
+      "summary": "우성 반구의 후상측두회 중심으로 기술되는 언어 이해 관련 피질 영역입니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "cerebrum-lateral"
+      ],
+      "sourceIds": [
+        "ncbi-cortex",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "insula",
+      "ko": "섬엽",
+      "en": "Insula",
+      "group": "대뇌 외측면",
+      "summary": "외측고랑 깊이에 위치하는 대뇌피질로, 주변 피개가 열릴 때 관찰됩니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)"
+      ],
+      "viewIds": [
+        "cerebrum-lateral",
+        "brain-axial",
+        "brain-coronal"
+      ],
+      "sourceIds": [
+        "ncbi-cortex",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "dorsal-root",
+      "ko": "뒤뿌리",
+      "en": "Dorsal root",
+      "group": "척수",
+      "summary": "감각신경절과 연결되어 구심성 감각섬유가 척수로 들어오는 신경뿌리입니다.",
+      "links": [
+        "척수손상 (Spinal Cord Injury)"
+      ],
+      "viewIds": [
+        "spinal-levels",
+        "spinal-cross-section"
+      ],
+      "sourceIds": [
+        "isncsci",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "ventral-root",
+      "ko": "앞뿌리",
+      "en": "Ventral root",
+      "group": "척수",
+      "summary": "원심성 운동섬유가 척수에서 나가는 신경뿌리입니다.",
+      "links": [
+        "척수손상 (Spinal Cord Injury)"
+      ],
+      "viewIds": [
+        "spinal-levels",
+        "spinal-cross-section"
+      ],
+      "sourceIds": [
+        "isncsci",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "lumbosacral-plexus",
+      "ko": "요천추신경총",
+      "en": "Lumbosacral plexus",
+      "group": "말초신경",
+      "summary": "요추와 천추 앞가지가 결합해 하지와 골반부를 지배하는 말초신경을 이루는 신경총입니다.",
+      "links": [],
+      "viewIds": [
+        "lumbosacral-plexus",
+        "lower-limb-nerves",
+        "sacral-plexus"
+      ],
+      "sourceIds": [
+        "openstax-cns",
+        "terminologia-neuro",
+        "wikimedia-sacral-plexus-pd"
+      ]
+    },
+    {
+      "id": "iliohypogastric-nerve",
+      "ko": "장골하복신경",
+      "en": "Iliohypogastric nerve",
+      "summary": "T12–L1에서 기원하여 하복부·둔부 상외측 피부와 복벽 근육에 분포합니다.",
+      "group": "말초신경",
+      "links": [],
+      "viewIds": [
+        "lumbosacral-plexus"
+      ],
+      "sourceIds": [
+        "wikimedia-lumbar-plexus-pd",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "ilioinguinal-nerve",
+      "ko": "장골서혜신경",
+      "en": "Ilioinguinal nerve",
+      "summary": "L1에서 기원하여 서혜부·외부생식기 주변과 상내측 대퇴 피부에 분포합니다.",
+      "group": "말초신경",
+      "links": [],
+      "viewIds": [
+        "lumbosacral-plexus"
+      ],
+      "sourceIds": [
+        "wikimedia-lumbar-plexus-pd",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "genitofemoral-nerve",
+      "ko": "생식대퇴신경",
+      "en": "Genitofemoral nerve",
+      "summary": "L1–L2에서 기원해 생식가지와 대퇴가지로 나뉘며 서혜부 감각 및 cremaster 반사 구심성에 관여합니다.",
+      "group": "말초신경",
+      "links": [],
+      "viewIds": [
+        "lumbosacral-plexus"
+      ],
+      "sourceIds": [
+        "wikimedia-lumbar-plexus-pd",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "lateral-femoral-cutaneous-nerve",
+      "ko": "외측대퇴피신경",
+      "en": "Lateral femoral cutaneous nerve",
+      "summary": "L2–L3에서 기원하는 순수 감각신경으로 대퇴 외측 감각을 담당합니다.",
+      "group": "말초신경",
+      "links": [],
+      "viewIds": [
+        "lumbosacral-plexus"
+      ],
+      "sourceIds": [
+        "wikimedia-lumbar-plexus-pd",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "femoral-nerve",
+      "ko": "대퇴신경",
+      "en": "Femoral nerve",
+      "summary": "L2–L4에서 기원하며 대퇴 전면 근육과 앞·안쪽 대퇴 및 하지 감각에 관여합니다.",
+      "group": "말초신경",
+      "links": [],
+      "viewIds": [
+        "lumbosacral-plexus",
+        "lower-limb-nerves"
+      ],
+      "sourceIds": [
+        "wikimedia-lumbar-plexus-pd",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "obturator-nerve",
+      "ko": "폐쇄신경",
+      "en": "Obturator nerve",
+      "summary": "L2–L4에서 기원하며 고관절 내전근과 대퇴 내측 감각에 관여합니다.",
+      "group": "말초신경",
+      "links": [],
+      "viewIds": [
+        "lumbosacral-plexus",
+        "lower-limb-nerves"
+      ],
+      "sourceIds": [
+        "wikimedia-lumbar-plexus-pd",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "sciatic-nerve",
+      "ko": "궁둥신경",
+      "en": "Sciatic nerve",
+      "group": "말초신경",
+      "summary": "L4–S3 앞가지에서 주로 형성되는 큰 말초신경으로, 엉덩부를 나와 넓적다리 뒤쪽을 따라 주행한 뒤 정강·온종아리신경 계통으로 이어집니다.",
+      "links": [],
+      "viewIds": [
+        "sacral-plexus",
+        "lower-limb-nerves"
+      ],
+      "sourceIds": [
+        "wikimedia-sacral-plexus-pd",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "tibial-nerve",
+      "ko": "정강신경",
+      "en": "Tibial nerve",
+      "group": "말초신경",
+      "summary": "궁둥신경의 큰 종말가지로 뒤쪽 하지와 발바닥 쪽 구조에 분포하며 아킬레스건반사 관련 경로에 포함됩니다.",
+      "links": [],
+      "viewIds": [
+        "lower-limb-nerves",
+        "sacral-plexus"
+      ],
+      "sourceIds": [
+        "wikimedia-lower-limb-nerves-pd",
+        "wikimedia-sacral-plexus-pd",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "common-fibular-nerve",
+      "ko": "온종아리신경",
+      "en": "Common fibular nerve",
+      "group": "말초신경",
+      "summary": "궁둥신경의 종말가지로 종아리뼈목 부근에서 얕은·깊은 종아리신경으로 나뉘며 발등굽힘 및 발등 감각 평가와 연결됩니다.",
+      "links": [],
+      "viewIds": [
+        "lower-limb-nerves",
+        "sacral-plexus"
+      ],
+      "sourceIds": [
+        "wikimedia-lower-limb-nerves-pd",
+        "wikimedia-sacral-plexus-pd",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "musculocutaneous-nerve",
+      "ko": "근피신경",
+      "en": "Musculocutaneous nerve",
+      "group": "말초신경",
+      "summary": "상완 앞칸의 운동 및 외측 전완 감각과 관련된 말초신경입니다.",
+      "links": [],
+      "viewIds": [
+        "upper-limb-nerves"
+      ],
+      "sourceIds": [
+        "wikimedia-gray-upper-limb-nerves-pd",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "median-nerve",
+      "ko": "정중신경",
+      "en": "Median nerve",
+      "group": "말초신경",
+      "summary": "상완·전완을 지나 손의 일부 감각 및 무지구·손가락 굴곡 기능과 관련된 말초신경입니다.",
+      "links": [],
+      "viewIds": [
+        "upper-limb-nerves"
+      ],
+      "sourceIds": [
+        "wikimedia-gray-upper-limb-nerves-pd",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "ulnar-nerve",
+      "ko": "척골신경",
+      "en": "Ulnar nerve",
+      "group": "말초신경",
+      "summary": "전완과 손의 척측 영역을 지나 내재근 및 감각 기능과 관련된 말초신경입니다.",
+      "links": [],
+      "viewIds": [
+        "upper-limb-nerves"
+      ],
+      "sourceIds": [
+        "wikimedia-gray-upper-limb-nerves-pd",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "radial-nerve",
+      "ko": "요골신경",
+      "en": "Radial nerve",
+      "group": "말초신경",
+      "summary": "상지 후면을 따라 주행하며 신전 기능 및 손등 일부 감각과 관련된 말초신경입니다.",
+      "links": [],
+      "viewIds": [
+        "upper-limb-nerves"
+      ],
+      "sourceIds": [
+        "wikimedia-gray-upper-limb-nerves-pd",
+        "terminologia-neuro"
+      ]
+    }
   ],
   "pathways": [
-    {"id":"corticospinal", "ko":"피질척수로", "en":"Corticospinal tract", "kind":"motor", "route":"운동피질 → 내포 → 뇌간 → 연수 피라미드 교차 → 척수 앞가쪽기둥 → 전각/말초운동신경", "pattern":"교차 위 병변은 반대측 UMN 징후, 척수의 교차 아래 병변은 같은쪽 UMN 징후를 시사할 수 있습니다.", "links":["뇌졸중 (Stroke)","척수손상 (Spinal Cord Injury)"]},
-    {"id":"dcml", "ko":"뒤기둥-내측섬유띠", "en":"Dorsal column–medial lemniscus", "kind":"sensory", "route":"말초수용기 → 뒤기둥에서 동측 상승 → 연수에서 교차 → 시상 → 감각피질", "pattern":"진동·관절위치·정교한 촉각을 전달합니다. 척수 병변에서는 동측 소실 양상입니다.", "links":["Brown-Sequard 증후군 (Brown-Sequard Syndrome)"]},
-    {"id":"spinothalamic", "ko":"척수시상로", "en":"Spinothalamic tract", "kind":"sensory", "route":"말초수용기 → 척수 후각 → 1–2분절 내 교차 → 반대측 앞가쪽기둥 상승 → 시상 → 감각피질", "pattern":"통각·온각을 전달합니다. 편측 척수 병변에서는 병변 아래 반대측 소실 양상이 전형적입니다.", "links":["Brown-Sequard 증후군 (Brown-Sequard Syndrome)"]},
-    {"id":"pupil", "ko":"동공 빛반사", "en":"Pupillary light reflex", "kind":"reflex", "route":"망막 → 시신경(CN II) → 중뇌 pretectal area → Edinger–Westphal nucleus → 동안신경(CN III) → 섬모체신경절 → 동공괄약근", "pattern":"직접·간접 반응을 함께 보며 구심성(CN II)과 원심성(CN III/parasympathetic) 이상을 구분합니다.", "links":["동안신경 마비 (Oculomotor Nerve Palsy)"]}
+    {
+      "id": "corticospinal",
+      "ko": "피질척수로",
+      "en": "Corticospinal tract",
+      "kind": "motor",
+      "route": "일차운동피질 → 방사관 → 내포 → 대뇌각 → 교뇌·연수 → 피라미드 교차 → 가쪽피질척수로 → 전각 → 말초운동신경 → 근육",
+      "pattern": "교차 위 병변은 반대측 UMN 징후, 척수 내 교차 아래 병변은 같은쪽 UMN 징후를 시사할 수 있습니다.",
+      "links": [
+        "허혈성 뇌졸중 (Ischemic stroke)",
+        "척수 외상 (Spinal cord trauma)"
+      ],
+      "nodes": [
+        "precentral-gyrus",
+        "internal-capsule",
+        "midbrain",
+        "pons",
+        "medulla",
+        "lateral-corticospinal",
+        "nerve-root",
+        "peripheral-nerve",
+        "skeletal-muscle"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere",
+        "wikimedia-spinal"
+      ]
+    },
+    {
+      "id": "dcml",
+      "ko": "뒤기둥-내측섬유띠",
+      "en": "Dorsal column–medial lemniscus",
+      "kind": "sensory",
+      "route": "말초 수용기 → 신경근 → 동측 뒤기둥 → 연수 뒤기둥핵 → 교차 → 내측섬유띠 → 시상 → 후중심이랑",
+      "pattern": "진동·관절위치·정교한 촉각을 전달합니다. 편측 척수 병변은 병변 아래 동측 소실 양상을 보일 수 있습니다.",
+      "links": [
+        "Brown-Sequard 증후군 (Brown-Sequard syndrome)"
+      ],
+      "nodes": [
+        "peripheral-nerve",
+        "nerve-root",
+        "dorsal-column",
+        "medulla",
+        "thalamus",
+        "postcentral-gyrus"
+      ],
+      "sourceIds": [
+        "wikimedia-spinal",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "spinothalamic",
+      "ko": "척수시상로",
+      "en": "Spinothalamic tract",
+      "kind": "sensory",
+      "route": "말초 수용기 → 신경근 → 척수 후각 → 앞백색교련에서 1–2 분절 내 교차 → 반대쪽 앞가쪽계통 → 시상 → 후중심이랑",
+      "pattern": "통각·온각을 전달합니다. 편측 척수 병변에서는 병변 아래 반대쪽 소실 양상이 전형적입니다.",
+      "links": [
+        "Brown-Sequard 증후군 (Brown-Sequard syndrome)"
+      ],
+      "nodes": [
+        "peripheral-nerve",
+        "nerve-root",
+        "spinothalamic",
+        "thalamus",
+        "postcentral-gyrus"
+      ],
+      "sourceIds": [
+        "wikimedia-spinal",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "corticobulbar",
+      "ko": "피질연수로",
+      "en": "Corticobulbar tract",
+      "kind": "motor",
+      "route": "운동피질 얼굴·인두 대표부 → 내포 genu → 뇌간 뇌신경운동핵 → 말초뇌신경 → 안면·구음·연하 관련 근육",
+      "pattern": "대부분의 뇌신경운동핵은 양측 피질 입력을 받지만, 하부 안면 등은 임상적으로 비대칭 피질지배가 중요합니다. 개별 소견은 뇌신경 진찰과 함께 해석합니다.",
+      "nodes": [
+        "precentral-gyrus",
+        "internal-capsule",
+        "midbrain",
+        "pons",
+        "medulla",
+        "peripheral-nerve",
+        "skeletal-muscle"
+      ],
+      "sourceIds": [
+        "ncbi-corticospinal",
+        "openstax-cns"
+      ],
+      "links": []
+    },
+    {
+      "id": "basal-ganglia-loop",
+      "ko": "기저핵–시상–피질 회로",
+      "en": "Basal ganglia–thalamo–cortical loop",
+      "kind": "motor modulation",
+      "route": "대뇌피질 → 선조체/창백핵·시상하핵·흑질 관련 회로 → 시상 → 운동·연합 피질",
+      "pattern": "단일 하행로가 아니라 운동 선택·억제와 관련된 병렬 회로 개념입니다. 병변 해석은 운동완만·강직·불수의운동의 패턴과 함께 합니다.",
+      "nodes": [
+        "frontal-lobe",
+        "caudate",
+        "putamen",
+        "globus-pallidus",
+        "thalamus",
+        "precentral-gyrus"
+      ],
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere",
+        "terminologia-neuro"
+      ],
+      "links": []
+    },
+    {
+      "id": "spinocerebellar",
+      "ko": "척수소뇌로",
+      "en": "Spinocerebellar tract",
+      "kind": "sensory",
+      "route": "말초 고유수용기 → 척수 중계(대표적으로 Clarke column) → 뒤척수소뇌로 → 하소뇌각 → 동측 소뇌",
+      "pattern": "무의식적 고유감각과 협응에 관여합니다. 임상 소견은 병변의 위치·원인과 함께 해석합니다.",
+      "nodes": [
+        "peripheral-nerve",
+        "nerve-root",
+        "spinal-cord",
+        "cerebellum"
+      ],
+      "sourceIds": [
+        "ncbi-spinocerebellar",
+        "isncsci"
+      ],
+      "links": []
+    },
+    {
+      "id": "trigeminal-sensory",
+      "ko": "삼차감각 경로",
+      "en": "Trigeminal sensory pathways",
+      "kind": "sensory",
+      "route": "얼굴 감각수용기 → 삼차신경절 → 주감각핵/척수삼차핵 → 교차성 삼차시상로 → 시상 → 체성감각피질",
+      "pattern": "얼굴의 촉각·통각은 척수 체성감각 경로와 다른 중계핵을 거치므로, 체간 감각과의 해리 여부가 국소화에 도움을 줄 수 있습니다.",
+      "nodes": [
+        "trigeminal-ganglion",
+        "trigeminal-nucleus",
+        "thalamus",
+        "postcentral-gyrus"
+      ],
+      "sourceIds": [
+        "ncbi-trigeminal",
+        "ncbi-cortex"
+      ],
+      "links": []
+    },
+    {
+      "id": "visual",
+      "ko": "시각 경로",
+      "en": "Visual pathway",
+      "kind": "special sensory",
+      "route": "망막 → 시신경(CN II) → 시신경교차 → 시삭 → 가쪽무릎체 → 시방사 → 조거리고랑 주변 일차시각피질",
+      "pattern": "망막·시신경·교차·시삭 이후의 시야 결손 패턴은 경로의 위치와 연관됩니다. 실제 판독은 시야검사와 눈 진찰을 함께 봅니다.",
+      "nodes": [
+        "retina",
+        "optic-nerve",
+        "optic-chiasm",
+        "optic-tract",
+        "lateral-geniculate",
+        "optic-radiation",
+        "primary-visual-cortex"
+      ],
+      "sourceIds": [
+        "ncbi-visual",
+        "ncbi-cortex"
+      ],
+      "links": []
+    },
+    {
+      "id": "pupil-pathway",
+      "ko": "동공 빛반사 경로",
+      "en": "Pupillary light reflex",
+      "kind": "reflex",
+      "route": "망막 → CN II → pretectal area → 양측 Edinger–Westphal nuclei → CN III → 섬모체신경절 → 동공괄약근",
+      "pattern": "직접·간접 반응과 안구운동·안검하수·시기능을 함께 비교해 구심성과 원심성을 구분합니다.",
+      "nodes": [
+        "retina",
+        "optic-nerve",
+        "midbrain",
+        "peripheral-nerve"
+      ],
+      "sourceIds": [
+        "ncbi-pupil"
+      ],
+      "links": []
+    },
+    {
+      "id": "ocular-motor",
+      "ko": "수평 주시·전정안반사 축",
+      "en": "Horizontal gaze and vestibulo-ocular pathways",
+      "kind": "special motor",
+      "route": "전정기관/CN VIII → 전정핵 → MLF → III·IV·VI 핵 및 안구운동근; 수평 주시는 PPRF·외전신경핵·MLF의 연결을 함께 봅니다.",
+      "pattern": "안구운동 이상은 병력, 복시 양상, 동공·안검, 다른 뇌간 징후와 함께 해석합니다.",
+      "nodes": [
+        "vestibular-nucleus",
+        "pons",
+        "midbrain",
+        "peripheral-nerve"
+      ],
+      "sourceIds": [
+        "ncbi-vestibular",
+        "openstax-cns"
+      ],
+      "links": []
+    },
+    {
+      "id": "auditory-vestibular",
+      "ko": "청각·전정 경로",
+      "en": "Auditory and vestibular pathways",
+      "kind": "special sensory",
+      "route": "와우/CN VIII → 와우·전정핵 → 양측성 뇌간 중계 → 하구·안쪽무릎체 → 청각피질, 또는 전정핵 → 소뇌·안구운동핵·척수",
+      "pattern": "청각 경로는 일찍부터 양측성 중계가 있어 단일 중추 병변의 해석을 단순화하지 않습니다. 전정 소견은 안구운동·보행과 함께 봅니다.",
+      "nodes": [
+        "cochlea",
+        "vestibular-nucleus",
+        "pons",
+        "midbrain",
+        "thalamus",
+        "superior-temporal-gyrus",
+        "cerebellum"
+      ],
+      "sourceIds": [
+        "ncbi-auditory",
+        "ncbi-vestibular"
+      ],
+      "links": []
+    },
+    {
+      "id": "sympathetic",
+      "ko": "교감신경·안교감 축",
+      "en": "Sympathetic and oculosympathetic pathways",
+      "kind": "autonomic",
+      "route": "시상하부 → 뇌간 → C8–T2 ciliospinal center → 교감신경절(예: 상경신경절) → 혈관·평활근·동공확대근 등 효과기",
+      "pattern": "자율신경 경로는 장기별 분지가 다양합니다. Horner 의심 시 증상·동공·안검 및 임상 상황에 따라 국소화합니다.",
+      "nodes": [
+        "hypothalamus",
+        "spinal-cord",
+        "nerve-root",
+        "peripheral-nerve"
+      ],
+      "sourceIds": [
+        "ncbi-autonomic",
+        "ncbi-oculosympathetic"
+      ],
+      "links": []
+    },
+    {
+      "id": "parasympathetic",
+      "ko": "부교감신경 축",
+      "en": "Parasympathetic pathways",
+      "kind": "autonomic",
+      "route": "뇌간 부교감핵(III·VII·IX·X 관련) 또는 S2–S4 → 말초 신경절 → 장기 효과기",
+      "pattern": "부교감 경로는 뇌신경 및 천수 유출로 나뉘며, 진찰 소견의 의미는 장기계·약물·전신상태와 함께 해석합니다.",
+      "nodes": [
+        "midbrain",
+        "pons",
+        "medulla",
+        "spinal-cord",
+        "peripheral-nerve"
+      ],
+      "sourceIds": [
+        "ncbi-autonomic",
+        "ncbi-pupil"
+      ],
+      "links": []
+    }
   ],
   "dermatomes": [
-    {"id":"c5", "label":"C5", "area":"어깨 외측/상완 외측", "hint":"삼각근 영역"}, {"id":"c6", "label":"C6", "area":"엄지·요측 전완", "hint":"엄지"}, {"id":"c7", "label":"C7", "area":"중지", "hint":"중지"}, {"id":"c8", "label":"C8", "area":"소지·척측 전완", "hint":"소지"}, {"id":"t4", "label":"T4", "area":"유두선", "hint":"흉부 기준점"}, {"id":"t10", "label":"T10", "area":"배꼽", "hint":"복부 기준점"}, {"id":"l1", "label":"L1", "area":"서혜부", "hint":"서혜부"}, {"id":"l4", "label":"L4", "area":"무릎 안쪽/내과", "hint":"내과"}, {"id":"l5", "label":"L5", "area":"발등·엄지발가락", "hint":"엄지발가락"}, {"id":"s1", "label":"S1", "area":"발 외측·새끼발가락", "hint":"발 외측"}
+    {
+      "id": "c2",
+      "label": "C2",
+      "area": "후두부·상부 경부",
+      "hint": "occiput"
+    },
+    {
+      "id": "c4",
+      "label": "C4",
+      "area": "견봉 위 어깨",
+      "hint": "shoulder tip"
+    },
+    {
+      "id": "c5",
+      "label": "C5",
+      "area": "어깨 외측/상완 외측",
+      "hint": "삼각근 영역"
+    },
+    {
+      "id": "c6",
+      "label": "C6",
+      "area": "엄지·요측 전완",
+      "hint": "엄지"
+    },
+    {
+      "id": "c7",
+      "label": "C7",
+      "area": "중지",
+      "hint": "중지"
+    },
+    {
+      "id": "c8",
+      "label": "C8",
+      "area": "소지·척측 전완",
+      "hint": "소지"
+    },
+    {
+      "id": "t1",
+      "label": "T1",
+      "area": "안쪽 아래팔",
+      "hint": "medial forearm"
+    },
+    {
+      "id": "t4",
+      "label": "T4",
+      "area": "유두선",
+      "hint": "흉부 기준점"
+    },
+    {
+      "id": "t10",
+      "label": "T10",
+      "area": "배꼽",
+      "hint": "복부 기준점"
+    },
+    {
+      "id": "l1",
+      "label": "L1",
+      "area": "서혜부",
+      "hint": "서혜부"
+    },
+    {
+      "id": "l2",
+      "label": "L2",
+      "area": "앞쪽 넓적다리",
+      "hint": "anterior thigh"
+    },
+    {
+      "id": "l3",
+      "label": "L3",
+      "area": "안쪽 무릎",
+      "hint": "medial knee"
+    },
+    {
+      "id": "l4",
+      "label": "L4",
+      "area": "무릎 안쪽/내과",
+      "hint": "내과"
+    },
+    {
+      "id": "l5",
+      "label": "L5",
+      "area": "발등·엄지발가락",
+      "hint": "엄지발가락"
+    },
+    {
+      "id": "s1",
+      "label": "S1",
+      "area": "발 외측·새끼발가락",
+      "hint": "발 외측"
+    },
+    {
+      "id": "s2",
+      "label": "S2",
+      "area": "뒤 넓적다리",
+      "hint": "posterior thigh"
+    },
+    {
+      "id": "s3-s5",
+      "label": "S3–S5",
+      "area": "회음부·안장부",
+      "hint": "saddle region"
+    }
   ],
   "myotomes": [
-    {"id":"c5", "label":"C5", "action":"팔꿈치 굽힘", "muscle":"biceps", "reflex":"biceps"}, {"id":"c6", "label":"C6", "action":"손목 폄", "muscle":"wrist extensors", "reflex":"brachioradialis"}, {"id":"c7", "label":"C7", "action":"팔꿈치 폄", "muscle":"triceps", "reflex":"triceps"}, {"id":"c8", "label":"C8", "action":"손가락 굽힘", "muscle":"finger flexors", "reflex":"—"}, {"id":"t1", "label":"T1", "action":"손가락 벌림", "muscle":"interossei", "reflex":"—"}, {"id":"l2", "label":"L2", "action":"엉덩 굽힘", "muscle":"iliopsoas", "reflex":"—"}, {"id":"l3", "label":"L3", "action":"무릎 폄", "muscle":"quadriceps", "reflex":"patellar (L3–L4)"}, {"id":"l4", "label":"L4", "action":"발목 등굽힘", "muscle":"tibialis anterior", "reflex":"patellar (L3–L4)"}, {"id":"l5", "label":"L5", "action":"엄지발가락 폄", "muscle":"EHL", "reflex":"—"}, {"id":"s1", "label":"S1", "action":"발목 저측굽힘", "muscle":"gastrocnemius", "reflex":"Achilles (S1)"}
+    {
+      "id": "c5",
+      "label": "C5",
+      "action": "팔꿈치 굽힘",
+      "muscle": "biceps",
+      "reflex": "biceps",
+      "peripheralNerve": "근피/액와신경",
+      "testPosition": "주관절 굴곡 또는 어깨벌림을 좌우 비교",
+      "differential": "C5 신경근·상완신경총·근피/액와신경 및 통증 제한을 구분",
+      "sourceIds": [
+        "isncsci"
+      ]
+    },
+    {
+      "id": "c6",
+      "label": "C6",
+      "action": "손목 폄",
+      "muscle": "wrist extensors",
+      "reflex": "brachioradialis",
+      "peripheralNerve": "요골신경",
+      "testPosition": "손목 폄을 중립 자세에서 저항에 대고 비교",
+      "differential": "C6 신경근과 요골신경 병변을 감각·다른 근력과 함께 비교",
+      "sourceIds": [
+        "isncsci"
+      ]
+    },
+    {
+      "id": "c7",
+      "label": "C7",
+      "action": "팔꿈치 폄",
+      "muscle": "triceps",
+      "reflex": "triceps",
+      "peripheralNerve": "요골신경",
+      "testPosition": "주관절 폄을 저항에 대고 비교",
+      "differential": "C7 신경근과 요골신경·후방 cord 병변을 함께 고려",
+      "sourceIds": [
+        "isncsci"
+      ]
+    },
+    {
+      "id": "c8",
+      "label": "C8",
+      "action": "손가락 굽힘",
+      "muscle": "finger flexors",
+      "reflex": "—",
+      "peripheralNerve": "정중/척골신경",
+      "testPosition": "손가락 끝마디 굴곡을 분리해 비교",
+      "differential": "C8 신경근과 정중·척골신경 분포를 감각검사와 함께 비교",
+      "sourceIds": [
+        "isncsci"
+      ]
+    },
+    {
+      "id": "t1",
+      "label": "T1",
+      "action": "손가락 벌림",
+      "muscle": "interossei",
+      "reflex": "—",
+      "peripheralNerve": "척골신경",
+      "testPosition": "손가락 벌림/모음을 저항에 대고 비교",
+      "differential": "T1 신경근·하부 상완신경총·척골신경을 구분",
+      "sourceIds": [
+        "isncsci"
+      ]
+    },
+    {
+      "id": "l2",
+      "label": "L2",
+      "action": "엉덩 굽힘",
+      "muscle": "iliopsoas",
+      "reflex": "—",
+      "peripheralNerve": "대퇴신경",
+      "testPosition": "고관절 굴곡을 저항에 대고 비교",
+      "differential": "L2 신경근·요신경총·대퇴신경 및 통증 제한을 구분",
+      "sourceIds": [
+        "isncsci"
+      ]
+    },
+    {
+      "id": "l3",
+      "label": "L3",
+      "action": "무릎 폄",
+      "muscle": "quadriceps",
+      "reflex": "patellar (L3–L4)",
+      "peripheralNerve": "대퇴신경",
+      "testPosition": "무릎 폄을 저항에 대고 비교",
+      "differential": "L3–L4 신경근과 대퇴신경을 반사·감각과 함께 비교",
+      "sourceIds": [
+        "isncsci"
+      ]
+    },
+    {
+      "id": "l4",
+      "label": "L4",
+      "action": "발목 등굽힘",
+      "muscle": "tibialis anterior",
+      "reflex": "patellar (L3–L4)",
+      "peripheralNerve": "깊은비골신경",
+      "testPosition": "발목 등쪽굽힘을 저항에 대고 비교",
+      "differential": "L4–L5 신경근·깊은비골신경·통증/관절 제한을 구분",
+      "sourceIds": [
+        "isncsci"
+      ]
+    },
+    {
+      "id": "l5",
+      "label": "L5",
+      "action": "엄지발가락 폄",
+      "muscle": "EHL",
+      "reflex": "—",
+      "peripheralNerve": "깊은비골신경",
+      "testPosition": "엄지발가락 폄을 분리해 저항에 대고 비교",
+      "differential": "L5 신경근과 깊은비골신경·좌골신경 분지를 구분",
+      "sourceIds": [
+        "isncsci"
+      ]
+    },
+    {
+      "id": "s1",
+      "label": "S1",
+      "action": "발목 저측굽힘",
+      "muscle": "gastrocnemius",
+      "reflex": "Achilles (S1)",
+      "peripheralNerve": "경골신경",
+      "testPosition": "발목 발바닥굽힘 또는 까치발을 좌우 비교",
+      "differential": "S1 신경근과 경골신경·아킬레스반사를 함께 평가",
+      "sourceIds": [
+        "isncsci"
+      ]
+    }
   ],
   "reflexes": [
-    {"id":"pupillary", "label":"동공 빛반사", "arc":"CN II → 중뇌 → CN III", "localization":"구심성·원심성 반응을 양안에서 비교"}, {"id":"corneal", "label":"각막반사", "arc":"V1 → 교뇌 → VII", "localization":"감각 입력과 안면신경 원심성 구분"}, {"id":"biceps", "label":"상완이두근반사", "arc":"C5–C6, musculocutaneous", "localization":"상경추 신경근/말초신경"}, {"id":"triceps", "label":"상완삼두근반사", "arc":"C7–C8, radial", "localization":"C7 중심"}, {"id":"patellar", "label":"슬개건반사", "arc":"L3–L4, femoral", "localization":"L4 중심"}, {"id":"achilles", "label":"아킬레스건반사", "arc":"S1–S2, tibial", "localization":"S1 중심"}, {"id":"plantar", "label":"족저반사", "arc":"L5–S1 / corticospinal modulation", "localization":"성인 신전반응은 UMN 병변과 함께 해석"}
+    {
+      "id": "pupillary",
+      "label": "동공 빛반사",
+      "arc": "망막 → CN II → pretectal area → 양측 Edinger–Westphal nucleus → CN III → 섬모체신경절 → 동공괄약근",
+      "localization": "구심성(CN II)과 원심성(CN III/부교감) 반응을 양안에서 비교합니다.",
+      "route": [
+        "retina",
+        "optic-nerve",
+        "exam-pupillary-3",
+        "exam-pupillary-4",
+        "exam-pupillary-5",
+        "exam-pupillary-6",
+        "exam-pupillary-7"
+      ],
+      "normal": "빛을 비춘 쪽과 반대쪽에서 직접·간접 축동이 나타납니다.",
+      "abnormal": "동공 크기, 안검하수·안구운동, 시력·시야와 함께 해석합니다.",
+      "viewId": "brainstem-external",
+      "sourceIds": [
+        "ncbi-pupil"
+      ],
+      "purpose": "동공 구심성·중뇌 부교감·원심성 반응을 비교합니다.",
+      "technique": [
+        "실내 조명을 조절하고 동공 크기·대칭을 먼저 관찰합니다.",
+        "한쪽에 빛을 비추며 직접·반대쪽 간접 반응을 비교합니다."
+      ],
+      "routeLabels": [
+        "망막",
+        "시신경",
+        "전덮개영역",
+        "Edinger–Westphal 핵",
+        "눈돌림신경",
+        "섬모체신경절",
+        "동공괄약근"
+      ],
+      "reviewStatus": "source-checked",
+      "routeStages": [
+        "stimulus",
+        "afferent",
+        "central",
+        "central",
+        "efferent",
+        "efferent",
+        "effector"
+      ],
+      "laterality": {
+        "options": [
+          "left",
+          "right"
+        ],
+        "default": "left",
+        "description": "한쪽 눈에 비춘 빛은 같은 쪽의 직접반사와 반대쪽의 간접반사를 모두 유발합니다. 좌우 동공을 함께 관찰합니다."
+      }
+    },
+    {
+      "id": "corneal",
+      "label": "각막반사",
+      "arc": "각막 V1 → 삼차신경감각핵 → 양측 안면신경핵 → CN VII → 눈둘레근",
+      "localization": "구심성 V1와 원심성 VII를 구분합니다.",
+      "route": [
+        "exam-corneal-1",
+        "exam-corneal-2",
+        "trigeminal-nucleus",
+        "exam-corneal-4",
+        "exam-corneal-5",
+        "exam-corneal-6"
+      ],
+      "normal": "각막 자극에 양안 눈깜박임이 나타납니다.",
+      "abnormal": "안구 표면 손상 가능성을 먼저 고려하고, 진찰은 임상 상황에 맞춰 시행합니다.",
+      "viewId": "brainstem-external",
+      "sourceIds": [
+        "ncbi-trigeminal"
+      ],
+      "purpose": "V1 구심성과 VII 원심성의 눈깜박임 반사를 확인합니다.",
+      "technique": [
+        "각막 손상 위험을 피하는 방법으로 최소 자극을 사용하고 양안 반응을 비교합니다."
+      ],
+      "routeLabels": [
+        "각막",
+        "삼차신경 V1",
+        "삼차신경핵",
+        "안면신경핵",
+        "안면신경",
+        "눈둘레근"
+      ],
+      "reviewStatus": "source-checked",
+      "routeStages": [
+        "stimulus",
+        "afferent",
+        "central",
+        "central",
+        "efferent",
+        "effector"
+      ],
+      "laterality": {
+        "options": [
+          "left",
+          "right"
+        ],
+        "default": "left",
+        "description": "한쪽 각막 자극에 양측 눈둘레근 수축이 나타나는지를 비교합니다."
+      }
+    },
+    {
+      "id": "vestibulo-ocular",
+      "label": "전정안반사 (VOR)",
+      "arc": "반고리관 → CN VIII → 전정핵 → MLF → CN III/IV/VI → 외안근",
+      "localization": "말초 전정계·전정핵·MLF·안구운동신경 연결을 함께 봅니다.",
+      "route": [
+        "exam-vestibulo-ocular-1",
+        "exam-vestibulo-ocular-2",
+        "exam-vestibulo-ocular-3",
+        "exam-vestibulo-ocular-4",
+        "exam-vestibulo-ocular-5",
+        "exam-vestibulo-ocular-6"
+      ],
+      "normal": "머리 회전에 반대 방향의 보상 안구운동이 나타납니다.",
+      "abnormal": "의식 수준과 경추 안전성, 자발안진·skew와 함께 해석합니다.",
+      "viewId": "brainstem-external",
+      "sourceIds": [
+        "terminologia-neuro"
+      ],
+      "purpose": "머리 움직임 중 전정–안구운동 연결을 봅니다.",
+      "technique": [
+        "증상·경추 상태와 적응증을 확인한 뒤 시행합니다.",
+        "눈고정과 안구운동을 함께 관찰합니다."
+      ],
+      "routeLabels": [
+        "반고리관",
+        "전정달팽이신경 (VIII)",
+        "전정핵",
+        "내측종속",
+        "III·IV·VI 뇌신경",
+        "외안근"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "biceps",
+      "label": "상완이두근반사",
+      "arc": "C5–C6, musculocutaneous nerve",
+      "localization": "C5–C6 신경근·상완신경총·말초신경과 상위운동신경 조절을 같이 봅니다.",
+      "route": [
+        "exam-biceps-1",
+        "exam-biceps-2",
+        "spinal-cord",
+        "exam-biceps-4",
+        "exam-biceps-5"
+      ],
+      "normal": "상완이두근 수축과 팔꿈치 굽힘이 나타납니다.",
+      "abnormal": "좌우 차이, 다른 DTR, 근력·감각 분포를 함께 비교합니다.",
+      "viewId": "brachial-plexus",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "purpose": "C5–C6·근피신경의 심부건반사를 비교합니다.",
+      "technique": [
+        "근육을 이완시키고 상완이두건을 자극하여 양측을 비교합니다."
+      ],
+      "routeLabels": [
+        "근방추",
+        "C5–C6 신경근",
+        "척수",
+        "근피신경",
+        "위팔두갈래근"
+      ],
+      "reviewStatus": "source-checked",
+      "routeStages": [
+        "stimulus",
+        "afferent",
+        "central",
+        "efferent",
+        "effector"
+      ],
+      "laterality": {
+        "options": [
+          "left",
+          "right"
+        ],
+        "default": "left",
+        "description": "좌우를 같은 자세와 자극 강도로 비교합니다."
+      }
+    },
+    {
+      "id": "patellar",
+      "label": "슬개건반사",
+      "arc": "L3–L4, femoral nerve",
+      "localization": "L3–L4 신경근·대퇴신경·척수 회로와 UMN 조절을 같이 봅니다.",
+      "route": [
+        "exam-patellar-1",
+        "exam-patellar-2",
+        "spinal-cord",
+        "exam-patellar-4",
+        "exam-patellar-5"
+      ],
+      "normal": "대퇴사두근 수축과 무릎 폄이 나타납니다.",
+      "abnormal": "좌우 차이, 아킬레스건반사와 감각·근력 분포를 함께 비교합니다.",
+      "viewId": "spinal-cross-section",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "purpose": "L3–L4·대퇴신경 관련 심부건반사를 비교합니다.",
+      "technique": [
+        "무릎을 이완시킨 상태에서 슬개건을 자극하여 양측을 비교합니다."
+      ],
+      "routeLabels": [
+        "근방추",
+        "L3–L4 신경근",
+        "척수",
+        "대퇴신경",
+        "대퇴사두근"
+      ],
+      "reviewStatus": "source-checked",
+      "routeStages": [
+        "stimulus",
+        "afferent",
+        "central",
+        "efferent",
+        "effector"
+      ],
+      "laterality": {
+        "options": [
+          "left",
+          "right"
+        ],
+        "default": "left",
+        "description": "양측 슬개건반사의 대칭성과 Jendrassik 등 강화 여부를 함께 기록합니다."
+      }
+    },
+    {
+      "id": "achilles",
+      "label": "아킬레스건반사",
+      "arc": "S1–S2, tibial nerve",
+      "localization": "S1 중심 신경근·경골신경·척수 반사 회로와 UMN 조절을 같이 봅니다.",
+      "route": [
+        "exam-achilles-1",
+        "exam-achilles-2",
+        "spinal-cord",
+        "exam-achilles-4",
+        "exam-achilles-5"
+      ],
+      "normal": "비복근·가자미근 수축과 발목 저측굽힘이 나타납니다.",
+      "abnormal": "좌우 차이, 족저반사와 근력·감각 분포를 함께 비교합니다.",
+      "viewId": "spinal-cross-section",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "purpose": "S1–S2·경골신경 관련 심부건반사를 비교합니다.",
+      "technique": [
+        "발목을 약간 등쪽굽힘한 상태에서 아킬레스건을 자극하여 양측을 비교합니다."
+      ],
+      "routeLabels": [
+        "근방추",
+        "S1–S2 신경근",
+        "척수",
+        "정강신경",
+        "장딴지근"
+      ],
+      "reviewStatus": "source-checked",
+      "routeStages": [
+        "stimulus",
+        "afferent",
+        "central",
+        "efferent",
+        "effector"
+      ],
+      "laterality": {
+        "options": [
+          "left",
+          "right"
+        ],
+        "default": "left",
+        "description": "양측 발목 위치를 맞춰 비교하고, 필요한 경우 강화법을 동일하게 적용합니다."
+      }
+    },
+    {
+      "id": "jaw-jerk",
+      "label": "턱반사",
+      "arc": "저작근 근방추 → 삼차신경 중뇌핵 → 삼차신경 운동핵 → CN V3 → 교근",
+      "localization": "삼차신경 운동회로와 피질연수로 조절을 함께 봅니다.",
+      "route": [
+        "exam-jaw-jerk-1",
+        "exam-jaw-jerk-2",
+        "exam-jaw-jerk-3",
+        "exam-jaw-jerk-4",
+        "exam-jaw-jerk-5"
+      ],
+      "normal": "가벼운 턱 닫힘 반응이 나타나며 정상에서는 미약하거나 없을 수 있습니다.",
+      "abnormal": "과도한 반응은 양측 상위운동신경 조절 이상 맥락에서 다른 구음·연하·장관징후와 함께 해석합니다.",
+      "viewId": "brainstem-external",
+      "sourceIds": [
+        "ncbi-trigeminal"
+      ],
+      "purpose": "삼차신경 운동분지와 교뇌 관련 반사를 봅니다.",
+      "technique": [
+        "턱을 이완·약간 벌린 상태에서 턱끝 부위에 가볍게 자극하고 좌우·정도를 함께 기록합니다."
+      ],
+      "routeLabels": [
+        "교근 근방추",
+        "삼차신경 중뇌핵",
+        "삼차신경 운동핵",
+        "삼차신경 V3",
+        "교근"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "gag",
+      "label": "구역반사",
+      "arc": "인두 자극 → CN IX → NTS/연수 회로 → nucleus ambiguus → CN X → 인두근",
+      "localization": "구심성 CN IX, 연수 중추, 원심성 CN X를 구분하며 반사 단독으로 진단하지 않습니다.",
+      "route": [
+        "exam-gag-1",
+        "exam-gag-2",
+        "exam-gag-3",
+        "exam-gag-4",
+        "exam-gag-5",
+        "exam-gag-6"
+      ],
+      "normal": "인두근 수축과 연구개 상승이 나타날 수 있습니다.",
+      "abnormal": "건강한 사람에서도 양측 반사 소실이 가능하므로 음성·기침·연하·연구개 움직임을 함께 평가합니다.",
+      "viewId": "brainstem-external",
+      "sourceIds": [
+        "ncbi-gag"
+      ],
+      "purpose": "IX·X 및 연수 관련 인두 방어반사를 확인합니다.",
+      "technique": [
+        "적응증과 흡인 위험을 확인하고, 후인두 자극은 임상 상황에 맞춰 최소화합니다."
+      ],
+      "routeLabels": [
+        "후인두",
+        "혀인두신경 (IX)",
+        "고립로핵",
+        "의문핵",
+        "미주신경 (X)",
+        "인두근"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "plantar",
+      "label": "족저반사",
+      "arc": "발바닥 피부 자극 → 경골신경/요천추 분절 → 척수 회로; 피질척수계의 하행 조절",
+      "localization": "분절 반사궁과 그 위의 피질척수계 조절을 함께 봅니다.",
+      "route": [
+        "exam-plantar-1",
+        "exam-plantar-2",
+        "exam-plantar-3",
+        "exam-plantar-4",
+        "exam-plantar-5"
+      ],
+      "normal": "성인에서는 일반적으로 발가락 굽힘 반응을 봅니다.",
+      "abnormal": "신전반응은 연령·의식·대사상태와 함께 해석하며, 피질척수계 이상을 시사할 수 있습니다.",
+      "viewId": "whole-neuraxis",
+      "sourceIds": [
+        "ncbi-plantar",
+        "ncbi-corticospinal"
+      ],
+      "purpose": "피질척수계 조절과 족저 반응을 확인합니다.",
+      "technique": [
+        "발바닥 가쪽을 뒤꿈치에서 앞쪽으로 자극하고 성인 반응의 형태를 관찰합니다."
+      ],
+      "routeLabels": [
+        "발바닥",
+        "정강신경",
+        "L5–S1 척수 회로",
+        "피질척수 조절",
+        "발가락 굽힘근"
+      ],
+      "reviewStatus": "source-checked",
+      "routeStages": [
+        "stimulus",
+        "afferent",
+        "central",
+        "central",
+        "effector"
+      ],
+      "laterality": {
+        "options": [
+          "left",
+          "right"
+        ],
+        "default": "left",
+        "description": "한쪽 발바닥 자극의 발가락 반응을 반대쪽과 비교합니다. 보행·의식상태·자극 강도를 함께 고려합니다."
+      }
+    },
+    {
+      "id": "near",
+      "label": "근거리반응",
+      "arc": "망막 → 시각피질/중뇌 연결 → Edinger–Westphal nucleus → CN III → 섬모체신경절 → 동공괄약근·섬모체근",
+      "localization": "시각 입력, 중뇌 부교감 회로, 눈모음과 조절을 함께 봅니다.",
+      "route": [
+        "retina",
+        "exam-near-2",
+        "midbrain",
+        "exam-near-4",
+        "exam-near-5",
+        "exam-near-6",
+        "exam-near-7"
+      ],
+      "normal": "가까운 목표를 볼 때 눈모음·조절·축동이 동반됩니다.",
+      "abnormal": "빛반사와 근거리반응의 해리를 포함해 시각·안구운동·동공 검사를 함께 해석합니다.",
+      "viewId": "brainstem-external",
+      "sourceIds": [
+        "ncbi-pupil"
+      ],
+      "purpose": "근거리 주시 시 조절·폭주·축동의 연동을 관찰합니다.",
+      "technique": [
+        "원거리와 근거리 표적 사이에서 시선을 이동하게 하여 양안 반응을 관찰합니다."
+      ],
+      "routeLabels": [
+        "망막",
+        "시각피질",
+        "중뇌",
+        "Edinger–Westphal 핵",
+        "눈돌림신경 (III)",
+        "섬모체신경절",
+        "동공·섬모체근"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "brachioradialis",
+      "label": "상완요골근반사",
+      "arc": "C5–C6, radial nerve",
+      "localization": "C5–C6 신경근·요골신경 및 상위운동신경 조절을 같이 봅니다.",
+      "route": [
+        "exam-brachioradialis-1",
+        "exam-brachioradialis-2",
+        "spinal-cord",
+        "exam-brachioradialis-4",
+        "exam-brachioradialis-5"
+      ],
+      "normal": "상완요골근 수축과 팔꿈치 굽힘/회외가 나타날 수 있습니다.",
+      "abnormal": "다른 상지 DTR와 좌우를 비교합니다.",
+      "viewId": "brachial-plexus",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "purpose": "C5–C6·요골신경 관련 심부건반사를 비교합니다.",
+      "technique": [
+        "전완을 이완한 상태에서 상완요골근 힘줄 부위를 자극하여 양측을 비교합니다."
+      ],
+      "routeLabels": [
+        "근방추",
+        "C5–C6 신경근",
+        "척수",
+        "노신경",
+        "위팔노근"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "triceps",
+      "label": "상완삼두근반사",
+      "arc": "C7–C8, radial nerve",
+      "localization": "C7 중심 신경근·요골신경과 상위운동신경 조절을 같이 봅니다.",
+      "route": [
+        "exam-triceps-1",
+        "exam-triceps-2",
+        "spinal-cord",
+        "exam-triceps-4",
+        "exam-triceps-5"
+      ],
+      "normal": "상완삼두근 수축과 팔꿈치 폄이 나타납니다.",
+      "abnormal": "상지 근력·감각 분포 및 다른 DTR와 함께 비교합니다.",
+      "viewId": "brachial-plexus",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "purpose": "C7–C8·요골신경 관련 심부건반사를 비교합니다.",
+      "technique": [
+        "상완삼두건을 자극하고 양측을 비교합니다."
+      ],
+      "routeLabels": [
+        "근방추",
+        "C7–C8 신경근",
+        "척수",
+        "노신경",
+        "위팔세갈래근"
+      ],
+      "reviewStatus": "source-checked",
+      "routeStages": [
+        "stimulus",
+        "afferent",
+        "central",
+        "efferent",
+        "effector"
+      ],
+      "laterality": {
+        "options": [
+          "left",
+          "right"
+        ],
+        "default": "left",
+        "description": "좌우를 같은 자세와 자극 강도로 비교합니다."
+      }
+    },
+    {
+      "id": "abdominal",
+      "label": "복부피부반사",
+      "arc": "복부 피부 자극 → 흉수 T7–T12 분절 회로 → 복근",
+      "localization": "복벽의 표재성 반사와 피질척수계 조절을 함께 봅니다.",
+      "route": [
+        "exam-abdominal-1",
+        "exam-abdominal-2",
+        "exam-abdominal-3",
+        "exam-abdominal-4"
+      ],
+      "normal": "자극 쪽으로 배꼽이 이동하는 수축을 관찰할 수 있습니다.",
+      "abnormal": "체형·복벽 상태·수술력 등 말초 요인을 고려하고 다른 UMN 징후와 통합합니다.",
+      "viewId": "spinal-levels",
+      "sourceIds": [
+        "ncbi-corticospinal"
+      ],
+      "purpose": "T7–T12 분절과 복벽 반사를 비교합니다.",
+      "technique": [
+        "복부 피부를 배꼽 방향으로 자극하여 양측 수축을 비교합니다."
+      ],
+      "routeLabels": [
+        "복벽 피부",
+        "T7–T12 척수 회로",
+        "피질척수 조절",
+        "복벽근"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "cremasteric",
+      "label": "고환거근반사",
+      "arc": "내측 대퇴 자극 → L1–L2/ilioinguinal·genitofemoral → 고환거근",
+      "localization": "L1–L2 분절 및 해당 말초신경 경로를 봅니다.",
+      "route": [
+        "exam-cremasteric-1",
+        "exam-cremasteric-2",
+        "exam-cremasteric-3",
+        "exam-cremasteric-4"
+      ],
+      "normal": "자극 쪽 고환 거상이 나타납니다.",
+      "abnormal": "비뇨생식기 응급상황이나 국소 상태는 별도 임상 경로로 평가합니다.",
+      "viewId": "brachial-plexus",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "purpose": "L1–L2 및 음부대퇴신경·생식대퇴신경 관련 반사를 확인합니다.",
+      "technique": [
+        "적응증·프라이버시를 고려하고 상부 내측 대퇴 자극에 대한 반응을 관찰합니다."
+      ],
+      "routeLabels": [
+        "안쪽 넓적다리",
+        "L1–L2 척수 회로",
+        "음부대퇴신경",
+        "고환올림근"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "pinprick",
+      "label": "통각·온각 검사",
+      "arc": "말초 수용기 → 신경근 → 척수 후각 → 교차 → 앞가쪽계통 → 시상 → 감각피질",
+      "localization": "피부분절·감각수준·말초신경 분포와 교차 이후의 반대쪽 양상을 함께 봅니다.",
+      "route": [
+        "exam-pinprick-1",
+        "nerve-root",
+        "exam-pinprick-3",
+        "exam-pinprick-4",
+        "spinothalamic",
+        "thalamus",
+        "postcentral-gyrus"
+      ],
+      "normal": "좌우와 원위·근위의 통각·온각 인지가 대칭적으로 보입니다.",
+      "abnormal": "단일 검사만으로 위치를 확정하지 않고 진동·위치감각·근력·반사를 함께 비교합니다.",
+      "viewId": "spinal-cross-section",
+      "sourceIds": [
+        "wikimedia-spinal",
+        "ncbi-cortex"
+      ],
+      "purpose": "통각·온각의 분포와 좌우 차이를 확인합니다.",
+      "technique": [
+        "피부 손상 없이 안전한 자극을 사용하고 눈을 감은 상태에서 비교합니다."
+      ],
+      "routeLabels": [
+        "통각수용기",
+        "신경근",
+        "뒤뿔",
+        "앞백질교련",
+        "앞가쪽계통",
+        "시상",
+        "후중심이랑"
+      ],
+      "reviewStatus": "source-checked",
+      "routeStages": [
+        "stimulus",
+        "afferent",
+        "central",
+        "central",
+        "central",
+        "central",
+        "central"
+      ],
+      "laterality": {
+        "options": [
+          "left",
+          "right"
+        ],
+        "default": "left",
+        "description": "같은 자극을 좌우와 원위·근위 부위에서 비교하며, 감각수준은 기준점에서 위아래로 재확인합니다."
+      }
+    },
+    {
+      "id": "vibration",
+      "label": "진동·위치감각 검사",
+      "arc": "말초 수용기 → 신경근 → 동측 뒤기둥 → 연수 교차 → 내측섬유띠 → 시상 → 감각피질",
+      "localization": "뒤기둥 경로와 말초신경 기능을 함께 봅니다.",
+      "route": [
+        "exam-vibration-1",
+        "nerve-root",
+        "dorsal-column",
+        "medulla",
+        "exam-vibration-5",
+        "thalamus",
+        "postcentral-gyrus"
+      ],
+      "normal": "말초에서 중추 쪽으로 비교 시 좌우 대칭적으로 진동·위치를 인지합니다.",
+      "abnormal": "당뇨·말초신경병증 등 길이의존성 패턴과 감각수준·교차 소견을 구분합니다.",
+      "viewId": "spinal-cross-section",
+      "sourceIds": [
+        "wikimedia-spinal",
+        "ncbi-cortex"
+      ],
+      "purpose": "진동·위치감각 경로를 확인합니다.",
+      "technique": [
+        "진동 자극 또는 관절 위치 변화를 좌우·원위부부터 비교합니다."
+      ],
+      "routeLabels": [
+        "기계수용기",
+        "신경근",
+        "뒤기둥",
+        "연수",
+        "내측섬유띠",
+        "시상",
+        "후중심이랑"
+      ],
+      "reviewStatus": "source-checked",
+      "routeStages": [
+        "stimulus",
+        "afferent",
+        "central",
+        "central",
+        "central",
+        "central",
+        "central"
+      ],
+      "laterality": {
+        "options": [
+          "left",
+          "right"
+        ],
+        "default": "left",
+        "description": "원위 관절의 진동 소실 시점을 좌우와 근위 관절에서 비교합니다."
+      }
+    },
+    {
+      "id": "cough",
+      "label": "기침반사",
+      "arc": "기도/후두 자극 → 미주신경 구심성 → 연수 기침 회로 → 미주·횡격·척수운동신경 → 호흡근",
+      "localization": "기도 보호 기능과 연수·미주신경 관련 회로를 함께 봅니다. 시행·해석은 환자 상태와 안전을 우선합니다.",
+      "route": [
+        "exam-cough-1",
+        "exam-cough-2",
+        "exam-cough-3",
+        "exam-cough-4",
+        "exam-cough-5",
+        "exam-cough-6"
+      ],
+      "normal": "기도 자극에 적절한 보호성 기침 반응이 나타납니다.",
+      "abnormal": "의식저하·기도보호 평가 등에서는 전체 신경학적 상태와 호흡 상태를 함께 해석합니다.",
+      "viewId": "brainstem-section",
+      "sourceIds": [
+        "ncbi-cough"
+      ],
+      "purpose": "기도 보호와 미주신경–연수–호흡근 연결을 봅니다.",
+      "technique": [
+        "기도 자극 검사는 안전·산소화·흡인 위험을 고려하여 임상 상황에서 시행합니다."
+      ],
+      "routeLabels": [
+        "기도 수용체",
+        "미주신경 구심성",
+        "고립로핵",
+        "연수 호흡중추",
+        "미주·횡격신경·척수 연결",
+        "호흡근"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "oculocephalic",
+      "label": "안구두부반사",
+      "arc": "전정기관/CN VIII → 전정핵 → MLF → III·VI 핵 → 안구운동근",
+      "localization": "전정안반사를 이용해 뇌간의 III·VI·VIII 및 연결을 평가하는 진찰입니다. 경추 손상 가능성이 있으면 시행하지 않습니다.",
+      "route": [
+        "exam-oculocephalic-1",
+        "vestibular-nucleus",
+        "exam-oculocephalic-3",
+        "exam-oculocephalic-4",
+        "exam-oculocephalic-5"
+      ],
+      "normal": "경추가 안정된 상황에서 머리 회전에 반대 방향의 보상성 안구운동이 관찰됩니다.",
+      "abnormal": "시행 전 경추 안정성을 확인합니다. 의식저하 환자의 해석은 표준 절차와 전체 뇌간 반사 평가를 따릅니다.",
+      "viewId": "brainstem-external",
+      "sourceIds": [
+        "ncbi-oculocephalic",
+        "ncbi-vestibular"
+      ],
+      "purpose": "의식저하 상황의 뇌간 전정안반사 보존을 확인합니다.",
+      "technique": [
+        "경추 손상 가능성이 배제된 경우에만 시행합니다.",
+        "머리 회전에 대한 보상성 안구운동을 관찰합니다."
+      ],
+      "routeLabels": [
+        "전정기관",
+        "전정핵",
+        "내측종속",
+        "III·VI 신경핵",
+        "외안근"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "anal-wink",
+      "label": "항문반사",
+      "arc": "항문주위 감각신경 → S2–S4 척수 반사 회로 → 음부신경 운동섬유 → 항문괄약근",
+      "localization": "천수 분절과 음부신경 관련 반사 회로를 임상 맥락에서 평가합니다.",
+      "route": [
+        "exam-anal-wink-1",
+        "exam-anal-wink-2",
+        "exam-anal-wink-3",
+        "exam-anal-wink-4"
+      ],
+      "normal": "항문주위 자극에 항문괄약근 수축이 관찰될 수 있습니다.",
+      "abnormal": "천수 기능 평가는 ISNCSCI 표준과 전체 골반저·감각 평가 맥락에서 기록합니다.",
+      "viewId": "spinal-cross-section",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "purpose": "S2–S4 천수 분절 반사를 확인합니다.",
+      "technique": [
+        "동의·프라이버시·적응증을 확인한 뒤 항문주위 자극 반응을 관찰합니다."
+      ],
+      "routeLabels": [
+        "항문주위 감각",
+        "S2–S4 척수",
+        "음부신경",
+        "바깥항문조임근"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "bulbocavernosus",
+      "label": "구해면체반사",
+      "arc": "음경/음핵 또는 도뇨관 자극 → 음부신경 구심성 → S2–S4 반사 회로 → 음부신경 원심성 → 항문괄약근",
+      "localization": "천수 반사 회로의 보존 여부를 맥락에 따라 확인합니다.",
+      "route": [
+        "exam-bulbocavernosus-1",
+        "exam-bulbocavernosus-2",
+        "exam-bulbocavernosus-3",
+        "exam-bulbocavernosus-4"
+      ],
+      "normal": "적절한 자극 시 항문괄약근 수축이 관찰될 수 있습니다.",
+      "abnormal": "진찰 적응증·동의·안전과 전문적 해석이 필요합니다.",
+      "viewId": "spinal-cross-section",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "purpose": "S2–S4 및 음부신경 반사 회로를 확인합니다.",
+      "technique": [
+        "전문적 진찰 환경에서 적응증·동의·안전을 확인해 시행합니다."
+      ],
+      "routeLabels": [
+        "생식기 감각수용기",
+        "음부신경",
+        "S2–S4 척수",
+        "바깥항문조임근"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "visual-field-confrontation",
+      "label": "대면 시야검사",
+      "arc": "망막 → 시신경 → 시신경교차 → 시삭 → 시방사 → 일차시각피질",
+      "localization": "단안·양안, 수직/수평 경계 존중 여부를 함께 기록해 시각경로 위치를 추정합니다.",
+      "route": [
+        "exam-visual-field-confrontation-1",
+        "exam-visual-field-confrontation-2",
+        "exam-visual-field-confrontation-3",
+        "exam-visual-field-confrontation-4",
+        "exam-visual-field-confrontation-5",
+        "exam-visual-field-confrontation-6",
+        "exam-visual-field-confrontation-7"
+      ],
+      "routeLabels": [
+        "시야 자극",
+        "망막",
+        "시신경",
+        "시신경교차",
+        "시삭",
+        "시방사",
+        "일차시각피질"
+      ],
+      "normal": "각 사분면에서 검사자와 비교 가능한 대면 시야가 확인됩니다.",
+      "abnormal": "단안 소실, 양측두 반맹, 동측성 반맹/사분맹은 다른 검사와 함께 시각경로를 국소화합니다.",
+      "viewId": "cerebrum-inferior",
+      "sourceIds": [
+        "ncbi-clinical-methods-neuro",
+        "ncbi-visual"
+      ],
+      "purpose": "시각경로의 구심성 입력과 시야결손 분포를 선별합니다.",
+      "technique": [
+        "환자는 검사자의 눈 또는 코를 고정하고 한쪽 눈씩 비교합니다.",
+        "검사자와 환자 사이 중간 지점에서 사분면별 자극을 제시해 좌우를 비교합니다."
+      ],
+      "reviewStatus": "source-checked",
+      "routeStages": [
+        "stimulus",
+        "afferent",
+        "afferent",
+        "central",
+        "central",
+        "central",
+        "central"
+      ],
+      "laterality": {
+        "options": [
+          "left",
+          "right"
+        ],
+        "default": "left",
+        "description": "각 사분면을 한쪽씩 비교합니다. 검사자와 피검자의 시야가 같은지 확인한 뒤 진행합니다."
+      }
+    },
+    {
+      "id": "extraocular-movements",
+      "label": "안구운동 검사",
+      "arc": "전두안구영역/뇌간 → CN III·IV·VI 핵 → MLF → 외안근",
+      "localization": "복시, 안구운동 제한, 안진, 동공·안검 소견을 함께 보며 핵·MLF·말초신경을 구분합니다.",
+      "route": [
+        "exam-extraocular-movements-1",
+        "exam-extraocular-movements-2",
+        "exam-extraocular-movements-3",
+        "exam-extraocular-movements-4",
+        "exam-extraocular-movements-5",
+        "exam-extraocular-movements-6"
+      ],
+      "routeLabels": [
+        "주시 표적",
+        "전두안구영역",
+        "III·IV·VI 신경핵",
+        "MLF",
+        "III·IV·VI 뇌신경",
+        "외안근"
+      ],
+      "normal": "여섯 방향에서 결합 안구운동이 부드럽고 복시·병적 안진이 없습니다.",
+      "abnormal": "결합운동 장애, internuclear ophthalmoplegia, 말초신경 마비 양상은 동공·안검·전정 소견과 함께 해석합니다.",
+      "viewId": "brainstem-external",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-clinical-methods-neuro"
+      ],
+      "purpose": "안구운동 신경·MLF·뇌간 연결과 전정-안구운동 조절을 평가합니다.",
+      "technique": [
+        "머리를 고정한 상태에서 H-pattern으로 표적을 따라가게 하고 복시·안진을 확인합니다.",
+        "주시 방향, 안검하수, 동공 크기·반응을 함께 관찰합니다."
+      ],
+      "reviewStatus": "source-checked",
+      "routeStages": [
+        "stimulus",
+        "central",
+        "central",
+        "central",
+        "efferent",
+        "effector"
+      ],
+      "laterality": {
+        "options": [
+          "left",
+          "right"
+        ],
+        "default": "left",
+        "description": "양안의 공동운동, 복시 방향, 안진을 함께 보며 어느 쪽 주시에서 증상이 유발되는지 기록합니다."
+      }
+    },
+    {
+      "id": "facial-motor-exam",
+      "label": "안면운동 검사",
+      "arc": "운동피질 → 피질연수로 → 안면신경핵 → CN VII → 안면표정근",
+      "localization": "이마 보존 여부, 동측 전체 안면약화, 동반 뇌간·피질 징후를 함께 보며 UMN과 LMN 패턴을 구분합니다.",
+      "route": [
+        "exam-facial-motor-exam-1",
+        "exam-facial-motor-exam-2",
+        "exam-facial-motor-exam-3",
+        "exam-facial-motor-exam-4",
+        "exam-facial-motor-exam-5",
+        "exam-facial-motor-exam-6"
+      ],
+      "routeLabels": [
+        "운동 명령",
+        "일차운동피질",
+        "피질연수로",
+        "안면신경핵",
+        "안면신경",
+        "안면표정근"
+      ],
+      "normal": "이마 주름, 강한 눈감기, 치아 보이기, 볼 부풀리기가 좌우 대칭입니다.",
+      "abnormal": "중추성 약화에서는 상안면 보존이 흔하지만, 임상 상황에서는 동반 신경학적 소견과 시간 경과를 함께 평가합니다.",
+      "viewId": "brainstem-external",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-facial-nerve"
+      ],
+      "purpose": "피질연수로부터 VII 신경·안면표정근까지의 운동 연결을 확인합니다.",
+      "technique": [
+        "안면 비대칭을 관찰한 뒤 이마 주름, 눈 세게 감기, 치아 보이기, 볼 부풀리기를 좌우 비교합니다."
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "finger-nose-test",
+      "label": "손가락-코 검사",
+      "arc": "운동피질·교뇌 연결 → 소뇌 → 소뇌출력 → 운동 조절",
+      "localization": "병변 쪽과 같은 쪽 사지의 dysmetria·intention tremor 여부를 다른 감각·근력 소견과 함께 해석합니다.",
+      "route": [
+        "exam-finger-nose-test-1",
+        "exam-finger-nose-test-2",
+        "exam-finger-nose-test-3",
+        "exam-finger-nose-test-4",
+        "exam-finger-nose-test-5"
+      ],
+      "routeLabels": [
+        "운동 계획",
+        "피질-교뇌 연결",
+        "소뇌반구",
+        "소뇌 출력 경로",
+        "상지 근육"
+      ],
+      "normal": "표적과 코를 교대로 빠르고 정확하게 짚으며 intention tremor가 없습니다.",
+      "abnormal": "dysmetria, past-pointing, intention tremor는 소뇌 기능장애를 시사할 수 있으나 근력·감각·시각 문제를 배제해야 합니다.",
+      "viewId": "cerebellum",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "purpose": "상지 협응, 거리·힘 조절, intention tremor를 평가합니다.",
+      "technique": [
+        "환자가 검사자 손가락과 자신의 코를 교대로 짚도록 하고, 표적 위치·속도를 바꾸며 양측을 비교합니다."
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "heel-shin-test",
+      "label": "발꿈치-정강이 검사",
+      "arc": "운동피질·교뇌 연결 → 소뇌 → 소뇌출력 → 하지 근육",
+      "localization": "하지의 dysmetria는 동측 소뇌 기능, 감각실조, 근력저하를 구분해 해석합니다.",
+      "route": [
+        "exam-heel-shin-test-1",
+        "exam-heel-shin-test-2",
+        "exam-heel-shin-test-3",
+        "exam-heel-shin-test-4",
+        "exam-heel-shin-test-5"
+      ],
+      "routeLabels": [
+        "운동 계획",
+        "피질-교뇌 연결",
+        "소뇌반구",
+        "소뇌 출력 경로",
+        "하지 근육"
+      ],
+      "normal": "반대쪽 무릎에 발꿈치를 올린 뒤 정강이를 따라 부드럽게 내립니다.",
+      "abnormal": "흔들림·경로 이탈은 소뇌 기능뿐 아니라 관절위치감각, 근력, 통증을 함께 평가합니다.",
+      "viewId": "cerebellum",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "purpose": "하지 협응과 dysmetria를 평가합니다.",
+      "technique": [
+        "바로 누운 상태에서 한쪽 발꿈치를 반대 무릎에 올리고 정강이를 따라 내리게 하며 양측을 비교합니다."
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "id": "rapid-alternating-movements",
+      "label": "빠른 교대운동",
+      "arc": "운동피질 ↔ 소뇌 조절 회로 → 상지 근육",
+      "localization": "dysdiadochokinesia는 소뇌 기능 이상에서 보일 수 있으며 파킨슨증·근력저하·통증과 구분합니다.",
+      "route": [
+        "exam-rapid-alternating-movements-1",
+        "exam-rapid-alternating-movements-2",
+        "exam-rapid-alternating-movements-3",
+        "exam-rapid-alternating-movements-4"
+      ],
+      "routeLabels": [
+        "운동 계획",
+        "운동피질",
+        "소뇌 조절 회로",
+        "상지 근육"
+      ],
+      "normal": "양손의 회내-회외 또는 손바닥/손등 반복이 빠르고 규칙적이며 좌우가 대칭입니다.",
+      "abnormal": "속도 저하, 불규칙성, 진폭 감소는 다른 운동·감각 소견과 함께 해석합니다.",
+      "viewId": "cerebellum",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "purpose": "운동의 교대 리듬과 소뇌 조절 기능을 선별합니다.",
+      "technique": [
+        "양손을 빠르게 회내-회외하거나 손바닥/손등을 허벅지에 교대로 대게 하여 리듬과 진폭을 비교합니다."
+      ],
+      "reviewStatus": "draft"
+    }
   ],
   "nexSteps": [
-    {"id":"distribution", "question":"증상이 한쪽에만 있거나 특정 분절·말초신경 분포를 따릅니까?", "choices":[{"id":"hemibody","label":"편측 얼굴·팔·다리가 함께","targets":["cortex","internal-capsule","brainstem"],"note":"대뇌 또는 뇌간의 중추성 병변 가능성을 우선 검토합니다."},{"id":"dermatomal","label":"피부분절/신경근 형태","targets":["root","spinal-cord"],"note":"신경근 병변 가능성을 검토합니다."},{"id":"length-dependent","label":"양측 원위부 대칭","targets":["peripheral-nerve"],"note":"길이의존성 말초신경병증 양상을 검토합니다."}]},
-    {"id":"motor", "question":"근력 저하가 있으면 UMN 징후(경직·과반사·병적반사)가 동반됩니까?", "choices":[{"id":"umn","label":"있음","targets":["cortex","internal-capsule","brainstem","spinal-cord"],"note":"피질척수로를 포함한 중추성 병변을 우선 검토합니다."},{"id":"lmn","label":"없음/위축·저반사","targets":["root","plexus","peripheral-nerve","nmj","muscle"],"note":"전각·신경근·말초신경·NMJ·근육 범주를 임상 양상과 함께 구분합니다."}]},
-    {"id":"sensory", "question":"감각 이상은 어떤 양상입니까?", "choices":[{"id":"dissociated","label":"통각·온각과 진동·위치감각이 다르게 침범","targets":["spinal-cord"],"note":"상행감각로의 해부학적 위치를 고려합니다."},{"id":"sensory-level","label":"명확한 감각 레벨","targets":["spinal-cord"],"note":"척수 병변을 우선 배제합니다."},{"id":"fatigable","label":"감각 이상 없이 변동성·피로성 약화","targets":["nmj"],"note":"신경근접합부 장애 양상을 검토합니다."}]},
-    {"id":"redflag", "question":"급성 국소신경결손, 진행성 양측 약화, 보행·배뇨장애, 의식 변화가 있습니까?", "choices":[{"id":"yes","label":"있음","targets":["cortex","brainstem","spinal-cord"],"note":"응급 평가가 필요할 수 있습니다. 시간 경과와 진찰에 따라 응급 경로를 따르십시오."},{"id":"no","label":"없음","targets":[],"note":"이 도구의 후보는 진단이 아니며, 병력·진찰을 종합해 다음 검사를 결정합니다."}]}
+    {
+      "id": "deprecated",
+      "question": "이 배열은 호환성 유지용이며 NEx 경로 탭에서는 사용하지 않습니다.",
+      "choices": [
+        {
+          "id": "none",
+          "label": "사용하지 않음",
+          "targets": [],
+          "note": "반사·감각·운동 경로 시각화로 대체되었습니다."
+        }
+      ]
+    }
+  ],
+  "theoryTopics": [
+    {
+      "id": "neuroaxis",
+      "title": "신경계 전체 구조와 localization 개요",
+      "category": "구조",
+      "summary": "대뇌–뇌간–척수–신경근–신경총–말초신경–NMJ–근육을 한 연속 축으로 보고, 증상의 분포와 UMN/LMN·감각 양상으로 층위를 좁혀 갑니다.",
+      "keyPoints": [
+        "해부학적 축과 말초 효과기를 분리해 생각합니다.",
+        "단일 소견으로 진단을 확정하지 않고 병력·진찰·검사를 통합합니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "precentral-gyrus",
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-cerebral-hemisphere"
+      ]
+    },
+    {
+      "id": "cortical-function",
+      "title": "대뇌엽과 고위피질 기능",
+      "category": "구조",
+      "summary": "대뇌피질의 엽·고랑·이랑과 감각운동·언어·시각 기능은 지도에서 별도 layer로 확인합니다.",
+      "keyPoints": [
+        "언어 네트워크와 기능영역에는 개인차가 있습니다.",
+        "해부학적 경계와 기능적 연결을 구분해 봅니다."
+      ],
+      "viewId": "cerebrum-lateral",
+      "itemId": "precentral-gyrus",
+      "sourceIds": [
+        "ncbi-cortex",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "basal-ganglia",
+      "title": "기저핵–시상–피질 회로",
+      "category": "구조",
+      "summary": "기저핵 회로는 단일 하행로가 아니라 운동 선택·억제와 관련된 병렬 회로로 정리합니다.",
+      "keyPoints": [
+        "운동완만·강직·불수의운동의 패턴을 함께 관찰합니다.",
+        "시상은 여러 피질–피질하 회로의 중계에 관여합니다."
+      ],
+      "viewId": "brain-axial",
+      "itemId": "basal-ganglia-loop",
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "cerebellum",
+      "title": "소뇌와 협응",
+      "category": "구조",
+      "summary": "소뇌는 움직임의 협응·보행·안구운동 조절과 연결됩니다.",
+      "keyPoints": [
+        "운동실조의 양상은 감각·전정·근력 문제와 구분해 해석합니다.",
+        "소뇌각과 뇌간 연결을 함께 봅니다."
+      ],
+      "viewId": "cerebellum",
+      "itemId": "cerebellum",
+      "sourceIds": [
+        "openstax-cns",
+        "ncbi-spinocerebellar"
+      ]
+    },
+    {
+      "id": "brainstem",
+      "title": "뇌간과 뇌신경",
+      "category": "구조",
+      "summary": "뇌간은 장경로와 뇌신경핵·망상계가 밀집한 영역으로, 교차소견과 뇌신경 소견을 함께 봅니다.",
+      "keyPoints": [
+        "중뇌·교뇌·연수 레벨을 구분합니다.",
+        "안구운동·동공·연하·호흡 관련 소견은 안전을 우선합니다."
+      ],
+      "viewId": "brainstem-external",
+      "itemId": "midbrain",
+      "sourceIds": [
+        "openstax-cns",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "spinal-cord",
+      "title": "척수 구조와 감각수준",
+      "category": "구조",
+      "summary": "척수 횡단면에서는 뒤기둥·가쪽피질척수로·앞가쪽계통의 상대 위치와 감각수준을 함께 봅니다.",
+      "keyPoints": [
+        "교차 위치와 병변 level을 분리해 생각합니다.",
+        "ISNCSCI 표준은 척수신경학적 기록의 공통 언어입니다."
+      ],
+      "viewId": "spinal-cross-section",
+      "itemId": "spinal-cord",
+      "sourceIds": [
+        "isncsci",
+        "wikimedia-spinal"
+      ]
+    },
+    {
+      "id": "peripheral-localization",
+      "title": "신경근·신경총·말초신경",
+      "category": "구조",
+      "summary": "신경근·신경총·말초신경 병변은 근력, 감각, 반사, 통증·유발 자세를 함께 비교해 구분합니다.",
+      "keyPoints": [
+        "한 근육 또는 한 감각영역만으로 단정하지 않습니다.",
+        "상지와 하지의 신경 분포는 별도 보기에서 확인합니다."
+      ],
+      "viewId": "brachial-plexus",
+      "itemId": "brachial-plexus",
+      "sourceIds": [
+        "openstax-cns",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "nmj-muscle",
+      "title": "NMJ와 근육",
+      "category": "구조",
+      "summary": "운동신경 말단, 신경근접합부, 근육은 감각 보존 여부·피로성·반사·근육효소/전기진단 맥락을 구분해 봅니다.",
+      "keyPoints": [
+        "NMJ와 근육질환은 현장 진찰만으로 확정하지 않습니다.",
+        "전기진단·항체검사 해석은 적응증과 검체·검사 조건을 함께 봅니다."
+      ],
+      "viewId": "nmj-muscle",
+      "itemId": "neuromuscular-junction",
+      "sourceIds": [
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "pathway-corticospinal",
+      "title": "피질척수로",
+      "category": "경로",
+      "summary": "일차운동피질 → 방사관 → 내포 → 대뇌각 → 교뇌·연수 → 피라미드 교차 → 가쪽피질척수로 → 전각 → 말초운동신경 → 근육",
+      "keyPoints": [
+        "교차 위 병변은 반대측 UMN 징후, 척수 내 교차 아래 병변은 같은쪽 UMN 징후를 시사할 수 있습니다.",
+        "경로의 교차·중계는 선택한 지도에서 함께 확인합니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "corticospinal",
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere",
+        "wikimedia-spinal"
+      ]
+    },
+    {
+      "id": "pathway-dcml",
+      "title": "뒤기둥-내측섬유띠",
+      "category": "경로",
+      "summary": "말초 수용기 → 신경근 → 동측 뒤기둥 → 연수 뒤기둥핵 → 교차 → 내측섬유띠 → 시상 → 후중심이랑",
+      "keyPoints": [
+        "진동·관절위치·정교한 촉각을 전달합니다. 편측 척수 병변은 병변 아래 동측 소실 양상을 보일 수 있습니다.",
+        "경로의 교차·중계는 선택한 지도에서 함께 확인합니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "dcml",
+      "sourceIds": [
+        "wikimedia-spinal",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "pathway-spinothalamic",
+      "title": "척수시상로",
+      "category": "경로",
+      "summary": "말초 수용기 → 신경근 → 척수 후각 → 앞백색교련에서 1–2 분절 내 교차 → 반대쪽 앞가쪽계통 → 시상 → 후중심이랑",
+      "keyPoints": [
+        "통각·온각을 전달합니다. 편측 척수 병변에서는 병변 아래 반대쪽 소실 양상이 전형적입니다.",
+        "경로의 교차·중계는 선택한 지도에서 함께 확인합니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "spinothalamic",
+      "sourceIds": [
+        "wikimedia-spinal",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "pathway-corticobulbar",
+      "title": "피질연수로",
+      "category": "경로",
+      "summary": "운동피질 얼굴·인두 대표부 → 내포 genu → 뇌간 뇌신경운동핵 → 말초뇌신경 → 안면·구음·연하 관련 근육",
+      "keyPoints": [
+        "대부분의 뇌신경운동핵은 양측 피질 입력을 받지만, 하부 안면 등은 임상적으로 비대칭 피질지배가 중요합니다. 개별 소견은 뇌신경 진찰과 함께 해석합니다.",
+        "경로의 교차·중계는 선택한 지도에서 함께 확인합니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "corticobulbar",
+      "sourceIds": [
+        "ncbi-corticospinal",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "pathway-basal-ganglia-loop",
+      "title": "기저핵–시상–피질 회로",
+      "category": "경로",
+      "summary": "대뇌피질 → 선조체/창백핵·시상하핵·흑질 관련 회로 → 시상 → 운동·연합 피질",
+      "keyPoints": [
+        "단일 하행로가 아니라 운동 선택·억제와 관련된 병렬 회로 개념입니다. 병변 해석은 운동완만·강직·불수의운동의 패턴과 함께 합니다.",
+        "경로의 교차·중계는 선택한 지도에서 함께 확인합니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "basal-ganglia-loop",
+      "sourceIds": [
+        "ncbi-cerebral-hemisphere",
+        "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "pathway-spinocerebellar",
+      "title": "척수소뇌로",
+      "category": "경로",
+      "summary": "말초 고유수용기 → 척수 중계(대표적으로 Clarke column) → 뒤척수소뇌로 → 하소뇌각 → 동측 소뇌",
+      "keyPoints": [
+        "무의식적 고유감각과 협응에 관여합니다. 임상 소견은 병변의 위치·원인과 함께 해석합니다.",
+        "경로의 교차·중계는 선택한 지도에서 함께 확인합니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "spinocerebellar",
+      "sourceIds": [
+        "ncbi-spinocerebellar",
+        "isncsci"
+      ]
+    },
+    {
+      "id": "pathway-trigeminal-sensory",
+      "title": "삼차감각 경로",
+      "category": "경로",
+      "summary": "얼굴 감각수용기 → 삼차신경절 → 주감각핵/척수삼차핵 → 교차성 삼차시상로 → 시상 → 체성감각피질",
+      "keyPoints": [
+        "얼굴의 촉각·통각은 척수 체성감각 경로와 다른 중계핵을 거치므로, 체간 감각과의 해리 여부가 국소화에 도움을 줄 수 있습니다.",
+        "경로의 교차·중계는 선택한 지도에서 함께 확인합니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "trigeminal-sensory",
+      "sourceIds": [
+        "ncbi-trigeminal",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "pathway-visual",
+      "title": "시각 경로",
+      "category": "경로",
+      "summary": "망막 → 시신경(CN II) → 시신경교차 → 시삭 → 가쪽무릎체 → 시방사 → 조거리고랑 주변 일차시각피질",
+      "keyPoints": [
+        "망막·시신경·교차·시삭 이후의 시야 결손 패턴은 경로의 위치와 연관됩니다. 실제 판독은 시야검사와 눈 진찰을 함께 봅니다.",
+        "경로의 교차·중계는 선택한 지도에서 함께 확인합니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "visual",
+      "sourceIds": [
+        "ncbi-visual",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "pathway-pupil-pathway",
+      "title": "동공 빛반사 경로",
+      "category": "경로",
+      "summary": "망막 → CN II → pretectal area → 양측 Edinger–Westphal nuclei → CN III → 섬모체신경절 → 동공괄약근",
+      "keyPoints": [
+        "직접·간접 반응과 안구운동·안검하수·시기능을 함께 비교해 구심성과 원심성을 구분합니다.",
+        "경로의 교차·중계는 선택한 지도에서 함께 확인합니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "pupil-pathway",
+      "sourceIds": [
+        "ncbi-pupil"
+      ]
+    },
+    {
+      "id": "pathway-ocular-motor",
+      "title": "수평 주시·전정안반사 축",
+      "category": "경로",
+      "summary": "전정기관/CN VIII → 전정핵 → MLF → III·IV·VI 핵 및 안구운동근; 수평 주시는 PPRF·외전신경핵·MLF의 연결을 함께 봅니다.",
+      "keyPoints": [
+        "안구운동 이상은 병력, 복시 양상, 동공·안검, 다른 뇌간 징후와 함께 해석합니다.",
+        "경로의 교차·중계는 선택한 지도에서 함께 확인합니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "ocular-motor",
+      "sourceIds": [
+        "ncbi-vestibular",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "pathway-auditory-vestibular",
+      "title": "청각·전정 경로",
+      "category": "경로",
+      "summary": "와우/CN VIII → 와우·전정핵 → 양측성 뇌간 중계 → 하구·안쪽무릎체 → 청각피질, 또는 전정핵 → 소뇌·안구운동핵·척수",
+      "keyPoints": [
+        "청각 경로는 일찍부터 양측성 중계가 있어 단일 중추 병변의 해석을 단순화하지 않습니다. 전정 소견은 안구운동·보행과 함께 봅니다.",
+        "경로의 교차·중계는 선택한 지도에서 함께 확인합니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "auditory-vestibular",
+      "sourceIds": [
+        "ncbi-auditory",
+        "ncbi-vestibular"
+      ]
+    },
+    {
+      "id": "pathway-sympathetic",
+      "title": "교감신경·안교감 축",
+      "category": "경로",
+      "summary": "시상하부 → 뇌간 → C8–T2 ciliospinal center → 교감신경절(예: 상경신경절) → 혈관·평활근·동공확대근 등 효과기",
+      "keyPoints": [
+        "자율신경 경로는 장기별 분지가 다양합니다. Horner 의심 시 증상·동공·안검 및 임상 상황에 따라 국소화합니다.",
+        "경로의 교차·중계는 선택한 지도에서 함께 확인합니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "sympathetic",
+      "sourceIds": [
+        "ncbi-autonomic",
+        "ncbi-oculosympathetic"
+      ]
+    },
+    {
+      "id": "pathway-parasympathetic",
+      "title": "부교감신경 축",
+      "category": "경로",
+      "summary": "뇌간 부교감핵(III·VII·IX·X 관련) 또는 S2–S4 → 말초 신경절 → 장기 효과기",
+      "keyPoints": [
+        "부교감 경로는 뇌신경 및 천수 유출로 나뉘며, 진찰 소견의 의미는 장기계·약물·전신상태와 함께 해석합니다.",
+        "경로의 교차·중계는 선택한 지도에서 함께 확인합니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "parasympathetic",
+      "sourceIds": [
+        "ncbi-autonomic",
+        "ncbi-pupil"
+      ]
+    },
+    {
+      "id": "umn-lmn",
+      "title": "UMN vs LMN",
+      "category": "위치추정",
+      "summary": "UMN과 LMN 소견은 근력·긴장도·반사·병적반사·위축·연축을 묶어 해석하는 틀입니다.",
+      "keyPoints": [
+        "혼합 소견과 시간 경과를 고려합니다.",
+        "급성 병변의 초기 반사 변화는 예외가 될 수 있습니다."
+      ],
+      "viewId": "whole-neuraxis",
+      "itemId": "corticospinal",
+      "sourceIds": [
+        "ncbi-corticospinal"
+      ]
+    },
+    {
+      "id": "root-plexus-nerve",
+      "title": "Root vs plexus vs peripheral nerve",
+      "category": "위치추정",
+      "summary": "근력·감각·반사·통증 분포를 이용해 신경근·신경총·말초신경 가능성을 비교합니다.",
+      "keyPoints": [
+        "피부분절과 말초신경 감각영역은 겹칠 수 있습니다.",
+        "필요 시 영상·전기진단을 임상 질문에 맞춰 사용합니다."
+      ],
+      "viewId": "brachial-plexus",
+      "itemId": "nerve-root",
+      "sourceIds": [
+        "isncsci",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "exam-reflex",
+      "title": "반사 진찰",
+      "category": "진찰",
+      "summary": "반사는 자극–구심성–중추–원심성–효과기 순서로 기록하고, 양측 차이와 전체 진찰 맥락을 함께 봅니다.",
+      "keyPoints": [
+        "반사 등급은 검사 조건·이완·약물·전신상태의 영향을 받습니다.",
+        "각 반사의 신경분절은 NEx 경로 탭에서 확인합니다."
+      ],
+      "viewId": "spinal-cross-section",
+      "itemId": "patellar",
+      "sourceIds": [
+        "isncsci"
+      ]
+    },
+    {
+      "id": "exam-sensory",
+      "title": "감각 진찰",
+      "category": "진찰",
+      "summary": "통각·온각, 진동·위치감각은 서로 다른 경로를 통해 전달되므로 분포와 해리 여부를 함께 확인합니다.",
+      "keyPoints": [
+        "안전한 자극과 눈을 감은 비교 검사가 중요합니다.",
+        "피부 병변·인지 상태·협조도도 해석에 영향을 줍니다."
+      ],
+      "viewId": "spinal-cross-section",
+      "itemId": "spinothalamic",
+      "sourceIds": [
+        "isncsci",
+        "ncbi-cortex"
+      ]
+    },
+    {
+      "id": "exam-cranial",
+      "title": "뇌신경 진찰",
+      "category": "진찰",
+      "summary": "동공, 안구운동, 얼굴감각·운동, 연하·발성 등은 뇌간과 말초뇌신경을 연결해 봅니다.",
+      "keyPoints": [
+        "동공·연하·기도보호 이상은 임상적 긴급도를 함께 판단합니다.",
+        "반사 자체보다 병력·의식·다른 뇌간 징후가 중요합니다."
+      ],
+      "viewId": "brainstem-external",
+      "itemId": "pupillary",
+      "sourceIds": [
+        "ncbi-pupil",
+        "ncbi-trigeminal",
+        "ncbi-gag"
+      ]
+    }
+  ],
+  "examNodes": [
+    {
+      "id": "exam-pupillary-3",
+      "label": "전덮개영역",
+      "rawLabel": "pretectal",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-pupil"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "pupillary"
+    },
+    {
+      "id": "exam-pupillary-4",
+      "label": "Edinger–Westphal 핵",
+      "rawLabel": "edinger-westphal",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-pupil"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "pupillary"
+    },
+    {
+      "id": "exam-pupillary-5",
+      "label": "눈돌림신경",
+      "rawLabel": "oculomotor",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-pupil"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "pupillary"
+    },
+    {
+      "id": "exam-pupillary-6",
+      "label": "섬모체신경절",
+      "rawLabel": "ciliary-ganglion",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-pupil"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "pupillary"
+    },
+    {
+      "id": "exam-pupillary-7",
+      "label": "동공괄약근",
+      "rawLabel": "pupil-sphincter",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-pupil"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "pupillary"
+    },
+    {
+      "id": "exam-corneal-1",
+      "label": "각막",
+      "rawLabel": "cornea",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "ncbi-trigeminal"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "corneal"
+    },
+    {
+      "id": "exam-corneal-2",
+      "label": "삼차신경 V1",
+      "rawLabel": "v1",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-trigeminal"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "corneal"
+    },
+    {
+      "id": "exam-corneal-4",
+      "label": "안면신경핵",
+      "rawLabel": "facial-nucleus",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-trigeminal"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "corneal"
+    },
+    {
+      "id": "exam-corneal-5",
+      "label": "안면신경",
+      "rawLabel": "facial-nerve",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-trigeminal"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "corneal"
+    },
+    {
+      "id": "exam-corneal-6",
+      "label": "눈둘레근",
+      "rawLabel": "orbicularis",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-trigeminal"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "corneal"
+    },
+    {
+      "id": "exam-vestibulo-ocular-1",
+      "label": "반고리관",
+      "rawLabel": "semicircular-canal",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "terminologia-neuro"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "vestibulo-ocular"
+    },
+    {
+      "id": "exam-vestibulo-ocular-2",
+      "label": "전정달팽이신경 (VIII)",
+      "rawLabel": "cn8",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "terminologia-neuro"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "vestibulo-ocular"
+    },
+    {
+      "id": "exam-vestibulo-ocular-3",
+      "label": "전정핵",
+      "rawLabel": "vestibular-nuclei",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "terminologia-neuro"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "vestibulo-ocular"
+    },
+    {
+      "id": "exam-vestibulo-ocular-4",
+      "label": "내측종속",
+      "rawLabel": "mlf",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "terminologia-neuro"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "vestibulo-ocular"
+    },
+    {
+      "id": "exam-vestibulo-ocular-5",
+      "label": "III·IV·VI 뇌신경",
+      "rawLabel": "cn3-4-6",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "terminologia-neuro"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "vestibulo-ocular"
+    },
+    {
+      "id": "exam-vestibulo-ocular-6",
+      "label": "외안근",
+      "rawLabel": "extraocular-muscles",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "terminologia-neuro"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "vestibulo-ocular"
+    },
+    {
+      "id": "exam-biceps-1",
+      "label": "근방추",
+      "rawLabel": "muscle-spindle",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "biceps"
+    },
+    {
+      "id": "exam-biceps-2",
+      "label": "C5–C6 신경근",
+      "rawLabel": "c5-c6-root",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "biceps"
+    },
+    {
+      "id": "exam-biceps-4",
+      "label": "근피신경",
+      "rawLabel": "musculocutaneous",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "biceps"
+    },
+    {
+      "id": "exam-biceps-5",
+      "label": "위팔두갈래근",
+      "rawLabel": "biceps-muscle",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "biceps"
+    },
+    {
+      "id": "exam-patellar-1",
+      "label": "근방추",
+      "rawLabel": "muscle-spindle",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "lumbosacral-plexus",
+      "examId": "patellar"
+    },
+    {
+      "id": "exam-patellar-2",
+      "label": "L3–L4 신경근",
+      "rawLabel": "l3-l4-root",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "lumbosacral-plexus",
+      "examId": "patellar"
+    },
+    {
+      "id": "exam-patellar-4",
+      "label": "대퇴신경",
+      "rawLabel": "femoral-nerve",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "lumbosacral-plexus",
+      "examId": "patellar"
+    },
+    {
+      "id": "exam-patellar-5",
+      "label": "대퇴사두근",
+      "rawLabel": "quadriceps",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "lumbosacral-plexus",
+      "examId": "patellar"
+    },
+    {
+      "id": "exam-achilles-1",
+      "label": "근방추",
+      "rawLabel": "muscle-spindle",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "lower-limb-nerves",
+      "examId": "achilles"
+    },
+    {
+      "id": "exam-achilles-2",
+      "label": "S1–S2 신경근",
+      "rawLabel": "s1-s2-root",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "lower-limb-nerves",
+      "examId": "achilles"
+    },
+    {
+      "id": "exam-achilles-4",
+      "label": "정강신경",
+      "rawLabel": "tibial-nerve",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "lower-limb-nerves",
+      "examId": "achilles"
+    },
+    {
+      "id": "exam-achilles-5",
+      "label": "장딴지근",
+      "rawLabel": "gastrocnemius",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "lower-limb-nerves",
+      "examId": "achilles"
+    },
+    {
+      "id": "exam-jaw-jerk-1",
+      "label": "교근 근방추",
+      "rawLabel": "masseter-spindle",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "ncbi-trigeminal"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "jaw-jerk"
+    },
+    {
+      "id": "exam-jaw-jerk-2",
+      "label": "삼차신경 중뇌핵",
+      "rawLabel": "trigeminal-mesencephalic-nucleus",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-trigeminal"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "jaw-jerk"
+    },
+    {
+      "id": "exam-jaw-jerk-3",
+      "label": "삼차신경 운동핵",
+      "rawLabel": "trigeminal-motor-nucleus",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-trigeminal"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "jaw-jerk"
+    },
+    {
+      "id": "exam-jaw-jerk-4",
+      "label": "삼차신경 V3",
+      "rawLabel": "v3",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-trigeminal"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "jaw-jerk"
+    },
+    {
+      "id": "exam-jaw-jerk-5",
+      "label": "교근",
+      "rawLabel": "masseter",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-trigeminal"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "jaw-jerk"
+    },
+    {
+      "id": "exam-gag-1",
+      "label": "후인두",
+      "rawLabel": "posterior-pharynx",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "ncbi-gag"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "gag"
+    },
+    {
+      "id": "exam-gag-2",
+      "label": "혀인두신경 (IX)",
+      "rawLabel": "cn9",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-gag"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "gag"
+    },
+    {
+      "id": "exam-gag-3",
+      "label": "고립로핵",
+      "rawLabel": "nucleus-tractus-solitarius",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-gag"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "gag"
+    },
+    {
+      "id": "exam-gag-4",
+      "label": "의문핵",
+      "rawLabel": "nucleus-ambiguus",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-gag"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "gag"
+    },
+    {
+      "id": "exam-gag-5",
+      "label": "미주신경 (X)",
+      "rawLabel": "cn10",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-gag"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "gag"
+    },
+    {
+      "id": "exam-gag-6",
+      "label": "인두근",
+      "rawLabel": "pharyngeal-muscles",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-gag"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "gag"
+    },
+    {
+      "id": "exam-plantar-1",
+      "label": "발바닥",
+      "rawLabel": "sole",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "ncbi-plantar",
+        "ncbi-corticospinal"
+      ],
+      "viewId": "sacral-plexus",
+      "examId": "plantar"
+    },
+    {
+      "id": "exam-plantar-2",
+      "label": "정강신경",
+      "rawLabel": "tibial-nerve",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-plantar",
+        "ncbi-corticospinal"
+      ],
+      "viewId": "sacral-plexus",
+      "examId": "plantar"
+    },
+    {
+      "id": "exam-plantar-3",
+      "label": "L5–S1 척수 회로",
+      "rawLabel": "l5-s1-spinal-circuit",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-plantar",
+        "ncbi-corticospinal"
+      ],
+      "viewId": "spinal-cross-section",
+      "examId": "plantar"
+    },
+    {
+      "id": "exam-plantar-4",
+      "label": "피질척수 조절",
+      "rawLabel": "corticospinal-modulation",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-plantar",
+        "ncbi-corticospinal"
+      ],
+      "viewId": "whole-neuraxis",
+      "examId": "plantar"
+    },
+    {
+      "id": "exam-plantar-5",
+      "label": "발가락 굽힘근",
+      "rawLabel": "toe-flexors",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-plantar",
+        "ncbi-corticospinal"
+      ],
+      "viewId": "sacral-plexus",
+      "examId": "plantar"
+    },
+    {
+      "id": "exam-near-2",
+      "label": "시각피질",
+      "rawLabel": "visual-cortex",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-pupil"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "near"
+    },
+    {
+      "id": "exam-near-4",
+      "label": "Edinger–Westphal 핵",
+      "rawLabel": "edinger-westphal",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-pupil"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "near"
+    },
+    {
+      "id": "exam-near-5",
+      "label": "눈돌림신경 (III)",
+      "rawLabel": "cn3",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-pupil"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "near"
+    },
+    {
+      "id": "exam-near-6",
+      "label": "섬모체신경절",
+      "rawLabel": "ciliary-ganglion",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-pupil"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "near"
+    },
+    {
+      "id": "exam-near-7",
+      "label": "동공·섬모체근",
+      "rawLabel": "pupil-and-ciliary-muscle",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-pupil"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "near"
+    },
+    {
+      "id": "exam-brachioradialis-1",
+      "label": "근방추",
+      "rawLabel": "muscle-spindle",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "brachioradialis"
+    },
+    {
+      "id": "exam-brachioradialis-2",
+      "label": "C5–C6 신경근",
+      "rawLabel": "c5-c6-root",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "brachioradialis"
+    },
+    {
+      "id": "exam-brachioradialis-4",
+      "label": "노신경",
+      "rawLabel": "radial-nerve",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "brachioradialis"
+    },
+    {
+      "id": "exam-brachioradialis-5",
+      "label": "위팔노근",
+      "rawLabel": "brachioradialis",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "brachioradialis"
+    },
+    {
+      "id": "exam-triceps-1",
+      "label": "근방추",
+      "rawLabel": "muscle-spindle",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "triceps"
+    },
+    {
+      "id": "exam-triceps-2",
+      "label": "C7–C8 신경근",
+      "rawLabel": "c7-c8-root",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "triceps"
+    },
+    {
+      "id": "exam-triceps-4",
+      "label": "노신경",
+      "rawLabel": "radial-nerve",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "triceps"
+    },
+    {
+      "id": "exam-triceps-5",
+      "label": "위팔세갈래근",
+      "rawLabel": "triceps",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "triceps"
+    },
+    {
+      "id": "exam-abdominal-1",
+      "label": "복벽 피부",
+      "rawLabel": "abdominal-skin",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "ncbi-corticospinal"
+      ],
+      "viewId": "spinal-levels",
+      "examId": "abdominal"
+    },
+    {
+      "id": "exam-abdominal-2",
+      "label": "T7–T12 척수 회로",
+      "rawLabel": "t7-t12-spinal-circuit",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-corticospinal"
+      ],
+      "viewId": "spinal-levels",
+      "examId": "abdominal"
+    },
+    {
+      "id": "exam-abdominal-3",
+      "label": "피질척수 조절",
+      "rawLabel": "corticospinal-modulation",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-corticospinal"
+      ],
+      "viewId": "spinal-levels",
+      "examId": "abdominal"
+    },
+    {
+      "id": "exam-abdominal-4",
+      "label": "복벽근",
+      "rawLabel": "abdominal-muscles",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-corticospinal"
+      ],
+      "viewId": "spinal-levels",
+      "examId": "abdominal"
+    },
+    {
+      "id": "exam-cremasteric-1",
+      "label": "안쪽 넓적다리",
+      "rawLabel": "medial-thigh",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "cremasteric"
+    },
+    {
+      "id": "exam-cremasteric-2",
+      "label": "L1–L2 척수 회로",
+      "rawLabel": "l1-l2-spinal-circuit",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "cremasteric"
+    },
+    {
+      "id": "exam-cremasteric-3",
+      "label": "음부대퇴신경",
+      "rawLabel": "genitofemoral-nerve",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "cremasteric"
+    },
+    {
+      "id": "exam-cremasteric-4",
+      "label": "고환올림근",
+      "rawLabel": "cremaster",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "brachial-plexus",
+      "examId": "cremasteric"
+    },
+    {
+      "id": "exam-pinprick-1",
+      "label": "통각수용기",
+      "rawLabel": "nociceptor",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "wikimedia-spinal",
+        "ncbi-cortex"
+      ],
+      "viewId": "dermatome-anterior",
+      "examId": "pinprick"
+    },
+    {
+      "id": "exam-pinprick-3",
+      "label": "뒤뿔",
+      "rawLabel": "dorsal-horn",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "wikimedia-spinal",
+        "ncbi-cortex"
+      ],
+      "viewId": "spinal-cross-section",
+      "examId": "pinprick"
+    },
+    {
+      "id": "exam-pinprick-4",
+      "label": "앞백질교련",
+      "rawLabel": "anterior-white-commissure",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "wikimedia-spinal",
+        "ncbi-cortex"
+      ],
+      "viewId": "spinal-cross-section",
+      "examId": "pinprick"
+    },
+    {
+      "id": "exam-vibration-1",
+      "label": "기계수용기",
+      "rawLabel": "mechanoreceptor",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "wikimedia-spinal",
+        "ncbi-cortex"
+      ],
+      "viewId": "dermatome-anterior",
+      "examId": "vibration"
+    },
+    {
+      "id": "exam-vibration-5",
+      "label": "내측섬유띠",
+      "rawLabel": "medial-lemniscus",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "wikimedia-spinal",
+        "ncbi-cortex"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "vibration"
+    },
+    {
+      "id": "exam-cough-1",
+      "label": "기도 수용체",
+      "rawLabel": "airway-receptor",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "ncbi-cough"
+      ],
+      "viewId": "brainstem-section",
+      "examId": "cough"
+    },
+    {
+      "id": "exam-cough-2",
+      "label": "미주신경 구심성",
+      "rawLabel": "vagus-afferent",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-cough"
+      ],
+      "viewId": "brainstem-section",
+      "examId": "cough"
+    },
+    {
+      "id": "exam-cough-3",
+      "label": "고립로핵",
+      "rawLabel": "nucleus-solitary",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-cough"
+      ],
+      "viewId": "brainstem-section",
+      "examId": "cough"
+    },
+    {
+      "id": "exam-cough-4",
+      "label": "연수 호흡중추",
+      "rawLabel": "medullary-respiratory-center",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-cough"
+      ],
+      "viewId": "brainstem-section",
+      "examId": "cough"
+    },
+    {
+      "id": "exam-cough-5",
+      "label": "미주·횡격신경·척수 연결",
+      "rawLabel": "vagus-phrenic-spinal",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-cough"
+      ],
+      "viewId": "brainstem-section",
+      "examId": "cough"
+    },
+    {
+      "id": "exam-cough-6",
+      "label": "호흡근",
+      "rawLabel": "respiratory-muscles",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-cough"
+      ],
+      "viewId": "brainstem-section",
+      "examId": "cough"
+    },
+    {
+      "id": "exam-oculocephalic-1",
+      "label": "전정기관",
+      "rawLabel": "vestibular-apparatus",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "ncbi-oculocephalic",
+        "ncbi-vestibular"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "oculocephalic"
+    },
+    {
+      "id": "exam-oculocephalic-3",
+      "label": "내측종속",
+      "rawLabel": "mlf",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-oculocephalic",
+        "ncbi-vestibular"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "oculocephalic"
+    },
+    {
+      "id": "exam-oculocephalic-4",
+      "label": "III·VI 신경핵",
+      "rawLabel": "oculomotor-abducens-nuclei",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-oculocephalic",
+        "ncbi-vestibular"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "oculocephalic"
+    },
+    {
+      "id": "exam-oculocephalic-5",
+      "label": "외안근",
+      "rawLabel": "extraocular-muscles",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-oculocephalic",
+        "ncbi-vestibular"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "oculocephalic"
+    },
+    {
+      "id": "exam-anal-wink-1",
+      "label": "항문주위 감각",
+      "rawLabel": "perianal-sensation",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "spinal-cross-section",
+      "examId": "anal-wink"
+    },
+    {
+      "id": "exam-anal-wink-2",
+      "label": "S2–S4 척수",
+      "rawLabel": "s2-s4-spinal-cord",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "spinal-cross-section",
+      "examId": "anal-wink"
+    },
+    {
+      "id": "exam-anal-wink-3",
+      "label": "음부신경",
+      "rawLabel": "pudendal-nerve",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "spinal-cross-section",
+      "examId": "anal-wink"
+    },
+    {
+      "id": "exam-anal-wink-4",
+      "label": "바깥항문조임근",
+      "rawLabel": "external-anal-sphincter",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "spinal-cross-section",
+      "examId": "anal-wink"
+    },
+    {
+      "id": "exam-bulbocavernosus-1",
+      "label": "생식기 감각수용기",
+      "rawLabel": "genital-afferent",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "spinal-cross-section",
+      "examId": "bulbocavernosus"
+    },
+    {
+      "id": "exam-bulbocavernosus-2",
+      "label": "음부신경",
+      "rawLabel": "pudendal-nerve",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "spinal-cross-section",
+      "examId": "bulbocavernosus"
+    },
+    {
+      "id": "exam-bulbocavernosus-3",
+      "label": "S2–S4 척수",
+      "rawLabel": "s2-s4-spinal-cord",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "spinal-cross-section",
+      "examId": "bulbocavernosus"
+    },
+    {
+      "id": "exam-bulbocavernosus-4",
+      "label": "바깥항문조임근",
+      "rawLabel": "external-anal-sphincter",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "isncsci"
+      ],
+      "viewId": "spinal-cross-section",
+      "examId": "bulbocavernosus"
+    },
+    {
+      "id": "exam-visual-field-confrontation-1",
+      "label": "시야 자극",
+      "rawLabel": "시야 자극",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "ncbi-clinical-methods-neuro",
+        "ncbi-visual"
+      ],
+      "viewId": "cerebrum-inferior",
+      "examId": "visual-field-confrontation"
+    },
+    {
+      "id": "exam-visual-field-confrontation-2",
+      "label": "망막",
+      "rawLabel": "망막",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-clinical-methods-neuro",
+        "ncbi-visual"
+      ],
+      "viewId": "cerebrum-inferior",
+      "examId": "visual-field-confrontation"
+    },
+    {
+      "id": "exam-visual-field-confrontation-3",
+      "label": "시신경",
+      "rawLabel": "시신경",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-clinical-methods-neuro",
+        "ncbi-visual"
+      ],
+      "viewId": "cerebrum-inferior",
+      "examId": "visual-field-confrontation"
+    },
+    {
+      "id": "exam-visual-field-confrontation-4",
+      "label": "시신경교차",
+      "rawLabel": "시신경교차",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-clinical-methods-neuro",
+        "ncbi-visual"
+      ],
+      "viewId": "cerebrum-inferior",
+      "examId": "visual-field-confrontation"
+    },
+    {
+      "id": "exam-visual-field-confrontation-5",
+      "label": "시삭",
+      "rawLabel": "시삭",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-clinical-methods-neuro",
+        "ncbi-visual"
+      ],
+      "viewId": "cerebrum-inferior",
+      "examId": "visual-field-confrontation"
+    },
+    {
+      "id": "exam-visual-field-confrontation-6",
+      "label": "시방사",
+      "rawLabel": "시방사",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-clinical-methods-neuro",
+        "ncbi-visual"
+      ],
+      "viewId": "cerebrum-inferior",
+      "examId": "visual-field-confrontation"
+    },
+    {
+      "id": "exam-visual-field-confrontation-7",
+      "label": "일차시각피질",
+      "rawLabel": "일차시각피질",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-clinical-methods-neuro",
+        "ncbi-visual"
+      ],
+      "viewId": "cerebrum-inferior",
+      "examId": "visual-field-confrontation"
+    },
+    {
+      "id": "exam-extraocular-movements-1",
+      "label": "주시 표적",
+      "rawLabel": "주시 표적",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-clinical-methods-neuro"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "extraocular-movements"
+    },
+    {
+      "id": "exam-extraocular-movements-2",
+      "label": "전두안구영역",
+      "rawLabel": "전두안구영역",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-clinical-methods-neuro"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "extraocular-movements"
+    },
+    {
+      "id": "exam-extraocular-movements-3",
+      "label": "III·IV·VI 신경핵",
+      "rawLabel": "뇌간 안구운동핵",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-clinical-methods-neuro"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "extraocular-movements"
+    },
+    {
+      "id": "exam-extraocular-movements-4",
+      "label": "MLF",
+      "rawLabel": "MLF",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-clinical-methods-neuro"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "extraocular-movements"
+    },
+    {
+      "id": "exam-extraocular-movements-5",
+      "label": "III·IV·VI 뇌신경",
+      "rawLabel": "CN III/IV/VI",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-clinical-methods-neuro"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "extraocular-movements"
+    },
+    {
+      "id": "exam-extraocular-movements-6",
+      "label": "외안근",
+      "rawLabel": "외안근",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-clinical-methods-neuro"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "extraocular-movements"
+    },
+    {
+      "id": "exam-facial-motor-exam-1",
+      "label": "운동 명령",
+      "rawLabel": "운동 명령",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-facial-nerve"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "facial-motor-exam"
+    },
+    {
+      "id": "exam-facial-motor-exam-2",
+      "label": "일차운동피질",
+      "rawLabel": "운동피질",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-facial-nerve"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "facial-motor-exam"
+    },
+    {
+      "id": "exam-facial-motor-exam-3",
+      "label": "피질연수로",
+      "rawLabel": "피질연수로",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-facial-nerve"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "facial-motor-exam"
+    },
+    {
+      "id": "exam-facial-motor-exam-4",
+      "label": "안면신경핵",
+      "rawLabel": "안면신경핵",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-facial-nerve"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "facial-motor-exam"
+    },
+    {
+      "id": "exam-facial-motor-exam-5",
+      "label": "안면신경",
+      "rawLabel": "CN VII",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-facial-nerve"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "facial-motor-exam"
+    },
+    {
+      "id": "exam-facial-motor-exam-6",
+      "label": "안면표정근",
+      "rawLabel": "안면표정근",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-facial-nerve"
+      ],
+      "viewId": "brainstem-external",
+      "examId": "facial-motor-exam"
+    },
+    {
+      "id": "exam-finger-nose-test-1",
+      "label": "운동 계획",
+      "rawLabel": "운동 계획",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "viewId": "cerebellum",
+      "examId": "finger-nose-test"
+    },
+    {
+      "id": "exam-finger-nose-test-2",
+      "label": "피질-교뇌 연결",
+      "rawLabel": "피질-교뇌 연결",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "viewId": "cerebellum",
+      "examId": "finger-nose-test"
+    },
+    {
+      "id": "exam-finger-nose-test-3",
+      "label": "소뇌반구",
+      "rawLabel": "소뇌반구",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "viewId": "cerebellum",
+      "examId": "finger-nose-test"
+    },
+    {
+      "id": "exam-finger-nose-test-4",
+      "label": "소뇌 출력 경로",
+      "rawLabel": "소뇌출력",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "viewId": "cerebellum",
+      "examId": "finger-nose-test"
+    },
+    {
+      "id": "exam-finger-nose-test-5",
+      "label": "상지 근육",
+      "rawLabel": "상지 근육",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "viewId": "cerebellum",
+      "examId": "finger-nose-test"
+    },
+    {
+      "id": "exam-heel-shin-test-1",
+      "label": "운동 계획",
+      "rawLabel": "운동 계획",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "viewId": "cerebellum",
+      "examId": "heel-shin-test"
+    },
+    {
+      "id": "exam-heel-shin-test-2",
+      "label": "피질-교뇌 연결",
+      "rawLabel": "피질-교뇌 연결",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "viewId": "cerebellum",
+      "examId": "heel-shin-test"
+    },
+    {
+      "id": "exam-heel-shin-test-3",
+      "label": "소뇌반구",
+      "rawLabel": "소뇌반구",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "viewId": "cerebellum",
+      "examId": "heel-shin-test"
+    },
+    {
+      "id": "exam-heel-shin-test-4",
+      "label": "소뇌 출력 경로",
+      "rawLabel": "소뇌출력",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "viewId": "cerebellum",
+      "examId": "heel-shin-test"
+    },
+    {
+      "id": "exam-heel-shin-test-5",
+      "label": "하지 근육",
+      "rawLabel": "하지 근육",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "viewId": "cerebellum",
+      "examId": "heel-shin-test"
+    },
+    {
+      "id": "exam-rapid-alternating-movements-1",
+      "label": "운동 계획",
+      "rawLabel": "운동 계획",
+      "kind": "stimulus-or-receptor",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "viewId": "cerebellum",
+      "examId": "rapid-alternating-movements"
+    },
+    {
+      "id": "exam-rapid-alternating-movements-2",
+      "label": "운동피질",
+      "rawLabel": "운동피질",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "viewId": "cerebellum",
+      "examId": "rapid-alternating-movements"
+    },
+    {
+      "id": "exam-rapid-alternating-movements-3",
+      "label": "소뇌 조절 회로",
+      "rawLabel": "소뇌 조절 회로",
+      "kind": "exam-route-node",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "viewId": "cerebellum",
+      "examId": "rapid-alternating-movements"
+    },
+    {
+      "id": "exam-rapid-alternating-movements-4",
+      "label": "상지 근육",
+      "rawLabel": "상지 근육",
+      "kind": "effector-or-response",
+      "sourceIds": [
+        "ncbi-neurologic-exam",
+        "ncbi-cerebellar-exam"
+      ],
+      "viewId": "cerebellum",
+      "examId": "rapid-alternating-movements"
+    }
   ]
 }
