@@ -219,7 +219,7 @@ export type NeuroAtlas = {
   myotomes: Array<{ id: string; label: string; action: string; muscle: string; reflex: string; peripheralNerve?: string; testPosition?: string; differential?: string; sourceIds?: string[] }>;
   reflexes: Array<{ id: string; label: string; arc: string; localization: string; purpose?: string; technique?: string[]; route?: string[]; routeLabels?: string[]; routeStages?: Array<"stimulus" | "afferent" | "central" | "efferent" | "effector">; laterality?: { options: string[]; default: string; description: string }; normal?: string; abnormal?: string; viewId?: string; sourceIds?: string[]; reviewStatus?: "draft" | "source-checked" | "retired" }>; examNodes: Array<{ id: string; label: string; rawLabel?: string; kind: "stimulus-or-receptor" | "exam-route-node" | "effector-or-response"; sourceIds: string[]; viewId: string; examId: string }>;
   nexSteps: Array<{ id: string; question: string; choices: Array<{ id: string; label: string; targets: string[]; note: string }> }>;
-  theoryTopics: Array<{ id: string; title: string; category: string; summary: string; keyPoints: string[]; viewId: string; itemId?: string; sourceIds: string[] }>;
+  theoryTopics: Array<{ id: string; title: string; category: string; summary: string; keyPoints: string[]; sections?: Array<{ heading: string; body: string }>; viewId: string; itemId?: string; sourceIds: string[] }>;
 };
 
 export function getNervousSystemAtlas(): NeuroAtlas { return readJson<NeuroAtlas>("nervous-system-atlas.json"); }

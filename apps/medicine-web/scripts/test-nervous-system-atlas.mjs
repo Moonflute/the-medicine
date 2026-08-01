@@ -94,6 +94,23 @@ test("published neuro atlas uses project SVG paths rather than legacy reference 
 });
 
 
+
+test("all published Hub selector views resolve to a native project SVG renderer", () => {
+  const hub = fs.readFileSync(hubPath, "utf8");
+  const nativeAtlas = fs.readFileSync(nativeAtlasPath, "utf8");
+  const publishedIds = [...hub.matchAll(/id: "([^"]+)"[^\n]*published: true/g)].map((match) => match[1]);
+  const nativeIds = new Set([...nativeAtlas.matchAll(/"([a-z0-9-]+)"/g)].map((match) => match[1]));
+  assert.ok(publishedIds.length >= 18, "full Atlas view catalog is unexpectedly incomplete");
+  assert.deepEqual(publishedIds.filter((id) => !nativeIds.has(id)), [], "a published selector view has no native SVG renderer");
+});
+test("theory library has reference-document sections across structures, pathways and examination", () => {
+  for (const category of ["Structure", "Pathway", "Examination"]) assert.ok(atlas.theoryTopics.some((topic) => topic.category === category), "missing theory category " + category);
+  for (const topic of atlas.theoryTopics) {
+    assert.ok(topic.sections?.length >= 2, topic.id + " needs substantive document sections");
+    assert.ok(topic.sections.every((section) => section.heading && section.body), topic.id + " has incomplete document content");
+  }
+});
+
 test("Disease and Drug entry points and all linked disease titles resolve", () => {
   const specialtyPage = fs.readFileSync(specialtyPagePath, "utf8");
   const drugCategoryPage = fs.readFileSync(drugCategoryPagePath, "utf8");
