@@ -106,7 +106,6 @@ export function AudioReviewProvider({ children }: { children: React.ReactNode })
       persist({ ...normalized, status: "ended" });
       return;
     }
-    cancel();
     const utterance = new SpeechSynthesisUtterance(unit.text);
     utterance.lang = unit.lang;
     utterance.voice = preferredVoice(unit.lang) ?? null;
@@ -127,7 +126,7 @@ export function AudioReviewProvider({ children }: { children: React.ReactNode })
     };
     utteranceRef.current = utterance;
     window.speechSynthesis.speak(utterance);
-  }, [cancel, persist, preferredVoice, supported]);
+  }, [persist, preferredVoice, supported]);
 
   useEffect(() => { speakAtRef.current = speakAt; }, [speakAt]);
 
@@ -137,9 +136,10 @@ export function AudioReviewProvider({ children }: { children: React.ReactNode })
     if (!base) return;
     const restart = base.status === "ended" ? { ...base, itemIndex: 0, segmentIndex: 0, unitIndex: 0 } : base;
     const next = normalizePosition({ ...restart, status: "playing" });
+    cancel();
     const stored = persist(next);
     if (stored) speakAt(stored);
-  }, [persist, speakAt, supported]);
+  }, [cancel, persist, speakAt, supported]);
 
   const pause = useCallback(() => {
     const current = sessionRef.current;

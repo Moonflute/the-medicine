@@ -1,6 +1,6 @@
 import { AudioReviewClient } from "@/components/audio-review-client";
 import type { AudioDocument, AudioSection } from "@/lib/audio-review";
-import { getAllDiseases, getAllSkills, getChiefComplaints, getDrugs, getLabImgNotes } from "@/lib/webdb";
+import { getAllDiseases, getAllSkills, getChiefComplaints, getDrugs, getLabImgNotes, getSpecialties, getSpecialtyToc } from "@/lib/webdb";
 
 function sections(title: string, lines: string[]): AudioSection[] {
   return lines.length ? [{ title, lines }] : [];
@@ -10,9 +10,53 @@ function toAudioSections(items: Array<{ title: string; content: string[] }>): Au
   return items.map((item) => ({ title: item.title, lines: item.content }));
 }
 
+function sortDiseasesForAudio(diseases: ReturnType<typeof getAllDiseases>) {
+  const specialtyOrder = new Map<string, number>();
+  const tocItems = new Map<string, Array<{ path: string[] }>>();
+
+  getSpecialties().forEach((specialty, index) => {
+    specialtyOrder.set(specialty.name, index);
+    tocItems.set(specialty.name, getSpecialtyToc(specialty.slug)?.items ?? []);
+  });
+
+  const classificationFor = (note: ReturnType<typeof getAllDiseases>[number]) => {
+    if (note.specialty.startsWith("10 ") && note.oncologyClassification.length) return note.oncologyClassification;
+    if (note.specialty.startsWith("21 ") && note.emergencyClassification.length) return note.emergencyClassification;
+    return note.classification;
+  };
+
+  const tocPosition = (note: ReturnType<typeof getAllDiseases>[number]) => {
+    const path = classificationFor(note).map((item) => item.trim()).filter(Boolean);
+    const items = tocItems.get(note.specialty) ?? [];
+    const matches = (candidate: string[]) => items.findIndex((item) => (
+      item.path.length === candidate.length && item.path.every((part, index) => part === candidate[index])
+    ));
+    const exact = matches(path);
+    if (exact >= 0) return exact;
+
+    for (let start = 1; start < path.length; start += 1) {
+      const position = matches(path.slice(start));
+      if (position >= 0) return position;
+    }
+    for (let end = path.length - 1; end > 0; end -= 1) {
+      const position = matches(path.slice(0, end));
+      if (position >= 0) return position;
+    }
+    return items.length + 1;
+  };
+
+  return diseases.slice().sort((a, b) => {
+    const specialtyDifference = (specialtyOrder.get(a.specialty) ?? Number.MAX_SAFE_INTEGER) - (specialtyOrder.get(b.specialty) ?? Number.MAX_SAFE_INTEGER);
+    if (specialtyDifference) return specialtyDifference;
+    const tocDifference = tocPosition(a) - tocPosition(b);
+    if (tocDifference) return tocDifference;
+    return a.title.localeCompare(b.title, "ko");
+  });
+}
+
 export default function AudioReviewPage() {
   const catalog: AudioDocument[] = [
-    ...getAllDiseases().map((note) => ({
+    ...sortDiseasesForAudio(getAllDiseases()).map((note) => ({
       id: note.slug, domain: "disease" as const, title: note.title, category: note.specialty, href: `/disease/${note.slug}`,
       sections: [...sections("개요", [note.definition ?? "", ...(note.overview ?? [])]), ...toAudioSections(note.sections)],
     })),

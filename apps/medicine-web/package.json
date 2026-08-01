@@ -1,6 +1,6 @@
 {
   "name": "medicine-web",
-  "version": "0.10.17",
+  "version": "0.10.18",
   "private": true,
   "scripts": {
     "sync:data": "node scripts/sync-generated-data.mjs && node scripts/build-infection-pathways.mjs && node scripts/build-microbiology-relations.mjs && node scripts/build-clinical-relations.mjs && node scripts/build-nervous-system-atlas.mjs",
