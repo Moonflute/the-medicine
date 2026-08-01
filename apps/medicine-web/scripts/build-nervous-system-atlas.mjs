@@ -8,6 +8,11 @@ const WORKSPACE_ROOT = path.resolve(SCRIPT_ROOT, "..", "..");
 const sourcePath = path.join(WORKSPACE_ROOT, "source_notes", "02 Diseases", "16 신경과-신경외과", "_data", "nervous-system-atlas.json");
 const outputPath = path.join(WORKSPACE_ROOT, "_webapp", "data", "nervous-system-atlas.json");
 const publicRoot = path.join(SCRIPT_ROOT, "public");
+const stableHash = (file) => {
+  const bytes = fs.readFileSync(file);
+  const normalized = path.extname(file).toLowerCase() === ".svg" ? Buffer.from(bytes.toString("utf8").replace(/\r\n/g, "\n"), "utf8") : bytes;
+  return crypto.createHash("sha256").update(normalized).digest("hex");
+};
 
 const atlas = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
 const required = ["views", "structures", "pathways", "dermatomes", "myotomes", "reflexes", "examNodes", "nexSteps", "theoryTopics", "sources"];
@@ -37,7 +42,7 @@ for (const view of atlas.views) {
   if (!view.baseAsset.startsWith("/")) throw new Error(`Neuro atlas view ${view.id} has a non-public base asset path.`);
   const assetPath = path.join(publicRoot, view.baseAsset);
   if (!fs.existsSync(assetPath)) throw new Error(`Neuro atlas view ${view.id} is missing base asset ${view.baseAsset}.`);
-  const assetSha256 = crypto.createHash("sha256").update(fs.readFileSync(assetPath)).digest("hex");
+  const assetSha256 = stableHash(assetPath);
   if (assetSha256 !== view.assetSha256) throw new Error(`Neuro atlas view ${view.id} has a changed asset without a refreshed checksum.`);
   for (const [variantId, asset] of Object.entries(view.variantAssets ?? {})) {
     if (!asset.asset || !asset.assetId || !asset.license || !asset.sourceIds?.length || !asset.sha256) throw new Error("Neuro atlas variant asset metadata is incomplete.");
@@ -45,7 +50,7 @@ for (const view of atlas.views) {
     if (!asset.asset.startsWith("/")) throw new Error("Neuro atlas variant asset is not public.");
     const variantPath = path.join(publicRoot, asset.asset);
     if (!fs.existsSync(variantPath)) throw new Error("Neuro atlas variant asset is missing.");
-    const variantSha256 = crypto.createHash("sha256").update(fs.readFileSync(variantPath)).digest("hex");
+    const variantSha256 = stableHash(variantPath);
     if (variantSha256 !== asset.sha256) throw new Error("Neuro atlas variant asset checksum changed.");
   }
 }

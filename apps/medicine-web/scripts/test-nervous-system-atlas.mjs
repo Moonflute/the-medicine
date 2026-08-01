@@ -19,7 +19,11 @@ const pathwayIds = new Set(atlas.pathways.map((pathway) => pathway.id));
 const reflexIds = new Set(atlas.reflexes.map((reflex) => reflex.id));
 
 function assetPath(asset) { return path.join(publicRoot, asset); }
-function hash(file) { return crypto.createHash("sha256").update(fs.readFileSync(file)).digest("hex"); }
+function hash(file) {
+  const bytes = fs.readFileSync(file);
+  const normalized = path.extname(file).toLowerCase() === ".svg" ? Buffer.from(bytes.toString("utf8").replace(/\r\n/g, "\n"), "utf8") : bytes;
+  return crypto.createHash("sha256").update(normalized).digest("hex");
+}
 
 test("all 20 atlas views have an existing base asset, provenance, and stable checksum", () => {
   assert.equal(atlas.views.length, 20);
