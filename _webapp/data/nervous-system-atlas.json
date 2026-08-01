@@ -583,9 +583,9 @@
     {
       "id": "whole-neuraxis",
       "label": "전체 신경축",
-      "description": "대뇌부터 척수·신경근·말초신경·NMJ·근육까지 한 축으로 봅니다.",
+      "description": "후면에서 대뇌·척수·신경근·말초신경·신경근접합부·근육까지 한 축으로 봅니다.",
       "group": "개요",
-      "orientation": "anterior schematic",
+      "orientation": "posterior schematic",
       "sourceIds": [
         "pearson-nervous-system-pd",
         "wikimedia-central-nervous-system-pd",
@@ -627,9 +627,9 @@
         "전체 지도"
       ],
       "structureIds": [
+        "cerebral-cortex",
         "neuromuscular-junction",
-        "skeletal-muscle",
-        "corticospinal-modulation"
+        "skeletal-muscle"
       ]
     },
     {
@@ -3916,7 +3916,8 @@
       "links": [],
       "viewIds": [
         "brain-coronal",
-        "brain-axial"
+        "brain-axial",
+        "whole-neuraxis"
       ],
       "sourceIds": [
         "openstax-cns",

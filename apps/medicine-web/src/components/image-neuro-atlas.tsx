@@ -41,7 +41,7 @@ const maps: Record<ImageAtlasViewId, { asset: string; viewBox: string; regions: 
   "whole-neuraxis": {
     asset: "/neuro-atlas/illustrations/whole-neuraxis.png", viewBox: "0 0 1152 1408",
     regions: [
-      { id: "frontal-lobe", label: "Cerebrum", d: "M457 35 C491 12 665 12 700 42 L701 140 C676 195 488 198 454 142 Z" },
+      { id: "cerebral-cortex", label: "Cerebral cortex", d: "M457 35 C491 12 665 12 700 42 L701 140 C676 195 488 198 454 142 Z" },
       { id: "cerebellum", label: "Cerebellum", d: "M465 118 C490 99 663 99 689 122 L678 193 C631 225 514 225 472 192 Z" },
       { id: "midbrain", label: "Midbrain", d: "M548 107 L608 107 L616 161 L539 161 Z" },
       { id: "pons", label: "Pons", d: "M532 159 C549 140 609 140 626 162 L619 200 C597 216 554 216 536 200 Z" },
