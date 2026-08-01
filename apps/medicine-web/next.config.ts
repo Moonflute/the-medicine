@@ -7,6 +7,8 @@ const basePath = isGitHubPages ? `/${repoName}` : "";
 
 const nextConfig: NextConfig = {
   output: "export",
+  // Lets isolated local verification run without touching another Next dev server's .next lock.
+  distDir: process.env.NEXT_DIST_DIR || ".next",
   trailingSlash: true,
   experimental: {
     // The static export generates a large number of note pages. Keep the
