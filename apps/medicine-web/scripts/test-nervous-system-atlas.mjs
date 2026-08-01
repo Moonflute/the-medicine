@@ -123,6 +123,12 @@ test("Hub exposes required responsive workspace controls without horizontal sele
   assert.equal(/overflow-x-auto/.test(hub), false, "view selection must not depend on a horizontal toolbar rail");
 });
 
+test("changing a view keeps the selected pathway available for continuous tract review", () => {
+  const hub = fs.readFileSync(hubPath, "utf8");
+  assert.match(hub, /const chooseView = \(id: string\) => \{ setViewId\(id\); reset\(\); \};/, "view changes must not clear the selected pathway");
+  assert.doesNotMatch(hub, /const chooseView = \(id: string\) => \{[^}]*setPathwayId\(""\)/, "view changes must preserve pathway selection");
+});
+
 test("Disease and Drug entry points and all linked disease titles resolve", () => {
   const specialtyPage = fs.readFileSync(specialtyPagePath, "utf8");
   const drugCategoryPage = fs.readFileSync(drugCategoryPagePath, "utf8");

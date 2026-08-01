@@ -140,7 +140,7 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
   }, [tab, viewId, layer, selectedId, pathwayId, reflexId, theoryId, urlHydrated]);
 
   const reset = () => { setZoom(1); setPan({ x: 0, y: 0 }); };
-  const chooseView = (id: string) => { setViewId(id); setPathwayId(""); reset(); };
+  const chooseView = (id: string) => { setViewId(id); reset(); };
   const choosePathway = (id: string) => {
     const item = pathways.find((pathway) => pathway.id === id);
     setPathwayId(id);
