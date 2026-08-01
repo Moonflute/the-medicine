@@ -582,7 +582,7 @@
   "views": [
     {
       "id": "whole-neuraxis",
-      "label": "Whole neuraxis",
+      "label": "전체 신경축",
       "description": "대뇌부터 척수·신경근·말초신경·NMJ·근육까지 한 축으로 봅니다.",
       "group": "개요",
       "orientation": "anterior schematic",
@@ -634,7 +634,7 @@
     },
     {
       "id": "cerebrum-lateral",
-      "label": "Lateral view",
+      "label": "외측면 보기",
       "description": "엽·주요 고랑과 이랑, 감각운동·언어 관련 피질을 확대합니다.",
       "group": "뇌",
       "orientation": "left lateral",
@@ -714,7 +714,7 @@
     },
     {
       "id": "cerebrum-medial",
-      "label": "Medial view",
+      "label": "내측면 보기",
       "description": "대상회·설전부·쐐기엽·설상회·중심곁소엽과 뇌량 주변을 봅니다.",
       "group": "뇌",
       "orientation": "left medial",
@@ -780,7 +780,7 @@
     },
     {
       "id": "cerebrum-inferior",
-      "label": "Inferior view",
+      "label": "하면 보기",
       "description": "안와면·측두저면과 뇌저 구조의 상대 위치를 봅니다.",
       "group": "뇌",
       "orientation": "inferior",
@@ -838,7 +838,7 @@
     },
     {
       "id": "brain-midsagittal",
-      "label": "Midsagittal view",
+      "label": "정중시상면",
       "description": "뇌량·시상하부·뇌간·소뇌가 보이는 정중시상면을 봅니다.",
       "group": "뇌",
       "orientation": "midsagittal",
@@ -902,7 +902,7 @@
     },
     {
       "id": "brain-coronal",
-      "label": "Coronal section",
+      "label": "관상단면",
       "description": "전방·기저핵·후방의 대표 관상면을 비교합니다.",
       "group": "뇌",
       "orientation": "coronal",
@@ -968,7 +968,7 @@
     },
     {
       "id": "brain-axial",
-      "label": "Axial section",
+      "label": "축상단면",
       "description": "심부 회백질·내포·뇌실이 잘 보이는 대표 축상면을 비교합니다.",
       "group": "뇌",
       "orientation": "axial",
@@ -1033,7 +1033,7 @@
     },
     {
       "id": "brainstem-external",
-      "label": "External view",
+      "label": "외부 보기",
       "description": "중뇌·교뇌·연수와 주요 뇌신경의 출입 부위를 봅니다.",
       "group": "뇌",
       "orientation": "ventral external",
@@ -1132,7 +1132,7 @@
     },
     {
       "id": "brainstem-section",
-      "label": "Sectional view",
+      "label": "단면 보기",
       "description": "중뇌·교뇌·연수의 대표 단면과 경로의 상대 위치를 봅니다.",
       "group": "뇌",
       "orientation": "transverse sections",
@@ -1201,7 +1201,7 @@
     },
     {
       "id": "cerebellum",
-      "label": "External view",
+      "label": "외부 보기",
       "description": "소뇌 반구·벌레·소뇌각과 뇌간 연결을 확대합니다.",
       "group": "뇌",
       "orientation": "posterior",
@@ -1268,7 +1268,7 @@
     },
     {
       "id": "spinal-levels",
-      "label": "Whole spinal cord",
+      "label": "척수 전체",
       "description": "경추·흉추·요추·천추 분절과 신경근이 나가는 높이를 봅니다.",
       "group": "척수",
       "orientation": "posterior levels",
@@ -1331,7 +1331,7 @@
     },
     {
       "id": "spinal-cross-section",
-      "label": "Cross-sectional view",
+      "label": "횡단면 보기",
       "description": "경추·흉추·요추 수준의 회백질·백질과 대표 장경로를 봅니다.",
       "group": "척수",
       "orientation": "transverse",
@@ -1395,7 +1395,7 @@
     },
     {
       "id": "brachial-plexus",
-      "label": "Brachial plexus",
+      "label": "상완신경총 보기",
       "description": "C5–T1 신경근에서 상지 말초신경으로 이어지는 구성을 봅니다.",
       "group": "말초",
       "orientation": "anterior",
@@ -1459,7 +1459,7 @@
     },
     {
       "id": "lumbosacral-plexus",
-      "label": "Lumbosacral plexus",
+      "label": "요천추신경총 보기",
       "description": "요추·천추 신경근에서 하지 말초신경으로 이어지는 구성을 봅니다.",
       "group": "말초",
       "orientation": "anterior",
@@ -1521,7 +1521,7 @@
     },
     {
       "id": "sacral-plexus",
-      "label": "Sacral plexus",
+      "label": "천골신경총 보기",
       "description": "요천추 연결줄기와 천골 신경총, 궁둥·정강신경으로 이어지는 골반부 구성을 봅니다.",
       "group": "말초",
       "orientation": "pelvic medial",
@@ -1576,7 +1576,7 @@
     },
     {
       "id": "upper-limb-nerves",
-      "label": "Upper limb nerves",
+      "label": "상지 신경 보기",
       "description": "정중·척골·요골·근피신경의 주요 주행과 감각·운동 영역을 봅니다.",
       "group": "말초",
       "orientation": "anterior",
@@ -1628,7 +1628,7 @@
     },
     {
       "id": "lower-limb-nerves",
-      "label": "Lower limb nerves",
+      "label": "하지 신경 보기",
       "description": "대퇴·좌골·경골·총비골신경의 주요 주행을 봅니다.",
       "group": "말초",
       "orientation": "anterior",
@@ -1685,7 +1685,7 @@
     },
     {
       "id": "dermatome-anterior",
-      "label": "Anterior view",
+      "label": "전면 보기",
       "description": "ISNCSCI 핵심 감각점과 피부분절의 전면 분포를 봅니다.",
       "group": "말초",
       "orientation": "anterior body surface",
@@ -1744,7 +1744,7 @@
     },
     {
       "id": "dermatome-posterior",
-      "label": "Posterior view",
+      "label": "후면 보기",
       "description": "피부분절의 후면 분포와 주요 표면 표지를 봅니다.",
       "group": "말초",
       "orientation": "posterior body surface",
@@ -1801,7 +1801,7 @@
     },
     {
       "id": "nmj-muscle",
-      "label": "Neuromuscular junction",
+      "label": "신경근접합부·근육",
       "description": "운동단위의 말단: 말초운동신경·신경근접합부·근섬유를 봅니다.",
       "group": "말초",
       "orientation": "schematic",
@@ -1852,7 +1852,7 @@
     },
     {
       "id": "myotome",
-      "label": "Myotome",
+      "label": "근육분절",
       "description": "주요 myotome의 근력검사 부위와 기능을 봅니다.",
       "group": "Somatic maps",
       "orientation": "anterior schematic",
@@ -1908,7 +1908,7 @@
     },
     {
       "id": "midbrain-section",
-      "label": "Midbrain section",
+      "label": "중뇌 단면",
       "description": "Midbrain 횡단면과 주요 구획을 봅니다.",
       "group": "CNS › Brain › Brainstem",
       "orientation": "transverse section",
@@ -1962,7 +1962,7 @@
     },
     {
       "id": "pons-section",
-      "label": "Pons section",
+      "label": "교뇌 단면",
       "description": "Pons 횡단면과 주요 구획을 봅니다.",
       "group": "CNS › Brain › Brainstem",
       "orientation": "transverse section",
@@ -2016,7 +2016,7 @@
     },
     {
       "id": "medulla-section",
-      "label": "Medulla section",
+      "label": "연수 단면",
       "description": "Medulla oblongata 횡단면과 주요 구획을 봅니다.",
       "group": "CNS › Brain › Brainstem",
       "orientation": "transverse section",
@@ -2072,7 +2072,7 @@
     },
     {
       "id": "cerebellum-section",
-      "label": "Sectional view",
+      "label": "소뇌 단면",
       "description": "경추·흉추·요추 수준의 회백질·백질과 대표 장경로를 봅니다.",
       "group": "척수",
       "orientation": "Cerebellum sectional view",
@@ -2126,7 +2126,7 @@
     },
     {
       "id": "spinal-cervical-section",
-      "label": "Cervical section",
+      "label": "경수 단면",
       "description": "경추·흉추·요추 수준의 회백질·백질과 대표 장경로를 봅니다.",
       "group": "척수",
       "orientation": "Cervical spinal cord cross-section",
@@ -2179,7 +2179,7 @@
     },
     {
       "id": "spinal-thoracic-section",
-      "label": "Thoracic section",
+      "label": "흉수 단면",
       "description": "경추·흉추·요추 수준의 회백질·백질과 대표 장경로를 봅니다.",
       "group": "척수",
       "orientation": "Thoracic spinal cord cross-section",
@@ -2232,7 +2232,7 @@
     },
     {
       "id": "spinal-lumbar-section",
-      "label": "Lumbar section",
+      "label": "요수 단면",
       "description": "경추·흉추·요추 수준의 회백질·백질과 대표 장경로를 봅니다.",
       "group": "척수",
       "orientation": "Lumbar spinal cord cross-section",
@@ -2285,7 +2285,7 @@
     },
     {
       "id": "spinal-sacral-section",
-      "label": "Sacral section",
+      "label": "천수 단면",
       "description": "경추·흉추·요추 수준의 회백질·백질과 대표 장경로를 봅니다.",
       "group": "척수",
       "orientation": "Sacral spinal cord cross-section",
@@ -2338,7 +2338,7 @@
     },
     {
       "id": "skeletal-muscle",
-      "label": "Skeletal muscle",
+      "label": "골격근",
       "description": "운동단위의 말단: 말초운동신경·신경근접합부·근섬유를 봅니다.",
       "group": "말초",
       "orientation": "Skeletal muscle and motor unit",
