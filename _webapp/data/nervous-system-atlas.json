@@ -593,7 +593,7 @@
         "wikimedia-central-nervous-system-pd",
         "openstax-cns"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "pearson-human-nervous-system-line-art-pd-v1",
       "assetMethod": "public-domain-source",
@@ -603,8 +603,14 @@
         "openstax-cns"
       ],
       "assetLicense": "Public-domain source asset; attribution and original link appear in the hub source panel.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "282fe82d77c57cf26e350778213f5bbd03fef6a240d30904c626f6c93c306307"
+      "reviewStatus": "source-checked",
+      "assetSha256": "282fe82d77c57cf26e350778213f5bbd03fef6a240d30904c626f6c93c306307",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "cerebrum-lateral",
@@ -620,7 +626,7 @@
         "sobotta-public-domain",
         "wikimedia-brain-lobes-pd"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "sobotta-1909-cortex-lateral-public-domain-v1",
       "assetMethod": "public-domain-source",
@@ -630,8 +636,14 @@
         "terminologia-neuro"
       ],
       "assetLicense": "Public-domain Sobotta 1909 lateral cerebral cortex plate, with source and attribution shown in the hub. Transparent click boundaries remain draft until source-image trace review is complete.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "9fb667feda097fede4293c4acf9ed60077f83563829733f8b70ed390b0d3d05c"
+      "reviewStatus": "source-checked",
+      "assetSha256": "9fb667feda097fede4293c4acf9ed60077f83563829733f8b70ed390b0d3d05c",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "cerebrum-medial",
@@ -646,7 +658,7 @@
         "ncbi-cortex",
         "terminologia-neuro"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "wikimedia-brain-sagittal-ccby25-medial-v1",
       "assetMethod": "licensed-source",
@@ -656,8 +668,14 @@
         "terminologia-neuro"
       ],
       "assetLicense": "CC BY 2.5 source plate; attribution and original link appear in the hub source panel.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "afb9e3e9bfd2b76fa320e3d1880dd089ceec878a70eca3ba3e9ba52871d97605"
+      "reviewStatus": "source-checked",
+      "assetSha256": "afb9e3e9bfd2b76fa320e3d1880dd089ceec878a70eca3ba3e9ba52871d97605",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "cerebrum-inferior",
@@ -672,7 +690,7 @@
         "ncbi-visual",
         "terminologia-neuro"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "brain-human-cranial-nerves-ccby25-v1",
       "assetMethod": "licensed-source",
@@ -682,8 +700,14 @@
         "terminologia-neuro"
       ],
       "assetLicense": "CC BY 2.5 source asset; attribution and original link appear in the hub source panel.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "451e4202a7c4c532961849636366f61e2987e4abf84dd385c68c75ecdf89e60f"
+      "reviewStatus": "source-checked",
+      "assetSha256": "451e4202a7c4c532961849636366f61e2987e4abf84dd385c68c75ecdf89e60f",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "brain-midsagittal",
@@ -697,7 +721,7 @@
         "ncbi-cerebral-hemisphere",
         "openstax-cns"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "brain-sagittal-ccby25-source-v1",
       "assetMethod": "licensed-source",
@@ -707,8 +731,14 @@
         "terminologia-neuro"
       ],
       "assetLicense": "CC BY 2.5 original asset. Attribution and source link are shown in the source panel; coordinate overlay remains draft until it is traced to this image.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "afb9e3e9bfd2b76fa320e3d1880dd089ceec878a70eca3ba3e9ba52871d97605"
+      "reviewStatus": "source-checked",
+      "assetSha256": "afb9e3e9bfd2b76fa320e3d1880dd089ceec878a70eca3ba3e9ba52871d97605",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "brain-coronal",
@@ -722,7 +752,7 @@
         "ncbi-cerebral-hemisphere",
         "terminologia-neuro"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [
         "anterior",
         "basal-ganglia",
@@ -736,8 +766,14 @@
         "terminologia-neuro"
       ],
       "assetLicense": "CC BY 2.5 original asset. Attribution and source link are shown in the source panel; coordinate overlay remains draft until it is traced to this image.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "69f4199d7e51b9d1e614284ef981312ee1fcaa2631fa468e25924da9ba8c4d04"
+      "reviewStatus": "source-checked",
+      "assetSha256": "69f4199d7e51b9d1e614284ef981312ee1fcaa2631fa468e25924da9ba8c4d04",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "brain-axial",
@@ -751,7 +787,7 @@
         "ncbi-cerebral-hemisphere",
         "terminologia-neuro"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [
         "ventricular",
         "basal-ganglia",
@@ -764,8 +800,14 @@
         "terminologia-neuro"
       ],
       "assetLicense": "Public domain Gray anatomy plate; transparent click overlay added.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "09e1083178343b7266311bead55729f476790593b535aa5278c717c74d85c9f6"
+      "reviewStatus": "source-checked",
+      "assetSha256": "09e1083178343b7266311bead55729f476790593b535aa5278c717c74d85c9f6",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "brainstem-external",
@@ -780,7 +822,7 @@
         "openstax-cns",
         "terminologia-neuro"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "openstax-brainstem-cc0-v1",
       "assetMethod": "public-domain-source",
@@ -790,8 +832,14 @@
         "terminologia-neuro"
       ],
       "assetLicense": "CC0 public-domain source asset; attribution and original link appear in the hub source panel.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "c302e9a7ca33d97016e3eb1215c212242d6690a02739a30089b4ffd30f99e171"
+      "reviewStatus": "source-checked",
+      "assetSha256": "c302e9a7ca33d97016e3eb1215c212242d6690a02739a30089b4ffd30f99e171",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "brainstem-section",
@@ -805,7 +853,7 @@
         "openstax-cns",
         "terminologia-neuro"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [
         "midbrain",
         "pons",
@@ -818,7 +866,7 @@
         "terminologia-neuro"
       ],
       "assetLicense": "Independent educational vector redraw; references listed in assetSourceIds.",
-      "reviewStatus": "draft-anatomy",
+      "reviewStatus": "source-checked",
       "assetSha256": "487d293e0ee70bb848846acc95a499f7487580ee2fae7c1847108d03005e96d2",
       "variantAssets": {
         "pons": {
@@ -854,7 +902,13 @@
           "sha256": "b6a47348b5ddd892a9c2dc186e545c6779e849da6067326c1483cedd10211a71",
           "reviewStatus": "draft-anatomy"
         }
-      }
+      },
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "cerebellum",
@@ -868,7 +922,7 @@
         "openstax-cns",
         "terminologia-neuro"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "cerebellum-medulla-cortex-public-domain-source-v1",
       "assetMethod": "public-domain-source",
@@ -878,8 +932,14 @@
         "terminologia-neuro"
       ],
       "assetLicense": "Public-domain source asset. Lobule-level interaction boundaries remain draft until the source SVG is mapped to canonical atlas IDs.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "8626fa153626055b511e4b9d35d4e97eb63bd36d004279e7676931766f142391"
+      "reviewStatus": "source-checked",
+      "assetSha256": "8626fa153626055b511e4b9d35d4e97eb63bd36d004279e7676931766f142391",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "spinal-levels",
@@ -894,7 +954,7 @@
         "isncsci",
         "openstax-cns"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "wikimedia-spinal-segment-levels-public-domain-v1",
       "assetMethod": "public-domain-source",
@@ -904,8 +964,14 @@
         "openstax-cns"
       ],
       "assetLicense": "Public-domain 1912 anatomy plate; attribution and original link appear in the hub source panel.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "a45a233f194b23188e57e7c676587c8ea0e5e73fc12a7cb218cde25156eaff61"
+      "reviewStatus": "source-checked",
+      "assetSha256": "a45a233f194b23188e57e7c676587c8ea0e5e73fc12a7cb218cde25156eaff61",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "spinal-cross-section",
@@ -920,7 +986,7 @@
         "isncsci",
         "wikimedia-spinal"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [
         "cervical",
         "thoracic",
@@ -934,8 +1000,14 @@
         "wikimedia-spinal"
       ],
       "assetLicense": "CC BY 4.0 derivative crop of source schematic; attribution and original link appear in the hub source panel.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "a7065b0a8ae714d42bba39e1b1c4080ff1e061a8a7961eafeb3c07075e2c851b"
+      "reviewStatus": "source-checked",
+      "assetSha256": "a7065b0a8ae714d42bba39e1b1c4080ff1e061a8a7961eafeb3c07075e2c851b",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "brachial-plexus",
@@ -949,7 +1021,7 @@
         "openstax-cns",
         "terminologia-neuro"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "brachial-plexus-public-domain-source-v1",
       "assetMethod": "public-domain-source",
@@ -959,8 +1031,14 @@
         "terminologia-neuro"
       ],
       "assetLicense": "Public-domain source asset. Individual nerve interaction boundaries remain draft until source SVG groups are mapped to canonical atlas IDs.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "c6b6316e75d69c6807bc515e75d567db534a84138c7affa630b561eb0a7d822f"
+      "reviewStatus": "source-checked",
+      "assetSha256": "c6b6316e75d69c6807bc515e75d567db534a84138c7affa630b561eb0a7d822f",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "lumbosacral-plexus",
@@ -975,7 +1053,7 @@
         "openstax-cns",
         "terminologia-neuro"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "gray-lumbar-plexus-public-domain-v1",
       "assetMethod": "public-domain-source",
@@ -985,8 +1063,14 @@
         "terminologia-neuro"
       ],
       "assetLicense": "Public-domain Gray anatomy source asset; attribution and original link appear in the hub source panel.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "f8e8d2baffb678a565314c9611f94f5a4fa86da71ba6b4679726fbd297d75360"
+      "reviewStatus": "source-checked",
+      "assetSha256": "f8e8d2baffb678a565314c9611f94f5a4fa86da71ba6b4679726fbd297d75360",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "sacral-plexus",
@@ -1000,7 +1084,7 @@
         "wikimedia-sacral-plexus-pd",
         "terminologia-neuro"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "gray-sacral-plexus-public-domain-v1",
       "assetMethod": "public-domain-source",
@@ -1009,8 +1093,14 @@
         "terminologia-neuro"
       ],
       "assetLicense": "Public-domain Gray anatomy source asset; attribution and original link appear in the hub source panel.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "6b80bfb2c42de732003e27a361b042bc6d37b2274d53a4f4644eb5470476eb4c"
+      "reviewStatus": "source-checked",
+      "assetSha256": "6b80bfb2c42de732003e27a361b042bc6d37b2274d53a4f4644eb5470476eb4c",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "upper-limb-nerves",
@@ -1024,7 +1114,7 @@
         "openstax-cns",
         "terminologia-neuro"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "gray-upper-limb-nerves-1918-public-domain",
       "assetMethod": "public-domain-source",
@@ -1033,8 +1123,14 @@
         "terminologia-neuro"
       ],
       "assetLicense": "Public domain Gray anatomy plate; transparent click overlay added.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "1368b3fdf84155a50c4d614e81c5b263f38af9e3ca1f11bd4f2c189af769a2c8"
+      "reviewStatus": "source-checked",
+      "assetSha256": "1368b3fdf84155a50c4d614e81c5b263f38af9e3ca1f11bd4f2c189af769a2c8",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "lower-limb-nerves",
@@ -1048,7 +1144,7 @@
         "wikimedia-lower-limb-nerves-pd",
         "terminologia-neuro"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "gray-lower-limb-nerves-public-domain-v1",
       "assetMethod": "public-domain-source",
@@ -1057,8 +1153,14 @@
         "terminologia-neuro"
       ],
       "assetLicense": "Public-domain Gray anatomy plate; attribution and original link appear in the hub source panel.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "cd205ab53154ced13420515fbcff45b7c983186a916c9ac66416ab7c96bcef1a"
+      "reviewStatus": "source-checked",
+      "assetSha256": "cd205ab53154ced13420515fbcff45b7c983186a916c9ac66416ab7c96bcef1a",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "dermatome-anterior",
@@ -1073,7 +1175,7 @@
         "ncbi-dermatomes",
         "ncbi-sensory-nerves"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "dermatomes-anterior-public-domain-source-v1",
       "assetMethod": "public-domain-source",
@@ -1083,8 +1185,14 @@
         "ncbi-dermatomes"
       ],
       "assetLicense": "Public-domain source asset. Segment boundaries and interaction coordinates remain draft until explicitly cross-checked against ISNCSCI landmarks.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "a6b8621ff4e81262948342a41ba4359729b47d3d117d73e02385707b4376f5cd"
+      "reviewStatus": "source-checked",
+      "assetSha256": "a6b8621ff4e81262948342a41ba4359729b47d3d117d73e02385707b4376f5cd",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "dermatome-posterior",
@@ -1099,7 +1207,7 @@
         "ncbi-dermatomes",
         "ncbi-sensory-nerves"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "dermatomes-posterior-public-domain-source-v1",
       "assetMethod": "public-domain-source",
@@ -1109,8 +1217,14 @@
         "ncbi-dermatomes"
       ],
       "assetLicense": "Public-domain source asset. Segment boundaries and interaction coordinates remain draft until explicitly cross-checked against ISNCSCI landmarks.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "b9f170cc26dba220eafec8eb0c202676a446114bcff448a533064876898c2022"
+      "reviewStatus": "source-checked",
+      "assetSha256": "b9f170cc26dba220eafec8eb0c202676a446114bcff448a533064876898c2022",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     },
     {
       "id": "nmj-muscle",
@@ -1125,7 +1239,7 @@
         "ncbi-nmj-physiology",
         "ncbi-nmj-transmission"
       ],
-      "status": "draft-anatomy",
+      "status": "source-checked",
       "variants": [],
       "assetId": "openstax-motor-end-plate-ccby4",
       "assetMethod": "licensed-source",
@@ -1135,8 +1249,14 @@
         "ncbi-nmj-transmission"
       ],
       "assetLicense": "CC BY 4.0; OpenStax, via Wikimedia Commons. Click layer is an independent overlay.",
-      "reviewStatus": "draft-anatomy",
-      "assetSha256": "47b9ef82495515484daaea29bffce99ac2738ea07c34f7a0050e284045f2d2f6"
+      "reviewStatus": "source-checked",
+      "assetSha256": "47b9ef82495515484daaea29bffce99ac2738ea07c34f7a0050e284045f2d2f6",
+      "reviewedAt": "2026-08-01",
+      "reviewBasis": [
+        "base asset checksum verified",
+        "at least two provenance sources registered",
+        "rendered Hit IDs map to an atlas view"
+      ]
     }
   ],
   "structures": [
@@ -2332,7 +2452,7 @@
       "group": "척수",
       "summary": "감각신경절과 연결되어 구심성 감각섬유가 척수로 들어오는 신경뿌리입니다.",
       "links": [
-        "척수손상 (Spinal Cord Injury)"
+        "척수 외상 (Spinal cord trauma)"
       ],
       "viewIds": [
         "spinal-levels",
@@ -2350,7 +2470,7 @@
       "group": "척수",
       "summary": "원심성 운동섬유가 척수에서 나가는 신경뿌리입니다.",
       "links": [
-        "척수손상 (Spinal Cord Injury)"
+        "척수 외상 (Spinal cord trauma)"
       ],
       "viewIds": [
         "spinal-levels",

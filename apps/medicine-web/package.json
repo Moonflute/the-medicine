@@ -1,6 +1,6 @@
 {
   "name": "medicine-web",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "private": true,
   "scripts": {
     "sync:data": "node scripts/sync-generated-data.mjs && node scripts/build-infection-pathways.mjs && node scripts/build-microbiology-relations.mjs && node scripts/build-clinical-relations.mjs && node scripts/build-nervous-system-atlas.mjs",
@@ -11,7 +11,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "audit:microbiology": "node scripts/build-microbiology-relations.mjs && node scripts/audit-microbiology-quality.mjs"
+    "audit:microbiology": "node scripts/build-microbiology-relations.mjs && node scripts/audit-microbiology-quality.mjs",
+    "test:neuro": "node --test scripts/test-nervous-system-atlas.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.8",
