@@ -126,6 +126,13 @@ test("Hub exposes required responsive workspace controls without horizontal sele
   assert.equal(/overflow-x-auto/.test(hub), false, "view selection must not depend on a horizontal toolbar rail");
 });
 
+test("NEx and Theory never open a legacy bare-SVG view", () => {
+  const hub = fs.readFileSync(hubPath, "utf8");
+  assert.ok(hub.includes("imagePilotViewIds.has(reflex.viewId)"), "NEx must constrain Show in Atlas to an image-overlay pilot");
+  assert.ok(hub.includes("imagePilotViewIds.has(theory.viewId)"), "Theory must constrain Show in Atlas to an image-overlay pilot");
+  assert.ok(!hub.includes("nativeNeuroViewIds.has(reflex.viewId)"), "legacy SVG views must not be opened from NEx");
+});
+
 test("NEx presents route interpretation without converting the workflow into a quiz", () => {
   const hub = fs.readFileSync(hubPath, "utf8");
   assert.match(hub, /Normal response/, "NEx needs expected response guidance");
