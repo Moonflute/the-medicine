@@ -19,13 +19,13 @@ type ViewItem = {
 
 const VIEWS: ViewItem[] = [
   { id: "whole-neuraxis", hierarchy: ["CNS", "Overview"], label: "Whole neuraxis", description: "Central and peripheral nervous systems through the motor unit.", published: true },
-  { id: "cerebrum-lateral", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Lateral view", description: "Cerebral hemisphere lateral surface.", published: false },
+  { id: "cerebrum-lateral", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Lateral view", description: "Cerebral hemisphere lateral surface.", published: true },
   { id: "cerebrum-medial", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Medial view", description: "Medial cerebral hemisphere surface and limbic landmarks.", published: false },
   { id: "brain-midsagittal", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Midsagittal view", description: "Medial cerebrum, diencephalon, brainstem and cerebellum.", published: true },
-  { id: "cerebrum-inferior", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Inferior view", description: "Basal surface and cranial nerve origins.", published: false },
-  { id: "brain-coronal", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Coronal section", description: "Cerebral hemispheres and deep structures.", published: false },
-  { id: "brain-axial", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Axial section", description: "Deep nuclei, internal capsule and ventricles.", published: false },
-  { id: "brainstem-external", hierarchy: ["CNS", "Brain", "Brainstem"], label: "External view", description: "Midbrain, pons and medulla.", published: false },
+  { id: "cerebrum-inferior", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Inferior view", description: "Basal surface and cranial nerve origins.", published: true },
+  { id: "brain-coronal", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Coronal section", description: "Cerebral hemispheres and deep structures.", published: true },
+  { id: "brain-axial", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Axial section", description: "Deep nuclei, internal capsule and ventricles.", published: true },
+  { id: "brainstem-external", hierarchy: ["CNS", "Brain", "Brainstem"], label: "External view", description: "Midbrain, pons and medulla.", published: true },
   { id: "brainstem-section", hierarchy: ["CNS", "Brain", "Brainstem"], label: "Sectional views", description: "Midbrain, pons and medulla sections.", published: false },
   { id: "cerebellum", hierarchy: ["CNS", "Brain"], label: "Cerebellum", description: "Cerebellar cortex, vermis and peduncles.", published: false },
   { id: "spinal-levels", hierarchy: ["CNS", "Spinal cord"], label: "Spinal levels", description: "Cervical, thoracic, lumbar and sacral levels.", published: false },

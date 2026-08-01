@@ -679,8 +679,23 @@
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
       "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
-      "isPilotSelectable": false,
-      "published": false
+      "isPilotSelectable": true,
+      "published": true,
+      "illustrationAsset": {
+        "asset": "/neuro-atlas/illustrations/cerebrum-lateral.png",
+        "width": 1440,
+        "height": 1080,
+        "kind": "project-generated-reference-traced",
+        "sha256": "9efed55abcfb260848aaf8238d723e5101ccfafc7c949516cbc480ac704d40d2",
+        "overlayId": "cerebrum-lateral-overlay",
+        "reviewStatus": "draft-anatomy-review",
+        "referenceSourceIds": [
+          "sobotta-public-domain",
+          "ncbi-cortex",
+          "terminologia-neuro"
+        ],
+        "reviewNote": "Project-owned base illustration with a separately rendered SVG overlay in the same coordinate system; external anatomy materials remain reference-only."
+      }
     },
     {
       "id": "cerebrum-medial",
@@ -765,8 +780,23 @@
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
       "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
-      "isPilotSelectable": false,
-      "published": false
+      "isPilotSelectable": true,
+      "published": true,
+      "illustrationAsset": {
+        "asset": "/neuro-atlas/illustrations/cerebrum-inferior.png",
+        "width": 1440,
+        "height": 1080,
+        "kind": "project-generated-reference-traced",
+        "sha256": "092ca2d1df4e240921f3c5e71a296a9921b5dc06c55ebc959fc221365d183d25",
+        "overlayId": "cerebrum-inferior-overlay",
+        "reviewStatus": "draft-anatomy-review",
+        "referenceSourceIds": [
+          "wikimedia-brain-cranial-nerves-ccby25",
+          "ncbi-visual",
+          "terminologia-neuro"
+        ],
+        "reviewNote": "Project-owned base illustration with a separately rendered SVG overlay in the same coordinate system; external anatomy materials remain reference-only."
+      }
     },
     {
       "id": "brain-midsagittal",
@@ -868,8 +898,23 @@
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
       "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
-      "isPilotSelectable": false,
-      "published": false
+      "isPilotSelectable": true,
+      "published": true,
+      "illustrationAsset": {
+        "asset": "/neuro-atlas/illustrations/brain-coronal.png",
+        "width": 1440,
+        "height": 1080,
+        "kind": "project-generated-reference-traced",
+        "sha256": "e5690ab42b93bfd9dc021baa622bb924792cbb56125c27491e3760a76f5a4deb",
+        "overlayId": "brain-coronal-overlay",
+        "reviewStatus": "draft-anatomy-review",
+        "referenceSourceIds": [
+          "wikimedia-brain-coronal-ccby25",
+          "ncbi-cerebral-hemisphere",
+          "terminologia-neuro"
+        ],
+        "reviewNote": "Project-owned base illustration with a separately rendered SVG overlay in the same coordinate system; external anatomy materials remain reference-only."
+      }
     },
     {
       "id": "brain-axial",
@@ -912,8 +957,22 @@
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
       "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
-      "isPilotSelectable": false,
-      "published": false
+      "isPilotSelectable": true,
+      "published": true,
+      "illustrationAsset": {
+        "asset": "/neuro-atlas/illustrations/brain-axial.png",
+        "width": 1440,
+        "height": 1080,
+        "kind": "project-generated-reference-traced",
+        "sha256": "2f1675c476161ffb2454250ffe0b2d5ab399b0a40ba12524de8cf4bed46188f4",
+        "overlayId": "brain-axial-overlay",
+        "reviewStatus": "draft-anatomy-review",
+        "referenceSourceIds": [
+          "wikimedia-gray742-horizontal-pd",
+          "terminologia-neuro"
+        ],
+        "reviewNote": "Project-owned base illustration with a separately rendered SVG overlay in the same coordinate system; external anatomy materials remain reference-only."
+      }
     },
     {
       "id": "brainstem-external",
@@ -955,8 +1014,23 @@
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
       "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
-      "isPilotSelectable": false,
-      "published": false
+      "isPilotSelectable": true,
+      "published": true,
+      "illustrationAsset": {
+        "asset": "/neuro-atlas/illustrations/brainstem-external.png",
+        "width": 1440,
+        "height": 1080,
+        "kind": "project-generated-reference-traced",
+        "sha256": "3ee5343b6447f662074a37d01ca40c02479e8441eaf7b184987bdbc211f9b41e",
+        "overlayId": "brainstem-external-overlay",
+        "reviewStatus": "draft-anatomy-review",
+        "referenceSourceIds": [
+          "openstax-brainstem-cc0",
+          "openstax-cns",
+          "terminologia-neuro"
+        ],
+        "reviewNote": "Project-owned base illustration with a separately rendered SVG overlay in the same coordinate system; external anatomy materials remain reference-only."
+      }
     },
     {
       "id": "brainstem-section",

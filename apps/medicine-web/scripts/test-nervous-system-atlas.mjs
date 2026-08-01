@@ -89,7 +89,7 @@ test("pilot atlas uses a project illustration image with a separate aligned SVG 
   const nativeAtlas = fs.readFileSync(nativeAtlasPath, "utf8");
   const imageAtlas = fs.readFileSync(imageAtlasPath, "utf8");
   assert.match(nativeAtlas, /ImageNeuroAtlas/, "native atlas must route pilot views to image overlay renderer");
-  assert.ok(imageAtlas.includes("href={`\${neuroAssetBasePath}\${map.asset}`}"), "pilot renderer must show a base-path-safe project image layer");
+  assert.ok(imageAtlas.includes("<img src={`\${neuroAssetBasePath}\${map.asset}`}"), "pilot renderer must render a base-path-safe project image layer");
   assert.match(imageAtlas, /function OverlayRegion/, "pilot renderer needs an independent interactive SVG overlay");
   assert.match(imageAtlas, /data-structure-id/, "overlay targets must expose canonical structure IDs");
   assert.match(imageAtlas, /illustrations\//, "pilot renderer must use project-owned illustration assets");
@@ -98,12 +98,17 @@ test("pilot atlas uses a project illustration image with a separate aligned SVG 
 });
 
 
-test("only the three registered image-overlay pilot views are selectable", () => {
+test("every selectable atlas view uses a registered project illustration and overlay", () => {
   const hub = fs.readFileSync(hubPath, "utf8");
   const imageAtlas = fs.readFileSync(imageAtlasPath, "utf8");
   const publishedIds = [...hub.matchAll(/id: "([^"]+)"[^\n]*published: true/g)].map((match) => match[1]);
-  assert.deepEqual(publishedIds.sort(), ["brain-midsagittal", "spinal-cross-section", "whole-neuraxis"], "only reviewed pilot views may be selectable");
-  for (const id of publishedIds) assert.match(imageAtlas, new RegExp('"' + id + '"'), id + " lacks an image-overlay map");
+  const expected = ["brain-axial", "brain-coronal", "brain-midsagittal", "brainstem-external", "cerebrum-inferior", "cerebrum-lateral", "spinal-cross-section", "whole-neuraxis"];
+  assert.deepEqual(publishedIds.sort(), expected, "only registered image-overlay views may be selectable");
+  for (const id of publishedIds) {
+    const view = atlas.views.find((item) => item.id === id);
+    assert.ok(view?.illustrationAsset?.asset?.startsWith("/neuro-atlas/illustrations/"), id + " needs a project illustration asset");
+    assert.match(imageAtlas, new RegExp('"' + id + '"'), id + " lacks an image-overlay map");
+  }
 });
 
 test("theory library has reference-document sections across structures, pathways and examination", () => {

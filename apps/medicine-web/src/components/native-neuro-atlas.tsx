@@ -1,7 +1,7 @@
 "use client";
 
 import { useId, type ReactNode } from "react";
-import { ImageNeuroAtlas, imagePilotViewIds } from "@/components/image-neuro-atlas";
+import { ImageNeuroAtlas, imagePilotViewIds, type ImageAtlasViewId } from "@/components/image-neuro-atlas";
 
 export type NeuroAtlasLayer = "anatomy" | "motor" | "sensory" | "cranial" | "reflex" | "dermatome" | "myotome" | "peripheral" | "autonomic";
 
@@ -355,7 +355,7 @@ function UnavailableView() {
 }
 
 export function NativeNeuroAtlas({ viewId, ...props }: Props) {
-  if (imagePilotViewIds.has(viewId)) return <ImageNeuroAtlas viewId={viewId as "whole-neuraxis" | "brain-midsagittal" | "spinal-cross-section"} {...props} />;
+  if (imagePilotViewIds.has(viewId)) return <ImageNeuroAtlas viewId={viewId as ImageAtlasViewId} {...props} />;
   if (viewId === "whole-neuraxis") return <WholeNeuraxis {...props} />;
   if (viewId === "brain-midsagittal") return <Midsagittal {...props} />;
   if (viewId === "cerebrum-medial") return <CerebrumMedial {...props} />;
