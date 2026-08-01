@@ -21,6 +21,8 @@ const pathwayStructures: Record<string, string[]> = {
   spinothalamic: ["peripheral-nerve", "nerve-root", "spinothalamic", "thalamus", "postcentral-gyrus"],
 };
 
+const neuroAssetBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 const routeColor: Record<string, string> = { motor: "#0f8d83", sensory: "#366ff0", cranial: "#8b5cf6", reflex: "#d97706", autonomic: "#b45309" };
 
 const maps: Record<PilotProps["viewId"], { asset: string; viewBox: string; regions: Region[]; route: string }> = {
@@ -87,7 +89,7 @@ export function ImageNeuroAtlas(props: PilotProps) {
   const map = maps[props.viewId];
   const color = props.layer === "anatomy" ? undefined : routeColor[props.layer] ?? "#0f8d83";
   return <svg viewBox={map.viewBox} className="block h-full w-full select-none" role="img" aria-label={props.viewId + " interactive anatomy atlas"}>
-    <image href={map.asset} x="0" y="0" width={props.viewId === "whole-neuraxis" ? 1152 : 1440} height={props.viewId === "whole-neuraxis" ? 1408 : 1080} preserveAspectRatio="xMidYMid meet" />
+    <image href={`${neuroAssetBasePath}${map.asset}`} x="0" y="0" width={props.viewId === "whole-neuraxis" ? 1152 : 1440} height={props.viewId === "whole-neuraxis" ? 1408 : 1080} preserveAspectRatio="xMidYMid meet" />
     <g>{map.regions.map((region) => <OverlayRegion key={region.id} region={region} selectedId={props.selectedId} hoveredId={props.hoveredId} pathwayId={props.pathwayId} onSelect={props.onSelect} onHover={props.onHover} />)}</g>
     {color ? <path d={map.route} fill="none" stroke="#fff" strokeWidth="17" strokeLinecap="round" strokeLinejoin="round" opacity=".92" pointerEvents="none" /> : null}
     {color ? <path d={map.route} fill="none" stroke={color} strokeWidth="8" strokeLinecap="round" strokeLinejoin="round" pointerEvents="none" /> : null}

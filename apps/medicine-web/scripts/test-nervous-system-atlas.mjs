@@ -89,7 +89,7 @@ test("pilot atlas uses a project illustration image with a separate aligned SVG 
   const nativeAtlas = fs.readFileSync(nativeAtlasPath, "utf8");
   const imageAtlas = fs.readFileSync(imageAtlasPath, "utf8");
   assert.match(nativeAtlas, /ImageNeuroAtlas/, "native atlas must route pilot views to image overlay renderer");
-  assert.match(imageAtlas, /<image href={map.asset}/, "pilot renderer must show a separate project image layer");
+  assert.ok(imageAtlas.includes("href={`\${neuroAssetBasePath}\${map.asset}`}"), "pilot renderer must show a base-path-safe project image layer");
   assert.match(imageAtlas, /function OverlayRegion/, "pilot renderer needs an independent interactive SVG overlay");
   assert.match(imageAtlas, /data-structure-id/, "overlay targets must expose canonical structure IDs");
   assert.match(imageAtlas, /illustrations\//, "pilot renderer must use project-owned illustration assets");
