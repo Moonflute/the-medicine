@@ -629,7 +629,15 @@
       "structureIds": [
         "cerebral-cortex",
         "neuromuscular-junction",
-        "skeletal-muscle"
+        "skeletal-muscle",
+        "cerebellum",
+        "midbrain",
+        "pons",
+        "medulla",
+        "spinal-cord",
+        "brachial-plexus",
+        "lumbosacral-plexus",
+        "peripheral-nerve"
       ]
     },
     {
@@ -709,7 +717,11 @@
         "association-cortex",
         "broca-area",
         "wernicke-area",
-        "insula"
+        "insula",
+        "midbrain",
+        "pons",
+        "medulla",
+        "cerebellum"
       ]
     },
     {
@@ -775,7 +787,16 @@
         "motor-cortex",
         "somatosensory-cortex",
         "supplementary-motor-area",
-        "association-cortex"
+        "association-cortex",
+        "frontal-lobe",
+        "parietal-lobe",
+        "temporal-lobe",
+        "thalamus",
+        "hypothalamus",
+        "midbrain",
+        "pons",
+        "medulla",
+        "cerebellum"
       ]
     },
     {
@@ -833,7 +854,14 @@
         "optic-radiation",
         "primary-visual-cortex",
         "olfactory-bulb",
-        "visual-field-target"
+        "visual-field-target",
+        "frontal-lobe",
+        "temporal-lobe",
+        "midbrain",
+        "pons",
+        "medulla",
+        "cerebellum",
+        "cranial-nerve-roots"
       ]
     },
     {
@@ -897,7 +925,16 @@
         "hippocampus",
         "amygdala",
         "optic-chiasm",
-        "brainstem"
+        "brainstem",
+        "frontal-lobe",
+        "parietal-lobe",
+        "temporal-lobe",
+        "occipital-lobe",
+        "cingulate-gyrus",
+        "midbrain",
+        "pons",
+        "medulla",
+        "cerebellum"
       ]
     },
     {
@@ -963,7 +1000,9 @@
         "lateral-geniculate",
         "insula",
         "cerebral-cortex",
-        "caudate-nucleus"
+        "caudate-nucleus",
+        "frontal-lobe",
+        "midbrain"
       ]
     },
     {
@@ -1028,7 +1067,8 @@
         "optic-radiation",
         "insula",
         "cerebral-cortex",
-        "caudate-nucleus"
+        "caudate-nucleus",
+        "frontal-lobe"
       ]
     },
     {
@@ -1127,7 +1167,8 @@
         "ocular-motor-nerves",
         "voluntary-motor-command",
         "corticobulbar-tract",
-        "muscles-of-facial-expression"
+        "muscles-of-facial-expression",
+        "cerebellum"
       ]
     },
     {
@@ -1196,7 +1237,11 @@
         "vagal-afferents",
         "medullary-respiratory-center",
         "vagal-phrenic-spinal-circuit",
-        "respiratory-muscles"
+        "respiratory-muscles",
+        "cerebellar-peduncles",
+        "lateral-corticospinal",
+        "dorsal-column",
+        "spinothalamic"
       ]
     },
     {
@@ -1263,7 +1308,9 @@
         "cerebellar-output-pathway",
         "upper-limb-muscles",
         "lower-limb-muscles",
-        "cerebellar-modulation-circuit"
+        "cerebellar-modulation-circuit",
+        "pons",
+        "medulla"
       ]
     },
     {
@@ -1326,7 +1373,8 @@
         "corticospinal-modulation",
         "abdominal-skin",
         "t7-t12-spinal-circuit",
-        "abdominal-muscles"
+        "abdominal-muscles",
+        "nerve-root"
       ]
     },
     {
@@ -1390,7 +1438,9 @@
         "perianal-skin",
         "s2-s4-spinal-cord",
         "external-anal-sphincter",
-        "genital-afferents"
+        "genital-afferents",
+        "central-canal",
+        "ventral-horn"
       ]
     },
     {
@@ -1454,7 +1504,9 @@
         "triceps-brachii",
         "medial-thigh-skin",
         "l1-l2-spinal-circuit",
-        "cremaster-muscle"
+        "cremaster-muscle",
+        "median-nerve",
+        "ulnar-nerve"
       ]
     },
     {
@@ -1516,7 +1568,10 @@
         "obturator-nerve",
         "muscle-spindle",
         "l3-l4-nerve-roots",
-        "quadriceps"
+        "quadriceps",
+        "sciatic-nerve",
+        "tibial-nerve",
+        "common-fibular-nerve"
       ]
     },
     {
@@ -1847,7 +1902,8 @@
       "structureIds": [
         "neuromuscular-junction",
         "skeletal-muscle",
-        "motor-neuron"
+        "motor-neuron",
+        "peripheral-nerve"
       ]
     },
     {
@@ -2398,7 +2454,12 @@
         "허혈성 뇌졸중 (Ischemic stroke)"
       ],
       "viewIds": [
-        "cerebrum-lateral"
+        "cerebrum-lateral",
+        "cerebrum-medial",
+        "cerebrum-inferior",
+        "brain-midsagittal",
+        "brain-coronal",
+        "brain-axial"
       ],
       "sourceIds": [
         "ncbi-cortex"
@@ -2414,7 +2475,9 @@
         "허혈성 뇌졸중 (Ischemic stroke)"
       ],
       "viewIds": [
-        "cerebrum-lateral"
+        "cerebrum-lateral",
+        "cerebrum-medial",
+        "brain-midsagittal"
       ],
       "sourceIds": [
         "ncbi-cortex",
@@ -2431,7 +2494,10 @@
         "허혈성 뇌졸중 (Ischemic stroke)"
       ],
       "viewIds": [
-        "cerebrum-lateral"
+        "cerebrum-lateral",
+        "cerebrum-medial",
+        "cerebrum-inferior",
+        "brain-midsagittal"
       ],
       "sourceIds": [
         "ncbi-cortex",
@@ -2572,7 +2638,8 @@
       "links": [],
       "viewIds": [
         "cerebrum-lateral",
-        "cerebrum-medial"
+        "cerebrum-medial",
+        "brain-midsagittal"
       ],
       "sourceIds": [
         "ncbi-cortex"
@@ -2588,7 +2655,8 @@
         "허혈성 뇌졸중 (Ischemic stroke)"
       ],
       "viewIds": [
-        "cerebrum-medial"
+        "cerebrum-medial",
+        "brain-midsagittal"
       ],
       "sourceIds": [
         "ncbi-cortex"
@@ -2666,7 +2734,8 @@
       "viewIds": [
         "brain-axial",
         "brain-coronal",
-        "brain-midsagittal"
+        "brain-midsagittal",
+        "cerebrum-medial"
       ],
       "sourceIds": [
         "ncbi-cerebral-hemisphere"
@@ -2720,7 +2789,13 @@
       "viewIds": [
         "brainstem-external",
         "brainstem-section",
-        "midbrain-section"
+        "midbrain-section",
+        "whole-neuraxis",
+        "cerebrum-lateral",
+        "cerebrum-medial",
+        "cerebrum-inferior",
+        "brain-midsagittal",
+        "brain-coronal"
       ],
       "sourceIds": [
         "terminologia-neuro"
@@ -2738,7 +2813,13 @@
       "viewIds": [
         "brainstem-external",
         "brainstem-section",
-        "pons-section"
+        "pons-section",
+        "whole-neuraxis",
+        "cerebrum-lateral",
+        "cerebrum-medial",
+        "cerebrum-inferior",
+        "brain-midsagittal",
+        "cerebellum"
       ],
       "sourceIds": [
         "terminologia-neuro"
@@ -2756,7 +2837,13 @@
       "viewIds": [
         "brainstem-external",
         "brainstem-section",
-        "medulla-section"
+        "medulla-section",
+        "whole-neuraxis",
+        "cerebrum-lateral",
+        "cerebrum-medial",
+        "cerebrum-inferior",
+        "brain-midsagittal",
+        "cerebellum"
       ],
       "sourceIds": [
         "terminologia-neuro"
@@ -2773,7 +2860,13 @@
       ],
       "viewIds": [
         "cerebellum",
-        "cerebellum-section"
+        "cerebellum-section",
+        "whole-neuraxis",
+        "cerebrum-lateral",
+        "cerebrum-medial",
+        "cerebrum-inferior",
+        "brain-midsagittal",
+        "brainstem-external"
       ],
       "sourceIds": [
         "openstax-cns"
@@ -2826,7 +2919,8 @@
         "spinal-cervical-section",
         "spinal-thoracic-section",
         "spinal-lumbar-section",
-        "spinal-sacral-section"
+        "spinal-sacral-section",
+        "whole-neuraxis"
       ],
       "sourceIds": [
         "isncsci",
@@ -2849,7 +2943,8 @@
         "spinal-cervical-section",
         "spinal-thoracic-section",
         "spinal-lumbar-section",
-        "spinal-sacral-section"
+        "spinal-sacral-section",
+        "brainstem-section"
       ],
       "sourceIds": [
         "wikimedia-spinal"
@@ -2871,7 +2966,8 @@
         "spinal-cervical-section",
         "spinal-thoracic-section",
         "spinal-lumbar-section",
-        "spinal-sacral-section"
+        "spinal-sacral-section",
+        "brainstem-section"
       ],
       "sourceIds": [
         "wikimedia-spinal"
@@ -2892,7 +2988,8 @@
         "spinal-cervical-section",
         "spinal-thoracic-section",
         "spinal-lumbar-section",
-        "spinal-sacral-section"
+        "spinal-sacral-section",
+        "brainstem-section"
       ],
       "sourceIds": [
         "wikimedia-spinal"
@@ -2913,7 +3010,8 @@
         "spinal-cervical-section",
         "spinal-thoracic-section",
         "spinal-lumbar-section",
-        "spinal-sacral-section"
+        "spinal-sacral-section",
+        "spinal-levels"
       ],
       "sourceIds": [
         "isncsci"
@@ -2930,7 +3028,8 @@
         "brachial-plexus",
         "lumbosacral-plexus",
         "upper-limb-nerves",
-        "lower-limb-nerves"
+        "lower-limb-nerves",
+        "whole-neuraxis"
       ],
       "sourceIds": [
         "terminologia-neuro"
@@ -2948,7 +3047,9 @@
         "lumbosacral-plexus",
         "upper-limb-nerves",
         "lower-limb-nerves",
-        "skeletal-muscle"
+        "skeletal-muscle",
+        "whole-neuraxis",
+        "nmj-muscle"
       ],
       "sourceIds": [
         "isncsci"
@@ -3212,7 +3313,8 @@
       "viewIds": [
         "brain-axial",
         "brain-coronal",
-        "brain-midsagittal"
+        "brain-midsagittal",
+        "cerebrum-medial"
       ],
       "sourceIds": [
         "ncbi-cerebral-hemisphere"
@@ -3671,7 +3773,8 @@
       "viewIds": [
         "lumbosacral-plexus",
         "lower-limb-nerves",
-        "sacral-plexus"
+        "sacral-plexus",
+        "whole-neuraxis"
       ],
       "sourceIds": [
         "openstax-cns",
@@ -3783,7 +3886,8 @@
       "links": [],
       "viewIds": [
         "sacral-plexus",
-        "lower-limb-nerves"
+        "lower-limb-nerves",
+        "lumbosacral-plexus"
       ],
       "sourceIds": [
         "wikimedia-sacral-plexus-pd",
@@ -3799,7 +3903,8 @@
       "links": [],
       "viewIds": [
         "lower-limb-nerves",
-        "sacral-plexus"
+        "sacral-plexus",
+        "lumbosacral-plexus"
       ],
       "sourceIds": [
         "wikimedia-lower-limb-nerves-pd",
@@ -3819,7 +3924,8 @@
       "links": [],
       "viewIds": [
         "lower-limb-nerves",
-        "sacral-plexus"
+        "sacral-plexus",
+        "lumbosacral-plexus"
       ],
       "sourceIds": [
         "wikimedia-lower-limb-nerves-pd",
@@ -3852,7 +3958,8 @@
       "summary": "상완·전완을 지나 손의 일부 감각 및 무지구·손가락 굴곡 기능과 관련된 말초신경입니다.",
       "links": [],
       "viewIds": [
-        "upper-limb-nerves"
+        "upper-limb-nerves",
+        "brachial-plexus"
       ],
       "sourceIds": [
         "wikimedia-gray-upper-limb-nerves-pd",
@@ -3867,7 +3974,8 @@
       "summary": "전완과 손의 척측 영역을 지나 내재근 및 감각 기능과 관련된 말초신경입니다.",
       "links": [],
       "viewIds": [
-        "upper-limb-nerves"
+        "upper-limb-nerves",
+        "brachial-plexus"
       ],
       "sourceIds": [
         "wikimedia-gray-upper-limb-nerves-pd",
@@ -3964,7 +4072,8 @@
       "summary": "Cranial nerve rootlets emerge from the brainstem at characteristic levels and provide a localization reference.",
       "links": [],
       "viewIds": [
-        "brainstem-external"
+        "brainstem-external",
+        "cerebrum-inferior"
       ],
       "sourceIds": [
         "openstax-cns",
@@ -3982,7 +4091,8 @@
         "brainstem-external",
         "cerebellum",
         "pons-section",
-        "cerebellum-section"
+        "cerebellum-section",
+        "brainstem-section"
       ],
       "sourceIds": [
         "openstax-cns",
@@ -5680,6 +5790,36 @@
       "sourceIds": [
         "openstax-cns",
         "terminologia-neuro"
+      ]
+    },
+    {
+      "id": "central-canal",
+      "en": "Central canal",
+      "ko": "중심관",
+      "group": "Spinal cord cross-section",
+      "summary": "척수 회백질 중앙에 위치하는 뇌실계의 연속 구조입니다.",
+      "links": [],
+      "viewIds": [
+        "spinal-cross-section"
+      ],
+      "sourceIds": [
+        "openstax-spinal-cross-section-ccby4",
+        "openstax-cns"
+      ]
+    },
+    {
+      "id": "ventral-horn",
+      "en": "Ventral horn",
+      "ko": "앞뿔",
+      "group": "Spinal cord cross-section",
+      "summary": "하위운동뉴런의 세포체가 주로 위치하는 척수 회백질의 앞쪽 뿔입니다.",
+      "links": [],
+      "viewIds": [
+        "spinal-cross-section"
+      ],
+      "sourceIds": [
+        "openstax-spinal-cross-section-ccby4",
+        "openstax-cns"
       ]
     }
   ],

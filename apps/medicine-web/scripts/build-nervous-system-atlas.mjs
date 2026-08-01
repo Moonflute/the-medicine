@@ -8,6 +8,7 @@ const WORKSPACE_ROOT = path.resolve(SCRIPT_ROOT, "..", "..");
 const sourcePath = path.join(WORKSPACE_ROOT, "source_notes", "02 Diseases", "16 신경과-신경외과", "_data", "nervous-system-atlas.json");
 const outputPath = path.join(WORKSPACE_ROOT, "_webapp", "data", "nervous-system-atlas.json");
 const publicRoot = path.join(SCRIPT_ROOT, "public");
+const imageAtlasSourcePath = path.join(SCRIPT_ROOT, "src", "components", "image-neuro-atlas.tsx");
 const stableHash = (file) => {
   const bytes = fs.readFileSync(file);
   const normalized = path.extname(file).toLowerCase() === ".svg" ? Buffer.from(bytes.toString("utf8").replace(/\r\n/g, "\n"), "utf8") : bytes;
@@ -80,6 +81,21 @@ for (const structure of atlas.structures) {
   if (!structure.viewIds?.length) throw new Error(`Neuro atlas structure ${structure.id} is not assigned to a view.`);
   for (const viewId of structure.viewIds) if (!viewIds.has(viewId)) throw new Error(`Neuro atlas structure ${structure.id} references unknown view ${viewId}.`);
   if (structure.parentId && !structureIds.has(structure.parentId)) throw new Error(`Neuro atlas structure ${structure.id} references unknown parent ${structure.parentId}.`);
+}
+const imageAtlasSource = fs.readFileSync(imageAtlasSourcePath, "utf8");
+for (const view of atlas.views.filter((item) => item.published)) {
+  const mapStart = imageAtlasSource.indexOf('"' + view.id + '": {');
+  const mapEnd = imageAtlasSource.indexOf('\n  "', mapStart + 1);
+  if (mapStart < 0) throw new Error(`Published view ${view.id} has no registered SVG overlay map.`);
+  const mapBlock = imageAtlasSource.slice(mapStart, mapEnd < 0 ? imageAtlasSource.length : mapEnd);
+  const overlayStructureIds = [...mapBlock.matchAll(/\{ id: "([^\"]+)"/g)].map((match) => match[1]);
+  if (overlayStructureIds.length === 0) throw new Error(`Published view ${view.id} has no selectable overlay structures.`);
+  for (const structureId of overlayStructureIds) {
+    const structure = atlas.structures.find((item) => item.id === structureId);
+    if (!structure || !view.structureIds.includes(structureId) || !structure.viewIds?.includes(view.id)) {
+      throw new Error(`Overlay structure ${structureId} must have bidirectional canonical links for view ${view.id}.`);
+    }
+  }
 }
 for (const pathway of atlas.pathways) {
   if (!pathway.nodes?.length) throw new Error("Neuro atlas pathway " + pathway.id + " has no rendered nodes.");

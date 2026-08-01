@@ -63,6 +63,24 @@ test("project illustration dimensions and SVG coordinate systems stay aligned", 
   }
 });
 
+test("every selectable SVG overlay structure has bidirectional canonical view links", () => {
+  const imageAtlas = fs.readFileSync(imageAtlasPath, "utf8");
+  for (const view of atlas.views.filter((item) => item.published)) {
+    const start = imageAtlas.indexOf('"' + view.id + '": {');
+    const end = imageAtlas.indexOf('\n  "', start + 1);
+    assert.ok(start >= 0, view.id + " needs an overlay map");
+    const block = imageAtlas.slice(start, end < 0 ? imageAtlas.length : end);
+    const ids = [...block.matchAll(/\{ id: "([^\"]+)"/g)].map((match) => match[1]);
+    assert.ok(ids.length, view.id + " needs at least one selectable structure");
+    for (const id of ids) {
+      const structure = atlas.structures.find((item) => item.id === id);
+      assert.ok(structure, view.id + " overlay has unknown structure " + id);
+      assert.ok(view.structureIds.includes(id), view.id + " misses " + id + " in its structure list");
+      assert.ok(structure.viewIds?.includes(view.id), id + " misses reverse link to " + view.id);
+    }
+  }
+});
+
 test("published views retain no legacy external-image metadata", () => {
   for (const view of atlas.views.filter((item) => item.published)) {
     for (const key of ["baseAsset", "interactionMap", "assetId", "assetMethod", "assetSourceIds", "assetLicense", "assetSha256", "variants", "variantAssets"]) {
