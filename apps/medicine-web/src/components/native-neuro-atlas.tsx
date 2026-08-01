@@ -78,7 +78,7 @@ function InteractivePath({ id, label, d, fill, selectedId, hoveredId, pathwayId,
     stroke={active ? PALETTE.selected : stroke}
     strokeWidth={active ? strokeWidth + 2 : strokeWidth}
     strokeLinejoin="round"
-    className="cursor-pointer outline-none transition-[fill,stroke] duration-150"
+    className="cursor-pointer outline-none transition-[fill,stroke] duration-150 motion-reduce:transition-none"
     onMouseEnter={() => onHover(id)}
     onMouseLeave={() => onHover()}
     onFocus={() => onHover(id)}

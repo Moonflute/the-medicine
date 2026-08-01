@@ -123,6 +123,16 @@ test("Hub exposes required responsive workspace controls without horizontal sele
   assert.equal(/overflow-x-auto/.test(hub), false, "view selection must not depend on a horizontal toolbar rail");
 });
 
+test("full-screen atlas preserves mobile-safe pan, zoom and reset controls", () => {
+  const hub = fs.readFileSync(hubPath, "utf8");
+  const nativeAtlas = fs.readFileSync(nativeAtlasPath, "utf8");
+  assert.match(hub, /fullScreen \? <div/, "full-screen Atlas shell is missing");
+  assert.match(hub, /onPointerDown={onAtlasPointerDown}/, "full-screen Atlas must preserve pan interaction");
+  assert.match(hub, /aria-label="Zoom out"/, "full-screen Atlas must expose zoom controls");
+  assert.match(hub, /aria-label="Reset view"/, "full-screen Atlas must expose reset control");
+  assert.match(nativeAtlas, /motion-reduce:transition-none/, "interactive SVG paths must honor reduced motion");
+});
+
 test("native SVG highlights all visible structures on selected source-backed pathways", () => {
   const nativeAtlas = fs.readFileSync(nativeAtlasPath, "utf8");
   assert.match(nativeAtlas, /const PATHWAY_STRUCTURE_IDS/, "pathway-to-structure mapping is required");
