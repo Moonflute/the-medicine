@@ -89,6 +89,8 @@ test("every rendered structure hit maps to a concrete atlas view and source grou
   const mappings = [...hitMapSection.matchAll(/(?:"([^"]+)"|\b([\w-]+)):"([^"]+)"/g)];
   for (const mapping of mappings) assert.ok(knownViews.has(mapping[3]), "unknown mapped view " + mapping[3]);
   assert.equal(/label="\?{2,}/.test(hub), false, "corrupted question-mark label remains in map source");
+  assert.match(hub, /function atlasAssetSrc\(asset\?: string\)/, "atlas public asset resolver is missing");
+  assert.match(hub, /<image href=\{src\}/, "atlas frame must use the base-path-resolved source");
 });
 
 
