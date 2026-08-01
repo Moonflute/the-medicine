@@ -127,6 +127,14 @@ test("Hub exposes required responsive workspace controls without horizontal sele
   assert.equal(/overflow-x-auto/.test(hub), false, "view selection must not depend on a horizontal toolbar rail");
 });
 
+test("NEx presents route interpretation without converting the workflow into a quiz", () => {
+  const hub = fs.readFileSync(hubPath, "utf8");
+  assert.match(hub, /Normal response/, "NEx needs expected response guidance");
+  assert.match(hub, /Abnormal findings \/ cautions/, "NEx needs abnormal finding cautions");
+  assert.match(hub, /Laterality/, "NEx needs laterality interpretation");
+  assert.doesNotMatch(hub, /Correct answer|Score|Submit answer/, "NEx must not present a quiz workflow");
+});
+
 test("pathway and theory controls filter by anatomical learning scope", () => {
   const hub = fs.readFileSync(hubPath, "utf8");
   assert.match(hub, /const pathwayOptions = pathways.filter/, "pathway selector must follow the selected layer");
