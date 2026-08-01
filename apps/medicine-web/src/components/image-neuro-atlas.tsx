@@ -2,7 +2,7 @@
 
 import type { KeyboardEvent } from "react";
 import type { NeuroAtlasLayer } from "@/components/native-neuro-atlas";
-import { MidsagittalVectorAtlas } from "@/components/midsagittal-vector-atlas";
+import { MidsagittalMaskAtlas } from "@/components/midsagittal-mask-atlas";
 
 export type ImageAtlasViewId = "whole-neuraxis" | "cerebrum-lateral" | "cerebrum-medial" | "brain-midsagittal" | "cerebrum-inferior" | "brain-coronal" | "brain-axial" | "brainstem-external" | "brainstem-section" | "cerebellum" | "spinal-levels" | "spinal-cross-section" | "brachial-plexus" | "lumbosacral-plexus" | "sacral-plexus" | "upper-limb-nerves" | "lower-limb-nerves" | "dermatome-anterior" | "dermatome-posterior" | "nmj-muscle" | "myotome" | "midbrain-section" | "pons-section" | "medulla-section" | "cerebellum-section" | "spinal-cervical-section" | "spinal-thoracic-section" | "spinal-lumbar-section" | "spinal-sacral-section" | "skeletal-muscle";
 
@@ -512,7 +512,7 @@ function OverlayRegion({ region, selectedId, hoveredId, pathwayId, onSelect, onH
 }
 
 export function ImageNeuroAtlas(props: PilotProps) {
-  if (props.viewId === "brain-midsagittal") return <MidsagittalVectorAtlas {...props} />;
+  if (props.viewId === "brain-midsagittal") return <MidsagittalMaskAtlas {...props} />;
   const map = maps[props.viewId];
   const route = props.pathwayId ? pathwayRoutes[props.viewId]?.[props.pathwayId] : undefined;
   const color = route && props.layer !== "anatomy" ? routeColor[props.layer] ?? "#0f8d83" : undefined;
