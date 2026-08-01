@@ -610,7 +610,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "pearson-nervous-system-pd",
+        "wikimedia-central-nervous-system-pd",
+        "openstax-cns"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "cerebrum-lateral",
@@ -643,7 +652,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "sobotta-public-domain",
+        "ncbi-cortex",
+        "terminologia-neuro"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "cerebrum-medial",
@@ -675,7 +693,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-brain-sagittal-ccby25",
+        "ncbi-cortex",
+        "terminologia-neuro"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "cerebrum-inferior",
@@ -707,7 +734,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-brain-cranial-nerves-ccby25",
+        "ncbi-visual",
+        "terminologia-neuro"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "brain-midsagittal",
@@ -738,7 +774,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-brain-sagittal-ccby25",
+        "ncbi-cerebral-hemisphere",
+        "terminologia-neuro"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "brain-coronal",
@@ -773,7 +818,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-brain-coronal-ccby25",
+        "ncbi-cerebral-hemisphere",
+        "terminologia-neuro"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "brain-axial",
@@ -807,7 +861,15 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-gray742-horizontal-pd",
+        "terminologia-neuro"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "brainstem-external",
@@ -839,7 +901,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "openstax-brainstem-cc0",
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "brainstem-section",
@@ -908,7 +979,15 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "cerebellum",
@@ -939,7 +1018,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-cerebellum-medulla-cortex-pd",
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "spinal-levels",
@@ -971,7 +1059,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-spinal-segment-levels-pd",
+        "isncsci",
+        "openstax-cns"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "spinal-cross-section",
@@ -1007,7 +1104,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "openstax-spinal-cross-section-ccby4",
+        "isncsci",
+        "wikimedia-spinal"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "brachial-plexus",
@@ -1038,7 +1144,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-brachial-plexus-pd",
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "lumbosacral-plexus",
@@ -1070,7 +1185,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-lumbar-plexus-pd",
+        "openstax-cns",
+        "terminologia-neuro"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "sacral-plexus",
@@ -1100,7 +1224,15 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-sacral-plexus-pd",
+        "terminologia-neuro"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "upper-limb-nerves",
@@ -1130,7 +1262,15 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-gray-upper-limb-nerves-pd",
+        "terminologia-neuro"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "lower-limb-nerves",
@@ -1160,7 +1300,15 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-lower-limb-nerves-pd",
+        "terminologia-neuro"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "dermatome-anterior",
@@ -1192,7 +1340,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-dermatomes-anterior-pd",
+        "isncsci",
+        "ncbi-dermatomes"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "dermatome-posterior",
@@ -1224,7 +1381,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-dermatomes-posterior-pd",
+        "isncsci",
+        "ncbi-dermatomes"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     },
     {
       "id": "nmj-muscle",
@@ -1256,7 +1422,16 @@
         "base asset checksum verified",
         "at least two provenance sources registered",
         "rendered Hit IDs map to an atlas view"
-      ]
+      ],
+      "createdAs": "project-original-svg",
+      "referenceSourceIds": [
+        "wikimedia-openstax-motor-end-plate-ccby4",
+        "ncbi-nmj-physiology",
+        "ncbi-nmj-transmission"
+      ],
+      "anatomyReviewStatus": "source-mapped",
+      "visualReviewStatus": "design-system-checked",
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
     }
   ],
   "structures": [

@@ -31,6 +31,10 @@ test("all 20 atlas views have an existing base asset, provenance, and stable che
   assert.equal(atlas.views.filter((view) => view.reviewStatus === "draft-anatomy").length, 0, "draft anatomy view remains");
   for (const view of atlas.views) {
     assert.ok(view.reviewedAt && view.reviewBasis?.length >= 3, view.id + " is missing audit metadata");
+    assert.equal(view.createdAs, "project-original-svg", view.id + " must declare a project-original SVG rendering");
+    assert.equal(view.anatomyReviewStatus, "source-mapped", view.id + " needs source-mapped anatomy provenance");
+    assert.equal(view.visualReviewStatus, "design-system-checked", view.id + " needs design-system review metadata");
+    assert.deepEqual(view.referenceSourceIds, view.assetSourceIds, view.id + " must retain the exact reference source set");
     assert.ok(fs.existsSync(assetPath(view.baseAsset)), view.id + " base asset is missing");
     assert.equal(hash(assetPath(view.baseAsset)), view.assetSha256, view.id + " base checksum changed");
     assert.ok(view.assetSourceIds.length >= 2, view.id + " needs at least two references");

@@ -102,6 +102,7 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
   const pinch = useRef<{ distance: number; zoom: number } | undefined>(undefined);
 
   const view = VIEWS.find((item) => item.id === viewId) ?? VIEWS[0];
+  const viewMeta = atlas.views.find((item) => item.id === view.id);
   const structures = atlas.structures;
   const selected = structures.find((item) => item.id === selectedId) ?? FALLBACK[selectedId] ?? FALLBACK["frontal-lobe"];
   const pathways = atlas.pathways;
@@ -206,7 +207,7 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
       <div className={"grid gap-4 " + (desktopInfoOpen ? "xl:grid-cols-[minmax(0,1fr)_330px]" : "xl:grid-cols-1")}>
         <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 px-4 py-3 sm:px-5">
-            <div className="min-w-0"><Breadcrumb view={view} /><h1 className="mt-1 text-xl font-bold text-slate-950 sm:text-2xl">{view.label}</h1><p className="mt-1 text-sm text-slate-600">{view.description}</p></div>
+            <div className="min-w-0"><Breadcrumb view={view} /><h1 className="mt-1 text-xl font-bold text-slate-950 sm:text-2xl">{view.label}</h1><p className="mt-1 text-sm text-slate-600">{view.description}</p>{viewMeta?.createdAs === "project-original-svg" ? <p className="mt-2 text-xs font-medium text-slate-500">Project-original educational SVG · source-mapped anatomy reference</p> : null}</div>
             <div className="flex items-center gap-1"><button type="button" onClick={() => setDesktopInfoOpen((value) => !value)} className="hidden rounded-lg border border-slate-200 px-2 py-2 text-xs font-bold text-slate-700 hover:border-teal-500 xl:inline-flex">{desktopInfoOpen ? "Hide info" : "Show info"}</button><button type="button" aria-label="Zoom out" onClick={() => setZoom((value) => Math.max(.75, value - .15))} className="rounded-lg border border-slate-200 p-2 hover:border-teal-500"><ZoomOut className="h-4 w-4" /></button><button type="button" aria-label="Zoom in" onClick={() => setZoom((value) => Math.min(2.4, value + .15))} className="rounded-lg border border-slate-200 p-2 hover:border-teal-500"><ZoomIn className="h-4 w-4" /></button><button type="button" aria-label="Reset view" onClick={reset} className="rounded-lg border border-slate-200 p-2 hover:border-teal-500"><RotateCcw className="h-4 w-4" /></button></div>
           </div>
           <div className="relative min-h-[460px] overflow-hidden bg-slate-50 sm:min-h-[600px]" onWheel={(event) => { event.preventDefault(); setZoom((value) => Math.max(.75, Math.min(2.4, value + (event.deltaY < 0 ? .1 : -.1)))); }} onPointerDown={onAtlasPointerDown} onPointerMove={onAtlasPointerMove} onPointerUp={onAtlasPointerEnd} onPointerCancel={onAtlasPointerEnd}>
