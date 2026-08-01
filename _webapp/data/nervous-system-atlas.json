@@ -619,7 +619,24 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": true,
+      "published": true,
+      "illustrationAsset": {
+        "asset": "/neuro-atlas/illustrations/whole-neuraxis.png",
+        "width": 1152,
+        "height": 1408,
+        "kind": "project-generated-reference-traced",
+        "sha256": "558d54b4ae310f5721489d3181753a2389f56b6ca04027824161619029754be3",
+        "overlayId": "whole-neuraxis-overlay",
+        "reviewStatus": "pilot-anatomy-review",
+        "referenceSourceIds": [
+          "pearson-nervous-system-pd",
+          "wikimedia-central-nervous-system-pd",
+          "openstax-cns"
+        ],
+        "reviewNote": "Project-owned base illustration used only with the separately rendered SVG overlay in the same coordinate system."
+      }
     },
     {
       "id": "cerebrum-lateral",
@@ -661,7 +678,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "cerebrum-medial",
@@ -702,7 +721,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "cerebrum-inferior",
@@ -743,7 +764,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "brain-midsagittal",
@@ -783,7 +806,24 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": true,
+      "published": true,
+      "illustrationAsset": {
+        "asset": "/neuro-atlas/illustrations/brain-midsagittal.png",
+        "width": 1440,
+        "height": 1080,
+        "kind": "project-generated-reference-traced",
+        "sha256": "6754a3bcce8f3f4837a602831f4d3ab6b4f288d081710e8175d4d6c072548df2",
+        "overlayId": "brain-midsagittal-overlay",
+        "reviewStatus": "pilot-anatomy-review",
+        "referenceSourceIds": [
+          "wikimedia-brain-sagittal-ccby25",
+          "ncbi-cerebral-hemisphere",
+          "terminologia-neuro"
+        ],
+        "reviewNote": "Project-owned base illustration used only with the separately rendered SVG overlay in the same coordinate system."
+      }
     },
     {
       "id": "brain-coronal",
@@ -827,7 +867,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "brain-axial",
@@ -869,7 +911,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "brainstem-external",
@@ -910,7 +954,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "brainstem-section",
@@ -987,7 +1033,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "cerebellum",
@@ -1027,7 +1075,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "spinal-levels",
@@ -1068,7 +1118,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "spinal-cross-section",
@@ -1113,7 +1165,24 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": true,
+      "published": true,
+      "illustrationAsset": {
+        "asset": "/neuro-atlas/illustrations/spinal-cross-section.png",
+        "width": 1440,
+        "height": 1080,
+        "kind": "project-generated-reference-traced",
+        "sha256": "16ee1ba79a34b76e6b65bccd23ecf4917e39ab25420073a65b0c814a56b7b6fb",
+        "overlayId": "spinal-cross-section-overlay",
+        "reviewStatus": "pilot-anatomy-review",
+        "referenceSourceIds": [
+          "openstax-spinal-cross-section-ccby4",
+          "isncsci",
+          "wikimedia-spinal"
+        ],
+        "reviewNote": "Project-owned base illustration used only with the separately rendered SVG overlay in the same coordinate system."
+      }
     },
     {
       "id": "brachial-plexus",
@@ -1153,7 +1222,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "lumbosacral-plexus",
@@ -1194,7 +1265,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "sacral-plexus",
@@ -1232,7 +1305,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "upper-limb-nerves",
@@ -1270,7 +1345,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "lower-limb-nerves",
@@ -1308,7 +1385,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "dermatome-anterior",
@@ -1349,7 +1428,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "dermatome-posterior",
@@ -1390,7 +1471,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     },
     {
       "id": "nmj-muscle",
@@ -1431,7 +1514,9 @@
       ],
       "anatomyReviewStatus": "source-mapped",
       "visualReviewStatus": "design-system-checked",
-      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image."
+      "reviewScope": "Educational schematic: project SVG structure boundaries were redrawn from registered anatomy references; not a diagnostic image.",
+      "isPilotSelectable": false,
+      "published": false
     }
   ],
   "structures": [

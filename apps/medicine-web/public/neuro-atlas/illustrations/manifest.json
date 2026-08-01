@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "createdBy": "project-generated illustration draft; anatomy overlay traced in project source",
+  "views": {
+    "whole-neuraxis": {
+      "asset": "/neuro-atlas/illustrations/whole-neuraxis.png",
+      "width": 1152,
+      "height": 1408,
+      "reviewStatus": "draft-anatomy-review"
+    },
+    "brain-midsagittal": {
+      "asset": "/neuro-atlas/illustrations/brain-midsagittal.png",
+      "width": 1440,
+      "height": 1080,
+      "reviewStatus": "draft-anatomy-review"
+    },
+    "spinal-cross-section": {
+      "asset": "/neuro-atlas/illustrations/spinal-cross-section.png",
+      "width": 1440,
+      "height": 1080,
+      "reviewStatus": "draft-anatomy-review"
+    }
+  }
+}

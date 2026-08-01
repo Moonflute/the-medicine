@@ -54,6 +54,24 @@ for (const view of atlas.views) {
     if (variantSha256 !== asset.sha256) throw new Error("Neuro atlas variant asset checksum changed.");
   }
 }
+
+// Pilot/public rendering uses a project-owned illustration image plus a separately rendered SVG overlay.
+const selectableViews = atlas.views.filter((view) => view.isPilotSelectable);
+if (selectableViews.length !== 3) throw new Error(`Neuro atlas requires exactly three selectable image-overlay pilot views, found ${selectableViews.length}.`);
+for (const view of atlas.views) {
+  if (view.isPilotSelectable && !view.published) throw new Error(`Pilot view ${view.id} must be explicitly published for review.`);
+  if (view.published && !view.isPilotSelectable) throw new Error(`Non-pilot view ${view.id} may not be published before its image-overlay asset is registered.`);
+  if (!view.isPilotSelectable) continue;
+  const illustration = view.illustrationAsset;
+  if (!illustration?.asset || !illustration.overlayId || !illustration.sha256 || !illustration.width || !illustration.height) throw new Error(`Pilot view ${view.id} lacks project illustration/overlay metadata.`);
+  if (!illustration.asset.startsWith('/neuro-atlas/illustrations/')) throw new Error(`Pilot view ${view.id} cannot use a legacy or external base illustration.`);
+  const illustrationPath = path.join(publicRoot, illustration.asset);
+  if (!fs.existsSync(illustrationPath)) throw new Error(`Pilot view ${view.id} is missing project illustration ${illustration.asset}.`);
+  if (stableHash(illustrationPath) !== illustration.sha256) throw new Error(`Pilot view ${view.id} illustration checksum changed; refresh the anatomy review record.`);
+  if (!illustration.referenceSourceIds?.length || illustration.referenceSourceIds.length < 2) throw new Error(`Pilot view ${view.id} needs two anatomy references.`);
+  for (const sourceId of illustration.referenceSourceIds) if (!sourceIds.has(sourceId)) throw new Error(`Pilot view ${view.id} references unknown anatomy source ${sourceId}.`);
+}
+
 const viewIds = new Set(atlas.views.map((view) => view.id));
 const structureIds = new Set(atlas.structures.map((structure) => structure.id));
 const examNodeIds = new Set(atlas.examNodes.map((node) => node.id));

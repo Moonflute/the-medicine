@@ -10,6 +10,7 @@ const sourcePath = path.join(root, "source_notes", "02 Diseases", "16 신경과-
 const publicRoot = path.join(root, "apps", "medicine-web", "public");
 const hubPath = path.join(root, "apps", "medicine-web", "src", "components", "nervous-system-hub.tsx");
 const nativeAtlasPath = path.join(root, "apps", "medicine-web", "src", "components", "native-neuro-atlas.tsx");
+const imageAtlasPath = path.join(root, "apps", "medicine-web", "src", "components", "image-neuro-atlas.tsx");
 const diseaseDataPath = path.join(root, "_webapp", "data", "diseases.json");
 const specialtyPagePath = path.join(root, "apps", "medicine-web", "src", "app", "specialty", "[slug]", "page.tsx");
 const drugCategoryPagePath = path.join(root, "apps", "medicine-web", "src", "app", "drugs", "category", "[slug]", "page.tsx");
@@ -83,30 +84,28 @@ test("theory topics resolve to a view and a map target", () => {
 });
 
 
-test("published neuro atlas uses project SVG paths rather than legacy reference images", () => {
+test("pilot atlas uses a project illustration image with a separate aligned SVG overlay", () => {
   const hub = fs.readFileSync(hubPath, "utf8");
   const nativeAtlas = fs.readFileSync(nativeAtlasPath, "utf8");
-  const knownStructureIds = new Set([...atlas.structures.map((item) => item.id), "central-canal", "dorsal-horn", "ventral-horn"]);
-  const renderedIds = [...nativeAtlas.matchAll(/<InteractivePath id="([^"]+)"/g)].map((match) => match[1]);
-  const unknown = [...new Set(renderedIds)].filter((id) => !knownStructureIds.has(id));
-  assert.deepEqual(unknown, [], "a rendered project SVG structure has no atlas record");
-  assert.ok(renderedIds.length >= 20, "native pilot SVGs need meaningful structure coverage");
-  assert.match(hub, /NativeNeuroAtlas/, "Hub must render the project SVG atlas");
-  assert.equal(/<image\s+href=/.test(hub), false, "Hub must not render a legacy external base image");
-  assert.equal(/baseAsset/.test(hub), false, "Hub must not depend on legacy base assets");
-  assert.equal(/<image\s+href=/.test(nativeAtlas), false, "native atlas must not embed external reference images");
+  const imageAtlas = fs.readFileSync(imageAtlasPath, "utf8");
+  assert.match(nativeAtlas, /ImageNeuroAtlas/, "native atlas must route pilot views to image overlay renderer");
+  assert.match(imageAtlas, /<image href={map.asset}/, "pilot renderer must show a separate project image layer");
+  assert.match(imageAtlas, /function OverlayRegion/, "pilot renderer needs an independent interactive SVG overlay");
+  assert.match(imageAtlas, /data-structure-id/, "overlay targets must expose canonical structure IDs");
+  assert.match(imageAtlas, /illustrations\//, "pilot renderer must use project-owned illustration assets");
+  assert.doesNotMatch(imageAtlas, /reference\//, "pilot renderer must not render legacy reference assets");
+  assert.equal(/<image\s+href=/.test(hub), false, "Hub must not render a legacy external base image directly");
 });
 
 
-
-test("all published Hub selector views resolve to a native project SVG renderer", () => {
+test("only the three registered image-overlay pilot views are selectable", () => {
   const hub = fs.readFileSync(hubPath, "utf8");
-  const nativeAtlas = fs.readFileSync(nativeAtlasPath, "utf8");
+  const imageAtlas = fs.readFileSync(imageAtlasPath, "utf8");
   const publishedIds = [...hub.matchAll(/id: "([^"]+)"[^\n]*published: true/g)].map((match) => match[1]);
-  const nativeIds = new Set([...nativeAtlas.matchAll(/"([a-z0-9-]+)"/g)].map((match) => match[1]));
-  assert.ok(publishedIds.length >= 18, "full Atlas view catalog is unexpectedly incomplete");
-  assert.deepEqual(publishedIds.filter((id) => !nativeIds.has(id)), [], "a published selector view has no native SVG renderer");
+  assert.deepEqual(publishedIds.sort(), ["brain-midsagittal", "spinal-cross-section", "whole-neuraxis"], "only reviewed pilot views may be selectable");
+  for (const id of publishedIds) assert.match(imageAtlas, new RegExp('"' + id + '"'), id + " lacks an image-overlay map");
 });
+
 test("theory library has reference-document sections across structures, pathways and examination", () => {
   for (const category of ["Structure", "Pathway", "Reflexes & NEx"]) assert.ok(atlas.theoryTopics.some((topic) => topic.category === category), "missing theory category " + category);
   for (const topic of atlas.theoryTopics) {

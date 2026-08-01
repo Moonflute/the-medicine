@@ -18,25 +18,25 @@ type ViewItem = {
 
 const VIEWS: ViewItem[] = [
   { id: "whole-neuraxis", hierarchy: ["CNS", "Overview"], label: "Whole neuraxis", description: "Central and peripheral nervous systems through the motor unit.", published: true },
-  { id: "cerebrum-lateral", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Lateral view", description: "Cerebral hemisphere lateral surface.", published: true },
-  { id: "cerebrum-medial", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Medial view", description: "Medial cerebral hemisphere surface and limbic landmarks.", published: true },
+  { id: "cerebrum-lateral", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Lateral view", description: "Cerebral hemisphere lateral surface.", published: false },
+  { id: "cerebrum-medial", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Medial view", description: "Medial cerebral hemisphere surface and limbic landmarks.", published: false },
   { id: "brain-midsagittal", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Midsagittal view", description: "Medial cerebrum, diencephalon, brainstem and cerebellum.", published: true },
-  { id: "cerebrum-inferior", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Inferior view", description: "Basal surface and cranial nerve origins.", published: true },
-  { id: "brain-coronal", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Coronal section", description: "Cerebral hemispheres and deep structures.", published: true },
-  { id: "brain-axial", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Axial section", description: "Deep nuclei, internal capsule and ventricles.", published: true },
-  { id: "brainstem-external", hierarchy: ["CNS", "Brain", "Brainstem"], label: "External view", description: "Midbrain, pons and medulla.", published: true },
-  { id: "brainstem-section", hierarchy: ["CNS", "Brain", "Brainstem"], label: "Sectional views", description: "Midbrain, pons and medulla sections.", published: true },
-  { id: "cerebellum", hierarchy: ["CNS", "Brain"], label: "Cerebellum", description: "Cerebellar cortex, vermis and peduncles.", published: true },
-  { id: "spinal-levels", hierarchy: ["CNS", "Spinal cord"], label: "Spinal levels", description: "Cervical, thoracic, lumbar and sacral levels.", published: true },
+  { id: "cerebrum-inferior", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Inferior view", description: "Basal surface and cranial nerve origins.", published: false },
+  { id: "brain-coronal", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Coronal section", description: "Cerebral hemispheres and deep structures.", published: false },
+  { id: "brain-axial", hierarchy: ["CNS", "Brain", "Cerebrum"], label: "Axial section", description: "Deep nuclei, internal capsule and ventricles.", published: false },
+  { id: "brainstem-external", hierarchy: ["CNS", "Brain", "Brainstem"], label: "External view", description: "Midbrain, pons and medulla.", published: false },
+  { id: "brainstem-section", hierarchy: ["CNS", "Brain", "Brainstem"], label: "Sectional views", description: "Midbrain, pons and medulla sections.", published: false },
+  { id: "cerebellum", hierarchy: ["CNS", "Brain"], label: "Cerebellum", description: "Cerebellar cortex, vermis and peduncles.", published: false },
+  { id: "spinal-levels", hierarchy: ["CNS", "Spinal cord"], label: "Spinal levels", description: "Cervical, thoracic, lumbar and sacral levels.", published: false },
   { id: "spinal-cross-section", hierarchy: ["CNS", "Spinal cord"], label: "Cross-sectional view", description: "Gray matter, white matter and major tracts.", published: true },
-  { id: "brachial-plexus", hierarchy: ["PNS", "Plexus"], label: "Brachial plexus", description: "Roots, trunks, divisions, cords and terminal nerves.", published: true },
-  { id: "lumbosacral-plexus", hierarchy: ["PNS", "Plexus"], label: "Lumbosacral plexus", description: "Lumbar and sacral plexus branches.", published: true },
-  { id: "sacral-plexus", hierarchy: ["PNS", "Plexus"], label: "Sacral plexus", description: "Sacral roots and major terminal branches.", published: true },
-  { id: "upper-limb-nerves", hierarchy: ["PNS", "Peripheral nerves"], label: "Upper limb nerves", description: "Major upper limb peripheral nerves.", published: true },
-  { id: "lower-limb-nerves", hierarchy: ["PNS", "Peripheral nerves"], label: "Lower limb nerves", description: "Major lower limb peripheral nerves.", published: true },
-  { id: "dermatome-anterior", hierarchy: ["Somatic maps", "Dermatome"], label: "Anterior view", description: "Dermatomal distribution and key landmarks.", published: true },
-  { id: "dermatome-posterior", hierarchy: ["Somatic maps", "Dermatome"], label: "Posterior view", description: "Posterior dermatomal distribution and key landmarks.", published: true },
-  { id: "nmj-muscle", hierarchy: ["Motor unit"], label: "Neuromuscular junction", description: "Motor axon, synapse and skeletal muscle.", published: true },
+  { id: "brachial-plexus", hierarchy: ["PNS", "Plexus"], label: "Brachial plexus", description: "Roots, trunks, divisions, cords and terminal nerves.", published: false },
+  { id: "lumbosacral-plexus", hierarchy: ["PNS", "Plexus"], label: "Lumbosacral plexus", description: "Lumbar and sacral plexus branches.", published: false },
+  { id: "sacral-plexus", hierarchy: ["PNS", "Plexus"], label: "Sacral plexus", description: "Sacral roots and major terminal branches.", published: false },
+  { id: "upper-limb-nerves", hierarchy: ["PNS", "Peripheral nerves"], label: "Upper limb nerves", description: "Major upper limb peripheral nerves.", published: false },
+  { id: "lower-limb-nerves", hierarchy: ["PNS", "Peripheral nerves"], label: "Lower limb nerves", description: "Major lower limb peripheral nerves.", published: false },
+  { id: "dermatome-anterior", hierarchy: ["Somatic maps", "Dermatome"], label: "Anterior view", description: "Dermatomal distribution and key landmarks.", published: false },
+  { id: "dermatome-posterior", hierarchy: ["Somatic maps", "Dermatome"], label: "Posterior view", description: "Posterior dermatomal distribution and key landmarks.", published: false },
+  { id: "nmj-muscle", hierarchy: ["Motor unit"], label: "Neuromuscular junction", description: "Motor axon, synapse and skeletal muscle.", published: false },
 ];
 
 const LAYERS: Array<{ id: NeuroAtlasLayer; label: string }> = [
@@ -102,7 +102,7 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
   const [viewId, setViewId] = useState("whole-neuraxis");
   const [layer, setLayer] = useState<NeuroAtlasLayer>("anatomy");
   const [pathwayId, setPathwayId] = useState("");
-  const [selectedId, setSelectedId] = useState("frontal-lobe");
+  const [selectedId, setSelectedId] = useState("");
   const [hoveredId, setHoveredId] = useState<string>();
   const [zoom, setZoom] = useState(1);
   const [pan, setPan] = useState({ x: 0, y: 0 });
@@ -219,16 +219,16 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
 
     {tab === "structure" ? <section className="space-y-4">
       <section className="grid gap-3 rounded-2xl border border-slate-200 bg-white p-3 shadow-sm md:grid-cols-[minmax(0,1.4fr)_minmax(180px,.8fr)_minmax(180px,.8fr)_auto] md:items-end">
-        <label className="grid min-w-0 gap-1.5 text-xs font-bold uppercase tracking-[.13em] text-slate-500">View<select value={viewId} onChange={(event) => chooseView(event.target.value)} className="min-w-0 rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm font-semibold normal-case tracking-normal text-slate-800 outline-none focus:border-teal-600">{Object.entries(VIEWS.reduce<Record<string, ViewItem[]>>((groups, item) => { const key = item.hierarchy.join(" › "); (groups[key] ??= []).push(item); return groups; }, {})).map(([group, items]) => <optgroup key={group} label={group}>{items.map((item) => <option key={item.id} value={item.id} disabled={!item.published}>{item.label + (!item.published ? " — redrawing" : "")}</option>)}</optgroup>)}</select></label>
-        <label className="grid min-w-0 gap-1.5 text-xs font-bold uppercase tracking-[.13em] text-slate-500">Layer<select value={layer} onChange={(event) => { setLayer(event.target.value as NeuroAtlasLayer); setPathwayId(""); }} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm font-semibold normal-case tracking-normal text-slate-800 outline-none focus:border-teal-600">{LAYERS.map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label>
-        <label className="grid min-w-0 gap-1.5 text-xs font-bold uppercase tracking-[.13em] text-slate-500">Pathway<select value={pathwayId} onChange={(event) => choosePathway(event.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm font-semibold normal-case tracking-normal text-slate-800 outline-none focus:border-teal-600"><option value="">No pathway selected</option>{pathwayOptions.map((item) => <option key={item.id} value={item.id}>{item.en}</option>)}</select></label>
+        <label className="grid min-w-0 gap-1.5 text-xs font-bold uppercase tracking-[.13em] text-slate-500">View<select value={viewId} onChange={(event) => chooseView(event.target.value)} className="block w-full min-w-0 max-w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm font-semibold normal-case tracking-normal text-slate-800 outline-none focus:border-teal-600">{Object.entries(VIEWS.reduce<Record<string, ViewItem[]>>((groups, item) => { const key = item.hierarchy.join(" › "); (groups[key] ??= []).push(item); return groups; }, {})).map(([group, items]) => <optgroup key={group} label={group}>{items.map((item) => <option key={item.id} value={item.id} disabled={!item.published}>{item.label + (!item.published ? " — redrawing" : "")}</option>)}</optgroup>)}</select></label>
+        <label className="grid min-w-0 gap-1.5 text-xs font-bold uppercase tracking-[.13em] text-slate-500">Layer<select value={layer} onChange={(event) => { setLayer(event.target.value as NeuroAtlasLayer); setPathwayId(""); }} className="block w-full min-w-0 max-w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm font-semibold normal-case tracking-normal text-slate-800 outline-none focus:border-teal-600">{LAYERS.map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label>
+        <label className="grid min-w-0 gap-1.5 text-xs font-bold uppercase tracking-[.13em] text-slate-500">Pathway<select value={pathwayId} onChange={(event) => choosePathway(event.target.value)} className="block w-full min-w-0 max-w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm font-semibold normal-case tracking-normal text-slate-800 outline-none focus:border-teal-600"><option value="">No pathway selected</option>{pathwayOptions.map((item) => <option key={item.id} value={item.id}>{item.en}</option>)}</select></label>
         <button type="button" onClick={() => setFullScreen(true)} className="inline-flex h-[42px] items-center justify-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 text-sm font-bold text-slate-700 hover:border-teal-500"><Expand className="h-4 w-4" />Atlas</button>
       </section>
 
       <div className={"grid gap-4 " + (desktopInfoOpen ? "xl:grid-cols-[minmax(0,1fr)_330px]" : "xl:grid-cols-1")}>
         <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 px-4 py-3 sm:px-5">
-            <div className="min-w-0"><Breadcrumb view={view} /><h1 className="mt-1 text-xl font-bold text-slate-950 sm:text-2xl">{view.label}</h1><p className="mt-1 text-sm text-slate-600">{view.description}</p>{viewMeta?.createdAs === "project-original-svg" ? <p className="mt-2 text-xs font-medium text-slate-500">Project-original educational SVG · source-mapped anatomy reference</p> : null}</div>
+            <div className="min-w-0"><Breadcrumb view={view} /><h1 className="mt-1 text-xl font-bold text-slate-950 sm:text-2xl">{view.label}</h1><p className="mt-1 text-sm text-slate-600">{view.description}</p>{viewMeta?.createdAs === "project-original-svg" ? <p className="mt-2 text-xs font-medium text-slate-500">Project illustration + aligned interactive overlay · pilot anatomy review</p> : null}</div>
             <div className="flex items-center gap-1"><button type="button" onClick={() => setDesktopInfoOpen((value) => !value)} className="hidden rounded-lg border border-slate-200 px-2 py-2 text-xs font-bold text-slate-700 hover:border-teal-500 xl:inline-flex">{desktopInfoOpen ? "Hide info" : "Show info"}</button><button type="button" aria-label="Zoom out" onClick={() => setZoom((value) => Math.max(.75, value - .15))} className="rounded-lg border border-slate-200 p-2 hover:border-teal-500"><ZoomOut className="h-4 w-4" /></button><button type="button" aria-label="Zoom in" onClick={() => setZoom((value) => Math.min(2.4, value + .15))} className="rounded-lg border border-slate-200 p-2 hover:border-teal-500"><ZoomIn className="h-4 w-4" /></button><button type="button" aria-label="Reset view" onClick={reset} className="rounded-lg border border-slate-200 p-2 hover:border-teal-500"><RotateCcw className="h-4 w-4" /></button></div>
           </div>
           <div className="relative min-h-[460px] overflow-hidden bg-slate-50 sm:min-h-[600px]" onWheel={(event) => { event.preventDefault(); setZoom((value) => Math.max(.75, Math.min(2.4, value + (event.deltaY < 0 ? .1 : -.1)))); }} onPointerDown={onAtlasPointerDown} onPointerMove={onAtlasPointerMove} onPointerUp={onAtlasPointerEnd} onPointerCancel={onAtlasPointerEnd}>
