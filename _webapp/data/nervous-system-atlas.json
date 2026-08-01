@@ -5308,7 +5308,7 @@
     {
       "id": "exam-reflex",
       "title": "반사 진찰",
-      "category": "Examination",
+      "category": "Reflexes & NEx",
       "summary": "반사는 자극–구심성–중추–원심성–효과기 순서로 기록하고, 양측 차이와 전체 진찰 맥락을 함께 봅니다.",
       "keyPoints": [
         "반사 등급은 검사 조건·이완·약물·전신상태의 영향을 받습니다.",
@@ -5333,7 +5333,7 @@
     {
       "id": "exam-sensory",
       "title": "감각 진찰",
-      "category": "Examination",
+      "category": "Reflexes & NEx",
       "summary": "통각·온각, 진동·위치감각은 서로 다른 경로를 통해 전달되므로 분포와 해리 여부를 함께 확인합니다.",
       "keyPoints": [
         "안전한 자극과 눈을 감은 비교 검사가 중요합니다.",
@@ -5359,7 +5359,7 @@
     {
       "id": "exam-cranial",
       "title": "뇌신경 진찰",
-      "category": "Examination",
+      "category": "Reflexes & NEx",
       "summary": "동공, 안구운동, 얼굴감각·운동, 연하·발성 등은 뇌간과 말초뇌신경을 연결해 봅니다.",
       "keyPoints": [
         "동공·연하·기도보호 이상은 임상적 긴급도를 함께 판단합니다.",
@@ -5438,7 +5438,7 @@
     {
       "id": "reflex-arc-localization",
       "title": "Reflex arc: afferent, central, efferent and effector",
-      "category": "Examination",
+      "category": "Reflexes & NEx",
       "summary": "Document a reflex as a circuit: stimulus or receptor, afferent nerve, segmental central connection, efferent motor pathway and response. Side-to-side comparison and examination conditions matter.",
       "keyPoints": [
         "The NEx panel maps these route components visually; it is not a diagnostic quiz.",

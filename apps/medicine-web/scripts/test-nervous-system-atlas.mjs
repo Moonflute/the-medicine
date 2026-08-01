@@ -104,7 +104,7 @@ test("all published Hub selector views resolve to a native project SVG renderer"
   assert.deepEqual(publishedIds.filter((id) => !nativeIds.has(id)), [], "a published selector view has no native SVG renderer");
 });
 test("theory library has reference-document sections across structures, pathways and examination", () => {
-  for (const category of ["Structure", "Pathway", "Examination"]) assert.ok(atlas.theoryTopics.some((topic) => topic.category === category), "missing theory category " + category);
+  for (const category of ["Structure", "Pathway", "Reflexes & NEx"]) assert.ok(atlas.theoryTopics.some((topic) => topic.category === category), "missing theory category " + category);
   for (const topic of atlas.theoryTopics) {
     assert.ok(topic.sections?.length >= 2, topic.id + " needs substantive document sections");
     assert.ok(topic.sections.every((section) => section.heading && section.body), topic.id + " has incomplete document content");
