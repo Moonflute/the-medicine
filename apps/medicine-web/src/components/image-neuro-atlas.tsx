@@ -504,28 +504,78 @@ export function imageAtlasViewForPathway(pathwayId: string, preferredViewId?: st
 }
 
 
-function OverlayRegion({ region, selectedId, hoveredId, pathwayId, onSelect, onHover }: { region: Region; selectedId?: string; hoveredId?: string; pathwayId?: string; onSelect: (id: string) => void; onHover: (id?: string) => void }) {
-  const active = region.id === selectedId || region.id === hoveredId || Boolean(pathwayId && pathwayStructures[pathwayId]?.includes(region.id));
-  const common = { tabIndex: 0, role: "button" as const, "aria-label": region.label, "data-structure-id": region.id, onMouseEnter: () => onHover(region.id), onMouseLeave: () => onHover(), onFocus: () => onHover(region.id), onBlur: () => onHover(), onClick: () => onSelect(region.id), onKeyDown: (event: KeyboardEvent<SVGPathElement>) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); onSelect(region.id); } } };
-  if (region.kind === "line") return <path {...common} d={region.d} fill="none" stroke={active ? "#08776e" : "transparent"} strokeWidth={active ? 18 : 28} strokeLinecap="round" strokeLinejoin="round" opacity={active ? .82 : 1} className="cursor-pointer outline-none motion-reduce:transition-none" />;
-  return <path {...common} d={region.d} fill={active ? "#16a394" : "transparent"} fillOpacity={active ? .34 : 0} stroke={active ? "#08776e" : "transparent"} strokeWidth={active ? 5 : 16} strokeLinejoin="round" className="cursor-pointer outline-none motion-reduce:transition-none" />;
+type Callout = Region & { anchor: [number, number]; elbow: [number, number]; labelPosition: [number, number]; width: number };
+
+function parseViewBox(viewBox: string): [number, number] {
+  const values = viewBox.trim().split(/\s+/).map(Number);
+  return [values[2] ?? 1440, values[3] ?? 1080];
+}
+
+// The legacy SVG paths remain as build-time structural metadata only.  The public
+// atlas deliberately does not render them as a contour or fill: a source image
+// cannot support a pixel-exact anatomical boundary from an approximate overlay.
+function representativePoint(path: string, width: number, height: number): [number, number] {
+  const values = (path.match(/-?\d+(?:\.\d+)?/g) ?? []).map(Number);
+  const xs = values.filter((_, index) => index % 2 === 0);
+  const ys = values.filter((_, index) => index % 2 === 1);
+  if (!xs.length || !ys.length) return [width / 2, height / 2];
+  const minX = Math.min(...xs); const maxX = Math.max(...xs);
+  const minY = Math.min(...ys); const maxY = Math.max(...ys);
+  return [Math.max(24, Math.min(width - 24, (minX + maxX) / 2)), Math.max(24, Math.min(height - 24, (minY + maxY) / 2))];
+}
+
+function calloutsFor(map: { viewBox: string; regions: Region[] }): Callout[] {
+  const [width, height] = parseViewBox(map.viewBox);
+  const countPerSide = Math.ceil(map.regions.length / 2);
+  const labelWidth = Math.min(238, Math.max(184, width * .18));
+  const labelHeight = 48;
+  const firstY = Math.max(26, height * .05);
+  const lastY = Math.max(firstY, height - labelHeight - Math.max(26, height * .05));
+  return map.regions.map((region, index) => {
+    const left = index % 2 === 0;
+    const row = Math.floor(index / 2);
+    const y = countPerSide <= 1 ? height / 2 - labelHeight / 2 : firstY + ((lastY - firstY) * row / (countPerSide - 1));
+    const anchor = representativePoint(region.d, width, height);
+    const labelX = left ? 18 : width - labelWidth - 18;
+    const edgeX = left ? labelX + labelWidth : labelX;
+    const elbowX = left ? Math.max(edgeX + 38, anchor[0] - Math.max(70, width * .08)) : Math.min(edgeX - 38, anchor[0] + Math.max(70, width * .08));
+    return { ...region, anchor, elbow: [elbowX, y + labelHeight / 2], labelPosition: [labelX, y], width: labelWidth };
+  });
+}
+
+function StructureCallout({ item, active, onSelect, onHover }: { item: Callout; active: boolean; onSelect: (id: string) => void; onHover: (id?: string) => void }) {
+  const [anchorX, anchorY] = item.anchor;
+  const [elbowX, elbowY] = item.elbow;
+  const [labelX, labelY] = item.labelPosition;
+  const labelToRight = labelX > anchorX;
+  const edgeX = labelToRight ? labelX : labelX + item.width;
+  const lineColor = active ? "#08776e" : "#64748b";
+  const onKeyDown = (event: KeyboardEvent<SVGGElement>) => {
+    if (event.key === "Enter" || event.key === " ") { event.preventDefault(); onSelect(item.id); }
+  };
+  return <g tabIndex={0} role="button" aria-label={item.label} data-structure-id={item.id} onMouseEnter={() => onHover(item.id)} onMouseLeave={() => onHover()} onFocus={() => onHover(item.id)} onBlur={() => onHover()} onClick={() => onSelect(item.id)} onKeyDown={onKeyDown} className="cursor-pointer outline-none">
+    <path d={`M${anchorX} ${anchorY} L${elbowX} ${elbowY} L${edgeX} ${labelY + 24}`} fill="none" stroke={lineColor} strokeWidth={active ? 5 : 2.5} strokeLinecap="round" strokeLinejoin="round" />
+    <circle cx={anchorX} cy={anchorY} r={active ? 10 : 7} fill={active ? "#0d9488" : "#fff"} stroke="#08776e" strokeWidth="3" />
+    <rect x={labelX} y={labelY} width={item.width} height="48" rx="11" fill="white" fillOpacity=".97" stroke={active ? "#08776e" : "#b5e8e1"} strokeWidth={active ? 3 : 1.5} />
+    <text x={labelX + 12} y={labelY + 30} fill="#0f172a" fontSize="15" fontWeight="700" fontFamily="system-ui, sans-serif">{item.label}</text>
+  </g>;
+}
+
+function CalloutAtlas(props: PilotProps, map: { asset: string; viewBox: string; regions: Region[] }) {
+  const callouts = calloutsFor(map);
+  const pathway = props.pathwayId ? pathwayStructures[props.pathwayId] ?? [] : [];
+  return <div className="relative h-full w-full select-none" role="img" aria-label={props.viewId + " 상호작용 해부 지도"}>
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img src={`${neuroAssetBasePath}${map.asset}`} alt="" draggable={false} className="pointer-events-none absolute inset-0 h-full w-full object-contain" />
+    <svg viewBox={map.viewBox} preserveAspectRatio="xMidYMid meet" className="absolute inset-0 h-full w-full">
+      {callouts.map((item) => <StructureCallout key={item.id} item={item} active={props.selectedId === item.id || props.hoveredId === item.id || pathway.includes(item.id)} onSelect={props.onSelect} onHover={props.onHover} />)}
+    </svg>
+  </div>;
 }
 
 export function ImageNeuroAtlas(props: PilotProps) {
   if (props.viewId === "brain-midsagittal") return <MidsagittalMaskAtlas {...props} />;
-  const map = maps[props.viewId];
-  const route = props.pathwayId ? pathwayRoutes[props.viewId]?.[props.pathwayId] : undefined;
-  const color = route && props.layer !== "anatomy" ? routeColor[props.layer] ?? "#0f8d83" : undefined;
-  return <div className="relative h-full w-full select-none" role="img" aria-label={props.viewId + " 상호작용 해부 지도"}>
-    {/* Exact coordinate-matched base illustration; a wrapper would break the SVG overlay alignment. */}
-    {/* eslint-disable-next-line @next/next/no-img-element */}
-<img src={`${neuroAssetBasePath}${map.asset}`} alt="" draggable={false} className="pointer-events-none absolute inset-0 h-full w-full object-contain" />
-    <svg viewBox={map.viewBox} preserveAspectRatio="xMidYMid meet" className="absolute inset-0 h-full w-full">
-      <g>{map.regions.map((region) => <OverlayRegion key={region.id} region={region} selectedId={props.selectedId} hoveredId={props.hoveredId} pathwayId={props.pathwayId} onSelect={props.onSelect} onHover={props.onHover} />)}</g>
-      {color ? <path d={route} fill="none" stroke="#fff" strokeWidth="17" strokeLinecap="round" strokeLinejoin="round" opacity=".92" pointerEvents="none" /> : null}
-      {color ? <path d={route} fill="none" stroke={color} strokeWidth="8" strokeLinecap="round" strokeLinejoin="round" pointerEvents="none" /> : null}
-    </svg>
-  </div>;
+  return CalloutAtlas(props, maps[props.viewId]);
 }
 
 export const imageAtlasViewIds = new Set(Object.keys(maps));

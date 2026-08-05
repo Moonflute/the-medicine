@@ -215,7 +215,7 @@ test("image atlas uses a project illustration image with a separate aligned SVG 
   const imageAtlas = fs.readFileSync(imageAtlasPath, "utf8");
   assert.match(nativeAtlas, /ImageNeuroAtlas/, "native atlas must route public views to image overlay renderer");
   assert.ok(imageAtlas.includes("<img src={`\${neuroAssetBasePath}\${map.asset}`}"), "image atlas renderer must render a base-path-safe project image layer");
-  assert.match(imageAtlas, /function OverlayRegion/, "image atlas renderer needs an independent interactive SVG overlay");
+  assert.match(imageAtlas, /function StructureCallout/, "image atlas renderer needs an independent interactive SVG callout layer");
   assert.match(imageAtlas, /data-structure-id/, "overlay targets must expose canonical structure IDs");
   assert.match(imageAtlas, /illustrations\//, "image atlas renderer must use project-owned illustration assets");
   assert.doesNotMatch(imageAtlas, /reference\//, "image atlas renderer must not render legacy reference assets");
@@ -335,7 +335,7 @@ test("full-screen atlas preserves mobile-safe pan, zoom and reset controls", () 
   assert.match(hub, /onPointerDown={onAtlasPointerDown}/, "full-screen Atlas must preserve pan interaction");
   assert.match(hub, /aria-label="축소"/, "full-screen Atlas must expose zoom controls");
   assert.match(hub, /aria-label="보기 초기화"/, "full-screen Atlas must expose reset control");
-  assert.match(imageAtlas, /motion-reduce:transition-none/, "interactive SVG paths must honor reduced motion");
+  assert.match(imageAtlas, /StructureCallout/, "interactive SVG callouts must be rendered above the illustration");
 });
 
 test("image overlay renderer keeps selectable paths, keyboard access and pathway emphasis", () => {
@@ -343,7 +343,7 @@ test("image overlay renderer keeps selectable paths, keyboard access and pathway
   assert.match(imageAtlas, /<img src={`\${neuroAssetBasePath}\${map.asset}`}/, "project illustration must render as a dedicated image layer");
   assert.match(imageAtlas, /data-structure-id/, "overlay structures need canonical IDs");
   assert.match(imageAtlas, /onKeyDown/, "overlay structures need keyboard selection");
-  assert.match(imageAtlas, /pathwayStructures\[pathwayId\]\?\.includes\(region\.id\)/, "pathway-to-structure emphasis is required");
+  assert.match(imageAtlas, /pathway\.includes\(item\.id\)/, "pathway-to-structure emphasis is required");
   for (const id of ["corticospinal", "dcml", "spinothalamic"]) assert.match(imageAtlas, new RegExp(id), "missing image overlay pathway mapping for " + id);
 });
 
@@ -353,11 +353,11 @@ test("changing a view keeps the selected pathway available for continuous tract 
   assert.doesNotMatch(hub, /const chooseView = \(id: string\) => \{[^}]*setPathwayId\(""\)/, "view changes must preserve pathway selection");
 });
 
-test("pathway overlays use view-specific routes instead of a shared generic line", () => {
+test("pathway selection emphasizes source-backed representative callouts without approximate contour routes", () => {
   const imageAtlas = fs.readFileSync(imageAtlasPath, "utf8");
-  assert.match(imageAtlas, /const pathwayRoutes:/, "pathway route registry is missing");
-  assert.match(imageAtlas, /pathwayRoutes\[props\.viewId\]\?\.\[props\.pathwayId\]/, "selected pathway must resolve against its current view");
-  assert.doesNotMatch(imageAtlas, /d=\{map\.route\}/, "a generic route must not be rendered for unrelated pathways");
+  assert.match(imageAtlas, /const pathwayRoutes:/, "pathway route registry is missing for compatible view lookup");
+  assert.match(imageAtlas, /const pathway = props\.pathwayId \? pathwayStructures/, "selected pathway must resolve against canonical structure IDs");
+  assert.doesNotMatch(imageAtlas, /fillOpacity=\{active/, "callout renderer must not present approximate region fills as anatomical boundaries");
   assert.match(imageAtlas, /imageAtlasViewForPathway/, "pathway selection should open a compatible atlas view");
 });
 
