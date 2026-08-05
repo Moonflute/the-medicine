@@ -2,6 +2,7 @@ import type { NeuroAtlas } from "@/lib/webdb";
 import { relatedStructures } from "@/lib/neuro-notes";
 import { genericStructureClinicalSection } from "@/lib/neuro-clinical-profiles";
 import { structureClinicalOverrides as individualStructureClinicalOverrides } from "@/lib/neuro-structure-clinical-overrides";
+import { cleanStructureClinicalOverrides } from "@/lib/neuro-structure-clinical-clean-overrides";
 
 export type NeuroNoteSection = {
   heading: string;
@@ -51,7 +52,7 @@ export function structureNoteSections(atlas: NeuroAtlas, structure: NeuroAtlas["
   const pathways = atlas.pathways.filter((pathway) => pathway.nodes?.includes(structure.id));
   const reflexes = atlas.reflexes.filter((reflex) => reflex.route?.includes(structure.id));
   const related = relatedStructures(atlas, structure.id);
-  const clinical = structureClinicalOverrides[structure.id] ?? individualStructureClinicalOverrides[structure.id] ?? genericStructureClinicalSection(structure, pathways, reflexes) ?? {
+  const clinical = structureClinicalOverrides[structure.id] ?? cleanStructureClinicalOverrides[structure.id] ?? individualStructureClinicalOverrides[structure.id] ?? genericStructureClinicalSection(structure, pathways, reflexes) ?? {
     heading: "임상적 의의 및 병변 시 증상",
     items: [
       { label: "평가", text: `${structure.en}의 이상은 인접 구조, 관련 pathway 및 neurological examination을 함께 해석해 위치를 추정합니다.` },
