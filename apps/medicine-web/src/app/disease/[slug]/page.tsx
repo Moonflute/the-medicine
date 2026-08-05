@@ -6,7 +6,7 @@ import { DiseaseInfectionPanel } from "@/components/disease-infection-panel";
 import { MicrobiologyBacklinks } from "@/components/microbiology-backlinks";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
-import { getAllDiseases, getAntibioticSpectrum, getChiefComplaintLinksForTerms, getClinicalRelationsFor, getDiseaseBySlug, getDiseaseLinks, getSpecialties, getSpecialtyToc, isSpecialtyIndexDisease } from "@/lib/webdb";
+import { getAllDiseases, getAntibioticSpectrum, getChiefComplaintLinksForTerms, getClinicalRelationsFor, getDiseaseBySlug, getDiseaseLinks, getQbankCountForDisease, getSpecialties, getSpecialtyToc, isSpecialtyIndexDisease } from "@/lib/webdb";
 import { getInfectionPathwaysForDisease } from "@/lib/infection-db";
 function getDiseaseSequence(note: NonNullable<ReturnType<typeof getDiseaseBySlug>>) {
   const specialty = getSpecialties().find((item) => item.name === note.specialty);
@@ -48,6 +48,7 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
   const parentHref = `/specialty/${Buffer.from(note.specialty, "utf-8").toString("base64url")}`;
   const relations = getClinicalRelationsFor("disease", note.id);
   const infectionPathways = getInfectionPathwaysForDisease(note.slug);
+  const relatedQbankCount = getQbankCountForDisease(note.slug);
   const infectionSpecialty = getSpecialties().find((item) => item.name.replace(/^\d+\s*/, "").trim() === "감염");
   const diseaseSequence = getDiseaseSequence(note);
   const currentIndex = diseaseSequence.findIndex((item) => item.slug === note.slug);
@@ -64,7 +65,13 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
         Back to {note.specialty}
       </Link>
 
-      <DiseaseCard note={note} ccLinks={ccLinks} diseaseLinks={diseaseLinks} hideOverview={isSpecialtyIndexDisease(note)} />
+      <DiseaseCard
+        note={note}
+        ccLinks={ccLinks}
+        diseaseLinks={diseaseLinks}
+        hideOverview={isSpecialtyIndexDisease(note)}
+        relatedQbankHref={relatedQbankCount > 0 ? `/review/qbank/session?mode=disease&disease=${encodeURIComponent(note.slug)}&count=all` : undefined}
+      />
       {infectionSpecialty && infectionPathways.length > 0 ? <DiseaseInfectionPanel pathways={infectionPathways} spectrum={getAntibioticSpectrum()} specialtySlug={infectionSpecialty.slug} /> : null}
       <MicrobiologyBacklinks targetType="disease" targetId={note.slug} />
       <RelatedClinicalContent relations={relations} />

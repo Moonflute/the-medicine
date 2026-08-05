@@ -1,4 +1,4 @@
-﻿import fs from "node:fs";
+import fs from "node:fs";
 import path from "node:path";
 
 const APP_ROOT = process.env.INIT_CWD || process.cwd();
@@ -1421,6 +1421,7 @@ function buildQbank() {
     id: item.id,
     specialty: item.specialty,
     specialtySlug: item.specialtySlug,
+    relatedDiseaseSlugs: item.relatedDiseaseSlugs,
     questionType: item.questionType,
     difficulty: item.difficulty,
     translationStatus: item.translationStatus,

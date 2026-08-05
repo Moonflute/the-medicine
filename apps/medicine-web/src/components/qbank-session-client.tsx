@@ -35,12 +35,16 @@ async function fetchJson<T>(path: string): Promise<T> {
   return response.json() as Promise<T>;
 }
 
-async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, targetIds?: Set<string>): Promise<QbankQuestion[]> {
+async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>): Promise<QbankQuestion[]> {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   let slugs: string[];
   if (mode === "specialty" && specialty && specialty !== "all") {
     const selectedSlugs = specialty.split(",").filter((slug) => specialties.some((item) => item.slug === slug));
     slugs = selectedSlugs.length > 0 ? selectedSlugs : specialties.map((item) => item.slug);
+  } else if (mode === "disease") {
+    if (!disease) return [];
+    const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
+    slugs = [...new Set(index.filter((item) => item.relatedDiseaseSlugs?.includes(disease)).map((item) => item.specialtySlug))];
   } else if (mode === "wrong" || mode === "bookmarks") {
     const state = loadQbankState();
     const ids = targetIds ?? new Set(mode === "wrong" ? state.wrongIds : state.bookmarkIds);
@@ -113,7 +117,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const params = new URLSearchParams(window.location.search);
     const mode = params.get("mode") || "all";
     const specialty = params.get("specialty") || "all";
-    const requestedCountValue = params.get("count") || "10";
+    const disease = params.get("disease") || "";
+    const requestedCountValue = params.get("count") || (mode === "disease" ? "all" : "10");
     const storageKey = sessionStorageKey();
     const initialState = loadQbankState();
     const targetIds = mode === "wrong"
@@ -121,10 +126,11 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       : mode === "bookmarks"
         ? new Set(initialState.bookmarkIds)
         : undefined;
-    void loadQuestions(specialties, mode, specialty, targetIds)
+    void loadQuestions(specialties, mode, specialty, disease, targetIds)
       .then((loaded) => {
         const state = initialState;
         let filtered = loaded;
+        if (mode === "disease") filtered = loaded.filter((item) => item.relatedDiseaseSlugs.includes(disease));
         if (mode === "wrong" || mode === "bookmarks") filtered = loaded.filter((item) => targetIds?.has(item.id));
         if (mode === "unattempted") filtered = loaded.filter((item) => !state.progress[item.id]);
         const requestedCount = requestedCountValue === "all"
@@ -196,7 +202,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   useEffect(() => {
     if (!remoteActiveSession || remoteActiveSession.updatedAt === appliedRemoteSessionVersionRef.current) return;
     let cancelled = false;
-    void loadQuestions(specialties, "all", "all")
+    void loadQuestions(specialties, "all", "all", "")
       .then((loaded) => {
         const restoredQuestions = remoteActiveSession.questionIds.map((id) => loaded.find((item) => item.id === id)).filter((item): item is QbankQuestion => Boolean(item));
         if (cancelled || restoredQuestions.length !== remoteActiveSession.questionIds.length || restoredQuestions.length === 0) return;
