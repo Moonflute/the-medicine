@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
-import { NeuroNotePage } from "@/components/neuro-note-page";
-import { getAllDiseases, getDrugs, getNervousSystemAtlas } from "@/lib/webdb";
+import { NeuroNoteDetailPage } from "@/components/neuro-note-detail-page";
+import { getAllDiseases, getNervousSystemAtlas } from "@/lib/webdb";
 import { getNeuroNoteItem, isNeuroNoteKind, neuroNoteKinds } from "@/lib/neuro-notes";
 
 export function generateStaticParams() {
@@ -17,6 +17,5 @@ export default async function NervousSystemNotePage(props: { params: Promise<{ k
   const atlas = getNervousSystemAtlas();
   if (!getNeuroNoteItem(atlas, kind, id)) notFound();
   const diseaseHrefs = Object.fromEntries(getAllDiseases().map((disease) => [disease.title, `/disease/${disease.slug}`]));
-  const drugHrefs = Object.fromEntries(getDrugs().map((drug) => [drug.title, `/drugs/${drug.slug}`]));
-  return <NeuroNotePage atlas={atlas} kind={kind} id={id} diseaseHrefs={diseaseHrefs} drugHrefs={drugHrefs} />;
+  return <NeuroNoteDetailPage atlas={atlas} kind={kind} id={id} diseaseHrefs={diseaseHrefs} />;
 }
