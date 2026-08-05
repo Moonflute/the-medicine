@@ -16,24 +16,24 @@ const MAX_GRID_SIZE = 32;
 const VISUALS: Record<string, Visual> = {
   "01 \uc21c\ud658\uae30": { kind: "heart", color: "#dc3545", soft: "#ffe4e6" },
   "02 \ud638\ud761\uae30": { kind: "lungs", color: "#ef476f", soft: "#ffe4e6" },
-  "03 \uc18c\ud654\uae30": { kind: "digestive", color: "#f97316", soft: "#ffedd5" },
+  "03 \uc18c\ud654\uae30": { kind: "stomach", color: "#f97316", soft: "#ffedd5" },
   "04 \ub0b4\ubd84\ube44": { kind: "butterfly", color: "#d946ef", soft: "#fae8ff" },
   "05 \uc2e0\uc7a5": { kind: "kidneys", color: "#b45309", soft: "#fef3c7" },
   "06 \uc54c\ub808\ub974\uae30": { kind: "shield", color: "#14b8a6", soft: "#ccfbf1" },
   "07 \ub958\ub9c8\ud2f0\uc2a4": { kind: "bone", color: "#7c3aed", soft: "#ede9fe" },
   "08 \uac10\uc5fc": { kind: "cell", color: "#16a34a", soft: "#dcfce7" },
   "09 \ud608\uc561": { kind: "drop", color: "#be123c", soft: "#ffe4e6" },
-  "10 \uc885\uc591": { kind: "cell", color: "#9333ea", soft: "#f3e8ff" },
-  "11 \uc678\uacfc": { kind: "scalpel", color: "#475569", soft: "#e2e8f0" },
+  "10 \uc885\uc591": { kind: "crab", color: "#9333ea", soft: "#f3e8ff" },
+  "11 \uc678\uacfc": { kind: "knife", color: "#475569", soft: "#e2e8f0" },
   "12 \uc0b0\uacfc": { kind: "fetus", color: "#ec4899", soft: "#fce7f3" },
   "13 \ubd80\uc778\uacfc": { kind: "uterus", color: "#db2777", soft: "#fce7f3" },
-  "14 \uc18c\uc544\uccad\uc18c\ub144\uacfc": { kind: "child", color: "#0ea5e9", soft: "#e0f2fe" },
-  "15 \uc815\uc2e0\uac74\uac15\uc758\ud559\uacfc": { kind: "mind", color: "#8b5cf6", soft: "#ede9fe" },
-  "16 \uc2e0\uacbd\uacfc-\uc2e0\uacbd\uc678\uacfc": { kind: "brain", color: "#6366f1", soft: "#e0e7ff" },
+  "14 \uc18c\uc544\uccad\uc18c\ub144\uacfc": { kind: "baby", color: "#0ea5e9", soft: "#e0f2fe" },
+  "15 \uc815\uc2e0\uac74\uac15\uc758\ud559\uacfc": { kind: "thought", color: "#8b5cf6", soft: "#ede9fe" },
+  "16 \uc2e0\uacbd\uacfc-\uc2e0\uacbd\uc678\uacfc": { kind: "neuron", color: "#6366f1", soft: "#e0e7ff" },
   "17 \uc774\ube44\uc778\ud6c4\uacfc": { kind: "ear", color: "#f59e0b", soft: "#fef3c7" },
   "18 \uc548\uacfc": { kind: "eye", color: "#0284c7", soft: "#e0f2fe" },
   "19 \ud53c\ubd80\uacfc": { kind: "skin", color: "#ea580c", soft: "#ffedd5" },
-  "20 \ube44\ub1e8\uae30\uacfc": { kind: "bladder", color: "#0891b2", soft: "#cffafe" },
+  "20 \ube44\ub1e8\uae30\uacfc": { kind: "toilet", color: "#0891b2", soft: "#cffafe" },
   "21 \uc751\uae09\uc758\ud559": { kind: "cross", color: "#e11d48", soft: "#ffe4e6" },
   "22 \uc815\ud615\uc678\uacfc": { kind: "bone", color: "#64748b", soft: "#f1f5f9" },
 };
@@ -71,22 +71,23 @@ function inShape(kind: string, x: number, y: number, size: number) {
     return (hx * hx + hy * hy - 0.62) ** 3 - hx * hx * hy ** 3 <= 0;
   }
   if (kind === "lungs") return ellipse(nx, ny, -0.38, 0.1, 0.34, 0.72) || ellipse(nx, ny, 0.38, 0.1, 0.34, 0.72) || (Math.abs(nx) < 0.1 && ny < -0.25);
-  if (kind === "digestive") return ellipse(nx, ny, -0.28, -0.43, 0.48, 0.36) || (Math.abs(nx) < 0.72 && ny > -0.18 && ny < 0.75 && (Math.abs(nx) > 0.43 || Math.abs(ny - 0.28) > 0.17 || Math.sin((nx + 1) * 12) > 0.45));
+  if (kind === "stomach") return (ellipse(nx, ny, -0.16, 0.1, 0.6, 0.68) && !(nx > 0.15 && ny < -0.18)) || segment(nx, ny, -0.15, -0.95, -0.15, -0.43, 0.13) || segment(nx, ny, 0.22, 0.56, 0.76, 0.65, 0.14);
   if (kind === "butterfly") return ellipse(nx, ny, -0.36, 0, 0.4, 0.58) || ellipse(nx, ny, 0.36, 0, 0.4, 0.58) || (Math.abs(nx) < 0.17 && Math.abs(ny) < 0.25);
   if (kind === "kidneys") return (ellipse(nx, ny, -0.43, 0, 0.36, 0.62) && !ellipse(nx, ny, -0.22, 0, 0.2, 0.27)) || (ellipse(nx, ny, 0.43, 0, 0.36, 0.62) && !ellipse(nx, ny, 0.22, 0, 0.2, 0.27));
   if (kind === "shield") return ny > -0.82 && ny < 0.82 && Math.abs(nx) < 0.78 - Math.max(0, ny + 0.05) * 0.45;
   if (kind === "cell") return r < 0.64 || (r > 0.7 && r < 0.92 && Math.cos(a * 8) > 0.35);
+  if (kind === "crab") return ellipse(nx, ny, 0, 0.1, 0.56, 0.4) || segment(nx, ny, -0.38, 0.1, -0.94, -0.18, 0.09) || segment(nx, ny, -0.38, 0.2, -0.92, 0.48, 0.09) || segment(nx, ny, 0.38, 0.1, 0.94, -0.18, 0.09) || segment(nx, ny, 0.38, 0.2, 0.92, 0.48, 0.09) || ellipse(nx, ny, -0.9, -0.25, 0.16, 0.16) || ellipse(nx, ny, 0.9, -0.25, 0.16, 0.16);
   if (kind === "drop") return ellipse(nx, ny, 0, 0.18, 0.62, 0.66) || (ny < -0.3 && Math.abs(nx) < -ny - 0.18);
-  if (kind === "scalpel") return segment(nx, ny, -0.7, 0.72, 0.6, -0.6, 0.16) || (nx > 0.3 && ny < -0.3 && nx + ny < 0.2);
+  if (kind === "knife") return segment(nx, ny, -0.78, 0.7, 0.12, -0.2, 0.18) || segment(nx, ny, 0.1, -0.22, 0.76, -0.88, 0.13) || (nx > 0.36 && ny < -0.38 && ny > -0.92);
   if (kind === "fetus") return ellipse(nx, ny, 0.2, -0.35, 0.32, 0.32) || (r > 0.34 && r < 0.72 && a > -0.15 && a < 2.85) || ellipse(nx, ny, 0.2, 0.35, 0.38, 0.3);
   if (kind === "uterus") return ellipse(nx, ny, 0, 0.25, 0.48, 0.5) || segment(nx, ny, -0.75, -0.55, -0.28, -0.18, 0.14) || segment(nx, ny, 0.75, -0.55, 0.28, -0.18, 0.14) || ellipse(nx, ny, -0.78, -0.58, 0.2, 0.18) || ellipse(nx, ny, 0.78, -0.58, 0.2, 0.18);
-  if (kind === "child") return ellipse(nx, ny, 0, -0.62, 0.3, 0.28) || (Math.abs(nx) < 0.38 && ny > -0.38 && ny < 0.35) || segment(nx, ny, -0.25, -0.2, -0.75, 0.25, 0.13) || segment(nx, ny, 0.25, -0.2, 0.75, 0.25, 0.13) || segment(nx, ny, -0.18, 0.25, -0.42, 0.85, 0.15) || segment(nx, ny, 0.18, 0.25, 0.42, 0.85, 0.15);
-  if (kind === "mind") return ellipse(nx, ny, -0.15, 0.05, 0.62, 0.78) || ellipse(nx, ny, 0.55, -0.55, 0.28, 0.24) || ellipse(nx, ny, 0.82, -0.82, 0.14, 0.12);
-  if (kind === "brain") return ellipse(nx, ny, 0, 0, 0.82, 0.62) && !(Math.abs(nx) < 0.06 && ny > 0.15);
+  if (kind === "baby") return ellipse(nx, ny, 0, -0.18, 0.65, 0.62) || ellipse(nx, ny, -0.72, -0.15, 0.18, 0.22) || ellipse(nx, ny, 0.72, -0.15, 0.18, 0.22) || (Math.abs(nx) < 0.32 && ny > 0.38 && ny < 0.84);
+  if (kind === "thought") return ellipse(nx, ny, -0.28, -0.16, 0.48, 0.42) || ellipse(nx, ny, 0.24, -0.22, 0.54, 0.48) || ellipse(nx, ny, 0.48, 0.13, 0.3, 0.32) || ellipse(nx, ny, -0.54, 0.16, 0.26, 0.28) || ellipse(nx, ny, -0.08, 0.62, 0.13, 0.13) || ellipse(nx, ny, -0.31, 0.84, 0.08, 0.08);
+  if (kind === "neuron") return ellipse(nx, ny, 0, -0.04, 0.3, 0.3) || segment(nx, ny, 0, 0.18, 0, 0.9, 0.09) || segment(nx, ny, -0.12, -0.1, -0.86, -0.68, 0.07) || segment(nx, ny, 0.12, -0.1, 0.84, -0.64, 0.07) || segment(nx, ny, -0.2, 0.04, -0.9, 0.38, 0.07) || segment(nx, ny, 0.2, 0.04, 0.9, 0.4, 0.07) || ellipse(nx, ny, -0.9, -0.68, 0.12, 0.12) || ellipse(nx, ny, 0.84, -0.64, 0.12, 0.12);
   if (kind === "ear") return ellipse(nx, ny, 0, 0, 0.62, 0.82) && !ellipse(nx, ny, 0.08, 0, 0.28, 0.48);
-  if (kind === "eye") return Math.abs(nx) + 0.9 * ny * ny < 0.92 && (r > 0.23 || r < 0.14);
+  if (kind === "eye") return Math.abs(nx) < 0.92 && Math.abs(ny) < 0.62 * (1 - nx * nx) + 0.05 && (r > 0.26 || r < 0.13);
   if (kind === "skin") return Math.abs(nx) < 0.85 && ny > -0.65 + 0.08 * Math.sin(nx * 10) && ny < 0.65;
-  if (kind === "bladder") return ellipse(nx, ny, 0, 0.12, 0.62, 0.55) || (Math.abs(nx) < 0.13 && ny > 0.52 && ny < 0.92);
+  if (kind === "toilet") return (nx > -0.82 && nx < -0.12 && ny > -0.78 && ny < -0.28) || ellipse(nx, ny, 0.1, 0.08, 0.68, 0.45) || (nx > -0.1 && nx < 0.54 && ny > 0.3 && ny < 0.72) || (nx > 0.22 && nx < 0.56 && ny > 0.66 && ny < 0.9);
   if (kind === "cross") return (Math.abs(nx) < 0.27 && Math.abs(ny) < 0.86) || (Math.abs(ny) < 0.27 && Math.abs(nx) < 0.86);
   if (kind === "bone") return segment(nx, ny, -0.55, 0.55, 0.55, -0.55, 0.18) || ellipse(nx, ny, -0.62, 0.62, 0.3, 0.27) || ellipse(nx, ny, 0.62, -0.62, 0.3, 0.27);
   return r < 0.75;
