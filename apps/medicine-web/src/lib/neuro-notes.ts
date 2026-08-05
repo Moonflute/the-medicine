@@ -11,6 +11,11 @@ export function neuroNoteHref(kind: NeuroNoteKind, id: string) {
   return `/nervous-system-hub/notes/${kind}/${encodeURIComponent(id)}`;
 }
 
+export function medicalTerm(label: string) {
+  const match = label.match(/\(([^()]+)\)\s*$/);
+  return match?.[1] ?? label;
+}
+
 export function getNeuroNoteItem(atlas: NeuroAtlas, kind: NeuroNoteKind, id: string) {
   if (kind === "structure") return atlas.structures.find((item) => item.id === id);
   if (kind === "pathway") return atlas.pathways.find((item) => item.id === id);
