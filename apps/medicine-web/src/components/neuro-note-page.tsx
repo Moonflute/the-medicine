@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, BookOpen, ChevronRight, Focus, Route, Stethoscope } from "lucide-react";
+import { ArrowLeft, BookOpen, ChevronRight, Route, Stethoscope } from "lucide-react";
 import type { NeuroAtlas } from "@/lib/webdb";
 import { diseasesForReflex, diseasesForStructure, getNeuroNoteItem, neuroNoteHref, type NeuroNoteKind, relatedStructures } from "@/lib/neuro-notes";
 

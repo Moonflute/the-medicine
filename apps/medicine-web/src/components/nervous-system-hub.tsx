@@ -60,15 +60,17 @@ export function NervousSystemHub({ atlas, diseaseHrefs = {} }: { atlas: NeuroAtl
   const filteredNotes = noteEntries.filter((item) => (noteKind === "all" || item.kind === noteKind) && (item.title + " " + item.subtitle + " " + item.group).toLowerCase().includes(noteQuery.toLowerCase()));
 
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const requestedTab = params.get("tab");
-    if (requestedTab === "nex" || requestedTab === "notes" || requestedTab === "atlas") setTab(requestedTab);
-    const requestedView = params.get("view");
-    if (requestedView && views.some((item) => item.id === requestedView)) setViewId(requestedView);
-    const requestedPathway = params.get("pathway");
-    if (requestedPathway && atlas.pathways.some((item) => item.id === requestedPathway)) setPathwayId(requestedPathway);
-    const requestedStructure = params.get("structure");
-    if (requestedStructure && structures.some((item) => item.id === requestedStructure)) setSelectedId(requestedStructure);
+    queueMicrotask(() => {
+      const params = new URLSearchParams(window.location.search);
+      const requestedTab = params.get("tab");
+      if (requestedTab === "nex" || requestedTab === "notes" || requestedTab === "atlas") setTab(requestedTab);
+      const requestedView = params.get("view");
+      if (requestedView && views.some((item) => item.id === requestedView)) setViewId(requestedView);
+      const requestedPathway = params.get("pathway");
+      if (requestedPathway && atlas.pathways.some((item) => item.id === requestedPathway)) setPathwayId(requestedPathway);
+      const requestedStructure = params.get("structure");
+      if (requestedStructure && structures.some((item) => item.id === requestedStructure)) setSelectedId(requestedStructure);
+    });
   }, [atlas.pathways, structures, views]);
 
   useEffect(() => {
