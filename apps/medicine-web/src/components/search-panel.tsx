@@ -21,6 +21,49 @@ const TYPE_LABELS: Record<string, string> = {
   skill: "Skill",
 };
 
+const SEARCH_PREFIX_TYPES: Record<string, string[]> = {
+  disease: ["disease"],
+  "\uC9C8\uD658": ["disease"],
+  cc: ["chiefComplaint"],
+  symptom: ["chiefComplaint"],
+  "\uC99D\uC0C1": ["chiefComplaint"],
+  drug: ["drug"],
+  "\uC57D\uBB3C": ["drug"],
+  lab: ["labImg"],
+  img: ["labImg"],
+  labimg: ["labImg"],
+  "\uAC80\uC0AC": ["labImg"],
+  skill: ["skill"],
+  "\uC220\uAE30": ["skill"],
+  microbiology: ["microorganism", "clinicalGroup", "resistancePhenotype"],
+  micro: ["microorganism", "clinicalGroup", "resistancePhenotype"],
+  "\uBBF8\uC0DD\uBB3C": ["microorganism", "clinicalGroup", "resistancePhenotype"],
+  organism: ["microorganism"],
+  pathogen: ["microorganism"],
+  "\uBCD1\uC6D0\uCCB4": ["microorganism"],
+  resistance: ["resistancePhenotype"],
+  "\uB0B4\uC131": ["resistancePhenotype"],
+  physiology: ["physiology"],
+  "\uC0DD\uB9AC": ["physiology"],
+  pathology: ["pathology"],
+  "\uBCD1\uB9AC": ["pathology"],
+};
+
+type ParsedSearchQuery = {
+  types: string[] | null;
+  term: string;
+};
+
+function parseSearchQuery(value: string): ParsedSearchQuery {
+  const trimmed = value.trim();
+  const match = /^([^:]+):\s*(.*)$/.exec(trimmed);
+  if (!match) return { types: null, term: trimmed };
+
+  const prefix = match[1].toLowerCase().replace(/[\s_./&-]+/g, "");
+  const types = SEARCH_PREFIX_TYPES[prefix];
+  return types ? { types, term: match[2].trim() } : { types: null, term: trimmed };
+}
+
 function normalizeSearchText(value: string) {
   return value.toLowerCase().replace(/[\s\uFF0F\/\u00B7._()-]+/g, "");
 }
@@ -68,8 +111,10 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
     }
   });
   const inputRef = useRef<HTMLInputElement>(null);
-  const term = query.trim().toLowerCase();
-  const compactTerm = normalizeSearchText(query.trim());
+  const parsedQuery = useMemo(() => parseSearchQuery(query), [query]);
+  const term = parsedQuery.term.toLowerCase();
+  const compactTerm = normalizeSearchText(parsedQuery.term);
+  const hasSearch = Boolean(term || parsedQuery.types);
 
   useEffect(() => {
     const focusSearch = () => inputRef.current?.focus();
@@ -78,14 +123,15 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
   }, []);
 
   const results = useMemo(() => {
-    if (!term) return [];
+    if (!hasSearch) return [];
     return entries
-      .map((entry) => ({ entry, score: scoreEntry(entry, term, compactTerm) }))
+      .filter((entry) => !parsedQuery.types || parsedQuery.types.includes(entry.type))
+      .map((entry) => ({ entry, score: term ? scoreEntry(entry, term, compactTerm) : 1 }))
       .filter((item) => item.score > 0)
       .sort((a, b) => b.score - a.score || a.entry.title.localeCompare(b.entry.title, "ko"))
       .map((item) => item.entry)
       .slice(0, 24);
-  }, [entries, term, compactTerm]);
+  }, [compactTerm, entries, hasSearch, parsedQuery, term]);
 
   const resultGroups = useMemo(() => results.reduce<Record<string, SearchEntry[]>>((groups, entry) => {
     const key = TYPE_LABELS[entry.type] ?? entry.type;
@@ -139,11 +185,11 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
     <section className={`relative w-full ${className}`.trim()}>
       <label className="surface flex items-center gap-3 px-4 py-3 focus-within:border-teal-600 focus-within:ring-2 focus-within:ring-teal-600/15 sm:px-5 sm:py-4">
         <Search className="h-5 w-5 shrink-0 text-slate-500" />
-        <input ref={inputRef} type="text" value={query} onChange={(event) => setSearchQuery(event.target.value)} onKeyDown={handleInputKeyDown} placeholder="예: 가슴 통증, STEMI, metformin" className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" autoFocus />
+        <input ref={inputRef} type="text" value={query} onChange={(event) => setSearchQuery(event.target.value)} onKeyDown={handleInputKeyDown} placeholder={"\uC608: disease: \uD3D0\uB834, drug: metformin"} className="min-w-0 flex-1 bg-transparent text-base text-slate-950 outline-none placeholder:text-slate-400 sm:text-lg" autoFocus />
         <span className="hidden rounded border border-slate-200 bg-slate-50 px-2 py-1 text-[11px] text-slate-400 sm:inline">Ctrl K</span>
       </label>
 
-      {!term && recentSearches.length > 0 ? (
+      {!hasSearch && recentSearches.length > 0 ? (
         <div className="mt-4">
           <div className="mb-2 flex items-center justify-between gap-2 text-xs font-semibold uppercase text-slate-500">
             <div className="flex items-center gap-2"><Clock3 className="h-3.5 w-3.5" />최근 검색</div>
@@ -156,7 +202,7 @@ export function SearchPanel({ entries, className = "" }: { entries: SearchEntry[
         </div>
       ) : null}
 
-      {term ? (
+      {hasSearch ? (
         <div className="absolute inset-x-0 top-full z-10 mt-4 grid max-h-[calc(50vh-5rem)] gap-4 overflow-y-auto overscroll-contain pb-4">
           {results.length > 0 ? Object.entries(resultGroups).map(([label, group]) => (
             <section key={label}>
