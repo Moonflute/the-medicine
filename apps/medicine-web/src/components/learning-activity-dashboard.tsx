@@ -6,6 +6,7 @@ import { Activity, BookOpenCheck } from "lucide-react";
 import { DiseaseCoverageDashboard } from "@/components/disease-coverage-dashboard";
 import { QbankRangeActivityHeatmap } from "@/components/qbank-activity-heatmap";
 import { loadQbankState, QBANK_CHANGE_EVENT, type QbankDailyActivity } from "@/lib/qbank-store";
+import type { QbankQuestionIndex } from "@/lib/types";
 import {
   loadReviewCoverage,
   REVIEW_CHANGE_EVENT,
@@ -247,11 +248,11 @@ export function ContentCoverageHeatmap({ catalog }: { catalog: ReviewCatalogItem
   );
 }
 
-export function LearningActivityDashboard({ catalog }: { catalog: ReviewCatalogItem[] }) {
+export function LearningActivityDashboard({ catalog, questions }: { catalog: ReviewCatalogItem[]; questions: QbankQuestionIndex[] }) {
   return (
     <div className="space-y-5">
       <QbankRangeActivityHeatmap />
-      <DiseaseCoverageDashboard catalog={catalog} />
+      <DiseaseCoverageDashboard catalog={catalog} questions={questions} />
     </div>
   );
 }

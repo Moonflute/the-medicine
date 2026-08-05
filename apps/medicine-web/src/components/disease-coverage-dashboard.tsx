@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { Grid3X3, HeartPulse } from "lucide-react";
 import { loadReviewCoverage, REVIEW_CHANGE_EVENT, type ReviewCatalogItem, type ReviewCoverageItem } from "@/lib/review-store";
+import { loadQbankState, QBANK_CHANGE_EVENT, type QbankProgress } from "@/lib/qbank-store";
+import type { QbankQuestionIndex } from "@/lib/types";
 
 type CoverageView = "grid" | "anatomy";
 type Point = { x: number; y: number };
@@ -165,7 +167,21 @@ function groupBySpecialty(items: ReviewCatalogItem[]) {
       const rightOrder = Number(right.name.match(/^\d+/)?.[0] ?? Number.MAX_SAFE_INTEGER);
       return leftOrder - rightOrder || left.name.localeCompare(right.name, "ko");
     });
-}function Pixel({ item, stat, color, size = 13 }: { item: ReviewCatalogItem; stat?: ReviewCoverageItem; color: string; size?: number }) {
+}
+
+function groupQuestionsBySpecialty(questions: QbankQuestionIndex[]) {
+  const grouped = new Map<string, QbankQuestionIndex[]>();
+  for (const question of questions) grouped.set(question.specialty, [...(grouped.get(question.specialty) ?? []), question]);
+  return [...grouped.entries()]
+    .map(([name, items]) => ({ name, items: [...items].sort((left, right) => left.id.localeCompare(right.id)) }))
+    .sort((left, right) => {
+      const leftOrder = Number(left.name.match(/^\d+/)?.[0] ?? Number.MAX_SAFE_INTEGER);
+      const rightOrder = Number(right.name.match(/^\d+/)?.[0] ?? Number.MAX_SAFE_INTEGER);
+      return leftOrder - rightOrder || left.name.localeCompare(right.name, "ko");
+    });
+}
+
+function Pixel({ item, stat, color, size = 13 }: { item: ReviewCatalogItem; stat?: ReviewCoverageItem; color: string; size?: number }) {
   return <Link href={item.href} className="block border border-white/70 transition hover:z-10 hover:scale-150 hover:border-slate-900 focus:z-10 focus:scale-150 focus:outline-none focus:ring-2 focus:ring-teal-500" style={{ width: size, height: size, backgroundColor: stat ? color : "#cbd5e1", borderRadius: 2 }} title={`${item.title} · ${detail(stat)}`} aria-label={`${item.title}, ${detail(stat)}`} />;
 }
 
@@ -178,19 +194,26 @@ function GridView({ groups, coverage }: { groups: ReturnType<typeof groupBySpeci
   })}</div>;
 }
 
-function AnatomyView({ groups, coverage }: { groups: ReturnType<typeof groupBySpecialty>; coverage: Record<string, ReviewCoverageItem> }) {
+function QbankPixel({ item, progress, color, size = 13 }: { item: QbankQuestionIndex; progress?: QbankProgress; color: string; size?: number }) {
+  const backgroundColor = !progress?.attempts ? "#cbd5e1" : progress.lastCorrect ? color : "#fb7185";
+  const status = !progress?.attempts ? "\ubbf8\ud480\uc774" : progress.lastCorrect ? "\uc815\ub2f5" : "\uc624\ub2f5";
+  return <div className="border border-white/70" style={{ width: size, height: size, backgroundColor, borderRadius: 2 }} title={`${item.id} · ${status}`} aria-label={`${item.id}, ${status}`} />;
+}
+
+function AnatomyView({ groups, progress }: { groups: ReturnType<typeof groupQuestionsBySpecialty>; progress: Record<string, QbankProgress> }) {
   return <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">{groups.map((group) => {
     const visual = VISUALS[group.name] ?? { kind: "circle", color: "#0f766e", soft: "#ccfbf1" };
     const art = artFor(visual.kind, group.items.length);
-    const viewed = group.items.filter((item) => coverage[`disease|${item.id}`]).length;
-    return <article key={group.name} className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm"><header className="flex items-start justify-between gap-3"><div><h3 className="text-sm font-semibold text-slate-900">{group.name}</h3><p className="mt-1 text-xs text-slate-500">{"\uc9c8\ubcd1 \ud558\ub098\uac00 \ud53d\uc140 \ud558\ub098\ub97c \ucc44\uc6c1\ub2c8\ub2e4."}</p></div><span className="rounded-full px-2.5 py-1 text-xs font-semibold" style={{ color: visual.color, backgroundColor: visual.soft }}>{viewed} / {group.items.length}</span></header><div className="mt-4 flex min-h-48 items-center justify-center rounded-lg border border-slate-100 bg-slate-50/80 p-3"><div className="relative" style={{ width: art.size * art.pixelSize, height: art.size * art.pixelSize }}>{group.items.map((item, index) => { const point = art.points[index]; return <div key={item.id} className="absolute" style={{ left: point.x * art.pixelSize, top: point.y * art.pixelSize }}><Pixel item={item} stat={coverage[`disease|${item.id}`]} color={visual.color} size={art.pixelSize} /></div>; })}</div></div></article>;
+    const attempted = group.items.filter((item) => (progress[item.id]?.attempts ?? 0) > 0).length;
+    return <article key={group.name} className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm"><header className="flex items-start justify-between gap-3"><div><h3 className="text-sm font-semibold text-slate-900">{group.name}</h3><p className="mt-1 text-xs text-slate-500">{"\ubb38\ud56d \ud558\ub098\uac00 \ud53d\uc140 \ud558\ub098\ub97c \ucc44\uc6c1\ub2c8\ub2e4."}</p></div><span className="rounded-full px-2.5 py-1 text-xs font-semibold" style={{ color: visual.color, backgroundColor: visual.soft }}>{attempted} / {group.items.length}</span></header><div className="mt-4 flex min-h-48 items-center justify-center rounded-lg border border-slate-100 bg-slate-50/80 p-3"><div className="relative" style={{ width: art.size * art.pixelSize, height: art.size * art.pixelSize }}>{group.items.map((item, index) => { const point = art.points[index]; return <div key={item.id} className="absolute" style={{ left: point.x * art.pixelSize, top: point.y * art.pixelSize }}><QbankPixel item={item} progress={progress[item.id]} color={visual.color} size={art.pixelSize} /></div>; })}</div></div><div className="mt-3 flex items-center gap-3 text-[11px] text-slate-500"><span className="inline-flex items-center gap-1"><i className="h-2.5 w-2.5 rounded-sm bg-slate-300" />{"\ubbf8\ud480\uc774"}</span><span className="inline-flex items-center gap-1"><i className="h-2.5 w-2.5 rounded-sm" style={{ backgroundColor: visual.color }} />{"\uc815\ub2f5"}</span><span className="inline-flex items-center gap-1"><i className="h-2.5 w-2.5 rounded-sm bg-rose-400" />{"\uc624\ub2f5"}</span></div></article>;
   })}</div>;
 }
-
-export function DiseaseCoverageDashboard({ catalog }: { catalog: ReviewCatalogItem[] }) {
+export function DiseaseCoverageDashboard({ catalog, questions }: { catalog: ReviewCatalogItem[]; questions: QbankQuestionIndex[] }) {
   const diseases = useMemo(() => catalog.filter((item) => item.type === "disease"), [catalog]);
   const groups = useMemo(() => groupBySpecialty(diseases), [diseases]);
+  const questionGroups = useMemo(() => groupQuestionsBySpecialty(questions), [questions]);
   const [coverage, setCoverage] = useState<Record<string, ReviewCoverageItem>>({});
+  const [qbankProgress, setQbankProgress] = useState<Record<string, QbankProgress>>({});
   const [view, setView] = useState<CoverageView>("grid");
   useEffect(() => {
     const refresh = () => setCoverage(loadReviewCoverage(diseases));
@@ -198,8 +221,21 @@ export function DiseaseCoverageDashboard({ catalog }: { catalog: ReviewCatalogIt
     window.addEventListener(REVIEW_CHANGE_EVENT, refresh);
     return () => window.removeEventListener(REVIEW_CHANGE_EVENT, refresh);
   }, [diseases]);
+  useEffect(() => {
+    const refresh = () => setQbankProgress(loadQbankState().progress);
+    refresh();
+    window.addEventListener(QBANK_CHANGE_EVENT, refresh);
+    return () => window.removeEventListener(QBANK_CHANGE_EVENT, refresh);
+  }, []);
+
   const viewed = diseases.filter((item) => coverage[`disease|${item.id}`]).length;
   const percentage = diseases.length > 0 ? Math.round((viewed / diseases.length) * 100) : 0;
   const completed = groups.filter((group) => group.items.every((item) => coverage[`disease|${item.id}`])).length;
-  return <section className="surface p-5 sm:p-6"><div className="flex flex-wrap items-start justify-between gap-4"><div><div className="flex items-center gap-2 text-sm font-semibold text-teal-800"><HeartPulse className="h-5 w-5" />{"\uc9c8\ubcd1 \uc5f4\ub78c \ud604\ud669"}</div><h2 className="mt-2 text-xl font-semibold text-slate-950">{"\uc9c8\ubcd1 \ud53d\uc140 \uceec\ub809\uc158"}</h2><p className="mt-1 text-sm text-slate-600">{"\uc9c8\ubcd1 \ud398\uc774\uc9c0 \ud558\ub098\uac00 \uce78 \ud558\ub098\uc5d0 \ub300\uc751\ud569\ub2c8\ub2e4. \uce78\uc744 \ub204\ub974\uba74 \ud574\ub2f9 \uc9c8\ubcd1\uc73c\ub85c \uc774\ub3d9\ud569\ub2c8\ub2e4."}</p></div><div className="grid grid-cols-3 gap-5 text-right text-sm"><div><div className="text-xs text-slate-500">{"\uc5f4\ub78c"}</div><div className="font-semibold">{viewed} / {diseases.length}</div></div><div><div className="text-xs text-slate-500">{"\uc9c4\ud589\ub960"}</div><div className="font-semibold">{percentage}%</div></div><div><div className="text-xs text-slate-500">{"\uc644\ub8cc \ubd84\uacfc"}</div><div className="font-semibold">{completed} / {groups.length}</div></div></div></div><div className="mt-5 inline-flex rounded-lg border border-slate-200 bg-slate-100 p-1" role="tablist" aria-label="\uc9c8\ubcd1 \uc5f4\ub78c \ud604\ud669 \ubcf4\uae30"><button type="button" role="tab" aria-selected={view === "grid"} onClick={() => setView("grid")} className={`flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium ${view === "grid" ? "bg-white text-teal-800 shadow-sm" : "text-slate-600"}`}><Grid3X3 className="h-4 w-4" />{"\ubd84\uacfc\ubcc4 \uaca9\uc790"}</button><button type="button" role="tab" aria-selected={view === "anatomy"} onClick={() => setView("anatomy")} className={`flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium ${view === "anatomy" ? "bg-white text-teal-800 shadow-sm" : "text-slate-600"}`}><HeartPulse className="h-4 w-4" />{"\ud574\ubd80\ub3c4"}</button></div><div className="mt-5">{view === "grid" ? <GridView groups={groups} coverage={coverage} /> : <AnatomyView groups={groups} coverage={coverage} />}</div></section>;
+  const attempted = questions.filter((item) => (qbankProgress[item.id]?.attempts ?? 0) > 0).length;
+  const correct = questions.filter((item) => qbankProgress[item.id]?.lastCorrect).length;
+  const qbankRate = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
+  const completedQuestionSpecialties = questionGroups.filter((group) => group.items.every((item) => (qbankProgress[item.id]?.attempts ?? 0) > 0)).length;
+  const isGrid = view === "grid";
+
+  return <section className="surface p-5 sm:p-6"><div className="flex flex-wrap items-start justify-between gap-4"><div><div className="flex items-center gap-2 text-sm font-semibold text-teal-800"><HeartPulse className="h-5 w-5" />{isGrid ? "\uc9c8\ubcd1 \uc5f4\ub78c \ud604\ud669" : "QBank \ud480\uc774 \ud604\ud669"}</div><h2 className="mt-2 text-xl font-semibold text-slate-950">{isGrid ? "\uc9c8\ubcd1 \ud53d\uc140 \uceec\ub809\uc158" : "\ubb38\ud56d \ud53d\uc140 \ud574\ubd80\ub3c4"}</h2><p className="mt-1 text-sm text-slate-600">{isGrid ? "\uc9c8\ubcd1 \ud398\uc774\uc9c0 \ud558\ub098\uac00 \uce78 \ud558\ub098\uc5d0 \ub300\uc751\ud569\ub2c8\ub2e4. \uce78\uc744 \ub204\ub974\uba74 \ud574\ub2f9 \uc9c8\ubcd1\uc73c\ub85c \uc774\ub3d9\ud569\ub2c8\ub2e4." : "\ubd84\uacfc\ubcc4 QBank \ubb38\ud56d\uc744 \uc8fc \ubd84\uacfc \uae30\uc900\uc73c\ub85c \ubc30\uc815\ud574 \uc7a5\uae30 \ubaa8\uc591\uc744 \ucc44\uc6c1\ub2c8\ub2e4."}</p></div><div className="grid grid-cols-3 gap-5 text-right text-sm"><div><div className="text-xs text-slate-500">{isGrid ? "\uc5f4\ub78c" : "\ud480\uc774"}</div><div className="font-semibold">{isGrid ? `${viewed} / ${diseases.length}` : `${attempted} / ${questions.length}`}</div></div><div><div className="text-xs text-slate-500">{isGrid ? "\uc9c4\ud589\ub960" : "\uc815\ub2f5\ub960"}</div><div className="font-semibold">{isGrid ? `${percentage}%` : `${qbankRate}%`}</div></div><div><div className="text-xs text-slate-500">{"\uc644\ub8cc \ubd84\uacfc"}</div><div className="font-semibold">{isGrid ? `${completed} / ${groups.length}` : `${completedQuestionSpecialties} / ${questionGroups.length}`}</div></div></div></div><div className="mt-5 inline-flex rounded-lg border border-slate-200 bg-slate-100 p-1" role="tablist" aria-label="\uc9c8\ubcd1 \uc5f4\ub78c \ubc0f QBank \ud480\uc774 \ud604\ud669 \ubcf4\uae30"><button type="button" role="tab" aria-selected={isGrid} onClick={() => setView("grid")} className={`flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium ${isGrid ? "bg-white text-teal-800 shadow-sm" : "text-slate-600"}`}><Grid3X3 className="h-4 w-4" />{"\ubd84\uacfc\ubcc4 \uaca9\uc790"}</button><button type="button" role="tab" aria-selected={!isGrid} onClick={() => setView("anatomy")} className={`flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium ${!isGrid ? "bg-white text-teal-800 shadow-sm" : "text-slate-600"}`}><HeartPulse className="h-4 w-4" />{"\ud574\ubd80\ub3c4"}</button></div><div className="mt-5">{isGrid ? <GridView groups={groups} coverage={coverage} /> : <AnatomyView groups={questionGroups} progress={qbankProgress} />}</div></section>;
 }

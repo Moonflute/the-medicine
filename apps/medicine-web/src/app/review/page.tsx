@@ -8,6 +8,7 @@ import {
   getChiefComplaints,
   getDrugs,
   getLabImgNotes,
+  getQbankIndex,
 } from "@/lib/webdb";
 import type { ReviewCatalogItem } from "@/lib/review-store";
 
@@ -89,7 +90,7 @@ export default function ReviewPage() {
           </div>
         </Link>
       </div>
-      <ReviewPageClient catalog={catalog} />
+      <ReviewPageClient catalog={catalog} questions={getQbankIndex()} />
     </div>
   );
 }

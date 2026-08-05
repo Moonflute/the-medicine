@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
 import { LearningActivityDashboard } from "@/components/learning-activity-dashboard";
+import type { QbankQuestionIndex } from "@/lib/types";
 import {
   loadRecentItems,
   loadReviewItems,
@@ -31,7 +32,7 @@ function formatDate(value?: string) {
   return new Intl.DateTimeFormat("ko-KR", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }).format(new Date(value));
 }
 
-export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) {
+export function ReviewPageClient({ catalog, questions }: { catalog: ReviewCatalogItem[]; questions: QbankQuestionIndex[] }) {
   const [items, setItems] = useState<ReviewItem[]>([]);
   const [recent, setRecent] = useState<RecentReviewItem[]>([]);
   const [tab, setTab] = useState<Tab>("activity");
@@ -91,7 +92,7 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
       {message ? <div role="status" className="rounded-lg border border-teal-200 bg-teal-50 px-4 py-3 text-sm text-teal-900">{message}</div> : null}
 
       {tab === "activity" ? (
-        <LearningActivityDashboard catalog={catalog} />
+        <LearningActivityDashboard catalog={catalog} questions={questions} />
       ) : current.length === 0 ? (
         <div className="rounded-lg border border-dashed border-slate-300 bg-white/70 p-10 text-center text-slate-600">
           {tab === "recent" ? "최근 본 항목이 없습니다." : "복습할 항목이 없습니다. 상세 페이지의 복습 저장 버튼을 사용하세요."}
