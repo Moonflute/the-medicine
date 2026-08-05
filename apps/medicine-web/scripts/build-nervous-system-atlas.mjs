@@ -5,9 +5,22 @@ import { fileURLToPath } from "node:url";
 
 const SCRIPT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const WORKSPACE_ROOT = path.resolve(SCRIPT_ROOT, "..", "..");
-const sourcePath = path.join(WORKSPACE_ROOT, "source_notes", "02 Diseases", "16 신경과-신경외과", "_data", "nervous-system-atlas.json");
+const HUBS_ROOT = path.join(WORKSPACE_ROOT, "source_notes", "10 Hubs");
+const NEURO_HUB = fs.readdirSync(HUBS_ROOT).find((name) => name.startsWith("03 "));
+if (!NEURO_HUB) throw new Error("Nervous-system Hub folder is missing.");
+const HUB_ROOT = path.join(HUBS_ROOT, NEURO_HUB);
+const sourcePath = path.join(HUB_ROOT, "_data", "nervous-system-atlas.json");
 const outputPath = path.join(WORKSPACE_ROOT, "_webapp", "data", "nervous-system-atlas.json");
 const publicRoot = path.join(SCRIPT_ROOT, "public");
+const illustrationSourceRoot = path.join(HUB_ROOT, "illustrations");
+const illustrationOutputRoot = path.join(publicRoot, "neuro-atlas", "illustrations");
+if (!fs.existsSync(illustrationSourceRoot)) throw new Error("Neuro atlas source illustrations are missing: " + illustrationSourceRoot);
+fs.mkdirSync(path.dirname(illustrationOutputRoot), { recursive: true });
+fs.mkdirSync(illustrationOutputRoot, { recursive: true });
+for (const entry of fs.readdirSync(illustrationSourceRoot, { withFileTypes: true })) {
+  if (!entry.isFile()) continue;
+  fs.copyFileSync(path.join(illustrationSourceRoot, entry.name), path.join(illustrationOutputRoot, entry.name));
+}
 const imageAtlasSourcePath = path.join(SCRIPT_ROOT, "src", "components", "image-neuro-atlas.tsx");
 const stableHash = (file) => {
   const bytes = fs.readFileSync(file);

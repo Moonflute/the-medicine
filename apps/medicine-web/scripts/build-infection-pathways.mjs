@@ -3,7 +3,10 @@ import path from "node:path";
 
 const APP_ROOT = process.env.INIT_CWD || process.cwd();
 const WORKSPACE_ROOT = path.resolve(APP_ROOT, "..", "..");
-const SOURCE_PATH = path.join(WORKSPACE_ROOT, "source_notes", "02 Diseases", "08 감염", "_data", "infection-pathways.json");
+const HUBS_ROOT = path.join(WORKSPACE_ROOT, "source_notes", "10 Hubs");
+const INFECTION_HUB = fs.readdirSync(HUBS_ROOT).find((name) => name.startsWith("01 "));
+if (!INFECTION_HUB) throw new Error("Infection Hub folder is missing.");
+const SOURCE_PATH = path.join(HUBS_ROOT, INFECTION_HUB, "_data", "infection-pathways.json");
 const DATA_ROOT = path.join(WORKSPACE_ROOT, "_webapp", "data");
 const OUTPUT_PATH = path.join(DATA_ROOT, "infection-pathways.json");
 const MANIFEST_PATH = path.join(DATA_ROOT, "manifest.json");
@@ -178,7 +181,7 @@ function main() {
   const manifest = readJson(MANIFEST_PATH);
   manifest.domains.infectionPathways = {
     count: visiblePathways.length,
-    source: "02 Diseases/08 감염/_data/infection-pathways.json",
+    source: "10 Hubs/01 감염 Hub/_data/infection-pathways.json",
   };
   writeJson(MANIFEST_PATH, manifest);
 

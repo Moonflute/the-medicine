@@ -1,9 +1,9 @@
 {
   "name": "medicine-web",
-  "version": "0.11.10",
+  "version": "0.11.11",
   "private": true,
   "scripts": {
-    "sync:data": "node scripts/sync-generated-data.mjs && node scripts/build-infection-pathways.mjs && node scripts/build-microbiology-relations.mjs && node scripts/build-clinical-relations.mjs && node scripts/build-nervous-system-atlas.mjs",
+    "sync:data": "node scripts/sync-generated-data.mjs && node scripts/build-infection-pathways.mjs && node scripts/build-microbiology-relations.mjs && node scripts/build-clinical-relations.mjs && node scripts/build-maternal-child-hub.mjs && node scripts/build-nervous-system-atlas.mjs",
     "audit:content": "python ../../workspace_ops/scripts/build_content_quality_report.py",
     "audit:disease": "python ../../workspace_ops/scripts/build_disease_quality_report.py",
     "audit:er": "python ../../workspace_ops/scripts/audit_cc_er_structure.py && python ../../workspace_ops/scripts/audit_emergency_disease_structure.py",

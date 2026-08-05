@@ -221,6 +221,36 @@ export type NeuroAtlas = {
   theoryTopics: Array<{ id: string; title: string; category: string; summary: string; keyPoints: string[]; sections?: Array<{ heading: string; body: string }>; viewId: string; itemId?: string; sourceIds: string[]; drugLinks?: string[] }>;
 };
 
+export type MaternalChildHubData = {
+  schemaVersion: number;
+  updatedAt: string;
+  stages: Array<{
+    group: "obstetrics" | "pediatrics" | "shared";
+    time: string;
+    title: string;
+    subtitle: string;
+    development: string[];
+    assessments: string[];
+    clinicalFocus: string[];
+    related: string[];
+    sources: string[];
+  }>;
+  pediatricMilestones: Array<{
+    age: string;
+    title: string;
+    gross: string[];
+    fine: string[];
+    language: string[];
+    social: string[];
+    visit: string[];
+  }>;
+  sources: Array<{ label: string; url: string }>;
+};
+
+export function getMaternalChildHubData(): MaternalChildHubData {
+  return readJson<MaternalChildHubData>("maternal-child-hub.json");
+}
+
 export function getNervousSystemAtlas(): NeuroAtlas { return readJson<NeuroAtlas>("nervous-system-atlas.json"); }
 export function getAntibioticSpectrum(): AntibioticSpectrumDataset {
   return readJson<AntibioticSpectrumDataset>("antibiotic-spectrum.json");

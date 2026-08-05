@@ -6,7 +6,7 @@ import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..", "..");
-const sourcePath = path.join(root, "source_notes", "02 Diseases", "16 신경과-신경외과", "_data", "nervous-system-atlas.json");
+const sourcePath = path.join(root, "source_notes", "10 Hubs", "03 신경계 Hub", "_data", "nervous-system-atlas.json");
 const publicRoot = path.join(root, "apps", "medicine-web", "public");
 const hubPath = path.join(root, "apps", "medicine-web", "src", "components", "nervous-system-hub.tsx");
 const nativeAtlasPath = path.join(root, "apps", "medicine-web", "src", "components", "native-neuro-atlas.tsx");

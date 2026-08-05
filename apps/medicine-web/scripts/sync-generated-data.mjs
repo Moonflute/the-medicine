@@ -1002,7 +1002,10 @@ function buildMicrobiology() {
 }
 
 function buildAntibioticSpectrum(drugs, diseases, microbiology) {
-  const sourcePath = path.join(SOURCE_NOTES_ROOT, "04 Pharmacology", "08 감염", "_data", "antibiotic-spectrum.json");
+  const hubsRoot = path.join(SOURCE_NOTES_ROOT, "10 Hubs");
+  const infectionHub = fs.readdirSync(hubsRoot).find((name) => name.startsWith("01 "));
+  if (!infectionHub) throw new Error("Infection Hub folder is missing.");
+  const sourcePath = path.join(hubsRoot, infectionHub, "_data", "antibiotic-spectrum.json");
   if (!fs.existsSync(sourcePath)) throw new Error(`Antibiotic spectrum source is missing: ${sourcePath}`);
 
   const dataset = JSON.parse(readText(sourcePath));
