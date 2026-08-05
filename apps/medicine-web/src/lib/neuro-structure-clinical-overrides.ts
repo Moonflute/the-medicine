@@ -78,4 +78,30 @@ export const structureClinicalOverrides: Record<string, NeuroNoteSection> = {
     { label: "주요 징후", text: "relative afferent pupillary defect, color vision, fundus finding 및 visual field를 확인합니다." },
     { label: "국소화", text: "monocular visual deficit은 optic nerve 또는 retina lesion을 시사하며, chiasmal/retro-chiasmal lesion과 구분합니다." },
   ]),
+  "facial-nerve": clinical([
+    { label: "?? ??", text: "ipsilateral facial weakness, reduced eye closure, flattened nasolabial fold, hyperacusis ?? taste change? ??? ? ????." },
+    { label: "?? ??", text: "forehead wrinkling? eye closure? ??? upper/lower face? ??? ?????." },
+    { label: "???", text: "peripheral facial nerve lesion? forehead?? ?????, supranuclear lesion? ?? forehead sparing? ????." },
+  ]),
+  "vagus-nerve": clinical([
+    { label: "?? ??", text: "dysphagia, dysphonia, hoarseness, nasal speech ?? aspiration symptom? ??? ? ????." },
+    { label: "?? ??", text: "palatal elevation, voice quality, cough, gag reflex ? swallowing safety? ?????." },
+    { label: "???", text: "bulbar symptom? aspiration risk? ??? airway? nutrition safety? ?? ?????." },
+  ]),
+  "oculomotor-nerve": clinical([
+    { label: "?? ??", text: "ptosis, diplopia, impaired adduction/elevation/depression, anisocoria? ??? ? ????." },
+    { label: "???", text: "pupil-involving third nerve palsy? compressive lesion ???? ???? ?? urgent assessment? ??? ? ????." },
+  ]),
+  "median-nerve": clinical([
+    { label: "?? ??", text: "thumb, index, middle finger? paresthesia, nocturnal hand numbness, thenar weakness? ??? ? ????." },
+    { label: "?? ??", text: "thumb abduction, thenar bulk, sensory territory ? provocative test? ?????." },
+  ]),
+  "ulnar-nerve": clinical([
+    { label: "?? ??", text: "fourth/fifth digit paresthesia, intrinsic hand weakness, impaired finger abduction? ??? ? ????." },
+    { label: "???", text: "elbow lesion? wrist lesion? dorsal ulnar hand sensation ? intrinsic/extrinsic muscle involvement? ?????." },
+  ]),
+  "cerebellar-hemisphere": clinical([
+    { label: "?? ??", text: "ipsilateral limb ataxia, dysmetria, intention tremor, dysdiadochokinesia? ??? ? ????." },
+    { label: "?? ??", text: "finger-to-nose, heel-to-shin, rapid alternating movement ? gait? ?????." },
+  ]),
 };
