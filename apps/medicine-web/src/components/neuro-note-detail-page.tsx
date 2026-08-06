@@ -40,14 +40,6 @@ export function NeuroNoteDetailPage({ atlas, kind, id, diseaseHrefs }: Props) {
     const peripheralFallbackBeforeRender = Object.keys(diseaseHrefs).find((label) => label.includes("Diabetic Neuropathy"));
     if (!structure.links.length && peripheralFallbackBeforeRender && /nerve|plexus|dermatome|myotome|muscle/.test(structure.id)) structure.links = [peripheralFallbackBeforeRender];
     return <Frame icon={icon} label="해부학 구조 노트" title={structure.en} subtitle={structure.ko} backHref="/nervous-system-hub?tab=notes"><NoteBody sections={structureNoteSections(atlas, structure)} diseases={structure.links} diseaseHrefs={diseaseHrefs} related={relatedStructures(atlas, structure.id)} atlasHref={`/nervous-system-hub?structure=${structure.id}`} /></Frame>;
-    const sharedViewDiseases = atlas.structures.filter((candidate) => candidate.viewIds?.some((viewId) => structure.viewIds?.includes(viewId))).flatMap((candidate) => candidate.links);
-    structure.links = [...new Set([...structure.links, ...sharedViewDiseases])];
-    const peripheralFallback = Object.keys(diseaseHrefs).find((label) => label.includes("Diabetic Neuropathy"));
-    if (!structure.links.length && peripheralFallback && /nerve|plexus|dermatome|myotome|muscle/.test(structure.id)) structure.links = [peripheralFallback];
-    const sharedViewDiseases = atlas.structures.filter((candidate) => candidate.viewIds?.some((viewId) => structure.viewIds?.includes(viewId))).flatMap((candidate) => candidate.links);
-    structure.links = [...new Set([...structure.links, ...sharedViewDiseases])];
-    const peripheralFallback = Object.keys(diseaseHrefs).find((label) => label.includes("Diabetic Neuropathy"));
-    if (!structure.links.length && peripheralFallback && /nerve|plexus|dermatome|myotome|muscle/.test(structure.id)) structure.links = [peripheralFallback];
   }
   if (kind === "pathway") {
     const pathway = item as NeuroAtlas["pathways"][number];
@@ -61,6 +53,16 @@ export function NeuroNoteDetailPage({ atlas, kind, id, diseaseHrefs }: Props) {
   }
 
   const topic = item as NeuroAtlas["theoryTopics"][number];
+  if (topic.note) {
+    const topicNoteRelated = topic.note.related.map((entry) => atlas.structures.find((structure) => structure.id === entry.id)).filter((structure): structure is NeuroAtlas["structures"][number] => Boolean(structure));
+    const topicNoteSections: NeuroNoteSection[] = [
+      { heading: "\uD575\uC2EC \uAC1C\uB150", items: topic.note.anatomy },
+      { heading: "\uC774\uB860 \uC124\uBA85", items: topic.note.function },
+      { heading: "\uC784\uC0C1\uC801 \uC801\uC6A9", items: topic.note.clinical },
+      { heading: "\uAD00\uB828 \uAD6C\uC870", items: topic.note.related },
+    ];
+    return <Frame icon={icon} label={"\uC774\uB860 \uB178\uD2B8"} title={topic.title} subtitle={topic.category} backHref="/nervous-system-hub?tab=notes"><NoteBody sections={topicNoteSections} diseases={topic.note.diseases} diseaseHrefs={diseaseHrefs} related={topicNoteRelated} atlasHref={`/nervous-system-hub?view=${topic.viewId}`} /></Frame>;
+  }
   const topicStructure = topic.itemId ? atlas.structures.find((structure) => structure.id === topic.itemId) : undefined;
   const topicRelated = atlas.structures.filter((structure) => structure.id !== topic.itemId && structure.viewIds?.includes(topic.viewId)).slice(0, 12);
   const topicDiseases = [...new Set([...(topicStructure?.links ?? []), ...topicRelated.flatMap((structure) => structure.links)])];

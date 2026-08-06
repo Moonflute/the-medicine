@@ -52,6 +52,14 @@ export function structureNoteSections(atlas: NeuroAtlas, structure: NeuroAtlas["
   const pathways = atlas.pathways.filter((pathway) => pathway.nodes?.includes(structure.id));
   const reflexes = atlas.reflexes.filter((reflex) => reflex.route?.includes(structure.id));
   const related = relatedStructures(atlas, structure.id);
+  const individualizedClinical = structureClinicalOverrides[structure.id] ?? cleanStructureClinicalOverrides[structure.id] ?? individualStructureClinicalOverrides[structure.id];
+  if (structure.note) return [
+    { heading: "\uD574\uBD80\uD559 \uC815\uBCF4", items: [...structure.note.anatomy, { label: "Atlas", text: views.length ? `${views.join(", ")}\uC5D0\uC11C \uC704\uCE58\uC640 \uC778\uC811 \uAD6C\uC870\uB97C \uD655\uC778\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.` : "Atlas view\uAC00 \uC5F0\uACB0\uB418\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4." }] },
+    { heading: "\uB2F4\uB2F9 \uAE30\uB2A5", items: structure.note.function },
+    { heading: "\uC784\uC0C1\uC801 \uC758\uC758 \uBC0F \uBCD1\uBCC0 \uC2DC \uC99D\uC0C1", items: individualizedClinical?.items ?? structure.note.clinical },
+    { heading: "\uAD00\uB828 \uAD6C\uC870", items: structure.note.related },
+  ];
+
   const clinical = structureClinicalOverrides[structure.id] ?? cleanStructureClinicalOverrides[structure.id] ?? individualStructureClinicalOverrides[structure.id] ?? genericStructureClinicalSection(structure, pathways, reflexes) ?? {
     heading: "임상적 의의 및 병변 시 증상",
     items: [
@@ -84,6 +92,12 @@ export function structureNoteSections(atlas: NeuroAtlas, structure: NeuroAtlas["
 }
 
 export function pathwayNoteSections(pathway: NeuroAtlas["pathways"][number]): NeuroNoteSection[] {
+  if (pathway.note) return [
+    { heading: "\uD574\uBD80\uD559 \uC815\uBCF4", items: pathway.note.anatomy },
+    { heading: "\uB2F4\uB2F9 \uAE30\uB2A5", items: pathway.note.function },
+    { heading: "\uC784\uC0C1\uC801 \uC758\uC758 \uBC0F \uBCD1\uBCC0 \uC2DC \uC99D\uC0C1", items: pathway.note.clinical },
+    { heading: "\uAD00\uB828 \uAD6C\uC870", items: pathway.note.related },
+  ];
   return [
     {
       heading: "해부학 정보",
@@ -106,6 +120,12 @@ export function pathwayNoteSections(pathway: NeuroAtlas["pathways"][number]): Ne
 }
 
 export function reflexNoteSections(reflex: NeuroAtlas["reflexes"][number]): NeuroNoteSection[] {
+  if (reflex.note) return [
+    { heading: "Reflex arc", items: reflex.note.anatomy },
+    { heading: "\uAC80\uC0AC \uBC29\uBC95", items: reflex.note.function },
+    { heading: "\uC784\uC0C1\uC801 \uC758\uC758 \uBC0F \uC774\uC0C1 \uC18C\uACAC", items: reflex.note.clinical },
+    { heading: "\uAD00\uB828 \uAD6C\uC870", items: reflex.note.related },
+  ];
   return [
     { heading: "Reflex arc", items: [{ label: "회로", text: reflex.arc }] },
     {
