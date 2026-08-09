@@ -8,13 +8,32 @@ import type { QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
 
 type RelatedTarget = { type: "disease" | "cc"; slug: string; label: string };
 type SpecialtyChoice = QbankSpecialtySummary;
+type TheorySourceType = "disease" | "cc" | "drug" | "other";
 
-function specialtyChoices(questions: QbankQuestionIndex[], questionBank: "theory" | "clinical"): SpecialtyChoice[] {
+const THEORY_SOURCE_GROUPS: Array<{ type: TheorySourceType; title: string; description: string }> = [
+  { type: "disease", title: "질병 이론", description: "질병 문서에서 만든 핵심 개념 문제" },
+  { type: "cc", title: "CC 이론", description: "주호소·증상 접근 문제" },
+  { type: "drug", title: "약물 이론", description: "약물 문서에서 만든 핵심 개념 문제" },
+  { type: "other", title: "기타 이론", description: "분류되지 않은 이론 문제" },
+];
+
+function theorySourceType(question: QbankQuestionIndex): TheorySourceType {
+  return question.targetType === "disease" || question.targetType === "cc" || question.targetType === "drug" ? question.targetType : "other";
+}
+
+function theorySelectionKey(question: Pick<QbankQuestionIndex, "targetType" | "specialtySlug">) {
+  const sourceType = question.targetType === "disease" || question.targetType === "cc" || question.targetType === "drug" ? question.targetType : "other";
+  return `${sourceType}:${question.specialtySlug}`;
+}
+
+function specialtyChoices(questions: QbankQuestionIndex[], questionBank: "theory" | "clinical", theorySource?: TheorySourceType): SpecialtyChoice[] {
   const grouped = new Map<string, SpecialtyChoice>();
   for (const question of questions) {
     if (question.questionBank !== questionBank) continue;
+    if (questionBank === "theory" && theorySource && theorySourceType(question) !== theorySource) continue;
     const current = grouped.get(question.specialtySlug);
-    grouped.set(question.specialtySlug, current ? { ...current, count: current.count + 1 } : { slug: question.specialtySlug, name: question.specialty, count: 1 });
+    const slug = questionBank === "theory" ? theorySelectionKey(question) : question.specialtySlug;
+    grouped.set(question.specialtySlug, current ? { ...current, count: current.count + 1 } : { slug, name: question.specialty, count: 1 });
   }
   return [...grouped.values()].sort((left, right) => left.name.localeCompare(right.name, "ko"));
 }
@@ -44,9 +63,9 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       || (relatedTarget.type === "cc" && question.relatedCcSlugs?.includes(relatedTarget.slug))
     ));
   }, [questions, relatedTarget]);
-  const theorySpecialties = useMemo(() => specialtyChoices(availableQuestions, "theory"), [availableQuestions]);
+  const theoryGroups = useMemo(() => THEORY_SOURCE_GROUPS.map((group) => ({ ...group, items: specialtyChoices(availableQuestions, "theory", group.type) })).filter((group) => group.items.length > 0), [availableQuestions]);
   const clinicalSpecialties = useMemo(() => specialtyChoices(availableQuestions, "clinical"), [availableQuestions]);
-  const [selectedTheory, setSelectedTheory] = useState<string[]>(() => theorySpecialties.map((item) => item.slug));
+  const [selectedTheory, setSelectedTheory] = useState<string[]>(() => theoryGroups.flatMap((group) => group.items.map((item) => item.slug)));
   const [selectedClinical, setSelectedClinical] = useState<string[]>(() => clinicalSpecialties.map((item) => item.slug));
   const [count, setCount] = useState("10");
   const [stats, setStats] = useState({ attempted: 0, wrong: 0, bookmarks: 0 });
@@ -63,7 +82,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   }, []);
 
   const selectedCount = useMemo(() => availableQuestions.filter((item) => (
-    (item.questionBank === "theory" && selectedTheory.includes(item.specialtySlug))
+    (item.questionBank === "theory" && selectedTheory.includes(theorySelectionKey(item)))
     || (item.questionBank === "clinical" && selectedClinical.includes(item.specialtySlug))
   )).length, [availableQuestions, selectedClinical, selectedTheory]);
   const sessionParams = new URLSearchParams({
@@ -86,7 +105,10 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
 
     <section className="surface p-5 sm:p-6">
       <div className="flex flex-wrap items-baseline justify-between gap-3"><div><h2 className="text-xl font-semibold text-slate-950">{relatedTarget ? `${relatedTarget.label} 관련 문제` : "문제 선택"}</h2><p className="mt-1 text-sm text-slate-600">이론과 임상을 각각 선택해 한 세트로 풀 수 있습니다.</p></div><span className="pill">선택됨 {selectedCount.toLocaleString()}문항</span></div>
-      <div className="mt-6"><QuestionBankPicker questionBank="theory" title="이론 문제" items={theorySpecialties} selected={selectedTheory} setSelected={setSelectedTheory} /></div>
+      <div className="mt-6 space-y-6">
+        <div><h3 className="text-base font-semibold text-slate-900">이론 문제 <span className="text-sm font-normal text-slate-500">{theoryGroups.reduce((sum, group) => sum + group.items.reduce((countSum, item) => countSum + item.count, 0), 0).toLocaleString()}문항</span></h3><p className="mt-1 text-sm text-slate-500">문서 소속별로 나눈 뒤 필요한 분과만 선택하세요.</p></div>
+        {theoryGroups.map((group) => <div key={group.type} className="border-t border-slate-200 pt-5"><p className="mb-4 text-sm text-slate-500">{group.description}</p><QuestionBankPicker questionBank="theory" title={group.title} items={group.items} selected={selectedTheory} setSelected={setSelectedTheory} /></div>)}
+      </div>
       <div className="my-6 border-t border-slate-200" />
       <QuestionBankPicker questionBank="clinical" title="임상 문제" items={clinicalSpecialties} selected={selectedClinical} setSelected={setSelectedClinical} />
       <label className="mt-6 block max-w-xs text-sm font-medium text-slate-700">문항 수<input type="number" min="1" max="100" step="1" inputMode="numeric" value={count} onChange={(event) => setCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5" /></label>

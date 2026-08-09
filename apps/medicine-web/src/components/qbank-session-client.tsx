@@ -35,6 +35,15 @@ async function fetchJson<T>(path: string): Promise<T> {
   return response.json() as Promise<T>;
 }
 
+function theorySelectionKey(item: Pick<QbankQuestionIndex, "targetType" | "specialtySlug">): string {
+  const sourceType = item.targetType === "disease" || item.targetType === "cc" || item.targetType === "drug" ? item.targetType : "other";
+  return `${sourceType}:${item.specialtySlug}`;
+}
+
+function hasTheorySelection(selections: Set<string>, item: QbankQuestionIndex): boolean {
+  return selections.has(theorySelectionKey(item)) || selections.has(item.specialtySlug);
+}
+
 async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = ""): Promise<QbankQuestion[]> {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
@@ -43,7 +52,7 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
     const theory = new Set(theorySpecialties.split(",").filter(Boolean));
     const clinical = new Set(clinicalSpecialties.split(",").filter(Boolean));
     candidates = index.filter((item) => (
-      (item.questionBank === "theory" && theory.has(item.specialtySlug))
+      (item.questionBank === "theory" && hasTheorySelection(theory, item))
       || (item.questionBank !== "theory" && clinical.has(item.specialtySlug))
     ));
   } else if (mode === "related") {
@@ -68,7 +77,7 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
     const theory = new Set(theorySpecialties.split(",").filter(Boolean));
     const clinical = new Set(clinicalSpecialties.split(",").filter(Boolean));
     candidates = candidates.filter((item) => (
-      (item.questionBank === "theory" && theory.has(item.specialtySlug))
+      (item.questionBank === "theory" && hasTheorySelection(theory, item))
       || (item.questionBank !== "theory" && clinical.has(item.specialtySlug))
     ));
   }
