@@ -70,7 +70,7 @@ content_updated_at: "2026-07-16"
 - RAIU 감소: 갑상샘염, 요오드 섭취 과다
 - **갑상샘염 검사 소견**: 아급성(ESR↑), 무통성(Anti-TPO Ab+), 급성(WBC/CRP↑, FNA상 호중구 침윤), 리델(절제생검)
 - **TPP 검사**: 혈중 K+, TFT
-- **열소작술(Thermal Ablation) 고려 시**: 초음파를 통한 결절의 위치 및 주변 중요 구조물(반회후두신경, 대혈관, 식도)과의 근접성 평가 필수 [2025 Korean Thyroid Association Clinical Management Guideline on Active Surveillance for Low-Risk Papillary Thyroid Carcinoma](https://www.e-enm.org/journal/view.php?number=2461)
+- **열소작술(Thermal Ablation) 고려 시**: 초음파를 통한 결절의 위치 및 주변 중요 구조물(반회후두신경, 대혈관, 식도)과의 근접성 평가 필수
 
 ## 4. 진단
 - **갑상샘암**: 초음파 소견 및 FNA 시행, 속질암은 RET 돌연변이 확인 및 갈색세포종 배제 필요
@@ -86,7 +86,7 @@ content_updated_at: "2026-07-16"
 - **갑상샘염 치료**: 아급성(NSAID, β-blocker), 무통성(β-blocker), 급성(항생제, 배농), 리델(감압), 공통(항갑상샘제 사용 안 함)
 - **갑상샘중독주기적마비(TPP)**: β-blocker, 갑상샘중독증 치료, K+ 보충
 - **갑상샘중독발작(Thyroid storm)**: 고용량 항갑상샘제, β-blocker, 요오드, 스테로이드, 보존적 치료
-- **불현성 갑상샘중독증 치료 고려**: TSH < 0.1 mU/L, 유증상, 고령, 심장질환, 골다공증 환자 [2025 Korean Thyroid Association Clinical Management Guideline on Active Surveillance for Low-Risk Papillary Thyroid Carcinoma](https://www.e-enm.org/journal/view.php?number=2461)
+- **불현성 갑상샘중독증 치료 고려**: TSH < 0.1 mU/L, 유증상, 고령, 심장질환, 골다공증 환자
 
 ## 6. 예후 및 합병증
 - **갑상샘암 추적관찰**: 혈중 갑상샘글로불린(Tg), Tg 항체, 경부 초음파

@@ -35,7 +35,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - 저칼슘혈증, 고인산혈증, 부갑상샘호르몬(PTH) 감소 소견을 확인한다.
 - 심전도상 QT 간격 연장 여부를 평가한다.
-- 수술 후 발생한 경우, 수술 후 12개월 이상 지속되는지 확인하여 만성 부갑상샘 기능저하증(Chronic HypoPT) 여부를 진단한다. [Revised European Society of Endocrinology Clinical Practice Guideline: Treatment of Chronic Hypoparathyroidism in Adults.](https://pubmed.ncbi.nlm.nih.gov/41231236/)
+- 수술 후 발생한 경우, 수술 후 12개월 이상 지속되는지 확인하여 만성 부갑상샘 기능저하증(Chronic HypoPT) 여부를 진단한다.
 
 ## 4. 진단 (Diagnosis)
 - 저칼슘혈증 환자에서 PTH 농도가 낮거나 정상 범위 하한선인 경우 진단할 수 있다.
@@ -43,8 +43,8 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 - 급성기: 칼슘 글루코네이트(Ca gluconate) 정맥 주사를 시행한다.
 - 만성기: 칼슘 및 비타민 D 보충제를 기본 치료로 사용한다.
-- PTH 대체 요법(PTH replacement therapy): 기존 치료의 약물 복용 부담(pill burden)을 줄이고 생화학적 지표 개선 및 삶의 질 향상을 위해 고려할 수 있다. [Revised European Society of Endocrinology Clinical Practice Guideline: Treatment of Chronic Hypoparathyroidism in Adults.](https://pubmed.ncbi.nlm.nih.gov/41231236/)
-- 주의사항: 부갑상샘 동종 이식(parathyroid allotransplantation)은 현재 치료법으로 권장되지 않는다. [Revised European Society of Endocrinology Clinical Practice Guideline: Treatment of Chronic Hypoparathyroidism in Adults.](https://pubmed.ncbi.nlm.nih.gov/41231236/)
+- PTH 대체 요법(PTH replacement therapy): 기존 치료의 약물 복용 부담(pill burden)을 줄이고 생화학적 지표 개선 및 삶의 질 향상을 위해 고려할 수 있다.
+- 주의사항: 부갑상샘 동종 이식(parathyroid allotransplantation)은 현재 치료법으로 권장되지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 장기적인 합병증으로 고칼슘뇨증, 골밀도 변화 등이 발생할 수 있으므로 지속적인 모니터링이 필요하다.

@@ -45,7 +45,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - 급성 두드러기: 일반적으로 검사가 불필요함.
 - 만성 두드러기: 병력 청취를 바탕으로 갑상선 기능 검사, 자가항체 검사, 감염 선별 검사 등을 선별적으로 시행함.
-- 주의사항: 만성 자발성 두드러기(CSU) 환자의 최대 50%는 표준 치료에 반응하지 않을 수 있음을 인지해야 함 [Clinical practice guideline for H1 antihistamine-resistant Chronic Spontaneous Urticaria.](https://pubmed.ncbi.nlm.nih.gov/41182242/).
+- 주의사항: 만성 자발성 두드러기(CSU) 환자의 최대 50%는 표준 치료에 반응하지 않을 수 있음을 인지해야 함.
 
 ## 4. 진단 (Diagnosis)
 - 임상적 소견으로 진단한다.
@@ -55,7 +55,7 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 - 원칙: 원인 인자 회피가 핵심임.
 - 1차 치료: 2세대 H1 항히스타민제(sgAHs) 사용.
-- 저항성 환자 관리: 2세대 H1 항히스타민제에 반응하지 않는 경우 최대 4배 용량까지 증량 고려 가능함. 표준 치료에 반응하지 않는 만성 자발성 두드러기(CSU)에 대해서는 개인별 맞춤형 단계적 치료 알고리즘 적용이 권장됨 [Clinical practice guideline for H1 antihistamine-resistant Chronic Spontaneous Urticaria.](https://pubmed.ncbi.nlm.nih.gov/41182242/).
+- 저항성 환자 관리: 2세대 H1 항히스타민제에 반응하지 않는 경우 최대 4배 용량까지 증량 고려 가능함. 표준 치료에 반응하지 않는 만성 자발성 두드러기(CSU)에 대해서는 개인별 맞춤형 단계적 치료 알고리즘 적용이 권장됨.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성 두드러기는 수개월에서 수년까지 지속될 수 있으며 삶의 질에 큰 영향을 미칩니다.

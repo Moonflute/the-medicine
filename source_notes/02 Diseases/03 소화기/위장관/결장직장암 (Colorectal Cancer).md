@@ -52,7 +52,7 @@ content_updated_at: "2026-07-16"
 - 진단 및 병기 결정: 대장내시경(조직검사), 복부/흉부/골반 CT, MRI, PET, 내시경초음파(EUS).
 - 바이오마커: CEA(수술 전후 및 재발 추적 관찰용, 선별검사 용도 아님).
 
-[Colorectal cancer screening: An update to the American Cancer Society guideline, 2026.](https://pubmed.ncbi.nlm.nih.gov/42200680/)
+출처: Colorectal cancer screening: An update to the American Cancer Society guideline, 2026.
 
 ## 4. 진단
 - 대장 용종 분류

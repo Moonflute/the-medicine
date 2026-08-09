@@ -43,7 +43,7 @@ content_updated_at: "2026-07-16"
 - **피부 생검**: 전층 표피 괴사 확인을 위해 시행하며 진단적 가치가 높음.
 - **중증도 평가**: SCORTEN 점수 산정(연령, 암 동반 여부, 심박수, BUN, 박리 범위, 중탄산염, 혈당)을 통해 예후 예측 및 치료 강도 결정.
 - **전신 평가**: CBC, 간/신장 기능, 전해질, 감염 여부 확인. 필요 시 혈액 배양 및 병변부 배양 검사 시행.
-- **주의사항**: 감염 징후가 의심될 경우 즉각적인 미생물학적 검사 및 경험적 항생제 투여 고려. [S3 guideline: Diagnosis and treatment of epidermal necrolysis (Stevens-Johnson syndrome and toxic epidermal necrolysis) - Part 1: Diagnosis, initial management, and immunomodulating systemic therapy.](https://pubmed.ncbi.nlm.nih.gov/39314017/)
+- **주의사항**: 감염 징후가 의심될 경우 즉각적인 미생물학적 검사 및 경험적 항생제 투여 고려.
 
 ## 4. 진단 (Diagnosis)
 - 임상 양상과 병변의 진행 속도, 조직 소견을 종합하여 진단한다.
@@ -53,7 +53,7 @@ content_updated_at: "2026-07-16"
 - **원인 약물 즉시 중단**: 가장 중요한 초기 조치.
 - **지지 요법**: 화상 전문 센터 또는 중환자실 입원. 수액 및 전해질 보충, 영양 공급, 통증 관리, 2차 감염 예방 및 상처 관리(비점착성 드레싱 등).
 - **면역조절치료**: 전신 스테로이드, 사이클로스포린, IVIG, TNF-알파 억제제 등이 고려될 수 있으나, 임상적 근거와 환자 상태를 고려하여 다학제적 결정 필요.
-- **안과 협진**: 안구 침범 시 조기 안과 협진 및 국소 치료 필수. [S3 guideline: Diagnosis and treatment of epidermal necrolysis (Stevens-Johnson syndrome and toxic epidermal necrolysis) - Part 1: Diagnosis, initial management, and immunomodulating systemic therapy.](https://pubmed.ncbi.nlm.nih.gov/39314017/)
+- **안과 협진**: 안구 침범 시 조기 안과 협진 및 국소 치료 필수.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 사망률이 높으며, 패혈증 및 다장기 부전이 주요 사망 원인이다.

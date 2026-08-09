@@ -43,7 +43,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - 진단 전 필수 검사: BCR::ABL1 융합 유전자 확인 및 예후와 관련된 세포유전학적 이상 유무 확인.
 - 치료 중 모니터링: 측정 가능한 잔존 질환(MRD)의 정기적 평가를 통해 최적 반응 확인 및 치료 저항성 조기 발견.
-- 저항성 발생 시: TKI 내성 유발 돌연변이 검사 필수 (치료 전략 변경을 위해). [[Recommendations from the GBMHM and the Fi-LMC for the diagnosis and management of chronic myeloid leukemia].](https://pubmed.ncbi.nlm.nih.gov/40908230/) [[Recommendations from the GBMHM and the Fi-LMC for the diagnosis and management of chronic myeloid leukemia].](https://pubmed.ncbi.nlm.nih.gov/40908230/)
+- 저항성 발생 시: TKI 내성 유발 돌연변이 검사 필수 (치료 전략 변경을 위해).
 
 ## 4. 진단 (Diagnosis)
 - 말초혈액 및 골수 검사 소견과 필라델피아 염색체 또는 BCR-ABL1 융합 유전자 확인으로 진단.
@@ -51,7 +51,7 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 - 치료 원칙: TKI(티로신 키나아제 억제제)를 기반으로 하며, 분자생물학적 모니터링 결과에 따라 치료 전략을 결정함.
 - 모니터링 및 대응: 치료 중 MRD를 정기적으로 추적하여 최적 반응을 평가함. 치료 저항성이 의심되는 경우 내성 돌연변이 검사를 시행하여 약제 변경 등 치료 전략을 조정함.
-- 치료 중단 고려: 치료 중단 시에도 MRD 모니터링이 필수적으로 요구됨. [[Recommendations from the GBMHM and the Fi-LMC for the diagnosis and management of chronic myeloid leukemia].](https://pubmed.ncbi.nlm.nih.gov/40908230/) [[Recommendations from the GBMHM and the Fi-LMC for the diagnosis and management of chronic myeloid leukemia].](https://pubmed.ncbi.nlm.nih.gov/40908230/)
+- 치료 중단 고려: 치료 중단 시에도 MRD 모니터링이 필수적으로 요구됨.
 
 ## 6. 예후 및 합병증 (Prognosis)
   **진행 단계** :

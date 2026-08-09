@@ -39,7 +39,7 @@ content_updated_at: "2026-07-16"
     * 어깨난산 시: 태아 머리가 회음부로 다시 들어가는 '거북이 징후(Turtle sign)' 관찰 가능.
 
 ## 3. 검사 (Lab & Imaging)
-- 어깨난산은 예측이 어렵고 예방이 불가능한 경우가 많음. 일상적인 골반 계측이나 초음파를 통한 태아 체중 추정은 어깨난산 발생을 정확히 예측하지 못하므로 일상적 권고 대상이 아님. [Shoulder Dystocia. Guideline of the DGGG, OEGGG and SGGG (S2k-Level, AWMF Registry No. 015/098, 10/2024).](https://pubmed.ncbi.nlm.nih.gov/40494572/)
+- 어깨난산은 예측이 어렵고 예방이 불가능한 경우가 많음. 일상적인 골반 계측이나 초음파를 통한 태아 체중 추정은 어깨난산 발생을 정확히 예측하지 못하므로 일상적 권고 대상이 아님.
 
 ## 4. 진단 (Diagnosis)
 - 임상적 진단: 분만 중 산과적 조작 없이 태아 어깨 만출이 실패하거나, 머리 만출 후 어깨 만출까지 1분 이상 소요되는 경우.
@@ -48,7 +48,7 @@ content_updated_at: "2026-07-16"
 - 어깨난산 발생 시 표준화된 알고리즘에 따른 즉각적인 산과적 조작 시행.
 - 과도한 견인 금지: 태아 손상 위험을 높임.
 - 다학제적 대응: 의료진 간의 명확한 의사소통 및 역할 분담이 중요.
-- 사후 관리: 사건 발생 후 문서화, 의료진 디브리핑(Debriefing), 산모와의 후속 상담(Follow-up discussion) 필수. [Shoulder Dystocia. Guideline of the DGGG, OEGGG and SGGG (S2k-Level, AWMF Registry No. 015/098, 10/2024).](https://pubmed.ncbi.nlm.nih.gov/40494572/)
+- 사후 관리: 사건 발생 후 문서화, 의료진 디브리핑(Debriefing), 산모와의 후속 상담(Follow-up discussion) 필수.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 산모: 산도 열상, 산후 출혈.

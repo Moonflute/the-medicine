@@ -41,7 +41,7 @@ content_updated_at: "2026-07-16"
 - 합병증 평가: 낭종 출혈, 파열, 감염 의심 시 조영 증강 CT가 우선 권고됨. 신기능 저하 환자에서는 조영 증강 MRI가 대안으로 적절함.
 - 유전자 검사: 가족력이 없거나 영상 검사가 불확실한 경우, 공여자 평가 시 시행.
 - 소변검사: 미세 단백뇨 및 혈뇨 확인.
-[ACR Appropriateness Criteria® Autosomal Dominant Polycystic Kidney Disease.](https://pubmed.ncbi.nlm.nih.gov/41823938/)(https://pubmed.ncbi.nlm.nih.gov/41823938/)
+출처: ACR Appropriateness Criteria® Autosomal Dominant Polycystic Kidney Disease.
 
 ## 4. 진단 (Diagnosis)
 - 가족력, 전형적인 증상, 영상 검사상 양측성 다발성 낭종 확인.
@@ -53,7 +53,7 @@ content_updated_at: "2026-07-16"
 - 질환 진행 지연: 톨밥탄(Tolvaptan) 고려(질환 진행 위험이 높은 환자에서 신장 용적 증가 및 기능 저하 지연).
 - 합병증 관리: 요로감염 시 항생제 치료, 통증 조절, 필요 시 낭종 흡인 또는 신절제술.
 - 말기 신부전 시: 투석 또는 콩팥 이식.
-[KDIGO 2025](https://kdigo.org/guidelines/adpkd/)
+출처: KDIGO 2025
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 60세까지 약 35~45%에서 신부전 발생.

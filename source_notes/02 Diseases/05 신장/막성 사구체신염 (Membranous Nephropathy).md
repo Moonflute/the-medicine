@@ -43,7 +43,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - **필수 검사**: 혈청 항-PLA2R 항체(Anti-PLA2R antibody) 측정은 일차성 막성 신증후군 진단 및 질환 활성도 평가에 필수적임.
 - **이차성 감별**: 연령 및 임상 상황에 따른 암 선별검사(고형암 등), 감염(HBV, HCV, HIV, 매독), 자가면역질환(SLE) 관련 혈청학적 검사.
-- **주의사항**: 신생검은 항-PLA2R 항체 음성이거나 이차성 원인이 의심되는 경우, 또는 신기능이 급격히 악화될 때 시행함. [KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases](https://kdigo.org/guidelines/gd/)
+- **주의사항**: 신생검은 항-PLA2R 항체 음성이거나 이차성 원인이 의심되는 경우, 또는 신기능이 급격히 악화될 때 시행함.
 
 ## 4. 진단 (Diagnosis)
 - 신생검(Renal biopsy)으로 확진.
@@ -55,7 +55,7 @@ content_updated_at: "2026-07-16"
 - **면역억제 치료**: 진행 위험이 높은 환자(지속적 신증후군 범위 단백뇨, 신기능 저하)를 대상으로 함.
   - **1차 치료**: 리툭시맙(Rituximab) 또는 칼시뉴린 억제제(CNI) 기반 요법을 우선 고려.
   - **병용 요법**: 고위험군에서 CNI와 리툭시맙 병용 또는 사이클로포스파마이드 기반 요법 고려.
-- **모니터링**: 항-PLA2R 항체 역가 및 단백뇨 변화를 통해 치료 반응을 평가하고, 면역억제제 투여 시 감염 및 약물 부작용을 주기적으로 모니터링함. [KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases](https://kdigo.org/guidelines/gd/)
+- **모니터링**: 항-PLA2R 항체 역가 및 단백뇨 변화를 통해 치료 반응을 평가하고, 면역억제제 투여 시 감염 및 약물 부작용을 주기적으로 모니터링함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 1/3은 자연 관해, 1/3은 안정적 만성 신질환, 1/3은 말기 신부전으로 진행.

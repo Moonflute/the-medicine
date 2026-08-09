@@ -41,7 +41,7 @@ content_updated_at: "2026-07-30"
 * 심도자술 (Right heart catheterization): 확진 및 혈역학적 프로파일 확인 (필수).
 * CXR, CT, EKG: 원인 질환 감별 및 우심 비대 확인.
 * 폐기능 검사: 폐질환 여부 확인.
-* 전신경화증(SSc) 환자: 폐동맥 고혈압(PAH) 선별검사 및 정기적 모니터링 필요 [Guide from the Colegio Mexicano de Reumatología for the Pharmacological Treatment of Systemic Sclerosis Part 1: Cutaneous Involvement, Interstitial Lung Disease, and Pulmonary Arterial Hypertension.](https://pubmed.ncbi.nlm.nih.gov/42270533/).
+* 전신경화증(SSc) 환자: 폐동맥 고혈압(PAH) 선별검사 및 정기적 모니터링 필요.
 
 ## 4. 진단 (Diagnosis)
 - 심초음파로 의심하고 심도자술을 통해 평균 폐동맥압 > 20mmHg 및 폐혈관 저항 상승을 확인하여 진단.
@@ -53,7 +53,7 @@ content_updated_at: "2026-07-30"
 - **Group 1 PAH**: 위험도 평가에 따라 endothelin receptor antagonist·PDE5 inhibitor 기반 병합치료를 시작하고, 고위험 또는 진행 시 prostacyclin 경로 약제와 이식 평가를 전문센터에서 결정한다.
 - **Group 2/3**: 좌심질환·판막질환 또는 폐질환/저산소증을 최적화하는 것이 우선이며, PAH 표적 약물은 일반적으로 표준 치료가 아니다.
 - **CTEPH**: lifelong anticoagulation을 포함해 수술적 pulmonary endarterectomy 가능성, balloon pulmonary angioplasty와 약물 치료를 CTEPH 센터에서 평가한다.: 혈관 확장제(prostacyclin, endothelin receptor antagonists, PDE5 inhibitors 등) 및 이뇨제 사용.
-- 전신경화증(SSc) 관련 PAH: 다학제적 접근 및 단계적 치료 알고리즘 적용 [Guide from the Colegio Mexicano de Reumatología for the Pharmacological Treatment of Systemic Sclerosis Part 1: Cutaneous Involvement, Interstitial Lung Disease, and Pulmonary Arterial Hypertension.](https://pubmed.ncbi.nlm.nih.gov/42270533/).
+- 전신경화증(SSc) 관련 PAH: 다학제적 접근 및 단계적 치료 알고리즘 적용.
 - 중증 시 폐 이식 고려.
 
 ## 6. 예후 및 합병증 (Prognosis)

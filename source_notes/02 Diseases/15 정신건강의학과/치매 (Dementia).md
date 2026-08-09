@@ -34,7 +34,7 @@ content_updated_at: "2026-07-16"
 * **혈액 검사**: CBC, LFT, RFT, 전해질, 비타민 B12, 엽산, 갑상선 기능 검사, 매독 혈청 검사, HIV 검사.
 * **영상 검사**: 뇌 MRI/CT (위축, 경색, 종양, 수두증 확인), 필요 시 PET (아밀로이드 침착, 대사 저하).
 * **신경심리 검사**: 인지 영역별 정밀 평가.
-* **참고**: 항아밀로이드 단일클론항체 치료 고려 시 아밀로이드 침착 확인을 위한 추가 검사가 필요할 수 있음 [Appropriate use recommendations of the Spanish Society of Neurology's Behavioural Neurology and Dementia Study Group on anti-amyloid antibodies in the treatment of Alzheimer disease.](https://pubmed.ncbi.nlm.nih.gov/42202980/).
+* **참고**: 항아밀로이드 단일클론항체 치료 고려 시 아밀로이드 침착 확인을 위한 추가 검사가 필요할 수 있음.
 
 ## 4. 진단 (Diagnosis)
 * **DSM-5 기준**: 인지 기능의 저하가 이전 수준보다 유의미하며, 일상생활의 독립적 수행에 지장을 주는 정도(주요 신경인지장애) 또는 지장을 주지 않는 정도(경도 신경인지장애)로 구분.
@@ -44,10 +44,10 @@ content_updated_at: "2026-07-16"
 * **원인 질환 치료**: 가역적 원인(약물, 대사 이상, 감염 등) 교정.
 * **약물 치료**: 
   * 인지 기능 개선제: Donepezil, Rivastigmine, Galantamine, Memantine.
-  * 항아밀로이드 단일클론항체: 알츠하이머병 치료제로 승인되었으며, 환자 선정 기준, 모니터링, 치료 중단 기준에 대한 전문가 합의 권고안을 준수해야 함 [Appropriate use recommendations of the Spanish Society of Neurology's Behavioural Neurology and Dementia Study Group on anti-amyloid antibodies in the treatment of Alzheimer disease.](https://pubmed.ncbi.nlm.nih.gov/42202980/).
+  * 항아밀로이드 단일클론항체: 알츠하이머병 치료제로 승인되었으며, 환자 선정 기준, 모니터링, 치료 중단 기준에 대한 전문가 합의 권고안을 준수해야 함.
   * 원인 질환에 따른 항정신병 약물 등.
 * **비약물적 치료**: 인지 재활, 환경 수정, 보호자 교육.
-* **관리**: 치료 결정 시 환자-의사 간 공유 의사결정(Shared decision-making)이 필수적이며, 처방 센터의 요건을 확인해야 함 [Appropriate use recommendations of the Spanish Society of Neurology's Behavioural Neurology and Dementia Study Group on anti-amyloid antibodies in the treatment of Alzheimer disease.](https://pubmed.ncbi.nlm.nih.gov/42202980/).
+* **관리**: 치료 결정 시 환자-의사 간 공유 의사결정(Shared decision-making)이 필수적이며, 처방 센터의 요건을 확인해야 함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

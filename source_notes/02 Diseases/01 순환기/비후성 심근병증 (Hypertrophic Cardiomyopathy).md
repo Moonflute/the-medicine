@@ -49,7 +49,7 @@ content_updated_at: "2026-07-16"
 - **심전도(EKG)**: 좌심실 비대 전압, 거대 T파 역전, 병적 Q파 확인.
 - **심초음파(echo)**: 진단의 핵심. 비대칭적 중격 비후 및 좌심실 유출로(LVOT) 폐쇄 여부 평가.
 - **심장 MRI**: 심근 섬유화(LGE) 평가 및 심초음파로 확인이 어려운 부위의 비후 확인.
-- **유전자 검사**: 가족력 확인 및 고위험군 선별을 위해 고려. [EJHF expert consensus statement on the diagnosis and management of hypertrophic cardiomyopathy.](https://pubmed.ncbi.nlm.nih.gov/41771101/)
+- **유전자 검사**: 가족력 확인 및 고위험군 선별을 위해 고려.
 
 ## 4. 진단 (Diagnosis)
 - 심초음파 또는 심장 MRI를 통해 좌심실 비후를 확인하여 진단.
@@ -58,10 +58,10 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 - **약물 치료**: 
   - 1차: 베타차단제 또는 비디하이드로피리딘계 칼슘채널차단제(베라파밀 등)를 증상 조절을 위해 우선 사용.
-  - 2차: 유출로 폐쇄가 지속되는 경우 디소피라미드(disopyramide) 또는 심근 미오신 억제제(mavacamten, aficamten) 고려. [EJHF expert consensus statement on the diagnosis and management of hypertrophic cardiomyopathy.](https://pubmed.ncbi.nlm.nih.gov/41771101/)
+  - 2차: 유출로 폐쇄가 지속되는 경우 디소피라미드(disopyramide) 또는 심근 미오신 억제제(mavacamten, aficamten) 고려.
 - **시술/수술**: 약물 치료에 반응하지 않는 증상성 유출로 폐쇄 시 심근 절제술(myectomy) 또는 알코올 중격 절제술 시행.
 - **돌연심장사 예방**: 위험도 평가 모델에 따라 삽입형 제세동기(ICD) 삽입 고려.
-- **주의사항**: 전부하를 감소시키는 약제(이뇨제, ACEI, ARB 등)는 유출로 폐쇄를 악화시킬 수 있으므로 신중히 사용. [EJHF expert consensus statement on the diagnosis and management of hypertrophic cardiomyopathy.](https://pubmed.ncbi.nlm.nih.gov/41771101/)
+- **주의사항**: 전부하를 감소시키는 약제(이뇨제, ACEI, ARB 등)는 유출로 폐쇄를 악화시킬 수 있으므로 신중히 사용.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 돌연심장사, 심방세동, 심부전으로 진행할 수 있다.

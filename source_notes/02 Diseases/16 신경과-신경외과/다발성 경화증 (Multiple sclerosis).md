@@ -36,7 +36,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - **Brain/Spine MRI**: 탈수초 병변 확인 (Dawson finger, 가돌리늄 조영 증강 병변)
 - **McDonald criteria**: 시간적(dissemination in time) 및 공간적(dissemination in space) 다발성을 입증하여 진단
-- **혈청 신경미세섬유 경쇄(sNfL)**: 신경축삭 손상의 지표로, 임상 평가 및 MRI를 보완하여 질환 활동성 및 진행 모니터링에 활용 가능 [Relevance of serum neurofilament light chain determination as a biomarker in multiple sclerosis. Consensus of the Spanish Society of Neurology's Study Group on Multiple Sclerosis and Related Neuroimmune Diseases.](https://pubmed.ncbi.nlm.nih.gov/42044944/)
+- **혈청 신경미세섬유 경쇄(sNfL)**: 신경축삭 손상의 지표로, 임상 평가 및 MRI를 보완하여 질환 활동성 및 진행 모니터링에 활용 가능
 - **기타**: Lhermitte sign, 뇌척수액 검사(올리고클론 띠 등)
 
 ## 4. 진단 (Diagnosis)
@@ -45,7 +45,7 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 - **급성기**: 고용량 스테로이드 요법(재발 시 증상 완화 및 회복 촉진)
 - **질환 조절 치료(DMT)**: 인터페론-베타, 글라티라머 아세테이트, 디메틸 푸마레이트, 핑골리모드, 나탈리주맙 등(재발 감소 및 장애 진행 억제)
-- **치료 모니터링 및 조정**: 임상 평가, MRI와 함께 sNfL 수치를 활용하여 치료 반응을 평가하고, 무증상 축삭 손상을 감지하여 치료 전략을 최적화함 [Relevance of serum neurofilament light chain determination as a biomarker in multiple sclerosis. Consensus of the Spanish Society of Neurology's Study Group on Multiple Sclerosis and Related Neuroimmune Diseases.](https://pubmed.ncbi.nlm.nih.gov/42044944/)
+- **치료 모니터링 및 조정**: 임상 평가, MRI와 함께 sNfL 수치를 활용하여 치료 반응을 평가하고, 무증상 축삭 손상을 감지하여 치료 전략을 최적화함
 - **대증 요법**: 경직, 피로, 통증, 배뇨 장애 등 증상별 관리 및 다학제적 접근
 
 ## 6. 예후 및 합병증 (Prognosis)

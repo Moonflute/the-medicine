@@ -56,7 +56,7 @@ content_updated_at: "2026-07-16"
 - **국소 질환**: 수술, 방사선 치료(EBRT), 표적/전신 항암 요법의 다학제적 접근.
 - **진행성/전이성 질환**: 전신 치료 및 완화 의료(palliative care) 옵션 고려.
 - **기타**: 기도 폐쇄 위험 시 기관절개술 고려 및 장기 모니터링.
-[2021 American Thyroid Association Guidelines for Management of Patients with Anaplastic Thyroid Cancer.](https://pubmed.ncbi.nlm.nih.gov/33728999/)(https://pubmed.ncbi.nlm.nih.gov/33728999/)
+출처: 2021 American Thyroid Association Guidelines for Management of Patients with Anaplastic Thyroid Cancer.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 매우 예후가 불량하며, 진단 후 1년 이내 사망률이 높음.

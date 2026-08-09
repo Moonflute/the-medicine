@@ -49,7 +49,7 @@ content_updated_at: "2026-07-16"
 - **심막 천자술**: 심막 삼출액이 심하거나 심장 눌림증(cardiac tamponade)이 발생한 경우 시행.
 - **기타**: 재발성 또는 난치성인 경우 심막 절제술(pericardiectomy) 고려.
 - **초기 치료·재평가**: 특발성/바이러스성으로 판단되는 저위험 환자는 NSAID 또는 aspirin과 colchicine을 함께 사용하고, 증상·CRP·약물 부작용을 보며 감량한다. 스테로이드는 NSAID/colchicine 금기 또는 특정 원인이 있을 때에 한해 신중히 고려한다.
-- **응급 및 원인 치료**: 저혈압, 심장눌림, 화농성·결핵성·종양성 심막염이 의심되면 원인 검사와 배액/전문과 협진을 지연하지 않는다. 무리한 운동은 급성기와 회복 평가 전까지 피하고, 재발은 초기 치료 순응도·원인·약물 금기를 다시 확인한다. [ACC acute and recurrent pericarditis review](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2020/01/07/10/59/management-of-acute-and-recurrent-pericarditis)
+- **응급 및 원인 치료**: 저혈압, 심장눌림, 화농성·결핵성·종양성 심막염이 의심되면 원인 검사와 배액/전문과 협진을 지연하지 않는다. 무리한 운동은 급성기와 회복 평가 전까지 피하고, 재발은 초기 치료 순응도·원인·약물 금기를 다시 확인한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심장 눌림증, 교착 심막염(constrictive pericarditis) 등으로 진행할 수 있음.

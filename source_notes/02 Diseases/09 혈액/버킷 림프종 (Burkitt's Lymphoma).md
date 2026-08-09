@@ -40,7 +40,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - 조직생검(절제 생검 권장), 면역표현형 검사, 세포유전학적 검사(MYC 재배열 확인).
 - 골수 흡인 및 생검, 뇌척수액(CSF) 검사, PET/CT를 통한 병기 설정.
-- 종양 부하가 높은 환자에서 종양 용해 증후군(Tumor Lysis Syndrome) 발생 위험이 높으므로 이에 대한 면밀한 모니터링이 필수적이다. [Diagnosis and treatment of Burkitt lymphoma in adults: clinical practice guidelines from ERN-EuroBloodNet.](https://pubmed.ncbi.nlm.nih.gov/39909657/)
+- 종양 부하가 높은 환자에서 종양 용해 증후군(Tumor Lysis Syndrome) 발생 위험이 높으므로 이에 대한 면밀한 모니터링이 필수적이다.
 
 ## 4. 진단 (Diagnosis)
 - 병리 조직학적 소견(Starry sky appearance), 면역표현형(CD10+, BCL6+, BCL2-, Ki-67 100%에 근접), 분자유전학적 검사를 통합하여 진단한다.
@@ -49,7 +49,7 @@ content_updated_at: "2026-07-16"
 - 매우 공격적인 질환이므로 진단 후 즉시 치료를 시작해야 한다.
 - 고강도 항암화학요법과 리툭시맙(Rituximab) 병용 요법이 표준이다.
 - 중추신경계(CNS) 침범 위험이 높으므로 CNS 지향적 치료(CNS-oriented therapy) 전략을 수립해야 한다.
-- 종양 부하가 높은 환자에서는 종양 용해 증후군 예방 및 관리가 치료의 핵심 요소이다. [Diagnosis and treatment of Burkitt lymphoma in adults: clinical practice guidelines from ERN-EuroBloodNet.](https://pubmed.ncbi.nlm.nih.gov/39909657/)
+- 종양 부하가 높은 환자에서는 종양 용해 증후군 예방 및 관리가 치료의 핵심 요소이다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 소아에서는 고강도 항암화학요법으로 우수한 예후를 보이나, 성인에서는 상대적으로 예후가 불량할 수 있다.

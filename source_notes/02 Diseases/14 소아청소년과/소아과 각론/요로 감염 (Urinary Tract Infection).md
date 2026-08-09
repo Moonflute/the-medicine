@@ -44,7 +44,7 @@ content_updated_at: "2026-07-16"
 - **소변 채취**: 소변백, 청결 채뇨, 도뇨, 치골상부 천자 등 다양한 방법 존재(각 방법의 장단점 고려)
 - **분석 방법**: 요시험지봉(dipstick), 현미경 검사, 유세포 분석 기술 등 활용
 - **권장 사항**: 요시험지봉 검사 양성 시 현미경 검사 권장
-- **영상 검사**: 첫 발열성 요로 감염 후 신장 및 방광 초음파 검사 권장. 추가 검사는 환자 및 감염 특성에 따라 결정 [Update and summary of the EAU/ESPU paediatric guidelines on urinary tract infection in children.](https://pubmed.ncbi.nlm.nih.gov/40615247/)
+- **영상 검사**: 첫 발열성 요로 감염 후 신장 및 방광 초음파 검사 권장. 추가 검사는 환자 및 감염 특성에 따라 결정
 
 ## 4. 진단
 - 임상 증상과 소변 검사(농뇨, 세균뇨)를 종합하여 진단
@@ -54,7 +54,7 @@ content_updated_at: "2026-07-16"
 - **원칙**: 신속한 항생제 투여가 핵심
 - **항생제 선택**: 지역 내 항생제 감수성 패턴을 고려하여 선택하며, 배양 결과에 따라 조정(de-escalation)
 - **투여 경로**: 환자 상태 및 감염 특성에 따라 결정
-- **재발 방지**: 항생제 예방요법, 비항생제 예방요법 고려. 포경, 방광-장 기능 장애 및 하부 요로 기능 장애에 대한 치료 병행 [Update and summary of the EAU/ESPU paediatric guidelines on urinary tract infection in children.](https://pubmed.ncbi.nlm.nih.gov/40615247/)
+- **재발 방지**: 항생제 예방요법, 비항생제 예방요법 고려. 포경, 방광-장 기능 장애 및 하부 요로 기능 장애에 대한 치료 병행
 
 ## 6. 예후 및 합패증
 - 조기 치료 시 예후 양호

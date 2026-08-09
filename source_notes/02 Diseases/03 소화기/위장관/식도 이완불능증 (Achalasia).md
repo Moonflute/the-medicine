@@ -44,7 +44,7 @@ content_updated_at: "2026-07-17"
 - 아형 분류: 연동운동 소실 양상에 따라 3가지 유형으로 구분하며, 이는 치료 예후와 연관됨
 
 ## 5. 치료
-- **치료 선택**: PD, 복강경 Heller myotomy+fundoplication, POEM은 모두 치료 옵션이며 아형, 수술 위험, 식도 형태, 이전 치료와 reflux 위험을 고려해 선택한다. Type III에서는 POEM이 유리할 수 있고, POEM 뒤에는 역류 증상·식도염을 적극 감시해 PPI 필요성을 평가한다. 반복 치료 실패, 심한 확장/구불 식도, 영양저하는 식도 전문 다학제에 의뢰한다. [SAGES POEM guideline update](https://pubmed.ncbi.nlm.nih.gov/40399617/)
+- **치료 선택**: PD, 복강경 Heller myotomy+fundoplication, POEM은 모두 치료 옵션이며 아형, 수술 위험, 식도 형태, 이전 치료와 reflux 위험을 고려해 선택한다. Type III에서는 POEM이 유리할 수 있고, POEM 뒤에는 역류 증상·식도염을 적극 감시해 PPI 필요성을 평가한다. 반복 치료 실패, 심한 확장/구불 식도, 영양저하는 식도 전문 다학제에 의뢰한다.
 - 치료 원칙: 연동운동을 회복시키는 방법은 없으며, 하부 식도 조임근의 압력을 낮추어 증상을 완화하는 것이 목적
 - 1차 치료: 내시경적 풍선확장술, 경구 식도근절개술(POEM), 복강경 식도근절개술(LHM).
   POEM은 특히 Type III 아형에서 효과적일 수 있음

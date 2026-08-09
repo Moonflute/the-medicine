@@ -38,7 +38,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - **1차 검사:** 컬러 안저 사진, 자가형광 안저 촬영(AFF), 구조적 OCT를 통해 병변 크기 및 중심와 보존 여부 평가
 - **추가 검사:** OCT-A(맥락막 신생혈관 진단), 형광안저혈관조영술(FFA) 및 인도시아닌그린혈관조영술(ICGA)은 감별 진단 시 시행
-- **기능 평가:** 시력 측정 외에 저휘도 시력(LLVA), 대비 감도, 독서 속도, 미세시야계 검사 고려 가능 [[Diagnostic approach and treatment paradigm in atrophic age related macular degeneration: Recommendations of the France Macula Federation].](https://pubmed.ncbi.nlm.nih.gov/40058064/) [[Diagnostic approach and treatment paradigm in atrophic age related macular degeneration: Recommendations of the France Macula Federation].](https://pubmed.ncbi.nlm.nih.gov/40058064/)
+- **기능 평가:** 시력 측정 외에 저휘도 시력(LLVA), 대비 감도, 독서 속도, 미세시야계 검사 고려 가능
 
 ## 4. 진단 (Diagnosis)
 - 임상적 안저 검사 및 다중 영상 검사(OCT, FFA, ICGA)를 종합하여 진단
@@ -47,7 +47,7 @@ content_updated_at: "2026-07-16"
 
 ## 5. 치료 (Treatment)
 - **다학제적 접근:** 정기적인 임상 모니터링, 의학적 치료, 심리적 지원, 시기능 재활 및 시각 보조기구 활용
-- **환자 지원:** 환자 지원 그룹(Support groups) 연계 권장 [[Diagnostic approach and treatment paradigm in atrophic age related macular degeneration: Recommendations of the France Macula Federation].](https://pubmed.ncbi.nlm.nih.gov/40058064/) [[Diagnostic approach and treatment paradigm in atrophic age related macular degeneration: Recommendations of the France Macula Federation].](https://pubmed.ncbi.nlm.nih.gov/40058064/)
+- **환자 지원:** 환자 지원 그룹(Support groups) 연계 권장
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 없을 경우 비가역적인 중심 시력 상실 및 실명 위험

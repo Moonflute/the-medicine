@@ -35,7 +35,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - **진단 보조**: 임상 위험 점수(clinical risk scores) 및 영상 검사는 진단 정확도를 높이고 불필요한 충수절제술(negative appendectomy) 비율을 낮춤.
 - **Imaging**: 복부 CT가 표준이나, 환자군(소아, 임산부 등)에 따라 초음파 등 적절한 영상 기법을 선택함.
-- **주의**: 영상 검사 및 임상 점수는 진단 표준화와 불확실성 감소를 위해 활용함. [Diagnosis and Treatment of Acute Appendicitis: 2025 Edition of the World Society of Emergency Surgery Jerusalem Guidelines.](https://pubmed.ncbi.nlm.nih.gov/41604201/)
+- **주의**: 영상 검사 및 임상 점수는 진단 표준화와 불확실성 감소를 위해 활용함.
 
 ## 4. 진단 (Diagnosis)
 - 전형적인 임상 증상과 신체 검진을 바탕으로 진단하며, 불확실한 경우 CT 촬영을 통해 확진함.
@@ -44,7 +44,7 @@ content_updated_at: "2026-07-16"
 - **수술**: 복강경 충수절제술(Laparoscopic appendectomy)이 표준 치료임.
 - **수술 시기**: 단순 충수염(uncomplicated)의 경우, 24시간 이내의 수술 지연은 부작용 위험을 증가시키지 않음.
 - **비수술적 치료**: 선택된 단순 충수염 환자에서 항생제 치료는 안전하고 효과적인 대안임.
-- **복잡성 충수염(Complicated)**: 농양 동반 시 비수술적 치료 후 종양 배제를 위한 추적 관찰이 필수적이며, 수술 후 항생제는 2-3일의 단기 요법으로 제한함. [Diagnosis and Treatment of Acute Appendicitis: 2025 Edition of the World Society of Emergency Surgery Jerusalem Guidelines.](https://pubmed.ncbi.nlm.nih.gov/41604201/)
+- **복잡성 충수염(Complicated)**: 농양 동반 시 비수술적 치료 후 종양 배제를 위한 추적 관찰이 필수적이며, 수술 후 항생제는 2-3일의 단기 요법으로 제한함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 수술 시 예후가 좋음.

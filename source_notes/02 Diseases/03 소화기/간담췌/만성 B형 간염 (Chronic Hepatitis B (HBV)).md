@@ -44,20 +44,20 @@ content_updated_at: "2026-07-16"
 
 ## 3. 검사
 - **혈액 검사**: AST, ALT(간염 시 AST < ALT, 간경변 시 AST > ALT 경향), 빌리루빈, PT, 알부민, HBsAg, HBeAg/anti-HBe, HBV DNA 정량.
-- **간 섬유화 평가**: 간 생검 또는 비침습적 방법(간 섬유화 스캔 등)을 통해 염증 및 섬유화 정도를 필수적으로 평가함 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
-- **선별 검사**: HCC 고위험군(간경변, 가족력, HDV 동반 등) 대상 6개월마다 복부 초음파 및 AFP 검사 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
-- **주의사항**: 만성 B형 간염 환자 내원 시 HDV(D형 간염) 동반 감염 여부를 반드시 확인해야 함 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
+- **간 섬유화 평가**: 간 생검 또는 비침습적 방법(간 섬유화 스캔 등)을 통해 염증 및 섬유화 정도를 필수적으로 평가함.
+- **선별 검사**: HCC 고위험군(간경변, 가족력, HDV 동반 등) 대상 6개월마다 복부 초음파 및 AFP 검사.
+- **주의사항**: 만성 B형 간염 환자 내원 시 HDV(D형 간염) 동반 감염 여부를 반드시 확인해야 함.
 
 ## 4. 진단
 - **진단 기준**: HBsAg 양성 6개월 이상 지속, HBV DNA 검출, AST/ALT 상승, 간 생검 소견.
 - **감별 진단**: C형 간염, 자가면역 간염, 비알코올성 지방간염, 알코올성 간 질환.
 
 ## 5. 치료
-- **치료 목표**: HBV 증식 억제, 염증 완화, 섬유화 방지, 간경변/간세포암 예방 및 생존율 향상 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
-- **치료 적응증**: HBeAg 양성/음성 여부, HBV DNA 수치, ALT 수치, 간 섬유화 정도를 종합적으로 고려하여 결정 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
-- **약물 요법**: 1차 약제로 Tenofovir(TDF, TAF) 또는 Entecavir 권고 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
-- **HDV 동반 시**: 만성 B형 간염에 HDV가 동반된 경우, 별도의 HDV 관리 전략 및 치료 계획을 수립해야 함 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
-- **관리 및 추적**: 1차 의료기관과 병원 간의 긴밀한 협진 체계를 통해 조기 진단, 치료 접근성 보장 및 정기적인 추적 관찰 수행 [Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain.](https://pubmed.ncbi.nlm.nih.gov/41825518/).
+- **치료 목표**: HBV 증식 억제, 염증 완화, 섬유화 방지, 간경변/간세포암 예방 및 생존율 향상.
+- **치료 적응증**: HBeAg 양성/음성 여부, HBV DNA 수치, ALT 수치, 간 섬유화 정도를 종합적으로 고려하여 결정.
+- **약물 요법**: 1차 약제로 Tenofovir(TDF, TAF) 또는 Entecavir 권고.
+- **HDV 동반 시**: 만성 B형 간염에 HDV가 동반된 경우, 별도의 HDV 관리 전략 및 치료 계획을 수립해야 함.
+- **관리 및 추적**: 1차 의료기관과 병원 간의 긴밀한 협진 체계를 통해 조기 진단, 치료 접근성 보장 및 정기적인 추적 관찰 수행.
 
 ## 6. 예후 및 합병증
 - **예후**: 치료하지 않을 경우 간경변증, 간부전, 간세포암으로 진행 위험 높음.

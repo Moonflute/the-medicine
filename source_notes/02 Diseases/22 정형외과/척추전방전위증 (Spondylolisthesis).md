@@ -42,7 +42,7 @@ content_updated_at: "2026-07-16"
 - Oblique view: Scotty dog sign (협부 결손 시).
 - CT: 골 구조 및 협부 결손 확인.
 - MRI: 신경 압박, 디스크 퇴행, 연부 조직 평가.
-- 주의: 영상 소견과 환자의 신체적 제한 증상이 일치하는지 확인하는 것이 중요함 [[Surgical Treatment of Degenerative Lumbar Stenosis and Spondylolisthesis: Clinical Practice Guideline].](https://pubmed.ncbi.nlm.nih.gov/37395422/). [[Surgical Treatment of Degenerative Lumbar Stenosis and Spondylolisthesis: Clinical Practice Guideline].](https://pubmed.ncbi.nlm.nih.gov/37395422/)
+- 주의: 영상 소견과 환자의 신체적 제한 증상이 일치하는지 확인하는 것이 중요함.
 
 ## 4. 진단 (Diagnosis)
 - 임상 증상과 영상 의학적 소견(X-ray, CT, MRI)을 종합하여 진단.
@@ -54,7 +54,7 @@ content_updated_at: "2026-07-16"
   - 적응증: 보존적 치료에 반응하지 않는 경우.
   - 퇴행성 척추전방전위증(안정성): 단순 감압술(simple decompression)이 골 유합술(fusion)과 비교하여 임상적 결과가 대등하며 비용 및 위험 대비 권장됨.
   - 불안정성(dynamic slip): 골 유합술의 시행이 고려됨.
-- 수술 후 관리: 수술 후 감독 하 재활(supervised rehabilitation)을 권장함 [[Surgical Treatment of Degenerative Lumbar Stenosis and Spondylolisthesis: Clinical Practice Guideline].](https://pubmed.ncbi.nlm.nih.gov/37395422/). [[Surgical Treatment of Degenerative Lumbar Stenosis and Spondylolisthesis: Clinical Practice Guideline].](https://pubmed.ncbi.nlm.nih.gov/37395422/)
+- 수술 후 관리: 수술 후 감독 하 재활(supervised rehabilitation)을 권장함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 신경 압박으로 인한 만성 통증, 신경학적 결손, 척추관 협착증으로 진행 가능.

@@ -48,7 +48,7 @@ content_updated_at: "2026-07-30"
 ## 3. 검사 (Lab & Imaging)
 - **Lab**: 혈액 배양 및 소변 배양 검사를 통해 원인균을 동정하고 항생제 감수성을 확인해야 함.
 - **Imaging**: 조영 증강 CT가 진단 및 농양의 크기, 위치, 범위 확인에 가장 유용함. 초음파는 CT 시행이 어려운 경우 보조적으로 사용 가능.
-- **주의사항**: 요로 폐쇄 여부를 반드시 확인하여 필요 시 즉각적인 감압술을 고려해야 함. [EAU Guidelines on Urological Infections](https://uroweb.org/guidelines/urological-infections)
+- **주의사항**: 요로 폐쇄 여부를 반드시 확인하여 필요 시 즉각적인 감압술을 고려해야 함.
 
 ## 4. 진단 (Diagnosis)
 - 임상 증상과 영상 의학적 검사(CT)를 통해 확진.
@@ -62,7 +62,7 @@ content_updated_at: "2026-07-30"
 - **긴급 상황**: 저혈압·장기부전, emphysematous infection, 단일 신장/양측 폐쇄는 패혈증 경로와 동시 배액 평가가 필요하다.: 원인균 및 감수성 결과에 따라 정맥 항생제를 투여함. 경험적 항생제는 지역사회 및 병원 획득 감염 여부와 내성 패턴을 고려하여 선택.
 - **배액술**: 농양의 크기가 크거나(일반적으로 >3-5cm), 항생제 치료에도 불구하고 48-72시간 내 임상적 호전이 없는 경우 경피적 배액술(percutaneous drainage)을 시행함.
 - **수술**: 배액술이 불가능하거나 실패한 경우, 또는 농양 파열 등 합병증 발생 시 신절제술 등 수술적 치료를 고려함.
-- **모니터링**: 치료 반응 평가를 위해 임상 증상 호전 여부와 염증 수치(CRP, WBC)를 추적 관찰함. [EAU Guidelines on Urological Infections](https://uroweb.org/guidelines/urological-infections)
+- **모니터링**: 치료 반응 평가를 위해 임상 증상 호전 여부와 염증 수치(CRP, WBC)를 추적 관찰함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 치료가 중요하며, 지연 시 패혈증이나 만성 신장 질환으로 진행 가능.

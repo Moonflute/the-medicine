@@ -44,7 +44,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사
 - 영상 검사: 시상하부-뇌하수체 부위를 중심으로 한 박절(thin slice) MRI가 표준이며, 신생아나 중증 호르몬 결핍 시 조기 시행이 필수적임.
 - 호르몬 검사: 모든 호르몬 축(GH, TSH, ACTH, LH, FSH, 프로락틴)에 대한 평가 필요. 요붕증 동반 여부 확인을 위해 ADH 결핍 평가 병행.
-- 유전 검사: 뇌하수체 발달 관련 유전자 차세대 염기서열 분석(NGS), 비교 유전체 보합법(aCGH) 등 고려. [Diagnosis and management of congenital hypopituitarism in children.](https://pubmed.ncbi.nlm.nih.gov/38538470/)
+- 유전 검사: 뇌하수체 발달 관련 유전자 차세대 염기서열 분석(NGS), 비교 유전체 보합법(aCGH) 등 고려.
 
 ## 4. 진단
 - 임상적 의심 후 호르몬 기저치 및 영상 검사로 확진.
@@ -53,7 +53,7 @@ content_updated_at: "2026-07-16"
 
 ## 5. 치료
 - 원칙: 결핍된 각 호르몬 축에 대한 대체 요법 시행. 증상 완화, 합병증 예방, 급성 위기 방지 및 사회적/교육적 통합을 목표로 함.
-- 관리: 내분비 전문의에 의한 평생 추적 관찰이 필수적이며, 증후군성 형태나 동반 질환이 있는 경우 다학제적 접근이 필요함. [Diagnosis and management of congenital hypopituitarism in children.](https://pubmed.ncbi.nlm.nih.gov/38538470/)
+- 관리: 내분비 전문의에 의한 평생 추적 관찰이 필수적이며, 증후군성 형태나 동반 질환이 있는 경우 다학제적 접근이 필요함.
 
 ## 6. 예후 및 합병증
 - 조기 진단 및 적절한 호르몬 대체 요법 시 일상생활 가능.

@@ -45,7 +45,7 @@ content_updated_at: "2026-07-16"
 - **갑상샘 스캔**: TSH 저하 시 시행(열결절은 악성 가능성 낮음).
 - **다변수 초음파(Multiparametric Ultrasound, MPUS)**: 기존 초음파에 미세혈류 영상, 탄성초음파, 조영증강 초음파(CEUS) 및 AI 분석을 결합하여 결절 특성 평가 및 불필요한 생검 최소화.
 - **세침흡인검사(FNA)**: 악성 의심 결절에 대해 시행.
-[EFSUMB Guidelines on Multiparametric Ultrasound Thyroid Nodule Evaluation: PART I.](https://pubmed.ncbi.nlm.nih.gov/41330556/)(https://pubmed.ncbi.nlm.nih.gov/41330556/)
+출처: EFSUMB Guidelines on Multiparametric Ultrasound Thyroid Nodule Evaluation: PART I.
 
 ## 4. 진단 (Diagnosis)
 - TSH 확인 후 결과에 따라 스캔 또는 초음파 시행.

@@ -42,7 +42,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - **영상 검사 원칙**: 정확한 병기(staging) 결정이 치료 방침 결정의 핵심임. 
 - **MRI**: 초기 진단 및 병변 범위 평가에 가장 민감한 표준 검사.
-- **X-ray**: 진행 단계에서 경화, 낭종, 대퇴골두 함몰 및 관절 간격 감소 확인. [Nontraumatic Osteonecrosis of the Femoral Head: An International Evidence-Based Clinical Practice Guideline.](https://pubmed.ncbi.nlm.nih.gov/41961916/)
+- **X-ray**: 진행 단계에서 경화, 낭종, 대퇴골두 함몰 및 관절 간격 감소 확인.
 
 ## 4. 진단 (Diagnosis)
 - 임상 증상과 MRI 소견을 종합하여 진단.
@@ -55,7 +55,7 @@ content_updated_at: "2026-07-16"
 - **수술적 치료**: 
   - **관절 보존술**: 초기 단계에서 시행하며, 적절한 환자 선별이 예후에 중요함.
   - **인공 관절 치환술**: 골두 함몰이 진행된 말기 단계에서 시행.
-- **모니터링**: 치료 후 정기적인 영상 추적 관찰을 통해 병기 변화 및 관절 보존 여부 평가. [Nontraumatic Osteonecrosis of the Femoral Head: An International Evidence-Based Clinical Practice Guideline.](https://pubmed.ncbi.nlm.nih.gov/41961916/)
+- **모니터링**: 치료 후 정기적인 영상 추적 관찰을 통해 병기 변화 및 관절 보존 여부 평가.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견이 중요하며, 괴사 범위가 클수록 예후가 불량함.

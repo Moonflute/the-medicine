@@ -46,7 +46,7 @@ content_updated_at: "2026-07-16"
 - **진단 및 생검**: 
   - 성인 사구체 질환은 확진을 위해 신장생검 시행.
   - 12세 미만 소아는 임상적 추정 후 스테로이드 반응 확인을 우선함.
-  - **생검 생략 고려**: PLA2R-Ab 양성인 일차성 막사구체신염(MGN), 전형적인 당뇨병성 신장병증(당뇨망막병증 동반, 긴 유병기간 등). [KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases](https://kdigo.org/guidelines/gd/)
+  - **생검 생략 고려**: PLA2R-Ab 양성인 일차성 막사구체신염(MGN), 전형적인 당뇨병성 신장병증(당뇨망막병증 동반, 긴 유병기간 등).
 
 ## 4. 진단 및 분류
 - **미세변화병(MCD)**:
@@ -71,7 +71,7 @@ content_updated_at: "2026-07-16"
 - **부종 조절**: 염분 제한(<2g/일), Loop diuretics 사용. 반응 없을 시 IV 알부민 투여 후 이뇨제 병용 고려.
 - **합병증 예방**: 고지혈증 치료(statin), 혈전증 예방(항응고제는 혈전 발생 시 우선 고려), 폐렴구균 백신 접종.
 - **당뇨병성 신장병증**: 혈압 조절(ACEi/ARB), 혈당 조절(SGLT2i, GLP-1RA 등), 필요 시 Finerenone 추가.
-- **참고**: KDIGO 2021 가이드라인은 일반적인 사구체 질환 관리 원칙을 제시하며, 소아 신증후군 및 각 질환별(IgAN, LN, ANCA 등) 최신 가이드라인을 참조하여 개별화된 치료 계획 수립 필요. [KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases](https://kdigo.org/guidelines/gd/)
+- **참고**: KDIGO 2021 가이드라인은 일반적인 사구체 질환 관리 원칙을 제시하며, 소아 신증후군 및 각 질환별(IgAN, LN, ANCA 등) 최신 가이드라인을 참조하여 개별화된 치료 계획 수립 필요.
 
 ## 6. 예후 및 합병증
 - **신정맥 혈전증**: 혈전증 위험 증가로 인한 발생.

@@ -40,7 +40,7 @@ content_updated_at: "2026-07-16"
 - 혈중 프로락틴(PRL) 측정: 고프로락틴혈증 확인. Hook effect 방지를 위해 거대선종 의심 시 희석 검사 고려.
 - 감별 진단: TSH, Free T4(갑상선기능저하증 배제), 임신 반응 검사, 신기능 검사(Cr/GFR).
 - 영상 검사: 뇌하수체 MRI(조영 증강 포함)가 표준. 종양 크기 및 시신경 교차와의 관계 평가.
-- 주의사항: 약물 복용력(항정신병약, 항구토제 등) 확인 필수. [Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement.](https://pubmed.ncbi.nlm.nih.gov/37670148/)
+- 주의사항: 약물 복용력(항정신병약, 항구토제 등) 확인 필수.
 
 ## 4. 진단 (Diagnosis)
 - 혈중 프로락틴 수치가 정상 상한치의 5배 이상인 경우 강력히 의심.
@@ -52,7 +52,7 @@ content_updated_at: "2026-07-16"
 - 모니터링: 치료 시작 후 PRL 수치 및 증상 호전 여부 주기적 평가. 종양 크기 감소 확인을 위한 추적 MRI 시행.
 - 수술 적응증: 약물 치료에 저항성(불내성 포함)이 있거나, 시야 장애 등 종양 압박 증상이 급격히 악화되는 경우, 낭성 병변 등.
 - 약물 중단: 장기간(보통 2년 이상) 정상 PRL 수치 유지 및 종양 크기 감소가 확인된 경우, 전문가 상의 하에 용량 감량 및 중단 시도 고려 가능.
-- 특수 상황: 임신 계획, 정신질환 동반, 거대/공격성 종양의 경우 다학제적 접근 및 개별화된 치료 전략 필요. [Diagnosis and management of prolactin-secreting pituitary adenomas: a Pituitary Society international Consensus Statement.](https://pubmed.ncbi.nlm.nih.gov/37670148/)
+- 특수 상황: 임신 계획, 정신질환 동반, 거대/공격성 종양의 경우 다학제적 접근 및 개별화된 치료 전략 필요.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 도파민 작용제에 반응이 좋으나 장기 복용이 필요할 수 있음.

@@ -46,7 +46,7 @@ content_updated_at: "2026-07-16"
 - 시신경 유두 검사 (C/D ratio 정상: < 0.4)
 - 시야 검사 (자동 정적 시야 검사)
 - 빛간섭단층촬영 (OCT): 망막 신경섬유층 두께 측정
-- 주의: EGS 6판 가이드라인에 따라 최신 진단 기술 및 인공지능 활용 가능성을 고려한 종합적 평가 권장 [Advancing glaucoma care: What's new in the 6th edition of the European Glaucoma Society guidelines.](https://pubmed.ncbi.nlm.nih.gov/41686761/).
+- 주의: EGS 6판 가이드라인에 따라 최신 진단 기술 및 인공지능 활용 가능성을 고려한 종합적 평가 권장.
 
 ## 4. 진단 (Diagnosis)
 - 안압, 시신경 유두 형태, 시야 결손 패턴을 종합하여 진단.
@@ -58,7 +58,7 @@ content_updated_at: "2026-07-16"
 - 폐쇄각 녹내장 (급성): 
   - 약물: 탄산탈수효소억제제(Acetazolamide), 삼투압 이뇨제(Mannitol), 점안액(베타차단제, 알파2-작용제, 필로카르핀).
   - 수술: 레이저 주변홍채절개술(LPI)이 표준 치료.
-- 최신 지침: EGS 6판 가이드라인의 최신 수술적 접근법(incisional surgery, tube shunts 등) 및 환자 관점의 치료 전략을 고려하여 단계적 치료 및 모니터링 수행 [Advancing glaucoma care: What's new in the 6th edition of the European Glaucoma Society guidelines.](https://pubmed.ncbi.nlm.nih.gov/41686761/).
+- 최신 지침: EGS 6판 가이드라인의 최신 수술적 접근법(incisional surgery, tube shunts 등) 및 환자 관점의 치료 전략을 고려하여 단계적 치료 및 모니터링 수행.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 실명 가능성이 있는 질환으로, 조기 진단 및 꾸준한 안압 관리가 필수적임.

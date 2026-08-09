@@ -49,7 +49,7 @@ content_updated_at: "2026-07-16"
 - **조직 검사 (Renal Biopsy)
   - 확진 및 분류(Class I~VI)를 위해 필수적.
   - IF: Full house pattern (IgG, IgA, IgM, C3, C1q 양성).
-  - LM/EM: 분류에 따라 메산지움 증식, 내피세포 증식, 기저막 비후, 초승달 형성 등 관찰. [KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis](https://kdigo.org/guidelines/gd/lupus-nephritis/)
+  - LM/EM: 분류에 따라 메산지움 증식, 내피세포 증식, 기저막 비후, 초승달 형성 등 관찰.
 
 ## 4. 진단 (Diagnosis)
 - SLE 환자에서 단백뇨, 혈뇨, 고혈압, 신기능 저하 발생 시 의심.
@@ -63,7 +63,7 @@ content_updated_at: "2026-07-16"
   - Class III, IV (증식성): 스테로이드 + Mycophenolate(MMF) 또는 Cyclophosphamide 유도 요법.
   - 유지 요법: MMF가 Azathioprine보다 재발률이 낮아 선호됨.
   - 추가 요법: Belimumab 및 Voclosporin을 표준 면역억제제에 병용하는 요법이 KDIGO 2024 가이드라인에 따라 고려 가능.
-  - Class V (막성): 단백뇨 정도에 따라 치료 결정, 증식성 병변 동반 시 적극적 치료. [KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis](https://kdigo.org/guidelines/gd/lupus-nephritis/)
+  - Class V (막성): 단백뇨 정도에 따라 치료 결정, 증식성 병변 동반 시 적극적 치료.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조직학적 분류(Class)에 따라 예후가 다름 (Class VI는 불량).

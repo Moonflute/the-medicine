@@ -54,7 +54,7 @@ content_updated_at: "2026-07-17"
     (모두 PEEP 또는 CPAP ≥ 5 cm H2O 조건 하에 측정)
 
 ## 5. 치료 (Treatment)
-- **환기·보조 전략**: 폐보호 환기와 plateau pressure 감시를 기본으로 하고, 중증 저산소혈증에서는 prone positioning을 조기에 검토한다. 신경근차단은 모든 환자에게 지속적으로 사용하지 말고, 환자-인공호흡기 비동조나 중증 ARDS에서 필요한 기간으로 제한한다. 쇼크가 안정된 뒤에는 보존적 체액 전략을 고려하고, 원인 감염·흡인·수혈반응을 병행 교정한다. [SCCM ARDS neuromuscular blockade guideline](https://pubmed.ncbi.nlm.nih.gov/41773929/)
+- **환기·보조 전략**: 폐보호 환기와 plateau pressure 감시를 기본으로 하고, 중증 저산소혈증에서는 prone positioning을 조기에 검토한다. 신경근차단은 모든 환자에게 지속적으로 사용하지 말고, 환자-인공호흡기 비동조나 중증 ARDS에서 필요한 기간으로 제한한다. 쇼크가 안정된 뒤에는 보존적 체액 전략을 고려하고, 원인 감염·흡인·수혈반응을 병행 교정한다.
 * **산소 요법**: 고유량 비강 캐뉼라(HFNC) 등 비침습적 산소 공급 고려 (단, 중증도에 따라 신중한 판단 필요).
 * **기계 환기**: 폐 보호 전략(Lung protective ventilation) 적용, 1회 환기량(tidal volume) 6 mL/kg (이상 체중 기준) 유지.
 * **기타**: 필요 시 복와위(prone position) 환기, ECMO 고려.

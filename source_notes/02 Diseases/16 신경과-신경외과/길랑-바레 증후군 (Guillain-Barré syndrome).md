@@ -34,7 +34,7 @@ content_updated_at: "2026-07-16"
 - **뇌척수액(CSF)**: 단백질-세포 해리 확인. 진단이 불확실할 때 특히 유용함.
 - **신경전도검사(NCS)**: 진단 보조를 위해 권고됨.
 - **혈청**: 일반적인 운동-감각 길랑-바레 증후군(GBS) 환자에서 항강글리오사이드 항체 검사의 임상적 가치는 제한적임. 단, 밀러 피셔 증후군(MFS) 의심 시 항-GQ1b 항체 검사 고려. 자가면역 결절병증(autoimmune nodopathy) 의심 시 결절-주변결절(nodal-paranodal) 항체 검사 필요.
-- **영상**: 비전형적인 경우 MRI 또는 초음파 고려. [European Academy of Neurology/Peripheral Nerve Society Guideline on diagnosis and treatment of Guillain-Barré syndrome.](https://pubmed.ncbi.nlm.nih.gov/37814552/)(https://pubmed.ncbi.nlm.nih.gov/37814552/)
+- **영상**: 비전형적인 경우 MRI 또는 초음파 고려.
 
 ## 4. 진단 (Diagnosis)
 - 임상적 특징(진행성 근력 약화, 반사 소실)과 CSF 및 NCS 소견을 종합하여 진단.
@@ -46,7 +46,7 @@ content_updated_at: "2026-07-16"
   - **혈장 교환술(PE)**: 보행이 불가능한 환자에서 발병 4주 이내에 12-15L를 4-5회에 걸쳐 1-2주간 시행.
   - **주의**: PE 후 즉시 IVIg 투여는 권장하지 않음. 스테로이드(경구 및 정맥)는 효과가 없으므로 권장하지 않음. IVIg 2차 투여는 예후가 좋지 않은 환자에게 권장하지 않음.
 - **통증 관리**: 가바펜티노이드, 삼환계 항우울제 또는 카르바마제핀 고려.
-- **모니터링**: mEGOS(예후 평가) 및 mEGRIS(인공호흡기 필요성 평가) 점수 활용. [European Academy of Neurology/Peripheral Nerve Society Guideline on diagnosis and treatment of Guillain-Barré syndrome.](https://pubmed.ncbi.nlm.nih.gov/37814552/)(https://pubmed.ncbi.nlm.nih.gov/37814552/)
+- **모니터링**: mEGOS(예후 평가) 및 mEGRIS(인공호흡기 필요성 평가) 점수 활용.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 회복되나 호흡 부전, 부정맥 등 치명적 합병증 발생 가능.

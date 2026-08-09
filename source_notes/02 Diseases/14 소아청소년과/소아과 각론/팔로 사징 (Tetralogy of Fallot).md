@@ -38,7 +38,7 @@ content_updated_at: "2026-07-16"
 * **흉부 X-ray**: 심장 끝이 위로 들린 'Boot-shaped heart' 소견
 * **심전도**: 우심실 비대 및 우축 편위
 * **심장 초음파 (Echo)**: 진단의 표준 검사로 4가지 기형 및 해부학적 구조 확인
-* **추가 평가 (수술 후 환자)**: 폐동맥 판막 치환술(PVR) 적응증 결정을 위해 고급 영상 검사, 전기생리학 검사, 운동 부하 검사 고려 [The Society of Thoracic Surgeons/World Society for Pediatric and Congenital Heart Surgery/European Congenital Heart Surgeons Association 2026 Clinical Practice Guidelines on Indications and Timing of Pulmonary Valve Replacement in Repaired Tetralogy of Fallot.](https://pubmed.ncbi.nlm.nih.gov/42031156/)
+* **추가 평가 (수술 후 환자)**: 폐동맥 판막 치환술(PVR) 적응증 결정을 위해 고급 영상 검사, 전기생리학 검사, 운동 부하 검사 고려
 
 ## 4. 진단 (Diagnosis)
 * 임상 증상 및 신체 검진
@@ -47,7 +47,7 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 * **근치적 교정술**: 조기 수술이 원칙
 * **무산소 발작 시**: 무릎-가슴 자세(knee-chest position), 산소 공급, 진정제(모르핀) 투여, 필요 시 수액 및 혈관수축제 사용
-* **수술 후 장기 관리**: 다학제 팀 기반의 추적 관찰 및 치료 계획 수립. 폐동맥 판막 치환술(PVR) 고려 시 증상 유무, 심실 용적(성인), 침습적 전기생리학 검사 결과 등을 종합적으로 평가 [The Society of Thoracic Surgeons/World Society for Pediatric and Congenital Heart Surgery/European Congenital Heart Surgeons Association 2026 Clinical Practice Guidelines on Indications and Timing of Pulmonary Valve Replacement in Repaired Tetralogy of Fallot.](https://pubmed.ncbi.nlm.nih.gov/42031156/)
+* **수술 후 장기 관리**: 다학제 팀 기반의 추적 관찰 및 치료 계획 수립. 폐동맥 판막 치환술(PVR) 고려 시 증상 유무, 심실 용적(성인), 침습적 전기생리학 검사 결과 등을 종합적으로 평가
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 뇌 혈전증, 뇌 농양, 감염성 심내막염, 부정맥

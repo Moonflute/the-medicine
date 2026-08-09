@@ -44,7 +44,7 @@ content_updated_at: "2026-07-16"
 - **혈액 검사**: CBC(혈소판), 간기능 검사(AST/ALT), 신기능 검사(Cr, BUN), LDH.
 - **소변 검사**: 단백뇨 정량(24시간 소변 또는 단백/크레아티닌 비율).
 - **영상 검사**: 폐부종 확인을 위한 흉부 X-ray, 태아 안녕 평가를 위한 초음파.
-- **주의사항**: 중증 전자간증 환자의 모성 및 신생아 이환율을 최소화하기 위해 다학제적 접근(산과, 마취과, 중환자 의학)이 권고됨. [[Reprint of: Severe pre-eclampsia: guidelines for clinical practice from the French Society of anesthesiology and intensive care (SFAR) and the French College of gynaecologists and obstetricians (CNGOF)].](https://pubmed.ncbi.nlm.nih.gov/34781016/) [[Reprint of: Severe pre-eclampsia: guidelines for clinical practice from the French Society of anesthesiology and intensive care (SFAR) and the French College of gynaecologists and obstetricians (CNGOF)].](https://pubmed.ncbi.nlm.nih.gov/34781016/)
+- **주의사항**: 중증 전자간증 환자의 모성 및 신생아 이환율을 최소화하기 위해 다학제적 접근(산과, 마취과, 중환자 의학)이 권고됨.
 
 ## 4. 진단 (Diagnosis)
 - 160/110 mmHg 이상의 혈압과 함께 다음 중 하나 이상 동반 시:
@@ -66,7 +66,7 @@ content_updated_at: "2026-07-16"
 - **분만 시점**: 
   - 34주 이후 또는 태아/산모 상태 악화 시 즉시 분만 고려.
   - 34주 이전: 스테로이드 투여 후 안정화 시도.
-- **관리 원칙**: 전문가 합의에 기반하여 모성 및 신생아 이환율을 각각 평가하고 관리할 것을 권고함. [[Reprint of: Severe pre-eclampsia: guidelines for clinical practice from the French Society of anesthesiology and intensive care (SFAR) and the French College of gynaecologists and obstetricians (CNGOF)].](https://pubmed.ncbi.nlm.nih.gov/34781016/) [[Reprint of: Severe pre-eclampsia: guidelines for clinical practice from the French Society of anesthesiology and intensive care (SFAR) and the French College of gynaecologists and obstetricians (CNGOF)].](https://pubmed.ncbi.nlm.nih.gov/34781016/)
+- **관리 원칙**: 전문가 합의에 기반하여 모성 및 신생아 이환율을 각각 평가하고 관리할 것을 권고함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 자간증(Eclampsia), HELLP 증후군, 태반 조기 박리, 뇌출혈, 폐부종, 신부전, 태아 성장 제한 및 조산.

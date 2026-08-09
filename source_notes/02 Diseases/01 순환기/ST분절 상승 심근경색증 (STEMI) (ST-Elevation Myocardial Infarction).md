@@ -58,7 +58,7 @@ content_updated_at: "2026-07-30"
 ## 3. 검사
 - **심전도(EKG)**: 10분 이내 시행. 2개 이상의 연속 유도에서 1mm 이상의 ST 분절 상승 확인. 우심실 경색 의심 시 우측 유도(V4-6R) 및 후벽 경색 확인을 위해 V8, V9 추가.
 - **심근 효소**: 트로포닌(cTn I 또는 T)이 가장 민감, 특이적임. 99분위 상한치 초과 시 진단적 가치. 고감도 트로포닌(hs-cTn) 검사 시 0시간 및 2~3시간 후 연속 측정.
-- **영상 검사**: 심초음파로 국소 벽 운동 이상 확인. 관상동맥 조영술로 폐쇄 부위 확인. 복잡한 해부학적 구조나 불분명한 원인 병변 확인을 위해 혈관 내 영상(intravascular imaging) 활용 권장 [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/).
+- **영상 검사**: 심초음파로 국소 벽 운동 이상 확인. 관상동맥 조영술로 폐쇄 부위 확인. 복잡한 해부학적 구조나 불분명한 원인 병변 확인을 위해 혈관 내 영상(intravascular imaging) 활용 권장.
 
 ## 4. 진단
 - **진단 기준**: 심근 허혈 임상 증상과 함께 다음 중 하나 이상 충족.

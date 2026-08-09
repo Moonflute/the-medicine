@@ -34,11 +34,11 @@ content_updated_at: "2026-07-16"
 
 ## 3. 검사 (Lab & Imaging)
 * **폐 기능 검사**: 진단의 핵심. 병력에만 의존한 진단은 과소 또는 과잉 진단의 위험이 있으므로 객관적인 폐 기능 평가 필수.
-* **기타**: 연령별로 적절한 진단 검사 프로토콜 적용 필요. [[News in the diagnosis and management of pediatric asthma].](https://pubmed.ncbi.nlm.nih.gov/40518895/) [[News in the diagnosis and management of pediatric asthma].](https://pubmed.ncbi.nlm.nih.gov/40518895/)
+* **기타**: 연령별로 적절한 진단 검사 프로토콜 적용 필요.
 
 ## 4. 진단 (Diagnosis)
 * **진단 원칙**: 병력 청취만으로 진단하지 않도록 주의. 연령(소아/청소년)에 따른 최신 가이드라인에 기반한 객관적 검사 수행.
-* **감별**: 유사 증상을 유발하는 타 질환 배제 및 천식 표현형(phenotype) 고려. [[News in the diagnosis and management of pediatric asthma].](https://pubmed.ncbi.nlm.nih.gov/40518895/) [[News in the diagnosis and management of pediatric asthma].](https://pubmed.ncbi.nlm.nih.gov/40518895/)
+* **감별**: 유사 증상을 유발하는 타 질환 배제 및 천식 표현형(phenotype) 고려.
 
 ## 5. 치료 (Treatment)
 * **완화제 (Reliever)**: 속효성 베타2 작용제(SABA) - 증상 발현 시 즉각적 완화 목적

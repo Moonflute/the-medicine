@@ -45,7 +45,7 @@ content_updated_at: "2026-07-16"
 
 ## 5. 치료 (Treatment)
 * **원칙:** 생후 6개월 이후 자연 하강 가능성이 낮으므로, 생후 12~18개월 이전에 고환 고정술(orchiopexy)을 시행하는 것이 1차 치료임.
-* **주의:** 반드시 소아 비뇨기과 전문의에 의해 시행되어야 함. 호르몬 치료는 권장되지 않음. [[Cryptorchidism: An update of advances in its diagnosis and treatment].](https://pubmed.ncbi.nlm.nih.gov/39270074/) [[Cryptorchidism: An update of advances in its diagnosis and treatment].](https://pubmed.ncbi.nlm.nih.gov/39270074/)
+* **주의:** 반드시 소아 비뇨기과 전문의에 의해 시행되어야 함. 호르몬 치료는 권장되지 않음.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **합병증:** 불임(특히 양측성인 경우 위험도 증가), 고환암(정상인보다 위험도 높음), 고환 염전, 서혜부 탈장.

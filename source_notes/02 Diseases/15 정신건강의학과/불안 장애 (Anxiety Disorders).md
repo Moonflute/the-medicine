@@ -35,7 +35,7 @@ document_role: hub
 
 ## 3. 검사
 - 주산기 선별**: 임신 및 산후 1년 이내 환자 대상 불안 장애 선별 검사 권고.
-- 감별 진단**: 신체 질환 배제를 위한 혈액 검사(갑상선 기능, 전해질 등), 심전도, 필요 시 뇌 영상 검사. [Guideline No. 454: Identification and Treatment of Perinatal Mood and Anxiety Disorders.](https://pubmed.ncbi.nlm.nih.gov/39424138/)
+- 감별 진단**: 신체 질환 배제를 위한 혈액 검사(갑상선 기능, 전해질 등), 심전도, 필요 시 뇌 영상 검사.
 
 ## 4. 진단
 - 이 문서는 진단군의 개요 및 하위 질환 탐색용 허브이다. 실제 진단 기준은 아래 개별 질환 문서에서 확인한다.

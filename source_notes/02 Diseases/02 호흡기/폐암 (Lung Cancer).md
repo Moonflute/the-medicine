@@ -47,7 +47,7 @@ content_updated_at: "2026-07-16"
 - 확진: 조직 검사(기관지 내시경, EBUS-TBNA, 경피적 미세침 흡인 생검 등).
 - 영상 검사: 흉부 CT(조영 증강), FDG-PET/CT(병기 결정), 뇌 MRI(조영 증강).
 - 혈액 검사: CBC, 전해질, 간기능 검사, 칼슘 수치 확인.
-- 주의사항: 조직 검사 전 출혈 위험 및 기흉 가능성 평가 필수. [폐암진료지침 3판](https://www.lungca.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&idx=1000000000000000003)
+- 주의사항: 조직 검사 전 출혈 위험 및 기흉 가능성 평가 필수.
 
 ## 4. 진단
 - 임상 증상, 영상 검사, 조직 검사를 통해 확진 및 병기 결정.
@@ -62,7 +62,7 @@ content_updated_at: "2026-07-16"
 - 소세포폐암 (SCLC):
   * 제한기(Limited stage): 동시 항암화학방사선요법.
   * 확장기(Extensive stage): 백금 제제 + Etoposide + 면역관문억제제 병용 요법.
-- 상부대정맥 증후군: 응급처치, 대증 치료, 방사선 치료(RTx), 항암 화학 요법(CTx). [폐암진료지침 3판](https://www.lungca.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&idx=1000000000000000003)
+- 상부대정맥 증후군: 응급처치, 대증 치료, 방사선 치료(RTx), 항암 화학 요법(CTx).
 
 ## 6. 예후 및 합병증
 - 예후: 진단 시 병기가 가장 중요한 결정 인자.

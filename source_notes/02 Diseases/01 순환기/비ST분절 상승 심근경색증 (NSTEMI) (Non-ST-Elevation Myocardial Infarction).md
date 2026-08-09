@@ -41,7 +41,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - 심전도(EKG): ST 분절 하강(ST depression)이나 T파 역전 확인.
 - 심근 표지자: 심근 트로포닌(cardiac troponin) 수치 상승 확인(진단의 핵심).
-- 추가 검사: 복잡한 해부학적 구조나 불분명한 원인 병변(culprit lesion) 확인을 위해 혈관 내 영상(intravascular imaging)을 적극 활용하여 스텐트 확장 최적화 고려. [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/)
+- 추가 검사: 복잡한 해부학적 구조나 불분명한 원인 병변(culprit lesion) 확인을 위해 혈관 내 영상(intravascular imaging)을 적극 활용하여 스텐트 확장 최적화 고려.
 
 ## 4. 진단 (Diagnosis)
 - 임상 증상, 심전도 소견, 그리고 심근 트로포닌 수치의 상승을 종합하여 진단한다.
@@ -49,9 +49,9 @@ content_updated_at: "2026-07-16"
 
 ## 5. 치료 (Treatment)
 - 약물 치료: 항허혈제(질산염, 베타차단제 등) 및 항혈전제(아스피린, P2Y12 억제제, 항응고제) 투여.
-- 재관류 전략: 위험도 평가에 기반한 침습적 치료 시기 결정(urgent vs. early angiography). [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/)
-- 시술 원칙: 요골동맥 접근(radial-first access)을 우선 권고함. [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/)
-- 특수 상황: 관상동맥 비폐쇄성 심근경색(MINOCA)이나 자발성 관상동맥 박리(SCAD)의 경우 기전 기반 경로(mechanism-based pathway)를 따르며, SCAD는 허혈이 지속되지 않는 한 보존적 치료를 우선함. [2026 Focus Update of the 2021 Korean Society of Myocardial Infarction Expert Consensus Document on Revascularization for Acute Coronary Syndromes.](https://pubmed.ncbi.nlm.nih.gov/42324232/)
+- 재관류 전략: 위험도 평가에 기반한 침습적 치료 시기 결정(urgent vs. early angiography).
+- 시술 원칙: 요골동맥 접근(radial-first access)을 우선 권고함.
+- 특수 상황: 관상동맥 비폐쇄성 심근경색(MINOCA)이나 자발성 관상동맥 박리(SCAD)의 경우 기전 기반 경로(mechanism-based pathway)를 따르며, SCAD는 허혈이 지속되지 않는 한 보존적 치료를 우선함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심부전, 부정맥, 재발성 심근경색, 심인성 쇼크 등이 발생할 수 있다.

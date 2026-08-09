@@ -44,7 +44,7 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 * **적응증:** 통증, 고환 위축, 불임(정액 검사 이상 소견 시).
 * **비폐쇄성 무정자증(NOA) 환자:** 임상적으로 확인된 정계정맥류가 있는 NOA 환자에서 수술적 교정의 잠재적 이점이 보고됨. 단, 유전적 이상이 없고 배우자의 난소 예비능이 정상인 경우에 한해 고려 가능함.
-* **상담 및 주의사항:** NOA 환자 대상 수술은 근거 수준이 제한적이므로, 결과의 가변성과 제한적인 근거 수준에 대해 충분히 상담해야 함. [Varicocele Treatment in Azoospermia Before Artificial Reproductive Techniques: Critical Considerations by the EAU Guidelines Panel on Sexual and Reproductive Health.](https://pubmed.ncbi.nlm.nih.gov/41444075/)
+* **상담 및 주의사항:** NOA 환자 대상 수술은 근거 수준이 제한적이므로, 결과의 가변성과 제한적인 근거 수준에 대해 충분히 상담해야 함.
 * **방법:** 미세수술적 정계정맥 결찰술(Microsurgical subinguinal varicocelectomy)이 재발률이 낮고 합병증이 적어 선호됨. 그 외 복강경 결찰술, 경피적 색전술 등 시행 가능.
 
 ## 6. 예후 및 합병증 (Prognosis)

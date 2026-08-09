@@ -41,7 +41,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - 진단은 임상적 평가가 우선이며, 일반적으로 혈액 검사는 불필요함.
 - 필요 시: FSH 상승(>30 mIU/mL), 에스트라디올 감소(<20 pg/mL).
-- 조기 난소 부전(POI) 의심 시: 40세 이전 4개월 이상의 희발월경/무월경과 함께 FSH ≥25 IU/L 확인 필요 [Expert opinion by the Italian Society of Gynecology of the Third Age (SIGiTE) and the Italian Society of Menopause (SIM) on diagnosis and treatment of premature ovarian insufficiency.](https://pubmed.ncbi.nlm.nih.gov/41212137/).
+- 조기 난소 부전(POI) 의심 시: 40세 이전 4개월 이상의 희발월경/무월경과 함께 FSH ≥25 IU/L 확인 필요.
 
 ## 4. 진단 (Diagnosis)
 - 12개월 이상의 무월경을 기준으로 임상적으로 진단
@@ -53,7 +53,7 @@ content_updated_at: "2026-07-16"
   - 자궁이 있는 경우: 에스트로겐 + 프로게스틴 (자궁내막 보호).
   - 자궁이 없는 경우: 에스트로겐 단독 요법.
   - 국소 질 에스트로겐: GSM 증상 완화 및 전신 흡수 최소화.
-  - 조기 난소 부전(POI)의 경우: 증상 유무와 관계없이 HRT가 치료 원칙이며, 심혈관 및 골 건강 유지를 위해 경피적 천연 에스트라디올 고용량 투여 선호 [Expert opinion by the Italian Society of Gynecology of the Third Age (SIGiTE) and the Italian Society of Menopause (SIM) on diagnosis and treatment of premature ovarian insufficiency.](https://pubmed.ncbi.nlm.nih.gov/41212137/).
+  - 조기 난소 부전(POI)의 경우: 증상 유무와 관계없이 HRT가 치료 원칙이며, 심혈관 및 골 건강 유지를 위해 경피적 천연 에스트라디올 고용량 투여 선호.
 - **대체 약물**: SSRI, SNRI, 가바펜틴 (혈관운동 증상 완화).
 - **금기**: 원인 불명의 질 출혈, 유방암, 자궁내막암, 혈전색전증 병력 등.
 

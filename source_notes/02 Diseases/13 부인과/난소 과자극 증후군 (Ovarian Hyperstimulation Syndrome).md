@@ -39,7 +39,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - 진단은 주로 임상적 판단에 의존함
 - 영상 및 혈액 검사는 중증도(severity)를 결정하는 보조적 수단으로 활용
-- [Management of moderate and severe OHSS (2026) | https://pubmed.ncbi.nlm.nih.gov/41996998/] [Management of moderate and severe ovarian hyperstimulation syndrome: a Canadian Fertility and Andrology Society clinical practice guideline.](https://pubmed.ncbi.nlm.nih.gov/41996998/)
+- [Management of moderate and severe OHSS (2026) | https://pubmed.ncbi.nlm.nih.gov/41996998/]
 
 ## 4. 진단 (Diagnosis)
 - 임상적 진단: 불임 치료 병력과 함께 복부 팽만, 난소 비대, 복수 등의 증상 확인
@@ -50,7 +50,7 @@ content_updated_at: "2026-07-16"
 - 관리 환경: 외래 또는 입원 치료 가능
 - 중재적 치료: 복수 천자(paracentesis)를 포함한 증상 완화 조치 시행
 - 다학제적 접근: 중증(critical) OHSS의 경우 입원 및 다학제적 진료 필수
-- [Management of moderate and severe OHSS (2026) | https://pubmed.ncbi.nlm.nih.gov/41996998/] [Management of moderate and severe ovarian hyperstimulation syndrome: a Canadian Fertility and Andrology Society clinical practice guideline.](https://pubmed.ncbi.nlm.nih.gov/41996998/)
+- [Management of moderate and severe OHSS (2026) | https://pubmed.ncbi.nlm.nih.gov/41996998/]
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 혈전색전증, 급성 신부전, 급성 호흡곤란 증후군(ARDS), 난소 염전

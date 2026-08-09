@@ -43,7 +43,7 @@ content_updated_at: "2026-07-16"
   - 원발성 알도스테론증: 고혈압 또는 저칼륨혈증 동반 시 Aldosterone-Renin Ratio(ARR) 측정
 - 양성/악성 감별:
   - 비조영 CT(Non-contrast CT): 양성/악성 감별을 위한 1차 영상 검사
-- 주의: 악성 의심 시 갈색세포종 배제 전 조직검사(FNA) 금기 [Update of the guidelines on the management of adrenal incidentaloma from the adrenal group of the Spanish society of endocrinology and nutrition (SEEN).](https://pubmed.ncbi.nlm.nih.gov/40906030/)
+- 주의: 악성 의심 시 갈색세포종 배제 전 조직검사(FNA) 금기
 
 ## 4. 진단
 - 기능성/비기능성 여부 및 양성/악성 여부를 각각 평가하여 수술 여부 결정
@@ -54,7 +54,7 @@ content_updated_at: "2026-07-16"
   - 영상학적으로 악성이 의심되는 경우
   - 명백한 호르몬 과다 증후군(Overt hormonal syndromes)이 동반된 경우
 - 추적관찰:
-  - 기능성 및 악성 가능성을 종합적으로 평가하여 결정 [Update of the guidelines on the management of adrenal incidentaloma from the adrenal group of the Spanish society of endocrinology and nutrition (SEEN).](https://pubmed.ncbi.nlm.nih.gov/40906030/)
+  - 기능성 및 악성 가능성을 종합적으로 평가하여 결정
 
 ## 6. 예후 및 합병증
 - 악성 종양의 경우 전이 및 침습 가능성 존재

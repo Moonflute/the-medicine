@@ -40,7 +40,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 * **초기 평가**: 독성 증후군(Toxidromes) 기반의 임상적 접근 우선.
 * **검사 전략**: 독성 물질의 독성 동태학(toxicokinetics)을 고려하여 환자의 상태 변화 가능성을 염두에 두고 검사 시행.
-* **주의사항**: 본 가이드는 일반적인 접근법이며, 특정 독소에 대해서는 TOXBASE, NPIS 또는 지역 독극물 센터의 전문 지침을 우선적으로 참조할 것. [Management of patients with suspected but unidentified poisoning in the emergency department: a joint Royal College of Emergency Medicine and National Poisons Information Service best practice guideline.](https://pubmed.ncbi.nlm.nih.gov/42103461/)
+* **주의사항**: 본 가이드는 일반적인 접근법이며, 특정 독소에 대해서는 TOXBASE, NPIS 또는 지역 독극물 센터의 전문 지침을 우선적으로 참조할 것.
 
 ## 4. 진단 (Diagnosis)
 * 임상 증상 및 징후, 섭취력 확인(환자 및 보호자 문진, 주변 환경 조사)
@@ -50,7 +50,7 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 * **초기 관리**: ABC(기도, 호흡, 순환) 안정화 및 응급 처치 우선.
 * **임상적 접근**: 독성 증후군 기반의 평가를 통해 잠재적 독성 물질을 식별하고, 환자의 임상 상태 변화를 지속적으로 모니터링.
-* **전문 상담**: 특정 독소에 대한 구체적인 치료 지침은 TOXBASE, NPIS 또는 지역 독극물 센터의 자문을 활용할 것. [Management of patients with suspected but unidentified poisoning in the emergency department: a joint Royal College of Emergency Medicine and National Poisons Information Service best practice guideline.](https://pubmed.ncbi.nlm.nih.gov/42103461/)
+* **전문 상담**: 특정 독소에 대한 구체적인 치료 지침은 TOXBASE, NPIS 또는 지역 독극물 센터의 자문을 활용할 것.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 독성 물질의 종류, 섭취량, 치료 시점에 따라 결정

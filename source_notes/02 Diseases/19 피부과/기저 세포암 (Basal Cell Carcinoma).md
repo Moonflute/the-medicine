@@ -54,10 +54,10 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 * 치료 목표: 완전 절제, 기능 보존 및 미용적 결과 최적화.
 * 외과적 절제: 
-  - 일본인 대상 연구에서 2mm의 수술적 절제 마진이 대부분의 기저 세포암에 적절한 것으로 보고됨. [Japanese Dermatological Association Guidelines: Clinical Questions of Guidelines for Basal Cell Carcinoma 2025.](https://pubmed.ncbi.nlm.nih.gov/41243455/)
-  - 색소성 기저 세포암의 경우 좁은 마진(narrow-margin) 절제가 안전하고 신뢰할 수 있는 치료법으로 제시됨. [Japanese Dermatological Association Guidelines: Clinical Questions of Guidelines for Basal Cell Carcinoma 2025.](https://pubmed.ncbi.nlm.nih.gov/41243455/)
+  - 일본인 대상 연구에서 2mm의 수술적 절제 마진이 대부분의 기저 세포암에 적절한 것으로 보고됨.
+  - 색소성 기저 세포암의 경우 좁은 마진(narrow-margin) 절제가 안전하고 신뢰할 수 있는 치료법으로 제시됨.
 * 모스 미세도식 수술(Mohs micrographic surgery): 고위험군 및 재발성 병변의 표준 치료.
-* 기타 치료: 일반적 외과적 절제, 소파술 및 전기소작술(EDC), 냉동 치료, 방사선 치료(재발성 병변 고려), 국소 도포제(Imiquimod, 5-FU), 전신 요법(면역관문억제제 등 진행성/전이성 병변). [Japanese Dermatological Association Guidelines: Clinical Questions of Guidelines for Basal Cell Carcinoma 2025.](https://pubmed.ncbi.nlm.nih.gov/41243455/)
+* 기타 치료: 일반적 외과적 절제, 소파술 및 전기소작술(EDC), 냉동 치료, 방사선 치료(재발성 병변 고려), 국소 도포제(Imiquimod, 5-FU), 전신 요법(면역관문억제제 등 진행성/전이성 병변).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 전이율은 매우 낮으나, 국소 침습성이 강해 방치 시 조직 파괴 및 변형을 초래함.

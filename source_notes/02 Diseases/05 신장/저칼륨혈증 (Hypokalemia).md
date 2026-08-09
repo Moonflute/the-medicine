@@ -55,7 +55,7 @@ content_updated_at: "2026-07-16"
   - < 15 mEq/day: 위장관 소실 또는 섭취 부족
   - > 15 mEq/day: 신장 소실 (이뇨제, 알도스테론 과다, Bartter/Gitelman 증후군, RTA 등)
 - 4) 혈청 마그네슘 농도 확인 (저마그네슘혈증 동반 시 칼륨 교정 저항성 발생)
-- 5) 환자군 분류: 입원 환자의 경우 기저 질환(심혈관 질환, 신기능, 동반 질환) 및 혈청 전해질(Na, Cl, HCO3) 패턴에 따라 예후가 달라질 수 있으므로 다각적 평가 필요 [Subtyping hospitalized patients with hypokalemia by machine learning consensus clustering and associated mortality risks.](https://pubmed.ncbi.nlm.nih.gov/35145640/)
+- 5) 환자군 분류: 입원 환자의 경우 기저 질환(심혈관 질환, 신기능, 동반 질환) 및 혈청 전해질(Na, Cl, HCO3) 패턴에 따라 예후가 달라질 수 있으므로 다각적 평가 필요
 
 ## 4. 진단 (Diagnosis)
 - 혈청 칼륨 농도 측정으로 확진
@@ -72,7 +72,7 @@ content_updated_at: "2026-07-16"
 - 주의사항:
   - 포도당 용액은 인슐린 분비를 자극하여 일시적 저칼륨혈증 악화 가능
   - 저마그네슘혈증 동반 시 반드시 함께 교정 (칼륨 교정 저항성 방지)
-  - 입원 환자 치료 시 기저 심혈관 질환 및 신기능 저하 여부에 따라 사망 위험이 상이하므로 개별화된 모니터링 필요 [Subtyping hospitalized patients with hypokalemia by machine learning consensus clustering and associated mortality risks.](https://pubmed.ncbi.nlm.nih.gov/35145640/)
+  - 입원 환자 치료 시 기저 심혈관 질환 및 신기능 저하 여부에 따라 사망 위험이 상이하므로 개별화된 모니터링 필요
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심각한 부정맥 및 호흡 부전이 주요 사망 원인

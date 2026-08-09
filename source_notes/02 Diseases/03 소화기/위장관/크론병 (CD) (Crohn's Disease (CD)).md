@@ -48,7 +48,7 @@ content_updated_at: "2026-07-16"
 - 감염 배제: 중증 급성기 환자에서 Clostridioides difficile 및 거대세포바이러스(CMV) 감염 여부 확인 필수.
 - 내시경: Cobblestone appearance, 종주 궤양(longitudinal ulcer) 확인.
 - 조직검사: 비건락성 육아종(non-caseating granuloma) 확인.
-- 기타: ASCA(+), CT 및 대장조영술을 통한 병변 범위 평가. [Position statement of the Spanish Working Group on Crohn's Disease and Ulcerative Colitis (GETECCU) on the diagnosis and management of acute severe ulcerative colitis.](https://pubmed.ncbi.nlm.nih.gov/42248446/)
+- 기타: ASCA(+), CT 및 대장조영술을 통한 병변 범위 평가.
 
 ## 4. 진단 (Diagnosis)
 - 임상 증상, 내시경 소견, 조직검사, 영상의학적 검사를 종합하여 진단함.
@@ -59,7 +59,7 @@ content_updated_at: "2026-07-16"
 - 반응 평가: 치료 시작 72시간 후 검증된 기준에 따라 반응성 평가.
 - 스테로이드 불응성 환자: Infliximab 또는 Cyclosporine을 구제 요법(rescue therapy)으로 고려 (환자 특성 및 동반 질환에 따라 개별화).
 - 보조 요법: 영양 상태 최적화, 혈전 예방(thromboprophylaxis), 지속적인 모니터링.
-- 수술: 약물 치료 실패 또는 합병증 발생 시 조기 외과적 평가 시행. [Position statement of the Spanish Working Group on Crohn's Disease and Ulcerative Colitis (GETECCU) on the diagnosis and management of acute severe ulcerative colitis.](https://pubmed.ncbi.nlm.nih.gov/42248446/)
+- 수술: 약물 치료 실패 또는 합병증 발생 시 조기 외과적 평가 시행.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **특징**: 전층성 (transmural), 회맹부 (ileocecal)에 호발, 분절성 병변

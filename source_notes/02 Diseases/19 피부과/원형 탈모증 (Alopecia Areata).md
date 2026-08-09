@@ -51,7 +51,7 @@ content_updated_at: "2026-07-16"
 * **치료 원칙**: 탈모 범위와 중증도에 따라 단계적 접근.
 * **국소 치료**: 국소 스테로이드 도포, 병변 내 스테로이드 주사(triamcinolone), 미녹시딜 도포.
 * **면역 요법**: 광범위한 탈모 시 DPCP, SADBE 등을 이용한 국소 면역 요법 고려.
-* **전신 치료 및 JAK 억제제**: 광범위한 원형 탈모증(extensive AA) 환자에서 전신 스테로이드 치료 실패 시 JAK 억제제(baricitinib, ritlecitinib) 사용 고려. [Consensus Document on the Clinical Management of Alopecia Areata: Recommendations from the Spanish Hair Research Group of the Spanish Academy of Dermatology and Venerology.](https://pubmed.ncbi.nlm.nih.gov/41812910/)
+* **전신 치료 및 JAK 억제제**: 광범위한 원형 탈모증(extensive AA) 환자에서 전신 스테로이드 치료 실패 시 JAK 억제제(baricitinib, ritlecitinib) 사용 고려.
 * **기타**: 자외선 요법(PUVA) 등.
 
 ## 6. 예후 및 합병증 (Prognosis)

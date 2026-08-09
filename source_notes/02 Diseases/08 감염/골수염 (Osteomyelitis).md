@@ -42,7 +42,7 @@ content_updated_at: "2026-07-16"
 
 ## 3. 검사 (Lab & Imaging)
 - **영상 검사**: 전신 골격 영상(주로 MRI)을 포함한 영상 검사가 권장된다. 
-- **확진**: 골 생검 및 배양 검사 (항생제 투여 전 시행 권장). [Diagnosis, treatment and monitoring of chronic nonbacterial osteomyelitis (CNO) and chronic recurrent multifocal osteomyelitis (CRMO) - Evidence, practice and consensus-based recommendations from the German pediatric rheumatology society (GKJR).](https://pubmed.ncbi.nlm.nih.gov/42155695/)
+- **확진**: 골 생검 및 배양 검사 (항생제 투여 전 시행 권장).
 
 ## 4. 진단 (Diagnosis)
 - 임상 증상, 혈액 검사(ESR/CRP), 영상 검사(MRI 등)를 종합하여 진단한다.
@@ -51,7 +51,7 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 - **치료 원칙**: 1차 치료제로 NSAIDs 및 단기 스테로이드 사용. 2차 치료제로 전통적/생물학적 DMARDs 및 비스포스포네이트 사용. 
 - **척추 침범 시**: 비스포스포네이트 및/또는 TNF 억제제를 이용한 신속한 치료 권장. 
-- **모니터링**: 만성 질환이므로 치료 중단 후 추적 관찰을 포함한 장기 모니터링 필수. [Diagnosis, treatment and monitoring of chronic nonbacterial osteomyelitis (CNO) and chronic recurrent multifocal osteomyelitis (CRMO) - Evidence, practice and consensus-based recommendations from the German pediatric rheumatology society (GKJR).](https://pubmed.ncbi.nlm.nih.gov/42155695/)(https://pubmed.ncbi.nlm.nih.gov/42155695/)
+- **모니터링**: 만성 질환이므로 치료 중단 후 추적 관찰을 포함한 장기 모니터링 필수.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성 골수염으로의 이행, 관절 파괴, 기능 장애, 패혈증 등이 발생할 수 있다.

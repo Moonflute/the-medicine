@@ -48,7 +48,7 @@ content_updated_at: "2026-07-16"
 
 ## 5. 치료 (Treatment)
 * **급성전립샘염:** 전립샘 조직 침투력이 좋은 항생제(Fluoroquinolone 등) 정맥 투여. 요폐 시 치골상부 도뇨 고려.
-* **만성 골반통증 증후군(CP/CPPS):** 다학제적 접근(multimodal/multidisciplinary approach)이 권장됨. 생활 습관 교정, 행동 치료, 약물 및 식물성 제제, 필요 시 시술적 개입을 포함한 포괄적 치료 전략 수립. 타 전문의 및 관련 보건 전문가로의 의뢰 고려. [Male Chronic Pelvic Pain: AUA Guideline: Part II Treatment of Chronic Prostatitis/Chronic Pelvic Pain Syndrome.](https://pubmed.ncbi.nlm.nih.gov/40243102/)
+* **만성 골반통증 증후군(CP/CPPS):** 다학제적 접근(multimodal/multidisciplinary approach)이 권장됨. 생활 습관 교정, 행동 치료, 약물 및 식물성 제제, 필요 시 시술적 개입을 포함한 포괄적 치료 전략 수립. 타 전문의 및 관련 보건 전문가로의 의뢰 고려.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **합병증:** 전립샘 농양, 패혈증, 만성 골반통증 증후군으로의 이행, 부고환염.

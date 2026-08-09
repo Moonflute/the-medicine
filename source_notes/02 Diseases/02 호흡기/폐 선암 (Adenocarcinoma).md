@@ -47,14 +47,14 @@ content_updated_at: "2026-07-16"
 * **P/E**: 진행성 병변 시 흉수, 림프절 종대, 상대정맥 증후군, 호너 증후군 등이 관찰될 수 있음.
 
 ## 3. 검사 (Lab & Imaging)
-- 흉부 CT가 기본이며, 병기 결정을 위해 PET/CT 및 뇌 MRI를 시행함. 조직 검사를 통한 확진이 필수적이며, 특히 EGFR exon 20 삽입 변이를 포함한 정밀한 분자 유전학적 프로파일링을 위해 차세대 염기서열 분석(NGS)을 적극 권장함. [Position statement on the pathological assessment of pancreatic resection specimens in pancreatic ductal adenocarcinoma by the Societat Catalana de Pàncrees and the Societat Catalana d'Anatomia Patològica.](https://pubmed.ncbi.nlm.nih.gov/41655901/)
+- 흉부 CT가 기본이며, 병기 결정을 위해 PET/CT 및 뇌 MRI를 시행함. 조직 검사를 통한 확진이 필수적이며, 특히 EGFR exon 20 삽입 변이를 포함한 정밀한 분자 유전학적 프로파일링을 위해 차세대 염기서열 분석(NGS)을 적극 권장함.
 
 ## 4. 진단 (Diagnosis)
 - 조직 검사를 통해 확진하며, TTF-1 및 Napsin A 면역염색이 진단에 도움을 줌.
   2021 WHO 분류에 따라 침습성 정도와 조직학적 패턴을 구분함.
 
 ## 5. 치료 (Treatment)
-- 병기에 따라 수술, 방사선 치료, 항암 화학 요법을 시행함. 유전자 변이(EGFR, ALK 등) 확인 시 표적 치료제를 우선 고려하며, 특히 EGFR exon 20 삽입 변이 환자에게는 Amivantamab과 같은 표적 치료제가 임상적 이점을 보임. PD-L1 발현율에 따라 면역항암제를 사용하며, 환자 보고 결과(PRO)를 임상 평가에 통합하여 치료 효과를 모니터링함. [Position statement on the pathological assessment of pancreatic resection specimens in pancreatic ductal adenocarcinoma by the Societat Catalana de Pàncrees and the Societat Catalana d'Anatomia Patològica.](https://pubmed.ncbi.nlm.nih.gov/41655901/)
+- 병기에 따라 수술, 방사선 치료, 항암 화학 요법을 시행함. 유전자 변이(EGFR, ALK 등) 확인 시 표적 치료제를 우선 고려하며, 특히 EGFR exon 20 삽입 변이 환자에게는 Amivantamab과 같은 표적 치료제가 임상적 이점을 보임. PD-L1 발현율에 따라 면역항암제를 사용하며, 환자 보고 결과(PRO)를 임상 평가에 통합하여 치료 효과를 모니터링함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 시 예후가 좋으나, 진단 당시 진행성인 경우가 많아 5년 생존율은 병기에 따라 차이가 큼.

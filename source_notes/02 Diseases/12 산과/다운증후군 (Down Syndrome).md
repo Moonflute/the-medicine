@@ -45,7 +45,7 @@ content_updated_at: "2026-07-16"
 * 산전 선별검사: 제1삼분기(NT 포함) 및 제2삼분기(Triple/Quad) 생화학 검사, 세포유전학적 선별검사(cfDNA)를 포함한 다양한 전략(Integrated, Contingent, Reflex screening) 활용 가능.
 * 확진: 융모막 융모 채취(CVS) 또는 양수 천자를 통한 핵형 분석.
 * 신생아기: 심장 초음파(선천성 심장 기형 확인), 갑상선 기능 검사.
-[Prenatal screening for trisomy 21 (Down syndrome) using first- and second-trimester biochemistry and nuchal translucency: A technical standard of the American College of Medical Genetics and Genomics (ACMG).](https://pubmed.ncbi.nlm.nih.gov/40778613/)(https://pubmed.ncbi.nlm.nih.gov/40778613/)
+출처: Prenatal screening for trisomy 21 (Down syndrome) using first- and second-trimester biochemistry and nuchal translucency: A technical standard of the American College of Medical Genetics and Genomics (ACMG).
 
 ## 4. 진단 (Diagnosis)
 * 임상적 특징과 세포유전학적 검사(핵형 분석)를 통해 확진함.
@@ -54,7 +54,7 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 * 근본적인 치료는 없으며, 다학제적 접근을 통한 증상 관리 및 합병증 조기 발견이 핵심임.
 * 정기적인 심장, 청력, 시력, 갑상선 기능 및 발달 상태 모니터링.
-* 합병증 발생 시 해당 전문의와 협진하여 조기 개입. [Prenatal screening for trisomy 21 (Down syndrome) using first- and second-trimester biochemistry and nuchal translucency: A technical standard of the American College of Medical Genetics and Genomics (ACMG).](https://pubmed.ncbi.nlm.nih.gov/40778613/)
+* 합병증 발생 시 해당 전문의와 협진하여 조기 개입.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 기대 수명은 크게 향상되었으나, 심장 기형, 백혈병, 조기 치매 등 평생에 걸친 건강 관리가 필요함.

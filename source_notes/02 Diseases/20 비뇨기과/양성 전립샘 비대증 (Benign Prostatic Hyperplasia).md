@@ -38,7 +38,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - **필수 평가:** 병력 청취, 신체 검진(DRE 포함), 소변 검사(감염 및 혈뇨 배제), IPSS(증상 점수), 혈청 PSA(전립선암 선별).
 - **추가 검사:** 잔뇨량(PVR) 측정, 요류 검사(uroflowmetry), 배뇨 일지 등은 증상 평가 및 치료 계획 수립을 위해 필요 시 시행.
-- **주의사항:** 하부 요로 증상(LUTS)은 방광, 전립선, 요도 등 다양한 병리에 의해 발생할 수 있으므로, 비전립선성 원인(신경인성 방광 등)을 항상 고려해야 함. [Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part I: Presentation and Evaluation.](https://pubmed.ncbi.nlm.nih.gov/42095481/)
+- **주의사항:** 하부 요로 증상(LUTS)은 방광, 전립선, 요도 등 다양한 병리에 의해 발생할 수 있으므로, 비전립선성 원인(신경인성 방광 등)을 항상 고려해야 함.
 
 ## 4. 진단 (Diagnosis)
 * 하부 요로 증상과 함께 DRE 소견 및 IPSS 점수를 종합하여 진단.
@@ -48,7 +48,7 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 - **치료 결정:** 증상의 '불편함(bothersomeness)'이 치료의 주된 동기이며, 환자와의 공유 의사결정(Shared Decision-Making)이 치료 시작 및 단계적 확대의 핵심임.
 - **치료 전략:** 증상 정도, 환자의 선호도, 전립선 크기 및 동반 질환을 고려하여 대기 요법, 약물 치료(알파 차단제, 5-알파 환원효소 억제제 등), 또는 수술적 치료를 선택.
-- **추적 관찰:** 치료 반응을 정기적으로 평가하고, 증상 호전이 없거나 합병증 발생 시 치료법을 재평가 및 조정함. [Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part I: Presentation and Evaluation.](https://pubmed.ncbi.nlm.nih.gov/42095481/)
+- **추적 관찰:** 치료 반응을 정기적으로 평가하고, 증상 호전이 없거나 합병증 발생 시 치료법을 재평가 및 조정함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **합병증:** 급성 요폐, 방광 결석, 재발성 요로 감염, 만성 신부전(고압성 요폐 시).

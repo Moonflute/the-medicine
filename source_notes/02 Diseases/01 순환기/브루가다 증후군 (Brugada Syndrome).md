@@ -38,7 +38,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - **심전도(EKG)**: V1~V3 유도에서 coved type ST 분절 상승이 특징적이다.
 - **발열 시 모니터링**: 기존 type 1 심전도 패턴이 있거나 발열 중 해당 패턴이 나타나는 경우 입원하여 리듬 모니터링을 시행한다.
-- **약물 유발 검사**: 사춘기 이후에만 시행하는 것을 원칙으로 한다. [Screening, diagnosis and follow-up of Brugada syndrome in children: a Dutch expert consensus statement.](https://pubmed.ncbi.nlm.nih.gov/36223066/)
+- **약물 유발 검사**: 사춘기 이후에만 시행하는 것을 원칙으로 한다.
 
 ## 4. 진단 (Diagnosis)
 - 자발적인 type 1 심전도 패턴을 기준으로 진단하며, 가족력, 실신 병력, 유전자 검사 등을 종합적으로 평가한다.
@@ -47,7 +47,7 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 - **ICD**: 증상이 있는 환자나 고위험군에서 삽입형 제세동기(ICD) 삽입이 표준 치료이다.
 - **약물 및 생활습관**: 발열 시 즉각적인 해열제 복용이 필수적이며, 금기 약물(www.brugadadrugs.org)을 피해야 한다.
-- **급성기 치료**: 심실 부정맥이나 전기 폭풍(electrical storm) 발생 시 이소프로테레놀(isoproterenol) 주입을 시행한다. [Screening, diagnosis and follow-up of Brugada syndrome in children: a Dutch expert consensus statement.](https://pubmed.ncbi.nlm.nih.gov/36223066/)
+- **급성기 치료**: 심실 부정맥이나 전기 폭풍(electrical storm) 발생 시 이소프로테레놀(isoproterenol) 주입을 시행한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심실 부정맥으로 인한 급사 위험이 높으므로 가족 선별 검사가 권장된다.

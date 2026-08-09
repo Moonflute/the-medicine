@@ -44,7 +44,7 @@ content_updated_at: "2026-07-17"
 
 ## 3. 검사 (Lab & Imaging)
 - 심전도(EKG)에서 보정된 QT 간격(QTc) 연장이 관찰된다.
-- **실무 평가**: 반복 12유도 ECG에서 QTc를 확인하고, 실신·경련·심계항진의 상황, 복용약/보충제, 저칼륨·저마그네슘혈증, 가족의 돌연사·실신력을 함께 확인한다. 약물/전해질 이상이 있으면 먼저 교정한 뒤 재평가하고, 임상적 LQTS에서는 유전상담·검사를 고려한다. [2022 ESC ventricular arrhythmia guideline key points](https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2022/09/02/14/23/2022-ESC-Guidelines-for-VAs-ESC-2022)
+- **실무 평가**: 반복 12유도 ECG에서 QTc를 확인하고, 실신·경련·심계항진의 상황, 복용약/보충제, 저칼륨·저마그네슘혈증, 가족의 돌연사·실신력을 함께 확인한다. 약물/전해질 이상이 있으면 먼저 교정한 뒤 재평가하고, 임상적 LQTS에서는 유전상담·검사를 고려한다.
   (남성 > 0.45초, 여성 > 0.47초 이상 시 연장으로 간주).
   필요시 운동 부하 검사, 24시간 심전도 모니터링, 유전자 검사를 시행한다.
 
@@ -59,7 +59,7 @@ content_updated_at: "2026-07-17"
   베타차단제(nadolol, propranolol 등)가 일차 치료제이다.
   효과가 불충분할 경우 mexiletine 등을 추가할 수 있다.
 - **시술 및 수술**: 약물 치료에 반응하지 않는 고위험군에서 삽입형 제세동기(ICD) 삽입 또는 좌측 교감신경절제술(left cardiac sympathetic denervation)을 고려한다.
-- **위험도별 치료**: QT 연장 약물과 전해질 이상을 피하고, QT 연장이 확인된 선천성 LQTS에서는 비선택적 베타차단제(nadolol 또는 propranolol)를 우선 고려한다. 재발성 실신·심정지·ICD shock은 약물 순응도와 유발 인자를 재점검한 뒤 전기생리 전문팀에서 ICD/교감신경절제술을 포함해 판단한다. TdP/불안정 심실부정맥은 ACLS 원칙과 전해질 교정 하에 즉시 처치한다. [2022 ESC ventricular arrhythmia guideline key points](https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2022/09/02/14/23/2022-ESC-Guidelines-for-VAs-ESC-2022)
+- **위험도별 치료**: QT 연장 약물과 전해질 이상을 피하고, QT 연장이 확인된 선천성 LQTS에서는 비선택적 베타차단제(nadolol 또는 propranolol)를 우선 고려한다. 재발성 실신·심정지·ICD shock은 약물 순응도와 유발 인자를 재점검한 뒤 전기생리 전문팀에서 ICD/교감신경절제술을 포함해 판단한다. TdP/불안정 심실부정맥은 ACLS 원칙과 전해질 교정 하에 즉시 처치한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료를 받지 않으면 TdP 및 급사 위험 증가

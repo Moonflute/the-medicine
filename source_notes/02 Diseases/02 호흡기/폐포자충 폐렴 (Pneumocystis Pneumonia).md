@@ -42,11 +42,11 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - **영상 검사**: 흉부 X-ray상 양측성 폐문 주위 간질성 침윤이 특징적이며, 진행 시 미만성 침윤으로 변함. 흉부 CT가 민감도가 더 높음.
 - **혈액 검사**: LDH 상승이 흔함. 혈청 β-D-glucan 검사가 진단적 가치가 있음.
-- **미생물 검사**: 객담 또는 기관지폐포세척액(BAL) 검체에서 현미경 검사(methenamine silver stain, Giemsa stain 등) 및 PCR 검사를 시행함. [Diagnosis of Pneumocystis jirovecii Pneumonia in Non-HIV Immunocompromised Patient in Korea: A Review and Algorithm Proposed by Expert Consensus Group](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003191374)(https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003191374)
+- **미생물 검사**: 객담 또는 기관지폐포세척액(BAL) 검체에서 현미경 검사(methenamine silver stain, Giemsa stain 등) 및 PCR 검사를 시행함.
 
 ## 4. 진단 (Diagnosis)
 - 면역저하 환자에서 특징적인 임상 양상과 영상 소견을 바탕으로 의심함.
-- 비HIV 면역저하 환자의 경우, 국내 전문가 합의에 따른 진단 알고리즘을 고려하여 PCR 및 β-D-glucan 검사를 적극 활용함. [Diagnosis of Pneumocystis jirovecii Pneumonia in Non-HIV Immunocompromised Patient in Korea: A Review and Algorithm Proposed by Expert Consensus Group](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003191374)(https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003191374)
+- 비HIV 면역저하 환자의 경우, 국내 전문가 합의에 따른 진단 알고리즘을 고려하여 PCR 및 β-D-glucan 검사를 적극 활용함.
 
 ## 5. 치료 (Treatment)
 - **1차 치료**: Trimethoprim-sulfamethoxazole (TMP-SMX) 21일간 투여.

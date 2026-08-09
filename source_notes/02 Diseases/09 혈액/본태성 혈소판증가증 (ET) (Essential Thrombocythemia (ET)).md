@@ -36,7 +36,7 @@ content_updated_at: "2026-07-16"
 - 말초혈액 도말(PBS): 혈소판 과다, 응집, 거대 혈소판 및 이형성 관찰.
 - 골수 검사: 과세포성, 거핵구 증식 및 이형성 확인.
 - 분자 유전학적 검사: JAK2 V617F, CALR, MPL 돌연변이 확인 (필수).
-- 진단 시 분자 검사 및 골수 병리 진단의 표준화가 중요함 [[Chinese guidelines on the diagnosis and treatment of adult essential thrombocythemia (2026)].](https://pubmed.ncbi.nlm.nih.gov/42409729/). [[Chinese guidelines on the diagnosis and treatment of adult essential thrombocythemia (2026)].](https://pubmed.ncbi.nlm.nih.gov/42409729/)
+- 진단 시 분자 검사 및 골수 병리 진단의 표준화가 중요함.
 
 ## 4. 진단 (Diagnosis)
 - 지속적인 혈소판 증가, 특징적인 골수 소견, JAK2/CALR/MPL 돌연변이 확인, 다른 골수증식성 질환 배제하여 진단 (WHO 진단 기준).
@@ -45,7 +45,7 @@ content_updated_at: "2026-07-16"
 - 치료 목표: 혈전 및 출혈 사건 예방, 질환 진행 억제.
 - 저위험군: 저용량 아스피린 투여 및 경과 관찰.
 - 고위험군: 혈소판 감소 약물(하이드록시우레아, 아나그렐리드 등) 투여.
-- 관리: 최신 분자 진단 및 신약 개발을 반영한 표준화된 임상 관리 필요 [[Chinese guidelines on the diagnosis and treatment of adult essential thrombocythemia (2026)].](https://pubmed.ncbi.nlm.nih.gov/42409729/). [[Chinese guidelines on the diagnosis and treatment of adult essential thrombocythemia (2026)].](https://pubmed.ncbi.nlm.nih.gov/42409729/)
+- 관리: 최신 분자 진단 및 신약 개발을 반영한 표준화된 임상 관리 필요.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 주요 합병증은 혈전증 및 출혈.

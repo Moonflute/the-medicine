@@ -35,7 +35,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - **자궁경부 길이 측정**: 16~24주 사이 질 초음파(TVUS)를 통해 측정하며, 25mm 이하인 경우 조산 위험군으로 분류.
 - **태아 피브로넥틴(fFN)**: 20~34주 사이 조산 예측을 위한 보조 지표(음성 예측도가 높음).
-- **기타**: GBS 배양 검사, 소변 검사(UTI 배제), 양막 파수 확인(PAMG-1 등). [Technical Update No. 467: Progesterone for Previous Spontaneous Preterm Birth.](https://pubmed.ncbi.nlm.nih.gov/41856407/)
+- **기타**: GBS 배양 검사, 소변 검사(UTI 배제), 양막 파수 확인(PAMG-1 등).
 
 ## 4. 진단 (Diagnosis)
 - 임상적 진단: 규칙적인 자궁 수축과 함께 자궁경부의 변화(개대 2cm 이상 또는 소실)가 확인될 때.
@@ -43,7 +43,7 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 - **예방 (프로게스테론)**: 
     - 현재 임신 중 질 초음파상 자궁경부 길이 25mm 이하인 경우 프로게스테론 투여 권고.
-    - 과거 조산력이 있더라도 현재 임신 중 자궁경부 길이가 정상인 경우에는 프로게스테론 투여를 권고하지 않음 [Technical Update No. 467: Progesterone for Previous Spontaneous Preterm Birth.](https://pubmed.ncbi.nlm.nih.gov/41856407/).
+    - 과거 조산력이 있더라도 현재 임신 중 자궁경부 길이가 정상인 경우에는 프로게스테론 투여를 권고하지 않음.
 - **처치 (34주 미만)**:
     - 경과 관찰 및 수축 억제제(Ritodrine, Atosiban, Nifedipine) 투여.
     - 태아 폐 성숙을 위한 코르티코스테로이드(베타메타손) 투여.

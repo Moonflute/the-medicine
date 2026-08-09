@@ -52,7 +52,7 @@ content_updated_at: "2026-07-16"
 - Capture beat, Fusion beat 존재
 - 감별 진단: Supraventricular tachycardia with aberrancy (PSVT + BBB, accessory pathway 등)
 - VT 시사 소견: AV dissociation, aVR의 (+) QRS, V1-V6의 (-) QRS, Capture/fusion beat
-- 주의사항: STAR(Stereotactic arrhythmia radioablation) 고려 시, 표준 치료(약물 및 전극도자절제술) 불응성 환자에 대한 다학제적 접근 및 표적 용적 정의를 위한 영상 검사 필요 [Patient selection, ventricular tachycardia substrate delineation, and data transfer for stereotactic arrhythmia radioablation: a clinical consensus statement of the European Heart Rhythm Association of the European Society of Cardiology and the Heart Rhythm Society.](https://pubmed.ncbi.nlm.nih.gov/39177652/)
+- 주의사항: STAR(Stereotactic arrhythmia radioablation) 고려 시, 표준 치료(약물 및 전극도자절제술) 불응성 환자에 대한 다학제적 접근 및 표적 용적 정의를 위한 영상 검사 필요
 
 ## 4. 진단
 - Wide QRS tachycardia는 VT가 아님이 증명되기 전까지 VT로 간주하고 접근
@@ -76,7 +76,7 @@ content_updated_at: "2026-07-16"
   - ICD 삽입: 심정지 생존자, 구조적 심질환 동반, 원인 불명 실신 등
   - 약물치료: β-blocker(1st line), Amiodarone, Sotalol, CPVT 시 Flecainide 고려
   - 전극도자절제술(Catheter ablation): 약물 치료 후에도 ICD shock이 반복되는 경우
-  - 구제 요법(Bailout): 약물 및 반복적 전극도자절제술로 조절되지 않는 난치성 심실 부정맥 환자에서 정위적 부정맥 방사선 절제술(STAR) 고려 가능 [Patient selection, ventricular tachycardia substrate delineation, and data transfer for stereotactic arrhythmia radioablation: a clinical consensus statement of the European Heart Rhythm Association of the European Society of Cardiology and the Heart Rhythm Society.](https://pubmed.ncbi.nlm.nih.gov/39177652/)
+  - 구제 요법(Bailout): 약물 및 반복적 전극도자절제술로 조절되지 않는 난치성 심실 부정맥 환자에서 정위적 부정맥 방사선 절제술(STAR) 고려 가능
   - 기타: Stellate ganglion block, Cardiac denervation(치료 불응성 반복 VT 시)
 
 ## 6. 예후 및 합병증

@@ -36,10 +36,10 @@ content_updated_at: "2026-07-16"
 
 ## 3. 검사 (Lab & Imaging)
 * **흉부 X-ray**: 폐 침윤(consolidation, infiltrate) 확인.
-* **폐 초음파(Lung Ultrasound)**: 숙련된 임상의가 시행할 경우 폐렴 진단에 활용 가능 [2025 guideline updates for community-acquired pneumonia diagnosis and management.](https://pubmed.ncbi.nlm.nih.gov/42127879/).
+* **폐 초음파(Lung Ultrasound)**: 숙련된 임상의가 시행할 경우 폐렴 진단에 활용 가능.
 * **혈액 검사**: 백혈구 증가, CRP 상승, Legionella 감염 시 저나트륨혈증 가능.
 * **객담 및 분자 진단**: 세균 배양, 항생제 감수성 검사, 필요시 PCR 패널 검사.
-* **바이러스 검사**: 양성 시 기저질환 유무 및 영상 소견을 종합하여 항생제 처방 여부 결정 [2025 guideline updates for community-acquired pneumonia diagnosis and management.](https://pubmed.ncbi.nlm.nih.gov/42127879/).
+* **바이러스 검사**: 양성 시 기저질환 유무 및 영상 소견을 종합하여 항생제 처방 여부 결정.
 
 ## 4. 진단 (Diagnosis)
 * 임상 증상 및 징후
@@ -48,10 +48,10 @@ content_updated_at: "2026-07-16"
 
 ## 5. 치료 (Treatment)
 * **항생제 투여 원칙**:
-    * 바이러스 양성 환자: 기저질환이 없고 영상 소견상 폐렴이 의심되지 않는 경우 항생제 처방을 권고하지 않음 [2025 guideline updates for community-acquired pneumonia diagnosis and management.](https://pubmed.ncbi.nlm.nih.gov/42127879/).
-    * 기저질환자, 입원 환자, 영상 소견상 폐렴이 확인된 경우 항생제 투여 [2025 guideline updates for community-acquired pneumonia diagnosis and management.](https://pubmed.ncbi.nlm.nih.gov/42127879/).
-    * 투여 기간: 비중증(nonsevere) 폐렴의 경우 임상적 안정 도달 시 5일 미만(최소 3일) 투여 권장. 중증(severe) 폐렴은 5일 이상 투여 [2025 guideline updates for community-acquired pneumonia diagnosis and management.](https://pubmed.ncbi.nlm.nih.gov/42127879/).
-* **스테로이드**: 중증 폐렴 환자에게 고려할 수 있으나, 비중증 폐렴에는 사용을 권고하지 않음 [2025 guideline updates for community-acquired pneumonia diagnosis and management.](https://pubmed.ncbi.nlm.nih.gov/42127879/).
+    * 바이러스 양성 환자: 기저질환이 없고 영상 소견상 폐렴이 의심되지 않는 경우 항생제 처방을 권고하지 않음.
+    * 기저질환자, 입원 환자, 영상 소견상 폐렴이 확인된 경우 항생제 투여.
+    * 투여 기간: 비중증(nonsevere) 폐렴의 경우 임상적 안정 도달 시 5일 미만(최소 3일) 투여 권장. 중증(severe) 폐렴은 5일 이상 투여.
+* **스테로이드**: 중증 폐렴 환자에게 고려할 수 있으나, 비중증 폐렴에는 사용을 권고하지 않음.
 * **보조 요법**: 저산소혈증 시 산소 요법, 탈수 교정 및 전해질 균형을 위한 수액 요법, 기도 폐쇄 증상 시 기관지 확장제 사용.
 
 ## 6. 예후 및 합병증 (Prognosis)

@@ -48,7 +48,7 @@ content_updated_at: "2026-07-16"
 - 말초혈액 도말 (PBS) : 스머지 세포 (smudge cell) 관찰.
 - 면역표현형 검사 : 유세포 분석을 통해 CD5, CD19, CD20, CD23 양성 확인.
 - 분자유전학 검사 : 리히터 변형(Richter transformation) 의심 시 CLL/SLL과 확산성 거대 B세포 림프종 간의 클론 연관성 확인을 위한 분자 분석 권고.
-- 기타 : 저감마글로불린혈증, LDH 상승 가능. 예후 판정을 위해 세포유전학 검사 시행. [NCCN Guidelines® Insights: Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma, Version 2.2026.](https://pubmed.ncbi.nlm.nih.gov/41825137/)
+- 기타: 저감마글로불린혈증, LDH 상승 가능. 예후 판정을 위해 세포유전학 검사 시행.
 
 ## 4. 진단 (Diagnosis)
 - 말초혈액 내 클론성 B 림프구의 지속적인 증가(5,000/μL 이상)와 특징적인 면역표현형으로 진단.
@@ -58,7 +58,7 @@ content_updated_at: "2026-07-16"
 - 관찰 요법 : 증상이 없거나 질병 진행의 증거가 없는 경우 경과관찰.
 - 1차 치료 : BTK 억제제(BTKi) 또는 BCL-2 억제제(BCL2i) 기반 요법이 표준 치료. BCL2i 기반 요법은 시간 제한적 치료(time-limited treatment)를 통해 BTKi 단독요법이나 화학면역요법(CIT)보다 높은 미세잔존질환 음성(uMRD) 도달률을 보임.
 - 재발성/불응성 질환 : BTKi 및 BCL2i 치료 후 재발 시 Pirtobrutinib(비공유 결합 BTK 억제제) 또는 Lisocabtagene maraleucel(CD19 표적 CAR T-세포 치료) 고려.
-- 리히터 변형 : 확산성 거대 B세포 림프종으로의 조직학적 변형 시 예후가 불량하며, 클론 연관성 분석을 통해 적절한 치료 옵션 선택 필요. [NCCN Guidelines® Insights: Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma, Version 2.2026.](https://pubmed.ncbi.nlm.nih.gov/41825137/)
+- 리히터 변형: 확산성 거대 B세포 림프종으로의 조직학적 변형 시 예후가 불량하며, 클론 연관성 분석을 통해 적절한 치료 옵션 선택 필요.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 완치가 어려운 만성 질환으로 증상 완화 및 생존 연장이 목표.

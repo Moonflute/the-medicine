@@ -47,7 +47,7 @@ content_updated_at: "2026-07-16"
 - 혈액 검사에서 빈혈, 혈소판 감소증, 간 기능 저하 소견(PT 연장, 알부민 감소) 등이 나타난다.
 - 위식도 내시경 검사는 위 정맥류의 유무, 위치, 크기, 출혈 여부를 확인하는 일차적 진단 도구이다.
 - CT 또는 MRI는 위 정맥류의 해부학적 구조 및 혈류 역학을 평가하는 데 유용하다.
-- 내시경 초음파(EUS)는 위 정맥류의 정밀한 평가 및 EUS 유도하 혈관 치료(angiotherapy)를 위한 핵심적인 도구로 활용된다. [Endoscopic devices and techniques for the management of gastric varices (with videos).](https://pubmed.ncbi.nlm.nih.gov/39480369/)
+- 내시경 초음파(EUS)는 위 정맥류의 정밀한 평가 및 EUS 유도하 혈관 치료(angiotherapy)를 위한 핵심적인 도구로 활용된다.
 
 ## 4. 진단 (Diagnosis)
 - **진단 기준**
@@ -59,11 +59,11 @@ content_updated_at: "2026-07-16"
 
 ## 5. 치료 (Treatment)
 - 위 정맥류 출혈의 치료는 위치와 분류(Sarin 분류)에 따라 결정된다.
-- **GOV1**: 식도 정맥류와 연결된 경우, 식도 정맥류 치료 원칙(내시경 정맥류 결찰술, 베타 차단제 등)을 따른다. [Endoscopic devices and techniques for the management of gastric varices (with videos).](https://pubmed.ncbi.nlm.nih.gov/39480369/)
-- **non-GOV1 (GOV2, IGV1, IGV2)**: 내시경적 시아노아크릴레이트(CYA) 접착제 주입술이 일차 치료로 권장된다. [Endoscopic devices and techniques for the management of gastric varices (with videos).](https://pubmed.ncbi.nlm.nih.gov/39480369/)
-- **최신 치료 기법**: EUS 유도하 혈관 치료(EUS-guided angiotherapy)가 도입되어, CYA 접착제 단독 또는 코일 색전술과 병용하여 치료 성공률을 높이고 있다. 코일은 접착제의 지지체(scaffold) 역할을 하여 접착제 색전증 위험을 줄인다. [Endoscopic devices and techniques for the management of gastric varices (with videos).](https://pubmed.ncbi.nlm.nih.gov/39480369/)
-- **비내시경적 치료**: 내시경적 치료가 어렵거나 실패할 경우 경경정맥 간내 문맥-전신 단락술(TIPS) 또는 풍선 폐쇄 역행성 경정맥 폐쇄술(BRTO)을 고려한다. [Endoscopic devices and techniques for the management of gastric varices (with videos).](https://pubmed.ncbi.nlm.nih.gov/39480369/)
-- **일반 관리**: 출혈 시 ABC 확보, 수혈(목표 Hb 8g/dL), 예방적 항생제 투여, 혈관 수축제 사용은 식도 정맥류 출혈 관리와 동일하게 적용한다. [Endoscopic devices and techniques for the management of gastric varices (with videos).](https://pubmed.ncbi.nlm.nih.gov/39480369/)
+- **GOV1**: 식도 정맥류와 연결된 경우, 식도 정맥류 치료 원칙(내시경 정맥류 결찰술, 베타 차단제 등)을 따른다.
+- **non-GOV1 (GOV2, IGV1, IGV2)**: 내시경적 시아노아크릴레이트(CYA) 접착제 주입술이 일차 치료로 권장된다.
+- **최신 치료 기법**: EUS 유도하 혈관 치료(EUS-guided angiotherapy)가 도입되어, CYA 접착제 단독 또는 코일 색전술과 병용하여 치료 성공률을 높이고 있다. 코일은 접착제의 지지체(scaffold) 역할을 하여 접착제 색전증 위험을 줄인다.
+- **비내시경적 치료**: 내시경적 치료가 어렵거나 실패할 경우 경경정맥 간내 문맥-전신 단락술(TIPS) 또는 풍선 폐쇄 역행성 경정맥 폐쇄술(BRTO)을 고려한다.
+- **일반 관리**: 출혈 시 ABC 확보, 수혈(목표 Hb 8g/dL), 예방적 항생제 투여, 혈관 수축제 사용은 식도 정맥류 출혈 관리와 동일하게 적용한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 위 정맥류 출혈은 식도 정맥류 출혈보다 지혈이 어렵고 재출혈률이 높으며, 예후가 더 불량한 경향이 있다.

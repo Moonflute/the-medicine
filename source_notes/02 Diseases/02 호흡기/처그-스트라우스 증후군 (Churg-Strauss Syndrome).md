@@ -25,7 +25,7 @@ content_updated_at: "2026-07-30"
 
 - **원인**: 정확한 원인은 불명이나, Th2 세포 매개 면역 반응의 이상이 주요 기전으로 추정됨.
 
-- **기전**: 호산구 증가와 혈관염이 특징적이며, 호산구에서 방출되는 독성 단백질(ECP, major basic protein 등)이 조직 손상을 유발함. [The Evaluation of Changing the Eponym Churg-Strauss Syndrome Due to the 2012 Revised International Chapel Hill Consensus Conference Nomenclature of Vasculitides.](https://pubmed.ncbi.nlm.nih.gov/38929954/)
+- **기전**: 호산구 증가와 혈관염이 특징적이며, 호산구에서 방출되는 독성 단백질(ECP, major basic protein 등)이 조직 손상을 유발함.
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 천식(대부분의 환자에서 선행), 만성 부비동염, 비용종, 말초신경병증(단일신경염 등).

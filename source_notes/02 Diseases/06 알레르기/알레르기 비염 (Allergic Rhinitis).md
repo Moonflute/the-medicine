@@ -55,7 +55,7 @@ content_updated_at: "2026-07-16"
   - Type I: C4↓, C1INH↓, C1q 정상
   - Type II: C4↓, C1INH 정상, C1INH 기능↓, C1q 정상
   - 후천성 혈관부종: C4&C2↓, C1INH↓, C1q↓
-- 여성 환자 고려사항: 실내 생활 비중이 높은 경우 실내 알레르겐 및 오염물질 노출 평가 필요 [Indian Expert Consensus on Allergic Rhinitis in Women: A Modified Delphi Survey.](https://pubmed.ncbi.nlm.nih.gov/42003159/)
+- 여성 환자 고려사항: 실내 생활 비중이 높은 경우 실내 알레르겐 및 오염물질 노출 평가 필요
 
 ## 4. 진단
 - 알레르기 비염: 병력 청취 및 비경 검사.
@@ -65,7 +65,7 @@ content_updated_at: "2026-07-16"
 
 ## 5. 치료
 - 알레르기 비염
-  - 회피 요법: 집먼지진드기(고온 세탁, 습도 조절), 꽃가루(외출 자제). 실내 생활이 많은 환자는 실내 알레르겐 및 오염물질 관리 강화 [Indian Expert Consensus on Allergic Rhinitis in Women: A Modified Delphi Survey.](https://pubmed.ncbi.nlm.nih.gov/42003159/)
+  - 회피 요법: 집먼지진드기(고온 세탁, 습도 조절), 꽃가루(외출 자제). 실내 생활이 많은 환자는 실내 알레르겐 및 오염물질 관리 강화
   - 약물 요법: 비강 내 스테로이드(1차 치료), 경구/비강 항히스타민제, 경구 충혈제거제. 비강 내 충혈제거제는 3일 이내로 제한
   - 면역 요법: 회피 및 약물 요법 불응 시 시행
 - 혈관부종

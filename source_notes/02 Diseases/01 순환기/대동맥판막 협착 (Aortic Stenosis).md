@@ -51,7 +51,7 @@ content_updated_at: "2026-07-30"
 ## 5. 치료 (Treatment)
 - 약물치료로 협착 진행을 늦출 수는 없다. 유증상 중증 AS는 판막 교체가 근본 치료이다.
 - **적응증**: 유증상 중증 AS, 또는 무증상이라도 LVEF 저하·비정상 운동검사·빠른 진행 등 고위험 소견에서는 판막중재를 평가한다. 중증도는 평균압력차, 판막면적, 유량 상태, 석회화와 LV 기능을 통합해 판단한다.
-- **중재 결정**: SAVR와 TAVI는 모두 표준 선택지다. TAVI는 적합한 삼첨판 AS에서 대체로 70세 이상에 권고되며, 저수술위험의 70세 미만에서는 SAVR를 우선 고려한다. 그 밖의 환자는 기대수명, 재중재 가능성, 혈관·판막 해부학, 동반 관상동맥질환, 수술위험 및 환자 선호를 Heart Team이 함께 판단한다. [2025 ESC/EACTS VHD guideline](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/)
+- **중재 결정**: SAVR와 TAVI는 모두 표준 선택지다. TAVI는 적합한 삼첨판 AS에서 대체로 70세 이상에 권고되며, 저수술위험의 70세 미만에서는 SAVR를 우선 고려한다. 그 밖의 환자는 기대수명, 재중재 가능성, 혈관·판막 해부학, 동반 관상동맥질환, 수술위험 및 환자 선호를 Heart Team이 함께 판단한다.
 ## 6. 예후 및 합병증 (Prognosis)
 - 증상 발현 후 치료하지 않으면 심부전, 부정맥, 급사 위험이 매우 높다.
 

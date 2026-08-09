@@ -44,12 +44,12 @@ content_updated_at: "2026-07-16"
 - 폰빌레브란트병 감별을 위한 VWF 검사 고려.
 - 유전자 검사 (가족력 확인 및 산전 진단).
 - 억제제(inhibitor) 선별 검사 (반복적 인자 투여 환자).
-- 여성 및 여아(WG)의 경우: ISTH-BAT(Bleeding Assessment Tool)를 활용하여 출혈 표현형을 정량화하고, 인자 VIII/IX 검사 및 유전자 검사를 통해 진단 및 선별 검사 시행. [The Diagnosis and Evaluation of Women and Girls with Hemophilia and Hemophilia Carriers: Guidance from the SSC of the ISTH.](https://pubmed.ncbi.nlm.nih.gov/42362028/)
+- 여성 및 여아(WG)의 경우: ISTH-BAT(Bleeding Assessment Tool)를 활용하여 출혈 표현형을 정량화하고, 인자 VIII/IX 검사 및 유전자 검사를 통해 진단 및 선별 검사 시행.
 
 ## 4. 진단 (Diagnosis)
 - 임상 양상, 가족력, aPTT 연장, 응고인자 활성도 측정으로 진단.
 - 확진은 유전자 검사.
-- 여성 및 여아(WG)의 경우, 기존의 진단 지연을 방지하기 위해 ISTH-BAT를 이용한 표준화된 선별 및 진단 절차를 적용함. [The Diagnosis and Evaluation of Women and Girls with Hemophilia and Hemophilia Carriers: Guidance from the SSC of the ISTH.](https://pubmed.ncbi.nlm.nih.gov/42362028/)
+- 여성 및 여아(WG)의 경우, 기존의 진단 지연을 방지하기 위해 ISTH-BAT를 이용한 표준화된 선별 및 진단 절차를 적용함.
 
 ## 5. 치료 (Treatment)
 - 결핍된 응고인자 보충이 일차 치료.

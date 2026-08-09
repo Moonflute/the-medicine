@@ -39,7 +39,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - 혈액 검사: 고칼슘혈증(hyper Ca), 저인산혈증(hypo P), 고부갑상샘호르몬혈증(hyper PTH) 소견을 보인다.
 - 영상 검사: 수술 전 위치 확인을 위해 초음파, Sestamibi 스캔, CT 등을 시행할 수 있으나 진단 자체를 위한 것은 아니다.
-- 이차성/삼차성 부갑상샘 기능항진증의 경우, 초음파 유도하 열 절제술(Thermal Ablation, TA)을 위한 위치 확인 및 평가가 필요할 수 있다. [2024 International expert consensus on ultrasound-guided thermal ablation for secondary and tertiary hyperparathyroidism.](https://pubmed.ncbi.nlm.nih.gov/41601279/)
+- 이차성/삼차성 부갑상샘 기능항진증의 경우, 초음파 유도하 열 절제술(Thermal Ablation, TA)을 위한 위치 확인 및 평가가 필요할 수 있다.
 - 기타: 단순 방사선 검사에서 골막 하 흡수(subperiosteal resorption)나 골염(osteitis fibrosa cystica) 소견이 관찰될 수 있다.
 
 ## 4. 진단 (Diagnosis)
@@ -56,7 +56,7 @@ content_updated_at: "2026-07-16"
   - 골밀도 T-score < -2.5 또는 척추 골절
   - 50세 미만
 - **이차성 및 삼차성 기능항진증 치료**
-  - 말기 신질환 환자에서 수술적 절제(SR)의 대안으로 초음파 유도하 열 절제술(TA)이 최소 침습적이고 안전한 치료법으로 고려될 수 있다. [2024 International expert consensus on ultrasound-guided thermal ablation for secondary and tertiary hyperparathyroidism.](https://pubmed.ncbi.nlm.nih.gov/41601279/)
+  - 말기 신질환 환자에서 수술적 절제(SR)의 대안으로 초음파 유도하 열 절제술(TA)이 최소 침습적이고 안전한 치료법으로 고려될 수 있다.
 - **내과적 치료**
   - 수술이 불가능하거나 무증상인 경우: 충분한 수분 섭취, 활동 유지, 칼슘 섭취 조절.
   - 약물: 고칼슘혈증 조절을 위해 시나칼셋(cinacalcet), 골다공증 동반 시 비스포스포네이트(bisphosphonate) 투여 고려.

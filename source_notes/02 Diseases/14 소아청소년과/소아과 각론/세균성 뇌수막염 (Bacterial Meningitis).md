@@ -43,7 +43,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 * **뇌척수액(CSF) 검사**: 진단의 핵심. Gram 염색 및 배양을 통한 병원균 확인 필수.
 * **영상 검사**: 뇌압 상승 징후(유두 부종, 국소 신경학적 결손, 경련 등)가 있는 경우 LP 전 뇌 CT/MRI 시행하여 뇌 탈출 위험 평가.
-* **주의사항**: 조기 진단 및 병원균 확인을 위한 검체 채취의 신속성 강조. [[Clinical practice guidelines for the diagnosis and treatment of community-acquired bacterial meningitis in children (2025)].](https://pubmed.ncbi.nlm.nih.gov/39844486/) [[Clinical practice guidelines for the diagnosis and treatment of community-acquired bacterial meningitis in children (2025)].](https://pubmed.ncbi.nlm.nih.gov/39844486/)
+* **주의사항**: 조기 진단 및 병원균 확인을 위한 검체 채취의 신속성 강조.
 
 ## 4. 진단 (Diagnosis)
 * 뇌척수액 검사 결과(Gram stain, 배양)를 통한 확진
@@ -52,7 +52,7 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 * **항균제 치료**: 조기 투여가 예후 결정의 핵심. 지역사회 획득 세균성 뇌수막염(CABM)의 경우 가이드라인에 따른 표준 항균제 요법 시행.
 * **치료 원칙**: 조기 정밀 진단과 표준화된 항균제 치료를 통해 예후 개선 및 질병 부담 감소 도모.
-* **관리**: 임상적 경과에 따른 모니터링 및 합병증 관리. [[Clinical practice guidelines for the diagnosis and treatment of community-acquired bacterial meningitis in children (2025)].](https://pubmed.ncbi.nlm.nih.gov/39844486/) [[Clinical practice guidelines for the diagnosis and treatment of community-acquired bacterial meningitis in children (2025)].](https://pubmed.ncbi.nlm.nih.gov/39844486/)
+* **관리**: 임상적 경과에 따른 모니터링 및 합병증 관리.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 치료가 예후를 결정함 (사망률 10-15%)

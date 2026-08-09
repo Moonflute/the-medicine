@@ -37,7 +37,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - **필수 검사**: 소변 검사(현미경적 혈뇨 및 단백뇨 정량), 혈청 크레아티닌(eGFR 산출), 혈압 측정.
 - **조직 검사(확진)**: 신장 조직 검사를 통해 확진하며, MEST-C 점수 체계를 사용하여 병리적 중증도를 평가함.
-- **주의사항**: 혈청 IgA 농도는 진단적 가치가 낮으므로 일상적인 선별 검사로 권장하지 않음. 보체 농도(C3, C4)는 다른 사구체 질환 감별을 위해 측정함. [KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases](https://kdigo.org/guidelines/gd/)
+- **주의사항**: 혈청 IgA 농도는 진단적 가치가 낮으므로 일상적인 선별 검사로 권장하지 않음. 보체 농도(C3, C4)는 다른 사구체 질환 감별을 위해 측정함.
 
 ## 4. 진단 (Diagnosis)
 - 신장 조직 검사를 통해 확진.
@@ -46,7 +46,7 @@ content_updated_at: "2026-07-16"
 ## 5. 치료 (Treatment)
 - **보존적 치료(기본)**: 최적의 혈압 조절(ACEi 또는 ARB 사용), 염분 제한, 금연 및 체중 관리. 모든 환자에게 적용.
 - **위험도 평가 및 치료**: 단백뇨가 지속되는 경우(보존적 치료 후에도 >0.5-1g/일) 위험도를 평가하여 면역억제제(스테로이드 등) 투여를 고려함.
-- **모니터링**: 단백뇨 수치, 혈압, eGFR을 정기적으로 추적 관찰하여 치료 반응을 평가하고, 신기능 악화 시 신장내과 전문의와 상의하여 치료를 재평가함. [KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases](https://kdigo.org/guidelines/gd/)
+- **모니터링**: 단백뇨 수치, 혈압, eGFR을 정기적으로 추적 관찰하여 치료 반응을 평가하고, 신기능 악화 시 신장내과 전문의와 상의하여 치료를 재평가함.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후는 다양함.

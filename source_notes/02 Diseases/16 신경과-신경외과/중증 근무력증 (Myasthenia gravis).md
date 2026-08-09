@@ -41,8 +41,8 @@ content_updated_at: "2026-07-16"
 
 
 ## 3. 검사 (Lab & Imaging)
-- **진단적 접근**: 피로성 근력 약화 확인이 필수적이며, 신경생리학적 검사 및 혈청 병원성 항체(AChR, MuSK 등) 검사를 병행하여 확진함. [Portuguese Consensus Guidelines for the Diagnosis and Treatment of Myasthenia Gravis.](https://pubmed.ncbi.nlm.nih.gov/41396134/)
-- **주의사항**: 보체 경로 및 B/T 세포군이 자가면역 과정에 관여하므로, 항체 음성인 경우에도 임상적 의심이 높다면 추가적인 신경생리학적 평가가 필요함. [Portuguese Consensus Guidelines for the Diagnosis and Treatment of Myasthenia Gravis.](https://pubmed.ncbi.nlm.nih.gov/41396134/)
+- **진단적 접근**: 피로성 근력 약화 확인이 필수적이며, 신경생리학적 검사 및 혈청 병원성 항체(AChR, MuSK 등) 검사를 병행하여 확진함.
+- **주의사항**: 보체 경로 및 B/T 세포군이 자가면역 과정에 관여하므로, 항체 음성인 경우에도 임상적 의심이 높다면 추가적인 신경생리학적 평가가 필요함.
 
 ## 4. 진단 (Diagnosis)
 - 임상적 증상과 함께 혈청 항체 검사 및 전기생리학적 검사를 통해 확진.
@@ -51,9 +51,9 @@ content_updated_at: "2026-07-16"
 
 
 ## 5. 치료 (Treatment)
-- **기본 치료**: 아세틸콜린에스테라제 억제제, 스테로이드 및 비스테로이드성 면역억제제 사용. [Portuguese Consensus Guidelines for the Diagnosis and Treatment of Myasthenia Gravis.](https://pubmed.ncbi.nlm.nih.gov/41396134/)
-- **최신 치료 전략**: 보체 경로 억제제(terminal complement pathway inhibitors) 및 신생아 Fc 수용체 길항제(neonatal Fc receptor antagonists)가 도입되어 치료 환경이 변화함. [Portuguese Consensus Guidelines for the Diagnosis and Treatment of Myasthenia Gravis.](https://pubmed.ncbi.nlm.nih.gov/41396134/)
-- **맞춤형 알고리즘**: 항체 아형(antibody subgroup) 및 임상적 중증도에 따라 치료 단계를 결정하며, 최신 가이드라인에 따른 단계적 접근이 권장됨. [Portuguese Consensus Guidelines for the Diagnosis and Treatment of Myasthenia Gravis.](https://pubmed.ncbi.nlm.nih.gov/41396134/)
+- **기본 치료**: 아세틸콜린에스테라제 억제제, 스테로이드 및 비스테로이드성 면역억제제 사용.
+- **최신 치료 전략**: 보체 경로 억제제(terminal complement pathway inhibitors) 및 신생아 Fc 수용체 길항제(neonatal Fc receptor antagonists)가 도입되어 치료 환경이 변화함.
+- **맞춤형 알고리즘**: 항체 아형(antibody subgroup) 및 임상적 중증도에 따라 치료 단계를 결정하며, 최신 가이드라인에 따른 단계적 접근이 권장됨.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 호흡근 마비로 인한 '근무력성 위기(Myasthenic crisis)'는 응급 상황으로 인공호흡기 치료가 필요할 수 있음.

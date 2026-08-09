@@ -44,7 +44,7 @@ content_updated_at: "2026-07-16"
 - **혈액 검사**: CBC 및 백혈구 감별 계산(Differential count)을 통한 절대 호중구 수(ANC) 확인.
 - **배양 검사**: 혈액(말초 및 카테터), 소변, 의심 부위 배양.
 - **영상 검사**: 흉부 X-ray는 필수. 필요시 흉부/복부/부비동 CT 시행.
-- **특수 고려사항**: 결핵 유병률이 높은 지역에서는 결핵 평가를 포함한 감별 진단 고려 [Clinical practice guidelines for the management of fever and neutropenia in South African children and adolescents with cancer.](https://pubmed.ncbi.nlm.nih.gov/42246864/).
+- **특수 고려사항**: 결핵 유병률이 높은 지역에서는 결핵 평가를 포함한 감별 진단 고려.
 
 ## 4. 진단 (Diagnosis)
 - 발열과 함께 호중구 수 500/µL 미만(중증)인 경우 감염을 강력히 의심.
@@ -54,7 +54,7 @@ content_updated_at: "2026-07-16"
 - **경험적 항생제**: 발열 시 즉시 녹농균(P. aeruginosa)을 포함한 광범위 항생제(세페핌, 피페라실린-타조박탐, 카바페넴 등) 투여.
 - **반코마이신**: 도관 관련 감염 의심, 베타-락탐 내성균, 저혈압, 심혈관 기능 저하 시 추가 고려.
 - **보조 요법**: 필요시 G-CSF(과립구 집락 자극 인자)를 사용하여 호중구 생성을 촉진.
-- **관리 원칙**: 암 환자의 경우, 임상 결과 개선을 위해 근거 기반의 표준화된 진료 지침(CPG)에 따른 일관된 관리가 필수적임 [Clinical practice guidelines for the management of fever and neutropenia in South African children and adolescents with cancer.](https://pubmed.ncbi.nlm.nih.gov/42246864/).
+- **관리 원칙**: 암 환자의 경우, 임상 결과 개선을 위해 근거 기반의 표준화된 진료 지침(CPG)에 따른 일관된 관리가 필수적임.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 패혈증, 다발성 장기 부전 등 치명적인 합병증 발생 위험이 높으므로 신속한 진단과 치료가 필수적임.
