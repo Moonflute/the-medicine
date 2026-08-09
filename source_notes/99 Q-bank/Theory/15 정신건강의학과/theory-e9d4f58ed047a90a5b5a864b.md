@@ -1,0 +1,51 @@
+---
+type: qbank
+schema_version: 1
+id: theory-zglzzwfzzxxnvfvnn0tdvjdjdwc2ckcwnnjdvjdkmlk3wldannjpoewtewvrtzjqa0nec2lxvhrqcg50axjqcm43d2c3sjzsn0pxz0ldaejkwfjwyziwz1uzqmxzm1j5zfcwz1jhbhpim0prwlhjcextmwt8zglzzwfzzs0wms1yzwnvz25pdglvbnxkaxjly3rfcmvjywxs
+source: Internal-Theory
+source_split: theory
+source_meta: repository-notes
+exam: Theory
+language: ko
+specialty: 15 정신건강의학과
+target_type: disease
+target_slug: "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yekO2PkCDsiqTtjpntirjrn7wg7J6l7JWgIChBdXRpc20gU3BlY3RydW0gRGlzb3JkZXIpLm1k"
+theory_objective_id: disease-01-recognition
+question_type: recognition
+question_mode: direct_recall
+difficulty: standard
+answer: C
+translation_status: not-applicable
+explanation_status: machine-generated
+generation_model: gpt-oss-120b
+generation_prompt_version: theory-qbank-ko-v1
+generated_at: 2026-08-09
+review_status: machine-generated
+---
+
+# 이론 문제
+
+## 문제
+
+자폐 스펙트럼 장애의 정의에 포함되지 않는 항목은?
+
+## 선택지
+
+A. 사회적 소통 및 상호작용의 지속적 결핍
+B. 제한적·반복적인 행동·관심·활동
+C. 지능 저하
+D. 발달 초기 발현
+
+## 해설
+
+ASD는 사회·소통 결핍과 제한·반복 행동이 핵심이며, 지능 수준은 진단 기준에 포함되지 않는다.
+
+## 오답 포인트
+
+- **B. 제한적·반복적인 행동·관심·활동:** 제한·반복 행동은 ASD의 핵심 특징이다.
+
+## 출처
+
+- 내부 학습 노트: 자폐 스펙트럼 장애 (Autism Spectrum Disorder)
+- 원본 경로: `source_notes/02 Diseases/15 정신건강의학과/자폐 스펙트럼 장애 (Autism Spectrum Disorder).md`
+- 학습 목표: 원문 핵심: - 정의: 사회적 소통 및 상호작용의 지속적 결핍과 제한적이고 반복적인 행동, 흥미, 활동 패턴을 특징으로 하는 신경발달장애. - 특징: 증상은 초기 발달 시기에 나타나며, 개인마다 증상의 심각도와 기능적 손상 정도가 다양한 이질적인 양상을 보임.

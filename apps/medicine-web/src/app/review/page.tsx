@@ -72,8 +72,8 @@ export default function ReviewPage() {
           <div className="flex items-start justify-between gap-4">
             <div>
               <div className="flex items-center gap-2 text-sm font-semibold text-teal-800"><ListChecks className="h-5 w-5" />Q-bank</div>
-              <h2 className="mt-3 text-2xl font-semibold text-slate-950">임상 문제 풀기</h2>
-              <p className="mt-2 text-sm leading-6 text-slate-600">Q-bank 임상 문제 풀기</p>
+              <h2 className="mt-3 text-2xl font-semibold text-slate-950">문제 풀기</h2>
+              <p className="mt-2 text-sm leading-6 text-slate-600">이론·임상 Q-bank 문제 풀기</p>
             </div>
             <ArrowRight className="mt-1 h-5 w-5 shrink-0 text-teal-700" />
           </div>

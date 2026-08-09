@@ -1335,9 +1335,15 @@ function normalizeQbankDiseaseTerm(value) {
 }
 
 function buildQbank() {
-  const root = path.join(SOURCE_NOTES_ROOT, "99 Q-bank", "MedQA");
-  if (!fs.existsSync(root)) return { index: [], specialties: [], questions: [] };
-  const diseaseCandidates = buildDiseases().flatMap((item) =>
+  const sourceRoots = [
+    { root: path.join(SOURCE_NOTES_ROOT, "99 Q-bank", "MedQA"), questionBank: "clinical" },
+    { root: path.join(SOURCE_NOTES_ROOT, "99 Q-bank", "Theory"), questionBank: "theory" },
+  ].filter(({ root }) => fs.existsSync(root));
+  if (sourceRoots.length === 0) return { index: [], specialties: [], questions: [] };
+  const diseases = buildDiseases();
+  const ccSlugByTitle = new Map(buildChiefComplaints().map((item) => [item.title, item.slug]));
+  const diseaseBySlug = new Map(diseases.map((item) => [item.slug, item]));
+  const diseaseCandidates = diseases.flatMap((item) =>
     [item.title, ...(item.aliases || [])]
       .map((term) => ({ term: normalizeQbankDiseaseTerm(term), slug: item.slug }))
       .filter((candidate) => candidate.term.length >= 3),
@@ -1359,7 +1365,8 @@ function buildQbank() {
   const seenIds = new Set();
   const seenHashes = new Set();
 
-  for (const filePath of listMarkdownFiles(root, { ignoreFiles: new Set(["index.md"]) })) {
+  for (const { root, questionBank } of sourceRoots) {
+    for (const filePath of listMarkdownFiles(root, { ignoreFiles: new Set(["index.md", "README.md"]) })) {
     const { frontmatter, body } = splitFrontmatter(readText(filePath));
     if (readScalar(frontmatter.type) !== "qbank") continue;
     const id = readScalar(frontmatter.id);
@@ -1367,7 +1374,7 @@ function buildQbank() {
     const specialty = readScalar(frontmatter.specialty);
     const answer = readScalar(frontmatter.answer);
     if (!id || seenIds.has(id)) throw new Error(`Q-bank duplicate or missing id: ${id || filePath}`);
-    if (!sourceHash || seenHashes.has(sourceHash)) throw new Error(`Q-bank duplicate or missing source hash: ${sourceHash || filePath}`);
+    if (questionBank === "clinical" && (!sourceHash || seenHashes.has(sourceHash))) throw new Error(`Q-bank duplicate or missing source hash: ${sourceHash || filePath}`);
     if (!/^[A-D]$/.test(answer)) throw new Error(`Q-bank invalid answer for ${id}`);
     const question = qbankSection(body, "문제");
     const optionsText = qbankSection(body, "선택지");
@@ -1379,7 +1386,16 @@ function buildQbank() {
       ? qbankSection(body, "해설").replace(/<!--([\s\S]*?)-->/g, "").trim()
       : "";
     const diseaseTerms = readList(frontmatter.related_diseases);
-    const relatedDiseaseSlugs = [...new Set(diseaseTerms.map(resolveDiseaseTerm).filter(Boolean))];
+    const targetType = questionBank === "theory" ? readScalar(frontmatter.target_type) : "";
+    const targetSlug = questionBank === "theory" ? readScalar(frontmatter.target_slug) : "";
+    const relatedDiseaseSlugs = [...new Set([
+      ...diseaseTerms.map(resolveDiseaseTerm).filter(Boolean),
+      ...(targetType === "disease" && targetSlug ? [targetSlug] : []),
+    ])];
+    const relatedCcSlugs = [...new Set([
+      ...(targetType === "cc" && targetSlug ? [targetSlug] : []),
+      ...relatedDiseaseSlugs.flatMap((slug) => (diseaseBySlug.get(slug)?.chiefComplaints ?? []).map((term) => ccSlugByTitle.get(term) || "")).filter(Boolean),
+    ])];
     const specialtySlug = toSlug(specialty);
     questions.push({
       id,
@@ -1389,6 +1405,7 @@ function buildQbank() {
       specialtySlug,
       relatedDiseaseTerms: diseaseTerms,
       relatedDiseaseSlugs,
+      relatedCcSlugs,
       questionType: readScalar(frontmatter.question_type) || "other",
       difficulty: readScalar(frontmatter.difficulty) || "standard",
       question,
@@ -1398,9 +1415,13 @@ function buildQbank() {
       translationStatus: readScalar(frontmatter.translation_status),
       explanationStatus,
       reviewStatus: readScalar(frontmatter.review_status),
+      questionBank,
+      targetType,
+      targetSlug,
     });
     seenIds.add(id);
-    seenHashes.add(sourceHash);
+    if (sourceHash) seenHashes.add(sourceHash);
+    }
   }
 
   questions.sort((a, b) => a.id.localeCompare(b.id));
@@ -1425,10 +1446,14 @@ function buildQbank() {
     specialty: item.specialty,
     specialtySlug: item.specialtySlug,
     relatedDiseaseSlugs: item.relatedDiseaseSlugs,
+    relatedCcSlugs: item.relatedCcSlugs,
     questionType: item.questionType,
     difficulty: item.difficulty,
     translationStatus: item.translationStatus,
     explanationStatus: item.explanationStatus,
+    questionBank: item.questionBank,
+    targetType: item.targetType,
+    targetSlug: item.targetSlug,
   }));
   writePublicQbankJson("index.json", index);
   writePublicQbankJson("specialties.json", specialties);

@@ -35,27 +35,48 @@ async function fetchJson<T>(path: string): Promise<T> {
   return response.json() as Promise<T>;
 }
 
-async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>): Promise<QbankQuestion[]> {
+async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = ""): Promise<QbankQuestion[]> {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-  let slugs: string[];
-  if (mode === "specialty" && specialty && specialty !== "all") {
+  const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
+  let candidates = index;
+  if (mode === "selection") {
+    const theory = new Set(theorySpecialties.split(",").filter(Boolean));
+    const clinical = new Set(clinicalSpecialties.split(",").filter(Boolean));
+    candidates = index.filter((item) => (
+      (item.questionBank === "theory" && theory.has(item.specialtySlug))
+      || (item.questionBank !== "theory" && clinical.has(item.specialtySlug))
+    ));
+  } else if (mode === "related") {
+    candidates = index.filter((item) => (
+      (item.targetType === targetType && item.targetSlug === targetSlug)
+      || (targetType === "disease" && item.relatedDiseaseSlugs?.includes(targetSlug))
+      || (targetType === "cc" && item.relatedCcSlugs?.includes(targetSlug))
+    ));
+  } else if (mode === "specialty" && specialty && specialty !== "all") {
     const selectedSlugs = specialty.split(",").filter((slug) => specialties.some((item) => item.slug === slug));
-    slugs = selectedSlugs.length > 0 ? selectedSlugs : specialties.map((item) => item.slug);
+    candidates = index.filter((item) => (selectedSlugs.length > 0 ? selectedSlugs : specialties.map((entry) => entry.slug)).includes(item.specialtySlug));
   } else if (mode === "disease") {
     if (!disease) return [];
-    const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
-    slugs = [...new Set(index.filter((item) => item.relatedDiseaseSlugs?.includes(disease)).map((item) => item.specialtySlug))];
+    candidates = index.filter((item) => item.relatedDiseaseSlugs?.includes(disease));
   } else if (mode === "wrong" || mode === "bookmarks") {
     const state = loadQbankState();
     const ids = targetIds ?? new Set(mode === "wrong" ? state.wrongIds : state.bookmarkIds);
     if (ids.size === 0) return [];
-    const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
-    slugs = [...new Set(index.filter((item) => ids.has(item.id)).map((item) => item.specialtySlug))];
-  } else {
-    slugs = specialties.map((item) => item.slug);
+    candidates = index.filter((item) => ids.has(item.id));
   }
+  if (mode === "related") {
+    const theory = new Set(theorySpecialties.split(",").filter(Boolean));
+    const clinical = new Set(clinicalSpecialties.split(",").filter(Boolean));
+    candidates = candidates.filter((item) => (
+      (item.questionBank === "theory" && theory.has(item.specialtySlug))
+      || (item.questionBank !== "theory" && clinical.has(item.specialtySlug))
+    ));
+  }
+  const slugs = [...new Set(candidates.map((item) => item.specialtySlug))];
+  if (slugs.length === 0) return [];
   const shards = await Promise.all(slugs.map((slug) => fetchJson<QbankQuestion[]>(`${basePath}/generated/qbank/${slug}.json`)));
-  return shards.flat();
+  const ids = new Set(candidates.map((item) => item.id));
+  return shards.flat().filter((item) => ids.has(item.id));
 }
 
 function activeSessionFrom(value: unknown): QbankActiveSession | null {
@@ -118,6 +139,10 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const mode = params.get("mode") || "all";
     const specialty = params.get("specialty") || "all";
     const disease = params.get("disease") || "";
+    const theorySpecialties = params.get("theory") || "";
+    const clinicalSpecialties = params.get("clinical") || "";
+    const targetType = params.get("targetType") || "";
+    const targetSlug = params.get("target") || "";
     const requestedCountValue = params.get("count") || (mode === "disease" ? "all" : "10");
     const storageKey = sessionStorageKey();
     const initialState = loadQbankState();
@@ -126,7 +151,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       : mode === "bookmarks"
         ? new Set(initialState.bookmarkIds)
         : undefined;
-    void loadQuestions(specialties, mode, specialty, disease, targetIds)
+    void loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug)
       .then((loaded) => {
         const state = initialState;
         let filtered = loaded;

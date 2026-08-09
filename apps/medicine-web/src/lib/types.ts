@@ -375,6 +375,7 @@ export type QbankQuestion = {
   specialtySlug: string;
   relatedDiseaseTerms: string[];
   relatedDiseaseSlugs: string[];
+  relatedCcSlugs: string[];
   questionType: string;
   difficulty: string;
   question: string;
@@ -384,11 +385,14 @@ export type QbankQuestion = {
   translationStatus: string;
   explanationStatus: string;
   reviewStatus: string;
+  questionBank: "clinical" | "theory" | string;
+  targetType: "disease" | "cc" | "drug" | string;
+  targetSlug: string;
 };
 
 export type QbankQuestionIndex = Pick<
   QbankQuestion,
-  "id" | "specialty" | "specialtySlug" | "relatedDiseaseSlugs" | "questionType" | "difficulty" | "translationStatus" | "explanationStatus"
+  "id" | "specialty" | "specialtySlug" | "relatedDiseaseSlugs" | "relatedCcSlugs" | "questionType" | "difficulty" | "translationStatus" | "explanationStatus" | "questionBank" | "targetType" | "targetSlug"
 >;
 
 export type QbankSpecialtySummary = {

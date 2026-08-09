@@ -213,12 +213,12 @@ export type NeuroAtlas = {
   disclaimer: string;
   sources: Array<{ id?: string; label: string; title?: string; publisher?: string; edition?: string; editionOrVersion?: string; section?: string; url: string; accessedAt?: string; license?: string; usedFor?: string }>;
   views: Array<{ id: string; label: string; description: string; hierarchy: string[]; group?: string; orientation?: string; sourceIds?: string[]; createdAs: "project-generated-illustration"; referenceSourceIds: string[]; anatomyReviewStatus?: "source-mapped"; visualReviewStatus?: "design-system-checked"; reviewScope?: string; reviewStatus: "draft-anatomy" | "source-checked" | "review-ready"; published?: boolean; isPilotSelectable?: boolean; illustrationAsset: { asset: string; width: number; height: number; kind: "project-generated-reference-traced"; sha256: string; overlayId: string; reviewStatus: string; referenceSourceIds: string[]; reviewNote?: string } }>;
-  structures: Array<{ id: string; ko: string; en: string; group: string; summary: string; links: string[]; drugLinks?: string[]; viewIds?: string[]; sourceIds?: string[]; note?: { anatomy: Array<{ label: string; text: string }>; function: Array<{ label: string; text: string }>; clinical: Array<{ label: string; text: string }>; related: Array<{ id: string; label: string; text: string }>; diseases: string[]; sourceIds: string[] } }>;
-  pathways: Array<{ id: string; ko: string; en: string; kind: string; route: string; pattern: string; links: string[]; drugLinks?: string[]; nodes?: string[]; sourceIds?: string[]; origin?: string; relayNuclei?: string[]; decussation?: string; termination?: string; primaryFunction?: string; lesionPattern?: string; laterality?: { rule: string; description: string }; segments?: Array<{ structureId: string; role: string; label: string }>; reviewedAt?: string; reviewBasis?: string; note?: { anatomy: Array<{ label: string; text: string }>; function: Array<{ label: string; text: string }>; clinical: Array<{ label: string; text: string }>; related: Array<{ id: string; label: string; text: string }>; diseases: string[]; sourceIds: string[] } }>;
+  structures: Array<{ id: string; ko: string; en: string; group: string; summary: string; links: string[]; drugLinks?: string[]; viewIds?: string[]; sourceIds?: string[] }>;
+  pathways: Array<{ id: string; ko: string; en: string; kind: string; route: string; pattern: string; links: string[]; drugLinks?: string[]; nodes?: string[]; sourceIds?: string[]; origin?: string; relayNuclei?: string[]; decussation?: string; termination?: string; primaryFunction?: string; lesionPattern?: string; laterality?: { rule: string; description: string }; segments?: Array<{ structureId: string; role: string; label: string }>; reviewedAt?: string; reviewBasis?: string }>;
   dermatomes: Array<{ id: string; label: string; area: string; hint: string }>;
   myotomes: Array<{ id: string; label: string; action: string; muscle: string; reflex: string; peripheralNerve?: string; testPosition?: string; differential?: string; sourceIds?: string[] }>;
-  reflexes: Array<{ id: string; label: string; arc: string; localization: string; purpose?: string; technique?: string[]; route?: string[]; routeLabels?: string[]; routeStages?: Array<"stimulus" | "afferent" | "central" | "efferent" | "effector">; laterality?: { options: string[]; default: string; description: string }; normal?: string; abnormal?: string; viewId?: string; sourceIds?: string[]; reviewStatus?: "draft" | "source-checked" | "retired"; note?: { anatomy: Array<{ label: string; text: string }>; function: Array<{ label: string; text: string }>; clinical: Array<{ label: string; text: string }>; related: Array<{ id: string; label: string; text: string }>; diseases: string[]; sourceIds: string[] } }>;
-  theoryTopics: Array<{ id: string; title: string; category: string; summary: string; keyPoints: string[]; sections?: Array<{ heading: string; body: string }>; viewId: string; itemId?: string; sourceIds: string[]; drugLinks?: string[]; note?: { anatomy: Array<{ label: string; text: string }>; function: Array<{ label: string; text: string }>; clinical: Array<{ label: string; text: string }>; related: Array<{ id: string; label: string; text: string }>; diseases: string[]; sourceIds: string[] } }>;
+  reflexes: Array<{ id: string; label: string; arc: string; localization: string; purpose?: string; technique?: string[]; route?: string[]; routeLabels?: string[]; routeStages?: Array<"stimulus" | "afferent" | "central" | "efferent" | "effector">; laterality?: { options: string[]; default: string; description: string }; normal?: string; abnormal?: string; viewId?: string; sourceIds?: string[]; reviewStatus?: "draft" | "source-checked" | "retired" }>;
+  theoryTopics: Array<{ id: string; title: string; category: string; summary: string; keyPoints: string[]; sections?: Array<{ heading: string; body: string }>; viewId: string; itemId?: string; sourceIds: string[]; drugLinks?: string[] }>;
 };
 
 export type MaternalChildHubData = {
@@ -348,6 +348,14 @@ export function getQbankCountForDisease(diseaseSlug: string): number {
   return getQbankIndex().filter((item) => item.relatedDiseaseSlugs?.includes(diseaseSlug)).length;
 }
 
+export function getQbankCountForTarget(targetType: "disease" | "cc", targetSlug: string): number {
+  return getQbankIndex().filter((item) => (
+    (item.targetType === targetType && item.targetSlug === targetSlug)
+    || (targetType === "disease" && item.relatedDiseaseSlugs?.includes(targetSlug))
+    || (targetType === "cc" && item.relatedCcSlugs?.includes(targetSlug))
+  )).length;
+}
+
 export function getQbankQuestionsBySpecialty(specialtySlug: string): QbankQuestion[] {
   return readJson(`qbank/${specialtySlug}.json`);
 }
@@ -357,4 +365,3 @@ export function getQbankQuestionById(id: string): QbankQuestion | undefined {
   if (!index) return undefined;
   return getQbankQuestionsBySpecialty(index.specialtySlug).find((item) => item.id === id);
 }
-
