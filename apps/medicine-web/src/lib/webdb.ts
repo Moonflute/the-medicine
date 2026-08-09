@@ -218,7 +218,25 @@ export type NeuroAtlas = {
   dermatomes: Array<{ id: string; label: string; area: string; hint: string }>;
   myotomes: Array<{ id: string; label: string; action: string; muscle: string; reflex: string; peripheralNerve?: string; testPosition?: string; differential?: string; sourceIds?: string[] }>;
   reflexes: Array<{ id: string; label: string; arc: string; localization: string; purpose?: string; technique?: string[]; route?: string[]; routeLabels?: string[]; routeStages?: Array<"stimulus" | "afferent" | "central" | "efferent" | "effector">; laterality?: { options: string[]; default: string; description: string }; normal?: string; abnormal?: string; viewId?: string; sourceIds?: string[]; reviewStatus?: "draft" | "source-checked" | "retired" }>;
-  theoryTopics: Array<{ id: string; title: string; category: string; summary: string; keyPoints: string[]; sections?: Array<{ heading: string; body: string }>; viewId: string; itemId?: string; sourceIds: string[]; drugLinks?: string[] }>;
+  theoryTopics: Array<{
+    id: string;
+    title: string;
+    category: string;
+    summary: string;
+    keyPoints: string[];
+    sections?: Array<{ heading: string; body: string }>;
+    viewId: string;
+    itemId?: string;
+    sourceIds: string[];
+    drugLinks?: string[];
+    note?: {
+      anatomy: Array<{ label?: string; text: string }>;
+      function: Array<{ label?: string; text: string }>;
+      clinical: Array<{ label?: string; text: string }>;
+      related: Array<{ id: string; label?: string; text: string }>;
+      diseases: string[];
+    };
+  }>;
 };
 
 export type MaternalChildHubData = {
