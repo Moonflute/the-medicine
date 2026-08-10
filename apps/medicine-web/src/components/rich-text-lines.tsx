@@ -79,10 +79,6 @@ function getLabelOnly(body: string) {
 }
 
 function parseBlocks(lines: string[], bulletStyle: BulletStyle): ParsedBlock[] {
-  if (bulletStyle !== "plain") {
-    return lines.map((line) => ({ type: "line", line }));
-  }
-
   const blocks: ParsedBlock[] = [];
   let currentGroup: ParsedBlock | null = null;
 
@@ -412,4 +408,3 @@ export function RichTextLines({
     </div>
   );
 }
-
