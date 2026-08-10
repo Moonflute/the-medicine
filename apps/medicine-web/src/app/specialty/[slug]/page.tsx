@@ -83,7 +83,7 @@ function isOverviewNoteForLabel(note: DiseaseNote, label: string) {
     .replace(/\s*\([^)]*\)\s*$/, "")
     .trim();
 
-  return normalize(note.title) === normalize(label);
+  return Boolean(note.groupOverview) || normalize(note.title) === normalize(label);
 }
 
 function buildGroups(notes: DiseaseNote[], specialtyLabel: string, tocOrder: TocOrder): FirstLevelGroup[] {
@@ -256,11 +256,14 @@ function DiseaseLinks({ notes, specialtyLabel }: { notes: DiseaseNote[]; special
         <Link
           key={note.slug}
           href={`/disease/${note.slug}`}
-          className="flex items-center justify-between rounded-lg border border-slate-200 bg-slate-50 px-4 py-3 transition hover:border-slate-300 hover:bg-white"
+          className={`flex items-center justify-between rounded-lg border px-4 py-3 transition ${note.groupOverview ? "border-teal-200 bg-teal-50/80 hover:border-teal-400 hover:bg-teal-50" : "border-slate-200 bg-slate-50 hover:border-slate-300 hover:bg-white"}`}
         >
           <span className="min-w-0 pr-3">
+            {note.groupOverview ? <span className="mb-1 inline-flex rounded-full border border-teal-200 bg-white px-2 py-0.5 text-[11px] font-semibold text-teal-800">질환군 개요 · {note.groupOverview.memberTitles.length}개 질환</span> : null}
             <span className="block text-sm font-medium text-slate-950">{note.displayTitle || note.title}</span>
-            {note.specialty.replace(/^\d+\s*/, "").trim() !== specialtyLabel ? (
+            {note.groupOverview ? (
+              <span className="mt-1 block text-xs text-teal-800">구성 질환을 비교하고 관련 문제를 함께 풉니다.</span>
+            ) : note.specialty.replace(/^\d+\s*/, "").trim() !== specialtyLabel ? (
               <span className="mt-1 block text-xs text-slate-500">{note.specialty.replace(/^\d+\s*/, "").trim()}</span>
             ) : null}
           </span>

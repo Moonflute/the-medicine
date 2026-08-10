@@ -359,6 +359,25 @@ function extractDefinition(body) {
   return "";
 }
 
+function normalizeGroupLabel(value) {
+  return String(value ?? "")
+    .normalize("NFKC")
+    .replace(/\s*\([^)]*\)\s*$/, "")
+    .replace(/\s+/g, "")
+    .trim();
+}
+
+function extractWikiLinkTargets(lines) {
+  const targets = [];
+  for (const line of lines) {
+    for (const match of line.matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g)) {
+      const title = match[1]?.trim();
+      if (title) targets.push(title);
+    }
+  }
+  return [...new Set(targets)];
+}
+
 function buildDiseases() {
   const root = path.join(SOURCE_NOTES_ROOT, "02 Diseases");
   const files = listMarkdownFiles(root, {
@@ -382,6 +401,14 @@ function buildDiseases() {
     const canonicalDisease = readScalar(frontmatter["canonical_disease"]);
     const documentRole = readScalar(frontmatter["document_role"]);
     const displayTitle = readScalar(frontmatter["display_title"]);
+    const explicitGroupMembers = readList(frontmatter["group_members"]);
+    const includedDiseasesSection = sections.find((section) => section.title === "\uD3EC\uD568 \uC9C8\uD658");
+    const groupMemberTitles = [...new Set([
+      ...explicitGroupMembers,
+      ...extractWikiLinkTargets(includedDiseasesSection?.content ?? []),
+    ])];
+    const isGroupOverview = documentRole === "group_overview"
+      || (groupMemberTitles.length > 0 && normalizeGroupLabel(fileName) === normalizeGroupLabel(readList(frontmatter["\uBD84\uB958"])[0]));
     const hasContentMeta = Boolean(contentUpdatedAt || guidelineYear || sources.length);
     const hasFamilyMeta = Boolean(family || parentDisease || relationToParent || population || canonicalDisease);
 
@@ -405,6 +432,7 @@ function buildDiseases() {
       clinicalPriority: readScalar(frontmatter["clinical_priority"]) || readScalar(frontmatter["임상_우선순위"]),
       ...(documentRole ? { documentRole } : {}),
       ...(displayTitle ? { displayTitle } : {}),
+      ...(isGroupOverview ? { groupOverview: { memberTitles: groupMemberTitles } } : {}),
       ...(hasContentMeta ? {
         contentMeta: {
           contentUpdatedAt,
@@ -429,15 +457,21 @@ function buildDiseaseHierarchy(diseases) {
   const isCompatibility = (item) => item.documentRole === "compatibility";
   const canonicalCandidates = diseases.filter((item) => !isCompatibility(item));
   const byTitle = new Map();
+  const allByTitle = new Map();
 
   for (const item of canonicalCandidates) {
     const candidates = byTitle.get(item.title) ?? [];
     candidates.push(item);
     byTitle.set(item.title, candidates);
   }
+  for (const item of diseases) {
+    const candidates = allByTitle.get(item.title) ?? [];
+    candidates.push(item);
+    allByTitle.set(item.title, candidates);
+  }
 
   const resolveTitle = (title, specialty) => {
-    const candidates = byTitle.get(title) ?? [];
+    const candidates = byTitle.get(title) ?? allByTitle.get(title) ?? [];
     return candidates.find((item) => item.specialty === specialty) ?? candidates[0];
   };
 
@@ -490,16 +524,49 @@ function buildDiseaseHierarchy(diseases) {
   };
   for (const item of canonicalCandidates) descendantSlugsBySlug[item.slug] = descendantsOf(item.slug);
 
+  const groupMemberSlugsBySlug = {};
+  const unresolvedGroupMembers = [];
+  for (const item of canonicalCandidates) {
+    if (!item.groupOverview) continue;
+    const memberSlugs = [];
+    for (const memberTitle of item.groupOverview.memberTitles) {
+      const member = resolveTitle(memberTitle, item.specialty);
+      const memberSlug = member ? (canonicalSlugBySlug[member.slug] ?? member.slug) : "";
+      if (!memberSlug || memberSlug === item.slug) {
+        unresolvedGroupMembers.push({ slug: item.slug, title: item.title, memberTitle });
+        continue;
+      }
+      memberSlugs.push(memberSlug);
+    }
+    groupMemberSlugsBySlug[item.slug] = [...new Set(memberSlugs)].sort();
+  }
+
+  const scopeSlugsBySlug = {};
+  const scopeOf = (slug, trail = new Set()) => {
+    if (trail.has(slug)) return [];
+    const nextTrail = new Set(trail);
+    nextTrail.add(slug);
+    const scope = new Set([slug, ...(descendantSlugsBySlug[slug] ?? [])]);
+    for (const memberSlug of groupMemberSlugsBySlug[slug] ?? []) {
+      for (const scopedSlug of scopeOf(memberSlug, nextTrail)) scope.add(scopedSlug);
+    }
+    return [...scope];
+  };
+  for (const item of canonicalCandidates) scopeSlugsBySlug[item.slug] = scopeOf(item.slug);
+
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     visibleSlugs: canonicalCandidates.map((item) => item.slug),
     canonicalSlugBySlug,
     parentSlugBySlug,
     childrenBySlug,
     descendantSlugsBySlug,
+    groupMemberSlugsBySlug,
+    scopeSlugsBySlug,
     unresolvedParents,
     unresolvedCanonicalReferences,
     nonHierarchicalSelfReferences,
+    unresolvedGroupMembers,
   };
 }
 

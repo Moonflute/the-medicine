@@ -114,8 +114,9 @@ export function getCanonicalDiseaseSlug(slug: string): string {
 
 export function getDiseaseScopeSlugs(slug: string): string[] {
   const canonicalSlug = getCanonicalDiseaseSlug(slug);
-  const descendants = getDiseaseHierarchy().descendantSlugsBySlug[canonicalSlug] ?? [];
-  return [canonicalSlug, ...descendants];
+  const hierarchy = getDiseaseHierarchy();
+  return hierarchy.scopeSlugsBySlug?.[canonicalSlug]
+    ?? [canonicalSlug, ...(hierarchy.descendantSlugsBySlug[canonicalSlug] ?? [])];
 }
 
 export function getDiseaseBySlug(slug: string): DiseaseNote | undefined {

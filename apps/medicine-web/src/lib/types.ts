@@ -11,6 +11,10 @@ export type DiseaseFamilyMeta = {
   canonicalDisease?: string;
 };
 
+export type DiseaseGroupOverview = {
+  memberTitles: string[];
+};
+
 export type DiseaseNote = {
   id: string;
   slug: string;
@@ -31,6 +35,7 @@ export type DiseaseNote = {
   clinicalPriority?: string;
   documentRole?: string;
   displayTitle?: string;
+  groupOverview?: DiseaseGroupOverview;
   contentMeta?: ContentMeta;
   familyMeta?: DiseaseFamilyMeta;
 };
@@ -42,9 +47,12 @@ export type DiseaseHierarchy = {
   parentSlugBySlug: Record<string, string>;
   childrenBySlug: Record<string, string[]>;
   descendantSlugsBySlug: Record<string, string[]>;
+  groupMemberSlugsBySlug: Record<string, string[]>;
+  scopeSlugsBySlug: Record<string, string[]>;
   unresolvedParents: Array<{ slug: string; title: string; parentDisease: string }>;
   unresolvedCanonicalReferences: Array<{ slug: string; title: string; canonicalDisease: string }>;
   nonHierarchicalSelfReferences: Array<{ slug: string; title: string; documentRole: string }>;
+  unresolvedGroupMembers: Array<{ slug: string; title: string; memberTitle: string }>;
 };
 
 export type SpecialtySummary = {

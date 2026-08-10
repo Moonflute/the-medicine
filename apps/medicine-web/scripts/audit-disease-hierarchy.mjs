@@ -89,7 +89,7 @@ const report = {
     hierarchySource: "disease_family + parent_disease + canonical_disease frontmatter",
     classificationSource: "classification frontmatter; display grouping only",
     compatibilityBehavior: "hidden from navigation/search and redirected to canonical_disease",
-    qbankBehavior: "parent scope includes explicitly modeled descendants only",
+    qbankBehavior: "parent scope includes explicitly modeled descendants; group overview scope includes its listed members and their descendants",
   },
   summary: {
     documents: diseases.length,
@@ -99,6 +99,8 @@ const report = {
     unresolvedParentReferences: hierarchy.unresolvedParents.length,
     unresolvedCanonicalReferences: hierarchy.unresolvedCanonicalReferences.length,
     nonHierarchicalSelfReferences: hierarchy.nonHierarchicalSelfReferences.length,
+    groupOverviews: Object.keys(hierarchy.groupMemberSlugsBySlug ?? {}).length,
+    unresolvedGroupMemberReferences: hierarchy.unresolvedGroupMembers?.length ?? 0,
     sameSpecialtyTitleCollisions: sameSpecialtyTitleCollisions.length,
     crossSpecialtySharedTopics: crossSpecialtySharedTopics.length,
     modeledFamilies: familySummary.length,
@@ -109,6 +111,7 @@ const report = {
   },
   review: {
     nonHierarchicalSelfReferences: hierarchy.nonHierarchicalSelfReferences,
+    unresolvedGroupMembers: hierarchy.unresolvedGroupMembers ?? [],
     sameSpecialtyTitleCollisions,
     crossSpecialtySharedTopics,
     parentClassificationDivergences,
