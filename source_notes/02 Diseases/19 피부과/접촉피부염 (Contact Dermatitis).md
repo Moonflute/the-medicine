@@ -2,6 +2,9 @@
 content_updated_at: "2026-07-30"
 aliases:
 - 접촉피부염
+- 접촉 피부염
+관련분과:
+- 알레르기
 유형:
 - disease
 계통: 피부과

@@ -1,6 +1,8 @@
 ---
 content_updated_at: "2026-07-30"
 aliases: []
+관련분과:
+- 알레르기
 유형:
 - disease
 계통: 혈액내과

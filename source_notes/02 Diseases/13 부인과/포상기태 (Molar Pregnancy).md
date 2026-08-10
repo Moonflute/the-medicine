@@ -3,6 +3,7 @@ content_updated_at: "2026-07-30"
 aliases:
 - H-mole
 - hydatidiform mole
+- 포상 기태
 유형:
 - disease
 계통: 부인과

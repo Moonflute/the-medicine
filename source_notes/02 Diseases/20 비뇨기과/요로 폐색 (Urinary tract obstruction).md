@@ -2,6 +2,8 @@
 content_updated_at: "2026-07-30"
 aliases:
 - 요로 폐색
+관련분과:
+- 신장
 유형:
 - disease
 계통: 비뇨기과

@@ -2,6 +2,8 @@
 content_updated_at: "2026-07-30"
 aliases:
 - hydramnios
+document_role: compatibility
+canonical_disease: "양수 과다증 (Hydramnios)"
 유형:
 - disease
 계통: 산과

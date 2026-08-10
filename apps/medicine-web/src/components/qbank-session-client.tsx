@@ -53,6 +53,7 @@ function theoryTargetHref(question: QbankQuestion): string | null {
 }
 
 function theoryTargetTitle(question: QbankQuestion): string {
+  if (question.targetTitle) return question.targetTitle;
   try {
     const normalized = question.targetSlug.replace(/-/g, "+").replace(/_/g, "/");
     const padded = normalized.padEnd(Math.ceil(normalized.length / 4) * 4, "=");
@@ -64,7 +65,7 @@ function theoryTargetTitle(question: QbankQuestion): string {
   }
 }
 
-async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = ""): Promise<QbankQuestion[]> {
+async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = ""): Promise<QbankQuestion[]> {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
   let candidates = index;
@@ -76,9 +77,11 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
       || (item.questionBank !== "theory" && clinical.has(item.specialtySlug))
     ));
   } else if (mode === "related") {
+    const relatedDiseaseScope = new Set(targetSlugs.split(",").filter(Boolean));
+    if (targetType === "disease" && relatedDiseaseScope.size === 0 && targetSlug) relatedDiseaseScope.add(targetSlug);
     candidates = index.filter((item) => (
-      (item.targetType === targetType && item.targetSlug === targetSlug)
-      || (targetType === "disease" && item.relatedDiseaseSlugs?.includes(targetSlug))
+      (item.targetType === targetType && (targetType !== "disease" ? item.targetSlug === targetSlug : relatedDiseaseScope.has(item.targetSlug)))
+      || (targetType === "disease" && item.relatedDiseaseSlugs?.some((slug) => relatedDiseaseScope.has(slug)))
       || (targetType === "cc" && item.relatedCcSlugs?.includes(targetSlug))
     ));
   } else if (mode === "specialty" && specialty && specialty !== "all") {
@@ -172,6 +175,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const clinicalSpecialties = params.get("clinical") || "";
     const targetType = params.get("targetType") || "";
     const targetSlug = params.get("target") || "";
+    const targetSlugs = params.get("targets") || "";
     const requestedCountValue = params.get("count") || (mode === "disease" ? "all" : "10");
     const storageKey = sessionStorageKey();
     const initialState = loadQbankState();
@@ -180,7 +184,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       : mode === "bookmarks"
         ? new Set(initialState.bookmarkIds)
         : undefined;
-    void loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug)
+    void loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs)
       .then((loaded) => {
         const state = initialState;
         let filtered = loaded;

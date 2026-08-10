@@ -7,6 +7,7 @@ import type {
   ClinicalRelation,
   ClinicalRelationIndex,
   ClinicalSkill,
+  DiseaseHierarchy,
   DiseaseNote,
   DomainToc,
   DomainNote,
@@ -35,6 +36,7 @@ export type {
   ClinicalRelationIndex,
   ClinicalSkill,
   DiseaseNote,
+  DiseaseHierarchy,
   DiseaseSection,
   DomainToc,
   DomainNote,
@@ -98,6 +100,24 @@ export function getAllDiseases(): DiseaseNote[] {
   return readJson("diseases.json");
 }
 
+export function getDiseaseHierarchy(): DiseaseHierarchy {
+  return readJson<DiseaseHierarchy>("disease-hierarchy.json");
+}
+
+export function isCompatibilityDisease(note: DiseaseNote) {
+  return note.documentRole === "compatibility";
+}
+
+export function getCanonicalDiseaseSlug(slug: string): string {
+  return getDiseaseHierarchy().canonicalSlugBySlug[slug] ?? slug;
+}
+
+export function getDiseaseScopeSlugs(slug: string): string[] {
+  const canonicalSlug = getCanonicalDiseaseSlug(slug);
+  const descendants = getDiseaseHierarchy().descendantSlugsBySlug[canonicalSlug] ?? [];
+  return [canonicalSlug, ...descendants];
+}
+
 export function getDiseaseBySlug(slug: string): DiseaseNote | undefined {
   return getAllDiseases().find((note) => note.slug === slug);
 }
@@ -106,12 +126,15 @@ export function isSpecialtyIndexDisease(note: DiseaseNote) {
   return normalizeSpecialtyLabel(note.title) === normalizeSpecialtyLabel(note.specialty);
 }
 
-function buildTermLinks(notes: Array<{ slug: string; title: string; aliases: string[] }>, hrefForSlug: (slug: string) => string): TermLink[] {
+function buildTermLinks(notes: Array<{ slug: string; title: string; displayTitle?: string; aliases: string[] }>, hrefForSlug: (slug: string) => string): TermLink[] {
   const links = new Map<string, string>();
 
   for (const note of notes) {
     const href = hrefForSlug(note.slug);
-    const candidates = [note.title, ...note.aliases].map((value) => value.trim()).filter(Boolean);
+    const candidates = [note.title, note.displayTitle, ...note.aliases]
+      .filter((value): value is string => Boolean(value))
+      .map((value) => value.trim())
+      .filter(Boolean);
 
     for (const candidate of candidates) {
       if (!links.has(candidate)) {
@@ -124,7 +147,7 @@ function buildTermLinks(notes: Array<{ slug: string; title: string; aliases: str
 }
 
 export function getDiseaseLinks(): TermLink[] {
-  return buildTermLinks(getAllDiseases(), (slug) => `/disease/${slug}`);
+  return buildTermLinks(getAllDiseases().filter((note) => !isCompatibilityDisease(note)), (slug) => `/disease/${slug}`);
 }
 
 export function getSpecialties(): SpecialtySummary[] {
@@ -146,7 +169,7 @@ export function getDiseasesBySpecialty(slug: string): DiseaseNote[] {
   if (!specialty) return [];
 
   const target = normalizeSpecialtyLabel(specialty.name);
-  return getAllDiseases().filter((note) => (
+  return getAllDiseases().filter((note) => !isCompatibilityDisease(note) && (
     note.specialty === specialty.name
     || note.relatedSpecialties?.some((item) => normalizeSpecialtyLabel(item) === target)
   ));
@@ -370,9 +393,10 @@ export function getQbankCountForDisease(diseaseSlug: string): number {
 }
 
 export function getQbankCountForTarget(targetType: "disease" | "cc", targetSlug: string): number {
+  const diseaseScope = targetType === "disease" ? new Set(getDiseaseScopeSlugs(targetSlug)) : new Set<string>();
   return getQbankIndex().filter((item) => (
-    (item.targetType === targetType && item.targetSlug === targetSlug)
-    || (targetType === "disease" && item.relatedDiseaseSlugs?.includes(targetSlug))
+    (item.targetType === targetType && (targetType !== "disease" ? item.targetSlug === targetSlug : diseaseScope.has(item.targetSlug)))
+    || (targetType === "disease" && item.relatedDiseaseSlugs?.some((slug) => diseaseScope.has(slug)))
     || (targetType === "cc" && item.relatedCcSlugs?.includes(targetSlug))
   )).length;
 }

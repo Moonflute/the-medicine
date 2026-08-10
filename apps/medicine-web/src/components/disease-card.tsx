@@ -45,6 +45,7 @@ export function DiseaseCard({
   const overview = note.overview?.slice(0, compact ? 3 : 6) ?? [];
   const contentMeta = note.contentMeta;
   const lastUpdated = formatKoreanDate(contentMeta?.contentUpdatedAt || note.updatedAt);
+  const displayTitle = note.displayTitle || note.title;
   const sourceLinks = contentMeta?.sources?.filter((source) => source.label && source.url) ?? [];
   const familyLinks = [
     { label: "상위 질환", value: note.familyMeta?.parentDisease },
@@ -55,12 +56,12 @@ export function DiseaseCard({
     () => ({
       type: "disease" as const,
       id: note.slug,
-      title: note.title,
+      title: displayTitle,
       href: `/disease/${note.slug}`,
       category: note.specialty,
       summary: note.definition || note.overview?.[0] || "",
     }),
-    [note],
+    [note, displayTitle],
   );
 
   return (
@@ -69,7 +70,7 @@ export function DiseaseCard({
         <div className="flex items-start justify-between gap-4">
           <div className="min-w-0">
             <div className="eyebrow">{note.specialty}</div>
-            <h2 className="mt-2 text-2xl font-semibold text-slate-950 sm:text-3xl">{note.title}</h2>
+            <h2 className="mt-2 text-2xl font-semibold text-slate-950 sm:text-3xl">{displayTitle}</h2>
             {note.definition ? <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-700">{note.definition}</p> : null}
             {!compact ? (
               <div className="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500">

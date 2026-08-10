@@ -11,9 +11,8 @@ CC:
 - 호흡곤란
 preprocessing_required: x
 last_studied: '2026-06-06'
-document_role: "specialty_perspective"
-parent_disease: "폐포자충 폐렴 (Pneumocystis Pneumonia)"
-relation_to_parent: "specialty_perspective"
+document_role: compatibility
+canonical_disease: "폐포자충 폐렴 (Pneumocystis Pneumonia)"
 clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"

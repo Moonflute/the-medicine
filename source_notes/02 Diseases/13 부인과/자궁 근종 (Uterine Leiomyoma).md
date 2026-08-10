@@ -3,6 +3,8 @@ content_updated_at: "2026-07-30"
 aliases:
 - uterine leiomyoma
 - 자궁 근종
+document_role: compatibility
+canonical_disease: "자궁근종 (Uterine Fibroids)"
 유형:
 - disease
 계통: 부인과

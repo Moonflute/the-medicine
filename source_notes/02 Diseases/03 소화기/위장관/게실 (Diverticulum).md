@@ -1,6 +1,7 @@
 ---
 content_updated_at: "2026-07-30"
-aliases: []
+aliases:
+- 게실
 유형:
 - disease
 계통: 소화기 (위장관)

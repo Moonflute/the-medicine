@@ -13,6 +13,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 document_role: "special_population"
+display_title: "소아 호중구감소증"
 parent_disease: "호중구감소증 (Neutropenia)"
 relation_to_parent: "special_population"
 population: "pediatric"

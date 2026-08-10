@@ -1,6 +1,8 @@
 ---
 source_currency_assessment: "current_standard_retained"
 aliases: []
+관련분과:
+- 피부과
 유형:
 - disease
 계통: 알레르기내과

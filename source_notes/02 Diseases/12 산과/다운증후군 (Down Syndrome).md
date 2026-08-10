@@ -11,6 +11,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 document_role: "special_population"
+display_title: "태아 다운증후군"
 parent_disease: "다운 증후군 (Down Syndrome)"
 relation_to_parent: "prenatal_pregnancy"
 population: "pregnancy"

@@ -29,8 +29,22 @@ export type DiseaseNote = {
   sections: DiseaseSection[];
   updatedAt: string;
   clinicalPriority?: string;
+  documentRole?: string;
+  displayTitle?: string;
   contentMeta?: ContentMeta;
   familyMeta?: DiseaseFamilyMeta;
+};
+
+export type DiseaseHierarchy = {
+  schemaVersion: number;
+  visibleSlugs: string[];
+  canonicalSlugBySlug: Record<string, string>;
+  parentSlugBySlug: Record<string, string>;
+  childrenBySlug: Record<string, string[]>;
+  descendantSlugsBySlug: Record<string, string[]>;
+  unresolvedParents: Array<{ slug: string; title: string; parentDisease: string }>;
+  unresolvedCanonicalReferences: Array<{ slug: string; title: string; canonicalDisease: string }>;
+  nonHierarchicalSelfReferences: Array<{ slug: string; title: string; documentRole: string }>;
 };
 
 export type SpecialtySummary = {
@@ -388,11 +402,12 @@ export type QbankQuestion = {
   questionBank: "clinical" | "theory" | string;
   targetType: "disease" | "cc" | "drug" | string;
   targetSlug: string;
+  targetTitle?: string;
 };
 
 export type QbankQuestionIndex = Pick<
   QbankQuestion,
-  "id" | "specialty" | "specialtySlug" | "relatedDiseaseSlugs" | "relatedCcSlugs" | "questionType" | "difficulty" | "translationStatus" | "explanationStatus" | "questionBank" | "targetType" | "targetSlug"
+  "id" | "specialty" | "specialtySlug" | "relatedDiseaseSlugs" | "relatedCcSlugs" | "questionType" | "difficulty" | "translationStatus" | "explanationStatus" | "questionBank" | "targetType" | "targetSlug" | "targetTitle"
 >;
 
 export type QbankSpecialtySummary = {

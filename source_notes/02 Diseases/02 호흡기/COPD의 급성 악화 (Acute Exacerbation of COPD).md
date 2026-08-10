@@ -1,10 +1,13 @@
 ---
 aliases: []
+disease_family: copd
+parent_disease: 만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease)
+relation_to_parent: acute_exacerbation
 유형:
 - disease
 계통: 호흡기
 분류:
-- 천식
+- COPD
 CC:
 - 호흡곤란
 - 기침

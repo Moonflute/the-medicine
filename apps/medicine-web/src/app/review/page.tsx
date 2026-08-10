@@ -9,6 +9,7 @@ import {
   getDrugs,
   getLabImgNotes,
   getQbankIndex,
+  isCompatibilityDisease,
 } from "@/lib/webdb";
 import type { ReviewCatalogItem } from "@/lib/review-store";
 
@@ -18,10 +19,10 @@ function toBase64Url(value: string) {
 
 export default function ReviewPage() {
   const catalog: ReviewCatalogItem[] = [
-    ...getAllDiseases().map((note) => ({
+    ...getAllDiseases().filter((note) => !isCompatibilityDisease(note)).map((note) => ({
       type: "disease" as const,
       id: note.slug,
-      title: note.title,
+      title: note.displayTitle || note.title,
       href: `/disease/${note.slug}`,
       category: note.specialty,
       categories: [...new Set([note.specialty, ...note.relatedSpecialties].filter(Boolean))],

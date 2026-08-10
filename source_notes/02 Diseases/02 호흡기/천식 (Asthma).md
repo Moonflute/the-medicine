@@ -1,5 +1,7 @@
 ---
 aliases: []
+document_role: compatibility
+canonical_disease: 천식
 유형:
 - disease
 계통: 호흡기

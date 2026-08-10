@@ -2,6 +2,8 @@
 content_updated_at: "2026-07-30"
 aliases:
 - uterine adenomyosis
+document_role: compatibility
+canonical_disease: "자궁 샘근육증 (Uterine Adenomyosis)"
 유형:
 - disease
 계통: 부인과

@@ -13,6 +13,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 document_role: "special_population"
+display_title: "임신 중 매독"
 parent_disease: "매독 (Syphilis)"
 relation_to_parent: "pregnancy_sexual_health"
 population: "pregnancy"

@@ -12,9 +12,8 @@ CC:
 - 가려움증
 preprocessing_required: x
 last_studied: '2026-06-06'
-document_role: "specialty_perspective"
-parent_disease: "두드러기 (Urticaria)"
-relation_to_parent: "specialty_perspective"
+document_role: compatibility
+canonical_disease: "두드러기 (Urticaria)"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"

@@ -1,6 +1,9 @@
 ---
 content_updated_at: "2026-07-30"
 aliases: []
+disease_family: asthma
+parent_disease: 천식
+relation_to_parent: occupational
 유형:
 - disease
 계통: 호흡기

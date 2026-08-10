@@ -12,9 +12,8 @@ CC:
 - 시야 장애
 preprocessing_required: x
 last_studied: '2026-06-06'
-document_role: "specialty_perspective"
-parent_disease: "뇌하수체 샘종 (Pituitary Adenoma)"
-relation_to_parent: "specialty_perspective"
+document_role: compatibility
+canonical_disease: "뇌하수체 샘종 (Pituitary Adenoma)"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"

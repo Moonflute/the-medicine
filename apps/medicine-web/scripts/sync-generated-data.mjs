@@ -380,6 +380,8 @@ function buildDiseases() {
     const relationToParent = readScalar(frontmatter["relation_to_parent"]);
     const population = readScalar(frontmatter["population"]);
     const canonicalDisease = readScalar(frontmatter["canonical_disease"]);
+    const documentRole = readScalar(frontmatter["document_role"]);
+    const displayTitle = readScalar(frontmatter["display_title"]);
     const hasContentMeta = Boolean(contentUpdatedAt || guidelineYear || sources.length);
     const hasFamilyMeta = Boolean(family || parentDisease || relationToParent || population || canonicalDisease);
 
@@ -401,6 +403,8 @@ function buildDiseases() {
       sections,
       updatedAt: stat.mtime.toISOString(),
       clinicalPriority: readScalar(frontmatter["clinical_priority"]) || readScalar(frontmatter["임상_우선순위"]),
+      ...(documentRole ? { documentRole } : {}),
+      ...(displayTitle ? { displayTitle } : {}),
       ...(hasContentMeta ? {
         contentMeta: {
           contentUpdatedAt,
@@ -419,6 +423,84 @@ function buildDiseases() {
       } : {}),
     };
   });
+}
+
+function buildDiseaseHierarchy(diseases) {
+  const isCompatibility = (item) => item.documentRole === "compatibility";
+  const canonicalCandidates = diseases.filter((item) => !isCompatibility(item));
+  const byTitle = new Map();
+
+  for (const item of canonicalCandidates) {
+    const candidates = byTitle.get(item.title) ?? [];
+    candidates.push(item);
+    byTitle.set(item.title, candidates);
+  }
+
+  const resolveTitle = (title, specialty) => {
+    const candidates = byTitle.get(title) ?? [];
+    return candidates.find((item) => item.specialty === specialty) ?? candidates[0];
+  };
+
+  const canonicalSlugBySlug = {};
+  const unresolvedCanonicalReferences = [];
+  for (const item of diseases) {
+    const canonical = item.familyMeta?.canonicalDisease
+      ? resolveTitle(item.familyMeta.canonicalDisease, item.specialty)
+      : undefined;
+    if (item.documentRole === "compatibility" && (!item.familyMeta?.canonicalDisease || !canonical)) {
+      unresolvedCanonicalReferences.push({ slug: item.slug, title: item.title, canonicalDisease: item.familyMeta?.canonicalDisease ?? "" });
+    }
+    canonicalSlugBySlug[item.slug] = canonical?.slug ?? item.slug;
+  }
+
+  const parentSlugBySlug = {};
+  const unresolvedParents = [];
+  const nonHierarchicalSelfReferences = [];
+  for (const item of canonicalCandidates) {
+    const parentTitle = item.familyMeta?.parentDisease;
+    if (!parentTitle) continue;
+    if (parentTitle === item.title) {
+      nonHierarchicalSelfReferences.push({ slug: item.slug, title: item.title, documentRole: item.documentRole ?? "canonical" });
+      continue;
+    }
+    const parent = resolveTitle(parentTitle, item.specialty);
+    if (!parent || parent.slug === item.slug) {
+      unresolvedParents.push({ slug: item.slug, title: item.title, parentDisease: parentTitle });
+      continue;
+    }
+    parentSlugBySlug[item.slug] = canonicalSlugBySlug[parent.slug] ?? parent.slug;
+  }
+
+  const childrenBySlug = {};
+  for (const [childSlug, parentSlug] of Object.entries(parentSlugBySlug)) {
+    (childrenBySlug[parentSlug] ??= []).push(childSlug);
+  }
+  for (const children of Object.values(childrenBySlug)) children.sort();
+
+  const descendantSlugsBySlug = {};
+  const descendantsOf = (slug, trail = new Set()) => {
+    if (trail.has(slug)) return [];
+    const nextTrail = new Set(trail);
+    nextTrail.add(slug);
+    const descendants = [];
+    for (const child of childrenBySlug[slug] ?? []) {
+      descendants.push(child, ...descendantsOf(child, nextTrail));
+    }
+    return [...new Set(descendants)];
+  };
+  for (const item of canonicalCandidates) descendantSlugsBySlug[item.slug] = descendantsOf(item.slug);
+
+  return {
+    schemaVersion: 1,
+    visibleSlugs: canonicalCandidates.map((item) => item.slug),
+    canonicalSlugBySlug,
+    parentSlugBySlug,
+    childrenBySlug,
+    descendantSlugsBySlug,
+    unresolvedParents,
+    unresolvedCanonicalReferences,
+    nonHierarchicalSelfReferences,
+  };
 }
 
 function parseSpecialtyTocMarkdown(raw) {
@@ -1263,9 +1345,9 @@ function buildSearchIndex({ diseases, chiefComplaints, drugs, microbiology, phys
     ...diseases.map((item) => ({
       type: "disease",
       slug: item.slug,
-      title: item.title,
+      title: item.displayTitle || item.title,
       category: item.specialty,
-      aliases: [...item.aliases, ...item.chiefComplaints],
+      aliases: [item.title, ...item.aliases, ...item.chiefComplaints],
       keywords: [...item.classification, ...item.chiefComplaints, ...item.sections.map((section) => section.title)].filter(Boolean),
       quickSummary: item.definition || item.overview?.[0] || "",
       href: `/disease/${item.slug}`,
@@ -1341,9 +1423,14 @@ function buildQbank() {
   ].filter(({ root }) => fs.existsSync(root));
   if (sourceRoots.length === 0) return { index: [], specialties: [], questions: [] };
   const diseases = buildDiseases();
+  const diseaseHierarchy = buildDiseaseHierarchy(diseases);
+  if (diseaseHierarchy.unresolvedParents.length || diseaseHierarchy.unresolvedCanonicalReferences.length) {
+    throw new Error(`Disease hierarchy validation failed: ${diseaseHierarchy.unresolvedParents.length} unresolved parent reference(s), ${diseaseHierarchy.unresolvedCanonicalReferences.length} unresolved compatibility reference(s).`);
+  }
+  const canonicalDiseaseSlug = (slug) => diseaseHierarchy.canonicalSlugBySlug[slug] ?? slug;
   const ccSlugByTitle = new Map(buildChiefComplaints().map((item) => [item.title, item.slug]));
   const diseaseBySlug = new Map(diseases.map((item) => [item.slug, item]));
-  const diseaseCandidates = diseases.flatMap((item) =>
+  const diseaseCandidates = diseases.filter((item) => item.documentRole !== "compatibility").flatMap((item) =>
     [item.title, ...(item.aliases || [])]
       .map((term) => ({ term: normalizeQbankDiseaseTerm(term), slug: item.slug }))
       .filter((candidate) => candidate.term.length >= 3),
@@ -1352,14 +1439,7 @@ function buildQbank() {
     const normalized = normalizeQbankDiseaseTerm(term);
     if (normalized.length < 3) return "";
     const exact = diseaseCandidates.find((candidate) => candidate.term === normalized);
-    if (exact) return exact.slug;
-    const partial = diseaseCandidates
-      .filter((candidate) => (
-        candidate.term.length >= 5
-        && (candidate.term.includes(normalized) || normalized.includes(candidate.term))
-      ))
-      .sort((a, b) => Math.abs(a.term.length - normalized.length) - Math.abs(b.term.length - normalized.length))[0];
-    return partial?.slug || "";
+    return exact ? canonicalDiseaseSlug(exact.slug) : "";
   }
   const questions = [];
   const seenIds = new Set();
@@ -1387,7 +1467,9 @@ function buildQbank() {
       : "";
     const diseaseTerms = readList(frontmatter.related_diseases);
     const targetType = questionBank === "theory" ? readScalar(frontmatter.target_type) : "";
-    const targetSlug = questionBank === "theory" ? readScalar(frontmatter.target_slug) : "";
+    const rawTargetSlug = questionBank === "theory" ? readScalar(frontmatter.target_slug) : "";
+    const targetSlug = targetType === "disease" ? canonicalDiseaseSlug(rawTargetSlug) : rawTargetSlug;
+    const targetTitle = targetType === "disease" ? (diseaseBySlug.get(targetSlug)?.displayTitle || diseaseBySlug.get(targetSlug)?.title || "") : "";
     const relatedDiseaseSlugs = [...new Set([
       ...diseaseTerms.map(resolveDiseaseTerm).filter(Boolean),
       ...(targetType === "disease" && targetSlug ? [targetSlug] : []),
@@ -1418,6 +1500,7 @@ function buildQbank() {
       questionBank,
       targetType,
       targetSlug,
+      targetTitle,
     });
     seenIds.add(id);
     if (sourceHash) seenHashes.add(sourceHash);
@@ -1454,6 +1537,7 @@ function buildQbank() {
     questionBank: item.questionBank,
     targetType: item.targetType,
     targetSlug: item.targetSlug,
+    targetTitle: item.targetTitle,
   }));
   writePublicQbankJson("index.json", index);
   writePublicQbankJson("specialties.json", specialties);
@@ -1474,6 +1558,8 @@ function main() {
   ensureDir(DATA_ROOT);
 
   const diseases = buildDiseases();
+  const diseaseHierarchy = buildDiseaseHierarchy(diseases);
+  const visibleDiseases = diseases.filter((item) => diseaseHierarchy.visibleSlugs.includes(item.slug));
   const chiefComplaints = buildChiefComplaints();
   const drugs = buildDrugs();
   const microbiology = buildMicrobiology();
@@ -1490,9 +1576,9 @@ function main() {
   const specialtyToc = buildSpecialtyToc();
   const qbank = buildQbank();
 
-  const specialties = [...new Map(diseases.map((item) => [item.specialty, item])).keys()].map((name) => {
+  const specialties = [...new Map(visibleDiseases.map((item) => [item.specialty, item])).keys()].map((name) => {
     const normalizedName = name.replace(/^\d+\s*/, "").trim();
-    const count = diseases.filter((item) => (
+    const count = visibleDiseases.filter((item) => (
       item.specialty === name || item.relatedSpecialties.some((specialty) => specialty.replace(/^\d+\s*/, "").trim() === normalizedName)
     )).length;
 
@@ -1524,6 +1610,7 @@ function main() {
 
   writeJson("manifest.json", manifest);
   writeJson("diseases.json", diseases);
+  writeJson("disease-hierarchy.json", diseaseHierarchy);
   writeJson("chief-complaints.json", chiefComplaints);
   writeJson("drugs.json", drugs);
   writeJson("antibiotic-spectrum.json", antibioticSpectrum);
@@ -1544,7 +1631,7 @@ function main() {
   writeJson("qbank-specialties.json", qbank.specialties);
   writeJson(
     "search-index.json",
-    buildSearchIndex({ diseases, chiefComplaints, drugs, microbiology: microbiology.dataset, physiology, pathology, labImg, skills }),
+    buildSearchIndex({ diseases: visibleDiseases, chiefComplaints, drugs, microbiology: microbiology.dataset, physiology, pathology, labImg, skills }),
   );
 
   fs.writeFileSync(

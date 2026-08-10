@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { DiseaseCard } from "@/components/disease-card";
 import { DiseaseInfectionPanel } from "@/components/disease-infection-panel";
 import { MicrobiologyBacklinks } from "@/components/microbiology-backlinks";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
-import { getAllDiseases, getAntibioticSpectrum, getChiefComplaintLinksForTerms, getClinicalRelationsFor, getDiseaseBySlug, getDiseaseLinks, getQbankCountForTarget, getSpecialties, getSpecialtyToc, isSpecialtyIndexDisease } from "@/lib/webdb";
+import { getAllDiseases, getAntibioticSpectrum, getCanonicalDiseaseSlug, getChiefComplaintLinksForTerms, getClinicalRelationsFor, getDiseaseBySlug, getDiseaseLinks, getQbankCountForTarget, getSpecialties, getSpecialtyToc, isCompatibilityDisease, isSpecialtyIndexDisease } from "@/lib/webdb";
 import { getInfectionPathwaysForDisease } from "@/lib/infection-db";
 function getDiseaseSequence(note: NonNullable<ReturnType<typeof getDiseaseBySlug>>) {
   const specialty = getSpecialties().find((item) => item.name === note.specialty);
@@ -27,7 +27,7 @@ function getDiseaseSequence(note: NonNullable<ReturnType<typeof getDiseaseBySlug
   };
 
   return getAllDiseases()
-    .filter((item) => item.specialty === note.specialty && !isSpecialtyIndexDisease(item))
+    .filter((item) => item.specialty === note.specialty && !isCompatibilityDisease(item) && !isSpecialtyIndexDisease(item))
     .sort((a, b) => orderFor(a) - orderFor(b) || a.title.localeCompare(b.title, "ko"));
 }
 
@@ -41,6 +41,10 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
 
   if (!note) {
     notFound();
+  }
+  if (isCompatibilityDisease(note)) {
+    const canonicalSlug = getCanonicalDiseaseSlug(note.slug);
+    if (canonicalSlug !== note.slug) redirect(`/disease/${canonicalSlug}`);
   }
 
   const ccLinks = getChiefComplaintLinksForTerms(note.chiefComplaints);
@@ -70,7 +74,7 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
         ccLinks={ccLinks}
         diseaseLinks={diseaseLinks}
         hideOverview={isSpecialtyIndexDisease(note)}
-        relatedQbankHref={relatedQbankCount > 0 ? `/review/qbank/related?targetType=disease&target=${encodeURIComponent(note.slug)}&label=${encodeURIComponent(note.title)}` : undefined}
+        relatedQbankHref={relatedQbankCount > 0 ? `/review/qbank/related?targetType=disease&target=${encodeURIComponent(note.slug)}&label=${encodeURIComponent(note.displayTitle || note.title)}` : undefined}
       />
       {infectionSpecialty && infectionPathways.length > 0 ? <DiseaseInfectionPanel pathways={infectionPathways} spectrum={getAntibioticSpectrum()} specialtySlug={infectionSpecialty.slug} /> : null}
       <MicrobiologyBacklinks targetType="disease" targetId={note.slug} />

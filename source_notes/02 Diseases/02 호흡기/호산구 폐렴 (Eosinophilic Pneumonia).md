@@ -1,6 +1,7 @@
 ---
 content_updated_at: "2026-07-30"
-aliases: []
+aliases:
+- 호산구 폐렴
 유형:
 - disease
 계통: 호흡기

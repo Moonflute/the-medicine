@@ -2,6 +2,8 @@
 content_updated_at: "2026-07-30"
 aliases:
 - postpartum uterine infection
+document_role: compatibility
+canonical_disease: "산욕기 자궁 감염 (Postpartum Uterine Infection)"
 유형:
 - disease
 계통: 산과

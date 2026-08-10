@@ -6,7 +6,7 @@ import { Bookmark, CircleAlert, Play, RotateCcw } from "lucide-react";
 import { loadQbankState, QBANK_CHANGE_EVENT } from "@/lib/qbank-store";
 import type { QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
 
-type RelatedTarget = { type: "disease" | "cc"; slug: string; label: string };
+type RelatedTarget = { type: "disease" | "cc"; slug: string; label: string; scopeSlugs?: string[] };
 type SpecialtyChoice = QbankSpecialtySummary;
 type TheorySourceType = "disease" | "cc" | "drug" | "other";
 
@@ -57,9 +57,10 @@ function QuestionBankPicker({ questionBank, title, items, selected, setSelected 
 export function QbankDashboardClient({ questions, relatedTarget }: { questions: QbankQuestionIndex[]; relatedTarget?: RelatedTarget }) {
   const availableQuestions = useMemo(() => {
     if (!relatedTarget) return questions;
+    const targetSlugs = new Set(relatedTarget.type === "disease" ? (relatedTarget.scopeSlugs ?? [relatedTarget.slug]) : [relatedTarget.slug]);
     return questions.filter((question) => (
-      (question.targetType === relatedTarget.type && question.targetSlug === relatedTarget.slug)
-      || (relatedTarget.type === "disease" && question.relatedDiseaseSlugs?.includes(relatedTarget.slug))
+      (question.targetType === relatedTarget.type && targetSlugs.has(question.targetSlug))
+      || (relatedTarget.type === "disease" && question.relatedDiseaseSlugs?.some((slug) => targetSlugs.has(slug)))
       || (relatedTarget.type === "cc" && question.relatedCcSlugs?.includes(relatedTarget.slug))
     ));
   }, [questions, relatedTarget]);
@@ -94,6 +95,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   if (relatedTarget) {
     sessionParams.set("targetType", relatedTarget.type);
     sessionParams.set("target", relatedTarget.slug);
+    if (relatedTarget.type === "disease") sessionParams.set("targets", (relatedTarget.scopeSlugs ?? [relatedTarget.slug]).join(","));
   }
   const sessionHref = `/review/qbank/session?${sessionParams.toString()}`;
   return <div className="space-y-6">

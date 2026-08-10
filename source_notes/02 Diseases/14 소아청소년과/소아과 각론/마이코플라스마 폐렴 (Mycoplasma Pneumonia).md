@@ -19,6 +19,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 document_role: "special_population"
+display_title: "소아 마이코플라스마 폐렴"
 parent_disease: "마이코플라스마 폐렴 (Mycoplasma Pneumonia)"
 relation_to_parent: "special_population"
 population: "pediatric"

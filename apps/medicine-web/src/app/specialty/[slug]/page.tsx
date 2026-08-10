@@ -259,7 +259,7 @@ function DiseaseLinks({ notes, specialtyLabel }: { notes: DiseaseNote[]; special
           className="flex items-center justify-between rounded-lg border border-slate-200 bg-slate-50 px-4 py-3 transition hover:border-slate-300 hover:bg-white"
         >
           <span className="min-w-0 pr-3">
-            <span className="block text-sm font-medium text-slate-950">{note.title}</span>
+            <span className="block text-sm font-medium text-slate-950">{note.displayTitle || note.title}</span>
             {note.specialty.replace(/^\d+\s*/, "").trim() !== specialtyLabel ? (
               <span className="mt-1 block text-xs text-slate-500">{note.specialty.replace(/^\d+\s*/, "").trim()}</span>
             ) : null}

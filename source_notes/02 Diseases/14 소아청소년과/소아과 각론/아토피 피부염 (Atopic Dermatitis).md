@@ -14,6 +14,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 document_role: "special_population"
+display_title: "소아 아토피 피부염"
 parent_disease: "아토피 피부염 (Atopic Dermatitis)"
 relation_to_parent: "special_population"
 population: "pediatric"

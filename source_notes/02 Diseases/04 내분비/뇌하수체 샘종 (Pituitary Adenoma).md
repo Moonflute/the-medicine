@@ -1,6 +1,10 @@
 ---
 content_updated_at: "2026-07-30"
-aliases: []
+aliases:
+- 뇌하수체 샘종
+- pituitary adenoma
+관련분과:
+- 신경과-신경외과
 유형:
 - disease
 계통: 내분비

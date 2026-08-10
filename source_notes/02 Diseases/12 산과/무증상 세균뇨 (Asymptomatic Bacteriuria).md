@@ -12,6 +12,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 document_role: "special_population"
+display_title: "임신 중 무증상 세균뇨"
 parent_disease: "무증상 세균뇨 (Asymptomatic Bacteriuria)"
 relation_to_parent: "special_population"
 population: "pregnancy"

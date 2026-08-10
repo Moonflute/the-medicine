@@ -14,6 +14,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 document_role: "special_population"
+display_title: "임신 중 홍역"
 parent_disease: "홍역 (Measles)"
 relation_to_parent: "special_population"
 population: "pregnancy"

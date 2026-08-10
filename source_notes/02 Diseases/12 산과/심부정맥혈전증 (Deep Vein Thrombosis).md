@@ -14,6 +14,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 document_role: "special_population"
+display_title: "임신 중 심부정맥혈전증"
 parent_disease: "심부 정맥 혈전증 (Deep Vein Thrombosis)"
 relation_to_parent: "special_population"
 population: "pregnancy"

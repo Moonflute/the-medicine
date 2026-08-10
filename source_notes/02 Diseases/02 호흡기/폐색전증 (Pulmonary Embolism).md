@@ -2,6 +2,8 @@
 aliases:
 - PE
 - Pulmonary Embolism
+관련분과:
+- 외과
 유형:
 - disease
 계통: 호흡기

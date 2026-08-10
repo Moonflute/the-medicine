@@ -3,6 +3,7 @@ content_updated_at: "2026-07-30"
 aliases:
 - uterine adenomyosis
 - 자궁 샘근육증
+- 자궁샘근육증
 유형:
 - disease
 계통: 부인과

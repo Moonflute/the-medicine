@@ -4,6 +4,8 @@ aliases:
 - H-mole
 - hydatidiform mole
 - 포상 기태
+document_role: compatibility
+canonical_disease: "포상기태 (Molar Pregnancy)"
 유형:
 - disease
 계통: 부인과

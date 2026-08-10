@@ -27,6 +27,7 @@ parent_disease: "당뇨병 (Diabetes Mellitus)"
 relation_to_parent: "special_population"
 population: "pediatric"
 document_role: "special_population"
+display_title: "소아 당뇨병"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 ---

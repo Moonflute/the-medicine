@@ -9,9 +9,8 @@ CC:
 - 가려움증
 preprocessing_required: x
 last_studied: '2026-06-06'
-document_role: specialty_perspective
-parent_disease: 접촉피부염 (Contact Dermatitis)
-relation_to_parent: specialty_perspective
+document_role: compatibility
+canonical_disease: 접촉피부염 (Contact Dermatitis)
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"

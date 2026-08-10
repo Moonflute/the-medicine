@@ -19,6 +19,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 document_role: "special_population"
+display_title: "소아 감기"
 parent_disease: "감기 (Common Cold)"
 relation_to_parent: "special_population"
 population: "pediatric"
