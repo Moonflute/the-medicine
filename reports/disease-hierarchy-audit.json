@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T18:26:56.495Z",
+  "generatedAt": "2026-08-10T19:23:23.376Z",
   "contract": {
     "hierarchySource": "disease_family + parent_disease + canonical_disease frontmatter",
     "classificationSource": "classification frontmatter; display grouping only",

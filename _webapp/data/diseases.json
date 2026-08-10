@@ -11764,7 +11764,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T16:52:22.254Z",
+    "updatedAt": "2026-08-10T19:22:16.922Z",
     "clinicalPriority": "tier_1",
     "documentRole": "canonical",
     "contentMeta": {
@@ -28218,7 +28218,7 @@
       "갑상샘 질환"
     ],
     "relatedSpecialties": [
-      "알레르기"
+      "06 알레르기"
     ],
     "emergencyClassification": [],
     "oncologyClassification": [],
@@ -28315,7 +28315,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T17:16:38.716Z",
+    "updatedAt": "2026-08-10T19:22:19.323Z",
     "clinicalPriority": "tier_2",
     "documentRole": "canonical",
     "contentMeta": {
@@ -33949,7 +33949,7 @@
       "요로감염"
     ],
     "relatedSpecialties": [
-      "외과"
+      "11 외과"
     ],
     "emergencyClassification": [],
     "oncologyClassification": [],
@@ -34042,7 +34042,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T11:02:11.758Z",
+    "updatedAt": "2026-08-10T19:22:21.696Z",
     "clinicalPriority": "tier_2",
     "documentRole": "canonical",
     "contentMeta": {
@@ -39111,7 +39111,7 @@
       "Type I"
     ],
     "relatedSpecialties": [
-      "피부과"
+      "19 피부과"
     ],
     "emergencyClassification": [],
     "oncologyClassification": [],
@@ -39183,7 +39183,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T11:02:03.690Z",
+    "updatedAt": "2026-08-10T19:22:24.066Z",
     "clinicalPriority": "tier_2",
     "documentRole": "canonical",
     "contentMeta": {
@@ -47719,7 +47719,7 @@
       "바이러스"
     ],
     "relatedSpecialties": [
-      "외과"
+      "11 외과"
     ],
     "emergencyClassification": [],
     "oncologyClassification": [],
@@ -47791,7 +47791,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T11:02:14.648Z",
+    "updatedAt": "2026-08-10T19:22:26.439Z",
     "clinicalPriority": "tier_3",
     "documentRole": "canonical",
     "contentMeta": {
@@ -49764,7 +49764,7 @@
       "진균"
     ],
     "relatedSpecialties": [
-      "호흡기"
+      "02 호흡기"
     ],
     "emergencyClassification": [],
     "oncologyClassification": [],
@@ -49840,7 +49840,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T11:01:51.384Z",
+    "updatedAt": "2026-08-10T19:22:29.276Z",
     "clinicalPriority": "tier_3",
     "documentRole": "canonical",
     "contentMeta": {
@@ -53428,7 +53428,7 @@
       "빈혈"
     ],
     "relatedSpecialties": [
-      "알레르기"
+      "06 알레르기"
     ],
     "emergencyClassification": [],
     "oncologyClassification": [],
@@ -53501,7 +53501,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T17:22:47.823Z",
+    "updatedAt": "2026-08-10T19:22:32.123Z",
     "clinicalPriority": "tier_3",
     "documentRole": "canonical",
     "contentMeta": {
@@ -53832,7 +53832,7 @@
       "빈혈"
     ],
     "relatedSpecialties": [
-      "알레르기"
+      "06 알레르기"
     ],
     "emergencyClassification": [],
     "oncologyClassification": [],
@@ -53911,7 +53911,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T17:22:47.849Z",
+    "updatedAt": "2026-08-10T19:22:35.010Z",
     "clinicalPriority": "tier_2",
     "contentMeta": {
       "contentUpdatedAt": "2026-07-15",
@@ -114332,7 +114332,7 @@
       "습진성피부질환"
     ],
     "relatedSpecialties": [
-      "알레르기"
+      "06 알레르기"
     ],
     "emergencyClassification": [],
     "oncologyClassification": [],
@@ -114417,7 +114417,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T17:16:47.136Z",
+    "updatedAt": "2026-08-10T19:22:37.883Z",
     "clinicalPriority": "tier_3",
     "documentRole": "canonical",
     "contentMeta": {
@@ -117197,7 +117197,7 @@
       "요로 폐색"
     ],
     "relatedSpecialties": [
-      "신장"
+      "05 신장"
     ],
     "emergencyClassification": [],
     "oncologyClassification": [],
@@ -117282,7 +117282,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T11:01:53.833Z",
+    "updatedAt": "2026-08-10T19:22:40.719Z",
     "clinicalPriority": "tier_3",
     "documentRole": "canonical",
     "contentMeta": {

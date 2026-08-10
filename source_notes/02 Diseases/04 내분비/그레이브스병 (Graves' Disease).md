@@ -1,7 +1,7 @@
 ---
 aliases: []
 관련분과:
-- 알레르기
+- 06 알레르기
 parent_disease: Type II
 relation_to_parent: receptor_stimulating_antibody
 유형:

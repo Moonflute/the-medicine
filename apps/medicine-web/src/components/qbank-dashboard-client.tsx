@@ -45,10 +45,10 @@ function QuestionBankPicker({ questionBank, title, items, selected, setSelected 
       <legend className="text-base font-semibold text-slate-900">{title} <span className="text-sm font-normal text-slate-500">{items.reduce((sum, item) => sum + item.count, 0).toLocaleString()}문항</span></legend>
       <button type="button" onClick={() => setSelected(all ? [] : items.map((item) => item.slug))} className="text-xs font-semibold text-teal-700 hover:underline" disabled={items.length === 0}>{all ? "전체 해제" : "전체 선택"}</button>
     </div>
-    {items.length === 0 ? <p className="mt-3 text-sm text-slate-500">연결된 {questionBank === "theory" ? "이론" : "임상"} 문제가 없습니다.</p> : <div className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-4">{items.map((item) => {
+    {items.length === 0 ? <p className="mt-3 text-sm text-slate-500">연결된 {questionBank === "theory" ? "이론" : "임상"} 문제가 없습니다.</p> : <div className="mt-3 grid grid-cols-2 gap-1.5 sm:gap-2 lg:grid-cols-4">{items.map((item) => {
       const checked = selected.includes(item.slug);
-      return <label key={item.slug} className={`flex cursor-pointer items-center gap-2 rounded-lg border px-3 py-2.5 text-sm ${checked ? "border-teal-400 bg-teal-50 text-teal-950" : "border-slate-200 bg-white text-slate-700"}`}>
-        <input type="checkbox" checked={checked} onChange={() => setSelected(checked ? selected.filter((value) => value !== item.slug) : [...selected, item.slug])} className="h-4 w-4 accent-teal-600" />{item.name} <span className="text-xs text-slate-500">({item.count})</span>
+      return <label key={item.slug} className={`flex cursor-pointer items-start gap-1.5 rounded-lg border px-2.5 py-2 text-[13px] leading-5 sm:px-3 sm:text-sm ${checked ? "border-teal-400 bg-teal-50 text-teal-950" : "border-slate-200 bg-white text-slate-700"}`}>
+        <input type="checkbox" checked={checked} onChange={() => setSelected(checked ? selected.filter((value) => value !== item.slug) : [...selected, item.slug])} className="mt-0.5 h-4 w-4 shrink-0 accent-teal-600" /><span className="min-w-0">{item.name}</span> <span className="shrink-0 text-[11px] text-slate-500">({item.count})</span>
       </label>;
     })}</div>}
   </fieldset>;
@@ -66,9 +66,11 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   }, [questions, relatedTarget]);
   const theoryGroups = useMemo(() => THEORY_SOURCE_GROUPS.map((group) => ({ ...group, items: specialtyChoices(availableQuestions, "theory", group.type) })).filter((group) => group.items.length > 0), [availableQuestions]);
   const clinicalSpecialties = useMemo(() => specialtyChoices(availableQuestions, "clinical"), [availableQuestions]);
-  const [selectedTheory, setSelectedTheory] = useState<string[]>(() => theoryGroups.flatMap((group) => group.items.map((item) => item.slug)));
-  const [selectedClinical, setSelectedClinical] = useState<string[]>(() => clinicalSpecialties.map((item) => item.slug));
+  const [selectedTheory, setSelectedTheory] = useState<string[]>([]);
+  const [selectedClinical, setSelectedClinical] = useState<string[]>([]);
   const [count, setCount] = useState("10");
+  const [showUnattemptedDialog, setShowUnattemptedDialog] = useState(false);
+  const [unattemptedCount, setUnattemptedCount] = useState("10");
   const [stats, setStats] = useState({ attempted: 0, wrong: 0, bookmarks: 0 });
 
   useEffect(() => {
@@ -118,9 +120,23 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     </section>
 
     {!relatedTarget ? <section className="grid gap-3 sm:grid-cols-3">
-      <Link href={`/review/qbank/session?mode=unattempted&count=${count}`} className="list-tile p-5"><RotateCcw className="h-5 w-5 text-teal-700" /><h3 className="mt-3 font-semibold">미풀이 문제</h3><p className="mt-1 text-sm text-slate-600">아직 풀지 않은 문제만 무작위로 풉니다.</p></Link>
+      <button type="button" onClick={() => setShowUnattemptedDialog(true)} className="list-tile p-5 text-left"><RotateCcw className="h-5 w-5 text-teal-700" /><h3 className="mt-3 font-semibold">미풀이 문제</h3><p className="mt-1 text-sm text-slate-600">아직 풀지 않은 문제만 무작위로 풉니다.</p></button>
       <Link href={`/review/qbank/session?mode=wrong&count=${count}`} className="list-tile p-5"><CircleAlert className="h-5 w-5 text-rose-700" /><h3 className="mt-3 font-semibold">오답 다시 풀기</h3><p className="mt-1 text-sm text-slate-600">표시한 오답 {stats.wrong}개 중에서 출제합니다.</p></Link>
       <Link href={`/review/qbank/session?mode=bookmarks&count=${count}`} className="list-tile p-5"><Bookmark className="h-5 w-5 text-amber-700" /><h3 className="mt-3 font-semibold">북마크</h3><p className="mt-1 text-sm text-slate-600">저장한 문제 {stats.bookmarks}개를 다시 풉니다.</p></Link>
     </section> : null}
+
+    {showUnattemptedDialog ? <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/35 p-4" role="dialog" aria-modal="true" aria-labelledby="unattempted-dialog-title">
+      <div className="w-full max-w-sm rounded-xl border border-slate-200 bg-white p-5 shadow-xl">
+        <h2 id="unattempted-dialog-title" className="text-lg font-semibold text-slate-950">미풀이 문제</h2>
+        <p className="mt-1 text-sm leading-6 text-slate-600">풀지 않은 문제 중에서 무작위로 출제할 문항 수를 입력하세요.</p>
+        <label className="mt-5 block text-sm font-medium text-slate-700">문항 수
+          <input type="number" min="1" max="100" step="1" inputMode="numeric" autoFocus value={unattemptedCount} onChange={(event) => setUnattemptedCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5" />
+        </label>
+        <div className="mt-5 flex justify-end gap-2">
+          <button type="button" onClick={() => setShowUnattemptedDialog(false)} className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700">취소</button>
+          <Link href={`/review/qbank/session?mode=unattempted&count=${encodeURIComponent(unattemptedCount)}`} onClick={() => setShowUnattemptedDialog(false)} className="rounded-lg bg-teal-700 px-4 py-2 text-sm font-semibold text-white hover:bg-teal-800">시작하기</Link>
+        </div>
+      </div>
+    </div> : null}
   </div>;
 }

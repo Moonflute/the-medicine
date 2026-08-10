@@ -37,10 +37,11 @@ function calendarFor(range: RangeKey) {
   const gridEnd = new Date(end);
   gridEnd.setDate(end.getDate() + 6 - end.getDay());
   const length = Math.round((gridEnd.getTime() - gridStart.getTime()) / 86_400_000) + 1;
+  const verticalWeekdays = range === "year";
   const days = Array.from({ length }, (_, index): DayCell => {
     const date = new Date(gridStart);
     date.setDate(gridStart.getDate() + index);
-    return { date, key: dateKey(date), col: Math.floor(index / 7), row: index % 7, inRange: date >= start && date <= end, future: date > today };
+    return { date, key: dateKey(date), col: verticalWeekdays ? Math.floor(index / 7) : index % 7, row: verticalWeekdays ? index % 7 : Math.floor(index / 7), inRange: date >= start && date <= end, future: date > today };
   });
   return { days, columns: Math.ceil(length / 7), title: range === "week" ? "\uc774\ubc88 \uc8fc" : range === "month" ? `${today.getMonth() + 1}\uc6d4` : `${today.getFullYear()}\ub144` };
 }
@@ -90,15 +91,25 @@ function monthOutlines(days: DayCell[], pitch: number, cell: number, offset: num
 
 function CalendarSvg({ range, activity }: { range: RangeKey; activity: Record<string, QbankDailyActivity> }) {
   const calendar = useMemo(() => calendarFor(range), [range]);
+  const [hoveredKey, setHoveredKey] = useState<string | null>(null);
+  const [pinnedKey, setPinnedKey] = useState<string | null>(null);
   const cell = range === "week" ? 25 : range === "month" ? 16 : 10;
   const gap = range === "week" ? 5 : range === "month" ? 4 : 3;
   const pitch = cell + gap;
-  const top = range === "year" ? 20 : 0;
-  const width = calendar.columns * pitch - gap;
-  const height = top + 7 * pitch - gap;
+  const columns = range === "year" ? calendar.columns : 7;
+  const rows = range === "year" ? 7 : calendar.columns;
+  const top = 20;
+  const width = columns * pitch - gap;
+  const height = top + rows * pitch - gap;
   const outlines = range === "year" ? monthOutlines(calendar.days, pitch, cell, top) : [];
+  const weekdayLabels = ["\uc77c", "\uc6d4", "\ud654", "\uc218", "\ubaa9", "\uae08", "\ud1a0"];
+  const selectedKey = pinnedKey ?? hoveredKey;
+  const selectedDay = selectedKey ? calendar.days.find((day) => day.key === selectedKey && day.inRange && !day.future) : undefined;
+  const selectedValue = selectedDay ? (activity[selectedDay.key] ?? { attempts: 0, correct: 0 }) : undefined;
+  const selectedWrong = selectedValue ? Math.max(0, selectedValue.attempts - selectedValue.correct) : 0;
   return <div className="overflow-x-auto pb-2"><svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} role="img" aria-label={`${calendar.title} \ub0a0\uc9dc\ubcc4 \ubb38\uc81c\ud480\uc774 \ud65c\ub3d9`} className="block min-w-max">
     {outlines.map((month) => <g key={month.key}><text x={month.x} y={11} fill="#64748b" fontSize={10}>{month.label}</text><path d={month.path} fill="none" stroke="#94a3b8" strokeWidth={0.8} strokeLinejoin="miter" vectorEffect="non-scaling-stroke" /></g>)}
+    {range !== "year" ? weekdayLabels.map((label, index) => <text key={label} x={index * pitch + cell / 2} y={11} textAnchor="middle" fill={index === 0 ? "#e11d48" : index === 6 ? "#2563eb" : "#64748b"} fontSize={10}>{label}</text>) : null}
     {calendar.days.map((day) => {
       const value = activity[day.key] ?? { attempts: 0, correct: 0 };
       const hidden = !day.inRange || day.future;
@@ -106,7 +117,13 @@ function CalendarSvg({ range, activity }: { range: RangeKey; activity: Record<st
         {hidden ? null : <title>{`${day.key} · ${value.attempts}\ubb38\ud56d · \uc815\ub2f5 ${value.correct}\uac1c`}</title>}
       </rect>;
     })}
-  </svg></div>;
+    {calendar.days.map((day) => {
+      const hidden = !day.inRange || day.future;
+      return hidden ? null : <rect key={`hit-${day.key}`} x={day.col * pitch} y={top + day.row * pitch} width={cell} height={cell} fill="transparent" tabIndex={0} role="button" aria-label={`${day.key} 상세 보기`} className="cursor-pointer outline-none" onMouseEnter={() => setHoveredKey(day.key)} onMouseLeave={() => setHoveredKey(null)} onFocus={() => setHoveredKey(day.key)} onBlur={() => setHoveredKey(null)} onClick={() => setPinnedKey((current) => current === day.key ? null : day.key)} />;
+    })}
+  </svg>
+  {selectedDay && selectedValue ? <div className="mt-2 inline-block rounded-lg border border-slate-200 bg-white px-2.5 py-2 text-[11px] leading-5 text-slate-600 shadow-sm"><div className="font-semibold text-slate-900">{selectedDay.date.toLocaleDateString("ko-KR", { month: "long", day: "numeric", weekday: "short" })}</div><div>풀이 {selectedValue.attempts}개 · 정답 {selectedValue.correct}개</div><div className={selectedWrong > 0 ? "text-rose-700" : "text-slate-500"}>오답 {selectedWrong}개{selectedValue.attempts > 0 ? ` · 정답률 ${Math.round(selectedValue.correct / selectedValue.attempts * 100)}%` : ""}</div></div> : null}
+</div>;
 }
 
 export function QbankRangeActivityHeatmap({ compact = false }: { compact?: boolean }) {
