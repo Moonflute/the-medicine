@@ -44,6 +44,26 @@ function hasTheorySelection(selections: Set<string>, item: QbankQuestionIndex): 
   return selections.has(theorySelectionKey(item)) || selections.has(item.specialtySlug);
 }
 
+function theoryTargetHref(question: QbankQuestion): string | null {
+  if (question.questionBank !== "theory" || !question.targetSlug) return null;
+  if (question.targetType === "disease") return `/disease/${question.targetSlug}`;
+  if (question.targetType === "cc") return `/cc/${question.targetSlug}`;
+  if (question.targetType === "drug") return `/drugs/${question.targetSlug}`;
+  return null;
+}
+
+function theoryTargetTitle(question: QbankQuestion): string {
+  try {
+    const normalized = question.targetSlug.replace(/-/g, "+").replace(/_/g, "/");
+    const padded = normalized.padEnd(Math.ceil(normalized.length / 4) * 4, "=");
+    const bytes = Uint8Array.from(atob(padded), (character) => character.charCodeAt(0));
+    const decoded = new TextDecoder().decode(bytes);
+    return decoded.split("/").pop()?.replace(/\.md$/i, "") || question.targetSlug;
+  } catch {
+    return question.targetSlug;
+  }
+}
+
 async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = ""): Promise<QbankQuestion[]> {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
@@ -264,6 +284,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   }, [remoteActiveSession, specialties]);
 
   const current = questions[currentIndex];
+  const currentTheoryTargetHref = current ? theoryTargetHref(current) : null;
   const correctCount = useMemo(() => answers.filter((item) => item.correct).length, [answers]);
   const specialtyResults = useMemo(() => {
     const summary = new Map<string, { correct: number; total: number }>();
@@ -463,7 +484,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             {wrongTracked ? <button type="button" onClick={dismissWrong} className="secondary-action float-right">오답 노트에서 제거</button> : null}
             <div className="flex items-center gap-2 font-semibold">{selected === current.answer ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{selected === current.answer ? "정답입니다." : `정답은 ${current.answer}입니다.`}</div>
             {current.explanation ? <div className="mt-3 whitespace-pre-line text-sm leading-6 text-slate-700">{current.explanation}</div> : <p className="mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
-            {current.relatedDiseaseSlugs.length > 0 ? <div className="mt-3 flex flex-wrap gap-2">{current.relatedDiseaseSlugs.map((slug, index) => <Link key={slug} href={`/disease/${slug}`} className="pill hover:border-teal-500">{current.relatedDiseaseTerms[index] || slug}</Link>)}</div> : null}
+            {currentTheoryTargetHref ? <div className="mt-3 flex flex-wrap gap-2"><Link href={currentTheoryTargetHref} className="pill hover:border-teal-500">이론 원문: {theoryTargetTitle(current)}</Link></div> : current.relatedDiseaseSlugs.length > 0 ? <div className="mt-3 flex flex-wrap gap-2">{current.relatedDiseaseSlugs.map((slug, index) => <Link key={slug} href={`/disease/${slug}`} className="pill hover:border-teal-500">{current.relatedDiseaseTerms[index] || slug}</Link>)}</div> : null}
           </div>
         ) : null}
 
