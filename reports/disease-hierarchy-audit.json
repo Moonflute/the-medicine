@@ -1,0 +1,1548 @@
+{
+  "generatedAt": "2026-08-10T18:26:56.495Z",
+  "contract": {
+    "hierarchySource": "disease_family + parent_disease + canonical_disease frontmatter",
+    "classificationSource": "classification frontmatter; display grouping only",
+    "compatibilityBehavior": "hidden from navigation/search and redirected to canonical_disease",
+    "qbankBehavior": "parent scope includes explicitly modeled descendants; group overview scope includes its listed members and their descendants"
+  },
+  "summary": {
+    "documents": 1302,
+    "visibleDocuments": 1254,
+    "roleCounts": {
+      "canonical": 1125,
+      "compatibility": 48,
+      "group_overview": 112,
+      "reference": 1,
+      "special_population": 16
+    },
+    "explicitParentRelations": 97,
+    "unresolvedParentReferences": 0,
+    "unresolvedCanonicalReferences": 0,
+    "nonHierarchicalSelfReferences": 12,
+    "groupOverviews": 113,
+    "unresolvedGroupMemberReferences": 0,
+    "sameSpecialtyTitleCollisions": 0,
+    "crossSpecialtySharedTopics": 17,
+    "modeledFamilies": 31
+  },
+  "blocking": {
+    "unresolvedParents": [],
+    "unresolvedCanonicalReferences": []
+  },
+  "review": {
+    "nonHierarchicalSelfReferences": [
+      {
+        "slug": "MTIg7IKw6rO8L-ustOymneyDgSDshLjqt6Drh6ggKEFzeW1wdG9tYXRpYyBCYWN0ZXJpdXJpYSkubWQ",
+        "title": "무증상 세균뇨 (Asymptomatic Bacteriuria)",
+        "documentRole": "special_population"
+      },
+      {
+        "slug": "MTIg7IKw6rO8L-yImOuRkCAoVmFyaWNlbGxhKS5tZA",
+        "title": "수두 (Varicella)",
+        "documentRole": "special_population"
+      },
+      {
+        "slug": "MTIg7IKw6rO8L-2ZjeyXrSAoTWVhc2xlcykubWQ",
+        "title": "홍역 (Measles)",
+        "documentRole": "special_population"
+      },
+      {
+        "slug": "MTMg67aA7J246rO8L-unpOuPhSAoU3lwaGlsaXMpLm1k",
+        "title": "매독 (Syphilis)",
+        "documentRole": "special_population"
+      },
+      {
+        "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCQ6riwIChDb21tb24gQ29sZCkubWQ",
+        "title": "감기 (Common Cold)",
+        "documentRole": "special_population"
+      },
+      {
+        "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64u564eo67ORIChEaWFiZXRlcyBNZWxsaXR1cykubWQ",
+        "title": "당뇨병 (Diabetes Mellitus)",
+        "documentRole": "special_population"
+      },
+      {
+        "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv66eI7J207L2U7ZSM65287Iqk66eIIO2PkOugtCAoTXljb3BsYXNtYSBQbmV1bW9uaWEpLm1k",
+        "title": "마이코플라스마 폐렴 (Mycoplasma Pneumonia)",
+        "documentRole": "special_population"
+      },
+      {
+        "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67OA67mEIChDb25zdGlwYXRpb24pLm1k",
+        "title": "변비 (Constipation)",
+        "documentRole": "special_population"
+      },
+      {
+        "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISk7IKsIChEaWFycmhlYSkubWQ",
+        "title": "설사 (Diarrhea)",
+        "documentRole": "special_population"
+      },
+      {
+        "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JWE7Yag7ZS8IO2UvOu2gOyXvCAoQXRvcGljIERlcm1hdGl0aXMpLm1k",
+        "title": "아토피 피부염 (Atopic Dermatitis)",
+        "documentRole": "special_population"
+      },
+      {
+        "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JWM66CI66W06riwIOu5hOyXvCAoQWxsZXJnaWMgUmhpbml0aXMpLm1k",
+        "title": "알레르기 비염 (Allergic Rhinitis)",
+        "documentRole": "special_population"
+      },
+      {
+        "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JyM7Iqo67ORIChXaWxzb24ncyBEaXNlYXNlKS5tZA",
+        "title": "윌슨병 (Wilson's Disease)",
+        "documentRole": "special_population"
+      }
+    ],
+    "unresolvedGroupMembers": [],
+    "sameSpecialtyTitleCollisions": [],
+    "crossSpecialtySharedTopics": [
+      {
+        "normalized": "심부정맥혈전증(deepveinthrombosis)",
+        "entries": [
+          {
+            "slug": "MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ",
+            "title": "심부 정맥 혈전증 (Deep Vein Thrombosis)",
+            "specialty": "01 순환기",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/01 순환기/심부 정맥 혈전증 (Deep Vein Thrombosis).md"
+          },
+          {
+            "slug": "MTIg7IKw6rO8L-yLrOu2gOygleunpe2YiOyghOymnSAoRGVlcCBWZWluIFRocm9tYm9zaXMpLm1k",
+            "title": "심부정맥혈전증 (Deep Vein Thrombosis)",
+            "specialty": "12 산과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/12 산과/심부정맥혈전증 (Deep Vein Thrombosis).md"
+          }
+        ]
+      },
+      {
+        "normalized": "마이코플라스마폐렴(mycoplasmapneumonia)",
+        "entries": [
+          {
+            "slug": "MDIg7Zi47Z2h6riwL-uniOydtOy9lO2UjOudvOyKpOuniCDtj5DroLQgKE15Y29wbGFzbWEgUG5ldW1vbmlhKS5tZA",
+            "title": "마이코플라스마 폐렴 (Mycoplasma Pneumonia)",
+            "specialty": "02 호흡기",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/02 호흡기/마이코플라스마 폐렴 (Mycoplasma Pneumonia).md"
+          },
+          {
+            "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv66eI7J207L2U7ZSM65287Iqk66eIIO2PkOugtCAoTXljb3BsYXNtYSBQbmV1bW9uaWEpLm1k",
+            "title": "마이코플라스마 폐렴 (Mycoplasma Pneumonia)",
+            "specialty": "14 소아청소년과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/마이코플라스마 폐렴 (Mycoplasma Pneumonia).md"
+          }
+        ]
+      },
+      {
+        "normalized": "폐포자충폐렴(pneumocystispneumonia)",
+        "entries": [
+          {
+            "slug": "MDIg7Zi47Z2h6riwL-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k",
+            "title": "폐포자충 폐렴 (Pneumocystis Pneumonia)",
+            "specialty": "02 호흡기",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/02 호흡기/폐포자충 폐렴 (Pneumocystis Pneumonia).md"
+          },
+          {
+            "slug": "MDgg6rCQ7Je8L-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k",
+            "title": "폐포자충 폐렴 (Pneumocystis Pneumonia)",
+            "specialty": "08 감염",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/08 감염/폐포자충 폐렴 (Pneumocystis Pneumonia).md"
+          }
+        ]
+      },
+      {
+        "normalized": "윌슨병(wilson'sdisease)",
+        "entries": [
+          {
+            "slug": "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snIzsiqjrs5EgKFdpbHNvbidzIERpc2Vhc2UpLm1k",
+            "title": "윌슨병 (Wilson's Disease)",
+            "specialty": "03 소화기",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/윌슨병 (Wilson's Disease).md"
+          },
+          {
+            "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JyM7Iqo67ORIChXaWxzb24ncyBEaXNlYXNlKS5tZA",
+            "title": "윌슨병 (Wilson's Disease)",
+            "specialty": "14 소아청소년과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/윌슨병 (Wilson's Disease).md"
+          }
+        ]
+      },
+      {
+        "normalized": "변비(constipation)",
+        "entries": [
+          {
+            "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rs4DruYQgKENvbnN0aXBhdGlvbikubWQ",
+            "title": "변비 (Constipation)",
+            "specialty": "03 소화기",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/변비 (Constipation).md"
+          },
+          {
+            "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67OA67mEIChDb25zdGlwYXRpb24pLm1k",
+            "title": "변비 (Constipation)",
+            "specialty": "14 소아청소년과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/변비 (Constipation).md"
+          }
+        ]
+      },
+      {
+        "normalized": "설사(diarrhea)",
+        "entries": [
+          {
+            "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shKTsgqwgKERpYXJyaGVhKS5tZA",
+            "title": "설사 (Diarrhea)",
+            "specialty": "03 소화기",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/설사 (Diarrhea).md"
+          },
+          {
+            "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISk7IKsIChEaWFycmhlYSkubWQ",
+            "title": "설사 (Diarrhea)",
+            "specialty": "14 소아청소년과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/설사 (Diarrhea).md"
+          }
+        ]
+      },
+      {
+        "normalized": "당뇨병(diabetesmellitus)",
+        "entries": [
+          {
+            "slug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k",
+            "title": "당뇨병 (Diabetes Mellitus)",
+            "specialty": "04 내분비",
+            "documentRole": "group_overview",
+            "sourcePath": "source_notes/02 Diseases/04 내분비/당뇨병 (Diabetes Mellitus).md"
+          },
+          {
+            "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64u564eo67ORIChEaWFiZXRlcyBNZWxsaXR1cykubWQ",
+            "title": "당뇨병 (Diabetes Mellitus)",
+            "specialty": "14 소아청소년과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/당뇨병 (Diabetes Mellitus).md"
+          }
+        ]
+      },
+      {
+        "normalized": "무증상세균뇨(asymptomaticbacteriuria)",
+        "entries": [
+          {
+            "slug": "MDUg7Iug7J6lL-ustOymneyDgSDshLjqt6Drh6ggKEFzeW1wdG9tYXRpYyBCYWN0ZXJpdXJpYSkubWQ",
+            "title": "무증상 세균뇨 (Asymptomatic Bacteriuria)",
+            "specialty": "05 신장",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/05 신장/무증상 세균뇨 (Asymptomatic Bacteriuria).md"
+          },
+          {
+            "slug": "MTIg7IKw6rO8L-ustOymneyDgSDshLjqt6Drh6ggKEFzeW1wdG9tYXRpYyBCYWN0ZXJpdXJpYSkubWQ",
+            "title": "무증상 세균뇨 (Asymptomatic Bacteriuria)",
+            "specialty": "12 산과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/12 산과/무증상 세균뇨 (Asymptomatic Bacteriuria).md"
+          }
+        ]
+      },
+      {
+        "normalized": "알레르기비염(allergicrhinitis)",
+        "entries": [
+          {
+            "slug": "MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sCDruYTsl7wgKEFsbGVyZ2ljIFJoaW5pdGlzKS5tZA",
+            "title": "알레르기 비염 (Allergic Rhinitis)",
+            "specialty": "06 알레르기",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/06 알레르기/알레르기 비염 (Allergic Rhinitis).md"
+          },
+          {
+            "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JWM66CI66W06riwIOu5hOyXvCAoQWxsZXJnaWMgUmhpbml0aXMpLm1k",
+            "title": "알레르기 비염 (Allergic Rhinitis)",
+            "specialty": "14 소아청소년과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/알레르기 비염 (Allergic Rhinitis).md"
+          }
+        ]
+      },
+      {
+        "normalized": "감기(commoncold)",
+        "entries": [
+          {
+            "slug": "MDgg6rCQ7Je8L-qwkOq4sCAoQ29tbW9uIENvbGQpLm1k",
+            "title": "감기 (Common Cold)",
+            "specialty": "08 감염",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/08 감염/감기 (Common Cold).md"
+          },
+          {
+            "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCQ6riwIChDb21tb24gQ29sZCkubWQ",
+            "title": "감기 (Common Cold)",
+            "specialty": "14 소아청소년과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/감기 (Common Cold).md"
+          }
+        ]
+      },
+      {
+        "normalized": "매독(syphilis)",
+        "entries": [
+          {
+            "slug": "MDgg6rCQ7Je8L-unpOuPhSAoU3lwaGlsaXMpLm1k",
+            "title": "매독 (Syphilis)",
+            "specialty": "08 감염",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/08 감염/매독 (Syphilis).md"
+          },
+          {
+            "slug": "MTMg67aA7J246rO8L-unpOuPhSAoU3lwaGlsaXMpLm1k",
+            "title": "매독 (Syphilis)",
+            "specialty": "13 부인과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/13 부인과/매독 (Syphilis).md"
+          }
+        ]
+      },
+      {
+        "normalized": "호중구감소증(neutropenia)",
+        "entries": [
+          {
+            "slug": "MDgg6rCQ7Je8L-2YuOykkeq1rOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k",
+            "title": "호중구감소증 (Neutropenia)",
+            "specialty": "08 감염",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/08 감염/호중구감소증 (Neutropenia).md"
+          },
+          {
+            "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Zi47KSR6rWsIOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k",
+            "title": "호중구 감소증 (Neutropenia)",
+            "specialty": "14 소아청소년과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/호중구 감소증 (Neutropenia).md"
+          }
+        ]
+      },
+      {
+        "normalized": "다운증후군(downsyndrome)",
+        "entries": [
+          {
+            "slug": "MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ",
+            "title": "다운증후군 (Down Syndrome)",
+            "specialty": "12 산과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/12 산과/다운증후군 (Down Syndrome).md"
+          },
+          {
+            "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv64uk7Jq0IOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ",
+            "title": "다운 증후군 (Down Syndrome)",
+            "specialty": "14 소아청소년과",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/다운 증후군 (Down Syndrome).md"
+          }
+        ]
+      },
+      {
+        "normalized": "수두(varicella)",
+        "entries": [
+          {
+            "slug": "MTIg7IKw6rO8L-yImOuRkCAoVmFyaWNlbGxhKS5tZA",
+            "title": "수두 (Varicella)",
+            "specialty": "12 산과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/12 산과/수두 (Varicella).md"
+          },
+          {
+            "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IiY65GQIChWYXJpY2VsbGEpLm1k",
+            "title": "수두 (Varicella)",
+            "specialty": "14 소아청소년과",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/수두 (Varicella).md"
+          }
+        ]
+      },
+      {
+        "normalized": "홍역(measles)",
+        "entries": [
+          {
+            "slug": "MTIg7IKw6rO8L-2ZjeyXrSAoTWVhc2xlcykubWQ",
+            "title": "홍역 (Measles)",
+            "specialty": "12 산과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/12 산과/홍역 (Measles).md"
+          },
+          {
+            "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ZmN7JetIChNZWFzbGVzKS5tZA",
+            "title": "홍역 (Measles)",
+            "specialty": "14 소아청소년과",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/홍역 (Measles).md"
+          }
+        ]
+      },
+      {
+        "normalized": "아토피피부염(atopicdermatitis)",
+        "entries": [
+          {
+            "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JWE7Yag7ZS8IO2UvOu2gOyXvCAoQXRvcGljIERlcm1hdGl0aXMpLm1k",
+            "title": "아토피 피부염 (Atopic Dermatitis)",
+            "specialty": "14 소아청소년과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/아토피 피부염 (Atopic Dermatitis).md"
+          },
+          {
+            "slug": "MTkg7ZS867aA6rO8L-yVhO2GoO2UvCDtlLzrtoDsl7wgKEF0b3BpYyBEZXJtYXRpdGlzKS5tZA",
+            "title": "아토피 피부염 (Atopic Dermatitis)",
+            "specialty": "19 피부과",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/19 피부과/아토피 피부염 (Atopic Dermatitis).md"
+          }
+        ]
+      },
+      {
+        "normalized": "중이염(otitismedia)",
+        "entries": [
+          {
+            "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7J207Je8IChPdGl0aXMgTWVkaWEpLm1k",
+            "title": "중이염 (Otitis Media)",
+            "specialty": "14 소아청소년과",
+            "documentRole": "special_population",
+            "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/중이염 (Otitis Media).md"
+          },
+          {
+            "slug": "MTcg7J2067mE7J247ZuE6rO8L-ykkeydtOyXvCAoT3RpdGlzIG1lZGlhKS5tZA",
+            "title": "중이염 (Otitis media)",
+            "specialty": "17 이비인후과",
+            "documentRole": "canonical",
+            "sourcePath": "source_notes/02 Diseases/17 이비인후과/중이염 (Otitis media).md"
+          }
+        ]
+      }
+    ],
+    "parentClassificationDivergences": [
+      {
+        "child": {
+          "slug": "MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA",
+          "title": "그레이브스병 (Graves' Disease)",
+          "classification": [
+            "갑상샘 질환"
+          ],
+          "sourcePath": "source_notes/02 Diseases/04 내분비/그레이브스병 (Graves' Disease).md"
+        },
+        "parent": {
+          "slug": "MDYg7JWM66CI66W06riwL1R5cGUgSUkubWQ",
+          "title": "Type II",
+          "classification": [
+            "Type II"
+          ],
+          "sourcePath": "source_notes/02 Diseases/06 알레르기/Type II.md"
+        }
+      },
+      {
+        "child": {
+          "slug": "MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k",
+          "title": "신혈관성 고혈압 (Renovascular Hypertension)",
+          "classification": [
+            "신혈관 질환"
+          ],
+          "sourcePath": "source_notes/02 Diseases/05 신장/신혈관성 고혈압 (Renovascular Hypertension).md"
+        },
+        "parent": {
+          "slug": "MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA",
+          "title": "고혈압 (Hypertension)",
+          "classification": [
+            "고혈압"
+          ],
+          "sourcePath": "source_notes/02 Diseases/01 순환기/고혈압 (Hypertension).md"
+        }
+      },
+      {
+        "child": {
+          "slug": "MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k",
+          "title": "자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia)",
+          "classification": [
+            "적혈구 질환",
+            "빈혈"
+          ],
+          "sourcePath": "source_notes/02 Diseases/09 혈액/자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia).md"
+        },
+        "parent": {
+          "slug": "MDYg7JWM66CI66W06riwL1R5cGUgSUkubWQ",
+          "title": "Type II",
+          "classification": [
+            "Type II"
+          ],
+          "sourcePath": "source_notes/02 Diseases/06 알레르기/Type II.md"
+        }
+      },
+      {
+        "child": {
+          "slug": "MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ",
+          "title": "다운증후군 (Down Syndrome)",
+          "classification": [
+            "산전진찰"
+          ],
+          "sourcePath": "source_notes/02 Diseases/12 산과/다운증후군 (Down Syndrome).md"
+        },
+        "parent": {
+          "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv64uk7Jq0IOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ",
+          "title": "다운 증후군 (Down Syndrome)",
+          "classification": [
+            "소아과총론"
+          ],
+          "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/다운 증후군 (Down Syndrome).md"
+        }
+      },
+      {
+        "child": {
+          "slug": "MTIg7IKw6rO8L-yLrOu2gOygleunpe2YiOyghOymnSAoRGVlcCBWZWluIFRocm9tYm9zaXMpLm1k",
+          "title": "심부정맥혈전증 (Deep Vein Thrombosis)",
+          "classification": [
+            "임신 중 질환"
+          ],
+          "sourcePath": "source_notes/02 Diseases/12 산과/심부정맥혈전증 (Deep Vein Thrombosis).md"
+        },
+        "parent": {
+          "slug": "MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ",
+          "title": "심부 정맥 혈전증 (Deep Vein Thrombosis)",
+          "classification": [
+            "혈관질환"
+          ],
+          "sourcePath": "source_notes/02 Diseases/01 순환기/심부 정맥 혈전증 (Deep Vein Thrombosis).md"
+        }
+      },
+      {
+        "child": {
+          "slug": "MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA",
+          "title": "임신성 당뇨병 (Gestational Diabetes Mellitus)",
+          "classification": [
+            "임신 중 질환"
+          ],
+          "sourcePath": "source_notes/02 Diseases/12 산과/임신성 당뇨병 (Gestational Diabetes Mellitus).md"
+        },
+        "parent": {
+          "slug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k",
+          "title": "당뇨병 (Diabetes Mellitus)",
+          "classification": [
+            "당 질환",
+            "당뇨병"
+          ],
+          "sourcePath": "source_notes/02 Diseases/04 내분비/당뇨병 (Diabetes Mellitus).md"
+        }
+      },
+      {
+        "child": {
+          "slug": "MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA",
+          "title": "임신성고혈압 (Gestational Hypertension)",
+          "classification": [
+            "임신 고혈압"
+          ],
+          "sourcePath": "source_notes/02 Diseases/12 산과/임신성고혈압 (Gestational Hypertension).md"
+        },
+        "parent": {
+          "slug": "MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA",
+          "title": "고혈압 (Hypertension)",
+          "classification": [
+            "고혈압"
+          ],
+          "sourcePath": "source_notes/02 Diseases/01 순환기/고혈압 (Hypertension).md"
+        }
+      },
+      {
+        "child": {
+          "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7J207Je8IChPdGl0aXMgTWVkaWEpLm1k",
+          "title": "중이염 (Otitis Media)",
+          "classification": [
+            "소아과각론",
+            "호흡기"
+          ],
+          "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/중이염 (Otitis Media).md"
+        },
+        "parent": {
+          "slug": "MTcg7J2067mE7J247ZuE6rO8L-ykkeydtOyXvCAoT3RpdGlzIG1lZGlhKS5tZA",
+          "title": "중이염 (Otitis media)",
+          "classification": [
+            "이과학",
+            "중이염"
+          ],
+          "sourcePath": "source_notes/02 Diseases/17 이비인후과/중이염 (Otitis media).md"
+        }
+      },
+      {
+        "child": {
+          "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Zi47KSR6rWsIOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k",
+          "title": "호중구 감소증 (Neutropenia)",
+          "classification": [
+            "소아과각론",
+            "면역계"
+          ],
+          "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/호중구 감소증 (Neutropenia).md"
+        },
+        "parent": {
+          "slug": "MDgg6rCQ7Je8L-2YuOykkeq1rOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k",
+          "title": "호중구감소증 (Neutropenia)",
+          "classification": [
+            "G(-)"
+          ],
+          "sourcePath": "source_notes/02 Diseases/08 감염/호중구감소증 (Neutropenia).md"
+        }
+      },
+      {
+        "child": {
+          "slug": "MTgg7JWI6rO8L-qzoO2YiOyVleunneunieuzkeymnSAoaHlwZXJ0ZW5zaXZlIHJldGlub3BhdGh5KS5tZA",
+          "title": "고혈압망막병증 (hypertensive retinopathy)",
+          "classification": [
+            "망막질환"
+          ],
+          "sourcePath": "source_notes/02 Diseases/18 안과/고혈압망막병증 (hypertensive retinopathy).md"
+        },
+        "parent": {
+          "slug": "MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA",
+          "title": "고혈압 (Hypertension)",
+          "classification": [
+            "고혈압"
+          ],
+          "sourcePath": "source_notes/02 Diseases/01 순환기/고혈압 (Hypertension).md"
+        }
+      },
+      {
+        "child": {
+          "slug": "MTgg7JWI6rO8L-uLueuHqOunneunieuzkeymnSAoZGlhYmV0aWMgcmV0aW5vcGF0aHkpLm1k",
+          "title": "당뇨망막병증 (diabetic retinopathy)",
+          "classification": [
+            "망막질환"
+          ],
+          "sourcePath": "source_notes/02 Diseases/18 안과/당뇨망막병증 (diabetic retinopathy).md"
+        },
+        "parent": {
+          "slug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k",
+          "title": "당뇨병 (Diabetes Mellitus)",
+          "classification": [
+            "당 질환",
+            "당뇨병"
+          ],
+          "sourcePath": "source_notes/02 Diseases/04 내분비/당뇨병 (Diabetes Mellitus).md"
+        }
+      },
+      {
+        "child": {
+          "slug": "MTkg7ZS867aA6rO8L-ygkey0ie2UvOu2gOyXvCAoQ29udGFjdCBEZXJtYXRpdGlzKS5tZA",
+          "title": "접촉피부염 (Contact Dermatitis)",
+          "classification": [
+            "습진성피부질환"
+          ],
+          "sourcePath": "source_notes/02 Diseases/19 피부과/접촉피부염 (Contact Dermatitis).md"
+        },
+        "parent": {
+          "slug": "MDYg7JWM66CI66W06riwL1R5cGUgSVYubWQ",
+          "title": "Type IV",
+          "classification": [
+            "Type IV"
+          ],
+          "sourcePath": "source_notes/02 Diseases/06 알레르기/Type IV.md"
+        }
+      }
+    ],
+    "familiesWithMultipleRoots": [
+      {
+        "family": "diabetes",
+        "count": 13,
+        "roots": [
+          {
+            "slug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k",
+            "title": "당뇨병 (Diabetes Mellitus)"
+          },
+          {
+            "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64u564eo67ORIChEaWFiZXRlcyBNZWxsaXR1cykubWQ",
+            "title": "당뇨병 (Diabetes Mellitus)"
+          }
+        ],
+        "children": [
+          {
+            "slug": "MDQg64K067aE67mEL-qzoOyCvO2IrOyVleyEsSDqs6DtmIjri7kg7IOB7YOcIChISFMpIChIeXBlcm9zbW9sYXIgSHlwZXJnbHljZW1pYyBTdGF0ZSkubWQ",
+            "title": "고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)",
+            "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+          },
+          {
+            "slug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDrp53rp4nrs5Hspp0gKERpYWJldGljIFJldGlub3BhdGh5KS5tZA",
+            "title": "당뇨병성 망막병증 (Diabetic Retinopathy)",
+            "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+          },
+          {
+            "slug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k",
+            "title": "당뇨병성 신경병증 (Diabetic Neuropathy)",
+            "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+          },
+          {
+            "slug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsobHrtoDsp4jtmZgubWQ",
+            "title": "당뇨병성 족부질환",
+            "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+          },
+          {
+            "slug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ",
+            "title": "당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)",
+            "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+          },
+          {
+            "slug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA",
+            "title": "당뇨병성 콩팥병증 (Diabetic Nephropathy)",
+            "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+          },
+          {
+            "slug": "MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA",
+            "title": "저혈당 (Hypoglycemia)",
+            "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+          },
+          {
+            "slug": "MDQg64K067aE67mEL-ygnDHtmJUg64u564eo67ORIChUeXBlIDEgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k",
+            "title": "제1형 당뇨병 (Type 1 Diabetes Mellitus)",
+            "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+          },
+          {
+            "slug": "MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k",
+            "title": "제2형 당뇨병 (Type 2 Diabetes Mellitus)",
+            "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+          },
+          {
+            "slug": "MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA",
+            "title": "임신성 당뇨병 (Gestational Diabetes Mellitus)",
+            "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+          },
+          {
+            "slug": "MTgg7JWI6rO8L-uLueuHqOunneunieuzkeymnSAoZGlhYmV0aWMgcmV0aW5vcGF0aHkpLm1k",
+            "title": "당뇨망막병증 (diabetic retinopathy)",
+            "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+          }
+        ]
+      },
+      {
+        "family": "heart_failure",
+        "count": 2,
+        "roots": [
+          {
+            "slug": "MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDqsJDshowpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBSZWR1Y2VkIEVqZWN0aW9uIEZyYWN0aW9uIChIRnJFRikpLm1k",
+            "title": "만성 심부전 (박출률 감소) (Chronic Heart Failure with Reduced Ejection Fraction (HFrEF))"
+          },
+          {
+            "slug": "MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDrs7TsobQpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBQcmVzZXJ2ZWQgRWplY3Rpb24gRnJhY3Rpb24gKEhGcEVGKSkubWQ",
+            "title": "만성 심부전 (박출률 보존) (Chronic Heart Failure with Preserved Ejection Fraction (HFpEF))"
+          }
+        ],
+        "children": []
+      },
+      {
+        "family": "urinary_tract_infection",
+        "count": 2,
+        "roots": [
+          {
+            "slug": "MDUg7Iug7J6lL-q4ieyEsSDrsKnqtJHsl7wgKEFjdXRlIEN5c3RpdGlzKS5tZA",
+            "title": "급성 방광염 (Acute Cystitis)"
+          },
+          {
+            "slug": "MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA",
+            "title": "급성 신우신염 (Acute Pyelonephritis)"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "families": [
+    {
+      "family": "psychiatry_split",
+      "count": 70,
+      "roots": [],
+      "children": [
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qwhO2XkOyggSDtj63rsJwg7J6l7JWgIChJbnRlcm1pdHRlbnQgRXhwbG9zaXZlIERpc29yZGVyKS5tZA",
+          "title": "간헐적 폭발 장애 (Intermittent Explosive Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2MjOq0tOyggSDstqnrj5kg7KGw7KCIIOuwjyDtlonrj5kg7J6l7JWgIChEaXNydXB0aXZlLCBJbXB1bHNlLUNvbnRyb2wsIGFuZCBDb25kdWN0IERpc29yZGVycykubWQ"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qwleuwlSDsnqXslaAgKE9ic2Vzc2l2ZS1Db21wdWxzaXZlIERpc29yZGVyLCBPQ0QpLm1k",
+          "title": "강박 장애 (Obsessive-Compulsive Disorder, OCD)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOyViCDsnqXslaAgKEFueGlldHkgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qyveuPhCDsnbjsp4Ag7J6l7JWgIChNaWxkIENvZ25pdGl2ZSBJbXBhaXJtZW50KS5tZA",
+          "title": "경도 인지 장애 (Mild Cognitive Impairment)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyduOyngOyepeyVoCAoTmV1cm9jb2duaXRpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qzte2ZqSDsnqXslaAgKFBhbmljIERpc29yZGVyKS5tZA",
+          "title": "공황 장애 (Panic Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOyViCDsnqXslaAgKEFueGlldHkgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qzvOyImOuptCDsnqXslaAgKEh5cGVyc29tbm9sZW5jZSBEaXNvcmRlcikubWQ",
+          "title": "과수면 장애 (Hypersomnolence Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDqtIDroKgg7J6l7JWgIChTbGVlcC1XYWtlIERpc29yZGVycykubWQ"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q0keyepSDqs7Xtj6zspp0gKEFnb3JhcGhvYmlhKS5tZA",
+          "title": "광장 공포증 (Agoraphobia)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOyViCDsnqXslaAgKEFueGlldHkgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4ieyEsSDsiqTtirjroIjsiqQg7J6l7JWgIChBY3V0ZSBTdHJlc3MgRGlzb3JkZXIpLm1k",
+          "title": "급성 스트레스 장애 (Acute Stress Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDrsI8g7Iqk7Yq466CI7IqkIOq0gOugqCDsnqXslaAgKFRyYXVtYS0gYW5kIFN0cmVzc29yLVJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOuptOymnSAoTmFyY29sZXBzeSkubWQ",
+          "title": "기면증 (Narcolepsy)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDqtIDroKgg7J6l7JWgIChTbGVlcC1XYWtlIERpc29yZGVycykubWQ"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOu2hCDsoIDtlZgg7J6l7JWgICjsp4Dsho3soIEg7Jqw7Jq4IOyepeyVoCwgRHlzdGh5bWlhKS5tZA",
+          "title": "기분 저하 장애 (지속적 우울 장애, Dysthymia)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOu2hCDsnqXslaAgKEJpcG9sYXIgYW5kIFJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q-gOuzkSAoTWFsaW5nZXJpbmcpLm1k",
+          "title": "꾀병 (Malingering)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytCDspp3sg4Eg67CPIOq0gOugqCDsnqXslaAgKFNvbWF0aWMgU3ltcHRvbSBhbmQgUmVsYXRlZCBEaXNvcmRlcnMpLm1k"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uLqOq4sCDsoJXsi6Drs5HsoIEg7J6l7JWgIChCcmllZiBwc3ljaG90aWMgZGlzb3JkZXIpLm1k",
+          "title": "단기 정신병적 장애 (Brief psychotic disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSDsiqTtjpntirjrn7wg7J6l7JWgIChTY2hpem9waHJlbmlhIFNwZWN0cnVtIGFuZCBPdGhlciBQc3ljaG90aWMgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uLtOuwsCAoVG9iYWNjbykubWQ",
+          "title": "담배 (Tobacco)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uMgOuniCDqs4QgKENhbm5hYmlzKS5tZA",
+          "title": "대마 계 (Cannabis)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uPhOuyvSAoS2xlcHRvbWFuaWEpLm1k",
+          "title": "도벽 (Kleptomania)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2MjOq0tOyggSDstqnrj5kg7KGw7KCIIOuwjyDtlonrj5kg7J6l7JWgIChEaXNydXB0aXZlLCBJbXB1bHNlLUNvbnRyb2wsIGFuZCBDb25kdWN0IERpc29yZGVycykubWQ"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uanOugmyDsnqXslaAgKFRvdXJldHRlIERpc29yZGVyKS5tZA",
+          "title": "뚜렛 장애 (Tourette Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yGjOyVhCDsoJXsi6Ag7J2Y7ZWZIChDaGlsZCBhbmQgQWRvbGVzY2VudCBQc3ljaGlhdHJpYyBEaXNvcmRlcnMpLm1k"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ugiOu5hCDshozssrQg7LmY66ekIChEZW1lbnRpYSB3aXRoIExld3kgQm9kaWVzKS5tZA",
+          "title": "레비 소체 치매 (Dementia with Lewy Bodies)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyduOyngOyepeyVoCAoTmV1cm9jb2duaXRpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ugmOyImOuptCDtlonrj5kg7J6l7JWgIChSRU0gU2xlZXAgQmVoYXZpb3IgRGlzb3JkZXIpLm1k",
+          "title": "렘수면 행동 장애 (REM Sleep Behavior Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDqtIDroKgg7J6l7JWgIChTbGVlcC1XYWtlIERpc29yZGVycykubWQ"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-unneyDgSDsnqXslaAgKERlbHVzaW9uYWwgZGlzb3JkZXIpLm1k",
+          "title": "망상 장애 (Delusional disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSDsiqTtjpntirjrn7wg7J6l7JWgIChTY2hpem9waHJlbmlhIFNwZWN0cnVtIGFuZCBPdGhlciBQc3ljaG90aWMgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uwmOydkeyEsSDslaDssKkg7J6l7JWgIChSZWFjdGl2ZSBBdHRhY2htZW50IERpc29yZGVyKS5tZA",
+          "title": "반응성 애착 장애 (Reactive Attachment Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yGjOyVhCDsoJXsi6Ag7J2Y7ZWZIChDaGlsZCBhbmQgQWRvbGVzY2VudCBQc3ljaGlhdHJpYyBEaXNvcmRlcnMpLm1k"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uwqe2ZlOq0kSAoUHlyb21hbmlhKS5tZA",
+          "title": "방화광 (Pyromania)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2MjOq0tOyggSDstqnrj5kg7KGw7KCIIOuwjyDtlonrj5kg7J6l7JWgIChEaXNydXB0aXZlLCBJbXB1bHNlLUNvbnRyb2wsIGFuZCBDb25kdWN0IERpc29yZGVycykubWQ"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uylCDrtojslYgg7J6l7JWgIChHZW5lcmFsaXplZCBBbnhpZXR5IERpc29yZGVyKS5tZA",
+          "title": "범 불안 장애 (Generalized Anxiety Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOyViCDsnqXslaAgKEFueGlldHkgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uyoOultOuLiOy8gC3svZTrpbTsgqzsvZTtlIQg7Kad7ZuE6rWwIChXZXJuaWNrZS1Lb3JzYWtvZmYgU3luZHJvbWUpLm1k",
+          "title": "베르니케-코르사코프 증후군 (Wernicke-Korsakoff Syndrome)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOuptCDsnqXslaAgKEluc29tbmlhIERpc29yZGVyKS5tZA",
+          "title": "불면 장애 (Insomnia Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDqtIDroKgg7J6l7JWgIChTbGVlcC1XYWtlIERpc29yZGVycykubWQ"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u5hOugmOyImOuptCDtlonrj5kg7J6l7JWgIChOUkVNIFNsZWVwIEJlaGF2aW9yIERpc29yZGVyKS5tZA",
+          "title": "비렘수면 행동 장애 (NREM Sleep Behavior Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDqtIDroKgg7J6l7JWgIChTbGVlcC1XYWtlIERpc29yZGVycykubWQ"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCrO2ajCDrtojslYgg7J6l7JWgIChTb2NpYWwgQW54aWV0eSBEaXNvcmRlcikubWQ",
+          "title": "사회 불안 장애 (Social Anxiety Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOyViCDsnqXslaAgKEFueGlldHkgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCsO2bhCDsoJXsi6Drs5EgKFBvc3RwYXJ0dW0gcHN5Y2hvc2lzKS5tZA",
+          "title": "산후 정신병 (Postpartum psychosis)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSDsiqTtjpntirjrn7wg7J6l7JWgIChTY2hpem9waHJlbmlhIFNwZWN0cnVtIGFuZCBPdGhlciBQc3ljaG90aWMgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yErOunnSAoRGVsaXJpdW0pLm1k",
+          "title": "섬망 (Delirium)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyduOyngOyepeyVoCAoTmV1cm9jb2duaXRpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDrrLTtmLjtnaHspp0gKFNsZWVwIEFwbmVhIFN5bmRyb21lKS5tZA",
+          "title": "수면 무호흡증 (Sleep Apnea Syndrome)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDqtIDroKgg7J6l7JWgIChTbGVlcC1XYWtlIERpc29yZGVycykubWQ"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yInO2ZmCDquLDrtoQg7J6l7JWgIChDeWNsb3RoeW1pYyBEaXNvcmRlcikubWQ",
+          "title": "순환 기분 장애 (Cyclothymic Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOu2hCDsnqXslaAgKEJpcG9sYXIgYW5kIFJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytCDspp3sg4Eg7J6l7JWgIChTb21hdGljIFN5bXB0b20gRGlzb3JkZXIpLm1k",
+          "title": "신체 증상 장애 (Somatic Symptom Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytCDspp3sg4Eg67CPIOq0gOugqCDsnqXslaAgKFNvbWF0aWMgU3ltcHRvbSBhbmQgUmVsYXRlZCBEaXNvcmRlcnMpLm1k"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVhO2OuCDsnKDsgqzsoJwgKE9waW9pZHMpLm1k",
+          "title": "아편 유사제 (Opioids)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVheuqvSAoTmlnaHRtYXJlKS5tZA",
+          "title": "악몽 (Nightmare)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDqtIDroKgg7J6l7JWgIChTbGVlcC1XYWtlIERpc29yZGVycykubWQ"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy4oO2VmOydtOuouCDsuZjrp6QgKEFsemhlaW1lcidzIERpc2Vhc2UpLm1k",
+          "title": "알츠하이머 치매 (Alzheimer's Disease)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyduOyngOyepeyVoCAoTmV1cm9jb2duaXRpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDquIjri6gg7ISs66edIChBbGNvaG9sIFdpdGhkcmF3YWwgRGVsaXJpdW0pLm1k",
+          "title": "알코올 금단 섬망 (Alcohol Withdrawal Delirium)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDquIjri6gg7Kad7ZuE6rWwIChBbGNvaG9sIFdpdGhkcmF3YWwgU3luZHJvbWUpLm1k",
+          "title": "알코올 금단 증후군 (Alcohol Withdrawal Syndrome)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ",
+          "title": "알코올 사용 장애 (Alcohol Use Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsnKDrsJwg7KCV7Iug67OR7KCBIOyepeyVoCAoQWxjb2hvbC1JbmR1Y2VkIFBzeWNob3RpYyBEaXNvcmRlcikubWQ",
+          "title": "알코올 유발 정신병적 장애 (Alcohol-Induced Psychotic Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k",
+          "title": "양극성 장애 (Bipolar Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOu2hCDsnqXslaAgKEJpcG9sYXIgYW5kIFJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDtm4Qg7Iqk7Yq466CI7IqkIOyepeyVoCAoUFRTRCkubWQ",
+          "title": "외상 후 스트레스 장애 (PTSD)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDrsI8g7Iqk7Yq466CI7IqkIOq0gOugqCDsnqXslaAgKFRyYXVtYS0gYW5kIFN0cmVzc29yLVJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydmOyCrOyGjO2GtSDsnqXslaAgKENvbW11bmljYXRpb24gRGlzb3JkZXIpLm1k",
+          "title": "의사소통 장애 (Communication Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yGjOyVhCDsoJXsi6Ag7J2Y7ZWZIChDaGlsZCBhbmQgQWRvbGVzY2VudCBQc3ljaGlhdHJpYyBEaXNvcmRlcnMpLm1k"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydtOyduOyEsSDsnqXslaDCt-u5hO2YhOyLpOqwkCDsnqXslaAgKERlcGVyc29uYWxpemF0aW9uwrdEZXJlYWxpemF0aW9uIERpc29yZGVyKS5tZA",
+          "title": "이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDrsI8g7Iqk7Yq466CI7IqkIOq0gOugqCDsnqXslaAgKFRyYXVtYS0gYW5kIFN0cmVzc29yLVJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yduOychOyEsSDsnqXslaAgKEZhY3RpdGlvdXMgRGlzb3JkZXIpLm1k",
+          "title": "인위성 장애 (Factitious Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytCDspp3sg4Eg67CPIOq0gOugqCDsnqXslaAgKFNvbWF0aWMgU3ltcHRvbSBhbmQgUmVsYXRlZCBEaXNvcmRlcnMpLm1k"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydvOqzvOyEsSDsoITssrQg6riw7Ja1IOyDgeyLpCAoVHJhbnNpZW50IEdsb2JhbCBBbW5lc2lhKS5tZA",
+          "title": "일과성 전체 기억 상실 (Transient Global Amnesia)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyduOyngOyepeyVoCAoTmV1cm9jb2duaXRpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydvOyjvOq4sCDrpqzrk6wg7IiY66m0IOqwgeyEsSDsnqXslaAgKENpcmNhZGlhbiBSaHl0aG0gU2xlZXAtV2FrZSBEaXNvcmRlcikubWQ",
+          "title": "일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDqtIDroKgg7J6l7JWgIChTbGVlcC1XYWtlIERpc29yZGVycykubWQ"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yekOq3ueygnCAoU3RpbXVsYW50cykubWQ",
+          "title": "자극제 (Stimulants)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yekO2PkCDsiqTtjpntirjrn7wg7J6l7JWgIChBdXRpc20gU3BlY3RydW0gRGlzb3JkZXIpLm1k",
+          "title": "자폐 스펙트럼 장애 (Autism Spectrum Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yGjOyVhCDsoJXsi6Ag7J2Y7ZWZIChDaGlsZCBhbmQgQWRvbGVzY2VudCBQc3ljaGlhdHJpYyBEaXNvcmRlcnMpLm1k"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggeuMgOyggSDrsJjtla0g7J6l7JWgIChPcHBvc2l0aW9uYWwgRGVmaWFudCBEaXNvcmRlcikubWQ",
+          "title": "적대적 반항 장애 (Oppositional Defiant Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2MjOq0tOyggSDstqnrj5kg7KGw7KCIIOuwjyDtlonrj5kg7J6l7JWgIChEaXNydXB0aXZlLCBJbXB1bHNlLUNvbnRyb2wsIGFuZCBDb25kdWN0IERpc29yZGVycykubWQ"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggeydkSDsnqXslaAgKEFkanVzdG1lbnQgRGlzb3JkZXIpLm1k",
+          "title": "적응 장애 (Adjustment Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDrsI8g7Iqk7Yq466CI7IqkIOq0gOugqCDsnqXslaAgKFRyYXVtYS0gYW5kIFN0cmVzc29yLVJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghOuRkOy4oeuRkOyXvSDsuZjrp6QgKEZyb250b3RlbXBvcmFsIERlbWVudGlhKS5tZA",
+          "title": "전두측두엽 치매 (Frontotemporal Dementia)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyduOyngOyepeyVoCAoTmV1cm9jb2duaXRpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghO2ZmCDsnqXslaAgKENvbnZlcnNpb24gRGlzb3JkZXIpLm1k",
+          "title": "전환 장애 (Conversion Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytCDspp3sg4Eg67CPIOq0gOugqCDsnqXslaAgKFNvbWF0aWMgU3ltcHRvbSBhbmQgUmVsYXRlZCBEaXNvcmRlcnMpLm1k"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ygleyDgSDslaDrj4Qg67CY7J2RIChCZXJlYXZlbWVudCkubWQ",
+          "title": "정상 애도 반응 (Bereavement)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOu2hCDsnqXslaAgKEJpcG9sYXIgYW5kIFJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ",
+          "title": "조현병 (Schizophrenia)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSDsiqTtjpntirjrn7wg7J6l7JWgIChTY2hpem9waHJlbmlhIFNwZWN0cnVtIGFuZCBPdGhlciBQc3ljaG90aWMgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOyWkeyDgeyepeyVoCAoU2NoaXpvcGhyZW5pZm9ybSBkaXNvcmRlcikubWQ",
+          "title": "조현양상장애 (Schizophreniform disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSDsiqTtjpntirjrn7wg7J6l7JWgIChTY2hpem9waHJlbmlhIFNwZWN0cnVtIGFuZCBPdGhlciBQc3ljaG90aWMgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOygleuPmeyepeyVoCAoU2NoaXpvYWZmZWN0aXZlIGRpc29yZGVyKS5tZA",
+          "title": "조현정동장애 (Schizoaffective disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSDsiqTtjpntirjrn7wg7J6l7JWgIChTY2hpem9waHJlbmlhIFNwZWN0cnVtIGFuZCBPdGhlciBQc3ljaG90aWMgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA",
+          "title": "주요 우울 장애 (Major Depressive Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOu2hCDsnqXslaAgKEJpcG9sYXIgYW5kIFJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOydmOugpSDqsrDtlY0g6rO864ukIO2WieuPmSDsnqXslaAgKEFESEQpLm1k",
+          "title": "주의력 결핍 과다 행동 장애 (ADHD)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yGjOyVhCDsoJXsi6Ag7J2Y7ZWZIChDaGlsZCBhbmQgQWRvbGVzY2VudCBQc3ljaGlhdHJpYyBEaXNvcmRlcnMpLm1k"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yngOyggSDsnqXslaAgKEludGVsbGVjdHVhbCBEaXNhYmlsaXR5KS5tZA",
+          "title": "지적 장애 (Intellectual Disability)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yGjOyVhCDsoJXsi6Ag7J2Y7ZWZIChDaGlsZCBhbmQgQWRvbGVzY2VudCBQc3ljaGlhdHJpYyBEaXNvcmRlcnMpLm1k"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ynhOygleygnCwg7IiY66m07KCcIChTZWRhdGl2ZXMsIEh5cG5vdGljcykubWQ",
+          "title": "진정제, 수면제 (Sedatives, Hypnotics)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yniOuzkSDrtojslYgg7J6l7JWgIChJbGxuZXNzIEFueGlldHkgRGlzb3JkZXIpLm1k",
+          "title": "질병 불안 장애 (Illness Anxiety Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytCDspp3sg4Eg67CPIOq0gOugqCDsnqXslaAgKFNvbWF0aWMgU3ltcHRvbSBhbmQgUmVsYXRlZCBEaXNvcmRlcnMpLm1k"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2KueyglSDqs7Xtj6zspp0gKFNwZWNpZmljIFBob2JpYSkubWQ",
+          "title": "특정 공포증 (Specific Phobia)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOyViCDsnqXslaAgKEFueGlldHkgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2KueyglSDtlZnsirUg7J6l7JWgIChTcGVjaWZpYyBMZWFybmluZyBEaXNvcmRlcikubWQ",
+          "title": "특정 학습 장애 (Specific Learning Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yGjOyVhCDsoJXsi6Ag7J2Y7ZWZIChDaGlsZCBhbmQgQWRvbGVzY2VudCBQc3ljaGlhdHJpYyBEaXNvcmRlcnMpLm1k"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2LsSDsnqXslaAgKFRpYyBEaXNvcmRlcikubWQ",
+          "title": "틱 장애 (Tic Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yGjOyVhCDsoJXsi6Ag7J2Y7ZWZIChDaGlsZCBhbmQgQWRvbGVzY2VudCBQc3ljaGlhdHJpYyBEaXNvcmRlcnMpLm1k"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2MjOq0tOyggSDquLDrtoQg7KGw7KCIIOu2gOyghCDsnqXslaAgKERpc3J1cHRpdmUgTW9vZCBEeXNyZWd1bGF0aW9uIERpc29yZGVyKS5tZA",
+          "title": "파괴적 기분 조절 부전 장애 (Disruptive Mood Dysregulation Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yGjOyVhCDsoJXsi6Ag7J2Y7ZWZIChDaGlsZCBhbmQgQWRvbGVzY2VudCBQc3ljaGlhdHJpYyBEaXNvcmRlcnMpLm1k"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2SiO2WiSDsnqXslaAgKENvbmR1Y3QgRGlzb3JkZXIpLm1k",
+          "title": "품행 장애 (Conduct Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2MjOq0tOyggSDstqnrj5kg7KGw7KCIIOuwjyDtlonrj5kg7J6l7JWgIChEaXNydXB0aXZlLCBJbXB1bHNlLUNvbnRyb2wsIGFuZCBDb25kdWN0IERpc29yZGVycykubWQ"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VmOyngCDrtojslYgg7Kad7ZuE6rWwIChSZXN0bGVzcyBMZWcgU3luZHJvbWUpLm1k",
+          "title": "하지 불안 증후군 (Restless Leg Syndrome)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDqtIDroKgg7J6l7JWgIChTbGVlcC1XYWtlIERpc29yZGVycykubWQ"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VtOumrOyEsSDquLDslrUg7IOB7IukIChEaXNzb2NpYXRpdmUgQW1uZXNpYSkubWQ",
+          "title": "해리성 기억 상실 (Dissociative Amnesia)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDrsI8g7Iqk7Yq466CI7IqkIOq0gOugqCDsnqXslaAgKFRyYXVtYS0gYW5kIFN0cmVzc29yLVJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VtOumrOyEsSDrkZTso7wgKERpc3NvY2lhdGl2ZSBGdWd1ZSkubWQ",
+          "title": "해리성 둔주 (Dissociative Fugue)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDrsI8g7Iqk7Yq466CI7IqkIOq0gOugqCDsnqXslaAgKFRyYXVtYS0gYW5kIFN0cmVzc29yLVJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VtOumrOyEsSDso7zssrQg7J6l7JWgIChEaXNzb2NpYXRpdmUgSWRlbnRpdHkgRGlzb3JkZXIpLm1k",
+          "title": "해리성 주체 장애 (Dissociative Identity Disorder)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDrsI8g7Iqk7Yq466CI7IqkIOq0gOugqCDsnqXslaAgKFRyYXVtYS0gYW5kIFN0cmVzc29yLVJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2YiOq0gOyEsSDsuZjrp6QgKFZhc2N1bGFyIERlbWVudGlhKS5tZA",
+          "title": "혈관성 치매 (Vascular Dementia)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyduOyngOyepeyVoCAoTmV1cm9jb2duaXRpdmUgRGlzb3JkZXJzKS5tZA"
+        },
+        {
+          "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2cmOuwnOyEsSDrrLzsp4ggKFZvbGF0aWxlIHN1YnN0YW5jZXMpLm1k",
+          "title": "휘발성 물질 (Volatile substances)",
+          "parentSlug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA"
+        }
+      ]
+    },
+    {
+      "family": "diabetes",
+      "count": 13,
+      "roots": [
+        {
+          "slug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k",
+          "title": "당뇨병 (Diabetes Mellitus)"
+        },
+        {
+          "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64u564eo67ORIChEaWFiZXRlcyBNZWxsaXR1cykubWQ",
+          "title": "당뇨병 (Diabetes Mellitus)"
+        }
+      ],
+      "children": [
+        {
+          "slug": "MDQg64K067aE67mEL-qzoOyCvO2IrOyVleyEsSDqs6DtmIjri7kg7IOB7YOcIChISFMpIChIeXBlcm9zbW9sYXIgSHlwZXJnbHljZW1pYyBTdGF0ZSkubWQ",
+          "title": "고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)",
+          "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+        },
+        {
+          "slug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDrp53rp4nrs5Hspp0gKERpYWJldGljIFJldGlub3BhdGh5KS5tZA",
+          "title": "당뇨병성 망막병증 (Diabetic Retinopathy)",
+          "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+        },
+        {
+          "slug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k",
+          "title": "당뇨병성 신경병증 (Diabetic Neuropathy)",
+          "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+        },
+        {
+          "slug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsobHrtoDsp4jtmZgubWQ",
+          "title": "당뇨병성 족부질환",
+          "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+        },
+        {
+          "slug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ",
+          "title": "당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)",
+          "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+        },
+        {
+          "slug": "MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA",
+          "title": "당뇨병성 콩팥병증 (Diabetic Nephropathy)",
+          "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+        },
+        {
+          "slug": "MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA",
+          "title": "저혈당 (Hypoglycemia)",
+          "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+        },
+        {
+          "slug": "MDQg64K067aE67mEL-ygnDHtmJUg64u564eo67ORIChUeXBlIDEgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k",
+          "title": "제1형 당뇨병 (Type 1 Diabetes Mellitus)",
+          "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+        },
+        {
+          "slug": "MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k",
+          "title": "제2형 당뇨병 (Type 2 Diabetes Mellitus)",
+          "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+        },
+        {
+          "slug": "MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA",
+          "title": "임신성 당뇨병 (Gestational Diabetes Mellitus)",
+          "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+        },
+        {
+          "slug": "MTgg7JWI6rO8L-uLueuHqOunneunieuzkeymnSAoZGlhYmV0aWMgcmV0aW5vcGF0aHkpLm1k",
+          "title": "당뇨망막병증 (diabetic retinopathy)",
+          "parentSlug": "MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
+        }
+      ]
+    },
+    {
+      "family": "asthma",
+      "count": 4,
+      "roots": [
+        {
+          "slug": "MDIg7Zi47Z2h6riwL-yynOyLnS5tZA",
+          "title": "천식"
+        }
+      ],
+      "children": [
+        {
+          "slug": "MDIg7Zi47Z2h6riwL-yVhOyKpO2UvOumsCDqs7zrr7zshLEg7LKc7IudLm1k",
+          "title": "아스피린 과민성 천식",
+          "parentSlug": "MDIg7Zi47Z2h6riwL-yynOyLnS5tZA"
+        },
+        {
+          "slug": "MDIg7Zi47Z2h6riwL-yatOuPmSDsnKDrsJwg7LKc7IudIChFeGVyY2lzZS1JbmR1Y2VkIEFzdGhtYSkubWQ",
+          "title": "운동 유발 천식 (Exercise-Induced Asthma)",
+          "parentSlug": "MDIg7Zi47Z2h6riwL-yynOyLnS5tZA"
+        },
+        {
+          "slug": "MDIg7Zi47Z2h6riwL-yngeyXheyEsSDsspzsi50gKE9jY3VwYXRpb25hbCBBc3RobWEpLm1k",
+          "title": "직업성 천식 (Occupational Asthma)",
+          "parentSlug": "MDIg7Zi47Z2h6riwL-yynOyLnS5tZA"
+        }
+      ]
+    },
+    {
+      "family": "hypertension",
+      "count": 4,
+      "roots": [
+        {
+          "slug": "MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA",
+          "title": "고혈압 (Hypertension)"
+        }
+      ],
+      "children": [
+        {
+          "slug": "MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k",
+          "title": "신혈관성 고혈압 (Renovascular Hypertension)",
+          "parentSlug": "MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA"
+        },
+        {
+          "slug": "MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA",
+          "title": "임신성고혈압 (Gestational Hypertension)",
+          "parentSlug": "MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA"
+        },
+        {
+          "slug": "MTgg7JWI6rO8L-qzoO2YiOyVleunneunieuzkeymnSAoaHlwZXJ0ZW5zaXZlIHJldGlub3BhdGh5KS5tZA",
+          "title": "고혈압망막병증 (hypertensive retinopathy)",
+          "parentSlug": "MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA"
+        }
+      ]
+    },
+    {
+      "family": "copd",
+      "count": 2,
+      "roots": [
+        {
+          "slug": "MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ",
+          "title": "만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease)"
+        }
+      ],
+      "children": [
+        {
+          "slug": "MDIg7Zi47Z2h6riwL0NPUETsnZgg6riJ7ISxIOyVhe2ZlCAoQWN1dGUgRXhhY2VyYmF0aW9uIG9mIENPUEQpLm1k",
+          "title": "COPD의 급성 악화 (Acute Exacerbation of COPD)",
+          "parentSlug": "MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ"
+        }
+      ]
+    },
+    {
+      "family": "heart_failure",
+      "count": 2,
+      "roots": [
+        {
+          "slug": "MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDqsJDshowpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBSZWR1Y2VkIEVqZWN0aW9uIEZyYWN0aW9uIChIRnJFRikpLm1k",
+          "title": "만성 심부전 (박출률 감소) (Chronic Heart Failure with Reduced Ejection Fraction (HFrEF))"
+        },
+        {
+          "slug": "MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDrs7TsobQpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBQcmVzZXJ2ZWQgRWplY3Rpb24gRnJhY3Rpb24gKEhGcEVGKSkubWQ",
+          "title": "만성 심부전 (박출률 보존) (Chronic Heart Failure with Preserved Ejection Fraction (HFpEF))"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "urinary_tract_infection",
+      "count": 2,
+      "roots": [
+        {
+          "slug": "MDUg7Iug7J6lL-q4ieyEsSDrsKnqtJHsl7wgKEFjdXRlIEN5c3RpdGlzKS5tZA",
+          "title": "급성 방광염 (Acute Cystitis)"
+        },
+        {
+          "slug": "MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA",
+          "title": "급성 신우신염 (Acute Pyelonephritis)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "anaphylaxis",
+      "count": 1,
+      "roots": [],
+      "children": [
+        {
+          "slug": "MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k",
+          "title": "아나필락시스 (Anaphylaxis)",
+          "parentSlug": "MDYg7JWM66CI66W06riwL1R5cGUgSS5tZA"
+        }
+      ]
+    },
+    {
+      "family": "atrial_fibrillation",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k",
+          "title": "심방 조동-세동 (Atrial Flutter-Fibrillation)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "carbon_monoxide_poisoning",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MjEg7J2R6riJ7J2Y7ZWZL-ydvOyCsO2ZlO2DhOyGjCDspJHrj4UgKENhcmJvbiBNb25veGlkZSBQb2lzb25pbmcpLm1k",
+          "title": "일산화탄소 중독 (Carbon Monoxide Poisoning)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "ckd",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k",
+          "title": "만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD))"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "cold_injury",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MjEg7J2R6riJ7J2Y7ZWZL-2VnOuereyGkOyDgSAoQ29sZCBJbmp1cnkpLm1k",
+          "title": "한랭손상 (Cold Injury)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "coronary_artery_disease",
+      "count": 1,
+      "roots": [],
+      "children": [
+        {
+          "slug": "MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k",
+          "title": "급성 관상동맥 증후군 (ACS)",
+          "parentSlug": "MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ"
+        }
+      ]
+    },
+    {
+      "family": "drowning",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MjEg7J2R6riJ7J2Y7ZWZL-ydteyImCAoRHJvd25pbmcpLm1k",
+          "title": "익수 (Drowning)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "dyslipidemia",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA",
+          "title": "이상지질혈증 (Dyslipidemia)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "gerd",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsi53rj4Qg7Jet66WYIOyniO2ZmCAoR0VSRCkgKEdhc3Ryb2Vzb3BoYWdlYWwgUmVmbHV4IERpc2Vhc2UpLm1k",
+          "title": "위식도 역류 질환 (GERD) (Gastroesophageal Reflux Disease)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "gout",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ",
+          "title": "통풍 (Gout)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "heat_illness",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yXtOyniO2ZmCAoSGVhdCBJbGxuZXNzKS5tZA",
+          "title": "열질환 (Heat Illness)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "hyperthyroidism",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ",
+          "title": "갑상샘 기능항진증 (Hyperthyroidism)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "hypothyroidism",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA",
+          "title": "갑상샘 기능저하증 (Hypothyroidism)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "osteoarthritis",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MDcg66WY66eI7Yuw7IqkL-qzqOq0gOygiOyXvCAoT3N0ZW9hcnRocml0aXMpLm1k",
+          "title": "골관절염 (Osteoarthritis)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "osteoporosis",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA",
+          "title": "골다공증 (Osteoporosis)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "pneumonia",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MDIg7Zi47Z2h6riwL-2PkOugtC5tZA",
+          "title": "폐렴"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "poisoning",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA",
+          "title": "급성 중독 총론 (General Management of Acute Poisoning)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "pulmonary_embolism",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA",
+          "title": "폐색전증 (Pulmonary Embolism)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "sepsis",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA",
+          "title": "패혈증 (Sepsis)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "shock",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k",
+          "title": "쇼크 (Shock)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "stroke",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k",
+          "title": "허혈성 뇌졸중 (Ischemic stroke)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "trauma",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MjEg7J2R6riJ7J2Y7ZWZL-uLpOuwnOyZuOyDgSAoUG9seXRyYXVtYSkubWQ",
+          "title": "다발외상 (Polytrauma)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "upper_gi_bleeding",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MTEg7Jm46rO8L-ychOyepeq0gCDstpztmIggKEdhc3Ryb2ludGVzdGluYWwgQmxlZWRpbmcpLm1k",
+          "title": "위장관 출혈 (Gastrointestinal Bleeding)"
+        }
+      ],
+      "children": []
+    },
+    {
+      "family": "wounds",
+      "count": 1,
+      "roots": [
+        {
+          "slug": "MjEg7J2R6riJ7J2Y7ZWZL-ywveyDgSDrsI8g7Je07IOBIChXb3VuZHMgYW5kIExhY2VyYXRpb25zKS5tZA",
+          "title": "창상 및 열상 (Wounds and Lacerations)"
+        }
+      ],
+      "children": []
+    }
+  ]
+}

@@ -5,7 +5,8 @@ aliases: []
 - disease
 계통: 호흡기
 분류:
-- ILD – 직업성
+- ILD
+- 직업성
 CC:
 - 호흡곤란
 - 기침

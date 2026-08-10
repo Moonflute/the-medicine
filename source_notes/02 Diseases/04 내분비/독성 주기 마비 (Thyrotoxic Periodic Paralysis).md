@@ -5,7 +5,7 @@ aliases: []
 - disease
 계통: 내분비
 분류:
-- 갑상샘
+- 갑상샘 질환
 CC:
 - 근력/감각이상
 preprocessing_required: x

@@ -5,7 +5,8 @@ aliases:
 - disease
 계통: 산과
 분류:
-- 산과
+- 분만
+- 조산
 CC:
 - 출혈
 preprocessing_required: x

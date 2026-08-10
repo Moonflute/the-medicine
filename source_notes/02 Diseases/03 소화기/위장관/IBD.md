@@ -1,5 +1,7 @@
 ---
 aliases: []
+document_role: compatibility
+canonical_disease: 염증성 장질환 (IBD) (Inflammatory Bowel Disease)
 유형:
 - disease
 계통: 소화기

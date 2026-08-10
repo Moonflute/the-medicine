@@ -15,8 +15,18 @@ clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 content_updated_at: "2026-07-30"
+document_role: "group_overview"
+group_members:
+- "불면 장애 (Insomnia Disorder)"
+- "과수면 장애 (Hypersomnolence Disorder)"
+- "기면증 (Narcolepsy)"
+- "수면 무호흡증 (Sleep Apnea Syndrome)"
+- "렘수면 행동 장애 (REM Sleep Behavior Disorder)"
+- "비렘수면 행동 장애 (NREM Sleep Behavior Disorder)"
+- "악몽 (Nightmare)"
+- "일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)"
+- "하지 불안 증후군 (Restless Leg Syndrome)"
 ---
-document_role: hub
 ## 1. 개요
 - 정의**: 수면의 질, 양, 시간의 문제로 인해 낮 동안의 기능 저하를 동반하는 다양한 질환군.
 - 원인**: 생물학적 요인(신경퇴행성 질환, 도파민/철분 대사 이상), 환경적 요인(교대 근무, 시차), 심리적 요인(불안, 우울).
@@ -54,4 +64,3 @@ document_role: hub
 - [[악몽 (Nightmare)]]
 - [[일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)]]
 - [[하지 불안 증후군 (Restless Leg Syndrome)]]
-

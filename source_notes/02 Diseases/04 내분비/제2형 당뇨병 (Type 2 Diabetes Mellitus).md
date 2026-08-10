@@ -5,7 +5,7 @@ aliases:
 - disease
 계통: 내분비
 분류:
-- 당
+- 당 질환
 - 당뇨병
 clinical_priority: "tier_2"
 content_updated_at: '2026-07-14'

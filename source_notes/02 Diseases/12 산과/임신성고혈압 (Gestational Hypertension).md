@@ -26,6 +26,12 @@ relation_to_parent: special_population
 population: pregnancy
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
+document_role: "group_overview"
+group_members:
+- "전자간증 (Preeclampsia)"
+- "중증 전자간증 (Severe Pre-eclampsia)"
+- "자간증 (Eclampsia)"
+- "HELLP 증후군 (HELLP Syndrome)"
 ---
 
 ## 1. 개요

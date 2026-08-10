@@ -7,6 +7,7 @@ relation_to_parent: acute_exacerbation
 - disease
 계통: 호흡기
 분류:
+- 기도폐쇄질환
 - COPD
 CC:
 - 호흡곤란

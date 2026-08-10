@@ -5,6 +5,8 @@ aliases:
 - 접촉 피부염
 관련분과:
 - 알레르기
+parent_disease: Type IV
+relation_to_parent: delayed_hypersensitivity
 유형:
 - disease
 계통: 피부과

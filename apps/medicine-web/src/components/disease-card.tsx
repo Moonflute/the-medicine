@@ -70,7 +70,6 @@ export function DiseaseCard({
         <div className="flex items-start justify-between gap-4">
           <div className="min-w-0">
             <div className="eyebrow">{note.specialty}</div>
-            {note.groupOverview ? <div className="mt-2 inline-flex rounded-full border border-teal-200 bg-teal-50 px-2.5 py-1 text-xs font-semibold text-teal-800">질환군 개요 · 구성 질환 {note.groupOverview.memberTitles.length}개</div> : null}
             <h2 className="mt-2 text-2xl font-semibold text-slate-950 sm:text-3xl">{displayTitle}</h2>
             {note.definition ? <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-700">{note.definition}</p> : null}
             {!compact ? (

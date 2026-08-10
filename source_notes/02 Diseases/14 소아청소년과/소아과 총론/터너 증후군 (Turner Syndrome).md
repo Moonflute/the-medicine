@@ -2,8 +2,6 @@
 content_updated_at: "2026-07-30"
 aliases:
 - turner syndrome
-관련분과:
-- 부인과
 유형:
 - disease
 계통: 소아청소년과

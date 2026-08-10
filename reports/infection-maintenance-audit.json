@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-07-29T15:53:20.477Z",
+  "generatedAt": "2026-08-10T18:26:44.848Z",
   "summary": {
-    "pathways": 19,
+    "pathways": 39,
     "verifiedPathways": 16,
-    "hiddenFromClinicalUi": 3,
+    "visibleInClinicalUi": 39,
+    "hiddenFromClinicalUi": 0,
     "reviewedQuizQuestions": 30,
     "organisms": 22,
     "organismNotesLinked": 0,
@@ -13,29 +14,7 @@
     "missingAntibiotics": [],
     "missingOrganisms": []
   },
-  "hiddenPathways": [
-    {
-      "id": "adult-infective-endocarditis",
-      "status": "reviewed",
-      "sourceIds": [
-        "idsa-endocarditis-2015"
-      ]
-    },
-    {
-      "id": "adult-native-vertebral-osteomyelitis",
-      "status": "reviewed",
-      "sourceIds": [
-        "idsa-nvo-2015"
-      ]
-    },
-    {
-      "id": "catheter-related-bloodstream-infection",
-      "status": "reviewed",
-      "sourceIds": [
-        "idsa-crbsi-2009"
-      ]
-    }
-  ],
+  "hiddenPathways": [],
   "sourceReviewDue": [
     {
       "id": "idsa-cap-2019",
@@ -153,6 +132,11 @@
       "usedByVerifiedPathways": [
         "adult-group-a-streptococcal-pharyngitis"
       ]
+    },
+    {
+      "id": "idsa-infectious-diarrhea",
+      "year": "2017",
+      "usedByVerifiedPathways": []
     }
   ]
 }

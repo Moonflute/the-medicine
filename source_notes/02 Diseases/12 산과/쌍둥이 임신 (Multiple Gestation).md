@@ -6,7 +6,7 @@ aliases:
 - disease
 계통: 산과
 분류:
-- 산과
+- 쌍둥이 임신
 CC:
 - 검진 이상
 preprocessing_required: x
@@ -14,6 +14,10 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+document_role: "group_overview"
+group_members:
+- "단일 양막성 쌍태 임신 (Monoamniotic Twins)"
+- "쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)"
 ---
 분과 : [[산과]]
 

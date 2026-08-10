@@ -1,11 +1,19 @@
 ---
 content_updated_at: "2026-07-30"
 aliases: []
+document_role: group_overview
+group_members:
+- 복수 (간경변) (Ascites (Cirrhosis))
+- 간성 뇌증 (Hepatic Encephalopathy)
+- 간신 증후군 (Hepatorenal Syndrome)
+- 식도 정맥류 (Esophageal Varices)
+- 위 정맥류 (Gastric Varices)
+- 자발성 세균 복막염 (Spontaneous Bacterial Peritonitis)
 유형:
 - disease
 계통: 소화기 (간담췌)
 분류:
-- 간
+- 간 질환
 - 간경화
 CC:
 - 피로

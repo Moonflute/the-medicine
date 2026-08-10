@@ -8,7 +8,6 @@ aliases:
 - disease
 계통: 부인과
 분류:
-- 부인과
 - 피임
 CC:
 - 월경통

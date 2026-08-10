@@ -15,8 +15,13 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+document_role: "group_overview"
+group_members:
+- "경도 인지 장애 (Mild Cognitive Impairment)"
+- "섬망 (Delirium)"
+- "일과성 전체 기억 상실 (Transient Global Amnesia)"
+- "치매 (Dementia)"
 ---
-document_role: hub
 ## 1. 개요
 - 정의**: 인지 기능(기억력, 주의력, 언어, 시공간 능력, 실행 기능 등)의 이전 수준 대비 유의미한 저하가 나타나는 상태.
 - 원인**: 퇴행성 질환(알츠하이머병 등), 혈관성 질환, 감염(HIV 등), 외상, 약물, 대사성 질환 등 다양함.
@@ -52,4 +57,3 @@ document_role: hub
 - [[일과성 전체 기억 상실 (Transient Global Amnesia)]]
 - [[전두측두엽 치매 (Frontotemporal Dementia)]]
 - [[혈관성 치매 (Vascular Dementia)]]
-

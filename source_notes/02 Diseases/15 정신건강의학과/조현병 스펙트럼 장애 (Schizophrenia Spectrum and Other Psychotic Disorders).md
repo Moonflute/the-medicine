@@ -15,8 +15,15 @@ clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 content_updated_at: "2026-07-30"
+document_role: "group_overview"
+group_members:
+- "조현병 (Schizophrenia)"
+- "조현양상장애 (Schizophreniform disorder)"
+- "조현정동장애 (Schizoaffective disorder)"
+- "망상 장애 (Delusional disorder)"
+- "단기 정신병적 장애 (Brief psychotic disorder)"
+- "산후 정신병 (Postpartum psychosis)"
 ---
-document_role: hub
 ## 1. 개요
 - 정의**: 망상, 환각, 와해된 사고(언어), 와해된 행동, 음성 증상 중 하나 이상을 특징으로 하는 정신질환군을 의미함.
 - 원인**: 유전적 요인, 신경전달물질(도파민 과다 등)의 불균형, 뇌 구조적 이상, 환경적 스트레스 요인 등이 복합적으로 작용함.
@@ -51,4 +58,3 @@ document_role: hub
 - [[조현병 (Schizophrenia)]]
 - [[조현양상장애 (Schizophreniform disorder)]]
 - [[조현정동장애 (Schizoaffective disorder)]]
-

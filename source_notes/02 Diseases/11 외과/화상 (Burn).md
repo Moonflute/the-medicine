@@ -2,11 +2,16 @@
 content_updated_at: "2026-07-30"
 aliases:
 - 화상
+document_role: group_overview
+group_members:
+- 전기 화상 (Electrical Burn)
+- 화학물질화상 (Chemical Burn)
+- 흡입화상 (Inhalation Burn)
 유형:
 - disease
 계통: 외과
 분류:
-- 외상
+- 화상
 CC:
 - 물집
 - 피부 변화

@@ -6,7 +6,6 @@ aliases:
 - disease
 계통: 부인과
 분류:
-- 부인과
 - 불임
 CC:
 - 골반통

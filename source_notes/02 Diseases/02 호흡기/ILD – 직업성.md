@@ -6,7 +6,8 @@ updated: 2026-08-11
 - disease
 계통: 호흡기
 분류:
-- ILD – 직업성
+- ILD
+- 직업성
 CC: []
 preprocessing_required: x
 ---

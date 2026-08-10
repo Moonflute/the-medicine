@@ -15,6 +15,13 @@ review_status: "guideline_enriched"
 reviewed_at: "2026-07-30"
 guideline_year: "2023"
 sources: ["AHA/ASA Guideline for Spontaneous Intracerebral Hemorrhage (2022) | https://www.ahajournals.org/doi/10.1161/STR.0000000000000407", "AHA/ASA Guideline for Aneurysmal Subarachnoid Hemorrhage (2023) | https://www.ahajournals.org/doi/10.1161/STR.0000000000000436"]
+document_role: "group_overview"
+group_members:
+- "뇌내 출혈 (Intracerebral hemorrhage)"
+- "지주막하 출혈 (Subarachnoid hemorrhage)"
+- "경막외 출혈 (Epidural hemorrhage)"
+- "급성 경막하 출혈 (Acute subdural hematoma)"
+- "만성 경막하 출혈 (Chronic subdural hematoma)"
 ---
 ## 1. 개요
 - 출혈성 뇌졸중은 뇌내출혈과 지주막하출혈을 포함하며, 급격한 신경학적 악화와 높은 사망·장애 위험을 가진 응급 질환군이다.

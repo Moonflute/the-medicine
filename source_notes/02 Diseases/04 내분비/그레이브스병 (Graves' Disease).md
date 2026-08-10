@@ -2,11 +2,13 @@
 aliases: []
 관련분과:
 - 알레르기
+parent_disease: Type II
+relation_to_parent: receptor_stimulating_antibody
 유형:
 - disease
 계통: 내분비
 분류:
-- 갑상샘
+- 갑상샘 질환
 CC:
 - 체중감소/식욕부진
 - 피로

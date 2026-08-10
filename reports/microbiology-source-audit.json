@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-29T15:53:33.681Z",
-  "sourceCount": 25,
+  "generatedAt": "2026-08-10T18:26:45.315Z",
+  "sourceCount": 37,
   "entitiesWithNoTierA": [],
   "unknownSourceReferences": [],
   "entities": [
@@ -879,6 +879,446 @@
         "idsa-asm-lab-2024"
       ],
       "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "campylobacter-jejuni",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "salmonella-species",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "salmonella-typhi-paratyphi",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "shigella-species",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "stec-ehec",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "vibrio-vulnificus",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "vibrio-cholerae",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "vibrio-parahaemolyticus",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "yersinia-enterocolitica",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "nocardia-species",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "actinomyces-species",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "bacillus-cereus",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "bacillus-anthracis",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "clostridium-perfringens",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "clostridium-tetani",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "clostridium-botulinum",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "brucella-species",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "coxiella-burnetii",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "rickettsia-species",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "orientia-tsutsugamushi",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "chlamydia-psittaci",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "ureaplasma-species",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "mycoplasma-genitalium",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "bordetella-parapertussis",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "parainfluenza-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "rhinovirus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "hepatitis-e-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "hepatitis-d-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "parvovirus-b19",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "rabies-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "hantavirus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "sfts-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "dengue-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "zika-virus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "aspergillus-species",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "fusarium-species",
+      "sourceIds": [
+        "cdc-fungal",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "plasmodium-vivax",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "plasmodium-ovale",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "schistosoma-species",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "echinococcus-species",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "clonorchis-sinensis",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "hookworm",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "trichinella-spiralis",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "toxocara-species",
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 2,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "aeromonas-species",
+      "sourceIds": [
+        "ncbi-taxonomy",
+        "lpsn",
+        "idsa-asm-lab-2024"
+      ],
+      "tierACount": 3,
+      "unknownSourceIds": []
+    },
+    {
+      "id": "human-metapneumovirus",
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses"
+      ],
+      "tierACount": 3,
       "unknownSourceIds": []
     }
   ]

@@ -22,6 +22,15 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+document_role: "group_overview"
+group_members:
+- "교모세포종 (Glioblastoma)"
+- "뇌수막종 (Meningioma)"
+- "두개인두종 (Craniopharyngioma)"
+- "신경초종 (Schwannoma)"
+- "전이성 뇌종양 (Metastatic brain tumor)"
+- "혈관모세포종 (Hemangioblastoma)"
+- "뇌종양 관련 두통 (Headache due to brain tumor)"
 ---
 분과 : [[신경과-신경외과]]
 

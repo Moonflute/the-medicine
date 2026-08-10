@@ -5,7 +5,7 @@ aliases:
 - disease
 계통: 순환기
 분류:
-- 허혈성 심장질환
+- 허혈성 심질환
 CC:
 - 가슴 통증
 - 호흡곤란
@@ -17,6 +17,8 @@ guideline_year: '2023'
 sources:
 - '2023 ESC Guidelines for the Management of Acute Coronary Syndromes | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/'
 disease_family: coronary_artery_disease
+parent_disease: 허혈성 심질환
+relation_to_parent: acute_presentation
 population: adult
 ---
 

@@ -4,7 +4,7 @@ aliases: []
 - disease
 계통: 혈액내과
 분류:
-- 적혈구
+- 적혈구 질환
 CC:
 - 피로
 preprocessing_required: x

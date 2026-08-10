@@ -1,6 +1,7 @@
 ---
 aliases:
 - HTN
+document_role: group_overview
 유형:
 - disease
 계통: 순환기

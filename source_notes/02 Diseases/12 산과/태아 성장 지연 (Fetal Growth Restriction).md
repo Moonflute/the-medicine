@@ -5,7 +5,7 @@ aliases:
 - disease
 계통: 산과
 분류:
-- 산과
+- 임신중 태아 감시
 CC:
 - 성장 지연
 preprocessing_required: x

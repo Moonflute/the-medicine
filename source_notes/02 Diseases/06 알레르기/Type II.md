@@ -2,6 +2,9 @@
 aliases: []
 document_role: group_overview
 updated: 2026-08-11
+group_members:
+- 그레이브스병 (Graves' Disease)
+- 자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia)
 유형:
 - disease
 계통: 알레르기
@@ -24,9 +27,6 @@ preprocessing_required: x
 | 세포 파괴 | 적혈구 표면 항체에 따른 용혈 소견 | [[용혈성 빈혈 (Hemolytic Anemia)]] |
 | 수용체 자극 | TSH 수용체 자극에 따른 갑상샘 호르몬 과다 | [[그레이브스병 (Graves' Disease)]] |
 
-## 참고
-- [Merck Manual Professional: Overview of Allergic and Atopic Disorders](https://www.merckmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-disorders-and-transfusion-reactions/overview-of-allergic-and-atopic-disorders)
-
 ## 포함 질환
 - [[그레이브스병 (Graves' Disease)]]
-- [[용혈성 빈혈 (Hemolytic Anemia)]]
+- [[자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia)]]

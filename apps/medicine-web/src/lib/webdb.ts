@@ -170,10 +170,17 @@ export function getDiseasesBySpecialty(slug: string): DiseaseNote[] {
   if (!specialty) return [];
 
   const target = normalizeSpecialtyLabel(specialty.name);
-  return getAllDiseases().filter((note) => !isCompatibilityDisease(note) && (
+  const diseases = getAllDiseases().filter((note) => !isCompatibilityDisease(note));
+  const diseaseByTitle = new Map(diseases.map((note) => [note.title, note]));
+
+  return diseases.filter((note) => {
+    const parent = note.familyMeta?.parentDisease ? diseaseByTitle.get(note.familyMeta.parentDisease) : undefined;
+    return (
     note.specialty === specialty.name
     || note.relatedSpecialties?.some((item) => normalizeSpecialtyLabel(item) === target)
-  ));
+    || (parent ? normalizeSpecialtyLabel(parent.specialty) === target : false)
+    );
+  });
 }
 
 export function getDiseaseSearchIndex(): SearchEntry[] {

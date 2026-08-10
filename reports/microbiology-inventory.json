@@ -1,50 +1,48 @@
 {
-  "generatedAt": "2026-07-29T15:53:33.673Z",
-  "total": 85,
+  "generatedAt": "2026-08-10T18:26:45.296Z",
+  "total": 131,
   "byEntityKind": {
-    "organism": 57,
+    "organism": 103,
     "resistance_phenotype": 8,
     "clinical_group": 20
   },
   "byPathogenType": {
-    "bacterium": 47,
-    "virus": 19,
-    "fungus": 9,
-    "protozoan": 5,
-    "helminth": 4,
+    "bacterium": 72,
+    "virus": 30,
+    "fungus": 11,
+    "protozoan": 7,
+    "helminth": 10,
     "ectoparasite": 1
   },
   "byCategory": {
     "Atypical fungi": 1,
     "Dermatophyte": 1,
     "Dimorphic fungi": 2,
-    "G(+) 간균": 2,
+    "G(+) 간균": 4,
     "G(+) 구균": 10,
-    "G(-) 간균": 7,
-    "G(-) 구균·구간균": 6,
+    "G(-) 간균": 18,
+    "G(-) 구균·구간균": 7,
     "Herpesvirus": 4,
-    "Mold": 2,
+    "Mold": 4,
     "Mycobacteria": 2,
     "Retrovirus": 1,
     "Spirochetes": 3,
     "Yeast": 3,
-    "간염 바이러스": 3,
+    "간염 바이러스": 5,
     "내성 phenotype": 8,
-    "발진 바이러스": 3,
-    "비정형균": 5,
+    "발진 바이러스": 7,
+    "비정형균": 12,
     "선충": 1,
-    "연충 임상군": 2,
+    "연충 임상군": 8,
     "외부기생충": 1,
+    "원충": 7,
     "장관 바이러스": 3,
-    "장관 원충": 3,
-    "조직 원충": 1,
     "조충": 1,
-    "피부·점막 바이러스": 1,
-    "혈액 원충": 1,
-    "혐기성균": 4,
-    "호흡기 바이러스": 4
+    "피부·점막 바이러스": 2,
+    "혐기성균": 8,
+    "호흡기 바이러스": 8
   },
   "byReviewStatus": {
-    "source_checked": 85
+    "source_checked": 131
   }
 }

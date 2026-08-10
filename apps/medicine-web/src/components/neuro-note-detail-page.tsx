@@ -34,11 +34,6 @@ export function NeuroNoteDetailPage({ atlas, kind, id, diseaseHrefs }: Props) {
 
   if (kind === "structure") {
     const structure = item as NeuroAtlas["structures"][number];
-    structure.links = [...new Set([...structure.links, ...atlas.pathways.filter((pathway) => pathway.nodes?.includes(structure.id)).flatMap((pathway) => pathway.links), ...atlas.reflexes.filter((reflex) => reflex.route?.includes(structure.id)).flatMap((reflex) => diseasesForReflex(atlas, reflex.id))])];
-    const sharedViewDiseasesBeforeRender = atlas.structures.filter((candidate) => candidate.viewIds?.some((viewId) => structure.viewIds?.includes(viewId))).flatMap((candidate) => candidate.links);
-    structure.links = [...new Set([...structure.links, ...sharedViewDiseasesBeforeRender])];
-    const peripheralFallbackBeforeRender = Object.keys(diseaseHrefs).find((label) => label.includes("Diabetic Neuropathy"));
-    if (!structure.links.length && peripheralFallbackBeforeRender && /nerve|plexus|dermatome|myotome|muscle/.test(structure.id)) structure.links = [peripheralFallbackBeforeRender];
     return <Frame icon={icon} label="해부학 구조 노트" title={structure.en} subtitle={structure.ko} backHref="/nervous-system-hub?tab=notes"><NoteBody sections={structureNoteSections(atlas, structure)} diseases={structure.links} diseaseHrefs={diseaseHrefs} related={relatedStructures(atlas, structure.id)} atlasHref={`/nervous-system-hub?structure=${structure.id}`} /></Frame>;
   }
   if (kind === "pathway") {
@@ -53,24 +48,6 @@ export function NeuroNoteDetailPage({ atlas, kind, id, diseaseHrefs }: Props) {
   }
 
   const topic = item as NeuroAtlas["theoryTopics"][number];
-  if (topic.note) {
-    const topicNoteRelated = topic.note.related.map((entry) => atlas.structures.find((structure) => structure.id === entry.id)).filter((structure): structure is NeuroAtlas["structures"][number] => Boolean(structure));
-    const topicNoteSections: NeuroNoteSection[] = [
-      { heading: "\uD575\uC2EC \uAC1C\uB150", items: topic.note.anatomy },
-      { heading: "\uC774\uB860 \uC124\uBA85", items: topic.note.function },
-      { heading: "\uC784\uC0C1\uC801 \uC801\uC6A9", items: topic.note.clinical },
-      { heading: "\uAD00\uB828 \uAD6C\uC870", items: topic.note.related },
-    ];
-    return <Frame icon={icon} label={"\uC774\uB860 \uB178\uD2B8"} title={topic.title} subtitle={topic.category} backHref="/nervous-system-hub?tab=notes"><NoteBody sections={topicNoteSections} diseases={topic.note.diseases} diseaseHrefs={diseaseHrefs} related={topicNoteRelated} atlasHref={`/nervous-system-hub?view=${topic.viewId}`} /></Frame>;
-  }
-  const topicStructure = topic.itemId ? atlas.structures.find((structure) => structure.id === topic.itemId) : undefined;
-  const topicRelated = atlas.structures.filter((structure) => structure.id !== topic.itemId && structure.viewIds?.includes(topic.viewId)).slice(0, 12);
-  const topicDiseases = [...new Set([...(topicStructure?.links ?? []), ...topicRelated.flatMap((structure) => structure.links)])];
-  const topicSections: NeuroNoteSection[] = [
-    { heading: "\uD575\uC2EC \uAC1C\uB150", items: [{ text: topic.summary }, ...topic.keyPoints.map((text) => ({ text }))] },
-    ...(topic.sections ?? []).map((section) => ({ heading: section.heading, items: [{ text: section.body }] })),
-  ];
-  return <Frame icon={icon} label={"\uC774\uB860 \uB178\uD2B8"} title={topic.title} subtitle={topic.category} backHref="/nervous-system-hub?tab=notes"><NoteBody sections={topicSections} diseases={topicDiseases} diseaseHrefs={diseaseHrefs} related={topicRelated} atlasHref={`/nervous-system-hub?view=${topic.viewId}`} /></Frame>;
   return <Frame icon={icon} label="이론 노트" title={topic.title} subtitle={topic.category} backHref="/nervous-system-hub?tab=notes"><article className="space-y-8"><Section section={{ heading: "핵심 개념", items: [{ text: topic.summary }] }} />{topic.sections?.map((section) => <Section key={section.heading} section={{ heading: section.heading, items: [{ text: section.body }] }} />)}</article></Frame>;
 }
 

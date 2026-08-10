@@ -5,7 +5,9 @@ aliases:
 - disease
 계통: 알레르기
 분류:
-- 아나필락시스
+- Type I
+parent_disease: Type I
+relation_to_parent: immediate_hypersensitivity
 CC:
 - 두드러기
 - 호흡곤란

@@ -15,8 +15,20 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+document_role: "group_overview"
+group_members:
+- "알코올 사용 장애 (Alcohol Use Disorder)"
+- "알코올 금단 증후군 (Alcohol Withdrawal Syndrome)"
+- "알코올 금단 섬망 (Alcohol Withdrawal Delirium)"
+- "알코올 유발 정신병적 장애 (Alcohol-Induced Psychotic Disorder)"
+- "담배 (Tobacco)"
+- "대마 계 (Cannabis)"
+- "아편 유사제 (Opioids)"
+- "자극제 (Stimulants)"
+- "진정제, 수면제 (Sedatives, Hypnotics)"
+- "휘발성 물질 (Volatile substances)"
+- "베르니케-코르사코프 증후군 (Wernicke-Korsakoff Syndrome)"
 ---
-document_role: hub
 ## 1. 개요
 - 정의**: 물질의 과도한 사용으로 인해 뇌의 보상 체계가 변화하여 조절 능력을 상실하고, 일상생활 및 사회적 기능에 심각한 지장을 초래하는 상태.
 - 원인**: 유전적 요인, 환경적 스트레스, 심리적 외상, 동반 정신질환 등 복합적 요인.
@@ -56,4 +68,3 @@ document_role: hub
 - [[자극제 (Stimulants)]]
 - [[진정제, 수면제 (Sedatives, Hypnotics)]]
 - [[휘발성 물질 (Volatile substances)]]
-

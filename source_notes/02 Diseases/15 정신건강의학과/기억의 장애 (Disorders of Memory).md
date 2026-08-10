@@ -6,7 +6,8 @@ aliases:
 - disease
 계통: 정신건강의학과
 분류:
-- 정신건강의학과
+- 정신과 총론
+- 정신과적 장애
 CC:
 - 기억력 저하
 preprocessing_required: x

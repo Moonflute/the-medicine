@@ -2,11 +2,20 @@
 content_updated_at: "2026-07-30"
 aliases:
 - anemia
+document_role: group_overview
+group_members:
+- 철 결핍 빈혈 (Iron Deficiency Anemia)
+- 만성 질환 빈혈 (Anemia of Chronic Disease)
+- 거대적혈모구 빈혈 (Megaloblastic Anemia)
+- 악성 빈혈 (Pernicious Anemia)
+- 용혈성 빈혈 (Hemolytic Anemia)
+- 재생불량성 빈혈 (AA) (Aplastic Anemia (AA))
+- 지중해 빈혈 (Thalassemia)
 유형:
 - disease
 계통: 혈액내과
 분류:
-- 적혈구
+- 적혈구 질환
 - 빈혈
 CC:
 - 피로

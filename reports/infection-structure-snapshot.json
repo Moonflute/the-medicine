@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-29T15:53:20.473Z",
+  "generatedAt": "2026-08-10T18:26:44.842Z",
   "invariant": "Specialty > 감염의 원인균 중심 목차와 기존 Markdown 위치를 보존한다.",
-  "markdownCount": 83,
+  "markdownCount": 87,
   "files": [
     "가스 괴저 (Gas Gangrene).md",
     "간흡충증 (Clonorchiasis).md",
@@ -15,6 +15,7 @@
     "괴사성 근막염 (Necrotizing Fasciitis).md",
     "괴저병 (Gangrene).md",
     "기생충.md",
+    "기타 감염질환.md",
     "기타.md",
     "노카르디아증 (Nocardiosis).md",
     "녹농균 (Pseudomonas Aeruginosa).md",
@@ -53,6 +54,7 @@
     "요충증 (Enterobiasis).md",
     "원내감염.md",
     "원생돌물.md",
+    "원생동물.md",
     "이질 (Dysentery).md",
     "인플루엔자 (Influenza).md",
     "임균 감염 (Gonococcal Infection).md",
@@ -61,6 +63,7 @@
     "재귀열 (Relapsing Fever).md",
     "중동 호흡기 증후군 (MERS) (Middle East Respiratory Syndrome (MERS)).md",
     "중증열성 혈소판감소 증후군 (SFTS) (Severe Fever with Thrombocytopenia Syndrome (SFTS)).md",
+    "지역사회 감염.md",
     "지역사회.md",
     "지카바이러스 감염 (Zika Virus Infection).md",
     "진균.md",
@@ -79,6 +82,7 @@
     "폐포자충 폐렴 (Pneumocystis Pneumonia).md",
     "폐흡충증 (Paragonimiasis).md",
     "포도알균 (Staphylococcus).md",
+    "포도알균 감염 (Staphylococcal Infection).md",
     "푸르니에 괴저 (Fournier's Gangrene).md",
     "한센병 (Leprosy).md",
     "혐기성균 감염 (Anaerobic Bacteria Infection).md",
@@ -91,7 +95,7 @@
     "감염",
     "G(+)",
     "G(-)",
-    "기타",
+    "기타 감염질환",
     "혐기성균",
     "바이러스",
     "진균",
@@ -99,6 +103,6 @@
     "기생충",
     "발열",
     "원내감염",
-    "지역사회"
+    "지역사회 감염"
   ]
 }

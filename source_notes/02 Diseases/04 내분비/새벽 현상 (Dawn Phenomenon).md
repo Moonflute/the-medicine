@@ -5,7 +5,7 @@ aliases: []
 - disease
 계통: 내분비
 분류:
-- 당
+- 당 질환
 CC:
 - 검진 이상
 preprocessing_required: x

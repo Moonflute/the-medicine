@@ -6,7 +6,7 @@ aliases:
 - disease
 계통: 산과
 분류:
-- 내/외과적합병증
+- 임신 중 질환
 CC:
 - 구토
 preprocessing_required: x

@@ -1,11 +1,18 @@
 ---
 content_updated_at: "2026-07-30"
 aliases: []
+document_role: group_overview
+group_members:
+- 급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia)
+- 급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)
+- 급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)
+- 만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)
+- 만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)
 유형:
 - disease
 계통: 혈액내과
 분류:
-- 백혈구
+- 백혈구 질환
 - 백혈병
 관련분과:
 - 10 종양

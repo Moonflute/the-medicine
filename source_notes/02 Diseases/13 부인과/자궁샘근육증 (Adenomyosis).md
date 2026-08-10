@@ -8,7 +8,6 @@ canonical_disease: "자궁 샘근육증 (Uterine Adenomyosis)"
 - disease
 계통: 부인과
 분류:
-- 부인과
 - 자궁 질환
 CC:
 - 월경통

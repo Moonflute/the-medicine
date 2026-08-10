@@ -24,7 +24,7 @@ preprocessing_required: x
 | 표재성 피부 감염 | 경계가 뚜렷한 표재성 병변 대 더 깊고 넓게 퍼지는 연조직염 | [[단독 (Erysipelas)]], [[연조직염 (Cellulitis)]] |
 | 치명적 연조직 감염 | 극심한 통증·전신 독성·가스 형성 | [[괴사성 근막염 (Necrotizing Fasciitis)]], [[가스 괴저 (Gas Gangrene)]], [[푸르니에 괴저 (Fournier's Gangrene)]] |
 | 인두·신경계 | 인두통·발진, 식품·임신·면역저하와 연관된 침습 감염 | [[사슬알균 인두염 (Streptococcal Pharyngitis)]], [[리스테리아 (Listeria)]] |
-| 독소·포도알균 | 상처·피부 기원 및 독소매개 특징 | [[포도알균 (Staphylococcus)]], [[파상풍 (Tetanus)]] |
+| 독소·포도알균 | 상처·피부 기원 및 독소매개 특징 | [[포도알균 감염 (Staphylococcal Infection)]], [[파상풍 (Tetanus)]] |
 
 ## 참고
 - [CDC: Group A Strep](https://www.cdc.gov/group-a-strep/index.html)
@@ -37,5 +37,5 @@ preprocessing_required: x
 - [[사슬알균 인두염 (Streptococcal Pharyngitis)]]
 - [[연조직염 (Cellulitis)]]
 - [[파상풍 (Tetanus)]]
-- [[포도알균 (Staphylococcus)]]
+- [[포도알균 감염 (Staphylococcal Infection)]]
 - [[푸르니에 괴저 (Fournier's Gangrene)]]

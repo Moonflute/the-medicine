@@ -6,7 +6,7 @@ aliases:
 - disease
 계통: 외과
 분류:
-- 탈장및복벽질환
+- 탈장 및 복벽질환
 CC:
 - 검진 이상
 preprocessing_required: x

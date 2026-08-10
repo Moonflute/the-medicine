@@ -10,7 +10,6 @@ canonical_disease: "포상기태 (Molar Pregnancy)"
 - disease
 계통: 부인과
 분류:
-- 부인과
 - 부인과 종양
 - 임신성 융모 종양
 CC:

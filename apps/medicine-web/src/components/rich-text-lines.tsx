@@ -6,7 +6,8 @@ type BulletStyle = "plain" | "card";
 
 type ParsedBlock =
   | { type: "line"; line: string }
-  | { type: "group"; label: string; items: string[] };
+  | { type: "group"; label: string; items: string[] }
+  | { type: "table"; headers: string[]; rows: string[][] };
 
 const BULLET_PATTERN = /^(?:[-*]|[0-9]+\.)\s+/;
 
@@ -38,6 +39,24 @@ function stripBulletPrefix(text: string) {
 function isSpecialLine(text: string) {
   const trimmed = text.trim();
   return !trimmed || trimmed === "---" || trimmed.startsWith("### ") || trimmed.startsWith("#### ");
+}
+
+function isTableRow(text: string) {
+  const trimmed = text.trim();
+  return trimmed.startsWith("|") && trimmed.endsWith("|") && trimmed.split("|").length >= 3;
+}
+
+function isTableDivider(text: string) {
+  if (!isTableRow(text)) return false;
+  return text
+    .trim()
+    .slice(1, -1)
+    .split("|")
+    .every((cell) => /^:?-{3,}:?$/.test(cell.trim()));
+}
+
+function tableCells(text: string) {
+  return text.trim().slice(1, -1).split("|").map((cell) => cell.trim());
 }
 
 function normalizeLabelText(text: string) {
@@ -74,8 +93,23 @@ function parseBlocks(lines: string[], bulletStyle: BulletStyle): ParsedBlock[] {
     }
   };
 
-  for (const line of lines) {
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = lines[index];
     const trimmed = (typeof line === "string" ? line : String(line ?? "")).trim();
+
+    if (isTableRow(trimmed) && isTableDivider(String(lines[index + 1] ?? ""))) {
+      flushGroup();
+      const headers = tableCells(trimmed);
+      const rows: string[][] = [];
+      index += 2;
+      while (index < lines.length && isTableRow(String(lines[index]))) {
+        rows.push(tableCells(String(lines[index])));
+        index += 1;
+      }
+      index -= 1;
+      blocks.push({ type: "table", headers, rows });
+      continue;
+    }
 
     if (isSpecialLine(trimmed)) {
       flushGroup();
@@ -320,6 +354,35 @@ function renderGroup(label: string, items: string[], termLinks: TermLink[], wiki
   );
 }
 
+function renderTable(headers: string[], rows: string[][], termLinks: TermLink[], wikiLinks: TermLink[]) {
+  return (
+    <div className="overflow-x-auto rounded-lg border border-slate-200 bg-white">
+      <table className="min-w-full text-left text-[13px] leading-6">
+        <thead className="bg-slate-50 text-slate-700">
+          <tr>
+            {headers.map((header, index) => (
+              <th key={`${header}-${index}`} className="border-b border-slate-200 px-3 py-2 font-semibold whitespace-nowrap">
+                {renderInline(header, termLinks, wikiLinks)}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody className="text-slate-700">
+          {rows.map((row, rowIndex) => (
+            <tr key={`${row.join("-")}-${rowIndex}`} className="align-top">
+              {headers.map((_, columnIndex) => (
+                <td key={columnIndex} className="border-b border-slate-100 px-3 py-2 last:border-b-0">
+                  {renderInline(row[columnIndex] ?? "", termLinks, wikiLinks)}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 export function RichTextLines({
   lines,
   className = "space-y-2.5 text-sm text-slate-700",
@@ -341,11 +404,12 @@ export function RichTextLines({
         <div key={index}>
           {block.type === "group"
             ? renderGroup(block.label, block.items, termLinks, wikiLinks)
-            : renderLine(block.line, bulletStyle, termLinks, wikiLinks)}
+            : block.type === "table"
+              ? renderTable(block.headers, block.rows, termLinks, wikiLinks)
+              : renderLine(block.line, bulletStyle, termLinks, wikiLinks)}
         </div>
       ))}
     </div>
   );
 }
-
 

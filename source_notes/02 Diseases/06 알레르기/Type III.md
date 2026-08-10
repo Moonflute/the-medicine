@@ -25,9 +25,6 @@ preprocessing_required: x
 | 전신 자가면역·혈관염 | 다장기 자가면역 양상 대 혈관 침범 중심 양상 | [[전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))]], [[혈관염 (Vasculitis)]] |
 | 약물·이종 단백질 뒤 반응 | 노출 뒤 발열·발진·관절통의 시간 관계 | [[혈청병 (Serum Sickness)]] |
 
-## 참고
-- [Merck Manual Professional: Overview of Allergic and Atopic Disorders](https://www.merckmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-disorders-and-transfusion-reactions/overview-of-allergic-and-atopic-disorders)
-
 ## 포함 질환
 - [[연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis (PSGN))]]
 - [[전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))]]

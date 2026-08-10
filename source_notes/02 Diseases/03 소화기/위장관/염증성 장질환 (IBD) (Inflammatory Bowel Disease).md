@@ -3,6 +3,10 @@ content_updated_at: "2026-07-30"
 aliases:
 - IBD
 - inflammatory bowel disease
+document_role: group_overview
+group_members:
+- 크론병 (CD) (Crohn's Disease (CD))
+- 궤양성 대장염 (UC) (Ulcerative Colitis)
 유형:
 - disease
 계통: 소화기내과

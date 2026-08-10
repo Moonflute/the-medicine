@@ -7,6 +7,7 @@ aliases:
 계통: 산과
 분류:
 - 분만
+- 유도 분만
 CC:
 - 검진 이상
 preprocessing_required: x

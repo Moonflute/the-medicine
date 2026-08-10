@@ -2,6 +2,10 @@
 aliases: []
 document_role: group_overview
 updated: 2026-08-11
+group_members:
+- 접촉피부염 (Contact Dermatitis)
+- 스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))
+- 약물 발진 호산구증 및 전신 증상 (DRESS) (Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS))
 유형:
 - disease
 계통: 알레르기
@@ -23,9 +27,6 @@ preprocessing_required: x
 | --- | --- | --- |
 | 국소 지연성 반응 | 접촉 부위에 국한되고 노출과 일치하는 습진성 병변 | [[접촉 피부염 (Contact Dermatitis)]] |
 | 중증 약물 피부반응 | 점막·표피 손상 우세 대 호산구증가·내장 장기 침범 우세 | [[스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))]], [[약물 발진 호산구증 및 전신 증상 (DRESS) (Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS))]] |
-
-## 참고
-- [Merck Manual Professional: Drug Eruptions](https://www.merckmanuals.com/professional/dermatologic-disorders/hypersensitivity-and-inflammatory-skin-disorders/drug-eruptions)
 
 ## 포함 질환
 - [[스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))]]

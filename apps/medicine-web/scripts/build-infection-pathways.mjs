@@ -155,8 +155,8 @@ function main() {
   const output = { ...source, pathways };
   writeJson(OUTPUT_PATH, output);
   const snapshot = buildSnapshot();
-  const expectedToc = ["감염", "G(+)", "G(-)", "기타", "혐기성균", "바이러스", "진균", "원생동물", "기생충", "발열", "원내감염", "지역사회"];
-  assert(snapshot.markdownCount === 83, `Infection specialty structure changed: expected 83 Markdown notes, got ${snapshot.markdownCount}`);
+  const expectedToc = ["감염", "G(+)", "G(-)", "기타 감염질환", "혐기성균", "바이러스", "진균", "원생동물", "기생충", "발열", "원내감염", "지역사회 감염"];
+  assert(snapshot.markdownCount === 87, `Infection specialty structure changed: expected 87 Markdown notes, got ${snapshot.markdownCount}`);
   assert(JSON.stringify(snapshot.tocHeadings) === JSON.stringify(expectedToc), "Infection specialty pathogen-centered TOC order changed");
   writeJson(SNAPSHOT_PATH, snapshot);
   const currentYear = new Date().getUTCFullYear();

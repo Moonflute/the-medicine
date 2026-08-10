@@ -19,6 +19,12 @@ reviewed_at: "2026-07-30"
 응급의학_분류:
 - 외상 및 창상
 - 부위별 외상
+document_role: "group_overview"
+group_members:
+- "전 척수 증후군 (Anterior cord syndrome)"
+- "중심 척수 증후군 (Central cord syndrome)"
+- "후 척수 증후군 (Posterior cord syndrome)"
+- "Brown-Sequard 증후군 (Brown-Sequard syndrome)"
 ---
 분과 : [[신경과-신경외과]]
 

@@ -8899,24 +8899,6 @@
     {
       "sourceType": "microorganism",
       "sourceId": "influenza-virus",
-      "relation": "associated_with",
-      "targetType": "disease",
-      "targetId": "MTEg7Jm46rO8L-yduO2UjOujqOyXlOyekCAoSW5mbHVlbnphKS5tZA",
-      "context": [
-        "curated-title-match"
-      ],
-      "sourceIds": [
-        "ictv-taxonomy",
-        "idsa-asm-lab-2024",
-        "cdc-respiratory-viruses",
-        "cdc-vaccine-preventable"
-      ],
-      "reviewStatus": "source_checked",
-      "reviewedAt": "2026-07-29"
-    },
-    {
-      "sourceType": "microorganism",
-      "sourceId": "influenza-virus",
       "relation": "treated_with",
       "targetType": "drug",
       "targetId": "ZHJ1ZzowOCDqsJDsl7wvT3NlbHRhbWl2aXIubWQ",

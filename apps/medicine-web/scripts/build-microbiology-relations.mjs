@@ -20,6 +20,7 @@ function writeJson(filePath, value) {
 
 const microbiology = readJson(path.join(DATA_ROOT, "microorganisms.json"));
 const sourceRelations = readJson(path.join(SOURCE_ROOT, "microbiology-relations.json"));
+const curatedLinks = readJson(path.join(SOURCE_ROOT, "microbiology-curated-links.json"));
 const diseases = readJson(path.join(DATA_ROOT, "diseases.json"));
 const drugs = readJson(path.join(DATA_ROOT, "drugs.json"));
 const labs = readJson(path.join(DATA_ROOT, "lab-img.json"));
@@ -38,6 +39,49 @@ function addRelation(relation) {
   if (!relationMap.has(key)) relationMap.set(key, relation);
 }
 for (const relation of sourceRelations.relations) addRelation(relation);
+
+const entityById = new Map(microbiology.entities.map((entity) => [entity.id, entity]));
+const diseaseBySlug = new Map(diseases.map((disease) => [disease.slug, disease]));
+const drugByTitle = new Map(drugs.map((drug) => [drug.title.toLowerCase(), drug]));
+
+for (const link of curatedLinks.diseaseLinks) {
+  const entity = entityById.get(link.sourceId);
+  if (!entity) throw new Error(`Unknown curated microbiology entity: ${link.sourceId}`);
+  for (const targetSlug of link.targetSlugs) {
+    if (!diseaseBySlug.has(targetSlug)) throw new Error(`Unknown curated disease target: ${targetSlug}`);
+    addRelation({
+      sourceType: sourceType(entity),
+      sourceId: entity.id,
+      relation: "associated_with",
+      targetType: "disease",
+      targetId: targetSlug,
+      context: link.context,
+      sourceIds: link.sourceIds,
+      reviewStatus: "source_checked",
+      reviewedAt: curatedLinks.reviewedAt,
+    });
+  }
+}
+
+for (const link of curatedLinks.drugLinks) {
+  const entity = entityById.get(link.sourceId);
+  if (!entity) throw new Error(`Unknown curated microbiology entity: ${link.sourceId}`);
+  for (const targetTitle of link.targetTitles) {
+    const drug = drugByTitle.get(targetTitle.toLowerCase());
+    if (!drug) throw new Error(`Unknown curated drug target: ${targetTitle}`);
+    addRelation({
+      sourceType: sourceType(entity),
+      sourceId: entity.id,
+      relation: "treated_with",
+      targetType: "drug",
+      targetId: drug.slug,
+      context: link.context,
+      sourceIds: link.sourceIds,
+      reviewStatus: "source_checked",
+      reviewedAt: curatedLinks.reviewedAt,
+    });
+  }
+}
 
 const entityBySpectrumId = new Map();
 for (const entity of microbiology.entities) {

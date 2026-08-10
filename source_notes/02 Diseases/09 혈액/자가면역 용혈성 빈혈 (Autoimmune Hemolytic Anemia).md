@@ -1,10 +1,14 @@
 ---
 aliases: []
+관련분과:
+- 알레르기
+parent_disease: Type II
+relation_to_parent: antibody_mediated_cytotoxicity
 유형:
 - disease
 계통: 혈액내과
 분류:
-- 적혈구
+- 적혈구 질환
 - 빈혈
 CC:
 - 피로

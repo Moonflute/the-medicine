@@ -2,11 +2,22 @@
 content_updated_at: "2026-07-30"
 aliases:
 - hepatitis
+document_role: group_overview
+group_members:
+- 급성 A형 간염 (Acute Hepatitis A)
+- 급성 B형 간염 (Acute Hepatitis B)
+- 급성 C형 간염 (HCV) (Acute Hepatitis C)
+- 만성 B형 간염 (Chronic Hepatitis B (HBV))
+- 만성 C형 간염 (Chronic Hepatitis C (HCV))
+- D형 간염 (HDV) (Hepatitis D (HDV))
+- 자가면역 간염 (Autoimmune Hepatitis)
+- 독성 간염 (Toxic Hepatitis)
+- 전격성 간염 (Fulminant Hepatitis)
 유형:
 - disease
 계통: 소화기내과
 분류:
-- 간
+- 간 질환
 - 간염
 CC:
 - 황달

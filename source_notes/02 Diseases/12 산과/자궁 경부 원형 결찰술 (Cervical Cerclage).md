@@ -7,7 +7,8 @@ aliases:
 - disease
 계통: 산과
 분류:
-- 산과
+- 분만
+- 조산
 CC:
 - 검진 이상
 preprocessing_required: x

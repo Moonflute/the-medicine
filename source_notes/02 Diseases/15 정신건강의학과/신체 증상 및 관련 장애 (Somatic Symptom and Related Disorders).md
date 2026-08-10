@@ -16,8 +16,14 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+document_role: "group_overview"
+group_members:
+- "신체 증상 장애 (Somatic Symptom Disorder)"
+- "질병 불안 장애 (Illness Anxiety Disorder)"
+- "전환 장애 (Conversion Disorder)"
+- "인위성 장애 (Factitious Disorder)"
+- "꾀병 (Malingering)"
 ---
-document_role: hub
 ## 1. 개요
 - 정의**: 신체적 증상을 호소하지만, 이를 충분히 설명할 수 있는 의학적 질환이 없거나 증상에 비해 과도한 반응을 보이는 장애군.
 - 원인**: 생물학적 취약성, 심리적 요인(스트레스, 트라우마), 사회문화적 요인이 복합적으로 작용.
@@ -53,4 +59,3 @@ document_role: hub
 - [[인위성 장애 (Factitious Disorder)]]
 - [[전환 장애 (Conversion Disorder)]]
 - [[질병 불안 장애 (Illness Anxiety Disorder)]]
-

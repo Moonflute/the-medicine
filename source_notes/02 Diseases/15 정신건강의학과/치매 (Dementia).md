@@ -18,6 +18,12 @@ guideline_year: "2026"
 sources: ["Appropriate use recommendations of the Spanish Society of Neurology's Behavioural Neurology and Dementia Study Group on anti-amyloid antibodies in the treatment of Alzheimer disease. | https://pubmed.ncbi.nlm.nih.gov/42202980/"]
 
 content_updated_at: "2026-07-16"
+document_role: "group_overview"
+group_members:
+- "알츠하이머 치매 (Alzheimer's Disease)"
+- "혈관성 치매 (Vascular Dementia)"
+- "레비 소체 치매 (Dementia with Lewy Bodies)"
+- "전두측두엽 치매 (Frontotemporal Dementia)"
 ---
 분과 : [[정신건강의학과]]
 

@@ -8,6 +8,7 @@ relation_to_parent: trigger_induced
 - disease
 계통: 호흡기
 분류:
+- 기도폐쇄질환
 - 천식
 CC:
 - 쌕쌕거림

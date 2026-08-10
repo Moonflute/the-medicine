@@ -9,7 +9,6 @@ canonical_disease: "자궁근종 (Uterine Fibroids)"
 - disease
 계통: 부인과
 분류:
-- 부인과
 - 자궁 질환
 CC:
 - 출혈

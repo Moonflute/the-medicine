@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-29T15:53:33.685Z",
-  "relationCount": 986,
+  "generatedAt": "2026-08-10T18:26:45.319Z",
+  "relationCount": 1212,
   "byTargetType": {
-    "disease": 156,
-    "drug": 623,
-    "lab": 197,
+    "disease": 205,
+    "drug": 705,
+    "lab": 292,
     "microorganism": 2,
     "clinicalGroup": 8,
     "resistancePhenotype": 0
