@@ -15,7 +15,8 @@ related_diseases:
   - "urinary retention"
   - "saddle anesthesia"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sspnsiJgg7Jm47IOBIChTcGluYWwgY29yZCB0cmF1bWEpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

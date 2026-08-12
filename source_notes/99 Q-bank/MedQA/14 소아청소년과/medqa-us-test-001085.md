@@ -15,7 +15,8 @@ related_diseases:
   - "양측 후비공 폐쇄"
   - "Bilateral choanal atresia"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA64-Z66elIOy2leywqSAoQ29hcmN0YXRpb24gb2YgdGhlIEFvcnRhKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

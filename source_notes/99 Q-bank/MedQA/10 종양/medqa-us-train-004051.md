@@ -14,7 +14,8 @@ related_diseases:
   - "버벡 소체"
   - "골 병변"
   - "Langerhans cell histiocytosis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTAg7KKF7JaRL-uekeqyjOultO2VnOyKpCDshLjtj6wg7KGw7KeB6rWs7KadIChMYW5nZXJoYW5zIENlbGwgSGlzdGlvY3l0b3NpcykubWQ
 question_type: 임상증례 객관식
 difficulty: standard
 answer: C

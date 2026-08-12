@@ -15,7 +15,8 @@ related_diseases:
   - "자궁 내 노출"
   - "질벽 종괴"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yniCDsg4HtlLzrgrQg7KKF7JaRIChWYWdpbmFsIEludHJhZXBpdGhlbGlhbCBOZW9wbGFzaWEpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

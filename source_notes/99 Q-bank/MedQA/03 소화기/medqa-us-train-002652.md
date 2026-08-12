@@ -14,7 +14,8 @@ related_diseases:
   - "hepatic vein obstruction"
   - "hepatomegaly"
   - "ascites"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-uyhOuTnC3tgqTslYTrpqwg7Kad7ZuE6rWwIChCdWRkLUNoaWFyaSBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -16,7 +16,8 @@ related_diseases:
   - "약물 이상반응"
   - "Levodopa-induced psychosis"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjIztgqjsiqgg7Kad7ZuE6rWwIChQYXJraW5zb25pc20pLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

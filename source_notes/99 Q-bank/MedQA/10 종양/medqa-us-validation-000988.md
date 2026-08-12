@@ -13,7 +13,8 @@ related_diseases:
   - "암성 통증"
   - "오피오이드 내성"
   - "하이드로모르폰"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shoztmZTquLAg7JWULm1k
 question_type: management
 difficulty: complex
 answer: B

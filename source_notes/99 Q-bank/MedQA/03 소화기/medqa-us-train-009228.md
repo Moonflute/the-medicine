@@ -15,6 +15,7 @@ related_diseases:
   - "peptic ulcer disease"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si63snbTsp4DsnqUg6rak7JaRIChEdW9kZW5hbCBVbGNlcikubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -14,7 +14,8 @@ related_diseases:
   - "열상"
   - "Traumatic carotid artery injury"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2YiOq0gCDshpDsg4EubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

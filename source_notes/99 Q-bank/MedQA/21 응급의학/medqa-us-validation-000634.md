@@ -14,7 +14,8 @@ related_diseases:
   - "급성 혼돈 상태"
   - "신우신염"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JqU66GcIOqwkOyXvCAoVXJpbmFyeSBUcmFjdCBJbmZlY3Rpb24pLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

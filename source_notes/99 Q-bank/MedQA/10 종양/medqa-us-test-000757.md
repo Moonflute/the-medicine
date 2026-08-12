@@ -15,6 +15,7 @@ related_diseases:
   - "호지킨 림프종 치료"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-2YuOyngO2CqCDrprztlITsooUgKEhvZGdraW4gTHltcGhvbWEpLm1k
+  - MjAg67mE64eo6riw6rO8L-y2nO2YiOyEsSDrsKnqtJHsl7wgKEhlbW9ycmhhZ2ljIEN5c3RpdGlzKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: B

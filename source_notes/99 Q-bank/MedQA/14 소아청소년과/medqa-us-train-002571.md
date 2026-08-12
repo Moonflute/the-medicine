@@ -14,7 +14,8 @@ related_diseases:
   - "neonatal meningitis"
   - "lumbar puncture"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug7IOd7JWEIOuHjOyImOunieyXvCAoTmVvbmF0YWwgTWVuaW5naXRpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

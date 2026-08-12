@@ -16,7 +16,8 @@ related_diseases:
   - "penetrating chest trauma"
   - "Hemothorax"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2dieu2gCDsmbjsg4EubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

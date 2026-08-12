@@ -14,7 +14,8 @@ related_diseases:
   - "비루관 감염"
   - "눈물주머니 농양"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTgg7JWI6rO8L-qyieuLpOuemOuBvCAoZXh0ZXJuYWwgaG9yZGVvbHVtKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

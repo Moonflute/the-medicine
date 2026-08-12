@@ -15,7 +15,8 @@ related_diseases:
   - "소뇌성 운동실조"
   - "지시점 과오증"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

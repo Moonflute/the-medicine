@@ -16,6 +16,7 @@ related_diseases:
 question_type: mechanism
 related_disease_slugs:
   - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
+  - MjEg7J2R6riJ7J2Y7ZWZL-yXkO2LuOugjOq4gOumrOy9nCDspJHrj4UgKEV0aHlsZW5lIEdseWNvbCBQb2lzb25pbmcpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

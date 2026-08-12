@@ -14,7 +14,8 @@ related_diseases:
   - "비리단스 연쇄상구균"
   - "치성 감염"
   - "고리 조영 병변"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-y5mOyEsSDqsJDsl7wgKE9kb250b2dlbmljIEluZmVjdGlvbikubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

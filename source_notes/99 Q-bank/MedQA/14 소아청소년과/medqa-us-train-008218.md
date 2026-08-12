@@ -14,7 +14,9 @@ related_diseases:
   - "sexualized behavior"
   - "trauma"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yEseunpOqwnOqwkOyXvC5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JWE64-Z7ZWZ64yAIOuwjyDruYTsmrDrsJzsoIEg7IaQ7IOBLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

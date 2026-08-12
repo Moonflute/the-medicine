@@ -14,7 +14,9 @@ related_diseases:
   - "샤르코-마리-투스병"
   - "peripheral neuropathy"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sg6TrpbTsvZQt66eI66asLe2IrOyKpOuzkSAoQ2hhcmNvdC1NYXJpZS1Ub290aCBEaXNlYXNlKS5tZA
+  - MDkg7ZiI7JWhL-qzoOygkOuPhCDspp3tm4TqtbAgKEh5cGVydmlzY29zaXR5IFN5bmRyb21lKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

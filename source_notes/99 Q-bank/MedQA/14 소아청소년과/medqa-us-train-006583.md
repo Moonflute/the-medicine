@@ -14,7 +14,8 @@ related_diseases:
   - "혈우병 감별"
   - "응고검사"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEsg6rKw7ZWN7KadIChWaXRhbWluIEsgRGVmaWNpZW5jeSkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

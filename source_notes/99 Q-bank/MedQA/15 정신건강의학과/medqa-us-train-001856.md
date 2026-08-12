@@ -15,7 +15,10 @@ related_diseases:
   - "antipsychotic adverse effect"
   - "Tardive dyskinesia"
 question_type: adverse_effect
-related_disease_slugs: []
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
+  - MjEg7J2R6riJ7J2Y7ZWZL-2VnOuereyGkOyDgSAoQ29sZCBJbmp1cnkpLm1k
+  - MDQg64K067aE67mEL-qzoO2UhOuhnOudve2LtO2YiOymnSAoSHlwZXJwcm9sYWN0aW5lbWlhKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

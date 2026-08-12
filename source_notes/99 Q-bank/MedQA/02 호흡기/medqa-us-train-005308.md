@@ -13,7 +13,8 @@ related_diseases:
   - "전신 코르티코스테로이드"
   - "스테로이드 단기 부작용"
   - "감정 불안정"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: adverse_effect
 difficulty: complex
 answer: A

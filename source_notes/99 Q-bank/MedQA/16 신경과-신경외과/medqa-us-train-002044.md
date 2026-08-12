@@ -14,7 +14,8 @@ related_diseases:
   - "iron deficiency"
   - "complete blood count"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yyoCDqsrDtlY0g67mI7ZiIIChJcm9uIERlZmljaWVuY3kgQW5lbWlhKS5tZA
 difficulty: simple
 answer: A
 translation_status: machine-verified

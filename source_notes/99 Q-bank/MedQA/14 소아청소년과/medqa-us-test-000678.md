@@ -14,7 +14,8 @@ related_diseases:
   - "흔들린 아기 증후군"
   - "두개내 손상"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Z2U65Ok66awIOyVhOq4sCDspp3tm4TqtbAgKFNoYWtlbiBCYWJ5IFN5bmRyb21lKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -16,6 +16,7 @@ related_diseases:
 question_type: monitoring
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
+  - MDQg64K067aE67mEL-uMgOyCrOymne2bhOq1sCAoTWV0YWJvbGljIFN5bmRyb21lKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

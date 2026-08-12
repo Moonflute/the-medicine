@@ -14,7 +14,8 @@ related_diseases:
   - "선천성 CMV 감염"
   - "periventricular calcifications"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoCDspJEg6rCQ7Je8Lm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

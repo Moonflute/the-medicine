@@ -14,7 +14,8 @@ related_diseases:
   - "콘딜로마 첨형"
   - "인유두종바이러스 감염"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yDneyLneq4sCDsnbjqsIQg7Jyg65GQ7KKFIOuwlOydtOufrOyKpCAoR2VuaXRhbCB3YXJ0cykubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

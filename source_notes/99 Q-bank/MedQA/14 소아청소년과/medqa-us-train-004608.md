@@ -14,7 +14,8 @@ related_diseases:
   - "신생아 비포합 고빌리루빈혈증"
   - "탈수"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2ZqeuLrCAoTmVvbmF0YWwgSmF1bmRpY2UpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

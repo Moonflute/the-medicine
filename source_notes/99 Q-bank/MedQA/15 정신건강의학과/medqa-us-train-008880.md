@@ -15,7 +15,8 @@ related_diseases:
   - "urine toxicology"
   - "Substance use disorder"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: simple
 answer: D
 translation_status: machine-verified

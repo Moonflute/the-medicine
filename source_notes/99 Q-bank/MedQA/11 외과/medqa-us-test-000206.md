@@ -13,7 +13,8 @@ related_diseases:
   - "비장절제술"
   - "무비증"
   - "침습성 피막세균 감염 예방"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uptOyXreyggO2VmOyekCDqsJDsl7wgKEltbXVub2NvbXByb21pc2VkIEhvc3QgSW5mZWN0aW9uKS5tZA
 question_type: prevention
 difficulty: standard
 answer: B

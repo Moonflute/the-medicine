@@ -15,7 +15,8 @@ related_diseases:
   - "untreated stream water"
   - "metronidazole"
   - "Giardiasis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sp4DrsKnrs4AgKFN0ZWF0b3JyaGVhKS5tZA
 question_type: management
 difficulty: standard
 answer: B

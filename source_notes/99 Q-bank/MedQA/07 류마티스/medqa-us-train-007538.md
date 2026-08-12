@@ -14,7 +14,8 @@ related_diseases:
   - "지염"
   - "손톱 오목"
   - "원위지간관절 미란"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-uwmOydkeyEsSDqtIDsoIjsl7wgKFJlYWN0aXZlIEFydGhyaXRpcykubWQ
 question_type: diagnosis
 difficulty: standard
 answer: B

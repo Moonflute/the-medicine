@@ -15,7 +15,8 @@ related_diseases:
   - "low-molecular-weight heparin"
   - "Virchow triad"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2VreyduOyngOyniCDspp3tm4TqtbAgKEFudGlwaG9zcGhvbGlwaWQgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

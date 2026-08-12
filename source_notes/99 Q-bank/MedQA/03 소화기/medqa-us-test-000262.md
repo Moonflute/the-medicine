@@ -13,7 +13,9 @@ related_diseases:
   - "황색포도상구균 식중독"
   - "독소 매개 식중독"
   - "급성 위장염"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
+  - MDgg6rCQ7Je8L-yLneykkeuPhSDrsI8g7Iud7ZKI66ek6rCcIOqwkOyXvC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -14,7 +14,8 @@ related_diseases:
   - "소아 두부 외상"
   - "두개골 골절 관찰"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDqsJzsoIAg6rOo7KCIIChCYXNhbCBza3VsbCBmcmFjdHVyZSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

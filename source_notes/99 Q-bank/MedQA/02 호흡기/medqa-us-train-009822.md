@@ -13,7 +13,8 @@ related_diseases:
   - "아스페르길루스종"
   - "폐결핵 후 공동"
   - "객혈"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOqysO2VtSAoUHVsbW9uYXJ5IFR1YmVyY3Vsb3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

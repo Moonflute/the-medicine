@@ -15,6 +15,7 @@ related_diseases:
   - "Chagas disease"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4Qg7J207JmE67aI64ql7KadIChBY2hhbGFzaWEpLm1k
+  - MDgg6rCQ7Je8L-q4sOyDney2qS5tZA
 question_type: management
 difficulty: complex
 answer: A

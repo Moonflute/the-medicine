@@ -16,7 +16,8 @@ related_diseases:
   - "meniscal MRI"
   - "Medial meniscal tear"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-uwmOyblCDsl7Dqs6jtjJAg7IaQ7IOBIChNZW5pc2N1cyBJbmp1cnkpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

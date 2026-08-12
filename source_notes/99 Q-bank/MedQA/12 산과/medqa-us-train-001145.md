@@ -14,7 +14,8 @@ related_diseases:
   - "folate deficiency"
   - "neural tube defects"
 question_type: prognosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qxsOuMgOygge2YiOuqqOq1rCDruYjtmIggKE1lZ2Fsb2JsYXN0aWMgQW5lbWlhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

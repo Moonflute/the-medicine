@@ -15,7 +15,8 @@ related_diseases:
   - "전혈구검사 모니터링"
   - "Agranulocytosis"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
 difficulty: simple
 answer: D
 translation_status: machine-verified

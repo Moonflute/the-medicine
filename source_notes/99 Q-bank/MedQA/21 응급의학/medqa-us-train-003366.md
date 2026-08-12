@@ -15,7 +15,8 @@ related_diseases:
   - "tinnitus"
   - "sodium bicarbonate"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yCtOumrOyLpOyCsCDspJHrj4UgKFNhbGljeWxhdGUgUG9pc29uaW5nKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -14,7 +14,8 @@ related_diseases:
   - "단백질 C 결핍"
   - "자반"
   - "Warfarin-induced skin necrosis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 question_type: management
 difficulty: complex
 answer: B

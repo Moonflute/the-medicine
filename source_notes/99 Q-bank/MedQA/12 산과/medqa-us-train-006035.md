@@ -14,7 +14,8 @@ related_diseases:
   - "태아 수종"
   - "임신 중 바이러스 감염"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoCDspJEg6rCQ7Je8Lm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

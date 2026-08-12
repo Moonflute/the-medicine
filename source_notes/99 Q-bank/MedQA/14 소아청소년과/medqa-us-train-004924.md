@@ -14,7 +14,9 @@ related_diseases:
   - "산모 당뇨병"
   - "신생아 뇌경색"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

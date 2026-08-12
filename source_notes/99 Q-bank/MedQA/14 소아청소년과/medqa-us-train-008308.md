@@ -15,7 +15,8 @@ related_diseases:
   - "neuromuscular junction blockade"
   - "botulism"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-uztO2ItOumrOuIlCDspJHrj4UgKEJvdHVsaXNtKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

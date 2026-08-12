@@ -11,7 +11,8 @@ language: ko
 specialty: 08 감염
 related_diseases:
   - "gastroenteritis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uFuOuhnOuwlOydtOufrOyKpCDqsJDsl7wgKE5vcm92aXJ1cyBJbmZlY3Rpb24pLm1k
 question_type: management
 difficulty: complex
 answer: B

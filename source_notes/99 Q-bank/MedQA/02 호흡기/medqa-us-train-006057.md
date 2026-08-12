@@ -13,7 +13,9 @@ related_diseases:
   - "원발성 섬모운동이상증"
   - "카르타게너 증후군"
   - "반복성 호흡기 감염"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JuQ67Cc7ISxIOyErOuqqOyatOuPmeydtOyDgeymnSAoUHJpbWFyeSBDaWxpYXJ5IER5c2tpbmVzaWEpLm1k
+  - MDgg6rCQ7Je8L-uptOyXreyggO2VmOyekCDqsJDsl7wgKEltbXVub2NvbXByb21pc2VkIEhvc3QgSW5mZWN0aW9uKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

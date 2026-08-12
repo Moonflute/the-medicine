@@ -14,7 +14,9 @@ related_diseases:
   - "스타틴 이상반응"
   - "elevated liver enzymes"
   - "Statin-induced liver injury"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yViOyglSDtmJHsi6zspp0gKFN0YWJsZSBBbmdpbmEpLm1k
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rj4XshLEg6rCE7Je8IChUb3hpYyBIZXBhdGl0aXMpLm1k
 question_type: management
 difficulty: complex
 answer: A

@@ -15,7 +15,8 @@ related_diseases:
   - "기관지경검사"
   - "Airway foreign body"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riw64-EIOuCtCDsnbTrrLwgKEZvcmVpZ24gQm9keSBBc3BpcmF0aW9uKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -14,7 +14,8 @@ related_diseases:
   - "선천성 IgA 결핍"
   - "세척 혈액제제"
   - "IgA deficiency"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA
 question_type: 임상증례 객관식
 difficulty: standard
 answer: D

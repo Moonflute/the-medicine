@@ -15,6 +15,7 @@ related_diseases:
   - "smoking"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL0NPUETsnZgg6riJ7ISxIOyVhe2ZlCAoQWN1dGUgRXhhY2VyYmF0aW9uIG9mIENPUEQpLm1k
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

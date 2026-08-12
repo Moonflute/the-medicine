@@ -16,6 +16,7 @@ related_diseases:
 question_type: 임상증례 객관식
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVleyEsSDsnITquLAgKEh5cGVydGVuc2l2ZSBDcmlzaXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

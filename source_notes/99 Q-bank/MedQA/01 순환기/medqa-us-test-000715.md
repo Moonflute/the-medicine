@@ -15,6 +15,7 @@ related_diseases:
   - "승모판 탈출증"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-uniOultO2MoSDspp3tm4TqtbAgKE1hcmZhbiBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

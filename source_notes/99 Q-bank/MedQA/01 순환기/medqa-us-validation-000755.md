@@ -14,7 +14,8 @@ related_diseases:
   - "근골격성 흉통"
   - "이부프로펜"
   - "Costochondritis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uKkeyXsOqzqOyXvCAoQ29zdG9jaG9uZHJpdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: A

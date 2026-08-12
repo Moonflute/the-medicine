@@ -14,7 +14,9 @@ related_diseases:
   - "복강내 유리공기"
   - "응급 복부수술"
   - "Perforated peptic ulcer"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDrsJzshLEg7IS46regIOuzteunieyXvCAoU3BvbnRhbmVvdXMgQmFjdGVyaWFsIFBlcml0b25pdGlzKS5tZA
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQg7LKc6rO1IChQZXJmb3JhdGlvbikubWQ
 question_type: management
 difficulty: complex
 answer: C

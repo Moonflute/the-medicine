@@ -15,6 +15,7 @@ related_diseases:
   - "hemorrhagic shock"
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
+  - MTEg7Jm46rO8L-2dieu2gCDsmbjsg4EubWQ
 question_type: diagnosis
 difficulty: standard
 answer: D

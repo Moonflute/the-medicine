@@ -15,7 +15,8 @@ related_diseases:
   - "preconception counseling"
   - "pregnancy planning"
 question_type: prevention
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

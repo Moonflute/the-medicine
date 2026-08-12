@@ -14,7 +14,8 @@ related_diseases:
   - "cherry-red spot"
   - "hexosaminidase A deficiency"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

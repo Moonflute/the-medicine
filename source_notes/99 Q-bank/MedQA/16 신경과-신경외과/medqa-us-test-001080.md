@@ -15,7 +15,8 @@ related_diseases:
   - "복시"
   - "internuclear ophthalmoplegia"
 question_type: localization
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

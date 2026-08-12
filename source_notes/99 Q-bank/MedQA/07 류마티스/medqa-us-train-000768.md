@@ -15,6 +15,7 @@ related_diseases:
   - "hyperparathyroidism"
 related_disease_slugs:
   - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
+  - MDcg66WY66eI7Yuw7IqkL-y5vOyKmO2UvOuhnOyduOyCsCDsuajssKnsp4jtmZggKENQUEQpIChDYWxjaXVtIFB5cm9waG9zcGhhdGUgRGVwb3NpdGlvbiBEaXNlYXNlKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -14,7 +14,8 @@ related_diseases:
   - "소아 고관절 통증"
   - "상기도 감염 후 활막염"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA7Ye06rOo65GQIOqzqOuLqCDrtoTrpqzspp0gKFNsaXBwZWQgQ2FwaXRhbCBGZW1vcmFsIEVwaXBoeXNpcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

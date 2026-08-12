@@ -14,7 +14,8 @@ related_diseases:
   - "방어기제"
   - "질투 망상"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

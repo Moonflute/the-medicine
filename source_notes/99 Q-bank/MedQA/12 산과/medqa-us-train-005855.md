@@ -14,7 +14,8 @@ related_diseases:
   - "태아 수종 위험"
   - "산모 혈청 IgG/IgM"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KCE7Je87ISxIO2ZjeuwmCAoRXJ5dGhlbWEgSW5mZWN0aW9zdW0pLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

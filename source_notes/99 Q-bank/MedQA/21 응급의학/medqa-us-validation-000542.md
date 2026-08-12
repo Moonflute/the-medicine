@@ -14,7 +14,8 @@ related_diseases:
   - "서맥"
   - "글루카곤 해독"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

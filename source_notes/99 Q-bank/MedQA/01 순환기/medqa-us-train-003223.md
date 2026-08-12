@@ -16,6 +16,7 @@ related_diseases:
   - "water hammer pulse"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDsl63rpZggKEFvcnRpYyBSZWd1cmdpdGF0aW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-uniOultO2MoSDspp3tm4TqtbAgKE1hcmZhbiBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

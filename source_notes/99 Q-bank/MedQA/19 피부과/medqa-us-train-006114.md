@@ -15,7 +15,8 @@ related_diseases:
   - "비만과 인슐린 저항성"
   - "hidradenitis suppurativa"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yXrOuTnOumhCAoQWNuZSBWdWxnYXJpcykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -15,7 +15,8 @@ related_diseases:
   - "cerebellar ataxia"
   - "Cerebellar tumor"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yImOuRkC3rjIDsg4Htj6zsp4Qg67CU7J2065-s7IqkIOqwkOyXvCAoVmFyaWNlbGxhLVpvc3RlciBWaXJ1cyBJbmZlY3Rpb24pLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

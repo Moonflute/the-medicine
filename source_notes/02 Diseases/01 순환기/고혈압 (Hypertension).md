@@ -2,6 +2,8 @@
 aliases:
 - HTN
 document_role: group_overview
+group_members:
+- 고혈압성 위기 (Hypertensive Crisis)
 유형:
 - disease
 계통: 순환기
@@ -60,6 +62,7 @@ review_status: "guideline_enriched"
 - 조절되지 않는 고혈압은 뇌졸중·인지저하, 관상동맥질환·심부전, 말초혈관질환, 만성콩팥병, 고혈압망막병증 위험을 높인다.
 - 혈압만이 아니라 흡연, 지질, 체중, 혈당, 신기능, 알부민뇨 등 전체 심혈관 위험을 함께 관리한다.
 - 관련 문서: [[신혈관성 고혈압 (Renovascular Hypertension)]], [[원발성 알도스테론증 (Primary Aldosteronism)]], [[임신성고혈압 (Gestational Hypertension)]], [[고혈압망막병증 (hypertensive retinopathy)]], [[당뇨병 (Diabetes Mellitus)]], [[만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD))]]
+- [[고혈압성 위기 (Hypertensive Crisis)]]
 
 출처 :
 - 대한고혈압학회 2026년 제6판 고혈압 진료지침: https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read

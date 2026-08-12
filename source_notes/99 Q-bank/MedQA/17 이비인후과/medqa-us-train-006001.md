@@ -15,7 +15,8 @@ related_diseases:
   - "클린다마이신"
   - "Acute bacterial cervical lymphadenitis"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yCrOyKrOyVjOq3oCDsnbjrkZDsl7wgKFN0cmVwdG9jb2NjYWwgUGhhcnluZ2l0aXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

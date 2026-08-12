@@ -15,7 +15,8 @@ related_diseases:
   - "QRS 연장"
   - "tricyclic antidepressant overdose"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yCvO2ZmOqzhCDtla3smrDsmrjsoJwg7KSR64-FIChUcmljeWNsaWMgQW50aWRlcHJlc3NhbnQgUG9pc29uaW5nKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

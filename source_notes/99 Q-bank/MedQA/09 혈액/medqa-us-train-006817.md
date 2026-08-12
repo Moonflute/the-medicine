@@ -13,7 +13,8 @@ related_diseases:
   - "백혈병양 반응"
   - "중증 백혈구증가증"
   - "백혈구 알칼리성 인산분해효소 상승"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uwse2YiOuzkSAoTGV1a2VtaWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

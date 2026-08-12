@@ -14,7 +14,8 @@ related_diseases:
   - "좌심방 종괴"
   - "폐울혈"
   - "atrial myxoma"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: diagnosis
 difficulty: standard
 answer: D

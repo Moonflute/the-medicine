@@ -11,7 +11,8 @@ language: ko
 specialty: 07 류마티스
 related_diseases:
   - "Raynaud phenomenon"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDqsr3tmZTspp0gKFN5c3RlbWljIFNjbGVyb3NpcykubWQ
 question_type: management
 difficulty: complex
 answer: D

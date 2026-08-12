@@ -16,6 +16,7 @@ related_diseases:
   - "tricuspid regurgitation"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yCvOyyqO2MkOuniSDsl63rpZggKFRyaWN1c3BpZCBSZWd1cmdpdGF0aW9uKS5tZA
+  - MTAg7KKF7JaRL-y5tOultOyLnOuFuOydtOuTnCDspp3tm4TqtbAgKENhcmNpbm9pZCBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

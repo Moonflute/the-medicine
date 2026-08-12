@@ -16,6 +16,7 @@ related_diseases:
   - "Ventilator-associated pneumonia"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
+  - MDIg7Zi47Z2h6riwL-uzkeybkO2ajeuTnSDtj5DroLQgKEhvc3BpdGFsLUFjcXVpcmVkIFBuZXVtb25pYSkubWQ
 question_type: mechanism
 difficulty: standard
 answer: C

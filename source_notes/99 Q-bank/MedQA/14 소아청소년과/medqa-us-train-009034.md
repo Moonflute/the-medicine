@@ -14,7 +14,8 @@ related_diseases:
   - "MECP2 mutation"
   - "X-linked dominant inheritance"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

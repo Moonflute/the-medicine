@@ -15,7 +15,10 @@ related_diseases:
   - "주간 졸림"
   - "체중 감량"
   - "obstructive sleep apnea"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOqzoO2YiOyVlSAoUHVsbW9uYXJ5IEh5cGVydGVuc2lvbikubWQ
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDrrLTtmLjtnaHspp0gKFNsZWVwIEFwbmVhIFN5bmRyb21lKS5tZA
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: D

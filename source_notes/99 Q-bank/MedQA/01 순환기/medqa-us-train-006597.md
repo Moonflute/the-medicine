@@ -13,7 +13,8 @@ related_diseases:
   - "정맥성 하지궤양"
   - "만성 정맥부전"
   - "하지 부종"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2VmOyngCDsoJXrp6XrpZggKFZhcmljb3NlIFZlaW4pLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

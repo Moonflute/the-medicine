@@ -14,7 +14,8 @@ related_diseases:
   - "크로이츠펠트-야코프병"
   - "14-3-3 protein"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tgazroZzsnbTsuKDtjqDtirgt7JW87L2U7ZSE67ORIChDcmV1dHpmZWxkdC1KYWtvYiBEaXNlYXNlKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -12,7 +12,8 @@ specialty: 10 종양
 related_diseases:
   - "cyclophosphamide hemorrhagic cystitis"
   - "mesna"
-related_disease_slugs: []
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-y2nO2YiOyEsSDrsKnqtJHsl7wgKEhlbW9ycmhhZ2ljIEN5c3RpdGlzKS5tZA
 question_type: prevention
 difficulty: complex
 answer: B

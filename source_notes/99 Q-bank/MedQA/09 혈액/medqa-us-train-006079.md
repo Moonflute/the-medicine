@@ -15,6 +15,7 @@ related_diseases:
   - "수혈 부작용"
 related_disease_slugs:
   - MTEg7Jm46rO8L-yImO2YiOu2gOyekeyaqS5tZA
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

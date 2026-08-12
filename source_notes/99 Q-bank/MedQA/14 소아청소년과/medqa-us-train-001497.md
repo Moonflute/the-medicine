@@ -14,7 +14,8 @@ related_diseases:
   - "immersion scald burn"
   - "nonaccidental injury"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JWE64-Z7ZWZ64yAIOuwjyDruYTsmrDrsJzsoIEg7IaQ7IOBLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

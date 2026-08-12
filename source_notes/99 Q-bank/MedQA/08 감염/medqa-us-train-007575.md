@@ -14,7 +14,8 @@ related_diseases:
   - "주사침 손상"
   - "3제 항레트로바이러스 치료"
   - "직업적 노출"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q4ieyEsSBISVYg6rCQ7Je8IChBY3V0ZSBISVYgSW5mZWN0aW9uKS5tZA
 question_type: management
 difficulty: standard
 answer: D

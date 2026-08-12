@@ -15,7 +15,8 @@ related_diseases:
   - "sensation over lateral shoulder"
   - "neurovascular examination"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-unkOy0iOyLoOqyvSDshpDsg4EubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

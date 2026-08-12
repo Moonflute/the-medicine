@@ -14,7 +14,8 @@ related_diseases:
   - "제대탈장"
   - "거대설 및 저혈당"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv67Kg7YGs7JyE65OcLeu5hOuNsOunjCDspp3tm4TqtbAgKEJlY2t3aXRoLVdpZWRlbWFubiBTeW5kcm9tZSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

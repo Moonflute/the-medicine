@@ -15,6 +15,7 @@ related_diseases:
   - "대사증후군"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ruYTslYzsvZTsmKzshLEg7KeA67Cp6rCE7Je8IChOb24tYWxjb2hvbGljIFN0ZWF0b2hlcGF0aXRpcykubWQ
+  - MDQg64K067aE67mEL-uMgOyCrOymne2bhOq1sCAoTWV0YWJvbGljIFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

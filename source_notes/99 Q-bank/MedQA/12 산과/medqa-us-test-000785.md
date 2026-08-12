@@ -13,7 +13,8 @@ related_diseases:
   - "산전 유전 선별검사"
   - "고령 임신"
   - "무세포 태아 DNA"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
 question_type: prevention
 difficulty: complex
 answer: B

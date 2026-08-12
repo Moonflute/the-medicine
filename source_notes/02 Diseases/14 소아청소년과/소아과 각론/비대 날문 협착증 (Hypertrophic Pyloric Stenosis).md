@@ -2,6 +2,8 @@
 content_updated_at: "2026-07-30"
 aliases:
 - 비대 날문 협착증
+- 비후성 유문협착증
+- hypertrophic pyloric stenosis
 유형:
 - disease
 계통: 소아청소년과

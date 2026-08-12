@@ -15,7 +15,8 @@ related_diseases:
   - "영아 사경 물리치료"
   - "Congenital muscular torticollis"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTEg7Jm46rO8L-qyveu2gOyZuOyDgSAoQ2VydmljYWwgVHJhdW1hKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

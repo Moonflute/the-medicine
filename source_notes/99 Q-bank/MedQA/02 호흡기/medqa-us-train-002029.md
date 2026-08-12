@@ -13,7 +13,8 @@ related_diseases:
   - "acute bacterial rhinosinusitis"
   - "viral upper respiratory infection"
   - "sinusitis risk factor"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-q4ieyEsSDrtoDruYTrj5nsl7wgKEFjdXRlIHNpbnVzaXRpcykubWQ
 question_type: risk_factor
 difficulty: complex
 answer: D

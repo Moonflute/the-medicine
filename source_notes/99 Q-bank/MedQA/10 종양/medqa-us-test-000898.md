@@ -13,7 +13,8 @@ related_diseases:
   - "출혈성 방광염"
   - "시클로포스파마이드"
   - "메스나"
-related_disease_slugs: []
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-y2nO2YiOyEsSDrsKnqtJHsl7wgKEhlbW9ycmhhZ2ljIEN5c3RpdGlzKS5tZA
 question_type: prevention
 difficulty: standard
 answer: B

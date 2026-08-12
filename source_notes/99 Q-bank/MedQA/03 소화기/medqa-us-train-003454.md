@@ -14,7 +14,8 @@ related_diseases:
   - "intestinal metaplasia"
   - "low-grade dysplasia"
   - "endoscopic therapy"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshKDslZQgKEFkZW5vY2FyY2lub21hKS5tZA
 question_type: management
 difficulty: complex
 answer: B

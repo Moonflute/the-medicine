@@ -13,7 +13,8 @@ related_diseases:
   - "혈색소침착증"
   - "칼슘 피로인산 침착질환"
   - "가성통풍"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-y5vOyKmO2UvOuhnOyduOyCsCDsuajssKnsp4jtmZggKENQUEQpIChDYWxjaXVtIFB5cm9waG9zcGhhdGUgRGVwb3NpdGlvbiBEaXNlYXNlKS5tZA
 question_type: mechanism
 difficulty: simple
 answer: B

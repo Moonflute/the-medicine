@@ -14,7 +14,8 @@ related_diseases:
   - "공복 저혈당"
   - "72시간 공복검사"
   - "Insulinoma"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

@@ -14,7 +14,9 @@ related_diseases:
   - "beta-blocker adverse effect"
   - "metoprolol"
   - "Erectile dysfunction"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-u5hO2bhOyEsSDsi6zqt7zrs5Hspp0gKEh5cGVydHJvcGhpYyBDYXJkaW9teW9wYXRoeSkubWQ
+  - MjAg67mE64eo6riw6rO8L-uwnOq4sOu2gOyghCAoRXJlY3RpbGUgRHlzZnVuY3Rpb24pLm1k
 question_type: management
 difficulty: standard
 answer: C

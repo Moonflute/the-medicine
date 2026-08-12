@@ -13,7 +13,8 @@ related_diseases:
   - "요독성 뇌병증"
   - "중증 급성 신손상"
   - "혈액투석"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 question_type: management
 difficulty: complex
 answer: B

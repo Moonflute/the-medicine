@@ -14,7 +14,8 @@ related_diseases:
   - "아밀로이드 신증"
   - "연전 형성"
   - "Renal amyloidosis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

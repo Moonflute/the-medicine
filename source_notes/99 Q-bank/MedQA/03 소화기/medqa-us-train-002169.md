@@ -14,7 +14,8 @@ related_diseases:
   - "WDHA syndrome"
   - "secretory diarrhea"
   - "vasoactive intestinal peptide"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsIDsiqTtirjrprDsooUgKEdhc3RyaW5vbWEpLm1k
 question_type: investigation
 difficulty: complex
 answer: C

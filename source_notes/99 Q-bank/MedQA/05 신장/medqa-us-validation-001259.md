@@ -13,7 +13,8 @@ related_diseases:
   - "당뇨병성 신증"
   - "알부민뇨"
   - "암로디핀"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
 question_type: prevention
 difficulty: complex
 answer: D

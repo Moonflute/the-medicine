@@ -17,6 +17,7 @@ related_disease_slugs:
   - MTEg7Jm46rO8L-yKpO2KuOugiOyKpOyEsSDqtqTslpEgKFN0cmVzcyBVbGNlcikubWQ
   - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
   - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
+  - MDIg7Zi47Z2h6riwL-uzkeybkO2ajeuTnSDtj5DroLQgKEhvc3BpdGFsLUFjcXVpcmVkIFBuZXVtb25pYSkubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

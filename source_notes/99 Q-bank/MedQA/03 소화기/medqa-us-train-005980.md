@@ -13,7 +13,8 @@ related_diseases:
   - "펠라그라"
   - "나이아신 결핍"
   - "설사와 치매"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uyoOultOuLiOy8gC3svZTrpbTsgqzsvZTtlIQg7Kad7ZuE6rWwIChXZXJuaWNrZS1Lb3JzYWtvZmYgU3luZHJvbWUpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

@@ -14,7 +14,9 @@ related_diseases:
   - "경추 방출성 골절"
   - "운동 및 통각 소실"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_soIQg7LKZ7IiYIOymne2bhOq1sCAoQW50ZXJpb3IgY29yZCBzeW5kcm9tZSkubWQ
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sspnsiJgg7Jm47IOBIChTcGluYWwgY29yZCB0cmF1bWEpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

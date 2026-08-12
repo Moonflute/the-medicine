@@ -14,7 +14,8 @@ related_diseases:
   - "요충 감염"
   - "Enterobius vermicularis"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yalOy2qSDqsJDsl7wgKEVudGVyb2JpYXNpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

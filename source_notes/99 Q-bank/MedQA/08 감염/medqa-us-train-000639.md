@@ -11,7 +11,8 @@ language: ko
 specialty: 08 감염
 related_diseases:
   - "trichinellosis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q4sOyDney2qS5tZA
 question_type: prevention
 difficulty: complex
 answer: B

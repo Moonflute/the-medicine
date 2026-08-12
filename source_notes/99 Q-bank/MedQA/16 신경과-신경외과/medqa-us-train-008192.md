@@ -14,7 +14,8 @@ related_diseases:
   - "bridging vein rupture"
   - "warfarin-associated bleeding"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rp4zshLEg6rK966eJ7ZWYIOy2nO2YiCAoQ2hyb25pYyBzdWJkdXJhbCBoZW1hdG9tYSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

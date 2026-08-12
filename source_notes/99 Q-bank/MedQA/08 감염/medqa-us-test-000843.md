@@ -13,7 +13,8 @@ related_diseases:
   - "Bacillus cereus 식중독"
   - "구토형 식중독"
   - "독소 매개 위장염"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L0JhY2lsbHVzIGNlcmV1cyDsi53spJHrj4UubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

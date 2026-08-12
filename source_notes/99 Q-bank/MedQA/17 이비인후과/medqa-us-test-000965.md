@@ -14,7 +14,8 @@ related_diseases:
   - "미로염"
   - "폐렴구균"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7J207Je8IChPdGl0aXMgTWVkaWEpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

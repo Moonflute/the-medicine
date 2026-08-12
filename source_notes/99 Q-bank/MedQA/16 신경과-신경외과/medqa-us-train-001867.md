@@ -14,7 +14,8 @@ related_diseases:
   - "cervicomedullary compression"
   - "upper and lower motor neuron signs"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qt7zsnITstpXshLEg7Lih7IKtIOqyve2ZlOymnSAoQW15b3Ryb3BoaWMgbGF0ZXJhbCBzY2xlcm9zaXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

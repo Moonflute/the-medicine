@@ -14,7 +14,8 @@ related_diseases:
   - "환자 비밀보장"
   - "성 건강 상담"
 question_type: ethics
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geuCtOyepey5mCAoSW50cmF1dGVyaW5lIERldmljZSkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

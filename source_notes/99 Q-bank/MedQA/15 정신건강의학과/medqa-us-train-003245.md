@@ -16,7 +16,8 @@ related_diseases:
   - "atomoxetine"
   - "Attention-deficit hyperactivity disorder"
 question_type: adverse_effect
-related_disease_slugs: []
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOydmOugpSDqsrDtlY0g6rO864ukIO2WieuPmSDsnqXslaAgKEFESEQpLm1k
 difficulty: simple
 answer: A
 translation_status: machine-verified

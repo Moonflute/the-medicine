@@ -12,7 +12,8 @@ specialty: 16 신경과-신경외과
 related_diseases:
   - "cauda equina syndrome"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rp4jrr7jspp3tm4TqtbAgKENhdWRhIEVxdWluYSBTeW5kcm9tZSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

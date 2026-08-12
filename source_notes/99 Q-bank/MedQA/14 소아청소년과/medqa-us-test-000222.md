@@ -14,7 +14,8 @@ related_diseases:
   - "HIV 노출 신생아"
   - "지도부딘"
 question_type: prevention
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q4ieyEsSBISVYg6rCQ7Je8IChBY3V0ZSBISVYgSW5mZWN0aW9uKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

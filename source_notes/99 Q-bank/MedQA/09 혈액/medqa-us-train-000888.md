@@ -11,7 +11,8 @@ language: ko
 specialty: 09 혈액
 related_diseases:
   - "Fanconi anemia"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2MkOy9lOuLiCDruYjtmIggKEZhbmNvbmkgQW5lbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -15,7 +15,8 @@ related_diseases:
   - "직사각형 패턴 병변"
   - "child abuse"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JWE64-Z7ZWZ64yAIOuwjyDruYTsmrDrsJzsoIEg7IaQ7IOBLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -14,7 +14,8 @@ related_diseases:
   - "palmar fibromatosis"
   - "myofibroblast proliferation"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-uwqeyVhOyHoCDsiJjsp4AgKFRyaWdnZXIgRmluZ2VyKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

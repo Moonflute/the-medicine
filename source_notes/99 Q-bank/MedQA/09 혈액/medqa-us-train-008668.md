@@ -13,7 +13,8 @@ related_diseases:
   - "G6PD deficiency"
   - "oxidative hemolysis"
   - "ciprofloxacin-triggered hemolysis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uwnOyekeyEsSDslbzqsIQg7ZiI7IOJ7IaM64eo7KadIChQYXJveHlzbWFsIE5vY3R1cm5hbCBIZW1vZ2xvYmludXJpYSkubWQ
 question_type: investigation
 difficulty: standard
 answer: D

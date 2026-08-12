@@ -14,7 +14,8 @@ related_diseases:
   - "음이온 및 삼투차"
   - "옥살산칼슘 결정"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yXkO2LuOugjOq4gOumrOy9nCDspJHrj4UgKEV0aHlsZW5lIEdseWNvbCBQb2lzb25pbmcpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -15,7 +15,8 @@ related_diseases:
   - "골반저 근육 과긴장"
   - "Vaginismus"
 question_type: 임상증례 객관식
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nspp0gKEVuZG9tZXRyaW9zaXMpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

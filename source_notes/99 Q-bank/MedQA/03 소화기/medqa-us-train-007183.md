@@ -14,7 +14,8 @@ related_diseases:
   - "트로페리마 휘플리"
   - "PAS 양성 대식세포"
   - "관절염"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-2cmO2UjOuzkSAoV2hpcHBsZSBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: complex
 answer: D

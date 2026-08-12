@@ -15,6 +15,7 @@ related_diseases:
   - "비타민 B9 보충"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
+  - MDkg7ZiI7JWhL-qxsOuMgOygge2YiOuqqOq1rCDruYjtmIggKE1lZ2Fsb2JsYXN0aWMgQW5lbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: B

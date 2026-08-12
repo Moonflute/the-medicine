@@ -13,7 +13,8 @@ related_diseases:
   - "결핵성 수막염"
   - "항결핵제 간독성"
   - "간기능 모니터링"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rj4XshLEg6rCE7Je8IChUb3hpYyBIZXBhdGl0aXMpLm1k
 question_type: management
 difficulty: complex
 answer: B

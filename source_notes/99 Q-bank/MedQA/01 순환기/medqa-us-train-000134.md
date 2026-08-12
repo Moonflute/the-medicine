@@ -12,7 +12,8 @@ specialty: 01 순환기
 related_diseases:
   - "Situational syncope"
   - "situational syncope"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2YiOq0gOuvuOyjvOyLoOqyveyEsSDsi6Tsi6AgKFZhc292YWdhbCBTeW5jb3BlKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: A

@@ -14,7 +14,10 @@ related_diseases:
   - "activated protein C resistance"
   - "recurrent venous thromboembolism"
   - "inherited thrombophilia"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIOuwjyDtj5Dsg4nsoITspp0gKERlZXAgVmVpbiBUaHJvbWJvc2lzIGFuZCBQdWxtb25hcnkgRW1ib2xpc20pLm1k
+  - MDcg66WY66eI7Yuw7IqkL-2VreyduOyngOyniCDspp3tm4TqtbAgKEFudGlwaG9zcGhvbGlwaWQgU3luZHJvbWUpLm1k
+  - MDkg7ZiI7JWhL-ycoOyghOyEsSDtmIjsoITshLHtlqXspp0gKEluaGVyaXRlZCBUaHJvbWJvcGhpbGlhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

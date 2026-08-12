@@ -14,7 +14,8 @@ related_diseases:
   - "신유두 괴사"
   - "겸상적혈구 형질"
   - "Renal papillary necrosis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: mechanism
 difficulty: complex
 answer: C

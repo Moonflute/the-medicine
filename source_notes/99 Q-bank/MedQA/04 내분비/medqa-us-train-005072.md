@@ -13,7 +13,8 @@ related_diseases:
   - "철과다증"
   - "혈색소증"
   - "청동색 당뇨"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ycoOyghOyEsSDtmIjsg4nshozsuajssKnspp0gKEhlcmVkaXRhcnkgSGVtb2Nocm9tYXRvc2lzKS5tZA
 question_type: management
 difficulty: complex
 answer: C

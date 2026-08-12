@@ -14,7 +14,8 @@ related_diseases:
   - "만성 중이염"
   - "시그모이드정맥 혈전증"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sp4Dso7zrp4ntlZgg7Lac7ZiIIChTdWJhcmFjaG5vaWQgaGVtb3JyaGFnZSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

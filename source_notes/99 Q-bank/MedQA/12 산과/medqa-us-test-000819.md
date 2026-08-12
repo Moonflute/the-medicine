@@ -13,7 +13,8 @@ related_diseases:
   - "항인지질항체증후군"
   - "반복 유산"
   - "임신 중 항응고"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2VreyduOyngOyniCDspp3tm4TqtbAgKEFudGlwaG9zcGhvbGlwaWQgU3luZHJvbWUpLm1k
 question_type: prevention
 difficulty: standard
 answer: A

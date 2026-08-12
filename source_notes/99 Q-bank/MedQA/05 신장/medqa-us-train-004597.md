@@ -13,7 +13,8 @@ related_diseases:
   - "굿파스처병"
   - "항사구체기저막 항체"
   - "폐신장 증후군"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDUg7Iug7J6lL-2PkOyLoOyepSDspp3tm4TqtbAgKFB1bG1vbmFyeS1SZW5hbCBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: simple
 answer: D

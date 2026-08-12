@@ -13,7 +13,8 @@ related_diseases:
   - "트리메토프림에 의한 혈청 크레아티닌 상승"
   - "약물 상호작용"
   - "급성 신손상 감별"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 question_type: management
 difficulty: complex
 answer: A

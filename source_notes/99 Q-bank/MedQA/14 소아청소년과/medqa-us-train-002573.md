@@ -14,7 +14,8 @@ related_diseases:
   - "Bruton tyrosine kinase"
   - "recurrent bacterial infections"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uptOyXreyggO2VmOyekCDqsJDsl7wgKEltbXVub2NvbXByb21pc2VkIEhvc3QgSW5mZWN0aW9uKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

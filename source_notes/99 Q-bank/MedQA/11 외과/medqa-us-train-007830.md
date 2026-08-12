@@ -13,7 +13,8 @@ related_diseases:
   - "recurrent laryngeal nerve injury"
   - "thyroidectomy complication"
   - "disclosure of medical error"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTEg7Jm46rO8L-q4sO2DgCDsiJjsiKAg7ZuEIO2VqeuzkeymnSAoT3RoZXIgUG9zdG9wZXJhdGl2ZSBDb21wbGljYXRpb25zKS5tZA
 question_type: ethics
 difficulty: standard
 answer: D

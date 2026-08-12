@@ -15,6 +15,7 @@ related_diseases:
   - "폐색전증"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
 question_type: prognosis
 difficulty: complex
 answer: A

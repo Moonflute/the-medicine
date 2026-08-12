@@ -13,7 +13,8 @@ related_diseases:
   - "잠복결핵감염"
   - "양성 PPD"
   - "이소니아지드"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yeoOuztSDqsrDtlbUgKOyEseyduCkgKExhdGVudCBUdWJlcmN1bG9zaXMgKEFkdWx0KSkubWQ
 question_type: management
 difficulty: complex
 answer: A

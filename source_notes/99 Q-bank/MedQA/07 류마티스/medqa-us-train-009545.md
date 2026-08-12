@@ -13,7 +13,8 @@ related_diseases:
   - "acute rheumatic fever"
   - "급성 류마티스열"
   - "migratory polyarthritis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

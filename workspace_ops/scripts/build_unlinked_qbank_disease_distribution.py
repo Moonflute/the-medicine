@@ -19,12 +19,48 @@ TAG_AUDIT_PATH = ROOT / "reports" / "qbank-disease-tag-full-audit.json"
 JSON_PATH = ROOT / "reports" / "qbank-unlinked-disease-frequency.json"
 MD_PATH = ROOT / "reports" / "qbank-unlinked-disease-frequency.md"
 
+# Only exact synonym decisions belong here.  Broader/narrower diseases remain
+# separate even if they are clinically related, so this audit does not inflate
+# a condition's frequency by collapsing different teaching scopes.
+MANUAL_SYNONYM_CANONICAL = {
+    "엘러스단로스증후군": "ehlersdanlossyndrome",
+    "베크위드비데만증후군": "beckwithwiedemannsyndrome",
+    "호흡기세포융합바이러스감염": "respiratorysyncytialvirusinfection",
+    "고igm증후군": "hyperigmsyndrome",
+    "세로토닌증후군": "serotoninsyndrome",
+    "노로바이러스감염": "norovirusinfection",
+    "norovirusgastroenteritis": "norovirusinfection",
+    "파보바이러스b19감염": "parvovirusb19infection",
+    "레트증후군": "rettsyndrome",
+    "왈렌베르크증후군": "wallenbergsyndrome",
+    "lateralmedullarysyndrome": "wallenbergsyndrome",
+    "외측연수증후군": "wallenbergsyndrome",
+    "thalamicpainsyndrome": "dejerineroussysyndrome",
+    "echinococcosis": "hydatiddisease",
+    "yersiniosis": "yersiniaenterocoliticainfection",
+    "hereditaryhemochromatosis": "hemochromatosis",
+    "칸나비스구토증후군": "cannabinoidhyperemesissyndrome",
+    "선천성cmv감염": "congenitalcmvinfection",
+    "취약x증후군": "fragilexsyndrome",
+    "신생아금단증후군": "neonatalabstinencesyndrome",
+    "태아모체출혈": "fetalhemorrhage",
+    "임신중생리적빈혈": "physiologicanemiaofpregnancy",
+    "비우발적손상": "nonaccidentalinjury",
+    "식품매개보툴리눔중독": "보툴리눔중독",
+    "성매개감염예방": "sexuallytransmittedinfectionprevention",
+}
+
 
 def normalise(value: str) -> str:
     value = re.sub(r"(?i)(?<=\w)['’]s\b", "", value)
     value = value.lower()
     value = value.translate(str.maketrans({"ö": "o", "ü": "u", "ä": "a", "é": "e"}))
     return re.sub(r"[\s\W_]+", "", value, flags=re.UNICODE)
+
+
+def canonicalise(value: str) -> str:
+    normalised = normalise(value)
+    return MANUAL_SYNONYM_CANONICAL.get(normalised, normalised)
 
 
 def histogram(counter: Counter[str]) -> list[dict[str, int | str]]:
@@ -53,13 +89,21 @@ def main() -> None:
         if (str(q["specialty"]), tag) in unresolved_disease_keys
     )
     grouped: dict[str, dict[str, object]] = {}
-    for tag, count in raw.items():
-        key = normalise(tag)
-        row = grouped.setdefault(key, {"canonical_tag": tag, "tag_variants": [], "question_count": 0})
-        row["tag_variants"].append(tag)
-        row["question_count"] += count
-        if len(tag) < len(str(row["canonical_tag"])):
-            row["canonical_tag"] = tag
+    question_sets: dict[str, set[str]] = defaultdict(set)
+    for question in questions:
+        question_id = str(question.get("id", ""))
+        for tag in set(question.get("tags") or []):
+            if (str(question["specialty"]), tag) not in unresolved_disease_keys:
+                continue
+            key = canonicalise(tag)
+            row = grouped.setdefault(key, {"canonical_tag": tag, "tag_variants": [], "question_count": 0})
+            if tag not in row["tag_variants"]:
+                row["tag_variants"].append(tag)
+            question_sets[key].add(question_id)
+            if len(tag) < len(str(row["canonical_tag"])):
+                row["canonical_tag"] = tag
+    for key, row in grouped.items():
+        row["question_count"] = len(question_sets[key])
 
     normalised = Counter({str(row["canonical_tag"]): int(row["question_count"]) for row in grouped.values()})
     rows = sorted(grouped.values(), key=lambda row: (-int(row["question_count"]), str(row["canonical_tag"])))
@@ -99,7 +143,7 @@ def main() -> None:
         "",
         "- 1회성 태그가 대부분이라, 새 문서를 일괄 생성하기보다 반복 빈도와 임상 중요도를 함께 기준으로 정리하는 편이 적절합니다.",
         "- 이 보고서는 아직 문서가 없는 질환성 태그가 하나라도 있는 문항만 포함합니다. 증상·검사·약물 등 비질환 태그만 있는 문항은 제외했습니다.",
-        "- 한국어/영어 동의어는 자동으로 임상 동의어 병합하지 않았습니다. 표기·대소문자 차이만 정규화해, 임상적으로 다른 질환을 잘못 합치지 않도록 했습니다.",
+        "- 한·영 표기 및 약어가 명백히 같은 질환인 경우만 수동 동의어 표로 병합했습니다. 상위·하위 질환이나 관련 질환은 별도로 유지했습니다.",
     ]
     MD_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(json.dumps({"questions": len(questions), "raw_tags": len(raw), "normalised_tags": len(grouped), "report": str(MD_PATH)}, ensure_ascii=False))

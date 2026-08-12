@@ -15,7 +15,8 @@ related_diseases:
   - "발열과 척추통"
   - "Spinal epidural abscess"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

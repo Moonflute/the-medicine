@@ -14,7 +14,8 @@ related_diseases:
   - "인위적 증상"
   - "자해성 빈혈"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

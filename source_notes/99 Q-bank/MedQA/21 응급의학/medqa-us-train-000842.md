@@ -13,7 +13,8 @@ related_diseases:
   - "bipolar disease"
   - "polysubstance use"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -13,7 +13,8 @@ related_diseases:
   - "포도당-6-인산탈수소효소 결핍증"
   - "약물 유발 용혈성 빈혈"
   - "하인즈 소체"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: investigation
 difficulty: complex
 answer: C

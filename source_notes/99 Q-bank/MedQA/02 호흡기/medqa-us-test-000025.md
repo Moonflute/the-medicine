@@ -15,6 +15,7 @@ related_diseases:
   - "호흡부전"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
+  - MDIg7Zi47Z2h6riwL-2YuO2doeu2gOyghCAoUmVzcGlyYXRvcnkgRmFpbHVyZSkubWQ
 question_type: management
 difficulty: complex
 answer: A

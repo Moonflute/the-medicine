@@ -14,7 +14,8 @@ related_diseases:
   - "동물 교상"
   - "파스퇴렐라 감염"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q1kOyDgSDqsJDsl7wgKEJpdGUgV291bmQgSW5mZWN0aW9uKS5tZA
 difficulty: simple
 answer: B
 translation_status: machine-verified

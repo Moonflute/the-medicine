@@ -14,7 +14,8 @@ related_diseases:
   - "신생아 고빌리루빈혈증"
   - "정상 수유"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2ZqeuLrCAoTmVvbmF0YWwgSmF1bmRpY2UpLm1k
 difficulty: simple
 answer: D
 translation_status: machine-verified

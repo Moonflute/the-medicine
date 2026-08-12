@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-12T07:41:47.728Z",
-  "relationCount": 1212,
+  "generatedAt": "2026-08-12T19:02:43.537Z",
+  "relationCount": 1217,
   "byTargetType": {
-    "disease": 205,
+    "disease": 210,
     "drug": 705,
     "lab": 292,
     "microorganism": 2,

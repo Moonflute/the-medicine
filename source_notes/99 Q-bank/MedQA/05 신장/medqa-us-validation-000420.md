@@ -13,7 +13,8 @@ related_diseases:
   - "신장이식"
   - "면역억제"
   - "폐포자충 폐렴 예방"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k
 question_type: prevention
 difficulty: simple
 answer: B

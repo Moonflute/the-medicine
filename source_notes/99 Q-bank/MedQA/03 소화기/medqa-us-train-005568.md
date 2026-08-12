@@ -14,7 +14,8 @@ related_diseases:
   - "위식도 접합부 탈장"
   - "수술적 위고정술"
   - "Paraesophageal hiatal hernia"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sl7Tqs7Ug7YOI7J6lIChIaWF0YWwgSGVybmlhKS5tZA
 question_type: management
 difficulty: standard
 answer: D

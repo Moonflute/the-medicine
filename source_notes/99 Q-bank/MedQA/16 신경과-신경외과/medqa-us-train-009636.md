@@ -14,7 +14,8 @@ related_diseases:
   - "급성 척수손상"
   - "neurogenic bladder"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sspnsiJgg7Jm47IOBIChTcGluYWwgY29yZCB0cmF1bWEpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

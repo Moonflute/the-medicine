@@ -15,7 +15,9 @@ related_diseases:
   - "수술적 배액"
   - "brain abscess"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-y5mOyEsSDqsJDsl7wgKE9kb250b2dlbmljIEluZmVjdGlvbikubWQ
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rsJzsnpEgKFNlaXp1cmUpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

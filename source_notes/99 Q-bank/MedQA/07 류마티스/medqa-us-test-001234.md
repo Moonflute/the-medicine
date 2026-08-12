@@ -13,7 +13,8 @@ related_diseases:
   - "타카야수 동맥염"
   - "대동맥궁 증후군"
   - "혈관 협착"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qsr3rj5nrp6Ug7ZiR7LCp7KadIChDYXJvdGlkIGFydGVyeSBzdGVub3NpcykubWQ
 question_type: prognosis
 difficulty: complex
 answer: A

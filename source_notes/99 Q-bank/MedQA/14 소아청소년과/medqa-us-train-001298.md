@@ -14,7 +14,8 @@ related_diseases:
   - "unconjugated hyperbilirubinemia"
   - "Breast milk jaundice"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2ZqeuLrCAoTmVvbmF0YWwgSmF1bmRpY2UpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

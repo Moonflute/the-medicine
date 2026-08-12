@@ -13,7 +13,8 @@ related_diseases:
   - "개 물림"
   - "파스퇴렐라 멀토시다"
   - "동물 교상 감염"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q1kOyDgSDqsJDsl7wgKEJpdGUgV291bmQgSW5mZWN0aW9uKS5tZA
 question_type: 임상증례 객관식
 difficulty: simple
 answer: B

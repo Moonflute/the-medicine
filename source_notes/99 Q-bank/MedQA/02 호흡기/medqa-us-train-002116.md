@@ -16,6 +16,7 @@ related_diseases:
   - "sympathetic chain"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tmLjrpbTrhIgg7Kad7ZuE6rWwIChIb3JuZXIgU3luZHJvbWUpLm1k
 question_type: investigation
 difficulty: complex
 answer: C

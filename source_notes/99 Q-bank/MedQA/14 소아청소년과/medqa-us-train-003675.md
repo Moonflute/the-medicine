@@ -15,7 +15,8 @@ related_diseases:
   - "sexually transmitted infection prevention"
   - "catch-up immunization"
 question_type: prevention
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yEseunpOqwnOqwkOyXvC5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

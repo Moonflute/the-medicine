@@ -16,6 +16,7 @@ related_diseases:
 question_type: prognosis
 related_disease_slugs:
   - MTMg67aA7J246rO8L-2MjOygnO2KuOuzkSAoUGFnZXQncyBEaXNlYXNlKS5tZA
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

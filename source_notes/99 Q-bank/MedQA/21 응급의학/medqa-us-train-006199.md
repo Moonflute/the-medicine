@@ -14,7 +14,8 @@ related_diseases:
   - "압박 손상"
   - "체위 변경"
 question_type: prevention
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-uLpOuwnOyZuOyDgSAoUG9seXRyYXVtYSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

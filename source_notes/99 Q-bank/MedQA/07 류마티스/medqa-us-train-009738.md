@@ -14,7 +14,8 @@ related_diseases:
   - "약물유발 루푸스"
   - "심낭염"
   - "drug-induced lupus"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwLyjquInsgqzspp3tm4TqtbApLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -16,6 +16,7 @@ question_type: prognosis
 related_disease_slugs:
   - MTIg7IKw6rO8L-yelOulmO2DnOuwmCAoUmV0YWluZWQgUGxhY2VudGEpLm1k
   - MTIg7IKw6rO8L-yekOq2geydtOyZhOymnSAoVXRlcmluZSBBdG9ueSkubWQ
+  - MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -15,7 +15,8 @@ related_diseases:
   - "clindamycin doxycycline"
   - "Human bite infection"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q1kOyDgSDqsJDsl7wgKEJpdGUgV291bmQgSW5mZWN0aW9uKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

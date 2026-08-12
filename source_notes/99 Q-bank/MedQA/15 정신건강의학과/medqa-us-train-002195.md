@@ -15,7 +15,9 @@ related_diseases:
   - "fluphenazine"
   - "risperidone"
 question_type: adverse_effect
-related_disease_slugs: []
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
+  - MjEg7J2R6riJ7J2Y7ZWZL-2VnOuereyGkOyDgSAoQ29sZCBJbmp1cnkpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

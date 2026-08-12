@@ -15,7 +15,8 @@ related_diseases:
   - "국소 고강도 스테로이드"
   - "Lichen sclerosus"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-2OuO2PiSDshLjtj6zslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

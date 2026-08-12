@@ -14,7 +14,8 @@ related_diseases:
   - "18번 삼염색체증"
   - "염색체 비분리"
 question_type: prognosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JeQ65Oc7JuM65OcIOymne2bhOq1sCAoRWR3YXJkcyBTeW5kcm9tZSkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

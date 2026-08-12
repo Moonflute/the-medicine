@@ -14,7 +14,8 @@ related_diseases:
   - "acute viral diarrhea"
   - "stool enzyme immunoassay"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uFuOuhnOuwlOydtOufrOyKpCDqsJDsl7wgKE5vcm92aXJ1cyBJbmZlY3Rpb24pLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

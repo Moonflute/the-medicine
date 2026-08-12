@@ -13,7 +13,8 @@ related_diseases:
   - "대사증후군"
   - "인슐린 저항성"
   - "복부비만"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uMgOyCrOymne2bhOq1sCAoTWV0YWJvbGljIFN5bmRyb21lKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: C

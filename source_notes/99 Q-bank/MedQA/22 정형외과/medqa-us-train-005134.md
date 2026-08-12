@@ -15,7 +15,8 @@ related_diseases:
   - "직업성 무릎 압박"
   - "Prepatellar bursitis"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

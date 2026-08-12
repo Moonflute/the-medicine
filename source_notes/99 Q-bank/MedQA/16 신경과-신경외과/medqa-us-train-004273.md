@@ -15,7 +15,8 @@ related_diseases:
   - "근육위축"
   - "Charcot-Marie-Tooth disease"
 question_type: 임상증례 객관식
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sg6TrpbTsvZQt66eI66asLe2IrOyKpOuzkSAoQ2hhcmNvdC1NYXJpZS1Ub290aCBEaXNlYXNlKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

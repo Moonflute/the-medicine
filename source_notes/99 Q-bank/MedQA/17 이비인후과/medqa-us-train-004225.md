@@ -15,7 +15,8 @@ related_diseases:
   - "측두골 CT"
   - "Acute mastoiditis"
 question_type: 임상증례 객관식
-related_disease_slugs: []
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-q4ieyEsSDsnKDslpHrj4zquLDsl7wgKEFjdXRlIE1hc3RvaWRpdGlzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

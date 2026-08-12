@@ -13,7 +13,8 @@ related_diseases:
   - "호모시스틴뇨증"
   - "수정체 하방 탈구"
   - "혈전색전증"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIOuwjyDtj5Dsg4nsoITspp0gKERlZXAgVmVpbiBUaHJvbWJvc2lzIGFuZCBQdWxtb25hcnkgRW1ib2xpc20pLm1k
 question_type: 임상증례 객관식
 difficulty: standard
 answer: D

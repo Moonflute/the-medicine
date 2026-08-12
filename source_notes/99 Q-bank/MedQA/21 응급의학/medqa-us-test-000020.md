@@ -14,7 +14,8 @@ related_diseases:
   - "의식 변화"
   - "운동실조"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-uypOyhsOuUlOyVhOygnO2VgCDspJHrj4UgKEJlbnpvZGlhemVwaW5lIFBvaXNvbmluZykubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

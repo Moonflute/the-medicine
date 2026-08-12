@@ -15,7 +15,8 @@ related_diseases:
   - "과립막세포종"
   - "Granulosa cell tumor"
 question_type: 임상증례 객관식
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7KGw7IiZ7KadIChTZXh1YWwgUHJlY29jaW91c25lc3MpLm1k
 difficulty: simple
 answer: A
 translation_status: machine-verified

@@ -15,7 +15,8 @@ related_diseases:
   - "sodium channel blockade"
   - "Tricyclic antidepressant overdose"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yCvO2ZmOqzhCDtla3smrDsmrjsoJwg7KSR64-FIChUcmljeWNsaWMgQW50aWRlcHJlc3NhbnQgUG9pc29uaW5nKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

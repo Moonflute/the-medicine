@@ -14,7 +14,8 @@ related_diseases:
   - "fifth metatarsal fracture"
   - "overuse injury"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-2MlOq_iOy5mCDsmbjsuKEg7IOB6rO87Je8IChMYXRlcmFsIEVwaWNvbmR5bGl0aXMpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

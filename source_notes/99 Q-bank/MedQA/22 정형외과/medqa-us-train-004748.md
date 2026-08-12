@@ -14,7 +14,8 @@ related_diseases:
   - "반복 골절"
   - "난청"
 question_type: association
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv6rOo7ZiV7ISx67aA7KCE7KadIChPc3Rlb2dlbmVzaXMgSW1wZXJmZWN0YSkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

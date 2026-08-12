@@ -16,6 +16,8 @@ related_diseases:
   - "erectile dysfunction"
 related_disease_slugs:
   - MDQg64K067aE67mEL-uHjO2VmOyImOyytCDsg5jsooUgKFBpdHVpdGFyeSBBZGVub21hKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ZSE6528642ULeycjOumrCDspp3tm4TqtbAgKFByYWRlci1XaWxsaSBTeW5kcm9tZSkubWQ
+  - MjAg67mE64eo6riw6rO8L-uwnOq4sOu2gOyghCAoRXJlY3RpbGUgRHlzZnVuY3Rpb24pLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -13,7 +13,8 @@ related_diseases:
   - "ehrlichiosis"
   - "Ehrlichia chaffeensis"
   - "morulae"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q4sO2DgCDqsJDsl7zsp4jtmZgubWQ
 question_type: management
 difficulty: complex
 answer: B

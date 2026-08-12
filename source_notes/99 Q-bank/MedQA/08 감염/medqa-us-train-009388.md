@@ -13,7 +13,8 @@ related_diseases:
   - "traveler's diarrhea"
   - "여행자 설사"
   - "foodborne infection"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yLneykkeuPhSDrsI8g7Iud7ZKI66ek6rCcIOqwkOyXvC5tZA
 question_type: diagnosis
 difficulty: standard
 answer: D

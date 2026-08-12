@@ -15,6 +15,7 @@ related_diseases:
   - "dyslipidemia"
 related_disease_slugs:
   - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: mechanism
 difficulty: complex
 answer: B

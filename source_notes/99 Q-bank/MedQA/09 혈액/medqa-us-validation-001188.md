@@ -13,7 +13,8 @@ related_diseases:
   - "비스코트-올드리치 증후군"
   - "습진"
   - "혈소판감소증"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAvV2lza290dC1BbGRyaWNoIOymne2bhOq1sCAoV2lza290dC1BbGRyaWNoIFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

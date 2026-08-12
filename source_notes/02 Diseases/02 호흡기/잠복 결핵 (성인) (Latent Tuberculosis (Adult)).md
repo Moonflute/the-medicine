@@ -1,5 +1,9 @@
 ---
-aliases: []
+aliases:
+- 잠복결핵감염
+- 잠복 결핵 감염
+- latent tuberculosis infection
+- LTBI
 유형:
 - disease
 계통: 호흡기

@@ -13,7 +13,8 @@ related_diseases:
   - "salicylate toxicity"
   - "Salicylate toxicity"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yCtOumrOyLpOyCsCDspJHrj4UgKFNhbGljeWxhdGUgUG9pc29uaW5nKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

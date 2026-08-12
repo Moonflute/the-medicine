@@ -13,7 +13,9 @@ related_diseases:
   - "발기부전"
   - "대사증후군"
   - "당뇨병 선별검사"
-related_disease_slugs: []
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-uwnOq4sOu2gOyghCAoRXJlY3RpbGUgRHlzZnVuY3Rpb24pLm1k
+  - MDQg64K067aE67mEL-uMgOyCrOymne2bhOq1sCAoTWV0YWJvbGljIFN5bmRyb21lKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

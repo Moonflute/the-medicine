@@ -14,7 +14,8 @@ related_diseases:
   - "석면 노출"
   - "삼출성 흉수"
   - "Malignant mesothelioma"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

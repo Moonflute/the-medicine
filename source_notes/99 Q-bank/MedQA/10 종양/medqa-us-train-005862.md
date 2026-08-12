@@ -14,7 +14,8 @@ related_diseases:
   - "두개골 골용해성 병변"
   - "소아 골병변"
   - "Langerhans cell histiocytosis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTAg7KKF7JaRL-uekeqyjOultO2VnOyKpCDshLjtj6wg7KGw7KeB6rWs7KadIChMYW5nZXJoYW5zIENlbGwgSGlzdGlvY3l0b3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

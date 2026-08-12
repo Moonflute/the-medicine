@@ -14,7 +14,9 @@ related_diseases:
   - "침묵성 흉부"
   - "호흡부전"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
+  - MDIg7Zi47Z2h6riwL-2YuO2doeu2gOyghCAoUmVzcGlyYXRvcnkgRmFpbHVyZSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

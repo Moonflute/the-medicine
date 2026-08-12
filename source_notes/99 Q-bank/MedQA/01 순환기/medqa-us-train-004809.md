@@ -13,7 +13,8 @@ related_diseases:
   - "아미오다론"
   - "폐독성"
   - "간질성 폐렴"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-u5hO2KueydtCDqsITsp4jshLEg7Y-Q66C0IChOU0lQKSAoTm9uc3BlY2lmaWMgSW50ZXJzdGl0aWFsIFBuZXVtb25pYSkubWQ
 question_type: adverse_effect
 difficulty: standard
 answer: C

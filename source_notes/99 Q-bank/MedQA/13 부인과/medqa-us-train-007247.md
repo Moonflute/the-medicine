@@ -14,7 +14,8 @@ related_diseases:
   - "폴리 카테터 폐색"
   - "자궁절제술 후 합병증"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JqU66GcIOqwkOyXvCAoVXJpbmFyeSBUcmFjdCBJbmZlY3Rpb24pLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

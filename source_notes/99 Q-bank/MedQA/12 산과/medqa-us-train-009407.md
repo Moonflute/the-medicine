@@ -14,7 +14,8 @@ related_diseases:
   - "약물 유발 면역 용혈성 빈혈"
   - "positive direct antiglobulin test"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -15,7 +15,8 @@ related_diseases:
   - "수포세포"
   - "메트헤모글로빈 환원검사"
   - "G6PD deficiency"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uwnOyekeyEsSDslbzqsIQg7ZiI7IOJ7IaM64eo7KadIChQYXJveHlzbWFsIE5vY3R1cm5hbCBIZW1vZ2xvYmludXJpYSkubWQ
 question_type: investigation
 difficulty: complex
 answer: B

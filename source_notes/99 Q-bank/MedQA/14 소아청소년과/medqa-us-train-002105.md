@@ -17,6 +17,7 @@ related_diseases:
 question_type: investigation
 related_disease_slugs:
   - MTIg7IKw6rO8L-yWkeyImCDqs7zshozspp0gKE9saWdvaHlkcmFtbmlvcykubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JeQ65Oc7JuM65OcIOymne2bhOq1sCAoRWR3YXJkcyBTeW5kcm9tZSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

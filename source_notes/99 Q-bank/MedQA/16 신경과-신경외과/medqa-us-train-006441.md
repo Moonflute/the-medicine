@@ -14,7 +14,8 @@ related_diseases:
   - "관통동맥 파열"
   - "기저핵 출혈"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_stpztmIjshLEg64eM7KG47KSRIChIZW1vcnJoYWdpYyBTdHJva2UpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

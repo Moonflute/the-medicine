@@ -14,7 +14,8 @@ related_diseases:
   - "태아-모체 출혈"
   - "로제트 검사"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

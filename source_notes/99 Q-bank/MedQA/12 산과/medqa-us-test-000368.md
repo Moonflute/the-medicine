@@ -14,7 +14,8 @@ related_diseases:
   - "파보바이러스 B19"
   - "풍진 감별"
   - "Parvovirus B19 infection"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoCDspJEg6rCQ7Je8Lm1k
 question_type: investigation
 difficulty: complex
 answer: D

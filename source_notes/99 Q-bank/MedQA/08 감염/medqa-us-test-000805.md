@@ -13,7 +13,8 @@ related_diseases:
   - "식품매개 보툴리눔중독"
   - "보툴리눔 독소"
   - "신경근 접합부 마비"
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-uztO2ItOumrOuIlCDspJHrj4UgKEJvdHVsaXNtKS5tZA
 question_type: management
 difficulty: complex
 answer: A

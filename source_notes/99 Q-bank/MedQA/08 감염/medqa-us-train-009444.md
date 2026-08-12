@@ -14,7 +14,8 @@ related_diseases:
   - "크립토스포리디움"
   - "AIDS-related diarrhea"
   - "Cryptosporidium infection"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q4sOyDney2qS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

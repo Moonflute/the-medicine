@@ -13,7 +13,8 @@ related_diseases:
   - "살모넬라 장염"
   - "혈성 설사"
   - "달걀 매개 식중독"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-u5hOyepe2LsO2RuOyKpCDsgrTrqqjrhKzrnbwgKE5vbi10eXBob2lkYWwgU2FsbW9uZWxsYSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

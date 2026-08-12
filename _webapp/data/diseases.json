@@ -344,17 +344,20 @@
           "• 조절되지 않는 고혈압은 뇌졸중·인지저하, 관상동맥질환·심부전, 말초혈관질환, 만성콩팥병, 고혈압망막병증 위험을 높인다.",
           "• 혈압만이 아니라 흡연, 지질, 체중, 혈당, 신기능, 알부민뇨 등 전체 심혈관 위험을 함께 관리한다.",
           "• 관련 문서: [[신혈관성 고혈압 (Renovascular Hypertension)]], [[원발성 알도스테론증 (Primary Aldosteronism)]], [[임신성고혈압 (Gestational Hypertension)]], [[고혈압망막병증 (hypertensive retinopathy)]], [[당뇨병 (Diabetes Mellitus)]], [[만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD))]]",
+          "• [[고혈압성 위기 (Hypertensive Crisis)]]",
           "출처 :",
           "• 대한고혈압학회 2026년 제6판 고혈압 진료지침: https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read",
           "• 2025 ACC/AHA High Blood Pressure Guideline: https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know"
         ]
       }
     ],
-    "updatedAt": "2026-08-10T16:43:28.876Z",
+    "updatedAt": "2026-08-12T17:16:59.935Z",
     "clinicalPriority": "tier_2",
     "documentRole": "group_overview",
     "groupOverview": {
-      "memberTitles": []
+      "memberTitles": [
+        "고혈압성 위기 (Hypertensive Crisis)"
+      ]
     },
     "contentMeta": {
       "contentUpdatedAt": "2026-07-14",
@@ -376,6 +379,84 @@
       "relationToParent": "",
       "population": "adult",
       "canonicalDisease": ""
+    }
+  },
+  {
+    "id": "02 Diseases/01 순환기/고혈압성 위기 (Hypertensive Crisis).md",
+    "slug": "MDEg7Iic7ZmY6riwL-qzoO2YiOyVleyEsSDsnITquLAgKEh5cGVydGVuc2l2ZSBDcmlzaXMpLm1k",
+    "title": "고혈압성 위기 (Hypertensive Crisis)",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/고혈압성 위기 (Hypertensive Crisis).md",
+    "specialty": "01 순환기",
+    "category": "순환기",
+    "classification": [
+      "고혈압"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Hypertensive crisis",
+      "Hypertensive emergency",
+      "Hypertensive urgency",
+      "고혈압성 응급",
+      "고혈압성 위기"
+    ],
+    "chiefComplaints": [
+      "두통",
+      "흉통",
+      "호흡곤란",
+      "시야장애"
+    ],
+    "definition": "",
+    "overview": [
+      "• 중증 혈압 상승만으로 고혈압성 응급을 진단하지 않는다. 핵심은 **급성 표적장기손상**의 유무다.",
+      "• 급성 장기손상 없이 혈압이 매우 높은 경우에는 재측정, 유발 요인 교정, 경구약 조정과 신속한 추적이 원칙이다.",
+      "• 뇌병증·뇌졸중, 급성 폐부종, 급성 관상동맥증후군, 대동맥박리, 급성 신손상, 망막병증 또는 임신 관련 중증 고혈압처럼 급성 표적장기손상이 있으면 집중 감시와 정주 항고혈압 치료가 필요하다.",
+      "• 대동맥박리·자간전증/자간증 등은 목표와 약제 선택이 달라 해당 응급 질환 경로를 함께 따른다.",
+      "• 대부분의 응급에서는 초기 1시간에 평균동맥압을 과도하게 낮추지 않고, 이후 임상상에 따라 단계적으로 조절한다."
+    ],
+    "sections": [
+      {
+        "title": "핵심 구분",
+        "content": [
+          "• 중증 혈압 상승만으로 고혈압성 응급을 진단하지 않는다. 핵심은 **급성 표적장기손상**의 유무다.",
+          "• 급성 장기손상 없이 혈압이 매우 높은 경우에는 재측정, 유발 요인 교정, 경구약 조정과 신속한 추적이 원칙이다."
+        ]
+      },
+      {
+        "title": "고혈압성 응급",
+        "content": [
+          "• 뇌병증·뇌졸중, 급성 폐부종, 급성 관상동맥증후군, 대동맥박리, 급성 신손상, 망막병증 또는 임신 관련 중증 고혈압처럼 급성 표적장기손상이 있으면 집중 감시와 정주 항고혈압 치료가 필요하다.",
+          "• 대동맥박리·자간전증/자간증 등은 목표와 약제 선택이 달라 해당 응급 질환 경로를 함께 따른다."
+        ]
+      },
+      {
+        "title": "처치 원칙",
+        "content": [
+          "• 대부분의 응급에서는 초기 1시간에 평균동맥압을 과도하게 낮추지 않고, 이후 임상상에 따라 단계적으로 조절한다.",
+          "• 신경학적 증상, 흉통, 호흡곤란, 시야 이상, 핍뇨가 있으면 장기손상 평가를 지연하지 않는다."
+        ]
+      },
+      {
+        "title": "관련 문서",
+        "content": [
+          "• [[고혈압 (Hypertension)]]",
+          "• [[대동맥 박리 (Aortic Dissection)]]",
+          "• [[급성 심부전 (Acute Heart Failure)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:16:47.859Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "2025 AHA/ACC High Blood Pressure Guideline",
+          "url": "https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know"
+        }
+      ]
     }
   },
   {
@@ -1070,6 +1151,38 @@
     }
   },
   {
+    "id": "02 Diseases/01 순환기/늑연골염 (Costochondritis).md",
+    "slug": "MDEg7Iic7ZmY6riwL-uKkeyXsOqzqOyXvCAoQ29zdG9jaG9uZHJpdGlzKS5tZA",
+    "title": "늑연골염 (Costochondritis)",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/늑연골염 (Costochondritis).md",
+    "specialty": "01 순환기",
+    "category": "흉통",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "costochondritis"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 국소 압통으로 재현되는 흉벽 통증이 특징입니다.",
+      "• 급성 관상동맥 증후군, 폐색전증, 대동맥 질환 같은 위험한 흉통 원인을 먼저 배제한 뒤 진단합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 국소 압통으로 재현되는 흉벽 통증이 특징입니다.",
+          "• 급성 관상동맥 증후군, 폐색전증, 대동맥 질환 같은 위험한 흉통 원인을 먼저 배제한 뒤 진단합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T18:56:58.712Z",
+    "clinicalPriority": ""
+  },
+  {
     "id": "02 Diseases/01 순환기/다카야수 동맥염 (Takayasu's Arteritis).md",
     "slug": "MDEg7Iic7ZmY6riwL-uLpOy5tOyVvOyImCDrj5nrp6Xsl7wgKFRha2F5YXN1J3MgQXJ0ZXJpdGlzKS5tZA",
     "title": "다카야수 동맥염 (Takayasu's Arteritis)",
@@ -1404,17 +1517,21 @@
         "content": [
           "• [[가성 동맥류 (Pseudoaneurysm)]]",
           "• [[대동맥 박리 (Aortic Dissection)]]",
+          "• [[마르팡 증후군 (Marfan Syndrome)]]",
+          "• [[엘러스-단로스 증후군 (Ehlers-Danlos Syndrome)]]",
           "• [[복부 대동맥류 (Abdominal Aortic Aneurysm)]]"
         ]
       }
     ],
-    "updatedAt": "2026-08-10T13:26:24.427Z",
+    "updatedAt": "2026-08-12T09:49:38.343Z",
     "clinicalPriority": "",
     "documentRole": "group_overview",
     "groupOverview": {
       "memberTitles": [
         "가성 동맥류 (Pseudoaneurysm)",
         "대동맥 박리 (Aortic Dissection)",
+        "마르팡 증후군 (Marfan Syndrome)",
+        "엘러스-단로스 증후군 (Ehlers-Danlos Syndrome)",
         "복부 대동맥류 (Abdominal Aortic Aneurysm)"
       ]
     },
@@ -1997,6 +2114,59 @@
       "guidelineYear": "",
       "sources": []
     }
+  },
+  {
+    "id": "02 Diseases/01 순환기/마르팡 증후군 (Marfan Syndrome).md",
+    "slug": "MDEg7Iic7ZmY6riwL-uniOultO2MoSDspp3tm4TqtbAgKE1hcmZhbiBTeW5kcm9tZSkubWQ",
+    "title": "마르팡 증후군 (Marfan Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/마르팡 증후군 (Marfan Syndrome).md",
+    "specialty": "01 순환기",
+    "category": "순환기",
+    "classification": [
+      "대동맥 질환"
+    ],
+    "relatedSpecialties": [
+      "소아청소년과",
+      "안과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "마르팡 증후군",
+      "Marfan syndrome"
+    ],
+    "chiefComplaints": [
+      "흉통",
+      "시야 이상"
+    ],
+    "definition": "",
+    "overview": [
+      "• FBN1 관련 결합조직 질환으로 대동맥 확장·박리, 수정체 탈구, 골격계 이상이 핵심이다.",
+      "• 키가 크고 마른 체형만으로 진단하지 않으며, 가족력·대동맥근부·눈·골격 소견을 체계적으로 확인한다.",
+      "• 대동맥 영상 추적과 혈압·운동 관리가 중요하며, 급성 흉통은 대동맥 박리를 우선 배제한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• FBN1 관련 결합조직 질환으로 대동맥 확장·박리, 수정체 탈구, 골격계 이상이 핵심이다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 키가 크고 마른 체형만으로 진단하지 않으며, 가족력·대동맥근부·눈·골격 소견을 체계적으로 확인한다."
+        ]
+      },
+      {
+        "title": "관리",
+        "content": [
+          "• 대동맥 영상 추적과 혈압·운동 관리가 중요하며, 급성 흉통은 대동맥 박리를 우선 배제한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:05:02.494Z",
+    "clinicalPriority": "tier_1"
   },
   {
     "id": "02 Diseases/01 순환기/만성 심부전 (박출률 감소) (Chronic Heart Failure with Reduced Ejection Fraction (HFrEF)).md",
@@ -5220,6 +5390,71 @@
     }
   },
   {
+    "id": "02 Diseases/01 순환기/엘러스-단로스 증후군 (Ehlers-Danlos Syndrome).md",
+    "slug": "MDEg7Iic7ZmY6riwL-yXmOufrOyKpC3ri6jroZzsiqQg7Kad7ZuE6rWwIChFaGxlcnMtRGFubG9zIFN5bmRyb21lKS5tZA",
+    "title": "엘러스-단로스 증후군 (Ehlers-Danlos Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/01 순환기/엘러스-단로스 증후군 (Ehlers-Danlos Syndrome).md",
+    "specialty": "01 순환기",
+    "category": "순환기",
+    "classification": [
+      "대동맥 질환"
+    ],
+    "relatedSpecialties": [
+      "소아청소년과",
+      "안과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Ehlers-Danlos syndrome",
+      "Ehlers Danlos syndrome",
+      "EDS",
+      "엘러스-단로스 증후군"
+    ],
+    "chiefComplaints": [
+      "관절통",
+      "피부 이상"
+    ],
+    "definition": "",
+    "overview": [
+      "• 콜라겐 관련 유전성 결합조직 질환군으로, 관절 과운동성·피부 과신장성·조직 취약성이 특징이다.",
+      "• 쉽게 멍이 들고 흉터가 비정상적이거나 반복 탈구·과운동성이 있으면 유형을 구분해 평가한다.",
+      "• 유형별 혈관·판막 합병증을 평가하고, 특히 혈관형에서는 동맥류·박리·장기 파열 위험을 고려해 추적과 유전상담을 시행한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 콜라겐 관련 유전성 결합조직 질환군으로, 관절 과운동성·피부 과신장성·조직 취약성이 특징이다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 쉽게 멍이 들고 흉터가 비정상적이거나 반복 탈구·과운동성이 있으면 유형을 구분해 평가한다."
+        ]
+      },
+      {
+        "title": "관리",
+        "content": [
+          "• 유형별 혈관·판막 합병증을 평가하고, 특히 혈관형에서는 동맥류·박리·장기 파열 위험을 고려해 추적과 유전상담을 시행한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:49:06.597Z",
+    "clinicalPriority": "tier_2",
+    "contentMeta": {
+      "contentUpdatedAt": "2026-08-12",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MSD Manual Professional: Ehlers-Danlos Syndromes",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/connective-tissue-disorders-in-children/ehlers-danlos-syndromes"
+        }
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/01 순환기/우심실 경색 (RV Infarct).md",
     "slug": "MDEg7Iic7ZmY6riwL-yasOyLrOyLpCDqsr3sg4kgKFJWIEluZmFyY3QpLm1k",
     "title": "우심실 경색 (RV Infarct)",
@@ -6966,6 +7201,45 @@
     }
   },
   {
+    "id": "02 Diseases/02 호흡기/급성 기관지염 (Acute Bronchitis).md",
+    "slug": "MDIg7Zi47Z2h6riwL-q4ieyEsSDquLDqtIDsp4Dsl7wgKEFjdXRlIEJyb25jaGl0aXMpLm1k",
+    "title": "급성 기관지염 (Acute Bronchitis)",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/급성 기관지염 (Acute Bronchitis).md",
+    "specialty": "02 호흡기",
+    "category": "기도 질환",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "acute bronchitis"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 급성 기침을 보이는 대개 바이러스성 기도 염증입니다.",
+      "• 폐렴을 시사하는 활력징후 이상, 국소 폐음, 저산소증이 있는지 먼저 평가합니다.",
+      "• 단순 급성 기관지염에서는 증상 완화가 중심이며, 세균성 폐렴이 의심되지 않으면 항생제를 일상적으로 사용하지 않습니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 급성 기침을 보이는 대개 바이러스성 기도 염증입니다.",
+          "• 폐렴을 시사하는 활력징후 이상, 국소 폐음, 저산소증이 있는지 먼저 평가합니다."
+        ]
+      },
+      {
+        "title": "접근",
+        "content": [
+          "• 단순 급성 기관지염에서는 증상 완화가 중심이며, 세균성 폐렴이 의심되지 않으면 항생제를 일상적으로 사용하지 않습니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T18:57:08.553Z",
+    "clinicalPriority": ""
+  },
+  {
     "id": "02 Diseases/02 호흡기/급성 기침.md",
     "slug": "MDIg7Zi47Z2h6riwL-q4ieyEsSDquLDsuagubWQ",
     "title": "급성 기침",
@@ -8141,6 +8415,89 @@
       "population": "adult",
       "canonicalDisease": ""
     }
+  },
+  {
+    "id": "02 Diseases/02 호흡기/반복성 폐렴 (Recurrent Pneumonia).md",
+    "slug": "MDIg7Zi47Z2h6riwL-uwmOuzteyEsSDtj5DroLQgKFJlY3VycmVudCBQbmV1bW9uaWEpLm1k",
+    "title": "반복성 폐렴 (Recurrent Pneumonia)",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/반복성 폐렴 (Recurrent Pneumonia).md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "폐렴",
+      "반복성·재발성 폐렴"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "재발성 폐렴",
+      "recurrent pneumonia"
+    ],
+    "chiefComplaints": [
+      "기침",
+      "발열",
+      "호흡곤란"
+    ],
+    "definition": "",
+    "overview": [
+      "# 반복성 폐렴 (Recurrent Pneumonia)",
+      "반복성 또는 재발성 폐렴에서는 같은 폐엽의 반복인지, 서로 다른 부위의 반복인지 구분합니다. 국소 반복은 기도 폐쇄·구조 이상을, 다발성 반복은 흡인·면역저하·낭성섬유증 같은 전신 또는 숙주 요인을 시사할 수 있습니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# 반복성 폐렴 (Recurrent Pneumonia)",
+          "반복성 또는 재발성 폐렴에서는 같은 폐엽의 반복인지, 서로 다른 부위의 반복인지 구분합니다. 국소 반복은 기도 폐쇄·구조 이상을, 다발성 반복은 흡인·면역저하·낭성섬유증 같은 전신 또는 숙주 요인을 시사할 수 있습니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T11:35:40.560Z",
+    "clinicalPriority": ""
+  },
+  {
+    "id": "02 Diseases/02 호흡기/병원획득 폐렴 (Hospital-Acquired Pneumonia).md",
+    "slug": "MDIg7Zi47Z2h6riwL-uzkeybkO2ajeuTnSDtj5DroLQgKEhvc3BpdGFsLUFjcXVpcmVkIFBuZXVtb25pYSkubWQ",
+    "title": "병원획득 폐렴 (Hospital-Acquired Pneumonia)",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/병원획득 폐렴 (Hospital-Acquired Pneumonia).md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "폐렴",
+      "병원획득 폐렴"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "HAP",
+      "hospital acquired pneumonia",
+      "postoperative pneumonia",
+      "ventilator-associated pneumonia",
+      "VAP"
+    ],
+    "chiefComplaints": [
+      "기침",
+      "발열",
+      "호흡곤란"
+    ],
+    "definition": "",
+    "overview": [
+      "• 새 또는 진행하는 폐침윤과 임상적 감염 소견을 함께 해석하며, 울혈·무기폐·흡인 같은 대안을 점검합니다.",
+      "• 배양 검체와 임상 경과를 사용해 초기 치료를 재평가하고 불필요한 광범위 항균제는 축소합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심 포인트",
+        "content": [
+          "• 새 또는 진행하는 폐침윤과 임상적 감염 소견을 함께 해석하며, 울혈·무기폐·흡인 같은 대안을 점검합니다.",
+          "• 배양 검체와 임상 경과를 사용해 초기 치료를 재평가하고 불필요한 광범위 항균제는 축소합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T11:35:38.204Z",
+    "clinicalPriority": ""
   },
   {
     "id": "02 Diseases/02 호흡기/부폐렴성 흉수 (Parapneumonic Effusion).md",
@@ -9512,7 +9869,12 @@
     "relatedSpecialties": [],
     "emergencyClassification": [],
     "oncologyClassification": [],
-    "aliases": [],
+    "aliases": [
+      "잠복결핵감염",
+      "잠복 결핵 감염",
+      "latent tuberculosis infection",
+      "LTBI"
+    ],
     "chiefComplaints": [
       "무증상"
     ],
@@ -9573,7 +9935,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-09T07:29:04.596Z",
+    "updatedAt": "2026-08-12T08:57:45.346Z",
     "clinicalPriority": "tier_2",
     "contentMeta": {
       "contentUpdatedAt": "",
@@ -11545,7 +11907,12 @@
     "relatedSpecialties": [],
     "emergencyClassification": [],
     "oncologyClassification": [],
-    "aliases": [],
+    "aliases": [
+      "폐동맥고혈압",
+      "폐동맥 고혈압",
+      "pulmonary arterial hypertension",
+      "PAH"
+    ],
     "chiefComplaints": [
       "고혈압",
       "호흡곤란",
@@ -11617,7 +11984,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T16:52:18.831Z",
+    "updatedAt": "2026-08-12T08:57:47.828Z",
     "clinicalPriority": "tier_2",
     "contentMeta": {
       "contentUpdatedAt": "2026-07-30",
@@ -11713,16 +12080,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T16:51:24.395Z",
+    "updatedAt": "2026-08-12T11:36:14.537Z",
     "clinicalPriority": "tier_1",
     "documentRole": "group_overview",
     "groupOverview": {
       "memberTitles": [
-        "정형 폐렴 (Typical Pneumonia)",
-        "비정형 폐렴 (Atypical Pneumonia)",
-        "마이코플라스마 폐렴 (Mycoplasma Pneumonia)",
-        "클렙시엘라 폐렴 (Klebsiella Pneumonia)",
-        "폐포자충 폐렴 (Pneumocystis Pneumonia)"
+        "병원획득 폐렴 (Hospital-Acquired Pneumonia)",
+        "반복성 폐렴 (Recurrent Pneumonia)"
       ]
     },
     "contentMeta": {
@@ -12677,6 +13041,38 @@
       }
     ],
     "updatedAt": "2026-05-05T15:12:02.705Z",
+    "clinicalPriority": ""
+  },
+  {
+    "id": "02 Diseases/02 호흡기/호흡부전 (Respiratory Failure).md",
+    "slug": "MDIg7Zi47Z2h6riwL-2YuO2doeu2gOyghCAoUmVzcGlyYXRvcnkgRmFpbHVyZSkubWQ",
+    "title": "호흡부전 (Respiratory Failure)",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/호흡부전 (Respiratory Failure).md",
+    "specialty": "02 호흡기",
+    "category": "호흡기 응급",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "respiratory failure"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 저산소혈증 또는 환기부전이 있는지 혈액가스와 임상 호흡 상태로 판단합니다.",
+      "• 기도·산소화·환기를 안정화하면서 COPD, 폐렴, 폐부종, 신경근육 원인 등을 병행해 찾습니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 저산소혈증 또는 환기부전이 있는지 혈액가스와 임상 호흡 상태로 판단합니다.",
+          "• 기도·산소화·환기를 안정화하면서 COPD, 폐렴, 폐부종, 신경근육 원인 등을 병행해 찾습니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:48:54.530Z",
     "clinicalPriority": ""
   },
   {
@@ -19289,6 +19685,85 @@
         }
       ]
     }
+  },
+  {
+    "id": "02 Diseases/03 소화기/두빈-존슨 증후군 (Dubin-Johnson Syndrome).md",
+    "slug": "MDMg7IaM7ZmU6riwL-uRkOu5iC3sobTsiqgg7Kad7ZuE6rWwIChEdWJpbi1Kb2huc29uIFN5bmRyb21lKS5tZA",
+    "title": "두빈-존슨 증후군 (Dubin-Johnson Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/두빈-존슨 증후군 (Dubin-Johnson Syndrome).md",
+    "specialty": "03 소화기",
+    "category": "간 질환",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Dubin-Johnson syndrome",
+      "benign hereditary jaundice"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 결합형 고빌리루빈혈증을 보이는 양성 유전성 빌리루빈 배설 장애입니다.",
+      "• 간효소가 대체로 정상이고 흑색 간 소견이 단서가 될 수 있습니다.",
+      "• 간세포 손상이나 담도 폐쇄처럼 간기능 이상·담즙정체의 경고 소견이 있으면 별도 평가가 필요합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 결합형 고빌리루빈혈증을 보이는 양성 유전성 빌리루빈 배설 장애입니다.",
+          "• 간효소가 대체로 정상이고 흑색 간 소견이 단서가 될 수 있습니다."
+        ]
+      },
+      {
+        "title": "감별",
+        "content": [
+          "• 간세포 손상이나 담도 폐쇄처럼 간기능 이상·담즙정체의 경고 소견이 있으면 별도 평가가 필요합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:48:36.409Z",
+    "clinicalPriority": ""
+  },
+  {
+    "id": "02 Diseases/03 소화기/버드-키아리 증후군 (Budd-Chiari Syndrome).md",
+    "slug": "MDMg7IaM7ZmU6riwL-uyhOuTnC3tgqTslYTrpqwg7Kad7ZuE6rWwIChCdWRkLUNoaWFyaSBTeW5kcm9tZSkubWQ",
+    "title": "버드-키아리 증후군 (Budd-Chiari Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/버드-키아리 증후군 (Budd-Chiari Syndrome).md",
+    "specialty": "03 소화기",
+    "category": "간 혈관 질환",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Budd-Chiari syndrome"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 간정맥 유출로 폐쇄로 인한 간울혈 질환입니다.",
+      "• 복통, 복수, 간비대와 간기능 이상을 보일 수 있으며 혈전성향증·골수증식종양을 함께 평가합니다.",
+      "• 도플러 초음파 등 영상으로 유출로 폐쇄를 확인하고, 항응고·혈관 중재·간이식 여부를 중증도에 따라 단계적으로 검토합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 간정맥 유출로 폐쇄로 인한 간울혈 질환입니다.",
+          "• 복통, 복수, 간비대와 간기능 이상을 보일 수 있으며 혈전성향증·골수증식종양을 함께 평가합니다."
+        ]
+      },
+      {
+        "title": "접근",
+        "content": [
+          "• 도플러 초음파 등 영상으로 유출로 폐쇄를 확인하고, 항응고·혈관 중재·간이식 여부를 중증도에 따라 단계적으로 검토합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T18:57:03.576Z",
+    "clinicalPriority": ""
   },
   {
     "id": "02 Diseases/03 소화기/소화기.md",
@@ -26782,6 +27257,38 @@
     }
   },
   {
+    "id": "02 Diseases/03 소화기/휘플병 (Whipple Disease).md",
+    "slug": "MDMg7IaM7ZmU6riwL-2cmO2UjOuzkSAoV2hpcHBsZSBEaXNlYXNlKS5tZA",
+    "title": "휘플병 (Whipple Disease)",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/휘플병 (Whipple Disease).md",
+    "specialty": "03 소화기",
+    "category": "소장 질환",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Whipple disease"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 체중 감소·설사·관절통과 전신 침범을 함께 보일 수 있는 드문 감염성 질환입니다.",
+      "• 조직 검사와 병원체 확인을 통해 진단하며 중추신경계 침범 여부를 함께 판단합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 체중 감소·설사·관절통과 전신 침범을 함께 보일 수 있는 드문 감염성 질환입니다.",
+          "• 조직 검사와 병원체 확인을 통해 진단하며 중추신경계 침범 여부를 함께 판단합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:48:44.169Z",
+    "clinicalPriority": ""
+  },
+  {
     "id": "02 Diseases/04 내분비/가족성 고콜레스테롤혈증 (Familial Hypercholesterolemia).md",
     "slug": "MDQg64K067aE67mEL-qwgOyhseyEsSDqs6DsvZzroIjsiqTthYzroaTtmIjspp0gKEZhbWlsaWFsIEh5cGVyY2hvbGVzdGVyb2xlbWlhKS5tZA",
     "title": "가족성 고콜레스테롤혈증 (Familial Hypercholesterolemia)",
@@ -29780,6 +30287,38 @@
       "population": "general",
       "canonicalDisease": ""
     }
+  },
+  {
+    "id": "02 Diseases/04 내분비/대사증후군 (Metabolic Syndrome).md",
+    "slug": "MDQg64K067aE67mEL-uMgOyCrOymne2bhOq1sCAoTWV0YWJvbGljIFN5bmRyb21lKS5tZA",
+    "title": "대사증후군 (Metabolic Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/04 내분비/대사증후군 (Metabolic Syndrome).md",
+    "specialty": "04 내분비",
+    "category": "당대사 및 지질 질환",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "metabolic syndrome"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 복부 비만, 혈압, 혈당, 중성지방, HDL 이상을 묶어 심혈관 위험을 평가하는 개념입니다.",
+      "• 체중·식사·운동과 혈압·당대사·지질의 개별 위험인자를 함께 교정합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 복부 비만, 혈압, 혈당, 중성지방, HDL 이상을 묶어 심혈관 위험을 평가하는 개념입니다.",
+          "• 체중·식사·운동과 혈압·당대사·지질의 개별 위험인자를 함께 교정합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:49:00.871Z",
+    "clinicalPriority": ""
   },
   {
     "id": "02 Diseases/04 내분비/독성 주기 마비 (Thyrotoxic Periodic Paralysis).md",
@@ -38772,6 +39311,59 @@
     }
   },
   {
+    "id": "02 Diseases/05 신장/폐신장 증후군 (Pulmonary-Renal Syndrome).md",
+    "slug": "MDUg7Iug7J6lL-2PkOyLoOyepSDspp3tm4TqtbAgKFB1bG1vbmFyeS1SZW5hbCBTeW5kcm9tZSkubWQ",
+    "title": "폐신장 증후군 (Pulmonary-Renal Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/05 신장/폐신장 증후군 (Pulmonary-Renal Syndrome).md",
+    "specialty": "05 신장",
+    "category": "신장",
+    "classification": [
+      "사구체질환"
+    ],
+    "relatedSpecialties": [
+      "호흡기",
+      "류마티스"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "폐신장 증후군",
+      "pulmonary-renal syndrome"
+    ],
+    "chiefComplaints": [
+      "객혈",
+      "혈뇨"
+    ],
+    "definition": "",
+    "overview": [
+      "• 폐포출혈과 급속진행성 사구체신염이 함께 나타나는 임상 증후군이다.",
+      "• 객혈·빈혈·저산소혈증과 혈뇨·단백뇨·크레아티닌 상승이 함께 있으면 즉시 의심한다.",
+      "• ANCA, 항GBM항체, 보체를 포함한 면역 평가와 신장 생검을 계획하며, 장기위협 시 전문팀과 면역억제 치료를 신속히 결정한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 폐포출혈과 급속진행성 사구체신염이 함께 나타나는 임상 증후군이다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 객혈·빈혈·저산소혈증과 혈뇨·단백뇨·크레아티닌 상승이 함께 있으면 즉시 의심한다."
+        ]
+      },
+      {
+        "title": "즉시 할 일",
+        "content": [
+          "• ANCA, 항GBM항체, 보체를 포함한 면역 평가와 신장 생검을 계획하며, 장기위협 시 전문팀과 면역억제 치료를 신속히 결정한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:05:52.490Z",
+    "clinicalPriority": "tier_1"
+  },
+  {
     "id": "02 Diseases/05 신장/혈뇨.md",
     "slug": "MDUg7Iug7J6lL-2YiOuHqC5tZA",
     "title": "혈뇨",
@@ -42247,7 +42839,7 @@
         "content": [
           "| 임상 묶음 | 감별의 중심 | 연결 질환 |",
           "| --- | --- | --- |",
-          "| 관절 중심 질환 | 급성 단관절은 감염·결정, 만성 대칭성 다관절은 RA, 비염증성 통증은 OA를 우선 구분 | [[감염 관절염 (Infectious Arthritis)]], [[통풍 (Gout)]], [[류마티스 관절염 (Rheumatoid Arthritis)]], [[골관절염 (Osteoarthritis)]] |",
+          "| 관절 중심 질환 | 급성 단관절은 감염·결정, 만성 대칭성 다관절은 RA, 비염증성 통증은 OA를 우선 구분 | [[감염 관절염 (Infectious Arthritis)]], [[통풍 (Gout)]], [[칼슘피로인산 침착질환 (CPPD) (Calcium Pyrophosphate Deposition Disease)]], [[류마티스 관절염 (Rheumatoid Arthritis)]], [[골관절염 (Osteoarthritis)]] |",
           "| 척추·부착부 질환 | 젊은 연령의 염증성 요통·부착부염·최근 감염은 척추관절병증 계열 단서 | [[강직성 척추염 (Ankylosing Spondylitis)]], [[반응성 관절염 (Reactive Arthritis)]] |",
           "| 전신 자가면역 | 피부·점막, 눈·입 건조, 근력 저하, 피부 경화와 다장기 침범 양상을 비교 | [[전신 홍반 루푸스 (Systemic Lupus Erythematosus)]], [[쇼그렌 증후군 (Sjögren's Syndrome)]], [[염증성 근병증 (Inflammatory Myopathy)]], [[전신 경화증 (Systemic Sclerosis)]], [[베체트병 (Behçet's Disease)]] |",
           "| 혈전·림프절 | 반복 혈전·유산은 항인지질 증후군, 통증성 림프절 비대는 기쿠치병 등 별도 범주를 고려 | [[항인지질 증후군 (Antiphospholipid Syndrome)]], [[기쿠치병 (Kikuchi Disease)]] |"
@@ -42274,11 +42866,12 @@
           "• [[전신 경화증 (Systemic Sclerosis)]]",
           "• [[전신 홍반 루푸스 (Systemic Lupus Erythematosus)]]",
           "• [[통풍 (Gout)]]",
+          "• [[칼슘피로인산 침착질환 (CPPD) (Calcium Pyrophosphate Deposition Disease)]]",
           "• [[항인지질 증후군 (Antiphospholipid Syndrome)]]"
         ]
       }
     ],
-    "updatedAt": "2026-08-10T15:54:03.590Z",
+    "updatedAt": "2026-08-12T17:16:57.513Z",
     "clinicalPriority": "",
     "documentRole": "group_overview",
     "groupOverview": {
@@ -42295,6 +42888,7 @@
         "전신 경화증 (Systemic Sclerosis)",
         "전신 홍반 루푸스 (Systemic Lupus Erythematosus)",
         "통풍 (Gout)",
+        "칼슘피로인산 침착질환 (CPPD) (Calcium Pyrophosphate Deposition Disease)",
         "항인지질 증후군 (Antiphospholipid Syndrome)"
       ]
     }
@@ -42909,6 +43503,84 @@
         {
           "label": "The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus.",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42336388/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "02 Diseases/07 류마티스/칼슘피로인산 침착질환 (CPPD) (Calcium Pyrophosphate Deposition Disease).md",
+    "slug": "MDcg66WY66eI7Yuw7IqkL-y5vOyKmO2UvOuhnOyduOyCsCDsuajssKnsp4jtmZggKENQUEQpIChDYWxjaXVtIFB5cm9waG9zcGhhdGUgRGVwb3NpdGlvbiBEaXNlYXNlKS5tZA",
+    "title": "칼슘피로인산 침착질환 (CPPD) (Calcium Pyrophosphate Deposition Disease)",
+    "sourcePath": "source_notes/02 Diseases/07 류마티스/칼슘피로인산 침착질환 (CPPD) (Calcium Pyrophosphate Deposition Disease).md",
+    "specialty": "07 류마티스",
+    "category": "류마티스",
+    "classification": [
+      "류마티스"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "CPPD",
+      "Pseudogout",
+      "Calcium pyrophosphate deposition disease",
+      "칼슘 피로인산 침착질환",
+      "가성통풍"
+    ],
+    "chiefComplaints": [
+      "관절 통증/붓기",
+      "부종"
+    ],
+    "definition": "",
+    "overview": [
+      "• 급성 단관절염에서는 감염 관절염을 먼저 배제하고, 가능하면 관절액에서 CPP 결정을 확인한다.",
+      "• 급성 발작은 NSAID, 콜히친 또는 글루코코르티코이드를 환자 위험도에 맞춰 사용한다. 반복되거나 이른 연령에 발생하면 관련 대사질환을 평가한다.",
+      "• CPP 결정이 관절 연골·섬유연골에 침착해 급성 또는 만성 염증성 관절염을 일으키는 질환이다. 급성 발작은 가성통풍이라고도 부른다.",
+      "• 무릎과 손목이 흔하며, 고령·골관절염·유전성 혈색소침착증·부갑상샘기능항진증·저마그네슘혈증 등이 단서가 된다.",
+      "| 항목 | CPPD | 통풍 |"
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• CPP 결정이 관절 연골·섬유연골에 침착해 급성 또는 만성 염증성 관절염을 일으키는 질환이다. 급성 발작은 가성통풍이라고도 부른다.",
+          "• 무릎과 손목이 흔하며, 고령·골관절염·유전성 혈색소침착증·부갑상샘기능항진증·저마그네슘혈증 등이 단서가 된다."
+        ]
+      },
+      {
+        "title": "통풍과 감별",
+        "content": [
+          "| 항목 | CPPD | 통풍 |",
+          "| --- | --- | --- |",
+          "| 흔한 관절 | 무릎, 손목 | 제1 중족지절관절 |",
+          "| 결정 | 마름모 모양, 약한 양성 복굴절 | 바늘 모양, 강한 음성 복굴절 |",
+          "| 영상 | 연골석회화(chondrocalcinosis) | 요산 침착·미란 |"
+        ]
+      },
+      {
+        "title": "진단·치료",
+        "content": [
+          "• 급성 단관절염에서는 감염 관절염을 먼저 배제하고, 가능하면 관절액에서 CPP 결정을 확인한다.",
+          "• 급성 발작은 NSAID, 콜히친 또는 글루코코르티코이드를 환자 위험도에 맞춰 사용한다. 반복되거나 이른 연령에 발생하면 관련 대사질환을 평가한다."
+        ]
+      },
+      {
+        "title": "관련 문서",
+        "content": [
+          "• [[통풍 (Gout)]]",
+          "• [[감염 관절염 (Infectious Arthritis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:16:45.457Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "2023 ACR/EULAR Classification Criteria for CPPD",
+          "url": "https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.42619"
         }
       ]
     }
@@ -44189,6 +44861,88 @@
     }
   },
   {
+    "id": "02 Diseases/08 감염/교상 감염 (Bite Wound Infection).md",
+    "slug": "MDgg6rCQ7Je8L-q1kOyDgSDqsJDsl7wgKEJpdGUgV291bmQgSW5mZWN0aW9uKS5tZA",
+    "title": "교상 감염 (Bite Wound Infection)",
+    "sourcePath": "source_notes/02 Diseases/08 감염/교상 감염 (Bite Wound Infection).md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "지역사회 감염",
+      "물림 및 교상 감염"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "동물 교상 감염",
+      "개 물림",
+      "고양이 물림 감염",
+      "사람 물림 감염",
+      "bite wound infection"
+    ],
+    "chiefComplaints": [
+      "상처",
+      "발열"
+    ],
+    "definition": "",
+    "overview": [
+      "• 상처 세척과 변연 평가, 파상풍 및 광견병 노출 평가를 우선합니다.",
+      "• 배양은 이미 감염된 상처나 중증·심부 감염에서 고려하며, 예방적 항균제 필요성은 상처 부위와 숙주 위험도에 따라 판단합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심 포인트",
+        "content": [
+          "• 상처 세척과 변연 평가, 파상풍 및 광견병 노출 평가를 우선합니다.",
+          "• 배양은 이미 감염된 상처나 중증·심부 감염에서 고려하며, 예방적 항균제 필요성은 상처 부위와 숙주 위험도에 따라 판단합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T11:35:28.529Z",
+    "clinicalPriority": ""
+  },
+  {
+    "id": "02 Diseases/08 감염/급성 HIV 감염 (Acute HIV Infection).md",
+    "slug": "MDgg6rCQ7Je8L-q4ieyEsSBISVYg6rCQ7Je8IChBY3V0ZSBISVYgSW5mZWN0aW9uKS5tZA",
+    "title": "급성 HIV 감염 (Acute HIV Infection)",
+    "sourcePath": "source_notes/02 Diseases/08 감염/급성 HIV 감염 (Acute HIV Infection).md",
+    "specialty": "08 감염",
+    "category": "바이러스 감염",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "acute HIV infection",
+      "acute retroviral syndrome"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 최근 노출 뒤 발열, 인후통, 발진, 림프절병증처럼 비특이적인 급성 레트로바이러스 증후군으로 나타날 수 있습니다.",
+      "• 초기 Ag/Ab 검사 결과가 음성 또는 불확정이어도 임상적으로 의심되면 HIV RNA 검사를 추가합니다.",
+      "• 진단 후 신속한 HIV 진료 연계와 항레트로바이러스 치료를 진행하고, 동반 STI 및 파트너 예방 조치를 함께 다룹니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 최근 노출 뒤 발열, 인후통, 발진, 림프절병증처럼 비특이적인 급성 레트로바이러스 증후군으로 나타날 수 있습니다.",
+          "• 초기 Ag/Ab 검사 결과가 음성 또는 불확정이어도 임상적으로 의심되면 HIV RNA 검사를 추가합니다."
+        ]
+      },
+      {
+        "title": "접근",
+        "content": [
+          "• 진단 후 신속한 HIV 진료 연계와 항레트로바이러스 치료를 진행하고, 동반 STI 및 파트너 예방 조치를 함께 다룹니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T18:57:06.139Z",
+    "clinicalPriority": ""
+  },
+  {
     "id": "02 Diseases/08 감염/기생충.md",
     "slug": "MDgg6rCQ7Je8L-q4sOyDney2qS5tZA",
     "title": "기생충",
@@ -44201,7 +44955,10 @@
     "relatedSpecialties": [],
     "emergencyClassification": [],
     "oncologyClassification": [],
-    "aliases": [],
+    "aliases": [
+      "parasitic infection",
+      "helminth infection"
+    ],
     "chiefComplaints": [],
     "definition": "",
     "overview": [
@@ -44251,7 +45008,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T16:10:11.621Z",
+    "updatedAt": "2026-08-12T19:01:32.846Z",
     "clinicalPriority": "",
     "documentRole": "group_overview",
     "groupOverview": {
@@ -44276,7 +45033,10 @@
     "relatedSpecialties": [],
     "emergencyClassification": [],
     "oncologyClassification": [],
-    "aliases": [],
+    "aliases": [
+      "other infectious diseases",
+      "miscellaneous infection"
+    ],
     "chiefComplaints": [],
     "definition": "",
     "overview": [
@@ -44335,7 +45095,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T17:18:44.914Z",
+    "updatedAt": "2026-08-12T19:01:37.956Z",
     "clinicalPriority": "",
     "documentRole": "group_overview",
     "groupOverview": {
@@ -44394,6 +45154,71 @@
       "relationToParent": "",
       "population": "",
       "canonicalDisease": "기타 감염질환"
+    }
+  },
+  {
+    "id": "02 Diseases/08 감염/노로바이러스 감염 (Norovirus Infection).md",
+    "slug": "MDgg6rCQ7Je8L-uFuOuhnOuwlOydtOufrOyKpCDqsJDsl7wgKE5vcm92aXJ1cyBJbmZlY3Rpb24pLm1k",
+    "title": "노로바이러스 감염 (Norovirus Infection)",
+    "sourcePath": "source_notes/02 Diseases/08 감염/노로바이러스 감염 (Norovirus Infection).md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "바이러스"
+    ],
+    "relatedSpecialties": [
+      "소아청소년과",
+      "소화기"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Norovirus infection",
+      "norovirus gastroenteritis",
+      "노로바이러스 감염"
+    ],
+    "chiefComplaints": [
+      "구토",
+      "설사",
+      "복통"
+    ],
+    "definition": "",
+    "overview": [
+      "• 급성 위장관염과 집단 유행을 흔히 일으키는 전염성 높은 바이러스 감염이다.",
+      "• 짧은 잠복기 뒤 갑작스러운 구토, 비혈성 수양성 설사, 복통이 나타나며 탈수가 가장 중요한 합병증이다.",
+      "• 대부분 수액·전해질 보충 중심의 지지 치료로 회복한다. 손 위생과 오염 환경 소독, 증상 소실 뒤에도 전파 예방을 위한 주의가 필요하다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 급성 위장관염과 집단 유행을 흔히 일으키는 전염성 높은 바이러스 감염이다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 짧은 잠복기 뒤 갑작스러운 구토, 비혈성 수양성 설사, 복통이 나타나며 탈수가 가장 중요한 합병증이다."
+        ]
+      },
+      {
+        "title": "관리와 예방",
+        "content": [
+          "• 대부분 수액·전해질 보충 중심의 지지 치료로 회복한다. 손 위생과 오염 환경 소독, 증상 소실 뒤에도 전파 예방을 위한 주의가 필요하다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:48:25.316Z",
+    "clinicalPriority": "tier_2",
+    "contentMeta": {
+      "contentUpdatedAt": "2026-08-12",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "CDC: About Norovirus",
+          "url": "https://www.cdc.gov/norovirus/about/index.html"
+        }
+      ]
     }
   },
   {
@@ -45860,6 +46685,48 @@
     }
   },
   {
+    "id": "02 Diseases/08 감염/물림 및 교상 감염.md",
+    "slug": "MDgg6rCQ7Je8L-usvOumvCDrsI8g6rWQ7IOBIOqwkOyXvC5tZA",
+    "title": "물림 및 교상 감염",
+    "sourcePath": "source_notes/02 Diseases/08 감염/물림 및 교상 감염.md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "지역사회 감염",
+      "물림 및 교상 감염"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "bite wound infection"
+    ],
+    "chiefComplaints": [
+      "상처",
+      "발열"
+    ],
+    "definition": "",
+    "overview": [
+      "• [[교상 감염 (Bite Wound Infection)]]"
+    ],
+    "sections": [
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[교상 감염 (Bite Wound Infection)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T11:42:29.748Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": [
+        "교상 감염 (Bite Wound Infection)"
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/08 감염/미코플라스마 (Mycoplasma).md",
     "slug": "MDgg6rCQ7Je8L-uvuOy9lO2UjOudvOyKpOuniCAoTXljb3BsYXNtYSkubWQ",
     "title": "미코플라스마 (Mycoplasma)",
@@ -46010,6 +46877,8 @@
           "• [[공수병 (Rabies)]]",
           "• [[단순포진 감염 (Herpes Simplex Infection)]]",
           "• [[뎅기열 (Dengue Fever)]]",
+          "• [[노로바이러스 감염 (Norovirus Infection)]]",
+          "• [[호흡기세포융합바이러스 감염 (Respiratory Syncytial Virus Infection)]]",
           "• [[수두-대상포진 바이러스 감염 (Varicella-Zoster Virus Infection)]]",
           "• [[신증후군 출혈열 (Hemorrhagic Fever with Renal Syndrome)]]",
           "• [[아데노바이러스 감염 (Adenovirus Infection)]]",
@@ -46024,7 +46893,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T15:59:22.013Z",
+    "updatedAt": "2026-08-12T09:49:35.895Z",
     "clinicalPriority": "",
     "documentRole": "group_overview",
     "groupOverview": {
@@ -46034,6 +46903,8 @@
         "공수병 (Rabies)",
         "단순포진 감염 (Herpes Simplex Infection)",
         "뎅기열 (Dengue Fever)",
+        "노로바이러스 감염 (Norovirus Infection)",
+        "호흡기세포융합바이러스 감염 (Respiratory Syncytial Virus Infection)",
         "수두-대상포진 바이러스 감염 (Varicella-Zoster Virus Infection)",
         "신증후군 출혈열 (Hemorrhagic Fever with Renal Syndrome)",
         "아데노바이러스 감염 (Adenovirus Infection)",
@@ -46849,6 +47720,66 @@
     }
   },
   {
+    "id": "02 Diseases/08 감염/식중독 및 식품매개 감염.md",
+    "slug": "MDgg6rCQ7Je8L-yLneykkeuPhSDrsI8g7Iud7ZKI66ek6rCcIOqwkOyXvC5tZA",
+    "title": "식중독 및 식품매개 감염",
+    "sourcePath": "source_notes/02 Diseases/08 감염/식중독 및 식품매개 감염.md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "지역사회 감염",
+      "식중독 및 식품매개 감염"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "식품매개 감염",
+      "foodborne infection"
+    ],
+    "chiefComplaints": [
+      "설사",
+      "구토",
+      "복통"
+    ],
+    "definition": "",
+    "overview": [
+      "• [[Bacillus cereus 식중독]]",
+      "• [[비장티푸스 살모넬라 (Non-typhoidal Salmonella)]]",
+      "• [[설사 (비염증성) (Diarrhea (Non-inflammatory))]]",
+      "• [[설사 (염증성) (Diarrhea (Inflammatory))]]",
+      "• [[이질 (Dysentery)]]"
+    ],
+    "sections": [
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[Bacillus cereus 식중독]]",
+          "• [[비장티푸스 살모넬라 (Non-typhoidal Salmonella)]]",
+          "• [[설사 (비염증성) (Diarrhea (Non-inflammatory))]]",
+          "• [[설사 (염증성) (Diarrhea (Inflammatory))]]",
+          "• [[이질 (Dysentery)]]",
+          "• [[캄필로박터 (Campylobacter)]]",
+          "• [[콜레라 (Cholera)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T11:35:30.942Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": [
+        "Bacillus cereus 식중독",
+        "비장티푸스 살모넬라 (Non-typhoidal Salmonella)",
+        "설사 (비염증성) (Diarrhea (Non-inflammatory))",
+        "설사 (염증성) (Diarrhea (Inflammatory))",
+        "이질 (Dysentery)",
+        "캄필로박터 (Campylobacter)",
+        "콜레라 (Cholera)"
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/08 감염/신증후군 출혈열 (Hemorrhagic Fever with Renal Syndrome).md",
     "slug": "MDgg6rCQ7Je8L-yLoOymne2bhOq1sCDstpztmIjsl7QgKEhlbW9ycmhhZ2ljIEZldmVyIHdpdGggUmVuYWwgU3luZHJvbWUpLm1k",
     "title": "신증후군 출혈열 (Hemorrhagic Fever with Renal Syndrome)",
@@ -47410,6 +48341,62 @@
     }
   },
   {
+    "id": "02 Diseases/08 감염/여행자·수인성 감염.md",
+    "slug": "MDgg6rCQ7Je8L-yXrO2WieyekMK37IiY7J247ISxIOqwkOyXvC5tZA",
+    "title": "여행자·수인성 감염",
+    "sourcePath": "source_notes/02 Diseases/08 감염/여행자·수인성 감염.md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "지역사회 감염",
+      "여행자·수인성 감염"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "여행자 감염",
+      "여행자 감염병",
+      "waterborne infection"
+    ],
+    "chiefComplaints": [
+      "발열",
+      "설사"
+    ],
+    "definition": "",
+    "overview": [
+      "• [[말라리아 (Malaria)]]",
+      "• [[뎅기열 (Dengue Fever)]]",
+      "• [[치쿤구니아열 (Chikungunya Fever)]]",
+      "• [[콜레라 (Cholera)]]",
+      "• [[비장티푸스 살모넬라 (Non-typhoidal Salmonella)]]"
+    ],
+    "sections": [
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[말라리아 (Malaria)]]",
+          "• [[뎅기열 (Dengue Fever)]]",
+          "• [[치쿤구니아열 (Chikungunya Fever)]]",
+          "• [[콜레라 (Cholera)]]",
+          "• [[비장티푸스 살모넬라 (Non-typhoidal Salmonella)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T11:35:35.785Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": [
+        "말라리아 (Malaria)",
+        "뎅기열 (Dengue Fever)",
+        "치쿤구니아열 (Chikungunya Fever)",
+        "콜레라 (Cholera)",
+        "비장티푸스 살모넬라 (Non-typhoidal Salmonella)"
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/08 감염/연조직염 (Cellulitis).md",
     "slug": "MDgg6rCQ7Je8L-yXsOyhsOyngeyXvCAoQ2VsbHVsaXRpcykubWQ",
     "title": "연조직염 (Cellulitis)",
@@ -47498,6 +48485,73 @@
       "guidelineYear": "",
       "sources": []
     }
+  },
+  {
+    "id": "02 Diseases/08 감염/예르시니아증 (Yersiniosis).md",
+    "slug": "MDgg6rCQ7Je8L-yYiOultOyLnOuLiOyVhOymnSAoWWVyc2luaW9zaXMpLm1k",
+    "title": "예르시니아증 (Yersiniosis)",
+    "sourcePath": "source_notes/02 Diseases/08 감염/예르시니아증 (Yersiniosis).md",
+    "specialty": "08 감염",
+    "category": "세균 감염",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "yersiniosis",
+      "Yersinia infection"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 발열·설사·복통이 충수염과 유사하게 나타날 수 있어 식품 노출력과 장간막 림프절 소견이 도움이 됩니다.",
+      "• 중증도와 숙주 위험도에 따라 수액 치료와 항균제 필요성을 구분합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 발열·설사·복통이 충수염과 유사하게 나타날 수 있어 식품 노출력과 장간막 림프절 소견이 도움이 됩니다.",
+          "• 중증도와 숙주 위험도에 따라 수액 치료와 항균제 필요성을 구분합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:48:51.943Z",
+    "clinicalPriority": ""
+  },
+  {
+    "id": "02 Diseases/08 감염/요충 감염 (Enterobiasis).md",
+    "slug": "MDgg6rCQ7Je8L-yalOy2qSDqsJDsl7wgKEVudGVyb2JpYXNpcykubWQ",
+    "title": "요충 감염 (Enterobiasis)",
+    "sourcePath": "source_notes/02 Diseases/08 감염/요충 감염 (Enterobiasis).md",
+    "specialty": "08 감염",
+    "category": "기생충 감염",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "pinworm infection",
+      "enterobiasis",
+      "요충 감염"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 야간 항문 주위 소양감이 전형적 단서입니다.",
+      "• 재감염을 줄이기 위해 동거 접촉자와 위생 조치를 함께 고려합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 야간 항문 주위 소양감이 전형적 단서입니다.",
+          "• 재감염을 줄이기 위해 동거 접촉자와 위생 조치를 함께 고려합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:48:46.730Z",
+    "clinicalPriority": ""
   },
   {
     "id": "02 Diseases/08 감염/요충증 (Enterobiasis).md",
@@ -48557,11 +49611,14 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T17:18:44.923Z",
+    "updatedAt": "2026-08-12T11:36:16.937Z",
     "clinicalPriority": "",
     "documentRole": "group_overview",
     "groupOverview": {
       "memberTitles": [
+        "물림 및 교상 감염",
+        "식중독 및 식품매개 감염",
+        "여행자·수인성 감염",
         "비장티푸스 살모넬라 (Non-typhoidal Salmonella)",
         "설사 (비염증성) (Diarrhea (Non-inflammatory))",
         "설사 (염증성) (Diarrhea (Inflammatory))",
@@ -48715,7 +49772,9 @@
     "relatedSpecialties": [],
     "emergencyClassification": [],
     "oncologyClassification": [],
-    "aliases": [],
+    "aliases": [
+      "fungal infection"
+    ],
     "chiefComplaints": [],
     "definition": "",
     "overview": [
@@ -48764,7 +49823,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T16:51:38.867Z",
+    "updatedAt": "2026-08-12T19:01:35.425Z",
     "clinicalPriority": "",
     "documentRole": "group_overview",
     "groupOverview": {
@@ -48862,6 +49921,58 @@
       "guidelineYear": "",
       "sources": []
     }
+  },
+  {
+    "id": "02 Diseases/08 감염/치성 감염 (Odontogenic Infection).md",
+    "slug": "MDgg6rCQ7Je8L-y5mOyEsSDqsJDsl7wgKE9kb250b2dlbmljIEluZmVjdGlvbikubWQ",
+    "title": "치성 감염 (Odontogenic Infection)",
+    "sourcePath": "source_notes/02 Diseases/08 감염/치성 감염 (Odontogenic Infection).md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "기타 감염질환"
+    ],
+    "relatedSpecialties": [
+      "이비인후과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "치성 감염",
+      "odontogenic infection"
+    ],
+    "chiefComplaints": [
+      "치통",
+      "얼굴 부종"
+    ],
+    "definition": "",
+    "overview": [
+      "• 치아·치주에서 시작한 다균성 감염으로, 인접 안면·경부 심부 공간으로 퍼질 수 있다.",
+      "• 발열, 삼킴곤란, 침흘림, 개구장애, 구강저 부종, 호흡곤란은 심부경부감염·기도위협을 시사한다.",
+      "• 기도 위험을 먼저 평가하고, 감염원 배농·치과 처치와 적절한 항생제를 병행한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 치아·치주에서 시작한 다균성 감염으로, 인접 안면·경부 심부 공간으로 퍼질 수 있다."
+        ]
+      },
+      {
+        "title": "위험 신호",
+        "content": [
+          "• 발열, 삼킴곤란, 침흘림, 개구장애, 구강저 부종, 호흡곤란은 심부경부감염·기도위협을 시사한다."
+        ]
+      },
+      {
+        "title": "관리",
+        "content": [
+          "• 기도 위험을 먼저 평가하고, 감염원 배농·치과 처치와 적절한 항생제를 병행한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:05:49.893Z",
+    "clinicalPriority": "tier_2"
   },
   {
     "id": "02 Diseases/08 감염/치쿤구니아열 (Chikungunya Fever).md",
@@ -50216,6 +51327,39 @@
     }
   },
   {
+    "id": "02 Diseases/08 감염/포충증 (Echinococcosis).md",
+    "slug": "MDgg6rCQ7Je8L-2PrOy2qeymnSAoRWNoaW5vY29jY29zaXMpLm1k",
+    "title": "포충증 (Echinococcosis)",
+    "sourcePath": "source_notes/02 Diseases/08 감염/포충증 (Echinococcosis).md",
+    "specialty": "08 감염",
+    "category": "기생충 감염",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "echinococcosis",
+      "hydatid disease"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 간 또는 폐의 낭성 병변에서 유행 지역·동물 노출력을 함께 확인합니다.",
+      "• 영상 소견과 혈청학을 종합해 진단하며 병변 위치와 합병증 위험에 따라 치료를 결정합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 간 또는 폐의 낭성 병변에서 유행 지역·동물 노출력을 함께 확인합니다.",
+          "• 영상 소견과 혈청학을 종합해 진단하며 병변 위치와 합병증 위험에 따라 치료를 결정합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:48:49.355Z",
+    "clinicalPriority": ""
+  },
+  {
     "id": "02 Diseases/08 감염/푸르니에 괴저 (Fournier's Gangrene).md",
     "slug": "MDgg6rCQ7Je8L-2RuOultOuLiOyXkCDqtLTsoIAgKEZvdXJuaWVyJ3MgR2FuZ3JlbmUpLm1k",
     "title": "푸르니에 괴저 (Fournier's Gangrene)",
@@ -50588,6 +51732,72 @@
     }
   },
   {
+    "id": "02 Diseases/08 감염/호흡기세포융합바이러스 감염 (Respiratory Syncytial Virus Infection).md",
+    "slug": "MDgg6rCQ7Je8L-2YuO2doeq4sOyEuO2PrOycte2VqeuwlOydtOufrOyKpCDqsJDsl7wgKFJlc3BpcmF0b3J5IFN5bmN5dGlhbCBWaXJ1cyBJbmZlY3Rpb24pLm1k",
+    "title": "호흡기세포융합바이러스 감염 (Respiratory Syncytial Virus Infection)",
+    "sourcePath": "source_notes/02 Diseases/08 감염/호흡기세포융합바이러스 감염 (Respiratory Syncytial Virus Infection).md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "바이러스"
+    ],
+    "relatedSpecialties": [
+      "소아청소년과",
+      "호흡기"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "respiratory syncytial virus infection",
+      "RSV infection",
+      "RSV",
+      "호흡기세포융합바이러스 감염"
+    ],
+    "chiefComplaints": [
+      "기침",
+      "호흡곤란",
+      "발열"
+    ],
+    "definition": "",
+    "overview": [
+      "• 영유아와 고령·고위험 성인에서 하기도 감염을 일으킬 수 있는 흔한 호흡기 바이러스 감염이다.",
+      "• 영아에서는 콧물·수유저하 뒤 기침, 천명, 빈호흡, 무호흡이 나타날 수 있으며 세기관지염·폐렴으로 진행할 수 있다.",
+      "• 대부분 산소화·수분 상태를 중심으로 지지 치료한다. 고위험 영아와 고위험 성인은 연령·위험군에 맞는 예방접종 또는 예방 항체를 검토한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 영유아와 고령·고위험 성인에서 하기도 감염을 일으킬 수 있는 흔한 호흡기 바이러스 감염이다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 영아에서는 콧물·수유저하 뒤 기침, 천명, 빈호흡, 무호흡이 나타날 수 있으며 세기관지염·폐렴으로 진행할 수 있다."
+        ]
+      },
+      {
+        "title": "관리와 예방",
+        "content": [
+          "• 대부분 산소화·수분 상태를 중심으로 지지 치료한다. 고위험 영아와 고위험 성인은 연령·위험군에 맞는 예방접종 또는 예방 항체를 검토한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:49:31.115Z",
+    "clinicalPriority": "tier_2",
+    "contentMeta": {
+      "contentUpdatedAt": "2026-08-12",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "CDC: Clinical Overview of RSV",
+          "url": "https://www.cdc.gov/rsv/hcp/clinical-overview/"
+        }
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/08 감염/후천성 면역결핍 증후군 (AIDS) (Acquired Immunodeficiency Syndrome (AIDS)).md",
     "slug": "MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k",
     "title": "후천성 면역결핍 증후군 (AIDS) (Acquired Immunodeficiency Syndrome (AIDS))",
@@ -50679,6 +51889,47 @@
       "guidelineYear": "",
       "sources": []
     }
+  },
+  {
+    "id": "02 Diseases/08 감염/Bacillus cereus 식중독.md",
+    "slug": "MDgg6rCQ7Je8L0JhY2lsbHVzIGNlcmV1cyDsi53spJHrj4UubWQ",
+    "title": "Bacillus cereus 식중독",
+    "sourcePath": "source_notes/02 Diseases/08 감염/Bacillus cereus 식중독.md",
+    "specialty": "08 감염",
+    "category": "감염",
+    "classification": [
+      "지역사회 감염",
+      "식중독 및 식품매개 감염"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "구토형 식중독",
+      "독소 매개 위장염",
+      "Bacillus cereus food poisoning"
+    ],
+    "chiefComplaints": [
+      "구토",
+      "설사",
+      "복통"
+    ],
+    "definition": "",
+    "overview": [
+      "• 수 시간 안의 구토 우세 양상은 Staphylococcus aureus 식중독과도 감별합니다.",
+      "• 발열, 혈변, 중증 탈수 또는 지속 증상은 단순 독소형 식중독만으로 설명하지 말고 다른 침습성 감염을 재평가합니다."
+    ],
+    "sections": [
+      {
+        "title": "감별 포인트",
+        "content": [
+          "• 수 시간 안의 구토 우세 양상은 Staphylococcus aureus 식중독과도 감별합니다.",
+          "• 발열, 혈변, 중증 탈수 또는 지속 증상은 단순 독소형 식중독만으로 설명하지 말고 다른 침습성 감염을 재평가합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T11:35:33.358Z",
+    "clinicalPriority": ""
   },
   {
     "id": "02 Diseases/08 감염/G(-).md",
@@ -51029,6 +52280,56 @@
         }
       ]
     }
+  },
+  {
+    "id": "02 Diseases/09 혈액/고점도 증후군 (Hyperviscosity Syndrome).md",
+    "slug": "MDkg7ZiI7JWhL-qzoOygkOuPhCDspp3tm4TqtbAgKEh5cGVydmlzY29zaXR5IFN5bmRyb21lKS5tZA",
+    "title": "고점도 증후군 (Hyperviscosity Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/09 혈액/고점도 증후군 (Hyperviscosity Syndrome).md",
+    "specialty": "09 혈액",
+    "category": "혈액내과",
+    "classification": [
+      "혈액"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "hyperviscosity syndrome"
+    ],
+    "chiefComplaints": [
+      "두통",
+      "시야 이상",
+      "출혈"
+    ],
+    "definition": "",
+    "overview": [
+      "• 혈액 점도 증가로 미세순환이 저하되어 신경·안과·점막 출혈 증상이 나타나는 응급 상태다.",
+      "• 두통, 혼돈, 흐린 시야, 점막 출혈의 조합에서 단클론감마글로불린혈증·백혈구증가증 등을 확인한다.",
+      "• 장기 관류 장애가 있으면 혈장교환술을 지연하지 않고, 동시에 원인 혈액질환을 치료한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 혈액 점도 증가로 미세순환이 저하되어 신경·안과·점막 출혈 증상이 나타나는 응급 상태다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 두통, 혼돈, 흐린 시야, 점막 출혈의 조합에서 단클론감마글로불린혈증·백혈구증가증 등을 확인한다."
+        ]
+      },
+      {
+        "title": "즉시 할 일",
+        "content": [
+          "• 장기 관류 장애가 있으면 혈장교환술을 지연하지 않고, 동시에 원인 혈액질환을 치료한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:04:28.912Z",
+    "clinicalPriority": "tier_1"
   },
   {
     "id": "02 Diseases/09 혈액/골수형성이상 증후군 (Myelodysplastic Syndrome, MDS).md",
@@ -53915,6 +55216,111 @@
     }
   },
   {
+    "id": "02 Diseases/09 혈액/유전성 혈색소침착증 (Hereditary Hemochromatosis).md",
+    "slug": "MDkg7ZiI7JWhL-ycoOyghOyEsSDtmIjsg4nshozsuajssKnspp0gKEhlcmVkaXRhcnkgSGVtb2Nocm9tYXRvc2lzKS5tZA",
+    "title": "유전성 혈색소침착증 (Hereditary Hemochromatosis)",
+    "sourcePath": "source_notes/02 Diseases/09 혈액/유전성 혈색소침착증 (Hereditary Hemochromatosis).md",
+    "specialty": "09 혈액",
+    "category": "혈액내과",
+    "classification": [
+      "적혈구 질환"
+    ],
+    "relatedSpecialties": [
+      "소화기",
+      "내분비"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "hemochromatosis",
+      "hereditary hemochromatosis",
+      "hereditary haemochromatosis"
+    ],
+    "chiefComplaints": [
+      "피로",
+      "관절통",
+      "피부색 변화"
+    ],
+    "definition": "",
+    "overview": [
+      "• 과도한 장 철 흡수로 철이 간·심장·췌장·관절에 축적되는 유전성 철 과부하 질환이다.",
+      "• 원인 불명의 간질환, 당뇨병, 피부 과다색소침착, MCP 관절병증, 성선기능저하가 함께 있으면 의심한다.",
+      "• 페리틴과 트랜스페린 포화도를 확인하고 유전검사와 장기 손상 평가를 시행한다. 반복 정맥절혈이 표준적인 철 제거 치료다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 과도한 장 철 흡수로 철이 간·심장·췌장·관절에 축적되는 유전성 철 과부하 질환이다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 원인 불명의 간질환, 당뇨병, 피부 과다색소침착, MCP 관절병증, 성선기능저하가 함께 있으면 의심한다."
+        ]
+      },
+      {
+        "title": "평가와 관리",
+        "content": [
+          "• 페리틴과 트랜스페린 포화도를 확인하고 유전검사와 장기 손상 평가를 시행한다. 반복 정맥절혈이 표준적인 철 제거 치료다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:48:22.916Z",
+    "clinicalPriority": "tier_2",
+    "contentMeta": {
+      "contentUpdatedAt": "2026-08-12",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MSD Manual Professional: Hereditary Hemochromatosis",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/iron-overload/hereditary-hemochromatosis"
+        }
+      ]
+    }
+  },
+  {
+    "id": "02 Diseases/09 혈액/유전성 혈전성향증 (Inherited Thrombophilia).md",
+    "slug": "MDkg7ZiI7JWhL-ycoOyghOyEsSDtmIjsoITshLHtlqXspp0gKEluaGVyaXRlZCBUaHJvbWJvcGhpbGlhKS5tZA",
+    "title": "유전성 혈전성향증 (Inherited Thrombophilia)",
+    "sourcePath": "source_notes/02 Diseases/09 혈액/유전성 혈전성향증 (Inherited Thrombophilia).md",
+    "specialty": "09 혈액",
+    "category": "혈전성 질환",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "inherited thrombophilia",
+      "factor V Leiden thrombophilia"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 급성 혈전기와 항응고 치료 중에는 일부 검사 결과가 왜곡될 수 있어 검사 시점과 결과의 임상적 활용을 함께 판단합니다.",
+      "• 비유발성 또는 반복 정맥혈전색전증, 젊은 연령의 혈전, 강한 가족력이 있을 때 유전성 원인을 고려합니다.",
+      "• Factor V Leiden, prothrombin 변이, antithrombin·protein C·protein S 결핍이 대표적입니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 비유발성 또는 반복 정맥혈전색전증, 젊은 연령의 혈전, 강한 가족력이 있을 때 유전성 원인을 고려합니다.",
+          "• Factor V Leiden, prothrombin 변이, antithrombin·protein C·protein S 결핍이 대표적입니다."
+        ]
+      },
+      {
+        "title": "검사 해석",
+        "content": [
+          "• 급성 혈전기와 항응고 치료 중에는 일부 검사 결과가 왜곡될 수 있어 검사 시점과 결과의 임상적 활용을 함께 판단합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T18:57:01.141Z",
+    "clinicalPriority": ""
+  },
+  {
     "id": "02 Diseases/09 혈액/응고인자 질환.md",
     "slug": "MDkg7ZiI7JWhL-ydkeqzoOyduOyekCDsp4jtmZgubWQ",
     "title": "응고인자 질환",
@@ -54318,12 +55724,13 @@
           "• [[재생불량성 빈혈 (AA) (Aplastic Anemia (AA))]]",
           "• [[지중해 빈혈 (Thalassemia)]]",
           "• [[철 결핍 빈혈 (Iron Deficiency Anemia)]]",
+          "• [[유전성 혈색소침착증 (Hereditary Hemochromatosis)]]",
           "• [[혈관 내 용혈 (Intravascular Hemolysis)]]",
           "• [[혈관 외 용혈 (Extravascular Hemolysis)]]"
         ]
       }
     ],
-    "updatedAt": "2026-08-10T17:22:48.041Z",
+    "updatedAt": "2026-08-12T09:49:33.499Z",
     "clinicalPriority": "",
     "documentRole": "group_overview",
     "groupOverview": {
@@ -54339,6 +55746,7 @@
         "재생불량성 빈혈 (AA) (Aplastic Anemia (AA))",
         "지중해 빈혈 (Thalassemia)",
         "철 결핍 빈혈 (Iron Deficiency Anemia)",
+        "유전성 혈색소침착증 (Hereditary Hemochromatosis)",
         "혈관 내 용혈 (Intravascular Hemolysis)",
         "혈관 외 용혈 (Extravascular Hemolysis)"
       ]
@@ -54932,6 +56340,60 @@
       "guidelineYear": "",
       "sources": []
     }
+  },
+  {
+    "id": "02 Diseases/09 혈액/판코니 빈혈 (Fanconi Anemia).md",
+    "slug": "MDkg7ZiI7JWhL-2MkOy9lOuLiCDruYjtmIggKEZhbmNvbmkgQW5lbWlhKS5tZA",
+    "title": "판코니 빈혈 (Fanconi Anemia)",
+    "sourcePath": "source_notes/02 Diseases/09 혈액/판코니 빈혈 (Fanconi Anemia).md",
+    "specialty": "09 혈액",
+    "category": "혈액내과",
+    "classification": [
+      "적혈구 질환",
+      "빈혈"
+    ],
+    "relatedSpecialties": [
+      "소아청소년과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Fanconi anemia",
+      "Fanconi's anemia"
+    ],
+    "chiefComplaints": [
+      "피로",
+      "반복 감염",
+      "출혈"
+    ],
+    "definition": "",
+    "overview": [
+      "• DNA 손상 복구 이상으로 발생하는 유전성 골수부전 증후군이다.",
+      "• 소아·청년의 범혈구감소증에 저신장, 엄지·요골 이상, 피부 색소침착 같은 선천 기형이 동반되면 의심한다.",
+      "• 골수부전과 골수형성이상증후군·급성백혈병 위험을 추적하고, 조혈모세포이식 가능성을 전문팀과 평가한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• DNA 손상 복구 이상으로 발생하는 유전성 골수부전 증후군이다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 소아·청년의 범혈구감소증에 저신장, 엄지·요골 이상, 피부 색소침착 같은 선천 기형이 동반되면 의심한다."
+        ]
+      },
+      {
+        "title": "관리",
+        "content": [
+          "• 골수부전과 골수형성이상증후군·급성백혈병 위험을 추적하고, 조혈모세포이식 가능성을 전문팀과 평가한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:03:54.407Z",
+    "clinicalPriority": "tier_2"
   },
   {
     "id": "02 Diseases/09 혈액/폰 빌레브란트병 (von Willebrand Disease, vWD).md",
@@ -55993,6 +57455,38 @@
     }
   },
   {
+    "id": "02 Diseases/10 종양/랑게르한스 세포 조직구증 (Langerhans Cell Histiocytosis).md",
+    "slug": "MTAg7KKF7JaRL-uekeqyjOultO2VnOyKpCDshLjtj6wg7KGw7KeB6rWs7KadIChMYW5nZXJoYW5zIENlbGwgSGlzdGlvY3l0b3NpcykubWQ",
+    "title": "랑게르한스 세포 조직구증 (Langerhans Cell Histiocytosis)",
+    "sourcePath": "source_notes/02 Diseases/10 종양/랑게르한스 세포 조직구증 (Langerhans Cell Histiocytosis).md",
+    "specialty": "10 종양",
+    "category": "혈액종양",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Langerhans cell histiocytosis"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 뼈·피부·폐·내분비계를 침범할 수 있는 조직구성 질환입니다.",
+      "• 침범 장기와 위험 장기 여부에 따라 다학제 평가와 치료 강도가 달라집니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 뼈·피부·폐·내분비계를 침범할 수 있는 조직구성 질환입니다.",
+          "• 침범 장기와 위험 장기 여부에 따라 다학제 평가와 치료 강도가 달라집니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:48:41.587Z",
+    "clinicalPriority": ""
+  },
+  {
     "id": "02 Diseases/10 종양/부종양 증후군 (Paraneoplastic Syndrome).md",
     "slug": "MTAg7KKF7JaRL-u2gOyiheyWkSDspp3tm4TqtbAgKFBhcmFuZW9wbGFzdGljIFN5bmRyb21lKS5tZA",
     "title": "부종양 증후군 (Paraneoplastic Syndrome)",
@@ -56564,6 +58058,61 @@
         }
       ]
     }
+  },
+  {
+    "id": "02 Diseases/10 종양/카르시노이드 증후군 (Carcinoid Syndrome).md",
+    "slug": "MTAg7KKF7JaRL-y5tOultOyLnOuFuOydtOuTnCDspp3tm4TqtbAgKENhcmNpbm9pZCBTeW5kcm9tZSkubWQ",
+    "title": "카르시노이드 증후군 (Carcinoid Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/10 종양/카르시노이드 증후군 (Carcinoid Syndrome).md",
+    "specialty": "10 종양",
+    "category": "종양내과",
+    "classification": [
+      "종양내과",
+      "신경내분비종양"
+    ],
+    "relatedSpecialties": [
+      "소화기",
+      "순환기"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "carcinoid syndrome",
+      "카르시노이드 증후군"
+    ],
+    "chiefComplaints": [
+      "홍조",
+      "설사",
+      "천명"
+    ],
+    "definition": "",
+    "overview": [
+      "• 기능성 신경내분비종양이 세로토닌 등 혈관작용 물질을 분비하여 생기는 전신 증후군이다.",
+      "• 반복되는 홍조·수양성 설사·기관지수축이 전형적이며, 간전이가 있으면 더 흔하다.",
+      "• 생체표지자와 종양 위치 평가를 시행하며, 증상 조절에는 소마토스타틴 유사체를 우선 고려한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 기능성 신경내분비종양이 세로토닌 등 혈관작용 물질을 분비하여 생기는 전신 증후군이다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 반복되는 홍조·수양성 설사·기관지수축이 전형적이며, 간전이가 있으면 더 흔하다."
+        ]
+      },
+      {
+        "title": "평가와 관리",
+        "content": [
+          "• 생체표지자와 종양 위치 평가를 시행하며, 증상 조절에는 소마토스타틴 유사체를 우선 고려한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:04:26.408Z",
+    "clinicalPriority": "tier_2"
   },
   {
     "id": "02 Diseases/11 외과/가로막손상 (Diaphragmatic Injury).md",
@@ -60414,11 +61963,13 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T17:39:28.704Z",
+    "updatedAt": "2026-08-12T12:50:27.895Z",
     "clinicalPriority": "",
     "documentRole": "group_overview",
     "groupOverview": {
       "memberTitles": [
+        "흉부 외상",
+        "혈관 손상",
         "둔상 복부외상 (Blunt Abdominal Trauma)",
         "관통상 복부외상 (Penetrating Abdominal Injury)",
         "골반외상 (Pelvic Trauma)",
@@ -61631,6 +63182,59 @@
     }
   },
   {
+    "id": "02 Diseases/11 외과/혈관 손상.md",
+    "slug": "MTEg7Jm46rO8L-2YiOq0gCDshpDsg4EubWQ",
+    "title": "혈관 손상",
+    "sourcePath": "source_notes/02 Diseases/11 외과/혈관 손상.md",
+    "specialty": "11 외과",
+    "category": "외과",
+    "classification": [
+      "외상"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Vascular Trauma",
+      "Traumatic Vascular Injury"
+    ],
+    "chiefComplaints": [
+      "출혈",
+      "쇼크",
+      "사지통증"
+    ],
+    "definition": "",
+    "overview": [
+      "• 외상성 경동맥·대퇴동맥·신동맥 손상",
+      "• 둔상 또는 관통상 뒤의 동맥 출혈·허혈"
+    ],
+    "sections": [
+      {
+        "title": "포함 범위",
+        "content": [
+          "• 외상성 경동맥·대퇴동맥·신동맥 손상",
+          "• 둔상 또는 관통상 뒤의 동맥 출혈·허혈"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:49:37.983Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": []
+    },
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MSD Manual Professional: Aortic Disruption (Traumatic)",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/thoracic-trauma/aortic-disruption-traumatic"
+        }
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/11 외과/화상 (Burn).md",
     "slug": "MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ",
     "title": "화상 (Burn)",
@@ -61841,6 +63445,59 @@
       "contentUpdatedAt": "2026-07-30",
       "guidelineYear": "",
       "sources": []
+    }
+  },
+  {
+    "id": "02 Diseases/11 외과/흉부 외상.md",
+    "slug": "MTEg7Jm46rO8L-2dieu2gCDsmbjsg4EubWQ",
+    "title": "흉부 외상",
+    "sourcePath": "source_notes/02 Diseases/11 외과/흉부 외상.md",
+    "specialty": "11 외과",
+    "category": "외과",
+    "classification": [
+      "외상"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Thoracic Trauma",
+      "Chest Trauma"
+    ],
+    "chiefComplaints": [
+      "흉통",
+      "호흡곤란",
+      "쇼크"
+    ],
+    "definition": "",
+    "overview": [
+      "• 흉부 손상, 관통성 흉부손상, 심장 손상, 외상성 호흡부전",
+      "• 고에너지 감속 손상에서는 대혈관 손상 가능성을 함께 평가"
+    ],
+    "sections": [
+      {
+        "title": "포함 범위",
+        "content": [
+          "• 흉부 손상, 관통성 흉부손상, 심장 손상, 외상성 호흡부전",
+          "• 고에너지 감속 손상에서는 대혈관 손상 가능성을 함께 평가"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:49:35.559Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": []
+    },
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MSD Manual Professional: Overview of Thoracic Trauma",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/thoracic-trauma/overview-of-thoracic-trauma"
+        }
+      ]
     }
   },
   {
@@ -63210,6 +64867,14 @@
         ]
       },
       {
+        "title": "임신 중 감염",
+        "content": [
+          "• [[임신 중 감염]]",
+          "• [[융모 양막염 (Chorioamnionitis)]]",
+          "• [[무증상 세균뇨 (Asymptomatic Bacteriuria)]]"
+        ]
+      },
+      {
         "title": "과숙임신",
         "content": [
           "• [[과숙임신 (Post-term Pregnancy)]]"
@@ -63260,6 +64925,7 @@
       {
         "title": "출혈",
         "content": [
+          "• [[임신 중 질출혈]]",
           "• [[태반조기박리 (Placental Abruption)]]",
           "• [[전치태반 (Placenta Previa)]]",
           "• [[양수색전증 (Amniotic Fluid Embolism)]]",
@@ -63364,7 +65030,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-05-19T15:55:13.740Z",
+    "updatedAt": "2026-08-12T17:17:02.758Z",
     "clinicalPriority": ""
   },
   {
@@ -63813,6 +65479,98 @@
       "relationToParent": "",
       "population": "",
       "canonicalDisease": "산욕기 자궁 감염 (Postpartum Uterine Infection)"
+    }
+  },
+  {
+    "id": "02 Diseases/12 산과/산후출혈.md",
+    "slug": "MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA",
+    "title": "산후출혈",
+    "sourcePath": "source_notes/02 Diseases/12 산과/산후출혈.md",
+    "specialty": "12 산과",
+    "category": "산과",
+    "classification": [
+      "산과적 출혈"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Postpartum Hemorrhage",
+      "PPH",
+      "산후 출혈"
+    ],
+    "chiefComplaints": [
+      "출혈",
+      "저혈압",
+      "빈맥"
+    ],
+    "definition": "",
+    "overview": [
+      "• 분만 후 지속 출혈에서는 먼저 활력징후, 의식, 출혈량, 자궁 긴장도를 함께 확인하고 대량출혈 대응과 원인 평가를 동시에 시작한다.",
+      "• 원인은 **4T**로 정리한다: tone(자궁이완), trauma(산도 열상·자궁파열/내번), tissue(잔류태반·유착태반), thrombin(응고장애).",
+      "• 수액·혈액제제 준비, 자궁마사지와 자궁수축 촉진, 원인별 처치를 지연 없이 병행한다.",
+      "| 상황 | 우선 생각할 원인 | 다음 확인 |",
+      "| --- | --- | --- |"
+    ],
+    "sections": [
+      {
+        "title": "공통 임상 접근",
+        "content": [
+          "• 분만 후 지속 출혈에서는 먼저 활력징후, 의식, 출혈량, 자궁 긴장도를 함께 확인하고 대량출혈 대응과 원인 평가를 동시에 시작한다.",
+          "• 원인은 **4T**로 정리한다: tone(자궁이완), trauma(산도 열상·자궁파열/내번), tissue(잔류태반·유착태반), thrombin(응고장애).",
+          "• 수액·혈액제제 준비, 자궁마사지와 자궁수축 촉진, 원인별 처치를 지연 없이 병행한다."
+        ]
+      },
+      {
+        "title": "먼저 구분할 단서",
+        "content": [
+          "| 상황 | 우선 생각할 원인 | 다음 확인 |",
+          "| --- | --- | --- |",
+          "| 부드럽고 커진 자궁 | 자궁이완증 | 자궁마사지 후 긴장도·출혈 변화 |",
+          "| 단단한 자궁인데 지속 출혈 | 산도 열상 | 질·경부·회음부의 직접 확인 |",
+          "| 태반 만출이 지연되거나 불완전 | 잔류태반·유착태반 | 태반 완전성, 자궁강 평가 |",
+          "| 심한 통증·쇼크와 자궁저부가 만져지지 않음 | 자궁내번증 | 즉시 도수 정복 및 소생 |",
+          "| 미만성 출혈·응고 이상 소견 | thrombin | 혈소판·응고검사·기저 질환 평가 |"
+        ]
+      },
+      {
+        "title": "처치 원칙",
+        "content": [
+          "• 자궁이완이 의심되면 자궁마사지와 자궁수축제를 우선하고, 반응이 없으면 기계적·수술적 지혈을 단계적으로 고려한다.",
+          "• 열상, 잔류태반, 자궁내번은 각각 봉합, 제거, 즉시 정복처럼 원인 교정이 핵심이다.",
+          "• 불안정하거나 출혈이 계속되면 대량수혈 체계와 산과·마취·수술팀 협진을 조기에 가동한다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[자궁이완증 (Uterine Atony)]]",
+          "• [[잔류태반 (Retained Placenta)]]",
+          "• [[자궁경부 열창 (Cervical Laceration)]]",
+          "• [[자궁내번증 (Uterine Inversion)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T14:02:08.088Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": [
+        "자궁이완증 (Uterine Atony)",
+        "잔류태반 (Retained Placenta)",
+        "자궁경부 열창 (Cervical Laceration)",
+        "자궁내번증 (Uterine Inversion)"
+      ]
+    },
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "ACOG: Postpartum Hemorrhage",
+          "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2017/10/postpartum-hemorrhage"
+        }
+      ]
     }
   },
   {
@@ -65027,6 +66785,108 @@
     }
   },
   {
+    "id": "02 Diseases/12 산과/임신 중 감염.md",
+    "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg6rCQ7Je8Lm1k",
+    "title": "임신 중 감염",
+    "sourcePath": "source_notes/02 Diseases/12 산과/임신 중 감염.md",
+    "specialty": "12 산과",
+    "category": "산과",
+    "classification": [
+      "임신 중 질환",
+      "임신 중 감염"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Infection in Pregnancy",
+      "Maternal Infection",
+      "임신 중 감염질환"
+    ],
+    "chiefComplaints": [
+      "발열",
+      "발진",
+      "복통"
+    ],
+    "definition": "",
+    "overview": [
+      "• 임신 중 감염은 산모의 중증도뿐 아니라 임신 주수, 태아·신생아 노출, 수직감염 가능성, 분만 시 조치까지 함께 판단한다.",
+      "• 발열·빈맥·저혈압·자궁 압통·태아 빈맥은 산모 패혈증 또는 자궁내 감염 가능성을 높이므로, 배양과 항생제 투여를 이유 없이 지연하지 않는다.",
+      "• 무증상 세균뇨처럼 산전 선별과 치료가 중요한 질환과, 노출·증상·혈청검사에 따라 평가하는 바이러스·성매개감염을 구분한다.",
+      "| 단서 | 우선 생각할 범주 | 다음 확인 |",
+      "| --- | --- | --- |"
+    ],
+    "sections": [
+      {
+        "title": "공통 임상 접근",
+        "content": [
+          "• 임신 중 감염은 산모의 중증도뿐 아니라 임신 주수, 태아·신생아 노출, 수직감염 가능성, 분만 시 조치까지 함께 판단한다.",
+          "• 발열·빈맥·저혈압·자궁 압통·태아 빈맥은 산모 패혈증 또는 자궁내 감염 가능성을 높이므로, 배양과 항생제 투여를 이유 없이 지연하지 않는다.",
+          "• 무증상 세균뇨처럼 산전 선별과 치료가 중요한 질환과, 노출·증상·혈청검사에 따라 평가하는 바이러스·성매개감염을 구분한다."
+        ]
+      },
+      {
+        "title": "먼저 구분할 상황",
+        "content": [
+          "| 단서 | 우선 생각할 범주 | 다음 확인 |",
+          "| --- | --- | --- |",
+          "| 발열, 자궁 압통, 악취 양수 또는 태아 빈맥 | 융모양막염 | 분만 중 감염 평가·광범위 항생제 경로 |",
+          "| 무증상 세균뇨 또는 배뇨증상 | 임신 중 요로감염 | 소변배양, 신우신염 증상·전신 상태 |",
+          "| 수포성 발진 또는 홍역성 발진과 노출력 | 수두·홍역 등 바이러스 감염 | 임신 주수, 면역 상태, 산모 호흡기 중증도 |",
+          "| 생식기 병변·양성 선별검사 | 성매개감염 | 원인별 검사·치료, 파트너·태아 노출 평가 |"
+        ]
+      },
+      {
+        "title": "학습 포인트",
+        "content": [
+          "• 임신 중 무증상 세균뇨는 산전 배양 선별과 치료를 통해 신우신염 위험을 낮추는 것이 핵심이다.",
+          "• 융모양막염이 의심되면 산모 치료와 분만 계획을 함께 세우며, 감염 자체만으로 제왕절개의 적응증이 되는 것은 아니다.",
+          "• 성매개감염은 임신 초기 선별, 위험군 재검, 파트너 평가·치료, 신생아 감염 예방을 한 묶음으로 기억한다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[융모 양막염 (Chorioamnionitis)]]",
+          "• [[무증상 세균뇨 (Asymptomatic Bacteriuria)]]",
+          "• [[수두 (Varicella)]]",
+          "• [[홍역 (Measles)]]",
+          "• [[매독 (Syphilis)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T14:02:10.637Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": [
+        "융모 양막염 (Chorioamnionitis)",
+        "무증상 세균뇨 (Asymptomatic Bacteriuria)",
+        "수두 (Varicella)",
+        "홍역 (Measles)",
+        "매독 (Syphilis)"
+      ]
+    },
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "ACOG: Urinary Tract Infections in Pregnant Individuals",
+          "url": "https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2023/08/urinary-tract-infections-in-pregnant-individuals"
+        },
+        {
+          "label": "ACOG: Intrapartum Management of Intraamniotic Infection",
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/08/intrapartum-management-of-intraamniotic-infection"
+        },
+        {
+          "label": "CDC: Pregnant Women — STI Treatment Guidelines",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/pregnant.htm"
+        }
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/12 산과/임신 중 모체 변화 (Maternal Changes During Pregnancy).md",
     "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg66qo7LK0IOuzgO2ZlCAoTWF0ZXJuYWwgQ2hhbmdlcyBEdXJpbmcgUHJlZ25hbmN5KS5tZA",
     "title": "임신 중 모체 변화 (Maternal Changes During Pregnancy)",
@@ -65120,6 +66980,87 @@
       "contentUpdatedAt": "2026-07-30",
       "guidelineYear": "",
       "sources": []
+    }
+  },
+  {
+    "id": "02 Diseases/12 산과/임신 중 질출혈.md",
+    "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg7KeI7Lac7ZiILm1k",
+    "title": "임신 중 질출혈",
+    "sourcePath": "source_notes/02 Diseases/12 산과/임신 중 질출혈.md",
+    "specialty": "12 산과",
+    "category": "산과",
+    "classification": [
+      "산과적 출혈"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Vaginal Bleeding During Pregnancy",
+      "Antepartum Vaginal Bleeding",
+      "임신중 질출혈",
+      "임신 초기 출혈"
+    ],
+    "chiefComplaints": [
+      "질 출혈",
+      "복통",
+      "어지럼증"
+    ],
+    "definition": "",
+    "overview": [
+      "• 임신 중 출혈에서는 혈역학적 안정성, 임신 주수, 통증 유무, 자궁 압통·수축, 태아 상태와 초음파 소견을 함께 평가한다.",
+      "• 대량출혈, 실신·저혈압, 심한 복통, 복막자극, 태아 상태 이상은 즉시 소생과 산과 평가가 필요한 위험 신호다.",
+      "| 시기·양상 | 우선 감별 | 핵심 단서 |",
+      "| --- | --- | --- |",
+      "| 임신 초기 | 유산, 자궁외 임신 | 통증, β-hCG 추세, 질식 초음파 |"
+    ],
+    "sections": [
+      {
+        "title": "공통 접근",
+        "content": [
+          "• 임신 중 출혈에서는 혈역학적 안정성, 임신 주수, 통증 유무, 자궁 압통·수축, 태아 상태와 초음파 소견을 함께 평가한다.",
+          "• 대량출혈, 실신·저혈압, 심한 복통, 복막자극, 태아 상태 이상은 즉시 소생과 산과 평가가 필요한 위험 신호다."
+        ]
+      },
+      {
+        "title": "주수별 감별",
+        "content": [
+          "| 시기·양상 | 우선 감별 | 핵심 단서 |",
+          "| --- | --- | --- |",
+          "| 임신 초기 | 유산, 자궁외 임신 | 통증, β-hCG 추세, 질식 초음파 |",
+          "| 임신 후기의 무통성 선홍색 출혈 | 전치태반 | 자궁 압통 없이 반복될 수 있음 |",
+          "| 임신 후기의 통증·자궁 긴장 동반 출혈 | 태반조기박리 | 질출혈이 적어도 은닉출혈 가능 |",
+          "| 분만 전후의 대량출혈 | 태반 유착·분만 관련 출혈 | 태반 위치·수술력·분만 상황 |"
+        ]
+      },
+      {
+        "title": "주의사항",
+        "content": [
+          "• 전치태반이 배제되기 전에는 불필요한 디지털 질검사를 피하고 초음파로 태반 위치를 확인한다.",
+          "• 출혈량이 적어 보여도 산모 활력징후와 태아 상태를 반복 평가한다."
+        ]
+      },
+      {
+        "title": "관련 문서",
+        "content": [
+          "• [[자궁외 임신 (Ectopic Pregnancy)]]",
+          "• [[전치태반 (Placenta Previa)]]",
+          "• [[태반조기박리 (Placental Abruption)]]",
+          "• [[산후출혈]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:16:50.295Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "ACOG: Bleeding During Pregnancy",
+          "url": "https://www.acog.org/womens-health/faqs/bleeding-during-pregnancy"
+        }
+      ]
     }
   },
   {
@@ -70644,6 +72585,17 @@
         ]
       },
       {
+        "title": "성매개감염",
+        "content": [
+          "• [[성매개감염]]",
+          "• [[매독 (Syphilis)]]",
+          "• [[자궁경부염 (Cervicitis)]]",
+          "• [[트리코모나스 (Trichomoniasis)]]",
+          "• [[뾰족 콘딜로마 (Condyloma Acuminatum)]]",
+          "• [[골반내 감염 (Pelvic Inflammatory Disease)]]"
+        ]
+      },
+      {
         "title": "질염",
         "content": [
           "• [[세균성 질염 (Bacterial Vaginosis)]]",
@@ -70765,7 +72717,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-05-19T15:55:13.896Z",
+    "updatedAt": "2026-08-12T14:02:20.500Z",
     "clinicalPriority": ""
   },
   {
@@ -71684,6 +73636,109 @@
       "contentUpdatedAt": "2026-07-30",
       "guidelineYear": "",
       "sources": []
+    }
+  },
+  {
+    "id": "02 Diseases/13 부인과/성매개감염.md",
+    "slug": "MTMg67aA7J246rO8L-yEseunpOqwnOqwkOyXvC5tZA",
+    "title": "성매개감염",
+    "sourcePath": "source_notes/02 Diseases/13 부인과/성매개감염.md",
+    "specialty": "13 부인과",
+    "category": "부인과",
+    "classification": [
+      "성매개감염"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Sexually Transmitted Infection",
+      "Sexually Transmitted Disease",
+      "STI",
+      "STD"
+    ],
+    "chiefComplaints": [
+      "질 분비물",
+      "골반통",
+      "외음부 병변"
+    ],
+    "definition": "",
+    "overview": [
+      "• 성매개감염은 증후군을 먼저 구분한다: 궤양성 병변, 분비물·경부염, 사마귀성 병변, 골반통·상부생식기 감염.",
+      "• 원인 검사와 치료만으로 끝내지 않고 HIV 등 동시 감염 평가, 파트너 평가·치료, 성접촉 중단 기간, 재감염 검사를 함께 계획한다.",
+      "• 임신 중에는 수직감염 위험과 임신 중 사용 가능한 치료를 별도로 확인한다.",
+      "| 증후군 | 대표 질환 | 구분 단서 | 다음 단계 |",
+      "| --- | --- | --- | --- |"
+    ],
+    "sections": [
+      {
+        "title": "공통 임상 접근",
+        "content": [
+          "• 성매개감염은 증후군을 먼저 구분한다: 궤양성 병변, 분비물·경부염, 사마귀성 병변, 골반통·상부생식기 감염.",
+          "• 원인 검사와 치료만으로 끝내지 않고 HIV 등 동시 감염 평가, 파트너 평가·치료, 성접촉 중단 기간, 재감염 검사를 함께 계획한다.",
+          "• 임신 중에는 수직감염 위험과 임신 중 사용 가능한 치료를 별도로 확인한다."
+        ]
+      },
+      {
+        "title": "하위 질환 감별 포인트",
+        "content": [
+          "| 증후군 | 대표 질환 | 구분 단서 | 다음 단계 |",
+          "| --- | --- | --- | --- |",
+          "| 궤양성 병변 | 매독 | 통증 없는 궤양 또는 전신 발진 등 병기별 양상 | 혈청검사·HIV 동시 평가·파트너 관리 |",
+          "| 점액농성 분비물·접촉출혈 | 자궁경부염 | 클라미디아·임질 위험, 자궁경부 염증 | NAAT, PID 동반 여부 평가 |",
+          "| 거품성·악취 분비물 | 트리코모나스 | 질염 증상과 원충 검출 | 환자와 파트너 동시 치료 |",
+          "| 사마귀성 외음부 병변 | 뾰족 콘딜로마 | HPV 관련 외부 생식기 사마귀 | 병변 치료·예방접종 상담 |",
+          "| 골반통·경부 움직임 압통 | 골반내 감염 | 상부생식기 감염을 시사하는 진찰 소견 | 임신 여부·중증도 평가 후 즉시 치료 |"
+        ]
+      },
+      {
+        "title": "공통 예방·추적",
+        "content": [
+          "• 위험도에 맞춘 선별검사와 HPV·B형간염 예방접종을 고려한다.",
+          "• 클라미디아, 임질, 트리코모나스가 확인되면 파트너 관리와 재감염 검사를 계획한다.",
+          "• 임신 중에는 초기 산전 선별과 위험군 재검을 통해 산모와 신생아 감염을 함께 예방한다."
+        ]
+      },
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[매독 (Syphilis)]]",
+          "• [[자궁경부염 (Cervicitis)]]",
+          "• [[트리코모나스 (Trichomoniasis)]]",
+          "• [[뾰족 콘딜로마 (Condyloma Acuminatum)]]",
+          "• [[골반내 감염 (Pelvic Inflammatory Disease)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T14:02:13.190Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": [
+        "매독 (Syphilis)",
+        "자궁경부염 (Cervicitis)",
+        "트리코모나스 (Trichomoniasis)",
+        "뾰족 콘딜로마 (Condyloma Acuminatum)",
+        "골반내 감염 (Pelvic Inflammatory Disease)"
+      ]
+    },
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "CDC: STI Treatment Guidelines — Clinical Prevention",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/clinical.htm"
+        },
+        {
+          "label": "CDC: Urethritis and Cervicitis — STI Treatment Guidelines",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm"
+        },
+        {
+          "label": "CDC: PID — STI Treatment Guidelines",
+          "url": "https://www.cdc.gov/std/treatment-guidelines/pid.htm"
+        }
+      ]
     }
   },
   {
@@ -76234,6 +78289,39 @@
     }
   },
   {
+    "id": "02 Diseases/14 소아청소년과/고IgM 증후군 (Hyper-IgM Syndrome).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-qzoElnTSDspp3tm4TqtbAgKEh5cGVyLUlnTSBTeW5kcm9tZSkubWQ",
+    "title": "고IgM 증후군 (Hyper-IgM Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/고IgM 증후군 (Hyper-IgM Syndrome).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아 유전 질환",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "hyper-IgM syndrome",
+      "high IgM syndrome"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 반복적·기회감염과 면역글로불린 동종전환 장애를 함께 의심합니다.",
+      "• 감염 예방, 면역 보충과 아형별 장기 치료 계획을 면역 전문 진료와 연결합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 반복적·기회감염과 면역글로불린 동종전환 장애를 함께 의심합니다.",
+          "• 감염 예방, 면역 보충과 아형별 장기 치료 계획을 면역 전문 진료와 연결합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:48:57.649Z",
+    "clinicalPriority": ""
+  },
+  {
     "id": "02 Diseases/14 소아청소년과/소아과 각론/가성 부갑상선 기능 저하증 (Pseudohypoparathyroidism).md",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCA7ISxIOu2gOqwkeyDgeyEoCDquLDriqUg7KCA7ZWY7KadIChQc2V1ZG9oeXBvcGFyYXRoeXJvaWRpc20pLm1k",
     "title": "가성 부갑상선 기능 저하증 (Pseudohypoparathyroidism)",
@@ -80133,7 +82221,9 @@
     "emergencyClassification": [],
     "oncologyClassification": [],
     "aliases": [
-      "비대 날문 협착증"
+      "비대 날문 협착증",
+      "비후성 유문협착증",
+      "hypertrophic pyloric stenosis"
     ],
     "chiefComplaints": [
       "구토"
@@ -80199,7 +82289,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-09T07:30:26.734Z",
+    "updatedAt": "2026-08-12T09:03:46.780Z",
     "clinicalPriority": "tier_3",
     "contentMeta": {
       "contentUpdatedAt": "2026-07-30",
@@ -82663,6 +84753,57 @@
       "guidelineYear": "",
       "sources": []
     }
+  },
+  {
+    "id": "02 Diseases/14 소아청소년과/소아과 각론/신생아 뇌수막염 (Neonatal Meningitis).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug7IOd7JWEIOuHjOyImOunieyXvCAoTmVvbmF0YWwgTWVuaW5naXRpcykubWQ",
+    "title": "신생아 뇌수막염 (Neonatal Meningitis)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/신생아 뇌수막염 (Neonatal Meningitis).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "소아과각론",
+      "감염"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "neonatal meningitis"
+    ],
+    "chiefComplaints": [
+      "발열",
+      "기면",
+      "경련"
+    ],
+    "definition": "",
+    "overview": [
+      "• 신생아에서 발생하는 중증 중추신경계 감염으로, 패혈증과 동반되거나 비특이적으로 나타날 수 있다.",
+      "• 수유저하, 체온 불안정, 처짐, 보챔, 무호흡, 경련은 모두 중요한 경고 소견이다.",
+      "• 혈액배양과 요추천자를 가능한 한 신속히 시행하고, 검체 채취가 치료를 지연시키지 않도록 경험적 항생제를 시작한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 신생아에서 발생하는 중증 중추신경계 감염으로, 패혈증과 동반되거나 비특이적으로 나타날 수 있다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 수유저하, 체온 불안정, 처짐, 보챔, 무호흡, 경련은 모두 중요한 경고 소견이다."
+        ]
+      },
+      {
+        "title": "즉시 할 일",
+        "content": [
+          "• 혈액배양과 요추천자를 가능한 한 신속히 시행하고, 검체 채취가 치료를 지연시키지 않도록 경험적 항생제를 시작한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:04:33.977Z",
+    "clinicalPriority": "tier_1"
   },
   {
     "id": "02 Diseases/14 소아청소년과/소아과 각론/신생아 일시열 (Neonatal Transient Fever).md",
@@ -86983,6 +89124,58 @@
     }
   },
   {
+    "id": "02 Diseases/14 소아청소년과/소아과 각론/흔들린 아기 증후군 (Shaken Baby Syndrome).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Z2U65Ok66awIOyVhOq4sCDspp3tm4TqtbAgKFNoYWtlbiBCYWJ5IFN5bmRyb21lKS5tZA",
+    "title": "흔들린 아기 증후군 (Shaken Baby Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 각론/흔들린 아기 증후군 (Shaken Baby Syndrome).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "소아과각론",
+      "손상과 중독"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "흔들린 아기 증후군",
+      "shaken baby syndrome",
+      "abusive head trauma"
+    ],
+    "chiefComplaints": [
+      "의식저하",
+      "경련"
+    ],
+    "definition": "",
+    "overview": [
+      "• 영아 학대성 두부손상의 한 표현으로, 가속-감속 손상에 의해 경막하출혈과 망막출혈 등이 발생할 수 있다.",
+      "• 설명되지 않는 의식저하·경련·무호흡, 발달 수준과 맞지 않는 병력, 여러 시기의 손상이 중요하다.",
+      "• 생명 소생과 신경영상·안저 평가를 시행하고, 아동보호 절차 및 다학제 평가를 지체 없이 연결한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 영아 학대성 두부손상의 한 표현으로, 가속-감속 손상에 의해 경막하출혈과 망막출혈 등이 발생할 수 있다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 설명되지 않는 의식저하·경련·무호흡, 발달 수준과 맞지 않는 병력, 여러 시기의 손상이 중요하다."
+        ]
+      },
+      {
+        "title": "즉시 할 일",
+        "content": [
+          "• 생명 소생과 신경영상·안저 평가를 시행하고, 아동보호 절차 및 다학제 평가를 지체 없이 연결한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:05:55.058Z",
+    "clinicalPriority": "tier_1"
+  },
+  {
     "id": "02 Diseases/14 소아청소년과/소아과 각론/Chediak-Higashi 증후군 (Chediak-Higashi Syndrome).md",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAvQ2hlZGlhay1IaWdhc2hpIOymne2bhOq1sCAoQ2hlZGlhay1IaWdhc2hpIFN5bmRyb21lKS5tZA",
     "title": "Chediak-Higashi 증후군 (Chediak-Higashi Syndrome)",
@@ -87429,6 +89622,58 @@
     }
   },
   {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/골형성부전증 (Osteogenesis Imperfecta).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv6rOo7ZiV7ISx67aA7KCE7KadIChPc3Rlb2dlbmVzaXMgSW1wZXJmZWN0YSkubWQ",
+    "title": "골형성부전증 (Osteogenesis Imperfecta)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/골형성부전증 (Osteogenesis Imperfecta).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "소아과 총론",
+      "선천성·발달 이상"
+    ],
+    "relatedSpecialties": [
+      "정형외과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "골형성부전증",
+      "osteogenesis imperfecta"
+    ],
+    "chiefComplaints": [
+      "골절"
+    ],
+    "definition": "",
+    "overview": [
+      "• I형 콜라겐 이상으로 뼈가 쉽게 부러지는 유전성 결합조직 질환이다.",
+      "• 반복 골절, 청색 공막, 상아질형성부전, 난청의 조합이 단서다.",
+      "• 골절 예방과 재활, 골 건강 관리, 청력·치아 평가를 장기적으로 시행하며 비우발성 손상과도 신중히 감별한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• I형 콜라겐 이상으로 뼈가 쉽게 부러지는 유전성 결합조직 질환이다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 반복 골절, 청색 공막, 상아질형성부전, 난청의 조합이 단서다."
+        ]
+      },
+      {
+        "title": "관리",
+        "content": [
+          "• 골절 예방과 재활, 골 건강 관리, 청력·치아 평가를 장기적으로 시행하며 비우발성 손상과도 신중히 감별한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:04:59.939Z",
+    "clinicalPriority": "tier_2"
+  },
+  {
     "id": "02 Diseases/14 소아청소년과/소아과 총론/글리코겐 저장 질환 (Glycogen Storage Disease).md",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv6riA66as7L2U6rKQIOyggOyepSDsp4jtmZggKEdseWNvZ2VuIFN0b3JhZ2UgRGlzZWFzZSkubWQ",
     "title": "글리코겐 저장 질환 (Glycogen Storage Disease)",
@@ -87615,6 +89860,52 @@
     }
   },
   {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/레트 증후군 (Rett Syndrome).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv66CI7Yq4IOymne2bhOq1sCAoUmV0dCBTeW5kcm9tZSkubWQ",
+    "title": "레트 증후군 (Rett Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/레트 증후군 (Rett Syndrome).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "[소아과 총론, 유전질환]"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "[Rett syndrome, MECP2 mutation]"
+    ],
+    "chiefComplaints": [
+      "[성장발달, 경련 (소아)]"
+    ],
+    "definition": "",
+    "overview": [
+      "# 레트 증후군 (Rett Syndrome)",
+      "주로 여아에서 초기 정상 발달 뒤 손 기능과 언어의 퇴행, 반복적 손 비비기 동작, 보행 이상과 두위 성장 둔화가 나타나는 MECP2 관련 질환입니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# 레트 증후군 (Rett Syndrome)",
+          "주로 여아에서 초기 정상 발달 뒤 손 기능과 언어의 퇴행, 반복적 손 비비기 동작, 보행 이상과 두위 성장 둔화가 나타나는 MECP2 관련 질환입니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T13:05:32.417Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MedlinePlus Genetics: Rett syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/rett-syndrome/"
+        }
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/14 소아청소년과/소아과 총론/미숙아 무호흡 (Apnea of Prematurity).md",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv66-47IiZ7JWEIOustO2YuO2doSAoQXBuZWEgb2YgUHJlbWF0dXJpdHkpLm1k",
     "title": "미숙아 무호흡 (Apnea of Prematurity)",
@@ -87782,6 +90073,72 @@
       "contentUpdatedAt": "2026-07-30",
       "guidelineYear": "",
       "sources": []
+    }
+  },
+  {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/베크위드-비데만 증후군 (Beckwith-Wiedemann Syndrome).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv67Kg7YGs7JyE65OcLeu5hOuNsOunjCDspp3tm4TqtbAgKEJlY2t3aXRoLVdpZWRlbWFubiBTeW5kcm9tZSkubWQ",
+    "title": "베크위드-비데만 증후군 (Beckwith-Wiedemann Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/베크위드-비데만 증후군 (Beckwith-Wiedemann Syndrome).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "소아과 총론",
+      "선천성·발달 이상"
+    ],
+    "relatedSpecialties": [
+      "산부인과",
+      "종양내과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Beckwith-Wiedemann syndrome",
+      "Beckwith Wiedemann syndrome",
+      "BWS",
+      "베크위드-비데만 증후군"
+    ],
+    "chiefComplaints": [
+      "성장 이상",
+      "저혈당"
+    ],
+    "definition": "",
+    "overview": [
+      "• 과성장, 거대혀, 복벽 결손과 소아 종양 위험이 특징인 유전성 과성장 증후군이다.",
+      "• 거대아, 거대혀, 제대탈장·배꼽탈장, 편측 과성장, 신생아 저혈당을 확인한다.",
+      "• 저혈당을 조기에 교정하고, 윌름스종양·간모세포종 위험에 맞춘 종양 감시와 유전상담을 소아 전문팀과 계획한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 과성장, 거대혀, 복벽 결손과 소아 종양 위험이 특징인 유전성 과성장 증후군이다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 거대아, 거대혀, 제대탈장·배꼽탈장, 편측 과성장, 신생아 저혈당을 확인한다."
+        ]
+      },
+      {
+        "title": "추적",
+        "content": [
+          "• 저혈당을 조기에 교정하고, 윌름스종양·간모세포종 위험에 맞춘 종양 감시와 유전상담을 소아 전문팀과 계획한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:48:27.738Z",
+    "clinicalPriority": "tier_2",
+    "contentMeta": {
+      "contentUpdatedAt": "2026-08-12",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MedlinePlus Genetics: Beckwith-Wiedemann syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/beckwith-wiedemann-syndrome/"
+        }
+      ]
     }
   },
   {
@@ -88149,6 +90506,87 @@
     }
   },
   {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA",
+    "title": "소아 유전질환",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "소아과 총론",
+      "유전질환"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Pediatric Genetic Disorders",
+      "Inherited Metabolic Disorders",
+      "Genetic Disorders"
+    ],
+    "chiefComplaints": [
+      "성장발달",
+      "근력저하",
+      "경련 (소아)"
+    ],
+    "definition": "",
+    "overview": [
+      "• 염색체 이상: 다운·파타우·윌리엄스 등은 성장과 선천기형 양상을 함께 봅니다.",
+      "• 단일유전자 질환: X-연관, 상염색체 우성·열성 등 가계 양상을 해석합니다.",
+      "• 선천성 대사질환: 영아기 저긴장, 퇴행, 장기비대 또는 특징적 검사 이상을 단서로 접근합니다.",
+      "• Fragile X, Rett, Tay-Sachs, Pompe, Lesch-Nyhan, Hartnup, Hurler 증후군",
+      "• Patau·Williams 등 염색체 이상"
+    ],
+    "sections": [
+      {
+        "title": "분류 포인트",
+        "content": [
+          "• 염색체 이상: 다운·파타우·윌리엄스 등은 성장과 선천기형 양상을 함께 봅니다.",
+          "• 단일유전자 질환: X-연관, 상염색체 우성·열성 등 가계 양상을 해석합니다.",
+          "• 선천성 대사질환: 영아기 저긴장, 퇴행, 장기비대 또는 특징적 검사 이상을 단서로 접근합니다."
+        ]
+      },
+      {
+        "title": "관련 질환 범위",
+        "content": [
+          "• Fragile X, Rett, Tay-Sachs, Pompe, Lesch-Nyhan, Hartnup, Hurler 증후군",
+          "• Patau·Williams 등 염색체 이상"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T13:05:51.935Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": [
+        "Pompe병 (Pompe Disease)",
+        "Tay-Sachs병 (Tay-Sachs Disease)",
+        "취약 X 증후군 (Fragile X Syndrome)",
+        "레트 증후군 (Rett Syndrome)",
+        "Lesch-Nyhan 증후군",
+        "Hartnup병 (Hartnup Disease)",
+        "헐러 증후군 (Hurler Syndrome)",
+        "윌리엄스 증후군 (Williams Syndrome)",
+        "파타우 증후군 (Patau Syndrome)",
+        "원발성 섬모운동이상증 (Primary Ciliary Dyskinesia)"
+      ]
+    },
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MedlinePlus Genetics: Genetic Disorders",
+          "url": "https://medlineplus.gov/geneticdisorders.html"
+        },
+        {
+          "label": "MedlinePlus Genetics: Inheritance Patterns",
+          "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+        }
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/14 소아청소년과/소아과 총론/소아과 총론.md",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWE6rO8IOy0neuhoC5tZA",
     "title": "소아과 총론",
@@ -88171,13 +90609,19 @@
     ],
     "definition": "",
     "overview": [
+      "• [[베크위드-비데만 증후군 (Beckwith-Wiedemann Syndrome)]]",
       "• [[가족성 단신증 (Familial Short Stature)]]",
       "• [[체질성 성장 및 사춘기 지연 (Constitutional Delay of Growth and Adolescence)]]",
       "• [[성장 지연 (Growth Retardation)]]",
-      "• [[성조숙증 (Sexual Precociousness)]]",
-      "• [[비타민 D 결핍증 (Vitamin D Deficiency)]]"
+      "• [[성조숙증 (Sexual Precociousness)]]"
     ],
     "sections": [
+      {
+        "title": "선천성·발달 이상",
+        "content": [
+          "• [[베크위드-비데만 증후군 (Beckwith-Wiedemann Syndrome)]]"
+        ]
+      },
       {
         "title": "성장",
         "content": [
@@ -88243,7 +90687,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-07-10T15:23:56.672Z",
+    "updatedAt": "2026-08-12T09:49:40.718Z",
     "clinicalPriority": ""
   },
   {
@@ -88338,6 +90782,50 @@
       "guidelineYear": "",
       "sources": []
     }
+  },
+  {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/신생아 생리적 질출혈 (Neonatal Physiologic Vaginal Bleeding).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOyDneumrOyggSDsp4jstpztmIggKE5lb25hdGFsIFBoeXNpb2xvZ2ljIFZhZ2luYWwgQmxlZWRpbmcpLm1k",
+    "title": "신생아 생리적 질출혈 (Neonatal Physiologic Vaginal Bleeding)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/신생아 생리적 질출혈 (Neonatal Physiologic Vaginal Bleeding).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "소아과 총론"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "신생아 생리적 질출혈",
+      "neonatal physiologic vaginal bleeding"
+    ],
+    "chiefComplaints": [
+      "질출혈"
+    ],
+    "definition": "",
+    "overview": [
+      "• 모체 호르몬이 소실되면서 여아 신생아에 일시적으로 나타날 수 있는 소량의 질출혈이다.",
+      "• 전신 상태가 양호하고 짧게 지속되는 소량 출혈은 대개 관찰한다.",
+      "• 출혈량이 많거나 지속되고, 외상·감염·성조숙·응고장애가 의심되면 다른 원인을 평가한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 모체 호르몬이 소실되면서 여아 신생아에 일시적으로 나타날 수 있는 소량의 질출혈이다."
+        ]
+      },
+      {
+        "title": "평가",
+        "content": [
+          "• 전신 상태가 양호하고 짧게 지속되는 소량 출혈은 대개 관찰한다.",
+          "• 출혈량이 많거나 지속되고, 외상·감염·성조숙·응고장애가 의심되면 다른 원인을 평가한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:05:07.539Z",
+    "clinicalPriority": "tier_3"
   },
   {
     "id": "02 Diseases/14 소아청소년과/소아과 총론/신생아 일과성 빈호흡 (Transient Tachypnea of the Newborn).md",
@@ -88698,6 +91186,114 @@
     }
   },
   {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/아동학대 및 비우발적 손상.md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JWE64-Z7ZWZ64yAIOuwjyDruYTsmrDrsJzsoIEg7IaQ7IOBLm1k",
+    "title": "아동학대 및 비우발적 손상",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/아동학대 및 비우발적 손상.md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "소아과 총론",
+      "아동학대·비우발적 손상"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Child Maltreatment",
+      "Child Abuse",
+      "Nonaccidental Injury",
+      "Child Maltreatment and Nonaccidental Injury"
+    ],
+    "chiefComplaints": [
+      "외상",
+      "성장발달"
+    ],
+    "definition": "",
+    "overview": [
+      "• 손상 양상·시점·보호자 진술의 일관성 및 과거 손상 기록",
+      "• 영아의 두부 손상, 특정 골절, 구강·생식기 손상 등은 전체 평가 맥락에서 해석"
+    ],
+    "sections": [
+      {
+        "title": "평가 포인트",
+        "content": [
+          "• 손상 양상·시점·보호자 진술의 일관성 및 과거 손상 기록",
+          "• 영아의 두부 손상, 특정 골절, 구강·생식기 손상 등은 전체 평가 맥락에서 해석"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:53:22.023Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": []
+    },
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MSD Manual Professional: Overview of Child Maltreatment",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/child-maltreatment/overview-of-child-maltreatment"
+        }
+      ]
+    }
+  },
+  {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/에드워드 증후군 (Edwards Syndrome).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JeQ65Oc7JuM65OcIOymne2bhOq1sCAoRWR3YXJkcyBTeW5kcm9tZSkubWQ",
+    "title": "에드워드 증후군 (Edwards Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/에드워드 증후군 (Edwards Syndrome).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "소아과 총론",
+      "선천성·발달 이상"
+    ],
+    "relatedSpecialties": [
+      "산부인과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "에드워드 증후군",
+      "Edwards syndrome",
+      "trisomy 18"
+    ],
+    "chiefComplaints": [
+      "발달지연"
+    ],
+    "definition": "",
+    "overview": [
+      "• 18번 염색체 삼염색체증으로, 중증 성장·발달 이상과 다장기 선천기형을 동반한다.",
+      "• 태아 성장제한, 심장기형, 손가락 겹침, rocker-bottom foot 등의 조합이 단서다.",
+      "• 염색체검사로 확인하고, 예후·완화적 돌봄을 포함해 가족과 목표를 함께 결정한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 18번 염색체 삼염색체증으로, 중증 성장·발달 이상과 다장기 선천기형을 동반한다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 태아 성장제한, 심장기형, 손가락 겹침, rocker-bottom foot 등의 조합이 단서다."
+        ]
+      },
+      {
+        "title": "관리",
+        "content": [
+          "• 염색체검사로 확인하고, 예후·완화적 돌봄을 포함해 가족과 목표를 함께 결정한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:05:44.777Z",
+    "clinicalPriority": "tier_2"
+  },
+  {
     "id": "02 Diseases/14 소아청소년과/소아과 총론/열성 경련 (Febrile Convulsion).md",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Je07ISxIOqyveugqCAoRmVicmlsZSBDb252dWxzaW9uKS5tZA",
     "title": "열성 경련 (Febrile Convulsion)",
@@ -88783,6 +91379,98 @@
       "contentUpdatedAt": "2026-07-30",
       "guidelineYear": "",
       "sources": []
+    }
+  },
+  {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/원발성 섬모운동이상증 (Primary Ciliary Dyskinesia).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JuQ67Cc7ISxIOyErOuqqOyatOuPmeydtOyDgeymnSAoUHJpbWFyeSBDaWxpYXJ5IER5c2tpbmVzaWEpLm1k",
+    "title": "원발성 섬모운동이상증 (Primary Ciliary Dyskinesia)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/원발성 섬모운동이상증 (Primary Ciliary Dyskinesia).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "[소아과 총론, 유전질환]"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "[Kartagener syndrome, primary ciliary dyskinesia, PCD]"
+    ],
+    "chiefComplaints": [
+      "[기침, 호흡곤란]"
+    ],
+    "definition": "",
+    "overview": [
+      "# 원발성 섬모운동이상증 (Primary Ciliary Dyskinesia)",
+      "섬모 기능 이상으로 만성 부비동·호흡기 감염, 기관지확장증과 불임을 유발할 수 있습니다. situs inversus가 동반된 경우 Kartagener 증후군으로 부릅니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# 원발성 섬모운동이상증 (Primary Ciliary Dyskinesia)",
+          "섬모 기능 이상으로 만성 부비동·호흡기 감염, 기관지확장증과 불임을 유발할 수 있습니다. situs inversus가 동반된 경우 Kartagener 증후군으로 부릅니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T13:05:48.805Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MedlinePlus Genetics: Primary ciliary dyskinesia",
+          "url": "https://medlineplus.gov/genetics/condition/primary-ciliary-dyskinesia/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/윌리엄스 증후군 (Williams Syndrome).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JyM66as7JeE7IqkIOymne2bhOq1sCAoV2lsbGlhbXMgU3luZHJvbWUpLm1k",
+    "title": "윌리엄스 증후군 (Williams Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/윌리엄스 증후군 (Williams Syndrome).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "[소아과 총론, 유전질환]"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "[Williams syndrome, 7q11.23 deletion]"
+    ],
+    "chiefComplaints": [
+      "[성장발달, 심잡음]"
+    ],
+    "definition": "",
+    "overview": [
+      "# 윌리엄스 증후군 (Williams Syndrome)",
+      "7q11.23 미세결실과 연관된 질환입니다. 특징적 인지·행동 양상, 고칼슘혈증과 심혈관 이상, 특히 상부 대동맥 협착을 함께 확인합니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# 윌리엄스 증후군 (Williams Syndrome)",
+          "7q11.23 미세결실과 연관된 질환입니다. 특징적 인지·행동 양상, 고칼슘혈증과 심혈관 이상, 특히 상부 대동맥 협착을 함께 확인합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T13:05:42.623Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MedlinePlus Genetics: Williams syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/williams-syndrome/"
+        }
+      ]
     }
   },
   {
@@ -88959,6 +91647,52 @@
       "contentUpdatedAt": "2026-07-30",
       "guidelineYear": "",
       "sources": []
+    }
+  },
+  {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/취약 X 증후군 (Fragile X Syndrome).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Leo7JW9IFgg7Kad7ZuE6rWwIChGcmFnaWxlIFggU3luZHJvbWUpLm1k",
+    "title": "취약 X 증후군 (Fragile X Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/취약 X 증후군 (Fragile X Syndrome).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "[소아과 총론, 유전질환]"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "[Fragile X syndrome, FMR1, CGG repeat expansion]"
+    ],
+    "chiefComplaints": [
+      "[성장발달]"
+    ],
+    "definition": "",
+    "overview": [
+      "# 취약 X 증후군 (Fragile X Syndrome)",
+      "FMR1의 CGG 반복 확장에 의한 X-연관 질환입니다. 언어·발달지연, 지적장애 또는 자폐 스펙트럼 특성, 큰 귀와 사춘기 이후 거대고환을 단서로 확인합니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# 취약 X 증후군 (Fragile X Syndrome)",
+          "FMR1의 CGG 반복 확장에 의한 X-연관 질환입니다. 언어·발달지연, 지적장애 또는 자폐 스펙트럼 특성, 큰 귀와 사춘기 이후 거대고환을 단서로 확인합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T13:05:29.833Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MedlinePlus Genetics: Fragile X syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/fragile-x-syndrome/"
+        }
+      ]
     }
   },
   {
@@ -89302,6 +92036,52 @@
     }
   },
   {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/파타우 증후군 (Patau Syndrome).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YyM7YOA7JqwIOymne2bhOq1sCAoUGF0YXUgU3luZHJvbWUpLm1k",
+    "title": "파타우 증후군 (Patau Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/파타우 증후군 (Patau Syndrome).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "[소아과 총론, 유전질환]"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "[Patau syndrome, trisomy 13]"
+    ],
+    "chiefComplaints": [
+      "[성장발달]"
+    ],
+    "definition": "",
+    "overview": [
+      "# 파타우 증후군 (Patau Syndrome)",
+      "13번 삼염색체성입니다. 중증 발달 이상, 정중선 기형, 구순구개열, 다지증과 선천성 심장질환을 단서로 염색체 검사를 확인합니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# 파타우 증후군 (Patau Syndrome)",
+          "13번 삼염색체성입니다. 중증 발달 이상, 정중선 기형, 구순구개열, 다지증과 선천성 심장질환을 단서로 염색체 검사를 확인합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T13:05:45.631Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MedlinePlus Genetics: Genetic Conditions",
+          "url": "https://medlineplus.gov/genetics/condition/"
+        }
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/14 소아청소년과/소아과 총론/페닐케톤뇨증 (Phenylketonuria).md",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Y6Y64uQ7LyA7Yak64eo7KadIChQaGVueWxrZXRvbnVyaWEpLm1k",
     "title": "페닐케톤뇨증 (Phenylketonuria)",
@@ -89483,6 +92263,52 @@
       "contentUpdatedAt": "2026-07-30",
       "guidelineYear": "",
       "sources": []
+    }
+  },
+  {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/헐러 증후군 (Hurler Syndrome).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ZeQ65-sIOymne2bhOq1sCAoSHVybGVyIFN5bmRyb21lKS5tZA",
+    "title": "헐러 증후군 (Hurler Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/헐러 증후군 (Hurler Syndrome).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "[소아과 총론, 유전질환]"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "[Hurler syndrome, mucopolysaccharidosis type I, MPS I]"
+    ],
+    "chiefComplaints": [
+      "[성장발달]"
+    ],
+    "definition": "",
+    "overview": [
+      "# 헐러 증후군 (Hurler Syndrome)",
+      "알파-L-iduronidase 결핍으로 dermatan sulfate와 heparan sulfate가 축적되는 MPS I의 중증형입니다. 거친 얼굴, 간비비대, 골격 이상, 발달지연과 각막 혼탁을 함께 봅니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# 헐러 증후군 (Hurler Syndrome)",
+          "알파-L-iduronidase 결핍으로 dermatan sulfate와 heparan sulfate가 축적되는 MPS I의 중증형입니다. 거친 얼굴, 간비비대, 골격 이상, 발달지연과 각막 혼탁을 함께 봅니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T13:05:40.113Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MedlinePlus Genetics: Genetic Conditions",
+          "url": "https://medlineplus.gov/genetics/condition/"
+        }
+      ]
     }
   },
   {
@@ -89692,6 +92518,190 @@
     }
   },
   {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/Hartnup병 (Hartnup Disease).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvSGFydG51cOuzkSAoSGFydG51cCBEaXNlYXNlKS5tZA",
+    "title": "Hartnup병 (Hartnup Disease)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/Hartnup병 (Hartnup Disease).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "[소아과 총론, 유전질환]"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "[Hartnup disease, SLC6A19 deficiency]"
+    ],
+    "chiefComplaints": [
+      "[피부발진, 운동실조]"
+    ],
+    "definition": "",
+    "overview": [
+      "# Hartnup병 (Hartnup Disease)",
+      "중성 아미노산 수송 이상으로 생기는 상염색체 열성 질환입니다. 질환·영양부족·스트레스 뒤 광과민성 발진, 운동실조, 정신신경 증상과 중성 아미노산뇨가 나타날 수 있습니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# Hartnup병 (Hartnup Disease)",
+          "중성 아미노산 수송 이상으로 생기는 상염색체 열성 질환입니다. 질환·영양부족·스트레스 뒤 광과민성 발진, 운동실조, 정신신경 증상과 중성 아미노산뇨가 나타날 수 있습니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T13:05:37.528Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MedlinePlus Genetics: Hartnup disease",
+          "url": "https://medlineplus.gov/genetics/condition/hartnup-disease/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/Lesch-Nyhan 증후군.md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvTGVzY2gtTnloYW4g7Kad7ZuE6rWwLm1k",
+    "title": "Lesch-Nyhan 증후군",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/Lesch-Nyhan 증후군.md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "[소아과 총론, 유전질환]"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "[Lesch-Nyhan syndrome, HPRT deficiency]"
+    ],
+    "chiefComplaints": [
+      "[발달지연]"
+    ],
+    "definition": "",
+    "overview": [
+      "# Lesch-Nyhan 증후군",
+      "HPRT 결핍에 의한 X-연관 퓨린 대사질환입니다. 고요산혈증·요산결석과 근긴장이상, 자해 행동의 조합이 핵심입니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# Lesch-Nyhan 증후군",
+          "HPRT 결핍에 의한 X-연관 퓨린 대사질환입니다. 고요산혈증·요산결석과 근긴장이상, 자해 행동의 조합이 핵심입니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T13:05:34.937Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MedlinePlus Genetics: Lesch-Nyhan syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/lesch-nyhan-syndrome/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/Pompe병 (Pompe Disease).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvUG9tcGXrs5EgKFBvbXBlIERpc2Vhc2UpLm1k",
+    "title": "Pompe병 (Pompe Disease)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/Pompe병 (Pompe Disease).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "[소아과 총론, 유전질환]"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "[Pompe disease, acid maltase deficiency, glycogen storage disease type II]"
+    ],
+    "chiefComplaints": [
+      "[근력저하, 호흡곤란]"
+    ],
+    "definition": "",
+    "overview": [
+      "# Pompe병 (Pompe Disease)",
+      "GAA 결핍으로 발생하는 상염색체 열성 리소좀 글리코겐 축적질환입니다. 영아형은 저긴장·비후성 심근병증·호흡부전을 단서로, 후기형은 진행성 근력저하와 호흡근 침범을 단서로 봅니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# Pompe병 (Pompe Disease)",
+          "GAA 결핍으로 발생하는 상염색체 열성 리소좀 글리코겐 축적질환입니다. 영아형은 저긴장·비후성 심근병증·호흡부전을 단서로, 후기형은 진행성 근력저하와 호흡근 침범을 단서로 봅니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T13:05:24.674Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MedlinePlus Genetics: Pompe disease",
+          "url": "https://medlineplus.gov/genetics/condition/pompe-disease/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/Tay-Sachs병 (Tay-Sachs Disease).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvVGF5LVNhY2hz67ORIChUYXktU2FjaHMgRGlzZWFzZSkubWQ",
+    "title": "Tay-Sachs병 (Tay-Sachs Disease)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/Tay-Sachs병 (Tay-Sachs Disease).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "[소아과 총론, 유전질환]"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "[Tay-Sachs disease, hexosaminidase A deficiency]"
+    ],
+    "chiefComplaints": [
+      "[발달지연, 경련 (소아)]"
+    ],
+    "definition": "",
+    "overview": [
+      "# Tay-Sachs병 (Tay-Sachs Disease)",
+      "HEXA 결핍에 의한 상염색체 열성 GM2 gangliosidosis입니다. 영아기의 발달 퇴행, 과도한 놀람반응, 체리-레드 반점이 핵심 단서이며 간비대는 보통 두드러지지 않습니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# Tay-Sachs병 (Tay-Sachs Disease)",
+          "HEXA 결핍에 의한 상염색체 열성 GM2 gangliosidosis입니다. 영아기의 발달 퇴행, 과도한 놀람반응, 체리-레드 반점이 핵심 단서이며 간비대는 보통 두드러지지 않습니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T13:05:27.261Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MedlinePlus Genetics: Tay-Sachs disease",
+          "url": "https://medlineplus.gov/genetics/condition/tay-sachs-disease/"
+        }
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/14 소아청소년과/소아청소년과.md",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOyyreyGjOuFhOqzvC5tZA",
     "title": "소아청소년과",
@@ -89723,6 +92733,39 @@
       }
     ],
     "updatedAt": "2026-05-18T05:43:16.761Z",
+    "clinicalPriority": ""
+  },
+  {
+    "id": "02 Diseases/14 소아청소년과/신생아 금단 증후군 (Neonatal Abstinence Syndrome).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yLoOyDneyVhCDquIjri6gg7Kad7ZuE6rWwIChOZW9uYXRhbCBBYnN0aW5lbmNlIFN5bmRyb21lKS5tZA",
+    "title": "신생아 금단 증후군 (Neonatal Abstinence Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/신생아 금단 증후군 (Neonatal Abstinence Syndrome).md",
+    "specialty": "14 소아청소년과",
+    "category": "신생아 질환",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "neonatal abstinence syndrome",
+      "neonatal withdrawal syndrome"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 자궁 내 약물 노출 뒤 떨림, 과민성, 수유 곤란, 자율신경 증상을 보일 수 있습니다.",
+      "• 비약물적 안정화와 표준화된 관찰을 우선하고, 중증도에 따라 약물 치료를 고려합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 자궁 내 약물 노출 뒤 떨림, 과민성, 수유 곤란, 자율신경 증상을 보일 수 있습니다.",
+          "• 비약물적 안정화와 표준화된 관찰을 우선하고, 중증도에 따라 약물 치료를 고려합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:49:07.258Z",
     "clinicalPriority": ""
   },
   {
@@ -93472,6 +96515,70 @@
       "contentUpdatedAt": "2026-07-30",
       "guidelineYear": "",
       "sources": []
+    }
+  },
+  {
+    "id": "02 Diseases/15 정신건강의학과/세로토닌 증후군 (Serotonin Syndrome).md",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yEuOuhnO2GoOuLjCDspp3tm4TqtbAgKFNlcm90b25pbiBTeW5kcm9tZSkubWQ",
+    "title": "세로토닌 증후군 (Serotonin Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/세로토닌 증후군 (Serotonin Syndrome).md",
+    "specialty": "15 정신건강의학과",
+    "category": "정신건강의학과",
+    "classification": [
+      "정신과 총론",
+      "정신과적 치료"
+    ],
+    "relatedSpecialties": [
+      "응급의학"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "serotonin syndrome",
+      "세로토닌 증후군"
+    ],
+    "chiefComplaints": [
+      "발열",
+      "의식저하",
+      "이상 운동"
+    ],
+    "definition": "",
+    "overview": [
+      "• 세로토닌성 약물의 과량 또는 상호작용으로 생기는 잠재적으로 치명적인 독성 증후군이다.",
+      "• 정신상태 변화, 자율신경 항진, 신경근 과흥분이 함께 나타나며, 특히 반사항진·유발성 또는 자발성 간대경련이 중요하다.",
+      "• 원인 약물을 중단하고 진정·냉각·수액 등 지지 치료를 시작한다. NMS보다 빠른 발병과 간대경련·반사항진이 두드러지는 점을 감별에 이용한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 세로토닌성 약물의 과량 또는 상호작용으로 생기는 잠재적으로 치명적인 독성 증후군이다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 정신상태 변화, 자율신경 항진, 신경근 과흥분이 함께 나타나며, 특히 반사항진·유발성 또는 자발성 간대경련이 중요하다."
+        ]
+      },
+      {
+        "title": "즉시 할 일",
+        "content": [
+          "• 원인 약물을 중단하고 진정·냉각·수액 등 지지 치료를 시작한다. NMS보다 빠른 발병과 간대경련·반사항진이 두드러지는 점을 감별에 이용한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:49:04.195Z",
+    "clinicalPriority": "tier_1",
+    "contentMeta": {
+      "contentUpdatedAt": "2026-08-12",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MSD Manual Professional: Serotonin Syndrome",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/heat-illness/serotonin-syndrome"
+        }
+      ]
     }
   },
   {
@@ -102607,6 +105714,59 @@
     }
   },
   {
+    "id": "02 Diseases/16 신경과-신경외과/마미증후군 (Cauda Equina Syndrome).md",
+    "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rp4jrr7jspp3tm4TqtbAgKENhdWRhIEVxdWluYSBTeW5kcm9tZSkubWQ",
+    "title": "마미증후군 (Cauda Equina Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/마미증후군 (Cauda Equina Syndrome).md",
+    "specialty": "16 신경과-신경외과",
+    "category": "신경과-신경외과",
+    "classification": [
+      "척수질환"
+    ],
+    "relatedSpecialties": [
+      "정형외과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "마미증후군",
+      "cauda equina syndrome"
+    ],
+    "chiefComplaints": [
+      "요통",
+      "감각이상",
+      "배뇨장애"
+    ],
+    "definition": "",
+    "overview": [
+      "• 요천추 신경근 다발 압박으로 발생하는 신경외과적 응급 상태다.",
+      "• 안장부 감각저하, 새로 생긴 요정체·요실금, 양측 하지 약화·좌골신경통은 핵심 경고 신호다.",
+      "• 긴급 MRI와 척추 전문 평가를 의뢰하고, 압박 원인에 따라 신속한 감압술을 고려한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 요천추 신경근 다발 압박으로 발생하는 신경외과적 응급 상태다."
+        ]
+      },
+      {
+        "title": "즉시 확인할 소견",
+        "content": [
+          "• 안장부 감각저하, 새로 생긴 요정체·요실금, 양측 하지 약화·좌골신경통은 핵심 경고 신호다."
+        ]
+      },
+      {
+        "title": "즉시 할 일",
+        "content": [
+          "• 긴급 MRI와 척추 전문 평가를 의뢰하고, 압박 원인에 따라 신속한 감압술을 고려한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:05:04.994Z",
+    "clinicalPriority": "tier_1"
+  },
+  {
     "id": "02 Diseases/16 신경과-신경외과/만성 경막하 출혈 (Chronic subdural hematoma).md",
     "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rp4zshLEg6rK966eJ7ZWYIOy2nO2YiCAoQ2hyb25pYyBzdWJkdXJhbCBoZW1hdG9tYSkubWQ",
     "title": "만성 경막하 출혈 (Chronic subdural hematoma)",
@@ -103072,6 +106232,58 @@
       "guidelineYear": "",
       "sources": []
     }
+  },
+  {
+    "id": "02 Diseases/16 신경과-신경외과/샤르코-마리-투스병 (Charcot-Marie-Tooth Disease).md",
+    "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sg6TrpbTsvZQt66eI66asLe2IrOyKpOuzkSAoQ2hhcmNvdC1NYXJpZS1Ub290aCBEaXNlYXNlKS5tZA",
+    "title": "샤르코-마리-투스병 (Charcot-Marie-Tooth Disease)",
+    "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/샤르코-마리-투스병 (Charcot-Marie-Tooth Disease).md",
+    "specialty": "16 신경과-신경외과",
+    "category": "신경과-신경외과",
+    "classification": [
+      "신경근육질환"
+    ],
+    "relatedSpecialties": [
+      "소아청소년과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Charcot-Marie-Tooth disease",
+      "CMT disease"
+    ],
+    "chiefComplaints": [
+      "근력저하",
+      "감각이상"
+    ],
+    "definition": "",
+    "overview": [
+      "• 신경전도검사와 유전자검사로 유형을 확인하고, 보조기·물리치료·유전상담으로 기능을 유지한다.",
+      "• 유전성 운동·감각 말초신경병으로, 원위부 근력저하와 감각저하가 서서히 진행한다.",
+      "• 발목 배굴 약화에 따른 발처짐, 높은 아치발·망치발가락, 원위부 근위축과 가족력이 특징적이다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 유전성 운동·감각 말초신경병으로, 원위부 근력저하와 감각저하가 서서히 진행한다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 발목 배굴 약화에 따른 발처짐, 높은 아치발·망치발가락, 원위부 근위축과 가족력이 특징적이다."
+        ]
+      },
+      {
+        "title": "진단과 관리",
+        "content": [
+          "• 신경전도검사와 유전자검사로 유형을 확인하고, 보조기·물리치료·유전상담으로 기능을 유지한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:03:49.322Z",
+    "clinicalPriority": "tier_3"
   },
   {
     "id": "02 Diseases/16 신경과-신경외과/서경 (Writer's cramp).md",
@@ -104728,6 +107940,109 @@
     }
   },
   {
+    "id": "02 Diseases/16 신경과-신경외과/크로이츠펠트-야코프병 (Creutzfeldt-Jakob Disease).md",
+    "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tgazroZzsnbTsuKDtjqDtirgt7JW87L2U7ZSE67ORIChDcmV1dHpmZWxkdC1KYWtvYiBEaXNlYXNlKS5tZA",
+    "title": "크로이츠펠트-야코프병 (Creutzfeldt-Jakob Disease)",
+    "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/크로이츠펠트-야코프병 (Creutzfeldt-Jakob Disease).md",
+    "specialty": "16 신경과-신경외과",
+    "category": "신경과-신경외과",
+    "classification": [
+      "신경퇴행질환"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Creutzfeldt-Jakob disease",
+      "CJD"
+    ],
+    "chiefComplaints": [
+      "인지저하",
+      "이상 운동"
+    ],
+    "definition": "",
+    "overview": [
+      "• 프리온 질환으로, 수개월 내 빠르게 진행하는 치매와 신경학적 기능저하를 일으킨다.",
+      "• 급속 인지저하, 근간대경련, 실조, 피질성 시각장애가 조합되면 의심한다.",
+      "• MRI, 뇌파, 뇌척수액 검사로 다른 가역적 원인을 배제하며, 치료는 증상 완화와 돌봄 지원이 중심이다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 프리온 질환으로, 수개월 내 빠르게 진행하는 치매와 신경학적 기능저하를 일으킨다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 급속 인지저하, 근간대경련, 실조, 피질성 시각장애가 조합되면 의심한다."
+        ]
+      },
+      {
+        "title": "평가",
+        "content": [
+          "• MRI, 뇌파, 뇌척수액 검사로 다른 가역적 원인을 배제하며, 치료는 증상 완화와 돌봄 지원이 중심이다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:03:51.853Z",
+    "clinicalPriority": "tier_1"
+  },
+  {
+    "id": "02 Diseases/16 신경과-신경외과/특발성 두개내 고혈압 (Idiopathic Intracranial Hypertension).md",
+    "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tirnrsJzshLEg65GQ6rCc64K0IOqzoO2YiOyVlSAoSWRpb3BhdGhpYyBJbnRyYWNyYW5pYWwgSHlwZXJ0ZW5zaW9uKS5tZA",
+    "title": "특발성 두개내 고혈압 (Idiopathic Intracranial Hypertension)",
+    "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/특발성 두개내 고혈압 (Idiopathic Intracranial Hypertension).md",
+    "specialty": "16 신경과-신경외과",
+    "category": "신경과-신경외과",
+    "classification": [
+      "IICP"
+    ],
+    "relatedSpecialties": [
+      "안과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "idiopathic intracranial hypertension",
+      "IIH",
+      "특발성 두개내 고혈압"
+    ],
+    "chiefComplaints": [
+      "두통",
+      "시야 이상"
+    ],
+    "definition": "",
+    "overview": [
+      "• 구조적 병변 없이 두개내압이 상승하는 질환으로, 시력 손상이 가장 중요한 합병증이다.",
+      "• 비만한 가임기 여성의 두통, 일과성 시야흐림, 박동성 이명, 유두부종이 전형적이다.",
+      "• 뇌영상으로 이차 원인과 정맥동 혈전증을 배제한 뒤 요추천자로 평가하며, 시기능 추적과 체중 관리·압력저하 치료를 병행한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 구조적 병변 없이 두개내압이 상승하는 질환으로, 시력 손상이 가장 중요한 합병증이다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 비만한 가임기 여성의 두통, 일과성 시야흐림, 박동성 이명, 유두부종이 전형적이다."
+        ]
+      },
+      {
+        "title": "평가와 관리",
+        "content": [
+          "• 뇌영상으로 이차 원인과 정맥동 혈전증을 배제한 뒤 요추천자로 평가하며, 시기능 추적과 체중 관리·압력저하 치료를 병행한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T09:04:31.428Z",
+    "clinicalPriority": "tier_1"
+  },
+  {
     "id": "02 Diseases/16 신경과-신경외과/파킨슨 증후군 (Parkinsonism).md",
     "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjIztgqjsiqgg7Kad7ZuE6rWwIChQYXJraW5zb25pc20pLm1k",
     "title": "파킨슨 증후군 (Parkinsonism)",
@@ -105376,6 +108691,39 @@
       "guidelineYear": "",
       "sources": []
     }
+  },
+  {
+    "id": "02 Diseases/16 신경과-신경외과/호르너 증후군 (Horner Syndrome).md",
+    "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tmLjrpbTrhIgg7Kad7ZuE6rWwIChIb3JuZXIgU3luZHJvbWUpLm1k",
+    "title": "호르너 증후군 (Horner Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/호르너 증후군 (Horner Syndrome).md",
+    "specialty": "16 신경과-신경외과",
+    "category": "신경과",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Horner syndrome",
+      "ptosis miosis anhidrosis"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 안검하수, 축동, 무한증의 조합은 교감신경 경로 병변을 시사합니다.",
+      "• 급성 통증성 호르너 증후군에서는 경부 혈관 병변을 포함한 원인을 우선 평가합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 안검하수, 축동, 무한증의 조합은 교감신경 경로 병변을 시사합니다.",
+          "• 급성 통증성 호르너 증후군에서는 경부 혈관 병변을 포함한 원인을 우선 평가합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:48:38.985Z",
+    "clinicalPriority": ""
   },
   {
     "id": "02 Diseases/16 신경과-신경외과/후 척수 증후군 (Posterior cord syndrome).md",
@@ -106092,6 +109440,38 @@
       "guidelineYear": "",
       "sources": []
     }
+  },
+  {
+    "id": "02 Diseases/17 이비인후과/급성 유양돌기염 (Acute Mastoiditis).md",
+    "slug": "MTcg7J2067mE7J247ZuE6rO8L-q4ieyEsSDsnKDslpHrj4zquLDsl7wgKEFjdXRlIE1hc3RvaWRpdGlzKS5tZA",
+    "title": "급성 유양돌기염 (Acute Mastoiditis)",
+    "sourcePath": "source_notes/02 Diseases/17 이비인후과/급성 유양돌기염 (Acute Mastoiditis).md",
+    "specialty": "17 이비인후과",
+    "category": "중이염",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "acute mastoiditis"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 급성 중이염의 화농성 합병증으로, 귀 뒤 통증·발적·부종과 귓바퀴 돌출이 단서가 됩니다.",
+      "• 두개내 합병증 및 농양 가능성을 평가하고 이비인후과 치료를 서둘러 연결합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 급성 중이염의 화농성 합병증으로, 귀 뒤 통증·발적·부종과 귓바퀴 돌출이 단서가 됩니다.",
+          "• 두개내 합병증 및 농양 가능성을 평가하고 이비인후과 치료를 서둘러 연결합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T18:57:11.493Z",
+    "clinicalPriority": ""
   },
   {
     "id": "02 Diseases/17 이비인후과/급성 편도염 (Acute Tonsillitis).md",
@@ -111058,6 +114438,59 @@
     ],
     "updatedAt": "2026-07-15T12:31:47.328Z",
     "clinicalPriority": ""
+  },
+  {
+    "id": "02 Diseases/18 안과/안구 외상.md",
+    "slug": "MTgg7JWI6rO8L-yViOq1rCDsmbjsg4EubWQ",
+    "title": "안구 외상",
+    "sourcePath": "source_notes/02 Diseases/18 안과/안구 외상.md",
+    "specialty": "18 안과",
+    "category": "안과",
+    "classification": [
+      "외상"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Eye Trauma",
+      "Ocular Trauma"
+    ],
+    "chiefComplaints": [
+      "안구통증",
+      "시력저하",
+      "눈충혈"
+    ],
+    "definition": "",
+    "overview": [
+      "• 각막 손상, 개방성 안구 손상, 외상성 전방출혈",
+      "• 고속 이물·폭발·금속 작업 뒤 안구내 이물 가능성"
+    ],
+    "sections": [
+      {
+        "title": "포함 범위",
+        "content": [
+          "• 각막 손상, 개방성 안구 손상, 외상성 전방출혈",
+          "• 고속 이물·폭발·금속 작업 뒤 안구내 이물 가능성"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:49:42.800Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": []
+    },
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MSD Manual Professional: Globe Injury",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/eye-trauma/globe-injury"
+        }
+      ]
+    }
   },
   {
     "id": "02 Diseases/18 안과/안와골절 (orbital fracture).md",
@@ -116375,6 +119808,39 @@
     }
   },
   {
+    "id": "02 Diseases/20 비뇨기과/발기부전 (Erectile Dysfunction).md",
+    "slug": "MjAg67mE64eo6riw6rO8L-uwnOq4sOu2gOyghCAoRXJlY3RpbGUgRHlzZnVuY3Rpb24pLm1k",
+    "title": "발기부전 (Erectile Dysfunction)",
+    "sourcePath": "source_notes/02 Diseases/20 비뇨기과/발기부전 (Erectile Dysfunction).md",
+    "specialty": "20 비뇨기과",
+    "category": "남성 성기능 질환",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "erectile dysfunction",
+      "vascular erectile dysfunction"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 혈관·신경·내분비·약물·정신사회적 요인을 함께 평가합니다.",
+      "• 심혈관 위험인자와 병용 약물을 확인한 뒤 원인에 맞는 치료를 선택합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 혈관·신경·내분비·약물·정신사회적 요인을 함께 평가합니다.",
+          "• 심혈관 위험인자와 병용 약물을 확인한 뒤 원인에 맞는 치료를 선택합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:49:04.049Z",
+    "clinicalPriority": ""
+  },
+  {
     "id": "02 Diseases/20 비뇨기과/방광 파열 (Bladder rupture).md",
     "slug": "MjAg67mE64eo6riw6rO8L-uwqeq0kSDtjIzsl7QgKEJsYWRkZXIgcnVwdHVyZSkubWQ",
     "title": "방광 파열 (Bladder rupture)",
@@ -118338,6 +121804,48 @@
     }
   },
   {
+    "id": "02 Diseases/20 비뇨기과/출혈성 방광염 (Hemorrhagic Cystitis).md",
+    "slug": "MjAg67mE64eo6riw6rO8L-y2nO2YiOyEsSDrsKnqtJHsl7wgKEhlbW9ycmhhZ2ljIEN5c3RpdGlzKS5tZA",
+    "title": "출혈성 방광염 (Hemorrhagic Cystitis)",
+    "sourcePath": "source_notes/02 Diseases/20 비뇨기과/출혈성 방광염 (Hemorrhagic Cystitis).md",
+    "specialty": "20 비뇨기과",
+    "category": "방광 질환",
+    "classification": [],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "hemorrhagic cystitis",
+      "cyclophosphamide hemorrhagic cystitis"
+    ],
+    "chiefComplaints": [],
+    "definition": "",
+    "overview": [
+      "• 혈뇨와 배뇨통을 일으키는 방광 점막 염증으로, 항암제·골반 방사선·감염을 원인으로 구분합니다.",
+      "• cyclophosphamide 또는 ifosfamide 노출에서는 acrolein 관련 독성을 고려합니다.",
+      "• 혈역학적 불안정, 혈전으로 인한 요폐, 중증 혈뇨를 먼저 확인합니다.",
+      "• 약물 노출력과 감염 가능성을 평가하고 원인에 맞춘 지지 치료 및 비뇨기과 처치를 시행합니다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 혈뇨와 배뇨통을 일으키는 방광 점막 염증으로, 항암제·골반 방사선·감염을 원인으로 구분합니다.",
+          "• cyclophosphamide 또는 ifosfamide 노출에서는 acrolein 관련 독성을 고려합니다."
+        ]
+      },
+      {
+        "title": "접근",
+        "content": [
+          "• 혈역학적 불안정, 혈전으로 인한 요폐, 중증 혈뇨를 먼저 확인합니다.",
+          "• 약물 노출력과 감염 가능성을 평가하고 원인에 맞춘 지지 치료 및 비뇨기과 처치를 시행합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T18:56:56.275Z",
+    "clinicalPriority": ""
+  },
+  {
     "id": "02 Diseases/20 비뇨기과/콩팥암 (Renal Cell Carcinoma).md",
     "slug": "MjAg67mE64eo6riw6rO8L-y9qe2MpeyVlCAoUmVuYWwgQ2VsbCBDYXJjaW5vbWEpLm1k",
     "title": "콩팥암 (Renal Cell Carcinoma)",
@@ -118603,8 +122111,17 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-09T07:31:20.063Z",
+    "updatedAt": "2026-08-12T12:23:51.672Z",
     "clinicalPriority": "tier_2",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": [
+        "약물 및 화학물질 중독",
+        "독성 알코올",
+        "흡입성 중독",
+        "생물 독소"
+      ]
+    },
     "contentMeta": {
       "contentUpdatedAt": "2026-07-17",
       "guidelineYear": "2023",
@@ -118733,6 +122250,385 @@
     }
   },
   {
+    "id": "02 Diseases/21 응급의학/독성 알코올.md",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-uPheyEsSDslYzsvZTsmKwubWQ",
+    "title": "독성 알코올",
+    "sourcePath": "source_notes/02 Diseases/21 응급의학/독성 알코올.md",
+    "specialty": "21 응급의학",
+    "category": "응급의학",
+    "classification": [
+      "중독",
+      "독성 알코올"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "toxic alcohol poisoning"
+    ],
+    "chiefComplaints": [
+      "의식저하",
+      "구토"
+    ],
+    "definition": "",
+    "overview": [
+      "• [[에틸렌글리콜 중독 (Ethylene Glycol Poisoning)]]"
+    ],
+    "sections": [
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[에틸렌글리콜 중독 (Ethylene Glycol Poisoning)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:23:43.060Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": [
+        "에틸렌글리콜 중독 (Ethylene Glycol Poisoning)"
+      ]
+    }
+  },
+  {
+    "id": "02 Diseases/21 응급의학/리튬 중독 (Lithium Poisoning).md",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-umrO2KrCDspJHrj4UgKExpdGhpdW0gUG9pc29uaW5nKS5tZA",
+    "title": "리튬 중독 (Lithium Poisoning)",
+    "sourcePath": "source_notes/02 Diseases/21 응급의학/리튬 중독 (Lithium Poisoning).md",
+    "specialty": "21 응급의학",
+    "category": "응급의학",
+    "classification": [
+      "중독",
+      "약물 및 화학물질 중독"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Lithium toxicity",
+      "Lithium poisoning",
+      "리튬독성"
+    ],
+    "chiefComplaints": [
+      "의식저하",
+      "떨림",
+      "운동실조",
+      "구토"
+    ],
+    "definition": "",
+    "overview": [
+      "• 혈중 리튬, 전해질·신기능, 심전도와 신경학적 상태를 반복 평가한다. 초기 농도 하나만으로 중증도를 단정하지 않는다.",
+      "• 오심·구토·설사, 조잡한 떨림, 운동실조, 구음장애, 혼돈, 근간대경련·경련이 나타날 수 있다.",
+      "• 기도·호흡·순환을 안정화하고 등장성 수액으로 신장 배설을 돕는다. 중증 신경독성, 경련, 생명위협 부정맥, 신기능 저하 또는 높은/지속되는 농도에서는 독성 전문의와 상의해 혈액투석을 고려한다."
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 급성, 급성-만성, 만성 중독을 구분한다. 만성 중독은 비교적 낮은 혈중 농도에서도 신경독성이 두드러질 수 있다.",
+          "• 탈수, 신기능 저하, NSAID·ACE 억제제·ARB·이뇨제 병용은 리튬 배설을 줄여 독성 위험을 높인다."
+        ]
+      },
+      {
+        "title": "임상 양상과 평가",
+        "content": [
+          "• 오심·구토·설사, 조잡한 떨림, 운동실조, 구음장애, 혼돈, 근간대경련·경련이 나타날 수 있다.",
+          "• 혈중 리튬, 전해질·신기능, 심전도와 신경학적 상태를 반복 평가한다. 초기 농도 하나만으로 중증도를 단정하지 않는다."
+        ]
+      },
+      {
+        "title": "치료",
+        "content": [
+          "• 기도·호흡·순환을 안정화하고 등장성 수액으로 신장 배설을 돕는다. 중증 신경독성, 경련, 생명위협 부정맥, 신기능 저하 또는 높은/지속되는 농도에서는 독성 전문의와 상의해 혈액투석을 고려한다.",
+          "• 투석 후에는 조직 재분포에 따른 rebound를 고려해 농도와 임상 상태를 반복 확인한다."
+        ]
+      },
+      {
+        "title": "관련 문서",
+        "content": [
+          "• [[급성 중독 총론 (General Management of Acute Poisoning)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:16:52.713Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "EXTRIP Workgroup: Lithium",
+          "url": "https://www.extrip-workgroup.org/lithium"
+        }
+      ]
+    }
+  },
+  {
+    "id": "02 Diseases/21 응급의학/벤조디아제핀 중독 (Benzodiazepine Poisoning).md",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-uypOyhsOuUlOyVhOygnO2VgCDspJHrj4UgKEJlbnpvZGlhemVwaW5lIFBvaXNvbmluZykubWQ",
+    "title": "벤조디아제핀 중독 (Benzodiazepine Poisoning)",
+    "sourcePath": "source_notes/02 Diseases/21 응급의학/벤조디아제핀 중독 (Benzodiazepine Poisoning).md",
+    "specialty": "21 응급의학",
+    "category": "응급의학",
+    "classification": [
+      "중독",
+      "약물 및 화학물질 중독"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Benzodiazepine poisoning",
+      "Benzodiazepine overdose",
+      "Benzodiazepine toxicity",
+      "벤조디아제핀 과량복용"
+    ],
+    "chiefComplaints": [
+      "의식저하",
+      "호흡억제",
+      "저혈압"
+    ],
+    "definition": "",
+    "overview": [
+      "• 단독 중독은 대개 졸림·운동실조가 주된 양상이지만, 알코올·아편유사제 등 동시 노출에서는 호흡억제와 저혈압이 심해질 수 있다.",
+      "• 원인 불명의 혼수에서는 저혈당, 두부손상, 뇌졸중, 다른 진정제·약물 동시복용을 함께 배제한다.",
+      "• 기도 보호, 산소화·환기, 활력징후·혈당 확인과 지지치료가 우선이다. 호흡억제가 있으면 동시 아편유사제 노출 가능성도 평가한다.",
+      "• Flumazenil은 순수한 의인성/우발적 중독처럼 선택된 상황에서만 고려한다. 의도적 또는 혼합 중독, 장기 복용·의존, 경련 병력에서는 금단·경련 위험 때문에 통상 피한다.",
+      "• [[급성 중독 총론 (General Management of Acute Poisoning)]]"
+    ],
+    "sections": [
+      {
+        "title": "핵심",
+        "content": [
+          "• 단독 중독은 대개 졸림·운동실조가 주된 양상이지만, 알코올·아편유사제 등 동시 노출에서는 호흡억제와 저혈압이 심해질 수 있다.",
+          "• 원인 불명의 혼수에서는 저혈당, 두부손상, 뇌졸중, 다른 진정제·약물 동시복용을 함께 배제한다."
+        ]
+      },
+      {
+        "title": "초기 처치",
+        "content": [
+          "• 기도 보호, 산소화·환기, 활력징후·혈당 확인과 지지치료가 우선이다. 호흡억제가 있으면 동시 아편유사제 노출 가능성도 평가한다.",
+          "• Flumazenil은 순수한 의인성/우발적 중독처럼 선택된 상황에서만 고려한다. 의도적 또는 혼합 중독, 장기 복용·의존, 경련 병력에서는 금단·경련 위험 때문에 통상 피한다."
+        ]
+      },
+      {
+        "title": "관련 문서",
+        "content": [
+          "• [[급성 중독 총론 (General Management of Acute Poisoning)]]",
+          "• [[아편유사제 중독 (Opioid Poisoning)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:16:55.110Z",
+    "clinicalPriority": "",
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "AHA: Adult and Pediatric Special Circumstances of Resuscitation",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation"
+        },
+        {
+          "label": "Royal Children's Hospital: Benzodiazepine poisoning",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Benzodiazepine_poisoning/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "02 Diseases/21 응급의학/보툴리눔 중독 (Botulism).md",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-uztO2ItOumrOuIlCDspJHrj4UgKEJvdHVsaXNtKS5tZA",
+    "title": "보툴리눔 중독 (Botulism)",
+    "sourcePath": "source_notes/02 Diseases/21 응급의학/보툴리눔 중독 (Botulism).md",
+    "specialty": "21 응급의학",
+    "category": "응급의학",
+    "classification": [
+      "중독",
+      "생물 독소"
+    ],
+    "relatedSpecialties": [
+      "감염",
+      "신경과-신경외과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "botulism",
+      "foodborne botulism",
+      "foodborne botulism poisoning",
+      "식품매개 보툴리눔 중독",
+      "식품매개 보툴리눔중독",
+      "보툴리눔 중독"
+    ],
+    "chiefComplaints": [
+      "복시",
+      "근력저하",
+      "호흡곤란"
+    ],
+    "definition": "",
+    "overview": [
+      "• 보툴리눔 독소로 인한 신경독성 응급질환으로, 식품 매개·상처·영아형 등으로 발생한다.",
+      "• 감각 소실 없이 양측 뇌신경마비가 먼저 나타나고, 대칭적인 하행성 이완성 마비와 호흡근 약화가 뒤따른다.",
+      "• 기도와 호흡을 우선 평가하고, 임상적으로 의심되면 검체 결과를 기다리지 않고 항독소 투여와 공중보건 신고를 진행한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 보툴리눔 독소로 인한 신경독성 응급질환으로, 식품 매개·상처·영아형 등으로 발생한다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 감각 소실 없이 양측 뇌신경마비가 먼저 나타나고, 대칭적인 하행성 이완성 마비와 호흡근 약화가 뒤따른다."
+        ]
+      },
+      {
+        "title": "즉시 할 일",
+        "content": [
+          "• 기도와 호흡을 우선 평가하고, 임상적으로 의심되면 검체 결과를 기다리지 않고 항독소 투여와 공중보건 신고를 진행한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:24:26.666Z",
+    "clinicalPriority": "tier_1",
+    "contentMeta": {
+      "contentUpdatedAt": "2026-08-12",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MSD Manual Professional: Botulism",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/anaerobic-bacteria/botulism"
+        }
+      ]
+    }
+  },
+  {
+    "id": "02 Diseases/21 응급의학/살리실산 중독 (Salicylate Poisoning).md",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yCtOumrOyLpOyCsCDspJHrj4UgKFNhbGljeWxhdGUgUG9pc29uaW5nKS5tZA",
+    "title": "살리실산 중독 (Salicylate Poisoning)",
+    "sourcePath": "source_notes/02 Diseases/21 응급의학/살리실산 중독 (Salicylate Poisoning).md",
+    "specialty": "21 응급의학",
+    "category": "응급의학",
+    "classification": [
+      "중독",
+      "약물 및 화학물질 중독"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "salicylate toxicity",
+      "aspirin overdose"
+    ],
+    "chiefComplaints": [
+      "의식저하",
+      "구토",
+      "이명"
+    ],
+    "definition": "",
+    "overview": [
+      "# 살리실산 중독 (Salicylate Poisoning)",
+      "살리실산 중독은 과호흡에 의한 호흡성 알칼리증과 대사성 산증이 함께 나타나는 혼합 산-염기 장애가 특징적입니다. 의식 변화, 폐부종, 신부전 또는 진행하는 산증은 중증도를 시사합니다. 혈중 농도와 산-염기 상태를 반복 평가하며, 알칼리화와 체외 제거 필요성을 함께 판단합니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# 살리실산 중독 (Salicylate Poisoning)",
+          "살리실산 중독은 과호흡에 의한 호흡성 알칼리증과 대사성 산증이 함께 나타나는 혼합 산-염기 장애가 특징적입니다. 의식 변화, 폐부종, 신부전 또는 진행하는 산증은 중증도를 시사합니다. 혈중 농도와 산-염기 상태를 반복 평가하며, 알칼리화와 체외 제거 필요성을 함께 판단합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:23:32.779Z",
+    "clinicalPriority": ""
+  },
+  {
+    "id": "02 Diseases/21 응급의학/삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning).md",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yCvO2ZmOqzhCDtla3smrDsmrjsoJwg7KSR64-FIChUcmljeWNsaWMgQW50aWRlcHJlc3NhbnQgUG9pc29uaW5nKS5tZA",
+    "title": "삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning)",
+    "sourcePath": "source_notes/02 Diseases/21 응급의학/삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning).md",
+    "specialty": "21 응급의학",
+    "category": "응급의학",
+    "classification": [
+      "중독",
+      "약물 및 화학물질 중독"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "tricyclic antidepressant overdose",
+      "TCA overdose"
+    ],
+    "chiefComplaints": [
+      "의식저하",
+      "경련 (성인)",
+      "두근거림"
+    ],
+    "definition": "",
+    "overview": [
+      "# 삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning)",
+      "삼환계 항우울제 중독에서는 항콜린성 소견, 경련, 저혈압과 심장 전도장애를 함께 찾습니다. 특히 QRS 연장은 중증 심장독성을 시사하며, 심전도 기반 평가와 sodium bicarbonate 치료 적응증 판단이 중요합니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# 삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning)",
+          "삼환계 항우울제 중독에서는 항콜린성 소견, 경련, 저혈압과 심장 전도장애를 함께 찾습니다. 특히 QRS 연장은 중증 심장독성을 시사하며, 심전도 기반 평가와 sodium bicarbonate 치료 적응증 판단이 중요합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:23:35.356Z",
+    "clinicalPriority": ""
+  },
+  {
+    "id": "02 Diseases/21 응급의학/생물 독소.md",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yDneusvCDrj4XshowubWQ",
+    "title": "생물 독소",
+    "sourcePath": "source_notes/02 Diseases/21 응급의학/생물 독소.md",
+    "specialty": "21 응급의학",
+    "category": "응급의학",
+    "classification": [
+      "중독",
+      "생물 독소"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "biologic toxin"
+    ],
+    "chiefComplaints": [
+      "근력저하",
+      "호흡곤란"
+    ],
+    "definition": "",
+    "overview": [
+      "• [[보툴리눔 중독 (Botulism)]]"
+    ],
+    "sections": [
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[보툴리눔 중독 (Botulism)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:23:48.517Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": [
+        "보툴리눔 중독 (Botulism)"
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/21 응급의학/쇼크 (Shock).md",
     "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k",
     "title": "쇼크 (Shock)",
@@ -118837,6 +122733,197 @@
     }
   },
   {
+    "id": "02 Diseases/21 응급의학/아세트아미노펜 중독 (Acetaminophen Poisoning).md",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yVhOyEuO2KuOyVhOuvuOuFuO2OnCDspJHrj4UgKEFjZXRhbWlub3BoZW4gUG9pc29uaW5nKS5tZA",
+    "title": "아세트아미노펜 중독 (Acetaminophen Poisoning)",
+    "sourcePath": "source_notes/02 Diseases/21 응급의학/아세트아미노펜 중독 (Acetaminophen Poisoning).md",
+    "specialty": "21 응급의학",
+    "category": "응급의학",
+    "classification": [
+      "중독",
+      "약물 및 화학물질 중독"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "acetaminophen toxicity",
+      "acetaminophen overdose",
+      "paracetamol overdose"
+    ],
+    "chiefComplaints": [
+      "복통",
+      "구토"
+    ],
+    "definition": "",
+    "overview": [
+      "# 아세트아미노펜 중독 (Acetaminophen Poisoning)",
+      "단회 급성 과량복용에서는 복용 시점과 혈중 농도를 이용해 간독성 위험을 평가합니다. 위험 농도이거나 복용 시점이 불확실·반복적 과량복용이면 N-acetylcysteine 치료 필요성을 신속히 판단합니다. 초기에는 증상이 경미할 수 있으므로 임상 증상만으로 안전하다고 판단하지 않습니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# 아세트아미노펜 중독 (Acetaminophen Poisoning)",
+          "단회 급성 과량복용에서는 복용 시점과 혈중 농도를 이용해 간독성 위험을 평가합니다. 위험 농도이거나 복용 시점이 불확실·반복적 과량복용이면 N-acetylcysteine 치료 필요성을 신속히 판단합니다. 초기에는 증상이 경미할 수 있으므로 임상 증상만으로 안전하다고 판단하지 않습니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:23:30.212Z",
+    "clinicalPriority": ""
+  },
+  {
+    "id": "02 Diseases/21 응급의학/아편유사제 중독 (Opioid Poisoning).md",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yVhO2OuOycoOyCrOygnCDspJHrj4UgKE9waW9pZCBQb2lzb25pbmcpLm1k",
+    "title": "아편유사제 중독 (Opioid Poisoning)",
+    "sourcePath": "source_notes/02 Diseases/21 응급의학/아편유사제 중독 (Opioid Poisoning).md",
+    "specialty": "21 응급의학",
+    "category": "응급의학",
+    "classification": [
+      "중독",
+      "약물 및 화학물질 중독"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "opioid overdose",
+      "opioid intoxication",
+      "opioid poisoning"
+    ],
+    "chiefComplaints": [
+      "의식저하",
+      "호흡곤란"
+    ],
+    "definition": "",
+    "overview": [
+      "# 아편유사제 중독 (Opioid Poisoning)",
+      "의식저하, 축동, 호흡저하의 조합은 아편유사제 중독을 시사합니다. 가장 즉각적인 위험은 저환기이므로 기도와 환기를 먼저 확보하고, 필요하면 naloxone으로 호흡억제를 역전합니다. 장시간 작용 제제나 혼합 중독에서는 재진정 가능성을 관찰합니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# 아편유사제 중독 (Opioid Poisoning)",
+          "의식저하, 축동, 호흡저하의 조합은 아편유사제 중독을 시사합니다. 가장 즉각적인 위험은 저환기이므로 기도와 환기를 먼저 확보하고, 필요하면 naloxone으로 호흡억제를 역전합니다. 장시간 작용 제제나 혼합 중독에서는 재진정 가능성을 관찰합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:23:37.887Z",
+    "clinicalPriority": ""
+  },
+  {
+    "id": "02 Diseases/21 응급의학/약물 및 화학물질 중독.md",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yVveusvCDrsI8g7ZmU7ZWZ66y87KeIIOykkeuPhS5tZA",
+    "title": "약물 및 화학물질 중독",
+    "sourcePath": "source_notes/02 Diseases/21 응급의학/약물 및 화학물질 중독.md",
+    "specialty": "21 응급의학",
+    "category": "응급의학",
+    "classification": [
+      "중독",
+      "약물 및 화학물질 중독"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "medication poisoning",
+      "drug overdose"
+    ],
+    "chiefComplaints": [
+      "의식저하",
+      "경련 (성인)",
+      "호흡곤란"
+    ],
+    "definition": "",
+    "overview": [
+      "• [[아세트아미노펜 중독 (Acetaminophen Poisoning)]]",
+      "• [[살리실산 중독 (Salicylate Poisoning)]]",
+      "• [[삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning)]]",
+      "• [[아편유사제 중독 (Opioid Poisoning)]]",
+      "• [[유기인계 중독 (Organophosphate Poisoning)]]"
+    ],
+    "sections": [
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[아세트아미노펜 중독 (Acetaminophen Poisoning)]]",
+          "• [[살리실산 중독 (Salicylate Poisoning)]]",
+          "• [[삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning)]]",
+          "• [[아편유사제 중독 (Opioid Poisoning)]]",
+          "• [[유기인계 중독 (Organophosphate Poisoning)]]",
+          "• [[리튬 중독 (Lithium Poisoning)]]",
+          "• [[벤조디아제핀 중독 (Benzodiazepine Poisoning)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T17:17:05.744Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": [
+        "아세트아미노펜 중독 (Acetaminophen Poisoning)",
+        "살리실산 중독 (Salicylate Poisoning)",
+        "삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning)",
+        "아편유사제 중독 (Opioid Poisoning)",
+        "유기인계 중독 (Organophosphate Poisoning)",
+        "리튬 중독 (Lithium Poisoning)",
+        "벤조디아제핀 중독 (Benzodiazepine Poisoning)"
+      ]
+    }
+  },
+  {
+    "id": "02 Diseases/21 응급의학/에틸렌글리콜 중독 (Ethylene Glycol Poisoning).md",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yXkO2LuOugjOq4gOumrOy9nCDspJHrj4UgKEV0aHlsZW5lIEdseWNvbCBQb2lzb25pbmcpLm1k",
+    "title": "에틸렌글리콜 중독 (Ethylene Glycol Poisoning)",
+    "sourcePath": "source_notes/02 Diseases/21 응급의학/에틸렌글리콜 중독 (Ethylene Glycol Poisoning).md",
+    "specialty": "21 응급의학",
+    "category": "응급의학",
+    "classification": [
+      "중독",
+      "독성 알코올"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "에틸렌글리콜 중독",
+      "ethylene glycol poisoning"
+    ],
+    "chiefComplaints": [
+      "의식저하",
+      "구토"
+    ],
+    "definition": "",
+    "overview": [
+      "• 부동액 성분 섭취 뒤 독성 대사산물이 축적되어 고음이온차 대사성 산증과 급성 신손상을 일으킨다.",
+      "• 원인 불명의 중증 산증, 높은 osmolar gap, 저칼슘혈증, 소변 칼슘 옥살레이트 결정이 단서다.",
+      "• 독성학 자문과 함께 fomepizole을 신속히 투여하고, 중증 산증·신부전·고농도 노출에서는 혈액투석을 고려한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 부동액 성분 섭취 뒤 독성 대사산물이 축적되어 고음이온차 대사성 산증과 급성 신손상을 일으킨다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 원인 불명의 중증 산증, 높은 osmolar gap, 저칼슘혈증, 소변 칼슘 옥살레이트 결정이 단서다."
+        ]
+      },
+      {
+        "title": "즉시 할 일",
+        "content": [
+          "• 독성학 자문과 함께 fomepizole을 신속히 투여하고, 중증 산증·신부전·고농도 노출에서는 혈액투석을 고려한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:24:21.568Z",
+    "clinicalPriority": "tier_1"
+  },
+  {
     "id": "02 Diseases/21 응급의학/열질환 (Heat Illness).md",
     "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yXtOyniO2ZmCAoSGVhdCBJbGxuZXNzKS5tZA",
     "title": "열질환 (Heat Illness)",
@@ -118939,6 +123026,45 @@
       "population": "general",
       "canonicalDisease": ""
     }
+  },
+  {
+    "id": "02 Diseases/21 응급의학/유기인계 중독 (Organophosphate Poisoning).md",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-ycoOq4sOyduOqzhCDspJHrj4UgKE9yZ2Fub3Bob3NwaGF0ZSBQb2lzb25pbmcpLm1k",
+    "title": "유기인계 중독 (Organophosphate Poisoning)",
+    "sourcePath": "source_notes/02 Diseases/21 응급의학/유기인계 중독 (Organophosphate Poisoning).md",
+    "specialty": "21 응급의학",
+    "category": "응급의학",
+    "classification": [
+      "중독",
+      "약물 및 화학물질 중독"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "organophosphate poisoning",
+      "cholinergic poisoning"
+    ],
+    "chiefComplaints": [
+      "호흡곤란",
+      "의식저하"
+    ],
+    "definition": "",
+    "overview": [
+      "# 유기인계 중독 (Organophosphate Poisoning)",
+      "유기인계 노출은 축동, 분비물 증가, 기관지경련·기관지 분비물, 서맥, 설사 같은 콜린성 독성 증후군을 일으킬 수 있습니다. 오염 제거와 기도·호흡 관리가 우선이며, atropine과 pralidoxime의 사용은 임상 독성에 따라 판단합니다."
+    ],
+    "sections": [
+      {
+        "title": "본문",
+        "content": [
+          "# 유기인계 중독 (Organophosphate Poisoning)",
+          "유기인계 노출은 축동, 분비물 증가, 기관지경련·기관지 분비물, 서맥, 설사 같은 콜린성 독성 증후군을 일으킬 수 있습니다. 오염 제거와 기도·호흡 관리가 우선이며, atropine과 pralidoxime의 사용은 임상 독성에 따라 판단합니다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:23:40.474Z",
+    "clinicalPriority": ""
   },
   {
     "id": "02 Diseases/21 응급의학/응급의학.md",
@@ -119118,8 +123244,8 @@
     "specialty": "21 응급의학",
     "category": "응급의학",
     "classification": [
-      "환경응급",
-      "일산화탄소 중독"
+      "중독",
+      "흡입성 중독"
     ],
     "relatedSpecialties": [],
     "emergencyClassification": [],
@@ -119196,7 +123322,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-09T07:31:20.081Z",
+    "updatedAt": "2026-08-12T12:24:24.112Z",
     "clinicalPriority": "tier_2",
     "contentMeta": {
       "contentUpdatedAt": "2026-07-17",
@@ -119425,6 +123551,49 @@
       "relationToParent": "",
       "population": "general",
       "canonicalDisease": ""
+    }
+  },
+  {
+    "id": "02 Diseases/21 응급의학/흡입성 중독.md",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-2doeyeheyEsSDspJHrj4UubWQ",
+    "title": "흡입성 중독",
+    "sourcePath": "source_notes/02 Diseases/21 응급의학/흡입성 중독.md",
+    "specialty": "21 응급의학",
+    "category": "응급의학",
+    "classification": [
+      "중독",
+      "흡입성 중독"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "inhalational poisoning"
+    ],
+    "chiefComplaints": [
+      "두통",
+      "의식저하",
+      "호흡곤란"
+    ],
+    "definition": "",
+    "overview": [
+      "• [[일산화탄소 중독 (Carbon Monoxide Poisoning)]]"
+    ],
+    "sections": [
+      {
+        "title": "포함 질환",
+        "content": [
+          "• [[일산화탄소 중독 (Carbon Monoxide Poisoning)]]"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:23:45.608Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": [
+        "일산화탄소 중독 (Carbon Monoxide Poisoning)"
+      ]
     }
   },
   {
@@ -120144,6 +124313,62 @@
       "contentUpdatedAt": "2026-07-30",
       "guidelineYear": "",
       "sources": []
+    }
+  },
+  {
+    "id": "02 Diseases/22 정형외과/말초신경 손상.md",
+    "slug": "MjIg7KCV7ZiV7Jm46rO8L-unkOy0iOyLoOqyvSDshpDsg4EubWQ",
+    "title": "말초신경 손상",
+    "sourcePath": "source_notes/02 Diseases/22 정형외과/말초신경 손상.md",
+    "specialty": "22 정형외과",
+    "category": "정형외과",
+    "classification": [
+      "General",
+      "말초신경 손상"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "Peripheral Nerve Injury"
+    ],
+    "chiefComplaints": [
+      "근력저하",
+      "감각이상"
+    ],
+    "definition": "",
+    "overview": [
+      "• 액와·비골·대퇴·상둔신경 손상",
+      "• 요골·정중·척골신경 손상"
+    ],
+    "sections": [
+      {
+        "title": "포함 범위",
+        "content": [
+          "• 액와·비골·대퇴·상둔신경 손상",
+          "• 요골·정중·척골신경 손상"
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T12:49:40.391Z",
+    "clinicalPriority": "",
+    "documentRole": "group_overview",
+    "groupOverview": {
+      "memberTitles": [
+        "요골 신경 손상 (Radial Nerve Injury)",
+        "정중 신경 손상 (Median Nerve Injury)",
+        "척골 신경 손상 (Ulnar Nerve Injury)"
+      ]
+    },
+    "contentMeta": {
+      "contentUpdatedAt": "",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MSD Manual Professional: Overview of Fractures",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/fractures/overview-of-fractures"
+        }
+      ]
     }
   },
   {

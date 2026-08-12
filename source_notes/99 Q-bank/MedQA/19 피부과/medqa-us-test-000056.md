@@ -15,7 +15,8 @@ related_diseases:
   - "KOH 검사"
   - "tinea cruris"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uwseyEoCAoVGluZWEpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

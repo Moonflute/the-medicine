@@ -14,7 +14,8 @@ related_diseases:
   - "저산소혈증"
   - "기도 확보"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4ieyEsSDtmLjtnaHqs6TrnoAg7Kad7ZuE6rWwIChBUkRTKSAoQWN1dGUgUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

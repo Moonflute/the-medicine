@@ -15,7 +15,8 @@ related_diseases:
   - "축동"
   - "opioid overdose"
 question_type: 임상증례 객관식
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yVhO2OuOycoOyCrOygnCDspJHrj4UgKE9waW9pZCBQb2lzb25pbmcpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

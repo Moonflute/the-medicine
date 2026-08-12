@@ -13,7 +13,8 @@ related_diseases:
   - "경막외마취"
   - "교감신경 차단"
   - "산과적 저혈압"
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: mechanism
 difficulty: complex
 answer: A

@@ -16,6 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Y-Q66C0IChQbmV1bW9uaWEpLm1k
   - MDIg7Zi47Z2h6riwL0NPUETsnZgg6riJ7ISxIOyVhe2ZlCAoQWN1dGUgRXhhY2VyYmF0aW9uIG9mIENPUEQpLm1k
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: investigation
 difficulty: complex
 answer: A

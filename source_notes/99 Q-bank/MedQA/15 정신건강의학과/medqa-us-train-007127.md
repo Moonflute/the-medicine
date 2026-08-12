@@ -15,7 +15,8 @@ related_diseases:
   - "선택적 세로토닌 재흡수 억제제"
   - "Premenstrual dysphoric disorder"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCrO2ajCDrtojslYgg7J6l7JWgIChTb2NpYWwgQW54aWV0eSBEaXNvcmRlcikubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

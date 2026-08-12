@@ -14,7 +14,8 @@ related_diseases:
   - "temporal lobe tumor"
   - "psychosis due to brain lesion"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsooXslpEgKEJyYWluIHR1bW9yKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

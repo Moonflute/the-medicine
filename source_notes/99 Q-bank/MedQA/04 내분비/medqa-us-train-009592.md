@@ -15,6 +15,7 @@ related_diseases:
   - "iron overload cardiomyopathy"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yLrOq3vOuzkeymnSAoQ2FyZGlvbXlvcGF0aHkpLm1k
+  - MDkg7ZiI7JWhL-ycoOyghOyEsSDtmIjsg4nshozsuajssKnspp0gKEhlcmVkaXRhcnkgSGVtb2Nocm9tYXRvc2lzKS5tZA
 question_type: prevention
 difficulty: complex
 answer: D

@@ -13,7 +13,8 @@ related_diseases:
   - "식품매개 보툴리눔 중독"
   - "보툴리눔 신경독소"
   - "아세틸콜린 분비 차단"
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-uztO2ItOumrOuIlCDspJHrj4UgKEJvdHVsaXNtKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

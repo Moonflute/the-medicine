@@ -14,7 +14,8 @@ related_diseases:
   - "폐첨부 폐포수포"
   - "흡연 관련 기흉"
   - "spontaneous pneumothorax"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: mechanism
 difficulty: standard
 answer: D

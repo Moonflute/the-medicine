@@ -14,7 +14,8 @@ related_diseases:
   - "제1형 콜라겐 결함"
   - "취약골절"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv6rOo7ZiV7ISx67aA7KCE7KadIChPc3Rlb2dlbmVzaXMgSW1wZXJmZWN0YSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

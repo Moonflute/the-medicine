@@ -13,7 +13,8 @@ related_diseases:
   - "히스토플라스마증"
   - "Histoplasma capsulatum"
   - "육아종성 폐렴"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-ynhOq3oC5tZA
 question_type: diagnosis
 difficulty: standard
 answer: C

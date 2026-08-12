@@ -14,7 +14,8 @@ related_diseases:
   - "50-g oral glucose challenge test"
   - "24-28 weeks gestation"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

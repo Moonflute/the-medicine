@@ -14,7 +14,8 @@ related_diseases:
   - "트랜스아미나제 상승"
   - "심바스타틴"
   - "Statin-induced liver injury"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rj4XshLEg6rCE7Je8IChUb3hpYyBIZXBhdGl0aXMpLm1k
 question_type: mechanism
 difficulty: simple
 answer: B

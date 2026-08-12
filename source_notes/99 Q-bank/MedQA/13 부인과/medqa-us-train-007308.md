@@ -15,7 +15,8 @@ related_diseases:
   - "피임 상담"
   - "재발성 성매개감염"
 question_type: prevention
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yEseunpOqwnOqwkOyXvC5tZA
 difficulty: simple
 answer: A
 translation_status: machine-verified

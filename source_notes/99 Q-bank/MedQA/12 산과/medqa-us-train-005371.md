@@ -14,7 +14,8 @@ related_diseases:
   - "B군 연쇄상구균 선별검사"
   - "신생아 감염 예방"
 question_type: prevention
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2MqO2YiOymnSAoTmVvbmF0YWwgU2Vwc2lzKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

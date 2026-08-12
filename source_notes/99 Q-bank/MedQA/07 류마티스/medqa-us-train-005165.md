@@ -13,7 +13,8 @@ related_diseases:
   - "류마티스성 다발근통"
   - "염증성 빈혈"
   - "ESR 상승"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
 question_type: investigation
 difficulty: standard
 answer: B

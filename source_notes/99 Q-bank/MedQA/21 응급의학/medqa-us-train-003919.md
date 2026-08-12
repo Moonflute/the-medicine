@@ -15,7 +15,8 @@ related_diseases:
   - "condom catheter"
   - "mechanical ventilation"
 question_type: prevention
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-ybkOuCtOqwkOyXvC5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

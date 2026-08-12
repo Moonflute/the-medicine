@@ -13,7 +13,8 @@ related_diseases:
   - "acute rheumatic fever without carditis"
   - "secondary prophylaxis"
   - "benzathine penicillin"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-unpOuPhSAoU3lwaGlsaXMpLm1k
 question_type: prevention
 difficulty: complex
 answer: A

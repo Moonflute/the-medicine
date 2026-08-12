@@ -15,7 +15,8 @@ related_diseases:
   - "traumatic diplopia"
   - "skew deviation"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTgg7JWI6rO8L-qyieuLpOuemOuBvCAoZXh0ZXJuYWwgaG9yZGVvbHVtKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

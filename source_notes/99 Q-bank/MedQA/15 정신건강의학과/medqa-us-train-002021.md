@@ -16,6 +16,7 @@ related_diseases:
 question_type: adverse_effect
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k
+  - MjEg7J2R6riJ7J2Y7ZWZL-umrO2KrCDspJHrj4UgKExpdGhpdW0gUG9pc29uaW5nKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,7 +14,8 @@ related_diseases:
   - "median nerve compression"
   - "Lunate dislocation"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

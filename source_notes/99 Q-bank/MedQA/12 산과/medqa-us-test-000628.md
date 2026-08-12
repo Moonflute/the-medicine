@@ -15,6 +15,7 @@ related_diseases:
   - "태반 만출 이상"
 related_disease_slugs:
   - MTIg7IKw6rO8L-yekOq2geuCtOuyiOymnSAoVXRlcmluZSBJbnZlcnNpb24pLm1k
+  - MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA
 question_type: management
 difficulty: complex
 answer: C

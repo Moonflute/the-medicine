@@ -14,7 +14,8 @@ related_diseases:
   - "외상성 신동맥 손상"
   - "renal ischemia"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2YiOq0gCDshpDsg4EubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

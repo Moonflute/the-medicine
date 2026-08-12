@@ -14,7 +14,8 @@ related_diseases:
   - "태아 사망"
   - "사산 원인 평가"
   - "Stillbirth"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
 question_type: management
 difficulty: standard
 answer: B

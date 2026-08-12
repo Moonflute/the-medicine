@@ -16,6 +16,8 @@ related_diseases:
   - "situs inversus or congenital heart disease"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-q4sOq0gOyngCDtmZXsnqXspp0gKEJyb25jaGllY3Rhc2lzKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JuQ67Cc7ISxIOyErOuqqOyatOuPmeydtOyDgeymnSAoUHJpbWFyeSBDaWxpYXJ5IER5c2tpbmVzaWEpLm1k
 question_type: association
 difficulty: complex
 answer: A

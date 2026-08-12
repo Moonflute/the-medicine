@@ -15,7 +15,8 @@ related_diseases:
   - "fetal demise"
   - "Fetal demise"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2MjOyihSDtmIjqtIDrgrQg7J2R6rOgIChEaXNzZW1pbmF0ZWQgSW50cmF2YXNjdWxhciBDb2FndWxhdGlvbiwgRElDKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

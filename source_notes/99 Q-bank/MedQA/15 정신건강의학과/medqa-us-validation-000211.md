@@ -15,7 +15,8 @@ related_diseases:
   - "SSRI"
   - "Premenstrual dysphoric disorder"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2UvOu2gOucr-q4sOq4sOyepeyVoCAoRXhjb3JpYXRpb24gRGlzb3JkZXIpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

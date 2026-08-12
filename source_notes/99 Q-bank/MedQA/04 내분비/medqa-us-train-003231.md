@@ -15,7 +15,8 @@ related_diseases:
   - "glucagon level"
   - "pancreatic neuroendocrine tumor"
   - "Glucagonoma"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: B

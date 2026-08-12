@@ -13,7 +13,8 @@ related_diseases:
   - "외인성 안드로겐 사용"
   - "저성선자극호르몬성 성선기능저하증"
   - "여성형유방"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uHjO2VmOyImOyytCDquLDriqXsoIDtlZjspp0gKEh5cG9waXR1aXRhcmlzbSkubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

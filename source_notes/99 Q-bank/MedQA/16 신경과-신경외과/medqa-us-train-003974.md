@@ -14,7 +14,9 @@ related_diseases:
   - "종양딸림증후군"
   - "암피피신 항체"
 question_type: 임상증례 객관식
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_si6Dqsr3qt7zsnKHsp4jtmZgubWQ
+  - MTAg7KKF7JaRL-u2gOyiheyWkSDspp3tm4TqtbAgKFBhcmFuZW9wbGFzdGljIFN5bmRyb21lKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

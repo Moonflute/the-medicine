@@ -15,7 +15,8 @@ related_diseases:
   - "Horner syndrome"
   - "absent grasp reflex"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tmLjrpbTrhIgg7Kad7ZuE6rWwIChIb3JuZXIgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -13,7 +13,8 @@ related_diseases:
   - "hemochromatosis"
   - "MCP arthropathy"
   - "iron studies"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ycoOyghOyEsSDtmIjsg4nshozsuajssKnspp0gKEhlcmVkaXRhcnkgSGVtb2Nocm9tYXRvc2lzKS5tZA
 question_type: investigation
 difficulty: standard
 answer: C

@@ -15,7 +15,8 @@ related_diseases:
   - "초기 정맥 수액"
   - "Burn shock"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

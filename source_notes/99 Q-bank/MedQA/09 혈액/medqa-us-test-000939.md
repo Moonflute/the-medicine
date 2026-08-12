@@ -14,7 +14,8 @@ related_diseases:
   - "약물 유발 용혈"
   - "글리피지드"
   - "G6PD deficiency"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uwnOyekeyEsSDslbzqsIQg7ZiI7IOJ7IaM64eo7KadIChQYXJveHlzbWFsIE5vY3R1cm5hbCBIZW1vZ2xvYmludXJpYSkubWQ
 question_type: mechanism
 difficulty: simple
 answer: C

@@ -14,7 +14,8 @@ related_diseases:
   - "편두통 관련 구토"
   - "비담즙성 구토"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISk7IKsIChEaWFycmhlYSkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

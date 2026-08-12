@@ -18,6 +18,7 @@ question_type: mechanism
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7KadIOuzte2VqSDrqbTsl60g6rKw7ZWN7KadIChTZXZlcmUgQ29tYmluZWQgSW1tdW5vZGVmaWNpZW5jeSkubWQ
   - MDgg6rCQ7Je8L-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-qzoElnTSDspp3tm4TqtbAgKEh5cGVyLUlnTSBTeW5kcm9tZSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -13,7 +13,8 @@ related_diseases:
   - "칼슘피로인산 침착질환"
   - "가성통풍"
   - "연골석회화"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-y5vOyKmO2UvOuhnOyduOyCsCDsuajssKnsp4jtmZggKENQUEQpIChDYWxjaXVtIFB5cm9waG9zcGhhdGUgRGVwb3NpdGlvbiBEaXNlYXNlKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

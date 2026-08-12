@@ -15,7 +15,8 @@ related_diseases:
   - "방광 스캔"
   - "Urinary retention"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yalOu2leymnSAoRGlhYmV0ZXMgSW5zaXBpZHVzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

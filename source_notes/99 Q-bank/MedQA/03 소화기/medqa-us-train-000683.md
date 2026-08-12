@@ -14,6 +14,7 @@ related_diseases:
   - "hemochromatosis"
 related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MDkg7ZiI7JWhL-ycoOyghOyEsSDtmIjsg4nshozsuajssKnspp0gKEhlcmVkaXRhcnkgSGVtb2Nocm9tYXRvc2lzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

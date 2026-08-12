@@ -14,7 +14,8 @@ related_diseases:
   - "혈관연축"
   - "니페디핀"
   - "Raynaud phenomenon"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDqsr3tmZTspp0gKFN5c3RlbWljIFNjbGVyb3NpcykubWQ
 question_type: management
 difficulty: complex
 answer: B

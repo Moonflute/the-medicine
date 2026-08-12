@@ -15,7 +15,8 @@ related_diseases:
   - "프로게스틴 치료"
   - "폐경 후 출혈"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u5hOygleyDgSDsnpDqtoEg7Lac7ZiIIChBYm5vcm1hbCBVdGVyaW5lIEJsZWVkaW5nKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

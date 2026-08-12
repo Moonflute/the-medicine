@@ -13,7 +13,8 @@ related_diseases:
   - "physiologic anemia of pregnancy"
   - "hemodilution"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoCDspJEg66qo7LK0IOuzgO2ZlCAoTWF0ZXJuYWwgQ2hhbmdlcyBEdXJpbmcgUHJlZ25hbmN5KS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

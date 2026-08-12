@@ -15,6 +15,7 @@ related_diseases:
   - "systemic inflammatory response syndrome"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
+  - MDIg7Zi47Z2h6riwL-uzkeybkO2ajeuTnSDtj5DroLQgKEhvc3BpdGFsLUFjcXVpcmVkIFBuZXVtb25pYSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

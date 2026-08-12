@@ -14,7 +14,8 @@ related_diseases:
   - "단백질 C 결핍"
   - "과응고 상태"
   - "Protein C deficiency"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 question_type: mechanism
 difficulty: standard
 answer: C

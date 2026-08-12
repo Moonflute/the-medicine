@@ -15,7 +15,8 @@ related_diseases:
   - "경막하 출혈"
   - "망막출혈"
 question_type: ethics
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Z2U65Ok66awIOyVhOq4sCDspp3tm4TqtbAgKFNoYWtlbiBCYWJ5IFN5bmRyb21lKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

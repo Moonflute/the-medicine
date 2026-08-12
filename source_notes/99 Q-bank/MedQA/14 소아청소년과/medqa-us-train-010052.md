@@ -15,7 +15,8 @@ related_diseases:
   - "담즙성 구토"
   - "Intestinal malrotation"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yWkeyImCDqs7zri6Tspp0gKEh5ZHJhbW5pb3MpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

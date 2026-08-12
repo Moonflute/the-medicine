@@ -15,7 +15,8 @@ related_diseases:
   - "유산"
   - "탈출성 점막하 근종"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoCDspJEg7KeI7Lac7ZiILm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

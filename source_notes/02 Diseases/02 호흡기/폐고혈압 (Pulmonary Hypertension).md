@@ -1,5 +1,9 @@
 ---
-aliases: []
+aliases:
+- 폐동맥고혈압
+- 폐동맥 고혈압
+- pulmonary arterial hypertension
+- PAH
 유형:
 - disease
 계통: 호흡기

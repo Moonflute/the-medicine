@@ -13,7 +13,8 @@ related_diseases:
   - "hemothorax"
   - "Hemothorax"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTEg7Jm46rO8L-qwiOu5hOu8iCDqs6jsoIggKFJpYiBGcmFjdHVyZSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

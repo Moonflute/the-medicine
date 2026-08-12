@@ -15,6 +15,7 @@ related_diseases:
   - "급성 심근경색"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: mechanism
 difficulty: standard
 answer: B

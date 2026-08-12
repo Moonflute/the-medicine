@@ -13,7 +13,8 @@ related_diseases:
   - "Ebola virus disease"
   - "viral hemorrhagic fever"
   - "supportive fluid resuscitation"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uwlOydtOufrOyKpC5tZA
 question_type: management
 difficulty: complex
 answer: B

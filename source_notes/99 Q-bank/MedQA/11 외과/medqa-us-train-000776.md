@@ -19,6 +19,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7JO46rCc7Je8IChBY3V0ZSBDaG9sZWN5c3RpdGlzKS5tZA
   - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
   - MDUg7Iug7J6lL-yLoOuPmeunpSDtmIjsoITsg4nsoITspp0gKFJlbmFsIEFydGVyeSBUaHJvbWJvZW1ib2xpc20pLm1k
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIOuwjyDtj5Dsg4nsoITspp0gKERlZXAgVmVpbiBUaHJvbWJvc2lzIGFuZCBQdWxtb25hcnkgRW1ib2xpc20pLm1k
 question_type: ethics
 difficulty: complex
 answer: B

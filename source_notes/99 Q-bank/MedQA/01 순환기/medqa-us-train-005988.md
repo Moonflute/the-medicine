@@ -13,7 +13,8 @@ related_diseases:
   - "쇄골하동맥 도루 증후군"
   - "대동맥궁 혈관염"
   - "좌측 쇄골하동맥 협착"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: A

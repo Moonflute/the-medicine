@@ -14,7 +14,8 @@ related_diseases:
   - "영양 재개"
   - "저인산혈증"
 question_type: prevention
-related_disease_slugs: []
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

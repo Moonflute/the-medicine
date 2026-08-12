@@ -14,7 +14,8 @@ related_diseases:
   - "인슐린종"
   - "endogenous hyperinsulinemia"
   - "Insulinoma"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

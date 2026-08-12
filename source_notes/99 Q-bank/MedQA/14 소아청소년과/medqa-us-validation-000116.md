@@ -14,7 +14,8 @@ related_diseases:
   - "광견병 예방"
   - "동물 관찰"
 question_type: prevention
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q1kOyDgSDqsJDsl7wgKEJpdGUgV291bmQgSW5mZWN0aW9uKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

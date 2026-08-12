@@ -15,7 +15,8 @@ related_diseases:
   - "household contact treatment"
   - "topical ivermectin"
 question_type: prevention
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q4sO2DgCDqsJDsl7zsp4jtmZgubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

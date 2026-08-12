@@ -15,6 +15,7 @@ related_diseases:
   - "retrograde cystography"
 related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-uwqeq0kSDtjIzsl7QgKEJsYWRkZXIgcnVwdHVyZSkubWQ
+  - MjAg67mE64eo6riw6rO8L-yalOuPhCDshpDsg4EgKFVyZXRocmFsIGluanVyeSkubWQ
 question_type: investigation
 difficulty: standard
 answer: D

@@ -14,7 +14,8 @@ related_diseases:
   - "클로미프라민 과다복용"
   - "혼수"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yCvO2ZmOqzhCDtla3smrDsmrjsoJwg7KSR64-FIChUcmljeWNsaWMgQW50aWRlcHJlc3NhbnQgUG9pc29uaW5nKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

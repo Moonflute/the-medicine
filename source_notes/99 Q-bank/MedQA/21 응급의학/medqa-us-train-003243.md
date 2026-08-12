@@ -16,7 +16,8 @@ related_diseases:
   - "penetrating chest trauma"
   - "Open pneumothorax"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2dieu2gCDsmbjsg4EubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

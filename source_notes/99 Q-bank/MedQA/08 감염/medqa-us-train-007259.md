@@ -14,7 +14,8 @@ related_diseases:
   - "이소니아지드"
   - "모유 수유"
   - "피리독신"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yeoOuztSDqsrDtlbUgKOyEseyduCkgKExhdGVudCBUdWJlcmN1bG9zaXMgKEFkdWx0KSkubWQ
 question_type: management
 difficulty: complex
 answer: D

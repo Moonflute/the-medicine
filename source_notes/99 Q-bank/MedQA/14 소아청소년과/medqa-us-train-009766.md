@@ -15,7 +15,8 @@ related_diseases:
   - "두피 부종"
   - "subgaleal hemorrhage"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv66-47IiZ7JWEIOustO2YuO2doSAoQXBuZWEgb2YgUHJlbWF0dXJpdHkpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -15,7 +15,8 @@ related_diseases:
   - "복강경 수술"
   - "ovarian torsion"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u2gOyGjeq4sOyXvOyghCAoQWRuZXhhbCBUb3JzaW9uKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

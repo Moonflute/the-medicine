@@ -13,7 +13,8 @@ related_diseases:
   - "소장 세균 과증식"
   - "당뇨병성 장병증"
   - "리팍시민"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: management
 difficulty: complex
 answer: C

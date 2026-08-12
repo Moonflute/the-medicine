@@ -14,7 +14,8 @@ related_diseases:
   - "척추동맥 박리"
   - "급성 현훈"
 question_type: localization
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -14,7 +14,8 @@ related_diseases:
   - "allodynia"
   - "post-traumatic pain"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-unkOy0iOyLoOqyvSDshpDsg4EubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

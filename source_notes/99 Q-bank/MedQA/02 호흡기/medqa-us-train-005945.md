@@ -13,7 +13,8 @@ related_diseases:
   - "폐동맥 고혈압"
   - "혈관반응성 검사"
   - "칼슘통로차단제"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOqzoO2YiOyVlSAoUHVsbW9uYXJ5IEh5cGVydGVuc2lvbikubWQ
 question_type: management
 difficulty: simple
 answer: D

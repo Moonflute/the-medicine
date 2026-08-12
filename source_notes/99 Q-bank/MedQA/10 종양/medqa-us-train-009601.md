@@ -13,7 +13,8 @@ related_diseases:
   - "palpable breast mass"
   - "만져지는 유방 종괴"
   - "breast ultrasound"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: investigation
 difficulty: standard
 answer: D

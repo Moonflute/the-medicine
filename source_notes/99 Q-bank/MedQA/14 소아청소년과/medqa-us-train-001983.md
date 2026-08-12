@@ -14,7 +14,8 @@ related_diseases:
   - "conjugate vaccine"
   - "Streptococcus pneumoniae"
 question_type: prevention
-related_disease_slugs: []
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-ygle2YlSDtj5DroLQgKFR5cGljYWwgUG5ldW1vbmlhKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

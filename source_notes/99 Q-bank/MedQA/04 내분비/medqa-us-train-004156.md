@@ -14,7 +14,8 @@ related_diseases:
   - "글리코겐 축적병 1형"
   - "포도당-6-인산분해효소 결핍"
   - "Von Gierke disease"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv6riA66as7L2U6rKQIOyggOyepSDsp4jtmZggKEdseWNvZ2VuIFN0b3JhZ2UgRGlzZWFzZSkubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: C

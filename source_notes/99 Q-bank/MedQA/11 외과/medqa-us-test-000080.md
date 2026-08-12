@@ -13,7 +13,8 @@ related_diseases:
   - "우심실 관통상"
   - "심장 손상"
   - "심장 봉합"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2dieu2gCDsmbjsg4EubWQ
 question_type: management
 difficulty: complex
 answer: C

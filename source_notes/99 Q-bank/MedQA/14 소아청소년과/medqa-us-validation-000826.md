@@ -15,7 +15,8 @@ related_diseases:
   - "소아 기도 연화"
   - "Laryngomalacia"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7YGs66O5IChDcm91cCkubWQ
 difficulty: simple
 answer: A
 translation_status: machine-verified

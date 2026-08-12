@@ -14,7 +14,8 @@ related_diseases:
   - "5번 염색체 결실"
   - "선천성 심장병"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-usmOyGjOuzkSAoQ2F0IFNjcmF0Y2ggRGlzZWFzZSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

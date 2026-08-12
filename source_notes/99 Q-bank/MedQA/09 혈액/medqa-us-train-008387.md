@@ -13,7 +13,8 @@ related_diseases:
   - "hairy cell leukemia"
   - "TRAP-positive cells"
   - "cladribine"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uwse2YiOuzkSAoTGV1a2VtaWEpLm1k
 question_type: management
 difficulty: complex
 answer: B

@@ -14,7 +14,8 @@ related_diseases:
   - "activated protein C resistance"
   - "recurrent DVT"
   - "hypercoagulability"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yLrOu2gOygleunpe2YiOyghOymnSAoRGVlcCBWZWluIFRocm9tYm9zaXMpLm1k
 question_type: mechanism
 difficulty: complex
 answer: C

@@ -12,7 +12,8 @@ specialty: 08 감염
 related_diseases:
   - "acute rheumatic fever"
   - "Acute rheumatic fever"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yCrOyKrOyVjOq3oCDsnbjrkZDsl7wgKFN0cmVwdG9jb2NjYWwgUGhhcnluZ2l0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

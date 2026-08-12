@@ -13,7 +13,8 @@ related_diseases:
   - "마르팡 증후군"
   - "피브릴린-1 결함"
   - "거미손가락"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uniOultO2MoSDspp3tm4TqtbAgKE1hcmZhbiBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

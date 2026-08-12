@@ -14,7 +14,8 @@ related_diseases:
   - "하인즈 소체"
   - "급성 용혈"
   - "G6PD deficiency"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uwnOyekeyEsSDslbzqsIQg7ZiI7IOJ7IaM64eo7KadIChQYXJveHlzbWFsIE5vY3R1cm5hbCBIZW1vZ2xvYmludXJpYSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

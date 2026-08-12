@@ -15,6 +15,7 @@ related_diseases:
   - "녹농균 감염"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
+  - MDgg6rCQ7Je8L-uFueuGjeq3oCAoUHNldWRvbW9uYXMgQWVydWdpbm9zYSkubWQ
 question_type: prognosis
 difficulty: standard
 answer: B

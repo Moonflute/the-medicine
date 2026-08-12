@@ -16,6 +16,7 @@ related_diseases:
 question_type: management
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-uLpOuwnOyZuOyDgSAoUG9seXRyYXVtYSkubWQ
+  - MjEg7J2R6riJ7J2Y7ZWZL-ycoOq4sOyduOqzhCDspJHrj4UgKE9yZ2Fub3Bob3NwaGF0ZSBQb2lzb25pbmcpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

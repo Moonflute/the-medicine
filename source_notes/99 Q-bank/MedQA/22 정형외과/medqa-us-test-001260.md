@@ -14,7 +14,8 @@ related_diseases:
   - "소아 쇄골 골절"
   - "보존적 치료"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-qzqOygiCDstJ3roaAgKEZyYWN0dXJlIEdlbmVyYWwgUHJpbmNpcGxlcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

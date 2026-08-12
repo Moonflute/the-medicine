@@ -15,6 +15,7 @@ related_diseases:
   - "황색포도알균"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
 question_type: management
 difficulty: simple
 answer: B

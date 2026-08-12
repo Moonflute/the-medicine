@@ -13,7 +13,8 @@ related_diseases:
   - "cholestatic pruritus"
   - "담즙정체성 소양감"
   - "portal vein thrombosis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -16,7 +16,8 @@ related_diseases:
   - "enucleation"
   - "Retinoblastoma"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTgg7JWI6rO8L-yCrOyLnCAoc3RyYWJpc211cykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

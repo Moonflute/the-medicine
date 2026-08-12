@@ -15,7 +15,8 @@ related_diseases:
   - "associated spinal fracture"
   - "spine radiograph"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sspnsiJgg7Jm47IOBIChTcGluYWwgY29yZCB0cmF1bWEpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

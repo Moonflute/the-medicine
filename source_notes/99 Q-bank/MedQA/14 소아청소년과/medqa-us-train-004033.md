@@ -14,7 +14,8 @@ related_diseases:
   - "혈소판감소증"
   - "면역결핍"
 question_type: 임상증례 객관식
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAvV2lza290dC1BbGRyaWNoIOymne2bhOq1sCAoV2lza290dC1BbGRyaWNoIFN5bmRyb21lKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

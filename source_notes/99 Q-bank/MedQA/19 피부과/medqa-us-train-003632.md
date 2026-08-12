@@ -15,7 +15,8 @@ related_diseases:
   - "photosensitive skin disease"
   - "erythematous scaly plaques"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yVhO2GoO2UvCDtlLzrtoDsl7wgKEF0b3BpYyBEZXJtYXRpdGlzKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -15,7 +15,8 @@ related_diseases:
   - "하지 직거상 검사"
   - "Lumbar radiculopathy"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-y2lOqwhO2MkO2DiOy2nOymnSAoSGVybmlhdGVkIEludGVydmVydGVicmFsIERpc2MpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -13,7 +13,8 @@ related_diseases:
   - "esophageal variceal bleeding"
   - "recurrent variceal hemorrhage"
   - "TIPS"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_si53rj4Qg7KCV66el66WYIChFc29waGFnZWFsIFZhcmljZXMpLm1k
 question_type: management
 difficulty: standard
 answer: B

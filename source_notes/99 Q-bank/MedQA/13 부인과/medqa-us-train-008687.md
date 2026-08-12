@@ -14,7 +14,8 @@ related_diseases:
   - "vaginal discharge"
   - "adolescent gynecology"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yEuOq3oOyEsSDsp4jsl7wgKEJhY3RlcmlhbCBWYWdpbm9zaXMpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -14,7 +14,8 @@ related_diseases:
   - "막성 제대 부착"
   - "임신 중 질출혈"
 question_type: association
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoCDspJEg7KeI7Lac7ZiILm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

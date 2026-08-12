@@ -14,7 +14,8 @@ related_diseases:
   - "외측 무릎 통증"
   - "오버 테스트"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-2MlOq_iOy5mCDsmbjsuKEg7IOB6rO87Je8IChMYXRlcmFsIEVwaWNvbmR5bGl0aXMpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

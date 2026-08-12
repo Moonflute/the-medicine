@@ -16,6 +16,7 @@ related_diseases:
   - "retroperitoneal hemorrhage"
 related_disease_slugs:
   - MTEg7Jm46rO8L-uwsOq8vSDtg4jsnqUgKFVtYmlsaWNhbCBIZXJuaWEpLm1k
+  - MjEg7J2R6riJ7J2Y7ZWZL-uLpOuwnOyZuOyDgSAoUG9seXRyYXVtYSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

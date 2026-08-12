@@ -14,7 +14,8 @@ related_diseases:
   - "아미트립틸린"
   - "요폐"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_quLTsnqXtmJXrkZDthrUgKFRlbnNpb24tdHlwZSBoZWFkYWNoZSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

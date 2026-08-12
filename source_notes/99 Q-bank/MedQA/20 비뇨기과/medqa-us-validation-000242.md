@@ -15,7 +15,9 @@ related_diseases:
   - "무스카린 길항제"
   - "Overactive bladder"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
+  - MDQg64K067aE67mEL-yalOu2leymnSAoRGlhYmV0ZXMgSW5zaXBpZHVzKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

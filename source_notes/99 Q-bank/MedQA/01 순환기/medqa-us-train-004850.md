@@ -13,7 +13,8 @@ related_diseases:
   - "암로디핀 유발 말초부종"
   - "칼슘통로차단제"
   - "ACE 억제제 병용"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: adverse_effect
 difficulty: complex
 answer: A

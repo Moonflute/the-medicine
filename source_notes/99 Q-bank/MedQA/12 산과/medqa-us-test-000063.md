@@ -13,7 +13,8 @@ related_diseases:
   - "임신 중 생리적 빈혈"
   - "혈액희석"
   - "정상 임신"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoCDspJEg66qo7LK0IOuzgO2ZlCAoTWF0ZXJuYWwgQ2hhbmdlcyBEdXJpbmcgUHJlZ25hbmN5KS5tZA
 question_type: other
 difficulty: complex
 answer: D

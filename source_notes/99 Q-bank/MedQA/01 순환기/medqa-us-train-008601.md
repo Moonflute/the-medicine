@@ -13,7 +13,8 @@ related_diseases:
   - "transtheoretical model"
   - "smoking cessation"
   - "maintenance stage"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uPmeunpeqyve2ZlOyEsSDrp4zshLEg64-Z66elIO2PkOyDiSAoQXRoZXJvc2NsZXJvdGljIENocm9uaWMgQXJ0ZXJpYWwgT2NjbHVzaW9uKS5tZA
 question_type: prevention
 difficulty: standard
 answer: A

@@ -15,6 +15,7 @@ related_diseases:
   - "multiple peptic ulcers"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsIDsiqTtirjrprDsooUgKEdhc3RyaW5vbWEpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ
 question_type: investigation
 difficulty: complex
 answer: B

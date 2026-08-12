@@ -15,6 +15,7 @@ related_diseases:
   - "니트로프루시드"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVleyEsSDsnITquLAgKEh5cGVydGVuc2l2ZSBDcmlzaXMpLm1k
 question_type: 임상증례 객관식
 difficulty: standard
 answer: A

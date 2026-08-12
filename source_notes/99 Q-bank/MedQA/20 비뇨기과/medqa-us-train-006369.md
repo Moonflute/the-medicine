@@ -14,7 +14,8 @@ related_diseases:
   - "요로감염 감별"
   - "노인 여성 빈뇨"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

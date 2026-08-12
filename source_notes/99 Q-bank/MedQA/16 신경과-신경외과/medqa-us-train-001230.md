@@ -12,7 +12,8 @@ specialty: 16 신경과-신경외과
 related_diseases:
   - "idiopathic intracranial hypertension"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tirnrsJzshLEg65GQ6rCc64K0IOqzoO2YiOyVlSAoSWRpb3BhdGhpYyBJbnRyYWNyYW5pYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

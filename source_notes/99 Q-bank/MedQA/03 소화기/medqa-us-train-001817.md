@@ -15,6 +15,7 @@ related_diseases:
   - "abdominal auscultation"
 related_disease_slugs:
   - MTEg7Jm46rO8L-q4ieyEsSDrs7Xspp0gKEFjdXRlIEFiZG9tZW4pLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQg7LKc6rO1IChQZXJmb3JhdGlvbikubWQ
 question_type: investigation
 difficulty: complex
 answer: D

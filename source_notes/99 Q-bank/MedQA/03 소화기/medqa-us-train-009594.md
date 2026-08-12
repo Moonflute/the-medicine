@@ -13,7 +13,8 @@ related_diseases:
   - "carcinoid syndrome"
   - "카르시노이드 증후군"
   - "octreotide adverse effect"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTAg7KKF7JaRL-y5tOultOyLnOuFuOydtOuTnCDspp3tm4TqtbAgKENhcmNpbm9pZCBTeW5kcm9tZSkubWQ
 question_type: management
 difficulty: complex
 answer: C

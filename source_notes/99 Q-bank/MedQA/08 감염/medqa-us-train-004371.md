@@ -15,6 +15,7 @@ related_diseases:
   - "B형간염 면역글로불린"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
+  - MDgg6rCQ7Je8L-q4ieyEsSBISVYg6rCQ7Je8IChBY3V0ZSBISVYgSW5mZWN0aW9uKS5tZA
 question_type: 임상증례 객관식
 difficulty: standard
 answer: D

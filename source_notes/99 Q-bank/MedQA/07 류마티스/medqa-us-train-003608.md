@@ -16,6 +16,7 @@ related_diseases:
   - "pauci-immune glomerulonephritis"
 related_disease_slugs:
   - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
+  - MDUg7Iug7J6lL-2PkOyLoOyepSDspp3tm4TqtbAgKFB1bG1vbmFyeS1SZW5hbCBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

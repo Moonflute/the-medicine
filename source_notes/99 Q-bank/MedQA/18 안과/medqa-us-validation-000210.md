@@ -15,7 +15,8 @@ related_diseases:
   - "양측성 포도막염"
   - "Sympathetic ophthalmia"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTgg7JWI6rO8L-yViOq1rCDsmbjsg4EubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

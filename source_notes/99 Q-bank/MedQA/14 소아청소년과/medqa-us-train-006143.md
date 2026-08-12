@@ -14,7 +14,8 @@ related_diseases:
   - "CGG 반복 확장"
   - "발달 지연"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -16,6 +16,7 @@ related_diseases:
 question_type: prevention
 related_disease_slugs:
   - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
+  - MDQg64K067aE67mEL-uMgOyCrOymne2bhOq1sCAoTWV0YWJvbGljIFN5bmRyb21lKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

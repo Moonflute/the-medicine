@@ -13,7 +13,8 @@ related_diseases:
   - "심인성 쇼크"
   - "급성 심근경색 합병증"
   - "폐모세혈관 쐐기압"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrtoDsoIQgKEFjdXRlIEhlYXJ0IEZhaWx1cmUpLm1k
 question_type: prognosis
 difficulty: complex
 answer: D

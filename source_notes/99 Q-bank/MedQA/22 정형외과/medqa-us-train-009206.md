@@ -14,7 +14,8 @@ related_diseases:
   - "대전자 통증 증후군"
   - "gluteus medius tendinopathy"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

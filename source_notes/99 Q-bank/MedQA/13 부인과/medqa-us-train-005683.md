@@ -14,7 +14,8 @@ related_diseases:
   - "과다월경"
   - "결합 에스트로겐"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u5hOygleyDgSDsnpDqtoEg7Lac7ZiIIChBYm5vcm1hbCBVdGVyaW5lIEJsZWVkaW5nKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,7 +13,8 @@ related_diseases:
   - "콕시디오이데스증"
   - "계곡열"
   - "사막 진균 감염"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-ynhOq3oC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

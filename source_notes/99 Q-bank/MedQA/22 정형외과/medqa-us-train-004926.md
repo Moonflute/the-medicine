@@ -14,7 +14,8 @@ related_diseases:
   - "경골신경 포착"
   - "발바닥 감각이상"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-unkOy0iOyLoOqyvSDshpDsg4EubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

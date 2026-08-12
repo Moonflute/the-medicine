@@ -14,7 +14,8 @@ related_diseases:
   - "고형식 연하곤란"
   - "위식도역류"
   - "Eosinophilic esophagitis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4Qg7ZiR7LCpIChFc29waGFnZWFsIFN0cmljdHVyZSkubWQ
 question_type: management
 difficulty: standard
 answer: D

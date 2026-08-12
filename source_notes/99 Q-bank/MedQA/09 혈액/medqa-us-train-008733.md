@@ -13,7 +13,8 @@ related_diseases:
   - "Waldenström macroglobulinemia"
   - "hyperviscosity syndrome"
   - "plasmapheresis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qzoOygkOuPhCDspp3tm4TqtbAgKEh5cGVydmlzY29zaXR5IFN5bmRyb21lKS5tZA
 question_type: management
 difficulty: complex
 answer: D

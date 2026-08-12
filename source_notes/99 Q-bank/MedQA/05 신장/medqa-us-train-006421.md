@@ -13,7 +13,8 @@ related_diseases:
   - "육아종증 다발혈관염"
   - "폐-신장 증후군"
   - "상기도 출혈"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDUg7Iug7J6lL-2PkOyLoOyepSDspp3tm4TqtbAgKFB1bG1vbmFyeS1SZW5hbCBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

@@ -14,7 +14,8 @@ related_diseases:
   - "CD40 리간드 결핍"
   - "면역결핍"
 question_type: prognosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-qzoElnTSDspp3tm4TqtbAgKEh5cGVyLUlnTSBTeW5kcm9tZSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -16,6 +16,7 @@ related_diseases:
   - "Parvovirus B19 infection"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
+  - MTIg7IKw6rO8L-yehOyLoCDspJEg6rCQ7Je8Lm1k
 question_type: association
 difficulty: complex
 answer: C

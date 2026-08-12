@@ -14,7 +14,8 @@ related_diseases:
   - "전방 무릎 통증"
   - "슬개골 하극 압통"
   - "Patellar tendinitis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yVhO2CrOugiOyKpCDqsbTrs5Hspp0gKEFjaGlsbGVzIFRlbmRpbm9wYXRoeSkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: C

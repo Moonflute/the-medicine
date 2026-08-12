@@ -14,7 +14,8 @@ related_diseases:
   - "점액다당류증 1형"
   - "피부르산더마탄"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ZeQ65-sIOymne2bhOq1sCAoSHVybGVyIFN5bmRyb21lKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

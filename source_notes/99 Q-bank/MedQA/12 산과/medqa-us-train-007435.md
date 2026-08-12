@@ -15,7 +15,8 @@ related_diseases:
   - "제왕절개 후 출혈"
   - "B-Lynch 봉합"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

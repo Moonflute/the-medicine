@@ -14,7 +14,8 @@ related_diseases:
   - "삼환계 항우울제 복용"
   - "의식저하"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-uypOyhsOuUlOyVhOygnO2VgCDspJHrj4UgKEJlbnpvZGlhemVwaW5lIFBvaXNvbmluZykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

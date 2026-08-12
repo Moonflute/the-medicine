@@ -14,7 +14,8 @@ related_diseases:
   - "악하 공간 감염"
   - "치성 감염"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-y5mOyEsSDqsJDsl7wgKE9kb250b2dlbmljIEluZmVjdGlvbikubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

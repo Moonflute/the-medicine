@@ -14,7 +14,8 @@ related_diseases:
   - "개방성 안구 손상"
   - "외상성 전방출혈"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTgg7JWI6rO8L-yViOq1rCDsmbjsg4EubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

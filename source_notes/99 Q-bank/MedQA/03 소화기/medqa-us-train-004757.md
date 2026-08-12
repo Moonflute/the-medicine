@@ -14,7 +14,8 @@ related_diseases:
   - "알렌드로네이트 식도염"
   - "흉통"
   - "Pill-induced esophagitis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rtoDsi50g7Iud64-E7Je8IChDb3Jyb3NpdmUgRXNvcGhhZ2l0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

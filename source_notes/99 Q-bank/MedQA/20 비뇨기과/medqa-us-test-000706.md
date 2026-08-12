@@ -14,7 +14,8 @@ related_diseases:
   - "요도 과운동성"
   - "골반저 기능부전"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

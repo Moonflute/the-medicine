@@ -16,7 +16,8 @@ related_diseases:
   - "muscarinic receptor antagonism"
   - "Organophosphate poisoning"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-ycoOq4sOyduOqzhCDspJHrj4UgKE9yZ2Fub3Bob3NwaGF0ZSBQb2lzb25pbmcpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

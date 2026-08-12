@@ -14,7 +14,8 @@ related_diseases:
   - "간 포충낭종"
   - "Echinococcus granulosus"
   - "Hydatid disease"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2PrOy2qeymnSAoRWNoaW5vY29jY29zaXMpLm1k
 question_type: management
 difficulty: complex
 answer: D

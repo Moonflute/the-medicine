@@ -14,7 +14,8 @@ related_diseases:
   - "안구 세척"
   - "각막 손상"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTgg7JWI6rO8L-yViOq1rCDsmbjsg4EubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

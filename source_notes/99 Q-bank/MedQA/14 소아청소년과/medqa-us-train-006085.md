@@ -14,7 +14,8 @@ related_diseases:
   - "분출성 비담즙성 구토"
   - "올리브 모양 종괴"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE64yAIOuCoOusuCDtmJHssKnspp0gKEh5cGVydHJvcGhpYyBQeWxvcmljIFN0ZW5vc2lzKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

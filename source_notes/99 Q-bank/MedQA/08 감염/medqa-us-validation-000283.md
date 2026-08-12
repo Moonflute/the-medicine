@@ -13,7 +13,8 @@ related_diseases:
   - "HIV 직업적 노출"
   - "노출 후 예방요법"
   - "혈액 매개 감염"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q4ieyEsSBISVYg6rCQ7Je8IChBY3V0ZSBISVYgSW5mZWN0aW9uKS5tZA
 question_type: prevention
 difficulty: standard
 answer: A

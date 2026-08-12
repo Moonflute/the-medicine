@@ -2,6 +2,12 @@
 aliases:
 - General Management of Acute Poisoning
 - Acute Poisoning
+document_role: group_overview
+group_members:
+- 약물 및 화학물질 중독
+- 독성 알코올
+- 흡입성 중독
+- 생물 독소
 유형:
 - disease
 계통: 응급의학

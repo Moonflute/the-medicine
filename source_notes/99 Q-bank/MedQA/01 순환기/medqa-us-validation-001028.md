@@ -14,7 +14,8 @@ related_diseases:
   - "일시적 우좌단락"
   - "소아 심잡음"
   - "Patent foramen ovale"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius67CpIOykkeqyqSDqsrDshpAgKEF0cmlhbCBTZXB0YWwgRGVmZWN0KS5tZA
 question_type: management
 difficulty: complex
 answer: A

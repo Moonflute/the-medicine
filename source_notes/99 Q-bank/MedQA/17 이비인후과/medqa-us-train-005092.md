@@ -14,7 +14,8 @@ related_diseases:
   - "측두하악관절 기능부전"
   - "저작근 경련"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sgrzssKjsi6Dqsr3thrUgKFRyaWdlbWluYWwgbmV1cmFsZ2lhKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

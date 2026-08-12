@@ -14,7 +14,8 @@ related_diseases:
   - "비만"
   - "인슐린 저항성"
   - "acanthosis nigricans"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: management
 difficulty: complex
 answer: C

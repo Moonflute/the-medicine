@@ -15,7 +15,8 @@ related_diseases:
   - "피하기종"
   - "Bronchial rupture"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4tOyepeyEsSDquLDtnYkgKFRlbnNpb24gUG5ldW1vdGhvcmF4KS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

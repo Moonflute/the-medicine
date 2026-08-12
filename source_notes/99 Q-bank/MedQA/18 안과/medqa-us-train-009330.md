@@ -14,7 +14,8 @@ related_diseases:
   - "해면정맥동 혈전증"
   - "orbital infection"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sp4Dso7zrp4ntlZgg7Lac7ZiIIChTdWJhcmFjaG5vaWQgaGVtb3JyaGFnZSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

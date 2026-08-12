@@ -14,7 +14,8 @@ related_diseases:
   - "편도절제술 후 감염"
   - "턱밑 부종"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yCrOyKrOyVjOq3oCDsnbjrkZDsl7wgKFN0cmVwdG9jb2NjYWwgUGhhcnluZ2l0aXMpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

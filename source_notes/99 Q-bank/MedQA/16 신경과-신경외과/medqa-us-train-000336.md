@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy4oO2VmOydtOuouCDsuZjrp6QgKEFsemhlaW1lcidzIERpc2Vhc2UpLm1k
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghOuRkOy4oeuRkOyXvSDsuZjrp6QgKEZyb250b3RlbXBvcmFsIERlbWVudGlhKS5tZA
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yEuOuhnO2GoOuLjCDspp3tm4TqtbAgKFNlcm90b25pbiBTeW5kcm9tZSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

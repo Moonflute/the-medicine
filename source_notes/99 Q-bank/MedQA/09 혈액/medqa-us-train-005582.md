@@ -13,7 +13,9 @@ related_diseases:
   - "겸상적혈구병 급성흉부증후군"
   - "폐렴구균 백신"
   - "겸상적혈구 예방관리"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Y-Q66C0IChQbmV1bW9uaWEpLm1k
 question_type: prevention
 difficulty: complex
 answer: B

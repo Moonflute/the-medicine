@@ -14,7 +14,8 @@ related_diseases:
   - "Trendelenburg sign"
   - "gluteus medius weakness"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-unkOy0iOyLoOqyvSDshpDsg4EubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -15,7 +15,8 @@ related_diseases:
   - "복부 경직"
   - "복부 압통"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

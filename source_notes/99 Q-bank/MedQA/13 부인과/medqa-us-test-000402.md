@@ -14,7 +14,8 @@ related_diseases:
   - "울리프리스탈"
   - "피임"
 question_type: prevention
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geuCtOyepey5mCAoSW50cmF1dGVyaW5lIERldmljZSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

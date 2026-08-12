@@ -15,6 +15,7 @@ related_diseases:
   - "disseminated intravascular coagulation"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-2MjOyihSDtmIjqtIDrgrQg7J2R6rOgIChEaXNzZW1pbmF0ZWQgSW50cmF2YXNjdWxhciBDb2FndWxhdGlvbiwgRElDKS5tZA
+  - MDgg6rCQ7Je8L-uwlOydtOufrOyKpC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -14,7 +14,8 @@ related_diseases:
   - "후대뇌동맥 뇌졸중"
   - "시각피질 경색"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

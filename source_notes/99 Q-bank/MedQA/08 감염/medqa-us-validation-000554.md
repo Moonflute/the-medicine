@@ -14,7 +14,8 @@ related_diseases:
   - "Yersinia enterocolitica"
   - "덜 익힌 돼지고기"
   - "Yersinia enterocolitica infection"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yYiOultOyLnOuLiOyVhOymnSAoWWVyc2luaW9zaXMpLm1k
 question_type: prevention
 difficulty: standard
 answer: B

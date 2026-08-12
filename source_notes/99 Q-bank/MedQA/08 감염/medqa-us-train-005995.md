@@ -14,7 +14,8 @@ related_diseases:
   - "Klebsiella granulomatis"
   - "무통성 생식기 궤양"
   - "Donovanosis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yEseunpOqwnOqwkOyXvC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -15,7 +15,8 @@ related_diseases:
   - "고음이온차 대사성 산증"
   - "Hypoxemia"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yXkO2LuOugjOq4gOumrOy9nCDspJHrj4UgKEV0aHlsZW5lIEdseWNvbCBQb2lzb25pbmcpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

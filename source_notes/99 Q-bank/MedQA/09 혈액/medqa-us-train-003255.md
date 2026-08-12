@@ -14,7 +14,8 @@ related_diseases:
   - "IgM monoclonal gammopathy"
   - "hyperviscosity syndrome"
   - "lymphoplasmacytic lymphoma"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qzoOygkOuPhCDspp3tm4TqtbAgKEh5cGVydmlzY29zaXR5IFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

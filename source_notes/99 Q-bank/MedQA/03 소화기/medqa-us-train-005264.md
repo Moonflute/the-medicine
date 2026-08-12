@@ -13,7 +13,8 @@ related_diseases:
   - "약물 유발 식도염"
   - "식도 점막 손상"
   - "연하통"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rtoDsi50g7Iud64-E7Je8IChDb3Jyb3NpdmUgRXNvcGhhZ2l0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

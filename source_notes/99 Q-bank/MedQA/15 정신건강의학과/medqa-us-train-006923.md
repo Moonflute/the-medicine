@@ -15,7 +15,8 @@ related_diseases:
   - "주간 졸림"
   - "Delayed sleep phase disorder"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOuptOymnSAoTmFyY29sZXBzeSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

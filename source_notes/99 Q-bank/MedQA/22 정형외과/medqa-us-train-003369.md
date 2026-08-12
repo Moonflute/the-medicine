@@ -15,7 +15,8 @@ related_diseases:
   - "Ehlers-Danlos syndrome"
   - "arthroscopy"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yXmOufrOyKpC3ri6jroZzsiqQg7Kad7ZuE6rWwIChFaGxlcnMtRGFubG9zIFN5bmRyb21lKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

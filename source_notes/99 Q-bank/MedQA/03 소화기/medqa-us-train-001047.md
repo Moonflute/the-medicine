@@ -18,6 +18,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snIzsiqjrs5EgKFdpbHNvbidzIERpc2Vhc2UpLm1k
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9ILnB5bG9yaSDqsJDsl7wgKEgucHlsb3JpIEluZmVjdGlvbikubWQ
+  - MDMg7IaM7ZmU6riwL-2cmO2UjOuzkSAoV2hpcHBsZSBEaXNlYXNlKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: C

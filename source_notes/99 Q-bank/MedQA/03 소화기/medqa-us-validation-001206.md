@@ -13,7 +13,8 @@ related_diseases:
   - "알칼리성 인산분해효소 상승"
   - "감마글루타밀전이효소"
   - "담즙정체"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sm5DrsJzshLEg64u07KaZ7ISxIOuLtOq0gOyXvCAoUEJDKSAoUHJpbWFyeSBCaWxpYXJ5IENob2xhbmdpdGlzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

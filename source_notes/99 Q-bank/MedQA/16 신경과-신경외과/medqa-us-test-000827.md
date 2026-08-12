@@ -14,7 +14,8 @@ related_diseases:
   - "가성 뇌종양"
   - "유두부종"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tirnrsJzshLEg65GQ6rCc64K0IOqzoO2YiOyVlSAoSWRpb3BhdGhpYyBJbnRyYWNyYW5pYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,7 +14,8 @@ related_diseases:
   - "마르팡 유사 체형"
   - "혈전색전증"
   - "혈청 호모시스테인"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIOuwjyDtj5Dsg4nsoITspp0gKERlZXAgVmVpbiBUaHJvbWJvc2lzIGFuZCBQdWxtb25hcnkgRW1ib2xpc20pLm1k
 question_type: investigation
 difficulty: complex
 answer: D

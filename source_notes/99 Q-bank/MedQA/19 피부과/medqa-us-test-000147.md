@@ -14,7 +14,8 @@ related_diseases:
   - "균상식육종"
   - "홍피증"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

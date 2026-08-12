@@ -14,7 +14,8 @@ related_diseases:
   - "콕사키바이러스"
   - "무균성 수막염"
   - "Coxsackievirus infection"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67CU7J2065-s7Iqk7ISxIOuHjOyImOunieyXvCAoVmlyYWwgTWVuaW5naXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

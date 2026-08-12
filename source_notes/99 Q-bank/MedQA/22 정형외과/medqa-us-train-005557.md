@@ -14,7 +14,9 @@ related_diseases:
   - "혼합 용해성 경화성 병변"
   - "골변형"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2MjOygnO2KuOuzkSAoUGFnZXQncyBEaXNlYXNlKS5tZA
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -15,7 +15,8 @@ related_diseases:
   - "ipsilateral ataxia"
   - "contralateral pain and temperature loss"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

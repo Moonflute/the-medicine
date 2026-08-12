@@ -14,7 +14,8 @@ related_diseases:
   - "분열 방어기제"
   - "자해"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

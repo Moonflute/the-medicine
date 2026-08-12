@@ -104,6 +104,37 @@
   },
   {
     "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-qzoO2YiOyVleyEsSDsnITquLAgKEh5cGVydGVuc2l2ZSBDcmlzaXMpLm1k",
+    "title": "고혈압성 위기 (Hypertensive Crisis)",
+    "category": "01 순환기",
+    "aliases": [
+      "고혈압성 위기 (Hypertensive Crisis)",
+      "Hypertensive crisis",
+      "Hypertensive emergency",
+      "Hypertensive urgency",
+      "고혈압성 응급",
+      "고혈압성 위기",
+      "두통",
+      "흉통",
+      "호흡곤란",
+      "시야장애"
+    ],
+    "keywords": [
+      "고혈압",
+      "두통",
+      "흉통",
+      "호흡곤란",
+      "시야장애",
+      "핵심 구분",
+      "고혈압성 응급",
+      "처치 원칙",
+      "관련 문서"
+    ],
+    "quickSummary": "• 중증 혈압 상승만으로 고혈압성 응급을 진단하지 않는다. 핵심은 **급성 표적장기손상**의 유무다.",
+    "href": "/disease/MDEg7Iic7ZmY6riwL-qzoO2YiOyVleyEsSDsnITquLAgKEh5cGVydGVuc2l2ZSBDcmlzaXMpLm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MDEg7Iic7ZmY6riwL-q1kOywqSDsi6zrp4nsl7wgKENvbnN0cmljdGl2ZSBQZXJpY2FyZGl0aXMpLm1k",
     "title": "교착 심막염 (Constrictive Pericarditis)",
     "category": "01 순환기",
@@ -292,6 +323,21 @@
     ],
     "quickSummary": "심장 이온 통로 이상으로 심전도상 QT 간격이 비정상적으로 연장되는 채널병증",
     "href": "/disease/MDEg7Iic7ZmY6riwL-q4tCBRVCDspp3tm4TqtbAgKExvbmcgUVQgU3luZHJvbWUpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-uKkeyXsOqzqOyXvCAoQ29zdG9jaG9uZHJpdGlzKS5tZA",
+    "title": "늑연골염 (Costochondritis)",
+    "category": "01 순환기",
+    "aliases": [
+      "늑연골염 (Costochondritis)",
+      "costochondritis"
+    ],
+    "keywords": [
+      "핵심"
+    ],
+    "quickSummary": "• 국소 압통으로 재현되는 흉벽 통증이 특징입니다.",
+    "href": "/disease/MDEg7Iic7ZmY6riwL-uKkeyXsOqzqOyXvCAoQ29zdG9jaG9uZHJpdGlzKS5tZA"
   },
   {
     "type": "disease",
@@ -544,6 +590,29 @@
     ],
     "quickSummary": "심장 수축력을 증가시키고 심박수를 감소시키는 강심배당체(cardiac glycoside) 약물. 주로 심부전과 심방세동의 심박수 조절에 사용.",
     "href": "/disease/MDEg7Iic7ZmY6riwL-uUlOq4sO2DiOumrOyKpCAoRGlnaXRhbGlzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-uniOultO2MoSDspp3tm4TqtbAgKE1hcmZhbiBTeW5kcm9tZSkubWQ",
+    "title": "마르팡 증후군 (Marfan Syndrome)",
+    "category": "01 순환기",
+    "aliases": [
+      "마르팡 증후군 (Marfan Syndrome)",
+      "마르팡 증후군",
+      "Marfan syndrome",
+      "흉통",
+      "시야 이상"
+    ],
+    "keywords": [
+      "대동맥 질환",
+      "흉통",
+      "시야 이상",
+      "개요",
+      "임상 단서",
+      "관리"
+    ],
+    "quickSummary": "• FBN1 관련 결합조직 질환으로 대동맥 확장·박리, 수정체 탈구, 골격계 이상이 핵심이다.",
+    "href": "/disease/MDEg7Iic7ZmY6riwL-uniOultO2MoSDspp3tm4TqtbAgKE1hcmZhbiBTeW5kcm9tZSkubWQ"
   },
   {
     "type": "disease",
@@ -1422,6 +1491,31 @@
   },
   {
     "type": "disease",
+    "slug": "MDEg7Iic7ZmY6riwL-yXmOufrOyKpC3ri6jroZzsiqQg7Kad7ZuE6rWwIChFaGxlcnMtRGFubG9zIFN5bmRyb21lKS5tZA",
+    "title": "엘러스-단로스 증후군 (Ehlers-Danlos Syndrome)",
+    "category": "01 순환기",
+    "aliases": [
+      "엘러스-단로스 증후군 (Ehlers-Danlos Syndrome)",
+      "Ehlers-Danlos syndrome",
+      "Ehlers Danlos syndrome",
+      "EDS",
+      "엘러스-단로스 증후군",
+      "관절통",
+      "피부 이상"
+    ],
+    "keywords": [
+      "대동맥 질환",
+      "관절통",
+      "피부 이상",
+      "개요",
+      "임상 단서",
+      "관리"
+    ],
+    "quickSummary": "• 콜라겐 관련 유전성 결합조직 질환군으로, 관절 과운동성·피부 과신장성·조직 취약성이 특징이다.",
+    "href": "/disease/MDEg7Iic7ZmY6riwL-yXmOufrOyKpC3ri6jroZzsiqQg7Kad7ZuE6rWwIChFaGxlcnMtRGFubG9zIFN5bmRyb21lKS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDEg7Iic7ZmY6riwL-yasOyLrOyLpCDqsr3sg4kgKFJWIEluZmFyY3QpLm1k",
     "title": "우심실 경색 (RV Infarct)",
     "category": "01 순환기",
@@ -1908,6 +2002,22 @@
   },
   {
     "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-q4ieyEsSDquLDqtIDsp4Dsl7wgKEFjdXRlIEJyb25jaGl0aXMpLm1k",
+    "title": "급성 기관지염 (Acute Bronchitis)",
+    "category": "02 호흡기",
+    "aliases": [
+      "급성 기관지염 (Acute Bronchitis)",
+      "acute bronchitis"
+    ],
+    "keywords": [
+      "핵심",
+      "접근"
+    ],
+    "quickSummary": "• 급성 기침을 보이는 대개 바이러스성 기도 염증입니다.",
+    "href": "/disease/MDIg7Zi47Z2h6riwL-q4ieyEsSDquLDqtIDsp4Dsl7wgKEFjdXRlIEJyb25jaGl0aXMpLm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MDIg7Zi47Z2h6riwL-q4ieyEsSDquLDsuagubWQ",
     "title": "급성 기침",
     "category": "02 호흡기",
@@ -2258,6 +2368,57 @@
     ],
     "quickSummary": "• 만성 기침·가래, 진행성 운동성 호흡곤란이 전형적이다. 천명, 흉부 답답함, 체중감소·피로가 동반될 수 있다.",
     "href": "/disease/MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-uwmOuzteyEsSDtj5DroLQgKFJlY3VycmVudCBQbmV1bW9uaWEpLm1k",
+    "title": "반복성 폐렴 (Recurrent Pneumonia)",
+    "category": "02 호흡기",
+    "aliases": [
+      "반복성 폐렴 (Recurrent Pneumonia)",
+      "재발성 폐렴",
+      "recurrent pneumonia",
+      "기침",
+      "발열",
+      "호흡곤란"
+    ],
+    "keywords": [
+      "폐렴",
+      "반복성·재발성 폐렴",
+      "기침",
+      "발열",
+      "호흡곤란",
+      "본문"
+    ],
+    "quickSummary": "# 반복성 폐렴 (Recurrent Pneumonia)",
+    "href": "/disease/MDIg7Zi47Z2h6riwL-uwmOuzteyEsSDtj5DroLQgKFJlY3VycmVudCBQbmV1bW9uaWEpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-uzkeybkO2ajeuTnSDtj5DroLQgKEhvc3BpdGFsLUFjcXVpcmVkIFBuZXVtb25pYSkubWQ",
+    "title": "병원획득 폐렴 (Hospital-Acquired Pneumonia)",
+    "category": "02 호흡기",
+    "aliases": [
+      "병원획득 폐렴 (Hospital-Acquired Pneumonia)",
+      "HAP",
+      "hospital acquired pneumonia",
+      "postoperative pneumonia",
+      "ventilator-associated pneumonia",
+      "VAP",
+      "기침",
+      "발열",
+      "호흡곤란"
+    ],
+    "keywords": [
+      "폐렴",
+      "병원획득 폐렴",
+      "기침",
+      "발열",
+      "호흡곤란",
+      "핵심 포인트"
+    ],
+    "quickSummary": "• 새 또는 진행하는 폐침윤과 임상적 감염 소견을 함께 해석하며, 울혈·무기폐·흡인 같은 대안을 점검합니다.",
+    "href": "/disease/MDIg7Zi47Z2h6riwL-uzkeybkO2ajeuTnSDtj5DroLQgKEhvc3BpdGFsLUFjcXVpcmVkIFBuZXVtb25pYSkubWQ"
   },
   {
     "type": "disease",
@@ -2671,6 +2832,10 @@
     "category": "02 호흡기",
     "aliases": [
       "잠복 결핵 (성인) (Latent Tuberculosis (Adult))",
+      "잠복결핵감염",
+      "잠복 결핵 감염",
+      "latent tuberculosis infection",
+      "LTBI",
       "무증상"
     ],
     "keywords": [
@@ -3208,6 +3373,10 @@
     "category": "02 호흡기",
     "aliases": [
       "폐고혈압 (Pulmonary Hypertension)",
+      "폐동맥고혈압",
+      "폐동맥 고혈압",
+      "pulmonary arterial hypertension",
+      "PAH",
       "고혈압",
       "호흡곤란",
       "피로"
@@ -3480,6 +3649,21 @@
     ],
     "quickSummary": "• [[급성 (-3주) (Acute (-3 Weeks))]]",
     "href": "/disease/MDIg7Zi47Z2h6riwL-2YuO2doeq4sC5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-2YuO2doeu2gOyghCAoUmVzcGlyYXRvcnkgRmFpbHVyZSkubWQ",
+    "title": "호흡부전 (Respiratory Failure)",
+    "category": "02 호흡기",
+    "aliases": [
+      "호흡부전 (Respiratory Failure)",
+      "respiratory failure"
+    ],
+    "keywords": [
+      "핵심"
+    ],
+    "quickSummary": "• 저산소혈증 또는 환기부전이 있는지 혈액가스와 임상 호흡 상태로 판단합니다.",
+    "href": "/disease/MDIg7Zi47Z2h6riwL-2YuO2doeu2gOyghCAoUmVzcGlyYXRvcnkgRmFpbHVyZSkubWQ"
   },
   {
     "type": "disease",
@@ -5342,6 +5526,39 @@
     ],
     "quickSummary": "D형 간염 바이러스(HDV) 감염에 의해 발생하는 간 염증 질환이다. HDV는 불완전 바이러스로, 증식에 B형 간염 바이러스(HBV)의 HBsAg(표면 항원)이 필수적이므로, HBV 감염이 있는 사람에게서만 발생한다.",
     "href": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC9E7ZiVIOqwhOyXvCAoSERWKSAoSGVwYXRpdGlzIEQgKEhEVikpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-uRkOu5iC3sobTsiqgg7Kad7ZuE6rWwIChEdWJpbi1Kb2huc29uIFN5bmRyb21lKS5tZA",
+    "title": "두빈-존슨 증후군 (Dubin-Johnson Syndrome)",
+    "category": "03 소화기",
+    "aliases": [
+      "두빈-존슨 증후군 (Dubin-Johnson Syndrome)",
+      "Dubin-Johnson syndrome",
+      "benign hereditary jaundice"
+    ],
+    "keywords": [
+      "핵심",
+      "감별"
+    ],
+    "quickSummary": "• 결합형 고빌리루빈혈증을 보이는 양성 유전성 빌리루빈 배설 장애입니다.",
+    "href": "/disease/MDMg7IaM7ZmU6riwL-uRkOu5iC3sobTsiqgg7Kad7ZuE6rWwIChEdWJpbi1Kb2huc29uIFN5bmRyb21lKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-uyhOuTnC3tgqTslYTrpqwg7Kad7ZuE6rWwIChCdWRkLUNoaWFyaSBTeW5kcm9tZSkubWQ",
+    "title": "버드-키아리 증후군 (Budd-Chiari Syndrome)",
+    "category": "03 소화기",
+    "aliases": [
+      "버드-키아리 증후군 (Budd-Chiari Syndrome)",
+      "Budd-Chiari syndrome"
+    ],
+    "keywords": [
+      "핵심",
+      "접근"
+    ],
+    "quickSummary": "• 간정맥 유출로 폐쇄로 인한 간울혈 질환입니다.",
+    "href": "/disease/MDMg7IaM7ZmU6riwL-uyhOuTnC3tgqTslYTrpqwg7Kad7ZuE6rWwIChCdWRkLUNoaWFyaSBTeW5kcm9tZSkubWQ"
   },
   {
     "type": "disease",
@@ -7356,6 +7573,21 @@
   },
   {
     "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-2cmO2UjOuzkSAoV2hpcHBsZSBEaXNlYXNlKS5tZA",
+    "title": "휘플병 (Whipple Disease)",
+    "category": "03 소화기",
+    "aliases": [
+      "휘플병 (Whipple Disease)",
+      "Whipple disease"
+    ],
+    "keywords": [
+      "핵심"
+    ],
+    "quickSummary": "• 체중 감소·설사·관절통과 전신 침범을 함께 보일 수 있는 드문 감염성 질환입니다.",
+    "href": "/disease/MDMg7IaM7ZmU6riwL-2cmO2UjOuzkSAoV2hpcHBsZSBEaXNlYXNlKS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDQg64K067aE67mEL-qwgOyhseyEsSDqs6DsvZzroIjsiqTthYzroaTtmIjspp0gKEZhbWlsaWFsIEh5cGVyY2hvbGVzdGVyb2xlbWlhKS5tZA",
     "title": "가족성 고콜레스테롤혈증 (Familial Hypercholesterolemia)",
     "category": "04 내분비",
@@ -8065,6 +8297,21 @@
     ],
     "quickSummary": "당뇨병의 대사 및 혈역학적 변화로 인해 발생하는 사구체 경화증 및 섬유화.",
     "href": "/disease/MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDQg64K067aE67mEL-uMgOyCrOymne2bhOq1sCAoTWV0YWJvbGljIFN5bmRyb21lKS5tZA",
+    "title": "대사증후군 (Metabolic Syndrome)",
+    "category": "04 내분비",
+    "aliases": [
+      "대사증후군 (Metabolic Syndrome)",
+      "metabolic syndrome"
+    ],
+    "keywords": [
+      "핵심"
+    ],
+    "quickSummary": "• 복부 비만, 혈압, 혈당, 중성지방, HDL 이상을 묶어 심혈관 위험을 평가하는 개념입니다.",
+    "href": "/disease/MDQg64K067aE67mEL-uMgOyCrOymne2bhOq1sCAoTWV0YWJvbGljIFN5bmRyb21lKS5tZA"
   },
   {
     "type": "disease",
@@ -10375,6 +10622,29 @@
   },
   {
     "type": "disease",
+    "slug": "MDUg7Iug7J6lL-2PkOyLoOyepSDspp3tm4TqtbAgKFB1bG1vbmFyeS1SZW5hbCBTeW5kcm9tZSkubWQ",
+    "title": "폐신장 증후군 (Pulmonary-Renal Syndrome)",
+    "category": "05 신장",
+    "aliases": [
+      "폐신장 증후군 (Pulmonary-Renal Syndrome)",
+      "폐신장 증후군",
+      "pulmonary-renal syndrome",
+      "객혈",
+      "혈뇨"
+    ],
+    "keywords": [
+      "사구체질환",
+      "객혈",
+      "혈뇨",
+      "개요",
+      "임상 단서",
+      "즉시 할 일"
+    ],
+    "quickSummary": "• 폐포출혈과 급속진행성 사구체신염이 함께 나타나는 임상 증후군이다.",
+    "href": "/disease/MDUg7Iug7J6lL-2PkOyLoOyepSDspp3tm4TqtbAgKFB1bG1vbmFyeS1SZW5hbCBTeW5kcm9tZSkubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MDUg7Iug7J6lL-2YiOuHqC5tZA",
     "title": "혈뇨",
     "category": "05 신장",
@@ -11423,6 +11693,33 @@
   },
   {
     "type": "disease",
+    "slug": "MDcg66WY66eI7Yuw7IqkL-y5vOyKmO2UvOuhnOyduOyCsCDsuajssKnsp4jtmZggKENQUEQpIChDYWxjaXVtIFB5cm9waG9zcGhhdGUgRGVwb3NpdGlvbiBEaXNlYXNlKS5tZA",
+    "title": "칼슘피로인산 침착질환 (CPPD) (Calcium Pyrophosphate Deposition Disease)",
+    "category": "07 류마티스",
+    "aliases": [
+      "칼슘피로인산 침착질환 (CPPD) (Calcium Pyrophosphate Deposition Disease)",
+      "CPPD",
+      "Pseudogout",
+      "Calcium pyrophosphate deposition disease",
+      "칼슘 피로인산 침착질환",
+      "가성통풍",
+      "관절 통증/붓기",
+      "부종"
+    ],
+    "keywords": [
+      "류마티스",
+      "관절 통증/붓기",
+      "부종",
+      "개요",
+      "통풍과 감별",
+      "진단·치료",
+      "관련 문서"
+    ],
+    "quickSummary": "• 급성 단관절염에서는 감염 관절염을 먼저 배제하고, 가능하면 관절액에서 CPP 결정을 확인한다.",
+    "href": "/disease/MDcg66WY66eI7Yuw7IqkL-y5vOyKmO2UvOuhnOyduOyCsCDsuajssKnsp4jtmZggKENQUEQpIChDYWxjaXVtIFB5cm9waG9zcGhhdGUgRGVwb3NpdGlvbiBEaXNlYXNlKS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ",
     "title": "통풍 (Gout)",
     "category": "07 류마티스",
@@ -11778,11 +12075,55 @@
   },
   {
     "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-q1kOyDgSDqsJDsl7wgKEJpdGUgV291bmQgSW5mZWN0aW9uKS5tZA",
+    "title": "교상 감염 (Bite Wound Infection)",
+    "category": "08 감염",
+    "aliases": [
+      "교상 감염 (Bite Wound Infection)",
+      "동물 교상 감염",
+      "개 물림",
+      "고양이 물림 감염",
+      "사람 물림 감염",
+      "bite wound infection",
+      "상처",
+      "발열"
+    ],
+    "keywords": [
+      "지역사회 감염",
+      "물림 및 교상 감염",
+      "상처",
+      "발열",
+      "핵심 포인트"
+    ],
+    "quickSummary": "• 상처 세척과 변연 평가, 파상풍 및 광견병 노출 평가를 우선합니다.",
+    "href": "/disease/MDgg6rCQ7Je8L-q1kOyDgSDqsJDsl7wgKEJpdGUgV291bmQgSW5mZWN0aW9uKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-q4ieyEsSBISVYg6rCQ7Je8IChBY3V0ZSBISVYgSW5mZWN0aW9uKS5tZA",
+    "title": "급성 HIV 감염 (Acute HIV Infection)",
+    "category": "08 감염",
+    "aliases": [
+      "급성 HIV 감염 (Acute HIV Infection)",
+      "acute HIV infection",
+      "acute retroviral syndrome"
+    ],
+    "keywords": [
+      "핵심",
+      "접근"
+    ],
+    "quickSummary": "• 최근 노출 뒤 발열, 인후통, 발진, 림프절병증처럼 비특이적인 급성 레트로바이러스 증후군으로 나타날 수 있습니다.",
+    "href": "/disease/MDgg6rCQ7Je8L-q4ieyEsSBISVYg6rCQ7Je8IChBY3V0ZSBISVYgSW5mZWN0aW9uKS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDgg6rCQ7Je8L-q4sOyDney2qS5tZA",
     "title": "기생충",
     "category": "08 감염",
     "aliases": [
-      "기생충"
+      "기생충",
+      "parasitic infection",
+      "helminth infection"
     ],
     "keywords": [
       "기생충",
@@ -11801,7 +12142,9 @@
     "title": "기타 감염질환",
     "category": "08 감염",
     "aliases": [
-      "기타 감염질환"
+      "기타 감염질환",
+      "other infectious diseases",
+      "miscellaneous infection"
     ],
     "keywords": [
       "기타 감염질환",
@@ -11813,6 +12156,32 @@
     ],
     "quickSummary": "• 이 묶음은 노출력과 침범 장기가 진단의 중심입니다. 진드기·설치류·가축·토양·성접촉·치과/복부 감염 경로와, 뼈·피부·폐·신경계 침범을 함께 확인합니다.",
     "href": "/disease/MDgg6rCQ7Je8L-q4sO2DgCDqsJDsl7zsp4jtmZgubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-uFuOuhnOuwlOydtOufrOyKpCDqsJDsl7wgKE5vcm92aXJ1cyBJbmZlY3Rpb24pLm1k",
+    "title": "노로바이러스 감염 (Norovirus Infection)",
+    "category": "08 감염",
+    "aliases": [
+      "노로바이러스 감염 (Norovirus Infection)",
+      "Norovirus infection",
+      "norovirus gastroenteritis",
+      "노로바이러스 감염",
+      "구토",
+      "설사",
+      "복통"
+    ],
+    "keywords": [
+      "바이러스",
+      "구토",
+      "설사",
+      "복통",
+      "개요",
+      "임상 단서",
+      "관리와 예방"
+    ],
+    "quickSummary": "• 급성 위장관염과 집단 유행을 흔히 일으키는 전염성 높은 바이러스 감염이다.",
+    "href": "/disease/MDgg6rCQ7Je8L-uFuOuhnOuwlOydtOufrOyKpCDqsJDsl7wgKE5vcm92aXJ1cyBJbmZlY3Rpb24pLm1k"
   },
   {
     "type": "disease",
@@ -12267,6 +12636,27 @@
   },
   {
     "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-usvOumvCDrsI8g6rWQ7IOBIOqwkOyXvC5tZA",
+    "title": "물림 및 교상 감염",
+    "category": "08 감염",
+    "aliases": [
+      "물림 및 교상 감염",
+      "bite wound infection",
+      "상처",
+      "발열"
+    ],
+    "keywords": [
+      "지역사회 감염",
+      "물림 및 교상 감염",
+      "상처",
+      "발열",
+      "포함 질환"
+    ],
+    "quickSummary": "• [[교상 감염 (Bite Wound Infection)]]",
+    "href": "/disease/MDgg6rCQ7Je8L-usvOumvCDrsI8g6rWQ7IOBIOqwkOyXvC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDgg6rCQ7Je8L-uvuOy9lO2UjOudvOyKpOuniCAoTXljb3BsYXNtYSkubWQ",
     "title": "미코플라스마 (Mycoplasma)",
     "category": "08 감염",
@@ -12559,6 +12949,30 @@
   },
   {
     "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-yLneykkeuPhSDrsI8g7Iud7ZKI66ek6rCcIOqwkOyXvC5tZA",
+    "title": "식중독 및 식품매개 감염",
+    "category": "08 감염",
+    "aliases": [
+      "식중독 및 식품매개 감염",
+      "식품매개 감염",
+      "foodborne infection",
+      "설사",
+      "구토",
+      "복통"
+    ],
+    "keywords": [
+      "지역사회 감염",
+      "식중독 및 식품매개 감염",
+      "설사",
+      "구토",
+      "복통",
+      "포함 질환"
+    ],
+    "quickSummary": "• [[Bacillus cereus 식중독]]",
+    "href": "/disease/MDgg6rCQ7Je8L-yLneykkeuPhSDrsI8g7Iud7ZKI66ek6rCcIOqwkOyXvC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDgg6rCQ7Je8L-yLoOymne2bhOq1sCDstpztmIjsl7QgKEhlbW9ycmhhZ2ljIEZldmVyIHdpdGggUmVuYWwgU3luZHJvbWUpLm1k",
     "title": "신증후군 출혈열 (Hemorrhagic Fever with Renal Syndrome)",
     "category": "08 감염",
@@ -12734,6 +13148,29 @@
   },
   {
     "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-yXrO2WieyekMK37IiY7J247ISxIOqwkOyXvC5tZA",
+    "title": "여행자·수인성 감염",
+    "category": "08 감염",
+    "aliases": [
+      "여행자·수인성 감염",
+      "여행자 감염",
+      "여행자 감염병",
+      "waterborne infection",
+      "발열",
+      "설사"
+    ],
+    "keywords": [
+      "지역사회 감염",
+      "여행자·수인성 감염",
+      "발열",
+      "설사",
+      "포함 질환"
+    ],
+    "quickSummary": "• [[말라리아 (Malaria)]]",
+    "href": "/disease/MDgg6rCQ7Je8L-yXrO2WieyekMK37IiY7J247ISxIOqwkOyXvC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDgg6rCQ7Je8L-yXsOyhsOyngeyXvCAoQ2VsbHVsaXRpcykubWQ",
     "title": "연조직염 (Cellulitis)",
     "category": "08 감염",
@@ -12753,6 +13190,39 @@
     ],
     "quickSummary": "피부의 진피 및 피하 조직에 발생하는 급성 세균성 감염",
     "href": "/disease/MDgg6rCQ7Je8L-yXsOyhsOyngeyXvCAoQ2VsbHVsaXRpcykubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-yYiOultOyLnOuLiOyVhOymnSAoWWVyc2luaW9zaXMpLm1k",
+    "title": "예르시니아증 (Yersiniosis)",
+    "category": "08 감염",
+    "aliases": [
+      "예르시니아증 (Yersiniosis)",
+      "yersiniosis",
+      "Yersinia infection"
+    ],
+    "keywords": [
+      "핵심"
+    ],
+    "quickSummary": "• 발열·설사·복통이 충수염과 유사하게 나타날 수 있어 식품 노출력과 장간막 림프절 소견이 도움이 됩니다.",
+    "href": "/disease/MDgg6rCQ7Je8L-yYiOultOyLnOuLiOyVhOymnSAoWWVyc2luaW9zaXMpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-yalOy2qSDqsJDsl7wgKEVudGVyb2JpYXNpcykubWQ",
+    "title": "요충 감염 (Enterobiasis)",
+    "category": "08 감염",
+    "aliases": [
+      "요충 감염 (Enterobiasis)",
+      "pinworm infection",
+      "enterobiasis",
+      "요충 감염"
+    ],
+    "keywords": [
+      "핵심"
+    ],
+    "quickSummary": "• 야간 항문 주위 소양감이 전형적 단서입니다.",
+    "href": "/disease/MDgg6rCQ7Je8L-yalOy2qSDqsJDsl7wgKEVudGVyb2JpYXNpcykubWQ"
   },
   {
     "type": "disease",
@@ -13110,7 +13580,8 @@
     "title": "진균",
     "category": "08 감염",
     "aliases": [
-      "진균"
+      "진균",
+      "fungal infection"
     ],
     "keywords": [
       "진균",
@@ -13152,6 +13623,29 @@
     ],
     "quickSummary": "오리엔티아 쯔쯔가무시 (Orientia tsutsugamushi)에 의해 발생하는 급성 열성 질환으로, 털진드기 유충에 물려 전파된다.",
     "href": "/disease/MDgg6rCQ7Je8L-yvlOyvlOqwgOustOyLnOuzkSAoVHN1dHN1Z2FtdXNoaSBEaXNlYXNlKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-y5mOyEsSDqsJDsl7wgKE9kb250b2dlbmljIEluZmVjdGlvbikubWQ",
+    "title": "치성 감염 (Odontogenic Infection)",
+    "category": "08 감염",
+    "aliases": [
+      "치성 감염 (Odontogenic Infection)",
+      "치성 감염",
+      "odontogenic infection",
+      "치통",
+      "얼굴 부종"
+    ],
+    "keywords": [
+      "기타 감염질환",
+      "치통",
+      "얼굴 부종",
+      "개요",
+      "위험 신호",
+      "관리"
+    ],
+    "quickSummary": "• 치아·치주에서 시작한 다균성 감염으로, 인접 안면·경부 심부 공간으로 퍼질 수 있다.",
+    "href": "/disease/MDgg6rCQ7Je8L-y5mOyEsSDqsJDsl7wgKE9kb250b2dlbmljIEluZmVjdGlvbikubWQ"
   },
   {
     "type": "disease",
@@ -13557,6 +14051,22 @@
   },
   {
     "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-2PrOy2qeymnSAoRWNoaW5vY29jY29zaXMpLm1k",
+    "title": "포충증 (Echinococcosis)",
+    "category": "08 감염",
+    "aliases": [
+      "포충증 (Echinococcosis)",
+      "echinococcosis",
+      "hydatid disease"
+    ],
+    "keywords": [
+      "핵심"
+    ],
+    "quickSummary": "• 간 또는 폐의 낭성 병변에서 유행 지역·동물 노출력을 함께 확인합니다.",
+    "href": "/disease/MDgg6rCQ7Je8L-2PrOy2qeymnSAoRWNoaW5vY29jY29zaXMpLm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MDgg6rCQ7Je8L-2RuOultOuLiOyXkCDqtLTsoIAgKEZvdXJuaWVyJ3MgR2FuZ3JlbmUpLm1k",
     "title": "푸르니에 괴저 (Fournier's Gangrene)",
     "category": "08 감염",
@@ -13649,6 +14159,33 @@
   },
   {
     "type": "disease",
+    "slug": "MDgg6rCQ7Je8L-2YuO2doeq4sOyEuO2PrOycte2VqeuwlOydtOufrOyKpCDqsJDsl7wgKFJlc3BpcmF0b3J5IFN5bmN5dGlhbCBWaXJ1cyBJbmZlY3Rpb24pLm1k",
+    "title": "호흡기세포융합바이러스 감염 (Respiratory Syncytial Virus Infection)",
+    "category": "08 감염",
+    "aliases": [
+      "호흡기세포융합바이러스 감염 (Respiratory Syncytial Virus Infection)",
+      "respiratory syncytial virus infection",
+      "RSV infection",
+      "RSV",
+      "호흡기세포융합바이러스 감염",
+      "기침",
+      "호흡곤란",
+      "발열"
+    ],
+    "keywords": [
+      "바이러스",
+      "기침",
+      "호흡곤란",
+      "발열",
+      "개요",
+      "임상 단서",
+      "관리와 예방"
+    ],
+    "quickSummary": "• 영유아와 고령·고위험 성인에서 하기도 감염을 일으킬 수 있는 흔한 호흡기 바이러스 감염이다.",
+    "href": "/disease/MDgg6rCQ7Je8L-2YuO2doeq4sOyEuO2PrOycte2VqeuwlOydtOufrOyKpCDqsJDsl7wgKFJlc3BpcmF0b3J5IFN5bmN5dGlhbCBWaXJ1cyBJbmZlY3Rpb24pLm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k",
     "title": "후천성 면역결핍 증후군 (AIDS) (Acquired Immunodeficiency Syndrome (AIDS))",
     "category": "08 감염",
@@ -13676,6 +14213,31 @@
     ],
     "quickSummary": "인체 면역결핍 바이러스 (HIV) 감염으로 인해 면역 체계가 심각하게 손상되어 발생하는 다양한 기회 감염 및 악성 종양을 특징으로 하는 증후군",
     "href": "/disease/MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MDgg6rCQ7Je8L0JhY2lsbHVzIGNlcmV1cyDsi53spJHrj4UubWQ",
+    "title": "Bacillus cereus 식중독",
+    "category": "08 감염",
+    "aliases": [
+      "Bacillus cereus 식중독",
+      "구토형 식중독",
+      "독소 매개 위장염",
+      "Bacillus cereus food poisoning",
+      "구토",
+      "설사",
+      "복통"
+    ],
+    "keywords": [
+      "지역사회 감염",
+      "식중독 및 식품매개 감염",
+      "구토",
+      "설사",
+      "복통",
+      "감별 포인트"
+    ],
+    "quickSummary": "• 수 시간 안의 구토 우세 양상은 Staphylococcus aureus 식중독과도 감별합니다.",
+    "href": "/disease/MDgg6rCQ7Je8L0JhY2lsbHVzIGNlcmV1cyDsi53spJHrj4UubWQ"
   },
   {
     "type": "disease",
@@ -13773,6 +14335,30 @@
     ],
     "quickSummary": "• 말초혈액검사와 헤모글로빈 분석으로 확인하며, 예방접종·감염 예방·통증 및 장기 합병증 관리가 장기 치료의 핵심이다.",
     "href": "/disease/MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDkg7ZiI7JWhL-qzoOygkOuPhCDspp3tm4TqtbAgKEh5cGVydmlzY29zaXR5IFN5bmRyb21lKS5tZA",
+    "title": "고점도 증후군 (Hyperviscosity Syndrome)",
+    "category": "09 혈액",
+    "aliases": [
+      "고점도 증후군 (Hyperviscosity Syndrome)",
+      "hyperviscosity syndrome",
+      "두통",
+      "시야 이상",
+      "출혈"
+    ],
+    "keywords": [
+      "혈액",
+      "두통",
+      "시야 이상",
+      "출혈",
+      "개요",
+      "임상 단서",
+      "즉시 할 일"
+    ],
+    "quickSummary": "• 혈액 점도 증가로 미세순환이 저하되어 신경·안과·점막 출혈 증상이 나타나는 응급 상태다.",
+    "href": "/disease/MDkg7ZiI7JWhL-qzoOygkOuPhCDspp3tm4TqtbAgKEh5cGVydmlzY29zaXR5IFN5bmRyb21lKS5tZA"
   },
   {
     "type": "disease",
@@ -14573,6 +15159,49 @@
   },
   {
     "type": "disease",
+    "slug": "MDkg7ZiI7JWhL-ycoOyghOyEsSDtmIjsg4nshozsuajssKnspp0gKEhlcmVkaXRhcnkgSGVtb2Nocm9tYXRvc2lzKS5tZA",
+    "title": "유전성 혈색소침착증 (Hereditary Hemochromatosis)",
+    "category": "09 혈액",
+    "aliases": [
+      "유전성 혈색소침착증 (Hereditary Hemochromatosis)",
+      "hemochromatosis",
+      "hereditary hemochromatosis",
+      "hereditary haemochromatosis",
+      "피로",
+      "관절통",
+      "피부색 변화"
+    ],
+    "keywords": [
+      "적혈구 질환",
+      "피로",
+      "관절통",
+      "피부색 변화",
+      "개요",
+      "임상 단서",
+      "평가와 관리"
+    ],
+    "quickSummary": "• 과도한 장 철 흡수로 철이 간·심장·췌장·관절에 축적되는 유전성 철 과부하 질환이다.",
+    "href": "/disease/MDkg7ZiI7JWhL-ycoOyghOyEsSDtmIjsg4nshozsuajssKnspp0gKEhlcmVkaXRhcnkgSGVtb2Nocm9tYXRvc2lzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDkg7ZiI7JWhL-ycoOyghOyEsSDtmIjsoITshLHtlqXspp0gKEluaGVyaXRlZCBUaHJvbWJvcGhpbGlhKS5tZA",
+    "title": "유전성 혈전성향증 (Inherited Thrombophilia)",
+    "category": "09 혈액",
+    "aliases": [
+      "유전성 혈전성향증 (Inherited Thrombophilia)",
+      "inherited thrombophilia",
+      "factor V Leiden thrombophilia"
+    ],
+    "keywords": [
+      "핵심",
+      "검사 해석"
+    ],
+    "quickSummary": "• 급성 혈전기와 항응고 치료 중에는 일부 검사 결과가 왜곡될 수 있어 검사 시점과 결과의 임상적 활용을 함께 판단합니다.",
+    "href": "/disease/MDkg7ZiI7JWhL-ycoOyghOyEsSDtmIjsoITshLHtlqXspp0gKEluaGVyaXRlZCBUaHJvbWJvcGhpbGlhKS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDkg7ZiI7JWhL-ydkeqzoOyduOyekCDsp4jtmZgubWQ",
     "title": "응고인자 질환",
     "category": "09 혈액",
@@ -14836,6 +15465,32 @@
   },
   {
     "type": "disease",
+    "slug": "MDkg7ZiI7JWhL-2MkOy9lOuLiCDruYjtmIggKEZhbmNvbmkgQW5lbWlhKS5tZA",
+    "title": "판코니 빈혈 (Fanconi Anemia)",
+    "category": "09 혈액",
+    "aliases": [
+      "판코니 빈혈 (Fanconi Anemia)",
+      "Fanconi anemia",
+      "Fanconi's anemia",
+      "피로",
+      "반복 감염",
+      "출혈"
+    ],
+    "keywords": [
+      "적혈구 질환",
+      "빈혈",
+      "피로",
+      "반복 감염",
+      "출혈",
+      "개요",
+      "임상 단서",
+      "관리"
+    ],
+    "quickSummary": "• DNA 손상 복구 이상으로 발생하는 유전성 골수부전 증후군이다.",
+    "href": "/disease/MDkg7ZiI7JWhL-2MkOy9lOuLiCDruYjtmIggKEZhbmNvbmkgQW5lbWlhKS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDkg7ZiI7JWhL-2PsCDruYzroIjruIzrnoDtirjrs5EgKHZvbiBXaWxsZWJyYW5kIERpc2Vhc2UsIHZXRCkubWQ",
     "title": "폰 빌레브란트병 (von Willebrand Disease, vWD)",
     "category": "09 혈액",
@@ -15094,6 +15749,21 @@
   },
   {
     "type": "disease",
+    "slug": "MTAg7KKF7JaRL-uekeqyjOultO2VnOyKpCDshLjtj6wg7KGw7KeB6rWs7KadIChMYW5nZXJoYW5zIENlbGwgSGlzdGlvY3l0b3NpcykubWQ",
+    "title": "랑게르한스 세포 조직구증 (Langerhans Cell Histiocytosis)",
+    "category": "10 종양",
+    "aliases": [
+      "랑게르한스 세포 조직구증 (Langerhans Cell Histiocytosis)",
+      "Langerhans cell histiocytosis"
+    ],
+    "keywords": [
+      "핵심"
+    ],
+    "quickSummary": "• 뼈·피부·폐·내분비계를 침범할 수 있는 조직구성 질환입니다.",
+    "href": "/disease/MTAg7KKF7JaRL-uekeqyjOultO2VnOyKpCDshLjtj6wg7KGw7KeB6rWs7KadIChMYW5nZXJoYW5zIENlbGwgSGlzdGlvY3l0b3NpcykubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MTAg7KKF7JaRL-u2gOyiheyWkSDspp3tm4TqtbAgKFBhcmFuZW9wbGFzdGljIFN5bmRyb21lKS5tZA",
     "title": "부종양 증후군 (Paraneoplastic Syndrome)",
     "category": "10 종양",
@@ -15250,6 +15920,32 @@
     ],
     "quickSummary": "• 국소적 등 통증 및 신경근 통증(radicular pain)이 초기 증상으로 흔하며, 누우면 악화되는 경향이 있다.",
     "href": "/disease/MTAg7KKF7JaRL-yymeyImCDslZXrsJUg7Kad7ZuE6rWwIChTcGluYWwgQ29yZCBDb21wcmVzc2lvbiBTeW5kcm9tZSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTAg7KKF7JaRL-y5tOultOyLnOuFuOydtOuTnCDspp3tm4TqtbAgKENhcmNpbm9pZCBTeW5kcm9tZSkubWQ",
+    "title": "카르시노이드 증후군 (Carcinoid Syndrome)",
+    "category": "10 종양",
+    "aliases": [
+      "카르시노이드 증후군 (Carcinoid Syndrome)",
+      "carcinoid syndrome",
+      "카르시노이드 증후군",
+      "홍조",
+      "설사",
+      "천명"
+    ],
+    "keywords": [
+      "종양내과",
+      "신경내분비종양",
+      "홍조",
+      "설사",
+      "천명",
+      "개요",
+      "임상 단서",
+      "평가와 관리"
+    ],
+    "quickSummary": "• 기능성 신경내분비종양이 세로토닌 등 혈관작용 물질을 분비하여 생기는 전신 증후군이다.",
+    "href": "/disease/MTAg7KKF7JaRL-y5tOultOyLnOuFuOydtOuTnCDspp3tm4TqtbAgKENhcmNpbm9pZCBTeW5kcm9tZSkubWQ"
   },
   {
     "type": "disease",
@@ -16650,6 +17346,29 @@
   },
   {
     "type": "disease",
+    "slug": "MTEg7Jm46rO8L-2YiOq0gCDshpDsg4EubWQ",
+    "title": "혈관 손상",
+    "category": "11 외과",
+    "aliases": [
+      "혈관 손상",
+      "Vascular Trauma",
+      "Traumatic Vascular Injury",
+      "출혈",
+      "쇼크",
+      "사지통증"
+    ],
+    "keywords": [
+      "외상",
+      "출혈",
+      "쇼크",
+      "사지통증",
+      "포함 범위"
+    ],
+    "quickSummary": "• 외상성 경동맥·대퇴동맥·신동맥 손상",
+    "href": "/disease/MTEg7Jm46rO8L-2YiOq0gCDshpDsg4EubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ",
     "title": "화상 (Burn)",
     "category": "11 외과",
@@ -16699,6 +17418,29 @@
     ],
     "quickSummary": "화학물질(산, 알칼리, 자극제 등)에 노출되어 발생하는 피부 및 점막의 손상.",
     "href": "/disease/MTEg7Jm46rO8L-2ZlO2VmeusvOyniO2ZlOyDgSAoQ2hlbWljYWwgQnVybikubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTEg7Jm46rO8L-2dieu2gCDsmbjsg4EubWQ",
+    "title": "흉부 외상",
+    "category": "11 외과",
+    "aliases": [
+      "흉부 외상",
+      "Thoracic Trauma",
+      "Chest Trauma",
+      "흉통",
+      "호흡곤란",
+      "쇼크"
+    ],
+    "keywords": [
+      "외상",
+      "흉통",
+      "호흡곤란",
+      "쇼크",
+      "포함 범위"
+    ],
+    "quickSummary": "• 흉부 손상, 관통성 흉부손상, 심장 손상, 외상성 호흡부전",
+    "href": "/disease/MTEg7Jm46rO8L-2dieu2gCDsmbjsg4EubWQ"
   },
   {
     "type": "disease",
@@ -17060,6 +17802,7 @@
       "산과",
       "난산",
       "조산",
+      "임신 중 감염",
       "과숙임신",
       "유산",
       "자궁외임신",
@@ -17179,6 +17922,33 @@
     ],
     "quickSummary": "분만 후 6주 이내에 발생하는 자궁 내 감염(Endomyometritis 등)",
     "href": "/disease/MTIg7IKw6rO8L-yCsOyaleq4sCDsnpDqtoEg6rCQ7Je8IChQb3N0cGFydHVtIFV0ZXJpbmUgSW5mZWN0aW9uKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA",
+    "title": "산후출혈",
+    "category": "12 산과",
+    "aliases": [
+      "산후출혈",
+      "Postpartum Hemorrhage",
+      "PPH",
+      "산후 출혈",
+      "출혈",
+      "저혈압",
+      "빈맥"
+    ],
+    "keywords": [
+      "산과적 출혈",
+      "출혈",
+      "저혈압",
+      "빈맥",
+      "공통 임상 접근",
+      "먼저 구분할 단서",
+      "처치 원칙",
+      "포함 질환"
+    ],
+    "quickSummary": "• 분만 후 지속 출혈에서는 먼저 활력징후, 의식, 출혈량, 자궁 긴장도를 함께 확인하고 대량출혈 대응과 원인 평가를 동시에 시작한다.",
+    "href": "/disease/MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA"
   },
   {
     "type": "disease",
@@ -17496,6 +18266,34 @@
   },
   {
     "type": "disease",
+    "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg6rCQ7Je8Lm1k",
+    "title": "임신 중 감염",
+    "category": "12 산과",
+    "aliases": [
+      "임신 중 감염",
+      "Infection in Pregnancy",
+      "Maternal Infection",
+      "임신 중 감염질환",
+      "발열",
+      "발진",
+      "복통"
+    ],
+    "keywords": [
+      "임신 중 질환",
+      "임신 중 감염",
+      "발열",
+      "발진",
+      "복통",
+      "공통 임상 접근",
+      "먼저 구분할 상황",
+      "학습 포인트",
+      "포함 질환"
+    ],
+    "quickSummary": "• 임신 중 감염은 산모의 중증도뿐 아니라 임신 주수, 태아·신생아 노출, 수직감염 가능성, 분만 시 조치까지 함께 판단한다.",
+    "href": "/disease/MTIg7IKw6rO8L-yehOyLoCDspJEg6rCQ7Je8Lm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg66qo7LK0IOuzgO2ZlCAoTWF0ZXJuYWwgQ2hhbmdlcyBEdXJpbmcgUHJlZ25hbmN5KS5tZA",
     "title": "임신 중 모체 변화 (Maternal Changes During Pregnancy)",
     "category": "12 산과",
@@ -17524,6 +18322,34 @@
     ],
     "quickSummary": "임신 기간 동안 태아의 성장과 발달을 지원하기 위해 모체에서 일어나는 전신적인 신체적, 생리적 변화.",
     "href": "/disease/MTIg7IKw6rO8L-yehOyLoCDspJEg66qo7LK0IOuzgO2ZlCAoTWF0ZXJuYWwgQ2hhbmdlcyBEdXJpbmcgUHJlZ25hbmN5KS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTIg7IKw6rO8L-yehOyLoCDspJEg7KeI7Lac7ZiILm1k",
+    "title": "임신 중 질출혈",
+    "category": "12 산과",
+    "aliases": [
+      "임신 중 질출혈",
+      "Vaginal Bleeding During Pregnancy",
+      "Antepartum Vaginal Bleeding",
+      "임신중 질출혈",
+      "임신 초기 출혈",
+      "질 출혈",
+      "복통",
+      "어지럼증"
+    ],
+    "keywords": [
+      "산과적 출혈",
+      "질 출혈",
+      "복통",
+      "어지럼증",
+      "공통 접근",
+      "주수별 감별",
+      "주의사항",
+      "관련 문서"
+    ],
+    "quickSummary": "• 임신 중 출혈에서는 혈역학적 안정성, 임신 주수, 통증 유무, 자궁 압통·수축, 태아 상태와 초음파 소견을 함께 평가한다.",
+    "href": "/disease/MTIg7IKw6rO8L-yehOyLoCDspJEg7KeI7Lac7ZiILm1k"
   },
   {
     "type": "disease",
@@ -19032,6 +19858,7 @@
       "불임",
       "외음부",
       "외음부 궤양",
+      "성매개감염",
       "질염",
       "비정상 자궁출혈",
       "PCOS",
@@ -19298,6 +20125,34 @@
     ],
     "quickSummary": "• **CC** 1~2cm 크기의 단단하고 고무 같은 촉감, 경계가 명확하며 잘 움직이는(mobile) 무통성 종괴",
     "href": "/disease/MTMg67aA7J246rO8L-yErOycoOyEoOyihSAoRmlicm9hZGVub21hKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTMg67aA7J246rO8L-yEseunpOqwnOqwkOyXvC5tZA",
+    "title": "성매개감염",
+    "category": "13 부인과",
+    "aliases": [
+      "성매개감염",
+      "Sexually Transmitted Infection",
+      "Sexually Transmitted Disease",
+      "STI",
+      "STD",
+      "질 분비물",
+      "골반통",
+      "외음부 병변"
+    ],
+    "keywords": [
+      "성매개감염",
+      "질 분비물",
+      "골반통",
+      "외음부 병변",
+      "공통 임상 접근",
+      "하위 질환 감별 포인트",
+      "공통 예방·추적",
+      "포함 질환"
+    ],
+    "quickSummary": "• 성매개감염은 증후군을 먼저 구분한다: 궤양성 병변, 분비물·경부염, 사마귀성 병변, 골반통·상부생식기 감염.",
+    "href": "/disease/MTMg67aA7J246rO8L-yEseunpOqwnOqwkOyXvC5tZA"
   },
   {
     "type": "disease",
@@ -20510,6 +21365,22 @@
   },
   {
     "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-qzoElnTSDspp3tm4TqtbAgKEh5cGVyLUlnTSBTeW5kcm9tZSkubWQ",
+    "title": "고IgM 증후군 (Hyper-IgM Syndrome)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "고IgM 증후군 (Hyper-IgM Syndrome)",
+      "hyper-IgM syndrome",
+      "high IgM syndrome"
+    ],
+    "keywords": [
+      "핵심"
+    ],
+    "quickSummary": "• 반복적·기회감염과 면역글로불린 동종전환 장애를 함께 의심합니다.",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-qzoElnTSDspp3tm4TqtbAgKEh5cGVyLUlnTSBTeW5kcm9tZSkubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCA7ISxIOu2gOqwkeyDgeyEoCDquLDriqUg7KCA7ZWY7KadIChQc2V1ZG9oeXBvcGFyYXRoeXJvaWRpc20pLm1k",
     "title": "가성 부갑상선 기능 저하증 (Pseudohypoparathyroidism)",
     "category": "14 소아청소년과",
@@ -21709,6 +22580,8 @@
     "aliases": [
       "비대 날문 협착증 (Hypertrophic Pyloric Stenosis)",
       "비대 날문 협착증",
+      "비후성 유문협착증",
+      "hypertrophic pyloric stenosis",
       "구토"
     ],
     "keywords": [
@@ -22444,6 +23317,31 @@
     ],
     "quickSummary": "신생아기에 발생하는 간의 염증성 질환으로, 담즙 정체(cholestasis)가 주된 특징임",
     "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug7IOd7JWEIOqwhOyXvCAoTmVvbmF0YWwgSGVwYXRpdGlzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug7IOd7JWEIOuHjOyImOunieyXvCAoTmVvbmF0YWwgTWVuaW5naXRpcykubWQ",
+    "title": "신생아 뇌수막염 (Neonatal Meningitis)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "신생아 뇌수막염 (Neonatal Meningitis)",
+      "neonatal meningitis",
+      "발열",
+      "기면",
+      "경련"
+    ],
+    "keywords": [
+      "소아과각론",
+      "감염",
+      "발열",
+      "기면",
+      "경련",
+      "개요",
+      "임상 단서",
+      "즉시 할 일"
+    ],
+    "quickSummary": "• 신생아에서 발생하는 중증 중추신경계 감염으로, 패혈증과 동반되거나 비특이적으로 나타날 수 있다.",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug7IOd7JWEIOuHjOyImOunieyXvCAoTmVvbmF0YWwgTWVuaW5naXRpcykubWQ"
   },
   {
     "type": "disease",
@@ -23776,6 +24674,31 @@
   },
   {
     "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Z2U65Ok66awIOyVhOq4sCDspp3tm4TqtbAgKFNoYWtlbiBCYWJ5IFN5bmRyb21lKS5tZA",
+    "title": "흔들린 아기 증후군 (Shaken Baby Syndrome)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "흔들린 아기 증후군 (Shaken Baby Syndrome)",
+      "흔들린 아기 증후군",
+      "shaken baby syndrome",
+      "abusive head trauma",
+      "의식저하",
+      "경련"
+    ],
+    "keywords": [
+      "소아과각론",
+      "손상과 중독",
+      "의식저하",
+      "경련",
+      "개요",
+      "임상 단서",
+      "즉시 할 일"
+    ],
+    "quickSummary": "• 영아 학대성 두부손상의 한 표현으로, 가속-감속 손상에 의해 경막하출혈과 망막출혈 등이 발생할 수 있다.",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Z2U65Ok66awIOyVhOq4sCDspp3tm4TqtbAgKFNoYWtlbiBCYWJ5IFN5bmRyb21lKS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAvQ2hlZGlhay1IaWdhc2hpIOymne2bhOq1sCAoQ2hlZGlhay1IaWdhc2hpIFN5bmRyb21lKS5tZA",
     "title": "Chediak-Higashi 증후군 (Chediak-Higashi Syndrome)",
     "category": "14 소아청소년과",
@@ -23904,6 +24827,28 @@
   },
   {
     "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv6rOo7ZiV7ISx67aA7KCE7KadIChPc3Rlb2dlbmVzaXMgSW1wZXJmZWN0YSkubWQ",
+    "title": "골형성부전증 (Osteogenesis Imperfecta)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "골형성부전증 (Osteogenesis Imperfecta)",
+      "골형성부전증",
+      "osteogenesis imperfecta",
+      "골절"
+    ],
+    "keywords": [
+      "소아과 총론",
+      "선천성·발달 이상",
+      "골절",
+      "개요",
+      "임상 단서",
+      "관리"
+    ],
+    "quickSummary": "• I형 콜라겐 이상으로 뼈가 쉽게 부러지는 유전성 결합조직 질환이다.",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv6rOo7ZiV7ISx67aA7KCE7KadIChPc3Rlb2dlbmVzaXMgSW1wZXJmZWN0YSkubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv6riA66as7L2U6rKQIOyggOyepSDsp4jtmZggKEdseWNvZ2VuIFN0b3JhZ2UgRGlzZWFzZSkubWQ",
     "title": "글리코겐 저장 질환 (Glycogen Storage Disease)",
     "category": "14 소아청소년과",
@@ -23957,6 +24902,24 @@
   },
   {
     "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv66CI7Yq4IOymne2bhOq1sCAoUmV0dCBTeW5kcm9tZSkubWQ",
+    "title": "레트 증후군 (Rett Syndrome)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "레트 증후군 (Rett Syndrome)",
+      "[Rett syndrome, MECP2 mutation]",
+      "[성장발달, 경련 (소아)]"
+    ],
+    "keywords": [
+      "[소아과 총론, 유전질환]",
+      "[성장발달, 경련 (소아)]",
+      "본문"
+    ],
+    "quickSummary": "# 레트 증후군 (Rett Syndrome)",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv66CI7Yq4IOymne2bhOq1sCAoUmV0dCBTeW5kcm9tZSkubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv66-47IiZ7JWEIOustO2YuO2doSAoQXBuZWEgb2YgUHJlbWF0dXJpdHkpLm1k",
     "title": "미숙아 무호흡 (Apnea of Prematurity)",
     "category": "14 소아청소년과",
@@ -24004,6 +24967,32 @@
     ],
     "quickSummary": "미숙아에서 나타나는 불규칙한 호흡 패턴으로, 5~10초간의 정상 호흡 후 10~15초간의 짧은 호흡 정지(또는 빈호흡)가 반복되는 양상을 보임",
     "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv66-47IiZ7JWEIOyjvOq4sOyEsSDtmLjtnaEgKFBlcmlvZGljIEJyZWF0aGluZyBvZiBQcmVtYXR1cml0eSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv67Kg7YGs7JyE65OcLeu5hOuNsOunjCDspp3tm4TqtbAgKEJlY2t3aXRoLVdpZWRlbWFubiBTeW5kcm9tZSkubWQ",
+    "title": "베크위드-비데만 증후군 (Beckwith-Wiedemann Syndrome)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "베크위드-비데만 증후군 (Beckwith-Wiedemann Syndrome)",
+      "Beckwith-Wiedemann syndrome",
+      "Beckwith Wiedemann syndrome",
+      "BWS",
+      "베크위드-비데만 증후군",
+      "성장 이상",
+      "저혈당"
+    ],
+    "keywords": [
+      "소아과 총론",
+      "선천성·발달 이상",
+      "성장 이상",
+      "저혈당",
+      "개요",
+      "임상 단서",
+      "추적"
+    ],
+    "quickSummary": "• 과성장, 거대혀, 복벽 결손과 소아 종양 위험이 특징인 유전성 과성장 증후군이다.",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv67Kg7YGs7JyE65OcLeu5hOuNsOunjCDspp3tm4TqtbAgKEJlY2t3aXRoLVdpZWRlbWFubiBTeW5kcm9tZSkubWQ"
   },
   {
     "type": "disease",
@@ -24116,6 +25105,32 @@
   },
   {
     "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA",
+    "title": "소아 유전질환",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "소아 유전질환",
+      "Pediatric Genetic Disorders",
+      "Inherited Metabolic Disorders",
+      "Genetic Disorders",
+      "성장발달",
+      "근력저하",
+      "경련 (소아)"
+    ],
+    "keywords": [
+      "소아과 총론",
+      "유전질환",
+      "성장발달",
+      "근력저하",
+      "경련 (소아)",
+      "분류 포인트",
+      "관련 질환 범위"
+    ],
+    "quickSummary": "• 염색체 이상: 다운·파타우·윌리엄스 등은 성장과 선천기형 양상을 함께 봅니다.",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWE6rO8IOy0neuhoC5tZA",
     "title": "소아과 총론",
     "category": "14 소아청소년과",
@@ -24134,6 +25149,7 @@
       "호흡곤란",
       "피부 괴사",
       "경련",
+      "선천성·발달 이상",
       "성장",
       "성 발달",
       "영양",
@@ -24143,7 +25159,7 @@
       "신생아 호흡/소화",
       "신경계"
     ],
-    "quickSummary": "• [[가족성 단신증 (Familial Short Stature)]]",
+    "quickSummary": "• [[베크위드-비데만 증후군 (Beckwith-Wiedemann Syndrome)]]",
     "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWE6rO8IOy0neuhoC5tZA"
   },
   {
@@ -24177,6 +25193,26 @@
     ],
     "quickSummary": "주로 미숙아에게 발생하는 치명적인 장 질환으로, 장벽의 염증과 세균 침범으로 인해 장 조직의 괴사가 일어나는 상태임.",
     "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOq0tOyCrOyEsSDsnqXsl7wgKE5lb25hdGFsIE5lY3JvdGl6aW5nIEVudGVyb2NvbGl0aXMpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOyDneumrOyggSDsp4jstpztmIggKE5lb25hdGFsIFBoeXNpb2xvZ2ljIFZhZ2luYWwgQmxlZWRpbmcpLm1k",
+    "title": "신생아 생리적 질출혈 (Neonatal Physiologic Vaginal Bleeding)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "신생아 생리적 질출혈 (Neonatal Physiologic Vaginal Bleeding)",
+      "신생아 생리적 질출혈",
+      "neonatal physiologic vaginal bleeding",
+      "질출혈"
+    ],
+    "keywords": [
+      "소아과 총론",
+      "질출혈",
+      "개요",
+      "평가"
+    ],
+    "quickSummary": "• 모체 호르몬이 소실되면서 여아 신생아에 일시적으로 나타날 수 있는 소량의 질출혈이다.",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOyDneumrOyggSDsp4jstpztmIggKE5lb25hdGFsIFBoeXNpb2xvZ2ljIFZhZ2luYWwgQmxlZWRpbmcpLm1k"
   },
   {
     "type": "disease",
@@ -24296,6 +25332,53 @@
   },
   {
     "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JWE64-Z7ZWZ64yAIOuwjyDruYTsmrDrsJzsoIEg7IaQ7IOBLm1k",
+    "title": "아동학대 및 비우발적 손상",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "아동학대 및 비우발적 손상",
+      "Child Maltreatment",
+      "Child Abuse",
+      "Nonaccidental Injury",
+      "Child Maltreatment and Nonaccidental Injury",
+      "외상",
+      "성장발달"
+    ],
+    "keywords": [
+      "소아과 총론",
+      "아동학대·비우발적 손상",
+      "외상",
+      "성장발달",
+      "평가 포인트"
+    ],
+    "quickSummary": "• 손상 양상·시점·보호자 진술의 일관성 및 과거 손상 기록",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JWE64-Z7ZWZ64yAIOuwjyDruYTsmrDrsJzsoIEg7IaQ7IOBLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JeQ65Oc7JuM65OcIOymne2bhOq1sCAoRWR3YXJkcyBTeW5kcm9tZSkubWQ",
+    "title": "에드워드 증후군 (Edwards Syndrome)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "에드워드 증후군 (Edwards Syndrome)",
+      "에드워드 증후군",
+      "Edwards syndrome",
+      "trisomy 18",
+      "발달지연"
+    ],
+    "keywords": [
+      "소아과 총론",
+      "선천성·발달 이상",
+      "발달지연",
+      "개요",
+      "임상 단서",
+      "관리"
+    ],
+    "quickSummary": "• 18번 염색체 삼염색체증으로, 중증 성장·발달 이상과 다장기 선천기형을 동반한다.",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JeQ65Oc7JuM65OcIOymne2bhOq1sCAoRWR3YXJkcyBTeW5kcm9tZSkubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Je07ISxIOqyveugqCAoRmVicmlsZSBDb252dWxzaW9uKS5tZA",
     "title": "열성 경련 (Febrile Convulsion)",
     "category": "14 소아청소년과",
@@ -24319,6 +25402,42 @@
     ],
     "quickSummary": "생후 6개월에서 5세 사이의 소아에서 발열과 동반되어 발생하는 경련",
     "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Je07ISxIOqyveugqCAoRmVicmlsZSBDb252dWxzaW9uKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JuQ67Cc7ISxIOyErOuqqOyatOuPmeydtOyDgeymnSAoUHJpbWFyeSBDaWxpYXJ5IER5c2tpbmVzaWEpLm1k",
+    "title": "원발성 섬모운동이상증 (Primary Ciliary Dyskinesia)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "원발성 섬모운동이상증 (Primary Ciliary Dyskinesia)",
+      "[Kartagener syndrome, primary ciliary dyskinesia, PCD]",
+      "[기침, 호흡곤란]"
+    ],
+    "keywords": [
+      "[소아과 총론, 유전질환]",
+      "[기침, 호흡곤란]",
+      "본문"
+    ],
+    "quickSummary": "# 원발성 섬모운동이상증 (Primary Ciliary Dyskinesia)",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JuQ67Cc7ISxIOyErOuqqOyatOuPmeydtOyDgeymnSAoUHJpbWFyeSBDaWxpYXJ5IER5c2tpbmVzaWEpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JyM66as7JeE7IqkIOymne2bhOq1sCAoV2lsbGlhbXMgU3luZHJvbWUpLm1k",
+    "title": "윌리엄스 증후군 (Williams Syndrome)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "윌리엄스 증후군 (Williams Syndrome)",
+      "[Williams syndrome, 7q11.23 deletion]",
+      "[성장발달, 심잡음]"
+    ],
+    "keywords": [
+      "[소아과 총론, 유전질환]",
+      "[성장발달, 심잡음]",
+      "본문"
+    ],
+    "quickSummary": "# 윌리엄스 증후군 (Williams Syndrome)",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JyM66as7JeE7IqkIOymne2bhOq1sCAoV2lsbGlhbXMgU3luZHJvbWUpLm1k"
   },
   {
     "type": "disease",
@@ -24365,6 +25484,24 @@
     ],
     "quickSummary": "성장 및 사춘기 발달이 또래보다 늦지만, 최종 성인 키는 정상 범위에 속하는 양성 질환",
     "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7LK07KeI7ISxIOyEseyepSDrsI8g7IKs7LaY6riwIOyngOyXsCAoQ29uc3RpdHV0aW9uYWwgRGVsYXkgb2YgR3Jvd3RoIGFuZCBBZG9sZXNjZW5jZSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Leo7JW9IFgg7Kad7ZuE6rWwIChGcmFnaWxlIFggU3luZHJvbWUpLm1k",
+    "title": "취약 X 증후군 (Fragile X Syndrome)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "취약 X 증후군 (Fragile X Syndrome)",
+      "[Fragile X syndrome, FMR1, CGG repeat expansion]",
+      "[성장발달]"
+    ],
+    "keywords": [
+      "[소아과 총론, 유전질환]",
+      "[성장발달]",
+      "본문"
+    ],
+    "quickSummary": "# 취약 X 증후군 (Fragile X Syndrome)",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Leo7JW9IFgg7Kad7ZuE6rWwIChGcmFnaWxlIFggU3luZHJvbWUpLm1k"
   },
   {
     "type": "disease",
@@ -24474,6 +25611,24 @@
   },
   {
     "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YyM7YOA7JqwIOymne2bhOq1sCAoUGF0YXUgU3luZHJvbWUpLm1k",
+    "title": "파타우 증후군 (Patau Syndrome)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "파타우 증후군 (Patau Syndrome)",
+      "[Patau syndrome, trisomy 13]",
+      "[성장발달]"
+    ],
+    "keywords": [
+      "[소아과 총론, 유전질환]",
+      "[성장발달]",
+      "본문"
+    ],
+    "quickSummary": "# 파타우 증후군 (Patau Syndrome)",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YyM7YOA7JqwIOymne2bhOq1sCAoUGF0YXUgU3luZHJvbWUpLm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Y6Y64uQ7LyA7Yak64eo7KadIChQaGVueWxrZXRvbnVyaWEpLm1k",
     "title": "페닐케톤뇨증 (Phenylketonuria)",
     "category": "14 소아청소년과",
@@ -24522,6 +25677,24 @@
     ],
     "quickSummary": "15번 염색체(15q11.2-q13)의 부계 유래 유전자 발현 소실로 발생하는 복합 유전 질환",
     "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ZSE6528642ULeycjOumrCDspp3tm4TqtbAgKFByYWRlci1XaWxsaSBTeW5kcm9tZSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ZeQ65-sIOymne2bhOq1sCAoSHVybGVyIFN5bmRyb21lKS5tZA",
+    "title": "헐러 증후군 (Hurler Syndrome)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "헐러 증후군 (Hurler Syndrome)",
+      "[Hurler syndrome, mucopolysaccharidosis type I, MPS I]",
+      "[성장발달]"
+    ],
+    "keywords": [
+      "[소아과 총론, 유전질환]",
+      "[성장발달]",
+      "본문"
+    ],
+    "quickSummary": "# 헐러 증후군 (Hurler Syndrome)",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ZeQ65-sIOymne2bhOq1sCAoSHVybGVyIFN5bmRyb21lKS5tZA"
   },
   {
     "type": "disease",
@@ -24578,6 +25751,78 @@
   },
   {
     "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvSGFydG51cOuzkSAoSGFydG51cCBEaXNlYXNlKS5tZA",
+    "title": "Hartnup병 (Hartnup Disease)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "Hartnup병 (Hartnup Disease)",
+      "[Hartnup disease, SLC6A19 deficiency]",
+      "[피부발진, 운동실조]"
+    ],
+    "keywords": [
+      "[소아과 총론, 유전질환]",
+      "[피부발진, 운동실조]",
+      "본문"
+    ],
+    "quickSummary": "# Hartnup병 (Hartnup Disease)",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvSGFydG51cOuzkSAoSGFydG51cCBEaXNlYXNlKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvTGVzY2gtTnloYW4g7Kad7ZuE6rWwLm1k",
+    "title": "Lesch-Nyhan 증후군",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "Lesch-Nyhan 증후군",
+      "[Lesch-Nyhan syndrome, HPRT deficiency]",
+      "[발달지연]"
+    ],
+    "keywords": [
+      "[소아과 총론, 유전질환]",
+      "[발달지연]",
+      "본문"
+    ],
+    "quickSummary": "# Lesch-Nyhan 증후군",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvTGVzY2gtTnloYW4g7Kad7ZuE6rWwLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvUG9tcGXrs5EgKFBvbXBlIERpc2Vhc2UpLm1k",
+    "title": "Pompe병 (Pompe Disease)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "Pompe병 (Pompe Disease)",
+      "[Pompe disease, acid maltase deficiency, glycogen storage disease type II]",
+      "[근력저하, 호흡곤란]"
+    ],
+    "keywords": [
+      "[소아과 총론, 유전질환]",
+      "[근력저하, 호흡곤란]",
+      "본문"
+    ],
+    "quickSummary": "# Pompe병 (Pompe Disease)",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvUG9tcGXrs5EgKFBvbXBlIERpc2Vhc2UpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvVGF5LVNhY2hz67ORIChUYXktU2FjaHMgRGlzZWFzZSkubWQ",
+    "title": "Tay-Sachs병 (Tay-Sachs Disease)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "Tay-Sachs병 (Tay-Sachs Disease)",
+      "[Tay-Sachs disease, hexosaminidase A deficiency]",
+      "[발달지연, 경련 (소아)]"
+    ],
+    "keywords": [
+      "[소아과 총론, 유전질환]",
+      "[발달지연, 경련 (소아)]",
+      "본문"
+    ],
+    "quickSummary": "# Tay-Sachs병 (Tay-Sachs Disease)",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvVGF5LVNhY2hz67ORIChUYXktU2FjaHMgRGlzZWFzZSkubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOyyreyGjOuFhOqzvC5tZA",
     "title": "소아청소년과",
     "category": "14 소아청소년과",
@@ -24591,6 +25836,22 @@
     ],
     "quickSummary": "• [[소아과 총론]]",
     "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOyyreyGjOuFhOqzvC5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yLoOyDneyVhCDquIjri6gg7Kad7ZuE6rWwIChOZW9uYXRhbCBBYnN0aW5lbmNlIFN5bmRyb21lKS5tZA",
+    "title": "신생아 금단 증후군 (Neonatal Abstinence Syndrome)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "신생아 금단 증후군 (Neonatal Abstinence Syndrome)",
+      "neonatal abstinence syndrome",
+      "neonatal withdrawal syndrome"
+    ],
+    "keywords": [
+      "핵심"
+    ],
+    "quickSummary": "• 자궁 내 약물 노출 뒤 떨림, 과민성, 수유 곤란, 자율신경 증상을 보일 수 있습니다.",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yLoOyDneyVhCDquIjri6gg7Kad7ZuE6rWwIChOZW9uYXRhbCBBYnN0aW5lbmNlIFN5bmRyb21lKS5tZA"
   },
   {
     "type": "disease",
@@ -25548,6 +26809,32 @@
     ],
     "quickSummary": "성욕 및 성적 흥분의 결여 또는 감소가 지속되며, 이로 인해 개인적 고통이나 대인관계의 어려움을 겪는 상태(DSM-5 기준 FSIAD).",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yEseyaleyepeyVoCAoU2V4dWFsIERlc2lyZSBEaXNvcmRlcikubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yEuOuhnO2GoOuLjCDspp3tm4TqtbAgKFNlcm90b25pbiBTeW5kcm9tZSkubWQ",
+    "title": "세로토닌 증후군 (Serotonin Syndrome)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "세로토닌 증후군 (Serotonin Syndrome)",
+      "serotonin syndrome",
+      "세로토닌 증후군",
+      "발열",
+      "의식저하",
+      "이상 운동"
+    ],
+    "keywords": [
+      "정신과 총론",
+      "정신과적 치료",
+      "발열",
+      "의식저하",
+      "이상 운동",
+      "개요",
+      "임상 단서",
+      "즉시 할 일"
+    ],
+    "quickSummary": "• 세로토닌성 약물의 과량 또는 상호작용으로 생기는 잠재적으로 치명적인 독성 증후군이다.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yEuOuhnO2GoOuLjCDspp3tm4TqtbAgKFNlcm90b25pbiBTeW5kcm9tZSkubWQ"
   },
   {
     "type": "disease",
@@ -27938,6 +29225,31 @@
   },
   {
     "type": "disease",
+    "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rp4jrr7jspp3tm4TqtbAgKENhdWRhIEVxdWluYSBTeW5kcm9tZSkubWQ",
+    "title": "마미증후군 (Cauda Equina Syndrome)",
+    "category": "16 신경과-신경외과",
+    "aliases": [
+      "마미증후군 (Cauda Equina Syndrome)",
+      "마미증후군",
+      "cauda equina syndrome",
+      "요통",
+      "감각이상",
+      "배뇨장애"
+    ],
+    "keywords": [
+      "척수질환",
+      "요통",
+      "감각이상",
+      "배뇨장애",
+      "개요",
+      "즉시 확인할 소견",
+      "즉시 할 일"
+    ],
+    "quickSummary": "• 요천추 신경근 다발 압박으로 발생하는 신경외과적 응급 상태다.",
+    "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rp4jrr7jspp3tm4TqtbAgKENhdWRhIEVxdWluYSBTeW5kcm9tZSkubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rp4zshLEg6rK966eJ7ZWYIOy2nO2YiCAoQ2hyb25pYyBzdWJkdXJhbCBoZW1hdG9tYSkubWQ",
     "title": "만성 경막하 출혈 (Chronic subdural hematoma)",
     "category": "16 신경과-신경외과",
@@ -28057,6 +29369,29 @@
     ],
     "quickSummary": "삼차신경(CN V)의 지배 영역에서 발생하는 일측성, 돌발성, 전기 충격 같은 통증.",
     "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sgrzssKjsi6Dqsr3thrUgKFRyaWdlbWluYWwgbmV1cmFsZ2lhKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sg6TrpbTsvZQt66eI66asLe2IrOyKpOuzkSAoQ2hhcmNvdC1NYXJpZS1Ub290aCBEaXNlYXNlKS5tZA",
+    "title": "샤르코-마리-투스병 (Charcot-Marie-Tooth Disease)",
+    "category": "16 신경과-신경외과",
+    "aliases": [
+      "샤르코-마리-투스병 (Charcot-Marie-Tooth Disease)",
+      "Charcot-Marie-Tooth disease",
+      "CMT disease",
+      "근력저하",
+      "감각이상"
+    ],
+    "keywords": [
+      "신경근육질환",
+      "근력저하",
+      "감각이상",
+      "개요",
+      "임상 단서",
+      "진단과 관리"
+    ],
+    "quickSummary": "• 신경전도검사와 유전자검사로 유형을 확인하고, 보조기·물리치료·유전상담으로 기능을 유지한다.",
+    "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sg6TrpbTsvZQt66eI66asLe2IrOyKpOuzkSAoQ2hhcmNvdC1NYXJpZS1Ub290aCBEaXNlYXNlKS5tZA"
   },
   {
     "type": "disease",
@@ -28501,6 +29836,53 @@
   },
   {
     "type": "disease",
+    "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tgazroZzsnbTsuKDtjqDtirgt7JW87L2U7ZSE67ORIChDcmV1dHpmZWxkdC1KYWtvYiBEaXNlYXNlKS5tZA",
+    "title": "크로이츠펠트-야코프병 (Creutzfeldt-Jakob Disease)",
+    "category": "16 신경과-신경외과",
+    "aliases": [
+      "크로이츠펠트-야코프병 (Creutzfeldt-Jakob Disease)",
+      "Creutzfeldt-Jakob disease",
+      "CJD",
+      "인지저하",
+      "이상 운동"
+    ],
+    "keywords": [
+      "신경퇴행질환",
+      "인지저하",
+      "이상 운동",
+      "개요",
+      "임상 단서",
+      "평가"
+    ],
+    "quickSummary": "• 프리온 질환으로, 수개월 내 빠르게 진행하는 치매와 신경학적 기능저하를 일으킨다.",
+    "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tgazroZzsnbTsuKDtjqDtirgt7JW87L2U7ZSE67ORIChDcmV1dHpmZWxkdC1KYWtvYiBEaXNlYXNlKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tirnrsJzshLEg65GQ6rCc64K0IOqzoO2YiOyVlSAoSWRpb3BhdGhpYyBJbnRyYWNyYW5pYWwgSHlwZXJ0ZW5zaW9uKS5tZA",
+    "title": "특발성 두개내 고혈압 (Idiopathic Intracranial Hypertension)",
+    "category": "16 신경과-신경외과",
+    "aliases": [
+      "특발성 두개내 고혈압 (Idiopathic Intracranial Hypertension)",
+      "idiopathic intracranial hypertension",
+      "IIH",
+      "특발성 두개내 고혈압",
+      "두통",
+      "시야 이상"
+    ],
+    "keywords": [
+      "IICP",
+      "두통",
+      "시야 이상",
+      "개요",
+      "임상 단서",
+      "평가와 관리"
+    ],
+    "quickSummary": "• 구조적 병변 없이 두개내압이 상승하는 질환으로, 시력 손상이 가장 중요한 합병증이다.",
+    "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tirnrsJzshLEg65GQ6rCc64K0IOqzoO2YiOyVlSAoSWRpb3BhdGhpYyBJbnRyYWNyYW5pYWwgSHlwZXJ0ZW5zaW9uKS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjIztgqjsiqgg7Kad7ZuE6rWwIChQYXJraW5zb25pc20pLm1k",
     "title": "파킨슨 증후군 (Parkinsonism)",
     "category": "16 신경과-신경외과",
@@ -28681,6 +30063,22 @@
     ],
     "quickSummary": "중추신경계(CNS)에 발생하는 WHO grade 1의 드문 양성 고혈관성 종양.",
     "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tmIjqtIDrqqjshLjtj6zsooUgKEhlbWFuZ2lvYmxhc3RvbWEpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tmLjrpbTrhIgg7Kad7ZuE6rWwIChIb3JuZXIgU3luZHJvbWUpLm1k",
+    "title": "호르너 증후군 (Horner Syndrome)",
+    "category": "16 신경과-신경외과",
+    "aliases": [
+      "호르너 증후군 (Horner Syndrome)",
+      "Horner syndrome",
+      "ptosis miosis anhidrosis"
+    ],
+    "keywords": [
+      "핵심"
+    ],
+    "quickSummary": "• 안검하수, 축동, 무한증의 조합은 교감신경 경로 병변을 시사합니다.",
+    "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tmLjrpbTrhIgg7Kad7ZuE6rWwIChIb3JuZXIgU3luZHJvbWUpLm1k"
   },
   {
     "type": "disease",
@@ -28877,6 +30275,21 @@
     ],
     "quickSummary": "부비동 점막의 염증성 질환으로, 증상 지속 기간에 따라 급성(4주 미만)으로 분류함.",
     "href": "/disease/MTcg7J2067mE7J247ZuE6rO8L-q4ieyEsSDrtoDruYTrj5nsl7wgKEFjdXRlIHNpbnVzaXRpcykubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MTcg7J2067mE7J247ZuE6rO8L-q4ieyEsSDsnKDslpHrj4zquLDsl7wgKEFjdXRlIE1hc3RvaWRpdGlzKS5tZA",
+    "title": "급성 유양돌기염 (Acute Mastoiditis)",
+    "category": "17 이비인후과",
+    "aliases": [
+      "급성 유양돌기염 (Acute Mastoiditis)",
+      "acute mastoiditis"
+    ],
+    "keywords": [
+      "핵심"
+    ],
+    "quickSummary": "• 급성 중이염의 화농성 합병증으로, 귀 뒤 통증·발적·부종과 귓바퀴 돌출이 단서가 됩니다.",
+    "href": "/disease/MTcg7J2067mE7J247ZuE6rO8L-q4ieyEsSDsnKDslpHrj4zquLDsl7wgKEFjdXRlIE1hc3RvaWRpdGlzKS5tZA"
   },
   {
     "type": "disease",
@@ -30295,6 +31708,29 @@
     ],
     "quickSummary": "• [[겉다래끼 (external hordeolum)]]",
     "href": "/disease/MTgg7JWI6rO8L-yViOqzvC5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTgg7JWI6rO8L-yViOq1rCDsmbjsg4EubWQ",
+    "title": "안구 외상",
+    "category": "18 안과",
+    "aliases": [
+      "안구 외상",
+      "Eye Trauma",
+      "Ocular Trauma",
+      "안구통증",
+      "시력저하",
+      "눈충혈"
+    ],
+    "keywords": [
+      "외상",
+      "안구통증",
+      "시력저하",
+      "눈충혈",
+      "포함 범위"
+    ],
+    "quickSummary": "• 각막 손상, 개방성 안구 손상, 외상성 전방출혈",
+    "href": "/disease/MTgg7JWI6rO8L-yViOq1rCDsmbjsg4EubWQ"
   },
   {
     "type": "disease",
@@ -31727,6 +33163,22 @@
   },
   {
     "type": "disease",
+    "slug": "MjAg67mE64eo6riw6rO8L-uwnOq4sOu2gOyghCAoRXJlY3RpbGUgRHlzZnVuY3Rpb24pLm1k",
+    "title": "발기부전 (Erectile Dysfunction)",
+    "category": "20 비뇨기과",
+    "aliases": [
+      "발기부전 (Erectile Dysfunction)",
+      "erectile dysfunction",
+      "vascular erectile dysfunction"
+    ],
+    "keywords": [
+      "핵심"
+    ],
+    "quickSummary": "• 혈관·신경·내분비·약물·정신사회적 요인을 함께 평가합니다.",
+    "href": "/disease/MjAg67mE64eo6riw6rO8L-uwnOq4sOu2gOyghCAoRXJlY3RpbGUgRHlzZnVuY3Rpb24pLm1k"
+  },
+  {
+    "type": "disease",
     "slug": "MjAg67mE64eo6riw6rO8L-uwqeq0kSDtjIzsl7QgKEJsYWRkZXIgcnVwdHVyZSkubWQ",
     "title": "방광 파열 (Bladder rupture)",
     "category": "20 비뇨기과",
@@ -32280,6 +33732,23 @@
   },
   {
     "type": "disease",
+    "slug": "MjAg67mE64eo6riw6rO8L-y2nO2YiOyEsSDrsKnqtJHsl7wgKEhlbW9ycmhhZ2ljIEN5c3RpdGlzKS5tZA",
+    "title": "출혈성 방광염 (Hemorrhagic Cystitis)",
+    "category": "20 비뇨기과",
+    "aliases": [
+      "출혈성 방광염 (Hemorrhagic Cystitis)",
+      "hemorrhagic cystitis",
+      "cyclophosphamide hemorrhagic cystitis"
+    ],
+    "keywords": [
+      "핵심",
+      "접근"
+    ],
+    "quickSummary": "• 혈뇨와 배뇨통을 일으키는 방광 점막 염증으로, 항암제·골반 방사선·감염을 원인으로 구분합니다.",
+    "href": "/disease/MjAg67mE64eo6riw6rO8L-y2nO2YiOyEsSDrsKnqtJHsl7wgKEhlbW9ycmhhZ2ljIEN5c3RpdGlzKS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MjAg67mE64eo6riw6rO8L-y9qe2MpeyVlCAoUmVuYWwgQ2VsbCBDYXJjaW5vbWEpLm1k",
     "title": "콩팥암 (Renal Cell Carcinoma)",
     "category": "20 비뇨기과",
@@ -32395,6 +33864,184 @@
   },
   {
     "type": "disease",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-uPheyEsSDslYzsvZTsmKwubWQ",
+    "title": "독성 알코올",
+    "category": "21 응급의학",
+    "aliases": [
+      "독성 알코올",
+      "toxic alcohol poisoning",
+      "의식저하",
+      "구토"
+    ],
+    "keywords": [
+      "중독",
+      "독성 알코올",
+      "의식저하",
+      "구토",
+      "포함 질환"
+    ],
+    "quickSummary": "• [[에틸렌글리콜 중독 (Ethylene Glycol Poisoning)]]",
+    "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-uPheyEsSDslYzsvZTsmKwubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-umrO2KrCDspJHrj4UgKExpdGhpdW0gUG9pc29uaW5nKS5tZA",
+    "title": "리튬 중독 (Lithium Poisoning)",
+    "category": "21 응급의학",
+    "aliases": [
+      "리튬 중독 (Lithium Poisoning)",
+      "Lithium toxicity",
+      "Lithium poisoning",
+      "리튬독성",
+      "의식저하",
+      "떨림",
+      "운동실조",
+      "구토"
+    ],
+    "keywords": [
+      "중독",
+      "약물 및 화학물질 중독",
+      "의식저하",
+      "떨림",
+      "운동실조",
+      "구토",
+      "핵심",
+      "임상 양상과 평가",
+      "치료",
+      "관련 문서"
+    ],
+    "quickSummary": "• 혈중 리튬, 전해질·신기능, 심전도와 신경학적 상태를 반복 평가한다. 초기 농도 하나만으로 중증도를 단정하지 않는다.",
+    "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-umrO2KrCDspJHrj4UgKExpdGhpdW0gUG9pc29uaW5nKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-uypOyhsOuUlOyVhOygnO2VgCDspJHrj4UgKEJlbnpvZGlhemVwaW5lIFBvaXNvbmluZykubWQ",
+    "title": "벤조디아제핀 중독 (Benzodiazepine Poisoning)",
+    "category": "21 응급의학",
+    "aliases": [
+      "벤조디아제핀 중독 (Benzodiazepine Poisoning)",
+      "Benzodiazepine poisoning",
+      "Benzodiazepine overdose",
+      "Benzodiazepine toxicity",
+      "벤조디아제핀 과량복용",
+      "의식저하",
+      "호흡억제",
+      "저혈압"
+    ],
+    "keywords": [
+      "중독",
+      "약물 및 화학물질 중독",
+      "의식저하",
+      "호흡억제",
+      "저혈압",
+      "핵심",
+      "초기 처치",
+      "관련 문서"
+    ],
+    "quickSummary": "• 단독 중독은 대개 졸림·운동실조가 주된 양상이지만, 알코올·아편유사제 등 동시 노출에서는 호흡억제와 저혈압이 심해질 수 있다.",
+    "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-uypOyhsOuUlOyVhOygnO2VgCDspJHrj4UgKEJlbnpvZGlhemVwaW5lIFBvaXNvbmluZykubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-uztO2ItOumrOuIlCDspJHrj4UgKEJvdHVsaXNtKS5tZA",
+    "title": "보툴리눔 중독 (Botulism)",
+    "category": "21 응급의학",
+    "aliases": [
+      "보툴리눔 중독 (Botulism)",
+      "botulism",
+      "foodborne botulism",
+      "foodborne botulism poisoning",
+      "식품매개 보툴리눔 중독",
+      "식품매개 보툴리눔중독",
+      "보툴리눔 중독",
+      "복시",
+      "근력저하",
+      "호흡곤란"
+    ],
+    "keywords": [
+      "중독",
+      "생물 독소",
+      "복시",
+      "근력저하",
+      "호흡곤란",
+      "개요",
+      "임상 단서",
+      "즉시 할 일"
+    ],
+    "quickSummary": "• 보툴리눔 독소로 인한 신경독성 응급질환으로, 식품 매개·상처·영아형 등으로 발생한다.",
+    "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-uztO2ItOumrOuIlCDspJHrj4UgKEJvdHVsaXNtKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yCtOumrOyLpOyCsCDspJHrj4UgKFNhbGljeWxhdGUgUG9pc29uaW5nKS5tZA",
+    "title": "살리실산 중독 (Salicylate Poisoning)",
+    "category": "21 응급의학",
+    "aliases": [
+      "살리실산 중독 (Salicylate Poisoning)",
+      "salicylate toxicity",
+      "aspirin overdose",
+      "의식저하",
+      "구토",
+      "이명"
+    ],
+    "keywords": [
+      "중독",
+      "약물 및 화학물질 중독",
+      "의식저하",
+      "구토",
+      "이명",
+      "본문"
+    ],
+    "quickSummary": "# 살리실산 중독 (Salicylate Poisoning)",
+    "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yCtOumrOyLpOyCsCDspJHrj4UgKFNhbGljeWxhdGUgUG9pc29uaW5nKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yCvO2ZmOqzhCDtla3smrDsmrjsoJwg7KSR64-FIChUcmljeWNsaWMgQW50aWRlcHJlc3NhbnQgUG9pc29uaW5nKS5tZA",
+    "title": "삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning)",
+    "category": "21 응급의학",
+    "aliases": [
+      "삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning)",
+      "tricyclic antidepressant overdose",
+      "TCA overdose",
+      "의식저하",
+      "경련 (성인)",
+      "두근거림"
+    ],
+    "keywords": [
+      "중독",
+      "약물 및 화학물질 중독",
+      "의식저하",
+      "경련 (성인)",
+      "두근거림",
+      "본문"
+    ],
+    "quickSummary": "# 삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning)",
+    "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yCvO2ZmOqzhCDtla3smrDsmrjsoJwg7KSR64-FIChUcmljeWNsaWMgQW50aWRlcHJlc3NhbnQgUG9pc29uaW5nKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yDneusvCDrj4XshowubWQ",
+    "title": "생물 독소",
+    "category": "21 응급의학",
+    "aliases": [
+      "생물 독소",
+      "biologic toxin",
+      "근력저하",
+      "호흡곤란"
+    ],
+    "keywords": [
+      "중독",
+      "생물 독소",
+      "근력저하",
+      "호흡곤란",
+      "포함 질환"
+    ],
+    "quickSummary": "• [[보툴리눔 중독 (Botulism)]]",
+    "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yDneusvCDrj4XshowubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k",
     "title": "쇼크 (Shock)",
     "category": "21 응급의학",
@@ -32420,6 +34067,100 @@
     ],
     "quickSummary": "• 빈맥, 저혈압, 좁은 맥압, 차고 축축한 피부, 모세혈관 재충만 지연, mottling, 의식 변화, 핍뇨와 lactate 상승이 흔하다. 분포성 쇼크 초기에는 피부가 따뜻하고 맥압이 넓을 수 있다.",
     "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yVhOyEuO2KuOyVhOuvuOuFuO2OnCDspJHrj4UgKEFjZXRhbWlub3BoZW4gUG9pc29uaW5nKS5tZA",
+    "title": "아세트아미노펜 중독 (Acetaminophen Poisoning)",
+    "category": "21 응급의학",
+    "aliases": [
+      "아세트아미노펜 중독 (Acetaminophen Poisoning)",
+      "acetaminophen toxicity",
+      "acetaminophen overdose",
+      "paracetamol overdose",
+      "복통",
+      "구토"
+    ],
+    "keywords": [
+      "중독",
+      "약물 및 화학물질 중독",
+      "복통",
+      "구토",
+      "본문"
+    ],
+    "quickSummary": "# 아세트아미노펜 중독 (Acetaminophen Poisoning)",
+    "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yVhOyEuO2KuOyVhOuvuOuFuO2OnCDspJHrj4UgKEFjZXRhbWlub3BoZW4gUG9pc29uaW5nKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yVhO2OuOycoOyCrOygnCDspJHrj4UgKE9waW9pZCBQb2lzb25pbmcpLm1k",
+    "title": "아편유사제 중독 (Opioid Poisoning)",
+    "category": "21 응급의학",
+    "aliases": [
+      "아편유사제 중독 (Opioid Poisoning)",
+      "opioid overdose",
+      "opioid intoxication",
+      "opioid poisoning",
+      "의식저하",
+      "호흡곤란"
+    ],
+    "keywords": [
+      "중독",
+      "약물 및 화학물질 중독",
+      "의식저하",
+      "호흡곤란",
+      "본문"
+    ],
+    "quickSummary": "# 아편유사제 중독 (Opioid Poisoning)",
+    "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yVhO2OuOycoOyCrOygnCDspJHrj4UgKE9waW9pZCBQb2lzb25pbmcpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yVveusvCDrsI8g7ZmU7ZWZ66y87KeIIOykkeuPhS5tZA",
+    "title": "약물 및 화학물질 중독",
+    "category": "21 응급의학",
+    "aliases": [
+      "약물 및 화학물질 중독",
+      "medication poisoning",
+      "drug overdose",
+      "의식저하",
+      "경련 (성인)",
+      "호흡곤란"
+    ],
+    "keywords": [
+      "중독",
+      "약물 및 화학물질 중독",
+      "의식저하",
+      "경련 (성인)",
+      "호흡곤란",
+      "포함 질환"
+    ],
+    "quickSummary": "• [[아세트아미노펜 중독 (Acetaminophen Poisoning)]]",
+    "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yVveusvCDrsI8g7ZmU7ZWZ66y87KeIIOykkeuPhS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-yXkO2LuOugjOq4gOumrOy9nCDspJHrj4UgKEV0aHlsZW5lIEdseWNvbCBQb2lzb25pbmcpLm1k",
+    "title": "에틸렌글리콜 중독 (Ethylene Glycol Poisoning)",
+    "category": "21 응급의학",
+    "aliases": [
+      "에틸렌글리콜 중독 (Ethylene Glycol Poisoning)",
+      "에틸렌글리콜 중독",
+      "ethylene glycol poisoning",
+      "의식저하",
+      "구토"
+    ],
+    "keywords": [
+      "중독",
+      "독성 알코올",
+      "의식저하",
+      "구토",
+      "개요",
+      "임상 단서",
+      "즉시 할 일"
+    ],
+    "quickSummary": "• 부동액 성분 섭취 뒤 독성 대사산물이 축적되어 고음이온차 대사성 산증과 급성 신손상을 일으킨다.",
+    "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yXkO2LuOugjOq4gOumrOy9nCDspJHrj4UgKEV0aHlsZW5lIEdseWNvbCBQb2lzb25pbmcpLm1k"
   },
   {
     "type": "disease",
@@ -32449,6 +34190,28 @@
     ],
     "quickSummary": "• 저혈압, DIC, 간·신손상, rhabdomyolysis, 저혈당, 폐부종과 심실부정맥은 중증 소견이다.",
     "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yXtOyniO2ZmCAoSGVhdCBJbGxuZXNzKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-ycoOq4sOyduOqzhCDspJHrj4UgKE9yZ2Fub3Bob3NwaGF0ZSBQb2lzb25pbmcpLm1k",
+    "title": "유기인계 중독 (Organophosphate Poisoning)",
+    "category": "21 응급의학",
+    "aliases": [
+      "유기인계 중독 (Organophosphate Poisoning)",
+      "organophosphate poisoning",
+      "cholinergic poisoning",
+      "호흡곤란",
+      "의식저하"
+    ],
+    "keywords": [
+      "중독",
+      "약물 및 화학물질 중독",
+      "호흡곤란",
+      "의식저하",
+      "본문"
+    ],
+    "quickSummary": "# 유기인계 중독 (Organophosphate Poisoning)",
+    "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-ycoOq4sOyduOqzhCDspJHrj4UgKE9yZ2Fub3Bob3NwaGF0ZSBQb2lzb25pbmcpLm1k"
   },
   {
     "type": "disease",
@@ -32508,8 +34271,8 @@
       "가슴통증"
     ],
     "keywords": [
-      "환경응급",
-      "일산화탄소 중독",
+      "중독",
+      "흡입성 중독",
       "두통",
       "어지럼증",
       "의식장애",
@@ -32576,6 +34339,29 @@
     ],
     "quickSummary": "• 동상은 초기 무감각, 창백·밀랍색 피부와 단단한 조직으로 나타나며 해동 후 통증, 부종, 수포와 청색증이 진행한다.",
     "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-2VnOuereyGkOyDgSAoQ29sZCBJbmp1cnkpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MjEg7J2R6riJ7J2Y7ZWZL-2doeyeheyEsSDspJHrj4UubWQ",
+    "title": "흡입성 중독",
+    "category": "21 응급의학",
+    "aliases": [
+      "흡입성 중독",
+      "inhalational poisoning",
+      "두통",
+      "의식저하",
+      "호흡곤란"
+    ],
+    "keywords": [
+      "중독",
+      "흡입성 중독",
+      "두통",
+      "의식저하",
+      "호흡곤란",
+      "포함 질환"
+    ],
+    "quickSummary": "• [[일산화탄소 중독 (Carbon Monoxide Poisoning)]]",
+    "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-2doeyeheyEsSDspJHrj4UubWQ"
   },
   {
     "type": "disease",
@@ -32773,6 +34559,27 @@
     ],
     "quickSummary": "손목의 제1 신전 구획(first dorsal compartment) 내에서 장무지외전근(APL)과 단무지신근(EPB) 건이 섬유골성 터널을 통과할 때 발생하는 협착성 건초염.",
     "href": "/disease/MjIg7KCV7ZiV7Jm46rO8L-uTnO2AmOultOuytSDrs5EgKERlIFF1ZXJ2YWluJ3MgVGVub3N5bm92aXRpcykubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MjIg7KCV7ZiV7Jm46rO8L-unkOy0iOyLoOqyvSDshpDsg4EubWQ",
+    "title": "말초신경 손상",
+    "category": "22 정형외과",
+    "aliases": [
+      "말초신경 손상",
+      "Peripheral Nerve Injury",
+      "근력저하",
+      "감각이상"
+    ],
+    "keywords": [
+      "General",
+      "말초신경 손상",
+      "근력저하",
+      "감각이상",
+      "포함 범위"
+    ],
+    "quickSummary": "• 액와·비골·대퇴·상둔신경 손상",
+    "href": "/disease/MjIg7KCV7ZiV7Jm46rO8L-unkOy0iOyLoOqyvSDshpDsg4EubWQ"
   },
   {
     "type": "disease",

@@ -14,7 +14,8 @@ related_diseases:
   - "13번 삼염색체증"
   - "다지증"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

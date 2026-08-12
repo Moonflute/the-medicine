@@ -15,7 +15,8 @@ related_diseases:
   - "perinatal transmission"
   - "meningeal irritation"
 question_type: mechanism
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug7IOd7JWEIOuHjOyImOunieyXvCAoTmVvbmF0YWwgTWVuaW5naXRpcykubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

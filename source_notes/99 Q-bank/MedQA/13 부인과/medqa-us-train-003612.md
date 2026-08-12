@@ -15,7 +15,8 @@ related_diseases:
   - "skiing injury risk"
   - "pregnancy counseling"
 question_type: prevention
-related_disease_slugs: []
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yghOuwqSDsi63snpAg7J2464yAIOyGkOyDgSAoQW50ZXJpb3IgQ3J1Y2lhdGUgTGlnYW1lbnQgSW5qdXJ5KS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

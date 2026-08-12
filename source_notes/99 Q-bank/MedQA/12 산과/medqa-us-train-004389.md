@@ -14,7 +14,8 @@ related_diseases:
   - "18번 삼염색체증"
   - "산전 사중 선별검사"
 question_type: investigation
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JeQ65Oc7JuM65OcIOymne2bhOq1sCAoRWR3YXJkcyBTeW5kcm9tZSkubWQ
 difficulty: simple
 answer: A
 translation_status: machine-verified

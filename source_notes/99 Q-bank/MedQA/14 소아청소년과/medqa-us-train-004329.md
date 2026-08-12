@@ -14,7 +14,9 @@ related_diseases:
   - "15번 염색체 부계 단친 이염색체"
   - "발달지연"
 question_type: 임상증례 객관식
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Y6Y64uQ7LyA7Yak64eo7KadIChQaGVueWxrZXRvbnVyaWEpLm1k
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

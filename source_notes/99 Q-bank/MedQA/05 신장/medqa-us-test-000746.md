@@ -15,6 +15,7 @@ related_diseases:
   - "낙상 예방"
 related_disease_slugs:
   - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: prevention
 difficulty: complex
 answer: A

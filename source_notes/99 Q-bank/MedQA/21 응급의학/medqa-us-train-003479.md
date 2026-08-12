@@ -15,7 +15,8 @@ related_diseases:
   - "thoracic injury"
   - "endotracheal intubation"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2dieu2gCDsmbjsg4EubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,7 +14,8 @@ related_diseases:
   - "피부 블라스토미세스증"
   - "광범위 출아 효모"
   - "Blastomycosis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-ynhOq3oC5tZA
 question_type: diagnosis
 difficulty: standard
 answer: A

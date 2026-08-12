@@ -13,7 +13,8 @@ related_diseases:
   - "발덴스트룀 거대글로불린혈증"
   - "IgM 단클론감마병증"
   - "고점도 증후군"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qzoOygkOuPhCDspp3tm4TqtbAgKEh5cGVydmlzY29zaXR5IFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: C

@@ -14,7 +14,8 @@ related_diseases:
   - "관통성 흉부손상"
   - "응급 심낭천자"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2dieu2gCDsmbjsg4EubWQ
 difficulty: simple
 answer: D
 translation_status: machine-verified

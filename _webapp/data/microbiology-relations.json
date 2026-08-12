@@ -8760,6 +8760,23 @@
     {
       "sourceType": "microorganism",
       "sourceId": "human-immunodeficiency-virus-1",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-q4ieyEsSBISVYg6rCQ7Je8IChBY3V0ZSBISVYgSW5mZWN0aW9uKS5tZA",
+      "context": [
+        "curated-title-match"
+      ],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "nih-hiv-guidelines"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "human-immunodeficiency-virus-1",
       "relation": "treated_with",
       "targetType": "drug",
       "targetId": "ZHJ1ZzowNCDqsITri7Tst4wvTGFtaXZ1ZGluZS5tZA",
@@ -8954,6 +8971,22 @@
       "relation": "associated_with",
       "targetType": "disease",
       "targetId": "MDgg6rCQ7Je8L-yalOy2qeymnSAoRW50ZXJvYmlhc2lzKS5tZA",
+      "context": [
+        "curated-title-match"
+      ],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "clinicalGroup",
+      "sourceId": "intestinal-helminths",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-yalOy2qSDqsJDsl7wgKEVudGVyb2JpYXNpcykubWQ",
       "context": [
         "curated-title-match"
       ],
@@ -13098,6 +13131,24 @@
       "sourceId": "norovirus",
       "relation": "associated_with",
       "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-uFuOuhnOuwlOydtOufrOyKpCDqsJDsl7wgKE5vcm92aXJ1cyBJbmZlY3Rpb24pLm1k",
+      "context": [
+        "curated-title-match"
+      ],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-foodborne",
+        "cdc-infection-control"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "norovirus",
+      "relation": "associated_with",
+      "targetType": "disease",
       "targetId": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shKTsgqwgKERpYXJyaGVhKS5tZA",
       "context": [
         "acute gastroenteritis syndrome",
@@ -14735,6 +14786,23 @@
       "sourceIds": [
         "ictv-taxonomy",
         "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "microorganism",
+      "sourceId": "respiratory-syncytial-virus",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-2YuO2doeq4sOyEuO2PrOycte2VqeuwlOydtOufrOyKpCDqsJDsl7wgKFJlc3BpcmF0b3J5IFN5bmN5dGlhbCBWaXJ1cyBJbmZlY3Rpb24pLm1k",
+      "context": [
+        "curated-title-match"
+      ],
+      "sourceIds": [
+        "ictv-taxonomy",
+        "idsa-asm-lab-2024",
+        "cdc-respiratory-viruses"
       ],
       "reviewStatus": "source_checked",
       "reviewedAt": "2026-07-29"
@@ -19331,6 +19399,22 @@
       "targetId": "bGFiLWltZzowNSDrr7jsg53rrLzqsoDsgqwvU3luZHJvbWljIG11bHRpcGxleCBOQUFULm1k",
       "context": [
         "molecular testing when clinically indicated"
+      ],
+      "sourceIds": [
+        "cdc-dpdx",
+        "idsa-asm-lab-2024"
+      ],
+      "reviewStatus": "source_checked",
+      "reviewedAt": "2026-07-29"
+    },
+    {
+      "sourceType": "clinicalGroup",
+      "sourceId": "tissue-helminths",
+      "relation": "associated_with",
+      "targetType": "disease",
+      "targetId": "MDgg6rCQ7Je8L-2PrOy2qeymnSAoRWNoaW5vY29jY29zaXMpLm1k",
+      "context": [
+        "curated-title-match"
       ],
       "sourceIds": [
         "cdc-dpdx",

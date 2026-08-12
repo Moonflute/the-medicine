@@ -14,7 +14,8 @@ related_diseases:
   - "Rickettsia rickettsii"
   - "점막피부 발진"
   - "Rocky Mountain spotted fever"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-udvOyehOuzkSAoTHltZSBEaXNlYXNlKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -14,7 +14,8 @@ related_diseases:
   - "늑연골염"
   - "근골격계 흉통"
   - "costochondritis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uKkeyXsOqzqOyXvCAoQ29zdG9jaG9uZHJpdGlzKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: C

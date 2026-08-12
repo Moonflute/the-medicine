@@ -15,7 +15,8 @@ related_diseases:
   - "MAO 억제제"
   - "세로토닌 증후군"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yEuOuhnO2GoOuLjCDspp3tm4TqtbAgKFNlcm90b25pbiBTeW5kcm9tZSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

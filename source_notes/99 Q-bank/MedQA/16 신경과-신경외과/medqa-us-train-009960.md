@@ -14,7 +14,8 @@ related_diseases:
   - "두개내압 상승"
   - "치성 감염"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-y5mOyEsSDqsJDsl7wgKE9kb250b2dlbmljIEluZmVjdGlvbikubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -15,6 +15,7 @@ related_diseases:
   - "고환암 화학요법"
 related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-qzoO2ZmCDsooXslpEgKFRlc3RpY3VsYXIgY2FuY2VyKS5tZA
+  - MDIg7Zi47Z2h6riwL-u5hO2KueydtCDqsITsp4jshLEg7Y-Q66C0IChOU0lQKSAoTm9uc3BlY2lmaWMgSW50ZXJzdGl0aWFsIFBuZXVtb25pYSkubWQ
 question_type: mechanism
 difficulty: simple
 answer: A

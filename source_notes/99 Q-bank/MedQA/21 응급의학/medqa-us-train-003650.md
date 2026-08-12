@@ -15,7 +15,8 @@ related_diseases:
   - "pressure ulcer prevention"
   - "repositioning"
 question_type: management
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-uLpOuwnOyZuOyDgSAoUG9seXRyYXVtYSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

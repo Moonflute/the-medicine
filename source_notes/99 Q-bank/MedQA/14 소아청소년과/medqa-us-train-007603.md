@@ -15,7 +15,8 @@ related_diseases:
   - "표재성 수포"
   - "점막 보존"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

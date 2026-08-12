@@ -13,7 +13,8 @@ related_diseases:
   - "pigmented lesion"
   - "malignant diagnosis"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shoztmZTquLAg7JWULm1k
 difficulty: simple
 answer: A
 translation_status: machine-verified

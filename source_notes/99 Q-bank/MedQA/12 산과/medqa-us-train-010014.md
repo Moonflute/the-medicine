@@ -16,6 +16,7 @@ related_diseases:
 question_type: diagnosis
 related_disease_slugs:
   - MTIg7IKw6rO8L-ygiOuwlSDsnKDsgrAgKFRocmVhdGVuZWQgQWJvcnRpb24pLm1k
+  - MTIg7IKw6rO8L-yehOyLoCDspJEg7KeI7Lac7ZiILm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,7 +13,8 @@ related_diseases:
   - "riboflavin deficiency"
   - "리보플라빈 결핍"
   - "angular cheilitis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JWE7ZSE7YOA7ISxIOq1rOuCtOyXvCAoQXBodGhvdXMgU3RvbWF0aXRpcykubWQ
 question_type: prognosis
 difficulty: standard
 answer: D

@@ -14,7 +14,8 @@ related_diseases:
   - "Stewart-Treves syndrome"
   - "chronic lymphedema"
   - "postmastectomy angiosarcoma"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: A

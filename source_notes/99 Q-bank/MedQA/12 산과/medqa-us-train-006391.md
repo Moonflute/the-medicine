@@ -14,7 +14,8 @@ related_diseases:
   - "Rh 동종면역 예방"
   - "로감"
 question_type: prevention
-related_disease_slugs: []
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoCDspJEg7KeI7Lac7ZiILm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

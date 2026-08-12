@@ -13,7 +13,8 @@ related_diseases:
   - "gallbladder adenomyomatosis"
   - "biliary colic"
   - "incidental finding"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJwg7Jqp7KKF7ZiVIOuzkeuzgCAoR2FsbGJsYWRkZXIgUG9seXBvaWQgTGVzaW9uKS5tZA
 question_type: management
 difficulty: standard
 answer: D

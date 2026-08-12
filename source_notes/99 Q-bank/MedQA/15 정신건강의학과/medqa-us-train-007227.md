@@ -15,7 +15,8 @@ related_diseases:
   - "성기능 장애"
   - "사정 지연"
 question_type: prognosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCrO2ajCDrtojslYgg7J6l7JWgIChTb2NpYWwgQW54aWV0eSBEaXNvcmRlcikubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

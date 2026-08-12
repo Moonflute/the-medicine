@@ -16,6 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-qwleyngeyEsSDsspnstpTsl7wgKEFua3lsb3NpbmcgU3BvbmR5bGl0aXMpLm1k
   - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDsl63rpZggKEFvcnRpYyBSZWd1cmdpdGF0aW9uKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM7JWE6riwIO2KueuwnOyEsSDqtIDsoIjsl7wgKEp1dmVuaWxlIElkaW9wYXRoaWMgQXJ0aHJpdGlzKS5tZA
 question_type: prognosis
 difficulty: standard
 answer: C

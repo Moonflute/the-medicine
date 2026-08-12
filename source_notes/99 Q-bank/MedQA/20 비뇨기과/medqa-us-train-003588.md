@@ -16,7 +16,8 @@ related_diseases:
   - "organic versus psychogenic"
   - "Erectile dysfunction"
 question_type: diagnosis
-related_disease_slugs: []
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-uwnOq4sOu2gOyghCAoRXJlY3RpbGUgRHlzZnVuY3Rpb24pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified
