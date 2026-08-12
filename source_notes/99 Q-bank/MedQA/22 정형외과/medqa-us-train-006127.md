@@ -14,6 +14,8 @@ related_diseases:
   - "달리기 관련 과사용 손상"
   - "휴식과 소염진통제"
 question_type: management
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-qzqOygiCDstJ3roaAgKEZyYWN0dXJlIEdlbmVyYWwgUHJpbmNpcGxlcykubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

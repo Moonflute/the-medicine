@@ -14,6 +14,7 @@ related_diseases:
   - "stranger anxiety"
   - "6-month development"
 question_type: other
+related_disease_slugs: []
 difficulty: simple
 answer: D
 translation_status: machine-verified

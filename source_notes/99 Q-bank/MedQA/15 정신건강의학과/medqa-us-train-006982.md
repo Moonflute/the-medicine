@@ -15,6 +15,7 @@ related_diseases:
   - "고혈압성 위기"
   - "페넬진"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

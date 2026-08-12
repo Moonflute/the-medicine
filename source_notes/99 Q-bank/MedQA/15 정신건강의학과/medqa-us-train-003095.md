@@ -15,6 +15,8 @@ related_diseases:
   - "selective autobiographical amnesia"
   - "normal cognition"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VtOumrOyEsSDquLDslrUg7IOB7IukIChEaXNzb2NpYXRpdmUgQW1uZXNpYSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

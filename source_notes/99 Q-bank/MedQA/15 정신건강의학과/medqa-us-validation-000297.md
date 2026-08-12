@@ -14,6 +14,8 @@ related_diseases:
   - "전환장애"
   - "불일치성 근력저하"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghO2ZmCDsnqXslaAgKENvbnZlcnNpb24gRGlzb3JkZXIpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

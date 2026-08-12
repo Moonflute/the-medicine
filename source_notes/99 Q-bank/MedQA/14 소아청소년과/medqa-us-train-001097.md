@@ -13,6 +13,8 @@ related_diseases:
   - "vitamin B12 deficiency"
   - "subacute combined degeneration of the spinal cord"
 question_type: prevention
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEIg6rKw7ZWN7KadIChWaXRhbWluIEIgRGVmaWNpZW5jeSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,7 +14,10 @@ related_diseases:
   - "elevated intraocular pressure"
   - "mid-dilated fixed pupil"
   - "timolol"
+  - "Acute angle-closure glaucoma"
 question_type: management
+related_disease_slugs:
+  - MTgg7JWI6rO8L-uFueuCtOyepSAoZ2xhdWNvbWEpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

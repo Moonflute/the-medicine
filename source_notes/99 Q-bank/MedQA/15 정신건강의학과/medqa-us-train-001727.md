@@ -13,6 +13,7 @@ related_diseases:
   - "open-ended communication"
   - "medication adherence"
 question_type: ethics
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

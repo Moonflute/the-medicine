@@ -13,6 +13,8 @@ related_diseases:
   - "solitary brain metastasis"
   - "breast cancer metastasis"
   - "surgical resection"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: complex
 answer: B

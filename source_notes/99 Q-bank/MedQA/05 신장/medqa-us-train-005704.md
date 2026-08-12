@@ -13,6 +13,9 @@ related_diseases:
   - "상염색체 열성 다낭성 신장질환"
   - "양수과소증"
   - "문맥 고혈압"
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yWkeyImCDqs7zshozspp0gKE9saWdvaHlkcmFtbmlvcykubWQ
+  - MDUg7Iug7J6lL-uLpOuCreyEsSDsvantjKUg7KeI7ZmYIChQb2x5Y3lzdGljIEtpZG5leSBEaXNlYXNlKS5tZA
 question_type: prognosis
 difficulty: complex
 answer: B

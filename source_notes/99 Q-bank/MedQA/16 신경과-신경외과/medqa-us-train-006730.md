@@ -14,6 +14,8 @@ related_diseases:
   - "뇌탈출"
   - "동측 편마비"
 question_type: prognosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4ztg4jstpwgKEJyYWluIGhlcm5pYXRpb24pLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

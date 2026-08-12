@@ -15,6 +15,7 @@ related_diseases:
   - "type V collagen defect"
   - "skin hyperextensibility"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

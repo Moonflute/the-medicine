@@ -15,6 +15,10 @@ related_diseases:
   - "24-hour urine protein"
   - "new-onset hypertension in pregnancy"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA
+  - MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA
+  - MTIg7IKw6rO8L-ykkeymnSDsoITsnpDqsITspp0gKFNldmVyZSBQcmUtZWNsYW1wc2lhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "영아 보툴리누스증"
   - "보툴리눔 독소"
   - "꿀 섭취"
+  - "Infant botulism"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

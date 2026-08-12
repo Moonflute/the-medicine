@@ -14,6 +14,8 @@ related_diseases:
   - "조산 위험"
   - "요로감염"
 question_type: prognosis
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

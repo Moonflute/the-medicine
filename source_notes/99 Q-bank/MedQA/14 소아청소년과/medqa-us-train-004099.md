@@ -14,6 +14,8 @@ related_diseases:
   - "중증 비포합 고빌리루빈혈증"
   - "핵황달"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_tgazrpqzquIDrn6wt64KY7J6Q66W0IOymne2bhOq1sCAoQ3JpZ2xlci1OYWpqYXIgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

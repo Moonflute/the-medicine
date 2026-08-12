@@ -13,6 +13,8 @@ related_diseases:
   - "신장 아밀로이드증"
   - "아밀로이드 신증"
   - "연전 형성"
+  - "Renal amyloidosis"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

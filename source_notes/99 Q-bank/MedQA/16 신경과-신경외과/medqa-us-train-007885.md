@@ -14,6 +14,8 @@ related_diseases:
   - "mild traumatic brain injury"
   - "return-to-play protocol"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsp4Ttg5UgKENvbmN1c3Npb24pLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

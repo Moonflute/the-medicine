@@ -14,6 +14,8 @@ related_diseases:
   - "복수"
   - "폐경 후 복부 팽만"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yDge2UvOyEsSDrgpzshozslZQgKEVwaXRoZWxpYWwgT3ZhcmlhbiBDYW5jZXIpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

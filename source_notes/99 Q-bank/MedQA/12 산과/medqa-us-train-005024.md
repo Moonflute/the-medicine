@@ -14,6 +14,8 @@ related_diseases:
   - "재발성 자연유산"
   - "임신 중 저분자량 헤파린"
 question_type: management
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2VreyduOyngOyniCDspp3tm4TqtbAgKEFudGlwaG9zcGhvbGlwaWQgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "면역글로불린 수혈 아나필락시스"
   - "아나필락시스"
 question_type: mechanism
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,7 @@ related_diseases:
   - "열공성 뇌졸중"
   - "교뇌 병변"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

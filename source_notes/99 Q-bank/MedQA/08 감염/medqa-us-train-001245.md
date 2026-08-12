@@ -13,6 +13,8 @@ related_diseases:
   - "botulism"
   - "Clostridium botulinum"
   - "foodborne botulism"
+  - "Botulism"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: C

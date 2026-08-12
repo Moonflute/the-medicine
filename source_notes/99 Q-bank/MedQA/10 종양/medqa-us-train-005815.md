@@ -13,6 +13,9 @@ related_diseases:
   - "흑색가시세포증"
   - "위암"
   - "철결핍성 빈혈"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITslZQgKEdhc3RyaWMgQ2FuY2VyKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

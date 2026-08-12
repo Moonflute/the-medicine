@@ -14,6 +14,9 @@ related_diseases:
   - "type 2 diabetes"
   - "altered mental status"
   - "hyperglycemia"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: management
 difficulty: simple
 answer: B

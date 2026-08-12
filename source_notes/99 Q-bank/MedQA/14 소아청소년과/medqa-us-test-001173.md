@@ -14,6 +14,7 @@ related_diseases:
   - "모체 에스트로겐 영향"
   - "신생아 질분비물"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

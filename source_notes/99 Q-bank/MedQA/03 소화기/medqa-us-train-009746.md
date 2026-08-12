@@ -13,6 +13,7 @@ related_diseases:
   - "담낭 용종"
   - "담낭절제술"
   - "담낭암 위험"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

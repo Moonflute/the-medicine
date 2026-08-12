@@ -13,6 +13,9 @@ related_diseases:
   - "콘딜로마 첨형"
   - "인유두종바이러스 6·11형"
   - "생식기 사마귀"
+  - "Genital warts"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yDneyLneq4sCDsnbjqsIQg7Jyg65GQ7KKFIOuwlOydtOufrOyKpCAoR2VuaXRhbCB3YXJ0cykubWQ
 question_type: mechanism
 difficulty: complex
 answer: A

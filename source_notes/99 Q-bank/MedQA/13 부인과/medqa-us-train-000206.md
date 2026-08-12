@@ -15,6 +15,11 @@ related_diseases:
   - "menopause"
   - "vaginal bleeding"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
+  - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MTMg67aA7J246rO8L-2PkOqyvSAoTWVub3BhdXNlKS5tZA
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -15,6 +15,9 @@ related_diseases:
   - "insulin resistance"
   - "dyslipidemia"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

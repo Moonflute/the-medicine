@@ -15,6 +15,8 @@ related_diseases:
   - "exclusive breastfeeding"
   - "late vitamin K deficiency"
 question_type: risk_factor
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEsg6rKw7ZWN7KadIChWaXRhbWluIEsgRGVmaWNpZW5jeSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

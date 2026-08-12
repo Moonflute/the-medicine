@@ -12,6 +12,8 @@ specialty: 04 내분비
 related_diseases:
   - "anorexia nervosa"
   - "refeeding syndrome"
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEseyLneyaleu2gOynhOymnSAoQW5vcmV4aWEgTmVydm9zYSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: C

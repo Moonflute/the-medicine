@@ -13,6 +13,8 @@ related_diseases:
   - "atrial myxoma"
   - "심방 점액종"
   - "tumor plop"
+  - "Atrial myxoma"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

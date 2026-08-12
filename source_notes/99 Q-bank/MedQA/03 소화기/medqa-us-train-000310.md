@@ -13,6 +13,9 @@ related_diseases:
   - "ulcerative colitis"
   - "colon cancer"
   - "strep throat"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rjIDsnqUg7Y-Q7IeEIChMYXJnZSBCb3dlbCBPYnN0cnVjdGlvbikubWQ
 question_type: management
 difficulty: complex
 answer: D

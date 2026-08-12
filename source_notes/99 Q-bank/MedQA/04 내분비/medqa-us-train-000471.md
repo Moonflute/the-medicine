@@ -13,6 +13,10 @@ related_diseases:
   - "hyperosmolar hyperglycemic state"
   - "diabetes mellitus"
   - "hyponatremia"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOyCvO2IrOyVleyEsSDqs6DtmIjri7kg7IOB7YOcIChISFMpIChIeXBlcm9zbW9sYXIgSHlwZXJnbHljZW1pYyBTdGF0ZSkubWQ
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: B

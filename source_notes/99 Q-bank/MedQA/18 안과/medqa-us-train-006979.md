@@ -13,7 +13,9 @@ related_diseases:
   - "개방각 녹내장"
   - "시신경유두 함몰"
   - "안압"
+  - "Infantile esotropia"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

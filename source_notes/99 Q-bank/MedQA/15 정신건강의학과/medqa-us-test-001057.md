@@ -13,7 +13,9 @@ related_diseases:
   - "클로자핀"
   - "무과립구증"
   - "전혈구검사 모니터링"
+  - "Agranulocytosis"
 question_type: investigation
+related_disease_slugs: []
 difficulty: simple
 answer: D
 translation_status: machine-verified

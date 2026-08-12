@@ -15,6 +15,9 @@ related_diseases:
   - "항응고제 금기"
   - "하대정맥 필터"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_stpztmIjshLEg64eM7KG47KSRIChIZW1vcnJoYWdpYyBTdHJva2UpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

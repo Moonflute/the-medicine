@@ -14,6 +14,8 @@ related_diseases:
   - "호흡억제"
   - "날록손"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

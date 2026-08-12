@@ -14,6 +14,8 @@ related_diseases:
   - "낭성섬유증"
   - "가스트로그라핀 관장"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

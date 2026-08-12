@@ -14,6 +14,8 @@ related_diseases:
   - "BCR-ABL fusion"
   - "Philadelphia chromosome"
   - "leukostasis"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChDTUwpIChDaHJvbmljIE15ZWxvaWQgTGV1a2VtaWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -14,6 +14,7 @@ related_diseases:
   - "정맥주사 약물 사용"
   - "황색포도상구균 감염"
 question_type: risk_factor
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

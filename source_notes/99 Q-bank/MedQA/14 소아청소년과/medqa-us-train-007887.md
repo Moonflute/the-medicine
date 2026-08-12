@@ -14,6 +14,8 @@ related_diseases:
   - "secondhand smoke"
   - "upper respiratory infection"
 question_type: prognosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7J207Je8IChPdGl0aXMgTWVkaWEpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "토르사드 드 포인트"
   - "QT 연장"
   - "마이코플라스마 폐렴"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uniOydtOy9lO2UjOudvOyKpOuniCDtj5DroLQgKE15Y29wbGFzbWEgUG5ldW1vbmlhKS5tZA
 question_type: management
 difficulty: standard
 answer: B

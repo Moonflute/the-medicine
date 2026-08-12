@@ -14,6 +14,8 @@ related_diseases:
   - "좌심실 기능"
   - "판막 수술"
   - "심부전 약물치료"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDqsJDshowpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBSZWR1Y2VkIEVqZWN0aW9uIEZyYWN0aW9uIChIRnJFRikpLm1k
 question_type: management
 difficulty: standard
 answer: C

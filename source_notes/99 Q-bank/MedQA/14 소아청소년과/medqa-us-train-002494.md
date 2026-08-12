@@ -14,6 +14,8 @@ related_diseases:
   - "atrial septal defect"
   - "radial ray anomaly"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius67CpIOykkeqyqSDqsrDshpAgKEF0cmlhbCBTZXB0YWwgRGVmZWN0KS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

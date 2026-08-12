@@ -14,6 +14,8 @@ related_diseases:
   - "신경인성 파행"
   - "요추 MRI"
 question_type: investigation
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yymey2lO2YkeywqeymnSAoU3BpbmFsIFN0ZW5vc2lzKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

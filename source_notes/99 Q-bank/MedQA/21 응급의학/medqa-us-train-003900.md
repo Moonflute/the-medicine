@@ -14,7 +14,9 @@ related_diseases:
   - "cholinergic toxidrome"
   - "atropine"
   - "muscarinic receptor antagonism"
+  - "Organophosphate poisoning"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

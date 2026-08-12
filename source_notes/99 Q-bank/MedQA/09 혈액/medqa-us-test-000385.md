@@ -13,6 +13,8 @@ related_diseases:
   - "헤파린 유발 혈소판감소증"
   - "혈전성 합병증"
   - "자가항체 매개 혈소판 활성화"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2XpO2MjOumsCDsnKDrsJwg7ZiI7IaM7YyQ6rCQ7IaM7KadIChIZXBhcmluLUluZHVjZWQgVGhyb21ib2N5dG9wZW5pYSwgSElUKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: D

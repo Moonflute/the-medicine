@@ -14,6 +14,9 @@ related_diseases:
   - "골괴사"
   - "유육종증"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64SZ64uk66as67yIIOuouOumrCDrsrzrgZ0g67K8IOyXsOqzqOymnSAoTGVnZy1DYWx2ZS1QZXJ0aGVzIERpc2Vhc2UpLm1k
+  - MDIg7Zi47Z2h6riwL-ycoOycoeyiheymnSAoU2FyY29pZG9zaXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

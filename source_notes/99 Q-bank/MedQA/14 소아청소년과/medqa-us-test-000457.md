@@ -14,6 +14,8 @@ related_diseases:
   - "신생아 황달"
   - "수유 부족"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2ZqeuLrCAoTmVvbmF0YWwgSmF1bmRpY2UpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

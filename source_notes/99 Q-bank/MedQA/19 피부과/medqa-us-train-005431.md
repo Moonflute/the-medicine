@@ -14,6 +14,8 @@ related_diseases:
   - "족부백선"
   - "피부사상균 감염"
 question_type: investigation
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uwseyEoCAoVGluZWEpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

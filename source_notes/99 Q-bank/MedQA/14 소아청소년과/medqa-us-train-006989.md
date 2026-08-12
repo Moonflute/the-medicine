@@ -14,6 +14,7 @@ related_diseases:
   - "신생아 체중 감소"
   - "수유 자세와 젖물림"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

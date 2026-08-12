@@ -13,6 +13,8 @@ related_diseases:
   - "nightmare disorder"
   - "pediatric sleep disorder"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVheuqvSAoTmlnaHRtYXJlKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

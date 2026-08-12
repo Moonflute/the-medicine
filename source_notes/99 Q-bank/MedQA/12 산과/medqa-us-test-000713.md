@@ -13,6 +13,8 @@ related_diseases:
   - "성교 후 자궁경부 출혈"
   - "자궁경부 외상"
   - "임신 중 출혈"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-qyveu2gOyZuOyDgSAoQ2VydmljYWwgVHJhdW1hKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -13,6 +13,8 @@ related_diseases:
   - "유육종증"
   - "비건락성 육아종"
   - "베릴륨 노출"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-ycoOycoeyiheymnSAoU2FyY29pZG9zaXMpLm1k
 question_type: 임상증례 객관식
 difficulty: simple
 answer: C

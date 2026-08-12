@@ -13,6 +13,9 @@ related_diseases:
   - "선천성 부신과형성"
   - "21-수산화효소 결핍"
   - "신생아 염분소실"
+  - "congenital adrenal hyperplasia"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKc7ISxIOu2gOyLoCDqs7ztmJXshLHspp0gKENvbmdlbml0YWwgQWRyZW5hbCBIeXBlcnBsYXNpYSkubWQ
 question_type: management
 difficulty: complex
 answer: A

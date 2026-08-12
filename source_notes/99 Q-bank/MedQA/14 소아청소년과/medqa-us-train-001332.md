@@ -13,6 +13,7 @@ related_diseases:
   - "fetal hydantoin syndrome"
   - "phenytoin embryopathy"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

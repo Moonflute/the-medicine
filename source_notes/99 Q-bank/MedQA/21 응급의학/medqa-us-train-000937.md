@@ -15,6 +15,10 @@ related_diseases:
   - "glaucoma"
   - "coronary artery disease"
 question_type: management
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MTgg7JWI6rO8L-uFueuCtOyepSAoZ2xhdWNvbWEpLm1k
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

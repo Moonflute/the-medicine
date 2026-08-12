@@ -13,6 +13,9 @@ related_diseases:
   - "거대세포바이러스 폐렴"
   - "골수이식 후 감염"
   - "간시클로버"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qxsOuMgOyEuO2PrOuwlOydtOufrOyKpCDqsJDsl7wgKENNVikgKEN5dG9tZWdhbG92aXJ1cyBJbmZlY3Rpb24gKENNVikpLm1k
+  - MDgg6rCQ7Je8L-uptOyXreyggO2VmOyekCDqsJDsl7wgKEltbXVub2NvbXByb21pc2VkIEhvc3QgSW5mZWN0aW9uKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: C

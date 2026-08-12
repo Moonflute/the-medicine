@@ -13,6 +13,7 @@ related_diseases:
   - "잠복결핵감염"
   - "인터페론감마 방출검사"
   - "이소니아지드"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "심부정맥혈전증"
   - "항트롬빈 III 결핍"
   - "헤파린 저항성"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: A

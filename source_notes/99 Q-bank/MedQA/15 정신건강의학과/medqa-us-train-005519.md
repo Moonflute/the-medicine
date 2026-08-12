@@ -13,7 +13,9 @@ related_diseases:
   - "의존성 인격장애"
   - "타인에게 의존"
   - "혼자 결정하지 못함"
+  - "Dependent personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

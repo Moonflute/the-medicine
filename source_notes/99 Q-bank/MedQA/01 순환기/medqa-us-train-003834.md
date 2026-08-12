@@ -14,6 +14,8 @@ related_diseases:
   - "mitral valve obstruction"
   - "percutaneous balloon commissurotomy"
   - "left atrial enlargement"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yKueuqqO2MkOuniSDtmJHssKkgKE1pdHJhbCBTdGVub3NpcykubWQ
 question_type: management
 difficulty: complex
 answer: C

@@ -13,7 +13,10 @@ related_diseases:
   - "히르슈스프룽병"
   - "태변 배출 지연"
   - "신경절세포 결핍"
+  - "Hirschsprung disease"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISg7LKcIOqxsOuMgCDqsrDsnqXspp0gKENvbmdlbml0YWwgQWdhbmdsaW9uaWMgTWVnYWNvbG9uKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

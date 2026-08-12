@@ -13,7 +13,10 @@ related_diseases:
   - "급성 중이염"
   - "고막 팽창"
   - "아목시실린"
+  - "Acute otitis media"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7J207Je8IChPdGl0aXMgTWVkaWEpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

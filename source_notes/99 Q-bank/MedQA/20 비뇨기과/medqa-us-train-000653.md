@@ -15,6 +15,11 @@ related_diseases:
   - "diabetes mellitus"
   - "prostatic adenocarcinoma"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yWkeyEsSDsoITrpr3sg5gg67mE64yA7KadIChCZW5pZ24gUHJvc3RhdGljIEh5cGVycGxhc2lhKS5tZA
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rs4DruYQgKENvbnN0aXBhdGlvbikubWQ
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MDIg7Zi47Z2h6riwL-2PkCDshKDslZQgKEFkZW5vY2FyY2lub21hKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

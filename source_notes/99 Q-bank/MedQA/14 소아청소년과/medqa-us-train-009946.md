@@ -14,6 +14,10 @@ related_diseases:
   - "대동맥 축착"
   - "성장 지연"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YSw64SIIOymne2bhOq1sCAoVHVybmVyIFN5bmRyb21lKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA64-Z66elIOy2leywqSAoQ29hcmN0YXRpb24gb2YgdGhlIEFvcnRhKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7J6lIOyngOyXsCAoR3Jvd3RoIFJldGFyZGF0aW9uKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

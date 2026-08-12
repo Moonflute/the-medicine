@@ -14,6 +14,9 @@ related_diseases:
   - "소장 흡수장애"
   - "거대적아구성 빈혈"
   - "소장내시경"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tnaHsiJjsnqXslaAubWQ
+  - MDkg7ZiI7JWhL-qxsOuMgOygge2YiOuqqOq1rCDruYjtmIggKE1lZ2Fsb2JsYXN0aWMgQW5lbWlhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

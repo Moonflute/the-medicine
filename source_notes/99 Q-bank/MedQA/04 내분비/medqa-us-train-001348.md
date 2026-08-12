@@ -13,6 +13,9 @@ related_diseases:
   - "hyperthyroidism"
   - "Graves disease"
   - "thyrotoxic myopathy"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
+  - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

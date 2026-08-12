@@ -13,6 +13,9 @@ related_diseases:
   - "systemic lupus erythematosus"
   - "low complement"
   - "lupus nephritis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDtmY3rsJgg66Oo7ZG47IqkIChTeXN0ZW1pYyBMdXB1cyBFcnl0aGVtYXRvc3VzKS5tZA
+  - MDUg7Iug7J6lL-ujqO2RuOyKpCDsvantjKXsl7wgKEx1cHVzIE5lcGhyaXRpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: B

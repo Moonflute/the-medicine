@@ -13,6 +13,9 @@ related_diseases:
   - "고혈압성 응급"
   - "급성 관상동맥증후군"
   - "에스몰롤과 니트로글리세린"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: management
 difficulty: standard
 answer: A

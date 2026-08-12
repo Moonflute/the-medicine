@@ -13,7 +13,10 @@ related_diseases:
   - "ureteral stone"
   - "renal colic"
   - "nephrolithiasis"
+  - "Ureteral stone"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

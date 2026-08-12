@@ -13,6 +13,8 @@ related_diseases:
   - "의미불명 단클론감마병증"
   - "철결핍성 빈혈"
   - "단클론 단백 추적"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
 question_type: management
 difficulty: complex
 answer: A

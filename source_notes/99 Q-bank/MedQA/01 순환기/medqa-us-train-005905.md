@@ -13,6 +13,8 @@ related_diseases:
   - "고콜레스테롤혈증"
   - "스타틴"
   - "심혈관 위험인자"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: C

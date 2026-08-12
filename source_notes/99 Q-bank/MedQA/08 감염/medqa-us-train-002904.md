@@ -14,6 +14,8 @@ related_diseases:
   - "neurosyphilis"
   - "Argyll Robertson pupils"
   - "sensory ataxia"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-unpOuPhSAoU3lwaGlsaXMpLm1k
 question_type: management
 difficulty: standard
 answer: C

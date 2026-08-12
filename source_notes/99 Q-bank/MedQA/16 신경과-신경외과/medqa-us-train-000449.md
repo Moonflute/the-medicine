@@ -13,6 +13,8 @@ related_diseases:
   - "Intracerebellar mass"
   - "Craniopharyngioma"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDqsJzsnbjrkZDsooUgKENyYW5pb3BoYXJ5bmdpb21hKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

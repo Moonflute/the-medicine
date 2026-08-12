@@ -13,7 +13,9 @@ related_diseases:
   - "유착태반"
   - "반복 제왕절개"
   - "태반 이상 부착"
+  - "Placenta accreta"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

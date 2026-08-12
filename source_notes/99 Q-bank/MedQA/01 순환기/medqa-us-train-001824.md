@@ -13,6 +13,8 @@ related_diseases:
   - "stable angina"
   - "beta blocker"
   - "secondary prevention"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yViOyglSDtmJHsi6zspp0gKFN0YWJsZSBBbmdpbmEpLm1k
 question_type: management
 difficulty: simple
 answer: B

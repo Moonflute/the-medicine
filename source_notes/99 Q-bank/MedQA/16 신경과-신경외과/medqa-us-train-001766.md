@@ -14,6 +14,8 @@ related_diseases:
   - "childhood absence epilepsy"
   - "3-Hz spike-and-wave"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM67Cc7J6RIChBYnNlbmNlIFNlaXp1cmUpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

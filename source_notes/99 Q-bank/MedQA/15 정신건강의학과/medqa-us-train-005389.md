@@ -13,7 +13,10 @@ related_diseases:
   - "전기경련치료"
   - "역행성 기억상실"
   - "우울장애"
+  - "Major depressive disorder"
 question_type: adverse_effect
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: simple
 answer: D
 translation_status: machine-verified

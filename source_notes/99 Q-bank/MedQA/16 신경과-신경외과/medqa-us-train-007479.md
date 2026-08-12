@@ -14,7 +14,10 @@ related_diseases:
   - "편두통 급성 치료"
   - "수마트립탄"
   - "박동성 두통"
+  - "Migraine"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjrjrkZDthrUgKE1pZ3JhaW5lKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

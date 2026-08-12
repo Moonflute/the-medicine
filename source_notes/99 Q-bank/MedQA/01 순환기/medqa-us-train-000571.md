@@ -14,6 +14,9 @@ related_diseases:
   - "type II diabetes"
   - "breast cancer"
   - "obesity"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: complex
 answer: D

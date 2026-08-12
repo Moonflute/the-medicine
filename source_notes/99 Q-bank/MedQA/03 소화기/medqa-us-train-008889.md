@@ -13,6 +13,9 @@ related_diseases:
   - "esophageal varices"
   - "portal hypertension"
   - "nadolol"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_si53rj4Qg7KCV66el66WYIChFc29waGFnZWFsIFZhcmljZXMpLm1k
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: prevention
 difficulty: standard
 answer: B

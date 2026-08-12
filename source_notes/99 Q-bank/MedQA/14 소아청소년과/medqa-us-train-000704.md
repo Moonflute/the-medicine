@@ -12,6 +12,9 @@ specialty: 14 소아청소년과
 related_diseases:
   - "iron deficiency anemia"
 question_type: diagnosis
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yyoCDqsrDtlY0g67mI7ZiIIChJcm9uIERlZmljaWVuY3kgQW5lbWlhKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

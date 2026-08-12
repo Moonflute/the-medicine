@@ -13,6 +13,9 @@ related_diseases:
   - "mitral valve prolapse"
   - "myxomatous degeneration"
   - "mitral regurgitation"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yKueuqqO2MkOuniSDsnbztg4jspp0gKE1pdHJhbCBWYWx2ZSBQcm9sYXBzZSkubWQ
+  - MDEg7Iic7ZmY6riwL-yKueuqqO2MkOuniSDsl63rpZggKE1pdHJhbCBSZWd1cmdpdGF0aW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

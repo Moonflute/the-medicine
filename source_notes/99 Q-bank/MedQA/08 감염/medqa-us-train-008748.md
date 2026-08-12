@@ -13,6 +13,8 @@ related_diseases:
   - "Entamoeba histolytica"
   - "amebic dysentery"
   - "metronidazole"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-ydtOyniCAoRHlzZW50ZXJ5KS5tZA
 question_type: management
 difficulty: complex
 answer: D

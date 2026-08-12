@@ -14,6 +14,8 @@ related_diseases:
   - "경골 결절 견인 골단염"
   - "청소년 운동선수 무릎 통증"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jik7Iqk6rW_LeyKkOudvO2EsCDrs5EgKE9zZ29vZC1TY2hsYXR0ZXIgRGlzZWFzZSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "celiac disease"
   - "gluten-sensitive enteropathy"
 question_type: diagnosis
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "gout"
   - "acute gout flare"
   - "lifestyle modification"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ
 question_type: prevention
 difficulty: standard
 answer: C

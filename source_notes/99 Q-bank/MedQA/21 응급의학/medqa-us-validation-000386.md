@@ -14,6 +14,9 @@ related_diseases:
   - "간헐적 파행"
   - "당뇨병성 신경병증"
 question_type: diagnosis
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
+  - MDEg7Iic7ZmY6riwL-uPmeunpeqyve2ZlOyEsSDrp4zshLEg64-Z66elIO2PkOyDiSAoQXRoZXJvc2NsZXJvdGljIENocm9uaWMgQXJ0ZXJpYWwgT2NjbHVzaW9uKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

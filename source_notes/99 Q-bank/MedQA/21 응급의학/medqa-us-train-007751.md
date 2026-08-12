@@ -14,6 +14,7 @@ related_diseases:
   - "corrosive esophageal injury"
   - "endoscopy"
 question_type: management
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

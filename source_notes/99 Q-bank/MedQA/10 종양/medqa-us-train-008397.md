@@ -13,6 +13,7 @@ related_diseases:
   - "carcinoid syndrome"
   - "neuroendocrine tumor"
   - "pellagra"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: D

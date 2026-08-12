@@ -14,6 +14,8 @@ related_diseases:
   - "coagulase-negative staphylococci"
   - "predamaged heart valve"
   - "mitral vegetation"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
 question_type: risk_factor
 difficulty: complex
 answer: D

@@ -13,6 +13,8 @@ related_diseases:
   - "narcolepsy"
   - "sleep paralysis"
   - "hypnagogic hallucinations"
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOuptOymnSAoTmFyY29sZXBzeSkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: C

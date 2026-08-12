@@ -13,6 +13,9 @@ related_diseases:
   - "철결핍성 빈혈"
   - "반응성 혈소판증가증"
   - "소구성 빈혈"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
+  - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

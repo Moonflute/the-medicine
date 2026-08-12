@@ -13,6 +13,8 @@ related_diseases:
   - "중추성 요붕증"
   - "수분 제한검사"
   - "데스모프레신"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ykkey2lOyEsSDsmpTrtpXspp0gKENlbnRyYWwgRGlhYmV0ZXMgSW5zaXBpZHVzKS5tZA
 question_type: management
 difficulty: complex
 answer: A

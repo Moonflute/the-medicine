@@ -13,6 +13,7 @@ related_diseases:
   - "acute HIV infection"
   - "window period"
   - "HIV seroconversion"
+related_disease_slugs: []
 question_type: investigation
 difficulty: standard
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "volume overload"
   - "pulmonary edema"
   - "loop diuretic"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrtoDsoIQgKEFjdXRlIEhlYXJ0IEZhaWx1cmUpLm1k
 question_type: management
 difficulty: complex
 answer: A

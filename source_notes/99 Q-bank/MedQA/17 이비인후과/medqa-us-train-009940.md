@@ -14,6 +14,8 @@ related_diseases:
   - "삼출성 중이염"
   - "관찰"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-yCvOy2nOyEseykkeydtOyXvCAoT3RpdGlzIG1lZGlhIHdpdGggZWZmdXNpb24pLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "모소낭종 농양"
   - "모소동"
   - "절개배농"
+  - "Pilonidal abscess"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "hyperuricemia"
   - "uric acid nephrolithiasis"
   - "allopurinol"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ynhOyEsSDsoIHtmIjqtazspp3qsIDspp0gKFBWKSAoUG9seWN5dGhlbWlhIFZlcmEgKFBWKSkubWQ
 question_type: prevention
 difficulty: complex
 answer: A

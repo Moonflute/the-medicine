@@ -13,6 +13,9 @@ related_diseases:
   - "chronic liver disease"
   - "vitamin K deficiency"
   - "coagulopathy"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-u5hO2DgOuvvCBLIOqysO2VjSAoVml0YW1pbiBLIERlZmljaWVuY3kpLm1k
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITslZQubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

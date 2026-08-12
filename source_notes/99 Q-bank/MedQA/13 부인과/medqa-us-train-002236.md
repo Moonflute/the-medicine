@@ -14,6 +14,8 @@ related_diseases:
   - "cervical intraepithelial neoplasia"
   - "LEEP"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gCDsg4HtlLzrgrQg7KKF7JaRIChDZXJ2aWNhbCBJbnRyYWVwaXRoZWxpYWwgTmVvcGxhc2lhKS5tZA
 difficulty: simple
 answer: B
 translation_status: machine-verified

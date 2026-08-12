@@ -14,6 +14,8 @@ related_diseases:
   - "biliary obstruction"
   - "dilated common bile duct"
   - "gallstones"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

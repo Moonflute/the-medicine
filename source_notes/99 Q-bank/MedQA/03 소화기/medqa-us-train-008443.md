@@ -13,6 +13,8 @@ related_diseases:
   - "Clostridioides difficile infection"
   - "antibiotic-associated diarrhea"
   - "proton pump inhibitor"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qxsOynk-uniSDqsrDsnqXsl7wgKFBzZXVkb21lbWJyYW5vdXMgQ29saXRpcykubWQ
 question_type: other
 difficulty: standard
 answer: B

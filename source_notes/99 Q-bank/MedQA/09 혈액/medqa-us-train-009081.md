@@ -13,6 +13,8 @@ related_diseases:
   - "transfusion-associated circulatory overload"
   - "pulmonary edema"
   - "blood transfusion complication"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yImO2YiCDqtIDroKgg7Iic7ZmY65-JIOqzvOuLpCAoVHJhbnNmdXNpb24tQXNzb2NpYXRlZCBDaXJjdWxhdG9yeSBPdmVybG9hZCkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

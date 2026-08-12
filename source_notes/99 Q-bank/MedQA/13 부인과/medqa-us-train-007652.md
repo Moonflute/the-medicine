@@ -14,6 +14,8 @@ related_diseases:
   - "46,XY disorder of sex development"
   - "primary amenorrhea"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

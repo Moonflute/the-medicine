@@ -14,6 +14,8 @@ related_diseases:
   - "임신 중 유방 종괴"
   - "에스트로겐 반응성 종양"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yErOycoOyEoOyihSAoRmlicm9hZGVub21hKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

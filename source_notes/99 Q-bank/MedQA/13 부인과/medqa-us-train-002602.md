@@ -15,6 +15,8 @@ related_diseases:
   - "low bone density"
   - "osteoporosis"
 question_type: risk_factor
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

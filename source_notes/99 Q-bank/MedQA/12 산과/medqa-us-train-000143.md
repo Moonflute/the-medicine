@@ -12,6 +12,8 @@ specialty: 12 산과
 related_diseases:
   - "postpartum endometritis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2gSDrgrTrp4kg6rCQ7Je8IOyngOyXsCAoRGVsYXllZCBQb3N0cGFydHVtIEVuZG9tZXRyaXRpcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

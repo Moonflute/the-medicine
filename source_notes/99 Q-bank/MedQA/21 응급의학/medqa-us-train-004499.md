@@ -13,7 +13,9 @@ related_diseases:
   - "삼환계 항우울제 과량복용"
   - "나트륨 통로 차단 독성"
   - "QRS 연장"
+  - "tricyclic antidepressant overdose"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

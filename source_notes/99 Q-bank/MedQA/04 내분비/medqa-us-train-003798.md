@@ -14,6 +14,8 @@ related_diseases:
   - "high anion gap metabolic acidosis"
   - "insulin deficiency"
   - "Kussmaul respirations"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -13,6 +13,10 @@ related_diseases:
   - "hyperosmolar hyperglycemic state"
   - "type 2 diabetes mellitus"
   - "hyperglycemia"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOyCvO2IrOyVleyEsSDqs6DtmIjri7kg7IOB7YOcIChISFMpIChIeXBlcm9zbW9sYXIgSHlwZXJnbHljZW1pYyBTdGF0ZSkubWQ
+  - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

@@ -14,6 +14,8 @@ related_diseases:
   - "increased bone turnover"
   - "cortical thickening"
   - "elevated alkaline phosphatase"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2MjOygnO2KuOuzkSAoUGFnZXQncyBEaXNlYXNlKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

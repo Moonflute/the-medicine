@@ -14,6 +14,8 @@ related_diseases:
   - "fractional excretion of sodium"
   - "oliguria"
   - "volume depletion"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-y9qe2MpeyghCDquInshLEg7L2p7YylIOyGkOyDgSAoUHJlcmVuYWwgQWN1dGUgS2lkbmV5IEluanVyeSkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: D

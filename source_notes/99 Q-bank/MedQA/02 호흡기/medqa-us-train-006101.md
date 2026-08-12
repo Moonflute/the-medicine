@@ -13,6 +13,8 @@ related_diseases:
   - "비만 저환기 증후군"
   - "고탄산혈증"
   - "수면 중 저환기"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yggO2YuO2doSAoSHlwb3ZlbnRpbGF0aW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

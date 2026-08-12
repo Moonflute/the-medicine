@@ -14,6 +14,7 @@ related_diseases:
   - "언어 발달"
   - "소근육 발달"
 question_type: prognosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

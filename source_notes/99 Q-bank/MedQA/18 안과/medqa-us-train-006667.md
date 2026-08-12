@@ -14,6 +14,9 @@ related_diseases:
   - "경동맥 협착"
   - "망막 색전"
 question_type: investigation
+related_disease_slugs:
+  - MTgg7JWI6rO8L-yViOqzvC5tZA
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qsr3rj5nrp6Ug7ZiR7LCp7KadIChDYXJvdGlkIGFydGVyeSBzdGVub3NpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

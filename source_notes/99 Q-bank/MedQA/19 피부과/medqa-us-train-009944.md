@@ -14,6 +14,8 @@ related_diseases:
   - "요람모"
   - "피부염"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yngOujqCDtlLzrtoDsl7wgKFNlYm9ycmhlaWMgRGVybWF0aXRpcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

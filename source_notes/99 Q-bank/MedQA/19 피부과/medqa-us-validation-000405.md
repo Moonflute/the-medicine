@@ -13,7 +13,9 @@ related_diseases:
   - "일광화상"
   - "1도 화상"
   - "피부 홍반"
+  - "Sunburn"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "multiple myeloma"
   - "hypercalcemia"
   - "myeloma kidney"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

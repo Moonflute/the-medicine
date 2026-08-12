@@ -14,6 +14,8 @@ related_diseases:
   - "anabolic androgenic steroid use"
   - "oral contraceptive exposure"
   - "dyslipidemia"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
 question_type: risk_factor
 difficulty: complex
 answer: D

@@ -13,7 +13,9 @@ related_diseases:
   - "사춘기 여성형유방"
   - "생리적 유방 조직 증식"
   - "청소년기"
+  - "Physiologic gynecomastia"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

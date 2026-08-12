@@ -14,6 +14,8 @@ related_diseases:
   - "hypogonadotropic hypogonadism"
   - "cryptorchidism"
   - "delayed puberty"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yeoOuzteqzoO2ZmOymnSAoQ3J5cHRvcmNoaWRpc20pLm1k
 question_type: diagnosis
 difficulty: standard
 answer: D

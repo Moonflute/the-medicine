@@ -7,12 +7,12 @@
   {
     "name": "02 호흡기",
     "slug": "MDIg7Zi47Z2h6riw",
-    "count": 67
+    "count": 68
   },
   {
     "name": "03 소화기",
     "slug": "MDMg7IaM7ZmU6riw",
-    "count": 137
+    "count": 139
   },
   {
     "name": "04 내분비",
@@ -42,7 +42,7 @@
   {
     "name": "09 혈액",
     "slug": "MDkg7ZiI7JWh",
-    "count": 51
+    "count": 52
   },
   {
     "name": "10 종양",
@@ -67,17 +67,17 @@
   {
     "name": "14 소아청소년과",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8",
-    "count": 144
+    "count": 148
   },
   {
     "name": "15 정신건강의학과",
     "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8",
-    "count": 102
+    "count": 104
   },
   {
     "name": "16 신경과-신경외과",
     "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvA",
-    "count": 62
+    "count": 64
   },
   {
     "name": "17 이비인후과",
@@ -107,6 +107,6 @@
   {
     "name": "22 정형외과",
     "slug": "MjIg7KCV7ZiV7Jm46rO8",
-    "count": 31
+    "count": 32
   }
 ]

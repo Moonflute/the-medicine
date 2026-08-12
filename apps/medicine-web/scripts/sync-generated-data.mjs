@@ -63,9 +63,7 @@ function readList(value) {
   if (!value) return [];
   return value
     .split(/\r?\n/)
-    .map((line) => line.replace(/^- /, "").replace(/^["']|["']$/g, "").trim())
-    .filter(Boolean)
-    .map((line) => line.replace(/^\-\s*/, "").trim())
+    .map((line) => line.trim().replace(/^\-\s*/, "").trim().replace(/^["']|["']$/g, "").trim())
     .filter(Boolean)
     .filter((line) => line !== "[]");
 }
@@ -1533,12 +1531,18 @@ function buildQbank() {
       ? qbankSection(body, "해설").replace(/<!--([\s\S]*?)-->/g, "").trim()
       : "";
     const diseaseTerms = readList(frontmatter.related_diseases);
+    const hasExplicitDiseaseSlugs = Object.hasOwn(frontmatter, "related_disease_slugs");
+    const explicitDiseaseSlugs = readList(frontmatter.related_disease_slugs)
+      .map(canonicalDiseaseSlug)
+      .filter((slug) => diseaseBySlug.has(slug));
     const targetType = questionBank === "theory" ? readScalar(frontmatter.target_type) : "";
     const rawTargetSlug = questionBank === "theory" ? readScalar(frontmatter.target_slug) : "";
     const targetSlug = targetType === "disease" ? canonicalDiseaseSlug(rawTargetSlug) : rawTargetSlug;
     const targetTitle = targetType === "disease" ? (diseaseBySlug.get(targetSlug)?.displayTitle || diseaseBySlug.get(targetSlug)?.title || "") : "";
     const relatedDiseaseSlugs = [...new Set([
-      ...diseaseTerms.map(resolveDiseaseTerm).filter(Boolean),
+      // A persisted field is authoritative.  This keeps source tags as raw
+      // metadata while avoiding a second, lossy runtime synonym resolution.
+      ...(hasExplicitDiseaseSlugs ? explicitDiseaseSlugs : diseaseTerms.map(resolveDiseaseTerm).filter(Boolean)),
       ...(targetType === "disease" && targetSlug ? [targetSlug] : []),
     ])];
     const relatedCcSlugs = [...new Set([

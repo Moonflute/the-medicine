@@ -13,6 +13,8 @@ related_diseases:
   - "소아 비만"
   - "이상지질혈증"
   - "인슐린 저항성"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

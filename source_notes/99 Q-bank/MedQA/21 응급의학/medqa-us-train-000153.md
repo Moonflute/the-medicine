@@ -14,6 +14,10 @@ related_diseases:
   - "hypertension"
   - "osteoarthritis"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDcg66WY66eI7Yuw7IqkL-qzqOq0gOygiOyXvCAoT3N0ZW9hcnRocml0aXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

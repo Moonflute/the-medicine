@@ -13,6 +13,8 @@ related_diseases:
   - "complicated diverticulitis"
   - "복잡성 게실염"
   - "diverticular abscess"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6Tsl7wgKERpdmVydGljdWxpdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: C

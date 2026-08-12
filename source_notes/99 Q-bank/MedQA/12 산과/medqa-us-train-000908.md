@@ -14,6 +14,9 @@ related_diseases:
   - "discordant growth"
   - "polycythemia"
 question_type: diagnosis
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ynhOyEsSDsoIHtmIjqtazspp3qsIDspp0gKFBWKSAoUG9seWN5dGhlbWlhIFZlcmEgKFBWKSkubWQ
+  - MTIg7IKw6rO8L-yMjeuRpeydtCDqsIQg7IiY7ZiIIOymne2bhOq1sCAoVHdpbi10by1Ud2luIFRyYW5zZnVzaW9uIFN5bmRyb21lKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

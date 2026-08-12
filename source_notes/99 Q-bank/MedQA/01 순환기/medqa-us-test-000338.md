@@ -13,6 +13,8 @@ related_diseases:
   - "심방중격결손"
   - "아이젠멩거 증후군"
   - "임신 중 심혈역학 변화"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius67CpIOykkeqyqSDqsrDshpAgKEF0cmlhbCBTZXB0YWwgRGVmZWN0KS5tZA
 question_type: mechanism
 difficulty: complex
 answer: B

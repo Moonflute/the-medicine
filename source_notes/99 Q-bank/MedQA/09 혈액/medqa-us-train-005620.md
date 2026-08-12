@@ -13,6 +13,8 @@ related_diseases:
   - "다발골수종"
   - "M 단백"
   - "용해성 골병변"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
 question_type: other
 difficulty: complex
 answer: A

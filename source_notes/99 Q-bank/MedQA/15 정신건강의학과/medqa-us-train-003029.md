@@ -15,6 +15,8 @@ related_diseases:
   - "hyperthermia"
   - "dantrolene"
 question_type: adverse_effect
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveydtOyZhOygnCDslYXshLEg7Kad7ZuE6rWwIChOZXVyb2xlcHRpYyBNYWxpZ25hbnQgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

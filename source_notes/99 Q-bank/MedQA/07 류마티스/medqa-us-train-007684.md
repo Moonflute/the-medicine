@@ -13,6 +13,9 @@ related_diseases:
   - "chronic glucocorticoid therapy"
   - "perioperative steroid management"
   - "wound healing"
+  - "Rheumatoid arthritis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
 question_type: management
 difficulty: standard
 answer: D

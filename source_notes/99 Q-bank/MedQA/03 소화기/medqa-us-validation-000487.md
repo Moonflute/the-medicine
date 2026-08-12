@@ -13,6 +13,8 @@ related_diseases:
   - "급성 췌장염"
   - "담석성 췌장염"
   - "복부 초음파"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k
 question_type: investigation
 difficulty: complex
 answer: C

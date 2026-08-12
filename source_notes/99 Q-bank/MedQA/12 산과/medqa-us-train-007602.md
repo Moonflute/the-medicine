@@ -15,6 +15,8 @@ related_diseases:
   - "HIV"
   - "B형간염"
 question_type: prevention
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 difficulty: simple
 answer: B
 translation_status: machine-verified

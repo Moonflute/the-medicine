@@ -13,6 +13,8 @@ related_diseases:
   - "신동맥 협착"
   - "섬유근육성 이형성증"
   - "경피적 혈관성형술"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
 question_type: management
 difficulty: standard
 answer: B

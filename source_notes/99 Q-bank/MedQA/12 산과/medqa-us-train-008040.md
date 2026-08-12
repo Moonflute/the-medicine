@@ -14,6 +14,10 @@ related_diseases:
   - "E. coli"
   - "nitrofurantoin"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-ustOymneyDgSDshLjqt6Drh6ggKEFzeW1wdG9tYXRpYyBCYWN0ZXJpdXJpYSkubWQ
+  - MDgg6rCQ7Je8L-uMgOyepeq3oCAoRS4gY29saSkubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

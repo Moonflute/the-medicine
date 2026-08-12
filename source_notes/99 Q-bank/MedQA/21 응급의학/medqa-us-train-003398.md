@@ -15,6 +15,8 @@ related_diseases:
   - "mediastinal widening"
   - "contrast-enhanced CT"
 question_type: management
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

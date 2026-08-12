@@ -13,6 +13,8 @@ related_diseases:
   - "대동맥판 역류"
   - "이완기 잡음"
   - "넓은 맥압"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDsl63rpZggKEFvcnRpYyBSZWd1cmdpdGF0aW9uKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: C

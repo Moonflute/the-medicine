@@ -13,6 +13,9 @@ related_diseases:
   - "헬리코박터 파일로리 감염"
   - "소화성 궤양"
   - "위궤양"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITqtqTslpEgKEdhc3RyaWMgVWxjZXIpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9ILnB5bG9yaSDqsJDsl7wgKEgucHlsb3JpIEluZmVjdGlvbikubWQ
 question_type: management
 difficulty: complex
 answer: A

@@ -14,6 +14,8 @@ related_diseases:
   - "무배란성 불임"
   - "클로미펜"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

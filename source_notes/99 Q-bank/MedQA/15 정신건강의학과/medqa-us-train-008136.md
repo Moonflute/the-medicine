@@ -13,7 +13,9 @@ related_diseases:
   - "acute dystonia"
   - "haloperidol adverse effect"
   - "benztropine"
+  - "Acute dystonia"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

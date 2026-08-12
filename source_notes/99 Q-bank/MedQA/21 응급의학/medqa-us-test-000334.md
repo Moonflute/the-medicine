@@ -14,6 +14,8 @@ related_diseases:
   - "외상성 뇌손상"
   - "기도 보호"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsp4Ttg5UgKENvbmN1c3Npb24pLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

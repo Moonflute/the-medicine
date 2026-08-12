@@ -13,6 +13,9 @@ related_diseases:
   - "덤핑증후군"
   - "위절제술 후 증후군"
   - "식후 설사"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_ruaDrpbgg67mE7JuAIOymne2bhOq1sCAoRHVtcGluZyBTeW5kcm9tZSkubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snIQg7KCI7KCcIOu2gOyekeyaqS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: D

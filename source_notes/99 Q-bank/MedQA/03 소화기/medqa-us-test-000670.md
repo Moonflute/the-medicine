@@ -13,6 +13,8 @@ related_diseases:
   - "말로리-바이스 열상"
   - "상부 위장관 출혈"
   - "알코올 남용"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sg4HrtoAg7JyE7J6l6rSAIOy2nO2YiCAoVXBwZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ
 question_type: management
 difficulty: standard
 answer: B

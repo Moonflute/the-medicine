@@ -13,6 +13,7 @@ related_diseases:
   - "금연"
   - "니코틴 의존"
   - "복합 금연치료"
+related_disease_slugs: []
 question_type: prevention
 difficulty: simple
 answer: B

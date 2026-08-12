@@ -13,6 +13,8 @@ related_diseases:
   - "Cryptosporidium parvum"
   - "크립토스포리디움"
   - "AIDS-related diarrhea"
+  - "Cryptosporidium infection"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

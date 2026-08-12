@@ -14,6 +14,9 @@ related_diseases:
   - "무증상 다발골수종"
   - "물리치료"
 question_type: management
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-y2lOqwhO2MkO2DiOy2nOymnSAoSGVybmlhdGVkIEludGVydmVydGVicmFsIERpc2MpLm1k
+  - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

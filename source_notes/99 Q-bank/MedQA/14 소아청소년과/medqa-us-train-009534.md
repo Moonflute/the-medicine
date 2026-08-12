@@ -14,6 +14,8 @@ related_diseases:
   - "중증 탈수"
   - "hypernatremia"
 question_type: management
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOuCmO2KuOulqO2YiOymnSAoSHlwZXJuYXRyZW1pYSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

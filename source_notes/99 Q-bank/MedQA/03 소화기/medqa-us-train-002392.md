@@ -13,6 +13,8 @@ related_diseases:
   - "bisphosphonate esophagitis"
   - "alendronate"
   - "pill esophagitis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rtoDsi50g7Iud64-E7Je8IChDb3Jyb3NpdmUgRXNvcGhhZ2l0aXMpLm1k
 question_type: adverse_effect
 difficulty: standard
 answer: B

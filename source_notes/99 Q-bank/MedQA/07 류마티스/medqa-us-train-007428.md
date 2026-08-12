@@ -14,6 +14,8 @@ related_diseases:
   - "메토트렉세이트 불충분 반응"
   - "TNF 억제제"
   - "인플릭시맙"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
 question_type: management
 difficulty: standard
 answer: D

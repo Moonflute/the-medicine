@@ -12,6 +12,9 @@ specialty: 05 신장
 related_diseases:
   - "renal artery stenosis"
   - "resistant hypertension"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
 question_type: investigation
 difficulty: complex
 answer: D

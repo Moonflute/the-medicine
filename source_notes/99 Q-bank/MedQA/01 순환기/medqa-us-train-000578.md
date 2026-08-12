@@ -12,6 +12,8 @@ specialty: 01 순환기
 related_diseases:
   - "Aortic dissection"
   - "Marfan syndrome"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "surfactant deficiency"
   - "prematurity"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Zi47Z2h6rOk656AIOymne2bhOq1sCAoUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

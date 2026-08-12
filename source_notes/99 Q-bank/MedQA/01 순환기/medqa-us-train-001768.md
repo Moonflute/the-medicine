@@ -13,6 +13,10 @@ related_diseases:
   - "acute aortic dissection"
   - "cardiac tamponade"
   - "aortic regurgitation"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-yLrOyepSDriIzrprzspp0gKENhcmRpYWMgVGFtcG9uYWRlKS5tZA
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDsl63rpZggKEFvcnRpYyBSZWd1cmdpdGF0aW9uKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

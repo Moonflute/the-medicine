@@ -13,6 +13,9 @@ related_diseases:
   - "전기화상"
   - "횡문근융해증"
   - "미오글로빈성 급성신손상"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yghOq4sCDtmZTsg4EgKEVsZWN0cmljYWwgQnVybikubWQ
+  - MDUg7Iug7J6lL-2aoeusuOq3vOycte2VtOymnSAoUmhhYmRvbXlvbHlzaXMpLm1k
 question_type: mechanism
 difficulty: complex
 answer: B

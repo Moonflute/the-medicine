@@ -14,6 +14,8 @@ related_diseases:
   - "안면 발작성 통증"
   - "카르바마제핀"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sgrzssKjsi6Dqsr3thrUgKFRyaWdlbWluYWwgbmV1cmFsZ2lhKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

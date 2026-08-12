@@ -12,6 +12,8 @@ specialty: 01 순환기
 related_diseases:
   - "supraventricular tachycardia"
   - "Valsalva maneuver"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uwnOyekeyEsSDsg4Hsi6zsi6TshLEg67mI66elIChQYXJveHlzbWFsIFN1cHJhdmVudHJpY3VsYXIgVGFjaHljYXJkaWEgKFBTVlQpLm1k
 question_type: management
 difficulty: complex
 answer: A

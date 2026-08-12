@@ -14,6 +14,8 @@ related_diseases:
   - "겐타마이신 유발 악화"
   - "혈장교환술"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_spJHspp0g6re866y066Cl7KadIChNeWFzdGhlbmlhIGdyYXZpcykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

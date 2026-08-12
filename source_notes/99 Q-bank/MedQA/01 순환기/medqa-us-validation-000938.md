@@ -13,6 +13,8 @@ related_diseases:
   - "이첨 대동맥판"
   - "대동맥판 협착"
   - "수축기 박출성 잡음"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

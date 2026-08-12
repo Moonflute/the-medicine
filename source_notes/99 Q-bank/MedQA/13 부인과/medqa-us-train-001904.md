@@ -14,6 +14,9 @@ related_diseases:
   - "pelvic inflammatory disease"
   - "hysterosalpingography"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
+  - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

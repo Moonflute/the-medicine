@@ -13,7 +13,10 @@ related_diseases:
   - "alcohol withdrawal seizure"
   - "generalized tonic-clonic seizure"
   - "lorazepam"
+  - "Alcohol withdrawal seizure"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rsJzsnpEgKFNlaXp1cmUpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

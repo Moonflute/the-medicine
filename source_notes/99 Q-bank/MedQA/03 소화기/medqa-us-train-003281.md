@@ -14,6 +14,7 @@ related_diseases:
   - "decision-making capacity"
   - "advance directive"
   - "surrogate decision maker"
+related_disease_slugs: []
 question_type: ethics
 difficulty: standard
 answer: A

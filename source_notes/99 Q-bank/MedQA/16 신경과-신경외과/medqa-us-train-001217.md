@@ -12,6 +12,8 @@ specialty: 16 신경과-신경외과
 related_diseases:
   - "Parkinson disease"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjIztgqjsiqgg7Kad7ZuE6rWwIChQYXJraW5zb25pc20pLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

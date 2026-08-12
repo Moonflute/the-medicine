@@ -13,6 +13,9 @@ related_diseases:
   - "erythema nodosum"
   - "sarcoidosis"
   - "panniculitis"
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-qysOygiCDtmY3rsJggKEVyeXRoZW1hIE5vZG9zdW0pLm1k
+  - MDIg7Zi47Z2h6riwL-ycoOycoeyiheymnSAoU2FyY29pZG9zaXMpLm1k
 question_type: investigation
 difficulty: standard
 answer: C

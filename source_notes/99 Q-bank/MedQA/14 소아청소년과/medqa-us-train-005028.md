@@ -14,6 +14,8 @@ related_diseases:
   - "전방포도막염"
   - "항핵항체 양성"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM7JWE6riwIO2KueuwnOyEsSDqtIDsoIjsl7wgKEp1dmVuaWxlIElkaW9wYXRoaWMgQXJ0aHJpdGlzKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

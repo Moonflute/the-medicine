@@ -17,6 +17,11 @@ related_diseases:
   - "하지 부종"
   - "단백뇨"
   - "지방 원주"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEgQu2YlSDqsITsl7wgKENocm9uaWMgSGVwYXRpdGlzIEIgKEhCVikpLm1k
+  - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
+  - MDUg7Iug7J6lL-uLqOuwseuHqC5tZA
+  - MDUg7Iug7J6lL-yLoOygleunpSDtmIjsoITspp0gKFJlbmFsIFZlaW4gVGhyb21ib3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

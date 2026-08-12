@@ -13,6 +13,8 @@ related_diseases:
   - "심부전"
   - "에플레레논"
   - "알도스테론 길항제"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: prognosis
 difficulty: complex
 answer: A

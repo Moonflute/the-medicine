@@ -13,6 +13,9 @@ related_diseases:
   - "장티푸스"
   - "Salmonella Typhi"
   - "장미진"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yepe2LsO2RuOyKpCAoVHlwaG9pZCBGZXZlcikubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64-M67Cc7KeEIChFeGFudGhlbSBTdWJpdHVtKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

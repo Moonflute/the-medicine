@@ -14,6 +14,9 @@ related_diseases:
   - "meningitis workup"
   - "CSF PCR"
 question_type: investigation
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsl7wgKE1lbmluZ29lbmNlcGhhbGl0aXMpLm1k
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsooUgKE1lbmluZ2lvbWEpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

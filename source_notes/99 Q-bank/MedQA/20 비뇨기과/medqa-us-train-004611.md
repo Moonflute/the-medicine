@@ -14,6 +14,8 @@ related_diseases:
   - "신장산통"
   - "폐쇄성 요로병증"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

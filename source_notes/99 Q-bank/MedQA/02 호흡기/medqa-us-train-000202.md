@@ -14,6 +14,8 @@ related_diseases:
   - "shortness of breath"
   - "pleuritic chest pain"
   - "digital clubbing"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

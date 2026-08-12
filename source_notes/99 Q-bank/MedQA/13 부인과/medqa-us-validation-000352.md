@@ -14,6 +14,9 @@ related_diseases:
   - "이차성 월경통"
   - "복합 경구피임약"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nspp0gKEVuZG9tZXRyaW9zaXMpLm1k
+  - MTMg67aA7J246rO8L-qyveq1rO2UvOyehOyVvSAoT3JhbCBDb250cmFjZXB0aXZlcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

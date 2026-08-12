@@ -11,6 +11,8 @@ language: ko
 specialty: 04 내분비
 related_diseases:
   - "Paget disease of bone"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2MjOygnO2KuOuzkSAoUGFnZXQncyBEaXNlYXNlKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

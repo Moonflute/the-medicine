@@ -14,6 +14,8 @@ related_diseases:
   - "품행장애"
   - "antisocial personality disorder"
 question_type: prognosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2SiO2WiSDsnqXslaAgKENvbmR1Y3QgRGlzb3JkZXIpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

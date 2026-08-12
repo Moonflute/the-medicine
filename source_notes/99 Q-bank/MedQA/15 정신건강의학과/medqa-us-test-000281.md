@@ -13,6 +13,8 @@ related_diseases:
   - "특정공포증"
   - "비행공포증"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2KueyglSDqs7Xtj6zspp0gKFNwZWNpZmljIFBob2JpYSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

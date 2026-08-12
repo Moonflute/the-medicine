@@ -14,6 +14,8 @@ related_diseases:
   - "폐쇄성 폐질환"
   - "폐기능검사"
   - "DLCO"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: investigation
 difficulty: complex
 answer: B

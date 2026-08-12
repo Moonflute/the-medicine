@@ -14,6 +14,8 @@ related_diseases:
   - "성조숙증"
   - "난소 에스트로겐 분비"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7KGw7IiZ7KadIChTZXh1YWwgUHJlY29jaW91c25lc3MpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

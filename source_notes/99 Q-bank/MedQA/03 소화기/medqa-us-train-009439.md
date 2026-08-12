@@ -13,6 +13,8 @@ related_diseases:
   - "gallstone ileus"
   - "담석성 장폐색"
   - "cholelithiasis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

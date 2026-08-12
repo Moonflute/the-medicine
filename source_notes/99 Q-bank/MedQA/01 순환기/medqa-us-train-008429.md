@@ -13,6 +13,9 @@ related_diseases:
   - "hypertensive emergency"
   - "acute coronary syndrome"
   - "labetalol"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k
 question_type: management
 difficulty: standard
 answer: D

@@ -13,6 +13,8 @@ related_diseases:
   - "sickle cell disease"
   - "functional asplenia"
   - "Howell-Jolly bodies"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: investigation
 difficulty: complex
 answer: C

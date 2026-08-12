@@ -13,6 +13,9 @@ related_diseases:
   - "diabetic peripheral neuropathy"
   - "microvascular damage"
   - "type 2 diabetes mellitus"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: mechanism
 difficulty: complex
 answer: D

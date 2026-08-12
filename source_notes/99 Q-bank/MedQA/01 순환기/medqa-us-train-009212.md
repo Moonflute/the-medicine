@@ -13,6 +13,8 @@ related_diseases:
   - "heart failure with reduced ejection fraction"
   - "박출률 감소 심부전"
   - "ACE inhibitor"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDqsJDshowpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBSZWR1Y2VkIEVqZWN0aW9uIEZyYWN0aW9uIChIRnJFRikpLm1k
 question_type: prognosis
 difficulty: complex
 answer: A

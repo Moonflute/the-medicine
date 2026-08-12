@@ -14,6 +14,8 @@ related_diseases:
   - "Rovsing sign"
   - "right lower quadrant pain"
   - "laparoscopic appendectomy"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_quInshLEg7Lap7IiY7Je8IChBY3V0ZSBBcHBlbmRpY2l0aXMpLm1k
 question_type: management
 difficulty: simple
 answer: D

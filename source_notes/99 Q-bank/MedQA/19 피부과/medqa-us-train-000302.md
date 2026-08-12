@@ -15,6 +15,9 @@ related_diseases:
   - "Lentigo maligna"
   - "Basal cell carcinoma"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yVheyEsSDtnZHsg4nsooUgKE1hbGlnbmFudCBNZWxhbm9tYSkubWQ
+  - MTkg7ZS867aA6rO8L-q4sOyggCDshLjtj6zslZQgKEJhc2FsIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

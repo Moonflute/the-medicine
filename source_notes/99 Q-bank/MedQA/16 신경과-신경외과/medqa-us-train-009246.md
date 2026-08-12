@@ -13,7 +13,9 @@ related_diseases:
   - "common peroneal nerve compression"
   - "총비골신경 압박"
   - "obstetric neuropathy"
+  - "Common peroneal nerve compression"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

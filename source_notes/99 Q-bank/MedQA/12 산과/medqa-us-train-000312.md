@@ -13,6 +13,9 @@ related_diseases:
   - "retained placenta"
   - "postpartum hemorrhage"
 question_type: prognosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yelOulmO2DnOuwmCAoUmV0YWluZWQgUGxhY2VudGEpLm1k
+  - MTIg7IKw6rO8L-yekOq2geydtOyZhOymnSAoVXRlcmluZSBBdG9ueSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

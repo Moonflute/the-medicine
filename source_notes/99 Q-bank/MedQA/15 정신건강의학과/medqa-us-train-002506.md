@@ -15,6 +15,8 @@ related_diseases:
   - "low sodium intake"
   - "lithium reabsorption"
 question_type: adverse_effect
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug7IOd7JWEIOydvOyLnOyXtCAoTmVvbmF0YWwgVHJhbnNpZW50IEZldmVyKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

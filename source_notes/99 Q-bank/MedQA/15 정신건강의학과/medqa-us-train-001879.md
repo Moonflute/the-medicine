@@ -14,6 +14,8 @@ related_diseases:
   - "preventive care"
   - "colorectal cancer screening"
 question_type: prevention
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

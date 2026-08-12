@@ -13,6 +13,8 @@ related_diseases:
   - "Cushing syndrome"
   - "쿠싱증후군"
   - "decreased bone mineral density"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-y_oOyLsSDspp3tm4TqtbAgKEN1c2hpbmcncyBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

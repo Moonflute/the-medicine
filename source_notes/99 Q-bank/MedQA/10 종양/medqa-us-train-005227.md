@@ -14,6 +14,9 @@ related_diseases:
   - "MLH1"
   - "MSH2"
   - "유전성 비용종성 대장암"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snKDsoITshLEg67mE7Jqp7KKF7KadIOuMgOyepeyVlCAoSE5QQ0MpIChIZXJlZGl0YXJ5IE5vbnBvbHlwb3NpcyBDb2xvcmVjdGFsIENhbmNlcikubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
 question_type: prevention
 difficulty: standard
 answer: A

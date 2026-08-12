@@ -14,6 +14,7 @@ related_diseases:
   - "oral contraceptive exposure"
   - "benign liver tumor"
   - "glycogen and lipid accumulation"
+related_disease_slugs: []
 question_type: risk_factor
 difficulty: simple
 answer: C

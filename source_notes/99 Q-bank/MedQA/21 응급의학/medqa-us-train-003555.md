@@ -15,6 +15,8 @@ related_diseases:
   - "intraosseous access"
   - "failed peripheral IV access"
 question_type: management
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "흉부 대동맥 파열"
   - "고속 외상"
   - "종격동 확장"
+  - "Traumatic aortic injury"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -14,6 +14,8 @@ related_diseases:
   - "행동치료"
   - "소아 ADHD"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOydmOugpSDqsrDtlY0g6rO864ukIO2WieuPmSDsnqXslaAgKEFESEQpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

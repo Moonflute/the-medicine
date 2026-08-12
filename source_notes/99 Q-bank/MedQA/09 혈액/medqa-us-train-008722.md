@@ -13,6 +13,8 @@ related_diseases:
   - "aplastic anemia"
   - "pancytopenia"
   - "hypocellular bone marrow"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yerOyDneu2iOufieyEsSDruYjtmIggKEFBKSAoQXBsYXN0aWMgQW5lbWlhIChBQSkpLm1k
 question_type: investigation
 difficulty: complex
 answer: B

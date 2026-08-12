@@ -13,6 +13,9 @@ related_diseases:
   - "원발성 담즙성 담관염"
   - "원발성 경화성 담관염"
   - "항미토콘드리아 항체"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sm5DrsJzshLEg64u07KaZ7ISxIOuLtOq0gOyXvCAoUEJDKSAoUHJpbWFyeSBCaWxpYXJ5IENob2xhbmdpdGlzKS5tZA
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sm5DrsJzshLEg6rK97ZmU7ISxIOuLtOq0gOyXvCAoUFNDKSAoUHJpbWFyeSBTY2xlcm9zaW5nIENob2xhbmdpdGlzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

@@ -14,6 +14,8 @@ related_diseases:
   - "유발성 혈전증"
   - "아픽사반"
 question_type: management
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

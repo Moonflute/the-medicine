@@ -14,6 +14,7 @@ related_diseases:
   - "비강 패킹"
   - "황색포도상구균 독소"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,7 @@ related_diseases:
   - "정상 산후 출혈"
   - "산후 자궁퇴축"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

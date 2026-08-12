@@ -13,6 +13,8 @@ related_diseases:
   - "아미오다론 유발 갑상샘기능저하증"
   - "갑상샘기능저하증"
   - "TSH 상승"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

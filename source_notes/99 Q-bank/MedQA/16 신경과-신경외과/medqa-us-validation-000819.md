@@ -14,6 +14,8 @@ related_diseases:
   - "회내 표류"
   - "일과성 허혈발작"
 question_type: localization
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_snbzqs7zshLEg7ZeI7ZiIIOuwnOyekSAoVHJhbnNpZW50IGlzY2hlbWljIGF0dGFjaykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

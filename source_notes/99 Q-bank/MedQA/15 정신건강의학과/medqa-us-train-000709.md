@@ -12,6 +12,8 @@ specialty: 15 정신건강의학과
 related_diseases:
   - "generalized anxiety disorder"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uylCDrtojslYgg7J6l7JWgIChHZW5lcmFsaXplZCBBbnhpZXR5IERpc29yZGVyKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

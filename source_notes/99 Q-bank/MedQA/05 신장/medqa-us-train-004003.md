@@ -13,6 +13,8 @@ related_diseases:
   - "급성 세뇨관 괴사"
   - "급성 신손상"
   - "아미노글리코사이드 신독성"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

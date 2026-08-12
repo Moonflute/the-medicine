@@ -14,6 +14,8 @@ related_diseases:
   - "pituitary microadenoma"
   - "hypercortisolism"
   - "central obesity and striae"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-y_oOyLseuzkSAoQ3VzaGluZydzIERpc2Vhc2UpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

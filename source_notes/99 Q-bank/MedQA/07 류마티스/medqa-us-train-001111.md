@@ -12,6 +12,9 @@ specialty: 07 류마티스
 related_diseases:
   - "Sjogren syndrome"
   - "Rheumatoid arthritis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
+  - MDcg66WY66eI7Yuw7IqkL-yHvOq3uOugjCDspp3tm4TqtbAgKFNqw7ZncmVuJ3MgU3luZHJvbWUpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

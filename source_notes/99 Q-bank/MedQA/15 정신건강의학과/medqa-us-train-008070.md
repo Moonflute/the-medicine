@@ -14,6 +14,8 @@ related_diseases:
   - "skin-picking disorder"
   - "SSRI"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2UvOu2gOucr-q4sOq4sOyepeyVoCAoRXhjb3JpYXRpb24gRGlzb3JkZXIpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "비포합 고빌리루빈혈증"
   - "신생아 황달"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2ZqeuLrCAoTmVvbmF0YWwgSmF1bmRpY2UpLm1k
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7Trj4Tqs4Qg7KeI7ZmYLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

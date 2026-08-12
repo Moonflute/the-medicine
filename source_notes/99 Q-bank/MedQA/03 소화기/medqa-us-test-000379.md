@@ -13,6 +13,8 @@ related_diseases:
   - "유문부 폐쇄"
   - "소화성 궤양"
   - "위출구 폐쇄"
+  - "Gastric outlet obstruction"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: A

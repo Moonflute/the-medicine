@@ -13,6 +13,9 @@ related_diseases:
   - "다낭성 신장질환"
   - "중증 고칼륨혈증"
   - "응급 혈액투석"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
+  - MDUg7Iug7J6lL-uLpOuCreyEsSDsvantjKUg7KeI7ZmYIChQb2x5Y3lzdGljIEtpZG5leSBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: complex
 answer: A

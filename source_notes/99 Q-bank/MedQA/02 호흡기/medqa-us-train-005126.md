@@ -13,6 +13,8 @@ related_diseases:
   - "소아 경증 지속성 천식"
   - "흡입 코르티코스테로이드"
   - "알부테롤 사용 증가"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: complex
 answer: B

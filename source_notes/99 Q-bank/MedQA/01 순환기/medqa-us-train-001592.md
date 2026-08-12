@@ -13,6 +13,7 @@ related_diseases:
   - "unexplained syncope"
   - "bifascicular block"
   - "implantable loop recorder"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: B

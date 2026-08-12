@@ -13,6 +13,9 @@ related_diseases:
   - "크립토코쿠스 수막염"
   - "크립토코쿠스 네오포르만스"
   - "뇌신경병증"
+  - "Cryptococcal meningitis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2BrOumve2GoOy9lOy_oOyKpOymnSAoQ3J5cHRvY29jY29zaXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

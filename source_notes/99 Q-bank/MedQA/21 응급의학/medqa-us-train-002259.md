@@ -14,6 +14,7 @@ related_diseases:
   - "hemoperitoneum"
   - "exploratory laparotomy"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

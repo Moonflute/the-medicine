@@ -15,6 +15,8 @@ related_diseases:
   - "atrial fibrillation"
   - "contralateral hemiplegia"
 question_type: diagnosis
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

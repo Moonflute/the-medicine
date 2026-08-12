@@ -13,7 +13,9 @@ related_diseases:
   - "플루마제닐"
   - "벤조디아제핀 금단"
   - "경련"
+  - "Benzodiazepine withdrawal"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,7 @@ related_diseases:
   - "위출구 폐색"
   - "비위관 감압"
   - "안전벨트 손상"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: D

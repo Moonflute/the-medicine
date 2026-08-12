@@ -14,6 +14,8 @@ related_diseases:
   - "백일해"
   - "conjunctival hemorrhage"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cx7J287ZW0IChQZXJ0dXNzaXMpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

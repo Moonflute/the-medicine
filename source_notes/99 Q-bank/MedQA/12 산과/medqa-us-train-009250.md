@@ -14,6 +14,9 @@ related_diseases:
   - "HELLP 증후군"
   - "disseminated intravascular coagulation"
 question_type: mechanism
+related_disease_slugs:
+  - MTIg7IKw6rO8L0hFTExQIOymne2bhOq1sCAoSEVMTFAgU3luZHJvbWUpLm1k
+  - MDkg7ZiI7JWhL-2MjOyihSDtmIjqtIDrgrQg7J2R6rOgIChEaXNzZW1pbmF0ZWQgSW50cmF2YXNjdWxhciBDb2FndWxhdGlvbiwgRElDKS5tZA
 difficulty: simple
 answer: A
 translation_status: machine-verified

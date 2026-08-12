@@ -13,6 +13,8 @@ related_diseases:
   - "active pulmonary tuberculosis"
   - "활동성 폐결핵"
   - "RIPE therapy"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOqysO2VtSAoUHVsbW9uYXJ5IFR1YmVyY3Vsb3NpcykubWQ
 question_type: management
 difficulty: complex
 answer: A

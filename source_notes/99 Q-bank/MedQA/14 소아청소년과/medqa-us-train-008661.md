@@ -13,7 +13,11 @@ related_diseases:
   - "severe dehydration"
   - "hypovolemic shock"
   - "sunken anterior fontanelle"
+  - "dehydration"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug7IOd7JWEIOydvOyLnOyXtCAoTmVvbmF0YWwgVHJhbnNpZW50IEZldmVyKS5tZA
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

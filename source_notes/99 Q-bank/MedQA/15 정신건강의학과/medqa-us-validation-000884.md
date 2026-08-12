@@ -14,6 +14,8 @@ related_diseases:
   - "폭식 후 보상행동"
   - "치아 부식"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEse2PreyLneymnSAoQnVsaW1pYSBOZXJ2b3NhKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

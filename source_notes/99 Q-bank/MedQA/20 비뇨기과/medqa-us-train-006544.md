@@ -13,7 +13,10 @@ related_diseases:
   - "복압성 요실금"
   - "요도 과운동성"
   - "Q-tip 검사"
+  - "stress urinary incontinence"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

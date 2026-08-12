@@ -12,6 +12,9 @@ specialty: 07 류마티스
 related_diseases:
   - "reactive arthritis"
   - "postinfectious arthritis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-uwmOydkeyEsSDqtIDsoIjsl7wgKFJlYWN0aXZlIEFydGhyaXRpcykubWQ
+  - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: B

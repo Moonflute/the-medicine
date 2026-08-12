@@ -13,6 +13,8 @@ related_diseases:
   - "무증상 세균뇨"
   - "Enterobacter 집락화"
   - "노인 환자"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-ustOymneyDgSDshLjqt6Drh6ggKEFzeW1wdG9tYXRpYyBCYWN0ZXJpdXJpYSkubWQ
 question_type: management
 difficulty: complex
 answer: D

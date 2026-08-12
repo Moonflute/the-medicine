@@ -14,6 +14,8 @@ related_diseases:
   - "무통성 선홍색 질출혈"
   - "산후출혈 위험"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yghOy5mO2DnOuwmCAoUGxhY2VudGEgUHJldmlhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

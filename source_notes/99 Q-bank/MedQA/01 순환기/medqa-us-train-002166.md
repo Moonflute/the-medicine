@@ -14,6 +14,9 @@ related_diseases:
   - "rheumatic heart disease"
   - "pulmonary edema"
   - "hemoptysis"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yKueuqqO2MkOuniSDtmJHssKkgKE1pdHJhbCBTdGVub3NpcykubWQ
+  - MDEg7Iic7ZmY6riwL-2MkOunieyniO2ZmC5tZA
 question_type: diagnosis
 difficulty: simple
 answer: C

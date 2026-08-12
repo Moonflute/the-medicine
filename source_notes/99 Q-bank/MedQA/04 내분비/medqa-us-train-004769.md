@@ -13,6 +13,9 @@ related_diseases:
   - "제2형 당뇨병"
   - "시타글립틴"
   - "체중 중립적 당뇨병 약물"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: management
 difficulty: complex
 answer: C

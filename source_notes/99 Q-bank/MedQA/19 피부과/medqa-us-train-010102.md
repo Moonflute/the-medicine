@@ -13,7 +13,10 @@ related_diseases:
   - "체부백선"
   - "피부사상균증"
   - "KOH 검사"
+  - "dermatophytosis"
 question_type: investigation
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uwseyEoCAoVGluZWEpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

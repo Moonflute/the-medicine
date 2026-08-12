@@ -13,6 +13,8 @@ related_diseases:
   - "lead poisoning"
   - "basophilic stippling"
   - "occupational exposure"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR64-FIChQb2lzb25pbmcpLm1k
 question_type: investigation
 difficulty: complex
 answer: A

@@ -15,6 +15,8 @@ related_diseases:
   - "CT-guided biopsy"
   - "spinal infection"
 question_type: diagnosis
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

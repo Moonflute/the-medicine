@@ -13,6 +13,9 @@ related_diseases:
   - "당뇨병성 케톤산증"
   - "음이온차 대사성 산증"
   - "제1형 당뇨병"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
+  - MDQg64K067aE67mEL-ygnDHtmJUg64u564eo67ORIChUeXBlIDEgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: diagnosis
 difficulty: simple
 answer: A

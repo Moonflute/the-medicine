@@ -13,6 +13,9 @@ related_diseases:
   - "급성 두드러기"
   - "알레르기성 비염"
   - "좁은앞방각 녹내장"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-uRkOuTnOufrOq4sCAoVXJ0aWNhcmlhKS5tZA
+  - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sCDruYTsl7wgKEFsbGVyZ2ljIFJoaW5pdGlzKS5tZA
 question_type: management
 difficulty: standard
 answer: B

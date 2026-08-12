@@ -13,6 +13,8 @@ related_diseases:
   - "급성 호흡곤란증후군"
   - "비심인성 폐부종"
   - "양측 폐침윤"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4ieyEsSDtmLjtnaHqs6TrnoAg7Kad7ZuE6rWwIChBUkRTKSAoQWN1dGUgUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k
 question_type: investigation
 difficulty: standard
 answer: C

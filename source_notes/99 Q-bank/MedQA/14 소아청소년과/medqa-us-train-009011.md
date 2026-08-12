@@ -14,6 +14,8 @@ related_diseases:
   - "Streptococcus pneumoniae"
   - "amoxicillin"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7J207Je8IChPdGl0aXMgTWVkaWEpLm1k
 difficulty: simple
 answer: A
 translation_status: machine-verified

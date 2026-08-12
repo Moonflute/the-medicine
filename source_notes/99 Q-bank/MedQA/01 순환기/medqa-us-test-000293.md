@@ -13,6 +13,7 @@ related_diseases:
   - "좌심방 점액종"
   - "심장 종양"
   - "전신 색전"
+related_disease_slugs: []
 question_type: prognosis
 difficulty: simple
 answer: C

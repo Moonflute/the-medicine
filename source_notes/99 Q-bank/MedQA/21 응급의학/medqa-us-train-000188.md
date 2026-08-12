@@ -14,6 +14,9 @@ related_diseases:
   - "diabetes"
   - "stroke"
 question_type: management
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

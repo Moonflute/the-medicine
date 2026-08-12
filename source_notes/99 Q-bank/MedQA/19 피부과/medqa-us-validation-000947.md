@@ -13,7 +13,9 @@ related_diseases:
   - "빈대"
   - "구진성 두드러기"
   - "노인요양시설 집단발생"
+  - "Bedbug infestation"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

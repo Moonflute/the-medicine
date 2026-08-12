@@ -14,6 +14,9 @@ related_diseases:
   - "liver metastases"
   - "iron deficiency anemia"
   - "colonoscopy"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
+  - MDkg7ZiI7JWhL-yyoCDqsrDtlY0g67mI7ZiIIChJcm9uIERlZmljaWVuY3kgQW5lbWlhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

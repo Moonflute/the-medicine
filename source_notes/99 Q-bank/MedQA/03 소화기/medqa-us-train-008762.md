@@ -13,6 +13,9 @@ related_diseases:
   - "celiac disease"
   - "vitamin D deficiency"
   - "selective IgA deficiency"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv67mE7YOA66-8IEQg6rKw7ZWN7KadIChWaXRhbWluIEQgRGVmaWNpZW5jeSkubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

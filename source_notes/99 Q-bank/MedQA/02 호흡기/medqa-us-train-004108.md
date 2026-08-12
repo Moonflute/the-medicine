@@ -13,6 +13,10 @@ related_diseases:
   - "천식 악화"
   - "인공호흡기 관련 폐렴"
   - "스트레스성 궤양 예방"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yKpO2KuOugiOyKpOyEsSDqtqTslpEgKFN0cmVzcyBVbGNlcikubWQ
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

@@ -13,6 +13,7 @@ related_diseases:
   - "fat necrosis of breast"
   - "유방 지방괴사"
   - "oil cyst"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

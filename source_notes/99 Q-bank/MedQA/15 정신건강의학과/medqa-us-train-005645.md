@@ -13,7 +13,10 @@ related_diseases:
   - "청소년 자살 위험"
   - "자해"
   - "비밀보장의 예외"
+  - "Major depressive disorder"
 question_type: ethics
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "sickle cell disease"
   - "extravascular hemolysis"
   - "splenomegaly"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOq0gCDsmbgg7Jqp7ZiIIChFeHRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: mechanism
 difficulty: simple
 answer: B

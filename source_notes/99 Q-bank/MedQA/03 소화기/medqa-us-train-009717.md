@@ -13,6 +13,9 @@ related_diseases:
   - "pancreatic adenocarcinoma"
   - "췌장 선암"
   - "Courvoisier sign"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshKDslZQgKEFkZW5vY2FyY2lub21hKS5tZA
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA
 question_type: investigation
 difficulty: standard
 answer: C

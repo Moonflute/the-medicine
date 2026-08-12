@@ -15,6 +15,9 @@ related_diseases:
   - "hypotension"
   - "intramuscular epinephrine"
 question_type: management
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
+  - MDYg7JWM66CI66W06riwL-uRkOuTnOufrOq4sCAoVXJ0aWNhcmlhKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

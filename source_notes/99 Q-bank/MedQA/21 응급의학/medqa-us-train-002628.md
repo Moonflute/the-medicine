@@ -14,6 +14,8 @@ related_diseases:
   - "rib fractures"
   - "chest tube thoracostomy"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-qwiOu5hOu8iCDqs6jsoIggKFJpYiBGcmFjdHVyZSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

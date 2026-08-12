@@ -14,6 +14,8 @@ related_diseases:
   - "비만"
   - "체중 감량"
 question_type: management
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qzqOq0gOygiOyXvCAoT3N0ZW9hcnRocml0aXMpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "재발성 폐렴"
   - "췌장 외분비 기능부전"
 question_type: investigation
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

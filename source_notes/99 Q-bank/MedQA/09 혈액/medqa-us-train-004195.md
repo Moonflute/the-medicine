@@ -13,6 +13,8 @@ related_diseases:
   - "진성적혈구증가증"
   - "혈소판증가증"
   - "저에리트로포이에틴혈증"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ynhOyEsSDsoIHtmIjqtazspp3qsIDspp0gKFBWKSAoUG9seWN5dGhlbWlhIFZlcmEgKFBWKSkubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: D

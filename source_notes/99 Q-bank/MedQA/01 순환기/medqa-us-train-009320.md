@@ -13,6 +13,8 @@ related_diseases:
   - "atrial fibrillation"
   - "심방세동"
   - "cardioembolic stroke"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

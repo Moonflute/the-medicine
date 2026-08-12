@@ -15,6 +15,8 @@ related_diseases:
   - "curtain-like visual field loss"
   - "post-cataract surgery complication"
 question_type: diagnosis
+related_disease_slugs:
+  - MTgg7JWI6rO8L-unneunieuwleumrCAocmV0aW5hbCBkZXRhY2htZW50KS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

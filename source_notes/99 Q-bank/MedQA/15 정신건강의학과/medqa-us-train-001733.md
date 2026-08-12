@@ -14,6 +14,9 @@ related_diseases:
   - "autism spectrum disorder"
   - "motor and vocal tics"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yekO2PkCDsiqTtjpntirjrn7wg7J6l7JWgIChBdXRpc20gU3BlY3RydW0gRGlzb3JkZXIpLm1k
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uanOugmyDsnqXslaAgKFRvdXJldHRlIERpc29yZGVyKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

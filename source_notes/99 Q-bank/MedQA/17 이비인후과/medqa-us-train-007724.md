@@ -14,6 +14,8 @@ related_diseases:
   - "acute bacterial sinusitis"
   - "supportive care"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-q4ieyEsSDrtoDruYTrj5nsl7wgKEFjdXRlIHNpbnVzaXRpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

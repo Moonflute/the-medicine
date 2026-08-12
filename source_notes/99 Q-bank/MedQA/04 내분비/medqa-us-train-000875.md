@@ -11,6 +11,8 @@ language: ko
 specialty: 04 내분비
 related_diseases:
   - "pheochromocytoma"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2BrOuhrOy5nO2ZlOyEuO2PrOyihSAoUGhlb2Nocm9tb2N5dG9tYSkubWQ
 question_type: management
 difficulty: standard
 answer: B

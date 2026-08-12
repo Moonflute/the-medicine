@@ -13,6 +13,10 @@ related_diseases:
   - "pernicious anemia"
   - "vitiligo"
   - "hyperthyroidism"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yVheyEsSDruYjtmIggKFBlcm5pY2lvdXMgQW5lbWlhKS5tZA
+  - MTkg7ZS867aA6rO8L-uwseuwmOymnSAoVml0aWxpZ28pLm1k
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: B

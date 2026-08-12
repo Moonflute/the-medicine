@@ -14,6 +14,9 @@ related_diseases:
   - "신장결석"
   - "혈뇨"
   - "신장 석회화"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-2YiOuHqC5tZA
+  - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 question_type: prognosis
 difficulty: complex
 answer: B

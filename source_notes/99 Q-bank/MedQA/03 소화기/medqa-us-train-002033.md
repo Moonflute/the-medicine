@@ -13,6 +13,10 @@ related_diseases:
   - "anemia of chronic disease"
   - "Crohn disease"
   - "inflammation"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDsp4jtmZgg67mI7ZiIIChBbmVtaWEgb2YgQ2hyb25pYyBEaXNlYXNlKS5tZA
+  - MTMg67aA7J246rO8L-uwlOultO2GqOumsOyDmOyXvCAoQmFydGhvbGluIEdsYW5kIEluZmxhbW1hdGlvbikubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k
 question_type: management
 difficulty: complex
 answer: A

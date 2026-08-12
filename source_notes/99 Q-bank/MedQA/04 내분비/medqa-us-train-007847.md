@@ -13,6 +13,8 @@ related_diseases:
   - "anaplastic thyroid carcinoma"
   - "p53 mutation"
   - "thyroid mass"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmOyVlCAoVGh5cm9pZCBDYW5jZXIpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: D

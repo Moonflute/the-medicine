@@ -13,6 +13,9 @@ related_diseases:
   - "HER2 양성 유방암"
   - "침윤성 유관암"
   - "트라스투주맙"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-y5qOycpOyEsSDsnKDrsKnslZQgKEludmFzaXZlIEJyZWFzdCBDYW5jZXIpLm1k
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: standard
 answer: D

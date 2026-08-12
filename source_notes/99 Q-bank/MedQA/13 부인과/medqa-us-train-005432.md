@@ -13,7 +13,10 @@ related_diseases:
   - "복압성 요실금"
   - "요도 지지술"
   - "중부요도 슬링"
+  - "Stress urinary incontinence"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

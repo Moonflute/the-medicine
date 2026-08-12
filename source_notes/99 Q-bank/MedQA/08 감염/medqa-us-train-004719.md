@@ -13,6 +13,7 @@ related_diseases:
   - "선택적 IgA 결핍"
   - "반복성 호흡기 감염"
   - "체액성 면역결핍"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: C

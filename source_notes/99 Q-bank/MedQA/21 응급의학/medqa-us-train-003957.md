@@ -14,6 +14,7 @@ related_diseases:
   - "고음이온차 대사성 산증"
   - "옥살산염 결정"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

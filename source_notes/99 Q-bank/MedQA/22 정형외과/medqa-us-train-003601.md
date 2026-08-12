@@ -15,6 +15,7 @@ related_diseases:
   - "forefoot pain"
   - "Mulder sign"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

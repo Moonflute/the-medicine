@@ -14,6 +14,8 @@ related_diseases:
   - "흡입 코르티코스테로이드"
   - "구강 백반"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-y5uOuUlOuLpOymnSAoQ2FuZGlkaWFzaXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

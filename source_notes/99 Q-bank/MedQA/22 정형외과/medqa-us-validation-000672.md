@@ -13,7 +13,9 @@ related_diseases:
   - "연골육종"
   - "골반 골종양"
   - "골용해성 병변"
+  - "chondrosarcoma"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

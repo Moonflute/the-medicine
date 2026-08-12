@@ -13,7 +13,9 @@ related_diseases:
   - "decreased fetal movement"
   - "태동 감소"
   - "biophysical profile"
+  - "Fetal distress"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

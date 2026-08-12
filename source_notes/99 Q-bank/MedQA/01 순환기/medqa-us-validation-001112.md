@@ -13,6 +13,9 @@ related_diseases:
   - "울혈성 심부전"
   - "이차성 알도스테론증"
   - "이뇨제 유발 대사성 알칼리증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ydtOywqOyEsSDslYzrj4TsiqTthYzroaDspp0gKFNlY29uZGFyeSBBbGRvc3Rlcm9uaXNtKS5tZA
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

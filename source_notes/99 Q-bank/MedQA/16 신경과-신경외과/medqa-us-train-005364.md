@@ -14,6 +14,8 @@ related_diseases:
   - "상하위 운동뉴런"
   - "릴루졸"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qt7zsnITstpXshLEg7Lih7IKtIOqyve2ZlOymnSAoQW15b3Ryb3BoaWMgbGF0ZXJhbCBzY2xlcm9zaXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

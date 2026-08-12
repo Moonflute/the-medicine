@@ -13,6 +13,8 @@ related_diseases:
   - "약물 유발 급성 췌장염"
   - "푸로세미드"
   - "급성 췌장염"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k
 question_type: etiology
 difficulty: complex
 answer: A

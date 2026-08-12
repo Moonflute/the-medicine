@@ -13,7 +13,9 @@ related_diseases:
   - "intrauterine fetal demise"
   - "second-trimester fetal death"
   - "labor induction"
+  - "Intrauterine fetal death"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

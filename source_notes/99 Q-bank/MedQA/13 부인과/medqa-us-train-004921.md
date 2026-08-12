@@ -14,6 +14,8 @@ related_diseases:
   - "인유두종바이러스 검사"
   - "자궁경부암 선별검사"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

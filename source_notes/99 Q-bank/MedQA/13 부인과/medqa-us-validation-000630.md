@@ -13,7 +13,10 @@ related_diseases:
   - "폐경이행기"
   - "월경 변화"
   - "갑상선기능검사"
+  - "Hypothyroidism"
 question_type: investigation
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ustOymneyDgSDqsJHsg4Hsg5gg6riw64ql7KCA7ZWY7KadIChTdWJjbGluaWNhbCBIeXBvdGh5cm9pZGlzbSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

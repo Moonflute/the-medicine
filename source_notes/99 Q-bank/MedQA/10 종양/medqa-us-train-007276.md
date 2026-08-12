@@ -14,6 +14,7 @@ related_diseases:
   - "세로토닌"
   - "홍조"
   - "분비성 설사"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

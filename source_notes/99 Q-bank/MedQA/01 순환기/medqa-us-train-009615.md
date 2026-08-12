@@ -13,6 +13,8 @@ related_diseases:
   - "tetralogy of Fallot"
   - "팔로사징"
   - "right axis deviation"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7YyU66GcIOyCrOynlSAoVGV0cmFsb2d5IG9mIEZhbGxvdCkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

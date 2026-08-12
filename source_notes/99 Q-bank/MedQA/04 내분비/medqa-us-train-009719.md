@@ -13,6 +13,8 @@ related_diseases:
   - "Hashimoto thyroiditis"
   - "하시모토 갑상선염"
   - "anti-TPO antibody"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2VmOyLnOuqqO2GoCDqsJHsg4Hsg5jsl7wgKEhhc2hpbW90bydzIFRoeXJvaWRpdGlzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

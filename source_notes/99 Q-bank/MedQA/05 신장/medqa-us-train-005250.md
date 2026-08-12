@@ -13,6 +13,8 @@ related_diseases:
   - "신장 유두괴사"
   - "진통제 남용"
   - "혈뇨"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-2YiOuHqC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

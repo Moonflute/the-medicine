@@ -13,6 +13,8 @@ related_diseases:
   - "사르코이드증"
   - "비타민 D 활성화"
   - "고칼슘혈증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: mechanism
 difficulty: standard
 answer: A

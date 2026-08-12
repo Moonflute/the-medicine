@@ -15,6 +15,7 @@ related_diseases:
   - "postpartum headache"
   - "epidural blood patch"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

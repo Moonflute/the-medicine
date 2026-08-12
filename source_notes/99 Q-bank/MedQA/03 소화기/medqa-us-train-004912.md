@@ -13,6 +13,9 @@ related_diseases:
   - "원인불명 하부위장관 출혈"
   - "테크네튬-99 표지 적혈구"
   - "위장관 출혈 국소화"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tlZjrtoAg7JyE7J6l6rSAIOy2nO2YiCAoTG93ZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsnqXqtIAg7Lac7ZiILm1k
 question_type: investigation
 difficulty: standard
 answer: B

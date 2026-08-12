@@ -12,6 +12,8 @@ specialty: 10 종양
 related_diseases:
   - "bleomycin toxicity"
   - "drug-induced interstitial lung disease"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-qwhOyniOyEsSDtj5Dsp4jtmZggKEludGVyc3RpdGlhbCBsdW5nIGRpc2Vhc2UpLm1k
 question_type: mechanism
 difficulty: complex
 answer: A

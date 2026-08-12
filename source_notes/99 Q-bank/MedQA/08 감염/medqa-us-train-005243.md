@@ -13,6 +13,9 @@ related_diseases:
   - "HPV 예방접종"
   - "청소년 예방접종"
   - "사람유두종바이러스"
+  - "Human papillomavirus infection"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u-sOyhsSDsvZjrlJzroZzrp4ggKENvbmR5bG9tYSBBY3VtaW5hdHVtKS5tZA
 question_type: prevention
 difficulty: complex
 answer: C

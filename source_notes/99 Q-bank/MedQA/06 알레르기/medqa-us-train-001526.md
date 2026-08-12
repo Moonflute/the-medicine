@@ -13,6 +13,8 @@ related_diseases:
   - "Chediak-Higashi syndrome"
   - "giant granules"
   - "immunodeficiency"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAvQ2hlZGlhay1IaWdhc2hpIOymne2bhOq1sCAoQ2hlZGlhay1IaWdhc2hpIFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: C

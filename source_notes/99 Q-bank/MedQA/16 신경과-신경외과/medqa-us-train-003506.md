@@ -15,6 +15,8 @@ related_diseases:
   - "lacunar infarct"
   - "contralateral hemiparesis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC9MZW50aWN1bG9zdHJpYXRlIOuPmeunpSDqsr3sg4kgKExlbnRpY3Vsb3N0cmlhdGUgYXJ0ZXJ5IGluZmFyY3Rpb24pLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

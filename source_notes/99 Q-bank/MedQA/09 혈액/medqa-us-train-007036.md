@@ -14,6 +14,8 @@ related_diseases:
   - "다우노루비신"
   - "안트라사이클린 심근병증"
   - "좌심실 기능장애"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA
 question_type: prognosis
 difficulty: complex
 answer: D

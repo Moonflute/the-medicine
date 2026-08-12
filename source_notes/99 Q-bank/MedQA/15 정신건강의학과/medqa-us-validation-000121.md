@@ -14,6 +14,8 @@ related_diseases:
   - "뇌실 확장"
   - "만성 대마초 사용"
 question_type: investigation
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

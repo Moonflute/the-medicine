@@ -14,6 +14,8 @@ related_diseases:
   - "심부 경부 감염"
   - "인두주위 감염"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-2OuOuPhCDso7zsnIQg64aN7JaRIChQZXJpdG9uc2lsbGFyIEFic2Nlc3MpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

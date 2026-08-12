@@ -14,6 +14,9 @@ related_diseases:
   - "소아 부비동염"
   - "천식 악화"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67aA67mE64-Z7Je8IChTaW51c2l0aXMpLm1k
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

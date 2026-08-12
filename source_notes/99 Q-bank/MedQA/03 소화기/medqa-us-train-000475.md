@@ -13,6 +13,9 @@ related_diseases:
   - "scleral icterus"
   - "right upper quadrant abdominal pain"
   - "hyperbilirubinemia"
+  - "Gallstone disease"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
 question_type: investigation
 difficulty: complex
 answer: D

@@ -13,6 +13,9 @@ related_diseases:
   - "severe acute asthma exacerbation"
   - "fever"
   - "right lower lobe consolidation"
+  - "Ventilator-associated pneumonia"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: mechanism
 difficulty: standard
 answer: C

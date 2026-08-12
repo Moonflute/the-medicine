@@ -13,7 +13,9 @@ related_diseases:
   - "cephalopelvic disproportion"
   - "arrest of descent"
   - "prolonged labor"
+  - "Cephalopelvic disproportion"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

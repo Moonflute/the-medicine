@@ -13,6 +13,8 @@ related_diseases:
   - "sickle cell disease"
   - "겸상적혈구병"
   - "β-globin mutation"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

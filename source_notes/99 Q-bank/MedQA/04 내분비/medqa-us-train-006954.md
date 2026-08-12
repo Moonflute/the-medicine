@@ -14,6 +14,8 @@ related_diseases:
   - "티록신 결합 글로불린"
   - "총 T4 증가"
   - "경구피임약"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-qyveq1rO2UvOyehOyVvSAoT3JhbCBDb250cmFjZXB0aXZlcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: D

@@ -14,6 +14,8 @@ related_diseases:
   - "항인지질증후군"
   - "false-positive VDRL"
 question_type: diagnosis
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2VreyduOyngOyniCDspp3tm4TqtbAgKEFudGlwaG9zcGhvbGlwaWQgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

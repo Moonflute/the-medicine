@@ -13,6 +13,8 @@ related_diseases:
   - "congenital diaphragmatic hernia"
   - "neonatal respiratory distress"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKc7ISxIO2aoeqyqeuniSDtg4jsnqUgKENvbmdlbml0YWwgRGlhcGhyYWdtYXRpYyBIZXJuaWEpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "약물 중독"
   - "대마·벤조디아제핀"
 question_type: management
+related_disease_slugs:
+  - MDUg7Iug7J6lL-2aoeusuOq3vOycte2VtOymnSAoUmhhYmRvbXlvbHlzaXMpLm1k
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

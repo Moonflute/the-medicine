@@ -13,6 +13,8 @@ related_diseases:
   - "미코페놀레이트 모페틸"
   - "이식 후 면역억제"
   - "골수억제"
+  - "Mycophenolate-induced bone marrow suppression"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: C

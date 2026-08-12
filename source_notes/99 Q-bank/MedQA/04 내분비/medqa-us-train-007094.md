@@ -14,6 +14,10 @@ related_diseases:
   - "콘 증후군"
   - "저칼륨혈증"
   - "대사성 알칼리증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yVjOuPhOyKpO2FjOuhoOymnSAoQWxkb3N0ZXJvbmlzbSkubWQ
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
+  - MDQg64K067aE67mEL-ybkOuwnOyEsSDslYzrj4TsiqTthYzroaDspp0gKFByaW1hcnkgQWxkb3N0ZXJvbmlzbSkubWQ
 question_type: diagnosis
 difficulty: simple
 answer: A

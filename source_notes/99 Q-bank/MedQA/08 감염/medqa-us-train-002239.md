@@ -14,6 +14,9 @@ related_diseases:
   - "Jarisch-Herxheimer reaction"
   - "benzathine penicillin"
   - "ibuprofen"
+  - "Syphilis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-unpOuPhSAoU3lwaGlsaXMpLm1k
 question_type: adverse_effect
 difficulty: complex
 answer: B

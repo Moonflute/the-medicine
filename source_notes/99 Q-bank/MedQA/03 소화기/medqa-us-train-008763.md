@@ -13,6 +13,10 @@ related_diseases:
   - "iron deficiency anemia"
   - "occult gastrointestinal bleeding"
   - "colorectal cancer screening"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yyoCDqsrDtlY0g67mI7ZiIIChJcm9uIERlZmljaWVuY3kgQW5lbWlhKS5tZA
+  - MTEg7Jm46rO8L-ychOyepeq0gCDstpztmIggKEdhc3Ryb2ludGVzdGluYWwgQmxlZWRpbmcpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
 question_type: investigation
 difficulty: complex
 answer: A

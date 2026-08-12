@@ -14,6 +14,8 @@ related_diseases:
   - "미숙아"
   - "지속성 기계음 심잡음"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64-Z66el6rSAIOqwnOyhtOymnSAoUGF0ZW50IER1Y3R1cyBBcnRlcmlvc3VzKS5tZA
 difficulty: simple
 answer: A
 translation_status: machine-verified

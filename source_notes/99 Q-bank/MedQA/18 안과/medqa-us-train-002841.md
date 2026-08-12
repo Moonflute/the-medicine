@@ -15,6 +15,9 @@ related_diseases:
   - "follicular conjunctivitis"
   - "preauricular lymphadenopathy"
 question_type: management
+related_disease_slugs:
+  - MTgg7JWI6rO8L-qysOyEseyXvCAoQ29uanVuY3Rpdml0aXMpLm1k
+  - MDgg6rCQ7Je8L-yVhOuNsOuFuOuwlOydtOufrOyKpCDqsJDsl7wgKEFkZW5vdmlydXMgSW5mZWN0aW9uKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

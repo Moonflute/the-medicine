@@ -14,6 +14,8 @@ related_diseases:
   - "베타 hCG"
   - "생식세포 종양"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yDneyLnSDshLjtj6wg7KKF7JaRIChHZXJtIENlbGwgVHVtb3IpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

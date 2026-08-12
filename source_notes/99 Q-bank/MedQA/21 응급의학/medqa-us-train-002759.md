@@ -14,7 +14,10 @@ related_diseases:
   - "full-thickness burn"
   - "early excision and grafting"
   - "11% total body surface area"
+  - "Burn"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

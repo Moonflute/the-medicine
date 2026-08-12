@@ -13,6 +13,8 @@ related_diseases:
   - "천식"
   - "운동 유발 기관지수축"
   - "기침형 천식"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: investigation
 difficulty: standard
 answer: A

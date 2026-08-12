@@ -14,6 +14,8 @@ related_diseases:
   - "복강 내 출혈"
   - "위장관 천공"
   - "외상성 복막염"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-q4ieyEsSDrs7Xspp0gKEFjdXRlIEFiZG9tZW4pLm1k
 question_type: management
 difficulty: complex
 answer: C

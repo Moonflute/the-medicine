@@ -13,6 +13,9 @@ related_diseases:
   - "급성 대동맥박리"
   - "고혈압성 응급"
   - "흉통"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "대동맥류 파열"
   - "저혈량성 쇼크"
 question_type: diagnosis
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uzteu2gCDrjIDrj5nrp6XrpZggKEFiZG9taW5hbCBBb3J0aWMgQW5ldXJ5c20pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

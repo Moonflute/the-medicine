@@ -15,6 +15,8 @@ related_diseases:
   - "parotid enlargement"
   - "fluoxetine"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEse2PreyLneymnSAoQnVsaW1pYSBOZXJ2b3NhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -15,6 +15,8 @@ related_diseases:
   - "당뇨병성 족부궤양"
   - "프레가발린"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

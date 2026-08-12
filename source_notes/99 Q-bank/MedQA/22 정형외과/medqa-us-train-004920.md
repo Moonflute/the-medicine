@@ -14,6 +14,8 @@ related_diseases:
   - "알렌드로네이트"
   - "비스포스포네이트 복용법"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

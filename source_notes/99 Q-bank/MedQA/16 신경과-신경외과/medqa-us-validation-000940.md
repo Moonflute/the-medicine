@@ -14,6 +14,8 @@ related_diseases:
   - "서동증"
   - "렘수면행동장애"
 question_type: investigation
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ugmOyImOuptCDtlonrj5kg7J6l7JWgIChSRU0gU2xlZXAgQmVoYXZpb3IgRGlzb3JkZXIpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

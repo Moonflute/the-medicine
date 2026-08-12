@@ -13,6 +13,9 @@ related_diseases:
   - "hyperosmolar hyperglycemic state"
   - "hypokalemia"
   - "potassium replacement before insulin"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOyCvO2IrOyVleyEsSDqs6DtmIjri7kg7IOB7YOcIChISFMpIChIeXBlcm9zbW9sYXIgSHlwZXJnbHljZW1pYyBTdGF0ZSkubWQ
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
 question_type: management
 difficulty: complex
 answer: B

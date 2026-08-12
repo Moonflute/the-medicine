@@ -13,6 +13,8 @@ related_diseases:
   - "다혈관 관상동맥질환"
   - "허혈성 심근병증"
   - "관상동맥 우회술"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: 임상증례 객관식
 difficulty: standard
 answer: A

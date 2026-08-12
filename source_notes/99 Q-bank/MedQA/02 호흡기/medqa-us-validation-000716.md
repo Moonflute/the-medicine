@@ -13,6 +13,8 @@ related_diseases:
   - "고립성 폐결절"
   - "3년간 안정"
   - "폐암 평가"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 question_type: investigation
 difficulty: standard
 answer: A

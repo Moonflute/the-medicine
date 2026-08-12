@@ -14,6 +14,9 @@ related_diseases:
   - "무증상 세균뇨"
   - "USPSTF 선별검사"
 question_type: prevention
+related_disease_slugs:
+  - MDUg7Iug7J6lL-ustOymneyDgSDshLjqt6Drh6ggKEFzeW1wdG9tYXRpYyBCYWN0ZXJpdXJpYSkubWQ
+  - MTIg7IKw6rO8L-ustOymneyDgSDshLjqt6Drh6ggKEFzeW1wdG9tYXRpYyBCYWN0ZXJpdXJpYSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

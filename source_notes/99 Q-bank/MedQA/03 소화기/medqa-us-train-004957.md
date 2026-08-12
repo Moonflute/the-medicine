@@ -13,6 +13,8 @@ related_diseases:
   - "간경변"
   - "티록신결합글로불린"
   - "간 합성기능 저하"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: D

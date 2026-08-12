@@ -13,6 +13,8 @@ related_diseases:
   - "폰빌레브란트병"
   - "점막 출혈"
   - "데스모프레신"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2PsCDruYzroIjruIzrnoDtirjrs5EgKHZvbiBXaWxsZWJyYW5kIERpc2Vhc2UsIHZXRCkubWQ
 question_type: management
 difficulty: complex
 answer: D

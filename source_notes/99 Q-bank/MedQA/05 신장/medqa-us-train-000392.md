@@ -12,6 +12,8 @@ specialty: 05 신장
 related_diseases:
   - "rheumatoid arthritis"
   - "amyloidosis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

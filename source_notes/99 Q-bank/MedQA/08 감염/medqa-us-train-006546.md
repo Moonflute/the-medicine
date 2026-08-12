@@ -13,6 +13,7 @@ related_diseases:
   - "세균성 혈관종증"
   - "Bartonella henselae"
   - "진행된 HIV 감염"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

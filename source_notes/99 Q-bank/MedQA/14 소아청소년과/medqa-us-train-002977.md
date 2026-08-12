@@ -15,6 +15,7 @@ related_diseases:
   - "language development"
   - "age 2 years"
 question_type: other
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

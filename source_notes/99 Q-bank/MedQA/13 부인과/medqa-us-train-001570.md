@@ -14,6 +14,9 @@ related_diseases:
   - "hydronephrosis"
   - "pelvic organ prolapse"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDtg4jstpwgKFV0ZXJpbmUgUHJvbGFwc2UpLm1k
+  - MjAg67mE64eo6riw6rO8L-yalOuhnCDtj5Dsg4kgKFVyaW5hcnkgdHJhY3Qgb2JzdHJ1Y3Rpb24pLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

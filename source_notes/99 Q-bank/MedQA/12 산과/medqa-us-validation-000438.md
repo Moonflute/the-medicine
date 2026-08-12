@@ -13,7 +13,9 @@ related_diseases:
   - "임신성 간내 담즙정체"
   - "담즙산 상승"
   - "우르소데옥시콜산"
+  - "Intrahepatic cholestasis of pregnancy"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

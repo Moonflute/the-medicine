@@ -12,6 +12,9 @@ specialty: 09 혈액
 related_diseases:
   - "polycythemia vera"
   - "essential thrombocythemia"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ynhOyEsSDsoIHtmIjqtazspp3qsIDspp0gKFBWKSAoUG9seWN5dGhlbWlhIFZlcmEgKFBWKSkubWQ
+  - MDkg7ZiI7JWhL-uzuO2DnOyEsSDtmIjshoztjJDspp3qsIDspp0gKEVUKSAoRXNzZW50aWFsIFRocm9tYm9jeXRoZW1pYSAoRVQpKS5tZA
 question_type: management
 difficulty: complex
 answer: B

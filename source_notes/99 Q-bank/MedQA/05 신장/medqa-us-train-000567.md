@@ -15,6 +15,11 @@ related_diseases:
   - "cachexia"
   - "hyponatremia"
   - "SIADH"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDUg7Iug7J6lL-q4sOyiheyEsSDsi6DsmrDsi6Dsl7wgKEVtcGh5c2VtYXRvdXMgUHllbG9uZXBocml0aXMpLm1k
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
+  - MDQg64K067aE67mEL-2VreydtOuHqO2YuOultOuqrCDrtoDsoIHsoIgg67aE67mEIOymne2bhOq1sCAoU0lBREgpIChTeW5kcm9tZSBvZiBJbmFwcHJvcHJpYXRlIEFudGlkaXVyZXRpYyBIb3Jtb25lIFNlY3JldGlvbiAoU0lBREgpKS5tZA
 question_type: management
 difficulty: complex
 answer: C

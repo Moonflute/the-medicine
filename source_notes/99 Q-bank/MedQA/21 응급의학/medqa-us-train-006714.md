@@ -14,6 +14,9 @@ related_diseases:
   - "중증 고칼륨혈증"
   - "외상성 압궤손상"
 question_type: management
+related_disease_slugs:
+  - MDUg7Iug7J6lL-2aoeusuOq3vOycte2VtOymnSAoUmhhYmRvbXlvbHlzaXMpLm1k
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

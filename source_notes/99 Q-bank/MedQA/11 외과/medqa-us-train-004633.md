@@ -13,6 +13,8 @@ related_diseases:
   - "후복막 출혈"
   - "복부 둔상"
   - "출혈성 쇼크"
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: management
 difficulty: complex
 answer: B

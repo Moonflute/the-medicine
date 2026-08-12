@@ -14,6 +14,8 @@ related_diseases:
   - "후두기관염"
   - "흡기성 천명"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7YGs66O5IChDcm91cCkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "종양용해증후군"
   - "급성 신손상"
   - "고요산혈증"
+related_disease_slugs:
+  - MTAg7KKF7JaRL-yiheyWkSDsmqntlbQg7Kad7ZuE6rWwIChUdW1vciBMeXNpcyBTeW5kcm9tZSkubWQ
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 question_type: mechanism
 difficulty: complex
 answer: D

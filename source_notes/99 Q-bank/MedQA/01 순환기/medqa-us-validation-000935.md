@@ -13,6 +13,8 @@ related_diseases:
   - "수축성 심낭염"
   - "결핵"
   - "경정맥압 파형"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rs7XsiJggKOqysO2VtSkgKEFzY2l0ZXMgKFR1YmVyY3Vsb3NpcykpLm1k
 question_type: mechanism
 difficulty: complex
 answer: B

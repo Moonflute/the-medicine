@@ -14,6 +14,7 @@ related_diseases:
   - "후복막 출혈"
   - "post-catheterization bleeding"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

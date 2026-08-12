@@ -14,6 +14,8 @@ related_diseases:
   - "구루병"
   - "페니토인 유발 골연화증"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv67mE7YOA66-8IEQg6rKw7ZWN7KadIChWaXRhbWluIEQgRGVmaWNpZW5jeSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

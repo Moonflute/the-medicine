@@ -14,6 +14,9 @@ related_diseases:
   - "hypertension"
   - "diabetes mellitus type II"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-q4sOyggCDshLjtj6zslZQgKEJhc2FsIENlbGwgQ2FyY2lub21hKS5tZA
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: simple
 answer: A
 translation_status: machine-verified

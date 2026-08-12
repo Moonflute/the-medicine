@@ -14,6 +14,9 @@ related_diseases:
   - "섭식장애"
   - "부프로피온 발작 위험"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEseyLneyaleu2gOynhOymnSAoQW5vcmV4aWEgTmVydm9zYSkubWQ
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytCDspp3sg4Eg67CPIOq0gOugqCDsnqXslaAgKFNvbWF0aWMgU3ltcHRvbSBhbmQgUmVsYXRlZCBEaXNvcmRlcnMpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

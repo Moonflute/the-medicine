@@ -13,6 +13,9 @@ related_diseases:
   - "bilateral renal artery stenosis"
   - "ACE inhibitor"
   - "acute kidney injury"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
+  - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
 question_type: adverse_effect
 difficulty: complex
 answer: C

@@ -13,7 +13,10 @@ related_diseases:
   - "thiamine deficiency"
   - "cerebellar ataxia"
   - "Wernicke encephalopathy"
+  - "Varicella"
 question_type: diagnosis
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yImOuRkC3rjIDsg4Htj6zsp4Qg67CU7J2065-s7IqkIOqwkOyXvCAoVmFyaWNlbGxhLVpvc3RlciBWaXJ1cyBJbmZlY3Rpb24pLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

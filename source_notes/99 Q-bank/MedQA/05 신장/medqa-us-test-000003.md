@@ -13,6 +13,8 @@ related_diseases:
   - "콜레스테롤 색전증"
   - "그물울혈반"
   - "심장도관술 합병증"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoOuPmeunpSDtmIjsoITsg4nsoITspp0gKFJlbmFsIEFydGVyeSBUaHJvbWJvZW1ib2xpc20pLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

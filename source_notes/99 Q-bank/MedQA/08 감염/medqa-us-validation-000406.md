@@ -13,6 +13,9 @@ related_diseases:
   - "말라리아"
   - "용혈성 빈혈"
   - "혈액도말검사"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-unkOudvOumrOyVhCAoTWFsYXJpYSkubWQ
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: investigation
 difficulty: complex
 answer: C

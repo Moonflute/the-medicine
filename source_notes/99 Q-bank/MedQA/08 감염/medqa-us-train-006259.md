@@ -13,6 +13,9 @@ related_diseases:
   - "구강 칸디다증"
   - "비호지킨 림프종"
   - "항암화학요법"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-y5uOuUlOuLpOymnSAoQ2FuZGlkaWFzaXMpLm1k
+  - MDkg7ZiI7JWhL-u5hO2YuOyngO2CqCDrprztlITsooUgKE5vbi1Ib2Rna2luIEx5bXBob21hKS5tZA
 question_type: management
 difficulty: standard
 answer: B

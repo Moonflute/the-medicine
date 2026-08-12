@@ -13,6 +13,9 @@ related_diseases:
   - "피부근염"
   - "염증성 근병증"
   - "간질성 폐질환"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yXvOymneyEsSDqt7zrs5Hspp0gKEluZmxhbW1hdG9yeSBNeW9wYXRoeSkubWQ
+  - MDIg7Zi47Z2h6riwL-qwhOyniOyEsSDtj5Dsp4jtmZggKEludGVyc3RpdGlhbCBsdW5nIGRpc2Vhc2UpLm1k
 question_type: investigation
 difficulty: complex
 answer: A

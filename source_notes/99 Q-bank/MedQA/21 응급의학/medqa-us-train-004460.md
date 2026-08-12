@@ -14,6 +14,8 @@ related_diseases:
   - "뇌출혈"
   - "급성 신경학적 결손"
 question_type: investigation
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

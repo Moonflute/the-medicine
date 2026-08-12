@@ -13,6 +13,9 @@ related_diseases:
   - "제균 실패 H. pylori"
   - "구제요법"
   - "레보플록사신"
+  - "Helicobacter pylori infection"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9ILnB5bG9yaSDqsJDsl7wgKEgucHlsb3JpIEluZmVjdGlvbikubWQ
 question_type: management
 difficulty: standard
 answer: B

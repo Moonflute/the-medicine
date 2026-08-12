@@ -13,6 +13,8 @@ related_diseases:
   - "statin adverse effect"
   - "스타틴 이상반응"
   - "elevated liver enzymes"
+  - "Statin-induced liver injury"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

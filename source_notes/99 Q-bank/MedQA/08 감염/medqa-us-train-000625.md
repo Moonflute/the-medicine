@@ -12,6 +12,9 @@ specialty: 08 감염
 related_diseases:
   - "acute myeloid leukemia"
   - "graft-versus-host disease"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA
+  - MTEg7Jm46rO8L-yImO2YiCDqtIDroKgg7J207Iud7Y64IOuMgCDsiJnso7wg67CY7J2RIChUcmFuc2Z1c2lvbi1Bc3NvY2lhdGVkIEdyYWZ0LXZlcnN1cy1Ib3N0IERpc2Vhc2UpLm1k
 question_type: mechanism
 difficulty: standard
 answer: D

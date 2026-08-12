@@ -14,6 +14,7 @@ related_diseases:
   - "sexually transmitted infection"
   - "mucopurulent discharge"
 question_type: ethics
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

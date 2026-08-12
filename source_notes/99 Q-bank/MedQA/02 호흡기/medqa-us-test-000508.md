@@ -13,6 +13,9 @@ related_diseases:
   - "병원획득폐렴"
   - "그람음성균 폐렴"
   - "녹농균 위험"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-ygle2YlSDtj5DroLQgKFR5cGljYWwgUG5ldW1vbmlhKS5tZA
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: management
 difficulty: complex
 answer: D

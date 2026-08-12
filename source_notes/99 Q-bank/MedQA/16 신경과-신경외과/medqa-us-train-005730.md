@@ -14,6 +14,7 @@ related_diseases:
   - "뇌졸중 위험"
   - "혈압 조절"
 question_type: prevention
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,7 +13,10 @@ related_diseases:
   - "epilepsy in pregnancy"
   - "임신 중 간질"
   - "folic acid supplementation"
+  - "Epilepsy"
 question_type: prevention
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsoITspp0gKEVwaWxlcHN5KS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

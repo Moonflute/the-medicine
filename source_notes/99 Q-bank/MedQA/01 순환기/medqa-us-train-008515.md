@@ -13,6 +13,9 @@ related_diseases:
   - "constrictive pericarditis"
   - "tuberculous pericarditis"
   - "pericardiectomy"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q1kOywqSDsi6zrp4nsl7wgKENvbnN0cmljdGl2ZSBQZXJpY2FyZGl0aXMpLm1k
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrp4nsl7wgKEFjdXRlIFBlcmljYXJkaXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: B

@@ -11,6 +11,8 @@ language: ko
 specialty: 01 순환기
 related_diseases:
   - "coarctation of the aorta"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA64-Z66elIOy2leywqSAoQ29hcmN0YXRpb24gb2YgdGhlIEFvcnRhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

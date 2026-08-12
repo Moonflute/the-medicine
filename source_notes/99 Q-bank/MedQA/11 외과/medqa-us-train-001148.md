@@ -11,6 +11,7 @@ language: ko
 specialty: 11 외과
 related_diseases:
   - "hemorrhoids"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

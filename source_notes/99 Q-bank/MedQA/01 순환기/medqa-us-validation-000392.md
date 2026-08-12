@@ -13,6 +13,8 @@ related_diseases:
   - "ACE 억제제 유발 기침"
   - "고칼륨혈증"
   - "리시노프릴"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: A

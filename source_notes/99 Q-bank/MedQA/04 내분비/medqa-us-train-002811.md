@@ -14,6 +14,8 @@ related_diseases:
   - "elevated bone-specific alkaline phosphatase"
   - "osteolytic and osteoblastic lesions"
   - "normal GGT"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2MjOygnO2KuOuzkSAoUGFnZXQncyBEaXNlYXNlKS5tZA
 question_type: risk_factor
 difficulty: complex
 answer: A

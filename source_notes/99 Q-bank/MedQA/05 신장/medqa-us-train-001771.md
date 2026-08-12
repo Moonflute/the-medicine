@@ -13,6 +13,8 @@ related_diseases:
   - "acute interstitial nephritis"
   - "rifampin hypersensitivity"
   - "drug-induced kidney injury"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsvantjKXsl7wgKFR1YnVsb2ludGVyc3RpdGlhbCBOZXBocml0aXMpLm1k
 question_type: management
 difficulty: complex
 answer: C

@@ -11,7 +11,9 @@ language: ko
 specialty: 14 소아청소년과
 related_diseases:
   - "infant botulism"
+  - "Infant botulism"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

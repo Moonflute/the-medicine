@@ -13,6 +13,9 @@ related_diseases:
   - "인공판막 관련 용혈성 빈혈"
   - "혈관 내 용혈"
   - "분열적혈구"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOq0gCDrgrQg7Jqp7ZiIIChJbnRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: A

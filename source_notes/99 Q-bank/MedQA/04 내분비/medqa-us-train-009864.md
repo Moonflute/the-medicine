@@ -13,6 +13,9 @@ related_diseases:
   - "피오글리타존"
   - "방광암"
   - "제2형 당뇨병"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-uwqeq0keyVlCAoQmxhZGRlciBjYW5jZXIpLm1k
+  - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: management
 difficulty: simple
 answer: D

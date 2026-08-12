@@ -14,7 +14,9 @@ related_diseases:
   - "sucking chest wound"
   - "three-sided occlusive dressing"
   - "penetrating chest trauma"
+  - "Open pneumothorax"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

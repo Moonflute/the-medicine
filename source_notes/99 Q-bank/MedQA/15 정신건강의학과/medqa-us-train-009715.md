@@ -14,6 +14,7 @@ related_diseases:
   - "양극성 조증"
   - "lithium monitoring"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

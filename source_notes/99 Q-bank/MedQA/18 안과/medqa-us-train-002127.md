@@ -15,6 +15,8 @@ related_diseases:
   - "corneal injury"
   - "irrigation"
 question_type: management
+related_disease_slugs:
+  - MTgg7JWI6rO8L-2ZlO2Vme2ZlOyDgSAoY2hlbWljYWwgYnVybikubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

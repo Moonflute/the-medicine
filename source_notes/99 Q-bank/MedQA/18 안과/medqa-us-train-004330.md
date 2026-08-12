@@ -13,7 +13,10 @@ related_diseases:
   - "수막종"
   - "시신경 압박"
   - "결핍성 동공반응"
+  - "Meningioma"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsooUgKE1lbmluZ2lvbWEpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

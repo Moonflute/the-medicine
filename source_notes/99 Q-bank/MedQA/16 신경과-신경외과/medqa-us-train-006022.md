@@ -14,6 +14,7 @@ related_diseases:
   - "안장부 감각소실"
   - "요실금과 하지마비"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

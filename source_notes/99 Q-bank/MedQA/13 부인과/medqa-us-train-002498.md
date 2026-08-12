@@ -13,7 +13,9 @@ related_diseases:
   - "functional hypothalamic amenorrhea"
   - "hypogonadotropic hypogonadism"
   - "pulsatile GnRH therapy"
+  - "Functional hypothalamic amenorrhea"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

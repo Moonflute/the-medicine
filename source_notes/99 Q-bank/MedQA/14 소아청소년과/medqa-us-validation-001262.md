@@ -13,7 +13,9 @@ related_diseases:
   - "청색증성 숨참기 발작"
   - "숨참기 발작"
   - "영아 경련"
+  - "Cyanotic breath-holding spell"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

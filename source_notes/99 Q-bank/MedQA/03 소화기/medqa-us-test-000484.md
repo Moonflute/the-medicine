@@ -13,6 +13,9 @@ related_diseases:
   - "간성뇌증"
   - "저칼륨혈증"
   - "알코올성 간경변"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLEg64eM7KadIChIZXBhdGljIEVuY2VwaGFsb3BhdGh5KS5tZA
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
 question_type: management
 difficulty: complex
 answer: C

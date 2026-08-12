@@ -13,6 +13,8 @@ related_diseases:
   - "만성 림프구성 백혈병"
   - "림프구증가증"
   - "전신 림프절병증"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChDTEwpIChDaHJvbmljIEx5bXBob2N5dGljIExldWtlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

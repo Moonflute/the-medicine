@@ -14,6 +14,9 @@ related_diseases:
   - "Immune thrombocytopenia"
   - "Hemophilia"
   - "Bernard-Soulier syndrome"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOyasOuzkSAoSGVtb3BoaWxpYSkubWQ
+  - MDkg7ZiI7JWhL-2KueuwnOyEsSDtmIjshoztjJDqsJDshozshLEg7J6Q67CY7KadIChJZGlvcGF0aGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgSVRQKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -13,6 +13,8 @@ related_diseases:
   - "자궁내번"
   - "산후출혈"
   - "태반 만출 이상"
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geuCtOuyiOymnSAoVXRlcmluZSBJbnZlcnNpb24pLm1k
 question_type: management
 difficulty: complex
 answer: C

@@ -14,6 +14,8 @@ related_diseases:
   - "증식성 망막병증"
   - "레이저 광응고술"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDrp53rp4nrs5Hspp0gKERpYWJldGljIFJldGlub3BhdGh5KS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "pernicious anemia"
   - "intrinsic factor deficiency"
   - "gastric carcinoma"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yVheyEsSDruYjtmIggKFBlcm5pY2lvdXMgQW5lbWlhKS5tZA
 question_type: prognosis
 difficulty: complex
 answer: D

@@ -14,6 +14,8 @@ related_diseases:
   - "facial nerve palsy"
   - "corticosteroid treatment"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uyqOuniOu5hCAoQmVsbCdzIHBhbHN5KS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

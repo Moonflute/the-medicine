@@ -14,6 +14,7 @@ related_diseases:
   - "정중신경병증"
   - "신경전도검사"
 question_type: investigation
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

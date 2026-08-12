@@ -14,6 +14,8 @@ related_diseases:
   - "무세포 태아 DNA"
   - "비침습적 산전검사"
 question_type: prevention
+related_disease_slugs:
+  - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

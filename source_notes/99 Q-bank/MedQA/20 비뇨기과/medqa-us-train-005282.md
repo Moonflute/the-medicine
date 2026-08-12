@@ -14,6 +14,8 @@ related_diseases:
   - "요관방광이행부 결석"
   - "요관경검사"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

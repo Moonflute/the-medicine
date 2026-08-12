@@ -13,7 +13,9 @@ related_diseases:
   - "nasal foreign body"
   - "unilateral foul-smelling discharge"
   - "foreign body extraction"
+  - "Nasal foreign body"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

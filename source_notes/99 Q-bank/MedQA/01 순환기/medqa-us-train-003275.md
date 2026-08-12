@@ -14,6 +14,7 @@ related_diseases:
   - "FBN1 mutation"
   - "superotemporal lens subluxation"
   - "arachnodactyly"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: A

@@ -13,7 +13,10 @@ related_diseases:
   - "생식기 사마귀"
   - "인유두종바이러스"
   - "HPV 백신"
+  - "Genital warts"
 question_type: prevention
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yDneyLneq4sCDsnbjqsIQg7Jyg65GQ7KKFIOuwlOydtOufrOyKpCAoR2VuaXRhbCB3YXJ0cykubWQ
 difficulty: simple
 answer: D
 translation_status: machine-verified

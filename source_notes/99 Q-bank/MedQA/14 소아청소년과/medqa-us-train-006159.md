@@ -14,6 +14,8 @@ related_diseases:
   - "성조숙증"
   - "비만 합병증"
 question_type: prognosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7KGw7IiZ7KadIChTZXh1YWwgUHJlY29jaW91c25lc3MpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

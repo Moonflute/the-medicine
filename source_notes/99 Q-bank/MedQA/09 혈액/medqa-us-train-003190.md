@@ -14,6 +14,8 @@ related_diseases:
   - "TTP pentad"
   - "schistocytes"
   - "SLE association"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOyghOyEsSDtmIjshoztjJDqsJDshowg7J6Q7IOJ67CYIChUaHJvbWJvdGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgVFRQKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

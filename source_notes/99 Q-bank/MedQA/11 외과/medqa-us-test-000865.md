@@ -13,6 +13,8 @@ related_diseases:
   - "복강내출혈"
   - "비장 손상"
   - "외상성 출혈성 쇼크"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-u5hOyepSDshpDsg4EgKFNwbGVuaWMgSW5qdXJ5KS5tZA
 question_type: management
 difficulty: complex
 answer: D

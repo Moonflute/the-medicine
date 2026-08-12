@@ -14,6 +14,8 @@ related_diseases:
   - "portable chest radiograph"
   - "Fournier gangrene"
 question_type: investigation
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q0tOyggOuzkSAoR2FuZ3JlbmUpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

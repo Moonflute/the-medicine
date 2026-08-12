@@ -13,6 +13,9 @@ related_diseases:
   - "류마티스관절염"
   - "항CCP 항체"
   - "염증성 관절염"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpC5tZA
 question_type: investigation
 difficulty: complex
 answer: B

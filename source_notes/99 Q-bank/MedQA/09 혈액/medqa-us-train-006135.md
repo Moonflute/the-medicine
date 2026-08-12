@@ -13,6 +13,9 @@ related_diseases:
   - "겸상적혈구 혈관폐쇄성 위기"
   - "미세혈관 폐쇄"
   - "통증 발작"
+  - "Sickle cell disease"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

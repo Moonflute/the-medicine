@@ -13,6 +13,8 @@ related_diseases:
   - "원발성 담즙성 담관염"
   - "항미토콘드리아 항체"
   - "담즙정체"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sm5DrsJzshLEg64u07KaZ7ISxIOuLtOq0gOyXvCAoUEJDKSAoUHJpbWFyeSBCaWxpYXJ5IENob2xhbmdpdGlzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

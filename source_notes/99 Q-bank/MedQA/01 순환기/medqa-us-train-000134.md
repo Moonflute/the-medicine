@@ -11,6 +11,8 @@ language: ko
 specialty: 01 순환기
 related_diseases:
   - "Situational syncope"
+  - "situational syncope"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: A

@@ -13,6 +13,7 @@ related_diseases:
   - "postinfectious cough"
   - "acute bronchitis"
   - "azithromycin"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

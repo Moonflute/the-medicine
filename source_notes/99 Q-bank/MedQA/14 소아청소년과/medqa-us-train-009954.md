@@ -13,7 +13,10 @@ related_diseases:
   - "백신 유발 발진"
   - "약독화 생백신"
   - "수두 백신"
+  - "Varicella"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IiY65GQIChWYXJpY2VsbGEpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

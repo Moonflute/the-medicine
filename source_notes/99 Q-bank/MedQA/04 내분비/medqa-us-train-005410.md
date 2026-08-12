@@ -13,6 +13,8 @@ related_diseases:
   - "말단비대증"
   - "성장호르몬 과다"
   - "IGF-1 선별검사"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-unkOuLqOu5hOuMgOymnSAoQWNyb21lZ2FseSkubWQ
 question_type: investigation
 difficulty: standard
 answer: B

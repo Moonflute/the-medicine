@@ -14,6 +14,7 @@ related_diseases:
   - "의무 신고"
   - "아동 보호"
 question_type: ethics
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

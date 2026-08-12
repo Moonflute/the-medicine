@@ -14,6 +14,8 @@ related_diseases:
   - "근위축성 측삭경화증"
   - "ventral horn lesion"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qt7zsnITstpXshLEg7Lih7IKtIOqyve2ZlOymnSAoQW15b3Ryb3BoaWMgbGF0ZXJhbCBzY2xlcm9zaXMpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

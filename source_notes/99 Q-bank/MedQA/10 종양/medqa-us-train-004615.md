@@ -13,6 +13,9 @@ related_diseases:
   - "유방 파제트병"
   - "유두 궤양"
   - "유방암"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2MjOygnO2KuOuzkSAoUGFnZXQncyBEaXNlYXNlKS5tZA
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: diagnosis
 difficulty: standard
 answer: D

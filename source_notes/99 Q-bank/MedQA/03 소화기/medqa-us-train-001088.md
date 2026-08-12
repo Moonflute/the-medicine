@@ -14,6 +14,8 @@ related_diseases:
   - "Insulin overdose"
   - "Malnutrition"
   - "Propranolol overdose"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_ruaDrpbgg67mE7JuAIOymne2bhOq1sCAoRHVtcGluZyBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

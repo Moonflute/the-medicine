@@ -14,6 +14,7 @@ related_diseases:
   - "급성 두통"
   - "운동실조"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

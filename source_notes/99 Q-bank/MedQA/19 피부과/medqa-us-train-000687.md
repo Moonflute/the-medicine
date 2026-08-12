@@ -15,6 +15,11 @@ related_diseases:
   - "Herpes zoster"
   - "Stevens-Johnson syndrome"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uLpO2YlSDtmY3rsJggKEVyeXRoZW1hIE11bHRpZm9ybWUpLm1k
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64uo7Iic7Y-s7KeE67CU7J2065-s7IqkIOqwkOyXvCAoSGVycGVzIFNpbXBsZXggVmlydXMgSW5mZWN0aW9uKS5tZA
+  - MTkg7ZS867aA6rO8L-uMgOyDgSDtj6zsp4QgKEhlcnBlcyBab3N0ZXIpLm1k
+  - MTkg7ZS867aA6rO8L-yKpO2LsOu4kOyKpC3sobTsiqgg7Kad7ZuE6rWwLeuPheyEsSDtkZztlLwg6rS07IKsIChTdGV2ZW5zLUpvaG5zb24gU3luZHJvbWUgLSBUb3hpYyBFcGlkZXJtYWwgTmVjcm9seXNpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

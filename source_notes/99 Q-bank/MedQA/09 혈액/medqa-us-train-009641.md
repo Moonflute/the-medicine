@@ -13,6 +13,8 @@ related_diseases:
   - "folate deficiency"
   - "엽산 결핍"
   - "megaloblastic anemia"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qxsOuMgOygge2YiOuqqOq1rCDruYjtmIggKE1lZ2Fsb2JsYXN0aWMgQW5lbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

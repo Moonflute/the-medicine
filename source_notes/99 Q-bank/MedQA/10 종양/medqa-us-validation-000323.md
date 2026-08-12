@@ -13,6 +13,8 @@ related_diseases:
   - "전립선암 골전이"
   - "통증성 골전이"
   - "완화 방사선 치료"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 question_type: management
 difficulty: complex
 answer: B

@@ -13,6 +13,9 @@ related_diseases:
   - "Syndrome of Inappropriate Antidiuretic Hormone"
   - "Sheehan’s syndrome"
   - "Diabetic ketoacidosis"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2VreydtOuHqO2YuOultOuqrCDrtoDsoIHsoIgg67aE67mEIOymne2bhOq1sCAoU0lBREgpIChTeW5kcm9tZSBvZiBJbmFwcHJvcHJpYXRlIEFudGlkaXVyZXRpYyBIb3Jtb25lIFNlY3JldGlvbiAoU0lBREgpKS5tZA
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

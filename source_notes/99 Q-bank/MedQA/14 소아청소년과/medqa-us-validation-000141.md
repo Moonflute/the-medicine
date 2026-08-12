@@ -14,6 +14,8 @@ related_diseases:
   - "에리트로마이신"
   - "영아 분출성 구토"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE64yAIOuCoOusuCDtmJHssKnspp0gKEh5cGVydHJvcGhpYyBQeWxvcmljIFN0ZW5vc2lzKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "human papillomavirus"
   - "anogenital warts"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u-sOyhsSDsvZjrlJzroZzrp4ggKENvbmR5bG9tYSBBY3VtaW5hdHVtKS5tZA
+  - MjAg67mE64eo6riw6rO8L-yDneyLneq4sCDsnbjqsIQg7Jyg65GQ7KKFIOuwlOydtOufrOyKpCAoR2VuaXRhbCB3YXJ0cykubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

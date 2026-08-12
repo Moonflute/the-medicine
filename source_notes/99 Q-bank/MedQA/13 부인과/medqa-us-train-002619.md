@@ -13,7 +13,9 @@ related_diseases:
   - "pregnancy-related pelvic girdle pain"
   - "relaxin"
   - "pelvic ligament laxity"
+  - "pelvic girdle pain"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

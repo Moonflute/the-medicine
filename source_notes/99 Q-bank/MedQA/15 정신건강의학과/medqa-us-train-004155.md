@@ -15,6 +15,8 @@ related_diseases:
   - "과다수면"
   - "연마비"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

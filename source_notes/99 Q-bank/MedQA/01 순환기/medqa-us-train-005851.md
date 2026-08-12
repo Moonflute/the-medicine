@@ -13,6 +13,8 @@ related_diseases:
   - "고칼륨혈증"
   - "약물 유발 고칼륨혈증"
   - "ACE 억제제"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
 question_type: mechanism
 difficulty: standard
 answer: C

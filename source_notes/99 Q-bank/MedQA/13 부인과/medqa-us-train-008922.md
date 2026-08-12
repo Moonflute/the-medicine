@@ -14,6 +14,8 @@ related_diseases:
   - "ascites"
   - "CA-125"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yDge2UvOyEsSDrgpzshozslZQgKEVwaXRoZWxpYWwgT3ZhcmlhbiBDYW5jZXIpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

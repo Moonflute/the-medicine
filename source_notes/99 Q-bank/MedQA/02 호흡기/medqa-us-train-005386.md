@@ -13,6 +13,8 @@ related_diseases:
   - "곤봉지"
   - "폐암 관련 비대성 골관절병증"
   - "호너증후군"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 question_type: association
 difficulty: complex
 answer: A

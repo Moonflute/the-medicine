@@ -14,6 +14,8 @@ related_diseases:
   - "후두기관기관지염"
   - "첨탑 징후"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7YGs66O5IChDcm91cCkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

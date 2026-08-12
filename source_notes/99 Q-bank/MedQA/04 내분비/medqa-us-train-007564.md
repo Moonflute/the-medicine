@@ -14,6 +14,9 @@ related_diseases:
   - "당뇨병성 케톤산증"
   - "베타세포 자가면역 파괴"
   - "항GAD 항체"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ygnDHtmJUg64u564eo67ORIChUeXBlIDEgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

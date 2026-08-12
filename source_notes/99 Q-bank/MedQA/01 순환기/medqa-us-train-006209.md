@@ -13,6 +13,8 @@ related_diseases:
   - "운동 중 협심증"
   - "관상동맥질환"
   - "관상동맥조영술"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: management
 difficulty: complex
 answer: C

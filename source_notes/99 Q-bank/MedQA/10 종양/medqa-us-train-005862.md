@@ -13,6 +13,8 @@ related_diseases:
   - "랑게르한스세포 조직구증"
   - "두개골 골용해성 병변"
   - "소아 골병변"
+  - "Langerhans cell histiocytosis"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: B

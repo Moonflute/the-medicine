@@ -13,6 +13,10 @@ related_diseases:
   - "hereditary spherocytosis"
   - "extravascular hemolysis"
   - "pigment gallstones"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ycoOyghCDqtaztmIjsoIHtmIjqtazspp0gKEhlcmVkaXRhcnkgU3BoZXJvY3l0b3NpcykubWQ
+  - MDkg7ZiI7JWhL-2YiOq0gCDsmbgg7Jqp7ZiIIChFeHRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

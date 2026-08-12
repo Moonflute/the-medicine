@@ -14,6 +14,10 @@ related_diseases:
   - "철결핍성 빈혈"
   - "심근경색 후 약물"
   - "빈혈"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
+  - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
+  - MDEg7Iic7ZmY6riwLyjquInsgqzspp3tm4TqtbApLm1k
 question_type: mechanism
 difficulty: complex
 answer: A

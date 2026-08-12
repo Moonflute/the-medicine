@@ -14,6 +14,9 @@ related_diseases:
   - "adrenal medullary tumor"
   - "paroxysmal hypertension"
   - "catecholamine excess"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2BrOuhrOy5nO2ZlOyEuO2PrOyihSAoUGhlb2Nocm9tb2N5dG9tYSkubWQ
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

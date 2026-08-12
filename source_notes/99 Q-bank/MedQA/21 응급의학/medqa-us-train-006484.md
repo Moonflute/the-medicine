@@ -14,6 +14,8 @@ related_diseases:
   - "교감신경 활성화 증상"
   - "심계항진"
 question_type: investigation
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

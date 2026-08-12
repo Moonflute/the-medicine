@@ -15,6 +15,8 @@ related_diseases:
   - "postictal neurologic deficit"
   - "hemiparesis"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64eM7KCE7KadIOyngOyGjeymnSAoU3RhdHVzIEVwaWxlcHRpY3VzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "관내 유두종"
   - "유방 초음파"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-q0gOuCtCDsnKDrkZDsooUgKEludHJhZHVjdGFsIFBhcGlsbG9tYSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

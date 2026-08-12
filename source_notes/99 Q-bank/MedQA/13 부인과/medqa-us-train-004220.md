@@ -13,7 +13,9 @@ related_diseases:
   - "질경련"
   - "성교통"
   - "골반저 근육 과긴장"
+  - "Vaginismus"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

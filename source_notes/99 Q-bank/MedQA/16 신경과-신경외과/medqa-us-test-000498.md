@@ -14,6 +14,9 @@ related_diseases:
   - "다발성경화증"
   - "구심성 동공운동장애"
 question_type: diagnosis
+related_disease_slugs:
+  - MTgg7JWI6rO8L-yLnOyLoOqyveyXvCAob3B0aWMgbmV1cml0aXMpLm1k
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

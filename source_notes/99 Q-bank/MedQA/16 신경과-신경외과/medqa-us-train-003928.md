@@ -15,6 +15,8 @@ related_diseases:
   - "propranolol"
   - "beta-blocker"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rs7jtg5zshLEg65ao66a8IChFc3NlbnRpYWwgdHJlbW9yKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

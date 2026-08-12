@@ -13,6 +13,8 @@ related_diseases:
   - "achalasia"
   - "식도이완불능증"
   - "esophageal malignancy"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4Qg7J207JmE67aI64ql7KadIChBY2hhbGFzaWEpLm1k
 question_type: investigation
 difficulty: complex
 answer: A

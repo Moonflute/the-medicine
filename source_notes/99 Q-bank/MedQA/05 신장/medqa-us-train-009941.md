@@ -11,6 +11,8 @@ language: ko
 specialty: 05 신장
 related_diseases:
   - "nephrogenic diabetes insipidus"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-y9qe2Mpeq4sOybkCDsmpTrtpXspp0gKE5lcGhyb2dlbmljIERpYWJldGVzIEluc2lwaWR1cykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

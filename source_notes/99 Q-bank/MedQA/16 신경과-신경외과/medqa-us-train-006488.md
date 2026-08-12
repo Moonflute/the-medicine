@@ -13,7 +13,10 @@ related_diseases:
   - "양성 돌발성 체위성 현훈"
   - "체위성 안진"
   - "전정 억제제"
+  - "Benign paroxysmal positional vertigo"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-ydtOyEneymnSAoQmVuaWduIHBhcm94eXNtYWwgcG9zaXRpb25hbCB2ZXJ0aWdvKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

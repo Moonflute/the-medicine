@@ -13,7 +13,9 @@ related_diseases:
   - "tardive dyskinesia"
   - "fluphenazine"
   - "antipsychotic adverse effect"
+  - "Tardive dyskinesia"
 question_type: adverse_effect
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

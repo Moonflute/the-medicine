@@ -13,7 +13,10 @@ related_diseases:
   - "척추 골수염"
   - "경추 골수염"
   - "정맥주사 약물 사용"
+  - "Vertebral osteomyelitis"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

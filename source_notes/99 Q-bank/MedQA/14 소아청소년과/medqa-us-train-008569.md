@@ -13,7 +13,9 @@ related_diseases:
   - "hearing impairment"
   - "conductive hearing loss"
   - "language development"
+  - "hearing loss"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "허브 보충제"
   - "약물 유발 간손상"
 question_type: adverse_effect
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rj4XshLEg6rCE7Je8IChUb3hpYyBIZXBhdGl0aXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

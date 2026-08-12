@@ -14,6 +14,10 @@ related_diseases:
   - "Adjustment disorder"
   - "Major depressive disorder"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2MjOq0tOyggSDquLDrtoQg7KGw7KCIIOu2gOyghCDsnqXslaAgKERpc3J1cHRpdmUgTW9vZCBEeXNyZWd1bGF0aW9uIERpc29yZGVyKS5tZA
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggeydkSDsnqXslaAgKEFkanVzdG1lbnQgRGlzb3JkZXIpLm1k
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

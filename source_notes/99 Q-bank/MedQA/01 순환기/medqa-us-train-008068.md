@@ -13,6 +13,8 @@ related_diseases:
   - "amiodarone hepatotoxicity"
   - "transaminitis"
   - "drug-induced liver injury"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-qwhCDshpDsg4EgKExpdmVyIEluanVyeSkubWQ
 question_type: management
 difficulty: complex
 answer: A

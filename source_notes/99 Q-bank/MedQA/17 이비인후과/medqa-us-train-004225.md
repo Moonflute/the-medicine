@@ -13,7 +13,9 @@ related_diseases:
   - "급성 유양돌기염"
   - "급성 중이염 합병증"
   - "측두골 CT"
+  - "Acute mastoiditis"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

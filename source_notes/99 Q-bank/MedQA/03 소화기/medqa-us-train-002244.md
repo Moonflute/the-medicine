@@ -13,6 +13,7 @@ related_diseases:
   - "Chagas disease"
   - "esophageal achalasia"
   - "barium swallow"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: C

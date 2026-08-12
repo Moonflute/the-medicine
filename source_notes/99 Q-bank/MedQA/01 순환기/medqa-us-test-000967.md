@@ -13,6 +13,8 @@ related_diseases:
   - "재경색"
   - "CK-MB"
   - "심근경색 후 흉통"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwLyjquInsgqzspp3tm4TqtbApLm1k
 question_type: investigation
 difficulty: standard
 answer: B

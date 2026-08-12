@@ -14,6 +14,8 @@ related_diseases:
   - "심장압전"
   - "obstructive shock"
 question_type: mechanism
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOyepSDriIzrprzspp0gKENhcmRpYWMgVGFtcG9uYWRlKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "partial gastrectomy"
   - "jejunal anastomosis"
   - "bacterial overgrowth"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITslZQgKEdhc3RyaWMgQ2FuY2VyKS5tZA
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shLjqt6Ag6rO864uk7Kad7IudIOymne2bhOq1sCAoU21hbGwgSW50ZXN0aW5hbCBCYWN0ZXJpYWwgT3Zlcmdyb3d0aCBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

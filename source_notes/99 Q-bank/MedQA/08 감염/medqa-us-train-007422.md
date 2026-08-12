@@ -14,6 +14,8 @@ related_diseases:
   - "장기이식 후 감염"
   - "간시클로버"
   - "세포질 봉입체"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uptOyXreyggO2VmOyekCDqsJDsl7wgKEltbXVub2NvbXByb21pc2VkIEhvc3QgSW5mZWN0aW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: C

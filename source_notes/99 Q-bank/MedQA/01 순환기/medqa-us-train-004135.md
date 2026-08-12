@@ -13,6 +13,8 @@ related_diseases:
   - "흉벽 통증"
   - "늑연골염"
   - "근골격계 흉통"
+  - "costochondritis"
+related_disease_slugs: []
 question_type: 임상증례 객관식
 difficulty: complex
 answer: C

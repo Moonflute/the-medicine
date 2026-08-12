@@ -14,6 +14,7 @@ related_diseases:
   - "life-saving surgery"
   - "pediatric trauma"
 question_type: ethics
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

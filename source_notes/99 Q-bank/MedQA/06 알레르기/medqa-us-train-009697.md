@@ -13,6 +13,8 @@ related_diseases:
   - "chronic granulomatous disease"
   - "만성 육아종성 질환"
   - "dihydrorhodamine test"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv66eM7ISxIOycoeyVhOyiheyEsSDsp4jtmZggKENocm9uaWMgR3JhbnVsb21hdG91cyBEaXNlYXNlKS5tZA
 question_type: investigation
 difficulty: standard
 answer: B

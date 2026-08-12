@@ -13,7 +13,9 @@ related_diseases:
   - "클로르프로마진"
   - "각막 갈색 침착"
   - "약물 유발 각막병증"
+  - "Chlorpromazine toxicity"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: simple
 answer: A
 translation_status: machine-verified

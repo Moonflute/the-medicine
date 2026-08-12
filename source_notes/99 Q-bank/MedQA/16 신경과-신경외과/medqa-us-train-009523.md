@@ -14,6 +14,7 @@ related_diseases:
   - "에르브 마비"
   - "brachial plexus C5-C6 injury"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,7 @@ related_diseases:
   - "이소트레티노인"
   - "임신 검사"
 question_type: investigation
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

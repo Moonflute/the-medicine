@@ -14,6 +14,7 @@ related_diseases:
   - "사전의료의향서"
   - "대리 의사결정"
 question_type: ethics
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

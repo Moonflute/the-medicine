@@ -14,6 +14,7 @@ related_diseases:
   - "척추 전이"
   - "신경인성 방광"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

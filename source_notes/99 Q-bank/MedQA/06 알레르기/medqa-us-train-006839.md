@@ -13,6 +13,8 @@ related_diseases:
   - "쇼그렌증후군"
   - "건성각결막염"
   - "쉬르머검사 양성"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yHvOq3uOugjCDspp3tm4TqtbAgKFNqw7ZncmVuJ3MgU3luZHJvbWUpLm1k
 question_type: management
 difficulty: complex
 answer: A

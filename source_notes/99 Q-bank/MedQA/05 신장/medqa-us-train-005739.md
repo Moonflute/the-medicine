@@ -13,6 +13,8 @@ related_diseases:
   - "요로결석"
   - "신산통"
   - "신장 초음파"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: A

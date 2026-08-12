@@ -13,6 +13,9 @@ related_diseases:
   - "임신 중 폐색전증"
   - "심부정맥혈전증"
   - "대퇴정맥 비압박"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

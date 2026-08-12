@@ -14,6 +14,8 @@ related_diseases:
   - "이차성 적혈구증가증"
   - "별장 난방기 노출"
 question_type: mechanism
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-ydvOyCsO2ZlO2DhOyGjCDspJHrj4UgKENhcmJvbiBNb25veGlkZSBQb2lzb25pbmcpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

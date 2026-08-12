@@ -15,6 +15,12 @@ related_diseases:
   - "Deep vein thrombosis"
   - "Endometritis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv66y06riw7Y-QIChBdGVsZWN0YXNpcykubWQ
+  - MTIg7IKw6rO8L-ycteuqqCDslpHrp4nsl7wgKENob3Jpb2Ftbmlvbml0aXMpLm1k
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
+  - MTIg7IKw6rO8L-yekOq2gSDrgrTrp4kg6rCQ7Je8IOyngOyXsCAoRGVsYXllZCBQb3N0cGFydHVtIEVuZG9tZXRyaXRpcykubWQ
+  - MTIg7IKw6rO8L-yLrOu2gOygleunpe2YiOyghOymnSAoRGVlcCBWZWluIFRocm9tYm9zaXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

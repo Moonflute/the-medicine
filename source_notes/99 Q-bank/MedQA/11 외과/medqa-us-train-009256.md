@@ -13,6 +13,8 @@ related_diseases:
   - "pancreatic fistula"
   - "췌장루"
   - "postoperative enterocutaneous fistula"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yepSDriITqs7UgKEVudGVyb2N1dGFuZW91cyBGaXN0dWxhKS5tZA
 question_type: management
 difficulty: complex
 answer: C

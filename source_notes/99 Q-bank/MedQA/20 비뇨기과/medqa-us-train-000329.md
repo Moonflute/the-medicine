@@ -15,6 +15,8 @@ related_diseases:
   - "Urinary retention"
   - "Diabetes insipidus"
 question_type: diagnosis
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yalOu2leymnSAoRGlhYmV0ZXMgSW5zaXBpZHVzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

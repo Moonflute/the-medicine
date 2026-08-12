@@ -14,6 +14,8 @@ related_diseases:
   - "고령 여성 선별검사 중단"
   - "HPV 공동검사"
 question_type: prevention
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

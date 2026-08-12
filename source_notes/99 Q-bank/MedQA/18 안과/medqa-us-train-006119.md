@@ -13,7 +13,10 @@ related_diseases:
   - "영아 내사시"
   - "굴절이상 평가"
   - "시클로펜톨레이트 산동"
+  - "Bacterial keratitis"
 question_type: management
+related_disease_slugs:
+  - MTgg7JWI6rO8L-yEuOq3oOqwgeunieq2pOyWkSAoYmFjdGVyaWFsIGNvcm5lYWwgdWxjZXIpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

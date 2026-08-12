@@ -13,6 +13,7 @@ related_diseases:
   - "isoniazid toxicity"
   - "sideroblastic anemia"
   - "pyridoxine deficiency"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

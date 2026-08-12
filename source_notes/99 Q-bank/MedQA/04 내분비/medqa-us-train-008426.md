@@ -13,6 +13,9 @@ related_diseases:
   - "toxic adenoma"
   - "toxic thyroid nodule"
   - "hyperthyroidism"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDqsrDsoIggKFRoeXJvaWQgTm9kdWxlKS5tZA
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

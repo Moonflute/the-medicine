@@ -14,6 +14,8 @@ related_diseases:
   - "menorrhagia"
   - "myomectomy"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "류마티스관절염"
   - "염증성 다발관절염"
   - "자가항체"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpC5tZA
 question_type: investigation
 difficulty: complex
 answer: C

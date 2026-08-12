@@ -13,6 +13,10 @@ related_diseases:
   - "alcohol-associated liver disease"
   - "alcoholic cardiomyopathy"
   - "cirrhosis"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOq3vOuzkeymnSAoQ2FyZGlvbXlvcGF0aHkpLm1k
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_slYzsvZTsmKzshLEg6rCE7KeI7ZmYIChBbGNvaG9saWMgTGl2ZXIgRGlzZWFzZSkubWQ
 question_type: management
 difficulty: complex
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "infective endocarditis"
   - "splenic abscess"
   - "intravenous drug use"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

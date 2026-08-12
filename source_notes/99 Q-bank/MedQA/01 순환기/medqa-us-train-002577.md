@@ -13,6 +13,8 @@ related_diseases:
   - "cocaine-associated acute coronary syndrome"
   - "beta-blocker contraindication"
   - "coronary vasospasm"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k
 question_type: adverse_effect
 difficulty: complex
 answer: A

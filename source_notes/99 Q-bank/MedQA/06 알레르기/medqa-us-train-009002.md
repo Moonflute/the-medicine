@@ -13,6 +13,8 @@ related_diseases:
   - "hereditary angioedema"
   - "C1 esterase inhibitor deficiency"
   - "bradykinin-mediated edema"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOu2gOyihSAo7Jyg7KCE7ISxKSAoSGVyZWRpdGFyeSBBbmdpb2VkZW1hKS5tZA
 question_type: mechanism
 difficulty: standard
 answer: B

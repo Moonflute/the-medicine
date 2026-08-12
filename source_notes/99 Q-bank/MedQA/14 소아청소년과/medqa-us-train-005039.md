@@ -13,7 +13,10 @@ related_diseases:
   - "후두개염"
   - "b형 헤모필루스 인플루엔자"
   - "Hib 백신"
+  - "Haemophilus influenzae type b infection"
 question_type: prevention
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IeE7ZWtIChJbXBlcmZvcmF0ZSBBbnVzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

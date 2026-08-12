@@ -14,6 +14,8 @@ related_diseases:
   - "대장균 요로감염"
   - "아목시실린/클라불란산"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-ustOymneyDgSDshLjqt6Drh6ggKEFzeW1wdG9tYXRpYyBCYWN0ZXJpdXJpYSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

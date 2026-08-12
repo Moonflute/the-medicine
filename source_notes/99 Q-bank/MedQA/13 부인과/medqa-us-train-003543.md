@@ -15,6 +15,9 @@ related_diseases:
   - "painful vaginal bleeding"
   - "uterine hypertonicity"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
+  - MTEg7Jm46rO8L-uRlOyDgSDrs7XrtoDsmbjsg4EgKEJsdW50IEFiZG9taW5hbCBUcmF1bWEpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

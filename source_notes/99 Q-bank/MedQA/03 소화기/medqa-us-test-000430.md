@@ -13,6 +13,9 @@ related_diseases:
   - "식도주위 탈장"
   - "위식도역류병"
   - "위고정술"
+  - "Hiatal hernia"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sl7Tqs7Ug7YOI7J6lIChIaWF0YWwgSGVybmlhKS5tZA
 question_type: management
 difficulty: standard
 answer: D

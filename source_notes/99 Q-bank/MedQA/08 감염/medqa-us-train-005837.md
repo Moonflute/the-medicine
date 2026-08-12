@@ -13,6 +13,9 @@ related_diseases:
   - "아메바성 간농양"
   - "Entamoeba histolytica"
   - "멕시코 여행력"
+  - "Amoebic liver abscess"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg64aN7JaRIChMaXZlciBBYnNjZXNzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

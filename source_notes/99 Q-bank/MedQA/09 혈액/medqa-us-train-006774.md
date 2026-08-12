@@ -13,6 +13,8 @@ related_diseases:
   - "파종성 혈관내 응고"
   - "소모성 응고병증"
   - "췌장암 관련 DIC"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2MjOyihSDtmIjqtIDrgrQg7J2R6rOgIChEaXNzZW1pbmF0ZWQgSW50cmF2YXNjdWxhciBDb2FndWxhdGlvbiwgRElDKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

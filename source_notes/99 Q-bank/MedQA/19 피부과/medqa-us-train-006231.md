@@ -14,6 +14,8 @@ related_diseases:
   - "양성 피부 병변"
   - "악성 흑색종 감별"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yVheyEsSDtnZHsg4nsooUgKE1hbGlnbmFudCBNZWxhbm9tYSkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

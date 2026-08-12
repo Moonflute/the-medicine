@@ -13,6 +13,9 @@ related_diseases:
   - "파종성 혈관내 응고"
   - "급성 전골수구성 백혈병"
   - "응고인자 소모"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2MjOyihSDtmIjqtIDrgrQg7J2R6rOgIChEaXNzZW1pbmF0ZWQgSW50cmF2YXNjdWxhciBDb2FndWxhdGlvbiwgRElDKS5tZA
+  - MDkg7ZiI7JWhL-q4ieyEsSDsoITqs6jsiJjshLEg67Cx7ZiI67ORIChBUEwgTTMpIChBY3V0ZSBQcm9teWVsb2N5dGljIExldWtlbWlhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

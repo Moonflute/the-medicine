@@ -13,6 +13,8 @@ related_diseases:
   - "알레르기 비염"
   - "비강 코르티코스테로이드"
   - "재채기와 콧물"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sCDruYTsl7wgKEFsbGVyZ2ljIFJoaW5pdGlzKS5tZA
 question_type: management
 difficulty: simple
 answer: D

@@ -14,6 +14,8 @@ related_diseases:
   - "고혈압성 응급"
   - "시안화물 해독"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -15,6 +15,8 @@ related_diseases:
   - "자궁근층 양성 종양"
   - "자궁근종"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

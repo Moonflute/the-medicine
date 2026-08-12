@@ -13,6 +13,8 @@ related_diseases:
   - "지아르디아증"
   - "Giardia lamblia"
   - "오염된 물"
+  - "Giardia infection"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

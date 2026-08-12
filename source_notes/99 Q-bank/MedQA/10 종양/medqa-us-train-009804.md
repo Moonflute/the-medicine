@@ -13,6 +13,9 @@ related_diseases:
   - "신경모세포종"
   - "N-myc"
   - "후종격동 종괴"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug6rK966qo7IS47Y-s7KKFIChOZXVyb2JsYXN0b21hKS5tZA
+  - MDIg7Zi47Z2h6riwL-yiheqyqeuPmSDsooXqtLQgKE1lZGlhc3RpbmFsIE1hc3MpLm1k
 question_type: investigation
 difficulty: complex
 answer: A

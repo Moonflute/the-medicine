@@ -13,7 +13,9 @@ related_diseases:
   - "일차성 단일증상 야뇨증"
   - "야뇨 경보기"
   - "소아 야뇨증"
+  - "Nocturnal enuresis"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

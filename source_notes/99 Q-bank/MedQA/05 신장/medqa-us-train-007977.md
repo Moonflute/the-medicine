@@ -13,6 +13,8 @@ related_diseases:
   - "uremic bleeding"
   - "end-stage renal disease"
   - "hemodialysis"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: management
 difficulty: complex
 answer: B

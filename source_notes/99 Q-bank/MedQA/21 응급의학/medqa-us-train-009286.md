@@ -14,6 +14,8 @@ related_diseases:
   - "출혈성 쇼크"
   - "massive transfusion"
 question_type: management
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

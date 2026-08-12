@@ -14,6 +14,8 @@ related_diseases:
   - "페닐알라닌"
   - "발달지연"
 question_type: prevention
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Y6Y64uQ7LyA7Yak64eo7KadIChQaGVueWxrZXRvbnVyaWEpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

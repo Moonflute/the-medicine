@@ -15,6 +15,8 @@ related_diseases:
   - "damage-control laparotomy"
   - "open abdomen"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uzteqwlSDqtaztmo0g7Kad7ZuE6rWwIChBYmRvbWluYWwgQ29tcGFydG1lbnQgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

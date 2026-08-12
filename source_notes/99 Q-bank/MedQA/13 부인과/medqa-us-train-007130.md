@@ -14,7 +14,9 @@ related_diseases:
   - "저체중"
   - "과도한 운동"
   - "GnRH 박동 감소"
+  - "Functional hypothalamic amenorrhea"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -13,7 +13,10 @@ related_diseases:
   - "임신성 일과성 갑상샘항진증"
   - "임신오조"
   - "탈수"
+  - "Hyperthyroidism"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

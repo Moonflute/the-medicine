@@ -13,7 +13,9 @@ related_diseases:
   - "호흡기세포융합바이러스"
   - "세기관지염"
   - "영아 천명"
+  - "Respiratory syncytial virus infection"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

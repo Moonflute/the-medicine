@@ -13,6 +13,8 @@ related_diseases:
   - "diabetic ketoacidosis"
   - "당뇨병성 케톤산증"
   - "capillary glucose"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: D

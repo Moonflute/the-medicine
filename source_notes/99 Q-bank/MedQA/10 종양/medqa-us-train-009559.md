@@ -13,6 +13,8 @@ related_diseases:
   - "brain metastases"
   - "뇌 전이"
   - "lung cancer"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

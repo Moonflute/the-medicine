@@ -13,6 +13,8 @@ related_diseases:
   - "관상동맥 혈류 훔침"
   - "디피리다몰"
   - "허혈성 흉통"
+  - "Coronary artery steal syndrome"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: standard
 answer: B

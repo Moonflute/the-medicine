@@ -13,7 +13,9 @@ related_diseases:
   - "traumatic airway obstruction"
   - "cricothyrotomy"
   - "cannot intubate cannot oxygenate"
+  - "Traumatic airway obstruction"
 question_type: management
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

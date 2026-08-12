@@ -19,6 +19,10 @@ related_diseases:
   - "Adhesions"
   - "Peyer’s plaques"
   - "Gastrointestinal malignancy"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rs4DruYQgKENvbnN0aXBhdGlvbikubWQ
+  - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
+  - MTEg7Jm46rO8L-2DiOyepSAoSGVybmlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

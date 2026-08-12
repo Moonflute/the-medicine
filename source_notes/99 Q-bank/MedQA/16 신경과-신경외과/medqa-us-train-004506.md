@@ -15,6 +15,7 @@ related_diseases:
   - "시각 환각"
   - "파킨슨증"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

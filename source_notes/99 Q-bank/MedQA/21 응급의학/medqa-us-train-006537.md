@@ -13,7 +13,9 @@ related_diseases:
   - "중증 화상"
   - "화상성 쇼크"
   - "초기 정맥 수액"
+  - "Burn shock"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

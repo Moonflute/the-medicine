@@ -14,6 +14,8 @@ related_diseases:
   - "선택적 함구증"
   - "anxiety disorder"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOyViCDsnqXslaAgKEFueGlldHkgRGlzb3JkZXJzKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

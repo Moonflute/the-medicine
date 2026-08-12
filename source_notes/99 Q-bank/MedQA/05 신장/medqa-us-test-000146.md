@@ -13,6 +13,9 @@ related_diseases:
   - "미세변화병"
   - "신증후군"
   - "선택적 단백뇨"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-uvuOyEuOuzgO2ZlOuzkSAoTWluaW1hbCBDaGFuZ2UgRGlzZWFzZSkubWQ
+  - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

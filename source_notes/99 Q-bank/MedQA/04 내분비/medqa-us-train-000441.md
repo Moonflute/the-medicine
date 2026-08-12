@@ -12,6 +12,9 @@ specialty: 04 내분비
 related_diseases:
   - "diabetic ketoacidosis"
   - "hyperosmolar hyperglycemic state"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
+  - MDQg64K067aE67mEL-qzoOyCvO2IrOyVleyEsSDqs6DtmIjri7kg7IOB7YOcIChISFMpIChIeXBlcm9zbW9sYXIgSHlwZXJnbHljZW1pYyBTdGF0ZSkubWQ
 question_type: management
 difficulty: complex
 answer: B

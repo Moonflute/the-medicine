@@ -13,6 +13,9 @@ related_diseases:
   - "소세포폐암"
   - "부적절한 항이뇨호르몬 분비 증후군"
   - "저나트륨혈증"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

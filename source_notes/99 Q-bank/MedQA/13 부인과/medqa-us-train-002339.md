@@ -15,6 +15,8 @@ related_diseases:
   - "low-molecular-weight heparin"
   - "aspirin"
 question_type: management
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2VreyduOyngOyniCDspp3tm4TqtbAgKEFudGlwaG9zcGhvbGlwaWQgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

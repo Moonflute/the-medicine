@@ -13,6 +13,8 @@ related_diseases:
   - "hypertension"
   - "lifestyle modification"
   - "weight loss"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: prevention
 difficulty: complex
 answer: A

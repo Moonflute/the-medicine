@@ -14,6 +14,8 @@ related_diseases:
   - "leukocoria"
   - "strabismus"
 question_type: investigation
+related_disease_slugs:
+  - MTgg7JWI6rO8L-yCrOyLnCAoc3RyYWJpc211cykubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

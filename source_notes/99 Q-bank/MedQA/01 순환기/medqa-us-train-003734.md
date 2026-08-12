@@ -14,6 +14,7 @@ related_diseases:
   - "noncardiac chest pain"
   - "coronary artery disease evaluation"
   - "no further testing"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: C

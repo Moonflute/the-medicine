@@ -13,6 +13,9 @@ related_diseases:
   - "파종성 혈관내 응고"
   - "패혈증"
   - "혈소판감소증"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
+  - MDkg7ZiI7JWhL-2MjOyihSDtmIjqtIDrgrQg7J2R6rOgIChEaXNzZW1pbmF0ZWQgSW50cmF2YXNjdWxhciBDb2FndWxhdGlvbiwgRElDKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

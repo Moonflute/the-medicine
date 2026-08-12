@@ -13,7 +13,10 @@ related_diseases:
   - "antipsychotic-induced hypothermia"
   - "fluphenazine"
   - "alpha-adrenergic blockade"
+  - "Hypothermia"
 question_type: other
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-2VnOuereyGkOyDgSAoQ29sZCBJbmp1cnkpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

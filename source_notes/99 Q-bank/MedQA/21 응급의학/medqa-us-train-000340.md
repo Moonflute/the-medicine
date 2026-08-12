@@ -13,6 +13,9 @@ related_diseases:
   - "heat stroke"
   - "rhabdomyolysis"
 question_type: management
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yXtOyniO2ZmCAoSGVhdCBJbGxuZXNzKS5tZA
+  - MDUg7Iug7J6lL-2aoeusuOq3vOycte2VtOymnSAoUmhhYmRvbXlvbHlzaXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

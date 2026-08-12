@@ -14,6 +14,8 @@ related_diseases:
   - "해부학적 코담배갑 압통"
   - "손목 방사선촬영"
 question_type: investigation
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yjvOyDgeqzqCDqs6jsoIggKFNjYXBob2lkIEZyYWN0dXJlKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

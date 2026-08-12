@@ -13,6 +13,8 @@ related_diseases:
   - "시가독소 생성 대장균"
   - "용혈성 요독 증후군"
   - "혈성 설사"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDsmpTrj4Ug7Kad7ZuE6rWwIChIZW1vbHl0aWMgVXJlbWljIFN5bmRyb21lLCBIVVMpLm1k
 question_type: prognosis
 difficulty: complex
 answer: B

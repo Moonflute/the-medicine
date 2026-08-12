@@ -14,6 +14,8 @@ related_diseases:
   - "오십견"
   - "어깨 운동 제한"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yYpOyLreqyrCAoQWRoZXNpdmUgQ2Fwc3VsaXRpcykubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

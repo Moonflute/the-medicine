@@ -15,6 +15,9 @@ related_diseases:
   - "Open-angle glaucoma"
   - "Retinal detachment"
 question_type: diagnosis
+related_disease_slugs:
+  - MTgg7JWI6rO8L-uCmOydtOq0gOugqO2ZqeuwmOuzgOyEsSAoYWdlIHJlbGF0ZWQgbWFjdWxhciBkZWdlbmVyYXRpb24pLm1k
+  - MTgg7JWI6rO8L-unneunieuwleumrCAocmV0aW5hbCBkZXRhY2htZW50KS5tZA
 difficulty: simple
 answer: B
 translation_status: machine-verified

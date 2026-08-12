@@ -14,6 +14,8 @@ related_diseases:
   - "cervical spinal cord injury"
   - "cape-like sensory loss"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_spJHsi6wg7LKZ7IiYIOymne2bhOq1sCAoQ2VudHJhbCBjb3JkIHN5bmRyb21lKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

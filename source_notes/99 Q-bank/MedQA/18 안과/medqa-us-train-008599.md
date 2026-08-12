@@ -13,7 +13,9 @@ related_diseases:
   - "trachoma"
   - "Chlamydia trachomatis"
   - "conjunctival follicles"
+  - "Trachoma"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

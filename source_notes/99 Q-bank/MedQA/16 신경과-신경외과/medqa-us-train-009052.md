@@ -14,6 +14,8 @@ related_diseases:
   - "electric shock-like pain"
   - "trigger zone"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sgrzssKjsi6Dqsr3thrUgKFRyaWdlbWluYWwgbmV1cmFsZ2lhKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

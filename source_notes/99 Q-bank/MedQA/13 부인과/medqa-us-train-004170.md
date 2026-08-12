@@ -14,6 +14,8 @@ related_diseases:
   - "월경통"
   - "월경과다"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yblOqyve2GtSAoRHlzbWVub3JyaGVhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "erythropoiesis-stimulating agent"
   - "anemia of chronic kidney disease"
   - "darbepoetin"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDsp4jtmZgg67mI7ZiIIChBbmVtaWEgb2YgQ2hyb25pYyBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: complex
 answer: C

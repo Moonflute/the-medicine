@@ -14,6 +14,8 @@ related_diseases:
   - "blunt thoracoabdominal trauma"
   - "left diaphragmatic injury"
 question_type: diagnosis
+related_disease_slugs:
+  - MTEg7Jm46rO8L-qwgOuhnOunieyGkOyDgSAoRGlhcGhyYWdtYXRpYyBJbmp1cnkpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

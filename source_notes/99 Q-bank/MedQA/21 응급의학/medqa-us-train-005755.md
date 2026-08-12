@@ -14,6 +14,8 @@ related_diseases:
   - "그람음성 균혈증"
   - "젖산 상승"
 question_type: investigation
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2MqO2YiOyEsSDsh7ztgawgKFNlcHRpYyBTaG9jaykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

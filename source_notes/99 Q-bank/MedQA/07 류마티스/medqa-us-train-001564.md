@@ -12,6 +12,8 @@ specialty: 07 류마티스
 related_diseases:
   - "rheumatoid arthritis"
   - "anti-CCP antibody"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: D

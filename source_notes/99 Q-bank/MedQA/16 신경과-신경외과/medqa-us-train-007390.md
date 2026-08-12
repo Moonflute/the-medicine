@@ -15,6 +15,8 @@ related_diseases:
   - "간-기저핵 질환"
   - "페니실라민"
 question_type: management
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snIzsiqjrs5EgKFdpbHNvbidzIERpc2Vhc2UpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

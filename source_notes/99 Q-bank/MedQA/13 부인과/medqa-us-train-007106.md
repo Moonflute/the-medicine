@@ -14,6 +14,8 @@ related_diseases:
   - "원발성 난소기능부전"
   - "고FSH성 성선기능저하증"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yhsOq4sOuCnOyGjOu2gOyghCAoUHJlbWF0dXJlIE92YXJpYW4gRmFpbHVyZSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

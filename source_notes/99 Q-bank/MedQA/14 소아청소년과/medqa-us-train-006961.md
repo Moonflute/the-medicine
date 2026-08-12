@@ -14,7 +14,9 @@ related_diseases:
   - "베타-2 인테그린"
   - "지연된 탯줄 분리"
   - "호중구증가증"
+  - "Leukocyte adhesion deficiency type 1"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

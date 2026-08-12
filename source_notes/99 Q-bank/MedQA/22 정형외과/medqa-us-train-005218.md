@@ -13,7 +13,9 @@ related_diseases:
   - "전방십자인대 파열"
   - "무릎 불안정성"
   - "라크만 검사"
+  - "Anterior cruciate ligament tear"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

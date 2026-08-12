@@ -13,7 +13,9 @@ related_diseases:
   - "분열성 인격장애"
   - "사회적 고립"
   - "감정 표현 제한"
+  - "Schizoid personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "B형간염 관련 막성 신병증"
   - "신증후군"
   - "상피하 면역복합체 침착"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
+  - MDUg7Iug7J6lL-unieyEsSDsgqzqtazssrTsi6Dsl7wgKE1lbWJyYW5vdXMgTmVwaHJvcGF0aHkpLm1k
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

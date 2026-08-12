@@ -15,6 +15,8 @@ related_diseases:
   - "insulin therapy"
   - "intravenous dextrose"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

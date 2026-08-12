@@ -13,6 +13,8 @@ related_diseases:
   - "위선암"
   - "호스피스"
   - "완화의료"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITslZQgKEdhc3RyaWMgQ2FuY2VyKS5tZA
 question_type: ethics
 difficulty: standard
 answer: B

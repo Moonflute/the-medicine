@@ -13,6 +13,8 @@ related_diseases:
   - "당뇨병성 다발신경병증"
   - "신경병성 통증"
   - "가바펜틴 치료"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
 question_type: management
 difficulty: complex
 answer: B

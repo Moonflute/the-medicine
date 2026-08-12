@@ -13,6 +13,8 @@ related_diseases:
   - "위궤양"
   - "소화성 궤양"
   - "NSAID 사용"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITqtqTslpEgKEdhc3RyaWMgVWxjZXIpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

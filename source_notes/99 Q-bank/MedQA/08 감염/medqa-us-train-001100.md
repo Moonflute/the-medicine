@@ -14,6 +14,10 @@ related_diseases:
   - "Catheter-associated urinary tract infection"
   - "Bowel ischemia"
   - "Surgical site infection"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JqU66GcIOqwkOyXvCAoVXJpbmFyeSBUcmFjdCBJbmZlY3Rpb24pLm1k
+  - MDgg6rCQ7Je8L-uPhOq0gCDqtIDroKgg6rCQ7Je8IChDYXRoZXRlci1SZWxhdGVkIEluZmVjdGlvbikubWQ
+  - MDgg6rCQ7Je8L-ybkOuCtOqwkOyXvC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

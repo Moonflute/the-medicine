@@ -14,6 +14,8 @@ related_diseases:
   - "foramen magnum stenosis"
   - "hydrocephalus"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jew6rOoIOustO2YleyEseymnSAoQWNob25kcm9wbGFzaWEpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

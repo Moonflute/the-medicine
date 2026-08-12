@@ -14,6 +14,9 @@ related_diseases:
   - "endometriosis-associated infertility"
   - "laparoscopic lesion ablation"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nspp0gKEVuZG9tZXRyaW9zaXMpLm1k
+  - MTMg67aA7J246rO8L-yekOq2gSDshKDsspzquLDtmJUgKENvbmdlbml0YWwgVXRlcmluZSBBbm9tYWx5KS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

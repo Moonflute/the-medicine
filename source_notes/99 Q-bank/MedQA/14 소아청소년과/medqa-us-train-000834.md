@@ -12,6 +12,7 @@ specialty: 14 소아청소년과
 related_diseases:
   - "neonatal meningitis"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

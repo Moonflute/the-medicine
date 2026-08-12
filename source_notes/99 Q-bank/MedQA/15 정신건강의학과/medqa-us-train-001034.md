@@ -15,6 +15,9 @@ related_diseases:
   - "Tetrahydrocannabinol intoxication"
   - "Thyrotoxicosis"
 question_type: diagnosis
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

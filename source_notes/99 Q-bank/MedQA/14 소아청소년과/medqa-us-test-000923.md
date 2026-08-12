@@ -14,6 +14,8 @@ related_diseases:
   - "호중구 기능장애"
   - "반복 감염"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv66eM7ISxIOycoeyVhOyiheyEsSDsp4jtmZggKENocm9uaWMgR3JhbnVsb21hdG91cyBEaXNlYXNlKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

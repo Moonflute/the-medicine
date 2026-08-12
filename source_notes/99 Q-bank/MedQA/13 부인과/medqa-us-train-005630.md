@@ -13,7 +13,10 @@ related_diseases:
   - "산후 유방 울혈"
   - "모유수유"
   - "유두 균열"
+  - "Breast engorgement"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yCsOyaleq4sCDsnKDrsKkg7Jq47ZiIIChQdWVycGVyYWwgQnJlYXN0IEVuZ29yZ2VtZW50KS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,7 @@ related_diseases:
   - "세균성 이질"
   - "Shigella 감염"
   - "트리메토프림-설파메톡사졸"
+related_disease_slugs: []
 question_type: management
 difficulty: simple
 answer: D

@@ -13,6 +13,9 @@ related_diseases:
   - "심실세동"
   - "무맥성 심정지"
   - "비동기화 제세동"
+  - "Ventricular fibrillation"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOyLpCDsobDrj5ks7IS464-ZIChWZW50cmljdWxhciBmbHV0dGVyLCBmaWJyaWxsYXRpb24pLm1k
 question_type: management
 difficulty: complex
 answer: C

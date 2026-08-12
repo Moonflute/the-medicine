@@ -13,6 +13,8 @@ related_diseases:
   - "만성 신장질환"
   - "말기 신장질환"
   - "심혈관질환 사망"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: prognosis
 difficulty: complex
 answer: D

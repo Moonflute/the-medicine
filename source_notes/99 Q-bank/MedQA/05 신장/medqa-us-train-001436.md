@@ -13,6 +13,10 @@ related_diseases:
   - "granulomatosis with polyangiitis"
   - "renal failure"
   - "hyperkalemia"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: mechanism
 difficulty: complex
 answer: C

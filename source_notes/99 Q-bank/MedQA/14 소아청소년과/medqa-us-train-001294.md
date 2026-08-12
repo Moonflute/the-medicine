@@ -12,6 +12,8 @@ specialty: 14 소아청소년과
 related_diseases:
   - "intussusception"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7J6l7KSR7LKp7KadIChJbnR1c3N1c2NlcHRpb24pLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "다발성 내분비 종양 2형"
   - "RET 원종양유전자"
   - "갈색세포종"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2BrOuhrOy5nO2ZlOyEuO2PrOyihSAoUGhlb2Nocm9tb2N5dG9tYSkubWQ
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDsho3sp4jslZQgKFRoeXJvaWQgTWVkdWxsYXJ5IENhcmNpbm9tYSkubWQ
 question_type: 임상증례 객관식
 difficulty: standard
 answer: D

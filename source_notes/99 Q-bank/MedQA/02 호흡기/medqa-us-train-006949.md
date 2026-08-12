@@ -13,6 +13,9 @@ related_diseases:
   - "특발성 폐섬유증"
   - "간질성 폐질환"
   - "폐섬유화"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2KueuwnOyEsSDtj5DshKzsnKDspp0gKElQRikgKElkaW9wYXRoaWMgUHVsbW9uYXJ5IEZpYnJvc2lzKS5tZA
+  - MDIg7Zi47Z2h6riwL-qwhOyniOyEsSDtj5Dsp4jtmZggKEludGVyc3RpdGlhbCBsdW5nIGRpc2Vhc2UpLm1k
 question_type: mechanism
 difficulty: complex
 answer: A

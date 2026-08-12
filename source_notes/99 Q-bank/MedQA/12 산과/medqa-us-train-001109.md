@@ -13,6 +13,8 @@ related_diseases:
   - "preeclampsia"
   - "thrombocytopenia"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

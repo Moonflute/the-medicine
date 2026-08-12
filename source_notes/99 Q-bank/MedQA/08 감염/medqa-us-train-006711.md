@@ -13,6 +13,8 @@ related_diseases:
   - "주사약물사용자 감염성 심내막염"
   - "우측 심내막염"
   - "황색포도알균"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 question_type: management
 difficulty: simple
 answer: B

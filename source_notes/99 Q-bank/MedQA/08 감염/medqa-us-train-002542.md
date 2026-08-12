@@ -14,6 +14,9 @@ related_diseases:
   - "mosquito-borne infection"
   - "conjunctivitis"
   - "arthralgia"
+related_disease_slugs:
+  - MTgg7JWI6rO8L-qysOyEseyXvCAoQ29uanVuY3Rpdml0aXMpLm1k
+  - MDgg6rCQ7Je8L-yngOy5tOuwlOydtOufrOyKpCDqsJDsl7wgKFppa2EgVmlydXMgSW5mZWN0aW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

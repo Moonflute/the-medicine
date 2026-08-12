@@ -13,6 +13,8 @@ related_diseases:
   - "급성 충수염"
   - "우하복부 통증"
   - "충수 초음파"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_quInshLEg7Lap7IiY7Je8IChBY3V0ZSBBcHBlbmRpY2l0aXMpLm1k
 question_type: investigation
 difficulty: complex
 answer: C

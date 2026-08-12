@@ -14,6 +14,7 @@ related_diseases:
   - "성교 후 출혈"
   - "자궁경부 운동 압통"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

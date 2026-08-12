@@ -13,7 +13,10 @@ related_diseases:
   - "심인성 쇼크"
   - "심장 타박상"
   - "낮은 심박출량"
+  - "Cardiogenic shock"
 question_type: diagnosis
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

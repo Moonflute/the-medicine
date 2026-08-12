@@ -13,6 +13,8 @@ related_diseases:
   - "류마티스관절염"
   - "항CCP 항체"
   - "메토트렉세이트"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: B

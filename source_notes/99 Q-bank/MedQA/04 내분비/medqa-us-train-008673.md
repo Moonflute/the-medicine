@@ -13,6 +13,9 @@ related_diseases:
   - "MEN1"
   - "primary hyperparathyroidism"
   - "pituitary adenoma"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
+  - MDQg64K067aE67mEL-uHjO2VmOyImOyytCDsg5jsooUgKFBpdHVpdGFyeSBBZGVub21hKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

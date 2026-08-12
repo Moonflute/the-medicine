@@ -13,7 +13,9 @@ related_diseases:
   - "jet lag disorder"
   - "circadian rhythm disorder"
   - "melatonin"
+  - "Jet lag disorder"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,7 +13,10 @@ related_diseases:
   - "발모벽"
   - "강박 관련 탈모"
   - "불규칙한 탈모반"
+  - "Trichotillomania"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uwnOuqqOyepeyVoCAoVHJpY2hvdGlsbG9tYW5pYSkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

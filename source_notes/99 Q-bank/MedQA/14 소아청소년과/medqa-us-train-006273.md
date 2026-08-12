@@ -14,6 +14,8 @@ related_diseases:
   - "급성 후두기관기관지염"
   - "흡기성 협착음"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7YGs66O5IChDcm91cCkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

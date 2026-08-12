@@ -13,7 +13,9 @@ related_diseases:
   - "세균성 각막염"
   - "콘택트렌즈 관련 각막궤양"
   - "각막 침윤"
+  - "Open-angle glaucoma"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

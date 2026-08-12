@@ -13,6 +13,9 @@ related_diseases:
   - "갑상샘기능저하증"
   - "고콜레스테롤혈증"
   - "주간 졸림"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
 question_type: 임상증례 객관식
 difficulty: standard
 answer: B

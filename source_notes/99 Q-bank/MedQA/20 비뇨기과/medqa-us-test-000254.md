@@ -14,6 +14,8 @@ related_diseases:
   - "질막"
   - "고환 종양 감별"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-qzoO2ZmCDsooXslpEgKFRlc3RpY3VsYXIgY2FuY2VyKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "다발근염"
   - "염증성 근병증"
   - "근위부 근력저하"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yXvOymneyEsSDqt7zrs5Hspp0gKEluZmxhbW1hdG9yeSBNeW9wYXRoeSkubWQ
 question_type: management
 difficulty: complex
 answer: C

@@ -14,6 +14,8 @@ related_diseases:
   - "조현병 재발"
   - "delusional perception"
 question_type: ethics
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

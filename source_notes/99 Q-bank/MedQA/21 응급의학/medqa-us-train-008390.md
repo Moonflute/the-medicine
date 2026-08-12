@@ -14,6 +14,9 @@ related_diseases:
   - "rabies postexposure prophylaxis"
   - "animal bite"
 question_type: prevention
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qzteyImOuzkSAoUmFiaWVzKS5tZA
+  - MTEg7Jm46rO8L-uPmeusvCDrrLzrprwgKEFuaW1hbCBCaXRlKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

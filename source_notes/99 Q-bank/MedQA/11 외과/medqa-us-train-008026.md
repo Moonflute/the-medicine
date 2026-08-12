@@ -13,6 +13,8 @@ related_diseases:
   - "postoperative ileus"
   - "opioid-induced ileus"
   - "bowel motility"
+  - "Postoperative ileus"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

@@ -13,6 +13,7 @@ related_diseases:
   - "subclavian steal syndrome"
   - "vertebrobasilar insufficiency"
   - "reversed vertebral artery flow"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: standard
 answer: B

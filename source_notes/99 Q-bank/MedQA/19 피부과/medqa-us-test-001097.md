@@ -14,6 +14,8 @@ related_diseases:
   - "니켈 과민반응"
   - "IV형 과민반응"
 question_type: mechanism
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-ygkey0ie2UvOu2gOyXvCAoQ29udGFjdCBEZXJtYXRpdGlzKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

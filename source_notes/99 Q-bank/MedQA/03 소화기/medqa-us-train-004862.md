@@ -13,6 +13,8 @@ related_diseases:
   - "S상결장 염전"
   - "대장폐색"
   - "내시경적 감압"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rjIDsnqUg7Y-Q7IeEIChMYXJnZSBCb3dlbCBPYnN0cnVjdGlvbikubWQ
 question_type: management
 difficulty: complex
 answer: A

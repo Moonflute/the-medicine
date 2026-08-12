@@ -13,6 +13,8 @@ related_diseases:
   - "특발성 다모증"
   - "5α-환원효소"
   - "디하이드로테스토스테론"
+  - "idiopathic hirsutism"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: A

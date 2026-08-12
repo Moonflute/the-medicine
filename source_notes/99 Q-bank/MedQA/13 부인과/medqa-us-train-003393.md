@@ -14,7 +14,10 @@ related_diseases:
   - "dependent edema"
   - "compression stockings"
   - "superficial venous engorgement"
+  - "Varicose veins"
 question_type: management
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2VmOyngCDsoJXrp6XrpZggKFZhcmljb3NlIFZlaW4pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

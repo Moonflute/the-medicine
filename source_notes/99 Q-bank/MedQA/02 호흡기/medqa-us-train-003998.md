@@ -14,6 +14,8 @@ related_diseases:
   - "기관지수축"
   - "폐기능검사"
   - "일산화탄소 확산능"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: D

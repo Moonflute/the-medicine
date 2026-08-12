@@ -13,6 +13,9 @@ related_diseases:
   - "폐렴사슬알균 폐렴"
   - "지역사회획득폐렴"
   - "상엽 폐렴"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-ygle2YlSDtj5DroLQgKFR5cGljYWwgUG5ldW1vbmlhKS5tZA
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

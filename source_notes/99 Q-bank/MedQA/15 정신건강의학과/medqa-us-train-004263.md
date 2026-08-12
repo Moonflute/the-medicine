@@ -14,6 +14,7 @@ related_diseases:
   - "티라민 반응"
   - "고혈압성 위기"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

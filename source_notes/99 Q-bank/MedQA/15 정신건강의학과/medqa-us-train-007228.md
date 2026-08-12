@@ -15,6 +15,8 @@ related_diseases:
   - "가정 호스피스"
   - "연명의료 목표"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

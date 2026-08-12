@@ -13,6 +13,9 @@ related_diseases:
   - "원발성 담즙성 담관염"
   - "담즙정체성 간질환"
   - "가려움"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sm5DrsJzshLEg64u07KaZ7ISxIOuLtOq0gOyXvCAoUEJDKSAoUHJpbWFyeSBCaWxpYXJ5IENob2xhbmdpdGlzKS5tZA
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

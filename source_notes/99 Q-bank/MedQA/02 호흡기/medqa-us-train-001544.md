@@ -12,6 +12,8 @@ specialty: 02 호흡기
 related_diseases:
   - "solitary pulmonary nodule"
   - "pulmonary nodule evaluation"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uLqOydvCDtj5DqsrDsoIggKFNQTikgKFNvbGl0YXJ5IFB1bG1vbmFyeSBOb2R1bGUpLm1k
 question_type: investigation
 difficulty: complex
 answer: D

@@ -13,6 +13,8 @@ related_diseases:
   - "알약 유발 식도염"
   - "알렌드로네이트 식도염"
   - "흉통"
+  - "Pill-induced esophagitis"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

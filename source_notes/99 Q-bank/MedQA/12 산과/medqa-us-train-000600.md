@@ -15,6 +15,8 @@ related_diseases:
   - "fused thalami"
   - "holoprosencephaly"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yWkeyImCDqs7zri6Tspp0gKEh5ZHJhbW5pb3MpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

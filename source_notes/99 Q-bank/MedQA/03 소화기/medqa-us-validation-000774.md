@@ -13,6 +13,8 @@ related_diseases:
   - "멜레나"
   - "위내시경 음성 위장관 출혈"
   - "대장내시경"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sg4HrtoAg7JyE7J6l6rSAIOy2nO2YiCAoVXBwZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ
 question_type: investigation
 difficulty: complex
 answer: B

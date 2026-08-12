@@ -13,6 +13,9 @@ related_diseases:
   - "secondary hyperparathyroidism"
   - "chronic kidney disease"
   - "phosphate retention"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: mechanism
 difficulty: simple
 answer: A

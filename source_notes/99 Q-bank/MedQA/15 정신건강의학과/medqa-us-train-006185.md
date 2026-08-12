@@ -13,7 +13,9 @@ related_diseases:
   - "회피성 인격장애"
   - "사회적 억제"
   - "부정적 평가에 대한 두려움"
+  - "Avoidant personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

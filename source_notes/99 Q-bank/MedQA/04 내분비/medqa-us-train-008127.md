@@ -13,6 +13,8 @@ related_diseases:
   - "glucagonoma"
   - "necrolytic migratory erythema"
   - "glucagon excess"
+  - "Glucagonoma"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: C

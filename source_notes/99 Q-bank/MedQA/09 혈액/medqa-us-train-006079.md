@@ -13,6 +13,8 @@ related_diseases:
   - "수혈 관련 급성 용혈반응"
   - "IgA 결핍"
   - "수혈 부작용"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yImO2YiOu2gOyekeyaqS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

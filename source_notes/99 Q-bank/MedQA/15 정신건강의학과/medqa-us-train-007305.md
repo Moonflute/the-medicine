@@ -14,6 +14,8 @@ related_diseases:
   - "긴장형 두통 예방"
   - "아미트립틸린"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_quLTsnqXtmJXrkZDthrUgKFRlbnNpb24tdHlwZSBoZWFkYWNoZSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

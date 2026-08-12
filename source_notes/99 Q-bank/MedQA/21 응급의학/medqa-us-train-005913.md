@@ -14,6 +14,7 @@ related_diseases:
   - "조영제 유발 신장손상 예방"
   - "생리식염수 수액"
 question_type: prevention
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

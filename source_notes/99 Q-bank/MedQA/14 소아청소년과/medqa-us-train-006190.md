@@ -14,6 +14,8 @@ related_diseases:
   - "비타민 D 결핍"
   - "성장판 석회화 장애"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv67mE7YOA66-8IEQg6rKw7ZWN7KadIChWaXRhbWluIEQgRGVmaWNpZW5jeSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

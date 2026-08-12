@@ -13,7 +13,9 @@ related_diseases:
   - "infant botulism"
   - "botulinum toxin"
   - "neuromuscular junction blockade"
+  - "botulism"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

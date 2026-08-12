@@ -14,7 +14,10 @@ related_diseases:
   - "burn-induced vascular compromise"
   - "escharotomy"
   - "distal ischemia"
+  - "Burn"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ
 difficulty: simple
 answer: D
 translation_status: machine-verified

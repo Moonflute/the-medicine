@@ -14,6 +14,9 @@ related_diseases:
   - "severe hyperglycemia"
   - "pneumonia trigger"
   - "blood glucose measurement"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOyCvO2IrOyVleyEsSDqs6DtmIjri7kg7IOB7YOcIChISFMpIChIeXBlcm9zbW9sYXIgSHlwZXJnbHljZW1pYyBTdGF0ZSkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Y-Q66C0IChQbmV1bW9uaWEpLm1k
 question_type: investigation
 difficulty: complex
 answer: C

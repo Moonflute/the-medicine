@@ -14,7 +14,9 @@ related_diseases:
   - "marijuana use"
   - "conjunctival injection"
   - "impaired reaction time"
+  - "Cannabis intoxication"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

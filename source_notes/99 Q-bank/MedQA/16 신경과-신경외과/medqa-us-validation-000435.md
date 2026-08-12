@@ -14,6 +14,7 @@ related_diseases:
   - "전압개폐성 칼슘통로 항체"
   - "근위부 근력저하"
 question_type: investigation
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

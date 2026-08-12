@@ -14,6 +14,7 @@ related_diseases:
   - "pelvic fracture"
   - "pudendal nerve injury"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

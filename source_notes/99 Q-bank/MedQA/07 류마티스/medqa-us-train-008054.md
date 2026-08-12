@@ -13,6 +13,9 @@ related_diseases:
   - "sarcoidosis"
   - "erythema nodosum"
   - "bilateral hilar lymphadenopathy"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-ycoOycoeyiheymnSAoU2FyY29pZG9zaXMpLm1k
+  - MTkg7ZS867aA6rO8L-qysOygiCDtmY3rsJggKEVyeXRoZW1hIE5vZG9zdW0pLm1k
 question_type: diagnosis
 difficulty: simple
 answer: B

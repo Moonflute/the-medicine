@@ -14,6 +14,8 @@ related_diseases:
   - "사타구니 백선"
   - "피부사상균 감염"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uwseyEoCAoVGluZWEpLm1k
 difficulty: simple
 answer: B
 translation_status: machine-verified

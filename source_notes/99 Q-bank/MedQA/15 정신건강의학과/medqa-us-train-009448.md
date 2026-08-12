@@ -14,6 +14,7 @@ related_diseases:
   - "알코올 유발 수면장애"
   - "REM suppression"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

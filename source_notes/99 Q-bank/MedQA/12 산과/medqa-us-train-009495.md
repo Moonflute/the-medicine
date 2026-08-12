@@ -14,6 +14,7 @@ related_diseases:
   - "태아심박동 감속"
   - "intrauterine resuscitation"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

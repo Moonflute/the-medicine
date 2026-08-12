@@ -14,6 +14,9 @@ related_diseases:
   - "소구성 빈혈"
   - "태아 철분 우선 공급"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
+  - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

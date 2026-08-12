@@ -13,7 +13,9 @@ related_diseases:
   - "내측종속 병변"
   - "핵간안근마비"
   - "복시"
+  - "internuclear ophthalmoplegia"
 question_type: localization
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

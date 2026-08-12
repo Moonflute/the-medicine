@@ -14,6 +14,8 @@ related_diseases:
   - "폐색전증"
   - "환기-관류 스캔"
 question_type: investigation
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

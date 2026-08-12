@@ -13,6 +13,8 @@ related_diseases:
   - "침습성 아스페르길루스증"
   - "면역저하"
   - "호중구감소"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yVhOyKpO2OmOultOq4uOujqOyKpOymnSAoQXNwZXJnaWxsb3NpcykubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

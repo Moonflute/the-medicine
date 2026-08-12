@@ -13,6 +13,8 @@ related_diseases:
   - "간경변"
   - "거미혈관종"
   - "에스트로겐 증가"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
 question_type: mechanism
 difficulty: standard
 answer: B

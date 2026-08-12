@@ -13,6 +13,8 @@ related_diseases:
   - "fluoroquinolone tendinopathy"
   - "Achilles tendonitis"
 question_type: management
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yVhO2CrOugiOyKpCDqsbTrs5Hspp0gKEFjaGlsbGVzIFRlbmRpbm9wYXRoeSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

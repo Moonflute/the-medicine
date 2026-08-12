@@ -13,6 +13,8 @@ related_diseases:
   - "lateral wall myocardial infarction"
   - "left circumflex coronary artery"
   - "ST-segment elevation"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: diagnosis
 difficulty: standard
 answer: B

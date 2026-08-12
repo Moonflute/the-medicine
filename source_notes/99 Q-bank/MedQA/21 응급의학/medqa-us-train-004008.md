@@ -14,6 +14,8 @@ related_diseases:
   - "항콜린성 증후군"
   - "요폐"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

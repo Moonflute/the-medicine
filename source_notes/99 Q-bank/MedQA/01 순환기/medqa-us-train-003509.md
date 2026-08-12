@@ -14,6 +14,9 @@ related_diseases:
   - "lifestyle modification"
   - "repeat blood pressure measurement"
   - "primary prevention"
+  - "essential hypertension"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: prevention
 difficulty: standard
 answer: A

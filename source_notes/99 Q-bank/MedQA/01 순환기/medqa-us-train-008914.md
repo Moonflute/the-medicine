@@ -13,6 +13,9 @@ related_diseases:
   - "alcoholic cardiomyopathy"
   - "heart failure"
   - "alcohol abstinence"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOq3vOuzkeymnSAoQ2FyZGlvbXlvcGF0aHkpLm1k
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: management
 difficulty: complex
 answer: A

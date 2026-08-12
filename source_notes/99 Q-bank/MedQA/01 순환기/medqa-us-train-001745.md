@@ -13,6 +13,9 @@ related_diseases:
   - "reperfusion injury"
   - "compartment syndrome"
   - "acute limb ischemia"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uzteqwlSDqtaztmo0g7Kad7ZuE6rWwIChBYmRvbWluYWwgQ29tcGFydG1lbnQgU3luZHJvbWUpLm1k
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDrj5nrp6Ug7Y-Q7IOJIChBY3V0ZSBBcnRlcmlhbCBPY2NsdXNpb24pLm1k
 question_type: mechanism
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "HIV"
   - "Toxoplasma"
   - "pneumonia"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Y-Q66C0IChQbmV1bW9uaWEpLm1k
 question_type: management
 difficulty: complex
 answer: B

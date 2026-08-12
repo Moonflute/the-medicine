@@ -13,6 +13,8 @@ related_diseases:
   - "동맥관 개존증"
   - "미숙아"
   - "선천성 심장질환"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64-Z66el6rSAIOqwnOyhtOymnSAoUGF0ZW50IER1Y3R1cyBBcnRlcmlvc3VzKS5tZA
 question_type: 임상증례 객관식
 difficulty: simple
 answer: A

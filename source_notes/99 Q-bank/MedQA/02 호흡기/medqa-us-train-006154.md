@@ -13,6 +13,7 @@ related_diseases:
   - "폐암 선별검사"
   - "저선량 흉부 CT"
   - "고위험 흡연력"
+related_disease_slugs: []
 question_type: prevention
 difficulty: complex
 answer: B

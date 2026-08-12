@@ -13,7 +13,10 @@ related_diseases:
   - "cervical spine trauma"
   - "cervical spine tenderness"
   - "CT cervical spine"
+  - "cervical spine injury"
 question_type: investigation
+related_disease_slugs:
+  - MTEg7Jm46rO8L-qyveu2gOyZuOyDgSAoQ2VydmljYWwgVHJhdW1hKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

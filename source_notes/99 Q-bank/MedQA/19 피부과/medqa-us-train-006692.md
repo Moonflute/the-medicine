@@ -14,6 +14,8 @@ related_diseases:
   - "포르피리아 큐타네아 타르다"
   - "사혈 치료"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2PrOultO2UvOumsOymnSAoUG9ycGh5cmlhKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "부스피론"
   - "불안 치료"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uylCDrtojslYgg7J6l7JWgIChHZW5lcmFsaXplZCBBbnhpZXR5IERpc29yZGVyKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

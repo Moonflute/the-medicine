@@ -14,6 +14,8 @@ related_diseases:
   - "방광 팽창"
   - "급성 신손상"
 question_type: investigation
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

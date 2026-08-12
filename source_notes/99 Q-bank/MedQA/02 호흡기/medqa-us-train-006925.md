@@ -13,6 +13,8 @@ related_diseases:
   - "비만 저환기 증후군"
   - "주간 폐포 저환기"
   - "만성 고탄산혈증"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yggO2YuO2doSAoSHlwb3ZlbnRpbGF0aW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

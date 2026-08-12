@@ -13,6 +13,9 @@ related_diseases:
   - "biliary colic"
   - "cholelithiasis prevention"
   - "ursodeoxycholic acid"
+  - "Cholelithiasis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
 question_type: prevention
 difficulty: complex
 answer: D

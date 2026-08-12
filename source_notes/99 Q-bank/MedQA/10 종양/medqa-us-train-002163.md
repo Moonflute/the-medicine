@@ -14,6 +14,9 @@ related_diseases:
   - "breast cancer"
   - "PTHrP"
   - "zoledronic acid"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: complex
 answer: C

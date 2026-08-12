@@ -13,6 +13,8 @@ related_diseases:
   - "통풍"
   - "요산 결정"
   - "잔틴 산화효소 억제제"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ
 question_type: 임상증례 객관식
 difficulty: standard
 answer: D

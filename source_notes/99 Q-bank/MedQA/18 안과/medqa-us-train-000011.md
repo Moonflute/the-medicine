@@ -20,6 +20,10 @@ related_diseases:
   - "안면 홍조"
   - "떨림"
 question_type: mechanism
+related_disease_slugs:
+  - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

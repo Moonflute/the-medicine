@@ -13,6 +13,9 @@ related_diseases:
   - "급성 심근허혈"
   - "S4 심음"
   - "심방성 갤럽"
+  - "Acute myocardial ischemia"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

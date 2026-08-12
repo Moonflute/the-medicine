@@ -14,6 +14,8 @@ related_diseases:
   - "슬개대퇴 통증 증후군"
   - "patellar compression test"
 question_type: investigation
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

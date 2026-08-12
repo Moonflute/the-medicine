@@ -13,6 +13,9 @@ related_diseases:
   - "겸상적혈구병"
   - "재생불량성 위기"
   - "파보바이러스 B19"
+  - "Parvovirus B19 infection"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: association
 difficulty: complex
 answer: C

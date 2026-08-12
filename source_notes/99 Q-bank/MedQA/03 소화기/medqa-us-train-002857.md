@@ -14,6 +14,8 @@ related_diseases:
   - "peripheral nodular enhancement"
   - "centripetal fill-in"
   - "oral contraceptive discontinuation"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7ZiI6rSA7KKFIChIZXBhdGljIEhlbWFuZ2lvbWEpLm1k
 question_type: management
 difficulty: standard
 answer: C

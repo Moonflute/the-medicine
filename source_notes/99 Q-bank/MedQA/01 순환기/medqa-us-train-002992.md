@@ -14,6 +14,7 @@ related_diseases:
   - "bundle branch block"
   - "prolonged PR interval"
   - "electrophysiology study"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: B

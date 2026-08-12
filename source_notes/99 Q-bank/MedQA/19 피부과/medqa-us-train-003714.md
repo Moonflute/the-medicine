@@ -15,6 +15,7 @@ related_diseases:
   - "sunscreen reapplication"
   - "photoprotection"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

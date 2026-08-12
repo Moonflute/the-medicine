@@ -13,6 +13,8 @@ related_diseases:
   - "면역성 혈소판감소성 자반증"
   - "혈소판 감소"
   - "점상출혈"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2KueuwnOyEsSDtmIjshoztjJDqsJDshozshLEg7J6Q67CY7KadIChJZGlvcGF0aGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgSVRQKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

@@ -13,6 +13,8 @@ related_diseases:
   - "칼만 증후군"
   - "저성선자극성 성선기능저하증"
   - "무후각증"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-y5vOunjCDspp3tm4TqtbAgKEthbGxtYW4gU3luZHJvbWUpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

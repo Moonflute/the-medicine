@@ -14,6 +14,7 @@ related_diseases:
   - "모체 에스트로겐 효과"
   - "신생아 유방 비대"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

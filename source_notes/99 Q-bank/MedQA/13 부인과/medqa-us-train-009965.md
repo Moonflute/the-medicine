@@ -13,7 +13,10 @@ related_diseases:
   - "일차성 무월경"
   - "임신 검사"
   - "β-hCG"
+  - "Pregnancy"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2PrOyDgeq4sO2DnCAoTW9sYXIgUHJlZ25hbmN5KS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

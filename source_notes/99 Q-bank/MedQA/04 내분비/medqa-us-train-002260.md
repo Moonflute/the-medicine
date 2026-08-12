@@ -13,6 +13,8 @@ related_diseases:
   - "Sheehan syndrome"
   - "central hypothyroidism"
   - "free T4 monitoring"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
 question_type: investigation
 difficulty: complex
 answer: A

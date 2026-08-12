@@ -13,6 +13,9 @@ related_diseases:
   - "gallstone pancreatitis"
   - "acute pancreatitis"
   - "cholelithiasis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

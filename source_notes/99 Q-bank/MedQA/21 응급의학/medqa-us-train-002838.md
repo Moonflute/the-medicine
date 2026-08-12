@@ -15,6 +15,9 @@ related_diseases:
   - "soft tissue gas"
   - "urgent surgical debridement"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q0tOyCrOyEsSDqt7zrp4nsl7wgKE5lY3JvdGl6aW5nIEZhc2NpaXRpcykubWQ
+  - MDgg6rCQ7Je8L-q0tOyggOuzkSAoR2FuZ3JlbmUpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

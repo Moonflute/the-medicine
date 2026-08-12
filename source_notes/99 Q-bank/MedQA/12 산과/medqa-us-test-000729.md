@@ -13,6 +13,7 @@ related_diseases:
   - "임신 초기 초음파"
   - "머리-엉덩이 길이"
   - "재태연령 평가"
+related_disease_slugs: []
 question_type: investigation
 difficulty: simple
 answer: C

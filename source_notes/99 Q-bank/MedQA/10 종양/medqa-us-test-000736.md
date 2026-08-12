@@ -13,6 +13,9 @@ related_diseases:
   - "악성종양 관련 고칼슘혈증"
   - "저PTH성 고칼슘혈증"
   - "골전이"
+  - "Malignancy-associated hypercalcemia"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: prevention
 difficulty: complex
 answer: A

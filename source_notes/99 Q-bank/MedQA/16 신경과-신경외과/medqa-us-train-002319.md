@@ -13,7 +13,9 @@ related_diseases:
   - "alcoholic cerebellar degeneration"
   - "thiamine deficiency"
   - "cerebellar ataxia"
+  - "Cerebellar tumor"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

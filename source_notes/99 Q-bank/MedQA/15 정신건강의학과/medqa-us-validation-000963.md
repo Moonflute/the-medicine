@@ -14,6 +14,8 @@ related_diseases:
   - "감염병 신고"
   - "환자 비밀보장"
 question_type: ethics
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

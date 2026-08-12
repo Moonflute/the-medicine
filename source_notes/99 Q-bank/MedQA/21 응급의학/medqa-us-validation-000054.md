@@ -14,6 +14,8 @@ related_diseases:
   - "숙시닐콜린"
   - "고칼륨혈증성 부정맥"
 question_type: mechanism
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

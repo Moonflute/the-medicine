@@ -15,6 +15,9 @@ related_diseases:
   - "painful vaginal bleeding"
   - "fetal distress"
 question_type: risk_factor
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

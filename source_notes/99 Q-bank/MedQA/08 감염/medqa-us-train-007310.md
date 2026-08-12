@@ -14,6 +14,9 @@ related_diseases:
   - "폐렴구균"
   - "그람양성 쌍구균"
   - "패혈성 쇼크"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2MqO2YiOyEsSDsh7ztgawgKFNlcHRpYyBTaG9jaykubWQ
+  - MDIg7Zi47Z2h6riwL-ygle2YlSDtj5DroLQgKFR5cGljYWwgUG5ldW1vbmlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

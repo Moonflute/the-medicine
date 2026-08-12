@@ -13,6 +13,9 @@ related_diseases:
   - "Addison disease"
   - "primary adrenal insufficiency"
   - "autoimmune polyglandular syndrome"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ybkOuwnOyEsSDrtoDsi6Ag6riw64ql7KCA7ZWY7KadKFByaW1hcnkgQWRyZW5hbCBJbnN1ZmZpY2llbmN5KS5tZA
+  - MDQg64K067aE67mEL-u2gOyLoCDquLDriqXsoIDtlZjspp0gKEFkcmVuYWwgSW5zdWZmaWNpZW5jeSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: A

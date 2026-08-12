@@ -12,6 +12,8 @@ specialty: 15 정신건강의학과
 related_diseases:
   - "major depressive disorder"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: simple
 answer: C
 translation_status: machine-verified

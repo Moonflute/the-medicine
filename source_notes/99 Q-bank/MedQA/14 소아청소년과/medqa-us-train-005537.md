@@ -13,7 +13,10 @@ related_diseases:
   - "영아 혈관종"
   - "모세혈관종"
   - "자연 퇴행"
+  - "Infantile hemangioma"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-ycoOyVhCDtmIjqtIDsooUgKEluZmFudGlsZSBIZW1hbmdpb21hKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

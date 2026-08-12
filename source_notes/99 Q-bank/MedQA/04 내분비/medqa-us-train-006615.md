@@ -13,6 +13,8 @@ related_diseases:
   - "인슐린종"
   - "공복 저혈당"
   - "72시간 공복검사"
+  - "Insulinoma"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: C

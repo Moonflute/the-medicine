@@ -14,6 +14,8 @@ related_diseases:
   - "psychosis in pregnancy"
   - "clozapine"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

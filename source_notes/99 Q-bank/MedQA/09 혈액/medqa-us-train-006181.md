@@ -13,6 +13,8 @@ related_diseases:
   - "만성 골수성 백혈병"
   - "백혈구 증가"
   - "낮은 백혈구 알칼리성 인산분해효소"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChDTUwpIChDaHJvbmljIE15ZWxvaWQgTGV1a2VtaWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

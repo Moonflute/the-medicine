@@ -13,6 +13,9 @@ related_diseases:
   - "acute pyelonephritis"
   - "aminoglycoside nephrotoxicity"
   - "acute tubular necrosis"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

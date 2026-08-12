@@ -13,6 +13,8 @@ related_diseases:
   - "장폐색"
   - "마비성 장폐색"
   - "복부팽창"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snqXtj5Dsg4kubWQ
 question_type: management
 difficulty: standard
 answer: B

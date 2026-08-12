@@ -14,7 +14,9 @@ related_diseases:
   - "pruritus in pregnancy"
   - "elevated bile acids"
   - "direct hyperbilirubinemia"
+  - "Intrahepatic cholestasis of pregnancy"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

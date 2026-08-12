@@ -13,6 +13,8 @@ related_diseases:
   - "non-Hodgkin lymphoma"
   - "peripheral neuropathy"
 question_type: diagnosis
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-u5hO2YuOyngO2CqCDrprztlITsooUgKE5vbi1Ib2Rna2luIEx5bXBob21hKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

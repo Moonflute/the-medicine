@@ -13,6 +13,9 @@ related_diseases:
   - "아미오다론 유발 폐섬유화"
   - "청회색 피부 변색"
   - "간독성"
+  - "Pulmonary fibrosis"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2KueuwnOyEsSDtj5DshKzsnKDspp0gKElQRikgKElkaW9wYXRoaWMgUHVsbW9uYXJ5IEZpYnJvc2lzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

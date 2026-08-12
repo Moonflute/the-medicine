@@ -13,6 +13,8 @@ related_diseases:
   - "HIV/AIDS"
   - "CD4 감소"
   - "기회감염 예방"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 question_type: prevention
 difficulty: simple
 answer: C

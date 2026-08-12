@@ -13,6 +13,8 @@ related_diseases:
   - "타코츠보 심근병증"
   - "스트레스 심근병증"
   - "급성 심부전"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrtoDsoIQgKEFjdXRlIEhlYXJ0IEZhaWx1cmUpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: C

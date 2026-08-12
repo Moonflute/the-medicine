@@ -13,6 +13,8 @@ related_diseases:
   - "급성 담낭염"
   - "담석 위험인자"
   - "다회 임신"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7JO46rCc7Je8IChBY3V0ZSBDaG9sZWN5c3RpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

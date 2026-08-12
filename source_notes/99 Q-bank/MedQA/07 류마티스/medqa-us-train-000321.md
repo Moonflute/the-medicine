@@ -13,6 +13,8 @@ related_diseases:
   - "rheumatoid arthritis"
   - "Felty syndrome"
   - "methotrexate toxicity"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: C

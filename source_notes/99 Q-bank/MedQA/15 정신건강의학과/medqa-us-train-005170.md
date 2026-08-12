@@ -14,6 +14,8 @@ related_diseases:
   - "일주기 리듬 수면장애"
   - "노인 수면장애"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydvOyjvOq4sCDrpqzrk6wg7IiY66m0IOqwgeyEsSDsnqXslaAgKENpcmNhZGlhbiBSaHl0aG0gU2xlZXAtV2FrZSBEaXNvcmRlcikubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

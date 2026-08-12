@@ -14,6 +14,8 @@ related_diseases:
   - "단백뇨 없는 고혈압"
   - "산전 관찰"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

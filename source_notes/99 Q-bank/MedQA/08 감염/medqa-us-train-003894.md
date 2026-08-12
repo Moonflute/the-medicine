@@ -14,6 +14,10 @@ related_diseases:
   - "alcohol use disorder"
   - "atypical pneumonia"
   - "ciprofloxacin"
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ
+  - MDIg7Zi47Z2h6riwL-u5hOygle2YlSDtj5DroLQgKEF0eXBpY2FsIFBuZXVtb25pYSkubWQ
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: management
 difficulty: standard
 answer: D

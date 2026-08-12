@@ -14,6 +14,8 @@ related_diseases:
   - "antipsychotic-associated thrombosis"
   - "chlorpromazine"
 question_type: mechanism
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

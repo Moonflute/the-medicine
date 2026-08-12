@@ -13,7 +13,9 @@ related_diseases:
   - "악성고열증"
   - "마취 유발 근강직"
   - "단트롤렌"
+  - "Malignant hyperthermia"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

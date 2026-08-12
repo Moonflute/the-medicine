@@ -14,6 +14,8 @@ related_diseases:
   - "건선"
   - "plaque"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-qxtOyEoCAoUHNvcmlhc2lzKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

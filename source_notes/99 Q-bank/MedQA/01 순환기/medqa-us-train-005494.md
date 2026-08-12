@@ -13,6 +13,8 @@ related_diseases:
   - "스타틴 유발 간효소 상승"
   - "아토르바스타틴"
   - "약물 유발 간손상"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rj4XshLEg6rCE7Je8IChUb3hpYyBIZXBhdGl0aXMpLm1k
 question_type: adverse_effect
 difficulty: simple
 answer: A

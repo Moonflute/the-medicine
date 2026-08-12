@@ -14,6 +14,8 @@ related_diseases:
   - "트리코모나스 바지날리스"
   - "딸기 자궁경부"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2KuOumrOy9lOuqqOuCmOyKpCAoVHJpY2hvbW9uaWFzaXMpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

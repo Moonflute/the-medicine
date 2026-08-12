@@ -13,6 +13,9 @@ related_diseases:
   - "tachycardia-induced cardiomyopathy"
   - "atrial fibrillation"
   - "dilated cardiomyopathy"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
+  - MDEg7Iic7ZmY6riwL-2ZleyepeyEsSDsi6zqt7zrs5Hspp0gKERpbGF0ZWQgQ2FyZGlvbXlvcGF0aHkpLm1k
 question_type: mechanism
 difficulty: complex
 answer: C

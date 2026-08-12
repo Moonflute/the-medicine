@@ -15,6 +15,8 @@ related_diseases:
   - "lithium-induced nephropathy"
   - "switch to valproate"
 question_type: adverse_effect
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

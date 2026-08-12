@@ -13,6 +13,8 @@ related_diseases:
   - "엽산결핍성 빈혈"
   - "거대적아구성 빈혈"
   - "설염"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qxsOuMgOygge2YiOuqqOq1rCDruYjtmIggKE1lZ2Fsb2JsYXN0aWMgQW5lbWlhKS5tZA
 question_type: prevention
 difficulty: complex
 answer: A

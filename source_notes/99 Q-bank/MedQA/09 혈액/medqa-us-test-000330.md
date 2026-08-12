@@ -13,6 +13,9 @@ related_diseases:
   - "겸상적혈구병"
   - "허혈성 뇌졸중"
   - "겸상적혈구병 관련 뇌졸중"
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: management
 difficulty: complex
 answer: B

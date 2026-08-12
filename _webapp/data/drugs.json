@@ -198,7 +198,9 @@
       "brands": [
         "Praluent"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 고LDL콜레스테롤혈증",
@@ -312,7 +314,9 @@
       "brands": [
         "Tekturna"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 성인 및 6세 이상 소아(50kg 이상)의 고혈압 치료"
@@ -1240,7 +1244,9 @@
       "brands": [
         "Bumetanide"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "심부전"
       ],
@@ -1367,7 +1373,9 @@
       "brands": [
         "CANDESARTAN CILEXETIL"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "[[고혈압]]",
         "심부전"
@@ -1491,7 +1499,9 @@
       "brands": [
         "CAPTOPRIL AND HYDROCHLOROTHIAZIDE"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "[[고혈압]]",
         "심부전",
@@ -1770,7 +1780,9 @@
       "brands": [
         "Chlorthalidone"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "[[고혈압]]"
       ],
@@ -1890,7 +1902,9 @@
       "brands": [
         "cilostazol"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 간헐적 파행증 증상 완화 및 보행 거리 개선"
@@ -2395,7 +2409,9 @@
       "brands": [
         "Dipyridamole"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 심장 판막 치환술 후 수술 후 혈전색전증 합병증 예방 (쿠마린계 항응고제 보조 요법)"
@@ -2499,7 +2515,9 @@
       "brands": [
         "DOBUTAMINE IN DEXTROSE"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 심혈관계 질환",
@@ -2608,7 +2626,9 @@
       "brands": [
         "Dopamine Hydrochloride in Dextrose"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 심혈관계 질환",
@@ -2728,7 +2748,9 @@
       "brands": [
         "Multaq"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 정상 동율동을 유지 중인 발작성 또는 지속성 심방세동 환자의 심방세동 관련 입원 위험 감소."
@@ -3264,7 +3286,9 @@
       "brands": [
         "Esmolol Hydrochloride"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "[[고혈압]]",
         "협심증"
@@ -3405,7 +3429,9 @@
       "brands": [
         "EDECRIN"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "심부전"
       ],
@@ -3526,7 +3552,9 @@
       "brands": [
         "REPATHA"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 고LDL콜레스테롤혈증",
@@ -3772,7 +3800,9 @@
       "brands": [
         "Felodipine"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "[[고혈압]]",
         "협심증"
@@ -3897,7 +3927,9 @@
       "brands": [
         "Fenofibrate"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 성인의 원발성 고콜레스테롤혈증 또는 혼합형 이상지질혈증 (LDL-C, Total-C, TG, Apo B 감소 및 HDL-C 증가)",
@@ -4028,7 +4060,9 @@
       "brands": [
         "Flecainide Acetate"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 증상을 동반한 발작성 상심실성 빈맥(PSVT) 예방",
@@ -4160,7 +4194,9 @@
       "brands": [
         "Fluvastatin"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 원발성 고콜레스테롤혈증 및 혼합형 이상지질혈증(Fredrickson Type IIa, IIb)",
@@ -4292,7 +4328,9 @@
       "brands": [
         "Fosinopril sodium"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "[[고혈압]]",
         "심부전",
@@ -4551,7 +4589,9 @@
       "brands": [
         "Gemfibrozil"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 고중성지방혈증",
@@ -4664,7 +4704,9 @@
       "detailClass": "직접 혈관확장제",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [],
+      "brands": [
+        "-"
+      ],
       "doses": [
         "고혈압 성인 경구: 10 mg 1일 4회로 시작(2-4일), 이후 25 mg 1일 4회, 2주차부터 50 mg 1일 4회로 적정; 최소 유효 용량 유지",
         "저항성 고혈압: 허가 라벨상 최대 300 mg/day까지 필요할 수 있으나 개별 적정"
@@ -4908,7 +4950,9 @@
       "brands": [
         "Indapamide"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "[[고혈압]]"
       ],
@@ -5025,7 +5069,9 @@
       "brands": [
         "Irbesartan"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "[[고혈압]]",
         "심부전"
@@ -5143,7 +5189,9 @@
       "brands": [
         "Isosorbide Mononitrate"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "협심증"
       ],
@@ -5267,7 +5315,9 @@
       "brands": [
         "IVABRADINE"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 성인 만성 심부전 환자의 심부전 악화로 인한 입원 위험 감소"
@@ -5389,7 +5439,9 @@
       "brands": [
         "LABETALOL HYDROCHLORIDE"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "[[고혈압]]",
         "협심증"
@@ -5788,7 +5840,9 @@
       "brands": [
         "Lovastatin"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 원발성 고콜레스테롤혈증(Type IIa, IIb)",
@@ -5914,7 +5968,9 @@
       "brands": [
         "Metolazone"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "[[고혈압]]"
       ],
@@ -6038,7 +6094,9 @@
       "brands": [
         "Metoprolol Tartrate"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "[[고혈압]]",
         "협심증"
@@ -6174,7 +6232,9 @@
       "brands": [
         "Nebivolol"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "[[고혈압]]",
         "협심증"
@@ -6301,7 +6361,9 @@
       "brands": [
         "Nicardipine Hydrochloride"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "고혈압",
         "협심증"
@@ -6945,7 +7007,9 @@
       "brands": [
         "Perindopril Erbumine"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "[[고혈압]]",
         "심부전",
@@ -7200,7 +7264,9 @@
       "brands": [
         "Pitavastatin"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 성인의 원발성 고콜레스테롤혈증",
@@ -7323,7 +7389,9 @@
       "brands": [
         "Prasugrel"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 경피적 관상동맥 중재술(PCI)을 받는 급성 관상동맥 증후군(ACS) 환자의 혈전성 심혈관 사건(스텐트 혈전증 포함) 감소",
@@ -7452,7 +7520,9 @@
       "brands": [
         "PRAVASTATIN SODIUM"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 임상적으로 명백한 관상동맥질환이 없는 고콜레스테롤혈증 환자의 심혈관 질환 예방",
@@ -7588,7 +7658,9 @@
       "brands": [
         "PROPAFENONE HYDROCHLORIDE"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 증상성 발작성 심방세동/조동의 재발 지연(구조적 심장 질환이 없는 환자).",
@@ -7888,7 +7960,9 @@
       "brands": [
         "QUINAPRIL"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "[[고혈압]]",
         "심부전",
@@ -8150,7 +8224,9 @@
       "brands": [
         "Ranolazine"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 만성 협심증(chronic angina)의 치료",
@@ -8415,7 +8491,9 @@
       "brands": [
         "ENTRESTO"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 성인: 만성 심부전 환자에서 심혈관계 사망 및 심부전으로 인한 입원 위험 감소 (좌심실 박출률이 정상보다 낮은 환자에서 효과가 명확함)",
@@ -8550,7 +8628,9 @@
       "brands": [
         "ENTRESTO"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 성인 만성 심부전 환자의 심혈관계 사망 및 입원 위험 감소",
@@ -8818,7 +8898,9 @@
       "brands": [
         "Sotalol Hydrochloride"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 생명을 위협하는 심실 부정맥(예: 지속성 심실빈맥) 치료",
@@ -9227,7 +9309,9 @@
       "brands": [
         "Ticagrelor"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 급성 관상동맥 증후군(ACS) 또는 심근경색 기왕력이 있는 환자",
@@ -9358,7 +9442,9 @@
       "brands": [
         "Torsemide"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "심부전"
       ],
@@ -9872,7 +9958,9 @@
       "brands": [
         "DUAKLIR PRESSAIR"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "COPD"
       ],
@@ -10230,7 +10318,9 @@
       "brands": [
         "Budesonide and Formoterol Fumarate Dihydrate"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "천식",
         "COPD"
@@ -10351,7 +10441,9 @@
       "brands": [
         "Omnaris"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "천식"
       ],
@@ -10581,7 +10673,9 @@
       "brands": [
         "Fluticasone Propionate and Salmeterol"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "천식",
         "COPD"
@@ -11208,7 +11302,9 @@
       "brands": [
         "Roflumilast"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "천식",
         "COPD"
@@ -11448,7 +11544,9 @@
       "brands": [
         "Fluticasone Propionate and Salmeterol"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "COPD"
       ],
@@ -12420,7 +12518,9 @@
       "brands": [
         "Granisol"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 항암 화학요법과 관련된 구역 및 구토의 예방",
@@ -12676,7 +12776,9 @@
       "brands": [
         "Lansoprazole"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "GERD",
         "소화성 궤양"
@@ -12918,7 +13020,9 @@
       "brands": [
         "purelax"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 소화기 증상 또는 질환 조절",
@@ -13806,7 +13910,9 @@
       "brands": [
         "Rabeprazole sodium"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "GERD",
         "소화성 궤양"
@@ -13927,7 +14033,9 @@
       "brands": [
         "Ranitidine"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "소화성 궤양",
         "GERD"
@@ -14035,7 +14143,9 @@
       "brands": [
         "Sucralfate"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 소화기 증상 또는 질환 조절",
@@ -15017,7 +15127,9 @@
       "brands": [
         "Binosto"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 폐경기 여성의 골다공증 치료 및 골절(고관절, 척추) 발생률 감소",
@@ -15142,7 +15254,9 @@
       "brands": [
         "INVOKANA"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "제2형 당뇨병",
         "심부전"
@@ -15392,7 +15506,9 @@
       "detailClass": "글루코코르티코이드",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [],
+      "brands": [
+        "-"
+      ],
       "doses": [
         "경구 초기 총 0.75-9 mg/day; 질환 중증도와 반응에 따라 개별화",
         "반응 후 적절한 간격으로 감량하여 임상 반응을 유지하는 최소 유효 용량 사용"
@@ -15523,7 +15639,9 @@
       "brands": [
         "TRULICITY"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "제2형 당뇨병"
       ],
@@ -16244,7 +16362,9 @@
       "brands": [
         "NOVOLOG"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 성인 및 소아 당뇨병 환자의 혈당 조절 개선."
@@ -16497,7 +16617,9 @@
         "BASAGLAR KwikPen",
         "BASAGLAR Tempo Pen"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 제1형 당뇨병(성인 및 소아) 환자의 혈당 조절",
@@ -16619,7 +16741,9 @@
       "brands": [
         "ADMELOG"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 성인 및 소아 당뇨병 환자의 혈당 조절 개선."
@@ -17123,7 +17247,9 @@
       "brands": [
         "Liraglutide"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "제2형 당뇨병"
       ],
@@ -17499,7 +17625,9 @@
       "brands": [
         "ALLI"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 과체중 성인(18세 이상)의 체중 감량 보조"
@@ -17746,7 +17874,9 @@
       "detailClass": "글루코코르티코이드",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [],
+      "brands": [
+        "-"
+      ],
       "doses": [
         "경구 초기 총 5-60 mg/day; 질환과 중증도에 따라 개별화",
         "반응 후 최소 유효 유지 용량으로 점진 감량; 장기·고용량 치료 중단 시 급격한 중단을 피함"
@@ -17992,7 +18122,9 @@
       "brands": [
         "Raloxifene Hydrochloride"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 폐경기 여성의 골다공증 치료 및 예방",
@@ -18118,7 +18250,9 @@
       "brands": [
         "Repaglinide"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 제2형 당뇨병 성인 환자의 혈당 조절 개선",
@@ -19123,7 +19257,9 @@
       "brands": [
         "IDACIO"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -19371,7 +19507,9 @@
       "brands": [
         "Baricitinib"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -19632,7 +19770,9 @@
       "brands": [
         "Cimzia"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -19882,7 +20022,9 @@
       "brands": [
         "ENBREL"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -20533,7 +20675,9 @@
       "brands": [
         "Leflunomide"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -21306,7 +21450,9 @@
       "brands": [
         "Tofidence"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 류마티스 관절염 (RA)",
@@ -21417,7 +21563,9 @@
       "brands": [
         "Tofacitinib"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -21546,7 +21694,9 @@
       "brands": [
         "Rinvoq"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "류마티스관절염"
       ],
@@ -21924,7 +22074,9 @@
       "brands": [
         "Amikacin Sulfate"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 중증 gram-negative 감염",
@@ -22578,7 +22730,9 @@
       "brands": [
         "Ampicillin and Sulbactam"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 복강내 감염",
@@ -22702,7 +22856,9 @@
       "brands": [
         "ERAXIS"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 침습성 칸디다증",
@@ -22823,7 +22979,9 @@
       "brands": [
         "COARTEM"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 열대열원충(Plasmodium falciparum)에 의한 급성 단순 말라리아 감염 치료",
@@ -23071,7 +23229,9 @@
       "brands": [
         "Aztreonam"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• gram-negative 폐렴",
@@ -23568,7 +23728,9 @@
       "brands": [
         "Cefepime"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 세균 감염",
@@ -23683,7 +23845,9 @@
       "brands": [
         "Fetroja"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 세균 감염",
@@ -24556,7 +24720,9 @@
       "brands": [
         "Ceftazidime"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 하기도 감염(폐렴 등)",
@@ -25312,7 +25478,9 @@
       "brands": [
         "Chloroquine Phosphate"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 기생충 감염",
@@ -25819,7 +25987,9 @@
       "brands": [
         "Cortisporin TC"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 다제내성 gram-negative 감염",
@@ -26193,7 +26363,9 @@
       "brands": [
         "Ertapenem"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 중증 세균 감염",
@@ -26437,7 +26609,9 @@
       "brands": [
         "ETHAMBUTOL HYDROCHLORIDE"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 활동성 결핵",
@@ -26552,7 +26726,9 @@
       "brands": [
         "Fidaxomicin"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• Clostridioides difficile infection",
@@ -26926,7 +27102,9 @@
       "brands": [
         "Fosfomycin Tromethamine"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 세균 감염",
@@ -27172,7 +27350,9 @@
       "detailClass": "아미노글리코사이드",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [],
+      "brands": [
+        "-"
+      ],
       "doses": [
         "정상 신기능 성인의 중증 감염: 3 mg/kg/day IV/IM을 8시간마다 3회 분할",
         "생명위협 감염: 최대 5 mg/kg/day를 3-4회 분할 후 가능한 빨리 3 mg/kg/day로 감량; 신기능·체중·혈중농도에 따라 조정"
@@ -27553,7 +27733,9 @@
       "detailClass": "1차 항결핵제",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [],
+      "brands": [
+        "-"
+      ],
       "doses": [
         "활동성 결핵 성인: 5 mg/kg(최대 300 mg) 경구 1일 1회 또는 15 mg/kg(최대 900 mg) 주 2-3회; 반드시 다른 유효 항결핵제와 병용",
         "잠복결핵 예방요법 성인 30 kg 초과: 300 mg 경구 1일 1회; regimen·기간은 병용약과 지침에 따라 결정"
@@ -27675,7 +27857,9 @@
       "brands": [
         "Ivermectin"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 장내 선충 감염",
@@ -27787,8 +27971,12 @@
       "detailClass": "퀴놀론",
       "clinicalCore": false,
       "priority": "",
-      "brands": [],
-      "doses": [],
+      "brands": [
+        "-"
+      ],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 요로감염",
@@ -27910,7 +28098,9 @@
       "brands": [
         "Linezolid"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 원내 폐렴 (Nosocomial pneumonia)",
@@ -28405,7 +28595,9 @@
       "brands": [
         "Micafungin"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 침습성 칸디다증",
@@ -28528,7 +28720,9 @@
       "brands": [
         "Minocycline hydrochloride"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 비정형 호흡기 감염",
@@ -28772,7 +28966,9 @@
       "brands": [
         "Nafcillin"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 연쇄구균 감염",
@@ -28885,7 +29081,9 @@
       "brands": [
         "Nitrofurantoin"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 세균 감염",
@@ -29105,7 +29303,9 @@
       "brands": [
         "Oxacillin"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 연쇄구균 감염",
@@ -29359,8 +29559,12 @@
       "detailClass": "polymyxin",
       "clinicalCore": false,
       "priority": "",
-      "brands": [],
-      "doses": [],
+      "brands": [
+        "-"
+      ],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 다제내성 gram-negative 감염",
@@ -29475,7 +29679,9 @@
       "brands": [
         "posaconazole"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 칸디다 감염",
@@ -29719,7 +29925,9 @@
       "brands": [
         "Pyrazinamide"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 활동성 결핵",
@@ -29829,7 +30037,9 @@
       "brands": [
         "Rifadin IV"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 해당 계열 적응증",
@@ -29933,7 +30143,9 @@
       "brands": [
         "Lopinavir and Ritonavir"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 해당 바이러스 감염",
@@ -30050,7 +30262,9 @@
       "brands": [
         "Sulfamethoxazole and Trimethoprim"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 요로감염",
@@ -30521,8 +30735,12 @@
       "detailClass": "알릴라민",
       "clinicalCore": false,
       "priority": "",
-      "brands": [],
-      "doses": [],
+      "brands": [
+        "-"
+      ],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 진균 감염",
@@ -30641,7 +30859,9 @@
       "brands": [
         "Tigecycline"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 18세 이상 성인 환자의 복합 피부 및 연조직 감염(cSSSI)",
@@ -30881,7 +31101,9 @@
       "brands": [
         "Sulfamethoxazole and Trimethoprim"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 세균 감염",
@@ -31003,7 +31225,9 @@
       "brands": [
         "Sulfamethoxazole and Trimethoprim"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 요로감염",
@@ -31123,7 +31347,9 @@
       "brands": [
         "Valacyclovir Hydrochloride"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 단순포진",
@@ -31242,7 +31468,9 @@
       "brands": [
         "Valganciclovir hydrochloride for Oral"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 소아 신장 이식 환자(4개월~16세)의 CMV 질환 예방",
@@ -31502,7 +31730,9 @@
       "brands": [
         "VFEND"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 침습성 아스페르길루스증 (Invasive aspergillosis)",
@@ -31618,7 +31848,9 @@
       "brands": [
         "Cathflo Activase"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 중심정맥관의 기능 회복 (혈액 흡인 불가능 시 개통성 확보)."
@@ -31715,8 +31947,12 @@
       "detailClass": "항섬유소용해",
       "clinicalCore": false,
       "priority": "",
-      "brands": [],
-      "doses": [],
+      "brands": [
+        "-"
+      ],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 혈전 예방 또는 치료",
@@ -32357,7 +32593,9 @@
       "brands": [
         "Enoxaparin Sodium"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 복부, 고관절, 슬관절 수술 환자의 심부정맥혈전증(DVT) 예방.",
@@ -32463,7 +32701,9 @@
       "brands": [
         "EPOGEN"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 혈전 예방 또는 치료",
@@ -32563,7 +32803,9 @@
       "brands": [
         "NYPOZI"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 혈전 예방 또는 치료",
@@ -32960,7 +33202,9 @@
       "brands": [
         "Iron Sucrose"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 혈전 예방 또는 치료",
@@ -33075,7 +33319,9 @@
       "detailClass": "비타민 K 길항제",
       "clinicalCore": false,
       "priority": "",
-      "brands": [],
+      "brands": [
+        "-"
+      ],
       "doses": [
         "INR 기반 개별 조절"
       ],
@@ -33470,7 +33716,9 @@
       "brands": [
         "tranexamic acid"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 혈전 예방 또는 치료",
@@ -34285,7 +34533,9 @@
       "brands": [
         "Doxorubicin Hydrochloride"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 유방암(액와 림프절 전이 동반 시 보조요법)",
@@ -34642,7 +34892,9 @@
       "brands": [
         "OPDIVO QVANTIG"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 여러 고형암",
@@ -34760,7 +35012,9 @@
       "brands": [
         "TAGRISSO"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• EGFR 엑손 19 결손 또는 엑손 21 L858R 변이 양성 비소세포폐암(NSCLC)의 보조 요법",
@@ -35024,7 +35278,9 @@
       "brands": [
         "Paclitaxel"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 진행성 난소암 (2차 치료 및 시스플라틴 병용 1차 치료)",
@@ -35136,7 +35392,9 @@
       "brands": [
         "KEYTRUDA QLEX"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 여러 고형암",
@@ -35753,7 +36011,9 @@
       "brands": [
         "acamprosate calcium"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 알코올 의존증 환자의 금주 유지 (치료 시작 시점에 이미 금주 상태인 환자 대상)",
@@ -36261,7 +36521,9 @@
       "brands": [
         "Atomoxetine"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 소아, 청소년 및 성인의 ADHD 치료"
@@ -36378,7 +36640,9 @@
       "brands": [
         "Buprenorphine"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 아편양제 의존증(Opioid dependence) 치료."
@@ -37564,7 +37828,9 @@
       "brands": [
         "Escitalopram Oral Solution"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "우울장애"
       ],
@@ -37688,7 +37954,9 @@
       "brands": [
         "Fentanyl Citrate"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 마취 전 투약 및 마취 유도·유지 시 진통 보조.",
@@ -38195,7 +38463,9 @@
       "brands": [
         "LACOSAMIDE"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 부분발작",
@@ -38706,7 +38976,9 @@
       "detailClass": "기분안정제",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [],
+      "brands": [
+        "-"
+      ],
       "doses": [
         "성인 시작: lithium carbonate 300 mg 경구 1일 3회; 3일 후 12시간 trough 혈중농도를 확인해 적정",
         "급성 조증 목표 0.8-1.2 mEq/L, 유지 목표 0.8-1.0 mEq/L; 용량은 혈중농도·신기능·수분/Na 상태·상호작용에 따라 개별화"
@@ -39219,7 +39491,9 @@
       "brands": [
         "Midazolam"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 수술 전 진정, 항불안 및 기억상실 유도",
@@ -39346,7 +39620,9 @@
       "brands": [
         "Mirtazapine"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 성인의 주요 우울 장애(Major Depressive Disorder, MDD) 치료"
@@ -39471,7 +39747,9 @@
       "brands": [
         "MORPHINE SULFATE"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 비마약성 진통제나 복합제로는 통증 조절이 불충분한 성인 및 50kg 이상 소아의 급성 및 만성 통증 관리"
@@ -39972,7 +40250,9 @@
       "brands": [
         "Oxycodone Hydrochloride"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 중등도 이상 통증",
@@ -40354,7 +40634,9 @@
       "brands": [
         "PREGABALIN"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 당뇨병성 말초 신경병증과 관련된 신경병증성 통증",
@@ -40896,7 +41178,9 @@
       "brands": [
         "Sumatriptan"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 성인 편두통의 급성 치료",
@@ -41151,7 +41435,9 @@
       "brands": [
         "TRAMADOL HYDROCHLORIDE"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 아편유사 진통제가 필요한 중증의 지속적 통증 관리"
@@ -41545,7 +41831,9 @@
       "brands": [
         "Zolpidem"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 입면 장애를 특징으로 하는 불면증의 단기 치료"
@@ -41768,7 +42056,9 @@
       "brands": [
         "Azopt"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "녹내장"
       ],
@@ -42024,7 +42314,9 @@
       "brands": [
         "Dorzolamide Hydrochloride"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [
         "녹내장"
       ],
@@ -42130,7 +42422,9 @@
       "brands": [
         "Fluticasone Propionate"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 미국 FDA 공개 라벨 기준 세부 적응증은 제형, 감염 부위, 원인균 또는 임상 상황에 따라 더 세분된다."
@@ -42227,7 +42521,9 @@
       "detailClass": "국소 코르티코스테로이드",
       "clinicalCore": true,
       "priority": "tier_1",
-      "brands": [],
+      "brands": [
+        "-"
+      ],
       "doses": [
         "Hydrocortisone cream 1% 또는 2.5%: 병변에 얇게 1일 2-4회 도포; 중증도·제형에 따라 조정",
         "넓은 면적·장기간·밀봉요법은 전신흡수와 HPA axis 억제 위험이 있어 최소 유효량·기간 사용"
@@ -42568,7 +42864,9 @@
       "brands": [
         "Mometasone Furoate"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 미국 FDA 공개 라벨 기준 세부 적응증은 제형, 감염 부위, 원인균 또는 임상 상황에 따라 더 세분된다."
@@ -43050,7 +43348,9 @@
       "brands": [
         "Ketalar"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 근이완이 필요 없는 진단 및 수술의 단독 마취",
@@ -43159,7 +43459,9 @@
       "brands": [
         "Ketorolac Tromethamine"
       ],
-      "doses": [],
+      "doses": [
+        "-"
+      ],
       "relatedDiseases": [],
       "indications": [
         "• 통증 조절",
@@ -43901,7 +44203,9 @@
       "detailClass": "흡착",
       "clinicalCore": false,
       "priority": "",
-      "brands": [],
+      "brands": [
+        "-"
+      ],
       "doses": [
         "1 g/kg PO/NG single dose"
       ],

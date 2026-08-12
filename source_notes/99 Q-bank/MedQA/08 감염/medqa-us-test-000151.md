@@ -13,6 +13,10 @@ related_diseases:
   - "레지오넬라 폐렴"
   - "비정형 폐렴"
   - "저나트륨혈증"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-ugiOyngOyYpOuErOudvCAoTGVnaW9uZWxsYSkubWQ
+  - MDIg7Zi47Z2h6riwL-u5hOygle2YlSDtj5DroLQgKEF0eXBpY2FsIFBuZXVtb25pYSkubWQ
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: A

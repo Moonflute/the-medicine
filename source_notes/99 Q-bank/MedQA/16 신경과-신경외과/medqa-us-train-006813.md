@@ -14,6 +14,8 @@ related_diseases:
   - "절박성 요실금"
   - "배뇨 억제 상실"
 question_type: mechanism
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_soJXsg4HslZUg7IiY65GQ7KadIChOb3JtYWwgcHJlc3N1cmUgaHlkcm9jZXBoYWx1cykubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

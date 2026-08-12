@@ -13,6 +13,7 @@ related_diseases:
   - "마르팡 증후군"
   - "수정체 탈구"
   - "FBN1"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: D

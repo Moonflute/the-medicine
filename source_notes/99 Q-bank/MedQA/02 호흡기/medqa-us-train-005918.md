@@ -13,6 +13,8 @@ related_diseases:
   - "폐색전증"
   - "객혈"
   - "CT 폐혈관조영술"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

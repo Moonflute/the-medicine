@@ -13,6 +13,9 @@ related_diseases:
   - "여행자 설사"
   - "장독소생성 대장균"
   - "ETEC"
+  - "Enterotoxigenic E. coli infection"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uMgOyepeq3oCAoRS4gY29saSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

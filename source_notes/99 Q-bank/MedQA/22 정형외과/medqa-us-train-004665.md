@@ -14,6 +14,8 @@ related_diseases:
   - "좌골신경통"
   - "요통"
 question_type: management
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-y2lOqwhO2MkO2DiOy2nOymnSAoSGVybmlhdGVkIEludGVydmVydGVicmFsIERpc2MpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "microangiopathic hemolytic anemia"
   - "schistocytes"
   - "ADAMTS13"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOyghOyEsSDtmIjshoztjJDqsJDshowg7J6Q7IOJ67CYIChUaHJvbWJvdGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgVFRQKS5tZA
+  - MDkg7ZiI7JWhL-uvuOyEuO2YiOq0gOuzkeyEsSDsmqntmIgg67mI7ZiIIChNaWNyb2FuZ2lvcGF0aGljIEhlbW9seXRpYyBBbmVtaWEsIE1BSEEpLm1k
 question_type: investigation
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "외측측부인대 손상"
   - "반월상연골 손상"
   - "내반 스트레스 검사"
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yZuOy4oSDsuKHrtoAg7J2464yAIOyGkOyDgSAoTGF0ZXJhbCBDb2xsYXRlcmFsIExpZ2FtZW50IEluanVyeSkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: D

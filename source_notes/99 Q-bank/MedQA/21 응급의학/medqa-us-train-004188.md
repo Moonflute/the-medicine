@@ -14,6 +14,8 @@ related_diseases:
   - "호흡성 산증"
   - "고탄산혈증"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: simple
 answer: D
 translation_status: machine-verified

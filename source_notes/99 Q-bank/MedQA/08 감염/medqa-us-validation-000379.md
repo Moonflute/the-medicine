@@ -13,6 +13,8 @@ related_diseases:
   - "급성 A형간염"
   - "급성 바이러스성 간염"
   - "항HAV IgM"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEgQe2YlSDqsITsl7wgKEFjdXRlIEhlcGF0aXRpcyBBKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

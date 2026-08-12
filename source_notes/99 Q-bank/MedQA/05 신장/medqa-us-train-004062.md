@@ -13,6 +13,7 @@ related_diseases:
   - "무증상 현미경적 혈뇨"
   - "요로 영상검사"
   - "정맥 신우조영술"
+related_disease_slugs: []
 question_type: 임상증례 객관식
 difficulty: standard
 answer: B

@@ -14,6 +14,9 @@ related_diseases:
   - "단백뇨"
   - "분만 유도"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA
+  - MDUg7Iug7J6lL-uLqOuwseuHqC5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "임신 중 출혈"
   - "태아 곤란"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

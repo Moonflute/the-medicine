@@ -13,6 +13,8 @@ related_diseases:
   - "낭성섬유증"
   - "CFTR 유전자"
   - "녹농균 감염"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 question_type: prognosis
 difficulty: standard
 answer: B

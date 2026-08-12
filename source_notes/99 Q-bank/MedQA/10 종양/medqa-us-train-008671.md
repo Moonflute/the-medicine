@@ -13,6 +13,8 @@ related_diseases:
   - "breast cancer"
   - "nulliparity"
   - "breast mass"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: prevention
 difficulty: complex
 answer: B

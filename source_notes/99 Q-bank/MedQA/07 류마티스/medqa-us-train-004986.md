@@ -13,6 +13,8 @@ related_diseases:
   - "급성 세균성 관절염"
   - "혈행성 관절 감염"
   - "패혈성 무릎관절염"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -13,7 +13,11 @@ related_diseases:
   - "겸상적혈구병"
   - "무혈성 골괴사"
   - "고관절 통증"
+  - "avascular necrosis"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-uMgO2HtOqzqOuRkCDrrLTtmIjshLEg6rS07IKs7KadIChPc3Rlb25lY3Jvc2lzIG9mIHRoZSBGZW1vcmFsIEhlYWQpLm1k
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

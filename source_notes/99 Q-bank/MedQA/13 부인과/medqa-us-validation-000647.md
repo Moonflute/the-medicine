@@ -13,7 +13,9 @@ related_diseases:
   - "직장질루"
   - "산후 질분비물"
   - "분만 열상"
+  - "Rectovaginal fistula"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

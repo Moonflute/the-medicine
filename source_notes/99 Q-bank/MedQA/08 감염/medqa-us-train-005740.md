@@ -13,6 +13,8 @@ related_diseases:
   - "히스토플라스마증"
   - "폐첨부 공동화"
   - "결절홍반"
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-qysOygiCDtmY3rsJggKEVyeXRoZW1hIE5vZG9zdW0pLm1k
 question_type: investigation
 difficulty: complex
 answer: A

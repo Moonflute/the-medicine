@@ -13,6 +13,10 @@ related_diseases:
   - "중증 지역사회획득 폐렴"
   - "패혈성 쇼크"
   - "폐렴성 패혈증"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2MqO2YiOyEsSDsh7ztgawgKFNlcHRpYyBTaG9jaykubWQ
+  - MDgg6rCQ7Je8L-yngOyXreyCrO2ajCDqsJDsl7wubWQ
+  - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
 question_type: management
 difficulty: complex
 answer: D

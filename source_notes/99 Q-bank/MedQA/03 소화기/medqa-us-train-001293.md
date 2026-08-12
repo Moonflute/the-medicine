@@ -12,6 +12,8 @@ specialty: 03 소화기
 related_diseases:
   - "ischemic colitis"
   - "hypoperfusion"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tl4jtmIjshLEg64yA7J6l7Je8IChJc2NoZW1pYyBDb2xpdGlzKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

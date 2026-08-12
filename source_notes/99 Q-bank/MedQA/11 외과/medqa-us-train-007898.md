@@ -13,6 +13,8 @@ related_diseases:
   - "penetrating abdominal trauma"
   - "hemorrhagic shock"
   - "exploratory laparotomy"
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: management
 difficulty: complex
 answer: D

@@ -13,6 +13,8 @@ related_diseases:
   - "소세포폐암"
   - "Kulchitsky 세포"
   - "부적절한 항이뇨호르몬 분비"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

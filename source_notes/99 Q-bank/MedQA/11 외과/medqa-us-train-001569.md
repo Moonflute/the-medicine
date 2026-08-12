@@ -12,6 +12,8 @@ specialty: 11 외과
 related_diseases:
   - "poststernotomy mediastinitis"
   - "surgical site infection"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-ywveyDgSDqsJDsl7wgKFdvdW5kIEluZmVjdGlvbikubWQ
 question_type: management
 difficulty: complex
 answer: D

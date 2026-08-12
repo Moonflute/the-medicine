@@ -13,6 +13,8 @@ related_diseases:
   - "불안정 빈맥성 부정맥"
   - "심방세동"
   - "동기화 심율동전환"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 question_type: management
 difficulty: complex
 answer: D

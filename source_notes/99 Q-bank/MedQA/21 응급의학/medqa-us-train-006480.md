@@ -14,6 +14,8 @@ related_diseases:
   - "소아 독성 섭취"
   - "데페록사민 해독"
 question_type: management
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-uLpOuwnOyZuOyDgSAoUG9seXRyYXVtYSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

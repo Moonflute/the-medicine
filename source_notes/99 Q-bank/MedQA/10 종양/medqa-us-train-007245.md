@@ -14,6 +14,7 @@ related_diseases:
   - "온단세트론"
   - "화학요법 유발 오심"
   - "변비"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

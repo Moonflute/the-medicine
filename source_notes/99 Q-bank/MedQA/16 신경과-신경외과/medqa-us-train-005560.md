@@ -13,7 +13,10 @@ related_diseases:
   - "복합 부분 발작"
   - "국소 발작 의식장애"
   - "발작 후 혼돈"
+  - "Complex partial seizure"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rsJzsnpEgKFNlaXp1cmUpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "요산 결석"
   - "신장결석"
   - "구연산칼륨"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
+  - MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA
 question_type: management
 difficulty: complex
 answer: B

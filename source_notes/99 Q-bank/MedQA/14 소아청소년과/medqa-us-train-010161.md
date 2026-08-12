@@ -14,6 +14,7 @@ related_diseases:
   - "바로 눕혀 재우기"
   - "수면 안전"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

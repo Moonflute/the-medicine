@@ -13,6 +13,9 @@ related_diseases:
   - "renal artery stenosis"
   - "renovascular hypertension"
   - "hypokalemia"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

@@ -13,6 +13,9 @@ related_diseases:
   - "갑상샘 유두암"
   - "방사선 유발 갑상샘암"
   - "전갑상샘절제술"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDsnKDrkZDslZQgKFRoeXJvaWQgUGFwaWxsYXJ5IENhcmNpbm9tYSkubWQ
+  - MDQg64K067aE67mEL-qwkeyDgeyDmOyVlCAoVGh5cm9pZCBDYW5jZXIpLm1k
 question_type: management
 difficulty: complex
 answer: D

@@ -13,7 +13,10 @@ related_diseases:
   - "질 종괴"
   - "질암"
   - "조직 생검"
+  - "Vaginal cancer"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yZuOydjOu2gOyVlCAoVnVsdmFyIENhbmNlcikubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

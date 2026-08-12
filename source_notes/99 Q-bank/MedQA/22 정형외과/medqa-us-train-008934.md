@@ -14,6 +14,8 @@ related_diseases:
   - "anatomic snuffbox tenderness"
   - "wrist trauma"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yjvOyDgeqzqCDqs6jsoIggKFNjYXBob2lkIEZyYWN0dXJlKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

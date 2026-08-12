@@ -14,6 +14,8 @@ related_diseases:
   - "질병불안"
   - "만성 복통"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytCDspp3sg4Eg7J6l7JWgIChTb21hdGljIFN5bXB0b20gRGlzb3JkZXIpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

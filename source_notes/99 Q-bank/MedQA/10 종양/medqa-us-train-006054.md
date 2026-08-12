@@ -13,6 +13,9 @@ related_diseases:
   - "종양용해증후군"
   - "버킷 림프종"
   - "급성 신손상 및 고칼륨혈증"
+related_disease_slugs:
+  - MTAg7KKF7JaRL-yiheyWkSDsmqntlbQg7Kad7ZuE6rWwIChUdW1vciBMeXNpcyBTeW5kcm9tZSkubWQ
+  - MDkg7ZiI7JWhL-uyhO2CtyDrprztlITsooUgKEJ1cmtpdHQncyBMeW1waG9tYSkubWQ
 question_type: management
 difficulty: complex
 answer: B

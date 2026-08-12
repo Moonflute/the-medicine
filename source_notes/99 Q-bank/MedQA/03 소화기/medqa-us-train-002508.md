@@ -13,6 +13,10 @@ related_diseases:
   - "peptic ulcer disease"
   - "gastric ulcer"
   - "gastrointestinal hemorrhage"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITqtqTslpEgKEdhc3RyaWMgVWxjZXIpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsnqXqtIAg7ZiI6rSA7KeI7ZmYLm1k
 question_type: risk_factor
 difficulty: complex
 answer: C

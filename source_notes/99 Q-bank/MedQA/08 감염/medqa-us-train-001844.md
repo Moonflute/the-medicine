@@ -13,6 +13,8 @@ related_diseases:
   - "Lyme disease"
   - "Lyme carditis"
   - "Borrelia burgdorferi"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-udvOyehOuzkSAoTHltZSBEaXNlYXNlKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: B

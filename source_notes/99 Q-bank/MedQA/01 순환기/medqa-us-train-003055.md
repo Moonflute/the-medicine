@@ -14,6 +14,9 @@ related_diseases:
   - "loop diuretic therapy"
   - "prerenal azotemia"
   - "hypokalemia"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrtoDsoIQgKEFjdXRlIEhlYXJ0IEZhaWx1cmUpLm1k
 question_type: adverse_effect
 difficulty: complex
 answer: A

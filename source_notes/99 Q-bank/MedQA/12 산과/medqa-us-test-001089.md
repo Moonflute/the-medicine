@@ -14,6 +14,7 @@ related_diseases:
   - "정상 임신 갑상선검사"
   - "TSH 억제"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

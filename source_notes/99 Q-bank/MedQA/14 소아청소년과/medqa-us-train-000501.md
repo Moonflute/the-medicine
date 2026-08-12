@@ -16,6 +16,10 @@ related_diseases:
   - "Hirschsprung's disease"
   - "Meconium ileus"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE64yAIOuCoOusuCDtmJHssKnspp0gKEh5cGVydHJvcGhpYyBQeWxvcmljIFN0ZW5vc2lzKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOq0tOyCrOyEsSDsnqXsl7wgKE5lb25hdGFsIE5lY3JvdGl6aW5nIEVudGVyb2NvbGl0aXMpLm1k
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISg7LKcIOqxsOuMgCDqsrDsnqXspp0gKENvbmdlbml0YWwgQWdhbmdsaW9uaWMgTWVnYWNvbG9uKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

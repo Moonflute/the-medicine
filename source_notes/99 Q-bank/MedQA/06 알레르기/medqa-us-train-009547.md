@@ -13,6 +13,8 @@ related_diseases:
   - "ACE inhibitor angioedema"
   - "ACE 억제제 혈관부종"
   - "bradykinin metabolism"
+  - "ACE inhibitor-induced angioedema"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: D

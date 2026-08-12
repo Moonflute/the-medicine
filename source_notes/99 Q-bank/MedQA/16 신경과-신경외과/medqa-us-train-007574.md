@@ -15,6 +15,9 @@ related_diseases:
   - "요실금"
   - "MRI"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

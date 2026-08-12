@@ -13,7 +13,9 @@ related_diseases:
   - "갈색 은둔거미 교상"
   - "피부괴사"
   - "거미독"
+  - "brown recluse spider bite"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

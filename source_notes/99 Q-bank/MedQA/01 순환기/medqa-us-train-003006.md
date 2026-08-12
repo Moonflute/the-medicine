@@ -14,6 +14,8 @@ related_diseases:
   - "cardiogenic shock"
   - "new holosystolic murmur"
   - "left-to-right shunt"
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

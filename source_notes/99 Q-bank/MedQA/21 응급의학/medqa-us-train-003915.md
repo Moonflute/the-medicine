@@ -15,6 +15,8 @@ related_diseases:
   - "tetanus prophylaxis"
   - "moist sterile dressing"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2MjOyDge2SjSAoVGV0YW51cykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

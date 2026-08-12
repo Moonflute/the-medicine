@@ -14,6 +14,8 @@ related_diseases:
   - "태아 생물리학적 계수"
   - "전신홍반루푸스 임신"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yWkeyImCDqs7zshozspp0gKE9saWdvaHlkcmFtbmlvcykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

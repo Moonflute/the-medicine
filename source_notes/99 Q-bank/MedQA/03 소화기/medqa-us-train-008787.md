@@ -13,6 +13,8 @@ related_diseases:
   - "ascending cholangitis"
   - "choledocholithiasis"
   - "ERCP"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzqtIDsl7wgKENob2xhbmdpdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: C

@@ -14,6 +14,7 @@ related_diseases:
   - "급성 간독성"
   - "약물 과량복용"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

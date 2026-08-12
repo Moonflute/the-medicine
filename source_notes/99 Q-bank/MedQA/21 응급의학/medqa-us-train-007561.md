@@ -15,6 +15,8 @@ related_diseases:
   - "바늘 감압"
   - "폐쇄성 쇼크"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4tOyepeyEsSDquLDtnYkgKFRlbnNpb24gUG5ldW1vdGhvcmF4KS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

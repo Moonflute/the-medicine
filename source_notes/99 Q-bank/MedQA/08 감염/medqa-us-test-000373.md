@@ -13,6 +13,10 @@ related_diseases:
   - "레지오넬라 폐렴"
   - "지역사회획득폐렴"
   - "저나트륨혈증"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-ugiOyngOyYpOuErOudvCAoTGVnaW9uZWxsYSkubWQ
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
+  - MDIg7Zi47Z2h6riwL-ygle2YlSDtj5DroLQgKFR5cGljYWwgUG5ldW1vbmlhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

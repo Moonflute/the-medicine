@@ -13,7 +13,10 @@ related_diseases:
   - "소아 골수염"
   - "대퇴골 골수염"
   - "골생검"
+  - "Acute osteomyelitis"
 question_type: investigation
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

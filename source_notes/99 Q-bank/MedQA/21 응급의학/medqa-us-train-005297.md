@@ -13,7 +13,9 @@ related_diseases:
   - "젖산산증"
   - "수술 후 저산소증"
   - "고음이온차 대사성 산증"
+  - "Hypoxemia"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

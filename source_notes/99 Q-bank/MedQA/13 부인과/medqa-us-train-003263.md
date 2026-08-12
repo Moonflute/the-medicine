@@ -14,7 +14,9 @@ related_diseases:
   - "open neural tube defect screening"
   - "second-trimester ultrasound"
   - "triple screen"
+  - "open neural tube defect"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "동맥 색전"
   - "심방세동"
 question_type: diagnosis
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDrj5nrp6Ug7Y-Q7IOJIChBY3V0ZSBBcnRlcmlhbCBPY2NsdXNpb24pLm1k
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

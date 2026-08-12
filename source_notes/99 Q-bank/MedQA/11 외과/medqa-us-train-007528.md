@@ -14,6 +14,7 @@ related_diseases:
   - "유방암 수술 후 림프부종"
   - "혈관화 림프절 이식"
   - "비함요성 부종"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: C

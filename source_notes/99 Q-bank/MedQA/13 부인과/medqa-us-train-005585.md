@@ -14,6 +14,7 @@ related_diseases:
   - "초경 후 월경불규칙"
   - "정상 사춘기 발달"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

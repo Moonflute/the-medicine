@@ -15,6 +15,9 @@ related_diseases:
   - "type II diabetes mellitus"
   - "hypercholesterolemia"
 question_type: management
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDQg64K067aE67mEL-qwgOyhseyEsSDqs6DsvZzroIjsiqTthYzroaTtmIjspp0gKEZhbWlsaWFsIEh5cGVyY2hvbGVzdGVyb2xlbWlhKS5tZA
 difficulty: simple
 answer: B
 translation_status: machine-verified

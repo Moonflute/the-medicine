@@ -13,7 +13,9 @@ related_diseases:
   - "ototoxicity"
   - "furosemide"
   - "reversible sensorineural hearing loss"
+  - "Ototoxicity"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

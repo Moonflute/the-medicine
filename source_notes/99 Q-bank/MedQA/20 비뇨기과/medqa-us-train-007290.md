@@ -15,6 +15,8 @@ related_diseases:
   - "전립선 압통"
   - "요로감염"
 question_type: investigation
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

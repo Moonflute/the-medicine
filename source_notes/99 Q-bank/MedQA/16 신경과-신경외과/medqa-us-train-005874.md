@@ -13,7 +13,9 @@ related_diseases:
   - "척추 경막외 농양"
   - "정맥주사 약물 사용"
   - "발열과 척추통"
+  - "Spinal epidural abscess"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

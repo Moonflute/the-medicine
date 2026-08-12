@@ -15,6 +15,10 @@ related_diseases:
   - "atrial fibrillation"
   - "lactic acidosis"
 question_type: diagnosis
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_quInshLEg7J6l6rCE66eJIO2XiO2YiCAoQWN1dGUgTWVzZW50ZXJpYyBJc2NoZW1pYSkubWQ
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
+  - MDUg7Iug7J6lL-yCsOymnSAoQWNpZG9zaXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

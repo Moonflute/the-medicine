@@ -13,6 +13,8 @@ related_diseases:
   - "선페스트"
   - "페스트균"
   - "서혜부 림프절병증"
+  - "Plague"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

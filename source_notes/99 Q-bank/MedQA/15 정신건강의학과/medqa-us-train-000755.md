@@ -12,6 +12,8 @@ specialty: 15 정신건강의학과
 related_diseases:
   - "oppositional defiant disorder"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggeuMgOyggSDrsJjtla0g7J6l7JWgIChPcHBvc2l0aW9uYWwgRGVmaWFudCBEaXNvcmRlcikubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

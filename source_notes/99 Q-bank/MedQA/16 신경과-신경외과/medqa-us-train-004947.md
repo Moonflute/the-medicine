@@ -14,6 +14,8 @@ related_diseases:
   - "JC 바이러스"
   - "면역저하"
 question_type: mechanism
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uwlOydtOufrOyKpC5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

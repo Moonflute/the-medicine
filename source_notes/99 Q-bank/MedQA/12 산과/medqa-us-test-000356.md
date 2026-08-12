@@ -13,6 +13,8 @@ related_diseases:
   - "산전 선별검사"
   - "주산기 감염"
   - "HIV·매독·B형간염"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: prevention
 difficulty: standard
 answer: A

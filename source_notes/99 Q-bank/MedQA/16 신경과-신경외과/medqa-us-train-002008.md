@@ -13,7 +13,9 @@ related_diseases:
   - "progressive multifocal leukoencephalopathy"
   - "JC virus"
   - "HIV"
+  - "Progressive multifocal leukoencephalopathy"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

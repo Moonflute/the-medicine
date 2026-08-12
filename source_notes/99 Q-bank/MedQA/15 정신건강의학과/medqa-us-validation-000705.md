@@ -14,6 +14,9 @@ related_diseases:
   - "무월경"
   - "골감소증"
 question_type: prognosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEseyLneyaleu2gOynhOymnSAoQW5vcmV4aWEgTmVydm9zYSkubWQ
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

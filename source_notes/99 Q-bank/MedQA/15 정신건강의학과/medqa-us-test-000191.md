@@ -13,6 +13,8 @@ related_diseases:
   - "공황장애"
   - "공황발작"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qzte2ZqSDsnqXslaAgKFBhbmljIERpc29yZGVyKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

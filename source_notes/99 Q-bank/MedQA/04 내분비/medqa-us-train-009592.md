@@ -13,6 +13,8 @@ related_diseases:
   - "hereditary hemochromatosis"
   - "유전성 혈색소침착증"
   - "iron overload cardiomyopathy"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOq3vOuzkeymnSAoQ2FyZGlvbXlvcGF0aHkpLm1k
 question_type: prevention
 difficulty: complex
 answer: D

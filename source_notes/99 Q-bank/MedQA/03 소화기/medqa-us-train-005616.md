@@ -13,6 +13,9 @@ related_diseases:
   - "내치핵"
   - "선홍색 혈변"
   - "변비"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rgrTsuZjtlbUgKEludGVybmFsIEhlbW9ycmhvaWQpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rs4DruYQgKENvbnN0aXBhdGlvbikubWQ
 question_type: diagnosis
 difficulty: standard
 answer: D

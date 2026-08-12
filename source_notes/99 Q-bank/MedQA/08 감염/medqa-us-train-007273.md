@@ -14,6 +14,9 @@ related_diseases:
   - "저나트륨혈증"
   - "소변 항원검사"
   - "집단발생"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-ugiOyngOyYpOuErOudvCAoTGVnaW9uZWxsYSkubWQ
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

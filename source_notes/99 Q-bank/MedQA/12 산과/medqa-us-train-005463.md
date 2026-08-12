@@ -14,6 +14,8 @@ related_diseases:
   - "임신 38주"
   - "외회전술"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-uRlOychCAoQnJlZWNoIFByZXNlbnRhdGlvbikubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

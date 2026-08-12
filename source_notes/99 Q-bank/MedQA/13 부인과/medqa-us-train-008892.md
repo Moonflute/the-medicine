@@ -14,6 +14,8 @@ related_diseases:
   - "postoperative anuria"
   - "hysterectomy complication"
 question_type: other
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOq0gCDshpDsg4EgKFVyZXRlcmFsIGluanVyeSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

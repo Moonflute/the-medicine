@@ -14,6 +14,8 @@ related_diseases:
   - "cystathionine beta-synthase deficiency"
   - "lens dislocation"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Zi466qo7Iuc7Iqk7YWM7J2464eo7KadIChIb21vY3lzdGludXJpYSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "파종혈관내응고"
   - "패혈증"
   - "소모성 응고병증"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2MjOyihSDtmIjqtIDrgrQg7J2R6rOgIChEaXNzZW1pbmF0ZWQgSW50cmF2YXNjdWxhciBDb2FndWxhdGlvbiwgRElDKS5tZA
+  - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

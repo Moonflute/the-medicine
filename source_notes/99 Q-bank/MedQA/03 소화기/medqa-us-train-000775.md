@@ -14,6 +14,9 @@ related_diseases:
   - "ischemic liver disease"
   - "acute renal failure"
   - "fulminant liver failure"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_slYzsvZTsmKzshLEg6rCE7KeI7ZmYIChBbGNvaG9saWMgTGl2ZXIgRGlzZWFzZSkubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_soITqsqnshLEg6rCE7Je8IChGdWxtaW5hbnQgSGVwYXRpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

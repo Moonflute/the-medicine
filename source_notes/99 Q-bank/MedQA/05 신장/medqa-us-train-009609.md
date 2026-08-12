@@ -13,6 +13,8 @@ related_diseases:
   - "calcium oxalate nephrolithiasis"
   - "칼슘 옥살산염 신장결석"
   - "dietary protein reduction"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA
 question_type: prevention
 difficulty: standard
 answer: D

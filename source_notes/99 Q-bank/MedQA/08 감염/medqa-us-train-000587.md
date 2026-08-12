@@ -12,6 +12,8 @@ specialty: 08 감염
 related_diseases:
   - "sepsis"
   - "IV drug abuse"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
 question_type: management
 difficulty: complex
 answer: B

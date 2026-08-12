@@ -13,6 +13,8 @@ related_diseases:
   - "심부전 보존 박출률"
   - "사쿠비트릴"
   - "BNP 상승"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDrs7TsobQpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBQcmVzZXJ2ZWQgRWplY3Rpb24gRnJhY3Rpb24gKEhGcEVGKSkubWQ
 question_type: management
 difficulty: complex
 answer: C

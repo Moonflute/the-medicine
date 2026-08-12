@@ -14,6 +14,9 @@ related_diseases:
   - "hypernatremia"
   - "initial isotonic fluid resuscitation"
 question_type: management
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yXtOyniO2ZmCAoSGVhdCBJbGxuZXNzKS5tZA
+  - MDUg7Iug7J6lL-qzoOuCmO2KuOulqO2YiOymnSAoSHlwZXJuYXRyZW1pYSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

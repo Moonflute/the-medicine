@@ -14,6 +14,8 @@ related_diseases:
   - "파보바이러스 B19"
   - "레이스 모양 발진"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KCE7Je87ISxIO2ZjeuwmCAoRXJ5dGhlbWEgSW5mZWN0aW9zdW0pLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "선천성 근성 사경"
   - "흉쇄유돌근 종괴"
   - "영아 사경 물리치료"
+  - "Congenital muscular torticollis"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

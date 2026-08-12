@@ -13,7 +13,9 @@ related_diseases:
   - "소뇌 종양"
   - "수직 안진"
   - "중추성 현훈"
+  - "Cerebellar tumor"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

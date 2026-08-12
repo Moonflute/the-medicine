@@ -14,6 +14,9 @@ related_diseases:
   - "포진상 피부염"
   - "celiac disease"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uMgOyDgSDtj6zsp4QgKEhlcnBlcyBab3N0ZXIpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA
 difficulty: simple
 answer: C
 translation_status: machine-verified

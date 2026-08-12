@@ -13,6 +13,9 @@ related_diseases:
   - "만성폐쇄성폐질환"
   - "흡연"
   - "인플루엔자 백신"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
+  - MDgg6rCQ7Je8L-yduO2UjOujqOyXlOyekCAoSW5mbHVlbnphKS5tZA
 question_type: prevention
 difficulty: complex
 answer: C

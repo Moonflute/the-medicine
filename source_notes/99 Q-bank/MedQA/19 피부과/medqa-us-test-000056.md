@@ -13,7 +13,9 @@ related_diseases:
   - "완선"
   - "사타구니백선"
   - "KOH 검사"
+  - "tinea cruris"
 question_type: investigation
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

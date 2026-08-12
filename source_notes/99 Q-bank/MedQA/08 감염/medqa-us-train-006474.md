@@ -13,6 +13,9 @@ related_diseases:
   - "악티노미코시스"
   - "경부 안면 악티노미코시스"
   - "그람양성 사상균"
+  - "Actinomycosis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uwqeyEoOq3oOymnSAoQWN0aW5vbXljb3NpcykubWQ
 question_type: management
 difficulty: complex
 answer: B

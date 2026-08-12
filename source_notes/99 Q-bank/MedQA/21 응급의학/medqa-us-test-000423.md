@@ -14,6 +14,8 @@ related_diseases:
   - "환기/관류 불일치"
   - "저산소성 호흡부전"
 question_type: mechanism
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -15,6 +15,7 @@ related_diseases:
   - "틴엘 징후"
   - "팔렌 검사"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

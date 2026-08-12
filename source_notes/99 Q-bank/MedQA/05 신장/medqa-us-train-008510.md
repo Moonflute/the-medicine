@@ -13,6 +13,8 @@ related_diseases:
   - "orthostatic proteinuria"
   - "transient proteinuria"
   - "glomerular basement membrane"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4sOumveyEsSDri6jrsLHrh6ggKE9ydGhvc3RhdGljIFByb3RlaW51cmlhKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

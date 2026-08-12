@@ -14,6 +14,8 @@ related_diseases:
   - "말라세지아"
   - "국소 미코나졸"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yWtOujqOufrOq4sCAoVGluZWEgVmVyc2ljb2xvcikubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

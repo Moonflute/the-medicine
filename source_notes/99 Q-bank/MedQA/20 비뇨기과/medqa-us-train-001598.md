@@ -13,6 +13,8 @@ related_diseases:
   - "testicular torsion"
   - "acute scrotum"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-qzoO2ZmOyXvOyghCAoVGVzdGljdWxhciB0b3JzaW9uKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

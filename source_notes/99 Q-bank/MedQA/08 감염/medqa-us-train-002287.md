@@ -14,6 +14,8 @@ related_diseases:
   - "HBV DNA"
   - "anti-HBc"
   - "HBsAg negative"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: diagnosis
 difficulty: standard
 answer: D

@@ -14,6 +14,9 @@ related_diseases:
   - "혈뇨"
   - "고형 신장 종괴"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-y9qe2MpeyVlCAoUmVuYWwgQ2VsbCBDYXJjaW5vbWEpLm1k
+  - MDUg7Iug7J6lL-2YiOuHqC5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

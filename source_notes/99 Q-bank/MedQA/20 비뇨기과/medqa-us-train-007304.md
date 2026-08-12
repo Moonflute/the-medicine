@@ -14,6 +14,8 @@ related_diseases:
   - "신경인성 방광"
   - "범람성 요실금"
 question_type: prognosis
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

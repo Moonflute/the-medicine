@@ -13,6 +13,8 @@ related_diseases:
   - "심장 아밀로이드증"
   - "AL 아밀로이드증"
   - "다발골수종"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
 question_type: mechanism
 difficulty: complex
 answer: A

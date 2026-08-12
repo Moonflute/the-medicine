@@ -13,7 +13,10 @@ related_diseases:
   - "pediatric migraine"
   - "migraine without aura"
   - "acetaminophen"
+  - "migraine"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjrjrkZDthrUgKE1pZ3JhaW5lKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

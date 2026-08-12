@@ -13,7 +13,10 @@ related_diseases:
   - "드퀘르벵 건초염"
   - "산후 건초염"
   - "엄지 힘줄"
+  - "De Quervain tenosynovitis"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-uTnO2AmOultOuytSDrs5EgKERlIFF1ZXJ2YWluJ3MgVGVub3N5bm92aXRpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

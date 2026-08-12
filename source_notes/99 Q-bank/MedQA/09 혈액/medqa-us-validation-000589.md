@@ -13,6 +13,9 @@ related_diseases:
   - "겸상적혈구병"
   - "조혈모세포이식"
   - "저칼슘혈증성 테타니"
+  - "Sickle cell disease"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: management
 difficulty: complex
 answer: D

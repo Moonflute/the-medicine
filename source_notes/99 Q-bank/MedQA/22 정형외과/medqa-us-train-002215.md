@@ -15,6 +15,9 @@ related_diseases:
   - "pathologic fracture"
   - "sensorineural hearing loss"
 question_type: diagnosis
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uPjOuwnOyEsSDrgpzssq0gKFN1ZGRlbiBzZW5zb3JpbmV1cmFsIGhlYXJpbmcgbG9zcykubWQ
+  - MTMg67aA7J246rO8L-2MjOygnO2KuOuzkSAoUGFnZXQncyBEaXNlYXNlKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

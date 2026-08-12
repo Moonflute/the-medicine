@@ -14,6 +14,8 @@ related_diseases:
   - "Malassezia 감염"
   - "저색소성 반점"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yWtOujqOufrOq4sCAoVGluZWEgVmVyc2ljb2xvcikubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

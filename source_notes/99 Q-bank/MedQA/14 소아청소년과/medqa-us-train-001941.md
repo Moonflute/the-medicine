@@ -14,6 +14,8 @@ related_diseases:
   - "febrile convulsion"
   - "discharge criteria"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Je07ISxIOqyveugqCAoRmVicmlsZSBDb252dWxzaW9uKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

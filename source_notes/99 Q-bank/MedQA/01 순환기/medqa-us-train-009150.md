@@ -13,6 +13,8 @@ related_diseases:
   - "hypokalemia"
   - "저칼륨혈증"
   - "thiazide diuretic effect"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

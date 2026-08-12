@@ -14,6 +14,8 @@ related_diseases:
   - "남성 요인 평가"
   - "정액검사"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

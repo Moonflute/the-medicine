@@ -12,6 +12,8 @@ specialty: 10 종양
 related_diseases:
   - "Hodgkin lymphoma"
   - "Pel-Ebstein fever"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YuOyngO2CqCDrprztlITsooUgKEhvZGdraW4gTHltcGhvbWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "facial dysmorphism"
   - "developmental delay"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YOc7JWE7JWM7L2U7Jis7Kad7ZuE6rWwIChGZXRhbCBBbGNvaG9sIFN5bmRyb21lKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

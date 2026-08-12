@@ -13,6 +13,8 @@ related_diseases:
   - "진드기 마비"
   - "급성 이완성 마비"
   - "진드기 제거"
+  - "Tick paralysis"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: D

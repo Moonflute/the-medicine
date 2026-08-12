@@ -13,6 +13,8 @@ related_diseases:
   - "천식"
   - "폐쇄성 환기장애"
   - "총폐용량 증가"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: investigation
 difficulty: standard
 answer: C

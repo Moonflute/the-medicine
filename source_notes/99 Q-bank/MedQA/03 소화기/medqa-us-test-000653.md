@@ -13,6 +13,7 @@ related_diseases:
   - "디곡신 독성"
   - "약물 축적"
   - "만성신부전"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: C

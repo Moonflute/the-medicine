@@ -12,6 +12,7 @@ specialty: 12 산과
 related_diseases:
   - "임신성 생리적 당뇨"
   - "임신 중 당뇨뇨"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: B

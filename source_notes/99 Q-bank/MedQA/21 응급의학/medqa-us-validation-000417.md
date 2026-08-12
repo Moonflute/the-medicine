@@ -14,6 +14,7 @@ related_diseases:
   - "고음이온차 대사성 산증"
   - "포메피졸"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

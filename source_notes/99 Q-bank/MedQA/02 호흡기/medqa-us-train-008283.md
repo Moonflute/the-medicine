@@ -13,6 +13,8 @@ related_diseases:
   - "COPD exacerbation"
   - "hypercapnic respiratory failure"
   - "smoking"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL0NPUETsnZgg6riJ7ISxIOyVhe2ZlCAoQWN1dGUgRXhhY2VyYmF0aW9uIG9mIENPUEQpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

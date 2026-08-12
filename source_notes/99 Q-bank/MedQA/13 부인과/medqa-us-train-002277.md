@@ -14,6 +14,8 @@ related_diseases:
   - "right upper quadrant pain"
   - "pregnancy-related appendiceal displacement"
 question_type: diagnosis
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_quInshLEg7Lap7IiY7Je8IChBY3V0ZSBBcHBlbmRpY2l0aXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

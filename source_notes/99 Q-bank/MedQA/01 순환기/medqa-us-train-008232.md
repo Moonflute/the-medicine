@@ -13,6 +13,8 @@ related_diseases:
   - "Ebstein anomaly"
   - "prenatal lithium exposure"
   - "tricuspid valve displacement"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jeh7Iqk7YOA7J24IOq4sO2YlSAoRWJzdGVpbiBBbm9tYWx5KS5tZA
 question_type: mechanism
 difficulty: standard
 answer: A

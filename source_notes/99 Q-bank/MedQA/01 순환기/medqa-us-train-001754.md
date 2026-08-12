@@ -13,6 +13,9 @@ related_diseases:
   - "aortic dissection"
   - "hypertension"
   - "widened mediastinum"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: risk_factor
 difficulty: complex
 answer: C

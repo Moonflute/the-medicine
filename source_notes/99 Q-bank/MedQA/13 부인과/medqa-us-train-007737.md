@@ -13,7 +13,9 @@ related_diseases:
   - "high-grade squamous intraepithelial lesion"
   - "inadequate colposcopy"
   - "cold-knife conization"
+  - "High-grade squamous intraepithelial lesion"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

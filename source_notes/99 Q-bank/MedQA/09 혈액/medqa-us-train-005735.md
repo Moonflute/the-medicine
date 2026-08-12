@@ -13,6 +13,9 @@ related_diseases:
   - "급성 림프모구성 백혈병"
   - "TdT 양성 림프모구"
   - "소아 백혈병"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChBTEwpIChBY3V0ZSBMeW1waG9ibGFzdGljIExldWtlbWlhKS5tZA
+  - MDkg7ZiI7JWhL-uwse2YiOuzkSAoTGV1a2VtaWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

@@ -13,6 +13,8 @@ related_diseases:
   - "급성 췌장염"
   - "Ranson 기준"
   - "백혈구 증가"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k
 question_type: prognosis
 difficulty: complex
 answer: A

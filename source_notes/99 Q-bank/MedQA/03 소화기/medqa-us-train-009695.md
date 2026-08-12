@@ -13,6 +13,8 @@ related_diseases:
   - "hepatic hydatid cyst"
   - "간 포충낭종"
   - "Echinococcus granulosus"
+  - "Hydatid disease"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

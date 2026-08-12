@@ -13,6 +13,7 @@ related_diseases:
   - "black widow spider envenomation"
   - "latrodectism"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

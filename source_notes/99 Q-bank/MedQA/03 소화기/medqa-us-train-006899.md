@@ -13,6 +13,9 @@ related_diseases:
   - "급성 게실염"
   - "좌하복부 통증"
   - "복부 CT"
+  - "Acute diverticulitis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6Tsl7wgKERpdmVydGljdWxpdGlzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

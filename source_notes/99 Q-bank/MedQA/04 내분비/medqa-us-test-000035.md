@@ -13,6 +13,8 @@ related_diseases:
   - "당뇨병성 케톤산증"
   - "음이온차"
   - "인슐린 지속요법"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
 question_type: management
 difficulty: complex
 answer: A

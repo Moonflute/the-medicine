@@ -13,6 +13,8 @@ related_diseases:
   - "철결핍성 빈혈"
   - "만성 위장관 출혈"
   - "흑색변"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
 question_type: investigation
 difficulty: complex
 answer: C

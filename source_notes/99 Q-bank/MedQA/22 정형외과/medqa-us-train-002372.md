@@ -13,7 +13,9 @@ related_diseases:
   - "congenital talipes equinovarus"
   - "clubfoot"
   - "Ponseti serial casting"
+  - "Congenital talipes equinovarus"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

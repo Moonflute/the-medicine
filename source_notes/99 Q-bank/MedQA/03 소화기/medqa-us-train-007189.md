@@ -14,6 +14,8 @@ related_diseases:
   - "독성 거대결장"
   - "위막성 대장염"
   - "하스트라 소실"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qxsOynk-uniSDqsrDsnqXsl7wgKFBzZXVkb21lbWJyYW5vdXMgQ29saXRpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: A

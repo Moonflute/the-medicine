@@ -15,6 +15,8 @@ related_diseases:
   - "normal pelvic examination"
   - "prostaglandin-mediated pain"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yblOqyve2GtSAoRHlzbWVub3JyaGVhKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "advance directive"
   - "do-not-resuscitate order"
 question_type: ethics
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

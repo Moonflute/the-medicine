@@ -14,6 +14,9 @@ related_diseases:
   - "바이러스성 결막염"
   - "소아 설사"
 question_type: diagnosis
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yVhOuNsOuFuOuwlOydtOufrOyKpCDqsJDsl7wgKEFkZW5vdmlydXMgSW5mZWN0aW9uKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISk7IKsIChEaWFycmhlYSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

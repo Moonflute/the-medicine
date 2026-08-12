@@ -14,6 +14,8 @@ related_diseases:
   - "기저귀 피부염"
   - "아동보호 신고"
 question_type: ethics
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-q4sOyggOq3gCDtlLzrtoDsl7wgKERpYXBlciBEZXJtYXRpdGlzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

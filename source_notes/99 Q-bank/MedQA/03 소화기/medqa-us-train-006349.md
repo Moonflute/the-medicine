@@ -13,6 +13,8 @@ related_diseases:
   - "비알코올성 지방간염"
   - "대사이상 관련 지방간질환"
   - "간세포 풍선변성"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ruYTslYzsvZTsmKzshLEg7KeA67Cp6rCE7Je8IChOb24tYWxjb2hvbGljIFN0ZWF0b2hlcGF0aXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -14,6 +14,8 @@ related_diseases:
   - "품행장애 병력"
   - "어린 시절 행동 문제"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2SiO2WiSDsnqXslaAgKENvbmR1Y3QgRGlzb3JkZXIpLm1k
 difficulty: simple
 answer: A
 translation_status: machine-verified

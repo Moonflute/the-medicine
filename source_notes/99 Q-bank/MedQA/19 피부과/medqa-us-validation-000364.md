@@ -14,6 +14,8 @@ related_diseases:
   - "포이즌 아이비 피부염"
   - "선상 수포"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-ygkey0ie2UvOu2gOyXvCAoQ29udGFjdCBEZXJtYXRpdGlzKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

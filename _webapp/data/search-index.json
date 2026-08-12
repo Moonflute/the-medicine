@@ -2119,6 +2119,31 @@
   },
   {
     "type": "disease",
+    "slug": "MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA",
+    "title": "낭성섬유증 (Cystic Fibrosis)",
+    "category": "02 호흡기",
+    "aliases": [
+      "낭성섬유증 (Cystic Fibrosis)",
+      "cystic fibrosis",
+      "CF",
+      "만성 기침",
+      "호흡곤란",
+      "체중감소/식욕부진"
+    ],
+    "keywords": [
+      "기관지 확장증",
+      "만성 기침",
+      "호흡곤란",
+      "체중감소/식욕부진",
+      "개요",
+      "임상 단서",
+      "관리"
+    ],
+    "quickSummary": "• CFTR 이상으로 끈적한 분비물이 생겨 만성 기도감염·기관지확장증과 췌장 외분비 기능저하를 일으키는 유전질환이다.",
+    "href": "/disease/MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MDIg7Zi47Z2h6riwL-uLqOydvCDtj5DqsrDsoIggKFNQTikgKFNvbGl0YXJ5IFB1bG1vbmFyeSBOb2R1bGUpLm1k",
     "title": "단일 폐결절 (SPN) (Solitary Pulmonary Nodule)",
     "category": "02 호흡기",
@@ -6136,6 +6161,34 @@
     ],
     "quickSummary": "소장 내에 대장균을 포함한 세균이 비정상적으로 과다 증식하는 상태.",
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shLjqt6Ag6rO864uk7Kad7IudIOymne2bhOq1sCAoU21hbGwgSW50ZXN0aW5hbCBCYWN0ZXJpYWwgT3Zlcmdyb3d0aCBTeW5kcm9tZSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA",
+    "title": "셀리악병 (Celiac Disease)",
+    "category": "03 소화기",
+    "aliases": [
+      "셀리악병 (Celiac Disease)",
+      "celiac disease",
+      "coeliac disease",
+      "celiac sprue",
+      "설사",
+      "복부 팽만",
+      "체중감소/식욕부진",
+      "빈혈"
+    ],
+    "keywords": [
+      "흡수장애",
+      "설사",
+      "복부 팽만",
+      "체중감소/식욕부진",
+      "빈혈",
+      "개요",
+      "의심과 진단",
+      "치료"
+    ],
+    "quickSummary": "• 만성 설사·지방변·체중감소뿐 아니라 원인 불명의 철결핍 빈혈, 골감소증, 피부포진양피부염에서도 고려한다.",
+    "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA"
   },
   {
     "type": "disease",
@@ -13690,6 +13743,36 @@
     ],
     "quickSummary": "비타민 B12(코발라민) 또는 엽산 결핍으로 DNA 합성이 저해되어 골수 내 조혈세포가 거대해지고 성숙 장애를 겪는 빈혈.",
     "href": "/disease/MDkg7ZiI7JWhL-qxsOuMgOygge2YiOuqqOq1rCDruYjtmIggKE1lZ2Fsb2JsYXN0aWMgQW5lbWlhKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ",
+    "title": "겸상적혈구병 (Sickle Cell Disease)",
+    "category": "09 혈액",
+    "aliases": [
+      "겸상적혈구병 (Sickle Cell Disease)",
+      "sickle cell disease",
+      "sickle-cell disease",
+      "sickle cell anemia",
+      "sickle cell disease (SCD)",
+      "통증",
+      "발열",
+      "호흡곤란",
+      "황달"
+    ],
+    "keywords": [
+      "적혈구 질환",
+      "빈혈",
+      "통증",
+      "발열",
+      "호흡곤란",
+      "황달",
+      "개요",
+      "임상 접근",
+      "진단과 관리"
+    ],
+    "quickSummary": "• 말초혈액검사와 헤모글로빈 분석으로 확인하며, 예방접종·감염 예방·통증 및 장기 합병증 관리가 장기 치료의 핵심이다.",
+    "href": "/disease/MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ"
   },
   {
     "type": "disease",
@@ -24338,6 +24421,32 @@
   },
   {
     "type": "disease",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YOc7JWE7JWM7L2U7Jis7Kad7ZuE6rWwIChGZXRhbCBBbGNvaG9sIFN5bmRyb21lKS5tZA",
+    "title": "태아알코올증후군 (Fetal Alcohol Syndrome)",
+    "category": "14 소아청소년과",
+    "aliases": [
+      "태아알코올증후군 (Fetal Alcohol Syndrome)",
+      "fetal alcohol syndrome",
+      "fetal alcohol spectrum disorder",
+      "FAS",
+      "FASD",
+      "발달지연",
+      "학습장애"
+    ],
+    "keywords": [
+      "소아과 총론",
+      "선천성·발달 이상",
+      "발달지연",
+      "학습장애",
+      "개요",
+      "평가",
+      "예방과 지원"
+    ],
+    "quickSummary": "• 임신 중 알코올 노출로 인한 태아알코올스펙트럼장애의 한 형태로, 성장장애·특징적 안면 소견·중추신경계 발달 이상이 동반될 수 있다.",
+    "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YOc7JWE7JWM7L2U7Jis7Kad7ZuE6rWwIChGZXRhbCBBbGNvaG9sIFN5bmRyb21lKS5tZA"
+  },
+  {
+    "type": "disease",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YSw64SIIOymne2bhOq1sCAoVHVybmVyIFN5bmRyb21lKS5tZA",
     "title": "터너 증후군 (Turner Syndrome)",
     "category": "14 소아청소년과",
@@ -25605,6 +25714,32 @@
     ],
     "quickSummary": "반복적인 폭식(binge eating)과 체중 증가를 막기 위한 부적절한 보상 행동(purging 등)이 특징인 섭식 장애.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEse2PreyLneymnSAoQnVsaW1pYSBOZXJ2b3NhKS5tZA"
+  },
+  {
+    "type": "disease",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveydtOyZhOygnCDslYXshLEg7Kad7ZuE6rWwIChOZXVyb2xlcHRpYyBNYWxpZ25hbnQgU3luZHJvbWUpLm1k",
+    "title": "신경이완제 악성 증후군 (Neuroleptic Malignant Syndrome)",
+    "category": "15 정신건강의학과",
+    "aliases": [
+      "신경이완제 악성 증후군 (Neuroleptic Malignant Syndrome)",
+      "neuroleptic malignant syndrome",
+      "NMS",
+      "발열",
+      "의식저하",
+      "근육 강직"
+    ],
+    "keywords": [
+      "정신과 총론",
+      "정신과적 치료",
+      "발열",
+      "의식저하",
+      "근육 강직",
+      "개요",
+      "즉시 할 일",
+      "핵심 감별"
+    ],
+    "quickSummary": "• 도파민 차단 약물 사용 뒤 발생할 수 있는 드문 응급 독성 반응으로, 고열·심한 근육 강직·정신상태 변화·자율신경 불안정이 핵심이다.",
+    "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveydtOyZhOygnCDslYXshLEg7Kad7ZuE6rWwIChOZXVyb2xlcHRpYyBNYWxpZ25hbnQgU3luZHJvbWUpLm1k"
   },
   {
     "type": "disease",
@@ -28493,6 +28628,32 @@
     ],
     "quickSummary": "• 저혈당, 발작 후 마비, 편두통, 기능성 장애, 뇌출혈, 대동맥박리 등을 동시에 감별하지만 비조영 CT와 glucose 확인을 위해 재관류 평가를 지연하지 않는다.",
     "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4ztjIXthLTrs5EgKEh1bnRpbmd0b24gRGlzZWFzZSkubWQ",
+    "title": "헌팅턴병 (Huntington Disease)",
+    "category": "16 신경과-신경외과",
+    "aliases": [
+      "헌팅턴병 (Huntington Disease)",
+      "huntington disease",
+      "huntington's disease",
+      "HD",
+      "이상 운동",
+      "인지저하",
+      "우울감"
+    ],
+    "keywords": [
+      "이상운동질환",
+      "이상 운동",
+      "인지저하",
+      "우울감",
+      "개요",
+      "의심과 진단",
+      "관리"
+    ],
+    "quickSummary": "• 가족력과 진행성 불수의운동·성격 변화·집행기능 저하의 조합이 단서다.",
+    "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4ztjIXthLTrs5EgKEh1bnRpbmd0b24gRGlzZWFzZSkubWQ"
   },
   {
     "type": "disease",
@@ -32729,6 +32890,28 @@
     ],
     "quickSummary": "손목의 수근관(carpal tunnel) 내에서 정중 신경(median nerve)이 압박되어 발생하는 포착성 신경병증.",
     "href": "/disease/MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k"
+  },
+  {
+    "type": "disease",
+    "slug": "MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA",
+    "title": "슬개대퇴 통증 증후군 (Patellofemoral Pain Syndrome)",
+    "category": "22 정형외과",
+    "aliases": [
+      "슬개대퇴 통증 증후군 (Patellofemoral Pain Syndrome)",
+      "patellofemoral pain syndrome",
+      "patellofemoral syndrome",
+      "runner's knee",
+      "무릎 통증"
+    ],
+    "keywords": [
+      "Knee",
+      "무릎 통증",
+      "개요",
+      "평가",
+      "관리"
+    ],
+    "quickSummary": "• 슬개골과 대퇴골 사이에서 발생하는 앞무릎 통증 증후군으로, 달리기·계단·쪼그려 앉기처럼 슬개대퇴 관절 부하가 커질 때 악화된다.",
+    "href": "/disease/MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA"
   },
   {
     "type": "disease",

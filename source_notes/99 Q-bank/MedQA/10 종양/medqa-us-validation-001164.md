@@ -13,6 +13,8 @@ related_diseases:
   - "위 MALT 림프종"
   - "헬리코박터 파일로리"
   - "제균요법"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
 question_type: management
 difficulty: standard
 answer: D

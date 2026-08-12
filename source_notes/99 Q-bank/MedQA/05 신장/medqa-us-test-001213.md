@@ -13,6 +13,8 @@ related_diseases:
   - "칼슘옥살산 결석"
   - "신장결석 예방"
   - "저염식"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA
 question_type: prevention
 difficulty: standard
 answer: B

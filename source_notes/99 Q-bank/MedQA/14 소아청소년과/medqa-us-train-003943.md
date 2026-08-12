@@ -15,6 +15,7 @@ related_diseases:
   - "subperiosteal hemorrhage"
   - "does not cross suture lines"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

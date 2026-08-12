@@ -14,6 +14,7 @@ related_diseases:
   - "respiratory failure"
   - "rising PaCO2"
   - "mechanical ventilation"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

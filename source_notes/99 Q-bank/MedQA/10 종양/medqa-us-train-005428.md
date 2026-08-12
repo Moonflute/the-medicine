@@ -13,6 +13,9 @@ related_diseases:
   - "침윤성 유방암"
   - "액와 림프절 전이"
   - "유방암 예후인자"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-y5qOycpOyEsSDsnKDrsKnslZQgKEludmFzaXZlIEJyZWFzdCBDYW5jZXIpLm1k
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: prognosis
 difficulty: complex
 answer: A

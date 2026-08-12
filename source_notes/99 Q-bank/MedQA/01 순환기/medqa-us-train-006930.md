@@ -13,6 +13,9 @@ related_diseases:
   - "발작성 심방세동"
   - "폐정맥 절제술"
   - "플레카이니드 치료 실패"
+  - "Paroxysmal atrial fibrillation"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 question_type: management
 difficulty: standard
 answer: B

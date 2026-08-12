@@ -13,6 +13,8 @@ related_diseases:
   - "vomiting-induced metabolic alkalosis"
   - "구토 유발 대사성 알칼리증"
   - "hypokalemia"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
 question_type: mechanism
 difficulty: complex
 answer: B

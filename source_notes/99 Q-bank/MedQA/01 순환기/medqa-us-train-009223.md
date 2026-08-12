@@ -13,6 +13,10 @@ related_diseases:
   - "hypertensive heart disease"
   - "고혈압성 심장질환"
   - "heart failure"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

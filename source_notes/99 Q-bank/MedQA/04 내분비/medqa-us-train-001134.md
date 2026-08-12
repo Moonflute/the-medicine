@@ -15,6 +15,10 @@ related_diseases:
   - "Chronic lymphocytic thyroiditis"
   - "Granulomatous thyroiditis"
   - "Fibrous thyroiditis"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yVhOq4ieyEsSDqsJHsg4Hsg5jsl7wgKFN1YmFjdXRlIFRoeXJvaWRpdGlzKS5tZA
+  - MDcg66WY66eI7Yuw7IqkL-yHvOq3uOugjCDspp3tm4TqtbAgKFNqw7ZncmVuJ3MgU3luZHJvbWUpLm1k
+  - MDQg64K067aE67mEL-2VmOyLnOuqqO2GoCDqsJHsg4Hsg5jsl7wgKEhhc2hpbW90bydzIFRoeXJvaWRpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

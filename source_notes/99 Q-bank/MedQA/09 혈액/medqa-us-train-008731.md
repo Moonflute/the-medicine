@@ -13,6 +13,8 @@ related_diseases:
   - "von Willebrand disease"
   - "prolonged PTT"
   - "mucocutaneous bleeding"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2PsCDruYzroIjruIzrnoDtirjrs5EgKHZvbiBXaWxsZWJyYW5kIERpc2Vhc2UsIHZXRCkubWQ
 question_type: investigation
 difficulty: complex
 answer: B

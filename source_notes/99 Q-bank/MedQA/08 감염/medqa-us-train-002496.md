@@ -13,6 +13,9 @@ related_diseases:
   - "tuberculin skin test"
   - "type IV hypersensitivity"
   - "delayed-type hypersensitivity"
+  - "Tuberculosis"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOqysO2VtSAoUHVsbW9uYXJ5IFR1YmVyY3Vsb3NpcykubWQ
 question_type: diagnosis
 difficulty: standard
 answer: C

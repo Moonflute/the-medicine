@@ -14,6 +14,8 @@ related_diseases:
   - "medial frontal lobe infarct"
   - "contralateral leg weakness"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC9NQ0Eg6rK97IOJIChNQ0EgaW5mYXJjdGlvbikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -12,6 +12,7 @@ specialty: 21 응급의학
 related_diseases:
   - "smoking cessation"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: simple
 answer: C
 translation_status: machine-verified

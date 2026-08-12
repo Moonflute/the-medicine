@@ -15,6 +15,8 @@ related_diseases:
   - "continuous urine leakage"
   - "voiding cystourethrography"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

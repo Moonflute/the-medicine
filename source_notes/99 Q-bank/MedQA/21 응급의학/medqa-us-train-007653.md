@@ -14,6 +14,8 @@ related_diseases:
   - "pleuritic chest pain"
   - "D-dimer"
 question_type: investigation
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

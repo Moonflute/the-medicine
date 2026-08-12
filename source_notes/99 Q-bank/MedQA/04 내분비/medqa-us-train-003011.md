@@ -14,6 +14,9 @@ related_diseases:
   - "hypercalcemia"
   - "nephrolithiasis"
   - "parathyroidectomy indication"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: management
 difficulty: complex
 answer: A

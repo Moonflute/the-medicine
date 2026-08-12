@@ -14,6 +14,7 @@ related_diseases:
   - "수술 후 섬망"
   - "illusion"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

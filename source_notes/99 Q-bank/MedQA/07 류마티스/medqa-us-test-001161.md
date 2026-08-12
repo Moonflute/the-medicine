@@ -13,6 +13,8 @@ related_diseases:
   - "건선성 관절염"
   - "손발톱 건선"
   - "관절염성 건선"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpC5tZA
 question_type: diagnosis
 difficulty: standard
 answer: C

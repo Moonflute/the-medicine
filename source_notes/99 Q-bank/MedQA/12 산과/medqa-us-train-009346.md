@@ -14,6 +14,8 @@ related_diseases:
   - "전치태반"
   - "painless vaginal bleeding"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yghOy5mO2DnOuwmCAoUGxhY2VudGEgUHJldmlhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

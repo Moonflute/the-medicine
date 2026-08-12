@@ -13,7 +13,9 @@ related_diseases:
   - "지연성 사춘기"
   - "고환비대 지연"
   - "사춘기 평가"
+  - "Delayed puberty"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

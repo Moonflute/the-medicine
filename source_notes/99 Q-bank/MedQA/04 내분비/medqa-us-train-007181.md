@@ -13,6 +13,8 @@ related_diseases:
   - "하시모토 갑상선염"
   - "무증상 갑상선 자가면역"
   - "정상 갑상선 기능"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2VmOyLnOuqqO2GoCDqsJHsg4Hsg5jsl7wgKEhhc2hpbW90bydzIFRoeXJvaWRpdGlzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

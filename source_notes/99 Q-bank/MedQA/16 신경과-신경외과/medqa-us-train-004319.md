@@ -14,6 +14,8 @@ related_diseases:
   - "지주막하출혈"
   - "상염색체 우성 다낭신"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sp4Dso7zrp4ntlZgg7Lac7ZiIIChTdWJhcmFjaG5vaWQgaGVtb3JyaGFnZSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

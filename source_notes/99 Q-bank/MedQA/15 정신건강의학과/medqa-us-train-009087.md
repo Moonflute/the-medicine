@@ -13,7 +13,9 @@ related_diseases:
   - "obsessive-compulsive personality disorder"
   - "perfectionism"
   - "rigidity"
+  - "Obsessive-compulsive personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

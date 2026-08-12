@@ -14,6 +14,9 @@ related_diseases:
   - "당뇨병"
   - "Pseudomonas aeruginosa"
 question_type: association
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MDgg6rCQ7Je8L-uFueuGjeq3oCAoUHNldWRvbW9uYXMgQWVydWdpbm9zYSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

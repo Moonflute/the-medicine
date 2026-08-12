@@ -13,6 +13,8 @@ related_diseases:
   - "암로디핀 유발 말초부종"
   - "고혈압"
   - "칼슘통로차단제"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

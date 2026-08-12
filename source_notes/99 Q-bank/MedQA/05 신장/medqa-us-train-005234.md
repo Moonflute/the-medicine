@@ -13,6 +13,9 @@ related_diseases:
   - "수술 후 급성신손상"
   - "도뇨관 폐색"
   - "신후성 급성신손상"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-y9qe2Mpe2bhCDquInshLEg7L2p7YylIOyGkOyDgSAoUG9zdHJlbmFsIEFjdXRlIEtpZG5leSBJbmp1cnkpLm1k
+  - MjAg67mE64eo6riw6rO8L-yalOuhnCDtj5Dsg4kgKFVyaW5hcnkgdHJhY3Qgb2JzdHJ1Y3Rpb24pLm1k
 question_type: management
 difficulty: complex
 answer: B

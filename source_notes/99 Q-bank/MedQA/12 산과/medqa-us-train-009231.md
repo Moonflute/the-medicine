@@ -14,6 +14,7 @@ related_diseases:
   - "임신의 생리적 변화"
   - "diastolic murmur"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

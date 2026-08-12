@@ -13,6 +13,9 @@ related_diseases:
   - "amebic liver abscess"
   - "Entamoeba histolytica"
   - "amoebic colitis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg64aN7JaRIChMaXZlciBBYnNjZXNzKS5tZA
+  - MDgg6rCQ7Je8L-yVhOuplOuwlCDsnqXsl7wgKEFtZWJpYyBDb2xpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

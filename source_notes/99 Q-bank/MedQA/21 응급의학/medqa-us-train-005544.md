@@ -14,6 +14,8 @@ related_diseases:
   - "수혈 관련 아나필락시스"
   - "대량수혈"
 question_type: mechanism
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

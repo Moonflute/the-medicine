@@ -13,6 +13,8 @@ related_diseases:
   - "obstructive sleep apnea"
   - "obesity"
   - "weight loss"
+  - "Obstructive sleep apnea"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

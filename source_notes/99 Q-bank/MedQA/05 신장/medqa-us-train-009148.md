@@ -13,6 +13,9 @@ related_diseases:
   - "vesicoureteral reflux"
   - "방광요관역류"
   - "recurrent urinary tract infection"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-uwqeq0keyalOq0gOyXreulmCAoVmVzaWNvVXJldGVyYWwgUmVmbHV4KS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JqU66GcIOqwkOyXvCAoVXJpbmFyeSBUcmFjdCBJbmZlY3Rpb24pLm1k
 question_type: investigation
 difficulty: standard
 answer: D

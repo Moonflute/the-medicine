@@ -13,6 +13,8 @@ related_diseases:
   - "급성 흉통"
   - "급성관상동맥증후군 평가"
   - "심전도"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k
 question_type: investigation
 difficulty: complex
 answer: C

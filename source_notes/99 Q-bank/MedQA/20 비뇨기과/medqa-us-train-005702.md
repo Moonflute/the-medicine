@@ -13,7 +13,10 @@ related_diseases:
   - "교통성 음낭수종"
   - "개방성 질돌기"
   - "영아 음낭부종"
+  - "Hydrocele"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-usvOydjOuCreymnSAoSHlkcm9jZWxlKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -15,6 +15,8 @@ related_diseases:
   - "oral enanthem"
   - "vesicular exanthem"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IiY7KGx6rWs67ORIChIYW5kLUZvb3QtTW91dGggRGlzZWFzZSkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

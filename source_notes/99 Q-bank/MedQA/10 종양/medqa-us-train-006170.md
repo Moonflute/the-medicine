@@ -13,6 +13,8 @@ related_diseases:
   - "위 선암"
   - "위암 병기설정"
   - "복부 및 골반 CT"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITslZQgKEdhc3RyaWMgQ2FuY2VyKS5tZA
 question_type: investigation
 difficulty: simple
 answer: A

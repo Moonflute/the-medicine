@@ -13,6 +13,8 @@ related_diseases:
   - "대장 동정맥 기형"
   - "철결핍성 빈혈"
   - "무통성 혈변"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

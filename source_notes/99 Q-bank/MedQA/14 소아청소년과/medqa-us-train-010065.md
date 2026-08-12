@@ -14,6 +14,8 @@ related_diseases:
   - "시신경교종"
   - "리쉬 결절"
 question_type: prognosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug6rK9IOyErOycoOyiheymnSAoTmV1cm9maWJyb21hdG9zaXMpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

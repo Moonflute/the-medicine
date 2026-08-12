@@ -13,6 +13,9 @@ related_diseases:
   - "바베시아증"
   - "진드기 매개 감염"
   - "혈관내 용혈"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOq0gCDrgrQg7Jqp7ZiIIChJbnRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ
+  - MDgg6rCQ7Je8L-udvOyehOuzkSAoTHltZSBEaXNlYXNlKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

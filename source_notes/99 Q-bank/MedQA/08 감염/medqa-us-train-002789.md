@@ -14,6 +14,8 @@ related_diseases:
   - "meningitis differential"
   - "altered mental status"
   - "empiric acyclovir"
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsl7wgKE1lbmluZ29lbmNlcGhhbGl0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

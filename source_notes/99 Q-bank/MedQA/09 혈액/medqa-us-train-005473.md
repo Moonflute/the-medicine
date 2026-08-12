@@ -13,6 +13,8 @@ related_diseases:
   - "면역혈소판감소증"
   - "비장절제술"
   - "피막화 세균 예방"
+  - "Asplenia"
+related_disease_slugs: []
 question_type: prevention
 difficulty: standard
 answer: B

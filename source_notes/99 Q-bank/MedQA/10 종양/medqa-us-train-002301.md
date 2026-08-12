@@ -14,6 +14,9 @@ related_diseases:
   - "chronic liver disease"
   - "coagulopathy"
   - "liver transplantation"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_soITqsqnshLEg6rCE7Je8IChGdWxtaW5hbnQgSGVwYXRpdGlzKS5tZA
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITslZQubWQ
 question_type: management
 difficulty: complex
 answer: D

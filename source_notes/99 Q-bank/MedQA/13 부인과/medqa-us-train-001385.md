@@ -14,6 +14,8 @@ related_diseases:
   - "obesity"
   - "adnexal mass"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

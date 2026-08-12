@@ -13,6 +13,8 @@ related_diseases:
   - "cocaine toxicity"
   - "코카인 독성"
   - "pulmonary hypertension"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOqzoO2YiOyVlSAoUHVsbW9uYXJ5IEh5cGVydGVuc2lvbikubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

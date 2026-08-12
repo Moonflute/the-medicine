@@ -14,7 +14,9 @@ related_diseases:
   - "고β-hCG"
   - "다태임신"
   - "임신 초기 초음파"
+  - "multiple pregnancy"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

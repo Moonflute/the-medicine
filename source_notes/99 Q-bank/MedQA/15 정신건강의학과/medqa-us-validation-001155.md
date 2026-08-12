@@ -13,7 +13,9 @@ related_diseases:
   - "이인증"
   - "외상 후 해리"
   - "정신치료"
+  - "Depersonalization/derealization disorder"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

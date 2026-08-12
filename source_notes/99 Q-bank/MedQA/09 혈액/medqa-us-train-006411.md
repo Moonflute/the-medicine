@@ -13,6 +13,9 @@ related_diseases:
   - "온난 자가면역 용혈성 빈혈"
   - "IgG 매개 용혈"
   - "전신홍반루푸스"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k
+  - MDYg7JWM66CI66W06riwL-yghOyLoCDtmY3rsJgg66Oo7ZG47IqkIChTTEUpIChTeXN0ZW1pYyBMdXB1cyBFcnl0aGVtYXRvc3VzIChTTEUpKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: B

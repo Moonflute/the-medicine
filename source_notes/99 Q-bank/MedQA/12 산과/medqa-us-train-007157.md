@@ -15,6 +15,8 @@ related_diseases:
   - "알파 글로빈 유전자 결실"
   - "헤모글로빈 바트"
 question_type: mechanism
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yngOykke2VtCDruYjtmIggKFRoYWxhc3NlbWlhKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

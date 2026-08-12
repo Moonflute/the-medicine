@@ -13,7 +13,10 @@ related_diseases:
   - "약물 유발 파킨슨증"
   - "메토클로프라미드"
   - "도파민 수용체 차단"
+  - "Drug-induced parkinsonism"
 question_type: mechanism
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjIztgqjsiqgg7Kad7ZuE6rWwIChQYXJraW5zb25pc20pLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "HIV"
   - "ring-enhancing brain lesion"
   - "pyrimethamine-sulfadiazine"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2GoeyGjO2UjOudvOymiOuniOymnSAoVG94b3BsYXNtb3NpcykubWQ
 question_type: management
 difficulty: standard
 answer: C

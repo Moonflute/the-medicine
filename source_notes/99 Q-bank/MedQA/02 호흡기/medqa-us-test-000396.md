@@ -13,6 +13,8 @@ related_diseases:
   - "소아 천식"
   - "조절되지 않는 천식"
   - "흡입 코르티코스테로이드"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: standard
 answer: B

@@ -13,6 +13,7 @@ related_diseases:
   - "폐결절"
   - "우연히 발견된 폐결절"
   - "고립성 폐결절"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: A

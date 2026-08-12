@@ -14,6 +14,8 @@ related_diseases:
   - "pericardial friction rub"
   - "recurrent pericarditis"
   - "colchicine"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrp4nsl7wgKEFjdXRlIFBlcmljYXJkaXRpcykubWQ
 question_type: prevention
 difficulty: simple
 answer: B

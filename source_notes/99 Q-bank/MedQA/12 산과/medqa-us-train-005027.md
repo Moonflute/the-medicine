@@ -14,6 +14,8 @@ related_diseases:
   - "임신성 고혈압"
   - "중증 혈압 기준"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

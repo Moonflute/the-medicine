@@ -14,6 +14,8 @@ related_diseases:
   - "척수 허혈"
   - "복부 대동맥류 수술"
 question_type: mechanism
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uzteu2gCDrjIDrj5nrp6XrpZggKEFiZG9taW5hbCBBb3J0aWMgQW5ldXJ5c20pLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

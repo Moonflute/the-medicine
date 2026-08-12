@@ -14,6 +14,9 @@ related_diseases:
   - "euthyroid thyroid mass"
   - "thyroid ultrasound"
   - "thyroid cancer evaluation"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDqsrDsoIggKFRoeXJvaWQgTm9kdWxlKS5tZA
+  - MDQg64K067aE67mEL-qwkeyDgeyDmOyVlCAoVGh5cm9pZCBDYW5jZXIpLm1k
 question_type: investigation
 difficulty: complex
 answer: B

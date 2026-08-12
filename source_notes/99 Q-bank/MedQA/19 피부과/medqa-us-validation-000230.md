@@ -14,6 +14,8 @@ related_diseases:
   - "단독"
   - "연조직 감염"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uLqOuPhSAoRXJ5c2lwZWxhcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

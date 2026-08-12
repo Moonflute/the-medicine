@@ -13,6 +13,7 @@ related_diseases:
   - "Mallory-Weiss tear"
   - "hematemesis"
   - "alcohol intoxication"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: B

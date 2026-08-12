@@ -14,6 +14,8 @@ related_diseases:
   - "left ventricular hypertrophy"
   - "exertional syncope"
   - "myocardial oxygen demand"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

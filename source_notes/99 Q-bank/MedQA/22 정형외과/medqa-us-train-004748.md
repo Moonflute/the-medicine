@@ -14,6 +14,7 @@ related_diseases:
   - "반복 골절"
   - "난청"
 question_type: association
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

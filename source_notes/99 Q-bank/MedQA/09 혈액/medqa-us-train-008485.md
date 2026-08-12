@@ -13,6 +13,7 @@ related_diseases:
   - "hairy cell leukemia"
   - "tartrate-resistant acid phosphatase"
   - "cladribine"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

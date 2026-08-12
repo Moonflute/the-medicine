@@ -15,6 +15,8 @@ related_diseases:
   - "penicillin desensitization"
   - "congenital syphilis prevention"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKcIOunpOuPhSAoQ29uZ2VuaXRhbCBTeXBoaWxpcykubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

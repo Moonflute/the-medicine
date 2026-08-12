@@ -12,6 +12,8 @@ specialty: 01 순환기
 related_diseases:
   - "rheumatic heart disease"
   - "rheumatic fever"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2MkOunieyniO2ZmC5tZA
 question_type: management
 difficulty: complex
 answer: D

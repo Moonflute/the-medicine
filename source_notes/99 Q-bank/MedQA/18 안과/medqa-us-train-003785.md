@@ -14,7 +14,10 @@ related_diseases:
   - "increased intraocular pressure"
   - "fixed mid-dilated pupil"
   - "intravenous acetazolamide"
+  - "Acute angle-closure glaucoma"
 question_type: management
+related_disease_slugs:
+  - MTgg7JWI6rO8L-uFueuCtOyepSAoZ2xhdWNvbWEpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

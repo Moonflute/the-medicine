@@ -13,6 +13,9 @@ related_diseases:
   - "Lynch syndrome"
   - "MLH1 MSH2 mutation"
   - "endometrial and ovarian cancer prophylaxis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ
 question_type: prevention
 difficulty: standard
 answer: A

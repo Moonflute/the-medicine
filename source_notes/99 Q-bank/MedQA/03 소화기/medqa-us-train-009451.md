@@ -13,6 +13,8 @@ related_diseases:
   - "acute diverticulitis"
   - "급성 게실염"
   - "diverticular abscess"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6Tsl7wgKERpdmVydGljdWxpdGlzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

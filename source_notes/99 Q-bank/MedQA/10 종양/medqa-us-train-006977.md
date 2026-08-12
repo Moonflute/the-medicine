@@ -14,6 +14,7 @@ related_diseases:
   - "세로토닌"
   - "신경내분비종양"
   - "삼첨판 역류"
+related_disease_slugs: []
 question_type: management
 difficulty: simple
 answer: A

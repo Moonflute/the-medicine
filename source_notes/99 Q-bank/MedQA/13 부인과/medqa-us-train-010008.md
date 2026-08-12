@@ -13,7 +13,10 @@ related_diseases:
   - "복압성 요실금"
   - "방광류"
   - "골반장기탈출"
+  - "Stress urinary incontinence"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

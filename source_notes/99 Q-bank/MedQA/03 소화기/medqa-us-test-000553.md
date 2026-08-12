@@ -13,6 +13,8 @@ related_diseases:
   - "중증 급성 담관염"
   - "담관 폐쇄"
   - "담석증"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
 question_type: management
 difficulty: complex
 answer: A

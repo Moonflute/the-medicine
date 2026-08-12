@@ -14,6 +14,9 @@ related_diseases:
   - "요로감염"
   - "초기 소생술 ABC"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2MqO2YiOyEsSDsh7ztgawgKFNlcHRpYyBTaG9jaykubWQ
+  - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

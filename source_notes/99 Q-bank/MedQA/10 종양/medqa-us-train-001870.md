@@ -13,6 +13,9 @@ related_diseases:
   - "hepatocellular carcinoma"
   - "chronic hepatitis B"
   - "alpha-fetoprotein"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLjtj6zslZQgKEhlcGF0b2NlbGx1bGFyIENhcmNpbm9tYSkubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEgQu2YlSDqsITsl7wgKENocm9uaWMgSGVwYXRpdGlzIEIgKEhCVikpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

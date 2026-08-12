@@ -15,6 +15,9 @@ related_diseases:
   - "hemodynamic instability"
   - "intravenous crystalloid"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

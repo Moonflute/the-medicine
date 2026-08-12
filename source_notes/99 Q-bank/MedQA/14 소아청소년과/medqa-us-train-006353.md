@@ -13,7 +13,9 @@ related_diseases:
   - "소아 발달 지연"
   - "대근육운동 지연"
   - "언어 발달 지연"
+  - "developmental delay"
 question_type: other
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

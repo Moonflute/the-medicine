@@ -13,6 +13,8 @@ related_diseases:
   - "peripheral artery disease"
   - "intermittent claudication"
   - "secondary prevention"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uPmeunpeqyve2ZlOyEsSDrp4zshLEg64-Z66elIO2PkOyDiSAoQXRoZXJvc2NsZXJvdGljIENocm9uaWMgQXJ0ZXJpYWwgT2NjbHVzaW9uKS5tZA
 question_type: management
 difficulty: standard
 answer: B

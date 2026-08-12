@@ -13,7 +13,9 @@ related_diseases:
   - "산류"
   - "진공 보조 분만"
   - "두피 부종"
+  - "subgaleal hemorrhage"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

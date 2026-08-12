@@ -13,6 +13,8 @@ related_diseases:
   - "투석 중 저혈압"
   - "말기신부전"
   - "낙상 예방"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: prevention
 difficulty: complex
 answer: A

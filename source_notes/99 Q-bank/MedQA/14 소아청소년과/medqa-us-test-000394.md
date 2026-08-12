@@ -13,7 +13,9 @@ related_diseases:
   - "위벽파열"
   - "복벽 결손"
   - "신생아 응급처치"
+  - "gastroschisis"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

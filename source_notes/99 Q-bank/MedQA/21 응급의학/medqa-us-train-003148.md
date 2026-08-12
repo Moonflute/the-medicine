@@ -15,6 +15,9 @@ related_diseases:
   - "inconclusive FAST"
   - "diagnostic peritoneal lavage"
 question_type: investigation
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uRlOyDgSDrs7XrtoDsmbjsg4EgKEJsdW50IEFiZG9taW5hbCBUcmF1bWEpLm1k
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

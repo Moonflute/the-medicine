@@ -14,6 +14,8 @@ related_diseases:
   - "임신 24~28주"
   - "포도당 부하검사"
 question_type: prevention
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

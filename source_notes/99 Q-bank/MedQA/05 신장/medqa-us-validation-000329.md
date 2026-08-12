@@ -13,6 +13,7 @@ related_diseases:
   - "당뇨병성 신증"
   - "사구체 과여과"
   - "미세알부민뇨"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: A

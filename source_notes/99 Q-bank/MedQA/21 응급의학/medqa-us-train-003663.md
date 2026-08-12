@@ -15,6 +15,9 @@ related_diseases:
   - "Leukoagglutination reaction"
   - "Minor blood group incompatibility"
 question_type: diagnosis
+related_disease_slugs:
+  - MTEg7Jm46rO8L-q4ieyEsSDsmqntmIjshLEg7IiY7ZiIIOuwmOydkSAoQWN1dGUgSGVtb2x5dGljIFRyYW5zZnVzaW9uIFJlYWN0aW9uKS5tZA
+  - MTEg7Jm46rO8L-u5hOyaqe2YiOyEsSDrsJzsl7Qg7IiY7ZiIIOuwmOydkSAoTm9uLWhlbW9seXRpYyBGZWJyaWxlIFRyYW5zZnVzaW9uIFJlYWN0aW9uKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

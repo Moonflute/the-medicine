@@ -14,6 +14,8 @@ related_diseases:
   - "myasthenia gravis"
   - "acetylcholine receptor antibody"
 question_type: investigation
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_spJHspp0g6re866y066Cl7KadIChNeWFzdGhlbmlhIGdyYXZpcykubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

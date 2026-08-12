@@ -14,6 +14,7 @@ related_diseases:
   - "미세운동 발달지연"
   - "사회성 발달지연"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "비장 손상"
   - "케어 징후"
   - "혈복강"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-u5hOyepSDshpDsg4EgKFNwbGVuaWMgSW5qdXJ5KS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

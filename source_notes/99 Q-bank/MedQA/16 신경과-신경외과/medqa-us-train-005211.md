@@ -14,6 +14,9 @@ related_diseases:
   - "고혈압"
   - "뇌졸중 위험인자"
 question_type: prognosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "급성 단관절염"
   - "관절천자"
   - "패혈성 관절염 감별"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ
+  - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

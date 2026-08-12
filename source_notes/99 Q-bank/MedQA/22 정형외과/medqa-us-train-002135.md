@@ -13,7 +13,9 @@ related_diseases:
   - "acute low back pain"
   - "lumbar strain"
   - "activity as tolerated"
+  - "Acute low back pain"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "구리 자궁내장치"
   - "정맥혈전색전증 병력"
 question_type: prevention
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geuCtOyepey5mCAoSW50cmF1dGVyaW5lIERldmljZSkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

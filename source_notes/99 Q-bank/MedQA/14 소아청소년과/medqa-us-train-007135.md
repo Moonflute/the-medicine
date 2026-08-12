@@ -14,6 +14,9 @@ related_diseases:
   - "녹농균"
   - "흡입 토브라마이신"
 question_type: prevention
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uFueuGjeq3oCAoUHNldWRvbW9uYXMgQWVydWdpbm9zYSkubWQ
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

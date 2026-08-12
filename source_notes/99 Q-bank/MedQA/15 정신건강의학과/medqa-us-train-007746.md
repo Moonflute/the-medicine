@@ -14,6 +14,8 @@ related_diseases:
   - "metabolic adverse effects"
   - "dyslipidemia"
 question_type: prognosis
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

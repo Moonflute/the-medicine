@@ -15,6 +15,8 @@ related_diseases:
   - "dyspareunia"
   - "topical estrogen"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ychOy2leyEsSDsp4jsl7wgKEF0cm9waGljIFZhZ2luaXRpcykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

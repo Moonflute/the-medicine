@@ -14,6 +14,8 @@ related_diseases:
   - "parvovirus B19"
   - "erythema infectiosum"
 question_type: prevention
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KCE7Je87ISxIO2ZjeuwmCAoRXJ5dGhlbWEgSW5mZWN0aW9zdW0pLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

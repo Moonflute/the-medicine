@@ -13,6 +13,8 @@ related_diseases:
   - "코카인 관련 흉통"
   - "교감신경 항진"
   - "급성관상동맥증후군"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k
 question_type: management
 difficulty: simple
 answer: D

@@ -14,6 +14,8 @@ related_diseases:
   - "testicular mass"
   - "androgen excess"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yEuOultO2GqOumrC3rnbzsnbTrlJTtnogg7IS47Y-sIOyiheyWkSAoU2VydG9saS1MZXlkaWcgQ2VsbCBUdW1vcikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "자간증"
   - "중증 자간전증"
   - "단백뇨"
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOqwhOymnSAoRWNsYW1wc2lhKS5tZA
+  - MDUg7Iug7J6lL-uLqOuwseuHqC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

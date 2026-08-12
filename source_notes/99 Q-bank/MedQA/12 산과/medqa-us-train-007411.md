@@ -14,7 +14,10 @@ related_diseases:
   - "헤르페스 바이러스"
   - "제왕절개 적응증"
   - "아시클로버"
+  - "herpes simplex virus infection"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64uo7Iic7Y-s7KeE67CU7J2065-s7IqkIOqwkOyXvCAoSGVycGVzIFNpbXBsZXggVmlydXMgSW5mZWN0aW9uKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

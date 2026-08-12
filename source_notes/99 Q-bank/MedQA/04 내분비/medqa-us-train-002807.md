@@ -14,6 +14,9 @@ related_diseases:
   - "thyrotoxicosis"
   - "low radioactive iodine uptake"
   - "elevated ESR"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
+  - MDQg64K067aE67mEL-yVhOq4ieyEsSDqsJHsg4Hsg5jsl7wgKFN1YmFjdXRlIFRoeXJvaWRpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

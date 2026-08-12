@@ -14,6 +14,8 @@ related_diseases:
   - "거대아 출산력"
   - "조기 포도당 선별"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

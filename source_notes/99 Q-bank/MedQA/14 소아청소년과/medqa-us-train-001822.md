@@ -14,6 +14,8 @@ related_diseases:
   - "CFTR chloride channel"
   - "malabsorption"
 question_type: mechanism
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

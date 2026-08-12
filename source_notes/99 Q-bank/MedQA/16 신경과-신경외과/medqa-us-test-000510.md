@@ -14,6 +14,8 @@ related_diseases:
   - "다발성 뇌졸중"
   - "인지장애"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2YiOq0gOyEsSDsuZjrp6QgKFZhc2N1bGFyIERlbWVudGlhKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

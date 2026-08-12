@@ -13,7 +13,10 @@ related_diseases:
   - "페니토인"
   - "치은 증식"
   - "발작 장애"
+  - "Epilepsy"
 question_type: mechanism
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsoITspp0gKEVwaWxlcHN5KS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

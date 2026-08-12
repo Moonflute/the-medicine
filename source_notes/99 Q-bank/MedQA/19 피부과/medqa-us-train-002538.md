@@ -14,6 +14,8 @@ related_diseases:
   - "TMP-SMX hypersensitivity"
   - "epidermal detachment"
 question_type: adverse_effect
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yKpO2LsOu4kOyKpC3sobTsiqgg7Kad7ZuE6rWwLeuPheyEsSDtkZztlLwg6rS07IKsIChTdGV2ZW5zLUpvaG5zb24gU3luZHJvbWUgLSBUb3hpYyBFcGlkZXJtYWwgTmVjcm9seXNpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

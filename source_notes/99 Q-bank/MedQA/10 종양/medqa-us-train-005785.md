@@ -13,6 +13,8 @@ related_diseases:
   - "유방암 골전이"
   - "척추 전이"
   - "척추 MRI"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: investigation
 difficulty: complex
 answer: C

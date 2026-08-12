@@ -14,6 +14,8 @@ related_diseases:
   - "기립성 단백뇨"
   - "소아 신장 평가"
 question_type: management
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4sOumveyEsSDri6jrsLHrh6ggKE9ydGhvc3RhdGljIFByb3RlaW51cmlhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

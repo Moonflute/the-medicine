@@ -13,6 +13,9 @@ related_diseases:
   - "acute decompensated heart failure"
   - "pulmonary edema"
   - "systolic heart failure"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrtoDsoIQgKEFjdXRlIEhlYXJ0IEZhaWx1cmUpLm1k
+  - MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDqsJDshowpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBSZWR1Y2VkIEVqZWN0aW9uIEZyYWN0aW9uIChIRnJFRikpLm1k
 question_type: management
 difficulty: complex
 answer: D

@@ -14,6 +14,8 @@ related_diseases:
   - "소아 고관절 통증"
   - "수술적 고정"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA7Ye06rOo65GQIOqzqOuLqCDrtoTrpqzspp0gKFNsaXBwZWQgQ2FwaXRhbCBGZW1vcmFsIEVwaXBoeXNpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

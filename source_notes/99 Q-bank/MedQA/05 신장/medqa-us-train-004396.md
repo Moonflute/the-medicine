@@ -14,6 +14,8 @@ related_diseases:
   - "민감도"
   - "특이도"
   - "검사 임계값"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
 question_type: mechanism
 difficulty: standard
 answer: C

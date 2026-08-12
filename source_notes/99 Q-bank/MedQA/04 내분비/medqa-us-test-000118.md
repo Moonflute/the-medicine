@@ -13,6 +13,9 @@ related_diseases:
   - "메트포르민 관련 젖산산증"
   - "고음이온차 대사성 산증"
   - "신장기능 저하"
+  - "Lactic acidosis"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yCsOymnSAoQWNpZG9zaXMpLm1k
 question_type: mechanism
 difficulty: complex
 answer: C

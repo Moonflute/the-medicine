@@ -13,6 +13,8 @@ related_diseases:
   - "중증 천식 악화"
   - "조용한 흉부"
   - "호흡부전"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: complex
 answer: A

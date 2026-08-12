@@ -14,6 +14,8 @@ related_diseases:
   - "안드로겐 박탈요법"
   - "골전이"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

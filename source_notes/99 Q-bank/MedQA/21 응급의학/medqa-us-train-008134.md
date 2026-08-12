@@ -13,7 +13,9 @@ related_diseases:
   - "human bite"
   - "fight bite"
   - "clindamycin doxycycline"
+  - "Human bite infection"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

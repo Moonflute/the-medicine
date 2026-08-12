@@ -13,6 +13,8 @@ related_diseases:
   - "breast mass"
   - "유방 종괴"
   - "fibroadenoma"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yErOycoOyEoOyihSAoRmlicm9hZGVub21hKS5tZA
 question_type: investigation
 difficulty: standard
 answer: A

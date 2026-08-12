@@ -14,6 +14,8 @@ related_diseases:
   - "골반 골절"
   - "요도구 출혈"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOuPhCDshpDsg4EgKFVyZXRocmFsIGluanVyeSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -11,6 +11,8 @@ language: ko
 specialty: 08 감염
 related_diseases:
   - "acute hepatitis B"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEgQu2YlSDqsITsl7wgKEFjdXRlIEhlcGF0aXRpcyBCKS5tZA
 question_type: management
 difficulty: complex
 answer: A

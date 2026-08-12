@@ -13,6 +13,8 @@ related_diseases:
   - "독성 거대결장"
   - "중증 궤양성 대장염"
   - "정맥 코르티코스테로이드"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ
 question_type: management
 difficulty: standard
 answer: B

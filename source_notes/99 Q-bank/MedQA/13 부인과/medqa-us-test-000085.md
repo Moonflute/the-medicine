@@ -14,6 +14,9 @@ related_diseases:
   - "불임"
   - "이소성 자궁내막 조직"
 question_type: mechanism
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nspp0gKEVuZG9tZXRyaW9zaXMpLm1k
+  - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

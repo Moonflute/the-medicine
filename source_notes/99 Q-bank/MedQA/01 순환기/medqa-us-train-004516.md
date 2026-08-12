@@ -13,6 +13,9 @@ related_diseases:
   - "안정형 협심증"
   - "운동부하검사"
   - "베타차단제 중단"
+  - "stable angina"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yViOyglSDtmJHsi6zspp0gKFN0YWJsZSBBbmdpbmEpLm1k
 question_type: management
 difficulty: complex
 answer: A

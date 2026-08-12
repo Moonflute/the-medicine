@@ -13,7 +13,9 @@ related_diseases:
   - "세균성 경부 림프절염"
   - "연쇄상구균 인두염"
   - "클린다마이신"
+  - "Acute bacterial cervical lymphadenitis"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

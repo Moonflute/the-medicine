@@ -14,6 +14,8 @@ related_diseases:
   - "neuroendocrine tumor"
   - "5-HIAA"
   - "tricuspid regurgitation"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yCvOyyqO2MkOuniSDsl63rpZggKFRyaWN1c3BpZCBSZWd1cmdpdGF0aW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

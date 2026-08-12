@@ -14,6 +14,8 @@ related_diseases:
   - "아급성 경화성 범뇌염"
   - "코플릭 반점"
 question_type: prognosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ZmN7JetIChNZWFzbGVzKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,7 @@ related_diseases:
   - "학대성 두부 외상"
   - "diffuse axonal injury"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

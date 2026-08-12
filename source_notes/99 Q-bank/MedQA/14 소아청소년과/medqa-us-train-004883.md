@@ -14,6 +14,7 @@ related_diseases:
   - "망막출혈"
   - "흔들린 아기 증후군"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

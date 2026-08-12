@@ -13,7 +13,9 @@ related_diseases:
   - "공유 정신병적 장애"
   - "folie à deux"
   - "망상"
+  - "Shared psychotic disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

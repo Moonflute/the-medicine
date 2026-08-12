@@ -13,6 +13,9 @@ related_diseases:
   - "loop diuretic adverse effect"
   - "hypokalemic metabolic alkalosis"
   - "ventricular tachycardia"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOyLpCDruYjrp6UgKFZlbnRyaWN1bGFyIFRhY2h5Y2FyZGlhKS5tZA
+  - MDEg7Iic7ZmY6riwL-uwnOyekeyEsSDsg4Hsi6zsi6TshLEg67mI66elIChQYXJveHlzbWFsIFN1cHJhdmVudHJpY3VsYXIgVGFjaHljYXJkaWEgKFBTVlQpLm1k
 question_type: mechanism
 difficulty: complex
 answer: B

@@ -14,6 +14,10 @@ related_diseases:
   - "short stature"
   - "delayed bone age"
   - "growth hormone deficiency"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7LK07KeI7ISxIOyEseyepSDrsI8g7IKs7LaY6riwIOyngOyXsCAoQ29uc3RpdHV0aW9uYWwgRGVsYXkgb2YgR3Jvd3RoIGFuZCBBZG9sZXNjZW5jZSkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KCA7Iug7J6lIChTaG9ydCBTdGF0dXJlKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv6rCA7KGx7ISxIOuLqOyLoOymnSAoRmFtaWxpYWwgU2hvcnQgU3RhdHVyZSkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: A

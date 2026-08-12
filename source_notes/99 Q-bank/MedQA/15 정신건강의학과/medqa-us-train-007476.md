@@ -15,6 +15,8 @@ related_diseases:
   - "총기 접근 제한"
   - "안전계획"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

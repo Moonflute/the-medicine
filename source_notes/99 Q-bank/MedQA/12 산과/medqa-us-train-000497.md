@@ -12,6 +12,7 @@ specialty: 12 산과
 related_diseases:
   - "false labor"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

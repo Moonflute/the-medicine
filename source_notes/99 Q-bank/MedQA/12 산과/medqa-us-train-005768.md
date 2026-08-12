@@ -13,7 +13,9 @@ related_diseases:
   - "황산마그네슘 독성"
   - "자간증 치료"
   - "호흡억제"
+  - "Magnesium sulfate toxicity"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

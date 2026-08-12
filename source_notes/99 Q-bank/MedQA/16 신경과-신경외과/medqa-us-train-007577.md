@@ -14,7 +14,9 @@ related_diseases:
   - "뇌실 확장"
   - "뇌실복강 단락술"
   - "두개내압 상승"
+  - "hydrocephalus"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

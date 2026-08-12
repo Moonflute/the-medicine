@@ -14,6 +14,8 @@ related_diseases:
   - "alcohol withdrawal"
   - "alcohol-induced psychotic disorder"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsnKDrsJwg7KCV7Iug67OR7KCBIOyepeyVoCAoQWxjb2hvbC1JbmR1Y2VkIFBzeWNob3RpYyBEaXNvcmRlcikubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

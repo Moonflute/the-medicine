@@ -13,6 +13,7 @@ related_diseases:
   - "patient identification error"
   - "two patient identifiers"
   - "healthcare safety"
+related_disease_slugs: []
 question_type: prevention
 difficulty: complex
 answer: D

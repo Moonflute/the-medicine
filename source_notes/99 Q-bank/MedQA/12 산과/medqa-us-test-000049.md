@@ -13,6 +13,8 @@ related_diseases:
   - "사산"
   - "태아 사망"
   - "사산 원인 평가"
+  - "Stillbirth"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: B

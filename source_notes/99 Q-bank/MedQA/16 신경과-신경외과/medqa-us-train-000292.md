@@ -13,6 +13,8 @@ related_diseases:
   - "intracranial hemorrhage"
   - "diabetes insipidus"
 question_type: diagnosis
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yalOu2leymnSAoRGlhYmV0ZXMgSW5zaXBpZHVzKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,10 @@ related_diseases:
   - "Gallbladder adenocarcinoma"
   - "Iron deficiency anemia"
   - "Pancreatic adenocarcinoma"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k
+  - MDIg7Zi47Z2h6riwL-2PkCDshKDslZQgKEFkZW5vY2FyY2lub21hKS5tZA
+  - MDkg7ZiI7JWhL-yyoCDqsrDtlY0g67mI7ZiIIChJcm9uIERlZmljaWVuY3kgQW5lbWlhKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: D

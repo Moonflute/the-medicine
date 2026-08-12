@@ -13,6 +13,9 @@ related_diseases:
   - "담낭암"
   - "석회화 담낭 종괴"
   - "담석증"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7Trgq3slZQgKEdhbGxibGFkZGVyIENhbmNlcikubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

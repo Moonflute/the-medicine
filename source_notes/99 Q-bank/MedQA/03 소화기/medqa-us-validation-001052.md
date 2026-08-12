@@ -13,6 +13,8 @@ related_diseases:
   - "기종성 담낭염"
   - "당뇨병"
   - "담낭벽 가스"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

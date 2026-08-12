@@ -14,6 +14,8 @@ related_diseases:
   - "whiplash injury"
   - "umbilical hernia"
   - "retroperitoneal hemorrhage"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uwsOq8vSDtg4jsnqUgKFVtYmlsaWNhbCBIZXJuaWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -13,7 +13,9 @@ related_diseases:
   - "수면 위상 전진"
   - "일주기 리듬 수면장애"
   - "노인 수면"
+  - "Advanced sleep phase disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

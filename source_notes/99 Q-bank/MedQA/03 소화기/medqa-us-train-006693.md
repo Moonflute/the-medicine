@@ -13,6 +13,8 @@ related_diseases:
   - "치핵성 출혈"
   - "선홍색 혈변"
   - "항문경검사"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rgrTsuZjtlbUgKEludGVybmFsIEhlbW9ycmhvaWQpLm1k
 question_type: investigation
 difficulty: complex
 answer: A

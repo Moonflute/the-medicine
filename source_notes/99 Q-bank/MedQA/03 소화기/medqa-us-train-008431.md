@@ -13,6 +13,9 @@ related_diseases:
   - "mesenteric ischemia"
   - "ischemic bowel disease"
   - "systemic lupus erythematosus vasculitis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDtmY3rsJgg66Oo7ZG47IqkIChTeXN0ZW1pYyBMdXB1cyBFcnl0aGVtYXRvc3VzKS5tZA
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tl4jtmIjshLEg64yA7J6l7Je8IChJc2NoZW1pYyBDb2xpdGlzKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: A

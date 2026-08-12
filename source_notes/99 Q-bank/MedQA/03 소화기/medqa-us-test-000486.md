@@ -13,6 +13,8 @@ related_diseases:
   - "호산구성 식도염"
   - "고형식 연하곤란"
   - "위식도역류"
+  - "Eosinophilic esophagitis"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: D

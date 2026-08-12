@@ -12,6 +12,8 @@ specialty: 14 소아청소년과
 related_diseases:
   - "Tourette syndrome"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uanOugmyDsnqXslaAgKFRvdXJldHRlIERpc29yZGVyKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

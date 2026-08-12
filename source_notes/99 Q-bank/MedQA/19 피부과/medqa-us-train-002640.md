@@ -13,7 +13,9 @@ related_diseases:
   - "bullous pemphigoid"
   - "subepidermal blister"
   - "linear IgG and C3 deposition"
+  - "Bullous pemphigoid"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

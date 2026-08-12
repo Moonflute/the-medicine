@@ -13,6 +13,9 @@ related_diseases:
   - "osteosarcoma"
   - "septic arthritis"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rOo7Jyh7KKFIChPc3Rlb3NhcmNvbWEpLm1k
+  - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

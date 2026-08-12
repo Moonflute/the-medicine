@@ -13,6 +13,9 @@ related_diseases:
   - "임신 중 무증상 세균뇨"
   - "재발성 요로감염"
   - "소변 배양"
+related_disease_slugs:
+  - MTIg7IKw6rO8L-ustOymneyDgSDshLjqt6Drh6ggKEFzeW1wdG9tYXRpYyBCYWN0ZXJpdXJpYSkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JqU66GcIOqwkOyXvCAoVXJpbmFyeSBUcmFjdCBJbmZlY3Rpb24pLm1k
 question_type: prevention
 difficulty: complex
 answer: C

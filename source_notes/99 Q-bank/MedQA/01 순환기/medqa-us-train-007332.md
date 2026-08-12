@@ -14,6 +14,9 @@ related_diseases:
   - "심방세동 색전"
   - "와파린"
   - "비타민 K 의존성 응고인자"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDrj5nrp6Ug7Y-Q7IOJIChBY3V0ZSBBcnRlcmlhbCBPY2NsdXNpb24pLm1k
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 question_type: prevention
 difficulty: standard
 answer: C

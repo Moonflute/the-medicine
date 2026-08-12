@@ -13,6 +13,8 @@ related_diseases:
   - "게실 출혈"
   - "급성 게실염"
   - "내시경적 지혈"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6Qg7Lac7ZiIIChEaXZlcnRpY3VsYXIgQmxlZWRpbmcpLm1k
 question_type: management
 difficulty: standard
 answer: B

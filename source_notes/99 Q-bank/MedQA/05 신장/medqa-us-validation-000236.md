@@ -13,6 +13,9 @@ related_diseases:
   - "고칼륨혈증"
   - "말기 신장질환"
   - "투석 누락"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: mechanism
 difficulty: standard
 answer: A

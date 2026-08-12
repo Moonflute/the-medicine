@@ -14,6 +14,7 @@ related_diseases:
   - "월경 중간 출혈"
   - "유경성 병변"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

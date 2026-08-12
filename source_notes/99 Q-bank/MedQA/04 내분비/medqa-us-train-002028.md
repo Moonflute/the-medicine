@@ -13,6 +13,9 @@ related_diseases:
   - "hyperosmolar hyperglycemic state"
   - "seizure"
   - "severe hyperglycemia"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOyCvO2IrOyVleyEsSDqs6DtmIjri7kg7IOB7YOcIChISFMpIChIeXBlcm9zbW9sYXIgSHlwZXJnbHljZW1pYyBTdGF0ZSkubWQ
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rsJzsnpEgKFNlaXp1cmUpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

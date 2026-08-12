@@ -14,6 +14,8 @@ related_diseases:
   - "lytic bone lesions"
   - "CRAB features"
   - "monoclonal plasma cell disorder"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

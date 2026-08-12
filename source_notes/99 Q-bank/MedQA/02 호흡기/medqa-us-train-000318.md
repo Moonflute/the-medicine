@@ -12,6 +12,9 @@ specialty: 02 호흡기
 related_diseases:
   - "cystic fibrosis"
   - "pneumonia"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Y-Q66C0IChQbmV1bW9uaWEpLm1k
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 question_type: management
 difficulty: standard
 answer: D

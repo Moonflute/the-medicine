@@ -14,6 +14,9 @@ related_diseases:
   - "Uncomplicated cystitis"
   - "UTI"
   - "Acute obstructing nephrolithiasis"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDrsKnqtJHsl7wgKEFjdXRlIEN5c3RpdGlzKS5tZA
+  - MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

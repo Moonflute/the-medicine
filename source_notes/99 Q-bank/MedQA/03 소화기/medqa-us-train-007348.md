@@ -14,6 +14,8 @@ related_diseases:
   - "항생제 관련 설사"
   - "포자 형성 막대균"
   - "장내 세균총"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qxsOynk-uniSDqsrDsnqXsl7wgKFBzZXVkb21lbWJyYW5vdXMgQ29saXRpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "비르호프 림프절"
   - "위암"
   - "쇄골상 림프절병증"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITslZQgKEdhc3RyaWMgQ2FuY2VyKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

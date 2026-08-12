@@ -13,7 +13,9 @@ related_diseases:
   - "비정상 태아심박동"
   - "분만 중 태아곤란"
   - "응급 제왕절개"
+  - "Fetal distress"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

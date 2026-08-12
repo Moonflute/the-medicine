@@ -13,6 +13,8 @@ related_diseases:
   - "수혈 후 용혈"
   - "비포합 고빌리루빈혈증"
   - "빌리루빈 생성 증가"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7Trj4Tqs4Qg7KeI7ZmYLm1k
 question_type: mechanism
 difficulty: complex
 answer: C

@@ -13,6 +13,11 @@ related_diseases:
   - "hospital-acquired pneumonia"
   - "sepsis"
   - "pleural effusion"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
+  - MDIg7Zi47Z2h6riwL-yVheyEsSDtnYnsiJggKE1hbGlnbmFudCBQbGV1cmFsIEVmZnVzaW9uKS5tZA
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2MqO2YiOymnSAoTmVvbmF0YWwgU2Vwc2lzKS5tZA
 question_type: management
 difficulty: complex
 answer: C

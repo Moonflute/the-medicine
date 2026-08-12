@@ -14,6 +14,8 @@ related_diseases:
   - "보흐달렉 탈장"
   - "congenital diaphragmatic hernia"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKc7ISxIO2aoeqyqeuniSDtg4jsnqUgKENvbmdlbml0YWwgRGlhcGhyYWdtYXRpYyBIZXJuaWEpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

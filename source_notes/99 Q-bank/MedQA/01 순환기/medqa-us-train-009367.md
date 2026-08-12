@@ -13,6 +13,8 @@ related_diseases:
   - "cardiac arrest"
   - "심정지"
   - "pulseless electrical activity"
+  - "Cardiac arrest"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: B

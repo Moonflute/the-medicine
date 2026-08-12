@@ -13,6 +13,8 @@ related_diseases:
   - "pelvic fracture"
   - "urethral injury"
   - "retrograde urethrogram"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOuPhCDshpDsg4EgKFVyZXRocmFsIGluanVyeSkubWQ
 question_type: investigation
 difficulty: complex
 answer: A

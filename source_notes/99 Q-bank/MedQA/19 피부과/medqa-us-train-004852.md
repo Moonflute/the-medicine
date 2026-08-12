@@ -14,6 +14,8 @@ related_diseases:
   - "Molluscum contagiosum"
   - "바이러스성 피부 병변"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-usvOyCrOuniOq3gCAoTW9sbHVzY3VtIENvbnRhZ2lvc3VtKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

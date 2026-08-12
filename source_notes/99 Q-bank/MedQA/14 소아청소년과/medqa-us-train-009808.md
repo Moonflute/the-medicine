@@ -14,6 +14,9 @@ related_diseases:
   - "스틸 잡음"
   - "소아 심잡음"
 question_type: management
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-ustO2VtOyEsSDsi6zsnqHsnYwubWQ
+  - MDEg7Iic7ZmY6riwL-yKpO2LuCDsnqHsnYwgKFN0aWxsJ3MgTXVybXVyKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

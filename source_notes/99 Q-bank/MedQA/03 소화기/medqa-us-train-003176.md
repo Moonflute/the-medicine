@@ -14,6 +14,8 @@ related_diseases:
   - "continuous colitis"
   - "pseudopolyps"
   - "p-ANCA"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

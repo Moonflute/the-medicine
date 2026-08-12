@@ -14,6 +14,10 @@ related_diseases:
   - "Acute mesenteric ischemia"
   - "Peptic ulcer disease"
   - "Irritable bowel syndrome"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_quInshLEg7J6l6rCE66eJIO2XiO2YiCAoQWN1dGUgTWVzZW50ZXJpYyBJc2NoZW1pYSkubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qs7zrr7zshLEg7J6lIOymne2bhOq1sCAoSUJTKSAoSXJyaXRhYmxlIEJvd2VsIFN5bmRyb21lIChJQlMpKS5tZA
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

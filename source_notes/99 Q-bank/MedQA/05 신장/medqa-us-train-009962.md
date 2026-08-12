@@ -13,6 +13,9 @@ related_diseases:
   - "리튬 유발 신성 요붕증"
   - "신성 요붕증"
   - "리튬"
+  - "Nephrogenic diabetes insipidus"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-y9qe2Mpeq4sOybkCDsmpTrtpXspp0gKE5lcGhyb2dlbmljIERpYWJldGVzIEluc2lwaWR1cykubWQ
 question_type: management
 difficulty: complex
 answer: D

@@ -14,6 +14,8 @@ related_diseases:
   - "hydatidiform mole"
   - "theca lutein cysts"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2PrOyDgeq4sO2DnCAoTW9sYXIgUHJlZ25hbmN5KS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

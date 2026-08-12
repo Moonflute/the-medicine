@@ -14,6 +14,9 @@ related_diseases:
   - "male infertility"
   - "microsurgical varicocelectomy"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-uNqeq1tOygleunpeulmCAoVmFyaWNvY2VsZSkubWQ
+  - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

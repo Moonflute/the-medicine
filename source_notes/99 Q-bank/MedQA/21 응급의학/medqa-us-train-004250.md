@@ -13,7 +13,9 @@ related_diseases:
   - "오피오이드 과다복용"
   - "호흡억제"
   - "축동"
+  - "opioid overdose"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

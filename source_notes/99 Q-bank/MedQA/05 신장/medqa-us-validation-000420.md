@@ -13,6 +13,7 @@ related_diseases:
   - "신장이식"
   - "면역억제"
   - "폐포자충 폐렴 예방"
+related_disease_slugs: []
 question_type: prevention
 difficulty: simple
 answer: B

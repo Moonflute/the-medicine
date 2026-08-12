@@ -15,6 +15,8 @@ related_diseases:
   - "뇌하수체 허혈"
   - "산후 저혈당"
 question_type: mechanism
+related_disease_slugs:
+  - MTIg7IKw6rO8L-qzvOyImeyehOyLoCAoUG9zdC10ZXJtIFByZWduYW5jeSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

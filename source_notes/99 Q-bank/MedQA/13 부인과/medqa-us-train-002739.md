@@ -15,6 +15,8 @@ related_diseases:
   - "absent embryonic cardiac activity"
   - "misoprostol"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-qzhOulmCDsnKDsgrAgKE1pc3NlZCBBYm9ydGlvbikubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

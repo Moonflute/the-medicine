@@ -13,6 +13,8 @@ related_diseases:
   - "acute hypocalcemia"
   - "급성 저칼슘혈증"
   - "citrate toxicity from transfusion"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggOy5vOyKmO2YiOymnSAoSHlwb2NhbGNlbWlhKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

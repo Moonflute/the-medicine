@@ -13,6 +13,8 @@ related_diseases:
   - "노로바이러스 위장염"
   - "급성 바이러스성 위장염"
   - "수양성 설사"
+  - "Norovirus infection"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: B

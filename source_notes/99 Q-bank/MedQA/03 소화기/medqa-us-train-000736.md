@@ -11,6 +11,8 @@ language: ko
 specialty: 03 소화기
 related_diseases:
   - "diffuse esophageal spasm"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rr7jrp4zshLEg7Iud64-EIOyXsOy2lSAoRGlmZnVzZSBFc29waGFnZWFsIFNwYXNtKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: A

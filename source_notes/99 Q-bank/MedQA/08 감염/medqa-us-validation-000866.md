@@ -13,6 +13,8 @@ related_diseases:
   - "베르니케 뇌병증"
   - "티아민 결핍"
   - "알코올 사용장애"
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

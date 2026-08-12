@@ -13,6 +13,9 @@ related_diseases:
   - "면역성 혈소판감소성 자반증"
   - "혈소판감소증"
   - "정맥 면역글로불린"
+  - "Immune thrombocytopenia"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2KueuwnOyEsSDtmIjshoztjJDqsJDshozshLEg7J6Q67CY7KadIChJZGlvcGF0aGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgSVRQKS5tZA
 question_type: management
 difficulty: complex
 answer: A

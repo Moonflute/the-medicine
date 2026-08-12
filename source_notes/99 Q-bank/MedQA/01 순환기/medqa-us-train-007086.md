@@ -13,6 +13,8 @@ related_diseases:
   - "일과성 허혈발작"
   - "증상성 경동맥 협착"
   - "경동맥 스텐트"
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_snbzqs7zshLEg7ZeI7ZiIIOuwnOyekSAoVHJhbnNpZW50IGlzY2hlbWljIGF0dGFjaykubWQ
 question_type: management
 difficulty: complex
 answer: C

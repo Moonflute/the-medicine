@@ -14,6 +14,8 @@ related_diseases:
   - "산후 망상"
   - "영아에 대한 피해망상"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCsO2bhCDsoJXsi6Drs5EgKFBvc3RwYXJ0dW0gcHN5Y2hvc2lzKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

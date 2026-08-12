@@ -13,6 +13,9 @@ related_diseases:
   - "온난형 자가면역 용혈성 빈혈"
   - "혈관외 용혈"
   - "합토글로빈 감소"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k
+  - MDkg7ZiI7JWhL-2YiOq0gCDsmbgg7Jqp7ZiIIChFeHRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: C

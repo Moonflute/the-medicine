@@ -13,6 +13,8 @@ related_diseases:
   - "측두하악관절장애"
   - "이갈이"
   - "근막성 턱관절 통증"
+  - "temporomandibular joint disorder"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

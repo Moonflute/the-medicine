@@ -13,6 +13,9 @@ related_diseases:
   - "cerebral toxoplasmosis"
   - "AIDS"
   - "ring-enhancing lesions"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2GoeyGjO2UjOudvOymiOuniOymnSAoVG94b3BsYXNtb3NpcykubWQ
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 question_type: management
 difficulty: complex
 answer: A

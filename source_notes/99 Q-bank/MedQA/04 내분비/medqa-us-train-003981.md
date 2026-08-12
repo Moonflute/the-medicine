@@ -13,6 +13,9 @@ related_diseases:
   - "갑상샘기능항진증"
   - "그레이브스병"
   - "갑상샘자극호르몬"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
+  - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
 question_type: 임상증례 객관식
 difficulty: standard
 answer: D

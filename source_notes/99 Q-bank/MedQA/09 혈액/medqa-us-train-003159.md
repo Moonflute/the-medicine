@@ -14,6 +14,7 @@ related_diseases:
   - "activated protein C resistance"
   - "recurrent venous thromboembolism"
   - "inherited thrombophilia"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: B

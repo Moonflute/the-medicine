@@ -15,6 +15,9 @@ related_diseases:
   - "Mallet finger"
   - "Carpal tunnel syndrome"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k
+  - MjIg7KCV7ZiV7Jm46rO8L-uTnO2AmOultOuytSDrs5EgKERlIFF1ZXJ2YWluJ3MgVGVub3N5bm92aXRpcykubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

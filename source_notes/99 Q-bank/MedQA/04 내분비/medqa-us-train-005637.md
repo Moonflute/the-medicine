@@ -13,6 +13,8 @@ related_diseases:
   - "제2형 당뇨병"
   - "중증 고혈당"
   - "기저-식사 인슐린 요법"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: management
 difficulty: complex
 answer: A

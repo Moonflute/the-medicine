@@ -14,6 +14,7 @@ related_diseases:
   - "neural tube defect"
   - "hyperglycemia teratogenicity"
 question_type: prognosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

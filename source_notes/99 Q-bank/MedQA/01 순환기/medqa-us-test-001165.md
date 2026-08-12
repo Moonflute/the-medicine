@@ -13,6 +13,9 @@ related_diseases:
   - "고혈압성 신장질환"
   - "만성 신장질환"
   - "ACE 억제제"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: A

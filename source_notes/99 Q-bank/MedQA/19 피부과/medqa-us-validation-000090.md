@@ -14,6 +14,8 @@ related_diseases:
   - "면포"
   - "벤조일퍼옥사이드"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yXrOuTnOumhCAoQWNuZSBWdWxnYXJpcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

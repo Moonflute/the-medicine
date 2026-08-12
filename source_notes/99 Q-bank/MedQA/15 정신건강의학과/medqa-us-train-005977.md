@@ -14,6 +14,8 @@ related_diseases:
   - "기능성 시각상실"
   - "la belle indifférence"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghO2ZmCDsnqXslaAgKENvbnZlcnNpb24gRGlzb3JkZXIpLm1k
 difficulty: simple
 answer: A
 translation_status: machine-verified

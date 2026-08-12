@@ -14,6 +14,8 @@ related_diseases:
   - "신경이완제 악성 증후군"
   - "근육 경직"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveydtOyZhOygnCDslYXshLEg7Kad7ZuE6rWwIChOZXVyb2xlcHRpYyBNYWxpZ25hbnQgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

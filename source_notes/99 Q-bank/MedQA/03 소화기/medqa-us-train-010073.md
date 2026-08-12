@@ -13,6 +13,9 @@ related_diseases:
   - "허혈성 대장염"
   - "저관류"
   - "복부 대동맥류 수술"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tl4jtmIjshLEg64yA7J6l7Je8IChJc2NoZW1pYyBDb2xpdGlzKS5tZA
+  - MDEg7Iic7ZmY6riwL-uzteu2gCDrjIDrj5nrp6XrpZggKEFiZG9taW5hbCBBb3J0aWMgQW5ldXJ5c20pLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

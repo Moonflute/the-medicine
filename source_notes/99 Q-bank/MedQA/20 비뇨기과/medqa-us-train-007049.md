@@ -13,7 +13,9 @@ related_diseases:
   - "절박성 요실금"
   - "과활동성 방광"
   - "배뇨근 과활동"
+  - "overactive bladder"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

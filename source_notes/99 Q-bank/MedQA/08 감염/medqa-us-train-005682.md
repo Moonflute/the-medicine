@@ -13,6 +13,8 @@ related_diseases:
   - "Clostridioides difficile 감염"
   - "항생제 관련 설사"
   - "피닥소마이신"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qxsOynk-uniSDqsrDsnqXsl7wgKFBzZXVkb21lbWJyYW5vdXMgQ29saXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: B

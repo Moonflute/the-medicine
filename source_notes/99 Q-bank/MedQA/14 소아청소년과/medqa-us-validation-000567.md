@@ -14,6 +14,8 @@ related_diseases:
   - "Bordetella pertussis"
   - "발작성 기침"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cx7J287ZW0IChQZXJ0dXNzaXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

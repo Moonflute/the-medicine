@@ -13,7 +13,9 @@ related_diseases:
   - "X연관 무감마글로불린혈증"
   - "브루톤 티로신키나아제 결핍"
   - "정맥 면역글로불린"
+  - "X-linked agammaglobulinemia"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

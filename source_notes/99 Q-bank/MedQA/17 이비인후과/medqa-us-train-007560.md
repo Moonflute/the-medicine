@@ -15,6 +15,8 @@ related_diseases:
   - "고막절개술"
   - "환기관"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-yCvOy2nOyEseykkeydtOyXvCAoT3RpdGlzIG1lZGlhIHdpdGggZWZmdXNpb24pLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "maternal serum screening"
   - "triple test"
 question_type: prevention
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "RBC membrane defect"
   - "extravascular hemolysis"
   - "negative direct antiglobulin test"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ycoOyghCDqtaztmIjsoIHtmIjqtazspp0gKEhlcmVkaXRhcnkgU3BoZXJvY3l0b3NpcykubWQ
+  - MDkg7ZiI7JWhL-2YiOq0gCDsmbgg7Jqp7ZiIIChFeHRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

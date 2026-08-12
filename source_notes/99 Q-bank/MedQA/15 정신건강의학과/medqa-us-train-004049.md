@@ -14,6 +14,8 @@ related_diseases:
   - "산후 기분 변화"
   - "산후정신병 감별"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCsO2bhCDsoJXsi6Drs5EgKFBvc3RwYXJ0dW0gcHN5Y2hvc2lzKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

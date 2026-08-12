@@ -13,6 +13,8 @@ related_diseases:
   - "유당불내증"
   - "식이 유발 설사"
   - "유제품 제거"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jyg64u5IOu2iOuCtOymnSAoTGFjdG9zZSBJbnRvbGVyYW5jZSkubWQ
 question_type: management
 difficulty: standard
 answer: B

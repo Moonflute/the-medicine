@@ -13,6 +13,8 @@ related_diseases:
   - "IgA vasculitis"
   - "IgA 혈관염"
   - "leukocytoclastic vasculitis"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

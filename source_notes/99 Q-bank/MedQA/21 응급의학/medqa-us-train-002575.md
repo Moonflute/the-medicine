@@ -15,6 +15,7 @@ related_diseases:
   - "urinary retention"
   - "dry flushed skin"
 question_type: adverse_effect
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

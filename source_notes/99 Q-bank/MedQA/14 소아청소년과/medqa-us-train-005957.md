@@ -13,7 +13,9 @@ related_diseases:
   - "언어 발달 지연"
   - "1세 발달 이정표"
   - "소아 발달평가"
+  - "Language delay"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

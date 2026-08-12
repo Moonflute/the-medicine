@@ -14,6 +14,8 @@ related_diseases:
   - "elevated PSA"
   - "prostate nodule"
 question_type: investigation
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

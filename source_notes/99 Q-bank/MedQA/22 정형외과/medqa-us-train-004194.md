@@ -14,6 +14,8 @@ related_diseases:
   - "대퇴골두 무혈성 괴사"
   - "소아 절뚝거림"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64SZ64uk66as67yIIOuouOumrCDrsrzrgZ0g67K8IOyXsOqzqOymnSAoTGVnZy1DYWx2ZS1QZXJ0aGVzIERpc2Vhc2UpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

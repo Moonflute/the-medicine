@@ -13,7 +13,9 @@ related_diseases:
   - "폐쇄성 수두증"
   - "제4뇌실 종양"
   - "뇌척수액 유출로 폐쇄"
+  - "Obstructive hydrocephalus"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

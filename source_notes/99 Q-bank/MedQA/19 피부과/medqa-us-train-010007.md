@@ -14,6 +14,8 @@ related_diseases:
   - "피부 장벽"
   - "목욕 습관"
 question_type: prevention
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yVhO2GoO2UvCDtlLzrtoDsl7wgKEF0b3BpYyBEZXJtYXRpdGlzKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

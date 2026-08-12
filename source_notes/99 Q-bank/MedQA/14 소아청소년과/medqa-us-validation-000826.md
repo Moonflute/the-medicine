@@ -13,7 +13,9 @@ related_diseases:
   - "후두연화증"
   - "흡기성 천명"
   - "소아 기도 연화"
+  - "Laryngomalacia"
 question_type: management
+related_disease_slugs: []
 difficulty: simple
 answer: A
 translation_status: machine-verified

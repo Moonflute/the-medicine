@@ -13,6 +13,10 @@ related_diseases:
   - "반응성 관절염"
   - "요도염"
   - "결막염"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-uwmOydkeyEsSDqtIDsoIjsl7wgKFJlYWN0aXZlIEFydGhyaXRpcykubWQ
+  - MjAg67mE64eo6riw6rO8L-yalOuPhOyXvCAoVXJldGhyaXRpcykubWQ
+  - MTgg7JWI6rO8L-qysOyEseyXvCAoQ29uanVuY3Rpdml0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

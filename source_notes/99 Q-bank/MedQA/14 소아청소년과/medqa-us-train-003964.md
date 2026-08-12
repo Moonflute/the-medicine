@@ -13,7 +13,10 @@ related_diseases:
   - "히르슈스프룽병"
   - "선천성 거대결장"
   - "신경능선 세포"
+  - "Hirschsprung disease"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISg7LKcIOqxsOuMgCDqsrDsnqXspp0gKENvbmdlbml0YWwgQWdhbmdsaW9uaWMgTWVnYWNvbG9uKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

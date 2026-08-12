@@ -14,6 +14,9 @@ related_diseases:
   - "urgent PCI"
   - "acute coronary syndrome"
   - "reperfusion therapy"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL1NU67aE7KCIIOyDgeyKuSDsi6zqt7zqsr3sg4nspp0gKFNURU1JKSAoU1QtRWxldmF0aW9uIE15b2NhcmRpYWwgSW5mYXJjdGlvbikubWQ
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k
 question_type: management
 difficulty: complex
 answer: C

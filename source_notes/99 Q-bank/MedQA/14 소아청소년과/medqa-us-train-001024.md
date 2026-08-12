@@ -15,6 +15,10 @@ related_diseases:
   - "Aplastic anemia"
   - "Acute lymphoblastic leukemia"
 question_type: diagnosis
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YuOyngO2CqCDrprztlITsooUgKEhvZGdraW4gTHltcGhvbWEpLm1k
+  - MDkg7ZiI7JWhL-yerOyDneu2iOufieyEsSDruYjtmIggKEFBKSAoQXBsYXN0aWMgQW5lbWlhIChBQSkpLm1k
+  - MDkg7ZiI7JWhL-q4ieyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChBTEwpIChBY3V0ZSBMeW1waG9ibGFzdGljIExldWtlbWlhKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,10 @@ related_diseases:
   - "multiple myeloma"
   - "hypogammaglobulinemia"
   - "hypercalcemia"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67KU7KCA6rCQ66eI6riA66Gc67aI66aw7ZiI7KadIChQYW5oeXBvZ2FtbWFnbG9idWxpbmVtaWEpLm1k
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "휘플병"
   - "트로페리마 휘플리 감염"
   - "감염성 심내막염"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
 question_type: management
 difficulty: complex
 answer: A

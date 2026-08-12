@@ -13,6 +13,8 @@ related_diseases:
   - "bacterial conjunctivitis"
   - "conjunctival culture"
 question_type: investigation
+related_disease_slugs:
+  - MTgg7JWI6rO8L-qysOyEseyXvCAoQ29uanVuY3Rpdml0aXMpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

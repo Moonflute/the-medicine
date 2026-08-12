@@ -14,6 +14,8 @@ related_diseases:
   - "혈액배양"
   - "비장비대"
 question_type: investigation
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

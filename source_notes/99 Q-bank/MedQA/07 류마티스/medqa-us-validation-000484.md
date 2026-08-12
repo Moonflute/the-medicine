@@ -13,6 +13,7 @@ related_diseases:
   - "다발혈관염을 동반한 육아종증"
   - "면역억제"
   - "폐포자충 폐렴 예방"
+related_disease_slugs: []
 question_type: prevention
 difficulty: standard
 answer: D

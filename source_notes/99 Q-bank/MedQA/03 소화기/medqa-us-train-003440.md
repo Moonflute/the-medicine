@@ -14,6 +14,7 @@ related_diseases:
   - "postoperative fistula"
   - "bicarbonate loss"
   - "pancreatic surgery"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: D

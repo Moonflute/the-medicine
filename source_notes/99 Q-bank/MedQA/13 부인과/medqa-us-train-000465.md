@@ -12,6 +12,8 @@ specialty: 13 부인과
 related_diseases:
   - "lobular carcinoma in situ"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yGjOyXvSDsg4HtlLzrgrTslZQgKExvYnVsYXIgQ2FyY2lub21hIEluIFNpdHUpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

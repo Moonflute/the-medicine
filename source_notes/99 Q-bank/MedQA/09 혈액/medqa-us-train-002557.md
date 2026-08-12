@@ -13,6 +13,8 @@ related_diseases:
   - "hemophilia A"
   - "factor VIII deficiency"
   - "prolonged PTT"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOyasOuzkSAoSGVtb3BoaWxpYSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

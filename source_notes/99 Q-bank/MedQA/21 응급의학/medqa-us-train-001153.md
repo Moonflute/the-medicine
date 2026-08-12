@@ -11,7 +11,9 @@ language: ko
 specialty: 21 응급의학
 related_diseases:
   - "dental avulsion"
+  - "Dental avulsion"
 question_type: management
+related_disease_slugs: []
 difficulty: simple
 answer: A
 translation_status: machine-verified

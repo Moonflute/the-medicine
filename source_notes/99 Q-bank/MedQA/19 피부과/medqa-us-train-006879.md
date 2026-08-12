@@ -13,7 +13,10 @@ related_diseases:
   - "봉와직염"
   - "림프관염"
   - "화농성 연쇄상구균"
+  - "cellulitis"
 question_type: diagnosis
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yXsOyhsOyngeyXvCAoQ2VsbHVsaXRpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "splenic laceration"
   - "hemoperitoneum"
   - "blunt abdominal trauma"
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-ywveyDgSDrsI8g7Je07IOBIChXb3VuZHMgYW5kIExhY2VyYXRpb25zKS5tZA
+  - MTEg7Jm46rO8L-uRlOyDgSDrs7XrtoDsmbjsg4EgKEJsdW50IEFiZG9taW5hbCBUcmF1bWEpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: B

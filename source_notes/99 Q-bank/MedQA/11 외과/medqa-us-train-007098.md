@@ -13,6 +13,8 @@ related_diseases:
   - "비장 손상"
   - "비장 피막하 혈종"
   - "비수술적 관리"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-u5hOyepSDshpDsg4EgKFNwbGVuaWMgSW5qdXJ5KS5tZA
 question_type: management
 difficulty: complex
 answer: B

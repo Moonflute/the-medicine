@@ -13,6 +13,8 @@ related_diseases:
   - "유전구형적혈구증"
   - "구형적혈구"
   - "비장비대"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ycoOyghCDqtaztmIjsoIHtmIjqtazspp0gKEhlcmVkaXRhcnkgU3BoZXJvY3l0b3NpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: A

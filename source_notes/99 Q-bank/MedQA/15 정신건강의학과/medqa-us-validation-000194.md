@@ -14,6 +14,8 @@ related_diseases:
   - "망상"
   - "비정형 항정신병약"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

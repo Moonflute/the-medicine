@@ -14,6 +14,8 @@ related_diseases:
   - "정신병적 망상"
   - "주요우울 삽화"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOygleuPmeyepeyVoCAoU2NoaXpvYWZmZWN0aXZlIGRpc29yZGVyKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,7 @@ related_diseases:
   - "자살 위험 평가"
   - "이전 자살 시도"
 question_type: risk_factor
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

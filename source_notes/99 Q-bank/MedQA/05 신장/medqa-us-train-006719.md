@@ -13,6 +13,9 @@ related_diseases:
   - "제4형 신세뇨관산증"
   - "당뇨병성 신장병증"
   - "고칼륨혈증"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "supraventricular tachycardia"
   - "paroxysmal supraventricular tachycardia"
   - "vagal maneuvers"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uwnOyekeyEsSDsg4Hsi6zsi6TshLEg67mI66elIChQYXJveHlzbWFsIFN1cHJhdmVudHJpY3VsYXIgVGFjaHljYXJkaWEgKFBTVlQpLm1k
 question_type: management
 difficulty: complex
 answer: B

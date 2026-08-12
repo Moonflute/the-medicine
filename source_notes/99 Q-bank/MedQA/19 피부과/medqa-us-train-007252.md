@@ -15,6 +15,9 @@ related_diseases:
   - "기름진 인설"
   - "말라세지아"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yngOujqCDtlLzrtoDsl7wgKFNlYm9ycmhlaWMgRGVybWF0aXRpcykubWQ
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

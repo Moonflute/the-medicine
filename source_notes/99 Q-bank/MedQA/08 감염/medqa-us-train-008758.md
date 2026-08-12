@@ -13,6 +13,8 @@ related_diseases:
   - "Lyme arthritis"
   - "Borrelia burgdorferi"
   - "migratory arthritis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-udvOyehOuzkSAoTHltZSBEaXNlYXNlKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

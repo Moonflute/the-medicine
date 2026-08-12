@@ -14,6 +14,8 @@ related_diseases:
   - "골수염"
   - "파스퇴렐라 감염"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

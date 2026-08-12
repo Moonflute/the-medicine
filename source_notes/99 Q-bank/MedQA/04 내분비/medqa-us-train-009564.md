@@ -13,6 +13,9 @@ related_diseases:
   - "hypothyroidism"
   - "갑상선기능저하증"
   - "phenytoin-induced hypothyroidism"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCR7IOB7ISgIOq4sOuKpSDsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

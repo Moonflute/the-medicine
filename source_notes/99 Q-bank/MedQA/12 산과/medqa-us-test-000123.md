@@ -13,6 +13,8 @@ related_diseases:
   - "지카 바이러스"
   - "선천성 지카 증후군"
   - "태아 소두증"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uwlOydtOufrOyKpC5tZA
 question_type: diagnosis
 difficulty: standard
 answer: D

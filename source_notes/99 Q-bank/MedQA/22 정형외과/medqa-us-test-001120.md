@@ -13,7 +13,9 @@ related_diseases:
   - "거위발 윤활낭염"
   - "내측 무릎 통증"
   - "비만"
+  - "Pes anserine bursitis"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

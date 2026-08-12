@@ -14,6 +14,8 @@ related_diseases:
   - "hemoperitoneum"
   - "emergency laparotomy"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

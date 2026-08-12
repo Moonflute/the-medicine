@@ -13,6 +13,9 @@ related_diseases:
   - "수술 후 폐렴"
   - "지역사회획득폐렴"
   - "발열과 기침"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-ygle2YlSDtj5DroLQgKFR5cGljYWwgUG5ldW1vbmlhKS5tZA
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

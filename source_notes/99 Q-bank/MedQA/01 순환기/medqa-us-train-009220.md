@@ -13,6 +13,8 @@ related_diseases:
   - "severe aortic stenosis"
   - "중증 대동맥판막 협착"
   - "transcatheter aortic valve replacement"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
 question_type: management
 difficulty: standard
 answer: C

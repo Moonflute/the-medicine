@@ -14,6 +14,7 @@ related_diseases:
   - "dystrophin mutation"
   - "cardiac conduction abnormality"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

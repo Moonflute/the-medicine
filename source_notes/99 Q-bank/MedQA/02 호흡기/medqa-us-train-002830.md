@@ -14,6 +14,9 @@ related_diseases:
   - "lung cancer"
   - "malignant nodule"
   - "absence of calcification"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uLqOydvCDtj5DqsrDsoIggKFNQTikgKFNvbGl0YXJ5IFB1bG1vbmFyeSBOb2R1bGUpLm1k
+  - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 question_type: risk_factor
 difficulty: complex
 answer: A

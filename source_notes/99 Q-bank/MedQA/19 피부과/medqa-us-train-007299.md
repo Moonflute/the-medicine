@@ -15,6 +15,8 @@ related_diseases:
   - "손가락 사이 굴"
   - "퍼메트린"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yYtCAoU2NhYmllcykubWQ
 difficulty: simple
 answer: C
 translation_status: machine-verified

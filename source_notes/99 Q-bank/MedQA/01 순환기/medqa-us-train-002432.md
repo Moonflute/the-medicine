@@ -14,6 +14,8 @@ related_diseases:
   - "cardiac sarcoidosis"
   - "hilar lymphadenopathy"
   - "atrioventricular block"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-ycoOycoeyiheymnSAoU2FyY29pZG9zaXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

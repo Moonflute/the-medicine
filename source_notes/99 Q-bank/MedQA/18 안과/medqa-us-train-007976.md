@@ -14,6 +14,8 @@ related_diseases:
   - "diabetic retinopathy"
   - "floaters"
 question_type: diagnosis
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDrp53rp4nrs5Hspp0gKERpYWJldGljIFJldGlub3BhdGh5KS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

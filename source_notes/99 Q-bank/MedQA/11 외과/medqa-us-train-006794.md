@@ -13,6 +13,9 @@ related_diseases:
   - "장폐색"
   - "기계적 소장폐색"
   - "비위관 감압"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snqXtj5Dsg4kubWQ
+  - MTEg7Jm46rO8L-yepSDtj5Dsg4kgKEJvd2VsIE9ic3RydWN0aW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: C

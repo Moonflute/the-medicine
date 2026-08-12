@@ -14,6 +14,9 @@ related_diseases:
   - "심부전 악화"
   - "대장균"
 question_type: management
+related_disease_slugs:
+  - MDUg7Iug7J6lL-ustOymneyDgSDshLjqt6Drh6ggKEFzeW1wdG9tYXRpYyBCYWN0ZXJpdXJpYSkubWQ
+  - MDgg6rCQ7Je8L-uMgOyepeq3oCAoRS4gY29saSkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

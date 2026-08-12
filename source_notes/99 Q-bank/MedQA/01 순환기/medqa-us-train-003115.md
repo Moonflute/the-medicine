@@ -14,6 +14,8 @@ related_diseases:
   - "widened mediastinum"
   - "transesophageal echocardiography"
   - "unstable patient imaging"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

@@ -13,6 +13,9 @@ related_diseases:
   - "복부대동맥류"
   - "콜레스테롤 색전증"
   - "청색 발가락 증후군"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uzteu2gCDrjIDrj5nrp6XrpZggKEFiZG9taW5hbCBBb3J0aWMgQW5ldXJ5c20pLm1k
+  - MDUg7Iug7J6lL-yLoOuPmeunpSDtmIjsoITsg4nsoITspp0gKFJlbmFsIEFydGVyeSBUaHJvbWJvZW1ib2xpc20pLm1k
 question_type: management
 difficulty: complex
 answer: D

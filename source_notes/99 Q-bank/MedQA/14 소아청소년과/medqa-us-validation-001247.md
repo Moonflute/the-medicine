@@ -13,7 +13,9 @@ related_diseases:
   - "일차성 야간 유뇨"
   - "데스모프레신"
   - "소아 야뇨"
+  - "Primary nocturnal enuresis"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "painful third-trimester bleeding"
   - "uterine hypertonicity"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

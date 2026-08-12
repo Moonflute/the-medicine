@@ -14,6 +14,8 @@ related_diseases:
   - "mania"
   - "antipsychotic"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VreygleyLoOuzkeygnCAoQW50aXBzeWNob3RpY3MpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

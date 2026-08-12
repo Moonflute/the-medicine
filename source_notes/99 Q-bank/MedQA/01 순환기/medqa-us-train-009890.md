@@ -13,6 +13,9 @@ related_diseases:
   - "감염성 심내막염"
   - "대동맥판 역류"
   - "대동맥판막 치환술"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDsl63rpZggKEFvcnRpYyBSZWd1cmdpdGF0aW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "산전 진단"
   - "융모막융모검사"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

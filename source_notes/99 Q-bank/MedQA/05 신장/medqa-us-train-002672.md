@@ -14,6 +14,8 @@ related_diseases:
   - "psoas sign"
   - "diabetes mellitus"
   - "retroperitoneal infection"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

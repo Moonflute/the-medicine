@@ -14,6 +14,7 @@ related_diseases:
   - "mild metabolic acidosis"
   - "laboratory error"
   - "repeat testing"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "당뇨병성 말초신경병증"
   - "원위 대칭성 다발신경병증"
   - "신경병성 통증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
 question_type: mechanism
 difficulty: simple
 answer: C

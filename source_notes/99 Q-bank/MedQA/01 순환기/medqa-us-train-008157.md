@@ -13,6 +13,8 @@ related_diseases:
   - "atrial septal defect"
   - "fixed split S2"
   - "left-to-right shunt"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius67CpIOykkeqyqSDqsrDshpAgKEF0cmlhbCBTZXB0YWwgRGVmZWN0KS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

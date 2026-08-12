@@ -14,6 +14,8 @@ related_diseases:
   - "mucopurulent cervicitis"
   - "azithromycin"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyXvCAoQ2VydmljaXRpcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

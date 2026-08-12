@@ -14,6 +14,8 @@ related_diseases:
   - "clue cells"
   - "positive whiff test"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yEuOq3oOyEsSDsp4jsl7wgKEJhY3RlcmlhbCBWYWdpbm9zaXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

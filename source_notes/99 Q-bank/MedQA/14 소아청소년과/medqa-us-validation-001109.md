@@ -13,7 +13,10 @@ related_diseases:
   - "팔로 4징"
   - "청색 발작"
   - "무릎-가슴 자세"
+  - "Tetralogy of Fallot"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7YyU66GcIOyCrOynlSAoVGV0cmFsb2d5IG9mIEZhbGxvdCkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

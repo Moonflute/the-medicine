@@ -13,6 +13,9 @@ related_diseases:
   - "Salmonella osteomyelitis"
   - "sickle cell disease"
   - "osteomyelitis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

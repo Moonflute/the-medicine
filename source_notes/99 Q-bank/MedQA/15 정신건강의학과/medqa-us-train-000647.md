@@ -11,7 +11,10 @@ language: ko
 specialty: 15 정신건강의학과
 related_diseases:
   - "nicotine dependence"
+  - "Nicotine dependence"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

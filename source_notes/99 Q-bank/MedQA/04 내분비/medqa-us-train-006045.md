@@ -13,6 +13,8 @@ related_diseases:
   - "비고전적 선천성 부신과형성"
   - "21-수산화효소 결핍"
   - "조기 사춘기"
+  - "21-hydroxylase deficiency"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: B

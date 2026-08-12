@@ -13,6 +13,9 @@ related_diseases:
   - "셀리악병"
   - "만성 설사"
   - "철 흡수 장애"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tnaHsiJjsnqXslaAubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: B

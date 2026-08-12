@@ -13,6 +13,8 @@ related_diseases:
   - "유방 섬유선종"
   - "섬유선종"
   - "청소년 유방 종괴"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yErOycoOyEoOyihSAoRmlicm9hZGVub21hKS5tZA
 question_type: prognosis
 difficulty: complex
 answer: C

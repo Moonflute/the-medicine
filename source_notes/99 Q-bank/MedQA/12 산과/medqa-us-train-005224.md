@@ -14,6 +14,8 @@ related_diseases:
   - "무통성 질출혈"
   - "제왕절개 후 태반 위치 평가"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yghOy5mO2DnOuwmCAoUGxhY2VudGEgUHJldmlhKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

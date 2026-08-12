@@ -13,6 +13,8 @@ related_diseases:
   - "샤가스병"
   - "확장성 심근병증"
   - "식도확장증"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2ZleyepeyEsSDsi6zqt7zrs5Hspp0gKERpbGF0ZWQgQ2FyZGlvbXlvcGF0aHkpLm1k
 question_type: mechanism
 difficulty: standard
 answer: C

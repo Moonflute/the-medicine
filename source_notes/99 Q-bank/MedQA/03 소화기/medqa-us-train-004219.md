@@ -13,6 +13,7 @@ related_diseases:
   - "건강 유지 관리"
   - "대장암 선별검사"
   - "예방의학"
+related_disease_slugs: []
 question_type: 임상증례 객관식
 difficulty: complex
 answer: D

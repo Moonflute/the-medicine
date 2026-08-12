@@ -14,6 +14,8 @@ related_diseases:
   - "flaccid paralysis"
   - "anterior cord syndrome"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_soIQg7LKZ7IiYIOymne2bhOq1sCAoQW50ZXJpb3IgY29yZCBzeW5kcm9tZSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

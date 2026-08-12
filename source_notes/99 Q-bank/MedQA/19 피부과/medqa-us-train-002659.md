@@ -15,6 +15,9 @@ related_diseases:
   - "Marjolin ulcer"
   - "punch biopsy"
 question_type: investigation
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDtjrjtj4nsg4HtlLzslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
+  - MTkg7ZS867aA6rO8L-2OuO2PiSDshLjtj6zslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

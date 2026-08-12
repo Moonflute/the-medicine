@@ -13,6 +13,8 @@ related_diseases:
   - "dyslipidemia"
   - "low ASCVD risk"
   - "statin therapy"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: A

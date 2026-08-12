@@ -13,6 +13,8 @@ related_diseases:
   - "수혈 관련 아나필락시스"
   - "IgA 결핍"
   - "반복 부비동-폐 감염"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -14,6 +14,9 @@ related_diseases:
   - "횡문근융해증"
   - "압박 손상"
 question_type: mechanism
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
+  - MDUg7Iug7J6lL-2aoeusuOq3vOycte2VtOymnSAoUmhhYmRvbXlvbHlzaXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

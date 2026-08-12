@@ -13,6 +13,8 @@ related_diseases:
   - "심방세동"
   - "CHADS2 점수"
   - "뇌졸중 위험"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 question_type: biostatistics
 difficulty: simple
 answer: B

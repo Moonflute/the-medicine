@@ -13,7 +13,9 @@ related_diseases:
   - "저등급 편평상피내병변"
   - "HPV"
   - "질확대경검사"
+  - "Low-grade squamous intraepithelial lesion"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "성적 피학증"
   - "성도착 장애"
   - "동의된 성적 행동"
+  - "Sexual masochism disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

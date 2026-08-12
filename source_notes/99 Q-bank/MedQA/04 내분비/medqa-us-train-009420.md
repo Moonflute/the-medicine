@@ -13,6 +13,8 @@ related_diseases:
   - "vitamin D toxicity"
   - "비타민 D 독성"
   - "hypercalcemia"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: D

@@ -13,6 +13,8 @@ related_diseases:
   - "진행성 직장 선암"
   - "나쁜 소식 전달"
   - "환자 중심 의사소통"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
 question_type: ethics
 difficulty: complex
 answer: C

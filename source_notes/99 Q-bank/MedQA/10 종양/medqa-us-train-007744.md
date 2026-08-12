@@ -13,6 +13,8 @@ related_diseases:
   - "pancreatic cancer"
   - "truth disclosure"
   - "medical interpreter"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA
 question_type: ethics
 difficulty: standard
 answer: B

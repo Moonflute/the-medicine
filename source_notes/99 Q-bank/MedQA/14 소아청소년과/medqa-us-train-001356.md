@@ -15,6 +15,8 @@ related_diseases:
   - "Androgen insensitivity"
   - "Pure gonadal dysgenesis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yViOuTnOuhnOqykOu2iOqwkOydkSAoQW5kcm9nZW4gSW5zZW5zaXRpdml0eSkubWQ
 difficulty: simple
 answer: B
 translation_status: machine-verified

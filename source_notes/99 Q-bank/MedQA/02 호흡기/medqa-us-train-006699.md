@@ -13,6 +13,8 @@ related_diseases:
   - "병원획득폐렴"
   - "중증 폐렴"
   - "경험적 광범위 항생제"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: management
 difficulty: complex
 answer: C

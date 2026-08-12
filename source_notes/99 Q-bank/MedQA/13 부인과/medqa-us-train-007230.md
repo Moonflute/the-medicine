@@ -15,6 +15,8 @@ related_diseases:
   - "피임약 부작용"
   - "안심"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-qyveq1rO2UvOyehOyVvSAoT3JhbCBDb250cmFjZXB0aXZlcykubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

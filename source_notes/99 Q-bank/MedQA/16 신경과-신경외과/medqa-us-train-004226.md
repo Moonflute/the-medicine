@@ -14,6 +14,8 @@ related_diseases:
   - "탈수초 질환"
   - "IV형 과민반응"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "17-alpha-hydroxylase deficiency"
   - "46,XX disorder of sex development"
   - "hypokalemic hypertension"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

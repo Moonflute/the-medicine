@@ -12,6 +12,8 @@ specialty: 02 호흡기
 related_diseases:
   - "Lambert-Eaton myasthenic syndrome"
   - "small cell lung cancer"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

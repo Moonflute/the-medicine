@@ -13,6 +13,9 @@ related_diseases:
   - "chylous ascites"
   - "lymphoma"
   - "malignant ascites"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yVlOyjvSDrs7XsiJggKENoeWxvdXMgQXNjaXRlcykubWQ
+  - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -13,6 +13,9 @@ related_diseases:
   - "선천성 갑상선기능저하증"
   - "갑상선 발생 이상"
   - "신생아 황달과 제대탈장"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCR7IOB7ISgIOq4sOuKpSDsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: A

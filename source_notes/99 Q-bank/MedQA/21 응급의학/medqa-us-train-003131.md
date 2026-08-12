@@ -15,6 +15,8 @@ related_diseases:
   - "stable trauma patient"
   - "observation"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uRlOyDgSDrs7XrtoDsmbjsg4EgKEJsdW50IEFiZG9taW5hbCBUcmF1bWEpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

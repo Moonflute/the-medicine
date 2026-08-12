@@ -12,6 +12,7 @@ specialty: 10 종양
 related_diseases:
   - "Pancoast tumor"
   - "brachial plexopathy"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

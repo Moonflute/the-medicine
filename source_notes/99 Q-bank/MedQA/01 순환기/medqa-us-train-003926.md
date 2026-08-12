@@ -14,6 +14,10 @@ related_diseases:
   - "left-to-right shunt"
   - "holosystolic murmur"
   - "heart failure in child"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius7IukIOykkeqyqSDqsrDshpAgKFZlbnRyaWN1bGFyIFNlcHRhbCBEZWZlY3QpLm1k
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cp7IukIOykkeqyqSDqsrDshpAgKEF0cmlvdmVudHJpY3VsYXIgU2VwdGFsIERlZmVjdCkubWQ
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: diagnosis
 difficulty: standard
 answer: B

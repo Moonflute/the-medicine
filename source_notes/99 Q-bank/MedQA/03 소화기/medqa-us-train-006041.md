@@ -13,6 +13,8 @@ related_diseases:
   - "만성 알코올 사용"
   - "알코올성 간질환"
   - "고환 위축"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_slYzsvZTsmKzshLEg6rCE7KeI7ZmYIChBbGNvaG9saWMgTGl2ZXIgRGlzZWFzZSkubWQ
 question_type: diagnosis
 difficulty: simple
 answer: D

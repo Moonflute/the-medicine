@@ -12,6 +12,8 @@ specialty: 19 피부과
 related_diseases:
   - "tinea versicolor"
 question_type: mechanism
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yWtOujqOufrOq4sCAoVGluZWEgVmVyc2ljb2xvcikubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,7 +14,10 @@ related_diseases:
   - "carbamazepine"
   - "folic acid"
   - "neural tube defects"
+  - "Epilepsy"
 question_type: prevention
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsoITspp0gKEVwaWxlcHN5KS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

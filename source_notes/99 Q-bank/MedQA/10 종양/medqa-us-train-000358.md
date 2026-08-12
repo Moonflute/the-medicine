@@ -11,6 +11,8 @@ language: ko
 specialty: 10 종양
 related_diseases:
   - "multiple myeloma"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
 question_type: mechanism
 difficulty: complex
 answer: D

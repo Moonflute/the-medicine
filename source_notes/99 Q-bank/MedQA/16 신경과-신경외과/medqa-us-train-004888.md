@@ -14,6 +14,8 @@ related_diseases:
   - "단일 근섬유 근전도검사"
   - "흉선종"
 question_type: investigation
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_spJHspp0g6re866y066Cl7KadIChNeWFzdGhlbmlhIGdyYXZpcykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

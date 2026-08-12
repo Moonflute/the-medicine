@@ -16,6 +16,8 @@ related_diseases:
   - "눈 주위 부종"
   - "단백뇨"
   - "지방 원주"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-uLqOuwseuHqC5tZA
 question_type: management
 difficulty: complex
 answer: D

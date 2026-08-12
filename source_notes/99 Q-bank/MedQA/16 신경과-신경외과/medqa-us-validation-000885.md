@@ -13,7 +13,10 @@ related_diseases:
   - "헌팅턴병"
   - "미상핵 위축"
   - "상염색체 우성 유전"
+  - "Huntington disease"
 question_type: investigation
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4ztjIXthLTrs5EgKEh1bnRpbmd0b24gRGlzZWFzZSkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

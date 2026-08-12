@@ -14,6 +14,8 @@ related_diseases:
   - "메틸페니데이트"
   - "자극제 일차치료"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOydmOugpSDqsrDtlY0g6rO864ukIO2WieuPmSDsnqXslaAgKEFESEQpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

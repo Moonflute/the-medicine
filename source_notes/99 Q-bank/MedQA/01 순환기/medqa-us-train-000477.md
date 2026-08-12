@@ -14,6 +14,10 @@ related_diseases:
   - "polymorphic ventricular tachycardia"
   - "torsades de pointes"
   - "prolonged QT interval"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2YiOq0gOuvuOyjvOyLoOqyveyEsSDsi6Tsi6AgKFZhc292YWdhbCBTeW5jb3BlKS5tZA
+  - MDEg7Iic7ZmY6riwL-yLrOyLpCDruYjrp6UgKFZlbnRyaWN1bGFyIFRhY2h5Y2FyZGlhKS5tZA
+  - MDEg7Iic7ZmY6riwL-uLpO2YleyEsSDsi6zsi6Qg67mI66elIChUZFApIChUb3JzYWRlcyBkZSBQb2ludGVzIChUZFApLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

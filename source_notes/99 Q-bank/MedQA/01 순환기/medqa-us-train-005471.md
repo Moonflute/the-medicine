@@ -13,6 +13,8 @@ related_diseases:
   - "우각차단"
   - "실신 전 증상"
   - "전도장애"
+  - "right bundle branch block"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

@@ -14,6 +14,8 @@ related_diseases:
   - "수신증"
   - "옆구리 통증"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOuhnCDtj5Dsg4kgKFVyaW5hcnkgdHJhY3Qgb2JzdHJ1Y3Rpb24pLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

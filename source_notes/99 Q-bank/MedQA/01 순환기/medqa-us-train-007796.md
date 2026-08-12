@@ -13,6 +13,7 @@ related_diseases:
   - "primary prevention"
   - "coronary artery disease risk"
   - "trans fat reduction"
+related_disease_slugs: []
 question_type: prevention
 difficulty: simple
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "성홍열"
   - "연쇄상구균 인두염"
   - "딸기혀"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISx7ZmN7Je0IChTY2FybGV0IEZldmVyKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

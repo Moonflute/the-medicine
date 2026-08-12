@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-10T19:23:14.187Z",
+  "generatedAt": "2026-08-12T07:41:46.928Z",
   "sourceRoot": "source_notes",
   "outputRoot": "_webapp/data",
   "domains": {
     "diseases": {
-      "count": 1302,
+      "count": 1309,
       "source": "02 Diseases"
     },
     "chiefComplaints": {
@@ -68,9 +68,9 @@
       "source": "10 Hubs/01 감염 Hub/_data/infection-pathways.json"
     },
     "clinicalRelations": {
-      "count": 7707,
-      "explicit": 4977,
-      "generated": 2730,
+      "count": 7724,
+      "explicit": 4986,
+      "generated": 2738,
       "source": "derived from frontmatter, structured CC recommendations, and wikilinks"
     }
   }

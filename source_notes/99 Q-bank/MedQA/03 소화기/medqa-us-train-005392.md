@@ -13,6 +13,8 @@ related_diseases:
   - "급성 위장관 출혈"
   - "상·하부 출혈 감별"
   - "비위관 세척"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsnqXqtIAg7Lac7ZiILm1k
 question_type: investigation
 difficulty: standard
 answer: B

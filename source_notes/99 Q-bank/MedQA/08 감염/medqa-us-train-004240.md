@@ -13,6 +13,8 @@ related_diseases:
   - "뎅기열"
   - "뎅기출혈열"
   - "혈장 누출 증후군"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uOheq4sOyXtCAoRGVuZ3VlIEZldmVyKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

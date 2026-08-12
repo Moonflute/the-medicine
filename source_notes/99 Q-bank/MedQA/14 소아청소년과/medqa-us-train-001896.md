@@ -14,6 +14,7 @@ related_diseases:
   - "language development"
   - "infant sitting"
 question_type: other
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

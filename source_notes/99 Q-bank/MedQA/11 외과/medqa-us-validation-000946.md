@@ -13,6 +13,8 @@ related_diseases:
   - "회전근개 손상"
   - "극상근 힘줄"
   - "빈 캔 검사"
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-2ajOyghOq3vOqwnO2MjOyXtCAoUm90YXRvciBDdWZmIFRlYXIpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: C

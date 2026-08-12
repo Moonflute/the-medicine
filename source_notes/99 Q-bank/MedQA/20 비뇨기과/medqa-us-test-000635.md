@@ -14,6 +14,8 @@ related_diseases:
   - "범람성 요실금"
   - "신경인성 방광"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

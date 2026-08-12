@@ -13,6 +13,9 @@ related_diseases:
   - "갑상선기능항진증"
   - "갑상선 심장병"
   - "심방세동"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
 question_type: management
 difficulty: standard
 answer: A

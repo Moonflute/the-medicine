@@ -13,7 +13,9 @@ related_diseases:
   - "substance use disorder"
   - "adolescent behavioral change"
   - "urine toxicology"
+  - "Substance use disorder"
 question_type: investigation
+related_disease_slugs: []
 difficulty: simple
 answer: D
 translation_status: machine-verified

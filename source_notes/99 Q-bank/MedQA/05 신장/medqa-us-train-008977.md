@@ -13,6 +13,8 @@ related_diseases:
   - "postrenal acute kidney injury"
   - "urinary retention"
   - "oliguria"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-y9qe2Mpe2bhCDquInshLEg7L2p7YylIOyGkOyDgSAoUG9zdHJlbmFsIEFjdXRlIEtpZG5leSBJbmp1cnkpLm1k
 question_type: investigation
 difficulty: complex
 answer: C

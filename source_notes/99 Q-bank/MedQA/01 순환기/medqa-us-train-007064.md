@@ -14,6 +14,9 @@ related_diseases:
   - "대동맥판막 역류"
   - "물망치 맥박"
   - "정맥주사 약물 사용"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDsl63rpZggKEFvcnRpYyBSZWd1cmdpdGF0aW9uKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: D

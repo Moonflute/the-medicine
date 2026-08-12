@@ -14,6 +14,8 @@ related_diseases:
   - "당뇨병성 신경병증"
   - "중족부 아치 붕괴"
 question_type: diagnosis
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

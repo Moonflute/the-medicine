@@ -14,6 +14,8 @@ related_diseases:
   - "선천성 청색증 심장병"
   - "심실중격결손"
 question_type: other
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius7IukIOykkeqyqSDqsrDshpAgKFZlbnRyaWN1bGFyIFNlcHRhbCBEZWZlY3QpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

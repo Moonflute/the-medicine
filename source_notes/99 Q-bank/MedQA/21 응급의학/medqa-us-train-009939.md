@@ -14,6 +14,7 @@ related_diseases:
   - "급성 간부전"
   - "N-아세틸시스테인"
 question_type: management
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

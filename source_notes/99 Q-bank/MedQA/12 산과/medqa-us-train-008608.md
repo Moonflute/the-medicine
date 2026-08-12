@@ -13,7 +13,10 @@ related_diseases:
   - "primary syphilis"
   - "syphilitic chancre"
   - "pregnancy-associated syphilis"
+  - "Syphilis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKcIOunpOuPhSAoQ29uZ2VuaXRhbCBTeXBoaWxpcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

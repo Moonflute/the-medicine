@@ -13,6 +13,8 @@ related_diseases:
   - "드레슬러 증후군"
   - "심근경색 후 증후군"
   - "심낭염"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwLyjquInsgqzspp3tm4TqtbApLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

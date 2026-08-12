@@ -14,6 +14,8 @@ related_diseases:
   - "노인 열질환"
   - "항콜린성 약물"
 question_type: diagnosis
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yXtOyniO2ZmCAoSGVhdCBJbGxuZXNzKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

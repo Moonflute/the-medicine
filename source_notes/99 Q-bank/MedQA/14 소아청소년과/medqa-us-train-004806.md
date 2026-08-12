@@ -14,6 +14,8 @@ related_diseases:
   - "소아 미세적혈구성 빈혈"
   - "킬레이션 치료"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

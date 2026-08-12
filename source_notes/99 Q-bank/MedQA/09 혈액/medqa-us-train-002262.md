@@ -14,6 +14,8 @@ related_diseases:
   - "HIT"
   - "PF4 antibody"
   - "thrombosis"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2XpO2MjOumsCDsnKDrsJwg7ZiI7IaM7YyQ6rCQ7IaM7KadIChIZXBhcmluLUluZHVjZWQgVGhyb21ib2N5dG9wZW5pYSwgSElUKS5tZA
 question_type: investigation
 difficulty: complex
 answer: A

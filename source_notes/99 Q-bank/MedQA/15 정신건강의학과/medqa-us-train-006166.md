@@ -14,6 +14,8 @@ related_diseases:
   - "반사회성 인격장애"
   - "아동 공격행동"
 question_type: prognosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2SiO2WiSDsnqXslaAgKENvbmR1Y3QgRGlzb3JkZXIpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

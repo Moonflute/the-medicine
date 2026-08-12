@@ -14,7 +14,10 @@ related_diseases:
   - "위균사"
   - "정상 질 pH"
   - "플루코나졸"
+  - "Candidiasis"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-y5uOuUlOuLpCAoVnVsdm92YWdpbmFsIENhbmRpZGlhc2lzKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "하시모토 갑상샘염"
   - "일차성 갑상샘기능저하증"
   - "자가면역질환"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2VmOyLnOuqqO2GoCDqsJHsg4Hsg5jsl7wgKEhhc2hpbW90bydzIFRoeXJvaWRpdGlzKS5tZA
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
 question_type: 임상증례 객관식
 difficulty: standard
 answer: A

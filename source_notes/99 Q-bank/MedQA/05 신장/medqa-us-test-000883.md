@@ -13,6 +13,7 @@ related_diseases:
   - "조영제 유발 급성 신손상"
   - "급성 신세뇨관 괴사"
   - "크레아티닌 상승"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: D

@@ -14,6 +14,8 @@ related_diseases:
   - "헤파린"
   - "대퇴정맥 혈전"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yLrOu2gOygleunpe2YiOyghOymnSAoRGVlcCBWZWluIFRocm9tYm9zaXMpLm1k
 difficulty: simple
 answer: C
 translation_status: machine-verified

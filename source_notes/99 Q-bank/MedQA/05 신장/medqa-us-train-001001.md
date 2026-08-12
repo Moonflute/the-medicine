@@ -16,6 +16,13 @@ related_diseases:
   - "Thin basement membrane disease"
   - "chronic bronchitis"
   - "nephrotic syndrome"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q1reyGjCDthqDrpqzqtbPsnYzspp0gKEZvY2FsIFNlZ21lbnRhbCBHbG9tZXJ1bG9zY2xlcm9zaXMpLm1k
+  - MDUg7Iug7J6lL-unieyEsSDsgqzqtazssrTsi6Dsl7wgKE1lbWJyYW5vdXMgTmVwaHJvcGF0aHkpLm1k
+  - MDUg7Iug7J6lL-q4ieyGjSDsp4Ttlokg7Yag66as7L2p7Yyl7Je8IChSYXBpZGx5IFByb2dyZXNzaXZlIEdsb21lcnVsb25lcGhyaXRpcykubWQ
+  - MDUg7Iug7J6lL-yWleydgCDthqDrpqzrsJTri6Xrp4nrs5EgKFRoaW4gQmFzZW1lbnQgTWVtYnJhbmUgRGlzZWFzZSkubWQ
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
+  - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

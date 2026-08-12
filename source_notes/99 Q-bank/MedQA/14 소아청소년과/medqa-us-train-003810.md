@@ -15,6 +15,10 @@ related_diseases:
   - "meningitis complication"
   - "sensorineural hearing loss"
 question_type: complication
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uPjOuwnOyEsSDrgpzssq0gKFN1ZGRlbiBzZW5zb3JpbmV1cmFsIGhlYXJpbmcgbG9zcykubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IeE7ZWtIChJbXBlcmZvcmF0ZSBBbnVzKS5tZA
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "치골상부 카테터 감염"
   - "전립선암"
 question_type: investigation
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOuhnCDtj5Dsg4kgKFVyaW5hcnkgdHJhY3Qgb2JzdHJ1Y3Rpb24pLm1k
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

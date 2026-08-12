@@ -13,6 +13,9 @@ related_diseases:
   - "알레르기 결막염"
   - "케토티펜"
   - "계절성 알레르기"
+  - "Allergic conjunctivitis"
+related_disease_slugs:
+  - MTgg7JWI6rO8L-qzhOygiOyEseyVjOugiOultOq4sOqysOunieyXvCAoc2Vhc29uYWwgYWxsZXJnaWMgY29uanVuY3Rpdml0aXMpLm1k
 question_type: management
 difficulty: standard
 answer: B

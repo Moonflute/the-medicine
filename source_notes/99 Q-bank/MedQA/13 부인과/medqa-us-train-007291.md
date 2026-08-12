@@ -15,6 +15,8 @@ related_diseases:
   - "난관 인자 난임"
   - "불임"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

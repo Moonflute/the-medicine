@@ -13,6 +13,9 @@ related_diseases:
   - "paroxysmal nocturnal hemoglobinuria"
   - "intravascular hemolysis"
   - "venous thrombosis"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uwnOyekeyEsSDslbzqsIQg7ZiI7IOJ7IaM64eo7KadIChQYXJveHlzbWFsIE5vY3R1cm5hbCBIZW1vZ2xvYmludXJpYSkubWQ
+  - MDkg7ZiI7JWhL-2YiOq0gCDrgrQg7Jqp7ZiIIChJbnRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ
 question_type: prognosis
 difficulty: complex
 answer: C

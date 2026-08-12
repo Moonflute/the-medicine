@@ -13,6 +13,9 @@ related_diseases:
   - "급성 대동맥 박리"
   - "고혈압성 응급"
   - "라베타롤"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: management
 difficulty: standard
 answer: B

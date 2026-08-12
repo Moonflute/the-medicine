@@ -14,6 +14,8 @@ related_diseases:
   - "Trichomonas vaginalis"
   - "거품성 질분비물"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2KuOumrOy9lOuqqOuCmOyKpCAoVHJpY2hvbW9uaWFzaXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

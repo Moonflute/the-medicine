@@ -13,6 +13,9 @@ related_diseases:
   - "갑상샘기능저하증"
   - "월경과다"
   - "하시모토 갑상샘염"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
+  - MDQg64K067aE67mEL-2VmOyLnOuqqO2GoCDqsJHsg4Hsg5jsl7wgKEhhc2hpbW90bydzIFRoeXJvaWRpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

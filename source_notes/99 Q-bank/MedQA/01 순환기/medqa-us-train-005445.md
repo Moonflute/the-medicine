@@ -13,6 +13,7 @@ related_diseases:
   - "임신 중 승모판 협착"
   - "좌심방 압력 상승"
   - "루프 이뇨제"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

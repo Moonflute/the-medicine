@@ -13,6 +13,8 @@ related_diseases:
   - "비갑상샘 질환 증후군"
   - "저T3 증후군"
   - "중증 질환"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uzkeyggSDqsJHsg4Hsg5gg6riw64qlIOygleyDgSDspp3tm4TqtbAgKFNpY2sgRXV0aHlyb2lkIFN5bmRyb21lKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: B

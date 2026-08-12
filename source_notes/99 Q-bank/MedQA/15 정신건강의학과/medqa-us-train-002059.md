@@ -14,6 +14,8 @@ related_diseases:
   - "grief"
   - "acute grief"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ygleyDgSDslaDrj4Qg67CY7J2RIChCZXJlYXZlbWVudCkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

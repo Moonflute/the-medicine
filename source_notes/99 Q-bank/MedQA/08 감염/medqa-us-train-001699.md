@@ -13,6 +13,7 @@ related_diseases:
   - "hydatid cyst"
   - "echinococcosis"
   - "Echinococcus granulosus"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "그레이브스병"
   - "갑상선안병증"
   - "방사성 요오드 치료"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: simple
 answer: D

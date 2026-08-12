@@ -13,6 +13,7 @@ related_diseases:
   - "콜레세벨람"
   - "담즙산 결합수지"
   - "약물 상호작용"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: C

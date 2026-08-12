@@ -13,6 +13,8 @@ related_diseases:
   - "엽상종양"
   - "유방 종괴"
   - "간질성 종양"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yXveyDgSDsooXslpEgKFBoeWxsb2RlcyBUdW1vcikubWQ
 question_type: diagnosis
 difficulty: standard
 answer: A

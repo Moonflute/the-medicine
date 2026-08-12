@@ -14,6 +14,8 @@ related_diseases:
   - "정상압수두증"
   - "ventriculoperitoneal shunt"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_soJXsg4HslZUg7IiY65GQ7KadIChOb3JtYWwgcHJlc3N1cmUgaHlkcm9jZXBoYWx1cykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

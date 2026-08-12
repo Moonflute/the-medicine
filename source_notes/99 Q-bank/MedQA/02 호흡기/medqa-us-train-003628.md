@@ -14,6 +14,9 @@ related_diseases:
   - "emphysema"
   - "Rtp801"
   - "smoking-related lung disease"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
+  - MDIg7Zi47Z2h6riwL-yEuOuhnOy5uCDquLDsooUgKE1lZGlhc3RpbmFsIEVtcGh5c2VtYSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: C

@@ -13,6 +13,9 @@ related_diseases:
   - "symptomatic cholelithiasis"
   - "증상성 담석증"
   - "biliary colic"
+  - "Cholelithiasis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
 question_type: management
 difficulty: simple
 answer: A

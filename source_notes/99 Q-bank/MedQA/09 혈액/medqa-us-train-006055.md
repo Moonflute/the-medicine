@@ -13,6 +13,9 @@ related_diseases:
   - "베타 지중해빈혈 중증형"
   - "소구성 빈혈"
   - "골수외 조혈"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
+  - MDkg7ZiI7JWhL-yngOykke2VtCDruYjtmIggKFRoYWxhc3NlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

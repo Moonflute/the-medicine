@@ -13,6 +13,8 @@ related_diseases:
   - "esophageal variceal bleeding"
   - "cirrhosis"
   - "vasoactive and endoscopic therapy"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
 question_type: management
 difficulty: standard
 answer: B

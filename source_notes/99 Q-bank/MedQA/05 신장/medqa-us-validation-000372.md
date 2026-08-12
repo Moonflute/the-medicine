@@ -13,6 +13,9 @@ related_diseases:
   - "루푸스 신염"
   - "미만성 증식성 사구체신염"
   - "면역억제 치료"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-ujqO2RuOyKpCDsvantjKXsl7wgKEx1cHVzIE5lcGhyaXRpcykubWQ
+  - MDUg7Iug7J6lL-unieymneyLnSDthqDrpqzsvantjKXsl7wgKE1lbWJyYW5vcHJvbGlmZXJhdGl2ZSBHbG9tZXJ1bG9uZXBocml0aXMpLm1k
 question_type: management
 difficulty: complex
 answer: D

@@ -13,6 +13,8 @@ related_diseases:
   - "천식"
   - "운동 유발 기관지수축"
   - "메타콜린 유발검사"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

@@ -13,6 +13,9 @@ related_diseases:
   - "thrombotic thrombocytopenic purpura"
   - "microangiopathic hemolytic anemia"
   - "plasma exchange"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOyghOyEsSDtmIjshoztjJDqsJDshowg7J6Q7IOJ67CYIChUaHJvbWJvdGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgVFRQKS5tZA
+  - MDkg7ZiI7JWhL-uvuOyEuO2YiOq0gOuzkeyEsSDsmqntmIgg67mI7ZiIIChNaWNyb2FuZ2lvcGF0aGljIEhlbW9seXRpYyBBbmVtaWEsIE1BSEEpLm1k
 question_type: management
 difficulty: complex
 answer: B

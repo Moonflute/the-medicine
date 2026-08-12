@@ -14,6 +14,8 @@ related_diseases:
   - "HPV 음성"
   - "자궁경부암 선별검사"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA
 difficulty: simple
 answer: C
 translation_status: machine-verified

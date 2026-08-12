@@ -14,6 +14,8 @@ related_diseases:
   - "preterm birth prevention"
   - "vaginal progesterone"
 question_type: prevention
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yhsOyCsCAoUHJldGVybSBiaXJ0aCkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

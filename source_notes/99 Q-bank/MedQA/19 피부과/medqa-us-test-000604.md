@@ -13,7 +13,9 @@ related_diseases:
   - "피부섬유종"
   - "다리 피부 결절"
   - "피부 종양"
+  - "dermatofibroma"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

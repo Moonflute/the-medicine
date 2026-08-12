@@ -14,6 +14,8 @@ related_diseases:
   - "외음부 위축"
   - "편평세포암 위험"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-2OuO2PiSDshLjtj6zslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -13,6 +13,7 @@ related_diseases:
   - "요독성 뇌병증"
   - "중증 급성 신손상"
   - "혈액투석"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

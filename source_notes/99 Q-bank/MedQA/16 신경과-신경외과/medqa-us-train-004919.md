@@ -14,6 +14,8 @@ related_diseases:
   - "경수 손상"
   - "사지마비"
 question_type: diagnosis
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yLoOqyveyEsSDsh7ztgawgKE5ldXJvZ2VuaWMgU2hvY2spLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

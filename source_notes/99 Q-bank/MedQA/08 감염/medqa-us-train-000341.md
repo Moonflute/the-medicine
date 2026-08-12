@@ -12,6 +12,9 @@ specialty: 08 감염
 related_diseases:
   - "cirrhosis"
   - "hepatitis B"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: diagnosis
 difficulty: standard
 answer: B

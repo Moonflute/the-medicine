@@ -13,7 +13,9 @@ related_diseases:
   - "악성 고체온증"
   - "마취 합병증"
   - "단트롤렌"
+  - "Malignant hyperthermia"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

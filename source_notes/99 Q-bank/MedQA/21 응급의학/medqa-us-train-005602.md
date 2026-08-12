@@ -13,7 +13,10 @@ related_diseases:
   - "심실세동"
   - "심정지"
   - "제세동"
+  - "Ventricular fibrillation"
 question_type: management
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOyLpCDsobDrj5ks7IS464-ZIChWZW50cmljdWxhciBmbHV0dGVyLCBmaWJyaWxsYXRpb24pLm1k
 difficulty: simple
 answer: A
 translation_status: machine-verified

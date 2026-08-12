@@ -13,6 +13,8 @@ related_diseases:
   - "respiratory syncytial virus"
   - "bronchopulmonary dysplasia"
   - "palivizumab prophylaxis"
+  - "Respiratory syncytial virus infection"
+related_disease_slugs: []
 question_type: prevention
 difficulty: complex
 answer: D

@@ -13,6 +13,8 @@ related_diseases:
   - "transient tachypnea of the newborn"
   - "delayed fetal lung fluid clearance"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOydvOqzvOyEsSDruYjtmLjtnaEgKFRyYW5zaWVudCBUYWNoeXBuZWEgb2YgdGhlIE5ld2Jvcm4pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

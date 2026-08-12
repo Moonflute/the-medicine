@@ -13,6 +13,9 @@ related_diseases:
   - "COVID-19"
   - "viral pneumonia"
   - "supportive care"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-y9lOuhnOuCmOuwlOydtOufrOyKpOqwkOyXvOymnS0xOSAoQ09WSUQtMTkpLm1k
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Y-Q66C0IChQbmV1bW9uaWEpLm1k
 question_type: management
 difficulty: complex
 answer: C

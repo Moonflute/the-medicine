@@ -14,6 +14,9 @@ related_diseases:
   - "HIV 감염"
   - "메테나민 은염색"
   - "트리메토프림-설파메톡사졸"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
+  - MDgg6rCQ7Je8L-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k
 question_type: management
 difficulty: complex
 answer: D

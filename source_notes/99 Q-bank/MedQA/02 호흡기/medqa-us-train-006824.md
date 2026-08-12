@@ -13,6 +13,8 @@ related_diseases:
   - "폐 랑게르한스 세포 조직구증"
   - "흡연 관련 낭성 폐질환"
   - "용해성 골병변"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

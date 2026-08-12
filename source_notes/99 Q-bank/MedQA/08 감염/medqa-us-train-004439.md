@@ -13,6 +13,9 @@ related_diseases:
   - "구강 칸디다증"
   - "식도 칸디다증"
   - "HIV 감염"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-y5uOuUlOuLpOymnSAoQ2FuZGlkaWFzaXMpLm1k
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 question_type: investigation
 difficulty: simple
 answer: C

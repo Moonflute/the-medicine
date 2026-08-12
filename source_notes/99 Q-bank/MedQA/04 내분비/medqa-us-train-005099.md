@@ -13,6 +13,8 @@ related_diseases:
   - "프로락틴종"
   - "고프로락틴혈증"
   - "뇌하수체 종양"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoO2UhOuhnOudve2LtO2YiOymnSAoSHlwZXJwcm9sYWN0aW5lbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

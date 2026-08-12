@@ -13,6 +13,9 @@ related_diseases:
   - "sickle cell disease"
   - "functional asplenia"
   - "sepsis prophylaxis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: management
 difficulty: complex
 answer: D

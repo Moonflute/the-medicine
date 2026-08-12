@@ -14,6 +14,9 @@ related_diseases:
   - "구형적혈구"
   - "용혈성 빈혈"
   - "담석"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ycoOyghCDqtaztmIjsoIHtmIjqtazspp0gKEhlcmVkaXRhcnkgU3BoZXJvY3l0b3NpcykubWQ
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: prognosis
 difficulty: standard
 answer: C

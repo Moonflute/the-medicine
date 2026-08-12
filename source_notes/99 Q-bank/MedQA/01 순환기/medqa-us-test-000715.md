@@ -13,6 +13,8 @@ related_diseases:
   - "마르팡증후군"
   - "대동맥 박리"
   - "승모판 탈출증"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

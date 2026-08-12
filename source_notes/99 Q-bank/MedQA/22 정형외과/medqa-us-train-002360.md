@@ -14,7 +14,9 @@ related_diseases:
   - "McMurray test"
   - "knee locking"
   - "meniscal MRI"
+  - "Medial meniscal tear"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

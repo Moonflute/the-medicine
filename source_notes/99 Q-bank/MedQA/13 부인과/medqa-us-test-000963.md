@@ -14,6 +14,8 @@ related_diseases:
   - "난관난소농양"
   - "입원 정맥항생제"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

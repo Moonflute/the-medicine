@@ -13,7 +13,10 @@ related_diseases:
   - "체질성 성장지연"
   - "골연령 지연"
   - "사춘기 전 성장"
+  - "constitutional growth delay"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7LK07KeI7ISxIOyEseyepSDrsI8g7IKs7LaY6riwIOyngOyXsCAoQ29uc3RpdHV0aW9uYWwgRGVsYXkgb2YgR3Jvd3RoIGFuZCBBZG9sZXNjZW5jZSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

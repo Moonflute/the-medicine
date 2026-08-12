@@ -14,6 +14,9 @@ related_diseases:
   - "cirrhosis"
   - "spontaneous bacterial peritonitis prophylaxis"
   - "intravenous ceftriaxone"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDrsJzshLEg7IS46regIOuzteunieyXvCAoU3BvbnRhbmVvdXMgQmFjdGVyaWFsIFBlcml0b25pdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: C

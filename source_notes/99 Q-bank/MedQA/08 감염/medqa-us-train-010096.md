@@ -13,6 +13,8 @@ related_diseases:
   - "결핵 선별"
   - "잠복결핵"
   - "퀀티페론"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yeoOuztSDqsrDtlbUgKOyEseyduCkgKExhdGVudCBUdWJlcmN1bG9zaXMgKEFkdWx0KSkubWQ
 question_type: prevention
 difficulty: complex
 answer: D

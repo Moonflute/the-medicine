@@ -14,6 +14,8 @@ related_diseases:
   - "소아 변비"
   - "폴리에틸렌글리콜"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67OA67mEIChDb25zdGlwYXRpb24pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "식품 단백질 유발 알레르기성 직결장염"
   - "모유 수유"
   - "우유 단백질 알레르기"
+  - "Cow milk protein allergy"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

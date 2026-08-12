@@ -14,6 +14,7 @@ related_diseases:
   - "highly emetogenic chemotherapy"
   - "aprepitant"
   - "5-HT3 antagonist"
+related_disease_slugs: []
 question_type: prevention
 difficulty: complex
 answer: B

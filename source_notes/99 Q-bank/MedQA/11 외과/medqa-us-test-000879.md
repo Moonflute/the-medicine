@@ -13,6 +13,7 @@ related_diseases:
   - "절단 손가락"
   - "사지 재접합"
   - "조직 보존"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: C

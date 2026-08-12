@@ -13,6 +13,9 @@ related_diseases:
   - "iron deficiency anemia"
   - "microcytic anemia"
   - "iron replacement"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yyoCDqsrDtlY0g67mI7ZiIIChJcm9uIERlZmljaWVuY3kgQW5lbWlhKS5tZA
+  - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: A

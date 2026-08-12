@@ -13,6 +13,8 @@ related_diseases:
   - "안정형 협심증"
   - "고정성 관상동맥 협착"
   - "관상동맥 죽상경화"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

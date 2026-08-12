@@ -14,6 +14,7 @@ related_diseases:
   - "모체 에스트로겐"
   - "몽고메리 반점"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

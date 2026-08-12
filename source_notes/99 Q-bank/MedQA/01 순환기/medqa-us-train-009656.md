@@ -13,6 +13,8 @@ related_diseases:
   - "thiazide diuretic"
   - "티아지드 이뇨제"
   - "hyperuricemia"
+  - "Hyperuricemia"
+related_disease_slugs: []
 question_type: management
 difficulty: simple
 answer: A

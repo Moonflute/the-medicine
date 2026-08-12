@@ -14,7 +14,9 @@ related_diseases:
   - "족하수"
   - "비골신경 압박"
   - "발 내번 보존"
+  - "deep peroneal nerve palsy"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

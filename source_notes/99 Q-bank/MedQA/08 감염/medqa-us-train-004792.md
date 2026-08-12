@@ -13,6 +13,7 @@ related_diseases:
   - "노로바이러스 감염"
   - "급성 바이러스성 위장염"
   - "유람선 설사"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: D

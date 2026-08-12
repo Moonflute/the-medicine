@@ -14,6 +14,8 @@ related_diseases:
   - "testicular cancer"
   - "metastatic seminoma"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-qzoO2ZmCDsooXslpEgKFRlc3RpY3VsYXIgY2FuY2VyKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

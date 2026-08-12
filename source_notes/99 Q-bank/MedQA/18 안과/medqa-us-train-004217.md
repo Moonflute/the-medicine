@@ -13,7 +13,10 @@ related_diseases:
   - "안검염"
   - "눈꺼풀 위생"
   - "마이봄샘 기능장애"
+  - "Blepharitis"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTgg7JWI6rO8L-uIiOq6vO2SgO2FjOyXvCAobWFyZ2luYWwgYmxlcGhhcml0aXMpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

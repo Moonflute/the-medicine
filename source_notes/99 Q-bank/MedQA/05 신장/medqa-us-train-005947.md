@@ -13,6 +13,8 @@ related_diseases:
   - "상염색체 우성 다낭성 신장질환"
   - "가족 선별검사"
   - "신장 초음파"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-uLpOuCreyEsSDsvantjKUg7KeI7ZmYIChQb2x5Y3lzdGljIEtpZG5leSBEaXNlYXNlKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

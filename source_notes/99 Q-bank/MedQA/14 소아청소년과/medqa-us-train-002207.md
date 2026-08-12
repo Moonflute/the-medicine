@@ -14,6 +14,9 @@ related_diseases:
   - "breech presentation"
   - "hip ultrasound"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cc64us7ISxIOqzoOq0gOygiCDsnbTtmJXshLHspp0gKERldmVsb3BtZW50YWwgRHlzcGxhc2lhIG9mIHRoZSBIaXApLm1k
+  - MTIg7IKw6rO8L-uRlOychCAoQnJlZWNoIFByZXNlbnRhdGlvbikubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

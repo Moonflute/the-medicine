@@ -15,6 +15,8 @@ related_diseases:
   - "broad-spectrum intravenous antibiotics"
   - "suction curettage"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-u2iOyZhOyghCDsnKDsgrAgKEluY29tcGxldGUgQWJvcnRpb24pLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

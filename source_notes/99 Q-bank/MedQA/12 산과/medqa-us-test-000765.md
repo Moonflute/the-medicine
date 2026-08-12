@@ -13,6 +13,7 @@ related_diseases:
   - "EMTALA"
   - "응급 산과 이송"
   - "환자 자기결정권"
+related_disease_slugs: []
 question_type: ethics
 difficulty: complex
 answer: C

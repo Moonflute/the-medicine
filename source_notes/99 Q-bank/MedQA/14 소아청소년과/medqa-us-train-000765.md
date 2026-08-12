@@ -13,6 +13,8 @@ related_diseases:
   - "streptococcal pharyngitis"
   - "penicillin allergy"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yCrOyKrOyVjOq3oCDsnbjrkZDsl7wgKFN0cmVwdG9jb2NjYWwgUGhhcnluZ2l0aXMpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

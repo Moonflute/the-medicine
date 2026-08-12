@@ -14,6 +14,9 @@ related_diseases:
   - "낭성섬유증"
   - "장폐색"
 question_type: investigation
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snqXtj5Dsg4kubWQ
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

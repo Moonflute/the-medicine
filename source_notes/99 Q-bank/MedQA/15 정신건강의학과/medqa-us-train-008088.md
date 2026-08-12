@@ -13,7 +13,9 @@ related_diseases:
   - "stimulant use disorder"
   - "cocaine intoxication"
   - "psychotherapy"
+  - "Cocaine use disorder"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

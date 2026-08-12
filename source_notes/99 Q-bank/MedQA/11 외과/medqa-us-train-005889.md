@@ -13,6 +13,7 @@ related_diseases:
   - "당뇨병성 족부궤양"
   - "신경병성 궤양"
   - "변연절제"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: C

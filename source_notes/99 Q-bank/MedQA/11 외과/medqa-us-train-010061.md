@@ -13,6 +13,8 @@ related_diseases:
   - "관통성 복부 손상"
   - "자상"
   - "탐색적 개복술"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-q0gO2GteyDgSDrs7XrtoDsmbjsg4EgKFBlbmV0cmF0aW5nIEFiZG9taW5hbCBJbmp1cnkpLm1k
 question_type: management
 difficulty: complex
 answer: C

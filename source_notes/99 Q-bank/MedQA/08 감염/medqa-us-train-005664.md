@@ -13,6 +13,8 @@ related_diseases:
   - "감염성 심내막염"
   - "Streptococcus pyogenes"
   - "면역복합체 사구체신염"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

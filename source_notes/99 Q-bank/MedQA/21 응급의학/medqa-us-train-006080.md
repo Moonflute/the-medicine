@@ -14,6 +14,8 @@ related_diseases:
   - "상황성 실신"
   - "대동맥판 협착"
 question_type: diagnosis
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

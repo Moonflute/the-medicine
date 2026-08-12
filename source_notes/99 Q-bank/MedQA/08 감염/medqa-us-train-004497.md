@@ -13,6 +13,8 @@ related_diseases:
   - "C형 간염"
   - "정맥주사 약물 사용"
   - "만성 바이러스 간염"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: investigation
 difficulty: simple
 answer: B

@@ -18,6 +18,13 @@ related_diseases:
   - "glossopharyngeal neuralgia"
   - "trigeminal neuralgia"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uFuOuFhOq4sCDsmrDsmrjspp0gKEdlcmlhdHJpYyBEZXByZXNzaW9uKS5tZA
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjrjrkZDthrUgKE1pZ3JhaW5lKS5tZA
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qtbDrsJzrkZDthrUgKENsdXN0ZXIgaGVhZGFjaGUpLm1k
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sgrzssKjsi6Dqsr3thrUgKFRyaWdlbWluYWwgbmV1cmFsZ2lhKS5tZA
+  - MTcg7J2067mE7J247ZuE6rO8L-unjOyEse2ZlOuGjeyEseykkeydtOyXvCAoQ2hyb25pYyBzdXBwdXJhdGl2ZSBvdGl0aXMgbWVkaWEpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

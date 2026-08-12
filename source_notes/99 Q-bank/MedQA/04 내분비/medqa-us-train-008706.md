@@ -13,6 +13,9 @@ related_diseases:
   - "diabetic ketoacidosis"
   - "hyperkalemia"
   - "transcellular potassium shift"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: C

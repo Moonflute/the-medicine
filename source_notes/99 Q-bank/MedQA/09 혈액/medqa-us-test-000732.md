@@ -13,6 +13,8 @@ related_diseases:
   - "급성 림프모구성 백혈병"
   - "t(9;22)"
   - "불량 예후"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChBTEwpIChBY3V0ZSBMeW1waG9ibGFzdGljIExldWtlbWlhKS5tZA
 question_type: prognosis
 difficulty: complex
 answer: B

@@ -13,7 +13,9 @@ related_diseases:
   - "postpartum blues"
   - "postpartum depression differential"
   - "postpartum anxiety"
+  - "Postpartum blues"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

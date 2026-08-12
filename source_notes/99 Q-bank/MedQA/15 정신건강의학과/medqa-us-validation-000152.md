@@ -14,6 +14,8 @@ related_diseases:
   - "과호흡"
   - "알프라졸람"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-qzvO2YuO2doSAoSHlwZXJ2ZW50aWxhdGlvbikubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

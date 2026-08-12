@@ -13,6 +13,8 @@ related_diseases:
   - "총담관결석증"
   - "폐쇄성 황달"
   - "담석증"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

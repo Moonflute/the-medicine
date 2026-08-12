@@ -14,6 +14,8 @@ related_diseases:
   - "당뇨병"
   - "가성균사"
 question_type: etiology
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

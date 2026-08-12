@@ -14,6 +14,9 @@ related_diseases:
   - "infected ureteropelvic junction stone"
   - "septic shock"
   - "percutaneous nephrostomy"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2MqO2YiOyEsSDsh7ztgawgKFNlcHRpYyBTaG9jaykubWQ
+  - MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: A

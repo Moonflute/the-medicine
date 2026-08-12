@@ -14,6 +14,8 @@ related_diseases:
   - "금속 알레르기"
   - "구강 수포와 궤양"
 question_type: diagnosis
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sC5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

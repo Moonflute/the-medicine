@@ -14,6 +14,8 @@ related_diseases:
   - "피부사상균 감염"
   - "탈모"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uwseyEoCAoVGluZWEpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

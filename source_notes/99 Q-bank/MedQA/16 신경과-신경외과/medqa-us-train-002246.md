@@ -15,6 +15,9 @@ related_diseases:
   - "breast cancer metastasis"
   - "spinal MRI"
 question_type: investigation
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

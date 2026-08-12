@@ -14,6 +14,8 @@ related_diseases:
   - "estrogen-secreting ovarian tumor"
   - "endometrial hyperplasia"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4kg7Kad7Iud7KadIChFbmRvbWV0cmlhbCBIeXBlcnBsYXNpYSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

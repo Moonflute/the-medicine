@@ -13,6 +13,9 @@ related_diseases:
   - "심근경색 후 좌심실 자유벽 파열"
   - "심장압전"
   - "ST분절 상승 심근경색"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL1NU67aE7KCIIOyDgeyKuSDsi6zqt7zqsr3sg4nspp0gKFNURU1JKSAoU1QtRWxldmF0aW9uIE15b2NhcmRpYWwgSW5mYXJjdGlvbikubWQ
+  - MDEg7Iic7ZmY6riwLyjquInsgqzspp3tm4TqtbApLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

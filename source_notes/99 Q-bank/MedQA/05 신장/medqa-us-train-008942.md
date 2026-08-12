@@ -13,6 +13,8 @@ related_diseases:
   - "poststreptococcal glomerulonephritis"
   - "subepithelial immune complex deposition"
   - "nephritic syndrome"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yXsOyHhOyDgeq1rOq3oCDqsJDsl7wg7ZuEIOyCrOq1rOyytOyLoOyXvCAoUFNHTikgKFBvc3QtU3RyZXB0b2NvY2NhbCBHbG9tZXJ1bG9uZXBocml0aXMpLm1k
 question_type: mechanism
 difficulty: complex
 answer: A

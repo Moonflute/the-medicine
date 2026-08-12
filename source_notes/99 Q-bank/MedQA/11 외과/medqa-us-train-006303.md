@@ -13,6 +13,8 @@ related_diseases:
   - "복부 장기 천공"
   - "급성 복막염"
   - "복강 내 자유 공기"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-q4ieyEsSDrs7Xspp0gKEFjdXRlIEFiZG9tZW4pLm1k
 question_type: investigation
 difficulty: complex
 answer: A

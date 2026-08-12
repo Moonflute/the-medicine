@@ -13,6 +13,8 @@ related_diseases:
   - "철적아구성 빈혈"
   - "파펜하이머 소체"
   - "환상 철적아구"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yyoCDqsrDtlY0g67mI7ZiIIChJcm9uIERlZmljaWVuY3kgQW5lbWlhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

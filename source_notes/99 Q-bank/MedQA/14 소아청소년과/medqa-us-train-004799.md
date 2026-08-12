@@ -14,6 +14,8 @@ related_diseases:
   - "성장호르몬 결핍"
   - "잠복고환과 소아 비만"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ZSE6528642ULeycjOumrCDspp3tm4TqtbAgKFByYWRlci1XaWxsaSBTeW5kcm9tZSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

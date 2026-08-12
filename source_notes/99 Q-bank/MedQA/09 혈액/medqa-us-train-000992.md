@@ -15,6 +15,10 @@ related_diseases:
   - "Diffuse large B-cell lymphoma"
   - "Multiple myeloma"
   - "Waldenstrom’s macroglobulinemia"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChDTEwpIChDaHJvbmljIEx5bXBob2N5dGljIExldWtlbWlhKS5tZA
+  - MDkg7ZiI7JWhL-uyhO2CtyDsnKDsgqwg66-466eM7ISxIOqxsOuMgCBC7IS47Y-sIOumvO2UhOyihSAoQnVya2l0dC1saWtlIERpZmZ1c2UgTGFyZ2UgQi1jZWxsIEx5bXBob21hKS5tZA
+  - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

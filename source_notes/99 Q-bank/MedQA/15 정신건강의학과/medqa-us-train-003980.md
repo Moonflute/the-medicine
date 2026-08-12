@@ -15,6 +15,8 @@ related_diseases:
   - "근육 경직"
   - "크레아틴키나아제 상승"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveydtOyZhOygnCDslYXshLEg7Kad7ZuE6rWwIChOZXVyb2xlcHRpYyBNYWxpZ25hbnQgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

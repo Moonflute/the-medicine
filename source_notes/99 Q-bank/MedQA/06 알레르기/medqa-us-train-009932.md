@@ -13,6 +13,9 @@ related_diseases:
   - "인플루엔자 예방접종"
   - "달걀 알레르기"
   - "백신 알레르기"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sC5tZA
+  - MDgg6rCQ7Je8L-yduO2UjOujqOyXlOyekCAoSW5mbHVlbnphKS5tZA
 question_type: prevention
 difficulty: simple
 answer: A

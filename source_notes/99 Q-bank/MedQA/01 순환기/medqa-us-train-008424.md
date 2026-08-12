@@ -13,6 +13,7 @@ related_diseases:
   - "chronic venous insufficiency"
   - "venous stasis dermatitis"
   - "venous valve incompetence"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: B

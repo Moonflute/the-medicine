@@ -14,6 +14,8 @@ related_diseases:
   - "임신 중 칸디다 질염"
   - "클로트리마졸"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-y5uOuUlOuLpCAoVnVsdm92YWdpbmFsIENhbmRpZGlhc2lzKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,7 @@ related_diseases:
   - "hip arthroplasty complication"
   - "femoral neuropathy"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

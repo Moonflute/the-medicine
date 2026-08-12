@@ -13,6 +13,8 @@ related_diseases:
   - "면역성 혈소판감소성 자반증"
   - "소아 ITP"
   - "바이러스 감염 후 혈소판감소증"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2KueuwnOyEsSDtmIjshoztjJDqsJDshozshLEg7J6Q67CY7KadIChJZGlvcGF0aGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgSVRQKS5tZA
 question_type: management
 difficulty: complex
 answer: D

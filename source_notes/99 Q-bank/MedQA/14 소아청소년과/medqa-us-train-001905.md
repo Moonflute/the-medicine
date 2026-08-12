@@ -14,6 +14,7 @@ related_diseases:
   - "urinary retention"
   - "neonatal urinary obstruction"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "콕사키바이러스 A"
   - "수족구병"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IiY7KGx6rWs67ORIChIYW5kLUZvb3QtTW91dGggRGlzZWFzZSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

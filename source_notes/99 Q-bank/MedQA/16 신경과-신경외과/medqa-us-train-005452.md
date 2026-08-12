@@ -14,6 +14,7 @@ related_diseases:
   - "뇌출혈 배제"
   - "비조영 두부 CT"
 question_type: investigation
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

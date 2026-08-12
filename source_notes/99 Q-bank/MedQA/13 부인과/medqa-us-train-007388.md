@@ -15,6 +15,8 @@ related_diseases:
   - "수술부위 감염"
   - "발열"
 question_type: diagnosis
+related_disease_slugs:
+  - MTEg7Jm46rO8L-ywveyDgSDqsJDsl7wgKFdvdW5kIEluZmVjdGlvbikubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

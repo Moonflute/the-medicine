@@ -14,6 +14,7 @@ related_diseases:
   - "청력 평가"
   - "소아 언어장애"
 question_type: investigation
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

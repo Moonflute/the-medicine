@@ -12,7 +12,9 @@ specialty: 22 정형외과
 related_diseases:
   - "lunate dislocation"
   - "median nerve compression"
+  - "Lunate dislocation"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -11,6 +11,7 @@ language: ko
 specialty: 11 외과
 related_diseases:
   - "urinary retention"
+related_disease_slugs: []
 question_type: management
 difficulty: simple
 answer: D

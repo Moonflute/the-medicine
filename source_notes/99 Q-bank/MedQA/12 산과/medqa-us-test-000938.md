@@ -13,6 +13,9 @@ related_diseases:
   - "임신성 급성 지방간"
   - "HELLP 증후군"
   - "재발 위험"
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEsSDquInshLEg7KeA67Cp6rCEIChBY3V0ZSBGYXR0eSBMaXZlciBvZiBQcmVnbmFuY3kpLm1k
+  - MTIg7IKw6rO8L0hFTExQIOymne2bhOq1sCAoSEVMTFAgU3luZHJvbWUpLm1k
 question_type: prognosis
 difficulty: complex
 answer: C

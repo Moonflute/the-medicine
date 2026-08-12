@@ -14,6 +14,8 @@ related_diseases:
   - "hand puncture wound"
   - "amoxicillin-clavulanate"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uPmeusvCDrrLzrprwgKEFuaW1hbCBCaXRlKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "bilateral renal enlargement"
   - "mitral valve prolapse"
   - "intracranial aneurysm risk"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-uLpOuCreyEsSDsvantjKUg7KeI7ZmYIChQb2x5Y3lzdGljIEtpZG5leSBEaXNlYXNlKS5tZA
+  - MDEg7Iic7ZmY6riwL-yKueuqqO2MkOuniSDsnbztg4jspp0gKE1pdHJhbCBWYWx2ZSBQcm9sYXBzZSkubWQ
 question_type: risk_factor
 difficulty: complex
 answer: C

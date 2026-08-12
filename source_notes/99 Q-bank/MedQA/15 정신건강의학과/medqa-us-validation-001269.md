@@ -13,7 +13,9 @@ related_diseases:
   - "편집성 성격장애"
   - "피해망상"
   - "치료적 의사소통"
+  - "Paranoid personality disorder"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

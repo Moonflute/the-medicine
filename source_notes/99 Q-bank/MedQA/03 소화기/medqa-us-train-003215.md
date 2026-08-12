@@ -14,6 +14,8 @@ related_diseases:
   - "mesenteric artery embolism"
   - "pain out of proportion"
   - "CT angiography"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_quInshLEg7J6l6rCE66eJIO2XiO2YiCAoQWN1dGUgTWVzZW50ZXJpYyBJc2NoZW1pYSkubWQ
 question_type: investigation
 difficulty: complex
 answer: C

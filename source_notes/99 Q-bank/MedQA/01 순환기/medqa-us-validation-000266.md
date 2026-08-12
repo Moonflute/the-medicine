@@ -13,6 +13,8 @@ related_diseases:
   - "대동맥판막 협착증"
   - "수축기 잡음"
   - "쪼그려 앉기"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: A

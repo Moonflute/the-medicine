@@ -13,6 +13,8 @@ related_diseases:
   - "torsades de pointes"
   - "QT prolongation"
   - "clarithromycin toxicity"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uLpO2YleyEsSDsi6zsi6Qg67mI66elIChUZFApIChUb3JzYWRlcyBkZSBQb2ludGVzIChUZFApLm1k
 question_type: mechanism
 difficulty: simple
 answer: C

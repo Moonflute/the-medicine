@@ -13,6 +13,8 @@ related_diseases:
   - "섬유근육통"
   - "만성 광범위 통증"
   - "아미트립틸린"
+  - "Fibromyalgia"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: C

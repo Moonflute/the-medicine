@@ -13,6 +13,8 @@ related_diseases:
   - "골수이형성증후군"
   - "고리철적아구"
   - "이형성 조혈"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qzqOyImO2YleyEseydtOyDgSDspp3tm4TqtbAgKE15ZWxvZHlzcGxhc3RpYyBTeW5kcm9tZSwgTURTKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

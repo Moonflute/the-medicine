@@ -14,6 +14,8 @@ related_diseases:
   - "대상포진 예방접종"
   - "adult immunization"
 question_type: prevention
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uMgOyDgSDtj6zsp4QgKEhlcnBlcyBab3N0ZXIpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

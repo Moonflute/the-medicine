@@ -13,6 +13,8 @@ related_diseases:
   - "곤봉지"
   - "만성 간질성 폐질환"
   - "거대핵세포 포획"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-qwhOyniOyEsSDtj5Dsp4jtmZggKEludGVyc3RpdGlhbCBsdW5nIGRpc2Vhc2UpLm1k
 question_type: mechanism
 difficulty: complex
 answer: C

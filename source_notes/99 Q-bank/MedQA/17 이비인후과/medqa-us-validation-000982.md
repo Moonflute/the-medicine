@@ -14,6 +14,8 @@ related_diseases:
   - "녹농균"
   - "수영자 귀"
 question_type: diagnosis
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uFueuGjeq3oCAoUHNldWRvbW9uYXMgQWVydWdpbm9zYSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

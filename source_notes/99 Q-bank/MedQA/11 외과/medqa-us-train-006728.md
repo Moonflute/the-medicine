@@ -13,6 +13,7 @@ related_diseases:
   - "수술 후 출혈"
   - "기계적 지혈 불충분"
   - "정상 응고검사"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

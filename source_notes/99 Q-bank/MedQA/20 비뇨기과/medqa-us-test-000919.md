@@ -14,6 +14,8 @@ related_diseases:
   - "요폐"
   - "당뇨병성 자율신경병증"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

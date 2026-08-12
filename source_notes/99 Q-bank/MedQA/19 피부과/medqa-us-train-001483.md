@@ -13,7 +13,9 @@ related_diseases:
   - "pemphigus vulgaris"
   - "Nikolsky sign"
   - "mucosal blistering"
+  - "Pemphigus vulgaris"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

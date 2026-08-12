@@ -13,7 +13,10 @@ related_diseases:
   - "성인 예방접종"
   - "Tdap"
   - "백일해 예방"
+  - "Pertussis"
 question_type: prevention
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cx7J287ZW0IChQZXJ0dXNzaXMpLm1k
 difficulty: simple
 answer: B
 translation_status: machine-verified

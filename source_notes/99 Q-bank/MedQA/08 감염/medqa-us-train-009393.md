@@ -13,6 +13,8 @@ related_diseases:
   - "pulmonary tuberculosis"
   - "폐결핵"
   - "tuberculous pleural effusion"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOqysO2VtSAoUHVsbW9uYXJ5IFR1YmVyY3Vsb3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

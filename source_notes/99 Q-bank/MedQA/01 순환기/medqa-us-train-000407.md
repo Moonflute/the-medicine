@@ -11,6 +11,8 @@ language: ko
 specialty: 01 순환기
 related_diseases:
   - "pulmonary hypertension"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOqzoO2YiOyVlSAoUHVsbW9uYXJ5IEh5cGVydGVuc2lvbikubWQ
 question_type: diagnosis
 difficulty: standard
 answer: D

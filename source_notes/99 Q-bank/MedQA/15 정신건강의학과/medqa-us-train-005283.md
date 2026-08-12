@@ -13,7 +13,9 @@ related_diseases:
   - "급성 스트레스 반응"
   - "애도"
   - "자살사고 평가"
+  - "Acute stress reaction"
 question_type: ethics
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

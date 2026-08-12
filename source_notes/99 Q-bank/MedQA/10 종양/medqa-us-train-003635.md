@@ -14,6 +14,8 @@ related_diseases:
   - "anorexia"
   - "involuntary weight loss"
   - "megestrol acetate"
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEseyLneyaleu2gOynhOymnSAoQW5vcmV4aWEgTmVydm9zYSkubWQ
 question_type: management
 difficulty: complex
 answer: B

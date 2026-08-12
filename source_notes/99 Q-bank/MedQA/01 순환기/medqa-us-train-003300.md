@@ -14,6 +14,9 @@ related_diseases:
   - "postoperative chest pain"
   - "troponin testing"
   - "coronary artery disease"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: investigation
 difficulty: complex
 answer: A

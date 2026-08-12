@@ -14,6 +14,8 @@ related_diseases:
   - "임신 2분기 질출혈"
   - "닫힌 자궁경부"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-ygiOuwlSDsnKDsgrAgKFRocmVhdGVuZWQgQWJvcnRpb24pLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

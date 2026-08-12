@@ -14,6 +14,8 @@ related_diseases:
   - "magnesium sulfate"
   - "delivery"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOqwhOymnSAoRWNsYW1wc2lhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

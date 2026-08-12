@@ -13,6 +13,8 @@ related_diseases:
   - "말라리아"
   - "열대열 말라리아"
   - "여행자 감염"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-unkOudvOumrOyVhCAoTWFsYXJpYSkubWQ
 question_type: investigation
 difficulty: complex
 answer: A

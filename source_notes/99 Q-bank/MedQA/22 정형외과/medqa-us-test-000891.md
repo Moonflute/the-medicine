@@ -14,6 +14,9 @@ related_diseases:
   - "저에너지 골절"
   - "비스포스포네이트"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
+  - MjIg7KCV7ZiV7Jm46rO8L-qzqOygiCDstJ3roaAgKEZyYWN0dXJlIEdlbmVyYWwgUHJpbmNpcGxlcykubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

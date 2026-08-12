@@ -14,6 +14,8 @@ related_diseases:
   - "연하통"
   - "경부 림프절병증"
   - "보호되지 않은 성관계"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uptOyXreyggO2VmOyekCDqsJDsl7wgKEltbXVub2NvbXByb21pc2VkIEhvc3QgSW5mZWN0aW9uKS5tZA
 question_type: investigation
 difficulty: simple
 answer: D

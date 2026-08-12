@@ -13,6 +13,9 @@ related_diseases:
   - "임신 중 갑상샘항진증"
   - "메티마졸"
   - "프로필티오우라실"
+  - "Graves disease"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: standard
 answer: B

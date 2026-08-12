@@ -14,6 +14,9 @@ related_diseases:
   - "intrauterine device"
   - "contraceptive efficacy"
 question_type: prevention
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ydkeq4ie2UvOyehOuylSAoUG9zdGNvaXRhbCBDb250cmFjZXB0aW9uKS5tZA
+  - MTMg67aA7J246rO8L-yekOq2geuCtOyepey5mCAoSW50cmF1dGVyaW5lIERldmljZSkubWQ
 difficulty: simple
 answer: A
 translation_status: machine-verified

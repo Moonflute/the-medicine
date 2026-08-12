@@ -13,6 +13,9 @@ related_diseases:
   - "C형 간염"
   - "간경변"
   - "혈소판감소증"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

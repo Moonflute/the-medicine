@@ -13,6 +13,8 @@ related_diseases:
   - "자가면역 용혈성 빈혈"
   - "용혈"
   - "직접 쿰스 검사"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: investigation
 difficulty: complex
 answer: D

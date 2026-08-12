@@ -12,6 +12,7 @@ specialty: 14 소아청소년과
 related_diseases:
   - "Anemia of prematurity"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

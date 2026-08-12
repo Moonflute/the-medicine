@@ -14,6 +14,7 @@ related_diseases:
   - "대근육운동 지연"
   - "발달 이정표"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

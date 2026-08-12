@@ -13,6 +13,8 @@ related_diseases:
   - "감염성 심내막염"
   - "손발톱밑 선상출혈"
   - "오슬러 결절"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
 question_type: investigation
 difficulty: complex
 answer: C

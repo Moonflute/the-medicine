@@ -14,6 +14,8 @@ related_diseases:
   - "결막충혈"
   - "점막피부 림프절 증후군"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCA7JmA7IKs7YKk67ORIChLYXdhc2FraSBEaXNlYXNlKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

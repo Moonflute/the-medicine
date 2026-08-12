@@ -14,6 +14,8 @@ related_diseases:
   - "hepatocellular injury"
   - "HBsAg"
   - "anti-HBc IgM"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEgQu2YlSDqsITsl7wgKEFjdXRlIEhlcGF0aXRpcyBCKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

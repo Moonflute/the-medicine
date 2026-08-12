@@ -13,6 +13,8 @@ related_diseases:
   - "시스틴뇨증"
   - "시스틴 결석"
   - "육각형 결정"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: D

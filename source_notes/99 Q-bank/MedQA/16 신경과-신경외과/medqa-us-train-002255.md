@@ -14,6 +14,9 @@ related_diseases:
   - "hypertensive emergency"
   - "intravenous labetalol"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zrgrQg7Lac7ZiIIChJbnRyYWNlcmVicmFsIGhlbW9ycmhhZ2UpLm1k
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: simple
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "레리셰 증후군"
   - "대동맥-장골동맥 폐색"
   - "혈관성 발기부전"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpS3sl4nrjanrj5nrp6Ug7Y-Q7IOJIChBb3J0b2lsaWFjIE9jY2x1c2lvbikubWQ
 question_type: mechanism
 difficulty: standard
 answer: B

@@ -13,6 +13,9 @@ related_diseases:
   - "임신 중 유방암"
   - "침윤성 소엽암"
   - "HER2 양성 유방암"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
+  - MTMg67aA7J246rO8L-y5qOycpOyEsSDsnKDrsKnslZQgKEludmFzaXZlIEJyZWFzdCBDYW5jZXIpLm1k
 question_type: management
 difficulty: complex
 answer: B

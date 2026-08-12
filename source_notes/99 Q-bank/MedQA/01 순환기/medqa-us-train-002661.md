@@ -14,6 +14,8 @@ related_diseases:
   - "xanthelasma"
   - "familial hypercholesterolemia"
   - "lipid panel"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwgOyhseyEsSDqs6DsvZzroIjsiqTthYzroaTtmIjspp0gKEZhbWlsaWFsIEh5cGVyY2hvbGVzdGVyb2xlbWlhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

@@ -12,7 +12,9 @@ specialty: 15 정신건강의학과
 related_diseases:
   - "akathisia"
   - "risperidone adverse effect"
+  - "Akathisia"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

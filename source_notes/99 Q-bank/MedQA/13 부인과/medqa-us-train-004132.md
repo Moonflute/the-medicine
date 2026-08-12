@@ -14,6 +14,8 @@ related_diseases:
   - "질 분비물"
   - "배뇨통"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yEuOq3oOyEsSDsp4jsl7wgKEJhY3RlcmlhbCBWYWdpbm9zaXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

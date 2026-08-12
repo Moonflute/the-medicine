@@ -13,7 +13,10 @@ related_diseases:
   - "생식기 헤르페스"
   - "HSV-2"
   - "통증성 외음부 궤양"
+  - "Herpes simplex infection"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uLqOyInO2PrOynhCDqsJDsl7wgKEhlcnBlcyBTaW1wbGV4IEluZmVjdGlvbikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "갑상선암"
   - "유두갑상선암"
   - "뼈 전이"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmOyVlCAoVGh5cm9pZCBDYW5jZXIpLm1k
 question_type: prognosis
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "후천성 폰 빌레브란트 증후군"
   - "대동맥판막 협착"
   - "장출혈"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

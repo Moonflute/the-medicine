@@ -15,6 +15,8 @@ related_diseases:
   - "clozapine"
   - "agranulocytosis"
 question_type: adverse_effect
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

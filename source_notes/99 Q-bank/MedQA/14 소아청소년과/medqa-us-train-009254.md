@@ -14,6 +14,8 @@ related_diseases:
   - "장중첩증"
   - "currant jelly stool"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7J6l7KSR7LKp7KadIChJbnR1c3N1c2NlcHRpb24pLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

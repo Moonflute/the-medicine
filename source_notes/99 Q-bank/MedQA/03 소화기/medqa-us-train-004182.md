@@ -13,6 +13,9 @@ related_diseases:
   - "식도열공탈장"
   - "난치성 위식도역류질환"
   - "역류성 식도염"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sl7Tqs7Ug7YOI7J6lIChIaWF0YWwgSGVybmlhKS5tZA
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsi53rj4Qg7Jet66WYIOyniO2ZmCAoR0VSRCkgKEdhc3Ryb2Vzb3BoYWdlYWwgUmVmbHV4IERpc2Vhc2UpLm1k
 question_type: 임상증례 객관식
 difficulty: complex
 answer: C

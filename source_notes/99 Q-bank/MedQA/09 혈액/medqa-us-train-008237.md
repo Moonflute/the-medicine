@@ -13,6 +13,8 @@ related_diseases:
   - "acute leukemia"
   - "pancytopenia"
   - "bone marrow biopsy"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDrsLHtmIjrs5EgKEFjdXRlIExldWtlbWlhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

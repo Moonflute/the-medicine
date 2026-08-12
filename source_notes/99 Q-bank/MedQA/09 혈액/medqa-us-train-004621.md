@@ -13,6 +13,9 @@ related_diseases:
   - "유전구형적혈구증"
   - "적혈구 막 단백질 결함"
   - "용혈성 빈혈"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ycoOyghCDqtaztmIjsoIHtmIjqtazspp0gKEhlcmVkaXRhcnkgU3BoZXJvY3l0b3NpcykubWQ
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: investigation
 difficulty: complex
 answer: B

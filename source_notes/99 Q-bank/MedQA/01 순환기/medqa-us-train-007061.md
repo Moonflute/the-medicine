@@ -13,6 +13,9 @@ related_diseases:
   - "승모판 탈출증"
   - "중수축기 클릭"
   - "수축기 후기 잡음"
+  - "Mitral valve prolapse"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yKueuqqO2MkOuniSDsnbztg4jspp0gKE1pdHJhbCBWYWx2ZSBQcm9sYXBzZSkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: C

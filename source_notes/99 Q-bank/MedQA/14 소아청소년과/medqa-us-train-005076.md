@@ -13,7 +13,10 @@ related_diseases:
   - "세기관지염"
   - "호흡곤란"
   - "지지요법"
+  - "Bronchiolitis"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riJ7ISxIOyEuOq4sOq0gOyngOyXvCAoQWN1dGUgQnJvbmNoaW9saXRpcykubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

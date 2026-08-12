@@ -14,6 +14,8 @@ related_diseases:
   - "septal perforation"
   - "nasal fracture"
 question_type: prevention
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQg7LKc6rO1IChQZXJmb3JhdGlvbikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

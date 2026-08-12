@@ -14,6 +14,9 @@ related_diseases:
   - "Ankylosing spondylitis"
   - "Systemic lupus erythematosus"
   - "Secondary syphilis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwleyngeyEsSDsspnstpTsl7wgKEFua3lsb3NpbmcgU3BvbmR5bGl0aXMpLm1k
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDtmY3rsJgg66Oo7ZG47IqkIChTeXN0ZW1pYyBMdXB1cyBFcnl0aGVtYXRvc3VzKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: D

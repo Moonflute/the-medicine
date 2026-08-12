@@ -13,6 +13,8 @@ related_diseases:
   - "benign paroxysmal positional vertigo"
   - "vertigo"
 question_type: diagnosis
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-ydtOyEneymnSAoQmVuaWduIHBhcm94eXNtYWwgcG9zaXRpb25hbCB2ZXJ0aWdvKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

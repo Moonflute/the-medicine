@@ -13,7 +13,10 @@ related_diseases:
   - "척수성 근위축증"
   - "전각세포 변성"
   - "영아 근력저하"
+  - "spinal muscular atrophy"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKZ7IiYIOq3vOycoSDsnITstpXspp0gKFNwaW5hbCBNdXNjdWxhciBBdHJvcGh5KS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

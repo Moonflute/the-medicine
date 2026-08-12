@@ -13,7 +13,9 @@ related_diseases:
   - "기도 이물 흡인"
   - "소아 기관지 이물"
   - "기관지경검사"
+  - "Airway foreign body"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

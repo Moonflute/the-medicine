@@ -15,6 +15,8 @@ related_diseases:
   - "3Hz 극파-서파 복합체"
   - "에토숙시미드"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM67Cc7J6RIChBYnNlbmNlIFNlaXp1cmUpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

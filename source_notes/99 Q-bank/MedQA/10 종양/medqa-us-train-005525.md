@@ -13,6 +13,8 @@ related_diseases:
   - "전립선암 골전이"
   - "척추 전이성 병변"
   - "완화적 방사선치료"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 question_type: management
 difficulty: standard
 answer: D

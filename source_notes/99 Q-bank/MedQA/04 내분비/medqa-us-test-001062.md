@@ -13,6 +13,8 @@ related_diseases:
   - "갑상선 폭풍"
   - "갑상선기능항진증"
   - "프로프라놀롤"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
 question_type: management
 difficulty: complex
 answer: D

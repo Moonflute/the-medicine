@@ -14,6 +14,9 @@ related_diseases:
   - "그레이브스병"
   - "프로필티오우라실"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
+  - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

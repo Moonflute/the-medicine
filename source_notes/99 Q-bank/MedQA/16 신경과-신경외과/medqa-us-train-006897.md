@@ -14,6 +14,7 @@ related_diseases:
   - "대사성 산증"
   - "일시적 산-염기 이상"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

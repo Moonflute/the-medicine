@@ -13,6 +13,8 @@ related_diseases:
   - "type 1 autoimmune hepatitis"
   - "제1형 자가면역 간염"
   - "anti-smooth muscle antibody"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDqsIDrqbTsl60g6rCE7Je8IChBdXRvaW1tdW5lIEhlcGF0aXRpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: D

@@ -13,6 +13,8 @@ related_diseases:
   - "당뇨병성 위마비"
   - "위 배출 지연"
   - "메토클로프라미드"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: management
 difficulty: simple
 answer: B

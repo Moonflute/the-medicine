@@ -13,6 +13,10 @@ related_diseases:
   - "종양융해증후군"
   - "급성신손상"
   - "고칼륨혈증"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
+  - MTAg7KKF7JaRL-yiheyWkeuCtOqzvC5tZA
 question_type: management
 difficulty: complex
 answer: A

@@ -15,6 +15,8 @@ related_diseases:
   - "항응고 치료"
   - "혈역학적 안정"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

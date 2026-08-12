@@ -11,6 +11,8 @@ language: ko
 specialty: 10 종양
 related_diseases:
   - "infiltrating ductal carcinoma"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: complex
 answer: A

@@ -13,6 +13,9 @@ related_diseases:
   - "IgA 신병증"
   - "재발성 육안적 혈뇨"
   - "메산지움 IgA 침착"
+  - "IgA nephropathy"
+related_disease_slugs:
+  - MDUg7Iug7J6lL0lnQSDsvantjKXrs5Hspp0gKElnQU4pIChJZ0EgTmVwaHJvcGF0aHkpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

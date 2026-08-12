@@ -13,6 +13,9 @@ related_diseases:
   - "두개인두종"
   - "안장위 종괴"
   - "중추성 갑상샘기능저하증"
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDqsJzsnbjrkZDsooUgKENyYW5pb3BoYXJ5bmdpb21hKS5tZA
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

@@ -14,6 +14,8 @@ related_diseases:
   - "microcephaly"
   - "Zika virus"
 question_type: prevention
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yngOy5tOuwlOydtOufrOyKpCDqsJDsl7wgKFppa2EgVmlydXMgSW5mZWN0aW9uKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "표적세포"
   - "경미한 소구성 빈혈"
   - "안심"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yngOykke2VtCDruYjtmIggKFRoYWxhc3NlbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: C

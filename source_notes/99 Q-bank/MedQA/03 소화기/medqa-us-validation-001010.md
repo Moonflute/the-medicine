@@ -13,6 +13,8 @@ related_diseases:
   - "대량 하부위장관 출혈"
   - "혈관조영술"
   - "혈역학적 불안정"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tlZjrtoAg7JyE7J6l6rSAIOy2nO2YiCAoTG93ZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ
 question_type: management
 difficulty: complex
 answer: A

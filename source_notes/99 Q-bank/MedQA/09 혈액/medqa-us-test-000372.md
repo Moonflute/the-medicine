@@ -13,6 +13,7 @@ related_diseases:
   - "털세포백혈병"
   - "범혈구감소증"
   - "비장비대"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "제한기 소세포폐암"
   - "동시 항암방사선요법"
   - "에토포시드"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: C

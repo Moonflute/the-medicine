@@ -14,6 +14,8 @@ related_diseases:
   - "황달"
   - "간 초음파"
   - "담도 폐색"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7Trj4Tqs4Qg7KeI7ZmYLm1k
 question_type: investigation
 difficulty: complex
 answer: D

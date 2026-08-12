@@ -13,7 +13,10 @@ related_diseases:
   - "고전적 열사병"
   - "체온조절 장애"
   - "시상하부 반응 저하"
+  - "Heat stroke"
 question_type: mechanism
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yXtOyniO2ZmCAoSGVhdCBJbGxuZXNzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

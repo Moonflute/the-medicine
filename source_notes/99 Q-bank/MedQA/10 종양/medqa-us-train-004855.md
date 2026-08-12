@@ -13,6 +13,8 @@ related_diseases:
   - "췌장암"
   - "나쁜 소식 전달"
   - "SPIKES 의사소통"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA
 question_type: communication
 difficulty: complex
 answer: A

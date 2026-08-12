@@ -14,6 +14,8 @@ related_diseases:
   - "유방 울혈"
   - "lactation management"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yCsOyaleq4sCDsnKDrsKkg7Jq47ZiIIChQdWVycGVyYWwgQnJlYXN0IEVuZ29yZ2VtZW50KS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

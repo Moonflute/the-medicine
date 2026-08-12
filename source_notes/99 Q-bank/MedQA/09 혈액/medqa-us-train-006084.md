@@ -13,6 +13,9 @@ related_diseases:
   - "다발골수종"
   - "병적 압박골절"
   - "파미드로네이트"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
+  - MjIg7KCV7ZiV7Jm46rO8L-qzqOuLpOqzteymneyEsSDsspnstpQg6rOo7KCIIChPc3Rlb3Bvcm90aWMgU3BpbmFsIEZyYWN0dXJlKS5tZA
 question_type: prevention
 difficulty: complex
 answer: C

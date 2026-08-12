@@ -13,6 +13,7 @@ related_diseases:
   - "Horner syndrome"
   - "Pancoast tumor"
   - "ptosis miosis anhidrosis"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: B

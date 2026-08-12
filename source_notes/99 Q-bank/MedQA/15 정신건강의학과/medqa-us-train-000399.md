@@ -12,7 +12,9 @@ specialty: 15 정신건강의학과
 related_diseases:
   - "psychotic illness"
   - "akathisia"
+  - "Akathisia"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

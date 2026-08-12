@@ -14,6 +14,7 @@ related_diseases:
   - "족부백선"
   - "피부 세균감염"
 question_type: risk_factor
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

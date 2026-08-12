@@ -13,6 +13,8 @@ related_diseases:
   - "hepatic adenoma rupture"
   - "hemoperitoneum"
   - "oral contraceptive use"
+  - "Hepatic adenoma"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: B

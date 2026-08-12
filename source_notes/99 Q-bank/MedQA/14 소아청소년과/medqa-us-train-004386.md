@@ -14,6 +14,7 @@ related_diseases:
   - "클라미디아 폐렴"
   - "Chlamydia trachomatis"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

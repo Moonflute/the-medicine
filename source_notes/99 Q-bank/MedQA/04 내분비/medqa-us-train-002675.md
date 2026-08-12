@@ -14,6 +14,8 @@ related_diseases:
   - "adrenal medulla"
   - "chromaffin cells"
   - "catecholamine excess"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2BrOuhrOy5nO2ZlOyEuO2PrOyihSAoUGhlb2Nocm9tb2N5dG9tYSkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: C

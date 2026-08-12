@@ -13,6 +13,8 @@ related_diseases:
   - "호중구감소성 발열"
   - "급성 골수성 백혈병"
   - "광범위 항녹농균 항생제"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: C

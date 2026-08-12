@@ -15,6 +15,7 @@ related_diseases:
   - "DTaP vaccine"
   - "routine infant immunization"
 question_type: prevention
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

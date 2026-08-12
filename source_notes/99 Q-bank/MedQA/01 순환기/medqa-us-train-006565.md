@@ -13,6 +13,9 @@ related_diseases:
   - "중증 대동맥판막협착증"
   - "울혈성 심부전"
   - "증상성 판막질환"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: prognosis
 difficulty: complex
 answer: C

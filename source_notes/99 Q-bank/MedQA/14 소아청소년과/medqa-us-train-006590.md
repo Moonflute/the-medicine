@@ -14,6 +14,9 @@ related_diseases:
   - "베크위드-비데만 증후군"
   - "거대아"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-qxsOuMgOyVhCAoTWFjcm9zb21pYSkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOyggO2YiOuLueymnSAoTmVvbmF0YWwgSHlwb2dseWNlbWlhKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

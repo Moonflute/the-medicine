@@ -14,6 +14,8 @@ related_diseases:
   - "근육 포스포릴라아제 결핍"
   - "운동 유발 횡문근융해증"
 question_type: diagnosis
+related_disease_slugs:
+  - MDUg7Iug7J6lL-2aoeusuOq3vOycte2VtOymnSAoUmhhYmRvbXlvbHlzaXMpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

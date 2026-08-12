@@ -14,6 +14,8 @@ related_diseases:
   - "peau d'orange"
   - "breast mass"
   - "axillary lymphadenopathy"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yXvOymneyEsSDsnKDrsKnslZQgKEluZmxhbW1hdG9yeSBCcmVhc3QgQ2FuY2VyKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

@@ -13,7 +13,9 @@ related_diseases:
   - "나보트 낭종"
   - "자궁경부 낭종"
   - "양성 자궁경부 병변"
+  - "nabothian cyst"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

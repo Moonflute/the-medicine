@@ -13,6 +13,8 @@ related_diseases:
   - "유방암"
   - "유방절제술"
   - "종괴절제술"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: simple
 answer: B

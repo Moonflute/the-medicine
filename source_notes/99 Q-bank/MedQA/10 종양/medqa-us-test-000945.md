@@ -13,6 +13,9 @@ related_diseases:
   - "종양융해증후군"
   - "급성 골수성 백혈병"
   - "예방적 수액"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA
+  - MTAg7KKF7JaRL-yiheyWkeuCtOqzvC5tZA
 question_type: prevention
 difficulty: complex
 answer: D

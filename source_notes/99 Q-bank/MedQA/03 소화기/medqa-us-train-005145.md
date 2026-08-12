@@ -13,6 +13,9 @@ related_diseases:
   - "기능성 소화불량"
   - "헬리코박터 파일로리"
   - "비궤양성 소화불량"
+  - "Helicobacter pylori infection"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9ILnB5bG9yaSDqsJDsl7wgKEgucHlsb3JpIEluZmVjdGlvbikubWQ
 question_type: investigation
 difficulty: standard
 answer: C

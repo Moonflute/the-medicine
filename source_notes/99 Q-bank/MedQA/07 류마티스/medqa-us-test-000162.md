@@ -13,6 +13,9 @@ related_diseases:
   - "쇼그렌증후군"
   - "비호지킨 림프종"
   - "항-Ro 항체"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yHvOq3uOugjCDspp3tm4TqtbAgKFNqw7ZncmVuJ3MgU3luZHJvbWUpLm1k
+  - MDkg7ZiI7JWhL-u5hO2YuOyngO2CqCDrprztlITsooUgKE5vbi1Ib2Rna2luIEx5bXBob21hKS5tZA
 question_type: prognosis
 difficulty: standard
 answer: B

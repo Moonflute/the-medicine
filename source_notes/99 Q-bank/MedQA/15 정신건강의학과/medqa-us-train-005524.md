@@ -13,7 +13,9 @@ related_diseases:
   - "연극성 인격장애"
   - "관심 끌기 행동"
   - "감정의 피상성"
+  - "Histrionic personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

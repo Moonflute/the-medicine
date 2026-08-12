@@ -14,6 +14,8 @@ related_diseases:
   - "면역결핍"
   - "구강 칸디다증"
 question_type: investigation
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-y5uOuUlOuLpOymnSAoQ2FuZGlkaWFzaXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

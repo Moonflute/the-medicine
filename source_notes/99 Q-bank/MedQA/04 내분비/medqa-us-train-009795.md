@@ -13,6 +13,9 @@ related_diseases:
   - "고지혈증"
   - "만성콩팥병"
   - "스타틴"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: management
 difficulty: complex
 answer: D

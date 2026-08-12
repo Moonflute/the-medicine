@@ -13,6 +13,9 @@ related_diseases:
   - "당뇨병 산모의 신생아"
   - "일과성 비후성 심근병증"
   - "태아 심장 합병증"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-u5hO2bhOyEsSDsi6zqt7zrs5Hspp0gKEh5cGVydHJvcGhpYyBDYXJkaW9teW9wYXRoeSkubWQ
+  - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
 question_type: prognosis
 difficulty: complex
 answer: B

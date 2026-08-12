@@ -13,6 +13,9 @@ related_diseases:
   - "파종성 Mycobacterium avium 복합체 감염"
   - "AIDS"
   - "아지스로마이신과 에탐부톨"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
+  - MDgg6rCQ7Je8L-uptOyXreyggO2VmOyekCDqsJDsl7wgKEltbXVub2NvbXByb21pc2VkIEhvc3QgSW5mZWN0aW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: D

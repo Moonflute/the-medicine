@@ -14,6 +14,8 @@ related_diseases:
   - "요로패혈증"
   - "올란자핀"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yErOunnSAoRGVsaXJpdW0pLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "aortic regurgitation"
   - "bicuspid aortic valve"
   - "early diastolic murmur"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDsl63rpZggKEFvcnRpYyBSZWd1cmdpdGF0aW9uKS5tZA
 question_type: diagnosis
 difficulty: simple
 answer: D

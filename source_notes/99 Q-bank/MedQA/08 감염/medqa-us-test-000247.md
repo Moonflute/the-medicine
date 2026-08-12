@@ -13,6 +13,8 @@ related_diseases:
   - "감염성 심내막염"
   - "황색포도상구균 균혈증"
   - "정맥주사 약물 사용"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
 question_type: investigation
 difficulty: complex
 answer: A

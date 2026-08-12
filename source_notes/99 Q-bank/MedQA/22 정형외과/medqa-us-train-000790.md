@@ -12,6 +12,8 @@ specialty: 22 정형외과
 related_diseases:
   - "Transient synovitis of the hip"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7J286rO87ISxIOqzoOq0gOygiCDtmZzrp4nsl7wgKFRyYW5zaWVudCBTeW5vdml0aXMgb2YgdGhlIEhpcCkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

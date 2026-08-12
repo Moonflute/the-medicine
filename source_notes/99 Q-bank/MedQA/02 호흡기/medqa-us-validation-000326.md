@@ -13,6 +13,9 @@ related_diseases:
   - "황색포도상구균 괴사성 폐렴"
   - "인플루엔자 후 폐렴"
   - "폐공동"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yduO2UjOujqOyXlOyekCAoSW5mbHVlbnphKS5tZA
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

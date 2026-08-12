@@ -13,6 +13,9 @@ related_diseases:
   - "allergic rhinitis"
   - "asthma"
   - "eczema"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sCDruYTsl7wgKEFsbGVyZ2ljIFJoaW5pdGlzKS5tZA
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: simple
 answer: D

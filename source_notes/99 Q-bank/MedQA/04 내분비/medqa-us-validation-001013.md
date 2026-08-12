@@ -13,6 +13,8 @@ related_diseases:
   - "조기 부신성숙"
   - "고인슐린혈증"
   - "안드로겐 과다"
+  - "Insulin resistance"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: standard
 answer: A

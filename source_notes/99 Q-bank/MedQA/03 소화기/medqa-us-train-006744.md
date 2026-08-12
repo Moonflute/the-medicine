@@ -13,6 +13,8 @@ related_diseases:
   - "급성 담낭염"
   - "담낭관 폐쇄"
   - "담석"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7JO46rCc7Je8IChBY3V0ZSBDaG9sZWN5c3RpdGlzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

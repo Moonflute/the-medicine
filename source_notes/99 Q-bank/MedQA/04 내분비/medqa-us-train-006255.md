@@ -13,6 +13,8 @@ related_diseases:
   - "뇌하수체기능저하증"
   - "뇌하수체 거대선종"
   - "시신경교차 압박"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uHjO2VmOyImOyytCDquLDriqXsoIDtlZjspp0gKEh5cG9waXR1aXRhcmlzbSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

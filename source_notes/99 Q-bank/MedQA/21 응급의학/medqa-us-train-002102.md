@@ -14,6 +14,9 @@ related_diseases:
   - "abdominal aortic aneurysm"
   - "hemorrhagic shock"
 question_type: management
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uzteu2gCDrjIDrj5nrp6XrpZggKEFiZG9taW5hbCBBb3J0aWMgQW5ldXJ5c20pLm1k
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

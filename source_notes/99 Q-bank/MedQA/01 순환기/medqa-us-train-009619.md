@@ -13,6 +13,8 @@ related_diseases:
   - "niacin-induced flushing"
   - "나이아신 유발 홍조"
   - "aspirin mechanism"
+  - "Niacin-induced flushing"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: C

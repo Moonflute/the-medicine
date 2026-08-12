@@ -13,6 +13,7 @@ related_diseases:
   - "스피로놀락톤 유발 고칼륨혈증"
   - "정상 심전도"
   - "칼륨 배설 촉진"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

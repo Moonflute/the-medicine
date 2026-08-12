@@ -13,6 +13,8 @@ related_diseases:
   - "베체트병"
   - "구강 궤양"
   - "생식기 궤양"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-uyoOyytO2KuOuzkSAoQmVow6dldCdzIERpc2Vhc2UpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: C

@@ -15,6 +15,10 @@ related_diseases:
   - "spontaneous abortion"
   - "early pregnancy loss"
 question_type: diagnosis
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDQg64K067aE67mEL-ygnDHtmJUg64u564eo67ORIChUeXBlIDEgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MTIg7IKw6rO8L-yekOyXsCDsnKDsgrAgKFNwb250YW5lb3VzIEFib3J0aW9uKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,7 @@ related_diseases:
   - "양성자펌프억제제"
   - "골절 위험"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "주관절 터널 증후군"
   - "신경 압박"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

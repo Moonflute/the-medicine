@@ -13,7 +13,10 @@ related_diseases:
   - "경막외혈종"
   - "중간수막동맥"
   - "의식 명료기"
+  - "Epidural hematoma"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qsr3rp4nsmbgg7Lac7ZiIIChFcGlkdXJhbCBoZW1vcnJoYWdlKS5tZA
 difficulty: simple
 answer: B
 translation_status: machine-verified

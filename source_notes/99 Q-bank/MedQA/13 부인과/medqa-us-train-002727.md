@@ -15,6 +15,8 @@ related_diseases:
   - "recurrent second-trimester pregnancy loss"
   - "cerclage"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2gSDqsr3rtoAg7JuQ7ZiVIOqysOywsOyIoCAoQ2VydmljYWwgQ2VyY2xhZ2UpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "발프로산"
   - "신경관 결손"
   - "임신 중 항경련제"
+  - "Neural tube defect"
 question_type: prognosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "시신경염"
   - "중추신경계 염증"
 question_type: management
+related_disease_slugs:
+  - MTgg7JWI6rO8L-yLnOyLoOqyveyXvCAob3B0aWMgbmV1cml0aXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

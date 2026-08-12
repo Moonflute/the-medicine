@@ -13,6 +13,9 @@ related_diseases:
   - "헤파린 유발 혈소판감소증 2형"
   - "혈소판감소와 혈전증"
   - "PF4 항체"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2XpO2MjOumsCDsnKDrsJwg7ZiI7IaM7YyQ6rCQ7IaM7KadIChIZXBhcmluLUluZHVjZWQgVGhyb21ib2N5dG9wZW5pYSwgSElUKS5tZA
+  - MDkg7ZiI7JWhL-2YiOyghOyEsSDtmIjshoztjJDqsJDshowg7J6Q7IOJ67CYIChUaHJvbWJvdGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgVFRQKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

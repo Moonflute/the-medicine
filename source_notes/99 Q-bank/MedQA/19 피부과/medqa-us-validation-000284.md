@@ -14,6 +14,8 @@ related_diseases:
   - "악성 흑색종"
   - "색소성 피부병변"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yVheyEsSDtnZHsg4nsooUgKE1hbGlnbmFudCBNZWxhbm9tYSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -15,6 +15,7 @@ related_diseases:
   - "facial fractures"
   - "orotracheal intubation"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

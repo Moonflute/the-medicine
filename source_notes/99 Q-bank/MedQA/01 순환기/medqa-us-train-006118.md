@@ -13,6 +13,8 @@ related_diseases:
   - "중증 사지허혈"
   - "말초동맥질환"
   - "안정 시 허혈성 통증"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uPmeunpeqyve2ZlOyEsSDrp4zshLEg64-Z66elIO2PkOyDiSAoQXRoZXJvc2NsZXJvdGljIENocm9uaWMgQXJ0ZXJpYWwgT2NjbHVzaW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

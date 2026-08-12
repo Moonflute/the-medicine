@@ -14,6 +14,8 @@ related_diseases:
   - "rewarming"
   - "warm water immersion"
 question_type: management
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-2VnOuereyGkOyDgSAoQ29sZCBJbmp1cnkpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

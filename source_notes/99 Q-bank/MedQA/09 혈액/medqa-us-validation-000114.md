@@ -13,6 +13,8 @@ related_diseases:
   - "다발성 골수종"
   - "경쇄"
   - "고칼슘혈증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -15,6 +15,8 @@ related_diseases:
   - "허혈성 뇌졸중"
   - "독세핀"
 question_type: mechanism
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

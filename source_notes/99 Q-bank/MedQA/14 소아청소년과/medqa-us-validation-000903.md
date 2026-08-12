@@ -14,6 +14,8 @@ related_diseases:
   - "태아 췌장 베타세포 과형성"
   - "모체 당뇨병"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOyggO2YiOuLueymnSAoTmVvbmF0YWwgSHlwb2dseWNlbWlhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

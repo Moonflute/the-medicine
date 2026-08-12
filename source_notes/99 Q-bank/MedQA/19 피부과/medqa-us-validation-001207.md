@@ -14,6 +14,9 @@ related_diseases:
   - "저색소성 반점"
   - "갑상선기능저하증"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uwseuwmOymnSAoVml0aWxpZ28pLm1k
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCR7IOB7ISgIOq4sOuKpSDsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

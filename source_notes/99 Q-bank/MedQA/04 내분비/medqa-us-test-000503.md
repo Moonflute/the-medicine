@@ -13,6 +13,8 @@ related_diseases:
   - "갑상샘 여포성 종양"
   - "냉결절"
   - "갑상샘암"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmOyVlCAoVGh5cm9pZCBDYW5jZXIpLm1k
 question_type: management
 difficulty: simple
 answer: B

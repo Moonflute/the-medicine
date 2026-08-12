@@ -14,6 +14,8 @@ related_diseases:
   - "청소년 우울증"
   - "사별 후 우울 증상"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

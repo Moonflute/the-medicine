@@ -13,6 +13,8 @@ related_diseases:
   - "수술 전 심장 위험 평가"
   - "불안정 협심증"
   - "심근 관류 영상"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-u2iOyViOyglSDtmJHsi6zspp0gKFVuc3RhYmxlIEFuZ2luYSkubWQ
 question_type: investigation
 difficulty: complex
 answer: B

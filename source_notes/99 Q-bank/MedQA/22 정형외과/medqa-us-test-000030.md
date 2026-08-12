@@ -13,7 +13,9 @@ related_diseases:
   - "중족골 내전"
   - "유연성 족부 변형"
   - "관찰"
+  - "Metatarsus adductus"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "spherocytes"
   - "direct antiglobulin test"
   - "hemolysis"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: investigation
 difficulty: complex
 answer: B

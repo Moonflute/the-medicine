@@ -14,7 +14,10 @@ related_diseases:
   - "폐 저형성"
   - "포터 연속체"
   - "신장 집합관 낭성 확장"
+  - "Autosomal recessive polycystic kidney disease"
 question_type: mechanism
+related_disease_slugs:
+  - MDUg7Iug7J6lL-uLpOuCreyEsSDsvantjKUg7KeI7ZmYIChQb2x5Y3lzdGljIEtpZG5leSBEaXNlYXNlKS5tZA
 difficulty: simple
 answer: B
 translation_status: machine-verified

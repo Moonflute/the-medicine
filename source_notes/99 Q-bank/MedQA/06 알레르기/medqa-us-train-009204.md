@@ -13,6 +13,8 @@ related_diseases:
   - "anaphylaxis"
   - "아나필락시스"
   - "type I hypersensitivity"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
 question_type: mechanism
 difficulty: standard
 answer: A

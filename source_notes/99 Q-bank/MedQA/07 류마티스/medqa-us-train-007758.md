@@ -13,6 +13,9 @@ related_diseases:
   - "IgA vasculitis"
   - "Henoch-Schönlein purpura"
   - "IgA immune complex deposition"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Zek64W47Z2QLeyJlOudvOyduCDsnpDrsJjspp0gKEhlbm9jaC1TY2hvbmxlaW4gUHVycHVyYSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: D

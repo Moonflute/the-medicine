@@ -13,6 +13,8 @@ related_diseases:
   - "악성 중피종"
   - "석면 노출"
   - "삼출성 흉수"
+  - "Malignant mesothelioma"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: B

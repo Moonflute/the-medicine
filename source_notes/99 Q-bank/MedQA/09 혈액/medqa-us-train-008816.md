@@ -13,6 +13,8 @@ related_diseases:
   - "acute hemolytic transfusion reaction"
   - "delayed hemolytic transfusion reaction"
   - "direct Coombs test"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-q4ieyEsSDsmqntmIjshLEg7IiY7ZiIIOuwmOydkSAoQWN1dGUgSGVtb2x5dGljIFRyYW5zZnVzaW9uIFJlYWN0aW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

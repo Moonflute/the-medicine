@@ -13,6 +13,8 @@ related_diseases:
   - "경증 지속성 천식"
   - "천식 조절"
   - "부데소니드-포르모테롤"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: complex
 answer: A

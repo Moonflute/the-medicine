@@ -13,6 +13,8 @@ related_diseases:
   - "심방 점액종"
   - "좌심방 종괴"
   - "폐울혈"
+  - "atrial myxoma"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: D

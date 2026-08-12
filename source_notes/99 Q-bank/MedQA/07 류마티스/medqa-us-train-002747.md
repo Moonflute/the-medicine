@@ -14,6 +14,9 @@ related_diseases:
   - "seropositive inflammatory arthritis"
   - "osteoporosis risk"
   - "rheumatoid nodules"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 question_type: risk_factor
 difficulty: complex
 answer: A

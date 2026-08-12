@@ -13,6 +13,8 @@ related_diseases:
   - "기계식 심장판막"
   - "와파린 중단 및 헤파린 브리징"
   - "내시경 전 항응고 관리"
+  - "Mechanical prosthetic heart valve"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

@@ -14,6 +14,9 @@ related_diseases:
   - "aldosteronoma"
   - "hypokalemic metabolic alkalosis"
   - "hypertension"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yVjOuPhOyKpO2FjOuhoOymnSAoQWxkb3N0ZXJvbmlzbSkubWQ
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

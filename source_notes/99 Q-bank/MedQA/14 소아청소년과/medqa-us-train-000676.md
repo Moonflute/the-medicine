@@ -13,6 +13,8 @@ related_diseases:
   - "neonatal conjunctivitis"
   - "Chlamydia trachomatis"
 question_type: management
+related_disease_slugs:
+  - MTgg7JWI6rO8L-qysOyEseyXvCAoQ29uanVuY3Rpdml0aXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

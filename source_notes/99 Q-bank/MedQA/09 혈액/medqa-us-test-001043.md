@@ -13,6 +13,9 @@ related_diseases:
   - "다운증후군"
   - "급성 림프모구성 백혈병"
   - "혈액암 위험"
+related_disease_slugs:
+  - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
+  - MDkg7ZiI7JWhL-q4ieyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChBTEwpIChBY3V0ZSBMeW1waG9ibGFzdGljIExldWtlbWlhKS5tZA
 question_type: prognosis
 difficulty: standard
 answer: D

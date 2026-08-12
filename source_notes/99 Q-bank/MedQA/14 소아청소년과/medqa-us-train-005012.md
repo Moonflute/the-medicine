@@ -14,6 +14,8 @@ related_diseases:
   - "치료 관련 뇌부종"
   - "인슐린 치료"
 question_type: other
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
 difficulty: simple
 answer: A
 translation_status: machine-verified

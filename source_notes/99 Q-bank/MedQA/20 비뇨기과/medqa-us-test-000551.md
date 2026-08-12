@@ -14,6 +14,8 @@ related_diseases:
   - "방광암"
   - "요로 종양"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-uwqeq0keyVlCAoQmxhZGRlciBjYW5jZXIpLm1k
 difficulty: simple
 answer: A
 translation_status: machine-verified

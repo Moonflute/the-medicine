@@ -14,6 +14,8 @@ related_diseases:
   - "allergic contact dermatitis"
   - "cetirizine"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-ygkey0ie2UvOu2gOyXvCAoQ29udGFjdCBEZXJtYXRpdGlzKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

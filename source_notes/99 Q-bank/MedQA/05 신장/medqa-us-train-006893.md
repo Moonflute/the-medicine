@@ -13,6 +13,8 @@ related_diseases:
   - "알포트증후군"
   - "제4형 콜라겐 결함"
   - "감각신경성 난청과 혈뇨"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yVjO2PrO2KuCDspp3tm4TqtbAgKEFscG9ydCBTeW5kcm9tZSkubWQ
 question_type: investigation
 difficulty: complex
 answer: A

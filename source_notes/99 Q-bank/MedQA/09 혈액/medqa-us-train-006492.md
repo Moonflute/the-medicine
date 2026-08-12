@@ -13,6 +13,8 @@ related_diseases:
   - "급성 골수성 백혈병"
   - "골수모세포"
   - "범혈구감소"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

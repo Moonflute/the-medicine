@@ -14,6 +14,7 @@ related_diseases:
   - "음성예측도"
   - "HIV 선별검사"
 question_type: biostatistics
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

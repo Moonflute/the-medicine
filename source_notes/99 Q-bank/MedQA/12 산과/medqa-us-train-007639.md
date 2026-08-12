@@ -14,6 +14,8 @@ related_diseases:
   - "labor arrest"
   - "cesarean delivery"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2ZnOyEseq4sCDsoJXsp4Ag7J6l7JWgIChBY3RpdmUgUGhhc2UgQXJyZXN0IERpc29yZGVyKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

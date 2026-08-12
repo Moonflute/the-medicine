@@ -14,6 +14,7 @@ related_diseases:
   - "금연 치료"
   - "우울증 선별"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

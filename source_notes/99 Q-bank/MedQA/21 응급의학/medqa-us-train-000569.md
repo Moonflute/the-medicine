@@ -12,6 +12,8 @@ specialty: 21 응급의학
 related_diseases:
   - "foreign body ingestion"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv66y86rG0IOyCvO2CtCAoRm9yZWlnbiBCb2R5IEluZ2VzdGlvbikubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

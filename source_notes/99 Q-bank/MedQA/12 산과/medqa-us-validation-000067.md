@@ -13,7 +13,10 @@ related_diseases:
   - "임신오조"
   - "저염소성 대사성 알칼리증"
   - "소변 염소"
+  - "Hyperemesis gravidarum"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoCDsnoXrjacgKEh5cGVyZW1lc2lzIEdyYXZpZGFydW0pLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

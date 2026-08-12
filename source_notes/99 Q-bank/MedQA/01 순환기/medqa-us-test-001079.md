@@ -13,6 +13,8 @@ related_diseases:
   - "무맥성 심실세동"
   - "심정지"
   - "아미오다론"
+  - "pulseless ventricular fibrillation"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: A

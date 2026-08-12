@@ -13,6 +13,9 @@ related_diseases:
   - "갈색세포종"
   - "수술 중 고혈압 위기"
   - "알파차단제"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2BrOuhrOy5nO2ZlOyEuO2PrOyihSAoUGhlb2Nocm9tb2N5dG9tYSkubWQ
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: C

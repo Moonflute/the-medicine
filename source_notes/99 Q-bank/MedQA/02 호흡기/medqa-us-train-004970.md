@@ -13,6 +13,8 @@ related_diseases:
   - "규폐증"
   - "달걀껍데기 석회화"
   - "결핵 감염 위험"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q3nO2PkOymnSAoU2lsaWNvc2lzKS5tZA
 question_type: prevention
 difficulty: complex
 answer: D

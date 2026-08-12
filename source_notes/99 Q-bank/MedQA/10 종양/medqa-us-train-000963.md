@@ -12,6 +12,9 @@ specialty: 10 종양
 related_diseases:
   - "Burkitt’s lymphoma"
   - "tumor lysis syndrome"
+related_disease_slugs:
+  - MTAg7KKF7JaRL-yiheyWkSDsmqntlbQg7Kad7ZuE6rWwIChUdW1vciBMeXNpcyBTeW5kcm9tZSkubWQ
+  - MDkg7ZiI7JWhL-uyhO2CtyDrprztlITsooUgKEJ1cmtpdHQncyBMeW1waG9tYSkubWQ
 question_type: prevention
 difficulty: complex
 answer: A

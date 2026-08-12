@@ -14,6 +14,7 @@ related_diseases:
   - "지아르디아증"
   - "재발성 감염"
 question_type: prognosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -15,6 +15,7 @@ related_diseases:
   - "복시"
   - "눈꺼풀처짐"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "복잡성 부 parapneumonic effusion"
   - "농흉"
   - "흉관 배액"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-u2gO2PkOugtOyEsSDtnYnsiJggKFBhcmFwbmV1bW9uaWMgRWZmdXNpb24pLm1k
 question_type: management
 difficulty: complex
 answer: C

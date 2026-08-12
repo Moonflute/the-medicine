@@ -13,6 +13,8 @@ related_diseases:
   - "급성 세포성 거부반응"
   - "신장이식"
   - "T세포 매개 거부반응"
+  - "Acute cellular rejection"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: A

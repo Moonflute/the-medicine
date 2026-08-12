@@ -13,6 +13,8 @@ related_diseases:
   - "급성 심낭염"
   - "심낭 마찰음"
   - "콜히친"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrp4nsl7wgKEFjdXRlIFBlcmljYXJkaXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: B

@@ -12,6 +12,8 @@ specialty: 14 소아청소년과
 related_diseases:
   - "pertussis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cx7J287ZW0IChQZXJ0dXNzaXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

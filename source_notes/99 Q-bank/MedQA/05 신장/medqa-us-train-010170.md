@@ -13,6 +13,9 @@ related_diseases:
   - "상염색체 우성 다낭성 신장병"
   - "베리동맥류"
   - "두개내 동맥류 선별"
+  - "Autosomal dominant polycystic kidney disease"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-uLpOuCreyEsSDsvantjKUg7KeI7ZmYIChQb2x5Y3lzdGljIEtpZG5leSBEaXNlYXNlKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

@@ -13,6 +13,9 @@ related_diseases:
   - "재발성 통풍"
   - "고요산혈증"
   - "알로푸리놀 예방요법"
+  - "Gout"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ
 question_type: prevention
 difficulty: complex
 answer: D

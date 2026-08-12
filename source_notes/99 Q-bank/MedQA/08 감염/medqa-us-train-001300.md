@@ -14,6 +14,9 @@ related_diseases:
   - "Chagas disease"
   - "Dengue fever"
   - "Malaria"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uOheq4sOyXtCAoRGVuZ3VlIEZldmVyKS5tZA
+  - MDgg6rCQ7Je8L-unkOudvOumrOyVhCAoTWFsYXJpYSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

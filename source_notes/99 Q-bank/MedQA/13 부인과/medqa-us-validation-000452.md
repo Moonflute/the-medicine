@@ -14,6 +14,8 @@ related_diseases:
   - "월경과다"
   - "비정상 자궁출혈"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u5hOygleyDgSDsnpDqtoEg7Lac7ZiIIChBYm5vcm1hbCBVdGVyaW5lIEJsZWVkaW5nKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

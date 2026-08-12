@@ -15,6 +15,8 @@ related_diseases:
   - "repetitive questioning"
   - "preserved personal identity"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydvOqzvOyEsSDsoITssrQg6riw7Ja1IOyDgeyLpCAoVHJhbnNpZW50IEdsb2JhbCBBbW5lc2lhKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

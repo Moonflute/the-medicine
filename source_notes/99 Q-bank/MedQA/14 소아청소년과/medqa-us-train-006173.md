@@ -14,6 +14,7 @@ related_diseases:
   - "소아 급성 위장염"
   - "예방접종 미시행"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -14,7 +14,9 @@ related_diseases:
   - "gonorrhea screening"
   - "nucleic acid amplification test"
   - "sexually active adolescent"
+  - "Chlamydia infection"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

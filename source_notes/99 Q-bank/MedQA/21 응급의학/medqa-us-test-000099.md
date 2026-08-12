@@ -14,6 +14,8 @@ related_diseases:
   - "경추 고정"
   - "자동차 사고"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-qyveu2gOyZuOyDgSAoQ2VydmljYWwgVHJhdW1hKS5tZA
 difficulty: simple
 answer: B
 translation_status: machine-verified

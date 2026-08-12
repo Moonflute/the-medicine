@@ -14,6 +14,8 @@ related_diseases:
   - "과다월경"
   - "구형 자궁"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "에를리키아증"
   - "Ehrlichia 감염"
   - "진드기 매개 감염"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-udvOyehOuzkSAoTHltZSBEaXNlYXNlKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

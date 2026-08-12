@@ -14,6 +14,9 @@ related_diseases:
   - "pleural plaques"
   - "occupational asbestos exposure"
   - "interstitial lung disease"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yEneuptO2PkOymnSAoQXNiZXN0b3NpcykubWQ
+  - MDIg7Zi47Z2h6riwL-qwhOyniOyEsSDtj5Dsp4jtmZggKEludGVyc3RpdGlhbCBsdW5nIGRpc2Vhc2UpLm1k
 question_type: risk_factor
 difficulty: standard
 answer: A

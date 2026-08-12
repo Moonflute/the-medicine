@@ -14,6 +14,7 @@ related_diseases:
   - "gross motor development"
   - "rolling over"
 question_type: other
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

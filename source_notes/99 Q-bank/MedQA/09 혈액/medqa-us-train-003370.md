@@ -14,6 +14,8 @@ related_diseases:
   - "monoclonal gammopathy"
   - "osteoporosis"
   - "plasma cells"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 question_type: association
 difficulty: complex
 answer: C

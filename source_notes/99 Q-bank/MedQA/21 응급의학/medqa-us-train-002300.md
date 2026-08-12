@@ -14,6 +14,8 @@ related_diseases:
   - "metabolic acidosis"
   - "deferoxamine"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR64-FIChQb2lzb25pbmcpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

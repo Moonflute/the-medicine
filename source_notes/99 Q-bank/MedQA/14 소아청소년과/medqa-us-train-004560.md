@@ -14,6 +14,9 @@ related_diseases:
   - "외분비 췌장 기능부전"
   - "지방변"
 question_type: mechanism
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sp4DrsKnrs4AgKFN0ZWF0b3JyaGVhKS5tZA
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

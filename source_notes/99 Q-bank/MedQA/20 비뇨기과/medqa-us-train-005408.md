@@ -14,6 +14,8 @@ related_diseases:
   - "단단한 전립선 결절"
   - "직장수지검사"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

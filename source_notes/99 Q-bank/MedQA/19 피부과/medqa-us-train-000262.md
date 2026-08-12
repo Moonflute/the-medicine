@@ -15,6 +15,11 @@ related_diseases:
   - "Dermatofibroma"
   - "Squamous cell carcinoma"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-q0keyEoCDqsIHtmZTspp0gKEFjdGluaWMgS2VyYXRvc2lzKS5tZA
+  - MTMg67aA7J246rO8L-yEseyImeq4sO2YleyihSAoTWF0dXJlIFRlcmF0b21hKS5tZA
+  - MDIg7Zi47Z2h6riwL-2PkCDtjrjtj4nsg4HtlLzslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
+  - MTkg7ZS867aA6rO8L-2OuO2PiSDshLjtj6zslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

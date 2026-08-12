@@ -15,6 +15,8 @@ related_diseases:
   - "secondary erythrocytosis"
   - "basement exposure"
 question_type: mechanism
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-ydvOyCsO2ZlO2DhOyGjCDspJHrj4UgKENhcmJvbiBNb25veGlkZSBQb2lzb25pbmcpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

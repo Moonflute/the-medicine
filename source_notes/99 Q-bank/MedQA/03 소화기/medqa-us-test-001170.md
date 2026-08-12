@@ -13,6 +13,7 @@ related_diseases:
   - "호산구성 식도염"
   - "고형식 연하곤란"
   - "아토피 질환"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: C

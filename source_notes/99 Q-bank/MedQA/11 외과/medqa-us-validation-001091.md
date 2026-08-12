@@ -13,6 +13,8 @@ related_diseases:
   - "팔꿈치 아탈구"
   - "간호사 팔꿈치"
   - "윤상인대 아탈구"
+  - "Radial head subluxation"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: B

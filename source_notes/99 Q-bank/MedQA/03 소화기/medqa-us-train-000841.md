@@ -12,6 +12,8 @@ specialty: 03 소화기
 related_diseases:
   - "heartburn"
   - "lower esophageal sphincter"
+  - "Barrett esophagus"
+related_disease_slugs: []
 question_type: management
 difficulty: simple
 answer: D

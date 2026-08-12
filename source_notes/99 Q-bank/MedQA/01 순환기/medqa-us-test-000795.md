@@ -13,6 +13,9 @@ related_diseases:
   - "대동맥판막 협착"
   - "수축기 박출성 잡음"
   - "노인성 판막질환"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
+  - MDEg7Iic7ZmY6riwL-2MkOunieyniO2ZmC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

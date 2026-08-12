@@ -14,6 +14,8 @@ related_diseases:
   - "티아민 결핍"
   - "알코올 사용장애"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

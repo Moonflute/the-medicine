@@ -14,6 +14,8 @@ related_diseases:
   - "회전근개 파열"
   - "drop arm test"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-2ajOyghOq3vOqwnO2MjOyXtCAoUm90YXRvciBDdWZmIFRlYXIpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

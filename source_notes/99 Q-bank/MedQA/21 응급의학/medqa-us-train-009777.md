@@ -14,6 +14,9 @@ related_diseases:
   - "D-이합체"
   - "경구피임약"
 question_type: investigation
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
+  - MTMg67aA7J246rO8L-qyveq1rO2UvOyehOyVvSAoT3JhbCBDb250cmFjZXB0aXZlcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

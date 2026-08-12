@@ -14,6 +14,7 @@ related_diseases:
   - "신생아 금단 증후군"
   - "코데인"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

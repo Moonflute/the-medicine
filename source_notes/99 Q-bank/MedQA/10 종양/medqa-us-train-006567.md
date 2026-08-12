@@ -13,6 +13,8 @@ related_diseases:
   - "비정상피종성 생식세포종양"
   - "전이성 고환암"
   - "BEP 화학요법"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-qzoO2ZmCDsooXslpEgKFRlc3RpY3VsYXIgY2FuY2VyKS5tZA
 question_type: management
 difficulty: complex
 answer: B

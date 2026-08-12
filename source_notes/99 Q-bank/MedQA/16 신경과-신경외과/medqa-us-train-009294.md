@@ -14,6 +14,8 @@ related_diseases:
   - "스터지-웨버 증후군"
   - "port-wine stain"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAvU3R1cmdlLVdlYmVyIOymne2bhOq1sCAoU3R1cmdlLVdlYmVyIFN5bmRyb21lKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

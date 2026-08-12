@@ -14,6 +14,9 @@ related_diseases:
   - "척수 손상"
   - "기도 보호를 위한 기관삽관"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-qyveu2gOyZuOyDgSAoQ2VydmljYWwgVHJhdW1hKS5tZA
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sspnsiJgg7Jm47IOBIChTcGluYWwgY29yZCB0cmF1bWEpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

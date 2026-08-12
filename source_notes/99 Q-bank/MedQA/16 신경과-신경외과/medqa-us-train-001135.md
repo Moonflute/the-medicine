@@ -12,6 +12,8 @@ specialty: 16 신경과-신경외과
 related_diseases:
   - "Huntington disease"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4ztjIXthLTrs5EgKEh1bnRpbmd0b24gRGlzZWFzZSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

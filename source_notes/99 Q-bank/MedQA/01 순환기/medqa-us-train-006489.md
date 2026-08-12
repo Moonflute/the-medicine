@@ -13,6 +13,9 @@ related_diseases:
   - "만성 대동맥판막 역류"
   - "좌심실 용적 과부하"
   - "울혈성 심부전"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDsl63rpZggKEFvcnRpYyBSZWd1cmdpdGF0aW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: prognosis
 difficulty: complex
 answer: B

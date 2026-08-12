@@ -14,6 +14,7 @@ related_diseases:
   - "가역적 후뇌 병증 증후군"
   - "뇌 MRI"
 question_type: investigation
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

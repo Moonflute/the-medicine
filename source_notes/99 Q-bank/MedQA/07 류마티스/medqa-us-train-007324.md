@@ -14,6 +14,8 @@ related_diseases:
   - "만성 신장질환"
   - "골절 예방"
   - "알렌드로네이트"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: prevention
 difficulty: complex
 answer: A

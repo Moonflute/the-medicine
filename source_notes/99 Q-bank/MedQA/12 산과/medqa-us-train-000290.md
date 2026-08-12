@@ -15,6 +15,8 @@ related_diseases:
   - "Uterine rupture"
   - "Uterine inertia"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2ge2MjOyXtCAoVXRlcmluZSBSdXB0dXJlKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

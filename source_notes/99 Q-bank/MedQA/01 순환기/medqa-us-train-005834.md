@@ -13,6 +13,8 @@ related_diseases:
   - "버드-키아리 증후군"
   - "진성적혈구증가증"
   - "간정맥 혈전증"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ynhOyEsSDsoIHtmIjqtazspp3qsIDspp0gKFBWKSAoUG9seWN5dGhlbWlhIFZlcmEgKFBWKSkubWQ
 question_type: investigation
 difficulty: complex
 answer: B

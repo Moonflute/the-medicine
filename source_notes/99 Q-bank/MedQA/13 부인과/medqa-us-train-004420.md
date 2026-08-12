@@ -14,6 +14,9 @@ related_diseases:
   - "난관난소농양"
   - "자궁경부염"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyXvCAoQ2VydmljaXRpcykubWQ
+  - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

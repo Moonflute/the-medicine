@@ -11,7 +11,9 @@ language: ko
 specialty: 18 안과
 related_diseases:
   - "sympathetic ophthalmia"
+  - "Sympathetic ophthalmia"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

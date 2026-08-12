@@ -13,6 +13,8 @@ related_diseases:
   - "Dressler syndrome"
   - "드레슬러 증후군"
   - "post-myocardial infarction pericarditis"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrp4nsl7wgKEFjdXRlIFBlcmljYXJkaXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: C

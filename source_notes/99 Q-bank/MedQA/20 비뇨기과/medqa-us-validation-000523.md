@@ -14,6 +14,8 @@ related_diseases:
   - "폐쇄성 요로병증"
   - "수신증"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yWkeyEsSDsoITrpr3sg5gg67mE64yA7KadIChCZW5pZ24gUHJvc3RhdGljIEh5cGVycGxhc2lhKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

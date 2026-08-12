@@ -15,6 +15,8 @@ related_diseases:
   - "tibial tubercle pain"
   - "adolescent overuse injury"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jik7Iqk6rW_LeyKkOudvO2EsCDrs5EgKE9zZ29vZC1TY2hsYXR0ZXIgRGlzZWFzZSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

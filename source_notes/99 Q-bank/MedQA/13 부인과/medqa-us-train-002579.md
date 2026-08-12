@@ -13,7 +13,10 @@ related_diseases:
   - "Rh-negative pregnancy"
   - "maternal alloimmunization"
   - "indirect Coombs test"
+  - "Rh incompatibility"
 question_type: investigation
+related_disease_slugs:
+  - MDkg7ZiI7JWhL1JoIOyaqe2YiOyEseyniO2ZmCAoUmgg7Jqp7ZiI7ISx7KeI7ZmYKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

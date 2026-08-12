@@ -12,6 +12,7 @@ specialty: 21 응급의학
 related_diseases:
   - "Glasgow coma scale"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

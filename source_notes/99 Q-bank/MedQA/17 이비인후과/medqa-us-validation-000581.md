@@ -13,7 +13,9 @@ related_diseases:
   - "겐타마이신 이독성"
   - "전정기능 장애"
   - "양측 전정병증"
+  - "Gentamicin ototoxicity"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "S상결장 염전"
   - "장폐색"
   - "만성 변비"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snqXtj5Dsg4kubWQ
 question_type: diagnosis
 difficulty: simple
 answer: C

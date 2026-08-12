@@ -15,6 +15,8 @@ related_diseases:
   - "chronic otitis media"
   - "surgical excision"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-ykkeydtOyXvCAoT3RpdGlzIG1lZGlhKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

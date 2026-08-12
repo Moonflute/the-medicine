@@ -15,6 +15,8 @@ related_diseases:
   - "negative urine culture"
   - "prostate pain"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyXvCAoUHJvc3RhdGl0aXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "각화극세포종"
   - "피부 종양"
   - "자외선 노출"
+  - "pilomatricoma"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: simple
 answer: A
 translation_status: machine-verified

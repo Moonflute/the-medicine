@@ -14,6 +14,9 @@ related_diseases:
   - "액와림프절 미세전이"
   - "유방암 예후"
   - "림프절 상태"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-y5qOycpOyEsSDsnKDrsKnslZQgKEludmFzaXZlIEJyZWFzdCBDYW5jZXIpLm1k
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: prognosis
 difficulty: standard
 answer: B

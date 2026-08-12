@@ -13,6 +13,9 @@ related_diseases:
   - "acute pancreatitis"
   - "ileus"
   - "hypokalemia"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

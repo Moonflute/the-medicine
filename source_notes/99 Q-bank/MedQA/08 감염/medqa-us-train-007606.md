@@ -14,6 +14,8 @@ related_diseases:
   - "파종성 임균 감염"
   - "그람음성 쌍구균"
   - "세프트리악손"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yehOq3oCDqsJDsl7wgKEdvbm9jb2NjYWwgSW5mZWN0aW9uKS5tZA
 question_type: management
 difficulty: standard
 answer: D

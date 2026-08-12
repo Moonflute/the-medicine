@@ -13,6 +13,8 @@ related_diseases:
   - "편평세포폐암"
   - "PTHrP 매개 고칼슘혈증"
   - "간접흡연"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDtjrjtj4nsg4HtlLzslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

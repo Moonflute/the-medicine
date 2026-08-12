@@ -15,6 +15,8 @@ related_diseases:
   - "crossed sensory loss"
   - "medulla"
 question_type: diagnosis
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDsho3sp4jslZQgKFRoeXJvaWQgTWVkdWxsYXJ5IENhcmNpbm9tYSkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

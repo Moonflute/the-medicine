@@ -14,6 +14,8 @@ related_diseases:
   - "cardiomyopathy"
   - "aspiration pneumonia"
 question_type: prognosis
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOq3vOuzkeymnSAoQ2FyZGlvbXlvcGF0aHkpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

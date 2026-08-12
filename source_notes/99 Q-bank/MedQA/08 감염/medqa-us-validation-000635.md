@@ -13,6 +13,9 @@ related_diseases:
   - "경부안면부 방선균증"
   - "황 과립"
   - "Actinomyces"
+  - "Actinomycosis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uwqeyEoOq3oOymnSAoQWN0aW5vbXljb3NpcykubWQ
 question_type: management
 difficulty: simple
 answer: C

@@ -14,6 +14,8 @@ related_diseases:
   - "고정성 S2 분열"
   - "좌심실 유입혈류 증가"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius67CpIOykkeqyqSDqsrDshpAgKEF0cmlhbCBTZXB0YWwgRGVmZWN0KS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

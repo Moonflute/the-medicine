@@ -13,6 +13,9 @@ related_diseases:
   - "수두 예방접종"
   - "성인 예방접종"
   - "수두 면역 혈청검사"
+  - "Varicella"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yImOuRkC3rjIDsg4Htj6zsp4Qg67CU7J2065-s7IqkIOqwkOyXvCAoVmFyaWNlbGxhLVpvc3RlciBWaXJ1cyBJbmZlY3Rpb24pLm1k
 question_type: prevention
 difficulty: standard
 answer: A

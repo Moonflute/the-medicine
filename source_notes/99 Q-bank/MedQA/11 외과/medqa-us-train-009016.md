@@ -13,6 +13,8 @@ related_diseases:
   - "postoperative oliguria"
   - "volume depletion"
   - "prerenal acute kidney injury"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-y9qe2MpeyghCDquInshLEg7L2p7YylIOyGkOyDgSAoUHJlcmVuYWwgQWN1dGUgS2lkbmV5IEluanVyeSkubWQ
 question_type: management
 difficulty: complex
 answer: B

@@ -13,6 +13,9 @@ related_diseases:
   - "만성신장병"
   - "이차성 부갑상샘기능항진증"
   - "신성 골이영양증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: mechanism
 difficulty: complex
 answer: B

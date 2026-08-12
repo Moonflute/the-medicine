@@ -12,6 +12,8 @@ specialty: 04 내분비
 related_diseases:
   - "osteomalacia"
   - "vitamin D deficiency"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv67mE7YOA66-8IEQg6rKw7ZWN7KadIChWaXRhbWluIEQgRGVmaWNpZW5jeSkubWQ
 question_type: investigation
 difficulty: standard
 answer: A

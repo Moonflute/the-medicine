@@ -14,6 +14,8 @@ related_diseases:
   - "양압환기 합병증"
   - "바늘 흉강감압술"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4tOyepeyEsSDquLDtnYkgKFRlbnNpb24gUG5ldW1vdGhvcmF4KS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

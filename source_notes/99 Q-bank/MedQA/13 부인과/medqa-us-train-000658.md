@@ -15,6 +15,10 @@ related_diseases:
   - "Endometrial hyperplasia"
   - "Uterine leiomyosarcoma"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4kg7Kad7Iud7KadIChFbmRvbWV0cmlhbCBIeXBlcnBsYXNpYSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

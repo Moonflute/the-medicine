@@ -13,6 +13,7 @@ related_diseases:
   - "소장 세균 과증식"
   - "당뇨병성 장병증"
   - "리팍시민"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: C

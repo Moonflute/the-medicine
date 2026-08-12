@@ -13,6 +13,9 @@ related_diseases:
   - "type 1 diabetes mellitus"
   - "exercise-related hypoglycemia"
   - "insulin dose adjustment"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ygnDHtmJUg64u564eo67ORIChUeXBlIDEgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
 question_type: management
 difficulty: standard
 answer: B

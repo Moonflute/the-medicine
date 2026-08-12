@@ -14,6 +14,9 @@ related_diseases:
   - "겸상적혈구병"
   - "고관절 통증"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64SZ64uk66as67yIIOuouOumrCDrsrzrgZ0g67K8IOyXsOqzqOymnSAoTGVnZy1DYWx2ZS1QZXJ0aGVzIERpc2Vhc2UpLm1k
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

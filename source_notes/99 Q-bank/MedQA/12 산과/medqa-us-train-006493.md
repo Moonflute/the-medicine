@@ -13,7 +13,9 @@ related_diseases:
   - "산후 요폐"
   - "분만 후 방광 기능장애"
   - "요도 카테터"
+  - "Urinary retention"
 question_type: management
+related_disease_slugs: []
 difficulty: simple
 answer: D
 translation_status: machine-verified

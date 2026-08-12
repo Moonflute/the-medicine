@@ -14,6 +14,10 @@ related_diseases:
   - "gastric remnant cancer"
   - "upper gastrointestinal bleeding"
   - "cancer staging CT"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshKDslZQgKEFkZW5vY2FyY2lub21hKS5tZA
+  - MTEg7Jm46rO8L-ychOyepeq0gCDstpztmIggKEdhc3Ryb2ludGVzdGluYWwgQmxlZWRpbmcpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITslZQgKEdhc3RyaWMgQ2FuY2VyKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

@@ -14,6 +14,7 @@ related_diseases:
   - "원발성 섬모운동 이상증"
   - "반복 중이염"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

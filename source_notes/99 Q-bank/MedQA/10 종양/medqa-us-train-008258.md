@@ -13,6 +13,9 @@ related_diseases:
   - "terminal depression"
   - "hospice care"
   - "methylphenidate"
+  - "Depression"
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uFuOuFhOq4sCDsmrDsmrjspp0gKEdlcmlhdHJpYyBEZXByZXNzaW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: A

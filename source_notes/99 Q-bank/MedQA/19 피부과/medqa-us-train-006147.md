@@ -13,7 +13,9 @@ related_diseases:
   - "포르피리아 피부근육증"
   - "소변 유로포르피린"
   - "광과민성 수포"
+  - "porphyria cutanea tarda"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

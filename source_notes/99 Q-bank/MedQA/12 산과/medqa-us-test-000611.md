@@ -13,6 +13,8 @@ related_diseases:
   - "Rh 음성 임신"
   - "Rh 동종면역"
   - "항-D 면역글로불린"
+  - "Rh alloimmunization"
+related_disease_slugs: []
 question_type: prevention
 difficulty: complex
 answer: A

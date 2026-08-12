@@ -14,6 +14,8 @@ related_diseases:
   - "류마티스열"
   - "연쇄상구균 항체 교차반응"
 question_type: mechanism
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpC5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

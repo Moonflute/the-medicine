@@ -13,6 +13,9 @@ related_diseases:
   - "미란성 식도염"
   - "위식도역류질환"
   - "식도 협착"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsi53rj4Qg7Jet66WYIOyniO2ZmCAoR0VSRCkgKEdhc3Ryb2Vzb3BoYWdlYWwgUmVmbHV4IERpc2Vhc2UpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4Qg7ZiR7LCpIChFc29waGFnZWFsIFN0cmljdHVyZSkubWQ
 question_type: prognosis
 difficulty: standard
 answer: B

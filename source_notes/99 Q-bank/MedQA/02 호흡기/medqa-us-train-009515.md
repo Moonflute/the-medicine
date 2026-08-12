@@ -13,6 +13,9 @@ related_diseases:
   - "COPD exacerbation"
   - "COPD 급성 악화"
   - "noninvasive ventilation"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL0NPUETsnZgg6riJ7ISxIOyVhe2ZlCAoQWN1dGUgRXhhY2VyYmF0aW9uIG9mIENPUEQpLm1k
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: management
 difficulty: complex
 answer: B

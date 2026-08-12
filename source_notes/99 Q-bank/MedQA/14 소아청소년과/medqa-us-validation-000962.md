@@ -14,6 +14,8 @@ related_diseases:
   - "아데노신 탈아미노효소 결핍"
   - "반복 감염"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7KadIOuzte2VqSDrqbTsl60g6rKw7ZWN7KadIChTZXZlcmUgQ29tYmluZWQgSW1tdW5vZGVmaWNpZW5jeSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

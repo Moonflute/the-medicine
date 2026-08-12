@@ -14,6 +14,7 @@ related_diseases:
   - "sciatica"
   - "conservative management"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

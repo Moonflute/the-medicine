@@ -13,7 +13,9 @@ related_diseases:
   - "기관지 파열"
   - "외상성 기흉"
   - "피하기종"
+  - "Bronchial rupture"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

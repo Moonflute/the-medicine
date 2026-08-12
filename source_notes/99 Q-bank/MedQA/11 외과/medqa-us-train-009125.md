@@ -14,6 +14,8 @@ related_diseases:
   - "급성 구획증후군"
   - "tibial fracture"
   - "경골 골절"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uzteqwlSDqtaztmo0g7Kad7ZuE6rWwIChBYmRvbWluYWwgQ29tcGFydG1lbnQgU3luZHJvbWUpLm1k
 question_type: management
 difficulty: complex
 answer: C

@@ -14,6 +14,8 @@ related_diseases:
   - "widespread pain"
   - "tender points"
   - "normal inflammatory markers"
+  - "Fibromyalgia"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: B

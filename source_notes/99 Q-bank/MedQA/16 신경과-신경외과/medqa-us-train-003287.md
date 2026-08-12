@@ -15,6 +15,8 @@ related_diseases:
   - "acute migraine"
   - "photophobia"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjrjrkZDthrUgKE1pZ3JhaW5lKS5tZA
 difficulty: simple
 answer: C
 translation_status: machine-verified

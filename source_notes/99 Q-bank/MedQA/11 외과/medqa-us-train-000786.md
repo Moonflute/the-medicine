@@ -13,6 +13,8 @@ related_diseases:
   - "hypercalcemia"
   - "kidney stones"
   - "parathyroidectomy"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: management
 difficulty: complex
 answer: A

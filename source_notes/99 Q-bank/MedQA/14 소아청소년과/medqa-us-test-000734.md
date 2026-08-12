@@ -14,6 +14,7 @@ related_diseases:
   - "저염소성 대사성 알칼리증"
   - "영아 분출성 구토"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

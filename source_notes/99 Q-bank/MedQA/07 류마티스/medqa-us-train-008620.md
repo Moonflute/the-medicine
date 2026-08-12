@@ -13,6 +13,8 @@ related_diseases:
   - "dermatomyositis"
   - "anti-Jo-1 antibody"
   - "malignancy association"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yXvOymneyEsSDqt7zrs5Hspp0gKEluZmxhbW1hdG9yeSBNeW9wYXRoeSkubWQ
 question_type: prognosis
 difficulty: standard
 answer: A

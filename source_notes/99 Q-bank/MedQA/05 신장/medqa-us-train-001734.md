@@ -13,6 +13,8 @@ related_diseases:
   - "hepatitis C-associated membranoproliferative glomerulonephritis"
   - "mixed cryoglobulinemia"
   - "subendothelial immune complexes"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unieymneyLnSDthqDrpqzsvantjKXsl7wgKE1lbWJyYW5vcHJvbGlmZXJhdGl2ZSBHbG9tZXJ1bG9uZXBocml0aXMpLm1k
 question_type: mechanism
 difficulty: complex
 answer: A

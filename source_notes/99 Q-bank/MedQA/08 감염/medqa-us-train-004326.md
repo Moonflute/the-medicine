@@ -13,6 +13,8 @@ related_diseases:
   - "여행자 예방접종"
   - "A형 간염 예방"
   - "멕시코 여행"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEgQe2YlSDqsITsl7wgKEFjdXRlIEhlcGF0aXRpcyBBKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: D

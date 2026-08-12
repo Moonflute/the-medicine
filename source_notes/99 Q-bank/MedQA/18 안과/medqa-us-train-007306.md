@@ -14,6 +14,7 @@ related_diseases:
   - "외맥립종"
   - "눈꺼풀 모낭 감염"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: simple
 answer: A
 translation_status: machine-verified

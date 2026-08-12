@@ -13,6 +13,8 @@ related_diseases:
   - "acute pericarditis"
   - "pericardial friction rub"
   - "pleuritic chest pain"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrp4nsl7wgKEFjdXRlIFBlcmljYXJkaXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

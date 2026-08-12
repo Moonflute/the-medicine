@@ -14,6 +14,8 @@ related_diseases:
   - "소아 무통성 하부위장관 출혈"
   - "테크네튬-99m 퍼테크네테이트 스캔"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv66mU7LyIIOqyjOyLpCAoTWVja2VsJ3MgRGl2ZXJ0aWN1bHVtKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

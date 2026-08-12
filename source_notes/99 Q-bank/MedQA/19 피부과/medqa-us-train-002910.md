@@ -15,6 +15,7 @@ related_diseases:
   - "hard palate mass"
   - "midline palatal lesion"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

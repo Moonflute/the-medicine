@@ -14,6 +14,8 @@ related_diseases:
   - "연기 흡입"
   - "100% 산소"
 question_type: management
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-ydvOyCsO2ZlO2DhOyGjCDspJHrj4UgKENhcmJvbiBNb25veGlkZSBQb2lzb25pbmcpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

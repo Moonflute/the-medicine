@@ -13,6 +13,8 @@ related_diseases:
   - "전이성 대장직장암"
   - "간 전이"
   - "간 종괴"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

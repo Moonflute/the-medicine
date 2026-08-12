@@ -13,6 +13,9 @@ related_diseases:
   - "informed consent"
   - "사전 동의"
   - "incidental intraoperative finding"
+  - "Gastric cancer"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITslZQgKEdhc3RyaWMgQ2FuY2VyKS5tZA
 question_type: ethics
 difficulty: complex
 answer: B

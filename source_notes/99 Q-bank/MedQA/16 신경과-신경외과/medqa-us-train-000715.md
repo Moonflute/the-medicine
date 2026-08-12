@@ -12,6 +12,8 @@ specialty: 16 신경과-신경외과
 related_diseases:
   - "Wilson disease"
 question_type: mechanism
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snIzsiqjrs5EgKFdpbHNvbidzIERpc2Vhc2UpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

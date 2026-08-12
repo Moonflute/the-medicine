@@ -13,6 +13,7 @@ related_diseases:
   - "잘못된 부위 수술"
   - "수술 전 타임아웃"
   - "환자 안전"
+related_disease_slugs: []
 question_type: prevention
 difficulty: standard
 answer: A

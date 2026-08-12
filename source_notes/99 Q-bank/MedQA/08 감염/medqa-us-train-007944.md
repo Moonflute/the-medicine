@@ -13,6 +13,9 @@ related_diseases:
   - "Wiskott-Aldrich syndrome"
   - "thrombocytopenia"
   - "eczema"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAvV2lza290dC1BbGRyaWNoIOymne2bhOq1sCAoV2lza290dC1BbGRyaWNoIFN5bmRyb21lKS5tZA
+  - MDgg6rCQ7Je8L-ykkeymneyXtOyEsSDtmIjshoztjJDqsJDshowg7Kad7ZuE6rWwIChTRlRTKSAoU2V2ZXJlIEZldmVyIHdpdGggVGhyb21ib2N5dG9wZW5pYSBTeW5kcm9tZSAoU0ZUUykpLm1k
 question_type: diagnosis
 difficulty: simple
 answer: D

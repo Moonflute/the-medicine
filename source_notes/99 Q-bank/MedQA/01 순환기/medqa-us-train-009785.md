@@ -13,6 +13,10 @@ related_diseases:
   - "승모판 협착"
   - "류마티스성 심장질환"
   - "심방세동"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
+  - MDEg7Iic7ZmY6riwL-yKueuqqO2MkOuniSDtmJHssKkgKE1pdHJhbCBTdGVub3NpcykubWQ
+  - MDEg7Iic7ZmY6riwL-2MkOunieyniO2ZmC5tZA
 question_type: diagnosis
 difficulty: standard
 answer: C

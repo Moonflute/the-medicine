@@ -14,6 +14,7 @@ related_diseases:
   - "reassuring fetal status"
   - "intrapartum monitoring"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

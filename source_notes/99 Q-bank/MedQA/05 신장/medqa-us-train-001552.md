@@ -12,6 +12,8 @@ specialty: 05 신장
 related_diseases:
   - "transient proteinuria"
   - "orthostatic proteinuria"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4sOumveyEsSDri6jrsLHrh6ggKE9ydGhvc3RhdGljIFByb3RlaW51cmlhKS5tZA
 question_type: investigation
 difficulty: simple
 answer: A

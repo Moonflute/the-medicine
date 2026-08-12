@@ -13,7 +13,10 @@ related_diseases:
   - "낭성섬유증"
   - "신생아 면역반응성 트립시노겐 선별검사"
   - "땀 염소 검사"
+  - "Cystic fibrosis"
 question_type: investigation
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 difficulty: simple
 answer: A
 translation_status: machine-verified

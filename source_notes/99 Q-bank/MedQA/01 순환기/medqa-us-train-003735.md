@@ -14,6 +14,8 @@ related_diseases:
   - "varicose veins"
   - "dependent edema"
   - "compression stockings"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2VmOyngCDsoJXrp6XrpZggKFZhcmljb3NlIFZlaW4pLm1k
 question_type: management
 difficulty: complex
 answer: C

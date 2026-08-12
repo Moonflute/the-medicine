@@ -14,6 +14,9 @@ related_diseases:
   - "편평세포암"
   - "만성 자외선 노출"
 question_type: prognosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-q0keyEoCDqsIHtmZTspp0gKEFjdGluaWMgS2VyYXRvc2lzKS5tZA
+  - MTkg7ZS867aA6rO8L-2OuO2PiSDshLjtj6zslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

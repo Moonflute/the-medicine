@@ -14,6 +14,9 @@ related_diseases:
   - "신장 및 방광 초음파"
   - "대장균"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JqU66GcIOqwkOyXvCAoVXJpbmFyeSBUcmFjdCBJbmZlY3Rpb24pLm1k
+  - MDgg6rCQ7Je8L-uMgOyepeq3oCAoRS4gY29saSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

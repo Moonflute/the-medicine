@@ -15,6 +15,8 @@ related_diseases:
   - "increased intracranial pressure"
   - "papilledema"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDqsJzrgrTslZXtla3sp4QgKEluY3JlYXNlZCBpbnRyYWNyYW5pYWwgcHJlc3N1cmUpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

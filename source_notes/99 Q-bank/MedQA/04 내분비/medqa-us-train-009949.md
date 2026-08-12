@@ -13,6 +13,9 @@ related_diseases:
   - "엑세나타이드"
   - "GLP-1 수용체 작용제"
   - "심혈관 결과"
+  - "Type 2 diabetes mellitus"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: mechanism
 difficulty: standard
 answer: B

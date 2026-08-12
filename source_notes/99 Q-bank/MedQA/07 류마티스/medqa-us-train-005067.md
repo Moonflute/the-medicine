@@ -13,6 +13,8 @@ related_diseases:
   - "통풍결절"
   - "요산 신장결석"
   - "고요산혈증"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: C

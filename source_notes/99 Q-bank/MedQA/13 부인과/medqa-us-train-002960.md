@@ -15,6 +15,8 @@ related_diseases:
   - "term labor"
   - "cesarean delivery"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2aoeychCAoVHJhbnN2ZXJzZSBMaWUpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

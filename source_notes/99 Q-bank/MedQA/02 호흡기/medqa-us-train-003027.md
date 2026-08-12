@@ -14,6 +14,9 @@ related_diseases:
   - "bronchiectasis"
   - "recurrent sinopulmonary infections"
   - "sweat chloride test"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4sOq0gOyngCDtmZXsnqXspp0gKEJyb25jaGllY3Rhc2lzKS5tZA
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 question_type: investigation
 difficulty: standard
 answer: C

@@ -14,6 +14,7 @@ related_diseases:
   - "수포성 광과민성 피부질환"
   - "소변 우로포르피린"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

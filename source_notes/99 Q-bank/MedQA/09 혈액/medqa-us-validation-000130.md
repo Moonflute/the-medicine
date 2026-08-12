@@ -13,6 +13,9 @@ related_diseases:
   - "본태성 혈소판혈증"
   - "JAK2 돌연변이"
   - "고요산혈증"
+  - "Essential thrombocythemia"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uzuO2DnOyEsSDtmIjshoztjJDspp3qsIDspp0gKEVUKSAoRXNzZW50aWFsIFRocm9tYm9jeXRoZW1pYSAoRVQpKS5tZA
 question_type: investigation
 difficulty: complex
 answer: A

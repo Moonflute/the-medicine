@@ -13,6 +13,8 @@ related_diseases:
   - "2도 방실차단"
   - "Mobitz II"
   - "서맥성 쇼크"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uwqeyLpOywqOuLqCAoQVYgYmxvY2spLm1k
 question_type: management
 difficulty: complex
 answer: C

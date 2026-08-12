@@ -13,7 +13,9 @@ related_diseases:
   - "수두증"
   - "대천문 팽창"
   - "두부 초음파"
+  - "Hydrocephalus"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "경계성 인격장애"
   - "충동성"
   - "자살 시도"
+  - "Borderline personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -15,6 +15,8 @@ related_diseases:
   - "전립선 생검"
   - "PSA 상승"
 question_type: investigation
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

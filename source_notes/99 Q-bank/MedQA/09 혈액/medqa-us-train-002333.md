@@ -13,6 +13,8 @@ related_diseases:
   - "sickle cell disease"
   - "sickle cell stroke"
   - "chronic transfusion prophylaxis"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: prevention
 difficulty: complex
 answer: C

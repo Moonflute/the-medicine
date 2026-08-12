@@ -13,6 +13,8 @@ related_diseases:
   - "비타민 B12 결핍"
   - "아급성 연합성 변성"
   - "정신병적 증상"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEIg6rKw7ZWN7KadIChWaXRhbWluIEIgRGVmaWNpZW5jeSkubWQ
 question_type: investigation
 difficulty: complex
 answer: B

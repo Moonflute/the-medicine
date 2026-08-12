@@ -13,6 +13,8 @@ related_diseases:
   - "giant cell arteritis"
   - "temporal arteritis"
   - "tongue ischemia"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: C

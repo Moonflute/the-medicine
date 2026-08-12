@@ -14,6 +14,9 @@ related_diseases:
   - "prolactinoma"
   - "hyperprolactinemia"
   - "bitemporal hemianopia"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2UhOuhnOudve2LtCDrtoTruYQg7KKF7JaRIChQcm9sYWN0aW5vbWEpLm1k
+  - MDQg64K067aE67mEL-qzoO2UhOuhnOudve2LtO2YiOymnSAoSHlwZXJwcm9sYWN0aW5lbWlhKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: A

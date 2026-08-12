@@ -13,6 +13,8 @@ related_diseases:
   - "통풍"
   - "요산 일나트륨 결정"
   - "퓨린 섭취 감소"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ
 question_type: prevention
 difficulty: standard
 answer: B

@@ -15,6 +15,9 @@ related_diseases:
   - "hydronephrosis"
   - "renal ultrasound"
 question_type: investigation
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yWkeyEsSDsoITrpr3sg5gg67mE64yA7KadIChCZW5pZ24gUHJvc3RhdGljIEh5cGVycGxhc2lhKS5tZA
+  - MjAg67mE64eo6riw6rO8L-yalOuhnCDtj5Dsg4kgKFVyaW5hcnkgdHJhY3Qgb2JzdHJ1Y3Rpb24pLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

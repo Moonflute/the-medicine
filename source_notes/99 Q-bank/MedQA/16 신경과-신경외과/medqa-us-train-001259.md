@@ -13,6 +13,8 @@ related_diseases:
   - "internuclear ophthalmoplegia"
   - "multiple sclerosis"
 question_type: investigation
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

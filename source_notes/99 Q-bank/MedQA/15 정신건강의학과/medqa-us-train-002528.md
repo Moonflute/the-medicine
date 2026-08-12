@@ -14,6 +14,8 @@ related_diseases:
   - "agranulocytosis"
   - "neutropenia"
 question_type: adverse_effect
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2YuOykkeq1rOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "관절 공간 협소화"
   - "골극"
 question_type: investigation
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qzqOq0gOygiOyXvCAoT3N0ZW9hcnRocml0aXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

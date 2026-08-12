@@ -14,7 +14,9 @@ related_diseases:
   - "척수 염증"
   - "감각수준"
   - "신경인성 방광"
+  - "Transverse myelitis"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

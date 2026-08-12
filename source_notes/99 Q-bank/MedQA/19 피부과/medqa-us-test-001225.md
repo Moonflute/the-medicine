@@ -14,6 +14,9 @@ related_diseases:
   - "건선"
   - "아우스피츠 징후"
 question_type: diagnosis
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwleyngeyEsSDsspnstpTsl7wgKEFua3lsb3NpbmcgU3BvbmR5bGl0aXMpLm1k
+  - MTkg7ZS867aA6rO8L-qxtOyEoCAoUHNvcmlhc2lzKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "불안"
   - "인지행동치료"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uPhOuyvSAoS2xlcHRvbWFuaWEpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

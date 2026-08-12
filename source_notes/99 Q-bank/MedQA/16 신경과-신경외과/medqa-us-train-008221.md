@@ -14,6 +14,7 @@ related_diseases:
   - "peripheral edema"
   - "livedo reticularis"
 question_type: adverse_effect
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

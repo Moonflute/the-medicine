@@ -12,7 +12,10 @@ specialty: 13 부인과
 related_diseases:
   - "일차성 월경곤란증"
   - "프로스타글란딘"
+  - "Primary dysmenorrhea"
 question_type: mechanism
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yblOqyve2GtSAoRHlzbWVub3JyaGVhKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

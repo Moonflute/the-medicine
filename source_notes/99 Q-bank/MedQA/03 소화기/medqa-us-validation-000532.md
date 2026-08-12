@@ -13,6 +13,9 @@ related_diseases:
   - "급성 담관염"
   - "담석"
   - "발열·황달·복통"
+  - "Acute cholangitis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzqtIDsl7wgKENob2xhbmdpdGlzKS5tZA
 question_type: diagnosis
 difficulty: simple
 answer: C

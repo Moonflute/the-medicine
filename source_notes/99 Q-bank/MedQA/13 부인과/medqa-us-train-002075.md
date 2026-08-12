@@ -13,7 +13,9 @@ related_diseases:
   - "premature ovarian insufficiency"
   - "hypergonadotropic hypogonadism"
   - "estrogen deficiency"
+  - "Premature ovarian insufficiency"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

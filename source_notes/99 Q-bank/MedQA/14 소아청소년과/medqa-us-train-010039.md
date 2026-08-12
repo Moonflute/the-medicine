@@ -14,6 +14,7 @@ related_diseases:
   - "비우발적 손상"
   - "다발성 골절"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

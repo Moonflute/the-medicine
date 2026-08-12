@@ -14,6 +14,8 @@ related_diseases:
   - "수축성 심낭염"
   - "심낭 석회화"
   - "경정맥압 역설적 상승"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

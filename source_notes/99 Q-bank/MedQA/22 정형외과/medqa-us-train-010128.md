@@ -14,6 +14,8 @@ related_diseases:
   - "염증성 허리 통증"
   - "천장관절"
 question_type: investigation
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwleyngeyEsSDsspnstpTsl7wgKEFua3lsb3NpbmcgU3BvbmR5bGl0aXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "좌심부전"
   - "폐울혈"
   - "폐기저부 수포음"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: diagnosis
 difficulty: simple
 answer: B

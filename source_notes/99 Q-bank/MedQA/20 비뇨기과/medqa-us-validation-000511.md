@@ -14,6 +14,8 @@ related_diseases:
   - "여성 요도 길이"
   - "신혼 방광염"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JqU66GcIOqwkOyXvCAoVXJpbmFyeSBUcmFjdCBJbmZlY3Rpb24pLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

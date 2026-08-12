@@ -14,6 +14,8 @@ related_diseases:
   - "hemodialysis"
   - "dialysis complications"
   - "hypertriglyceridemia"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: adverse_effect
 difficulty: complex
 answer: C

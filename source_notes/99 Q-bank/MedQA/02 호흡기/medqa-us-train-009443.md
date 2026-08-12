@@ -13,6 +13,8 @@ related_diseases:
   - "exercise-induced bronchoconstriction"
   - "운동 유발 기관지수축"
   - "asthma"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: complex
 answer: A

@@ -13,6 +13,7 @@ related_diseases:
   - "사이클로스포린"
   - "다모증"
   - "치은비대"
+related_disease_slugs: []
 question_type: adverse_effect
 difficulty: complex
 answer: B

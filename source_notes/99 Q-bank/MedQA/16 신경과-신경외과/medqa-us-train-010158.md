@@ -14,6 +14,8 @@ related_diseases:
   - "ABCD1 수송체"
   - "탈수초성 질환"
 question_type: mechanism
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

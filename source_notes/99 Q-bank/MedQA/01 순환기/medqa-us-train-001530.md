@@ -12,6 +12,8 @@ specialty: 01 순환기
 related_diseases:
   - "acute pericarditis"
   - "radiation-induced pericarditis"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrp4nsl7wgKEFjdXRlIFBlcmljYXJkaXRpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

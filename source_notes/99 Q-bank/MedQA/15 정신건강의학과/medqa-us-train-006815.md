@@ -14,6 +14,7 @@ related_diseases:
   - "질병행동"
   - "직무 스트레스"
 question_type: ethics
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

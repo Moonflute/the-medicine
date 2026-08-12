@@ -13,6 +13,8 @@ related_diseases:
   - "scurvy"
   - "vitamin C deficiency"
   - "gingival bleeding"
+  - "Vitamin C deficiency"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: B

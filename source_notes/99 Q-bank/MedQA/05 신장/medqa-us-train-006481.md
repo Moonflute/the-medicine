@@ -13,6 +13,8 @@ related_diseases:
   - "단백뇨"
   - "일시적 단백뇨"
   - "소변검사 재확인"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-uLqOuwseuHqC5tZA
 question_type: investigation
 difficulty: complex
 answer: B

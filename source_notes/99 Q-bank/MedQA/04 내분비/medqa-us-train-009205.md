@@ -13,6 +13,7 @@ related_diseases:
   - "lithium toxicity"
   - "리튬 중독"
   - "hemodialysis"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

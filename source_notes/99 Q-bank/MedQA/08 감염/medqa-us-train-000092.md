@@ -12,6 +12,9 @@ specialty: 08 감염
 related_diseases:
   - "influenza"
   - "asthma"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yduO2UjOujqOyXlOyekCAoSW5mbHVlbnphKS5tZA
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: complex
 answer: D

@@ -14,6 +14,7 @@ related_diseases:
   - "콘택트렌즈 관련 손상"
   - "플루오레세인 염색"
 question_type: investigation
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "베르니케 실어증"
   - "좌측 측두엽 뇌졸중"
   - "유창성 실어증"
+  - "Wernicke aphasia"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

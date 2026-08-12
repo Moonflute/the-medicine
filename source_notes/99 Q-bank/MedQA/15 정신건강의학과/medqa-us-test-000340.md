@@ -14,6 +14,8 @@ related_diseases:
   - "거미공포증"
   - "노출치료"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2KueyglSDqs7Xtj6zspp0gKFNwZWNpZmljIFBob2JpYSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

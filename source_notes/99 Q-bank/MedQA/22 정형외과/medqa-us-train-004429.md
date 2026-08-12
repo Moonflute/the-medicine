@@ -13,7 +13,9 @@ related_diseases:
   - "급성 요추 염좌"
   - "요통"
   - "근육 긴장"
+  - "lumbar strain"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

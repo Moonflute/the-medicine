@@ -13,6 +13,8 @@ related_diseases:
   - "흡인성 폐렴"
   - "뇌졸중 후 연하장애"
   - "우상엽 폐침윤"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: mechanism
 difficulty: complex
 answer: C

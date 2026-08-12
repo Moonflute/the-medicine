@@ -15,6 +15,8 @@ related_diseases:
   - "ash-leaf macules"
   - "shagreen patch"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rKw7KCI7ISxIOqyve2ZlOymnSAoVHViZXJvdXMgU2NsZXJvc2lzKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

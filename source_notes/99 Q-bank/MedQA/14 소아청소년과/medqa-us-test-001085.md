@@ -13,7 +13,9 @@ related_diseases:
   - "후비공 폐쇄"
   - "신생아 청색증"
   - "양측 후비공 폐쇄"
+  - "Bilateral choanal atresia"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

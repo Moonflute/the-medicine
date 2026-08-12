@@ -14,6 +14,8 @@ related_diseases:
   - "atlantoaxial subluxation"
   - "cervical spine radiograph"
   - "rheumatoid factor"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: A

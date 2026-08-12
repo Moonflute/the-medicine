@@ -13,6 +13,8 @@ related_diseases:
   - "AIDS"
   - "두개내압 상승"
   - "기회감염성 수막염"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 question_type: investigation
 difficulty: simple
 answer: D

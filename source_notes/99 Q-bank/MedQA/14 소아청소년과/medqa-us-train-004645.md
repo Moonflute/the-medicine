@@ -14,6 +14,8 @@ related_diseases:
   - "청색증성 선천성 심장병"
   - "동맥관 개존 유지"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA7ZiI6rSAIOyghOychCAoVHJhbnNwb3NpdGlvbiBvZiB0aGUgR3JlYXQgQXJ0ZXJpZXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

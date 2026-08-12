@@ -13,7 +13,10 @@ related_diseases:
   - "섬망 tremens"
   - "알코올 금단"
   - "환각"
+  - "Delirium tremens"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yErOunnSAoRGVsaXJpdW0pLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

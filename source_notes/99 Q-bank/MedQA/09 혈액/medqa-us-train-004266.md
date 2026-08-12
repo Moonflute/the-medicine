@@ -13,6 +13,9 @@ related_diseases:
   - "혈우병 A"
   - "혈관절증"
   - "응고인자 VIII 결핍"
+  - "Hemophilia A"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOyasOuzkSAoSGVtb3BoaWxpYSkubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: C

@@ -11,6 +11,7 @@ language: ko
 specialty: 03 소화기
 related_diseases:
   - "hemochromatosis"
+related_disease_slugs: []
 question_type: prognosis
 difficulty: standard
 answer: D

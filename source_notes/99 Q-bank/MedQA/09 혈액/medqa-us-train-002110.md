@@ -13,6 +13,8 @@ related_diseases:
   - "immune thrombocytopenia"
   - "immune thrombocytopenic purpura"
   - "antiplatelet IgG"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2KueuwnOyEsSDtmIjshoztjJDqsJDshozshLEg7J6Q67CY7KadIChJZGlvcGF0aGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgSVRQKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

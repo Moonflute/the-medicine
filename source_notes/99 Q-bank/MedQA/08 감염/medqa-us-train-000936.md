@@ -15,6 +15,10 @@ related_diseases:
   - "diphtheria"
   - "hepatitis B"
   - "chickenpox"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2MjOyDge2SjSAoVGV0YW51cykubWQ
+  - MTIg7IKw6rO8L-yImOuRkCAoVmFyaWNlbGxhKS5tZA
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: B

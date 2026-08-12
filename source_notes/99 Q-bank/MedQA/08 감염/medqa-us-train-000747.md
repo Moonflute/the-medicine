@@ -11,6 +11,8 @@ language: ko
 specialty: 08 감염
 related_diseases:
   - "heparin-induced thrombocytopenia"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2XpO2MjOumsCDsnKDrsJwg7ZiI7IaM7YyQ6rCQ7IaM7KadIChIZXBhcmluLUluZHVjZWQgVGhyb21ib2N5dG9wZW5pYSwgSElUKS5tZA
 question_type: management
 difficulty: complex
 answer: B

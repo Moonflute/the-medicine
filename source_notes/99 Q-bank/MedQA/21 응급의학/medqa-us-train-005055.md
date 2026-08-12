@@ -14,6 +14,8 @@ related_diseases:
   - "생리적 ADH 분비"
   - "저나트륨혈증"
 question_type: mechanism
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

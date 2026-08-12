@@ -14,6 +14,8 @@ related_diseases:
   - "adnexal torsion"
   - "reduced ovarian blood flow"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u2gOyGjeq4sOyXvOyghCAoQWRuZXhhbCBUb3JzaW9uKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

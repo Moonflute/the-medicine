@@ -13,6 +13,7 @@ related_diseases:
   - "subclavian steal syndrome"
   - "vertebrobasilar insufficiency"
   - "Doppler ultrasound"
+related_disease_slugs: []
 question_type: investigation
 difficulty: standard
 answer: B

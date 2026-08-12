@@ -14,6 +14,7 @@ related_diseases:
   - "시탈로프람-트라마돌 상호작용"
   - "과다반사"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

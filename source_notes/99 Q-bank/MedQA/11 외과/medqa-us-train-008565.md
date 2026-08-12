@@ -13,6 +13,7 @@ related_diseases:
   - "traumatic finger amputation"
   - "amputated digit preservation"
   - "replantation"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: D

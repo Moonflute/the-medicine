@@ -13,6 +13,8 @@ related_diseases:
   - "toxic shock syndrome"
   - "nasal packing"
   - "Staphylococcus aureus"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

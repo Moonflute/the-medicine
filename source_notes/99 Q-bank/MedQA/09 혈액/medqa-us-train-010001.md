@@ -13,6 +13,9 @@ related_diseases:
   - "비타민 K 결핍"
   - "응고인자 II 결핍"
   - "지방변"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-u5hO2DgOuvvCBLIOqysO2VjSAoVml0YW1pbiBLIERlZmljaWVuY3kpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sp4DrsKnrs4AgKFN0ZWF0b3JyaGVhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

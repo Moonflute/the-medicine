@@ -13,6 +13,9 @@ related_diseases:
   - "지중해빈혈"
   - "소구성 빈혈"
   - "정상 철 저장량"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yngOykke2VtCDruYjtmIggKFRoYWxhc3NlbWlhKS5tZA
+  - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

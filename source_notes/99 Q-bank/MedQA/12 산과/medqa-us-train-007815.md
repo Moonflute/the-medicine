@@ -14,6 +14,8 @@ related_diseases:
   - "false labor"
   - "preterm labor evaluation"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yhsOq4sCDsp4TthrUgKFByZXRlcm0gTGFib3IpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

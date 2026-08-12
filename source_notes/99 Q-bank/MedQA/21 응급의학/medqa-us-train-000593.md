@@ -15,6 +15,8 @@ related_diseases:
   - "peroneal nerve injury"
   - "asthma"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

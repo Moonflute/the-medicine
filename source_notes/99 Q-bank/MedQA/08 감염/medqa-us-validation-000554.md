@@ -13,6 +13,8 @@ related_diseases:
   - "예르시니아 장염"
   - "Yersinia enterocolitica"
   - "덜 익힌 돼지고기"
+  - "Yersinia enterocolitica infection"
+related_disease_slugs: []
 question_type: prevention
 difficulty: standard
 answer: B

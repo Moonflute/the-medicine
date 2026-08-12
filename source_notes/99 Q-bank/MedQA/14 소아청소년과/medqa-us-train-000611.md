@@ -12,6 +12,8 @@ specialty: 14 소아청소년과
 related_diseases:
   - "bronchiolitis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riJ7ISxIOyEuOq4sOq0gOyngOyXvCAoQWN1dGUgQnJvbmNoaW9saXRpcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "니켈 알레르기"
   - "금속 과민반응"
 question_type: diagnosis
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sC5tZA
+  - MTkg7ZS867aA6rO8L-ygkey0ie2UvOu2gOyXvCAoQ29udGFjdCBEZXJtYXRpdGlzKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

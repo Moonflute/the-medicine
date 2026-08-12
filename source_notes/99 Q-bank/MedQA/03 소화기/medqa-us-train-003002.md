@@ -14,6 +14,9 @@ related_diseases:
   - "mild ulcerative colitis"
   - "mesalamine"
   - "bloody diarrhea"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shKTsgqwgKERpYXJyaGVhKS5tZA
 question_type: management
 difficulty: standard
 answer: B

@@ -14,6 +14,9 @@ related_diseases:
   - "수술 후 혈전증"
   - "췌장암"
 question_type: investigation
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

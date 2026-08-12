@@ -14,6 +14,8 @@ related_diseases:
   - "ischemic acute kidney injury"
   - "muddy brown casts"
   - "BUN creatinine ratio"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

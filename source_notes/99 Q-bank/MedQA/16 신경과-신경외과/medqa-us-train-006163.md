@@ -13,7 +13,10 @@ related_diseases:
   - "척추 골수염"
   - "정맥주사 약물 사용"
   - "발열과 요통"
+  - "Spinal osteomyelitis"
 question_type: diagnosis
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

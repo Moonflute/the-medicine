@@ -13,6 +13,9 @@ related_diseases:
   - "schizophrenia"
   - "drug-induced parkinsonism"
 question_type: mechanism
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjIztgqjsiqgg7Kad7ZuE6rWwIChQYXJraW5zb25pc20pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

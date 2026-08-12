@@ -13,7 +13,9 @@ related_diseases:
   - "페니토인 독성"
   - "노인 영양불량"
   - "운동실조"
+  - "Phenytoin toxicity"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

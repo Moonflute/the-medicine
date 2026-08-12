@@ -14,6 +14,8 @@ related_diseases:
   - "인슐린 결핍"
   - "삼투성 이뇨"
   - "다뇨"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ygnDHtmJUg64u564eo67ORIChUeXBlIDEgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: mechanism
 difficulty: standard
 answer: D

@@ -13,6 +13,8 @@ related_diseases:
   - "postoperative fever"
   - "inflammatory response to surgery"
   - "postoperative day 1"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yImOyIoCDtm4Qg67Cc7Je0IChQb3N0b3BlcmF0aXZlIEZldmVyKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

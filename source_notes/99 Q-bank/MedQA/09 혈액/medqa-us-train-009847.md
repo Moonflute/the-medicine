@@ -13,6 +13,8 @@ related_diseases:
   - "혈우병 B"
   - "제9응고인자 결핍"
   - "유전성 출혈질환"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ydkeqzoOyduOyekCDsp4jtmZgubWQ
 question_type: mechanism
 difficulty: standard
 answer: A

@@ -14,6 +14,8 @@ related_diseases:
   - "임신 전 당뇨병"
   - "nonstress test"
 question_type: prevention
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
 difficulty: simple
 answer: D
 translation_status: machine-verified

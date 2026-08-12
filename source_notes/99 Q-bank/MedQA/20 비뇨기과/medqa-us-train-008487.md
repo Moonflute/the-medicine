@@ -14,6 +14,8 @@ related_diseases:
   - "balanitis xerotica obliterans"
   - "urethral meatal stenosis"
 question_type: investigation
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-q3gOuRkCDtj6ztlLzsl7wgKEJhbGFub3Bvc3RoaXRpcykubWQ
 difficulty: simple
 answer: C
 translation_status: machine-verified

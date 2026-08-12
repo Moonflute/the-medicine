@@ -13,6 +13,8 @@ related_diseases:
   - "제2형 당뇨병"
   - "흑색가시세포증"
   - "인슐린 저항성"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -13,6 +13,8 @@ related_diseases:
   - "와파린 유발 피부괴사"
   - "단백질 C 결핍"
   - "자반"
+  - "Warfarin-induced skin necrosis"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

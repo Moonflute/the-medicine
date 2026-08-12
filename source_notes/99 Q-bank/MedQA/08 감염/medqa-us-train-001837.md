@@ -13,6 +13,8 @@ related_diseases:
   - "severe combined immunodeficiency"
   - "B-cell deficiency"
   - "T-cell deficiency"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7KadIOuzte2VqSDrqbTsl60g6rKw7ZWN7KadIChTZXZlcmUgQ29tYmluZWQgSW1tdW5vZGVmaWNpZW5jeSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

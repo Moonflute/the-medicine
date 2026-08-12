@@ -13,6 +13,8 @@ related_diseases:
   - "무기폐"
   - "수술 후 폐합병증"
   - "복부 수술"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv66y06riw7Y-QIChBdGVsZWN0YXNpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

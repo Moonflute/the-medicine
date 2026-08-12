@@ -14,6 +14,7 @@ related_diseases:
   - "유두부종"
   - "아세타졸아미드"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

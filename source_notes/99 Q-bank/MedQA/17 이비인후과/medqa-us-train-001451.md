@@ -13,6 +13,8 @@ related_diseases:
   - "epistaxis"
   - "anterior nasal bleeding"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-u5hOy2nO2YiCAoRXBpc3RheGlzKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

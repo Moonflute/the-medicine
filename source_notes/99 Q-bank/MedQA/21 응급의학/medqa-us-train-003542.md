@@ -15,6 +15,7 @@ related_diseases:
   - "informed consent"
   - "cross-cultural communication"
 question_type: communication
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

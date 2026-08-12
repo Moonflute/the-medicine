@@ -13,6 +13,8 @@ related_diseases:
   - "급성 심근경색"
   - "혈전용해요법"
   - "최근 뇌졸중"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: management
 difficulty: complex
 answer: D

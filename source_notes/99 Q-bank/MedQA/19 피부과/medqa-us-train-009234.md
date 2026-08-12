@@ -13,7 +13,10 @@ related_diseases:
   - "plantar wart"
   - "족저사마귀"
   - "human papillomavirus"
+  - "human papillomavirus infection"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u-sOyhsSDsvZjrlJzroZzrp4ggKENvbmR5bG9tYSBBY3VtaW5hdHVtKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "만성 림프구성 백혈병"
   - "스머지 세포"
   - "무증상 초기 CLL"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChDTEwpIChDaHJvbmljIEx5bXBob2N5dGljIExldWtlbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: C

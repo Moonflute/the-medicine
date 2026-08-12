@@ -14,7 +14,10 @@ related_diseases:
   - "focal neurologic deficit"
   - "third nerve palsy"
   - "secondary headache"
+  - "brain tumor"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsooXslpEgKEJyYWluIHR1bW9yKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

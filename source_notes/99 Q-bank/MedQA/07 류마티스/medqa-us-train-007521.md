@@ -14,6 +14,8 @@ related_diseases:
   - "항Jo-1 항체"
   - "염증성 근육병증"
   - "메토트렉세이트"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yXvOymneyEsSDqt7zrs5Hspp0gKEluZmxhbW1hdG9yeSBNeW9wYXRoeSkubWQ
 question_type: management
 difficulty: complex
 answer: B

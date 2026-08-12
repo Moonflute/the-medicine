@@ -13,6 +13,8 @@ related_diseases:
   - "Wiskott-Aldrich syndrome"
   - "immunodeficiency"
   - "thrombocytopenia"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAvV2lza290dC1BbGRyaWNoIOymne2bhOq1sCAoV2lza290dC1BbGRyaWNoIFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: simple
 answer: A

@@ -13,6 +13,10 @@ related_diseases:
   - "겸상적혈구병"
   - "혈관외 용혈"
   - "용혈성 빈혈"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOq0gCDsmbgg7Jqp7ZiIIChFeHRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "바이러스성 수막염"
   - "콕사키바이러스"
   - "무균성 수막염"
+  - "Coxsackievirus infection"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

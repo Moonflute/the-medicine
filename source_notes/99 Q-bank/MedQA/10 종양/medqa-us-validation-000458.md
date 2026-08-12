@@ -13,6 +13,8 @@ related_diseases:
   - "담낭 전이"
   - "악성 흑색종"
   - "담낭 종괴"
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yVheyEsSDtnZHsg4nsooUgKE1hbGlnbmFudCBNZWxhbm9tYSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

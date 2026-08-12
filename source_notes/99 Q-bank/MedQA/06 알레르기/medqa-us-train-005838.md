@@ -13,6 +13,9 @@ related_diseases:
   - "급성 두드러기"
   - "식품 알레르기"
   - "히스타민 H1 차단제"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-uRkOuTnOufrOq4sCAoVXJ0aWNhcmlhKS5tZA
+  - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sC5tZA
 question_type: management
 difficulty: complex
 answer: B

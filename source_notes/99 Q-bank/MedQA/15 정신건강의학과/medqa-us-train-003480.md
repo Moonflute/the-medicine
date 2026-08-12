@@ -14,7 +14,9 @@ related_diseases:
   - "ego-syntonic perfectionism"
   - "rigidity"
   - "preoccupation with control"
+  - "Obsessive-compulsive personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

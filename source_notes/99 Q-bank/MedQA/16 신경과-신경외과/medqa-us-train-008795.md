@@ -14,6 +14,8 @@ related_diseases:
   - "postinfectious polyneuropathy"
   - "spirometry"
 question_type: investigation
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_quLjrnpEt67CU66CIIOymne2bhOq1sCAoR3VpbGxhaW4tQmFycsOpIHN5bmRyb21lKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

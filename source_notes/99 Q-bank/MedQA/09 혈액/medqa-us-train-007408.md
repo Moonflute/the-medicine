@@ -14,6 +14,9 @@ related_diseases:
   - "용혈성 빈혈"
   - "비장절제술"
   - "비장절제 후 예방접종"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ycoOyghCDqtaztmIjsoIHtmIjqtazspp0gKEhlcmVkaXRhcnkgU3BoZXJvY3l0b3NpcykubWQ
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: management
 difficulty: complex
 answer: D

@@ -11,6 +11,8 @@ language: ko
 specialty: 11 외과
 related_diseases:
   - "aortic dissection"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: B

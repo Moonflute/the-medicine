@@ -14,6 +14,8 @@ related_diseases:
   - "cerebellar tumor"
   - "pediatric brain tumor"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsooXslpEgKEJyYWluIHR1bW9yKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

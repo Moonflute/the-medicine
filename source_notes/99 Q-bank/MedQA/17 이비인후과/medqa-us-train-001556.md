@@ -14,6 +14,8 @@ related_diseases:
   - "mastoiditis"
   - "Pseudomonas infection"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uvuOunjOyEsSDsmbjsnbTrj4Tsl7wgKERpZmZ1c2UgRXh0ZXJuYWwgT3RpdGlzKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

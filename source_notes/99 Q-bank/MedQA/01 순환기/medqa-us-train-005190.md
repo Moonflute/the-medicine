@@ -13,6 +13,8 @@ related_diseases:
   - "승모판 역류"
   - "좌심부전"
   - "폐울혈"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: diagnosis
 difficulty: standard
 answer: A

@@ -13,6 +13,9 @@ related_diseases:
   - "다발근염"
   - "염증성 근육병"
   - "근전도검사"
+  - "polymyositis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yXvOymneyEsSDqt7zrs5Hspp0gKEluZmxhbW1hdG9yeSBNeW9wYXRoeSkubWQ
 question_type: investigation
 difficulty: complex
 answer: B

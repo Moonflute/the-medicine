@@ -13,6 +13,8 @@ related_diseases:
   - "소세포 폐암"
   - "뇌 전이"
   - "이소성 ACTH"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: D

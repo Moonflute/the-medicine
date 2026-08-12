@@ -13,6 +13,9 @@ related_diseases:
   - "유전구형적혈구증"
   - "스펙트린 결함"
   - "혈관외 용혈"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ycoOyghCDqtaztmIjsoIHtmIjqtazspp0gKEhlcmVkaXRhcnkgU3BoZXJvY3l0b3NpcykubWQ
+  - MDkg7ZiI7JWhL-2YiOq0gCDsmbgg7Jqp7ZiIIChFeHRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

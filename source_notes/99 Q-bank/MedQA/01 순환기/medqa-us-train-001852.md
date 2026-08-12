@@ -13,6 +13,8 @@ related_diseases:
   - "deep venous thrombosis"
   - "proximal DVT"
   - "venous duplex ultrasound"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 question_type: diagnosis
 difficulty: standard
 answer: C

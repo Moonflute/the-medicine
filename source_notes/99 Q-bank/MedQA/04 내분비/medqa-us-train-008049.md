@@ -13,6 +13,8 @@ related_diseases:
   - "exogenous hyperthyroidism"
   - "thyrotoxicosis"
   - "weight-loss supplement"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

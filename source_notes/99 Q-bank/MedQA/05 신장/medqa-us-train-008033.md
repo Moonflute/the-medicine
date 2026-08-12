@@ -13,6 +13,9 @@ related_diseases:
   - "anemia of chronic kidney disease"
   - "decreased erythropoietin"
   - "chronic kidney disease"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
+  - MDkg7ZiI7JWhL-unjOyEsSDsp4jtmZgg67mI7ZiIIChBbmVtaWEgb2YgQ2hyb25pYyBEaXNlYXNlKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

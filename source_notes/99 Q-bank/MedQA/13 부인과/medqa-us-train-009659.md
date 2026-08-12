@@ -14,6 +14,8 @@ related_diseases:
   - "복압성 요실금"
   - "pelvic floor exercise"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

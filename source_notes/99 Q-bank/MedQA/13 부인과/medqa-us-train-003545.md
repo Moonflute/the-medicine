@@ -15,6 +15,9 @@ related_diseases:
   - "breastfeeding continuation"
   - "dicloxacillin"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yImOycoOq4sCDsnKDrsKnsl7wgKExhY3RhdGlvbmFsIE1hc3RpdGlzKS5tZA
+  - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

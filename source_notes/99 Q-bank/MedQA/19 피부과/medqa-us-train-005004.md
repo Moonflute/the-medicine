@@ -14,6 +14,8 @@ related_diseases:
   - "스티븐스-존슨 증후군"
   - "시프로플록사신 유발 중증 피부약물이상반응"
 question_type: investigation
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yKpO2LsOu4kOyKpC3sobTsiqgg7Kad7ZuE6rWwLeuPheyEsSDtkZztlLwg6rS07IKsIChTdGV2ZW5zLUpvaG5zb24gU3luZHJvbWUgLSBUb3hpYyBFcGlkZXJtYWwgTmVjcm9seXNpcykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

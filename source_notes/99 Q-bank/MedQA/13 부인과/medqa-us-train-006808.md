@@ -14,6 +14,9 @@ related_diseases:
   - "폐경 비뇨생식기 증후군"
   - "재발성 요로감염"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ychOy2leyEsSDsp4jsl7wgKEF0cm9waGljIFZhZ2luaXRpcykubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JqU66GcIOqwkOyXvCAoVXJpbmFyeSBUcmFjdCBJbmZlY3Rpb24pLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

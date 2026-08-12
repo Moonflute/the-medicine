@@ -13,6 +13,8 @@ related_diseases:
   - "신동맥 섬유근이형성증"
   - "이차성 고혈압"
   - "신동맥 풍선혈관성형술"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
 question_type: management
 difficulty: complex
 answer: D

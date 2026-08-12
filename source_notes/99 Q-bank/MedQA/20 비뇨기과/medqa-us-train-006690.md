@@ -14,6 +14,8 @@ related_diseases:
   - "복압성 요실금 악화"
   - "소변 배양"
 question_type: investigation
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

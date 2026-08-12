@@ -13,6 +13,8 @@ related_diseases:
   - "hemophilia A"
   - "혈우병 A"
   - "hemarthrosis"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOyasOuzkSAoSGVtb3BoaWxpYSkubWQ
 question_type: investigation
 difficulty: standard
 answer: B

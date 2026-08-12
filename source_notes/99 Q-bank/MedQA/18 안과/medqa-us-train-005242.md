@@ -13,7 +13,10 @@ related_diseases:
   - "급성 폐쇄각 녹내장"
   - "안압 상승"
   - "에피네프린 금기"
+  - "Acute angle-closure glaucoma"
 question_type: management
+related_disease_slugs:
+  - MTgg7JWI6rO8L-uFueuCtOyepSAoZ2xhdWNvbWEpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

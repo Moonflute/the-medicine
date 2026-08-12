@@ -14,6 +14,7 @@ related_diseases:
   - "티라민 유발 고혈압 위기"
   - "모노아민산화효소 억제제"
 question_type: investigation
+related_disease_slugs: []
 difficulty: simple
 answer: C
 translation_status: machine-verified

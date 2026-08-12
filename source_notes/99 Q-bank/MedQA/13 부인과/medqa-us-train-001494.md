@@ -13,6 +13,8 @@ related_diseases:
   - "primary dysmenorrhea"
   - "hormonal contraception"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yblOqyve2GtSAoRHlzbWVub3JyaGVhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

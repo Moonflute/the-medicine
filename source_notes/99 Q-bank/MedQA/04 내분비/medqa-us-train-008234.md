@@ -13,6 +13,9 @@ related_diseases:
   - "Leydig cell tumor"
   - "precocious puberty"
   - "testicular tumor"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yEuOultO2GqOumrC3rnbzsnbTrlJTtnogg7IS47Y-sIOyiheyWkSAoU2VydG9saS1MZXlkaWcgQ2VsbCBUdW1vcikubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7KGw7IiZ7KadIChTZXh1YWwgUHJlY29jaW91c25lc3MpLm1k
 question_type: diagnosis
 difficulty: simple
 answer: A

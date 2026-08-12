@@ -13,6 +13,9 @@ related_diseases:
   - "당뇨병성 자율신경병증"
   - "기립성 저혈압"
   - "발기부전"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4sOumveyEsSDsoIDtmIjslZUgKE9ydGhvc3RhdGljIEh5cG90ZW5zaW9uKS5tZA
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
 question_type: association
 difficulty: complex
 answer: C

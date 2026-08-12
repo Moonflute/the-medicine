@@ -14,6 +14,8 @@ related_diseases:
   - "임신 초기 출혈"
   - "기대요법"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-u2iOyZhOyghCDsnKDsgrAgKEluY29tcGxldGUgQWJvcnRpb24pLm1k
 difficulty: simple
 answer: C
 translation_status: machine-verified

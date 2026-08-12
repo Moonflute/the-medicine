@@ -13,7 +13,9 @@ related_diseases:
   - "말초성 성조숙증"
   - "에스트로겐 분비 난소 종양"
   - "과립막세포종"
+  - "Granulosa cell tumor"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: simple
 answer: A
 translation_status: machine-verified

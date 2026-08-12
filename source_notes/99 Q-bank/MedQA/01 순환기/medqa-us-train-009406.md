@@ -13,6 +13,8 @@ related_diseases:
   - "acute decompensated heart failure"
   - "급성 비보상성 심부전"
   - "pulmonary edema"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrtoDsoIQgKEFjdXRlIEhlYXJ0IEZhaWx1cmUpLm1k
 question_type: management
 difficulty: complex
 answer: C

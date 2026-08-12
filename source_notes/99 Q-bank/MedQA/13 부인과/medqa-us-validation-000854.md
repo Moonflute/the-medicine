@@ -13,7 +13,9 @@ related_diseases:
   - "배란통"
   - "중간주기 통증"
   - "더글라스와 액체"
+  - "Ovulation pain"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "저혈량성 쇼크"
   - "보상성 혈관수축"
 question_type: mechanism
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sg4HrtoAg7JyE7J6l6rSAIOy2nO2YiCAoVXBwZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

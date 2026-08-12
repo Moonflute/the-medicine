@@ -13,6 +13,8 @@ related_diseases:
   - "심장 잡음"
   - "무증상 심장 소견"
   - "운동선수 선별"
+  - "Innocent heart murmur"
+related_disease_slugs: []
 question_type: prognosis
 difficulty: complex
 answer: A

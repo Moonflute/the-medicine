@@ -13,6 +13,8 @@ related_diseases:
   - "급성 류마티스열"
   - "류마티스성 심장염"
   - "심부전"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

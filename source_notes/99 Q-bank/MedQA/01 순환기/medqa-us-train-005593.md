@@ -13,6 +13,7 @@ related_diseases:
   - "일과성 흑암시"
   - "경동맥 죽상경화"
   - "망막 허혈"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: A

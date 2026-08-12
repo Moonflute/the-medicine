@@ -14,6 +14,9 @@ related_diseases:
   - "estrogen receptor-positive breast cancer"
   - "endometrial cancer risk"
   - "venous thromboembolism"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: adverse_effect
 difficulty: complex
 answer: A

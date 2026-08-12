@@ -14,6 +14,9 @@ related_diseases:
   - "제한적 반복 행동"
   - "사회적 의사소통 장애"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yekO2PkCDsiqTtjpntirjrn7wg7J6l7JWgIChBdXRpc20gU3BlY3RydW0gRGlzb3JkZXIpLm1k
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ydmOyCrOyGjO2GtSDsnqXslaAgKENvbW11bmljYXRpb24gRGlzb3JkZXIpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

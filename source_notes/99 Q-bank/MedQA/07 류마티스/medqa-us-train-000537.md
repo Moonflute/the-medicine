@@ -12,6 +12,9 @@ specialty: 07 류마티스
 related_diseases:
   - "septic arthritis"
   - "rheumatoid arthritis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
+  - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

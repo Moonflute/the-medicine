@@ -13,7 +13,10 @@ related_diseases:
   - "뇌사"
   - "장기기증"
   - "법적 사망"
+  - "Brain death"
 question_type: ethics
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsgqwgKEJyYWluIGRlYXRoKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

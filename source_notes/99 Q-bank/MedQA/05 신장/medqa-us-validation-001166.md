@@ -13,6 +13,8 @@ related_diseases:
   - "단순 신장낭종"
   - "상염색체 우성 다낭성 신장병"
   - "신장 초음파"
+  - "Simple renal cyst"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: B

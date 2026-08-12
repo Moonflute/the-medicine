@@ -13,6 +13,8 @@ related_diseases:
   - "major depressive disorder"
   - "serotonin syndrome"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

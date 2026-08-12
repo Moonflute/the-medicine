@@ -12,6 +12,8 @@ specialty: 03 소화기
 related_diseases:
   - "Mallory-Weiss tear"
   - "upper gastrointestinal bleeding"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-ychOyepeq0gCDstpztmIggKEdhc3Ryb2ludGVzdGluYWwgQmxlZWRpbmcpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

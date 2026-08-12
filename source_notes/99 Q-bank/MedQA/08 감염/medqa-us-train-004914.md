@@ -13,6 +13,8 @@ related_diseases:
   - "백일해"
   - "Tdap 예방접종"
   - "밀접 접촉자 예방적 항생제"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cx7J287ZW0IChQZXJ0dXNzaXMpLm1k
 question_type: prevention
 difficulty: complex
 answer: B

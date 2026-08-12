@@ -14,6 +14,8 @@ related_diseases:
   - "오슬러 결절"
   - "승모판 탈출증"
   - "혈액배양"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
 question_type: management
 difficulty: standard
 answer: B

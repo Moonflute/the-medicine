@@ -14,6 +14,8 @@ related_diseases:
   - "painless hematuria"
   - "cystoscopy"
 question_type: investigation
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-uwqeq0keyVlCAoQmxhZGRlciBjYW5jZXIpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

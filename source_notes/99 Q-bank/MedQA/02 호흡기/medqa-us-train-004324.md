@@ -13,6 +13,8 @@ related_diseases:
   - "수술 후 폐렴"
   - "폐 합병증 예방"
   - "유발성 폐활량계"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: 임상증례 객관식
 difficulty: simple
 answer: C

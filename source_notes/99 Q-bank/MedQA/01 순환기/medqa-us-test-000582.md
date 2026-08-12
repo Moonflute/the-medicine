@@ -13,6 +13,9 @@ related_diseases:
   - "그레이브스병"
   - "심방세동"
   - "갑상샘항진증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 question_type: prognosis
 difficulty: complex
 answer: C

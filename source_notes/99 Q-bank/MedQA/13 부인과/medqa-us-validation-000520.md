@@ -13,7 +13,9 @@ related_diseases:
   - "질 내 이물"
   - "소아 질분비물"
   - "질 세척"
+  - "Vaginal foreign body"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

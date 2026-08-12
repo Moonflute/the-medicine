@@ -14,6 +14,8 @@ related_diseases:
   - "Prinzmetal angina"
   - "coronary vasospasm"
   - "calcium-channel blocker"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uzgOydtO2YlSDtmJHsi6zspp0gKFZhcmlhbnQgQW5naW5hKS5tZA
 question_type: management
 difficulty: standard
 answer: B

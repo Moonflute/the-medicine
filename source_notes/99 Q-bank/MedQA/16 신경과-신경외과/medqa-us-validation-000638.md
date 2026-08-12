@@ -14,6 +14,8 @@ related_diseases:
   - "일차성 두통"
   - "이부프로펜"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_quLTsnqXtmJXrkZDthrUgKFRlbnNpb24tdHlwZSBoZWFkYWNoZSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "척수공동증"
   - "아놀드-키아리 기형"
   - "해리성 감각소실"
+  - "Arnold-Chiari malformation"
 question_type: association
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,7 @@ related_diseases:
   - "식도 이물"
   - "생선뼈 식도폐색"
   - "응급 내시경"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: C

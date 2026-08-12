@@ -13,6 +13,8 @@ related_diseases:
   - "medullary thyroid carcinoma"
   - "RET mutation"
   - "MEN2"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDsho3sp4jslZQgKFRoeXJvaWQgTWVkdWxsYXJ5IENhcmNpbm9tYSkubWQ
 question_type: management
 difficulty: standard
 answer: B

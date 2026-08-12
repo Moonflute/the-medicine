@@ -13,6 +13,8 @@ related_diseases:
   - "울혈성 심부전"
   - "NYHA 기능분류"
   - "운동 시 증상"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: prognosis
 difficulty: standard
 answer: C

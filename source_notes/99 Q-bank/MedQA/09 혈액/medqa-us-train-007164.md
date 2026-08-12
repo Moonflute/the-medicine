@@ -14,6 +14,9 @@ related_diseases:
   - "혈관절증"
   - "인자 VIII 결핍"
   - "PTT 연장"
+  - "Hemophilia A"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOyasOuzkSAoSGVtb3BoaWxpYSkubWQ
 question_type: investigation
 difficulty: standard
 answer: D

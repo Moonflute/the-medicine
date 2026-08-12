@@ -13,6 +13,9 @@ related_diseases:
   - "diverticulitis"
   - "post-operative anemia"
   - "febrile non-hemolytic transfusion reaction"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6Tsl7wgKERpdmVydGljdWxpdGlzKS5tZA
+  - MTEg7Jm46rO8L-u5hOyaqe2YiOyEsSDrsJzsl7Qg7IiY7ZiIIOuwmOydkSAoTm9uLWhlbW9seXRpYyBGZWJyaWxlIFRyYW5zZnVzaW9uIFJlYWN0aW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: A

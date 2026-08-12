@@ -15,6 +15,7 @@ related_diseases:
   - "descriptive statistics"
   - "normal distribution"
 question_type: other
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

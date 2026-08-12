@@ -13,6 +13,8 @@ related_diseases:
   - "두개인두종"
   - "성장호르몬 결핍"
   - "시야장애"
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDqsJzsnbjrkZDsooUgKENyYW5pb3BoYXJ5bmdpb21hKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

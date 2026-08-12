@@ -13,6 +13,9 @@ related_diseases:
   - "thyrotoxicosis"
   - "iatrogenic hypothyroidism"
   - "propylthiouracil"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
 question_type: management
 difficulty: complex
 answer: D

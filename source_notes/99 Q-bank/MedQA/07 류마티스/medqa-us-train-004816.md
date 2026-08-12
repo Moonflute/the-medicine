@@ -13,6 +13,8 @@ related_diseases:
   - "급성 류마티스열"
   - "류마티스성 심장염"
   - "연쇄상구균 인두염 후 관절염"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: A

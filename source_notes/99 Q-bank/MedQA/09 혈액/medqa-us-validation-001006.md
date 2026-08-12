@@ -13,6 +13,9 @@ related_diseases:
   - "발열성 비용혈성 수혈반응"
   - "수혈 부작용"
   - "소화성 궤양 출혈"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yImO2YiOu2gOyekeyaqS5tZA
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITqtqTslpEgKEdhc3RyaWMgVWxjZXIpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

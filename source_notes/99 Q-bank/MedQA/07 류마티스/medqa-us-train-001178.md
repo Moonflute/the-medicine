@@ -11,6 +11,8 @@ language: ko
 specialty: 07 류마티스
 related_diseases:
   - "ankylosing spondylitis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwleyngeyEsSDsspnstpTsl7wgKEFua3lsb3NpbmcgU3BvbmR5bGl0aXMpLm1k
 question_type: investigation
 difficulty: standard
 answer: C

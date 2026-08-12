@@ -13,6 +13,9 @@ related_diseases:
   - "수막구균성 수막염"
   - "밀접 접촉자 예방"
   - "리팜핀"
+  - "Meningococcal disease"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yImOunieyVjOq3oCAoTWVuaW5nb2NvY2N1cykubWQ
 question_type: prevention
 difficulty: standard
 answer: D

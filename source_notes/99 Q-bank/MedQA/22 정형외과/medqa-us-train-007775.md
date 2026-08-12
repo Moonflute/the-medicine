@@ -14,6 +14,9 @@ related_diseases:
   - "congenital hip dislocation"
   - "Pavlik harness"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cc64us7ISxIOqzoOq0gOygiCDsnbTtmJXshLHspp0gKERldmVsb3BtZW50YWwgRHlzcGxhc2lhIG9mIHRoZSBIaXApLm1k
+  - MTEg7Jm46rO8L-yXieuNqeq0gOygiCDtg4jqtawgKEhpcCBEaXNsb2NhdGlvbikubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

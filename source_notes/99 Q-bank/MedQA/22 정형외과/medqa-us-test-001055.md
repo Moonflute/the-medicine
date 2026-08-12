@@ -14,6 +14,8 @@ related_diseases:
   - "극상근 손상"
   - "낙하팔 징후"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-2ajOyghOq3vOqwnO2MjOyXtCAoUm90YXRvciBDdWZmIFRlYXIpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

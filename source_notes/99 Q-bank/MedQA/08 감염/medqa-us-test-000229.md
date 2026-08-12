@@ -13,6 +13,7 @@ related_diseases:
   - "치쿤구니야"
   - "여행자 감염병"
   - "바이러스성 발열"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

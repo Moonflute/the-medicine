@@ -13,6 +13,8 @@ related_diseases:
   - "focal nodular hyperplasia"
   - "central scar"
   - "benign hepatic lesion"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qta3showg6rKw7KCIIOqzvO2YleyEsSAoRm9jYWwgTm9kdWxhciBIeXBlcnBsYXNpYSkubWQ
 question_type: management
 difficulty: complex
 answer: A

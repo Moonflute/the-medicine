@@ -14,6 +14,7 @@ related_diseases:
   - "머리-엉덩이 길이"
   - "임신 초기 초음파"
 question_type: investigation
+related_disease_slugs: []
 difficulty: simple
 answer: D
 translation_status: machine-verified

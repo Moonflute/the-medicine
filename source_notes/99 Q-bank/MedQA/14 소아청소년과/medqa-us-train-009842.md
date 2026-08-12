@@ -14,6 +14,7 @@ related_diseases:
   - "모체 에스트로겐 중단"
   - "신생아 생리적 출혈"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

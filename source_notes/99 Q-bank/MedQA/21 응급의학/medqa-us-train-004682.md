@@ -13,7 +13,9 @@ related_diseases:
   - "경동맥동 과민성"
   - "반사성 실신"
   - "자세 유발 실신"
+  - "carotid sinus hypersensitivity"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

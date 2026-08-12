@@ -14,6 +14,8 @@ related_diseases:
   - "암 관련 혈전증"
   - "저분자량 헤파린"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

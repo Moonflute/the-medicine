@@ -14,6 +14,8 @@ related_diseases:
   - "케르니히 징후"
   - "요추천자"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IS46reg7ISxIOuHjOyImOunieyXvCAoQmFjdGVyaWFsIE1lbmluZ2l0aXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

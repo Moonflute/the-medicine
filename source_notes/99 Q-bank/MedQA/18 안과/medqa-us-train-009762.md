@@ -13,7 +13,9 @@ related_diseases:
   - "익상편"
   - "자외선 노출"
   - "안구 표면 병변"
+  - "Pterygium"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

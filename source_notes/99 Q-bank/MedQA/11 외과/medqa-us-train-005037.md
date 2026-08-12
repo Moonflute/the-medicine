@@ -13,6 +13,7 @@ related_diseases:
   - "손가락 절단"
   - "절단지 보존"
   - "미세혈관 재접합술"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: C

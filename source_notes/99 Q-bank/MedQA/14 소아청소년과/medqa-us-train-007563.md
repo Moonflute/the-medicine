@@ -14,6 +14,8 @@ related_diseases:
   - "경미한 급성 질환"
   - "소아 예방접종"
 question_type: prevention
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEgQe2YlSDqsITsl7wgKEFjdXRlIEhlcGF0aXRpcyBBKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

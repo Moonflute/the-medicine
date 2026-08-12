@@ -15,6 +15,8 @@ related_diseases:
   - "metabolic bone disease"
   - "malnutrition"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv67mE7YOA66-8IEQg6rKw7ZWN7KadIChWaXRhbWluIEQgRGVmaWNpZW5jeSkubWQ
 difficulty: simple
 answer: D
 translation_status: machine-verified

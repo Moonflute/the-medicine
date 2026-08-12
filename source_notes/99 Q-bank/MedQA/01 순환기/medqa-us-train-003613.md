@@ -14,6 +14,8 @@ related_diseases:
   - "aortic root abscess"
   - "complete heart block"
   - "perivalvular abscess"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

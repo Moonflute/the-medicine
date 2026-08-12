@@ -14,7 +14,10 @@ related_diseases:
   - "정상 땀 염화물 검사"
   - "비강 경상피 전위차"
   - "CFTR"
+  - "Cystic fibrosis"
 question_type: investigation
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

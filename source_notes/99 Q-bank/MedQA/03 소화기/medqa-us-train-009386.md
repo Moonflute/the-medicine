@@ -13,6 +13,8 @@ related_diseases:
   - "acute hepatitis A"
   - "급성 A형간염"
   - "anti-HAV IgM"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEgQe2YlSDqsITsl7wgKEFjdXRlIEhlcGF0aXRpcyBBKS5tZA
 question_type: investigation
 difficulty: complex
 answer: A

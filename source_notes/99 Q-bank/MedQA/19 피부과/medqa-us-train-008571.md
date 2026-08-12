@@ -14,6 +14,8 @@ related_diseases:
   - "Trichophyton tonsurans"
   - "griseofulvin"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uwseyEoCAoVGluZWEpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

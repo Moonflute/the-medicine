@@ -14,6 +14,9 @@ related_diseases:
   - "sensorineural hearing loss"
   - "cochlear hair cell degeneration"
 question_type: mechanism
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uFuOyduOyEsSDrgpzssq0gKFByZXNieWN1c2lzKS5tZA
+  - MTcg7J2067mE7J247ZuE6rO8L-uPjOuwnOyEsSDrgpzssq0gKFN1ZGRlbiBzZW5zb3JpbmV1cmFsIGhlYXJpbmcgbG9zcykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

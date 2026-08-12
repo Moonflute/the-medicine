@@ -13,6 +13,8 @@ related_diseases:
   - "복부대동맥류 선별"
   - "고령 남성 흡연자"
   - "복부 초음파"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uzteu2gCDrjIDrj5nrp6XrpZggKEFiZG9taW5hbCBBb3J0aWMgQW5ldXJ5c20pLm1k
 question_type: prevention
 difficulty: complex
 answer: A

@@ -14,6 +14,8 @@ related_diseases:
   - "gonorrhea"
   - "chlamydia"
   - "HIV screening"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
 question_type: investigation
 difficulty: complex
 answer: D

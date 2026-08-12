@@ -13,6 +13,9 @@ related_diseases:
   - "mitral stenosis"
   - "승모판 협착증"
   - "atrial fibrillation"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yKueuqqO2MkOuniSDtmJHssKkgKE1pdHJhbCBTdGVub3NpcykubWQ
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 question_type: prognosis
 difficulty: complex
 answer: C

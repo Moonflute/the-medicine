@@ -14,6 +14,9 @@ related_diseases:
   - "acute aortic regurgitation"
   - "pulse deficit"
   - "migrating chest pain"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDsl63rpZggKEFvcnRpYyBSZWd1cmdpdGF0aW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

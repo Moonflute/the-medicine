@@ -14,6 +14,8 @@ related_diseases:
   - "motile protozoa"
   - "untreated stream water"
   - "metronidazole"
+  - "Giardiasis"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "요로감염"
   - "임신"
 question_type: management
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

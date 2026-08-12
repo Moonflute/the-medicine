@@ -14,6 +14,9 @@ related_diseases:
   - "tic disorder"
   - "ADHD comorbidity"
 question_type: prognosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2LsSDsnqXslaAgKFRpYyBEaXNvcmRlcikubWQ
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uanOugmyDsnqXslaAgKFRvdXJldHRlIERpc29yZGVyKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

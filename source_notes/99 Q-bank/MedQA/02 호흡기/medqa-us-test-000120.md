@@ -13,6 +13,8 @@ related_diseases:
   - "과민성 폐렴"
   - "조류 사육자 폐"
   - "항원 회피"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-qzvOuvvOyEsSDtj5DsnqXsl7wgKEh5cGVyc2Vuc2l0aXZpdHkgUG5ldW1vbml0aXMpLm1k
 question_type: management
 difficulty: standard
 answer: C

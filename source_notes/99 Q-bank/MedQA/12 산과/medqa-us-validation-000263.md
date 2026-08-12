@@ -14,6 +14,8 @@ related_diseases:
   - "어깨난산"
   - "Erb 마비"
 question_type: prevention
+related_disease_slugs:
+  - MTIg7IKw6rO8L-qxsOuMgOyVhCAoTWFjcm9zb21pYSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

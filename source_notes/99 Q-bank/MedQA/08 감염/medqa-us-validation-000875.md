@@ -13,6 +13,8 @@ related_diseases:
   - "황색포도상구균 식중독"
   - "이미 형성된 독소"
   - "급성 구토"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

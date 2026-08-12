@@ -13,6 +13,8 @@ related_diseases:
   - "Wernicke-Korsakoff syndrome"
   - "alcoholism"
 question_type: mechanism
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uyoOultOuLiOy8gC3svZTrpbTsgqzsvZTtlIQg7Kad7ZuE6rWwIChXZXJuaWNrZS1Lb3JzYWtvZmYgU3luZHJvbWUpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

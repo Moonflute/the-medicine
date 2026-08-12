@@ -13,6 +13,9 @@ related_diseases:
   - "그레이브스병"
   - "갑상선기능항진증"
   - "메티마졸"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
 question_type: management
 difficulty: standard
 answer: B

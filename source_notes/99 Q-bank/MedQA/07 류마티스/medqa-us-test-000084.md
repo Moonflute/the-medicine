@@ -13,6 +13,9 @@ related_diseases:
   - "류마티스성 다발근통"
   - "거대세포동맥염"
   - "턱 파행"
+  - "Giant cell arteritis"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
 question_type: prevention
 difficulty: complex
 answer: A

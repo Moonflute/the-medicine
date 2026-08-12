@@ -13,6 +13,8 @@ related_diseases:
   - "하시모토 갑상샘염"
   - "자가면역 갑상샘염"
   - "소아 갑상샘종"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2VmOyLnOuqqO2GoCDqsJHsg4Hsg5jsl7wgKEhhc2hpbW90bydzIFRoeXJvaWRpdGlzKS5tZA
 question_type: investigation
 difficulty: standard
 answer: A

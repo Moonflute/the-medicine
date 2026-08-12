@@ -13,6 +13,8 @@ related_diseases:
   - "pertussis"
   - "paroxysmal cough"
   - "macrolide therapy"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cx7J287ZW0IChQZXJ0dXNzaXMpLm1k
 question_type: management
 difficulty: complex
 answer: A

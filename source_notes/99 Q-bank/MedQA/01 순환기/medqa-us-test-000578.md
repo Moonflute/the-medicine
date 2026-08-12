@@ -13,6 +13,9 @@ related_diseases:
   - "우심부전"
   - "삼첨판 역류"
   - "폐고혈압"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOqzoO2YiOyVlSAoUHVsbW9uYXJ5IEh5cGVydGVuc2lvbikubWQ
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

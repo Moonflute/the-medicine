@@ -13,7 +13,10 @@ related_diseases:
   - "사경"
   - "선천성 근성 사경"
   - "경추 외상 감별"
+  - "cervical spine injury"
 question_type: investigation
+related_disease_slugs:
+  - MTEg7Jm46rO8L-qyveu2gOyZuOyDgSAoQ2VydmljYWwgVHJhdW1hKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "턱관절 기능장애"
   - "저작 시 통증"
   - "측두하악관절 장애"
+  - "Temporomandibular joint disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

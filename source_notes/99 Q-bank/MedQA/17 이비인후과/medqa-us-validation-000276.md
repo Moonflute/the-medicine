@@ -14,6 +14,8 @@ related_diseases:
   - "감각신경성 난청"
   - "Rinne 검사"
 question_type: diagnosis
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uFuOyduOyEsSDrgpzssq0gKFByZXNieWN1c2lzKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "양성 조기심방수축"
   - "불규칙 맥박"
   - "심계항진"
+  - "premature atrial contraction"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: A

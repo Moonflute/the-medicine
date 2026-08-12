@@ -13,7 +13,10 @@ related_diseases:
   - "오피오이드 금단"
   - "약물 사용장애"
   - "자율신경 과활성"
+  - "Opioid withdrawal"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

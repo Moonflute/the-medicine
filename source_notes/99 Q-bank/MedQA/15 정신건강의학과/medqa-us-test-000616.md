@@ -13,7 +13,9 @@ related_diseases:
   - "급성 근긴장이상 반응"
   - "할로페리돌 부작용"
   - "추체외로 증상"
+  - "Acute dystonia"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "섬유근육통"
   - "만성 전신 통증"
   - "수면장애"
+  - "Fibromyalgia"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: C

@@ -13,6 +13,9 @@ related_diseases:
   - "hyperprolactinemia"
   - "primary hypothyroidism"
   - "TRH-mediated prolactin elevation"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoO2UhOuhnOudve2LtO2YiOymnSAoSHlwZXJwcm9sYWN0aW5lbWlhKS5tZA
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: D

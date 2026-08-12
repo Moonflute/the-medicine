@@ -15,6 +15,8 @@ related_diseases:
   - "acetowhite lesion"
   - "anal wart treatment"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u-sOyhsSDsvZjrlJzroZzrp4ggKENvbmR5bG9tYSBBY3VtaW5hdHVtKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

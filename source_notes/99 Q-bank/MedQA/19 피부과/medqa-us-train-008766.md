@@ -14,6 +14,7 @@ related_diseases:
   - "hyperpigmented lesion"
   - "freckle"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

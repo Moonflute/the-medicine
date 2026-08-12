@@ -15,6 +15,7 @@ related_diseases:
   - "collagenase injection"
   - "alcohol-associated disease"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

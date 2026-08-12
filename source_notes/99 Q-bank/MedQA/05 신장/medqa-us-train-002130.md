@@ -13,6 +13,8 @@ related_diseases:
   - "analgesic nephropathy"
   - "papillary necrosis"
   - "tubulointerstitial nephritis"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsvantjKXsl7wgKFR1YnVsb2ludGVyc3RpdGlhbCBOZXBocml0aXMpLm1k
 question_type: diagnosis
 difficulty: simple
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "열대열 말라리아"
   - "Plasmodium falciparum"
   - "말라리아 용혈"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-unkOudvOumrOyVhCAoTWFsYXJpYSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

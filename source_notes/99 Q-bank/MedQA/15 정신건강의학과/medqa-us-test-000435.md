@@ -14,6 +14,8 @@ related_diseases:
   - "치매"
   - "콜린에스터레이스 억제제"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

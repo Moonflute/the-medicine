@@ -14,6 +14,8 @@ related_diseases:
   - "BIA-ALCL"
   - "periprosthetic fluid collection"
   - "CD30"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-u5hO2YuOyngO2CqCDrprztlITsooUgKE5vbi1Ib2Rna2luIEx5bXBob21hKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: C

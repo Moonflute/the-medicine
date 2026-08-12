@@ -13,7 +13,10 @@ related_diseases:
   - "심상성 어린선"
   - "필라그린 결핍"
   - "건조피부"
+  - "ichthyosis vulgaris"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uztO2GtSDruYTripjspp0gKEljaHRoeW9zaXMgVnVsZ2FyaXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "cervical cancer recurrence"
   - "vaginal squamous cell carcinoma"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "전립선암"
   - "폐 전이"
   - "악성 폐결절"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 question_type: prognosis
 difficulty: complex
 answer: C

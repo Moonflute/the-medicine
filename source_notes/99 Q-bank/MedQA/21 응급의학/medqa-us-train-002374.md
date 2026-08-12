@@ -14,6 +14,8 @@ related_diseases:
   - "high anion gap metabolic acidosis"
   - "radiopaque pills"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR64-FIChQb2lzb25pbmcpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "악성 종양성 고칼슘혈증"
   - "폐 편평세포암"
   - "PTHrP"
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-2OuO2PiSDshLjtj6zslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

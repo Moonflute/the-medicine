@@ -11,6 +11,8 @@ language: ko
 specialty: 05 신장
 related_diseases:
   - "IgA nephropathy"
+related_disease_slugs:
+  - MDUg7Iug7J6lL0lnQSDsvantjKXrs5Hspp0gKElnQU4pIChJZ0EgTmVwaHJvcGF0aHkpLm1k
 question_type: mechanism
 difficulty: complex
 answer: D

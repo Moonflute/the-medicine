@@ -13,7 +13,9 @@ related_diseases:
   - "재발성 구순포진"
   - "단순포진바이러스 1형"
   - "펜시클로버"
+  - "Herpes labialis"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

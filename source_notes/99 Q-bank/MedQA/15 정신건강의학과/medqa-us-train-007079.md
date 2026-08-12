@@ -13,7 +13,10 @@ related_diseases:
   - "제1형 양극성 장애"
   - "조증 삽화"
   - "리튬 유지치료"
+  - "Bipolar I disorder"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

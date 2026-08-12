@@ -9,8 +9,8 @@ source_hash: sha256:4f5645ea8c19e22f80eb586c011626972d06e6c45f0e2667e987acd4280a
 exam: USMLE Step 2/3
 language: ko
 specialty: 12 산과
-related_diseases:
-  []
+related_diseases: []
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

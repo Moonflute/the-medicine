@@ -13,6 +13,7 @@ related_diseases:
   - "폐렴구균 수막염"
   - "비장절제술"
   - "무비증"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: B

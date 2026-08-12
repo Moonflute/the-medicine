@@ -14,6 +14,8 @@ related_diseases:
   - "trismus"
   - "uvular deviation"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-2OuOuPhCDso7zsnIQg64aN7JaRIChQZXJpdG9uc2lsbGFyIEFic2Nlc3MpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

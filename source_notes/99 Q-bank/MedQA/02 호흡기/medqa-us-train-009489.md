@@ -13,6 +13,8 @@ related_diseases:
   - "asbestosis"
   - "석면폐증"
   - "pleural plaques"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yEneuptO2PkOymnSAoQXNiZXN0b3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

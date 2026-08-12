@@ -13,6 +13,8 @@ related_diseases:
   - "허혈성 대장염"
   - "대동맥류 수술 후 합병증"
   - "장간막 허혈"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tl4jtmIjshLEg64yA7J6l7Je8IChJc2NoZW1pYyBDb2xpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

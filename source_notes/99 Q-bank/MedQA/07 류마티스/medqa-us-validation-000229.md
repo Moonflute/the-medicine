@@ -13,6 +13,8 @@ related_diseases:
   - "일차성 레이노 현상"
   - "혈관연축"
   - "니페디핀"
+  - "Raynaud phenomenon"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

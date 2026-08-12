@@ -15,6 +15,8 @@ related_diseases:
   - "preterm delivery risk"
   - "cocaine use in pregnancy"
 question_type: risk_factor
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yhsOq4sCDslpHrp4kg7YyM7IiYIChQcmVtYXR1cmUgUnVwdHVyZSBvZiBNZW1icmFuZXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -12,6 +12,8 @@ specialty: 12 산과
 related_diseases:
   - "hyperemesis gravidarum"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoCDsnoXrjacgKEh5cGVyZW1lc2lzIEdyYXZpZGFydW0pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

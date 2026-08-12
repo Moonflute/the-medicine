@@ -14,6 +14,8 @@ related_diseases:
   - "천식"
   - "inhaled corticosteroid"
   - "흡입 코르티코스테로이드"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: standard
 answer: A

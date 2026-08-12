@@ -13,6 +13,9 @@ related_diseases:
   - "chronic kidney disease"
   - "renal osteodystrophy"
   - "secondary hyperparathyroidism"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
+  - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
 question_type: investigation
 difficulty: standard
 answer: C

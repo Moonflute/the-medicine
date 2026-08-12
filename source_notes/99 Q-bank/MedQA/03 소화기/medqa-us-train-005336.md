@@ -13,6 +13,8 @@ related_diseases:
   - "위식도역류질환"
   - "경험적 양성자펌프억제제"
   - "속쓰림"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsi53rj4Qg7Jet66WYIOyniO2ZmCAoR0VSRCkgKEdhc3Ryb2Vzb3BoYWdlYWwgUmVmbHV4IERpc2Vhc2UpLm1k
 question_type: management
 difficulty: standard
 answer: B

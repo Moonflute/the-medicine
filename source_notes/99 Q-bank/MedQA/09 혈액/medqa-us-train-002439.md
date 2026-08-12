@@ -14,6 +14,8 @@ related_diseases:
   - "elevated methylmalonic acid"
   - "subacute combined degeneration"
   - "glossitis"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEIg6rKw7ZWN7KadIChWaXRhbWluIEIgRGVmaWNpZW5jeSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

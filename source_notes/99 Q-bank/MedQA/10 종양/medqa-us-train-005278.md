@@ -13,6 +13,8 @@ related_diseases:
   - "유전성 대장암"
   - "린치증후군 의심"
   - "조기 대장내시경 선별"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
 question_type: prevention
 difficulty: standard
 answer: A

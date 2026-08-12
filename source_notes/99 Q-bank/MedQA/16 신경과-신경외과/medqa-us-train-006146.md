@@ -14,6 +14,7 @@ related_diseases:
   - "근간대경련"
   - "급속 진행성 치매"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

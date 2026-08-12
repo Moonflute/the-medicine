@@ -13,6 +13,10 @@ related_diseases:
   - "Zenker diverticulum"
   - "cricopharyngeal dysfunction"
   - "oropharyngeal dysphagia"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6QgKERpdmVydGljdWx1bSkubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtazsnbjrkZAg7IK87YK06rOk656AIChPcm9waGFyeW5nZWFsIER5c3BoYWdpYSkubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_soKDsu6Qg6rKM7IukIChaZW5rZXIncyBEaXZlcnRpY3VsdW0pLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

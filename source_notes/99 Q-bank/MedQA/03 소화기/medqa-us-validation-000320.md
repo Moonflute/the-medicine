@@ -13,6 +13,9 @@ related_diseases:
   - "복잡성 게실염"
   - "결장주위 농양"
   - "경피적 배액"
+  - "Diverticulitis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6Tsl7wgKERpdmVydGljdWxpdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: B

@@ -14,7 +14,10 @@ related_diseases:
   - "rabies postexposure management"
   - "healthy dog observation"
   - "rabies prophylaxis"
+  - "Rabies"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qzteyImOuzkSAoUmFiaWVzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

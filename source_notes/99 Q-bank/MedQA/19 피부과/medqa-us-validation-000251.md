@@ -14,6 +14,8 @@ related_diseases:
   - "비흉터성 탈모"
   - "양성 모발 당김 검사"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-ybkO2YlSDtg4jrqqjspp0gKEFsb3BlY2lhIEFyZWF0YSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

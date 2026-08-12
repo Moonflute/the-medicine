@@ -14,6 +14,7 @@ related_diseases:
   - "견봉하 충돌증후군"
   - "물리치료"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

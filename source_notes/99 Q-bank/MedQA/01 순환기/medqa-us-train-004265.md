@@ -13,6 +13,8 @@ related_diseases:
   - "하행 대동맥 박리"
   - "대동맥박리"
   - "에스몰롤"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: D

@@ -13,6 +13,7 @@ related_diseases:
   - "티아지드 이뇨제"
   - "약물 유발 변비"
   - "원위곡세관"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: standard
 answer: C

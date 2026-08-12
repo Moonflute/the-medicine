@@ -14,6 +14,7 @@ related_diseases:
   - "GAA repeat expansion"
   - "spinocerebellar ataxia"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

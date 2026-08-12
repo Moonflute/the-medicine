@@ -13,6 +13,9 @@ related_diseases:
   - "AL 아밀로이드증"
   - "신증후군"
   - "제한성 심근병증"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
+  - MDEg7Iic7ZmY6riwL-ygnO2VnOyEsSDsi6zqt7zrs5Hspp0gKFJlc3RyaWN0aXZlIENhcmRpb215b3BhdGh5KS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

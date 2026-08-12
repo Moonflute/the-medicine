@@ -14,6 +14,8 @@ related_diseases:
   - "신경능선 세포"
   - "히르슈스프룽병"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug6rK966qo7IS47Y-s7KKFIChOZXVyb2JsYXN0b21hKS5tZA
 difficulty: simple
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "diagnostic mammography"
   - "breast cancer evaluation"
   - "postmenopausal breast mass"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: standard
 answer: B

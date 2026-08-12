@@ -14,6 +14,8 @@ related_diseases:
   - "녹농균"
   - "유양돌기염"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uFueuGjeq3oCAoUHNldWRvbW9uYXMgQWVydWdpbm9zYSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

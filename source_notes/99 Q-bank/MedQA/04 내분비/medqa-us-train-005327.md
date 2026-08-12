@@ -13,6 +13,7 @@ related_diseases:
   - "발기부전"
   - "대사증후군"
   - "당뇨병 선별검사"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: B

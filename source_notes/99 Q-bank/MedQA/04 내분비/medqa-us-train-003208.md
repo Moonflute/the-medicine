@@ -14,6 +14,9 @@ related_diseases:
   - "papillary thyroid carcinoma suspicion"
   - "TSH-first evaluation"
   - "microcalcifications"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDqsrDsoIggKFRoeXJvaWQgTm9kdWxlKS5tZA
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDsnKDrkZDslZQgKFRoeXJvaWQgUGFwaWxsYXJ5IENhcmNpbm9tYSkubWQ
 question_type: investigation
 difficulty: complex
 answer: C

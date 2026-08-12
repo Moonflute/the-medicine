@@ -14,7 +14,9 @@ related_diseases:
   - "부신 안드로겐"
   - "겨드랑이 털"
   - "정상 변이"
+  - "Premature adrenarche"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: simple
 answer: C
 translation_status: machine-verified

@@ -15,6 +15,8 @@ related_diseases:
   - "tibial avulsion fracture"
   - "knee trauma"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-2bhOuwqSDsi63snpAg7J2464yAIOyGkOyDgSAoUG9zdGVyaW9yIENydWNpYXRlIExpZ2FtZW50IEluanVyeSkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

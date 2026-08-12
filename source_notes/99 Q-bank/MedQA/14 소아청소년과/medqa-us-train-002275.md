@@ -15,6 +15,9 @@ related_diseases:
   - "Eisenmenger syndrome"
   - "secondary polycythemia"
 question_type: risk_factor
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius7IukIOykkeqyqSDqsrDshpAgKFZlbnRyaWN1bGFyIFNlcHRhbCBEZWZlY3QpLm1k
+  - MDIg7Zi47Z2h6riwL-2PkOqzoO2YiOyVlSAoUHVsbW9uYXJ5IEh5cGVydGVuc2lvbikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

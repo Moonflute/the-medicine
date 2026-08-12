@@ -14,6 +14,7 @@ related_diseases:
   - "photosensitivity"
   - "beta-carotene"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,7 @@ related_diseases:
   - "금연 치료"
   - "자살사고"
 question_type: management
+related_disease_slugs: []
 difficulty: simple
 answer: C
 translation_status: machine-verified

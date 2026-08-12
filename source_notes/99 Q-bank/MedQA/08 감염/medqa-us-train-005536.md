@@ -13,6 +13,9 @@ related_diseases:
   - "고양이할큄병"
   - "Bartonella henselae"
   - "지역 림프절병증"
+  - "Cat-scratch disease"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-usmOyGjOuzkSAoQ2F0IFNjcmF0Y2ggRGlzZWFzZSkubWQ
 question_type: management
 difficulty: complex
 answer: B

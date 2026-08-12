@@ -13,6 +13,10 @@ related_diseases:
   - "infiltrating ductal carcinoma"
   - "colonic polyps"
   - "Peutz-Jeghers syndrome"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rjIDsnqUg7Jqp7KKFIChDb2xvbmljIFBvbHlwKS5tZA
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsIDsiqTtirjrprDsooUgKEdhc3RyaW5vbWEpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: D

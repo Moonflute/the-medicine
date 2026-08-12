@@ -13,6 +13,8 @@ related_diseases:
   - "고혈압성 심부전"
   - "레닌-안지오텐신-알도스테론계"
   - "신장 수출세동맥 수축"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

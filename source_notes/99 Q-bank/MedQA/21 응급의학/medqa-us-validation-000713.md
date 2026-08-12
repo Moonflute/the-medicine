@@ -14,6 +14,7 @@ related_diseases:
   - "복강내 출혈"
   - "외상 FAST 초음파"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

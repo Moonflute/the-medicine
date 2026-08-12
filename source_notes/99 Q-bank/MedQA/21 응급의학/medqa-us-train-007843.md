@@ -13,7 +13,9 @@ related_diseases:
   - "warfarin-associated coagulopathy"
   - "supratherapeutic INR"
   - "fresh frozen plasma"
+  - "Warfarin overdose"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

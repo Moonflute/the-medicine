@@ -13,6 +13,8 @@ related_diseases:
   - "급성 천식 악화"
   - "중증 천식 발작"
   - "흡입 알부테롤"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: complex
 answer: A

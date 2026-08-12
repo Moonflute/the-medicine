@@ -13,6 +13,9 @@ related_diseases:
   - "낭성섬유증"
   - "녹농균 폐감염"
   - "흡입 토브라마이신"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 question_type: management
 difficulty: complex
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "부신 위기"
   - "일차성 부신기능부전"
   - "저혈당 및 고칼륨혈증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ybkOuwnOyEsSDrtoDsi6Ag6riw64ql7KCA7ZWY7KadKFByaW1hcnkgQWRyZW5hbCBJbnN1ZmZpY2llbmN5KS5tZA
 question_type: management
 difficulty: complex
 answer: D

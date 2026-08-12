@@ -13,7 +13,9 @@ related_diseases:
   - "수술 후 요폐"
   - "급성 무뇨"
   - "방광 스캔"
+  - "Urinary retention"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

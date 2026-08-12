@@ -14,6 +14,8 @@ related_diseases:
   - "전치태반"
   - "painless third-trimester bleeding"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yghOy5mO2DnOuwmCAoUGxhY2VudGEgUHJldmlhKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -15,6 +15,10 @@ related_diseases:
   - "Cystoid macular edema"
   - "Age-related macular degeneration"
 question_type: diagnosis
+related_disease_slugs:
+  - MTgg7JWI6rO8L-qzoO2YiOyVleunneunieuzkeymnSAoaHlwZXJ0ZW5zaXZlIHJldGlub3BhdGh5KS5tZA
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDrp53rp4nrs5Hspp0gKERpYWJldGljIFJldGlub3BhdGh5KS5tZA
+  - MTgg7JWI6rO8L-uCmOydtOq0gOugqO2ZqeuwmOuzgOyEsSAoYWdlIHJlbGF0ZWQgbWFjdWxhciBkZWdlbmVyYXRpb24pLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

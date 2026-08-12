@@ -13,7 +13,9 @@ related_diseases:
   - "정자낭종"
   - "부고환 낭종"
   - "양성 음낭 종괴"
+  - "Epididymal cyst"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

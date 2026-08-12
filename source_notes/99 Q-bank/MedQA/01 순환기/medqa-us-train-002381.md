@@ -13,6 +13,8 @@ related_diseases:
   - "vasovagal syncope"
   - "situational syncope"
   - "electrocardiogram"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2YiOq0gOuvuOyjvOyLoOqyveyEsSDsi6Tsi6AgKFZhc292YWdhbCBTeW5jb3BlKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

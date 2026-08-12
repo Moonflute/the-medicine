@@ -14,6 +14,8 @@ related_diseases:
   - "hypercyanotic spell"
   - "beta-blocker"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7YyU66GcIOyCrOynlSAoVGV0cmFsb2d5IG9mIEZhbGxvdCkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -13,7 +13,10 @@ related_diseases:
   - "syphilis in pregnancy"
   - "false-positive VDRL"
   - "Treponema pallidum hemagglutination assay"
+  - "Syphilis"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKcIOunpOuPhSAoQ29uZ2VuaXRhbCBTeXBoaWxpcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

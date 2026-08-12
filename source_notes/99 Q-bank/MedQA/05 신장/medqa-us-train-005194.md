@@ -13,6 +13,7 @@ related_diseases:
   - "신장이식"
   - "주폐포자충 폐렴 예방"
   - "트리메토프림-설파메톡사졸"
+related_disease_slugs: []
 question_type: prevention
 difficulty: standard
 answer: D

@@ -14,6 +14,10 @@ related_diseases:
   - "hypothyroidism"
   - "hypogonadotropic hypogonadism"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
+  - MDQg64K067aE67mEL-ustOymneyDgSDqsJHsg4Hsg5gg6riw64ql7KCA7ZWY7KadIChTdWJjbGluaWNhbCBIeXBvdGh5cm9pZGlzbSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

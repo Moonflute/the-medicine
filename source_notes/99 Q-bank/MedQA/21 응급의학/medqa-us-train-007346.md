@@ -14,6 +14,7 @@ related_diseases:
   - "클로르프로카인"
   - "농양 절개 및 배농"
 question_type: management
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

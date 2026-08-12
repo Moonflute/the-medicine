@@ -13,6 +13,8 @@ related_diseases:
   - "oligoarticular juvenile idiopathic arthritis"
   - "ANA positive"
   - "anterior uveitis"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM7JWE6riwIO2KueuwnOyEsSDqtIDsoIjsl7wgKEp1dmVuaWxlIElkaW9wYXRoaWMgQXJ0aHJpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

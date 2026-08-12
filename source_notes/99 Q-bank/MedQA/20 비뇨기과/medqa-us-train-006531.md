@@ -13,7 +13,10 @@ related_diseases:
   - "복압성 요실금"
   - "골반저근 운동 실패"
   - "요도 슬링"
+  - "stress urinary incontinence"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

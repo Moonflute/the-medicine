@@ -14,6 +14,8 @@ related_diseases:
   - "저C펩타이드 저혈당"
   - "저혈당"
   - "인슐린종 감별"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

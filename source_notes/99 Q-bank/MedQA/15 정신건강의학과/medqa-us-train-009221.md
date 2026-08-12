@@ -14,6 +14,7 @@ related_diseases:
   - "삼환계 항우울제"
   - "anticholinergic effects"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "범수축기 잡음"
   - "좌우 단락"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius7IukIOykkeqyqSDqsrDshpAgKFZlbnRyaWN1bGFyIFNlcHRhbCBEZWZlY3QpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

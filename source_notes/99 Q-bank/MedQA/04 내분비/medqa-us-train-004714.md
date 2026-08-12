@@ -13,6 +13,8 @@ related_diseases:
   - "원발성 부갑상샘기능항진증"
   - "부갑상샘호르몬 상승"
   - "골막하 골흡수"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
 question_type: association
 difficulty: standard
 answer: A

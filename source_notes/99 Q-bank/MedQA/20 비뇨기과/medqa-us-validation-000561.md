@@ -14,6 +14,8 @@ related_diseases:
   - "5α 환원효소 억제제"
   - "두타스테리드"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yWkeyEsSDsoITrpr3sg5gg67mE64yA7KadIChCZW5pZ24gUHJvc3RhdGljIEh5cGVycGxhc2lhKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

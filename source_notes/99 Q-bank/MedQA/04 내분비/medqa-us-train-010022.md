@@ -13,6 +13,10 @@ related_diseases:
   - "저칼슘혈증"
   - "급성 췌장염"
   - "전해질 이상"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggOy5vOyKmO2YiOymnSAoSHlwb2NhbGNlbWlhKS5tZA
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k
+  - MDUg7Iug7J6lL-yghO2VtOyniCDsnbTsg4EubWQ
 question_type: mechanism
 difficulty: complex
 answer: A

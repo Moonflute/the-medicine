@@ -13,7 +13,9 @@ related_diseases:
   - "수포성 유천포창"
   - "기저막 C3 IgG"
   - "긴장성 수포"
+  - "Bullous impetigo"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

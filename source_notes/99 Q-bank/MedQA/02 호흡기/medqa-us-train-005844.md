@@ -13,6 +13,8 @@ related_diseases:
   - "자발성 기흉"
   - "폐첨부 폐포수포"
   - "흡연 관련 기흉"
+  - "spontaneous pneumothorax"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: standard
 answer: D

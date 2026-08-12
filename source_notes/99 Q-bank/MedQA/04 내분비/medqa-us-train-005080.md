@@ -13,6 +13,8 @@ related_diseases:
   - "하시모토 갑상샘염"
   - "자가면역 갑상샘질환"
   - "항갑상샘과산화효소 항체"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2VmOyLnOuqqO2GoCDqsJHsg4Hsg5jsl7wgKEhhc2hpbW90bydzIFRoeXJvaWRpdGlzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

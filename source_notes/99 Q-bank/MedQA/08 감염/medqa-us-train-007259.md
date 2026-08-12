@@ -14,6 +14,7 @@ related_diseases:
   - "이소니아지드"
   - "모유 수유"
   - "피리독신"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

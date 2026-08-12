@@ -13,7 +13,9 @@ related_diseases:
   - "외음부 경화태선"
   - "외음부 백색판"
   - "국소 고강도 스테로이드"
+  - "Lichen sclerosus"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

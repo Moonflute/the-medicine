@@ -13,6 +13,8 @@ related_diseases:
   - "상부 위장관 출혈"
   - "토혈"
   - "위내시경"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sg4HrtoAg7JyE7J6l6rSAIOy2nO2YiCAoVXBwZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ
 question_type: management
 difficulty: standard
 answer: B

@@ -13,6 +13,7 @@ related_diseases:
   - "ASCUS"
   - "Pap smear"
 question_type: management
+related_disease_slugs: []
 difficulty: simple
 answer: C
 translation_status: machine-verified

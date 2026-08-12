@@ -15,6 +15,8 @@ related_diseases:
   - "hyperventilation-induced cerebral vasoconstriction"
   - "cerebral blood flow"
 question_type: mechanism
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsp4Ttg5UgKENvbmN1c3Npb24pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

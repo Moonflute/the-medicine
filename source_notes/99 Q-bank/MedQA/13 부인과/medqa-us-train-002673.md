@@ -14,6 +14,8 @@ related_diseases:
   - "uterine atony"
   - "bimanual uterine massage"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geydtOyZhOymnSAoVXRlcmluZSBBdG9ueSkubWQ
 difficulty: simple
 answer: D
 translation_status: machine-verified

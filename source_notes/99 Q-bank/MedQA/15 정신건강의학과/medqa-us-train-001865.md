@@ -14,6 +14,8 @@ related_diseases:
   - "hypokalemic metabolic alkalosis"
   - "Russell sign"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEseyLneyaleu2gOynhOymnSAoQW5vcmV4aWEgTmVydm9zYSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

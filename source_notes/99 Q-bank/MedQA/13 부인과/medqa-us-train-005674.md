@@ -14,6 +14,8 @@ related_diseases:
   - "자궁외임신"
   - "난관-자궁 접합부 임신"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

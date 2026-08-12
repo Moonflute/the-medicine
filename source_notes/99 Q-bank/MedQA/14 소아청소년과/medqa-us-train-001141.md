@@ -15,6 +15,8 @@ related_diseases:
   - "Congenital hydrocephalus"
   - "Intraventricular hemorrhage"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKZ7IiYIOq3vOycoSDsnITstpXspp0gKFNwaW5hbCBNdXNjdWxhciBBdHJvcGh5KS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

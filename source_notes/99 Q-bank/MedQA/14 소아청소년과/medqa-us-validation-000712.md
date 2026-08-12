@@ -14,6 +14,7 @@ related_diseases:
   - "DTaP"
   - "IPV"
 question_type: prevention
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "급성 호흡곤란 증후군"
   - "급성 췌장염"
   - "비심인성 폐부종"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4ieyEsSDtmLjtnaHqs6TrnoAg7Kad7ZuE6rWwIChBUkRTKSAoQWN1dGUgUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

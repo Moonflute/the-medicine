@@ -13,6 +13,7 @@ related_diseases:
   - "neurocysticercosis"
   - "Taenia solium"
   - "ingestion of human fecal eggs"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: C

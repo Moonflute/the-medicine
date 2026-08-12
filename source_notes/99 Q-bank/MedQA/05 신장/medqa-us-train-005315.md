@@ -13,6 +13,8 @@ related_diseases:
   - "고칼슘뇨증"
   - "칼슘 신장결석"
   - "티아지드 이뇨제"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

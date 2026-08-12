@@ -13,7 +13,9 @@ related_diseases:
   - "임신 위치 미확인"
   - "임신 초기"
   - "혈청 hCG 추적"
+  - "Pregnancy of unknown location"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -12,6 +12,8 @@ specialty: 13 부인과
 related_diseases:
   - "androgen insensitivity syndrome"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yViOuTnOuhnOqykOu2iOqwkOydkSAoQW5kcm9nZW4gSW5zZW5zaXRpdml0eSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

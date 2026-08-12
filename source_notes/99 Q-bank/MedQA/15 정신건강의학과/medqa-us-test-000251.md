@@ -14,6 +14,8 @@ related_diseases:
   - "피해망상"
   - "단일 망상"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-unneyDgSDsnqXslaAgKERlbHVzaW9uYWwgZGlzb3JkZXIpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

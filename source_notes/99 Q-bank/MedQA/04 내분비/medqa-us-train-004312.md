@@ -13,6 +13,8 @@ related_diseases:
   - "일차성 부신기능저하증"
   - "애디슨병"
   - "부신 위기"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-u2gOyLoCDquLDriqXsoIDtlZjspp0gKEFkcmVuYWwgSW5zdWZmaWNpZW5jeSkubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

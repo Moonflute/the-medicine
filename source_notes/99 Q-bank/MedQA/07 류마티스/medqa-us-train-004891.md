@@ -13,6 +13,8 @@ related_diseases:
   - "반응성 관절염"
   - "클라미디아 감염"
   - "지염"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-uwmOydkeyEsSDqtIDsoIjsl7wgKFJlYWN0aXZlIEFydGhyaXRpcykubWQ
 question_type: investigation
 difficulty: standard
 answer: D

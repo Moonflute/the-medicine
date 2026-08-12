@@ -13,6 +13,8 @@ related_diseases:
   - "괴사성 근막염"
   - "괴사성 연조직 감염"
   - "응급 변연절제술"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q0tOyCrOyEsSDqt7zrp4nsl7wgKE5lY3JvdGl6aW5nIEZhc2NpaXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: B

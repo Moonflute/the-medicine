@@ -14,6 +14,8 @@ related_diseases:
   - "베타차단제"
   - "글루카곤 구제요법"
 question_type: management
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "migraine prophylaxis"
   - "hypertension"
   - "propranolol beta-blocker"
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjrjrkZDthrUgKE1pZ3JhaW5lKS5tZA
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: C

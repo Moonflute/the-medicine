@@ -13,7 +13,10 @@ related_diseases:
   - "anticholinergic delirium"
   - "diphenhydramine"
   - "urinary retention"
+  - "Delirium"
 question_type: other
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yErOunnSAoRGVsaXJpdW0pLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

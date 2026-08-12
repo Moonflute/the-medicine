@@ -14,6 +14,7 @@ related_diseases:
   - "아모바르비탈"
   - "심혈관 허탈"
 question_type: prognosis
+related_disease_slugs: []
 difficulty: simple
 answer: C
 translation_status: machine-verified

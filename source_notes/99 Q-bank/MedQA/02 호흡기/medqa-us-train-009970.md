@@ -13,6 +13,8 @@ related_diseases:
   - "폐렴"
   - "폐실질 경화"
   - "기관지 호흡음"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

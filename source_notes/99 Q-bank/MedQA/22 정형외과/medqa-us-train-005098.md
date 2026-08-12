@@ -14,6 +14,8 @@ related_diseases:
   - "골변형"
   - "파제트병 관련 청력소실"
 question_type: prognosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2MjOygnO2KuOuzkSAoUGFnZXQncyBEaXNlYXNlKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

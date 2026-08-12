@@ -13,7 +13,10 @@ related_diseases:
   - "저혈량성 쇼크"
   - "폐모세혈관 쐐기압"
   - "전신혈관저항"
+  - "Hypovolemic shock"
 question_type: diagnosis
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: simple
 answer: B
 translation_status: machine-verified

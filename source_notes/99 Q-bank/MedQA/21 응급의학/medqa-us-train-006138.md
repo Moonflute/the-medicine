@@ -13,7 +13,10 @@ related_diseases:
   - "급성 외상성 통증"
   - "오피오이드 사용장애"
   - "메타돈 유지치료"
+  - "Opioid use disorder"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

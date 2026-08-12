@@ -13,6 +13,9 @@ related_diseases:
   - "von Willebrand disease"
   - "mucocutaneous bleeding"
   - "epistaxis"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2PsCDruYzroIjruIzrnoDtirjrs5EgKHZvbiBXaWxsZWJyYW5kIERpc2Vhc2UsIHZXRCkubWQ
+  - MTcg7J2067mE7J247ZuE6rO8L-u5hOy2nO2YiCAoRXBpc3RheGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -12,7 +12,9 @@ specialty: 22 정형외과
 related_diseases:
   - "nonspecific low back pain"
   - "비특이적 요통"
+  - "low back pain"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "thrombosed external hemorrhoid"
   - "혈전성 외치핵"
   - "external hemorrhoid"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_smbjsuZjtlbUgKEV4dGVybmFsIEhlbW9ycmhvaWQpLm1k
 question_type: management
 difficulty: simple
 answer: A

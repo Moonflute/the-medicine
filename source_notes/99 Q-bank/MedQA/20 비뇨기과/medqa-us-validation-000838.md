@@ -13,7 +13,10 @@ related_diseases:
   - "급성 세균성 전립선염"
   - "전립선비대증"
   - "발열성 요로증상"
+  - "Acute bacterial prostatitis"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyXvCAoUHJvc3RhdGl0aXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

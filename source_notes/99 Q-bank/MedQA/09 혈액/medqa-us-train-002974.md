@@ -14,6 +14,9 @@ related_diseases:
   - "rouleaux formation"
   - "hypercalcemia"
   - "monoclonal gammopathy"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: investigation
 difficulty: complex
 answer: B

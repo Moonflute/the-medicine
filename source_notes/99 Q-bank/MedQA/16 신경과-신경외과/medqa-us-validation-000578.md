@@ -13,7 +13,10 @@ related_diseases:
   - "헌팅턴병"
   - "미상핵 위축"
   - "무도병"
+  - "Huntington disease"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4ztjIXthLTrs5EgKEh1bnRpbmd0b24gRGlzZWFzZSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

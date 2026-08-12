@@ -14,6 +14,9 @@ related_diseases:
   - "Cushing triad"
   - "traumatic brain injury"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDqsJzrgrTslZXtla3sp4QgKEluY3JlYXNlZCBpbnRyYWNyYW5pYWwgcHJlc3N1cmUpLm1k
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsp4Ttg5UgKENvbmN1c3Npb24pLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

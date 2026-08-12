@@ -14,6 +14,8 @@ related_diseases:
   - "경구피임약 관련 혈전"
   - "달테파린"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-qyveq1rO2UvOyehOyVvSAoT3JhbCBDb250cmFjZXB0aXZlcykubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

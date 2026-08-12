@@ -13,6 +13,8 @@ related_diseases:
   - "systemic sclerosis"
   - "scleroderma esophagus"
   - "Raynaud phenomenon"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDqsr3tmZTspp0gKFN5c3RlbWljIFNjbGVyb3NpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: C

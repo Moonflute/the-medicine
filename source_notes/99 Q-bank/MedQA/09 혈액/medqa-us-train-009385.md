@@ -13,6 +13,8 @@ related_diseases:
   - "hemophilia"
   - "혈우병"
   - "hemarthrosis"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOyasOuzkSAoSGVtb3BoaWxpYSkubWQ
 question_type: prevention
 difficulty: standard
 answer: C

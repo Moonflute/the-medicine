@@ -14,6 +14,9 @@ related_diseases:
   - "intrauterine adhesions"
   - "secondary amenorrhea"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geuCtOunieycoOywqeymnSAoQXNoZXJtYW4gU3luZHJvbWUpLm1k
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

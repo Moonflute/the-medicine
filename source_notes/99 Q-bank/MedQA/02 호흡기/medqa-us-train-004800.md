@@ -13,6 +13,8 @@ related_diseases:
   - "알파-1 항트립신 결핍증"
   - "폐기종"
   - "간세포암 위험"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLjtj6zslZQgKEhlcGF0b2NlbGx1bGFyIENhcmNpbm9tYSkubWQ
 question_type: association
 difficulty: complex
 answer: B

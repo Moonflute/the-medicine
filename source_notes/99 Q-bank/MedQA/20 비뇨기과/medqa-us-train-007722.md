@@ -12,6 +12,8 @@ specialty: 20 비뇨기과
 related_diseases:
   - "benign prostatic hyperplasia"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yWkeyEsSDsoITrpr3sg5gg67mE64yA7KadIChCZW5pZ24gUHJvc3RhdGljIEh5cGVycGxhc2lhKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

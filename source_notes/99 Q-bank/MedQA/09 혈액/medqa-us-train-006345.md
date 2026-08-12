@@ -13,6 +13,9 @@ related_diseases:
   - "만성질환 빈혈"
   - "철결핍성 빈혈 감별"
   - "정상적혈구성 빈혈"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDsp4jtmZgg67mI7ZiIIChBbmVtaWEgb2YgQ2hyb25pYyBEaXNlYXNlKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
 question_type: investigation
 difficulty: complex
 answer: A

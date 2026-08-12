@@ -13,6 +13,9 @@ related_diseases:
   - "중증 대동맥판막 협착"
   - "혈관 내 용혈"
   - "대동맥판막 치환술"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
+  - MDkg7ZiI7JWhL-2YiOq0gCDrgrQg7Jqp7ZiIIChJbnRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ
 question_type: management
 difficulty: complex
 answer: C

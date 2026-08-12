@@ -18,6 +18,12 @@ related_diseases:
   - "syphilis"
   - "human immunodeficiency virus"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
+  - MDgg6rCQ7Je8L-unpOuPhSAoU3lwaGlsaXMpLm1k
+  - MTMg67aA7J246rO8L-unpOuPhSAoU3lwaGlsaXMpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rjIDsnqUg7Y-Q7IeEIChMYXJnZSBCb3dlbCBPYnN0cnVjdGlvbikubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

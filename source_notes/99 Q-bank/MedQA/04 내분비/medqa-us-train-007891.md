@@ -13,6 +13,8 @@ related_diseases:
   - "hypothyroidism"
   - "elevated TSH"
   - "levothyroxine"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
 question_type: management
 difficulty: standard
 answer: B

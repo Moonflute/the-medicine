@@ -13,6 +13,9 @@ related_diseases:
   - "herpes simplex encephalitis"
   - "temporal lobe encephalitis"
   - "acyclovir"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uLqOyInO2PrOynhCDqsJDsl7wgKEhlcnBlcyBTaW1wbGV4IEluZmVjdGlvbikubWQ
+  - MDgg6rCQ7Je8L-uwlOydtOufrOyKpC5tZA
 question_type: management
 difficulty: complex
 answer: B

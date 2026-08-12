@@ -14,6 +14,9 @@ related_diseases:
   - "ventricular fibrillation"
   - "unsynchronized cardioversion"
 question_type: management
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOyLpCDsobDrj5ks7IS464-ZIChWZW50cmljdWxhciBmbHV0dGVyLCBmaWJyaWxsYXRpb24pLm1k
+  - MDEg7Iic7ZmY6riwL1NU67aE7KCIIOyDgeyKuSDsi6zqt7zqsr3sg4nspp0gKFNURU1JKSAoU1QtRWxldmF0aW9uIE15b2NhcmRpYWwgSW5mYXJjdGlvbikubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

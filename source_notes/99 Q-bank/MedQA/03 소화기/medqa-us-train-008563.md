@@ -13,6 +13,10 @@ related_diseases:
   - "esophageal dysphagia"
   - "gastroesophageal reflux disease"
   - "esophageal cancer"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4Qg7IK87YK06rOk656AIChFc29waGFnZWFsIER5c3BoYWdpYSkubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsi53rj4Qg7Jet66WYIOyniO2ZmCAoR0VSRCkgKEdhc3Ryb2Vzb3BoYWdlYWwgUmVmbHV4IERpc2Vhc2UpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4TslZQgKEVzb3BoYWdlYWwgQ2FuY2VyKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

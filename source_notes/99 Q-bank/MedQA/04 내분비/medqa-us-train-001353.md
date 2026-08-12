@@ -13,6 +13,8 @@ related_diseases:
   - "diabetes screening"
   - "obesity"
   - "preventive care"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: prevention
 difficulty: complex
 answer: C

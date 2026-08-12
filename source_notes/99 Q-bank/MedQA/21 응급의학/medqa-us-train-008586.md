@@ -14,6 +14,8 @@ related_diseases:
   - "vasovagal syncope"
   - "fractional excretion of sodium"
 question_type: diagnosis
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2YiOq0gOuvuOyjvOyLoOqyveyEsSDsi6Tsi6AgKFZhc292YWdhbCBTeW5jb3BlKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

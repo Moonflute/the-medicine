@@ -14,6 +14,8 @@ related_diseases:
   - "niacin deficiency"
   - "dementia"
   - "diarrhea and dermatitis"
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

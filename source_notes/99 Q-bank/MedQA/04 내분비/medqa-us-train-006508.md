@@ -13,6 +13,8 @@ related_diseases:
   - "갑상샘기능저하증"
   - "근육 약화"
   - "스타틴 관련 근육통 감별"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

@@ -13,6 +13,7 @@ related_diseases:
   - "scald wound"
   - "burn infection"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

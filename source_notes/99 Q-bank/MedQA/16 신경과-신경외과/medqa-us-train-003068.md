@@ -15,6 +15,8 @@ related_diseases:
   - "occupational dystonia"
   - "botulinum toxin"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_shJzqsr0gKFdyaXRlcidzIGNyYW1wKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

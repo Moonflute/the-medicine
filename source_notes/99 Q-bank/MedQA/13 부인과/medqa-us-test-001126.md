@@ -13,7 +13,10 @@ related_diseases:
   - "원발성 월경통"
   - "NSAID"
   - "청소년 생리통"
+  - "primary dysmenorrhea"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yblOqyve2GtSAoRHlzbWVub3JyaGVhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

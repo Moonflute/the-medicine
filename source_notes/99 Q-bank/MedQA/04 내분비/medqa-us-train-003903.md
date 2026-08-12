@@ -14,6 +14,9 @@ related_diseases:
   - "primary hyperparathyroidism"
   - "nephrolithiasis"
   - "calcitonin"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
+  - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
 question_type: management
 difficulty: standard
 answer: D

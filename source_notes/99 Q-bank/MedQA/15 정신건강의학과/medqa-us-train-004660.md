@@ -13,7 +13,9 @@ related_diseases:
   - "대마초 사용장애"
   - "대마초 intoxication"
   - "결막 충혈"
+  - "Cannabis use disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

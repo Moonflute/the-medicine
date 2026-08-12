@@ -14,6 +14,8 @@ related_diseases:
   - "우울한 기분"
   - "이혼 후 스트레스 반응"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggeydkSDsnqXslaAgKEFkanVzdG1lbnQgRGlzb3JkZXIpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

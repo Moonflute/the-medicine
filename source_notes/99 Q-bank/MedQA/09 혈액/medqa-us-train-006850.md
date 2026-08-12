@@ -13,6 +13,9 @@ related_diseases:
   - "비타민 B12 결핍"
   - "메트포르민 유발 거대적아구성 빈혈"
   - "DNA 합성 장애"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEIg6rKw7ZWN7KadIChWaXRhbWluIEIgRGVmaWNpZW5jeSkubWQ
+  - MDkg7ZiI7JWhL-qxsOuMgOygge2YiOuqqOq1rCDruYjtmIggKE1lZ2Fsb2JsYXN0aWMgQW5lbWlhKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

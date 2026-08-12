@@ -14,6 +14,9 @@ related_diseases:
   - "수두-대상포진 바이러스"
   - "후근신경절 재활성화"
 question_type: mechanism
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uMgOyDgSDtj6zsp4QgKEhlcnBlcyBab3N0ZXIpLm1k
+  - MDgg6rCQ7Je8L-yImOuRkC3rjIDsg4Htj6zsp4Qg67CU7J2065-s7IqkIOqwkOyXvCAoVmFyaWNlbGxhLVpvc3RlciBWaXJ1cyBJbmZlY3Rpb24pLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

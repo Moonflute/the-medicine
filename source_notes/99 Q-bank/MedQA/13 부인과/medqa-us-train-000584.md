@@ -12,6 +12,8 @@ specialty: 13 부인과
 related_diseases:
   - "breast cancer"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "loop diuretic abuse"
   - "hypovolemia"
   - "hypokalemia"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
 question_type: mechanism
 difficulty: complex
 answer: A

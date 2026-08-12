@@ -14,6 +14,7 @@ related_diseases:
   - "디펜히드라민 중독"
   - "피소스티그민"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

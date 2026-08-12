@@ -13,6 +13,9 @@ related_diseases:
   - "비후성 폐쇄성 심근병증"
   - "운동 중 실신"
   - "쪼그려 앉기와 잡음 감소"
+  - "Hypertrophic cardiomyopathy"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-u5hO2bhOyEsSDsi6zqt7zrs5Hspp0gKEh5cGVydHJvcGhpYyBDYXJkaW9teW9wYXRoeSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

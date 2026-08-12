@@ -14,6 +14,8 @@ related_diseases:
   - "융모양막염"
   - "intra-amniotic infection"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-ycteuqqCDslpHrp4nsl7wgKENob3Jpb2Ftbmlvbml0aXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

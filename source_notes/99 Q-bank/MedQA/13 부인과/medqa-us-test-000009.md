@@ -14,6 +14,9 @@ related_diseases:
   - "골반염증성 질환"
   - "피임 금기"
 question_type: prevention
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geuCtOyepey5mCAoSW50cmF1dGVyaW5lIERldmljZSkubWQ
+  - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

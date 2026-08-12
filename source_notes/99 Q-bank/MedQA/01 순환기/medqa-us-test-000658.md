@@ -13,6 +13,8 @@ related_diseases:
   - "심방세동"
   - "심인성 색전 뇌졸중"
   - "항응고 치료"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 question_type: prevention
 difficulty: complex
 answer: D

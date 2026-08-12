@@ -13,7 +13,10 @@ related_diseases:
   - "히르슈스프룽병"
   - "신경절세포 결핍"
   - "신경능선 이동 실패"
+  - "Hirschsprung disease"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISg7LKcIOqxsOuMgCDqsrDsnqXspp0gKENvbmdlbml0YWwgQWdhbmdsaW9uaWMgTWVnYWNvbG9uKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

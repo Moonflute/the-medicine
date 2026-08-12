@@ -13,6 +13,9 @@ related_diseases:
   - "prolactinoma"
   - "pituitary macroadenoma"
   - "hyperprolactinemia"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2UhOuhnOudve2LtCDrtoTruYQg7KKF7JaRIChQcm9sYWN0aW5vbWEpLm1k
+  - MDQg64K067aE67mEL-qzoO2UhOuhnOudve2LtO2YiOymnSAoSHlwZXJwcm9sYWN0aW5lbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: A

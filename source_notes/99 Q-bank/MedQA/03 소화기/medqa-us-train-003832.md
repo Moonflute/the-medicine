@@ -14,6 +14,9 @@ related_diseases:
   - "gastrinoma"
   - "primary hyperparathyroidism"
   - "hypercalcemia and nephrolithiasis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsIDsiqTtirjrprDsooUgKEdhc3RyaW5vbWEpLm1k
+  - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
 question_type: mechanism
 difficulty: complex
 answer: C

@@ -14,6 +14,8 @@ related_diseases:
   - "일차성 무월경"
   - "hypogonadotropic hypogonadism"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -12,6 +12,8 @@ specialty: 16 신경과-신경외과
 related_diseases:
   - "tension-type headache"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_quLTsnqXtmJXrkZDthrUgKFRlbnNpb24tdHlwZSBoZWFkYWNoZSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

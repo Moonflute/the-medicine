@@ -13,6 +13,9 @@ related_diseases:
   - "다발성 내분비 종양 1형"
   - "일차성 부갑상샘기능항진증"
   - "신장결석"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
+  - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: C

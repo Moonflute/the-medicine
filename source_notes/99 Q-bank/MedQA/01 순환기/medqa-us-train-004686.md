@@ -13,6 +13,8 @@ related_diseases:
   - "불안정 협심증 감별"
   - "수술 후 심근허혈"
   - "심장 약물부하검사"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-u2iOyViOyglSDtmJHsi6zspp0gKFVuc3RhYmxlIEFuZ2luYSkubWQ
 question_type: investigation
 difficulty: complex
 answer: D

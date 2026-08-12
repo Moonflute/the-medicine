@@ -13,6 +13,8 @@ related_diseases:
   - "천식"
   - "가역적 기도폐쇄"
   - "FEV1 반응"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: investigation
 difficulty: standard
 answer: A

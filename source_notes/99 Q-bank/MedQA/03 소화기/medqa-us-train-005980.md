@@ -13,6 +13,7 @@ related_diseases:
   - "펠라그라"
   - "나이아신 결핍"
   - "설사와 치매"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

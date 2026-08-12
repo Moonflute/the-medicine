@@ -11,7 +11,9 @@ language: ko
 specialty: 14 소아청소년과
 related_diseases:
   - "Ewing’s sarcoma"
+  - "Ewing sarcoma"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

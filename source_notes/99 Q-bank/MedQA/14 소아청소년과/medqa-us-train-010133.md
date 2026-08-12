@@ -14,6 +14,8 @@ related_diseases:
   - "관상동맥류 예방"
   - "정맥 면역글로불린"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCA7JmA7IKs7YKk67ORIChLYXdhc2FraSBEaXNlYXNlKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

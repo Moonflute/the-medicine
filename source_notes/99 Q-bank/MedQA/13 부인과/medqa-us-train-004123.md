@@ -14,6 +14,8 @@ related_diseases:
   - "질 위축"
   - "에스트로겐 결핍"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ychOy2leyEsSDsp4jsl7wgKEF0cm9waGljIFZhZ2luaXRpcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

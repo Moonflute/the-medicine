@@ -14,6 +14,8 @@ related_diseases:
   - "피부사상균 감염"
   - "터비나핀"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uwseyEoCAoVGluZWEpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

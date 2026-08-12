@@ -14,6 +14,8 @@ related_diseases:
   - "선천성 림프부종"
   - "림프계 기능장애"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YSw64SIIOymne2bhOq1sCAoVHVybmVyIFN5bmRyb21lKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

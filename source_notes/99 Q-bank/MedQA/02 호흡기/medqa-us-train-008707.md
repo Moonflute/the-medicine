@@ -13,6 +13,9 @@ related_diseases:
   - "cystic fibrosis"
   - "vitamin A deficiency"
   - "Bitot spots"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEEg6rKw7ZWN7KadIChWaXRhbWluIEEgRGVmaWNpZW5jeSkubWQ
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 question_type: management
 difficulty: standard
 answer: B

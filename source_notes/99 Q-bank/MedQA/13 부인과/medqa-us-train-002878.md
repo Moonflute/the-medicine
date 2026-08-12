@@ -15,6 +15,9 @@ related_diseases:
   - "cardiotocography"
   - "labor fetal monitoring"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-y0iOq4sOqwkOyGjSAoRWFybHkgRGVjZWxlcmF0aW9uKS5tZA
+  - MTIg7IKw6rO8L-yehOyLoCDspJEg7YOc7JWEIOqwkOyLnCAoRmV0YWwgTW9uaXRvcmluZykubWQ
 difficulty: simple
 answer: A
 translation_status: machine-verified

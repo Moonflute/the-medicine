@@ -14,7 +14,9 @@ related_diseases:
   - "골반장기탈출"
   - "자궁절제술 후 탈출"
   - "질 후벽 돌출"
+  - "Enterocele"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

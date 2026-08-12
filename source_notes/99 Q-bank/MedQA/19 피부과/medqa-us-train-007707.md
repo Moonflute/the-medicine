@@ -14,6 +14,8 @@ related_diseases:
   - "skin infection"
   - "lower extremity cellulitis"
 question_type: diagnosis
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yXsOyhsOyngeyXvCAoQ2VsbHVsaXRpcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

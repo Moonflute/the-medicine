@@ -14,6 +14,9 @@ related_diseases:
   - "type IV collagen defect"
   - "sensorineural hearing loss"
   - "anterior lenticonus"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yVjO2PrO2KuCDspp3tm4TqtbAgKEFscG9ydCBTeW5kcm9tZSkubWQ
+  - MTcg7J2067mE7J247ZuE6rO8L-uPjOuwnOyEsSDrgpzssq0gKFN1ZGRlbiBzZW5zb3JpbmV1cmFsIGhlYXJpbmcgbG9zcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: C

@@ -13,6 +13,9 @@ related_diseases:
   - "간혈관종"
   - "경구피임약"
   - "간 종괴"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7ZiI6rSA7KKFIChIZXBhdGljIEhlbWFuZ2lvbWEpLm1k
+  - MTMg67aA7J246rO8L-qyveq1rO2UvOyehOyVvSAoT3JhbCBDb250cmFjZXB0aXZlcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: D

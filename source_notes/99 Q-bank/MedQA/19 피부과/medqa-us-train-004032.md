@@ -14,6 +14,8 @@ related_diseases:
   - "접촉피부염"
   - "손목 피부염"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-ygkey0ie2UvOu2gOyXvCAoQ29udGFjdCBEZXJtYXRpdGlzKS5tZA
 difficulty: simple
 answer: D
 translation_status: machine-verified

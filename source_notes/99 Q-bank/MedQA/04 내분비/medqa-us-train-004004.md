@@ -13,6 +13,9 @@ related_diseases:
   - "그레이브스병"
   - "방사성 요오드 치료"
   - "갑상샘기능저하증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: D

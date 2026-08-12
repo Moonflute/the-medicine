@@ -13,7 +13,9 @@ related_diseases:
   - "다계통위축증"
   - "파킨슨증"
   - "신경교 세포질 봉입체"
+  - "multiple system atrophy"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

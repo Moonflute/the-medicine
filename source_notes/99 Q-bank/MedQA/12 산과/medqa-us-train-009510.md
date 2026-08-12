@@ -14,6 +14,8 @@ related_diseases:
   - "수술 후 장폐색"
   - "cesarean section"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-ygnOyZleygiOqwnOyIoCAoQ2VzYXJlYW4gU2VjdGlvbikubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -13,6 +13,7 @@ related_diseases:
   - "splitting defense mechanism"
   - "psychodynamic psychotherapy"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

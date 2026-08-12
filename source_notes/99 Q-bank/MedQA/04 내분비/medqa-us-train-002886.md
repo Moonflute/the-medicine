@@ -14,6 +14,8 @@ related_diseases:
   - "nocturnal hypoglycemia"
   - "rebound morning hyperglycemia"
   - "insulin dose reduction"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
 question_type: adverse_effect
 difficulty: standard
 answer: C

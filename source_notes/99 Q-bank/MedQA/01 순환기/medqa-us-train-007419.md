@@ -14,6 +14,8 @@ related_diseases:
   - "스탠퍼드 A형 대동맥 박리"
   - "베타차단제"
   - "혈압 조절"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: A

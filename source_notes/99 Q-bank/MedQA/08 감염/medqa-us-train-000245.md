@@ -12,6 +12,9 @@ specialty: 08 감염
 related_diseases:
   - "acute lymphoblastic leukemia"
   - "meningitis"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChBTEwpIChBY3V0ZSBMeW1waG9ibGFzdGljIExldWtlbWlhKS5tZA
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsooUgKE1lbmluZ2lvbWEpLm1k
 question_type: management
 difficulty: complex
 answer: C

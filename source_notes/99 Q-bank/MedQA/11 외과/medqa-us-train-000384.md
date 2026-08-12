@@ -12,6 +12,7 @@ specialty: 11 외과
 related_diseases:
   - "third-degree burn"
   - "euthyroid sick syndrome"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

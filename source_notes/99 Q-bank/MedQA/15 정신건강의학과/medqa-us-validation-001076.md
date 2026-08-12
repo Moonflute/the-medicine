@@ -13,7 +13,9 @@ related_diseases:
   - "경계성 성격장애"
   - "분열"
   - "자해 행동"
+  - "Borderline personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

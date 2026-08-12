@@ -13,6 +13,8 @@ related_diseases:
   - "고혈압"
   - "비만"
   - "고혈압성 장기 손상 평가"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

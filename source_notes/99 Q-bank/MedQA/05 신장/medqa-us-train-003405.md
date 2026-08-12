@@ -14,6 +14,9 @@ related_diseases:
   - "Kimmelstiel-Wilson nodules"
   - "nodular glomerulosclerosis"
   - "proteinuria"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
+  - MDUg7Iug7J6lL-q4sOumveyEsSDri6jrsLHrh6ggKE9ydGhvc3RhdGljIFByb3RlaW51cmlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

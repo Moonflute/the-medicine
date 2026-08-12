@@ -13,6 +13,8 @@ related_diseases:
   - "악성빈혈"
   - "내인자 항체"
   - "자가면역 갑상선염"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yVheyEsSDruYjtmIggKFBlcm5pY2lvdXMgQW5lbWlhKS5tZA
 question_type: investigation
 difficulty: standard
 answer: A

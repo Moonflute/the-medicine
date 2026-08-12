@@ -13,6 +13,10 @@ related_diseases:
   - "Adhesive capsulitis"
   - "Type 2 diabetes mellitus"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yYpOyLreqyrCAoQWRoZXNpdmUgQ2Fwc3VsaXRpcykubWQ
+  - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

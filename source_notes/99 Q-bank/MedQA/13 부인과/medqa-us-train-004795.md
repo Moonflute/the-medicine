@@ -14,6 +14,8 @@ related_diseases:
   - "월경전 증후군"
   - "월경 주기와 증상 일지"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yblOqyveyghCDspp3tm4TqtbAgKFByZW1lbnN0cnVhbCBTeW5kcm9tZSkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

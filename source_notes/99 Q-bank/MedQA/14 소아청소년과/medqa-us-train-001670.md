@@ -14,6 +14,7 @@ related_diseases:
   - "tracheoesophageal anomaly"
   - "branchial arch development"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

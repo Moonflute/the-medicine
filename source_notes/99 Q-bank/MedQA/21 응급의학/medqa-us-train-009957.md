@@ -14,6 +14,8 @@ related_diseases:
   - "횡문근융해증"
   - "고체온증"
 question_type: management
+related_disease_slugs:
+  - MDUg7Iug7J6lL-2aoeusuOq3vOycte2VtOymnSAoUmhhYmRvbXlvbHlzaXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

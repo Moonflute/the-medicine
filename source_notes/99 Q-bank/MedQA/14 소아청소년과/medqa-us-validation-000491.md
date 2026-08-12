@@ -14,6 +14,8 @@ related_diseases:
   - "좌우 단락"
   - "폐혈관 저항 감소"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius7IukIOykkeqyqSDqsrDshpAgKFZlbnRyaWN1bGFyIFNlcHRhbCBEZWZlY3QpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

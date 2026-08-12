@@ -14,6 +14,7 @@ related_diseases:
   - "태반 만출 지연"
   - "산후출혈"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

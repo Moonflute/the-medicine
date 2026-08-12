@@ -13,6 +13,8 @@ related_diseases:
   - "고칼슘혈증"
   - "비타민 보충제 과다"
   - "다뇨"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: 임상증례 객관식
 difficulty: simple
 answer: C

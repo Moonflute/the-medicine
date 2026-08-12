@@ -14,6 +14,8 @@ related_diseases:
   - "전방 무릎 통증"
   - "대퇴사두근 강화"
 question_type: management
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

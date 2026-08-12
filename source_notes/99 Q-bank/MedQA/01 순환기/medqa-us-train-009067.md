@@ -13,6 +13,8 @@ related_diseases:
   - "Wolff-Parkinson-White syndrome"
   - "accessory atrioventricular pathway"
   - "preexcitation"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yauO2UhC3tjIztgqjsiqgt7ZmU7J207Yq4IOymne2bhOq1sCAoV1BXIFN5bmRyb21lKS5tZA
 question_type: mechanism
 difficulty: standard
 answer: D

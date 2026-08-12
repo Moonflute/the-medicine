@@ -13,7 +13,9 @@ related_diseases:
   - "태아 심박수 변이 감속"
   - "탯줄 압박"
   - "양막 파수"
+  - "Umbilical cord compression"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

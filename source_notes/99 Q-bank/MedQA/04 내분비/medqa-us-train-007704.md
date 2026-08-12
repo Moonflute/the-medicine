@@ -13,6 +13,8 @@ related_diseases:
   - "morbid obesity"
   - "bariatric surgery"
   - "body mass index"
+  - "Morbid obesity"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

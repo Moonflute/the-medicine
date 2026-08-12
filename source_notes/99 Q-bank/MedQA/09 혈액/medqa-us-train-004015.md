@@ -13,6 +13,8 @@ related_diseases:
   - "심부정맥혈전증"
   - "혈전성 소인"
   - "단백질 C 결핍"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

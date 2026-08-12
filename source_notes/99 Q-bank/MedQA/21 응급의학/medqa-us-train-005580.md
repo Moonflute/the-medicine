@@ -13,7 +13,10 @@ related_diseases:
   - "파상풍 예방"
   - "오염된 천자상"
   - "파상풍 면역글로불린"
+  - "Tetanus"
 question_type: prevention
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2MjOyDge2SjSAoVGV0YW51cykubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

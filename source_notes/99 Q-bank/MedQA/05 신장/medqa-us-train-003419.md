@@ -14,6 +14,9 @@ related_diseases:
   - "renal artery stenosis"
   - "hypertensive emergency"
   - "CT angiography"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: C

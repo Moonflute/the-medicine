@@ -14,6 +14,8 @@ related_diseases:
   - "하인츠 소체"
   - "수포세포"
   - "메트헤모글로빈 환원검사"
+  - "G6PD deficiency"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: B

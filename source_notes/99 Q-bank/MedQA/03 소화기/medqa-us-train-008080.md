@@ -13,6 +13,9 @@ related_diseases:
   - "colorectal cancer"
   - "large bowel obstruction"
   - "sigmoid tumor"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rjIDsnqUg7Y-Q7IeEIChMYXJnZSBCb3dlbCBPYnN0cnVjdGlvbikubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

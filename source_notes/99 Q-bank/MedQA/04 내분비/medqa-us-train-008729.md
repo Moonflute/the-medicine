@@ -13,6 +13,9 @@ related_diseases:
   - "hypothyroidism"
   - "Hashimoto thyroiditis"
   - "primary thyroid lymphoma"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
+  - MDQg64K067aE67mEL-2VmOyLnOuqqO2GoCDqsJHsg4Hsg5jsl7wgKEhhc2hpbW90bydzIFRoeXJvaWRpdGlzKS5tZA
 question_type: prognosis
 difficulty: complex
 answer: D

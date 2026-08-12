@@ -14,6 +14,8 @@ related_diseases:
   - "drug-induced neutropenia"
   - "viral upper respiratory infection"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Zi47KSR6rWsIOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

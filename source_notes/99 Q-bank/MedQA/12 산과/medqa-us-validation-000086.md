@@ -14,6 +14,9 @@ related_diseases:
   - "전격성 간염"
   - "임신 3기 간염"
 question_type: prognosis
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_soITqsqnshLEg6rCE7Je8IChGdWxtaW5hbnQgSGVwYXRpdGlzKS5tZA
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

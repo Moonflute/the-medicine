@@ -13,6 +13,8 @@ related_diseases:
   - "요독성 심낭염"
   - "말기 신장질환"
   - "혈액투석"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: management
 difficulty: complex
 answer: C

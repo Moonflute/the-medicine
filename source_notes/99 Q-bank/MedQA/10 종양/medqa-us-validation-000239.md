@@ -13,6 +13,8 @@ related_diseases:
   - "전이성 척수압박"
   - "유방암 골전이"
   - "척수 응급질환"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: complex
 answer: C

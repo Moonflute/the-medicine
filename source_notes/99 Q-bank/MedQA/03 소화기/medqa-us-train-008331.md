@@ -13,6 +13,8 @@ related_diseases:
   - "Crohn disease"
   - "ileocolitis"
   - "budesonide"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k
 question_type: management
 difficulty: complex
 answer: A

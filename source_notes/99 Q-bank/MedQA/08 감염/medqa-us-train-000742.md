@@ -12,6 +12,8 @@ specialty: 08 감염
 related_diseases:
   - "splenic laceration"
   - "splenectomy"
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-ywveyDgSDrsI8g7Je07IOBIChXb3VuZHMgYW5kIExhY2VyYXRpb25zKS5tZA
 question_type: management
 difficulty: standard
 answer: A

@@ -14,7 +14,9 @@ related_diseases:
   - "리튬 독성"
   - "클로르탈리돈 상호작용"
   - "서맥"
+  - "Lithium toxicity"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

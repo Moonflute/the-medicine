@@ -13,6 +13,7 @@ related_diseases:
   - "보툴리눔 중독"
   - "식품매개 보툴리누스증"
   - "호흡근 마비"
+related_disease_slugs: []
 question_type: prognosis
 difficulty: complex
 answer: C

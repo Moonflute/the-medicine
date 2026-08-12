@@ -14,6 +14,9 @@ related_diseases:
   - "liver abscess"
   - "Entamoeba histolytica"
   - "Echinococcus granulosus"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si63snbTsp4DsnqUg6rak7JaRIChEdW9kZW5hbCBVbGNlcikubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg64aN7JaRIChMaXZlciBBYnNjZXNzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

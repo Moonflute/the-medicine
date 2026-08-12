@@ -13,6 +13,8 @@ related_diseases:
   - "sepsis"
   - "postoperative pneumonia"
   - "systemic inflammatory response syndrome"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

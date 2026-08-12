@@ -13,6 +13,9 @@ related_diseases:
   - "community-acquired pneumonia"
   - "inpatient pneumonia treatment"
   - "cefota​​xime azithromycin"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Y-Q66C0IChQbmV1bW9uaWEpLm1k
 question_type: management
 difficulty: complex
 answer: C

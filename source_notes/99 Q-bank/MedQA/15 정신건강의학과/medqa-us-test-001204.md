@@ -13,7 +13,9 @@ related_diseases:
   - "부프로피온"
   - "금연"
   - "발작 위험"
+  - "Seizure disorder"
 question_type: prevention
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

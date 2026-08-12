@@ -14,6 +14,8 @@ related_diseases:
   - "behavioral therapy"
   - "school conduct"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggeuMgOyggSDrsJjtla0g7J6l7JWgIChPcHBvc2l0aW9uYWwgRGVmaWFudCBEaXNvcmRlcikubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -13,7 +13,10 @@ related_diseases:
   - "ASC-US"
   - "비정형 편평세포"
   - "high-risk HPV"
+  - "Human papillomavirus infection"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u-sOyhsSDsvZjrlJzroZzrp4ggKENvbmR5bG9tYSBBY3VtaW5hdHVtKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

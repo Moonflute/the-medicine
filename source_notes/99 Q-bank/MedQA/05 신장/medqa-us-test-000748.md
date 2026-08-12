@@ -13,6 +13,8 @@ related_diseases:
   - "굿파스처증후군"
   - "폐포출혈"
   - "급속 진행성 사구체신염"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyGjSDsp4Ttlokg7Yag66as7L2p7Yyl7Je8IChSYXBpZGx5IFByb2dyZXNzaXZlIEdsb21lcnVsb25lcGhyaXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: C

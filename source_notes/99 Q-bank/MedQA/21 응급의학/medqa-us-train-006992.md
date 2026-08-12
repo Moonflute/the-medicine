@@ -11,7 +11,9 @@ language: ko
 specialty: 21 응급의학
 related_diseases:
   - "hemothorax"
+  - "Hemothorax"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

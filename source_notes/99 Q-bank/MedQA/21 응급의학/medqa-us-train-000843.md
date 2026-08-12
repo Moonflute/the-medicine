@@ -13,6 +13,9 @@ related_diseases:
   - "orbital cellulitis"
   - "sinusitis"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yXsOyhsOyngeyXvCAoQ2VsbHVsaXRpcykubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67aA67mE64-Z7Je8IChTaW51c2l0aXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

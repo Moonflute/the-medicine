@@ -13,6 +13,9 @@ related_diseases:
   - "esophageal variceal bleeding"
   - "식도정맥류 출혈"
   - "upper gastrointestinal bleeding"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_si53rj4Qg7KCV66el66WYIChFc29waGFnZWFsIFZhcmljZXMpLm1k
+  - MTEg7Jm46rO8L-ychOyepeq0gCDstpztmIggKEdhc3Ryb2ludGVzdGluYWwgQmxlZWRpbmcpLm1k
 question_type: management
 difficulty: complex
 answer: D

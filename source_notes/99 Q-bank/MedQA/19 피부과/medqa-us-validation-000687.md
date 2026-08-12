@@ -13,7 +13,10 @@ related_diseases:
   - "두부백선"
   - "검은점 두부백선"
   - "곰팡이성 탈모"
+  - "Tinea capitis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uwseyEoCAoVGluZWEpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

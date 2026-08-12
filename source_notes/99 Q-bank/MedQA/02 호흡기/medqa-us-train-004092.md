@@ -13,6 +13,7 @@ related_diseases:
   - "폐암 선별검사"
   - "저선량 흉부 CT"
   - "과거 흡연력"
+related_disease_slugs: []
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

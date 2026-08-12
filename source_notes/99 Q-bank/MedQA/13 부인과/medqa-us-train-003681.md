@@ -15,6 +15,9 @@ related_diseases:
   - "septic shock"
   - "exploratory laparotomy"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
+  - MTEg7Jm46rO8L-2MqO2YiOyEsSDsh7ztgawgKFNlcHRpYyBTaG9jaykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

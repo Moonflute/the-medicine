@@ -14,6 +14,10 @@ related_diseases:
   - "HELLP 증후군"
   - "자간증"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-ykkeymnSDsoITsnpDqsITspp0gKFNldmVyZSBQcmUtZWNsYW1wc2lhKS5tZA
+  - MTIg7IKw6rO8L0hFTExQIOymne2bhOq1sCAoSEVMTFAgU3luZHJvbWUpLm1k
+  - MTIg7IKw6rO8L-yekOqwhOymnSAoRWNsYW1wc2lhKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

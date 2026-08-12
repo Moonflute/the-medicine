@@ -14,6 +14,8 @@ related_diseases:
   - "경구 포도당 내성검사"
   - "임신 24~28주"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "osteosarcoma"
   - "bone tumor"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rOo7Jyh7KKFIChPc3Rlb3NhcmNvbWEpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

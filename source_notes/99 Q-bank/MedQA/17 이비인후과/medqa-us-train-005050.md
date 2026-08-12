@@ -13,7 +13,10 @@ related_diseases:
   - "검은털혀"
   - "구강위생 불량"
   - "HIV 관련 구강 병변"
+  - "HIV infection"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

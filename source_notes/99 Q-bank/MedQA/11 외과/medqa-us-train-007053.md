@@ -13,6 +13,8 @@ related_diseases:
   - "소아 배꼽탈장"
   - "정복 가능한 탈장"
   - "관찰"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uwsOq8vSDtg4jsnqUgKFVtYmlsaWNhbCBIZXJuaWEpLm1k
 question_type: management
 difficulty: standard
 answer: B

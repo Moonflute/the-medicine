@@ -13,6 +13,8 @@ related_diseases:
   - "비타민 B12 결핍"
   - "위소매절제술 후 흡수장애"
   - "말초신경병증"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEIg6rKw7ZWN7KadIChWaXRhbWluIEIgRGVmaWNpZW5jeSkubWQ
 question_type: complication
 difficulty: simple
 answer: B

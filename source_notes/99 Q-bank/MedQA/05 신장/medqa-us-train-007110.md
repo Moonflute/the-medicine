@@ -14,6 +14,7 @@ related_diseases:
   - "리튬 중독"
   - "혈액투석"
   - "탈수"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

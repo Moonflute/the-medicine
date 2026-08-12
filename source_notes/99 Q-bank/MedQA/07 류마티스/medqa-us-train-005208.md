@@ -13,6 +13,9 @@ related_diseases:
   - "피부근염"
   - "염증성 근육병"
   - "악성종양 연관 피부근염"
+  - "Dermatomyositis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yXvOymneyEsSDqt7zrs5Hspp0gKEluZmxhbW1hdG9yeSBNeW9wYXRoeSkubWQ
 question_type: investigation
 difficulty: standard
 answer: D

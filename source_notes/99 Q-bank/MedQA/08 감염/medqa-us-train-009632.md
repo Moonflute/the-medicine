@@ -13,6 +13,8 @@ related_diseases:
   - "Vibrio parahaemolyticus"
   - "장염비브리오"
   - "raw oyster-associated gastroenteritis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qzoOuemO2ajOy2qSDsnKDstqnspp0gKEFuaXNha2lhc2lzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

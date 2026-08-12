@@ -13,6 +13,8 @@ related_diseases:
   - "원발성 담즙성 담관염"
   - "담즙정체"
   - "피부 황색종"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sm5DrsJzshLEg64u07KaZ7ISxIOuLtOq0gOyXvCAoUEJDKSAoUHJpbWFyeSBCaWxpYXJ5IENob2xhbmdpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "선페스트"
   - "Yersinia pestis"
   - "림프절염"
+  - "plague"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: C

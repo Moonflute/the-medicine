@@ -13,6 +13,9 @@ related_diseases:
   - "여포성 갑상샘 종양"
   - "RAS 돌연변이"
   - "갑상샘 엽절제술"
+  - "follicular thyroid carcinoma"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmOyVlCAoVGh5cm9pZCBDYW5jZXIpLm1k
 question_type: 임상증례 객관식
 difficulty: standard
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "백일해"
   - "마크롤라이드 항생제"
   - "QT 간격 연장"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cx7J287ZW0IChQZXJ0dXNzaXMpLm1k
 question_type: adverse_effect
 difficulty: standard
 answer: A

@@ -13,6 +13,9 @@ related_diseases:
   - "난치성 복수"
   - "알코올성 간경변"
   - "대량 복수천자"
+  - "Alcoholic cirrhosis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
 question_type: management
 difficulty: complex
 answer: D

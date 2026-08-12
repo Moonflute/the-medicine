@@ -15,6 +15,8 @@ related_diseases:
   - "weight loss intervention"
   - "crepitus"
 question_type: management
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qzqOq0gOygiOyXvCAoT3N0ZW9hcnRocml0aXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

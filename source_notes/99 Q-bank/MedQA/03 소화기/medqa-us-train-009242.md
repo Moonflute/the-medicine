@@ -13,6 +13,8 @@ related_diseases:
   - "celiac disease"
   - "셀리악병"
   - "dermatitis herpetiformis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA
 question_type: investigation
 difficulty: standard
 answer: B

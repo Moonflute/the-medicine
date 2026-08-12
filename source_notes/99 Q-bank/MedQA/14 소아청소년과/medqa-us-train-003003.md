@@ -15,6 +15,8 @@ related_diseases:
   - "continuous supraclavicular murmur"
   - "pediatric cardiac auscultation"
 question_type: diagnosis
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-ygleunpSDsnqHsnYwgKFZlbm91cyBIdW0pLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,7 @@ related_diseases:
   - "bronchopulmonary dysplasia"
   - "prematurity"
   - "chronic lung disease of prematurity"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: B

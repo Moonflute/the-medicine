@@ -15,6 +15,8 @@ related_diseases:
   - "total hip arthroplasty"
   - "refractory pain"
 question_type: management
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qzqOq0gOygiOyXvCAoT3N0ZW9hcnRocml0aXMpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

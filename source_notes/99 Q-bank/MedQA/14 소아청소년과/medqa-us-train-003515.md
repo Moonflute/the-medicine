@@ -15,6 +15,9 @@ related_diseases:
   - "high-pitched cry"
   - "growth restriction"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rOg7JaR7J20IOyauOydjCDspp3tm4TqtbAgKENyaS1kdS1jaGF0IFN5bmRyb21lKS5tZA
+  - MTIg7IKw6rO8L-2DnOyVhCDshLHsnqUg7KeA7JewIChGZXRhbCBHcm93dGggUmVzdHJpY3Rpb24pLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

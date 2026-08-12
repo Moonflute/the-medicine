@@ -13,7 +13,10 @@ related_diseases:
   - "전신 강직간대성 발작"
   - "발작 후 젖산산증"
   - "혈청 중탄산염 감소"
+  - "Generalized tonic-clonic seizure"
 question_type: investigation
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rsJzsnpEgKFNlaXp1cmUpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

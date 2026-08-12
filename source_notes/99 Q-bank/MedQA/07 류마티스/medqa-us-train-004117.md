@@ -13,6 +13,9 @@ related_diseases:
   - "거대세포동맥염"
   - "류마티스성 다발근통"
   - "시야 결손"
+  - "giant cell arteritis"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: C

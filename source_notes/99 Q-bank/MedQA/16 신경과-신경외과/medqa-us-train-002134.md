@@ -14,6 +14,8 @@ related_diseases:
   - "facial angiofibromas"
   - "renal angiomyolipoma"
 question_type: risk_factor
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rKw7KCI7ISxIOqyve2ZlOymnSAoVHViZXJvdXMgU2NsZXJvc2lzKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

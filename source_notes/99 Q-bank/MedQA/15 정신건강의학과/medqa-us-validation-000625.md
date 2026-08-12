@@ -13,7 +13,10 @@ related_diseases:
   - "급성 정신병"
   - "명령환청"
   - "자·타해 위험"
+  - "Acute psychotic disorder"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2LsSDsnqXslaAgKFRpYyBEaXNvcmRlcikubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

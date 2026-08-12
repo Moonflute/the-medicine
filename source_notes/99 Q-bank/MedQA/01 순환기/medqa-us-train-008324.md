@@ -13,6 +13,8 @@ related_diseases:
   - "reinfarction"
   - "CK-MB"
   - "recurrent myocardial infarction"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: investigation
 difficulty: standard
 answer: B

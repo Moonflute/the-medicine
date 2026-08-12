@@ -14,6 +14,8 @@ related_diseases:
   - "위 선암"
   - "악성 종양 관련 피부소견"
 question_type: diagnosis
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITslZQgKEdhc3RyaWMgQ2FuY2VyKS5tZA
 difficulty: simple
 answer: A
 translation_status: machine-verified

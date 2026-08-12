@@ -13,6 +13,9 @@ related_diseases:
   - "마이코플라스마 폐렴"
   - "비정형 폐렴"
   - "Mycoplasma pneumoniae"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uniOydtOy9lO2UjOudvOyKpOuniCDtj5DroLQgKE15Y29wbGFzbWEgUG5ldW1vbmlhKS5tZA
+  - MDIg7Zi47Z2h6riwL-u5hOygle2YlSDtj5DroLQgKEF0eXBpY2FsIFBuZXVtb25pYSkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: A

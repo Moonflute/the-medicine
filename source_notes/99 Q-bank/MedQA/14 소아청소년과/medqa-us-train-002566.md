@@ -14,6 +14,8 @@ related_diseases:
   - "pediatric right lower quadrant pain"
   - "abdominal ultrasound"
 question_type: investigation
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_quInshLEg7Lap7IiY7Je8IChBY3V0ZSBBcHBlbmRpY2l0aXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

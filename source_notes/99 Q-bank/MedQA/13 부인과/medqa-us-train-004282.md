@@ -14,6 +14,8 @@ related_diseases:
   - "유방 초음파"
   - "세침흡인"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqSDrgq3sooUgKEJyZWFzdCBDeXN0KS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

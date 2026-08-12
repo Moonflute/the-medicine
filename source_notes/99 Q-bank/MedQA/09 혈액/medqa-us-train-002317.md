@@ -14,6 +14,8 @@ related_diseases:
   - "hemochromatosis"
   - "diabetes mellitus"
   - "therapeutic phlebotomy"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: management
 difficulty: simple
 answer: C

@@ -13,6 +13,9 @@ related_diseases:
   - "Streptococcus bovis 균혈증"
   - "대장암"
   - "감염성 심내막염"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

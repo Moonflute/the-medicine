@@ -13,6 +13,8 @@ related_diseases:
   - "리튬 유발 신성 요붕증"
   - "고나트륨혈증"
   - "다뇨와 다음"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOuCmO2KuOulqO2YiOymnSAoSHlwZXJuYXRyZW1pYSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

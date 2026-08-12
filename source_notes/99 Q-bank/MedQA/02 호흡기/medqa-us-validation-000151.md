@@ -13,6 +13,8 @@ related_diseases:
   - "만성 기관지염"
   - "만성폐쇄성폐질환"
   - "흡연"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: D

@@ -14,6 +14,8 @@ related_diseases:
   - "무배란성 에스트로겐"
   - "프로게스틴 치료"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4kg7Kad7Iud7KadIChFbmRvbWV0cmlhbCBIeXBlcnBsYXNpYSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "세균성 장염"
   - "집단 발생"
   - "캄필로박터 감염"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-y6hO2VhOuhnOuwle2EsCAoQ2FtcHlsb2JhY3RlcikubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

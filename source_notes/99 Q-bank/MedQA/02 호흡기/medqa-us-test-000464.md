@@ -13,6 +13,8 @@ related_diseases:
   - "만성폐쇄성폐질환 급성 악화"
   - "전신 코르티코스테로이드"
   - "재악화 예방"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: prevention
 difficulty: complex
 answer: A

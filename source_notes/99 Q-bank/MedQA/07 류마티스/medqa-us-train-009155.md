@@ -13,6 +13,8 @@ related_diseases:
   - "polyarteritis nodosa"
   - "결절다발동맥염"
   - "type III hypersensitivity"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: C

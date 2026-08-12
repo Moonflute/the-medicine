@@ -15,6 +15,8 @@ related_diseases:
   - "마미 증후군"
   - "원추 증후군"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -11,6 +11,8 @@ language: ko
 specialty: 03 소화기
 related_diseases:
   - "duodenal ulcer"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si63snbTsp4DsnqUg6rak7JaRIChEdW9kZW5hbCBVbGNlcikubWQ
 question_type: diagnosis
 difficulty: standard
 answer: D

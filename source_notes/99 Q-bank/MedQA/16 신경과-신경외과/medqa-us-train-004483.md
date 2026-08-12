@@ -14,6 +14,8 @@ related_diseases:
   - "안면 전기통증"
   - "제5뇌신경 신경통"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sgrzssKjsi6Dqsr3thrUgKFRyaWdlbWluYWwgbmV1cmFsZ2lhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

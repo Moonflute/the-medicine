@@ -13,6 +13,9 @@ related_diseases:
   - "대동맥판 협착증"
   - "수축기 박출성 심잡음"
   - "실신"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLpOyLoC5tZA
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
 question_type: 임상증례 객관식
 difficulty: standard
 answer: C

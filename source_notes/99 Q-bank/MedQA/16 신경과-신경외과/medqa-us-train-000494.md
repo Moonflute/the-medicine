@@ -12,6 +12,8 @@ specialty: 16 신경과-신경외과
 related_diseases:
   - "amyotrophic lateral sclerosis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qt7zsnITstpXshLEg7Lih7IKtIOqyve2ZlOymnSAoQW15b3Ryb3BoaWMgbGF0ZXJhbCBzY2xlcm9zaXMpLm1k
 difficulty: simple
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "사르코이드증"
   - "비건락성 육아종"
   - "ACE 상승"
+  - "Sarcoidosis"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-ycoOycoeyiheymnSAoU2FyY29pZG9zaXMpLm1k
 question_type: investigation
 difficulty: complex
 answer: A

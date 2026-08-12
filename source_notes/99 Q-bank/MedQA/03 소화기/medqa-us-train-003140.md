@@ -14,6 +14,7 @@ related_diseases:
   - "liver trauma"
   - "hepatoduodenal ligament"
   - "portal triad clamping"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: C

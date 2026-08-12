@@ -13,6 +13,7 @@ related_diseases:
   - "류마티스성 승모판협착증"
   - "중간 이완기 잡음"
   - "경피적 교련절개술"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: C

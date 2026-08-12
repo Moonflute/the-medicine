@@ -13,6 +13,8 @@ related_diseases:
   - "alpha-1 antitrypsin deficiency"
   - "early-onset emphysema"
   - "liver biopsy"
+  - "Alpha-1 antitrypsin deficiency"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: C

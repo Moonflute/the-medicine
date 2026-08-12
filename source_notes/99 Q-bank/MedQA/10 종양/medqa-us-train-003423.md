@@ -14,6 +14,9 @@ related_diseases:
   - "invasive ductal carcinoma"
   - "bilateral breast cancer"
   - "E-cadherin loss"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
+  - MTMg67aA7J246rO8L-y5qOycpOyEsSDsnKDrsKnslZQgKEludmFzaXZlIEJyZWFzdCBDYW5jZXIpLm1k
 question_type: association
 difficulty: complex
 answer: B

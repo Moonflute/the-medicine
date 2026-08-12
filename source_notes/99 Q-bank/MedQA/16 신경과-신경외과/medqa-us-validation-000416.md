@@ -14,6 +14,8 @@ related_diseases:
   - "국소 신경학적 결손"
   - "뇌졸중 위험 평가"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_snbzqs7zshLEg7ZeI7ZiIIOuwnOyekSAoVHJhbnNpZW50IGlzY2hlbWljIGF0dGFjaykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

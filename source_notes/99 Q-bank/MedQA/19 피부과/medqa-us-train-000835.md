@@ -12,6 +12,7 @@ specialty: 19 피부과
 related_diseases:
   - "acne"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

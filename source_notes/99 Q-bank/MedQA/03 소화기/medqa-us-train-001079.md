@@ -12,6 +12,9 @@ specialty: 03 소화기
 related_diseases:
   - "sickle cell disease"
   - "cholelithiasis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: D

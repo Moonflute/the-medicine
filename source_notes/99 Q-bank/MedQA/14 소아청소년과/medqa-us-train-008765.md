@@ -14,6 +14,8 @@ related_diseases:
   - "chorioretinitis"
   - "hydrocephalus"
 question_type: diagnosis
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2GoeyGjO2UjOudvOymiOuniOymnSAoVG94b3BsYXNtb3NpcykubWQ
 difficulty: simple
 answer: A
 translation_status: machine-verified

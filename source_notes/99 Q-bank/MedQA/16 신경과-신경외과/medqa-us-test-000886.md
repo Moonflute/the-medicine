@@ -13,7 +13,9 @@ related_diseases:
   - "디히드로에르고타민 독성"
   - "약물 유발 혈관경련"
   - "국소 신경학적 결손"
+  - "Ergotamine toxicity"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

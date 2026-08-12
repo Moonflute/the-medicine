@@ -15,6 +15,8 @@ related_diseases:
   - "recent job loss"
   - "subthreshold depression"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggeydkSDsnqXslaAgKEFkanVzdG1lbnQgRGlzb3JkZXIpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

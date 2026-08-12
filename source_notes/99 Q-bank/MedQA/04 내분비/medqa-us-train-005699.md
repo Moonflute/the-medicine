@@ -13,6 +13,8 @@ related_diseases:
   - "일차성 다음증"
   - "물 제한 검사"
   - "저나트륨혈증"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

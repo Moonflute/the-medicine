@@ -14,6 +14,7 @@ related_diseases:
   - "BCG vaccination"
   - "interferon-gamma release assay"
   - "latent tuberculosis infection"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: D

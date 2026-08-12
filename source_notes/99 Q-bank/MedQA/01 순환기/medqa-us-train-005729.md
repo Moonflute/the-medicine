@@ -13,6 +13,8 @@ related_diseases:
   - "삼첨판 폐쇄"
   - "폐동맥판 협착"
   - "신생아 청색증"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2PkOuPmeunpe2MkOuniSDtmJHssKkgKFB1bG1vbmFyeSBTdGVub3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

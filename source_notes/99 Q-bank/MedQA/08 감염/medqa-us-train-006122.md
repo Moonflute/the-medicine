@@ -13,6 +13,8 @@ related_diseases:
   - "만성 C형간염"
   - "포르피리아 피부근육증"
   - "HCV RNA PCR"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEgQ-2YlSDqsITsl7wgKENocm9uaWMgSGVwYXRpdGlzIEMgKEhDVikpLm1k
 question_type: investigation
 difficulty: complex
 answer: B

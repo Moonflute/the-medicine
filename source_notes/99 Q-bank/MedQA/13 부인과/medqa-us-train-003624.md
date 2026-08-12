@@ -15,6 +15,10 @@ related_diseases:
   - "oligohydramnios"
   - "decreased fetal movement"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2DnOyVhCDshLHsnqUg7KeA7JewIChGZXRhbCBHcm93dGggUmVzdHJpY3Rpb24pLm1k
+  - MTIg7IKw6rO8L-yWkeyImCDqs7zshozspp0gKE9saWdvaHlkcmFtbmlvcykubWQ
+  - MTIg7IKw6rO8L-yWkeyImCDqs7zri6Tspp0gKEh5ZHJhbW5pb3MpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

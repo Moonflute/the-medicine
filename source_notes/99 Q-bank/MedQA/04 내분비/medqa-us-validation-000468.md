@@ -13,6 +13,9 @@ related_diseases:
   - "SIADH"
   - "저삼투성 저나트륨혈증"
   - "뇌수술 후 저나트륨혈증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2VreydtOuHqO2YuOultOuqrCDrtoDsoIHsoIgg67aE67mEIOymne2bhOq1sCAoU0lBREgpIChTeW5kcm9tZSBvZiBJbmFwcHJvcHJpYXRlIEFudGlkaXVyZXRpYyBIb3Jtb25lIFNlY3JldGlvbiAoU0lBREgpKS5tZA
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

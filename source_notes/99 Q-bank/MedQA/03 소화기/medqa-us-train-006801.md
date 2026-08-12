@@ -13,6 +13,8 @@ related_diseases:
   - "식도 협착"
   - "샤츠키 고리"
   - "고형식 연하곤란"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4Qg7ZiR7LCpIChFc29waGFnZWFsIFN0cmljdHVyZSkubWQ
 question_type: management
 difficulty: complex
 answer: A

@@ -14,6 +14,8 @@ related_diseases:
   - "임신성 영양막 질환"
   - "융모성 부종"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2PrOyDgeq4sO2DnCAoTW9sYXIgUHJlZ25hbmN5KS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

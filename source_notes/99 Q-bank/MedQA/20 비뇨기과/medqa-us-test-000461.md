@@ -13,7 +13,10 @@ related_diseases:
   - "라이디히세포 종양"
   - "여성형유방"
   - "에스트로겐 과다"
+  - "Leydig cell tumor"
 question_type: mechanism
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yEuOultO2GqOumrC3rnbzsnbTrlJTtnogg7IS47Y-sIOyiheyWkSAoU2VydG9saS1MZXlkaWcgQ2VsbCBUdW1vcikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

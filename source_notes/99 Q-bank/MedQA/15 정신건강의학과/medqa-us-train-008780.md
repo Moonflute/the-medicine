@@ -14,6 +14,9 @@ related_diseases:
   - "chlorpromazine"
   - "rhabdomyolysis"
 question_type: diagnosis
+related_disease_slugs:
+  - MDUg7Iug7J6lL-2aoeusuOq3vOycte2VtOymnSAoUmhhYmRvbXlvbHlzaXMpLm1k
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveydtOyZhOygnCDslYXshLEg7Kad7ZuE6rWwIChOZXVyb2xlcHRpYyBNYWxpZ25hbnQgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

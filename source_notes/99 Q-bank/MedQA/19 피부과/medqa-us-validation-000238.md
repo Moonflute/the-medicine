@@ -14,6 +14,8 @@ related_diseases:
   - "진주색 구진"
   - "피부암"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-q4sOyggCDshLjtj6zslZQgKEJhc2FsIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

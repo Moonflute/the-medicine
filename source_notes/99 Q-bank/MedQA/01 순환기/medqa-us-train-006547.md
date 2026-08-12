@@ -13,6 +13,8 @@ related_diseases:
   - "심실빈맥"
   - "무맥성 심정지"
   - "아미오다론 치료"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOyLpCDruYjrp6UgKFZlbnRyaWN1bGFyIFRhY2h5Y2FyZGlhKS5tZA
 question_type: management
 difficulty: simple
 answer: A

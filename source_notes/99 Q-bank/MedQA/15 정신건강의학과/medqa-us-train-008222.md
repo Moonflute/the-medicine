@@ -13,7 +13,9 @@ related_diseases:
   - "narcissistic personality disorder"
   - "grandiosity"
   - "entitlement"
+  - "Narcissistic personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

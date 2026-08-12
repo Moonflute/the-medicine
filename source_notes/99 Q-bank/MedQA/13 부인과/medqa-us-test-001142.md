@@ -13,7 +13,9 @@ related_diseases:
   - "난소 예비력 감소"
   - "이차성 불임"
   - "난소 기능 평가"
+  - "diminished ovarian reserve"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

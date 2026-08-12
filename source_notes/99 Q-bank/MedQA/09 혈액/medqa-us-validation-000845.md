@@ -13,6 +13,8 @@ related_diseases:
   - "삼투성 탈수초화 증후군"
   - "중심교뇌수초용해"
   - "급속 교정 저나트륨혈증"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 question_type: diagnosis
 difficulty: simple
 answer: C

@@ -13,6 +13,9 @@ related_diseases:
   - "지역사회획득폐렴"
   - "노인 폐렴"
   - "중증도 평가"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-ygle2YlSDtj5DroLQgKFR5cGljYWwgUG5ldW1vbmlhKS5tZA
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: management
 difficulty: complex
 answer: D

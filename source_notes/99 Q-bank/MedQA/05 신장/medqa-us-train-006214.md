@@ -13,6 +13,8 @@ related_diseases:
   - "급성 세포매개 이식거부"
   - "신장이식"
   - "정맥 내 스테로이드"
+  - "Acute cellular rejection"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

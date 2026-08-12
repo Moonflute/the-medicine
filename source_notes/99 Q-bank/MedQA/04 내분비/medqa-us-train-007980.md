@@ -13,6 +13,8 @@ related_diseases:
   - "osteoporosis"
   - "raloxifene"
   - "hot flashes"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 question_type: management
 difficulty: standard
 answer: C

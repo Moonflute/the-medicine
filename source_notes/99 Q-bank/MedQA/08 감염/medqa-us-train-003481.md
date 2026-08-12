@@ -14,6 +14,9 @@ related_diseases:
   - "hepatitis A immunity"
   - "up-to-date vaccination"
   - "postexposure prophylaxis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEgQe2YlSDqsITsl7wgKEFjdXRlIEhlcGF0aXRpcyBBKS5tZA
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: prevention
 difficulty: complex
 answer: B

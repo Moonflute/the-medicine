@@ -13,6 +13,9 @@ related_diseases:
   - "악성빈혈"
   - "비타민 B12 결핍"
   - "내인자 항체"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yVheyEsSDruYjtmIggKFBlcm5pY2lvdXMgQW5lbWlhKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEIg6rKw7ZWN7KadIChWaXRhbWluIEIgRGVmaWNpZW5jeSkubWQ
 question_type: diagnosis
 difficulty: simple
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "갑상선 결절"
   - "억제된 TSH"
   - "갑상선 신티그래피"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDqsrDsoIggKFRoeXJvaWQgTm9kdWxlKS5tZA
 question_type: investigation
 difficulty: simple
 answer: D

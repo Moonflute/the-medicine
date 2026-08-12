@@ -13,7 +13,9 @@ related_diseases:
   - "치아 맹출"
   - "영아 침흘림"
   - "하악 앞니"
+  - "Teething"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -12,6 +12,9 @@ specialty: 11 외과
 related_diseases:
   - "esophageal perforation"
   - "achalasia"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQg7LKc6rO1IChQZXJmb3JhdGlvbikubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4Qg7J207JmE67aI64ql7KadIChBY2hhbGFzaWEpLm1k
 question_type: management
 difficulty: complex
 answer: C

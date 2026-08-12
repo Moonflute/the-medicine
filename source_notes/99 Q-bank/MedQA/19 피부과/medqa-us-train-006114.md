@@ -13,7 +13,9 @@ related_diseases:
   - "화농성 한선염"
   - "사타구니 병변"
   - "비만과 인슐린 저항성"
+  - "hidradenitis suppurativa"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

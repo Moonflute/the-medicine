@@ -13,7 +13,9 @@ related_diseases:
   - "gastroschisis"
   - "복벽갈림증"
   - "intestinal dysmotility"
+  - "Gastroschisis"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -12,6 +12,9 @@ specialty: 04 내분비
 related_diseases:
   - "hypertension"
   - "primary aldosteronism"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDQg64K067aE67mEL-ybkOuwnOyEsSDslYzrj4TsiqTthYzroaDspp0gKFByaW1hcnkgQWxkb3N0ZXJvbmlzbSkubWQ
 question_type: management
 difficulty: complex
 answer: B

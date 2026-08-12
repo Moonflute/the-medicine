@@ -13,6 +13,8 @@ related_diseases:
   - "혈청병"
   - "III형 과민반응"
   - "뱀독 항혈청"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOyyreuzkSAoU2VydW0gU2lja25lc3MpLm1k
 question_type: mechanism
 difficulty: complex
 answer: C

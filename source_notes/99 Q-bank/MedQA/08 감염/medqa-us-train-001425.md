@@ -12,6 +12,8 @@ specialty: 08 감염
 related_diseases:
   - "prosthetic valve endocarditis"
   - "Staphylococcus epidermidis"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

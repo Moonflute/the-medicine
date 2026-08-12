@@ -12,6 +12,8 @@ specialty: 22 정형외과
 related_diseases:
   - "compartment syndrome"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uzteqwlSDqtaztmo0g7Kad7ZuE6rWwIChBYmRvbWluYWwgQ29tcGFydG1lbnQgU3luZHJvbWUpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "PSA discussion"
   - "shared decision making"
 question_type: prevention
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -11,6 +11,8 @@ language: ko
 specialty: 08 감염
 related_diseases:
   - "serum sickness"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOyyreuzkSAoU2VydW0gU2lja25lc3MpLm1k
 question_type: management
 difficulty: complex
 answer: A

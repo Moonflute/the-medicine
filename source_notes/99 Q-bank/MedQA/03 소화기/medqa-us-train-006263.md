@@ -13,6 +13,8 @@ related_diseases:
   - "식도암"
   - "체중 감소"
   - "흑색변"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4TslZQgKEVzb3BoYWdlYWwgQ2FuY2VyKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

@@ -14,6 +14,8 @@ related_diseases:
   - "paroxysmal facial pain"
   - "carbamazepine"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sgrzssKjsi6Dqsr3thrUgKFRyaWdlbWluYWwgbmV1cmFsZ2lhKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

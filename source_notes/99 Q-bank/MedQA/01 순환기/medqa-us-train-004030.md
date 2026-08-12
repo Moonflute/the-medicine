@@ -13,6 +13,8 @@ related_diseases:
   - "증상성 서맥"
   - "실신"
   - "아트로핀"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLpOyLoC5tZA
 question_type: 임상증례 객관식
 difficulty: standard
 answer: B

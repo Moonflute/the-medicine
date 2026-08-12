@@ -14,6 +14,7 @@ related_diseases:
   - "vaccination"
   - "folic acid"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "근육성 심실중격결손"
   - "선천성 심장질환"
   - "심실중격결손 자연 폐쇄"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius7IukIOykkeqyqSDqsrDshpAgKFZlbnRyaWN1bGFyIFNlcHRhbCBEZWZlY3QpLm1k
 question_type: 임상증례 객관식
 difficulty: standard
 answer: A

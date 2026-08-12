@@ -14,6 +14,8 @@ related_diseases:
   - "인공호흡기 관리"
   - "저산소혈증"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4ieyEsSDtmLjtnaHqs6TrnoAg7Kad7ZuE6rWwIChBUkRTKSAoQWN1dGUgUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

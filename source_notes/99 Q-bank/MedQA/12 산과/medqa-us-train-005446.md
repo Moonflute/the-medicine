@@ -14,6 +14,7 @@ related_diseases:
   - "임신 중 요관 확장"
   - "프로게스테론 효과"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

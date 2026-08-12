@@ -13,6 +13,8 @@ related_diseases:
   - "respiratory syncytial virus"
   - "호흡기세포융합바이러스"
   - "bronchiolitis"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riJ7ISxIOyEuOq4sOq0gOyngOyXvCAoQWN1dGUgQnJvbmNoaW9saXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

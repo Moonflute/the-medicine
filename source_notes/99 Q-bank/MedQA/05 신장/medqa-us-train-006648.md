@@ -13,6 +13,7 @@ related_diseases:
   - "투석 중 저혈압"
   - "초여과"
   - "혈액투석 합병증"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

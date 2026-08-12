@@ -14,6 +14,7 @@ related_diseases:
   - "거대설"
   - "빌름스종양 선별"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

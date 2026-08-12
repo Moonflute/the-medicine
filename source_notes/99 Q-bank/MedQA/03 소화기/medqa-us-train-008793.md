@@ -13,6 +13,8 @@ related_diseases:
   - "irritable bowel syndrome"
   - "functional abdominal pain"
   - "pain relieved by defecation"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qs7zrr7zshLEg7J6lIOymne2bhOq1sCAoSUJTKSAoSXJyaXRhYmxlIEJvd2VsIFN5bmRyb21lIChJQlMpKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

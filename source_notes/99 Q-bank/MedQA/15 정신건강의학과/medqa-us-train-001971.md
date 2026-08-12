@@ -13,7 +13,9 @@ related_diseases:
   - "catatonia"
   - "waxy flexibility"
   - "lorazepam challenge"
+  - "Catatonia"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

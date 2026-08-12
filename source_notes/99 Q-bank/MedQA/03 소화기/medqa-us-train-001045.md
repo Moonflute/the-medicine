@@ -13,6 +13,9 @@ related_diseases:
   - "Mallory-Weiss tear"
   - "acute pancreatitis"
   - "alcohol use disorder"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

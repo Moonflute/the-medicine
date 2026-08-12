@@ -13,7 +13,9 @@ related_diseases:
   - "허혈성 지속발기증"
   - "트라조돈"
   - "약물 유발 지속발기증"
+  - "Priapism"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

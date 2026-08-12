@@ -13,6 +13,8 @@ related_diseases:
   - "aortic stenosis"
   - "paradoxical S2 splitting"
   - "left ventricular outflow obstruction"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
 question_type: diagnosis
 difficulty: standard
 answer: C

@@ -14,6 +14,9 @@ related_diseases:
   - "울혈성 심부전"
   - "좌우 단락"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius7IukIOykkeqyqSDqsrDshpAgKFZlbnRyaWN1bGFyIFNlcHRhbCBEZWZlY3QpLm1k
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

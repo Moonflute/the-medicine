@@ -14,6 +14,8 @@ related_diseases:
   - "copper IUD"
   - "postcoital contraception"
 question_type: prevention
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ydkeq4ie2UvOyehOuylSAoUG9zdGNvaXRhbCBDb250cmFjZXB0aW9uKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

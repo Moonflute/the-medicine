@@ -14,6 +14,7 @@ related_diseases:
   - "기도 응급"
   - "Haemophilus influenzae type b"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "감염 후 기침"
   - "급성 기관지염"
   - "지지요법"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4ieyEsSDquLDsuagubWQ
 question_type: management
 difficulty: complex
 answer: D

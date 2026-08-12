@@ -13,7 +13,9 @@ related_diseases:
   - "모튼 신경종"
   - "지간 신경종"
   - "중족골 사이 통증"
+  - "Morton's neuroma"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

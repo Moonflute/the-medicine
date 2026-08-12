@@ -14,6 +14,10 @@ related_diseases:
   - "Choledocholithiasis"
   - "Alcoholic hepatitis"
   - "Cholecystitis"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshKDslZQgKEFkZW5vY2FyY2lub21hKS5tZA
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7JO46rCc7Je8IChBY3V0ZSBDaG9sZWN5c3RpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

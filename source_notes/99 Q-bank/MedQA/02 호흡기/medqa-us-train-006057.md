@@ -13,6 +13,7 @@ related_diseases:
   - "원발성 섬모운동이상증"
   - "카르타게너 증후군"
   - "반복성 호흡기 감염"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: A

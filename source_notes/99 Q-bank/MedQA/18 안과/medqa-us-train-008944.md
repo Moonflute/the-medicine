@@ -13,7 +13,9 @@ related_diseases:
   - "primary open-angle glaucoma"
   - "optic disc cupping"
   - "latanoprost"
+  - "Primary open-angle glaucoma"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

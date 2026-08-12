@@ -14,6 +14,8 @@ related_diseases:
   - "paradoxical chest wall movement"
   - "blunt chest trauma"
 question_type: diagnosis
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uPmeyalCDqsIDsirQgKEZsYWlsIENoZXN0KS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

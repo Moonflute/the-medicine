@@ -14,6 +14,8 @@ related_diseases:
   - "bicuspid aortic valve"
   - "left ventricular dysfunction"
   - "aortic valve replacement"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDsl63rpZggKEFvcnRpYyBSZWd1cmdpdGF0aW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: D

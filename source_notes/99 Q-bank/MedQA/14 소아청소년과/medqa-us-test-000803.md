@@ -14,6 +14,7 @@ related_diseases:
   - "발달 이정표"
   - "영유아 건강검진"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

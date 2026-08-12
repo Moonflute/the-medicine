@@ -12,6 +12,8 @@ specialty: 12 산과
 related_diseases:
   - "Down syndrome"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

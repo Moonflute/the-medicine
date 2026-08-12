@@ -14,6 +14,9 @@ related_diseases:
   - "temporal lobe hyperintensity"
   - "viral encephalitis"
   - "CSF lymphocytic pleocytosis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uLqOyInO2PrOynhCDqsJDsl7wgKEhlcnBlcyBTaW1wbGV4IEluZmVjdGlvbikubWQ
+  - MDgg6rCQ7Je8L-uwlOydtOufrOyKpC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

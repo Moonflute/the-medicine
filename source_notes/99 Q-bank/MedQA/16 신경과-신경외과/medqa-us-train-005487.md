@@ -14,6 +14,8 @@ related_diseases:
   - "다발성 열공경색"
   - "심혈관 위험인자"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2YiOq0gOyEsSDsuZjrp6QgKFZhc2N1bGFyIERlbWVudGlhKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

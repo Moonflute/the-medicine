@@ -13,6 +13,8 @@ related_diseases:
   - "강직성 척추염"
   - "천장관절염"
   - "천장관절 MRI"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwleyngeyEsSDsspnstpTsl7wgKEFua3lsb3NpbmcgU3BvbmR5bGl0aXMpLm1k
 question_type: investigation
 difficulty: standard
 answer: C

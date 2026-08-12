@@ -13,7 +13,9 @@ related_diseases:
   - "학대성 멍"
   - "유아 신체학대"
   - "직사각형 패턴 병변"
+  - "child abuse"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

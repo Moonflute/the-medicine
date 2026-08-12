@@ -14,6 +14,8 @@ related_diseases:
   - "forceful vomiting"
   - "upper gastrointestinal bleeding"
   - "alcohol binge"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-ychOyepeq0gCDstpztmIggKEdhc3Ryb2ludGVzdGluYWwgQmxlZWRpbmcpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: B

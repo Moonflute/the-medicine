@@ -14,6 +14,8 @@ related_diseases:
   - "hypergonadotropic hypogonadism"
   - "FSH"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: simple
 answer: D
 translation_status: machine-verified

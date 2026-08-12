@@ -13,6 +13,8 @@ related_diseases:
   - "중등도 지속성 천식"
   - "천식 중증도"
   - "최대호기유속"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: complex
 answer: C

@@ -13,6 +13,7 @@ related_diseases:
   - "항인지질항체증후군"
   - "반복 유산"
   - "임신 중 항응고"
+related_disease_slugs: []
 question_type: prevention
 difficulty: standard
 answer: A

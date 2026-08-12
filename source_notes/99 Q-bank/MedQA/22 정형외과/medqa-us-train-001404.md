@@ -13,6 +13,9 @@ related_diseases:
   - "Legg-Calve-Perthes disease"
   - "avascular necrosis of femoral head"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64SZ64uk66as67yIIOuouOumrCDrsrzrgZ0g67K8IOyXsOqzqOymnSAoTGVnZy1DYWx2ZS1QZXJ0aGVzIERpc2Vhc2UpLm1k
+  - MjIg7KCV7ZiV7Jm46rO8L-uMgO2HtOqzqOuRkCDrrLTtmIjshLEg6rS07IKs7KadIChPc3Rlb25lY3Jvc2lzIG9mIHRoZSBGZW1vcmFsIEhlYWQpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

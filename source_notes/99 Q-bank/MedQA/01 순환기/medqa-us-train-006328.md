@@ -13,6 +13,9 @@ related_diseases:
   - "심장압전"
   - "이완기 압력 평형"
   - "폐쇄성 쇼크"
+  - "Cardiac tamponade"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOyepSDriIzrprzspp0gKENhcmRpYWMgVGFtcG9uYWRlKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

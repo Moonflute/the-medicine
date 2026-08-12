@@ -14,6 +14,8 @@ related_diseases:
   - "renal colic"
   - "noncontrast CT"
 question_type: investigation
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

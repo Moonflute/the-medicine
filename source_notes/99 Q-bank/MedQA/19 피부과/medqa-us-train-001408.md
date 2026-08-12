@@ -13,6 +13,7 @@ related_diseases:
   - "cutaneous larva migrans"
   - "hookworm infection"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

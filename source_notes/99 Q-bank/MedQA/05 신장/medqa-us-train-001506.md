@@ -13,6 +13,8 @@ related_diseases:
   - "diabetic nephropathy"
   - "active urinary sediment"
   - "cellular casts"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

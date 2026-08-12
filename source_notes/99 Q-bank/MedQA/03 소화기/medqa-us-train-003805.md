@@ -14,6 +14,7 @@ related_diseases:
   - "biliary pain"
   - "ERCP with manometry"
   - "normal biliary imaging"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: C

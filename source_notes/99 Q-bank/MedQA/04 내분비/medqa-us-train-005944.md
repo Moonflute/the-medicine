@@ -13,6 +13,8 @@ related_diseases:
   - "수술 후 저칼슘혈증"
   - "테타니"
   - "칼슘 글루콘산"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggOy5vOyKmO2YiOymnSAoSHlwb2NhbGNlbWlhKS5tZA
 question_type: management
 difficulty: simple
 answer: D

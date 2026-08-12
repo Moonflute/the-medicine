@@ -14,6 +14,8 @@ related_diseases:
   - "알코올 사용장애"
   - "방어기제"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "stable angina"
   - "adenosine stress testing"
   - "coronary artery stenosis"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yViOyglSDtmJHsi6zspp0gKFN0YWJsZSBBbmdpbmEpLm1k
 question_type: mechanism
 difficulty: standard
 answer: A

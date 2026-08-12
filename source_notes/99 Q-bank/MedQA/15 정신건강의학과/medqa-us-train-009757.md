@@ -14,6 +14,8 @@ related_diseases:
   - "저장강박"
   - "인지행동치료"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggOyepeyepeyVoCAoSG9hcmRpbmcgRGlzb3JkZXIpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

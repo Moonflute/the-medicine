@@ -13,6 +13,8 @@ related_diseases:
   - "신세포암"
   - "흡연"
   - "신장 종괴"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-y9qe2MpeyVlCAoUmVuYWwgQ2VsbCBDYXJjaW5vbWEpLm1k
 question_type: prevention
 difficulty: complex
 answer: D

@@ -12,7 +12,9 @@ specialty: 14 소아청소년과
 related_diseases:
   - "breast milk jaundice"
   - "unconjugated hyperbilirubinemia"
+  - "Breast milk jaundice"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

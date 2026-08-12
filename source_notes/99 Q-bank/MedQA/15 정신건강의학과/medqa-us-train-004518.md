@@ -13,7 +13,9 @@ related_diseases:
   - "경계성 인격장애"
   - "반복적 자해"
   - "변증법적 행동치료"
+  - "Borderline personality disorder"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

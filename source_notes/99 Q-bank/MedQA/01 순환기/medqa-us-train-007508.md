@@ -14,6 +14,8 @@ related_diseases:
   - "PCI 전 약물치료"
   - "고강도 스타틴"
   - "아토르바스타틴"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: management
 difficulty: complex
 answer: B

@@ -13,6 +13,9 @@ related_diseases:
   - "만성 림프구성 백혈병"
   - "자가면역 용혈성 빈혈"
   - "직접 항글로불린검사"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChDTEwpIChDaHJvbmljIEx5bXBob2N5dGljIExldWtlbWlhKS5tZA
+  - MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: association
 difficulty: complex
 answer: C

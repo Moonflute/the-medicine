@@ -14,6 +14,7 @@ related_diseases:
   - "모유수유"
   - "비타민 D 보충"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

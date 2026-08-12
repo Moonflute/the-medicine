@@ -14,6 +14,9 @@ related_diseases:
   - "산후 뇌하수체기능저하증"
   - "산후 출혈"
 question_type: diagnosis
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uHjO2VmOyImOyytCDquLDriqXsoIDtlZjspp0gKEh5cG9waXR1aXRhcmlzbSkubWQ
+  - MTIg7IKw6rO8L-qzvOyImeyehOyLoCAoUG9zdC10ZXJtIFByZWduYW5jeSkubWQ
 difficulty: simple
 answer: D
 translation_status: machine-verified

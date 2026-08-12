@@ -13,6 +13,8 @@ related_diseases:
   - "림프계 필라리아증"
   - "상피병"
   - "이차성 림프부종"
+  - "Lymphatic filariasis"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: C

@@ -12,6 +12,8 @@ specialty: 04 내분비
 related_diseases:
   - "diabetic ketoacidosis"
   - "anion gap metabolic acidosis"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: C

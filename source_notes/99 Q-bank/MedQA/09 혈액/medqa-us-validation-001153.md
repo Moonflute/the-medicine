@@ -13,6 +13,8 @@ related_diseases:
   - "폰빌레브란트병"
   - "과다월경"
   - "점막피부 출혈"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2PsCDruYzroIjruIzrnoDtirjrs5EgKHZvbiBXaWxsZWJyYW5kIERpc2Vhc2UsIHZXRCkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

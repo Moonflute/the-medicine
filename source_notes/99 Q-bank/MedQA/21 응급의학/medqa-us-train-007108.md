@@ -15,6 +15,7 @@ related_diseases:
   - "호흡억제"
   - "플루마제닐"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

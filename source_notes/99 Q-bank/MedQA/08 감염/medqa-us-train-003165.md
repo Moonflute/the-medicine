@@ -14,6 +14,9 @@ related_diseases:
   - "Bartonella henselae"
   - "suppurative lymphadenitis"
   - "animal exposure"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-usmOyGjOuzkSAoQ2F0IFNjcmF0Y2ggRGlzZWFzZSkubWQ
+  - MDgg6rCQ7Je8L-qwkOyXvC5tZA
 question_type: investigation
 difficulty: complex
 answer: A

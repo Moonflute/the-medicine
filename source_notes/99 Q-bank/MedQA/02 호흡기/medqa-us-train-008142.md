@@ -13,6 +13,8 @@ related_diseases:
   - "bronchiectasis"
   - "hemoptysis"
   - "bronchial artery damage"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4sOq0gOyngCDtmZXsnqXspp0gKEJyb25jaGllY3Rhc2lzKS5tZA
 question_type: prognosis
 difficulty: complex
 answer: A

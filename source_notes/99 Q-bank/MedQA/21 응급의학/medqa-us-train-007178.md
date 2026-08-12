@@ -15,6 +15,7 @@ related_diseases:
   - "호흡성 알칼리증"
   - "대사성 산증"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "식도정맥류 출혈"
   - "비대상성 간경변"
   - "옥트레오타이드"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_si53rj4Qg7KCV66el66WYIChFc29waGFnZWFsIFZhcmljZXMpLm1k
 question_type: management
 difficulty: complex
 answer: B

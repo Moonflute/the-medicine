@@ -14,6 +14,8 @@ related_diseases:
   - "임신 중 복통"
   - "질식 초음파"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

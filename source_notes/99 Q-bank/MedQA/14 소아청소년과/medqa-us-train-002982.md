@@ -15,6 +15,9 @@ related_diseases:
   - "hypotonia"
   - "hypertrophic cardiomyopathy"
 question_type: diagnosis
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-u5hO2bhOyEsSDsi6zqt7zrs5Hspp0gKEh5cGVydHJvcGhpYyBDYXJkaW9teW9wYXRoeSkubWQ
+  - MDEg7Iic7ZmY6riwL-yLrOq3vOuzkeymnSAoQ2FyZGlvbXlvcGF0aHkpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

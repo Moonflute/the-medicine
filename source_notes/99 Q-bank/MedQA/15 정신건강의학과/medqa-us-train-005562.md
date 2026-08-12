@@ -14,6 +14,8 @@ related_diseases:
   - "기능성 신경학적 증상"
   - "심리적 스트레스"
 question_type: investigation
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghO2ZmCDsnqXslaAgKENvbnZlcnNpb24gRGlzb3JkZXIpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

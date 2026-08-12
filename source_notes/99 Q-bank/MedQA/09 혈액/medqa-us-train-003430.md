@@ -14,6 +14,8 @@ related_diseases:
   - "hemoglobin H disease"
   - "hemoglobin Barts"
   - "alpha-globin gene deletion"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yngOykke2VtCDruYjtmIggKFRoYWxhc3NlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

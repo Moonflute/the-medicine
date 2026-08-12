@@ -15,6 +15,7 @@ related_diseases:
   - "disclosure without consent"
   - "surrogate communication"
 question_type: ethics
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

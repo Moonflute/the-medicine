@@ -12,6 +12,8 @@ specialty: 08 감염
 related_diseases:
   - "cat-scratch disease"
   - "Bartonella henselae infection"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-usmOyGjOuzkSAoQ2F0IFNjcmF0Y2ggRGlzZWFzZSkubWQ
 question_type: management
 difficulty: standard
 answer: C

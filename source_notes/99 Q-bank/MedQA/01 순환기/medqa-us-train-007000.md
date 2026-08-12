@@ -13,6 +13,9 @@ related_diseases:
   - "기계적 용혈성 빈혈"
   - "대동맥판막 협착"
   - "분열적혈구"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: D

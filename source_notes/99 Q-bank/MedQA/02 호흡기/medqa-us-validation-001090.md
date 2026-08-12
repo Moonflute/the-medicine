@@ -13,6 +13,8 @@ related_diseases:
   - "대량 객혈"
   - "폐암 의심 결절"
   - "기관지경검사"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uLqOydvCDtj5DqsrDsoIggKFNQTikgKFNvbGl0YXJ5IFB1bG1vbmFyeSBOb2R1bGUpLm1k
 question_type: management
 difficulty: complex
 answer: D

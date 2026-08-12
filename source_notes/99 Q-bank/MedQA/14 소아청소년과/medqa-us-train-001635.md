@@ -14,6 +14,8 @@ related_diseases:
   - "neonatal conjunctivitis"
   - "erythromycin prophylaxis"
 question_type: prevention
+related_disease_slugs:
+  - MTgg7JWI6rO8L-qysOyEseyXvCAoQ29uanVuY3Rpdml0aXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

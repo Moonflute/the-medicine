@@ -13,6 +13,7 @@ related_diseases:
   - "Fanconi anemia"
   - "pancytopenia"
   - "café-au-lait lesions"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: B

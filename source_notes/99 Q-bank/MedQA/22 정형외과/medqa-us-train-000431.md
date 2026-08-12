@@ -14,7 +14,9 @@ related_diseases:
   - "Aneurysmal bone cyst"
   - "Osteoclastoma"
   - "Ewing sarcoma"
+  - "Giant cell tumor of bone"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

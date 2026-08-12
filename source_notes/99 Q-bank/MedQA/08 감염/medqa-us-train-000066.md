@@ -12,6 +12,8 @@ specialty: 08 감염
 related_diseases:
   - "phenytoin"
   - "seizures"
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rsJzsnpEgKFNlaXp1cmUpLm1k
 question_type: management
 difficulty: simple
 answer: A

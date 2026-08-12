@@ -14,6 +14,8 @@ related_diseases:
   - "소뇌 병변"
   - "다발성경화증"
 question_type: mechanism
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

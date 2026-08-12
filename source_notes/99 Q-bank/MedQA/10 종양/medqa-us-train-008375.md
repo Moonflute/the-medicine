@@ -13,6 +13,8 @@ related_diseases:
   - "Paget disease of the breast"
   - "nipple eczema"
   - "punch biopsy"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2MjOygnO2KuOuzkSAoUGFnZXQncyBEaXNlYXNlKS5tZA
 question_type: investigation
 difficulty: simple
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "multiple myeloma"
   - "lytic bone lesions"
   - "bone marrow biopsy"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
 question_type: investigation
 difficulty: complex
 answer: C

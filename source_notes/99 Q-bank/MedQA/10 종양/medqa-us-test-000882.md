@@ -13,6 +13,8 @@ related_diseases:
   - "블레오마이신 폐독성"
   - "간질성 폐렴"
   - "고환암 화학요법"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-qzoO2ZmCDsooXslpEgKFRlc3RpY3VsYXIgY2FuY2VyKS5tZA
 question_type: mechanism
 difficulty: simple
 answer: A

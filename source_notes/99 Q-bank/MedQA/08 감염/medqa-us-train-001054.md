@@ -11,6 +11,8 @@ language: ko
 specialty: 08 감염
 related_diseases:
   - "Nocardiosis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uFuOy5tOultOuUlOyVhOymnSAoTm9jYXJkaW9zaXMpLm1k
 question_type: management
 difficulty: complex
 answer: C

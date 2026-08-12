@@ -13,6 +13,9 @@ related_diseases:
   - "불안정 심실빈맥"
   - "동기화 심율동전환"
   - "심장수술 후 부정맥"
+  - "Unstable ventricular tachycardia"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOyLpCDruYjrp6UgKFZlbnRyaWN1bGFyIFRhY2h5Y2FyZGlhKS5tZA
 question_type: management
 difficulty: complex
 answer: A

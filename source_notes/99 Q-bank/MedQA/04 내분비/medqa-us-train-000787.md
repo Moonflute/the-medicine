@@ -13,6 +13,10 @@ related_diseases:
   - "diabetes insipidus"
   - "bipolar I disorder"
   - "nephrogenic diabetes insipidus"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yalOu2leymnSAoRGlhYmV0ZXMgSW5zaXBpZHVzKS5tZA
+  - MDQg64K067aE67mEL-y9qe2Mpeq4sOybkCDsmpTrtpXspp0gKE5lcGhyb2dlbmljIERpYWJldGVzIEluc2lwaWR1cykubWQ
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

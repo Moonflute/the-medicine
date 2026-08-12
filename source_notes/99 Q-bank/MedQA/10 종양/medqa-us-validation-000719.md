@@ -13,6 +13,8 @@ related_diseases:
   - "국소 진행성 비소세포폐암"
   - "림프절 전이"
   - "동시 항암화학방사선요법"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 question_type: management
 difficulty: complex
 answer: C

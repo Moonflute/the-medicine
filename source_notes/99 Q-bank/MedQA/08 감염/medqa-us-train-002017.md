@@ -13,6 +13,8 @@ related_diseases:
   - "lymphogranuloma venereum"
   - "Chlamydia trachomatis"
   - "inguinal buboes"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yEseuzkeumvO2UhOycoeyVhOyihSAoTHltcGhvZ3JhbnVsb21hIHZlbmVyZXVtKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: D

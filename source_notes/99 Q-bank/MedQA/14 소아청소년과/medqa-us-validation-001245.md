@@ -14,6 +14,7 @@ related_diseases:
   - "항문 주위 가려움"
   - "셀로판테이프 검사"
 question_type: investigation
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

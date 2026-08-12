@@ -15,6 +15,8 @@ related_diseases:
   - "hyperandrogenism"
   - "combined oral contraceptive"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

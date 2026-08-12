@@ -15,6 +15,8 @@ related_diseases:
   - "근골격 초음파"
   - "팔 내리기 검사"
 question_type: investigation
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-2ajOyghOq3vOqwnO2MjOyXtCAoUm90YXRvciBDdWZmIFRlYXIpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

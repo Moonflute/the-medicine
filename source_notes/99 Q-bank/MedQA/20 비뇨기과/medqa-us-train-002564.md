@@ -13,7 +13,9 @@ related_diseases:
   - "testicular tumor"
   - "solid scrotal mass"
   - "nontransilluminating mass"
+  - "Testicular tumor"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

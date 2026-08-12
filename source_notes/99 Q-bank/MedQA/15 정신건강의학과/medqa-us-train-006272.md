@@ -14,6 +14,8 @@ related_diseases:
   - "자가 유발 구토"
   - "저염소성 대사성 알칼리증"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEse2PreyLneymnSAoQnVsaW1pYSBOZXJ2b3NhKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -12,6 +12,8 @@ specialty: 13 부인과
 related_diseases:
   - "trichomoniasis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2KuOumrOy9lOuqqOuCmOyKpCAoVHJpY2hvbW9uaWFzaXMpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "폐 종괴"
   - "폐암"
   - "폐문 림프절병증"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 question_type: 임상증례 객관식
 difficulty: standard
 answer: A

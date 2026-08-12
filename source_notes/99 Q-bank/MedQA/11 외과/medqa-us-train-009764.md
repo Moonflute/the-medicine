@@ -13,6 +13,8 @@ related_diseases:
   - "관통성 경부 손상"
   - "경부 총상"
   - "혈관 손상"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-qyveu2gOyZuOyDgSAoQ2VydmljYWwgVHJhdW1hKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "1도 방실차단"
   - "베라파밀 관련 PR 연장"
   - "무증상 서맥"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uwqeyLpOywqOuLqCAoQVYgYmxvY2spLm1k
 question_type: management
 difficulty: complex
 answer: A

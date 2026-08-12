@@ -14,6 +14,8 @@ related_diseases:
   - "무혈성 골괴사"
   - "뼈 소주 경색"
 question_type: mechanism
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

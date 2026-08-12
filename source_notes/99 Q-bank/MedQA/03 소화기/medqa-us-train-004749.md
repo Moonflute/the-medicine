@@ -13,6 +13,8 @@ related_diseases:
   - "오피오이드 유발 변비"
   - "말초 μ수용체 길항제"
   - "날록세골"
+  - "opioid-induced constipation"
+related_disease_slugs: []
 question_type: adverse_effect
 difficulty: standard
 answer: C

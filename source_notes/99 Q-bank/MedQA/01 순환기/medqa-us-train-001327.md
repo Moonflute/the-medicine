@@ -13,6 +13,10 @@ related_diseases:
   - "heart failure"
   - "hyponatremia"
   - "reduced ejection fraction"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
+  - MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDqsJDshowpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBSZWR1Y2VkIEVqZWN0aW9uIEZyYWN0aW9uIChIRnJFRikpLm1k
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: prognosis
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "납중독"
   - "중금속 노출"
   - "소구성 빈혈"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "파종성 혈관내 응고"
   - "트롬보플라스틴 유입"
 question_type: mechanism
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2MjOyihSDtmIjqtIDrgrQg7J2R6rOgIChEaXNzZW1pbmF0ZWQgSW50cmF2YXNjdWxhciBDb2FndWxhdGlvbiwgRElDKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

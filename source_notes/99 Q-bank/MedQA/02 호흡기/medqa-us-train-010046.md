@@ -13,6 +13,8 @@ related_diseases:
   - "폐쇄성 수면무호흡증"
   - "수면다원검사"
   - "코골이"
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDrrLTtmLjtnaHspp0gKFNsZWVwIEFwbmVhIFN5bmRyb21lKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

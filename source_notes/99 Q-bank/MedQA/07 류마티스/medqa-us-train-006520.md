@@ -13,6 +13,8 @@ related_diseases:
   - "파보바이러스 B19 감염"
   - "바이러스성 관절염"
   - "레이스 모양 발진"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

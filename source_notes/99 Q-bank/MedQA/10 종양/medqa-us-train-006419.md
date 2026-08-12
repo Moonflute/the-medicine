@@ -13,6 +13,8 @@ related_diseases:
   - "유방 종괴"
   - "유방암 감별"
   - "유방촬영술"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: investigation
 difficulty: complex
 answer: B

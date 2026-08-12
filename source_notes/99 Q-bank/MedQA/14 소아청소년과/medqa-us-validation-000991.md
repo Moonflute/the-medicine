@@ -14,6 +14,8 @@ related_diseases:
   - "대동맥판상 협착"
   - "고칼슘혈증"
 question_type: diagnosis
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

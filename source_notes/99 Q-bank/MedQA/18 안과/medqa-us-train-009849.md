@@ -13,7 +13,9 @@ related_diseases:
   - "클로로퀸 망막병증"
   - "황소눈 황반병증"
   - "망막 독성"
+  - "Chloroquine retinopathy"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

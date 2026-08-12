@@ -12,6 +12,8 @@ specialty: 20 비뇨기과
 related_diseases:
   - "prostate cancer"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "irritable hip"
   - "post-viral synovitis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7J286rO87ISxIOqzoOq0gOygiCDtmZzrp4nsl7wgKFRyYW5zaWVudCBTeW5vdml0aXMgb2YgdGhlIEhpcCkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

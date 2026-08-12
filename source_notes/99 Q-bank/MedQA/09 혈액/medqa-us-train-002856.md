@@ -14,6 +14,7 @@ related_diseases:
   - "latent tuberculosis treatment"
   - "microcytic anemia with high iron"
   - "pyridoxine deficiency"
+related_disease_slugs: []
 question_type: adverse_effect
 difficulty: complex
 answer: D

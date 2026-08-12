@@ -15,6 +15,7 @@ related_diseases:
   - "FBN1 유전자"
   - "15번 염색체"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

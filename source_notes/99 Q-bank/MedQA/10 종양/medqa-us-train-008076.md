@@ -13,6 +13,8 @@ related_diseases:
   - "breast cancer screening"
   - "average-risk woman"
   - "mammography"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: prevention
 difficulty: complex
 answer: C

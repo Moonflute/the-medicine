@@ -14,6 +14,10 @@ related_diseases:
   - "thiazide diuretic"
   - "primary hyperaldosteronism"
   - "metabolic alkalosis"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
+  - MDQg64K067aE67mEL-yVjOuPhOyKpO2FjOuhoOymnSAoQWxkb3N0ZXJvbmlzbSkubWQ
+  - MDUg7Iug7J6lL-yVjOy5vOumrOymnSAoQWxrYWxvc2lzKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: C

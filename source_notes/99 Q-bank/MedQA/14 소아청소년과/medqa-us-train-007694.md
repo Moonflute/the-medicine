@@ -14,6 +14,8 @@ related_diseases:
   - "spastic diplegia"
   - "prematurity"
 question_type: prognosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64eM7ISxIOuniOu5hCAoQ2VyZWJyYWwgUGFsc3kpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

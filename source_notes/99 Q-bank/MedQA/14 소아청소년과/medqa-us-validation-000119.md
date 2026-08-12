@@ -14,6 +14,9 @@ related_diseases:
   - "중등도 지속성 천식"
   - "FEV1"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM7JWEIOq4sOq0gOyngCDsspzsi50gKFBlZGlhdHJpYyBBc3RobWEpLm1k
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "acetaminophen toxicity"
   - "아세트아미노펜 독성"
   - "acute liver failure"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_soITqsqnshLEg6rCE7Je8IChGdWxtaW5hbnQgSGVwYXRpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

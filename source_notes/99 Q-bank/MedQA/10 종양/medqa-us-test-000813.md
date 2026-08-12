@@ -13,6 +13,9 @@ related_diseases:
   - "폐 선암"
   - "폐첨부 결절"
   - "원발성 폐암"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshKDslZQgKEFkZW5vY2FyY2lub21hKS5tZA
+  - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

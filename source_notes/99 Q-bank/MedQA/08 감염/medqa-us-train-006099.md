@@ -13,6 +13,8 @@ related_diseases:
   - "크립토코쿠스 수막염"
   - "AIDS"
   - "두개내압 상승"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 question_type: management
 difficulty: standard
 answer: B

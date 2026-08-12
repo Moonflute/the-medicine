@@ -14,6 +14,8 @@ related_diseases:
   - "HBsAg positivity"
   - "anti-HBc IgG"
   - "HBeAg"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEgQu2YlSDqsITsl7wgKENocm9uaWMgSGVwYXRpdGlzIEIgKEhCVikpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

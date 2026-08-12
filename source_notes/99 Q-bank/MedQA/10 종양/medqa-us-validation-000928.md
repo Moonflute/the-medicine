@@ -13,6 +13,9 @@ related_diseases:
   - "항문암"
   - "HIV 감염"
   - "방사선화학요법"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tla3rrLjslZQgKEFuYWwgQ2FuY2VyKS5tZA
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 question_type: management
 difficulty: complex
 answer: A

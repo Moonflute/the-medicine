@@ -14,6 +14,8 @@ related_diseases:
   - "flank pain"
   - "pyuria"
   - "fever"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

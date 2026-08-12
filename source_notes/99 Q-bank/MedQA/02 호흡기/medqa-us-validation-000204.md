@@ -13,6 +13,8 @@ related_diseases:
   - "폐렴"
   - "복잡성 흉수"
   - "흉강천자"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: management
 difficulty: complex
 answer: B

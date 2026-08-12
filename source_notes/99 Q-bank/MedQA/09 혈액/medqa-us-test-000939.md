@@ -13,6 +13,8 @@ related_diseases:
   - "G6PD 결핍"
   - "약물 유발 용혈"
   - "글리피지드"
+  - "G6PD deficiency"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: simple
 answer: C

@@ -13,6 +13,8 @@ related_diseases:
   - "Gilbert syndrome"
   - "unconjugated hyperbilirubinemia"
   - "UGT1A1"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quLjrsoTtirgg7Kad7ZuE6rWwIChHaWxiZXJ0J3MgU3luZHJvbWUpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -13,7 +13,9 @@ related_diseases:
   - "paranoid personality disorder"
   - "persecutory delusions"
   - "suspiciousness"
+  - "Paranoid personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

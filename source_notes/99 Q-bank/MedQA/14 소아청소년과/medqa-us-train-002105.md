@@ -15,6 +15,8 @@ related_diseases:
   - "chromosomal karyotyping"
   - "oligohydramnios sequence"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yWkeyImCDqs7zshozspp0gKE9saWdvaHlkcmFtbmlvcykubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

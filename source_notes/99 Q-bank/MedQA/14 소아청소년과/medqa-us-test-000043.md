@@ -14,6 +14,8 @@ related_diseases:
   - "담즙성 구토"
   - "양수과다증"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yWkeyImCDqs7zri6Tspp0gKEh5ZHJhbW5pb3MpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

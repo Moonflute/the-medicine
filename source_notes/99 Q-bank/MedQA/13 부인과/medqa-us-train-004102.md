@@ -13,7 +13,9 @@ related_diseases:
   - "배란통"
   - "주기성 골반통"
   - "기능성 통증"
+  - "Mittelschmerz"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

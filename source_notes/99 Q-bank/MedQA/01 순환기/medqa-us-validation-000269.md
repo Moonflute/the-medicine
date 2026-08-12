@@ -13,6 +13,9 @@ related_diseases:
   - "바이러스성 심근염"
   - "확장성 심근병증"
   - "심부전"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2ZleyepeyEsSDsi6zqt7zrs5Hspp0gKERpbGF0ZWQgQ2FyZGlvbXlvcGF0aHkpLm1k
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: mechanism
 difficulty: complex
 answer: B

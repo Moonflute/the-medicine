@@ -13,6 +13,9 @@ related_diseases:
   - "unstable angina"
   - "불안정 협심증"
   - "acute coronary syndrome"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-u2iOyViOyglSDtmJHsi6zspp0gKFVuc3RhYmxlIEFuZ2luYSkubWQ
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

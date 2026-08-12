@@ -13,6 +13,8 @@ related_diseases:
   - "Zollinger-Ellison syndrome"
   - "gastrinoma"
   - "multiple peptic ulcers"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsIDsiqTtirjrprDsooUgKEdhc3RyaW5vbWEpLm1k
 question_type: investigation
 difficulty: complex
 answer: B

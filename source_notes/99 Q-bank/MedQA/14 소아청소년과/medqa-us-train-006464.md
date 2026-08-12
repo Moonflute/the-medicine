@@ -14,6 +14,7 @@ related_diseases:
   - "낮은 아프가 점수"
   - "양압환기"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

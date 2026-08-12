@@ -13,7 +13,10 @@ related_diseases:
   - "저체온증"
   - "스테로이드 유발 정신병"
   - "응급 보온"
+  - "Hypothermia"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-2VnOuereyGkOyDgSAoQ29sZCBJbmp1cnkpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "대동맥 축착"
   - "상지 고혈압"
   - "지연된 하지 맥박"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA64-Z66elIOy2leywqSAoQ29hcmN0YXRpb24gb2YgdGhlIEFvcnRhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

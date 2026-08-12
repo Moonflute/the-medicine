@@ -13,6 +13,8 @@ related_diseases:
   - "흡인성 폐렴"
   - "의식저하"
   - "우하엽 침윤"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

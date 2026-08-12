@@ -13,6 +13,8 @@ related_diseases:
   - "Restless legs syndrome"
   - "Iron deficiency anemia"
 question_type: investigation
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yyoCDqsrDtlY0g67mI7ZiIIChJcm9uIERlZmljaWVuY3kgQW5lbWlhKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

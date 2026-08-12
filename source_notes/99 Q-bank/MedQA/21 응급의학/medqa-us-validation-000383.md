@@ -14,6 +14,8 @@ related_diseases:
   - "횡문근융해증"
   - "급성 세뇨관 괴사"
 question_type: mechanism
+related_disease_slugs:
+  - MDUg7Iug7J6lL-2aoeusuOq3vOycte2VtOymnSAoUmhhYmRvbXlvbHlzaXMpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

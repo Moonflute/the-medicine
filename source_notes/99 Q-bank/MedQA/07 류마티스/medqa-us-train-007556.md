@@ -14,6 +14,9 @@ related_diseases:
   - "류마티스 결절"
   - "소화성 궤양 병력"
   - "프레드니솔론"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpC5tZA
 question_type: management
 difficulty: complex
 answer: B

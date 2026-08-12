@@ -13,7 +13,9 @@ related_diseases:
   - "외측대퇴피신경통"
   - "감각신경 포착"
   - "서혜인대"
+  - "meralgia paresthetica"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

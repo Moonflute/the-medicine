@@ -14,6 +14,9 @@ related_diseases:
   - "요로감염"
   - "아목시실린-클라불란산"
 question_type: management
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDrsKnqtJHsl7wgKEFjdXRlIEN5c3RpdGlzKS5tZA
+  - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

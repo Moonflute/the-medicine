@@ -13,6 +13,8 @@ related_diseases:
   - "malignant pleural mesothelioma"
   - "hospice eligibility"
   - "life expectancy"
+  - "mesothelioma"
+related_disease_slugs: []
 question_type: ethics
 difficulty: complex
 answer: D

@@ -14,6 +14,8 @@ related_diseases:
   - "귀뒤 림프절병증"
   - "선천성 풍진 위험"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ZKN7KeEIChSdWJlbGxhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

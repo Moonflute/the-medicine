@@ -12,6 +12,8 @@ specialty: 22 정형외과
 related_diseases:
   - "adhesive capsulitis"
 question_type: management
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yYpOyLreqyrCAoQWRoZXNpdmUgQ2Fwc3VsaXRpcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

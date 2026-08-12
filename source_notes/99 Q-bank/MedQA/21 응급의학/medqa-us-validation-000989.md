@@ -14,6 +14,9 @@ related_diseases:
   - "패혈증"
   - "저일회호흡량 환기"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4ieyEsSDtmLjtnaHqs6TrnoAg7Kad7ZuE6rWwIChBUkRTKSAoQWN1dGUgUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k
+  - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

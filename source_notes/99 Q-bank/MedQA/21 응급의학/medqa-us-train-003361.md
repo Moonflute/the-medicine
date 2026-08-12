@@ -15,6 +15,8 @@ related_diseases:
   - "warmed intravenous fluids"
   - "frostbite"
 question_type: management
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-2VnOuereyGkOyDgSAoQ29sZCBJbmp1cnkpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

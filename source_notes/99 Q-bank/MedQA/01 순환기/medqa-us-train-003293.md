@@ -14,6 +14,8 @@ related_diseases:
   - "sinus node dysfunction"
   - "tachy-brady syndrome"
   - "irregular tachycardia"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uPmeq4sOuKpeu2gOyghOymne2bhOq1sCAoU2ljayBTaW51cyBTeW5kcm9tZSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: C

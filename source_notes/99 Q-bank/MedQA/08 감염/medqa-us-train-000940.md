@@ -11,6 +11,8 @@ language: ko
 specialty: 08 감염
 related_diseases:
   - "rabies"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qzteyImOuzkSAoUmFiaWVzKS5tZA
 question_type: prevention
 difficulty: complex
 answer: D

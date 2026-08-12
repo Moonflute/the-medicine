@@ -14,6 +14,8 @@ related_diseases:
   - "Tension headache"
   - "Major depressive disorder"
   - "Acute dystonia"
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

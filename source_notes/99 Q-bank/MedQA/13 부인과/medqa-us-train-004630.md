@@ -14,6 +14,8 @@ related_diseases:
   - "융모상피암"
   - "폐 전이"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yehOyLoCDsnLXrqqgg7KKF7JaRIChHZXN0YXRpb25hbCBUcm9waG9ibGFzdGljIE5lb3BsYXNpYSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "polyhydramnios"
   - "VACTERL association"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yWkeyImCDqs7zri6Tspp0gKEh5ZHJhbW5pb3MpLm1k
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKc7ISxIOyLneuPhCDtj5Dsh4Qg67CPIOyLneuPhCDquLDqtIDro6ggKEVzb3BoYWdlYWwgQXRyZXNpYSB3aXRoIFRyYWNoZW9lc29waGFnZWFsIEZpc3R1bGEpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

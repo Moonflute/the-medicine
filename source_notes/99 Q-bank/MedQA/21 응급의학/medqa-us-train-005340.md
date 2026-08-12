@@ -13,7 +13,10 @@ related_diseases:
   - "경막외혈종"
   - "두개내압 상승"
   - "만니톨"
+  - "Epidural hematoma"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qsr3rp4nsmbgg7Lac7ZiIIChFcGlkdXJhbCBoZW1vcnJoYWdlKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

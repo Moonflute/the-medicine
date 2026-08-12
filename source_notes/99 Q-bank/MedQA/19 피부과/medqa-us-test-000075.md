@@ -14,6 +14,8 @@ related_diseases:
   - "말라세지아"
   - "KOH 검사"
 question_type: investigation
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yWtOujqOufrOq4sCAoVGluZWEgVmVyc2ljb2xvcikubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

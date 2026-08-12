@@ -13,6 +13,8 @@ related_diseases:
   - "위식도 역류질환"
   - "흉골하 작열감"
   - "프로톤펌프억제제"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsi53rj4Qg7Jet66WYIOyniO2ZmCAoR0VSRCkgKEdhc3Ryb2Vzb3BoYWdlYWwgUmVmbHV4IERpc2Vhc2UpLm1k
 question_type: management
 difficulty: simple
 answer: A

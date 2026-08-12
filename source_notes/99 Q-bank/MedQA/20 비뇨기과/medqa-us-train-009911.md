@@ -13,7 +13,9 @@ related_diseases:
   - "현미경적 혈뇨"
   - "무증상 혈뇨"
   - "흡연"
+  - "microscopic hematuria"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

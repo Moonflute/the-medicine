@@ -13,6 +13,8 @@ related_diseases:
   - "직접 고빌리루빈혈증"
   - "듀빈-존슨 증후군"
   - "간 색소침착"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qs6DruYzrpqzro6jruYjspp0ubWQ
 question_type: mechanism
 difficulty: complex
 answer: C

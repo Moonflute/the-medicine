@@ -14,6 +14,8 @@ related_diseases:
   - "pulsatile GnRH release"
   - "obesity-related puberty"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7KGw7IiZ7KadIChTZXh1YWwgUHJlY29jaW91c25lc3MpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

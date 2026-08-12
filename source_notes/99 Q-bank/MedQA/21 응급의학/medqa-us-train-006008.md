@@ -14,6 +14,8 @@ related_diseases:
   - "혈복강"
   - "출혈성 쇼크"
 question_type: management
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

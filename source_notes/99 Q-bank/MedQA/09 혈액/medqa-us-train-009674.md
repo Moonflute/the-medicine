@@ -13,6 +13,8 @@ related_diseases:
   - "beta thalassemia"
   - "베타 지중해빈혈"
   - "β-globin mutation"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yngOykke2VtCDruYjtmIggKFRoYWxhc3NlbWlhKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: B

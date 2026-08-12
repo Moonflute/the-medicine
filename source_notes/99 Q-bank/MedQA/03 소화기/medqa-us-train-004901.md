@@ -13,6 +13,9 @@ related_diseases:
   - "급성 담관염"
   - "담도 폐쇄"
   - "내시경적 역행성 담췌관조영술"
+  - "Acute cholangitis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzqtIDsl7wgKENob2xhbmdpdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: A

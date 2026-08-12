@@ -13,7 +13,9 @@ related_diseases:
   - "경계선 성격장애"
   - "자해"
   - "정서적 불안정"
+  - "Borderline personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

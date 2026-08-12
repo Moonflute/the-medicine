@@ -13,6 +13,8 @@ related_diseases:
   - "불안정형 협심증"
   - "활동성 흉통"
   - "관상동맥질환"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

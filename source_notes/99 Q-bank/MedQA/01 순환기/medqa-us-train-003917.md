@@ -14,6 +14,9 @@ related_diseases:
   - "atrial fibrillation with preexcitation"
   - "accessory pathway"
   - "catheter ablation"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
+  - MDEg7Iic7ZmY6riwL-yauO2UhC3tjIztgqjsiqgt7ZmU7J207Yq4IOymne2bhOq1sCAoV1BXIFN5bmRyb21lKS5tZA
 question_type: management
 difficulty: complex
 answer: C

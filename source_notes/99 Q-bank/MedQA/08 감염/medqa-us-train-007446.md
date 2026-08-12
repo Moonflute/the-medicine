@@ -14,6 +14,9 @@ related_diseases:
   - "호중구감소증"
   - "갈락토만난 항원"
   - "보리코나졸"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yVhOyKpO2OmOultOq4uOujqOyKpOymnSAoQXNwZXJnaWxsb3NpcykubWQ
+  - MDgg6rCQ7Je8L-2YuOykkeq1rOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k
 question_type: management
 difficulty: complex
 answer: D

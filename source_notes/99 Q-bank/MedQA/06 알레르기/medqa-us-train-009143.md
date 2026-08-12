@@ -13,6 +13,7 @@ related_diseases:
   - "ACE inhibitor-induced angioedema"
   - "ACE 억제제 유발 혈관부종"
   - "angioedema"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: C

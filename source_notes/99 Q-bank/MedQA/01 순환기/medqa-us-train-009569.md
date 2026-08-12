@@ -13,6 +13,8 @@ related_diseases:
   - "recurrent pericardial effusion"
   - "재발성 심낭삼출"
   - "pericardial window"
+  - "Recurrent pericardial effusion"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: A

@@ -13,6 +13,9 @@ related_diseases:
   - "acute tubular necrosis"
   - "급성 세뇨관 괴사"
   - "hemorrhagic shock"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

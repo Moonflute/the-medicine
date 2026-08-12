@@ -14,6 +14,9 @@ related_diseases:
   - "갑상선 수질암"
   - "갈색세포종"
   - "점막 신경종"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2BrOuhrOy5nO2ZlOyEuO2PrOyihSAoUGhlb2Nocm9tb2N5dG9tYSkubWQ
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDsho3sp4jslZQgKFRoeXJvaWQgTWVkdWxsYXJ5IENhcmNpbm9tYSkubWQ
 question_type: diagnosis
 difficulty: simple
 answer: D

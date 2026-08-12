@@ -14,6 +14,8 @@ related_diseases:
   - "HIV with preserved CD4 count"
   - "Streptococcus pneumoniae"
   - "lobar infiltrate"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -13,7 +13,10 @@ related_diseases:
   - "임신 오조"
   - "임신 초기 오심과 구토"
   - "독실아민"
+  - "hyperemesis gravidarum"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoCDsnoXrjacgKEh5cGVyZW1lc2lzIEdyYXZpZGFydW0pLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

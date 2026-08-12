@@ -13,6 +13,8 @@ related_diseases:
   - "겸상적혈구병"
   - "급성 흉부 증후군"
   - "겸상적혈구 급성 합병증"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: management
 difficulty: complex
 answer: A

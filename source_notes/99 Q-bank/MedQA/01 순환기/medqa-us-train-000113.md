@@ -14,6 +14,8 @@ related_diseases:
   - "atenolol"
   - "lisinopril"
   - "atorvastatin"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: diagnosis
 difficulty: simple
 answer: A

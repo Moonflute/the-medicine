@@ -13,7 +13,10 @@ related_diseases:
   - "maternal syphilis"
   - "dark-field microscopy"
   - "penicillin treatment in pregnancy"
+  - "Syphilis"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKcIOunpOuPhSAoQ29uZ2VuaXRhbCBTeXBoaWxpcykubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

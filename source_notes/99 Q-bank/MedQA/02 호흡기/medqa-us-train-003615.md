@@ -14,6 +14,7 @@ related_diseases:
   - "normal chest radiograph"
   - "pulmonary function testing"
   - "asthma evaluation"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

@@ -13,6 +13,9 @@ related_diseases:
   - "갑상샘 유두암"
   - "갑상샘 결절"
   - "경부 림프절 전이"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDsnKDrkZDslZQgKFRoeXJvaWQgUGFwaWxsYXJ5IENhcmNpbm9tYSkubWQ
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDqsrDsoIggKFRoeXJvaWQgTm9kdWxlKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: C

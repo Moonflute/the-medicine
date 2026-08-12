@@ -13,6 +13,8 @@ related_diseases:
   - "천공성 소화성 궤양"
   - "복막염"
   - "복부 CT"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDrsJzshLEg7IS46regIOuzteunieyXvCAoU3BvbnRhbmVvdXMgQmFjdGVyaWFsIFBlcml0b25pdGlzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

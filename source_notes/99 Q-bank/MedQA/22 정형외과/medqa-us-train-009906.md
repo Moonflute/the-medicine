@@ -14,6 +14,9 @@ related_diseases:
   - "척추분리증"
   - "청소년 허리 통증"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yymey2lOyghOuwqeyghOychOymnSAoU3BvbmR5bG9saXN0aGVzaXMpLm1k
+  - MjIg7KCV7ZiV7Jm46rO8L-yymey2lOu2hOumrOymnSAoU3BvbmR5bG9seXNpcykubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

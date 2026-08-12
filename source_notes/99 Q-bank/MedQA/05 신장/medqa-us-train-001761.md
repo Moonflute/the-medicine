@@ -13,6 +13,9 @@ related_diseases:
   - "diabetic nephropathy"
   - "microalbuminuria"
   - "Cushing syndrome"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
+  - MDQg64K067aE67mEL-y_oOyLsSDspp3tm4TqtbAgKEN1c2hpbmcncyBTeW5kcm9tZSkubWQ
 question_type: management
 difficulty: complex
 answer: A

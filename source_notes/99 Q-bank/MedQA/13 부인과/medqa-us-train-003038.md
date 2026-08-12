@@ -15,6 +15,9 @@ related_diseases:
   - "neonatal hypocalcemia"
   - "fetal complications"
 question_type: risk_factor
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
+  - MDQg64K067aE67mEL-yggOy5vOyKmO2YiOymnSAoSHlwb2NhbGNlbWlhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

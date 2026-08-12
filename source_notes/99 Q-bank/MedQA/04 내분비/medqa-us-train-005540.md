@@ -13,6 +13,8 @@ related_diseases:
   - "말단비대증"
   - "말단비대성 심근병증"
   - "심박출량 감소"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-unkOuLqOu5hOuMgOymnSAoQWNyb21lZ2FseSkubWQ
 question_type: prognosis
 difficulty: complex
 answer: D

@@ -13,7 +13,9 @@ related_diseases:
   - "회피성 성격장애"
   - "사회적 억제"
   - "부적절감"
+  - "Avoidant personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "tertiary syphilis"
   - "3기 매독"
   - "syphilitic aortitis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-unpOuPhSAoU3lwaGlsaXMpLm1k
 question_type: investigation
 difficulty: complex
 answer: D

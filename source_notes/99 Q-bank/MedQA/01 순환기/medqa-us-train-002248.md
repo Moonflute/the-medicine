@@ -14,6 +14,8 @@ related_diseases:
   - "pericardial effusion"
   - "electrical alternans"
   - "low voltage"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOyepSDriIzrprzspp0gKENhcmRpYWMgVGFtcG9uYWRlKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

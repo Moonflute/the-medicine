@@ -13,7 +13,11 @@ related_diseases:
   - "혈뇨"
   - "방광류"
   - "요로 폐쇄 평가"
+  - "Bladder cancer"
 question_type: investigation
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-uwqeq0keyVlCAoQmxhZGRlciBjYW5jZXIpLm1k
+  - MDUg7Iug7J6lL-2YiOuHqC5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

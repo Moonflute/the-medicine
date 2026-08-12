@@ -13,6 +13,8 @@ related_diseases:
   - "intestinal obstruction"
   - "volvulus"
   - "endoscopic decompression"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtazrtojssL3snpAg6rys7J6EIChTaWdtb2lkIFZvbHZ1bHVzKS5tZA
 question_type: management
 difficulty: complex
 answer: B

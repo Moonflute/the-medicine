@@ -13,6 +13,8 @@ related_diseases:
   - "혈관미주신경성 실신"
   - "경련성 실신"
   - "상황성 실신"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2YiOq0gOuvuOyjvOyLoOqyveyEsSDsi6Tsi6AgKFZhc292YWdhbCBTeW5jb3BlKS5tZA
 question_type: management
 difficulty: complex
 answer: A

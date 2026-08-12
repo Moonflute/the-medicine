@@ -13,6 +13,9 @@ related_diseases:
   - "인플루엔자"
   - "바이러스성 폐렴"
   - "뉴라미니다제 억제제"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yduO2UjOujqOyXlOyekCAoSW5mbHVlbnphKS5tZA
+  - MDIg7Zi47Z2h6riwL-u5hOygle2YlSDtj5DroLQgKEF0eXBpY2FsIFBuZXVtb25pYSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

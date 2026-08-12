@@ -11,7 +11,10 @@ language: ko
 specialty: 21 응급의학
 related_diseases:
   - "hypovolemic shock"
+  - "Hypovolemic shock"
 question_type: diagnosis
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

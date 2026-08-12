@@ -14,6 +14,8 @@ related_diseases:
   - "태반후혈종"
   - "임신 36주 출혈"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

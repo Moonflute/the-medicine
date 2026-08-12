@@ -15,6 +15,9 @@ related_diseases:
   - "valproate with renal disease"
   - "mood stabilizer"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOu2hCDslYjsoJXsoJwgKE1vb2QgU3RhYmlsaXplcnMpLm1k
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

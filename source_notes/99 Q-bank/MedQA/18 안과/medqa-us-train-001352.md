@@ -12,7 +12,10 @@ specialty: 18 안과
 related_diseases:
   - "acute angle-closure glaucoma"
   - "increased intraocular pressure"
+  - "Acute angle-closure glaucoma"
 question_type: investigation
+related_disease_slugs:
+  - MTgg7JWI6rO8L-uFueuCtOyepSAoZ2xhdWNvbWEpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

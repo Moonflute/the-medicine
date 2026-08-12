@@ -14,6 +14,8 @@ related_diseases:
   - "전립선 결절"
   - "경직장 초음파 유도 생검"
 question_type: investigation
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

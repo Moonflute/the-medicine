@@ -13,6 +13,8 @@ related_diseases:
   - "만성 골수성 백혈병"
   - "BCR-ABL 융합유전자"
   - "이마티닙"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChDTUwpIChDaHJvbmljIE15ZWxvaWQgTGV1a2VtaWEpLm1k
 question_type: management
 difficulty: complex
 answer: D

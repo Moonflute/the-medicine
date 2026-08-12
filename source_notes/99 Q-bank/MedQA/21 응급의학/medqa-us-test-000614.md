@@ -14,6 +14,9 @@ related_diseases:
   - "클로스트리디움 퍼프린젠스"
   - "가스괴저"
 question_type: mechanism
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q0tOyCrOyEsSDqt7zrp4nsl7wgKE5lY3JvdGl6aW5nIEZhc2NpaXRpcykubWQ
+  - MDgg6rCQ7Je8L-qwgOyKpCDqtLTsoIAgKEdhcyBHYW5ncmVuZSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

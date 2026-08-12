@@ -12,6 +12,7 @@ specialty: 15 정신건강의학과
 related_diseases:
   - "serotonin syndrome"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

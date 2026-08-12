@@ -14,6 +14,8 @@ related_diseases:
   - "topical corticosteroid"
   - "calcipotriol"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-qxtOyEoCAoUHNvcmlhc2lzKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -14,7 +14,9 @@ related_diseases:
   - "enlarged calf muscles"
   - "waddling gait"
   - "creatine kinase"
+  - "Becker muscular dystrophy"
 question_type: investigation
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

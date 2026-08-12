@@ -13,6 +13,8 @@ related_diseases:
   - "습성 각기병"
   - "티아민 결핍"
   - "알코올성 심근병증과 말초신경병증"
+  - "Thiamine deficiency"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

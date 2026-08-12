@@ -13,6 +13,8 @@ related_diseases:
   - "long QT syndrome"
   - "exertional syncope"
   - "beta blocker"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4tCBRVCDspp3tm4TqtbAgKExvbmcgUVQgU3luZHJvbWUpLm1k
 question_type: management
 difficulty: standard
 answer: C

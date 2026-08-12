@@ -15,6 +15,9 @@ related_diseases:
   - "Congenital syphilis infection"
   - "Congenital varicella infection"
 question_type: diagnosis
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2GoeyGjO2UjOudvOymiOuniOymnSAoVG94b3BsYXNtb3NpcykubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKcIOunpOuPhSAoQ29uZ2VuaXRhbCBTeXBoaWxpcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

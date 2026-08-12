@@ -11,6 +11,8 @@ language: ko
 specialty: 02 호흡기
 related_diseases:
   - "pulmonary embolism"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

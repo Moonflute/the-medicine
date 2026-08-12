@@ -14,6 +14,8 @@ related_diseases:
   - "뇌성마비"
   - "뇌실주위 백질연화증"
 question_type: association
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64eM7ISxIOuniOu5hCAoQ2VyZWJyYWwgUGFsc3kpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

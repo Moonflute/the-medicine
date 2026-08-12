@@ -13,6 +13,8 @@ related_diseases:
   - "diabetic ketoacidosis"
   - "hyperglycemia"
   - "insulin therapy"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
 question_type: management
 difficulty: standard
 answer: A

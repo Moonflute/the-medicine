@@ -13,6 +13,9 @@ related_diseases:
   - "acute hemolytic transfusion reaction"
   - "ABO incompatibility"
   - "intravascular hemolysis"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-q4ieyEsSDsmqntmIjshLEg7IiY7ZiIIOuwmOydkSAoQWN1dGUgSGVtb2x5dGljIFRyYW5zZnVzaW9uIFJlYWN0aW9uKS5tZA
+  - MDkg7ZiI7JWhL-2YiOq0gCDrgrQg7Jqp7ZiIIChJbnRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ
 question_type: adverse_effect
 difficulty: complex
 answer: A

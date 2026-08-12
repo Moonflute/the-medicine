@@ -13,6 +13,8 @@ related_diseases:
   - "치쿤구니야"
   - "여행자 감염병"
   - "바이러스성 관절염"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "아급성 육아종성 갑상샘염"
   - "갑상샘 압통"
   - "바이러스 감염 후 갑상샘염"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yVhOq4ieyEsSDqsJHsg4Hsg5jsl7wgKFN1YmFjdXRlIFRoeXJvaWRpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

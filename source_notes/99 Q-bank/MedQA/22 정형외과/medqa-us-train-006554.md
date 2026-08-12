@@ -14,6 +14,8 @@ related_diseases:
   - "외반 스트레스"
   - "급성 무릎 손상"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-uCtOy4oSDsuKHrtoAg7J2464yAIOyGkOyDgSAoTWVkaWFsIENvbGxhdGVyYWwgTGlnYW1lbnQgSW5qdXJ5KS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

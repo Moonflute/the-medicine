@@ -13,6 +13,8 @@ related_diseases:
   - "당뇨병성 말초신경병증"
   - "신경병성 통증"
   - "벤라팍신"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
 question_type: 임상증례 객관식
 difficulty: complex
 answer: D

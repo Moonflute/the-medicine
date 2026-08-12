@@ -14,6 +14,8 @@ related_diseases:
   - "청소년 근간대성 간질"
   - "valproate"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKt7IaM64WEIOq3vOqwhOuMgOyEsSDrh4zsoITspp0gKEp1dmVuaWxlIE15b2Nsb25pYyBFcGlsZXBzeSkubWQ
 difficulty: simple
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "growth hormone excess"
   - "insulin-like growth factor 1"
   - "pituitary adenoma"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-unkOuLqOu5hOuMgOymnSAoQWNyb21lZ2FseSkubWQ
+  - MDQg64K067aE67mEL-uHjO2VmOyImOyytCDsg5jsooUgKFBpdHVpdGFyeSBBZGVub21hKS5tZA
 question_type: investigation
 difficulty: complex
 answer: A

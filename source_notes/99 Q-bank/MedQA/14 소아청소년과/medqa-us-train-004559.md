@@ -14,6 +14,7 @@ related_diseases:
   - "15개월 발달"
   - "언어 발달"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

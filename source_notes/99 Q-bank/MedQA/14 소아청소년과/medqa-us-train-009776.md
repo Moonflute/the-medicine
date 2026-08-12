@@ -13,7 +13,9 @@ related_diseases:
   - "언어 발달 지연"
   - "청력 평가"
   - "발달 선별검사"
+  - "Hearing loss"
 question_type: investigation
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "뇌하수체 종양"
   - "양측 측두반맹"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDqsJzsnbjrkZDsooUgKENyYW5pb3BoYXJ5bmdpb21hKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

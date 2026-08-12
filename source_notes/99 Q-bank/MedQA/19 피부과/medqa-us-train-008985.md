@@ -14,6 +14,7 @@ related_diseases:
   - "teratogenicity"
   - "pregnancy testing"
 question_type: prevention
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

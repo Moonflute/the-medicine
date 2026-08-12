@@ -13,6 +13,8 @@ related_diseases:
   - "신혈관성 고혈압"
   - "신동맥 협착"
   - "지속발기증"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
 question_type: investigation
 difficulty: complex
 answer: D

@@ -13,6 +13,9 @@ related_diseases:
   - "패혈증"
   - "관통성 복부 손상"
   - "총정맥영양"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
+  - MTEg7Jm46rO8L-q0gO2GteyDgSDrs7XrtoDsmbjsg4EgKFBlbmV0cmF0aW5nIEFiZG9taW5hbCBJbmp1cnkpLm1k
 question_type: prognosis
 difficulty: simple
 answer: D

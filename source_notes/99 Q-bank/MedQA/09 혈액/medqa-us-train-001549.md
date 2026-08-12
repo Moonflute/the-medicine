@@ -12,6 +12,7 @@ specialty: 09 혈액
 related_diseases:
   - "sickle cell pain crisis"
   - "dactylitis"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

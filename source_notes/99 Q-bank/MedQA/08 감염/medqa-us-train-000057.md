@@ -16,6 +16,8 @@ related_diseases:
   - "skin lesions"
   - "papules"
   - "dimpled center"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_subjrlJTri6Qg7Iud64-E7Je8IChDYW5kaWRhIEVzb3BoYWdpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

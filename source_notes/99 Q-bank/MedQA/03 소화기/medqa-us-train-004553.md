@@ -13,6 +13,8 @@ related_diseases:
   - "보어하브 증후군"
   - "식도 파열"
   - "종격동염"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rtYjrpbTtlZjruIwg7Kad7ZuE6rWwIChCb2VyaGFhdmUgU3luZHJvbWUpLm1k
 question_type: management
 difficulty: complex
 answer: C

@@ -13,6 +13,9 @@ related_diseases:
   - "유전구형적혈구증"
   - "용혈성 빈혈"
   - "상염색체 우성 유전"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ycoOyghCDqtaztmIjsoIHtmIjqtazspp0gKEhlcmVkaXRhcnkgU3BoZXJvY3l0b3NpcykubWQ
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: mechanism
 difficulty: complex
 answer: A

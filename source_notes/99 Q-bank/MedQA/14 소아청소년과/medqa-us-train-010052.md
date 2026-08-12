@@ -13,7 +13,9 @@ related_diseases:
   - "장회전이상"
   - "중장염전"
   - "담즙성 구토"
+  - "Intestinal malrotation"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

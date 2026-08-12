@@ -13,6 +13,9 @@ related_diseases:
   - "상대정맥증후군"
   - "폐암"
   - "전흉벽 정맥 울혈"
+related_disease_slugs:
+  - MTAg7KKF7JaRL-yDgeuMgOygleunpSDspp3tm4TqtbAgKFN1cGVyaW9yIFZlbmEgQ2F2YSBTeW5kcm9tZSkubWQ
+  - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

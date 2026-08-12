@@ -13,6 +13,8 @@ related_diseases:
   - "급성 췌장염"
   - "모세혈관 누출"
   - "혈관내 용적 감소"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k
 question_type: mechanism
 difficulty: complex
 answer: B

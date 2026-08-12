@@ -13,6 +13,7 @@ related_diseases:
   - "카바마제핀"
   - "골수억제"
   - "범혈구감소증"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: D

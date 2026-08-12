@@ -13,6 +13,9 @@ related_diseases:
   - "iatrogenic dehydration"
   - "의인성 탈수"
   - "furosemide-induced hypovolemia"
+  - "Dehydration"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug7IOd7JWEIOydvOyLnOyXtCAoTmVvbmF0YWwgVHJhbnNpZW50IEZldmVyKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

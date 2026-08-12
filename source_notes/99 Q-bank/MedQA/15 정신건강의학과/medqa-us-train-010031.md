@@ -14,6 +14,9 @@ related_diseases:
   - "뮌하우젠 증후군"
   - "자가 유발 감염"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yduOychOyEsSDsnqXslaAgKEZhY3RpdGlvdXMgRGlzb3JkZXIpLm1k
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VtOumrOyEsSDquLDslrUg7IOB7IukIChEaXNzb2NpYXRpdmUgQW1uZXNpYSkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

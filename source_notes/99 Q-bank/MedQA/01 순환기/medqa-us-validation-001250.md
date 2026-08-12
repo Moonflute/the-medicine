@@ -13,6 +13,9 @@ related_diseases:
   - "니트로글리세린"
   - "전부하 감소"
   - "협심증"
+  - "Acute coronary syndrome"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k
 question_type: mechanism
 difficulty: complex
 answer: D

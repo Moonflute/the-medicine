@@ -13,6 +13,8 @@ related_diseases:
   - "결절홍반"
   - "연쇄구균 인두염"
   - "반응성 염증"
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-qysOygiCDtmY3rsJggKEVyeXRoZW1hIE5vZG9zdW0pLm1k
 question_type: investigation
 difficulty: complex
 answer: A

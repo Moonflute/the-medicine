@@ -13,6 +13,8 @@ related_diseases:
   - "흉수"
   - "늑골횡격막각 둔화"
   - "폐렴 후 흉수"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2dieyImC5tZA
 question_type: investigation
 difficulty: complex
 answer: D

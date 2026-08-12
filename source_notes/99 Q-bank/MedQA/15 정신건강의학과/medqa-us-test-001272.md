@@ -13,7 +13,9 @@ related_diseases:
   - "조현형 인격장애"
   - "마술적 사고"
   - "사회적 고립"
+  - "Schizotypal personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

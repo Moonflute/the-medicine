@@ -13,6 +13,8 @@ related_diseases:
   - "담석증"
   - "총담관결석"
   - "담도 산통"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

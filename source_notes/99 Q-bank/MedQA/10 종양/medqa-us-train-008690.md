@@ -13,6 +13,7 @@ related_diseases:
   - "carcinoid tumor"
   - "carcinoid syndrome"
   - "neuroendocrine tumor"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

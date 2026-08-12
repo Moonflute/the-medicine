@@ -15,6 +15,8 @@ related_diseases:
   - "수면마비"
   - "입면 환각"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOuptOymnSAoTmFyY29sZXBzeSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "absence seizure"
   - "myoclonic jerks"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKt7IaM64WEIOq3vOqwhOuMgOyEsSDrh4zsoITspp0gKEp1dmVuaWxlIE15b2Nsb25pYyBFcGlsZXBzeSkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM67Cc7J6RIChBYnNlbmNlIFNlaXp1cmUpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

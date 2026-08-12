@@ -14,6 +14,8 @@ related_diseases:
   - "autoimmune thyroid disease"
   - "anti-TPO antibodies"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uwseuwmOymnSAoVml0aWxpZ28pLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

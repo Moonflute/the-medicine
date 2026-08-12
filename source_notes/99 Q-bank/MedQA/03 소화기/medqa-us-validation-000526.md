@@ -13,6 +13,8 @@ related_diseases:
   - "게실염"
   - "결장 게실"
   - "장벽 염증"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6Tsl7wgKERpdmVydGljdWxpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

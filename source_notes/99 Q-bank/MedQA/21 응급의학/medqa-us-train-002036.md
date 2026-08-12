@@ -14,6 +14,8 @@ related_diseases:
   - "hypocalcemia"
   - "massive transfusion"
 question_type: adverse_effect
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggOy5vOyKmO2YiOymnSAoSHlwb2NhbGNlbWlhKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

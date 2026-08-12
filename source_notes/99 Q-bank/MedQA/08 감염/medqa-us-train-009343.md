@@ -13,6 +13,8 @@ related_diseases:
   - "dengue fever"
   - "뎅기열"
   - "Aedes mosquito"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uOheq4sOyXtCAoRGVuZ3VlIEZldmVyKS5tZA
 question_type: prevention
 difficulty: complex
 answer: B

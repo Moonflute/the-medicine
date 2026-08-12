@@ -12,6 +12,8 @@ specialty: 14 소아청소년과
 related_diseases:
   - "fetal alcohol syndrome"
 question_type: prevention
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YOc7JWE7JWM7L2U7Jis7Kad7ZuE6rWwIChGZXRhbCBBbGNvaG9sIFN5bmRyb21lKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

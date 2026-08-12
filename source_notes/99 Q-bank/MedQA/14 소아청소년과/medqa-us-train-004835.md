@@ -14,6 +14,8 @@ related_diseases:
   - "B군 사슬알균"
   - "조기 발현 신생아 감염"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2MqO2YiOymnSAoTmVvbmF0YWwgU2Vwc2lzKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

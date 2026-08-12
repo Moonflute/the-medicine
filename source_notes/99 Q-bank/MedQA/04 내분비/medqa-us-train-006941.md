@@ -13,6 +13,9 @@ related_diseases:
   - "애디슨병"
   - "자가면역 부신기능부전"
   - "원형탈모증 연관"
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-ybkO2YlSDtg4jrqqjspp0gKEFsb3BlY2lhIEFyZWF0YSkubWQ
+  - MDQg64K067aE67mEL-ybkOuwnOyEsSDrtoDsi6Ag6riw64ql7KCA7ZWY7KadKFByaW1hcnkgQWRyZW5hbCBJbnN1ZmZpY2llbmN5KS5tZA
 question_type: mechanism
 difficulty: complex
 answer: C

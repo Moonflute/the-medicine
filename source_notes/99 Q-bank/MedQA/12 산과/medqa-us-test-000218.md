@@ -13,6 +13,9 @@ related_diseases:
   - "계류유산"
   - "불완전 유산"
   - "임신 초기 유산"
+related_disease_slugs:
+  - MTIg7IKw6rO8L-qzhOulmCDsnKDsgrAgKE1pc3NlZCBBYm9ydGlvbikubWQ
+  - MTIg7IKw6rO8L-u2iOyZhOyghCDsnKDsgrAgKEluY29tcGxldGUgQWJvcnRpb24pLm1k
 question_type: management
 difficulty: complex
 answer: C

@@ -13,6 +13,8 @@ related_diseases:
   - "임신 중 발진"
   - "파보바이러스 B19"
   - "풍진 감별"
+  - "Parvovirus B19 infection"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: D

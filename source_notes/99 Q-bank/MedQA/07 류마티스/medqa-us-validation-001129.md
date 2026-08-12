@@ -13,6 +13,8 @@ related_diseases:
   - "원발성 쇼그렌증후군"
   - "구강건조증"
   - "안구건조증"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yHvOq3uOugjCDspp3tm4TqtbAgKFNqw7ZncmVuJ3MgU3luZHJvbWUpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

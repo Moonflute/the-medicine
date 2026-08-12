@@ -14,6 +14,8 @@ related_diseases:
   - "cervical intraepithelial neoplasia"
   - "repeat Pap smear"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gCDsg4HtlLzrgrQg7KKF7JaRIChDZXJ2aWNhbCBJbnRyYWVwaXRoZWxpYWwgTmVvcGxhc2lhKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

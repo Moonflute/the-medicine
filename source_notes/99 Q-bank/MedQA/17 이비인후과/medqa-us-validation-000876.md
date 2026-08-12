@@ -13,7 +13,10 @@ related_diseases:
   - "안와봉와직염"
   - "사골동염"
   - "안구돌출"
+  - "Sphenoid sinusitis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67aA67mE64-Z7Je8IChTaW51c2l0aXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

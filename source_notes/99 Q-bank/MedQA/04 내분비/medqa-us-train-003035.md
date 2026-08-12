@@ -14,6 +14,9 @@ related_diseases:
   - "carpal tunnel syndrome"
   - "median neuropathy"
   - "thyroxine replacement"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
+  - MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k
 question_type: management
 difficulty: standard
 answer: A

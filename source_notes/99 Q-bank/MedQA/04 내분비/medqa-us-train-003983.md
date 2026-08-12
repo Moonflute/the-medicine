@@ -14,6 +14,10 @@ related_diseases:
   - "양측 부신 증식"
   - "저칼륨혈증"
   - "고혈압"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ybkOuwnOyEsSDslYzrj4TsiqTthYzroaDspp0gKFByaW1hcnkgQWxkb3N0ZXJvbmlzbSkubWQ
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: D

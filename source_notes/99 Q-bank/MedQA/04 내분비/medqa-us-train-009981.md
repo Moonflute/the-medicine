@@ -13,6 +13,8 @@ related_diseases:
   - "당뇨병성 자율신경병증"
   - "신경인성 방광"
   - "당뇨병성 말초신경병증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
 question_type: mechanism
 difficulty: complex
 answer: C

@@ -13,6 +13,8 @@ related_diseases:
   - "소모기 현상"
   - "야간 저혈당"
   - "인슐린 과다"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yGjOuqqOq4sCDtmITsg4EgKFNvbW9neWkgUGhlbm9tZW5vbikubWQ
 question_type: management
 difficulty: simple
 answer: D

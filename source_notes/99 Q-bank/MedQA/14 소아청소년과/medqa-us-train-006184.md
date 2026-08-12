@@ -14,6 +14,7 @@ related_diseases:
   - "유문 근육 비후"
   - "저염소성 대사성 알칼리증"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

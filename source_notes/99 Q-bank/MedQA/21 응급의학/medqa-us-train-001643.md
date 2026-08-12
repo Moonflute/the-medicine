@@ -13,6 +13,8 @@ related_diseases:
   - "posterior reversible encephalopathy syndrome"
   - "hypertensive emergency"
 question_type: management
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

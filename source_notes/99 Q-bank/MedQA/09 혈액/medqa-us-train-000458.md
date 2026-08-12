@@ -11,6 +11,8 @@ language: ko
 specialty: 09 혈액
 related_diseases:
   - "primary myelofibrosis"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2KueuwnOyEsSDqs6jsiJjshKzsnKDspp0gKFBNRikgKFByaW1hcnkgTXllbG9maWJyb3NpcyAoUE1GKSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

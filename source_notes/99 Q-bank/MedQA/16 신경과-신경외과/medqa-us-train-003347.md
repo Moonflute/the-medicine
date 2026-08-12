@@ -15,6 +15,7 @@ related_diseases:
   - "central post-stroke pain"
   - "allodynia"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

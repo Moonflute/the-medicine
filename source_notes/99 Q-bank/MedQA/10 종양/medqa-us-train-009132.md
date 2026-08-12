@@ -13,6 +13,9 @@ related_diseases:
   - "lung adenocarcinoma"
   - "폐 선암"
   - "solitary pulmonary nodule"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshKDslZQgKEFkZW5vY2FyY2lub21hKS5tZA
+  - MDIg7Zi47Z2h6riwL-uLqOydvCDtj5DqsrDsoIggKFNQTikgKFNvbGl0YXJ5IFB1bG1vbmFyeSBOb2R1bGUpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: D

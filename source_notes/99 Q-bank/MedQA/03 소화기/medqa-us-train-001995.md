@@ -13,6 +13,9 @@ related_diseases:
   - "diverticular bleeding"
   - "painless hematochezia"
   - "lower gastrointestinal bleeding"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6Qg7Lac7ZiIIChEaXZlcnRpY3VsYXIgQmxlZWRpbmcpLm1k
+  - MTEg7Jm46rO8L-ychOyepeq0gCDstpztmIggKEdhc3Ryb2ludGVzdGluYWwgQmxlZWRpbmcpLm1k
 question_type: management
 difficulty: complex
 answer: B

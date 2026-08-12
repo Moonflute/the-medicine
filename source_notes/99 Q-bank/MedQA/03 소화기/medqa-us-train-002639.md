@@ -13,6 +13,8 @@ related_diseases:
   - "acute colonic pseudo-obstruction"
   - "Ogilvie syndrome"
   - "neostigmine"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ
 question_type: management
 difficulty: complex
 answer: B

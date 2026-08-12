@@ -14,6 +14,9 @@ related_diseases:
   - "결막염"
   - "손 위생"
 question_type: prevention
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yVhOuNsOuFuOuwlOydtOufrOyKpCDqsJDsl7wgKEFkZW5vdmlydXMgSW5mZWN0aW9uKS5tZA
+  - MTgg7JWI6rO8L-qysOyEseyXvCAoQ29uanVuY3Rpdml0aXMpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

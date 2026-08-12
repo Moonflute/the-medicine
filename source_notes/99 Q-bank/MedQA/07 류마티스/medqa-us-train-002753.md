@@ -14,6 +14,8 @@ related_diseases:
   - "circinate balanitis"
   - "keratoderma blennorrhagicum"
   - "HLA-B27"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-uwmOydkeyEsSDqtIDsoIjsl7wgKFJlYWN0aXZlIEFydGhyaXRpcykubWQ
 question_type: risk_factor
 difficulty: standard
 answer: B

@@ -13,6 +13,9 @@ related_diseases:
   - "cirrhosis"
   - "hepatocellular carcinoma surveillance"
   - "abdominal ultrasound"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLjtj6zslZQgKEhlcGF0b2NlbGx1bGFyIENhcmNpbm9tYSkubWQ
 question_type: prevention
 difficulty: complex
 answer: C

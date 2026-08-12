@@ -13,6 +13,8 @@ related_diseases:
   - "제2형 당뇨병"
   - "비만"
   - "메트포르민"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: management
 difficulty: complex
 answer: B

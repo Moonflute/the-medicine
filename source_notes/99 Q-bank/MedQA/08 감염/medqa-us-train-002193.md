@@ -13,6 +13,8 @@ related_diseases:
   - "meningococcal meningitis"
   - "gram-negative diplococci"
   - "rifampin prophylaxis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yImOunieyVjOq3oCAoTWVuaW5nb2NvY2N1cykubWQ
 question_type: prevention
 difficulty: standard
 answer: B

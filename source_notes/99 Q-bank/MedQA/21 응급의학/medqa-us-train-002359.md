@@ -15,6 +15,9 @@ related_diseases:
   - "hypothermia-induced atrial fibrillation"
   - "warmed intravenous fluids"
 question_type: management
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-2VnOuereyGkOyDgSAoQ29sZCBJbmp1cnkpLm1k
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

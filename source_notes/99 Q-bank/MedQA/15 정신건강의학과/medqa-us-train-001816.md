@@ -14,6 +14,7 @@ related_diseases:
   - "autonomous adult patient"
   - "informed consent"
 question_type: ethics
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

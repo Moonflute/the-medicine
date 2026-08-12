@@ -13,6 +13,7 @@ related_diseases:
   - "norovirus gastroenteritis"
   - "viral gastroenteritis"
   - "cruise ship outbreak"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

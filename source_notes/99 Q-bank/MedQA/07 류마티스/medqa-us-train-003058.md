@@ -14,6 +14,9 @@ related_diseases:
   - "Churg-Strauss syndrome"
   - "p-ANCA"
   - "mononeuritis multiplex"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yymOq3uC3siqTtirjrnbzsmrDsiqQg7Kad7ZuE6rWwIChDaHVyZy1TdHJhdXNzIFN5bmRyb21lKS5tZA
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
 question_type: diagnosis
 difficulty: simple
 answer: B

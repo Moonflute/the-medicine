@@ -13,6 +13,8 @@ related_diseases:
   - "저혈량성 고나트륨혈증"
   - "수술 후 체액 소실"
   - "탈수"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOuCmO2KuOulqO2YiOymnSAoSHlwZXJuYXRyZW1pYSkubWQ
 question_type: management
 difficulty: complex
 answer: A

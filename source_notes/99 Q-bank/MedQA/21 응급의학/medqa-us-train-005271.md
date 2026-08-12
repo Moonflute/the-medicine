@@ -14,6 +14,8 @@ related_diseases:
   - "환각제 중독"
   - "수평 안진"
 question_type: diagnosis
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

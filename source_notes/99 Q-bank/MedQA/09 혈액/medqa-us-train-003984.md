@@ -13,6 +13,8 @@ related_diseases:
   - "와파린 유발 피부괴사"
   - "단백질 C 결핍"
   - "천연 항응고인자"
+  - "Protein C deficiency"
+related_disease_slugs: []
 question_type: 임상증례 객관식
 difficulty: standard
 answer: B

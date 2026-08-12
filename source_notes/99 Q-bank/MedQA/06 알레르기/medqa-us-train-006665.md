@@ -13,6 +13,9 @@ related_diseases:
   - "아나필락시스"
   - "제1형 과민반응"
   - "땅콩 알레르기"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
+  - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

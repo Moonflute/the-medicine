@@ -13,7 +13,10 @@ related_diseases:
   - "괴사성 장염"
   - "장 천공"
   - "시험적 개복술"
+  - "Necrotizing enterocolitis"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOq0tOyCrOyEsSDsnqXsl7wgKE5lb25hdGFsIE5lY3JvdGl6aW5nIEVudGVyb2NvbGl0aXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

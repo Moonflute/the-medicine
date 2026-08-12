@@ -14,6 +14,9 @@ related_diseases:
   - "수두-대상포진 바이러스"
   - "수두-대상포진 면역글로불린"
 question_type: prevention
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yImOuRkCAoVmFyaWNlbGxhKS5tZA
+  - MDgg6rCQ7Je8L-yImOuRkC3rjIDsg4Htj6zsp4Qg67CU7J2065-s7IqkIOqwkOyXvCAoVmFyaWNlbGxhLVpvc3RlciBWaXJ1cyBJbmZlY3Rpb24pLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

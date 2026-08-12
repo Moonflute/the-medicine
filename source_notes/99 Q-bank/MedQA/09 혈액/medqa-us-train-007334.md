@@ -14,6 +14,9 @@ related_diseases:
   - "헤모글로빈 F"
   - "골수 확장"
   - "용혈성 빈혈"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
+  - MDkg7ZiI7JWhL-yngOykke2VtCDruYjtmIggKFRoYWxhc3NlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

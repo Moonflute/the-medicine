@@ -13,6 +13,9 @@ related_diseases:
   - "길버트 증후군"
   - "비포합 고빌리루빈혈증"
   - "간접 빌리루빈 상승"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quLjrsoTtirgg7Kad7ZuE6rWwIChHaWxiZXJ0J3MgU3luZHJvbWUpLm1k
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7Trj4Tqs4Qg7KeI7ZmYLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -13,7 +13,9 @@ related_diseases:
   - "원발성 무월경"
   - "질중격"
   - "생식기 유출로 폐쇄"
+  - "Vaginal septum"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

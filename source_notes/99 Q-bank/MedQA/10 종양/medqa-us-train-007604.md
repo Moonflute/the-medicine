@@ -14,6 +14,8 @@ related_diseases:
   - "폐쇄성 황달"
   - "CA 19-9"
   - "췌장 두부 종괴"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA
 question_type: investigation
 difficulty: standard
 answer: C

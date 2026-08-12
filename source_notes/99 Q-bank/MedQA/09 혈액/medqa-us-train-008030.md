@@ -13,6 +13,8 @@ related_diseases:
   - "chronic lymphocytic leukemia"
   - "splenomegaly"
   - "thrombocytopenia prognostic marker"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChDTEwpIChDaHJvbmljIEx5bXBob2N5dGljIExldWtlbWlhKS5tZA
 question_type: prognosis
 difficulty: complex
 answer: B

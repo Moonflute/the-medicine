@@ -14,6 +14,8 @@ related_diseases:
   - "태반조기박리"
   - "임신 합병증"
 question_type: prognosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

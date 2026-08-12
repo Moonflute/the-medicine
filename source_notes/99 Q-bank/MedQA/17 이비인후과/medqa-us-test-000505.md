@@ -14,6 +14,8 @@ related_diseases:
   - "전음성 난청"
   - "아데노이드 비대"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-yCvOy2nOyEseykkeydtOyXvCAoT3RpdGlzIG1lZGlhIHdpdGggZWZmdXNpb24pLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

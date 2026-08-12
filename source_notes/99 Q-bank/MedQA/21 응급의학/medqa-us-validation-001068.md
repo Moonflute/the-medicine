@@ -14,6 +14,8 @@ related_diseases:
   - "의식 변화"
   - "글루카곤"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

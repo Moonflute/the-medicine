@@ -13,6 +13,7 @@ related_diseases:
   - "당뇨병 선별검사"
   - "중년 건강검진"
   - "HbA1c"
+related_disease_slugs: []
 question_type: prevention
 difficulty: simple
 answer: A

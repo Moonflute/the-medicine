@@ -14,6 +14,8 @@ related_diseases:
   - "성장 지연"
   - "골연령 지연"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7J6lIOyngOyXsCAoR3Jvd3RoIFJldGFyZGF0aW9uKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

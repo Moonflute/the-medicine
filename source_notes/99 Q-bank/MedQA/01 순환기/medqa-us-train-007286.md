@@ -13,6 +13,8 @@ related_diseases:
   - "말초동맥질환"
   - "간헐적 파행"
   - "죽상경화증"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uPmeunpeqyve2ZlOyEsSDrp4zshLEg64-Z66elIO2PkOyDiSAoQXRoZXJvc2NsZXJvdGljIENocm9uaWMgQXJ0ZXJpYWwgT2NjbHVzaW9uKS5tZA
 question_type: mechanism
 difficulty: standard
 answer: C

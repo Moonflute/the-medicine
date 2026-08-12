@@ -14,6 +14,7 @@ related_diseases:
   - "재관류 손상"
   - "하지 허혈"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

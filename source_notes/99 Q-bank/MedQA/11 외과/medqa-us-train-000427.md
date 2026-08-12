@@ -11,6 +11,8 @@ language: ko
 specialty: 11 외과
 related_diseases:
   - "pseudoaneurysm"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwgOyEsSDrj5nrp6XrpZggKFBzZXVkb2FuZXVyeXNtKS5tZA
 question_type: management
 difficulty: complex
 answer: A

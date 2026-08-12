@@ -13,6 +13,9 @@ related_diseases:
   - "ST분절 상승 심근경색"
   - "급성 관상동맥증후군"
   - "경피적 관상동맥중재술"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k
+  - MDEg7Iic7ZmY6riwL1NU67aE7KCIIOyDgeyKuSDsi6zqt7zqsr3sg4nspp0gKFNURU1JKSAoU1QtRWxldmF0aW9uIE15b2NhcmRpYWwgSW5mYXJjdGlvbikubWQ
 question_type: management
 difficulty: complex
 answer: A

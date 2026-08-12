@@ -14,6 +14,7 @@ related_diseases:
   - "적신호 사건"
   - "페니토인 독성"
 question_type: ethics
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

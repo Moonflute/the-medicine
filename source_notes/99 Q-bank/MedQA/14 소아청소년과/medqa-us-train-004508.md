@@ -14,6 +14,8 @@ related_diseases:
   - "B형간염 면역글로불린"
   - "신생아 예방접종"
 question_type: prevention
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 difficulty: simple
 answer: C
 translation_status: machine-verified

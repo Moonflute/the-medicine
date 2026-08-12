@@ -13,6 +13,8 @@ related_diseases:
   - "연쇄상구균 감염 후 사구체신염"
   - "A군 연쇄상구균"
   - "항생제 예방"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yXsOyHhOyDgeq1rOq3oCDqsJDsl7wg7ZuEIOyCrOq1rOyytOyLoOyXvCAoUFNHTikgKFBvc3QtU3RyZXB0b2NvY2NhbCBHbG9tZXJ1bG9uZXBocml0aXMpLm1k
 question_type: prevention
 difficulty: standard
 answer: B

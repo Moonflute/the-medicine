@@ -13,6 +13,8 @@ related_diseases:
   - "급성 림프모구성 백혈병"
   - "골수 림프모구"
   - "범혈구감소증"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChBTEwpIChBY3V0ZSBMeW1waG9ibGFzdGljIExldWtlbWlhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: A

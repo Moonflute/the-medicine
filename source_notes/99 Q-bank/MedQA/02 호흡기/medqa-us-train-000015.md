@@ -19,6 +19,11 @@ related_diseases:
   - "천명음"
   - "나음"
   - "만성 폐쇄성 폐질환 (COPD)"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDquLDsuagubWQ
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: C

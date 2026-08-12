@@ -13,6 +13,9 @@ related_diseases:
   - "알파 지중해빈혈"
   - "소구성 빈혈"
   - "정상 헤모글로빈 전기영동"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yngOykke2VtCDruYjtmIggKFRoYWxhc3NlbWlhKS5tZA
+  - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

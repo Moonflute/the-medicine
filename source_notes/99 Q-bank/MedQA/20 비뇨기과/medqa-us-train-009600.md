@@ -14,6 +14,8 @@ related_diseases:
   - "만성 세균성 전립선염"
   - "alpha-blocker"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyXvCAoUHJvc3RhdGl0aXMpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

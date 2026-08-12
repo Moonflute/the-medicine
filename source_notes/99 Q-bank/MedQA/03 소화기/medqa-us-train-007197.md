@@ -13,6 +13,8 @@ related_diseases:
   - "췌장 농양"
   - "급성 담즙성 췌장염"
   - "췌장 감염"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6QgKERpdmVydGljdWx1bSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -14,6 +14,7 @@ related_diseases:
   - "불충분한 유방 비우기"
   - "프로락틴"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

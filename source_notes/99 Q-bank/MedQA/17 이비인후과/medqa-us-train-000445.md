@@ -12,6 +12,8 @@ specialty: 17 이비인후과
 related_diseases:
   - "Meniere disease"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uplOuLiOyXkOultOuzkSAoTWVuaWVyZSdzIGRpc2Vhc2UpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

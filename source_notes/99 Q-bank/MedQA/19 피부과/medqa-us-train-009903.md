@@ -14,6 +14,8 @@ related_diseases:
   - "스티븐스-존슨 증후군"
   - "카르바마제핀"
 question_type: mechanism
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yKpO2LsOu4kOyKpC3sobTsiqgg7Kad7ZuE6rWwLeuPheyEsSDtkZztlLwg6rS07IKsIChTdGV2ZW5zLUpvaG5zb24gU3luZHJvbWUgLSBUb3hpYyBFcGlkZXJtYWwgTmVjcm9seXNpcykubWQ
 difficulty: simple
 answer: C
 translation_status: machine-verified

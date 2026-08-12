@@ -13,6 +13,8 @@ related_diseases:
   - "긴장성 기흉"
   - "외상성 기흉"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4tOyepeyEsSDquLDtnYkgKFRlbnNpb24gUG5ldW1vdGhvcmF4KS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

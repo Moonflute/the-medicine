@@ -14,6 +14,8 @@ related_diseases:
   - "cefazolin allergy"
   - "epinephrine"
 question_type: management
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

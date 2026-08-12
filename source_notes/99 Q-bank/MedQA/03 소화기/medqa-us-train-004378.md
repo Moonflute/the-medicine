@@ -13,6 +13,8 @@ related_diseases:
   - "졸링거-엘리슨 증후군"
   - "가스트리노마"
   - "난치성 소화성 궤양"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsIDsobHshLEg7ISg7KKF7ISxIOyaqeyiheymnSAoRkFQKSAoRmFtaWxpYWwgQWRlbm9tYXRvdXMgUG9seXBvc2lzKS5tZA
 question_type: investigation
 difficulty: standard
 answer: B

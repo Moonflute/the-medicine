@@ -15,6 +15,8 @@ related_diseases:
   - "hand laceration"
   - "amoxicillin-clavulanate"
 question_type: management
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-ywveyDgSDrsI8g7Je07IOBIChXb3VuZHMgYW5kIExhY2VyYXRpb25zKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "medullary thyroid carcinoma"
   - "pheochromocytoma"
   - "multiple endocrine neoplasia type 2A"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDsho3sp4jslZQgKFRoeXJvaWQgTWVkdWxsYXJ5IENhcmNpbm9tYSkubWQ
+  - MDQg64K067aE67mEL-2BrOuhrOy5nO2ZlOyEuO2PrOyihSAoUGhlb2Nocm9tb2N5dG9tYSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

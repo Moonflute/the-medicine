@@ -14,6 +14,9 @@ related_diseases:
   - "이차성 고알도스테론증"
   - "일측 신장 위축"
   - "난치성 고혈압"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yVjOuPhOyKpO2FjOuhoOymnSAoQWxkb3N0ZXJvbmlzbSkubWQ
+  - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

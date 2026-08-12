@@ -13,6 +13,9 @@ related_diseases:
   - "팔로 4징"
   - "우심실 유출로 폐쇄"
   - "신생아 청색증"
+  - "tetralogy of Fallot"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7YyU66GcIOyCrOynlSAoVGV0cmFsb2d5IG9mIEZhbGxvdCkubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

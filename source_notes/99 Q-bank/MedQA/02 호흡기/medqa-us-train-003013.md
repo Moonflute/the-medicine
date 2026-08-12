@@ -14,6 +14,9 @@ related_diseases:
   - "poor asthma control"
   - "inhaled corticosteroid plus LABA"
   - "salmeterol"
+  - "asthma"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: standard
 answer: A

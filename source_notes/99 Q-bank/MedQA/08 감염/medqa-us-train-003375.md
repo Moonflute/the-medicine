@@ -14,6 +14,8 @@ related_diseases:
   - "steatorrhea"
   - "freshwater exposure"
   - "metronidazole"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sp4DrsKnrs4AgKFN0ZWF0b3JyaGVhKS5tZA
 question_type: management
 difficulty: complex
 answer: B

@@ -13,7 +13,10 @@ related_diseases:
   - "운동 유발 열사병"
   - "고체온증"
   - "건설현장 열 노출"
+  - "Heat stroke"
 question_type: diagnosis
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yXtOyniO2ZmCAoSGVhdCBJbGxuZXNzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

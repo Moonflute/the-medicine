@@ -14,6 +14,9 @@ related_diseases:
   - "배변통"
   - "선홍색 혈변"
   - "국소 니페디핀"
+  - "Anal fissure"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_suZjsl7QgKEFuYWwgRmlzc3VyZSkubWQ
 question_type: management
 difficulty: complex
 answer: C

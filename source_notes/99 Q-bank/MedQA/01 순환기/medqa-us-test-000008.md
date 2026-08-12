@@ -13,6 +13,8 @@ related_diseases:
   - "급성관상동맥증후군"
   - "이중 항혈소판요법"
   - "클로피도그렐"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k
 question_type: management
 difficulty: standard
 answer: C

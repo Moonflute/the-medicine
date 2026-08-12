@@ -15,6 +15,8 @@ related_diseases:
   - "bladder training"
   - "behavioral therapy"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

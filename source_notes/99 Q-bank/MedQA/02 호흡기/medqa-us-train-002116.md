@@ -14,6 +14,8 @@ related_diseases:
   - "Pancoast tumor"
   - "apical lung cancer"
   - "sympathetic chain"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 question_type: investigation
 difficulty: complex
 answer: C

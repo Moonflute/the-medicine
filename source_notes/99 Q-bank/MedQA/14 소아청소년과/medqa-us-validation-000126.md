@@ -14,6 +14,8 @@ related_diseases:
   - "신생아 황달"
   - "생리적 황달"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2ZqeuLrCAoTmVvbmF0YWwgSmF1bmRpY2UpLm1k
 difficulty: simple
 answer: A
 translation_status: machine-verified

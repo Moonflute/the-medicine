@@ -13,6 +13,8 @@ related_diseases:
   - "관통성 복부 외상"
   - "총상"
   - "출혈성 쇼크"
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: management
 difficulty: complex
 answer: C

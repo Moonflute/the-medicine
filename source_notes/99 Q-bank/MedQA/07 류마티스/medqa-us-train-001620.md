@@ -13,6 +13,8 @@ related_diseases:
   - "statin-associated autoimmune myopathy"
   - "immune-mediated necrotizing myopathy"
   - "elevated CK"
+  - "Statin-associated autoimmune myopathy"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: C

@@ -14,6 +14,9 @@ related_diseases:
   - "episodic vertigo"
   - "sensorineural hearing loss"
 question_type: diagnosis
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uPjOuwnOyEsSDrgpzssq0gKFN1ZGRlbiBzZW5zb3JpbmV1cmFsIGhlYXJpbmcgbG9zcykubWQ
+  - MTcg7J2067mE7J247ZuE6rO8L-uplOuLiOyXkOultOuzkSAoTWVuaWVyZSdzIGRpc2Vhc2UpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

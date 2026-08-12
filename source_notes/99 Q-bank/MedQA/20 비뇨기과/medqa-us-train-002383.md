@@ -13,7 +13,9 @@ related_diseases:
   - "erectile dysfunction"
   - "psychogenic erectile dysfunction"
   - "nocturnal penile tumescence"
+  - "Erectile dysfunction"
 question_type: investigation
+related_disease_slugs: []
 difficulty: simple
 answer: A
 translation_status: machine-verified

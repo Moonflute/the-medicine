@@ -13,6 +13,8 @@ related_diseases:
   - "아데노바이러스 인두결막열"
   - "육안적 혈뇨"
   - "결막염"
+related_disease_slugs:
+  - MTgg7JWI6rO8L-qysOyEseyXvCAoQ29uanVuY3Rpdml0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

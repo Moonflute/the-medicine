@@ -13,6 +13,7 @@ related_diseases:
   - "급성 담관염"
   - "총담관 결석"
   - "담도 폐쇄"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: C

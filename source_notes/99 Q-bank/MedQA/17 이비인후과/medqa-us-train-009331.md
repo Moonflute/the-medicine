@@ -14,6 +14,7 @@ related_diseases:
   - "비중격 만곡"
   - "deep sedation"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

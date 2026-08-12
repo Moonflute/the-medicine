@@ -13,6 +13,9 @@ related_diseases:
   - "요붕증"
   - "겸상적혈구병"
   - "지염"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yalOu2leymnSAoRGlhYmV0ZXMgSW5zaXBpZHVzKS5tZA
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

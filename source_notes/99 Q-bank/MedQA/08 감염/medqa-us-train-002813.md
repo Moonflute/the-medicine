@@ -14,6 +14,8 @@ related_diseases:
   - "Bartonella henselae"
   - "regional lymphadenitis"
   - "immunocompetent host"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-usmOyGjOuzkSAoQ2F0IFNjcmF0Y2ggRGlzZWFzZSkubWQ
 question_type: management
 difficulty: complex
 answer: D

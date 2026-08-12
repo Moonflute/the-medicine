@@ -13,7 +13,9 @@ related_diseases:
   - "가성임신"
   - "임신 망상"
   - "임신 증상"
+  - "Pseudocyesis"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

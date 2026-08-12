@@ -13,6 +13,9 @@ related_diseases:
   - "연쇄상구균 감염 후 사구체신염"
   - "ASO 역가"
   - "혈뇨"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yXsOyHhOyDgeq1rOq3oCDqsJDsl7wg7ZuEIOyCrOq1rOyytOyLoOyXvCAoUFNHTikgKFBvc3QtU3RyZXB0b2NvY2NhbCBHbG9tZXJ1bG9uZXBocml0aXMpLm1k
+  - MDUg7Iug7J6lL-2YiOuHqC5tZA
 question_type: investigation
 difficulty: complex
 answer: C

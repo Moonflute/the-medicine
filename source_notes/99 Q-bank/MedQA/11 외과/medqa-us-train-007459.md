@@ -14,6 +14,8 @@ related_diseases:
   - "당뇨병성 족부 감염"
   - "말초동맥질환"
   - "절단 적응증"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uPmeunpeqyve2ZlOyEsSDrp4zshLEg64-Z66elIO2PkOyDiSAoQXRoZXJvc2NsZXJvdGljIENocm9uaWMgQXJ0ZXJpYWwgT2NjbHVzaW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: C

@@ -13,7 +13,9 @@ related_diseases:
   - "pregnancy luteoma"
   - "maternal virilization"
   - "bilateral ovarian masses"
+  - "Pregnancy luteoma"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

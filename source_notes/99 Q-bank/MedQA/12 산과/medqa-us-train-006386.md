@@ -14,6 +14,8 @@ related_diseases:
   - "완전 포상기태"
   - "임신성 융모성 질환"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2PrOyDgeq4sO2DnCAoTW9sYXIgUHJlZ25hbmN5KS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

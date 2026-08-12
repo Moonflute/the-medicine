@@ -14,6 +14,9 @@ related_diseases:
   - "탈수"
   - "전해질 이상"
 question_type: investigation
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yErOunnSAoRGVsaXJpdW0pLm1k
+  - MDUg7Iug7J6lL-yghO2VtOyniCDsnbTsg4EubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

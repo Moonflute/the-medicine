@@ -15,6 +15,9 @@ related_diseases:
   - "antenatal corticosteroid"
   - "magnesium sulfate"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yhsOq4sCDsp4TthrUgKFByZXRlcm0gTGFib3IpLm1k
+  - MTIg7IKw6rO8L-yhsOyCsCAoUHJldGVybSBiaXJ0aCkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

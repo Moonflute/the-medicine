@@ -13,6 +13,8 @@ related_diseases:
   - "chronic pancreatitis"
   - "pancreatic exocrine insufficiency"
   - "pancreatic enzyme replacement"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEg7LeM7J6l7Je8IChDaHJvbmljIFBhbmNyZWF0aXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: D

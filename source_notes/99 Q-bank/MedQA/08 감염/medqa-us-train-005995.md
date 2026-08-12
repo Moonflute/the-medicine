@@ -13,6 +13,8 @@ related_diseases:
   - "도노반증"
   - "Klebsiella granulomatis"
   - "무통성 생식기 궤양"
+  - "Donovanosis"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

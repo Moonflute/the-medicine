@@ -13,7 +13,9 @@ related_diseases:
   - "알코올성 케톤산증"
   - "음주 후 고음이온차 대사성 산증"
   - "탈수"
+  - "Alcohol intoxication"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "serum sickness-like reaction"
   - "drug hypersensitivity"
   - "urticarial rash"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOyyreuzkSAoU2VydW0gU2lja25lc3MpLm1k
+  - MDYg7JWM66CI66W06riwL-uRkOuTnOufrOq4sCAoVXJ0aWNhcmlhKS5tZA
 question_type: management
 difficulty: complex
 answer: B

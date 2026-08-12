@@ -14,6 +14,8 @@ related_diseases:
   - "excessive daytime sleepiness"
   - "modafinil"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOuptOymnSAoTmFyY29sZXBzeSkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

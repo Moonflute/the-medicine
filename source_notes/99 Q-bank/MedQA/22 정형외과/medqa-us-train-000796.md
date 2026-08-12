@@ -12,6 +12,8 @@ specialty: 22 정형외과
 related_diseases:
   - "plantar fasciitis"
 question_type: management
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yhseyggCDqt7zrp4nsl7wgKFBsYW50YXIgRmFzY2lpdGlzKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

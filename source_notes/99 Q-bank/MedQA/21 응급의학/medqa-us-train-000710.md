@@ -12,6 +12,7 @@ specialty: 21 응급의학
 related_diseases:
   - "cannabinoid hyperemesis syndrome"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

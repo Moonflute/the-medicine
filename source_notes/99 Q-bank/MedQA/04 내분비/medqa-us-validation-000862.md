@@ -13,6 +13,8 @@ related_diseases:
   - "무통성 갑상선염"
   - "갑상선기능항진 후 저하"
   - "산후 갑상선염"
+  - "Silent thyroiditis"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -11,6 +11,8 @@ language: ko
 specialty: 05 신장
 related_diseases:
   - "glomerulonephritis"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yCrOq1rOyytOyniO2ZmC5tZA
 question_type: management
 difficulty: simple
 answer: C

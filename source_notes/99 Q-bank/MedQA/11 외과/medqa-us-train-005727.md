@@ -13,6 +13,8 @@ related_diseases:
   - "복부 대동맥류"
   - "주머니 모양 대동맥류"
   - "혈관 내 동맥류 복원술"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uzteu2gCDrjIDrj5nrp6XrpZggKEFiZG9taW5hbCBBb3J0aWMgQW5ldXJ5c20pLm1k
 question_type: management
 difficulty: complex
 answer: B

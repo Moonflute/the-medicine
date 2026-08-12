@@ -14,6 +14,9 @@ related_diseases:
   - "hypoparathyroidism"
   - "carpopedal spasm"
   - "prolonged QT interval"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggOy5vOyKmO2YiOymnSAoSHlwb2NhbGNlbWlhKS5tZA
+  - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG9wYXJhdGh5cm9pZGlzbSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: C

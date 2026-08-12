@@ -14,6 +14,9 @@ related_diseases:
   - "중증 전자간증"
   - "hypertension in pregnancy"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-ykkeymnSDsoITsnpDqsITspp0gKFNldmVyZSBQcmUtZWNsYW1wc2lhKS5tZA
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

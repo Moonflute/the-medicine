@@ -13,7 +13,10 @@ related_diseases:
   - "치료저항성 조현병"
   - "클로자핀"
   - "지속성 피해망상"
+  - "Treatment-resistant schizophrenia"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

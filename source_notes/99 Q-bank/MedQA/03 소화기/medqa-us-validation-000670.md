@@ -13,6 +13,8 @@ related_diseases:
   - "과민성장증후군"
   - "로마 IV 기준"
   - "복통과 배변 관련성"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qs7zrr7zshLEg7J6lIOymne2bhOq1sCAoSUJTKSAoSXJyaXRhYmxlIEJvd2VsIFN5bmRyb21lIChJQlMpKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

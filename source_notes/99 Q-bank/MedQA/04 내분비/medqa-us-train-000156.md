@@ -12,6 +12,8 @@ specialty: 04 내분비
 related_diseases:
   - "papillary thyroid cancer"
   - "thyroidectomy"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmOyVlCAoVGh5cm9pZCBDYW5jZXIpLm1k
 question_type: management
 difficulty: simple
 answer: D

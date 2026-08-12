@@ -14,6 +14,8 @@ related_diseases:
   - "골관절염"
   - "멜록시캄"
 question_type: management
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qzqOq0gOygiOyXvCAoT3N0ZW9hcnRocml0aXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

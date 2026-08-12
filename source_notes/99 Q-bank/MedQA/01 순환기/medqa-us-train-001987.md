@@ -13,6 +13,9 @@ related_diseases:
   - "aortic stenosis"
   - "calcific valve disease"
   - "systolic ejection murmur"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
+  - MDEg7Iic7ZmY6riwL-2MkOunieyniO2ZmC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

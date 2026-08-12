@@ -14,6 +14,7 @@ related_diseases:
   - "conjugated hyperbilirubinemia"
   - "black liver"
   - "benign hereditary jaundice"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: B

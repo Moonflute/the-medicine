@@ -14,6 +14,8 @@ related_diseases:
   - "변형성 골염"
   - "알칼리성 인산분해효소 상승"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2MjOygnO2KuOuzkSAoUGFnZXQncyBEaXNlYXNlKS5tZA
 difficulty: simple
 answer: B
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "프로필티오우라실"
   - "무과립구증"
   - "그레이브스병"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: complex
 answer: B

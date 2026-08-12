@@ -13,6 +13,9 @@ related_diseases:
   - "급성 통풍 발작"
   - "요산 일나트륨 결정"
   - "티아지드 유발 고요산혈증"
+  - "gout"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ
 question_type: management
 difficulty: standard
 answer: A

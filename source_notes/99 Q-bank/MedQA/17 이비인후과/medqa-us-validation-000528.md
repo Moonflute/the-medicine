@@ -14,6 +14,8 @@ related_diseases:
   - "청신경초종"
   - "NF2 유전자"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_si6Dqsr3stIjsooUgKFNjaHdhbm5vbWEpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

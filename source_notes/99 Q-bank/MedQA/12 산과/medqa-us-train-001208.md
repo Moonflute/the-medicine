@@ -12,6 +12,7 @@ specialty: 12 산과
 related_diseases:
   - "fetal warfarin syndrome"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "상위 및 하위 운동신경세포 징후"
   - "연수 기능 장애"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qt7zsnITstpXshLEg7Lih7IKtIOqyve2ZlOymnSAoQW15b3Ryb3BoaWMgbGF0ZXJhbCBzY2xlcm9zaXMpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

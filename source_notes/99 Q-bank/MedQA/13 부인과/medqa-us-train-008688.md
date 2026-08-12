@@ -14,6 +14,9 @@ related_diseases:
   - "mastitis"
   - "incision and drainage"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqSDrho3slpEgKEJyZWFzdCBBYnNjZXNzKS5tZA
+  - MTMg67aA7J246rO8L-yImOycoOq4sCDsnKDrsKnsl7wgKExhY3RhdGlvbmFsIE1hc3RpdGlzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -15,6 +15,8 @@ related_diseases:
   - "urgent debridement"
   - "broad-spectrum antibiotics"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q0tOyCrOyEsSDqt7zrp4nsl7wgKE5lY3JvdGl6aW5nIEZhc2NpaXRpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

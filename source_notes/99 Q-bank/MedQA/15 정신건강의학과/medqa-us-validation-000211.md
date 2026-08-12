@@ -13,7 +13,9 @@ related_diseases:
   - "월경전불쾌장애"
   - "PMDD"
   - "SSRI"
+  - "Premenstrual dysphoric disorder"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

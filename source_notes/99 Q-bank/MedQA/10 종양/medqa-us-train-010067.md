@@ -13,6 +13,8 @@ related_diseases:
   - "기관지성 암종"
   - "흡연"
   - "직업성 노출"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 question_type: prognosis
 difficulty: complex
 answer: B

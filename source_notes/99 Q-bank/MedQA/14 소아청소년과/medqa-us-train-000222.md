@@ -9,8 +9,8 @@ source_hash: sha256:ec98a5a17abb5b9ffc834a73a7c0f05bec2a9934419c023ebe2549203c96
 exam: USMLE Step 2/3
 language: ko
 specialty: 14 소아청소년과
-related_diseases:
-  []
+related_diseases: []
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: C

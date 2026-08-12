@@ -14,6 +14,8 @@ related_diseases:
   - "기도 폐쇄"
   - "비기관삽관"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riJ7ISxIO2bhOuRkOqwnOyXvCAoQWN1dGUgRXBpZ2xvdHRpdGlzKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

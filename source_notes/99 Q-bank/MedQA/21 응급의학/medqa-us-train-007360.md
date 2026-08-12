@@ -15,6 +15,9 @@ related_diseases:
   - "복강내 출혈"
   - "외상"
 question_type: diagnosis
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
+  - MTEg7Jm46rO8L-yZuOyDgS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -13,7 +13,10 @@ related_diseases:
   - "질편모충증"
   - "성매개 질염"
   - "메트로니다졸 치료"
+  - "Trichomoniasis"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2KuOumrOy9lOuqqOuCmOyKpCAoVHJpY2hvbW9uaWFzaXMpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

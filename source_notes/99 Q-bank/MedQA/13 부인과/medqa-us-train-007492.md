@@ -14,7 +14,9 @@ related_diseases:
   - "난임"
   - "고령 임신"
   - "클라미디아 병력"
+  - "Diminished ovarian reserve"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "유전성 혈관부종"
   - "C1 에스터라제 억제제 결핍"
   - "후두부종"
+  - "Hereditary angioedema"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOu2gOyihSAo7Jyg7KCE7ISxKSAoSGVyZWRpdGFyeSBBbmdpb2VkZW1hKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: A

@@ -14,6 +14,8 @@ related_diseases:
   - "epistaxis"
   - "nasal mass"
 question_type: investigation
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-u5hOy2nO2YiCAoRXBpc3RheGlzKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

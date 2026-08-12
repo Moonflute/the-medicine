@@ -13,6 +13,8 @@ related_diseases:
   - "젠커 게실"
   - "연하곤란"
   - "바륨 식도조영술"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_soKDsu6Qg6rKM7IukIChaZW5rZXIncyBEaXZlcnRpY3VsdW0pLm1k
 question_type: investigation
 difficulty: complex
 answer: A

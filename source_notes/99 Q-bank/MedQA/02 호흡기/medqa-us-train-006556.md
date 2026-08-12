@@ -13,6 +13,7 @@ related_diseases:
   - "폐동맥고혈압"
   - "우심부전"
   - "리오시구앗 치료"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

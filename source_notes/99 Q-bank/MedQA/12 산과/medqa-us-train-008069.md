@@ -14,6 +14,7 @@ related_diseases:
   - "corpus luteum maintenance"
   - "pregnancy test"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

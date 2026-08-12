@@ -14,6 +14,7 @@ related_diseases:
   - "국소 세균성 피부감염"
   - "무피로신"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "Hodgkin lymphoma"
   - "Reed-Sternberg cells"
   - "B symptoms"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YuOyngO2CqCDrprztlITsooUgKEhvZGdraW4gTHltcGhvbWEpLm1k
 question_type: prognosis
 difficulty: complex
 answer: D

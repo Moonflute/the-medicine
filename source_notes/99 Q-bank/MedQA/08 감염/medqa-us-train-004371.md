@@ -13,6 +13,8 @@ related_diseases:
   - "B형간염 노출 후 예방"
   - "주사침 손상"
   - "B형간염 면역글로불린"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: 임상증례 객관식
 difficulty: standard
 answer: D

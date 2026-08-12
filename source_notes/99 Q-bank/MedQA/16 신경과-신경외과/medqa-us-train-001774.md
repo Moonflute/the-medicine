@@ -14,6 +14,8 @@ related_diseases:
   - "cerebrospinal fluid rhinorrhea"
   - "halo sign"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDqsJzsoIAg6rOo7KCIIChCYXNhbCBza3VsbCBmcmFjdHVyZSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

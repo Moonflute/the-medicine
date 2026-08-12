@@ -14,6 +14,9 @@ related_diseases:
   - "심부정맥혈전증"
   - "혈전용해요법"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

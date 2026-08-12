@@ -13,6 +13,9 @@ related_diseases:
   - "Type 1 Diabetes Mellitus"
   - "metabolic acidosis"
   - "hyperkalemia"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ygnDHtmJUg64u564eo67ORIChUeXBlIDEgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

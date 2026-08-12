@@ -13,7 +13,10 @@ related_diseases:
   - "양극성 II형 장애"
   - "경조증"
   - "주요우울 삽화"
+  - "Bipolar II disorder"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

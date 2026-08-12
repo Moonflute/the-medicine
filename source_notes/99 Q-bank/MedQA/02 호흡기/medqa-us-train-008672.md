@@ -13,6 +13,8 @@ related_diseases:
   - "spontaneous pneumomediastinum"
   - "Hamman sign"
   - "subcutaneous emphysema"
+  - "Pneumomediastinum"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: C

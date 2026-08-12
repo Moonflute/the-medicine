@@ -13,6 +13,7 @@ related_diseases:
   - "수술 전 타임아웃"
   - "의료오류 예방"
   - "환자 확인"
+related_disease_slugs: []
 question_type: prevention
 difficulty: standard
 answer: B

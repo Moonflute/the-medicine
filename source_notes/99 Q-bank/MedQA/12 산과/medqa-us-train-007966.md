@@ -13,7 +13,10 @@ related_diseases:
   - "influenza vaccination in pregnancy"
   - "live vaccines contraindicated"
   - "prenatal care"
+  - "Influenza"
 question_type: prevention
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yduO2UjOujqOyXlOyekCAoSW5mbHVlbnphKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

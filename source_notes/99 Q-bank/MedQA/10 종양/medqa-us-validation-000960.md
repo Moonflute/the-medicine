@@ -13,6 +13,8 @@ related_diseases:
   - "발열성 호중구감소증"
   - "소세포폐암"
   - "세페핌"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
 question_type: management
 difficulty: complex
 answer: A

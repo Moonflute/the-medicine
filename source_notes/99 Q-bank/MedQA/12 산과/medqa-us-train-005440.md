@@ -14,6 +14,8 @@ related_diseases:
   - "전치태반"
   - "제왕절개 자궁절제술"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yghOy5mO2DnOuwmCAoUGxhY2VudGEgUHJldmlhKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

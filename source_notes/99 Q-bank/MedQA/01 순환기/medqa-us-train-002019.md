@@ -13,6 +13,8 @@ related_diseases:
   - "symptomatic bradycardia"
   - "medication-induced bradycardia"
   - "heart block"
+  - "bradycardia"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

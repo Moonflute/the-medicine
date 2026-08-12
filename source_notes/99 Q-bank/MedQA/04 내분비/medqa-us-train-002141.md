@@ -13,6 +13,9 @@ related_diseases:
   - "diabetic ketoacidosis"
   - "hypokalemia risk"
   - "potassium replacement"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
 question_type: management
 difficulty: complex
 answer: C

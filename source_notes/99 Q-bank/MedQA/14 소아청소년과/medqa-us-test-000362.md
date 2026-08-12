@@ -14,6 +14,8 @@ related_diseases:
   - "그레이브스병"
   - "신생아 갑상샘항진증"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

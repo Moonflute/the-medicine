@@ -13,6 +13,8 @@ related_diseases:
   - "lithium-induced hyperthyroidism"
   - "thyrotoxicosis"
   - "TSH free T4"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
 question_type: investigation
 difficulty: complex
 answer: B

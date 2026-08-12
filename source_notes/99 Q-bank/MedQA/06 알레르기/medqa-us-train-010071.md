@@ -13,6 +13,8 @@ related_diseases:
   - "아스피린 과민성 호흡기질환"
   - "천식"
   - "비용종"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: prevention
 difficulty: standard
 answer: D

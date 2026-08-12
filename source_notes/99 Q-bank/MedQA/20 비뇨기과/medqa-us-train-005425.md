@@ -14,6 +14,8 @@ related_diseases:
   - "융모막암종"
   - "β-hCG 분비 생식세포종양"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-qzoO2ZmCDsooXslpEgKFRlc3RpY3VsYXIgY2FuY2VyKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

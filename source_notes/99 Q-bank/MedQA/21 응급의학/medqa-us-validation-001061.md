@@ -14,6 +14,8 @@ related_diseases:
   - "수술 후 혈전"
   - "헤파린"
 question_type: management
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

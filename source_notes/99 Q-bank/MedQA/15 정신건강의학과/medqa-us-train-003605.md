@@ -15,6 +15,8 @@ related_diseases:
   - "infection-associated delirium"
   - "fluctuating attention"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yErOunnSAoRGVsaXJpdW0pLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

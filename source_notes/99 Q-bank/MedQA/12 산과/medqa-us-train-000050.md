@@ -13,6 +13,9 @@ related_diseases:
   - "incomplete abortion"
   - "spontaneous abortion"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-u2iOyZhOyghCDsnKDsgrAgKEluY29tcGxldGUgQWJvcnRpb24pLm1k
+  - MTIg7IKw6rO8L-yekOyXsCDsnKDsgrAgKFNwb250YW5lb3VzIEFib3J0aW9uKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

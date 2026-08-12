@@ -13,6 +13,9 @@ related_diseases:
   - "아밀로이드증"
   - "단백뇨"
   - "만성 염증성 장질환"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-uLqOuwseuHqC5tZA
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sl7zspp3shLEg7J6l7KeI7ZmYIChJQkQpIChJbmZsYW1tYXRvcnkgQm93ZWwgRGlzZWFzZSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: D

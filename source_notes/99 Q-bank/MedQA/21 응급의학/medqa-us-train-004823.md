@@ -13,7 +13,11 @@ related_diseases:
   - "섬망"
   - "급성 초조"
   - "저활동성·과활동성 섬망"
+  - "delirium"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDquIjri6gg7ISs66edIChBbGNvaG9sIFdpdGhkcmF3YWwgRGVsaXJpdW0pLm1k
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yErOunnSAoRGVsaXJpdW0pLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

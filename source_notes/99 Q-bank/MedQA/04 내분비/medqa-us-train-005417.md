@@ -13,6 +13,8 @@ related_diseases:
   - "비타민 B6 결핍"
   - "수용성 비타민 결핍"
   - "말초신경병증"
+  - "pyridoxine deficiency"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

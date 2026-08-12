@@ -14,6 +14,7 @@ related_diseases:
   - "다발성 늑골 골절"
   - "외상성 호흡부전"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "hormone replacement therapy"
   - "breast cancer contraindication"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

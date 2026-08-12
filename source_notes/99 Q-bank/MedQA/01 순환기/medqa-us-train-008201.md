@@ -13,6 +13,9 @@ related_diseases:
   - "hypertrophic obstructive cardiomyopathy"
   - "Valsalva maneuver"
   - "sudden cardiac death"
+  - "Hypertrophic obstructive cardiomyopathy"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-u5hO2bhOyEsSDsi6zqt7zrs5Hspp0gKEh5cGVydHJvcGhpYyBDYXJkaW9teW9wYXRoeSkubWQ
 question_type: mechanism
 difficulty: simple
 answer: B

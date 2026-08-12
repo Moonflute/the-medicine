@@ -13,6 +13,9 @@ related_diseases:
   - "간경변"
   - "식도정맥류"
   - "정맥류 출혈 예방"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_si53rj4Qg7KCV66el66WYIChFc29waGFnZWFsIFZhcmljZXMpLm1k
 question_type: prevention
 difficulty: complex
 answer: C

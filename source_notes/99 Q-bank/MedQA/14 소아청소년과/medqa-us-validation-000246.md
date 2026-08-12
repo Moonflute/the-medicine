@@ -14,6 +14,8 @@ related_diseases:
   - "혈성 점액변"
   - "공기 관장"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7J6l7KSR7LKp7KadIChJbnR1c3N1c2NlcHRpb24pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

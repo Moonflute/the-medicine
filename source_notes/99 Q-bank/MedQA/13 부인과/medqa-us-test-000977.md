@@ -14,6 +14,7 @@ related_diseases:
   - "미페프리스톤"
   - "미소프로스톨"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

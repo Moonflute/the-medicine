@@ -14,6 +14,8 @@ related_diseases:
   - "플루오로퀴놀론 관련 건병증"
   - "Achilles tendinitis"
 question_type: mechanism
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yVhO2CrOugiOyKpCDqsbTrs5Hspp0gKEFjaGlsbGVzIFRlbmRpbm9wYXRoeSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

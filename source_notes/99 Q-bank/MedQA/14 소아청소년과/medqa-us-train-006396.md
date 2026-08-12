@@ -13,7 +13,10 @@ related_diseases:
   - "총담관 낭종"
   - "폐쇄성 황달"
   - "간외 담관 확장"
+  - "choledochal cyst"
 question_type: diagnosis
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzqtIAg64Kt7KKFIChDaG9sZWRvY2hhbCBDeXN0KS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

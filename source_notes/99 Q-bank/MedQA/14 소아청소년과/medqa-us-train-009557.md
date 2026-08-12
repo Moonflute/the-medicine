@@ -14,6 +14,9 @@ related_diseases:
   - "유행성이하선염"
   - "orchitis and infertility"
 question_type: prognosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67O86rGw66asIChNdW1wcykubWQ
+  - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

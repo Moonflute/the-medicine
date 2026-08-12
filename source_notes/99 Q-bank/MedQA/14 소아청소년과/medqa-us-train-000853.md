@@ -12,6 +12,7 @@ specialty: 14 소아청소년과
 related_diseases:
   - "Lesch-Nyhan syndrome"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -11,6 +11,8 @@ language: ko
 specialty: 08 감염
 related_diseases:
   - "urinary tract infection"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JqU66GcIOqwkOyXvCAoVXJpbmFyeSBUcmFjdCBJbmZlY3Rpb24pLm1k
 question_type: prevention
 difficulty: complex
 answer: D

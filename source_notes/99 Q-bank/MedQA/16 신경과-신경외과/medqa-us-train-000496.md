@@ -15,6 +15,8 @@ related_diseases:
   - "Corticobasal degeneration"
   - "Normal pressure hydrocephalus"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_soJXsg4HslZUg7IiY65GQ7KadIChOb3JtYWwgcHJlc3N1cmUgaHlkcm9jZXBoYWx1cykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "acromegaly"
   - "growth hormone adenoma"
   - "anterior pituitary"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-unkOuLqOu5hOuMgOymnSAoQWNyb21lZ2FseSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

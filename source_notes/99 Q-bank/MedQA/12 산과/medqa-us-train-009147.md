@@ -14,6 +14,9 @@ related_diseases:
   - "산모 고혈압"
   - "small for gestational age"
 question_type: prognosis
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

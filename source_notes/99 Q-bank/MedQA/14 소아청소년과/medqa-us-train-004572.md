@@ -14,6 +14,8 @@ related_diseases:
   - "임신성 당뇨병"
   - "태아 고인슐린혈증"
 question_type: association
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

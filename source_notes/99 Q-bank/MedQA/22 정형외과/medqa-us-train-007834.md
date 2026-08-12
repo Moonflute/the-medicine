@@ -13,7 +13,9 @@ related_diseases:
   - "rotator cuff tendinopathy"
   - "shoulder impingement"
   - "NSAID treatment"
+  - "Rotator cuff tendinopathy"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

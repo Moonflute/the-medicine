@@ -13,6 +13,8 @@ related_diseases:
   - "일과성 단백뇨"
   - "기립성 단백뇨"
   - "소아 단백뇨 평가"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4sOumveyEsSDri6jrsLHrh6ggKE9ydGhvc3RhdGljIFByb3RlaW51cmlhKS5tZA
 question_type: investigation
 difficulty: standard
 answer: C

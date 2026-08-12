@@ -13,6 +13,8 @@ related_diseases:
   - "버킷 림프종"
   - "복부 종괴"
   - "MYC 재배열"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uyhO2CtyDrprztlITsooUgKEJ1cmtpdHQncyBMeW1waG9tYSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

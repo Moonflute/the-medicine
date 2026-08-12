@@ -14,6 +14,8 @@ related_diseases:
   - "chronic glucocorticoid use"
   - "hypoxemia"
   - "adjunctive corticosteroids"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k
 question_type: management
 difficulty: complex
 answer: B

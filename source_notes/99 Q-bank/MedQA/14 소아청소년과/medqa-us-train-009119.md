@@ -14,6 +14,8 @@ related_diseases:
   - "겸상적혈구병"
   - "pneumococcal vaccination"
 question_type: prevention
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 difficulty: simple
 answer: B
 translation_status: machine-verified

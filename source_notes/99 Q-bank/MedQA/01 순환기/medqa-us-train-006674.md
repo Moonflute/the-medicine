@@ -13,6 +13,8 @@ related_diseases:
   - "심인성 쇼크"
   - "급성 심부전"
   - "심장 펌프 기능장애"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrtoDsoIQgKEFjdXRlIEhlYXJ0IEZhaWx1cmUpLm1k
 question_type: mechanism
 difficulty: complex
 answer: D

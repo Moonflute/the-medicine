@@ -14,6 +14,8 @@ related_diseases:
   - "consolidation"
   - "air bronchogram"
   - "loculated pleural effusion"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yVheyEsSDtnYnsiJggKE1hbGlnbmFudCBQbGV1cmFsIEVmZnVzaW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

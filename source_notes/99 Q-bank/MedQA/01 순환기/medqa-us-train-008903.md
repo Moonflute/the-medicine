@@ -13,6 +13,8 @@ related_diseases:
   - "ACE inhibitor adverse effect"
   - "cough"
   - "hyperkalemia"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
 question_type: other
 difficulty: complex
 answer: C

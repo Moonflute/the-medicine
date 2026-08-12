@@ -13,6 +13,10 @@ related_diseases:
   - "호지킨 림프종"
   - "미세변화병"
   - "신증후군"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YuOyngO2CqCDrprztlITsooUgKEhvZGdraW4gTHltcGhvbWEpLm1k
+  - MDUg7Iug7J6lL-uvuOyEuOuzgO2ZlOuzkSAoTWluaW1hbCBDaGFuZ2UgRGlzZWFzZSkubWQ
+  - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: simple
 answer: D

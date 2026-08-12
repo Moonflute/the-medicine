@@ -13,6 +13,8 @@ related_diseases:
   - "acute myeloid leukemia"
   - "myeloperoxidase-positive granules"
   - "Auer rods"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

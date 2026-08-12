@@ -13,7 +13,9 @@ related_diseases:
   - "회전근개 건병증"
   - "견봉하 충돌"
   - "어깨 통증"
+  - "Rotator cuff tendinopathy"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

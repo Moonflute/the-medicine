@@ -12,6 +12,7 @@ specialty: 08 감염
 related_diseases:
   - "giardiasis"
   - "waterborne infection"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

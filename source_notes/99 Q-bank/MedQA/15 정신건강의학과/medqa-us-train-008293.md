@@ -14,6 +14,8 @@ related_diseases:
   - "conduct disorder"
   - "impulsivity"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2SiO2WiSDsnqXslaAgKENvbmR1Y3QgRGlzb3JkZXIpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

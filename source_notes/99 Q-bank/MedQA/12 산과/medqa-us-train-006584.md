@@ -14,6 +14,8 @@ related_diseases:
   - "조산"
   - "태아 신경보호를 위한 황산마그네슘"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yhsOq4sCDslpHrp4kg7YyM7IiYIChQcmVtYXR1cmUgUnVwdHVyZSBvZiBNZW1icmFuZXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

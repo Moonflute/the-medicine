@@ -14,6 +14,9 @@ related_diseases:
   - "microcytic anemia"
   - "low TIBC"
   - "inflammation-mediated iron sequestration"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDsp4jtmZgg67mI7ZiIIChBbmVtaWEgb2YgQ2hyb25pYyBEaXNlYXNlKS5tZA
+  - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: D

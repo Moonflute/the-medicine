@@ -13,6 +13,8 @@ related_diseases:
   - "하부 위장관 출혈"
   - "급성 혈액 손실"
   - "수혈 전 검사"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tlZjrtoAg7JyE7J6l6rSAIOy2nO2YiCAoTG93ZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: D

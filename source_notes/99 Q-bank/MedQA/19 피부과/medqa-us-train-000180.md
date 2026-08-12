@@ -12,6 +12,8 @@ specialty: 19 피부과
 related_diseases:
   - "psoriasis"
 question_type: investigation
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-qxtOyEoCAoUHNvcmlhc2lzKS5tZA
 difficulty: simple
 answer: C
 translation_status: machine-verified

@@ -14,7 +14,10 @@ related_diseases:
   - "inactivated influenza vaccine"
   - "live vaccines contraindicated in pregnancy"
   - "prenatal care"
+  - "influenza"
 question_type: prevention
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yduO2UjOujqOyXlOyekCAoSW5mbHVlbnphKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

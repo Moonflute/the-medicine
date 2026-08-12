@@ -14,6 +14,7 @@ related_diseases:
   - "atypical squamous cells of undetermined significance"
   - "HPV testing"
 question_type: investigation
+related_disease_slugs: []
 difficulty: simple
 answer: D
 translation_status: machine-verified

@@ -11,7 +11,10 @@ language: ko
 specialty: 18 안과
 related_diseases:
   - "corneal ulceration"
+  - "Bacterial keratitis"
 question_type: management
+related_disease_slugs:
+  - MTgg7JWI6rO8L-yEuOq3oOqwgeunieq2pOyWkSAoYmFjdGVyaWFsIGNvcm5lYWwgdWxjZXIpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "cesarean delivery"
   - "foul lochia"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2gSDrgrTrp4kg6rCQ7Je8IOyngOyXsCAoRGVsYXllZCBQb3N0cGFydHVtIEVuZG9tZXRyaXRpcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

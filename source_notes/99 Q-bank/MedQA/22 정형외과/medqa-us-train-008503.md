@@ -14,6 +14,8 @@ related_diseases:
   - "knee effusion"
   - "arthrocentesis"
 question_type: investigation
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "hypotension"
   - "Ringer lactate"
 question_type: management
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yCsOymnSAoQWNpZG9zaXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

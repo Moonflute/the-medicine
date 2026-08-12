@@ -14,6 +14,9 @@ related_diseases:
   - "Cytomegalovirus"
   - "Human immunodeficiency virus"
   - "Toxoplasma gondii"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yXoeyKpO2DgOyduC3rsJQg67CU7J2065-s7IqkIOqwkOyXvCAoRUJWKSAoRXBzdGVpbi1CYXJyIFZpcnVzIEluZmVjdGlvbiAoRUJWKSkubWQ
+  - MDgg6rCQ7Je8L-qxsOuMgOyEuO2PrOuwlOydtOufrOyKpCDqsJDsl7wgKENNVikgKEN5dG9tZWdhbG92aXJ1cyBJbmZlY3Rpb24gKENNVikpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

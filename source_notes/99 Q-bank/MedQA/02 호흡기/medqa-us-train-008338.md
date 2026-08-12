@@ -13,6 +13,8 @@ related_diseases:
   - "obstructive sleep apnea"
   - "obesity"
   - "daytime somnolence"
+  - "Obstructive sleep apnea"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

@@ -14,6 +14,8 @@ related_diseases:
   - "복수"
   - "CA-125"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yDge2UvOyEsSDrgpzshozslZQgKEVwaXRoZWxpYWwgT3ZhcmlhbiBDYW5jZXIpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

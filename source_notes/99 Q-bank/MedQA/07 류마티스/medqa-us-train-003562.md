@@ -14,6 +14,8 @@ related_diseases:
   - "Heberden nodes"
   - "Bouchard nodes"
   - "mechanical joint pain"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qzqOq0gOygiOyXvCAoT3N0ZW9hcnRocml0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

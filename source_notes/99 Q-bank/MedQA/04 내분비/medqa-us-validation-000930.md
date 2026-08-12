@@ -13,6 +13,8 @@ related_diseases:
   - "갈색세포종"
   - "다발성 내분비종양 2형"
   - "카테콜아민"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2BrOuhrOy5nO2ZlOyEuO2PrOyihSAoUGhlb2Nocm9tb2N5dG9tYSkubWQ
 question_type: investigation
 difficulty: complex
 answer: C

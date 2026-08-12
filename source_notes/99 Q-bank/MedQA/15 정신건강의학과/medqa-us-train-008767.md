@@ -13,7 +13,9 @@ related_diseases:
   - "premenstrual dysphoric disorder"
   - "PMDD"
   - "SSRI"
+  - "Premenstrual dysphoric disorder"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

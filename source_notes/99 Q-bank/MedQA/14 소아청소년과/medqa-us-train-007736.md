@@ -14,6 +14,8 @@ related_diseases:
   - "erythema infectiosum"
   - "slapped-cheek rash"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KCE7Je87ISxIO2ZjeuwmCAoRXJ5dGhlbWEgSW5mZWN0aW9zdW0pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "철결핍성 빈혈"
   - "자궁근종 출혈"
   - "철분 보충"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
+  - MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ
 question_type: management
 difficulty: complex
 answer: C

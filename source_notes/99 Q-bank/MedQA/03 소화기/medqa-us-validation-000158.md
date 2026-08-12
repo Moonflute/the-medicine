@@ -13,6 +13,8 @@ related_diseases:
   - "크론병"
   - "ASCA 항체"
   - "구강 궤양"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

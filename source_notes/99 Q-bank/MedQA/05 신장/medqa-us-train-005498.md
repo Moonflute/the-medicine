@@ -13,6 +13,9 @@ related_diseases:
   - "요독성 심낭염"
   - "혈액투석 누락"
   - "심낭 마찰음"
+  - "Uremic pericarditis"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: mechanism
 difficulty: complex
 answer: D

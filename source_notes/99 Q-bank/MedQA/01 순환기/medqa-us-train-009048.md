@@ -13,6 +13,9 @@ related_diseases:
   - "hypertrophic obstructive cardiomyopathy"
   - "sudden cardiac death"
   - "dynamic outflow obstruction"
+  - "Hypertrophic obstructive cardiomyopathy"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-u5hO2bhOyEsSDsi6zqt7zrs5Hspp0gKEh5cGVydHJvcGhpYyBDYXJkaW9teW9wYXRoeSkubWQ
 question_type: prognosis
 difficulty: simple
 answer: C

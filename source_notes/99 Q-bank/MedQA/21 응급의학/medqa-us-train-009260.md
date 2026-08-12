@@ -13,7 +13,9 @@ related_diseases:
   - "trauma airway emergency"
   - "외상 기도 응급"
   - "cricothyrotomy"
+  - "Airway obstruction"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

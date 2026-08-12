@@ -12,6 +12,9 @@ specialty: 08 감염
 related_diseases:
   - "Crohn disease"
   - "urethritis"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOuPhOyXvCAoVXJldGhyaXRpcykubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

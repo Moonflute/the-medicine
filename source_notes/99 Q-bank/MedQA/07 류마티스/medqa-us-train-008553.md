@@ -13,6 +13,8 @@ related_diseases:
   - "Behçet disease"
   - "oral and genital ulcers"
   - "uveitis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-uyoOyytO2KuOuzkSAoQmVow6dldCdzIERpc2Vhc2UpLm1k
 question_type: prognosis
 difficulty: standard
 answer: A

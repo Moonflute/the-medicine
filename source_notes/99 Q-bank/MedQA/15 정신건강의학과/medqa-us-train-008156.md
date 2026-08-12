@@ -13,7 +13,9 @@ related_diseases:
   - "persistent depressive disorder"
   - "dysthymia"
   - "chronic depression"
+  - "Persistent depressive disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "bowel obstruction"
   - "peritonitis or ischemia"
   - "emergency laparotomy"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtazrtojssL3snpAg6rys7J6EIChTaWdtb2lkIFZvbHZ1bHVzKS5tZA
+  - MTEg7Jm46rO8L-yepSDtj5Dsg4kgKEJvd2VsIE9ic3RydWN0aW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: B

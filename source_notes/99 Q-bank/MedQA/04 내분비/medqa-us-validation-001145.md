@@ -13,6 +13,8 @@ related_diseases:
   - "단백동화 스테로이드"
   - "여성형유방"
   - "고환 위축"
+  - "Gynecomastia"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: A

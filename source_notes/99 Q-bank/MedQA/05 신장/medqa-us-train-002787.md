@@ -14,6 +14,10 @@ related_diseases:
   - "nephrotic syndrome"
   - "subepithelial immune complex deposits"
   - "hepatitis B association"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unieyEsSDsgqzqtazssrTsi6Dsl7wgKE1lbWJyYW5vdXMgTmVwaHJvcGF0aHkpLm1k
+  - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: risk_factor
 difficulty: simple
 answer: C

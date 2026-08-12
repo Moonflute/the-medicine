@@ -14,6 +14,7 @@ related_diseases:
   - "선천성 감각신경성 난청"
   - "홍채 이색증"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

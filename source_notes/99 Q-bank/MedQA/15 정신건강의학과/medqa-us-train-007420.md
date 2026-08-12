@@ -13,7 +13,9 @@ related_diseases:
   - "지속성 우울장애"
   - "기분저하증"
   - "만성 우울"
+  - "Persistent depressive disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

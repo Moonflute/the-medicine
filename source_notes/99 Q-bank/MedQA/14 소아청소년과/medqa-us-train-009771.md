@@ -14,6 +14,7 @@ related_diseases:
   - "모계 15q11-q13 결실"
   - "유전체 각인"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

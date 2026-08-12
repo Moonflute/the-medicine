@@ -13,6 +13,8 @@ related_diseases:
   - "면역성 혈소판감소증"
   - "혈소판감소증"
   - "C형간염"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: investigation
 difficulty: standard
 answer: C

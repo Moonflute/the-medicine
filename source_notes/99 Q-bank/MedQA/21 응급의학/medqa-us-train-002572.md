@@ -15,6 +15,9 @@ related_diseases:
   - "Kehr sign"
   - "abdominal CT"
 question_type: investigation
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uRlOyDgSDrs7XrtoDsmbjsg4EgKEJsdW50IEFiZG9taW5hbCBUcmF1bWEpLm1k
+  - MTEg7Jm46rO8L-u5hOyepSDshpDsg4EgKFNwbGVuaWMgSW5qdXJ5KS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

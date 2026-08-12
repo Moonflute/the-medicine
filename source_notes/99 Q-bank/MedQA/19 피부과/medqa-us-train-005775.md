@@ -14,6 +14,7 @@ related_diseases:
   - "표피박리독소"
   - "이완성 수포"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

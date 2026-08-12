@@ -14,6 +14,8 @@ related_diseases:
   - "기관지경련"
   - "무스카린 길항제"
   - "이프라트로피움"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: management
 difficulty: complex
 answer: D

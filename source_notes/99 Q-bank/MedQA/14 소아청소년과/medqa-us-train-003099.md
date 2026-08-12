@@ -15,6 +15,8 @@ related_diseases:
   - "malnutrition"
   - "fat malabsorption"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEEg6rKw7ZWN7KadIChWaXRhbWluIEEgRGVmaWNpZW5jeSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

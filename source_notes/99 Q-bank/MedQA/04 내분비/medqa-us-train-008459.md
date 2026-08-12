@@ -13,6 +13,8 @@ related_diseases:
   - "acromegaly"
   - "growth hormone"
   - "IGF-1"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-unkOuLqOu5hOuMgOymnSAoQWNyb21lZ2FseSkubWQ
 question_type: investigation
 difficulty: standard
 answer: C

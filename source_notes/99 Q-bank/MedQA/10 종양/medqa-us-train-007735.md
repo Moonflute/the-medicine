@@ -13,6 +13,7 @@ related_diseases:
   - "copy-and-paste error"
   - "electronic health record"
   - "patient safety"
+related_disease_slugs: []
 question_type: prevention
 difficulty: standard
 answer: B

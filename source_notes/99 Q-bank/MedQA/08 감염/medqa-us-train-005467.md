@@ -13,6 +13,8 @@ related_diseases:
   - "삼첨판 심내막염"
   - "정맥주사 약물 사용"
   - "폐색전증"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 question_type: prognosis
 difficulty: complex
 answer: A

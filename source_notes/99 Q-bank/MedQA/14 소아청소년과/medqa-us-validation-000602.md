@@ -13,7 +13,9 @@ related_diseases:
   - "X연관 무감마글로불린혈증"
   - "B세포 결핍"
   - "모체 IgG 감소"
+  - "X-linked agammaglobulinemia"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

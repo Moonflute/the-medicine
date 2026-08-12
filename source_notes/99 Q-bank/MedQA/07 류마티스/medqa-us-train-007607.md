@@ -14,6 +14,9 @@ related_diseases:
   - "헬리오트로프 발진"
   - "쇼울 징후"
   - "항Jo-1 항체"
+  - "Dermatomyositis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yXvOymneyEsSDqt7zrs5Hspp0gKEluZmxhbW1hdG9yeSBNeW9wYXRoeSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

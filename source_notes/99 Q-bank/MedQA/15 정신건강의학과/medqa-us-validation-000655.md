@@ -13,7 +13,10 @@ related_diseases:
   - "분열정동장애"
   - "조증"
   - "환청"
+  - "Schizoaffective disorder"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOygleuPmeyepeyVoCAoU2NoaXpvYWZmZWN0aXZlIGRpc29yZGVyKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

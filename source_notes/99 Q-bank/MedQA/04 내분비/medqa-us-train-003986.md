@@ -14,6 +14,9 @@ related_diseases:
   - "기저 인슐린"
   - "인슐린 글라진"
   - "저혈당"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

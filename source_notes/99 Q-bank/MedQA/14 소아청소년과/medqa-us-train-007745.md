@@ -14,6 +14,8 @@ related_diseases:
   - "leptomeningeal angioma"
   - "intracranial calcification"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAvU3R1cmdlLVdlYmVyIOymne2bhOq1sCAoU3R1cmdlLVdlYmVyIFN5bmRyb21lKS5tZA
 difficulty: simple
 answer: C
 translation_status: machine-verified

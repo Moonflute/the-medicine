@@ -14,6 +14,8 @@ related_diseases:
   - "벼락두통"
   - "음성 두부 CT 후 요추천자"
 question_type: investigation
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sp4Dso7zrp4ntlZgg7Lac7ZiIIChTdWJhcmFjaG5vaWQgaGVtb3JyaGFnZSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

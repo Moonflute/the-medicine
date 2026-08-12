@@ -13,6 +13,7 @@ related_diseases:
   - "와파린과 비타민 K 상호작용"
   - "완전 채식"
   - "INR 감소"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: A

@@ -14,6 +14,7 @@ related_diseases:
   - "호흡기세포융합바이러스 감염"
   - "영아 천명"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

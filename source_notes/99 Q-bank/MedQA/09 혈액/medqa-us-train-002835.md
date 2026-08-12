@@ -14,6 +14,8 @@ related_diseases:
   - "MGUS"
   - "monoclonal protein"
   - "low clonal plasma cell burden"
+  - "Monoclonal gammopathy of undetermined significance"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

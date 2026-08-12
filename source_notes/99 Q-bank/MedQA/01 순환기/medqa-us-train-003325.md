@@ -14,6 +14,8 @@ related_diseases:
   - "Jervell and Lange-Nielsen syndrome"
   - "sensorineural deafness"
   - "torsades de pointes risk"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4tCBRVCDspp3tm4TqtbAgKExvbmcgUVQgU3luZHJvbWUpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

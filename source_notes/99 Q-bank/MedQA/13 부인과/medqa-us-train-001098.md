@@ -12,6 +12,8 @@ specialty: 13 부인과
 related_diseases:
   - "contraception"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ydkeq4ie2UvOyehOuylSAoUG9zdGNvaXRhbCBDb250cmFjZXB0aW9uKS5tZA
 difficulty: simple
 answer: D
 translation_status: machine-verified

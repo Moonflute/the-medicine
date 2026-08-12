@@ -13,7 +13,9 @@ related_diseases:
   - "폼페병"
   - "산성 말타아제 결핍"
   - "글리코겐 축적병 II형"
+  - "Pompe disease"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

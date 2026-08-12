@@ -13,7 +13,9 @@ related_diseases:
   - "수면위상 지연"
   - "불면증"
   - "수면위생"
+  - "Delayed sleep phase disorder"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

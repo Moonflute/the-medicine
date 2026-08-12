@@ -13,6 +13,9 @@ related_diseases:
   - "functional constipation"
   - "기능성 변비"
   - "anal fissure"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rs4DruYQgKENvbnN0aXBhdGlvbikubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_suZjsl7QgKEFuYWwgRmlzc3VyZSkubWQ
 question_type: management
 difficulty: standard
 answer: C

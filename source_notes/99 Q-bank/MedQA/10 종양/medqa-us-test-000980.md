@@ -13,6 +13,8 @@ related_diseases:
   - "삼출성 흉수"
   - "림프종"
   - "라이트 기준"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: C

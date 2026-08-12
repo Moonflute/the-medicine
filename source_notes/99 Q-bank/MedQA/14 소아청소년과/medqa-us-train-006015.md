@@ -14,6 +14,8 @@ related_diseases:
   - "무릎 관절 감염"
   - "활액 분석"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ZmU64aN7ISxIOq0gOygiOyXvCAoU3VwcHVyYXRpdmUgQXJ0aHJpdGlzKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,10 @@ related_diseases:
   - "위식도역류질환"
   - "천식 악화"
   - "만성 기침"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsi53rj4Qg7Jet66WYIOyniO2ZmCAoR0VSRCkgKEdhc3Ryb2Vzb3BoYWdlYWwgUmVmbHV4IERpc2Vhc2UpLm1k
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDquLDsuagubWQ
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: complex
 answer: C

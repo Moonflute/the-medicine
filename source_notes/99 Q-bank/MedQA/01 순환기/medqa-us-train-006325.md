@@ -13,6 +13,8 @@ related_diseases:
   - "인공 심장판막"
   - "감염성 심내막염 예방"
   - "치과 발치"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwgOyEsSDrj5nrp6XrpZggKFBzZXVkb2FuZXVyeXNtKS5tZA
 question_type: prevention
 difficulty: complex
 answer: A

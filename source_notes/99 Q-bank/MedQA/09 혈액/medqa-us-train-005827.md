@@ -13,6 +13,9 @@ related_diseases:
   - "심부정맥혈전증"
   - "경구피임약"
   - "단백질 S 감소"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
+  - MTMg67aA7J246rO8L-qyveq1rO2UvOyehOyVvSAoT3JhbCBDb250cmFjZXB0aXZlcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: D

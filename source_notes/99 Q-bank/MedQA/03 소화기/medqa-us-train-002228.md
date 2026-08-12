@@ -14,6 +14,8 @@ related_diseases:
   - "serotonin secretion"
   - "tricuspid regurgitation"
   - "bronchospasm"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yCvOyyqO2MkOuniSDsl63rpZggKFRyaWN1c3BpZCBSZWd1cmdpdGF0aW9uKS5tZA
 question_type: risk_factor
 difficulty: complex
 answer: C

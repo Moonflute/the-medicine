@@ -14,6 +14,8 @@ related_diseases:
   - "hypophosphatemia"
   - "anorexia nervosa"
   - "nutritional rehabilitation"
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEseyLneyaleu2gOynhOymnSAoQW5vcmV4aWEgTmVydm9zYSkubWQ
 question_type: adverse_effect
 difficulty: simple
 answer: A

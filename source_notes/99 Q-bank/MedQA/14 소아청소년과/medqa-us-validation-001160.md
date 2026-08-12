@@ -14,6 +14,8 @@ related_diseases:
   - "파라인플루엔자 바이러스"
   - "흡기성 천명"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7YGs66O5IChDcm91cCkubWQ
 difficulty: simple
 answer: A
 translation_status: machine-verified

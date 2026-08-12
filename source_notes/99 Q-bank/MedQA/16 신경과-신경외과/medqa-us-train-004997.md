@@ -13,7 +13,9 @@ related_diseases:
   - "프리드라이히 운동실조"
   - "척수소뇌성 운동실조"
   - "프라탁신 유전자"
+  - "Friedreich ataxia"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

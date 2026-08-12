@@ -13,6 +13,8 @@ related_diseases:
   - "fibroadenoma"
   - "benign breast mass"
   - "mobile rubbery breast lesion"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yErOycoOyEoOyihSAoRmlicm9hZGVub21hKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: C

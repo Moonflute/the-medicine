@@ -14,6 +14,8 @@ related_diseases:
   - "외인성 인슐린"
   - "저혈당"
 question_type: mechanism
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

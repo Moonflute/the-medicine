@@ -12,6 +12,9 @@ specialty: 08 감염
 related_diseases:
   - "HbF"
   - "HbA2"
+  - "Beta thalassemia"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yngOykke2VtCDruYjtmIggKFRoYWxhc3NlbWlhKS5tZA
 question_type: investigation
 difficulty: simple
 answer: B

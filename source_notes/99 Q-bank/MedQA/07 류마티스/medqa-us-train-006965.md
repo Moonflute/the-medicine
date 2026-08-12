@@ -14,6 +14,9 @@ related_diseases:
   - "류마티스관절염"
   - "호중구감소증"
   - "비장비대"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
+  - MDgg6rCQ7Je8L-2YuOykkeq1rOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

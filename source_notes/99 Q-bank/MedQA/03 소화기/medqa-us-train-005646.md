@@ -13,6 +13,8 @@ related_diseases:
   - "대장암"
   - "간 전이"
   - "혈변과 변비"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

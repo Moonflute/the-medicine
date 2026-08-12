@@ -15,6 +15,8 @@ related_diseases:
   - "petechiae"
   - "observation"
 question_type: management
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2KueuwnOyEsSDtmIjshoztjJDqsJDshozshLEg7J6Q67CY7KadIChJZGlvcGF0aGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgSVRQKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

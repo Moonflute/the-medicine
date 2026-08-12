@@ -13,6 +13,7 @@ related_diseases:
   - "thoracic aortic aneurysm"
   - "mediastinal widening"
   - "chest CT"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: B

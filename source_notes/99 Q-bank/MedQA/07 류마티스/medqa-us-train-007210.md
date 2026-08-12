@@ -14,6 +14,9 @@ related_diseases:
   - "베이커 낭종"
   - "오금오목 종괴"
   - "염증성 관절염"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

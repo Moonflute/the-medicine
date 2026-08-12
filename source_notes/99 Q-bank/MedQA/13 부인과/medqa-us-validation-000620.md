@@ -14,6 +14,8 @@ related_diseases:
   - "침윤성 자궁경부암"
   - "변형 근치적 자궁절제술"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

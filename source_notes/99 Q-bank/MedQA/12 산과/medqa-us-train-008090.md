@@ -14,6 +14,10 @@ related_diseases:
   - "chorioamnionitis"
   - "induction of labor"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yhsOq4sCDslpHrp4kg7YyM7IiYIChQcmVtYXR1cmUgUnVwdHVyZSBvZiBNZW1icmFuZXMpLm1k
+  - MTIg7IKw6rO8L-ycteuqqCDslpHrp4nsl7wgKENob3Jpb2Ftbmlvbml0aXMpLm1k
+  - MTIg7IKw6rO8L-ycoOuPhCDrtoTrp4wgKEluZHVjdGlvbiBvZiBMYWJvcikubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

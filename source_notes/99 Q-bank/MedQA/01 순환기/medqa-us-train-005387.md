@@ -13,6 +13,8 @@ related_diseases:
   - "중증 대동맥판막 협착"
   - "대장 혈관이형성증"
   - "Heyde 증후군"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
 question_type: association
 difficulty: complex
 answer: C

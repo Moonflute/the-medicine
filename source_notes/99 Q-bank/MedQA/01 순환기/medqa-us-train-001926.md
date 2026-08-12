@@ -13,6 +13,8 @@ related_diseases:
   - "ST-elevation myocardial infarction"
   - "inferior STEMI"
   - "percutaneous coronary intervention"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL1NU67aE7KCIIOyDgeyKuSDsi6zqt7zqsr3sg4nspp0gKFNURU1JKSAoU1QtRWxldmF0aW9uIE15b2NhcmRpYWwgSW5mYXJjdGlvbikubWQ
 question_type: management
 difficulty: standard
 answer: D

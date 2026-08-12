@@ -13,6 +13,8 @@ related_diseases:
   - "폐성심"
   - "폐고혈압"
   - "우심부전"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOqzoO2YiOyVlSAoUHVsbW9uYXJ5IEh5cGVydGVuc2lvbikubWQ
 question_type: investigation
 difficulty: complex
 answer: A

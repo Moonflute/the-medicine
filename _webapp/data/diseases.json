@@ -7685,6 +7685,72 @@
     }
   },
   {
+    "id": "02 Diseases/02 호흡기/낭성섬유증 (Cystic Fibrosis).md",
+    "slug": "MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA",
+    "title": "낭성섬유증 (Cystic Fibrosis)",
+    "sourcePath": "source_notes/02 Diseases/02 호흡기/낭성섬유증 (Cystic Fibrosis).md",
+    "specialty": "02 호흡기",
+    "category": "호흡기",
+    "classification": [
+      "기관지 확장증"
+    ],
+    "relatedSpecialties": [
+      "소아청소년과",
+      "소화기"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "cystic fibrosis",
+      "CF"
+    ],
+    "chiefComplaints": [
+      "만성 기침",
+      "호흡곤란",
+      "체중감소/식욕부진"
+    ],
+    "definition": "",
+    "overview": [
+      "• CFTR 이상으로 끈적한 분비물이 생겨 만성 기도감염·기관지확장증과 췌장 외분비 기능저하를 일으키는 유전질환이다.",
+      "• 반복성 하기도 감염, 지속 기침, 기관지확장증, 성장부진·지방변의 조합에서 의심한다.",
+      "• 신생아 장폐색 병력이나 가족력도 중요한 단서다.",
+      "• 기도 청결, 감염 치료, 영양 및 췌장효소 보충을 다학제적으로 시행하며 유전자형에 따라 CFTR 조절제를 고려한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• CFTR 이상으로 끈적한 분비물이 생겨 만성 기도감염·기관지확장증과 췌장 외분비 기능저하를 일으키는 유전질환이다."
+        ]
+      },
+      {
+        "title": "임상 단서",
+        "content": [
+          "• 반복성 하기도 감염, 지속 기침, 기관지확장증, 성장부진·지방변의 조합에서 의심한다.",
+          "• 신생아 장폐색 병력이나 가족력도 중요한 단서다."
+        ]
+      },
+      {
+        "title": "관리",
+        "content": [
+          "• 기도 청결, 감염 치료, 영양 및 췌장효소 보충을 다학제적으로 시행하며 유전자형에 따라 CFTR 조절제를 고려한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T07:39:23.105Z",
+    "clinicalPriority": "tier_2",
+    "contentMeta": {
+      "contentUpdatedAt": "2026-08-12",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "CDC: About Cystic Fibrosis",
+          "url": "https://www.cdc.gov/cystic-fibrosis/about/index.html"
+        }
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/02 호흡기/단일 폐결절 (SPN) (Solitary Pulmonary Nodule).md",
     "slug": "MDIg7Zi47Z2h6riwL-uLqOydvCDtj5DqsrDsoIggKFNQTikgKFNvbGl0YXJ5IFB1bG1vbmFyeSBOb2R1bGUpLm1k",
     "title": "단일 폐결절 (SPN) (Solitary Pulmonary Nodule)",
@@ -22276,6 +22342,73 @@
     }
   },
   {
+    "id": "02 Diseases/03 소화기/위장관/셀리악병 (Celiac Disease).md",
+    "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA",
+    "title": "셀리악병 (Celiac Disease)",
+    "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/셀리악병 (Celiac Disease).md",
+    "specialty": "03 소화기",
+    "category": "소화기",
+    "classification": [
+      "흡수장애"
+    ],
+    "relatedSpecialties": [
+      "소아청소년과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "celiac disease",
+      "coeliac disease",
+      "celiac sprue"
+    ],
+    "chiefComplaints": [
+      "설사",
+      "복부 팽만",
+      "체중감소/식욕부진",
+      "빈혈"
+    ],
+    "definition": "",
+    "overview": [
+      "• 만성 설사·지방변·체중감소뿐 아니라 원인 불명의 철결핍 빈혈, 골감소증, 피부포진양피부염에서도 고려한다.",
+      "• 평생의 엄격한 글루텐 회피와 영양 결핍 교정이 기본이며, 증상 지속 시 식이 순응도와 다른 흡수장애 원인을 재평가한다.",
+      "• 글루텐에 대한 면역 반응으로 소장 점막 손상과 흡수장애를 일으키는 질환이다.",
+      "• 글루텐을 섭취 중인 상태에서 혈청 항체검사로 선별하고, 필요 시 십이지장 생검으로 확인한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 글루텐에 대한 면역 반응으로 소장 점막 손상과 흡수장애를 일으키는 질환이다."
+        ]
+      },
+      {
+        "title": "의심과 진단",
+        "content": [
+          "• 만성 설사·지방변·체중감소뿐 아니라 원인 불명의 철결핍 빈혈, 골감소증, 피부포진양피부염에서도 고려한다.",
+          "• 글루텐을 섭취 중인 상태에서 혈청 항체검사로 선별하고, 필요 시 십이지장 생검으로 확인한다."
+        ]
+      },
+      {
+        "title": "치료",
+        "content": [
+          "• 평생의 엄격한 글루텐 회피와 영양 결핍 교정이 기본이며, 증상 지속 시 식이 순응도와 다른 흡수장애 원인을 재평가한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T07:39:20.661Z",
+    "clinicalPriority": "tier_2",
+    "contentMeta": {
+      "contentUpdatedAt": "2026-08-12",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MSD Manual Professional: Celiac Disease",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/malabsorption-syndromes/celiac-disease"
+        }
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/03 소화기/위장관/소장 폐쇄 (Small Bowel Obstruction).md",
     "slug": "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shozsnqUg7Y-Q7IeEIChTbWFsbCBCb3dlbCBPYnN0cnVjdGlvbikubWQ",
     "title": "소장 폐쇄 (Small Bowel Obstruction)",
@@ -26215,6 +26348,7 @@
           "| --- | --- | --- |",
           "| 지방 흡수 장애 | 기름진 변과 지용성 비타민 결핍이 중심인 표현형 | [[지방변 (Steatorrhea)]] |",
           "| 세균 과다증식 | 해부학적 정체·운동장애와 복부팽만·영양 결핍 | [[세균 과다증식 증후군 (Small Intestinal Bacterial Overgrowth Syndrome)]] |",
+          "| 셀리악병 | 글루텐 관련 소장 점막 손상과 철결핍·지방변 | [[셀리악병 (Celiac Disease)]] |",
           "| 장 절제 후 | 절제 길이·부위와 수분·영양 흡수 저하 | [[짧은창자 증후군 (Short Bowel Syndrome)]] |"
         ]
       },
@@ -26228,17 +26362,19 @@
         "title": "포함 질환",
         "content": [
           "• [[세균 과다증식 증후군 (Small Intestinal Bacterial Overgrowth Syndrome)]]",
+          "• [[셀리악병 (Celiac Disease)]]",
           "• [[지방변 (Steatorrhea)]]",
           "• [[짧은창자 증후군 (Short Bowel Syndrome)]]"
         ]
       }
     ],
-    "updatedAt": "2026-08-10T16:06:26.056Z",
+    "updatedAt": "2026-08-12T07:40:14.352Z",
     "clinicalPriority": "",
     "documentRole": "group_overview",
     "groupOverview": {
       "memberTitles": [
         "세균 과다증식 증후군 (Small Intestinal Bacterial Overgrowth Syndrome)",
+        "셀리악병 (Celiac Disease)",
         "지방변 (Steatorrhea)",
         "짧은창자 증후군 (Short Bowel Syndrome)"
       ]
@@ -50826,6 +50962,75 @@
     }
   },
   {
+    "id": "02 Diseases/09 혈액/겸상적혈구병 (Sickle Cell Disease).md",
+    "slug": "MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ",
+    "title": "겸상적혈구병 (Sickle Cell Disease)",
+    "sourcePath": "source_notes/02 Diseases/09 혈액/겸상적혈구병 (Sickle Cell Disease).md",
+    "specialty": "09 혈액",
+    "category": "혈액내과",
+    "classification": [
+      "적혈구 질환",
+      "빈혈"
+    ],
+    "relatedSpecialties": [
+      "소아청소년과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "sickle cell disease",
+      "sickle-cell disease",
+      "sickle cell anemia",
+      "sickle cell disease (SCD)"
+    ],
+    "chiefComplaints": [
+      "통증",
+      "발열",
+      "호흡곤란",
+      "황달"
+    ],
+    "definition": "",
+    "overview": [
+      "• 말초혈액검사와 헤모글로빈 분석으로 확인하며, 예방접종·감염 예방·통증 및 장기 합병증 관리가 장기 치료의 핵심이다.",
+      "• 비정상 헤모글로빈 S로 적혈구가 겸상화되어 만성 용혈과 간헐적 혈관폐쇄를 일으키는 유전성 빈혈이다.",
+      "• 통증 위기, 급성 흉부 증후군, 발열, 빈혈 악화, 신경학적 증상은 각각 감염·저산소증·장기허혈 여부를 신속히 평가한다.",
+      "• 급성 흉통·호흡곤란·저산소혈증은 급성 흉부 증후군을 우선 의심한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 비정상 헤모글로빈 S로 적혈구가 겸상화되어 만성 용혈과 간헐적 혈관폐쇄를 일으키는 유전성 빈혈이다."
+        ]
+      },
+      {
+        "title": "임상 접근",
+        "content": [
+          "• 통증 위기, 급성 흉부 증후군, 발열, 빈혈 악화, 신경학적 증상은 각각 감염·저산소증·장기허혈 여부를 신속히 평가한다.",
+          "• 급성 흉통·호흡곤란·저산소혈증은 급성 흉부 증후군을 우선 의심한다."
+        ]
+      },
+      {
+        "title": "진단과 관리",
+        "content": [
+          "• 말초혈액검사와 헤모글로빈 분석으로 확인하며, 예방접종·감염 예방·통증 및 장기 합병증 관리가 장기 치료의 핵심이다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T07:39:15.733Z",
+    "clinicalPriority": "tier_2",
+    "contentMeta": {
+      "contentUpdatedAt": "2026-08-12",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "CDC: About Sickle Cell Disease",
+          "url": "https://www.cdc.gov/sickle-cell/about/index.html"
+        }
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/09 혈액/골수형성이상 증후군 (Myelodysplastic Syndrome, MDS).md",
     "slug": "MDkg7ZiI7JWhL-qzqOyImO2YleyEseydtOyDgSDspp3tm4TqtbAgKE15ZWxvZHlzcGxhc3RpYyBTeW5kcm9tZSwgTURTKS5tZA",
     "title": "골수형성이상 증후군 (Myelodysplastic Syndrome, MDS)",
@@ -53120,7 +53325,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T17:24:00.511Z",
+    "updatedAt": "2026-08-12T07:40:11.900Z",
     "clinicalPriority": "tier_3",
     "documentRole": "group_overview",
     "groupOverview": {
@@ -53130,6 +53335,7 @@
         "거대적혈모구 빈혈 (Megaloblastic Anemia)",
         "악성 빈혈 (Pernicious Anemia)",
         "용혈성 빈혈 (Hemolytic Anemia)",
+        "겸상적혈구병 (Sickle Cell Disease)",
         "재생불량성 빈혈 (AA) (Aplastic Anemia (AA))",
         "지중해 빈혈 (Thalassemia)"
       ]
@@ -88932,6 +89138,73 @@
     }
   },
   {
+    "id": "02 Diseases/14 소아청소년과/소아과 총론/태아알코올증후군 (Fetal Alcohol Syndrome).md",
+    "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YOc7JWE7JWM7L2U7Jis7Kad7ZuE6rWwIChGZXRhbCBBbGNvaG9sIFN5bmRyb21lKS5tZA",
+    "title": "태아알코올증후군 (Fetal Alcohol Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/태아알코올증후군 (Fetal Alcohol Syndrome).md",
+    "specialty": "14 소아청소년과",
+    "category": "소아청소년과",
+    "classification": [
+      "소아과 총론",
+      "선천성·발달 이상"
+    ],
+    "relatedSpecialties": [
+      "산부인과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "fetal alcohol syndrome",
+      "fetal alcohol spectrum disorder",
+      "FAS",
+      "FASD"
+    ],
+    "chiefComplaints": [
+      "발달지연",
+      "학습장애"
+    ],
+    "definition": "",
+    "overview": [
+      "• 임신 중 알코올 노출로 인한 태아알코올스펙트럼장애의 한 형태로, 성장장애·특징적 안면 소견·중추신경계 발달 이상이 동반될 수 있다.",
+      "• 산전 알코올 노출력, 성장과 신경발달, 학습·행동 문제를 종합해 평가하며 다른 유전·발달질환도 감별한다.",
+      "• 임신 중 알려진 안전한 음주량이나 시기는 없으므로 금주가 원칙이다.",
+      "• 조기 발달중재, 교육·행동 지원, 가족 지원을 연결한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 임신 중 알코올 노출로 인한 태아알코올스펙트럼장애의 한 형태로, 성장장애·특징적 안면 소견·중추신경계 발달 이상이 동반될 수 있다."
+        ]
+      },
+      {
+        "title": "평가",
+        "content": [
+          "• 산전 알코올 노출력, 성장과 신경발달, 학습·행동 문제를 종합해 평가하며 다른 유전·발달질환도 감별한다."
+        ]
+      },
+      {
+        "title": "예방과 지원",
+        "content": [
+          "• 임신 중 알려진 안전한 음주량이나 시기는 없으므로 금주가 원칙이다.",
+          "• 조기 발달중재, 교육·행동 지원, 가족 지원을 연결한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T07:40:07.120Z",
+    "clinicalPriority": "tier_2",
+    "contentMeta": {
+      "contentUpdatedAt": "2026-08-12",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "CDC: About Fetal Alcohol Spectrum Disorders",
+          "url": "https://www.cdc.gov/fasd/about/index.html"
+        }
+      ]
+    }
+  },
+  {
     "id": "02 Diseases/14 소아청소년과/소아과 총론/터너 증후군 (Turner Syndrome).md",
     "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YSw64SIIOymne2bhOq1sCAoVHVybmVyIFN5bmRyb21lKS5tZA",
     "title": "터너 증후군 (Turner Syndrome)",
@@ -93788,6 +94061,73 @@
       "contentUpdatedAt": "2026-07-30",
       "guidelineYear": "",
       "sources": []
+    }
+  },
+  {
+    "id": "02 Diseases/15 정신건강의학과/신경이완제 악성 증후군 (Neuroleptic Malignant Syndrome).md",
+    "slug": "MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveydtOyZhOygnCDslYXshLEg7Kad7ZuE6rWwIChOZXVyb2xlcHRpYyBNYWxpZ25hbnQgU3luZHJvbWUpLm1k",
+    "title": "신경이완제 악성 증후군 (Neuroleptic Malignant Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/신경이완제 악성 증후군 (Neuroleptic Malignant Syndrome).md",
+    "specialty": "15 정신건강의학과",
+    "category": "정신건강의학과",
+    "classification": [
+      "정신과 총론",
+      "정신과적 치료"
+    ],
+    "relatedSpecialties": [
+      "응급의학과",
+      "신경과-신경외과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "neuroleptic malignant syndrome",
+      "NMS"
+    ],
+    "chiefComplaints": [
+      "발열",
+      "의식저하",
+      "근육 강직"
+    ],
+    "definition": "",
+    "overview": [
+      "• 도파민 차단 약물 사용 뒤 발생할 수 있는 드문 응급 독성 반응으로, 고열·심한 근육 강직·정신상태 변화·자율신경 불안정이 핵심이다.",
+      "• 원인 약물을 중단하고 입원하여 냉각, 수액, 활력징후·신기능·크레아틴키나아제(CK)를 포함한 지지 치료를 시행한다.",
+      "• 세로토닌 증후군, 악성 고열, 중증 감염과 감별하되 치료를 지연하지 않는다.",
+      "• 반사항진·간대성 경련이 두드러지면 세로토닌 증후군을 더 시사하며, NMS는 균일한 강직과 서서히 진행하는 양상이 흔하다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 도파민 차단 약물 사용 뒤 발생할 수 있는 드문 응급 독성 반응으로, 고열·심한 근육 강직·정신상태 변화·자율신경 불안정이 핵심이다."
+        ]
+      },
+      {
+        "title": "즉시 할 일",
+        "content": [
+          "• 원인 약물을 중단하고 입원하여 냉각, 수액, 활력징후·신기능·크레아틴키나아제(CK)를 포함한 지지 치료를 시행한다.",
+          "• 세로토닌 증후군, 악성 고열, 중증 감염과 감별하되 치료를 지연하지 않는다."
+        ]
+      },
+      {
+        "title": "핵심 감별",
+        "content": [
+          "• 반사항진·간대성 경련이 두드러지면 세로토닌 증후군을 더 시사하며, NMS는 균일한 강직과 서서히 진행하는 양상이 흔하다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T07:39:18.263Z",
+    "clinicalPriority": "tier_1",
+    "contentMeta": {
+      "contentUpdatedAt": "2026-08-12",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MSD Manual Professional: Neuroleptic Malignant Syndrome",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/heat-illness/neuroleptic-malignant-syndrome"
+        }
+      ]
     }
   },
   {
@@ -103242,13 +103582,14 @@
         ]
       }
     ],
-    "updatedAt": "2026-08-10T18:14:56.600Z",
+    "updatedAt": "2026-08-12T07:40:09.519Z",
     "clinicalPriority": "",
     "documentRole": "group_overview",
     "groupOverview": {
       "memberTitles": [
         "파킨슨 증후군 (Parkinsonism)",
         "파킨슨 플러스 증후군 (Parkinson-plus syndrome)",
+        "헌팅턴병 (Huntington Disease)",
         "본태성 떨림 (Essential tremor)",
         "서경 (Writer's cramp)"
       ]
@@ -104871,6 +105212,72 @@
       "relationToParent": "",
       "population": "adult",
       "canonicalDisease": ""
+    }
+  },
+  {
+    "id": "02 Diseases/16 신경과-신경외과/헌팅턴병 (Huntington Disease).md",
+    "slug": "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4ztjIXthLTrs5EgKEh1bnRpbmd0b24gRGlzZWFzZSkubWQ",
+    "title": "헌팅턴병 (Huntington Disease)",
+    "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/헌팅턴병 (Huntington Disease).md",
+    "specialty": "16 신경과-신경외과",
+    "category": "신경과-신경외과",
+    "classification": [
+      "이상운동질환"
+    ],
+    "relatedSpecialties": [
+      "정신건강의학과"
+    ],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "huntington disease",
+      "huntington's disease",
+      "HD"
+    ],
+    "chiefComplaints": [
+      "이상 운동",
+      "인지저하",
+      "우울감"
+    ],
+    "definition": "",
+    "overview": [
+      "• 가족력과 진행성 불수의운동·성격 변화·집행기능 저하의 조합이 단서다.",
+      "• 상염색체 우성으로 유전되는 진행성 신경퇴행질환으로 무도증, 정신행동 변화, 인지저하가 함께 진행한다.",
+      "• 유전 상담을 전제로 유전자검사를 시행하며, 가족에게 미치는 영향을 함께 논의한다.",
+      "• 근본적 진행 억제 치료는 없으므로 무도증·정신증상·우울·영양과 안전 문제를 다학제적으로 조절하고 돌봄 계획을 일찍 세운다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 상염색체 우성으로 유전되는 진행성 신경퇴행질환으로 무도증, 정신행동 변화, 인지저하가 함께 진행한다."
+        ]
+      },
+      {
+        "title": "의심과 진단",
+        "content": [
+          "• 가족력과 진행성 불수의운동·성격 변화·집행기능 저하의 조합이 단서다.",
+          "• 유전 상담을 전제로 유전자검사를 시행하며, 가족에게 미치는 영향을 함께 논의한다."
+        ]
+      },
+      {
+        "title": "관리",
+        "content": [
+          "• 근본적 진행 억제 치료는 없으므로 무도증·정신증상·우울·영양과 안전 문제를 다학제적으로 조절하고 돌봄 계획을 일찍 세운다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T07:40:04.705Z",
+    "clinicalPriority": "tier_2",
+    "contentMeta": {
+      "contentUpdatedAt": "2026-08-12",
+      "guidelineYear": "",
+      "sources": [
+        {
+          "label": "MSD Manual Professional: Huntington Disease",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/huntington-disease"
+        }
+      ]
     }
   },
   {
@@ -120173,6 +120580,63 @@
     "clinicalPriority": "tier_3",
     "contentMeta": {
       "contentUpdatedAt": "2026-07-30",
+      "guidelineYear": "",
+      "sources": []
+    }
+  },
+  {
+    "id": "02 Diseases/22 정형외과/슬개대퇴 통증 증후군 (Patellofemoral Pain Syndrome).md",
+    "slug": "MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA",
+    "title": "슬개대퇴 통증 증후군 (Patellofemoral Pain Syndrome)",
+    "sourcePath": "source_notes/02 Diseases/22 정형외과/슬개대퇴 통증 증후군 (Patellofemoral Pain Syndrome).md",
+    "specialty": "22 정형외과",
+    "category": "정형외과",
+    "classification": [
+      "Knee"
+    ],
+    "relatedSpecialties": [],
+    "emergencyClassification": [],
+    "oncologyClassification": [],
+    "aliases": [
+      "patellofemoral pain syndrome",
+      "patellofemoral syndrome",
+      "runner's knee"
+    ],
+    "chiefComplaints": [
+      "무릎 통증"
+    ],
+    "definition": "",
+    "overview": [
+      "• 슬개골과 대퇴골 사이에서 발생하는 앞무릎 통증 증후군으로, 달리기·계단·쪼그려 앉기처럼 슬개대퇴 관절 부하가 커질 때 악화된다.",
+      "• 활동 관련 전방 무릎 통증과 슬개골 압박·반복 굴곡 시 통증을 확인한다.",
+      "• 관절 삼출, 잠김, 급성 외상, 발열은 다른 구조적·염증성 원인을 우선 평가하는 단서다.",
+      "• 활동 조절, 대퇴사두근·고관절 외전근 강화, 유연성 및 움직임 교정이 기본이며, 지속되거나 경고 소견이 있으면 다른 무릎 질환을 재평가한다."
+    ],
+    "sections": [
+      {
+        "title": "개요",
+        "content": [
+          "• 슬개골과 대퇴골 사이에서 발생하는 앞무릎 통증 증후군으로, 달리기·계단·쪼그려 앉기처럼 슬개대퇴 관절 부하가 커질 때 악화된다."
+        ]
+      },
+      {
+        "title": "평가",
+        "content": [
+          "• 활동 관련 전방 무릎 통증과 슬개골 압박·반복 굴곡 시 통증을 확인한다.",
+          "• 관절 삼출, 잠김, 급성 외상, 발열은 다른 구조적·염증성 원인을 우선 평가하는 단서다."
+        ]
+      },
+      {
+        "title": "관리",
+        "content": [
+          "• 활동 조절, 대퇴사두근·고관절 외전근 강화, 유연성 및 움직임 교정이 기본이며, 지속되거나 경고 소견이 있으면 다른 무릎 질환을 재평가한다."
+        ]
+      }
+    ],
+    "updatedAt": "2026-08-12T07:40:02.303Z",
+    "clinicalPriority": "tier_3",
+    "contentMeta": {
+      "contentUpdatedAt": "2026-08-12",
       "guidelineYear": "",
       "sources": []
     }

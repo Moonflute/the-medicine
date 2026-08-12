@@ -14,6 +14,8 @@ related_diseases:
   - "면역저하 소아"
   - "아시클로버"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IiY65GQIChWYXJpY2VsbGEpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "배란통"
   - "중간통"
   - "기능성 난소 통증"
+  - "Mittelschmerz"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

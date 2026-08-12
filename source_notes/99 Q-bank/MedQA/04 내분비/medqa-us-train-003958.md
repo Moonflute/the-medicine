@@ -14,6 +14,10 @@ related_diseases:
   - "부신 위기"
   - "고칼륨혈증"
   - "저나트륨혈증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-u2gOyLoCDquLDriqXsoIDtlZjspp0gKEFkcmVuYWwgSW5zdWZmaWNpZW5jeSkubWQ
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: C

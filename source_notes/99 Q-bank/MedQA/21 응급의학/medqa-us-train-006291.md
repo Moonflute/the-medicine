@@ -13,7 +13,10 @@ related_diseases:
   - "급성 뇌졸중"
   - "의식 저하"
   - "체인-스토크스 호흡"
+  - "Ischemic stroke"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

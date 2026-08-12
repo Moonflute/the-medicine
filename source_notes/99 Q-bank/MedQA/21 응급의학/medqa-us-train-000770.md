@@ -14,6 +14,9 @@ related_diseases:
   - "sepsis"
   - "hypotension"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Y-Q66C0IChQbmV1bW9uaWEpLm1k
+  - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

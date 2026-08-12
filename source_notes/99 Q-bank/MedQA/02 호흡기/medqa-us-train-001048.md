@@ -12,6 +12,8 @@ specialty: 02 호흡기
 related_diseases:
   - "chronic obstructive pulmonary disease"
   - "respiratory acidosis"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

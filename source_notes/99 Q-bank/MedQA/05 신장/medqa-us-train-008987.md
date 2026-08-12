@@ -13,6 +13,8 @@ related_diseases:
   - "prerenal acute kidney injury"
   - "volume depletion"
   - "fractional excretion of sodium"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-y9qe2MpeyghCDquInshLEg7L2p7YylIOyGkOyDgSAoUHJlcmVuYWwgQWN1dGUgS2lkbmV5IEluanVyeSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

@@ -13,6 +13,7 @@ related_diseases:
   - "chronic venous insufficiency"
   - "venous stasis ulcer"
   - "post-thrombotic syndrome"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: simple
 answer: C

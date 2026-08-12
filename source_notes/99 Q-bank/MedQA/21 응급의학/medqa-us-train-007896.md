@@ -14,6 +14,8 @@ related_diseases:
   - "epistaxis"
   - "mydriasis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-u5hOy2nO2YiCAoRXBpc3RheGlzKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

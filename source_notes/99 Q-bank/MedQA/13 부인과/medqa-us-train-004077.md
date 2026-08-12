@@ -14,6 +14,7 @@ related_diseases:
   - "임신 감별"
   - "성매개감염"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

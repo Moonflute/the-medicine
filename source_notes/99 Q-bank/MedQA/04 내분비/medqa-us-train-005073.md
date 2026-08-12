@@ -13,6 +13,8 @@ related_diseases:
   - "쿠싱병"
   - "ACTH 분비 뇌하수체 선종"
   - "경접형동 수술"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-y_oOyLseuzkSAoQ3VzaGluZydzIERpc2Vhc2UpLm1k
 question_type: management
 difficulty: complex
 answer: D

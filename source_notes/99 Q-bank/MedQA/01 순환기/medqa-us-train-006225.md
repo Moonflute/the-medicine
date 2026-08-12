@@ -13,6 +13,8 @@ related_diseases:
   - "말초동맥질환"
   - "간헐적 파행"
   - "클로피도그렐"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uPmeunpeqyve2ZlOyEsSDrp4zshLEg64-Z66elIO2PkOyDiSAoQXRoZXJvc2NsZXJvdGljIENocm9uaWMgQXJ0ZXJpYWwgT2NjbHVzaW9uKS5tZA
 question_type: prevention
 difficulty: complex
 answer: B

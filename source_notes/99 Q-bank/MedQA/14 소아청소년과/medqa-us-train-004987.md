@@ -14,6 +14,7 @@ related_diseases:
   - "장벽 내 가스"
   - "미숙아 장질환"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

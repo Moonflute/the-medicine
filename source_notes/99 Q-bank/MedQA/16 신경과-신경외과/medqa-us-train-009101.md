@@ -14,6 +14,8 @@ related_diseases:
   - "acute vestibular syndrome"
   - "horizontal nystagmus"
 question_type: diagnosis
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-yghOygleyLoOqyveyXvCAoVmVzdGlidWxhciBuZXVyaXRpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

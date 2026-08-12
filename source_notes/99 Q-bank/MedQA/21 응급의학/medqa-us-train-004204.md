@@ -14,6 +14,8 @@ related_diseases:
   - "관통성 흉부 외상"
   - "침 흉강절개술"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4tOyepeyEsSDquLDtnYkgKFRlbnNpb24gUG5ldW1vdGhvcmF4KS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

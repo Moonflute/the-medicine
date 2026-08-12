@@ -13,6 +13,8 @@ related_diseases:
   - "niacin deficiency"
   - "나이아신 결핍"
   - "pellagra"
+  - "Niacin deficiency"
+related_disease_slugs: []
 question_type: prognosis
 difficulty: complex
 answer: D

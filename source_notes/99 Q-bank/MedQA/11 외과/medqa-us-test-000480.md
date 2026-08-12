@@ -13,6 +13,8 @@ related_diseases:
   - "급성 사지 허혈"
   - "동맥 색전"
   - "급성 동맥 폐색"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDrj5nrp6Ug7Y-Q7IOJIChBY3V0ZSBBcnRlcmlhbCBPY2NsdXNpb24pLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

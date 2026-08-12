@@ -14,6 +14,8 @@ related_diseases:
   - "중족골 피로골절"
   - "보존적 치료"
 question_type: management
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-qzqOygiCDstJ3roaAgKEZyYWN0dXJlIEdlbmVyYWwgUHJpbmNpcGxlcykubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

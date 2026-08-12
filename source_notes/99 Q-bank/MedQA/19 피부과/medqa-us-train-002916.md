@@ -15,6 +15,8 @@ related_diseases:
   - "HIV-associated psoriasis"
   - "scaly plaques"
 question_type: mechanism
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-qxtOyEoCAoUHNvcmlhc2lzKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

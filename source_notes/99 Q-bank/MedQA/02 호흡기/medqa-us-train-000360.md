@@ -11,6 +11,8 @@ language: ko
 specialty: 02 호흡기
 related_diseases:
   - "small cell lung cancer"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
 question_type: management
 difficulty: standard
 answer: B

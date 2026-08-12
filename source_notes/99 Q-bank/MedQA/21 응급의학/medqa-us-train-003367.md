@@ -15,6 +15,7 @@ related_diseases:
   - "physical abuse"
   - "mandatory reporting"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

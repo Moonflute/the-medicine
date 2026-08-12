@@ -15,6 +15,9 @@ related_diseases:
   - "중증 고혈압"
   - "급성 호흡곤란"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA
+  - MTIg7IKw6rO8L-ykkeymnSDsoITsnpDqsITspp0gKFNldmVyZSBQcmUtZWNsYW1wc2lhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

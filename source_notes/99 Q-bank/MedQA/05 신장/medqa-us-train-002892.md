@@ -14,6 +14,9 @@ related_diseases:
   - "dehydration"
   - "volume depletion"
   - "elevated BUN-to-creatinine ratio"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-y9qe2MpeyghCDquInshLEg7L2p7YylIOyGkOyDgSAoUHJlcmVuYWwgQWN1dGUgS2lkbmV5IEluanVyeSkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug7IOd7JWEIOydvOyLnOyXtCAoTmVvbmF0YWwgVHJhbnNpZW50IEZldmVyKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

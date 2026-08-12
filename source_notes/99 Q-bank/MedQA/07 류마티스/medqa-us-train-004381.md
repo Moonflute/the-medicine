@@ -13,6 +13,8 @@ related_diseases:
   - "손 골관절염"
   - "원위지간관절 골관절염"
   - "골관절염"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qzqOq0gOygiOyXvCAoT3N0ZW9hcnRocml0aXMpLm1k
 question_type: management
 difficulty: standard
 answer: A

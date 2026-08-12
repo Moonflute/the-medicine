@@ -15,6 +15,8 @@ related_diseases:
   - "ultrasound first-line imaging"
   - "appendiceal inflammation"
 question_type: investigation
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_quInshLEg7Lap7IiY7Je8IChBY3V0ZSBBcHBlbmRpY2l0aXMpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

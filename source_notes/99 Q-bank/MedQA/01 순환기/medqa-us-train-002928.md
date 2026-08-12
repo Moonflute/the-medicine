@@ -14,6 +14,9 @@ related_diseases:
   - "aortoiliac occlusive disease"
   - "intermittent claudication"
   - "ankle-brachial index"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uPmeunpeqyve2ZlOyEsSDrp4zshLEg64-Z66elIO2PkOyDiSAoQXRoZXJvc2NsZXJvdGljIENocm9uaWMgQXJ0ZXJpYWwgT2NjbHVzaW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpS3sl4nrjanrj5nrp6Ug7Y-Q7IOJIChBb3J0b2lsaWFjIE9jY2x1c2lvbikubWQ
 question_type: investigation
 difficulty: complex
 answer: C

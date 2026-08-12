@@ -13,6 +13,9 @@ related_diseases:
   - "고혈압"
   - "고지혈증"
   - "심혈관질환 위험도"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: A

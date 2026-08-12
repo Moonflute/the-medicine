@@ -12,6 +12,8 @@ specialty: 14 소아청소년과
 related_diseases:
   - "diabetic ketoacidosis"
 question_type: mechanism
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

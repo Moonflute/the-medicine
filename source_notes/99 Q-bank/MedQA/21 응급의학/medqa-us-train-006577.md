@@ -14,6 +14,8 @@ related_diseases:
   - "구연산염 독성"
   - "전해질 이상"
 question_type: mechanism
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yghO2VtOyniCDsnbTsg4EubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

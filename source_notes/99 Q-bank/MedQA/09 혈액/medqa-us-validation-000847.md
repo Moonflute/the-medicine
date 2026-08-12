@@ -13,6 +13,9 @@ related_diseases:
   - "겸상적혈구병 보인자"
   - "상염색체 열성 유전"
   - "유전상담"
+  - "Sickle cell disease"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: prognosis
 difficulty: simple
 answer: B

@@ -13,7 +13,9 @@ related_diseases:
   - "난소 염전"
   - "부속기 종괴"
   - "복강경 수술"
+  - "ovarian torsion"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

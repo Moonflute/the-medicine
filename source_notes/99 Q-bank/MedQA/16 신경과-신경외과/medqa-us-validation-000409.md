@@ -14,6 +14,7 @@ related_diseases:
   - "왈렌베르크 증후군"
   - "후하소뇌동맥"
 question_type: localization
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

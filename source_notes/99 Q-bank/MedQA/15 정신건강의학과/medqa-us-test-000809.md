@@ -14,6 +14,8 @@ related_diseases:
   - "경도인지장애"
   - "콜린에스터레이스 억제제"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qyveuPhCDsnbjsp4Ag7J6l7JWgIChNaWxkIENvZ25pdGl2ZSBJbXBhaXJtZW50KS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

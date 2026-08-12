@@ -13,6 +13,9 @@ related_diseases:
   - "central line-associated bloodstream infection"
   - "infective endocarditis"
   - "catheter removal"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
+  - MDgg6rCQ7Je8L-uPhOq0gCDqtIDroKgg6rCQ7Je8IChDYXRoZXRlci1SZWxhdGVkIEluZmVjdGlvbikubWQ
 question_type: management
 difficulty: complex
 answer: C

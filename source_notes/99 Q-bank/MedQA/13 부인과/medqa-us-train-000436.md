@@ -12,6 +12,7 @@ specialty: 13 부인과
 related_diseases:
   - "atypical glandular cells"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "분열성 인격장애"
   - "사회적 고립"
   - "정서적 냉담"
+  - "Schizoid personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

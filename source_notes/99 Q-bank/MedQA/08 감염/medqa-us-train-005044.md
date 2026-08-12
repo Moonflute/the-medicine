@@ -13,6 +13,9 @@ related_diseases:
   - "혼합 한랭글로불린혈증"
   - "C형간염"
   - "혈관염"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: diagnosis
 difficulty: simple
 answer: B

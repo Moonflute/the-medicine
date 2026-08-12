@@ -14,6 +14,7 @@ related_diseases:
   - "시신경유두 부종"
   - "이소트레티노인"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

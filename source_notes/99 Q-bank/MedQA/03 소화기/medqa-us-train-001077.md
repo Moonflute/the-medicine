@@ -14,6 +14,9 @@ related_diseases:
   - "Crohn disease"
   - "malabsorption"
   - "Zollinger-Ellison syndrome"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsIDsiqTtirjrprDsooUgKEdhc3RyaW5vbWEpLm1k
 question_type: mechanism
 difficulty: complex
 answer: A

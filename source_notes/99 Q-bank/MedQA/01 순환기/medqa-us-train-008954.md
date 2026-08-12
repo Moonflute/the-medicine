@@ -13,6 +13,8 @@ related_diseases:
   - "retroperitoneal hematoma"
   - "cardiac catheterization complication"
   - "femoral access"
+  - "Retroperitoneal hematoma"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: B

@@ -13,6 +13,7 @@ related_diseases:
   - "disseminated histoplasmosis"
   - "choroiditis"
   - "immunosuppression"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: C

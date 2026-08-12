@@ -13,7 +13,9 @@ related_diseases:
   - "바르톨린샘 낭종"
   - "대음순 종창"
   - "질전정 낭종"
+  - "Bartholin cyst"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

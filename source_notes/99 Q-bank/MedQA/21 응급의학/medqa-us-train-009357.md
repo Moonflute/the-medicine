@@ -13,7 +13,9 @@ related_diseases:
   - "cat bite"
   - "고양이 물림"
   - "Pasteurella multocida"
+  - "Cat bite infection"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

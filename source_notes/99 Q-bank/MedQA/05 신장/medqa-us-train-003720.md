@@ -14,6 +14,9 @@ related_diseases:
   - "thromboembolism"
   - "acute anticoagulation"
   - "hematuria"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoOygleunpSDtmIjsoITspp0gKFJlbmFsIFZlaW4gVGhyb21ib3NpcykubWQ
+  - MDUg7Iug7J6lL-yLoOuPmeunpSDtmIjsoITsg4nsoITspp0gKFJlbmFsIEFydGVyeSBUaHJvbWJvZW1ib2xpc20pLm1k
 question_type: management
 difficulty: complex
 answer: B

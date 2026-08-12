@@ -14,6 +14,7 @@ related_diseases:
   - "미세운동 발달"
   - "발달 이정표"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

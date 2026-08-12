@@ -13,6 +13,8 @@ related_diseases:
   - "type 1 diabetes mellitus"
   - "rapid-acting insulin"
   - "insulin lispro"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ygnDHtmJUg64u564eo67ORIChUeXBlIDEgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: management
 difficulty: complex
 answer: B

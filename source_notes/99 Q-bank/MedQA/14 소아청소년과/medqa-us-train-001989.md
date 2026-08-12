@@ -13,7 +13,10 @@ related_diseases:
   - "infant botulism"
   - "Clostridium botulinum"
   - "honey exposure"
+  - "tetanus"
 question_type: diagnosis
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2MjOyDge2SjSAoVGV0YW51cykubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

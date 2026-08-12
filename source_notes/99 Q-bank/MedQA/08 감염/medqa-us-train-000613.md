@@ -14,6 +14,8 @@ related_diseases:
   - "bacteremia"
   - "splenomegaly"
   - "HIV"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Y-Q66C0IChQbmV1bW9uaWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

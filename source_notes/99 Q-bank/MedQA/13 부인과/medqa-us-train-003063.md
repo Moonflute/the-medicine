@@ -15,6 +15,9 @@ related_diseases:
   - "gonorrhea and chlamydia coverage"
   - "ceftriaxone plus doxycycline"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyXvCAoQ2VydmljaXRpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

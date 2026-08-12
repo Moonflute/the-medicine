@@ -13,6 +13,8 @@ related_diseases:
   - "uterine atony"
   - "postpartum hemorrhage"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geydtOyZhOymnSAoVXRlcmluZSBBdG9ueSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

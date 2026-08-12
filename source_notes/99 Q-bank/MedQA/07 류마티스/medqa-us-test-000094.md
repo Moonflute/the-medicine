@@ -13,6 +13,8 @@ related_diseases:
   - "환축추 불안정성"
   - "류마티스관절염"
   - "척수 압박"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: D

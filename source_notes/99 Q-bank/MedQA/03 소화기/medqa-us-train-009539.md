@@ -13,6 +13,8 @@ related_diseases:
   - "Barrett esophagus"
   - "바렛 식도"
   - "esophageal adenocarcinoma"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshKDslZQgKEFkZW5vY2FyY2lub21hKS5tZA
 question_type: prognosis
 difficulty: simple
 answer: A

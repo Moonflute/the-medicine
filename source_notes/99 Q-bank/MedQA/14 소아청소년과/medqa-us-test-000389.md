@@ -13,7 +13,9 @@ related_diseases:
   - "영아 생리적 위식도 역류"
   - "위식도 역류"
   - "정상 성장"
+  - "physiologic gastroesophageal reflux"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

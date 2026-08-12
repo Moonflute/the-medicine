@@ -14,6 +14,9 @@ related_diseases:
   - "조기 양막 파수"
   - "양막 감염"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-ycteuqqCDslpHrp4nsl7wgKENob3Jpb2Ftbmlvbml0aXMpLm1k
+  - MTIg7IKw6rO8L-yhsOq4sCDslpHrp4kg7YyM7IiYIChQcmVtYXR1cmUgUnVwdHVyZSBvZiBNZW1icmFuZXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

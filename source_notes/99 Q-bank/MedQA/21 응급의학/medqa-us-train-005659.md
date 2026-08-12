@@ -14,6 +14,7 @@ related_diseases:
   - "인공호흡기 관련 폐렴"
   - "인공호흡기 이탈 평가"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

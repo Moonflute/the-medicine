@@ -12,6 +12,9 @@ specialty: 04 내분비
 related_diseases:
   - "Cushing syndrome"
   - "Cushing disease"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-y_oOyLsSDspp3tm4TqtbAgKEN1c2hpbmcncyBTeW5kcm9tZSkubWQ
+  - MDQg64K067aE67mEL-y_oOyLseuzkSAoQ3VzaGluZydzIERpc2Vhc2UpLm1k
 question_type: investigation
 difficulty: complex
 answer: C

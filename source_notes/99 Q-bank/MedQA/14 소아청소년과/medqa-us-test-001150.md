@@ -14,6 +14,7 @@ related_diseases:
   - "유아 다리 변형"
   - "정상 성장"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

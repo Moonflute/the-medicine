@@ -13,6 +13,9 @@ related_diseases:
   - "급성 백혈병"
   - "다운증후군"
   - "골수 생검"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDrsLHtmIjrs5EgKEFjdXRlIExldWtlbWlhKS5tZA
+  - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
 question_type: investigation
 difficulty: complex
 answer: C

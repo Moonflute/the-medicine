@@ -13,6 +13,8 @@ related_diseases:
   - "hyperkalemia"
   - "missed hemodialysis"
   - "peaked T waves"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: C

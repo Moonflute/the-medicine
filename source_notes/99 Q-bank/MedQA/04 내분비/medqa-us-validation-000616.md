@@ -13,6 +13,8 @@ related_diseases:
   - "고삼투성 고혈당 상태"
   - "심한 탈수"
   - "시야 흐림"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOyCvO2IrOyVleyEsSDqs6DtmIjri7kg7IOB7YOcIChISFMpIChIeXBlcm9zbW9sYXIgSHlwZXJnbHljZW1pYyBTdGF0ZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

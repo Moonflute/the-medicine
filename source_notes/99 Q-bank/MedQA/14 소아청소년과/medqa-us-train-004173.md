@@ -14,6 +14,11 @@ related_diseases:
   - "방실중격결손"
   - "십이지장 폐색"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cp7IukIOykkeqyqSDqsrDshpAgKEF0cmlvdmVudHJpY3VsYXIgU2VwdGFsIERlZmVjdCkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv64uk7Jq0IOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKc7ISxIOyLreydtOyngOyepSDtj5Dsh4Tspp0gKENvbmdlbml0YWwgRHVvZGVuYWwgT2JzdHJ1Y3Rpb24pLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

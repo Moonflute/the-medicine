@@ -14,6 +14,8 @@ related_diseases:
   - "familial adenomatous polyposis"
   - "osteoma"
   - "colorectal polyps"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsIDsobHshLEg7ISg7KKF7ISxIOyaqeyiheymnSAoRkFQKSAoRmFtaWxpYWwgQWRlbm9tYXRvdXMgUG9seXBvc2lzKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: A

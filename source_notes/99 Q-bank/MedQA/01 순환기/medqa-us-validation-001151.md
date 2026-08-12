@@ -13,6 +13,8 @@ related_diseases:
   - "급성 심근경색"
   - "심실세동"
   - "돌연심장사"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "간경변"
   - "문맥고혈압"
   - "비장 내 혈소판 격리"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

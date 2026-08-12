@@ -13,6 +13,8 @@ related_diseases:
   - "갑상샘 여포암"
   - "피막 침범"
   - "혈관 침범"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDsl6ztj6zslZQgKFRoeXJvaWQgRm9sbGljdWxhciBDYXJjaW5vbWEpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: B

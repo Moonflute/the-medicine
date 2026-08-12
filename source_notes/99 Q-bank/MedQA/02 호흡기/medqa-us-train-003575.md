@@ -14,6 +14,8 @@ related_diseases:
   - "exocrine pancreatic insufficiency"
   - "nasal polyps"
   - "congenital bilateral absence of vas deferens"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: B

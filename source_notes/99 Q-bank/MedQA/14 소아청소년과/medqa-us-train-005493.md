@@ -14,6 +14,7 @@ related_diseases:
   - "표백제 중독"
   - "무증상 부식성 식도 손상"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

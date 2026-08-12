@@ -13,6 +13,8 @@ related_diseases:
   - "급성 게실염"
   - "대장 게실질환"
   - "좌하복부 통증"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6QgKERpdmVydGljdWx1bSkubWQ
 question_type: investigation
 difficulty: complex
 answer: C

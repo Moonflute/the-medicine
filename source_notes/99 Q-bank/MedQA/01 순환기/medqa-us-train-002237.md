@@ -13,6 +13,8 @@ related_diseases:
   - "stable angina"
   - "exercise stress testing"
   - "ST-segment depression"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yViOyglSDtmJHsi6zspp0gKFN0YWJsZSBBbmdpbmEpLm1k
 question_type: investigation
 difficulty: complex
 answer: D

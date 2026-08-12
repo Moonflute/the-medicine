@@ -14,6 +14,9 @@ related_diseases:
   - "단백뇨"
   - "간기능 검사"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA
+  - MDUg7Iug7J6lL-uLqOuwseuHqC5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

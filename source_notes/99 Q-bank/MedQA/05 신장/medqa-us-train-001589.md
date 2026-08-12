@@ -13,6 +13,7 @@ related_diseases:
   - "analgesic nephropathy"
   - "papillary necrosis"
   - "NSAID toxicity"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: A

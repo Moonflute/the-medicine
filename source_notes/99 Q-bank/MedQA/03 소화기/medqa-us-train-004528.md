@@ -13,6 +13,8 @@ related_diseases:
   - "간경변증"
   - "문맥고혈압"
   - "복수"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
 question_type: complication
 difficulty: complex
 answer: D

@@ -13,6 +13,8 @@ related_diseases:
   - "primary myelofibrosis"
   - "일차성 골수섬유증"
   - "JAK2 mutation"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2KueuwnOyEsSDqs6jsiJjshKzsnKDspp0gKFBNRikgKFByaW1hcnkgTXllbG9maWJyb3NpcyAoUE1GKSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

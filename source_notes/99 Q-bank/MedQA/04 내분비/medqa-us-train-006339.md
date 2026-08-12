@@ -13,6 +13,9 @@ related_diseases:
   - "성장호르몬 과다"
   - "뇌하수체 선종"
   - "거인증"
+  - "Pituitary adenoma"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uHjO2VmOyImOyytCDsg5jsooUgKFBpdHVpdGFyeSBBZGVub21hKS5tZA
 question_type: prevention
 difficulty: complex
 answer: A

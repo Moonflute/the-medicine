@@ -13,7 +13,9 @@ related_diseases:
   - "지연성 운동이상증"
   - "할로페리돌"
   - "추체외로 증상"
+  - "Tardive dyskinesia"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: simple
 answer: A
 translation_status: machine-verified

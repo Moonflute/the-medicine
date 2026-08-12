@@ -13,6 +13,8 @@ related_diseases:
   - "mechanical hemolytic anemia"
   - "기계적 용혈성 빈혈"
   - "schistocytes"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: investigation
 difficulty: complex
 answer: A

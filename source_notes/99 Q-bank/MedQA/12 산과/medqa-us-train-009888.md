@@ -14,6 +14,8 @@ related_diseases:
   - "임신 초기 질출혈"
   - "생존 자궁 내 임신"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-ygiOuwlSDsnKDsgrAgKFRocmVhdGVuZWQgQWJvcnRpb24pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

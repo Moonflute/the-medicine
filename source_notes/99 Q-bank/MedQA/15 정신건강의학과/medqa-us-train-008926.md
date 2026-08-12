@@ -14,6 +14,7 @@ related_diseases:
   - "poppy seed ingestion"
   - "opioid intoxication"
 question_type: other
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

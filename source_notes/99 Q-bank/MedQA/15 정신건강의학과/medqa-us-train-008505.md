@@ -14,6 +14,9 @@ related_diseases:
   - "body dysmorphic disorder"
   - "cognitive behavioral therapy"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2UvOu2gOucr-q4sOq4sOyepeyVoCAoRXhjb3JpYXRpb24gRGlzb3JkZXIpLm1k
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytOydtO2YleyepeyVoCAoQm9keSBEeXNtb3JwaGljIERpc29yZGVyKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

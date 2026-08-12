@@ -13,6 +13,8 @@ related_diseases:
   - "심장압전"
   - "심낭염"
   - "심근경색 후 증후군"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwLyjquInsgqzspp3tm4TqtbApLm1k
 question_type: mechanism
 difficulty: complex
 answer: B

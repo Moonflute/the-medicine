@@ -13,6 +13,8 @@ related_diseases:
   - "fibrate"
   - "statin-associated myopathy"
   - "dyslipidemia"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
 question_type: adverse_effect
 difficulty: standard
 answer: B

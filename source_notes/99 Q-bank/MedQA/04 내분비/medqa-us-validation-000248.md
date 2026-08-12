@@ -13,6 +13,9 @@ related_diseases:
   - "갑상선기능저하증"
   - "갑상선기능저하성 근병증"
   - "크레아틴키나아제 상승"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCR7IOB7ISgIOq4sOuKpSDsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
 question_type: investigation
 difficulty: complex
 answer: A

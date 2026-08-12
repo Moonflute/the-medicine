@@ -13,6 +13,9 @@ related_diseases:
   - "급성 심근경색"
   - "급성 관상동맥증후군"
   - "심근 허혈"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDqtIDsg4Hrj5nrp6Ug7Kad7ZuE6rWwIChBQ1MpLm1k
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: management
 difficulty: complex
 answer: B

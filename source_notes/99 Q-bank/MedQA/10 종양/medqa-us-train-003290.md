@@ -14,6 +14,9 @@ related_diseases:
   - "hypercalcemia"
   - "normocytic anemia"
   - "unintentional weight loss"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
+  - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

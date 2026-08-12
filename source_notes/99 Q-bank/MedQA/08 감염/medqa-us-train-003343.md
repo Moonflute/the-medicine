@@ -14,6 +14,8 @@ related_diseases:
   - "exudative pleural effusion"
   - "lymphocytic pleural fluid"
   - "RIPE therapy"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-qysO2VteyEsSDtnYnrp4nsl7wgKFR1YmVyY3Vsb3VzIFBsZXVyaXN5KS5tZA
 question_type: management
 difficulty: complex
 answer: D

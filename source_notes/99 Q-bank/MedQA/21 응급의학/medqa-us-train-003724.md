@@ -15,6 +15,8 @@ related_diseases:
   - "alcohol use disorder"
   - "intracellular phosphate shift"
 question_type: mechanism
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

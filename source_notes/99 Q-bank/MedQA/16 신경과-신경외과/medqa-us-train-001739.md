@@ -14,6 +14,8 @@ related_diseases:
   - "herpes zoster"
   - "neuropathic pain"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uMgOyDgSDtj6zsp4QgKEhlcnBlcyBab3N0ZXIpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

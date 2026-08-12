@@ -15,6 +15,8 @@ related_diseases:
   - "클로나제팜"
   - "급성 불안"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qzte2ZqSDsnqXslaAgKFBhbmljIERpc29yZGVyKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

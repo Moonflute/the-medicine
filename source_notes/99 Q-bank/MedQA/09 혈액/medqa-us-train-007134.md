@@ -14,6 +14,9 @@ related_diseases:
   - "소구성 빈혈"
   - "철 과다"
   - "고리 철적아구"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
+  - MDkg7ZiI7JWhL-yyoCDqsrDtlY0g67mI7ZiIIChJcm9uIERlZmljaWVuY3kgQW5lbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

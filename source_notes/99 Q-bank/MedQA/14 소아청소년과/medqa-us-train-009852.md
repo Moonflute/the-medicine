@@ -14,6 +14,7 @@ related_diseases:
   - "언어 발달 이정표"
   - "9개월 발달"
 question_type: other
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

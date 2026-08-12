@@ -13,6 +13,8 @@ related_diseases:
   - "giant cell arteritis"
   - "거대세포동맥염"
   - "polymyalgia rheumatica"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

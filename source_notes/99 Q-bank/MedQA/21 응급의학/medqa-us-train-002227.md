@@ -15,6 +15,8 @@ related_diseases:
   - "bradykinin-mediated angioedema"
   - "danazol"
 question_type: management
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOu2gOyihSAo7Jyg7KCE7ISxKSAoSGVyZWRpdGFyeSBBbmdpb2VkZW1hKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

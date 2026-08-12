@@ -13,6 +13,8 @@ related_diseases:
   - "진통제 신병증"
   - "신유두 괴사"
   - "겸상적혈구 형질"
+  - "Renal papillary necrosis"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: C

@@ -13,6 +13,9 @@ related_diseases:
   - "purulent cellulitis"
   - "화농성 봉와직염"
   - "MRSA infection"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yXsOyhsOyngeyXvCAoQ2VsbHVsaXRpcykubWQ
+  - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 question_type: management
 difficulty: standard
 answer: C

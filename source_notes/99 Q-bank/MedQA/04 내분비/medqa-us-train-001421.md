@@ -13,6 +13,8 @@ related_diseases:
   - "follicular thyroid carcinoma"
   - "capsular invasion"
   - "vascular invasion"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmOyVlCAoVGh5cm9pZCBDYW5jZXIpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

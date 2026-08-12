@@ -13,6 +13,8 @@ related_diseases:
   - "궤양성 대장염"
   - "전 결장직장절제술"
   - "가성용종"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: D

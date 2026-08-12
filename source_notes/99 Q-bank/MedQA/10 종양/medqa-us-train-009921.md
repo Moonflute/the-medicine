@@ -13,6 +13,8 @@ related_diseases:
   - "갑상선 수질암"
   - "칼시토닌"
   - "반데타닙"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDsho3sp4jslZQgKFRoeXJvaWQgTWVkdWxsYXJ5IENhcmNpbm9tYSkubWQ
 question_type: management
 difficulty: standard
 answer: D

@@ -14,6 +14,10 @@ related_diseases:
   - "Coxsackie B virus"
   - "heart failure"
   - "postviral cardiomyopathy"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOq3vOyXvCAoTXlvY2FyZGl0aXMpLm1k
+  - MDEg7Iic7ZmY6riwL-yLrOq3vOuzkeymnSAoQ2FyZGlvbXlvcGF0aHkpLm1k
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

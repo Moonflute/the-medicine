@@ -14,6 +14,10 @@ related_diseases:
   - "요로감염"
   - "대장균"
   - "아질산염 양성"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDrsKnqtJHsl7wgKEFjdXRlIEN5c3RpdGlzKS5tZA
+  - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
+  - MDgg6rCQ7Je8L-uMgOyepeq3oCAoRS4gY29saSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

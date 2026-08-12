@@ -14,6 +14,7 @@ related_diseases:
   - "MMR 비면역"
   - "산후 예방접종"
 question_type: prevention
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

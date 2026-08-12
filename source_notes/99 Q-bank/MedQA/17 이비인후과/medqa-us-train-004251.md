@@ -14,6 +14,8 @@ related_diseases:
   - "바이러스성 상기도 감염"
   - "부비동염"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67aA67mE64-Z7Je8IChTaW51c2l0aXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

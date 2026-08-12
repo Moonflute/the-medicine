@@ -14,6 +14,11 @@ related_diseases:
   - "Acute glomerulonephritis"
   - "Acute tubular necrosis"
   - "IgA nephropathy"
+related_disease_slugs:
+  - MDUg7Iug7J6lL0lnQSDsvantjKXrs5Hspp0gKElnQU4pIChJZ0EgTmVwaHJvcGF0aHkpLm1k
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
+  - MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsvantjKXsl7wgKFR1YnVsb2ludGVyc3RpdGlhbCBOZXBocml0aXMpLm1k
+  - MDUg7Iug7J6lL-yCrOq1rOyytOyniO2ZmC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

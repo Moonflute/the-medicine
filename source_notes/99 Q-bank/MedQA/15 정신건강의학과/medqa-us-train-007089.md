@@ -14,7 +14,9 @@ related_diseases:
   - "할로페리돌 유발 추체외로 부작용"
   - "사경"
   - "안구운동발작"
+  - "Acute dystonic reaction"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

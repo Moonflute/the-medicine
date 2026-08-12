@@ -13,7 +13,10 @@ related_diseases:
   - "migraine without aura"
   - "acute migraine treatment"
   - "triptan"
+  - "migraine"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjrjrkZDthrUgKE1pZ3JhaW5lKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

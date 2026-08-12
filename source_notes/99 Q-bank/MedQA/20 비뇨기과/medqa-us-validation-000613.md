@@ -13,7 +13,10 @@ related_diseases:
   - "전립선비대증"
   - "요폐"
   - "범람성 요실금"
+  - "Benign prostatic hyperplasia"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yWkeyEsSDsoITrpr3sg5gg67mE64yA7KadIChCZW5pZ24gUHJvc3RhdGljIEh5cGVycGxhc2lhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "만성 C형간염"
   - "HCV 유전자형 1"
   - "직접작용 항바이러스제"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEgQ-2YlSDqsITsl7wgKENocm9uaWMgSGVwYXRpdGlzIEMgKEhDVikpLm1k
 question_type: management
 difficulty: complex
 answer: A

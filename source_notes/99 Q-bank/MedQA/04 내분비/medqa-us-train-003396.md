@@ -14,6 +14,8 @@ related_diseases:
   - "recent fracture"
   - "hypercalcemia"
   - "bone resorption"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

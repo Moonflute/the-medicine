@@ -13,6 +13,9 @@ related_diseases:
   - "양수색전증"
   - "파종혈관내응고"
   - "산과적 쇼크"
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yWkeyImOyDieyghOymnSAoQW1uaW90aWMgRmx1aWQgRW1ib2xpc20pLm1k
+  - MDkg7ZiI7JWhL-2MjOyihSDtmIjqtIDrgrQg7J2R6rOgIChEaXNzZW1pbmF0ZWQgSW50cmF2YXNjdWxhciBDb2FndWxhdGlvbiwgRElDKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: B

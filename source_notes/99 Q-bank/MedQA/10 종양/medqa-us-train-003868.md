@@ -14,6 +14,8 @@ related_diseases:
   - "anthracycline therapy"
   - "left ventricular ejection fraction"
   - "echocardiography"
+  - "Anthracycline cardiotoxicity"
+related_disease_slugs: []
 question_type: monitoring
 difficulty: simple
 answer: C

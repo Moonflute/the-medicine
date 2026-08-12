@@ -13,6 +13,8 @@ related_diseases:
   - "glucagonoma"
   - "necrolytic migratory erythema"
   - "deep venous thrombosis"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 question_type: management
 difficulty: complex
 answer: C

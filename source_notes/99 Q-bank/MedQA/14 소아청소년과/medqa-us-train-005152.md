@@ -13,7 +13,10 @@ related_diseases:
   - "신생아 소생술"
   - "신생아 저산소혈증"
   - "양압환기"
+  - "Neonatal respiratory distress syndrome"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Zi47Z2h6rOk656AIOymne2bhOq1sCAoUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

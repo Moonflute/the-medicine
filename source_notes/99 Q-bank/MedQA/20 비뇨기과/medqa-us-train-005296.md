@@ -14,6 +14,8 @@ related_diseases:
   - "신장 종괴"
   - "비만 위험인자"
 question_type: prevention
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-y9qe2MpeyVlCAoUmVuYWwgQ2VsbCBDYXJjaW5vbWEpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

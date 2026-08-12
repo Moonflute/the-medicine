@@ -13,7 +13,9 @@ related_diseases:
   - "ACE 억제제 유발 혈관부종"
   - "입술 부종"
   - "상기도 폐쇄"
+  - "ACE inhibitor-induced angioedema"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: simple
 answer: C
 translation_status: machine-verified

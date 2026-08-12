@@ -13,7 +13,9 @@ related_diseases:
   - "저마그네슘혈증"
   - "교정되지 않는 저칼륨혈증"
   - "영양결핍"
+  - "Hypomagnesemia"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

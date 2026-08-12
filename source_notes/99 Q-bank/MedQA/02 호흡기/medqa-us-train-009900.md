@@ -13,6 +13,8 @@ related_diseases:
   - "운동 유발 기관지수축"
   - "운동 유발 천식"
   - "알부테롤"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yatOuPmSDsnKDrsJwg7LKc7IudIChFeGVyY2lzZS1JbmR1Y2VkIEFzdGhtYSkubWQ
 question_type: management
 difficulty: standard
 answer: D

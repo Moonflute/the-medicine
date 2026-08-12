@@ -13,6 +13,9 @@ related_diseases:
   - "전신홍반루푸스"
   - "광대뼈 발진"
   - "저보체혈증"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yghOyLoCDtmY3rsJgg66Oo7ZG47IqkIChTTEUpIChTeXN0ZW1pYyBMdXB1cyBFcnl0aGVtYXRvc3VzIChTTEUpKS5tZA
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDtmY3rsJgg66Oo7ZG47IqkIChTeXN0ZW1pYyBMdXB1cyBFcnl0aGVtYXRvc3VzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

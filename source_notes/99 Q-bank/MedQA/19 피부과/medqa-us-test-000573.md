@@ -13,7 +13,10 @@ related_diseases:
   - "주사"
   - "홍반성 안면 발진"
   - "광노출"
+  - "rosacea"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yepeuvuOymnSAoUm9zYWNlYSkubWQ
 difficulty: simple
 answer: C
 translation_status: machine-verified

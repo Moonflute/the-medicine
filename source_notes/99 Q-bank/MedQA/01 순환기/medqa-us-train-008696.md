@@ -13,6 +13,8 @@ related_diseases:
   - "medication-induced erectile dysfunction"
   - "beta-blocker adverse effect"
   - "metoprolol"
+  - "Erectile dysfunction"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: C

@@ -14,6 +14,7 @@ related_diseases:
   - "Tdap"
   - "Td 추가접종"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

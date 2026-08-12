@@ -14,6 +14,9 @@ related_diseases:
   - "영아 습진"
   - "피부 장벽 기능장애"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JWE7Yag7ZS8IO2UvOu2gOyXvCAoQXRvcGljIERlcm1hdGl0aXMpLm1k
+  - MTkg7ZS867aA6rO8L-yVhO2GoO2UvCDtlLzrtoDsl7wgKEF0b3BpYyBEZXJtYXRpdGlzKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

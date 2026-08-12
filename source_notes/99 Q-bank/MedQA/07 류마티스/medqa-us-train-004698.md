@@ -13,6 +13,8 @@ related_diseases:
   - "베이커 낭종"
   - "류마티스 관절염"
   - "제4형 과민반응"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
 question_type: association
 difficulty: complex
 answer: C

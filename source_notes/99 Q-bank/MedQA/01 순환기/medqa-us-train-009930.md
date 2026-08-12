@@ -13,6 +13,8 @@ related_diseases:
   - "승모판 협착"
   - "임신 중 심방세동"
   - "베타차단제"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yKueuqqO2MkOuniSDtmJHssKkgKE1pdHJhbCBTdGVub3NpcykubWQ
 question_type: management
 difficulty: complex
 answer: D

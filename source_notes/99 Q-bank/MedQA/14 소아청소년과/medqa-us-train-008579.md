@@ -14,6 +14,9 @@ related_diseases:
   - "measles-specific IgM"
   - "maculopapular exanthem"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2ZjeyXrSAoTWVhc2xlcykubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ZmN7JetIChNZWFzbGVzKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

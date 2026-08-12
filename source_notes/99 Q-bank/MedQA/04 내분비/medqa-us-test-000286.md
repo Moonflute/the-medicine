@@ -13,6 +13,8 @@ related_diseases:
   - "일차성 부신기능부전"
   - "애디슨병"
   - "부신피질 호르몬 결핍"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ybkOuwnOyEsSDrtoDsi6Ag6riw64ql7KCA7ZWY7KadKFByaW1hcnkgQWRyZW5hbCBJbnN1ZmZpY2llbmN5KS5tZA
 question_type: management
 difficulty: complex
 answer: C

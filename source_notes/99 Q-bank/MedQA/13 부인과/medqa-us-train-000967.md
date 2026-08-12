@@ -13,6 +13,9 @@ related_diseases:
   - "endometrial hyperplasia with atypia"
   - "intraductal carcinoma of the breast"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4kg7Kad7Iud7KadIChFbmRvbWV0cmlhbCBIeXBlcnBsYXNpYSkubWQ
+  - MTMg67aA7J246rO8L-q0gOyDge2UvOuCtOyVlCAoSW50cmFkdWN0YWwgQ2FyY2lub21hKS5tZA
 difficulty: simple
 answer: C
 translation_status: machine-verified

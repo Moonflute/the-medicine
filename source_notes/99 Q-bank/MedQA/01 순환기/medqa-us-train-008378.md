@@ -13,6 +13,8 @@ related_diseases:
   - "femoral artery aneurysm"
   - "pulsatile groin mass"
   - "femoral bruit"
+  - "Femoral artery aneurysm"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: D

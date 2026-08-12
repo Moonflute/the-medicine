@@ -14,6 +14,8 @@ related_diseases:
   - "태아곤란"
   - "응급 제왕절개"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

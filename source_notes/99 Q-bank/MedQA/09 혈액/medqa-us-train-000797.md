@@ -12,6 +12,8 @@ specialty: 09 혈액
 related_diseases:
   - "hepatic vein thrombosis"
   - "paroxysmal nocturnal hemoglobinuria"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uwnOyekeyEsSDslbzqsIQg7ZiI7IOJ7IaM64eo7KadIChQYXJveHlzbWFsIE5vY3R1cm5hbCBIZW1vZ2xvYmludXJpYSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

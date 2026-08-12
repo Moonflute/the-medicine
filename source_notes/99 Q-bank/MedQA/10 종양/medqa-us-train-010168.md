@@ -13,6 +13,8 @@ related_diseases:
   - "소세포폐암"
   - "의료정보 공개"
   - "환자 자율성"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
 question_type: ethics
 difficulty: complex
 answer: D

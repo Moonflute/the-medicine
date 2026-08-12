@@ -13,6 +13,8 @@ related_diseases:
   - "second-degree burns"
   - "third-degree burns"
   - "inhalation injury"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2doeyehe2ZlOyDgSAoSW5oYWxhdGlvbiBCdXJuKS5tZA
 question_type: management
 difficulty: complex
 answer: C

@@ -13,7 +13,9 @@ related_diseases:
   - "복벽갈림증"
   - "gastroschisis"
   - "동반 심장기형 없음"
+  - "Gastroschisis"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

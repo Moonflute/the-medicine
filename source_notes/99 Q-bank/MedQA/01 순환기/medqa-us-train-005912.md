@@ -13,6 +13,9 @@ related_diseases:
   - "모비츠 I형 방실차단"
   - "웬케바흐 현상"
   - "운동선수 서맥"
+  - "Mobitz I AV block"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uwqeyLpOywqOuLqCAoQVYgYmxvY2spLm1k
 question_type: diagnosis
 difficulty: standard
 answer: B

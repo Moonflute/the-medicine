@@ -14,6 +14,9 @@ related_diseases:
   - "ACE inhibitor cough"
   - "bilateral renal artery stenosis"
   - "hypertension"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
 question_type: contraindication
 difficulty: complex
 answer: C

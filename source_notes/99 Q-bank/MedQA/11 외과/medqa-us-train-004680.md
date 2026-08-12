@@ -13,6 +13,9 @@ related_diseases:
   - "간 열상"
   - "복부 둔상"
   - "모리슨 주머니 혈액"
+  - "splenic injury"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-u5hOyepSDshpDsg4EgKFNwbGVuaWMgSW5qdXJ5KS5tZA
 question_type: association
 difficulty: standard
 answer: C

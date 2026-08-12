@@ -14,6 +14,8 @@ related_diseases:
   - "preterm pregnancy"
   - "expectant management"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-uRlOychCAoQnJlZWNoIFByZXNlbnRhdGlvbikubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

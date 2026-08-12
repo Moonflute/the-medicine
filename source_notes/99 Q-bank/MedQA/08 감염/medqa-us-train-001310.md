@@ -12,6 +12,9 @@ specialty: 08 감염
 related_diseases:
   - "Pneumocystis jirovecii pneumonia"
   - "immunocompromised host"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uptOyXreyggO2VmOyekCDqsJDsl7wgKEltbXVub2NvbXByb21pc2VkIEhvc3QgSW5mZWN0aW9uKS5tZA
+  - MDgg6rCQ7Je8L-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k
 question_type: management
 difficulty: complex
 answer: B

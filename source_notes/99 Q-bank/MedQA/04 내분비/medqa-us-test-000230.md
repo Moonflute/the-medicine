@@ -13,6 +13,9 @@ related_diseases:
   - "비갑상샘 질환 증후군"
   - "패혈성 쇼크"
   - "중증 질환"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2MqO2YiOyEsSDsh7ztgawgKFNlcHRpYyBTaG9jaykubWQ
+  - MDQg64K067aE67mEL-uzkeyggSDqsJHsg4Hsg5gg6riw64qlIOygleyDgSDspp3tm4TqtbAgKFNpY2sgRXV0aHlyb2lkIFN5bmRyb21lKS5tZA
 question_type: management
 difficulty: complex
 answer: D

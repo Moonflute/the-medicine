@@ -14,6 +14,8 @@ related_diseases:
   - "지적장애"
   - "사회적 상호작용 저하"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yngOyggSDsnqXslaAgKEludGVsbGVjdHVhbCBEaXNhYmlsaXR5KS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

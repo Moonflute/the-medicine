@@ -13,6 +13,8 @@ related_diseases:
   - "Klinefelter syndrome"
   - "47,XXY"
   - "small firm testes"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YG065287J247Y6g7YSwIOymne2bhOq1sCAoS2xpbmVmZWx0ZXIgU3luZHJvbWUpLm1k
 question_type: investigation
 difficulty: standard
 answer: D

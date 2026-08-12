@@ -14,6 +14,7 @@ related_diseases:
   - "청색증형 호흡정지 발작"
   - "양성 소아 실신"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

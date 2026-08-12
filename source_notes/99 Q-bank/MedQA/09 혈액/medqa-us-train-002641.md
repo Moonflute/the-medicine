@@ -13,6 +13,9 @@ related_diseases:
   - "tumor lysis syndrome"
   - "severe hyperkalemia"
   - "calcium chloride"
+related_disease_slugs:
+  - MTAg7KKF7JaRL-yiheyWkSDsmqntlbQg7Kad7ZuE6rWwIChUdW1vciBMeXNpcyBTeW5kcm9tZSkubWQ
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: D

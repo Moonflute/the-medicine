@@ -13,6 +13,8 @@ related_diseases:
   - "가성통풍"
   - "피로인산칼슘 침착병"
   - "연골석회화"
+  - "Calcium pyrophosphate deposition disease"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: C

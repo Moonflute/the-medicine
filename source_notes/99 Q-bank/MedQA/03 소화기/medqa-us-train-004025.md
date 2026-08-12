@@ -13,6 +13,8 @@ related_diseases:
   - "내치핵"
   - "치질"
   - "직장 출혈"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rgrTsuZjtlbUgKEludGVybmFsIEhlbW9ycmhvaWQpLm1k
 question_type: 임상증례 객관식
 difficulty: standard
 answer: C

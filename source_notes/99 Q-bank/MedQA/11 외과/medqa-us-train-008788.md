@@ -13,6 +13,9 @@ related_diseases:
   - "blunt abdominal trauma"
   - "hemorrhagic shock"
   - "diagnostic peritoneal lavage"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uRlOyDgSDrs7XrtoDsmbjsg4EgKEJsdW50IEFiZG9taW5hbCBUcmF1bWEpLm1k
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: investigation
 difficulty: complex
 answer: B

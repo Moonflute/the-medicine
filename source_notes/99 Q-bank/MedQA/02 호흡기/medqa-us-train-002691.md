@@ -14,6 +14,8 @@ related_diseases:
   - "Aspirin-exacerbated respiratory disease"
   - "pulsus paradoxus"
   - "nasal polyps"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yVhOyKpO2UvOumsCDqs7zrr7zshLEg7LKc7IudLm1k
 question_type: diagnosis
 difficulty: simple
 answer: B

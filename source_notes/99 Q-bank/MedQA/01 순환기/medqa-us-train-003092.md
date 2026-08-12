@@ -14,6 +14,8 @@ related_diseases:
   - "FBN1 mutation"
   - "aortic root dilation"
   - "aortic aneurysm"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uzteu2gCDrjIDrj5nrp6XrpZggKEFiZG9taW5hbCBBb3J0aWMgQW5ldXJ5c20pLm1k
 question_type: risk_factor
 difficulty: simple
 answer: A

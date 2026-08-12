@@ -12,6 +12,7 @@ specialty: 03 소화기
 related_diseases:
   - "무결석성 담낭염"
   - "담낭염"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "폐페스트"
   - "선페스트"
   - "Yersinia pestis"
+  - "plague"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: C

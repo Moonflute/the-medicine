@@ -12,6 +12,8 @@ specialty: 14 소아청소년과
 related_diseases:
   - "Esophageal atresia"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKc7ISxIOyLneuPhCDtj5Dsh4Qg67CPIOyLneuPhCDquLDqtIDro6ggKEVzb3BoYWdlYWwgQXRyZXNpYSB3aXRoIFRyYWNoZW9lc29waGFnZWFsIEZpc3R1bGEpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

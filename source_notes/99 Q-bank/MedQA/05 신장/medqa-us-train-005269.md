@@ -13,6 +13,8 @@ related_diseases:
   - "급속진행성 사구체신염"
   - "적혈구 원주"
   - "신장 생검"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyGjSDsp4Ttlokg7Yag66as7L2p7Yyl7Je8IChSYXBpZGx5IFByb2dyZXNzaXZlIEdsb21lcnVsb25lcGhyaXRpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: D

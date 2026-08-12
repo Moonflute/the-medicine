@@ -14,6 +14,8 @@ related_diseases:
   - "무통성 혈변"
   - "이소성 위점막"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv66mU7LyIIOqyjOyLpCAoTWVja2VsJ3MgRGl2ZXJ0aWN1bHVtKS5tZA
 difficulty: simple
 answer: D
 translation_status: machine-verified

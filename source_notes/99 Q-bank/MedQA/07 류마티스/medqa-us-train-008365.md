@@ -13,6 +13,8 @@ related_diseases:
   - "microscopic polyangiitis"
   - "MPO-ANCA"
   - "pulmonary renal syndrome"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: C

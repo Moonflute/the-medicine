@@ -11,6 +11,8 @@ language: ko
 specialty: 09 혈액
 related_diseases:
   - "immune thrombocytopenic purpura"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2KueuwnOyEsSDtmIjshoztjJDqsJDshozshLEg7J6Q67CY7KadIChJZGlvcGF0aGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgSVRQKS5tZA
 question_type: management
 difficulty: complex
 answer: D

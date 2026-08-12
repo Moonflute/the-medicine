@@ -14,6 +14,8 @@ related_diseases:
   - "도뇨관 관련 요로감염"
   - "intermittent catheterization"
 question_type: prevention
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JqU66GcIOqwkOyXvCAoVXJpbmFyeSBUcmFjdCBJbmZlY3Rpb24pLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

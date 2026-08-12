@@ -14,6 +14,8 @@ related_diseases:
   - "임신 초기 갑상샘항진증"
   - "프로필티오우라실"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

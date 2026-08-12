@@ -13,6 +13,8 @@ related_diseases:
   - "post myocardial infarction free wall rupture"
   - "cardiac tamponade"
   - "hemopericardium"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOyepSDriIzrprzspp0gKENhcmRpYWMgVGFtcG9uYWRlKS5tZA
 question_type: management
 difficulty: complex
 answer: C

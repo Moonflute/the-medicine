@@ -13,6 +13,8 @@ related_diseases:
   - "우연히 발견된 폐결절"
   - "폐암 선별"
   - "흉부 CT"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

@@ -12,6 +12,7 @@ specialty: 04 내분비
 related_diseases:
   - "adrenal adenoma"
   - "Conn syndrome"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

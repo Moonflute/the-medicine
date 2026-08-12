@@ -13,7 +13,10 @@ related_diseases:
   - "정맥성 잡음"
   - "소아 심잡음"
   - "경정맥 혈류"
+  - "Venous hum"
 question_type: diagnosis
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-ygleunpSDsnqHsnYwgKFZlbm91cyBIdW0pLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

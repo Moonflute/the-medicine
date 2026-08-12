@@ -13,7 +13,10 @@ related_diseases:
   - "뇌사"
   - "무호흡 검사 양성"
   - "생명유지치료 중단"
+  - "Brain death"
 question_type: ethics
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsgqwgKEJyYWluIGRlYXRoKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

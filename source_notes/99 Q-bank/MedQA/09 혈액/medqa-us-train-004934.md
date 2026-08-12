@@ -13,6 +13,8 @@ related_diseases:
   - "다발골수종"
   - "단클론감마병증"
   - "전신 골병변 평가"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
 question_type: investigation
 difficulty: complex
 answer: D

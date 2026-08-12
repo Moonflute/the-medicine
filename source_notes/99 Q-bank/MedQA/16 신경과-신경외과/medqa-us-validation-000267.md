@@ -14,6 +14,8 @@ related_diseases:
   - "편두통 예방"
   - "발프로산"
 question_type: prevention
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjrjrkZDthrUgKE1pZ3JhaW5lKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

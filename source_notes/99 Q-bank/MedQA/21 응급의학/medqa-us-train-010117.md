@@ -14,6 +14,9 @@ related_diseases:
   - "압궤손상"
   - "급성 신손상"
 question_type: management
+related_disease_slugs:
+  - MDUg7Iug7J6lL-2aoeusuOq3vOycte2VtOymnSAoUmhhYmRvbXlvbHlzaXMpLm1k
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

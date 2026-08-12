@@ -13,6 +13,8 @@ related_diseases:
   - "당뇨병성 신장병증"
   - "알부민뇨"
   - "신장 비대"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

@@ -14,7 +14,9 @@ related_diseases:
   - "optic nerve invasion"
   - "vitreous seeding"
   - "enucleation"
+  - "Retinoblastoma"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

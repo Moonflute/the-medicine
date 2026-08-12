@@ -13,6 +13,8 @@ related_diseases:
   - "cirrhosis"
   - "hyperestrogenism"
   - "palmar erythema gynecomastia"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "낭성섬유증"
   - "남성 불임"
 question_type: prognosis
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "중증 고칼륨혈증"
   - "고칼륨혈증 심전도 변화"
   - "칼슘 글루콘산"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: A

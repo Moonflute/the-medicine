@@ -13,6 +13,7 @@ related_diseases:
   - "혈색소침착증"
   - "칼슘 피로인산 침착질환"
   - "가성통풍"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: simple
 answer: B

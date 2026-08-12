@@ -13,7 +13,9 @@ related_diseases:
   - "borderline personality disorder"
   - "경계성 인격장애"
   - "self-harm"
+  - "Borderline personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

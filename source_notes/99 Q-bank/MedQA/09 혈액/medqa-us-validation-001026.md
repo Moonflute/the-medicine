@@ -13,6 +13,8 @@ related_diseases:
   - "혈우병"
   - "관절혈증"
   - "응고검사"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOyasOuzkSAoSGVtb3BoaWxpYSkubWQ
 question_type: investigation
 difficulty: standard
 answer: C

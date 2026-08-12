@@ -13,7 +13,9 @@ related_diseases:
   - "총동맥간"
   - "동맥간증"
   - "선천성 심장병"
+  - "Truncus arteriosus"
 question_type: association
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

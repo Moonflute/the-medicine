@@ -13,7 +13,10 @@ related_diseases:
   - "첨형 콘딜로마"
   - "생식기 사마귀"
   - "인유두종바이러스(HPV)"
+  - "condyloma acuminatum"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u-sOyhsSDsvZjrlJzroZzrp4ggKENvbmR5bG9tYSBBY3VtaW5hdHVtKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

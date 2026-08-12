@@ -14,6 +14,8 @@ related_diseases:
   - "기계환기"
   - "산소화"
   - "PEEP"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4ieyEsSDtmLjtnaHqs6TrnoAg7Kad7ZuE6rWwIChBUkRTKSAoQWN1dGUgUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k
 question_type: management
 difficulty: complex
 answer: C

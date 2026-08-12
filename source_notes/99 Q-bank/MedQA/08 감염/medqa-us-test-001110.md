@@ -13,6 +13,8 @@ related_diseases:
   - "크립토코쿠스 수막염"
   - "HIV/AIDS"
   - "암포테리신 B 플루시토신"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 question_type: management
 difficulty: complex
 answer: B

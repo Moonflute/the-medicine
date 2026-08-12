@@ -14,6 +14,9 @@ related_diseases:
   - "Neisseria meningitidis"
   - "bacterial meningitis"
   - "rifampin prophylaxis"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IS46reg7ISxIOuHjOyImOunieyXvCAoQmFjdGVyaWFsIE1lbmluZ2l0aXMpLm1k
+  - MDgg6rCQ7Je8L-yImOunieyVjOq3oCAoTWVuaW5nb2NvY2N1cykubWQ
 question_type: management
 difficulty: complex
 answer: D

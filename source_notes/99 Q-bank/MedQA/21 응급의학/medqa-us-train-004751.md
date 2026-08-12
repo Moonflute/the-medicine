@@ -14,6 +14,9 @@ related_diseases:
   - "급성 신손상"
   - "환기-관류 스캔"
 question_type: investigation
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

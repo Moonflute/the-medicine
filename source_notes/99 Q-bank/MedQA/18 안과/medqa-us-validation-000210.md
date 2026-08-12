@@ -13,7 +13,9 @@ related_diseases:
   - "교감성 안염"
   - "안구 외상"
   - "양측성 포도막염"
+  - "Sympathetic ophthalmia"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

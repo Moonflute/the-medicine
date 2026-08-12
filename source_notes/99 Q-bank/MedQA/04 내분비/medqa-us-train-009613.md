@@ -13,6 +13,8 @@ related_diseases:
   - "Graves disease"
   - "그레이브스병"
   - "radioactive iodine ablation"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: complex
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "콘딜로마 라타"
   - "성매개감염 동시 검사"
   - "매독"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-unpOuPhSAoU3lwaGlsaXMpLm1k
 question_type: investigation
 difficulty: standard
 answer: D

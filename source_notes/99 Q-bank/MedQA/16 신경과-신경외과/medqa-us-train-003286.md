@@ -15,6 +15,8 @@ related_diseases:
   - "3-Hz spike-and-wave"
   - "brief staring spells"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM67Cc7J6RIChBYnNlbmNlIFNlaXp1cmUpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

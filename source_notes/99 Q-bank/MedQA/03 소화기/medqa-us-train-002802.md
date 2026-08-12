@@ -14,6 +14,9 @@ related_diseases:
   - "Ogilvie syndrome"
   - "cecal dilation"
   - "peritonitis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDrsJzshLEg7IS46regIOuzteunieyXvCAoU3BvbnRhbmVvdXMgQmFjdGVyaWFsIFBlcml0b25pdGlzKS5tZA
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ
 question_type: management
 difficulty: standard
 answer: D

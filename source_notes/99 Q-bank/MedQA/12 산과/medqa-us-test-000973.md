@@ -13,6 +13,7 @@ related_diseases:
   - "정상 태아 심박동"
   - "활동성 진통"
   - "태아 심박동 모니터링"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: C

@@ -13,6 +13,8 @@ related_diseases:
   - "급성 간질성 신염"
   - "약물 유발 신염"
   - "호산구뇨"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsvantjKXsl7wgKFR1YnVsb2ludGVyc3RpdGlhbCBOZXBocml0aXMpLm1k
 question_type: management
 difficulty: complex
 answer: B

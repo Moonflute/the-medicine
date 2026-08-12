@@ -13,6 +13,8 @@ related_diseases:
   - "판코스트 종양"
   - "상대정맥증후군"
   - "호너증후군"
+related_disease_slugs:
+  - MTAg7KKF7JaRL-yDgeuMgOygleunpSDspp3tm4TqtbAgKFN1cGVyaW9yIFZlbmEgQ2F2YSBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

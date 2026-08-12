@@ -13,6 +13,9 @@ related_diseases:
   - "AA 아밀로이드증"
   - "만성 류마티스관절염"
   - "신증후군"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
+  - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: D

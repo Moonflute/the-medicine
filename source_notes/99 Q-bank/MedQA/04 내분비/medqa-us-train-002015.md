@@ -13,6 +13,9 @@ related_diseases:
   - "hyperthyroidism"
   - "hypercalcemia"
   - "hypercalciuria"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

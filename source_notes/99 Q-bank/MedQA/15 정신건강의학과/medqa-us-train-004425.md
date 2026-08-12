@@ -13,7 +13,10 @@ related_diseases:
   - "급성 정신병"
   - "환청"
   - "피해망상"
+  - "Schizophrenia"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

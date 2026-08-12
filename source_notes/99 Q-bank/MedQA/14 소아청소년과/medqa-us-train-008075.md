@@ -14,6 +14,7 @@ related_diseases:
   - "benign limb pain"
   - "reassurance"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

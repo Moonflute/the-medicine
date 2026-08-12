@@ -13,6 +13,9 @@ related_diseases:
   - "쿠싱병"
   - "이소성 ACTH"
   - "소세포 폐암"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-y_oOyLseuzkSAoQ3VzaGluZydzIERpc2Vhc2UpLm1k
+  - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -14,6 +14,9 @@ related_diseases:
   - "충수 주위 농양"
   - "보존적 치료"
   - "간격 충수절제술"
+  - "Appendicitis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_stqnsiJjsl7wgKEFwcGVuZGljaXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: B

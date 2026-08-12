@@ -14,6 +14,8 @@ related_diseases:
   - "herald patch"
   - "self-limited exanthem"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yepeuvuOyDiSDruYTripjspp0gKFBpdHlyaWFzaXMgUm9zZWEpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "aortic regurgitation"
   - "bicuspid aortic valve"
   - "Corrigan pulse"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDsl63rpZggKEFvcnRpYyBSZWd1cmdpdGF0aW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

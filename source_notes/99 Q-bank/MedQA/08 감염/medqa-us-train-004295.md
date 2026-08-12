@@ -13,6 +13,8 @@ related_diseases:
   - "감염성 단핵구증"
   - "엡스타인-바 바이러스"
   - "단핵구증 반점검사"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qwkOyXvC5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

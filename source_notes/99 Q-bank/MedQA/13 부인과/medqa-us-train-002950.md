@@ -15,6 +15,8 @@ related_diseases:
   - "low libido"
   - "androgen deficiency"
 question_type: mechanism
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2PkOqyvSAoTWVub3BhdXNlKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

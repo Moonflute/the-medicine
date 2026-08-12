@@ -13,6 +13,8 @@ related_diseases:
   - "osteoporosis"
   - "fragility fractures"
   - "vitamin D supplementation"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 question_type: prevention
 difficulty: complex
 answer: B

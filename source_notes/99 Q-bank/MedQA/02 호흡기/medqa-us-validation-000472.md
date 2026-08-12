@@ -13,6 +13,9 @@ related_diseases:
   - "중등도 COPD"
   - "기관지확장제 치료"
   - "티오트로피움"
+  - "Chronic obstructive pulmonary disease"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: management
 difficulty: complex
 answer: B

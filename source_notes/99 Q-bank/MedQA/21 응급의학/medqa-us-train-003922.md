@@ -15,6 +15,9 @@ related_diseases:
   - "infected foot ulcer"
   - "antibiotics"
 question_type: management
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsobHrtoDsp4jtmZgubWQ
+  - MDgg6rCQ7Je8L-yXsOyhsOyngeyXvCAoQ2VsbHVsaXRpcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

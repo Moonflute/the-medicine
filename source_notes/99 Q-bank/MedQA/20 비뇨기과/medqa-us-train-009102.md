@@ -13,6 +13,8 @@ related_diseases:
   - "paraphimosis"
   - "감돈포경"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-qwkOuPiCDtj6zqsr0gKFBhcmFwaGltb3NpcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

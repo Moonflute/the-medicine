@@ -13,6 +13,8 @@ related_diseases:
   - "bladder rupture"
   - "pelvic fracture"
   - "retrograde cystography"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-uwqeq0kSDtjIzsl7QgKEJsYWRkZXIgcnVwdHVyZSkubWQ
 question_type: investigation
 difficulty: standard
 answer: D

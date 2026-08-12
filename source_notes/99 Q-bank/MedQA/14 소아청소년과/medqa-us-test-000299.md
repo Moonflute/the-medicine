@@ -14,6 +14,8 @@ related_diseases:
   - "성조숙증"
   - "다골성 섬유성 이형성증"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7KGw7IiZ7KadIChTZXh1YWwgUHJlY29jaW91c25lc3MpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "acute myocardial infarction"
   - "percutaneous coronary intervention"
   - "diffuse ST elevations"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: management
 difficulty: complex
 answer: A

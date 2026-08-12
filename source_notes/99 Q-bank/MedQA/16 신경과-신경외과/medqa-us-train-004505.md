@@ -14,6 +14,8 @@ related_diseases:
   - "혈우병"
   - "두부 외상"
 question_type: diagnosis
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOyasOuzkSAoSGVtb3BoaWxpYSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -12,6 +12,7 @@ specialty: 14 소아청소년과
 related_diseases:
   - "Hartnup disease"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

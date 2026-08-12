@@ -13,7 +13,10 @@ related_diseases:
   - "자살사고"
   - "우울증"
   - "자살 위험 평가"
+  - "Major depressive disorder"
 question_type: ethics
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

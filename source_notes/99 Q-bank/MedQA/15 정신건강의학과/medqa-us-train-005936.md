@@ -14,6 +14,8 @@ related_diseases:
   - "입면 환각"
   - "주간 졸림"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOuptOymnSAoTmFyY29sZXBzeSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

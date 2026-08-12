@@ -14,6 +14,8 @@ related_diseases:
   - "이전 제왕절개"
   - "태아 선진부 하강 소실"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2ge2MjOyXtCAoVXRlcmluZSBSdXB0dXJlKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

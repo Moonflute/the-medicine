@@ -14,6 +14,8 @@ related_diseases:
   - "IgG 직접 항글로불린 양성"
   - "세팔렉신 유발 용혈"
   - "프레드니손"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: management
 difficulty: complex
 answer: B

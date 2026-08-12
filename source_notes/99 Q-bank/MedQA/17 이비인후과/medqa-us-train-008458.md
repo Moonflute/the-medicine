@@ -14,6 +14,8 @@ related_diseases:
   - "suppurative parotitis"
   - "Staphylococcus aureus"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

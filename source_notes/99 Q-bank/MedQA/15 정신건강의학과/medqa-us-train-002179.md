@@ -13,7 +13,9 @@ related_diseases:
   - "bipolar mania"
   - "antidepressant-induced mania"
   - "sertraline"
+  - "Mania"
 question_type: adverse_effect
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

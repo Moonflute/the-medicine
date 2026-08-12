@@ -14,6 +14,8 @@ related_diseases:
   - "국소 분절성 사구체경화증"
   - "신증후군"
   - "아프리카계 유전적 소인"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -13,6 +13,9 @@ related_diseases:
   - "microcytic anemia"
   - "anemia of chronic disease"
   - "soluble transferrin receptor"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDsp4jtmZgg67mI7ZiIIChBbmVtaWEgb2YgQ2hyb25pYyBEaXNlYXNlKS5tZA
+  - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
 question_type: investigation
 difficulty: standard
 answer: C

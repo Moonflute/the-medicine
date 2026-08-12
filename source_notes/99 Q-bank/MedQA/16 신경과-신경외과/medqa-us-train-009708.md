@@ -14,6 +14,7 @@ related_diseases:
   - "크로이츠펠트-야코프병"
   - "prion accumulation"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

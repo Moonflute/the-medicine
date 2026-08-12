@@ -13,6 +13,8 @@ related_diseases:
   - "연성하감"
   - "Haemophilus ducreyi"
   - "통증성 생식기 궤양"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yXsOyEse2VmOqwkCAoQ2hhbmNyb2lkKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

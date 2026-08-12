@@ -15,6 +15,10 @@ related_diseases:
   - "Premature ovarian failure"
   - "Turner syndrome"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yhsOq4sOuCnOyGjOu2gOyghCAoUHJlbWF0dXJlIE92YXJpYW4gRmFpbHVyZSkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YSw64SIIOymne2bhOq1sCAoVHVybmVyIFN5bmRyb21lKS5tZA
+  - MTMg67aA7J246rO8L-uurOufrOq0gOuwnOycoeu2gOyghCAoTXVsbGVyaWFuIEFnZW5lc2lzKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

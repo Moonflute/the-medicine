@@ -13,6 +13,8 @@ related_diseases:
   - "normal puberty"
   - "Tanner stage II"
   - "precocious puberty"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7KGw7IiZ7KadIChTZXh1YWwgUHJlY29jaW91c25lc3MpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: B

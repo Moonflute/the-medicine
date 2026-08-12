@@ -14,6 +14,7 @@ related_diseases:
   - "코카인 캡슐"
   - "환자 자율성"
 question_type: ethics
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

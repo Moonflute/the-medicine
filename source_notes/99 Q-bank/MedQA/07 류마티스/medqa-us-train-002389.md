@@ -14,6 +14,9 @@ related_diseases:
   - "large-vessel vasculitis"
   - "subclavian artery stenosis"
   - "revascularization"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uLpOy5tOyVvOyImCDrj5nrp6Xsl7wgKFRha2F5YXN1J3MgQXJ0ZXJpdGlzKS5tZA
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: A

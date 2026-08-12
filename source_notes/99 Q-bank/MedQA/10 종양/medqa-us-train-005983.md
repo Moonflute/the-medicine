@@ -13,6 +13,8 @@ related_diseases:
   - "환자 비밀보장"
   - "전립선암 골전이"
   - "배우자 정보 요청"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 question_type: ethics
 difficulty: complex
 answer: A

@@ -14,6 +14,8 @@ related_diseases:
   - "접형구개동맥"
   - "난치성 비출혈"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-u5hOy2nO2YiCAoRXBpc3RheGlzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

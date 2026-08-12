@@ -12,6 +12,8 @@ specialty: 08 감염
 related_diseases:
   - "central line-associated bloodstream infection"
   - "Staphylococcus aureus bacteremia"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uPhOq0gCDqtIDroKgg6rCQ7Je8IChDYXRoZXRlci1SZWxhdGVkIEluZmVjdGlvbikubWQ
 question_type: diagnosis
 difficulty: standard
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "스테로이드 유발 골감소"
   - "DEXA 검사"
 question_type: prevention
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

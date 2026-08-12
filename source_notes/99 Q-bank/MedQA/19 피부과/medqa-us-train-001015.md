@@ -14,6 +14,8 @@ related_diseases:
   - "type I diabetes mellitus"
   - "hypertension"
 question_type: diagnosis
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

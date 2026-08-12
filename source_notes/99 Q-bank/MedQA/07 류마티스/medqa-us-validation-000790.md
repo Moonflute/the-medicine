@@ -13,6 +13,8 @@ related_diseases:
   - "약물 유발 루푸스"
   - "히드랄라진"
   - "나비모양 홍반"
+  - "drug-induced lupus"
+related_disease_slugs: []
 question_type: etiology
 difficulty: simple
 answer: C

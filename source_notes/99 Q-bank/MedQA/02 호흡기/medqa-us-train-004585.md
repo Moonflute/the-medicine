@@ -13,6 +13,7 @@ related_diseases:
   - "선천성 폐기형"
   - "선천성 폐낭성 선종기형"
   - "반복성 폐감염"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: C

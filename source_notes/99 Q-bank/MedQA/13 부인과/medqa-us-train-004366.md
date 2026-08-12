@@ -14,6 +14,9 @@ related_diseases:
   - "제왕절개 후 감염"
   - "클린다마이신-겐타마이신"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2gSDrgrTrp4kg6rCQ7Je8IOyngOyXsCAoRGVsYXllZCBQb3N0cGFydHVtIEVuZG9tZXRyaXRpcykubWQ
+  - MTIg7IKw6rO8L-yCsOyaleq4sCDsnpDqtoEg6rCQ7Je8IChQb3N0cGFydHVtIFV0ZXJpbmUgSW5mZWN0aW9uKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "후두암"
   - "상기도 폐쇄"
   - "흡기성 협착음"
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-2bhOuRkOyVlCAoTGFyeW5nZWFsIENhbmNlcikubWQ
 question_type: management
 difficulty: complex
 answer: B

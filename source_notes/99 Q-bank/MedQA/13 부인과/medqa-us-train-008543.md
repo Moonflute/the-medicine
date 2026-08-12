@@ -14,6 +14,8 @@ related_diseases:
   - "pregnancy test"
   - "ectopic pregnancy"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
 difficulty: simple
 answer: C
 translation_status: machine-verified

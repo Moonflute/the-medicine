@@ -14,6 +14,9 @@ related_diseases:
   - "AIDS"
   - "Epstein-Barr 바이러스"
 question_type: diagnosis
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
+  - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

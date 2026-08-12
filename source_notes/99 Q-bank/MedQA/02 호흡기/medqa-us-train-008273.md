@@ -13,6 +13,9 @@ related_diseases:
   - "cystic fibrosis"
   - "exocrine pancreatic insufficiency"
   - "vitamin K deficiency"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-u5hO2DgOuvvCBLIOqysO2VjSAoVml0YW1pbiBLIERlZmljaWVuY3kpLm1k
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: A

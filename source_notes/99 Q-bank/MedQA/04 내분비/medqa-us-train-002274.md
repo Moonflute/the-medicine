@@ -13,6 +13,8 @@ related_diseases:
   - "severe hyponatremia"
   - "rapid sodium correction"
   - "osmotic demyelination syndrome"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 question_type: adverse_effect
 difficulty: complex
 answer: D

@@ -15,6 +15,7 @@ related_diseases:
   - "preserved activities of daily living"
   - "normal cognition"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

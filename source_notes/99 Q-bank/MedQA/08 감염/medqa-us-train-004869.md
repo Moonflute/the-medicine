@@ -13,6 +13,8 @@ related_diseases:
   - "폐결핵"
   - "법정 신고 감염병"
   - "공중보건 신고"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOqysO2VtSAoUHVsbW9uYXJ5IFR1YmVyY3Vsb3NpcykubWQ
 question_type: ethics
 difficulty: standard
 answer: A

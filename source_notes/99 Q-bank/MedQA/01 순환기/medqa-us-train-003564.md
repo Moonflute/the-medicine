@@ -14,6 +14,8 @@ related_diseases:
   - "physiologic murmur"
   - "normal cardiac examination"
   - "reassurance"
+  - "innocent heart murmur"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

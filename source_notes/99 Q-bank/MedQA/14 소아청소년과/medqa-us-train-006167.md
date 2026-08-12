@@ -13,7 +13,9 @@ related_diseases:
   - "신생아 독성 홍반"
   - "신생아 농포성 발진"
   - "생리적 신생아 발진"
+  - "neonatal toxic erythema"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

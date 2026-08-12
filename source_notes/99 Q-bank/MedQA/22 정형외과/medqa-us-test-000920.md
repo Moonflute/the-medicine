@@ -13,7 +13,9 @@ related_diseases:
   - "요추 신경근병증"
   - "좌골신경통"
   - "하지 직거상 검사"
+  - "Lumbar radiculopathy"
 question_type: investigation
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

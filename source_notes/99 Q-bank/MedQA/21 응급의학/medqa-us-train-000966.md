@@ -13,6 +13,8 @@ related_diseases:
   - "caustic ingestion"
   - "chemical burn"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2ZlO2VmeusvOyniO2ZlOyDgSAoQ2hlbWljYWwgQnVybikubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

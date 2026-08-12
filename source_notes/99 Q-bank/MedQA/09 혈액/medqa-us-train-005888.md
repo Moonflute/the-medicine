@@ -13,6 +13,9 @@ related_diseases:
   - "겸상적혈구병"
   - "하이드록시우레아"
   - "태아혈색소 증가"
+  - "Sickle cell disease"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: D

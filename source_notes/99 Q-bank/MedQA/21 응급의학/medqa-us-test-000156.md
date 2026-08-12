@@ -14,6 +14,7 @@ related_diseases:
   - "배스솔트 중독"
   - "교감신경 항진"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

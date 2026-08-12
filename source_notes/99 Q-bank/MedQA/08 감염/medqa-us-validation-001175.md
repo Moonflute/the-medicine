@@ -13,6 +13,9 @@ related_diseases:
   - "연쇄상구균 인두염"
   - "A군 연쇄상구균"
   - "신속 항원검사"
+  - "Streptococcal pharyngitis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yCrOyKrOyVjOq3oCDsnbjrkZDsl7wgKFN0cmVwdG9jb2NjYWwgUGhhcnluZ2l0aXMpLm1k
 question_type: investigation
 difficulty: standard
 answer: D

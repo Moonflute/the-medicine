@@ -14,6 +14,8 @@ related_diseases:
   - "경화태선"
   - "외음부 악성종양"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-2OuO2PiSDshLjtj6zslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: simple
 answer: C
 translation_status: machine-verified

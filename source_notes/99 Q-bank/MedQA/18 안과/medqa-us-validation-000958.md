@@ -14,6 +14,7 @@ related_diseases:
   - "눈물길 감염"
   - "아목시실린-클라불란산"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

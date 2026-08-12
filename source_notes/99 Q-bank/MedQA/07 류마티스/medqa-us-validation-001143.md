@@ -13,6 +13,7 @@ related_diseases:
   - "혼합결합조직병"
   - "폐동맥고혈압"
   - "레이노 현상"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: A

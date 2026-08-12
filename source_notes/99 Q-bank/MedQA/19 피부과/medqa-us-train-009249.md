@@ -14,6 +14,7 @@ related_diseases:
   - "지루각화증"
   - "benign skin lesion"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

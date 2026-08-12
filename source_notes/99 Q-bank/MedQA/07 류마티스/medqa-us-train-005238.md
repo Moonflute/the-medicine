@@ -13,6 +13,8 @@ related_diseases:
   - "경피증 신장위기"
   - "전신경화증"
   - "ACE 억제제 치료"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDqsr3tmZTspp0gKFN5c3RlbWljIFNjbGVyb3NpcykubWQ
 question_type: management
 difficulty: complex
 answer: D

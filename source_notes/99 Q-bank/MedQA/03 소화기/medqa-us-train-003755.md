@@ -14,6 +14,7 @@ related_diseases:
   - "malabsorption"
   - "Tropheryma whipplei"
   - "small bowel biopsy"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

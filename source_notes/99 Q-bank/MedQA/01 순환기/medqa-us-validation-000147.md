@@ -13,6 +13,8 @@ related_diseases:
   - "심장 아밀로이드증"
   - "제한성 심근병증"
   - "심근 생검"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-ygnO2VnOyEsSDsi6zqt7zrs5Hspp0gKFJlc3RyaWN0aXZlIENhcmRpb215b3BhdGh5KS5tZA
 question_type: investigation
 difficulty: standard
 answer: B

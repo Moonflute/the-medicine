@@ -15,6 +15,9 @@ related_diseases:
   - "비뇨생식기 위축"
   - "유방암 병력"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2PkOqyvSAoTWVub3BhdXNlKS5tZA
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

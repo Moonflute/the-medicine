@@ -13,6 +13,8 @@ related_diseases:
   - "Turner syndrome"
   - "터너증후군"
   - "benign nevi"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YSw64SIIOymne2bhOq1sCAoVHVybmVyIFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

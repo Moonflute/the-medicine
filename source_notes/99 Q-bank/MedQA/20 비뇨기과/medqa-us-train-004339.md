@@ -14,6 +14,8 @@ related_diseases:
   - "고환 종양"
   - "β-hCG 상승"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-qzoO2ZmCDsooXslpEgKFRlc3RpY3VsYXIgY2FuY2VyKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

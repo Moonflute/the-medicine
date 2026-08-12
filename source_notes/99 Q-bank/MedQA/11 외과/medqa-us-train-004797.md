@@ -13,6 +13,9 @@ related_diseases:
   - "서혜부 탈장"
   - "간접 서혜부 탈장"
   - "발살바 수기 돌출"
+  - "indirect inguinal hernia"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yDheq1tCDtg4jsnqUgKEluZ3VpbmFsIEhlcm5pYSkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: B

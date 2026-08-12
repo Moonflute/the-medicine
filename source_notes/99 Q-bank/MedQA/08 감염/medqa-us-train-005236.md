@@ -13,6 +13,7 @@ related_diseases:
   - "파종성 결핵"
   - "인터페론감마 결핍"
   - "소아 면역결핍"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: A

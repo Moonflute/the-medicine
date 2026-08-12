@@ -15,6 +15,8 @@ related_diseases:
   - "spinal cord compression"
   - "methylprednisolone"
 question_type: management
+related_disease_slugs:
+  - MTAg7KKF7JaRL-yymeyImCDslZXrsJUg7Kad7ZuE6rWwIChTcGluYWwgQ29yZCBDb21wcmVzc2lvbiBTeW5kcm9tZSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

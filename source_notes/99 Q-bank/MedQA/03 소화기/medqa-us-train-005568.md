@@ -13,6 +13,8 @@ related_diseases:
   - "식도주위 탈장"
   - "위식도 접합부 탈장"
   - "수술적 위고정술"
+  - "Paraesophageal hiatal hernia"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: D

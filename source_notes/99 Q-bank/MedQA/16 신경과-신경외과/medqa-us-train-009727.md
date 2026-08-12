@@ -14,6 +14,8 @@ related_diseases:
   - "지주막하출혈"
   - "lumbar puncture"
 question_type: investigation
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sp4Dso7zrp4ntlZgg7Lac7ZiIIChTdWJhcmFjaG5vaWQgaGVtb3JyaGFnZSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

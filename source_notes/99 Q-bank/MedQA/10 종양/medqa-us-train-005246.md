@@ -13,6 +13,7 @@ related_diseases:
   - "유방암 선별검사"
   - "평균 위험 여성"
   - "유방촬영술 시작 연령"
+related_disease_slugs: []
 question_type: prevention
 difficulty: complex
 answer: C

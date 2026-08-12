@@ -13,6 +13,8 @@ related_diseases:
   - "수술부위 감염"
   - "흉골 창상 감염"
   - "창상 벌어짐"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-ywveyDgSDqsJDsl7wgKFdvdW5kIEluZmVjdGlvbikubWQ
 question_type: management
 difficulty: standard
 answer: A

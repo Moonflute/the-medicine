@@ -14,6 +14,8 @@ related_diseases:
   - "acetaminophen toxicity"
   - "shock liver"
 question_type: mechanism
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

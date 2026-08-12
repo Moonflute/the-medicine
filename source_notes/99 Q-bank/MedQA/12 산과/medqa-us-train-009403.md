@@ -14,6 +14,7 @@ related_diseases:
   - "전치혈관"
   - "fetal hemorrhage"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "abdominal aortic aneurysm"
   - "benign prostatic hyperplasia"
   - "abdominal ultrasonography"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uzteu2gCDrjIDrj5nrp6XrpZggKEFiZG9taW5hbCBBb3J0aWMgQW5ldXJ5c20pLm1k
+  - MjAg67mE64eo6riw6rO8L-yWkeyEsSDsoITrpr3sg5gg67mE64yA7KadIChCZW5pZ24gUHJvc3RhdGljIEh5cGVycGxhc2lhKS5tZA
 question_type: investigation
 difficulty: standard
 answer: D

@@ -13,6 +13,7 @@ related_diseases:
   - "고혈압성 신경화증"
   - "사구체 경화"
   - "세동맥 유리질화"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: C

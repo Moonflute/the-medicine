@@ -16,6 +16,8 @@ related_diseases:
   - "axillary freckling"
   - "Lisch nodules"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug6rK9IOyErOycoOyiheymnSAoTmV1cm9maWJyb21hdG9zaXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

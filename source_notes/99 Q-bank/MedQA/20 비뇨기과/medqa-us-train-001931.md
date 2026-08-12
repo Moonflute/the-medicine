@@ -14,6 +14,9 @@ related_diseases:
   - "epididymitis"
   - "scrotal ultrasound"
 question_type: investigation
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-qzoO2ZmOyXvOyghCAoVGVzdGljdWxhciB0b3JzaW9uKS5tZA
+  - MjAg67mE64eo6riw6rO8L-q4ieyEsSDrtoDqs6DtmZjsl7wgKEFjdXRlIGVwaWRpZHltaXRpcykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

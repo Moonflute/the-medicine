@@ -13,7 +13,9 @@ related_diseases:
   - "지속성 우울장애"
   - "사별 후 우울"
   - "만성 우울 증상"
+  - "Persistent depressive disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

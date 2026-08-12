@@ -13,7 +13,9 @@ related_diseases:
   - "반복 중기 유산"
   - "자궁 기형"
   - "자궁난관조영술"
+  - "Fallopian tube obstruction"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

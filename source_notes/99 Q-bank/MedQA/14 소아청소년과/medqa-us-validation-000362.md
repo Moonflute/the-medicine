@@ -13,7 +13,10 @@ related_diseases:
   - "선천성 배꼽탈장"
   - "환원 가능한 탈장"
   - "기대요법"
+  - "Umbilical hernia"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uwsOq8vSDtg4jsnqUgKFVtYmlsaWNhbCBIZXJuaWEpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

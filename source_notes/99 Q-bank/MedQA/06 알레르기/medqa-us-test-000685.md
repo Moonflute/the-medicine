@@ -13,6 +13,9 @@ related_diseases:
   - "유전성 혈관부종"
   - "C1 에스터레이스 억제인자 결핍"
   - "브래디키닌"
+  - "Hereditary angioedema"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOu2gOyihSAo7Jyg7KCE7ISxKSAoSGVyZWRpdGFyeSBBbmdpb2VkZW1hKS5tZA
 question_type: mechanism
 difficulty: standard
 answer: B

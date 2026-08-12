@@ -13,6 +13,8 @@ related_diseases:
   - "마르판증후군"
   - "대동맥 박리"
   - "대동맥근 확장"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: D

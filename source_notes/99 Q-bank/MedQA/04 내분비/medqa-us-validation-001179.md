@@ -13,6 +13,9 @@ related_diseases:
   - "고프로락틴혈증"
   - "무월경"
   - "유즙분비"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoO2UhOuhnOudve2LtO2YiOymnSAoSHlwZXJwcm9sYWN0aW5lbWlhKS5tZA
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 question_type: investigation
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "동정맥기형"
   - "무통성 하부위장관 출혈"
   - "혈관이형성증"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tlZjrtoAg7JyE7J6l6rSAIOy2nO2YiCAoTG93ZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ
 question_type: management
 difficulty: complex
 answer: A

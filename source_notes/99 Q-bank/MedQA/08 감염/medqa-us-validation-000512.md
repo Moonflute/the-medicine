@@ -13,6 +13,9 @@ related_diseases:
   - "일차 매독"
   - "경성하감"
   - "창백 트레포네마"
+  - "Syphilis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-unpOuPhSAoU3lwaGlsaXMpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: C

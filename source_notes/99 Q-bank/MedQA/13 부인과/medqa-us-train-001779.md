@@ -14,6 +14,7 @@ related_diseases:
   - "chlamydia coinfection"
   - "partner treatment"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

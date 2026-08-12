@@ -14,6 +14,8 @@ related_diseases:
   - "메니에르병"
   - "low-salt diet"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uplOuLiOyXkOultOuzkSAoTWVuaWVyZSdzIGRpc2Vhc2UpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

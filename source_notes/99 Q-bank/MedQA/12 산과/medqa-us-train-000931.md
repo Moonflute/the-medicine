@@ -13,6 +13,8 @@ related_diseases:
   - "fetal demise"
   - "disseminated intravascular coagulation"
 question_type: management
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2MjOyihSDtmIjqtIDrgrQg7J2R6rOgIChEaXNzZW1pbmF0ZWQgSW50cmF2YXNjdWxhciBDb2FndWxhdGlvbiwgRElDKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "22q11.2 결실"
   - "저칼슘혈증"
 question_type: diagnosis
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggOy5vOyKmO2YiOymnSAoSHlwb2NhbGNlbWlhKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCA7Iq07IOYIOustO2YleyEseymnSAoRGlHZW9yZ2UgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

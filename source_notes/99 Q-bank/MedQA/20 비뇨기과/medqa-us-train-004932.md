@@ -14,6 +14,8 @@ related_diseases:
   - "크레마스터 반사 소실"
   - "응급 음낭 탐색"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-qzoO2ZmOyXvOyghCAoVGVzdGljdWxhciB0b3JzaW9uKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

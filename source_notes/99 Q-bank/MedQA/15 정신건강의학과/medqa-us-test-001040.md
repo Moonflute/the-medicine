@@ -14,6 +14,8 @@ related_diseases:
   - "프라미펙솔"
   - "도파민 작용제"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VmOyngCDrtojslYgg7Kad7ZuE6rWwIChSZXN0bGVzcyBMZWcgU3luZHJvbWUpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -13,6 +13,10 @@ related_diseases:
   - "급성 간질성 신염"
   - "NSAID 유발 신염"
   - "약물 발진"
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yVveusvCDrsJzsp4QgKERydWcgRXJ1cHRpb24pLm1k
+  - MDUg7Iug7J6lL-yVjOugiOultOq4sOyEsSDshLjqtIDsgqzsnbTsp4gg7L2p7Yyl7Je8IChBbGxlcmdpYyBJbnRlcnN0aXRpYWwgTmVwaHJpdGlzKS5tZA
+  - MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsvantjKXsl7wgKFR1YnVsb2ludGVyc3RpdGlhbCBOZXBocml0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -14,6 +14,9 @@ related_diseases:
   - "수술 후 발열"
   - "급성 용혈성 수혈 반응"
 question_type: diagnosis
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yImOyIoCDtm4Qg67Cc7Je0IChQb3N0b3BlcmF0aXZlIEZldmVyKS5tZA
+  - MTEg7Jm46rO8L-q4ieyEsSDsmqntmIjshLEg7IiY7ZiIIOuwmOydkSAoQWN1dGUgSGVtb2x5dGljIFRyYW5zZnVzaW9uIFJlYWN0aW9uKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

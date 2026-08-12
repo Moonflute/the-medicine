@@ -15,6 +15,7 @@ related_diseases:
   - "caregiver stress"
   - "mandatory reporting"
 question_type: ethics
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

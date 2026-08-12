@@ -14,6 +14,8 @@ related_diseases:
   - "직접 고빌리루빈혈증"
   - "창백한 변"
 question_type: diagnosis
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qs6DruYzrpqzro6jruYjspp0ubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

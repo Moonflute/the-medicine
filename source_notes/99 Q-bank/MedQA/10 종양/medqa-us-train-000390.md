@@ -13,6 +13,8 @@ related_diseases:
   - "microcalcifications"
   - "polycystic ovarian syndrome"
   - "non-invasive malignancy"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
 question_type: management
 difficulty: complex
 answer: C

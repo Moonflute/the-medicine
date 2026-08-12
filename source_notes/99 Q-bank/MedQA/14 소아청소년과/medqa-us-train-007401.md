@@ -15,6 +15,8 @@ related_diseases:
   - "점막 변화"
   - "손발바닥 발진"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCA7JmA7IKs7YKk67ORIChLYXdhc2FraSBEaXNlYXNlKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

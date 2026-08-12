@@ -16,6 +16,11 @@ related_diseases:
   - "Toxoplasma retinitis"
   - "HIV retinopathy"
   - "Varicella zoster retinitis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
+  - MDgg6rCQ7Je8L-qxsOuMgOyEuO2PrOuwlOydtOufrOyKpCDqsJDsl7wgKENNVikgKEN5dG9tZWdhbG92aXJ1cyBJbmZlY3Rpb24gKENNVikpLm1k
+  - MDgg6rCQ7Je8L-2GoeyGjO2UjOudvOymiOuniOymnSAoVG94b3BsYXNtb3NpcykubWQ
+  - MDgg6rCQ7Je8L-yImOuRkC3rjIDsg4Htj6zsp4Qg67CU7J2065-s7IqkIOqwkOyXvCAoVmFyaWNlbGxhLVpvc3RlciBWaXJ1cyBJbmZlY3Rpb24pLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

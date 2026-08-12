@@ -13,6 +13,7 @@ related_diseases:
   - "Yersinia enterocolitica"
   - "여시니아 엔테로콜리티카"
   - "yersiniosis"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

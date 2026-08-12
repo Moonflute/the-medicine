@@ -11,7 +11,9 @@ language: ko
 specialty: 14 소아청소년과
 related_diseases:
   - "breastfeeding jaundice"
+  - "Breast milk jaundice"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

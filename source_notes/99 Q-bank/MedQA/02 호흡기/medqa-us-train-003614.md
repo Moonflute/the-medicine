@@ -14,6 +14,8 @@ related_diseases:
   - "Kartagener syndrome"
   - "bronchiectasis"
   - "situs inversus or congenital heart disease"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4sOq0gOyngCDtmZXsnqXspp0gKEJyb25jaGllY3Rhc2lzKS5tZA
 question_type: association
 difficulty: complex
 answer: A

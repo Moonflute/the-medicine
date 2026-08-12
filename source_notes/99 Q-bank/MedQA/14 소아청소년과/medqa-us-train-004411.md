@@ -14,6 +14,7 @@ related_diseases:
   - "표현 언어 지연"
   - "소아 발달 평가"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

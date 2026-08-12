@@ -13,6 +13,9 @@ related_diseases:
   - "급성 신우신염"
   - "복잡성 요로감염"
   - "당뇨병"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: 임상증례 객관식
 difficulty: complex
 answer: D

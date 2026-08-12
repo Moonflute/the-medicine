@@ -14,6 +14,7 @@ related_diseases:
   - "HPV 백신"
   - "건강검진"
 question_type: prevention
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

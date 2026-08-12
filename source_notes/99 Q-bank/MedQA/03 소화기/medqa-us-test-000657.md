@@ -13,6 +13,9 @@ related_diseases:
   - "천공성 위궤양"
   - "복막염"
   - "급성 복증"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-q4ieyEsSDrs7Xspp0gKEFjdXRlIEFiZG9tZW4pLm1k
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDrsJzshLEg7IS46regIOuzteunieyXvCAoU3BvbnRhbmVvdXMgQmFjdGVyaWFsIFBlcml0b25pdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

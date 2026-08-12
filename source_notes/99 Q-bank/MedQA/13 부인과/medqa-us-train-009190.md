@@ -14,6 +14,8 @@ related_diseases:
   - "자궁내막증"
   - "chronic pelvic pain"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nspp0gKEVuZG9tZXRyaW9zaXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

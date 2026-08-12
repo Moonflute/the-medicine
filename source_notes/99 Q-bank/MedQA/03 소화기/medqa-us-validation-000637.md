@@ -13,6 +13,8 @@ related_diseases:
   - "궤양성 대장염"
   - "연속성 대장염"
   - "메살라민"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: C

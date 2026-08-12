@@ -15,6 +15,7 @@ related_diseases:
   - "normal neonatal finding"
   - "no treatment"
 question_type: management
+related_disease_slugs: []
 difficulty: simple
 answer: C
 translation_status: machine-verified

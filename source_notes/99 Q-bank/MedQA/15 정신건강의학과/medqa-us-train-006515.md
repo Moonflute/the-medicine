@@ -14,6 +14,8 @@ related_diseases:
   - "환청"
   - "망상"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

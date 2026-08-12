@@ -13,6 +13,8 @@ related_diseases:
   - "간경변성 복수"
   - "자발성 세균성 복막염"
   - "복수천자"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDrsJzshLEg7IS46regIOuzteunieyXvCAoU3BvbnRhbmVvdXMgQmFjdGVyaWFsIFBlcml0b25pdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: C

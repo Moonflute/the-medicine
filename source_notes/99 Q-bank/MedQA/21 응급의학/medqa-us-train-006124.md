@@ -14,6 +14,8 @@ related_diseases:
   - "격앙 상태"
   - "할로페리돌 D2 길항"
 question_type: mechanism
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

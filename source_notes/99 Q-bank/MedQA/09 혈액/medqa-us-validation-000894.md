@@ -13,6 +13,8 @@ related_diseases:
   - "급성 통풍"
   - "고요산혈증"
   - "종양융해증후군"
+related_disease_slugs:
+  - MTAg7KKF7JaRL-yiheyWkeuCtOqzvC5tZA
 question_type: prevention
 difficulty: standard
 answer: B

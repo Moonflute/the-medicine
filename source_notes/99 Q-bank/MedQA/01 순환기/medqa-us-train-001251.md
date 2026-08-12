@@ -13,6 +13,9 @@ related_diseases:
   - "cardiac arrest"
   - "ventricular fibrillation"
   - "pulmonary embolism"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
+  - MDEg7Iic7ZmY6riwL-yLrOyLpCDsobDrj5ks7IS464-ZIChWZW50cmljdWxhciBmbHV0dGVyLCBmaWJyaWxsYXRpb24pLm1k
 question_type: management
 difficulty: standard
 answer: C

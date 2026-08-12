@@ -14,6 +14,8 @@ related_diseases:
   - "흉선 무형성"
   - "면역결핍"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7KadIOuzte2VqSDrqbTsl60g6rKw7ZWN7KadIChTZXZlcmUgQ29tYmluZWQgSW1tdW5vZGVmaWNpZW5jeSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

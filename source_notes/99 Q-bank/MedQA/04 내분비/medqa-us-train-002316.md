@@ -14,6 +14,8 @@ related_diseases:
   - "raloxifene"
   - "selective estrogen receptor modulator"
   - "hot flashes"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 question_type: adverse_effect
 difficulty: complex
 answer: B

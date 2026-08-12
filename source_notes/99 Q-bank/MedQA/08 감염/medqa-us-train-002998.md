@@ -14,6 +14,8 @@ related_diseases:
   - "pyridoxine supplementation"
   - "tuberculosis treatment"
   - "vitamin B6 deficiency"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEIg6rKw7ZWN7KadIChWaXRhbWluIEIgRGVmaWNpZW5jeSkubWQ
 question_type: prevention
 difficulty: complex
 answer: C

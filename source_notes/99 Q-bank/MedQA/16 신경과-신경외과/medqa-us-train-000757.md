@@ -15,6 +15,9 @@ related_diseases:
   - "Benign Paroxysmal Positional Vertigo"
   - "Vestibular neuritis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-ydtOyEneymnSAoQmVuaWduIHBhcm94eXNtYWwgcG9zaXRpb25hbCB2ZXJ0aWdvKS5tZA
+  - MTcg7J2067mE7J247ZuE6rO8L-yghOygleyLoOqyveyXvCAoVmVzdGlidWxhciBuZXVyaXRpcykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

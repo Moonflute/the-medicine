@@ -12,6 +12,8 @@ specialty: 03 소화기
 related_diseases:
   - "chronic mesenteric ischemia"
   - "intestinal angina"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rp4zshLEg7J6l6rCE66eJIO2XiO2YiCAoQ2hyb25pYyBNZXNlbnRlcmljIElzY2hlbWlhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

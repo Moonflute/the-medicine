@@ -14,6 +14,7 @@ related_diseases:
   - "영아 발가락 허혈"
   - "연조직 압박"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

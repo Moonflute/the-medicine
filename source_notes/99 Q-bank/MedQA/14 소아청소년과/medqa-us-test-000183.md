@@ -12,7 +12,9 @@ specialty: 14 소아청소년과
 related_diseases:
   - "사춘기 여성형유방"
   - "여성형유방"
+  - "gynecomastia"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

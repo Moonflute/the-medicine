@@ -13,7 +13,9 @@ related_diseases:
   - "진행성 핵상마비"
   - "중뇌 위축"
   - "수직주시마비"
+  - "Progressive supranuclear palsy"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

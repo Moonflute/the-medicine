@@ -14,6 +14,9 @@ related_diseases:
   - "고혈압"
   - "윌슨병"
 question_type: prevention
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snIzsiqjrs5EgKFdpbHNvbidzIERpc2Vhc2UpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -15,6 +15,7 @@ related_diseases:
   - "beta-hCG discriminatory zone"
   - "repeat transvaginal ultrasound"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

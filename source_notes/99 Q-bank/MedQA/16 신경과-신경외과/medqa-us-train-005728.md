@@ -14,6 +14,7 @@ related_diseases:
   - "샤이-드래거 증후군"
   - "자율신경 기능부전"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

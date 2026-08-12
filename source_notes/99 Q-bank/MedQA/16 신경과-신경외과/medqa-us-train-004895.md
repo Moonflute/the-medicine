@@ -14,6 +14,9 @@ related_diseases:
   - "시신경염"
   - "뇌척수액 올리고클론띠"
 question_type: investigation
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
+  - MTgg7JWI6rO8L-yLnOyLoOqyveyXvCAob3B0aWMgbmV1cml0aXMpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

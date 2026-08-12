@@ -14,6 +14,8 @@ related_diseases:
   - "폐경 후 여성"
   - "예방 건강검진"
 question_type: prevention
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

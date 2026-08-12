@@ -14,6 +14,8 @@ related_diseases:
   - "성교통"
   - "복강경검사"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nspp0gKEVuZG9tZXRyaW9zaXMpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

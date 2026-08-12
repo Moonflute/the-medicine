@@ -13,6 +13,9 @@ related_diseases:
   - "hyperprolactinemia"
   - "galactorrhea"
   - "amenorrhea"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoO2UhOuhnOudve2LtO2YiOymnSAoSHlwZXJwcm9sYWN0aW5lbWlhKS5tZA
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 question_type: management
 difficulty: simple
 answer: C

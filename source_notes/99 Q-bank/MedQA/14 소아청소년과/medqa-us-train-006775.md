@@ -14,6 +14,9 @@ related_diseases:
   - "동맥관 개존증"
   - "자반성 발진"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yEoOyynOyEsSDtko3sp4Qg7Kad7ZuE6rWwIChDb25nZW5pdGFsIFJ1YmVsbGEgU3luZHJvbWUpLm1k
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64-Z66el6rSAIOqwnOyhtOymnSAoUGF0ZW50IER1Y3R1cyBBcnRlcmlvc3VzKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

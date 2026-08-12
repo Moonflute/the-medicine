@@ -14,6 +14,8 @@ related_diseases:
   - "외상성 요통"
   - "기능성 증상 감별"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-qzqOygiCDstJ3roaAgKEZyYWN0dXJlIEdlbmVyYWwgUHJpbmNpcGxlcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

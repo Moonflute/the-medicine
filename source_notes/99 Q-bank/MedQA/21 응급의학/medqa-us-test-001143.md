@@ -14,6 +14,7 @@ related_diseases:
   - "불명확한 약물 과다복용"
   - "N-아세틸시스테인"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

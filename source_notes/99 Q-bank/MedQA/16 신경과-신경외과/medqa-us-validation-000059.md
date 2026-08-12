@@ -14,6 +14,8 @@ related_diseases:
   - "글루코코르티코이드"
   - "호산구감소증"
 question_type: mechanism
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

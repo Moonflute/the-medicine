@@ -13,6 +13,8 @@ related_diseases:
   - "심실세동"
   - "급성 심근경색"
   - "심장 돌연사"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: prognosis
 difficulty: simple
 answer: D

@@ -14,6 +14,9 @@ related_diseases:
   - "Chlamydia trachomatis"
   - "urethritis"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-u5hOyehOq3oOyalOuPhOyXvCAoTm9uZ29ub2NvY2NhbCB1cmV0aHJpdGlzKS5tZA
+  - MjAg67mE64eo6riw6rO8L-yalOuPhOyXvCAoVXJldGhyaXRpcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

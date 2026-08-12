@@ -13,6 +13,8 @@ related_diseases:
   - "치료 관련 골수형성이상증후군"
   - "고리철적아구"
   - "항암화학요법 후 골수이상"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qzqOyImO2YleyEseydtOyDgSDspp3tm4TqtbAgKE15ZWxvZHlzcGxhc3RpYyBTeW5kcm9tZSwgTURTKS5tZA
 question_type: other
 difficulty: complex
 answer: A

@@ -13,6 +13,9 @@ related_diseases:
   - "칼슘 옥살산염 신장결석"
   - "크론병"
   - "장-신장 축"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k
+  - MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

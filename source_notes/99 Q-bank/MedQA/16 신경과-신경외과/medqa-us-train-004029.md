@@ -15,6 +15,9 @@ related_diseases:
   - "최근 심근경색"
   - "tPA 금기"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

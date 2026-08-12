@@ -14,6 +14,8 @@ related_diseases:
   - "급성 사지 허혈"
   - "외상성 구획압 상승"
 question_type: management
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDrj5nrp6Ug7Y-Q7IOJIChBY3V0ZSBBcnRlcmlhbCBPY2NsdXNpb24pLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

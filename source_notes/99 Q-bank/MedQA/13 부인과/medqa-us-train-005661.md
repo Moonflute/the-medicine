@@ -14,6 +14,8 @@ related_diseases:
   - "혐기성 세균 과증식"
   - "질 분비물과 악취"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yEuOq3oOyEsSDsp4jsl7wgKEJhY3RlcmlhbCBWYWdpbm9zaXMpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "다운증후군"
   - "경수 압박"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "ABO 부적합"
   - "제2형 세포독성 과민반응"
   - "수혈 쇼크"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-q4ieyEsSDsmqntmIjshLEg7IiY7ZiIIOuwmOydkSAoQWN1dGUgSGVtb2x5dGljIFRyYW5zZnVzaW9uIFJlYWN0aW9uKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: B

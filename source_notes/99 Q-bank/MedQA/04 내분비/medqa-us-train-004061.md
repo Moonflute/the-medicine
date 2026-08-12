@@ -13,6 +13,8 @@ related_diseases:
   - "당뇨병성 케톤산증"
   - "뇌부종"
   - "시신경유두부종"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: C

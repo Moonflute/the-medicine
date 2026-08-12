@@ -14,7 +14,9 @@ related_diseases:
   - "early decontamination"
   - "activated charcoal"
   - "suicide attempt"
+  - "Acetaminophen overdose"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

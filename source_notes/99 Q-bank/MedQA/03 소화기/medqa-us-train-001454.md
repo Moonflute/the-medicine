@@ -12,6 +12,8 @@ specialty: 03 소화기
 related_diseases:
   - "Boerhaave syndrome"
   - "esophageal rupture"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rtYjrpbTtlZjruIwg7Kad7ZuE6rWwIChCb2VyaGFhdmUgU3luZHJvbWUpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: C

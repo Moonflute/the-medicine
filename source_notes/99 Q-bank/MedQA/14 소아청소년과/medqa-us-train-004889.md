@@ -14,6 +14,7 @@ related_diseases:
   - "성장부진"
   - "성장곡선"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

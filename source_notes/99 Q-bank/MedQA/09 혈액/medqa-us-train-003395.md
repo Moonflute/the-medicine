@@ -14,6 +14,8 @@ related_diseases:
   - "leukocyte alkaline phosphatase"
   - "basophilia"
   - "splenomegaly"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChDTUwpIChDaHJvbmljIE15ZWxvaWQgTGV1a2VtaWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -14,6 +14,8 @@ related_diseases:
   - "포상기태 배제"
   - "임신 중 지속 구토"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2PrOyDgeq4sO2DnCAoTW9sYXIgUHJlZ25hbmN5KS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "유착성 소장폐색"
   - "복부 수술 후 유착"
   - "장폐색"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snqXtj5Dsg4kubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shozsnqUg7Y-Q7IeEIChTbWFsbCBCb3dlbCBPYnN0cnVjdGlvbikubWQ
 question_type: mechanism
 difficulty: complex
 answer: C

@@ -15,6 +15,8 @@ related_diseases:
   - "burns"
   - "soot"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ
 difficulty: simple
 answer: C
 translation_status: machine-verified

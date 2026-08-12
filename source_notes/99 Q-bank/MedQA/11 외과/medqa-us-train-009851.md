@@ -13,6 +13,8 @@ related_diseases:
   - "욕창"
   - "압박궤양"
   - "체위 변경"
+  - "Pressure ulcer"
+related_disease_slugs: []
 question_type: prevention
 difficulty: simple
 answer: D

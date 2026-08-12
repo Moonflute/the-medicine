@@ -13,6 +13,8 @@ related_diseases:
   - "요관결석"
   - "신장 산통"
   - "하이드로코돈"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 question_type: management
 difficulty: standard
 answer: D

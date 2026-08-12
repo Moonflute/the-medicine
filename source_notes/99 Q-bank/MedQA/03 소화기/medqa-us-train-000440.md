@@ -14,6 +14,8 @@ related_diseases:
   - "symptomatic biliary colic"
   - "sleeve gastrectomy"
   - "sphincter of Oddi dysfunction"
+  - "Sphincter of Oddi dysfunction"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: C

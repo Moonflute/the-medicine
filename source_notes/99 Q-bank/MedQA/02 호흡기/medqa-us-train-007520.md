@@ -14,6 +14,8 @@ related_diseases:
   - "흡연"
   - "FEV1 감소"
   - "금연"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: prevention
 difficulty: complex
 answer: A

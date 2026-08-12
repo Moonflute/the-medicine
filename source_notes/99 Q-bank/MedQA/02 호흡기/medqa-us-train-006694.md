@@ -13,6 +13,7 @@ related_diseases:
   - "바이러스성 기관지염"
   - "상기도 감염"
   - "지지요법"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

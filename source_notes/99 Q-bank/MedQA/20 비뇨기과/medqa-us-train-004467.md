@@ -14,6 +14,8 @@ related_diseases:
   - "방광 통증 증후군"
   - "점상 출혈"
 question_type: management
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2KueuwnOyEsSDtmIjshoztjJDqsJDshozshLEg7J6Q67CY7KadIChJZGlvcGF0aGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgSVRQKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

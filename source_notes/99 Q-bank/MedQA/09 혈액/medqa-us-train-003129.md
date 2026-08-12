@@ -14,6 +14,8 @@ related_diseases:
   - "hypocellular bone marrow"
   - "pancytopenia"
   - "low reticulocyte count"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yerOyDneu2iOufieyEsSDruYjtmIggKEFBKSAoQXBsYXN0aWMgQW5lbWlhIChBQSkpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

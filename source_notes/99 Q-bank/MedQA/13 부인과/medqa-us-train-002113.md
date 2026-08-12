@@ -15,6 +15,9 @@ related_diseases:
   - "secondary amenorrhea"
   - "physiologic hyperprolactinemia"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
+  - MDQg64K067aE67mEL-qzoO2UhOuhnOudve2LtO2YiOymnSAoSHlwZXJwcm9sYWN0aW5lbWlhKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

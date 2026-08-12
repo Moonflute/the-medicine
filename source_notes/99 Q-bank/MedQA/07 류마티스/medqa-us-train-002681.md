@@ -14,6 +14,9 @@ related_diseases:
   - "scleroderma"
   - "anti-topoisomerase I antibody"
   - "interstitial lung disease"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDqsr3tmZTspp0gKFN5c3RlbWljIFNjbGVyb3NpcykubWQ
+  - MDIg7Zi47Z2h6riwL-qwhOyniOyEsSDtj5Dsp4jtmZggKEludGVyc3RpdGlhbCBsdW5nIGRpc2Vhc2UpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

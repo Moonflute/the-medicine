@@ -13,6 +13,8 @@ related_diseases:
   - "급성 신우신염"
   - "당뇨병 합병 요로감염"
   - "경구 항생제 전환"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: D

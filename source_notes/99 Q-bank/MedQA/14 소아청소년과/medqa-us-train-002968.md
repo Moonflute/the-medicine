@@ -15,6 +15,7 @@ related_diseases:
   - "gross motor development"
   - "2-month milestone"
 question_type: other
+related_disease_slugs: []
 difficulty: simple
 answer: A
 translation_status: machine-verified

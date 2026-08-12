@@ -12,6 +12,8 @@ specialty: 13 부인과
 related_diseases:
   - "ectopic pregnancy"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

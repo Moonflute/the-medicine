@@ -14,7 +14,9 @@ related_diseases:
   - "blowout fracture"
   - "diplopia"
   - "conservative management"
+  - "Orbital floor fracture"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

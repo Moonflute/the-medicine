@@ -14,6 +14,9 @@ related_diseases:
   - "요관 결석"
   - "요도 출혈"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
+  - MjAg67mE64eo6riw6rO8L-yalOuPhCDshpDsg4EgKFVyZXRocmFsIGluanVyeSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

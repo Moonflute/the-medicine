@@ -14,6 +14,9 @@ related_diseases:
   - "cardiogenic shock"
   - "postoperative opioid overdose differential"
   - "new left bundle branch block"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: investigation
 difficulty: complex
 answer: A

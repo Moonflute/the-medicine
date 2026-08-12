@@ -13,6 +13,8 @@ related_diseases:
   - "brain death"
   - "brainstem reflexes"
 question_type: investigation
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsgqwgKEJyYWluIGRlYXRoKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

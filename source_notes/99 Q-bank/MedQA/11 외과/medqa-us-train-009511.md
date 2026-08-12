@@ -13,6 +13,7 @@ related_diseases:
   - "split-thickness skin graft"
   - "부분층 피부이식"
   - "ankle skin defect"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: D

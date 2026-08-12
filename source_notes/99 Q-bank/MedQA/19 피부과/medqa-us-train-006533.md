@@ -13,7 +13,10 @@ related_diseases:
   - "흑색종 감별"
   - "색소성 모반"
   - "피부 병변 ABCDE 평가"
+  - "melanoma"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yVheyEsSDtnZHsg4nsooUgKE1hbGlnbmFudCBNZWxhbm9tYSkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

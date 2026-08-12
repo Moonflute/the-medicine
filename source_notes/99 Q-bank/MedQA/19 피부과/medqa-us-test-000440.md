@@ -14,6 +14,8 @@ related_diseases:
   - "피부사상균증"
   - "진균 감염"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uwseyEoCAoVGluZWEpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

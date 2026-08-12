@@ -13,6 +13,7 @@ related_diseases:
   - "칼슘피로인산 침착질환"
   - "가성통풍"
   - "연골석회화"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

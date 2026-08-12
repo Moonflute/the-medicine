@@ -15,6 +15,8 @@ related_diseases:
   - "호흡부전 임박"
   - "기관 삽관"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

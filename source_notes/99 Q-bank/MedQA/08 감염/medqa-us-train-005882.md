@@ -13,6 +13,9 @@ related_diseases:
   - "세균성 수막염"
   - "고령자 리스테리아 감염"
   - "경험적 항생제와 덱사메타손"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IS46reg7ISxIOuHjOyImOunieyXvCAoQmFjdGVyaWFsIE1lbmluZ2l0aXMpLm1k
+  - MDgg6rCQ7Je8L-umrOyKpO2FjOumrOyVhCAoTGlzdGVyaWEpLm1k
 question_type: management
 difficulty: complex
 answer: C

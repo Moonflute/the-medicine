@@ -13,7 +13,10 @@ related_diseases:
   - "국소발작"
   - "양측 강직간대성 발작"
   - "발작 후 혼돈"
+  - "Focal seizure"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rsJzsnpEgKFNlaXp1cmUpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "슬개건염"
   - "전방 무릎 통증"
   - "슬개골 하극 압통"
+  - "Patellar tendinitis"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: C

@@ -19,6 +19,9 @@ related_diseases:
   - "빈혈"
   - "혈소판 감소증"
   - "신부전"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDthrUubWQ
 question_type: management
 difficulty: complex
 answer: D

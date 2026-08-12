@@ -15,6 +15,9 @@ related_diseases:
   - "beta-2 agonist"
   - "preterm labor tocolysis"
 question_type: investigation
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
+  - MTIg7IKw6rO8L-yhsOq4sCDsp4TthrUgKFByZXRlcm0gTGFib3IpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

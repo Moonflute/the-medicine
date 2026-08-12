@@ -13,6 +13,9 @@ related_diseases:
   - "ulcerative colitis"
   - "colorectal cancer surveillance"
   - "pseudopolyps"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
 question_type: prevention
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "스타틴 유발 간독성"
   - "트랜스아미나제 상승"
   - "심바스타틴"
+  - "Statin-induced liver injury"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: simple
 answer: B

@@ -15,6 +15,8 @@ related_diseases:
   - "Kayser-Fleischer ring"
   - "oral zinc therapy"
 question_type: management
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snIzsiqjrs5EgKFdpbHNvbidzIERpc2Vhc2UpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

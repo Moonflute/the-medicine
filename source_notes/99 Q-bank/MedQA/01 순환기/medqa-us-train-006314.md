@@ -13,6 +13,8 @@ related_diseases:
   - "버거병"
   - "폐쇄성 혈전혈관염"
   - "흡연"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2PkOyHhO2YiOq0gCDtmIjsoITsl7wgKOuyhOqxsOuzkSkgKFRocm9tYm9hbmdpaXRpcyBPYmxpdGVyYW5zIChCdWVyZ2VyJ3MgRGlzZWFzZSkpLm1k
 question_type: prevention
 difficulty: complex
 answer: B

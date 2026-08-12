@@ -13,6 +13,9 @@ related_diseases:
   - "상염색체 우성 다낭신"
   - "간 낭종"
   - "다낭신 가족력"
+  - "Autosomal dominant polycystic kidney disease"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-uLpOuCreyEsSDsvantjKUg7KeI7ZmYIChQb2x5Y3lzdGljIEtpZG5leSBEaXNlYXNlKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

@@ -13,6 +13,8 @@ related_diseases:
   - "소장폐색"
   - "공기-액체층"
   - "장폐색 방사선 소견"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shozsnqUg7Y-Q7IeEIChTbWFsbCBCb3dlbCBPYnN0cnVjdGlvbikubWQ
 question_type: investigation
 difficulty: complex
 answer: C

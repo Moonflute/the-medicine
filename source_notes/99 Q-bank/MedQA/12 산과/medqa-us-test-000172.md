@@ -13,6 +13,7 @@ related_diseases:
   - "에드워드 증후군"
   - "18번 삼염색체증"
   - "자궁 내 성장지연"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: D

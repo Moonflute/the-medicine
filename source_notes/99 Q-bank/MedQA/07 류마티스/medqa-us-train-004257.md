@@ -13,6 +13,8 @@ related_diseases:
   - "다발혈관염을 동반한 육아종증"
   - "ANCA 연관 혈관염"
   - "사구체신염"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yCrOq1rOyytOyniO2ZmC5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

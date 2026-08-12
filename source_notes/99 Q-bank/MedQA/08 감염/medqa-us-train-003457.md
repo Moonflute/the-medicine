@@ -14,6 +14,8 @@ related_diseases:
   - "antibiotic-associated diarrhea"
   - "severe diarrhea"
   - "oral vancomycin"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qxsOynk-uniSDqsrDsnqXsl7wgKFBzZXVkb21lbWJyYW5vdXMgQ29saXRpcykubWQ
 question_type: management
 difficulty: standard
 answer: D

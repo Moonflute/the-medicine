@@ -14,6 +14,8 @@ related_diseases:
   - "right ACA occlusion"
   - "abulia"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC9BQ0Eg6rK97IOJIChBQ0EgaW5mYXJjdGlvbikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

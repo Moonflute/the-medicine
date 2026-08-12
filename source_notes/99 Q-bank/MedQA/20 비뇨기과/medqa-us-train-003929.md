@@ -15,6 +15,9 @@ related_diseases:
   - "radiation therapy"
   - "prostate adenocarcinoma"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
+  - MDIg7Zi47Z2h6riwL-2PkCDshKDslZQgKEFkZW5vY2FyY2lub21hKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

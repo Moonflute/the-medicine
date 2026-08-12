@@ -15,6 +15,8 @@ related_diseases:
   - "히드로클로로티아지드"
   - "현훈 예방"
 question_type: prevention
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uplOuLiOyXkOultOuzkSAoTWVuaWVyZSdzIGRpc2Vhc2UpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

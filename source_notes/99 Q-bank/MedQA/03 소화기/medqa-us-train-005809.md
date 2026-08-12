@@ -13,6 +13,8 @@ related_diseases:
   - "천공성 소화성 궤양"
   - "복강내 유리공기"
   - "응급 복부수술"
+  - "Perforated peptic ulcer"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: C

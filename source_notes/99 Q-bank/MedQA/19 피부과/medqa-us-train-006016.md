@@ -14,6 +14,8 @@ related_diseases:
   - "탈모"
   - "알코올 사용과 영양결핍"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JWE7JewIOqysO2VjeymnSAoWmluYyBEZWZpY2llbmN5KS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

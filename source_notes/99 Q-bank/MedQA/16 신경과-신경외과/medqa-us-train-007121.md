@@ -13,7 +13,9 @@ related_diseases:
   - "대뇌겸하 탈출"
   - "경막하 혈종"
   - "전대뇌동맥 압박"
+  - "Subfalcine herniation"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

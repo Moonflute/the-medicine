@@ -13,6 +13,9 @@ related_diseases:
   - "megaloblastic anemia"
   - "homocystinuria"
   - "pyridoxine"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qxsOuMgOygge2YiOuqqOq1rCDruYjtmIggKE1lZ2Fsb2JsYXN0aWMgQW5lbWlhKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Zi466qo7Iuc7Iqk7YWM7J2464eo7KadIChIb21vY3lzdGludXJpYSkubWQ
 question_type: prevention
 difficulty: complex
 answer: B

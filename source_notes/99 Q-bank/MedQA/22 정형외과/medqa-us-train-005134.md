@@ -13,7 +13,9 @@ related_diseases:
   - "슬개전 윤활낭염"
   - "무릎 윤활낭염"
   - "직업성 무릎 압박"
+  - "Prepatellar bursitis"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

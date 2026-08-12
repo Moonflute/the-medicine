@@ -15,6 +15,8 @@ related_diseases:
   - "급성 하복부 통증"
   - "충수염 감별"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

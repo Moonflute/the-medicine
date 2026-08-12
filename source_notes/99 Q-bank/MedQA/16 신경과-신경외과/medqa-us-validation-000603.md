@@ -14,6 +14,8 @@ related_diseases:
   - "정중신경"
   - "C5-T1 신경근"
 question_type: localization
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

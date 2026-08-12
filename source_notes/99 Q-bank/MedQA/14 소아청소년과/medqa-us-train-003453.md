@@ -15,6 +15,7 @@ related_diseases:
   - "absent B cells"
   - "intravenous immunoglobulin"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

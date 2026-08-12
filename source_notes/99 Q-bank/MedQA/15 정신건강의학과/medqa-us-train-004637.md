@@ -14,6 +14,8 @@ related_diseases:
   - "오염 강박"
   - "노출 및 반응방지"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qwleuwlSDsnqXslaAgKE9ic2Vzc2l2ZS1Db21wdWxzaXZlIERpc29yZGVyLCBPQ0QpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

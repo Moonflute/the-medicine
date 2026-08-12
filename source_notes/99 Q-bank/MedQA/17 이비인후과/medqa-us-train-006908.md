@@ -14,6 +14,8 @@ related_diseases:
   - "정중선 경부 종괴"
   - "경부 초음파"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCR7IOB7ISk6rSAIOuCreyihSAoVGh5cm9nbG9zc2FsIER1Y3QgQ3lzdCkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

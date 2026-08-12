@@ -14,6 +14,8 @@ related_diseases:
   - "프리미돈"
   - "약물 부작용"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rs7jtg5zshLEg65ao66a8IChFc3NlbnRpYWwgdHJlbW9yKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

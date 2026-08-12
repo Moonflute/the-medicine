@@ -13,7 +13,10 @@ related_diseases:
   - "중증 화상"
   - "파크랜드 공식"
   - "화상 수액소생"
+  - "Burns"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

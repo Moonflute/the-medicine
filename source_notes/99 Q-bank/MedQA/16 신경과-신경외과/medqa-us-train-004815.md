@@ -13,7 +13,9 @@ related_diseases:
   - "뇌농양"
   - "국소 발작"
   - "수술적 배액"
+  - "brain abscess"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

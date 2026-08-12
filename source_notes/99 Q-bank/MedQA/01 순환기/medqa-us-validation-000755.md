@@ -13,6 +13,8 @@ related_diseases:
   - "늑연골염"
   - "근골격성 흉통"
   - "이부프로펜"
+  - "Costochondritis"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

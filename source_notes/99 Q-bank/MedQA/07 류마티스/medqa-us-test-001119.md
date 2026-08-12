@@ -13,6 +13,8 @@ related_diseases:
   - "통풍"
   - "요산 일나트륨 결정"
   - "급성 통풍성 관절염"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ
 question_type: mechanism
 difficulty: simple
 answer: C

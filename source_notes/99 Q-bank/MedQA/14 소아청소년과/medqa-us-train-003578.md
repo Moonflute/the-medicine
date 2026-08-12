@@ -14,7 +14,9 @@ related_diseases:
   - "inattention"
   - "hyperactivity"
   - "executive dysfunction"
+  - "Attention-deficit hyperactivity disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

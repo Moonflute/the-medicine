@@ -13,6 +13,8 @@ related_diseases:
   - "HIV infection"
   - "pregnancy"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

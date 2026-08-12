@@ -16,6 +16,10 @@ related_diseases:
   - "peritoneal effusion"
   - "fetal subcutaneous edema"
 question_type: prognosis
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
+  - MTIg7IKw6rO8L-yWkeyImCDqs7zri6Tspp0gKEh5ZHJhbW5pb3MpLm1k
+  - MDIg7Zi47Z2h6riwL-yVheyEsSDtnYnsiJggKE1hbGlnbmFudCBQbGV1cmFsIEVmZnVzaW9uKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

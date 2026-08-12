@@ -14,6 +14,8 @@ related_diseases:
   - "수면 위생"
   - "자극 조절"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOuptCDsnqXslaAgKEluc29tbmlhIERpc29yZGVyKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

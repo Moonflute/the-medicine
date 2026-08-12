@@ -14,6 +14,8 @@ related_diseases:
   - "자율신경 증상"
   - "수마트립탄"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qtbDrsJzrkZDthrUgKENsdXN0ZXIgaGVhZGFjaGUpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

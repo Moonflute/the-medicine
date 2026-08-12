@@ -13,6 +13,9 @@ related_diseases:
   - "심방세동"
   - "갑상샘기능항진증"
   - "갑상샘중독증"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
 question_type: investigation
 difficulty: complex
 answer: A

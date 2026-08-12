@@ -14,7 +14,9 @@ related_diseases:
   - "methylphenidate adverse effect"
   - "appetite suppression"
   - "atomoxetine"
+  - "Attention-deficit hyperactivity disorder"
 question_type: adverse_effect
+related_disease_slugs: []
 difficulty: simple
 answer: A
 translation_status: machine-verified

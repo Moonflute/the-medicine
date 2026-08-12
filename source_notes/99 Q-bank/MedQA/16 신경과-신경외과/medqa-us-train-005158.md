@@ -14,6 +14,8 @@ related_diseases:
   - "소섬유 신경병증"
   - "Aδ 및 C 섬유"
 question_type: mechanism
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

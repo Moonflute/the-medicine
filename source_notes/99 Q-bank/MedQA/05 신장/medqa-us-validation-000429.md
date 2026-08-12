@@ -13,6 +13,9 @@ related_diseases:
   - "반복 요로감염"
   - "방광요관역류"
   - "수신증"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
+  - MjAg67mE64eo6riw6rO8L-uwqeq0keyalOq0gOyXreulmCAoVmVzaWNvVXJldGVyYWwgUmVmbHV4KS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

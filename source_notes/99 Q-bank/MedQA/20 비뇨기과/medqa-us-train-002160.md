@@ -15,6 +15,9 @@ related_diseases:
   - "spinal cord compression"
   - "prostate-specific antigen"
 question_type: investigation
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
+  - MTAg7KKF7JaRL-yymeyImCDslZXrsJUg7Kad7ZuE6rWwIChTcGluYWwgQ29yZCBDb21wcmVzc2lvbiBTeW5kcm9tZSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

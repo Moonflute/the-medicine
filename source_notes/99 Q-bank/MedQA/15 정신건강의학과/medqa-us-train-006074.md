@@ -13,7 +13,9 @@ related_diseases:
   - "급성 근긴장이상 반응"
   - "항정신병약물 부작용"
   - "디펜히드라민"
+  - "Acute dystonic reaction"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

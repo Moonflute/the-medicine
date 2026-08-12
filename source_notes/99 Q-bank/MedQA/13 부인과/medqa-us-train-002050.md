@@ -14,6 +14,9 @@ related_diseases:
   - "hematocolpos"
   - "primary amenorrhea"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yymOuFgOunieunie2emOymnSAoSW1wZXJmb3JhdGUgSHltZW4pLm1k
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

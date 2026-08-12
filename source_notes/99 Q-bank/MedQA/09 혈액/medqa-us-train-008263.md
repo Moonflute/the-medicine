@@ -13,6 +13,7 @@ related_diseases:
   - "pellagra"
   - "niacin deficiency"
   - "dermatitis diarrhea dementia"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: B

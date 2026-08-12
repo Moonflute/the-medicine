@@ -14,6 +14,8 @@ related_diseases:
   - "necrolytic migratory erythema"
   - "glucagon level"
   - "pancreatic neuroendocrine tumor"
+  - "Glucagonoma"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: B

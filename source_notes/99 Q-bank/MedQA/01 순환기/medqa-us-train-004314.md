@@ -13,6 +13,7 @@ related_diseases:
   - "환자 개인정보 보호"
   - "HIPAA"
   - "정보 공개 동의"
+related_disease_slugs: []
 question_type: 임상증례 객관식
 difficulty: standard
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "약물 복약순응도"
   - "환자 교육"
   - "위식도역류질환"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsi53rj4Qg7Jet66WYIOyniO2ZmCAoR0VSRCkgKEdhc3Ryb2Vzb3BoYWdlYWwgUmVmbHV4IERpc2Vhc2UpLm1k
 question_type: ethics
 difficulty: complex
 answer: C

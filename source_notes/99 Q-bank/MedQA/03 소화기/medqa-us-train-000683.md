@@ -12,6 +12,8 @@ specialty: 03 소화기
 related_diseases:
   - "diabetes mellitus"
   - "hemochromatosis"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

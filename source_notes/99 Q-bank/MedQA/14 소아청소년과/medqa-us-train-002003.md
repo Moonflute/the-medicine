@@ -14,6 +14,7 @@ related_diseases:
   - "oropharyngeal injury"
   - "drooling"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

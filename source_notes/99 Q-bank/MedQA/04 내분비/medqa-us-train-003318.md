@@ -14,6 +14,9 @@ related_diseases:
   - "pheochromocytoma"
   - "medullary thyroid carcinoma"
   - "autosomal dominant inheritance"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-2BrOuhrOy5nO2ZlOyEuO2PrOyihSAoUGhlb2Nocm9tb2N5dG9tYSkubWQ
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDsho3sp4jslZQgKFRoeXJvaWQgTWVkdWxsYXJ5IENhcmNpbm9tYSkubWQ
 question_type: risk_factor
 difficulty: standard
 answer: A

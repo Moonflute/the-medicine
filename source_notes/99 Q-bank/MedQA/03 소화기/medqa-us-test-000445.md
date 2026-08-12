@@ -13,6 +13,9 @@ related_diseases:
   - "상부 위장관 출혈"
   - "식도정맥류 출혈"
   - "의료 의사결정능력"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sg4HrtoAg7JyE7J6l6rSAIOy2nO2YiCAoVXBwZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_si53rj4Qg7KCV66el66WYIChFc29waGFnZWFsIFZhcmljZXMpLm1k
 question_type: ethics
 difficulty: standard
 answer: C

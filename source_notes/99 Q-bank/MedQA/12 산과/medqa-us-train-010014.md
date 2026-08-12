@@ -14,6 +14,8 @@ related_diseases:
   - "생존 태아"
   - "임신 중 질출혈"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-ygiOuwlSDsnKDsgrAgKFRocmVhdGVuZWQgQWJvcnRpb24pLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

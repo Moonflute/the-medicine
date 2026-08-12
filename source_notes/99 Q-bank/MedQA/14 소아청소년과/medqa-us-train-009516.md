@@ -13,7 +13,9 @@ related_diseases:
   - "classic galactosemia"
   - "고전적 갈락토스혈증"
   - "galactose-1-phosphate uridyltransferase deficiency"
+  - "galactosemia"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

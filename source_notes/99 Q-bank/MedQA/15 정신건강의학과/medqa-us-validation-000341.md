@@ -14,6 +14,7 @@ related_diseases:
   - "멜라토닌 감소"
   - "수면 구조 변화"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

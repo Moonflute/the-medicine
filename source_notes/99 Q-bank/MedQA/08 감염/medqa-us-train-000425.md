@@ -14,6 +14,10 @@ related_diseases:
   - "proteinuria"
   - "microscopic hematuria"
   - "eosinophilia"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
+  - MDUg7Iug7J6lL-q4sOumveyEsSDri6jrsLHrh6ggKE9ydGhvc3RhdGljIFByb3RlaW51cmlhKS5tZA
+  - MDYg7JWM66CI66W06riwL-yVveusvCDrsJzsp4Qg7Zi47IKw6rWs7KadIOuwjyDsoITsi6Ag7Kad7IOBIChEUkVTUykgKERydWcgUmVhY3Rpb24gd2l0aCBFb3Npbm9waGlsaWEgYW5kIFN5c3RlbWljIFN5bXB0b21zIChEUkVTUykpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

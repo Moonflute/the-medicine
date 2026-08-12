@@ -13,6 +13,8 @@ related_diseases:
   - "levothyroxine in pregnancy"
   - "hypothyroidism"
   - "dose adjustment"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
 question_type: management
 difficulty: simple
 answer: B

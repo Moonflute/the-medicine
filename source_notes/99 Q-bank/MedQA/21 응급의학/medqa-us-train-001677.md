@@ -14,6 +14,8 @@ related_diseases:
   - "end-of-life decision"
   - "persistent vegetative state"
 question_type: ethics
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sp4Dsho3si53rrLzsg4Htg5wgKFBlcnNpc3RlbnQgdmVnZXRhdGl2ZSBzdGF0ZSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

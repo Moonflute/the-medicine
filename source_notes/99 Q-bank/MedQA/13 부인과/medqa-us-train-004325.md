@@ -13,7 +13,9 @@ related_diseases:
   - "프로필티오우라실"
   - "약물 유발 골수억제"
   - "범혈구감소증"
+  - "Propylthiouracil-induced bone marrow suppression"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

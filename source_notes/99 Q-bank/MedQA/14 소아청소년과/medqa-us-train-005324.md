@@ -14,6 +14,7 @@ related_diseases:
   - "의무 신고"
   - "성적 학대 전문 평가"
 question_type: ethics
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

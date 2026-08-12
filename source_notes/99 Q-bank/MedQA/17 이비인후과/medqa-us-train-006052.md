@@ -13,7 +13,10 @@ related_diseases:
   - "급성 세균성 부비동염"
   - "상악동염"
   - "아목시실린-클라불란산"
+  - "Acute bacterial sinusitis"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-q4ieyEsSDrtoDruYTrj5nsl7wgKEFjdXRlIHNpbnVzaXRpcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

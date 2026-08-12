@@ -14,6 +14,9 @@ related_diseases:
   - "무월경"
   - "혈관운동성 증상"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2PkOqyvSAoTWVub3BhdXNlKS5tZA
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

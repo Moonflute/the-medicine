@@ -14,6 +14,7 @@ related_diseases:
   - "PUPPP"
   - "임신 중 피부질환"
 question_type: management
+related_disease_slugs: []
 difficulty: simple
 answer: D
 translation_status: machine-verified

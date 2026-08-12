@@ -14,6 +14,8 @@ related_diseases:
   - "compartment syndrome"
   - "ischemic muscle contracture"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uzteqwlSDqtaztmo0g7Kad7ZuE6rWwIChBYmRvbWluYWwgQ29tcGFydG1lbnQgU3luZHJvbWUpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

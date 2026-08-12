@@ -13,7 +13,10 @@ related_diseases:
   - "안면신경마비"
   - "잔여 안면경련"
   - "보툴리눔 독소"
+  - "Bell palsy"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uyqOuniOu5hCAoQmVsbCdzIHBhbHN5KS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

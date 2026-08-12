@@ -13,6 +13,8 @@ related_diseases:
   - "Cushing syndrome"
   - "hypercortisolism"
   - "hirsutism"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-y_oOyLsSDspp3tm4TqtbAgKEN1c2hpbmcncyBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

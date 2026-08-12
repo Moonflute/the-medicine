@@ -13,6 +13,8 @@ related_diseases:
   - "소수관절형 소아 특발성 관절염"
   - "포도막염"
   - "실명 위험"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM7JWE6riwIO2KueuwnOyEsSDqtIDsoIjsl7wgKEp1dmVuaWxlIElkaW9wYXRoaWMgQXJ0aHJpdGlzKS5tZA
 question_type: prognosis
 difficulty: complex
 answer: D

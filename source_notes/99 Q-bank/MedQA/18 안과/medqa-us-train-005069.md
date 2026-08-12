@@ -14,6 +14,9 @@ related_diseases:
   - "HIV 감염"
   - "수지상 각막궤양"
 question_type: diagnosis
+related_disease_slugs:
+  - MTgg7JWI6rO8L-uLqOyInO2PrOynhOqwgeunieyXvCAoSFNWIGtlcmF0aXRpcykubWQ
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

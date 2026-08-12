@@ -12,6 +12,8 @@ specialty: 10 종양
 related_diseases:
   - "breast cancer"
   - "brain metastasis"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: standard
 answer: D

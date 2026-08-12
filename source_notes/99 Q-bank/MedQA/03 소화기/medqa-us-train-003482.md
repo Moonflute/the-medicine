@@ -14,6 +14,7 @@ related_diseases:
   - "Tropheryma whipplei"
   - "PAS-positive macrophages"
   - "malabsorption"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

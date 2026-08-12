@@ -14,6 +14,9 @@ related_diseases:
   - "acute myocardial infarction"
   - "hyperlipidemia"
   - "left ventricular ejection fraction"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: management
 difficulty: complex
 answer: A

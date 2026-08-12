@@ -12,6 +12,9 @@ specialty: 08 감염
 related_diseases:
   - "Mycoplasma pneumoniae"
   - "pneumonia"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uvuOy9lO2UjOudvOyKpOuniCAoTXljb3BsYXNtYSkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Y-Q66C0IChQbmV1bW9uaWEpLm1k
 question_type: mechanism
 difficulty: complex
 answer: D

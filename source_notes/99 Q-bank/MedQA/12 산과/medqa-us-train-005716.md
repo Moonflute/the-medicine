@@ -14,6 +14,8 @@ related_diseases:
   - "고혈압성 뇌교출혈"
   - "임신 중 뇌졸중"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOqwhOymnSAoRWNsYW1wc2lhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

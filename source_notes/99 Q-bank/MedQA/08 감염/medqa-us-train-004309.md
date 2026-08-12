@@ -13,6 +13,8 @@ related_diseases:
   - "만성 C형 간염"
   - "가교성 간섬유화"
   - "HCV RNA"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEgQ-2YlSDqsITsl7wgKENocm9uaWMgSGVwYXRpdGlzIEMgKEhDVikpLm1k
 question_type: 임상증례 객관식
 difficulty: simple
 answer: D

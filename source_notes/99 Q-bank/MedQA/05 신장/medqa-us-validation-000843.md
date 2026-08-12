@@ -13,6 +13,9 @@ related_diseases:
   - "신정맥 혈전증"
   - "막성 신병증"
   - "신증후군"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoOygleunpSDtmIjsoITspp0gKFJlbmFsIFZlaW4gVGhyb21ib3NpcykubWQ
+  - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -13,6 +13,7 @@ related_diseases:
   - "과호산구증후군"
   - "호산구성 심근병증"
   - "심장 내 혈전"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: C

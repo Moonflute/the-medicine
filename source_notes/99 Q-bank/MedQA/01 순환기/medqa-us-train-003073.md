@@ -14,6 +14,8 @@ related_diseases:
   - "acute mitral regurgitation"
   - "new holosystolic murmur"
   - "pulmonary edema"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yKueuqqO2MkOuniSDsl63rpZggKE1pdHJhbCBSZWd1cmdpdGF0aW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

@@ -14,6 +14,10 @@ related_diseases:
   - "Staphylococcus aureus"
   - "distal femur osteomyelitis"
   - "pediatric bone infection"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riJ7ISxIO2YiO2WieyEsSDqs6jsiJjsl7wgKEFjdXRlIEhlbWF0b2dlbm91cyBPc3Rlb215ZWxpdGlzKS5tZA
+  - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
+  - MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

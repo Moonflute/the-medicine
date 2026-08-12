@@ -13,6 +13,9 @@ related_diseases:
   - "탈수"
   - "신전성 급성신손상"
   - "저나트륨혈증"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
+  - MDUg7Iug7J6lL-y9qe2MpeyEsSDquInshLEg7L2p7YylIOyGkOyDgSAoSW50cmluc2ljIFJlbmFsIEFjdXRlIEtpZG5leSBJbmp1cnkpLm1k
 question_type: mechanism
 difficulty: complex
 answer: D

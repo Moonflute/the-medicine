@@ -15,6 +15,8 @@ related_diseases:
   - "젊은 여성 유방 종괴"
   - "유방 초음파"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

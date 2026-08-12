@@ -14,6 +14,8 @@ related_diseases:
   - "후교통동맥 낭상동맥류"
   - "동맥류 파열"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sp4Dso7zrp4ntlZgg7Lac7ZiIIChTdWJhcmFjaG5vaWQgaGVtb3JyaGFnZSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

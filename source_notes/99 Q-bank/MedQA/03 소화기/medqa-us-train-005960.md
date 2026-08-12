@@ -13,6 +13,8 @@ related_diseases:
   - "혈변"
   - "대장암 선별"
   - "대장내시경"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rjIDsnqUg7Y-Q7IeEIChMYXJnZSBCb3dlbCBPYnN0cnVjdGlvbikubWQ
 question_type: investigation
 difficulty: standard
 answer: C

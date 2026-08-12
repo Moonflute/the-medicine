@@ -14,6 +14,8 @@ related_diseases:
   - "perforated appendicitis"
   - "CT-guided drainage"
   - "interval appendectomy"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_stqnsiJjsl7wgKEFwcGVuZGljaXRpcykubWQ
 question_type: management
 difficulty: standard
 answer: A

@@ -13,6 +13,9 @@ related_diseases:
   - "adenoviral conjunctivitis"
   - "epidemic keratoconjunctivitis"
 question_type: management
+related_disease_slugs:
+  - MTgg7JWI6rO8L-qysOyEseyXvCAoQ29uanVuY3Rpdml0aXMpLm1k
+  - MTgg7JWI6rO8L-ycoO2WieqwgeqysOunieyXvCAoZXBpZGVtaWMga2VyYXRvY29uanVuY3Rpdml0aXMpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

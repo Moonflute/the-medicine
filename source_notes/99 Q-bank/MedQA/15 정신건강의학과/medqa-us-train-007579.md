@@ -15,6 +15,8 @@ related_diseases:
   - "사회적 회피"
   - "심계항진"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCrO2ajCDrtojslYgg7J6l7JWgIChTb2NpYWwgQW54aWV0eSBEaXNvcmRlcikubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

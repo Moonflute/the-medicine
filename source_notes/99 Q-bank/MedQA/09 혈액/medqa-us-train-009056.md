@@ -13,6 +13,8 @@ related_diseases:
   - "chronic lymphocytic leukemia"
   - "immunocompromised vaccination"
   - "pneumococcal conjugate vaccine"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChDTEwpIChDaHJvbmljIEx5bXBob2N5dGljIExldWtlbWlhKS5tZA
 question_type: prevention
 difficulty: complex
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "patient confidentiality"
   - "autonomy"
   - "prostate cancer recurrence"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 question_type: ethics
 difficulty: complex
 answer: B

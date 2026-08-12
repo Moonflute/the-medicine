@@ -14,6 +14,7 @@ related_diseases:
   - "소아 발달"
   - "정신병적 증상 감별"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

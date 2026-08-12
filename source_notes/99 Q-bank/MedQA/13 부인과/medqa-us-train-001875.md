@@ -14,6 +14,8 @@ related_diseases:
   - "head sparing"
   - "maternal smoking"
 question_type: risk_factor
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2DnOyVhCDshLHsnqUg7KeA7JewIChGZXRhbCBHcm93dGggUmVzdHJpY3Rpb24pLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

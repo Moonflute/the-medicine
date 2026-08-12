@@ -14,6 +14,9 @@ related_diseases:
   - "21번 삼염색체증"
   - "선천성 심장질환"
 question_type: prognosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv64uk7Jq0IOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
 difficulty: simple
 answer: B
 translation_status: machine-verified

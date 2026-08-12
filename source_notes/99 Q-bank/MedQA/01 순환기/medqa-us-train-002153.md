@@ -14,6 +14,8 @@ related_diseases:
   - "statin myopathy"
   - "hyperlipidemia"
   - "pravastatin"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: A

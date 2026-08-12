@@ -14,6 +14,8 @@ related_diseases:
   - "세균성 후두개염"
   - "기도 폐쇄"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riJ7ISxIO2bhOuRkOqwnOyXvCAoQWN1dGUgRXBpZ2xvdHRpdGlzKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "neoadjuvant treatment"
   - "metastatic breast cancer"
   - "preoperative radiation"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: simple
 answer: B

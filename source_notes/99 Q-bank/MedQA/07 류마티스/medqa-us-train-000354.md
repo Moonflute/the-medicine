@@ -11,6 +11,8 @@ language: ko
 specialty: 07 류마티스
 related_diseases:
   - "osteoarthritis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qzqOq0gOygiOyXvCAoT3N0ZW9hcnRocml0aXMpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: A

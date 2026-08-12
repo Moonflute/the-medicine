@@ -13,6 +13,9 @@ related_diseases:
   - "임신 중 요관결석"
   - "신장산통"
   - "혈뇨"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-2YiOuHqC5tZA
+  - MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

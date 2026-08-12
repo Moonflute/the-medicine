@@ -12,6 +12,8 @@ specialty: 13 부인과
 related_diseases:
   - "dysgerminoma"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-uvuOu2hO2ZlOyEuO2PrOyihSAoVW5kaWZmZXJlbnRpYXRlZCBDYXJjaW5vbWEpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

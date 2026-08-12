@@ -14,6 +14,9 @@ related_diseases:
   - "태변 흡인 증후군"
   - "분만 유도"
 question_type: prognosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-qzvOyImeyehOyLoCAoUG9zdC10ZXJtIFByZWduYW5jeSkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YOc67OAIO2doeyduCDspp3tm4TqtbAgKE1lY29uaXVtIEFzcGlyYXRpb24gU3luZHJvbWUpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,7 +13,10 @@ related_diseases:
   - "정계정맥류"
   - "남성 불임"
   - "덩굴정맥얼기 결찰"
+  - "Varicocele"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-uNqeq1tOygleunpeulmCAoVmFyaWNvY2VsZSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

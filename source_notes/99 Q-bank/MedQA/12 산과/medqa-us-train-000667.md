@@ -13,6 +13,9 @@ related_diseases:
   - "group B streptococcal (GBS) colonization"
   - "sepsis"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2MqO2YiOymnSAoTmVvbmF0YWwgU2Vwc2lzKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

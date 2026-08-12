@@ -13,6 +13,8 @@ related_diseases:
   - "duodenal peptic ulcer"
   - "십이지장 소화성 궤양"
   - "peptic ulcer disease"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

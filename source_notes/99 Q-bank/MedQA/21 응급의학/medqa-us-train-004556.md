@@ -14,6 +14,7 @@ related_diseases:
   - "최소 진정"
   - "치아 우식"
 question_type: other
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

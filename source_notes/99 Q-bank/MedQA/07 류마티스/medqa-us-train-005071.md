@@ -13,6 +13,8 @@ related_diseases:
   - "패혈성 관절염"
   - "급성 단일관절염"
   - "관절액 분석"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

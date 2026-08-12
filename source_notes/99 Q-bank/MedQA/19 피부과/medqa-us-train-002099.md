@@ -15,6 +15,9 @@ related_diseases:
   - "exfoliative toxin"
   - "Nikolsky sign"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-2PrOuPhOyVjOq3oCDsl7Tsg4Eg7ZS867aAIOymne2bhOq1sCAoU3RhcGh5bG9jb2NjYWwgU2NhbGRlZCBTa2luIFN5bmRyb21lKS5tZA
+  - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

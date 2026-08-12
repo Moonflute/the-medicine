@@ -14,6 +14,8 @@ related_diseases:
   - "치매"
   - "미만성 피질 위축"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

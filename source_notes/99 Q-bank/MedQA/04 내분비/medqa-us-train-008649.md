@@ -13,6 +13,10 @@ related_diseases:
   - "Cushing disease"
   - "ACTH-dependent Cushing syndrome"
   - "pituitary adenoma"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uHjO2VmOyImOyytCDsg5jsooUgKFBpdHVpdGFyeSBBZGVub21hKS5tZA
+  - MDQg64K067aE67mEL-y_oOyLseuzkSAoQ3VzaGluZydzIERpc2Vhc2UpLm1k
+  - MDQg64K067aE67mEL-y_oOyLsSDspp3tm4TqtbAgKEN1c2hpbmcncyBTeW5kcm9tZSkubWQ
 question_type: investigation
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "인자 V 라이덴"
   - "심부정맥혈전증"
   - "유전성 혈전성향"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

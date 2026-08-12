@@ -13,6 +13,8 @@ related_diseases:
   - "랑게르한스세포 조직구증"
   - "버벡 소체"
   - "골 병변"
+  - "Langerhans cell histiocytosis"
+related_disease_slugs: []
 question_type: 임상증례 객관식
 difficulty: standard
 answer: C

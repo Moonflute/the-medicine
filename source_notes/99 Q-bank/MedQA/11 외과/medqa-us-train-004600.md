@@ -13,6 +13,7 @@ related_diseases:
   - "수술 부위 오류"
   - "의료 오류 예방"
   - "스위스 치즈 모형"
+related_disease_slugs: []
 question_type: ethics
 difficulty: standard
 answer: C

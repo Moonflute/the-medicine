@@ -15,6 +15,8 @@ related_diseases:
   - "relative afferent pupillary defect"
   - "retinal ischemia"
 question_type: diagnosis
+related_disease_slugs:
+  - MTgg7JWI6rO8L-unneunieykkeyLrOuPmeunpe2PkOyHhCAoY2VudHJhbCByZXRpbmFsIGFydGVyeSBvY2NsdXNpb24pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

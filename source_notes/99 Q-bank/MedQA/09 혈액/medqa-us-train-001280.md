@@ -12,6 +12,9 @@ specialty: 09 혈액
 related_diseases:
   - "myelodysplastic syndrome"
   - "acute myeloid leukemia"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qzqOyImO2YleyEseydtOyDgSDspp3tm4TqtbAgKE15ZWxvZHlzcGxhc3RpYyBTeW5kcm9tZSwgTURTKS5tZA
+  - MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

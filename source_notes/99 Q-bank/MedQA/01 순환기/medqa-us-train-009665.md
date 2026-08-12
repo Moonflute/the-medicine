@@ -13,6 +13,7 @@ related_diseases:
   - "symptomatic carotid stenosis"
   - "증상성 경동맥 협착"
   - "carotid endarterectomy"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

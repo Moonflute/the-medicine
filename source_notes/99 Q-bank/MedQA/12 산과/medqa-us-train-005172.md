@@ -14,6 +14,7 @@ related_diseases:
   - "후기 조산"
   - "자궁수축 억제제 적응증 없음"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,9 @@ related_diseases:
   - "spontaneous abortion"
   - "empty uterus after bleeding"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-u2iOyZhOyghCDsnKDsgrAgKEluY29tcGxldGUgQWJvcnRpb24pLm1k
+  - MTIg7IKw6rO8L-yekOyXsCDsnKDsgrAgKFNwb250YW5lb3VzIEFib3J0aW9uKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

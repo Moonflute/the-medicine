@@ -15,6 +15,11 @@ related_diseases:
   - "coagulopathy"
   - "hepatic encephalopathy"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEsSDquInshLEg7KeA67Cp6rCEIChBY3V0ZSBGYXR0eSBMaXZlciBvZiBQcmVnbmFuY3kpLm1k
+  - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLEg64eM7KadIChIZXBhdGljIEVuY2VwaGFsb3BhdGh5KS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOyggO2YiOuLueymnSAoTmVvbmF0YWwgSHlwb2dseWNlbWlhKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

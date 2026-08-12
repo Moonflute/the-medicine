@@ -14,6 +14,8 @@ related_diseases:
   - "중심척수 손상"
   - "상지 감각운동 저하"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_spJHsi6wg7LKZ7IiYIOymne2bhOq1sCAoQ2VudHJhbCBjb3JkIHN5bmRyb21lKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

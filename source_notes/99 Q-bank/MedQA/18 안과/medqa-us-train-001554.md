@@ -14,6 +14,8 @@ related_diseases:
   - "wet AMD"
   - "ranibizumab"
 question_type: management
+related_disease_slugs:
+  - MTgg7JWI6rO8L-uCmOydtOq0gOugqO2ZqeuwmOuzgOyEsSAoYWdlIHJlbGF0ZWQgbWFjdWxhciBkZWdlbmVyYXRpb24pLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

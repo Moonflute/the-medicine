@@ -13,6 +13,8 @@ related_diseases:
   - "흑색가시세포증"
   - "비만"
   - "인슐린 저항성"
+  - "acanthosis nigricans"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: C

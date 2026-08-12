@@ -13,6 +13,9 @@ related_diseases:
   - "심장압전"
   - "심낭삼출"
   - "폐쇄성 쇼크"
+  - "Cardiac tamponade"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOyepSDriIzrprzspp0gKENhcmRpYWMgVGFtcG9uYWRlKS5tZA
 question_type: management
 difficulty: complex
 answer: A

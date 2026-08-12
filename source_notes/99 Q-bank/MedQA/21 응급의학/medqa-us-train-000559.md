@@ -16,6 +16,8 @@ related_diseases:
   - "purpura"
   - "Fat embolism"
 question_type: diagnosis
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yngOuwqSDsg4nsoITspp0gKEZhdCBFbWJvbGlzbSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

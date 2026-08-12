@@ -13,6 +13,7 @@ related_diseases:
   - "medication error"
   - "duty of disclosure"
   - "ceftriaxone allergy"
+related_disease_slugs: []
 question_type: ethics
 difficulty: standard
 answer: C

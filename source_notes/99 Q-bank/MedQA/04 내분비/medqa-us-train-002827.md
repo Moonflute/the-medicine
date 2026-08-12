@@ -14,6 +14,7 @@ related_diseases:
   - "iron overload"
   - "MCP arthropathy"
   - "hypogonadism"
+related_disease_slugs: []
 question_type: risk_factor
 difficulty: simple
 answer: A

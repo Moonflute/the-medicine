@@ -12,6 +12,8 @@ specialty: 03 소화기
 related_diseases:
   - "cholelithiasis"
   - "common bile duct dilation"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
 question_type: management
 difficulty: complex
 answer: B

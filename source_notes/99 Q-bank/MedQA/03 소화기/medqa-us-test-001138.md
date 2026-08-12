@@ -13,6 +13,9 @@ related_diseases:
   - "셀리악병"
   - "포진상 피부염"
   - "글루텐 제한식"
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uMgOyDgSDtj6zsp4QgKEhlcnBlcyBab3N0ZXIpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: simple
 answer: C

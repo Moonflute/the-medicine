@@ -14,6 +14,9 @@ related_diseases:
   - "meningoencephalitis"
   - "leptomeningeal enhancement"
   - "altered mental status"
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsl7wgKE1lbmluZ29lbmNlcGhhbGl0aXMpLm1k
+  - MDgg6rCQ7Je8L-uwlOydtOufrOyKpC5tZA
 question_type: mechanism
 difficulty: complex
 answer: C

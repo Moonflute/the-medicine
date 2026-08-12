@@ -14,6 +14,8 @@ related_diseases:
   - "요도 손상"
   - "pelvic fracture"
 question_type: investigation
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOuPhCDshpDsg4EgKFVyZXRocmFsIGluanVyeSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

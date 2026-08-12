@@ -13,7 +13,10 @@ related_diseases:
   - "고등급 편평상피내 병변"
   - "자궁경부 이형성"
   - "질확대경검사"
+  - "Cervical intraepithelial neoplasia"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gCDsg4HtlLzrgrQg7KKF7JaRIChDZXJ2aWNhbCBJbnRyYWVwaXRoZWxpYWwgTmVvcGxhc2lhKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

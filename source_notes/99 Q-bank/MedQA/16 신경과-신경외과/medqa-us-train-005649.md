@@ -13,7 +13,10 @@ related_diseases:
   - "국소 발작"
   - "토드 마비"
   - "일측성 경련"
+  - "Focal seizure"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rsJzsnpEgKFNlaXp1cmUpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

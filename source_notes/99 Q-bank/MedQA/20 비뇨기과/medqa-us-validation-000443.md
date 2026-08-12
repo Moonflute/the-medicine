@@ -14,6 +14,8 @@ related_diseases:
   - "성매개 감염"
   - "핵산증폭검사"
 question_type: investigation
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-q4ieyEsSDrtoDqs6DtmZjsl7wgKEFjdXRlIGVwaWRpZHltaXRpcykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,7 +14,10 @@ related_diseases:
   - "국소 발작 의식 장애"
   - "측두엽 간질"
   - "전조"
+  - "Complex partial seizure"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rsJzsnpEgKFNlaXp1cmUpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

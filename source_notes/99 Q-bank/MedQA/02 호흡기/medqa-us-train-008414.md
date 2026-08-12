@@ -13,6 +13,8 @@ related_diseases:
   - "cystic fibrosis"
   - "CFTR"
   - "ΔF508 mutation"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 question_type: mechanism
 difficulty: standard
 answer: D

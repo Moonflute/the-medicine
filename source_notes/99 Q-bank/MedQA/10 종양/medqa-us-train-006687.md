@@ -13,6 +13,8 @@ related_diseases:
   - "호스피스 완화의료"
   - "말기 췌장암 통증"
   - "오피오이드 진통"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA
 question_type: management
 difficulty: complex
 answer: B

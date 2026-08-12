@@ -13,6 +13,7 @@ related_diseases:
   - "femoral artery injury"
   - "penetrating extremity trauma"
   - "duplex ultrasonography"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: D

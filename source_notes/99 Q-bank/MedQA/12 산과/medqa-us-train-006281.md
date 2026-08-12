@@ -14,6 +14,8 @@ related_diseases:
   - "임신 위치 불명"
   - "자궁외임신 감별"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

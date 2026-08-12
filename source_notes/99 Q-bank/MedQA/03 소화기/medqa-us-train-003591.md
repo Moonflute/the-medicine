@@ -14,6 +14,9 @@ related_diseases:
   - "esophageal perforation"
   - "post-endoscopy complication"
   - "pneumomediastinum"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rtYjrpbTtlZjruIwg7Kad7ZuE6rWwIChCb2VyaGFhdmUgU3luZHJvbWUpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQg7LKc6rO1IChQZXJmb3JhdGlvbikubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

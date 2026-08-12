@@ -13,6 +13,9 @@ related_diseases:
   - "지역사회획득폐렴"
   - "세균성 폐렴"
   - "CURB-65"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-ygle2YlSDtj5DroLQgKFR5cGljYWwgUG5ldW1vbmlhKS5tZA
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

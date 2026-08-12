@@ -14,6 +14,8 @@ related_diseases:
   - "Pap 검사"
   - "변환대 성분 없음"
 question_type: prevention
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

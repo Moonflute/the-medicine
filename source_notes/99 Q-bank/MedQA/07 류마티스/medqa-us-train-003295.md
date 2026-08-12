@@ -14,6 +14,10 @@ related_diseases:
   - "large-vessel vasculitis"
   - "young woman with pulseless disease"
   - "erythema nodosum"
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-qysOygiCDtmY3rsJggKEVyeXRoZW1hIE5vZG9zdW0pLm1k
+  - MDEg7Iic7ZmY6riwL-uLpOy5tOyVvOyImCDrj5nrp6Xsl7wgKFRha2F5YXN1J3MgQXJ0ZXJpdGlzKS5tZA
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

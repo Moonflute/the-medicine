@@ -14,6 +14,8 @@ related_diseases:
   - "유방 농양"
   - "모유 수유"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqSDrho3slpEgKEJyZWFzdCBBYnNjZXNzKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

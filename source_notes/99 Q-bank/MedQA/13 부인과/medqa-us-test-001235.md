@@ -13,7 +13,9 @@ related_diseases:
   - "바르톨린선 농양"
   - "소음순 종괴"
   - "절개배농"
+  - "Bartholin gland abscess"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -15,6 +15,8 @@ related_diseases:
   - "high-flow oxygen"
   - "coronary artery disease contraindication to triptans"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qtbDrsJzrkZDthrUgKENsdXN0ZXIgaGVhZGFjaGUpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

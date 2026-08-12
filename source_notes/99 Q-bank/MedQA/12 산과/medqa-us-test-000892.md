@@ -13,6 +13,8 @@ related_diseases:
   - "조기진통"
   - "임신 26주"
   - "생식기 헤르페스 병력"
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yhsOq4sCDsp4TthrUgKFByZXRlcm0gTGFib3IpLm1k
 question_type: management
 difficulty: complex
 answer: A

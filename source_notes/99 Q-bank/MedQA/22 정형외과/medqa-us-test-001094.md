@@ -14,6 +14,8 @@ related_diseases:
   - "저체중"
   - "DEXA"
 question_type: prevention
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

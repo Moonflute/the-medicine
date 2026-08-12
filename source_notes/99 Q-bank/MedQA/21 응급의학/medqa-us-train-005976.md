@@ -14,6 +14,8 @@ related_diseases:
   - "응급 흉관 삽입"
   - "편측 호흡음 감소"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4tOyepeyEsSDquLDtnYkgKFRlbnNpb24gUG5ldW1vdGhvcmF4KS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

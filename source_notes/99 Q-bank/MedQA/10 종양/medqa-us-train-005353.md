@@ -13,6 +13,8 @@ related_diseases:
   - "유방암"
   - "유방부분절제술"
   - "유방 보존 수술"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: standard
 answer: C

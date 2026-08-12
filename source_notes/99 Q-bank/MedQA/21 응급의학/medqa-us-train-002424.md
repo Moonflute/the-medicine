@@ -14,7 +14,10 @@ related_diseases:
   - "dirty wound"
   - "tetanus toxoid vaccine"
   - "tetanus immune globulin"
+  - "tetanus"
 question_type: prevention
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2MjOyDge2SjSAoVGV0YW51cykubWQ
 difficulty: simple
 answer: D
 translation_status: machine-verified

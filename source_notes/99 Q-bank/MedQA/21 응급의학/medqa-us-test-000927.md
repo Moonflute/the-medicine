@@ -14,6 +14,8 @@ related_diseases:
   - "당뇨병성 족부감염"
   - "절단 후 호흡곤란"
 question_type: investigation
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

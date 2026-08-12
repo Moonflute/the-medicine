@@ -14,6 +14,9 @@ related_diseases:
   - "nonseminomatous germ cell tumor"
   - "cryptorchidism"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yeoOuzteqzoO2ZmOymnSAoQ3J5cHRvcmNoaWRpc20pLm1k
+  - MjAg67mE64eo6riw6rO8L-qzoO2ZmCDsooXslpEgKFRlc3RpY3VsYXIgY2FuY2VyKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

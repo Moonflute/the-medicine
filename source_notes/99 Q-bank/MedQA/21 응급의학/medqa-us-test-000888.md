@@ -14,6 +14,8 @@ related_diseases:
   - "IgA 결핍"
   - "항체 매개 반응"
 question_type: mechanism
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

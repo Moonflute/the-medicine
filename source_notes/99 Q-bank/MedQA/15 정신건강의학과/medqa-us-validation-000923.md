@@ -14,6 +14,8 @@ related_diseases:
   - "자살 시도"
   - "노르에피네프린"
 question_type: mechanism
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "울혈성 심부전"
   - "신장 나트륨 저류"
   - "레닌-안지오텐신-알도스테론계"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: mechanism
 difficulty: complex
 answer: D

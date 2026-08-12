@@ -13,6 +13,8 @@ related_diseases:
   - "설파이트 유발 천식"
   - "식품첨가물"
   - "천식 악화"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: etiology
 difficulty: complex
 answer: B

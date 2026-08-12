@@ -14,6 +14,7 @@ related_diseases:
   - "선천성 진피 멜라닌세포증"
   - "아동학대 감별"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

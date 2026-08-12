@@ -14,6 +14,9 @@ related_diseases:
   - "자궁외임신"
   - "난관 반흔"
 question_type: prognosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
+  - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
 difficulty: simple
 answer: C
 translation_status: machine-verified

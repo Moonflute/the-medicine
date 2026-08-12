@@ -12,7 +12,9 @@ specialty: 12 산과
 related_diseases:
   - "intrauterine fetal demise"
   - "stillbirth"
+  - "Intrauterine fetal demise"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

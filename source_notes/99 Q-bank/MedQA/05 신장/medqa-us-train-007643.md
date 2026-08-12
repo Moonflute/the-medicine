@@ -13,6 +13,8 @@ related_diseases:
   - "renal artery stenosis"
   - "renovascular hypertension"
   - "renal artery revascularization"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
 question_type: management
 difficulty: complex
 answer: A

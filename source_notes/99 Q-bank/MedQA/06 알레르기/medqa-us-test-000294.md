@@ -13,6 +13,10 @@ related_diseases:
   - "아나필락시스"
   - "땅콩 알레르기"
   - "천식"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
+  - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sC5tZA
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: complex
 answer: A

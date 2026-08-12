@@ -14,6 +14,8 @@ related_diseases:
   - "광선각화증"
   - "premalignant skin lesion"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-q0keyEoCDqsIHtmZTspp0gKEFjdGluaWMgS2VyYXRvc2lzKS5tZA
 difficulty: simple
 answer: B
 translation_status: machine-verified

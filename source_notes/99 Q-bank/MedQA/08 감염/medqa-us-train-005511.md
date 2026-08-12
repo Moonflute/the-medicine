@@ -13,6 +13,8 @@ related_diseases:
   - "세균성 수막염"
   - "수막구균혈증"
   - "뇌척수액 호중구 증가"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IS46reg7ISxIOuHjOyImOunieyXvCAoQmFjdGVyaWFsIE1lbmluZ2l0aXMpLm1k
 question_type: investigation
 difficulty: complex
 answer: B

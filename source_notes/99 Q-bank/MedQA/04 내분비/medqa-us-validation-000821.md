@@ -13,6 +13,9 @@ related_diseases:
   - "원발성 부갑상선기능항진증"
   - "부갑상선 선종"
   - "고칼슘혈증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
+  - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
 question_type: diagnosis
 difficulty: standard
 answer: C

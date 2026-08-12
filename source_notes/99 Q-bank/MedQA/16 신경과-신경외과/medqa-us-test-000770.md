@@ -14,6 +14,8 @@ related_diseases:
   - "활동 떨림"
   - "프로프라놀롤"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rs7jtg5zshLEg65ao66a8IChFc3NlbnRpYWwgdHJlbW9yKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

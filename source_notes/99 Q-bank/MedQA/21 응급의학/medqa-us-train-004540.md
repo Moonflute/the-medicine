@@ -14,6 +14,8 @@ related_diseases:
   - "고혈압성 뇌병증"
   - "유두부종"
 question_type: management
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

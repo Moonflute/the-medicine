@@ -14,6 +14,8 @@ related_diseases:
   - "종격동 확장"
   - "사지 맥박 차이"
 question_type: investigation
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

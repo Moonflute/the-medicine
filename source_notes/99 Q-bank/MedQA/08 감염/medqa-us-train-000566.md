@@ -11,6 +11,8 @@ language: ko
 specialty: 08 감염
 related_diseases:
   - "Mycoplasma pneumoniae pneumonia"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uniOydtOy9lO2UjOudvOyKpOuniCDtj5DroLQgKE15Y29wbGFzbWEgUG5ldW1vbmlhKS5tZA
 question_type: management
 difficulty: standard
 answer: D

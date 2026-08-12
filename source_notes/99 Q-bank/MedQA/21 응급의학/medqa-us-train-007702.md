@@ -14,6 +14,7 @@ related_diseases:
   - "emergency consent"
   - "blood transfusion in minors"
 question_type: ethics
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

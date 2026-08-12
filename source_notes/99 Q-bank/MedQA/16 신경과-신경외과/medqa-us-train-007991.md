@@ -14,6 +14,7 @@ related_diseases:
   - "respiratory failure"
   - "endotracheal intubation"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

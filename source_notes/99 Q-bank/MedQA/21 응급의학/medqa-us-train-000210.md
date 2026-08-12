@@ -15,6 +15,9 @@ related_diseases:
   - "hyponatremia"
   - "osmotic demyelination syndrome"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rsJzsnpEgKFNlaXp1cmUpLm1k
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

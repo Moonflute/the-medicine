@@ -13,6 +13,9 @@ related_diseases:
   - "석면폐증"
   - "간질성 폐질환"
   - "폐포-동맥혈 산소분압차"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yEneuptO2PkOymnSAoQXNiZXN0b3NpcykubWQ
+  - MDIg7Zi47Z2h6riwL-qwhOyniOyEsSDtj5Dsp4jtmZggKEludGVyc3RpdGlhbCBsdW5nIGRpc2Vhc2UpLm1k
 question_type: investigation
 difficulty: complex
 answer: A

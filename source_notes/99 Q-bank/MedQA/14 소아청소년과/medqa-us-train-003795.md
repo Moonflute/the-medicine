@@ -15,6 +15,9 @@ related_diseases:
   - "congestive heart failure"
   - "indomethacin"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64-Z66el6rSAIOqwnOyhtOymnSAoUGF0ZW50IER1Y3R1cyBBcnRlcmlvc3VzKS5tZA
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

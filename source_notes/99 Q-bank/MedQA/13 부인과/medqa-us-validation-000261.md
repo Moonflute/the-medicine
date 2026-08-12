@@ -14,6 +14,7 @@ related_diseases:
   - "유방촬영술"
   - "폐경 후 건강관리"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

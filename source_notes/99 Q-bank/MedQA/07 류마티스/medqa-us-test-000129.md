@@ -13,6 +13,8 @@ related_diseases:
   - "다발근육염"
   - "염증성 근병증"
   - "근육 생검"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yXvOymneyEsSDqt7zrs5Hspp0gKEluZmxhbW1hdG9yeSBNeW9wYXRoeSkubWQ
 question_type: investigation
 difficulty: complex
 answer: A

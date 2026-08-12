@@ -14,6 +14,8 @@ related_diseases:
   - "성홍열"
   - "group A Streptococcus"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISx7ZmN7Je0IChTY2FybGV0IEZldmVyKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

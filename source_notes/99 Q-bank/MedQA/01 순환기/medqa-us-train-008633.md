@@ -13,6 +13,9 @@ related_diseases:
   - "congestive heart failure"
   - "functional tricuspid regurgitation"
   - "right ventricular dilation"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yCvOyyqO2MkOuniSDsl63rpZggKFRyaWN1c3BpZCBSZWd1cmdpdGF0aW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

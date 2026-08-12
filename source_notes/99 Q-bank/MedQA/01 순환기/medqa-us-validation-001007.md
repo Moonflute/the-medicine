@@ -13,6 +13,9 @@ related_diseases:
   - "심부전"
   - "대동맥판 협착"
   - "뇌나트륨이뇨펩타이드"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: B

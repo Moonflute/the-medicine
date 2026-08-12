@@ -14,6 +14,8 @@ related_diseases:
   - "산후 유방 감염"
   - "모유수유 지속"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yCsOyaleq4sCDsnKDrsKnsl7wgKFB1ZXJwZXJhbCBNYXN0aXRpcykubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

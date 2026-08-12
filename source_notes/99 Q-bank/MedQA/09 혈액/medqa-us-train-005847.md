@@ -13,6 +13,9 @@ related_diseases:
   - "겸상적혈구병"
   - "혈관폐쇄성 위기"
   - "하이드록시우레아"
+  - "Sickle cell disease"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: prevention
 difficulty: complex
 answer: B

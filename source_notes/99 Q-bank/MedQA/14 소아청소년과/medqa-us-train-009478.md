@@ -14,6 +14,8 @@ related_diseases:
   - "후두개염"
   - "Streptococcus pneumoniae"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riJ7ISxIO2bhOuRkOqwnOyXvCAoQWN1dGUgRXBpZ2xvdHRpdGlzKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

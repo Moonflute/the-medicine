@@ -14,6 +14,8 @@ related_diseases:
   - "옴진드기"
   - "퍼메트린"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yYtCAoU2NhYmllcykubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

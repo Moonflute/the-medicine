@@ -14,6 +14,8 @@ related_diseases:
   - "과다월경"
   - "골반 초음파"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

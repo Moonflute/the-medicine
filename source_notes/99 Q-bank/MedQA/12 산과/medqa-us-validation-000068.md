@@ -14,6 +14,9 @@ related_diseases:
   - "A형간염 예방접종"
   - "HCV RNA"
 question_type: prevention
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEgQe2YlSDqsITsl7wgKEFjdXRlIEhlcGF0aXRpcyBBKS5tZA
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

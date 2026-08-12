@@ -14,6 +14,8 @@ related_diseases:
   - "임신 중 고혈당"
   - "식이요법"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

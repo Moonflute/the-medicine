@@ -15,6 +15,9 @@ related_diseases:
   - "painless eyelid nodule"
   - "blepharitis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTgg7JWI6rO8L-y9qeuLpOuemOuBvCAoY2hhbGF6aW9uKS5tZA
+  - MTgg7JWI6rO8L-uIiOq6vO2SgO2FjOyXvCAobWFyZ2luYWwgYmxlcGhhcml0aXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

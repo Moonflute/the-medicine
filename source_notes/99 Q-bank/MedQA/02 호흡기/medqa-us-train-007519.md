@@ -14,6 +14,8 @@ related_diseases:
   - "비만"
   - "주간 졸림"
   - "체중 감량"
+  - "obstructive sleep apnea"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

@@ -14,6 +14,7 @@ related_diseases:
   - "physician health program"
   - "professional misconduct"
 question_type: ethics
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

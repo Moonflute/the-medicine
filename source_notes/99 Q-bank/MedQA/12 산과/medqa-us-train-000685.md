@@ -13,6 +13,8 @@ related_diseases:
   - "iron deficiency anemia"
   - "active labor"
 question_type: management
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yyoCDqsrDtlY0g67mI7ZiIIChJcm9uIERlZmljaWVuY3kgQW5lbWlhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

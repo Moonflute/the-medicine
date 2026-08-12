@@ -13,6 +13,9 @@ related_diseases:
   - "낭성섬유증"
   - "췌장 외분비 기능부전"
   - "비타민 K 결핍"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-u5hO2DgOuvvCBLIOqysO2VjSAoVml0YW1pbiBLIERlZmljaWVuY3kpLm1k
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 question_type: mechanism
 difficulty: simple
 answer: A

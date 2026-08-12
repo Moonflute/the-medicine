@@ -14,6 +14,10 @@ related_diseases:
   - "간경변"
   - "신장 관류 감소"
   - "신전성 급성 신손상"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsi6Ag7Kad7ZuE6rWwIChIZXBhdG9yZW5hbCBTeW5kcm9tZSkubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
+  - MDUg7Iug7J6lL-y9qe2MpeyEsSDquInshLEg7L2p7YylIOyGkOyDgSAoSW50cmluc2ljIFJlbmFsIEFjdXRlIEtpZG5leSBJbmp1cnkpLm1k
 question_type: mechanism
 difficulty: complex
 answer: C

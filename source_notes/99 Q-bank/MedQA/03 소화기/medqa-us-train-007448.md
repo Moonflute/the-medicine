@@ -14,6 +14,8 @@ related_diseases:
   - "식도열공탈장"
   - "기계적 식도 확장"
   - "연하곤란"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sl7Tqs7Ug7YOI7J6lIChIaWF0YWwgSGVybmlhKS5tZA
 question_type: management
 difficulty: complex
 answer: D

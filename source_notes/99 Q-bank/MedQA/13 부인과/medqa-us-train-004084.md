@@ -14,6 +14,8 @@ related_diseases:
   - "태반조기박리 감별"
   - "태아 심박동"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

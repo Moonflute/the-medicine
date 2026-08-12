@@ -13,6 +13,8 @@ related_diseases:
   - "포도당-6-인산탈수소효소 결핍증"
   - "하인즈 소체"
   - "급성 용혈"
+  - "G6PD deficiency"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: B

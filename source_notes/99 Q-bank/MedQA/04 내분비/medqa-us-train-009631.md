@@ -13,6 +13,9 @@ related_diseases:
   - "adrenal incidentaloma"
   - "부신 우연종"
   - "Cushing syndrome"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-u2gOyLoCDsmrDsl7DsooUgKEFkcmVuYWwgSW5jaWRlbnRhbG9tYSkubWQ
+  - MDQg64K067aE67mEL-y_oOyLsSDspp3tm4TqtbAgKEN1c2hpbmcncyBTeW5kcm9tZSkubWQ
 question_type: investigation
 difficulty: complex
 answer: C

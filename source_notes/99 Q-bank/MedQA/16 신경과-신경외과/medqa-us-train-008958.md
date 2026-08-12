@@ -14,6 +14,8 @@ related_diseases:
   - "post-stroke dysphagia"
   - "videofluoroscopic swallow study"
 question_type: investigation
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtazsnbjrkZAg7IK87YK06rOk656AIChPcm9waGFyeW5nZWFsIER5c3BoYWdpYSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

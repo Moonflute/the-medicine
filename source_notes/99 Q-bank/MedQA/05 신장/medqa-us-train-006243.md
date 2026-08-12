@@ -13,6 +13,9 @@ related_diseases:
   - "원위 신세뇨관 산증"
   - "정상 음이온차 대사성 산증"
   - "수소 이온 분비 장애"
+  - "Distal renal tubular acidosis"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-y9qe2MpeyEuOq0gCDsgrDspp0gMe2YlSAoUmVuYWwgVHVidWxhciBBY2lkb3NpcyBUeXBlIDEpLm1k
 question_type: mechanism
 difficulty: complex
 answer: C

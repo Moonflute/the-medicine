@@ -14,6 +14,8 @@ related_diseases:
   - "benign breast mass"
   - "mobile breast lump"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yErOycoOyEoOyihSAoRmlicm9hZGVub21hKS5tZA
 difficulty: simple
 answer: B
 translation_status: machine-verified

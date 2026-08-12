@@ -13,6 +13,7 @@ related_diseases:
   - "간경변성 복수"
   - "문맥고혈압"
   - "간 굴모세혈관 압력 증가"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: C

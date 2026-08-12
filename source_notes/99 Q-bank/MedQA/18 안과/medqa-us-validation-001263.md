@@ -14,6 +14,8 @@ related_diseases:
   - "적색반사 소실"
   - "야간 눈부심"
 question_type: diagnosis
+related_disease_slugs:
+  - MTgg7JWI6rO8L-uwseuCtOyepSAoY2F0YXJhY3QpLm1k
 difficulty: simple
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,7 @@ related_diseases:
   - "cyanotic breath-holding"
   - "reassurance"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "심장 타박상"
   - "외상성 부정맥"
   - "교통사고"
+  - "Cardiac contusion"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

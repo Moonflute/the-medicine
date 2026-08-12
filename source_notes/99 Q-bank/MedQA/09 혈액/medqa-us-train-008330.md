@@ -13,6 +13,8 @@ related_diseases:
   - "scurvy"
   - "vitamin C deficiency"
   - "collagen hydroxylation"
+  - "Vitamin C deficiency"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: standard
 answer: C

@@ -14,6 +14,8 @@ related_diseases:
   - "자궁경부염"
   - "Chlamydia trachomatis"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyXvCAoQ2VydmljaXRpcykubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

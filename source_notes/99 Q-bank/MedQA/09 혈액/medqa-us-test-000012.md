@@ -13,6 +13,8 @@ related_diseases:
   - "일차성 골수섬유증"
   - "JAK2 돌연변이"
   - "룩솔리티닙"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2KueuwnOyEsSDqs6jsiJjshKzsnKDspp0gKFBNRikgKFByaW1hcnkgTXllbG9maWJyb3NpcyAoUE1GKSkubWQ
 question_type: management
 difficulty: complex
 answer: D

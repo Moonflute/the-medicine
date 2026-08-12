@@ -13,6 +13,8 @@ related_diseases:
   - "알포트증후군"
   - "유전성 신염"
   - "감각신경성 난청"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yVjO2PrO2KuCDspp3tm4TqtbAgKEFscG9ydCBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

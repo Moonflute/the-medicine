@@ -13,6 +13,8 @@ related_diseases:
   - "티아지드 이뇨제"
   - "저칼륨혈증성 대사성 알칼리증"
   - "급성 심부전"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrtoDsoIQgKEFjdXRlIEhlYXJ0IEZhaWx1cmUpLm1k
 question_type: mechanism
 difficulty: complex
 answer: B

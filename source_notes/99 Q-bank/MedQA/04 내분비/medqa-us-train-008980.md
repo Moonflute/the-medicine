@@ -13,6 +13,8 @@ related_diseases:
   - "vitamin A toxicity"
   - "hypervitaminosis A"
   - "supplement adverse effect"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEEg64-F7ISx7KadIChWaXRhbWluIEEgVG94aWNpdHkpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

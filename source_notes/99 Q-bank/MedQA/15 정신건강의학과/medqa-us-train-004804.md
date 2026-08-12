@@ -13,7 +13,10 @@ related_diseases:
   - "항정신병약 유발 정좌불능"
   - "아리피프라졸"
   - "프로프라놀롤 치료"
+  - "Schizophrenia"
 question_type: adverse_effect
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

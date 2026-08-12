@@ -13,7 +13,10 @@ related_diseases:
   - "히르슈스프룽병"
   - "무신경절증"
   - "직장 흡인 생검"
+  - "Hirschsprung disease"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISg7LKcIOqxsOuMgCDqsrDsnqXspp0gKENvbmdlbml0YWwgQWdhbmdsaW9uaWMgTWVnYWNvbG9uKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

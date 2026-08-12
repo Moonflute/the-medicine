@@ -14,6 +14,8 @@ related_diseases:
   - "Sarcoptes scabiei"
   - "야간 소양감"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yYtCAoU2NhYmllcykubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

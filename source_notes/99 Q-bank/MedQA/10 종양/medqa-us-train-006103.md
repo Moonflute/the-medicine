@@ -13,6 +13,9 @@ related_diseases:
   - "소세포 폐암"
   - "이소성 ACTH 분비"
   - "쿠싱 증후군"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
+  - MDQg64K067aE67mEL-y_oOyLsSDspp3tm4TqtbAgKEN1c2hpbmcncyBTeW5kcm9tZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

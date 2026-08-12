@@ -13,6 +13,9 @@ related_diseases:
   - "신증후군"
   - "미세변화병"
   - "지방 원주"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
+  - MDUg7Iug7J6lL-uvuOyEuOuzgO2ZlOuzkSAoTWluaW1hbCBDaGFuZ2UgRGlzZWFzZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

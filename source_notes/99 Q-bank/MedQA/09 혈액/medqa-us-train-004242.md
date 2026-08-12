@@ -13,6 +13,8 @@ related_diseases:
   - "수혈 알레르기 반응"
   - "선천성 IgA 결핍"
   - "세척 혈액제제"
+  - "IgA deficiency"
+related_disease_slugs: []
 question_type: 임상증례 객관식
 difficulty: standard
 answer: D

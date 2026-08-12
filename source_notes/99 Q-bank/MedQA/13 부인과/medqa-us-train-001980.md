@@ -14,6 +14,7 @@ related_diseases:
   - "breastfeeding"
   - "progestin-only pill"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

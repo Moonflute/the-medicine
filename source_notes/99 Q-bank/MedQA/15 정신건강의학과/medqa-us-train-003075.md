@@ -14,7 +14,10 @@ related_diseases:
   - "acute confusional state"
   - "polypharmacy"
   - "hospital-acquired delirium"
+  - "Delirium"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yErOunnSAoRGVsaXJpdW0pLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "이전 자살 시도"
   - "주요우울장애"
 question_type: prognosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

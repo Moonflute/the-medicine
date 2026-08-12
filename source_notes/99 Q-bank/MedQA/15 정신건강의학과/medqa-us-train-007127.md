@@ -13,7 +13,9 @@ related_diseases:
   - "월경전불쾌장애"
   - "황체기 증상"
   - "선택적 세로토닌 재흡수 억제제"
+  - "Premenstrual dysphoric disorder"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

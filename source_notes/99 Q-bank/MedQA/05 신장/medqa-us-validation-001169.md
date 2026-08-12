@@ -13,6 +13,8 @@ related_diseases:
   - "급성 세포성 이식거부반응"
   - "신장이식"
   - "메틸프레드니솔론"
+  - "Acute cellular rejection"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

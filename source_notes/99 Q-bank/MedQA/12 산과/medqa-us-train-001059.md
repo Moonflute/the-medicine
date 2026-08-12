@@ -13,6 +13,8 @@ related_diseases:
   - "chickenpox"
   - "pregnancy"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yImOuRkCAoVmFyaWNlbGxhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

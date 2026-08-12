@@ -13,6 +13,9 @@ related_diseases:
   - "방광요관역류"
   - "반복 요로감염"
   - "신장 반흔"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-uwqeq0keyalOq0gOyXreulmCAoVmVzaWNvVXJldGVyYWwgUmVmbHV4KS5tZA
+  - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
 question_type: prognosis
 difficulty: simple
 answer: C

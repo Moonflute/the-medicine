@@ -13,7 +13,9 @@ related_diseases:
   - "atypical depression"
   - "monoamine oxidase inhibitor"
   - "hypersomnia hyperphagia"
+  - "Atypical depression"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

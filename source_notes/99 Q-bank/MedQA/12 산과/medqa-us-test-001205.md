@@ -14,6 +14,8 @@ related_diseases:
   - "태아 사망"
   - "공감적 의사소통"
 question_type: ethics
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

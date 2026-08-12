@@ -13,6 +13,8 @@ related_diseases:
   - "감염성 단핵구증"
   - "Epstein-Barr 바이러스"
   - "비인두암"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qwkOyXvC5tZA
 question_type: association
 difficulty: complex
 answer: B

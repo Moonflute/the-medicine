@@ -14,6 +14,7 @@ related_diseases:
   - "발달 단계 행동"
   - "행동장애 아님"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

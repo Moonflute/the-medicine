@@ -14,6 +14,8 @@ related_diseases:
   - "대혈관 폐색"
   - "기계적 혈전제거술"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "신증후군"
   - "저알부민혈증"
   - "심부정맥혈전증"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

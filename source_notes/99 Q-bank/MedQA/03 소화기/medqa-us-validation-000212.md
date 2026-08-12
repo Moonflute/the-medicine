@@ -13,6 +13,8 @@ related_diseases:
   - "당뇨병성 위마비"
   - "파킨슨병"
   - "위배출 지연"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: management
 difficulty: complex
 answer: D

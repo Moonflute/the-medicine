@@ -13,6 +13,8 @@ related_diseases:
   - "기관지경련"
   - "환경 항원"
   - "천명"
+  - "Allergic asthma"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: D

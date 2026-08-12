@@ -13,6 +13,8 @@ related_diseases:
   - "파종성 임균 감염"
   - "임균성 관절염"
   - "피부염-관절염 증후군"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yehOq3oCDqsJDsl7wgKEdvbm9jb2NjYWwgSW5mZWN0aW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: A

@@ -14,6 +14,7 @@ related_diseases:
   - "chemical inhalation injury"
   - "status asthmaticus"
   - "continued albuterol therapy"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

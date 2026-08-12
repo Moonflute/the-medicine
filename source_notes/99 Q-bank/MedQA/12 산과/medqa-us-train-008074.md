@@ -14,6 +14,8 @@ related_diseases:
   - "short cervix"
   - "preterm birth risk"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yhsOyCsCAoUHJldGVybSBiaXJ0aCkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

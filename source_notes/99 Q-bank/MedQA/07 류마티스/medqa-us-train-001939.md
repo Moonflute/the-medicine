@@ -13,6 +13,8 @@ related_diseases:
   - "limited cutaneous systemic sclerosis"
   - "CREST syndrome"
   - "anticentromere antibody"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDqsr3tmZTspp0gKFN5c3RlbWljIFNjbGVyb3NpcykubWQ
 question_type: investigation
 difficulty: standard
 answer: C

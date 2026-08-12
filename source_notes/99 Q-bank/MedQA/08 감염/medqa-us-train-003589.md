@@ -14,6 +14,9 @@ related_diseases:
   - "cold agglutinin hemolysis"
   - "atypical pneumonia"
   - "low complement"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uvuOy9lO2UjOudvOyKpOuniCAoTXljb3BsYXNtYSkubWQ
+  - MDIg7Zi47Z2h6riwL-u5hOygle2YlSDtj5DroLQgKEF0eXBpY2FsIFBuZXVtb25pYSkubWQ
 question_type: association
 difficulty: complex
 answer: A

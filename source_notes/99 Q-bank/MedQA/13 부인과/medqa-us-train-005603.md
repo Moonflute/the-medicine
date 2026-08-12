@@ -14,6 +14,8 @@ related_diseases:
   - "구리 자궁 내 장치"
   - "청소년 피임 상담"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geuCtOyepey5mCAoSW50cmF1dGVyaW5lIERldmljZSkubWQ
 difficulty: simple
 answer: D
 translation_status: machine-verified

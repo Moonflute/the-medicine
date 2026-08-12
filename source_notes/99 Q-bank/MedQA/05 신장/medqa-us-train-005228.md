@@ -13,6 +13,9 @@ related_diseases:
   - "신성 요붕증"
   - "리튬 유발 요붕증"
   - "바소프레신 저항성"
+  - "Nephrogenic diabetes insipidus"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-y9qe2Mpeq4sOybkCDsmpTrtpXspp0gKE5lcGhyb2dlbmljIERpYWJldGVzIEluc2lwaWR1cykubWQ
 question_type: mechanism
 difficulty: simple
 answer: D

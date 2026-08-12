@@ -13,6 +13,8 @@ related_diseases:
   - "서맥성 부정맥"
   - "완전 방실차단"
   - "경피적 심박조율"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uwqeyLpOywqOuLqCAoQVYgYmxvY2spLm1k
 question_type: management
 difficulty: simple
 answer: C

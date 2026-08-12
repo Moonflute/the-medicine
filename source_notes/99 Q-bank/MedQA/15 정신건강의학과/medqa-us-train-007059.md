@@ -13,7 +13,10 @@ related_diseases:
   - "의료전문직 경계"
   - "비응급 편두통"
   - "의사-환자 관계"
+  - "Migraine"
 question_type: ethics
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjrjrkZDthrUgKE1pZ3JhaW5lKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

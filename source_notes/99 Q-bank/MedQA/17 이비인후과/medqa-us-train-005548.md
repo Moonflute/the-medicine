@@ -14,6 +14,9 @@ related_diseases:
   - "안면신경 손상"
   - "아랫입술 마비"
 question_type: prognosis
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uyqOuniOu5hCAoQmVsbCdzIHBhbHN5KS5tZA
+  - MTcg7J2067mE7J247ZuE6rO8L-uLpO2YleyDmOyihSAoUGxlb21vcnBoaWMgQWRlbm9tYSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -13,7 +13,10 @@ related_diseases:
   - "비알레르기성 비염"
   - "혈관운동성 비염"
   - "후비루"
+  - "Allergic rhinitis"
 question_type: management
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sCDruYTsl7wgKEFsbGVyZ2ljIFJoaW5pdGlzKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

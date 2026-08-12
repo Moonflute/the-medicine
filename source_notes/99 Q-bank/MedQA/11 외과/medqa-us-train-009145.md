@@ -13,6 +13,8 @@ related_diseases:
   - "descending mediastinitis"
   - "하행성 종격동염"
   - "retropharyngeal infection"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yEuOuhnOy5uOyXvCAoTWVkaWFzdGluaXRpcykubWQ
 question_type: prevention
 difficulty: complex
 answer: B

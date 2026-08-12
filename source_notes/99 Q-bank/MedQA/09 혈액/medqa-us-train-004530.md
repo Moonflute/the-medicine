@@ -13,6 +13,9 @@ related_diseases:
   - "다발골수종"
   - "골용해성 병변"
   - "고칼슘혈증"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: investigation
 difficulty: standard
 answer: B

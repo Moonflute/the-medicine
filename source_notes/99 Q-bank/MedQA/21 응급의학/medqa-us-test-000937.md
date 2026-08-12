@@ -14,6 +14,8 @@ related_diseases:
   - "임신 배제"
   - "우하복부 통증"
 question_type: investigation
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_quInshLEg7Lap7IiY7Je8IChBY3V0ZSBBcHBlbmRpY2l0aXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

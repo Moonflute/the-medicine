@@ -13,6 +13,9 @@ related_diseases:
   - "코르티솔 분비 부신종양"
   - "ACTH 비의존성 쿠싱증후군"
   - "부신암"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-u2gOyLoCDsooXslpEgKEFkcmVuYWwgVHVtb3IpLm1k
+  - MDQg64K067aE67mEL-qzoOyCvO2IrOyVleyEsSDqs6DtmIjri7kg7IOB7YOcIChISFMpIChIeXBlcm9zbW9sYXIgSHlwZXJnbHljZW1pYyBTdGF0ZSkubWQ
 question_type: investigation
 difficulty: complex
 answer: C

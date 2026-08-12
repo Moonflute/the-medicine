@@ -14,6 +14,7 @@ related_diseases:
   - "proximal muscle weakness"
   - "normal creatine kinase"
   - "giant cell arteritis treatment"
+related_disease_slugs: []
 question_type: adverse_effect
 difficulty: standard
 answer: C

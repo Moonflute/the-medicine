@@ -13,6 +13,8 @@ related_diseases:
   - "고고도 폐부종"
   - "저산소성 폐혈관수축"
   - "고산병"
+  - "high altitude pulmonary edema"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: B

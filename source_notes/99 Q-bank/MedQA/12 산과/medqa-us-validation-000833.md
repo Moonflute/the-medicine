@@ -14,6 +14,7 @@ related_diseases:
   - "니트로푸란토인 예방"
   - "임신성 요로감염"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "폐포자충 폐렴"
   - "스테로이드 유발 면역저하"
   - "베타-D-글루칸 상승"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k
 question_type: investigation
 difficulty: complex
 answer: A

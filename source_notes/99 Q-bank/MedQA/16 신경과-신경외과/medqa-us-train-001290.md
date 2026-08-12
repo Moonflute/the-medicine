@@ -14,6 +14,7 @@ related_diseases:
   - "rapidly progressive dementia"
   - "myoclonus"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

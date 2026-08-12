@@ -12,6 +12,9 @@ specialty: 04 내분비
 related_diseases:
   - "acromegaly"
   - "carpal tunnel syndrome"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-unkOuLqOu5hOuMgOymnSAoQWNyb21lZ2FseSkubWQ
+  - MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k
 question_type: investigation
 difficulty: complex
 answer: B

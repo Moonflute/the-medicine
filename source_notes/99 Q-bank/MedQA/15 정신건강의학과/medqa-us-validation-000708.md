@@ -14,6 +14,7 @@ related_diseases:
   - "사별 후 환각"
   - "병적 애도와의 감별"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

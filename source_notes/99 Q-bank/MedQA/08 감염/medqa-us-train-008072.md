@@ -13,6 +13,9 @@ related_diseases:
   - "antibiotic-associated vitamin K deficiency"
   - "coagulopathy"
   - "prolonged PT and aPTT"
+  - "Vitamin K deficiency"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-u5hO2DgOuvvCBLIOqysO2VjSAoVml0YW1pbiBLIERlZmljaWVuY3kpLm1k
 question_type: mechanism
 difficulty: complex
 answer: A

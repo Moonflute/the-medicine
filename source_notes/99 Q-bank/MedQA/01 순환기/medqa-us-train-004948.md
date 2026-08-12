@@ -13,6 +13,8 @@ related_diseases:
   - "바이러스성 심근염"
   - "확장성 심근병증"
   - "엔테로바이러스"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2ZleyepeyEsSDsi6zqt7zrs5Hspp0gKERpbGF0ZWQgQ2FyZGlvbXlvcGF0aHkpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: C

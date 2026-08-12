@@ -14,6 +14,8 @@ related_diseases:
   - "kidney transplant dysfunction"
   - "allograft biopsy"
   - "rising creatinine"
+  - "Acute renal transplant rejection"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

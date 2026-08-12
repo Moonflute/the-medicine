@@ -14,6 +14,7 @@ related_diseases:
   - "마미 압박"
   - "안장부 감각소실"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

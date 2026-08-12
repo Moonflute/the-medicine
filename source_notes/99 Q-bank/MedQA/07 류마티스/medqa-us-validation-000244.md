@@ -13,6 +13,9 @@ related_diseases:
   - "강직성 척추염"
   - "염증성 척추관절염"
   - "인도메타신"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwleyngeyEsSDsspnstpTsl7wgKEFua3lsb3NpbmcgU3BvbmR5bGl0aXMpLm1k
+  - MDcg66WY66eI7Yuw7IqkL-yHvOq3uOugjCDspp3tm4TqtbAgKFNqw7ZncmVuJ3MgU3luZHJvbWUpLm1k
 question_type: management
 difficulty: standard
 answer: B

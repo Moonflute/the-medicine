@@ -13,6 +13,9 @@ related_diseases:
   - "울혈성 심부전"
   - "심방 나트륨이뇨 펩타이드"
   - "저나트륨혈증"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: mechanism
 difficulty: complex
 answer: C

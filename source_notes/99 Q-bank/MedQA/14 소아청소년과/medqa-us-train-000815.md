@@ -13,6 +13,8 @@ related_diseases:
   - "hypocalcemia"
   - "neonatal seizures"
 question_type: diagnosis
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggOy5vOyKmO2YiOymnSAoSHlwb2NhbGNlbWlhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "치료 거부"
   - "환자 자율성"
   - "장 천공"
+  - "Peptic ulcer perforation"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQg7LKc6rO1IChQZXJmb3JhdGlvbikubWQ
 question_type: ethics
 difficulty: complex
 answer: A

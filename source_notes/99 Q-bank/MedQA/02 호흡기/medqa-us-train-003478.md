@@ -14,6 +14,9 @@ related_diseases:
   - "oral candidiasis"
   - "asthma therapy"
   - "beclomethasone"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JWE6rWs7LC9IChPcmFsIFRocnVzaCkubWQ
+  - MDgg6rCQ7Je8L-y5uOuUlOuLpOymnSAoQ2FuZGlkaWFzaXMpLm1k
 question_type: adverse_effect
 difficulty: standard
 answer: C

@@ -14,6 +14,8 @@ related_diseases:
   - "male infertility"
   - "testicular atrophy"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

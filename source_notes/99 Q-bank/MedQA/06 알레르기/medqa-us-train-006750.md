@@ -13,6 +13,9 @@ related_diseases:
   - "DRESS 증후군"
   - "카르바마제핀 과민반응"
   - "약물 발진"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVveusvCDrsJzsp4Qg7Zi47IKw6rWs7KadIOuwjyDsoITsi6Ag7Kad7IOBIChEUkVTUykgKERydWcgUmVhY3Rpb24gd2l0aCBFb3Npbm9waGlsaWEgYW5kIFN5c3RlbWljIFN5bXB0b21zIChEUkVTUykpLm1k
+  - MTkg7ZS867aA6rO8L-yVveusvCDrsJzsp4QgKERydWcgRXJ1cHRpb24pLm1k
 question_type: management
 difficulty: complex
 answer: A

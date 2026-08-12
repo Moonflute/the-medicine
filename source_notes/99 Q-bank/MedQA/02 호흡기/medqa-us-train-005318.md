@@ -13,6 +13,9 @@ related_diseases:
   - "고립성 폐결절"
   - "7 mm 폐결절"
   - "얇은 절편 CT"
+  - "pulmonary nodule"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uLqOydvCDtj5DqsrDsoIggKFNQTikgKFNvbGl0YXJ5IFB1bG1vbmFyeSBOb2R1bGUpLm1k
 question_type: investigation
 difficulty: complex
 answer: A

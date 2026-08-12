@@ -14,6 +14,8 @@ related_diseases:
   - "다운증후군 선별"
   - "PAPP-A"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

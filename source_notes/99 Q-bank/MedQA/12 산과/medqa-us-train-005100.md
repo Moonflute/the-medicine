@@ -14,6 +14,7 @@ related_diseases:
   - "임신 확인"
   - "질식 초음파"
 question_type: investigation
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

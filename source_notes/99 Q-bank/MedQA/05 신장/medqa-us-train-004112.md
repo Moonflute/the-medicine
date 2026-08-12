@@ -13,6 +13,8 @@ related_diseases:
   - "굿파스처 증후군"
   - "폐-신장 증후군"
   - "항-사구체기저막 항체"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyGjSDsp4Ttlokg7Yag66as7L2p7Yyl7Je8IChSYXBpZGx5IFByb2dyZXNzaXZlIEdsb21lcnVsb25lcGhyaXRpcykubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

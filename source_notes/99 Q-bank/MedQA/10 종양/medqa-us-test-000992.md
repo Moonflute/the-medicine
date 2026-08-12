@@ -13,6 +13,8 @@ related_diseases:
   - "유잉육종"
   - "작은 원형 청색 세포"
   - "양파껍질 골막반응"
+  - "Ewing sarcoma"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: C

@@ -14,6 +14,8 @@ related_diseases:
   - "테니스 엘보"
   - "반복적 손목 폄"
 question_type: mechanism
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-2MlOq_iOy5mCDsmbjsuKEg7IOB6rO87Je8IChMYXRlcmFsIEVwaWNvbmR5bGl0aXMpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

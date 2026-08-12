@@ -14,6 +14,8 @@ related_diseases:
   - "HPV risk"
   - "early sexual debut"
 question_type: prognosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gCDsg4HtlLzrgrQg7KKF7JaRIChDZXJ2aWNhbCBJbnRyYWVwaXRoZWxpYWwgTmVvcGxhc2lhKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

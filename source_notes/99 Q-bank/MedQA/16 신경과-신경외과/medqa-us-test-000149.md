@@ -14,6 +14,8 @@ related_diseases:
   - "행동변이 전두측두엽 치매"
   - "탈억제"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghOuRkOy4oeuRkOyXvSDsuZjrp6QgKEZyb250b3RlbXBvcmFsIERlbWVudGlhKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

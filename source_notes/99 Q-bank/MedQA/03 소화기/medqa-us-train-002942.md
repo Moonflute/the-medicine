@@ -14,6 +14,8 @@ related_diseases:
   - "bowel obstruction"
   - "elevated INR"
   - "preoperative reversal"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yepSDtj5Dsg4kgKEJvd2VsIE9ic3RydWN0aW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: B

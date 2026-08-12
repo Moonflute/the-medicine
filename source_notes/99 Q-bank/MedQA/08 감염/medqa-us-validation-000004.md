@@ -13,6 +13,9 @@ related_diseases:
   - "급성 신우신염"
   - "요로감염"
   - "소변배양"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA
+  - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
 question_type: investigation
 difficulty: complex
 answer: B

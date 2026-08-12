@@ -14,6 +14,9 @@ related_diseases:
   - "자궁내막암"
   - "복합 경구피임약"
 question_type: prevention
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ
+  - MTMg67aA7J246rO8L-qyveq1rO2UvOyehOyVvSAoT3JhbCBDb250cmFjZXB0aXZlcykubWQ
 difficulty: simple
 answer: A
 translation_status: machine-verified

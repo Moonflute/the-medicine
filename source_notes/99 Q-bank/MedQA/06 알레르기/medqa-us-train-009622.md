@@ -13,6 +13,7 @@ related_diseases:
   - "hyper-IgM syndrome"
   - "고 IgM 증후군"
   - "immunoglobulin class-switch defect"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: C

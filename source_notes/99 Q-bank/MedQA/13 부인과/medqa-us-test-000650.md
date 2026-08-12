@@ -14,6 +14,8 @@ related_diseases:
   - "46,XY"
   - "원발성 무월경"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yViOuTnOuhnOqykOu2iOqwkOydkSAoQW5kcm9nZW4gSW5zZW5zaXRpdml0eSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

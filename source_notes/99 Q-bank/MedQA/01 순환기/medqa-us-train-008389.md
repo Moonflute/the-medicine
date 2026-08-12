@@ -13,6 +13,9 @@ related_diseases:
   - "constrictive pericarditis"
   - "radiation-induced constrictive pericarditis"
   - "Hodgkin lymphoma"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q1kOywqSDsi6zrp4nsl7wgKENvbnN0cmljdGl2ZSBQZXJpY2FyZGl0aXMpLm1k
+  - MDkg7ZiI7JWhL-2YuOyngO2CqCDrprztlITsooUgKEhvZGdraW4gTHltcGhvbWEpLm1k
 question_type: management
 difficulty: complex
 answer: B

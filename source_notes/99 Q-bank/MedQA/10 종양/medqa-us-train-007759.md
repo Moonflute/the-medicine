@@ -13,6 +13,8 @@ related_diseases:
   - "renal cell carcinoma"
   - "localized renal cancer"
   - "nephrectomy"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-y9qe2MpeyVlCAoUmVuYWwgQ2VsbCBDYXJjaW5vbWEpLm1k
 question_type: management
 difficulty: standard
 answer: C

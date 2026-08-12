@@ -14,6 +14,8 @@ related_diseases:
   - "산후출혈"
   - "태반 수동 제거"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geuCtOuyiOymnSAoVXRlcmluZSBJbnZlcnNpb24pLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -15,6 +15,7 @@ related_diseases:
   - "miosis or unreactive pupils"
   - "naloxone"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

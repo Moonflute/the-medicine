@@ -14,6 +14,7 @@ related_diseases:
   - "말초성 성조숙증"
   - "섬유성 이형성증"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

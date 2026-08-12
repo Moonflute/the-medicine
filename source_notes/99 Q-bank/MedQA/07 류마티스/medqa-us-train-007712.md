@@ -13,6 +13,8 @@ related_diseases:
   - "polymyalgia rheumatica"
   - "inflammatory myalgia"
   - "glucocorticoid treatment"
+  - "Polymyalgia rheumatica"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: D

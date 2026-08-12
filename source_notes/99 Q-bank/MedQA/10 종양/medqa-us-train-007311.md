@@ -14,6 +14,8 @@ related_diseases:
   - "B 증상"
   - "종격동 림프절병증"
   - "절제 림프절 생검"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YuOyngO2CqCDrprztlITsooUgKEhvZGdraW4gTHltcGhvbWEpLm1k
 question_type: investigation
 difficulty: complex
 answer: D

@@ -13,7 +13,9 @@ related_diseases:
   - "지연성 수면-각성 주기 장애"
   - "청소년 수면장애"
   - "주간 졸림"
+  - "Delayed sleep phase disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

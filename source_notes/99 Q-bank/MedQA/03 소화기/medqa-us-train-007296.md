@@ -14,6 +14,8 @@ related_diseases:
   - "소장 확장"
   - "흡수장애"
   - "맹관 증후군"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tnaHsiJjsnqXslaAubWQ
 question_type: diagnosis
 difficulty: standard
 answer: B

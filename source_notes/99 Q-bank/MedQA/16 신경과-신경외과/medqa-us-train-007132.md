@@ -14,7 +14,9 @@ related_diseases:
   - "파킨슨병"
   - "시각 환각"
   - "약물 이상반응"
+  - "Levodopa-induced psychosis"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

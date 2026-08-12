@@ -13,6 +13,8 @@ related_diseases:
   - "premature rupture of membranes"
   - "ascending infection"
 question_type: mechanism
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yhsOq4sCDslpHrp4kg7YyM7IiYIChQcmVtYXR1cmUgUnVwdHVyZSBvZiBNZW1icmFuZXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

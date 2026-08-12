@@ -14,6 +14,8 @@ related_diseases:
   - "streptococcal pharyngitis"
   - "rheumatic carditis"
   - "penicillin"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yCrOyKrOyVjOq3oCDsnbjrkZDsl7wgKFN0cmVwdG9jb2NjYWwgUGhhcnluZ2l0aXMpLm1k
 question_type: management
 difficulty: standard
 answer: A

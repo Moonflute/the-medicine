@@ -13,6 +13,9 @@ related_diseases:
   - "인플루엔자 예방접종"
   - "당뇨병 예방접종"
   - "여행 전 예방"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yduO2UjOujqOyXlOyekCAoSW5mbHVlbnphKS5tZA
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: prevention
 difficulty: complex
 answer: A

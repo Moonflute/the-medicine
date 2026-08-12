@@ -14,6 +14,9 @@ related_diseases:
   - "endometrial hyperplasia"
   - "endometrial biopsy"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u5hOygleyDgSDsnpDqtoEg7Lac7ZiIIChBYm5vcm1hbCBVdGVyaW5lIEJsZWVkaW5nKS5tZA
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4kg7Kad7Iud7KadIChFbmRvbWV0cmlhbCBIeXBlcnBsYXNpYSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

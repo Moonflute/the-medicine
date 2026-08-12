@@ -12,6 +12,8 @@ specialty: 01 순환기
 related_diseases:
   - "sudden cardiac arrest"
   - "hypertrophic cardiomyopathy"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-u5hO2bhOyEsSDsi6zqt7zrs5Hspp0gKEh5cGVydHJvcGhpYyBDYXJkaW9teW9wYXRoeSkubWQ
 question_type: diagnosis
 difficulty: simple
 answer: C

@@ -13,6 +13,8 @@ related_diseases:
   - "독소루비신"
   - "심근병증"
   - "누적 심장독성"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOq3vOuzkeymnSAoQ2FyZGlvbXlvcGF0aHkpLm1k
 question_type: 임상증례 객관식
 difficulty: complex
 answer: C

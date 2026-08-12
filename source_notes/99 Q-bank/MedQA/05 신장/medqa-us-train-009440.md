@@ -13,6 +13,9 @@ related_diseases:
   - "renal artery stenosis"
   - "신동맥 협착"
   - "secondary hyperaldosteronism"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
+  - MDQg64K067aE67mEL-ydtOywqOyEsSDslYzrj4TsiqTthYzroaDspp0gKFNlY29uZGFyeSBBbGRvc3Rlcm9uaXNtKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

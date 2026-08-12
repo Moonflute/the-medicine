@@ -14,6 +14,8 @@ related_diseases:
   - "low ceruloplasmin"
   - "hepatic and neurologic manifestations"
 question_type: investigation
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snIzsiqjrs5EgKFdpbHNvbidzIERpc2Vhc2UpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

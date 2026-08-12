@@ -13,6 +13,9 @@ related_diseases:
   - "말단비대증"
   - "수근관증후군"
   - "말단비대증성 심근병증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-unkOuLqOu5hOuMgOymnSAoQWNyb21lZ2FseSkubWQ
+  - MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k
 question_type: prognosis
 difficulty: complex
 answer: B

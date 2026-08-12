@@ -14,6 +14,7 @@ related_diseases:
   - "혈관 손상"
   - "외상성 출혈"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

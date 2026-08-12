@@ -14,6 +14,8 @@ related_diseases:
   - "청색증성 선천성 심장병"
   - "단일 제2심음"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA7ZiI6rSAIOyghOychCAoVHJhbnNwb3NpdGlvbiBvZiB0aGUgR3JlYXQgQXJ0ZXJpZXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "외상성 쇼크"
   - "심낭혈종"
 question_type: mechanism
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOyepSDriIzrprzspp0gKENhcmRpYWMgVGFtcG9uYWRlKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

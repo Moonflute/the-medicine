@@ -14,6 +14,8 @@ related_diseases:
   - "cisplatin"
   - "sensorineural hearing loss"
 question_type: adverse_effect
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uPjOuwnOyEsSDrgpzssq0gKFN1ZGRlbiBzZW5zb3JpbmV1cmFsIGhlYXJpbmcgbG9zcykubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

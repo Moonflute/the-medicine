@@ -14,6 +14,8 @@ related_diseases:
   - "경부 혈관 손상 감별"
   - "CT 혈관조영술"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-qyveu2gOyZuOyDgSAoQ2VydmljYWwgVHJhdW1hKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

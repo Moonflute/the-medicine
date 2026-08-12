@@ -14,6 +14,8 @@ related_diseases:
   - "세균성 관절염"
   - "세페핌"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ZmU64aN7ISxIOq0gOygiOyXvCAoU3VwcHVyYXRpdmUgQXJ0aHJpdGlzKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "침윤성 유관암"
   - "유방보존술"
   - "감시 림프절 생검"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-y5qOycpOyEsSDsnKDrsKnslZQgKEludmFzaXZlIEJyZWFzdCBDYW5jZXIpLm1k
 question_type: management
 difficulty: complex
 answer: D

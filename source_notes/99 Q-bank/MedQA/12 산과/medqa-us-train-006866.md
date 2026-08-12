@@ -13,7 +13,9 @@ related_diseases:
   - "외부 두정위 교정술"
   - "Rh 동종면역"
   - "Rh 음성 임신"
+  - "Rh alloimmunization"
 question_type: prevention
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

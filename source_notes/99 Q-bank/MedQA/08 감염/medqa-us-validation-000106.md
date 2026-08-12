@@ -13,6 +13,8 @@ related_diseases:
   - "라임병"
   - "유주성 홍반"
   - "Borrelia burgdorferi"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-udvOyehOuzkSAoTHltZSBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: complex
 answer: A

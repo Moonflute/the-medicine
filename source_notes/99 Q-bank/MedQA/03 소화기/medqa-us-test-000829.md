@@ -13,6 +13,8 @@ related_diseases:
   - "알코올성 간경변"
   - "문맥고혈압"
   - "식도정맥류 출혈"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_si53rj4Qg7KCV66el66WYIChFc29waGFnZWFsIFZhcmljZXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

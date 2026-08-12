@@ -11,6 +11,8 @@ language: ko
 specialty: 11 외과
 related_diseases:
   - "strangulated inguinal hernia"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yDheq1tCDtg4jsnqUgKEluZ3VpbmFsIEhlcm5pYSkubWQ
 question_type: management
 difficulty: complex
 answer: B

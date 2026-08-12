@@ -14,6 +14,8 @@ related_diseases:
   - "urine immunoassay"
   - "cannabis use"
 question_type: investigation
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uMgOuniCDqs4QgKENhbm5hYmlzKS5tZA
 difficulty: simple
 answer: D
 translation_status: machine-verified

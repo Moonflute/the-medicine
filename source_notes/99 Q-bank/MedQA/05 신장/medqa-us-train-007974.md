@@ -13,6 +13,8 @@ related_diseases:
   - "Goodpasture syndrome"
   - "anti-glomerular basement membrane disease"
   - "type II hypersensitivity"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyGjSDsp4Ttlokg7Yag66as7L2p7Yyl7Je8IChSYXBpZGx5IFByb2dyZXNzaXZlIEdsb21lcnVsb25lcGhyaXRpcykubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

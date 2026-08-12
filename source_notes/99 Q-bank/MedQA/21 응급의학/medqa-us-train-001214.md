@@ -13,6 +13,8 @@ related_diseases:
   - "Cushing reflex"
   - "intracranial hypertension"
 question_type: mechanism
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -15,6 +15,8 @@ related_diseases:
   - "고혈압 위험"
   - "자연유산 후 피임"
 question_type: prognosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-qyveq1rO2UvOyehOyVvSAoT3JhbCBDb250cmFjZXB0aXZlcykubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

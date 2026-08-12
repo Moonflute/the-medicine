@@ -14,6 +14,10 @@ related_diseases:
   - "Acute rheumatic fever"
   - "Disseminated gonococcal infection"
   - "Reactive arthritis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yehOq3oCDqsJDsl7wgKEdvbm9jb2NjYWwgSW5mZWN0aW9uKS5tZA
+  - MDcg66WY66eI7Yuw7IqkL-uwmOydkeyEsSDqtIDsoIjsl7wgKFJlYWN0aXZlIEFydGhyaXRpcykubWQ
+  - MDgg6rCQ7Je8L-udvOyehOuzkSAoTHltZSBEaXNlYXNlKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: C

@@ -13,7 +13,9 @@ related_diseases:
   - "pregnancy"
   - "neural tube defect prevention"
   - "folic acid supplementation"
+  - "Neural tube defects"
 question_type: prevention
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

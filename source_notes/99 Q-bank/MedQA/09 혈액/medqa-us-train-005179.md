@@ -13,6 +13,8 @@ related_diseases:
   - "엽산 결핍"
   - "용혈성 빈혈"
   - "비타민 B9 보충"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: management
 difficulty: complex
 answer: B

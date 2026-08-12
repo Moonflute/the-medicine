@@ -13,6 +13,7 @@ related_diseases:
   - "백혈병양 반응"
   - "호중구 증가"
   - "백혈구 알칼리성 인산분해효소 상승"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: C

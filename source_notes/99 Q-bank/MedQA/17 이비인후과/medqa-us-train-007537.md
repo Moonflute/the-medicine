@@ -15,6 +15,8 @@ related_diseases:
   - "만성 콧물"
   - "재채기"
 question_type: management
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sCDruYTsl7wgKEFsbGVyZ2ljIFJoaW5pdGlzKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

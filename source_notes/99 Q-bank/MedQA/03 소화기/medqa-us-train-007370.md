@@ -14,6 +14,8 @@ related_diseases:
   - "양성 결합 고빌리루빈혈증"
   - "직접 고빌리루빈혈증"
   - "정상 간 생검"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qs6DruYzrpqzro6jruYjspp0ubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

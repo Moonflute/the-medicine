@@ -13,6 +13,8 @@ related_diseases:
   - "와파린 치료"
   - "심방세동"
   - "항응고 모니터링"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 question_type: investigation
 difficulty: standard
 answer: B

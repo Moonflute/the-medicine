@@ -13,6 +13,8 @@ related_diseases:
   - "steroid myopathy"
   - "systemic lupus erythematosus"
   - "glucocorticoid adverse effect"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDtmY3rsJgg66Oo7ZG47IqkIChTeXN0ZW1pYyBMdXB1cyBFcnl0aGVtYXRvc3VzKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: D

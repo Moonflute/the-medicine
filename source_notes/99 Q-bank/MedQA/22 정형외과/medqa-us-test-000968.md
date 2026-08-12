@@ -14,6 +14,9 @@ related_diseases:
   - "잠복 골절"
   - "엄지 스피카 석고"
 question_type: management
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yjvOyDgeqzqCDqs6jsoIggKFNjYXBob2lkIEZyYWN0dXJlKS5tZA
+  - MjIg7KCV7ZiV7Jm46rO8L-qzqOygiCDstJ3roaAgKEZyYWN0dXJlIEdlbmVyYWwgUHJpbmNpcGxlcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

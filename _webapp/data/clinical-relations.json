@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-10T19:23:21.550Z",
+  "generatedAt": "2026-08-12T07:41:53.957Z",
   "source": "generated from frontmatter and wikilinks",
-  "nodeCount": 1886,
-  "relationCount": 7707,
-  "explicitRelationCount": 4977,
-  "generatedRelationCount": 2730,
+  "nodeCount": 1893,
+  "relationCount": 7724,
+  "explicitRelationCount": 4986,
+  "generatedRelationCount": 2738,
   "brokenTargetCount": 0,
-  "unresolvedReferenceCount": 2162,
+  "unresolvedReferenceCount": 2174,
   "relations": [
     {
       "sourceType": "cc",
@@ -4812,6 +4812,19 @@
       "sourceHref": "/cc/7ISk7IKs",
       "relation": "differential",
       "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/위장관/셀리악병 (Celiac Disease).md",
+      "targetTitle": "셀리악병 (Celiac Disease)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA",
+      "provenance": "generated",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "cc",
+      "sourceId": "107",
+      "sourceTitle": "설사",
+      "sourceHref": "/cc/7ISk7IKs",
+      "relation": "differential",
+      "targetType": "disease",
       "targetId": "02 Diseases/14 소아청소년과/소아과 각론/소아과 각론.md",
       "targetTitle": "소아과 각론",
       "targetHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM7JWE6rO8IOqwgeuhoC5tZA",
@@ -5335,6 +5348,19 @@
       "targetId": "02 Diseases/08 감염/거대세포바이러스 감염 (CMV) (Cytomegalovirus Infection (CMV)).md",
       "targetTitle": "거대세포바이러스 감염 (CMV) (Cytomegalovirus Infection (CMV))",
       "targetHref": "/disease/MDgg6rCQ7Je8L-qxsOuMgOyEuO2PrOuwlOydtOufrOyKpCDqsJDsl7wgKENNVikgKEN5dG9tZWdhbG92aXJ1cyBJbmZlY3Rpb24gKENNVikpLm1k",
+      "provenance": "generated",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "cc",
+      "sourceId": "108",
+      "sourceTitle": "황달",
+      "sourceHref": "/cc/7Zmp64us",
+      "relation": "differential",
+      "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/겸상적혈구병 (Sickle Cell Disease).md",
+      "targetTitle": "겸상적혈구병 (Sickle Cell Disease)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ",
       "provenance": "generated",
       "evidence": "chiefComplaints"
     },
@@ -12287,6 +12313,19 @@
       "sourceHref": "/cc/7Zi47Z2h6rOk656A",
       "relation": "differential",
       "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/겸상적혈구병 (Sickle Cell Disease).md",
+      "targetTitle": "겸상적혈구병 (Sickle Cell Disease)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ",
+      "provenance": "generated",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "cc",
+      "sourceId": "304",
+      "sourceTitle": "호흡곤란",
+      "sourceHref": "/cc/7Zi47Z2h6rOk656A",
+      "relation": "differential",
+      "targetType": "disease",
       "targetId": "02 Diseases/11 외과/경부외상 (Cervical Trauma).md",
       "targetTitle": "경부외상 (Cervical Trauma)",
       "targetHref": "/disease/MTEg7Jm46rO8L-qyveu2gOyZuOyDgSAoQ2VydmljYWwgVHJhdW1hKS5tZA",
@@ -12617,6 +12656,19 @@
       "targetHref": "/disease/MDIg7Zi47Z2h6riwL-q4tOyepeyEsSDquLDtnYkgKFRlbnNpb24gUG5ldW1vdGhvcmF4KS5tZA",
       "provenance": "wikilink",
       "evidence": "ER"
+    },
+    {
+      "sourceType": "cc",
+      "sourceId": "304",
+      "sourceTitle": "호흡곤란",
+      "sourceHref": "/cc/7Zi47Z2h6rOk656A",
+      "relation": "differential",
+      "targetType": "disease",
+      "targetId": "02 Diseases/02 호흡기/낭성섬유증 (Cystic Fibrosis).md",
+      "targetTitle": "낭성섬유증 (Cystic Fibrosis)",
+      "targetHref": "/disease/MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA",
+      "provenance": "generated",
+      "evidence": "chiefComplaints"
     },
     {
       "sourceType": "cc",
@@ -16629,6 +16681,19 @@
       "sourceHref": "/cc/67Cc7Je0",
       "relation": "differential",
       "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/겸상적혈구병 (Sickle Cell Disease).md",
+      "targetTitle": "겸상적혈구병 (Sickle Cell Disease)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ",
+      "provenance": "generated",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "cc",
+      "sourceId": "501",
+      "sourceTitle": "발열",
+      "sourceHref": "/cc/67Cc7Je0",
+      "relation": "differential",
+      "targetType": "disease",
       "targetId": "02 Diseases/08 감염/골수염 (Osteomyelitis).md",
       "targetTitle": "골수염 (Osteomyelitis)",
       "targetHref": "/disease/MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ",
@@ -18010,6 +18075,19 @@
       "targetId": "02 Diseases/14 소아청소년과/소아과 각론/신경모세포종 (Neuroblastoma).md",
       "targetTitle": "신경모세포종 (Neuroblastoma)",
       "targetHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug6rK966qo7IS47Y-s7KKFIChOZXVyb2JsYXN0b21hKS5tZA",
+      "provenance": "generated",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "cc",
+      "sourceId": "501",
+      "sourceTitle": "발열",
+      "sourceHref": "/cc/67Cc7Je0",
+      "relation": "differential",
+      "targetType": "disease",
+      "targetId": "02 Diseases/15 정신건강의학과/신경이완제 악성 증후군 (Neuroleptic Malignant Syndrome).md",
+      "targetTitle": "신경이완제 악성 증후군 (Neuroleptic Malignant Syndrome)",
+      "targetHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveydtOyZhOygnCDslYXshLEg7Kad7ZuE6rWwIChOZXVyb2xlcHRpYyBNYWxpZ25hbnQgU3luZHJvbWUpLm1k",
       "provenance": "generated",
       "evidence": "chiefComplaints"
     },
@@ -30485,6 +30563,19 @@
       "sourceId": "807",
       "sourceTitle": "떨림／운동이상",
       "sourceHref": "/cc/65ao66a877yP7Jq064-Z7J207IOB",
+      "relation": "differential",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/헌팅턴병 (Huntington Disease).md",
+      "targetTitle": "헌팅턴병 (Huntington Disease)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4ztjIXthLTrs5EgKEh1bnRpbmd0b24gRGlzZWFzZSkubWQ",
+      "provenance": "section",
+      "evidence": "recommendation disease"
+    },
+    {
+      "sourceType": "cc",
+      "sourceId": "807",
+      "sourceTitle": "떨림／운동이상",
+      "sourceHref": "/cc/65ao66a877yP7Jq064-Z7J207IOB",
       "relation": "immediate_treatment",
       "targetType": "drug",
       "targetId": "drug:12 신경·정신/Levodopa.md",
@@ -38269,6 +38360,32 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/02 호흡기/낭성섬유증 (Cystic Fibrosis).md",
+      "sourceTitle": "낭성섬유증 (Cystic Fibrosis)",
+      "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA",
+      "relation": "presents_as",
+      "targetType": "cc",
+      "targetId": "304",
+      "targetTitle": "호흡곤란",
+      "targetHref": "/cc/7Zi47Z2h6rOk656A",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/02 호흡기/낭성섬유증 (Cystic Fibrosis).md",
+      "sourceTitle": "낭성섬유증 (Cystic Fibrosis)",
+      "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA",
+      "relation": "presents_as",
+      "targetType": "disease",
+      "targetId": "02 Diseases/02 호흡기/만성 기침.md",
+      "targetTitle": "만성 기침",
+      "targetHref": "/disease/MDIg7Zi47Z2h6riwL-unjOyEsSDquLDsuagubWQ",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/02 호흡기/마이코플라스마 폐렴 (Mycoplasma Pneumonia).md",
       "sourceTitle": "마이코플라스마 폐렴 (Mycoplasma Pneumonia)",
       "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-uniOydtOy9lO2UjOudvOyKpOuniCDtj5DroLQgKE15Y29wbGFzbWEgUG5ldW1vbmlhKS5tZA",
@@ -38369,6 +38486,19 @@
       "targetTitle": "피로",
       "targetHref": "/cc/7ZS866Gc",
       "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/02 호흡기/만성 기침.md",
+      "sourceTitle": "만성 기침",
+      "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-unjOyEsSDquLDsuagubWQ",
+      "relation": "differential",
+      "targetType": "disease",
+      "targetId": "02 Diseases/02 호흡기/낭성섬유증 (Cystic Fibrosis).md",
+      "targetTitle": "낭성섬유증 (Cystic Fibrosis)",
+      "targetHref": "/disease/MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA",
+      "provenance": "generated",
       "evidence": "chiefComplaints"
     },
     {
@@ -46979,6 +47109,19 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/위장관/셀리악병 (Celiac Disease).md",
+      "sourceTitle": "셀리악병 (Celiac Disease)",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA",
+      "relation": "presents_as",
+      "targetType": "cc",
+      "targetId": "107",
+      "targetTitle": "설사",
+      "targetHref": "/cc/7ISk7IKs",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/03 소화기/위장관/소장 폐쇄 (Small Bowel Obstruction).md",
       "sourceTitle": "소장 폐쇄 (Small Bowel Obstruction)",
       "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shozsnqUg7Y-Q7IeEIChTbWFsbCBCb3dlbCBPYnN0cnVjdGlvbikubWQ",
@@ -48963,6 +49106,19 @@
       "targetId": "02 Diseases/03 소화기/위장관/세균 과다증식 증후군 (Small Intestinal Bacterial Overgrowth Syndrome).md",
       "targetTitle": "세균 과다증식 증후군 (Small Intestinal Bacterial Overgrowth Syndrome)",
       "targetHref": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shLjqt6Ag6rO864uk7Kad7IudIOymne2bhOq1sCAoU21hbGwgSW50ZXN0aW5hbCBCYWN0ZXJpYWwgT3Zlcmdyb3d0aCBTeW5kcm9tZSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/위장관/흡수장애.md",
+      "sourceTitle": "흡수장애",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tnaHsiJjsnqXslaAubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/위장관/셀리악병 (Celiac Disease).md",
+      "targetTitle": "셀리악병 (Celiac Disease)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA",
       "provenance": "wikilink",
       "evidence": "하위 질환 감별 포인트"
     },
@@ -63094,6 +63250,45 @@
       "targetId": "304",
       "targetTitle": "호흡곤란",
       "targetHref": "/cc/7Zi47Z2h6rOk656A",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/겸상적혈구병 (Sickle Cell Disease).md",
+      "sourceTitle": "겸상적혈구병 (Sickle Cell Disease)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ",
+      "relation": "presents_as",
+      "targetType": "cc",
+      "targetId": "501",
+      "targetTitle": "발열",
+      "targetHref": "/cc/67Cc7Je0",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/겸상적혈구병 (Sickle Cell Disease).md",
+      "sourceTitle": "겸상적혈구병 (Sickle Cell Disease)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ",
+      "relation": "presents_as",
+      "targetType": "cc",
+      "targetId": "304",
+      "targetTitle": "호흡곤란",
+      "targetHref": "/cc/7Zi47Z2h6rOk656A",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/겸상적혈구병 (Sickle Cell Disease).md",
+      "sourceTitle": "겸상적혈구병 (Sickle Cell Disease)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ",
+      "relation": "presents_as",
+      "targetType": "cc",
+      "targetId": "108",
+      "targetTitle": "황달",
+      "targetHref": "/cc/7Zmp64us",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
     },
@@ -80142,6 +80337,19 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/15 정신건강의학과/신경이완제 악성 증후군 (Neuroleptic Malignant Syndrome).md",
+      "sourceTitle": "신경이완제 악성 증후군 (Neuroleptic Malignant Syndrome)",
+      "sourceHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveydtOyZhOygnCDslYXshLEg7Kad7ZuE6rWwIChOZXVyb2xlcHRpYyBNYWxpZ25hbnQgU3luZHJvbWUpLm1k",
+      "relation": "presents_as",
+      "targetType": "cc",
+      "targetId": "501",
+      "targetTitle": "발열",
+      "targetHref": "/cc/67Cc7Je0",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/15 정신건강의학과/신경인지장애 (Neurocognitive Disorders).md",
       "sourceTitle": "신경인지장애 (Neurocognitive Disorders)",
       "sourceHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyduOyngOyepeyVoCAoTmV1cm9jb2duaXRpdmUgRGlzb3JkZXJzKS5tZA",
@@ -84806,6 +85014,19 @@
       "targetHref": "/cc/7J2Y7Iud7J6l7JWg",
       "provenance": "generated",
       "evidence": "ER"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/헌팅턴병 (Huntington Disease).md",
+      "sourceTitle": "헌팅턴병 (Huntington Disease)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4ztjIXthLTrs5EgKEh1bnRpbmd0b24gRGlzZWFzZSkubWQ",
+      "relation": "presents_as",
+      "targetType": "cc",
+      "targetId": "807",
+      "targetTitle": "떨림／운동이상",
+      "targetHref": "/cc/65ao66a877yP7Jq064-Z7J207IOB",
+      "provenance": "generated",
+      "evidence": "recommendation disease"
     },
     {
       "sourceType": "disease",
@@ -101193,6 +101414,15 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/02 호흡기/낭성섬유증 (Cystic Fibrosis).md",
+      "sourceTitle": "낭성섬유증 (Cystic Fibrosis)",
+      "rawTarget": "체중감소/식욕부진",
+      "relation": "presents_as",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/02 호흡기/단일 폐결절 (SPN) (Solitary Pulmonary Nodule).md",
       "sourceTitle": "단일 폐결절 (SPN) (Solitary Pulmonary Nodule)",
       "rawTarget": "무증상",
@@ -103554,6 +103784,33 @@
       "sourceId": "02 Diseases/03 소화기/위장관/세균 과다증식 증후군 (Small Intestinal Bacterial Overgrowth Syndrome).md",
       "sourceTitle": "세균 과다증식 증후군 (Small Intestinal Bacterial Overgrowth Syndrome)",
       "rawTarget": "체중감소/식욕부진",
+      "relation": "presents_as",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/위장관/셀리악병 (Celiac Disease).md",
+      "sourceTitle": "셀리악병 (Celiac Disease)",
+      "rawTarget": "복부 팽만",
+      "relation": "presents_as",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/위장관/셀리악병 (Celiac Disease).md",
+      "sourceTitle": "셀리악병 (Celiac Disease)",
+      "rawTarget": "체중감소/식욕부진",
+      "relation": "presents_as",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/위장관/셀리악병 (Celiac Disease).md",
+      "sourceTitle": "셀리악병 (Celiac Disease)",
+      "rawTarget": "빈혈",
       "relation": "presents_as",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
@@ -107091,6 +107348,15 @@
       "sourceId": "02 Diseases/09 혈액/거대적혈모구 빈혈 (Megaloblastic Anemia).md",
       "sourceTitle": "거대적혈모구 빈혈 (Megaloblastic Anemia)",
       "rawTarget": "저림",
+      "relation": "presents_as",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/겸상적혈구병 (Sickle Cell Disease).md",
+      "sourceTitle": "겸상적혈구병 (Sickle Cell Disease)",
+      "rawTarget": "통증",
       "relation": "presents_as",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
@@ -111642,6 +111908,24 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/14 소아청소년과/소아과 총론/태아알코올증후군 (Fetal Alcohol Syndrome).md",
+      "sourceTitle": "태아알코올증후군 (Fetal Alcohol Syndrome)",
+      "rawTarget": "발달지연",
+      "relation": "presents_as",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/14 소아청소년과/소아과 총론/태아알코올증후군 (Fetal Alcohol Syndrome).md",
+      "sourceTitle": "태아알코올증후군 (Fetal Alcohol Syndrome)",
+      "rawTarget": "학습장애",
+      "relation": "presents_as",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/14 소아청소년과/소아과 총론/터너 증후군 (Turner Syndrome).md",
       "sourceTitle": "터너 증후군 (Turner Syndrome)",
       "rawTarget": "부종",
@@ -112014,6 +112298,24 @@
       "sourceId": "02 Diseases/15 정신건강의학과/신경성폭식증 (Bulimia Nervosa).md",
       "sourceTitle": "신경성폭식증 (Bulimia Nervosa)",
       "rawTarget": "복부 팽만",
+      "relation": "presents_as",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/15 정신건강의학과/신경이완제 악성 증후군 (Neuroleptic Malignant Syndrome).md",
+      "sourceTitle": "신경이완제 악성 증후군 (Neuroleptic Malignant Syndrome)",
+      "rawTarget": "의식저하",
+      "relation": "presents_as",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/15 정신건강의학과/신경이완제 악성 증후군 (Neuroleptic Malignant Syndrome).md",
+      "sourceTitle": "신경이완제 악성 증후군 (Neuroleptic Malignant Syndrome)",
+      "rawTarget": "근육 강직",
       "relation": "presents_as",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
@@ -112878,6 +113180,33 @@
       "sourceId": "02 Diseases/16 신경과-신경외과/허혈성 뇌졸중 (Ischemic stroke).md",
       "sourceTitle": "허혈성 뇌졸중 (Ischemic stroke)",
       "rawTarget": "어지러움",
+      "relation": "presents_as",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/헌팅턴병 (Huntington Disease).md",
+      "sourceTitle": "헌팅턴병 (Huntington Disease)",
+      "rawTarget": "이상 운동",
+      "relation": "presents_as",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/헌팅턴병 (Huntington Disease).md",
+      "sourceTitle": "헌팅턴병 (Huntington Disease)",
+      "rawTarget": "인지저하",
+      "relation": "presents_as",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/헌팅턴병 (Huntington Disease).md",
+      "sourceTitle": "헌팅턴병 (Huntington Disease)",
+      "rawTarget": "우울감",
       "relation": "presents_as",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
@@ -114867,6 +115196,15 @@
       "sourceId": "02 Diseases/22 정형외과/수근관 증후군 (Carpal Tunnel Syndrome).md",
       "sourceTitle": "수근관 증후군 (Carpal Tunnel Syndrome)",
       "rawTarget": "저림",
+      "relation": "presents_as",
+      "provenance": "frontmatter",
+      "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/22 정형외과/슬개대퇴 통증 증후군 (Patellofemoral Pain Syndrome).md",
+      "sourceTitle": "슬개대퇴 통증 증후군 (Patellofemoral Pain Syndrome)",
+      "rawTarget": "무릎 통증",
       "relation": "presents_as",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
@@ -117000,15 +117338,6 @@
       "sourceId": "807",
       "sourceTitle": "떨림／운동이상",
       "rawTarget": "반언굴 연축",
-      "relation": "differential",
-      "provenance": "section",
-      "evidence": "recommendation disease"
-    },
-    {
-      "sourceType": "cc",
-      "sourceId": "807",
-      "sourceTitle": "떨림／운동이상",
-      "rawTarget": "헌팅턴병",
       "relation": "differential",
       "provenance": "section",
       "evidence": "recommendation disease"

@@ -13,6 +13,8 @@ related_diseases:
   - "특발성 폐섬유증"
   - "벌집모양 폐"
   - "곤봉지"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2KueuwnOyEsSDtj5DshKzsnKDspp0gKElQRikgKElkaW9wYXRoaWMgUHVsbW9uYXJ5IEZpYnJvc2lzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

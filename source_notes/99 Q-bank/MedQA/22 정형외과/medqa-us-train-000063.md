@@ -12,6 +12,8 @@ specialty: 22 정형외과
 related_diseases:
   - "Medial collateral ligament injury"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-uCtOy4oSDsuKHrtoAg7J2464yAIOyGkOyDgSAoTWVkaWFsIENvbGxhdGVyYWwgTGlnYW1lbnQgSW5qdXJ5KS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

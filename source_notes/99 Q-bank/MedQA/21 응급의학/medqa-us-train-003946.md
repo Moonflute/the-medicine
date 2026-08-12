@@ -15,6 +15,8 @@ related_diseases:
   - "parental refusal of blood products"
   - "life-saving treatment"
 question_type: ethics
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

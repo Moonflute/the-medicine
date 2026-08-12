@@ -13,6 +13,9 @@ related_diseases:
   - "결핵"
   - "에탐부톨"
   - "시신경염"
+related_disease_slugs:
+  - MTgg7JWI6rO8L-yLnOyLoOqyveyXvCAob3B0aWMgbmV1cml0aXMpLm1k
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rs7XsiJggKOqysO2VtSkgKEFzY2l0ZXMgKFR1YmVyY3Vsb3NpcykpLm1k
 question_type: adverse_effect
 difficulty: simple
 answer: D

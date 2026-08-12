@@ -13,6 +13,8 @@ related_diseases:
   - "폰 빌레브란트병"
   - "점막피부 출혈"
   - "혈소판 수 정상 출혈"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2PsCDruYzroIjruIzrnoDtirjrs5EgKHZvbiBXaWxsZWJyYW5kIERpc2Vhc2UsIHZXRCkubWQ
 question_type: investigation
 difficulty: standard
 answer: D

@@ -13,6 +13,8 @@ related_diseases:
   - "스타틴 유발 근육병증"
   - "고지질혈증"
   - "LDL 콜레스테롤"
+  - "statin-induced myopathy"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: A

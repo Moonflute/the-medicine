@@ -14,6 +14,8 @@ related_diseases:
   - "퇴행성 관절질환"
   - "기계적 무릎 통증"
 question_type: diagnosis
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qzqOq0gOygiOyXvCAoT3N0ZW9hcnRocml0aXMpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

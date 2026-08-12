@@ -11,6 +11,8 @@ language: ko
 specialty: 07 류마티스
 related_diseases:
   - "Takayasu arteritis"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uLpOy5tOyVvOyImCDrj5nrp6Xsl7wgKFRha2F5YXN1J3MgQXJ0ZXJpdGlzKS5tZA
 question_type: management
 difficulty: standard
 answer: C

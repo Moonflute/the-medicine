@@ -13,6 +13,9 @@ related_diseases:
   - "제2형 당뇨병 진단 확인"
   - "재발성 요로감염"
   - "HbA1c 재검"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JqU66GcIOqwkOyXvCAoVXJpbmFyeSBUcmFjdCBJbmZlY3Rpb24pLm1k
 question_type: investigation
 difficulty: complex
 answer: D

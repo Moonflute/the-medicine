@@ -12,6 +12,8 @@ specialty: 22 정형외과
 related_diseases:
   - "Posterior hip dislocation"
 question_type: diagnosis
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yXieuNqeq0gOygiCDtg4jqtawgKEhpcCBEaXNsb2NhdGlvbikubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

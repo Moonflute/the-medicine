@@ -14,6 +14,8 @@ related_diseases:
   - "mucocutaneous bleeding"
   - "desmopressin"
   - "tranexamic acid"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2PsCDruYzroIjruIzrnoDtirjrs5EgKHZvbiBXaWxsZWJyYW5kIERpc2Vhc2UsIHZXRCkubWQ
 question_type: management
 difficulty: simple
 answer: A

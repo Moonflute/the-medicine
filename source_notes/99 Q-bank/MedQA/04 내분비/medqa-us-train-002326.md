@@ -14,6 +14,8 @@ related_diseases:
   - "bilateral adrenal hyperplasia"
   - "hypokalemic metabolic alkalosis"
   - "eplerenone"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yVjOuPhOyKpO2FjOuhoOymnSAoQWxkb3N0ZXJvbmlzbSkubWQ
 question_type: management
 difficulty: complex
 answer: A

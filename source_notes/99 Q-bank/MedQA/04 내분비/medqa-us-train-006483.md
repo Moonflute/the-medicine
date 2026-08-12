@@ -13,6 +13,9 @@ related_diseases:
   - "갑상샘기능저하증"
   - "고콜레스테롤혈증"
   - "변비"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

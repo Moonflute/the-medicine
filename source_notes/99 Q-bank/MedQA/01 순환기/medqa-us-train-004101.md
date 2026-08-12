@@ -13,6 +13,7 @@ related_diseases:
   - "급성 비대상성 심부전"
   - "폐울혈"
   - "간울혈"
+related_disease_slugs: []
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

@@ -14,6 +14,9 @@ related_diseases:
   - "육안적 혈뇨"
   - "흡연 관련 비뇨기암"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-y9qe2MpeyVlCAoUmVuYWwgQ2VsbCBDYXJjaW5vbWEpLm1k
+  - MjAg67mE64eo6riw6rO8L-uwqeq0keyVlCAoQmxhZGRlciBjYW5jZXIpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

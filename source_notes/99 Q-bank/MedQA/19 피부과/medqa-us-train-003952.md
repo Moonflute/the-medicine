@@ -14,6 +14,8 @@ related_diseases:
   - "다형홍반 중증형"
   - "약물 유발 피부반응"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-uLpO2YlSDtmY3rsJggKEVyeXRoZW1hIE11bHRpZm9ybWUpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

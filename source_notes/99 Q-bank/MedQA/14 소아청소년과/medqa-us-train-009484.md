@@ -14,6 +14,7 @@ related_diseases:
   - "공장 폐쇄"
   - "triple bubble sign"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

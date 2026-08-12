@@ -13,6 +13,8 @@ related_diseases:
   - "쿠싱증후군"
   - "ACTH 비의존성 쿠싱"
   - "부신 선종"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-y_oOyLsSDspp3tm4TqtbAgKEN1c2hpbmcncyBTeW5kcm9tZSkubWQ
 question_type: management
 difficulty: complex
 answer: A

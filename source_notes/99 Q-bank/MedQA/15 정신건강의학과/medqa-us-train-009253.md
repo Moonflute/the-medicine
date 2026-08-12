@@ -14,6 +14,8 @@ related_diseases:
   - "주요우울장애"
   - "smoking cessation"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

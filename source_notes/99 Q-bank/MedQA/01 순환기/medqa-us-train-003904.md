@@ -14,6 +14,9 @@ related_diseases:
   - "patent foramen ovale"
   - "deep vein thrombosis"
   - "ischemic stroke"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 question_type: mechanism
 difficulty: complex
 answer: D

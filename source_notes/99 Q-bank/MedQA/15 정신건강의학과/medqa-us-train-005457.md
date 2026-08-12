@@ -14,6 +14,8 @@ related_diseases:
   - "알코올성 소뇌변성"
   - "빠른 교대운동 불능"
 question_type: association
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ
 difficulty: simple
 answer: C
 translation_status: machine-verified

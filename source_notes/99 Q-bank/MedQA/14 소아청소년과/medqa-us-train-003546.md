@@ -15,6 +15,8 @@ related_diseases:
   - "skeletal survey"
   - "repeat imaging after 2 weeks"
 question_type: diagnosis
+related_disease_slugs:
+  - MTEg7Jm46rO8L-qwiOu5hOu8iCDqs6jsoIggKFJpYiBGcmFjdHVyZSkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

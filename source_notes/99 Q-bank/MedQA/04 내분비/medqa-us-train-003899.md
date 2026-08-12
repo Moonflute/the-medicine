@@ -14,6 +14,8 @@ related_diseases:
   - "calcium supplementation"
   - "vitamin D supplementation"
   - "bone mineral density"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 question_type: prevention
 difficulty: simple
 answer: C

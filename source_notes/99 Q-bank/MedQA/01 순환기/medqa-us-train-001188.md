@@ -12,6 +12,9 @@ specialty: 01 순환기
 related_diseases:
   - "mitral stenosis"
   - "rheumatic heart disease"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yKueuqqO2MkOuniSDtmJHssKkgKE1pdHJhbCBTdGVub3NpcykubWQ
+  - MDEg7Iic7ZmY6riwL-2MkOunieyniO2ZmC5tZA
 question_type: prognosis
 difficulty: complex
 answer: A

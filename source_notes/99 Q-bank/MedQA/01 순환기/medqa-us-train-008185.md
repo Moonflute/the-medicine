@@ -13,6 +13,8 @@ related_diseases:
   - "Lyme carditis"
   - "high-grade atrioventricular block"
   - "ceftriaxone"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-udvOyehOuzkSAoTHltZSBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: complex
 answer: A

@@ -14,6 +14,9 @@ related_diseases:
   - "breastfeeding"
   - "vitamin D deficiency"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yCsOyaleq4sCDsnKDrsKkg7Jq47ZiIIChQdWVycGVyYWwgQnJlYXN0IEVuZ29yZ2VtZW50KS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv67mE7YOA66-8IEQg6rKw7ZWN7KadIChWaXRhbWluIEQgRGVmaWNpZW5jeSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

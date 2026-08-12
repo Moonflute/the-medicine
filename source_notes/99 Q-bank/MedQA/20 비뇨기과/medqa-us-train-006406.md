@@ -13,7 +13,10 @@ related_diseases:
   - "정계정맥류"
   - "고환 정맥 울혈"
   - "남성 불임"
+  - "male infertility"
 question_type: prognosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

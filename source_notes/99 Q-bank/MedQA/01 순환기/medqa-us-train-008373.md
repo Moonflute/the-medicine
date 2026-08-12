@@ -13,6 +13,8 @@ related_diseases:
   - "inferior myocardial infarction"
   - "right coronary artery"
   - "bradycardia"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "acute interstitial nephritis"
   - "cefepime hypersensitivity"
   - "white blood cell casts"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsvantjKXsl7wgKFR1YnVsb2ludGVyc3RpdGlhbCBOZXBocml0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

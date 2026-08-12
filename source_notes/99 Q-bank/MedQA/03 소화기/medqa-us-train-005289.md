@@ -13,6 +13,8 @@ related_diseases:
   - "담석성 장폐색"
   - "담석-장관 누공"
   - "소장폐색"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shozsnqUg7Y-Q7IeEIChTbWFsbCBCb3dlbCBPYnN0cnVjdGlvbikubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -13,6 +13,9 @@ related_diseases:
   - "gastric MALT lymphoma"
   - "위 MALT 림프종"
   - "Helicobacter pylori"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-u5hO2YuOyngO2CqCDrprztlITsooUgKE5vbi1Ib2Rna2luIEx5bXBob21hKS5tZA
+  - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
 question_type: management
 difficulty: complex
 answer: A

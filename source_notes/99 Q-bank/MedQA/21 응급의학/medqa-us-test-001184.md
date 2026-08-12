@@ -14,6 +14,8 @@ related_diseases:
   - "고압산소치료"
   - "겨울철 난방기 노출"
 question_type: management
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-ydvOyCsO2ZlO2DhOyGjCDspJHrj4UgKENhcmJvbiBNb25veGlkZSBQb2lzb25pbmcpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

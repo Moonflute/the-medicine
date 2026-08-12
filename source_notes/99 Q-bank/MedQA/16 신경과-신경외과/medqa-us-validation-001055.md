@@ -13,7 +13,9 @@ related_diseases:
   - "프리드라이히 운동실조"
   - "GAA 반복 확장"
   - "척수소뇌성 변성"
+  - "Friedreich ataxia"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: simple
 answer: A
 translation_status: machine-verified

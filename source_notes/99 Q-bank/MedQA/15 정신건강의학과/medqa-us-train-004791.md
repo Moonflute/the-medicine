@@ -14,6 +14,8 @@ related_diseases:
   - "기능성 시각상실"
   - "심인성 증상"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghO2ZmCDsnqXslaAgKENvbnZlcnNpb24gRGlzb3JkZXIpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

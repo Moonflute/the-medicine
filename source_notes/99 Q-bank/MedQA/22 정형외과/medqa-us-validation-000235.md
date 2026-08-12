@@ -14,6 +14,8 @@ related_diseases:
   - "뼈 종양"
   - "혼합성 용해성·경화성 병변"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rOo7Jyh7KKFIChPc3Rlb3NhcmNvbWEpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

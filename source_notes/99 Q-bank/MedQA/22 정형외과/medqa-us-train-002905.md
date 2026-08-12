@@ -15,6 +15,8 @@ related_diseases:
   - "twisting knee injury"
   - "negative anterior drawer test"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-uwmOyblCDsl7Dqs6jtjJAg7IaQ7IOBIChNZW5pc2N1cyBJbmp1cnkpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

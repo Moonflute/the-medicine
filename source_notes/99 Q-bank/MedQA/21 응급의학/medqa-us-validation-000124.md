@@ -14,6 +14,9 @@ related_diseases:
   - "장골 골절"
   - "점상출혈"
 question_type: diagnosis
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yngOuwqSDsg4nsoITspp0gKEZhdCBFbWJvbGlzbSkubWQ
+  - MDkg7ZiI7JWhL-2KueuwnOyEsSDtmIjshoztjJDqsJDshozshLEg7J6Q67CY7KadIChJZGlvcGF0aGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgSVRQKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

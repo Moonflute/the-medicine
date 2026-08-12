@@ -14,6 +14,8 @@ related_diseases:
   - "편두통 전구증상"
   - "편두통 예방"
 question_type: prevention
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjrjrkZDthrUgKE1pZ3JhaW5lKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

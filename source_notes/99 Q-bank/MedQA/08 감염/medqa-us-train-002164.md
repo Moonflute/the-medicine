@@ -13,6 +13,8 @@ related_diseases:
   - "pneumococcal meningitis"
   - "Streptococcus pneumoniae"
   - "bacterial meningitis"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IS46reg7ISxIOuHjOyImOunieyXvCAoQmFjdGVyaWFsIE1lbmluZ2l0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

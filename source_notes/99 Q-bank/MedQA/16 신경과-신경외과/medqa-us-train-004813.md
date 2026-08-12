@@ -14,6 +14,8 @@ related_diseases:
   - "다발성 뇌경색"
   - "계단식 인지저하"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2YiOq0gOyEsSDsuZjrp6QgKFZhc2N1bGFyIERlbWVudGlhKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

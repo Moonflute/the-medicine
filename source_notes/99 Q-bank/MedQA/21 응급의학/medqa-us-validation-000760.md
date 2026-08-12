@@ -13,7 +13,9 @@ related_diseases:
   - "오피오이드 과다복용"
   - "날록손"
   - "급성 금단"
+  - "Opioid overdose"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

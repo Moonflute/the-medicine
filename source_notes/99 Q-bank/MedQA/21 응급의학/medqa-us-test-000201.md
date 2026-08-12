@@ -14,6 +14,8 @@ related_diseases:
   - "옥살산칼슘 결정"
   - "급성신손상"
 question_type: mechanism
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

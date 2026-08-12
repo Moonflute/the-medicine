@@ -13,6 +13,9 @@ related_diseases:
   - "버킷 림프종"
   - "턱 종괴"
   - "EBV"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uyhO2CtyDrprztlITsooUgKEJ1cmtpdHQncyBMeW1waG9tYSkubWQ
+  - MDgg6rCQ7Je8L-yXoeyKpO2DgOyduC3rsJQg67CU7J2065-s7IqkIOqwkOyXvCAoRUJWKSAoRXBzdGVpbi1CYXJyIFZpcnVzIEluZmVjdGlvbiAoRUJWKSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

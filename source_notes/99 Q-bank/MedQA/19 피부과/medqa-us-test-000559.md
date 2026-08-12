@@ -13,7 +13,10 @@ related_diseases:
   - "전염성 연속종"
   - "연체동물 전염 바이러스"
   - "HIV 위험"
+  - "molluscum contagiosum"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-usvOyCrOuniOq3gCAoTW9sbHVzY3VtIENvbnRhZ2lvc3VtKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

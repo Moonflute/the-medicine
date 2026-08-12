@@ -13,6 +13,9 @@ related_diseases:
   - "피부근염"
   - "근위부 근육 약화"
   - "쇼울 징후"
+  - "dermatomyositis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yXvOymneyEsSDqt7zrs5Hspp0gKEluZmxhbW1hdG9yeSBNeW9wYXRoeSkubWQ
 question_type: management
 difficulty: standard
 answer: C

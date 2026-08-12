@@ -14,6 +14,9 @@ related_diseases:
   - "upper gastrointestinal bleeding"
   - "melena"
   - "endoscopy with biopsy"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-ychOyepeq0gCDstpztmIggKEdhc3Ryb2ludGVzdGluYWwgQmxlZWRpbmcpLm1k
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ
 question_type: investigation
 difficulty: standard
 answer: D

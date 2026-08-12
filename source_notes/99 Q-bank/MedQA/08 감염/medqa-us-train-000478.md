@@ -14,6 +14,9 @@ related_diseases:
   - "Scombrotoxin"
   - "Tetrodotoxin"
   - "Type I hypersensitivity reaction"
+  - "Ciguatera poisoning"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR64-FIChQb2lzb25pbmcpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

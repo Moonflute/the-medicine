@@ -13,6 +13,8 @@ related_diseases:
   - "울혈성 심부전 악화"
   - "신기능 저하"
   - "메트포르민 관련 젖산산증"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: management
 difficulty: complex
 answer: A

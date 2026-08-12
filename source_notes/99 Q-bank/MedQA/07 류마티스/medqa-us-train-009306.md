@@ -13,6 +13,8 @@ related_diseases:
   - "diffuse systemic sclerosis"
   - "미만성 전신경화증"
   - "anti-Scl-70 antibody"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDqsr3tmZTspp0gKFN5c3RlbWljIFNjbGVyb3NpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

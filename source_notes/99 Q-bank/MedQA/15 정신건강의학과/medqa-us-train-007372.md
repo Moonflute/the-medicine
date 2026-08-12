@@ -14,6 +14,8 @@ related_diseases:
   - "자극제 치료"
   - "혈압 상승"
 question_type: prognosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOydmOugpSDqsrDtlY0g6rO864ukIO2WieuPmSDsnqXslaAgKEFESEQpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

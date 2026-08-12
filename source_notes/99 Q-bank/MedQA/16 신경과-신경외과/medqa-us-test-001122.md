@@ -14,6 +14,8 @@ related_diseases:
   - "내측종속 탈수초화"
   - "다발성 경화증"
 question_type: mechanism
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

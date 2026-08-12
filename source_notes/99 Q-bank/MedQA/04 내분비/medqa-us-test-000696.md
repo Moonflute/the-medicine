@@ -13,6 +13,9 @@ related_diseases:
   - "삼투성 이뇨"
   - "조절되지 않는 당뇨병"
   - "고나트륨혈증"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-qzoOuCmO2KuOulqO2YiOymnSAoSHlwZXJuYXRyZW1pYSkubWQ
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: mechanism
 difficulty: complex
 answer: B

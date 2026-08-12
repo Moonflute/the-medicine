@@ -14,6 +14,8 @@ related_diseases:
   - "요추 추간판 탈출증"
   - "좌골신경통"
 question_type: mechanism
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-y2lOqwhO2MkO2DiOy2nOymnSAoSGVybmlhdGVkIEludGVydmVydGVicmFsIERpc2MpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

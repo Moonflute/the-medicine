@@ -13,7 +13,9 @@ related_diseases:
   - "잠복고환"
   - "서혜부 고환"
   - "고환고정술"
+  - "Undescended testis"
 question_type: management
+related_disease_slugs: []
 difficulty: simple
 answer: D
 translation_status: machine-verified

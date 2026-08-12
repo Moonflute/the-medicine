@@ -13,6 +13,9 @@ related_diseases:
   - "ventricular fibrillation"
   - "ischemic cardiomyopathy"
   - "implantable cardioverter-defibrillator"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOq3vOuzkeymnSAoQ2FyZGlvbXlvcGF0aHkpLm1k
+  - MDEg7Iic7ZmY6riwL-yLrOyLpCDsobDrj5ks7IS464-ZIChWZW50cmljdWxhciBmbHV0dGVyLCBmaWJyaWxsYXRpb24pLm1k
 question_type: prevention
 difficulty: standard
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "C6 신경근"
   - "추간판 탈출증"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-y2lOqwhO2MkO2DiOy2nOymnSAoSGVybmlhdGVkIEludGVydmVydGVicmFsIERpc2MpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

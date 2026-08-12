@@ -13,6 +13,9 @@ related_diseases:
   - "hereditary hemorrhagic telangiectasia"
   - "arteriovenous malformation"
   - "high-output heart failure"
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rj5nsoJXrp6Ug7KeI7ZmYIChBcnRlcmlvdmVub3VzIG1hbGZvcm1hdGlvbikubWQ
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: risk_factor
 difficulty: simple
 answer: C

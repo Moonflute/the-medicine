@@ -14,6 +14,8 @@ related_diseases:
   - "Wilms tumor"
   - "11p13 deletion"
 question_type: mechanism
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JyM66aE7Iqk7KKF7JaRIChXaWxtcyBUdW1vcikubWQ
 difficulty: simple
 answer: B
 translation_status: machine-verified

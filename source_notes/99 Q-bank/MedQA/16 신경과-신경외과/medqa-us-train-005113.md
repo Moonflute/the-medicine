@@ -14,6 +14,8 @@ related_diseases:
   - "척수 반절 병변"
   - "척수 압박"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC9Ccm93bi1TZXF1YXJkIOymne2bhOq1sCAoQnJvd24tU2VxdWFyZCBzeW5kcm9tZSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

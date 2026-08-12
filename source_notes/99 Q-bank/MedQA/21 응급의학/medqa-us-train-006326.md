@@ -14,6 +14,8 @@ related_diseases:
   - "인공호흡기 관련 기흉"
   - "심부 고랑 징후"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4tOyepeyEsSDquLDtnYkgKFRlbnNpb24gUG5ldW1vdGhvcmF4KS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

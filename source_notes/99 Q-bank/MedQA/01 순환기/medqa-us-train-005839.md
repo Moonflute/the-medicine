@@ -13,6 +13,8 @@ related_diseases:
   - "방실결절 회귀성 빈맥"
   - "방실결절 이중 경로"
   - "발작성 상심실성 빈맥"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uwnOyekeyEsSDsg4Hsi6zsi6TshLEg67mI66elIChQYXJveHlzbWFsIFN1cHJhdmVudHJpY3VsYXIgVGFjaHljYXJkaWEgKFBTVlQpLm1k
 question_type: mechanism
 difficulty: standard
 answer: A

@@ -14,6 +14,8 @@ related_diseases:
   - "만성 경막하혈종"
   - "치매"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

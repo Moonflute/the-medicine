@@ -13,6 +13,8 @@ related_diseases:
   - "이질"
   - "시겔라 감염"
   - "혈성 설사"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-ydtOyniCAoRHlzZW50ZXJ5KS5tZA
 question_type: 임상증례 객관식
 difficulty: simple
 answer: D

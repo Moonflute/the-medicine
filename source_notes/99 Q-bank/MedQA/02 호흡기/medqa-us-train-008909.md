@@ -13,6 +13,9 @@ related_diseases:
   - "solitary pulmonary nodule"
   - "lung cancer"
   - "positron emission tomography"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uLqOydvCDtj5DqsrDsoIggKFNQTikgKFNvbGl0YXJ5IFB1bG1vbmFyeSBOb2R1bGUpLm1k
+  - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 question_type: investigation
 difficulty: standard
 answer: B

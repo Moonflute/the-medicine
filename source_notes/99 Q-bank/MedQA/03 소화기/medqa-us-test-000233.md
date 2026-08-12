@@ -13,6 +13,9 @@ related_diseases:
   - "화농성 간농양"
   - "간농양"
   - "세균성 간 감염"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg64aN7JaRICjslYTrqZTrsJTshLEpIChBbW9lYmljIExpdmVyIEFic2Nlc3MpLm1k
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg64aN7JaRIChMaXZlciBBYnNjZXNzKS5tZA
 question_type: management
 difficulty: complex
 answer: C

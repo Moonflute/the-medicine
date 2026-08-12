@@ -13,6 +13,8 @@ related_diseases:
   - "Crohn disease"
   - "anterior uveitis"
   - "extraintestinal manifestation"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k
 question_type: management
 difficulty: standard
 answer: C

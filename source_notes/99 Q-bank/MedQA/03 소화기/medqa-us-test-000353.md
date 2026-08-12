@@ -13,6 +13,10 @@ related_diseases:
   - "할로탄 간염"
   - "약물 유발 간손상"
   - "중심소엽 괴사"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC9E7ZiVIOqwhOyXvCAoSERWKSAoSGVwYXRpdGlzIEQgKEhEVikpLm1k
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rj4XshLEg6rCE7Je8IChUb3hpYyBIZXBhdGl0aXMpLm1k
 question_type: mechanism
 difficulty: complex
 answer: A

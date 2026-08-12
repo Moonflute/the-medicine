@@ -13,6 +13,8 @@ related_diseases:
   - "간성뇌증"
   - "TIPS 후 간성뇌증"
   - "락툴로오스"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLEg64eM7KadIChIZXBhdGljIEVuY2VwaGFsb3BhdGh5KS5tZA
 question_type: management
 difficulty: complex
 answer: C

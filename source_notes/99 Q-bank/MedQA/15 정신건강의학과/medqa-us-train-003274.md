@@ -15,6 +15,9 @@ related_diseases:
   - "recurrent medical visits"
   - "inguinal hernia preoccupation"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytCDspp3sg4Eg7J6l7JWgIChTb21hdGljIFN5bXB0b20gRGlzb3JkZXIpLm1k
+  - MTEg7Jm46rO8L-yDheq1tCDtg4jsnqUgKEluZ3VpbmFsIEhlcm5pYSkubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

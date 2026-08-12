@@ -14,6 +14,8 @@ related_diseases:
   - "바늘 감압"
   - "흉관 삽입"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4tOyepeyEsSDquLDtnYkgKFRlbnNpb24gUG5ldW1vdGhvcmF4KS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

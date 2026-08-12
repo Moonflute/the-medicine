@@ -13,6 +13,8 @@ related_diseases:
   - "celiac disease"
   - "villous atrophy"
   - "intraepithelial lymphocytes"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: D

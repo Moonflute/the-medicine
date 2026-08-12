@@ -14,6 +14,8 @@ related_diseases:
   - "엽산 결핍"
   - "거대적아구성 빈혈"
   - "폴린산"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qxsOuMgOygge2YiOuqqOq1rCDruYjtmIggKE1lZ2Fsb2JsYXN0aWMgQW5lbWlhKS5tZA
 question_type: prevention
 difficulty: standard
 answer: C

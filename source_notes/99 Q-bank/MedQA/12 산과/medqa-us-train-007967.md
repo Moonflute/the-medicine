@@ -14,6 +14,8 @@ related_diseases:
   - "pulmonary hypoplasia"
   - "placental insufficiency"
 question_type: prognosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yWkeyImCDqs7zshozspp0gKE9saWdvaHlkcmFtbmlvcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

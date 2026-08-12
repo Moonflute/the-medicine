@@ -13,6 +13,9 @@ related_diseases:
   - "원발성 중추신경계 림프종"
   - "HIV 관련 림프종"
   - "엡스타인-바 바이러스"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
+  - MDkg7ZiI7JWhL-u5hO2YuOyngO2CqCDrprztlITsooUgKE5vbi1Ib2Rna2luIEx5bXBob21hKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "폐색전증"
   - "다발성 경화증으로 인한 부동"
   - "흉막성 흉통"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

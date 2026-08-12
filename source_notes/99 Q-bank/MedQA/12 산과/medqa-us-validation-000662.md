@@ -13,7 +13,9 @@ related_diseases:
   - "Rh 부적합"
   - "태아적혈구모성면역"
   - "RhoGam"
+  - "Rh alloimmunization"
 question_type: prevention
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

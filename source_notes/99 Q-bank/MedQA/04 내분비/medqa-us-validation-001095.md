@@ -13,6 +13,8 @@ related_diseases:
   - "고칼슘혈증"
   - "변비"
   - "다뇨"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: investigation
 difficulty: complex
 answer: A

@@ -11,7 +11,10 @@ language: ko
 specialty: 21 응급의학
 related_diseases:
   - "trauma"
+  - "Cervical spine injury"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-qyveu2gOyZuOyDgSAoQ2VydmljYWwgVHJhdW1hKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

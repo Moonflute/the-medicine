@@ -14,6 +14,9 @@ related_diseases:
   - "수유성 유방염"
   - "Staphylococcus aureus"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yImOycoOq4sCDsnKDrsKnsl7wgKExhY3RhdGlvbmFsIE1hc3RpdGlzKS5tZA
+  - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "급성 담관염"
   - "총담관 폐쇄"
   - "패혈성 쇼크"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2MqO2YiOyEsSDsh7ztgawgKFNlcHRpYyBTaG9jaykubWQ
 question_type: management
 difficulty: complex
 answer: A

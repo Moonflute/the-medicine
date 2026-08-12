@@ -14,6 +14,7 @@ related_diseases:
   - "radial ray anomaly"
   - "macrocytic anemia"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

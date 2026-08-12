@@ -14,6 +14,8 @@ related_diseases:
   - "splenectomy"
   - "asplenia"
   - "penicillin prophylaxis"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ycoOyghCDqtaztmIjsoIHtmIjqtazspp0gKEhlcmVkaXRhcnkgU3BoZXJvY3l0b3NpcykubWQ
 question_type: prevention
 difficulty: complex
 answer: B

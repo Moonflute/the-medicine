@@ -13,7 +13,9 @@ related_diseases:
   - "lateral collateral ligament tear"
   - "varus stress"
   - "knee instability"
+  - "Lateral collateral ligament tear"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

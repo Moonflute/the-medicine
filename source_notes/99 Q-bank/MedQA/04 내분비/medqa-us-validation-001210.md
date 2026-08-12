@@ -13,6 +13,8 @@ related_diseases:
   - "부동성 고칼슘혈증"
   - "침상 안정"
   - "저PTH성 고칼슘혈증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

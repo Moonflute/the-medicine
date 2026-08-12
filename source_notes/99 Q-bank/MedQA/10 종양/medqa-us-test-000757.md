@@ -13,6 +13,8 @@ related_diseases:
   - "출혈성 방광염"
   - "시클로포스파미드"
   - "호지킨 림프종 치료"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YuOyngO2CqCDrprztlITsooUgKEhvZGdraW4gTHltcGhvbWEpLm1k
 question_type: mechanism
 difficulty: complex
 answer: B

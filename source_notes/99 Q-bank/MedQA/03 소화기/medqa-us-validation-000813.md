@@ -13,6 +13,10 @@ related_diseases:
   - "담관암"
   - "궤양성 대장염"
   - "원발성 경화성 담관염"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7TqtIDslZQgKENob2xhbmdpb2NhcmNpbm9tYSkubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sm5DrsJzshLEg6rK97ZmU7ISxIOuLtOq0gOyXvCAoUFNDKSAoUHJpbWFyeSBTY2xlcm9zaW5nIENob2xhbmdpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "CIN 1"
   - "인유두종바이러스"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gCDsg4HtlLzrgrQg7KKF7JaRIChDZXJ2aWNhbCBJbnRyYWVwaXRoZWxpYWwgTmVvcGxhc2lhKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "비강 이물"
   - "일측성 화농성 비루"
   - "소아 코 이물"
+  - "Nasal foreign body"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

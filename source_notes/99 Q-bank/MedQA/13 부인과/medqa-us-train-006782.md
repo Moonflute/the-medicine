@@ -14,6 +14,7 @@ related_diseases:
   - "복합 호르몬 피임"
   - "배란 억제"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

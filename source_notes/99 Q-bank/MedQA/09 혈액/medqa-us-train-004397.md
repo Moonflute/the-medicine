@@ -13,6 +13,8 @@ related_diseases:
   - "진성 적혈구증가증"
   - "JAK2 변이"
   - "골수증식성 신생물"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-ynhOyEsSDsoIHtmIjqtazspp3qsIDspp0gKFBWKSAoUG9seWN5dGhlbWlhIFZlcmEgKFBWKSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

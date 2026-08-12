@@ -13,6 +13,9 @@ related_diseases:
   - "급성 B형간염"
   - "바이러스 간염"
   - "HBc 항체"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEgQu2YlSDqsITsl7wgKEFjdXRlIEhlcGF0aXRpcyBCKS5tZA
+  - MDgg6rCQ7Je8L-uwlOydtOufrOyKpC5tZA
 question_type: investigation
 difficulty: complex
 answer: C

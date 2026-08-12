@@ -13,6 +13,8 @@ related_diseases:
   - "selective IgA deficiency"
   - "recurrent sinopulmonary infection"
   - "immunoglobulin isotype"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uptOyXreyggO2VmOyekCDqsJDsl7wgKEltbXVub2NvbXByb21pc2VkIEhvc3QgSW5mZWN0aW9uKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

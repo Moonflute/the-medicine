@@ -14,6 +14,8 @@ related_diseases:
   - "성매개감염 선별"
   - "자궁경부암 예방"
 question_type: prevention
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

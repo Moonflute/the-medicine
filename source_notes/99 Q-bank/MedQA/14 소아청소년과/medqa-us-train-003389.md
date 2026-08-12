@@ -15,6 +15,8 @@ related_diseases:
   - "ball-valve obstruction"
   - "bronchoscopy"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riw64-EIOuCtCDsnbTrrLwgKEZvcmVpZ24gQm9keSBBc3BpcmF0aW9uKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

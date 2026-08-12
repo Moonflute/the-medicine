@@ -12,6 +12,8 @@ specialty: 02 호흡기
 related_diseases:
   - "sarcoidosis"
   - "bilateral hilar adenopathy"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-ycoOycoeyiheymnSAoU2FyY29pZG9zaXMpLm1k
 question_type: management
 difficulty: standard
 answer: C

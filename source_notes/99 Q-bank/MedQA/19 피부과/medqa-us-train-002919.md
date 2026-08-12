@@ -15,6 +15,8 @@ related_diseases:
   - "ulcerated skin nodule"
   - "excisional biopsy"
 question_type: investigation
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-q4sOyggCDshLjtj6zslZQgKEJhc2FsIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

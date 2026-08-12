@@ -13,6 +13,9 @@ related_diseases:
   - "갑상선 결절"
   - "갑상선암"
   - "세침흡인검사"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDqsrDsoIggKFRoeXJvaWQgTm9kdWxlKS5tZA
+  - MDQg64K067aE67mEL-qwkeyDgeyDmOyVlCAoVGh5cm9pZCBDYW5jZXIpLm1k
 question_type: investigation
 difficulty: complex
 answer: B

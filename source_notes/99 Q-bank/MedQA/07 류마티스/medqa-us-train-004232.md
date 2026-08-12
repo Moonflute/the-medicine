@@ -13,6 +13,8 @@ related_diseases:
   - "혼합 한랭글로불린혈증"
   - "C형간염"
   - "저보체혈증"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: D

@@ -14,6 +14,8 @@ related_diseases:
   - "기도부종"
   - "근육 내 에피네프린"
 question_type: management
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

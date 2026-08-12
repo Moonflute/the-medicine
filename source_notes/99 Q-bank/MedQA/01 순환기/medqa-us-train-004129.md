@@ -13,6 +13,8 @@ related_diseases:
   - "고혈압성 응급"
   - "고혈압성 망막병증"
   - "니트로프루시드"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: 임상증례 객관식
 difficulty: standard
 answer: A

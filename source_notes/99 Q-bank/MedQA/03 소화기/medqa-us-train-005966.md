@@ -13,6 +13,7 @@ related_diseases:
   - "크론병 장-방광 누공"
   - "복합 요로감염"
   - "장피누공"
+related_disease_slugs: []
 question_type: management
 difficulty: standard
 answer: D

@@ -12,7 +12,9 @@ specialty: 12 산과
 related_diseases:
   - "grand-mal seizure"
   - "valproic acid"
+  - "Spina bifida"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

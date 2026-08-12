@@ -14,6 +14,8 @@ related_diseases:
   - "태아수종"
   - "제대천자"
 question_type: management
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yngOykke2VtCDruYjtmIggKFRoYWxhc3NlbWlhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

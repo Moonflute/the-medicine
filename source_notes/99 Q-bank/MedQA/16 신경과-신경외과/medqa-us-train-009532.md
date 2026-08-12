@@ -14,6 +14,8 @@ related_diseases:
   - "군발두통"
   - "oxygen therapy"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qtbDrsJzrkZDthrUgKENsdXN0ZXIgaGVhZGFjaGUpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

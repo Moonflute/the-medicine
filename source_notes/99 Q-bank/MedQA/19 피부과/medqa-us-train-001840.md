@@ -14,6 +14,8 @@ related_diseases:
   - "facial erythema"
   - "telangiectasia"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yepeuvuOymnSAoUm9zYWNlYSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

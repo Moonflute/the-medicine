@@ -13,6 +13,8 @@ related_diseases:
   - "바이러스성 심근염"
   - "콕사키바이러스"
   - "심부전"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

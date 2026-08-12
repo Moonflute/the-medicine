@@ -11,7 +11,9 @@ language: ko
 specialty: 22 정형외과
 related_diseases:
   - "clavicle fracture"
+  - "Clavicle fracture"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

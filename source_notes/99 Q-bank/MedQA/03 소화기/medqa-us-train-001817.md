@@ -13,6 +13,8 @@ related_diseases:
   - "perforated peptic ulcer"
   - "acute abdomen"
   - "abdominal auscultation"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-q4ieyEsSDrs7Xspp0gKEFjdXRlIEFiZG9tZW4pLm1k
 question_type: investigation
 difficulty: complex
 answer: D

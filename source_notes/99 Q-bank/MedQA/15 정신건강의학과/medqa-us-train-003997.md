@@ -14,6 +14,8 @@ related_diseases:
   - "강박사고"
   - "강박행동"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qwleuwlSDsnqXslaAgKE9ic2Vzc2l2ZS1Db21wdWxzaXZlIERpc29yZGVyLCBPQ0QpLm1k
 difficulty: simple
 answer: A
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "방임"
   - "자폐 스펙트럼 장애"
 question_type: risk_factor
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yekO2PkCDsiqTtjpntirjrn7wg7J6l7JWgIChBdXRpc20gU3BlY3RydW0gRGlzb3JkZXIpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

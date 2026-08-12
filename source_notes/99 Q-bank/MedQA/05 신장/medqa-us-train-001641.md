@@ -13,6 +13,8 @@ related_diseases:
   - "SIADH after stroke"
   - "hyponatremia"
   - "fluid restriction"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 question_type: management
 difficulty: complex
 answer: A

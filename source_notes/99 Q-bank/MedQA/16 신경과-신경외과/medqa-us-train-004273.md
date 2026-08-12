@@ -13,7 +13,9 @@ related_diseases:
   - "샤르코-마리-투스병"
   - "유전성 말초신경병증"
   - "근육위축"
+  - "Charcot-Marie-Tooth disease"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

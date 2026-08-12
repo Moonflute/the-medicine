@@ -11,6 +11,8 @@ language: ko
 specialty: 10 종양
 related_diseases:
   - "Hodgkin lymphoma"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YuOyngO2CqCDrprztlITsooUgKEhvZGdraW4gTHltcGhvbWEpLm1k
 question_type: mechanism
 difficulty: complex
 answer: B

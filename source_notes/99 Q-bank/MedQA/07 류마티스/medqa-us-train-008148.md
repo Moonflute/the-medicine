@@ -13,6 +13,8 @@ related_diseases:
   - "septic arthritis"
   - "inflammatory arthritis"
   - "synovial fluid analysis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

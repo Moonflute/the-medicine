@@ -14,6 +14,8 @@ related_diseases:
   - "근층내 자궁근종"
   - "과다월경"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "타목시펜"
   - "소엽상피내암"
   - "자궁내막암"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yGjOyXvSDsg4HtlLzrgrTslZQgKExvYnVsYXIgQ2FyY2lub21hIEluIFNpdHUpLm1k
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ
 question_type: prognosis
 difficulty: complex
 answer: C

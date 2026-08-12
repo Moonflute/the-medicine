@@ -15,6 +15,9 @@ related_diseases:
   - "pityriasis alba"
   - "hypopigmented macules"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-yWtOujqOufrOq4sCAoVGluZWEgVmVyc2ljb2xvcikubWQ
+  - MTkg7ZS867aA6rO8L-uwseuwmOymnSAoVml0aWxpZ28pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

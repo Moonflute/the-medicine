@@ -13,6 +13,9 @@ related_diseases:
   - "secondary adrenal insufficiency"
   - "glucocorticoid withdrawal"
   - "hyponatremia"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ydtOywqOyEsSDrtoDsi6Ag6riw64ql7KCA7ZWY7KadIChTZWNvbmRhcnkgQWRyZW5hbCBJbnN1ZmZpY2llbmN5KS5tZA
+  - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

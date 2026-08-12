@@ -14,6 +14,8 @@ related_diseases:
   - "거대적아구성 빈혈"
   - "임신 중 빈혈"
 question_type: diagnosis
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qxsOuMgOygge2YiOuqqOq1rCDruYjtmIggKE1lZ2Fsb2JsYXN0aWMgQW5lbWlhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

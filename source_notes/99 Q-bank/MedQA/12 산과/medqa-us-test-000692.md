@@ -13,6 +13,8 @@ related_diseases:
   - "모체 페닐케톤뇨증"
   - "태아 페닐케톤뇨증"
   - "임신 전 관리"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Y6Y64uQ7LyA7Yak64eo7KadIChQaGVueWxrZXRvbnVyaWEpLm1k
 question_type: prevention
 difficulty: standard
 answer: B

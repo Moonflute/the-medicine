@@ -13,6 +13,8 @@ related_diseases:
   - "로키산 홍반열"
   - "Rickettsia rickettsii"
   - "진드기 매개 감염"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-udvOyehOuzkSAoTHltZSBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: simple
 answer: D

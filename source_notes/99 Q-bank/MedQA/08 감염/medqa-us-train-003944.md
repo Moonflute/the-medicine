@@ -14,6 +14,9 @@ related_diseases:
   - "migratory polyarthritis"
   - "pustular skin lesions"
   - "tenosynovitis"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yehOq3oCDqsJDsl7wgKEdvbm9jb2NjYWwgSW5mZWN0aW9uKS5tZA
+  - MjIg7KCV7ZiV7Jm46rO8L-uTnO2AmOultOuytSDrs5EgKERlIFF1ZXJ2YWluJ3MgVGVub3N5bm92aXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

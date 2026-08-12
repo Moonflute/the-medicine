@@ -13,6 +13,9 @@ related_diseases:
   - "피임약 유발 고혈압"
   - "고혈압"
   - "자궁내장치"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MTMg67aA7J246rO8L-yekOq2geuCtOyepey5mCAoSW50cmF1dGVyaW5lIERldmljZSkubWQ
 question_type: management
 difficulty: complex
 answer: B

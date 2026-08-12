@@ -13,6 +13,9 @@ related_diseases:
   - "중추성 요붕증"
   - "항이뇨호르몬 결핍"
   - "고나트륨혈증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ykkey2lOyEsSDsmpTrtpXspp0gKENlbnRyYWwgRGlhYmV0ZXMgSW5zaXBpZHVzKS5tZA
+  - MDUg7Iug7J6lL-qzoOuCmO2KuOulqO2YiOymnSAoSHlwZXJuYXRyZW1pYSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: C

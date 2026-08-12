@@ -14,6 +14,7 @@ related_diseases:
   - "hepatic adenoma"
   - "oral contraceptive and anabolic steroid exposure"
   - "hemoperitoneum"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: C

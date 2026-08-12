@@ -13,6 +13,8 @@ related_diseases:
   - "췌장암"
   - "폐쇄성 황달"
   - "흡연"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA
 question_type: etiology
 difficulty: complex
 answer: A

@@ -13,6 +13,9 @@ related_diseases:
   - "moderate persistent asthma"
   - "inhaled corticosteroid"
   - "LABA"
+  - "asthma"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: complex
 answer: B

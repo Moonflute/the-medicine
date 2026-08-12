@@ -14,7 +14,9 @@ related_diseases:
   - "methamphetamine"
   - "monoamine reuptake inhibition"
   - "monoamine release"
+  - "cocaine use disorder"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

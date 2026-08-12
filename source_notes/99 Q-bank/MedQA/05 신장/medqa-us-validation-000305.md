@@ -13,6 +13,10 @@ related_diseases:
   - "신증후군"
   - "신정맥 혈전증"
   - "단백뇨"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
+  - MDUg7Iug7J6lL-yLoOygleunpSDtmIjsoITspp0gKFJlbmFsIFZlaW4gVGhyb21ib3NpcykubWQ
+  - MDUg7Iug7J6lL-uLqOuwseuHqC5tZA
 question_type: investigation
 difficulty: complex
 answer: A

@@ -13,7 +13,10 @@ related_diseases:
   - "녹농균 각막염"
   - "콘택트렌즈"
   - "각막 궤양"
+  - "Pseudomonas keratitis"
 question_type: diagnosis
+related_disease_slugs:
+  - MTgg7JWI6rO8L-uFueuGjeq3oOqwgeunieq2pOyWkSAoUHNldWRvbW9uYXMgY29ybmVhbCB1bGNlcikubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

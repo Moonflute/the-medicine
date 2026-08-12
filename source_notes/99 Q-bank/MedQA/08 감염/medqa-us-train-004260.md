@@ -13,6 +13,7 @@ related_diseases:
   - "수막구균성 수막염"
   - "워터하우스-프리드리히센 증후군"
   - "부신출혈"
+related_disease_slugs: []
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

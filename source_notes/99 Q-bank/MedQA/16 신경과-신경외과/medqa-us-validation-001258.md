@@ -14,6 +14,8 @@ related_diseases:
   - "측두골 골절"
   - "개두술"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-y4oeuRkOqzqOqzqOygiCAoVGVtcG9yYWwgYm9uZSBmcmFjdHVyZSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

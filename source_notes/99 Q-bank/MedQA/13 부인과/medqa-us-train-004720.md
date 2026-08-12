@@ -14,6 +14,8 @@ related_diseases:
   - "고인슐린혈증"
   - "LH:FSH 비율 증가"
 question_type: mechanism
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

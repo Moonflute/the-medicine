@@ -12,6 +12,9 @@ specialty: 14 소아청소년과
 related_diseases:
   - "varicella"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yImOuRkCAoVmFyaWNlbGxhKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IiY65GQIChWYXJpY2VsbGEpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

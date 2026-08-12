@@ -14,6 +14,8 @@ related_diseases:
   - "결막 창백"
   - "철 대사 검사"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

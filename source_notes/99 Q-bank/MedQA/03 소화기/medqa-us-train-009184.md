@@ -13,6 +13,9 @@ related_diseases:
   - "pancreatic disease"
   - "췌장 질환"
   - "chronic pancreatitis"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqUg7KeI7ZmYLm1k
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEg7LeM7J6l7Je8IChDaHJvbmljIFBhbmNyZWF0aXRpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: A

@@ -13,7 +13,10 @@ related_diseases:
   - "비중격 천공"
   - "코성형 합병증"
   - "비강 휘파람"
+  - "Septal perforation"
 question_type: mechanism
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQg7LKc6rO1IChQZXJmb3JhdGlvbikubWQ
 difficulty: simple
 answer: B
 translation_status: machine-verified

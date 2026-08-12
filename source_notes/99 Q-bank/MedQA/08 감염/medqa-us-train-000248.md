@@ -11,6 +11,8 @@ language: ko
 specialty: 08 감염
 related_diseases:
   - "disseminated gonococcal infection"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yehOq3oCDqsJDsl7wgKEdvbm9jb2NjYWwgSW5mZWN0aW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: B

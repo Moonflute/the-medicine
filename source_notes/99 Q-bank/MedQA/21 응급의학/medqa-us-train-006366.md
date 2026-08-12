@@ -13,7 +13,9 @@ related_diseases:
   - "삽관 실패"
   - "외상성 기도 폐쇄"
   - "윤상갑상막절개술"
+  - "Airway obstruction"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

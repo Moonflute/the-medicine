@@ -12,6 +12,8 @@ specialty: 01 순환기
 related_diseases:
   - "congestive heart failure"
   - "pulmonary edema"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: mechanism
 difficulty: standard
 answer: A

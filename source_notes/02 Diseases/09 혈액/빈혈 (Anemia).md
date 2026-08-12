@@ -9,6 +9,7 @@ group_members:
 - 거대적혈모구 빈혈 (Megaloblastic Anemia)
 - 악성 빈혈 (Pernicious Anemia)
 - 용혈성 빈혈 (Hemolytic Anemia)
+- 겸상적혈구병 (Sickle Cell Disease)
 - 재생불량성 빈혈 (AA) (Aplastic Anemia (AA))
 - 지중해 빈혈 (Thalassemia)
 유형:

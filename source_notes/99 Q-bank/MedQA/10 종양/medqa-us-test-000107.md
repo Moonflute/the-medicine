@@ -13,6 +13,8 @@ related_diseases:
   - "폐 결절"
   - "폐암 평가"
   - "PET 검사"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 question_type: investigation
 difficulty: standard
 answer: B

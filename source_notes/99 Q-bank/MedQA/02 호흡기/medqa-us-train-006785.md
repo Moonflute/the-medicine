@@ -13,6 +13,8 @@ related_diseases:
   - "기관지확장증"
   - "객혈"
   - "전차선 징후"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4sOq0gOyngCDtmZXsnqXspp0gKEJyb25jaGllY3Rhc2lzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

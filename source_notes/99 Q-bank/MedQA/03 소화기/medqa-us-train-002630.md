@@ -13,6 +13,9 @@ related_diseases:
   - "lactose intolerance"
   - "lactose hydrogen breath test"
   - "osmotic diarrhea"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jyg64u5IOu2iOuCtOymnSAoTGFjdG9zZSBJbnRvbGVyYW5jZSkubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shKTsgqwgKERpYXJyaGVhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

@@ -13,6 +13,9 @@ related_diseases:
   - "골수이형성증후군"
   - "급성 골수성 백혈병"
   - "범혈구감소증"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA
+  - MDkg7ZiI7JWhL-qzqOyImO2YleyEseydtOyDgSDspp3tm4TqtbAgKE15ZWxvZHlzcGxhc3RpYyBTeW5kcm9tZSwgTURTKS5tZA
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

@@ -14,6 +14,8 @@ related_diseases:
   - "sclerodactyly"
   - "Raynaud phenomenon"
   - "calcinosis cutis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDqsr3tmZTspp0gKFN5c3RlbWljIFNjbGVyb3NpcykubWQ
 question_type: diagnosis
 difficulty: standard
 answer: D

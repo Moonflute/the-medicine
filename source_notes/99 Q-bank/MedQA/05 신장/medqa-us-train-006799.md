@@ -13,6 +13,8 @@ related_diseases:
   - "급성 세뇨관간질신염"
   - "비스테로이드성 소염제 유발"
   - "호산구뇨"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsvantjKXsl7wgKFR1YnVsb2ludGVyc3RpdGlhbCBOZXBocml0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

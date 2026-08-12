@@ -14,6 +14,8 @@ related_diseases:
   - "double duct sign"
   - "obstructive jaundice"
   - "contrast-enhanced CT"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshKDslZQgKEFkZW5vY2FyY2lub21hKS5tZA
 question_type: management
 difficulty: complex
 answer: B

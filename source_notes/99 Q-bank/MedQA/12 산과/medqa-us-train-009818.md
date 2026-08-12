@@ -14,6 +14,8 @@ related_diseases:
   - "태반 혈전증"
   - "반복 유산"
 question_type: mechanism
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2VreyduOyngOyniCDspp3tm4TqtbAgKEFudGlwaG9zcGhvbGlwaWQgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

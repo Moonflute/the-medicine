@@ -14,6 +14,8 @@ related_diseases:
   - "당뇨병"
   - "중등도-고강도 스타틴"
   - "아토르바스타틴"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: management
 difficulty: complex
 answer: A

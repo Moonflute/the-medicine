@@ -13,6 +13,8 @@ related_diseases:
   - "우심부전"
   - "간정맥 울혈"
   - "헤모크로마토시스"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

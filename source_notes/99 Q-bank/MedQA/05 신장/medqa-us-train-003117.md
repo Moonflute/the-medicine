@@ -14,6 +14,9 @@ related_diseases:
   - "ureteral stone"
   - "renal colic"
   - "stone composition"
+  - "Calcium oxalate nephrolithiasis"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

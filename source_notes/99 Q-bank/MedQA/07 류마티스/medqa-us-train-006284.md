@@ -13,6 +13,8 @@ related_diseases:
   - "전신경화증"
   - "제한피부형 전신경화증"
   - "레이노 현상"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDqsr3tmZTspp0gKFN5c3RlbWljIFNjbGVyb3NpcykubWQ
 question_type: prognosis
 difficulty: complex
 answer: C

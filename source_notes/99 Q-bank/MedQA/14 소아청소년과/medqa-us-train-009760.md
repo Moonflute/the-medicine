@@ -13,7 +13,10 @@ related_diseases:
   - "괴사성 장염"
   - "장내강 가스"
   - "미숙아"
+  - "necrotizing enterocolitis"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOq0tOyCrOyEsSDsnqXsl7wgKE5lb25hdGFsIE5lY3JvdGl6aW5nIEVudGVyb2NvbGl0aXMpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

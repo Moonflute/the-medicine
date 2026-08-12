@@ -13,6 +13,7 @@ related_diseases:
   - "화농성 간농양"
   - "간농양 배액"
   - "세균성 감염"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

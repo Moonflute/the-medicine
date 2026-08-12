@@ -13,6 +13,9 @@ related_diseases:
   - "비후성 폐쇄성 심근병증"
   - "승모판 수축기 전방운동"
   - "운동 중 실신"
+  - "mitral valve prolapse"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yKueuqqO2MkOuniSDsnbztg4jspp0gKE1pdHJhbCBWYWx2ZSBQcm9sYXBzZSkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: A

@@ -13,6 +13,9 @@ related_diseases:
   - "대상포진 예방접종"
   - "위식도역류질환"
   - "흡연력"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsi53rj4Qg7Jet66WYIOyniO2ZmCAoR0VSRCkgKEdhc3Ryb2Vzb3BoYWdlYWwgUmVmbHV4IERpc2Vhc2UpLm1k
+  - MTkg7ZS867aA6rO8L-uMgOyDgSDtj6zsp4QgKEhlcnBlcyBab3N0ZXIpLm1k
 question_type: 임상증례 객관식
 difficulty: complex
 answer: C

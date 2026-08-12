@@ -15,6 +15,8 @@ related_diseases:
   - "척골신경 압박"
   - "손가락 벌림 약화"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

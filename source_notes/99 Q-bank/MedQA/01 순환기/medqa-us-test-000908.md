@@ -13,6 +13,9 @@ related_diseases:
   - "안정형 협심증"
   - "약물 부하검사"
   - "심근 관류 영상"
+  - "stable angina"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yViOyglSDtmJHsi6zspp0gKFN0YWJsZSBBbmdpbmEpLm1k
 question_type: investigation
 difficulty: complex
 answer: A

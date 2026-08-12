@@ -14,6 +14,8 @@ related_diseases:
   - "pseudotumor cerebri"
   - "alopecia"
   - "hepatomegaly"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEEg64-F7ISx7KadIChWaXRhbWluIEEgVG94aWNpdHkpLm1k
 question_type: adverse_effect
 difficulty: complex
 answer: A

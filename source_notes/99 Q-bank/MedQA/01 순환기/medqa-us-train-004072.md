@@ -13,6 +13,8 @@ related_diseases:
   - "급성 심근경색"
   - "니트로글리세린 유발 저혈압"
   - "cGMP"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

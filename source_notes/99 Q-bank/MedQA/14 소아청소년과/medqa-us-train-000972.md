@@ -14,6 +14,10 @@ related_diseases:
   - "Verruca vulgaris"
   - "Chickenpox"
 question_type: diagnosis
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-usvOyCrOuniOq3gCAoTW9sbHVzY3VtIENvbnRhZ2lvc3VtKS5tZA
+  - MTIg7IKw6rO8L-yImOuRkCAoVmFyaWNlbGxhKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IiY65GQIChWYXJpY2VsbGEpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

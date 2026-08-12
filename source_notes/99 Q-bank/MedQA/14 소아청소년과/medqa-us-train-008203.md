@@ -14,6 +14,8 @@ related_diseases:
   - "delayed puberty"
   - "bone age radiograph"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KCA7Iug7J6lIChTaG9ydCBTdGF0dXJlKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

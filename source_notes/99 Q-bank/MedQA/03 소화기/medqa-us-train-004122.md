@@ -13,6 +13,8 @@ related_diseases:
   - "소장폐색"
   - "수술 후 유착"
   - "마약성 진통제 유발 변비"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shozsnqUg7Y-Q7IeEIChTbWFsbCBCb3dlbCBPYnN0cnVjdGlvbikubWQ
 question_type: 임상증례 객관식
 difficulty: standard
 answer: D

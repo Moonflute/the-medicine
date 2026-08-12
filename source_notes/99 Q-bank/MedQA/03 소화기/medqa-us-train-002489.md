@@ -13,6 +13,8 @@ related_diseases:
   - "esophageal spasm"
   - "esophageal motility disorder"
   - "esophageal manometry"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rr7jrp4zshLEg7Iud64-EIOyXsOy2lSAoRGlmZnVzZSBFc29waGFnZWFsIFNwYXNtKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

@@ -13,7 +13,9 @@ related_diseases:
   - "neonatal breast enlargement"
   - "neonatal galactorrhea"
   - "physiologic neonatal gynecomastia"
+  - "Neonatal physiologic breast enlargement"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

@@ -13,7 +13,10 @@ related_diseases:
   - "postpartum eclampsia"
   - "산후 자간증"
   - "magnesium sulfate"
+  - "Eclampsia"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOqwhOymnSAoRWNsYW1wc2lhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

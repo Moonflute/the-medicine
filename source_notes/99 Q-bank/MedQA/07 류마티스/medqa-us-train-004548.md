@@ -13,6 +13,8 @@ related_diseases:
   - "류마티스 관절염"
   - "제3형 과민반응"
   - "면역복합체"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: B

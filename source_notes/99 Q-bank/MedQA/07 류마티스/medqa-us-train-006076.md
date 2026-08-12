@@ -13,6 +13,8 @@ related_diseases:
   - "항인지질 증후군"
   - "반복 유산"
   - "항인지질 항체"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2VreyduOyngOyniCDspp3tm4TqtbAgKEFudGlwaG9zcGhvbGlwaWQgU3luZHJvbWUpLm1k
 question_type: investigation
 difficulty: complex
 answer: D

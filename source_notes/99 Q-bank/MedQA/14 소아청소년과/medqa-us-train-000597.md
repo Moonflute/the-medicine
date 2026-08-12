@@ -13,6 +13,9 @@ related_diseases:
   - "measles"
   - "Behcet disease"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2ZjeyXrSAoTWVhc2xlcykubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ZmN7JetIChNZWFzbGVzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

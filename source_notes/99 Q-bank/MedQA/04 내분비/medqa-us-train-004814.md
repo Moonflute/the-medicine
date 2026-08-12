@@ -13,6 +13,8 @@ related_diseases:
   - "원발성 알도스테론증"
   - "콘 증후군"
   - "저레닌 고알도스테론혈증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ybkOuwnOyEsSDslYzrj4TsiqTthYzroaDspp0gKFByaW1hcnkgQWxkb3N0ZXJvbmlzbSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

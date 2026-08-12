@@ -15,6 +15,8 @@ related_diseases:
   - "depressive symptoms"
   - "chronic mood instability"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yInO2ZmCDquLDrtoQg7J6l7JWgIChDeWNsb3RoeW1pYyBEaXNvcmRlcikubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

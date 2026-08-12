@@ -14,6 +14,9 @@ related_diseases:
   - "내측 반월상연골 손상"
   - "무릎의 불행한 삼징"
 question_type: other
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-uCtOy4oSDsuKHrtoAg7J2464yAIOyGkOyDgSAoTWVkaWFsIENvbGxhdGVyYWwgTGlnYW1lbnQgSW5qdXJ5KS5tZA
+  - MjIg7KCV7ZiV7Jm46rO8L-uwmOyblCDsl7Dqs6jtjJAg7IaQ7IOBIChNZW5pc2N1cyBJbmp1cnkpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

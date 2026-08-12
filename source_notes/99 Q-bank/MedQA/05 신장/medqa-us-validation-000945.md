@@ -13,6 +13,9 @@ related_diseases:
   - "용혈성 요독 증후군"
   - "시가독소"
   - "대장균 감염"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDsmpTrj4Ug7Kad7ZuE6rWwIChIZW1vbHl0aWMgVXJlbWljIFN5bmRyb21lLCBIVVMpLm1k
+  - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

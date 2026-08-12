@@ -15,6 +15,8 @@ related_diseases:
   - "chronic excessive worry"
   - "paroxetine"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uylCDrtojslYgg7J6l7JWgIChHZW5lcmFsaXplZCBBbnhpZXR5IERpc29yZGVyKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "에리트로마이신"
   - "유문협착증"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKc7ISxIOyLreydtOyngOyepSDtj5Dsh4Tspp0gKENvbmdlbml0YWwgRHVvZGVuYWwgT2JzdHJ1Y3Rpb24pLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

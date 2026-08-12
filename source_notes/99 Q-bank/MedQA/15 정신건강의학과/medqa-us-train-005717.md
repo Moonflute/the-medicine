@@ -14,6 +14,9 @@ related_diseases:
   - "해리성 둔주"
   - "스트레스 관련 기억상실"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VtOumrOyEsSDquLDslrUg7IOB7IukIChEaXNzb2NpYXRpdmUgQW1uZXNpYSkubWQ
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2VtOumrOyEsSDrkZTso7wgKERpc3NvY2lhdGl2ZSBGdWd1ZSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

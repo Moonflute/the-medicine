@@ -14,6 +14,7 @@ related_diseases:
   - "정상 신생아 체중 감소"
   - "충분한 수유"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

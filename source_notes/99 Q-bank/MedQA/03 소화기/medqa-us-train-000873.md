@@ -11,6 +11,8 @@ language: ko
 specialty: 03 소화기
 related_diseases:
   - "peptic ulcer disease"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -14,6 +14,9 @@ related_diseases:
   - "recurrent esophageal variceal hemorrhage"
   - "TIPS"
   - "portal hypertension"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
 question_type: management
 difficulty: complex
 answer: B

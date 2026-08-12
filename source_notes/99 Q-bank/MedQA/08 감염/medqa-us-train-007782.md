@@ -13,6 +13,9 @@ related_diseases:
   - "febrile neutropenia"
   - "acute lymphoblastic leukemia"
   - "empiric antipseudomonal antibiotic"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2YuOykkeq1rOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k
+  - MDkg7ZiI7JWhL-q4ieyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChBTEwpIChBY3V0ZSBMeW1waG9ibGFzdGljIExldWtlbWlhKS5tZA
 question_type: management
 difficulty: simple
 answer: B

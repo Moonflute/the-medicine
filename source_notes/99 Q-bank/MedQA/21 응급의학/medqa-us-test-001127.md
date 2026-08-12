@@ -14,6 +14,8 @@ related_diseases:
   - "각막반사"
   - "중증 외상성 뇌손상"
 question_type: investigation
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsgqwgKEJyYWluIGRlYXRoKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

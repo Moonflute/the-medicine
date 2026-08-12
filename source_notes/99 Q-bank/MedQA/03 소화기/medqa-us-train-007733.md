@@ -13,6 +13,9 @@ related_diseases:
   - "chronic pancreatitis"
   - "alcohol-induced pancreatitis"
   - "exocrine pancreatic insufficiency"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEg7LeM7J6l7Je8IChDaHJvbmljIFBhbmNyZWF0aXRpcykubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

@@ -14,6 +14,7 @@ related_diseases:
   - "약물 과다복용"
   - "의료윤리"
 question_type: ethics
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

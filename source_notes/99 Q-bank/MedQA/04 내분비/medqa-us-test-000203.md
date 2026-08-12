@@ -13,6 +13,9 @@ related_diseases:
   - "갑상샘암"
   - "여포성 갑상샘암"
   - "전이"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmOyVlCAoVGh5cm9pZCBDYW5jZXIpLm1k
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDsl6ztj6zslZQgKFRoeXJvaWQgRm9sbGljdWxhciBDYXJjaW5vbWEpLm1k
 question_type: prognosis
 difficulty: standard
 answer: C

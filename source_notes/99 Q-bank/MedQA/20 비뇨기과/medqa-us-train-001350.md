@@ -12,7 +12,10 @@ specialty: 20 비뇨기과
 related_diseases:
   - "ureteral stone in pregnancy"
   - "renal colic"
+  - "Ureteral stone"
 question_type: investigation
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

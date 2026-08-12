@@ -14,6 +14,8 @@ related_diseases:
   - "upper motor neuron signs"
   - "hyperreflexia"
 question_type: diagnosis
+related_disease_slugs:
+  - MTAg7KKF7JaRL-yymeyImCDslZXrsJUg7Kad7ZuE6rWwIChTcGluYWwgQ29yZCBDb21wcmVzc2lvbiBTeW5kcm9tZSkubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

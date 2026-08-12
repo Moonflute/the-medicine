@@ -13,6 +13,9 @@ related_diseases:
   - "hypertensive emergency"
   - "papilledema"
   - "hypertensive retinopathy"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MTgg7JWI6rO8L-qzoO2YiOyVleunneunieuzkeymnSAoaHlwZXJ0ZW5zaXZlIHJldGlub3BhdGh5KS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

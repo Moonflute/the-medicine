@@ -12,6 +12,8 @@ specialty: 01 순환기
 related_diseases:
   - "atrial septal defect"
   - "right ventricular volume overload"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius67CpIOykkeqyqSDqsrDshpAgKEF0cmlhbCBTZXB0YWwgRGVmZWN0KS5tZA
 question_type: investigation
 difficulty: standard
 answer: B

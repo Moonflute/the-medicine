@@ -13,6 +13,8 @@ related_diseases:
   - "척수 압박"
   - "유방암 척추 전이"
   - "수술적 감압"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: standard
 answer: D

@@ -13,6 +13,7 @@ related_diseases:
   - "육아종성 다발혈관염"
   - "ANCA 혈관염"
   - "폐신장 증후군"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: D

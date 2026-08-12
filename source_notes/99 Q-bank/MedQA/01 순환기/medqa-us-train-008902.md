@@ -13,6 +13,8 @@ related_diseases:
   - "digoxin toxicity"
   - "visual disturbances"
   - "PR prolongation"
+  - "Digoxin toxicity"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: D

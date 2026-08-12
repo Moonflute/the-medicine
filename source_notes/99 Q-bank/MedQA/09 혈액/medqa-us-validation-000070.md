@@ -13,6 +13,9 @@ related_diseases:
   - "호중구감소증"
   - "급성 골수성 백혈병"
   - "감염 예방"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2YuOykkeq1rOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k
+  - MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA
 question_type: prevention
 difficulty: complex
 answer: A

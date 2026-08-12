@@ -13,6 +13,8 @@ related_diseases:
   - "인슐린종"
   - "내인성 고인슐린혈증"
   - "저혈당"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

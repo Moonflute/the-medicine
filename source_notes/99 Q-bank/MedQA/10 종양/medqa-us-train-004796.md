@@ -13,6 +13,7 @@ related_diseases:
   - "BI-RADS 3"
   - "유방촬영술 추적검사"
   - "유방 병변"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

@@ -15,6 +15,8 @@ related_diseases:
   - "visual hallucinations"
   - "steroid psychosis"
 question_type: adverse_effect
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,7 @@ related_diseases:
   - "독성쇼크증후군"
   - "월경용 탐폰"
   - "황색포도상구균 독소"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

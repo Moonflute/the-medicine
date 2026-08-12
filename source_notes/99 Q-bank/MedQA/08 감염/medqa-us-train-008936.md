@@ -13,6 +13,8 @@ related_diseases:
   - "vertebral osteomyelitis"
   - "Staphylococcus aureus bacteremia"
   - "intravenous drug use"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: D

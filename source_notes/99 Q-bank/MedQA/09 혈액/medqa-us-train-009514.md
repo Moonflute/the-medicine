@@ -13,6 +13,8 @@ related_diseases:
   - "paroxysmal nocturnal hemoglobinuria"
   - "발작성 야간 혈색소뇨증"
   - "Budd-Chiari syndrome"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uwnOyekeyEsSDslbzqsIQg7ZiI7IOJ7IaM64eo7KadIChQYXJveHlzbWFsIE5vY3R1cm5hbCBIZW1vZ2xvYmludXJpYSkubWQ
 question_type: prognosis
 difficulty: complex
 answer: D

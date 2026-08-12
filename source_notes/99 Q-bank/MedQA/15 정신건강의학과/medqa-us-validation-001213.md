@@ -13,7 +13,9 @@ related_diseases:
   - "공유정신병적 장애"
   - "피해망상"
   - "가족성 망상"
+  - "Shared psychotic disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

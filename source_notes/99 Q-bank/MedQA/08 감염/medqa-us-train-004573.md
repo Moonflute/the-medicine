@@ -13,6 +13,8 @@ related_diseases:
   - "나병"
   - "한센병"
   - "말초신경병증"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2VnOyEvOuzkSAoTGVwcm9zeSkubWQ
 question_type: management
 difficulty: complex
 answer: D

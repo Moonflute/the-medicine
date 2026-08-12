@@ -15,6 +15,8 @@ related_diseases:
   - "fetal cardiac malformation"
   - "teratogenic medication"
 question_type: risk_factor
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jeh7Iqk7YOA7J24IOq4sO2YlSAoRWJzdGVpbiBBbm9tYWx5KS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

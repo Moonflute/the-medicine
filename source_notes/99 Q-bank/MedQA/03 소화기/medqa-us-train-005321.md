@@ -13,6 +13,7 @@ related_diseases:
   - "VIPoma"
   - "혈관활성 장펩티드"
   - "수양성 설사 저칼륨혈증 무위산증"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: B

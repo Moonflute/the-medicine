@@ -14,6 +14,7 @@ related_diseases:
   - "황록색 질 분비물"
   - "성매개 감염"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

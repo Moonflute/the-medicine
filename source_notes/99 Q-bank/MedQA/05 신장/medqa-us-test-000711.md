@@ -13,6 +13,9 @@ related_diseases:
   - "옥살산칼슘 신장결석"
   - "장 절제 후 고옥살산뇨증"
   - "지방 흡수장애"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tnaHsiJjsnqXslaAubWQ
+  - MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA
 question_type: mechanism
 difficulty: standard
 answer: C

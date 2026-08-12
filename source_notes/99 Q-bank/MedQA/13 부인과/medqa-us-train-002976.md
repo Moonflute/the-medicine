@@ -15,6 +15,9 @@ related_diseases:
   - "postpartum hemorrhage"
   - "lactation failure"
 question_type: investigation
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uHjO2VmOyImOyytCDquLDriqXsoIDtlZjspp0gKEh5cG9waXR1aXRhcmlzbSkubWQ
+  - MTIg7IKw6rO8L-yekOq2geydtOyZhOymnSAoVXRlcmluZSBBdG9ueSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

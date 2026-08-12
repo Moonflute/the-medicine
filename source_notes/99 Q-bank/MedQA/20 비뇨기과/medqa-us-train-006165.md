@@ -14,6 +14,8 @@ related_diseases:
   - "신생아 요로폐색"
   - "내시경적 판막 절제"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yalOuhnCDtj5Dsg4kgKFVyaW5hcnkgdHJhY3Qgb2JzdHJ1Y3Rpb24pLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

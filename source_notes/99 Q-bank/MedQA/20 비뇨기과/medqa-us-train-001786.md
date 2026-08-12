@@ -14,6 +14,8 @@ related_diseases:
   - "urothelial carcinoma"
   - "radical cystectomy"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-uwqeq0keyVlCAoQmxhZGRlciBjYW5jZXIpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

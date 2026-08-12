@@ -14,6 +14,9 @@ related_diseases:
   - "구강 칸디다증"
   - "천식"
 question_type: mechanism
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-y5uOuUlOuLpOymnSAoQ2FuZGlkaWFzaXMpLm1k
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

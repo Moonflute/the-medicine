@@ -13,6 +13,9 @@ related_diseases:
   - "장출혈성 대장균"
   - "용혈성요독증후군"
   - "시가 독소"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDsmpTrj4Ug7Kad7ZuE6rWwIChIZW1vbHl0aWMgVXJlbWljIFN5bmRyb21lLCBIVVMpLm1k
+  - MDgg6rCQ7Je8L-uMgOyepeq3oCAoRS4gY29saSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

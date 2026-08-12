@@ -13,6 +13,8 @@ related_diseases:
   - "울프-파킨슨-화이트 증후군"
   - "심실조기흥분"
   - "방실결절 차단제 금기"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yauO2UhC3tjIztgqjsiqgt7ZmU7J207Yq4IOymne2bhOq1sCAoV1BXIFN5bmRyb21lKS5tZA
 question_type: contraindication
 difficulty: complex
 answer: B

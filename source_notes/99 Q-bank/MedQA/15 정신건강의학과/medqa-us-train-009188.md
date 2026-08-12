@@ -13,7 +13,9 @@ related_diseases:
   - "tardive dyskinesia"
   - "지연성 운동이상증"
   - "metoclopramide"
+  - "Tardive dyskinesia"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

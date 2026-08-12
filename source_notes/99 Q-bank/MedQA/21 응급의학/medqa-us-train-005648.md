@@ -14,6 +14,8 @@ related_diseases:
   - "외상성 심낭삼출"
   - "Beck 삼징"
 question_type: investigation
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOyepSDriIzrprzspp0gKENhcmRpYWMgVGFtcG9uYWRlKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

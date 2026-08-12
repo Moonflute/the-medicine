@@ -13,6 +13,9 @@ related_diseases:
   - "낭성섬유증"
   - "녹농균 감염"
   - "기관지확장증"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-q4sOq0gOyngCDtmZXsnqXspp0gKEJyb25jaGllY3Rhc2lzKS5tZA
+  - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: D

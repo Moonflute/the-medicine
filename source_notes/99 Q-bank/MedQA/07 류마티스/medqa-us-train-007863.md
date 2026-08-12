@@ -13,6 +13,9 @@ related_diseases:
   - "eosinophilic granulomatosis with polyangiitis"
   - "asthma"
   - "mononeuritis multiplex"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

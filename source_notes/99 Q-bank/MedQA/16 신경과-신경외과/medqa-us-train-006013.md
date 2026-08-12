@@ -14,6 +14,8 @@ related_diseases:
   - "자율신경 증상"
   - "호너 증후군"
 question_type: diagnosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qtbDrsJzrkZDthrUgKENsdXN0ZXIgaGVhZGFjaGUpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

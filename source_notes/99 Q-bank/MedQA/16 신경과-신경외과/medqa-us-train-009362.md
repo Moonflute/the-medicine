@@ -14,6 +14,7 @@ related_diseases:
   - "프리드라이히 운동실조"
   - "GAA trinucleotide repeat expansion"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

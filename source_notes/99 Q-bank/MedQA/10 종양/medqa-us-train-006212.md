@@ -13,6 +13,8 @@ related_diseases:
   - "유방암 의심 종괴"
   - "중심침생검"
   - "유방암 진단"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: investigation
 difficulty: standard
 answer: D

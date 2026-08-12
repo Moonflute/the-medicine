@@ -13,6 +13,9 @@ related_diseases:
   - "당뇨병성 신장병증"
   - "만성콩팥병"
   - "ACE 억제제"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
 question_type: management
 difficulty: complex
 answer: B

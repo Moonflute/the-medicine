@@ -13,6 +13,9 @@ related_diseases:
   - "둔상 복부 외상"
   - "출혈성 쇼크"
   - "FAST 초음파"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uRlOyDgSDrs7XrtoDsmbjsg4EgKEJsdW50IEFiZG9taW5hbCBUcmF1bWEpLm1k
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: management
 difficulty: complex
 answer: A

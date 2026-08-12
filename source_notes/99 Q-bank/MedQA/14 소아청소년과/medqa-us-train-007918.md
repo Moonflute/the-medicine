@@ -14,6 +14,8 @@ related_diseases:
   - "strawberry hemangioma"
   - "natural involution"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-ycoOyVhCDtmIjqtIDsooUgKEluZmFudGlsZSBIZW1hbmdpb21hKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -13,7 +13,9 @@ related_diseases:
   - "급성 요폐"
   - "소아 요도 카테터"
   - "방광 팽창"
+  - "Urinary retention"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

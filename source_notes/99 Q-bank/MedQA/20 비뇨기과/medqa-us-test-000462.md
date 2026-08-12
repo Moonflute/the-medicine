@@ -14,6 +14,7 @@ related_diseases:
   - "혈관성 발기부전"
   - "야간 음경 팽창"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,10 @@ related_diseases:
   - "anaphylaxis"
   - "live attenuated influenza vaccine"
 question_type: prevention
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
+  - MDYg7JWM66CI66W06riwL-ydjOyLnSDsnZjsobQg7Jq064-ZIOycoOuwnCDslYTrgpjtlYTrnb3si5zsiqQgKEZvb2QtRGVwZW5kZW50IEV4ZXJjaXNlLUluZHVjZWQgQW5hcGh5bGF4aXMpLm1k
+  - MDgg6rCQ7Je8L-yduO2UjOujqOyXlOyekCAoSW5mbHVlbnphKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

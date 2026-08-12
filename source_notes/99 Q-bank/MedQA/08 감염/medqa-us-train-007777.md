@@ -13,6 +13,9 @@ related_diseases:
   - "chronic hepatitis B"
   - "hepatitis B e antigen positive"
   - "tenofovir"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEgQu2YlSDqsITsl7wgKENocm9uaWMgSGVwYXRpdGlzIEIgKEhCVikpLm1k
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: management
 difficulty: standard
 answer: C

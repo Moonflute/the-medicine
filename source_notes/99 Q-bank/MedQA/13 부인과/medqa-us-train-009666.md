@@ -14,6 +14,8 @@ related_diseases:
   - "방광질루"
   - "postoperative urinary incontinence"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "hypercoagulability"
   - "estrogen"
 question_type: mechanism
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yLrOu2gOygleunpe2YiOyghOymnSAoRGVlcCBWZWluIFRocm9tYm9zaXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

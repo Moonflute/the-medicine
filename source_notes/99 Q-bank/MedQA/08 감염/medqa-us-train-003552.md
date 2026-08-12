@@ -14,6 +14,8 @@ related_diseases:
   - "HIV with low CD4 count"
   - "odynophagia"
   - "esophageal ulcers"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uLqOyInO2PrOynhCDqsJDsl7wgKEhlcnBlcyBTaW1wbGV4IEluZmVjdGlvbikubWQ
 question_type: diagnosis
 difficulty: standard
 answer: A

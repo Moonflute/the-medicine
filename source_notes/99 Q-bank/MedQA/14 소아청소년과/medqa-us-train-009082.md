@@ -14,6 +14,7 @@ related_diseases:
   - "birth trauma"
   - "immobilization"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

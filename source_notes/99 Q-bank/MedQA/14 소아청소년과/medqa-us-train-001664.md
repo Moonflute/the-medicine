@@ -13,6 +13,8 @@ related_diseases:
   - "transient synovitis"
   - "postviral hip pain"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7J286rO87ISxIOqzoOq0gOygiCDtmZzrp4nsl7wgKFRyYW5zaWVudCBTeW5vdml0aXMgb2YgdGhlIEhpcCkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "치매"
   - "전반적 뇌 위축"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

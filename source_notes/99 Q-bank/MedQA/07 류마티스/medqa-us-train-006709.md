@@ -13,6 +13,8 @@ related_diseases:
   - "결절성 다발동맥염"
   - "B형간염 관련 혈관염"
   - "중간 크기 동맥염"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

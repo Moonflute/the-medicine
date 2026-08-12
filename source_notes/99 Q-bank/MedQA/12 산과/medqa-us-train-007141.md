@@ -14,6 +14,7 @@ related_diseases:
   - "태아 머리 압박"
   - "분만 2기"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: simple
 answer: D
 translation_status: machine-verified

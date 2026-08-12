@@ -13,6 +13,7 @@ related_diseases:
   - "physiologic neonatal weight loss"
   - "breastfeeding"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

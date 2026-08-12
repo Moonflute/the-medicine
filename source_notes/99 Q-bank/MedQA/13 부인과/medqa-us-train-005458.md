@@ -13,7 +13,9 @@ related_diseases:
   - "생리적 유즙분비"
   - "유두 자극"
   - "정상 프로락틴"
+  - "Physiologic galactorrhea"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

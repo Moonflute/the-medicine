@@ -13,6 +13,8 @@ related_diseases:
   - "cardiac tamponade"
   - "pericardial effusion"
   - "right ventricular collapse"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOyepSDriIzrprzspp0gKENhcmRpYWMgVGFtcG9uYWRlKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: A

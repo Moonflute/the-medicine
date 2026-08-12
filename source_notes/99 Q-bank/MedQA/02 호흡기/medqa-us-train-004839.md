@@ -13,6 +13,8 @@ related_diseases:
   - "천식"
   - "소아 천식"
   - "알레르기성 천식"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: A

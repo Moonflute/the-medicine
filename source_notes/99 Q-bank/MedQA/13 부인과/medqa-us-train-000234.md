@@ -13,6 +13,8 @@ related_diseases:
   - "lichen sclerosus"
   - "vulvar cancer"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yZuOydjOu2gOyVlCAoVnVsdmFyIENhbmNlcikubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

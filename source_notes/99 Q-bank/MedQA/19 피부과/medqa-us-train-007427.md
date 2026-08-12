@@ -14,7 +14,10 @@ related_diseases:
   - "은색 인설"
   - "국소 코르티코스테로이드"
   - "비타민 D 유사체"
+  - "psoriasis"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-qxtOyEoCAoUHNvcmlhc2lzKS5tZA
 difficulty: simple
 answer: C
 translation_status: machine-verified

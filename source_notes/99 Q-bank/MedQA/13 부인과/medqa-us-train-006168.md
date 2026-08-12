@@ -13,7 +13,10 @@ related_diseases:
   - "여성 불임"
   - "난관 개통성 평가"
   - "자궁난관조영술"
+  - "Infertility"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

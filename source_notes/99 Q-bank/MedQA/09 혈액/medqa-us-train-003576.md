@@ -14,6 +14,9 @@ related_diseases:
   - "vitamin B12 deficiency"
   - "subacute combined degeneration"
   - "anti-intrinsic factor antibody"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yVheyEsSDruYjtmIggKFBlcm5pY2lvdXMgQW5lbWlhKS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEIg6rKw7ZWN7KadIChWaXRhbWluIEIgRGVmaWNpZW5jeSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: A

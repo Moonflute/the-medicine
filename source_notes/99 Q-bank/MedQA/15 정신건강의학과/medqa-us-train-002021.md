@@ -14,6 +14,8 @@ related_diseases:
   - "NSAID interaction"
   - "bipolar disorder"
 question_type: adverse_effect
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

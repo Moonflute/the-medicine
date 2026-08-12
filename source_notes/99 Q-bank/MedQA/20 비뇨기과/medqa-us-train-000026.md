@@ -14,6 +14,9 @@ related_diseases:
   - "수신증"
   - "통풍"
 question_type: investigation
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ
+  - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

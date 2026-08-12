@@ -13,6 +13,7 @@ related_diseases:
   - "Bacillus cereus 식중독"
   - "재가열 쌀"
   - "구토형 식중독"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

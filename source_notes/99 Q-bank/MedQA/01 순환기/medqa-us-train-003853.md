@@ -14,6 +14,8 @@ related_diseases:
   - "diastolic dysfunction"
   - "impaired ventricular relaxation"
   - "pulmonary edema"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDrs7TsobQpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBQcmVzZXJ2ZWQgRWplY3Rpb24gRnJhY3Rpb24gKEhGcEVGKSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: D

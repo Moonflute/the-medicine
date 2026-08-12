@@ -13,6 +13,8 @@ related_diseases:
   - "toxic megacolon"
   - "ulcerative colitis flare"
   - "abdominal radiograph"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: A

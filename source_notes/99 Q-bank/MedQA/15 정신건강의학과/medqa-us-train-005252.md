@@ -13,7 +13,9 @@ related_diseases:
   - "의존성 인격장애"
   - "의사결정 의존"
   - "버림받음에 대한 불안"
+  - "Dependent personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

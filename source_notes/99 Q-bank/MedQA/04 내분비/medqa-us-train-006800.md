@@ -13,6 +13,8 @@ related_diseases:
   - "당뇨병성 신장병증 초기"
   - "사구체 과여과"
   - "미세알부민뇨"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
 question_type: mechanism
 difficulty: standard
 answer: B

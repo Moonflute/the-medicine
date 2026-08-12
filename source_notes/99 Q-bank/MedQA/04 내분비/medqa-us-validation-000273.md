@@ -13,6 +13,8 @@ related_diseases:
   - "원발성 알도스테론증"
   - "저칼륨혈증성 대사성 알칼리증"
   - "이차성 무월경"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ybkOuwnOyEsSDslYzrj4TsiqTthYzroaDspp0gKFByaW1hcnkgQWxkb3N0ZXJvbmlzbSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: A

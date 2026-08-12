@@ -13,6 +13,9 @@ related_diseases:
   - "당뇨병성 케톤산증"
   - "전신 칼륨 고갈"
   - "고칼륨혈증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
+  - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: C

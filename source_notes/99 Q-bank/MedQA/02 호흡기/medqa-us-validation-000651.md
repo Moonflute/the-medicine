@@ -13,6 +13,8 @@ related_diseases:
   - "원발성 자발성 기흉"
   - "작은 기흉"
   - "산소 치료"
+  - "Spontaneous pneumothorax"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: C

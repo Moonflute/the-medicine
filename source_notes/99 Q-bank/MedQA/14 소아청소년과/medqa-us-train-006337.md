@@ -14,6 +14,7 @@ related_diseases:
   - "주간 졸림"
   - "수면 위생"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

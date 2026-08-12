@@ -13,6 +13,9 @@ related_diseases:
   - "alcoholic hepatitis"
   - "alcohol-associated liver disease"
   - "AST/ALT ratio"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_slYzsvZTsmKzshLEg6rCE7KeI7ZmYIChBbGNvaG9saWMgTGl2ZXIgRGlzZWFzZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -13,6 +13,7 @@ related_diseases:
   - "우측 심내막염"
   - "삼첨판 심내막염"
   - "정맥주사 약물사용"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B

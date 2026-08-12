@@ -13,6 +13,8 @@ related_diseases:
   - "화농성 관절염"
   - "관절액 그람양성 구균"
   - "무릎 관절염"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ZmU64aN7ISxIOq0gOygiOyXvCAoU3VwcHVyYXRpdmUgQXJ0aHJpdGlzKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: A

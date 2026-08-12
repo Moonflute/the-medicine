@@ -14,6 +14,8 @@ related_diseases:
   - "대량 토혈"
   - "기도 보호를 위한 기관삽관"
 question_type: management
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_si53rj4Qg7KCV66el66WYIChFc29waGFnZWFsIFZhcmljZXMpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

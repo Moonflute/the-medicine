@@ -14,6 +14,7 @@ related_diseases:
   - "정상 영아 울음"
   - "보호자 안심"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -14,6 +14,7 @@ related_diseases:
   - "아스피린"
   - "간 미토콘드리아 손상"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

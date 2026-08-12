@@ -12,6 +12,8 @@ specialty: 08 감염
 related_diseases:
   - "Rabies"
   - "광견병"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qzteyImOuzkSAoUmFiaWVzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

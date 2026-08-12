@@ -14,7 +14,10 @@ related_diseases:
   - "escharotomy"
   - "vascular compromise"
   - "compartment pressure"
+  - "compartment syndrome"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uzteqwlSDqtaztmo0g7Kad7ZuE6rWwIChBYmRvbWluYWwgQ29tcGFydG1lbnQgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

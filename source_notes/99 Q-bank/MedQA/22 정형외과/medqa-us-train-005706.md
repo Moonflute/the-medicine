@@ -14,6 +14,8 @@ related_diseases:
   - "앞무릎 통증"
   - "슬개골 압박 통증"
 question_type: diagnosis
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

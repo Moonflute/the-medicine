@@ -13,6 +13,9 @@ related_diseases:
   - "췌장암"
   - "췌장 외분비 기능부전"
   - "지방변"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sp4DrsKnrs4AgKFN0ZWF0b3JyaGVhKS5tZA
 question_type: investigation
 difficulty: complex
 answer: A

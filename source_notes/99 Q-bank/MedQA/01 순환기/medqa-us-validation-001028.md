@@ -13,6 +13,8 @@ related_diseases:
   - "난원공 개존"
   - "일시적 우좌단락"
   - "소아 심잡음"
+  - "Patent foramen ovale"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

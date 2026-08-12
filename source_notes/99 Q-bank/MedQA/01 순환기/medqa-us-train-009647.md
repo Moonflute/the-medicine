@@ -13,6 +13,8 @@ related_diseases:
   - "amaurosis fugax"
   - "일과성 흑암시"
   - "carotid artery stenosis"
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qsr3rj5nrp6Ug7ZiR7LCp7KadIChDYXJvdGlkIGFydGVyeSBzdGVub3NpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: D

@@ -14,6 +14,8 @@ related_diseases:
   - "불완전 예방접종"
   - "파상풍 면역글로불린"
 question_type: prevention
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2MjOyDge2SjSAoVGV0YW51cykubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

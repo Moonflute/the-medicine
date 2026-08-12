@@ -13,6 +13,8 @@ related_diseases:
   - "심부전"
   - "좌심실 기능부전"
   - "기좌호흡"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: investigation
 difficulty: standard
 answer: B

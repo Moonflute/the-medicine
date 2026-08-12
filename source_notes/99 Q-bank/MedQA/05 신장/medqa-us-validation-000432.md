@@ -13,6 +13,8 @@ related_diseases:
   - "신동맥 협착"
   - "이차성 고혈압"
   - "복부 잡음"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
 question_type: diagnosis
 difficulty: standard
 answer: A

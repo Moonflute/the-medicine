@@ -13,6 +13,8 @@ related_diseases:
   - "멜라노시스 대장"
   - "완하제 남용"
   - "만성 설사"
+  - "Laxative abuse"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: D

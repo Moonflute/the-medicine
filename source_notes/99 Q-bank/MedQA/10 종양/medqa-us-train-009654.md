@@ -13,6 +13,9 @@ related_diseases:
   - "Paget disease of breast"
   - "유방 파제트병"
   - "invasive ductal carcinoma"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-2MjOygnO2KuOuzkSAoUGFnZXQncyBEaXNlYXNlKS5tZA
+  - MTMg67aA7J246rO8L-y5qOycpOyEsSDsnKDrsKnslZQgKEludmFzaXZlIEJyZWFzdCBDYW5jZXIpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "경동맥동 과민증"
   - "반사성 실신"
   - "유발성 실신"
+  - "Carotid sinus hypersensitivity"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: C

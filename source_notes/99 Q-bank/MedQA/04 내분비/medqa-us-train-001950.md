@@ -13,6 +13,9 @@ related_diseases:
   - "primary hyperparathyroidism"
   - "MEN2A"
   - "medullary thyroid carcinoma"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDsho3sp4jslZQgKFRoeXJvaWQgTWVkdWxsYXJ5IENhcmNpbm9tYSkubWQ
 question_type: mechanism
 difficulty: simple
 answer: A

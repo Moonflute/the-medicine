@@ -12,6 +12,9 @@ specialty: 10 종양
 related_diseases:
   - "metastatic prostate cancer"
   - "hypercalcemia"
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: management
 difficulty: simple
 answer: B

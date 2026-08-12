@@ -15,6 +15,8 @@ related_diseases:
   - "Latent tuberculosis"
   - "Human Immunodeficiency Virus (HIV)"
 question_type: management
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 difficulty: simple
 answer: D
 translation_status: machine-verified

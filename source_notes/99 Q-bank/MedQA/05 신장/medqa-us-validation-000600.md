@@ -13,6 +13,8 @@ related_diseases:
   - "상염색체 우성 다낭성 신장질환"
   - "간낭종"
   - "양측 신장 종대"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-uLpOuCreyEsSDsvantjKUg7KeI7ZmYIChQb2x5Y3lzdGljIEtpZG5leSBEaXNlYXNlKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "웰스 점수"
   - "수술 후 혈전 위험"
 question_type: risk_factor
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

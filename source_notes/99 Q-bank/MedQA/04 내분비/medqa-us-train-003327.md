@@ -14,6 +14,8 @@ related_diseases:
   - "neutropenic fever"
   - "antithyroid drug adverse effect"
   - "Graves disease"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
 question_type: adverse_effect
 difficulty: complex
 answer: B

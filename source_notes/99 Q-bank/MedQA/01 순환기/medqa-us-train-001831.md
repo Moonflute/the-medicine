@@ -13,6 +13,9 @@ related_diseases:
   - "infective endocarditis"
   - "septic emboli"
   - "intravenous drug use"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
+  - MDEg7Iic7ZmY6riwL-qwgOyEsSDrj5nrp6XrpZggKFBzZXVkb2FuZXVyeXNtKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "재생불량성 빈혈"
   - "범혈구감소증"
   - "저세포성 골수"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yerOyDneu2iOufieyEsSDruYjtmIggKEFBKSAoQXBsYXN0aWMgQW5lbWlhIChBQSkpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

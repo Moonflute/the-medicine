@@ -14,6 +14,8 @@ related_diseases:
   - "패혈성 관절염"
   - "활액 분석"
 question_type: investigation
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

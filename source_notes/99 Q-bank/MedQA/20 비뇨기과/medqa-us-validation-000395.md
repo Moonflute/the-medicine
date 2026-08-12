@@ -13,7 +13,10 @@ related_diseases:
   - "감돈 서혜부 탈장"
   - "비환원성 탈장"
   - "음낭 종창"
+  - "Incarcerated inguinal hernia"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yDheq1tCDtg4jsnqUgKEluZ3VpbmFsIEhlcm5pYSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "sarcoidosis"
   - "noncaseating granulomas"
   - "hypercalcemia"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-ycoOycoeyiheymnSAoU2FyY29pZG9zaXMpLm1k
+  - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: mechanism
 difficulty: standard
 answer: A

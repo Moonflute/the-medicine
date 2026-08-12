@@ -13,6 +13,8 @@ related_diseases:
   - "asthma"
   - "bronchial hyperresponsiveness"
   - "methacholine challenge"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: investigation
 difficulty: complex
 answer: C

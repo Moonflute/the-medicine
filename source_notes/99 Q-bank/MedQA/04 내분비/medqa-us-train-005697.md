@@ -13,6 +13,8 @@ related_diseases:
   - "급성 부신위기"
   - "수술 후 부신기능부전"
   - "저혈압과 복통"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-u2gOyLoCDquLDriqXsoIDtlZjspp0gKEFkcmVuYWwgSW5zdWZmaWNpZW5jeSkubWQ
 question_type: management
 difficulty: standard
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "HIV-associated nephropathy"
   - "HIV 관련 신병증"
   - "focal segmental glomerulosclerosis"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q1reyGjCDthqDrpqzqtbPsnYzspp0gKEZvY2FsIFNlZ21lbnRhbCBHbG9tZXJ1bG9zY2xlcm9zaXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

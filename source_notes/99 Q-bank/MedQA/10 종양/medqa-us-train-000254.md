@@ -16,6 +16,10 @@ related_diseases:
   - "lymphadenopathy"
   - "splenomegaly"
   - "Non-Hodgkin’s lymphoma"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDkg7ZiI7JWhL-u5hO2YuOyngO2CqCDrprztlITsooUgKE5vbi1Ib2Rna2luIEx5bXBob21hKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

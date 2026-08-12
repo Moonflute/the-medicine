@@ -13,6 +13,9 @@ related_diseases:
   - "cryptococcal meningitis"
   - "chronic meningitis"
   - "immunocompromised host"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-uptOyXreyggO2VmOyekCDqsJDsl7wgKEltbXVub2NvbXByb21pc2VkIEhvc3QgSW5mZWN0aW9uKS5tZA
+  - MDgg6rCQ7Je8L-2BrOumve2GoOy9lOy_oOyKpOymnSAoQ3J5cHRvY29jY29zaXMpLm1k
 question_type: investigation
 difficulty: complex
 answer: D

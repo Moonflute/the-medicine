@@ -12,6 +12,8 @@ specialty: 21 응급의학
 related_diseases:
   - "laceration"
 question_type: management
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-ywveyDgSDrsI8g7Je07IOBIChXb3VuZHMgYW5kIExhY2VyYXRpb25zKS5tZA
 difficulty: simple
 answer: B
 translation_status: machine-verified

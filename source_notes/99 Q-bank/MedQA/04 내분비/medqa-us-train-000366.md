@@ -12,6 +12,8 @@ specialty: 04 내분비
 related_diseases:
   - "hypoglycemia"
   - "insulinoma"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

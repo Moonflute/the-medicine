@@ -15,6 +15,9 @@ related_diseases:
   - "postmyocardial infarction syndrome"
   - "coronary artery dissection"
   - "papillary muscle rupture"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
+  - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrp4nsl7wgKEFjdXRlIFBlcmljYXJkaXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: D

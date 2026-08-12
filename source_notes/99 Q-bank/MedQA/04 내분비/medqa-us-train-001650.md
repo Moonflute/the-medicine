@@ -13,6 +13,8 @@ related_diseases:
   - "diabetic ketoacidosis"
   - "anion gap closure"
   - "treatment endpoint"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
 question_type: management
 difficulty: complex
 answer: B

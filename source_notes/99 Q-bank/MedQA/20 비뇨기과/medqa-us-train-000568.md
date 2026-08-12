@@ -11,7 +11,10 @@ language: ko
 specialty: 20 비뇨기과
 related_diseases:
   - "testicular mass"
+  - "Testicular cancer"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-qzoO2ZmCDsooXslpEgKFRlc3RpY3VsYXIgY2FuY2VyKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

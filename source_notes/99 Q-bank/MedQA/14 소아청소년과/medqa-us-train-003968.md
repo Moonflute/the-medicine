@@ -14,6 +14,8 @@ related_diseases:
   - "태반 기능부전"
   - "산모 고혈압"
 question_type: 임상증례 객관식
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

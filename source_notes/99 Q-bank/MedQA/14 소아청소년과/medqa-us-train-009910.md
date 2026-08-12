@@ -14,6 +14,8 @@ related_diseases:
   - "동맥관 의존성 순환"
   - "신생아 청색증"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA64-Z66elIOy2leywqSAoQ29hcmN0YXRpb24gb2YgdGhlIEFvcnRhKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

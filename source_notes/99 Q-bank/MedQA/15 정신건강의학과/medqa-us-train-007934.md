@@ -14,6 +14,8 @@ related_diseases:
   - "brief reactive psychosis"
   - "psychotic episode"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uLqOq4sCDsoJXsi6Drs5HsoIEg7J6l7JWgIChCcmllZiBwc3ljaG90aWMgZGlzb3JkZXIpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

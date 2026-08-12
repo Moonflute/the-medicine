@@ -14,6 +14,8 @@ related_diseases:
   - "자궁탈출증"
   - "페서리"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDtg4jstpwgKFV0ZXJpbmUgUHJvbGFwc2UpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

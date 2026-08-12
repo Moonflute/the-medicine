@@ -12,6 +12,8 @@ specialty: 13 부인과
 related_diseases:
   - "bacterial vaginosis"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yEuOq3oOyEsSDsp4jsl7wgKEJhY3RlcmlhbCBWYWdpbm9zaXMpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

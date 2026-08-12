@@ -13,6 +13,8 @@ related_diseases:
   - "심부전"
   - "좌심실 수축기 기능저하"
   - "ACE 억제제와 베타차단제"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: management
 difficulty: complex
 answer: B

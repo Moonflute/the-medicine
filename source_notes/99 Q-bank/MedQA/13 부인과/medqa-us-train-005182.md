@@ -14,6 +14,8 @@ related_diseases:
   - "일차성 무월경"
   - "자궁 무형성"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yViOuTnOuhnOqykOu2iOqwkOydkSAoQW5kcm9nZW4gSW5zZW5zaXRpdml0eSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

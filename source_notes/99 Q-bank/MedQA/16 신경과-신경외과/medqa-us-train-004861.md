@@ -14,6 +14,8 @@ related_diseases:
   - "소세포폐암"
   - "전압개폐성 칼슘통로 자가항체"
 question_type: mechanism
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

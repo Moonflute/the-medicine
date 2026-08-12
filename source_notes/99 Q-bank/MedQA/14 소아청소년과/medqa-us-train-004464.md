@@ -14,6 +14,8 @@ related_diseases:
   - "소아 급성 복통"
   - "혈성 점액변"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7J6l7KSR7LKp7KadIChJbnR1c3N1c2NlcHRpb24pLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

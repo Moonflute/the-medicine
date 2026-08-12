@@ -13,7 +13,9 @@ related_diseases:
   - "교통성 수두증"
   - "두개내압 상승"
   - "유두부종"
+  - "Hydrocephalus"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

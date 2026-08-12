@@ -14,6 +14,9 @@ related_diseases:
   - "peritonitis"
   - "acute abdomen"
   - "exploratory laparotomy"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDrsJzshLEg7IS46regIOuzteunieyXvCAoU3BvbnRhbmVvdXMgQmFjdGVyaWFsIFBlcml0b25pdGlzKS5tZA
+  - MTEg7Jm46rO8L-q4ieyEsSDrs7Xspp0gKEFjdXRlIEFiZG9tZW4pLm1k
 question_type: management
 difficulty: complex
 answer: D

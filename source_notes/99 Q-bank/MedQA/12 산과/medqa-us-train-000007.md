@@ -15,6 +15,9 @@ related_diseases:
   - "부종"
   - "단백뇨"
 question_type: investigation
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDUg7Iug7J6lL-uLqOuwseuHqC5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

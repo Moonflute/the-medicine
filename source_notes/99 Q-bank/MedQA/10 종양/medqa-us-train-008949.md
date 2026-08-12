@@ -13,6 +13,7 @@ related_diseases:
   - "palliative care"
   - "cancer pain"
   - "opioid titration"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: A

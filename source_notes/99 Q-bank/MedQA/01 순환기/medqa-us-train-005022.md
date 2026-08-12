@@ -13,6 +13,8 @@ related_diseases:
   - "기립성 저혈압"
   - "약물 유발 실신"
   - "방실전도 지연"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-q4sOumveyEsSDsoIDtmIjslZUgKE9ydGhvc3RhdGljIEh5cG90ZW5zaW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: C

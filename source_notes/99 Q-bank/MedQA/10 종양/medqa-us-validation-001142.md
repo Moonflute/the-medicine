@@ -13,6 +13,8 @@ related_diseases:
   - "카포시육종"
   - "인간 헤르페스바이러스 8형"
   - "HIV 감염"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "수면 유지 장애"
   - "졸피뎀"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOuptCDsnqXslaAgKEluc29tbmlhIERpc29yZGVyKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

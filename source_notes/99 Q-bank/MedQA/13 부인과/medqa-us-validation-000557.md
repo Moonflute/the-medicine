@@ -14,6 +14,8 @@ related_diseases:
   - "임균성 골반염"
   - "간주위염"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
 difficulty: simple
 answer: D
 translation_status: machine-verified

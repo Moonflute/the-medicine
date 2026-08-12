@@ -13,6 +13,8 @@ related_diseases:
   - "irregular menstrual bleeding"
   - "anovulation"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-unjOyEseustOuwsOuegCAoQ2hyb25pYyBBbm92dWxhdGlvbikubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

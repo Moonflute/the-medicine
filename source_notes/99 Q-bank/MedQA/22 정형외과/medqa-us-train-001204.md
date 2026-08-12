@@ -14,6 +14,8 @@ related_diseases:
   - "hip fracture"
   - "femoral neck fracture"
 question_type: mechanism
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,7 @@ related_diseases:
   - "흡인성 폐농양"
   - "구강 세균 감염"
   - "클린다마이신 치료"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

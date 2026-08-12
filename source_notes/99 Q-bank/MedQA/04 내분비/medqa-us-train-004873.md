@@ -13,6 +13,8 @@ related_diseases:
   - "일차성 부신기능저하증"
   - "애디슨병"
   - "코신트로핀 자극검사"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-u2gOyLoCDquLDriqXsoIDtlZjspp0gKEFkcmVuYWwgSW5zdWZmaWNpZW5jeSkubWQ
 question_type: investigation
 difficulty: complex
 answer: D

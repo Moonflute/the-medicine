@@ -12,6 +12,8 @@ specialty: 16 신경과-신경외과
 related_diseases:
   - "central cord syndrome"
 question_type: investigation
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_spJHsi6wg7LKZ7IiYIOymne2bhOq1sCAoQ2VudHJhbCBjb3JkIHN5bmRyb21lKS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified

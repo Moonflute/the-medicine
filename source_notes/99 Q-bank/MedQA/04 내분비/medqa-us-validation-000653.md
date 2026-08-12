@@ -13,6 +13,9 @@ related_diseases:
   - "쿠싱증후군"
   - "코르티솔 과다"
   - "저칼륨혈증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-y_oOyLsSDspp3tm4TqtbAgKEN1c2hpbmcncyBTeW5kcm9tZSkubWQ
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
 question_type: investigation
 difficulty: standard
 answer: C

@@ -14,6 +14,8 @@ related_diseases:
   - "anembryonic pregnancy"
   - "expectant management"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-u2iOyZhOyghCDsnKDsgrAgKEluY29tcGxldGUgQWJvcnRpb24pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

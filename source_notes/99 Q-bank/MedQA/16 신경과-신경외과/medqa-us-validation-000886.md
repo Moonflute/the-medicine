@@ -14,6 +14,8 @@ related_diseases:
   - "말초성 안면신경마비"
   - "각막 보호"
 question_type: management
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uyqOuniOu5hCAoQmVsbCdzIHBhbHN5KS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

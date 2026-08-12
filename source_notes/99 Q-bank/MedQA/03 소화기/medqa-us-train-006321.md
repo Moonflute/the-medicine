@@ -13,6 +13,8 @@ related_diseases:
   - "유전성 혈색소침착증"
   - "간세포암"
   - "철 과부하"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLjtj6zslZQgKEhlcGF0b2NlbGx1bGFyIENhcmNpbm9tYSkubWQ
 question_type: prognosis
 difficulty: complex
 answer: B

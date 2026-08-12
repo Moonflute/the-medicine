@@ -14,6 +14,8 @@ related_diseases:
   - "무배란"
   - "리스페리돈 유발 고프로락틴혈증"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

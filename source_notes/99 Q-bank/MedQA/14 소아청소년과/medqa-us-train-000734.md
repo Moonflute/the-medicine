@@ -11,7 +11,10 @@ language: ko
 specialty: 14 소아청소년과
 related_diseases:
   - "attention-deficit/hyperactivity disorder"
+  - "Kawasaki disease"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCA7JmA7IKs7YKk67ORIChLYXdhc2FraSBEaXNlYXNlKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

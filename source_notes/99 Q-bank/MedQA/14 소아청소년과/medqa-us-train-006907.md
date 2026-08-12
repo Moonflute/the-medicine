@@ -14,6 +14,7 @@ related_diseases:
   - "정상 발달"
   - "야뇨 관찰"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

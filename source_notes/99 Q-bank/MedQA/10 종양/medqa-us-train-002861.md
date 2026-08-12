@@ -14,6 +14,8 @@ related_diseases:
   - "progressive dysphagia"
   - "weight loss"
   - "tobacco and alcohol risk"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4TslZQgKEVzb3BoYWdlYWwgQ2FuY2VyKS5tZA
 question_type: diagnosis
 difficulty: simple
 answer: C

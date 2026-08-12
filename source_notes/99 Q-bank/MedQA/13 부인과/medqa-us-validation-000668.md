@@ -14,6 +14,9 @@ related_diseases:
   - "무월경"
   - "유즙분비"
 question_type: investigation
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoO2UhOuhnOudve2LtO2YiOymnSAoSHlwZXJwcm9sYWN0aW5lbWlhKS5tZA
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "Peutz-Jeghers syndrome"
   - "hamartomatous polyps"
   - "pancreatic carcinoma"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsIDsiqTtirjrprDsooUgKEdhc3RyaW5vbWEpLm1k
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA
 question_type: prognosis
 difficulty: standard
 answer: C

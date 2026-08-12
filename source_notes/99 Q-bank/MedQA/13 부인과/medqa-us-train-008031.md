@@ -14,6 +14,8 @@ related_diseases:
   - "fibroid uterus"
   - "pelvic pressure"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

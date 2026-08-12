@@ -13,6 +13,8 @@ related_diseases:
   - "캄필로박터 장염"
   - "혈성 설사"
   - "급성 세균성 장염"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-y6hO2VhOuhnOuwle2EsCAoQ2FtcHlsb2JhY3RlcikubWQ
 question_type: diagnosis
 difficulty: simple
 answer: B

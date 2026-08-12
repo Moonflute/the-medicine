@@ -14,6 +14,8 @@ related_diseases:
   - "severe dehydration"
   - "prerenal azotemia"
   - "BUN/creatinine ratio"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzoOyCvO2IrOyVleyEsSDqs6DtmIjri7kg7IOB7YOcIChISFMpIChIeXBlcm9zbW9sYXIgSHlwZXJnbHljZW1pYyBTdGF0ZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

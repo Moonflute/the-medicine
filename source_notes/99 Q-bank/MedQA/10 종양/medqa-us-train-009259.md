@@ -13,6 +13,8 @@ related_diseases:
   - "tumor lysis syndrome"
   - "종양용해증후군"
   - "urate crystals"
+related_disease_slugs:
+  - MTAg7KKF7JaRL-yiheyWkSDsmqntlbQg7Kad7ZuE6rWwIChUdW1vciBMeXNpcyBTeW5kcm9tZSkubWQ
 question_type: investigation
 difficulty: complex
 answer: B

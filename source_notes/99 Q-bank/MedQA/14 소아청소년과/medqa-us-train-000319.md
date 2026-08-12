@@ -12,6 +12,7 @@ specialty: 14 소아청소년과
 related_diseases:
   - "Hereditary fructose intolerance"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

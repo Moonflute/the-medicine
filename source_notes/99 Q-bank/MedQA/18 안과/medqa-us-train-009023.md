@@ -13,7 +13,10 @@ related_diseases:
   - "acute angle-closure glaucoma"
   - "mid-dilated fixed pupil"
   - "corneal edema"
+  - "Acute angle-closure glaucoma"
 question_type: diagnosis
+related_disease_slugs:
+  - MTgg7JWI6rO8L-uFueuCtOyepSAoZ2xhdWNvbWEpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

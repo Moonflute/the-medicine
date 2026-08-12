@@ -13,6 +13,8 @@ related_diseases:
   - "와파린 피부괴사"
   - "단백질 C 결핍"
   - "과응고 상태"
+  - "Protein C deficiency"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: standard
 answer: C

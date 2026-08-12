@@ -14,6 +14,8 @@ related_diseases:
   - "Streptococcus pneumoniae"
   - "inpatient management"
   - "intravenous penicillin"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yngOyXreyCrO2ajCDqsJDsl7wubWQ
 question_type: management
 difficulty: standard
 answer: B

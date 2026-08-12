@@ -14,6 +14,7 @@ related_diseases:
   - "구개열"
   - "신생아 기도 문제"
 question_type: prognosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

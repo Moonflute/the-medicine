@@ -13,6 +13,8 @@ related_diseases:
   - "리델 갑상샘염"
   - "갑상샘저하증"
   - "섬유화 갑상샘염"
+  - "Riedel thyroiditis"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: C

@@ -14,6 +14,9 @@ related_diseases:
   - "alcohol withdrawal syndrome"
   - "delirium tremens"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDquIjri6gg7Kad7ZuE6rWwIChBbGNvaG9sIFdpdGhkcmF3YWwgU3luZHJvbWUpLm1k
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yErOunnSAoRGVsaXJpdW0pLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

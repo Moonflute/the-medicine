@@ -14,6 +14,7 @@ related_diseases:
   - "smoking-related erythrocytosis"
   - "chronic hypoxemia"
   - "phlebotomy"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: D

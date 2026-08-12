@@ -13,6 +13,8 @@ related_diseases:
   - "심근경색 후 이차예방"
   - "메토프롤롤 숙시네이트"
   - "사망률 감소"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwLyjquInsgqzspp3tm4TqtbApLm1k
 question_type: management
 difficulty: complex
 answer: C

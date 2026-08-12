@@ -13,7 +13,9 @@ related_diseases:
   - "경계성 인격장애"
   - "반복 자해"
   - "불안정한 대인관계"
+  - "Borderline personality disorder"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

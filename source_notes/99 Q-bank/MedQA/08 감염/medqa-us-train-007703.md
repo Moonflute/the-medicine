@@ -13,6 +13,8 @@ related_diseases:
   - "cavernous sinus thrombosis"
   - "orbital cellulitis"
   - "ophthalmoplegia"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yXsOyhsOyngeyXvCAoQ2VsbHVsaXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

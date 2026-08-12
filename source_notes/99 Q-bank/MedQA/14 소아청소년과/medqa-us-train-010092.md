@@ -14,6 +14,7 @@ related_diseases:
   - "아동학대"
   - "의료 방임"
 question_type: ethics
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

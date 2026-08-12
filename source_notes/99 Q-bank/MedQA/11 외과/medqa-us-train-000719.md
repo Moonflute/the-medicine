@@ -12,6 +12,9 @@ specialty: 11 외과
 related_diseases:
   - "cirrhosis"
   - "Boerhaave syndrome"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rtYjrpbTtlZjruIwg7Kad7ZuE6rWwIChCb2VyaGFhdmUgU3luZHJvbWUpLm1k
 question_type: mechanism
 difficulty: complex
 answer: D

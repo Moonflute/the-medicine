@@ -13,6 +13,8 @@ related_diseases:
   - "혈관내 용혈"
   - "운동 유발 용혈"
   - "혈색소뇨"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YiOq0gCDrgrQg7Jqp7ZiIIChJbnRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

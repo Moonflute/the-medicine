@@ -13,6 +13,9 @@ related_diseases:
   - "쿠싱병"
   - "ACTH 의존성 쿠싱증후군"
   - "하추체정맥동 채혈"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-y_oOyLseuzkSAoQ3VzaGluZydzIERpc2Vhc2UpLm1k
+  - MDQg64K067aE67mEL-uUtOqzsyDrtoDsi6Dqsonsp4jsnpDqt7ntmLjrpbTrqqwg7Kad7ZuE6rWwIChFY3RvcGljIEFDVEggU3luZHJvbWUpLm1k
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

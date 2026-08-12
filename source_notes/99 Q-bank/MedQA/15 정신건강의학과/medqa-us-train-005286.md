@@ -13,7 +13,10 @@ related_diseases:
   - "망상"
   - "환청"
   - "정신병적 증상에 대한 공감적 반응"
+  - "Schizophrenia"
 question_type: ethics
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

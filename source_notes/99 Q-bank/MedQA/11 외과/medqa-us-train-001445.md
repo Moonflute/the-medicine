@@ -12,6 +12,9 @@ specialty: 11 외과
 related_diseases:
   - "necrotizing fasciitis"
   - "postoperative wound infection"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q0tOyCrOyEsSDqt7zrp4nsl7wgKE5lY3JvdGl6aW5nIEZhc2NpaXRpcykubWQ
+  - MTEg7Jm46rO8L-ywveyDgSDqsJDsl7wgKFdvdW5kIEluZmVjdGlvbikubWQ
 question_type: management
 difficulty: complex
 answer: C

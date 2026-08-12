@@ -15,6 +15,8 @@ related_diseases:
   - "포도주색 모반"
   - "녹내장"
 question_type: association
+related_disease_slugs:
+  - MTgg7JWI6rO8L-uFueuCtOyepSAoZ2xhdWNvbWEpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

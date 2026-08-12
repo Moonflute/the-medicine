@@ -14,6 +14,9 @@ related_diseases:
   - "랄록시펜"
   - "심부정맥혈전증"
 question_type: prognosis
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
+  - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

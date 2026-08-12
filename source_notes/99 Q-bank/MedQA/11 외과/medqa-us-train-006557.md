@@ -13,6 +13,9 @@ related_diseases:
   - "파열 복부대동맥류"
   - "박동성 복부 종괴"
   - "출혈성 쇼크"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uzteu2gCDrjIDrj5nrp6XrpZggKEFiZG9taW5hbCBBb3J0aWMgQW5ldXJ5c20pLm1k
+  - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: diagnosis
 difficulty: standard
 answer: B

@@ -14,6 +14,8 @@ related_diseases:
   - "피나스테리드"
   - "전립선 비대"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-yWkeyEsSDsoITrpr3sg5gg67mE64yA7KadIChCZW5pZ24gUHJvc3RhdGljIEh5cGVycGxhc2lhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

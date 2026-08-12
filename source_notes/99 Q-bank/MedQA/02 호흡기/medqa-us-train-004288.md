@@ -13,6 +13,8 @@ related_diseases:
   - "석면 노출"
   - "흉막판"
   - "기관지성 폐암"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 question_type: 임상증례 객관식
 difficulty: standard
 answer: D

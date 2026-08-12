@@ -13,6 +13,8 @@ related_diseases:
   - "유당불내증"
   - "수소 호기 검사"
   - "락타아제 결핍"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jyg64u5IOu2iOuCtOymnSAoTGFjdG9zZSBJbnRvbGVyYW5jZSkubWQ
 question_type: investigation
 difficulty: simple
 answer: B

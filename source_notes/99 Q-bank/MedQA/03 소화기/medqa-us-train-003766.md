@@ -14,6 +14,8 @@ related_diseases:
   - "colorectal cancer screening"
   - "weight loss alarm symptom"
   - "colonoscopy"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

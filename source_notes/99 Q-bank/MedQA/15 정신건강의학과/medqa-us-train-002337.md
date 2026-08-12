@@ -15,6 +15,8 @@ related_diseases:
   - "bigeminy"
   - "medical instability"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEseyLneyaleu2gOynhOymnSAoQW5vcmV4aWEgTmVydm9zYSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

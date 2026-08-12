@@ -13,6 +13,8 @@ related_diseases:
   - "수술 후 저칼슘혈증"
   - "부갑상샘저하증"
   - "부갑상샘 절제"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yggOy5vOyKmO2YiOymnSAoSHlwb2NhbGNlbWlhKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: A

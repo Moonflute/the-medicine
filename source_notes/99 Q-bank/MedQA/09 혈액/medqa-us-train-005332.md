@@ -13,6 +13,7 @@ related_diseases:
   - "혈우병 A"
   - "관절강내 출혈"
   - "제8응고인자 결핍"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: standard
 answer: A

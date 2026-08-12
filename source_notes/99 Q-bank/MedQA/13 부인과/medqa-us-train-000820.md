@@ -11,7 +11,10 @@ language: ko
 specialty: 13 부인과
 related_diseases:
   - "premature ovarian insufficiency"
+  - "polycystic ovary syndrome"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

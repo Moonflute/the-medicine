@@ -13,6 +13,8 @@ related_diseases:
   - "울혈성 심부전 악화"
   - "이뇨제 치료"
   - "신기능 평가"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 question_type: investigation
 difficulty: standard
 answer: A

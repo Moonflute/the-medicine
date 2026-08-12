@@ -13,6 +13,8 @@ related_diseases:
   - "급성 두드러기"
   - "약물 과민반응"
   - "H1 및 H2 차단제"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-uRkOuTnOufrOq4sCAoVXJ0aWNhcmlhKS5tZA
 question_type: management
 difficulty: standard
 answer: B

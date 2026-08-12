@@ -13,6 +13,8 @@ related_diseases:
   - "폰빌레브란트병"
   - "과다월경"
   - "부분트롬보플라스틴시간"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2PsCDruYzroIjruIzrnoDtirjrs5EgKHZvbiBXaWxsZWJyYW5kIERpc2Vhc2UsIHZXRCkubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

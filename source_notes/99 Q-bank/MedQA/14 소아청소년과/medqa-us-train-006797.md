@@ -14,6 +14,8 @@ related_diseases:
   - "부신 종괴"
   - "눈 주위 반상출혈"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug6rK966qo7IS47Y-s7KKFIChOZXVyb2JsYXN0b21hKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

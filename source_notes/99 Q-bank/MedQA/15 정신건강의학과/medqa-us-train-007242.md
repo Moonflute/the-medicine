@@ -14,7 +14,9 @@ related_diseases:
   - "항정신병약 유발 사경"
   - "디펜히드라민"
   - "추체외로 부작용"
+  - "Acute dystonia"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

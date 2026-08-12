@@ -15,6 +15,8 @@ related_diseases:
   - "말초 에스트로겐 생성"
   - "무월경"
 question_type: mechanism
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

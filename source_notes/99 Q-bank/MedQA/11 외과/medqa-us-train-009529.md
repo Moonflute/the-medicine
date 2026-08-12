@@ -13,6 +13,8 @@ related_diseases:
   - "necrotizing fasciitis"
   - "괴사성 근막염"
   - "surgical exploration"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-q0tOyCrOyEsSDqt7zrp4nsl7wgKE5lY3JvdGl6aW5nIEZhc2NpaXRpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: C

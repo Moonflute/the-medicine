@@ -13,6 +13,8 @@ related_diseases:
   - "microinvasive cervical cancer"
   - "cervical carcinoma in pregnancy"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA
 difficulty: standard
 answer: A
 translation_status: machine-verified

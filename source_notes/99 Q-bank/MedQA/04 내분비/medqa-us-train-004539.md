@@ -13,6 +13,8 @@ related_diseases:
   - "독성 선종"
   - "TSH 수용체 기능획득 돌연변이"
   - "갑상샘기능항진증"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
 question_type: mechanism
 difficulty: complex
 answer: B

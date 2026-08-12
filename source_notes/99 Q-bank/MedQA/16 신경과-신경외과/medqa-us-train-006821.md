@@ -14,6 +14,8 @@ related_diseases:
   - "치매"
   - "뇌 MRI"
 question_type: investigation
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

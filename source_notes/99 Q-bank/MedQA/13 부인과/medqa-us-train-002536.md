@@ -14,6 +14,8 @@ related_diseases:
   - "anti-Ro/SSA antibodies"
   - "congenital heart block"
 question_type: risk_factor
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yHvOq3uOugjCDspp3tm4TqtbAgKFNqw7ZncmVuJ3MgU3luZHJvbWUpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

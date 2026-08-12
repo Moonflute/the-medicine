@@ -13,6 +13,8 @@ related_diseases:
   - "대동맥 박리"
   - "급성 흉통"
   - "경식도 심초음파"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
 question_type: investigation
 difficulty: complex
 answer: D

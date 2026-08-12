@@ -14,6 +14,7 @@ related_diseases:
   - "클라미디아"
   - "임균"
 question_type: prevention
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

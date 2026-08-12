@@ -13,7 +13,9 @@ related_diseases:
   - "신생아 파상풍"
   - "Clostridium tetani"
   - "근긴장 증가"
+  - "Neonatal tetanus"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

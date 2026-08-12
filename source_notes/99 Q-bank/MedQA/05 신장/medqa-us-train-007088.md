@@ -14,6 +14,7 @@ related_diseases:
   - "신전성 질소혈증"
   - "탈수"
   - "설사"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: A

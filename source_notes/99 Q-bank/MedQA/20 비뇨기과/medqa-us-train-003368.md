@@ -15,6 +15,9 @@ related_diseases:
   - "retroperitoneal mass"
   - "abdominal CT"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-uNqeq1tOygleunpeulmCAoVmFyaWNvY2VsZSkubWQ
+  - MjAg67mE64eo6riw6rO8L-y9qe2MpeyVlCAoUmVuYWwgQ2VsbCBDYXJjaW5vbWEpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

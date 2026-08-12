@@ -13,6 +13,8 @@ related_diseases:
   - "호지킨 림프종"
   - "Reed-Sternberg 세포"
   - "초기 병기"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-2YuOyngO2CqCDrprztlITsooUgKEhvZGdraW4gTHltcGhvbWEpLm1k
 question_type: prognosis
 difficulty: complex
 answer: A

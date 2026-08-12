@@ -14,6 +14,8 @@ related_diseases:
   - "airway protection"
   - "lung cancer"
 question_type: management
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

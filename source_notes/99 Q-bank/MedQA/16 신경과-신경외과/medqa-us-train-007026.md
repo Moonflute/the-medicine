@@ -14,7 +14,10 @@ related_diseases:
   - "안정시 떨림"
   - "서동증"
   - "트리헥시페니딜"
+  - "Essential tremor"
 question_type: management
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rs7jtg5zshLEg65ao66a8IChFc3NlbnRpYWwgdHJlbW9yKS5tZA
 difficulty: standard
 answer: B
 translation_status: machine-verified

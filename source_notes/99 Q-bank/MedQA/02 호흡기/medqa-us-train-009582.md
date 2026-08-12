@@ -13,6 +13,9 @@ related_diseases:
   - "transfusion-related acute lung injury"
   - "수혈관련 급성 폐손상"
   - "acute respiratory distress syndrome"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-yImO2YiCDqtIDroKgg6riJ7ISxIO2PkCDshpDsg4EgKFRyYW5zZnVzaW9uLVJlbGF0ZWQgQWN1dGUgTHVuZyBJbmp1cnkpLm1k
+  - MDIg7Zi47Z2h6riwL-q4ieyEsSDtmLjtnaHqs6TrnoAg7Kad7ZuE6rWwIChBUkRTKSAoQWN1dGUgUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k
 question_type: mechanism
 difficulty: complex
 answer: C

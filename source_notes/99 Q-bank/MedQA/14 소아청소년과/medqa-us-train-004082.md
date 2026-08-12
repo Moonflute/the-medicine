@@ -14,6 +14,7 @@ related_diseases:
   - "증상성 고점도 증후군"
   - "부분 교환수혈"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

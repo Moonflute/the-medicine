@@ -13,6 +13,8 @@ related_diseases:
   - "lung cancer screening"
   - "low-dose CT"
   - "former smoker"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 question_type: prevention
 difficulty: complex
 answer: C

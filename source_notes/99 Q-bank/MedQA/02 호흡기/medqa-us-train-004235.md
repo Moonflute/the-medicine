@@ -13,6 +13,8 @@ related_diseases:
   - "작은 자발성 기흉"
   - "무증상 기흉"
   - "흉부 X선 추적"
+  - "pneumothorax"
+related_disease_slugs: []
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

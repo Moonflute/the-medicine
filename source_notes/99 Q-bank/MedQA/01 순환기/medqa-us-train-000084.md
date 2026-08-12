@@ -13,6 +13,9 @@ related_diseases:
   - "asthma"
   - "hypertension"
   - "anxiety"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: management
 difficulty: complex
 answer: C

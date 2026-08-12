@@ -14,6 +14,8 @@ related_diseases:
   - "자궁경부 운동통"
   - "성매개 감염"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

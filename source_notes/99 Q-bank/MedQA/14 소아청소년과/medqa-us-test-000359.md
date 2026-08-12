@@ -13,7 +13,9 @@ related_diseases:
   - "유아 팔꿈치 아탈구"
   - "간호사 팔꿈치"
   - "요골두 아탈구"
+  - "nursemaid elbow"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "Bartonella henselae"
   - "regional cervical lymphadenitis"
   - "cat scratch"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-usmOyGjOuzkSAoQ2F0IFNjcmF0Y2ggRGlzZWFzZSkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

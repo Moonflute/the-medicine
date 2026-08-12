@@ -13,6 +13,8 @@ related_diseases:
   - "급성 전골수구성 백혈병"
   - "t(15;17) 전좌"
   - "좋은 예후 인자"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDsoITqs6jsiJjshLEg67Cx7ZiI67ORIChBUEwgTTMpIChBY3V0ZSBQcm9teWVsb2N5dGljIExldWtlbWlhKS5tZA
 question_type: prognosis
 difficulty: standard
 answer: D

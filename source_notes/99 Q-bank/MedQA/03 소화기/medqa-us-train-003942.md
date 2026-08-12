@@ -14,6 +14,8 @@ related_diseases:
   - "esophageal rupture"
   - "pneumomediastinum"
   - "contrast-enhanced chest CT"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rtYjrpbTtlZjruIwg7Kad7ZuE6rWwIChCb2VyaGFhdmUgU3luZHJvbWUpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -13,6 +13,8 @@ related_diseases:
   - "겸상적혈구병"
   - "글로빈 사슬 구조 이상"
   - "손발 증후군"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: mechanism
 difficulty: standard
 answer: C

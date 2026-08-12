@@ -13,6 +13,8 @@ related_diseases:
   - "E형간염"
   - "임신 중 급성 간부전"
   - "바이러스성 간염"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: D

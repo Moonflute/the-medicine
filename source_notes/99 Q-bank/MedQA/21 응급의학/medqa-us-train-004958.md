@@ -14,6 +14,8 @@ related_diseases:
   - "조영제 과민반응"
   - "에피네프린"
 question_type: management
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

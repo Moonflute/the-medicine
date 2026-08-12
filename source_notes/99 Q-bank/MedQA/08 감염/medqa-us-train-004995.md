@@ -13,6 +13,9 @@ related_diseases:
   - "패혈성 관절염"
   - "면역저하"
   - "황색포도상구균 관절 감염"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
+  - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 question_type: management
 difficulty: complex
 answer: C

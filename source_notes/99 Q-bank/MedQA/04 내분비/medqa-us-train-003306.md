@@ -14,6 +14,8 @@ related_diseases:
   - "nonfunctioning pituitary adenoma"
   - "hypogonadism"
   - "erectile dysfunction"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uHjO2VmOyImOyytCDsg5jsooUgKFBpdHVpdGFyeSBBZGVub21hKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

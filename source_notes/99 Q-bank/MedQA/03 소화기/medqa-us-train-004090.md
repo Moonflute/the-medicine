@@ -13,6 +13,8 @@ related_diseases:
   - "크론병"
   - "소장 협착"
   - "협착성형술"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k
 question_type: 임상증례 객관식
 difficulty: complex
 answer: B

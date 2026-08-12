@@ -14,6 +14,8 @@ related_diseases:
   - "cherry-red spot"
   - "acute monocular vision loss"
 question_type: diagnosis
+related_disease_slugs:
+  - MTgg7JWI6rO8L-unneunieykkeyLrOuPmeunpe2PkOyHhCAoY2VudHJhbCByZXRpbmFsIGFydGVyeSBvY2NsdXNpb24pLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

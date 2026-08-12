@@ -13,6 +13,8 @@ related_diseases:
   - "크론병"
   - "비건락성 육아종"
   - "말단 회장 및 대장 침범"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: D

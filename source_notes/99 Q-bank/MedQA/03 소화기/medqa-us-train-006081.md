@@ -13,6 +13,8 @@ related_diseases:
   - "자가면역 간염"
   - "항평활근 항체"
   - "문맥 주위 조각괴사"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDqsIDrqbTsl60g6rCE7Je8IChBdXRvaW1tdW5lIEhlcGF0aXRpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "acute gout"
   - "monosodium urate crystals"
   - "gouty arthritis"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

@@ -13,6 +13,9 @@ related_diseases:
   - "전신경화증"
   - "경피증 신장위기"
   - "미세혈관병성 용혈성 빈혈"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDqsr3tmZTspp0gKFN5c3RlbWljIFNjbGVyb3NpcykubWQ
+  - MDkg7ZiI7JWhL-uvuOyEuO2YiOq0gOuzkeyEsSDsmqntmIgg67mI7ZiIIChNaWNyb2FuZ2lvcGF0aGljIEhlbW9seXRpYyBBbmVtaWEsIE1BSEEpLm1k
 question_type: association
 difficulty: complex
 answer: B

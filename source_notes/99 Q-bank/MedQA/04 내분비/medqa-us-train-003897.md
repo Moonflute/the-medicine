@@ -14,6 +14,9 @@ related_diseases:
   - "primary hyperaldosteronism"
   - "hypokalemia"
   - "eplerenone"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-yVjOuPhOyKpO2FjOuhoOymnSAoQWxkb3N0ZXJvbmlzbSkubWQ
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
 question_type: prevention
 difficulty: complex
 answer: A

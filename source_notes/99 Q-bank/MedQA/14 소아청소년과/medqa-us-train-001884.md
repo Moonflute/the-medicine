@@ -14,6 +14,9 @@ related_diseases:
   - "asthma risk"
   - "reactive airway disease"
 question_type: prognosis
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM7JWEIOq4sOq0gOyngCDsspzsi50gKFBlZGlhdHJpYyBBc3RobWEpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

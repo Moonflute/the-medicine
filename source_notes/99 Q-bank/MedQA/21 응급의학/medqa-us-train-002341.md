@@ -14,6 +14,7 @@ related_diseases:
   - "hemodynamically stable gunshot wound"
   - "abdominal CT"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

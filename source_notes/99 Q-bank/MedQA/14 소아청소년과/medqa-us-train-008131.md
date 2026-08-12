@@ -14,6 +14,9 @@ related_diseases:
   - "focal seizure"
   - "epilepsy risk"
 question_type: prognosis
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsoITspp0gKEVwaWxlcHN5KS5tZA
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rsJzsnpEgKFNlaXp1cmUpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

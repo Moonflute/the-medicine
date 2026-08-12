@@ -13,6 +13,8 @@ related_diseases:
   - "변이형 협심증"
   - "프린츠메탈 협심증"
   - "관상동맥 경련"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uzgOydtO2YlSDtmJHsi6zspp0gKFZhcmlhbnQgQW5naW5hKS5tZA
 question_type: management
 difficulty: simple
 answer: C

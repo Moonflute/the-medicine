@@ -14,6 +14,8 @@ related_diseases:
   - "사지 허혈"
   - "외상성 근육 손상"
 question_type: management
+related_disease_slugs:
+  - MTEg7Jm46rO8L-uzteqwlSDqtaztmo0g7Kad7ZuE6rWwIChBYmRvbWluYWwgQ29tcGFydG1lbnQgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

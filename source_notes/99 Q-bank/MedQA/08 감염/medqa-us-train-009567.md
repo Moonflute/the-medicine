@@ -13,6 +13,8 @@ related_diseases:
   - "Campylobacter jejuni"
   - "캄필로박터 제주니"
   - "bloody diarrhea"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-y6hO2VhOuhnOuwle2EsCAoQ2FtcHlsb2JhY3RlcikubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

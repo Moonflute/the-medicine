@@ -12,6 +12,7 @@ specialty: 01 순환기
 related_diseases:
   - "high blood pressure"
   - "angioedema"
+related_disease_slugs: []
 question_type: management
 difficulty: simple
 answer: D

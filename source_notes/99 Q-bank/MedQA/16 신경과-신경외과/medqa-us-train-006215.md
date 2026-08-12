@@ -13,7 +13,9 @@ related_diseases:
   - "베르니케 뇌병증"
   - "티아민 결핍"
   - "안구운동 이상과 운동실조"
+  - "Wernicke encephalopathy"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

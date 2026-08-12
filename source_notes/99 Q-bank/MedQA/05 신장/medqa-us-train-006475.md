@@ -13,6 +13,8 @@ related_diseases:
   - "만성 신장질환 빈혈"
   - "에리트로포이에틴 치료"
   - "치료 관련 고혈압"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDsp4jtmZgg67mI7ZiIIChBbmVtaWEgb2YgQ2hyb25pYyBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: complex
 answer: A

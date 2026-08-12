@@ -13,6 +13,8 @@ related_diseases:
   - "심실중격결손"
   - "선천성 심장병"
   - "범수축기 잡음"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius7IukIOykkeqyqSDqsrDshpAgKFZlbnRyaWN1bGFyIFNlcHRhbCBEZWZlY3QpLm1k
 question_type: diagnosis
 difficulty: standard
 answer: B

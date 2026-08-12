@@ -13,6 +13,7 @@ related_diseases:
   - "pleural empyema"
   - "retained hemothorax"
   - "post-traumatic infection"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: C

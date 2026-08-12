@@ -13,6 +13,9 @@ related_diseases:
   - "중추성 성조숙증"
   - "GnRH 자극검사"
   - "류프로라이드"
+  - "Central precocious puberty"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7KGw7IiZ7KadIChTZXh1YWwgUHJlY29jaW91c25lc3MpLm1k
 question_type: management
 difficulty: simple
 answer: A

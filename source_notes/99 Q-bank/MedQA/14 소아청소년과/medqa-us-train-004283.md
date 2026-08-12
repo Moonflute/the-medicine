@@ -14,6 +14,7 @@ related_diseases:
   - "손 비비기"
   - "발달 퇴행"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "median neuropathy"
   - "nerve conduction study"
 question_type: investigation
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

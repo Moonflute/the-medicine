@@ -13,7 +13,9 @@ related_diseases:
   - "분만 진행 정지"
   - "활동성 진통"
   - "양막 파수"
+  - "Arrest of labor"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

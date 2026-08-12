@@ -14,6 +14,8 @@ related_diseases:
   - "aortic regurgitation"
   - "transthoracic echocardiography"
   - "cardiac auscultation"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDsl63rpZggKEFvcnRpYyBSZWd1cmdpdGF0aW9uKS5tZA
 question_type: management
 difficulty: standard
 answer: C

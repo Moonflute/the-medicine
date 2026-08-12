@@ -13,6 +13,8 @@ related_diseases:
   - "용혈성 요독 증후군"
   - "시가 독소"
   - "분열적혈구"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-yaqe2YiOyEsSDsmpTrj4Ug7Kad7ZuE6rWwIChIZW1vbHl0aWMgVXJlbWljIFN5bmRyb21lLCBIVVMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: C

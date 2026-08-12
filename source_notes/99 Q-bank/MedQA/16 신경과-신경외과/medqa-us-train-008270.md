@@ -14,6 +14,8 @@ related_diseases:
   - "episodic cluster headache"
   - "verapamil prophylaxis"
 question_type: prevention
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qtbDrsJzrkZDthrUgKENsdXN0ZXIgaGVhZGFjaGUpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

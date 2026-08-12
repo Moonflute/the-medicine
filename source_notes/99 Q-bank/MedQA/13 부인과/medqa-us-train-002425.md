@@ -13,7 +13,9 @@ related_diseases:
   - "rectocele"
   - "pelvic organ prolapse"
   - "rectovaginal fascia"
+  - "Rectocele"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

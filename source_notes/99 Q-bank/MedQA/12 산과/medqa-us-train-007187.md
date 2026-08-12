@@ -15,6 +15,8 @@ related_diseases:
   - "자궁경부 길이"
   - "질식 초음파"
 question_type: investigation
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geqyveu2gCDrrLTroKXspp0gKEluY29tcGV0ZW50IEludGVybmFsIE9zIG9mIENlcnZpeCkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

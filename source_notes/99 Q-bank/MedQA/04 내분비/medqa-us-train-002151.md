@@ -13,6 +13,8 @@ related_diseases:
   - "familial hypocalciuric hypercalcemia"
   - "calcium-sensing receptor"
   - "hypocalciuria"
+  - "Familial hypocalciuric hypercalcemia"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

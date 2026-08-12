@@ -13,6 +13,9 @@ related_diseases:
   - "혈전성 혈소판감소성 자반증"
   - "미세혈관병성 용혈성 빈혈"
   - "임신 합병증"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uvuOyEuO2YiOq0gOuzkeyEsSDsmqntmIgg67mI7ZiIIChNaWNyb2FuZ2lvcGF0aGljIEhlbW9seXRpYyBBbmVtaWEsIE1BSEEpLm1k
+  - MDkg7ZiI7JWhL-2YiOyghOyEsSDtmIjshoztjJDqsJDshowg7J6Q7IOJ67CYIChUaHJvbWJvdGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgVFRQKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

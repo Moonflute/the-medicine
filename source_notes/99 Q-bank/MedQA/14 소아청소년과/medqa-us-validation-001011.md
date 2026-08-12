@@ -14,6 +14,9 @@ related_diseases:
   - "조절되지 않는 발작"
   - "다운증후군"
 question_type: prevention
+related_disease_slugs:
+  - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv64uk7Jq0IOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

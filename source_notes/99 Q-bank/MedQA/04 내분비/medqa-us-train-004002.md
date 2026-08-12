@@ -13,6 +13,8 @@ related_diseases:
   - "중증 저칼륨혈증"
   - "저염소성 대사성 알칼리증"
   - "체액량 감소"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
 question_type: 임상증례 객관식
 difficulty: complex
 answer: C

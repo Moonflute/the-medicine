@@ -14,6 +14,8 @@ related_diseases:
   - "Tdap"
   - "influenza vaccine"
 question_type: prevention
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yduO2UjOujqOyXlOyekCAoSW5mbHVlbnphKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

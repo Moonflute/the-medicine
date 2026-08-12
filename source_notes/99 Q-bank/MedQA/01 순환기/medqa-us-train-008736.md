@@ -13,6 +13,8 @@ related_diseases:
   - "statin adverse effect"
   - "transaminase elevation"
   - "stable angina"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-yViOyglSDtmJHsi6zspp0gKFN0YWJsZSBBbmdpbmEpLm1k
 question_type: prognosis
 difficulty: complex
 answer: B

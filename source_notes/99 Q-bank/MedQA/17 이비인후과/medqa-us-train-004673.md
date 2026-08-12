@@ -14,6 +14,7 @@ related_diseases:
   - "두개저 골수염"
   - "당뇨병성 외이도염"
 question_type: management
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

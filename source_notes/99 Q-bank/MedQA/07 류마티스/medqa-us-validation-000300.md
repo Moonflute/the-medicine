@@ -13,6 +13,8 @@ related_diseases:
   - "류마티스관절염"
   - "메토트렉세이트"
   - "메토트렉세이트 유발 폐렴"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
 question_type: management
 difficulty: complex
 answer: C

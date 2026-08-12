@@ -13,6 +13,9 @@ related_diseases:
   - "primary hypothyroidism"
   - "kidney cyst"
   - "hypertension"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
+  - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: B

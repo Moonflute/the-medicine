@@ -12,6 +12,9 @@ specialty: 09 혈액
 related_diseases:
   - "acute promyelocytic leukemia"
   - "disseminated intravascular coagulation"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-q4ieyEsSDsoITqs6jsiJjshLEg67Cx7ZiI67ORIChBUEwgTTMpIChBY3V0ZSBQcm9teWVsb2N5dGljIExldWtlbWlhKS5tZA
+  - MDkg7ZiI7JWhL-2MjOyihSDtmIjqtIDrgrQg7J2R6rOgIChEaXNzZW1pbmF0ZWQgSW50cmF2YXNjdWxhciBDb2FndWxhdGlvbiwgRElDKS5tZA
 question_type: management
 difficulty: complex
 answer: A

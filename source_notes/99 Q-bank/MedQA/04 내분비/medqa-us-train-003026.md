@@ -14,6 +14,8 @@ related_diseases:
   - "alcohol use disorder"
   - "prolonged QT interval"
   - "malnutrition"
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ
 question_type: adverse_effect
 difficulty: simple
 answer: C

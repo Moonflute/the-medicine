@@ -13,6 +13,9 @@ related_diseases:
   - "full-thickness burn"
   - "전층 화상"
   - "burn excision and grafting"
+  - "Burn"
+related_disease_slugs:
+  - MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ
 question_type: management
 difficulty: standard
 answer: C

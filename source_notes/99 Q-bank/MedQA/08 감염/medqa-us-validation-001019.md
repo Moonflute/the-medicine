@@ -13,6 +13,8 @@ related_diseases:
   - "클로스트리디오이데스 디피실 감염"
   - "항생제 관련 설사"
   - "글루타메이트 탈수소효소"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-qxsOynk-uniSDqsrDsnqXsl7wgKFBzZXVkb21lbWJyYW5vdXMgQ29saXRpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: C

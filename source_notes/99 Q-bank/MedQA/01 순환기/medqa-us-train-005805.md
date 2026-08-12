@@ -13,6 +13,8 @@ related_diseases:
   - "휴일 심장 증후군"
   - "발작성 심방세동"
   - "알코올 유발 부정맥"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-u2gOygleunpS5tZA
 question_type: management
 difficulty: complex
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "소아 천식"
   - "기도 과민반응"
   - "알레르겐 유발 기관지수축"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: mechanism
 difficulty: complex
 answer: D

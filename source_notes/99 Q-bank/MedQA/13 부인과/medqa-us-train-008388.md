@@ -12,7 +12,10 @@ specialty: 13 부인과
 related_diseases:
   - "vaginismus"
   - "genito-pelvic pain/penetration disorder"
+  - "Anxiety disorder"
 question_type: other
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOyViCDsnqXslaAgKEFueGlldHkgRGlzb3JkZXJzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

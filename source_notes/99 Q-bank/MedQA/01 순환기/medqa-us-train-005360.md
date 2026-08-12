@@ -13,6 +13,9 @@ related_diseases:
   - "심근경색 후 좌심실 재형성"
   - "심부전 예방"
   - "ACE 억제제"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwLyjquInsgqzspp3tm4TqtbApLm1k
+  - MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDqsJDshowpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBSZWR1Y2VkIEVqZWN0aW9uIEZyYWN0aW9uIChIRnJFRikpLm1k
 question_type: prevention
 difficulty: complex
 answer: C

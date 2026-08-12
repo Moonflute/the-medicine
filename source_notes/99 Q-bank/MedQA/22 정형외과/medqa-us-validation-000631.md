@@ -14,6 +14,7 @@ related_diseases:
   - "청색 공막"
   - "벌집뼈"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

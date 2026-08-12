@@ -13,6 +13,8 @@ related_diseases:
   - "심장 타박상"
   - "둔상"
   - "트로포닌 상승"
+  - "cardiac contusion"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: A

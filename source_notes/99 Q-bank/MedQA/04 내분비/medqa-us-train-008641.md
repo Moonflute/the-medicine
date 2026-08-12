@@ -13,6 +13,8 @@ related_diseases:
   - "post-thyroidectomy hypocalcemia"
   - "hypoparathyroidism"
   - "parathyroid hormone cAMP signaling"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG9wYXJhdGh5cm9pZGlzbSkubWQ
 question_type: mechanism
 difficulty: simple
 answer: B

@@ -15,6 +15,9 @@ related_diseases:
   - "sexual dysfunction"
   - "smoking cessation"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yEseyaleyepeyVoCAoU2V4dWFsIERlc2lyZSBEaXNvcmRlcikubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

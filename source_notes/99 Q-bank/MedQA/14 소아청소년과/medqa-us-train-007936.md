@@ -14,6 +14,8 @@ related_diseases:
   - "vitamin K"
   - "ophthalmia neonatorum prevention"
 question_type: prevention
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEsg6rKw7ZWN7KadIChWaXRhbWluIEsgRGVmaWNpZW5jeSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

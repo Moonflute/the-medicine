@@ -13,6 +13,9 @@ related_diseases:
   - "hemolytic uremic syndrome"
   - "acute kidney injury"
   - "hemodialysis"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jqp7ZiI7ISxIOyalOuPhSDspp3tm4TqtbAgKEhlbW9seXRpYyBVcmVtaWMgU3luZHJvbWUpLm1k
+  - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 question_type: management
 difficulty: complex
 answer: D

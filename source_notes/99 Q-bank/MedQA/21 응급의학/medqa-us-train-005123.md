@@ -14,6 +14,7 @@ related_diseases:
   - "두개내 출혈"
   - "외상 후 두부 CT"
 question_type: investigation
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

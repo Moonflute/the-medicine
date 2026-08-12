@@ -11,6 +11,9 @@ language: ko
 specialty: 02 호흡기
 related_diseases:
   - "moderate persistent asthma"
+  - "asthma"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: D

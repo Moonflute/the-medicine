@@ -13,6 +13,9 @@ related_diseases:
   - "diffuse large B-cell lymphoma"
   - "CD20"
   - "high-grade non-Hodgkin lymphoma"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-uyhO2CtyDsnKDsgqwg66-466eM7ISxIOqxsOuMgCBC7IS47Y-sIOumvO2UhOyihSAoQnVya2l0dC1saWtlIERpZmZ1c2UgTGFyZ2UgQi1jZWxsIEx5bXBob21hKS5tZA
+  - MDkg7ZiI7JWhL-u5hO2YuOyngO2CqCDrprztlITsooUgKE5vbi1Ib2Rna2luIEx5bXBob21hKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

@@ -13,6 +13,8 @@ related_diseases:
   - "가족성 대장암 위험"
   - "조기 대장암 선별검사"
   - "대장내시경"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
 question_type: prevention
 difficulty: standard
 answer: A

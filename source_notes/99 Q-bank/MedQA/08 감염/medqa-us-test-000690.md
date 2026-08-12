@@ -13,6 +13,8 @@ related_diseases:
   - "잠복 매독"
   - "HIV 감염"
   - "후기 잠복 매독 치료"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 question_type: management
 difficulty: standard
 answer: C

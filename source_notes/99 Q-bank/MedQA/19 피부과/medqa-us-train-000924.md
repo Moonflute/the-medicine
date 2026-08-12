@@ -13,6 +13,8 @@ related_diseases:
   - "allergic contact dermatitis"
   - "rhus dermatitis"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-ygkey0ie2UvOu2gOyXvCAoQ29udGFjdCBEZXJtYXRpdGlzKS5tZA
 difficulty: simple
 answer: B
 translation_status: machine-verified

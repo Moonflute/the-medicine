@@ -14,6 +14,8 @@ related_diseases:
   - "statin therapy"
   - "HMG-CoA reductase inhibition"
   - "diabetes cardiovascular risk"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qwgOyhseyEsSDqs6DsvZzroIjsiqTthYzroaTtmIjspp0gKEZhbWlsaWFsIEh5cGVyY2hvbGVzdGVyb2xlbWlhKS5tZA
 question_type: mechanism
 difficulty: complex
 answer: C

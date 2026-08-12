@@ -13,6 +13,7 @@ related_diseases:
   - "겸상적혈구병 급성흉부증후군"
   - "폐렴구균 백신"
   - "겸상적혈구 예방관리"
+related_disease_slugs: []
 question_type: prevention
 difficulty: complex
 answer: B

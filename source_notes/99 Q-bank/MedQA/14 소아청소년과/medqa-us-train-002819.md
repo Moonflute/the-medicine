@@ -15,6 +15,9 @@ related_diseases:
   - "pediatric abdominal mass"
   - "renal tumor"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JyM66aE7Iqk7KKF7JaRIChXaWxtcyBUdW1vcikubWQ
+  - MDQg64K067aE67mEL-u2gOyLoCDsooXslpEgKEFkcmVuYWwgVHVtb3IpLm1k
 difficulty: standard
 answer: B
 translation_status: machine-verified

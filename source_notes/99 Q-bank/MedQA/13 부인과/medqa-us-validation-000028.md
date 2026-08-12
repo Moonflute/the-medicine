@@ -14,6 +14,8 @@ related_diseases:
   - "고성선자극성 성선기능저하증"
   - "터너 증후군"
 question_type: investigation
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YSw64SIIOymne2bhOq1sCAoVHVybmVyIFN5bmRyb21lKS5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified

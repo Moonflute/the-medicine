@@ -13,7 +13,9 @@ related_diseases:
   - "수술 후 요폐"
   - "방광 스캔"
   - "도뇨관"
+  - "Postoperative urinary retention"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified

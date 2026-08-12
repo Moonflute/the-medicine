@@ -14,6 +14,8 @@ related_diseases:
   - "급성 관절 감염"
   - "무릎 관절염"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ZmU64aN7ISxIOq0gOygiOyXvCAoU3VwcHVyYXRpdmUgQXJ0aHJpdGlzKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

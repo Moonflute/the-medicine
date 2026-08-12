@@ -13,6 +13,9 @@ related_diseases:
   - "granulomatosis with polyangiitis"
   - "ANCA-associated vasculitis"
   - "rapidly progressive glomerulonephritis"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyGjSDsp4Ttlokg7Yag66as7L2p7Yyl7Je8IChSYXBpZGx5IFByb2dyZXNzaXZlIEdsb21lcnVsb25lcGhyaXRpcykubWQ
+  - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: C

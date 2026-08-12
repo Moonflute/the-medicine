@@ -13,7 +13,9 @@ related_diseases:
   - "알코올성 소뇌 변성"
   - "소뇌성 운동실조"
   - "만성 알코올 사용"
+  - "Alcoholic cerebellar degeneration"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

@@ -13,6 +13,9 @@ related_diseases:
   - "응급 수술"
   - "묵시적 동의"
   - "장폐색"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snqXtj5Dsg4kubWQ
+  - MTEg7Jm46rO8L-yepSDtj5Dsg4kgKEJvd2VsIE9ic3RydWN0aW9uKS5tZA
 question_type: ethics
 difficulty: standard
 answer: C

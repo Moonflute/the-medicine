@@ -14,7 +14,10 @@ related_diseases:
   - "maternal viral load"
   - "neonatal zidovudine"
   - "HIV transmission prevention"
+  - "HIV infection"
 question_type: prevention
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

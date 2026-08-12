@@ -14,6 +14,8 @@ related_diseases:
   - "공통 방실판막"
   - "좌축편위"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cp7IukIOykkeqyqSDqsrDshpAgKEF0cmlvdmVudHJpY3VsYXIgU2VwdGFsIERlZmVjdCkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

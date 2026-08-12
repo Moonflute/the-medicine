@@ -13,6 +13,7 @@ related_diseases:
   - "파제트 골질환"
   - "고알칼리성 인산분해효소혈증"
   - "졸레드론산"
+related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: C

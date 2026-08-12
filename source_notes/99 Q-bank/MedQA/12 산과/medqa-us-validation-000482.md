@@ -14,6 +14,8 @@ related_diseases:
   - "복강내 출혈"
   - "혈역학적 불안정"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

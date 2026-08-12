@@ -13,6 +13,8 @@ related_diseases:
   - "small bowel obstruction"
   - "adhesive obstruction"
   - "nasogastric decompression"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shozsnqUg7Y-Q7IeEIChTbWFsbCBCb3dlbCBPYnN0cnVjdGlvbikubWQ
 question_type: management
 difficulty: complex
 answer: C

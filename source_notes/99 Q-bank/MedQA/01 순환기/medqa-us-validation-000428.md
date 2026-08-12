@@ -13,6 +13,9 @@ related_diseases:
   - "대퇴동맥 가성동맥류"
   - "혈관중재술 합병증"
   - "박동성 종괴"
+  - "Femoral artery pseudoaneurysm"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-qwgOyEsSDrj5nrp6XrpZggKFBzZXVkb2FuZXVyeXNtKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: B

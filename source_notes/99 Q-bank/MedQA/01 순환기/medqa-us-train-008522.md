@@ -13,6 +13,7 @@ related_diseases:
   - "Marfan syndrome"
   - "aortic root dilation"
   - "ectopia lentis"
+related_disease_slugs: []
 question_type: investigation
 difficulty: standard
 answer: B

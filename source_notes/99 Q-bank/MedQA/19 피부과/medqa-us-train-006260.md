@@ -14,6 +14,8 @@ related_diseases:
   - "독성 식물 피부염"
   - "소양성 발진"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-ygkey0ie2UvOu2gOyXvCAoQ29udGFjdCBEZXJtYXRpdGlzKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -11,6 +11,8 @@ language: ko
 specialty: 01 순환기
 related_diseases:
   - "aortic stenosis"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
 question_type: management
 difficulty: complex
 answer: D

@@ -15,6 +15,9 @@ related_diseases:
   - "dysmenorrhea"
   - "laparoscopy"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nspp0gKEVuZG9tZXRyaW9zaXMpLm1k
+  - MTMg67aA7J246rO8L-yblOqyve2GtSAoRHlzbWVub3JyaGVhKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified

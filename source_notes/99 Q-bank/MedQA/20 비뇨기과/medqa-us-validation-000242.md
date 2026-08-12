@@ -13,7 +13,9 @@ related_diseases:
   - "절박성 요실금"
   - "배뇨근 과활동성"
   - "무스카린 길항제"
+  - "Overactive bladder"
 question_type: management
+related_disease_slugs: []
 difficulty: complex
 answer: D
 translation_status: machine-verified

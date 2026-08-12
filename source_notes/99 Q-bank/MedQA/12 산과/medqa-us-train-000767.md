@@ -12,7 +12,10 @@ specialty: 12 산과
 related_diseases:
   - "HIV"
   - "vertical HIV transmission"
+  - "HIV infection"
 question_type: management
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 difficulty: standard
 answer: D
 translation_status: machine-verified

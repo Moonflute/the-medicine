@@ -15,6 +15,9 @@ related_diseases:
   - "internuclear ophthalmoplegia"
   - "high-dose corticosteroid"
 question_type: management
+related_disease_slugs:
+  - MTgg7JWI6rO8L-yLnOyLoOqyveyXvCAob3B0aWMgbmV1cml0aXMpLm1k
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

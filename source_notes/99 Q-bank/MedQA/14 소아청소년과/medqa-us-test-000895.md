@@ -13,7 +13,9 @@ related_diseases:
   - "콰시오르코르"
   - "단백질-에너지 영양실조"
   - "저알부민혈증"
+  - "kwashiorkor"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: simple
 answer: A
 translation_status: machine-verified

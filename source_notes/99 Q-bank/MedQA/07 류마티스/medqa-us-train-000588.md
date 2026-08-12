@@ -11,6 +11,8 @@ language: ko
 specialty: 07 류마티스
 related_diseases:
   - "gout"
+related_disease_slugs:
+  - MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ
 question_type: management
 difficulty: complex
 answer: D

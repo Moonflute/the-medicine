@@ -12,6 +12,8 @@ specialty: 14 소아청소년과
 related_diseases:
   - "transposition of the great arteries"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA7ZiI6rSAIOyghOychCAoVHJhbnNwb3NpdGlvbiBvZiB0aGUgR3JlYXQgQXJ0ZXJpZXMpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified

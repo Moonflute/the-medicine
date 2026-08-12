@@ -14,6 +14,8 @@ related_diseases:
   - "콜린성 위기"
   - "프랄리독심"
 question_type: management
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-uLpOuwnOyZuOyDgSAoUG9seXRyYXVtYSkubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified

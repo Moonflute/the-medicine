@@ -14,6 +14,9 @@ related_diseases:
   - "trichotillomania"
   - "anxiety"
 question_type: management
+related_disease_slugs:
+  - MTkg7ZS867aA6rO8L-ybkO2YlSDtg4jrqqjspp0gKEFsb3BlY2lhIEFyZWF0YSkubWQ
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uwnOuqqOyepeyVoCAoVHJpY2hvdGlsbG9tYW5pYSkubWQ
 difficulty: standard
 answer: A
 translation_status: machine-verified

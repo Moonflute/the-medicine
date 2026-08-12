@@ -15,6 +15,8 @@ related_diseases:
   - "감각신경성 난청"
   - "현훈"
 question_type: mechanism
+related_disease_slugs:
+  - MTcg7J2067mE7J247ZuE6rO8L-uplOuLiOyXkOultOuzkSAoTWVuaWVyZSdzIGRpc2Vhc2UpLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified

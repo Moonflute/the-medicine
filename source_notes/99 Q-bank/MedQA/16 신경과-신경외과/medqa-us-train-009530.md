@@ -14,6 +14,9 @@ related_diseases:
   - "단순포진 뇌염"
   - "acyclovir"
 question_type: management
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-uLqOyInO2PrOynhCAoR2VuaXRhbCBoZXJwZXMpLm1k
+  - MDgg6rCQ7Je8L-uLqOyInO2PrOynhCDqsJDsl7wgKEhlcnBlcyBTaW1wbGV4IEluZmVjdGlvbikubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

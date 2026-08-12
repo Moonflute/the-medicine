@@ -15,6 +15,9 @@ related_diseases:
   - "postcoital contraception"
   - "unprotected intercourse"
 question_type: prevention
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geuCtOyepey5mCAoSW50cmF1dGVyaW5lIERldmljZSkubWQ
+  - MTMg67aA7J246rO8L-ydkeq4ie2UvOyehOuylSAoUG9zdGNvaXRhbCBDb250cmFjZXB0aW9uKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

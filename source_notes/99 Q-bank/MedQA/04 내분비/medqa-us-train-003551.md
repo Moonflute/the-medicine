@@ -14,6 +14,8 @@ related_diseases:
   - "smoking"
   - "bone mineral density"
   - "risk factor"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 question_type: risk_factor
 difficulty: simple
 answer: D

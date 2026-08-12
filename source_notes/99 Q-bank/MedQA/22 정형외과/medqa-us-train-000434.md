@@ -11,7 +11,9 @@ language: ko
 specialty: 22 정형외과
 related_diseases:
   - "supracondylar humerus fracture"
+  - "Supracondylar humerus fracture"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

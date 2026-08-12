@@ -13,6 +13,9 @@ related_diseases:
   - "만성 림프구성 백혈병"
   - "자가면역 용혈성 빈혈"
   - "간접 고빌리루빈혈증"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChDTEwpIChDaHJvbmljIEx5bXBob2N5dGljIExldWtlbWlhKS5tZA
+  - MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: A

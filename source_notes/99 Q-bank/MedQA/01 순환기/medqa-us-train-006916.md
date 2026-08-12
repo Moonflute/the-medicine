@@ -13,6 +13,8 @@ related_diseases:
   - "디곡신 독성"
   - "황시증"
   - "부정맥 약물 상호작용"
+  - "Digoxin toxicity"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: simple
 answer: A

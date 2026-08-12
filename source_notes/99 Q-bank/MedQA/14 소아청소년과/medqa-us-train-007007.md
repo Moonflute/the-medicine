@@ -13,7 +13,10 @@ related_diseases:
   - "기도 이물 흡인"
   - "기관지 이물"
   - "소아 응급 기도"
+  - "foreign body aspiration"
 question_type: management
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riw64-EIOuCtCDsnbTrrLwgKEZvcmVpZ24gQm9keSBBc3BpcmF0aW9uKS5tZA
 difficulty: simple
 answer: A
 translation_status: machine-verified

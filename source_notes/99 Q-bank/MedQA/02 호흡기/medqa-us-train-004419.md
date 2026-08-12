@@ -13,6 +13,9 @@ related_diseases:
   - "폐농양"
   - "흡인성 폐렴"
   - "혐기성 세균 감염"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkCDrho3slpEgKEx1bmcgQWJzY2VzcykubWQ
+  - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
 question_type: management
 difficulty: complex
 answer: D

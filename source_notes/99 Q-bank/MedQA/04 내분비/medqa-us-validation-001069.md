@@ -13,6 +13,8 @@ related_diseases:
   - "저성선자극호르몬성 성선기능저하증"
   - "미소음경"
   - "뇌하수체 기능저하"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uHjO2VmOyImOyytCDquLDriqXsoIDtlZjspp0gKEh5cG9waXR1aXRhcmlzbSkubWQ
 question_type: investigation
 difficulty: complex
 answer: D

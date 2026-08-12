@@ -13,6 +13,8 @@ related_diseases:
   - "일차 매독"
   - "매독 하감"
   - "트레포네마 팔리둠 감염"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-unpOuPhSAoU3lwaGlsaXMpLm1k
 question_type: management
 difficulty: complex
 answer: D

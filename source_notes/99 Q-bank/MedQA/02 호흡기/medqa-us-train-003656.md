@@ -14,6 +14,8 @@ related_diseases:
   - "environmental allergen"
   - "nasal eosinophilia"
   - "boggy turbinates"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sCDruYTsl7wgKEFsbGVyZ2ljIFJoaW5pdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
 answer: C

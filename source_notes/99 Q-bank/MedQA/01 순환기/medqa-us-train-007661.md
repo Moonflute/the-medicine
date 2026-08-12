@@ -13,6 +13,9 @@ related_diseases:
   - "aortic dissection"
   - "cardiac tamponade"
   - "Beck triad"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
+  - MDEg7Iic7ZmY6riwL-yLrOyepSDriIzrprzspp0gKENhcmRpYWMgVGFtcG9uYWRlKS5tZA
 question_type: prognosis
 difficulty: complex
 answer: B

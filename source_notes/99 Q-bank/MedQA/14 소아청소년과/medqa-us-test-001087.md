@@ -14,6 +14,7 @@ related_diseases:
   - "신생아 경련"
   - "두개 초음파"
 question_type: investigation
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

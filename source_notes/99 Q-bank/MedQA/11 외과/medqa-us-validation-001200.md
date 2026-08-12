@@ -13,6 +13,8 @@ related_diseases:
   - "이식 후 골다공증"
   - "글루코코르티코이드"
   - "압박골절"
+related_disease_slugs:
+  - MjIg7KCV7ZiV7Jm46rO8L-qzqOuLpOqzteymneyEsSDsspnstpQg6rOo7KCIIChPc3Rlb3Bvcm90aWMgU3BpbmFsIEZyYWN0dXJlKS5tZA
 question_type: diagnosis
 difficulty: standard
 answer: D

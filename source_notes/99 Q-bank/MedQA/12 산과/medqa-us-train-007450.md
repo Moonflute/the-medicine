@@ -15,6 +15,8 @@ related_diseases:
   - "자궁 과긴장"
   - "태아 곤란"
 question_type: diagnosis
+related_disease_slugs:
+  - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

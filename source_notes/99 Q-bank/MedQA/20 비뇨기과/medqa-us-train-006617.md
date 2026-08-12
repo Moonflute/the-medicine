@@ -14,6 +14,8 @@ related_diseases:
   - "거근반사 소실"
   - "급성 음낭"
 question_type: diagnosis
+related_disease_slugs:
+  - MjAg67mE64eo6riw6rO8L-qzoO2ZmOyXvOyghCAoVGVzdGljdWxhciB0b3JzaW9uKS5tZA
 difficulty: simple
 answer: D
 translation_status: machine-verified

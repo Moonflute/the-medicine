@@ -14,6 +14,7 @@ related_diseases:
   - "아미트립틸린 항콜린성 작용"
   - "범람성 요실금"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified

@@ -15,6 +15,8 @@ related_diseases:
   - "hypotonia"
   - "hyperphagia"
 question_type: diagnosis
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ZSE6528642ULeycjOumrCDspp3tm4TqtbAgKFByYWRlci1XaWxsaSBTeW5kcm9tZSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

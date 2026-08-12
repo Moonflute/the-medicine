@@ -14,6 +14,8 @@ related_diseases:
   - "levodopa-carbidopa"
   - "carbidopa"
 question_type: mechanism
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjIztgqjsiqgg7Kad7ZuE6rWwIChQYXJraW5zb25pc20pLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

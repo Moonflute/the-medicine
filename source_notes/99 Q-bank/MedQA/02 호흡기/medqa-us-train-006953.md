@@ -13,6 +13,8 @@ related_diseases:
   - "만성 폐쇄성 폐질환"
   - "만성 호흡성 산증"
   - "고탄산혈증"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
 question_type: diagnosis
 difficulty: simple
 answer: B

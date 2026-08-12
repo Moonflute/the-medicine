@@ -13,6 +13,8 @@ related_diseases:
   - "전염성 단핵구증"
   - "엡스타인-바 바이러스"
   - "모노스팟 검사"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KCE7Je87ISxIOuLqO2Vteq1rOymnSAoSW5mZWN0aW91cyBNb25vbnVjbGVvc2lzKS5tZA
 question_type: investigation
 difficulty: complex
 answer: B

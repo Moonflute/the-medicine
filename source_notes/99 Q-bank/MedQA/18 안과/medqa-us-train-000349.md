@@ -12,6 +12,8 @@ specialty: 18 안과
 related_diseases:
   - "conjunctivitis"
 question_type: management
+related_disease_slugs:
+  - MTgg7JWI6rO8L-qysOyEseyXvCAoQ29uanVuY3Rpdml0aXMpLm1k
 difficulty: standard
 answer: C
 translation_status: machine-verified

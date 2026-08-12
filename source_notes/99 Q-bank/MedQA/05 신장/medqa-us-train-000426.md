@@ -11,6 +11,8 @@ language: ko
 specialty: 05 신장
 related_diseases:
   - "crescentic glomerulonephritis"
+related_disease_slugs:
+  - MDUg7Iug7J6lL-q4ieyGjSDsp4Ttlokg7Yag66as7L2p7Yyl7Je8IChSYXBpZGx5IFByb2dyZXNzaXZlIEdsb21lcnVsb25lcGhyaXRpcykubWQ
 question_type: management
 difficulty: complex
 answer: C

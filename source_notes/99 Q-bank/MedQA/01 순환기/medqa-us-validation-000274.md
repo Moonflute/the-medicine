@@ -13,6 +13,8 @@ related_diseases:
   - "대동맥판막 협착증"
   - "운동 시 실신"
   - "지연된 맥박"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
 question_type: investigation
 difficulty: complex
 answer: B

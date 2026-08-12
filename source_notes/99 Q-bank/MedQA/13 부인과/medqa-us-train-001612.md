@@ -14,6 +14,8 @@ related_diseases:
   - "Chlamydia trachomatis"
   - "Neisseria gonorrhoeae"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyXvCAoQ2VydmljaXRpcykubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

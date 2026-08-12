@@ -13,7 +13,10 @@ related_diseases:
   - "원발성 무월경"
   - "처녀막 폐쇄 또는 생식기 구조 이상"
   - "골반 초음파"
+  - "Primary amenorrhea"
 question_type: investigation
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: standard
 answer: B
 translation_status: machine-verified

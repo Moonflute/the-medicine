@@ -13,6 +13,9 @@ related_diseases:
   - "Mycoplasma pneumoniae pneumonia"
   - "erythema multiforme"
   - "target lesions"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-uniOydtOy9lO2UjOudvOyKpOuniCDtj5DroLQgKE15Y29wbGFzbWEgUG5ldW1vbmlhKS5tZA
+  - MTkg7ZS867aA6rO8L-uLpO2YlSDtmY3rsJggKEVyeXRoZW1hIE11bHRpZm9ybWUpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: D

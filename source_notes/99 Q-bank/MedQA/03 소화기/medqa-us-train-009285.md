@@ -13,6 +13,8 @@ related_diseases:
   - "diabetic gastroparesis"
   - "당뇨병성 위마비"
   - "gastroparesis"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 question_type: management
 difficulty: standard
 answer: A

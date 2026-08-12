@@ -13,7 +13,9 @@ related_diseases:
   - "바르톨린샘 낭종"
   - "바르톨린관 폐쇄"
   - "외음부 종괴"
+  - "Bartholin cyst"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

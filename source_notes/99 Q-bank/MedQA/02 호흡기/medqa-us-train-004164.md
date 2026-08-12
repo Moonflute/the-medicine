@@ -13,6 +13,9 @@ related_diseases:
   - "상기도기침증후군"
   - "알레르기 비염"
   - "만성 기침"
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sCDruYTsl7wgKEFsbGVyZ2ljIFJoaW5pdGlzKS5tZA
+  - MDIg7Zi47Z2h6riwL-unjOyEsSDquLDsuagubWQ
 question_type: 임상증례 객관식
 difficulty: complex
 answer: D

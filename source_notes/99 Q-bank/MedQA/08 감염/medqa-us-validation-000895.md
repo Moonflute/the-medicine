@@ -13,6 +13,8 @@ related_diseases:
   - "로키산홍반열"
   - "Rickettsia rickettsii"
   - "점막피부 발진"
+  - "Rocky Mountain spotted fever"
+related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
 answer: C

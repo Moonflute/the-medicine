@@ -13,6 +13,8 @@ related_diseases:
   - "유관내 유두종"
   - "혈성 유두 분비물"
   - "유방 양성 종양"
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-q0gOuCtCDsnKDrkZDsooUgKEludHJhZHVjdGFsIFBhcGlsbG9tYSkubWQ
 question_type: diagnosis
 difficulty: standard
 answer: D

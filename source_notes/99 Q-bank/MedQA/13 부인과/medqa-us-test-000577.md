@@ -14,6 +14,8 @@ related_diseases:
   - "복강내 출혈"
   - "급성 골반통"
 question_type: diagnosis
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-uCnOyGjCDrgq3sooUg7YyM7Je0IChSdXB0dXJlZCBPdmFyaWFuIEN5c3QpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "HIV 감염"
   - "거대세포바이러스 대장염"
   - "면역저하"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

@@ -13,6 +13,8 @@ related_diseases:
   - "급성 췌장염"
   - "알코올성 췌장염"
   - "리파아제 상승"
+related_disease_slugs:
+  - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k
 question_type: diagnosis
 difficulty: complex
 answer: B

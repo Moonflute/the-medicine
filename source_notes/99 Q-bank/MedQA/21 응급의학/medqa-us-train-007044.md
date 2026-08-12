@@ -15,6 +15,8 @@ related_diseases:
   - "제1형 과민반응"
   - "급성 기도 폐쇄"
 question_type: mechanism
+related_disease_slugs:
+  - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

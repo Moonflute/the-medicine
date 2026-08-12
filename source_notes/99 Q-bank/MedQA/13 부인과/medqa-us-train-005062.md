@@ -14,6 +14,8 @@ related_diseases:
   - "자궁내 유착"
   - "불임"
 question_type: management
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
 difficulty: complex
 answer: C
 translation_status: machine-verified

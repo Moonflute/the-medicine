@@ -13,7 +13,10 @@ related_diseases:
   - "연쇄상구균 인두염"
   - "편도 삼출"
   - "신속 항원 검사"
+  - "Streptococcal pharyngitis"
 question_type: investigation
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yCrOyKrOyVjOq3oCDsnbjrkZDsl7wgKFN0cmVwdG9jb2NjYWwgUGhhcnluZ2l0aXMpLm1k
 difficulty: complex
 answer: D
 translation_status: machine-verified

@@ -14,6 +14,8 @@ related_diseases:
   - "intrapartum fetal monitoring"
   - "maternal repositioning"
 question_type: management
+related_disease_slugs:
+  - MTIg7IKw6rO8L-yehOyLoCDspJEg7YOc7JWEIOqwkOyLnCAoRmV0YWwgTW9uaXRvcmluZykubWQ
 difficulty: complex
 answer: C
 translation_status: machine-verified

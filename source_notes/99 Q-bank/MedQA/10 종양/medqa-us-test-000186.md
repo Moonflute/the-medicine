@@ -12,6 +12,8 @@ specialty: 10 종양
 related_diseases:
   - "신경모세포종"
   - "소아 종양"
+related_disease_slugs:
+  - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug6rK966qo7IS47Y-s7KKFIChOZXVyb2JsYXN0b21hKS5tZA
 question_type: ethics
 difficulty: complex
 answer: D

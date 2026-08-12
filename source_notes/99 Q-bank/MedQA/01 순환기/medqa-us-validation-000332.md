@@ -13,6 +13,8 @@ related_diseases:
   - "변이형 협심증"
   - "관상동맥 혈관연축"
   - "에르고노빈 검사"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-uzgOydtO2YlSDtmJHsi6zspp0gKFZhcmlhbnQgQW5naW5hKS5tZA
 question_type: investigation
 difficulty: simple
 answer: A

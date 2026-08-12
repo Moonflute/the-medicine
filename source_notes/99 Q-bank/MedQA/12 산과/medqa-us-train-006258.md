@@ -14,6 +14,8 @@ related_diseases:
   - "임신 중 말라리아 예방"
   - "메플로퀸"
 question_type: prevention
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-unkOudvOumrOyVhCAoTWFsYXJpYSkubWQ
 difficulty: complex
 answer: B
 translation_status: machine-verified

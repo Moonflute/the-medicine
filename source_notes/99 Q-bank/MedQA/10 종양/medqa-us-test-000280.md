@@ -13,6 +13,8 @@ related_diseases:
   - "폐암 전이"
   - "척수 압박"
   - "악성 척수 압박"
+related_disease_slugs:
+  - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 question_type: management
 difficulty: complex
 answer: B

@@ -15,6 +15,9 @@ related_diseases:
   - "dysmenorrhea"
   - "diffuse uterine enlargement"
 question_type: mechanism
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDsg5jqt7zsnKHspp0gKFV0ZXJpbmUgQWRlbm9teW9zaXMpLm1k
+  - MTMg67aA7J246rO8L-yblOqyve2GtSAoRHlzbWVub3JyaGVhKS5tZA
 difficulty: complex
 answer: A
 translation_status: machine-verified

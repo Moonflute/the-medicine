@@ -13,6 +13,8 @@ related_diseases:
   - "severe hypercholesterolemia"
   - "high-intensity statin"
   - "dyslipidemia"
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
 question_type: management
 difficulty: standard
 answer: D

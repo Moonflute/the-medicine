@@ -13,6 +13,8 @@ related_diseases:
   - "실데나필-질산염 상호작용"
   - "저혈압"
   - "급성 심근경색"
+related_disease_slugs:
+  - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 question_type: mechanism
 difficulty: standard
 answer: B

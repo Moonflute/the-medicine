@@ -13,6 +13,8 @@ related_diseases:
   - "여행자 설사"
   - "장독소형 대장균"
   - "급성 감염성 설사"
+related_disease_slugs:
+  - MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k
 question_type: 임상증례 객관식
 difficulty: complex
 answer: A

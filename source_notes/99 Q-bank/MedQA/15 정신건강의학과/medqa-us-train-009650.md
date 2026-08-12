@@ -14,6 +14,8 @@ related_diseases:
   - "조현양상장애"
   - "psychosis duration 1-6 months"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOyWkeyDgeyepeyVoCAoU2NoaXpvcGhyZW5pZm9ybSBkaXNvcmRlcikubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified

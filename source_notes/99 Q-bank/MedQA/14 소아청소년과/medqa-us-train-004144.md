@@ -13,7 +13,9 @@ related_diseases:
   - "베커 근이영양증"
   - "디스트로핀"
   - "종아리 가성비대"
+  - "Becker muscular dystrophy"
 question_type: 임상증례 객관식
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

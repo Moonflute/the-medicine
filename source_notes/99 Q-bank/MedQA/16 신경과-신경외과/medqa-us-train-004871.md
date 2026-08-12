@@ -14,6 +14,8 @@ related_diseases:
   - "나탈리주맙"
   - "진행성 다초점 백질뇌병증"
 question_type: adverse_effect
+related_disease_slugs:
+  - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified

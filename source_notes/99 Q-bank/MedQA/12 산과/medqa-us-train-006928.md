@@ -14,6 +14,7 @@ related_diseases:
   - "ACE 억제제 금기"
   - "라베타롤"
 question_type: management
+related_disease_slugs: []
 difficulty: simple
 answer: B
 translation_status: machine-verified

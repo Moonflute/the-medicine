@@ -14,6 +14,7 @@ related_diseases:
   - "normal puberty"
   - "irregular menses"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified

@@ -14,6 +14,7 @@ related_diseases:
   - "반월상연골 파열"
   - "locked knee"
 question_type: investigation
+related_disease_slugs: []
 difficulty: standard
 answer: D
 translation_status: machine-verified

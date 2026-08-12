@@ -12,6 +12,8 @@ specialty: 09 혈액
 related_diseases:
   - "chronic myeloid leukemia"
   - "BCR-ABL1"
+related_disease_slugs:
+  - MDkg7ZiI7JWhL-unjOyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChDTUwpIChDaHJvbmljIE15ZWxvaWQgTGV1a2VtaWEpLm1k
 question_type: management
 difficulty: complex
 answer: B

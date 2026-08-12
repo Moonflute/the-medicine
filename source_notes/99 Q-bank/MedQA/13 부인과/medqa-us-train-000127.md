@@ -15,6 +15,9 @@ related_diseases:
   - "obesity"
   - "diabetes mellitus type 2"
 question_type: mechanism
+related_disease_slugs:
+  - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ
+  - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

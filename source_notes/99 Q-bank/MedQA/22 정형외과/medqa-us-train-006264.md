@@ -14,6 +14,7 @@ related_diseases:
   - "스테로이드 관련 힘줄 손상"
   - "급성 무릎 손상"
 question_type: diagnosis
+related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified

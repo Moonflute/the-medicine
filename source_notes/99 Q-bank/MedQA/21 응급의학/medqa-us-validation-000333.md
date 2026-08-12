@@ -14,6 +14,7 @@ related_diseases:
   - "교감신경 차단"
   - "저혈압 및 서맥"
 question_type: mechanism
+related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified

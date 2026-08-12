@@ -14,6 +14,8 @@ related_diseases:
   - "irritability"
   - "defiant behavior"
 question_type: diagnosis
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggeuMgOyggSDrsJjtla0g7J6l7JWgIChPcHBvc2l0aW9uYWwgRGVmaWFudCBEaXNvcmRlcikubWQ
 difficulty: standard
 answer: D
 translation_status: machine-verified

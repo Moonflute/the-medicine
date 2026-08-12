@@ -13,7 +13,10 @@ related_diseases:
   - "자살 고위험"
   - "구체적 자살계획"
   - "정신과 입원"
+  - "Suicide"
 question_type: management
+related_disease_slugs:
+  - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yekOyCtCAoU3VpY2lkZSkubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified

@@ -13,6 +13,8 @@ related_diseases:
   - "류마티스성 다발근통"
   - "근위부 근육통"
   - "적혈구침강속도 상승"
+  - "Polymyalgia rheumatica"
+related_disease_slugs: []
 question_type: investigation
 difficulty: complex
 answer: B

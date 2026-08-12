@@ -14,6 +14,7 @@ related_diseases:
   - "conjugated hyperbilirubinemia"
   - "bilirubin storage and excretion defect"
   - "normal liver enzymes"
+related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: C
