@@ -9,6 +9,26 @@ updated: 2026-08-11
 - G(-)
 CC: []
 preprocessing_required: x
+group_members:
+- 호중구감소증 (Neutropenia)
+- 괴저병 (Gangrene)
+- 브루셀라증 (Brucellosis)
+- 녹농균 (Pseudomonas Aeruginosa)
+- 대장균 (E. coli)
+- 레지오넬라 (Legionella)
+- 묘소병 (Cat Scratch Disease)
+- 수막알균 (Meningococcus)
+- 임균 감염 (Gonococcal Infection)
+- 장티푸스 (Typhoid Fever)- 호중구감소증 (Neutropenia)
+- 괴저병 (Gangrene)
+- 브루셀라증 (Brucellosis)
+- 녹농균 (Pseudomonas Aeruginosa)
+- 대장균 (E. coli)
+- 레지오넬라 (Legionella)
+- 묘소병 (Cat Scratch Disease)
+- 수막알균 (Meningococcus)
+- 임균 감염 (Gonococcal Infection)
+- 장티푸스 (Typhoid Fever)
 ---
 # G(-)
 
@@ -31,13 +51,13 @@ preprocessing_required: x
 - [CDC: Gram-negative Bacteria](https://www.cdc.gov/antimicrobial-resistance/about/index.html)
 
 ## 포함 질환
+- [[호중구감소증 (Neutropenia)]]
 - [[괴저병 (Gangrene)]]
+- [[브루셀라증 (Brucellosis)]]
 - [[녹농균 (Pseudomonas Aeruginosa)]]
 - [[대장균 (E. coli)]]
 - [[레지오넬라 (Legionella)]]
 - [[묘소병 (Cat Scratch Disease)]]
-- [[브루셀라증 (Brucellosis)]]
 - [[수막알균 (Meningococcus)]]
 - [[임균 감염 (Gonococcal Infection)]]
 - [[장티푸스 (Typhoid Fever)]]
-- [[호중구감소증 (Neutropenia)]]

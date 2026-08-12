@@ -1,13 +1,13 @@
 {
   "description": "Disease-tag frequency among MedQA questions that currently have no canonical disease-document link. Counts are per question and include only tags classified as no-current-canonical-document; symptoms, tests, drugs, and other clinical keywords are excluded.",
-  "unlinked_question_count": 26,
+  "unlinked_question_count": 21,
   "raw_tag_forms": {
-    "unique_count": 11,
-    "question_tag_occurrences": 11,
+    "unique_count": 6,
+    "question_tag_occurrences": 6,
     "histogram": [
       {
         "bucket": "1회",
-        "tag_count": 11
+        "tag_count": 6
       },
       {
         "bucket": "2회",
@@ -36,16 +36,16 @@
     ]
   },
   "normalised_tag_forms": {
-    "unique_count": 10,
-    "question_tag_occurrences": 11,
+    "unique_count": 6,
+    "question_tag_occurrences": 6,
     "histogram": [
       {
         "bucket": "1회",
-        "tag_count": 9
+        "tag_count": 6
       },
       {
         "bucket": "2회",
-        "tag_count": 1
+        "tag_count": 0
       },
       {
         "bucket": "3회",
@@ -71,14 +71,6 @@
   },
   "tags": [
     {
-      "canonical_tag": "칸나비스 구토 증후군",
-      "tag_variants": [
-        "cannabinoid hyperemesis syndrome",
-        "칸나비스 구토 증후군"
-      ],
-      "question_count": 2
-    },
-    {
       "canonical_tag": "47,XYY 증후군",
       "tag_variants": [
         "47,XYY 증후군"
@@ -89,27 +81,6 @@
       "canonical_tag": "Conn syndrome",
       "tag_variants": [
         "Conn syndrome"
-      ],
-      "question_count": 1
-    },
-    {
-      "canonical_tag": "Riedel thyroiditis",
-      "tag_variants": [
-        "Riedel thyroiditis"
-      ],
-      "question_count": 1
-    },
-    {
-      "canonical_tag": "Silent thyroiditis",
-      "tag_variants": [
-        "Silent thyroiditis"
-      ],
-      "question_count": 1
-    },
-    {
-      "canonical_tag": "burn infection",
-      "tag_variants": [
-        "burn infection"
       ],
       "question_count": 1
     },

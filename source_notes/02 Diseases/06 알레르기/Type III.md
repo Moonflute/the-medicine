@@ -9,6 +9,14 @@ updated: 2026-08-11
 - Type III
 CC: []
 preprocessing_required: x
+group_members:
+- 혈관염 (Vasculitis)
+- 혈청병 (Serum Sickness)
+- 연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis (PSGN))
+- 전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))- 혈관염 (Vasculitis)
+- 혈청병 (Serum Sickness)
+- 연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis (PSGN))
+- 전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))
 ---
 # Type III
 
@@ -26,7 +34,7 @@ preprocessing_required: x
 | 약물·이종 단백질 뒤 반응 | 노출 뒤 발열·발진·관절통의 시간 관계 | [[혈청병 (Serum Sickness)]] |
 
 ## 포함 질환
-- [[연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis (PSGN))]]
-- [[전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))]]
 - [[혈관염 (Vasculitis)]]
 - [[혈청병 (Serum Sickness)]]
+- [[연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis (PSGN))]]
+- [[전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))]]

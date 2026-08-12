@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-12T19:02:49.321Z",
+  "generatedAt": "2026-08-12T19:38:44.858Z",
   "source": "generated from frontmatter and wikilinks",
-  "nodeCount": 1975,
-  "relationCount": 7904,
-  "explicitRelationCount": 5103,
+  "nodeCount": 1977,
+  "relationCount": 8057,
+  "explicitRelationCount": 5256,
   "generatedRelationCount": 2801,
   "brokenTargetCount": 0,
-  "unresolvedReferenceCount": 2263,
+  "unresolvedReferenceCount": 2271,
   "relations": [
     {
       "sourceType": "cc",
@@ -41470,6 +41470,71 @@
       "sourceId": "02 Diseases/02 호흡기/폐결핵 (Pulmonary Tuberculosis).md",
       "sourceTitle": "폐결핵 (Pulmonary Tuberculosis)",
       "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-2PkOqysO2VtSAoUHVsbW9uYXJ5IFR1YmVyY3Vsb3NpcykubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/02 호흡기/기관지 결핵 (Bronchial Tuberculosis).md",
+      "targetTitle": "기관지 결핵 (Bronchial Tuberculosis)",
+      "targetHref": "/disease/MDIg7Zi47Z2h6riwL-q4sOq0gOyngCDqsrDtlbUgKEJyb25jaGlhbCBUdWJlcmN1bG9zaXMpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/02 호흡기/폐결핵 (Pulmonary Tuberculosis).md",
+      "sourceTitle": "폐결핵 (Pulmonary Tuberculosis)",
+      "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-2PkOqysO2VtSAoUHVsbW9uYXJ5IFR1YmVyY3Vsb3NpcykubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/02 호흡기/잠복 결핵 (성인) (Latent Tuberculosis (Adult)).md",
+      "targetTitle": "잠복 결핵 (성인) (Latent Tuberculosis (Adult))",
+      "targetHref": "/disease/MDIg7Zi47Z2h6riwL-yeoOuztSDqsrDtlbUgKOyEseyduCkgKExhdGVudCBUdWJlcmN1bG9zaXMgKEFkdWx0KSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/02 호흡기/폐결핵 (Pulmonary Tuberculosis).md",
+      "sourceTitle": "폐결핵 (Pulmonary Tuberculosis)",
+      "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-2PkOqysO2VtSAoUHVsbW9uYXJ5IFR1YmVyY3Vsb3NpcykubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/02 호흡기/잠복 결핵 (소아) (Latent Tuberculosis (Child)).md",
+      "targetTitle": "잠복 결핵 (소아) (Latent Tuberculosis (Child))",
+      "targetHref": "/disease/MDIg7Zi47Z2h6riwL-yeoOuztSDqsrDtlbUgKOyGjOyVhCkgKExhdGVudCBUdWJlcmN1bG9zaXMgKENoaWxkKSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/02 호흡기/폐결핵 (Pulmonary Tuberculosis).md",
+      "sourceTitle": "폐결핵 (Pulmonary Tuberculosis)",
+      "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-2PkOqysO2VtSAoUHVsbW9uYXJ5IFR1YmVyY3Vsb3NpcykubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/02 호흡기/좁쌀 결핵 (Miliary Tuberculosis).md",
+      "targetTitle": "좁쌀 결핵 (Miliary Tuberculosis)",
+      "targetHref": "/disease/MDIg7Zi47Z2h6riwL-yigeyMgCDqsrDtlbUgKE1pbGlhcnkgVHViZXJjdWxvc2lzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/02 호흡기/폐결핵 (Pulmonary Tuberculosis).md",
+      "sourceTitle": "폐결핵 (Pulmonary Tuberculosis)",
+      "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-2PkOqysO2VtSAoUHVsbW9uYXJ5IFR1YmVyY3Vsb3NpcykubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/02 호흡기/진균종 (Fungus Ball).md",
+      "targetTitle": "진균종 (Fungus Ball)",
+      "targetHref": "/disease/MDIg7Zi47Z2h6riwL-ynhOq3oOyihSAoRnVuZ3VzIEJhbGwpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/02 호흡기/폐결핵 (Pulmonary Tuberculosis).md",
+      "sourceTitle": "폐결핵 (Pulmonary Tuberculosis)",
+      "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-2PkOqysO2VtSAoUHVsbW9uYXJ5IFR1YmVyY3Vsb3NpcykubWQ",
       "relation": "canonical_for",
       "targetType": "disease",
       "targetId": "02 Diseases/02 호흡기/폐결핵.md",
@@ -41646,6 +41711,32 @@
       "targetHref": "/cc/7Zi47Z2h6rOk656A",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/02 호흡기/폐렴.md",
+      "sourceTitle": "폐렴",
+      "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-2PkOugtC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/02 호흡기/반복성 폐렴 (Recurrent Pneumonia).md",
+      "targetTitle": "반복성 폐렴 (Recurrent Pneumonia)",
+      "targetHref": "/disease/MDIg7Zi47Z2h6riwL-uwmOuzteyEsSDtj5DroLQgKFJlY3VycmVudCBQbmV1bW9uaWEpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/02 호흡기/폐렴.md",
+      "sourceTitle": "폐렴",
+      "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-2PkOugtC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/02 호흡기/병원획득 폐렴 (Hospital-Acquired Pneumonia).md",
+      "targetTitle": "병원획득 폐렴 (Hospital-Acquired Pneumonia)",
+      "targetHref": "/disease/MDIg7Zi47Z2h6riwL-uzkeybkO2ajeuTnSDtj5DroLQgKEhvc3BpdGFsLUFjcXVpcmVkIFBuZXVtb25pYSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -42023,6 +42114,45 @@
       "targetHref": "/cc/7Zi47Z2h6rOk656A",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/02 호흡기/호산구 폐렴 (Eosinophilic Pneumonia).md",
+      "sourceTitle": "호산구 폐렴 (Eosinophilic Pneumonia)",
+      "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-2YuOyCsOq1rCDtj5DroLQgKEVvc2lub3BoaWxpYyBQbmV1bW9uaWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/02 호흡기/알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis).md",
+      "targetTitle": "알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)",
+      "targetHref": "/disease/MDIg7Zi47Z2h6riwL-yVjOugiOultOq4sOyEsSDquLDqtIDsp4Dtj5Ag7JWE7Iqk7Y6Y66W06ri466Oo7Iqk7KadIChBQlBBKSAoQWxsZXJnaWMgQnJvbmNob3B1bG1vbmFyeSBBc3BlcmdpbGxvc2lzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/02 호흡기/호산구 폐렴 (Eosinophilic Pneumonia).md",
+      "sourceTitle": "호산구 폐렴 (Eosinophilic Pneumonia)",
+      "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-2YuOyCsOq1rCDtj5DroLQgKEVvc2lub3BoaWxpYyBQbmV1bW9uaWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/02 호흡기/처그-스트라우스 증후군 (Churg-Strauss Syndrome).md",
+      "targetTitle": "처그-스트라우스 증후군 (Churg-Strauss Syndrome)",
+      "targetHref": "/disease/MDIg7Zi47Z2h6riwL-yymOq3uC3siqTtirjrnbzsmrDsiqQg7Kad7ZuE6rWwIChDaHVyZy1TdHJhdXNzIFN5bmRyb21lKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/02 호흡기/호산구 폐렴 (Eosinophilic Pneumonia).md",
+      "sourceTitle": "호산구 폐렴 (Eosinophilic Pneumonia)",
+      "sourceHref": "/disease/MDIg7Zi47Z2h6riwL-2YuOyCsOq1rCDtj5DroLQgKEVvc2lub3BoaWxpYyBQbmV1bW9uaWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/02 호흡기/폐흡충증 (Pulmonary Paragonimiasis).md",
+      "targetTitle": "폐흡충증 (Pulmonary Paragonimiasis)",
+      "targetHref": "/disease/MDIg7Zi47Z2h6riwL-2PkO2doey2qeymnSAoUHVsbW9uYXJ5IFBhcmFnb25pbWlhc2lzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -43040,6 +43170,383 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/간 농양 (아메바성) (Amoebic Liver Abscess).md",
+      "targetTitle": "간 농양 (아메바성) (Amoebic Liver Abscess)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg64aN7JaRICjslYTrqZTrsJTshLEpIChBbW9lYmljIExpdmVyIEFic2Nlc3MpLm1k",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/간 농양 (Liver Abscess).md",
+      "targetTitle": "간 농양 (Liver Abscess)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg64aN7JaRIChMaXZlciBBYnNjZXNzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/간 혈관종 (Hepatic Hemangioma).md",
+      "targetTitle": "간 혈관종 (Hepatic Hemangioma)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7ZiI6rSA7KKFIChIZXBhdGljIEhlbWFuZ2lvbWEpLm1k",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/간경변증 (Liver Cirrhosis).md",
+      "targetTitle": "간경변증 (Liver Cirrhosis)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/간성 뇌증 (Hepatic Encephalopathy).md",
+      "targetTitle": "간성 뇌증 (Hepatic Encephalopathy)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLEg64eM7KadIChIZXBhdGljIEVuY2VwaGFsb3BhdGh5KS5tZA",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/간세포 선종 (Hepatocellular Adenoma).md",
+      "targetTitle": "간세포 선종 (Hepatocellular Adenoma)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLjtj6wg7ISg7KKFIChIZXBhdG9jZWxsdWxhciBBZGVub21hKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/간세포암 (Hepatocellular Carcinoma).md",
+      "targetTitle": "간세포암 (Hepatocellular Carcinoma)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLjtj6zslZQgKEhlcGF0b2NlbGx1bGFyIENhcmNpbm9tYSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/간신 증후군 (Hepatorenal Syndrome).md",
+      "targetTitle": "간신 증후군 (Hepatorenal Syndrome)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsi6Ag7Kad7ZuE6rWwIChIZXBhdG9yZW5hbCBTeW5kcm9tZSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/국소 결절 과형성 (Focal Nodular Hyperplasia).md",
+      "targetTitle": "국소 결절 과형성 (Focal Nodular Hyperplasia)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qta3showg6rKw7KCIIOqzvO2YleyEsSAoRm9jYWwgTm9kdWxhciBIeXBlcnBsYXNpYSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/급성 A형 간염 (Acute Hepatitis A).md",
+      "targetTitle": "급성 A형 간염 (Acute Hepatitis A)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEgQe2YlSDqsITsl7wgKEFjdXRlIEhlcGF0aXRpcyBBKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/급성 B형 간염 (Acute Hepatitis B).md",
+      "targetTitle": "급성 B형 간염 (Acute Hepatitis B)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEgQu2YlSDqsITsl7wgKEFjdXRlIEhlcGF0aXRpcyBCKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/급성 C형 간염 (HCV) (Acute Hepatitis C).md",
+      "targetTitle": "급성 C형 간염 (HCV) (Acute Hepatitis C)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEgQ-2YlSDqsITsl7wgKEhDVikgKEFjdXRlIEhlcGF0aXRpcyBDKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/독성 간염 (Toxic Hepatitis).md",
+      "targetTitle": "독성 간염 (Toxic Hepatitis)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rj4XshLEg6rCE7Je8IChUb3hpYyBIZXBhdGl0aXMpLm1k",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/만성 B형 간염 (Chronic Hepatitis B (HBV)).md",
+      "targetTitle": "만성 B형 간염 (Chronic Hepatitis B (HBV))",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEgQu2YlSDqsITsl7wgKENocm9uaWMgSGVwYXRpdGlzIEIgKEhCVikpLm1k",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/만성 C형 간염 (Chronic Hepatitis C (HCV)).md",
+      "targetTitle": "만성 C형 간염 (Chronic Hepatitis C (HCV))",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEgQ-2YlSDqsITsl7wgKENocm9uaWMgSGVwYXRpdGlzIEMgKEhDVikpLm1k",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/복수 (간경변) (Ascites (Cirrhosis)).md",
+      "targetTitle": "복수 (간경변) (Ascites (Cirrhosis))",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rs7XsiJggKOqwhOqyveuzgCkgKEFzY2l0ZXMgKENpcnJob3NpcykpLm1k",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/복수 (결핵) (Ascites (Tuberculosis)).md",
+      "targetTitle": "복수 (결핵) (Ascites (Tuberculosis))",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rs7XsiJggKOqysO2VtSkgKEFzY2l0ZXMgKFR1YmVyY3Vsb3NpcykpLm1k",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/복수 (암) (Ascites (Cancer)).md",
+      "targetTitle": "복수 (암) (Ascites (Cancer))",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rs7XsiJggKOyVlCkgKEFzY2l0ZXMgKENhbmNlcikpLm1k",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/비알코올성 지방간 (Non-alcoholic Fatty Liver Disease).md",
+      "targetTitle": "비알코올성 지방간 (Non-alcoholic Fatty Liver Disease)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ruYTslYzsvZTsmKzshLEg7KeA67Cp6rCEIChOb24tYWxjb2hvbGljIEZhdHR5IExpdmVyIERpc2Vhc2UpLm1k",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/비알코올성 지방간염 (Non-alcoholic Steatohepatitis).md",
+      "targetTitle": "비알코올성 지방간염 (Non-alcoholic Steatohepatitis)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ruYTslYzsvZTsmKzshLEg7KeA67Cp6rCE7Je8IChOb24tYWxjb2hvbGljIFN0ZWF0b2hlcGF0aXRpcykubWQ",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/식도 정맥류 (Esophageal Varices).md",
+      "targetTitle": "식도 정맥류 (Esophageal Varices)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_si53rj4Qg7KCV66el66WYIChFc29waGFnZWFsIFZhcmljZXMpLm1k",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/알코올성 간질환 (Alcoholic Liver Disease).md",
+      "targetTitle": "알코올성 간질환 (Alcoholic Liver Disease)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_slYzsvZTsmKzshLEg6rCE7KeI7ZmYIChBbGNvaG9saWMgTGl2ZXIgRGlzZWFzZSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/원발성 경화성 담관염 (PSC) (Primary Sclerosing Cholangitis).md",
+      "targetTitle": "원발성 경화성 담관염 (PSC) (Primary Sclerosing Cholangitis)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sm5DrsJzshLEg6rK97ZmU7ISxIOuLtOq0gOyXvCAoUFNDKSAoUHJpbWFyeSBTY2xlcm9zaW5nIENob2xhbmdpdGlzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/원발성 담즙성 담관염 (PBC) (Primary Biliary Cholangitis).md",
+      "targetTitle": "원발성 담즙성 담관염 (PBC) (Primary Biliary Cholangitis)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sm5DrsJzshLEg64u07KaZ7ISxIOuLtOq0gOyXvCAoUEJDKSAoUHJpbWFyeSBCaWxpYXJ5IENob2xhbmdpdGlzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/위 정맥류 (Gastric Varices).md",
+      "targetTitle": "위 정맥류 (Gastric Varices)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snIQg7KCV66el66WYIChHYXN0cmljIFZhcmljZXMpLm1k",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/자가면역 간염 (Autoimmune Hepatitis).md",
+      "targetTitle": "자가면역 간염 (Autoimmune Hepatitis)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDqsIDrqbTsl60g6rCE7Je8IChBdXRvaW1tdW5lIEhlcGF0aXRpcykubWQ",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/자발성 세균 복막염 (Spontaneous Bacterial Peritonitis).md",
+      "targetTitle": "자발성 세균 복막염 (Spontaneous Bacterial Peritonitis)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDrsJzshLEg7IS46regIOuzteunieyXvCAoU3BvbnRhbmVvdXMgQmFjdGVyaWFsIFBlcml0b25pdGlzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/전격성 간염 (Fulminant Hepatitis).md",
+      "targetTitle": "전격성 간염 (Fulminant Hepatitis)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_soITqsqnshLEg6rCE7Je8IChGdWxtaW5hbnQgSGVwYXRpdGlzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간 질환.md",
+      "sourceTitle": "간 질환",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg7KeI7ZmYLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/D형 간염 (HDV) (Hepatitis D (HDV)).md",
+      "targetTitle": "D형 간염 (HDV) (Hepatitis D (HDV))",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC9E7ZiVIOqwhOyXvCAoSERWKSAoSGVwYXRpdGlzIEQgKEhEVikpLm1k",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/03 소화기/간담췌/간.md",
       "sourceTitle": "간",
       "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQubWQ",
@@ -43196,6 +43703,84 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간경변증 (Liver Cirrhosis).md",
+      "sourceTitle": "간경변증 (Liver Cirrhosis)",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/간성 뇌증 (Hepatic Encephalopathy).md",
+      "targetTitle": "간성 뇌증 (Hepatic Encephalopathy)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLEg64eM7KadIChIZXBhdGljIEVuY2VwaGFsb3BhdGh5KS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간경변증 (Liver Cirrhosis).md",
+      "sourceTitle": "간경변증 (Liver Cirrhosis)",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/간신 증후군 (Hepatorenal Syndrome).md",
+      "targetTitle": "간신 증후군 (Hepatorenal Syndrome)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsi6Ag7Kad7ZuE6rWwIChIZXBhdG9yZW5hbCBTeW5kcm9tZSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간경변증 (Liver Cirrhosis).md",
+      "sourceTitle": "간경변증 (Liver Cirrhosis)",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/복수 (간경변) (Ascites (Cirrhosis)).md",
+      "targetTitle": "복수 (간경변) (Ascites (Cirrhosis))",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rs7XsiJggKOqwhOqyveuzgCkgKEFzY2l0ZXMgKENpcnJob3NpcykpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간경변증 (Liver Cirrhosis).md",
+      "sourceTitle": "간경변증 (Liver Cirrhosis)",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/식도 정맥류 (Esophageal Varices).md",
+      "targetTitle": "식도 정맥류 (Esophageal Varices)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_si53rj4Qg7KCV66el66WYIChFc29waGFnZWFsIFZhcmljZXMpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간경변증 (Liver Cirrhosis).md",
+      "sourceTitle": "간경변증 (Liver Cirrhosis)",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/위 정맥류 (Gastric Varices).md",
+      "targetTitle": "위 정맥류 (Gastric Varices)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snIQg7KCV66el66WYIChHYXN0cmljIFZhcmljZXMpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간경변증 (Liver Cirrhosis).md",
+      "sourceTitle": "간경변증 (Liver Cirrhosis)",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/자발성 세균 복막염 (Spontaneous Bacterial Peritonitis).md",
+      "targetTitle": "자발성 세균 복막염 (Spontaneous Bacterial Peritonitis)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDrsJzshLEg7IS46regIOuzteunieyXvCAoU3BvbnRhbmVvdXMgQmFjdGVyaWFsIFBlcml0b25pdGlzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/03 소화기/간담췌/간성 뇌증 (Hepatic Encephalopathy).md",
       "sourceTitle": "간성 뇌증 (Hepatic Encephalopathy)",
       "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLEg64eM7KadIChIZXBhdGljIEVuY2VwaGFsb3BhdGh5KS5tZA",
@@ -43270,7 +43855,7 @@
       "targetTitle": "간세포암 (Hepatocellular Carcinoma)",
       "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLjtj6zslZQgKEhlcGF0b2NlbGx1bGFyIENhcmNpbm9tYSkubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -43401,6 +43986,32 @@
       "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDqsIDrqbTsl60g6rCE7Je8IChBdXRvaW1tdW5lIEhlcGF0aXRpcykubWQ",
       "provenance": "wikilink",
       "evidence": "예후 및 합병증"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간염 (Hepatitis).md",
+      "sourceTitle": "간염 (Hepatitis)",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/전격성 간염 (Fulminant Hepatitis).md",
+      "targetTitle": "전격성 간염 (Fulminant Hepatitis)",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_soITqsqnshLEg6rCE7Je8IChGdWxtaW5hbnQgSGVwYXRpdGlzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/03 소화기/간담췌/간염 (Hepatitis).md",
+      "sourceTitle": "간염 (Hepatitis)",
+      "sourceHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/03 소화기/간담췌/D형 간염 (HDV) (Hepatitis D (HDV)).md",
+      "targetTitle": "D형 간염 (HDV) (Hepatitis D (HDV))",
+      "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC9E7ZiVIOqwhOyXvCAoSERWKSAoSGVwYXRpdGlzIEQgKEhEVikpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -44947,7 +45558,7 @@
       "targetTitle": "비알코올성 지방간 (Non-alcoholic Fatty Liver Disease)",
       "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ruYTslYzsvZTsmKzshLEg7KeA67Cp6rCEIChOb24tYWxjb2hvbGljIEZhdHR5IExpdmVyIERpc2Vhc2UpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -44960,7 +45571,7 @@
       "targetTitle": "비알코올성 지방간염 (Non-alcoholic Steatohepatitis)",
       "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ruYTslYzsvZTsmKzshLEg7KeA67Cp6rCE7Je8IChOb24tYWxjb2hvbGljIFN0ZWF0b2hlcGF0aXRpcykubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -44973,7 +45584,7 @@
       "targetTitle": "알코올성 간질환 (Alcoholic Liver Disease)",
       "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_slYzsvZTsmKzshLEg6rCE7KeI7ZmYIChBbGNvaG9saWMgTGl2ZXIgRGlzZWFzZSkubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -45272,7 +45883,7 @@
       "targetTitle": "췌장암 (Pancreatic Cancer)",
       "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -45285,7 +45896,7 @@
       "targetTitle": "팽대부 주위암 (Periampullary Carcinoma)",
       "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_tjL3rjIDrtoAg7KO87JyE7JWUIChQZXJpYW1wdWxsYXJ5IENhcmNpbm9tYSkubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -45298,7 +45909,7 @@
       "targetTitle": "감염성 췌장 괴사 (Infected Pancreatic Necrosis)",
       "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsJDsl7zshLEg7LeM7J6lIOq0tOyCrCAoSW5mZWN0ZWQgUGFuY3JlYXRpYyBOZWNyb3NpcykubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -45311,7 +45922,7 @@
       "targetTitle": "구역성 췌장 괴사 (Localized Pancreatic Necrosis)",
       "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qtazsl63shLEg7LeM7J6lIOq0tOyCrCAoTG9jYWxpemVkIFBhbmNyZWF0aWMgTmVjcm9zaXMpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -45324,7 +45935,7 @@
       "targetTitle": "급성 췌장염 (Acute Pancreatitis)",
       "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -45337,7 +45948,7 @@
       "targetTitle": "만성 췌장염 (Chronic Pancreatitis)",
       "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEg7LeM7J6l7Je8IChDaHJvbmljIFBhbmNyZWF0aXRpcykubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -45350,7 +45961,7 @@
       "targetTitle": "췌장 가성낭종 (Pancreatic Pseudocyst)",
       "targetHref": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqUg6rCA7ISx64Kt7KKFIChQYW5jcmVhdGljIFBzZXVkb2N5c3QpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -50858,9 +51469,35 @@
       "sourceHref": "/disease/MDQg64K067aE67mEL-qwkeyDgeyDmCDsp4jtmZgubWQ",
       "relation": "related",
       "targetType": "disease",
+      "targetId": "02 Diseases/04 내분비/리델 갑상샘염 (Riedel Thyroiditis).md",
+      "targetTitle": "리델 갑상샘염 (Riedel Thyroiditis)",
+      "targetHref": "/disease/MDQg64K067aE67mEL-umrOuNuCDqsJHsg4Hsg5jsl7wgKFJpZWRlbCBUaHlyb2lkaXRpcykubWQ",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/04 내분비/갑상샘 질환.md",
+      "sourceTitle": "갑상샘 질환",
+      "sourceHref": "/disease/MDQg64K067aE67mEL-qwkeyDgeyDmCDsp4jtmZgubWQ",
+      "relation": "related",
+      "targetType": "disease",
       "targetId": "02 Diseases/04 내분비/무증상 갑상샘 기능저하증 (Subclinical Hypothyroidism).md",
       "targetTitle": "무증상 갑상샘 기능저하증 (Subclinical Hypothyroidism)",
       "targetHref": "/disease/MDQg64K067aE67mEL-ustOymneyDgSDqsJHsg4Hsg5gg6riw64ql7KCA7ZWY7KadIChTdWJjbGluaWNhbCBIeXBvdGh5cm9pZGlzbSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/04 내분비/갑상샘 질환.md",
+      "sourceTitle": "갑상샘 질환",
+      "sourceHref": "/disease/MDQg64K067aE67mEL-qwkeyDgeyDmCDsp4jtmZgubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/04 내분비/무통성 갑상샘염 (Silent Thyroiditis).md",
+      "targetTitle": "무통성 갑상샘염 (Silent Thyroiditis)",
+      "targetHref": "/disease/MDQg64K067aE67mEL-ustO2GteyEsSDqsJHsg4Hsg5jsl7wgKFNpbGVudCBUaHlyb2lkaXRpcykubWQ",
       "provenance": "wikilink",
       "evidence": "포함 질환"
     },
@@ -58279,6 +58916,19 @@
       "sourceId": "02 Diseases/06 알레르기/Type IV.md",
       "sourceTitle": "Type IV",
       "sourceHref": "/disease/MDYg7JWM66CI66W06riwL1R5cGUgSVYubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/19 피부과/접촉피부염 (Contact Dermatitis).md",
+      "targetTitle": "접촉피부염 (Contact Dermatitis)",
+      "targetHref": "/disease/MTkg7ZS867aA6rO8L-ygkey0ie2UvOu2gOyXvCAoQ29udGFjdCBEZXJtYXRpdGlzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/06 알레르기/Type IV.md",
+      "sourceTitle": "Type IV",
+      "sourceHref": "/disease/MDYg7JWM66CI66W06riwL1R5cGUgSVYubWQ",
       "relation": "parent_of",
       "targetType": "disease",
       "targetId": "02 Diseases/19 피부과/접촉피부염 (Contact Dermatitis).md",
@@ -61678,7 +62328,7 @@
       "targetTitle": "교상 감염 (Bite Wound Infection)",
       "targetHref": "/disease/MDgg6rCQ7Je8L-q1kOyDgSDqsJDsl7wgKEJpdGUgV291bmQgSW5mZWN0aW9uKS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -62341,7 +62991,7 @@
       "targetTitle": "비장티푸스 살모넬라 (Non-typhoidal Salmonella)",
       "targetHref": "/disease/MDgg6rCQ7Je8L-u5hOyepe2LsO2RuOyKpCDsgrTrqqjrhKzrnbwgKE5vbi10eXBob2lkYWwgU2FsbW9uZWxsYSkubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -62354,7 +63004,7 @@
       "targetTitle": "설사 (비염증성) (Diarrhea (Non-inflammatory))",
       "targetHref": "/disease/MDgg6rCQ7Je8L-yEpOyCrCAo67mE7Je87Kad7ISxKSAoRGlhcnJoZWEgKE5vbi1pbmZsYW1tYXRvcnkpKS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -62367,7 +63017,7 @@
       "targetTitle": "설사 (염증성) (Diarrhea (Inflammatory))",
       "targetHref": "/disease/MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -62380,7 +63030,7 @@
       "targetTitle": "이질 (Dysentery)",
       "targetHref": "/disease/MDgg6rCQ7Je8L-ydtOyniCAoRHlzZW50ZXJ5KS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -62393,7 +63043,7 @@
       "targetTitle": "캄필로박터 (Campylobacter)",
       "targetHref": "/disease/MDgg6rCQ7Je8L-y6hO2VhOuhnOuwle2EsCAoQ2FtcHlsb2JhY3RlcikubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -62406,7 +63056,7 @@
       "targetTitle": "콜레라 (Cholera)",
       "targetHref": "/disease/MDgg6rCQ7Je8L-y9nOugiOudvCAoQ2hvbGVyYSkubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -62419,7 +63069,7 @@
       "targetTitle": "Bacillus cereus 식중독",
       "targetHref": "/disease/MDgg6rCQ7Je8L0JhY2lsbHVzIGNlcmV1cyDsi53spJHrj4UubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -62705,7 +63355,7 @@
       "targetTitle": "뎅기열 (Dengue Fever)",
       "targetHref": "/disease/MDgg6rCQ7Je8L-uOheq4sOyXtCAoRGVuZ3VlIEZldmVyKS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -62718,7 +63368,7 @@
       "targetTitle": "말라리아 (Malaria)",
       "targetHref": "/disease/MDgg6rCQ7Je8L-unkOudvOumrOyVhCAoTWFsYXJpYSkubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -62731,7 +63381,7 @@
       "targetTitle": "비장티푸스 살모넬라 (Non-typhoidal Salmonella)",
       "targetHref": "/disease/MDgg6rCQ7Je8L-u5hOyepe2LsO2RuOyKpCDsgrTrqqjrhKzrnbwgKE5vbi10eXBob2lkYWwgU2FsbW9uZWxsYSkubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -62744,7 +63394,7 @@
       "targetTitle": "치쿤구니아열 (Chikungunya Fever)",
       "targetHref": "/disease/MDgg6rCQ7Je8L-y5mOy_pOq1rOuLiOyVhOyXtCAoQ2hpa3VuZ3VueWEgRmV2ZXIpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -62757,7 +63407,7 @@
       "targetTitle": "콜레라 (Cholera)",
       "targetHref": "/disease/MDgg6rCQ7Je8L-y9nOugiOudvCAoQ2hvbGVyYSkubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -63351,6 +64001,19 @@
       "sourceHref": "/disease/MDgg6rCQ7Je8L-yngOyXreyCrO2ajCDqsJDsl7wubWQ",
       "relation": "related",
       "targetType": "disease",
+      "targetId": "02 Diseases/08 감염/물림 및 교상 감염.md",
+      "targetTitle": "물림 및 교상 감염",
+      "targetHref": "/disease/MDgg6rCQ7Je8L-usvOumvCDrsI8g6rWQ7IOBIOqwkOyXvC5tZA",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/08 감염/지역사회 감염.md",
+      "sourceTitle": "지역사회 감염",
+      "sourceHref": "/disease/MDgg6rCQ7Je8L-yngOyXreyCrO2ajCDqsJDsl7wubWQ",
+      "relation": "related",
+      "targetType": "disease",
       "targetId": "02 Diseases/08 감염/비장티푸스 살모넬라 (Non-typhoidal Salmonella).md",
       "targetTitle": "비장티푸스 살모넬라 (Non-typhoidal Salmonella)",
       "targetHref": "/disease/MDgg6rCQ7Je8L-u5hOyepe2LsO2RuOyKpCDsgrTrqqjrhKzrnbwgKE5vbi10eXBob2lkYWwgU2FsbW9uZWxsYSkubWQ",
@@ -63382,6 +64045,32 @@
       "targetHref": "/disease/MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k",
       "provenance": "wikilink",
       "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/08 감염/지역사회 감염.md",
+      "sourceTitle": "지역사회 감염",
+      "sourceHref": "/disease/MDgg6rCQ7Je8L-yngOyXreyCrO2ajCDqsJDsl7wubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/08 감염/식중독 및 식품매개 감염.md",
+      "targetTitle": "식중독 및 식품매개 감염",
+      "targetHref": "/disease/MDgg6rCQ7Je8L-yLneykkeuPhSDrsI8g7Iud7ZKI66ek6rCcIOqwkOyXvC5tZA",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/08 감염/지역사회 감염.md",
+      "sourceTitle": "지역사회 감염",
+      "sourceHref": "/disease/MDgg6rCQ7Je8L-yngOyXreyCrO2ajCDqsJDsl7wubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/08 감염/여행자·수인성 감염.md",
+      "targetTitle": "여행자·수인성 감염",
+      "targetHref": "/disease/MDgg6rCQ7Je8L-yXrO2WieyekMK37IiY7J247ISxIOqwkOyXvC5tZA",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
     },
     {
       "sourceType": "disease",
@@ -65218,6 +65907,84 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/림프종 (Lymphoma).md",
+      "sourceTitle": "림프종 (Lymphoma)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/림프모구성 림프종 (Lymphoblastic Lymphoma).md",
+      "targetTitle": "림프모구성 림프종 (Lymphoblastic Lymphoma)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-umvO2UhOuqqOq1rOyEsSDrprztlITsooUgKEx5bXBob2JsYXN0aWMgTHltcGhvbWEpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/림프종 (Lymphoma).md",
+      "sourceTitle": "림프종 (Lymphoma)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/버킷 림프종 (Burkitt's Lymphoma).md",
+      "targetTitle": "버킷 림프종 (Burkitt's Lymphoma)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-uyhO2CtyDrprztlITsooUgKEJ1cmtpdHQncyBMeW1waG9tYSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/림프종 (Lymphoma).md",
+      "sourceTitle": "림프종 (Lymphoma)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/비호지킨 림프종 (Non-Hodgkin Lymphoma).md",
+      "targetTitle": "비호지킨 림프종 (Non-Hodgkin Lymphoma)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-u5hO2YuOyngO2CqCDrprztlITsooUgKE5vbi1Ib2Rna2luIEx5bXBob21hKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/림프종 (Lymphoma).md",
+      "sourceTitle": "림프종 (Lymphoma)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/소림프구 림프종 (Small Lymphocytic Lymphoma).md",
+      "targetTitle": "소림프구 림프종 (Small Lymphocytic Lymphoma)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-yGjOumvO2UhOq1rCDrprztlITsooUgKFNtYWxsIEx5bXBob2N5dGljIEx5bXBob21hKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/림프종 (Lymphoma).md",
+      "sourceTitle": "림프종 (Lymphoma)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/여포성 림프종 (Follicular Lymphoma).md",
+      "targetTitle": "여포성 림프종 (Follicular Lymphoma)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-yXrO2PrOyEsSDrprztlITsooUgKEZvbGxpY3VsYXIgTHltcGhvbWEpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/림프종 (Lymphoma).md",
+      "sourceTitle": "림프종 (Lymphoma)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/호지킨 림프종 (Hodgkin Lymphoma).md",
+      "targetTitle": "호지킨 림프종 (Hodgkin Lymphoma)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-2YuOyngO2CqCDrprztlITsooUgKEhvZGdraW4gTHltcGhvbWEpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/09 혈액/만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia).md",
       "sourceTitle": "만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)",
       "sourceHref": "/disease/MDkg7ZiI7JWhL-unjOyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChDTUwpIChDaHJvbmljIE15ZWxvaWQgTGV1a2VtaWEpLm1k",
@@ -65582,6 +66349,71 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/백혈병 (Leukemia).md",
+      "sourceTitle": "백혈병 (Leukemia)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-uwse2YiOuzkSAoTGV1a2VtaWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia).md",
+      "targetTitle": "급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/백혈병 (Leukemia).md",
+      "sourceTitle": "백혈병 (Leukemia)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-uwse2YiOuzkSAoTGV1a2VtaWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia).md",
+      "targetTitle": "급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-q4ieyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChBTEwpIChBY3V0ZSBMeW1waG9ibGFzdGljIExldWtlbWlhKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/백혈병 (Leukemia).md",
+      "sourceTitle": "백혈병 (Leukemia)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-uwse2YiOuzkSAoTGV1a2VtaWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia).md",
+      "targetTitle": "급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-q4ieyEsSDsoITqs6jsiJjshLEg67Cx7ZiI67ORIChBUEwgTTMpIChBY3V0ZSBQcm9teWVsb2N5dGljIExldWtlbWlhKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/백혈병 (Leukemia).md",
+      "sourceTitle": "백혈병 (Leukemia)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-uwse2YiOuzkSAoTGV1a2VtaWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia).md",
+      "targetTitle": "만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-unjOyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChDTUwpIChDaHJvbmljIE15ZWxvaWQgTGV1a2VtaWEpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/백혈병 (Leukemia).md",
+      "sourceTitle": "백혈병 (Leukemia)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-uwse2YiOuzkSAoTGV1a2VtaWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia).md",
+      "targetTitle": "만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-unjOyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChDTEwpIChDaHJvbmljIEx5bXBob2N5dGljIExldWtlbWlhKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/09 혈액/버킷 림프종 (Burkitt's Lymphoma).md",
       "sourceTitle": "버킷 림프종 (Burkitt's Lymphoma)",
       "sourceHref": "/disease/MDkg7ZiI7JWhL-uyhO2CtyDrprztlITsooUgKEJ1cmtpdHQncyBMeW1waG9tYSkubWQ",
@@ -65730,6 +66562,19 @@
       "sourceHref": "/disease/MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA",
       "relation": "related",
       "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/겸상적혈구병 (Sickle Cell Disease).md",
+      "targetTitle": "겸상적혈구병 (Sickle Cell Disease)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/빈혈 (Anemia).md",
+      "sourceTitle": "빈혈 (Anemia)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
       "targetId": "02 Diseases/09 혈액/만성 질환 빈혈 (Anemia of Chronic Disease).md",
       "targetTitle": "만성 질환 빈혈 (Anemia of Chronic Disease)",
       "targetHref": "/disease/MDkg7ZiI7JWhL-unjOyEsSDsp4jtmZgg67mI7ZiIIChBbmVtaWEgb2YgQ2hyb25pYyBEaXNlYXNlKS5tZA",
@@ -65761,6 +66606,19 @@
       "targetHref": "/disease/MDkg7ZiI7JWhL-yerOyDneu2iOufieyEsSDruYjtmIggKEFBKSAoQXBsYXN0aWMgQW5lbWlhIChBQSkpLm1k",
       "provenance": "wikilink",
       "evidence": "예후 및 합병증"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/빈혈 (Anemia).md",
+      "sourceTitle": "빈혈 (Anemia)",
+      "sourceHref": "/disease/MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/09 혈액/지중해 빈혈 (Thalassemia).md",
+      "targetTitle": "지중해 빈혈 (Thalassemia)",
+      "targetHref": "/disease/MDkg7ZiI7JWhL-yngOykke2VtCDruYjtmIggKFRoYWxhc3NlbWlhKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -68100,7 +68958,7 @@
       "targetTitle": "급성 용혈성 수혈 반응 (Acute Hemolytic Transfusion Reaction)",
       "targetHref": "/disease/MTEg7Jm46rO8L-q4ieyEsSDsmqntmIjshLEg7IiY7ZiIIOuwmOydkSAoQWN1dGUgSGVtb2x5dGljIFRyYW5zZnVzaW9uIFJlYWN0aW9uKS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -68113,7 +68971,7 @@
       "targetTitle": "비용혈성 발열 수혈 반응 (Non-hemolytic Febrile Transfusion Reaction)",
       "targetHref": "/disease/MTEg7Jm46rO8L-u5hOyaqe2YiOyEsSDrsJzsl7Qg7IiY7ZiIIOuwmOydkSAoTm9uLWhlbW9seXRpYyBGZWJyaWxlIFRyYW5zZnVzaW9uIFJlYWN0aW9uKS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -68126,7 +68984,7 @@
       "targetTitle": "수혈 관련 급성 폐 손상 (Transfusion-Related Acute Lung Injury)",
       "targetHref": "/disease/MTEg7Jm46rO8L-yImO2YiCDqtIDroKgg6riJ7ISxIO2PkCDshpDsg4EgKFRyYW5zZnVzaW9uLVJlbGF0ZWQgQWN1dGUgTHVuZyBJbmp1cnkpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -68139,7 +68997,7 @@
       "targetTitle": "수혈 관련 순환량 과다 (Transfusion-Associated Circulatory Overload)",
       "targetHref": "/disease/MTEg7Jm46rO8L-yImO2YiCDqtIDroKgg7Iic7ZmY65-JIOqzvOuLpCAoVHJhbnNmdXNpb24tQXNzb2NpYXRlZCBDaXJjdWxhdG9yeSBPdmVybG9hZCkubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -68152,7 +69010,7 @@
       "targetTitle": "수혈 관련 이식편 대 숙주 반응 (Transfusion-Associated Graft-versus-Host Disease)",
       "targetHref": "/disease/MTEg7Jm46rO8L-yImO2YiCDqtIDroKgg7J207Iud7Y64IOuMgCDsiJnso7wg67CY7J2RIChUcmFuc2Z1c2lvbi1Bc3NvY2lhdGVkIEdyYWZ0LXZlcnN1cy1Ib3N0IERpc2Vhc2UpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -68165,7 +69023,7 @@
       "targetTitle": "수혈 후 자반증 (Post-Transfusion Purpura)",
       "targetHref": "/disease/MTEg7Jm46rO8L-yImO2YiCDtm4Qg7J6Q67CY7KadIChQb3N0LVRyYW5zZnVzaW9uIFB1cnB1cmEpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -68178,7 +69036,7 @@
       "targetTitle": "알레르기 비용혈성 수혈 반응 (Allergic Non-hemolytic Transfusion Reaction)",
       "targetHref": "/disease/MTEg7Jm46rO8L-yVjOugiOultOq4sCDruYTsmqntmIjshLEg7IiY7ZiIIOuwmOydkSAoQWxsZXJnaWMgTm9uLWhlbW9seXRpYyBUcmFuc2Z1c2lvbiBSZWFjdGlvbikubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -69153,7 +70011,7 @@
       "targetTitle": "간 손상 (Liver Injury)",
       "targetHref": "/disease/MTEg7Jm46rO8L-qwhCDshpDsg4EgKExpdmVyIEluanVyeSkubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -69166,7 +70024,7 @@
       "targetTitle": "경부외상 (Cervical Trauma)",
       "targetHref": "/disease/MTEg7Jm46rO8L-qyveu2gOyZuOyDgSAoQ2VydmljYWwgVHJhdW1hKS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -69179,7 +70037,7 @@
       "targetTitle": "골반외상 (Pelvic Trauma)",
       "targetHref": "/disease/MTEg7Jm46rO8L-qzqOuwmOyZuOyDgSAoUGVsdmljIFRyYXVtYSkubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -69192,7 +70050,7 @@
       "targetTitle": "관통상 복부외상 (Penetrating Abdominal Injury)",
       "targetHref": "/disease/MTEg7Jm46rO8L-q0gO2GteyDgSDrs7XrtoDsmbjsg4EgKFBlbmV0cmF0aW5nIEFiZG9taW5hbCBJbmp1cnkpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -69205,7 +70063,7 @@
       "targetTitle": "둔상 복부외상 (Blunt Abdominal Trauma)",
       "targetHref": "/disease/MTEg7Jm46rO8L-uRlOyDgSDrs7XrtoDsmbjsg4EgKEJsdW50IEFiZG9taW5hbCBUcmF1bWEpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -69218,7 +70076,7 @@
       "targetTitle": "비장 손상 (Splenic Injury)",
       "targetHref": "/disease/MTEg7Jm46rO8L-u5hOyepSDshpDsg4EgKFNwbGVuaWMgSW5qdXJ5KS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -69231,7 +70089,7 @@
       "targetTitle": "신 손상 (Kidney Injury)",
       "targetHref": "/disease/MTEg7Jm46rO8L-yLoCDshpDsg4EgKEtpZG5leSBJbmp1cnkpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -69257,7 +70115,33 @@
       "targetTitle": "췌장 손상 (Pancreatic Injury)",
       "targetHref": "/disease/MTEg7Jm46rO8L-y3jOyepSDshpDsg4EgKFBhbmNyZWF0aWMgSW5qdXJ5KS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/11 외과/외상.md",
+      "sourceTitle": "외상",
+      "sourceHref": "/disease/MTEg7Jm46rO8L-yZuOyDgS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/11 외과/혈관 손상.md",
+      "targetTitle": "혈관 손상",
+      "targetHref": "/disease/MTEg7Jm46rO8L-2YiOq0gCDshpDsg4EubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/11 외과/외상.md",
+      "sourceTitle": "외상",
+      "sourceHref": "/disease/MTEg7Jm46rO8L-yZuOyDgS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/11 외과/흉부 외상.md",
+      "targetTitle": "흉부 외상",
+      "targetHref": "/disease/MTEg7Jm46rO8L-2dieu2gCDsmbjsg4EubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -69596,6 +70480,45 @@
       "targetHref": "/cc/7Zi47Z2h6rOk656A",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/11 외과/화상 (Burn).md",
+      "sourceTitle": "화상 (Burn)",
+      "sourceHref": "/disease/MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/11 외과/전기 화상 (Electrical Burn).md",
+      "targetTitle": "전기 화상 (Electrical Burn)",
+      "targetHref": "/disease/MTEg7Jm46rO8L-yghOq4sCDtmZTsg4EgKEVsZWN0cmljYWwgQnVybikubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/11 외과/화상 (Burn).md",
+      "sourceTitle": "화상 (Burn)",
+      "sourceHref": "/disease/MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/11 외과/화학물질화상 (Chemical Burn).md",
+      "targetTitle": "화학물질화상 (Chemical Burn)",
+      "targetHref": "/disease/MTEg7Jm46rO8L-2ZlO2VmeusvOyniO2ZlOyDgSAoQ2hlbWljYWwgQnVybikubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/11 외과/화상 (Burn).md",
+      "sourceTitle": "화상 (Burn)",
+      "sourceHref": "/disease/MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/11 외과/흡입화상 (Inhalation Burn).md",
+      "targetTitle": "흡입화상 (Inhalation Burn)",
+      "targetHref": "/disease/MTEg7Jm46rO8L-2doeyehe2ZlOyDgSAoSW5oYWxhdGlvbiBCdXJuKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -70856,7 +71779,7 @@
       "targetTitle": "자궁경부 열창 (Cervical Laceration)",
       "targetHref": "/disease/MTIg7IKw6rO8L-yekOq2geqyveu2gCDsl7TssL0gKENlcnZpY2FsIExhY2VyYXRpb24pLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -70869,7 +71792,7 @@
       "targetTitle": "자궁내번증 (Uterine Inversion)",
       "targetHref": "/disease/MTIg7IKw6rO8L-yekOq2geuCtOuyiOymnSAoVXRlcmluZSBJbnZlcnNpb24pLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -70882,7 +71805,7 @@
       "targetTitle": "자궁이완증 (Uterine Atony)",
       "targetHref": "/disease/MTIg7IKw6rO8L-yekOq2geydtOyZhOymnSAoVXRlcmluZSBBdG9ueSkubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -70895,7 +71818,7 @@
       "targetTitle": "잔류태반 (Retained Placenta)",
       "targetHref": "/disease/MTIg7IKw6rO8L-yelOulmO2DnOuwmCAoUmV0YWluZWQgUGxhY2VudGEpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -71000,6 +71923,32 @@
       "targetHref": "/cc/7LK07KSR7Kad6rCA",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/12 산과/쌍둥이 임신 (Multiple Gestation).md",
+      "sourceTitle": "쌍둥이 임신 (Multiple Gestation)",
+      "sourceHref": "/disease/MTIg7IKw6rO8L-yMjeuRpeydtCDsnoTsi6AgKE11bHRpcGxlIEdlc3RhdGlvbikubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/12 산과/단일 양막성 쌍태 임신 (Monoamniotic Twins).md",
+      "targetTitle": "단일 양막성 쌍태 임신 (Monoamniotic Twins)",
+      "targetHref": "/disease/MTIg7IKw6rO8L-uLqOydvCDslpHrp4nshLEg7IyN7YOcIOyehOyLoCAoTW9ub2FtbmlvdGljIFR3aW5zKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/12 산과/쌍둥이 임신 (Multiple Gestation).md",
+      "sourceTitle": "쌍둥이 임신 (Multiple Gestation)",
+      "sourceHref": "/disease/MTIg7IKw6rO8L-yMjeuRpeydtCDsnoTsi6AgKE11bHRpcGxlIEdlc3RhdGlvbikubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/12 산과/쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome).md",
+      "targetTitle": "쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)",
+      "targetHref": "/disease/MTIg7IKw6rO8L-yMjeuRpeydtCDqsIQg7IiY7ZiIIOymne2bhOq1sCAoVHdpbi10by1Ud2luIFRyYW5zZnVzaW9uIFN5bmRyb21lKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -71194,7 +72143,7 @@
       "targetTitle": "융모 양막염 (Chorioamnionitis)",
       "targetHref": "/disease/MTIg7IKw6rO8L-ycteuqqCDslpHrp4nsl7wgKENob3Jpb2Ftbmlvbml0aXMpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -71377,6 +72326,58 @@
       "targetHref": "/disease/MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA",
       "provenance": "frontmatter",
       "evidence": "parent_disease"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/12 산과/임신성고혈압 (Gestational Hypertension).md",
+      "sourceTitle": "임신성고혈압 (Gestational Hypertension)",
+      "sourceHref": "/disease/MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/12 산과/자간증 (Eclampsia).md",
+      "targetTitle": "자간증 (Eclampsia)",
+      "targetHref": "/disease/MTIg7IKw6rO8L-yekOqwhOymnSAoRWNsYW1wc2lhKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/12 산과/임신성고혈압 (Gestational Hypertension).md",
+      "sourceTitle": "임신성고혈압 (Gestational Hypertension)",
+      "sourceHref": "/disease/MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/12 산과/전자간증 (Preeclampsia).md",
+      "targetTitle": "전자간증 (Preeclampsia)",
+      "targetHref": "/disease/MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/12 산과/임신성고혈압 (Gestational Hypertension).md",
+      "sourceTitle": "임신성고혈압 (Gestational Hypertension)",
+      "sourceHref": "/disease/MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/12 산과/중증 전자간증 (Severe Pre-eclampsia).md",
+      "targetTitle": "중증 전자간증 (Severe Pre-eclampsia)",
+      "targetHref": "/disease/MTIg7IKw6rO8L-ykkeymnSDsoITsnpDqsITspp0gKFNldmVyZSBQcmUtZWNsYW1wc2lhKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/12 산과/임신성고혈압 (Gestational Hypertension).md",
+      "sourceTitle": "임신성고혈압 (Gestational Hypertension)",
+      "sourceHref": "/disease/MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/12 산과/HELLP 증후군 (HELLP Syndrome).md",
+      "targetTitle": "HELLP 증후군 (HELLP Syndrome)",
+      "targetHref": "/disease/MTIg7IKw6rO8L0hFTExQIOymne2bhOq1sCAoSEVMTFAgU3luZHJvbWUpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -79713,6 +80714,136 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+      "sourceTitle": "소아 유전질환",
+      "sourceHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/14 소아청소년과/소아과 총론/레트 증후군 (Rett Syndrome).md",
+      "targetTitle": "레트 증후군 (Rett Syndrome)",
+      "targetHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv66CI7Yq4IOymne2bhOq1sCAoUmV0dCBTeW5kcm9tZSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+      "sourceTitle": "소아 유전질환",
+      "sourceHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/14 소아청소년과/소아과 총론/원발성 섬모운동이상증 (Primary Ciliary Dyskinesia).md",
+      "targetTitle": "원발성 섬모운동이상증 (Primary Ciliary Dyskinesia)",
+      "targetHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JuQ67Cc7ISxIOyErOuqqOyatOuPmeydtOyDgeymnSAoUHJpbWFyeSBDaWxpYXJ5IER5c2tpbmVzaWEpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+      "sourceTitle": "소아 유전질환",
+      "sourceHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/14 소아청소년과/소아과 총론/윌리엄스 증후군 (Williams Syndrome).md",
+      "targetTitle": "윌리엄스 증후군 (Williams Syndrome)",
+      "targetHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JyM66as7JeE7IqkIOymne2bhOq1sCAoV2lsbGlhbXMgU3luZHJvbWUpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+      "sourceTitle": "소아 유전질환",
+      "sourceHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/14 소아청소년과/소아과 총론/취약 X 증후군 (Fragile X Syndrome).md",
+      "targetTitle": "취약 X 증후군 (Fragile X Syndrome)",
+      "targetHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Leo7JW9IFgg7Kad7ZuE6rWwIChGcmFnaWxlIFggU3luZHJvbWUpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+      "sourceTitle": "소아 유전질환",
+      "sourceHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/14 소아청소년과/소아과 총론/파타우 증후군 (Patau Syndrome).md",
+      "targetTitle": "파타우 증후군 (Patau Syndrome)",
+      "targetHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YyM7YOA7JqwIOymne2bhOq1sCAoUGF0YXUgU3luZHJvbWUpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+      "sourceTitle": "소아 유전질환",
+      "sourceHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/14 소아청소년과/소아과 총론/헐러 증후군 (Hurler Syndrome).md",
+      "targetTitle": "헐러 증후군 (Hurler Syndrome)",
+      "targetHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ZeQ65-sIOymne2bhOq1sCAoSHVybGVyIFN5bmRyb21lKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+      "sourceTitle": "소아 유전질환",
+      "sourceHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/14 소아청소년과/소아과 총론/Hartnup병 (Hartnup Disease).md",
+      "targetTitle": "Hartnup병 (Hartnup Disease)",
+      "targetHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvSGFydG51cOuzkSAoSGFydG51cCBEaXNlYXNlKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+      "sourceTitle": "소아 유전질환",
+      "sourceHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/14 소아청소년과/소아과 총론/Lesch-Nyhan 증후군.md",
+      "targetTitle": "Lesch-Nyhan 증후군",
+      "targetHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvTGVzY2gtTnloYW4g7Kad7ZuE6rWwLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+      "sourceTitle": "소아 유전질환",
+      "sourceHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/14 소아청소년과/소아과 총론/Pompe병 (Pompe Disease).md",
+      "targetTitle": "Pompe병 (Pompe Disease)",
+      "targetHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvUG9tcGXrs5EgKFBvbXBlIERpc2Vhc2UpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+      "sourceTitle": "소아 유전질환",
+      "sourceHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/14 소아청소년과/소아과 총론/Tay-Sachs병 (Tay-Sachs Disease).md",
+      "targetTitle": "Tay-Sachs병 (Tay-Sachs Disease)",
+      "targetHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAvVGF5LVNhY2hz67ORIChUYXktU2FjaHMgRGlzZWFzZSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/14 소아청소년과/소아과 총론/소아과 총론.md",
       "sourceTitle": "소아과 총론",
       "sourceHref": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWE6rO8IOy0neuhoC5tZA",
@@ -82474,6 +83605,19 @@
       "sourceHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyduOyngOyepeyVoCAoTmV1cm9jb2duaXRpdmUgRGlzb3JkZXJzKS5tZA",
       "relation": "related",
       "targetType": "disease",
+      "targetId": "02 Diseases/15 정신건강의학과/치매 (Dementia).md",
+      "targetTitle": "치매 (Dementia)",
+      "targetHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/15 정신건강의학과/신경인지장애 (Neurocognitive Disorders).md",
+      "sourceTitle": "신경인지장애 (Neurocognitive Disorders)",
+      "sourceHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyduOyngOyepeyVoCAoTmV1cm9jb2duaXRpdmUgRGlzb3JkZXJzKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
       "targetId": "02 Diseases/15 정신건강의학과/혈관성 치매 (Vascular Dementia).md",
       "targetTitle": "혈관성 치매 (Vascular Dementia)",
       "targetHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2YiOq0gOyEsSDsuZjrp6QgKFZhc2N1bGFyIERlbWVudGlhKS5tZA",
@@ -83990,6 +85134,58 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/15 정신건강의학과/치매 (Dementia).md",
+      "sourceTitle": "치매 (Dementia)",
+      "sourceHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/15 정신건강의학과/레비 소체 치매 (Dementia with Lewy Bodies).md",
+      "targetTitle": "레비 소체 치매 (Dementia with Lewy Bodies)",
+      "targetHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ugiOu5hCDshozssrQg7LmY66ekIChEZW1lbnRpYSB3aXRoIExld3kgQm9kaWVzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/15 정신건강의학과/치매 (Dementia).md",
+      "sourceTitle": "치매 (Dementia)",
+      "sourceHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/15 정신건강의학과/알츠하이머 치매 (Alzheimer's Disease).md",
+      "targetTitle": "알츠하이머 치매 (Alzheimer's Disease)",
+      "targetHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy4oO2VmOydtOuouCDsuZjrp6QgKEFsemhlaW1lcidzIERpc2Vhc2UpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/15 정신건강의학과/치매 (Dementia).md",
+      "sourceTitle": "치매 (Dementia)",
+      "sourceHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/15 정신건강의학과/전두측두엽 치매 (Frontotemporal Dementia).md",
+      "targetTitle": "전두측두엽 치매 (Frontotemporal Dementia)",
+      "targetHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghOuRkOy4oeuRkOyXvSDsuZjrp6QgKEZyb250b3RlbXBvcmFsIERlbWVudGlhKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/15 정신건강의학과/치매 (Dementia).md",
+      "sourceTitle": "치매 (Dementia)",
+      "sourceHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/15 정신건강의학과/혈관성 치매 (Vascular Dementia).md",
+      "targetTitle": "혈관성 치매 (Vascular Dementia)",
+      "targetHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2YiOq0gOyEsSDsuZjrp6QgKFZhc2N1bGFyIERlbWVudGlhKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/15 정신건강의학과/특정 공포증 (Specific Phobia).md",
       "sourceTitle": "특정 공포증 (Specific Phobia)",
       "sourceHref": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2KueyglSDqs7Xtj6zspp0gKFNwZWNpZmljIFBob2JpYSkubWQ",
@@ -85030,6 +86226,97 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/뇌종양 (Brain tumor).md",
+      "sourceTitle": "뇌종양 (Brain tumor)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsooXslpEgKEJyYWluIHR1bW9yKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/교모세포종 (Glioblastoma).md",
+      "targetTitle": "교모세포종 (Glioblastoma)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qtZDrqqjshLjtj6zsooUgKEdsaW9ibGFzdG9tYSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/뇌종양 (Brain tumor).md",
+      "sourceTitle": "뇌종양 (Brain tumor)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsooXslpEgKEJyYWluIHR1bW9yKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/뇌수막종 (Meningioma).md",
+      "targetTitle": "뇌수막종 (Meningioma)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsooUgKE1lbmluZ2lvbWEpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/뇌종양 (Brain tumor).md",
+      "sourceTitle": "뇌종양 (Brain tumor)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsooXslpEgKEJyYWluIHR1bW9yKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/뇌종양 관련 두통 (Headache due to brain tumor).md",
+      "targetTitle": "뇌종양 관련 두통 (Headache due to brain tumor)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsooXslpEg6rSA66CoIOuRkO2GtSAoSGVhZGFjaGUgZHVlIHRvIGJyYWluIHR1bW9yKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/뇌종양 (Brain tumor).md",
+      "sourceTitle": "뇌종양 (Brain tumor)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsooXslpEgKEJyYWluIHR1bW9yKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/두개인두종 (Craniopharyngioma).md",
+      "targetTitle": "두개인두종 (Craniopharyngioma)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDqsJzsnbjrkZDsooUgKENyYW5pb3BoYXJ5bmdpb21hKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/뇌종양 (Brain tumor).md",
+      "sourceTitle": "뇌종양 (Brain tumor)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsooXslpEgKEJyYWluIHR1bW9yKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/신경초종 (Schwannoma).md",
+      "targetTitle": "신경초종 (Schwannoma)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_si6Dqsr3stIjsooUgKFNjaHdhbm5vbWEpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/뇌종양 (Brain tumor).md",
+      "sourceTitle": "뇌종양 (Brain tumor)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsooXslpEgKEJyYWluIHR1bW9yKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/전이성 뇌종양 (Metastatic brain tumor).md",
+      "targetTitle": "전이성 뇌종양 (Metastatic brain tumor)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_soITsnbTshLEg64eM7KKF7JaRIChNZXRhc3RhdGljIGJyYWluIHR1bW9yKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/뇌종양 (Brain tumor).md",
+      "sourceTitle": "뇌종양 (Brain tumor)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsooXslpEgKEJyYWluIHR1bW9yKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/혈관모세포종 (Hemangioblastoma).md",
+      "targetTitle": "혈관모세포종 (Hemangioblastoma)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tmIjqtIDrqqjshLjtj6zsooUgKEhlbWFuZ2lvYmxhc3RvbWEpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/16 신경과-신경외과/뇌종양 관련 두통 (Headache due to brain tumor).md",
       "sourceTitle": "뇌종양 관련 두통 (Headache due to brain tumor)",
       "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsooXslpEg6rSA66CoIOuRkO2GtSAoSGVhZGFjaGUgZHVlIHRvIGJyYWluIHR1bW9yKS5tZA",
@@ -85391,6 +86678,84 @@
       "targetHref": "/cc/65GQ7Ya1",
       "provenance": "generated",
       "evidence": "recommendation disease"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/두통.md",
+      "sourceTitle": "두통",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDthrUubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/군발두통 (Cluster headache).md",
+      "targetTitle": "군발두통 (Cluster headache)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qtbDrsJzrkZDthrUgKENsdXN0ZXIgaGVhZGFjaGUpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/두통.md",
+      "sourceTitle": "두통",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDthrUubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/긴장형두통 (Tension-type headache).md",
+      "targetTitle": "긴장형두통 (Tension-type headache)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_quLTsnqXtmJXrkZDthrUgKFRlbnNpb24tdHlwZSBoZWFkYWNoZSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/두통.md",
+      "sourceTitle": "두통",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDthrUubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/뇌종양 관련 두통 (Headache due to brain tumor).md",
+      "targetTitle": "뇌종양 관련 두통 (Headache due to brain tumor)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsooXslpEg6rSA66CoIOuRkO2GtSAoSGVhZGFjaGUgZHVlIHRvIGJyYWluIHR1bW9yKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/두통.md",
+      "sourceTitle": "두통",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDthrUubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/뇌혈관 관련 두통 (Headache due to cerebrovascular disease).md",
+      "targetTitle": "뇌혈관 관련 두통 (Headache due to cerebrovascular disease)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4ztmIjqtIAg6rSA66CoIOuRkO2GtSAoSGVhZGFjaGUgZHVlIHRvIGNlcmVicm92YXNjdWxhciBkaXNlYXNlKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/두통.md",
+      "sourceTitle": "두통",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDthrUubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/자발적두개내압저하증 (Spontaneous intracranial hypotension).md",
+      "targetTitle": "자발적두개내압저하증 (Spontaneous intracranial hypotension)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_snpDrsJzsoIHrkZDqsJzrgrTslZXsoIDtlZjspp0gKFNwb250YW5lb3VzIGludHJhY3JhbmlhbCBoeXBvdGVuc2lvbikubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/두통.md",
+      "sourceTitle": "두통",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDthrUubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/편두통 (Migraine).md",
+      "targetTitle": "편두통 (Migraine)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjrjrkZDthrUgKE1pZ3JhaW5lKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -86382,6 +87747,71 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/신경근육질환.md",
+      "sourceTitle": "신경근육질환",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_si6Dqsr3qt7zsnKHsp4jtmZgubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/근위축성 측삭 경화증 (Amyotrophic lateral sclerosis).md",
+      "targetTitle": "근위축성 측삭 경화증 (Amyotrophic lateral sclerosis)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qt7zsnITstpXshLEg7Lih7IKtIOqyve2ZlOymnSAoQW15b3Ryb3BoaWMgbGF0ZXJhbCBzY2xlcm9zaXMpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/신경근육질환.md",
+      "sourceTitle": "신경근육질환",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_si6Dqsr3qt7zsnKHsp4jtmZgubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/길랑-바레 증후군 (Guillain-Barré syndrome).md",
+      "targetTitle": "길랑-바레 증후군 (Guillain-Barré syndrome)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_quLjrnpEt67CU66CIIOymne2bhOq1sCAoR3VpbGxhaW4tQmFycsOpIHN5bmRyb21lKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/신경근육질환.md",
+      "sourceTitle": "신경근육질환",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_si6Dqsr3qt7zsnKHsp4jtmZgubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/다발성 경화증 (Multiple sclerosis).md",
+      "targetTitle": "다발성 경화증 (Multiple sclerosis)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/신경근육질환.md",
+      "sourceTitle": "신경근육질환",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_si6Dqsr3qt7zsnKHsp4jtmZgubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/삼차신경통 (Trigeminal neuralgia).md",
+      "targetTitle": "삼차신경통 (Trigeminal neuralgia)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sgrzssKjsi6Dqsr3thrUgKFRyaWdlbWluYWwgbmV1cmFsZ2lhKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/신경근육질환.md",
+      "sourceTitle": "신경근육질환",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_si6Dqsr3qt7zsnKHsp4jtmZgubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/중증 근무력증 (Myasthenia gravis).md",
+      "targetTitle": "중증 근무력증 (Myasthenia gravis)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_spJHspp0g6re866y066Cl7KadIChNeWFzdGhlbmlhIGdyYXZpcykubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/16 신경과-신경외과/신경초종 (Schwannoma).md",
       "sourceTitle": "신경초종 (Schwannoma)",
       "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_si6Dqsr3stIjsooUgKFNjaHdhbm5vbWEpLm1k",
@@ -86431,6 +87861,71 @@
       "targetHref": "/cc/65ao66a877yP7Jq064-Z7J207IOB",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/이상운동질환.md",
+      "sourceTitle": "이상운동질환",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_snbTsg4HsmrTrj5nsp4jtmZgubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/본태성 떨림 (Essential tremor).md",
+      "targetTitle": "본태성 떨림 (Essential tremor)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rs7jtg5zshLEg65ao66a8IChFc3NlbnRpYWwgdHJlbW9yKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/이상운동질환.md",
+      "sourceTitle": "이상운동질환",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_snbTsg4HsmrTrj5nsp4jtmZgubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/서경 (Writer's cramp).md",
+      "targetTitle": "서경 (Writer's cramp)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_shJzqsr0gKFdyaXRlcidzIGNyYW1wKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/이상운동질환.md",
+      "sourceTitle": "이상운동질환",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_snbTsg4HsmrTrj5nsp4jtmZgubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/파킨슨 증후군 (Parkinsonism).md",
+      "targetTitle": "파킨슨 증후군 (Parkinsonism)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjIztgqjsiqgg7Kad7ZuE6rWwIChQYXJraW5zb25pc20pLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/이상운동질환.md",
+      "sourceTitle": "이상운동질환",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_snbTsg4HsmrTrj5nsp4jtmZgubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/파킨슨 플러스 증후군 (Parkinson-plus syndrome).md",
+      "targetTitle": "파킨슨 플러스 증후군 (Parkinson-plus syndrome)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjIztgqjsiqgg7ZSM65-s7IqkIOymne2bhOq1sCAoUGFya2luc29uLXBsdXMgc3luZHJvbWUpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/이상운동질환.md",
+      "sourceTitle": "이상운동질환",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_snbTsg4HsmrTrj5nsp4jtmZgubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/헌팅턴병 (Huntington Disease).md",
+      "targetTitle": "헌팅턴병 (Huntington Disease)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4ztjIXthLTrs5EgKEh1bnRpbmd0b24gRGlzZWFzZSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -86681,6 +88176,58 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/척수 외상 (Spinal cord trauma).md",
+      "sourceTitle": "척수 외상 (Spinal cord trauma)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sspnsiJgg7Jm47IOBIChTcGluYWwgY29yZCB0cmF1bWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/전 척수 증후군 (Anterior cord syndrome).md",
+      "targetTitle": "전 척수 증후군 (Anterior cord syndrome)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_soIQg7LKZ7IiYIOymne2bhOq1sCAoQW50ZXJpb3IgY29yZCBzeW5kcm9tZSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/척수 외상 (Spinal cord trauma).md",
+      "sourceTitle": "척수 외상 (Spinal cord trauma)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sspnsiJgg7Jm47IOBIChTcGluYWwgY29yZCB0cmF1bWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/중심 척수 증후군 (Central cord syndrome).md",
+      "targetTitle": "중심 척수 증후군 (Central cord syndrome)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_spJHsi6wg7LKZ7IiYIOymne2bhOq1sCAoQ2VudHJhbCBjb3JkIHN5bmRyb21lKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/척수 외상 (Spinal cord trauma).md",
+      "sourceTitle": "척수 외상 (Spinal cord trauma)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sspnsiJgg7Jm47IOBIChTcGluYWwgY29yZCB0cmF1bWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/후 척수 증후군 (Posterior cord syndrome).md",
+      "targetTitle": "후 척수 증후군 (Posterior cord syndrome)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tm4Qg7LKZ7IiYIOymne2bhOq1sCAoUG9zdGVyaW9yIGNvcmQgc3luZHJvbWUpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/척수 외상 (Spinal cord trauma).md",
+      "sourceTitle": "척수 외상 (Spinal cord trauma)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sspnsiJgg7Jm47IOBIChTcGluYWwgY29yZCB0cmF1bWEpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/Brown-Sequard 증후군 (Brown-Sequard syndrome).md",
+      "targetTitle": "Brown-Sequard 증후군 (Brown-Sequard syndrome)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC9Ccm93bi1TZXF1YXJkIOymne2bhOq1sCAoQnJvd24tU2VxdWFyZCBzeW5kcm9tZSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/16 신경과-신경외과/추골동맥-기저동맥 경색 (Vertebral artery - Basilar artery infarction).md",
       "sourceTitle": "추골동맥-기저동맥 경색 (Vertebral artery - Basilar artery infarction)",
       "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_stpTqs6jrj5nrp6Ut6riw7KCA64-Z66elIOqyveyDiSAoVmVydGVicmFsIGFydGVyeSAtIEJhc2lsYXIgYXJ0ZXJ5IGluZmFyY3Rpb24pLm1k",
@@ -86751,11 +88298,50 @@
       "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_stpztmIjshLEg64eM7KG47KSRIChIZW1vcnJoYWdpYyBTdHJva2UpLm1k",
       "relation": "related",
       "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/경막외 출혈 (Epidural hemorrhage).md",
+      "targetTitle": "경막외 출혈 (Epidural hemorrhage)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qsr3rp4nsmbgg7Lac7ZiIIChFcGlkdXJhbCBoZW1vcnJoYWdlKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/출혈성 뇌졸중 (Hemorrhagic Stroke).md",
+      "sourceTitle": "출혈성 뇌졸중 (Hemorrhagic Stroke)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_stpztmIjshLEg64eM7KG47KSRIChIZW1vcnJoYWdpYyBTdHJva2UpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/급성 경막하 출혈 (Acute subdural hematoma).md",
+      "targetTitle": "급성 경막하 출혈 (Acute subdural hematoma)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_quInshLEg6rK966eJ7ZWYIOy2nO2YiCAoQWN1dGUgc3ViZHVyYWwgaGVtYXRvbWEpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/출혈성 뇌졸중 (Hemorrhagic Stroke).md",
+      "sourceTitle": "출혈성 뇌졸중 (Hemorrhagic Stroke)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_stpztmIjshLEg64eM7KG47KSRIChIZW1vcnJoYWdpYyBTdHJva2UpLm1k",
+      "relation": "related",
+      "targetType": "disease",
       "targetId": "02 Diseases/16 신경과-신경외과/뇌내 출혈 (Intracerebral hemorrhage).md",
       "targetTitle": "뇌내 출혈 (Intracerebral hemorrhage)",
       "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zrgrQg7Lac7ZiIIChJbnRyYWNlcmVicmFsIGhlbW9ycmhhZ2UpLm1k",
       "provenance": "wikilink",
       "evidence": "예후 및 합병증"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/출혈성 뇌졸중 (Hemorrhagic Stroke).md",
+      "sourceTitle": "출혈성 뇌졸중 (Hemorrhagic Stroke)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_stpztmIjshLEg64eM7KG47KSRIChIZW1vcnJoYWdpYyBTdHJva2UpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/만성 경막하 출혈 (Chronic subdural hematoma).md",
+      "targetTitle": "만성 경막하 출혈 (Chronic subdural hematoma)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rp4zshLEg6rK966eJ7ZWYIOy2nO2YiCAoQ2hyb25pYyBzdWJkdXJhbCBoZW1hdG9tYSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -87003,6 +88589,123 @@
       "targetHref": "/cc/7J2Y7Iud7J6l7JWg",
       "provenance": "generated",
       "evidence": "ER"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/허혈성 뇌졸중 (Ischemic stroke).md",
+      "sourceTitle": "허혈성 뇌졸중 (Ischemic stroke)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/경동맥 협착증 (Carotid artery stenosis).md",
+      "targetTitle": "경동맥 협착증 (Carotid artery stenosis)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qsr3rj5nrp6Ug7ZiR7LCp7KadIChDYXJvdGlkIGFydGVyeSBzdGVub3NpcykubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/허혈성 뇌졸중 (Ischemic stroke).md",
+      "sourceTitle": "허혈성 뇌졸중 (Ischemic stroke)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/모야모야병 (Moyamoya disease).md",
+      "targetTitle": "모야모야병 (Moyamoya disease)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rqqjslbzrqqjslbzrs5EgKE1veWFtb3lhIGRpc2Vhc2UpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/허혈성 뇌졸중 (Ischemic stroke).md",
+      "sourceTitle": "허혈성 뇌졸중 (Ischemic stroke)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/일과성 허혈 발작 (Transient ischemic attack).md",
+      "targetTitle": "일과성 허혈 발작 (Transient ischemic attack)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_snbzqs7zshLEg7ZeI7ZiIIOuwnOyekSAoVHJhbnNpZW50IGlzY2hlbWljIGF0dGFjaykubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/허혈성 뇌졸중 (Ischemic stroke).md",
+      "sourceTitle": "허혈성 뇌졸중 (Ischemic stroke)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/추골동맥-기저동맥 경색 (Vertebral artery - Basilar artery infarction).md",
+      "targetTitle": "추골동맥-기저동맥 경색 (Vertebral artery - Basilar artery infarction)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_stpTqs6jrj5nrp6Ut6riw7KCA64-Z66elIOqyveyDiSAoVmVydGVicmFsIGFydGVyeSAtIEJhc2lsYXIgYXJ0ZXJ5IGluZmFyY3Rpb24pLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/허혈성 뇌졸중 (Ischemic stroke).md",
+      "sourceTitle": "허혈성 뇌졸중 (Ischemic stroke)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/하나반 증후군 (One and a half syndrome).md",
+      "targetTitle": "하나반 증후군 (One and a half syndrome)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tlZjrgpjrsJgg7Kad7ZuE6rWwIChPbmUgYW5kIGEgaGFsZiBzeW5kcm9tZSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/허혈성 뇌졸중 (Ischemic stroke).md",
+      "sourceTitle": "허혈성 뇌졸중 (Ischemic stroke)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/ACA 경색 (ACA infarction).md",
+      "targetTitle": "ACA 경색 (ACA infarction)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC9BQ0Eg6rK97IOJIChBQ0EgaW5mYXJjdGlvbikubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/허혈성 뇌졸중 (Ischemic stroke).md",
+      "sourceTitle": "허혈성 뇌졸중 (Ischemic stroke)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/Lenticulostriate 동맥 경색 (Lenticulostriate artery infarction).md",
+      "targetTitle": "Lenticulostriate 동맥 경색 (Lenticulostriate artery infarction)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC9MZW50aWN1bG9zdHJpYXRlIOuPmeunpSDqsr3sg4kgKExlbnRpY3Vsb3N0cmlhdGUgYXJ0ZXJ5IGluZmFyY3Rpb24pLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/허혈성 뇌졸중 (Ischemic stroke).md",
+      "sourceTitle": "허혈성 뇌졸중 (Ischemic stroke)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/MCA 경색 (MCA infarction).md",
+      "targetTitle": "MCA 경색 (MCA infarction)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC9NQ0Eg6rK97IOJIChNQ0EgaW5mYXJjdGlvbikubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/16 신경과-신경외과/허혈성 뇌졸중 (Ischemic stroke).md",
+      "sourceTitle": "허혈성 뇌졸중 (Ischemic stroke)",
+      "sourceHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/16 신경과-신경외과/PCA 경색 (PCA infarction).md",
+      "targetTitle": "PCA 경색 (PCA infarction)",
+      "targetHref": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC9QQ0Eg6rK97IOJIChQQ0EgaW5mYXJjdGlvbikubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -88813,6 +90516,45 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/19 피부과/구진인설성질환.md",
+      "sourceTitle": "구진인설성질환",
+      "sourceHref": "/disease/MTkg7ZS867aA6rO8L-q1rOynhOyduOyEpOyEseyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/19 피부과/건선 (Psoriasis).md",
+      "targetTitle": "건선 (Psoriasis)",
+      "targetHref": "/disease/MTkg7ZS867aA6rO8L-qxtOyEoCAoUHNvcmlhc2lzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/19 피부과/구진인설성질환.md",
+      "sourceTitle": "구진인설성질환",
+      "sourceHref": "/disease/MTkg7ZS867aA6rO8L-q1rOynhOyduOyEpOyEseyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/19 피부과/장미색 비늘증 (Pityriasis Rosea).md",
+      "targetTitle": "장미색 비늘증 (Pityriasis Rosea)",
+      "targetHref": "/disease/MTkg7ZS867aA6rO8L-yepeuvuOyDiSDruYTripjspp0gKFBpdHlyaWFzaXMgUm9zZWEpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/19 피부과/구진인설성질환.md",
+      "sourceTitle": "구진인설성질환",
+      "sourceHref": "/disease/MTkg7ZS867aA6rO8L-q1rOynhOyduOyEpOyEseyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/19 피부과/편평 태선 (Lichen Planus).md",
+      "targetTitle": "편평 태선 (Lichen Planus)",
+      "targetHref": "/disease/MTkg7ZS867aA6rO8L-2OuO2PiSDtg5zshKAgKExpY2hlbiBQbGFudXMpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/19 피부과/기저귀 피부염 (Diaper Dermatitis).md",
       "sourceTitle": "기저귀 피부염 (Diaper Dermatitis)",
       "sourceHref": "/disease/MTkg7ZS867aA6rO8L-q4sOyggOq3gCDtlLzrtoDsl7wgKERpYXBlciBEZXJtYXRpdGlzKS5tZA",
@@ -89161,6 +90903,71 @@
       "targetHref": "/cc/7ZS867aAIOuwnOynhA",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/19 피부과/습진성피부질환.md",
+      "sourceTitle": "습진성피부질환",
+      "sourceHref": "/disease/MTkg7ZS867aA6rO8L-yKteynhOyEse2UvOu2gOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/19 피부과/건성 습진 (Xerotic Eczema).md",
+      "targetTitle": "건성 습진 (Xerotic Eczema)",
+      "targetHref": "/disease/MTkg7ZS867aA6rO8L-qxtOyEsSDsirXsp4QgKFhlcm90aWMgRWN6ZW1hKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/19 피부과/습진성피부질환.md",
+      "sourceTitle": "습진성피부질환",
+      "sourceHref": "/disease/MTkg7ZS867aA6rO8L-yKteynhOyEse2UvOu2gOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/19 피부과/기저귀 피부염 (Diaper Dermatitis).md",
+      "targetTitle": "기저귀 피부염 (Diaper Dermatitis)",
+      "targetHref": "/disease/MTkg7ZS867aA6rO8L-q4sOyggOq3gCDtlLzrtoDsl7wgKERpYXBlciBEZXJtYXRpdGlzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/19 피부과/습진성피부질환.md",
+      "sourceTitle": "습진성피부질환",
+      "sourceHref": "/disease/MTkg7ZS867aA6rO8L-yKteynhOyEse2UvOu2gOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/19 피부과/동전모양 습진 (Nummular Eczema).md",
+      "targetTitle": "동전모양 습진 (Nummular Eczema)",
+      "targetHref": "/disease/MTkg7ZS867aA6rO8L-uPmeyghOuqqOyWkSDsirXsp4QgKE51bW11bGFyIEVjemVtYSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/19 피부과/습진성피부질환.md",
+      "sourceTitle": "습진성피부질환",
+      "sourceHref": "/disease/MTkg7ZS867aA6rO8L-yKteynhOyEse2UvOu2gOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/19 피부과/접촉피부염 (Contact Dermatitis).md",
+      "targetTitle": "접촉피부염 (Contact Dermatitis)",
+      "targetHref": "/disease/MTkg7ZS867aA6rO8L-ygkey0ie2UvOu2gOyXvCAoQ29udGFjdCBEZXJtYXRpdGlzKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/19 피부과/습진성피부질환.md",
+      "sourceTitle": "습진성피부질환",
+      "sourceHref": "/disease/MTkg7ZS867aA6rO8L-yKteynhOyEse2UvOu2gOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/19 피부과/지루 피부염 (Seborrheic Dermatitis).md",
+      "targetTitle": "지루 피부염 (Seborrheic Dermatitis)",
+      "targetHref": "/disease/MTkg7ZS867aA6rO8L-yngOujqCDtlLzrtoDsl7wgKFNlYm9ycmhlaWMgRGVybWF0aXRpcykubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -89863,6 +91670,45 @@
       "targetHref": "/cc/7ZS867aAIOuwnOynhA",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/19 피부과/홍반성피부질환.md",
+      "sourceTitle": "홍반성피부질환",
+      "sourceHref": "/disease/MTkg7ZS867aA6rO8L-2ZjeuwmOyEse2UvOu2gOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/19 피부과/결절 홍반 (Erythema Nodosum).md",
+      "targetTitle": "결절 홍반 (Erythema Nodosum)",
+      "targetHref": "/disease/MTkg7ZS867aA6rO8L-qysOygiCDtmY3rsJggKEVyeXRoZW1hIE5vZG9zdW0pLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/19 피부과/홍반성피부질환.md",
+      "sourceTitle": "홍반성피부질환",
+      "sourceHref": "/disease/MTkg7ZS867aA6rO8L-2ZjeuwmOyEse2UvOu2gOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/19 피부과/경결 홍반 (Erythema Induratum).md",
+      "targetTitle": "경결 홍반 (Erythema Induratum)",
+      "targetHref": "/disease/MTkg7ZS867aA6rO8L-qyveqysCDtmY3rsJggKEVyeXRoZW1hIEluZHVyYXR1bSkubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/19 피부과/홍반성피부질환.md",
+      "sourceTitle": "홍반성피부질환",
+      "sourceHref": "/disease/MTkg7ZS867aA6rO8L-2ZjeuwmOyEse2UvOu2gOyniO2ZmC5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/19 피부과/다형 홍반 (Erythema Multiforme).md",
+      "targetTitle": "다형 홍반 (Erythema Multiforme)",
+      "targetHref": "/disease/MTkg7ZS867aA6rO8L-uLpO2YlSDtmY3rsJggKEVyeXRoZW1hIE11bHRpZm9ybWUpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -90945,6 +92791,110 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/21 응급의학/급성 중독 총론 (General Management of Acute Poisoning).md",
+      "sourceTitle": "급성 중독 총론 (General Management of Acute Poisoning)",
+      "sourceHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/21 응급의학/독성 알코올.md",
+      "targetTitle": "독성 알코올",
+      "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-uPheyEsSDslYzsvZTsmKwubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/21 응급의학/급성 중독 총론 (General Management of Acute Poisoning).md",
+      "sourceTitle": "급성 중독 총론 (General Management of Acute Poisoning)",
+      "sourceHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/21 응급의학/리튬 중독 (Lithium Poisoning).md",
+      "targetTitle": "리튬 중독 (Lithium Poisoning)",
+      "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-umrO2KrCDspJHrj4UgKExpdGhpdW0gUG9pc29uaW5nKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/21 응급의학/급성 중독 총론 (General Management of Acute Poisoning).md",
+      "sourceTitle": "급성 중독 총론 (General Management of Acute Poisoning)",
+      "sourceHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/21 응급의학/보툴리눔 중독 (Botulism).md",
+      "targetTitle": "보툴리눔 중독 (Botulism)",
+      "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-uztO2ItOumrOuIlCDspJHrj4UgKEJvdHVsaXNtKS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/21 응급의학/급성 중독 총론 (General Management of Acute Poisoning).md",
+      "sourceTitle": "급성 중독 총론 (General Management of Acute Poisoning)",
+      "sourceHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/21 응급의학/생물 독소.md",
+      "targetTitle": "생물 독소",
+      "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yDneusvCDrj4XshowubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/21 응급의학/급성 중독 총론 (General Management of Acute Poisoning).md",
+      "sourceTitle": "급성 중독 총론 (General Management of Acute Poisoning)",
+      "sourceHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/21 응급의학/약물 및 화학물질 중독.md",
+      "targetTitle": "약물 및 화학물질 중독",
+      "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yVveusvCDrsI8g7ZmU7ZWZ66y87KeIIOykkeuPhS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/21 응급의학/급성 중독 총론 (General Management of Acute Poisoning).md",
+      "sourceTitle": "급성 중독 총론 (General Management of Acute Poisoning)",
+      "sourceHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/21 응급의학/에틸렌글리콜 중독 (Ethylene Glycol Poisoning).md",
+      "targetTitle": "에틸렌글리콜 중독 (Ethylene Glycol Poisoning)",
+      "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yXkO2LuOugjOq4gOumrOy9nCDspJHrj4UgKEV0aHlsZW5lIEdseWNvbCBQb2lzb25pbmcpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/21 응급의학/급성 중독 총론 (General Management of Acute Poisoning).md",
+      "sourceTitle": "급성 중독 총론 (General Management of Acute Poisoning)",
+      "sourceHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/21 응급의학/일산화탄소 중독 (Carbon Monoxide Poisoning).md",
+      "targetTitle": "일산화탄소 중독 (Carbon Monoxide Poisoning)",
+      "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-ydvOyCsO2ZlO2DhOyGjCDspJHrj4UgKENhcmJvbiBNb25veGlkZSBQb2lzb25pbmcpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/21 응급의학/급성 중독 총론 (General Management of Acute Poisoning).md",
+      "sourceTitle": "급성 중독 총론 (General Management of Acute Poisoning)",
+      "sourceHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/21 응급의학/흡입성 중독.md",
+      "targetTitle": "흡입성 중독",
+      "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-2doeyeheyEsSDspJHrj4UubWQ",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/21 응급의학/다발외상 (Polytrauma).md",
       "sourceTitle": "다발외상 (Polytrauma)",
       "sourceHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-uLpOuwnOyZuOyDgSAoUG9seXRyYXVtYSkubWQ",
@@ -91019,7 +92969,7 @@
       "targetTitle": "에틸렌글리콜 중독 (Ethylene Glycol Poisoning)",
       "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yXkO2LuOugjOq4gOumrOy9nCDspJHrj4UgKEV0aHlsZW5lIEdseWNvbCBQb2lzb25pbmcpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -91162,7 +93112,7 @@
       "targetTitle": "보툴리눔 중독 (Botulism)",
       "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-uztO2ItOumrOuIlCDspJHrj4UgKEJvdHVsaXNtKS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -91266,7 +93216,7 @@
       "targetTitle": "리튬 중독 (Lithium Poisoning)",
       "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-umrO2KrCDspJHrj4UgKExpdGhpdW0gUG9pc29uaW5nKS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -91279,7 +93229,7 @@
       "targetTitle": "벤조디아제핀 중독 (Benzodiazepine Poisoning)",
       "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-uypOyhsOuUlOyVhOygnO2VgCDspJHrj4UgKEJlbnpvZGlhemVwaW5lIFBvaXNvbmluZykubWQ",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -91292,7 +93242,7 @@
       "targetTitle": "살리실산 중독 (Salicylate Poisoning)",
       "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yCtOumrOyLpOyCsCDspJHrj4UgKFNhbGljeWxhdGUgUG9pc29uaW5nKS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -91305,7 +93255,7 @@
       "targetTitle": "삼환계 항우울제 중독 (Tricyclic Antidepressant Poisoning)",
       "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yCvO2ZmOqzhCDtla3smrDsmrjsoJwg7KSR64-FIChUcmljeWNsaWMgQW50aWRlcHJlc3NhbnQgUG9pc29uaW5nKS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -91318,7 +93268,7 @@
       "targetTitle": "아세트아미노펜 중독 (Acetaminophen Poisoning)",
       "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yVhOyEuO2KuOyVhOuvuOuFuO2OnCDspJHrj4UgKEFjZXRhbWlub3BoZW4gUG9pc29uaW5nKS5tZA",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -91331,7 +93281,7 @@
       "targetTitle": "아편유사제 중독 (Opioid Poisoning)",
       "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yVhO2OuOycoOyCrOygnCDspJHrj4UgKE9waW9pZCBQb2lzb25pbmcpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -91344,7 +93294,7 @@
       "targetTitle": "유기인계 중독 (Organophosphate Poisoning)",
       "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-ycoOq4sOyduOqzhCDspJHrj4UgKE9yZ2Fub3Bob3NwaGF0ZSBQb2lzb25pbmcpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -91838,7 +93788,7 @@
       "targetTitle": "일산화탄소 중독 (Carbon Monoxide Poisoning)",
       "targetHref": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-ydvOyCsO2ZlO2DhOyGjCDspJHrj4UgKENhcmJvbiBNb25veGlkZSBQb2lzb25pbmcpLm1k",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -91943,6 +93893,45 @@
       "targetHref": "/cc/6re866Cl77yP6rCQ6rCB7J207IOB",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/22 정형외과/말초신경 손상.md",
+      "sourceTitle": "말초신경 손상",
+      "sourceHref": "/disease/MjIg7KCV7ZiV7Jm46rO8L-unkOy0iOyLoOqyvSDshpDsg4EubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/22 정형외과/요골 신경 손상 (Radial Nerve Injury).md",
+      "targetTitle": "요골 신경 손상 (Radial Nerve Injury)",
+      "targetHref": "/disease/MjIg7KCV7ZiV7Jm46rO8L-yalOqzqCDsi6Dqsr0g7IaQ7IOBIChSYWRpYWwgTmVydmUgSW5qdXJ5KS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/22 정형외과/말초신경 손상.md",
+      "sourceTitle": "말초신경 손상",
+      "sourceHref": "/disease/MjIg7KCV7ZiV7Jm46rO8L-unkOy0iOyLoOqyvSDshpDsg4EubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/22 정형외과/정중 신경 손상 (Median Nerve Injury).md",
+      "targetTitle": "정중 신경 손상 (Median Nerve Injury)",
+      "targetHref": "/disease/MjIg7KCV7ZiV7Jm46rO8L-ygleykkSDsi6Dqsr0g7IaQ7IOBIChNZWRpYW4gTmVydmUgSW5qdXJ5KS5tZA",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/22 정형외과/말초신경 손상.md",
+      "sourceTitle": "말초신경 손상",
+      "sourceHref": "/disease/MjIg7KCV7ZiV7Jm46rO8L-unkOy0iOyLoOqyvSDshpDsg4EubWQ",
+      "relation": "related",
+      "targetType": "disease",
+      "targetId": "02 Diseases/22 정형외과/척골 신경 손상 (Ulnar Nerve Injury).md",
+      "targetTitle": "척골 신경 손상 (Ulnar Nerve Injury)",
+      "targetHref": "/disease/MjIg7KCV7ZiV7Jm46rO8L-yymeqzqCDsi6Dqsr0g7IaQ7IOBIChVbG5hciBOZXJ2ZSBJbmp1cnkpLm1k",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
@@ -108040,7 +110029,7 @@
       "sourceType": "disease",
       "sourceId": "02 Diseases/05 신장/요로질환.md",
       "sourceTitle": "요로질환",
-      "rawTarget": "요로 폐색 (Urinary Tract Obstruction)",
+      "rawTarget": "요로 폐색 (Urinary tract obstruction)",
       "relation": "wikilink",
       "provenance": "wikilink",
       "evidence": "포함 질환"
@@ -110099,6 +112088,24 @@
     },
     {
       "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/빈혈 (Anemia).md",
+      "sourceTitle": "빈혈 (Anemia)",
+      "rawTarget": "용혈성 빈혈 (Hemolytic Anemia)",
+      "relation": "wikilink",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/09 혈액/빈혈 (Anemia).md",
+      "sourceTitle": "빈혈 (Anemia)",
+      "rawTarget": "용혈성 빈혈 (Hemolytic Anemia)",
+      "relation": "wikilink",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
       "sourceId": "02 Diseases/09 혈액/소림프구 림프종 (Small Lymphocytic Lymphoma).md",
       "sourceTitle": "소림프구 림프종 (Small Lymphocytic Lymphoma)",
       "rawTarget": "림프절 비대",
@@ -111559,16 +113566,43 @@
       "sourceType": "disease",
       "sourceId": "02 Diseases/12 산과/임신 중 감염.md",
       "sourceTitle": "임신 중 감염",
+      "rawTarget": "매독 (Syphilis)",
+      "relation": "wikilink",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/12 산과/임신 중 감염.md",
+      "sourceTitle": "임신 중 감염",
+      "rawTarget": "홍역 (Measles)",
+      "relation": "wikilink",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/12 산과/임신 중 감염.md",
+      "sourceTitle": "임신 중 감염",
       "rawTarget": "무증상 세균뇨 (Asymptomatic Bacteriuria)",
       "relation": "wikilink",
       "provenance": "wikilink",
-      "evidence": "포함 질환"
+      "evidence": "하위 질환 감별 포인트"
     },
     {
       "sourceType": "disease",
       "sourceId": "02 Diseases/12 산과/임신 중 감염.md",
       "sourceTitle": "임신 중 감염",
       "rawTarget": "수두 (Varicella)",
+      "relation": "wikilink",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/12 산과/임신 중 감염.md",
+      "sourceTitle": "임신 중 감염",
+      "rawTarget": "매독 (Syphilis)",
       "relation": "wikilink",
       "provenance": "wikilink",
       "evidence": "포함 질환"
@@ -111586,7 +113620,16 @@
       "sourceType": "disease",
       "sourceId": "02 Diseases/12 산과/임신 중 감염.md",
       "sourceTitle": "임신 중 감염",
-      "rawTarget": "매독 (Syphilis)",
+      "rawTarget": "무증상 세균뇨 (Asymptomatic Bacteriuria)",
+      "relation": "wikilink",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/12 산과/임신 중 감염.md",
+      "sourceTitle": "임신 중 감염",
+      "rawTarget": "수두 (Varicella)",
       "relation": "wikilink",
       "provenance": "wikilink",
       "evidence": "포함 질환"
@@ -117269,6 +119312,24 @@
       "relation": "presents_as",
       "provenance": "frontmatter",
       "evidence": "chiefComplaints"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/19 피부과/습진성피부질환.md",
+      "sourceTitle": "습진성피부질환",
+      "rawTarget": "아토피 피부염 (Atopic Dermatitis)",
+      "relation": "wikilink",
+      "provenance": "wikilink",
+      "evidence": "하위 질환 감별 포인트"
+    },
+    {
+      "sourceType": "disease",
+      "sourceId": "02 Diseases/19 피부과/습진성피부질환.md",
+      "sourceTitle": "습진성피부질환",
+      "rawTarget": "아토피 피부염 (Atopic Dermatitis)",
+      "relation": "wikilink",
+      "provenance": "wikilink",
+      "evidence": "포함 질환"
     },
     {
       "sourceType": "disease",

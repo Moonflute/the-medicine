@@ -17,7 +17,13 @@ review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 document_role: "group_overview"
 group_members:
-- "경도 인지 장애 (Mild Cognitive Impairment)"
+- 경도 인지 장애 (Mild Cognitive Impairment)
+- 치매 (Dementia)
+- 섬망 (Delirium)
+- 일과성 전체 기억 상실 (Transient Global Amnesia)- 경도 인지 장애 (Mild Cognitive Impairment)
+- 치매 (Dementia)
+- 섬망 (Delirium)
+- 일과성 전체 기억 상실 (Transient Global Amnesia)- "경도 인지 장애 (Mild Cognitive Impairment)"
 - "섬망 (Delirium)"
 - "일과성 전체 기억 상실 (Transient Global Amnesia)"
 - "치매 (Dementia)"
@@ -57,3 +63,21 @@ group_members:
 - [[일과성 전체 기억 상실 (Transient Global Amnesia)]]
 - [[전두측두엽 치매 (Frontotemporal Dementia)]]
 - [[혈관성 치매 (Vascular Dementia)]]
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[경도 인지 장애 (Mild Cognitive Impairment)]] | 정상적인 노화 과정에서 기대되는 수준을 넘어서는 인지 기능 저하가 있으나, 치매 진단 기준(일상생활 수행 능력의 현저한 저하)을 충족하지 않는 상태 |
+| [[치매 (Dementia)]] | 인지 기능(기억력, 주의력, 언어, 시공간 능력, 실행 기능 등)의 이전 수준 대비 유의미한 저하가 나타나는 상태 |
+| [[섬망 (Delirium)]] | 주의력 및 인지 기능의 급성 장애로, 단기간에 발생하며 증상의 심각도가 변동하는 임상 증후군 |
+| [[일과성 전체 기억 상실 (Transient Global Amnesia)]] | 갑작스러운 전향 기억 상실(anterograde amnesia)과 가변적인 후향 기억 상실(retrograde amnesia)이 나타나는 일시적인 신경학적 증후군 |
+
+## 포함 질환
+- [[경도 인지 장애 (Mild Cognitive Impairment)]]
+- [[치매 (Dementia)]]
+- [[섬망 (Delirium)]]
+- [[일과성 전체 기억 상실 (Transient Global Amnesia)]]

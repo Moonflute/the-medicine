@@ -17,7 +17,17 @@ reviewed_at: "2026-07-30"
 content_updated_at: "2026-07-30"
 document_role: "group_overview"
 group_members:
-- "조현병 (Schizophrenia)"
+- 단기 정신병적 장애 (Brief psychotic disorder)
+- 망상 장애 (Delusional disorder)
+- 산후 정신병 (Postpartum psychosis)
+- 조현병 (Schizophrenia)
+- 조현양상장애 (Schizophreniform disorder)
+- 조현정동장애 (Schizoaffective disorder)- 단기 정신병적 장애 (Brief psychotic disorder)
+- 망상 장애 (Delusional disorder)
+- 산후 정신병 (Postpartum psychosis)
+- 조현병 (Schizophrenia)
+- 조현양상장애 (Schizophreniform disorder)
+- 조현정동장애 (Schizoaffective disorder)- "조현병 (Schizophrenia)"
 - "조현양상장애 (Schizophreniform disorder)"
 - "조현정동장애 (Schizoaffective disorder)"
 - "망상 장애 (Delusional disorder)"
@@ -52,6 +62,28 @@ group_members:
 - 조기 발견 및 지속적인 약물 유지가 예후에 결정적임.
 
 ### 하위 질환
+- [[단기 정신병적 장애 (Brief psychotic disorder)]]
+- [[망상 장애 (Delusional disorder)]]
+- [[산후 정신병 (Postpartum psychosis)]]
+- [[조현병 (Schizophrenia)]]
+- [[조현양상장애 (Schizophreniform disorder)]]
+- [[조현정동장애 (Schizoaffective disorder)]]
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[단기 정신병적 장애 (Brief psychotic disorder)]] | 갑작스럽게 발병하여 1일 이상 1개월 미만으로 지속되는 정신병적 증상(망상, 환각, 와해된 언어, 와해된 행동 등)을 특징으로 함 |
+| [[망상 장애 (Delusional disorder)]] | 1개월 이상 지속되는 하나 이상의 비괴이적(non-bizarre) 망상을 특징으로 하는 질환 |
+| [[산후 정신병 (Postpartum psychosis)]] | 출산 후 수일에서 6주 이내에 발생하는 급성 정신병적 상태로, 정신과적 응급 상황임 |
+| [[조현병 (Schizophrenia)]] | 망상, 환각, 와해된 언어, 와해된 행동, 음성 증상 등이 특징인 만성 정신질환 |
+| [[조현양상장애 (Schizophreniform disorder)]] | 조현병과 유사한 증상이 나타나지만, 지속 기간이 1개월 이상 6개월 미만인 정신질환 |
+| [[조현정동장애 (Schizoaffective disorder)]] | 조현병의 증상과 주요 기분 삽화(조증 또는 우울증)가 동시에 나타나는 질환 |
+
+## 포함 질환
 - [[단기 정신병적 장애 (Brief psychotic disorder)]]
 - [[망상 장애 (Delusional disorder)]]
 - [[산후 정신병 (Postpartum psychosis)]]

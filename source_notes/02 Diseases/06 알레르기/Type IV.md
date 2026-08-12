@@ -3,7 +3,11 @@ aliases: []
 document_role: group_overview
 updated: 2026-08-11
 group_members:
-- 접촉피부염 (Contact Dermatitis)
+- 스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))
+- 약물 발진 호산구증 및 전신 증상 (DRESS) (Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS))
+- 접촉피부염 (Contact Dermatitis)- 스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))
+- 약물 발진 호산구증 및 전신 증상 (DRESS) (Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS))
+- 접촉피부염 (Contact Dermatitis)- 접촉피부염 (Contact Dermatitis)
 - 스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))
 - 약물 발진 호산구증 및 전신 증상 (DRESS) (Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS))
 유형:
@@ -31,4 +35,4 @@ preprocessing_required: x
 ## 포함 질환
 - [[스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))]]
 - [[약물 발진 호산구증 및 전신 증상 (DRESS) (Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS))]]
-- [[접촉 피부염 (Contact Dermatitis)]]
+- [[접촉피부염 (Contact Dermatitis)]]

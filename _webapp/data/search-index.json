@@ -97,7 +97,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 대부분 무증상이며, 두통만으로 고혈압성 응급을 진단하지 않는다.",
     "href": "/disease/MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA"
@@ -3361,7 +3364,10 @@
       "치료 원칙",
       "감염관리 및 공중보건",
       "추적 포인트",
-      "출처"
+      "출처",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "폐결핵은 *Mycobacterium tuberculosis* complex에 의한 활동성 폐 감염이다. 잠복결핵감염(LTBI)과 활동성 결핵은 진단·치료·감염관리 목적이 다르다.",
     "href": "/disease/MDIg7Zi47Z2h6riwL-2PkOqysO2VtSAoUHVsbW9uYXJ5IFR1YmVyY3Vsb3NpcykubWQ"
@@ -3422,7 +3428,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 기침, 화농성 가래, 발열·오한, 호흡곤란, 흉막성 흉통, 빈호흡이 흔하다. 고령에서는 혼돈·기능저하·식욕저하가 주된 단서일 수 있다.",
     "href": "/disease/MDIg7Zi47Z2h6riwL-2PkOugtC5tZA"
@@ -3614,7 +3623,10 @@
       "검사 (Lab & Imaging)",
       "진단 (Diagnosis)",
       "치료",
-      "예후 및 합병증 (Prognosis)"
+      "예후 및 합병증 (Prognosis)",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "폐 조직 내 호산구 침윤과 말초 혈액 호산구 증가를 특징으로 하는 폐 질환. 급성(AEP)과 만성(CEP)으로 분류됨.",
     "href": "/disease/MDIg7Zi47Z2h6riwL-2YuOyCsOq1rCDtj5DroLQgKEVvc2lub3BoaWxpYyBQbmV1bW9uaWEpLm1k"
@@ -3916,7 +3928,10 @@
       "검사 (Lab & Imaging)",
       "진단 (Diagnosis)",
       "치료",
-      "예후 및 합병증 (Prognosis)"
+      "예후 및 합병증 (Prognosis)",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "만성 간 손상으로 간 조직이 광범위하게 섬유화되고, 정상 간 구조가 파괴되어 재생 결절(regenerative nodules)이 형성되는 비가역적 진행성 간 질환",
     "href": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ"
@@ -4048,6 +4063,8 @@
     "keywords": [
       "[간 질환, 간암]",
       "공통 접근",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
     "quickSummary": "• 간 종괴는 간경변·만성 B형 간염 같은 배경 위험, 다상 조영 영상의 혈관 패턴, 간기능과 병기를 함께 평가합니다.",
@@ -4076,7 +4093,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 무증상부터 피로, 식욕저하, 구역·구토, 우상복부 불편감, 황달까지 다양하다. 의식 변화, 출혈 경향, 저혈압·저혈당은 급성 간부전 가능성을 시사한다.",
     "href": "/disease/MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ"
@@ -5246,6 +5266,8 @@
     "keywords": [
       "[간 질환, 지방간]",
       "공통 접근",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
     "quickSummary": "• 지방간 스펙트럼에서는 음주력, 비만·당뇨·이상지질혈증 등 대사 위험, 간효소와 섬유화 위험을 함께 평가합니다.",
@@ -5415,6 +5437,8 @@
     "keywords": [
       "[췌장 질환, 췌장암]",
       "공통 접근",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
     "quickSummary": "• 진행성 황달, 체중 감소, 지속되는 상복부·등 통증, 새로 발생한 당대사 이상은 췌장 및 팽대부 주위 악성 병변을 평가할 단서입니다.",
@@ -5431,6 +5455,8 @@
     "keywords": [
       "[췌장 질환, 췌장염]",
       "공통 접근",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
     "quickSummary": "• 급성 상복부 통증에서는 췌장염 진단 기준과 담석·음주·중성지방·시술 같은 원인을 우선 확인하고, 장기부전으로 중증도를 판단합니다.",
@@ -6719,7 +6745,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 설사, 복통, 혈변, 체중 감소, 피로가 흔하며 관절·피부·눈·간담도 장관외 증상이 동반될 수 있다. 고열, 심한 복통·팽만, 지속 출혈은 중증 합병증을 의심한다.",
     "href": "/disease/MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sl7zspp3shLEg7J6l7KeI7ZmYIChJQkQpIChJbmZsYW1tYXRvcnkgQm93ZWwgRGlzZWFzZSkubWQ"
@@ -8156,7 +8185,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 의식 변화, 쇼크·심한 탈수, 반복 구토·복통, 케톤 양성, 빠르고 깊은 호흡, 중증 저혈당 또는 경련은 응급실 평가가 필요하다.",
     "href": "/disease/MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k"
@@ -8362,6 +8394,23 @@
   },
   {
     "type": "disease",
+    "slug": "MDQg64K067aE67mEL-umrOuNuCDqsJHsg4Hsg5jsl7wgKFJpZWRlbCBUaHlyb2lkaXRpcykubWQ",
+    "title": "리델 갑상샘염 (Riedel Thyroiditis)",
+    "category": "04 내분비",
+    "aliases": [
+      "리델 갑상샘염 (Riedel Thyroiditis)",
+      "Riedel thyroiditis"
+    ],
+    "keywords": [
+      "갑상샘 질환",
+      "갑상샘염",
+      "핵심"
+    ],
+    "quickSummary": "• 단단한 섬유화성 갑상샘 종대를 보이는 드문 갑상샘염입니다.",
+    "href": "/disease/MDQg64K067aE67mEL-umrOuNuCDqsJHsg4Hsg5jsl7wgKFJpZWRlbCBUaHlyb2lkaXRpcykubWQ"
+  },
+  {
+    "type": "disease",
     "slug": "MDQg64K067aE67mEL-unkOuLqOu5hOuMgOymnSAoQWNyb21lZ2FseSkubWQ",
     "title": "말단비대증 (Acromegaly)",
     "category": "04 내분비",
@@ -8411,6 +8460,24 @@
     ],
     "quickSummary": "유리 티록신(fT4)은 정상 범위이나 갑상샘자극호르몬(TSH)이 상승한 상태",
     "href": "/disease/MDQg64K067aE67mEL-ustOymneyDgSDqsJHsg4Hsg5gg6riw64ql7KCA7ZWY7KadIChTdWJjbGluaWNhbCBIeXBvdGh5cm9pZGlzbSkubWQ"
+  },
+  {
+    "type": "disease",
+    "slug": "MDQg64K067aE67mEL-ustO2GteyEsSDqsJHsg4Hsg5jsl7wgKFNpbGVudCBUaHlyb2lkaXRpcykubWQ",
+    "title": "무통성 갑상샘염 (Silent Thyroiditis)",
+    "category": "04 내분비",
+    "aliases": [
+      "무통성 갑상샘염 (Silent Thyroiditis)",
+      "Silent thyroiditis",
+      "painless thyroiditis"
+    ],
+    "keywords": [
+      "갑상샘 질환",
+      "갑상샘염",
+      "핵심"
+    ],
+    "quickSummary": "• 통증이 없는 일과성 갑상샘중독증 뒤에 기능저하기가 이어질 수 있는 갑상샘염입니다.",
+    "href": "/disease/MDQg64K067aE67mEL-ustO2GteyEsSDqsJHsg4Hsg5jsl7wgKFNpbGVudCBUaHlyb2lkaXRpcykubWQ"
   },
   {
     "type": "disease",
@@ -12650,9 +12717,11 @@
       "물림 및 교상 감염",
       "상처",
       "발열",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
-    "quickSummary": "• [[교상 감염 (Bite Wound Infection)]]",
+    "quickSummary": "• 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.",
     "href": "/disease/MDgg6rCQ7Je8L-usvOumvCDrsI8g6rWQ7IOBIOqwkOyXvC5tZA"
   },
   {
@@ -12966,9 +13035,11 @@
       "설사",
       "구토",
       "복통",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
-    "quickSummary": "• [[Bacillus cereus 식중독]]",
+    "quickSummary": "• 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.",
     "href": "/disease/MDgg6rCQ7Je8L-yLneykkeuPhSDrsI8g7Iud7ZKI66ek6rCcIOqwkOyXvC5tZA"
   },
   {
@@ -13164,9 +13235,11 @@
       "여행자·수인성 감염",
       "발열",
       "설사",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
-    "quickSummary": "• [[말라리아 (Malaria)]]",
+    "quickSummary": "• 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.",
     "href": "/disease/MDgg6rCQ7Je8L-yXrO2WieyekMK37IiY7J247ISxIOqwkOyXvC5tZA"
   },
   {
@@ -13278,6 +13351,8 @@
     "keywords": [
       "원생동물",
       "개요",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
     "quickSummary": "• 대표 질환: [[말라리아 (Malaria)]], [[아메바 장염 (Amebic Colitis)]], [[아메바증 (Amebiasis)]], [[자유 아메바 감염 (Free-Living Amebic Infection)]], [[톡소플라즈마증 (Toxoplasmosis)]]",
@@ -14597,7 +14672,10 @@
       "검사 (Lab & Imaging)",
       "진단 (Diagnosis)",
       "치료",
-      "예후 및 합병증 (Prognosis)"
+      "예후 및 합병증 (Prognosis)",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "림프구에서 기원하는 악성 종양으로, 림프절 및 림프계 조직에서 주로 발생하나 뇌, 피부, 위장관 등 다양한 장기에 침범할 수 있음.",
     "href": "/disease/MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k"
@@ -14822,7 +14900,10 @@
       "검사 (Lab & Imaging)",
       "진단 (Diagnosis)",
       "치료",
-      "예후 및 합병증 (Prognosis)"
+      "예후 및 합병증 (Prognosis)",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "골수 또는 림프 조직에서 비정상적인 백혈구(백혈병 세포)가 과도하게 증식하여 정상 조혈을 억제하고 말초혈액 및 다른 장기로 침윤하는 혈액암.",
     "href": "/disease/MDkg7ZiI7JWhL-uwse2YiOuzkSAoTGV1a2VtaWEpLm1k"
@@ -14989,7 +15070,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 피로, 운동 시 호흡곤란, 어지러움, 두근거림, 창백이 흔하다. 흉통·실신·안정 시 호흡곤란, 급성 출혈 또는 혈역학적 불안정은 즉시 중증도를 평가한다.",
     "href": "/disease/MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA"
@@ -16745,6 +16829,8 @@
     "keywords": [
       "[수혈부작용]",
       "공통 접근",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
     "quickSummary": "• 수혈 중 또는 직후의 발열·오한·두드러기, 호흡곤란, 저혈압, 흉통·요통·혈색소뇨를 시간 관계와 함께 확인하고 수혈을 즉시 중단합니다.",
@@ -17023,6 +17109,8 @@
     "keywords": [
       "[외상]",
       "공통 접근",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
     "quickSummary": "• 외상은 먼저 기도·호흡·순환과 대량 출혈 가능성을 평가하고, 손상 기전과 신체 진찰을 바탕으로 흉부·복부·골반·경부·비뇨생식기 손상을 병렬로 찾습니다.",
@@ -17362,7 +17450,8 @@
       "출혈",
       "쇼크",
       "사지통증",
-      "포함 범위"
+      "포함 범위",
+      "포함 질환"
     ],
     "quickSummary": "• 외상성 경동맥·대퇴동맥·신동맥 손상",
     "href": "/disease/MTEg7Jm46rO8L-2YiOq0gCDshpDsg4EubWQ"
@@ -17389,7 +17478,10 @@
       "검사 (Lab & Imaging)",
       "진단 (Diagnosis)",
       "치료",
-      "예후 및 합병증 (Prognosis)"
+      "예후 및 합병증 (Prognosis)",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "열, 화학물질, 전기, 방사선 등에 의한 조직 손상.",
     "href": "/disease/MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ"
@@ -17437,7 +17529,8 @@
       "흉통",
       "호흡곤란",
       "쇼크",
-      "포함 범위"
+      "포함 범위",
+      "포함 질환"
     ],
     "quickSummary": "• 흉부 손상, 관통성 흉부손상, 심장 손상, 외상성 호흡부전",
     "href": "/disease/MTEg7Jm46rO8L-2dieu2gCDsmbjsg4EubWQ"
@@ -17945,6 +18038,8 @@
       "공통 임상 접근",
       "먼저 구분할 단서",
       "처치 원칙",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
     "quickSummary": "• 분만 후 지속 출혈에서는 먼저 활력징후, 의식, 출혈량, 자궁 긴장도를 함께 확인하고 대량출혈 대응과 원인 평가를 동시에 시작한다.",
@@ -18076,7 +18171,10 @@
       "검사 (Lab & Imaging)",
       "진단 (Diagnosis)",
       "치료",
-      "예후 및 합병증 (Prognosis)"
+      "예후 및 합병증 (Prognosis)",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "하나의 자궁 내에 두 개 이상의 태아가 존재하는 임신",
     "href": "/disease/MTIg7IKw6rO8L-yMjeuRpeydtCDsnoTsi6AgKE11bHRpcGxlIEdlc3RhdGlvbikubWQ"
@@ -18287,6 +18385,8 @@
       "공통 임상 접근",
       "먼저 구분할 상황",
       "학습 포인트",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
     "quickSummary": "• 임신 중 감염은 산모의 중증도뿐 아니라 임신 주수, 태아·신생아 노출, 수직감염 가능성, 분만 시 조치까지 함께 판단한다.",
@@ -18454,7 +18554,10 @@
       "진단",
       "치료",
       "예후 및 합병증",
-      "출처"
+      "출처",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 무증상일 수 있으나, 지속 두통, 시야장애, 우상복부/상복부 통증, 호흡곤란, 급격한 부종·체중 증가, 태동 감소는 자간전증·폐부종·태반 문제를 의심할 위험 신호다.",
     "href": "/disease/MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA"
@@ -25124,7 +25227,10 @@
       "근력저하",
       "경련 (소아)",
       "분류 포인트",
-      "관련 질환 범위"
+      "관련 질환 범위",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 염색체 이상: 다운·파타우·윌리엄스 등은 성장과 선천기형 양상을 함께 봅니다.",
     "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA"
@@ -25349,7 +25455,8 @@
       "아동학대·비우발적 손상",
       "외상",
       "성장발달",
-      "평가 포인트"
+      "평가 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 손상 양상·시점·보호자 진술의 일관성 및 과거 손상 기록",
     "href": "/disease/MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JWE64-Z7ZWZ64yAIOuwjyDruYTsmrDrsJzsoIEg7IaQ7IOBLm1k"
@@ -26448,7 +26555,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• CC**: 갈망(craving), 내성(tolerance), 금단(withdrawal), 조절 실패.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA"
@@ -26881,7 +26991,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• CC**: 불면, 과도한 주간 졸음, 수면 중 이상 행동, 수면 패턴의 부조화.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yImOuptCDqtIDroKgg7J6l7JWgIChTbGVlcC1XYWtlIERpc29yZGVycykubWQ"
@@ -27047,7 +27160,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• CC**: 기억력 저하, 성격 변화, 언어 장애, 일상생활 수행 능력 저하.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyduOyngOyepeyVoCAoTmV1cm9jb2duaXRpdmUgRGlzb3JkZXJzKS5tZA"
@@ -27072,7 +27188,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• CC**: 통증, 소화기 증상, 신경학적 증상 등 다양한 신체 불편감.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytCDspp3sg4Eg67CPIOq0gOugqCDsnqXslaAgKFNvbWF0aWMgU3ltcHRvbSBhbmQgUmVsYXRlZCBEaXNvcmRlcnMpLm1k"
@@ -27346,7 +27465,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• CC**: 침습적 기억(플래시백), 회피 행동, 부정적 인지 및 기분 변화, 과각성 상태.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDrsI8g7Iqk7Yq466CI7IqkIOq0gOugqCDsnqXslaAgKFRyYXVtYS0gYW5kIFN0cmVzc29yLVJlbGF0ZWQgRGlzb3JkZXJzKS5tZA"
@@ -27852,7 +27974,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• CC**: 환청, 피해망상, 관계망상, 사회적 고립, 의욕 저하, 부적절한 정동 등.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSDsiqTtjpntirjrn7wg7J6l7JWgIChTY2hpem9waHJlbmlhIFNwZWN0cnVtIGFuZCBPdGhlciBQc3ljaG90aWMgRGlzb3JkZXJzKS5tZA"
@@ -28051,7 +28176,10 @@
       "검사 (Lab & Imaging)",
       "진단 (Diagnosis)",
       "치료 (Treatment)",
-      "예후 및 합병증 (Prognosis)"
+      "예후 및 합병증 (Prognosis)",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "인지 기능(기억력, 주의력, 언어, 시공간 능력, 실행 기능 등)의 이전 수준 대비 유의미한 저하가 나타나는 상태.",
     "href": "/disease/MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k"
@@ -28937,7 +29065,10 @@
       "검사 (Lab & Imaging)",
       "진단 (Diagnosis)",
       "치료",
-      "예후 및 합병증 (Prognosis)"
+      "예후 및 합병증 (Prognosis)",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "뇌 내에 발생하는 원발성 또는 전이성 종양으로, 세포의 비정상적인 증식에 의해 발생함.",
     "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsooXslpEgKEJyYWluIHR1bW9yKS5tZA"
@@ -29218,7 +29349,10 @@
       "두통",
       "두통",
       "개요",
-      "하위 질환 감별"
+      "하위 질환 감별",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 두통은 일차성 두통과 구조적·혈관성 원인에 의한 이차성 두통으로 나누어 접근한다.",
     "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDthrUubWQ"
@@ -29459,7 +29593,10 @@
       "신경근육질환",
       "근력/감각이상",
       "개요",
-      "하위 질환 감별"
+      "하위 질환 감별",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 근력저하, 감각 이상, 피로, 연하·호흡 증상은 병변의 위치와 시간 경과를 함께 평가해 감별한다.",
     "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_si6Dqsr3qt7zsnKHsp4jtmZgubWQ"
@@ -29528,7 +29665,10 @@
       "이상운동질환",
       "떨림",
       "개요",
-      "하위 질환 감별"
+      "하위 질환 감별",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 이상운동질환은 떨림, 서동·경직, 근긴장이상, 불수의운동의 양상과 동반 신경학적 소견으로 분류한다.",
     "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_snbTsg4HsmrTrj5nsp4jtmZgubWQ"
@@ -29771,7 +29911,10 @@
       "검사 (Lab & Imaging)",
       "진단 (Diagnosis)",
       "치료",
-      "예후 및 합병증 (Prognosis)"
+      "예후 및 합병증 (Prognosis)",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "척수에 가해지는 기계적 충격으로 인한 신경학적 손상",
     "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sspnsiJgg7Jm47IOBIChTcGluYWwgY29yZCB0cmF1bWEpLm1k"
@@ -29829,7 +29972,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 갑작스러운 국소 신경학적 결손, 의식 저하, 심한 두통, 구토, 경련이 나타날 수 있다. 번개 치듯 시작한 두통은 지주막하출혈을 우선 배제해야 한다.",
     "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_stpztmIjshLEg64eM7KG47KSRIChIZW1vcnJoYWdpYyBTdHJva2UpLm1k"
@@ -30006,7 +30152,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 저혈당, 발작 후 마비, 편두통, 기능성 장애, 뇌출혈, 대동맥박리 등을 동시에 감별하지만 비조영 CT와 glucose 확인을 위해 재관류 평가를 지연하지 않는다.",
     "href": "/disease/MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k"
@@ -31727,7 +31876,8 @@
       "안구통증",
       "시력저하",
       "눈충혈",
-      "포함 범위"
+      "포함 범위",
+      "포함 질환"
     ],
     "quickSummary": "• 각막 손상, 개방성 안구 손상, 외상성 전방출혈",
     "href": "/disease/MTgg7JWI6rO8L-yViOq1rCDsmbjsg4EubWQ"
@@ -32045,7 +32195,10 @@
       "피부 발진",
       "병변 묘사",
       "하위 질환 감별 포인트",
-      "놓치지 말 감별"
+      "놓치지 말 감별",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 구진인설성 질환은 인설을 동반한 구진 또는 판으로 나타난다. 인설의 색·두께·부착 정도, 병변 경계, 대칭성, 두피·손발톱·점막 침범을 기록한다.",
     "href": "/disease/MTkg7ZS867aA6rO8L-q1rOynhOyduOyEpOyEseyniO2ZmC5tZA"
@@ -32371,7 +32524,10 @@
       "가려움증",
       "병변 묘사",
       "하위 질환 감별 포인트",
-      "놓치지 말 감별"
+      "놓치지 말 감별",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 급성 병변은 가려운 홍반성 반점·판 위에 작은 구진·수포, 진물과 가피가 나타날 수 있다.",
     "href": "/disease/MTkg7ZS867aA6rO8L-yKteynhOyEse2UvOu2gOyniO2ZmC5tZA"
@@ -32856,7 +33012,10 @@
       "피부 발진",
       "병변 묘사",
       "하위 질환 감별 포인트",
-      "놓치지 말 감별"
+      "놓치지 말 감별",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 홍반은 진피 혈류 증가로 생기는 붉은 색조이며, 색·압통·융기·중심 변화·분포를 함께 기술한다.",
     "href": "/disease/MTkg7ZS867aA6rO8L-2ZjeuwmOyEse2UvOu2gOyniO2ZmC5tZA"
@@ -33828,7 +33987,10 @@
       "검사",
       "진단",
       "치료",
-      "예후 및 합병증"
+      "예후 및 합병증",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 의식저하, 경련, 호흡억제, 부정맥, 저혈압, 고체온·저체온, 구토와 산염기 이상이 나타날 수 있다.",
     "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA"
@@ -33878,9 +34040,11 @@
       "독성 알코올",
       "의식저하",
       "구토",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
-    "quickSummary": "• [[에틸렌글리콜 중독 (Ethylene Glycol Poisoning)]]",
+    "quickSummary": "• 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.",
     "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-uPheyEsSDslYzsvZTsmKwubWQ"
   },
   {
@@ -34035,9 +34199,11 @@
       "생물 독소",
       "근력저하",
       "호흡곤란",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
-    "quickSummary": "• [[보툴리눔 중독 (Botulism)]]",
+    "quickSummary": "• 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.",
     "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yDneusvCDrj4XshowubWQ"
   },
   {
@@ -34133,9 +34299,11 @@
       "의식저하",
       "경련 (성인)",
       "호흡곤란",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
-    "quickSummary": "• [[아세트아미노펜 중독 (Acetaminophen Poisoning)]]",
+    "quickSummary": "• 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.",
     "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-yVveusvCDrsI8g7ZmU7ZWZ66y87KeIIOykkeuPhS5tZA"
   },
   {
@@ -34358,9 +34526,11 @@
       "두통",
       "의식저하",
       "호흡곤란",
+      "공통 접근",
+      "하위 질환 감별 포인트",
       "포함 질환"
     ],
-    "quickSummary": "• [[일산화탄소 중독 (Carbon Monoxide Poisoning)]]",
+    "quickSummary": "• 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.",
     "href": "/disease/MjEg7J2R6riJ7J2Y7ZWZL-2doeyeheyEsSDspJHrj4UubWQ"
   },
   {
@@ -34576,7 +34746,10 @@
       "말초신경 손상",
       "근력저하",
       "감각이상",
-      "포함 범위"
+      "포함 범위",
+      "공통 접근",
+      "하위 질환 감별 포인트",
+      "포함 질환"
     ],
     "quickSummary": "• 액와·비골·대퇴·상둔신경 손상",
     "href": "/disease/MjIg7KCV7ZiV7Jm46rO8L-unkOy0iOyLoOqyvSDshpDsg4EubWQ"

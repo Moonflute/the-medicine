@@ -14,7 +14,8 @@ related_diseases:
   - "갑상선기능항진 후 저하"
   - "산후 갑상선염"
   - "Silent thyroiditis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDQg64K067aE67mEL-ustO2GteyEsSDqsJHsg4Hsg5jsl7wgKFNpbGVudCBUaHlyb2lkaXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
 answer: B

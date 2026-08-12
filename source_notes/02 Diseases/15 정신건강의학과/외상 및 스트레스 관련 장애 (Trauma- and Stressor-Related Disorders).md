@@ -17,7 +17,19 @@ review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 document_role: "group_overview"
 group_members:
-- "외상 후 스트레스 장애 (PTSD)"
+- 해리성 기억 상실 (Dissociative Amnesia)
+- 해리성 둔주 (Dissociative Fugue)
+- 해리성 주체 장애 (Dissociative Identity Disorder)
+- 급성 스트레스 장애 (Acute Stress Disorder)
+- 외상 후 스트레스 장애 (PTSD)
+- 이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)
+- 적응 장애 (Adjustment Disorder)- 해리성 기억 상실 (Dissociative Amnesia)
+- 해리성 둔주 (Dissociative Fugue)
+- 해리성 주체 장애 (Dissociative Identity Disorder)
+- 급성 스트레스 장애 (Acute Stress Disorder)
+- 외상 후 스트레스 장애 (PTSD)
+- 이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)
+- 적응 장애 (Adjustment Disorder)- "외상 후 스트레스 장애 (PTSD)"
 - "급성 스트레스 장애 (Acute Stress Disorder)"
 - "적응 장애 (Adjustment Disorder)"
 - "이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)"
@@ -59,3 +71,27 @@ group_members:
 - [[해리성 기억 상실 (Dissociative Amnesia)]]
 - [[해리성 둔주 (Dissociative Fugue)]]
 - [[해리성 주체 장애 (Dissociative Identity Disorder)]]
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[해리성 기억 상실 (Dissociative Amnesia)]] | CC: 자서전적 기억 상실 |
+| [[해리성 둔주 (Dissociative Fugue)]] | CC: 예기치 않은 이동과 기억 공백 |
+| [[해리성 주체 장애 (Dissociative Identity Disorder)]] | CC: 정체감의 불연속 |
+| [[급성 스트레스 장애 (Acute Stress Disorder)]] | 침습 증상: 외상 사건에 대한 반복적이고 고통스러운 기억, 악몽, 플래시백 |
+| [[외상 후 스트레스 장애 (PTSD)]] | 외상적 사건에 노출된 후 발생하는 장애로, 침습적 기억, 회피, 인지 및 기분 변화, 과각성 증상이 1개월 이상 지속됨 |
+| [[이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)]] | 지속적이거나 반복적인 이인감(자신으로부터 분리된 느낌) 또는 비현실감(주변 환경이 비현실적으로 느껴짐)을 경험하는 장애 |
+| [[적응 장애 (Adjustment Disorder)]] | 확인 가능한 스트레스 요인에 대한 정서적 또는 행동적 반응으로, 스트레스 요인 발생 후 3개월 이내에 발생함 |
+
+## 포함 질환
+- [[해리성 기억 상실 (Dissociative Amnesia)]]
+- [[해리성 둔주 (Dissociative Fugue)]]
+- [[해리성 주체 장애 (Dissociative Identity Disorder)]]
+- [[급성 스트레스 장애 (Acute Stress Disorder)]]
+- [[외상 후 스트레스 장애 (PTSD)]]
+- [[이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)]]
+- [[적응 장애 (Adjustment Disorder)]]

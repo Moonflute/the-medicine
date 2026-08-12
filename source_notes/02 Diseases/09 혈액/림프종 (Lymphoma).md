@@ -5,6 +5,16 @@ document_role: group_overview
 group_members:
 - 호지킨 림프종 (Hodgkin Lymphoma)
 - 비호지킨 림프종 (Non-Hodgkin Lymphoma)
+- 림프모구성 림프종 (Lymphoblastic Lymphoma)
+- 버킷 림프종 (Burkitt's Lymphoma)
+- 소림프구 림프종 (Small Lymphocytic Lymphoma)
+- 여포성 림프종 (Follicular Lymphoma)- 호지킨 림프종 (Hodgkin Lymphoma)
+- 비호지킨 림프종 (Non-Hodgkin Lymphoma)
+- 림프모구성 림프종 (Lymphoblastic Lymphoma)
+- 버킷 림프종 (Burkitt's Lymphoma)
+- 소림프구 림프종 (Small Lymphocytic Lymphoma)
+- 여포성 림프종 (Follicular Lymphoma)- 호지킨 림프종 (Hodgkin Lymphoma)
+- 비호지킨 림프종 (Non-Hodgkin Lymphoma)
 - 버킷 림프종 (Burkitt's Lymphoma)
 - 여포성 림프종 (Follicular Lymphoma)
 - 림프모구성 림프종 (Lymphoblastic Lymphoma)
@@ -68,3 +78,25 @@ reviewed_at: "2026-07-30"
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[호지킨 림프종 (Hodgkin Lymphoma)]] | 림프절에서 발생하는 림프종의 한 종류로, 특징적인 리드-스턴버그 세포 (Reed-Sternberg cell)의 존재를 특징으로 함 |
+| [[비호지킨 림프종 (Non-Hodgkin Lymphoma)]] | 림프구에서 기원하는 악성 종양 중 호지킨 림프종을 제외한 모든 림프종을 총칭. B세포, T세포, NK세포 기원의 다양한 아형이 존재하며, 임상적으로는 완만한 경과의 '지연성(indolent)'과 급격한 경과의 '공격성(aggressive)'으로 구분함 |
+| [[림프모구성 림프종 (Lymphoblastic Lymphoma)]] | 빠르게 진행하는 림프절 비대 및 종괴가 특징이다 |
+| [[버킷 림프종 (Burkitt's Lymphoma)]] | 복부 종괴, 턱 종괴, B 증상(발열, 체중 감소, 야간 발한)이 흔하다 |
+| [[소림프구 림프종 (Small Lymphocytic Lymphoma)]] | 서서히 진행하는 무통성 림프절 비대가 주된 증상이다 |
+| [[여포성 림프종 (Follicular Lymphoma)]] | 무통성 림프절 비대가 흔하며, 왁싱 앤 웨이닝(waxing and waning) 양상을 보일 수 있다 |
+
+## 포함 질환
+- [[호지킨 림프종 (Hodgkin Lymphoma)]]
+- [[비호지킨 림프종 (Non-Hodgkin Lymphoma)]]
+- [[림프모구성 림프종 (Lymphoblastic Lymphoma)]]
+- [[버킷 림프종 (Burkitt's Lymphoma)]]
+- [[소림프구 림프종 (Small Lymphocytic Lymphoma)]]
+- [[여포성 림프종 (Follicular Lymphoma)]]

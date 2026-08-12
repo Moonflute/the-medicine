@@ -17,7 +17,23 @@ reviewed_at: "2026-07-30"
 content_updated_at: "2026-07-30"
 document_role: "group_overview"
 group_members:
-- "불면 장애 (Insomnia Disorder)"
+- 하지 불안 증후군 (Restless Leg Syndrome)
+- 기면증 (Narcolepsy)
+- 과수면 장애 (Hypersomnolence Disorder)
+- 불면 장애 (Insomnia Disorder)
+- 비렘수면 행동 장애 (NREM Sleep Behavior Disorder)
+- 렘수면 행동 장애 (REM Sleep Behavior Disorder)
+- 수면 무호흡증 (Sleep Apnea Syndrome)
+- 악몽 (Nightmare)
+- 일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)- 하지 불안 증후군 (Restless Leg Syndrome)
+- 기면증 (Narcolepsy)
+- 과수면 장애 (Hypersomnolence Disorder)
+- 불면 장애 (Insomnia Disorder)
+- 비렘수면 행동 장애 (NREM Sleep Behavior Disorder)
+- 렘수면 행동 장애 (REM Sleep Behavior Disorder)
+- 수면 무호흡증 (Sleep Apnea Syndrome)
+- 악몽 (Nightmare)
+- 일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)- "불면 장애 (Insomnia Disorder)"
 - "과수면 장애 (Hypersomnolence Disorder)"
 - "기면증 (Narcolepsy)"
 - "수면 무호흡증 (Sleep Apnea Syndrome)"
@@ -64,3 +80,31 @@ group_members:
 - [[악몽 (Nightmare)]]
 - [[일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)]]
 - [[하지 불안 증후군 (Restless Leg Syndrome)]]
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[하지 불안 증후군 (Restless Leg Syndrome)]] | CC: 휴식 시 하지 불쾌감 |
+| [[기면증 (Narcolepsy)]] | 과도한 주간 졸음(EDS)과 REM 수면 조절 장애를 특징으로 하는 만성 신경학적 질환 |
+| [[과수면 장애 (Hypersomnolence Disorder)]] | 기저 수면 장애, 신경학적 질환, 약물 또는 물질 사용 등으로 설명되지 않는 1개월 이상의 과도한 주간 졸음 |
+| [[불면 장애 (Insomnia Disorder)]] | 수면의 시작이나 유지의 어려움, 또는 이른 기상으로 인해 일상생활에 지장을 주는 상태 |
+| [[비렘수면 행동 장애 (NREM Sleep Behavior Disorder)]] | REM 수면 중 근긴장도 소실(atonia)이 나타나지 않아 꿈의 내용을 행동으로 옮기는 사건수면(parasomnia) |
+| [[렘수면 행동 장애 (REM Sleep Behavior Disorder)]] | 렘수면 중 근긴장도 소실(atonia)이 저하되어 꿈의 내용을 행동으로 표출하는 사건수면(parasomnia) |
+| [[수면 무호흡증 (Sleep Apnea Syndrome)]] | 수면 중 상기도의 반복적인 허탈로 인한 호흡 정지(무호흡) 또는 호흡 저하(저호흡)가 발생하는 질환 |
+| [[악몽 (Nightmare)]] | CC: 반복되는 불쾌한 꿈 |
+| [[일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)]] | 내인성 일주기 리듬과 외부 환경(사회적 요구, 명암 주기) 간의 불일치로 발생하는 수면-각성 장애 |
+
+## 포함 질환
+- [[하지 불안 증후군 (Restless Leg Syndrome)]]
+- [[기면증 (Narcolepsy)]]
+- [[과수면 장애 (Hypersomnolence Disorder)]]
+- [[불면 장애 (Insomnia Disorder)]]
+- [[비렘수면 행동 장애 (NREM Sleep Behavior Disorder)]]
+- [[렘수면 행동 장애 (REM Sleep Behavior Disorder)]]
+- [[수면 무호흡증 (Sleep Apnea Syndrome)]]
+- [[악몽 (Nightmare)]]
+- [[일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)]]

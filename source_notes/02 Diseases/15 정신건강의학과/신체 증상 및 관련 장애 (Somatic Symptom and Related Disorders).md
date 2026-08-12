@@ -18,7 +18,15 @@ review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 document_role: "group_overview"
 group_members:
-- "신체 증상 장애 (Somatic Symptom Disorder)"
+- 꾀병 (Malingering)
+- 신체 증상 장애 (Somatic Symptom Disorder)
+- 인위성 장애 (Factitious Disorder)
+- 전환 장애 (Conversion Disorder)
+- 질병 불안 장애 (Illness Anxiety Disorder)- 꾀병 (Malingering)
+- 신체 증상 장애 (Somatic Symptom Disorder)
+- 인위성 장애 (Factitious Disorder)
+- 전환 장애 (Conversion Disorder)
+- 질병 불안 장애 (Illness Anxiety Disorder)- "신체 증상 장애 (Somatic Symptom Disorder)"
 - "질병 불안 장애 (Illness Anxiety Disorder)"
 - "전환 장애 (Conversion Disorder)"
 - "인위성 장애 (Factitious Disorder)"
@@ -54,6 +62,26 @@ group_members:
 - Impression**:
 
 ### 하위 질환
+- [[꾀병 (Malingering)]]
+- [[신체 증상 장애 (Somatic Symptom Disorder)]]
+- [[인위성 장애 (Factitious Disorder)]]
+- [[전환 장애 (Conversion Disorder)]]
+- [[질병 불안 장애 (Illness Anxiety Disorder)]]
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[꾀병 (Malingering)]] | 특징: 진료 시 비협조적 태도, 검사 결과와 주관적 호소의 현저한 불일치, 법적/경제적 분쟁 상황과 연관된 경우가 많음 |
+| [[신체 증상 장애 (Somatic Symptom Disorder)]] | 하나 이상의 신체 증상을 호소하며, 이와 관련하여 과도한 생각, 감정, 행동을 보임으로써 일상생활에 상당한 고통이나 지장을 초래하는 질환 |
+| [[인위성 장애 (Factitious Disorder)]] | 병원 쇼핑(Peregrination): 여러 병원을 전전하며 불필요한 검사나 침습적 처치, 수술을 요구함 |
+| [[전환 장애 (Conversion Disorder)]] | 특징: 심리적 갈등과 증상 발생 간의 시간적 연관성이 관찰됨 |
+| [[질병 불안 장애 (Illness Anxiety Disorder)]] | 심각한 미진단 질환이 있다고 믿거나 발생할 것을 과도하게 걱정하는 정신질환 (구 명칭: 건강염려증) |
+
+## 포함 질환
 - [[꾀병 (Malingering)]]
 - [[신체 증상 장애 (Somatic Symptom Disorder)]]
 - [[인위성 장애 (Factitious Disorder)]]

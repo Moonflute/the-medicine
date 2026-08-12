@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "question_count": 466,
+  "question_count": 461,
   "counts": {
     "clinical-or-non-disease-tags-only": 437,
-    "no-current-canonical-document": 26,
+    "no-current-canonical-document": 21,
     "no-raw-disease-tags": 3
   },
   "questions": [
@@ -569,18 +569,6 @@
       "staged_slugs": []
     },
     {
-      "id": "medqa-us-test-000472",
-      "specialty": "04 내분비",
-      "tags": [
-        "리델 갑상샘염",
-        "갑상샘저하증",
-        "섬유화 갑상샘염",
-        "Riedel thyroiditis"
-      ],
-      "status": "no-current-canonical-document",
-      "staged_slugs": []
-    },
-    {
       "id": "medqa-us-test-001051",
       "specialty": "04 내분비",
       "tags": [
@@ -669,18 +657,6 @@
         "Morbid obesity"
       ],
       "status": "clinical-or-non-disease-tags-only",
-      "staged_slugs": []
-    },
-    {
-      "id": "medqa-us-validation-000862",
-      "specialty": "04 내분비",
-      "tags": [
-        "무통성 갑상선염",
-        "갑상선기능항진 후 저하",
-        "산후 갑상선염",
-        "Silent thyroiditis"
-      ],
-      "status": "no-current-canonical-document",
       "staged_slugs": []
     },
     {
@@ -2337,16 +2313,6 @@
         "Ewing sarcoma"
       ],
       "status": "clinical-or-non-disease-tags-only",
-      "staged_slugs": []
-    },
-    {
-      "id": "medqa-us-train-001171",
-      "specialty": "14 소아청소년과",
-      "tags": [
-        "scald wound",
-        "burn infection"
-      ],
-      "status": "no-current-canonical-document",
       "staged_slugs": []
     },
     {
@@ -4767,15 +4733,6 @@
       "staged_slugs": []
     },
     {
-      "id": "medqa-us-train-000710",
-      "specialty": "21 응급의학",
-      "tags": [
-        "cannabinoid hyperemesis syndrome"
-      ],
-      "status": "no-current-canonical-document",
-      "staged_slugs": []
-    },
-    {
       "id": "medqa-us-train-001153",
       "specialty": "21 응급의학",
       "tags": [
@@ -4898,17 +4855,6 @@
         "surrogate communication"
       ],
       "status": "clinical-or-non-disease-tags-only",
-      "staged_slugs": []
-    },
-    {
-      "id": "medqa-us-train-004086",
-      "specialty": "21 응급의학",
-      "tags": [
-        "칸나비스 구토 증후군",
-        "대마 사용",
-        "온수 목욕으로 호전되는 구토"
-      ],
-      "status": "no-current-canonical-document",
       "staged_slugs": []
     },
     {

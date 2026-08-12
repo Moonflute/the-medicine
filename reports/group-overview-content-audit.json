@@ -1,0 +1,276 @@
+{
+  "groupOverviewCount": 130,
+  "contentAddedCount": 50,
+  "alreadyHadComparisonCount": 76,
+  "emptyGroupCount": 4,
+  "contentAdded": [
+    {
+      "title": "고혈압 (Hypertension)",
+      "sourcePath": "source_notes/02 Diseases/01 순환기/고혈압 (Hypertension).md",
+      "memberCount": 1
+    },
+    {
+      "title": "폐결핵 (Pulmonary Tuberculosis)",
+      "sourcePath": "source_notes/02 Diseases/02 호흡기/폐결핵 (Pulmonary Tuberculosis).md",
+      "memberCount": 5
+    },
+    {
+      "title": "폐렴",
+      "sourcePath": "source_notes/02 Diseases/02 호흡기/폐렴.md",
+      "memberCount": 2
+    },
+    {
+      "title": "호산구 폐렴 (Eosinophilic Pneumonia)",
+      "sourcePath": "source_notes/02 Diseases/02 호흡기/호산구 폐렴 (Eosinophilic Pneumonia).md",
+      "memberCount": 3
+    },
+    {
+      "title": "간경변증 (Liver Cirrhosis)",
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/간경변증 (Liver Cirrhosis).md",
+      "memberCount": 6
+    },
+    {
+      "title": "간암",
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/간암.md",
+      "memberCount": 1
+    },
+    {
+      "title": "간염 (Hepatitis)",
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/간염 (Hepatitis).md",
+      "memberCount": 9
+    },
+    {
+      "title": "지방간",
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/지방간.md",
+      "memberCount": 3
+    },
+    {
+      "title": "췌장암",
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/췌장암.md",
+      "memberCount": 2
+    },
+    {
+      "title": "췌장염",
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/췌장염.md",
+      "memberCount": 5
+    },
+    {
+      "title": "염증성 장질환 (IBD) (Inflammatory Bowel Disease)",
+      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/염증성 장질환 (IBD) (Inflammatory Bowel Disease).md",
+      "memberCount": 2
+    },
+    {
+      "title": "당뇨병 (Diabetes Mellitus)",
+      "sourcePath": "source_notes/02 Diseases/04 내분비/당뇨병 (Diabetes Mellitus).md",
+      "memberCount": 9
+    },
+    {
+      "title": "물림 및 교상 감염",
+      "sourcePath": "source_notes/02 Diseases/08 감염/물림 및 교상 감염.md",
+      "memberCount": 1
+    },
+    {
+      "title": "식중독 및 식품매개 감염",
+      "sourcePath": "source_notes/02 Diseases/08 감염/식중독 및 식품매개 감염.md",
+      "memberCount": 7
+    },
+    {
+      "title": "여행자·수인성 감염",
+      "sourcePath": "source_notes/02 Diseases/08 감염/여행자·수인성 감염.md",
+      "memberCount": 5
+    },
+    {
+      "title": "원생동물",
+      "sourcePath": "source_notes/02 Diseases/08 감염/원생동물.md",
+      "memberCount": 5
+    },
+    {
+      "title": "림프종 (Lymphoma)",
+      "sourcePath": "source_notes/02 Diseases/09 혈액/림프종 (Lymphoma).md",
+      "memberCount": 6
+    },
+    {
+      "title": "백혈병 (Leukemia)",
+      "sourcePath": "source_notes/02 Diseases/09 혈액/백혈병 (Leukemia).md",
+      "memberCount": 5
+    },
+    {
+      "title": "빈혈 (Anemia)",
+      "sourcePath": "source_notes/02 Diseases/09 혈액/빈혈 (Anemia).md",
+      "memberCount": 8
+    },
+    {
+      "title": "수혈부작용",
+      "sourcePath": "source_notes/02 Diseases/11 외과/수혈부작용.md",
+      "memberCount": 7
+    },
+    {
+      "title": "외상",
+      "sourcePath": "source_notes/02 Diseases/11 외과/외상.md",
+      "memberCount": 10
+    },
+    {
+      "title": "화상 (Burn)",
+      "sourcePath": "source_notes/02 Diseases/11 외과/화상 (Burn).md",
+      "memberCount": 3
+    },
+    {
+      "title": "산후출혈",
+      "sourcePath": "source_notes/02 Diseases/12 산과/산후출혈.md",
+      "memberCount": 4
+    },
+    {
+      "title": "쌍둥이 임신 (Multiple Gestation)",
+      "sourcePath": "source_notes/02 Diseases/12 산과/쌍둥이 임신 (Multiple Gestation).md",
+      "memberCount": 2
+    },
+    {
+      "title": "임신 중 감염",
+      "sourcePath": "source_notes/02 Diseases/12 산과/임신 중 감염.md",
+      "memberCount": 5
+    },
+    {
+      "title": "임신성고혈압 (Gestational Hypertension)",
+      "sourcePath": "source_notes/02 Diseases/12 산과/임신성고혈압 (Gestational Hypertension).md",
+      "memberCount": 4
+    },
+    {
+      "title": "소아 유전질환",
+      "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+      "memberCount": 10
+    },
+    {
+      "title": "물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)",
+      "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders).md",
+      "memberCount": 11
+    },
+    {
+      "title": "수면 관련 장애 (Sleep-Wake Disorders)",
+      "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/수면 관련 장애 (Sleep-Wake Disorders).md",
+      "memberCount": 9
+    },
+    {
+      "title": "신경인지장애 (Neurocognitive Disorders)",
+      "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/신경인지장애 (Neurocognitive Disorders).md",
+      "memberCount": 4
+    },
+    {
+      "title": "신체 증상 및 관련 장애 (Somatic Symptom and Related Disorders)",
+      "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/신체 증상 및 관련 장애 (Somatic Symptom and Related Disorders).md",
+      "memberCount": 5
+    },
+    {
+      "title": "외상 및 스트레스 관련 장애 (Trauma- and Stressor-Related Disorders)",
+      "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/외상 및 스트레스 관련 장애 (Trauma- and Stressor-Related Disorders).md",
+      "memberCount": 7
+    },
+    {
+      "title": "조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders)",
+      "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders).md",
+      "memberCount": 6
+    },
+    {
+      "title": "치매 (Dementia)",
+      "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/치매 (Dementia).md",
+      "memberCount": 4
+    },
+    {
+      "title": "뇌종양 (Brain tumor)",
+      "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/뇌종양 (Brain tumor).md",
+      "memberCount": 7
+    },
+    {
+      "title": "두통",
+      "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/두통.md",
+      "memberCount": 6
+    },
+    {
+      "title": "신경근육질환",
+      "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/신경근육질환.md",
+      "memberCount": 5
+    },
+    {
+      "title": "이상운동질환",
+      "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/이상운동질환.md",
+      "memberCount": 5
+    },
+    {
+      "title": "척수 외상 (Spinal cord trauma)",
+      "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/척수 외상 (Spinal cord trauma).md",
+      "memberCount": 4
+    },
+    {
+      "title": "출혈성 뇌졸중 (Hemorrhagic Stroke)",
+      "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/출혈성 뇌졸중 (Hemorrhagic Stroke).md",
+      "memberCount": 5
+    },
+    {
+      "title": "허혈성 뇌졸중 (Ischemic stroke)",
+      "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/허혈성 뇌졸중 (Ischemic stroke).md",
+      "memberCount": 9
+    },
+    {
+      "title": "구진인설성질환",
+      "sourcePath": "source_notes/02 Diseases/19 피부과/구진인설성질환.md",
+      "memberCount": 3
+    },
+    {
+      "title": "습진성피부질환",
+      "sourcePath": "source_notes/02 Diseases/19 피부과/습진성피부질환.md",
+      "memberCount": 6
+    },
+    {
+      "title": "홍반성피부질환",
+      "sourcePath": "source_notes/02 Diseases/19 피부과/홍반성피부질환.md",
+      "memberCount": 3
+    },
+    {
+      "title": "급성 중독 총론 (General Management of Acute Poisoning)",
+      "sourcePath": "source_notes/02 Diseases/21 응급의학/급성 중독 총론 (General Management of Acute Poisoning).md",
+      "memberCount": 4
+    },
+    {
+      "title": "독성 알코올",
+      "sourcePath": "source_notes/02 Diseases/21 응급의학/독성 알코올.md",
+      "memberCount": 1
+    },
+    {
+      "title": "생물 독소",
+      "sourcePath": "source_notes/02 Diseases/21 응급의학/생물 독소.md",
+      "memberCount": 1
+    },
+    {
+      "title": "약물 및 화학물질 중독",
+      "sourcePath": "source_notes/02 Diseases/21 응급의학/약물 및 화학물질 중독.md",
+      "memberCount": 7
+    },
+    {
+      "title": "흡입성 중독",
+      "sourcePath": "source_notes/02 Diseases/21 응급의학/흡입성 중독.md",
+      "memberCount": 1
+    },
+    {
+      "title": "말초신경 손상",
+      "sourcePath": "source_notes/02 Diseases/22 정형외과/말초신경 손상.md",
+      "memberCount": 3
+    }
+  ],
+  "emptyGroups": [
+    {
+      "title": "혈관 손상",
+      "sourcePath": "source_notes/02 Diseases/11 외과/혈관 손상.md"
+    },
+    {
+      "title": "흉부 외상",
+      "sourcePath": "source_notes/02 Diseases/11 외과/흉부 외상.md"
+    },
+    {
+      "title": "아동학대 및 비우발적 손상",
+      "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/아동학대 및 비우발적 손상.md"
+    },
+    {
+      "title": "안구 외상",
+      "sourcePath": "source_notes/02 Diseases/18 안과/안구 외상.md"
+    }
+  ]
+}

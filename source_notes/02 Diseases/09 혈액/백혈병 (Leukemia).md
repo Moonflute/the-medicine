@@ -7,6 +7,14 @@ group_members:
 - 급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)
 - 급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)
 - 만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)
+- 만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)- 급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia)
+- 급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)
+- 급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)
+- 만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)
+- 만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)- 급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia)
+- 급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)
+- 급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)
+- 만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)
 - 만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)
 유형:
 - disease
@@ -65,3 +73,23 @@ reviewed_at: "2026-07-30"
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia)]] | 골수성 조혈모세포의 악성 형질전환 및 비정상적 증식으로 인해 미성숙 골수 모세포가 골수를 점유하고 정상 조혈 기능을 억제하는 급성 백혈병 |
+| [[급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)]] | 골수에서 미성숙 림프구(림프 모세포)가 비정상적으로 증식하여 정상 조혈을 억제하는 급성 백혈병. 소아암 중 가장 흔하며, 성인에서도 발생함 |
+| [[급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)]] | 급성 골수성 백혈병 (AML)의 아형으로, 전골수구 (promyelocyte) 단계에서 분화가 정지되고 비정상적인 전골수구가 증식하는 질환 |
+| [[만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)]] | 다능성 조혈모세포의 악성 형질전환 및 클론성 골수증식으로 인해 성숙 및 미성숙 과립구가 과도하게 생성되는 만성 골수증식성 질환 |
+| [[만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)]] | 성숙한 B 림프구가 말초혈액, 골수, 림프절, 비장에 비정상적으로 축적되는 만성 림프증식성 질환. 성인 백혈병 중 가장 흔함 |
+
+## 포함 질환
+- [[급성 골수성 백혈병 (AML) (Acute Myeloid Leukemia)]]
+- [[급성 림프모구성 백혈병 (ALL) (Acute Lymphoblastic Leukemia)]]
+- [[급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)]]
+- [[만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)]]
+- [[만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)]]

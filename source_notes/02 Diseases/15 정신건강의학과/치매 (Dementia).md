@@ -20,7 +20,13 @@ sources: ["Appropriate use recommendations of the Spanish Society of Neurology's
 content_updated_at: "2026-07-16"
 document_role: "group_overview"
 group_members:
-- "알츠하이머 치매 (Alzheimer's Disease)"
+- 혈관성 치매 (Vascular Dementia)
+- 레비 소체 치매 (Dementia with Lewy Bodies)
+- 알츠하이머 치매 (Alzheimer's Disease)
+- 전두측두엽 치매 (Frontotemporal Dementia)- 혈관성 치매 (Vascular Dementia)
+- 레비 소체 치매 (Dementia with Lewy Bodies)
+- 알츠하이머 치매 (Alzheimer's Disease)
+- 전두측두엽 치매 (Frontotemporal Dementia)- "알츠하이머 치매 (Alzheimer's Disease)"
 - "혈관성 치매 (Vascular Dementia)"
 - "레비 소체 치매 (Dementia with Lewy Bodies)"
 - "전두측두엽 치매 (Frontotemporal Dementia)"
@@ -114,3 +120,21 @@ Last updated :
 * **Impression**: 성격 변화, 행동 변화, 언어 장애
 * **검사**: MRI-CT – 전두 측두엽 위축, Pick body
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[혈관성 치매 (Vascular Dementia)]] | CC: 뇌혈관질환 관련 인지저하 |
+| [[레비 소체 치매 (Dementia with Lewy Bodies)]] | 레비 소체 치매(DLB)는 인지 기능 저하, 환시, 파킨슨증이 특징인 퇴행성 뇌 질환으로, 파킨슨병 치매(PDD)와 함께 레비 소체 치매(LBD) 범주에 포함됨 |
+| [[알츠하이머 치매 (Alzheimer's Disease)]] | 가장 흔한 치매의 원인으로, 점진적으로 진행되는 신경퇴행성 질환 |
+| [[전두측두엽 치매 (Frontotemporal Dementia)]] | 전두엽 및 전측두엽의 신경 퇴행으로 인해 성격 변화, 행동 장애, 언어 기능 저하가 나타나는 신경 퇴행성 질환 |
+
+## 포함 질환
+- [[혈관성 치매 (Vascular Dementia)]]
+- [[레비 소체 치매 (Dementia with Lewy Bodies)]]
+- [[알츠하이머 치매 (Alzheimer's Disease)]]
+- [[전두측두엽 치매 (Frontotemporal Dementia)]]

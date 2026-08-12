@@ -24,7 +24,19 @@ review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 document_role: "group_overview"
 group_members:
-- "교모세포종 (Glioblastoma)"
+- 교모세포종 (Glioblastoma)
+- 뇌수막종 (Meningioma)
+- 뇌종양 관련 두통 (Headache due to brain tumor)
+- 두개인두종 (Craniopharyngioma)
+- 신경초종 (Schwannoma)
+- 전이성 뇌종양 (Metastatic brain tumor)
+- 혈관모세포종 (Hemangioblastoma)- 교모세포종 (Glioblastoma)
+- 뇌수막종 (Meningioma)
+- 뇌종양 관련 두통 (Headache due to brain tumor)
+- 두개인두종 (Craniopharyngioma)
+- 신경초종 (Schwannoma)
+- 전이성 뇌종양 (Metastatic brain tumor)
+- 혈관모세포종 (Hemangioblastoma)- "교모세포종 (Glioblastoma)"
 - "뇌수막종 (Meningioma)"
 - "두개인두종 (Craniopharyngioma)"
 - "신경초종 (Schwannoma)"
@@ -77,3 +89,27 @@ group_members:
 출처 : StatPearls (Neonatal Brain Tumors, Neuronal Brain Tumors)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[교모세포종 (Glioblastoma)]] | 성인에서 가장 흔한 원발성 악성 뇌종양으로, 신경교종(glioma) 중 가장 악성도가 높음 |
+| [[뇌수막종 (Meningioma)]] | 뇌와 척수를 둘러싼 수막(arachnoid cap cells)에서 발생하는 종양으로, 원발성 중추신경계 종양 중 가장 흔함 |
+| [[뇌종양 관련 두통 (Headache due to brain tumor)]] | 뇌종양으로 인해 발생하는 두통으로, 종양 자체의 압박, 뇌부종, 뇌척수액 흐름 차단에 의한 뇌압 상승이 주된 원인임 |
+| [[두개인두종 (Craniopharyngioma)]] | 주로 안장(sellar) 및 안장 위(suprasellar) 영역에서 발생하는 양성 중추신경계 종양으로, 뇌하수체 줄기 근처에서 흔히 발생함 |
+| [[신경초종 (Schwannoma)]] | 신경초(nerve sheath)에서 발생하는 양성 종양으로, 슈반세포(Schwann cell)에서 기원함. WHO Grade I 종양으로 분류됨 |
+| [[전이성 뇌종양 (Metastatic brain tumor)]] | 다른 부위에서 뇌로 전이된 종양 |
+| [[혈관모세포종 (Hemangioblastoma)]] | 중추신경계(CNS)에 발생하는 WHO grade 1의 드문 양성 고혈관성 종양 |
+
+## 포함 질환
+- [[교모세포종 (Glioblastoma)]]
+- [[뇌수막종 (Meningioma)]]
+- [[뇌종양 관련 두통 (Headache due to brain tumor)]]
+- [[두개인두종 (Craniopharyngioma)]]
+- [[신경초종 (Schwannoma)]]
+- [[전이성 뇌종양 (Metastatic brain tumor)]]
+- [[혈관모세포종 (Hemangioblastoma)]]

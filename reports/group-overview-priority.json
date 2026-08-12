@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10",
+  "generatedAt": "2026-08-13",
   "priorityRules": {
     "P1": "응급·고빈도 또는 Tier 1",
     "P2": "핵심 질환군",
@@ -9,71 +9,51 @@
     {
       "priority": 1,
       "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "외과",
-      "specialty": "11 외과",
-      "memberCount": 58,
-      "qbankCount": 213,
-      "sourcePath": "source_notes/02 Diseases/11 외과/외과.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 1,
-      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
       "title": "혈액",
       "specialty": "09 혈액",
-      "memberCount": 7,
-      "qbankCount": 128,
+      "memberCount": 6,
+      "qbankCount": 405,
       "sourcePath": "source_notes/02 Diseases/09 혈액/혈액.md",
-      "alreadyGenerated": false
+      "alreadyGenerated": true
     },
     {
       "priority": 1,
       "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "간",
+      "title": "외과",
+      "specialty": "11 외과",
+      "memberCount": 53,
+      "qbankCount": 317,
+      "sourcePath": "source_notes/02 Diseases/11 외과/외과.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "간 질환",
       "specialty": "03 소화기",
       "memberCount": 29,
-      "qbankCount": 117,
-      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/간.md",
-      "alreadyGenerated": false
+      "qbankCount": 243,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/간 질환.md",
+      "alreadyGenerated": true
     },
     {
       "priority": 1,
       "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "비뇨기과",
-      "specialty": "20 비뇨기과",
-      "memberCount": 33,
-      "qbankCount": 105,
-      "sourcePath": "source_notes/02 Diseases/20 비뇨기과/비뇨기과.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 1,
-      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "알레르기",
-      "specialty": "06 알레르기",
-      "memberCount": 4,
-      "qbankCount": 88,
-      "sourcePath": "source_notes/02 Diseases/06 알레르기/알레르기.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 1,
-      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "부정맥",
-      "specialty": "01 순환기",
-      "memberCount": 8,
-      "qbankCount": 64,
-      "sourcePath": "source_notes/02 Diseases/01 순환기/부정맥.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 1,
-      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "당",
+      "title": "당 질환",
       "specialty": "04 내분비",
       "memberCount": 9,
-      "qbankCount": 49,
-      "sourcePath": "source_notes/02 Diseases/04 내분비/당.md",
+      "qbankCount": 229,
+      "sourcePath": "source_notes/02 Diseases/04 내분비/당 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "당뇨병 (Diabetes Mellitus)",
+      "specialty": "04 내분비",
+      "memberCount": 9,
+      "qbankCount": 224,
+      "sourcePath": "source_notes/02 Diseases/04 내분비/당뇨병 (Diabetes Mellitus).md",
       "alreadyGenerated": false
     },
     {
@@ -81,19 +61,289 @@
       "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
       "title": "류마티스",
       "specialty": "07 류마티스",
-      "memberCount": 13,
-      "qbankCount": 48,
+      "memberCount": 14,
+      "qbankCount": 222,
       "sourcePath": "source_notes/02 Diseases/07 류마티스/류마티스.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "알레르기",
+      "specialty": "06 알레르기",
+      "memberCount": 4,
+      "qbankCount": 210,
+      "sourcePath": "source_notes/02 Diseases/06 알레르기/알레르기.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "비뇨기과",
+      "specialty": "20 비뇨기과",
+      "memberCount": 33,
+      "qbankCount": 205,
+      "sourcePath": "source_notes/02 Diseases/20 비뇨기과/비뇨기과.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "빈혈 (Anemia)",
+      "specialty": "09 혈액",
+      "memberCount": 8,
+      "qbankCount": 177,
+      "sourcePath": "source_notes/02 Diseases/09 혈액/빈혈 (Anemia).md",
       "alreadyGenerated": false
     },
     {
       "priority": 1,
       "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "갑상샘",
+      "title": "적혈구 질환",
+      "specialty": "09 혈액",
+      "memberCount": 14,
+      "qbankCount": 175,
+      "sourcePath": "source_notes/02 Diseases/09 혈액/적혈구 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "고혈압 (Hypertension)",
+      "specialty": "01 순환기",
+      "memberCount": 1,
+      "qbankCount": 160,
+      "sourcePath": "source_notes/02 Diseases/01 순환기/고혈압 (Hypertension).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "갑상샘 질환",
       "specialty": "04 내분비",
-      "memberCount": 15,
-      "qbankCount": 47,
-      "sourcePath": "source_notes/02 Diseases/04 내분비/갑상샘.md",
+      "memberCount": 17,
+      "qbankCount": 150,
+      "sourcePath": "source_notes/02 Diseases/04 내분비/갑상샘 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "바이러스",
+      "specialty": "08 감염",
+      "memberCount": 18,
+      "qbankCount": 131,
+      "sourcePath": "source_notes/02 Diseases/08 감염/바이러스.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "기도폐쇄질환",
+      "specialty": "02 호흡기",
+      "memberCount": 2,
+      "qbankCount": 118,
+      "sourcePath": "source_notes/02 Diseases/02 호흡기/기도폐쇄질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "혈관질환",
+      "specialty": "01 순환기",
+      "memberCount": 7,
+      "qbankCount": 115,
+      "sourcePath": "source_notes/02 Diseases/01 순환기/혈관질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "간염 (Hepatitis)",
+      "specialty": "03 소화기",
+      "memberCount": 9,
+      "qbankCount": 112,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/간염 (Hepatitis).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "칼슘 질환",
+      "specialty": "04 내분비",
+      "memberCount": 5,
+      "qbankCount": 98,
+      "sourcePath": "source_notes/02 Diseases/04 내분비/칼슘 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "신기능 이상",
+      "specialty": "05 신장",
+      "memberCount": 5,
+      "qbankCount": 97,
+      "sourcePath": "source_notes/02 Diseases/05 신장/신기능 이상.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "부정맥",
+      "specialty": "01 순환기",
+      "memberCount": 8,
+      "qbankCount": 96,
+      "sourcePath": "source_notes/02 Diseases/01 순환기/부정맥.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "뇌하수체 질환",
+      "specialty": "04 내분비",
+      "memberCount": 10,
+      "qbankCount": 92,
+      "sourcePath": "source_notes/02 Diseases/04 내분비/뇌하수체 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "식도 질환",
+      "specialty": "03 소화기",
+      "memberCount": 11,
+      "qbankCount": 91,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/식도 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "허혈성 뇌졸중 (Ischemic stroke)",
+      "specialty": "16 신경과-신경외과",
+      "memberCount": 9,
+      "qbankCount": 91,
+      "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/허혈성 뇌졸중 (Ischemic stroke).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)",
+      "specialty": "15 정신건강의학과",
+      "memberCount": 11,
+      "qbankCount": 90,
+      "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "전해질 이상",
+      "specialty": "05 신장",
+      "memberCount": 4,
+      "qbankCount": 90,
+      "sourcePath": "source_notes/02 Diseases/05 신장/전해질 이상.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "사구체질환",
+      "specialty": "05 신장",
+      "memberCount": 10,
+      "qbankCount": 89,
+      "sourcePath": "source_notes/02 Diseases/05 신장/사구체질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "담도계 질환",
+      "specialty": "03 소화기",
+      "memberCount": 10,
+      "qbankCount": 88,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/담도계 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "백혈구 질환",
+      "specialty": "09 혈액",
+      "memberCount": 8,
+      "qbankCount": 88,
+      "sourcePath": "source_notes/02 Diseases/09 혈액/백혈구 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "허혈성 심질환",
+      "specialty": "01 순환기",
+      "memberCount": 7,
+      "qbankCount": 87,
+      "sourcePath": "source_notes/02 Diseases/01 순환기/허혈성 심질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "간경변증 (Liver Cirrhosis)",
+      "specialty": "03 소화기",
+      "memberCount": 6,
+      "qbankCount": 87,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/간경변증 (Liver Cirrhosis).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "부신(피질) 질환",
+      "specialty": "04 내분비",
+      "memberCount": 12,
+      "qbankCount": 82,
+      "sourcePath": "source_notes/02 Diseases/04 내분비/부신(피질) 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "췌장 질환",
+      "specialty": "03 소화기",
+      "memberCount": 9,
+      "qbankCount": 82,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/췌장 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "신경근육질환",
+      "specialty": "16 신경과-신경외과",
+      "memberCount": 5,
+      "qbankCount": 80,
+      "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/신경근육질환.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "판막질환",
+      "specialty": "01 순환기",
+      "memberCount": 7,
+      "qbankCount": 79,
+      "sourcePath": "source_notes/02 Diseases/01 순환기/판막질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "백혈병 (Leukemia)",
+      "specialty": "09 혈액",
+      "memberCount": 5,
+      "qbankCount": 79,
+      "sourcePath": "source_notes/02 Diseases/09 혈액/백혈병 (Leukemia).md",
       "alreadyGenerated": false
     },
     {
@@ -102,118 +352,28 @@
       "title": "Type I",
       "specialty": "06 알레르기",
       "memberCount": 13,
-      "qbankCount": 46,
+      "qbankCount": 78,
       "sourcePath": "source_notes/02 Diseases/06 알레르기/Type I.md",
-      "alreadyGenerated": false
+      "alreadyGenerated": true
     },
     {
       "priority": 1,
       "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "담",
-      "specialty": "03 소화기",
-      "memberCount": 10,
-      "qbankCount": 43,
-      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/담.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 1,
-      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "적혈구",
-      "specialty": "09 혈액",
-      "memberCount": 13,
-      "qbankCount": 42,
-      "sourcePath": "source_notes/02 Diseases/09 혈액/적혈구.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 1,
-      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "부신(피질)",
-      "specialty": "04 내분비",
-      "memberCount": 12,
-      "qbankCount": 38,
-      "sourcePath": "source_notes/02 Diseases/04 내분비/부신(피질).md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 1,
-      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "뇌하수체",
-      "specialty": "04 내분비",
-      "memberCount": 10,
-      "qbankCount": 37,
-      "sourcePath": "source_notes/02 Diseases/04 내분비/뇌하수체.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 1,
-      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "혈관질환",
-      "specialty": "01 순환기",
-      "memberCount": 7,
-      "qbankCount": 37,
-      "sourcePath": "source_notes/02 Diseases/01 순환기/혈관질환.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 1,
-      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "사구체질환",
-      "specialty": "05 신장",
-      "memberCount": 11,
-      "qbankCount": 35,
-      "sourcePath": "source_notes/02 Diseases/05 신장/사구체질환.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 1,
-      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "식도",
-      "specialty": "03 소화기",
-      "memberCount": 11,
-      "qbankCount": 32,
-      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/식도.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 1,
-      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "췌",
-      "specialty": "03 소화기",
-      "memberCount": 9,
-      "qbankCount": 31,
-      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/췌.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 1,
-      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "폐혈관",
+      "title": "폐종양",
       "specialty": "02 호흡기",
-      "memberCount": 2,
-      "qbankCount": 22,
-      "sourcePath": "source_notes/02 Diseases/02 호흡기/폐혈관.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 1,
-      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "허혈성 심질환",
-      "specialty": "01 순환기",
-      "memberCount": 6,
-      "qbankCount": 19,
-      "sourcePath": "source_notes/02 Diseases/01 순환기/허혈성 심질환.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 1,
-      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "신기능 이상",
-      "specialty": "05 신장",
       "memberCount": 5,
-      "qbankCount": 19,
-      "sourcePath": "source_notes/02 Diseases/05 신장/신기능 이상.md",
+      "qbankCount": 76,
+      "sourcePath": "source_notes/02 Diseases/02 호흡기/폐종양.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "신경인지장애 (Neurocognitive Disorders)",
+      "specialty": "15 정신건강의학과",
+      "memberCount": 4,
+      "qbankCount": 76,
+      "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/신경인지장애 (Neurocognitive Disorders).md",
       "alreadyGenerated": false
     },
     {
@@ -222,18 +382,468 @@
       "title": "심부전",
       "specialty": "01 순환기",
       "memberCount": 3,
-      "qbankCount": 18,
+      "qbankCount": 65,
       "sourcePath": "source_notes/02 Diseases/01 순환기/심부전.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "외상",
+      "specialty": "11 외과",
+      "memberCount": 10,
+      "qbankCount": 64,
+      "sourcePath": "source_notes/02 Diseases/11 외과/외상.md",
       "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders)",
+      "specialty": "15 정신건강의학과",
+      "memberCount": 6,
+      "qbankCount": 64,
+      "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "Type III",
+      "specialty": "06 알레르기",
+      "memberCount": 4,
+      "qbankCount": 64,
+      "sourcePath": "source_notes/02 Diseases/06 알레르기/Type III.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "G(-)",
+      "specialty": "08 감염",
+      "memberCount": 10,
+      "qbankCount": 60,
+      "sourcePath": "source_notes/02 Diseases/08 감염/G(-).md",
+      "alreadyGenerated": true
     },
     {
       "priority": 1,
       "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
       "title": "대동맥 질환",
       "specialty": "01 순환기",
-      "memberCount": 3,
-      "qbankCount": 9,
+      "memberCount": 5,
+      "qbankCount": 60,
       "sourcePath": "source_notes/02 Diseases/01 순환기/대동맥 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "급성 중독 총론 (General Management of Acute Poisoning)",
+      "specialty": "21 응급의학",
+      "memberCount": 4,
+      "qbankCount": 60,
+      "sourcePath": "source_notes/02 Diseases/21 응급의학/급성 중독 총론 (General Management of Acute Poisoning).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "폐혈관질환",
+      "specialty": "02 호흡기",
+      "memberCount": 2,
+      "qbankCount": 60,
+      "sourcePath": "source_notes/02 Diseases/02 호흡기/폐혈관질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "G(+)",
+      "specialty": "08 감염",
+      "memberCount": 9,
+      "qbankCount": 59,
+      "sourcePath": "source_notes/02 Diseases/08 감염/G(+).md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "췌장염",
+      "specialty": "03 소화기",
+      "memberCount": 5,
+      "qbankCount": 57,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/췌장염.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "기타 감염질환",
+      "specialty": "08 감염",
+      "memberCount": 13,
+      "qbankCount": 54,
+      "sourcePath": "source_notes/02 Diseases/08 감염/기타 감염질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "수면 관련 장애 (Sleep-Wake Disorders)",
+      "specialty": "15 정신건강의학과",
+      "memberCount": 9,
+      "qbankCount": 54,
+      "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/수면 관련 장애 (Sleep-Wake Disorders).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "림프구 질환",
+      "specialty": "09 혈액",
+      "memberCount": 8,
+      "qbankCount": 54,
+      "sourcePath": "source_notes/02 Diseases/09 혈액/림프구 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "혈뇨",
+      "specialty": "05 신장",
+      "memberCount": 6,
+      "qbankCount": 53,
+      "sourcePath": "source_notes/02 Diseases/05 신장/혈뇨.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "성매개감염",
+      "specialty": "13 부인과",
+      "memberCount": 5,
+      "qbankCount": 52,
+      "sourcePath": "source_notes/02 Diseases/13 부인과/성매개감염.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "소화기 암",
+      "specialty": "03 소화기",
+      "memberCount": 5,
+      "qbankCount": 51,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/소화기 암.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "림프종 (Lymphoma)",
+      "specialty": "09 혈액",
+      "memberCount": 6,
+      "qbankCount": 50,
+      "sourcePath": "source_notes/02 Diseases/09 혈액/림프종 (Lymphoma).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "임신성고혈압 (Gestational Hypertension)",
+      "specialty": "12 산과",
+      "memberCount": 4,
+      "qbankCount": 50,
+      "sourcePath": "source_notes/02 Diseases/12 산과/임신성고혈압 (Gestational Hypertension).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "염증성 장질환 (IBD) (Inflammatory Bowel Disease)",
+      "specialty": "03 소화기",
+      "memberCount": 2,
+      "qbankCount": 50,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/염증성 장질환 (IBD) (Inflammatory Bowel Disease).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "치매 (Dementia)",
+      "specialty": "15 정신건강의학과",
+      "memberCount": 4,
+      "qbankCount": 49,
+      "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/치매 (Dementia).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "PUD",
+      "specialty": "03 소화기",
+      "memberCount": 5,
+      "qbankCount": 48,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/PUD.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "출혈성 뇌졸중 (Hemorrhagic Stroke)",
+      "specialty": "16 신경과-신경외과",
+      "memberCount": 5,
+      "qbankCount": 47,
+      "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/출혈성 뇌졸중 (Hemorrhagic Stroke).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "임신 중 감염",
+      "specialty": "12 산과",
+      "memberCount": 5,
+      "qbankCount": 45,
+      "sourcePath": "source_notes/02 Diseases/12 산과/임신 중 감염.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "이상운동질환",
+      "specialty": "16 신경과-신경외과",
+      "memberCount": 5,
+      "qbankCount": 42,
+      "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/이상운동질환.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "혈관벽 질환",
+      "specialty": "09 혈액",
+      "memberCount": 4,
+      "qbankCount": 42,
+      "sourcePath": "source_notes/02 Diseases/09 혈액/혈관벽 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "습진성피부질환",
+      "specialty": "19 피부과",
+      "memberCount": 6,
+      "qbankCount": 41,
+      "sourcePath": "source_notes/02 Diseases/19 피부과/습진성피부질환.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "흡수장애",
+      "specialty": "03 소화기",
+      "memberCount": 4,
+      "qbankCount": 41,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/흡수장애.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "Type II",
+      "specialty": "06 알레르기",
+      "memberCount": 2,
+      "qbankCount": 41,
+      "sourcePath": "source_notes/02 Diseases/06 알레르기/Type II.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "뇌종양 (Brain tumor)",
+      "specialty": "16 신경과-신경외과",
+      "memberCount": 7,
+      "qbankCount": 40,
+      "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/뇌종양 (Brain tumor).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "심근질환",
+      "specialty": "01 순환기",
+      "memberCount": 4,
+      "qbankCount": 40,
+      "sourcePath": "source_notes/02 Diseases/01 순환기/심근질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "두통",
+      "specialty": "16 신경과-신경외과",
+      "memberCount": 6,
+      "qbankCount": 39,
+      "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/두통.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "지질 질환",
+      "specialty": "04 내분비",
+      "memberCount": 2,
+      "qbankCount": 39,
+      "sourcePath": "source_notes/02 Diseases/04 내분비/지질 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "지역사회 감염",
+      "specialty": "08 감염",
+      "memberCount": 9,
+      "qbankCount": 37,
+      "sourcePath": "source_notes/02 Diseases/08 감염/지역사회 감염.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "ILD",
+      "specialty": "02 호흡기",
+      "memberCount": 5,
+      "qbankCount": 36,
+      "sourcePath": "source_notes/02 Diseases/02 호흡기/ILD.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "응고인자 질환",
+      "specialty": "09 혈액",
+      "memberCount": 3,
+      "qbankCount": 36,
+      "sourcePath": "source_notes/02 Diseases/09 혈액/응고인자 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "외상 및 스트레스 관련 장애 (Trauma- and Stressor-Related Disorders)",
+      "specialty": "15 정신건강의학과",
+      "memberCount": 7,
+      "qbankCount": 35,
+      "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/외상 및 스트레스 관련 장애 (Trauma- and Stressor-Related Disorders).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "신체 증상 및 관련 장애 (Somatic Symptom and Related Disorders)",
+      "specialty": "15 정신건강의학과",
+      "memberCount": 5,
+      "qbankCount": 35,
+      "sourcePath": "source_notes/02 Diseases/15 정신건강의학과/신체 증상 및 관련 장애 (Somatic Symptom and Related Disorders).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "신혈관 질환",
+      "specialty": "05 신장",
+      "memberCount": 4,
+      "qbankCount": 34,
+      "sourcePath": "source_notes/02 Diseases/05 신장/신혈관 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "심막질환",
+      "specialty": "01 순환기",
+      "memberCount": 3,
+      "qbankCount": 34,
+      "sourcePath": "source_notes/02 Diseases/01 순환기/심막질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "장폐색",
+      "specialty": "03 소화기",
+      "memberCount": 3,
+      "qbankCount": 34,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/장폐색.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "세관기능장애",
+      "specialty": "05 신장",
+      "memberCount": 7,
+      "qbankCount": 33,
+      "sourcePath": "source_notes/02 Diseases/05 신장/세관기능장애.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "폐결핵 (Pulmonary Tuberculosis)",
+      "specialty": "02 호흡기",
+      "memberCount": 5,
+      "qbankCount": 33,
+      "sourcePath": "source_notes/02 Diseases/02 호흡기/폐결핵 (Pulmonary Tuberculosis).md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "원내감염",
+      "specialty": "08 감염",
+      "memberCount": 3,
+      "qbankCount": 32,
+      "sourcePath": "source_notes/02 Diseases/08 감염/원내감염.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "폐렴",
+      "specialty": "02 호흡기",
+      "memberCount": 2,
+      "qbankCount": 32,
+      "sourcePath": "source_notes/02 Diseases/02 호흡기/폐렴.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "수혈부작용",
+      "specialty": "11 외과",
+      "memberCount": 7,
+      "qbankCount": 31,
+      "sourcePath": "source_notes/02 Diseases/11 외과/수혈부작용.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "약물 및 화학물질 중독",
+      "specialty": "21 응급의학",
+      "memberCount": 7,
+      "qbankCount": 31,
+      "sourcePath": "source_notes/02 Diseases/21 응급의학/약물 및 화학물질 중독.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "화상 (Burn)",
+      "specialty": "11 외과",
+      "memberCount": 3,
+      "qbankCount": 26,
+      "sourcePath": "source_notes/02 Diseases/11 외과/화상 (Burn).md",
       "alreadyGenerated": false
     },
     {
@@ -242,189 +852,59 @@
       "title": "기흉",
       "specialty": "02 호흡기",
       "memberCount": 3,
-      "qbankCount": 8,
+      "qbankCount": 18,
       "sourcePath": "source_notes/02 Diseases/02 호흡기/기흉.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "흡입성 중독",
+      "specialty": "21 응급의학",
+      "memberCount": 1,
+      "qbankCount": 10,
+      "sourcePath": "source_notes/02 Diseases/21 응급의학/흡입성 중독.md",
       "alreadyGenerated": false
     },
     {
       "priority": 1,
       "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
-      "title": "지질",
-      "specialty": "04 내분비",
-      "memberCount": 2,
-      "qbankCount": 8,
-      "sourcePath": "source_notes/02 Diseases/04 내분비/지질.md",
+      "title": "독성 알코올",
+      "specialty": "21 응급의학",
+      "memberCount": 1,
+      "qbankCount": 7,
+      "sourcePath": "source_notes/02 Diseases/21 응급의학/독성 알코올.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 1,
+      "reason": "응급·고빈도 또는 Tier 1 구성 질환 포함",
+      "title": "생물 독소",
+      "specialty": "21 응급의학",
+      "memberCount": 1,
+      "qbankCount": 5,
+      "sourcePath": "source_notes/02 Diseases/21 응급의학/생물 독소.md",
       "alreadyGenerated": false
     },
     {
       "priority": 2,
       "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "백혈구",
-      "specialty": "09 혈액",
-      "memberCount": 8,
-      "qbankCount": 26,
-      "sourcePath": "source_notes/02 Diseases/09 혈액/백혈구.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "림프구",
-      "specialty": "09 혈액",
-      "memberCount": 8,
-      "qbankCount": 21,
-      "sourcePath": "source_notes/02 Diseases/09 혈액/림프구.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "판막질환",
-      "specialty": "01 순환기",
-      "memberCount": 7,
-      "qbankCount": 21,
-      "sourcePath": "source_notes/02 Diseases/01 순환기/판막질환.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "세관기능장애",
-      "specialty": "05 신장",
-      "memberCount": 7,
-      "qbankCount": 20,
-      "sourcePath": "source_notes/02 Diseases/05 신장/세관기능장애.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "바이러스",
-      "specialty": "08 감염",
-      "memberCount": 16,
-      "qbankCount": 18,
-      "sourcePath": "source_notes/02 Diseases/08 감염/바이러스.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "암",
-      "specialty": "03 소화기",
-      "memberCount": 5,
-      "qbankCount": 17,
-      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/암.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "G(-)",
-      "specialty": "08 감염",
-      "memberCount": 10,
-      "qbankCount": 16,
-      "sourcePath": "source_notes/02 Diseases/08 감염/G(-).md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "직장 및 항문",
-      "specialty": "03 소화기",
-      "memberCount": 7,
-      "qbankCount": 16,
-      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/직장 및 항문.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "칼슘",
-      "specialty": "04 내분비",
-      "memberCount": 5,
-      "qbankCount": 16,
-      "sourcePath": "source_notes/02 Diseases/04 내분비/칼슘.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "Type III",
-      "specialty": "06 알레르기",
+      "title": "척수 외상 (Spinal cord trauma)",
+      "specialty": "16 신경과-신경외과",
       "memberCount": 4,
-      "qbankCount": 16,
-      "sourcePath": "source_notes/02 Diseases/06 알레르기/Type III.md",
+      "qbankCount": 29,
+      "sourcePath": "source_notes/02 Diseases/16 신경과-신경외과/척수 외상 (Spinal cord trauma).md",
       "alreadyGenerated": false
     },
     {
       "priority": 2,
       "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "장폐색",
-      "specialty": "03 소화기",
-      "memberCount": 3,
-      "qbankCount": 16,
-      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/장폐색.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "단백뇨",
-      "specialty": "05 신장",
+      "title": "혈소판 질환",
+      "specialty": "09 혈액",
       "memberCount": 2,
-      "qbankCount": 16,
-      "sourcePath": "source_notes/02 Diseases/05 신장/단백뇨.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "ILD",
-      "specialty": "02 호흡기",
-      "memberCount": 5,
-      "qbankCount": 15,
-      "sourcePath": "source_notes/02 Diseases/02 호흡기/ILD.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "Type IV",
-      "specialty": "06 알레르기",
-      "memberCount": 3,
-      "qbankCount": 15,
-      "sourcePath": "source_notes/02 Diseases/06 알레르기/Type IV.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "위 절제 부작용",
-      "specialty": "03 소화기",
-      "memberCount": 5,
-      "qbankCount": 14,
-      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/위 절제 부작용.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "폐종양",
-      "specialty": "02 호흡기",
-      "memberCount": 5,
-      "qbankCount": 14,
-      "sourcePath": "source_notes/02 Diseases/02 호흡기/폐종양.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "심근질환",
-      "specialty": "01 순환기",
-      "memberCount": 4,
-      "qbankCount": 14,
-      "sourcePath": "source_notes/02 Diseases/01 순환기/심근질환.md",
-      "alreadyGenerated": false
+      "qbankCount": 29,
+      "sourcePath": "source_notes/02 Diseases/09 혈액/혈소판 질환.md",
+      "alreadyGenerated": true
     },
     {
       "priority": 2,
@@ -432,68 +912,158 @@
       "title": "종양내과",
       "specialty": "10 종양",
       "memberCount": 4,
-      "qbankCount": 14,
+      "qbankCount": 28,
       "sourcePath": "source_notes/02 Diseases/10 종양/종양내과.md",
-      "alreadyGenerated": false
+      "alreadyGenerated": true
     },
     {
       "priority": 2,
       "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "기타",
+      "title": "위장관 혈관질환",
+      "specialty": "03 소화기",
+      "memberCount": 5,
+      "qbankCount": 27,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/위장관 혈관질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "진균",
       "specialty": "08 감염",
-      "memberCount": 13,
-      "qbankCount": 13,
-      "sourcePath": "source_notes/02 Diseases/08 감염/기타.md",
-      "alreadyGenerated": false
+      "memberCount": 4,
+      "qbankCount": 27,
+      "sourcePath": "source_notes/02 Diseases/08 감염/진균.md",
+      "alreadyGenerated": true
     },
     {
       "priority": 2,
       "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "PUD",
-      "specialty": "03 소화기",
-      "memberCount": 5,
-      "qbankCount": 13,
-      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/PUD.md",
-      "alreadyGenerated": false
+      "title": "Type IV",
+      "specialty": "06 알레르기",
+      "memberCount": 3,
+      "qbankCount": 27,
+      "sourcePath": "source_notes/02 Diseases/06 알레르기/Type IV.md",
+      "alreadyGenerated": true
     },
     {
       "priority": 2,
       "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "전해질 이상",
+      "title": "요로질환",
       "specialty": "05 신장",
+      "memberCount": 2,
+      "qbankCount": 27,
+      "sourcePath": "source_notes/02 Diseases/05 신장/요로질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "산후출혈",
+      "specialty": "12 산과",
       "memberCount": 4,
-      "qbankCount": 13,
-      "sourcePath": "source_notes/02 Diseases/05 신장/전해질 이상.md",
+      "qbankCount": 26,
+      "sourcePath": "source_notes/02 Diseases/12 산과/산후출혈.md",
       "alreadyGenerated": false
     },
     {
       "priority": 2,
       "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "위장관 혈관",
+      "title": "소아 유전질환",
+      "specialty": "14 소아청소년과",
+      "memberCount": 10,
+      "qbankCount": 24,
+      "sourcePath": "source_notes/02 Diseases/14 소아청소년과/소아과 총론/소아 유전질환.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "직장 및 항문질환",
       "specialty": "03 소화기",
-      "memberCount": 5,
-      "qbankCount": 12,
-      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/위장관 혈관.md",
-      "alreadyGenerated": false
+      "memberCount": 7,
+      "qbankCount": 24,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/직장 및 항문질환.md",
+      "alreadyGenerated": true
     },
     {
       "priority": 2,
       "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "신혈관 질환",
+      "title": "단백뇨",
       "specialty": "05 신장",
-      "memberCount": 4,
-      "qbankCount": 11,
-      "sourcePath": "source_notes/02 Diseases/05 신장/신혈관 질환.md",
+      "memberCount": 2,
+      "qbankCount": 24,
+      "sourcePath": "source_notes/02 Diseases/05 신장/단백뇨.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "위장관 출혈",
+      "specialty": "03 소화기",
+      "memberCount": 2,
+      "qbankCount": 24,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/위장관 출혈.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "실신",
+      "specialty": "01 순환기",
+      "memberCount": 2,
+      "qbankCount": 21,
+      "sourcePath": "source_notes/02 Diseases/01 순환기/실신.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "췌장암",
+      "specialty": "03 소화기",
+      "memberCount": 2,
+      "qbankCount": 21,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/췌장암.md",
       "alreadyGenerated": false
     },
     {
       "priority": 2,
       "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "혈관벽",
-      "specialty": "09 혈액",
-      "memberCount": 4,
-      "qbankCount": 11,
-      "sourcePath": "source_notes/02 Diseases/09 혈액/혈관벽.md",
+      "title": "환기장애",
+      "specialty": "02 호흡기",
+      "memberCount": 3,
+      "qbankCount": 20,
+      "sourcePath": "source_notes/02 Diseases/02 호흡기/환기장애.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "식중독 및 식품매개 감염",
+      "specialty": "08 감염",
+      "memberCount": 7,
+      "qbankCount": 19,
+      "sourcePath": "source_notes/02 Diseases/08 감염/식중독 및 식품매개 감염.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "위 질환",
+      "specialty": "03 소화기",
+      "memberCount": 3,
+      "qbankCount": 19,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/위 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "지방간",
+      "specialty": "03 소화기",
+      "memberCount": 3,
+      "qbankCount": 19,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/지방간.md",
       "alreadyGenerated": false
     },
     {
@@ -502,39 +1072,119 @@
       "title": "흉수",
       "specialty": "02 호흡기",
       "memberCount": 4,
-      "qbankCount": 11,
+      "qbankCount": 17,
       "sourcePath": "source_notes/02 Diseases/02 호흡기/흉수.md",
-      "alreadyGenerated": false
+      "alreadyGenerated": true
     },
     {
       "priority": 2,
       "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "위",
-      "specialty": "03 소화기",
+      "title": "말초신경 손상",
+      "specialty": "22 정형외과",
       "memberCount": 3,
-      "qbankCount": 11,
-      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/위.md",
+      "qbankCount": 17,
+      "sourcePath": "source_notes/02 Diseases/22 정형외과/말초신경 손상.md",
       "alreadyGenerated": false
     },
     {
       "priority": 2,
       "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "Type II",
-      "specialty": "06 알레르기",
+      "title": "간암",
+      "specialty": "03 소화기",
+      "memberCount": 1,
+      "qbankCount": 17,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/간담췌/간암.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "원생동물",
+      "specialty": "08 감염",
+      "memberCount": 5,
+      "qbankCount": 16,
+      "sourcePath": "source_notes/02 Diseases/08 감염/원생동물.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "위 절제 부작용",
+      "specialty": "03 소화기",
+      "memberCount": 5,
+      "qbankCount": 16,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/위 절제 부작용.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "구진인설성질환",
+      "specialty": "19 피부과",
+      "memberCount": 3,
+      "qbankCount": 16,
+      "sourcePath": "source_notes/02 Diseases/19 피부과/구진인설성질환.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "홍반성피부질환",
+      "specialty": "19 피부과",
+      "memberCount": 3,
+      "qbankCount": 16,
+      "sourcePath": "source_notes/02 Diseases/19 피부과/홍반성피부질환.md",
+      "alreadyGenerated": false
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "세관사이질 질환",
+      "specialty": "05 신장",
       "memberCount": 2,
-      "qbankCount": 11,
-      "sourcePath": "source_notes/02 Diseases/06 알레르기/Type II.md",
+      "qbankCount": 16,
+      "sourcePath": "source_notes/02 Diseases/05 신장/세관사이질 질환.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "호산구 폐렴 (Eosinophilic Pneumonia)",
+      "specialty": "02 호흡기",
+      "memberCount": 3,
+      "qbankCount": 15,
+      "sourcePath": "source_notes/02 Diseases/02 호흡기/호산구 폐렴 (Eosinophilic Pneumonia).md",
       "alreadyGenerated": false
     },
     {
       "priority": 2,
       "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "기타",
-      "specialty": "09 혈액",
-      "memberCount": 4,
-      "qbankCount": 10,
-      "sourcePath": "source_notes/02 Diseases/09 혈액/기타.md",
+      "title": "배변이상",
+      "specialty": "03 소화기",
+      "memberCount": 2,
+      "qbankCount": 14,
+      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/배변이상.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "여행자·수인성 감염",
+      "specialty": "08 감염",
+      "memberCount": 5,
+      "qbankCount": 13,
+      "sourcePath": "source_notes/02 Diseases/08 감염/여행자·수인성 감염.md",
       "alreadyGenerated": false
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "기생충",
+      "specialty": "08 감염",
+      "memberCount": 4,
+      "qbankCount": 13,
+      "sourcePath": "source_notes/02 Diseases/08 감염/기생충.md",
+      "alreadyGenerated": true
     },
     {
       "priority": 2,
@@ -542,9 +1192,9 @@
       "title": "기침",
       "specialty": "02 호흡기",
       "memberCount": 3,
-      "qbankCount": 10,
+      "qbankCount": 12,
       "sourcePath": "source_notes/02 Diseases/02 호흡기/기침.md",
-      "alreadyGenerated": false
+      "alreadyGenerated": true
     },
     {
       "priority": 2,
@@ -552,198 +1202,68 @@
       "title": "무해성 심잡음",
       "specialty": "01 순환기",
       "memberCount": 3,
-      "qbankCount": 10,
+      "qbankCount": 12,
       "sourcePath": "source_notes/02 Diseases/01 순환기/무해성 심잡음.md",
-      "alreadyGenerated": false
+      "alreadyGenerated": true
     },
     {
       "priority": 2,
       "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "흡수장애",
-      "specialty": "03 소화기",
-      "memberCount": 3,
-      "qbankCount": 10,
-      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/흡수장애.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "요로질환",
-      "specialty": "05 신장",
-      "memberCount": 2,
-      "qbankCount": 10,
-      "sourcePath": "source_notes/02 Diseases/05 신장/요로질환.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "G(+)",
-      "specialty": "08 감염",
-      "memberCount": 9,
-      "qbankCount": 9,
-      "sourcePath": "source_notes/02 Diseases/08 감염/G(+).md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "진균",
-      "specialty": "08 감염",
-      "memberCount": 5,
-      "qbankCount": 9,
-      "sourcePath": "source_notes/02 Diseases/08 감염/진균.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 2,
-      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
-      "title": "지역사회",
-      "specialty": "08 감염",
-      "memberCount": 6,
-      "qbankCount": 6,
-      "sourcePath": "source_notes/02 Diseases/08 감염/지역사회.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 3,
-      "reason": "보완 우선순위의 소규모 질환군",
-      "title": "심막질환",
-      "specialty": "01 순환기",
-      "memberCount": 3,
-      "qbankCount": 9,
-      "sourcePath": "source_notes/02 Diseases/01 순환기/심막질환.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 3,
-      "reason": "보완 우선순위의 소규모 질환군",
-      "title": "응고인자",
-      "specialty": "09 혈액",
-      "memberCount": 3,
-      "qbankCount": 9,
-      "sourcePath": "source_notes/02 Diseases/09 혈액/응고인자.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 3,
-      "reason": "보완 우선순위의 소규모 질환군",
-      "title": "환기장애",
+      "title": "종격동질환",
       "specialty": "02 호흡기",
       "memberCount": 3,
-      "qbankCount": 9,
-      "sourcePath": "source_notes/02 Diseases/02 호흡기/환기장애.md",
-      "alreadyGenerated": false
+      "qbankCount": 12,
+      "sourcePath": "source_notes/02 Diseases/02 호흡기/종격동질환.md",
+      "alreadyGenerated": true
     },
     {
-      "priority": 3,
-      "reason": "보완 우선순위의 소규모 질환군",
-      "title": "혈소판",
-      "specialty": "09 혈액",
-      "memberCount": 2,
-      "qbankCount": 9,
-      "sourcePath": "source_notes/02 Diseases/09 혈액/혈소판.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 3,
-      "reason": "보완 우선순위의 소규모 질환군",
-      "title": "종격동",
-      "specialty": "02 호흡기",
-      "memberCount": 3,
-      "qbankCount": 8,
-      "sourcePath": "source_notes/02 Diseases/02 호흡기/종격동.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 3,
-      "reason": "보완 우선순위의 소규모 질환군",
-      "title": "위장관 출혈",
-      "specialty": "03 소화기",
-      "memberCount": 2,
-      "qbankCount": 7,
-      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/위장관 출혈.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 3,
-      "reason": "보완 우선순위의 소규모 질환군",
-      "title": "ILD – 직업성",
-      "specialty": "02 호흡기",
-      "memberCount": 2,
-      "qbankCount": 6,
-      "sourcePath": "source_notes/02 Diseases/02 호흡기/ILD – 직업성.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 3,
-      "reason": "보완 우선순위의 소규모 질환군",
-      "title": "배변이상",
-      "specialty": "03 소화기",
-      "memberCount": 2,
-      "qbankCount": 6,
-      "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/배변이상.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 3,
-      "reason": "보완 우선순위의 소규모 질환군",
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
       "title": "산염기 질환",
       "specialty": "05 신장",
       "memberCount": 2,
-      "qbankCount": 6,
+      "qbankCount": 12,
       "sourcePath": "source_notes/02 Diseases/05 신장/산염기 질환.md",
-      "alreadyGenerated": false
+      "alreadyGenerated": true
     },
     {
-      "priority": 3,
-      "reason": "보완 우선순위의 소규모 질환군",
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "ILD – 직업성",
+      "specialty": "02 호흡기",
+      "memberCount": 2,
+      "qbankCount": 10,
+      "sourcePath": "source_notes/02 Diseases/02 호흡기/ILD – 직업성.md",
+      "alreadyGenerated": true
+    },
+    {
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
       "title": "삼킴곤란",
       "specialty": "03 소화기",
       "memberCount": 2,
-      "qbankCount": 6,
+      "qbankCount": 10,
       "sourcePath": "source_notes/02 Diseases/03 소화기/위장관/삼킴곤란.md",
-      "alreadyGenerated": false
+      "alreadyGenerated": true
     },
     {
-      "priority": 3,
-      "reason": "보완 우선순위의 소규모 질환군",
-      "title": "세관사이질 질환",
-      "specialty": "05 신장",
+      "priority": 2,
+      "reason": "문제 수 또는 구성 질환 수가 많은 핵심 질환군",
+      "title": "쌍둥이 임신 (Multiple Gestation)",
+      "specialty": "12 산과",
       "memberCount": 2,
-      "qbankCount": 6,
-      "sourcePath": "source_notes/02 Diseases/05 신장/세관사이질 질환.md",
+      "qbankCount": 10,
+      "sourcePath": "source_notes/02 Diseases/12 산과/쌍둥이 임신 (Multiple Gestation).md",
       "alreadyGenerated": false
     },
     {
       "priority": 3,
       "reason": "보완 우선순위의 소규모 질환군",
-      "title": "실신",
-      "specialty": "01 순환기",
-      "memberCount": 2,
-      "qbankCount": 6,
-      "sourcePath": "source_notes/02 Diseases/01 순환기/실신.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 3,
-      "reason": "보완 우선순위의 소규모 질환군",
-      "title": "기생충",
+      "title": "물림 및 교상 감염",
       "specialty": "08 감염",
-      "memberCount": 4,
-      "qbankCount": 4,
-      "sourcePath": "source_notes/02 Diseases/08 감염/기생충.md",
-      "alreadyGenerated": false
-    },
-    {
-      "priority": 3,
-      "reason": "보완 우선순위의 소규모 질환군",
-      "title": "원내감염",
-      "specialty": "08 감염",
-      "memberCount": 3,
-      "qbankCount": 3,
-      "sourcePath": "source_notes/02 Diseases/08 감염/원내감염.md",
+      "memberCount": 1,
+      "qbankCount": 6,
+      "sourcePath": "source_notes/02 Diseases/08 감염/물림 및 교상 감염.md",
       "alreadyGenerated": false
     }
   ]

@@ -502,21 +502,6 @@
       "status": "no-current-canonical-document"
     },
     {
-      "canonical_tag": "Silent thyroiditis",
-      "tag_variants": [
-        "Silent thyroiditis"
-      ],
-      "specialties": [
-        "04 내분비"
-      ],
-      "occurrences": 2,
-      "sample_question_ids": [
-        "medqa-us-train-001134",
-        "medqa-us-validation-000862"
-      ],
-      "status": "no-current-canonical-document"
-    },
-    {
       "canonical_tag": "Wallenberg syndrome",
       "tag_variants": [
         "Wallenberg syndrome"
@@ -1960,20 +1945,6 @@
       "status": "no-current-canonical-document"
     },
     {
-      "canonical_tag": "Riedel thyroiditis",
-      "tag_variants": [
-        "Riedel thyroiditis"
-      ],
-      "specialties": [
-        "04 내분비"
-      ],
-      "occurrences": 1,
-      "sample_question_ids": [
-        "medqa-us-test-000472"
-      ],
-      "status": "no-current-canonical-document"
-    },
-    {
       "canonical_tag": "SUNCT syndrome",
       "tag_variants": [
         "SUNCT syndrome"
@@ -2366,20 +2337,6 @@
       "status": "no-current-canonical-document"
     },
     {
-      "canonical_tag": "burn infection",
-      "tag_variants": [
-        "burn infection"
-      ],
-      "specialties": [
-        "14 소아청소년과"
-      ],
-      "occurrences": 1,
-      "sample_question_ids": [
-        "medqa-us-train-001171"
-      ],
-      "status": "no-current-canonical-document"
-    },
-    {
       "canonical_tag": "calcinosis cutis",
       "tag_variants": [
         "calcinosis cutis"
@@ -2404,20 +2361,6 @@
       "occurrences": 1,
       "sample_question_ids": [
         "medqa-us-train-003635"
-      ],
-      "status": "no-current-canonical-document"
-    },
-    {
-      "canonical_tag": "cannabinoid hyperemesis syndrome",
-      "tag_variants": [
-        "cannabinoid hyperemesis syndrome"
-      ],
-      "specialties": [
-        "21 응급의학"
-      ],
-      "occurrences": 1,
-      "sample_question_ids": [
-        "medqa-us-train-000710"
       ],
       "status": "no-current-canonical-document"
     },
@@ -7766,20 +7709,6 @@
       "occurrences": 1,
       "sample_question_ids": [
         "medqa-us-train-006475"
-      ],
-      "status": "no-current-canonical-document"
-    },
-    {
-      "canonical_tag": "칸나비스 구토 증후군",
-      "tag_variants": [
-        "칸나비스 구토 증후군"
-      ],
-      "specialties": [
-        "21 응급의학"
-      ],
-      "occurrences": 1,
-      "sample_question_ids": [
-        "medqa-us-train-004086"
       ],
       "status": "no-current-canonical-document"
     },

@@ -21,7 +21,23 @@ disease_family: stroke
 population: adult
 document_role: "group_overview"
 group_members:
-- "일과성 허혈 발작 (Transient ischemic attack)"
+- ACA 경색 (ACA infarction)
+- Lenticulostriate 동맥 경색 (Lenticulostriate artery infarction)
+- MCA 경색 (MCA infarction)
+- PCA 경색 (PCA infarction)
+- 경동맥 협착증 (Carotid artery stenosis)
+- 모야모야병 (Moyamoya disease)
+- 일과성 허혈 발작 (Transient ischemic attack)
+- 추골동맥-기저동맥 경색 (Vertebral artery - Basilar artery infarction)
+- 하나반 증후군 (One and a half syndrome)- ACA 경색 (ACA infarction)
+- Lenticulostriate 동맥 경색 (Lenticulostriate artery infarction)
+- MCA 경색 (MCA infarction)
+- PCA 경색 (PCA infarction)
+- 경동맥 협착증 (Carotid artery stenosis)
+- 모야모야병 (Moyamoya disease)
+- 일과성 허혈 발작 (Transient ischemic attack)
+- 추골동맥-기저동맥 경색 (Vertebral artery - Basilar artery infarction)
+- 하나반 증후군 (One and a half syndrome)- "일과성 허혈 발작 (Transient ischemic attack)"
 - "경동맥 협착증 (Carotid artery stenosis)"
 - "모야모야병 (Moyamoya disease)"
 - "ACA 경색 (ACA infarction)"
@@ -37,7 +53,6 @@ group_members:
 - 주요 장기계 응급
 - 신경계
 ---
-
 ## 1. 개요
 - 허혈성 뇌졸중은 뇌혈관 폐색으로 생긴 급성 국소 신경학적 손상이다. 치료 가능 시간이 짧으므로 발병/최종 정상 확인 시각, 기능장애 여부, 영상, 재관류 가능성을 병렬로 평가한다.
 - AHA/ASA 2026 지침은 신속한 prehospital triage, 적격 환자의 IV thrombolysis와 endovascular thrombectomy(EVT), 조기 입원 합병증·이차예방을 하나의 경로로 다룬다.
@@ -67,3 +82,31 @@ group_members:
 - 퇴원 전 원인 분류, 재발 예방 약물, 위험인자 관리, 재활·연하·운전·복귀 계획을 다학제 stroke team과 정한다.
 
 출처: AHA/ASA, *2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke*.
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[ACA 경색 (ACA infarction)]] | 전대뇌동맥(Anterior cerebral artery, ACA)의 폐색으로 인한 뇌경색 |
+| [[Lenticulostriate 동맥 경색 (Lenticulostriate artery infarction)]] | 뇌의 심부 구조물(기저핵, 내포 등)에 혈액을 공급하는 Lenticulostriate 동맥의 폐색으로 발생하는 열공성 뇌경색(Lacunar infarction) |
+| [[MCA 경색 (MCA infarction)]] | 중대뇌동맥(Middle cerebral artery, MCA)의 폐색으로 인한 뇌경색 |
+| [[PCA 경색 (PCA infarction)]] | 후대뇌동맥(Posterior cerebral artery, PCA) 영역의 혈류 공급 차단으로 인한 뇌경색 |
+| [[경동맥 협착증 (Carotid artery stenosis)]] | 내경동맥 기시부의 죽상동맥경화로 인한 50% 이상의 협착 |
+| [[모야모야병 (Moyamoya disease)]] | 내경동맥 말단부의 만성적 협착 및 폐쇄와 그에 따른 비정상적인 측부 혈관(모야모야 혈관) 형성을 특징으로 하는 뇌혈관 질환 |
+| [[일과성 허혈 발작 (Transient ischemic attack)]] | 급성 뇌경색이나 조직 손상 없이, 국소적 뇌, 척수 또는 망막의 허혈로 인해 발생하는 일시적인 신경학적 기능 장애 |
+| [[추골동맥-기저동맥 경색 (Vertebral artery - Basilar artery infarction)]] | 추골동맥(Vertebral artery) 또는 기저동맥(Basilar artery)의 폐색으로 인한 뇌경색 |
+| [[하나반 증후군 (One and a half syndrome)]] | 교뇌(pons)의 배측 피개(dorsal tegmentum) 병변으로 인해 발생하는 안구 운동 장애 |
+
+## 포함 질환
+- [[ACA 경색 (ACA infarction)]]
+- [[Lenticulostriate 동맥 경색 (Lenticulostriate artery infarction)]]
+- [[MCA 경색 (MCA infarction)]]
+- [[PCA 경색 (PCA infarction)]]
+- [[경동맥 협착증 (Carotid artery stenosis)]]
+- [[모야모야병 (Moyamoya disease)]]
+- [[일과성 허혈 발작 (Transient ischemic attack)]]
+- [[추골동맥-기저동맥 경색 (Vertebral artery - Basilar artery infarction)]]
+- [[하나반 증후군 (One and a half syndrome)]]

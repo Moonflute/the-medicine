@@ -9,6 +9,24 @@ updated: 2026-08-11
 - G(+)
 CC: []
 preprocessing_required: x
+group_members:
+- 파상풍 (Tetanus)
+- 포도알균 감염 (Staphylococcal Infection)
+- 푸르니에 괴저 (Fournier's Gangrene)
+- 괴사성 근막염 (Necrotizing Fasciitis)
+- 가스 괴저 (Gas Gangrene)
+- 단독 (Erysipelas)
+- 리스테리아 (Listeria)
+- 사슬알균 인두염 (Streptococcal Pharyngitis)
+- 연조직염 (Cellulitis)- 파상풍 (Tetanus)
+- 포도알균 감염 (Staphylococcal Infection)
+- 푸르니에 괴저 (Fournier's Gangrene)
+- 괴사성 근막염 (Necrotizing Fasciitis)
+- 가스 괴저 (Gas Gangrene)
+- 단독 (Erysipelas)
+- 리스테리아 (Listeria)
+- 사슬알균 인두염 (Streptococcal Pharyngitis)
+- 연조직염 (Cellulitis)
 ---
 # G(+)
 
@@ -30,12 +48,12 @@ preprocessing_required: x
 - [CDC: Group A Strep](https://www.cdc.gov/group-a-strep/index.html)
 
 ## 포함 질환
-- [[가스 괴저 (Gas Gangrene)]]
+- [[파상풍 (Tetanus)]]
+- [[포도알균 감염 (Staphylococcal Infection)]]
+- [[푸르니에 괴저 (Fournier's Gangrene)]]
 - [[괴사성 근막염 (Necrotizing Fasciitis)]]
+- [[가스 괴저 (Gas Gangrene)]]
 - [[단독 (Erysipelas)]]
 - [[리스테리아 (Listeria)]]
 - [[사슬알균 인두염 (Streptococcal Pharyngitis)]]
 - [[연조직염 (Cellulitis)]]
-- [[파상풍 (Tetanus)]]
-- [[포도알균 감염 (Staphylococcal Infection)]]
-- [[푸르니에 괴저 (Fournier's Gangrene)]]

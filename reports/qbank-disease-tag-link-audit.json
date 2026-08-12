@@ -1,8 +1,8 @@
 {
   "questions": 5471,
   "unique_tag_mappings": 13328,
-  "linked_tag_mappings": 8935,
-  "unlinked_tag_mappings": 4393,
-  "questions_with_disease_slugs": 5005,
-  "source_files_updated": 48
+  "linked_tag_mappings": 8942,
+  "unlinked_tag_mappings": 4386,
+  "questions_with_disease_slugs": 5010,
+  "source_files_updated": 2
 }

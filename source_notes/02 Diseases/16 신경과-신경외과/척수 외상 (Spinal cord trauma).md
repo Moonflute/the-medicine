@@ -21,7 +21,13 @@ reviewed_at: "2026-07-30"
 - 부위별 외상
 document_role: "group_overview"
 group_members:
-- "전 척수 증후군 (Anterior cord syndrome)"
+- Brown-Sequard 증후군 (Brown-Sequard syndrome)
+- 전 척수 증후군 (Anterior cord syndrome)
+- 중심 척수 증후군 (Central cord syndrome)
+- 후 척수 증후군 (Posterior cord syndrome)- Brown-Sequard 증후군 (Brown-Sequard syndrome)
+- 전 척수 증후군 (Anterior cord syndrome)
+- 중심 척수 증후군 (Central cord syndrome)
+- 후 척수 증후군 (Posterior cord syndrome)- "전 척수 증후군 (Anterior cord syndrome)"
 - "중심 척수 증후군 (Central cord syndrome)"
 - "후 척수 증후군 (Posterior cord syndrome)"
 - "Brown-Sequard 증후군 (Brown-Sequard syndrome)"
@@ -60,3 +66,21 @@ group_members:
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[Brown-Sequard 증후군 (Brown-Sequard syndrome)]] | 척수의 가쪽 절반이 손상(hemisection)되어 발생하는 불완전 척수 손상 증후군 |
+| [[전 척수 증후군 (Anterior cord syndrome)]] | 전 척수 동맥(Anterior spinal artery)의 폐색이나 저관류로 인해 척수의 전방 2/3가 허혈성 손상을 입어 발생하는 신경학적 증후군 |
+| [[중심 척수 증후군 (Central cord syndrome)]] | 불완전 척수 손상(Incomplete spinal cord injury) 중 가장 흔한 형태 |
+| [[후 척수 증후군 (Posterior cord syndrome)]] | 척수 손상 중 후주(posterior column)의 손상으로 인해 진동 감각, 고유 수용 감각, 미세 촉각이 소실되는 드문 불완전 척수 손상 형태 |
+
+## 포함 질환
+- [[Brown-Sequard 증후군 (Brown-Sequard syndrome)]]
+- [[전 척수 증후군 (Anterior cord syndrome)]]
+- [[중심 척수 증후군 (Central cord syndrome)]]
+- [[후 척수 증후군 (Posterior cord syndrome)]]

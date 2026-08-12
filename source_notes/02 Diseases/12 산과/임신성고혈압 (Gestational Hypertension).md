@@ -28,12 +28,17 @@ reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 document_role: "group_overview"
 group_members:
-- "전자간증 (Preeclampsia)"
+- 자간증 (Eclampsia)
+- 전자간증 (Preeclampsia)
+- 중증 전자간증 (Severe Pre-eclampsia)
+- HELLP 증후군 (HELLP Syndrome)- 자간증 (Eclampsia)
+- 전자간증 (Preeclampsia)
+- 중증 전자간증 (Severe Pre-eclampsia)
+- HELLP 증후군 (HELLP Syndrome)- "전자간증 (Preeclampsia)"
 - "중증 전자간증 (Severe Pre-eclampsia)"
 - "자간증 (Eclampsia)"
 - "HELLP 증후군 (HELLP Syndrome)"
 ---
-
 ## 1. 개요
 - 임신성고혈압은 임신 20주 이후 처음 발생한 고혈압으로, 처음 평가 시 단백뇨 또는 자간전증의 중증 소견이 없는 경우를 말한다. 산후 경과에서 만성고혈압과 구분한다.
 - 일부는 자간전증으로 진행할 수 있으므로 ‘단백뇨가 없다’는 이유만으로 저위험으로 보지 않으며, 산모 장기기능과 태아 상태를 지속 평가한다.
@@ -62,3 +67,21 @@ group_members:
 ## 출처
 - ACOG Gestational Hypertension and Preeclampsia: https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/gestational-hypertension-and-preeclampsia
 - 대한고혈압학회 2026년 제6판 고혈압 진료지침: https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[자간증 (Eclampsia)]] | 전자간증(preeclampsia) 환자에서 다른 신경학적 원인 없이 발생하는 경련(seizure) |
+| [[전자간증 (Preeclampsia)]] | 임신 20주 이후에 발생하는 새로운 고혈압(BP ≥ 140/90 mmHg)과 함께 단백뇨가 동반된 상태 |
+| [[중증 전자간증 (Severe Pre-eclampsia)]] | 임신 중 고혈압성 질환과 동반된 160/110 mmHg 이상의 혈압, 또는 중증 전자간증의 진단 기준(단백뇨, 혈소판 감소, 간기능 이상, 신기능 저하, 폐부종, 뇌신경 증상 등)을 만족하는 상태 |
+| [[HELLP 증후군 (HELLP Syndrome)]] | 용혈(Hemolysis), 간 효소 상승(Elevated Liver enzymes), 혈소판 감소(Low Platelets)를 특징으로 하는 임신 및 산욕기 질환. 전자간증의 중증 합병증으로 간주되기도 하나, 최근에는 독립적인 병태생리적 기전을 가진 질환으로 보기도 함… |
+
+## 포함 질환
+- [[자간증 (Eclampsia)]]
+- [[전자간증 (Preeclampsia)]]
+- [[중증 전자간증 (Severe Pre-eclampsia)]]
+- [[HELLP 증후군 (HELLP Syndrome)]]

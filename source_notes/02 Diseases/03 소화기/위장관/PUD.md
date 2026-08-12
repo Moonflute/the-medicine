@@ -9,6 +9,16 @@ updated: 2026-08-11
 - PUD
 CC: []
 preprocessing_required: x
+group_members:
+- PUD 천공 (Perforation)
+- PUD 협착 (Stricture)
+- 가스트린종 (Gastrinoma)
+- 십이지장 궤양 (Duodenal Ulcer)
+- 위궤양 (Gastric Ulcer)- PUD 천공 (Perforation)
+- PUD 협착 (Stricture)
+- 가스트린종 (Gastrinoma)
+- 십이지장 궤양 (Duodenal Ulcer)
+- 위궤양 (Gastric Ulcer)
 ---
 # PUD
 
@@ -29,8 +39,8 @@ preprocessing_required: x
 - [Merck Manual Professional: Peptic Ulcer Disease](https://www.merckmanuals.com/professional/gastrointestinal-disorders/gastritis-and-peptic-ulcer-disease/peptic-ulcer-disease)
 
 ## 포함 질환
+- [[PUD 천공 (Perforation)]]
+- [[PUD 협착 (Stricture)]]
 - [[가스트린종 (Gastrinoma)]]
 - [[십이지장 궤양 (Duodenal Ulcer)]]
 - [[위궤양 (Gastric Ulcer)]]
-- [[PUD 천공 (Perforation)]]
-- [[PUD 협착 (Stricture)]]

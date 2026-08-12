@@ -7,6 +7,14 @@ group_members:
 - 잠복 결핵 (성인) (Latent Tuberculosis (Adult))
 - 잠복 결핵 (소아) (Latent Tuberculosis (Child))
 - 좁쌀 결핵 (Miliary Tuberculosis)
+- 진균종 (Fungus Ball)- 기관지 결핵 (Bronchial Tuberculosis)
+- 잠복 결핵 (성인) (Latent Tuberculosis (Adult))
+- 잠복 결핵 (소아) (Latent Tuberculosis (Child))
+- 좁쌀 결핵 (Miliary Tuberculosis)
+- 진균종 (Fungus Ball)- 기관지 결핵 (Bronchial Tuberculosis)
+- 잠복 결핵 (성인) (Latent Tuberculosis (Adult))
+- 잠복 결핵 (소아) (Latent Tuberculosis (Child))
+- 좁쌀 결핵 (Miliary Tuberculosis)
 - 진균종 (Fungus Ball)
 유형:
 - disease
@@ -65,3 +73,23 @@ content_updated_at: "2026-07-17"
 - CDC. Clinical Treatment of Tuberculosis (2025).
 - ATS/CDC/ERS/IDSA. Updates on Treatment of Drug-Susceptible and Drug-Resistant Tuberculosis (2025).
 - 대한결핵 및 호흡기학회. 결핵진료지침 5판 (2024).
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[기관지 결핵 (Bronchial Tuberculosis)]] | 기관지 내벽에 결핵 병변이 발생하는 형태의 결핵 |
+| [[잠복 결핵 (성인) (Latent Tuberculosis (Adult))]] | 결핵균에 감염되었으나 임상적으로 활동성 결핵의 증상이나 징후가 없고, 흉부 X-선 검사상 활동성 병변이 없는 상태 |
+| [[잠복 결핵 (소아) (Latent Tuberculosis (Child))]] | 소아에서 결핵균에 감염되었으나 활동성 결핵의 증상이나 징후가 없는 상태 |
+| [[좁쌀 결핵 (Miliary Tuberculosis)]] | 결핵균이 혈류를 통해 전신으로 퍼져나가 폐를 포함한 여러 장기에 1~2mm 크기의 작은 결절성 병변(millet-seed-sized)을 형성하는 중증 결핵 |
+| [[진균종 (Fungus Ball)]] | 폐 내 기존 공동 (cavity) 내에 진균 (주로 Aspergillus fumigatus)이 증식하여 형성된 덩어리 (Mycetoma) |
+
+## 포함 질환
+- [[기관지 결핵 (Bronchial Tuberculosis)]]
+- [[잠복 결핵 (성인) (Latent Tuberculosis (Adult))]]
+- [[잠복 결핵 (소아) (Latent Tuberculosis (Child))]]
+- [[좁쌀 결핵 (Miliary Tuberculosis)]]
+- [[진균종 (Fungus Ball)]]

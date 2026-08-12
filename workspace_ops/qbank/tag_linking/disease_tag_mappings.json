@@ -20002,9 +20002,9 @@
       "provider": "no-literal-match"
     },
     "04 내분비\u0000Riedel thyroiditis": {
-      "slug": null,
-      "confidence": "none",
-      "provider": "nvidia"
+      "slug": "MDQg64K067aE67mEL-umrOuNuCDqsJHsg4Hsg5jsl7wgKFJpZWRlbCBUaHlyb2lkaXRpcykubWQ",
+      "confidence": "curated-synonym",
+      "provider": "curated"
     },
     "04 내분비\u0000Sheehan syndrome": {
       "slug": null,
@@ -20017,9 +20017,9 @@
       "provider": "nvidia"
     },
     "04 내분비\u0000Silent thyroiditis": {
-      "slug": null,
-      "confidence": "none",
-      "provider": "nvidia"
+      "slug": "MDQg64K067aE67mEL-ustO2GteyEsSDqsJHsg4Hsg5jsl7wgKFNpbGVudCBUaHlyb2lkaXRpcykubWQ",
+      "confidence": "curated-synonym",
+      "provider": "curated"
     },
     "04 내분비\u0000Somogyi effect": {
       "slug": "MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA",
@@ -21622,9 +21622,9 @@
       "provider": "deterministic-context"
     },
     "04 내분비\u0000리델 갑상샘염": {
-      "slug": null,
-      "confidence": "none",
-      "provider": "no-literal-match"
+      "slug": "MDQg64K067aE67mEL-umrOuNuCDqsJHsg4Hsg5jsl7wgKFJpZWRlbCBUaHlyb2lkaXRpcykubWQ",
+      "confidence": "exact",
+      "provider": "deterministic"
     },
     "04 내분비\u0000리튬 유발 부갑상샘기능항진증": {
       "slug": "MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k",
@@ -21702,9 +21702,9 @@
       "provider": "deterministic-context"
     },
     "04 내분비\u0000무통성 갑상선염": {
-      "slug": null,
-      "confidence": "none",
-      "provider": "no-literal-match"
+      "slug": "MDQg64K067aE67mEL-ustO2GteyEsSDqsJHsg4Hsg5jsl7wgKFNpbGVudCBUaHlyb2lkaXRpcykubWQ",
+      "confidence": "exact",
+      "provider": "deterministic"
     },
     "04 내분비\u0000무후각증": {
       "slug": "MTMg67aA7J246rO8L-y5vOunjCDspp3tm4TqtbAgKEthbGxtYW4gU3luZHJvbWUpLm1k",
@@ -43367,9 +43367,9 @@
       "provider": "deterministic-context"
     },
     "14 소아청소년과\u0000burn infection": {
-      "slug": null,
-      "confidence": "none",
-      "provider": "nvidia"
+      "slug": "MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ",
+      "confidence": "curated-synonym",
+      "provider": "curated"
     },
     "14 소아청소년과\u0000b형 헤모필루스 인플루엔자": {
       "slug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IeE7ZWtIChJbXBlcmZvcmF0ZSBBbnVzKS5tZA",
@@ -61217,9 +61217,9 @@
       "provider": "deterministic-fuzzy"
     },
     "21 응급의학\u0000cannabinoid hyperemesis syndrome": {
-      "slug": null,
-      "confidence": "none",
-      "provider": "nvidia"
+      "slug": "MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA",
+      "confidence": "curated-synonym",
+      "provider": "curated"
     },
     "21 응급의학\u0000cannot intubate cannot oxygenate": {
       "slug": null,
@@ -64402,9 +64402,9 @@
       "provider": "deterministic-context"
     },
     "21 응급의학\u0000칸나비스 구토 증후군": {
-      "slug": null,
-      "confidence": "none",
-      "provider": "nvidia"
+      "slug": "MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA",
+      "confidence": "curated-synonym",
+      "provider": "curated"
     },
     "21 응급의학\u0000코카인 중독": {
       "slug": "MjEg7J2R6riJ7J2Y7ZWZL-uLpOuwnOyZuOyDgSAoUG9seXRyYXVtYSkubWQ",

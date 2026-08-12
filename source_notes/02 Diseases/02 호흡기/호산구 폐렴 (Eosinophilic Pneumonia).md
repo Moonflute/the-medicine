@@ -4,7 +4,11 @@ aliases:
 - 호산구 폐렴
 document_role: group_overview
 group_members:
+- 폐흡충증 (Pulmonary Paragonimiasis)
 - 알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)
+- 처그-스트라우스 증후군 (Churg-Strauss Syndrome)- 폐흡충증 (Pulmonary Paragonimiasis)
+- 알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)
+- 처그-스트라우스 증후군 (Churg-Strauss Syndrome)- 알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)
 - 처그-스트라우스 증후군 (Churg-Strauss Syndrome)
 - 폐흡충증 (Pulmonary Paragonimiasis)
 유형:
@@ -68,3 +72,19 @@ reviewed_at: "2026-07-30"
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[폐흡충증 (Pulmonary Paragonimiasis)]] | Paragonimus 속에 해당하는 폐흡충(폐디스토마) 감염에 의한 기생충성 폐 질환 |
+| [[알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)]] | Aspergillus fumigatus 진균에 대한 과민 반응으로 발생하는 호산구성 폐질환 |
+| [[처그-스트라우스 증후군 (Churg-Strauss Syndrome)]] | 호산구성 육아종증을 동반한 다발혈관염 (Eosinophilic Granulomatosis with Polyangiitis, EGPA). 과거 명칭인 처그-스트라우스 증후군(CSS)보다 EGPA라는 명칭이 학술적으로 권장됨 |
+
+## 포함 질환
+- [[폐흡충증 (Pulmonary Paragonimiasis)]]
+- [[알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)]]
+- [[처그-스트라우스 증후군 (Churg-Strauss Syndrome)]]

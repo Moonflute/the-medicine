@@ -14,7 +14,8 @@ related_diseases:
   - "갑상샘저하증"
   - "섬유화 갑상샘염"
   - "Riedel thyroiditis"
-related_disease_slugs: []
+related_disease_slugs:
+  - MDQg64K067aE67mEL-umrOuNuCDqsJHsg4Hsg5jsl7wgKFJpZWRlbCBUaHlyb2lkaXRpcykubWQ
 question_type: diagnosis
 difficulty: standard
 answer: C

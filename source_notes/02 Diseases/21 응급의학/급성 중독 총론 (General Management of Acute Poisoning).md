@@ -4,7 +4,13 @@ aliases:
 - Acute Poisoning
 document_role: group_overview
 group_members:
-- 약물 및 화학물질 중독
+- 흡입성 중독
+- 독성 알코올
+- 생물 독소
+- 약물 및 화학물질 중독- 흡입성 중독
+- 독성 알코올
+- 생물 독소
+- 약물 및 화학물질 중독- 약물 및 화학물질 중독
 - 독성 알코올
 - 흡입성 중독
 - 생물 독소
@@ -64,3 +70,21 @@ population: general
 출처 :
 - Tintinalli's Emergency Medicine Manual, 8e, Ch. 100-117.
 - AHA, 2023 Focused Update on Life-Threatening Toxicity Due to Poisoning.
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[흡입성 중독]] | [[일산화탄소 중독 (Carbon Monoxide Poisoning)]] |
+| [[독성 알코올]] | [[에틸렌글리콜 중독 (Ethylene Glycol Poisoning)]] |
+| [[생물 독소]] | [[보툴리눔 중독 (Botulism)]] |
+| [[약물 및 화학물질 중독]] | [[리튬 중독 (Lithium Poisoning)]] |
+
+## 포함 질환
+- [[흡입성 중독]]
+- [[독성 알코올]]
+- [[생물 독소]]
+- [[약물 및 화학물질 중독]]

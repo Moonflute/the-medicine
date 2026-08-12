@@ -2,9 +2,9 @@
   "schema_version": 1,
   "description": "All distinct MedQA tags. Only rows marked mapped persist a disease-document link.",
   "counts": {
-    "mapped": 8935,
-    "no-current-canonical-document": 629,
-    "non-disease-clinical-keyword": 3511,
+    "mapped": 8942,
+    "no-current-canonical-document": 624,
+    "non-disease-clinical-keyword": 3509,
     "non-disease-keyword": 253
   },
   "tags": [
@@ -28780,9 +28780,9 @@
       "sample_question_ids": [
         "medqa-us-test-000472"
       ],
-      "status": "no-current-canonical-document",
-      "slug": null,
-      "mapping_method": "none"
+      "status": "mapped",
+      "slug": "MDQg64K067aE67mEL-umrOuNuCDqsJHsg4Hsg5jsl7wgKFJpZWRlbCBUaHlyb2lkaXRpcykubWQ",
+      "mapping_method": "curated-synonym"
     },
     {
       "specialty": "04 내분비",
@@ -28825,9 +28825,9 @@
         "medqa-us-train-001134",
         "medqa-us-validation-000862"
       ],
-      "status": "no-current-canonical-document",
-      "slug": null,
-      "mapping_method": "none"
+      "status": "mapped",
+      "slug": "MDQg64K067aE67mEL-ustO2GteyEsSDqsJHsg4Hsg5jsl7wgKFNpbGVudCBUaHlyb2lkaXRpcykubWQ",
+      "mapping_method": "curated-synonym"
     },
     {
       "specialty": "04 내분비",
@@ -33425,9 +33425,9 @@
       "sample_question_ids": [
         "medqa-us-test-000472"
       ],
-      "status": "non-disease-clinical-keyword",
-      "slug": null,
-      "mapping_method": "none"
+      "status": "mapped",
+      "slug": "MDQg64K067aE67mEL-umrOuNuCDqsJHsg4Hsg5jsl7wgKFJpZWRlbCBUaHlyb2lkaXRpcykubWQ",
+      "mapping_method": "exact"
     },
     {
       "specialty": "04 내분비",
@@ -33639,9 +33639,9 @@
       "sample_question_ids": [
         "medqa-us-validation-000862"
       ],
-      "status": "non-disease-clinical-keyword",
-      "slug": null,
-      "mapping_method": "none"
+      "status": "mapped",
+      "slug": "MDQg64K067aE67mEL-ustO2GteyEsSDqsJHsg4Hsg5jsl7wgKFNpbGVudCBUaHlyb2lkaXRpcykubWQ",
+      "mapping_method": "exact"
     },
     {
       "specialty": "04 내분비",
@@ -90721,9 +90721,9 @@
       "sample_question_ids": [
         "medqa-us-train-001171"
       ],
-      "status": "no-current-canonical-document",
-      "slug": null,
-      "mapping_method": "none"
+      "status": "mapped",
+      "slug": "MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ",
+      "mapping_method": "curated-synonym"
     },
     {
       "specialty": "14 소아청소년과",
@@ -136707,9 +136707,9 @@
       "sample_question_ids": [
         "medqa-us-train-000710"
       ],
-      "status": "no-current-canonical-document",
-      "slug": null,
-      "mapping_method": "none"
+      "status": "mapped",
+      "slug": "MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA",
+      "mapping_method": "curated-synonym"
     },
     {
       "specialty": "21 응급의학",
@@ -144529,9 +144529,9 @@
       "sample_question_ids": [
         "medqa-us-train-004086"
       ],
-      "status": "no-current-canonical-document",
-      "slug": null,
-      "mapping_method": "none"
+      "status": "mapped",
+      "slug": "MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA",
+      "mapping_method": "curated-synonym"
     },
     {
       "specialty": "21 응급의학",

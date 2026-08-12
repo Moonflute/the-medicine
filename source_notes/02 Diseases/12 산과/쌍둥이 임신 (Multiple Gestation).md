@@ -16,7 +16,9 @@ review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 document_role: "group_overview"
 group_members:
-- "단일 양막성 쌍태 임신 (Monoamniotic Twins)"
+- 단일 양막성 쌍태 임신 (Monoamniotic Twins)
+- 쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)- 단일 양막성 쌍태 임신 (Monoamniotic Twins)
+- 쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)- "단일 양막성 쌍태 임신 (Monoamniotic Twins)"
 - "쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)"
 ---
 분과 : [[산과]]
@@ -60,3 +62,17 @@ group_members:
 출처 : StatPearls: Multiple Birth Delivery
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[단일 양막성 쌍태 임신 (Monoamniotic Twins)]] | 두 태아가 하나의 양막낭을 공유하는 쌍태 임신. 단일 융모막-단일 양막(MCMA) 쌍태 임신은 모든 쌍태 임신 중 가장 위험도가 높음 |
+| [[쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)]] | 단일 융모막성 쌍태 임신에서 태반 내 혈관 문합을 통해 태아 간 혈류 불균형이 발생하는 심각한 합병증 |
+
+## 포함 질환
+- [[단일 양막성 쌍태 임신 (Monoamniotic Twins)]]
+- [[쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)]]

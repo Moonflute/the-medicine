@@ -3,7 +3,17 @@ content_updated_at: "2026-07-30"
 aliases: []
 document_role: group_overview
 group_members:
+- 간성 뇌증 (Hepatic Encephalopathy)
+- 간신 증후군 (Hepatorenal Syndrome)
 - 복수 (간경변) (Ascites (Cirrhosis))
+- 식도 정맥류 (Esophageal Varices)
+- 위 정맥류 (Gastric Varices)
+- 자발성 세균 복막염 (Spontaneous Bacterial Peritonitis)- 간성 뇌증 (Hepatic Encephalopathy)
+- 간신 증후군 (Hepatorenal Syndrome)
+- 복수 (간경변) (Ascites (Cirrhosis))
+- 식도 정맥류 (Esophageal Varices)
+- 위 정맥류 (Gastric Varices)
+- 자발성 세균 복막염 (Spontaneous Bacterial Peritonitis)- 복수 (간경변) (Ascites (Cirrhosis))
 - 간성 뇌증 (Hepatic Encephalopathy)
 - 간신 증후군 (Hepatorenal Syndrome)
 - 식도 정맥류 (Esophageal Varices)
@@ -95,3 +105,25 @@ reviewed_at: "2026-07-30"
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[간성 뇌증 (Hepatic Encephalopathy)]] | 간 기능 저하 또는 문맥-전신 단락(portosystemic shunting)으로 인해 해독되지 못한 신경독성 물질이 뇌에 축적되어 발생하는 신경정신학적 증후군이다. 경미한 인지 기능 저하부터 혼수까지 다양한 임상 양상을 보 |
+| [[간신 증후군 (Hepatorenal Syndrome)]] | 진행된 간경변증 및 문맥 고혈압 환자에서 신장 자체의 구조적 손상 없이 발생하는 기능성 신부전이다. 전신 혈역학적 이상으로 인한 신혈관 수축과 신혈류 감소가 주된 기전 |
+| [[복수 (간경변) (Ascites (Cirrhosis))]] | 간경변증 환자에서 복강 내에 비정상적으로 체액이 축적되는 상태. 간경변증의 가장 흔한 합병증 중 하나이며, 비대상성 간경변증의 주요 특징 |
+| [[식도 정맥류 (Esophageal Varices)]] | 간경변증 등으로 인한 문맥 고혈압(portal hypertension)으로 인해 식도 하부의 점막하 정맥이 확장되고 부풀어 오른 상태를 말한다. 이는 문맥 고혈압의 가장 심각한 합병증 중 하나이며, 파열 시 생명을 위협하는 대량 출혈을 유발한다 |
+| [[위 정맥류 (Gastric Varices)]] | 간경변증 등으로 인한 문맥 고혈압으로 인해 위 점막 하부의 정맥이 확장되고 부풀어 오른 상태를 말한다. 식도 정맥류와 함께 문맥 고혈압의 중요한 합병증이며, 출혈 시 식도 정맥류 출혈보다 지혈이 어렵고 예후가 불량한 경우가 많다 |
+| [[자발성 세균 복막염 (Spontaneous Bacterial Peritonitis)]] | 뚜렷한 복강 내 감염 원인 없이 발생하는 복수의 세균 감염이다. 주로 간경변증 환자의 복수에서 발생하며, 심각한 합병증 및 사망 위험을 동반한다 |
+
+## 포함 질환
+- [[간성 뇌증 (Hepatic Encephalopathy)]]
+- [[간신 증후군 (Hepatorenal Syndrome)]]
+- [[복수 (간경변) (Ascites (Cirrhosis))]]
+- [[식도 정맥류 (Esophageal Varices)]]
+- [[위 정맥류 (Gastric Varices)]]
+- [[자발성 세균 복막염 (Spontaneous Bacterial Peritonitis)]]

@@ -4,6 +4,8 @@ document_role: group_overview
 updated: 2026-08-11
 group_members:
 - 그레이브스병 (Graves' Disease)
+- 자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia)- 그레이브스병 (Graves' Disease)
+- 자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia)- 그레이브스병 (Graves' Disease)
 - 자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia)
 유형:
 - disease

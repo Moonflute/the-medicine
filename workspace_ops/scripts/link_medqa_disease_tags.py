@@ -998,7 +998,10 @@ CURATED_SYNONYM_TARGETS.update({
 CURATED_SYNONYM_TARGETS.update({
     "pesanserinebursitis": "patellofemoralpainsyndrome",
     "prepatellarbursitis": "patellofemoralpainsyndrome",
-    "cannabishyperemesissyndrome": "acutepoisoning",
+    "cannabinoidhyperemesissyndrome": "acutepoisoning",
+    "칸나비스구토증후군": "acutepoisoning",
+    "burninfection": "burn",
+    "화상감염": "burn",
     "47xyysyndrome": "geneticdisorders",
     "buddchiarisyndrome": "buddchiarisyndrome",
     "chagasdisease": "parasiticinfection",
@@ -1019,7 +1022,7 @@ CURATED_SYNONYM_TARGETS.update({
     "stewarttrevessyndrome": "lymphoma",
     "acut e hiv infection": "acutehivinfection",
     "acutehivinfection": "acutehivinfection",
-    "burninfection": "bitewoundinfection",
+    "burninfection": "burn",
     "complexregionalpainsyndrome": "peripheralnerveinjury",
     "fetalhemorrhage": "postpartumhemorrhage",
     "fourthcranialnerveinjury": "externalhordeolum",
@@ -1047,6 +1050,8 @@ CURATED_SYNONYM_TARGETS.update({
     "질투명세포암": "vaginalintraepithelialneoplasia",
     "측두하악관절기능부전": "trigeminalneuralgia",
     "콘택트렌즈관련손상": "bacterialcornealulcer",
+    "riedelthyroiditis": "riedelthyroiditis",
+    "silentthyroiditis": "silentthyroiditis",
 })
 
 # A small, explicit exception for canonical diseases intentionally taught from

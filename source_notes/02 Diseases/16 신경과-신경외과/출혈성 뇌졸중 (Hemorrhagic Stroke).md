@@ -17,7 +17,15 @@ guideline_year: "2023"
 sources: ["AHA/ASA Guideline for Spontaneous Intracerebral Hemorrhage (2022) | https://www.ahajournals.org/doi/10.1161/STR.0000000000000407", "AHA/ASA Guideline for Aneurysmal Subarachnoid Hemorrhage (2023) | https://www.ahajournals.org/doi/10.1161/STR.0000000000000436"]
 document_role: "group_overview"
 group_members:
-- "뇌내 출혈 (Intracerebral hemorrhage)"
+- 경막외 출혈 (Epidural hemorrhage)
+- 급성 경막하 출혈 (Acute subdural hematoma)
+- 뇌내 출혈 (Intracerebral hemorrhage)
+- 만성 경막하 출혈 (Chronic subdural hematoma)
+- 지주막하 출혈 (Subarachnoid hemorrhage)- 경막외 출혈 (Epidural hemorrhage)
+- 급성 경막하 출혈 (Acute subdural hematoma)
+- 뇌내 출혈 (Intracerebral hemorrhage)
+- 만성 경막하 출혈 (Chronic subdural hematoma)
+- 지주막하 출혈 (Subarachnoid hemorrhage)- "뇌내 출혈 (Intracerebral hemorrhage)"
 - "지주막하 출혈 (Subarachnoid hemorrhage)"
 - "경막외 출혈 (Epidural hemorrhage)"
 - "급성 경막하 출혈 (Acute subdural hematoma)"
@@ -46,4 +54,24 @@ group_members:
 
 ### 하위 질환
 - [[뇌내 출혈 (Intracerebral hemorrhage)]]
+- [[지주막하 출혈 (Subarachnoid hemorrhage)]]
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[경막외 출혈 (Epidural hemorrhage)]] | 경막과 두개골 사이에 발생하는 출혈 |
+| [[급성 경막하 출혈 (Acute subdural hematoma)]] | 경막 아래 공간(dura mater와 arachnoid mater 사이)에 발생하는 급성 출혈 |
+| [[뇌내 출혈 (Intracerebral hemorrhage)]] | 뇌 실질 내 출혈(Intracerebral hemorrhage, ICH) |
+| [[만성 경막하 출혈 (Chronic subdural hematoma)]] | 경막하 공간에 혈액이 고여 뇌를 압박하는 질환으로, 외상 후 3주 이상 경과하여 혈종이 피막(membrane)을 형성한 상태를 의미함 |
+| [[지주막하 출혈 (Subarachnoid hemorrhage)]] | 지주막하 공간(지주막과 연막 사이) 내 출혈 |
+
+## 포함 질환
+- [[경막외 출혈 (Epidural hemorrhage)]]
+- [[급성 경막하 출혈 (Acute subdural hematoma)]]
+- [[뇌내 출혈 (Intracerebral hemorrhage)]]
+- [[만성 경막하 출혈 (Chronic subdural hematoma)]]
 - [[지주막하 출혈 (Subarachnoid hemorrhage)]]

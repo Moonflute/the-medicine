@@ -17,7 +17,27 @@ review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 document_role: "group_overview"
 group_members:
-- "알코올 사용 장애 (Alcohol Use Disorder)"
+- 휘발성 물질 (Volatile substances)
+- 담배 (Tobacco)
+- 대마 계 (Cannabis)
+- 베르니케-코르사코프 증후군 (Wernicke-Korsakoff Syndrome)
+- 아편 유사제 (Opioids)
+- 알코올 금단 섬망 (Alcohol Withdrawal Delirium)
+- 알코올 금단 증후군 (Alcohol Withdrawal Syndrome)
+- 알코올 사용 장애 (Alcohol Use Disorder)
+- 알코올 유발 정신병적 장애 (Alcohol-Induced Psychotic Disorder)
+- 자극제 (Stimulants)
+- 진정제, 수면제 (Sedatives, Hypnotics)- 휘발성 물질 (Volatile substances)
+- 담배 (Tobacco)
+- 대마 계 (Cannabis)
+- 베르니케-코르사코프 증후군 (Wernicke-Korsakoff Syndrome)
+- 아편 유사제 (Opioids)
+- 알코올 금단 섬망 (Alcohol Withdrawal Delirium)
+- 알코올 금단 증후군 (Alcohol Withdrawal Syndrome)
+- 알코올 사용 장애 (Alcohol Use Disorder)
+- 알코올 유발 정신병적 장애 (Alcohol-Induced Psychotic Disorder)
+- 자극제 (Stimulants)
+- 진정제, 수면제 (Sedatives, Hypnotics)- "알코올 사용 장애 (Alcohol Use Disorder)"
 - "알코올 금단 증후군 (Alcohol Withdrawal Syndrome)"
 - "알코올 금단 섬망 (Alcohol Withdrawal Delirium)"
 - "알코올 유발 정신병적 장애 (Alcohol-Induced Psychotic Disorder)"
@@ -68,3 +88,35 @@ group_members:
 - [[자극제 (Stimulants)]]
 - [[진정제, 수면제 (Sedatives, Hypnotics)]]
 - [[휘발성 물질 (Volatile substances)]]
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[휘발성 물질 (Volatile substances)]] | 노출 제품·방법·시간, 의식저하·흉통·실신·호흡곤란, 혼합 물질, 자살 의도와 환경적 안전을 즉시 확인한다. 갑작스러운 부정맥과 질식 위험을 염두에 둔다 |
+| [[담배 (Tobacco)]] | 담배는 연소형(궐련 등)과 비연소형(씹는 담배, 머금는 담배 등)으로 나뉘며, 니코틴 의존성 및 다양한 발암물질 노출을 유발함 |
+| [[대마 계 (Cannabis)]] | 대마(Cannabis)의 반복적 사용으로 인한 신체적, 정신적 의존 및 기능 저하 |
+| [[베르니케-코르사코프 증후군 (Wernicke-Korsakoff Syndrome)]] | 티아민(비타민 B1) 결핍으로 인해 발생하는 급성 신경계 질환인 베르니케 뇌병증(Wernicke encephalopathy)과 그 후유증으로 나타나는 만성 기억 장애인 코르사코프 증후군(Korsakoff syndrome)을 통칭함 |
+| [[아편 유사제 (Opioids)]] | 주요 증상: 갈망(craving), 내성(tolerance), 금단(withdrawal), 조절 실패 |
+| [[알코올 금단 섬망 (Alcohol Withdrawal Delirium)]] | 초기 증상: 불안, 불면, 두통, 위장관 불편감, 진전(tremor) |
+| [[알코올 금단 증후군 (Alcohol Withdrawal Syndrome)]] | 초기 증상: 금주 5~10시간 후 불안, 두통, 위장관 불편감, 불면, 진전(tremor) 발생 |
+| [[알코올 사용 장애 (Alcohol Use Disorder)]] | 주요 증상: 갈망(craving), 내성(tolerance), 금단(withdrawal), 조절 실패 |
+| [[알코올 유발 정신병적 장애 (Alcohol-Induced Psychotic Disorder)]] | 특징: 의식 상태는 정상이며, 지남력도 유지됨 |
+| [[자극제 (Stimulants)]] | 중추신경계(CNS) 활동을 증가시키는 약물군(카페인, 암페타민, 코카인, 메틸페니데이트 등) |
+| [[진정제, 수면제 (Sedatives, Hypnotics)]] | 중독: 졸림, 무기력, 의식 저하, 운동 실조(ataxia), 발음 어눌함 등 진정 작용이 주된 증상 |
+
+## 포함 질환
+- [[휘발성 물질 (Volatile substances)]]
+- [[담배 (Tobacco)]]
+- [[대마 계 (Cannabis)]]
+- [[베르니케-코르사코프 증후군 (Wernicke-Korsakoff Syndrome)]]
+- [[아편 유사제 (Opioids)]]
+- [[알코올 금단 섬망 (Alcohol Withdrawal Delirium)]]
+- [[알코올 금단 증후군 (Alcohol Withdrawal Syndrome)]]
+- [[알코올 사용 장애 (Alcohol Use Disorder)]]
+- [[알코올 유발 정신병적 장애 (Alcohol-Induced Psychotic Disorder)]]
+- [[자극제 (Stimulants)]]
+- [[진정제, 수면제 (Sedatives, Hypnotics)]]

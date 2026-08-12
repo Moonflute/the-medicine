@@ -14,7 +14,8 @@ related_diseases:
   - "대마 사용"
   - "온수 목욕으로 호전되는 구토"
 question_type: 임상증례 객관식
-related_disease_slugs: []
+related_disease_slugs:
+  - MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA
 difficulty: complex
 answer: B
 translation_status: machine-verified

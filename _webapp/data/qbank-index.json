@@ -3139,7 +3139,9 @@
     "id": "medqa-us-test-000375",
     "specialty": "08 감염",
     "specialtySlug": "MDgg6rCQ7Je8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-ynhOq3oC5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "complex",
@@ -4118,7 +4120,9 @@
     "id": "medqa-us-test-000472",
     "specialty": "04 내분비",
     "specialtySlug": "MDQg64K067aE67mE",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDQg64K067aE67mEL-umrOuNuCDqsJHsg4Hsg5jsl7wgKFJpZWRlbCBUaHlyb2lkaXRpcykubWQ"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "standard",
@@ -9569,7 +9573,9 @@
     "id": "medqa-us-test-001120",
     "specialty": "22 정형외과",
     "specialtySlug": "MjIg7KCV7ZiV7Jm46rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "standard",
@@ -10329,8 +10335,12 @@
     "id": "medqa-us-test-001216",
     "specialty": "22 정형외과",
     "specialtySlug": "MjIg7KCV7ZiV7Jm46rO8",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7Zi47Z2h6rOk656A"
+    ],
     "questionType": "prevention",
     "difficulty": "standard",
     "translationStatus": "machine-verified",
@@ -10622,8 +10632,14 @@
     "id": "medqa-us-test-001253",
     "specialty": "04 내분비",
     "specialtySlug": "MDQg64K067aE67mE",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rj4XshLEg6rCE7Je8IChUb3hpYyBIZXBhdGl0aXMpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "7ZS866Gc",
+      "6rWs7Yag",
+      "7Zmp64us"
+    ],
     "questionType": "mechanism",
     "difficulty": "simple",
     "translationStatus": "machine-verified",
@@ -16651,7 +16667,9 @@
     "id": "medqa-us-train-000639",
     "specialty": "08 감염",
     "specialtySlug": "MDgg6rCQ7Je8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-q4sOyDney2qS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "prevention",
     "difficulty": "complex",
@@ -17246,7 +17264,8 @@
     "specialty": "03 소화기",
     "specialtySlug": "MDMg7IaM7ZmU6riw",
     "relatedDiseaseSlugs": [
-      "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4Qg7J207JmE67aI64ql7KadIChBY2hhbGFzaWEpLm1k"
+      "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4Qg7J207JmE67aI64ql7KadIChBY2hhbGFzaWEpLm1k",
+      "MDgg6rCQ7Je8L-q4sOyDney2qS5tZA"
     ],
     "relatedCcSlugs": [
       "6rCA7Iq07Ya17Kad",
@@ -17386,8 +17405,14 @@
     "id": "medqa-us-train-000710",
     "specialty": "21 응급의학",
     "specialtySlug": "MjEg7J2R6riJ7J2Y7ZWZ",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7KSR64-F77yP6rO865-J67O17Jqp",
+      "7J2Y7Iud7J6l7JWg",
+      "6rK966CoICjshLHsnbgp"
+    ],
     "questionType": "management",
     "difficulty": "complex",
     "translationStatus": "machine-verified",
@@ -21202,7 +21227,8 @@
     "relatedDiseaseSlugs": [
       "MDQg64K067aE67mEL-yVhOq4ieyEsSDqsJHsg4Hsg5jsl7wgKFN1YmFjdXRlIFRoeXJvaWRpdGlzKS5tZA",
       "MDcg66WY66eI7Yuw7IqkL-yHvOq3uOugjCDspp3tm4TqtbAgKFNqw7ZncmVuJ3MgU3luZHJvbWUpLm1k",
-      "MDQg64K067aE67mEL-2VmOyLnOuqqO2GoCDqsJHsg4Hsg5jsl7wgKEhhc2hpbW90bydzIFRoeXJvaWRpdGlzKS5tZA"
+      "MDQg64K067aE67mEL-2VmOyLnOuqqO2GoCDqsJHsg4Hsg5jsl7wgKEhhc2hpbW90bydzIFRoeXJvaWRpdGlzKS5tZA",
+      "MDQg64K067aE67mEL-ustO2GteyEsSDqsJHsg4Hsg5jsl7wgKFNpbGVudCBUaHlyb2lkaXRpcykubWQ"
     ],
     "relatedCcSlugs": [
       "66qpIO2GteymnQ",
@@ -21450,8 +21476,12 @@
     "id": "medqa-us-train-001171",
     "specialty": "14 소아청소년과",
     "specialtySlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ"
+    ],
+    "relatedCcSlugs": [
+      "7Zi47Z2h6rOk656A"
+    ],
     "questionType": "management",
     "difficulty": "complex",
     "translationStatus": "machine-verified",
@@ -22566,7 +22596,8 @@
     "specialtySlug": "MDgg6rCQ7Je8",
     "relatedDiseaseSlugs": [
       "MDgg6rCQ7Je8L-uOheq4sOyXtCAoRGVuZ3VlIEZldmVyKS5tZA",
-      "MDgg6rCQ7Je8L-unkOudvOumrOyVhCAoTWFsYXJpYSkubWQ"
+      "MDgg6rCQ7Je8L-unkOudvOumrOyVhCAoTWFsYXJpYSkubWQ",
+      "MDgg6rCQ7Je8L-q4sOyDney2qS5tZA"
     ],
     "relatedCcSlugs": [
       "67Cc7Je0",
@@ -23698,7 +23729,9 @@
     "id": "medqa-us-train-001408",
     "specialty": "19 피부과",
     "specialtySlug": "MTkg7ZS867aA6rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-q4sOyDney2qS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "complex",
@@ -26069,7 +26102,9 @@
     "id": "medqa-us-train-001699",
     "specialty": "08 감염",
     "specialtySlug": "MDgg6rCQ7Je8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-q4sOyDney2qS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "complex",
@@ -29017,8 +29052,13 @@
     "id": "medqa-us-train-002035",
     "specialty": "03 소화기",
     "specialtySlug": "MDMg7IaM7ZmU6riw",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_si53rj4Qg7KCV66el66WYIChFc29waGFnZWFsIFZhcmljZXMpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "7Yag7ZiI",
+      "7ZiI67OA"
+    ],
     "questionType": "management",
     "difficulty": "standard",
     "translationStatus": "machine-verified",
@@ -30617,7 +30657,9 @@
     "id": "medqa-us-train-002244",
     "specialty": "03 소화기",
     "specialtySlug": "MDMg7IaM7ZmU6riw",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-q4sOyDney2qS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "investigation",
     "difficulty": "complex",
@@ -33155,7 +33197,9 @@
     "id": "medqa-us-train-002589",
     "specialty": "13 부인과",
     "specialtySlug": "MTMg67aA7J246rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "investigation",
     "difficulty": "complex",
@@ -33754,7 +33798,9 @@
     "id": "medqa-us-train-002652",
     "specialty": "03 소화기",
     "specialtySlug": "MDMg7IaM7ZmU6riw",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDMg7IaM7ZmU6riwL-uyhOuTnC3tgqTslYTrpqwg7Kad7ZuE6rWwIChCdWRkLUNoaWFyaSBTeW5kcm9tZSkubWQ"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "complex",
@@ -39075,8 +39121,12 @@
     "id": "medqa-us-train-003322",
     "specialty": "10 종양",
     "specialtySlug": "MTAg7KKF7JaR",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "67Cc7Je0"
+    ],
     "questionType": "diagnosis",
     "difficulty": "standard",
     "translationStatus": "machine-verified",
@@ -39269,7 +39319,8 @@
     "specialty": "22 정형외과",
     "specialtySlug": "MjIg7KCV7ZiV7Jm46rO8",
     "relatedDiseaseSlugs": [
-      "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_slYzsvZTsmKzshLEg6rCE7KeI7ZmYIChBbGNvaG9saWMgTGl2ZXIgRGlzZWFzZSkubWQ"
+      "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_slYzsvZTsmKzshLEg6rCE7KeI7ZmYIChBbGNvaG9saWMgTGl2ZXIgRGlzZWFzZSkubWQ",
+      "MjIg7KCV7ZiV7Jm46rO8L-uwqeyVhOyHoCDsiJjsp4AgKFRyaWdnZXIgRmluZ2VyKS5tZA"
     ],
     "relatedCcSlugs": [
       "7ZS866Gc",
@@ -39523,8 +39574,13 @@
     "id": "medqa-us-train-003373",
     "specialty": "05 신장",
     "specialtySlug": "MDUg7Iug7J6l",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7ZWN64eo",
+      "7LK07KSR7Kad6rCA"
+    ],
     "questionType": "management",
     "difficulty": "complex",
     "translationStatus": "machine-verified",
@@ -40023,8 +40079,13 @@
     "id": "medqa-us-train-003440",
     "specialty": "03 소화기",
     "specialtySlug": "MDMg7IaM7ZmU6riw",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7ZWN64eo",
+      "7LK07KSR7Kad6rCA"
+    ],
     "questionType": "mechanism",
     "difficulty": "complex",
     "translationStatus": "machine-verified",
@@ -40060,7 +40121,8 @@
     "specialtySlug": "MDkg7ZiI7JWh",
     "relatedDiseaseSlugs": [
       "MDkg7ZiI7JWhL-uwnOyekeyEsSDslbzqsIQg7ZiI7IOJ7IaM64eo7KadIChQYXJveHlzbWFsIE5vY3R1cm5hbCBIZW1vZ2xvYmludXJpYSkubWQ",
-      "MDkg7ZiI7JWhL-2YiOq0gCDrgrQg7Jqp7ZiIIChJbnRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ"
+      "MDkg7ZiI7JWhL-2YiOq0gCDrgrQg7Jqp7ZiIIChJbnRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ",
+      "MDMg7IaM7ZmU6riwL-uyhOuTnC3tgqTslYTrpqwg7Kad7ZuE6rWwIChCdWRkLUNoaWFyaSBTeW5kcm9tZSkubWQ"
     ],
     "relatedCcSlugs": [
       "7ZS866Gc",
@@ -40510,7 +40572,9 @@
     "id": "medqa-us-train-003494",
     "specialty": "18 안과",
     "specialtySlug": "MTgg7JWI6rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MTgg7JWI6rO8L-qyieuLpOuemOuBvCAoZXh0ZXJuYWwgaG9yZGVvbHVtKS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "complex",
@@ -41831,8 +41895,12 @@
     "id": "medqa-us-train-003632",
     "specialty": "19 피부과",
     "specialtySlug": "MTkg7ZS867aA6rO8",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MTkg7ZS867aA6rO8L-yVhO2GoO2UvCDtlLzrtoDsl7wgKEF0b3BpYyBEZXJtYXRpdGlzKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "6riw67aE67OA7ZmU"
+    ],
     "questionType": "diagnosis",
     "difficulty": "standard",
     "translationStatus": "machine-verified",
@@ -44039,7 +44107,9 @@
     "id": "medqa-us-train-003919",
     "specialty": "21 응급의학",
     "specialtySlug": "MjEg7J2R6riJ7J2Y7ZWZ",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-ybkOuCtOqwkOyXvC5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "prevention",
     "difficulty": "complex",
@@ -45733,8 +45803,14 @@
     "id": "medqa-us-train-004086",
     "specialty": "21 응급의학",
     "specialtySlug": "MjEg7J2R6riJ7J2Y7ZWZ",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7KSR64-F77yP6rO865-J67O17Jqp",
+      "7J2Y7Iud7J6l7JWg",
+      "6rK966CoICjshLHsnbgp"
+    ],
     "questionType": "임상증례 객관식",
     "difficulty": "complex",
     "translationStatus": "machine-verified",
@@ -48361,7 +48437,8 @@
     "specialty": "08 감염",
     "specialtySlug": "MDgg6rCQ7Je8",
     "relatedDiseaseSlugs": [
-      "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ"
+      "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ",
+      "MDgg6rCQ7Je8L-q4ieyEsSBISVYg6rCQ7Je8IChBY3V0ZSBISVYgSW5mZWN0aW9uKS5tZA"
     ],
     "relatedCcSlugs": [
       "7Zmp64us",
@@ -51478,8 +51555,12 @@
     "id": "medqa-us-train-004757",
     "specialty": "03 소화기",
     "specialtySlug": "MDMg7IaM7ZmU6riw",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rtoDsi50g7Iud64-E7Je8IChDb3Jyb3NpdmUgRXNvcGhhZ2l0aXMpLm1k"
+    ],
+    "relatedCcSlugs": [
+      "6rCA7Iq07Ya17Kad"
+    ],
     "questionType": "diagnosis",
     "difficulty": "complex",
     "translationStatus": "machine-verified",
@@ -54310,7 +54391,9 @@
     "id": "medqa-us-train-005092",
     "specialty": "17 이비인후과",
     "specialtySlug": "MTcg7J2067mE7J247ZuE6rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sgrzssKjsi6Dqsr3thrUgKFRyaWdlbWluYWwgbmV1cmFsZ2lhKS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "standard",
@@ -54670,7 +54753,9 @@
     "id": "medqa-us-train-005134",
     "specialty": "22 정형외과",
     "specialtySlug": "MjIg7KCV7ZiV7Jm46rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "complex",
@@ -55305,7 +55390,9 @@
     "id": "medqa-us-train-005215",
     "specialty": "18 안과",
     "specialtySlug": "MTgg7JWI6rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MTgg7JWI6rO8L-qyieuLpOuemOuBvCAoZXh0ZXJuYWwgaG9yZGVvbHVtKS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "standard",
@@ -60105,8 +60192,13 @@
     "id": "medqa-us-train-005831",
     "specialty": "01 순환기",
     "specialtySlug": "MDEg7Iic7ZmY6riw",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "6rOg7ZiI7JWV",
+      "65GQ7Ya1"
+    ],
     "questionType": "mechanism",
     "difficulty": "standard",
     "translationStatus": "machine-verified",
@@ -62687,8 +62779,13 @@
     "id": "medqa-us-train-006136",
     "specialty": "05 신장",
     "specialtySlug": "MDUg7Iug7J6l",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7Zi47Z2h6rOk656A",
+      "7ZS866Gc"
+    ],
     "questionType": "diagnosis",
     "difficulty": "complex",
     "translationStatus": "machine-verified",
@@ -63459,7 +63556,9 @@
     "id": "medqa-us-train-006223",
     "specialty": "18 안과",
     "specialtySlug": "MTgg7JWI6rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MTgg7JWI6rO8L-yEuOq3oOqwgeunieq2pOyWkSAoYmFjdGVyaWFsIGNvcm5lYWwgdWxjZXIpLm1k"
+    ],
     "relatedCcSlugs": [],
     "questionType": "investigation",
     "difficulty": "standard",
@@ -66701,8 +66800,13 @@
     "id": "medqa-us-train-006621",
     "specialty": "21 응급의학",
     "specialtySlug": "MjEg7J2R6riJ7J2Y7ZWZ",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA"
+    ],
+    "relatedCcSlugs": [
+      "7ZWN64eo",
+      "7LK07KSR7Kad6rCA"
+    ],
     "questionType": "prevention",
     "difficulty": "complex",
     "translationStatus": "machine-verified",
@@ -68497,7 +68601,9 @@
     "id": "medqa-us-train-006862",
     "specialty": "22 정형외과",
     "specialtySlug": "MjIg7KCV7ZiV7Jm46rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "standard",
@@ -72174,7 +72280,9 @@
     "id": "medqa-us-train-007306",
     "specialty": "18 안과",
     "specialtySlug": "MTgg7JWI6rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MTgg7JWI6rO8L-qyieuLpOuemOuBvCAoZXh0ZXJuYWwgaG9yZGVvbHVtKS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "simple",
@@ -74348,7 +74456,9 @@
     "id": "medqa-us-train-007575",
     "specialty": "08 감염",
     "specialtySlug": "MDgg6rCQ7Je8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-q4ieyEsSBISVYg6rCQ7Je8IChBY3V0ZSBISVYgSW5mZWN0aW9uKS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "management",
     "difficulty": "standard",
@@ -74714,7 +74824,9 @@
     "id": "medqa-us-train-007609",
     "specialty": "13 부인과",
     "specialtySlug": "MTMg67aA7J246rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MTMg67aA7J246rO8L-yniCDsg4HtlLzrgrQg7KKF7JaRIChWYWdpbmFsIEludHJhZXBpdGhlbGlhbCBOZW9wbGFzaWEpLm1k"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "standard",
@@ -75794,7 +75906,9 @@
     "id": "medqa-us-train-007741",
     "specialty": "22 정형외과",
     "specialtySlug": "MjIg7KCV7ZiV7Jm46rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MjIg7KCV7ZiV7Jm46rO8L-2MlOq_iOy5mCDsmbjsuKEg7IOB6rO87Je8IChMYXRlcmFsIEVwaWNvbmR5bGl0aXMpLm1k"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "standard",
@@ -77579,7 +77693,9 @@
     "id": "medqa-us-train-007959",
     "specialty": "22 정형외과",
     "specialtySlug": "MjIg7KCV7ZiV7Jm46rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MjIg7KCV7ZiV7Jm46rO8L-uwqeyVhOyHoCDsiJjsp4AgKFRyaWdnZXIgRmluZ2VyKS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "mechanism",
     "difficulty": "standard",
@@ -80093,7 +80209,9 @@
     "id": "medqa-us-train-008274",
     "specialty": "08 감염",
     "specialtySlug": "MDgg6rCQ7Je8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-q4sOyDney2qS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "standard",
@@ -80820,7 +80938,9 @@
     "id": "medqa-us-train-008380",
     "specialty": "22 정형외과",
     "specialtySlug": "MjIg7KCV7ZiV7Jm46rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MjIg7KCV7ZiV7Jm46rO8L-unkOy0iOyLoOqyvSDshpDsg4EubWQ"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "complex",
@@ -83851,7 +83971,9 @@
     "id": "medqa-us-train-008752",
     "specialty": "08 감염",
     "specialtySlug": "MDgg6rCQ7Je8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-q4ieyEsSBISVYg6rCQ7Je8IChBY3V0ZSBISVYgSW5mZWN0aW9uKS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "investigation",
     "difficulty": "standard",
@@ -87956,10 +88078,14 @@
     "specialty": "01 순환기",
     "specialtySlug": "MDEg7Iic7ZmY6riw",
     "relatedDiseaseSlugs": [
-      "MDEg7Iic7ZmY6riwL-yViOyglSDtmJHsi6zspp0gKFN0YWJsZSBBbmdpbmEpLm1k"
+      "MDEg7Iic7ZmY6riwL-yViOyglSDtmJHsi6zspp0gKFN0YWJsZSBBbmdpbmEpLm1k",
+      "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rj4XshLEg6rCE7Je8IChUb3hpYyBIZXBhdGl0aXMpLm1k"
     ],
     "relatedCcSlugs": [
-      "6rCA7Iq07Ya17Kad"
+      "6rCA7Iq07Ya17Kad",
+      "7ZS866Gc",
+      "6rWs7Yag",
+      "7Zmp64us"
     ],
     "questionType": "management",
     "difficulty": "complex",
@@ -89149,7 +89275,9 @@
     "id": "medqa-us-train-009403",
     "specialty": "12 산과",
     "specialtySlug": "MTIg7IKw6rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "complex",
@@ -89421,7 +89549,9 @@
     "id": "medqa-us-train-009444",
     "specialty": "08 감염",
     "specialtySlug": "MDgg6rCQ7Je8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDgg6rCQ7Je8L-q4sOyDney2qS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "complex",
@@ -89487,8 +89617,15 @@
     "id": "medqa-us-train-009452",
     "specialty": "03 소화기",
     "specialtySlug": "MDMg7IaM7ZmU6riw",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ"
+    ],
+    "relatedCcSlugs": [
+      "7ZS866Gc",
+      "7Zmp64us",
+      "7Yag7ZiI",
+      "7ZiI67OA"
+    ],
     "questionType": "diagnosis",
     "difficulty": "complex",
     "translationStatus": "machine-verified",
@@ -90016,7 +90153,8 @@
     "specialty": "09 혈액",
     "specialtySlug": "MDkg7ZiI7JWh",
     "relatedDiseaseSlugs": [
-      "MDkg7ZiI7JWhL-uwnOyekeyEsSDslbzqsIQg7ZiI7IOJ7IaM64eo7KadIChQYXJveHlzbWFsIE5vY3R1cm5hbCBIZW1vZ2xvYmludXJpYSkubWQ"
+      "MDkg7ZiI7JWhL-uwnOyekeyEsSDslbzqsIQg7ZiI7IOJ7IaM64eo7KadIChQYXJveHlzbWFsIE5vY3R1cm5hbCBIZW1vZ2xvYmludXJpYSkubWQ",
+      "MDMg7IaM7ZmU6riwL-uyhOuTnC3tgqTslYTrpqwg7Kad7ZuE6rWwIChCdWRkLUNoaWFyaSBTeW5kcm9tZSkubWQ"
     ],
     "relatedCcSlugs": [
       "7ZS866Gc",
@@ -91994,8 +92132,14 @@
     "id": "medqa-us-train-009746",
     "specialty": "03 소화기",
     "specialtySlug": "MDMg7IaM7ZmU6riw",
-    "relatedDiseaseSlugs": [],
-    "relatedCcSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7Trgq3slZQgKEdhbGxibGFkZGVyIENhbmNlcikubWQ"
+    ],
+    "relatedCcSlugs": [
+      "7Zmp64us",
+      "6rWs7Yag",
+      "67Cc7Je0"
+    ],
     "questionType": "management",
     "difficulty": "complex",
     "translationStatus": "machine-verified",
@@ -92219,7 +92363,9 @@
     "id": "medqa-us-train-009766",
     "specialty": "14 소아청소년과",
     "specialtySlug": "MTQg7IaM7JWE7LKt7IaM64WE6rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv66-47IiZ7JWEIOustO2YuO2doSAoQXBuZWEgb2YgUHJlbWF0dXJpdHkpLm1k"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "complex",
@@ -102967,7 +103113,9 @@
     "id": "medqa-us-validation-000862",
     "specialty": "04 내분비",
     "specialtySlug": "MDQg64K067aE67mE",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MDQg64K067aE67mEL-ustO2GteyEsSDqsJHsg4Hsg5jsl7wgKFNpbGVudCBUaHlyb2lkaXRpcykubWQ"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "complex",
@@ -103890,7 +104038,9 @@
     "id": "medqa-us-validation-000958",
     "specialty": "18 안과",
     "specialtySlug": "MTgg7JWI6rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MTgg7JWI6rO8L-qyieuLpOuemOuBvCAoZXh0ZXJuYWwgaG9yZGVvbHVtKS5tZA"
+    ],
     "relatedCcSlugs": [],
     "questionType": "management",
     "difficulty": "standard",
@@ -105628,7 +105778,9 @@
     "id": "medqa-us-validation-001184",
     "specialty": "11 외과",
     "specialtySlug": "MTEg7Jm46rO8",
-    "relatedDiseaseSlugs": [],
+    "relatedDiseaseSlugs": [
+      "MjIg7KCV7ZiV7Jm46rO8L-yVhO2CrOugiOyKpCDqsbTrs5Hspp0gKEFjaGlsbGVzIFRlbmRpbm9wYXRoeSkubWQ"
+    ],
     "relatedCcSlugs": [],
     "questionType": "diagnosis",
     "difficulty": "standard",

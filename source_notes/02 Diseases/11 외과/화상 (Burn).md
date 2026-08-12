@@ -4,7 +4,11 @@ aliases:
 - 화상
 document_role: group_overview
 group_members:
-- 전기 화상 (Electrical Burn)
+- 화학물질화상 (Chemical Burn)
+- 흡입화상 (Inhalation Burn)
+- 전기 화상 (Electrical Burn)- 화학물질화상 (Chemical Burn)
+- 흡입화상 (Inhalation Burn)
+- 전기 화상 (Electrical Burn)- 전기 화상 (Electrical Burn)
 - 화학물질화상 (Chemical Burn)
 - 흡입화상 (Inhalation Burn)
 유형:
@@ -78,3 +82,19 @@ reviewed_at: "2026-07-30"
 출처 : StatPearls (Acute and Chronic Thermal Burn Evaluation and Management, Anesthesia for Patients With Burns)
 Last updated :
 2026-07-15 — 중복 본문 정리
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[화학물질화상 (Chemical Burn)]] | 화학물질(산, 알칼리, 자극제 등)에 노출되어 발생하는 피부 및 점막의 손상 |
+| [[흡입화상 (Inhalation Burn)]] | 화재 현장 등 밀폐된 공간에서 뜨거운 공기, 연기, 유독가스를 흡입하여 발생하는 호흡기 및 전신 손상 |
+| [[전기 화상 (Electrical Burn)]] | 전류가 신체를 통과하면서 발생하는 열에너지로 인해 피부 및 심부 조직에 손상을 입는 상태 |
+
+## 포함 질환
+- [[화학물질화상 (Chemical Burn)]]
+- [[흡입화상 (Inhalation Burn)]]
+- [[전기 화상 (Electrical Burn)]]

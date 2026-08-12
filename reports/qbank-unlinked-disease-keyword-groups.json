@@ -1,47 +1,8 @@
 {
   "description": "Keyword and teaching-specialty triage of unlinked MedQA disease tags. It is a review queue, not automatic clinical matching.",
-  "unlinked_question_count": 26,
-  "normalised_tag_count": 10,
+  "unlinked_question_count": 23,
+  "normalised_tag_count": 8,
   "groups": [
-    {
-      "group": "희귀·유전·증후군",
-      "rationale": "증후군·유전질환 키워드",
-      "tag_count": 3,
-      "question_count": 4,
-      "items": [
-        {
-          "tag": "칸나비스 구토 증후군",
-          "variants": [
-            "cannabinoid hyperemesis syndrome",
-            "칸나비스 구토 증후군"
-          ],
-          "question_count": 2,
-          "specialties": [
-            "21 응급의학"
-          ]
-        },
-        {
-          "tag": "47,XYY 증후군",
-          "variants": [
-            "47,XYY 증후군"
-          ],
-          "question_count": 1,
-          "specialties": [
-            "14 소아청소년과"
-          ]
-        },
-        {
-          "tag": "Conn syndrome",
-          "variants": [
-            "Conn syndrome"
-          ],
-          "question_count": 1,
-          "specialties": [
-            "04 내분비"
-          ]
-        }
-      ]
-    },
     {
       "group": "감염·노출",
       "rationale": "감염원 또는 노출 키워드",
@@ -82,15 +43,25 @@
       ]
     },
     {
-      "group": "내분비·대사",
-      "rationale": "주 출제 분과",
-      "tag_count": 2,
-      "question_count": 2,
+      "group": "희귀·유전·증후군",
+      "rationale": "증후군·유전질환 키워드",
+      "tag_count": 3,
+      "question_count": 3,
       "items": [
         {
-          "tag": "Riedel thyroiditis",
+          "tag": "47,XYY 증후군",
           "variants": [
-            "Riedel thyroiditis"
+            "47,XYY 증후군"
+          ],
+          "question_count": 1,
+          "specialties": [
+            "14 소아청소년과"
+          ]
+        },
+        {
+          "tag": "Conn syndrome",
+          "variants": [
+            "Conn syndrome"
           ],
           "question_count": 1,
           "specialties": [
@@ -98,13 +69,13 @@
           ]
         },
         {
-          "tag": "Silent thyroiditis",
+          "tag": "cannabinoid hyperemesis syndrome",
           "variants": [
-            "Silent thyroiditis"
+            "cannabinoid hyperemesis syndrome"
           ],
           "question_count": 1,
           "specialties": [
-            "04 내분비"
+            "21 응급의학"
           ]
         }
       ]

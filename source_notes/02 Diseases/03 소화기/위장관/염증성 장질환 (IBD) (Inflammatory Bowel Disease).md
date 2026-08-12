@@ -5,7 +5,9 @@ aliases:
 - inflammatory bowel disease
 document_role: group_overview
 group_members:
-- 크론병 (CD) (Crohn's Disease (CD))
+- 궤양성 대장염 (UC) (Ulcerative Colitis)
+- 크론병 (CD) (Crohn's Disease (CD))- 궤양성 대장염 (UC) (Ulcerative Colitis)
+- 크론병 (CD) (Crohn's Disease (CD))- 크론병 (CD) (Crohn's Disease (CD))
 - 궤양성 대장염 (UC) (Ulcerative Colitis)
 유형:
 - disease
@@ -46,3 +48,17 @@ sources:
 ### 하위 질환
 - [[크론병 (CD) (Crohn's Disease (CD))]]
 - [[궤양성 대장염 (UC) (Ulcerative Colitis)]]
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[궤양성 대장염 (UC) (Ulcerative Colitis)]] | 대장 점막에 발생하는 만성 염증성 및 궤양성 질환으로, 주로 혈변을 동반한 설사가 특징임 |
+| [[크론병 (CD) (Crohn's Disease (CD))]] | 소화관의 어느 부위에서나 발생할 수 있는 만성적인 염증성 장질환으로, 주로 회장 말단부와 대장을 침범함 |
+
+## 포함 질환
+- [[궤양성 대장염 (UC) (Ulcerative Colitis)]]
+- [[크론병 (CD) (Crohn's Disease (CD))]]

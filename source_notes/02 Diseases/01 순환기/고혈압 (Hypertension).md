@@ -3,7 +3,7 @@ aliases:
 - HTN
 document_role: group_overview
 group_members:
-- 고혈압성 위기 (Hypertensive Crisis)
+- 고혈압성 위기 (Hypertensive Crisis)- 고혈압성 위기 (Hypertensive Crisis)- 고혈압성 위기 (Hypertensive Crisis)
 유형:
 - disease
 계통: 순환기
@@ -25,7 +25,6 @@ population: adult
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 ---
-
 ## 1. 개요
 - 고혈압은 반복 측정에서 혈압이 상승해 심뇌혈관·신장·혈관 사건 위험을 높이는 만성 질환이다. 대부분은 일차성 고혈압이며, 신장질환·신혈관질환·일차성 알도스테론증·내분비질환·수면무호흡·약물 등이 이차성 원인이 될 수 있다.
 - 대한고혈압학회 2026 지침은 진료실 혈압 수축기 ≥140 mmHg 또는 이완기 ≥90 mmHg를 고혈압 분류와 치료 판단의 기본 기준으로 사용한다. 미국 ACC/AHA 2025 지침의 130/80 mmHg 분류는 별도 체계이므로 국내 기준과 섞어 쓰지 않는다.
@@ -67,3 +66,15 @@ review_status: "guideline_enriched"
 출처 :
 - 대한고혈압학회 2026년 제6판 고혈압 진료지침: https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read
 - 2025 ACC/AHA High Blood Pressure Guideline: https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[고혈압성 위기 (Hypertensive Crisis)]] | 중증 혈압 상승만으로 고혈압성 응급을 진단하지 않는다. 핵심은 **급성 표적장기손상**의 유무다 |
+
+## 포함 질환
+- [[고혈압성 위기 (Hypertensive Crisis)]]

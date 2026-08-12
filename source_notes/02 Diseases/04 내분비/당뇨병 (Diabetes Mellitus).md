@@ -22,7 +22,23 @@ disease_family: diabetes
 population: "general"
 document_role: group_overview
 group_members:
+- 고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)
+- 당뇨병성 망막병증 (Diabetic Retinopathy)
+- 당뇨병성 신경병증 (Diabetic Neuropathy)
+- 당뇨병성 족부질환
+- 당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)
+- 당뇨병성 콩팥병증 (Diabetic Nephropathy)
+- 저혈당 (Hypoglycemia)
 - 제1형 당뇨병 (Type 1 Diabetes Mellitus)
+- 제2형 당뇨병 (Type 2 Diabetes Mellitus)- 고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)
+- 당뇨병성 망막병증 (Diabetic Retinopathy)
+- 당뇨병성 신경병증 (Diabetic Neuropathy)
+- 당뇨병성 족부질환
+- 당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)
+- 당뇨병성 콩팥병증 (Diabetic Nephropathy)
+- 저혈당 (Hypoglycemia)
+- 제1형 당뇨병 (Type 1 Diabetes Mellitus)
+- 제2형 당뇨병 (Type 2 Diabetes Mellitus)- 제1형 당뇨병 (Type 1 Diabetes Mellitus)
 - 제2형 당뇨병 (Type 2 Diabetes Mellitus)
 - 당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)
 - 고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)
@@ -34,7 +50,6 @@ group_members:
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 ---
-
 ## 1. 개요
 - 진단은 HbA1c, 공복혈장포도당, 75 g OGTT 2시간 혈당, 또는 전형적 증상이 있는 무작위 혈당으로 판단하며, 명백한 고혈당이 아니면 다른 날 재확인한다.
 - 제1형 당뇨병은 인슐린이 필수이고, 제2형 당뇨병은 심혈관·심부전·콩팥·체중·저혈당 위험을 먼저 반영해 약제를 선택한다.
@@ -104,3 +119,31 @@ review_status: "guideline_enriched"
 - 대한당뇨병학회 2025 제9판 당뇨병 진료지침: https://diabetes.or.kr/bbs/?code=guide
 - ADA Standards of Care in Diabetes 2026: https://professional.diabetes.org/standards-of-care
 - KDIGO 2024 CKD Guideline: https://kdigo.org/guidelines/ckd-evaluation-and-management/
+
+## 공통 접근
+- 이 범주의 하위 질환은 증상 경과, 침범 부위, 유발 요인 및 검사 패턴을 함께 비교합니다.
+- 각 질환의 확진 기준과 처치는 아래 연결 문서에서 확인합니다.
+
+## 하위 질환 감별 포인트
+| 하위 질환 | 구분에 유용한 단서 |
+| --- | --- |
+| [[고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)]] | 인슐린의 상대적 결핍으로 인해 발생하는 심한 고혈당, 고삼투압, 탈수를 특징으로 하는 당뇨병의 치명적인 급성 합병증 |
+| [[당뇨병성 망막병증 (Diabetic Retinopathy)]] | 초기에는 대개 무증상이다. 황반 침범 시 시력 저하·변시증이, 유리체출혈·견인망막박리에서는 비문증, 갑작스러운 시력 저하가 나타날 수 있다 |
+| [[당뇨병성 신경병증 (Diabetic Neuropathy)]] | 원위부 대칭성 다발신경병증은 발부터 시작하는 저림·화끈거림·통증·감각 저하와 야간 악화가 흔하며, 진행하면 균형 장애와 근력 저하가 동반될 수 있다 |
+| [[당뇨병성 족부질환]] | 발열·패혈증, 빠르게 진행하는 괴사·봉와직염, 심한 허혈·휴식통, 가스·깊은 농양, 노출된 뼈·건, 급성 Charcot 발은 외래 단순 관찰 대상이 아니며 즉시 응급·다학제 평가가 필요하다 |
+| [[당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)]] | 인슐린 결핍과 길항 호르몬 증가로 인해 고혈당, 케톤혈증, 대사성 산증이 급격히 발생하는 당뇨병의 치명적 합병증 |
+| [[당뇨병성 콩팥병증 (Diabetic Nephropathy)]] | 당뇨병의 대사 및 혈역학적 변화로 인해 발생하는 사구체 경화증 및 섬유화 |
+| [[저혈당 (Hypoglycemia)]] | 의식 저하·경련, 스스로 탄수화물을 섭취할 수 없음, 반복되거나 지속되는 저혈당은 즉시 구조 처치와 응급 평가가 필요한 소견이다 |
+| [[제1형 당뇨병 (Type 1 Diabetes Mellitus)]] | 케톤 양성, 복통·구토, 쿠스마울 호흡, 의식 변화, 심한 탈수는 [[당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)]]를 즉시 평가할 소견이다 |
+| [[제2형 당뇨병 (Type 2 Diabetes Mellitus)]] | 무증상 선별검사에서 발견되기도 하며, 고혈당이 진행하면 다뇨·다음·체중 감소·피로·시야 흐림이 나타날 수 있다 |
+
+## 포함 질환
+- [[고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)]]
+- [[당뇨병성 망막병증 (Diabetic Retinopathy)]]
+- [[당뇨병성 신경병증 (Diabetic Neuropathy)]]
+- [[당뇨병성 족부질환]]
+- [[당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)]]
+- [[당뇨병성 콩팥병증 (Diabetic Nephropathy)]]
+- [[저혈당 (Hypoglycemia)]]
+- [[제1형 당뇨병 (Type 1 Diabetes Mellitus)]]
+- [[제2형 당뇨병 (Type 2 Diabetes Mellitus)]]
