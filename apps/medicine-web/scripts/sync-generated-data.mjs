@@ -1494,6 +1494,7 @@ function buildQbank() {
   }
   const canonicalDiseaseSlug = (slug) => diseaseHierarchy.canonicalSlugBySlug[slug] ?? slug;
   const ccSlugByTitle = new Map(buildChiefComplaints().map((item) => [item.title, item.slug]));
+  const drugBySlug = new Map(buildDrugs().map((item) => [item.slug, item]));
   const diseaseBySlug = new Map(diseases.map((item) => [item.slug, item]));
   const diseaseCandidates = diseases.filter((item) => item.documentRole !== "compatibility").flatMap((item) =>
     [item.title, ...(item.aliases || [])]
@@ -1549,6 +1550,8 @@ function buildQbank() {
       ...(targetType === "cc" && targetSlug ? [targetSlug] : []),
       ...relatedDiseaseSlugs.flatMap((slug) => (diseaseBySlug.get(slug)?.chiefComplaints ?? []).map((term) => ccSlugByTitle.get(term) || "")).filter(Boolean),
     ])];
+    const relatedDrugSlugs = readList(frontmatter.related_drug_slugs).filter((slug) => drugBySlug.has(slug));
+    const relatedDrugs = relatedDrugSlugs.map((slug) => ({ slug, title: drugBySlug.get(slug).title }));
     const specialtySlug = toSlug(specialty);
     questions.push({
       id,
@@ -1559,6 +1562,8 @@ function buildQbank() {
       relatedDiseaseTerms: diseaseTerms,
       relatedDiseaseSlugs,
       relatedCcSlugs,
+      relatedDrugSlugs,
+      relatedDrugs,
       questionType: readScalar(frontmatter.question_type) || "other",
       difficulty: readScalar(frontmatter.difficulty) || "standard",
       question,
@@ -1601,6 +1606,7 @@ function buildQbank() {
     specialtySlug: item.specialtySlug,
     relatedDiseaseSlugs: item.relatedDiseaseSlugs,
     relatedCcSlugs: item.relatedCcSlugs,
+    relatedDrugSlugs: item.relatedDrugSlugs,
     questionType: item.questionType,
     difficulty: item.difficulty,
     translationStatus: item.translationStatus,

@@ -21,6 +21,10 @@ generation_model: gpt-oss-120b
 generation_prompt_version: theory-qbank-ko-v1
 generated_at: 2026-08-09
 review_status: machine-generated
+related_drug_slugs:
+  - ZHJ1ZzowMiDtmLjtnaHquLAvQnVkZXNvbmlkZS5tZA
+  - ZHJ1ZzowMiDtmLjtnaHquLAvQnVkZXNvbmlkZUZvcm1vdGVyb2wubWQ
+  - ZHJ1ZzowMiDtmLjtnaHquLAvRm9ybW90ZXJvbC5tZA
 ---
 
 # 이론 문제

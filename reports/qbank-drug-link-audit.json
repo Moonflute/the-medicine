@@ -1,0 +1,4263 @@
+{
+  "source": "canonical drug-note title/alias/unique-brand exact match",
+  "drugCatalogCount": 357,
+  "candidateTermCount": 1076,
+  "linkedQuestionCount": 2669,
+  "changedQuestionCount": 9258,
+  "existingFieldConflictPaths": [],
+  "linksByDrug": [
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA",
+      "title": "Aspirin",
+      "questionCount": 260
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTGlzaW5vcHJpbC5tZA",
+      "title": "Lisinopril",
+      "questionCount": 219
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0lidXByb2Zlbi5tZA",
+      "title": "Ibuprofen",
+      "questionCount": 160
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQXRvcnZhc3RhdGluLm1k",
+      "title": "Atorvastatin",
+      "questionCount": 156
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcm9jaGxvcm90aGlhemlkZS5tZA",
+      "title": "Hydrochlorothiazide",
+      "questionCount": 137
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b3Byb2xvbC5tZA",
+      "title": "Metoprolol",
+      "questionCount": 112
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdHJpYXhvbmUubWQ",
+      "title": "Ceftriaxone",
+      "questionCount": 112
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRW5hbGFwcmlsLm1k",
+      "title": "Enalapril",
+      "questionCount": 97
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ",
+      "title": "Dopamine",
+      "questionCount": 95
+    },
+    {
+      "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA",
+      "title": "Warfarin",
+      "questionCount": 86
+    },
+    {
+      "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9IZXBhcmluLm1k",
+      "title": "Heparin",
+      "questionCount": 83
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW4ubWQ",
+      "title": "Amoxicillin",
+      "questionCount": 82
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvVmFuY29teWNpbi5tZA",
+      "title": "Vancomycin",
+      "questionCount": 81
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA",
+      "title": "Amlodipine",
+      "questionCount": 77
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL01ldGhvdHJleGF0ZS5tZA",
+      "title": "Methotrexate",
+      "questionCount": 74
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GbHVveGV0aW5lLm1k",
+      "title": "Fluoxetine",
+      "questionCount": 69
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ",
+      "title": "Propranolol",
+      "questionCount": 63
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvT21lcHJhem9sZS5tZA",
+      "title": "Omeprazole",
+      "questionCount": 62
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvTWV0cm9uaWRhem9sZS5tZA",
+      "title": "Metronidazole",
+      "questionCount": 62
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MZXZvdGh5cm94aW5lLm1k",
+      "title": "Levothyroxine",
+      "questionCount": 60
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltLm1k",
+      "title": "Trimethoprim",
+      "questionCount": 60
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvU3VsZmFtZXRob3hhem9sZS5tZA",
+      "title": "Sulfamethoxazole",
+      "questionCount": 58
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QcmVkbmlzb2xvbmUubWQ",
+      "title": "Prednisolone",
+      "questionCount": 57
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRXBpbmVwaHJpbmUubWQ",
+      "title": "Epinephrine",
+      "questionCount": 56
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9IYWxvcGVyaWRvbC5tZA",
+      "title": "Haloperidol",
+      "questionCount": 56
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2lwcm9mbG94YWNpbi5tZA",
+      "title": "Ciprofloxacin",
+      "questionCount": 55
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Nb3JwaGluZS5tZA",
+      "title": "Morphine",
+      "questionCount": 54
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQWN5Y2xvdmlyLm1k",
+      "title": "Acyclovir",
+      "questionCount": 54
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvRG94eWN5Y2xpbmUubWQ",
+      "title": "Doxycycline",
+      "questionCount": 52
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTm9yZXBpbmVwaHJpbmUubWQ",
+      "title": "Norepinephrine",
+      "questionCount": 49
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRmb3JtaW4ubWQ",
+      "title": "Metformin",
+      "questionCount": 48
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EZXhhbWV0aGFzb25lLm1k",
+      "title": "Dexamethasone",
+      "questionCount": 47
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQXppdGhyb215Y2luLm1k",
+      "title": "Azithromycin",
+      "questionCount": 43
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvR2VudGFtaWNpbi5tZA",
+      "title": "Gentamicin",
+      "questionCount": 39
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9UZXN0b3N0ZXJvbmUubWQ",
+      "title": "Testosterone",
+      "questionCount": 39
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQW1waWNpbGxpbi5tZA",
+      "title": "Ampicillin",
+      "questionCount": 38
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2xpbmRhbXljaW4ubWQ",
+      "title": "Clindamycin",
+      "questionCount": 38
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTml0cm9nbHljZXJpbi5tZA",
+      "title": "Nitroglycerin",
+      "questionCount": 37
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvTGV2b2Zsb3hhY2luLm1k",
+      "title": "Levofloxacin",
+      "questionCount": 36
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Mb3JhemVwYW0ubWQ",
+      "title": "Lorazepam",
+      "questionCount": 36
+    },
+    {
+      "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvRmx1dGljYXNvbmUubWQ",
+      "title": "Fluticasone",
+      "questionCount": 35
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQ2xvcGlkb2dyZWwubWQ",
+      "title": "Clopidogrel",
+      "questionCount": 33
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbWl0cmlwdHlsaW5lLm1k",
+      "title": "Amitriptyline",
+      "questionCount": 33
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL05hcHJveGVuLm1k",
+      "title": "Naproxen",
+      "questionCount": 32
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EaWF6ZXBhbS5tZA",
+      "title": "Diazepam",
+      "questionCount": 31
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvRmx1Y29uYXpvbGUubWQ",
+      "title": "Fluconazole",
+      "questionCount": 31
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QaGVueXRvaW4ubWQ",
+      "title": "Phenytoin",
+      "questionCount": 30
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k",
+      "title": "Pantoprazole",
+      "questionCount": 29
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRGlnb3hpbi5tZA",
+      "title": "Digoxin",
+      "questionCount": 28
+    },
+    {
+      "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTWFnbmVzaXVtU3VsZmF0ZS5tZA",
+      "title": "MagnesiumSulfate",
+      "questionCount": 28
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTG9zYXJ0YW4ubWQ",
+      "title": "Losartan",
+      "questionCount": 27
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TaXRhZ2xpcHRpbi5tZA",
+      "title": "Sitagliptin",
+      "questionCount": 27
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvUmlmYW1waW4ubWQ",
+      "title": "Rifampin",
+      "questionCount": 27
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FsbG9wdXJpbm9sLm1k",
+      "title": "Allopurinol",
+      "questionCount": 27
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvSXNvbmlhemlkLm1k",
+      "title": "Isoniazid",
+      "questionCount": 26
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQW1pb2Rhcm9uZS5tZA",
+      "title": "Amiodarone",
+      "questionCount": 25
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BbHByYXpvbGFtLm1k",
+      "title": "Alprazolam",
+      "questionCount": 25
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByb3Bpb24ubWQ",
+      "title": "Bupropion",
+      "questionCount": 25
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG96YXBpbmUubWQ",
+      "title": "Clozapine",
+      "questionCount": 25
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9SaXNwZXJpZG9uZS5tZA",
+      "title": "Risperidone",
+      "questionCount": 25
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTGFiZXRhbG9sLm1k",
+      "title": "Labetalol",
+      "questionCount": 24
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUmFtaXByaWwubWQ",
+      "title": "Ramipril",
+      "questionCount": 23
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvVmVyYXBhbWlsLm1k",
+      "title": "Verapamil",
+      "questionCount": 23
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NvbGNoaWNpbmUubWQ",
+      "title": "Colchicine",
+      "questionCount": 22
+    },
+    {
+      "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvTmFsb3hvbmUubWQ",
+      "title": "Naloxone",
+      "questionCount": 22
+    },
+    {
+      "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvSXByYXRyb3BpdW0ubWQ",
+      "title": "Ipratropium",
+      "questionCount": 22
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZvZG9wYS5tZA",
+      "title": "Levodopa",
+      "questionCount": 22
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1JpdHV4aW1hYi5tZA",
+      "title": "Rituximab",
+      "questionCount": 22
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTmlmZWRpcGluZS5tZA",
+      "title": "Nifedipine",
+      "questionCount": 21
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2hsb3JvcXVpbmUubWQ",
+      "title": "Chloroquine",
+      "questionCount": 21
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PbGFuemFwaW5lLm1k",
+      "title": "Olanzapine",
+      "questionCount": 21
+    },
+    {
+      "slug": "ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9PeHl0b2Npbi5tZA",
+      "title": "Oxytocin",
+      "questionCount": 21
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VwaGFsZXhpbi5tZA",
+      "title": "Cephalexin",
+      "questionCount": 20
+    },
+    {
+      "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EZXNtb3ByZXNzaW4ubWQ",
+      "title": "Desmopressin",
+      "questionCount": 20
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUm9zdXZhc3RhdGluLm1k",
+      "title": "Rosuvastatin",
+      "questionCount": 19
+    },
+    {
+      "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvR2x1Y2Fnb24ubWQ",
+      "title": "Glucagon",
+      "questionCount": 19
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DbG9uYXplcGFtLm1k",
+      "title": "Clonazepam",
+      "questionCount": 19
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MYW1vdHJpZ2luZS5tZA",
+      "title": "Lamotrigine",
+      "questionCount": 18
+    },
+    {
+      "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0JldGFtZXRoYXNvbmUubWQ",
+      "title": "Betamethasone",
+      "questionCount": 18
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvVmFsc2FydGFuLm1k",
+      "title": "Valsartan",
+      "questionCount": 17
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Fc2NpdGFsb3ByYW0ubWQ",
+      "title": "Escitalopram",
+      "questionCount": 17
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvT25kYW5zZXRyb24ubWQ",
+      "title": "Ondansetron",
+      "questionCount": 17
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1N1bGZhc2FsYXppbmUubWQ",
+      "title": "Sulfasalazine",
+      "questionCount": 17
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9NZXRoaW1hem9sZS5tZA",
+      "title": "Methimazole",
+      "questionCount": 17
+    },
+    {
+      "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvU2FsbWV0ZXJvbC5tZA",
+      "title": "Salmeterol",
+      "questionCount": 17
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvVmFzb3ByZXNzaW4ubWQ",
+      "title": "Vasopressin",
+      "questionCount": 17
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2Vmb3RheGltZS5tZA",
+      "title": "Cefotaxime",
+      "questionCount": 16
+    },
+    {
+      "slug": "ZHJ1ZzoxMCDsooXslpEvVGFtb3hpZmVuLm1k",
+      "title": "Tamoxifen",
+      "questionCount": 16
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmZXBpbWUubWQ",
+      "title": "Cefepime",
+      "questionCount": 16
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQWRlbm9zaW5lLm1k",
+      "title": "Adenosine",
+      "questionCount": 15
+    },
+    {
+      "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvQnVkZXNvbmlkZS5tZA",
+      "title": "Budesonide",
+      "questionCount": 15
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9HYWJhcGVudGluLm1k",
+      "title": "Gabapentin",
+      "questionCount": 15
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Eb25lcGV6aWwubWQ",
+      "title": "Donepezil",
+      "questionCount": 15
+    },
+    {
+      "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9BbHRlcGxhc2UubWQ",
+      "title": "Alteplase",
+      "questionCount": 14
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRnVyb3NlbWlkZS5tZA",
+      "title": "Furosemide",
+      "questionCount": 14
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvRXRoYW1idXRvbC5tZA",
+      "title": "Ethambutol",
+      "questionCount": 14
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvUmFuaXRpZGluZS5tZA",
+      "title": "Ranitidine",
+      "questionCount": 14
+    },
+    {
+      "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWNldHlsY3lzdGVpbmUubWQ",
+      "title": "Acetylcysteine",
+      "questionCount": 14
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0luZmxpeGltYWIubWQ",
+      "title": "Infliximab",
+      "questionCount": 14
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WZW5sYWZheGluZS5tZA",
+      "title": "Venlafaxine",
+      "questionCount": 14
+    },
+    {
+      "slug": "ZHJ1ZzoxMCDsooXslpEvSW1hdGluaWIubWQ",
+      "title": "Imatinib",
+      "questionCount": 14
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRGlsdGlhemVtLm1k",
+      "title": "Diltiazem",
+      "questionCount": 13
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRmVub2ZpYnJhdGUubWQ",
+      "title": "Fenofibrate",
+      "questionCount": 13
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQmlzb3Byb2xvbC5tZA",
+      "title": "Bisoprolol",
+      "questionCount": 13
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9BbGVuZHJvbmF0ZS5tZA",
+      "title": "Alendronate",
+      "questionCount": 13
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9TZXJ0cmFsaW5lLm1k",
+      "title": "Sertraline",
+      "questionCount": 13
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQ2hsb3J0aGFsaWRvbmUubWQ",
+      "title": "Chlorthalidone",
+      "questionCount": 13
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MaXRoaXVtLm1k",
+      "title": "Lithium",
+      "questionCount": 13
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9DYXJiYW1hemVwaW5lLm1k",
+      "title": "Carbamazepine",
+      "questionCount": 13
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQXRlbm9sb2wubWQ",
+      "title": "Atenolol",
+      "questionCount": 12
+    },
+    {
+      "slug": "ZHJ1ZzoxMCDsooXslpEvQ2lzcGxhdGluLm1k",
+      "title": "Cisplatin",
+      "questionCount": 12
+    },
+    {
+      "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvVGhlb3BoeWxsaW5lLm1k",
+      "title": "Theophylline",
+      "questionCount": 12
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvTGFjdHVsb3NlLm1k",
+      "title": "Lactulose",
+      "questionCount": 12
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvR2FuY2ljbG92aXIubWQ",
+      "title": "Ganciclovir",
+      "questionCount": 12
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9PeHljb2RvbmUubWQ",
+      "title": "Oxycodone",
+      "questionCount": 12
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9Qcm9weWx0aGlvdXJhY2lsLm1k",
+      "title": "Propylthiouracil",
+      "questionCount": 12
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9Ub3BpcmFtYXRlLm1k",
+      "title": "Topiramate",
+      "questionCount": 12
+    },
+    {
+      "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0xpZG9jYWluZS5tZA",
+      "title": "Lidocaine",
+      "questionCount": 12
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRG9idXRhbWluZS5tZA",
+      "title": "Dobutamine",
+      "questionCount": 11
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQ2FwdG9wcmlsLm1k",
+      "title": "Captopril",
+      "questionCount": 11
+    },
+    {
+      "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9SaXZhcm94YWJhbi5tZA",
+      "title": "Rivaroxaban",
+      "questionCount": 11
+    },
+    {
+      "slug": "ZHJ1ZzoxMCDsooXslpEvRG94b3J1YmljaW4ubWQ",
+      "title": "Doxorubicin",
+      "questionCount": 11
+    },
+    {
+      "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xvcmF0YWRpbmUubWQ",
+      "title": "Loratadine",
+      "questionCount": 11
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmYXpvbGluLm1k",
+      "title": "Cefazolin",
+      "questionCount": 11
+    },
+    {
+      "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQWN0aXZhdGVkQ2hhcmNvYWwubWQ",
+      "title": "ActivatedCharcoal",
+      "questionCount": 11
+    },
+    {
+      "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldG9yb2xhYy5tZA",
+      "title": "Ketorolac",
+      "questionCount": 11
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluLm1k",
+      "title": "Insulin",
+      "questionCount": 11
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NZXRoeWxwaGVuaWRhdGUubWQ",
+      "title": "Methylphenidate",
+      "questionCount": 11
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NZW1hbnRpbmUubWQ",
+      "title": "Memantine",
+      "questionCount": 11
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQW1waG90ZXJpY2luQi5tZA",
+      "title": "AmphotericinB",
+      "questionCount": 11
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvTWlzb3Byb3N0b2wubWQ",
+      "title": "Misoprostol",
+      "questionCount": 11
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQ2lsb3N0YXpvbC5tZA",
+      "title": "Cilostazol",
+      "questionCount": 10
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvSHlkcmFsYXppbmUubWQ",
+      "title": "Hydralazine",
+      "questionCount": 10
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9EdWxveGV0aW5lLm1k",
+      "title": "Duloxetine",
+      "questionCount": 10
+    },
+    {
+      "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvTW9udGVsdWthc3QubWQ",
+      "title": "Montelukast",
+      "questionCount": 10
+    },
+    {
+      "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvU2FsYnV0YW1vbC5tZA",
+      "title": "Salbutamol",
+      "questionCount": 10
+    },
+    {
+      "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0h5ZHJvY29ydGlzb25lLm1k",
+      "title": "Hydrocortisone",
+      "questionCount": 10
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvTmFmY2lsbGluLm1k",
+      "title": "Nafcillin",
+      "questionCount": 10
+    },
+    {
+      "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9UcmFuZXhhbWljQWNpZC5tZA",
+      "title": "TranexamicAcid",
+      "questionCount": 10
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NaXJ0YXphcGluZS5tZA",
+      "title": "Mirtazapine",
+      "questionCount": 10
+    },
+    {
+      "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Fbm94YXBhcmluLm1k",
+      "title": "Enoxaparin",
+      "questionCount": 9
+    },
+    {
+      "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvVGlvdHJvcGl1bS5tZA",
+      "title": "Tiotropium",
+      "questionCount": 9
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRXpldGltaWJlLm1k",
+      "title": "Ezetimibe",
+      "questionCount": 9
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9ab2xwaWRlbS5tZA",
+      "title": "Zolpidem",
+      "questionCount": 9
+    },
+    {
+      "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0NldGlyaXppbmUubWQ",
+      "title": "Cetirizine",
+      "questionCount": 9
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BcmlwaXByYXpvbGUubWQ",
+      "title": "Aripiprazole",
+      "questionCount": 9
+    },
+    {
+      "slug": "ZHJ1ZzoxMCDsooXslpEvQ3ljbG9waG9zcGhhbWlkZS5tZA",
+      "title": "Cyclophosphamide",
+      "questionCount": 9
+    },
+    {
+      "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL1RpbW9sb2wubWQ",
+      "title": "Timolol",
+      "questionCount": 9
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvT3NlbHRhbWl2aXIubWQ",
+      "title": "Oseltamivir",
+      "questionCount": 8
+    },
+    {
+      "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvQ2FsY2l1bUdsdWNvbmF0ZS5tZA",
+      "title": "CalciumGluconate",
+      "questionCount": 8
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9OYWx0cmV4b25lLm1k",
+      "title": "Naltrexone",
+      "questionCount": 8
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdGF6aWRpbWUubWQ",
+      "title": "Ceftazidime",
+      "questionCount": 8
+    },
+    {
+      "slug": "ZHJ1ZzowNCDqsITri7Tst4wvTGFtaXZ1ZGluZS5tZA",
+      "title": "Lamivudine",
+      "questionCount": 8
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9MZXZldGlyYWNldGFtLm1k",
+      "title": "Levetiracetam",
+      "questionCount": 8
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUGhlbnlsZXBocmluZS5tZA",
+      "title": "Phenylephrine",
+      "questionCount": 7
+    },
+    {
+      "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvUG90YXNzaXVtQ2hsb3JpZGUubWQ",
+      "title": "PotassiumChloride",
+      "questionCount": 7
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvRXJ5dGhyb215Y2luLm1k",
+      "title": "Erythromycin",
+      "questionCount": 7
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvTWVzYWxhemluZS5tZA",
+      "title": "Mesalazine",
+      "questionCount": 7
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9HbGltZXBpcmlkZS5tZA",
+      "title": "Glimepiride",
+      "questionCount": 7
+    },
+    {
+      "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvQmVjbG9tZXRhc29uZS5tZA",
+      "title": "Beclometasone",
+      "questionCount": 7
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0NlbGVjb3hpYi5tZA",
+      "title": "Celecoxib",
+      "questionCount": 7
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRXNtb2xvbC5tZA",
+      "title": "Esmolol",
+      "questionCount": 6
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRXBsZXJlbm9uZS5tZA",
+      "title": "Eplerenone",
+      "questionCount": 6
+    },
+    {
+      "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9EYWJpZ2F0cmFuLm1k",
+      "title": "Dabigatran",
+      "questionCount": 6
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRmxlY2FpbmlkZS5tZA",
+      "title": "Flecainide",
+      "questionCount": 6
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvU3Bpcm9ub2xhY3RvbmUubWQ",
+      "title": "Spironolactone",
+      "questionCount": 6
+    },
+    {
+      "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvUm9mbHVtaWxhc3QubWQ",
+      "title": "Roflumilast",
+      "questionCount": 6
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9UcmFtYWRvbC5tZA",
+      "title": "Tramadol",
+      "questionCount": 6
+    },
+    {
+      "slug": "ZHJ1ZzowNiDruYTrh6jCt-yLoOyepS9UYW1zdWxvc2luLm1k",
+      "title": "Tamsulosin",
+      "questionCount": 6
+    },
+    {
+      "slug": "ZHJ1ZzowNCDqsITri7Tst4wvU29mb3NidXZpci5tZA",
+      "title": "Sofosbuvir",
+      "questionCount": 6
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9GZW50YW55bC5tZA",
+      "title": "Fentanyl",
+      "questionCount": 6
+    },
+    {
+      "slug": "ZHJ1ZzowNCDqsITri7Tst4wvVXJzb2Rlb3h5Y2hvbGljQWNpZC5tZA",
+      "title": "UrsodeoxycholicAcid",
+      "questionCount": 6
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9GbHVkcm9jb3J0aXNvbmUubWQ",
+      "title": "Fludrocortisone",
+      "questionCount": 6
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByZW5vcnBoaW5lLm1k",
+      "title": "Buprenorphine",
+      "questionCount": 6
+    },
+    {
+      "slug": "ZHJ1ZzoxNSDsoITtlbTsp4jCt-yYgeyWkcK364-F7ISxwrfquLDtg4AvRmx1bWF6ZW5pbC5tZA",
+      "title": "Flumazenil",
+      "questionCount": 6
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0V0YW5lcmNlcHQubWQ",
+      "title": "Etanercept",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvU2FjdWJpdHJpbC5tZA",
+      "title": "Sacubitril",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvU2ltdmFzdGF0aW4ubWQ",
+      "title": "Simvastatin",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUHJhdmFzdGF0aW4ubWQ",
+      "title": "Pravastatin",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzoxMCDsooXslpEvT3hhbGlwbGF0aW4ubWQ",
+      "title": "Oxaliplatin",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvVG9icmFteWNpbi5tZA",
+      "title": "Tobramycin",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQWxiZW5kYXpvbGUubWQ",
+      "title": "Albendazole",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9QaW9nbGl0YXpvbmUubWQ",
+      "title": "Pioglitazone",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvTml0cm9mdXJhbnRvaW4ubWQ",
+      "title": "Nitrofurantoin",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9SYWxveGlmZW5lLm1k",
+      "title": "Raloxifene",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmaXhpbWUubWQ",
+      "title": "Cefixime",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvTWVyb3BlbmVtLm1k",
+      "title": "Meropenem",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvTWV0b2Nsb3ByYW1pZGUubWQ",
+      "title": "Metoclopramide",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzoxMCDsooXslpEvVHJhc3R1enVtYWIubWQ",
+      "title": "Trastuzumab",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzoxMSDsgrDrtoDsnbjqs7zCt-yGjOyVhC9FdGhpbnlsZXN0cmFkaW9sLm1k",
+      "title": "Ethinylestradiol",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9WYWxwcm9hdGUubWQ",
+      "title": "Valproate",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BdG9tb3hldGluZS5tZA",
+      "title": "Atomoxetine",
+      "questionCount": 5
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQmVuenlscGVuaWNpbGxpbi5tZA",
+      "title": "Benzylpenicillin",
+      "questionCount": 4
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ29saXN0aW4ubWQ",
+      "title": "Colistin",
+      "questionCount": 4
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2FzcG9mdW5naW4ubWQ",
+      "title": "Caspofungin",
+      "questionCount": 4
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvTWlub2N5Y2xpbmUubWQ",
+      "title": "Minocycline",
+      "questionCount": 4
+    },
+    {
+      "slug": "ZHJ1ZzowNCDqsITri7Tst4wvRW50ZWNhdmlyLm1k",
+      "title": "Entecavir",
+      "questionCount": 4
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvTGFuc29wcmF6b2xlLm1k",
+      "title": "Lansoprazole",
+      "questionCount": 4
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluR2xhcmdpbmUubWQ",
+      "title": "InsulinGlargine",
+      "questionCount": 4
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvUHJhemlxdWFudGVsLm1k",
+      "title": "Praziquantel",
+      "questionCount": 4
+    },
+    {
+      "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Byb3BvZm9sLm1k",
+      "title": "Propofol",
+      "questionCount": 4
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvSXZlcm1lY3Rpbi5tZA",
+      "title": "Ivermectin",
+      "questionCount": 4
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9NaWRhem9sYW0ubWQ",
+      "title": "Midazolam",
+      "questionCount": 4
+    },
+    {
+      "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Gb25kYXBhcmludXgubWQ",
+      "title": "Fondaparinux",
+      "questionCount": 4
+    },
+    {
+      "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9TdHJlcHRva2luYXNlLm1k",
+      "title": "Streptokinase",
+      "questionCount": 4
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvSXNvc29yYmlkZU1vbm9uaXRyYXRlLm1k",
+      "title": "IsosorbideMononitrate",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRm9zaW5vcHJpbC5tZA",
+      "title": "Fosinopril",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRGlweXJpZGFtb2xlLm1k",
+      "title": "Dipyridamole",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvSXZhYnJhZGluZS5tZA",
+      "title": "Ivabradine",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL09tYWxpenVtYWIubWQ",
+      "title": "Omalizumab",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvU3VjcmFsZmF0ZS5tZA",
+      "title": "Sucralfate",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL01vbWV0YXNvbmUubWQ",
+      "title": "Mometasone",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvRm9zZm9teWNpbi5tZA",
+      "title": "Fosfomycin",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9BY2FyYm9zZS5tZA",
+      "title": "Acarbose",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzoxMCDsooXslpEvTGV0cm96b2xlLm1k",
+      "title": "Letrozole",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9SZXBhZ2xpbmlkZS5tZA",
+      "title": "Repaglinide",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QYXJhY2V0YW1vbC5tZA",
+      "title": "Paracetamol",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0xlZmx1bm9taWRlLm1k",
+      "title": "Leflunomide",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0FkYWxpbXVtYWIubWQ",
+      "title": "Adalimumab",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9TdW1hdHJpcHRhbi5tZA",
+      "title": "Sumatriptan",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9GaWxncmFzdGltLm1k",
+      "title": "Filgrastim",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzoxMCDsooXslpEvUGFjbGl0YXhlbC5tZA",
+      "title": "Paclitaxel",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2Vmb3hpdGluLm1k",
+      "title": "Cefoxitin",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9BcGl4YWJhbi5tZA",
+      "title": "Apixaban",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzoxMCDsooXslpEvQmV2YWNpenVtYWIubWQ",
+      "title": "Bevacizumab",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0tldGFtaW5lLm1k",
+      "title": "Ketamine",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvVGVyYmluYWZpbmUubWQ",
+      "title": "Terbinafine",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowNiDruYTrh6jCt-yLoOyepS9GaW5hc3RlcmlkZS5tZA",
+      "title": "Finasteride",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9Pcmxpc3RhdC5tZA",
+      "title": "Orlistat",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1RvY2lsaXp1bWFiLm1k",
+      "title": "Tocilizumab",
+      "questionCount": 3
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQWxpc2tpcmVuLm1k",
+      "title": "Aliskiren",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUmFub2xhemluZS5tZA",
+      "title": "Ranolazine",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTmljYXJkaXBpbmUubWQ",
+      "title": "Nicardipine",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvU290YWxvbC5tZA",
+      "title": "Sotalol",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvRXJ0YXBlbmVtLm1k",
+      "title": "Ertapenem",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvTW94aWZsb3hhY2luLm1k",
+      "title": "Moxifloxacin",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvUmFiZXByYXpvbGUubWQ",
+      "title": "Rabeprazole",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvUml0b25hdmlyLm1k",
+      "title": "Ritonavir",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQ2FuZGVzYXJ0YW4ubWQ",
+      "title": "Candesartan",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9HbGljbGF6aWRlLm1k",
+      "title": "Gliclazide",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9QcmVnYWJhbGluLm1k",
+      "title": "Pregabalin",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvTG9wZXJhbWlkZS5tZA",
+      "title": "Loperamide",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluQXNwYXJ0Lm1k",
+      "title": "InsulinAspart",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowNiDruYTrh6jCt-yLoOyepS9BbGZ1em9zaW4ubWQ",
+      "title": "Alfuzosin",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRmx1dmFzdGF0aW4ubWQ",
+      "title": "Fluvastatin",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0xhdGFub3Byb3N0Lm1k",
+      "title": "Latanoprost",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvRGFwdG9teWNpbi5tZA",
+      "title": "Daptomycin",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvRmlkYXhvbWljaW4ubWQ",
+      "title": "Fidaxomicin",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvVmFsYWN5Y2xvdmlyLm1k",
+      "title": "Valacyclovir",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvVm9yaWNvbmF6b2xlLm1k",
+      "title": "Voriconazole",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvT3hhY2lsbGluLm1k",
+      "title": "Oxacillin",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQXp0cmVvbmFtLm1k",
+      "title": "Aztreonam",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL0ZlYnV4b3N0YXQubWQ",
+      "title": "Febuxostat",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2VmdXJveGltZS5tZA",
+      "title": "Cefuroxime",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2Vmb3RldGFuLm1k",
+      "title": "Cefotetan",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTG92YXN0YXRpbi5tZA",
+      "title": "Lovastatin",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvVHJpbWV0aG9wcmltU3VsZmFtZXRob3hhem9sZS5tZA",
+      "title": "TrimethoprimSulfamethoxazole",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0RleG1lZGV0b21pZGluZS5tZA",
+      "title": "Dexmedetomidine",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvRmFtb3RpZGluZS5tZA",
+      "title": "Famotidine",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvU2FjdWJpdHJpbFZhbHNhcnRhbi5tZA",
+      "title": "SacubitrilValsartan",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcGFmZW5vbmUubWQ",
+      "title": "Propafenone",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvVGljYWdyZWxvci5tZA",
+      "title": "Ticagrelor",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvTWV0b2xhem9uZS5tZA",
+      "title": "Metolazone",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvQnVkZXNvbmlkZUZvcm1vdGVyb2wubWQ",
+      "title": "BudesonideFormoterol",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvSW5kYWNhdGVyb2wubWQ",
+      "title": "Indacaterol",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvR3JhbmlzZXRyb24ubWQ",
+      "title": "Granisetron",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvVGVub2ZvdmlyQWxhZmVuYW1pZGUubWQ",
+      "title": "TenofovirAlafenamide",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowNCDqsITri7Tst4wvTGVkaXBhc3ZpclNvZm9zYnV2aXIubWQ",
+      "title": "LedipasvirSofosbuvir",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9TZW1hZ2x1dGlkZS5tZA",
+      "title": "Semaglutide",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9EYXBhZ2xpZmxvemluLm1k",
+      "title": "Dapagliflozin",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluRGVnbHVkZWMubWQ",
+      "title": "InsulinDegludec",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowNyDrqbTsl63Ct-yXvOymncK366WY66eI7Yuw7IqkL1VwYWRhY2l0aW5pYi5tZA",
+      "title": "Upadacitinib",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvVmFsZ2FuY2ljbG92aXIubWQ",
+      "title": "Valganciclovir",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvUGlwZXJhY2lsbGluVGF6b2JhY3RhbS5tZA",
+      "title": "PiperacillinTazobactam",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvVGlnZWN5Y2xpbmUubWQ",
+      "title": "Tigecycline",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzoxMCDsooXslpEvT3NpbWVydGluaWIubWQ",
+      "title": "Osimertinib",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9CdXByZW5vcnBoaW5lTmFsb3hvbmUubWQ",
+      "title": "BuprenorphineNaloxone",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1Nldm9mbHVyYW5lLm1k",
+      "title": "Sevoflurane",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL1JvY3Vyb25pdW0ubWQ",
+      "title": "Rocuronium",
+      "questionCount": 2
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRXRoYWNyeW5pY0FjaWQubWQ",
+      "title": "EthacrynicAcid",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUGl0YXZhc3RhdGluLm1k",
+      "title": "Pitavastatin",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUHJhc3VncmVsLm1k",
+      "title": "Prasugrel",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9MaXJhZ2x1dGlkZS5tZA",
+      "title": "Liraglutide",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRXZvbG9jdW1hYi5tZA",
+      "title": "Evolocumab",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvRXNvbWVwcmF6b2xlLm1k",
+      "title": "Esomeprazole",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9FbXBhZ2xpZmxvemluLm1k",
+      "title": "Empagliflozin",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9JbnN1bGluTGlzcHJvLm1k",
+      "title": "InsulinLispro",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvUHlyYXppbmFtaWRlLm1k",
+      "title": "Pyrazinamide",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvRmVsb2RpcGluZS5tZA",
+      "title": "Felodipine",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvUGVyaW5kb3ByaWwubWQ",
+      "title": "Perindopril",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvRmx1Y2xveGFjaWxsaW4ubWQ",
+      "title": "Flucloxacillin",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvTWljYWZ1bmdpbi5tZA",
+      "title": "Micafungin",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzoxMCDsooXslpEvQ2FyYm9wbGF0aW4ubWQ",
+      "title": "Carboplatin",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQW1veGljaWxsaW5DbGF2dWxhbmF0ZS5tZA",
+      "title": "AmoxicillinClavulanate",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzoxMiDsi6Dqsr3Ct-ygleyLoC9BY2FtcHJvc2F0ZS5tZA",
+      "title": "Acamprosate",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvVmlsYW50ZXJvbC5tZA",
+      "title": "Vilanterol",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowMSDsi6ztmIjqs4QvQWxpcm9jdW1hYi5tZA",
+      "title": "Alirocumab",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowMiDtmLjtnaHquLAvRm9ybW90ZXJvbC5tZA",
+      "title": "Formoterol",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvTWFjcm9nb2wubWQ",
+      "title": "Macrogol",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowMyDshoztmZTquLAvQmlzYWNvZHlsLm1k",
+      "title": "Bisacodyl",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9DYW5hZ2xpZmxvemluLm1k",
+      "title": "Canagliflozin",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvSW1pcGVuZW1DaWxhc3RhdGluLm1k",
+      "title": "ImipenemCilastatin",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvVGVkaXpvbGlkLm1k",
+      "title": "Tedizolid",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvTWVyb3BlbmVtVmFib3JiYWN0YW0ubWQ",
+      "title": "MeropenemVaborbactam",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQ2Vmb3BlcmF6b25lU3VsYmFjdGFtLm1k",
+      "title": "CefoperazoneSulbactam",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowOCDqsJDsl7wvQXJ0ZW1ldGhlckx1bWVmYW50cmluZS5tZA",
+      "title": "ArtemetherLumefantrine",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9FcG9ldGluQWxmYS5tZA",
+      "title": "EpoetinAlfa",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9Jcm9uU3Vjcm9zZS5tZA",
+      "title": "IronSucrose",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzoxMCDsooXslpEvTml2b2x1bWFiLm1k",
+      "title": "Nivolumab",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzoxMyDslYjqs7zCt-ydtOu5hOyduO2bhMK37ZS867aAL0ZsdXRpY2Fzb25lUHJvcGlvbmF0ZS5tZA",
+      "title": "FluticasonePropionate",
+      "questionCount": 1
+    },
+    {
+      "slug": "ZHJ1ZzoxNCDqt7zqs6jqsqnCt-2GteymncK366eI7LeoL0JhY2xvZmVuLm1k",
+      "title": "Baclofen",
+      "questionCount": 1
+    }
+  ],
+  "matchedTerms": [
+    {
+      "term": "아스피린",
+      "questionCount": 255
+    },
+    {
+      "term": "리시노프릴",
+      "questionCount": 208
+    },
+    {
+      "term": "이부프로펜",
+      "questionCount": 153
+    },
+    {
+      "term": "아토르바스타틴",
+      "questionCount": 148
+    },
+    {
+      "term": "히드로클로로티아지드",
+      "questionCount": 117
+    },
+    {
+      "term": "메토프롤롤",
+      "questionCount": 106
+    },
+    {
+      "term": "세프트리악손",
+      "questionCount": 102
+    },
+    {
+      "term": "도파민",
+      "questionCount": 95
+    },
+    {
+      "term": "에날라프릴",
+      "questionCount": 89
+    },
+    {
+      "term": "와파린",
+      "questionCount": 85
+    },
+    {
+      "term": "헤파린",
+      "questionCount": 79
+    },
+    {
+      "term": "아목시실린",
+      "questionCount": 77
+    },
+    {
+      "term": "암로디핀",
+      "questionCount": 75
+    },
+    {
+      "term": "반코마이신",
+      "questionCount": 75
+    },
+    {
+      "term": "플루옥세틴",
+      "questionCount": 66
+    },
+    {
+      "term": "메토트렉세이트",
+      "questionCount": 66
+    },
+    {
+      "term": "오메프라졸",
+      "questionCount": 60
+    },
+    {
+      "term": "레보티록신",
+      "questionCount": 59
+    },
+    {
+      "term": "프로프라놀롤",
+      "questionCount": 56
+    },
+    {
+      "term": "에피네프린",
+      "questionCount": 56
+    },
+    {
+      "term": "메트로니다졸",
+      "questionCount": 56
+    },
+    {
+      "term": "프레드니솔론",
+      "questionCount": 55
+    },
+    {
+      "term": "할로페리돌",
+      "questionCount": 54
+    },
+    {
+      "term": "트리메토프림",
+      "questionCount": 52
+    },
+    {
+      "term": "아시클로버",
+      "questionCount": 52
+    },
+    {
+      "term": "모르핀",
+      "questionCount": 51
+    },
+    {
+      "term": "설파메톡사졸",
+      "questionCount": 51
+    },
+    {
+      "term": "노르에피네프린",
+      "questionCount": 49
+    },
+    {
+      "term": "독시사이클린",
+      "questionCount": 48
+    },
+    {
+      "term": "시프로플록사신",
+      "questionCount": 48
+    },
+    {
+      "term": "덱사메타손",
+      "questionCount": 46
+    },
+    {
+      "term": "metformin",
+      "questionCount": 44
+    },
+    {
+      "term": "클린다마이신",
+      "questionCount": 36
+    },
+    {
+      "term": "테스토스테론",
+      "questionCount": 36
+    },
+    {
+      "term": "니트로글리세린",
+      "questionCount": 35
+    },
+    {
+      "term": "레보플록사신",
+      "questionCount": 35
+    },
+    {
+      "term": "아지스로마이신",
+      "questionCount": 35
+    },
+    {
+      "term": "암피실린",
+      "questionCount": 35
+    },
+    {
+      "term": "플루티카손",
+      "questionCount": 34
+    },
+    {
+      "term": "로라제팜",
+      "questionCount": 34
+    },
+    {
+      "term": "겐타마이신",
+      "questionCount": 34
+    },
+    {
+      "term": "클로피도그렐",
+      "questionCount": 33
+    },
+    {
+      "term": "나프록센",
+      "questionCount": 32
+    },
+    {
+      "term": "아미트립틸린",
+      "questionCount": 31
+    },
+    {
+      "term": "lisinopril",
+      "questionCount": 30
+    },
+    {
+      "term": "디아제팜",
+      "questionCount": 28
+    },
+    {
+      "term": "판토프라졸",
+      "questionCount": 28
+    },
+    {
+      "term": "플루코나졸",
+      "questionCount": 28
+    },
+    {
+      "term": "황산마그네슘",
+      "questionCount": 26
+    },
+    {
+      "term": "페니토인",
+      "questionCount": 26
+    },
+    {
+      "term": "디곡신",
+      "questionCount": 25
+    },
+    {
+      "term": "로사르탄",
+      "questionCount": 24
+    },
+    {
+      "term": "시타글립틴",
+      "questionCount": 24
+    },
+    {
+      "term": "알프라졸람",
+      "questionCount": 24
+    },
+    {
+      "term": "리스페리돈",
+      "questionCount": 24
+    },
+    {
+      "term": "아미오다론",
+      "questionCount": 23
+    },
+    {
+      "term": "라미프릴",
+      "questionCount": 23
+    },
+    {
+      "term": "이소니아지드",
+      "questionCount": 23
+    },
+    {
+      "term": "베라파밀",
+      "questionCount": 22
+    },
+    {
+      "term": "리팜핀",
+      "questionCount": 22
+    },
+    {
+      "term": "부프로피온",
+      "questionCount": 21
+    },
+    {
+      "term": "클로로퀸",
+      "questionCount": 21
+    },
+    {
+      "term": "옥시토신",
+      "questionCount": 21
+    },
+    {
+      "term": "콜히친",
+      "questionCount": 20
+    },
+    {
+      "term": "hydrochlorothiazide",
+      "questionCount": 20
+    },
+    {
+      "term": "이프라트로피움",
+      "questionCount": 20
+    },
+    {
+      "term": "레보도파",
+      "questionCount": 20
+    },
+    {
+      "term": "클로자핀",
+      "questionCount": 20
+    },
+    {
+      "term": "라베타롤",
+      "questionCount": 19
+    },
+    {
+      "term": "니페디핀",
+      "questionCount": 19
+    },
+    {
+      "term": "날록손",
+      "questionCount": 19
+    },
+    {
+      "term": "세팔렉신",
+      "questionCount": 19
+    },
+    {
+      "term": "올란자핀",
+      "questionCount": 19
+    },
+    {
+      "term": "enalapril",
+      "questionCount": 18
+    },
+    {
+      "term": "글루카곤",
+      "questionCount": 18
+    },
+    {
+      "term": "클로나제팜",
+      "questionCount": 18
+    },
+    {
+      "term": "알로푸리놀",
+      "questionCount": 18
+    },
+    {
+      "term": "데스모프레신",
+      "questionCount": 18
+    },
+    {
+      "term": "리툭시맙",
+      "questionCount": 18
+    },
+    {
+      "term": "로수바스타틴",
+      "questionCount": 17
+    },
+    {
+      "term": "atorvastatin",
+      "questionCount": 17
+    },
+    {
+      "term": "ibuprofen",
+      "questionCount": 17
+    },
+    {
+      "term": "메티마졸",
+      "questionCount": 17
+    },
+    {
+      "term": "살메테롤",
+      "questionCount": 17
+    },
+    {
+      "term": "베타메타손",
+      "questionCount": 17
+    },
+    {
+      "term": "세포탁심",
+      "questionCount": 16
+    },
+    {
+      "term": "세페핌",
+      "questionCount": 16
+    },
+    {
+      "term": "발사르탄",
+      "questionCount": 15
+    },
+    {
+      "term": "온단세트론",
+      "questionCount": 15
+    },
+    {
+      "term": "아데노신",
+      "questionCount": 15
+    },
+    {
+      "term": "설파살라진",
+      "questionCount": 15
+    },
+    {
+      "term": "에스시탈로프람",
+      "questionCount": 14
+    },
+    {
+      "term": "타목시펜",
+      "questionCount": 14
+    },
+    {
+      "term": "라니티딘",
+      "questionCount": 14
+    },
+    {
+      "term": "아세틸시스테인",
+      "questionCount": 14
+    },
+    {
+      "term": "가바펜틴",
+      "questionCount": 14
+    },
+    {
+      "term": "딜티아젬",
+      "questionCount": 13
+    },
+    {
+      "term": "알테플라제",
+      "questionCount": 13
+    },
+    {
+      "term": "라모트리진",
+      "questionCount": 13
+    },
+    {
+      "term": "에탐부톨",
+      "questionCount": 13
+    },
+    {
+      "term": "ceftriaxone",
+      "questionCount": 13
+    },
+    {
+      "term": "부데소니드",
+      "questionCount": 13
+    },
+    {
+      "term": "omeprazole",
+      "questionCount": 13
+    },
+    {
+      "term": "클로르탈리돈",
+      "questionCount": 13
+    },
+    {
+      "term": "바소프레신",
+      "questionCount": 13
+    },
+    {
+      "term": "아테놀롤",
+      "questionCount": 12
+    },
+    {
+      "term": "aspirin",
+      "questionCount": 12
+    },
+    {
+      "term": "비소프롤롤",
+      "questionCount": 12
+    },
+    {
+      "term": "알렌드로네이트",
+      "questionCount": 12
+    },
+    {
+      "term": "프로필티오우라실",
+      "questionCount": 12
+    },
+    {
+      "term": "벤라팍신",
+      "questionCount": 12
+    },
+    {
+      "term": "도네페질",
+      "questionCount": 12
+    },
+    {
+      "term": "로라타딘",
+      "questionCount": 11
+    },
+    {
+      "term": "세파졸린",
+      "questionCount": 11
+    },
+    {
+      "term": "테오필린",
+      "questionCount": 11
+    },
+    {
+      "term": "활성탄",
+      "questionCount": 11
+    },
+    {
+      "term": "간시클로버",
+      "questionCount": 11
+    },
+    {
+      "term": "옥시코돈",
+      "questionCount": 11
+    },
+    {
+      "term": "토피라메이트",
+      "questionCount": 11
+    },
+    {
+      "term": "메틸페니데이트",
+      "questionCount": 11
+    },
+    {
+      "term": "Methotrexate",
+      "questionCount": 11
+    },
+    {
+      "term": "이마티닙",
+      "questionCount": 11
+    },
+    {
+      "term": "amlodipine",
+      "questionCount": 10
+    },
+    {
+      "term": "리바록사반",
+      "questionCount": 10
+    },
+    {
+      "term": "케토롤락",
+      "questionCount": 10
+    },
+    {
+      "term": "나프실린",
+      "questionCount": 10
+    },
+    {
+      "term": "암포테리신 B",
+      "questionCount": 10
+    },
+    {
+      "term": "미소프로스톨",
+      "questionCount": 10
+    },
+    {
+      "term": "리도카인",
+      "questionCount": 10
+    },
+    {
+      "term": "도부타민",
+      "questionCount": 9
+    },
+    {
+      "term": "실로스타졸",
+      "questionCount": 9
+    },
+    {
+      "term": "Propranolol",
+      "questionCount": 9
+    },
+    {
+      "term": "티오트로피움",
+      "questionCount": 9
+    },
+    {
+      "term": "시스플라틴",
+      "questionCount": 9
+    },
+    {
+      "term": "세티리진",
+      "questionCount": 9
+    },
+    {
+      "term": "락툴로오스",
+      "questionCount": 9
+    },
+    {
+      "term": "metronidazole",
+      "questionCount": 9
+    },
+    {
+      "term": "세르트랄린",
+      "questionCount": 9
+    },
+    {
+      "term": "인플릭시맙",
+      "questionCount": 9
+    },
+    {
+      "term": "히드로코르티손",
+      "questionCount": 9
+    },
+    {
+      "term": "아리피프라졸",
+      "questionCount": 9
+    },
+    {
+      "term": "카르바마제핀",
+      "questionCount": 9
+    },
+    {
+      "term": "메만틴",
+      "questionCount": 9
+    },
+    {
+      "term": "Vancomycin",
+      "questionCount": 9
+    },
+    {
+      "term": "트라넥삼산",
+      "questionCount": 9
+    },
+    {
+      "term": "티몰롤",
+      "questionCount": 9
+    },
+    {
+      "term": "페노피브레이트",
+      "questionCount": 8
+    },
+    {
+      "term": "furosemide",
+      "questionCount": 8
+    },
+    {
+      "term": "azithromycin",
+      "questionCount": 8
+    },
+    {
+      "term": "독소루비신",
+      "questionCount": 8
+    },
+    {
+      "term": "몬테루카스트",
+      "questionCount": 8
+    },
+    {
+      "term": "sulfamethoxazole",
+      "questionCount": 8
+    },
+    {
+      "term": "졸피뎀",
+      "questionCount": 8
+    },
+    {
+      "term": "Lithium",
+      "questionCount": 8
+    },
+    {
+      "term": "날트렉손",
+      "questionCount": 8
+    },
+    {
+      "term": "세프타지딤",
+      "questionCount": 8
+    },
+    {
+      "term": "trimethoprim",
+      "questionCount": 8
+    },
+    {
+      "term": "Haloperidol",
+      "questionCount": 8
+    },
+    {
+      "term": "미르타자핀",
+      "questionCount": 8
+    },
+    {
+      "term": "에녹사파린",
+      "questionCount": 7
+    },
+    {
+      "term": "propranolol",
+      "questionCount": 7
+    },
+    {
+      "term": "Furosemide",
+      "questionCount": 7
+    },
+    {
+      "term": "하이드랄라진",
+      "questionCount": 7
+    },
+    {
+      "term": "글리메피리드",
+      "questionCount": 7
+    },
+    {
+      "term": "베클로메타손",
+      "questionCount": 7
+    },
+    {
+      "term": "Amoxicillin",
+      "questionCount": 7
+    },
+    {
+      "term": "오셀타미비르",
+      "questionCount": 7
+    },
+    {
+      "term": "살부타몰",
+      "questionCount": 7
+    },
+    {
+      "term": "insulin",
+      "questionCount": 7
+    },
+    {
+      "term": "amoxicillin",
+      "questionCount": 7
+    },
+    {
+      "term": "라미부딘",
+      "questionCount": 7
+    },
+    {
+      "term": "레베티라세탐",
+      "questionCount": 7
+    },
+    {
+      "term": "Heparin",
+      "questionCount": 7
+    },
+    {
+      "term": "에스몰롤",
+      "questionCount": 6
+    },
+    {
+      "term": "Ibuprofen",
+      "questionCount": 6
+    },
+    {
+      "term": "에플레레논",
+      "questionCount": 6
+    },
+    {
+      "term": "염화칼륨",
+      "questionCount": 6
+    },
+    {
+      "term": "둘록세틴",
+      "questionCount": 6
+    },
+    {
+      "term": "Trimethoprim",
+      "questionCount": 6
+    },
+    {
+      "term": "ciprofloxacin",
+      "questionCount": 6
+    },
+    {
+      "term": "naproxen",
+      "questionCount": 6
+    },
+    {
+      "term": "sitagliptin",
+      "questionCount": 6
+    },
+    {
+      "term": "Ciprofloxacin",
+      "questionCount": 6
+    },
+    {
+      "term": "펜타닐",
+      "questionCount": 6
+    },
+    {
+      "term": "플루드로코르티손",
+      "questionCount": 6
+    },
+    {
+      "term": "methotrexate",
+      "questionCount": 6
+    },
+    {
+      "term": "lithium",
+      "questionCount": 6
+    },
+    {
+      "term": "Allopurinol",
+      "questionCount": 6
+    },
+    {
+      "term": "Bupropion",
+      "questionCount": 6
+    },
+    {
+      "term": "에타너셉트",
+      "questionCount": 5
+    },
+    {
+      "term": "warfarin",
+      "questionCount": 5
+    },
+    {
+      "term": "nitroglycerin",
+      "questionCount": 5
+    },
+    {
+      "term": "captopril",
+      "questionCount": 5
+    },
+    {
+      "term": "metoprolol",
+      "questionCount": 5
+    },
+    {
+      "term": "simvastatin",
+      "questionCount": 5
+    },
+    {
+      "term": "카프토프릴",
+      "questionCount": 5
+    },
+    {
+      "term": "에제티미브",
+      "questionCount": 5
+    },
+    {
+      "term": "옥살리플라틴",
+      "questionCount": 5
+    },
+    {
+      "term": "로플루밀라스트",
+      "questionCount": 5
+    },
+    {
+      "term": "트라마돌",
+      "questionCount": 5
+    },
+    {
+      "term": "소포스부비르",
+      "questionCount": 5
+    },
+    {
+      "term": "vancomycin",
+      "questionCount": 5
+    },
+    {
+      "term": "우르소데옥시콜산",
+      "questionCount": 5
+    },
+    {
+      "term": "알벤다졸",
+      "questionCount": 5
+    },
+    {
+      "term": "글루콘산칼슘",
+      "questionCount": 5
+    },
+    {
+      "term": "랄록시펜",
+      "questionCount": 5
+    },
+    {
+      "term": "Enalapril",
+      "questionCount": 5
+    },
+    {
+      "term": "세픽심",
+      "questionCount": 5
+    },
+    {
+      "term": "셀레콕시브",
+      "questionCount": 5
+    },
+    {
+      "term": "Azithromycin",
+      "questionCount": 5
+    },
+    {
+      "term": "Ceftriaxone",
+      "questionCount": 5
+    },
+    {
+      "term": "에리스로마이신",
+      "questionCount": 5
+    },
+    {
+      "term": "doxycycline",
+      "questionCount": 5
+    },
+    {
+      "term": "페닐에프린",
+      "questionCount": 5
+    },
+    {
+      "term": "Fluconazole",
+      "questionCount": 5
+    },
+    {
+      "term": "Buprenorphine",
+      "questionCount": 5
+    },
+    {
+      "term": "플루마제닐",
+      "questionCount": 5
+    },
+    {
+      "term": "Testosterone",
+      "questionCount": 5
+    },
+    {
+      "term": "Cyclophosphamide",
+      "questionCount": 5
+    },
+    {
+      "term": "escitalopram",
+      "questionCount": 4
+    },
+    {
+      "term": "Warfarin",
+      "questionCount": 4
+    },
+    {
+      "term": "Metoprolol",
+      "questionCount": 4
+    },
+    {
+      "term": "ezetimibe",
+      "questionCount": 4
+    },
+    {
+      "term": "Amiodarone",
+      "questionCount": 4
+    },
+    {
+      "term": "프라바스타틴",
+      "questionCount": 4
+    },
+    {
+      "term": "다비가트란",
+      "questionCount": 4
+    },
+    {
+      "term": "플레카이니드",
+      "questionCount": 4
+    },
+    {
+      "term": "토브라마이신",
+      "questionCount": 4
+    },
+    {
+      "term": "미노사이클린",
+      "questionCount": 4
+    },
+    {
+      "term": "란소프라졸",
+      "questionCount": 4
+    },
+    {
+      "term": "피오글리타존",
+      "questionCount": 4
+    },
+    {
+      "term": "clozapine",
+      "questionCount": 4
+    },
+    {
+      "term": "인슐린 글라진",
+      "questionCount": 4
+    },
+    {
+      "term": "rituximab",
+      "questionCount": 4
+    },
+    {
+      "term": "Insulin",
+      "questionCount": 4
+    },
+    {
+      "term": "isoniazid",
+      "questionCount": 4
+    },
+    {
+      "term": "Rifampin",
+      "questionCount": 4
+    },
+    {
+      "term": "Aspirin",
+      "questionCount": 4
+    },
+    {
+      "term": "Acyclovir",
+      "questionCount": 4
+    },
+    {
+      "term": "cyclophosphamide",
+      "questionCount": 4
+    },
+    {
+      "term": "sertraline",
+      "questionCount": 4
+    },
+    {
+      "term": "vasopressin",
+      "questionCount": 4
+    },
+    {
+      "term": "erythromycin",
+      "questionCount": 4
+    },
+    {
+      "term": "트라스투주맙",
+      "questionCount": 4
+    },
+    {
+      "term": "에티닐에스트라디올",
+      "questionCount": 4
+    },
+    {
+      "term": "이버멕틴",
+      "questionCount": 4
+    },
+    {
+      "term": "Phenytoin",
+      "questionCount": 4
+    },
+    {
+      "term": "Lamotrigine",
+      "questionCount": 4
+    },
+    {
+      "term": "Fluoxetine",
+      "questionCount": 4
+    },
+    {
+      "term": "lorazepam",
+      "questionCount": 4
+    },
+    {
+      "term": "Dopamine",
+      "questionCount": 4
+    },
+    {
+      "term": "Diazepam",
+      "questionCount": 4
+    },
+    {
+      "term": "Levodopa",
+      "questionCount": 4
+    },
+    {
+      "term": "Morphine",
+      "questionCount": 4
+    },
+    {
+      "term": "미다졸람",
+      "questionCount": 4
+    },
+    {
+      "term": "Metformin",
+      "questionCount": 4
+    },
+    {
+      "term": "Sacubitril",
+      "questionCount": 4
+    },
+    {
+      "term": "Duloxetine",
+      "questionCount": 4
+    },
+    {
+      "term": "Infliximab",
+      "questionCount": 4
+    },
+    {
+      "term": "사쿠비트릴",
+      "questionCount": 3
+    },
+    {
+      "term": "fluticasone",
+      "questionCount": 3
+    },
+    {
+      "term": "fenofibrate",
+      "questionCount": 3
+    },
+    {
+      "term": "Levofloxacin",
+      "questionCount": 3
+    },
+    {
+      "term": "Verapamil",
+      "questionCount": 3
+    },
+    {
+      "term": "Nitroglycerin",
+      "questionCount": 3
+    },
+    {
+      "term": "Hydralazine",
+      "questionCount": 3
+    },
+    {
+      "term": "Losartan",
+      "questionCount": 3
+    },
+    {
+      "term": "labetalol",
+      "questionCount": 3
+    },
+    {
+      "term": "Erythromycin",
+      "questionCount": 3
+    },
+    {
+      "term": "Ezetimibe",
+      "questionCount": 3
+    },
+    {
+      "term": "Fenofibrate",
+      "questionCount": 3
+    },
+    {
+      "term": "포시노프릴",
+      "questionCount": 3
+    },
+    {
+      "term": "디피리다몰",
+      "questionCount": 3
+    },
+    {
+      "term": "메살라진",
+      "questionCount": 3
+    },
+    {
+      "term": "스피로노락톤",
+      "questionCount": 3
+    },
+    {
+      "term": "콜리스틴",
+      "questionCount": 3
+    },
+    {
+      "term": "Cisplatin",
+      "questionCount": 3
+    },
+    {
+      "term": "모메타손",
+      "questionCount": 3
+    },
+    {
+      "term": "탐술로신",
+      "questionCount": 3
+    },
+    {
+      "term": "tamsulosin",
+      "questionCount": 3
+    },
+    {
+      "term": "포스포마이신",
+      "questionCount": 3
+    },
+    {
+      "term": "Topiramate",
+      "questionCount": 3
+    },
+    {
+      "term": "Pioglitazone",
+      "questionCount": 3
+    },
+    {
+      "term": "Acarbose",
+      "questionCount": 3
+    },
+    {
+      "term": "nitrofurantoin",
+      "questionCount": 3
+    },
+    {
+      "term": "레파글리니드",
+      "questionCount": 3
+    },
+    {
+      "term": "rifampin",
+      "questionCount": 3
+    },
+    {
+      "term": "Colchicine",
+      "questionCount": 3
+    },
+    {
+      "term": "allopurinol",
+      "questionCount": 3
+    },
+    {
+      "term": "nifedipine",
+      "questionCount": 3
+    },
+    {
+      "term": "레플루노마이드",
+      "questionCount": 3
+    },
+    {
+      "term": "아달리무맙",
+      "questionCount": 3
+    },
+    {
+      "term": "메로페넴",
+      "questionCount": 3
+    },
+    {
+      "term": "phenytoin",
+      "questionCount": 3
+    },
+    {
+      "term": "Metoclopramide",
+      "questionCount": 3
+    },
+    {
+      "term": "Sumatriptan",
+      "questionCount": 3
+    },
+    {
+      "term": "Metronidazole",
+      "questionCount": 3
+    },
+    {
+      "term": "Clindamycin",
+      "questionCount": 3
+    },
+    {
+      "term": "gentamicin",
+      "questionCount": 3
+    },
+    {
+      "term": "fluoxetine",
+      "questionCount": 3
+    },
+    {
+      "term": "Doxycycline",
+      "questionCount": 3
+    },
+    {
+      "term": "Ampicillin",
+      "questionCount": 3
+    },
+    {
+      "term": "Rituximab",
+      "questionCount": 3
+    },
+    {
+      "term": "세폭시틴",
+      "questionCount": 3
+    },
+    {
+      "term": "프로포폴",
+      "questionCount": 3
+    },
+    {
+      "term": "아픽사반",
+      "questionCount": 3
+    },
+    {
+      "term": "acyclovir",
+      "questionCount": 3
+    },
+    {
+      "term": "valproate",
+      "questionCount": 3
+    },
+    {
+      "term": "Pantoprazole",
+      "questionCount": 3
+    },
+    {
+      "term": "Risperidone",
+      "questionCount": 3
+    },
+    {
+      "term": "Lorazepam",
+      "questionCount": 3
+    },
+    {
+      "term": "Mirtazapine",
+      "questionCount": 3
+    },
+    {
+      "term": "Escitalopram",
+      "questionCount": 3
+    },
+    {
+      "term": "Amitriptyline",
+      "questionCount": 3
+    },
+    {
+      "term": "케타민",
+      "questionCount": 3
+    },
+    {
+      "term": "Atomoxetine",
+      "questionCount": 3
+    },
+    {
+      "term": "Zolpidem",
+      "questionCount": 3
+    },
+    {
+      "term": "Donepezil",
+      "questionCount": 3
+    },
+    {
+      "term": "Lidocaine",
+      "questionCount": 3
+    },
+    {
+      "term": "Digoxin",
+      "questionCount": 3
+    },
+    {
+      "term": "digoxin",
+      "questionCount": 3
+    },
+    {
+      "term": "Vasopressin",
+      "questionCount": 3
+    },
+    {
+      "term": "Montelukast",
+      "questionCount": 3
+    },
+    {
+      "term": "Orlistat",
+      "questionCount": 3
+    },
+    {
+      "term": "Desmopressin",
+      "questionCount": 3
+    },
+    {
+      "term": "Tocilizumab",
+      "questionCount": 3
+    },
+    {
+      "term": "Tamoxifen",
+      "questionCount": 3
+    },
+    {
+      "term": "Clozapine",
+      "questionCount": 3
+    },
+    {
+      "term": "ondansetron",
+      "questionCount": 2
+    },
+    {
+      "term": "phenylephrine",
+      "questionCount": 2
+    },
+    {
+      "term": "levothyroxine",
+      "questionCount": 2
+    },
+    {
+      "term": "Captopril",
+      "questionCount": 2
+    },
+    {
+      "term": "penicillin G",
+      "questionCount": 2
+    },
+    {
+      "term": "cefotaxime",
+      "questionCount": 2
+    },
+    {
+      "term": "Atorvastatin",
+      "questionCount": 2
+    },
+    {
+      "term": "니카르디핀",
+      "questionCount": 2
+    },
+    {
+      "term": "이소소르비드 모노니트레이트",
+      "questionCount": 2
+    },
+    {
+      "term": "이바브라딘",
+      "questionCount": 2
+    },
+    {
+      "term": "에르타페넴",
+      "questionCount": 2
+    },
+    {
+      "term": "카스포펀진",
+      "questionCount": 2
+    },
+    {
+      "term": "목시플록사신",
+      "questionCount": 2
+    },
+    {
+      "term": "salmeterol",
+      "questionCount": 2
+    },
+    {
+      "term": "수크랄페이트",
+      "questionCount": 2
+    },
+    {
+      "term": "라베프라졸",
+      "questionCount": 2
+    },
+    {
+      "term": "칸데사르탄",
+      "questionCount": 2
+    },
+    {
+      "term": "글리클라지드",
+      "questionCount": 2
+    },
+    {
+      "term": "엔테카비르",
+      "questionCount": 2
+    },
+    {
+      "term": "sulfasalazine",
+      "questionCount": 2
+    },
+    {
+      "term": "mesalamine",
+      "questionCount": 2
+    },
+    {
+      "term": "Lactulose",
+      "questionCount": 2
+    },
+    {
+      "term": "프레가발린",
+      "questionCount": 2
+    },
+    {
+      "term": "infliximab",
+      "questionCount": 2
+    },
+    {
+      "term": "로페라마이드",
+      "questionCount": 2
+    },
+    {
+      "term": "아카보스",
+      "questionCount": 2
+    },
+    {
+      "term": "Amlodipine",
+      "questionCount": 2
+    },
+    {
+      "term": "spironolactone",
+      "questionCount": 2
+    },
+    {
+      "term": "레트로졸",
+      "questionCount": 2
+    },
+    {
+      "term": "cephalexin",
+      "questionCount": 2
+    },
+    {
+      "term": "Labetalol",
+      "questionCount": 2
+    },
+    {
+      "term": "알푸조신",
+      "questionCount": 2
+    },
+    {
+      "term": "Omeprazole",
+      "questionCount": 2
+    },
+    {
+      "term": "플루바스타틴",
+      "questionCount": 2
+    },
+    {
+      "term": "pravastatin",
+      "questionCount": 2
+    },
+    {
+      "term": "Paracetamol",
+      "questionCount": 2
+    },
+    {
+      "term": "라타노프로스트",
+      "questionCount": 2
+    },
+    {
+      "term": "Oseltamivir",
+      "questionCount": 2
+    },
+    {
+      "term": "levofloxacin",
+      "questionCount": 2
+    },
+    {
+      "term": "Cephalexin",
+      "questionCount": 2
+    },
+    {
+      "term": "cefepime",
+      "questionCount": 2
+    },
+    {
+      "term": "heparin",
+      "questionCount": 2
+    },
+    {
+      "term": "clonazepam",
+      "questionCount": 2
+    },
+    {
+      "term": "ganciclovir",
+      "questionCount": 2
+    },
+    {
+      "term": "발라시클로버",
+      "questionCount": 2
+    },
+    {
+      "term": "옥사실린",
+      "questionCount": 2
+    },
+    {
+      "term": "프라지콴텔",
+      "questionCount": 2
+    },
+    {
+      "term": "필그라스팀",
+      "questionCount": 2
+    },
+    {
+      "term": "doxorubicin",
+      "questionCount": 2
+    },
+    {
+      "term": "alendronate",
+      "questionCount": 2
+    },
+    {
+      "term": "Imatinib",
+      "questionCount": 2
+    },
+    {
+      "term": "Calcium gluconate",
+      "questionCount": 2
+    },
+    {
+      "term": "diltiazem",
+      "questionCount": 2
+    },
+    {
+      "term": "oxytocin",
+      "questionCount": 2
+    },
+    {
+      "term": "epinephrine",
+      "questionCount": 2
+    },
+    {
+      "term": "Gentamicin",
+      "questionCount": 2
+    },
+    {
+      "term": "세푸록심",
+      "questionCount": 2
+    },
+    {
+      "term": "세포테탄",
+      "questionCount": 2
+    },
+    {
+      "term": "Gabapentin",
+      "questionCount": 2
+    },
+    {
+      "term": "tamoxifen",
+      "questionCount": 2
+    },
+    {
+      "term": "Letrozole",
+      "questionCount": 2
+    },
+    {
+      "term": "로바스타틴",
+      "questionCount": 2
+    },
+    {
+      "term": "Penicillin G",
+      "questionCount": 2
+    },
+    {
+      "term": "Betamethasone",
+      "questionCount": 2
+    },
+    {
+      "term": "베바시주맙",
+      "questionCount": 2
+    },
+    {
+      "term": "파라세타몰",
+      "questionCount": 2
+    },
+    {
+      "term": "norepinephrine",
+      "questionCount": 2
+    },
+    {
+      "term": "haloperidol",
+      "questionCount": 2
+    },
+    {
+      "term": "부프레노르핀",
+      "questionCount": 2
+    },
+    {
+      "term": "Sertraline",
+      "questionCount": 2
+    },
+    {
+      "term": "Venlafaxine",
+      "questionCount": 2
+    },
+    {
+      "term": "diazepam",
+      "questionCount": 2
+    },
+    {
+      "term": "Dexmedetomidine",
+      "questionCount": 2
+    },
+    {
+      "term": "아토목세틴",
+      "questionCount": 2
+    },
+    {
+      "term": "valsartan",
+      "questionCount": 2
+    },
+    {
+      "term": "Carbamazepine",
+      "questionCount": 2
+    },
+    {
+      "term": "테르비나핀",
+      "questionCount": 2
+    },
+    {
+      "term": "Finasteride",
+      "questionCount": 2
+    },
+    {
+      "term": "폰다파리눅스",
+      "questionCount": 2
+    },
+    {
+      "term": "metoclopramide",
+      "questionCount": 2
+    },
+    {
+      "term": "스트렙토키나제",
+      "questionCount": 2
+    },
+    {
+      "term": "Ivabradine",
+      "questionCount": 2
+    },
+    {
+      "term": "Valsartan",
+      "questionCount": 2
+    },
+    {
+      "term": "SacubitrilValsartan",
+      "questionCount": 2
+    },
+    {
+      "term": "Propafenone",
+      "questionCount": 2
+    },
+    {
+      "term": "Ticagrelor",
+      "questionCount": 2
+    },
+    {
+      "term": "Flecainide",
+      "questionCount": 2
+    },
+    {
+      "term": "Spironolactone",
+      "questionCount": 2
+    },
+    {
+      "term": "Metolazone",
+      "questionCount": 2
+    },
+    {
+      "term": "Rosuvastatin",
+      "questionCount": 2
+    },
+    {
+      "term": "Dobutamine",
+      "questionCount": 2
+    },
+    {
+      "term": "BudesonideFormoterol",
+      "questionCount": 2
+    },
+    {
+      "term": "Theophylline",
+      "questionCount": 2
+    },
+    {
+      "term": "Indacaterol",
+      "questionCount": 2
+    },
+    {
+      "term": "Budesonide",
+      "questionCount": 2
+    },
+    {
+      "term": "Salbutamol",
+      "questionCount": 2
+    },
+    {
+      "term": "Ondansetron",
+      "questionCount": 2
+    },
+    {
+      "term": "Granisetron",
+      "questionCount": 2
+    },
+    {
+      "term": "TAF",
+      "questionCount": 2
+    },
+    {
+      "term": "Entecavir",
+      "questionCount": 2
+    },
+    {
+      "term": "Sofosbuvir",
+      "questionCount": 2
+    },
+    {
+      "term": "LedipasvirSofosbuvir",
+      "questionCount": 2
+    },
+    {
+      "term": "Semaglutide",
+      "questionCount": 2
+    },
+    {
+      "term": "Levothyroxine",
+      "questionCount": 2
+    },
+    {
+      "term": "Alendronate",
+      "questionCount": 2
+    },
+    {
+      "term": "Repaglinide",
+      "questionCount": 2
+    },
+    {
+      "term": "Dapagliflozin",
+      "questionCount": 2
+    },
+    {
+      "term": "InsulinDegludec",
+      "questionCount": 2
+    },
+    {
+      "term": "Insulin Degludec",
+      "questionCount": 2
+    },
+    {
+      "term": "Testopel",
+      "questionCount": 2
+    },
+    {
+      "term": "Prednisolone",
+      "questionCount": 2
+    },
+    {
+      "term": "carbamazepine",
+      "questionCount": 2
+    },
+    {
+      "term": "Upadacitinib",
+      "questionCount": 2
+    },
+    {
+      "term": "Celecoxib",
+      "questionCount": 2
+    },
+    {
+      "term": "토실리주맙",
+      "questionCount": 2
+    },
+    {
+      "term": "Omalizumab",
+      "questionCount": 2
+    },
+    {
+      "term": "meropenem",
+      "questionCount": 2
+    },
+    {
+      "term": "Nitrofurantoin",
+      "questionCount": 2
+    },
+    {
+      "term": "Valganciclovir",
+      "questionCount": 2
+    },
+    {
+      "term": "PiperacillinTazobactam",
+      "questionCount": 2
+    },
+    {
+      "term": "Tigecycline",
+      "questionCount": 2
+    },
+    {
+      "term": "Caspofungin",
+      "questionCount": 2
+    },
+    {
+      "term": "Praziquantel",
+      "questionCount": 2
+    },
+    {
+      "term": "Sulfamethoxazole",
+      "questionCount": 2
+    },
+    {
+      "term": "Dabigatran",
+      "questionCount": 2
+    },
+    {
+      "term": "Fondaparinux",
+      "questionCount": 2
+    },
+    {
+      "term": "Enoxaparin",
+      "questionCount": 2
+    },
+    {
+      "term": "Streptokinase",
+      "questionCount": 2
+    },
+    {
+      "term": "Osimertinib",
+      "questionCount": 2
+    },
+    {
+      "term": "Paclitaxel",
+      "questionCount": 2
+    },
+    {
+      "term": "Doxorubicin",
+      "questionCount": 2
+    },
+    {
+      "term": "Naloxone",
+      "questionCount": 2
+    },
+    {
+      "term": "naloxone",
+      "questionCount": 2
+    },
+    {
+      "term": "BuprenorphineNaloxone",
+      "questionCount": 2
+    },
+    {
+      "term": "Memantine",
+      "questionCount": 2
+    },
+    {
+      "term": "Valproate",
+      "questionCount": 2
+    },
+    {
+      "term": "Timolol",
+      "questionCount": 2
+    },
+    {
+      "term": "Sevoflurane",
+      "questionCount": 2
+    },
+    {
+      "term": "Rocuronium",
+      "questionCount": 2
+    },
+    {
+      "term": "MagnesiumSulfate",
+      "questionCount": 2
+    },
+    {
+      "term": "알리스키렌",
+      "questionCount": 1
+    },
+    {
+      "term": "morphine",
+      "questionCount": 1
+    },
+    {
+      "term": "Diltiazem",
+      "questionCount": 1
+    },
+    {
+      "term": "Isosorbide mononitrate",
+      "questionCount": 1
+    },
+    {
+      "term": "tiotropium",
+      "questionCount": 1
+    },
+    {
+      "term": "에타크린산",
+      "questionCount": 1
+    },
+    {
+      "term": "피타바스타틴",
+      "questionCount": 1
+    },
+    {
+      "term": "ranolazine",
+      "questionCount": 1
+    },
+    {
+      "term": "Clopidogrel",
+      "questionCount": 1
+    },
+    {
+      "term": "프라수그렐",
+      "questionCount": 1
+    },
+    {
+      "term": "소타롤",
+      "questionCount": 1
+    },
+    {
+      "term": "리라글루타이드",
+      "questionCount": 1
+    },
+    {
+      "term": "에볼로쿠맙",
+      "questionCount": 1
+    },
+    {
+      "term": "에소메프라졸",
+      "questionCount": 1
+    },
+    {
+      "term": "budesonide",
+      "questionCount": 1
+    },
+    {
+      "term": "oseltamivir",
+      "questionCount": 1
+    },
+    {
+      "term": "오말리주맙",
+      "questionCount": 1
+    },
+    {
+      "term": "리토나비르",
+      "questionCount": 1
+    },
+    {
+      "term": "pantoprazole",
+      "questionCount": 1
+    },
+    {
+      "term": "pregabalin",
+      "questionCount": 1
+    },
+    {
+      "term": "gabapentin",
+      "questionCount": 1
+    },
+    {
+      "term": "fentanyl",
+      "questionCount": 1
+    },
+    {
+      "term": "mesalazine",
+      "questionCount": 1
+    },
+    {
+      "term": "엠파글리플로진",
+      "questionCount": 1
+    },
+    {
+      "term": "Propylthiouracil",
+      "questionCount": 1
+    },
+    {
+      "term": "fosfomycin",
+      "questionCount": 1
+    },
+    {
+      "term": "eplerenone",
+      "questionCount": 1
+    },
+    {
+      "term": "propylthiouracil",
+      "questionCount": 1
+    },
+    {
+      "term": "insulin aspart",
+      "questionCount": 1
+    },
+    {
+      "term": "인슐린 아스파트",
+      "questionCount": 1
+    },
+    {
+      "term": "glucagon",
+      "questionCount": 1
+    },
+    {
+      "term": "인슐린 리스프로",
+      "questionCount": 1
+    },
+    {
+      "term": "desmopressin",
+      "questionCount": 1
+    },
+    {
+      "term": "bisoprolol",
+      "questionCount": 1
+    },
+    {
+      "term": "Nifedipine",
+      "questionCount": 1
+    },
+    {
+      "term": "pyrazinamide",
+      "questionCount": 1
+    },
+    {
+      "term": "ethambutol",
+      "questionCount": 1
+    },
+    {
+      "term": "펠로디핀",
+      "questionCount": 1
+    },
+    {
+      "term": "페린도프릴",
+      "questionCount": 1
+    },
+    {
+      "term": "losartan",
+      "questionCount": 1
+    },
+    {
+      "term": "lansoprazole",
+      "questionCount": 1
+    },
+    {
+      "term": "Hydrochlorothiazide",
+      "questionCount": 1
+    },
+    {
+      "term": "플루클록사실린",
+      "questionCount": 1
+    },
+    {
+      "term": "cefixime",
+      "questionCount": 1
+    },
+    {
+      "term": "fluconazole",
+      "questionCount": 1
+    },
+    {
+      "term": "Chloroquine",
+      "questionCount": 1
+    },
+    {
+      "term": "사이클로포스파마이드",
+      "questionCount": 1
+    },
+    {
+      "term": "daptomycin",
+      "questionCount": 1
+    },
+    {
+      "term": "답토마이신",
+      "questionCount": 1
+    },
+    {
+      "term": "nafcillin",
+      "questionCount": 1
+    },
+    {
+      "term": "oxycodone",
+      "questionCount": 1
+    },
+    {
+      "term": "Meropenem",
+      "questionCount": 1
+    },
+    {
+      "term": "피닥소마이신",
+      "questionCount": 1
+    },
+    {
+      "term": "보리코나졸",
+      "questionCount": 1
+    },
+    {
+      "term": "미카펀진",
+      "questionCount": 1
+    },
+    {
+      "term": "아즈트레오남",
+      "questionCount": 1
+    },
+    {
+      "term": "dexamethasone",
+      "questionCount": 1
+    },
+    {
+      "term": "Febuxostat",
+      "questionCount": 1
+    },
+    {
+      "term": "카보플라틴",
+      "questionCount": 1
+    },
+    {
+      "term": "파클리탁셀",
+      "questionCount": 1
+    },
+    {
+      "term": "Nafcillin",
+      "questionCount": 1
+    },
+    {
+      "term": "levothyroxine sodium",
+      "questionCount": 1
+    },
+    {
+      "term": "oxaliplatin",
+      "questionCount": 1
+    },
+    {
+      "term": "ampicillin",
+      "questionCount": 1
+    },
+    {
+      "term": "lidocaine",
+      "questionCount": 1
+    },
+    {
+      "term": "misoprostol",
+      "questionCount": 1
+    },
+    {
+      "term": "clindamycin",
+      "questionCount": 1
+    },
+    {
+      "term": "cefazolin",
+      "questionCount": 1
+    },
+    {
+      "term": "methylphenidate",
+      "questionCount": 1
+    },
+    {
+      "term": "Alprazolam",
+      "questionCount": 1
+    },
+    {
+      "term": "아목시실린·클라불란산",
+      "questionCount": 1
+    },
+    {
+      "term": "트리메토프림·설파메톡사졸",
+      "questionCount": 1
+    },
+    {
+      "term": "risperidone",
+      "questionCount": 1
+    },
+    {
+      "term": "olanzapine",
+      "questionCount": 1
+    },
+    {
+      "term": "venlafaxine",
+      "questionCount": 1
+    },
+    {
+      "term": "Olanzapine",
+      "questionCount": 1
+    },
+    {
+      "term": "아캄프로세이트",
+      "questionCount": 1
+    },
+    {
+      "term": "levodopa",
+      "questionCount": 1
+    },
+    {
+      "term": "Levetiracetam",
+      "questionCount": 1
+    },
+    {
+      "term": "Naproxen",
+      "questionCount": 1
+    },
+    {
+      "term": "rivaroxaban",
+      "questionCount": 1
+    },
+    {
+      "term": "Tramadol",
+      "questionCount": 1
+    },
+    {
+      "term": "Dexamethasone",
+      "questionCount": 1
+    },
+    {
+      "term": "topiramate",
+      "questionCount": 1
+    },
+    {
+      "term": "prednisolone",
+      "questionCount": 1
+    },
+    {
+      "term": "빌란테롤",
+      "questionCount": 1
+    },
+    {
+      "term": "insulin glargine",
+      "questionCount": 1
+    },
+    {
+      "term": "timolol",
+      "questionCount": 1
+    },
+    {
+      "term": "hydrocortisone",
+      "questionCount": 1
+    },
+    {
+      "term": "zolpidem",
+      "questionCount": 1
+    },
+    {
+      "term": "finasteride",
+      "questionCount": 1
+    },
+    {
+      "term": "ipratropium",
+      "questionCount": 1
+    },
+    {
+      "term": "파모티딘",
+      "questionCount": 1
+    },
+    {
+      "term": "amitriptyline",
+      "questionCount": 1
+    },
+    {
+      "term": "Midazolam",
+      "questionCount": 1
+    },
+    {
+      "term": "tranexamic acid",
+      "questionCount": 1
+    },
+    {
+      "term": "theophylline",
+      "questionCount": 1
+    },
+    {
+      "term": "lovastatin",
+      "questionCount": 1
+    },
+    {
+      "term": "apixaban",
+      "questionCount": 1
+    },
+    {
+      "term": "loratadine",
+      "questionCount": 1
+    },
+    {
+      "term": "febuxostat",
+      "questionCount": 1
+    },
+    {
+      "term": "amiodarone",
+      "questionCount": 1
+    },
+    {
+      "term": "Sotalol",
+      "questionCount": 1
+    },
+    {
+      "term": "ivabradine",
+      "questionCount": 1
+    },
+    {
+      "term": "Epinephrine",
+      "questionCount": 1
+    },
+    {
+      "term": "NITROGLYCERIN",
+      "questionCount": 1
+    },
+    {
+      "term": "니트로링구알스프레이",
+      "questionCount": 1
+    },
+    {
+      "term": "Cilostazol",
+      "questionCount": 1
+    },
+    {
+      "term": "Adenosine",
+      "questionCount": 1
+    },
+    {
+      "term": "Aliskiren",
+      "questionCount": 1
+    },
+    {
+      "term": "Ranolazine",
+      "questionCount": 1
+    },
+    {
+      "term": "Verapamil Hydrochloride",
+      "questionCount": 1
+    },
+    {
+      "term": "이솝틴정",
+      "questionCount": 1
+    },
+    {
+      "term": "Alirocumab",
+      "questionCount": 1
+    },
+    {
+      "term": "rosuvastatin",
+      "questionCount": 1
+    },
+    {
+      "term": "Ipratropium",
+      "questionCount": 1
+    },
+    {
+      "term": "Roflumilast",
+      "questionCount": 1
+    },
+    {
+      "term": "Formoterol",
+      "questionCount": 1
+    },
+    {
+      "term": "salbutamol",
+      "questionCount": 1
+    },
+    {
+      "term": "Arcapta Neohaler®",
+      "questionCount": 1
+    },
+    {
+      "term": "온브리즈®",
+      "questionCount": 1
+    },
+    {
+      "term": "Tiotropium",
+      "questionCount": 1
+    },
+    {
+      "term": "lactulose",
+      "questionCount": 1
+    },
+    {
+      "term": "그라니세트론",
+      "questionCount": 1
+    },
+    {
+      "term": "Macrogol",
+      "questionCount": 1
+    },
+    {
+      "term": "Bisacodyl",
+      "questionCount": 1
+    },
+    {
+      "term": "Famotidine",
+      "questionCount": 1
+    },
+    {
+      "term": "로페린캡슐",
+      "questionCount": 1
+    },
+    {
+      "term": "Loperamide",
+      "questionCount": 1
+    },
+    {
+      "term": "Misoprostol",
+      "questionCount": 1
+    },
+    {
+      "term": "Sucralfate",
+      "questionCount": 1
+    },
+    {
+      "term": "imatinib",
+      "questionCount": 1
+    },
+    {
+      "term": "Mesalazine",
+      "questionCount": 1
+    },
+    {
+      "term": "Lamivudine",
+      "questionCount": 1
+    },
+    {
+      "term": "Ursodeoxycholic Acid",
+      "questionCount": 1
+    },
+    {
+      "term": "UrsodeoxycholicAcid",
+      "questionCount": 1
+    },
+    {
+      "term": "세마글루타이드",
+      "questionCount": 1
+    },
+    {
+      "term": "Methimazole",
+      "questionCount": 1
+    },
+    {
+      "term": "Fludrocortisone",
+      "questionCount": 1
+    },
+    {
+      "term": "Sitagliptin",
+      "questionCount": 1
+    },
+    {
+      "term": "카나글리플로진",
+      "questionCount": 1
+    },
+    {
+      "term": "Glimepiride",
+      "questionCount": 1
+    },
+    {
+      "term": "Alfuzosin",
+      "questionCount": 1
+    },
+    {
+      "term": "Sulfasalazine",
+      "questionCount": 1
+    },
+    {
+      "term": "dopamine",
+      "questionCount": 1
+    },
+    {
+      "term": "Isoniazid",
+      "questionCount": 1
+    },
+    {
+      "term": "Daptomycin",
+      "questionCount": 1
+    },
+    {
+      "term": "TenofovirAlafenamide",
+      "questionCount": 1
+    },
+    {
+      "term": "Tenofovir alafenamide",
+      "questionCount": 1
+    },
+    {
+      "term": "ImipenemCilastatin",
+      "questionCount": 1
+    },
+    {
+      "term": "Tedizolid",
+      "questionCount": 1
+    },
+    {
+      "term": "MeropenemVaborbactam",
+      "questionCount": 1
+    },
+    {
+      "term": "Vabomere®",
+      "questionCount": 1
+    },
+    {
+      "term": "Aztreonam",
+      "questionCount": 1
+    },
+    {
+      "term": "타조신®",
+      "questionCount": 1
+    },
+    {
+      "term": "Tobramycin",
+      "questionCount": 1
+    },
+    {
+      "term": "Fidaxomicin",
+      "questionCount": 1
+    },
+    {
+      "term": "Ritonavir",
+      "questionCount": 1
+    },
+    {
+      "term": "Fosfomycin",
+      "questionCount": 1
+    },
+    {
+      "term": "Colistin",
+      "questionCount": 1
+    },
+    {
+      "term": "Fungizone®",
+      "questionCount": 1
+    },
+    {
+      "term": "AmphotericinB",
+      "questionCount": 1
+    },
+    {
+      "term": "Amphotericin B",
+      "questionCount": 1
+    },
+    {
+      "term": "AmBisome®",
+      "questionCount": 1
+    },
+    {
+      "term": "Voriconazole",
+      "questionCount": 1
+    },
+    {
+      "term": "TrimethoprimSulfamethoxazole",
+      "questionCount": 1
+    },
+    {
+      "term": "colistin",
+      "questionCount": 1
+    },
+    {
+      "term": "Sulperazon®",
+      "questionCount": 1
+    },
+    {
+      "term": "CefoperazoneSulbactam",
+      "questionCount": 1
+    },
+    {
+      "term": "ArtemetherLumefantrine",
+      "questionCount": 1
+    },
+    {
+      "term": "COARTEM",
+      "questionCount": 1
+    },
+    {
+      "term": "Terbinafine",
+      "questionCount": 1
+    },
+    {
+      "term": "Alteplase",
+      "questionCount": 1
+    },
+    {
+      "term": "EpoetinAlfa",
+      "questionCount": 1
+    },
+    {
+      "term": "Epoetin Alfa",
+      "questionCount": 1
+    },
+    {
+      "term": "Iron sucrose",
+      "questionCount": 1
+    },
+    {
+      "term": "IronSucrose",
+      "questionCount": 1
+    },
+    {
+      "term": "Filgrastim",
+      "questionCount": 1
+    },
+    {
+      "term": "Tranexamic Acid",
+      "questionCount": 1
+    },
+    {
+      "term": "TranexamicAcid",
+      "questionCount": 1
+    },
+    {
+      "term": "streptokinase",
+      "questionCount": 1
+    },
+    {
+      "term": "Nivolumab",
+      "questionCount": 1
+    },
+    {
+      "term": "Bevacizumab",
+      "questionCount": 1
+    },
+    {
+      "term": "TAGRISSO",
+      "questionCount": 1
+    },
+    {
+      "term": "Trastuzumab",
+      "questionCount": 1
+    },
+    {
+      "term": "Oxytocin",
+      "questionCount": 1
+    },
+    {
+      "term": "Ethinylestradiol",
+      "questionCount": 1
+    },
+    {
+      "term": "Norepinephrine",
+      "questionCount": 1
+    },
+    {
+      "term": "buprenorphine",
+      "questionCount": 1
+    },
+    {
+      "term": "Fluticasone",
+      "questionCount": 1
+    },
+    {
+      "term": "FluticasonePropionate",
+      "questionCount": 1
+    },
+    {
+      "term": "Cetirizine",
+      "questionCount": 1
+    },
+    {
+      "term": "Propofol",
+      "questionCount": 1
+    },
+    {
+      "term": "Baclofen",
+      "questionCount": 1
+    },
+    {
+      "term": "Ketorolac",
+      "questionCount": 1
+    },
+    {
+      "term": "Acetylcysteine",
+      "questionCount": 1
+    },
+    {
+      "term": "Glucagon",
+      "questionCount": 1
+    },
+    {
+      "term": "CalciumGluconate",
+      "questionCount": 1
+    },
+    {
+      "term": "Calcium Gluconate",
+      "questionCount": 1
+    },
+    {
+      "term": "Flumazenil",
+      "questionCount": 1
+    },
+    {
+      "term": "ActivatedCharcoal",
+      "questionCount": 1
+    },
+    {
+      "term": "activated charcoal",
+      "questionCount": 1
+    },
+    {
+      "term": "PotassiumChloride",
+      "questionCount": 1
+    },
+    {
+      "term": "Magnesium sulfate",
+      "questionCount": 1
+    },
+    {
+      "term": "cisplatin",
+      "questionCount": 1
+    },
+    {
+      "term": "lamotrigine",
+      "questionCount": 1
+    }
+  ]
+}

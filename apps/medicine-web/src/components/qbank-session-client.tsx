@@ -65,6 +65,11 @@ function theoryTargetTitle(question: QbankQuestion): string {
   }
 }
 
+function DrugLinks({ drugs }: { drugs: QbankQuestion["relatedDrugs"] }) {
+  if (drugs.length === 0) return null;
+  return <div className="mt-3"><p className="mb-1.5 text-xs font-semibold text-slate-600">관련 약물</p><div className="flex flex-wrap gap-2">{drugs.map((drug) => <Link key={drug.slug} href={`/drugs/${drug.slug}`} className="pill hover:border-teal-500">{drug.title}</Link>)}</div></div>;
+}
+
 async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = ""): Promise<QbankQuestion[]> {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
@@ -488,6 +493,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             {wrongTracked ? <button type="button" onClick={dismissWrong} className="secondary-action float-right">오답 노트에서 제거</button> : null}
             <div className="flex items-center gap-2 font-semibold">{selected === current.answer ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{selected === current.answer ? "정답입니다." : `정답은 ${current.answer}입니다.`}</div>
             {current.explanation ? <div className="mt-3 whitespace-pre-line text-sm leading-6 text-slate-700">{current.explanation}</div> : <p className="mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
+            <DrugLinks drugs={current.relatedDrugs ?? []} />
             {currentTheoryTargetHref ? <div className="mt-3 flex flex-wrap gap-2"><Link href={currentTheoryTargetHref} className="pill hover:border-teal-500">이론 원문: {theoryTargetTitle(current)}</Link></div> : current.relatedDiseaseSlugs.length > 0 ? <div className="mt-3 flex flex-wrap gap-2">{current.relatedDiseaseSlugs.map((slug, index) => <Link key={slug} href={`/disease/${slug}`} className="pill hover:border-teal-500">{current.relatedDiseaseTerms[index] || slug}</Link>)}</div> : null}
           </div>
         ) : null}

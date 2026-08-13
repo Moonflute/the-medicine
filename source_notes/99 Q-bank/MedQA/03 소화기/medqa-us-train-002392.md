@@ -26,6 +26,13 @@ translated_at: 2026-07-18
 review_status: machine-verified
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
+related_drug_slugs:
+  - ZHJ1ZzowMSDsi6ztmIjqs4QvQW1sb2RpcGluZS5tZA
+  - ZHJ1ZzowMSDsi6ztmIjqs4QvQXNwaXJpbi5tZA
+  - ZHJ1ZzowMiDtmLjtnaHquLAvQmVjbG9tZXRhc29uZS5tZA
+  - ZHJ1ZzowMyDshoztmZTquLAvUGFudG9wcmF6b2xlLm1k
+  - ZHJ1ZzowNSDrgrTrtoTruYTCt-uMgOyCrC9BbGVuZHJvbmF0ZS5tZA
+  - ZHJ1ZzowOCDqsJDsl7wvR2FuY2ljbG92aXIubWQ
 ---
 
 # MedQA US 임상문제
