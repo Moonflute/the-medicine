@@ -36,10 +36,11 @@ function antibioticFamily(value: string) {
 }
 
 function arrangeByKind(cy: Core) {
-  const anchors: Record<NodeKind, number> = { disease: -420, organism: 0, antibiotic: 420 };
+  // Preserve Cose's vertical relationship clusters while reserving fixed clinical domains on the x-axis.
+  const anchors: Record<NodeKind, number> = { disease: -620, organism: 0, antibiotic: 620 };
   const nodes = cy.nodes();
   const center = nodes.length ? nodes.reduce((sum, node) => sum + node.position("x"), 0) / nodes.length : 0;
-  cy.batch(() => nodes.forEach((node) => { const kind = node.data("kind") as NodeKind; node.position({ x: center + anchors[kind] + (node.position("x") - center) * 0.34, y: node.position("y") }); }));
+  cy.batch(() => nodes.forEach((node) => { const kind = node.data("kind") as NodeKind; node.position({ x: center + anchors[kind] + (node.position("x") - center) * 0.18, y: node.position("y") }); }));
 }
 
 export function InfectionRelationMap({ pathways, spectrum }: { pathways: InfectionPathwayDataset; spectrum: AntibioticSpectrumDataset }) {
