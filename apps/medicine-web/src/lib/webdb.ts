@@ -58,13 +58,20 @@ export type {
 
 const DATA_ROOT = path.resolve(process.cwd(), "..", "..", "_webapp", "data");
 const DEFAULT_CATEGORY = "General";
+const jsonCache = new Map<string, unknown>();
 
 function readJson<T>(fileName: string): T {
+  if (jsonCache.has(fileName)) {
+    return jsonCache.get(fileName) as T;
+  }
+
   const filePath = path.join(DATA_ROOT, fileName);
   if (!fs.existsSync(filePath)) {
     throw new Error(`Generated web DB file is missing: ${filePath}. Run "npm run sync:data" in apps/medicine-web.`);
   }
-  return JSON.parse(fs.readFileSync(filePath, "utf-8")) as T;
+  const value = JSON.parse(fs.readFileSync(filePath, "utf-8")) as T;
+  jsonCache.set(fileName, value);
+  return value;
 }
 
 function toBase64Url(value: string) {
@@ -87,10 +94,20 @@ export function getClinicalRelationIndex(): ClinicalRelationIndex {
   return readJson<ClinicalRelationIndex>("clinical-relations.json");
 }
 
+let clinicalRelationsBySource: Map<string, ClinicalRelation[]> | undefined;
+
 export function getClinicalRelationsFor(sourceType: string, sourceId: string): ClinicalRelation[] {
-  return getClinicalRelationIndex().relations.filter(
-    (relation) => relation.sourceType === sourceType && relation.sourceId === sourceId,
-  );
+  if (!clinicalRelationsBySource) {
+    clinicalRelationsBySource = new Map<string, ClinicalRelation[]>();
+    for (const relation of getClinicalRelationIndex().relations) {
+      const key = `${relation.sourceType}\u0000${relation.sourceId}`;
+      const values = clinicalRelationsBySource.get(key) ?? [];
+      values.push(relation);
+      clinicalRelationsBySource.set(key, values);
+    }
+  }
+
+  return clinicalRelationsBySource.get(`${sourceType}\u0000${sourceId}`) ?? [];
 }
 export function getManifest() {
   return readJson("manifest.json");
@@ -99,6 +116,8 @@ export function getManifest() {
 export function getAllDiseases(): DiseaseNote[] {
   return readJson("diseases.json");
 }
+
+let diseaseBySlug: Map<string, DiseaseNote> | undefined;
 
 export function getDiseaseHierarchy(): DiseaseHierarchy {
   return readJson<DiseaseHierarchy>("disease-hierarchy.json");
@@ -120,7 +139,8 @@ export function getDiseaseScopeSlugs(slug: string): string[] {
 }
 
 export function getDiseaseBySlug(slug: string): DiseaseNote | undefined {
-  return getAllDiseases().find((note) => note.slug === slug);
+  diseaseBySlug ??= new Map(getAllDiseases().map((note) => [note.slug, note]));
+  return diseaseBySlug.get(slug);
 }
 
 export function isSpecialtyIndexDisease(note: DiseaseNote) {
@@ -148,8 +168,11 @@ function buildTermLinks(notes: Array<{ slug: string; title: string; displayTitle
 }
 
 export function getDiseaseLinks(): TermLink[] {
-  return buildTermLinks(getAllDiseases().filter((note) => !isCompatibilityDisease(note)), (slug) => `/disease/${slug}`);
+  diseaseLinks ??= buildTermLinks(getAllDiseases().filter((note) => !isCompatibilityDisease(note)), (slug) => `/disease/${slug}`);
+  return diseaseLinks;
 }
+
+let diseaseLinks: TermLink[] | undefined;
 
 export function getSpecialties(): SpecialtySummary[] {
   return readJson("specialties.json");
@@ -340,8 +363,11 @@ export function getDrugs(): DomainNote[] {
   return readJson("drugs.json");
 }
 
+let drugBySlug: Map<string, DomainNote> | undefined;
+
 export function getDrugBySlug(slug: string): DomainNote | undefined {
-  return getDrugs().find((note) => note.slug === slug);
+  drugBySlug ??= new Map(getDrugs().map((note) => [note.slug, note]));
+  return drugBySlug.get(slug);
 }
 
 export function getPhysiologyNotes(): DomainNote[] {

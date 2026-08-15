@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
   experimental: {
     // The static export generates a large number of note pages. Keep the
     // worker count bounded so local/CI builds remain within memory.
-    cpus: 1,
+    cpus: 2,
   },
   images: {
     unoptimized: true,

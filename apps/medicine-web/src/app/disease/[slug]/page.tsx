@@ -8,7 +8,13 @@ import { ParentPageFab } from "@/components/parent-page-fab";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { getAllDiseases, getAntibioticSpectrum, getCanonicalDiseaseSlug, getChiefComplaintLinksForTerms, getClinicalRelationsFor, getDiseaseBySlug, getDiseaseLinks, getQbankCountForTarget, getSpecialties, getSpecialtyToc, isCompatibilityDisease, isSpecialtyIndexDisease } from "@/lib/webdb";
 import { getInfectionPathwaysForDisease } from "@/lib/infection-db";
-function getDiseaseSequence(note: NonNullable<ReturnType<typeof getDiseaseBySlug>>) {
+type Disease = NonNullable<ReturnType<typeof getDiseaseBySlug>>;
+const diseaseSequenceBySpecialty = new Map<string, Disease[]>();
+
+function getDiseaseSequence(note: Disease) {
+  const cached = diseaseSequenceBySpecialty.get(note.specialty);
+  if (cached) return cached;
+
   const specialty = getSpecialties().find((item) => item.name === note.specialty);
   const toc = specialty ? getSpecialtyToc(specialty.slug) : undefined;
   const orderForPath = new Map<string, number>();
@@ -26,9 +32,11 @@ function getDiseaseSequence(note: NonNullable<ReturnType<typeof getDiseaseBySlug
     return Number.MAX_SAFE_INTEGER;
   };
 
-  return getAllDiseases()
+  const sequence = getAllDiseases()
     .filter((item) => item.specialty === note.specialty && !isCompatibilityDisease(item) && !isSpecialtyIndexDisease(item))
     .sort((a, b) => orderFor(a) - orderFor(b) || a.title.localeCompare(b.title, "ko"));
+  diseaseSequenceBySpecialty.set(note.specialty, sequence);
+  return sequence;
 }
 
 export function generateStaticParams() {
