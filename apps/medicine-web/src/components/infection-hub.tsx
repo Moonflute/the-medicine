@@ -48,7 +48,9 @@ export function InfectionHub({
 
   return (
     <div className="space-y-5">
-      <div className="grid grid-cols-5 gap-1 rounded-xl border border-slate-200 bg-white p-1 shadow-sm" role="tablist" aria-label="감염 Hub">
+      <header className="flex flex-wrap items-center gap-3 rounded-xl border border-slate-200 bg-white p-1 shadow-sm sm:gap-5 sm:pl-5">
+        <h1 className="shrink-0 px-3 py-2 text-xl font-bold text-slate-950 sm:px-0 sm:text-2xl">감염 Hub</h1>
+        <div className="grid min-w-0 flex-1 grid-cols-5 gap-1" role="tablist" aria-label="감염 Hub">
         {tabs.map(([value, label, Icon]) => (
           <button
             key={value}
@@ -64,7 +66,8 @@ export function InfectionHub({
             <span>{label}</span>
           </button>
         ))}
-      </div>
+        </div>
+      </header>
 
       {tab === "map" ? <InfectionRelationMap pathways={pathways} spectrum={dataset} /> : null}
       {tab === "pathogens" ? <MicrobiologyBrowser dataset={microbiology} pathways={pathways} spectrum={dataset} /> : null}

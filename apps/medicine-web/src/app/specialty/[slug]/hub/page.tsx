@@ -21,9 +21,6 @@ export default async function InfectionHubPage(props: { params: Promise<{ slug: 
         <ArrowLeft className="h-4 w-4" />
         감염 분과로 돌아가기
       </Link>
-      <header className="rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-sm">
-        <h1 className="text-2xl font-bold text-slate-950">감염 Hub</h1>
-      </header>
       <Suspense fallback={<div className="rounded-xl border border-slate-200 bg-white p-6 text-sm text-slate-500">감염 Hub를 불러오는 중입니다.</div>}>
         <InfectionHub
           dataset={getAntibioticSpectrum()}
