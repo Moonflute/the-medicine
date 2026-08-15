@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-12T19:38:38.003Z",
+  "generatedAt": "2026-08-15T16:06:26.950Z",
   "summary": {
-    "pathways": 39,
+    "pathways": 43,
     "verifiedPathways": 16,
-    "visibleInClinicalUi": 39,
+    "visibleInClinicalUi": 43,
     "hiddenFromClinicalUi": 0,
     "reviewedQuizQuestions": 30,
     "organisms": 22,
@@ -136,6 +136,11 @@
     {
       "id": "idsa-infectious-diarrhea",
       "year": "2017",
+      "usedByVerifiedPathways": []
+    },
+    {
+      "id": "ada-dental-antibiotics-2019",
+      "year": "2019",
       "usedByVerifiedPathways": []
     }
   ]

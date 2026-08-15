@@ -1,6 +1,6 @@
 {
   "name": "medicine-web",
-  "version": "0.11.34",
+  "version": "0.11.35",
   "private": true,
   "scripts": {
     "sync:data": "node scripts/sync-generated-data.mjs && node scripts/build-infection-pathways.mjs && node scripts/build-microbiology-relations.mjs && node scripts/build-clinical-relations.mjs && node scripts/build-maternal-child-hub.mjs && node scripts/build-nervous-system-atlas.mjs",
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.8",
+    "cytoscape": "^3.34.1",
     "lucide-react": "^0.576.0",
     "next": "16.1.6",
     "react": "19.2.0",

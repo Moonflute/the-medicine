@@ -410,6 +410,27 @@
         "nocardiosis",
         "susceptibility testing"
       ]
+    },
+    {
+      "id": "ada-dental-antibiotics-2019",
+      "label": "ADA Guideline: Antibiotics for Dental Pain and Swelling",
+      "url": "https://www.ada.org/resources/research/science/evidence-based-dental-research/antibiotics-for-dental-pain-and-swelling",
+      "tier": "A",
+      "year": "2019"
+    },
+    {
+      "id": "nih-pcp-2026",
+      "label": "NIH Guidelines: Pneumocystis Pneumonia in Adults and Adolescents With HIV",
+      "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis",
+      "tier": "A",
+      "year": "2026"
+    },
+    {
+      "id": "cdc-yersinia-2026",
+      "label": "CDC Clinical Overview of Yersiniosis",
+      "url": "https://www.cdc.gov/yersinia/hcp/clinical-overview/index.html",
+      "tier": "A",
+      "year": "2026"
     }
   ],
   "pathways": [
@@ -4890,6 +4911,370 @@
       "reviewStatus": "reviewed",
       "reviewedAt": "2026-07-31",
       "reviewedBy": "Codex source cross-check",
+      "quizQuestions": []
+    },
+    {
+      "id": "adult-infected-bite-wound",
+      "displayName": "성인 교상 감염",
+      "aliases": [
+        "infected animal bite wound",
+        "animal bite infection",
+        "교상 감염"
+      ],
+      "diseaseSourceFile": "08 감염/교상 감염 (Bite Wound Infection).md",
+      "infectionSite": "skin-soft-tissue",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "동물 종류, 손·관절·골막 인접 부위, 천자상, 지연 내원, 면역저하 여부를 확인한다.",
+        "감염된 상처에서는 Pasteurella를 포함한 호기성·혐기성 혼합감염을 고려한다."
+      ],
+      "sourceControlNotes": [
+        "충분한 세척·탐색·debridement 및 필요 시 배농이 치료의 핵심이다.",
+        "공수병·파상풍 예방 필요성을 별도로 평가한다."
+      ],
+      "stewardshipNotes": [
+        "저위험의 비감염 상처에 항생제를 일률적으로 연장하지 않으며, 감염 여부와 고위험 부위를 기준으로 판단한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "infected-bite-wound",
+          "organisms": [
+            {
+              "organismId": "streptococci",
+              "likelihood": "important",
+              "notes": [
+                "피부 연조직 감염에서 동반될 수 있다."
+              ]
+            },
+            {
+              "organismId": "oral_anaerobes",
+              "likelihood": "important",
+              "notes": [
+                "교상 감염은 호기성·혐기성 혼합감염일 수 있다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "infected-bite-wound-outpatient",
+          "context": "infected-bite-wound-oral-therapy",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "amoxicillinclavulanate"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "경구 치료가 가능하고 입원·수술 적응증이 없는 감염 교상"
+          ],
+          "avoidWhen": [
+            "심부 구조 침범, 전신독성, 중증 beta-lactam 과민반응 또는 입원 치료가 필요한 경우"
+          ],
+          "notes": [
+            "Pasteurella 및 혐기성균을 함께 고려하는 선택지다."
+          ],
+          "sourceIds": [
+            "idsa-ssti-2014"
+          ]
+        },
+        {
+          "id": "infected-bite-wound-inpatient",
+          "context": "infected-bite-wound-severe-or-deep",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ampicillinsulbactam"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "심부 감염, 전신증상 또는 정맥 치료가 필요한 경우"
+          ],
+          "avoidWhen": [
+            "감수성 결과와 source control을 반영하지 않는 장기 광범위 치료"
+          ],
+          "notes": [
+            "수술적 평가와 배양 결과에 따라 좁힌다."
+          ],
+          "sourceIds": [
+            "idsa-ssti-2014"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "idsa-ssti-2014"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-08-16",
+      "quizQuestions": []
+    },
+    {
+      "id": "adult-odontogenic-infection",
+      "displayName": "성인 치성 감염",
+      "aliases": [
+        "odontogenic infection",
+        "dental abscess",
+        "치성 농양"
+      ],
+      "diseaseSourceFile": "08 감염/치성 감염 (Odontogenic Infection).md",
+      "infectionSite": "head-neck",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "국소 치통·부종과 발열·권태감·연하곤란·개구장애·기도 위험을 구분한다.",
+        "심부 경부 감염 또는 Ludwig angina가 의심되면 즉시 응급 평가와 영상·외과 협진이 필요하다."
+      ],
+      "sourceControlNotes": [
+        "배농, 근관치료 또는 발치 등 definitive dental treatment가 우선이다."
+      ],
+      "stewardshipNotes": [
+        "면역정상 성인의 국소 치수·치근단 질환에는 항생제를 대체 치료로 쓰지 않는다.",
+        "전신 증상이나 진행성 감염에서만 처치와 병행해 사용한다."
+      ],
+      "pathogenGroups": [
+        {
+          "context": "odontogenic-polymicrobial-infection",
+          "organisms": [
+            {
+              "organismId": "streptococci",
+              "likelihood": "common",
+              "notes": [
+                "viridans streptococci를 포함한 구강 streptococci가 중요하다."
+              ]
+            },
+            {
+              "organismId": "oral_anaerobes",
+              "likelihood": "common",
+              "notes": [
+                "심부·진행성 감염에서 혐기성균 동반을 고려한다."
+              ]
+            }
+          ]
+        }
+      ],
+      "empiricRegimens": [
+        {
+          "id": "odontogenic-systemic-involvement-oral",
+          "context": "systemic-involvement-with-definitive-dental-treatment",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "amoxicillin"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "발열·권태감 등 전신 침범이 있고 definitive dental treatment를 시행하는 경우"
+          ],
+          "avoidWhen": [
+            "국소 질환에서 배농·치과 처치를 대신해 항생제만 사용하는 경우"
+          ],
+          "notes": [
+            "치료 반응과 악화 여부를 짧은 간격으로 재평가한다."
+          ],
+          "sourceIds": [
+            "ada-dental-antibiotics-2019"
+          ]
+        },
+        {
+          "id": "odontogenic-deep-space-infection",
+          "context": "progressive-or-deep-space-infection",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "ampicillinsulbactam"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "심부 감염, 기도 위험 또는 입원·정맥 치료가 필요한 경우"
+          ],
+          "avoidWhen": [
+            "기도 확보와 외과적 drainage를 지연시키는 경우"
+          ],
+          "notes": [
+            "중증도에 따라 구강악안면외과·이비인후과 협진을 병행한다."
+          ],
+          "sourceIds": [
+            "ada-dental-antibiotics-2019",
+            "idsa-ssti-2014"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "ada-dental-antibiotics-2019"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-08-16",
+      "quizQuestions": []
+    },
+    {
+      "id": "adult-yersiniosis",
+      "displayName": "성인 예르시니아증",
+      "aliases": [
+        "Yersinia enterocolitica infection",
+        "Yersiniosis",
+        "예르시니아 장염"
+      ],
+      "diseaseSourceFile": "08 감염/예르시니아증 (Yersiniosis).md",
+      "infectionSite": "gastrointestinal",
+      "setting": "community",
+      "population": [
+        "adult"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "혈성 설사·복통·발열과 mesenteric adenitis를 평가하며, 의심 시 검사실에 Yersinia 배양 조건을 알린다.",
+        "철 과부하, 면역저하, 균혈증·국소 침습 소견은 중증 감염 위험을 높인다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "대부분은 수분·전해질 보충을 포함한 지지요법으로 호전한다.",
+        "항생제는 중증 또는 침습성 감염에서만 고려하며, 1세대 cephalosporin 및 대부분 penicillin은 신뢰할 수 없다."
+      ],
+      "pathogenGroups": [],
+      "empiricRegimens": [
+        {
+          "id": "yersiniosis-severe-or-invasive",
+          "context": "severe-or-invasive-yersiniosis",
+          "rank": "conditional",
+          "components": [
+            {
+              "antibioticIds": [
+                "ceftriaxone",
+                "ciprofloxacin",
+                "trimethoprimsulfamethoxazole",
+                "doxycycline"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "중증 설사, 균혈증·국소 침습성 감염 또는 고위험 숙주"
+          ],
+          "avoidWhen": [
+            "경증 자가 제한성 장염에 일률적으로 처방하는 경우"
+          ],
+          "notes": [
+            "배양·감수성과 감염 부위, 환자 위험인자를 반영한다."
+          ],
+          "sourceIds": [
+            "cdc-yersinia-2026",
+            "idsa-infectious-diarrhea"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "cdc-yersinia-2026",
+        "idsa-infectious-diarrhea"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-08-16",
+      "quizQuestions": []
+    },
+    {
+      "id": "adult-pneumocystis-pneumonia",
+      "displayName": "성인 Pneumocystis 폐렴",
+      "aliases": [
+        "PJP",
+        "PCP",
+        "Pneumocystis jirovecii pneumonia",
+        "폐포자충 폐렴"
+      ],
+      "diseaseSourceFile": "08 감염/폐포자충 폐렴 (Pneumocystis Pneumonia).md",
+      "infectionSite": "lower-respiratory-tract",
+      "setting": "mixed",
+      "population": [
+        "adult",
+        "immunocompromised"
+      ],
+      "severity": [
+        "outpatient",
+        "inpatient",
+        "severe"
+      ],
+      "exclusions": [],
+      "diagnosticNotes": [
+        "저산소증 정도, PaO2 또는 A-a gradient, 면역저하 상태를 평가하고 동반 세균·결핵·바이러스 감염을 함께 감별한다.",
+        "유도객담 또는 BAL 검사와 임상·영상 소견을 통합한다."
+      ],
+      "sourceControlNotes": [],
+      "stewardshipNotes": [
+        "Pneumocystis는 일반 세균 spectrum matrix의 대상이 아니므로, 이 경로의 TMP-SMX는 해당 감염의 표준 치료 맥락으로만 해석한다.",
+        "G6PD 결핍 위험이 있으면 dapsone 또는 primaquine을 포함하는 대안 전 확인이 필요하다."
+      ],
+      "pathogenGroups": [],
+      "empiricRegimens": [
+        {
+          "id": "pcp-preferred-tmp-smx",
+          "context": "confirmed-or-strongly-suspected-pcp",
+          "rank": "preferred",
+          "components": [
+            {
+              "antibioticIds": [
+                "trimethoprimsulfamethoxazole"
+              ],
+              "selection": "one-of"
+            }
+          ],
+          "conditions": [
+            "확진 또는 강하게 의심되는 Pneumocystis 폐렴"
+          ],
+          "avoidWhen": [
+            "생명위협 sulfonamide 반응 또는 TMP-SMX 사용 불가 상황"
+          ],
+          "notes": [
+            "중등도-중증에서는 IV로 시작 후 임상 호전에 따라 PO 전환을 고려한다.",
+            "PaO2 <70 mmHg 또는 A-a gradient >=35 mmHg이면 보조 corticosteroid를 신속히 병행한다."
+          ],
+          "sourceIds": [
+            "nih-pcp-2026"
+          ]
+        }
+      ],
+      "targetedTherapies": [],
+      "sourceIds": [
+        "nih-pcp-2026"
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedBy": "Codex source cross-check",
+      "reviewedAt": "2026-08-16",
       "quizQuestions": []
     }
   ]

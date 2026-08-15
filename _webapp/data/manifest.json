@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T08:06:47.378Z",
+  "generatedAt": "2026-08-15T13:15:03.325Z",
   "sourceRoot": "source_notes",
   "outputRoot": "_webapp/data",
   "domains": {
@@ -64,7 +64,7 @@
       "source": "99 Q-bank/MedQA"
     },
     "infectionPathways": {
-      "count": 39,
+      "count": 43,
       "source": "10 Hubs/01 감염 Hub/_data/infection-pathways.json"
     },
     "clinicalRelations": {

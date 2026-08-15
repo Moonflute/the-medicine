@@ -1,15 +1,16 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
-import { Bug, BookOpenCheck, GraduationCap, Pill } from "lucide-react";
+import { Bug, BookOpenCheck, GraduationCap, Network, Pill } from "lucide-react";
 import { AntibioticOverview } from "@/components/antibiotic-overview";
 import { InfectionHubQuiz } from "@/components/infection-hub-quiz";
 import { InfectionPathwayExplorer } from "@/components/infection-pathway-explorer";
 import { MicrobiologyBrowser } from "@/components/microbiology-browser";
+import { InfectionRelationMap } from "@/components/infection-relation-map";
 import type { AntibioticSpectrumDataset, MicrobiologyDataset } from "@/lib/types";
 import type { InfectionPathwayDataset } from "@/lib/infection-types";
 
-type HubTab = "pathogens" | "diseases" | "antibiotics" | "quiz";
+type HubTab = "map" | "pathogens" | "diseases" | "antibiotics" | "quiz";
 
 export function InfectionHub({
   dataset,
@@ -25,9 +26,9 @@ export function InfectionHub({
   const requestedView = searchParams.get("view") ?? searchParams.get("tab");
   const initialView: HubTab = requestedView === "pathways" || requestedView === "diseases"
     ? "diseases"
-    : requestedView === "antibiotics" || requestedView === "quiz" || requestedView === "pathogens"
+    : requestedView === "map" || requestedView === "antibiotics" || requestedView === "quiz" || requestedView === "pathogens"
       ? requestedView
-      : "pathogens";
+      : "map";
   const tab = initialView;
 
   const selectTab = (nextTab: HubTab) => {
@@ -38,6 +39,7 @@ export function InfectionHub({
   };
 
   const tabs = [
+    ["map", "관계도", Network],
     ["pathogens", "병원체", Bug],
     ["diseases", "질환", BookOpenCheck],
     ["antibiotics", "항생제", Pill],
@@ -46,7 +48,7 @@ export function InfectionHub({
 
   return (
     <div className="space-y-5">
-      <div className="grid grid-cols-4 gap-1 rounded-xl border border-slate-200 bg-white p-1 shadow-sm" role="tablist" aria-label="감염 Hub">
+      <div className="grid grid-cols-5 gap-1 rounded-xl border border-slate-200 bg-white p-1 shadow-sm" role="tablist" aria-label="감염 Hub">
         {tabs.map(([value, label, Icon]) => (
           <button
             key={value}
@@ -64,6 +66,7 @@ export function InfectionHub({
         ))}
       </div>
 
+      {tab === "map" ? <InfectionRelationMap pathways={pathways} spectrum={dataset} /> : null}
       {tab === "pathogens" ? <MicrobiologyBrowser dataset={microbiology} pathways={pathways} spectrum={dataset} /> : null}
       {tab === "diseases" ? <InfectionPathwayExplorer dataset={pathways} spectrum={dataset} /> : null}
       {tab === "antibiotics" ? <AntibioticOverview dataset={dataset} pathways={pathways} /> : null}
