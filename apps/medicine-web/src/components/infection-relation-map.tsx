@@ -4,7 +4,7 @@ import Link from "next/link";
 import cytoscape, { type Core, type ElementDefinition } from "cytoscape";
 import { Expand, Filter, RotateCcw, Search, ZoomIn, ZoomOut } from "lucide-react";
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
-import type { InfectionPathwayDataset, InfectionPopulation, InfectionSetting } from "@/lib/infection-types";
+import type { InfectionPathwayDataset } from "@/lib/infection-types";
 import type { AntibioticSpectrumDataset } from "@/lib/types";
 
 type NodeKind = "disease" | "organism" | "antibiotic";
@@ -13,8 +13,8 @@ type NodeInfo = { id: string; kind: NodeKind; label: string; subtitle: string; h
 const SITE_LABELS: Record<string, string> = {
   "lower-respiratory-tract": "하기도", "lower-urinary-tract": "하부 요로", "upper-urinary-tract": "상부 요로", "skin-soft-tissue": "피부·연조직", systemic: "전신", endovascular: "심혈관·혈류", "central-nervous-system": "중추신경계", "bone-spine": "골·척추", "bloodstream-catheter": "도관·혈류", peritoneal: "복막", gastrointestinal: "위장관", "head-neck": "두경부",
 };
-const SETTING_LABELS: Record<InfectionSetting, string> = { community: "지역사회", mixed: "상황별", "healthcare-associated": "의료 관련", "hospital-acquired": "병원 획득", "ventilator-associated": "인공호흡기 관련", "procedure-associated": "시술·기기 관련" };
-const POPULATION_LABELS: Record<InfectionPopulation, string> = { adult: "성인", pediatric: "소아", neonate: "신생아", pregnant: "임신", immunocompromised: "면역저하", neutropenic: "호중구감소" };
+const PATHOGEN_GROUP_LABELS: Record<string, string> = { "Gram-positive": "G(+)균", "Gram-negative": "G(-)균", Anaerobes: "혐기성균", Atypicals: "비정형균", "Resistance phenotype": "내성 phenotype" };
+const PATHOGEN_GROUP_ORDER = ["Gram-positive", "Gram-negative", "Anaerobes", "Atypicals", "Resistance phenotype"];
 const normalize = (value: string) => value.toLocaleLowerCase().replace(/[\s/_-]+/g, "");
 const unique = <T,>(items: T[]) => [...new Set(items)];
 
@@ -26,8 +26,7 @@ export function InfectionRelationMap({ pathways, spectrum }: { pathways: Infecti
   const [query, setQuery] = useState("");
   const deferredQuery = useDeferredValue(query);
   const [site, setSite] = useState("");
-  const [setting, setSetting] = useState("");
-  const [population, setPopulation] = useState("");
+  const [pathogenGroup, setPathogenGroup] = useState("");
   const [drugClass, setDrugClass] = useState("");
   const [showCoverage, setShowCoverage] = useState(false);
   const [selectedId, setSelectedId] = useState("");
@@ -36,17 +35,17 @@ export function InfectionRelationMap({ pathways, spectrum }: { pathways: Infecti
   const clinicalPathways = useMemo(() => pathways.pathways.filter((item) => item.reviewStatus === "verified" || item.reviewStatus === "reviewed"), [pathways.pathways]);
   const sites = unique(clinicalPathways.map((item) => item.infectionSite)).sort();
   const classes = unique(spectrum.antibiotics.map((item) => item.class)).sort();
+  const pathogenGroups = unique(spectrum.organisms.map((item) => item.group)).sort((left, right) => PATHOGEN_GROUP_ORDER.indexOf(left) - PATHOGEN_GROUP_ORDER.indexOf(right));
 
   const graph = useMemo(() => {
     const filteredPathways = clinicalPathways.filter((item) =>
       (!site || item.infectionSite === site)
-      && (!setting || item.setting === setting || item.setting === "mixed")
-      && (!population || item.population.includes(population as InfectionPopulation)),
+      && (!pathogenGroup || item.pathogenGroups.some((group) => group.organisms.some((organism) => spectrum.organisms.find((item) => item.id === organism.organismId)?.group === pathogenGroup))),
     );
     const organismIds = new Set<string>();
     const antibioticIds = new Set<string>();
     for (const pathway of filteredPathways) {
-      for (const group of pathway.pathogenGroups) for (const organism of group.organisms) organismIds.add(organism.organismId);
+      for (const group of pathway.pathogenGroups) for (const organism of group.organisms) if (!pathogenGroup || spectrum.organisms.find((item) => item.id === organism.organismId)?.group === pathogenGroup) organismIds.add(organism.organismId);
       for (const regimen of pathway.empiricRegimens) for (const component of regimen.components) for (const antibioticId of component.antibioticIds) antibioticIds.add(antibioticId);
       for (const therapy of pathway.targetedTherapies) for (const antibioticId of therapy.antibioticIds) antibioticIds.add(antibioticId);
     }
@@ -54,7 +53,7 @@ export function InfectionRelationMap({ pathways, spectrum }: { pathways: Infecti
     const visibleAntibioticIds = new Set(visibleAntibiotics.map((item) => item.id));
     const visibleOrganisms = spectrum.organisms.filter((item) => organismIds.has(item.id));
     const nodes: NodeInfo[] = [
-      ...filteredPathways.map((item) => ({ id: nodeId("disease", item.id), kind: "disease" as const, label: item.displayName, subtitle: `${SITE_LABELS[item.infectionSite] ?? item.infectionSite} · ${SETTING_LABELS[item.setting]}`, href: `/disease/${item.diseaseSlug}`, description: item.diagnosticNotes[0] ?? "임상 경로" })),
+      ...filteredPathways.map((item) => ({ id: nodeId("disease", item.id), kind: "disease" as const, label: item.displayName, subtitle: SITE_LABELS[item.infectionSite] ?? item.infectionSite, href: `/disease/${item.diseaseSlug}`, description: item.diagnosticNotes[0] ?? "임상 경로" })),
       ...visibleOrganisms.map((item) => ({ id: nodeId("organism", item.id), kind: "organism" as const, label: item.label, subtitle: item.group, href: item.microbiologySlug ? `/microbiology/${item.microbiologySlug}` : "", description: item.aliases.join(" · ") })),
       ...visibleAntibiotics.map((item) => ({ id: nodeId("antibiotic", item.id), kind: "antibiotic" as const, label: item.inn, subtitle: item.class, href: `/drugs/${item.drugSlug}`, description: `${item.routes.join(" / ")} · ${item.displayName}` })),
     ];
@@ -87,7 +86,7 @@ export function InfectionRelationMap({ pathways, spectrum }: { pathways: Infecti
       ...displayedEdges.map((item) => ({ data: item, classes: item.kind })),
     ];
     return { elements, nodes: displayedNodes, edgeCount: displayedEdges.length, totalPathways: filteredPathways.length };
-  }, [clinicalPathways, deferredQuery, drugClass, population, setting, showCoverage, site, spectrum.antibiotics, spectrum.organisms]);
+  }, [clinicalPathways, deferredQuery, drugClass, pathogenGroup, showCoverage, site, spectrum.antibiotics, spectrum.organisms]);
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -132,13 +131,13 @@ export function InfectionRelationMap({ pathways, spectrum }: { pathways: Infecti
   }, [selectedId, graph.elements]);
 
   const selected = graph.nodes.find((item) => item.id === selectedId);
-  const reset = () => { setQuery(""); setSite(""); setSetting(""); setPopulation(""); setDrugClass(""); setShowCoverage(false); setSelectedId(""); };
+  const reset = () => { setQuery(""); setSite(""); setPathogenGroup(""); setDrugClass(""); setShowCoverage(false); setSelectedId(""); };
   const zoom = (factor: number) => { const cy = cyRef.current; if (!cy) return; cy.zoom({ level: cy.zoom() * factor, renderedPosition: { x: cy.width() / 2, y: cy.height() / 2 } }); };
   const fit = () => cyRef.current?.fit(undefined, 36);
 
   return <div className={fullScreen ? "fixed inset-0 z-[80] overflow-auto bg-slate-950 p-3 sm:p-6" : "space-y-5"}>
     <section className={`rounded-2xl border p-4 shadow-sm ${fullScreen ? "border-slate-700 bg-slate-900" : "border-slate-200 bg-white"}`}>
-      <div className="grid gap-3 lg:grid-cols-[minmax(220px,1.4fr)_repeat(4,minmax(130px,1fr))_auto]"><label className="relative"><Search className="absolute left-3 top-3 h-4 w-4 text-slate-400" /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="질환·병원체·항생제 검색" className="w-full rounded-xl border border-slate-200 bg-slate-50 py-2.5 pl-10 pr-3 text-sm text-slate-950 outline-none focus:border-teal-500" /></label><select value={site} onChange={(event) => setSite(event.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-900"><option value="">모든 감염 부위</option>{sites.map((item) => <option key={item} value={item}>{SITE_LABELS[item] ?? item}</option>)}</select><select value={setting} onChange={(event) => setSetting(event.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-900"><option value="">모든 감염 환경</option>{Object.entries(SETTING_LABELS).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select><select value={population} onChange={(event) => setPopulation(event.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-900"><option value="">모든 대상군</option>{Object.entries(POPULATION_LABELS).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select><select value={drugClass} onChange={(event) => setDrugClass(event.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-900"><option value="">모든 항생제 계열</option>{classes.map((item) => <option key={item}>{item}</option>)}</select><button type="button" onClick={reset} className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm text-slate-600"><Filter className="h-4 w-4" />초기화</button></div>
+      <div className="grid gap-3 lg:grid-cols-[minmax(220px,1.4fr)_repeat(3,minmax(150px,1fr))_auto]"><label className="relative"><Search className="absolute left-3 top-3 h-4 w-4 text-slate-400" /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="질환·병원체·항생제 검색" className="w-full rounded-xl border border-slate-200 bg-slate-50 py-2.5 pl-10 pr-3 text-sm text-slate-950 outline-none focus:border-teal-500" /></label><select value={pathogenGroup} onChange={(event) => setPathogenGroup(event.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-900"><option value="">모든 병원체 분류</option>{pathogenGroups.map((item) => <option key={item} value={item}>{PATHOGEN_GROUP_LABELS[item] ?? item}</option>)}</select><select value={site} onChange={(event) => setSite(event.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-900"><option value="">모든 감염 부위</option>{sites.map((item) => <option key={item} value={item}>{SITE_LABELS[item] ?? item}</option>)}</select><select value={drugClass} onChange={(event) => setDrugClass(event.target.value)} className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-900"><option value="">모든 항생제 계열</option>{classes.map((item) => <option key={item}>{item}</option>)}</select><button type="button" onClick={reset} className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm text-slate-600"><Filter className="h-4 w-4" />초기화</button></div>
       <div className="mt-3 flex flex-wrap items-center justify-between gap-3"><button type="button" onClick={() => setShowCoverage((value) => !value)} className={`rounded-full border px-3 py-1.5 text-xs font-semibold ${showCoverage ? "border-violet-700 bg-violet-700 text-white" : "border-violet-200 bg-violet-50 text-violet-900"}`}>병원체 → 항생제 활성 관계 {showCoverage ? "표시 중" : "표시"}</button><div className="flex gap-2"><button type="button" onClick={() => zoom(1.2)} className="rounded-lg border border-slate-300 bg-white p-2 text-slate-700" aria-label="확대"><ZoomIn className="h-4 w-4" /></button><button type="button" onClick={() => zoom(.82)} className="rounded-lg border border-slate-300 bg-white p-2 text-slate-700" aria-label="축소"><ZoomOut className="h-4 w-4" /></button><button type="button" onClick={fit} className="rounded-lg border border-slate-300 bg-white p-2 text-slate-700" aria-label="화면 맞춤"><RotateCcw className="h-4 w-4" /></button><button type="button" onClick={() => setFullScreen((value) => !value)} className="rounded-lg border border-slate-300 bg-white p-2 text-slate-700" aria-label="전체 화면"><Expand className="h-4 w-4" /></button></div></div>
     </section>
     <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_290px]">
