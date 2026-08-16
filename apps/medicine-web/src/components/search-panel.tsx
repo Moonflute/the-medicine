@@ -19,6 +19,7 @@ const TYPE_LABELS: Record<string, string> = {
   pathology: "Pathology",
   labImg: "Lab / Img",
   skill: "Skill",
+  interactiveConcept: "Interactive concept",
 };
 
 const SEARCH_PREFIX_TYPES: Record<string, string[]> = {
@@ -47,6 +48,9 @@ const SEARCH_PREFIX_TYPES: Record<string, string[]> = {
   "\uC0DD\uB9AC": ["physiology"],
   pathology: ["pathology"],
   "\uBCD1\uB9AC": ["pathology"],
+  concept: ["interactiveConcept"],
+  interactive: ["interactiveConcept"],
+  "\uAC1C\uB150": ["interactiveConcept"],
 };
 
 type ParsedSearchQuery = {

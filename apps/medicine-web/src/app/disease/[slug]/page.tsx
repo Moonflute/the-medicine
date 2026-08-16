@@ -6,6 +6,7 @@ import { DiseaseInfectionPanel } from "@/components/disease-infection-panel";
 import { MicrobiologyBacklinks } from "@/components/microbiology-backlinks";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
+import { RelatedInteractiveConcepts } from "@/components/related-interactive-concepts";
 import { getAllDiseases, getAntibioticSpectrum, getCanonicalDiseaseSlug, getChiefComplaintLinksForTerms, getClinicalRelationsFor, getDiseaseBySlug, getDiseaseLinks, getQbankCountForTarget, getSpecialties, getSpecialtyToc, isCompatibilityDisease, isSpecialtyIndexDisease } from "@/lib/webdb";
 import { getInfectionPathwaysForDisease } from "@/lib/infection-db";
 type Disease = NonNullable<ReturnType<typeof getDiseaseBySlug>>;
@@ -83,6 +84,10 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
         diseaseLinks={diseaseLinks}
         hideOverview={isSpecialtyIndexDisease(note)}
         relatedQbankHref={relatedQbankCount > 0 ? `/review/qbank/related?targetType=disease&target=${encodeURIComponent(note.slug)}&label=${encodeURIComponent(note.displayTitle || note.title)}` : undefined}
+      />
+      <RelatedInteractiveConcepts
+        specialty={isSpecialtyIndexDisease(note) ? note.specialty : undefined}
+        entity={{ type: "disease", title: note.title }}
       />
       {infectionSpecialty && infectionPathways.length > 0 ? <DiseaseInfectionPanel pathways={infectionPathways} spectrum={getAntibioticSpectrum()} specialtySlug={infectionSpecialty.slug} /> : null}
       <MicrobiologyBacklinks targetType="disease" targetId={note.slug} />

@@ -26,6 +26,7 @@ import type {
   QbankSpecialtySummary,
   TermLink,
 } from "@/lib/types";
+import { interactiveConcepts } from "@/lib/interactive-concepts";
 
 export type {
   ChiefComplaintCategorySummary,
@@ -207,7 +208,18 @@ export function getDiseasesBySpecialty(slug: string): DiseaseNote[] {
 }
 
 export function getDiseaseSearchIndex(): SearchEntry[] {
-  return readJson("search-index.json");
+  const generated = readJson<SearchEntry[]>("search-index.json");
+  const concepts: SearchEntry[] = interactiveConcepts.map((concept) => ({
+    type: "interactiveConcept",
+    slug: concept.slug,
+    title: concept.shortTitle,
+    category: concept.specialties.join(" · "),
+    aliases: [concept.title],
+    keywords: ["interactive", "physiology", "생리", "기전", ...concept.specialties],
+    quickSummary: concept.summary,
+    href: `/interactive/${concept.slug}`,
+  }));
+  return [...generated, ...concepts];
 }
 
 export function getChiefComplaints(): ChiefComplaintNote[] {
