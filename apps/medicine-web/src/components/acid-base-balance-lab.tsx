@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Activity, Droplets, Gauge, RotateCcw, Scale, Wind } from "lucide-react";
+import { Activity, ArrowRight, Droplets, Gauge, RotateCcw, Scale, Wind } from "lucide-react";
 import { AcidBaseP5Canvas, type AcidBaseSimulationView } from "@/components/acid-base-p5-canvas";
 import {
   calculateAcidBaseState,
@@ -87,6 +87,19 @@ function Metric({ label, value, status }: { label: string; value: string; status
       <div className="text-[11px] font-semibold uppercase text-slate-500">{label}</div>
       <div className="mt-1 font-mono text-xl font-semibold tabular-nums text-slate-950">{value}</div>
       {status ? <div className="mt-1 text-xs text-slate-600">{status}</div> : null}
+    </div>
+  );
+}
+
+function SimulationLegend() {
+  return (
+    <div role="note" aria-label="시뮬레이션 기호 범례" className="border-t border-slate-300 bg-[#f8faf9] px-4 py-3">
+      <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-[11px] leading-4 text-slate-600">
+        <span className="inline-flex items-center gap-2"><span className="h-2 w-2 rounded-full bg-[#3f7185]" aria-hidden="true" /><strong className="text-slate-800">CO₂</strong> 혈중 농도·폐포 배출</span>
+        <span className="inline-flex items-center gap-2"><span className="h-1 w-3 rounded-[1px] bg-[#b08a4a]" aria-hidden="true" /><strong className="text-slate-800">HCO₃⁻</strong> 완충 염기·신장 이동</span>
+        <span className="inline-flex items-center gap-2"><span className="h-1.5 w-1.5 rounded-full bg-[#a95555]" aria-hidden="true" /><strong className="text-slate-800">H⁺</strong> 산성도</span>
+        <span className="inline-flex items-center gap-2"><ArrowRight className="h-3.5 w-4 text-slate-500" aria-hidden="true" />입자 속도·선 굵기 = 상대적 flux</span>
+      </div>
     </div>
   );
 }
@@ -217,6 +230,7 @@ export function AcidBaseBalanceLab() {
       <section className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_360px]">
         <div className="min-w-0 overflow-hidden rounded-md border border-slate-300 bg-[#eef2f1] shadow-sm">
           <AcidBaseP5Canvas state={state} simulation={simulation} />
+          <SimulationLegend />
         </div>
         <aside aria-label="산-염기 조절 변수" className="rounded-md border border-slate-300 bg-[#f8faf9] p-5 shadow-sm">
           <div className="mb-5 flex items-center gap-2">

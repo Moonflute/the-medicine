@@ -72,11 +72,21 @@
 - 장기는 실제 해부 구조를 단순화하되 얇은 outline, 저채도 shading과 작은 cutaway로 깊이를 표현한다. 굵은 검은 외곽선, 만화체, glossy 3D는 사용하지 않는다.
 - 기본 surface는 저채도 회색·청록·조직색으로 구성하고 CO₂, HCO₃⁻, H⁺처럼 조작 의미가 있는 변수만 accent color를 사용한다.
 - particle 수는 농도, 이동 속도·방향·선 굵기는 flux 또는 보상 방향처럼 계산된 상태를 반영해야 한다. 의미 없는 부유 입자는 넣지 않는다.
+- 움직이는 입자와 선에는 화면 안에 범례를 둔다. 색·형태가 어떤 물질을 뜻하는지와 속도·방향·선 굵기가 나타내는 생리량을 함께 설명한다.
 - 폐 팽창, 폐포 CO₂ 제거, bicarbonate buffer, renal handling은 하나의 연속된 시스템으로 읽혀야 한다.
 - preset은 값을 순간 교체하는 데서 끝내지 않고 `원인 발생 → 급성 변수 변화 → 보상 → 새 평형`의 상태 전이를 보여준다. 폐 보상과 신장 보상은 서로 다른 시간 척도를 사용한다.
 - 보상 실행 버튼은 최종값을 즉시 대입하지 않고 입력값, 도해, 시간 표시를 함께 보간해 보상이 진행되는 과정으로 표현한다.
 - inset은 alveolus, nephron, reaction처럼 주 화면의 기전을 확대할 때만 사용하고 모바일에서는 핵심 흐름을 위해 생략할 수 있다.
 - 화면은 개별 교육 카드의 모음보다 하나의 polished physiology interface처럼 구성한다.
+
+### 생성형 해부 도해 기준
+
+- 코드로 그린 장기 형태가 아이콘처럼 보이거나 해부학적 판독성을 떨어뜨리면 투명 배경의 생성형 raster 도해를 사용한다. 생성 이미지는 정적 해부 기반이며 농도, flux, 팽창, 보상 강조는 코드가 담당한다.
+- 같은 페이지의 에셋은 시점, 조명, outline 두께, 조직색과 shading 강도를 통일한다. 기본 프롬프트는 `polished medical/scientific explainer, restrained semi-realistic 2.5D atlas, thin warm-gray contour, muted tissue palette, transparent background`를 공통으로 사용한다.
+- 장기는 완전히 보이는 단일 객체로 만들고 UI에서 필요한 연결 방향을 프롬프트에 명시한다. 배경, 패널, vignette, 외부 그림자, glow, 텍스트, 라벨, 화살표와 입자는 이미지에 굽지 않는다.
+- 과도한 photorealism, 수술 사진 같은 질감, glossy plastic, dramatic 3D, 만화체와 굵은 검은 외곽선을 피한다. 작은 표시 크기에서도 cortex, medulla, bronchial tree처럼 해당 기전에 필요한 구조가 구분되어야 한다.
+- 결과물은 alpha 경계와 불필요한 배경 픽셀을 확인한 뒤 `public/images/physiology/<concept>-<organ>.png`에 저장한다. 페이지에서는 `NEXT_PUBLIC_BASE_PATH`를 붙여 GitHub Pages에서도 같은 경로로 로드한다.
+- 이미지 생성에 사용한 최종 프롬프트는 작업 기록에 남겨 다음 페이지의 분위기와 품질을 재현할 수 있게 한다.
 
 ## 임상 내용 규칙
 

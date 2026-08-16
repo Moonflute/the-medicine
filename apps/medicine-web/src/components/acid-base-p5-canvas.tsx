@@ -5,6 +5,9 @@ import type p5 from "p5";
 import type { AcidBaseState } from "@/lib/acid-base-model";
 
 type P5Instance = p5;
+type P5Image = Awaited<ReturnType<P5Instance["loadImage"]>>;
+
+const ASSET_BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export type AcidBaseSimulationView = {
   phase: "steady" | "disturbance" | "acute" | "compensating" | "compensated";
@@ -59,6 +62,8 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
         let canvasWidth = 760;
         let canvasHeight = 520;
         let lastDescription = "";
+        let lungImage: P5Image | null = null;
+        let kidneyImage: P5Image | null = null;
         const clamp = (value: number, min: number, max: number) => Math.min(max, Math.max(min, value));
         const mapClamped = (value: number, min: number, max: number, start: number, end: number) => p.map(clamp(value, min, max), min, max, start, end);
 
@@ -99,23 +104,6 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           p.pop();
         };
 
-        const lungPath = (side: -1 | 1, scale: number) => {
-          const context = p.drawingContext as CanvasRenderingContext2D;
-          context.save();
-          context.beginPath();
-          context.moveTo(0, -48 * scale);
-          context.bezierCurveTo(34 * side * scale, -52 * scale, 56 * side * scale, -20 * scale, 53 * side * scale, 22 * scale);
-          context.bezierCurveTo(50 * side * scale, 63 * scale, 26 * side * scale, 86 * scale, 5 * side * scale, 79 * scale);
-          context.bezierCurveTo(-4 * side * scale, 69 * scale, -2 * side * scale, 30 * scale, 0, -48 * scale);
-          context.closePath();
-          context.fillStyle = side === -1 ? "#c8afb0" : "#c2a6a9";
-          context.strokeStyle = "#806d70";
-          context.lineWidth = 1.15;
-          context.fill();
-          context.stroke();
-          context.restore();
-        };
-
         const drawLungs = (x: number, y: number, scale: number, current: AcidBaseState, compensationActive: boolean) => {
           const frequency = mapClamped(current.ventilation, 40, 160, 0.035, 0.085);
           const breath = reducedMotion ? 0 : Math.sin(p.frameCount * frequency);
@@ -132,28 +120,12 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           p.push();
           p.translate(x, y);
           p.scale(expansion, 1 + (expansion - 1) * 0.75);
-          for (const side of [-1, 1] as const) {
-            lungPath(side, scale);
-            p.noStroke();
-            p.fill(255, 255, 255, 42);
-            p.ellipse(24 * side * scale, 2 * scale, 25 * scale, 94 * scale);
-            p.stroke("#a1878a");
-            p.strokeWeight(0.8);
-            p.line(8 * side * scale, 10 * scale, 46 * side * scale, 15 * scale);
-            if (side === 1) p.line(11 * scale, 35 * scale, 43 * scale, 42 * scale);
+          if (lungImage) {
+            p.imageMode(p.CENTER);
+            p.tint(255, 224);
+            p.image(lungImage, 0, 0, 145 * scale, 145 * scale);
+            p.noTint();
           }
-          p.stroke("#7a696b");
-          p.strokeWeight(7 * scale);
-          p.line(0, -82 * scale, 0, -42 * scale);
-          p.stroke("#b99fa1");
-          p.strokeWeight(4 * scale);
-          p.line(0, -82 * scale, 0, -42 * scale);
-          p.stroke("#7a696b");
-          p.strokeWeight(2.2 * scale);
-          p.line(0, -42 * scale, -30 * scale, -12 * scale);
-          p.line(0, -42 * scale, 30 * scale, -12 * scale);
-          p.line(-30 * scale, -12 * scale, -42 * scale, 18 * scale);
-          p.line(30 * scale, -12 * scale, 42 * scale, 18 * scale);
           p.pop();
           label("PULMONARY CONTROL", x, y + 105 * scale, 10, COLORS.ink, p.CENTER);
           label(`alveolar ventilation ${current.ventilation.toFixed(0)}%`, x, y + 121 * scale, 10, COLORS.muted, p.CENTER);
@@ -191,25 +163,6 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           label("alveolar CO₂ flux", x, y + radius + 12, 9, COLORS.co2, p.CENTER);
         };
 
-        const kidneyPath = (scale: number) => {
-          const context = p.drawingContext as CanvasRenderingContext2D;
-          context.save();
-          context.beginPath();
-          context.moveTo(-7 * scale, -72 * scale);
-          context.bezierCurveTo(-52 * scale, -73 * scale, -67 * scale, -30 * scale, -59 * scale, 15 * scale);
-          context.bezierCurveTo(-52 * scale, 61 * scale, -18 * scale, 80 * scale, 14 * scale, 65 * scale);
-          context.bezierCurveTo(37 * scale, 54 * scale, 29 * scale, 29 * scale, 8 * scale, 17 * scale);
-          context.bezierCurveTo(31 * scale, 4 * scale, 41 * scale, -18 * scale, 28 * scale, -43 * scale);
-          context.bezierCurveTo(19 * scale, -60 * scale, 7 * scale, -70 * scale, -7 * scale, -72 * scale);
-          context.closePath();
-          context.fillStyle = "#aa8e83";
-          context.strokeStyle = "#7d706c";
-          context.lineWidth = 1.1;
-          context.fill();
-          context.stroke();
-          context.restore();
-        };
-
         const drawKidney = (x: number, y: number, scale: number, current: AcidBaseState, compensationActive: boolean) => {
           if (compensationActive) {
             const pulse = reducedMotion ? 0 : Math.sin(p.frameCount * 0.055) * 5;
@@ -220,23 +173,12 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           }
           p.push();
           p.translate(x, y);
-          kidneyPath(scale);
-          p.noStroke();
-          p.fill(255, 255, 255, 38);
-          p.ellipse(-23 * scale, -4 * scale, 42 * scale, 118 * scale);
-          p.fill("#786b66");
-          p.ellipse(6 * scale, 7 * scale, 22 * scale, 49 * scale);
-          p.fill("#d5c4ad");
-          p.ellipse(8 * scale, 7 * scale, 10 * scale, 34 * scale);
-          p.stroke("#72645f");
-          p.strokeWeight(0.8);
-          p.noFill();
-          for (let index = -2; index <= 2; index += 1) p.arc(-16 * scale, index * 22 * scale, 38 * scale, 25 * scale, -1.2, 1.1);
-          p.stroke("#8d6d62");
-          p.strokeWeight(2);
-          p.line(15 * scale, 4 * scale, 48 * scale, -10 * scale);
-          p.stroke("#6f8791");
-          p.line(15 * scale, 12 * scale, 48 * scale, 22 * scale);
+          if (kidneyImage) {
+            p.imageMode(p.CENTER);
+            p.tint(255, 218);
+            p.image(kidneyImage, 0, 0, 112 * scale, 140 * scale);
+            p.noTint();
+          }
           p.pop();
 
           const renalDrive = clamp((current.paCO2 - 40) / 35, -1, 1);
@@ -390,7 +332,11 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           label(`${view.primaryChange} · ${view.timeLabel}`, textX, 126, 9, COLORS.muted, align);
         };
 
-        p.setup = () => {
+        p.setup = async () => {
+          [lungImage, kidneyImage] = await Promise.all([
+            p.loadImage(`${ASSET_BASE_PATH}/images/physiology/acid-base-lungs.png`),
+            p.loadImage(`${ASSET_BASE_PATH}/images/physiology/acid-base-kidney.png`),
+          ]);
           const canvas = p.createCanvas(canvasWidth, canvasHeight);
           canvas.parent(host);
           p.frameRate(reducedMotion ? 1 : 30);
