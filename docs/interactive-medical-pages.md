@@ -83,6 +83,10 @@
 - 네프론은 `glomerulus → PCT → descending limb → TAL → DCT → collecting duct`의 통상적 피질-수질 구조와 관강 연속성을 유지한다. 분절별 용질 처리는 서로 다른 색칠 카드가 아니라 같은 여과액이 연속 경로를 통과하는 것으로 표현하고, 각 분절을 선택해 수송체와 재흡수·분비 방향을 확인할 수 있게 한다.
 - 심장 시뮬레이션은 해부학적 우심방·우심실·좌심방·좌심실, 판막과 대혈관의 연결을 유지한다. ECG 전기 활성, 판막 개폐, 심실 수축, 압력-용적 고리와 혈류 입자는 같은 심장 주기 위상을 사용한다.
 - 내분비 축은 시상하부·뇌하수체, 갑상선, 부신, 간, 신장과 생식샘을 실제 신체 상대 위치에 놓는다. 호르몬은 임의의 직선 화살표보다 혈류 방향을 따라 이동시키고, 최종 호르몬의 음성 피드백은 상위 두 단계로 되돌아가는 별도 경로로 표시한다.
+- 정적 해부 이미지는 배경 레이어일 뿐이다. 입력에 따라 달라지는 chamber 크기, 막 수송 경로, 호르몬 flux와 피드백 강도는 코드가 계산해 이미지 위에 겹친다. 이미지만 교체하고 상태 변화가 동일하면 구현 실패로 본다.
+- 심장 페이지의 전도, ECG, 심방·심실 수축, 판막과 혈류는 하나의 cardiac-cycle clock을 공유한다. 등용적 수축·이완에서는 모든 판막이 닫히고 혈류가 없어야 하며, QRS 뒤에 심실 수축과 맥박이 나타나야 한다.
+- 네프론에서 용질 선택은 색만 바꾸지 않는다. 선택 용질에 따라 활성 분절, apical/basolateral transporter, transcellular/paracellular 경로와 재흡수·분비 방향이 달라져야 한다. 분절 확대 단면에는 `lumen → apical membrane → cell → basolateral membrane → interstitium → capillary` 경계가 보여야 한다.
+- 내분비 페이지는 축에서 사용하는 호르몬기관과 표적기관을 각각 독립 해부 에셋으로 배치한다. 3단계 축은 `1 → 2 → 3` forward edge와 `3 ┤ 1`, `3 ┤ 2` feedback edge를 모두 표시하고, 수치·단위·상승/감소 상태가 프리셋과 일치해야 한다.
 - 조절값이 많으면 핵심 원인 변수만 기본 노출하고 보조 생리 변수는 disclosure에 접는다. 숨겨진 변수를 바꾸는 preset을 선택하면 해당 disclosure를 자동으로 열고, 모바일에서는 반복 설명문을 숨겨 조절 영역이 결과보다 길어지지 않게 한다.
 - preset은 값을 순간 교체하는 데서 끝내지 않고 `원인 발생 → 급성 변수 변화 → 보상 → 새 평형`의 상태 전이를 보여준다. 폐 보상과 신장 보상은 서로 다른 시간 척도를 사용한다.
 - 보상 실행 버튼은 최종값을 즉시 대입하지 않고 입력값, 도해, 시간 표시를 함께 보간해 보상이 진행되는 과정으로 표현한다.
@@ -98,6 +102,8 @@
 - 결과물은 alpha 경계와 불필요한 배경 픽셀을 확인한 뒤 `public/images/physiology/<concept>-<organ>.png`에 저장한다. 페이지에서는 `NEXT_PUBLIC_BASE_PATH`를 붙여 GitHub Pages에서도 같은 경로로 로드한다.
 - 이미지 생성에 사용한 최종 프롬프트는 작업 기록에 남겨 다음 페이지의 분위기와 품질을 재현할 수 있게 한다.
 
+현재 기관 에셋은 `cardiac-cutaway-v2.png`, `endocrine-brain-pituitary-v2.png`, `endocrine-thyroid-v2.png`, `endocrine-adrenal-kidney-v2.png`, `endocrine-liver-v2.png`, `endocrine-ovaries-v2.png`, `endocrine-pancreas-v2.png`이다. 공통 생성 프롬프트는 `medically accurate isolated anatomy, polished medical atlas, restrained semi-realistic 2.5D, thin warm-gray contour, subtle low-saturation tissue shading, fully transparent background, no labels/arrows/panel/glow/shadow/cartoon/glossy plastic`을 사용하고, 각 파일에는 필요한 해부 구조와 시점을 별도로 명시한다.
+
 ## 임상 내용 규칙
 
 - 페이지에서 사용하는 식, 정상 범위와 보상 규칙은 신뢰 가능한 근거로 검토한다.
@@ -112,6 +118,7 @@
 - 혈역학 모델은 `SV = EDV - ESV`, `CO = SV × HR` 관계를 보존하고 전부하, 후부하와 수축력이 압력-용적 고리에 미치는 방향이 일관되어야 한다. 극단적 빈맥에서는 충만 시간 감소를 반영한다.
 - ECG 페이지는 전기 신호와 기계적 맥박을 구분한다. 전도되지 않은 P파에는 QRS와 맥박을 만들지 않고, 완전 방실차단은 심방과 심실 속도를 독립적으로 표시한다.
 - 내분비 모델은 일차 표적기관 기능저하에서 최종 호르몬 감소·상위 호르몬 증가, 일차 과다에서 반대 방향, 뇌하수체 기능저하에서 하위 두 단계 감소라는 피드백 방향을 보존한다.
+- `npm run verify:physiology`는 심장 부하 변화, 판막 phase invariant, 리듬별 전도 사건, 이뇨제 수송체 선택성, ADH 수분 처리와 내분비 피드백 방향을 직접 검증한다. 새 모델 입력이나 축을 추가하면 해당 방향성 assertion도 함께 추가한다.
 
 ## 검증 체크리스트
 

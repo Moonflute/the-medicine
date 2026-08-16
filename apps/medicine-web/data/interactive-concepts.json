@@ -43,8 +43,8 @@
     "title": "Nephron Electrolyte Handling",
     "shortTitle": "네프론 전해질 수송",
     "aliases": ["Nephron", "Tubular transport", "세뇨관 수송", "네프론"],
-    "keywords": ["NKCC2", "NCC", "ENaC", "AQP2", "세뇨관", "네프론", "전해질 재흡수"],
-    "summary": "네프론 분절별 물·전해질 수송과 ADH, aldosterone, 이뇨제 효과를 확인합니다.",
+    "keywords": ["NKCC2", "NCC", "ENaC", "ROMK", "AQP2", "TRPV5", "TRPM6", "세뇨관", "네프론", "전해질 재흡수"],
+    "summary": "네프론 분절을 선택해 관강·상피·간질·모세혈관 사이의 물·전해질 수송체와 이뇨제 효과를 확인합니다.",
     "specialties": ["신장"],
     "targets": [
       { "type": "lab", "title": "Electrolytes overview", "label": "Electrolytes" },
@@ -62,7 +62,7 @@
     "shortTitle": "심장 혈역학",
     "aliases": ["Hemodynamics", "Pressure volume loop", "전부하", "후부하", "심박출량"],
     "keywords": ["preload", "afterload", "contractility", "stroke volume", "cardiac output", "압력-용적 고리"],
-    "summary": "전부하·후부하·수축력과 심박수가 심실 용적과 심박출량을 바꾸는 과정을 확인합니다.",
+    "summary": "전도, ECG, 판막, 심실 수축과 혈류가 동기화된 심주기에서 전부하·후부하·수축력의 효과를 확인합니다.",
     "specialties": ["순환기"],
     "targets": [
       { "type": "lab", "title": "Echocardiography", "label": "Echocardiography" },
@@ -76,7 +76,7 @@
     "shortTitle": "ECG와 부정맥",
     "aliases": ["Electrocardiography", "ECG rhythm", "심전도", "부정맥"],
     "keywords": ["ECG", "심전도", "부정맥", "AV block", "심방세동", "심실빈맥"],
-    "summary": "심장 전도계, 표면 ECG, 심실 수축과 맥박의 관계를 리듬별로 확인합니다.",
+    "summary": "리듬별 P파·QRS 사건과 AV 전도, 탈락 박동 및 기계적 맥박의 관계를 확인합니다.",
     "specialties": ["순환기", "응급의학"],
     "targets": [
       { "type": "disease", "title": "부정맥", "label": "부정맥" }
@@ -87,14 +87,15 @@
     "slug": "endocrine-feedback-axes",
     "title": "Endocrine Feedback Axes",
     "shortTitle": "내분비 호르몬 축",
-    "aliases": ["Endocrine axis", "Negative feedback", "HPT axis", "HPA axis", "호르몬 피드백"],
-    "keywords": ["negative feedback", "TRH", "TSH", "ACTH", "cortisol", "GnRH", "IGF-1", "ADH", "음성 피드백"],
-    "summary": "시상하부-뇌하수체-표적기관 호르몬 축과 일차성·이차성 이상을 비교합니다.",
+    "aliases": ["Endocrine axis", "Negative feedback", "HPT axis", "HPA axis", "HPG axis", "Glucose insulin axis", "호르몬 피드백"],
+    "keywords": ["negative feedback", "TRH", "TSH", "ACTH", "cortisol", "GnRH", "IGF-1", "ADH", "insulin", "glucose", "음성 피드백"],
+    "summary": "실제 기관 위치에서 갑상선·부신·난소·성장·ADH·insulin 축의 수치와 다단계 피드백을 비교합니다.",
     "specialties": ["내분비", "산과", "부인과", "신장"],
     "targets": [
       { "type": "lab", "title": "Thyroid function overview", "label": "Thyroid function" },
       { "type": "lab", "title": "Thyroid-Stimulating Hormone (TSH)", "label": "TSH" },
       { "type": "lab", "title": "Cortisol", "label": "Cortisol" },
+      { "type": "lab", "title": "Urine Osmolality", "label": "Urine Osmolality" },
       { "type": "disease", "title": "갑상선 기능 저하증 (Hypothyroidism)", "label": "갑상선 기능 저하증" }
     ],
     "status": "prototype"
