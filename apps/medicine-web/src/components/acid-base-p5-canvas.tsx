@@ -54,7 +54,14 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
           p.resizeCanvas(canvasWidth, canvasHeight);
         };
 
-        const label = (text: string, x: number, y: number, size = 11, color = COLORS.muted, align: p5.HORIZ_ALIGN = p.LEFT) => {
+        const label = (
+          text: string,
+          x: number,
+          y: number,
+          size = 11,
+          color = COLORS.muted,
+          align: typeof p.LEFT | typeof p.CENTER | typeof p.RIGHT = p.LEFT,
+        ) => {
           p.noStroke();
           p.fill(color);
           p.textAlign(align, p.CENTER);
