@@ -18,5 +18,24 @@
       { "type": "lab", "title": "Bicarbonate (Total CO2)", "label": "Bicarbonate" }
     ],
     "status": "prototype"
+  },
+  {
+    "slug": "oxygenation-gas-exchange",
+    "title": "Oxygenation and Gas Exchange",
+    "shortTitle": "산소화와 가스교환",
+    "aliases": ["Oxygenation", "Gas Exchange", "산소화", "가스교환", "산소해리곡선"],
+    "keywords": ["PaO2", "SaO2", "A-a gradient", "V/Q mismatch", "shunt fraction", "저산소혈증", "PaO2/FiO2", "oxygen dissociation"],
+    "summary": "FiO2, 환기, V/Q 불균형, shunt와 hemoglobin을 조절하며 폐포에서 조직까지의 산소 전달을 확인합니다.",
+    "specialties": ["호흡기", "혈액", "순환기"],
+    "targets": [
+      { "type": "lab", "title": "Arterial Blood Gas Analysis (ABGA)", "label": "ABGA" },
+      { "type": "lab", "title": "Hemoglobin", "label": "Hemoglobin" },
+      { "type": "disease", "title": "호흡부전 (Respiratory Failure)", "label": "호흡부전" },
+      { "type": "disease", "title": "급성 호흡곤란 증후군 (ARDS) (Acute Respiratory Distress Syndrome)", "label": "ARDS" },
+      { "type": "disease", "title": "만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease)", "label": "COPD" },
+      { "type": "disease", "title": "심부 정맥 혈전증 및 폐색전증 (Deep Vein Thrombosis and Pulmonary Embolism)", "label": "폐색전증" },
+      { "type": "disease", "title": "빈혈 (Anemia)", "label": "빈혈" }
+    ],
+    "status": "prototype"
   }
 ]

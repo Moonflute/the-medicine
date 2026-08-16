@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { AcidBaseBalanceLab } from "@/components/acid-base-balance-lab";
+import { OxygenationGasExchangeLab } from "@/components/oxygenation-gas-exchange-lab";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { getInteractiveConcept, interactiveConcepts } from "@/lib/interactive-concepts";
@@ -33,6 +34,7 @@ export default async function InteractiveConceptPage({ params }: { params: Promi
       </nav>
 
       {slug === "acid-base-balance" ? <AcidBaseBalanceLab /> : null}
+      {slug === "oxygenation-gas-exchange" ? <OxygenationGasExchangeLab /> : null}
 
       <RelatedClinicalContent relations={relations} />
       <ParentPageFab href="/specialties" />

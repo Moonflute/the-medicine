@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Activity, ArrowRight, Droplets, Gauge, RotateCcw, Scale, Wind } from "lucide-react";
 import { AcidBaseP5Canvas, type AcidBaseSimulationView } from "@/components/acid-base-p5-canvas";
@@ -209,9 +210,14 @@ export function AcidBaseBalanceLab() {
   return (
     <main className="space-y-5">
       <header className="border-b border-slate-200 pb-6">
-        <div className="flex flex-wrap items-center gap-2 text-xs font-semibold uppercase text-teal-800">
-          <Activity className="h-4 w-4" />
-          Interactive physiology
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="flex items-center gap-2 text-xs font-semibold uppercase text-teal-800">
+            <Activity className="h-4 w-4" />
+            Interactive physiology
+          </div>
+          <Link href="/interactive/oxygenation-gas-exchange" className="inline-flex items-center gap-2 rounded-md border border-slate-300 bg-white px-3 py-2 text-xs font-semibold text-slate-700 hover:border-teal-500 hover:text-teal-800">
+            산소화와 가스교환 <ArrowRight className="h-4 w-4" />
+          </Link>
         </div>
         <h1 className="mt-3 text-3xl font-bold text-slate-950 sm:text-4xl">산-염기 균형</h1>
         <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-600 sm:text-base">
