@@ -127,8 +127,8 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
             p.noTint();
           }
           p.pop();
-          label("PULMONARY CONTROL", x, y + 105 * scale, 10, COLORS.ink, p.CENTER);
-          label(`alveolar ventilation ${current.ventilation.toFixed(0)}%`, x, y + 121 * scale, 10, COLORS.muted, p.CENTER);
+          label("PULMONARY CONTROL", x, y + 105 * scale, 11, COLORS.ink, p.CENTER);
+          label(`alveolar ventilation ${current.ventilation.toFixed(0)}%`, x, y + 121 * scale, 11, COLORS.muted, p.CENTER);
         };
 
         const drawAlveolarInset = (x: number, y: number, radius: number, current: AcidBaseState) => {
@@ -160,7 +160,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
             p.fill(COLORS.co2);
             p.circle(x + Math.cos(angle) * radius * 0.66, y + Math.sin(angle) * radius * 0.66, 4.5);
           }
-          label("alveolar CO₂ flux", x, y + radius + 12, 9, COLORS.co2, p.CENTER);
+          label("alveolar CO₂ flux", x, y + radius + 12, 10, COLORS.co2, p.CENTER);
         };
 
         const drawKidney = (x: number, y: number, scale: number, current: AcidBaseState, compensationActive: boolean) => {
@@ -183,8 +183,8 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
 
           const renalDrive = clamp((current.paCO2 - 40) / 35, -1, 1);
           const driveLabel = renalDrive > 0.12 ? "HCO₃⁻ conservation / generation" : renalDrive < -0.12 ? "HCO₃⁻ excretion favored" : "baseline renal handling";
-          label("RENAL CONTROL", x, y + 98 * scale, 10, COLORS.ink, p.CENTER);
-          label(driveLabel, x, y + 114 * scale, 9, renalDrive < -0.12 ? COLORS.hydrogen : COLORS.bicarbonate, p.CENTER);
+          label("RENAL CONTROL", x, y + 98 * scale, 11, COLORS.ink, p.CENTER);
+          label(driveLabel, x, y + 114 * scale, 10, renalDrive < -0.12 ? COLORS.hydrogen : COLORS.bicarbonate, p.CENTER);
         };
 
         const drawNephronInset = (x: number, y: number, width: number, current: AcidBaseState) => {
@@ -215,7 +215,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
             p.fill(COLORS.bicarbonate);
             p.circle(x + width * (0.38 + index * 0.09), p.lerp(startY, endY, progress), 5);
           }
-          label(renalDrive < -0.12 ? "urinary HCO₃⁻ loss" : "HCO₃⁻ return to blood", x + width / 2, y + height + 11, 9, COLORS.bicarbonate, p.CENTER);
+          label(renalDrive < -0.12 ? "urinary HCO₃⁻ loss" : "HCO₃⁻ return to blood", x + width / 2, y + height + 11, 10, COLORS.bicarbonate, p.CENTER);
         };
 
         const drawBloodCompartment = (x: number, y: number, width: number, current: AcidBaseState) => {
@@ -253,8 +253,8 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
             p.fill(COLORS.hydrogen);
             p.circle(x + 18 + progress * (width - 36), y + 43, 3.5);
           }
-          label(`PaCO₂ ${current.paCO2.toFixed(0)}`, x + 13, y - 11, 10, COLORS.co2, p.LEFT);
-          label(`HCO₃⁻ ${current.bicarbonate.toFixed(1)}`, x + width - 13, y - 11, 10, COLORS.bicarbonate, p.RIGHT);
+          label(`PaCO₂ ${current.paCO2.toFixed(0)}`, x + 13, y - 11, 11, COLORS.co2, p.LEFT);
+          label(`HCO₃⁻ ${current.bicarbonate.toFixed(1)}`, x + width - 13, y - 11, 11, COLORS.bicarbonate, p.RIGHT);
         };
 
         const drawBufferReaction = (x: number, y: number, width: number, current: AcidBaseState) => {
@@ -265,7 +265,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           p.strokeWeight(0.8);
           p.noFill();
           p.rect(x, y, width, 54, 6);
-          label("BICARBONATE BUFFER", x + 12, y + 13, 9, COLORS.muted, p.LEFT);
+          label("BICARBONATE BUFFER", x + 12, y + 13, 10, COLORS.muted, p.LEFT);
           const reaction = width < 300 ? "CO₂ ⇄ H⁺ + HCO₃⁻" : "CO₂ + H₂O  ⇄  H₂CO₃  ⇄  H⁺ + HCO₃⁻";
           label(reaction, x + width / 2, y + 34, width < 300 ? 11 : 13, COLORS.ink, p.CENTER);
           p.noStroke();
@@ -285,8 +285,8 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           p.strokeWeight(0.8);
           p.noFill();
           p.rect(x, y, width, 76, 7);
-          label("SYSTEMIC ACID–BASE STATE", x + 14, y + 14, 9, COLORS.muted, p.LEFT);
-          label(current.pattern, x + width - 14, y + 14, 10, COLORS.ink, p.RIGHT);
+          label("SYSTEMIC ACID–BASE STATE", x + 14, y + 14, 10, COLORS.muted, p.LEFT);
+          label(current.pattern, x + width - 14, y + 14, 11, COLORS.ink, p.RIGHT);
           p.stroke("#c8d0d1");
           p.strokeWeight(4);
           p.line(x + 16, gaugeY, x + width - 16, gaugeY);
@@ -297,8 +297,8 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           p.noStroke();
           p.fill(statusColor(current));
           p.circle(markerX, gaugeY, 13);
-          label("6.90", x + 16, gaugeY + 16, 9, COLORS.muted, p.LEFT);
-          label("7.80", x + width - 16, gaugeY + 16, 9, COLORS.muted, p.RIGHT);
+          label("6.90", x + 16, gaugeY + 16, 10, COLORS.muted, p.LEFT);
+          label("7.80", x + width - 16, gaugeY + 16, 10, COLORS.muted, p.RIGHT);
           label(`pH ${current.pH.toFixed(2)}`, markerX, gaugeY - 16, 13, statusColor(current), p.CENTER);
         };
 
@@ -320,7 +320,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
             p.noStroke();
             p.fill(view.progress + 0.015 >= stageProgress ? statusColor(stateRef.current) : "#c1cbcc");
             p.circle(x, y, 7);
-            label(stage, x, y - 12, canvasWidth < 620 ? 8 : 9, COLORS.muted, p.CENTER);
+            label(stage, x, y - 12, canvasWidth < 620 ? 9 : 10, COLORS.muted, p.CENTER);
           });
         };
 
@@ -328,8 +328,8 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           const causeX = /환기|CO₂/.test(`${view.cause} ${view.primaryChange}`) ? lungX : kidneyX;
           const align = causeX < canvasWidth / 2 ? p.LEFT : p.RIGHT;
           const textX = causeX < canvasWidth / 2 ? 25 : canvasWidth - 25;
-          label(view.cause, textX, 116, 10, COLORS.ink, align);
-          label(`${view.primaryChange} · ${view.timeLabel}`, textX, 126, 9, COLORS.muted, align);
+          label(view.cause, textX, 116, 11, COLORS.ink, align);
+          label(`${view.primaryChange} · ${view.timeLabel}`, textX, 127, 10, COLORS.muted, align);
         };
 
         p.setup = async () => {

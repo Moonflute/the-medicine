@@ -94,7 +94,7 @@ function Metric({ label, value, status }: { label: string; value: string; status
 function SimulationLegend() {
   return (
     <div role="note" aria-label="시뮬레이션 기호 범례" className="border-t border-slate-300 bg-[#f8faf9] px-4 py-3">
-      <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-[11px] leading-4 text-slate-600">
+      <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs leading-5 text-slate-600">
         <span className="inline-flex items-center gap-2"><span className="h-2 w-2 rounded-full bg-[#3f7185]" aria-hidden="true" /><strong className="text-slate-800">CO₂</strong> 혈중 농도·폐포 배출</span>
         <span className="inline-flex items-center gap-2"><span className="h-1 w-3 rounded-[1px] bg-[#b08a4a]" aria-hidden="true" /><strong className="text-slate-800">HCO₃⁻</strong> 완충 염기·신장 이동</span>
         <span className="inline-flex items-center gap-2"><span className="h-1.5 w-1.5 rounded-full bg-[#a95555]" aria-hidden="true" /><strong className="text-slate-800">H⁺</strong> 산성도</span>
