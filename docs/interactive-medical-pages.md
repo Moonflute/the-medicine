@@ -66,6 +66,16 @@
 - 캔버스에는 `describe()`로 현재 상태를 설명한다. 색만으로 정상과 이상을 구분하지 않는다.
 - 애니메이션이 필요 없는 도식은 HTML/CSS 또는 정적 SVG가 더 단순하면 그것을 사용한다.
 
+## 시각 디자인 기준
+
+- 학생용 플랫 아이콘보다 medical/scientific explainer와 절제된 semi-realistic 2.5D 도해를 지향한다.
+- 장기는 실제 해부 구조를 단순화하되 얇은 outline, 저채도 shading과 작은 cutaway로 깊이를 표현한다. 굵은 검은 외곽선, 만화체, glossy 3D는 사용하지 않는다.
+- 기본 surface는 저채도 회색·청록·조직색으로 구성하고 CO₂, HCO₃⁻, H⁺처럼 조작 의미가 있는 변수만 accent color를 사용한다.
+- particle 수는 농도, 이동 속도·방향·선 굵기는 flux 또는 보상 방향처럼 계산된 상태를 반영해야 한다. 의미 없는 부유 입자는 넣지 않는다.
+- 폐 팽창, 폐포 CO₂ 제거, bicarbonate buffer, renal handling은 하나의 연속된 시스템으로 읽혀야 한다.
+- inset은 alveolus, nephron, reaction처럼 주 화면의 기전을 확대할 때만 사용하고 모바일에서는 핵심 흐름을 위해 생략할 수 있다.
+- 화면은 개별 교육 카드의 모음보다 하나의 polished physiology interface처럼 구성한다.
+
 ## 임상 내용 규칙
 
 - 페이지에서 사용하는 식, 정상 범위와 보상 규칙은 신뢰 가능한 근거로 검토한다.

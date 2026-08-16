@@ -6,10 +6,21 @@ import type { AcidBaseState } from "@/lib/acid-base-model";
 
 type P5Instance = p5;
 
+const COLORS = {
+  ink: "#243238",
+  muted: "#68777d",
+  line: "#bcc7c9",
+  co2: "#3f7185",
+  bicarbonate: "#b08a4a",
+  hydrogen: "#a95555",
+  normal: "#39786f",
+  alkali: "#6b668e",
+};
+
 function statusColor(state: AcidBaseState) {
-  if (state.status === "acidemia") return "#dc2626";
-  if (state.status === "alkalemia") return "#7c3aed";
-  return "#0f766e";
+  if (state.status === "acidemia") return COLORS.hydrogen;
+  if (state.status === "alkalemia") return COLORS.alkali;
+  return COLORS.normal;
 }
 
 export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
@@ -31,104 +42,276 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
       const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
       const sketch = (p: P5Instance) => {
-        let canvasWidth = 720;
-        let canvasHeight = 430;
+        let canvasWidth = 760;
+        let canvasHeight = 520;
         let lastDescription = "";
+        const clamp = (value: number, min: number, max: number) => Math.min(max, Math.max(min, value));
+        const mapClamped = (value: number, min: number, max: number, start: number, end: number) => p.map(clamp(value, min, max), min, max, start, end);
 
         const resize = () => {
           canvasWidth = Math.max(320, Math.floor(host.clientWidth));
-          canvasHeight = Math.max(360, Math.min(500, Math.floor(canvasWidth * 0.62)));
+          canvasHeight = clamp(Math.floor(canvasWidth * 0.68), 460, 570);
           p.resizeCanvas(canvasWidth, canvasHeight);
         };
 
-        const drawArrow = (x1: number, y1: number, x2: number, y2: number, color: string, weight = 3) => {
+        const label = (text: string, x: number, y: number, size = 11, color = COLORS.muted, align: p5.HORIZ_ALIGN = p.LEFT) => {
+          p.noStroke();
+          p.fill(color);
+          p.textAlign(align, p.CENTER);
+          p.textStyle(p.NORMAL);
+          p.textSize(size);
+          p.text(text, x, y);
+        };
+
+        const drawArrow = (x1: number, y1: number, x2: number, y2: number, color: string, weight: number, phase = 0) => {
           const angle = Math.atan2(y2 - y1, x2 - x1);
           p.stroke(color);
           p.strokeWeight(weight);
           p.line(x1, y1, x2, y2);
+          const progress = reducedMotion ? 0.78 : (p.frameCount * 0.012 + phase) % 1;
           p.push();
-          p.translate(x2, y2);
+          p.translate(p.lerp(x1, x2, progress), p.lerp(y1, y2, progress));
           p.rotate(angle);
           p.noStroke();
           p.fill(color);
-          p.triangle(0, 0, -9, -5, -9, 5);
+          p.triangle(5, 0, -5, -3.5, -5, 3.5);
           p.pop();
         };
 
-        const drawLungs = (x: number, y: number, scale: number, current: AcidBaseState) => {
-          const breath = reducedMotion ? 0 : Math.sin(p.frameCount * 0.08) * (current.ventilation / 100) * 3;
-          p.noStroke();
-          p.fill("#fee2e2");
-          p.ellipse(x - 34, y, 65 + breath, 112 + breath);
-          p.ellipse(x + 34, y, 65 + breath, 112 + breath);
-          p.fill("#fecaca");
-          p.ellipse(x - 34, y, 43 + breath, 82 + breath);
-          p.ellipse(x + 34, y, 43 + breath, 82 + breath);
-          p.stroke("#991b1b");
-          p.strokeWeight(7 * scale);
-          p.line(x, y - 80, x, y - 25);
-          p.line(x, y - 25, x - 24, y - 2);
-          p.line(x, y - 25, x + 24, y - 2);
-          p.noStroke();
-          p.fill("#7f1d1d");
-          p.textAlign(p.CENTER, p.CENTER);
-          p.textSize(14);
-          p.textStyle(p.BOLD);
-          p.text("LUNGS", x, y + 78);
-          p.textStyle(p.NORMAL);
-          p.textSize(12);
-          p.fill("#475569");
-          p.text(`환기 ${current.ventilation.toFixed(0)}%`, x, y + 97);
-        };
-
-        const drawKidney = (x: number, y: number, current: AcidBaseState) => {
-          p.noStroke();
-          p.fill("#fef3c7");
+        const lungPath = (side: -1 | 1, scale: number) => {
           p.beginShape();
-          for (let a = 0; a < p.TWO_PI; a += 0.12) {
-            const radius = 54 + 12 * Math.sin(a);
-            const px = x + Math.cos(a) * radius * 0.72;
-            const py = y + Math.sin(a) * radius;
-            p.vertex(px, py);
-          }
+          p.vertex(0, -48 * scale);
+          p.bezierVertex(34 * side * scale, -52 * scale, 56 * side * scale, -20 * scale, 53 * side * scale, 22 * scale);
+          p.bezierVertex(50 * side * scale, 63 * scale, 26 * side * scale, 86 * scale, 5 * side * scale, 79 * scale);
+          p.bezierVertex(-4 * side * scale, 69 * scale, -2 * side * scale, 30 * scale, 0, -48 * scale);
           p.endShape(p.CLOSE);
-          p.fill("#f59e0b");
-          p.ellipse(x + 7, y, 18, 56);
-          p.fill("#78350f");
-          p.textAlign(p.CENTER, p.CENTER);
-          p.textStyle(p.BOLD);
-          p.textSize(14);
-          p.text("KIDNEY", x, y + 78);
-          p.textStyle(p.NORMAL);
-          p.textSize(12);
-          p.fill("#475569");
-          p.text(`HCO3- ${current.bicarbonate.toFixed(1)}`, x, y + 97);
         };
 
-        const drawParticles = (current: AcidBaseState, bloodY: number) => {
-          const co2Count = Math.round(Math.min(18, current.paCO2 / 5));
-          const hco3Count = Math.round(Math.min(18, current.bicarbonate / 2.2));
+        const drawLungs = (x: number, y: number, scale: number, current: AcidBaseState) => {
+          const frequency = mapClamped(current.ventilation, 40, 160, 0.035, 0.085);
+          const breath = reducedMotion ? 0 : Math.sin(p.frameCount * frequency);
+          const expansion = 1 + breath * mapClamped(current.ventilation, 40, 160, 0.012, 0.045);
+
+          p.push();
+          p.translate(x, y);
+          p.scale(expansion, 1 + (expansion - 1) * 0.75);
+          for (const side of [-1, 1] as const) {
+            p.stroke("#806d70");
+            p.strokeWeight(1.15);
+            p.fill(side === -1 ? "#c8afb0" : "#c2a6a9");
+            lungPath(side, scale);
+            p.noStroke();
+            p.fill(255, 255, 255, 42);
+            p.ellipse(24 * side * scale, 2 * scale, 25 * scale, 94 * scale);
+            p.stroke("#a1878a");
+            p.strokeWeight(0.8);
+            p.line(8 * side * scale, 10 * scale, 46 * side * scale, 15 * scale);
+            if (side === 1) p.line(11 * scale, 35 * scale, 43 * scale, 42 * scale);
+          }
+          p.stroke("#7a696b");
+          p.strokeWeight(7 * scale);
+          p.line(0, -82 * scale, 0, -42 * scale);
+          p.stroke("#b99fa1");
+          p.strokeWeight(4 * scale);
+          p.line(0, -82 * scale, 0, -42 * scale);
+          p.stroke("#7a696b");
+          p.strokeWeight(2.2 * scale);
+          p.line(0, -42 * scale, -30 * scale, -12 * scale);
+          p.line(0, -42 * scale, 30 * scale, -12 * scale);
+          p.line(-30 * scale, -12 * scale, -42 * scale, 18 * scale);
+          p.line(30 * scale, -12 * scale, 42 * scale, 18 * scale);
+          p.pop();
+          label("PULMONARY CONTROL", x, y + 105 * scale, 10, COLORS.ink, p.CENTER);
+          label(`alveolar ventilation ${current.ventilation.toFixed(0)}%`, x, y + 121 * scale, 10, COLORS.muted, p.CENTER);
+        };
+
+        const drawAlveolarInset = (x: number, y: number, radius: number, current: AcidBaseState) => {
+          p.noStroke();
+          p.fill(247, 249, 248, 235);
+          p.circle(x, y, radius * 2);
+          p.stroke(COLORS.line);
+          p.strokeWeight(1);
+          p.noFill();
+          p.circle(x, y, radius * 2);
+          for (let index = 0; index < 6; index += 1) {
+            const angle = p.TWO_PI * index / 6;
+            p.fill("#d8c3c4");
+            p.stroke("#9a8588");
+            p.strokeWeight(0.75);
+            p.circle(x + Math.cos(angle) * radius * 0.34, y + Math.sin(angle) * radius * 0.31, radius * 0.36);
+          }
+          p.noFill();
+          p.stroke("#728d98");
+          p.strokeWeight(2);
+          p.arc(x, y, radius * 1.55, radius * 1.55, -0.3, p.PI + 0.55);
+
+          const flux = clamp((current.paCO2 / 40) * (current.ventilation / 100), 0.4, 2.3);
+          const count = Math.round(mapClamped(flux, 0.4, 2.3, 2, 7));
+          for (let index = 0; index < count; index += 1) {
+            const progress = reducedMotion ? (index + 1) / (count + 1) : (p.frameCount * 0.01 * flux + index / count) % 1;
+            const angle = p.lerp(0.8, -1.15, progress);
+            p.noStroke();
+            p.fill(COLORS.co2);
+            p.circle(x + Math.cos(angle) * radius * 0.66, y + Math.sin(angle) * radius * 0.66, 4.5);
+          }
+          label("alveolar CO₂ flux", x, y + radius + 12, 9, COLORS.co2, p.CENTER);
+        };
+
+        const kidneyPath = (scale: number) => {
+          p.beginShape();
+          p.vertex(-7 * scale, -72 * scale);
+          p.bezierVertex(-52 * scale, -73 * scale, -67 * scale, -30 * scale, -59 * scale, 15 * scale);
+          p.bezierVertex(-52 * scale, 61 * scale, -18 * scale, 80 * scale, 14 * scale, 65 * scale);
+          p.bezierVertex(37 * scale, 54 * scale, 29 * scale, 29 * scale, 8 * scale, 17 * scale);
+          p.bezierVertex(31 * scale, 4 * scale, 41 * scale, -18 * scale, 28 * scale, -43 * scale);
+          p.bezierVertex(19 * scale, -60 * scale, 7 * scale, -70 * scale, -7 * scale, -72 * scale);
+          p.endShape(p.CLOSE);
+        };
+
+        const drawKidney = (x: number, y: number, scale: number, current: AcidBaseState) => {
+          p.push();
+          p.translate(x, y);
+          p.stroke("#7d706c");
+          p.strokeWeight(1.1);
+          p.fill("#aa8e83");
+          kidneyPath(scale);
+          p.noStroke();
+          p.fill(255, 255, 255, 38);
+          p.ellipse(-23 * scale, -4 * scale, 42 * scale, 118 * scale);
+          p.fill("#786b66");
+          p.ellipse(6 * scale, 7 * scale, 22 * scale, 49 * scale);
+          p.fill("#d5c4ad");
+          p.ellipse(8 * scale, 7 * scale, 10 * scale, 34 * scale);
+          p.stroke("#72645f");
+          p.strokeWeight(0.8);
+          p.noFill();
+          for (let index = -2; index <= 2; index += 1) p.arc(-16 * scale, index * 22 * scale, 38 * scale, 25 * scale, -1.2, 1.1);
+          p.stroke("#8d6d62");
+          p.strokeWeight(2);
+          p.line(15 * scale, 4 * scale, 48 * scale, -10 * scale);
+          p.stroke("#6f8791");
+          p.line(15 * scale, 12 * scale, 48 * scale, 22 * scale);
+          p.pop();
+
+          const renalDrive = clamp((current.paCO2 - 40) / 35, -1, 1);
+          const driveLabel = renalDrive > 0.12 ? "HCO₃⁻ conservation / generation" : renalDrive < -0.12 ? "HCO₃⁻ excretion favored" : "baseline renal handling";
+          label("RENAL CONTROL", x, y + 98 * scale, 10, COLORS.ink, p.CENTER);
+          label(driveLabel, x, y + 114 * scale, 9, renalDrive < -0.12 ? COLORS.hydrogen : COLORS.bicarbonate, p.CENTER);
+        };
+
+        const drawNephronInset = (x: number, y: number, width: number, current: AcidBaseState) => {
+          const height = 54;
+          p.noStroke();
+          p.fill(247, 249, 248, 238);
+          p.rect(x, y, width, height, 6);
+          p.stroke(COLORS.line);
+          p.strokeWeight(1);
+          p.noFill();
+          p.rect(x, y, width, height, 6);
+          const midY = y + 28;
+          p.stroke("#8a7770");
+          p.strokeWeight(7);
+          p.noFill();
+          p.bezier(x + 12, midY, x + width * 0.35, y + 4, x + width * 0.62, y + 50, x + width - 12, midY);
+          p.stroke("#cfbbb1");
+          p.strokeWeight(4);
+          p.bezier(x + 12, midY, x + width * 0.35, y + 4, x + width * 0.62, y + 50, x + width - 12, midY);
+
+          const renalDrive = clamp((current.paCO2 - 40) / 35, -1, 1);
+          const startY = renalDrive < -0.12 ? y + 8 : y + height - 7;
+          const endY = renalDrive < -0.12 ? y + height - 7 : y + 8;
+          const flux = Math.max(0.25, Math.abs(renalDrive));
+          for (let index = 0; index < Math.round(2 + flux * 3); index += 1) {
+            const progress = reducedMotion ? 0.55 : (p.frameCount * 0.009 * flux + index * 0.21) % 1;
+            p.noStroke();
+            p.fill(COLORS.bicarbonate);
+            p.circle(x + width * (0.38 + index * 0.09), p.lerp(startY, endY, progress), 5);
+          }
+          label(renalDrive < -0.12 ? "urinary HCO₃⁻ loss" : "HCO₃⁻ return to blood", x + width / 2, y + height + 11, 9, COLORS.bicarbonate, p.CENTER);
+        };
+
+        const drawBloodCompartment = (x: number, y: number, width: number, current: AcidBaseState) => {
+          const height = 78;
+          p.noStroke();
+          p.fill("#dde4e4");
+          p.rect(x, y, width, height, 18);
+          p.fill("#f5f7f6");
+          p.rect(x + 5, y + 6, width - 10, height - 12, 14);
+          p.stroke("#c2cdcf");
+          p.strokeWeight(0.8);
+          p.line(x + 14, y + height / 2, x + width - 14, y + height / 2);
+
+          const co2Count = Math.round(mapClamped(current.paCO2, 15, 100, 3, 16));
+          const bicarbonateCount = Math.round(mapClamped(current.bicarbonate, 8, 40, 3, 15));
+          const hydrogenCount = Math.round(mapClamped(current.pH, 7.8, 6.9, 2, 10));
+          const movement = reducedMotion ? 0 : p.frameCount * 0.003;
           for (let index = 0; index < co2Count; index += 1) {
-            const progress = reducedMotion ? index / Math.max(1, co2Count - 1) : (p.frameCount * 0.008 + index / co2Count) % 1;
-            const x = p.lerp(canvasWidth * 0.25, canvasWidth * 0.72, progress);
-            const y = bloodY + Math.sin(index * 2.1 + p.frameCount * 0.04) * 15;
+            const progress = (index / co2Count + movement) % 1;
             p.noStroke();
-            p.fill("#2563eb");
-            p.circle(x, y, 14);
-            p.fill("#ffffff");
-            p.textAlign(p.CENTER, p.CENTER);
-            p.textSize(7);
-            p.textStyle(p.BOLD);
-            p.text("CO2", x, y + 0.5);
+            p.fill(COLORS.co2);
+            p.circle(x + 16 + progress * (width - 32), y + 17 + (index % 3) * 9, 5.5);
           }
-          for (let index = 0; index < hco3Count; index += 1) {
-            const progress = reducedMotion ? index / Math.max(1, hco3Count - 1) : (p.frameCount * 0.006 + index / hco3Count) % 1;
-            const x = p.lerp(canvasWidth * 0.72, canvasWidth * 0.25, progress);
-            const y = bloodY + 22 + Math.cos(index * 1.7 + p.frameCount * 0.03) * 8;
+          for (let index = 0; index < bicarbonateCount; index += 1) {
+            const progress = (index / bicarbonateCount - movement * 0.7 + 1) % 1;
+            const px = x + 16 + progress * (width - 32);
+            const py = y + 50 + (index % 2) * 9;
             p.noStroke();
-            p.fill("#f59e0b");
-            p.rect(x - 8, y - 6, 16, 12, 3);
+            p.fill(COLORS.bicarbonate);
+            p.rect(px - 3, py - 2, 6, 4, 1);
           }
+          for (let index = 0; index < hydrogenCount; index += 1) {
+            const progress = (index / hydrogenCount + movement * 1.2) % 1;
+            p.noStroke();
+            p.fill(COLORS.hydrogen);
+            p.circle(x + 18 + progress * (width - 36), y + 43, 3.5);
+          }
+          label(`PaCO₂ ${current.paCO2.toFixed(0)}`, x + 13, y - 11, 10, COLORS.co2, p.LEFT);
+          label(`HCO₃⁻ ${current.bicarbonate.toFixed(1)}`, x + width - 13, y - 11, 10, COLORS.bicarbonate, p.RIGHT);
+        };
+
+        const drawBufferReaction = (x: number, y: number, width: number, current: AcidBaseState) => {
+          p.noStroke();
+          p.fill(247, 249, 248, 232);
+          p.rect(x, y, width, 54, 6);
+          p.stroke(COLORS.line);
+          p.strokeWeight(0.8);
+          p.noFill();
+          p.rect(x, y, width, 54, 6);
+          label("BICARBONATE BUFFER", x + 12, y + 13, 9, COLORS.muted, p.LEFT);
+          const reaction = width < 300 ? "CO₂ ⇄ H⁺ + HCO₃⁻" : "CO₂ + H₂O  ⇄  H₂CO₃  ⇄  H⁺ + HCO₃⁻";
+          label(reaction, x + width / 2, y + 34, width < 300 ? 11 : 13, COLORS.ink, p.CENTER);
+          p.noStroke();
+          p.fill(statusColor(current));
+          p.circle(mapClamped(current.ratio, 5, 35, x + 18, x + width - 18), y + 49, 5);
+        };
+
+        const drawPHHeader = (current: AcidBaseState) => {
+          const x = 24;
+          const y = 24;
+          const width = canvasWidth - 48;
+          const gaugeY = 75;
+          p.noStroke();
+          p.fill(247, 249, 248, 232);
+          p.rect(x, y, width, 76, 7);
+          p.stroke(COLORS.line);
+          p.strokeWeight(0.8);
+          p.noFill();
+          p.rect(x, y, width, 76, 7);
+          label("SYSTEMIC ACID–BASE STATE", x + 14, y + 14, 9, COLORS.muted, p.LEFT);
+          label(current.pattern, x + width - 14, y + 14, 10, COLORS.ink, p.RIGHT);
+          p.stroke("#c8d0d1");
+          p.strokeWeight(4);
+          p.line(x + 16, gaugeY, x + width - 16, gaugeY);
+          p.stroke(COLORS.normal);
+          p.strokeWeight(5);
+          p.line(mapClamped(7.35, 6.9, 7.8, x + 16, x + width - 16), gaugeY, mapClamped(7.45, 6.9, 7.8, x + 16, x + width - 16), gaugeY);
+          const markerX = mapClamped(current.pH, 6.9, 7.8, x + 16, x + width - 16);
+          p.noStroke();
+          p.fill(statusColor(current));
+          p.circle(markerX, gaugeY, 13);
+          label("6.90", x + 16, gaugeY + 16, 9, COLORS.muted, p.LEFT);
+          label("7.80", x + width - 16, gaugeY + 16, 9, COLORS.muted, p.RIGHT);
+          label(`pH ${current.pH.toFixed(2)}`, markerX, gaugeY - 16, 13, statusColor(current), p.CENTER);
         };
 
         p.setup = () => {
@@ -144,76 +327,46 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
 
         p.draw = () => {
           const current = stateRef.current;
-          const color = statusColor(current);
-          p.background("#f8fafc");
+          const compact = canvasWidth < 620;
+          const scale = clamp(canvasWidth / 850, 0.58, 0.92);
+          p.background("#eef2f1");
+          p.stroke("#d9e0e0");
+          p.strokeWeight(0.55);
+          for (let x = 20; x < canvasWidth; x += 28) p.line(x, 112, x, canvasHeight - 16);
+          for (let y = 116; y < canvasHeight; y += 28) p.line(16, y, canvasWidth - 16, y);
+          drawPHHeader(current);
 
-          p.noStroke();
-          p.fill("#ffffff");
-          p.rect(16, 16, canvasWidth - 32, 92, 8);
-          p.fill("#0f172a");
-          p.textAlign(p.LEFT, p.TOP);
-          p.textStyle(p.BOLD);
-          p.textSize(13);
-          p.text("Henderson-Hasselbalch balance", 34, 31);
-          p.textStyle(p.NORMAL);
-          p.textSize(12);
-          p.fill("#64748b");
-          p.text("pH = 6.1 + log [ HCO3- / (0.03 x PaCO2) ]", 34, 53);
+          const organY = compact ? 238 : 250;
+          const lungX = compact ? 75 : canvasWidth * 0.18;
+          const kidneyX = compact ? canvasWidth - 62 : canvasWidth * 0.83;
+          drawLungs(lungX, organY, scale, current);
+          drawKidney(kidneyX, organY + 3, scale, current);
 
-          const gaugeX = 34;
-          const gaugeY = 79;
-          const gaugeWidth = canvasWidth - 68;
-          p.noStroke();
-          p.fill("#fee2e2");
-          p.rect(gaugeX, gaugeY, gaugeWidth * 0.44, 12, 6, 0, 0, 6);
-          p.fill("#ccfbf1");
-          p.rect(gaugeX + gaugeWidth * 0.44, gaugeY, gaugeWidth * 0.12, 12);
-          p.fill("#ede9fe");
-          p.rect(gaugeX + gaugeWidth * 0.56, gaugeY, gaugeWidth * 0.44, 12, 0, 6, 6, 0);
-          const gaugePosition = clampMap(current.pH, 6.9, 7.8, gaugeX, gaugeX + gaugeWidth);
-          p.fill(color);
-          p.triangle(gaugePosition, gaugeY - 3, gaugePosition - 7, gaugeY - 14, gaugePosition + 7, gaugeY - 14);
-          p.fill("#0f172a");
-          p.textAlign(p.CENTER, p.BOTTOM);
-          p.textStyle(p.BOLD);
-          p.textSize(18);
-          p.text(`pH ${current.pH.toFixed(2)}`, gaugePosition, gaugeY - 17);
+          const bloodX = compact ? 78 : canvasWidth * 0.25;
+          const bloodWidth = compact ? canvasWidth - 156 : canvasWidth * 0.5;
+          const bloodY = canvasHeight - 111;
+          drawBloodCompartment(bloodX, bloodY, bloodWidth, current);
+          const reactionX = compact ? 76 : canvasWidth * 0.29;
+          const reactionWidth = compact ? canvasWidth - 152 : canvasWidth * 0.42;
+          drawBufferReaction(reactionX, 132, reactionWidth, current);
 
-          const organY = canvasHeight * 0.48;
-          const lungX = canvasWidth * 0.2;
-          const kidneyX = canvasWidth * 0.8;
-          drawLungs(lungX, organY, 1, current);
-          drawKidney(kidneyX, organY, current);
+          const eliminationFlux = clamp((current.paCO2 / 40) * (current.ventilation / 100), 0.4, 2.3);
+          drawArrow(bloodX + 14, bloodY + 8, lungX + 16, organY + 36 * scale, COLORS.co2, 1.2 + eliminationFlux * 0.7, 0.2);
+          const renalDrive = clamp((current.paCO2 - 40) / 35, -1, 1);
+          if (renalDrive >= -0.12) drawArrow(kidneyX - 25, organY + 35, bloodX + bloodWidth - 16, bloodY + 60, COLORS.bicarbonate, 1.3 + Math.abs(renalDrive) * 1.4, 0.55);
+          else drawArrow(bloodX + bloodWidth - 16, bloodY + 60, kidneyX - 25, organY + 35, COLORS.bicarbonate, 1.3 + Math.abs(renalDrive) * 1.4, 0.55);
 
-          const bloodY = canvasHeight * 0.72;
-          p.noStroke();
-          p.fill("#e2e8f0");
-          p.rect(canvasWidth * 0.23, bloodY - 28, canvasWidth * 0.54, 64, 32);
-          p.fill("#ffffff");
-          p.rect(canvasWidth * 0.25, bloodY - 20, canvasWidth * 0.5, 48, 24);
-          drawParticles(current, bloodY - 3);
+          if (!compact) {
+            drawAlveolarInset(canvasWidth * 0.34, 255, 39, current);
+            drawNephronInset(canvasWidth * 0.61, 226, canvasWidth * 0.16, current);
+          }
 
-          drawArrow(lungX + 60, organY + 12, canvasWidth * 0.33, bloodY - 35, "#2563eb", 2.5);
-          drawArrow(kidneyX - 58, organY + 12, canvasWidth * 0.67, bloodY - 35, "#f59e0b", 2.5);
-
-          p.noStroke();
-          p.fill("#0f172a");
-          p.textAlign(p.CENTER, p.TOP);
-          p.textStyle(p.BOLD);
-          p.textSize(14);
-          p.text(`PaCO2 ${current.paCO2.toFixed(0)} mmHg`, canvasWidth * 0.4, canvasHeight - 48);
-          p.text(`HCO3- ${current.bicarbonate.toFixed(1)} mmol/L`, canvasWidth * 0.64, canvasHeight - 48);
-
-          const description = `산-염기 균형 도식. pH ${current.pH.toFixed(2)}, PaCO2 ${current.paCO2.toFixed(0)} mmHg, HCO3- ${current.bicarbonate.toFixed(1)} mmol/L이며 ${current.pattern}을 나타냅니다.`;
+          const description = `산-염기 생리 도식. pH ${current.pH.toFixed(2)}, PaCO2 ${current.paCO2.toFixed(0)} mmHg, HCO3- ${current.bicarbonate.toFixed(1)} mmol/L. 폐포 환기와 CO2 제거, bicarbonate buffer, 신장 HCO3 조절 흐름이 ${current.pattern}을 나타냅니다.`;
           if (description !== lastDescription) {
             p.describe(description);
             lastDescription = description;
           }
         };
-
-        function clampMap(value: number, min: number, max: number, start: number, end: number) {
-          return p.map(Math.min(max, Math.max(min, value)), min, max, start, end);
-        }
       };
 
       instanceRef.current = new P5(sketch, host);
@@ -231,5 +384,5 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
     instanceRef.current?.redraw();
   }, [state]);
 
-  return <div ref={hostRef} className="min-h-[360px] w-full overflow-hidden bg-slate-50" aria-label="산-염기 균형 애니메이션" />;
+  return <div ref={hostRef} className="min-h-[460px] w-full overflow-hidden bg-[#eef2f1]" aria-label="산-염기 생리 인터랙티브 도해" />;
 }
