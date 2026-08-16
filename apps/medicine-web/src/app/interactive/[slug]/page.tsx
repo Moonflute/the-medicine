@@ -3,6 +3,10 @@ import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { AcidBaseBalanceLab } from "@/components/acid-base-balance-lab";
 import { OxygenationGasExchangeLab } from "@/components/oxygenation-gas-exchange-lab";
+import { NephronElectrolyteLab } from "@/components/nephron-electrolyte-lab";
+import { CardiacHemodynamicsLab } from "@/components/cardiac-hemodynamics-lab";
+import { EcgArrhythmiaLab } from "@/components/ecg-arrhythmia-lab";
+import { EndocrineFeedbackLab } from "@/components/endocrine-feedback-lab";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
 import { getInteractiveConcept, interactiveConcepts } from "@/lib/interactive-concepts";
@@ -35,6 +39,10 @@ export default async function InteractiveConceptPage({ params }: { params: Promi
 
       {slug === "acid-base-balance" ? <AcidBaseBalanceLab /> : null}
       {slug === "oxygenation-gas-exchange" ? <OxygenationGasExchangeLab /> : null}
+      {slug === "nephron-electrolyte-handling" ? <NephronElectrolyteLab /> : null}
+      {slug === "cardiac-hemodynamics" ? <CardiacHemodynamicsLab /> : null}
+      {slug === "ecg-arrhythmia" ? <EcgArrhythmiaLab /> : null}
+      {slug === "endocrine-feedback-axes" ? <EndocrineFeedbackLab /> : null}
 
       <RelatedClinicalContent relations={relations} />
       <ParentPageFab href="/specialties" />

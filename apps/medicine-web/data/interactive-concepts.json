@@ -37,5 +37,66 @@
       { "type": "disease", "title": "빈혈 (Anemia)", "label": "빈혈" }
     ],
     "status": "prototype"
+  },
+  {
+    "slug": "nephron-electrolyte-handling",
+    "title": "Nephron Electrolyte Handling",
+    "shortTitle": "네프론 전해질 수송",
+    "aliases": ["Nephron", "Tubular transport", "세뇨관 수송", "네프론"],
+    "keywords": ["NKCC2", "NCC", "ENaC", "AQP2", "세뇨관", "네프론", "전해질 재흡수"],
+    "summary": "네프론 분절별 물·전해질 수송과 ADH, aldosterone, 이뇨제 효과를 확인합니다.",
+    "specialties": ["신장"],
+    "targets": [
+      { "type": "lab", "title": "Electrolytes overview", "label": "Electrolytes" },
+      { "type": "lab", "title": "Sodium", "label": "Sodium" },
+      { "type": "lab", "title": "Potassium", "label": "Potassium" },
+      { "type": "lab", "title": "Calcium", "label": "Calcium" },
+      { "type": "lab", "title": "Magnesium", "label": "Magnesium" },
+      { "type": "disease", "title": "급성 콩팥 손상 (AKI) (Acute Kidney Injury)", "label": "급성 콩팥 손상" }
+    ],
+    "status": "prototype"
+  },
+  {
+    "slug": "cardiac-hemodynamics",
+    "title": "Cardiac Hemodynamics",
+    "shortTitle": "심장 혈역학",
+    "aliases": ["Hemodynamics", "Pressure volume loop", "전부하", "후부하", "심박출량"],
+    "keywords": ["preload", "afterload", "contractility", "stroke volume", "cardiac output", "압력-용적 고리"],
+    "summary": "전부하·후부하·수축력과 심박수가 심실 용적과 심박출량을 바꾸는 과정을 확인합니다.",
+    "specialties": ["순환기"],
+    "targets": [
+      { "type": "lab", "title": "Echocardiography", "label": "Echocardiography" },
+      { "type": "disease", "title": "심부전", "label": "심부전" }
+    ],
+    "status": "prototype"
+  },
+  {
+    "slug": "ecg-arrhythmia",
+    "title": "ECG and Arrhythmia",
+    "shortTitle": "ECG와 부정맥",
+    "aliases": ["Electrocardiography", "ECG rhythm", "심전도", "부정맥"],
+    "keywords": ["ECG", "심전도", "부정맥", "AV block", "심방세동", "심실빈맥"],
+    "summary": "심장 전도계, 표면 ECG, 심실 수축과 맥박의 관계를 리듬별로 확인합니다.",
+    "specialties": ["순환기", "응급의학"],
+    "targets": [
+      { "type": "disease", "title": "부정맥", "label": "부정맥" }
+    ],
+    "status": "prototype"
+  },
+  {
+    "slug": "endocrine-feedback-axes",
+    "title": "Endocrine Feedback Axes",
+    "shortTitle": "내분비 호르몬 축",
+    "aliases": ["Endocrine axis", "Negative feedback", "HPT axis", "HPA axis", "호르몬 피드백"],
+    "keywords": ["negative feedback", "TRH", "TSH", "ACTH", "cortisol", "GnRH", "IGF-1", "ADH", "음성 피드백"],
+    "summary": "시상하부-뇌하수체-표적기관 호르몬 축과 일차성·이차성 이상을 비교합니다.",
+    "specialties": ["내분비", "산과", "부인과", "신장"],
+    "targets": [
+      { "type": "lab", "title": "Thyroid function overview", "label": "Thyroid function" },
+      { "type": "lab", "title": "Thyroid-Stimulating Hormone (TSH)", "label": "TSH" },
+      { "type": "lab", "title": "Cortisol", "label": "Cortisol" },
+      { "type": "disease", "title": "갑상선 기능 저하증 (Hypothyroidism)", "label": "갑상선 기능 저하증" }
+    ],
+    "status": "prototype"
   }
 ]
