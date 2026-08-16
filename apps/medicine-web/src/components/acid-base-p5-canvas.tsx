@@ -6,6 +6,15 @@ import type { AcidBaseState } from "@/lib/acid-base-model";
 
 type P5Instance = p5;
 
+export type AcidBaseSimulationView = {
+  phase: "steady" | "disturbance" | "acute" | "compensating" | "compensated";
+  progress: number;
+  cause: string;
+  primaryChange: string;
+  timeLabel: string;
+  compensatingSystem: "lung" | "kidney" | null;
+};
+
 const COLORS = {
   ink: "#243238",
   muted: "#68777d",
@@ -23,14 +32,19 @@ function statusColor(state: AcidBaseState) {
   return COLORS.normal;
 }
 
-export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
+export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; simulation: AcidBaseSimulationView }) {
   const hostRef = useRef<HTMLDivElement>(null);
   const stateRef = useRef(state);
+  const simulationRef = useRef(simulation);
   const instanceRef = useRef<P5Instance | null>(null);
 
   useEffect(() => {
     stateRef.current = state;
   }, [state]);
+
+  useEffect(() => {
+    simulationRef.current = simulation;
+  }, [simulation]);
 
   useEffect(() => {
     let cancelled = false;
@@ -102,10 +116,18 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
           context.restore();
         };
 
-        const drawLungs = (x: number, y: number, scale: number, current: AcidBaseState) => {
+        const drawLungs = (x: number, y: number, scale: number, current: AcidBaseState, compensationActive: boolean) => {
           const frequency = mapClamped(current.ventilation, 40, 160, 0.035, 0.085);
           const breath = reducedMotion ? 0 : Math.sin(p.frameCount * frequency);
           const expansion = 1 + breath * mapClamped(current.ventilation, 40, 160, 0.012, 0.045);
+
+          if (compensationActive) {
+            const pulse = reducedMotion ? 0 : Math.sin(p.frameCount * 0.08) * 5;
+            p.noFill();
+            p.stroke(63, 113, 133, 105);
+            p.strokeWeight(1.2);
+            p.ellipse(x, y + 8, 126 * scale + pulse, 180 * scale + pulse);
+          }
 
           p.push();
           p.translate(x, y);
@@ -188,7 +210,14 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
           context.restore();
         };
 
-        const drawKidney = (x: number, y: number, scale: number, current: AcidBaseState) => {
+        const drawKidney = (x: number, y: number, scale: number, current: AcidBaseState, compensationActive: boolean) => {
+          if (compensationActive) {
+            const pulse = reducedMotion ? 0 : Math.sin(p.frameCount * 0.055) * 5;
+            p.noFill();
+            p.stroke(176, 138, 74, 110);
+            p.strokeWeight(1.2);
+            p.ellipse(x - 10, y + 2, 115 * scale + pulse, 175 * scale + pulse);
+          }
           p.push();
           p.translate(x, y);
           kidneyPath(scale);
@@ -269,7 +298,7 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
             p.circle(x + 16 + progress * (width - 32), y + 17 + (index % 3) * 9, 5.5);
           }
           for (let index = 0; index < bicarbonateCount; index += 1) {
-            const progress = (index / bicarbonateCount - movement * 0.7 + 1) % 1;
+            const progress = ((index / bicarbonateCount - movement * 0.7) % 1 + 1) % 1;
             const px = x + 16 + progress * (width - 32);
             const py = y + 50 + (index % 2) * 9;
             p.noStroke();
@@ -331,6 +360,36 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
           label(`pH ${current.pH.toFixed(2)}`, markerX, gaugeY - 16, 13, statusColor(current), p.CENTER);
         };
 
+        const drawMechanismTimeline = (view: AcidBaseSimulationView) => {
+          const x1 = 34;
+          const x2 = canvasWidth - 34;
+          const y = canvasHeight - 16;
+          const stages = canvasWidth < 620 ? ["원인", "급성 변화", "보상", "새 평형"] : ["원인 발생", "CO₂ / HCO₃⁻ 변화", "폐·신장 보상", "새 평형"];
+          p.stroke("#c1cbcc");
+          p.strokeWeight(2);
+          p.line(x1, y, x2, y);
+          p.stroke(statusColor(stateRef.current));
+          p.strokeWeight(2.5);
+          p.line(x1, y, p.lerp(x1, x2, clamp(view.progress, 0, 1)), y);
+
+          stages.forEach((stage, index) => {
+            const stageProgress = index / (stages.length - 1);
+            const x = p.lerp(x1, x2, stageProgress);
+            p.noStroke();
+            p.fill(view.progress + 0.015 >= stageProgress ? statusColor(stateRef.current) : "#c1cbcc");
+            p.circle(x, y, 7);
+            label(stage, x, y - 12, canvasWidth < 620 ? 8 : 9, COLORS.muted, p.CENTER);
+          });
+        };
+
+        const drawCauseAndTime = (view: AcidBaseSimulationView, lungX: number, kidneyX: number) => {
+          const causeX = /환기|CO₂/.test(`${view.cause} ${view.primaryChange}`) ? lungX : kidneyX;
+          const align = causeX < canvasWidth / 2 ? p.LEFT : p.RIGHT;
+          const textX = causeX < canvasWidth / 2 ? 25 : canvasWidth - 25;
+          label(view.cause, textX, 116, 10, COLORS.ink, align);
+          label(`${view.primaryChange} · ${view.timeLabel}`, textX, 126, 9, COLORS.muted, align);
+        };
+
         p.setup = () => {
           const canvas = p.createCanvas(canvasWidth, canvasHeight);
           canvas.parent(host);
@@ -344,6 +403,7 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
 
         p.draw = () => {
           const current = stateRef.current;
+          const view = simulationRef.current;
           const compact = canvasWidth < 620;
           const scale = clamp(canvasWidth / 850, 0.58, 0.92);
           p.background("#eef2f1");
@@ -356,16 +416,18 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
           const organY = compact ? 238 : 250;
           const lungX = compact ? 75 : canvasWidth * 0.18;
           const kidneyX = compact ? canvasWidth - 62 : canvasWidth * 0.83;
-          drawLungs(lungX, organY, scale, current);
-          drawKidney(kidneyX, organY + 3, scale, current);
+          drawLungs(lungX, organY, scale, current, view.phase === "compensating" && view.compensatingSystem === "lung");
+          drawKidney(kidneyX, organY + 3, scale, current, view.phase === "compensating" && view.compensatingSystem === "kidney");
+          drawCauseAndTime(view, lungX, kidneyX);
 
           const bloodX = compact ? 78 : canvasWidth * 0.25;
           const bloodWidth = compact ? canvasWidth - 156 : canvasWidth * 0.5;
-          const bloodY = canvasHeight - 111;
+          const bloodY = canvasHeight - 126;
           drawBloodCompartment(bloodX, bloodY, bloodWidth, current);
           const reactionX = compact ? 76 : canvasWidth * 0.29;
           const reactionWidth = compact ? canvasWidth - 152 : canvasWidth * 0.42;
           drawBufferReaction(reactionX, 132, reactionWidth, current);
+          drawArrow(canvasWidth / 2, 132, canvasWidth / 2, 101, statusColor(current), 1.2, 0.1);
 
           const eliminationFlux = clamp((current.paCO2 / 40) * (current.ventilation / 100), 0.4, 2.3);
           drawArrow(bloodX + 14, bloodY + 8, lungX + 16, organY + 36 * scale, COLORS.co2, 1.2 + eliminationFlux * 0.7, 0.2);
@@ -377,6 +439,7 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
             drawAlveolarInset(canvasWidth * 0.34, 255, 39, current);
             drawNephronInset(canvasWidth * 0.61, 226, canvasWidth * 0.16, current);
           }
+          drawMechanismTimeline(view);
 
           const description = `산-염기 생리 도식. pH ${current.pH.toFixed(2)}, PaCO2 ${current.paCO2.toFixed(0)} mmHg, HCO3- ${current.bicarbonate.toFixed(1)} mmol/L. 폐포 환기와 CO2 제거, bicarbonate buffer, 신장 HCO3 조절 흐름이 ${current.pattern}을 나타냅니다.`;
           if (description !== lastDescription) {
@@ -399,7 +462,7 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
 
   useEffect(() => {
     instanceRef.current?.redraw();
-  }, [state]);
+  }, [simulation, state]);
 
   return <div ref={hostRef} className="min-h-[460px] w-full overflow-hidden bg-[#eef2f1]" aria-label="산-염기 생리 인터랙티브 도해" />;
 }
