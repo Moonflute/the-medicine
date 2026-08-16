@@ -123,8 +123,9 @@ export function AcidBaseBalanceLab() {
   ) => {
     stopAnimation();
     const from = inputs;
-    const startedAt = performance.now();
+    let startedAt: number | null = null;
     const tick = (now: number) => {
+      if (startedAt === null) startedAt = now;
       const progress = Math.min(1, (now - startedAt) / duration);
       const eased = 1 - Math.pow(1 - progress, 3);
       setInputs(interpolateInputs(from, target, eased));
