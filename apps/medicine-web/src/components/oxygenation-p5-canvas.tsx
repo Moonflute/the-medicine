@@ -181,36 +181,36 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
         };
 
         const drawInspiredOxygen = (lungX: number, lungY: number, current: OxygenationState) => {
-          const startX = 14;
-          const startY = lungY - 82;
+          const startX = lungX;
+          const startY = 116;
           const endX = lungX;
           const endY = lungY - 62;
-          const controlX = lungX - 34;
           const flux = mapClamped(current.fio2, 0.21, 1, 0.7, 2.2);
-          drawTube(startX, startY, controlX, startY, controlX, endY, endX, endY, "#8fa6aa", "#e3eeee", 7, 4);
+          drawTube(startX, startY, startX, p.lerp(startY, endY, 0.35), endX, p.lerp(startY, endY, 0.72), endX, endY, "#8fa6aa", "#e3eeee", 7, 4);
           const count = Math.round(mapClamped(current.fio2, 0.21, 1, 3, 10));
           for (let index = 0; index < count; index += 1) {
             const progress = reducedMotion ? (index + 1) / (count + 1) : (p.frameCount * 0.008 * flux + index / count) % 1;
-            const point = curvePoint(startX, startY, controlX, startY, controlX, endY, endX, endY, progress);
+            const point = curvePoint(startX, startY, startX, p.lerp(startY, endY, 0.35), endX, p.lerp(startY, endY, 0.72), endX, endY, progress);
             drawOxygen(point.x, point.y, 4.5);
           }
-          label(`FiO₂ ${(current.fio2 * 100).toFixed(0)}%`, startX, startY - 17, 11, COLORS.oxygen);
+          label(`FiO₂ ${(current.fio2 * 100).toFixed(0)}%`, startX + 12, startY + 7, 11, COLORS.oxygen);
         };
 
-        const drawDistalAirway = (lungX: number, lungY: number, alveolusX: number, alveolusY: number, radius: number, current: OxygenationState) => {
-          const startX = lungX + 20;
-          const startY = lungY - 4;
-          const endX = alveolusX - radius * 0.78;
-          const endY = alveolusY - radius * 0.08;
-          const control1X = p.lerp(startX, endX, 0.35);
-          const control2X = p.lerp(startX, endX, 0.76);
-          drawTube(startX, startY, control1X, startY - 12, control2X, endY, endX, endY, "#9a8581", "#e4d6d0", 9, 5);
-          const count = Math.round(mapClamped(current.alveolarPO2, 30, 650, 3, 9));
-          for (let index = 0; index < count; index += 1) {
-            const progress = reducedMotion ? (index + 1) / (count + 1) : (p.frameCount * 0.006 + index / count) % 1;
-            const point = curvePoint(startX, startY, control1X, startY - 12, control2X, endY, endX, endY, progress);
-            drawOxygen(point.x, point.y, 4.2);
-          }
+        const drawZoomCallout = (lungX: number, lungY: number, scale: number, alveolusX: number, alveolusY: number, radius: number) => {
+          const boxX = lungX + 22 * scale;
+          const boxY = lungY + 8 * scale;
+          const boxWidth = 30 * scale;
+          const boxHeight = 27 * scale;
+          const insetEdgeX = alveolusX - radius - 14;
+          p.noFill();
+          p.stroke("#657b80");
+          p.strokeWeight(1.2);
+          p.rect(boxX - boxWidth / 2, boxY - boxHeight / 2, boxWidth, boxHeight, 2);
+          p.stroke("#9baaad");
+          p.strokeWeight(0.9);
+          p.line(boxX + boxWidth / 2, boxY - boxHeight / 2, insetEdgeX, alveolusY - radius * 0.5);
+          p.line(boxX + boxWidth / 2, boxY + boxHeight / 2, insetEdgeX, alveolusY + radius * 0.5);
+          label("magnified acinus", p.lerp(boxX, insetEdgeX, 0.55), alveolusY - radius * 0.62, 9, COLORS.muted, p.CENTER);
         };
 
         const drawAlveolarUnit = (x: number, y: number, radius: number, current: OxygenationState) => {
@@ -256,6 +256,22 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
             for (let dot = 0; dot < carried; dot += 1) drawOxygen(px - 4 + dot * 3, py - 1, 2.8, 210);
           }
 
+          const shuntStartX = x + Math.cos(startAngle) * capillaryRadius;
+          const shuntStartY = y + Math.sin(startAngle) * capillaryRadius;
+          const shuntEndX = x + Math.cos(endAngle) * capillaryRadius;
+          const shuntEndY = y + Math.sin(endAngle) * capillaryRadius;
+          const shuntControlY = y + radius + 31;
+          const shuntWeight = 3.5 + current.shuntFraction * 15;
+          drawTube(shuntStartX, shuntStartY, x - radius * 0.3, shuntControlY, x + radius * 0.35, shuntControlY, shuntEndX, shuntEndY, COLORS.shunt, "#c9becb", shuntWeight, Math.max(1.5, shuntWeight - 3.2));
+          const shuntCount = current.shuntFraction < 0.005 ? 0 : Math.round(mapClamped(current.shuntFraction, 0, 0.35, 1, 6));
+          for (let index = 0; index < shuntCount; index += 1) {
+            const progress = reducedMotion ? (index + 1) / (shuntCount + 1) : (p.frameCount * 0.0045 + index / shuntCount) % 1;
+            const point = curvePoint(shuntStartX, shuntStartY, x - radius * 0.3, shuntControlY, x + radius * 0.35, shuntControlY, shuntEndX, shuntEndY, progress);
+            p.noStroke();
+            p.fill(COLORS.venous);
+            p.ellipse(point.x, point.y, 12, 7);
+          }
+
           const transfer = clamp((current.endCapillaryPO2 - 18) / 90, 0.18, 1.7) * (1 - current.vqMismatch / 150);
           const count = Math.round(mapClamped(transfer, 0.1, 1.4, 2, 8));
           for (let index = 0; index < count; index += 1) {
@@ -267,7 +283,8 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
 
           label("ALVEOLAR–CAPILLARY UNIT", x, y - radius - 25, 11, COLORS.ink, p.CENTER);
           label(`PAO₂ ${current.alveolarPO2.toFixed(0)}`, x, y + 3, 11, COLORS.oxygen, p.CENTER);
-          label(`V/Q mismatch ${current.vqMismatch.toFixed(0)}% · end-capillary PO₂ ${current.endCapillaryPO2.toFixed(0)}`, x, y + capillaryRadius + 22, 10, current.vqMismatch > 30 ? COLORS.warning : COLORS.muted, p.CENTER);
+          label(`V/Q mismatch ${current.vqMismatch.toFixed(0)}% · end-capillary PO₂ ${current.endCapillaryPO2.toFixed(0)}`, x, y + radius + 20, 10, current.vqMismatch > 30 ? COLORS.warning : COLORS.muted, p.CENTER);
+          label(`non-ventilated shunt flow ${(current.shuntFraction * 100).toFixed(0)}%`, x, y + radius + 37, 10, COLORS.shunt, p.CENTER);
         };
 
         const drawArterialVessel = (startX: number, startY: number, endX: number, endY: number, current: OxygenationState) => {
@@ -286,28 +303,6 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
           }
           const midpoint = curvePoint(startX, startY, control1X, startY + 4, control2X, endY + 8, endX, endY, 0.52);
           label(`PaO₂ ${current.paO2.toFixed(0)} · SaO₂ ${current.saO2.toFixed(0)}%`, midpoint.x, midpoint.y - 17, 11, COLORS.arterial, p.CENTER);
-        };
-
-        const drawShuntBypass = (alveolusX: number, alveolusY: number, radius: number, joinX: number, joinY: number, current: OxygenationState) => {
-          const capillaryRadius = radius + 12;
-          const startX = alveolusX + Math.cos(p.PI * 0.72) * capillaryRadius;
-          const startY = alveolusY + Math.sin(p.PI * 0.72) * capillaryRadius;
-          const control1X = startX + 8;
-          const control1Y = alveolusY + radius + 54;
-          const control2X = joinX - 38;
-          const control2Y = control1Y;
-          const weight = 4 + current.shuntFraction * 18;
-          drawTube(startX, startY, control1X, control1Y, control2X, control2Y, joinX, joinY, COLORS.shunt, "#c9becb", weight, Math.max(2, weight - 4));
-          const count = current.shuntFraction < 0.005 ? 0 : Math.round(mapClamped(current.shuntFraction, 0, 0.35, 1, 7));
-          for (let index = 0; index < count; index += 1) {
-            const progress = reducedMotion ? (index + 1) / (count + 1) : (p.frameCount * 0.0045 + index / count) % 1;
-            const point = curvePoint(startX, startY, control1X, control1Y, control2X, control2Y, joinX, joinY, progress);
-            p.noStroke();
-            p.fill(COLORS.venous);
-            p.ellipse(point.x, point.y, 13, 8);
-          }
-          const labelPoint = curvePoint(startX, startY, control1X, control1Y, control2X, control2Y, joinX, joinY, 0.5);
-          label(`SHUNT ${(current.shuntFraction * 100).toFixed(0)}% · alveolus bypass`, labelPoint.x, labelPoint.y + 18, 10, COLORS.shunt, p.CENTER);
         };
 
         const drawTissue = (x: number, y: number, vesselY: number, current: OxygenationState) => {
@@ -386,9 +381,9 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
           for (let y = 116; y < canvasHeight; y += 28) p.line(16, y, canvasWidth - 16, y);
           drawHeader(current);
 
-          const lungX = compact ? 62 : canvasWidth * 0.15;
+          const lungX = compact ? 62 : canvasWidth * 0.17;
           const lungY = compact ? 224 : 244;
-          const alveolusX = compact ? canvasWidth * 0.47 : canvasWidth * 0.42;
+          const alveolusX = compact ? canvasWidth * 0.48 : canvasWidth * 0.38;
           const alveolusY = compact ? 224 : 240;
           const alveolusRadius = compact ? 38 : 55 * scale;
           const capillaryRadius = alveolusRadius + 12;
@@ -399,15 +394,12 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
           const tissueY = compact ? 246 : 262;
           const vesselEndX = tissueX - 62;
           const vesselEndY = tissueY;
-          const shuntJoinX = p.lerp(arteryStartX, vesselEndX, 0.28);
-          const shuntJoinY = p.lerp(arteryStartY, vesselEndY, 0.28) + 2;
 
           label(view.cause, canvasWidth - 24, 116, 11, COLORS.ink, p.RIGHT);
           label(view.timeLabel, canvasWidth - 24, 128, 10, COLORS.muted, p.RIGHT);
           drawInspiredOxygen(lungX, lungY, current);
           drawLung(lungX, lungY, scale, current);
-          drawDistalAirway(lungX, lungY, alveolusX, alveolusY, alveolusRadius, current);
-          drawShuntBypass(alveolusX, alveolusY, alveolusRadius, shuntJoinX, shuntJoinY, current);
+          drawZoomCallout(lungX, lungY, scale, alveolusX, alveolusY, alveolusRadius);
           drawAlveolarUnit(alveolusX, alveolusY, alveolusRadius, current);
           drawArterialVessel(arteryStartX, arteryStartY, vesselEndX, vesselEndY, current);
           drawTissue(tissueX, tissueY, vesselEndY, current);

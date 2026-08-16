@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Activity, ArrowRight, Droplets, Gauge, RotateCcw, Wind } from "lucide-react";
+import { Activity, ArrowRight, ChevronDown, Droplets, Gauge, RotateCcw, SlidersHorizontal, Wind } from "lucide-react";
 import { OxygenationP5Canvas, type OxygenationSimulationView } from "@/components/oxygenation-p5-canvas";
 import {
   calculateOxygenationState,
@@ -64,13 +64,13 @@ function Control({
   onChange: (value: number) => void;
 }) {
   return (
-    <label className="block border-b border-slate-200 pb-4 last:border-0 last:pb-0">
+    <label className="block border-b border-slate-200 pb-3 last:border-0 last:pb-0 sm:pb-4">
       <span className="flex items-center justify-between gap-3 text-sm font-bold text-slate-900">
         <span>{label}</span>
         <span className="font-mono text-teal-800">{displayValue}</span>
       </span>
-      <input type="range" min={min} max={max} step={step} value={value} onChange={(event) => onChange(Number(event.target.value))} className="mt-3 h-2 w-full cursor-pointer accent-teal-700" />
-      <span className="mt-2 block text-xs leading-5 text-slate-500">{hint}</span>
+      <input type="range" min={min} max={max} step={step} value={value} onChange={(event) => onChange(Number(event.target.value))} className="mt-2 h-2 w-full cursor-pointer accent-teal-700 sm:mt-3" />
+      <span className="mt-2 hidden text-xs leading-5 text-slate-500 sm:block">{hint}</span>
     </label>
   );
 }
@@ -101,6 +101,7 @@ function SimulationLegend() {
 export function OxygenationGasExchangeLab() {
   const [inputs, setInputs] = useState<OxygenationInputs>(NORMAL_INPUTS);
   const [simulation, setSimulation] = useState<OxygenationSimulationView>(INITIAL_SIMULATION);
+  const [advancedOpen, setAdvancedOpen] = useState(false);
   const animationRef = useRef<number | null>(null);
   const state = useMemo(() => calculateOxygenationState(inputs), [inputs]);
   const statusStyle = state.status === "critical"
@@ -141,6 +142,11 @@ export function OxygenationGasExchangeLab() {
 
   const testOxygenResponse = () => animateInputs({ ...inputs, fio2: 1 }, "FiO₂ 100% 반응 확인", 1800);
 
+  const applyPreset = (preset: (typeof PRESETS)[number]) => {
+    setAdvancedOpen(preset.id === "shunt" || preset.id === "anemia");
+    animateInputs(preset.values, preset.cause);
+  };
+
   return (
     <main className="space-y-5">
       <header className="border-b border-slate-200 pb-6">
@@ -154,8 +160,8 @@ export function OxygenationGasExchangeLab() {
 
       <section aria-label="산소화 프리셋" className="flex flex-wrap items-center gap-1.5 border-b border-slate-200 pb-4">
         <span className="mr-2 text-xs font-semibold uppercase text-slate-500">Clinical states</span>
-        {PRESETS.map((preset) => <button key={preset.id} type="button" onClick={() => animateInputs(preset.values, preset.cause)} className="rounded-md border border-slate-300 bg-[#f7f9f8] px-3 py-1.5 text-xs font-semibold text-slate-700 transition hover:border-teal-500 hover:bg-white hover:text-teal-900">{preset.label}</button>)}
-        <button type="button" onClick={() => animateInputs(NORMAL_INPUTS, "Room air · 정상 가스교환")} className="ml-auto inline-flex h-8 w-8 items-center justify-center rounded-md border border-slate-300 bg-white text-slate-600 hover:border-teal-500 hover:text-teal-800" aria-label="정상 상태로 초기화" title="정상 상태로 초기화"><RotateCcw className="h-4 w-4" /></button>
+        {PRESETS.map((preset) => <button key={preset.id} type="button" onClick={() => applyPreset(preset)} className="rounded-md border border-slate-300 bg-[#f7f9f8] px-3 py-1.5 text-xs font-semibold text-slate-700 transition hover:border-teal-500 hover:bg-white hover:text-teal-900">{preset.label}</button>)}
+        <button type="button" onClick={() => { setAdvancedOpen(false); animateInputs(NORMAL_INPUTS, "Room air · 정상 가스교환"); }} className="ml-auto inline-flex h-8 w-8 items-center justify-center rounded-md border border-slate-300 bg-white text-slate-600 hover:border-teal-500 hover:text-teal-800" aria-label="정상 상태로 초기화" title="정상 상태로 초기화"><RotateCcw className="h-4 w-4" /></button>
       </section>
 
       <section className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_370px]">
@@ -169,11 +175,21 @@ export function OxygenationGasExchangeLab() {
             <Control label="흡입 산소 FiO₂" value={inputs.fio2} min={0.21} max={1} step={0.01} displayValue={`${(inputs.fio2 * 100).toFixed(0)}%`} hint="해발 0 m, 대기압 760 mmHg를 가정합니다." onChange={(value) => update("fio2", value)} />
             <Control label="호흡수 RR" value={inputs.respiratoryRate} min={6} max={30} step={1} displayValue={`${inputs.respiratoryRate.toFixed(0)} /min`} hint="1회호흡량·사강·CO₂ 생성이 일정하다고 가정해 PaCO₂를 추정합니다." onChange={(value) => update("respiratoryRate", value)} />
             <Control label="V/Q 불균형" value={inputs.vqMismatch} min={0} max={100} step={1} displayValue={`${inputs.vqMismatch.toFixed(0)}%`} hint="실제 측정 단위가 아닌 폐단위 불균형을 나타내는 교육용 지수입니다." onChange={(value) => update("vqMismatch", value)} />
-            <Control label="Shunt fraction" value={inputs.shuntFraction} min={0} max={0.35} step={0.01} displayValue={`${(inputs.shuntFraction * 100).toFixed(0)}%`} hint="환기된 폐포를 거치지 않고 동맥혈에 섞이는 혈류 비율입니다." onChange={(value) => update("shuntFraction", value)} />
-            <Control label="Hemoglobin" value={inputs.hemoglobin} min={5} max={20} step={0.5} displayValue={`${inputs.hemoglobin.toFixed(1)} g/dL`} hint="포화도가 같아도 Hb가 낮으면 산소함량은 감소합니다." onChange={(value) => update("hemoglobin", value)} />
-            <Control label="pH / Bohr shift" value={inputs.pH} min={7.1} max={7.6} step={0.01} displayValue={inputs.pH.toFixed(2)} hint={`현재 추정 P50 ${state.p50.toFixed(1)} mmHg · 산증은 해리곡선을 우측으로 이동시킵니다.`} onChange={(value) => update("pH", value)} />
           </div>
-          <button type="button" onClick={testOxygenResponse} disabled={inputs.fio2 >= 0.995 || simulation.phase === "transition"} className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-md bg-[#27383c] px-4 py-3 text-sm font-semibold text-white transition hover:bg-teal-900 disabled:cursor-not-allowed disabled:bg-slate-300"><Wind className="h-4 w-4" />FiO₂ 100% 반응 보기</button>
+          <details open={advancedOpen} onToggle={(event) => setAdvancedOpen(event.currentTarget.open)} className="group mt-4 border-t border-slate-300">
+            <summary className="flex cursor-pointer list-none items-center gap-2 py-3 text-sm font-semibold text-slate-800 marker:content-none">
+              <SlidersHorizontal className="h-4 w-4 text-teal-700" />
+              <span>상세 변수</span>
+              <span className="ml-auto hidden font-mono text-[11px] font-normal text-slate-500 sm:inline">Shunt {(inputs.shuntFraction * 100).toFixed(0)}% · Hb {inputs.hemoglobin.toFixed(1)} · pH {inputs.pH.toFixed(2)}</span>
+              <ChevronDown className="ml-auto h-4 w-4 text-slate-500 transition group-open:rotate-180 sm:ml-0" />
+            </summary>
+            <div className="space-y-4 pb-2 pt-1">
+              <Control label="Shunt fraction" value={inputs.shuntFraction} min={0} max={0.35} step={0.01} displayValue={`${(inputs.shuntFraction * 100).toFixed(0)}%`} hint="환기된 폐포를 거치지 않고 동맥혈에 섞이는 혈류 비율입니다." onChange={(value) => update("shuntFraction", value)} />
+              <Control label="Hemoglobin" value={inputs.hemoglobin} min={5} max={20} step={0.5} displayValue={`${inputs.hemoglobin.toFixed(1)} g/dL`} hint="포화도가 같아도 Hb가 낮으면 산소함량은 감소합니다." onChange={(value) => update("hemoglobin", value)} />
+              <Control label="pH / Bohr shift" value={inputs.pH} min={7.1} max={7.6} step={0.01} displayValue={inputs.pH.toFixed(2)} hint={`현재 추정 P50 ${state.p50.toFixed(1)} mmHg · 산증은 해리곡선을 우측으로 이동시킵니다.`} onChange={(value) => update("pH", value)} />
+            </div>
+          </details>
+          <button type="button" onClick={testOxygenResponse} disabled={inputs.fio2 >= 0.995 || simulation.phase === "transition"} className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-md bg-[#27383c] px-4 py-3 text-sm font-semibold text-white transition hover:bg-teal-900 disabled:cursor-not-allowed disabled:bg-slate-300"><Wind className="h-4 w-4" />FiO₂ 100% 반응 보기</button>
         </aside>
       </section>
 
