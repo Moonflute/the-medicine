@@ -30,6 +30,7 @@ type NodeInfo = {
   fill: string;
   border: string;
   isGroup?: boolean;
+  isHeader?: boolean;
 };
 type EdgeInfo = {
   id: string;
@@ -65,6 +66,37 @@ const PATHOGEN_ORDER = [
   "Anaerobes",
   "Atypicals",
   "Resistance phenotype",
+];
+const DISEASE_SITE_ORDER = [
+  "lower-respiratory-tract",
+  "upper-respiratory-tract",
+  "head-neck",
+  "central-nervous-system",
+  "endovascular",
+  "bloodstream-catheter",
+  "bone-spine",
+  "skin-soft-tissue",
+  "upper-urinary-tract",
+  "lower-urinary-tract",
+  "intra-abdominal",
+  "peritoneal",
+  "biliary-tract",
+  "gastrointestinal",
+  "systemic",
+  "lymphatic",
+  "neurologic",
+];
+const ANTIBIOTIC_FAMILY_ORDER = [
+  "penicillins",
+  "cephalosporins",
+  "carbapenems",
+  "monobactams",
+  "aminoglycosides",
+  "fluoroquinolones",
+  "macrolides",
+  "tetracyclines",
+  "gram-positive",
+  "other",
 ];
 const PATHOGEN_TONES: Record<string, [string, string]> = {
   "Gram-positive": ["#ede9fe", "#7c3aed"],
@@ -108,6 +140,41 @@ const pathwayPopulationLabel = (population: InfectionPopulation[]) =>
     )
     .map((item) => POPULATION_LABELS[item])
     .join(" · ");
+const groupOrderFor = (kind: NodeKind, groups: string[]) => {
+  const preferred =
+    kind === "disease"
+      ? DISEASE_SITE_ORDER
+      : kind === "organism"
+        ? PATHOGEN_ORDER
+        : ANTIBIOTIC_FAMILY_ORDER;
+  return [...groups].sort((left, right) => {
+    const leftIndex = preferred.indexOf(left);
+    const rightIndex = preferred.indexOf(right);
+    return (
+      (leftIndex < 0 ? Number.MAX_SAFE_INTEGER : leftIndex) -
+        (rightIndex < 0 ? Number.MAX_SAFE_INTEGER : rightIndex) ||
+      left.localeCompare(right)
+    );
+  });
+};
+const groupLabelFor = (kind: NodeKind, group: string) => {
+  if (kind === "disease") return SITE_LABELS[group] ?? group;
+  if (kind === "organism") return PATHOGEN_LABELS[group] ?? group;
+  return (
+    {
+      penicillins: "Penicillins / BLI",
+      cephalosporins: "Cephalosporins",
+      carbapenems: "Carbapenems / BLI",
+      monobactams: "Monobactams",
+      aminoglycosides: "Aminoglycosides",
+      fluoroquinolones: "Fluoroquinolones",
+      macrolides: "Macrolides / Lincosamides",
+      tetracyclines: "Tetracyclines",
+      "gram-positive": "Gram-positive agents",
+      other: "Other antibacterial agents",
+    }[group] ?? group
+  );
+};
 
 function antibioticFamily(value: string) {
   const normalized = value.toLowerCase();
@@ -192,23 +259,37 @@ function antibioticFamily(value: string) {
 function columnPositions(nodes: NodeInfo[], selectedId = "", stacked = false) {
   if (stacked) {
     const positions = new Map<string, { x: number; y: number }>();
-    let y = 0;
+    let y = 54;
     for (const kind of ["disease", "organism", "antibiotic"] as NodeKind[]) {
-      const kindNodes = nodes
-        .filter((node) => node.kind === kind)
-        .sort(
-          (left, right) =>
-            Number(right.id === selectedId) - Number(left.id === selectedId) ||
-            left.group.localeCompare(right.group) ||
-            left.label.localeCompare(right.label),
-        );
-      kindNodes.forEach((node, index) => {
-        positions.set(node.id, {
-          x: ((index % 3) - 1) * 145,
-          y: y + Math.floor(index / 3) * 92,
+      const kindNodes = nodes.filter(
+        (node) => node.kind === kind && !node.isHeader,
+      );
+      const headers = nodes.filter(
+        (node) => node.kind === kind && node.isHeader,
+      );
+      for (const group of groupOrderFor(
+        kind,
+        unique(kindNodes.map((node) => node.group)),
+      )) {
+        const header = headers.find((node) => node.group === group);
+        if (header) positions.set(header.id, { x: 0, y: y - 50 });
+        const members = kindNodes
+          .filter((node) => node.group === group)
+          .sort(
+            (left, right) =>
+              Number(right.id === selectedId) - Number(left.id === selectedId) ||
+              left.label.localeCompare(right.label),
+          );
+        const columns = members.length <= 2 ? 1 : 2;
+        members.forEach((node, index) => {
+          positions.set(node.id, {
+            x: columns === 1 ? 0 : (index % 2 ? 1 : -1) * 92,
+            y: y + Math.floor(index / columns) * 94,
+          });
         });
-      });
-      y += Math.ceil(kindNodes.length / 3) * 92 + 156;
+        y += Math.ceil(members.length / columns) * 94 + 78;
+      }
+      y += 118;
     }
     const all = [...positions.values()];
     const middle = all.length
@@ -277,6 +358,12 @@ function columnPositions(nodes: NodeInfo[], selectedId = "", stacked = false) {
     });
   }
   return positions;
+}
+
+function alignStackedMapToTop(cy: Core) {
+  const bounds = cy.elements().boundingBox();
+  const renderedTop = bounds.y1 * cy.zoom() + cy.pan().y;
+  cy.panBy({ x: 0, y: 76 - renderedTop });
 }
 
 export function InfectionRelationMap({
@@ -488,6 +575,35 @@ export function InfectionRelationMap({
       if (!edges.has(key)) edges.set(key, { ...edge, id: key, source, target });
     }
     const nodes = [...displayed.values()];
+    const headers: NodeInfo[] = isMobile
+      ? (["disease", "organism", "antibiotic"] as NodeKind[]).flatMap(
+          (kind) =>
+            groupOrderFor(
+              kind,
+              unique(
+                nodes
+                  .filter((node) => node.kind === kind)
+                  .map((node) => node.group),
+              ),
+            ).map((group) => {
+              const representative = nodes.find(
+                (node) => node.kind === kind && node.group === group,
+              );
+              return {
+                id: `header:${kind}:${group}`,
+                kind,
+                label: groupLabelFor(kind, group),
+                subtitle: "",
+                href: "",
+                description: "",
+                group,
+                fill: representative?.fill ?? "#f8fafc",
+                border: representative?.border ?? "#64748b",
+                isHeader: true,
+              } satisfies NodeInfo;
+            }),
+        )
+      : [];
     const matching = deferredQuery
       ? new Set(
           nodes
@@ -509,21 +625,39 @@ export function InfectionRelationMap({
             .flatMap((edge) => [edge.source, edge.target]),
         ])
       : null;
-    const visibleNodes = related
+    const visibleContentNodes = related
       ? nodes.filter((item) => related.has(item.id))
       : nodes;
+    const visibleNodes = [
+      ...visibleContentNodes,
+      ...headers.filter((header) =>
+        visibleContentNodes.some(
+          (node) => node.kind === header.kind && node.group === header.group,
+        ),
+      ),
+    ];
     const visibleIds = new Set(visibleNodes.map((item) => item.id));
     const visibleEdges = [...edges.values()].filter(
       (item) => visibleIds.has(item.source) && visibleIds.has(item.target),
     );
     const positions = columnPositions(visibleNodes, "", isMobile);
+    const positionValues = [...positions.values()];
+    const mobileHeight = isMobile && positionValues.length
+      ? Math.max(
+          900,
+          Math.max(...positionValues.map((position) => position.y)) -
+            Math.min(...positionValues.map((position) => position.y)) +
+            260,
+        )
+      : undefined;
     return {
       nodes: visibleNodes,
+      mobileHeight,
       elements: [
         ...visibleNodes.map((item) => ({
           data: item,
           position: positions.get(item.id),
-          classes: `${item.kind}${item.isGroup ? " group-node" : ""}`,
+          classes: `${item.kind}${item.isGroup ? " group-node" : ""}${item.isHeader ? " group-header" : ""}`,
         })),
         ...visibleEdges.map((item) => ({ data: item, classes: item.kind })),
       ] as ElementDefinition[],
@@ -595,6 +729,22 @@ export function InfectionRelationMap({
           },
         },
         {
+          selector: ".group-header",
+          style: {
+            shape: "rectangle",
+            width: "220px",
+            height: "26px",
+            "background-opacity": 0,
+            "border-width": 0,
+            "font-size": "15px",
+            "font-weight": "bold",
+            color: "data(border)",
+            "text-background-color": "#f8fafc",
+            "text-background-opacity": 1,
+            "text-background-padding": "4px",
+          },
+        },
+        {
           selector: "edge",
           style: {
             width: "2px",
@@ -623,8 +773,10 @@ export function InfectionRelationMap({
     });
     cy.fit(undefined, 72);
     cy.zoom(Math.min(cy.maxZoom(), cy.zoom() * 1.35));
+    if (isMobile) alignStackedMapToTop(cy);
     cy.on("tap", "node", (event) => {
       const node = event.target;
+      if (node.data("isHeader")) return;
       if (node.data("isGroup")) {
         const groupId = node.id().replace("group:", "");
         setExpandedGroups((current) => {
@@ -649,13 +801,14 @@ export function InfectionRelationMap({
       cy.destroy();
       if (cyRef.current === cy) cyRef.current = null;
     };
-  }, [graph.elements]);
+  }, [graph.elements, isMobile]);
   useEffect(() => {
     const cy = cyRef.current;
     if (!cy) return;
     cy.resize();
     cy.fit(undefined, 64);
-  }, [fullScreen]);
+    if (isMobile && viewMode === "all") alignStackedMapToTop(cy);
+  }, [fullScreen, isMobile, viewMode]);
   useEffect(() => {
     const cy = cyRef.current;
     if (!cy) return;
@@ -674,6 +827,9 @@ export function InfectionRelationMap({
         duration: 420,
         easing: "ease-out-cubic",
       });
+      if (isMobile) {
+        window.setTimeout(() => alignStackedMapToTop(cy), 430);
+      }
       return;
     }
     const selected = cy.getElementById(selectedId);
@@ -701,7 +857,7 @@ export function InfectionRelationMap({
       });
     }
     const fitTimer = window.setTimeout(
-      () =>
+      () => {
         cy.animate({
           fit: {
             eles: viewMode === "focus" ? focus : cy.elements(),
@@ -709,7 +865,11 @@ export function InfectionRelationMap({
           },
           duration: 360,
           easing: "ease-out-cubic",
-        }),
+        });
+        if (isMobile && viewMode === "all") {
+          window.setTimeout(() => alignStackedMapToTop(cy), 370);
+        }
+      },
       340,
     );
     return () => window.clearTimeout(fitTimer);
@@ -882,7 +1042,14 @@ export function InfectionRelationMap({
         </div>
       </section>
       <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_290px]">
-        <section className="relative min-h-[540px] overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 shadow-sm sm:min-h-[660px]">
+        <section
+          className="relative min-h-[540px] overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 shadow-sm sm:min-h-[660px]"
+          style={
+            isMobile && viewMode === "all" && graph.mobileHeight
+              ? { minHeight: graph.mobileHeight }
+              : undefined
+          }
+        >
           <div className="absolute inset-0">
             <div
               ref={containerRef}
