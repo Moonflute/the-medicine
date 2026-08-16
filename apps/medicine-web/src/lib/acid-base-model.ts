@@ -19,6 +19,10 @@ export type AcidBaseState = AcidBaseInputs & {
 
 const clamp = (value: number, min: number, max: number) => Math.min(max, Math.max(min, value));
 
+export function estimateRespiratoryRate(ventilation: number) {
+  return 14 * (clamp(ventilation, 40, 160) / 100);
+}
+
 export function calculateAcidBaseState(inputs: AcidBaseInputs): AcidBaseState {
   const ventilation = clamp(inputs.ventilation, 40, 160);
   const co2Production = clamp(inputs.co2Production, 60, 160);

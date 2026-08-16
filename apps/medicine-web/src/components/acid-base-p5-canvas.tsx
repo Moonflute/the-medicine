@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import type p5 from "p5";
-import type { AcidBaseState } from "@/lib/acid-base-model";
+import { estimateRespiratoryRate, type AcidBaseState } from "@/lib/acid-base-model";
 
 type P5Instance = p5;
 type P5Image = Awaited<ReturnType<P5Instance["loadImage"]>>;
@@ -128,7 +128,9 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           }
           p.pop();
           label("PULMONARY CONTROL", x, y + 105 * scale, 11, COLORS.ink, p.CENTER);
-          label(`alveolar ventilation ${current.ventilation.toFixed(0)}%`, x, y + 121 * scale, 11, COLORS.muted, p.CENTER);
+          const rr = estimateRespiratoryRate(current.ventilation).toFixed(0);
+          const breathingLabel = canvasWidth < 620 ? `RR ≈ ${rr}/min · ${current.ventilation.toFixed(0)}%` : `RR ≈ ${rr}/min · ventilation ${current.ventilation.toFixed(0)}%`;
+          label(breathingLabel, x, y + 121 * scale, canvasWidth < 620 ? 10 : 11, COLORS.muted, p.CENTER);
         };
 
         const drawAlveolarInset = (x: number, y: number, radius: number, current: AcidBaseState) => {
