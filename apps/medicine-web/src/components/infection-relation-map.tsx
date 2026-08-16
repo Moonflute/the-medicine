@@ -4,7 +4,7 @@ import Link from "next/link";
 import cytoscape, { type Core, type ElementDefinition } from "cytoscape";
 import { ChevronDown, Expand, Filter, RotateCcw, Search, ZoomIn, ZoomOut } from "lucide-react";
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
-import type { InfectionPathwayDataset } from "@/lib/infection-types";
+import type { InfectionPathwayDataset, InfectionPopulation } from "@/lib/infection-types";
 import type { AntibioticSpectrumDataset } from "@/lib/types";
 
 type NodeKind = "disease" | "organism" | "antibiotic";
@@ -16,10 +16,13 @@ const PATHOGEN_LABELS: Record<string, string> = { "Gram-positive": "G(+)균", "G
 const PATHOGEN_ORDER = ["Gram-positive", "Gram-negative", "Anaerobes", "Atypicals", "Resistance phenotype"];
 const PATHOGEN_TONES: Record<string, [string, string]> = { "Gram-positive": ["#ede9fe", "#7c3aed"], "Gram-negative": ["#fce7f3", "#db2777"], Anaerobes: ["#fef3c7", "#d97706"], Atypicals: ["#e0e7ff", "#4f46e5"], "Resistance phenotype": ["#e2e8f0", "#475569"] };
 const DISEASE_TONES = [["#dbeafe", "#2563eb"], ["#ccfbf1", "#0f766e"], ["#ffe4e6", "#e11d48"], ["#fef3c7", "#b45309"], ["#e0e7ff", "#4f46e5"], ["#dcfce7", "#15803d"]] as const;
+const POPULATION_LABELS: Record<Exclude<InfectionPopulation, "adult">, string> = { pediatric: "소아", neonate: "신생아", pregnant: "임신", immunocompromised: "면역저하", neutropenic: "호중구감소" };
 const unique = <T,>(items: T[]) => [...new Set(items)];
 const nodeId = (kind: NodeKind, id: string) => `${kind}:${id}`;
 const normalize = (value: string) => value.toLocaleLowerCase().replace(/[\s/_-]+/g, "");
 const toneFor = (key: string, tones: readonly (readonly [string, string])[]) => tones[[...key].reduce((sum, char) => sum + char.charCodeAt(0), 0) % tones.length];
+const pathwayLabel = (displayName: string) => displayName.replace(/^성인\s+/, "");
+const pathwayPopulationLabel = (population: InfectionPopulation[]) => population.filter((item): item is Exclude<InfectionPopulation, "adult"> => item !== "adult").map((item) => POPULATION_LABELS[item]).join(" · ");
 
 function antibioticFamily(value: string) {
   const normalized = value.toLowerCase();
@@ -80,7 +83,7 @@ export function InfectionRelationMap({ pathways, spectrum }: { pathways: Infecti
     const antibiotics = spectrum.antibiotics.filter((item) => antibioticIds.has(item.id) && (!drugClass || item.class === drugClass)); const antibioticIdsVisible = new Set(antibiotics.map((item) => item.id));
     const organisms = spectrum.organisms.filter((item) => organismIds.has(item.id));
     const baseNodes: NodeInfo[] = [
-      ...filtered.map((item) => { const [fill, border] = toneFor(item.infectionSite, DISEASE_TONES); return { id: nodeId("disease", item.id), kind: "disease" as const, label: item.displayName, subtitle: SITE_LABELS[item.infectionSite] ?? item.infectionSite, href: `/disease/${item.diseaseSlug}`, description: item.diagnosticNotes[0] ?? "임상 경로", group: item.infectionSite, fill, border }; }),
+      ...filtered.map((item) => { const [fill, border] = toneFor(item.infectionSite, DISEASE_TONES); const population = pathwayPopulationLabel(item.population); return { id: nodeId("disease", item.id), kind: "disease" as const, label: pathwayLabel(item.displayName), subtitle: [SITE_LABELS[item.infectionSite] ?? item.infectionSite, population].filter(Boolean).join(" · "), href: `/disease/${item.diseaseSlug}`, description: item.diagnosticNotes[0] ?? "임상 경로", group: item.infectionSite, fill, border }; }),
       ...organisms.map((item) => { const [fill, border] = PATHOGEN_TONES[item.group] ?? ["#f1f5f9", "#475569"]; return { id: nodeId("organism", item.id), kind: "organism" as const, label: item.label, subtitle: PATHOGEN_LABELS[item.group] ?? item.group, href: item.microbiologySlug ? `/microbiology/${item.microbiologySlug}` : "", description: item.aliases.join(" · "), group: item.group, fill, border }; }),
       ...antibiotics.map((item) => { const family = antibioticFamily(item.class); return { id: nodeId("antibiotic", item.id), kind: "antibiotic" as const, label: item.inn, subtitle: family.label, href: `/drugs/${item.drugSlug}`, description: `${item.routes.join(" / ")} · ${item.displayName}`, group: family.key, fill: family.fill, border: family.border }; }),
     ];
