@@ -14,6 +14,7 @@ const ccs = readJson("chief-complaints.json");
 const drugs = readJson("drugs.json");
 const labs = readJson("lab-img.json");
 const skillsManifest = readJson("skills.json");
+const interactiveConcepts = JSON.parse(fs.readFileSync(path.join(scriptDir, "..", "data", "interactive-concepts.json"), "utf8"));
 
 const nodes = [
   ...diseases.map((item) => ({ type: "disease", id: item.id, title: item.title, aliases: item.aliases ?? [], href: `/disease/${item.slug}`, item })),
@@ -21,6 +22,7 @@ const nodes = [
   ...drugs.map((item) => ({ type: "drug", id: item.id, title: item.title, aliases: item.aliases ?? [], href: `/drugs/${item.slug}`, item })),
   ...labs.map((item) => ({ type: "lab", id: item.id, title: item.title, aliases: item.aliases ?? [], href: `/lab-img/${item.slug}`, item })),
   ...(skillsManifest.items ?? []).map((item) => ({ type: "skill", id: `skill:${item.id}`, title: item.name, aliases: item.aliases ?? [], href: `/skills/${item.id}`, item })),
+  ...interactiveConcepts.map((item) => ({ type: "interactive", id: item.slug, title: item.shortTitle, aliases: [item.title, ...(item.aliases ?? [])], href: `/interactive/${item.slug}`, item })),
 ];
 
 function normalize(value) {
@@ -122,6 +124,32 @@ function add(source, relation, target, provenance, evidence = "") {
   });
 }
 
+function hasDirectedConnection(source, target) {
+  return [...relationMap.values()].some((relation) => (
+    relation.sourceType === source.type
+    && relation.sourceId === source.id
+    && relation.targetType === target.type
+    && relation.targetId === target.id
+  ));
+}
+
+function searchableText(node) {
+  return JSON.stringify({
+    title: node.title,
+    aliases: node.aliases,
+    summary: node.item?.summary,
+    sections: node.item?.sections,
+    recommendations: node.item?.recommendations,
+    drugMeta: node.item?.drugMeta,
+    description: node.item?.description,
+  }).normalize("NFKC").toLowerCase();
+}
+
+function isSpecialtyOverview(node) {
+  const withoutOrder = (value) => normalize(value).replace(/^\d+\s*/, "");
+  return node.type === "disease" && withoutOrder(node.title) === withoutOrder(node.item?.specialty);
+}
+
 function inverse(source, relation, target, evidence) {
   const map = {
     presents_as: "differential",
@@ -137,6 +165,8 @@ function inverse(source, relation, target, evidence) {
     parent_of: "child_of",
     canonical_reference: "canonical_for",
     canonical_for: "canonical_reference",
+    explains: "explored_by",
+    explored_by: "explains",
   };
   const inverseRelation = map[relation];
   if (inverseRelation) add(target, inverseRelation, source, "generated", evidence);
@@ -209,6 +239,12 @@ for (const node of nodes) {
       }
     }
   }
+
+  if (node.type === "interactive") {
+    for (const target of item.targets ?? []) {
+      addResolved(node, target.title, "explains", "section", [target.type], `interactive registry: ${target.label || target.title}`);
+    }
+  }
   const sections = item.sections ?? [];
   for (const section of sections) {
     const heading = String(section.title ?? "").toLowerCase();
@@ -234,6 +270,24 @@ for (const node of nodes) {
       add(node, relation, target, "wikilink", section.title);
       inverse(node, relation, target, section.title);
     }
+  }
+}
+
+// Concepts can opt into conservative automatic backlinks with explicit keywords.
+// Registered targets win; keyword matching only fills connections that do not exist yet.
+const interactiveNodes = nodes.filter((node) => node.type === "interactive");
+for (const concept of interactiveNodes) {
+  const keywords = (concept.item?.keywords ?? [])
+    .map((keyword) => String(keyword).normalize("NFKC").toLowerCase().trim())
+    .filter((keyword) => keyword.length >= 3);
+
+  for (const source of nodes) {
+    if (source.type === "interactive" || isSpecialtyOverview(source) || hasDirectedConnection(source, concept)) continue;
+    const text = searchableText(source);
+    const keyword = keywords.find((candidate) => text.includes(candidate));
+    if (!keyword) continue;
+    add(source, "explored_by", concept, "generated", `interactive keyword: ${keyword}`);
+    add(concept, "explains", source, "generated", `interactive keyword: ${keyword}`);
   }
 }
 

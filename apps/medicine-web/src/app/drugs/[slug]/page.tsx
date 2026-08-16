@@ -5,7 +5,6 @@ import { AntibioticClinicalLinks } from "@/components/antibiotic-clinical-links"
 import { MicrobiologyBacklinks } from "@/components/microbiology-backlinks";
 import { ReviewSaveButton } from "@/components/review-save-button";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
-import { RelatedInteractiveConcepts } from "@/components/related-interactive-concepts";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { buildDrugGroups } from "@/lib/drug-groups";
 import { getAntibioticSpectrum, getClinicalRelationsFor, getDiseaseLinks, getDrugBySlug, getDrugToc, getDrugs, getSpecialties } from "@/lib/webdb";
@@ -254,7 +253,6 @@ export default async function DrugDetailPage(props: { params: Promise<{ slug: st
           ))}
         </div>
       </section>
-      <RelatedInteractiveConcepts entity={{ type: "drug", title: note.title }} />
       {antibioticEntry && infectionSpecialty ? <AntibioticClinicalLinks antibioticId={antibioticEntry.id} pathways={infectionPathways} specialtySlug={infectionSpecialty.slug} /> : null}
       <MicrobiologyBacklinks targetType="drug" targetId={note.slug} />
       <RelatedClinicalContent relations={relations} />

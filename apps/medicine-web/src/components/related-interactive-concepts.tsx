@@ -1,28 +1,13 @@
 import Link from "next/link";
 import { Activity, ArrowRight } from "lucide-react";
 import {
-  getInteractiveConceptsForEntity,
   getInteractiveConceptsForSpecialty,
-  type InteractiveEntityType,
 } from "@/lib/interactive-concepts";
 
-export function RelatedInteractiveConcepts({
-  specialty,
-  entity,
-}: {
-  specialty?: string;
-  entity?: { type: InteractiveEntityType; title: string };
-}) {
-  const concepts = new Map<string, ReturnType<typeof getInteractiveConceptsForSpecialty>[number]>();
+export function RelatedInteractiveConcepts({ specialty }: { specialty: string }) {
+  const concepts = getInteractiveConceptsForSpecialty(specialty);
 
-  if (specialty) {
-    for (const concept of getInteractiveConceptsForSpecialty(specialty)) concepts.set(concept.slug, concept);
-  }
-  if (entity) {
-    for (const concept of getInteractiveConceptsForEntity(entity.type, entity.title)) concepts.set(concept.slug, concept);
-  }
-
-  if (concepts.size === 0) return null;
+  if (concepts.length === 0) return null;
 
   return (
     <section aria-labelledby="interactive-concepts-title" className="border-y border-slate-200 bg-white/70 py-5 sm:py-6">
@@ -36,7 +21,7 @@ export function RelatedInteractiveConcepts({
         </div>
       </div>
       <div className="grid gap-3 md:grid-cols-2">
-        {[...concepts.values()].map((concept) => (
+        {concepts.map((concept) => (
           <Link
             key={concept.slug}
             href={`/interactive/${concept.slug}`}

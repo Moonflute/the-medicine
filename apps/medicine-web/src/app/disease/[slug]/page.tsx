@@ -67,6 +67,7 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
   const currentIndex = diseaseSequence.findIndex((item) => item.slug === note.slug);
   const previousDisease = currentIndex > 0 ? diseaseSequence[currentIndex - 1] : undefined;
   const nextDisease = currentIndex >= 0 && currentIndex < diseaseSequence.length - 1 ? diseaseSequence[currentIndex + 1] : undefined;
+  const isSpecialtyOverview = isSpecialtyIndexDisease(note);
 
   return (
     <div className="space-y-6">
@@ -78,16 +79,13 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
         Back to {note.specialty}
       </Link>
 
+      {isSpecialtyOverview ? <RelatedInteractiveConcepts specialty={note.specialty} /> : null}
       <DiseaseCard
         note={note}
         ccLinks={ccLinks}
         diseaseLinks={diseaseLinks}
-        hideOverview={isSpecialtyIndexDisease(note)}
+        hideOverview={isSpecialtyOverview}
         relatedQbankHref={relatedQbankCount > 0 ? `/review/qbank/related?targetType=disease&target=${encodeURIComponent(note.slug)}&label=${encodeURIComponent(note.displayTitle || note.title)}` : undefined}
-      />
-      <RelatedInteractiveConcepts
-        specialty={isSpecialtyIndexDisease(note) ? note.specialty : undefined}
-        entity={{ type: "disease", title: note.title }}
       />
       {infectionSpecialty && infectionPathways.length > 0 ? <DiseaseInfectionPanel pathways={infectionPathways} spectrum={getAntibioticSpectrum()} specialtySlug={infectionSpecialty.slug} /> : null}
       <MicrobiologyBacklinks targetType="disease" targetId={note.slug} />

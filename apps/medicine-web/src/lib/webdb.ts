@@ -214,8 +214,8 @@ export function getDiseaseSearchIndex(): SearchEntry[] {
     slug: concept.slug,
     title: concept.shortTitle,
     category: concept.specialties.join(" · "),
-    aliases: [concept.title],
-    keywords: ["interactive", "physiology", "생리", "기전", ...concept.specialties],
+    aliases: [concept.title, ...concept.aliases],
+    keywords: ["interactive", "physiology", "생리", "기전", ...concept.keywords, ...concept.specialties],
     quickSummary: concept.summary,
     href: `/interactive/${concept.slug}`,
   }));

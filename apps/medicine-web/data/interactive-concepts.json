@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "acid-base-balance",
+    "title": "Acid-Base Balance",
+    "shortTitle": "산-염기 균형",
+    "aliases": ["Acid Base Balance", "산염기 균형", "산-염기 평형"],
+    "keywords": ["acid-base", "산-염기", "산염기", "ABGA", "PaCO2", "HCO3-"],
+    "summary": "폐포 환기와 HCO3- 상태를 조절하며 pH, 보상, 혼합성 장애의 연결을 확인합니다.",
+    "specialties": ["신장", "호흡기"],
+    "targets": [
+      { "type": "disease", "title": "산증 (Acidosis)", "label": "산증" },
+      { "type": "disease", "title": "알칼리증 (Alkalosis)", "label": "알칼리증" },
+      { "type": "disease", "title": "호흡부전 (Respiratory Failure)", "label": "호흡부전" },
+      { "type": "disease", "title": "만성 폐쇄성 폐질환 (COPD) (Chronic Obstructive Pulmonary Disease)", "label": "COPD" },
+      { "type": "disease", "title": "당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)", "label": "DKA" },
+      { "type": "disease", "title": "급성 콩팥 손상 (AKI) (Acute Kidney Injury)", "label": "급성 콩팥 손상" },
+      { "type": "lab", "title": "Arterial Blood Gas Analysis (ABGA)", "label": "ABGA" },
+      { "type": "lab", "title": "Bicarbonate (Total CO2)", "label": "Bicarbonate" }
+    ],
+    "status": "prototype"
+  }
+]

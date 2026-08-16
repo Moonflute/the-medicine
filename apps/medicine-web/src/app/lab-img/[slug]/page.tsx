@@ -7,7 +7,6 @@ import { ECGWorkbench } from "@/components/ecg-workbench";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { ReviewSaveButton } from "@/components/review-save-button";
 import { RelatedClinicalContent } from "@/components/related-clinical-content";
-import { RelatedInteractiveConcepts } from "@/components/related-interactive-concepts";
 import { RichTextLines } from "@/components/rich-text-lines";
 import { buildLabImgGroups } from "@/lib/lab-img-groups";
 import { buildLabImgOverviewGroups, formatLabImgReference, isLabImgOverviewNote } from "@/lib/lab-img-overview";
@@ -54,7 +53,6 @@ export default async function LabImgDetailPage(props: { params: Promise<{ slug: 
         <ReviewSaveButton item={{ type: "lab", id: note.id, title: note.title, href: `/lab-img/${note.slug}`, category: note.category, summary: note.summary[0] || "" }} />
       </div>
       <DomainNoteCard note={note} />
-      <RelatedInteractiveConcepts entity={{ type: "lab", title: note.title }} />
       {isEcgHub ? <ECGWorkbench diseases={getAllDiseases()} /> : null}
       <section className="rounded-lg border border-slate-200 bg-white/80 p-5 shadow-sm">
         {showOverviewTable ? (
