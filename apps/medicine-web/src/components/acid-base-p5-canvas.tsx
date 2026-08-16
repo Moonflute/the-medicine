@@ -86,12 +86,20 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
         };
 
         const lungPath = (side: -1 | 1, scale: number) => {
-          p.beginShape();
-          p.vertex(0, -48 * scale);
-          p.bezierVertex(34 * side * scale, -52 * scale, 56 * side * scale, -20 * scale, 53 * side * scale, 22 * scale);
-          p.bezierVertex(50 * side * scale, 63 * scale, 26 * side * scale, 86 * scale, 5 * side * scale, 79 * scale);
-          p.bezierVertex(-4 * side * scale, 69 * scale, -2 * side * scale, 30 * scale, 0, -48 * scale);
-          p.endShape(p.CLOSE);
+          const context = p.drawingContext as CanvasRenderingContext2D;
+          context.save();
+          context.beginPath();
+          context.moveTo(0, -48 * scale);
+          context.bezierCurveTo(34 * side * scale, -52 * scale, 56 * side * scale, -20 * scale, 53 * side * scale, 22 * scale);
+          context.bezierCurveTo(50 * side * scale, 63 * scale, 26 * side * scale, 86 * scale, 5 * side * scale, 79 * scale);
+          context.bezierCurveTo(-4 * side * scale, 69 * scale, -2 * side * scale, 30 * scale, 0, -48 * scale);
+          context.closePath();
+          context.fillStyle = side === -1 ? "#c8afb0" : "#c2a6a9";
+          context.strokeStyle = "#806d70";
+          context.lineWidth = 1.15;
+          context.fill();
+          context.stroke();
+          context.restore();
         };
 
         const drawLungs = (x: number, y: number, scale: number, current: AcidBaseState) => {
@@ -103,9 +111,6 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
           p.translate(x, y);
           p.scale(expansion, 1 + (expansion - 1) * 0.75);
           for (const side of [-1, 1] as const) {
-            p.stroke("#806d70");
-            p.strokeWeight(1.15);
-            p.fill(side === -1 ? "#c8afb0" : "#c2a6a9");
             lungPath(side, scale);
             p.noStroke();
             p.fill(255, 255, 255, 42);
@@ -165,22 +170,27 @@ export function AcidBaseP5Canvas({ state }: { state: AcidBaseState }) {
         };
 
         const kidneyPath = (scale: number) => {
-          p.beginShape();
-          p.vertex(-7 * scale, -72 * scale);
-          p.bezierVertex(-52 * scale, -73 * scale, -67 * scale, -30 * scale, -59 * scale, 15 * scale);
-          p.bezierVertex(-52 * scale, 61 * scale, -18 * scale, 80 * scale, 14 * scale, 65 * scale);
-          p.bezierVertex(37 * scale, 54 * scale, 29 * scale, 29 * scale, 8 * scale, 17 * scale);
-          p.bezierVertex(31 * scale, 4 * scale, 41 * scale, -18 * scale, 28 * scale, -43 * scale);
-          p.bezierVertex(19 * scale, -60 * scale, 7 * scale, -70 * scale, -7 * scale, -72 * scale);
-          p.endShape(p.CLOSE);
+          const context = p.drawingContext as CanvasRenderingContext2D;
+          context.save();
+          context.beginPath();
+          context.moveTo(-7 * scale, -72 * scale);
+          context.bezierCurveTo(-52 * scale, -73 * scale, -67 * scale, -30 * scale, -59 * scale, 15 * scale);
+          context.bezierCurveTo(-52 * scale, 61 * scale, -18 * scale, 80 * scale, 14 * scale, 65 * scale);
+          context.bezierCurveTo(37 * scale, 54 * scale, 29 * scale, 29 * scale, 8 * scale, 17 * scale);
+          context.bezierCurveTo(31 * scale, 4 * scale, 41 * scale, -18 * scale, 28 * scale, -43 * scale);
+          context.bezierCurveTo(19 * scale, -60 * scale, 7 * scale, -70 * scale, -7 * scale, -72 * scale);
+          context.closePath();
+          context.fillStyle = "#aa8e83";
+          context.strokeStyle = "#7d706c";
+          context.lineWidth = 1.1;
+          context.fill();
+          context.stroke();
+          context.restore();
         };
 
         const drawKidney = (x: number, y: number, scale: number, current: AcidBaseState) => {
           p.push();
           p.translate(x, y);
-          p.stroke("#7d706c");
-          p.strokeWeight(1.1);
-          p.fill("#aa8e83");
           kidneyPath(scale);
           p.noStroke();
           p.fill(255, 255, 255, 38);
