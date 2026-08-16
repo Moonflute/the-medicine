@@ -92,7 +92,7 @@ function SimulationLegend() {
         <span className="inline-flex items-center gap-2"><span className="flex" aria-hidden="true"><span className="h-2 w-2 rounded-full bg-[#297f91]" /><span className="-ml-0.5 h-2 w-2 rounded-full bg-[#297f91]" /></span><strong className="text-slate-800">O₂</strong> 농도·이동</span>
         <span className="inline-flex items-center gap-2"><span className="h-2.5 w-4 rounded-full bg-[#a45d62]" aria-hidden="true" />산소화 혈류</span>
         <span className="inline-flex items-center gap-2"><span className="h-1 w-4 bg-[#725d74]" aria-hidden="true" />비환기 shunt 혈류</span>
-        <span className="inline-flex items-center gap-2"><ArrowRight className="h-3.5 w-4 text-slate-500" aria-hidden="true" />입자 수·속도·선 굵기 = 상대적 농도와 flux</span>
+        <span className="inline-flex items-center gap-2"><span className="relative h-px w-5 bg-slate-400" aria-hidden="true"><span className="absolute -top-1 left-2 h-2 w-2 rounded-full bg-slate-500" /></span>입자 수·속도·혈관 굵기 = 상대적 농도와 flux</span>
       </div>
     </div>
   );
