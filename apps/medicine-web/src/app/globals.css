@@ -94,3 +94,18 @@ code {
     border-radius: 8px;
   }
 }
+
+/* Let the overview use the full canvas; the clinical detail rail appears only after selection. */
+@media (min-width: 1280px) {
+  div.grid:has(> section [aria-label="질환 병원체 항생제 관계도"]):not(:has(> aside h3)) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  div.grid:has(> section [aria-label="질환 병원체 항생제 관계도"]) > aside:not(:has(h3)) {
+    display: none;
+  }
+
+  section:has([aria-label="질환 병원체 항생제 관계도"]) {
+    min-height: 740px;
+  }
+}
