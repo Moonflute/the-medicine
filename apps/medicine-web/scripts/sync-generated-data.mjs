@@ -35,6 +35,41 @@ function toSlug(value) {
   return Buffer.from(value, "utf-8").toString("base64url");
 }
 
+// Disease notes use human-friendly related-specialty labels, while Review's
+// pixel collection needs one stable set of 22 display buckets.  Keep the
+// source labels readable but normalize them at the generated-data boundary.
+const RELATED_SPECIALTY_BUCKETS = {
+  "순환기": ["01 순환기"],
+  "호흡기": ["02 호흡기"],
+  "소화기": ["03 소화기"],
+  "내분비": ["04 내분비"],
+  "신장": ["05 신장"],
+  "알레르기": ["06 알레르기"],
+  "류마티스": ["07 류마티스"],
+  "감염": ["08 감염"],
+  "혈액": ["09 혈액"],
+  "종양": ["10 종양"],
+  "종양내과": ["10 종양"],
+  "외과": ["11 외과"],
+  "산과": ["12 산과"],
+  "부인과": ["13 부인과"],
+  "산부인과": ["12 산과", "13 부인과"],
+  "소아청소년과": ["14 소아청소년과"],
+  "정신건강의학과": ["15 정신건강의학과"],
+  "신경과-신경외과": ["16 신경과-신경외과"],
+  "이비인후과": ["17 이비인후과"],
+  "안과": ["18 안과"],
+  "피부과": ["19 피부과"],
+  "비뇨기과": ["20 비뇨기과"],
+  "응급의학": ["21 응급의학"],
+  "응급의학과": ["21 응급의학"],
+  "정형외과": ["22 정형외과"],
+};
+
+function normalizeRelatedSpecialties(values) {
+  return [...new Set(values.flatMap((value) => RELATED_SPECIALTY_BUCKETS[value] ?? [value]))];
+}
+
 function splitFrontmatter(raw) {
   const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
   if (!match) return { frontmatter: {}, body: raw };
@@ -418,7 +453,7 @@ function buildDiseases() {
       specialty,
       category: readScalar(frontmatter["계통"]) || readScalar(frontmatter["category"]) || specialty.replace(/^\d+\s*/, ""),
       classification: readList(frontmatter["분류"]),
-      relatedSpecialties: readList(frontmatter["\uAD00\uB828\uBD84\uACFC"]),
+      relatedSpecialties: normalizeRelatedSpecialties(readList(frontmatter["\uAD00\uB828\uBD84\uACFC"])),
       emergencyClassification: readList(frontmatter["\uC751\uAE09\uC758\uD559_\uBD84\uB958"]),
       oncologyClassification: readList(frontmatter["\uC885\uC591_\uBD84\uB958"]),
       aliases: readList(frontmatter["aliases"]),

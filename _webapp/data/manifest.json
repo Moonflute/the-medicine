@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T13:15:03.325Z",
+  "generatedAt": "2026-08-16T11:41:55.010Z",
   "sourceRoot": "source_notes",
   "outputRoot": "_webapp/data",
   "domains": {
@@ -68,9 +68,9 @@
       "source": "10 Hubs/01 감염 Hub/_data/infection-pathways.json"
     },
     "clinicalRelations": {
-      "count": 8057,
-      "explicit": 5256,
-      "generated": 2801,
+      "count": 8175,
+      "explicit": 5264,
+      "generated": 2911,
       "source": "derived from frontmatter, structured CC recommendations, and wikilinks"
     }
   }

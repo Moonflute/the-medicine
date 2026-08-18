@@ -17,6 +17,17 @@ const THEORY_SOURCE_GROUPS: Array<{ type: TheorySourceType; title: string; descr
   { type: "other", title: "기타 이론", description: "분류되지 않은 이론 문제" },
 ];
 
+const SPECIALTY_SELECTION_GROUPS = [
+  { id: "internal", label: "내과", from: 1, to: 10 },
+  { id: "surgical", label: "외산소", from: 11, to: 14 },
+  { id: "minor", label: "마이너", from: 15, to: 22 },
+] as const;
+
+function specialtyNumber(name: string) {
+  const number = Number(name.match(/^\s*(\d{1,2})\b/)?.[1]);
+  return Number.isFinite(number) ? number : null;
+}
+
 function theorySourceType(question: QbankQuestionIndex): TheorySourceType {
   return question.targetType === "disease" || question.targetType === "cc" || question.targetType === "drug" ? question.targetType : "other";
 }
@@ -39,12 +50,34 @@ function specialtyChoices(questions: QbankQuestionIndex[], questionBank: "theory
 }
 
 function QuestionBankPicker({ questionBank, title, items, selected, setSelected }: { questionBank: "theory" | "clinical"; title: string; items: SpecialtyChoice[]; selected: string[]; setSelected: (items: string[]) => void }) {
-  const all = items.length > 0 && items.every((item) => selected.includes(item.slug));
+  const allSlugs = items.map((item) => item.slug);
+  const all = allSlugs.length > 0 && allSlugs.every((slug) => selected.includes(slug));
+  const selectionGroups = SPECIALTY_SELECTION_GROUPS.map((group) => ({
+    ...group,
+    items: items.filter((item) => {
+      const number = specialtyNumber(item.name);
+      return number !== null && number >= group.from && number <= group.to;
+    }),
+  })).filter((group) => group.items.length > 0);
+  const toggleSelection = (slugs: string[]) => {
+    if (!slugs.length) return;
+    const next = new Set(selected);
+    const allSelected = slugs.every((slug) => next.has(slug));
+    slugs.forEach((slug) => allSelected ? next.delete(slug) : next.add(slug));
+    setSelected(allSlugs.filter((slug) => next.has(slug)));
+  };
   return <fieldset>
-    <div className="flex flex-wrap items-center justify-between gap-2">
+    <div className="flex flex-wrap items-center gap-2">
       <legend className="text-base font-semibold text-slate-900">{title} <span className="text-sm font-normal text-slate-500">{items.reduce((sum, item) => sum + item.count, 0).toLocaleString()}문항</span></legend>
-      <button type="button" onClick={() => setSelected(all ? [] : items.map((item) => item.slug))} className="text-xs font-semibold text-teal-700 hover:underline" disabled={items.length === 0}>{all ? "전체 해제" : "전체 선택"}</button>
     </div>
+    {items.length > 0 && <div className="mt-3 flex flex-wrap gap-1.5 sm:gap-2">
+      {selectionGroups.map((group) => {
+        const slugs = group.items.map((item) => item.slug);
+        const active = slugs.every((slug) => selected.includes(slug));
+        return <button key={group.id} type="button" onClick={() => toggleSelection(slugs)} className={`rounded-md border px-2.5 py-1.5 text-xs font-semibold transition-colors ${active ? "border-teal-700 bg-teal-700 text-white" : "border-slate-300 bg-white text-slate-700 hover:border-teal-500 hover:text-teal-800"}`}>{group.label}</button>;
+      })}
+      <button type="button" onClick={() => toggleSelection(allSlugs)} className={`rounded-md border px-2.5 py-1.5 text-xs font-semibold transition-colors ${all ? "border-teal-700 bg-teal-700 text-white" : "border-slate-300 bg-white text-slate-700 hover:border-teal-500 hover:text-teal-800"}`}>{all ? "전체 해제" : "전체 선택"}</button>
+    </div>}
     {items.length === 0 ? <p className="mt-3 text-sm text-slate-500">연결된 {questionBank === "theory" ? "이론" : "임상"} 문제가 없습니다.</p> : <div className="mt-3 grid grid-cols-2 gap-1.5 sm:gap-2 lg:grid-cols-4">{items.map((item) => {
       const checked = selected.includes(item.slug);
       return <label key={item.slug} className={`flex cursor-pointer items-start gap-1.5 rounded-lg border px-2.5 py-2 text-[13px] leading-5 sm:px-3 sm:text-sm ${checked ? "border-teal-400 bg-teal-50 text-teal-950" : "border-slate-200 bg-white text-slate-700"}`}>
