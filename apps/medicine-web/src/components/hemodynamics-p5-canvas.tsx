@@ -40,7 +40,7 @@ export function HemodynamicsP5Canvas({ state }: { state: HemodynamicsState }) {
       const host = hostRef.current; const reducedMotion = false;
       const sketch = (p: P5Instance) => {
         let width = 760; let height = 650; let heart: P5Image | null = null; let cycle = 0;
-        const label = (text: string, x: number, y: number, size = 11, color = COLORS.muted, align: typeof p.LEFT | typeof p.CENTER | typeof p.RIGHT = p.CENTER) => { p.noStroke(); p.fill(color); p.textAlign(align, p.CENTER); p.textSize(size); p.text(text, x, y); };
+        const label = (text: string, x: number, y: number, size = 11, color = COLORS.muted, align: typeof p.LEFT | typeof p.CENTER | typeof p.RIGHT = p.CENTER) => { p.noStroke(); p.fill(color); p.textAlign(align, p.CENTER); p.textSize(Math.max(12, size)); p.text(text, x, y); };
         const resize = () => { width = Math.max(760, Math.floor(host.clientWidth)); height = width < 620 ? 850 : 650; p.resizeCanvas(width, height); };
 
         const drawParticlePath = (points: Point[], count: number, speed: number, color: string, active: boolean, size = 7) => {

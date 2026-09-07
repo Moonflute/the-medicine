@@ -1,10 +1,11 @@
 "use client";
 import { updateSimulationClock } from "@/lib/simulation-clock";
 
-import { GuidedExperiments, MetricComparison, PlaybackControls, useSimulationClock } from "@/components/simulation-workbench";
+import { GuidedExperiments, MetricComparison, useSimulationClock } from "@/components/simulation-workbench";
 import { physiologyExperiments } from "@/lib/physiology-experiments";
 
 import Link from "next/link";
+import { CanvasFrame } from "@/components/physiology-ui";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Activity, ArrowRight, Droplets, Gauge, RotateCcw, Scale, Wind } from "lucide-react";
 import { AcidBaseP5Canvas, type AcidBaseSimulationView } from "@/components/acid-base-p5-canvas";
@@ -101,7 +102,7 @@ function Metric({ label, value, status }: { label: string; value: string; status
 
 function SimulationLegend() {
   return (
-    <div role="note" aria-label="시뮬레이션 기호 범례" className="border-t border-slate-300 bg-[#f8faf9] px-4 py-3">
+    <div role="note" aria-label="시뮬레이션 기호 범례" className="text-sm">
       <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs leading-5 text-slate-600">
         <span className="inline-flex items-center gap-2"><span className="h-2 w-2 rounded-full bg-[#3f7185]" aria-hidden="true" /><strong className="text-slate-800">CO₂</strong> 혈중 농도·폐포 배출</span>
         <span className="inline-flex items-center gap-2"><span className="h-1 w-3 rounded-[1px] bg-[#b08a4a]" aria-hidden="true" /><strong className="text-slate-800">HCO₃⁻</strong> 완충 염기·신장 이동</span>
@@ -237,7 +238,6 @@ export function AcidBaseBalanceLab() {
         </p>
       </header>
 
-      <GuidedExperiments experiments={physiologyExperiments.acid} onApply={(id) => applyPreset(PRESETS.find((p) => p.id === id)!)} />
       <section aria-label="산-염기 프리셋" className="flex flex-wrap items-center gap-1.5 border-b border-slate-200 pb-4">
         <span className="mr-2 text-xs font-semibold uppercase text-slate-500">Clinical states</span>
         {PRESETS.map((preset) => (
@@ -251,11 +251,7 @@ export function AcidBaseBalanceLab() {
       </section>
 
       <section className="physiology-stage">
-        <div className="min-w-0 overflow-hidden rounded-md border border-slate-300 bg-[#eef2f1] shadow-sm">
-          <AcidBaseP5Canvas state={state} simulation={simulation} />
-          <PlaybackControls />
-          <SimulationLegend />
-        </div>
+        <CanvasFrame legend={<SimulationLegend />}><AcidBaseP5Canvas state={state} simulation={simulation} /></CanvasFrame>
         <aside aria-label="산-염기 조절 변수" className="rounded-md border border-slate-300 bg-[#f8faf9] p-5 shadow-sm">
           <div className="mb-5 flex items-center gap-2">
             <Gauge className="h-5 w-5 text-teal-700" />
@@ -277,6 +273,7 @@ export function AcidBaseBalanceLab() {
         </aside>
       </section>
 
+      <GuidedExperiments experiments={physiologyExperiments.acid} onApply={(id) => applyPreset(PRESETS.find((p) => p.id === id)!)} />
       <MetricComparison metrics={[{label:"pH",value:state.pH,normal:7.4,unit:"",digits:2},{label:"PaCO₂",value:state.paCO2,normal:40,unit:"mmHg"},{label:"HCO₃⁻",value:state.bicarbonate,normal:24,unit:"mmol/L"}]} />
       <section aria-label="계산 결과" className="grid gap-y-4 rounded-md border border-slate-300 bg-[#f8faf9] py-4 sm:grid-cols-2 xl:grid-cols-4">
         <Metric label="pH" value={state.pH.toFixed(2)} status={state.status === "normal" ? "7.35-7.45" : state.status === "acidemia" ? "acidemia" : "alkalemia"} />

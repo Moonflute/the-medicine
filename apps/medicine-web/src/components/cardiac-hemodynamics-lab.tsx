@@ -29,7 +29,6 @@ export function CardiacHemodynamicsLab() {
   const normal = calculateHemodynamics(NORMAL);
   return <div className="physiology-lab space-y-5">
     <PhysiologyHeader title="심장 혈역학" description="실제 심장 절개도에서 P파와 QRS, 심방·심실 수축, 판막 개폐와 혈류가 같은 심주기 위에서 움직이며 전부하·후부하·수축력 변화가 압력-용적 고리로 이어지는 과정을 확인합니다." links={[{ href: "/interactive/ecg-arrhythmia", label: "ECG와 부정맥" }]} />
-    <GuidedExperiments experiments={physiologyExperiments.cardiac} onApply={applyPreset} />
     <PresetStrip presets={PRESETS} selected={presetId} onSelect={applyPreset} onReset={() => applyPreset("normal")} />
     <section className="physiology-stage">
       <CanvasFrame legend={<div className="flex flex-wrap gap-x-5 gap-y-2"><span><b className="text-slate-600">●</b> 우심계 정맥혈</span><span><b className="text-rose-700">●</b> 좌심계 산소화 혈류</span><span>녹색 판막 = 열림 · 적색 = 닫힘</span><span>황색 점 = SA→AV→His-Purkinje 전도</span></div>}><HemodynamicsP5Canvas state={state} /></CanvasFrame>
@@ -41,6 +40,7 @@ export function CardiacHemodynamicsLab() {
       </div></ModelPanel>
     </section>
     <CardiacPhaseInspector state={state} />
+    <GuidedExperiments experiments={physiologyExperiments.cardiac} onApply={applyPreset} />
     <MetricComparison metrics={[{label:"EDV",value:state.edv,normal:normal.edv,unit:"mL"},{label:"ESV",value:state.esv,normal:normal.esv,unit:"mL"},{label:"EF",value:state.ejectionFraction,normal:normal.ejectionFraction,unit:"%"},{label:"CO",value:state.cardiacOutput,normal:normal.cardiacOutput,unit:"L/min"}]} />
     <section aria-label="혈역학 계산 결과" className="grid rounded-md border border-slate-300 bg-[#f8faf9] py-4 sm:grid-cols-2 xl:grid-cols-6"><PhysiologyMetric label="EDV" value={`${state.edv.toFixed(0)} mL`} status="이완기말 용적" /><PhysiologyMetric label="ESV" value={`${state.esv.toFixed(0)} mL`} status="수축기말 용적" /><PhysiologyMetric label="SV / EF" value={`${state.strokeVolume.toFixed(0)} mL · ${state.ejectionFraction.toFixed(0)}%`} status="박출 성능" /><PhysiologyMetric label="CO" value={`${state.cardiacOutput.toFixed(1)} L/min`} status="심박출량" /><PhysiologyMetric label="BP / MAP" value={`${state.systolicPressure.toFixed(0)}/${state.diastolicPressure.toFixed(0)} · ${state.meanArterialPressure.toFixed(0)}`} status="mmHg" /><PhysiologyMetric label="LVEDP" value={`${state.lvEndDiastolicPressure.toFixed(0)} mmHg`} status="충만압 추정" /></section>
     <section className="rounded-md border border-rose-200 bg-rose-50 p-5" aria-live="polite"><div className="flex items-center gap-2 text-sm font-bold"><HeartPulse className="h-4 w-4" />Current pattern</div><h2 className="mt-2 text-xl font-bold">{state.pattern}</h2><p className="mt-2 text-sm leading-6 text-slate-700">Peak aortic flow {state.peakAorticFlow.toFixed(0)} mL/s, 이완기 충만 시간 {state.fillingTimeMs.toFixed(0)} ms입니다. 설정값 변화가 심장 그림, 혈류 입자, 판막과 pressure-volume loop에 동시에 반영됩니다.</p></section>

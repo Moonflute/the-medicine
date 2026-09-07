@@ -2,8 +2,8 @@
 
 import { PlaybackControls } from "@/components/simulation-workbench";
 import Link from "next/link";
-import { Activity, ArrowRight, ChevronDown, RotateCcw, SlidersHorizontal } from "lucide-react";
-import type { ReactNode } from "react";
+import { Activity, ArrowRight, ChevronDown, RotateCcw, SlidersHorizontal, Maximize, Minimize, ZoomIn, ZoomOut } from "lucide-react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 
 export function PhysiologyHeader({ title, description, links = [] }: { title: string; description: string; links?: Array<{ href: string; label: string }> }) {
   return (
@@ -56,5 +56,32 @@ export function ModelPanel({ eyebrow = "Model inputs", title, children }: { eyeb
 }
 
 export function CanvasFrame({ children, legend }: { children: ReactNode; legend: ReactNode }) {
-  return <div className="min-w-0 overflow-hidden rounded-md border border-slate-300 bg-[#eef2f1] shadow-sm">{children}<PlaybackControls /><div className="border-t border-slate-300 bg-[#f8faf9] px-4 py-3 text-xs leading-5 text-slate-600">{legend}</div></div>;
+  const frame = useRef<HTMLDivElement>(null);
+  const [zoom, setZoom] = useState(1);
+  const [width, setWidth] = useState<number>();
+  const [fullscreen, setFullscreen] = useState(false);
+  const [canFullscreen, setCanFullscreen] = useState(false);
+  useEffect(() => {
+    const element = frame.current;
+    if (!element) return;
+    const observer = new ResizeObserver(([entry]) => setWidth(entry.contentRect.width));
+    observer.observe(element);
+    const changed = () => setFullscreen(document.fullscreenElement === element);
+    setCanFullscreen(document.fullscreenEnabled);
+    document.addEventListener("fullscreenchange", changed);
+    return () => { observer.disconnect(); document.removeEventListener("fullscreenchange", changed); };
+  }, []);
+  const toggleFullscreen = async () => {
+    try { if (document.fullscreenElement === frame.current) await document.exitFullscreen(); else await frame.current?.requestFullscreen(); } catch { /* Browser may deny fullscreen; zoom remains available. */ }
+  };
+  return <div ref={frame} className="simulation-frame">
+    <div className="simulation-view-toolbar"><span className="font-semibold text-slate-800">기전 관찰</span><div className="ml-auto flex items-center gap-2">
+      <button type="button" className="simulation-button" aria-label="도해 축소" disabled={zoom <= 1} onClick={() => setZoom((v) => Math.max(1, v - .25))}><ZoomOut size={18} /></button>
+      <button type="button" className="simulation-button tabular-nums" aria-label="도해 확대 초기화" onClick={() => setZoom(1)}>{Math.round(zoom * 100)}%</button>
+      <button type="button" className="simulation-button" aria-label="도해 확대" disabled={zoom >= 2} onClick={() => setZoom((v) => Math.min(2, v + .25))}><ZoomIn size={18} /></button>
+      {canFullscreen && <button type="button" className="simulation-button" onClick={toggleFullscreen} aria-label={fullscreen ? "전체 화면 닫기" : "도해 전체 화면"}>{fullscreen ? <Minimize size={18} /> : <Maximize size={18} />}<span className="hidden sm:inline">{fullscreen ? "돌아가기" : "전체 화면"}</span></button>}
+    </div></div>
+    <div className="simulation-viewport" tabIndex={0} aria-label="확대 가능한 도해 영역"><div style={{ width: width ? `${width}px` : "100%", zoom }}>{children}</div></div>
+    <PlaybackControls /><div className="simulation-legend">{legend}</div>
+  </div>;
 }

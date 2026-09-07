@@ -6,6 +6,7 @@ import { Pause, Play, RotateCcw, SkipBack, SkipForward } from "lucide-react";
 import { advanceSimulation, simulationPhase, type SimulationClock } from "@/lib/simulation-clock";
 
 const ClockContext = createContext<RefObject<SimulationClock> | null>(null);
+const DrawContext = createContext<Set<() => void> | null>(null);
 export function useSimulationClock() {
   const clock = useContext(ClockContext);
   if (!clock) throw new Error("Simulation must be inside SimulationWorkbench");
@@ -14,16 +15,17 @@ export function useSimulationClock() {
 
 export function SimulationWorkbench({ children }: { children: ReactNode }) {
   const clock = useRef<SimulationClock>({ seconds: 0, playing: true, speed: 0.5, period: 8, reducedMotion: false });
+  const [drawers] = useState(() => new Set<() => void>());
   useEffect(() => {
     const media = window.matchMedia("(prefers-reduced-motion: reduce)");
     const onMotion = () => { updateSimulationClock(clock, {reducedMotion: media.matches}); if (media.matches) updateSimulationClock(clock, {playing: false}); };
     onMotion(); media.addEventListener("change", onMotion);
     let frame = 0; let last = performance.now();
-    const tick = (now: number) => { advanceSimulation(clock.current, document.hidden ? 0 : (now - last) / 1000); last = now; frame = requestAnimationFrame(tick); };
+    const tick = (now: number) => { advanceSimulation(clock.current, document.hidden ? 0 : (now - last) / 1000); last = now; if (!document.hidden) drawers.forEach((draw) => draw()); frame = requestAnimationFrame(tick); };
     frame = requestAnimationFrame(tick);
     return () => { cancelAnimationFrame(frame); media.removeEventListener("change", onMotion); };
-  }, []);
-  return <ClockContext.Provider value={clock}><div className="physiology-workbench">{children}</div></ClockContext.Provider>;
+  }, [drawers]);
+  return <ClockContext.Provider value={clock}><DrawContext.Provider value={drawers}><div className="physiology-workbench">{children}</div></DrawContext.Provider></ClockContext.Provider>;
 }
 
 export function useSimulationPeriod(period: number) {
@@ -73,13 +75,15 @@ export function GuidedExperiments({ experiments, onApply }: { experiments: Learn
 
 export function useClockRedraw(instance: RefObject<{ redraw: () => void } | null>) {
   const clock = useSimulationClock();
+  const drawers = useContext(DrawContext);
   useEffect(() => {
     let previous = -1;
-    const timer = window.setInterval(() => {
+    const draw = () => {
       if (document.hidden || !instance.current || previous === clock.current.seconds) return;
       previous = clock.current.seconds; instance.current.redraw();
-    }, 33);
-    return () => clearInterval(timer);
-  }, [clock, instance]);
+    };
+    drawers?.add(draw);
+    return () => { drawers?.delete(draw); };
+  }, [clock, instance, drawers]);
   return clock;
 }

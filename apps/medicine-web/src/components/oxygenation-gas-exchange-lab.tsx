@@ -1,10 +1,11 @@
 "use client";
 import { updateSimulationClock } from "@/lib/simulation-clock";
 
-import { GuidedExperiments, MetricComparison, PlaybackControls, useSimulationClock } from "@/components/simulation-workbench";
+import { GuidedExperiments, MetricComparison, useSimulationClock } from "@/components/simulation-workbench";
 import { physiologyExperiments } from "@/lib/physiology-experiments";
 
 import Link from "next/link";
+import { CanvasFrame } from "@/components/physiology-ui";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Activity, ArrowRight, ChevronDown, Droplets, Gauge, RotateCcw, SlidersHorizontal, Wind } from "lucide-react";
 import { OxygenationP5Canvas, type OxygenationSimulationView } from "@/components/oxygenation-p5-canvas";
@@ -91,7 +92,7 @@ function Metric({ label, value, status }: { label: string; value: string; status
 
 function SimulationLegend() {
   return (
-    <div role="note" aria-label="산소화 시뮬레이션 범례" className="border-t border-slate-300 bg-[#f8faf9] px-4 py-3">
+    <div role="note" aria-label="산소화 시뮬레이션 범례" className="text-sm">
       <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs leading-5 text-slate-600">
         <span className="inline-flex items-center gap-2"><span className="flex" aria-hidden="true"><span className="h-2 w-2 rounded-full bg-[#297f91]" /><span className="-ml-0.5 h-2 w-2 rounded-full bg-[#297f91]" /></span><strong className="text-slate-800">O₂</strong> 농도·이동</span>
         <span className="inline-flex items-center gap-2"><span className="h-2.5 w-4 rounded-full bg-[#a45d62]" aria-hidden="true" />산소화 혈류</span>
@@ -170,7 +171,6 @@ export function OxygenationGasExchangeLab() {
         <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-600 sm:text-base">FiO₂와 환기가 폐포 산소를 만들고, V/Q 불균형과 shunt가 동맥혈 산소화를 제한하며, hemoglobin이 실제 조직 운반량을 결정하는 과정을 확인합니다.</p>
       </header>
 
-      <GuidedExperiments experiments={physiologyExperiments.oxygen} onApply={(id) => applyPreset(PRESETS.find((p) => p.id === id)!)} />
       <section aria-label="산소화 프리셋" className="flex flex-wrap items-center gap-1.5 border-b border-slate-200 pb-4">
         <span className="mr-2 text-xs font-semibold uppercase text-slate-500">Clinical states</span>
         {PRESETS.map((preset) => <button key={preset.id} type="button" aria-pressed={presetId === preset.id} onClick={() => applyPreset(preset)} className="rounded-md border border-slate-300 bg-[#f7f9f8] px-3 py-1.5 text-xs font-semibold text-slate-700 transition hover:border-teal-500 hover:bg-white hover:text-teal-900">{preset.label}</button>)}
@@ -178,11 +178,7 @@ export function OxygenationGasExchangeLab() {
       </section>
 
       <section className="physiology-stage">
-        <div className="min-w-0 overflow-hidden rounded-md border border-slate-300 bg-[#eef2f1] shadow-sm">
-          <OxygenationP5Canvas state={state} simulation={simulation} />
-          <PlaybackControls />
-          <SimulationLegend />
-        </div>
+        <CanvasFrame legend={<SimulationLegend />}><OxygenationP5Canvas state={state} simulation={simulation} /></CanvasFrame>
         <aside aria-label="산소화 조절 변수" className="rounded-md border border-slate-300 bg-[#f8faf9] p-5 shadow-sm">
           <div className="mb-5 flex items-center gap-2"><Gauge className="h-5 w-5 text-teal-700" /><div><div className="text-[11px] font-semibold uppercase text-slate-500">Model inputs</div><h2 className="text-base font-semibold text-slate-950">가스교환 변수</h2></div></div>
           <div className="space-y-4">
@@ -207,6 +203,7 @@ export function OxygenationGasExchangeLab() {
         </aside>
       </section>
 
+      <GuidedExperiments experiments={physiologyExperiments.oxygen} onApply={(id) => applyPreset(PRESETS.find((p) => p.id === id)!)} />
       <MetricComparison metrics={[{label:"PaO₂",value:state.paO2,normal:calculateOxygenationState(NORMAL_INPUTS).paO2,unit:"mmHg"},{label:"SaO₂",value:state.saO2,normal:calculateOxygenationState(NORMAL_INPUTS).saO2,unit:"%"},{label:"CaO₂",value:state.caO2,normal:calculateOxygenationState(NORMAL_INPUTS).caO2,unit:"mL/dL"},{label:"A–a",value:state.aaGradient,normal:calculateOxygenationState(NORMAL_INPUTS).aaGradient,unit:"mmHg"}]} />
       <section aria-label="산소화 계산 결과" className="grid gap-y-4 rounded-md border border-slate-300 bg-[#f8faf9] py-4 sm:grid-cols-2 xl:grid-cols-5">
         <Metric label="PAO₂" value={`${state.alveolarPO2.toFixed(0)} mmHg`} status="폐포 산소" />

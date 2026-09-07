@@ -87,7 +87,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
           p.fill(color);
           p.textAlign(align, p.CENTER);
           p.textStyle(p.NORMAL);
-          p.textSize(size);
+          p.textSize(Math.max(12, size));
           p.text(text, x, y);
         };
 

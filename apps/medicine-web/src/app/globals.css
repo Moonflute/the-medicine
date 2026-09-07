@@ -125,5 +125,24 @@ code {
 .physiology-workbench button:focus-visible, .physiology-workbench input:focus-visible, .physiology-workbench select:focus-visible { outline: 3px solid #0d9488; outline-offset: 3px; }
 .guided-experiment { border: 1px solid #b9d8d2; border-radius: 1rem; padding: 1.25rem; background: linear-gradient(120deg,#f0fdfa,#f8faf9); }
 .simulation-comparison { padding: 1.25rem; border: 1px solid #d4dfdd; border-radius: 1rem; background: #f1f5f4; }
-@media (min-width: 1200px) { .physiology-stage { grid-template-columns: minmax(0,1fr) 310px; } }
+@media (min-width: 1800px) { .physiology-stage { grid-template-columns: minmax(0,1fr) 300px; } }
 @media (max-width: 600px) { .physiology-workbench { margin-inline: -.5rem; } .guided-experiment, .simulation-comparison { padding: 1rem; } .physiology-workbench h1 { font-size: 1.75rem; } }
+
+/* Keep the visual experiment large enough to read before adding a side panel. */
+.simulation-frame { min-width: 0; overflow: hidden; border: 1px solid #cbd5e1; border-radius: 16px; background: #f8fafc; box-shadow: 0 8px 28px #0f172a08; }
+.simulation-view-toolbar { display: flex; align-items: center; gap: 12px; padding: 12px 18px; border-bottom: 1px solid #e2e8f0; background: white; font-size: 14px; }
+.simulation-viewport { overflow: auto; max-height: 78vh; scrollbar-gutter: stable; }
+.simulation-viewport > div > div { overflow: visible; }
+.simulation-legend { padding: 16px 20px; border-top: 1px solid #e2e8f0; color: #334155; background: #f8fafc; font-size: 14px; line-height: 1.7; }
+.simulation-frame:fullscreen { overflow: auto; border-radius: 0; padding: 0; background: #f8fafc; }
+.simulation-frame:fullscreen .simulation-viewport { max-height: calc(100dvh - 250px); }
+.simulation-button:disabled { opacity: .35; cursor: default; }
+.simulation-playback { padding: 16px 20px; background: white; }
+.simulation-button, .simulation-primary { min-height: 44px; font-size: 14px; }
+.physiology-workbench input[type="range"] { min-height: 24px; }
+.physiology-workbench [aria-label$="프리셋"] button[aria-pressed="true"] { background: #0f766e; color: white; }
+@media (min-width: 768px) and (max-width: 1799px) {
+  .physiology-stage > aside > .space-y-4 { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 20px; }
+  .physiology-stage > aside > .space-y-4 > * { margin: 0; }
+  .physiology-stage > aside > .space-y-4 > details { grid-column: 1 / -1; }
+}

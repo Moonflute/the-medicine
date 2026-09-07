@@ -166,3 +166,13 @@ These references support physiological direction and clinical interpretation, no
 The legacy `test:neuro` suite contains source-text assertions for an older monolithic Theory/NEx interface. Baseline HEAD had 11 failures before this change. Its canonical atlas-data/provenance checks still pass. Memoized view selection is accepted by its updated source check; the unrelated legacy UI assertions are not replaced with weaker assertions.
 
 Verification outcome for this release: TypeScript and static GitHub Pages export passed (2,551 pages); ESLint has zero errors and three pre-existing unused-variable warnings. Physiology regression checks and the neuro-note tests passed. The legacy atlas suite now passes 24 of 34 checks; its 10 remaining failures also occur against the pre-change interface and concern historical UI source assertions. Actual pathway traversal was verified from step 1 through step 9, automatic stop at the terminal structure, and manual lesion interpretation.
+
+
+### 공통 관찰 UI (2026-09)
+
+- 여섯 생리학 화면은 `CanvasFrame`의 확대(100–200%), 전체 화면, 재생 조절과 범례를 공유한다. 확대는 생리 입력을 변경하지 않는다.
+- 시간 갱신과 p5 redraw는 같은 requestAnimationFrame에서 순서대로 실행한다. 별도 33ms 타이머를 추가하지 않는다. 숨겨진 탭과 정지 상태에서는 불필요한 프레임을 그리지 않는다.
+- 노트북 폭에서는 도해가 가로 공간을 우선 사용하고 입력 패널은 아래에 둔다. 임상 실험은 관찰 화면 다음에 배치한다.
+- 캔버스 라벨은 최소 12px, 네프론은 13px로 읽을 수 있게 유지한다. 확대 단면의 높이는 경로 수에 맞추며 설명과 수송체 라벨의 겹침을 확인한다.
+- 네프론의 곡선 관과 입자는 같은 보간 좌표를 공유한다. 형상은 크기가 바뀔 때만 다시 계산하고 캔버스 설명은 내용이 달라질 때만 갱신한다.
+- 검증: 재생/정지/시점 이동, 확대 후 정지 시점 유지, 전체 화면 진입/복귀, 좁은 화면에서 페이지 전체의 가로 넘침 여부를 확인한다.
