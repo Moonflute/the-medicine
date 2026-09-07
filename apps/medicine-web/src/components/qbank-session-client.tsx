@@ -510,7 +510,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           </button>
         </div>
         {current.questionBank === "practice" && <p className="mt-4 text-xs text-slate-500">{current.id} · {current.reviewStatus === "source-compared" ? "원문 대조 완료" : "OCR 자동 변환 · 원본 확인 필요"}</p>}
-        {current.figures?.map((figure) => <PrivateQuestionImage key={figure.path} path={figure.path} alt={figure.alt} />)}
+        {current.figures?.map((figure, index) => <figure key={figure.path}><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="mt-1 text-xs text-slate-500">그림 {index + 1}</figcaption></figure>)}
         <p className="mt-6 whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base">{current.question}</p>
 
         <div className="mt-7 grid gap-3">
