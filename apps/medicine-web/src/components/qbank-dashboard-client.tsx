@@ -152,7 +152,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setSelectedTheory(stringArray(saved?.theory));
       setSelectedClinical(stringArray(saved?.clinical));
-      setPracticeFilters({ books: stringArray(saved?.practice?.books), specialties: stringArray(saved?.practice?.specialties), years: stringArray(saved?.practice?.years) });
+      setPracticeFilters({ books: [], specialties: stringArray(saved?.practice?.specialties), years: stringArray(saved?.practice?.years), series: saved?.practice?.series ? stringArray(saved.practice.series) : [...new Set(stringArray(saved?.practice?.books).map((book) => book.startsWith("perfect") ? "퍼펙트" : "리얼"))], departments: stringArray(saved?.practice?.departments), order: saved?.practice?.order === "book" ? "book" : "random" });
       setTab(saved?.tab === "clinical" || saved?.tab === "practice" ? saved.tab : "theory");
       setCount(typeof saved?.count === "string" ? saved.count : "10");
     } catch { /* Storage is optional; in-memory selections remain available. */ }
@@ -175,6 +175,8 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     theory: selectedTheory.join(","),
     clinical: selectedClinical.join(","),
     count,
+    practiceSeries: (practiceFilters.series ?? []).join(","),
+    practiceDepartments: (practiceFilters.departments ?? []).join(","),
     practiceBooks: practiceFilters.books.join(","),
     practiceSpecialties: practiceFilters.specialties.join(","),
     practiceYears: practiceFilters.years.join(","),
@@ -211,10 +213,10 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
         <QuestionBankPicker questionBank="clinical" title="임상 문제" items={clinicalSpecialties} selected={selectedClinical} setSelected={setSelectedClinical} />
       </div>
       <div role="tabpanel" id="panel-practice" aria-labelledby="tab-practice" hidden={tab !== "practice"} className="mt-6">
-        <PracticeBankPicker questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} />
+        <PracticeBankPicker questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} count={count} />
       </div>
       <label className="mt-6 block max-w-xs text-sm font-medium text-slate-700">문항 수<input type="number" min="1" max="100" step="1" inputMode="numeric" value={count} onChange={(event) => setCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5" /></label>
-      {selectedCount + practiceCount > 0 ? <Link href={sessionHref} className="primary-action mt-5"><Play className="h-4 w-4" />문제 풀기 시작</Link> : <p className="mt-5 text-sm text-rose-700">이론·임상·실전문제 중 하나 이상 선택하세요.</p>}
+      {selectedCount + practiceCount > 0 ? <Link href={sessionHref} className="primary-action mt-5"><Play className="h-4 w-4" />선택한 탭 문제 함께 랜덤풀이</Link> : <p className="mt-5 text-sm text-rose-700">이론·임상·실전문제 중 하나 이상 선택하세요.</p>}
       </fieldset>
     </section>
 

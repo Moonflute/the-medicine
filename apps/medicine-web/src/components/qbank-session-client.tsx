@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
-import { matchesPractice, type PracticeFilters } from "@/lib/practice-selection";
+import { matchesPractice, hasPracticeSelection, comparePracticeOrder, type PracticeFilters } from "@/lib/practice-selection";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, ChevronRight, RotateCcw, XCircle } from "lucide-react";
@@ -76,7 +76,7 @@ function DrugLinks({ drugs }: { drugs: QbankQuestion["relatedDrugs"] }) {
 async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = "", practiceFilters?: PracticeFilters): Promise<QbankQuestion[]> {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
-  let candidates = index;
+  let candidates = mode === "practice-book" ? [] : index;
   if (mode === "theory-linked") {
     const practiceId = new URLSearchParams(window.location.search).get("practiceId") ?? "";
     const [source] = await loadPracticeQuestions([practiceId]);
@@ -119,7 +119,7 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
     ));
   }
   let privateQuestions: QbankQuestion[] = [];
-  const wantsPrivate = Boolean(practiceFilters?.books.length) || ["all", "unattempted", "wrong", "bookmarks"].includes(mode);
+  const wantsPrivate = hasPracticeSelection(practiceFilters) || ["all", "unattempted", "wrong", "bookmarks"].includes(mode);
   if (wantsPrivate) {
     const { questions: privateIndex } = await loadPracticeIndex();
     const state = loadQbankState();
@@ -214,7 +214,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       : mode === "bookmarks"
         ? new Set(initialState.bookmarkIds)
         : undefined;
-    void loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs, { books: (params.get("practiceBooks") ?? "").split(",").filter(Boolean), specialties: (params.get("practiceSpecialties") ?? "").split(",").filter(Boolean), years: (params.get("practiceYears") ?? "").split(",").filter(Boolean) })
+    void loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs, { series: (params.get("practiceSeries") ?? "").split(",").filter(Boolean), departments: (params.get("practiceDepartments") ?? "").split(",").filter(Boolean), books: (params.get("practiceBooks") ?? "").split(",").filter(Boolean), specialties: (params.get("practiceSpecialties") ?? "").split(",").filter(Boolean), years: (params.get("practiceYears") ?? "").split(",").filter(Boolean) })
       .then((loaded) => {
         const state = initialState;
         let filtered = loaded;
@@ -233,7 +233,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         }
         const restoredQuestions = snapshot?.questionIds.map((id) => loaded.find((item) => item.id === id)).filter((item): item is QbankQuestion => Boolean(item)) ?? [];
         const canRestore = Boolean(snapshot && restoredQuestions.length === snapshot.questionIds.length && restoredQuestions.length > 0);
-        const selectedQuestions = canRestore ? restoredQuestions : shuffled(filtered).slice(0, requestedCount);
+        const selectedQuestions = canRestore ? restoredQuestions : (mode === "practice-book" ? [...filtered].sort(comparePracticeOrder) : shuffled(filtered).slice(0, requestedCount));
         const restoredIndex = canRestore && snapshot ? Math.min(Math.max(snapshot.currentIndex, 0), selectedQuestions.length - 1) : 0;
         const restoredQuestion = selectedQuestions[restoredIndex];
         const restoredAnswer = canRestore && snapshot ? snapshot.answers.find((item) => item.questionId === restoredQuestion?.id) : undefined;
