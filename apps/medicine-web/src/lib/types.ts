@@ -387,7 +387,7 @@ export type SkillsManifest = {
   items: ClinicalSkill[];
 };
 
-export type QbankAnswer = "A" | "B" | "C" | "D";
+export type QbankAnswer = "A" | "B" | "C" | "D" | "E";
 
 export type QbankQuestion = {
   id: string;
@@ -403,8 +403,8 @@ export type QbankQuestion = {
   questionType: string;
   difficulty: string;
   question: string;
-  options: Record<QbankAnswer, string>;
-  answer: QbankAnswer;
+  options: Partial<Record<QbankAnswer, string>>;
+  answer: QbankAnswer | null;
   explanation: string;
   translationStatus: string;
   explanationStatus: string;
@@ -413,6 +413,9 @@ export type QbankQuestion = {
   targetType: "disease" | "cc" | "drug" | string;
   targetSlug: string;
   targetTitle?: string;
+  figures?: Array<{ path: string; alt: string }>;
+  relatedDocuments?: Array<{ type: "disease" | "cc" | "drug"; slug: string; title: string }>;
+  relatedTheoryQuestionIds?: string[];
 };
 
 export type QbankQuestionIndex = Pick<

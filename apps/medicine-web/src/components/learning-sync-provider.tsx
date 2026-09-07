@@ -267,10 +267,20 @@ export function LearningSyncProvider() {
     };
 
     const hydrate = async (userId: string) => {
+      const loadQuestionProgress = async () => {
+        const rows: Row[] = [];
+        for (let offset = 0; ; offset += 1000) {
+          const page = await supabase.from("qbank_question_progress").select("*").eq("user_id", userId)
+            .order("question_id").range(offset, offset + 999);
+          if (page.error) return { data: rows, error: page.error };
+          rows.push(...(page.data ?? []) as Row[]);
+          if ((page.data?.length ?? 0) < 1000) return { data: rows, error: null };
+        }
+      };
       const [reviewResult, coverageResult, qbankResult, sessionsResult] = await Promise.all([
         supabase.from("review_items").select("*").eq("user_id", userId).eq("is_saved", true),
         supabase.from("content_progress").select("*").eq("user_id", userId).order("last_viewed_at", { ascending: false }),
-        supabase.from("qbank_question_progress").select("*").eq("user_id", userId),
+        loadQuestionProgress(),
         supabase.from("qbank_sessions").select("*").eq("user_id", userId).order("completed_at", { ascending: false }).limit(100),
       ]);
       const error = reviewResult.error ?? coverageResult.error ?? qbankResult.error ?? sessionsResult.error;

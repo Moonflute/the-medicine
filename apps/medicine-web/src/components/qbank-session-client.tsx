@@ -1,6 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { PrivateQuestionImage } from "@/components/private-question-image";
+import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
+import { matchesPractice, type PracticeFilters } from "@/lib/practice-selection";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, ChevronRight, RotateCcw, XCircle } from "lucide-react";
@@ -14,7 +17,7 @@ import {
 import type { QbankAnswer, QbankQuestion, QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 
-type SessionAnswer = { questionId: string; selected: QbankAnswer; correct: boolean; specialty: string };
+type SessionAnswer = { questionId: string; selected: QbankAnswer; correct: boolean | null; specialty: string };
 type QbankSessionSnapshot = { questionIds: string[]; currentIndex: number; answers: SessionAnswer[]; selected: QbankAnswer | null; submitted: boolean };
 type QbankActiveSession = QbankSessionSnapshot & { sessionId: string; updatedAt: string };
 
@@ -70,10 +73,16 @@ function DrugLinks({ drugs }: { drugs: QbankQuestion["relatedDrugs"] }) {
   return <div className="mt-3"><p className="mb-1.5 text-xs font-semibold text-slate-600">관련 약물</p><div className="flex flex-wrap gap-2">{drugs.map((drug) => <Link key={drug.slug} href={`/drugs/${drug.slug}`} className="pill hover:border-teal-500">{drug.title}</Link>)}</div></div>;
 }
 
-async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = ""): Promise<QbankQuestion[]> {
+async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = "", practiceFilters?: PracticeFilters): Promise<QbankQuestion[]> {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const index = await fetchJson<QbankQuestionIndex[]>(`${basePath}/generated/qbank/index.json`);
   let candidates = index;
+  if (mode === "theory-linked") {
+    const practiceId = new URLSearchParams(window.location.search).get("practiceId") ?? "";
+    const [source] = await loadPracticeQuestions([practiceId]);
+    const linked = new Set(source?.relatedTheoryQuestionIds ?? []);
+    candidates = index.filter((q) => q.questionBank === "theory" && linked.has(q.id));
+  }
   if (mode === "selection") {
     const theory = new Set(theorySpecialties.split(",").filter(Boolean));
     const clinical = new Set(clinicalSpecialties.split(",").filter(Boolean));
@@ -109,11 +118,27 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
       || (item.questionBank !== "theory" && clinical.has(item.specialtySlug))
     ));
   }
+  let privateQuestions: QbankQuestion[] = [];
+  const wantsPrivate = Boolean(practiceFilters?.books.length) || ["all", "unattempted", "wrong", "bookmarks"].includes(mode);
+  if (wantsPrivate) {
+    const { questions: privateIndex } = await loadPracticeIndex();
+    const state = loadQbankState();
+    const privateIds = privateIndex.filter((q) => {
+      if (mode === "wrong" || mode === "bookmarks") return (targetIds ?? new Set(mode === "wrong" ? state.wrongIds : state.bookmarkIds)).has(q.id);
+      if (mode === "all") return !targetIds || targetIds.has(q.id);
+      if (mode === "unattempted") return !state.progress[q.id];
+      if (!practiceFilters || !matchesPractice(q, practiceFilters)) return false;
+      if (mode !== "related") return true;
+      const scope = targetSlugs.split(",").filter(Boolean);
+      return targetType === "disease" ? q.relatedDiseaseSlugs.some((slug) => (scope.length ? scope : [targetSlug]).includes(slug)) : q.relatedCcSlugs.includes(targetSlug);
+    }).map((q) => q.id);
+    privateQuestions = await loadPracticeQuestions(privateIds);
+  }
   const slugs = [...new Set(candidates.map((item) => item.specialtySlug))];
-  if (slugs.length === 0) return [];
+  if (slugs.length === 0) return privateQuestions;
   const shards = await Promise.all(slugs.map((slug) => fetchJson<QbankQuestion[]>(`${basePath}/generated/qbank/${slug}.json`)));
   const ids = new Set(candidates.map((item) => item.id));
-  return shards.flat().filter((item) => ids.has(item.id));
+  return [...shards.flat().filter((item) => ids.has(item.id)), ...privateQuestions];
 }
 
 function activeSessionFrom(value: unknown): QbankActiveSession | null {
@@ -125,7 +150,7 @@ function activeSessionFrom(value: unknown): QbankActiveSession | null {
     questionIds: candidate.questionIds.filter((item): item is string => typeof item === "string"),
     currentIndex: typeof candidate.currentIndex === "number" ? candidate.currentIndex : 0,
     answers: candidate.answers as SessionAnswer[],
-    selected: candidate.selected === "A" || candidate.selected === "B" || candidate.selected === "C" || candidate.selected === "D" ? candidate.selected : null,
+    selected: candidate.selected === "A" || candidate.selected === "B" || candidate.selected === "C" || candidate.selected === "D" || candidate.selected === "E" ? candidate.selected : null,
     submitted: Boolean(candidate.submitted),
     updatedAt: candidate.updatedAt,
   };
@@ -189,7 +214,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       : mode === "bookmarks"
         ? new Set(initialState.bookmarkIds)
         : undefined;
-    void loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs)
+    void loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs, { books: (params.get("practiceBooks") ?? "").split(",").filter(Boolean), specialties: (params.get("practiceSpecialties") ?? "").split(",").filter(Boolean), years: (params.get("practiceYears") ?? "").split(",").filter(Boolean) })
       .then((loaded) => {
         const state = initialState;
         let filtered = loaded;
@@ -265,7 +290,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   useEffect(() => {
     if (!remoteActiveSession || remoteActiveSession.updatedAt === appliedRemoteSessionVersionRef.current) return;
     let cancelled = false;
-    void loadQuestions(specialties, "all", "all", "")
+    void loadQuestions(specialties, "all", "all", "", new Set(remoteActiveSession.questionIds))
       .then((loaded) => {
         const restoredQuestions = remoteActiveSession.questionIds.map((id) => loaded.find((item) => item.id === id)).filter((item): item is QbankQuestion => Boolean(item));
         if (cancelled || restoredQuestions.length !== remoteActiveSession.questionIds.length || restoredQuestions.length === 0) return;
@@ -293,11 +318,29 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   }, [remoteActiveSession, specialties]);
 
   const current = questions[currentIndex];
+  useEffect(() => {
+    if (!questions.some((q) => q.questionBank === "practice")) return;
+    const client = getSupabaseBrowserClient();
+    let ownerId: string | null | undefined = undefined;
+    const listener = client?.auth.onAuthStateChange((_event, session) => {
+      const nextId = session?.user.id ?? null;
+      if (ownerId === undefined && nextId) { ownerId = nextId; return; }
+      if (nextId && nextId === ownerId) return;
+      ownerId = nextId;
+      if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
+      setSyncUserId(null);
+      setQuestions([]);
+      setRemoteActiveSession(null);
+      setError("로그인 상태가 변경되었습니다. 문제은행에서 다시 시작해주세요.");
+    });
+    return () => listener?.data.subscription.unsubscribe();
+  }, [questions]);
   const currentTheoryTargetHref = current ? theoryTargetHref(current) : null;
   const correctCount = useMemo(() => answers.filter((item) => item.correct).length, [answers]);
   const specialtyResults = useMemo(() => {
     const summary = new Map<string, { correct: number; total: number }>();
     for (const item of answers) {
+      if (item.correct === null) continue;
       const result = summary.get(item.specialty) ?? { correct: 0, total: 0 };
       result.total += 1;
       result.correct += item.correct ? 1 : 0;
@@ -319,8 +362,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
 
   const submit = useCallback(() => {
     if (!current || !selected || submitted) return;
-    const correct = selected === current.answer;
-    recordQbankAttempt(current.id, selected, correct);
+    const correct = current.answer === null ? null : selected === current.answer;
+    if (correct !== null) recordQbankAttempt(current.id, selected, correct);
     setWrongTracked(loadQbankState().wrongIds.includes(current.id));
     setAnswers((items) => [...items, { questionId: current.id, selected, correct, specialty: current.specialty }]);
     setSubmitted(true);
@@ -335,7 +378,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         completedAt: new Date().toISOString(),
         questionIds: questions.map((item) => item.id),
         correct: finishedAnswers.filter((item) => item.correct).length,
-        total: questions.length,
+        total: finishedAnswers.filter((item) => item.correct !== null).length,
       });
       window.sessionStorage.removeItem(sessionStorageKey());
       if (syncUserId) {
@@ -368,7 +411,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       if (!current) return;
 
       if (!submitted && ["1", "2", "3", "4"].includes(event.key)) {
-        const answer = (["A", "B", "C", "D"] as QbankAnswer[])[Number(event.key) - 1];
+        const answer = (["A", "B", "C", "D", "E"] as QbankAnswer[])[Number(event.key) - 1];
         if (answer && current.options[answer]) {
           event.preventDefault();
           setSelected(answer);
@@ -433,14 +476,15 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   );
 
   if (completed) {
-    const rate = Math.round((correctCount / questions.length) * 100);
+    const gradedCount = answers.filter((item) => item.correct !== null).length;
+    const rate = gradedCount ? Math.round((correctCount / gradedCount) * 100) : 0;
     return (
       <div className="space-y-5">
         <section className="surface p-7 text-center">
           <div className="eyebrow">Session complete</div>
-          <h1 className="mt-3 text-3xl font-semibold">{correctCount} / {questions.length}</h1>
+          <h1 className="mt-3 text-3xl font-semibold">{correctCount} / {gradedCount}</h1>
           {specialtyResults.length > 0 ? <div className="mx-auto mt-5 max-w-md rounded-lg border border-slate-200 bg-white p-3 text-left text-sm">{specialtyResults.map(([specialty, result]) => <div key={specialty} className="flex justify-between gap-4 py-1"><span>{specialty}</span><span>{result.correct}/{result.total}</span></div>)}</div> : null}
-          <p className="mt-2 text-slate-600">정답률 {rate}% · 틀린 문제는 오답 노트에 자동 저장되었습니다.</p>
+          <p className="mt-2 text-slate-600">정답률 {rate}% · 정답 미확인 {answers.length - gradedCount}문항은 채점에서 제외했습니다.</p>
         </section>
         <div className="flex flex-wrap justify-center gap-3">
           <Link href="/review/qbank" className="secondary-action"><ArrowLeft className="h-4 w-4" />문제은행</Link>
@@ -465,12 +509,14 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
             {bookmarked ? <BookmarkCheck className="h-4 w-4 text-amber-600" /> : <Bookmark className="h-4 w-4" />}{bookmarked ? "저장됨" : "북마크"}
           </button>
         </div>
+        {current.questionBank === "practice" && <p className="mt-4 text-xs text-slate-500">{current.id} · {current.reviewStatus === "source-compared" ? "원문 대조 완료" : "OCR 자동 변환 · 원본 확인 필요"}</p>}
+        {current.figures?.map((figure) => <PrivateQuestionImage key={figure.path} path={figure.path} alt={figure.alt} />)}
         <p className="mt-6 whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base">{current.question}</p>
 
         <div className="mt-7 grid gap-3">
           {(Object.keys(current.options) as QbankAnswer[]).map((key) => {
             const isCorrect = submitted && key === current.answer;
-            const isWrong = submitted && key === selected && key !== current.answer;
+            const isWrong = submitted && current.answer !== null && key === selected && key !== current.answer;
             const isSelected = key === selected;
             return (
               <button
@@ -489,12 +535,14 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         </div>
 
         {submitted ? (
-          <div className={`mt-6 rounded-lg border p-4 ${selected === current.answer ? "border-teal-200 bg-teal-50" : "border-rose-200 bg-rose-50"}`}>
+          <div className={`mt-6 rounded-lg border p-4 ${current.answer === null ? "border-slate-200 bg-slate-50" : selected === current.answer ? "border-teal-200 bg-teal-50" : "border-rose-200 bg-rose-50"}`}>
             {wrongTracked ? <button type="button" onClick={dismissWrong} className="secondary-action float-right">오답 노트에서 제거</button> : null}
-            <div className="flex items-center gap-2 font-semibold">{selected === current.answer ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{selected === current.answer ? "정답입니다." : `정답은 ${current.answer}입니다.`}</div>
+            <div className="flex items-center gap-2 font-semibold">{current.answer === null ? null : selected === current.answer ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{current.answer === null ? "정답 미확인 문항입니다. 채점과 오답 집계에서 제외됩니다." : selected === current.answer ? "정답입니다." : `정답은 ${current.answer}입니다.`}</div>
             {current.explanation ? <div className="mt-3 whitespace-pre-line text-sm leading-6 text-slate-700">{current.explanation}</div> : <p className="mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
             <DrugLinks drugs={current.relatedDrugs ?? []} />
-            {currentTheoryTargetHref ? <div className="mt-3 flex flex-wrap gap-2"><Link href={currentTheoryTargetHref} className="pill hover:border-teal-500">이론 원문: {theoryTargetTitle(current)}</Link></div> : current.relatedDiseaseSlugs.length > 0 ? <div className="mt-3 flex flex-wrap gap-2">{current.relatedDiseaseSlugs.map((slug, index) => <Link key={slug} href={`/disease/${slug}`} className="pill hover:border-teal-500">{current.relatedDiseaseTerms[index] || slug}</Link>)}</div> : null}
+            {current.relatedDocuments && <div className="mt-3 flex flex-wrap gap-2">{current.relatedDocuments.filter((d) => d.type !== "drug").map((d) => <Link key={`${d.type}:${d.slug}`} className="pill hover:border-teal-500" href={`${d.type === "disease" ? "/disease/" : "/cc/"}${d.slug}`}>{d.title} · 이론(자동 연결)</Link>)}</div>}
+            {(current.relatedTheoryQuestionIds?.length ?? 0) > 0 && <Link className="secondary-action mt-3" href={`/review/qbank/session?mode=theory-linked&practiceId=${encodeURIComponent(current.id)}&count=10`}>관련 이론문제 풀기</Link>}
+            {currentTheoryTargetHref ? <div className="mt-3 flex flex-wrap gap-2"><Link href={currentTheoryTargetHref} className="pill hover:border-teal-500">이론 원문: {theoryTargetTitle(current)}</Link></div> : current.questionBank !== "practice" && current.relatedDiseaseSlugs.length > 0 ? <div className="mt-3 flex flex-wrap gap-2">{current.relatedDiseaseSlugs.map((slug, index) => <Link key={slug} href={`/disease/${slug}`} className="pill hover:border-teal-500">{current.relatedDiseaseTerms[index] || slug}</Link>)}</div> : null}
           </div>
         ) : null}
 

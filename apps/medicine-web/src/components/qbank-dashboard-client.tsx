@@ -3,6 +3,10 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { Bookmark, CircleAlert, Play, RotateCcw } from "lucide-react";
+import { PracticeBankPicker } from "@/components/practice-bank-picker";
+import { EMPTY_PRACTICE_FILTERS, matchesPractice, stringArray, toggleGroup, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
+import { loadPracticeIndex } from "@/lib/practice-bank";
+import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { loadQbankState, QBANK_CHANGE_EVENT } from "@/lib/qbank-store";
 import type { QbankQuestionIndex, QbankSpecialtySummary } from "@/lib/types";
 
@@ -61,10 +65,7 @@ function QuestionBankPicker({ questionBank, title, items, selected, setSelected 
   })).filter((group) => group.items.length > 0);
   const toggleSelection = (slugs: string[]) => {
     if (!slugs.length) return;
-    const next = new Set(selected);
-    const allSelected = slugs.every((slug) => next.has(slug));
-    slugs.forEach((slug) => allSelected ? next.delete(slug) : next.add(slug));
-    setSelected(allSlugs.filter((slug) => next.has(slug)));
+    setSelected(toggleGroup(selected, slugs));
   };
   return <fieldset>
     <div className="flex flex-wrap items-center gap-2">
@@ -99,6 +100,12 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   }, [questions, relatedTarget]);
   const theoryGroups = useMemo(() => THEORY_SOURCE_GROUPS.map((group) => ({ ...group, items: specialtyChoices(availableQuestions, "theory", group.type) })).filter((group) => group.items.length > 0), [availableQuestions]);
   const clinicalSpecialties = useMemo(() => specialtyChoices(availableQuestions, "clinical"), [availableQuestions]);
+  const [tab, setTab] = useState<"theory" | "clinical" | "practice">("theory");
+  const [practice, setPractice] = useState<PracticeIndex[]>([]);
+  const [practiceMessage, setPracticeMessage] = useState("실전문제 접근 권한을 확인 중입니다.");
+  const [practiceFilters, setPracticeFilters] = useState<PracticeFilters>(EMPTY_PRACTICE_FILTERS);
+  const [loadedDraft, setLoadedDraft] = useState("");
+  const draftKey = `medicine-qbank-picker-v2:${relatedTarget ? `${relatedTarget.type}:${relatedTarget.slug}` : "all"}`;
   const [selectedTheory, setSelectedTheory] = useState<string[]>([]);
   const [selectedClinical, setSelectedClinical] = useState<string[]>([]);
   const [count, setCount] = useState("10");
@@ -117,6 +124,48 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     return () => window.removeEventListener(QBANK_CHANGE_EVENT, refresh);
   }, []);
 
+  useEffect(() => {
+    let active = true;
+    let revision = 0;
+    const refresh = async () => {
+      const request = ++revision;
+      setPractice([]);
+      setPracticeMessage("실전문제 접근 권한을 확인 중입니다.");
+      try {
+        const result = await loadPracticeIndex();
+        if (active && request === revision) { setPractice(result.questions); setPracticeMessage(result.message); }
+      } catch (error) { if (active && request === revision) setPracticeMessage(error instanceof Error ? error.message : "실전문제를 불러오지 못했습니다."); }
+    };
+    void refresh();
+    let refreshTimer: ReturnType<typeof setTimeout> | undefined;
+    const listener = getSupabaseBrowserClient()?.auth.onAuthStateChange(() => {
+      clearTimeout(refreshTimer);
+      refreshTimer = setTimeout(() => { if (active) void refresh(); }, 0);
+    });
+    return () => { active = false; clearTimeout(refreshTimer); listener?.data.subscription.unsubscribe(); };
+  }, []);
+
+  useEffect(() => {
+    try {
+      const saved = JSON.parse(sessionStorage.getItem(draftKey) ?? "null");
+      // Restore browser-only draft after hydration; server rendering cannot read sessionStorage.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setSelectedTheory(stringArray(saved?.theory));
+      setSelectedClinical(stringArray(saved?.clinical));
+      setPracticeFilters({ books: stringArray(saved?.practice?.books), specialties: stringArray(saved?.practice?.specialties), years: stringArray(saved?.practice?.years) });
+      setTab(saved?.tab === "clinical" || saved?.tab === "practice" ? saved.tab : "theory");
+      setCount(typeof saved?.count === "string" ? saved.count : "10");
+    } catch { /* Storage is optional; in-memory selections remain available. */ }
+    setLoadedDraft(draftKey);
+  }, [draftKey]);
+  useEffect(() => {
+    if (loadedDraft !== draftKey) return;
+    try { sessionStorage.setItem(draftKey, JSON.stringify({ tab, theory: selectedTheory, clinical: selectedClinical, practice: practiceFilters, count })); } catch { /* Storage unavailable. */ }
+  }, [loadedDraft, draftKey, tab, selectedTheory, selectedClinical, practiceFilters, count]);
+  const availablePractice = useMemo(() => practice.filter((q) => !relatedTarget || (relatedTarget.type === "disease" ? q.relatedDiseaseSlugs.some((slug) => (relatedTarget.scopeSlugs ?? [relatedTarget.slug]).includes(slug)) : q.relatedCcSlugs.includes(relatedTarget.slug))), [practice, relatedTarget]);
+  const practiceCount = availablePractice.filter((q) => matchesPractice(q, practiceFilters)).length;
+  const selectedTheoryCount = availableQuestions.filter((q) => q.questionBank === "theory" && selectedTheory.includes(theorySelectionKey(q))).length;
+  const selectedClinicalCount = availableQuestions.filter((q) => q.questionBank === "clinical" && selectedClinical.includes(q.specialtySlug)).length;
   const selectedCount = useMemo(() => availableQuestions.filter((item) => (
     (item.questionBank === "theory" && selectedTheory.includes(theorySelectionKey(item)))
     || (item.questionBank === "clinical" && selectedClinical.includes(item.specialtySlug))
@@ -126,6 +175,9 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     theory: selectedTheory.join(","),
     clinical: selectedClinical.join(","),
     count,
+    practiceBooks: practiceFilters.books.join(","),
+    practiceSpecialties: practiceFilters.specialties.join(","),
+    practiceYears: practiceFilters.years.join(","),
   });
   if (relatedTarget) {
     sessionParams.set("targetType", relatedTarget.type);
@@ -134,22 +186,36 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   }
   const sessionHref = `/review/qbank/session?${sessionParams.toString()}`;
   return <div className="space-y-6">
-    {!relatedTarget ? <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-      <div className="surface p-4"><div className="text-xs text-slate-500">전체 문제</div><div className="mt-1 text-2xl font-semibold">{questions.length.toLocaleString()}</div></div>
+    {!relatedTarget ? <section className="grid grid-cols-3 gap-2 sm:gap-3">
+      <div className="surface p-4"><div className="text-xs text-slate-500">전체 문제</div><div className="mt-1 text-2xl font-semibold">{(questions.length + practice.length).toLocaleString()}</div></div>
       <div className="surface p-4"><div className="text-xs text-slate-500">풀이 완료</div><div className="mt-1 text-2xl font-semibold">{stats.attempted.toLocaleString()}</div></div>
       <div className="surface border-rose-200 bg-rose-50 p-4"><div className="text-xs text-rose-700">오답</div><div className="mt-1 text-2xl font-semibold text-rose-950">{stats.wrong.toLocaleString()}</div></div>
     </section> : null}
 
     <section className="surface p-5 sm:p-6">
-      <div className="flex flex-wrap items-baseline justify-between gap-3"><div><h2 className="text-xl font-semibold text-slate-950">{relatedTarget ? `${relatedTarget.label} 관련 문제` : "문제 선택"}</h2><p className="mt-1 text-sm text-slate-600">이론과 임상을 각각 선택해 한 세트로 풀 수 있습니다.</p></div><span className="pill">선택됨 {selectedCount.toLocaleString()}문항</span></div>
-      <div className="mt-6 space-y-6">
+      <fieldset disabled={loadedDraft !== draftKey}>
+      <div className="flex flex-wrap items-baseline justify-between gap-3"><div><h2 className="text-xl font-semibold text-slate-950">{relatedTarget ? `${relatedTarget.label} 관련 문제` : "문제 선택"}</h2><p className="mt-1 text-sm text-slate-600">탭을 바꿔도 선택이 유지됩니다. 여러 탭에서 고른 문제를 함께 풀 수 있습니다.</p></div><span className="pill">선택됨 {(selectedCount + practiceCount).toLocaleString()}문항</span></div>
+      <div role="tablist" aria-label="문제 종류" className="mt-5 grid grid-cols-3 gap-1 rounded-lg bg-slate-100 p-1">
+        {([['theory', '이론문제', selectedTheoryCount], ['clinical', '임상문제', selectedClinicalCount], ['practice', '실전문제', practiceCount]] as const).map(([key, label, selected]) => <button key={key} type="button" role="tab" id={`tab-${key}`} aria-selected={tab === key} aria-controls={`panel-${key}`} tabIndex={tab === key ? 0 : -1} onClick={() => setTab(key)} onKeyDown={(event) => {
+          const tabs = ['theory', 'clinical', 'practice'] as const;
+          const index = tabs.indexOf(key);
+          const next = event.key === 'ArrowRight' ? tabs[(index + 1) % 3] : event.key === 'ArrowLeft' ? tabs[(index + 2) % 3] : event.key === 'Home' ? tabs[0] : event.key === 'End' ? tabs[2] : null;
+          if (next) { event.preventDefault(); setTab(next); document.getElementById(`tab-${next}`)?.focus(); }
+        }} className={`rounded-md px-2 py-3 text-sm font-semibold ${tab === key ? 'bg-white text-teal-800 shadow-sm' : 'text-slate-600'}`}>{label} <span className="text-xs">{selected > 0 ? `(${selected})` : ''}</span></button>)}
+      </div>
+      <div role="tabpanel" id="panel-theory" aria-labelledby="tab-theory" hidden={tab !== "theory"} className="mt-6 space-y-6">
         <div><h3 className="text-base font-semibold text-slate-900">이론 문제 <span className="text-sm font-normal text-slate-500">{theoryGroups.reduce((sum, group) => sum + group.items.reduce((countSum, item) => countSum + item.count, 0), 0).toLocaleString()}문항</span></h3><p className="mt-1 text-sm text-slate-500">문서 소속별로 나눈 뒤 필요한 분과만 선택하세요.</p></div>
         {theoryGroups.map((group) => <div key={group.type} className="border-t border-slate-200 pt-5"><p className="mb-4 text-sm text-slate-500">{group.description}</p><QuestionBankPicker questionBank="theory" title={group.title} items={group.items} selected={selectedTheory} setSelected={setSelectedTheory} /></div>)}
       </div>
-      <div className="my-6 border-t border-slate-200" />
-      <QuestionBankPicker questionBank="clinical" title="임상 문제" items={clinicalSpecialties} selected={selectedClinical} setSelected={setSelectedClinical} />
+      <div role="tabpanel" id="panel-clinical" aria-labelledby="tab-clinical" hidden={tab !== "clinical"} className="mt-6">
+        <QuestionBankPicker questionBank="clinical" title="임상 문제" items={clinicalSpecialties} selected={selectedClinical} setSelected={setSelectedClinical} />
+      </div>
+      <div role="tabpanel" id="panel-practice" aria-labelledby="tab-practice" hidden={tab !== "practice"} className="mt-6">
+        <PracticeBankPicker questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} />
+      </div>
       <label className="mt-6 block max-w-xs text-sm font-medium text-slate-700">문항 수<input type="number" min="1" max="100" step="1" inputMode="numeric" value={count} onChange={(event) => setCount(event.target.value)} className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5" /></label>
-      {selectedCount > 0 ? <Link href={sessionHref} className="primary-action mt-5"><Play className="h-4 w-4" />문제 풀기 시작</Link> : <p className="mt-5 text-sm text-rose-700">이론 또는 임상 문제를 하나 이상 선택하세요.</p>}
+      {selectedCount + practiceCount > 0 ? <Link href={sessionHref} className="primary-action mt-5"><Play className="h-4 w-4" />문제 풀기 시작</Link> : <p className="mt-5 text-sm text-rose-700">이론·임상·실전문제 중 하나 이상 선택하세요.</p>}
+      </fieldset>
     </section>
 
     {!relatedTarget ? <section className="grid gap-3 sm:grid-cols-3">
