@@ -9,16 +9,11 @@ type P5Instance = p5;
 type P5Image = Awaited<ReturnType<P5Instance["loadImage"]>>;
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
-function wrappedDistance(time: number, eventTime: number, windowSeconds: number) {
-  const direct = time - eventTime;
-  const alternatives = [direct, direct + windowSeconds, direct - windowSeconds];
-  return alternatives.reduce((best, value) => Math.abs(value) < Math.abs(best) ? value : best, direct);
-}
 
 function signalAt(time: number, state: EcgState) {
   let signal = 0;
   for (const event of state.events) {
-    const distance = wrappedDistance(time, event.time, state.windowSeconds);
+    const distance = (time - event.time);
     if (event.type === "atrial") {
       if (state.rhythm === "af") signal += Math.sin((time + event.time) * 54) * 0.8 * Math.exp(-Math.abs(distance) * 35);
       else if (state.rhythm === "flutter") {
@@ -41,7 +36,7 @@ function signalAt(time: number, state: EcgState) {
 }
 
 function latestEvent(state: EcgState, time: number, type: EcgEvent["type"]) {
-  return state.events.filter((event) => event.type === type).map((event) => ({ event, distance: wrappedDistance(time, event.time, state.windowSeconds) })).filter(({ distance }) => distance >= 0).sort((a, b) => a.distance - b.distance)[0];
+  return state.events.filter((event) => event.type === type).map((event) => ({ event, distance: (time - event.time) })).filter(({ distance }) => distance >= 0).sort((a, b) => a.distance - b.distance)[0];
 }
 
 export function EcgP5Canvas({ state }: { state: EcgState }) {
@@ -83,19 +78,19 @@ export function EcgP5Canvas({ state }: { state: EcgState }) {
           p.noFill(); p.stroke("#a7565d"); p.strokeWeight(5); p.circle(pulseX, pulseY, 44 + pulseStrength * 24); label("수축 가정", pulseX, pulseY - 8, 9); label(pulseStrength > 0 ? "PULSE" : "waiting for QRS", pulseX, pulseY + 9, 9, pulseStrength > 0 ? "#9b4f56" : "#697a7e");
 
           const stripX = compact ? 18 : width * 0.48; const stripY = compact ? 380 : 85; const stripW = compact ? width - 36 : width * 0.49; const stripH = compact ? 210 : 300;
-          p.noStroke(); p.fill(248, 250, 249, 232); p.rect(stripX, stripY, stripW, stripH, 6); label("LIVE RHYTHM STRIP · 6 seconds", stripX + 12, stripY + 17, 9, "#66777c", p.LEFT);
+          p.noStroke(); p.fill(248, 250, 249, 232); p.rect(stripX, stripY, stripW, stripH, 6); label("8초 고정 예시 · 커서 = 관찰 시점", stripX + 12, stripY + 17, 9, "#66777c", p.LEFT);
           const baseline = stripY + stripH * 0.52; p.stroke("#c9d4d3"); p.strokeWeight(1); p.line(stripX + 12, baseline, stripX + stripW - 12, baseline);
           p.stroke("#6d5c7d"); p.strokeWeight(2.2); p.noFill(); p.beginShape();
-          const shownSeconds = 6;
-          for (let px = stripX + 12; px <= stripX + stripW - 12; px += 2) { const offset = (px - stripX - 12) / (stripW - 24) * shownSeconds; const sampleTime = (time - shownSeconds + offset + current.windowSeconds) % current.windowSeconds; p.vertex(px, baseline + signalAt(sampleTime, current)); } p.endShape();
-          p.stroke("#b27a2f"); p.strokeWeight(1.5); p.line(stripX + stripW - 12, stripY + 28, stripX + stripW - 12, stripY + stripH - 18);
-          const eventY = stripY + stripH - 31; const recentEvents = current.events.filter((event) => { const age = wrappedDistance(time, event.time, current.windowSeconds); return age >= 0 && age <= shownSeconds; });
-          recentEvents.forEach((event) => { const age = wrappedDistance(time, event.time, current.windowSeconds); const x = stripX + stripW - 12 - age / shownSeconds * (stripW - 24); p.noStroke(); p.fill(event.type === "atrial" ? event.conducted ? "#b27a2f" : "#9a5b5f" : "#6d5c7d"); p.circle(x, eventY, event.type === "atrial" ? 6 : 8); });
+          const shownSeconds = current.windowSeconds;
+          for (let px = stripX + 12; px <= stripX + stripW - 12; px += 2) { const offset = (px - stripX - 12) / (stripW - 24) * shownSeconds; const sampleTime = offset; p.vertex(px, baseline + signalAt(sampleTime, current)); } p.endShape();
+          p.stroke("#b27a2f"); p.strokeWeight(1.5); const cursorX = stripX + 12 + time / shownSeconds * (stripW - 24); p.line(cursorX, stripY + 28, cursorX, stripY + stripH - 18);
+          const eventY = stripY + stripH - 31; const recentEvents = current.events;
+          recentEvents.forEach((event) => { const x = stripX + 12 + event.time / shownSeconds * (stripW - 24); p.noStroke(); p.fill(event.type === "atrial" ? event.conducted ? "#b27a2f" : "#9a5b5f" : "#6d5c7d"); p.circle(x, eventY, event.type === "atrial" ? 6 : 8); });
           label("P conducted", stripX + 18, stripY + stripH - 12, 9, "#8a6529", p.LEFT); label("P blocked", stripX + 95, stripY + stripH - 12, 9, "#8d4f55", p.LEFT); label("QRS", stripX + 165, stripY + stripH - 12, 9, "#6d5c7d", p.LEFT);
 
           const sequenceY = compact ? 615 : height - 60; const stages = ["SA firing", "atrial depolarization", "AV delay", "His–Purkinje", "QRS", "mechanical pulse"];
           p.stroke("#bac6c7"); p.strokeWeight(2); p.line(24, sequenceY, width - 24, sequenceY);
-          stages.forEach((stage, index) => { const x = p.lerp(24, width - 24, index / (stages.length - 1)); p.noStroke(); p.fill(index === 0 && atrialAge < 0.05 || index > 0 && ventricularAge < 0.18 ? "#2f7c76" : "#bac6c7"); p.circle(x, sequenceY, 7); label(stage, x, sequenceY - 15, compact ? 8 : 9); });
+          stages.forEach((stage, index) => { const x = p.lerp(24, width - 24, index / (stages.length - 1)); p.noStroke(); p.fill(index === 0 && atrialAge < 0.05 || index > 0 && ventricularAge < 0.18 ? "#2f7c76" : "#bac6c7"); p.circle(x, sequenceY, 7); label(stage, x, sequenceY - 15, 10, "#46595e", index === 0 ? p.LEFT : index === stages.length - 1 ? p.RIGHT : p.CENTER); });
           p.describe(`${current.rhythm} 심전도. 심방 박동수 ${current.atrialRate}, 심실 박동수 ${current.ventricularRate}. 전도된 P파와 차단된 P파, QRS 뒤의 기계적 맥박을 별도로 표시합니다.`);
         };
       };
