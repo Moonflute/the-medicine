@@ -8,7 +8,7 @@ export function buildEcgEvents(rhythm: RhythmId, requestedRate: number, windowSe
   const rate = clamp(requestedRate, 30, 190); const events: EcgEvent[] = [];
   if (rhythm === "af") {
     const intervals = [0.58, 0.76, 0.49, 0.68, 0.55, 0.82, 0.61, 0.47]; let time = 0.22; let index = 0;
-    while (time < windowSeconds) { events.push({ time, type: "ventricular", conducted: true, width: 0.09, amplitude: 1 }); time += intervals[index++ % intervals.length] * 105 / rate; }
+    while (time < windowSeconds) { events.push({ time, type: "ventricular", conducted: true, width: 0.09, amplitude: 1 }); time += intervals[index++ % intervals.length] / (intervals.reduce((a,b)=>a+b,0)/intervals.length) * 60 / rate; }
     for (let t = 0.05; t < windowSeconds; t += 0.14) events.push({ time: t, type: "atrial", conducted: false, width: 0.025, amplitude: 0.22 });
   } else if (rhythm === "flutter") {
     const atrialInterval = 0.2; const conductionRatio = rate >= 140 ? 2 : rate >= 90 ? 3 : 4;
@@ -28,14 +28,14 @@ export function buildEcgEvents(rhythm: RhythmId, requestedRate: number, windowSe
       pushPair(events, t, pr, conducted, rhythm === "mobitz2" ? 0.13 : 0.09);
     }
   }
-  return events.sort((a, b) => a.time - b.time);
+  return events.filter((event) => event.time >= 0 && event.time < windowSeconds).sort((a, b) => a.time - b.time);
 }
 
 export function calculateEcgState(rhythm: RhythmId, requestedRate: number): EcgState {
   const rate = clamp(requestedRate, 30, 190); const windowSeconds = 8; const events = buildEcgEvents(rhythm, rate, windowSeconds);
   const atrialRate = rhythm === "af" ? 420 : rhythm === "flutter" ? 300 : rhythm === "complete" || rhythm === "vt" ? 85 : rhythm === "brady" ? Math.min(rate, 55) : rhythm === "tachy" ? Math.max(rate, 110) : rate;
-  const ventricularCount = events.filter((event) => event.type === "ventricular").length; const ventricularRate = Math.round(ventricularCount / windowSeconds * 60);
-  const base = { rhythm, rate, atrialRate, ventricularRate, pr: "120-200 ms", qrs: "<120 ms", regularity: "규칙적", conduction: "SA node → atria → AV node → His-Purkinje", perfusion: "각 QRS 뒤 심실 수축과 말초 맥박이 이어집니다.", events, windowSeconds };
+  const ventricularRate = rhythm === "af" ? rate : rhythm === "flutter" ? 300 / (rate >= 140 ? 2 : rate >= 90 ? 3 : 4) : rhythm === "complete" ? Math.min(45,rate) : rhythm === "vt" ? Math.max(140,rate) : rhythm === "mobitz1" ? atrialRate * .75 : rhythm === "mobitz2" ? atrialRate * 2/3 : atrialRate;
+  const base = { rhythm, rate, atrialRate, ventricularRate, pr: "120-200 ms", qrs: "<120 ms", regularity: "규칙적", conduction: "SA node → atria → AV node → His-Purkinje", perfusion: "교육 모델에서는 QRS 뒤 수축을 표시합니다. 실제 맥박 유무는 ECG만으로 판단할 수 없습니다.", events, windowSeconds };
   if (rhythm === "brady") return { ...base, perfusion: "느린 심박수로 분당 심박출량이 감소할 수 있습니다." };
   if (rhythm === "tachy") return { ...base, perfusion: "이완기 충만 시간이 짧아지고 산소 요구량이 증가합니다." };
   if (rhythm === "af") return { ...base, regularity: "불규칙-불규칙", pr: "측정 불가", conduction: "무질서한 심방 활성 → 가변적 AV 전도", perfusion: "심방 수축 소실과 불규칙한 심실 충만을 보입니다." };

@@ -131,3 +131,38 @@
 - 관련 분과 Overview와 등록된 기존 문서 양쪽에서 이동할 수 있다.
 - `concept:` 및 `개념:` 검색으로 페이지를 찾을 수 있다.
 - ESLint, TypeScript, Next 프로덕션 빌드가 통과한다.
+
+
+## 2026-09 interactive workbench implementation
+
+- One simulation clock drives all p5 sketches; play/pause, 0.25–2× speed, seek and step are independent of physiological inputs. Hidden tabs suspend elapsed time. Reduced-motion preference starts paused; manual seeks redraw the noLoop canvas.
+- Clinical experiments separate prediction, applied conditions, what to observe, and interpretation. ADH and insulin use their own experiments rather than a generic pituitary axis explanation.
+- Compare current metrics with normal or a saved in-session snapshot. The reference resets when the selected solute or endocrine axis changes.
+- Cardiac volume, pressure and PV marker use a continuous pure trajectory. Isovolumetric phases hold volume; the ECG marker reads the same phase. It remains a teaching trajectory, not a validated patient solver.
+- ECG nominal rhythm rates are independent of short-window beat-count rounding. Events are clipped to the displayed window; Mobitz I AV delay tracks each generated PR interval. Electrical QRS does not establish a clinical pulse.
+- Nephron drug presets select their site of action. Solute routes and segment mass handling remain independently readable.
+- Endocrine organ cards expose organ, hormone, value and role; sequential flow and negative feedback share the clock. Only selected organ images load. Values are steady-state teaching outputs, not time-course endocrine predictions.
+- Nervous-system pathway traversal uses canonical ordered segments and selects a map containing the current structure. Stop, manual steps, speed and crossing/lesion interpretation are available. Atlas locator lines are not claimed to be exact tract contours.
+- Desktop diagrams have at least 760 px of drawing space. Narrow screens scroll the diagram within its own container; controls, explanations and comparisons reflow. Do not shrink all medical text to fit a phone.
+- Clinical relation generation uses Latin word boundaries so NCC does not match NCCN and ADH does not match ADHD.
+
+### Reference basis for the added teaching interactions
+
+These references support physiological direction and clinical interpretation, not the numerical calibration of the simplified models. Existing content provenance remains in the original atlas and topic data. No human-review status is introduced.
+
+- [CV Physiology: preload, afterload and inotropy](https://cvphysiology.com/cardiac-function/cf025): PV changes and ventricular loading.
+- [Merck Manual: acid-base disorders](https://www.merckmanuals.com/professional/nephrology/acid-base-regulation-and-disorders/acid-base-disorders): primary disturbance versus expected compensation.
+- [Diuretics and the kidney](https://pmc.ncbi.nlm.nih.gov/articles/PMC9125415/): segment-specific transport and electrolyte effects.
+- [Merck Manual: atrioventricular block](https://www.merckmanuals.com/professional/cardiovascular-disorders/specific-cardiac-arrhythmias/atrioventricular-block): P/QRS relationships and Mobitz distinctions.
+- [Merck Manual: hypothyroidism](https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/hypothyroidism): paired upper/lower hormone interpretation.
+- [Merck Manual: hypoxemic respiratory failure](https://www.merckmanuals.com/professional/critical-care-medicine/respiratory-failure-and-mechanical-ventilation/acute-hypoxemic-respiratory-failure-ahrf-including-acute-respiratory-distress-syndrome-ards): shunt admixture and oxygen response.
+- [NIDDK: diabetes insipidus](https://www.niddk.nih.gov/health-information/kidney-disease/diabetes-insipidus): AVP deficiency and urine concentration.
+- [University of Wisconsin: brainstem course material](https://www.neuroanatomy.wisc.edu/coursebook/webstem1-3.pdf): corticospinal crossing and laterality.
+
+### Verification
+
+`npm run verify:physiology` covers transport direction, endocrine feedback, PV continuity and fixed-volume phases, playback freeze and speed, ECG event bounds and rate rounding, low ventilation, anemia oxygen content, and acronym matching. Browser verification covers all six page routes plus pathway traversal in the hub, desktop and 390 px layout, preset-to-segment selection, event seeking, organ selection, and baseline comparison.
+
+The legacy `test:neuro` suite contains source-text assertions for an older monolithic Theory/NEx interface. Baseline HEAD had 11 failures before this change. Its canonical atlas-data/provenance checks still pass. Memoized view selection is accepted by its updated source check; the unrelated legacy UI assertions are not replaced with weaker assertions.
+
+Verification outcome for this release: TypeScript and static GitHub Pages export passed (2,551 pages); ESLint has zero errors and three pre-existing unused-variable warnings. Physiology regression checks and the neuro-note tests passed. The legacy atlas suite now passes 24 of 34 checks; its 10 remaining failures also occur against the pre-change interface and concern historical UI source assertions. Actual pathway traversal was verified from step 1 through step 9, automatic stop at the terminal structure, and manual lesion interpretation.

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import type p5 from "p5";
+import { useClockRedraw } from "@/components/simulation-workbench";
 import { estimateRespiratoryRate, type AcidBaseState } from "@/lib/acid-base-model";
 
 type P5Instance = p5;
@@ -39,7 +40,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
   const hostRef = useRef<HTMLDivElement>(null);
   const stateRef = useRef(state);
   const simulationRef = useRef(simulation);
-  const instanceRef = useRef<P5Instance | null>(null);
+  const instanceRef = useRef<P5Instance | null>(null); const clock = useClockRedraw(instanceRef);
 
   useEffect(() => {
     stateRef.current = state;
@@ -56,7 +57,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
     void import("p5").then(({ default: P5 }) => {
       if (cancelled || !hostRef.current) return;
       const host = hostRef.current;
-      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const reducedMotion = false;
 
       const sketch = (p: P5Instance) => {
         let canvasWidth = 760;
@@ -68,7 +69,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
         const mapClamped = (value: number, min: number, max: number, start: number, end: number) => p.map(clamp(value, min, max), min, max, start, end);
 
         const resize = () => {
-          canvasWidth = Math.max(320, Math.floor(host.clientWidth));
+          canvasWidth = Math.max(760, Math.floor(host.clientWidth));
           canvasHeight = clamp(Math.floor(canvasWidth * 0.68), 460, 570);
           p.resizeCanvas(canvasWidth, canvasHeight);
         };
@@ -94,7 +95,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           p.stroke(color);
           p.strokeWeight(weight);
           p.line(x1, y1, x2, y2);
-          const progress = reducedMotion ? 0.78 : (p.frameCount * 0.012 + phase) % 1;
+          const progress = reducedMotion ? 0.78 : ((clock.current.seconds * 30) * 0.012 + phase) % 1;
           p.push();
           p.translate(p.lerp(x1, x2, progress), p.lerp(y1, y2, progress));
           p.rotate(angle);
@@ -106,11 +107,11 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
 
         const drawLungs = (x: number, y: number, scale: number, current: AcidBaseState, compensationActive: boolean) => {
           const frequency = mapClamped(current.ventilation, 40, 160, 0.035, 0.085);
-          const breath = reducedMotion ? 0 : Math.sin(p.frameCount * frequency);
+          const breath = reducedMotion ? 0 : Math.sin((clock.current.seconds * 30) * frequency);
           const expansion = 1 + breath * mapClamped(current.ventilation, 40, 160, 0.012, 0.045);
 
           if (compensationActive) {
-            const pulse = reducedMotion ? 0 : Math.sin(p.frameCount * 0.08) * 5;
+            const pulse = reducedMotion ? 0 : Math.sin((clock.current.seconds * 30) * 0.08) * 5;
             p.noFill();
             p.stroke(63, 113, 133, 105);
             p.strokeWeight(1.2);
@@ -156,7 +157,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           const flux = clamp((current.paCO2 / 40) * (current.ventilation / 100), 0.4, 2.3);
           const count = Math.round(mapClamped(flux, 0.4, 2.3, 2, 7));
           for (let index = 0; index < count; index += 1) {
-            const progress = reducedMotion ? (index + 1) / (count + 1) : (p.frameCount * 0.01 * flux + index / count) % 1;
+            const progress = reducedMotion ? (index + 1) / (count + 1) : ((clock.current.seconds * 30) * 0.01 * flux + index / count) % 1;
             const angle = p.lerp(0.8, -1.15, progress);
             p.noStroke();
             p.fill(COLORS.co2);
@@ -167,7 +168,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
 
         const drawKidney = (x: number, y: number, scale: number, current: AcidBaseState, compensationActive: boolean) => {
           if (compensationActive) {
-            const pulse = reducedMotion ? 0 : Math.sin(p.frameCount * 0.055) * 5;
+            const pulse = reducedMotion ? 0 : Math.sin((clock.current.seconds * 30) * 0.055) * 5;
             p.noFill();
             p.stroke(176, 138, 74, 110);
             p.strokeWeight(1.2);
@@ -212,7 +213,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           const endY = renalDrive < -0.12 ? y + height - 7 : y + 8;
           const flux = Math.max(0.25, Math.abs(renalDrive));
           for (let index = 0; index < Math.round(2 + flux * 3); index += 1) {
-            const progress = reducedMotion ? 0.55 : (p.frameCount * 0.009 * flux + index * 0.21) % 1;
+            const progress = reducedMotion ? 0.55 : ((clock.current.seconds * 30) * 0.009 * flux + index * 0.21) % 1;
             p.noStroke();
             p.fill(COLORS.bicarbonate);
             p.circle(x + width * (0.38 + index * 0.09), p.lerp(startY, endY, progress), 5);
@@ -234,7 +235,7 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
           const co2Count = Math.round(mapClamped(current.paCO2, 15, 100, 3, 16));
           const bicarbonateCount = Math.round(mapClamped(current.bicarbonate, 8, 40, 3, 15));
           const hydrogenCount = Math.round(mapClamped(current.pH, 7.8, 6.9, 2, 10));
-          const movement = reducedMotion ? 0 : p.frameCount * 0.003;
+          const movement = reducedMotion ? 0 : (clock.current.seconds * 30) * 0.003;
           for (let index = 0; index < co2Count; index += 1) {
             const progress = (index / co2Count + movement) % 1;
             p.noStroke();
@@ -336,17 +337,17 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
 
         p.setup = async () => {
           [lungImage, kidneyImage] = await Promise.all([
-            p.loadImage(`${ASSET_BASE_PATH}/images/physiology/acid-base-lungs.png`),
-            p.loadImage(`${ASSET_BASE_PATH}/images/physiology/acid-base-kidney.png`),
+            p.loadImage(`${ASSET_BASE_PATH}/images/physiology/acid-base-lungs.png`).catch(() => null),
+            p.loadImage(`${ASSET_BASE_PATH}/images/physiology/acid-base-kidney.png`).catch(() => null),
           ]);
-          const canvas = p.createCanvas(canvasWidth, canvasHeight);
+          if (cancelled) return; const canvas = p.createCanvas(canvasWidth, canvasHeight);
           canvas.parent(host);
           p.frameRate(reducedMotion ? 1 : 30);
           p.textFont("Arial, sans-serif");
           resizeObserver = new ResizeObserver(resize);
           resizeObserver.observe(host);
           resize();
-          if (reducedMotion) p.noLoop();
+          p.noLoop();
         };
 
         p.draw = () => {
@@ -406,11 +407,11 @@ export function AcidBaseP5Canvas({ state, simulation }: { state: AcidBaseState; 
       instanceRef.current?.remove();
       instanceRef.current = null;
     };
-  }, []);
+  }, [clock]);
 
   useEffect(() => {
     instanceRef.current?.redraw();
   }, [simulation, state]);
 
-  return <div ref={hostRef} className="min-h-[460px] w-full overflow-hidden bg-[#eef2f1]" aria-label="산-염기 생리 인터랙티브 도해" />;
+  return <div ref={hostRef} className="min-h-[460px] w-full overflow-x-auto bg-[#eef2f1]" aria-label="산-염기 생리 인터랙티브 도해" />;
 }

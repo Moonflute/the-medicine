@@ -227,7 +227,7 @@ test("every selectable atlas view uses a registered project illustration and ove
   const hub = fs.readFileSync(hubPath, "utf8");
   const imageAtlas = fs.readFileSync(imageAtlasPath, "utf8");
   const publishedIds = atlas.views.filter((item) => item.published).map((item) => item.id);
-  assert.match(hub, /const views = atlas\.views\.filter/, "view selector must derive its choices from Atlas data");
+  assert.match(hub, /atlas\.views\.filter\(\(item\) => item\.published/, "view selector must derive its choices from Atlas data");
   assert.doesNotMatch(hub, /const VIEWS:/, "view hierarchy must not be duplicated as a component-local list");
   assert.equal(publishedIds.length, atlas.views.length, "all declared Atlas views must be public");
   assert.equal(new Set(publishedIds).size, publishedIds.length, "published atlas views must not be duplicated");

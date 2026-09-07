@@ -57,6 +57,9 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Verify interactive physiology
+        run: npm run verify:physiology
+
       - name: Build static site
         run: npm run build -- --webpack
 

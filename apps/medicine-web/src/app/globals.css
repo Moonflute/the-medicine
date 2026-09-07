@@ -109,3 +109,21 @@ code {
     min-height: 740px;
   }
 }
+
+/* Physiology workbench: readable anatomy and cause/effect controls. */
+.immersive-shell > div > aside { display: none; }
+.immersive-shell header button[aria-label="Toggle navigation"], .immersive-shell header > div + div { display: block; }
+.immersive-shell main > div { max-width: 1440px; }
+.physiology-stage { display: grid; gap: 1.25rem; align-items: start; min-width: 0; }
+.physiology-stage > * { min-width: 0; }
+.physiology-workbench canvas { display: block; max-width: none; }
+.simulation-playback { padding: 1rem 1.25rem; background: #fff; border-top: 1px solid #d4dfdd; }
+.simulation-button, .simulation-primary { display: inline-flex; align-items: center; justify-content: center; gap: .4rem; min-height: 40px; padding: .5rem .75rem; border: 1px solid #cbd5e1; border-radius: .6rem; background: white; font-size: .8rem; font-weight: 600; cursor: pointer; }
+.simulation-primary, .simulation-button.is-selected { color: white; background: #0f766e; border-color: #0f766e; }
+.simulation-button:hover { background: #f0fdfa; color: #115e59; }
+.physiology-workbench button[aria-pressed="true"] { box-shadow: 0 0 0 2px #0f766e; }
+.physiology-workbench button:focus-visible, .physiology-workbench input:focus-visible, .physiology-workbench select:focus-visible { outline: 3px solid #0d9488; outline-offset: 3px; }
+.guided-experiment { border: 1px solid #b9d8d2; border-radius: 1rem; padding: 1.25rem; background: linear-gradient(120deg,#f0fdfa,#f8faf9); }
+.simulation-comparison { padding: 1.25rem; border: 1px solid #d4dfdd; border-radius: 1rem; background: #f1f5f4; }
+@media (min-width: 1200px) { .physiology-stage { grid-template-columns: minmax(0,1fr) 310px; } }
+@media (max-width: 600px) { .physiology-workbench { margin-inline: -.5rem; } .guided-experiment, .simulation-comparison { padding: 1rem; } .physiology-workbench h1 { font-size: 1.75rem; } }

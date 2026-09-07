@@ -41,3 +41,20 @@ export function getCardiacPhase(cycle: number): CardiacPhase {
   if (t < 0.78) return { id: "rapid-filling", label: "빠른 충만", progress: (t - 0.60) / 0.18, mitralOpen: true, aorticOpen: false, tricuspidOpen: true, pulmonaryOpen: false, atrialContraction: 0, ventricularContraction: 0, flow: "filling" };
   return { id: "diastasis", label: "완만한 충만", progress: (t - 0.78) / 0.22, mitralOpen: true, aorticOpen: false, tricuspidOpen: true, pulmonaryOpen: false, atrialContraction: 0, ventricularContraction: 0, flow: "filling" };
 }
+
+/** Continuous educational PV trajectory. Both isovolumetric segments hold volume. */
+export function cardiacSnapshot(state: HemodynamicsState, cycle: number) {
+  const phase = getCardiacPhase(cycle); const u = phase.progress;
+  const { edv, esv, strokeVolume: sv, lvEndDiastolicPressure: edp, systolicPressure: peak, diastolicPressure: aortic } = state;
+  let volume = edv; let pressure = edp;
+  switch (phase.id) {
+    case "atrial-systole": volume = edv - .12 * sv * (1-u); pressure = edp * (.7 + .3*u); break;
+    case "isovolumetric-contraction": pressure = edp + (aortic-edp)*u; break;
+    case "rapid-ejection": volume = edv - .75*sv*u; pressure = aortic + (peak-aortic)*Math.sin(u*Math.PI/2); break;
+    case "reduced-ejection": volume = edv - sv*(.75+.25*u); pressure = peak*(1-.2*u); break;
+    case "isovolumetric-relaxation": volume = esv; pressure = peak*.8*(1-u)+2*u; break;
+    case "rapid-filling": volume = esv+.75*sv*u; pressure = 2+(edp*.5-2)*u; break;
+    case "diastasis": volume = esv+sv*(.75+.13*u); pressure = edp*(.5+.2*u); break;
+  }
+  return { phase, volume, pressure };
+}

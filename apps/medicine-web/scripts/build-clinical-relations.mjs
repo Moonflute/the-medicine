@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { matchesInteractiveKeyword } from "./interactive-keyword-match.mjs";
 
 import fs from "node:fs";
 import path from "node:path";
@@ -284,7 +285,7 @@ for (const concept of interactiveNodes) {
   for (const source of nodes) {
     if (source.type === "interactive" || isSpecialtyOverview(source) || hasDirectedConnection(source, concept)) continue;
     const text = searchableText(source);
-    const keyword = keywords.find((candidate) => text.includes(candidate));
+    const keyword = keywords.find((candidate) => matchesInteractiveKeyword(text, candidate));
     if (!keyword) continue;
     add(source, "explored_by", concept, "generated", `interactive keyword: ${keyword}`);
     add(concept, "explains", source, "generated", `interactive keyword: ${keyword}`);

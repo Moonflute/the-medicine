@@ -1,4 +1,8 @@
 "use client";
+import { updateSimulationClock } from "@/lib/simulation-clock";
+
+import { GuidedExperiments, MetricComparison, PlaybackControls, useSimulationClock } from "@/components/simulation-workbench";
+import { physiologyExperiments } from "@/lib/physiology-experiments";
 
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -99,6 +103,8 @@ function SimulationLegend() {
 }
 
 export function OxygenationGasExchangeLab() {
+  const clock = useSimulationClock();
+  const [presetId, setPresetId] = useState("normal");
   const [inputs, setInputs] = useState<OxygenationInputs>(NORMAL_INPUTS);
   const [simulation, setSimulation] = useState<OxygenationSimulationView>(INITIAL_SIMULATION);
   const [advancedOpen, setAdvancedOpen] = useState(false);
@@ -121,10 +127,14 @@ export function OxygenationGasExchangeLab() {
     stopAnimation();
     const from = inputs;
     let startedAt: number | null = null;
+    let elapsed = 0;
+    updateSimulationClock(clock, {playing: !clock.current.reducedMotion});
     setSimulation({ phase: "transition", progress: 0, cause, timeLabel: "변화 중" });
     const tick = (now: number) => {
       if (startedAt === null) startedAt = now;
-      const progress = Math.min(1, (now - startedAt) / duration);
+      if (clock.current.playing && !document.hidden) elapsed += Math.min(100, now - startedAt) * clock.current.speed;
+      startedAt = now;
+      const progress = clock.current.reducedMotion ? 1 : Math.min(1, elapsed / duration);
       const eased = 1 - Math.pow(1 - progress, 3);
       setInputs(interpolateInputs(from, target, eased));
       setSimulation({ phase: progress < 1 ? "transition" : "settled", progress, cause, timeLabel: progress < 1 ? `${Math.round(progress * 60)} sec` : "새 평형" });
@@ -135,6 +145,7 @@ export function OxygenationGasExchangeLab() {
   };
 
   const update = (key: keyof OxygenationInputs, value: number) => {
+    setPresetId("custom");
     stopAnimation();
     setInputs((current) => ({ ...current, [key]: value }));
     setSimulation({ phase: "settled", progress: 1, cause: "직접 변수 조절", timeLabel: "새 평형" });
@@ -143,12 +154,13 @@ export function OxygenationGasExchangeLab() {
   const testOxygenResponse = () => animateInputs({ ...inputs, fio2: 1 }, "FiO₂ 100% 반응 확인", 1800);
 
   const applyPreset = (preset: (typeof PRESETS)[number]) => {
+    setPresetId(preset.id);
     setAdvancedOpen(preset.id === "shunt" || preset.id === "anemia");
     animateInputs(preset.values, preset.cause);
   };
 
   return (
-    <main className="space-y-5">
+    <div className="physiology-lab space-y-5">
       <header className="border-b border-slate-200 pb-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-2 text-xs font-semibold uppercase text-teal-800"><Activity className="h-4 w-4" />Interactive physiology</div>
@@ -158,15 +170,17 @@ export function OxygenationGasExchangeLab() {
         <p className="mt-3 max-w-4xl text-sm leading-6 text-slate-600 sm:text-base">FiO₂와 환기가 폐포 산소를 만들고, V/Q 불균형과 shunt가 동맥혈 산소화를 제한하며, hemoglobin이 실제 조직 운반량을 결정하는 과정을 확인합니다.</p>
       </header>
 
+      <GuidedExperiments experiments={physiologyExperiments.oxygen} onApply={(id) => applyPreset(PRESETS.find((p) => p.id === id)!)} />
       <section aria-label="산소화 프리셋" className="flex flex-wrap items-center gap-1.5 border-b border-slate-200 pb-4">
         <span className="mr-2 text-xs font-semibold uppercase text-slate-500">Clinical states</span>
-        {PRESETS.map((preset) => <button key={preset.id} type="button" onClick={() => applyPreset(preset)} className="rounded-md border border-slate-300 bg-[#f7f9f8] px-3 py-1.5 text-xs font-semibold text-slate-700 transition hover:border-teal-500 hover:bg-white hover:text-teal-900">{preset.label}</button>)}
-        <button type="button" onClick={() => { setAdvancedOpen(false); animateInputs(NORMAL_INPUTS, "Room air · 정상 가스교환"); }} className="ml-auto inline-flex h-8 w-8 items-center justify-center rounded-md border border-slate-300 bg-white text-slate-600 hover:border-teal-500 hover:text-teal-800" aria-label="정상 상태로 초기화" title="정상 상태로 초기화"><RotateCcw className="h-4 w-4" /></button>
+        {PRESETS.map((preset) => <button key={preset.id} type="button" aria-pressed={presetId === preset.id} onClick={() => applyPreset(preset)} className="rounded-md border border-slate-300 bg-[#f7f9f8] px-3 py-1.5 text-xs font-semibold text-slate-700 transition hover:border-teal-500 hover:bg-white hover:text-teal-900">{preset.label}</button>)}
+        <button type="button" onClick={() => { applyPreset(PRESETS[0]); }} className="ml-auto inline-flex h-8 w-8 items-center justify-center rounded-md border border-slate-300 bg-white text-slate-600 hover:border-teal-500 hover:text-teal-800" aria-label="정상 상태로 초기화" title="정상 상태로 초기화"><RotateCcw className="h-4 w-4" /></button>
       </section>
 
-      <section className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_370px]">
+      <section className="physiology-stage">
         <div className="min-w-0 overflow-hidden rounded-md border border-slate-300 bg-[#eef2f1] shadow-sm">
           <OxygenationP5Canvas state={state} simulation={simulation} />
+          <PlaybackControls />
           <SimulationLegend />
         </div>
         <aside aria-label="산소화 조절 변수" className="rounded-md border border-slate-300 bg-[#f8faf9] p-5 shadow-sm">
@@ -193,6 +207,7 @@ export function OxygenationGasExchangeLab() {
         </aside>
       </section>
 
+      <MetricComparison metrics={[{label:"PaO₂",value:state.paO2,normal:calculateOxygenationState(NORMAL_INPUTS).paO2,unit:"mmHg"},{label:"SaO₂",value:state.saO2,normal:calculateOxygenationState(NORMAL_INPUTS).saO2,unit:"%"},{label:"CaO₂",value:state.caO2,normal:calculateOxygenationState(NORMAL_INPUTS).caO2,unit:"mL/dL"},{label:"A–a",value:state.aaGradient,normal:calculateOxygenationState(NORMAL_INPUTS).aaGradient,unit:"mmHg"}]} />
       <section aria-label="산소화 계산 결과" className="grid gap-y-4 rounded-md border border-slate-300 bg-[#f8faf9] py-4 sm:grid-cols-2 xl:grid-cols-5">
         <Metric label="PAO₂" value={`${state.alveolarPO2.toFixed(0)} mmHg`} status="폐포 산소" />
         <Metric label="PaO₂" value={`${state.paO2.toFixed(0)} mmHg`} status="동맥혈 산소" />
@@ -219,6 +234,6 @@ export function OxygenationGasExchangeLab() {
       </section>
 
       <p className="border-t border-slate-200 pt-4 text-xs leading-5 text-slate-500">학습용 단순화 모델입니다. 해발 0 m, 정상 체온, RQ 0.8, 고정된 1회호흡량·사강·CO₂ 생성을 가정합니다. V/Q 불균형 지수와 PaO₂·SaO₂는 실제 환자 측정값이 아니며, 임상에서는 ABGA/co-oximetry, 산소 장치, 혈역학과 질환별 목표를 함께 평가해야 합니다.</p>
-    </main>
+    </div>
   );
 }

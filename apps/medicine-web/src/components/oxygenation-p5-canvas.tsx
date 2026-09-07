@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import type p5 from "p5";
+import { useClockRedraw } from "@/components/simulation-workbench";
 import type { OxygenationState } from "@/lib/oxygenation-model";
 
 type P5Instance = p5;
@@ -41,7 +42,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
   const hostRef = useRef<HTMLDivElement>(null);
   const stateRef = useRef(state);
   const simulationRef = useRef(simulation);
-  const instanceRef = useRef<P5Instance | null>(null);
+  const instanceRef = useRef<P5Instance | null>(null); const clock = useClockRedraw(instanceRef);
 
   useEffect(() => {
     stateRef.current = state;
@@ -58,7 +59,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
     void import("p5").then(({ default: P5 }) => {
       if (cancelled || !hostRef.current) return;
       const host = hostRef.current;
-      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const reducedMotion = false;
 
       const sketch = (p: P5Instance) => {
         let canvasWidth = 760;
@@ -69,7 +70,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
         const mapClamped = (value: number, min: number, max: number, start: number, end: number) => p.map(clamp(value, min, max), min, max, start, end);
 
         const resize = () => {
-          canvasWidth = Math.max(320, Math.floor(host.clientWidth));
+          canvasWidth = Math.max(760, Math.floor(host.clientWidth));
           canvasHeight = clamp(Math.floor(canvasWidth * 0.67), 480, 570);
           p.resizeCanvas(canvasWidth, canvasHeight);
         };
@@ -165,7 +166,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
         };
 
         const drawLung = (x: number, y: number, scale: number, current: OxygenationState) => {
-          const expansion = reducedMotion ? 1 : 1 + Math.sin(p.frameCount * 0.055) * mapClamped(current.respiratoryRate, 6, 30, 0.01, 0.035);
+          const expansion = reducedMotion ? 1 : 1 + Math.sin((clock.current.seconds * 30) * 0.055) * mapClamped(current.respiratoryRate, 6, 30, 0.01, 0.035);
           p.push();
           p.translate(x, y);
           p.scale(expansion, 1 + (expansion - 1) * 0.7);
@@ -189,7 +190,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
           drawTube(startX, startY, startX, p.lerp(startY, endY, 0.35), endX, p.lerp(startY, endY, 0.72), endX, endY, "#8fa6aa", "#e3eeee", 7, 4);
           const count = Math.round(mapClamped(current.fio2, 0.21, 1, 3, 10));
           for (let index = 0; index < count; index += 1) {
-            const progress = reducedMotion ? (index + 1) / (count + 1) : (p.frameCount * 0.008 * flux + index / count) % 1;
+            const progress = reducedMotion ? (index + 1) / (count + 1) : ((clock.current.seconds * 30) * 0.008 * flux + index / count) % 1;
             const point = curvePoint(startX, startY, startX, p.lerp(startY, endY, 0.35), endX, p.lerp(startY, endY, 0.72), endX, endY, progress);
             drawOxygen(point.x, point.y, 4.5);
           }
@@ -227,7 +228,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
 
           const oxygenCount = Math.round(mapClamped(current.alveolarPO2, 30, 650, 3, 16));
           for (let index = 0; index < oxygenCount; index += 1) {
-            const angle = index * 2.4 + (reducedMotion ? 0 : p.frameCount * 0.002);
+            const angle = index * 2.4 + (reducedMotion ? 0 : (clock.current.seconds * 30) * 0.002);
             const radial = radius * (0.18 + (index % 4) * 0.12);
             drawOxygen(x + Math.cos(angle) * radial, y + Math.sin(angle) * radial, 5);
           }
@@ -245,7 +246,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
 
           const redCellCount = 7;
           for (let index = 0; index < redCellCount; index += 1) {
-            const progress = reducedMotion ? index / (redCellCount - 1) : (index / redCellCount + p.frameCount * 0.0027) % 1;
+            const progress = reducedMotion ? index / (redCellCount - 1) : (index / redCellCount + (clock.current.seconds * 30) * 0.0027) % 1;
             const angle = p.lerp(startAngle, endAngle, progress);
             const px = x + Math.cos(angle) * capillaryRadius;
             const py = y + Math.sin(angle) * capillaryRadius;
@@ -265,7 +266,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
           drawTube(shuntStartX, shuntStartY, x - radius * 0.3, shuntControlY, x + radius * 0.35, shuntControlY, shuntEndX, shuntEndY, COLORS.shunt, "#c9becb", shuntWeight, Math.max(1.5, shuntWeight - 3.2));
           const shuntCount = current.shuntFraction < 0.005 ? 0 : Math.round(mapClamped(current.shuntFraction, 0, 0.35, 1, 6));
           for (let index = 0; index < shuntCount; index += 1) {
-            const progress = reducedMotion ? (index + 1) / (shuntCount + 1) : (p.frameCount * 0.0045 + index / shuntCount) % 1;
+            const progress = reducedMotion ? (index + 1) / (shuntCount + 1) : ((clock.current.seconds * 30) * 0.0045 + index / shuntCount) % 1;
             const point = curvePoint(shuntStartX, shuntStartY, x - radius * 0.3, shuntControlY, x + radius * 0.35, shuntControlY, shuntEndX, shuntEndY, progress);
             p.noStroke();
             p.fill(COLORS.venous);
@@ -275,7 +276,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
           const transfer = clamp((current.endCapillaryPO2 - 18) / 90, 0.18, 1.7) * (1 - current.vqMismatch / 150);
           const count = Math.round(mapClamped(transfer, 0.1, 1.4, 2, 8));
           for (let index = 0; index < count; index += 1) {
-            const progress = reducedMotion ? (index + 1) / (count + 1) : (p.frameCount * 0.009 * transfer + index / count) % 1;
+            const progress = reducedMotion ? (index + 1) / (count + 1) : ((clock.current.seconds * 30) * 0.009 * transfer + index / count) % 1;
             const angle = p.lerp(0.18, p.PI * 0.82, (index + 0.5) / count);
             const radial = p.lerp(radius * 0.55, capillaryRadius, progress);
             drawOxygen(x + Math.cos(angle) * radial, y + Math.sin(angle) * radial, 4.2);
@@ -293,7 +294,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
           drawTube(startX, startY, control1X, startY + 4, control2X, endY + 8, endX, endY, "#9a5d61", "#edcfd0", 16, 9);
           const count = 6;
           for (let index = 0; index < count; index += 1) {
-            const progress = reducedMotion ? (index + 1) / (count + 1) : (p.frameCount * 0.0032 + index / count) % 1;
+            const progress = reducedMotion ? (index + 1) / (count + 1) : ((clock.current.seconds * 30) * 0.0032 + index / count) % 1;
             const point = curvePoint(startX, startY, control1X, startY + 4, control2X, endY + 8, endX, endY, progress);
             p.noStroke();
             p.fill(COLORS.arterial);
@@ -328,7 +329,7 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
           p.arc(x - 25, y, 74, 98, p.HALF_PI, p.PI + p.HALF_PI);
           const delivered = Math.round(mapClamped(current.caO2, 7, 25, 2, 10));
           for (let index = 0; index < delivered; index += 1) {
-            const progress = reducedMotion ? (index + 1) / (delivered + 1) : (p.frameCount * 0.006 + index / delivered) % 1;
+            const progress = reducedMotion ? (index + 1) / (delivered + 1) : ((clock.current.seconds * 30) * 0.006 + index / delivered) % 1;
             const target = cells[index % cells.length];
             drawOxygen(p.lerp(x - 42, x + target.x, progress), p.lerp(vesselY, y + target.y, progress), 4, 210);
           }
@@ -358,15 +359,15 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
         };
 
         p.setup = async () => {
-          lungImage = await p.loadImage(`${ASSET_BASE_PATH}/images/physiology/acid-base-lungs.png`);
-          const canvas = p.createCanvas(canvasWidth, canvasHeight);
+          lungImage = await p.loadImage(`${ASSET_BASE_PATH}/images/physiology/acid-base-lungs.png`).catch(() => null);
+          if (cancelled) return; const canvas = p.createCanvas(canvasWidth, canvasHeight);
           canvas.parent(host);
           p.frameRate(reducedMotion ? 1 : 30);
           p.textFont("Arial, sans-serif");
           resizeObserver = new ResizeObserver(resize);
           resizeObserver.observe(host);
           resize();
-          if (reducedMotion) p.noLoop();
+          p.noLoop();
         };
 
         p.draw = () => {
@@ -422,11 +423,11 @@ export function OxygenationP5Canvas({ state, simulation }: { state: OxygenationS
       instanceRef.current?.remove();
       instanceRef.current = null;
     };
-  }, []);
+  }, [clock]);
 
   useEffect(() => {
     instanceRef.current?.redraw();
   }, [simulation, state]);
 
-  return <div ref={hostRef} className="min-h-[480px] w-full overflow-hidden bg-[#eef2f1]" aria-label="산소화와 폐포 가스교환 인터랙티브 도해" />;
+  return <div ref={hostRef} className="min-h-[480px] w-full overflow-x-auto bg-[#eef2f1]" aria-label="산소화와 폐포 가스교환 인터랙티브 도해" />;
 }

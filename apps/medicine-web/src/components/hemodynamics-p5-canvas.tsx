@@ -2,7 +2,8 @@
 
 import { useEffect, useRef } from "react";
 import type p5 from "p5";
-import { getCardiacPhase, type HemodynamicsState } from "@/lib/hemodynamics-model";
+import { useClockRedraw } from "@/components/simulation-workbench";
+import { getCardiacPhase, cardiacSnapshot, calculateHemodynamics, type HemodynamicsState } from "@/lib/hemodynamics-model";
 
 type P5Instance = p5;
 type P5Image = Awaited<ReturnType<P5Instance["loadImage"]>>;
@@ -28,7 +29,7 @@ function pointOnPolyline(points: Point[], progress: number) {
 
 export function HemodynamicsP5Canvas({ state }: { state: HemodynamicsState }) {
   const hostRef = useRef<HTMLDivElement>(null);
-  const instanceRef = useRef<P5Instance | null>(null);
+  const instanceRef = useRef<P5Instance | null>(null); const clock = useClockRedraw(instanceRef);
   const stateRef = useRef(state);
   useEffect(() => { stateRef.current = state; instanceRef.current?.redraw(); }, [state]);
 
@@ -36,11 +37,11 @@ export function HemodynamicsP5Canvas({ state }: { state: HemodynamicsState }) {
     let instance: P5Instance | undefined; let observer: ResizeObserver | undefined; let cancelled = false;
     void import("p5").then(({ default: P5 }) => {
       if (cancelled || !hostRef.current) return;
-      const host = hostRef.current; const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const host = hostRef.current; const reducedMotion = false;
       const sketch = (p: P5Instance) => {
-        let width = 760; let height = 650; let heart: P5Image | null = null; let cycle = 0; let previousMillis = 0;
+        let width = 760; let height = 650; let heart: P5Image | null = null; let cycle = 0;
         const label = (text: string, x: number, y: number, size = 11, color = COLORS.muted, align: typeof p.LEFT | typeof p.CENTER | typeof p.RIGHT = p.CENTER) => { p.noStroke(); p.fill(color); p.textAlign(align, p.CENTER); p.textSize(size); p.text(text, x, y); };
-        const resize = () => { width = Math.max(320, Math.floor(host.clientWidth)); height = width < 620 ? 760 : 650; p.resizeCanvas(width, height); };
+        const resize = () => { width = Math.max(760, Math.floor(host.clientWidth)); height = width < 620 ? 850 : 650; p.resizeCanvas(width, height); };
 
         const drawParticlePath = (points: Point[], count: number, speed: number, color: string, active: boolean, size = 7) => {
           p.noFill(); p.stroke(active ? `${color}99` : "#aebbbc66"); p.strokeWeight(active ? 4 : 2); p.beginShape(); points.forEach((point) => p.vertex(point.x, point.y)); p.endShape();
@@ -60,8 +61,8 @@ export function HemodynamicsP5Canvas({ state }: { state: HemodynamicsState }) {
         const ecgSignal = (t: number) => {
           const phase = ((t % 1) + 1) % 1;
           if (phase > 0.01 && phase < 0.09) return -8 * Math.sin((phase - 0.01) / 0.08 * Math.PI);
-          if (phase > 0.13 && phase < 0.21) {
-            const qrs = (phase - 0.13) / 0.08;
+          if (phase > 0.10 && phase < 0.16) {
+            const qrs = (phase - 0.10) / 0.06;
             if (qrs < 0.22) return 10 * qrs / 0.22;
             if (qrs < 0.48) return 10 - 58 * (qrs - 0.22) / 0.26;
             return -48 + 62 * (qrs - 0.48) / 0.52;
@@ -74,9 +75,9 @@ export function HemodynamicsP5Canvas({ state }: { state: HemodynamicsState }) {
           p.noStroke(); p.fill(248, 250, 249, 232); p.rect(x, y - 52, w, 112, 6); label("ELECTRICAL → MECHANICAL COUPLING", x + 12, y - 36, 9, COLORS.muted, p.LEFT);
           p.stroke("#d6dfdf"); p.strokeWeight(1); p.line(x + 10, y, x + w - 10, y);
           p.stroke(COLORS.purple); p.strokeWeight(2.3); p.noFill(); p.beginShape();
-          for (let px = x + 10; px <= x + w - 10; px += 2) { const relative = (px - x - 10) / (w - 20); p.vertex(px, y + ecgSignal(relative * 2 + currentCycle)); } p.endShape();
-          const markerX = x + 10 + (currentCycle % 1) / 2 * (w - 20); p.stroke(COLORS.conduction); p.strokeWeight(1.2); p.line(markerX, y - 46, markerX, y + 49);
-          label("P", x + w * 0.10, y - 19, 9, COLORS.purple); label("QRS", x + w * 0.20, y - 36, 9, COLORS.purple); label("T", x + w * 0.29, y - 22, 9, COLORS.purple);
+          for (let px = x + 10; px <= x + w - 10; px += 2) { const relative = (px - x - 10) / (w - 20); p.vertex(px, y + ecgSignal(relative)); } p.endShape();
+          const markerX = x + 10 + (currentCycle % 1) * (w - 20); p.stroke(COLORS.conduction); p.strokeWeight(1.2); p.line(markerX, y - 46, markerX, y + 49);
+          label("P", x + w * 0.06, y - 19, 9, COLORS.purple); label("QRS", x + w * 0.14, y - 36, 9, COLORS.purple); label("T", x + w * 0.52, y - 22, 9, COLORS.purple);
         };
 
         const drawPvLoop = (x: number, y: number, w: number, h: number, current: HemodynamicsState) => {
@@ -84,27 +85,32 @@ export function HemodynamicsP5Canvas({ state }: { state: HemodynamicsState }) {
           const left = x + 34; const right = x + w - 15; const top = y + 30; const bottom = y + h - 28;
           p.stroke("#aebbbb"); p.strokeWeight(1); p.line(left, bottom, right, bottom); p.line(left, bottom, left, top);
           const xForVolume = (volume: number) => p.map(volume, 0, 200, left, right); const yForPressure = (pressure: number) => p.map(pressure, 0, 220, bottom, top);
-          const xEsv = xForVolume(current.esv); const xEdv = xForVolume(current.edv); const yDia = yForPressure(current.lvEndDiastolicPressure); const ySys = yForPressure(current.systolicPressure);
-          p.noFill(); p.stroke(COLORS.open); p.strokeWeight(3); p.line(xEdv, yDia, xEdv, ySys * 0.96); p.bezier(xEdv, ySys * 0.96, xEdv - 30, ySys - 10, xEsv + 35, ySys - 5, xEsv, ySys * 1.08); p.line(xEsv, ySys * 1.08, xEsv, bottom - 5); p.bezier(xEsv, bottom - 5, xEsv + 25, bottom + 2, xEdv - 25, bottom, xEdv, yDia);
-          label(`ESV ${current.esv.toFixed(0)}`, xEsv, bottom + 15, 9); label(`EDV ${current.edv.toFixed(0)}`, xEdv, bottom + 15, 9);
+          const trace = (model: HemodynamicsState, color: string, weight: number) => {
+            p.noFill(); p.stroke(color); p.strokeWeight(weight); p.beginShape();
+            for(let i=0;i<=200;i++){ const snap=cardiacSnapshot(model,i/200); p.vertex(xForVolume(snap.volume),yForPressure(snap.pressure)); } p.endShape(p.CLOSE);
+          };
+          trace(calculateHemodynamics({preload:100,afterload:100,contractility:100,heartRate:70}),"#acb9bc",1.5);
+          trace(current,COLORS.open,3);
+          const snapshot=cardiacSnapshot(current,cycle); p.noStroke();p.fill(COLORS.conduction);p.circle(xForVolume(snapshot.volume),yForPressure(snapshot.pressure),10);
+          label("0",left,bottom+13,10);label("200 mL",right,bottom+13,10);label("220",left-3,top-8,10);
+          label("회색: 정상 · 황색: 현재 시점",x+12,y+h-5,10,COLORS.muted,p.LEFT);
         };
 
         p.setup = async () => {
-          heart = await p.loadImage(`${BASE_PATH}/images/physiology/cardiac-cutaway-v2.png`);
-          const canvas = p.createCanvas(width, height); canvas.parent(host); p.frameRate(reducedMotion ? 1 : 30); p.textFont("Arial, sans-serif"); previousMillis = p.millis(); observer = new ResizeObserver(resize); observer.observe(host); resize(); if (reducedMotion) p.noLoop();
+          heart = await p.loadImage(`${BASE_PATH}/images/physiology/cardiac-cutaway-v2.png`).catch(() => null);
+          if (cancelled) return; const canvas = p.createCanvas(width, height); canvas.parent(host); p.frameRate(reducedMotion ? 1 : 30); p.textFont("Arial, sans-serif");  observer = new ResizeObserver(resize); observer.observe(host); resize(); p.noLoop();
         };
 
         p.draw = () => {
-          const current = stateRef.current; const now = p.millis(); const deltaSeconds = reducedMotion ? 0 : Math.min(0.08, Math.max(0, (now - previousMillis) / 1000)); previousMillis = now;
-          cycle = (cycle + deltaSeconds * current.heartRate / 60) % 1; const phase = getCardiacPhase(cycle); const compact = width < 620;
+          const current = stateRef.current; cycle = (clock.current.seconds / clock.current.period) % 1; const phase = getCardiacPhase(cycle); const compact = width < 620;
           p.background("#edf2f1"); p.stroke("#d9e1e0"); p.strokeWeight(0.55); for (let x = 20; x < width; x += 28) p.line(x, 0, x, height); for (let y = 20; y < height; y += 28) p.line(0, y, width, y);
 
           const heartHeight = compact ? 410 : 520; const heartWidth = heartHeight * 2 / 3; const heartX = compact ? width * 0.5 : width * 0.31; const heartY = compact ? 265 : 315;
           if (heart) { p.imageMode(p.CENTER); p.tint(255, 230); p.image(heart, heartX, heartY, heartWidth, heartHeight); p.noTint(); }
           const local = (nx: number, ny: number): Point => ({ x: heartX + (nx - 0.5) * heartWidth, y: heartY + (ny - 0.5) * heartHeight });
           const ra = local(0.31, 0.45); const rv = local(0.39, 0.70); const la = local(0.69, 0.45); const lv = local(0.68, 0.70);
-          const volumeScale = p.map(current.edv, 45, 195, 0.78, 1.16); const ejectionFraction = current.strokeVolume / current.edv;
-          const ventricularScale = volumeScale * (1 - phase.ventricularContraction * ejectionFraction * 0.45); const atrialScale = 1 - phase.atrialContraction * 0.18;
+          const volumeScale = p.map(current.edv, 45, 195, 0.78, 1.16); const ejectionFraction = (current.edv - cardiacSnapshot(current, cycle).volume) / current.edv;
+          const ventricularScale = volumeScale * (1 - ejectionFraction * 0.45); const atrialScale = 1 - phase.atrialContraction * 0.18;
           const chamber = (point: Point, rw: number, rh: number, color: string, scale: number, name: string) => { p.noStroke(); p.fill(color); p.ellipse(point.x, point.y, rw * scale, rh * scale); label(name, point.x, point.y, 11, COLORS.ink); };
           chamber(ra, heartWidth * 0.19, heartHeight * 0.12, "#52758f66", atrialScale, "RA"); chamber(rv, heartWidth * 0.25, heartHeight * 0.21, "#52758f55", ventricularScale, "RV");
           chamber(la, heartWidth * 0.18, heartHeight * 0.11, "#a8565d55", atrialScale, "LA"); chamber(lv, heartWidth * 0.24, heartHeight * 0.22, "#a8565d55", ventricularScale, "LV");
@@ -128,7 +134,7 @@ export function HemodynamicsP5Canvas({ state }: { state: HemodynamicsState }) {
           label(`${phase.label} · ${phase.flow === "none" ? "모든 판막 폐쇄" : phase.flow === "ejection" ? "semilunar valves open" : "AV valves open"}`, compact ? width / 2 : heartX, 20, 13, COLORS.ink);
           label(`HR ${current.heartRate.toFixed(0)}/min · cycle ${(60000 / current.heartRate).toFixed(0)} ms · filling ${current.fillingTimeMs.toFixed(0)} ms`, compact ? width / 2 : heartX, 40, 10, COLORS.muted);
 
-          if (compact) { drawEcg(20, 520, width - 40, cycle); drawPvLoop(20, 600, width - 40, 135, current); }
+          if (compact) { drawEcg(20, 520, width - 40, cycle); drawPvLoop(20, 600, width - 40, 210, current); }
           else { const panelX = width * 0.58; drawEcg(panelX, 120, width - panelX - 18, cycle); drawPvLoop(panelX, 220, width - panelX - 18, 220, current); }
 
           const timelineY = height - 20; const phaseStops = [0, 0.12, 0.18, 0.4, 0.52, 0.6, 0.78, 1];
@@ -140,7 +146,7 @@ export function HemodynamicsP5Canvas({ state }: { state: HemodynamicsState }) {
       instance = new P5(sketch, host); instanceRef.current = instance;
     });
     return () => { cancelled = true; observer?.disconnect(); instance?.remove(); instanceRef.current = null; };
-  }, []);
+  }, [clock]);
 
-  return <div ref={hostRef} className="min-h-[650px] w-full" aria-label="심장 절개도에서 전도, ECG, 판막, 수축, 혈류와 압력 용적 고리가 동기화된 시뮬레이션" />;
+  return <div ref={hostRef} className="min-h-[650px] w-full overflow-x-auto" aria-label="심장 절개도에서 전도, ECG, 판막, 수축, 혈류와 압력 용적 고리가 동기화된 시뮬레이션" />;
 }

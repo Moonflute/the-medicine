@@ -1,4 +1,8 @@
 "use client";
+import { updateSimulationClock } from "@/lib/simulation-clock";
+
+import { GuidedExperiments, MetricComparison, PlaybackControls, useSimulationClock } from "@/components/simulation-workbench";
+import { physiologyExperiments } from "@/lib/physiology-experiments";
 
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -109,6 +113,8 @@ function SimulationLegend() {
 }
 
 export function AcidBaseBalanceLab() {
+  const clock = useSimulationClock();
+  const [presetId, setPresetId] = useState("normal");
   const [inputs, setInputs] = useState<AcidBaseInputs>(NORMAL_INPUTS);
   const [simulation, setSimulation] = useState<AcidBaseSimulationView>(INITIAL_SIMULATION);
   const animationRef = useRef<number | null>(null);
@@ -142,9 +148,13 @@ export function AcidBaseBalanceLab() {
     stopAnimation();
     const from = inputs;
     let startedAt: number | null = null;
+    let elapsed = 0;
+    updateSimulationClock(clock, {playing: !clock.current.reducedMotion});
     const tick = (now: number) => {
       if (startedAt === null) startedAt = now;
-      const progress = Math.min(1, (now - startedAt) / duration);
+      if (clock.current.playing && !document.hidden) elapsed += Math.min(100, now - startedAt) * clock.current.speed;
+      startedAt = now;
+      const progress = clock.current.reducedMotion ? 1 : Math.min(1, elapsed / duration);
       const eased = 1 - Math.pow(1 - progress, 3);
       setInputs(interpolateInputs(from, target, eased));
       onFrame(progress);
@@ -158,6 +168,7 @@ export function AcidBaseBalanceLab() {
   };
 
   const applyPreset = (preset: (typeof PRESETS)[number]) => {
+    setPresetId(preset.id);
     setSimulation({
       phase: "disturbance",
       progress: 0,
@@ -182,6 +193,7 @@ export function AcidBaseBalanceLab() {
   };
 
   const update = (key: keyof AcidBaseInputs, value: number) => {
+    setPresetId("custom");
     stopAnimation();
     setInputs((current) => ({ ...current, [key]: value }));
     const primaryChange = key === "ventilation" ? "폐포 환기 변화" : key === "co2Production" ? "CO₂ 생성 변화" : "HCO₃⁻ 변화";
@@ -208,7 +220,7 @@ export function AcidBaseBalanceLab() {
   };
 
   return (
-    <main className="space-y-5">
+    <div className="physiology-lab space-y-5">
       <header className="border-b border-slate-200 pb-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-2 text-xs font-semibold uppercase text-teal-800">
@@ -225,10 +237,11 @@ export function AcidBaseBalanceLab() {
         </p>
       </header>
 
+      <GuidedExperiments experiments={physiologyExperiments.acid} onApply={(id) => applyPreset(PRESETS.find((p) => p.id === id)!)} />
       <section aria-label="산-염기 프리셋" className="flex flex-wrap items-center gap-1.5 border-b border-slate-200 pb-4">
         <span className="mr-2 text-xs font-semibold uppercase text-slate-500">Clinical states</span>
         {PRESETS.map((preset) => (
-          <button key={preset.id} type="button" onClick={() => applyPreset(preset)} className="rounded-md border border-slate-300 bg-[#f7f9f8] px-3 py-1.5 text-xs font-semibold text-slate-700 transition hover:border-teal-500 hover:bg-white hover:text-teal-900">
+          <button key={preset.id} type="button" aria-pressed={presetId === preset.id} onClick={() => applyPreset(preset)} className="rounded-md border border-slate-300 bg-[#f7f9f8] px-3 py-1.5 text-xs font-semibold text-slate-700 transition hover:border-teal-500 hover:bg-white hover:text-teal-900">
             {preset.label}
           </button>
         ))}
@@ -237,9 +250,10 @@ export function AcidBaseBalanceLab() {
         </button>
       </section>
 
-      <section className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_360px]">
+      <section className="physiology-stage">
         <div className="min-w-0 overflow-hidden rounded-md border border-slate-300 bg-[#eef2f1] shadow-sm">
           <AcidBaseP5Canvas state={state} simulation={simulation} />
+          <PlaybackControls />
           <SimulationLegend />
         </div>
         <aside aria-label="산-염기 조절 변수" className="rounded-md border border-slate-300 bg-[#f8faf9] p-5 shadow-sm">
@@ -256,13 +270,14 @@ export function AcidBaseBalanceLab() {
             <span className="font-semibold text-slate-700">{simulation.phase === "compensating" ? "보상 진행 중" : simulation.phase === "compensated" ? "보상 후 새 평형" : simulation.phase === "acute" ? "급성 변화" : "현재 상태"}</span>
             <span className="font-mono tabular-nums text-slate-500">{simulation.timeLabel}</span>
           </div>
-          <button type="button" onClick={runCompensation} disabled={!compensationSystem || simulation.phase === "compensating" || simulation.phase === "compensated"} className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-md bg-[#27383c] px-4 py-3 text-sm font-semibold text-white transition hover:bg-teal-900 disabled:cursor-not-allowed disabled:bg-slate-300">
+          <button type="button" onClick={runCompensation} disabled={!compensationSystem || simulation.phase === "disturbance" || simulation.phase === "compensating" || simulation.phase === "compensated"} className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-md bg-[#27383c] px-4 py-3 text-sm font-semibold text-white transition hover:bg-teal-900 disabled:cursor-not-allowed disabled:bg-slate-300">
             <Scale className="h-4 w-4" />
             {simulation.phase === "compensating" ? `보상 진행 중 · ${simulation.timeLabel}` : simulation.phase === "compensated" ? "예상 보상 완료" : "예상 보상 진행"}
           </button>
         </aside>
       </section>
 
+      <MetricComparison metrics={[{label:"pH",value:state.pH,normal:7.4,unit:"",digits:2},{label:"PaCO₂",value:state.paCO2,normal:40,unit:"mmHg"},{label:"HCO₃⁻",value:state.bicarbonate,normal:24,unit:"mmol/L"}]} />
       <section aria-label="계산 결과" className="grid gap-y-4 rounded-md border border-slate-300 bg-[#f8faf9] py-4 sm:grid-cols-2 xl:grid-cols-4">
         <Metric label="pH" value={state.pH.toFixed(2)} status={state.status === "normal" ? "7.35-7.45" : state.status === "acidemia" ? "acidemia" : "alkalemia"} />
         <Metric label="PaCO₂" value={`${state.paCO2.toFixed(0)} mmHg`} status="호흡 성분" />
@@ -291,6 +306,6 @@ export function AcidBaseBalanceLab() {
       <p className="border-t border-slate-200 pt-4 text-xs leading-5 text-slate-500">
         학습용 단순화 모델입니다. RR은 1회호흡량과 사강이 일정하다고 가정한 환기량 기반 추정치입니다. 실제 ABGA 해석에서는 검체, FiO2, albumin, 전해질, 시간 경과와 환자 상태를 함께 평가해야 합니다.
       </p>
-    </main>
+    </div>
   );
 }

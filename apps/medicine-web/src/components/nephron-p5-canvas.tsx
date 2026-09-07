@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import type p5 from "p5";
+import { useClockRedraw } from "@/components/simulation-workbench";
 import { getNephronSegment, type NephronSegmentId, type NephronSolute, type NephronState, type NephronTransportRoute } from "@/lib/nephron-model";
 
 type P5Instance = p5;
@@ -28,17 +29,17 @@ function distanceToPath(point: Point, path: Point[]) {
 }
 
 export function NephronP5Canvas({ state, solute, selected, onSelect }: { state: NephronState; solute: NephronSolute; selected: NephronSegmentId; onSelect: (id: NephronSegmentId) => void }) {
-  const hostRef = useRef<HTMLDivElement>(null); const instanceRef = useRef<P5Instance | null>(null); const propsRef = useRef({ state, solute, selected, onSelect });
+  const hostRef = useRef<HTMLDivElement>(null); const instanceRef = useRef<P5Instance | null>(null); const clock = useClockRedraw(instanceRef); const propsRef = useRef({ state, solute, selected, onSelect });
   useEffect(() => { propsRef.current = { state, solute, selected, onSelect }; instanceRef.current?.redraw(); }, [state, solute, selected, onSelect]);
 
   useEffect(() => {
     let cancelled = false; let observer: ResizeObserver | undefined; let instance: P5Instance | undefined;
     void import("p5").then(({ default: P5 }) => {
-      if (cancelled || !hostRef.current) return; const host = hostRef.current; const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (cancelled || !hostRef.current) return; const host = hostRef.current; const reducedMotion = false;
       const sketch = (p: P5Instance) => {
         let width = 760; let height = 720; let paths: Record<NephronSegmentId, Point[]> = {} as Record<NephronSegmentId, Point[]>;
         const label = (text: string, x: number, y: number, size = 11, color = "#47595e", align: typeof p.LEFT | typeof p.CENTER | typeof p.RIGHT = p.CENTER) => { p.noStroke(); p.fill(color); p.textAlign(align, p.CENTER); p.textSize(size); p.text(text, x, y); };
-        const resize = () => { width = Math.max(320, host.clientWidth); height = width < 700 ? 900 : 720; p.resizeCanvas(width, height); };
+        const resize = () => { width = Math.max(760, host.clientWidth); height = width < 700 ? 900 : 720; p.resizeCanvas(width, height); };
 
         const buildPaths = (x: number, y: number, w: number, h: number) => {
           const pt = (nx: number, ny: number): Point => ({ x: x + nx * w, y: y + ny * h });
@@ -64,7 +65,7 @@ export function NephronP5Canvas({ state, solute, selected, onSelect }: { state: 
             p.noFill(); p.stroke(active ? "#176f70" : id === "collecting" ? "#8a6f67" : "#9b7770"); p.strokeWeight(active ? 18 : id === "descending" || id === "thin-ascending" ? 8 : 12); p.beginShape(); path.forEach((point) => p.vertex(point.x, point.y)); p.endShape();
             p.stroke("#f4e9df"); p.strokeWeight(active ? 10 : id === "descending" || id === "thin-ascending" ? 4 : 7); p.beginShape(); path.forEach((point) => p.vertex(point.x, point.y)); p.endShape();
             const remaining = Math.min(100, segment.delivered[current.solute]); const particleCount = Math.max(1, Math.round(p.map(remaining, 0, 100, 1, 7)));
-            for (let index = 0; index < particleCount; index += 1) { const point = pointOnPath(path, (p.frameCount * 0.006 + index / particleCount) % 1); p.noStroke(); p.fill(SOLUTE_COLOR[current.solute]); p.circle(point.x, point.y, current.solute === "H2O" ? 7 : 6); }
+            for (let index = 0; index < particleCount; index += 1) { const point = pointOnPath(path, ((clock.current.seconds * 30) * 0.006 + index / particleCount) % 1); p.noStroke(); p.fill(SOLUTE_COLOR[current.solute]); p.circle(point.x, point.y, current.solute === "H2O" ? 7 : 6); }
           }
 
           const labelAt = (id: NephronSegmentId, progress: number, dx: number, dy: number) => { const point = pointOnPath(paths[id], progress); const segment = getNephronSegment(current.state, id); label(segment.shortLabel, point.x + dx, point.y + dy, 9, id === current.selected ? "#176f70" : "#34464b"); };
@@ -84,7 +85,7 @@ export function NephronP5Canvas({ state, solute, selected, onSelect }: { state: 
           else routePoints = [{ x: lumenX, y }, { x: apicalX, y }, { x: cellX, y }, { x: basalX, y }, { x: interstitialX, y }, { x: capillaryX, y }];
           p.noFill(); p.stroke(`${color}aa`); p.strokeWeight(Math.max(2, p.map(activity, 0, 180, 2, 6))); p.beginShape(); routePoints.forEach((point) => p.vertex(point.x, point.y)); p.endShape();
           const count = Math.max(2, Math.round(p.map(activity, 0, 180, 2, 8)));
-          for (let index = 0; index < count; index += 1) { const point = pointOnPath(routePoints, (p.frameCount * (0.004 + activity / 30000) + index / count) % 1); p.noStroke(); p.fill(color); p.circle(point.x, point.y, 7); }
+          for (let index = 0; index < count; index += 1) { const point = pointOnPath(routePoints, ((clock.current.seconds * 30) * (0.004 + activity / 30000) + index / count) % 1); p.noStroke(); p.fill(color); p.circle(point.x, point.y, 7); }
           if (route.apical) label(route.apical, apicalX, y - 17, 9, "#40575b"); if (route.basolateral) label(route.basolateral, basalX, y - 17, 9, "#40575b");
           label(`${route.direction === "secrete" ? "분비" : route.direction === "recycle" ? "재순환" : route.direction === "filter" ? "여과" : "재흡수"} · ${route.path}`, box.x + 14, y + 23, 9, color, p.LEFT);
           label(route.detail, box.x + 14, y + 39, 9, "#6a797d", p.LEFT);
@@ -107,7 +108,7 @@ export function NephronP5Canvas({ state, solute, selected, onSelect }: { state: 
           label(`분절 처리: ${Math.abs(handled).toFixed(1)}% ${direction} → 다음 분절 ${segment.remaining[current.solute].toFixed(1)}%`, box.x + 14, box.y + box.h - 10, 10, handled < 0 ? "#9b4f59" : "#277b76", p.LEFT);
         };
 
-        p.setup = () => { const canvas = p.createCanvas(width, height); canvas.parent(host); p.frameRate(reducedMotion ? 1 : 30); p.textFont("Arial"); observer = new ResizeObserver(resize); observer.observe(host); resize(); if (reducedMotion) p.noLoop(); };
+        p.setup = () => { if (cancelled) return; const canvas = p.createCanvas(width, height); canvas.parent(host); p.frameRate(reducedMotion ? 1 : 30); p.textFont("Arial"); observer = new ResizeObserver(resize); observer.observe(host); resize(); p.noLoop(); };
         p.mousePressed = () => { const point = { x: p.mouseX, y: p.mouseY }; const nearest = SEGMENT_ORDER.map((id) => ({ id, distance: distanceToPath(point, paths[id] ?? []) })).sort((a, b) => a.distance - b.distance)[0]; if (nearest && nearest.distance < 28) propsRef.current.onSelect(nearest.id); };
         p.draw = () => {
           p.background("#edf2f1"); const compact = width < 700; const overview = compact ? { x: 12, y: 15, w: width - 24, h: 410 } : { x: 15, y: 15, w: width * 0.48, h: height - 30 };
@@ -119,6 +120,6 @@ export function NephronP5Canvas({ state, solute, selected, onSelect }: { state: 
       instance = new P5(sketch, host); instanceRef.current = instance;
     });
     return () => { cancelled = true; observer?.disconnect(); instance?.remove(); instanceRef.current = null; };
-  }, []);
-  return <div ref={hostRef} className="min-h-[720px] w-full" aria-label="통상적인 네프론 구조와 분절별 상피 확대 단면에서 용질 수송체 경로를 선택해 보는 시뮬레이션" />;
+  }, [clock]);
+  return <div ref={hostRef} className="min-h-[720px] w-full overflow-x-auto" aria-label="통상적인 네프론 구조와 분절별 상피 확대 단면에서 용질 수송체 경로를 선택해 보는 시뮬레이션" />;
 }

@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { calculateHemodynamics, getCardiacPhase } from "../src/lib/hemodynamics-model.ts";
+import { calculateHemodynamics, getCardiacPhase, cardiacSnapshot } from "../src/lib/hemodynamics-model.ts";
 import { calculateEcgState } from "../src/lib/ecg-model.ts";
 import { calculateNephronState, getNephronSegment } from "../src/lib/nephron-model.ts";
 import { calculateEndocrineState } from "../src/lib/endocrine-model.ts";
@@ -53,3 +53,32 @@ assert.ok(insulinDeficiency.stages[0].status === "high" && insulinDeficiency.sta
 assert.ok(insulinResistance.stages[0].status === "high" && insulinResistance.stages[1].status === "high" && insulinResistance.stages[2].status === "low", "insulin resistance must show high glucose and insulin with weak uptake");
 
 console.log("Interactive physiology model verification passed.");
+
+// Regressions observed in the actual interactive pages.
+import { advanceSimulation, simulationPhase } from "../src/lib/simulation-clock.ts";
+import { calculateAcidBaseState } from "../src/lib/acid-base-model.ts";
+import { calculateOxygenationState } from "../src/lib/oxygenation-model.ts";
+import { matchesInteractiveKeyword } from "./interactive-keyword-match.mjs";
+const clock = {seconds:1,playing:false,speed:.5,period:8,reducedMotion:false};
+advanceSimulation(clock,.1); assert.equal(clock.seconds,1,"pause freezes simulation");
+clock.playing=true; advanceSimulation(clock,.1); assert.equal(clock.seconds,1.05,"playback rate scales elapsed time");
+clock.seconds=9; assert.equal(simulationPhase(clock),.125,"seek wraps a full cycle");
+for(const t of [.125,.15,.179]) assert.equal(cardiacSnapshot(heartNormal,t).volume,heartNormal.edv);
+for(const t of [.525,.56,.599]) assert.equal(cardiacSnapshot(heartNormal,t).volume,heartNormal.esv);
+for(const boundary of [.12,.18,.4,.52,.6,.78,1]) {
+ const before=cardiacSnapshot(heartNormal,boundary-1e-8), after=cardiacSnapshot(heartNormal,boundary);
+ assert.ok(Math.abs(before.volume-after.volume)<.001 && Math.abs(before.pressure-after.pressure)<.001,"PV trajectory must be continuous");
+}
+assert.equal(sinus.ventricularRate,70,"do not quantize a 70/min rhythm to an 8-second event count");
+for(const rhythm of ["sinus","af","flutter","av1","mobitz1","mobitz2","complete","vt"])
+ for(const rate of [30,70,115,190]) assert.ok(calculateEcgState(rhythm,rate).events.every(e=>e.time>=0&&e.time<8),"no out-of-window QRS");
+const acidNormal=calculateAcidBaseState({ventilation:100,co2Production:100,bicarbonate:24});
+const hypovent=calculateAcidBaseState({ventilation:55,co2Production:100,bicarbonate:24});
+assert.ok(hypovent.paCO2>acidNormal.paCO2 && hypovent.pH<acidNormal.pH);
+const oxygenInputs={fio2:.21,respiratoryRate:14,vqMismatch:0,shuntFraction:.02,hemoglobin:15,pH:7.4,temperature:37};
+const oxygen=calculateOxygenationState(oxygenInputs),anemia=calculateOxygenationState({...oxygenInputs,hemoglobin:7});
+assert.ok(anemia.caO2<oxygen.caO2*.6 && Math.abs(anemia.saO2-oxygen.saO2)<1,"anemia affects content more than saturation");
+assert.equal(matchesInteractiveKeyword("NCCN oncology", "ncc"),false);
+assert.equal(matchesInteractiveKeyword("ADHD treatment", "adh"),false);
+assert.equal(matchesInteractiveKeyword("NCC 차단", "ncc"),true);
+console.log("Playback, continuous PV, ECG windows, acid-base, oxygen content and keyword regressions passed.");

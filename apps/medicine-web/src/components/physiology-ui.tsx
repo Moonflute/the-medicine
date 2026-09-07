@@ -1,5 +1,6 @@
 "use client";
 
+import { PlaybackControls } from "@/components/simulation-workbench";
 import Link from "next/link";
 import { Activity, ArrowRight, ChevronDown, RotateCcw, SlidersHorizontal } from "lucide-react";
 import type { ReactNode } from "react";
@@ -17,11 +18,11 @@ export function PhysiologyHeader({ title, description, links = [] }: { title: st
   );
 }
 
-export function PresetStrip({ presets, onSelect, onReset }: { presets: Array<{ id: string; label: string }>; onSelect: (id: string) => void; onReset: () => void }) {
+export function PresetStrip({ presets, onSelect, onReset, selected }: { selected?: string; presets: Array<{ id: string; label: string }>; onSelect: (id: string) => void; onReset: () => void }) {
   return (
     <section aria-label="생리 상태 프리셋" className="flex flex-wrap items-center gap-1.5 border-b border-slate-200 pb-4">
       <span className="mr-2 text-xs font-semibold uppercase text-slate-500">Clinical states</span>
-      {presets.map((preset) => <button key={preset.id} type="button" onClick={() => onSelect(preset.id)} className="rounded-md border border-slate-300 bg-[#f7f9f8] px-3 py-1.5 text-xs font-semibold text-slate-700 transition hover:border-teal-500 hover:bg-white hover:text-teal-900">{preset.label}</button>)}
+      {presets.map((preset) => <button key={preset.id} type="button" aria-pressed={selected === preset.id} onClick={() => onSelect(preset.id)} className="rounded-md border border-slate-300 bg-[#f7f9f8] px-3 py-1.5 text-xs font-semibold text-slate-700 transition hover:border-teal-500 hover:bg-white hover:text-teal-900">{preset.label}</button>)}
       <button type="button" onClick={onReset} className="ml-auto inline-flex h-8 w-8 items-center justify-center rounded-md border border-slate-300 bg-white text-slate-600 hover:border-teal-500 hover:text-teal-800" aria-label="정상 상태로 초기화" title="정상 상태로 초기화"><RotateCcw className="h-4 w-4" /></button>
     </section>
   );
@@ -55,5 +56,5 @@ export function ModelPanel({ eyebrow = "Model inputs", title, children }: { eyeb
 }
 
 export function CanvasFrame({ children, legend }: { children: ReactNode; legend: ReactNode }) {
-  return <div className="min-w-0 overflow-hidden rounded-md border border-slate-300 bg-[#eef2f1] shadow-sm">{children}<div className="border-t border-slate-300 bg-[#f8faf9] px-4 py-3 text-xs leading-5 text-slate-600">{legend}</div></div>;
+  return <div className="min-w-0 overflow-hidden rounded-md border border-slate-300 bg-[#eef2f1] shadow-sm">{children}<PlaybackControls /><div className="border-t border-slate-300 bg-[#f8faf9] px-4 py-3 text-xs leading-5 text-slate-600">{legend}</div></div>;
 }
